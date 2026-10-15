@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>{{TITLE}}</title>
+    
+    <!-- KaTeX CSS e JS locais com fallback CDN -->
+    <link rel="stylesheet" href="assets/katex.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+    <script src="assets/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+    <script src="assets/auto-render.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
+
+    <!-- Mermaid JS local com fallback CDN -->
+    <script src="assets/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+
+    <style>
+{{CSS}}
+    </style>
+</head>
+<body>
+
+    <!-- CAPA OFICIAL (SE HOUVER) -->
+{{COVER}}
+
+    <!-- SUMÁRIO EXECUTIVO AUTOMÁTICO -->
+{{TOC}}
+
+    <!-- CONTEÚDO PRINCIPAL COMPILADO -->
+    <main class="content-body">
+{{CONTENT}}
+    </main>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", async function() {
+        // 1. Renderizar fórmulas KaTeX
+        try {
+            if (window.renderMathInElement) {
+                renderMathInElement(document.body, {
+                    delimiters: [
+                        {left: "$$", right: "$$", display: true},
+                        {left: "\\[", right: "\\]", display: true},
+                        {left: "$", right: "$", display: false}
+                    ],
+                    ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"],
+                    throwOnError: false
+                });
+                console.log("[KaTeX] Renderizado com sucesso!");
+            }
+        } catch(e) {
+            console.warn("[KaTeX] Erro:", e);
+        }
+        window.katexDone = true;
+
+        // 2. Renderizar diagramas Mermaid com controle rigoroso de escala anti-corte
+        try {
+            if (window.mermaid) {
+                mermaid.initialize({
+                    startOnLoad: false,
+                    theme: 'default',
+                    securityLevel: 'loose',
+                    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
+                    flowchart: { useMaxWidth: false, htmlLabels: true }
+                });
+
+                const mermaidElements = document.querySelectorAll('.mermaid');
+                for (let i = 0; i < mermaidElements.length; i++) {
+                    try {
+                        await mermaid.run({ nodes: [mermaidElements[i]] });
+                    } catch(err) {
+                        console.warn("[Mermaid] Erro diagrama " + i + ":", err);
+                    }
+                }
+
+                // Pós-processamento inteligente de todos os SVGs: nunca expandir em 100% nem ultrapassar altura segura
+                const svgs = document.querySelectorAll('.mermaid svg, pre.mermaid svg, .mermaid-container svg');
+                for (const svg of svgs) {
+                    svg.removeAttribute('width');
+                    svg.removeAttribute('height');
+
+                    const vb = svg.viewBox && svg.viewBox.baseVal;
+                    if (vb && vb.width > 0 && vb.height > 0) {
+                        const MAX_H = 280; // Altura máxima estrita (evita quebra de página ou gráfico gigante)
+                        const MAX_W = 600; // Largura máxima respeitando margens ABNT
+
+                        let scale = 1.0;
+                        if (vb.height > MAX_H) {
+                            scale = Math.min(scale, MAX_H / vb.height);
+                        }
+                        if (vb.width > MAX_W) {
+                            scale = Math.min(scale, MAX_W / vb.width);
+                        }
+
+                        const finalW = Math.round(vb.width * scale);
+                        const finalH = Math.round(vb.height * scale);
+
+                        svg.style.width = finalW + 'px';
+                        svg.style.height = finalH + 'px';
+                        svg.style.maxWidth = '100%';
+                        svg.style.maxHeight = MAX_H + 'px';
+                        svg.style.display = 'inline-block';
+                        svg.style.margin = '0 auto';
+                    }
+                }
+                console.log("[Mermaid] Renderizado e redimensionado com sucesso!");
+            }
+        } catch(e) {
+            console.warn("[Mermaid] Erro global:", e);
+        }
+        window.mermaidDone = true;
+
+        document.body.setAttribute('data-ready', 'true');
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,451 @@
+/* ==========================================================================
+   CSS UNIFICADO - GUIAS DE ESTUDO TCE-GO (ABNT / FCC)
+   Base: Aprovado em convert_preview.py + Extensões de build_all_guides.py
+   ========================================================================== */
+
+:root {
+    --bg-page: #ffffff;
+    --bg-card: #ffffff;
+    --text-main: #111827;
+    --text-heading: #1e3a5f;
+    --border-card: #e2e8f0;
+    --accent-blue: #1d4ed8;
+    --table-th-bg: #1e3a5f;
+    --table-th-text: #ffffff;
+}
+
+@page {
+    size: A4;
+    /* Margens ABNT: Superior 3cm, Direita 2cm, Inferior 2cm, Esquerda 3cm */
+    margin: 30mm 20mm 20mm 30mm; 
+}
+
+* {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 9.8pt;
+    line-height: 1.58;
+    color: var(--text-main);
+    background-color: var(--bg-page);
+    padding-top: 15px; /* Evita que o texto cole na margem superior */
+    margin: 0;
+}
+
+/* Estilo de Títulos com proteção contra orfandade */
+h1 { 
+    font-size: 15pt; 
+    font-weight: 800; 
+    color: var(--text-heading); 
+    border-bottom: 2px solid var(--accent-blue); 
+    padding-bottom: 6px; 
+    page-break-after: avoid !important; 
+    break-after: avoid !important; 
+    margin-top: 20px; 
+}
+
+h2 { 
+    font-size: 12pt; 
+    font-weight: 700; 
+    color: var(--text-heading); 
+    border-left: 4px solid var(--accent-blue); 
+    padding-left: 10px; 
+    page-break-after: avoid !important; 
+    break-after: avoid !important; 
+    margin-top: 15px; 
+}
+
+h3, h4 { 
+    color: var(--text-heading); 
+    page-break-after: avoid !important; 
+    break-after: avoid !important; 
+}
+
+/* 
+   PROTEÇÃO ESTRITA CONTRA CORTE DE PÁGINA 
+   O motor de PDF deve jogar o elemento inteiro para a próxima página se ele não couber.
+*/
+.toc-module-block, .question-card, .mermaid, .mermaid-rendered, .katex-display, table, tr, pre, blockquote, .topic-meta-box, img {
+    page-break-inside: avoid !important; 
+    break-inside: avoid !important;
+    display: block; /* Necessário para garantir que o break-inside funcione em conversores baseados em WebKit */
+    margin-bottom: 15px;
+}
+
+/* Estilização de Blocos do Sumário (TOC) */
+.toc-module-block {
+    border: 1px solid var(--border-card);
+    border-radius: 6px;
+    padding: 12px;
+    background: #fafafa;
+}
+
+/* Cartões de Questões e Gabarito */
+.question-card {
+    background: var(--bg-card); 
+    border: 1.5px solid var(--border-card);
+    border-radius: 8px; 
+    padding: 16px 20px; 
+    margin-bottom: 20px;
+}
+
+.question-card p {
+    margin: 8px 0;
+    line-height: 1.58;
+}
+
+.question-card blockquote {
+    background: #f8fafc;
+    border-left: 4px solid #16a34a;
+    padding: 12px 16px;
+    border-radius: 0 6px 6px 0;
+    margin: 14px 0 6px 0;
+}
+
+.gabarito-badge {
+    background: #16a34a; 
+    color: #ffffff; 
+    font-weight: 800; 
+    font-size: 8.5pt;
+    padding: 4px 10px; 
+    border-radius: 4px; 
+    display: inline-block; 
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+/* Tabelas e Citações */
+table {
+    width: 100% !important;
+    border-collapse: collapse;
+    font-size: 8.8pt;
+    display: table !important;
+}
+
+tr {
+    display: table-row !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+}
+
+th, td { 
+    border: 1px solid var(--border-card); 
+    padding: 7px 10px; 
+    text-align: left; 
+}
+
+th { 
+    background: var(--table-th-bg); 
+    color: var(--table-th-text); 
+    font-weight: 700; 
+}
+
+blockquote { 
+    background: #f8fafc; 
+    border-left: 4px solid var(--accent-blue); 
+    padding: 12px 16px; 
+    border-radius: 0 6px 6px 0; 
+}
+
+pre { 
+    background: #f1f5f9; 
+    border: 1px solid var(--border-card); 
+    padding: 10px; 
+    border-radius: 6px; 
+    font-size: 8pt; 
+    white-space: pre-wrap; 
+}
+
+/* Links */
+a {
+    color: var(--accent-blue);
+    text-decoration: underline;
+}
+
+/* Topic Meta Box */
+.topic-meta-box {
+    background: #f8fafc;
+    border: 1px solid var(--border-card);
+    border-left: 4px solid var(--accent-blue);
+    padding: 9px 14px;
+    border-radius: 4px;
+    font-size: 8.8pt;
+    margin: 14px 0 20px 0;
+}
+
+/* Container e Diagramas Mermaid Compactos */
+.mermaid-container, .mermaid, pre.mermaid, .mermaid-rendered {
+    background: #ffffff !important;
+    border: 1px solid var(--border-card);
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin: 10px auto 14px auto !important;
+    text-align: center;
+    max-width: 95% !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    overflow: visible !important;
+}
+
+pre.mermaid {
+    white-space: normal;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.mermaid svg, pre.mermaid svg, .mermaid-rendered svg, .mermaid-container svg {
+    display: inline-block !important;
+    margin: 0 auto !important;
+    max-width: 100% !important;
+    max-height: 280px !important; /* Limite rigoroso: evita gráficos gigantes e quebra de páginas */
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Fórmulas KaTeX */
+.katex-display {
+    margin: 14px 0 !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+}
+
+/* Código Inline e Blocos */
+code {
+    font-family: 'Consolas', 'Cascadia Code', 'Courier New', monospace;
+    font-size: 8.5pt;
+    color: #991b1b;
+    background: #f1f5f9;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+pre code {
+    background: transparent;
+    color: inherit;
+    padding: 0;
+}
+
+/* Sumário ABNT Estruturado */
+.toc-container {
+    page-break-after: always;
+    break-after: page;
+    background: #ffffff;
+    border: 1.5px solid var(--border-card);
+    border-radius: 8px;
+    padding: 24px 28px;
+    margin-bottom: 35px;
+}
+
+.toc-title {
+    font-size: 15pt;
+    font-weight: 800;
+    color: var(--text-heading);
+    margin: 0 0 16px 0;
+    border-bottom: 2px solid var(--accent-blue);
+    padding-bottom: 6px;
+}
+
+.toc-module-block h3 {
+    font-size: 10pt;
+    margin: 0 0 6px 0;
+    color: var(--text-heading);
+}
+
+.toc-module-block ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    font-size: 8.8pt;
+}
+
+.toc-module-block li {
+    margin-bottom: 4px;
+    line-height: 1.4;
+}
+
+.toc-module-block a {
+    color: var(--text-main);
+    text-decoration: none;
+}
+
+.toc-module-block a:hover {
+    color: var(--accent-blue);
+    text-decoration: underline;
+}
+
+.toc-num {
+    font-weight: 700;
+    color: var(--accent-blue);
+    margin-right: 5px;
+}
+
+/* Marcador invisível para indexação no pypdf */
+.pdf-marker {
+    display: block;
+    height: 1px;
+    line-height: 1px;
+    font-size: 1pt;
+    color: transparent;
+    opacity: 0.01;
+}
+
+/* ==========================================================================
+   Elementos Específicos para Guias Multi-Módulos (de build_all_guides.py)
+   ========================================================================== */
+
+/* Badges e Alertas de Prova FCC */
+.alert-label {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 9pt;
+    margin-bottom: 4px;
+}
+.alert-label.warning { color: #dc2626; }
+.alert-label.important { color: #d97706; }
+.alert-label.note { color: #1d4ed8; }
+.alert-label.tip { color: #16a34a; }
+
+/* Capa Institucional Oficial */
+.cover-page {
+    page-break-after: always;
+    break-after: page;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 35px 22px;
+    border: 3px double var(--border-card);
+    border-radius: 10px;
+    background: var(--bg-card);
+    margin-bottom: 30px;
+}
+.cover-institution {
+    font-size: 13pt;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: var(--text-heading);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.cover-jurisdiction {
+    font-size: 10pt;
+    color: var(--text-main);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    opacity: 0.85;
+}
+.cover-title {
+    font-size: 23pt;
+    font-weight: 900;
+    color: var(--text-heading);
+    line-height: 1.25;
+    margin: 28px 0 8px 0;
+}
+.cover-subtitle {
+    font-size: 11.5pt;
+    font-weight: 700;
+    color: var(--accent-blue);
+    margin-bottom: 22px;
+}
+.cover-badges {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+.badge-pill {
+    background: #f7f2e7;
+    color: var(--text-main);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 8.5pt;
+    font-weight: 700;
+    border: 1px solid var(--border-card);
+}
+.cover-stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.stat-card {
+    background: #fdfbf7;
+    border: 1.5px solid var(--border-card);
+    border-radius: 8px;
+    padding: 12px 18px;
+    min-width: 100px;
+}
+.stat-num {
+    font-size: 19pt;
+    font-weight: 900;
+    color: var(--text-heading);
+    line-height: 1;
+}
+.stat-lbl {
+    font-size: 7.2pt;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.85;
+    margin-top: 4px;
+}
+.cover-footer {
+    font-size: 8.5pt;
+    opacity: 0.75;
+    margin-top: 24px;
+    line-height: 1.4;
+}
+
+/* Divisor de Módulo */
+.module-divider {
+    page-break-before: always;
+    break-before: page;
+    background: var(--table-th-bg);
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 24px 20px;
+    margin: 35px 0 25px 0;
+    text-align: center;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+}
+.module-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    font-size: 7.5pt;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.module-title {
+    font-size: 16pt;
+    font-weight: 800;
+    margin: 0 0 6px 0;
+    color: #ffffff !important;
+    border-bottom: none !important;
+}
+.module-subtitle {
+    font-size: 9pt;
+    opacity: 0.9;
+    margin: 0;
+    color: #e2e8f0;
+}
+
+/* Seções de Tópicos */
+.topic-section {
+    margin-bottom: 35px;
+    page-break-before: always;
+    break-before: page;
+}
+

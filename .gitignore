@@ -1,0 +1,9 @@
+# Arquivos arquivados
+resources/old-pdf/
+resources/old-html/
+
+# Cache e dependências
+__pycache__/
+*.pyc
+node_modules/
+

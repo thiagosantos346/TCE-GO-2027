@@ -1,0 +1,99 @@
+﻿# Conhecimentos Específicos – Cargo A01: Técnico de Controle Externo (Área Administrativa)
+
+> **Tribunal de Contas do Estado de Goiás (TCE-GO)**  
+> **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
+> **Banca Examinadora:** Fundação Carlos Chagas (FCC)  
+> **Estrutura:** 11 Disciplinas Especializadas | 45 Guias de Estudo Hierarquizados | 90 Questões FCC Comentadas com Justificativa Completa
+
+---
+
+## 📚 Sumário Geral das Disciplinas
+
+### [15. Noções de Direito Administrativo](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/)
+1. [`01_regime_juridico_principios_e_lindb.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/01_regime_juridico_principios_e_lindb.md) - Regime Jurídico Administrativo, Princípios Constitucionais e LINDB
+2. [`02_organizacao_administrativa_e_poderes.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/02_organizacao_administrativa_e_poderes.md) - Organização Administrativa, Poderes da Administração e Lei de Abuso de Autoridade
+3. [`03_atos_administrativos_e_processo_estadual.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/03_atos_administrativos_e_processo_estadual.md) - Teoria Geral dos Atos Administrativos e Processo Administrativo Estadual (Lei nº 13.800/2001)
+4. [`04_servicos_publicos_bens_e_responsabilidade_civil.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/04_servicos_publicos_bens_e_responsabilidade_civil.md) - Serviços Públicos, Bens Públicos e Responsabilidade Civil do Estado
+5. [`05_controle_da_administracao_e_improbidade_administrativa.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/05_controle_da_administracao_e_improbidade_administrativa.md) - Controle da Administração Pública e Lei de Improbidade Administrativa (Lei nº 8.429/92 reformada pela Lei nº 14.230/21)
+6. [`06_acesso_a_informacao_e_contratos_publicidade.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/06_acesso_a_informacao_e_contratos_publicidade.md) - Lei de Acesso à Informação e Contratos de Publicidade (Lei nº 12.232/2010)
+
+---
+
+### [16. Licitações e Contratos Administrativos](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/)
+1. [`01_governanca_planejamento_etp_tr_e_matriz_riscos.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/01_governanca_planejamento_etp_tr_e_matriz_riscos.md) - Governança das Contratações, Princípios, Fase Preparatória, ETP, TR e Matriz de Riscos
+2. [`02_fases_modalidades_e_criterios_de_julgamento.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/02_fases_modalidades_e_criterios_de_julgamento.md) - Fases da Licitação, Modalidades (Pregão, Concorrência, Concurso, Leilão, Diálogo Competitivo) e Critérios de Julgamento
+3. [`03_procedimentos_auxiliares_e_contratacao_direta.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/03_procedimentos_auxiliares_e_contratacao_direta.md) - Procedimentos Auxiliares (SRP, Credenciamento, PMI, Pré-qualificação) e Contratação Direta (Inexigibilidade e Dispensa)
+4. [`04_contratos_administrativos_fiscalizacao_alteracoes_e_sancoes.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/04_contratos_administrativos_fiscalizacao_alteracoes_e_sancoes.md) - Execução Contratual, Fiscalização, Alterações, Equilíbrio Econômico-Financeiro e Regime Sancionatório
+
+---
+
+### [17. Noções de Direito Constitucional](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/)
+1. [`01_aplicabilidade_das_normas_e_principios_fundamentais.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/01_aplicabilidade_das_normas_e_principios_fundamentais.md) - Aplicabilidade das Normas Constitucionais e Princípios Fundamentais (Arts. 1º a 4º)
+2. [`02_direitos_e_garantias_fundamentais_e_politicos.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/02_direitos_e_garantias_fundamentais_e_politicos.md) - Direitos Individuais e Coletivos, Remédios Constitucionais, Direitos Sociais, Nacionalidade e Direitos Políticos
+3. [`03_organizacao_do_estado_e_reparticao_de_competencias.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/03_organizacao_do_estado_e_reparticao_de_competencias.md) - Organização Político-Administrativa do Estado e Repartição Constitucional de Competências
+4. [`04_poder_legislativo_processo_legislativo_e_fiscalizacao_tce.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/04_poder_legislativo_processo_legislativo_e_fiscalizacao_tce.md) - Poder Legislativo, Estatuto dos Parlamentares, Processo Legislativo e Fiscalização Contábil/Financeira
+5. [`05_poder_executivo_poder_judiciario_e_funcoes_essenciais.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/05_poder_executivo_poder_judiciario_e_funcoes_essenciais.md) - Poder Executivo, Poder Judiciário (STF, STJ, CNJ) e Funções Essenciais à Justiça (MP, Advocacia Pública e Defensoria)
+
+---
+
+### [18. Noções de Controle Externo](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/)
+1. [`01_sistema_constitucional_e_jurisdicao_dos_tcs.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/01_sistema_constitucional_e_jurisdicao_dos_tcs.md) - Sistema Constitucional de Controle, Jurisdição e Competências dos Tribunais de Contas
+2. [`02_instrumentos_e_tipos_de_auditoria_governamental_nbasp.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/02_instrumentos_e_tipos_de_auditoria_governamental_nbasp.md) - Instrumentos de Fiscalização, Tipos de Auditoria Governamental e Normas NBASP / INTOSAI
+3. [`03_planejamento_amostragem_procedimentos_e_achados.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/03_planejamento_amostragem_procedimentos_e_achados.md) - Planejamento, Amostragem, Técnicas de Coleta de Evidências e Estruturação de Achados
+4. [`04_relatorios_processo_de_controle_externo_e_sancoes.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/04_relatorios_processo_de_controle_externo_e_sancoes.md) - Relatórios, Tomada de Contas Especial (TCE), Processo de Controle Externo e Regime Sancionatório
+
+---
+
+### [19. Noções de Administração Financeira e Orçamentária (AFO)](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/)
+1. [`01_orcamento_publico_principios_e_ciclo_ppa_ldo_loa.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/01_orcamento_publico_principios_e_ciclo_ppa_ldo_loa.md) - Orçamento Público, Princípios Orçamentários, Ciclo Orçamentário, PPA, LDO, LOA e Orçamento Impositivo
+2. [`02_receita_publica_estagios_fontes_e_classificacoes.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/02_receita_publica_estagios_fontes_e_classificacoes.md) - Receita Orçamentária, Ingressos Extraorçamentários, Estágios da Receita e Classificações Econômicas
+3. [`03_despesa_publica_estagios_restos_a_pagar_e_suprimento.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/03_despesa_publica_estagios_restos_a_pagar_e_suprimento.md) - Despesa Pública, Estágios, Classificações, Restos a Pagar, DEA e Suprimento de Fundos
+4. [`04_creditos_adicionais_e_divida_publica.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/04_creditos_adicionais_e_divida_publica.md) - Créditos Adicionais (Suplementares, Especiais, Extraordinários), Fontes de Financiamento e Dívida Pública
+5. [`05_lei_de_responsabilidade_fiscal_lrf_e_despesa_com_pessoal.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/05_lei_de_responsabilidade_fiscal_lrf_e_despesa_com_pessoal.md) - Lei de Responsabilidade Fiscal (LRF), Despesa com Pessoal, Limites Fiscais e Operações de Crédito (ARO)
+
+---
+
+### [20. Contabilidade Aplicada ao Setor Público (CASP)](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/20_contabilidade_aplicada_ao_setor_publico/)
+1. [`01_nbc_tsp_estrutura_conceitual_e_normas_gerais.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/20_contabilidade_aplicada_ao_setor_publico/01_nbc_tsp_estrutura_conceitual_e_normas_gerais.md) - NBC TSP Estrutura Conceitual, Características Qualitativas e Normas Gerais
+2. [`02_mcasp_procedimentos_orcamentarios_e_patrimoniais.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/20_contabilidade_aplicada_ao_setor_publico/02_mcasp_procedimentos_orcamentarios_e_patrimoniais.md) - Procedimentos Contábeis Orçamentários (PCO) e Patrimoniais (PCP) - MCASP 11ª Edição
+3. [`03_pcasp_estrutura_e_lancamentos_contabeis.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/20_contabilidade_aplicada_ao_setor_publico/03_pcasp_estrutura_e_lancamentos_contabeis.md) - Plano de Contas Aplicado ao Setor Público (PCASP) e Lançamentos Contábeis Típicos
+4. [`04_demonstracoes_contabeis_mcasp_e_prestacao_de_contas.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/20_contabilidade_aplicada_ao_setor_publico/04_demonstracoes_contabeis_mcasp_e_prestacao_de_contas.md) - Demonstrações Contábeis (BO, BF, BP, DVP), Lei nº 4.320/64 e Prestação de Contas ao Tribunal de Contas
+
+---
+
+### [21. Noções de Administração Pública](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/21_nocoes_de_administracao_publica/)
+1. [`01_organizacoes_formais_estruturas_e_processo_organizacional.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/21_nocoes_de_administracao_publica/01_organizacoes_formais_estruturas_e_processo_organizacional.md) - Organizações Formais, Estruturas, Departamentalização e Processo Organizacional (PODC)
+2. [`02_modelos_de_administracao_publica_e_governanca.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/21_nocoes_de_administracao_publica/02_modelos_de_administracao_publica_e_governanca.md) - Modelos de Administração Pública (Patrimonialista, Burocrática, Gerencial), Governança, Governabilidade e LAI
+3. [`03_gestao_da_qualidade_processos_projetos_e_decreto_9094.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/21_nocoes_de_administracao_publica/03_gestao_da_qualidade_processos_projetos_e_decreto_9094.md) - Gestão da Qualidade, Desburocratização (Decreto nº 9.094/2017), Gestão de Processos (BPM) e Projetos
+4. [`04_planejamento_estrategico_indicadores_e_gestao_por_competencias.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/21_nocoes_de_administracao_publica/04_planejamento_estrategico_indicadores_e_gestao_por_competencias.md) - Planejamento Estratégico, BSC, Indicadores de Desempenho, Gestão por Competências e Processo Decisório
+
+---
+
+### [22. Administração Geral](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/22_administracao_geral/)
+1. [`01_teorias_da_administracao_e_escolas_administrativas.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/22_administracao_geral/01_teorias_da_administracao_e_escolas_administrativas.md) - Teorias da Administração, Escolas Administrativas e Metáforas Organizacionais
+2. [`02_organizacao_racional_do_trabalho_estruturas_e_ambientes.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/22_administracao_geral/02_organizacao_racional_do_trabalho_estruturas_e_ambientes.md) - Organização Racional do Trabalho (ORT), Eficiência vs. Eficácia, Estruturas e Ambientes Organizacionais
+3. [`03_processo_decisorio_visao_sistemica_e_gerenciamento_de_projetos.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/22_administracao_geral/03_processo_decisorio_visao_sistemica_e_gerenciamento_de_projetos.md) - Processo Decisório, Tipos de Decisão, Visão Sistêmica e Gerenciamento de Projetos (CPM, PERT, Gantt)
+
+---
+
+### [23. Administração Estratégica](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/23_administracao_estrategica/)
+1. [`01_planejamento_estrategico_missao_visao_valores_e_escolas.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/23_administracao_estrategica/01_planejamento_estrategico_missao_visao_valores_e_escolas.md) - Planejamento Estratégico: Missão, Visão, Valores e as 10 Escolas Estratégicas (Mintzberg)
+2. [`02_ferramentas_de_diagnostico_estrategico_swot_porter_rbv_canvas.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/23_administracao_estrategica/02_ferramentas_de_diagnostico_estrategico_swot_porter_rbv_canvas.md) - Ferramentas de Diagnóstico: SWOT Cruzada, Cinco Forças de Porter, Estratégias Genéricas, RBV (VRIO) e Business Model Canvas
+3. [`03_cadeia_de_valor_bsc_e_execucao_estrategica.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/23_administracao_estrategica/03_cadeia_de_valor_bsc_e_execucao_estrategica.md) - Cadeia de Valor de Porter, Desdobramento do BSC (*Cascading*), Barreiras à Execução e Governança
+
+---
+
+### [24. Comportamento Organizacional](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/24_comportamento_organizacional/)
+1. [`01_individuo_personalidade_valores_atitudes_e_motivacao.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/24_comportamento_organizacional/01_individuo_personalidade_valores_atitudes_e_motivacao.md) - Comportamento Individual, Personalidade (Big Five), Valores, Atitudes e Teorias da Motivação (Maslow, Herzberg, Vroom, Adams, Locke)
+2. [`02_grupos_equipes_lideranca_e_comunicacao_organizacional.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/24_comportamento_organizacional/02_grupos_equipes_lideranca_e_comunicacao_organizacional.md) - Grupos e Equipes de Trabalho, Ciclo de Tuckman, Teorias da Liderança (Situacional, Transformacional) e Processo de Comunicação
+3. [`03_conflito_negociacao_cultura_clima_e_desenvolvimento_organizacional.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/24_comportamento_organizacional/03_conflito_negociacao_cultura_clima_e_desenvolvimento_organizacional.md) - Gestão de Conflitos (Thomas-Kilmann), Técnicas de Negociação (ZOPA, BATNA), Cultura (Schein), Clima e Mudança Organizacional (Lewin)
+
+---
+
+### [25. Gestão de Pessoas](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/)
+1. [`01_processos_de_gp_recrutamento_selecao_e_integracao.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/01_processos_de_gp_recrutamento_selecao_e_integracao.md) - Processos de GP (Chiavenato), Recrutamento Interno vs. Externo, Técnicas de Seleção e Integração (*Onboarding*)
+2. [`02_treinamento_desenvolvimento_aprendizagem_e_gestao_do_conhecimento.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/02_treinamento_desenvolvimento_aprendizagem_e_gestao_do_conhecimento.md) - Treinamento vs. Desenvolvimento, 4 Níveis de Kirkpatrick, Gestão do Conhecimento (Modelo SECI) e as 5 Disciplinas de Peter Senge
+3. [`03_avaliacao_de_desempenho_remuneracao_qvt_e_teletrabalho.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/03_avaliacao_de_desempenho_remuneracao_qvt_e_teletrabalho.md) - Avaliação de Desempenho (Métodos e Vieses), Remuneração, Modelo de QVT de Walton, Inclusão e Teletrabalho no Setor Público
+4. [`04_estatuto_dos_servidores_do_estado_de_goias_lei_20756.md`](file:///c:/Users/thiag/OneDrive/Desktop/Sefaz%20Go/fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/04_estatuto_dos_servidores_do_estado_de_goias_lei_20756.md) - Regime Jurídico dos Servidores Públicos Civis de Goiás (Lei Estadual nº 20.756/2020)
+
+
