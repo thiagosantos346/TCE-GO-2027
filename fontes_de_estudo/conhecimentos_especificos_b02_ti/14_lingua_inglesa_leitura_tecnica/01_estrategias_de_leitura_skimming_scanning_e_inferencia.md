@@ -15,63 +15,50 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
+## 🧭 Sumário
 
-```text
-1. Leitura Instrumental em Inglês para TI
-├── 1.1 Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)
-│   ├── 1.1.1 Foco em Leitura Técnica: Compreensão rápida e precisa dispensando pronúncia ou conversação
-│   └── 1.1.2 Fases do Processo de Leitura: Pré-leitura (ativação de conhecimento prévio), Leitura atenta e Pós-leitura
-├── 1.2 Estratégias Centrais de Leitura Técnica
-│   ├── 1.2.1 Skimming (Leitura Rápida Panorâmica):
-│   │   ├── Objetivo: Captar o sentido global, o tema central e a ideia principal (Main Idea / Gist)
-│   │   ├── Técnica: Leitura rápida do título, subtítulo, primeira frase de cada parágrafo (Topic Sentence), palavras em negrito e parágrafo de conclusão
-│   │   └── Resposta a questões do tipo: "The main purpose of the text is to...", "The author's primary argument is that..."
-│   ├── 1.2.2 Scanning (Leitura de Varredura Seletiva):
-│   │   ├── Objetivo: Localizar uma informação específica pontual no texto sem ler tudo detalhadamente
-│   │   ├── Técnica: Os olhos correm pelo texto buscando palavras-chave pré-determinadas (datas, números, acrônimos, nomes de protocolos, classes, autores)
-│   │   └── Resposta a questões do tipo: "According to paragraph 3, what is the latency threshold...?", "In which year was the protocol deprecated?"
-│   ├── 1.2.3 Predição e Pistas Contextuais:
-│   │   ├── Uso de elementos não-verbais: Gráficos, tabelas, blocos de código, diagramas de arquitetura e capturas de tela
-│   │   └── Recursos tipográficos: Palavras em itálico, código formatado, listas com marcadores (bullet points)
-│   └── 1.2.4 Inferência Contextual (Context Clues):
-│       ├── Dedução do significado de termos desconhecidos pela análise de:
-│       │   ├── Definição direta ou paráfrase fornecida no próprio texto ("that is", "in other words", "defined as")
-│       │   ├── Exemplos fornecidos ("such as", "for instance", "e.g.")
-│       │   ├── Relações de contraste e oposição ("unlike", "in contrast to", "instead of")
-│       │   └── Análise morfológica da raiz da palavra
-├── 1.3 Cognatos e Falsos Cognatos no Inglês Técnico
-│   ├── 1.3.1 Cognatos Verdadeiros (True Cognates): Palavras com grafia e sentido semelhantes em inglês e português (computer, protocol, system, architecture, database, network, memory)
-│   └── 1.3.2 Falsos Cognatos Críticos em Provas de TI (False Friends):
-│       ├── Actually: Na verdade, realmente (NÃO significa "atualmente" -> atualmente é currently)
-│       ├── Eventually: No final das contas, finalmente (NÃO significa "eventualmente/às vezes" -> ocasionalmente é occasionally)
-│       ├── Pretend: Fingir (NÃO significa "pretender" -> pretender é intend)
-│       ├── Policy: Política, diretriz, regulamento (NÃO significa "polícia" -> polícia é police)
-│       ├── Notice: Notar, aviso, comunicado (NÃO significa "notícia" -> notícia é news)
-│       ├── Push: Empurrar (NÃO significa "puxar" -> puxar é pull)
-│       ├── Comprehensive: Abrangente, completo, amplo (NÃO significa "compreensivo/tolerante" -> compreensivo é understanding)
-│       ├── Library: Biblioteca de código/livros (NÃO significa "livraria" -> livraria é bookstore)
-│       ├── Resume: Retomar, reiniciar (NÃO significa "resumo" -> resumo é summary)
-│       └── Require: Exigir, necessitar (NÃO significa "requerer juridicamente" -> peticionar é request/petition)
-```
+- [1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)](#1-fundamentos-do-inglês-instrumental-english-for-specific-purposes---esp)
+  - [1.1 Tripé de Competências Cognitivas](#11-tripé-de-competências-cognitivas)
+  - [1.2 Fases do Processo de Leitura Técnica](#12-fases-do-processo-de-leitura-técnica)
+- [2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)](#2-skimming-leitura-rápida-panorâmica-main-idea--gist)
+  - [2.1 Mecânica de Execução e Tópico Frasal](#21-mecânica-de-execução-e-tópico-frasal)
+  - [2.2 Identificação de Tipos de Questões FCC](#22-identificação-de-tipos-de-questões-fcc)
+- [3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)](#3-scanning-leitura-de-varredura-seletiva-locating-specific-data)
+  - [3.1 Mecânica de Execução e Pistas Tipográficas](#31-mecânica-de-execução-e-pistas-tipográficas)
+  - [3.2 Matriz Comparativa: Skimming vs. Scanning](#32-matriz-comparativa-skimming-vs-scanning)
+- [4. Predição e Pistas Contextuais de Vocabulário (Context Clues)](#4-predição-e-pistas-contextuais-de-vocabulário-context-clues)
+  - [4.1 Pistas de Definição, Paráfrase e Exemplificação](#41-pistas-de-definição-paráfrase-e-exemplificação)
+  - [4.2 Pistas de Contraste, Oposição, Causa e Efeito](#42-pistas-de-contraste-oposição-causa-e-efeito)
+  - [4.3 Decomposição Morfológica (Prefixos, Raízes e Sufixos)](#43-decomposição-morfológica-prefixos-raízes-e-sufixos)
+  - [4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software](#44-vocabulário-crítico-de-engenharia-e-arquitetura-de-software)
+- [5. Falsos Cognatos Críticos em TI (False Friends)](#5-falsos-cognatos-críticos-em-ti-false-friends)
+  - [5.1 Cognatos Verdadeiros vs. Falsos Amigos](#51-cognatos-verdadeiros-vs-falsos-amigos)
+  - [5.2 Quadro Lexical de Falsos Cognatos Críticos](#52-quadro-lexical-de-falsos-cognatos-críticos)
+- [6. Coesão Textual e Referência Pronominal (Reference Words)](#6-coesão-textual-e-referência-pronominal-reference-words)
+  - [6.1 Anáfora e Catáfora em Textos Técnicos](#61-anáfora-e-catáfora-em-textos-técnicos)
+  - [6.2 Encapsulamento Conceitual com Demonstrativos](#62-encapsulamento-conceitual-com-demonstrativos)
+- [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
+- [8. Questões Comentadas & Exemplos (Padrão FCC)](#8-questões-comentadas--exemplos-padrão-fcc)
 
 ---
 
-## 📖 Teoria Aprofundada & Fundamentos Metodológicos
+## 1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)
 
-### 1.1 O Que É Inglês Instrumental (*English for Specific Purposes - ESP*)?
+O **Inglês Instrumental** (*English for Specific Purposes - ESP*) rege-se pelo princípio da **utilidade pragmática**: o propósito do candidato ou técnico não é adquirir fluência de conversação, pronúncia nativa ou redação literária, mas sim a **decodificação rápida, crítica e exata** de textos técnicos especializados no domínio de Tecnologia da Informação.
 
-O **Inglês Instrumental** (ou ESP) orienta-se pelo princípio da **utilidade pragmática**: o objetivo do estudante não é desenvolver fluência oral, pronúncia nativa ou produção escrita literária, mas sim dominar a **decodificação rápida e precisa** de textos técnicos especializados em seu domínio de atuação (no caso, a Tecnologia da Informação).
+Em certames públicos organizados pela Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia de Controle Externo, o tempo médio disponível por questão gira em torno de 3 minutos. Candidatos que adotam a estratégia ingênua de tentar traduzir mentalmente o texto palavra por palavra (*word-by-word translation*) exaurem o tempo de prova, sobrecarregam a memória de trabalho e perdem a percepção da macroestrutura argumentativa do autor.
 
-Nas provas da Fundação Carlos Chagas (FCC) para cargos de Auditoria, Controle Externo e Análise de TI, o tempo por questão é um recurso escasso (em média 3 minutos por questão). Candidatos que tentam traduzir mentalmente o texto palavra por palavra (*word-by-word translation*) esgotam o tempo da prova e perdem a visão global da macroestrutura textual. A proficiência instrumental apoia-se em um **tripé de competências cognitivas**:
+### 1.1 Tripé de Competências Cognitivas
 
-1. **Conhecimento Linguístico Básico (Linguistic Competence):** Domínio de estruturas sintáticas essenciais (voz passiva, modais, ordem adjetivo-substantivo) e conectivos lógicos (*linking words*).
-2. **Conhecimento de Mundo e de TI (Schema / Background Knowledge):** O candidato que já compreende conceitos de arquitetura de microsserviços, concorrência, criptografia e bancos de dados ativa esquemas conceituais (*schemata*) que compensam lacunas lexicais durante a leitura.
-3. **Estratégias Metacognitivas de Leitura (Reading Strategies):** Capacidade deliberada de alternar entre *Skimming*, *Scanning*, *Prediction* e *Inferencing* de acordo com a demanda específica de cada questão da banca.
+A proficiência instrumental sólida decorre da integração sinérgica de três dimensões cognitivas:
+
+1. **Competência Linguística Mínima (*Linguistic Competence*):** Domínio de estruturas morfossintáticas centrais (voz passiva abundante em relatórios técnicos, verbos modais que regulam graus de certeza e obrigatoriedade, ordem sintática modificador-núcleo e conectivos de coesão lógica).
+2. **Esquemas Prévios de Conhecimento (*Background Knowledge / Schemata*):** O repertório técnico prévio do candidato (conceitos de bancos de dados, governança de TI, microsserviços, criptografia, redes, inteligência artificial) atua como um acelerador de compreensão. As lacunas no vocabulário em língua inglesa são compensadas e preenchidas pela familiaridade com o objeto computacional discutido.
+3. **Estratégias Metacognitivas de Leitura (*Metacognitive Reading Strategies*):** Capacidade de monitorar conscientemente o ato de ler, selecionando dinamicamente entre *Skimming*, *Scanning*, *Prediction* e *Inferencing* conforme a demanda da banca avaliadora.
 
 ```mermaid
 flowchart TD
-    A["Leitura Instrumental em TI"] --> B["Conhecimento Linguístico Mínimo<br/>(Gramática Nuclear, Conectivos, Voz Passiva)"]
+    A["Leitura Instrumental em TI"] --> B["Competência Linguística Mínima<br/>(Gramática Nuclear, Modais, Voz Passiva, Conectivos)"]
     A --> C["Conhecimento Prévio de TI<br/>(Background Knowledge / Schemata)"]
     A --> D["Estratégias Metacognitivas<br/>(Skimming, Scanning, Context Clues)"]
     
@@ -81,142 +68,182 @@ flowchart TD
     E --> F["Resolução de Questões em Menos de 3 Minutos"]
 ```
 
----
+### 1.2 Fases do Processo de Leitura Técnica
 
-### 1.2 Skimming: Leitura Rápida Panorâmica (*Main Idea & Gist*)
+Para maximizar a eficiência, a leitura técnica orientada a concurso estrutura-se em três etapas sequenciais:
 
-O **Skimming** (do inglês *to skim*, "desnatar", retirar a nata da superfície) é uma técnica de leitura acelerada cujo propósito é **captar a ideia central, o tema geral e a estrutura macrotextual** sem se ater a pormenores, dados estatísticos ou vocábulos isolados desconhecidos.
-
-#### Mecânica de Execução do Skimming:
-1. **Inspeção Periférica:** Ler atentamente o título (*title*), subtítulos (*headings / subheadings*) e a fonte bibliográfica (autor, veículo, data de publicação).
-2. **Tópico Frasal (*Topic Sentence*):** Em artigos técnicos formais de TI, a primeira ou a segunda frase de cada parágrafo sintetiza o argumento central daquele parágrafo. Concentre sua leitura no início de cada bloco textual.
-3. **Sentença Conclusiva (*Concluding Sentence*):** Ler a última frase do parágrafo, que frequentemente reforça a tese ou introduz a transição para o próximo tópico.
-4. **Parágrafo Conclusivo:** Ler com atenção o último parágrafo do texto, onde o autor costuma recapitular os achados, lições aprendidas ou trabalhos futuros (*findings, remarks, conclusions*).
-5. **Velocidade:** A velocidade de leitura no *skimming* deve ser de aproximadamente 600 a 800 palavras por minuto, cerca de 3 a 4 vezes mais rápida do que uma leitura analítica convencional.
-
-#### Tipos de Questões FCC Respondidas por Skimming:
-- *"The main purpose of the text is to..."* (O objetivo principal do texto é...)
-- *"Which of the following statements best expresses the central idea of the passage?"* (Qual das afirmações expressa melhor a ideia central do trecho?)
-- *"The author's primary argument concerning microservices is that..."* (O argumento primordial do autor referente a microsserviços é que...)
-- *"The tone of the author can be characterized as..."* (O tom do autor pode ser caracterizado como crítico, neutro, persuasivo, descritivo...)
+- **Pré-leitura (*Pre-reading*):** Leitura prévia do enunciado e das alternativas da questão antes de examinar o corpo do texto. Observação rápida do título, subtítulos, autor, fonte bibliográfica e elementos não-verbais (tabelas, figuras, trechos de código).
+- **Leitura Atenta / Focada (*While-reading*):** Aplicação de *skimming* para localização da ideia central ou de *scanning* para rastreamento cirúrgico de evidências pontuais.
+- **Pós-leitura (*Post-reading*):** Confrontação das evidências colhidas no texto com as asserções de cada alternativa de A a E, desmascarando distorções, generalizações indevidas e falsos cognatos.
 
 ---
 
-### 1.3 Scanning: Leitura de Varredura Seletiva (*Locating Specific Data*)
+## 2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)
 
-O **Scanning** (como o feixe de um leitor de código de barras ou um utilitário `grep`) é a estratégia pela qual o leitor **não lê o texto linearmente**, mas move os olhos em zigue-zague ou verticalmente pela página procurando **uma pista visual ou palavra-chave (*anchor word*) predeterminada**.
+O **Skimming** (derivado do verbo *to skim*, "desnatar", retirar a camada superior) consiste em uma leitura acelerada e panorâmica com o objetivo precípuo de **captar a ideia principal (*gist / main idea*), o tema global, o tom e a arquitetura macrotextual**, sem deter-se em pormenores secundários, dados numéricos isolados ou termos desconhecidos.
 
-#### Mecânica de Execução do Scanning:
-1. **Identificar o Alvo no Enunciado:** Antes de retornar ao texto, leia a pergunta da prova e circule a informação solicitada (ex.: um número de porta TCP, um percentual de redução de latência, o nome de um algoritmo, uma norma da ISO/IEC, o nome de um pesquisador ou framework).
-2. **Definir o Formato Tipográfico da Pista:**
-   - Datas e números: dígitos arábicos (`2024`, `99.999%`, `250 ms`, `4096-bit`).
-   - Nomes próprios e siglas: letras maiúsculas ou acrônimos (`NIST`, `OAuth 2.0`, `PostgreSQL`, `DDoS`).
-   - Termos técnicos de programação: grafia em caixa alta ou termos entre aspas (`immutable`, `mutex`, `idempotent`).
-3. **Varredura Ocular:** Mover o olhar rapidamente sem subvocalizar (sem falar mentalmente as palavras). Ignore todas as palavras que não correspondam ao padrão da pista.
-4. **Leitura Pontual em Camada Fina:** Ao colidir visualmente com a pista, interrompa a varredura e leia com minúcia cirúrgica apenas a oração imediatamente anterior e a oração subsequente ao termo localizado.
+### 2.1 Mecânica de Execução e Tópico Frasal
 
-#### Tabela Comparativa: Skimming vs. Scanning
+1. **Inspeção de Cabeçalho e Metadados:** Ler com atenção o título (*title*), subtítulos (*headings*), notas de rodapé e a referência bibliográfica (veículo como IEEE, ACM, Gartner, NIST, data de publicação).
+2. **Priorização do Tópico Frasal (*Topic Sentence*):** Na literatura técnica e acadêmica formal em língua inglesa, a primeira ou a segunda oração de cada parágrafo sintetiza a proposição nuclear que será desenvolvida no restante do parágrafo. Concentrar o foco no início dos parágrafos proporciona um mapa conceitual imediato de todo o texto.
+3. **Leitura da Sentença Conclusiva (*Concluding Sentence*):** A última oração do parágrafo frequentemente sintetiza a dedução obtida ou fornece o gancho lógico (*bridge*) para a seção subsequente.
+4. **Leitura Aprofundada do Último Parágrafo:** No parágrafo final, os autores habitualmente condensam suas conclusões, recomendações práticas ou implicações (*findings, concluding remarks, takeaways*).
+5. **Cadência Visual:** A velocidade recomendada para o *skimming* varia entre 600 e 800 palavras por minuto, o que representa uma velocidade 3 a 4 vezes superior à leitura analítica linear.
 
-| Dimensão de Comparação | *Skimming* (Leitura Panorâmica) | *Scanning* (Varredura Seletiva) |
+### 2.2 Identificação de Tipos de Questões FCC
+
+A FCC recorre frequentemente a comandos que demandam exclusivamente a aplicação de *Skimming*:
+- *"The main purpose of the text is to..."* (O objetivo central do texto é...)
+- *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?)
+- *"The central theme discussed in the passage revolves around..."* (O tema central discutido no texto gira em torno de...)
+- *"The overall tone of the author can be characterized as..."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
+
+> 💡 **Dica de Prova FCC:**  
+> Ao resolver questões de ideia principal (*Skimming*), elimine imediatamente alternativas que apresentem fatos verdadeiros contidos no texto, mas que se refiram a detalhes secundários ou exemplos pontuais de um único parágrafo. Uma ideia central deve cobrir a totalidade do texto, e não um aspecto isolado.
+
+---
+
+## 3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)
+
+O **Scanning** (análogo à operação de busca de um comando `grep` ou ao feixe de um leitor óptico) é a estratégia não-linear de leitura orientada à **localização instantânea de uma informação específica pontual**, dispensando por completo a leitura integral do texto.
+
+### 3.1 Mecânica de Execução e Pistas Tipográficas
+
+1. **Definição da Âncora no Enunciado:** Antes de olhar para o texto, o candidato identifica o termo-chave (*anchor word / keyword*) no comando da questão ou nas alternativas (por exemplo: um número de norma ISO/IEC, um percentual de redução, o nome de um algoritmo, uma porta de comunicação, um autor ou uma linha indicada).
+2. **Mapeamento do Padrão Gráfico:**
+   - **Numéricos e Temporais:** Algarismos arábicos (`2024`, `99.99%`, `128-bit`, `500 ms`).
+   - **Nomes Próprios e Acrônimos:** Grafia em caixa alta ou siglas conhecidas (`NIST`, `OAuth 2.0`, `PostgreSQL`, `Kubernetes`).
+   - **Termos de Sintaxe / TI:** Palavras grafadas em itálico, com formatação monotipada ou entre aspas (`idempotent`, `deadlock`, `mutex`).
+3. **Varredura Ocular Não-Linear:** Percorrer os olhos rapidamente em zigue-zague ou verticalmente pela página, inibindo qualquer subvocalização. Tudo o que não coincide com a âncora gráfica é visualmente descartado.
+4. **Foco Cirúrgico Local:** Ao identificar visualmente a âncora, interromper a varredura e realizar uma leitura analítica rigorosa apenas da oração que contém o termo, bem como da oração imediatamente anterior e posterior.
+
+### 3.2 Matriz Comparativa: Skimming vs. Scanning
+
+| Critério de Comparação | *Skimming* (Leitura Panorâmica) | *Scanning* (Varredura Seletiva) |
 | :--- | :--- | :--- |
-| **Objetivo Primário** | Identificar a ideia geral (*gist*), o tema central e o tom do autor | Localizar um dado pontual específico (fato, data, métrica, nome) |
-| **Direção do Olhar** | Topo para base, focando nas primeiras e últimas frases dos parágrafos | Movimento em zigue-zague ou vertical veloz buscando pistas visuais |
-| **Velocidade de Leitura** | Muito alta (3x a 4x mais rápida que a normal) | Instantânea (focada exclusivamente no termo-alvo) |
-| **Leitura Linear?** | Sim, porém filtrada (lê apenas o esqueleto estrutural) | Não, totalmente não-linear (ignora o texto até achar a pista) |
-| **Ponto de Partida** | Inicia no texto antes de responder à macroestrutura | Inicia **no enunciado da questão**, identificando o termo de busca |
-| **Comandos de Prova Típicos** | *"The text aims to discuss...", "The main topic is..."* | *"According to paragraph 3...", "In 2023, the throughput was..."* |
+| **Objetivo Central** | Captar a ideia geral (*gist*), o tema primordial e o tom argumentativo | Localizar uma evidência específica e pontual (fato, dado numérico, protocolo) |
+| **Ponto de Partida** | Inicia no topo do texto, percorrendo as seções estruturantes | Inicia **no enunciado da questão**, definindo a âncora antes de ir ao texto |
+| **Modo de Varredura** | Linear seletivo (lê os tópicos frasais de cima para baixo) | Totalmente não-linear (olhos movem-se em zigue-zague buscando o padrão gráfico) |
+| **Velocidade** | Acelerada (600 a 800 palavras por minuto) | Instantânea (tempo estritamente necessário para localizar a âncora) |
+| **Comandos Típicos FCC** | *"The main purpose is...", "The author primarily argues..."* | *"According to paragraph 2...", "The latency threshold in 2025 was..."* |
 
 ```mermaid
 flowchart TD
-    Start["Você lê a questão da prova da FCC"] --> CheckType{"Que tipo de informação a questão exige?"}
+    Q["Leitura do Enunciado da FCC"] --> Decision{"Qual o foco da pergunta?"}
     
-    CheckType -- "Ideia Geral, Propósito, Tema Central, Tese do Autor" --> SkimAction["Aplicar SKIMMING:"]
-    SkimAction --> Skim1["1. Leia Título, Subtítulos e Fonte"]
-    Skim1 --> Skim2["2. Leia a primeira frase de cada parágrafo (Topic Sentence)"]
-    Skim2 --> Skim3["3. Leia o parágrafo de conclusão"]
-    Skim3 --> AnsSkim["Identifique a tese central e responda à alternativa"]
+    Decision -- "Ideia Central / Propósito / Tema Global" --> SkimFlow["Estratégia: SKIMMING"]
+    SkimFlow --> S1["1. Analisar Título, Subtítulos e Fonte"]
+    S1 --> S2["2. Ler o Tópico Frasal de cada parágrafo"]
+    S2 --> S3["3. Ler o Parágrafo Conclusivo"]
+    S3 --> S4["Confrontar com as alternativas conceituais"]
     
-    CheckType -- "Dado Pontual, Métrica, Data, Norma, Algoritmo, Linha Específica" --> ScanAction["Aplicar SCANNING:"]
-    ScanAction --> Scan1["1. Circule a palavra-chave no enunciado (ex.: 'AES-256', 'latency', 'line 14')"]
-    Scan1 --> Scan2["2. Mova os olhos em zigue-zague buscando o padrão gráfico"]
-    Scan2 --> Scan3["3. Pare na palavra-chave e leia a oração em volta com rigor analítico"]
-    Scan3 --> AnsScan["Valide a afirmação nas alternativas"]
+    Decision -- "Dado Específico / Número / Norma / Linha X" --> ScanFlow["Estratégia: SCANNING"]
+    ScanFlow --> SC1["1. Isolar a palavra-âncora no enunciado (ex.: 'AES-256', 'line 12')"]
+    SC1 --> SC2["2. Varrer o texto em zigue-zague sem ler frases completas"]
+    SC2 --> SC3["3. Parar na âncora e ler a frase contextual em camada fina"]
+    SC3 --> SC4["Validar a verdade ou falsidade da alternativa pontual"]
 ```
 
 ---
 
-### 1.4 Predição e Pistas Contextuais (*Context Clues*)
+## 4. Predição e Pistas Contextuais de Vocabulário (Context Clues)
 
-Nas provas da FCC, é deliberadamente provável que o candidato encontre palavras raras, arcaicas ou altamente especializadas que não constam do seu vocabulário diário. A técnica de **inferência contextual (*Context Clues*)** permite deduzir o sentido exato do vocábulo a partir do ambiente sintático e semântico em que ele está inserido, dispensando o uso de dicionários.
+Em certames da FCC para a área de TI, é praxe a inclusão de vocabulário técnico rebuscado, jargões emergentes ou termos polissêmicos. O candidato não precisa conhecer previamente todos os verbetes da língua inglesa; precisa, sim, saber utilizar as **pistas contextuais (*Context Clues*)** para deduzir o significado exato de palavras desconhecidas diretamente da oração em que figuram.
 
-Existem cinco categorias canônicas de pistas contextuais recorrentes em textos técnicos de TI:
+### 4.1 Pistas de Definição, Paráfrase e Exemplificação
 
-#### 1. Definição Direta ou Paráfrase (*Definition / Restatement Clues*)
-O próprio autor define o termo desconhecido logo em seguida, isolado por vírgulas, travessões, parênteses ou conjunções explicativas (*that is, in other words, known as, which means, defined as*).
-> *Exemplo:* *"The system relies on an **idempotent** operation—**that is, an operation that can be applied multiple times without changing the result beyond the initial execution**—to prevent accidental duplicate billing."*  
-> $\rightarrow$ O texto fornece a definição exata de *idempotent* entre travessões: operação repetível sem alterar o resultado.
+- **Definição Direta e Paráfrase (*Definition / Restatement Clues*):** O próprio texto elucida o termo desconhecido na sequência, frequentemente isolado por vírgulas, travessões, parênteses ou conjunções explicativas (*that is, in other words, known as, which means, defined as, namely*).
+  - *Exemplo:* *"The distributed service implements an **idempotent** operation—**that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation**—thereby preventing accidental billing duplicates."*  
+    $\rightarrow$ A definição formal está dada entre travessões: operação repetível que não altera o estado do sistema além da primeira execução.
+- **Exemplificação (*Example Clues*):** O sentido de uma categoria complexa ou abstrata é revelado pela enumeração de exemplos concretos introduzidos por marcadores como *such as, for instance, for example, e.g., including*.
+  - *Exemplo:* *"The migration revealed several **ephemeral** storage configurations, **such as temporary in-memory caches and non-persistent container volumes**, that caused data loss upon reboot."*  
+    $\rightarrow$ Os exemplos práticos (*temporary, non-persistent*) revelam com precisão que *ephemeral* significa volátil, transitório ou efêmero.
 
-#### 2. Exemplificação (*Example Clues*)
-O significado da categoria abstrata desconhecida é esclarecido pela enumeração de exemplos concretos introduzidos por *such as, for example, for instance, e.g., including*.
-> *Exemplo:* *"The audit identified severe **ephemeral** storage configurations, **such as temporary RAM disks and non-persistent container scratchpads**, which led to data loss after host reboots."*  
-> $\rightarrow$ Mesmo que o candidato não soubesse o significado de *ephemeral* (efêmero/transitório), os exemplos (*temporary RAM disks, non-persistent*) revelam o conceito com clareza.
+### 4.2 Pistas de Contraste, Oposição, Causa e Efeito
 
-#### 3. Contraste e Oposição (*Contrast / Antonym Clues*)
-O termo desconhecido é contraposto a um conceito familiar por meio de conectivos adversativos ou concessivos (*unlike, in contrast to, whereas, while, on the other hand, instead of, but*).
-> *Exemplo:* *"**Unlike** legacy monolithic repositories that are completely **intertwined**, modern cloud services are **loosely coupled** and fully independent."*  
-> $\rightarrow$ Sabendo que *loosely coupled* significa "fracamente acoplado/independente", a oposição marcada por *Unlike* prova que *intertwined* significa "entrelaçado, dependente, fortemente acoplado".
+- **Contraste e Antônimos (*Contrast / Antonym Clues*):** O termo opõe-se a uma ideia conhecida por meio de conectivos adversativos ou concessivos (*unlike, whereas, while, in contrast to, instead of, on the contrary, but, however*).
+  - *Exemplo:* *"**Unlike** legacy monolithic repositories that are completely **intertwined**, modern cloud applications are composed of **loosely coupled**, independent microservices."*  
+    $\rightarrow$ Se os microsserviços são *loosely coupled* (fracamente acoplados / independentes), o conectivo *Unlike* explicita que os monólitos *intertwined* são fortemente entrelaçados ou acoplados.
+- **Causa e Efeito (*Cause and Effect Clues*):** A relação de causalidade expressa por *because, since, as a result, consequently, thereby, thus, leading to* permite inferir o significado a partir do resultado prático.
+  - *Exemplo:* *"Because the automated script lacked input validation, it allowed arbitrary SQL injection, **leading to catastrophic** data corruption."*  
+    $\rightarrow$ A consequência danosa clarifica o teor destrutivo de *catastrophic*.
 
-#### 4. Causa e Efeito (*Cause and Effect Clues*)
-O contexto demonstra a causa que originou a situação ou o efeito produzido por ela (*because, since, as a result, consequently, thereby, leading to*).
-> *Exemplo:* *"Due to the **exponential** surge in network packets that overwhelmed the firewall buffers, the entire gateway became completely **unresponsive**."*  
-> $\rightarrow$ A causa (*surge that overwhelmed*) associada à consequência (*became completely unresponsive*) evidencia o sentido de colapso/paralisação.
+### 4.3 Decomposição Morfológica (Prefixos, Raízes e Sufixos)
 
-#### 5. Decomposição Morfológica (Prefixos e Sufixos)
-A palavra desconhecida pode ser dividida em seus blocos constitutivos:
-- **Prefixo:** Denota negação (*un-, in-, dis-, mis-*), tempo/ordem (*pre-, post-*), grau/escala (*micro-, macro-, hyper-*).
-- **Raiz / Radical:** Núcleo semântico.
-- **Sufixo:** Revela a classe gramatical (substantivo em *-tion, -ment, -ity*; adjetivo em *-able, -ive, -al*; advérbio em *-ly*).
+A morfologia vocabular permite dissecar o verbete técnico desconhecido:
+- **Prefixos de Negação e Reversão:** *un-* (*unpatched*, não corrigido), *in-/im-* (*immutable*, imutável), *dis-* (*disrupt*, interromper/desestruturar), *mis-* (*misconfiguration*, erro de configuração).
+- **Prefixos de Tempo e Escala:** *pre-* (*pre-computation*), *post-* (*postmortem analysis*), *micro-* (*microsegmentation*), *hyper-* (*hypervisor*).
+- **Sufixos Gramaticais:**
+  - Substantivos: *-tion* (*authentication*), *-ment* (*deployment*), *-ity* (*scalability*), *-ness* (*responsiveness*).
+  - Adjetivos: *-able/-ible* (*scalable*, *accessible*), *-ive* (*predictive*), *-al* (*procedural*).
+  - Advérbios: *-ly* (*continually*, *actually*).
+
+### 4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software
+
+Determinados termos técnicos de língua inglesa possuem acepções altamente especializadas frequentemente cobradas em provas da FCC:
+
+- **Bottleneck (Gargalo):** Ponto de estrangulamento em uma cadeia de processamento ou infraestrutura de rede que limita a vazão (*throughput*) e o desempenho global do sistema.  
+  > ⚠️ **Alerta FCC:** A banca tenta afirmar que *bottleneck* é um facilitador ou acelerador de velocidade. Trata-se de uma restrição/obstáculo de desempenho!
+- **Trade-off (Relação de Compromisso / Perda e Ganho):** Decisão de projeto em que a obtenção de um benefício (ex.: agilidade de entrega, escalabilidade) acarreta necessariamente uma contrapartida desfavorável ou custo operacional adicional (ex.: complexidade distribuída, latência de rede).
+- **Remediate (Sanar / Remediar / Mitigar):** Ato de aplicar contramedidas técnicas, correções e restaurações em um ambiente violado ou defeituoso para devolvê-lo ao estado seguro e operacional. Não significa "tolerar passivamente".
+- **Compromise (Violar a Segurança / Invadir):** Em cibersegurança, *to compromise a system* significa violar sua integridade, confidencialidade ou controle de acesso. Não significa "fazer um acordo amigável" ou "ter um compromisso na agenda".
+- **Novel (Inovador / Inédito / Original):** Quando empregado como adjetivo (*a novel approach*), significa inovador, novo ou original. Não significa "novela" de televisão ou literatura romântica.
+- **Sensible vs. Sensitive:**  
+  - *Sensible:* Sensato, criterioso, razoável, prudente (*a sensible decision*).  
+  - *Sensitive:* Sensível, delicado, confidencial (*sensitive data*, dados sensíveis sob a LGPD).
 
 ---
 
-### 1.5 Falsos Cognatos Críticos no Inglês Técnico de TI (*False Friends*)
+## 5. Falsos Cognatos Críticos em TI (False Friends)
 
-Cognatos verdadeiros (*True Cognates*) são palavras de mesma raiz latina que possuem grafia semelhante e exatamente o mesmo significado em português e inglês (ex.: *computation, algorithm, memory, security, protocol, infrastructure, terminal*).
+### 5.1 Cognatos Verdadeiros vs. Falsos Amigos
 
-No entanto, a FCC utiliza reiteradamente os **Falsos Cognatos (*False Friends*)** para induzir o candidato ao erro por associação superficial. A tabela abaixo cataloga os falsos cognatos de maior frequência e impacto nas provas de tecnologia:
+Os **Cognatos Verdadeiros (*True Cognates*)** são termos que compartilham a mesma etimologia e significado em português e inglês (ex.: *computation, memory, protocol, infrastructure, terminal, vulnerability*).
 
-| Falso Amigo (*Inglês*) | Tradução Técnica Real | O que NÃO significa (Pegadinha) | Termo correto para a pegadinha | Exemplo Prático de TI |
+Já os **Falsos Cognatos (*False Friends / False Cognates*)** possuem grafia e pronúncia que lembram palavras do português, mas carregam significados semânticos completamente distintos. A banca FCC utiliza reiteradamente esses vocábulos nas alternativas erradas para capturar candidatos desatentos.
+
+### 5.2 Quadro Lexical de Falsos Cognatos Críticos
+
+| Termo em Inglês | Significado Real no Contexto Técnico | Falsa Tradução (Pegadinha FCC) | Tradução Correta para a Pegadinha | Exemplo Prático em TI |
 | :--- | :--- | :--- | :--- | :--- |
-| **Actually** | Na verdade, de fato, realmente | Atualmente, nos dias de hoje | *Currently, nowadays, presently* | *"The benchmark **actually** demonstrated lower latency under high load."* |
-| **Eventually** | No final das contas, por fim, com o tempo | Eventualmente, de vez em quando | *Occasionally, intermittently, sometimes* | *"The distributed cluster will **eventually** achieve full consistency."* |
-| **Pretend** | Fingir, simular | Pretender, ter intenção de | *Intend, plan, aim to* | *"The bad actor **pretended** to be an authenticated proxy server."* |
-| **Policy** | Política institucional, diretriz, regra | Polícia (corporação policial) | *Police* | *"The IAM security **policy** denies public read access to the S3 bucket."* |
-| **Notice** | Notar, perceber; aviso, notificação | Notícia jornalística | *News* | *"The monitoring agent will trigger an alert upon **notice** of CPU throttling."* |
-| **Push** | Empurrar, enviar para frente | Puxar (trazer para si) | *Pull* | *"Developers **push** code commits to GitHub; clients **pull** updates."* |
-| **Comprehensive**| Abrangente, amplo, exaustivo | Compreensivo, tolerante | *Understanding, tolerant* | *"The team performed a **comprehensive** source code audit across all repos."* |
-| **Library** | Biblioteca de código ou de livros | Livraria (loja que vende livros)| *Bookstore* | *"Import the cryptographic **library** to generate asymmetric keypairs."* |
-| **Resume** | Retomar, reiniciar após pausa | Resumo, síntese | *Summary, abstract* (Nota: *résumé* é currículo) | *"The database ingestion pipeline will **resume** processing after failover."* |
-| **Require** | Exigir, demandar, ser indispensável| Requerer formalmente em juízo | *Request, petition, file a motion* | *"Microservices **require** an automated service mesh for mTLS traffic."* |
-| **Assist** | Auxiliar, ajudar, dar suporte | Assistir a (ver espetáculo/jogo) | *Watch, attend* | *"The AI copilot can **assist** engineers in refactoring legacy code."* |
-| **Attend** | Comparecer, participar, assistir a reunião | Atender (prestar suporte/responder)| *Serve, answer, support* | *"The database administrator must **attend** the incident postmortem meeting."* |
-| **Realize** | Perceber, dar-se conta; concretizar| Realizar (executar tarefa comum) | *Perform, execute, carry out* | *"Engineers did not **realize** that the cache had become stale."* |
-| **Compromise** | Comprometer a segurança; fazer concessão mútuo | Compromisso, agendamento de horário | *Commitment, appointment* | *"A weak master key will **compromise** the confidentiality of the database."* |
-| **Sensible** | Sensato, razoável, prudente | Sensível (que sofre com estímulos) | *Sensitive (ex.: sensitive data = dados sensíveis)* | *"Setting an automated timeout of 30 seconds is a **sensible** architectural choice."* |
-| **Novel** | Inovador, inédito, original (adjetivo) | Novela televisiva ou de romance | *Soap opera / romance book* | *"The researchers proposed a **novel** consensus algorithm for blockchain."* |
+| **Actually** | Na verdade, de fato, realmente, efetivamente | Atualmente, nos dias de hoje | *Currently, nowadays, presently* | *"The benchmark **actually** revealed a 30% reduction in query execution time."* |
+| **Eventually** | No final das contas, por fim, com o passar do tempo | Eventualmente, de vez em quando, esporadicamente | *Occasionally, intermittently, sporadically* | *"In distributed NoSQL systems, replicas **eventually** achieve full data consistency."* |
+| **Pretend** | Fingir, simular, aparentar falsamente | Pretender, ter a intenção de | *Intend, aim to, plan to* | *"The malicious packet **pretended** to originate from an internal gateway."* |
+| **Policy** | Política institucional, diretriz de segurança, norma | Polícia (órgão de segurança pública) | *Police* | *"The IAM access **policy** enforces multifactor authentication for all admins."* |
+| **Notice** | Notar, perceber; aviso formal, notificação | Notícia jornalística | *News* | *"The automated monitor triggers an alert upon **notice** of thread starvation."* |
+| **Push** | Empurrar, enviar para frente / publicar | Puxar (trazer em sua direção) | *Pull* | *"Developers **push** code to the remote repository; servers **pull** configurations."* |
+| **Comprehensive** | Abrangente, amplo, exaustivo, minucioso | Compreensivo, tolerante, benevolente | *Understanding, tolerant* | *"The auditors conducted a **comprehensive** review of the cryptographic source code."* |
+| **Library** | Biblioteca de código ou de obras bibliográficas | Livraria (loja comercial de livros) | *Bookstore* | *"Developers imported an open-source SSL **library** into the microservice."* |
+| **Resume** | Retomar, reiniciar após interrupção | Resumo, síntese condensada | *Summary, abstract* (Nota: *résumé* é currículo) | *"The replication process will **resume** as soon as network connectivity is restored."* |
+| **Require** | Exigir, demandar, ser mandatório | Requerer juridicamente em juízo | *Request, petition, file a motion* | *"Strict data privacy regulations **require** encryption of data at rest."* |
+| **Assist** | Auxiliar, ajudar, dar suporte técnico | Assistir (ver passivamente, presenciar) | *Watch, witness, attend* | *"AI copilots **assist** engineers in detecting concurrency bugs."* |
+| **Attend** | Comparecer, participar ativamente de ato/reunião | Atender (prestar suporte, servir) | *Serve, support, answer* | *"The Chief Information Officer must **attend** the board committee meeting."* |
+| **Realize** | Perceber, dar-se conta; concretizar/tornar real | Realizar (fazer uma tarefa ordinária) | *Perform, execute, conduct* | *"The incident response team did not **realize** that the token had expired."* |
+
+> 🚨 **ALERTA MÁXIMO DE PROVA FCC:**  
+> A pegadinha com **"Eventually"** é recorrente na FCC. Em arquitetura de software distribuído, o teorema CAP e o modelo BASE definem a consistência eventual (*eventual consistency*). Isso significa que, na ausência de novas atualizações, todos os nós **obrigatoriamente convergirão e se tornarão consistentes com o passar do tempo** (*ultimately / in the end*). As alternativas da banca insistem em traduzir como se o sistema fosse consistente "apenas às vezes" ou "de maneira imprevisível e esporádica" (*occasionally*). Elimine essa assertiva sem hesitar!
 
 ---
 
-### 1.6 Referência Pronominal e Coesão Anafórica (*Reference Words*)
+## 6. Coesão Textual e Referência Pronominal (Reference Words)
 
-Outro alvo predileto da banca FCC em provas de leitura instrumental é a **identificação do referente de pronomes** (*anaphora*). A banca destaca um pronome na linha $X$ e indaga a qual elemento do texto ele se refere sintaticamente.
+Um dos tipos de questões favoritos da FCC consiste em destacar um pronome em determinada linha do texto e questionar a qual termo antecedente ou subsequente ele se refere (*referência anafórica ou catafórica*).
 
-> ⭐ **IMPORTANTE / REGRA DE OURO:**  
-> Os pronomes neutros e relativos do inglês seguem regras estritas de concordância de número e entidade:
-> - **It / Its:** Refere-se a substantivo singular neutro (uma ferramenta, um protocolo, uma falha, um servidor).
-> - **They / Their / Them:** Refere-se a substantivo plural (dispositivos, servidores, vulnerabilidades, usuários).
-> - **Which:** Refere-se à coisa ou oração precedente imediata.
-> - **Who / Whom:** Refere-se exclusivamente a pessoas humanas (desenvolvedores, administradores, atacantes).
-> - **This / These:** Frequentemente sintetizam **toda a ideia ou processo** descrito na oração imediatamente anterior (*encapsulamento conceitual*).
+### 6.1 Anáfora e Catáfora em Textos Técnicos
+
+- **Referência Anafórica (*Anaphora*):** O pronome retoma um termo ou ideia explicitado anteriormente no fluxo textual.
+- **Regras Estritas de Concordância Primitiva:**
+  - **It / Its:** Retoma substantivos neutros singulares (um protocolo, um sistema, um servidor, um vetor de ataque).
+  - **They / Their / Them:** Retoma substantivos plurais, sejam pessoas (desenvolvedores, peritos) ou entidades neutras (microsserviços, registros, contêineres).
+  - **Who / Whom:** Aplica-se exclusivamente a pessoas humanas (*analysts who detected the flaw*).
+  - **Which / That:** Aplica-se a coisas, sistemas e conceitos inanimados.
+
+### 6.2 Encapsulamento Conceitual com Demonstrativos
+
+Muitas vezes o pronome demonstrativo neutro singular (**this**, **that**) não retoma uma única palavra isolada, mas atua como um mecanismo de **encapsulamento conceitual**, sintetizando toda a proposição, problema ou processo delineado na oração imediatamente antecedente.
+
+- *Exemplo:* *"Undetected algorithmic bias can unfairly deny social benefits to vulnerable citizens. **To prevent this**, regulators mandated transparent audit logs."*  
+  $\rightarrow$ O demonstrativo *"this"* retoma todo o fato de que "o viés algorítmico não detectado prejudica cidadãos vulneráveis negando-lhes benefícios", e não uma palavra solta.
 
 ```mermaid
 flowchart LR
@@ -239,31 +266,22 @@ flowchart LR
 
 ---
 
-## ⚠️ Pontos de Atenção (Estilo FCC)
+## 7. Fontes Recomendadas na Internet
 
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> 1. **"Eventually" NÃO é "Eventualmente":** A FCC adora colocar em alternativas que uma ação de TI ocorre "de modo esporádico ou incerto" traduzindo *eventually*. Lembre-se: *eventual consistency* em bancos NoSQL significa que o cluster **certamente atingirá** a consistência final com o tempo, e não que ele "às vezes" fica consistente!  
-> 2. **"Policy" vs. "Police":** Em textos de segurança da informação da FCC, *policy* é **diretriz, norma interna ou política de segurança**. Alternativas que mencionam "forças policiais" ou "apólices de seguro" devem ser eliminadas sumariamente.  
-> 3. **A Ordem das Operações em Prova:** NUNCA comece lendo um texto longo de 40 linhas do início ao fim sem rumo. **Leia primeiro o enunciado da questão e as 5 alternativas**. Se a questão pedir a ideia principal, faça *Skimming*; se pedir um detalhe específico (número, protocolo, autor), faça *Scanning*.
-
----
-
-## 🌐 Fontes Recomendadas na Internet
-
-- [BBC Learning English - Reading Skills & Academic ESP](https://www.bbc.co.uk/learningenglish/)
-  - Portal educativo da BBC contendo módulos de leitura instrumental, tópicos frasais (*Topic Sentences*) e dedução de vocabulário pelo contexto.
-- [British Council - Reading for Professionals and Academics](https://learnenglish.britishcouncil.org/skills/reading)
-  - Plataforma do British Council com textos analíticos voltados a leitura instrumental em níveis B2 e C1, exercícios de inferência e estrutura argumentativa.
-- [Cambridge Grammar Guide - Discourse Markers and Connectives](https://dictionary.cambridge.org/grammar/british-grammar/)
-  - Dicionário e gramática de referência sobre conectivos discursivos (*linking words*), falsos cognatos (*false friends*) e mecanismos de coesão textual.
-- [IEEE Spectrum - Computing and Emerging Technology Insights](https://spectrum.ieee.org/computing)
-  - Revista técnica oficial do IEEE. Fonte primária padrão para os textos autênticos de computação e telecomunicações selecionados pela FCC.
-- [ACM TechNews - Association for Computing Machinery](https://technews.acm.org/)
-  - Resumos executivos de pesquisas em ciência da computação. Excelente para treino de *skimming* em resumos técnicos de alta densidade.
+- [BBC Learning English - Reading Skills & Academic ESP](https://www.bbc.co.uk/learningenglish/)  
+  Portal de referência para desenvolvimento de estratégias de leitura instrumental, identificação de tópicos frasais (*Topic Sentences*) e inferência vocabular por pistas de contexto.
+- [British Council - Reading for Professionals and Academics](https://learnenglish.britishcouncil.org/skills/reading)  
+  Acervo de textos técnicos e acadêmicos classificados por níveis de proficiência (B2/C1), com foco em skimming, scanning e estrutura argumentativa.
+- [Cambridge Grammar Guide - Discourse Markers and Connectives](https://dictionary.cambridge.org/grammar/british-grammar/)  
+  Guia detalhado sobre marcadores discursivos, conectivos lógicos (*linking words*), mecanismos de coesão textual e falsos cognatos.
+- [IEEE Spectrum - Computing and Emerging Technology Insights](https://spectrum.ieee.org/computing)  
+  Publicação oficial do IEEE com artigos de vanguarda em engenharia de computação, telecomunicações e software, servindo de base para textos autênticos cobrados pela FCC.
+- [ACM TechNews - Association for Computing Machinery](https://technews.acm.org/)  
+  Boletins de alta densidade técnica com resumos executivos de pesquisas em computação, ideais para o treinamento de velocidade e precisão em *skimming*.
 
 ---
 
-## 📝 Questões Comentadas & Exemplos (Padrão FCC)
+## 8. Questões Comentadas & Exemplos (Padrão FCC)
 
 ### Questão 1 (FCC - Adaptada / Analista de Tecnologia da Informação - SEFAZ)
 *Carefully read the excerpt below regarding modern enterprise infrastructure security:*
@@ -278,14 +296,14 @@ C) According to the text, once a device achieves initial authentication inside a
 D) The author highlights that Zero Trust mandates continuous re-evaluation of authorization privileges, even for internal network traffic.  
 E) The pronoun **"their"** in the sentence *"their authorization must be continually re-evaluated"* refers syntactically to *"traditional perimeter defenses"*.  
 
-> **Gabarito: D**  
->
-> **Comentário Analítico Passo a Passo:**  
-> - **A (Incorreta):** A alternativa explora a pegadinha clássica do falso cognato (*false friend*). O termo **"eventually"** significa *"no final das contas"*, *"com o passar do tempo"* ou *"ao longo do processo"* (*in the end / ultimately*). A alternativa tenta traduzi-lo erradamente por "ocasionalmente / de modo esporádico", que em inglês seria *occasionally* ou *sporadically*.  
-> - **B (Incorreta):** Aplicação de *Skimming*: o texto contrapõe o modelo tradicional (que confia ingenuamente em tudo o que está dentro do perímetro) ao modelo Zero Trust, que é apresentado como o paradigma moderno necessário. O autor não afirma que o modelo tradicional é superior.  
-> - **C (Incorreta):** Aplicação de *Scanning*: o texto assevera textualmente o oposto: *"even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated"* (mesmo após obterem acesso inicial, a autorização deve ser continuamente reavaliada, logo não é estática).  
-> - **D (Correta):** Captura com fidelidade a asserção central do modelo Zero Trust descrita no texto: a verificação contínua e dinâmica (*continually re-evaluated using granular policies*) mesmo para entidades já conectadas à rede interna (*inside an organization's internal network*).  
-> - **E (Incorreta):** Análise de referência anafórica (*Reference Words*): o pronome possessivo plural **"their"** refere-se a **"users and devices"** (mencionados imediatamente antes: *"even after users and devices obtain initial access to a subnet, their authorization..."*), e não a *"perimeter defenses"*.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Explora a pegadinha clássica do falso cognato (*false friend*). O advérbio **"eventually"** significa "no final das contas", "com o tempo" ou "ao longo do processo" (*in the end / ultimately*). A alternativa tenta induzir o candidato ao erro traduzindo-o por "ocasionalmente / de modo esporádico", o que em inglês seria expresso por *occasionally* ou *sporadically*.
+> - **B)** Incorreta. Mediante *Skimming*, nota-se que o parágrafo apresenta a superioridade conceitual e a necessidade do modelo Zero Trust frente às defesas tradicionais de perímetro, que assumiam presunções ingênuas de confiança interna. O autor não afirma que o modelo tradicional é superior.
+> - **C)** Incorreta. Mediante *Scanning*, verifica-se que o texto assinala expressamente o oposto: *"even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated"* (mesmo após obter acesso inicial, a autorização deve ser continuamente reavaliada, logo não permanece estática).
+> - **D)** Correta. Captura com fidelidade a tese central do modelo Zero Trust expressa no texto: a exigência de reavaliação contínua e dinâmica dos privilégios de autorização (*continually re-evaluated using granular policies*), inclusive para dispositivos e usuários já presentes na rede interna.
+> - **E)** Incorreta. Análise de referência pronominal (*Reference Words*): o pronome possessivo plural **"their"** retoma anaforicamente o sintagma plural antecedente **"users and devices"** (*"even after users and devices obtain initial access to a subnet, their authorization..."*), e não "traditional perimeter defenses".
+> 
+> **Gabarito: D**
 
 ---
 
@@ -302,20 +320,18 @@ C) fingiu – abrangente – política/diretriz – na verdade/efetivamente
 D) tentou – tolerante – polícia – realmente  
 E) planejou – compacta – apólice – futuramente  
 
-> **Gabarito: C**  
->
-> **Comentário Analítico Passo a Passo:**  
-> - **Análise sistemática dos quatro termos:**  
->   1. **To pretend:** Verbo que significa *fingir* ou *simular*. O verbo em inglês para "pretender ter a intenção" é *to intend*. Logo, *"pretended to ignore"* = fingiu ignorar.  
->   2. **Comprehensive:** Adjetivo que significa *abrangente*, *amplo*, *completo*, *global*. A palavra para "compreensivo/tolerante" em inglês é *understanding* ou *tolerant*.  
->   3. **Policy:** Substantivo que significa *política institucional*, *diretriz*, *conjunto de normas*. A corporação policial é *police*; apólice de seguro é *insurance policy*.  
->   4. **Actually:** Advérbio que significa *na verdade*, *de fato*, *efetivamente*, *realmente*. As expressões para "atualmente / nos dias de hoje" são *currently*, *nowadays* ou *presently*.  
-> - **Análise das alternativas:**  
->   - **A (Incorreta):** Erra em "compreensiva" (*understanding*), "polícia" (*police*) e "atualmente" (*currently*).  
->   - **B (Incorreta):** Erra em "pretendeu" (*intended*) e "atualmente" (*currently*).  
->   - **C (Correta):** Traduz os quatro vocábulos com precisão cirúrgica de acordo com o léxico técnico.  
->   - **D (Incorreta):** Erra em "tentou" (*tried/attempted*), "tolerante" (*tolerant*) e "polícia" (*police*).  
->   - **E (Incorreta):** Erra em "planejou" (*planned*), "compacta" (*compact*) e "futuramente" (*in the future*).
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Erra ao traduzir *comprehensive* como "compreensiva" (tolerante é *understanding*), *policy* como "polícia" (*police*) e *actually* como "atualmente" (*currently*).
+> - **B)** Incorreta. Erra ao traduzir *pretended* como "pretendeu" (pretender é *to intend*) e *actually* como "atualmente" (*currently*).
+> - **C)** Correta. Decodifica perfeitamente os quatro termos técnicos:
+>   1. **To pretend:** fingir, simular (não confundir com *to intend*, pretender).
+>   2. **Comprehensive:** abrangente, amplo, exaustivo (não confundir com tolerante/compreensivo).
+>   3. **Policy:** diretriz, norma institucional, política de segurança (não confundir com corporação policial).
+>   4. **Actually:** na verdade, de fato, efetivamente, realmente (não confundir com nos dias atuais).
+> - **D)** Incorreta. Erra ao atribuir "tentou" (*attempted*), "tolerante" (*tolerant*) e "polícia" (*police*).
+> - **E)** Incorreta. Erra em "planejou" (*planned*), "compacta" (*compact*) e "futuramente" (*in the future*).
+> 
+> **Gabarito: C**
 
 ---
 
@@ -332,14 +348,14 @@ C) By using scanning techniques on the text, one can determine that the ransomwa
 D) The verb **"remediate"** indicates that the security operations center decided to accept and tolerate the breach without executing countermeasures.  
 E) The pronoun **"this intrusion"** in the third sentence refers specifically to the automated restoration of cold backups.  
 
-> **Gabarito: B**  
->
-> **Comentário Analítico Passo a Passo:**  
-> - **A (Incorreta):** No vocabulário técnico de segurança da informação, **"compromise"** significa *violar a segurança*, *comprometer a integridade ou confidencialidade*, *invadir*. A alternativa explora o sentido leigo do termo (fazer um acordo ou concessão mútua), o que é um absurdo no contexto de um controlador de domínio.  
-> - **B (Correta):** A preposição **"Unlike"** (ao contrário de / diferentemente de) introduz uma relação límpida de **contraste**: campanhas convencionais de malware causam interrupção imediata (*disrupt operations immediately*), ao passo que a invasão analisada permaneceu dormente por semanas (*remained dormant for weeks*) para exfiltrar dados.  
-> - **C (Incorreta):** Aplicando *Scanning* na expressão "physical", o texto afirma expressamente: *"encrypted critical databases across **multiple** physical sites"* (múltiplos locais físicos, e não um único).  
-> - **D (Incorreta):** O verbo **"remediate"** significa *sanar*, *remediar*, *corrigir*, *restaurar o estado seguro*. A alternativa afirma incorretamente que a equipe aceitou o incidente sem contra-medidas, quando o texto relata a revogação de credenciais e a reconstrução dos servidores.  
-> - **E (Incorreta):** "This intrusion" é uma referência anafórica que retoma o ataque do ransomware e a violação do controlador de domínio perpetrada pelos invasores, descrita nas frases anteriores, e não os backups frios (que só aparecem na última frase).
+> **Comentário Detalhado:**
+> - **A)** Incorreta. No léxico técnico de cibersegurança e auditoria de sistemas, **"to compromise"** significa violar a segurança, corromper ou assumir controle indevido de um recurso. A alternativa apoia-se no sentido leigo e diplomático da palavra (acordo/concessão recíproca), descabido no contexto de exploração de vulnerabilidade.
+> - **B)** Correta. A preposição **"Unlike"** (ao contrário de / diferentemente de) atua como um marcador contrastivo inequívoco: confronta as campanhas convencionais de malware, que interrompem operações instantaneamente (*disrupt operations immediately*), com a invasão analisada, que permaneceu dormente durante semanas (*remained dormant for weeks*).
+> - **C)** Incorreta. Por meio de *Scanning* focado na expressão "physical sites", constata-se a menção expressa a *"across **multiple** physical sites"* (múltiplos locais físicos, e não um único).
+> - **D)** Incorreta. O verbo **"remediate"** significa sanar, mitigar, corrigir ou restaurar a higidez do ambiente atacado. O texto demonstra a ação corretiva enérgica: revogação de credenciais e reconstrução dos servidores a partir de backups frios.
+> - **E)** Incorreta. O sintagma anafórico **"this intrusion"** refere-se ao ataque do ransomware e à invasão do controlador de domínio perpetrada pelos cibercriminosos, descrita nas orações anteriores, e não à restauração dos backups (que ocorre na frase posterior).
+> 
+> **Gabarito: B**
 
 ---
 
@@ -356,14 +372,14 @@ C) According to the text, monolithic architectures present higher network latenc
 D) The word **"trade-off"** indicates a compromise where gaining deployment velocity comes at the expense of higher distributed complexity and latency.  
 E) The linking word **"Nonetheless"** introduces an addition of arguments in favor of monolithic deployment pipelines.  
 
-> **Gabarito: D**  
->
-> **Comentário Analítico Passo a Passo:**  
-> - **A (Incorreta):** O *skimming* demonstra que o autor adota uma postura analítica e balanceada. O autor pontua claramente que os microsserviços trazem desvantagens operacionais severas (*distributed operational complexity, network latency*), refutando a ideia de recomendação incondicional.  
-> - **B (Incorreta):** **"Bottleneck"** (gargalo de garrafa) é uma metáfora universal em engenharia que designa um ponto de estrangulamento, restrição ou lentidão que limita o desempenho global do sistema, e não um mecanismo de aceleração.  
-> - **C (Incorreta):** O *scanning* localiza que maior latência de rede (*network latency*) e complexidade de consistência transacional entre serviços (*cross-service transactional consistency*) são ônus dos **microsserviços**, e não dos monólitos.  
-> - **D (Correta):** **"Trade-off"** é um termo canônico da engenharia de software que designa uma relação de compromisso ou escolha conflitante: para obter determinado ganho (*deployment velocity*), é imperativo aceitar certas perdas ou custos adicionais (*escalates distributed operational complexity and latency*).  
-> - **E (Incorreta):** **"Nonetheless"** (contudo, todavia, no entanto) é um conectivo adversativo de **contraste/concessão**, e não de adição (*furthermore, moreover*).
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O *skimming* demonstra que o texto adota uma abordagem equilibrada de engenharia, enfatizando que os microsserviços acarretam complexidade operacional distribuída e custos adicionais consideráveis (*operational complexity, network latency*), refutando a tese de recomendação incondicional sem desvantagens.
+> - **B)** Incorreta. O termo **"bottleneck"** (gargalo) designa um ponto crítico de estrangulamento ou restrição que retarda o fluxo de trabalho e reduz a produtividade, e nunca um acelerador de velocidade.
+> - **C)** Incorreta. O *scanning* localiza que a maior latência de rede (*network latency*) e o desafio de consistência transacional entre serviços (*cross-service transactional consistency*) são ônus inerentes aos **microsserviços**, e não aos sistemas monolíticos.
+> - **D)** Correta. O conceito técnico de **"trade-off"** expressa exatamente a relação de concessão ou compromisso mútuo em engenharia: para usufruir de maior velocidade de entrega (*deployment velocity*), a organização é forçada a suportar maior complexidade de infraestrutura distribuída e latência.
+> - **E)** Incorreta. O conectivo **"Nonetheless"** (contudo, não obstante, todavia) é um marcador discursivo de concessão e oposição/contraste, e não de adição cumulativa (*furthermore, in addition*).
+> 
+> **Gabarito: D**
 
 ---
 
@@ -380,11 +396,11 @@ C) The adjective **"sensible"** indicates that training datasets must be easily 
 D) The subject pronoun **"They"** in the final sentence syntactically refers to *"vulnerable citizens"*.  
 E) The author argues that machine learning models should enter production immediately, dispensing with explainability and audit trails.  
 
-> **Gabarito: B**  
->
-> **Comentário Analítico Passo a Passo:**  
-> - **A (Incorreta):** **"Novel"** como adjetivo significa *novo*, *inédito*, *inovador*, *original* (do latim *novellus*). Não significa tradicional nem antigo, e muito menos "romance/novela literária".  
-> - **B (Correta):** Coesão anafórica e encapsulamento: a estrutura demonstrativa **"To prevent this"** (Para prevenir isso / Para evitar que isso ocorra) retoma o fato narrado na frase imediatamente antecedente: o viés algorítmico não detectado prejudicar cidadãos vulneráveis (*undetected algorithmic bias can harm vulnerable citizens*).  
-> - **C (Incorreta):** Falso cognato crítico: **"Sensible"** significa *sensato*, *razoável*, *criterioso*, *coerente*. A palavra para "sensível a estímulos / magoável" é *sensitive* (como em *sensitive data* = dados sensíveis).  
-> - **D (Incorreta):** Na frase *"Data scientists must ensure that... They must also provide..."*, o pronome plural **"They"** refere-se ao sujeito da oração anterior: os **"Data scientists"** (cientistas de dados), que são os responsáveis por fornecer as trilhas de auditoria, e não os cidadãos vulneráveis.  
-> - **E (Incorreta):** O texto afirma categoricamente o contrário: os cientistas de dados devem garantir trilhas de auditoria abrangentes (*comprehensive audit trails*) antes que o modelo entre em produção (*before any model enters production*).
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Empregada como adjetivo de língua inglesa, a palavra **"novel"** significa novo, inédito, original ou inovador (raiz latina de novidade). Não guarda relação com algo antigo ou tradicional, tampouco com romances literários.
+> - **B)** Correta. Ocorre aqui o encapsulamento conceitual anafórico: a locução demonstrativa **"To prevent this"** (Para prevenir que isso aconteça) retoma todo o fato crítico enunciado imediatamente antes: o viés algorítmico inadvertido prejudicar cidadãos em situação vulnerável (*undetected algorithmic bias can harm vulnerable citizens*).
+> - **C)** Incorreta. O adjetivo **"sensible"** é falso cognato e traduz-se como sensato, criterioso, razoável e prudente. A noção de suscetibilidade emocional ou dados protegidos traduz-se por *sensitive*.
+> - **D)** Incorreta. Na construção sintática da oração anterior (*"Data scientists must ensure that... They must also provide..."*), o pronome pessoal plural **"They"** retoma diretamente os **"Data scientists"** (cientistas de dados), agentes responsáveis por gerar as trilhas de auditoria, e não os cidadãos vulneráveis.
+> - **E)** Incorreta. O texto defende expressamente o oposto: os modelos só devem entrar em produção após a garantia de validações rigorosas e trilhas de auditoria abrangentes (*comprehensive audit trails before any model enters production*).
+> 
+> **Gabarito: B**

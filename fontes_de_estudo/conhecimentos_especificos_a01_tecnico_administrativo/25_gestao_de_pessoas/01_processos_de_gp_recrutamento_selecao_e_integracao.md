@@ -35,36 +35,15 @@
 
 ---
 
-## 🌳 Classificação Hierárquica do Conteúdo
-
-```text
-1. Gestão de Pessoas: Fundamentos e Processos
-├── 1.1 Evolução dos Modelos de Gestão de Pessoas
-│   ├── 1.1.1 Departamento Pessoal (foco contábil e disciplinar)
-│   ├── 1.1.2 Relações Industriais (foco legal e sindical)
-│   ├── 1.1.3 Recursos Humanos (pessoas como insumos padronizados)
-│   └── 1.1.4 Gestão Estratégica de Pessoas (pessoas como parceiras e capital intelectual)
-├── 1.2 Os Seis Processos de Gestão de Pessoas (Chiavenato)
-│   ├── 1.2.1 Processos de Agregar (recrutamento e seleção)
-│   ├── 1.2.2 Processos de Aplicar (cargos, socialização e avaliação de desempenho)
-│   ├── 1.2.3 Processos de Recompensar (remuneração e benefícios)
-│   ├── 1.2.4 Processos de Desenvolver (treinamento e carreiras)
-│   ├── 1.2.5 Processos de Manter (QVT, clima, higiene e segurança)
-│   └── 1.2.6 Processos de Monitorar (sistemas de informação e prontuários)
-├── 1.3 Recrutamento de Pessoas
-│   ├── 1.3.1 Recrutamento Interno (vantagens, custos reduzidos e risco de endogamia)
-│   ├── 1.3.2 Recrutamento Externo (oxigenação cultural, atração de novos talentos e custos)
-│   ├── 1.3.3 Recrutamento Misto
-│   └── 1.3.4 Concurso Público (CF/88, art. 37, II — mérito, impessoalidade e legalidade)
-├── 1.4 Seleção de Pessoas
-│   ├── 1.4.1 Modelo Comparativo: Requisitos do Cargo vs. Perfil do Candidato
-│   ├── 1.4.2 Instrumentos de Seleção (provas, entrevistas STAR, testes e dinâmicas)
-│   └── 1.4.3 Critérios de Validade e Confiabilidade da Seleção
-└── 1.5 Socialização e Integração Organizacional (Onboarding)
-    ├── 1.5.1 Fases da Socialização (Antecipatória, Encontro e Metamorfose)
-    ├── 1.5.2 Estratégias e Práticas Institucionais de Acolhimento
-    └── 1.5.3 Impacto na Adaptação Funcional e no Estágio Probatório
-```
+## 🧭 Sumário Interativo
+- [1. Evolução Histórica dos Paradigmas de Gestão de Pessoas](#1-evolução-histórica-dos-paradigmas-de-gestão-de-pessoas)
+- [2. Os Seis Processos da Gestão de Pessoas (Chiavenato)](#2-os-seis-processos-da-gestão-de-pessoas-chiavenato)
+- [3. Rotinas Administrativas do Departamento de Pessoal no Setor Público](#3-rotinas-administrativas-do-departamento-de-pessoal-no-setor-público)
+- [4. O Processo de Agregar Pessoas: Recrutamento e Seleção](#4-o-processo-de-agregar-pessoas-recrutamento-e-seleção)
+- [5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)](#5-o-concurso-público-como-instrumento-republicano-cf88-art-37)
+- [6. Processo de Socialização e Integração Organizacional (Onboarding)](#6-processo-de-socialização-e-integração-organizacional-onboarding)
+- [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referências-bibliográficas)
+- [8. Questões de Concurso FCC Comentadas](#8-questões-de-concurso-fcc-comentadas)
 
 ---
 
@@ -130,7 +109,7 @@ flowchart TD
 | **5. Manter Pessoas** | *Como reter os servidores e assegurar bem-estar?* | Clima e cultura organizacional, programas de Qualidade de Vida no Trabalho (QVT), higiene, ergonomia, medicina do trabalho e relações sindicais. |
 | **6. Monitorar Pessoas** | *Como registrar e acompanhar as informações?* | Bancos de dados funcionais, prontuários do servidor, sistemas integrados de gestão de RH (SIRH) e auditoria de pessoal. |
 
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC (MACROPROCESSOS DE CHIAVENATO):**  
 > A Fundação Carlos Chagas cobra com frequência pegadinhas sobre a alocação de subsistemas nesse modelo:  
 > 1. A **Avaliação de Desempenho** pertence ao macroprocesso de **APLICAR PESSOAS** (e NÃO a "Monitorar pessoas" nem a "Desenvolver pessoas"). Aplicar significa verificar o que as pessoas fazem e como estão desempenhando suas atribuições.  
 > 2. A **Integração / Socialização Organizacional** também integra os processos de **APLICAR PESSOAS**, pois orienta o servidor sobre como exercer seu cargo e agir dentro da instituição.  
@@ -255,6 +234,13 @@ flowchart TD
 * **Prazo de Validade (Art. 37, III):** Até dois anos, prorrogável uma vez por igual período (critério de discricionariedade da administração, dentro do período inicial).
 * **Direito Subjetivo à Nomeação (Jurisprudência Vinculante do STF - Tema 161 / RE 598.099):** O candidato aprovado dentro do número de vagas previsto originariamente no edital do concurso público possui **direito público subjetivo à nomeação** durante o prazo de validade do certame. A recusa da administração só é admitida em hipóteses excepcionalíssimas (superveniência, imprevisibilidade, gravidade extrema e necessidade inafastável).
 
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC (PROVA DE TÍTULOS E VALIDADE):**  
+> A banca adora questionar os **critérios de validade da prova de títulos**. Memorize: no concurso público, a fase de avaliação de títulos possui caráter **estritamente classificatório**, sendo terminantemente inconstitucional conferir-lhe caráter eliminatório!  
+> Além disso, o art. 37, III da CF/88 estabelece que o concurso terá validade de **até 2 anos**, prorrogável uma vez por igual período. A prorrogação deve ser pelo **mesmo prazo** fixado no edital original (se o edital fixou 1 ano, prorroga-se por mais 1 ano; se fixou 6 meses, prorroga-se por 6 meses).
+
+> ⭐ **IMPORTANTE — CONCURSO PÚBLICO E CARGOS COMISSIONADOS:**  
+> A investidura mediante concurso é a regra para **cargos de provimento efetivo** e empregos públicos. Funções de confiança e cargos comissionados dispensam concurso público formal, mas as funções de confiança são reservadas **exclusivamente a servidores ocupantes de cargo efetivo**, enquanto os cargos em comissão possuem um percentual mínimo legal reservado a servidores de carreira (CF/88, art. 37, V).
+
 ---
 
 ### 6. Processo de Socialização e Integração Organizacional (*Onboarding*)
@@ -289,37 +275,7 @@ flowchart LR
 
 ---
 
-## ⚠️ Alertas de Prova & Pegadinhas da FCC
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A banca adora questionar os **critérios de validade da prova de títulos**. Memorize: no concurso público, a fase de avaliação de títulos possui caráter **estritamente classificatório**, sendo terminantemente inconstitucional conferir-lhe caráter eliminatório! A eliminação só pode ocorrer nas fases de provas de conhecimento e exames periciais legalmente previstos.
-
-> ⭐ **IMPORTANTE — CONCURSO PÚBLICO E CARGOS COMISSIONADOS:**  
-> A investidura mediante concurso é a regra para **cargos de provimento efetivo** e empregos públicos. Funções de confiança e cargos comissionados dispensam concurso público formal, mas as funções de confiança são reservadas **exclusivamente a servidores ocupantes de cargo efetivo**, enquanto os cargos em comissão possuem um percentual mínimo legal reservado a servidores de carreira (CF/88, art. 37, V).
-
-> 📌 **NOTA EXPLICATIVA — SELEÇÃO DE PESSOAS:**  
-> Não confunda a técnica STAR:  
-> - **S** = Situação (contexto);  
-> - **T** = Tarefa (objetivo / desafio);  
-> - **A** = Ação (o que o candidato concretamente fez);  
-> - **R** = Resultado (o efeito mensurável gerado pela ação).  
-> A FCC adora cobrar a aplicação prática da entrevista por competências baseada em comportamentos passados comprovados.
-
-> 🛑 **ATENÇÃO — PRAZO DE VALIDADE DO CERTAME:**  
-> O art. 37, III da CF/88 estabelece que o concurso terá validade de **até 2 anos**, prorrogável uma vez por igual período. A prorrogação deve ser pelo **mesmo prazo** fixado no edital original (se o edital fixou 1 ano, prorroga-se por mais 1 ano; se fixou 6 meses, prorroga-se por 6 meses). Não se pode fixar 1 ano e prorrogar por 2!
-
-> 💡 **DICA DE ESTUDO — MACROPROCESSOS DE CHIAVENATO:**  
-> Memorize o acrônimo **A-A-R-D-M-M**:  
-> - **A**gregar (atrair e selecionar);  
-> - **A**plicar (desenhar cargos, ambientar e **avaliar desempenho**);  
-> - **R**ecompensar (remuneração e benefícios);  
-> - **D**esenvolver (capacitar e gerir carreiras);  
-> - **M**anter (qualidade de vida, ergonomia e clima);  
-> - **M**onitorar (banco de dados, relatórios e registros funcionais).
-
----
-
-## 🌐 Fontes Oficiais e Referências Bibliográficas
+### 7. Fontes Oficiais e Referências Bibliográficas
 
 * [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) - Art. 37 (Princípios da administração pública, concurso público e provimento de cargos).
 * [CHIAVENATO, Idalberto. Gestão de Pessoas: o novo papel dos recursos humanos nas organizações. 5ª Edição. Rio de Janeiro: GEN Atlas, 2020](https://www.grupogen.com.br).
@@ -329,7 +285,7 @@ flowchart LR
 
 ---
 
-## 📝 Questões de Concurso FCC Comentadas
+### 8. Questões de Concurso FCC Comentadas
 
 ### Questão 01
 **(FCC – Analista de Controle Externo – TCE-GO)**  
@@ -341,13 +297,14 @@ No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto
 * **D)** Desenvolver Pessoas.
 * **E)** Monitorar Pessoas.
 
-> **Gabarito: B**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** O macroprocesso de Agregar Pessoas engloba unicamente as atividades de atração e seleção (planejamento da força de trabalho, recrutamento e seleção/concurso).  
 > - **B) CORRETA.** Os **Processos de Aplicar Pessoas** dizem respeito a como as pessoas operam na organização e o que realizam. Chiavenato engloba expressamente neste macroprocesso: o desenho e especificação de cargos/tarefas, a orientação e socialização organizacional (integração dos admitidos) e a **avaliação periódica de desempenho**.  
 > - **C) Incorreta.** Recompensar Pessoas envolve folha de pagamento, estrutura de vencimentos, adicionais e benefícios sociais.  
 > - **D) Incorreta.** Desenvolver Pessoas compreende treinamento, capacitação contínua, aprendizagem organizacional e planos de carreira.  
-> - **E) Incorreta.** Monitorar Pessoas refere-se aos bancos de dados, cadastros funcionais e sistemas de informação de pessoal (SIRH).
+> - **E) Incorreta.** Monitorar Pessoas refere-se aos bancos de dados, cadastros funcionais e sistemas de informação de pessoal (SIRH).  
+> 
+> **Gabarito: B**
 
 ---
 
@@ -361,13 +318,14 @@ Uma entidade pública estadual necessita preencher posições funcionais de gest
 * **D)** exigência legal obrigatória de reabertura imediata de concurso público para a investidura nas atribuições funcionais correlatas.
 * **E)** incapacidade operacional de avaliar previamente as competências comportamentais dos candidatos que já compõem o quadro institucional.
 
-> **Gabarito: C**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** O recrutamento interno destaca-se exatamente por ser **ágil e econômico**, não demandando editais caros nem contratação de bancas examinadoras externas.  
 > - **B) Incorreta.** O recrutamento interno **eleva a motivação** dos colaboradores internos, pois oferece perspectivas concretas de carreira e reconhecimento funcional.  
 > - **C) CORRETA.** A clássica desvantagem técnica do recrutamento exclusivamente interno é a **endogamia cultural (*inbreeding*)**: como a organização se alimenta apenas de seus próprios membros, há o risco de reproduzir continuadamente as mesmas ideias, manter velhos vícios e blindar a instituição contra visões renovadas e saberes trazidos pelo ambiente externo.  
 > - **D) Incorreta.** Funções de chefia interna e cargos de confiança privativos de servidores de carreira são preenchidos por designação/ato interno discricionário, sem necessidade de novo concurso público para cada relotação.  
-> - **E) Incorreta.** No recrutamento interno, a organização já conhece o histórico de desempenho e o perfil comportamental dos candidatos, o que constitui uma das principais vantagens do processo.
+> - **E) Incorreta.** No recrutamento interno, a organização já conhece o histórico de desempenho e o perfil comportamental dos candidatos, o que constitui uma das principais vantagens do processo.  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -381,13 +339,14 @@ Em uma entrevista de seleção baseada na gestão por competências, o examinado
 * **D)** Entrevista comportamental por competências estruturada sob o método STAR.
 * **E)** Teste de personalidade expressiva para verificação de temperamento frouxo.
 
-> **Gabarito: D**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** A entrevista não diretiva é desestruturada e aberta, sem perguntas previamente padronizadas nem foco em dados fáticos estruturados.  
 > - **B) Incorreta.** A simulação psicodramática (*role-playing*) exige encenação de papéis interpessoais em dinâmica de grupo, não sendo uma entrevista individual reflexiva.  
 > - **C) Incorreta.** Provas psicométricas são testes formais de raciocínio lógico, atenção ou inteligência que geram escores quantitativos padronizados.  
 > - **D) CORRETA.** O enunciado retrata perfeitamente a técnica **STAR**: o examinador pede ao candidato que relate uma **Situação** fática do passado, sua **Tarefa** específica, a **Ação** concreta executada e o **Resultado** atingido. Baseia-se na premissa de que o comportamento passado em situações similares é o melhor preditor do desempenho futuro.  
-> - **E) Incorreta.** Testes de personalidade expressivos (como PMK ou Palográfico) utilizam traçados gráficos sob supervisão de psicólogos e não perguntas de entrevista funcional.
+> - **E) Incorreta.** Testes de personalidade expressivos (como PMK ou Palográfico) utilizam traçados gráficos sob supervisão de psicólogos e não perguntas de entrevista funcional.  
+> 
+> **Gabarito: D**
 
 ---
 
@@ -401,13 +360,14 @@ De acordo com os preceitos expressos no art. 37 da Constituição Federal de 198
 * **D)** O prazo de validade do concurso público será de até quatro anos, improrrogável, admitindo-se apenas a celebração de novos editais quando esgotada a vigência.
 * **E)** O provimento originário em cargos públicos efetivos independe de prévia aprovação em concurso, desde que o servidor comprove exercício temporário anterior superior a dez anos.
 
-> **Gabarito: C**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** A prova de títulos tem caráter **estritamente classificatório**, sendo vedada a eliminação de candidatos com base exclusiva na ausência ou pontuação insuficiente de títulos.  
 > - **B) Incorreta.** Conforme pacificado pelo STF no Tema 161 (RE 598.099), o candidato aprovado dentro do número de vagas possui **direito público subjetivo à nomeação** durante a vigência do certame, salvo situações imprevisíveis, supervenientes e extraordinárias fundamentadamente comprovadas.  
 > - **C) CORRETA.** O art. 37, IX da CF/88 prevê expressamente que a lei estabelecerá os casos de contratação temporária para atender a necessidade de excepcional interesse público, dispensando o concurso público tradicional e viabilizando o Processo Seletivo Simplificado (PSS).  
 > - **D) Incorreta.** Conforme o art. 37, III da CF/88, o prazo de validade é de **até dois anos**, prorrogável uma única vez por igual período.  
-> - **E) Incorreta.** A investidura em cargo ou emprego público efetivo exige obrigatoriamente concurso público prévio (art. 37, II), sendo inconstitucional qualquer tentativa de efetivação sem certame republicano.
+> - **E) Incorreta.** A investidura em cargo ou emprego público efetivo exige obrigatoriamente concurso público prévio (art. 37, II), sendo inconstitucional qualquer tentativa de efetivação sem certame republicano.  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -421,10 +381,11 @@ O processo de socialização organizacional compreende o conjunto de mecanismos 
 * **D)** Recrutamento Passivo Instrumental.
 * **E)** Desinstitucionalização Funcional.
 
-> **Gabarito: B**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** A metamorfose é a fase final, na qual o colaborador já ajustou suas atitudes, assimilou a cultura institucional e alcançou estabilidade funcional e produtiva.  
 > - **B) CORRETA.** A **fase de Encontro (ou Confronto)** ocorre precisamente no momento do ingresso formal na instituição. É nela que o indivíduo vivencia a realidade concreta da organização e confronta suas expectativas e idealizações prévias com as regras práticas, rotinas diárias e dinâmicas interpessoais da unidade. É a fase crítica onde programas de acolhimento e ambientação exercem papel fundamental.  
 > - **C) Incorreta.** A socialização prévia (ou antecipatória) ocorre antes da entrada do servidor no órgão, envolvendo o aprendizado de conhecimentos gerais e as expectativas construídas durante a fase preparatória de estudos.  
 > - **D) Incorreta.** Termo descabido; recrutamento é fase prévia de atração.  
-> - **E) Incorreta.** Desinstitucionalização refere-se ao rompimento de laços organizacionais e não ao processo de integração de novos servidores.
+> - **E) Incorreta.** Desinstitucionalização refere-se ao rompimento de laços organizacionais e não ao processo de integração de novos servidores.  
+> 
+> **Gabarito: B**

@@ -14,59 +14,37 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
+## 🧭 Sumário
 
-```text
-2. Léxico Técnico de TI, Morfologia e Marcadores de Coesão Lógica
-├── 2.1 Conectivos Lógicos e Marcadores Discursivos (Linking Words)
-│   ├── 2.1.1 Relação de Contraste e Oposição (Adversidade):
-│   │   ├── However, Nevertheless, Nonetheless (No entanto, contudo, todavia)
-│   │   ├── On the other hand, In contrast, Conversely (Por outro lado, em contraste)
-│   │   └── While, Whereas (Enquanto que, ao passo que)
-│   ├── 2.1.2 Relação de Concessão:
-│   │   ├── Although, Even though, Though (Embora, ainda que - seguidos de oração completa: Sujeito + Verbo)
-│   │   └── Despite, In spite of (Apesar de - seguidos de substantivo ou gerúndio -ing)
-│   ├── 2.1.3 Relação de Causa e Explicação:
-│   │   ├── Because, Since, As, For (Porque, já que, visto que)
-│   │   └── Due to, Owing to, Because of, On account of (Devido a, em razão de - seguidos de substantivo)
-│   ├── 2.1.4 Relação de Consequência e Conclusão:
-│   │   ├── Therefore, Thus, Hence, Consequently (Portanto, por conseguinte, logo, assim)
-│   │   └── As a result, For this reason (Como resultado, por esta razão)
-│   ├── 2.1.5 Relação de Adição e Continuidade:
-│   │   ├── Furthermore, Moreover, In addition, Additionally, Besides (Além disso, ademais)
-│   │   └── Not only... but also... (Não apenas... mas também...)
-│   ├── 2.1.6 Relação de Condição:
-│   │   ├── If, Unless (A não ser que, a menos que = if... not)
-│   │   └── Provided that, As long as (Contanto que, desde que)
-│   └── 2.1.7 Relação de Exemplificação e Ênfase:
-│       ├── For example, For instance, Such as, Namely (Por exemplo, tais como, a saber)
-│       └── Indeed, In fact, Particularly, Especially (De fato, em particular)
-├── 2.2 Morfologia e Formação de Palavras Técnicas
-│   ├── 2.2.1 Prefixos Técnicos Recorrentes:
-│   │   ├── Negação / Oposição: un- (unauthorized), in-/im- (immutable), dis- (disabled), mis- (misconfiguration)
-│   │   ├── Relações Temporais/Espaciais: pre- (precondition), post- (postmortem), inter- (interoperability), intra- (intranet)
-│   │   └── Escala e Quantidade: micro- (microservices), multi- (multitenant), sub- (subnet)
-│   ├── 2.2.2 Sufixos de Classe Gramatical (Word Families):
-│   │   ├── Sufixos Formadores de Substantivo: -tion/-sion (authentication), -ment (deployment), -ity (scalability, availability), -ance/-ence (compliance, latency), -er/-or (scheduler, compiler)
-│   │   ├── Sufixos Formadores de Adjetivo: -able/-ible (scalable, reliable, feasible), -al (computational), -ive (predictive, recursive)
-│   │   └── Sufixos Formadores de Advérbio: -ly (seamlessly, concurrently, asynchronously)
-│   └── 2.2.3 Substantivos Compostos (Noun Adjuncts): A regra de ler de trás para frente no inglês (ex.: Cloud Security Threat Assessment -> Avaliação de ameaças de segurança em nuvem)
-└── 2.3 Glossário Técnico Essencial por Domínio de TI
-    ├── 2.3.1 Arquitetura e Engenharia: Throughput (vazão), Latency (latência), Bottleneck (gargalo), Overhead (custo adicional/sobrecarga), Trade-off (relação de compromisso/escolha), Deprecate (descontinuar/obsoleto), Boilerplate (código padrão repetitivo)
-    ├── 2.3.2 Concorrência e Sistemas Operacionais: Deadlock (impasse/travamento mútuo), Thread-safe (seguro para concorrência), Race condition (condição de corrida), Polling (sondagem periódica), Payload (carga útil/dados transmitidos), Spawn (gerar/iniciar processo)
-    ├── 2.3.3 Nuvem e Infraestrutura: On-premises (infraestrutura local própria), Failover (comutação automática em falha), Outage (interrupção/queda geral de serviço), Provisioning (provisionamento), Cold start (inicialização a frio)
-    └── 2.3.4 Segurança Cibernética: Breach (violação/vazamento), Flaw / Vulnerability (falha/brecha), Patch (correção/remendo), Tamper (adulterar/violar integridade), Spoofing (falsificação de identidade), Bypass (burlar/contornar)
-```
+- [1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)](#1-conectivos-lógicos-e-marcadores-discursivos-linking-words)
+  - [1.1 Relações de Contraste e Adversidade](#11-relações-de-contraste-e-adversidade)
+  - [1.2 Relações de Concessão e a Regra do Despite](#12-relações-de-concessão-e-a-regra-do-despite)
+  - [1.3 Relações de Causa, Explicação e Motivo](#13-relações-de-causa-explicação-e-motivo)
+  - [1.4 Relações de Consequência, Efeito e Conclusão](#14-relações-de-consequência-efeito-e-conclusão)
+  - [1.5 Relações de Adição, Continuidade e Ênfase](#15-relações-de-adição-continuidade-e-ênfase)
+  - [1.6 Relações de Condição e a Lógica do Unless](#16-relações-de-condição-e-a-lógica-do-unless)
+  - [1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis](#17-tabela-canônica-de-conectivos-e-substituições-intercambiáveis)
+- [2. Morfologia e Formação de Palavras Técnicas (Word Formation)](#2-morfologia-e-formação-de-palavras-técnicas-word-formation)
+  - [2.1 Prefixos Técnicos Recorrentes em Computação](#21-prefixos-técnicos-recorrentes-em-computação)
+  - [2.2 Famílias de Palavras e Sufixos Gramaticais](#22-famílias-de-palavras-e-sufixos-gramaticais)
+  - [2.3 Substantivos Compostos e Leitura Reversa (Noun Adjuncts)](#23-substantivos-compostos-e-leitura-reversa-noun-adjuncts)
+- [3. Glossário Técnico Essencial por Domínio de TI](#3-glossário-técnico-essencial-por-domínio-de-ti)
+  - [3.1 Arquitetura e Engenharia de Software](#31-arquitetura-e-engenharia-de-software)
+  - [3.2 Concorrência e Sistemas Operacionais](#32-concorrência-e-sistemas-operacionais)
+  - [3.3 Computação em Nuvem e Infraestrutura](#33-computação-em-nuvem-e-infraestrutura)
+  - [3.4 Segurança Cibernética e Auditoria de Sistemas](#34-segurança-cibernética-e-auditoria-de-sistemas)
+- [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
+- [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questões-comentadas--exemplos-padrão-fcc)
 
 ---
 
-## 📖 Teoria Aprofundada & Fundamentos Metodológicos
+## 1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)
 
-### 2.1 Conectivos Lógicos e Marcadores Discursivos (*Linking Words*)
+Os conectivos lógicos (também categorizados na literatura linguística como *Transition Words*, *Discourse Markers* ou *Connectors*) configuram os nós estruturais que asseguram a coesão referencial e a progressão lógica do pensamento em textos formais. 
 
-Os conectivos lógicos (também chamados de *Transition Words*, *Discourse Markers* ou *Connectors*) constituem a espinha dorsal da coerência e coesão textual em língua inglesa. Em provas de TI da FCC, as questões sobre conectivos costumam assumir dois formatos clássicos:
-1. **Identificação da Relação Semântica:** A banca indaga se determinado conectivo introduz uma relação de *causa*, *consequência*, *contraste*, *concessão*, *condição* ou *adição*.
-2. **Substituição sem Prejuízo de Sentido:** A banca solicita ao candidato qual vocábulo pode substituir o termo destacado mantendo intactos o significado e a correção gramatical da frase.
+Nas avaliações da Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia da Informação, os testes acerca de conectivos concentram-se em dois formatos essenciais:
+1. **Identificação da Relação Semântica Primária:** Exige classificar se a partícula expressa *contraste*, *concessão*, *causa*, *consequência/conclusão*, *condição* ou *adição*.
+2. **Substituição sem Prejuízo de Sentido ou Gramática:** Demanda apontar o termo perfeitamente intercambiável (*synonymous transition*) respeitando rigorosamente as exigências de regência sintática (por exemplo, diferenciação entre conjunções seguidas de oração completa vs. preposições seguidas de sintagmas nominais).
 
 ```mermaid
 flowchart TD
@@ -80,160 +58,217 @@ flowchart TD
     LW --> C6["Condição<br/>(If, Unless, Provided that, As long as)"]
 ```
 
-#### Tabela Canônica de Conectivos e Equivalências Intercambiáveis
+### 1.1 Relações de Contraste e Adversidade
 
-| Relação Semântica | Conectivos Canônicos | Estrutura Sintática Requerida | Termos Plenamente Intercambiáveis | Exemplo Técnico em TI |
+Os conectivos de contraste indicam oposição, contraposição direta ou divergência entre duas ideias, componentes ou sistemas concorrentes:
+
+- **However, Nevertheless, Nonetheless (No entanto, todavia, contudo, não obstante):** Conectivos coordenados que introduzem ressalvas ou contra-argumentos à declaração precedente. São costumeiramente posicionados no início de uma oração independente seguidos de vírgula, ou após ponto e vírgula.
+  - *Exemplo:* *"The microservices architecture offers superior scalability; **nevertheless**, it introduces non-trivial operational complexity."*
+- **In contrast, On the contrary, Conversely (Em contrapartida, pelo contrário, inversamente):** Estabelecem um contraponto simétrico entre dois paradigmas tecnológicos distintos.
+  - *Exemplo:* *"Relational databases enforce strict schemas. **In contrast**, document stores provide dynamic schemas."*
+- **Whereas, While (Ao passo que, enquanto que):** Conjunções subordinativas que operam a comparação simultânea entre dois fatos ou entidades em paralelo.
+  - *Exemplo:* *"SQL systems prioritize ACID transactions, **whereas** NoSQL systems emphasize eventual consistency and horizontal elasticity."*
+
+### 1.2 Relações de Concessão e a Regra do Despite
+
+A concessão introduz uma circunstância desfavorável, limitação técnica ou obstáculo que, embora real, **não impede a realização do fato principal** (quebra de expectativa):
+
+- **Although, Even though, Though (Embora, ainda que, se bem que):** Conjunções subordinativas concessivas que exigem **oração completa com Sujeito e Verbo conjugado** (*Subject + Finite Verb*).
+  - *Exemplo:* *"**Although** the cluster experienced hardware failures, no transaction was lost."*
+- **Despite, In spite of (Apesar de, a despeito de, não obstante):** Locuções prepositivas que exigem **obrigatoriamente um Sintagma Nominal (*Noun Phrase*)** ou um verbo na forma nominal de **gerúndio (*-ing*)**.
+  - *Exemplo:* *"**Despite** the heavy network traffic, the load balancer maintained sub-second response times."*
+
+> 🚨 **ALERTA CRÍTICO DE PROVA FCC:**  
+> A forma **"Despite of" NÃO EXISTE** na língua inglesa padrão! É uma armadilha sintática que a FCC insere deliberadamente nas alternativas de substituição. 
+> - Correto: **Despite** + Substantivo (*despite the error*).  
+> - Correto: **In spite of** + Substantivo (*in spite of the error*).  
+> - Totalmente incorreto: *Despite of the error*. Descarte de imediato qualquer opção que use "despite of"!
+
+### 1.3 Relações de Causa, Explicação e Motivo
+
+Indicam o fundamento, premissa ou razão determinante para que determinado evento computacional ocorra:
+
+- **Because, Since, As, For, Inasmuch as (Porque, já que, visto que, dado que):** Conjunções causais que introduzem orações subordinadas explicativas estruturadas com sujeito e predicado verbal.
+  - *Exemplo:* *"The Kubernetes pod crashed **because** it exceeded its memory limit."*
+- **Due to, Owing to, Because of, On account of (Devido a, em razão de, em virtude de):** Expressões prepositivas que introduzem diretamente sintagmas nominais causais.
+  - *Exemplo:* *"The latency degradation occurred **due to** excessive garbage collection cycles."*
+
+### 1.4 Relações de Consequência, Efeito e Conclusão
+
+Indicam o resultado lógico derivado, a dedução ou a conclusão necessária a partir do que foi explanado:
+
+- **Therefore, Thus, Hence, Consequently, Accordingly (Portanto, por conseguinte, logo, assim, desse modo):** Advérbios conectivos plenamente intercambiáveis que conectam a premissa à sua decorrência inevitável.
+  - *Exemplo:* *"The primary node failed health checks; **therefore**, the orchestrator initiated an automated failover."*
+- **As a result, For this reason (Como resultado, por este motivo):** Locuções conclusivas que fecham cadeias argumentativas de causa e efeito.
+
+### 1.5 Relações de Adição, Continuidade e Ênfase
+
+Acrescentam argumentos adicionais alinhados à mesma linha de raciocínio, sem introduzir restrições:
+
+- **Furthermore, Moreover, In addition, Additionally, Besides (Além disso, ademais, outrossim):** Conectivos aditivos cumulativos que introduzem novos fatos reforçadores.
+  - *Exemplo:* *"The firewall blocks unauthorized IP subnets; **furthermore**, it inspects deep application payloads."*
+- **Not only... but also... (Não apenas... mas também...):** Estrutura correlativa de soma e reforço enfático.
+
+### 1.6 Relações de Condição e a Lógica do Unless
+
+Estabelecem os pré-requisitos lógicos para que determinada asserção técnica se concretize:
+
+- **If (Se):** Condição direta afirmativa.
+- **Provided that, Providing that, As long as, On condition that (Contanto que, desde que):** Conectivos que introduzem condições necessárias ou restrições de conformidade.
+  - *Exemplo:* *"The gateway accepts API requests **provided that** a valid JWT bearer token is supplied."*
+- **Unless (A não ser que, a menos que):** Conjunção que embute semanticamente uma condição negativa, equivalendo estritamente a **"if... not"** ou **"except if"**.
+  - *Exemplo:* *"The transaction will not be committed **unless** all distributed replicas acknowledge receipt."*  
+    $\equiv$ *"The transaction will not be committed **if** all distributed replicas **do not** acknowledge receipt."*
+
+> ⚠️ **Ponto de Atenção FCC:**  
+> A partícula *Unless* já é inerentemente negativa. Construções que associam *unless* a verbos no negativo (*unless you don't comply*) criam dupla negação confusa, explorada pela banca em itens interpretativos capciosos.
+
+### 1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis
+
+| Relação Semântica | Conectivos Canônicos | Estrutura Sintática Requerida | Substitutos Plenamente Equivalentes | Exemplo Prático de TI |
 | :--- | :--- | :--- | :--- | :--- |
-| **Contraste / Adversidade** | *However, Nevertheless, Nonetheless* | Seguidos de vírgula ou entre ponto e vírgula; iniciam oração coordenada independente | *However $\leftrightarrow$ Nevertheless $\leftrightarrow$ Nonetheless* | *"The query returned in 5ms; **however**, cache invalidation failed."* |
-| **Contraste Direto** | *Whereas, While, On the contrary, In contrast* | Contrastam duas entidades ou estados opostos em paralelo | *Whereas $\leftrightarrow$ While* | *"SQL ensures ACID properties, **whereas** NoSQL prioritizes partition tolerance."* |
-| **Concessão (Oração)** | *Although, Even though, Though* | Seguidos de **Oração Completa** com Sujeito e Verbo conjugado | *Although $\leftrightarrow$ Even though $\leftrightarrow$ Though* | *"**Although** the cluster was under heavy load, no packets were dropped."* |
-| **Concessão (Sintagma)**| *Despite, In spite of* | Seguidos diretamente de **Substantivo** ou Verbo com terminação **-ing** | *Despite $\leftrightarrow$ In spite of* (NUNCA usar *despite of*) | *"**Despite** the hardware failure, the system sustained high availability."* |
-| **Causa (Oração)** | *Because, Since, As, Inasmuch as* | Seguidos de oração subordinada causal com verbo | *Since $\leftrightarrow$ Because $\leftrightarrow$ As* | *"The pod restarted **because** it exceeded its memory limit."* |
-| **Causa (Sintagma)** | *Due to, Owing to, Because of, On account of* | Seguidos diretamente de sintagma nominal | *Due to $\leftrightarrow$ Owing to $\leftrightarrow$ Because of* | *"The latency spike occurred **due to** garbage collection pauses."* |
-| **Consequência / Conclusão** | *Therefore, Thus, Hence, Consequently, Accordingly* | Seguidos de oração conclusiva que decorre da anterior | *Therefore $\leftrightarrow$ Thus $\leftrightarrow$ Consequently $\leftrightarrow$ Hence* | *"The database was locked; **therefore**, the transaction was aborted."* |
-| **Adição / Continuidade** | *Furthermore, Moreover, In addition, Additionally, Besides* | Somam argumentos de mesma orientação argumentativa | *Furthermore $\leftrightarrow$ Moreover $\leftrightarrow$ In addition* | *"The firewall blocks port 22; **moreover**, it logs all brute-force attempts."* |
-| **Condição Negativa** | *Unless* | Equivale logicamente a **if... not** (a não ser que, a menos que) | *Unless $\equiv$ Except if $\equiv$ If not* | *"The commit will not proceed **unless** the pipeline tests pass."* |
-| **Condição Positiva** | *Provided that, Providing that, As long as* | Condição necessária/suficiente (contanto que, desde que) | *Provided that $\leftrightarrow$ As long as $\leftrightarrow$ On condition that* | *"The API accepts requests **provided that** a valid JWT is supplied."* |
+| **Contraste / Oposição** | *However, Nevertheless, Nonetheless* | Seguidos de vírgula ou entre pontuação forte; orações independentes | *However $\leftrightarrow$ Nevertheless $\leftrightarrow$ Nonetheless* | *"The query returned in 5ms; **however**, the cache failed."* |
+| **Contraste Direto** | *Whereas, While, In contrast* | Paralelismo comparativo entre duas cláusulas | *Whereas $\leftrightarrow$ While* | *"C prioritizes speed, **whereas** Python emphasizes readability."* |
+| **Concessão (Oração)** | *Although, Even though, Though* | Sujeito + Verbo finito conjugado | *Although $\leftrightarrow$ Even though $\leftrightarrow$ Though* | *"**Although** CPU usage was at 90%, throughput did not drop."* |
+| **Concessão (Sintagma)** | *Despite, In spite of* | Apenas Substantivo ou Verbo em *-ing* (NUNCA *despite of*) | *Despite $\leftrightarrow$ In spite of* | *"**In spite of** the replication lag, data consistency held."* |
+| **Causa (Oração)** | *Because, Since, As, Inasmuch as* | Oração com verbo conjugado | *Because $\leftrightarrow$ Since $\leftrightarrow$ As* | *"The build failed **since** unit tests did not pass."* |
+| **Causa (Sintagma)** | *Due to, Owing to, Because of* | Seguidos de sintagma nominal | *Due to $\leftrightarrow$ Owing to $\leftrightarrow$ Because of* | *"Network slowdowns occurred **due to** routing packet loss."* |
+| **Consequência / Conclusão** | *Therefore, Thus, Hence, Consequently* | Oração conclusiva decorrente | *Therefore $\leftrightarrow$ Thus $\leftrightarrow$ Consequently $\leftrightarrow$ Hence* | *"The token expired; **hence**, access was denied."* |
+| **Adição / Continuidade** | *Furthermore, Moreover, In addition* | Adiciona proposição cumulativa | *Furthermore $\leftrightarrow$ Moreover $\leftrightarrow$ Additionally* | *"The tool scans code; **moreover**, it audits cloud IAM roles."* |
+| **Condição Negativa** | *Unless* | Equivale logicamente a *if... not* | *Unless $\equiv$ Except if $\equiv$ If not* | *"Data will be deleted **unless** archives are verified."* |
+| **Condição Restritiva** | *Provided that, As long as* | Condição mandatória requerida | *Provided that $\leftrightarrow$ As long as* | *"Requests succeed **provided that** rate limits are respected."* |
 
 ---
 
-### 2.2 Morfologia e Formação de Palavras Técnicas (*Word Formation*)
+## 2. Morfologia e Formação de Palavras Técnicas (Word Formation)
 
-A compreensão da estrutura morfológica da língua inglesa permite que o candidato deduza a função sintática e o significado exato de milhares de palavras técnicas a partir de suas raízes, prefixos e sufixos.
+A morfologia vocabular em língua inglesa fornece as ferramentas analíticas para decodificar neologismos, jargões técnicos e famílias de palavras sem a necessidade de memorização isolada.
 
-#### 1. Prefixos de Negação e Alteração de Estado em TI
-- **un-** (*inversão / desfazimento / ausência*): *unauthorized* (não autorizado), *unmanaged* (não gerenciado), *unencrypted* (não criptografado), *unresponsive* (sem resposta).
-- **in- / im- / il- / ir-** (*negação estrita*): *immutable* (imutável - fundamental em containers e blockchains), *inaccessible* (inacessível), *irregular* (irregular).
-- **dis-** (*separação / privação / desativação*): *disabled* (desativado), *disconnected* (desconectado), *disaster* (desastre).
-- **mis-** (*execução errônea ou incorreta*): *misconfiguration* (configuração incorreta / falha de configuração), *misuse* (mau uso), *misleading* (enganoso).
-- **de-** (*reversão / remoção*): *decrypt* (descriptografar), *deprecate* (descontinuar), *decouple* (desacoplar), *decommission* (descomissionar/desativar).
+### 2.1 Prefixos Técnicos Recorrentes em Computação
 
-#### 2. Sufixos e Classes Gramaticais (*Word Families*)
-A FCC frequentemente explora se o candidato distingue um substantivo de um adjetivo ou advérbio. Observe as terminações canônicas:
+Os prefixos acoplam-se ao radical modificando sua polaridade, direção ou escala:
+
+- **un- (Inversão / Negação / Privação):** *unauthorized* (não autorizado), *unpatched* (sem correção de segurança), *unresponsive* (sem resposta/travado), *untrusted* (não confiável).
+- **in- / im- / il- / ir- (Negação Estrita):** *immutable* (imutável — propriedade de estruturas que não admitem alteração após a criação), *inaccessible* (inacessível), *invalid* (inválido).
+- **dis- (Separação / Desativação / Ruptura):** *disabled* (desativado), *disrupt* (interromper/desestruturar), *disconnected* (desconectado).
+- **mis- (Execução Errônea ou Inadequada):** *misconfiguration* (falha ou erro de configuração — causa primordial de vazamentos em nuvem), *misleading* (enganoso), *misuse* (uso indevido).
+- **de- (Reversão / Desfazimento / Remoção):** *decouple* (desacoplar), *deprecate* (descontinuar/tornar obsoleto), *decommission* (descomissionar/desativar infraestrutura), *decrypt* (descriptografar).
+- **inter- vs. intra-:** *interoperability* (interoperabilidade entre sistemas heterogêneos distintos) vs. *intranet* (rede interna privativa).
+- **multi- vs. mono-:** *multitenant* (arquitetura multilocatária compartilhada) vs. *monolithic* (monolítico unificado).
+
+### 2.2 Famílias de Palavras e Sufixos Gramaticais
+
+Os sufixos definem a classe gramatical da palavra (*part of speech*). Saber identificar o sufixo impede que o candidato confunda uma propriedade abstrata (substantivo) com uma qualidade do componente (adjetivo) ou com a forma de execução (advérbio):
 
 ```mermaid
 flowchart LR
-    Root["Radical Técnico<br/>(ex.: SCALE)"]
+    Root["Radical: SCALE"]
     
-    Root --> Substantivo["Substantivo (-ability, -ation)<br/>'scalability' (escalabilidade)"]
-    Root --> Adjetivo["Adjetivo (-able)<br/>'scalable' (escalável)"]
-    Root --> Adverbio["Advérbio (-ly)<br/>'scalably' (de modo escalável)"]
+    Root --> S1["Substantivo: -ability<br/>'scalability' (escalabilidade)"]
+    Root --> S2["Adjetivo: -able<br/>'scalable' (escalável)"]
+    Root --> S3["Advérbio: -ly<br/>'scalably' (escalavelmente)"]
 ```
 
-- **Sufixos de Substantivo:**
-  - *-ity / -ness:* Indicam estado ou qualidade (*scalability, availability, elasticity, robustness, darkness*).
-  - *-tion / -sion:* Indicam ação ou resultado do processo (*authentication, encryption, replication, compression*).
-  - *-ment:* Indicam ação, resultado ou artefato (*deployment, environment, enhancement*).
-  - *-ance / -ence:* Indicam propriedade ou medida (*compliance, latency, persistence, tolerance*).
-  - *-er / -or:* Indicam o agente que executa a ação, seja software ou humano (*scheduler, compiler, balancer, attacker, developer*).
-- **Sufixos de Adjetivo:**
-  - *-able / -ible:* Expressam potencialidade, capacidade ou viabilidade (*scalable* = capaz de escalar; *reliable* = confiável; *feasible* = viável; *accessible* = acessível).
-  - *-ive:* Expressa característica ativa (*predictive, recursive, preventive, reactive*).
-  - *-al:* Expressa pertinência relacional (*computational, operational, transactional, directional*).
-- **Sufixos de Advérbio:**
-  - *-ly:* Transforma o adjetivo em advérbio de modo (*seamlessly* = perfeitamente/sem interrupção; *concurrently* = concorrentemente; *asynchronously* = assincronamente).
+- **Sufixos Formadores de Substantivos:**
+  - *-ity / -ty:* Qualidade, estado ou métrica formal (*availability, elasticity, scalability, integrity, latency*).
+  - *-tion / -sion:* Ação, processo ou resultado (*authentication, serialization, compression, migration*).
+  - *-ment:* Instrumento, estado ou resultado prático (*deployment, enhancement, containment*).
+  - *-ance / -ence:* Condição ou propriedade contínua (*compliance, persistence, tolerance, resilience*).
+  - *-er / -or:* Agente processador, software ou pessoa responsável (*scheduler, compiler, dispatcher, load balancer, auditor*).
+- **Sufixos Formadores de Adjetivos:**
+  - *-able / -ible:* Denota capacidade, passibilidade ou viabilidade técnica (*scalable* = capaz de escalar; *feasible* = viável; *reliable* = confiável; *accessible* = acessível).
+  - *-ive:* Natureza dinâmica ou operacional (*predictive, recursive, preventive, defensive*).
+  - *-al:* Pertinência conceitual (*transactional, architectural, operational, computational*).
+- **Sufixos Formadores de Advérbios:**
+  - *-ly:* Adicionado ao adjetivo para exprimir o modo de execução (*seamlessly* = perfeitamente, sem interrupção perceptível; *concurrently* = simultaneamente; *asynchronously* = de maneira assíncrona).
 
----
+### 2.3 Substantivos Compostos e Leitura Reversa (Noun Adjuncts)
 
-### 2.3 Substantivos Compostos e Modificadores Nominais (*Noun Adjuncts*)
+Na redação técnica de computação, sequências de três, quatro ou cinco palavras justapostas formam conceitos compostos complexos (*Noun Adjuncts / Compound Nouns*).
 
-Um dos aspectos mais marcantes do inglês técnico de computação é a formação de **expressões nominais complexas (*Compound Nouns / Noun Adjuncts*)**, em que vários substantivos são enfileirados consecutivamente para formar um único conceito.
-
-#### A Regra de Ouro da Leitura Reversa:
-Em inglês, o substantivo principal (denominado *head noun*) fica **obrigatoriamente na última posição** da cadeia de palavras. Todos os substantivos que o antecedem funcionam morfossintaticamente como **adjetivos qualificadores**, definindo o tipo, a finalidade ou a propriedade daquele núcleo.
+#### A Regra de Interpretação da Direita para a Esquerda:
+O substantivo núcleo (*Head Noun*) situa-se **sempre na última posição**. Todas as palavras que o precedem funcionam como qualificadores adjetivos. O leitor brasileiro deve localizar o último vocábulo e interpretá-lo lendo de trás para frente:
 
 ```mermaid
 flowchart RL
-    W1["Real-time<br/>(Qualificador 4: Em tempo real)"]
-    W2["Network<br/>(Qualificador 3: De rede)"]
-    W3["Traffic<br/>(Qualificador 2: De tráfego)"]
-    W4["Anomaly<br/>(Qualificador 1: De anomalia)"]
-    Head["DETECTOR<br/>(NÚCLEO PRINCIPAL: O que é?)"]
+    W1["Multi-region<br/>(4: Multirregional)"]
+    W2["Database<br/>(3: De banco de dados)"]
+    W3["Failover<br/>(2: De comutação por falha)"]
+    Head["SYSTEM<br/>(1: SISTEMA - Núcleo)"]
     
-    Head --> W4
-    W4 --> W3
+    Head --> W3
     W3 --> W2
     W2 --> W1
 ```
 
-> ⭐ **IMPORTANTE / REGRA DE OURO:**  
-> Para traduzir ou interpretar um composto nominal sem titubear, localize a **última palavra** e leia o composto **da direita para a esquerda**:
-> - `Cloud Security Threat Assessment`:
->   1. Localize a última palavra: *Assessment* (Avaliação).
->   2. Mova para a esquerda: de *Threat* (ameaças)...
->   3. ... de *Security* (de segurança)...
->   4. ... em *Cloud* (na nuvem).  
->   $\rightarrow$ **Tradução:** *Avaliação de ameaças à segurança na nuvem*.
-> - `High Availability Disaster Recovery Plan`:
->   $\rightarrow$ *Plano* de *Recuperação de Desastres* com *Alta Disponibilidade*.
-> - `Zero Downtime Database Migration Strategy`:
->   $\rightarrow$ *Estratégia* de *Migração de Banco de Dados* com *Zero Tempo de Inatividade*.
+- *Exemplo 1:* `Fault-tolerant high-availability cluster provisioning system`  
+  $\rightarrow$ 1. *System* (Sistema) $\rightarrow$ 2. *provisioning* (de provisionamento) $\rightarrow$ 3. *cluster* (de cluster) $\rightarrow$ 4. *high-availability* (de alta disponibilidade) $\rightarrow$ 5. *fault-tolerant* (tolerante a falhas).  
+  **Sentido:** *Sistema de provisionamento de cluster de alta disponibilidade tolerante a falhas*.
+- *Exemplo 2:* `Automated source code security vulnerability scanner`  
+  $\rightarrow$ *Scanner de vulnerabilidades de segurança em código-fonte automatizado*.
+- *Exemplo 3:* `Zero-downtime database schema migration procedure`  
+  $\rightarrow$ *Procedimento de migração de esquema de banco de dados sem tempo de inatividade*.
 
 ---
 
-### 2.4 Glossário Técnico Essencial por Domínio da FCC
+## 3. Glossário Técnico Essencial por Domínio de TI
 
-Para garantir velocidade e segurança na prova, o candidato deve dominar os termos técnicos nucleares catalogados nos quatro domínios a seguir:
+### 3.1 Arquitetura e Engenharia de Software
 
-#### Domínio 1: Arquitetura e Engenharia de Software
-- **Throughput (Vazão / Taxa de Transferência):** Quantidade de dados ou transações processadas com sucesso por unidade de tempo (ex.: requisições por segundo - RPS).
-- **Latency (Latência):** O tempo de atraso que uma requisição leva para viajar da origem ao destino e retornar a resposta.
-- **Bottleneck (Gargalo / Ponto de Estrangulamento):** O componente ou recurso que restringe e limita o desempenho global de todo o sistema.
-- **Overhead (Sobrecarga Computacional / Custo Operacional Adicional):** Recursos extras de processamento, memória ou rede demandados para gerenciar um serviço (não confundir com custo meramente financeiro).
-- **Trade-off (Relação de Compromisso / Concessão Mútua):** Dilema de engenharia no qual a melhoria de um atributo exige necessariamente o sacrifício de outro (ex.: consistência estrita vs. baixa latência).
-- **Deprecate (Descontinuar / Tornar Obsoleto):** Declarar oficialmente que determinado recurso ou biblioteca de software não deve mais ser utilizado e será removido em versões futuras.
-- **Boilerplate (Código Padronizado / Repetitivo):** Seções de código repetitivas necessárias para configurar uma aplicação, mas sem lógica de negócio direta.
+- **Throughput (Vazão / Taxa de Processamento):** Volume de unidades de trabalho ou requisições processadas com êxito por unidade de tempo (ex.: transações por segundo - TPS).
+- **Latency (Latência):** Intervalo de tempo entre o envio de uma requisição e a recepção da resposta correspondente.
+- **Bottleneck (Gargalo / Ponto de Estrangulamento):** Componente, recurso computacional ou enlace que restringe e dita a capacidade máxima de todo o ecossistema.
+- **Overhead (Sobrecarga Computacional / Custo de Processamento Adicional):** Consumo extra de CPU, memória, ciclos de clock ou bytes de cabeçalho incorrido para prover abstrações, controle, criptografia ou orquestração.  
+  > ⚠️ **Alerta FCC:** A banca costuma tentar fazer o candidato interpretar *overhead* como despesa monetária de licença. Em arquitetura de software, *overhead* é sobrecarga técnica de processamento!
+- **Trade-off (Concessão Mútua / Relação de Compromisso):** Decisão de projeto em que uma vantagem obtida implica forçosamente a aceitação de uma contrapartida desfavorável.
+- **Deprecate / Deprecated (Descontinuar / Obsoleto):** Recurso que permanece temporariamente disponível para fins de compatibilidade retroativa, mas cuja utilização é desaconselhada devido à descontinuação iminente.
+- **Boilerplate (Código Padronizado / Repetitivo):** Seções de código repetitivo e verboso necessárias para compilação ou configuração inicial, sem valor funcional direto de negócio.
 
-#### Domínio 2: Concorrência e Sistemas Operacionais
-- **Deadlock (Impasse / Travamento Mútuo):** Situação em que dois ou mais processos concorrentes ficam eternamente bloqueados esperando por recursos retidos uns pelos outros.
-- **Race Condition (Condição de Corrida):** Anomalia de concorrência em que o resultado da execução depende da ordem temporal imprevisível em que as threads acessam dados compartilhados.
-- **Thread-safe (Seguro para Concorrência):** Código ou estrutura de dados projetada para ser invocada por múltiplas threads simultâneas sem risco de corrupção de memória.
-- **Polling (Sondagem Periódica):** Técnica em que o cliente consulta o servidor repetidamente em intervalos fixos para checar se novos eventos ocorreram (oposto a push/webhooks).
-- **Payload (Carga Útil):** Os dados reais de negócio transportados em uma mensagem ou pacote, excluindo os cabeçalhos de controle (*headers/metadata*).
-- **Spawn (Gerar / Criar Processo Filho):** Ação do sistema operacional de iniciar uma nova thread ou processo a partir de um processo existente.
+### 3.2 Concorrência e Sistemas Operacionais
 
-#### Domínio 3: Computação em Nuvem e Infraestrutura
-- **On-premises (Infraestrutura Local / Própria):** Instalações de datacenters físicos mantidas nas dependências da própria organização governamental, em oposição a datacenters na nuvem pública.
-- **Failover (Comutação Automática por Falha):** Mecanismo de alta disponibilidade que transfere a carga de trabalho de um servidor primário defeituoso para um secundário íntegro de forma autônoma.
-- **Outage (Interrupção de Serviço / Queda Geral):** Período de indisponibilidade no qual um sistema ou infraestrutura fica inacessível aos usuários finais.
-- **Provisioning (Provisionamento):** Processo de alocar, configurar e disponibilizar servidores, bancos de dados e regras de rede sob demanda.
-- **Cold Start (Inicialização a Frio):** O atraso inicial de latência que ocorre em ambientes *serverless* quando uma função precisa ser instanciada pela primeira vez do zero.
+- **Deadlock (Impasse Mútuo / Travamento Recíproco):** Condição anômala em que dois ou mais processos ou threads concorrentes ficam eternamente paralisados aguardando a liberação de recursos bloqueados entre si.
+- **Race Condition (Condição de Corrida):** Defeito concorrencial em que a saída final do programa torna-se imprevisível ou corrompida em função da ordem temporal aleatória de execução das threads sobre dados compartilhados.
+- **Thread-safe (Seguro para Execução Concorrente):** Propriedade de classes ou estruturas projetadas para suportar acessos simultâneos por múltiplas threads sem incorrer em corrupção de estado.
+- **Polling (Sondagem Ativa / Consulta Periódica):** Mecanismo síncrono em que um cliente envia requisições repetidas ao servidor para verificar se houve atualização.
+- **Payload (Carga Útil):** O conteúdo substantivo de dados de negócio transportado por um pacote ou mensagem, expurgados os metadados de protocolo.
+- **Spawn (Gerar / Instanciar Processo Filho):** Ação pela qual um processo pai invoca o kernel do sistema operacional para criar uma nova linha de execução.
 
-#### Domínio 4: Segurança Cibernética e Auditoria
-- **Breach (Violação / Vazamento de Dados):** Incidente de segurança confirmado em que dados confidenciais foram acessados ou exfiltrados por partes não autorizadas.
-- **Flaw / Vulnerability (Falha / Vulnerabilidade):** Defeito no projeto ou implementação de software que pode ser explorado por um atacante.
-- **Patch (Correção / Atualização de Segurança):** Pacote de software distribuído pelo fabricante para corrigir falhas e fechar brechas de segurança.
-- **Tamper / Tampering (Adulteração / Violação de Integridade):** Modificação não autorizada de dados, configurações ou trilhas de log com a intenção de comprometer a integridade do sistema.
-- **Spoofing (Falsificação de Identidade):** Técnica em que uma entidade maliciosa mascara sua identidade para se passar por um emissor confiável (ex.: IP spoofing, DNS spoofing).
-- **Bypass (Burlar / Contornar):** Ação de contornar um controle de segurança, filtro ou autenticação existente.
+### 3.3 Computação em Nuvem e Infraestrutura
 
----
+- **On-premises (Infraestrutura Local Própria):** Modelo de implantação em que servidores e equipamentos físicos operam fisicamente dentro das dependências prediais da entidade governamental.
+- **Failover (Comutação Automática por Falha):** Mecanismo de contingência operacional que transfere a carga de processamento de um nó primário indisponível para um nó secundário em espera de forma autônoma e transparente.
+- **Outage (Interrupção Geral de Serviço / Apagão):** Período crítico de inatividade em que serviços essenciais ficam completamente inacessíveis aos usuários.
+- **Provisioning (Provisionamento de Recursos):** Ação de orquestrar, configurar e disponibilizar máquinas virtuais, balanceadores, IPs e discos na infraestrutura de nuvem.
+- **Cold Start (Inicialização a Frio):** Latência adicional experimentada em arquiteturas *serverless* quando a plataforma precisa instanciar um novo contêiner de execução para atender a uma requisição inaugural.
 
-## ⚠️ Pontos de Atenção (Estilo FCC)
+### 3.4 Segurança Cibernética e Auditoria de Sistemas
 
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> 1. **"Despite of" NÃO EXISTE em Inglês:** É um erro clássico construído pela banca. Ou se usa **"Despite"** diretamente acompanhado do substantivo (*despite the error*), ou se usa a locução de 3 palavras **"In spite of"** (*in spite of the error*). NUNCA aceite uma alternativa que traga *"despite of"*.  
-> 2. **A Dupla Negação com "Unless":** O conectivo *Unless* já embute a negação (*if not*). Quando o enunciado traz *"unless you don't..."*, isso gera uma dupla negação semanticamente confusa que a banca usa para desorientar o candidato.  
-> 3. **"Overhead" NÃO é Despesa Financeira em TI:** Em textos de arquitetura de software, *overhead* refere-se à taxa de processamento extra de CPU, tráfego adicional de pacotes de controle ou consumo de memória RAM imposto por determinado protocolo de comunicação (ex.: TLS handshake overhead).
+- **Breach (Violação / Vazamento de Dados):** Incidente de segurança formalmente comprovado no qual informações confidenciais foram expostas, furtadas ou violadas.
+- **Flaw / Vulnerability (Falha / Vulnerabilidade):** Fragilidade lógica de design ou implementação que pode ser explorada por agentes hostis.
+- **Patch (Atualização / Correção de Segurança):** Pacote binário ou código corretivo liberado pelo mantenedor para sanar falhas reportadas.
+- **Tamper / Tampering / Tamper-proof (Adulteração / À Prova de Adulteração):** Ação não autorizada de modificar dados ou trilhas de log. Registros *tamper-proof* garantem integridade imutável que impossibilita a alteração silenciosa.
+- **Spoofing (Falsificação de Identidade / Mascaramento):** Técnica de usurpação de identidade digital (IP spoofing, DNS spoofing, e-mail spoofing).
+- **Bypass (Burlar / Contornar):** Ato de contornar ou neutralizar controles e barreiras de segurança pré-existentes.
+- **Mitigate / Mitigation (Mitigar / Atenuar):** Adoção de salvaguardas técnicas destinadas a minimizar a severidade, o impacto ou a probabilidade de exploração de um risco de segurança.
 
 ---
 
-## 🌐 Fontes Recomendadas na Internet
+## 4. Fontes Recomendadas na Internet
 
-- [Gartner Information Technology (IT) Glossary](https://www.gartner.com/en/information-technology/glossary)
-  - Glossário enciclopédico oficial da Gartner com definições rigorosas e padronizadas de mais de mil termos técnicos modernos em arquitetura de TI, nuvem, IA e governança.
-- [NIST CSRC Glossary - Computer Security Resource Center](https://csrc.nist.gov/glossary)
-  - Glossário oficial de termos técnicos de segurança da informação mantido pelo National Institute of Standards and Technology. Referência normativa para definições de *vulnerability*, *threat*, *breach*, *tampering* e *spoofing*.
-- [IETF RFC 4949 - Internet Security Glossary, Version 2](https://datatracker.ietf.org/doc/html/rfc4949)
-  - Padrão canônico do IETF que formaliza a terminologia internacional de segurança cibernética e redes de computadores.
-- [Cambridge Grammar - Linking Words and Discourse Markers](https://dictionary.cambridge.org/grammar/british-grammar/linking-words-and-expressions)
-  - Compêndio gramatical britânico de referência para conectivos lógicos de transição discursiva (*linking words*).
-- [Oxford Learner's Dictionaries - Academic and Technical Lexicon](https://www.oxfordlearnersdictionaries.com/)
-  - Dicionário com Academic Word List (AWL), detalhando formações morfológicas por prefixos e sufixos técnicos.
+- [Gartner Information Technology (IT) Glossary](https://www.gartner.com/en/information-technology/glossary)  
+  Glossário oficial de referência da Gartner contendo definições técnicas padronizadas sobre computação em nuvem, microsserviços, governança e segurança.
+- [NIST CSRC Glossary - Computer Security Resource Center](https://csrc.nist.gov/glossary)  
+  Compêndio oficial do governo dos Estados Unidos (NIST) com a padronização terminológica internacional de cibersegurança (*tampering, vulnerability, breach, spoofing*).
+- [IETF RFC 4949 - Internet Security Glossary, Version 2](https://datatracker.ietf.org/doc/html/rfc4949)  
+  Documento normativo primário da Internet Engineering Task Force para termos de segurança de redes e criptografia.
+- [Cambridge Grammar - Linking Words and Discourse Markers](https://dictionary.cambridge.org/grammar/british-grammar/linking-words-and-expressions)  
+  Guia detalhado sobre marcadores discursivos, conectivos lógicos e regras de sintaxe para relações de contraste, concessão, causa e condição.
+- [Oxford Learner's Dictionaries - Academic and Technical Lexicon](https://www.oxfordlearnersdictionaries.com/)  
+  Dicionário acadêmico de vanguarda contendo regras de afixação morfológica (prefixos e sufixos técnicos em inglês).
 
 ---
 
-## 📝 Questões Comentadas & Exemplos (Padrão FCC)
+## 5. Questões Comentadas & Exemplos (Padrão FCC)
 
 ### Questão 1 (FCC - Adaptada / Analista de Governança de TI - SEFAZ)
 *Consider the sentence extracted from a technical systems architecture evaluation:*
@@ -248,14 +283,14 @@ C) O conectivo **"Therefore"** expressa conclusão/consequência lógica e pode 
 D) A conjunção **"unless"** introduz uma concessão incondicional, com o mesmo valor sintático e semântico de *"although"*.  
 E) A oração iniciada por *"unless rigorous benchmark metrics prove..."* indica que o serviço central será migrado de imediato, independentemente dos testes de vazão.  
 
-> **Gabarito: C**  
->
-> **Comentário Analítico Passo a Passo:**  
-> - **A (Incorreta):** O conectivo **"Nevertheless"** (no entanto, todavia, contudo, não obstante) é um marcador discursivo de **contraste/adversidade**. Ele introduz um contra-argumento ou restrição à oração anterior, e não uma relação de causa (*because*).  
-> - **B (Incorreta):** No domínio de arquitetura de software e sistemas operacionais, o vocábulo **"overhead"** designa a sobrecarga computacional de processamento, consumo adicional de recursos de memória/CPU ou coordenação de rede demandada para operar os microsserviços. Não possui vínculo com taxas financeiras ou royalties de licenciamento.  
-> - **C (Correta):** O conectivo **"Therefore"** (portanto, logo, por conseguinte) expressa uma relação semântica de **consequência/conclusão lógica** decorrente do fato anterior. Ele é plenamente intercambiável com **"Consequently"**, **"Thus"** ou **"Hence"**.  
-> - **D (Incorreta):** A conjunção **"unless"** expressa uma **condição negativa** (*a menos que*, *a não ser que*, equivalente lógico a *if... not*), e não uma concessão (*although*).  
-> - **E (Incorreta):** O enunciado expressa exatamente o oposto: a equipe de desenvolvimento decidiu **NÃO** migrar o serviço crítico a não ser que os testes de benchmark provem que a vazão (*throughput*) permaneça satisfatória. A migração está condicionada ao sucesso métrico.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O conectivo **"Nevertheless"** (contudo, todavia, no entanto, não obstante) é um marcador discursivo coordenativo de **contraste/adversidade**. Ele pontua uma ressalva ou restrição à proposição anterior, e não uma relação explicativa de causa (*because*).
+> - **B)** Incorreta. Em arquitetura de sistemas e computação distribuída, o vocábulo **"overhead"** exprime a sobrecarga operacional computacional de processamento, consumo adicional de memória/CPU ou comunicações de rede para coordenação. Não denota despesas financeiras ou royalties.
+> - **C)** Correta. O conectivo **"Therefore"** (portanto, logo, por conseguinte) estabelece uma dedução lógica de **consequência/conclusão**. Possui equivalência perfeita de sentido com **"Consequently"**, **"Thus"** e **"Hence"**.
+> - **D)** Incorreta. A conjunção **"unless"** expressa uma **condição negativa** (*a menos que*, *a não ser que*, equivalente lógico a *if... not*), e não uma oração concessiva (*although*).
+> - **E)** Incorreta. O trecho assevera o oposto: a equipe deliberou **NÃO migrar** o serviço de missão crítica a não ser que testes rigorosos de benchmark comprovem que a vazão (*throughput*) permaneça satisfatória. A migração está explicitamente condicionada ao sucesso métrico.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -272,14 +307,14 @@ C) Finalidade ou propósito; substituível por *"in order to"*.
 D) Causa direta; substituível por *"due to"*.  
 E) Condição restritiva; substituível por *"as long as"*.  
 
-> **Gabarito: B**  
->
-> **Comentário Analítico Passo a Passo:**  
-> - **A (Incorreta):** Conectivos aditivos (*furthermore, moreover*) adicionam novas informações que corroboram a asserção anterior. *"In spite of"* contrapõe uma dificuldade que não impediu o resultado.  
-> - **B (Correta):** A locução prepositiva **"in spite of"** (apesar de / a despeito de) possui valor semântico de **concessão** (indica um fato que contraria uma expectativa sem, todavia, impedi-la). Tanto **"in spite of"** quanto **"despite"** são preposições seguidas diretamente por sintagmas nominais (*noun phrases*) ou verbos com *-ing*, constituindo equivalentes perfeitos (*despite the replication lag* = a despeito do atraso de replicação).  
-> - **C (Incorreta):** Conectivos de finalidade (*in order to, so as to*) expressam objetivo/intenção e são seguidos por verbos no infinitivo.  
-> - **D (Incorreta):** *"Due to"* expressa causalidade (devido a, por causa de). Se substituído, alteraria radicalmente o sentido: afirmaria que a garantia de consistência foi causada pelo atraso, o que é falso.  
-> - **E (Incorreta):** *"As long as"* introduz uma oração condicional (contanto que, desde que), exigindo estrutura oracional completa com sujeito e verbo.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Marcadores aditivos (*furthermore, moreover*) agregam novos elementos cumulativos. *"In spite of"* denota uma barreira que não foi suficiente para impedir o evento.
+> - **B)** Correta. A locução prepositiva **"in spite of"** (a despeito de, apesar de) possui valor semântico de **concessão**. As formas **"in spite of"** e **"despite"** são preposições seguidas diretamente por sintagmas nominais (*noun phrases*) ou gerúndios (*-ing*), atuando como equivalentes estritos (*despite the replication lag* = a despeito do atraso de replicação).
+> - **C)** Incorreta. Conectivos de finalidade (*in order to, so as to*) expressam propósito ou objetivo pretendido, exigindo verbos no infinitivo.
+> - **D)** Incorreta. *"Due to"* expressa causalidade primária (devido a, por causa de). Sua introdução distorceria o texto, afirmando que a consistência foi gerada pelo atraso de replicação, o que é um contrassenso.
+> - **E)** Incorreta. *"As long as"* expressa condição restritiva (desde que, contanto que), exigindo oração completa com sujeito e predicado.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -302,13 +337,17 @@ C) II e III, apenas.
 D) III, apenas.  
 E) I, II e III.  
 
-> **Gabarito: A**  
->
-> **Comentário Analítico Passo a Passo:**  
-> - **Item I (Correto):** Aplicação estrita da regra dos **Noun Adjuncts**: em sequências nominais longas, a última palavra é o substantivo núcleo (*head noun* $\rightarrow$ *system*). A tradução correta, lendo da direita para a esquerda, é: "sistema de provisionamento de cluster de alta disponibilidade tolerante a falhas".  
-> - **Item II (Correto):** Análise morfológica precisa: a raiz *seam* (costura) recebe o sufixo privativo *-less* (sem costura / sem emenda), gerando o adjetivo *seamless*. A seguir, recebe o sufixo adverbial *-ly*, originando o advérbio *seamlessly* (de maneira suave, sem interrupção perceptível, fluidamente).  
-> - **Item III (Incorreto):** O vocábulo técnico **"failover"** designa exatamente o oposto de desligamento manual catastrófico: trata-se da comutação automática e transparente de um componente em falha para um nó redundante funcional, preservando a disponibilidade do serviço.  
-> - Conclusão: Itens I e II corretos; Item III incorreto $\rightarrow$ Alternativa A.
+> **Comentário Detalhado:**
+> - **A)** Correta. Apenas as proposições I e II estão alinhadas com a gramática instrumental e os conceitos de TI:
+>   - **I (Verdadeiro):** Pela regra dos *Noun Adjuncts*, a última palavra da cadeia é o núcleo substantivo (*system*). Lendo da direita para a esquerda: *sistema de provisionamento de cluster de alta disponibilidade tolerante a falhas*.
+>   - **II (Verdadeiro):** O radical *seam* (costura) recebe o sufixo privativo *-less* (sem costura/sem emendas), gerando o adjetivo *seamless*. Com o acréscimo do sufixo adverbial *-ly*, forma-se *seamlessly* (perfeitamente, sem interrupção perceptível, fluidamente).
+>   - **III (Falso):** O termo técnico **"failover"** designa a comutação automática e transparente de um recurso defeituoso para um nó redundante funcional, preservando a continuidade operacional, e não um desligamento manual.
+> - **B)** Incorreta. O item III é falso.
+> - **C)** Incorreta. O item I é verdadeiro e o III é falso.
+> - **D)** Incorreta. O item III é falso.
+> - **E)** Incorreta. O item III é incorreto.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -325,14 +364,14 @@ C) O termo **"tamper-proof"** indica registros protegidos contra alterações ou
 D) O conectivo **"Furthermore"** introduz uma oposição direta à frase antecedente.  
 E) O verbo **"mitigate"** significa potencializar e agravar as vulnerabilidades do hipervisor para testes de estresse.  
 
-> **Gabarito: C**  
->
-> **Comentário Analítico Passo a Passo:**  
-> - **A (Incorreta):** A conjunção **"whereas"** (ao passo que, enquanto que) expressa uma relação de **contraste direto / oposição** entre motores relacionais e bancos de documentos, e não consequência (*hence* / *therefore*).  
-> - **B (Incorreta):** **"Due to"** (devido a, em razão de) expressa **causa / motivo**, e não concessão (*in spite of*).  
-> - **C (Correta):** O vocábulo técnico **"tamper-proof"** (à prova de adulteração) indica registros imutáveis e auditáveis que não podem ser manipulados, alterados ou corrompidos sem detecção imediata.  
-> - **D (Incorreta):** O conectivo **"Furthermore"** (além disso, ademais) introduz uma relação de **adição / continuidade argumentativa**, e não uma oposição direta (*on the other hand / however*).  
-> - **E (Incorreta):** O verbo técnico **"mitigate"** significa *mitigar*, *atenuar*, *reduzir a gravidade* ou *remediar* os impactos das falhas identificadas, e não agravá-las ou potencializá-las.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. A conjunção **"whereas"** (ao passo que, enquanto que) estabelece **contraste direto e comparação em paralelo** entre dois modelos de banco de dados, e não consequência (*hence / therefore*).
+> - **B)** Incorreta. **"Due to"** (devido a, em razão de) introduz uma relação de **causa/motivo**, e não de concessão (*in spite of*).
+> - **C)** Correta. O adjetivo composto técnico **"tamper-proof"** (à prova de adulteração/violação) define registros, logs ou mídias cuja integridade é garantida criptograficamente, inviabilizando ou delatando qualquer alteração indevida.
+> - **D)** Incorreta. O conectivo **"Furthermore"** (além disso, ademais) expressa **adição cumulativa**, somando uma nova ação do provedor de nuvem, e não oposição adversativa.
+> - **E)** Incorreta. O verbo **"mitigate"** (mitigar, atenuar, reduzir a gravidade) significa implementar controles para abrandar os impactos das vulnerabilidades detectadas, e não agravá-las.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -349,11 +388,11 @@ C) A locução conjuntiva **"provided that"** estabelece uma relação semântic
 D) No trecho *"without triggering disruptive latency spikes"*, a palavra *"without"* introduz uma finalidade deliberada de elevar a latência.  
 E) O termo **"immutable"** é um adjetivo que caracteriza dados que podem ser modificados livremente por qualquer thread concorrente sem restrições.  
 
-> **Gabarito: C**  
->
-> **Comentário Analítico Passo a Passo:**  
-> - **A (Incorreta):** **"Race condition"** (condição de corrida) não é um mecanismo de otimização, mas sim uma grave falha/anomalia de concorrência onde o resultado do processamento se torna imprevisível e incorreto devido à sincronização inadequada entre threads.  
-> - **B (Incorreta):** **"Deadlock"** (impasse mútuo / travamento) é uma falha em que processos ficam paralisados indefinidamente esperando que o outro libere recursos travados, travando o sistema em vez de acelerá-lo.  
-> - **C (Correta):** A locução **"provided that"** (contanto que, desde que) introduz uma **oração subordinada condicional**, estabelecendo a premissa sob a qual as estruturas imutáveis são viáveis (o coletor de lixo reciclar instâncias eficientemente).  
-> - **D (Incorreta):** A preposição *"without"* é privativa e negativa (sem provocar picos de latência disruptivos), indicando ausência de perturbação e não finalidade de aumentar o tempo de resposta.  
-> - **E (Incorreta):** Análise morfológica: o prefixo negativo *im-* anexado a *mutable* indica o exato oposto: dados **imutáveis** são aqueles cujo estado NÃO pode ser alterado após a criação, garantindo que sejam inerentemente *thread-safe*.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O termo **"race condition"** (condição de corrida) não é uma técnica de otimização, mas sim um bug grave de concorrência em que operações simultâneas sobre memória compartilhada levam a inconsistências e perda de dados.
+> - **B)** Incorreta. O termo **"deadlock"** (impasse / travamento mútuo) define o cenário patológico em que duas ou mais threads ficam paralisadas de forma indeterminada aguardando recursos mutuamente retidos, travando o sistema.
+> - **C)** Correta. A locução **"provided that"** (contanto que, desde que) introduz uma **oração subordinada condicional restritiva**, condicionando a adoção de estruturas imutáveis à eficiência do coletor de lixo.
+> - **D)** Incorreta. A preposição privativa **"without"** (sem) denota exclusão/ausência circunstancial (*sem desencadear picos de latência*), e não finalidade ou objetivo intencional.
+> - **E)** Incorreta. Pelo prefixo negativo *im-*, o adjetivo **"immutable"** (imutável) qualifica dados que **NUNCA** podem ser modificados após sua instanciação, conferindo-lhes segurança intrínseca para concorrência (*thread safety*).
+> 
+> **Gabarito: C**

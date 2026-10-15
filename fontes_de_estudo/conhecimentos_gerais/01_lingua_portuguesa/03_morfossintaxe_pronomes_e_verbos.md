@@ -22,43 +22,134 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-3. Morfossintaxe, Classes de Palavras e Dinâmica Verbal
-├── 3.1 Morfossintaxe e Termos da Oração
-│   ├── 3.1.1 Termos Essenciais: Sujeito (determinado, indeterminado, oração sem sujeito) e Predicado
-│   ├── 3.1.2 Termos Integrantes: Objeto Direto, Objeto Indireto, Complemento Nominal e Agente da Passiva
-│   └── 3.1.3 Termos Acessórios: Adjunto Adnominal, Adjunto Adverbial, Aposto e Vocativo
-├── 3.2 Emprego dos Pronomes e Substituição Pronominal
-│   ├── 3.2.1 Pessoais Retos (função subjetiva) vs. Oblíquos Átonos (função de complemento verbal)
-│   ├── 3.2.2 Complemento de VTD: o, a, os, as (transformações para -lo/-la e -no/-na)
-│   ├── 3.2.3 Complemento de VTI: lhe, lhes (regidos pelas preposições a ou para)
-│   ├── 3.2.4 Pronomes Demonstrativos: Este (presente/catáfora), Esse (passado recente/anáfora), Aquele (passado remoto)
-│   └── 3.2.5 Pronome Relativo 'Cujo': Ideia de posse, concordância com o consequente, vedação a artigo
-├── 3.3 Colocação Pronominal (Sintaxe de Posição)
-│   ├── 3.3.1 Próclise Obrigatória: Palavras negativas, pronomes relativos, indefinidos, conjunções subordinativas
-│   ├── 3.3.2 Mesóclise: Verbos no futuro do presente ou do pretérito no início de oração sem atração
-│   └── 3.3.3 Ênclise: Verbo no início de frase, imperativo afirmativo e vedações à próclise
-├── 3.4 Vozes do Verbo e Regras de Transposição
-│   ├── 3.4.1 Voz Ativa: Sujeito é o agente da ação verbal
-│   ├── 3.4.2 Voz Passiva Analítica: Sujeito Paciente + Verbo Auxiliar 'SER' + Particípio + Agente da Passiva
-│   ├── 3.4.3 Voz Passiva Sintética: VTD + Pronome Apassivador 'SE' + Sujeito Paciente
-│   ├── 3.4.4 Requisito da Transposição: Apenas verbos VTD ou VTDI admitem passagem para a voz passiva
-│   └── 3.4.5 Partícula 'SE': Partícula Apassivadora (com VTD) vs. Índice de Indeterminação do Sujeito (com VTI/VI)
-└── 3.5 Conjugação e Correlação de Tempos e Modos Verbais
-    ├── 3.5.1 Verbos Notáveis e Irregulares: ter, vir, ver, pôr, haver (impessoal) e reaver
-    ├── 3.5.2 Correlação Imperfeito do Subjuntivo (-sse) + Futuro do Pretérito do Indicativo (-ria)
-    └── 3.5.3 Correlação Futuro do Subjuntivo (-r) + Futuro do Presente do Indicativo (-rá)
-```
+## 🧭 Sumário
+- [1. Fundamentos de Morfossintaxe e Estrutura Oracional](#1-fundamentos-de-morfossintaxe-e-estrutura-oracional)
+  - [1.1 Correlação entre Classes Morfológicas e Funções Sintáticas](#11-correlação-entre-classes-morfológicas-e-funções-sintáticas)
+  - [1.2 Termos Essenciais, Integrantes e Acessórios da Oração](#12-termos-essenciais-integrantes-e-acessórios-da-oração)
+  - [1.3 O Papel Central do Verbo na Predicação e Transitividade](#13-o-papel-central-do-verbo-na-predicação-e-transitividade)
+- [2. Teoria dos Pronomes e Relações Discursivas](#2-teoria-dos-pronomes-e-relações-discursivas)
+  - [2.1 Classificação Geral e Funções Referenciais: Anáfora, Catáfora e Dêixis](#21-classificação-geral-e-funções-referenciais-anáfora-catáfora-e-dêixis)
+  - [2.2 Pronomes Demonstrativos e a Articulação Espaço-Temporal](#22-pronomes-demonstrativos-e-a-articulação-espaço-temporal)
+  - [2.3 Pronome Relativo Cujo e Regência com Preposições Antepostas](#23-pronome-relativo-cujo-e-regência-com-preposições-antepostas)
+- [3. Pronomes Pessoais e Substituição Pronominal](#3-pronomes-pessoais-e-substituição-pronominal)
+  - [3.1 Pronomes Pessoais Retos vs. Oblíquos Átonos e Tônicos](#31-pronomes-pessoais-retos-vs-oblíquos-átonos-e-tônicos)
+  - [3.2 Complementos de VTD e VTI: Emprego de O/A vs. Lhe/Lhes](#32-complementos-de-vtd-e-vti-emprego-de-oa-vs-lhelhes)
+  - [3.3 Variações Fonéticas dos Pronomes Diretos: Formas em -Lo e -No](#33-variações-fonéticas-dos-pronomes-diretos-formas-em--lo-e--no)
+- [4. Sintaxe de Colocação Pronominal](#4-sintaxe-de-colocação-pronominal)
+  - [4.1 Próclise e os Fatores Atrativos Obrigatórios](#41-próclise-e-os-fatores-atrativos-obrigatórios)
+  - [4.2 Mesóclise e Suas Condições de Aplicação](#42-mesóclise-e-suas-condições-de-aplicação)
+  - [4.3 Ênclise e Vedações Gramaticais Absolutas](#43-ênclise-e-vedações-gramaticais-absolutas)
+  - [4.4 Colocação Pronominal em Locuções Verbais](#44-colocação-pronominal-em-locuções-verbais)
+- [5. Sistema Verbal: Paradigmas de Flexão e Formas Críticas](#5-sistema-verbal-paradigmas-de-flexão-e-formas-críticas)
+  - [5.1 Verbos Regulares, Irregulares, Anômalos e Defectivos](#51-verbos-regulares-irregulares-anômalos-e-defectivos)
+  - [5.2 Verbos Notáveis de Alta Incidência: Ter, Vir, Ver, Pôr e Haver](#52-verbos-notáveis-de-alta-incidência-ter-vir-ver-pôr-e-haver)
+- [6. Vozes Verbais e Regras de Transposição](#6-vozes-verbais-e-regras-de-transposição)
+  - [6.1 Voz Ativa, Voz Passiva, Voz Reflexiva e Recíproca](#61-voz-ativa-voz-passiva-voz-reflexiva-e-recíproca)
+  - [6.2 Voz Passiva Analítica e Regras Estritas de Transposição](#62-voz-passiva-analítica-e-regras-estritas-de-transposição)
+  - [6.3 Voz Passiva Sintética ou Pronominal](#63-voz-passiva-sintética-ou-pronominal)
+  - [6.4 Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito](#64-distinção-entre-pronome-apassivador-e-índice-de-indeterminação-do-sujeito)
+- [7. Correlação de Tempos e Modos Verbais](#7-correlação-de-tempos-e-modos-verbais)
+  - [7.1 Princípios da Consecutio Temporum no Período Composto](#71-princípios-da-consecutio-temporum-no-período-composto)
+  - [7.2 Estruturas Hipotéticas e Condicionais Padronizadas](#72-estruturas-hipotéticas-e-condicionais-padronizadas)
+  - [7.3 Correlações em Orações Subjetivas e Integrantes](#73-correlações-em-orações-subjetivas-e-integrantes)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
+- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
+  - [Questão 01](#questão-01)
+  - [Questão 02](#questão-02)
+  - [Questão 03](#questão-03)
+  - [Questão 04](#questão-04)
+  - [Questão 05](#questão-05)
 
 ---
 
-## 📖 Resumo Teórico & Pontos-Chave
+## 1. Fundamentos de Morfossintaxe e Estrutura Oracional
 
-### 1. Substituição Pronominal de Complementos Verbais (Padrão Ouro da FCC)
+A morfossintaxe constitui a área integrada da gramática que estuda simultaneamente a natureza morfológica das palavras (sua classificação em uma das dez classes gramaticais) e a função sintática que essas mesmas palavras desempenham no interior da oração. Uma mesma classe gramatical pode assumir funções sintáticas distintas a depender do contexto relacional estabelecido com o núcleo do predicado e com os demais termos oracionais.
 
-Nas provas da FCC, a troca de termos preposicionados ou nominais por pronomes oblíquos obedece à transitividade verbal e à terminação fonética do verbo:
+### 1.1 Correlação entre Classes Morfológicas e Funções Sintáticas
+
+Na língua portuguesa, as classes morfológicas agrupam-se em variáveis (substantivo, adjetivo, artigo, pronome, numeral e verbo) e invariáveis (advérbio, preposição, conjunção e interjeição). A cada classe associa-se uma vocação sintática preferencial:
+
+| Classe Morfológica | Funções Sintáticas Primárias | Exemplos Típicos em Concursos |
+| :--- | :--- | :--- |
+| **Substantivo** (ou termo substantivado) | Núcleo do Sujeito, Núcleo do Objeto Direto/Indireto, Agente da Passiva, Núcleo do Aposto | *"O <ins>conselheiro</ins> julgou o <ins>recurso</ins>"* |
+| **Adjetivo** | Adjunto Adnominal, Predicativo do Sujeito, Predicativo do Objeto | *"A decisão foi <ins>técnica</ins>"* (Predicativo) |
+| **Pronome Substantivo** | Sujeito, Objeto Direto, Objeto Indireto, Complemento Nominal | *"Ele <ins>o</ins> advertiu formalmente"* |
+| **Pronome Adjetivo** | Adjunto Adnominal | *"Acompanhou <ins>este</ins> processo"* |
+| **Verbo** | Núcleo do Predicado (Verbo Nocional) ou Elo de Ligação (Verbo de Ligação) | *"O auditor <ins>inspecionou</ins> a obra"* |
+| **Advérbio** | Adjunto Adverbial (modifica verbo, adjetivo ou outro advérbio) | *"Julgou <ins>celeremente</ins> a lide"* |
+| **Preposição** | Conectivo relacional sem função de termo isolado (introduz termos preposicionados) | *"Necessita <ins>de</ins> recursos"* |
+| **Conjunção** | Conectivo oracional de coordenação ou subordinação | *"Estudou <ins>porque</ins> almejava a posse"* |
+
+### 1.2 Termos Essenciais, Integrantes e Acessórios da Oração
+
+A sintaxe clássica divide a estrutura oracional em três ordens hierárquicas de termos:
+1. **Termos Essenciais:**
+   * **Sujeito:** Elemento sobre o qual se faz uma declaração, com o qual o verbo concorda em número e pessoa. Pode ser determinado (simples, composto ou elíptico/oculto), indeterminado (com verbo na 3ª pessoa do plural sem referência ou com VTI/VI + partícula SE) ou inexistente (em orações sem sujeito com verbos impessoais como *haver* no sentido de existir ou verbos de fenômenos climáticos).
+   * **Predicado:** Tudo o que se declara acerca do sujeito ou, nas orações sem sujeito, o próprio teor do processo verbal. Divide-se em predicado verbal (núcleo é um verbo nocional), predicado nominal (núcleo é um nome predicativo ligado por verbo de ligação) e predicado verbo-nominal (possui verbo nocional associado a um predicativo).
+2. **Termos Integrantes:**
+   * **Objeto Direto:** Complemento verbal não regido obrigatoriamente por preposição exigida pelo verbo.
+   * **Objeto Indireto:** Complemento verbal regido obrigatoriamente por preposição exigida pelo verbo transitivo indireto.
+   * **Complemento Nominal:** Termo preposicionado que completa o sentido abstrato e passivo de um substantivo abstrato, de um adjetivo ou de um advérbio.
+   * **Agente da Passiva:** Termo preposicionado (com *por/pelo* ou raramente *de*) que pratica a ação expressa pelo verbo na voz passiva analítica.
+3. **Termos Acessórios e Vocativo:**
+   * **Adjunto Adnominal:** Termo de valor adjetivo que determina, especifica ou restringe o substantivo núcleo de qualquer função sintática.
+   * **Adjunto Adverbial:** Termo de valor adverbial que expressa circunstâncias de tempo, lugar, modo, causa, finalidade, instrumento, entre outras.
+   * **Aposto:** Termo de natureza substantiva que explica, resume, especifica ou enumera outro termo substantivo antecedente.
+   * **Vocativo:** Termo independente de invocação ou chamamento, sem ligação sintática com o sujeito ou o predicado.
+
+### 1.3 O Papel Central do Verbo na Predicação e Transitividade
+
+A predicação verbal analisa a exigência de complementos pelos verbos no contexto específico da frase:
+* **Verbo Intransitivo (VI):** Possui sentido completo em si mesmo no contexto, prescindindo de objeto direto ou indireto (*"O conselheiro faleceu"*, *"O processo caminhou rapidamente"* — onde *rapidamente* é mero adjunto adverbial de modo).
+* **Verbo Transitivo Direto (VTD):** Requer complemento sem preposição obrigatória (*"O auditor apurou a fraude"*).
+* **Verbo Transitivo Indireto (VTI):** Requer complemento introduzido por preposição exigida pela regência verbal (*"O fiscal deparou com impropriedades"*, *"O relator anuiu aos termos"*).
+* **Verbo Transitivo Direto e Indireto (VTDI ou Bitransitivo):** Reclama dois complementos simultâneos, um direto e outro indireto (*"O presidente remeteu o relatório ao tribunal"*).
+* **Verbo de Ligação (VL):** Não expressa ação, servindo de elo entre o sujeito e seu predicativo (*ser, estar, parecer, permanecer, ficar, continuar, andar* em sentido de estado).
+
+---
+
+## 2. Teoria dos Pronomes e Relações Discursivas
+
+Os pronomes formam a classe gramatical responsável por representar ou acompanhar os nomes (substantivos), exercendo papel insubstituível na coesão textual, na distribuição de turnos de fala e no estabelecimento de referências espaciais e temporais.
+
+### 2.1 Classificação Geral e Funções Referenciais: Anáfora, Catáfora e Dêixis
+
+Do ponto de vista discursivo, os pronomes operam três mecanismos de remissão:
+1. **Função Anafórica:** O pronome remete a um termo, fato ou conceito já mencionado anteriormente no texto, retomando-o e garantindo a progressão temática sem repetições deselegantes (*"O Tribunal proferiu a decisão; <ins>esta</ins> gerou ampla repercussão"*).
+2. **Função Catafórica:** O pronome antecipa um elemento que ainda será explicitado nas linhas subsequentes (*"O conselheiro reiterou apenas <ins>isto</ins>: a legalidade é inegociável"*).
+3. **Função Dêitica (Exofórica):** O pronome aponta diretamente para elementos exteriores ao texto, presentes na situação concreta de enunciação no mundo real (quem fala, onde fala e quando fala): *"Por favor, assine <ins>este</ins> documento aqui agora"*.
+
+### 2.2 Pronomes Demonstrativos e a Articulação Espaço-Temporal
+
+O emprego correto dos demonstrativos apoia-se em parâmetros espaciais, temporais e textuais rigorosos:
+
+| Pronome | Relação Espacial | Relação Temporal | Relação Textual |
+| :--- | :--- | :--- | :--- |
+| **Este, esta, isto** | Próximo do emissor (1ª pessoa) | Tempo presente ou futuro imediato (*"neste ano de 2026"*) | Catáfora (antecipa o que virá) ou retoma o termo imediatamente mais próximo |
+| **Esse, essa, isso** | Próximo do receptor (2ª pessoa) | Passado ou futuro próximo (*"esse mês que passou"*) | Anáfora simples (retoma termo recém-mencionado) |
+| **Aquele, aquela, aquilo** | Distante de ambos (3ª pessoa) | Passado remoto ou época distante (*"naquele século"*) | Retoma o termo mais distante em contraste com *este* |
+
+> 📌 **NOTA EXPLICATIVA / DISTRIBUIÇÃO EM PARALELO (ESTE VS. AQUELE):** Ao citar dois elementos no texto e retomá-los comparativamente, emprega-se **este** para referir-se ao elemento mencionado por último (mais próximo fisicamente na escrita) e **aquele** para remeter ao primeiro elemento mencionado (mais afastado no texto): *"O Diretor e o Auditor chegaram; <ins>este</ins> (o auditor) trazia as planilhas, <ins>aquele</ins> (o diretor) presidiu a conferência"*.
+
+### 2.3 Pronome Relativo Cujo e Regência com Preposições Antepostas
+
+O pronome relativo *cujo* (e suas flexões *cuja, cujos, cujas*) é um dos pontos de maior incidência em provas de concurso da Fundação Carlos Chagas. O seu emprego correto exige a observância cumulativa de quatro regras pétreas:
+1. **Sentido intrínseco de posse:** Liga dois substantivos, estabelecendo uma relação em que o segundo termo pertence ao primeiro (*"O órgão <ins>cujos</ins> servidores foram premiados..."* $\rightarrow$ os servidores do órgão).
+2. **Concordância obrigatória com o consequente:** O pronome concorda rigorosamente em gênero e número com o substantivo que vem **depois** dele (*cujo parecer*, *cuja decisão*, *cujos autos*, *cujas certidões*).
+3. **Vedação absoluta ao uso de artigo:** É erro gramatical gravíssimo fazer suceder qualquer artigo ao pronome (*cujo o*, *cuja a*, *cujos os*, *cujas as* são formas inexistentes e eliminatórias).
+4. **Anteposição da preposição exigida pelo verbo:** Se o verbo da oração adjetiva introduzida por *cujo* exigir preposição em razão de sua regência, essa preposição **deve ser obrigatoriamente colocada antes de cujo**:
+   * *"A diretriz orçamentária <ins>a cujas</ins> determinações devemos obedecer..."* (quem obedece, obedece **a** algo);
+   * *"O tribunal <ins>em cujas</ins> salas tramitam os processos..."* (quem tramita, tramita **em** algum lugar);
+   * *"O auditor <ins>de cuja</ins> integridade todos desconfiavam..."* (quem desconfia, desconfia **de** alguém).
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA DO PRONOME CUJO:** A FCC cria enunciados que tentam substituir o pronome relativo *cujo* por locuções prepositivas ou misturá-lo com conjunções, como em *"O órgão do qual seus servidores foram promovidos"* (errado, redundante) ou inserindo artigos (*"O relatório cujo o teor..."*). Lembre-se: *cujo* jamais aceita artigo posterior e sempre concorda com o termo da frente.
+
+---
+
+## 3. Pronomes Pessoais e Substituição Pronominal
+
+A substituição de sintagmas nominais por pronomes oblíquos átonos em complementação verbal é uma das marcas registradas da banca FCC. A operação envolve a identificação da transitividade do verbo e o ajuste morfofonético da terminação verbal.
 
 ```mermaid
 flowchart TD
@@ -77,19 +168,150 @@ flowchart TD
     Termina -->|Termina em vogal oral comum| Pura["Mantém forma padrão: O, A, OS, AS<br/>Ex: Entregou o relatório -> Entregou-o"]
 ```
 
-#### Quadro de Transformações dos Pronomes Oblíquos:
+### 3.1 Pronomes Pessoais Retos vs. Oblíquos Átonos e Tônicos
 
-| Verbo + Complemento | Transitividade | Terminação | Pronome Resultante | Frase Final Correta |
-| :--- | :--- | :--- | :--- | :--- |
-| *Fiscalizar as contas* | VTD | Termina em -R | *-las* | *Fiscalizá-las* |
-| *Propuseram o recurso* | VTD | Termina em -M (nasal) | *-no* | *Propuseram-no* |
-| *Fizemos a auditoria* | VTD | Termina em -S | *-la* | *Fizemo-la* |
-| *Avisou aos secretários* | VTI (rege preposição *a*) | Não altera | *lhes* | *Avisou-lhes* |
-| *Estimou o valor* | VTD | Termina em vogal | *-o* | *Estimou-o* |
+Os pronomes pessoais exercem papéis sintáticos estritos de acordo com a sua forma:
+* **Pronomes Retos (eu, tu, ele/ela, nós, vós, eles/elas):** Exercem primordialmente a função de **sujeito** da oração. Não atuam como complementos verbais diretos na norma culta (dizer *"vi ele"* ou *"chamei ela"* constitui desvio sintático primário; o correto é *vi-o*, *chamei-a*).
+* **Pronomes Oblíquos Átonos (me, te, se, o, a, lhe, nos, vos, se, os, as, lhes):** São pronunciados com fraca intensidade e não são precedidos de preposição própria, atuando como complementos verbais imediatos (objeto direto ou indireto).
+* **Pronomes Oblíquos Tônicos (mim, ti, si, ele, ela, nós, vós, si, eles, elas):** São dotados de tonicidade própria e surgem sempre precedidos de preposição essencial (*a mim, de ti, para nós, com ele*).
+  * Distinção clássica: *"Entregue o relatório para mim"* (término da frase, *mim* não conjuga verbo) vs. *"Traga o documento para <ins>eu</ins> assinar"* (caso reto, pois *eu* atua como sujeito do verbo no infinitivo *assinar*).
+
+### 3.2 Complementos de VTD e VTI: Emprego de O/A vs. Lhe/Lhes
+
+A distribuição dos pronomes oblíquos como complementos verbais segue uma regra sem exceções:
+1. **Verbos Transitivos Diretos (VTD):** Complementam-se exclusivamente pelos pronomes **o, a, os, as** (e suas variantes alomórficas). Jamais admitem o pronome *lhe* como objeto direto (*"Conheço-o"*, e nunca *"Conheço-lhe"*).
+2. **Verbos Transitivos Indiretos (VTI regidos pela preposição A):** Complementam-se pelos pronomes **lhe, lhes** (*"Obedeceu ao regulamento"* $\rightarrow$ *"Obedeceu-lhe"*).
+3. **Verbos Transitivos Indiretos com outras preposições (de, em, com, por):** Não admitem *lhe*; exigem pronome oblíquo tônico preposicionado (*"Precisou dele"*, *"Confiou nele"*, *"Simpatizou com ela"*).
+
+### 3.3 Variações Fonéticas dos Pronomes Diretos: Formas em -Lo e -No
+
+Ao associar os pronomes diretos *o, a, os, as* à forma verbal enclítica, ocorrem transformações fonéticas compulsórias:
+1. **Verbos terminados em -R, -S ou -Z:**
+   * A consoante final é eliminada e o pronome assume as formas **-lo, -la, -los, -las**.
+   * Ao retirar a consoante final, a forma verbal residual submete-se às regras normais de acentuação gráfica:
+     * *fiscalizar + as* $\rightarrow$ *fiscalizá-las* (oxítona terminada em A);
+     * *fazer + o* $\rightarrow$ *fazê-lo* (oxítona terminada em E);
+     * *pôr + as* $\rightarrow$ *pô-las* (monossílabo terminado em O);
+     * *conduzir + o* $\rightarrow$ *conduzi-lo* (oxítona em I, sem acento);
+     * *fizemos + o* $\rightarrow$ *fizemo-lo* (corta o -s, sem acento);
+     * *quis + a* $\rightarrow$ *qui-la* (corta o -s, sem acento).
+2. **Verbos terminados em terminação nasal (-M, -ÃO, -ÕE):**
+   * O verbo permanece absolutamente intacto e o pronome recebe o acréscimo eufônico da consoante nasal, assumindo as formas **-no, -na, -nos, -nas**:
+     * *analisaram + o* $\rightarrow$ *analisaram-no*;
+     * *compõem + a* $\rightarrow$ *compõem-na*;
+     * *dão + os* $\rightarrow$ *dão-nos*.
+3. **Verbos terminados em vogal oral comum:**
+   * Não sofrem nenhuma mutação, recebendo as formas puras **-o, -a, -os, -as**:
+     * *apresentou + as* $\rightarrow$ *apresentou-as*;
+     * *remeteu + o* $\rightarrow$ *remeteu-o*;
+     * *viu + o* $\rightarrow$ *viu-o*.
+
+> 💡 **DICA DE SUBSTITUIÇÃO PRONOMINAL:** Quando se deparar com uma questão de substituição pronominal da FCC, separe a análise em dois passos: 1) determine a regência do verbo (se pede objeto direto ou indireto); 2) observe a terminação da palavra verbal para aplicar a transformação em L, N ou pura. Nunca misture as regras.
 
 ---
 
-### 2. Vozes Verbais e Regras Rígidas de Transposição
+## 4. Sintaxe de Colocação Pronominal
+
+A colocação pronominal estuda a posição ocupada pelos pronomes oblíquos átonos em relação ao verbo: antes do verbo (**próclise**), no meio do verbo (**mesóclise**) ou depois do verbo (**ênclise**).
+
+### 4.1 Próclise e os Fatores Atrativos Obrigatórios
+
+Na norma culta brasileira, a próclise é obrigatória sempre que houver, antes do verbo, uma **palavra atrativa** pertencente a uma das seguintes categorias:
+1. **Palavras de sentido negativo:** *não, nunca, jamais, nada, ninguém, nenhum, tampouco* (*"Não <ins>se</ins> apurou a falha"*).
+2. **Conjunções subordinativas (integrantes e adverbiais):** *que, se, como, embora, quando, porque, caso, conforme* (*"O relator determinou que <ins>se</ins> fizesse a diligência"*).
+3. **Pronomes relativos:** *que, quem, cujo, qual, onde, quanto* (*"Os termos que <ins>lhe</ins> foram apresentados"*).
+4. **Pronomes indefinidos:** *tudo, nada, alguém, todos, muitos, qualquer, vários* (*"Alguém <ins>o</ins> advertiu"*).
+5. **Pronomes demonstrativos:** *isso, isto, aquilo, este, aquele* (*"Isto <ins>me</ins> comoveu"*).
+6. **Advérbios sem vírgula:** *aqui, sempre, talvez, já, logo, ontem* (*"Talvez <ins>o</ins> encontremos na corte"*). Se o advérbio estiver isolado por vírgula, passa a haver ênclise: *"Aqui, encontramo-lo"*.
+7. **Orações exclamativas, optativas (que exprimem desejo) ou interrogativas:** *"Deus <ins>te</ins> guarde!"*, *"Quem <ins>te</ins> chamou para a conferência?"*.
+8. **Preposição 'EM' seguida de verbo no Gerúndio:** *"Em <ins>se</ins> tratando de auditoria ambiental..."*.
+
+### 4.2 Mesóclise e Suas Condições de Aplicação
+
+A mesóclise (pronome inserido no interior do verbo) é privativa de duas conjugações verbais, desde que o verbo inicie a frase ou não haja palavra atrativa que imponha a próclise:
+1. **Futuro do Presente do Indicativo:** *"Apresentar-se-á novo recurso pelo réu"* (*apresentará* + *se*).
+2. **Futuro do Pretérito do Indicativo:** *"Dir-se-ia que houve condescendência da fiscalização"* (*diria* + *se*).
+
+> ⭐ **IMPORTANTE / PREVALÊNCIA DA PRÓCLISE SOBRE A MESÓCLISE:** A presença de qualquer palavra atrativa anula a mesóclise e obriga a próclise: *"Não se apresentará novo recurso"* (e nunca *"Não apresentar-se-á"*).
+
+### 4.3 Ênclise e Vedações Gramaticais Absolutas
+
+A ênclise é o padrão genérico de posicionamento nos seguintes contextos:
+* Verbo no início de período sintático: *"Fez-se o levantamento de custos"* (é erro gramatical crasso iniciar frase com pronome oblíquo: *"Se fez o levantamento"*);
+* Verbo no Imperativo Afirmativo: *"Senhor auditor, instrua-o com as cópias necessárias"*;
+* Verbo no Infinitivo Impessoal: *"Era urgente apresentar-lhe o relatório"*;
+* Verbo no Gerúndio (sem preposição EM antecedente): *"O tribunal deliberou, acolhendo-o de imediato"*.
+
+#### Vedações Absolutas à Ênclise:
+* **Nunca se usa ênclise com verbo conjugado no Futuro do Presente ou no Futuro do Pretérito** (*"Apresentará-se"* é erro grave; deve-se usar mesóclise *apresentar-se-á* ou próclise se houver atrativo).
+* **Nunca se usa ênclise com verbo no Particípio isolado** (*"Tinha advertido-o"* é incorreto; deve-se usar *havia-o advertido* ou *o havia advertido*).
+
+### 4.4 Colocação Pronominal em Locuções Verbais
+
+Em locuções compostas por verbo auxiliar mais verbo principal no infinitivo, gerúndio ou particípio:
+* **Com Verbo Principal no Infinitivo ou Gerúndio:**
+  * Sem palavra atrativa: o pronome pode ficar em ênclise ao auxiliar ou em ênclise ao principal (*"Quero-lhe dizer"* ou *"Quero dizer-lhe"*).
+  * Com palavra atrativa: o pronome pode ir para antes do auxiliar (próclise ao auxiliar) ou em ênclise ao verbo principal (*"Não lhe quero dizer"* ou *"Não quero dizer-lhe"*).
+* **Com Verbo Principal no Particípio:**
+  * O pronome jamais pode vir posposto ao particípio (*"Tinha comunicado-lhe"* é inaceitável).
+  * Pode ficar enclítico ao verbo auxiliar (*"Tinha-lhe comunicado"*) ou próclito ao auxiliar se houver palavra atrativa (*"Não lhe tinha comunicado"*).
+
+---
+
+## 5. Sistema Verbal: Paradigmas de Flexão e Formas Críticas
+
+O verbo é a classe de palavras dotada do sistema flexional mais rico e complexo do idioma, conjugando-se em número, pessoa, tempo, modo e voz.
+
+### 5.1 Verbos Regulares, Irregulares, Anômalos e Defectivos
+
+* **Regulares:** Conservam o radical inalterado ao longo de todo o paradigma de conjugação e acolhem as desinências padrão da sua conjugação (*cantar, vender, partir*).
+* **Irregulares:** Sofrem alterações no radical ou assumem desinências que se afastam do paradigma comum (*fazer / fiz; caber / caibo; ouvir / ouço*).
+* **Anômalos:** Apresentam alterações tão profundas no radical que utilizam bases etimológicas inteiramente distintas na mesma conjugação. No português, são anômalos os verbos **ser** (*sou, fui, era*) e **ir** (*vou, fui, ia*).
+* **Defectivos:** Não possuem a conjugação completa em certas pessoas, tempos ou modos:
+  * Exemplo: *reaver* (deriva de *haver*, mas conjuga-se apenas nas formas em que o verbo primitivo *haver* possui a letra **v**: *reaver, reavemos, reaveis, reouve, reouvera*; não existem formas como *"eu reavenho"* ou *"que ele reavenha"*);
+  * Outros defectivos: *falir, colorir, abolir, banir, computar* (não possuem a 1ª pessoa do presente do indicativo).
+
+### 5.2 Verbos Notáveis de Alta Incidência: Ter, Vir, Ver, Pôr e Haver
+
+A banca FCC explora sistematicamente formas flexionais desses cinco verbos e de seus derivados:
+
+```mermaid
+flowchart TD
+    VerbosCriticos["VERBOS CRÍTICOS EM CONCURSOS"]
+    
+    VerbosCriticos --> Ver["VER<br/>• Presente: vejo, vê, veem<br/>• Futuro Subjuntivo: VIR, vires, virmos, virem<br/>• Pretérito Perfeito: vi, viu, vimos, viram"]
+    VerbosCriticos --> Vir["VIR<br/>• Presente: venho, vem, vêm<br/>• Futuro Subjuntivo: VIER, vieres, viermos, vierem<br/>• Pretérito Perfeito: vim, veio, viemos, vieram"]
+    VerbosCriticos --> Por["PÔR (e derivados: propor, dispor)<br/>• Futuro Subjuntivo: PUSER, puseres, pusermos, puserem<br/>• Imperfeito Subjuntivo: pusesse, puséssemos<br/>• Pretérito Perfeito: pus, pôs, pusemos, puseram"]
+    VerbosCriticos --> Haver["HAVER (Impessoal)<br/>• Sentido de existir/ocorrer: 3ª sing. sem sujeito<br/>• 'Havia processos' (singular compulsório!)"]
+```
+
+1. **O Verbo VER no Futuro do Subjuntivo:**
+   * Faz **vir, vires, vir, virmos, virdes, virem** (*"Quando o conselheiro <ins>vir</ins> as irregularidades, determinará a anulação"*, e nunca *"quando o conselheiro ver"*).
+2. **O Verbo VIR no Futuro do Subjuntivo:**
+   * Faz **vier, vieres, vier, viermos, vierdes, vierem** (*"Quando a equipe de fiscalização <ins>vier</ins> ao município..."*).
+3. **O Verbo PÔR (e derivados como propor, dispor, compor):**
+   * Futuro do Subjuntivo: **puser, puseres, puser, pusermos, puserdes, puserem** (*"Se o gestor <ins>propuser</ins> a repactuação"*, e nunca *"se o gestor propor"*).
+   * Pretérito Imperfeito do Subjuntivo: **pusesse, pusesses, pusesse, puséssemos, pusésseis, pusessem** (*"Se o fiscal <ins>propusesse</ins>..."*).
+4. **O Verbo HAVER Impessoal:**
+   * No sentido de existir, ocorrer ou expressar decurso de tempo, é **impessoal**: não tem sujeito e fica obrigatoriamente na **3ª pessoa do singular** (*"Havia muitas dúvidas"*, *"Houve falhas formais"*, *"Pode haver impugnações"*). Se for substituído por *existir*, o verbo *existir* é pessoal e concorda normalmente (*"Existiam muitas dúvidas"*, *"Existiram falhas"*).
+
+---
+
+## 6. Vozes Verbais e Regras de Transposição
+
+A voz verbal traduz a relação sintático-semântica entre o verbo e o sujeito da oração, explicitando se o sujeito pratica a ação (sujeito agente), sofre a ação (sujeito paciente) ou desempenha ambos os papéis cumulativamente.
+
+### 6.1 Voz Ativa, Voz Passiva, Voz Reflexiva e Recíproca
+
+* **Voz Ativa:** O sujeito gramatical é o agente direto ou causador da ação verbal: *"O auditor concluiu o laudo pericial"*.
+* **Voz Passiva:** O sujeito gramatical é paciente, recebendo ou sofrendo os efeitos da ação praticada por outrem: *"O laudo pericial foi concluído pelo auditor"*.
+* **Voz Reflexiva:** O sujeito é simultaneamente agente e paciente da ação, praticando-a sobre si mesmo: *"O acusado feriu-se com as próprias declarações"*.
+* **Voz Recíproca:** Há mais de um sujeito que praticam e recebem mutuamente a mesma ação: *"Os procuradores cumprimentaram-se na tribuna"*.
+
+### 6.2 Voz Passiva Analítica e Regras Estritas de Transposição
+
+A voz passiva analítica é estruturada pela combinação de um verbo auxiliar (quase sempre o verbo **ser**, raramente *estar* ou *ficar*) conjugado com o **particípio** do verbo principal:
+$$\text{Sujeito Paciente} + \text{Verbo Auxiliar SER (no mesmo tempo da ativa)} + \text{Particípio} + \text{Agente da Passiva}$$
 
 ```mermaid
 flowchart TD
@@ -102,73 +324,70 @@ flowchart TD
     TesteVTD -->|NÃO: É VTI, VI ou VL| PassivaNao["NÃO ADMITE VOZ PASSIVA!<br/>• O auditor compareceu à sessão (VI).<br/>• O tribunal precisa de recursos (VTI).<br/>• O parecer é favorável (VL)."]
 ```
 
-#### Mecânica de Conversão (Ativa $\rightarrow$ Passiva Analítica):
-1. **O Objeto Direto** da voz ativa torna-se o **Sujeito Paciente** da voz passiva;
-2. **O Sujeito Agente** da voz ativa torna-se o **Agente da Passiva** (preposicionado por *por/pelo*);
-3. **O Verbo Simples** converte-se em **Locução Verbal** (*verbo auxiliar SER + Particípio do verbo principal*):
-   * O verbo auxiliar *SER* assume **rigorosamente o mesmo tempo e modo** do verbo primitivo da voz ativa!
-   * O particípio concorda em gênero e número com o novo sujeito paciente.
+#### Requisitos Intransponíveis para a Conversão Passiva:
+1. **Transitividade Verbal:** Apenas orações cujo verbo principal seja **Transitivo Direto (VTD)** ou **Transitivo Direto e Indireto (VTDI)** admitem passagem para a voz passiva. Verbos Transitivos Indiretos (VTI), Intransitivos (VI) e de Ligação (VL) **jamais admitem voz passiva**, porque não possuem objeto direto suscetível de converter-se em sujeito paciente.
+2. **Equivalência Temporal Estrita:** O verbo auxiliar *ser* deve ser conjugado rigorosamente no mesmo tempo e modo em que se encontrava o verbo simples da voz ativa:
+   * *O auditor analisa as contas* (Presente do Indicativo) $\rightarrow$ *As contas **são analisadas***;
+   * *O auditor analisou as contas* (Pretérito Perfeito) $\rightarrow$ *As contas **foram analisadas***;
+   * *O auditor analisava as contas* (Pretérito Imperfeito) $\rightarrow$ *As contas **eram analisadas***;
+   * *O auditor analisara as contas* (Pretérito Mais-Que-Perfeito) $\rightarrow$ *As contas **tinham sido / foram analisadas***;
+   * *O auditor analisará as contas* (Futuro do Presente) $\rightarrow$ *As contas **serão analisadas***;
+   * *O auditor analisaria as contas* (Futuro do Pretérito) $\rightarrow$ *As contas **seriam analisadas***.
 
-#### Tabela de Correspondência Temporal na Transposição:
+### 6.3 Voz Passiva Sintética ou Pronominal
 
-| Voz Ativa (Verbo Simples) | Tempo do Verbo Ativo | Voz Passiva Analítica (Locução) |
+A voz passiva sintética compõe-se de um verbo Transitivo Direto conjugado na 3ª pessoa (singular ou plural) associado ao pronome apassivador **SE**:
+$$\text{VTD / VTDI} + \text{SE (Pronome Apassivador)} + \text{Sujeito Paciente}$$
+* Exemplo no singular: *"Apurou-se a irregularidade"* (= *A irregularidade foi apurada*);
+* Exemplo no plural: *"Apuraram-se as irregularidades"* (= *As irregularidades foram apuradas*).
+
+O elemento nominal sem preposição que acompanha a construção passiva sintética é o **sujeito paciente**, razão pela qual o verbo deve concordar obrigatoriamente com ele em número e pessoa.
+
+### 6.4 Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito
+
+Essa distinção é um dos temas fundamentais de cobrança da FCC em morfossintaxe e concordância:
+
+| Critério | Pronome Apassivador (Partícula Apassivadora) | Índice de Indeterminação do Sujeito (IIS) |
 | :--- | :--- | :--- |
-| *O auditor analisa as contas.* | Presente do Indicativo | *As contas **são analisadas** pelo auditor.* |
-| *O auditor analisou as contas.* | Pretérito Perfeito Indicativo | *As contas **foram analisadas** pelo auditor.* |
-| *O auditor analisava as contas.* | Pretérito Imperfeito Indicativo | *As contas **eram analisadas** pelo auditor.* |
-| *O auditor analisara as contas.* | Pretérito Mais-Que-Perfeito | *As contas **tinham sido / foram analisadas**.* |
-| *O auditor analisará as contas.* | Futuro do Presente Indicativo | *As contas **serão analisadas** pelo auditor.* |
-| *O auditor analisaria as contas.* | Futuro do Pretérito Indicativo | *As contas **seriam analisadas** pelo auditor.* |
+| **Transitividade do Verbo** | Verbo Transitivo Direto (VTD) ou VTDI | Verbo Transitivo Indireto (VTI), Intransitivo (VI) ou de Ligação (VL) |
+| **Presença de Preposição** | O elemento subsequente **não tem preposição obrigatória** | O elemento subsequente vem **restringido por preposição** |
+| **Existência de Sujeito** | Há Sujeito Paciente expresso na oração | Não há sujeito expresso; o sujeito é indeterminado |
+| **Concordância Verbal** | O verbo **flexiona obrigatoriamente** (vai ao plural se o sujeito for plural) | O verbo fica **obrigatoriamente na 3ª pessoa do singular** |
+| **Exemplo Correto** | *"Identificaram-se novas falhas"* | *"Trata-se de novas falhas"* |
+| **Erro Clássico em Prova** | *"Identificou-se novas falhas"* (verbo não concordou) | *"Tratam-se de novas falhas"* (verbo pluralizou indevidamente com VTI) |
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA DO VERBO TRATAR-SE:** A FCC frequentemente introduz a forma verbal pluralizada *"Tratam-se de..."*, *"Precisam-se de..."* ou *"Obedeceram-se aos ditames..."*. Como os verbos *tratar (de)*, *precisar (de)* e *obedecer (a)* são Transitivos Indiretos e regem preposição, a partícula *se* atua como Índice de Indeterminação do Sujeito. É **proibido flexionar o verbo no plural**; o correto é invariavelmente: *"Trata-se de..."*, *"Precisa-se de..."*, *"Obedeceu-se aos ditames..."*.
 
 ---
 
-### 3. A Partícula SE: Apassivadora vs. Índice de Indeterminação
+## 7. Correlação de Tempos e Modos Verbais
 
-* **Partícula Apassivadora (Pronome Apassivador):**
-  * Ocorre com verbo **Transitivo Direto (VTD)** ou **Transitivo Direto e Indireto (VTDI)**;
-  * Há Sujeito Paciente na oração;
-  * O verbo **obrigatoriamente flexiona** no singular ou plural para concordar com o sujeito:
-    * *Apurou-se a denúncia.* (Sujeito singular $\rightarrow$ verbo singular)
-    * *Apuraram-se as denúncias.* (Sujeito plural $\rightarrow$ verbo plural)
-* **Índice de Indeterminação do Sujeito (IIS):**
-  * Ocorre com verbo **Transitivo Indireto (VTI)**, **Intransitivo (VI)** ou **de Ligação (VL)**;
-  * Não há sujeito paciente; o sujeito é indeterminado;
-  * O verbo fica **obrigatoriamente fixado na 3ª pessoa do singular**:
-    * *Necessita-se de peritos judiciais.* (Correto) $\rightarrow$ *Necessitam-se de peritos* (ERRADO!)
-    * *Trata-se de processos complexos.* (Correto) $\rightarrow$ *Tratam-se de processos* (ERRADO!)
+A correlação verbal (*consecutio temporum*) refere-se ao encadeamento harmônico e semanticamente lógico entre as formas verbais presentes nas orações coordenadas e subordinadas de um período composto.
 
----
+### 7.1 Princípios da Consecutio Temporum no Período Composto
 
-### 4. Correlação Verbal (*Consecutio Temporum*)
+A escolha do tempo e do modo na oração subordinada não é arbitrária: ela decorre do momento cronológico expresso pela oração principal e da atitude psicológica do enunciador (certeza no indicativo, hipótese/dúvida no subjuntivo, ordem no imperativo).
 
-A harmonia entre os tempos verbais nas orações coordenadas e subordinadas é cobrada pela FCC por meio de estruturas fixas:
+### 7.2 Estruturas Hipotéticas e Condicionais Padronizadas
 
-1. **Condição Hipotética no Passado / Presente:**
-   * **Pretérito Imperfeito do Subjuntivo** (-sse) $\Longleftrightarrow$ **Futuro do Pretérito do Indicativo** (-ria)
-   * *"Se o fiscal **verificasse** as notas fiscais, **descobriria** o sobrepreço."*
-2. **Condição Provável no Futuro:**
-   * **Futuro do Subjuntivo** (-r) $\Longleftrightarrow$ **Futuro do Presente do Indicativo** (-rá) / **Presente**
-   * *"Quando o plenário **deliberar** sobre a matéria, a decisão **será** publicada."*
-3. **Verbos Críticos em Subjuntivo:**
-   * *Ver* no Futuro do Subjuntivo: *quando eu vir, quando nós virmos* (e não *"quando eu ver"*);
-   * *Vir* no Futuro do Subjuntivo: *quando eu vier, quando nós viermos*;
-   * *Pôr* no Futuro do Subjuntivo: *quando eu puser, quando nós pusermos* (e não *"quando eu pôr"*).
+As estruturas de condição constituem o núcleo dos itens de prova da FCC, dividindo-se em três modelos irredutíveis:
+1. **Hipótese Incerta / Irreal no Passado ou Presente:**
+   * **Pretérito Imperfeito do Subjuntivo (-sse)** correlaciona-se com o **Futuro do Pretérito do Indicativo (-ria)**:
+     * *"Se o auditor **encontrasse** vícios, **elaboraria** o relatório cautelar."*
+     * Incorreções clássicas eliminatórias: *"Se o auditor encontraria, elaborava"* ou *"Se o auditor propôs, elaboraria"*.
+2. **Hipótese Provável / Possível no Futuro:**
+   * **Futuro do Subjuntivo (-r)** correlaciona-se com o **Futuro do Presente do Indicativo (-rá)** ou com o **Presente do Indicativo**:
+     * *"Se o conselheiro **propuser** a reabertura, a sessão **será** suspensa."*
+     * *"Quando nós **virmos** o teor dos autos, **tomaremos** as providências."*
+3. **Condição Factível no Presente:**
+   * **Presente do Subjuntivo** correlaciona-se com o **Presente do Indicativo** ou **Futuro do Presente**:
+     * *"Caso o gestor **apresente** os comprovantes, o tribunal **homologa / homologará** as contas."*
 
----
+### 7.3 Correlações em Orações Subjetivas e Integrantes
 
-## ⚠️ Alertas de Prova & Pegadinhas da FCC
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A banca FCC frequentemente cria frases com verbos Transitivos Indiretos e pluraliza o verbo junto com a partícula SE: *"Tratam-se de normas constitucionais"* ou *"Precisam-se de novos auditores"*. **Atenção:** Como o termo preposicionado é objeto indireto, o SE é Índice de Indeterminação do Sujeito e o verbo **DEVE FICAR NO SINGULAR**: *"Trata-se de normas"*, *"Precisa-se de novos auditores"*.
-
-> ⭐ **IMPORTANTE / PRONOME RELATIVO "CUJO":**
-> 1. *"Cujo"* indica posse e liga dois substantivos;
-> 2. Concorda com a coisa possuída em gênero e número (*cujo relatório*, *cuja decisão*, *cujos termos*);
-> 3. **NUNCA** aceita artigo posterior (*cujo o*, *cuja a* são erros graves eliminatórios);
-> 4. Se o verbo posterior exigir preposição, ela deve ser colocada **antes de cujo**: *"O tribunal a cujas normas aludimos"* (quem alude, alude **a**).
-
-> 📌 **NOTA EXPLICATIVA / VERBO HAVER IMPESSOAL:** O verbo *haver*, no sentido de existir, ocorrer ou indicando tempo decorrido, é impessoal: **não tem sujeito e não flexiona no plural** (*"Havia muitas irregularidades nas contas"*, *"Deve haver três meses que o processo parou"*). Se trocado por *existir*, este último é pessoal e flexiona: *"Existiam muitas irregularidades"*.
-
-> 💡 **DICA DE SUBSTITUIÇÃO PRONOMINAL:** Quando o verbo terminar em **-R**, **-S** ou **-Z**, a consoante desaparece e surgem as formas com **L** (*amar + a = amá-la*; *quis + o = qui-lo*; *conduz + o = condu-lo*). Não confunda com a terminação nasal (-m), que mantém a palavra intacta e apenas adiciona **N** (*disseram + o = disseram-no*).
+Nas orações subordinadas substantivas integrantes (introduzidas por *que* ou *se*):
+* Se a oração principal estiver no **Presente do Indicativo**, a subordinada vai para o **Presente do Subjuntivo**: *"O Ministério Público de Contas exige que o gestor **esclareça** o déficit"*.
+* Se a oração principal estiver no **Pretérito**, a subordinada vai para o **Pretérito Imperfeito do Subjuntivo**: *"O Ministério Público de Contas exigiu que o gestor **esclarecesse** o déficit"*.
 
 ---
 
@@ -194,13 +413,14 @@ A frase que admite transposição para a **voz passiva** de modo inteiramente co
 * **D)** *"O Ministério Público de Contas interveio no processo com zelo exemplar."*
 * **E)** *"O conselheiro relator presidiu à sessão extraordinária com extrema serenidade."*
 
-> **Gabarito: C**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** O verbo *anuir* é Transitivo Indireto (VTI), regendo preposição *a* (*anuiu aos termos*). Verbos que exigem preposição não possuem objeto direto e não admitem voz passiva.  
-> - **B) Incorreta.** *deparar com* é empregado como VTI com preposição *com*, não admitindo conversão passiva.  
-> - **C) CORRETA.** O verbo *apurar* é Transitivo Direto (VTD) — quem apura, apura algo: *"todas as inconsistências no cronograma financeiro da obra"* é o **Objeto Direto**. Há, portanto, objeto que se converterá em sujeito paciente na passiva analítica: *"Todas as inconsistências no cronograma financeiro da obra foram apuradas pelos técnicos de controle externo"*.  
-> - **D) Incorreta.** *intervir* é VTI (rege preposição *em*).  
-> - **E) Incorreta.** *presidir a* é VTI (rege preposição *a*).
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O verbo *anuir* é Transitivo Indireto (VTI), regendo obrigatoriamente a preposição *a* (*anuiu aos termos*). Verbos transitivos indiretos não possuem objeto direto e, portanto, não admitem transposição para a voz passiva.
+> - **B)** Incorreta. A locução verbal *deparou com* opera como Transitiva Indireta (VTI) com a preposição *com*. Não havendo objeto direto, é inadmissível a construção da voz passiva.
+> - **C)** Correta. O verbo *apurar* é Transitivo Direto (VTD) — quem apura, apura algo. A oração apresenta o objeto direto *"todas as inconsistências no cronograma financeiro da obra"*, o qual se converte perfeitamente em sujeito paciente na voz passiva analítica: *"Todas as inconsistências no cronograma financeiro da obra foram apuradas pelos técnicos de controle externo"*.
+> - **D)** Incorreta. O verbo *intervir* é Transitivo Indireto regido pela preposição *em* (*interveio no processo*), inviabilizando a voz passiva.
+> - **E)** Incorreta. Na construção regencial apresentada, o verbo *presidir* regeu preposição *a* (*presidiu à sessão*), funcionando como VTI e impossibilitando a conversão passiva.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -216,11 +436,14 @@ Substituindo-se adequadamente as expressões sublinhadas pelos respectivos prono
 * **D)** O diretor da comissão as apresentou e lhe remeteu ao setor de compras.
 * **E)** O diretor da comissão apresentou-as e remeteu-no ao setor de compras.
 
-> **Gabarito: B**  
-> **Comentário Detalhado:**  
-> - **1º segmento:** *apresentou as justificativas técnicas* $\rightarrow$ *apresentar* é VTD; *as justificativas técnicas* é objeto direto feminino plural $\rightarrow$ pronome **as**. Como o verbo termina em vogal, mantém-se a forma pura com ênclise: *apresentou-as*.  
-> - **2º segmento:** *remeteu o parecer conclusivo* $\rightarrow$ *remeter* é VTD (quem remete algo a alguém/lugar); *o parecer conclusivo* é objeto direto masculino singular $\rightarrow$ pronome **o**. Como termina em vogal, resulta: *remeteu-o*. (*ao setor de compras* já é o objeto indireto preposicionado da frase).  
-> - A alternativa que faz a substituição correta de ambos os objetos diretos pelos pronomes *as* e *o* é a letra B.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Embora acerte a primeira forma (*apresentou-as*), erra grosseiramente no segundo verbo ao empregar *remeteu-lhe*: o pronome *lhe* atua como objeto indireto, ao passo que *o parecer conclusivo* é objeto direto de *remeteu* (além disso, a oração já possui seu objeto indireto preposicionado: *ao setor de compras*).
+> - **B)** Correta. 1) No primeiro segmento (*apresentou as justificativas técnicas*), o verbo *apresentar* é VTD e termina na vogal oral comum *u*; o objeto direto feminino plural é substituído pelo pronome puro *as*, resultando em *apresentou-as*. 2) No segundo segmento (*remeteu o parecer conclusivo*), o verbo *remeter* é VTD e termina na vogal oral comum *u*; o objeto direto masculino singular é substituído pelo pronome puro *o*, gerando *remeteu-o*. Ambas as substituições estão impecáveis.
+> - **C)** Incorreta. Erra ao empregar *apresentou-lhes*, visto que o verbo *apresentar* ali rege objeto direto, descabendo o pronome *lhes*.
+> - **D)** Incorreta. Não há palavra atrativa justificadora da próclise na oração (*as apresentou*), além de reiterar o erro no emprego do pronome *lhe* como objeto direto.
+> - **E)** Incorreta. Erra ao usar a forma *remeteu-no*: a variante com *N* (-no/-na) aplica-se exclusivamente a formas verbais encerradas em som nasal (-m, -ão, -õe), o que não ocorre com *remeteu* (terminado em ditongo oral).
+> 
+> **Gabarito: B**
 
 ---
 
@@ -234,13 +457,14 @@ O emprego da partícula `SE` e a concordância verbal estão plenamente corretos
 * **D)** *"Precisam-se de novos analistas de controle externo para a instrução de processos."*
 * **E)** *"Atribuiu-se aos peritos contábeis os pareceres definitivos sobre o balanço patrimonial."*
 
-> **Gabarito: C**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** *Tratar de* é VTI. O `SE` atua como Índice de Indeterminação do Sujeito. O verbo deve ficar compulsoriamente no singular: *"Trata-se de apurações..."*.  
-> - **B) Incorreta.** *Identificar* é VTD. O `SE` é Pronome Apassivador. O termo *"diversos pagamentos"* é o Sujeito Paciente no plural, exigindo que o verbo vá para o plural (*Identificaram-se*).  
-> - **C) CORRETA.** *Identificar* é VTD + pronome apassivador `SE` + sujeito paciente plural (*diversos pagamentos*). O verbo concorda corretamente no plural: *"Identificaram-se (...) diversos pagamentos"*.  
-> - **D) Incorreta.** *Precisar de* é VTI. O `SE` é IIS, exigindo verbo no singular: *"Precisa-se de novos analistas"*.  
-> - **E) Incorreta.** *Atribuir* é VTDI. O termo *"os pareceres definitivos"* é sujeito paciente plural, exigindo verbo no plural: *"Atribuíram-se aos peritos contábeis os pareceres definitivos"*.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O verbo *tratar (de)* é Transitivo Indireto. A partícula *SE* funciona como Índice de Indeterminação do Sujeito (IIS), impondo a flexão obrigatória do verbo na 3ª pessoa do singular: *"Trata-se de apurações preliminares"*.
+> - **B)** Incorreta. O verbo *identificar* é Transitivo Direto. A partícula *SE* atua como Pronome Apassivador. O sintagma nominal *"diversos pagamentos desprovidos de nota fiscal"* exerce a função de sujeito paciente no plural, exigindo a concordância do verbo no plural (*Identificaram-se*).
+> - **C)** Correta. O verbo *identificar* é VTD acompanhado de pronome apassivador *SE*. O sujeito paciente está no plural (*diversos pagamentos*), com o qual o verbo concorda perfeitamente na 3ª pessoa do plural (*Identificaram-se*).
+> - **D)** Incorreta. O verbo *precisar (de)* é Transitivo Indireto. Com o índice de indeterminação *SE*, o verbo deve ficar inalteravelmente no singular: *"Precisa-se de novos analistas"*.
+> - **E)** Incorreta. O verbo *atribuir* é Transitivo Direto e Indireto (VTDI). O termo *"os pareceres definitivos"* atua como sujeito paciente no plural, exigindo a flexão plural do verbo apassivado: *"Atribuíram-se aos peritos contábeis os pareceres definitivos"*.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -254,13 +478,14 @@ A frase em que a articulação entre tempos e modos verbais observa a **correla�
 * **D)** *"Se o conselheiro propôs nova auditoria, o presidente acataria a solicitação de pronto."*
 * **E)** *"Quando o conselheiro ver as irregularidades do balanço, proporá a anulação do contrato."*
 
-> **Gabarito: A**  
-> **Comentário Detalhado:**  
-> - **A) CORRETA.** Aplica com exatidão a correlação modal clássica: **Pretérito Imperfeito do Subjuntivo** (*propusesse*) articulado com o **Futuro do Pretérito do Indicativo** (*acataria*).  
-> - **B) Incorreta.** É incorreto usar o futuro do pretérito (*proporia*) na oração condicional iniciada pela conjunção subordinativa "se".  
-> - **C) Incorreta.** O verbo *pôr* e seus derivados flexionam-se no futuro do subjuntivo como *propuser* (*"Caso o conselheiro propuser..."*), sendo erro usar a forma no infinitivo *"propor"*.  
-> - **D) Incorreta.** Mistura pretérito perfeito do indicativo (*propôs*) com futuro do pretérito (*acataria*), rompendo a harmonia da hipótese.  
-> - **E) Incorreta.** O verbo *ver* no futuro do subjuntivo conjuga-se como *vir* (*"Quando o conselheiro vir as irregularidades..."*). A forma *"quando ver"* é vício gramatical.
+> **Comentário Detalhado:**
+> - **A)** Correta. Estabelece a correlação hipotética canônica: o **Pretérito Imperfeito do Subjuntivo** (*propusesse*, indicando a condição irreal/hipotética) harmoniza-se perfeitamente com o **Futuro do Pretérito do Indicativo** (*acataria*, expressando o resultado decorrente).
+> - **B)** Incorreta. É vedado empregar o futuro do pretérito do indicativo (*proporia*) na oração subordinada condicional introduzida pela conjunção subordinativa *se*.
+> - **C)** Incorreta. O verbo *pôr* e seus derivados flexionam-se no futuro do subjuntivo sob a forma *propuser* (*"Caso o conselheiro propuser..."*), constituindo vício grosseiro o uso da forma no infinitivo *"propor"*.
+> - **D)** Incorreta. Articula de forma desconexa o pretérito perfeito do indicativo (*propôs*, fato certo consumado) com o futuro do pretérito (*acataria*, possibilidade futura), rompendo a harmonia condicional.
+> - **E)** Incorreta. O verbo irregular *ver* conjuga-se no futuro do subjuntivo como *vir* (*"Quando o conselheiro vir as irregularidades..."*). O emprego de *"quando ver"* é vício gramatical decorrente da confusão com o verbo *vir*.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -274,10 +499,11 @@ O pronome relativo antecedido de preposição está empregado em estrita conform
 * **D)** *"A decisão judicial cuja a eficácia dependia de trânsito em julgado foi confirmada."*
 * **E)** *"As metas fiscais de cujas todos duvidavam foram atingidas com sobras."*
 
-> **Gabarito: B**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** É inadmissível o emprego de artigo definido após o pronome relativo *cujo* (*cujo o* é erro crasso).  
-> - **B) CORRETA.** 1) O pronome *cujas* estabelece relação de posse com *determinações*, com o qual concorda em gênero e número; 2) Não há artigo posterior; 3) O verbo *obedecer* é VTI e rege a preposição **a** (*obedecer a algo*), a qual foi corretamente anteposta ao pronome relativo: *"a cujas determinações (...) devem obedecer"*.  
-> - **C) Incorreta.** Erro pelo uso indevido de artigo (*em cujo os*).  
-> - **D) Incorreta.** Erro pelo uso indevido de artigo (*cuja a eficácia*).  
-> - **E) Incorreta.** Quem duvida, duvida **de** algo. O termo subsequente seria *de que todos duvidavam*, pois *cujo* exige ligação entre dois substantivos em relação de posse (não cabe *de cujas todos* sem substantivo consequente).
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O pronome relativo *cujo* nunca admite artigo definido antecedente ou consequente (*cujo o* é vício gramatical repudiado pela norma culta).
+> - **B)** Correta. 1) O pronome *cujas* estabelece relação semântica de posse entre *determinações* e *diretriz orçamentária*; 2) Concorda em gênero e número com o consequente (*determinações*, feminino plural); 3) Prescinde totalmente de artigo; 4) O verbo da oração adjetiva (*obedecer*) é Transitivo Indireto e rege a preposição **a** (*quem obedece, obedece a algo*), a qual foi adequadamente anteposta ao pronome relativo (*"a cujas determinações (...) devem obedecer"*).
+> - **C)** Incorreta. Incorre em erro ao acrescentar o artigo definido masculino plural após o pronome (*em cujo os*).
+> - **D)** Incorreta. Incorre em erro ao pospor o artigo definido feminino singular (*cuja a eficácia*).
+> - **E)** Incorreta. O pronome *cujo* exige ligar necessariamente dois substantivos em relação de dependência possessiva. Como não há substantivo após o pronome na oração (*"de cujas todos duvidavam"*), a construção correta deveria utilizar o pronome relativo *que* precedido de preposição (*"de que todos duvidavam"*).
+> 
+> **Gabarito: B**

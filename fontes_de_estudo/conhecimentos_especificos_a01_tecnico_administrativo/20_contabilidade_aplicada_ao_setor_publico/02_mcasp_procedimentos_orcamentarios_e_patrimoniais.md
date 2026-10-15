@@ -24,139 +24,148 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
+## 🧭 Sumário Interativo
 
-```text
-2. Procedimentos Contábeis Orçamentários (PCO) e Patrimoniais (PCP)
-├── 2.1 Procedimentos Contábeis Orçamentários (MCASP Parte I)
-│   ├── 2.1.1 O Regime Orçamentário Legal (Art. 35 da Lei nº 4.320/1964):
-│   │   ├── Receita Orçamentária: Pertence ao exercício em que for ARRECADADA (Regime de Caixa)
-│   │   └── Despesa Orçamentária: Pertence ao exercício em que for EMPENHADA (Regime de Competência Orçamentária)
-│   ├── 2.1.2 Fatos Contábeis e sua Repercussão no Patrimônio Líquido:
-│   │   ├── Fatos Permutativos (Qualitativos): Alteram apenas a composição do ativo/passivo sem modificar o PL (compra à vista de veículo)
-│   │   └── Fatos Modificativos (Quantitativos): Alteram o valor do Patrimônio Líquido (geram VPA ou VPD)
-│   └── 2.1.3 Origem das Variações Patrimoniais:
-│       ├── Variações Resultantes da Execução Orçamentária: Decorrem da realização de receitas/despesas constantes da LOA
-│       └── Variações Independentes da Execução Orçamentária: Ocorrem no patrimônio sem trânsito pela LOA (ex.: doação recebida, depreciação periódica)
-├── 2.2 Procedimentos Contábeis Patrimoniais (MCASP Parte II)
-│   ├── 2.2.1 Regime Patrimonial: Regime de Competência Integral para todos os atos e fatos modificativos
-│   │   ├── Variação Patrimonial Aumentativa (VPA): Fato gerador do direito econômico (lançamento de tributos)
-│   │   └── Variação Patrimonial Diminutiva (VPD): Fato gerador do dever ou consumo econômico (liquidação da despesa/consumo)
-│   ├── 2.2.2 Ativo Imobilizado e Bens de Infraestrutura:
-│   │   ├── Bens Móveis e Imóveis de uso especial e dominicais
-│   │   └── Bens de Uso Comum do Povo (rodovias, praças): Devem ser reconhecidos no Ativo quando mensuráveis e controlados
-│   ├── 2.2.3 Depreciação, Amortização e Exaustão:
-│   │   ├── Depreciação: Alocação sistemática do valor depreciável de bem tangível ao longo de sua vida útil econômica
-│   │   │   └── Fórmula Linear: (Custo de Aquisição - Valor Residual) / Vida Útil
-│   │   ├── Amortização: Alocação periódica de ativos intangíveis com vida útil definida (softwares e licenças)
-│   │   ├── Exaustão: Esgotamento gradual de recursos minerais e florestais explorados pela administração
-│   │   └── Bens NÃO sujeitos a depreciação: Terrenos, obras de arte e monumentos de valor histórico inestimável
-│   └── 2.2.4 Teste de Recuperabilidade (*Impairment*):
-│       ├── Aplicação: Assegurar que nenhum ativo esteja registrado por valor superior ao seu Valor Recuperável
-│       ├── Valor Recuperável: O MAIOR entre o Valor Justo Líquido de Despesas de Venda e o Valor em Uso
-│       └── Reconhecimento da Perda: Se Valor Contábil Líquido > Valor Recuperável -> D: VPD / C: Perdas Estimadas por Impairment
-└── 2.3 Desreconhecimento e Baixas de Ativos (Alienação, sinistro, doação concedida e sucateamento)
-```
+- [1. O Dualismo de Regimes na Contabilidade Pública (Orçamentário vs. Patrimonial)](#1-o-dualismo-de-regimes-na-contabilidade-pública-orçamentário-vs-patrimonial)
+  - [1.1 O Regime Orçamentário da Lei nº 4.320/1964 (Art. 35)](#11-o-regime-orçamentário-da-lei-nº-43201964-art-35)
+  - [1.2 O Regime Patrimonial da Competência Integral (MCASP e NBC TSP)](#12-o-regime-patrimonial-da-competência-integral-mcasp-e-nbc-tsp)
+  - [1.3 Quadro Sinótico de Confronto e Fatos Contábeis](#13-quadro-sinótico-de-confronto-e-fatos-contábeis)
+- [2. Variações Patrimoniais: Classificações e Origens](#2-variações-patrimoniais-classificações-e-origens)
+  - [2.1 Variações Qualitativas (Permutativas) vs. Quantitativas (Modificativas)](#21-variações-qualitativas-permutativas-vs-quantitativas-modificativas)
+  - [2.2 Variações Resultantes vs. Independentes da Execução Orçamentária](#22-variações-resultantes-vs-independentes-da-execução-orçamentária)
+- [3. Procedimentos Patrimoniais Aplicados ao Ativo Imobilizado](#3-procedimentos-patrimoniais-aplicados-ao-ativo-imobilizado)
+  - [3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura](#31-mensuração-inicial-custos-atribuíveis-e-bens-de-infraestrutura)
+  - [3.2 Depreciação, Amortização e Exaustão: Conceitos e Fórmulas](#32-depreciação-amortização-e-exaustão-conceitos-e-fórmulas)
+  - [3.3 Ativos que NÃO Sofrem Depreciação Periódica](#33-ativos-que-não-sofrem-depreciação-periódica)
+- [4. Teste de Redução ao Valor Recuperável de Ativos (*Impairment Test*)](#4-teste-de-redução-ao-valor-recuperável-de-ativos-impairment-test)
+  - [4.1 Mecanismo de Aferição do Valor Recuperável](#41-mecanismo-de-aferição-do-valor-recuperável)
+  - [4.2 Reconhecimento Contábil da Perda e Reversões](#42-reconhecimento-contábil-da-perda-e-reversões)
+- [5. Fontes Oficiais & Manuais Técnicos Recomendados](#5-fontes-oficiais--manuais-técnicos-recomendados)
+- [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
 
 ---
 
 ## 📖 Conteúdo Teórico Aprofundado
 
-### 1. O Dualismo de Regimes na Contabilidade Pública
+### 1. O Dualismo de Regimes na Contabilidade Pública (Orçamentário vs. Patrimonial)
 
-A Contabilidade Aplicada ao Setor Público opera sob dois enfoques distintos que convivem de forma harmônica e integrada:
+A Contabilidade Aplicada ao Setor Público (CASP) no Brasil opera com a convivência harmônica e integrada de dois regimes contábeis fundamentais:
 
 ```mermaid
 flowchart TD
-    Dualismo["O Dualismo de Regimes na Contabilidade Pública"]
-    Dualismo --> RegOrc["REGIME ORÇAMENTÁRIO (Art. 35, Lei 4.320/64)<br/>- Receita: Arrecadação (Caixa)<br/>- Despesa: Empenho (Competência Orçamentária)"]
-    Dualismo --> RegPat["REGIME PATRIMONIAL (NBC TSP / MCASP)<br/>- VPA: Fato Gerador Econômico (Competência)<br/>- VPD: Fato Gerador / Consumo (Competência)"]
+    Dualismo["O Dualismo de Regimes na CASP"]
+    
+    Dualismo --> RegOrc["1. REGIME ORÇAMENTÁRIO (Art. 35 da Lei 4.320/64)<br/>• Receitas: Pertencem ao exercício em que forem ARRECADADAS (Caixa)<br/>• Despesas: Pertencem ao exercício em que forem EMPENHADAS (Competência Orçamentária)"]
+    
+    Dualismo --> RegPat["2. REGIME PATRIMONIAL (NBC TSP / MCASP Parte II)<br/>• Variações Patrimoniais Aumentativas (VPA): Fato gerador econômico<br/>• Variações Patrimoniais Diminutivas (VPD): Fato gerador / consumo<br/>• Competência pura e integral para o Patrimônio Líquido"]
 ```
 
-| Transação Prática | Enfoque Orçamentário (Lei nº 4.320/1964) | Enfoque Patrimonial (MCASP / NBC TSP) |
-| :--- | :--- | :--- |
-| **Lançamento do IPTU/IPVA pelo Fisco** | Não há receita orçamentária (receita orçamentária só nasce na arrecadação). | **Ocorre VPA** (a entidade pública adquiriu o direito ao crédito pelo fato gerador). |
-| **Pagamento do tributo pelo contribuinte no banco** | **Receita Orçamentária Realizada** (estágio da arrecadação/recolhimento). | **Fato Permutativo** (D: Caixa / C: Tributos a Receber - não altera o PL!). |
-| **Emissão da Nota de Empenho de material** | **Despesa Orçamentária Executada** (reserva da dotação na LOA). | **Não há fato patrimonial** (o patrimônio da entidade não foi alterado). |
-| **Liquidação / Entrega do serviço contratado** | Despesa orçamentária liquidada (reconhece passivo orçamentário). | **Ocorre VPD** (fato gerador econômico do consumo que diminui o patrimônio líquido). |
+#### 1.1 O Regime Orçamentário da Lei nº 4.320/1964 (Art. 35)
+O art. 35 da Lei Federal nº 4.320/1964 disciplina a apropriação dos créditos orçamentários sob um regime misto:
+- **Receita Orçamentária:** Pertence ao exercício financeiro em que for efetivamente **arrecadada** pelos agentes bancários credenciados (regime de caixa puro na dimensão orçamentária);
+- **Despesa Orçamentária:** Pertence ao exercício financeiro em que for legalmente **empenhada** pela autoridade ordenadora (regime de competência orçamentária, assegurando a reserva do crédito antes da contratação).
+
+#### 1.2 O Regime Patrimonial da Competência Integral (MCASP e NBC TSP)
+No âmbito patrimonial (MCASP e NBC TSP Estrutura Conceitual), vigora o **regime de competência puro e irrestrito**:
+- Os efeitos das transações e demais eventos contábeis são reconhecidos quando ocorrem os seus respectivos fatos geradores econômicos, independentemente do recebimento ou pagamento em dinheiro de caixa;
+- As receitas patrimoniais denominam-se **Variações Patrimoniais Aumentativas (VPA)** e as despesas patrimoniais denominam-se **Variações Patrimoniais Diminutivas (VPD)**.
+
+#### 1.3 Quadro Sinótico de Confronto e Fatos Contábeis
+
+| Evento Prático Governamental | Enfoque Orçamentário (Lei nº 4.320/1964) | Enfoque Patrimonial (MCASP / NBC TSP) | Natureza do Fato Contábil |
+| :--- | :--- | :--- | :--- |
+| **Lançamento do IPTU ou IPVA pelo Fisco** | Não há receita orçamentária realizada (aguarda arrecadação). | **Ocorre VPA** (direito líquido e certo gerado pelo fato gerador tributário). | **Fato Modificativo Aumentativo** (aumenta o PL da entidade). |
+| **Contribuinte paga o tributo no caixa bancário** | **Receita Orçamentária Realizada** (estágio da arrecadação/recolhimento). | Nenhum impacto no resultado patrimonial! (D: Caixa / C: Tributos a Receber). | **Fato Permutativo / Qualitativo** (o PL não é alterado). |
+| **Emissão de Nota de Empenho de material** | **Despesa Orçamentária Executada** (reserva de crédito na LOA). | Não há fato patrimonial (nenhum bem ou serviço ingressou no patrimônio). | **Ato Potencial** (registro puramente orçamentário e de controle). |
+| **Recebimento e Atesto do material (Liquidação)** | Despesa orçamentária liquidada (passivo orçamentário a pagar). | **Ocorre VPD ou Ativo** (se for material de consumo imediato gera VPD; se for estoque/imobilizado gera ativo). | **Fato Modificativo Diminutivo** (se consumo) ou **Permutativo** (se estocagem). |
+| **Ordem Bancária de Pagamento emitida** | Despesa orçamentária paga (extingue dotação e passivo). | Extingue o passivo financeiro com saída de disponibilidades (D: Fornecedores / C: Caixa). | **Fato Permutativo** (não afeta o PL). |
 
 ---
 
-### 2. Variações Patrimoniais: Classificação e Origem
+### 2. Variações Patrimoniais: Classificações e Origens
 
-As alterações no patrimônio público dividem-se em:
-1. **Qualitativas (Fatos Permutativos):** Alteram apenas a composição dos elementos patrimoniais sem impactar o montante do Patrimônio Líquido (ex.: compra de ambulância à vista em dinheiro: diminui Caixa e aumenta Ativo Imobilizado pelo mesmo valor).
-2. **Quantitativas (Fatos Modificativos):** Alteram o montante do Patrimônio Líquido:
-   - *Variação Patrimonial Aumentativa (VPA):* Transações que aumentam o PL (receitas patrimoniais);
-   - *Variação Patrimonial Diminutiva (VPD):* Transações que reduzem o PL (despesas patrimoniais).
+#### 2.1 Variações Qualitativas (Permutativas) vs. Quantitativas (Modificativas)
+- **Variações Qualitativas (Fatos Permutativos):** São transações que alteram a composição dos elementos patrimoniais (Ativos e Passivos) sem provocar qualquer variação no montante líquido do Patrimônio Líquido (ex.: compra à vista de equipamentos, recebimento de créditos tributários lançados anteriormente, pagamento de fornecedores);
+- **Variações Quantitativas (Fatos Modificativos):** Transações que impactam diretamente e alteram o valor total do Patrimônio Líquido da entidade pública:
+  - *Variação Patrimonial Aumentativa (VPA):* Transação que eleva o PL (ex.: arrecadação de tributos não lançados, doações de bens recebidas de terceiros, juros ativos ganhos em aplicações);
+  - *Variação Patrimonial Diminutiva (VPD):* Transação que reduz o PL (ex.: consumo de material de expediente, folha de salários do funcionalismo, quotas de depreciação mensal).
+
+#### 2.2 Variações Resultantes vs. Independentes da Execução Orçamentária
 
 ```mermaid
 flowchart LR
-    Var["Variações Patrimoniais (VPA / VPD)"] --> ResOrc["Resultantes da Execução Orçamentária:<br/>Decorrem de atos previstos na LOA<br/>Ex.: Tributos arrecadados, serviços pagos"]
-    Var --> IndOrc["Independentes da Execução Orçamentária:<br/>NÃO transitam pelo orçamento da LOA<br/>Ex.: Doações recebidas, depreciação, sinistros"]
+    Var["Variações Patrimoniais (VPA e VPD)"] --> VREO["Resultantes da Execução Orçamentária (VREO):<br/>Decorrem de atos previstos e autorizados na LOA<br/>Ex.: Impostos arrecadados, despesas correntes liquidadas"]
+    Var --> VIEO["Independentes da Execução Orçamentária (VIEO):<br/>Ocorrem sem trânsito orçamentário na LOA<br/>Ex.: Doações de bens recebidas, depreciação, sinistros"]
 ```
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> - **Depreciação é despesa orçamentária? NÃO!** A depreciação é uma **Variação Patrimonial Diminutiva (VPD) Independente da Execução Orçamentária**. Ela não depende de empenho, liquidação ou dotação na LOA!  
-> - **Doação de imóvel recebida de particular é receita orçamentária? NÃO!** Não transita pela LOA nem gera receita de capital orçamentária. É uma **VPA Independente da Execução Orçamentária** que eleva diretamente o Ativo Imobilizado e o Patrimônio Líquido.
+> - **A Depreciação é despesa orçamentária? NÃO!** A depreciação é uma **Variação Patrimonial Diminutiva Independente da Execução Orçamentária (VIEO)**. Não exige empenho, dotação orçamentária na LOA nem liquidação; opera-se exclusivamente no subsistema patrimonial!  
+> - **A Doação de imóvel recebida é receita orçamentária de capital? NÃO!** Não transita pela LOA nem envolve disponibilidade financeira em moeda. Trata-se de uma **VPA Independente da Execução Orçamentária (VIEO)** que eleva diretamente o Ativo Imobilizado e o Patrimônio Líquido do ente federativo.
 
 ---
 
-### 3. Depreciação, Amortização e Exaustão no Setor Público
+### 3. Procedimentos Patrimoniais Aplicados ao Ativo Imobilizado
 
-Conforme a **NBC TSP 07** e o **MCASP**, o registro contábil sistemático do desgaste dos bens públicos é mandatório:
-- **Depreciação:** Alocação sistemática do valor depreciável de um **ativo tangível (corpóreo)** ao longo da sua vida útil econômica estimada.
-- **Amortização:** Alocação sistemática da perda de valor de **ativos intangíveis (incorpóreos)** com vida útil definida (ex.: licenças e softwares).
-- **Exaustão:** Esgotamento gradual dos recursos minerais, hídricos ou florestais explorados pelo poder público.
+#### 3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura
+- **Mensuração Inicial:** O ativo imobilizado deve ser mensurado inicialmente pelo seu **custo de aquisição ou construção**, o qual engloba o preço de compra (deduzidos descontos comerciais e abatimentos), tributos não recuperáveis e todos os custos diretamente atribuíveis necessários para colocar o bem em local e condições operacionais de funcionamento pretendidos pela administração pública.
+- **Bens de Infraestrutura e Bens de Uso Comum do Povo:** Rodovias, pontes, praças públicas, redes de esgoto e iluminação pública que estejam sob o controle da entidade governamental e possuam potencial de serviços mensurável com confiabilidade **devem ser formalmente reconhecidos no Ativo Não Circulante (Imobilizado)** do Balanço Patrimonial, contrariando a prática histórica de lançar tais obras como mera despesa orçamentária extinta.
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│               CONCEITOS E FÓRMULAS DE DEPRECIAÇÃO (MCASP)              │
-├───────────────────────┬────────────────────────────────────────────────┤
-│ VALOR DEPRECIÁVEL     │ Custo de Aquisição (-) Valor Residual          │
-├───────────────────────┼────────────────────────────────────────────────┤
-│ VALOR RESIDUAL        │ Valor líquido estimado que a entidade espera   │
-│                       │ obter pelo ativo no fim de sua vida útil.      │
-├───────────────────────┼────────────────────────────────────────────────┤
-│ VIDA ÚTIL ECONÔMICA   │ Período estimado de utilização produtiva.      │
-├───────────────────────┼────────────────────────────────────────────────┤
-│ LANÇAMENTO CONTÁBIL   │ D - Variação Patrimonial Diminutiva (VPD)       │
-│                       │ C - Depreciação Acumulada (Retificadora Ativo) │
-└───────────────────────┴────────────────────────────────────────────────┘
-```
+#### 3.2 Depreciação, Amortização e Exaustão: Conceitos e Fórmulas
+Conforme a NBC TSP 07 e o MCASP:
+- **Depreciação:** Alocação sistemática do valor depreciável de um **ativo tangível (corpóreo)** ao longo de sua vida útil econômica estimada;
+- **Amortização:** Alocação sistemática do valor amortizável de um **ativo intangível (incorpóreo)** com vida útil definida (ex.: softwares, licenças governamentais adquiridas);
+- **Exaustão:** Redução do valor de recursos minerais, hídricos ou florestais decorrente de sua exploração produtiva contínua pelo Estado.
 
-#### Ativos Públicos que NÃO sofrem Depreciação:
-1. **Terrenos** (salvo pedreiras ou aterros sanitários cuja capacidade de descarte se esgota);
-2. **Obras de arte, relíquias e antiguidades** cujo valor histórico/artístico seja inestimável e permanente;
-3. Bens de valor cultural com vida útil econômica indefinida.
+$$\text{Valor Depreciável} = \text{Custo Histórico de Aquisição} - \text{Valor Residual Estimado}$$
+
+$$\text{Quota Periódica de Depreciação (Método Linear)} = \frac{\text{Valor Depreciável}}{\text{Vida Útil Econômica}}$$
+
+- **Lançamento Contábil da Depreciação Periódica:**
+  - `D` - Variação Patrimonial Diminutiva (VPD - Depreciação de Bens Móveis/Imóveis);
+  - `C` - Depreciação Acumulada (Conta retificadora redutora do Ativo Imobilizado).
+
+#### 3.3 Ativos que NÃO Sofrem Depreciação Periódica
+O MCASP elenca expressamente os ativos públicos que não estão sujeitos à depreciação:
+1. **Terrenos:** Possuem vida útil econômica indefinida (ressalvadas áreas destinadas a aterros sanitários ou pedreiras cuja capacidade física se esgota);
+2. **Obras de arte, relíquias e antiguidades:** Cujo valor cultural, artístico ou histórico seja inestimável e não sofra perda sistemática de potencial de serviços ao longo do tempo;
+3. Bens de valor histórico com vida útil indeterminada mantidos em museus e acervos cívicos.
 
 ---
 
-### 4. Teste de Redução ao Valor Recuperável (*Impairment*)
+### 4. Teste de Redução ao Valor Recuperável de Ativos (*Impairment Test*)
 
-O teste de recuperabilidade assegura que nenhum ativo esteja registrado no Balanço Patrimonial por valor superior àquele que o Estado é capaz de recuperar pelo uso ou venda do bem.
+#### 4.1 Mecanismo de Aferição do Valor Recuperável
+O objetivo do teste de recuperabilidade (NBC TSP 09 e 10 c/c MCASP) é garantir que nenhum ativo figure no Balanço Patrimonial por valor superior ao seu **Valor Recuperável**:
 
 ```mermaid
 flowchart TD
-    Ativo["Ativo Registrado no Balanço Patrimonial"] --> Calc["Calcular o VALOR RECUPERÁVEL:<br/>O MAIOR valor entre:<br/>1. Valor Justo Líquido de Despesas de Venda<br/>2. Valor em Uso (Potencial de Serviços Remanescente)"]
-    Calc --> Comp{"Valor Contábil Líquido > Valor Recuperável?"}
-    Comp -->|SIM| Perda["RECONHECE PERDA POR IMPAIRMENT:<br/>D: VPD (Perda por Redução ao Valor Recuperável)<br/>C: Perdas Estimadas por Impairment (Redutora do Ativo)"]
-    Comp -->|NÃO| Mantem["Mantém o ativo registrado pelo valor contábil líquido"]
+    Ativo["Ativo Imobilizado / Intangível no Balanço"] --> Calc["Determinar o VALOR RECUPERÁVEL:<br/>O MAIOR valor entre:<br/>1. Valor Justo Líquido de Despesas de Venda<br/>2. Valor em Uso (Potencial de Serviços Remanescente)"]
+    
+    Calc --> Teste{"Valor Contábil Líquido > Valor Recuperável?"}
+    
+    Teste -->|SIM - Ativo Desvalorizado| Perda["RECONHECER PERDA POR IMPAIRMENT:<br/>Lançamento contábil imediato:<br/>D: VPD (Perda por Redução ao Valor Recuperável)<br/>C: Perdas Estimadas por Impairment (Conta Redutora do Ativo)"]
+    
+    Teste -->|NÃO - Ativo Conforme| OK["Mantém o ativo registrado pelo valor contábil líquido"]
 ```
+
+#### 4.2 Reconhecimento Contábil da Perda e Reversões
+- Se o **Valor Contábil Líquido** (custo de aquisição menos depreciação acumulada) for superior ao **Valor Recuperável**, o valor do ativo deve ser reduzido ao valor recuperável;
+- Essa redução é contabilizada como **perda por impairment** através de uma conta redutora do ativo imobilizado, tendo como contrapartida uma **Variação Patrimonial Diminutiva (VPD)** no resultado do exercício;
+- Caso cessem as razões econômicas que motivaram a perda em exercícios futuros, a norma permite a reversão da perda até o limite do saldo que o ativo teria se nenhuma perda tivesse sido outrora reconhecida.
 
 ---
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
-- [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição](https://www.gov.br/tesouronacional/pt-br)
+- [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição (STN)](https://www.gov.br/tesouronacional/pt-br)
   - Parte I: Procedimentos Contábeis Orçamentários (PCO).
   - Parte II: Procedimentos Contábeis Patrimoniais (PCP).
 - [Conselho Federal de Contabilidade - NBC TSP 07 (Ativo Imobilizado)](https://cfc.org.br/)
-  - Critérios de reconhecimento, mensuração, vida útil e depreciação.
+  - Critérios de reconhecimento, custos atribuíveis, vida útil e depreciação.
 - [Conselho Federal de Contabilidade - NBC TSP 09 e 10 (Redução ao Valor Recuperável)](https://cfc.org.br/)
-  - Regras para teste de impairment em ativos geradores e não geradores de caixa.
+  - Mensuração de perdas por impairment em ativos geradores e não geradores de caixa.
 - [Lei Federal nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm)
-  - Art. 35 (Regime orçamentário legal).
+  - Artigo 35 (Regime orçamentário legal de caixa e competência).
 
 ---
 
@@ -173,14 +182,14 @@ C) O bem não pode ser registrado no ativo imobilizado até que a obra do posto 
 D) A operação constitui um fato meramente qualitativo (permutativo), uma vez que não envolveu fluxo financeiro em moeda corrente.  
 E) O terreno recebido deverá sofrer depreciação periódica anual linear à alíquota contábil de 4% ao ano.  
 
-> **Gabarito: B**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** Doações de bens físicos não envolvem fluxo financeiro e não transitam pela Lei Orçamentária Anual; não constituem receita orçamentária.  
-> - **B) CORRETA:** A doação de ativo recebida aumenta o patrimônio da entidade pública sem exigir dotação na LOA ou arrecadação, constituindo típica **Variação Patrimonial Aumentativa (VPA) Independente da Execução Orçamentária**, lançada a débito no Ativo Imobilizado (Terrenos) e a crédito de VPA no Resultado, aumentando o Patrimônio Líquido.  
-> - **C) INCORRETA:** O ativo é reconhecido no momento em que a entidade obtém o controle do bem (posse e escritura), e não quando da construção da edificação.  
-> - **D) INCORRETA:** É um fato quantitativo aumentativo, pois ampliou o patrimônio líquido da entidade em R$ 800.000,00.  
-> - **E) INCORRETA:** Terrenos possuem vida útil econômica indefinida e, por regra contábil geral, **não são depreciados**.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Doações de bens materiais não geram influxo de caixa financeiro nem constam na LOA, não constituindo receita orçamentária.
+> - **B)** Correta. A doação de bens recebida amplia o ativo e o patrimônio líquido da entidade sem passar pelos estágios do orçamento (LOA), qualificando-se exatamente como uma Variação Patrimonial Aumentativa (VPA) Independente da Execução Orçamentária. O lançamento debita o Ativo Não Circulante (Imobilizado - Terrenos) e credita VPA no resultado.
+> - **C)** Incorreta. O reconhecimento contábil do terreno ocorre no momento da obtenção de seu controle formal (escritura e posse), e não na futura edificação da obra.
+> - **D)** Incorreta. Trata-se de fato quantitativo modificativo aumentativo, pois houve acréscimo de R$ 800.000,00 na Situação Patrimonial Líquida do ente.
+> - **E)** Incorreta. Terrenos possuem vida útil econômica indefinida e, por expressa determinação contábil, não sofrem depreciação periódica.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -193,14 +202,14 @@ C) O teste de recuperabilidade é dispensável no setor público quando o ativo 
 D) A redução ao valor recuperável ocorre quando o valor contábil líquido de um ativo for superior ao seu valor recuperável, devendo a perda ser reconhecida no resultado patrimonial como variação patrimonial diminutiva (VPD).  
 E) A amortização aplica-se aos bens corpóreos que sofrem desgaste físico ou perecimento gradual ao longo do tempo.  
 
-> **Gabarito: D**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** O valor depreciável é o custo histórico **subtraído** do valor residual ($Valor\ Depreciável = Custo - Valor\ Residual$).  
-> - **B) INCORRETA:** A depreciação é evento estritamente patrimonial (VPD independente da execução orçamentária), não exigindo prévio empenho nem execução na LOA.  
-> - **C) INCORRETA:** O teste de recuperabilidade é obrigatório no setor público inclusive para **ativos não geradores de caixa**, avaliando-se o seu potencial de serviços (NBC TSP 09).  
-> - **D) CORRETA:** Quando o valor contábil líquido supera o valor recuperável, o ativo está sobreavaliado; a norma exige o reconhecimento imediato da perda por desvalorização (*impairment*) como VPD no resultado patrimonial.  
-> - **E) INCORRETA:** A amortização aplica-se a ativos **intangíveis** (incorpóreos) de vida útil definida; o desgaste de bens corpóreos é objeto de **depreciação**.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O valor depreciável é calculado subtraindo-se o valor residual do custo histórico de aquisição ($Custo - Valor\ Residual$).
+> - **B)** Incorreta. A depreciação é um procedimento estritamente patrimonial (VPD independente da execução orçamentária), não dependendo de dotação na LOA nem de emissão de nota de empenho.
+> - **C)** Incorreta. O teste de recuperabilidade aplica-se obrigatoriamente inclusive aos ativos não geradores de caixa, avaliando-se a perda de seu potencial de serviços à sociedade.
+> - **D)** Correta. De acordo com a NBC TSP 09/10 e o MCASP, se o valor contábil líquido de um ativo for maior que o seu valor recuperável, a entidade pública deve reconhecer imediatamente a perda por desvalorização (*impairment*), lançando uma VPD no resultado em contrapartida a uma conta redutora do ativo imobilizado.
+> - **E)** Incorreta. A amortização destina-se a ativos incorpóreos/intangíveis com vida útil definida; o desgaste sistemático de bens corpóreos tangíveis é objeto de depreciação.
+> 
+> **Gabarito: D**
 
 ---
 
@@ -215,14 +224,14 @@ C) Fato modificativo diminutivo que reduz o Patrimônio Líquido em R$ 100.000,0
 D) Variação patrimonial independente da execução orçamentária.  
 E) Transação extraorçamentária que dispensa registro no subsistema patrimonial.  
 
-> **Gabarito: B**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** A compra de computadores com saída de caixa não gerou receita patrimonial (VPA).  
-> - **B) CORRETA:** Trata-se de um **fato permutativo entre elementos patrimoniais ativos**: houve a saída de R$ 100.000,00 da conta Caixa/Bancos (Ativo Circulante) e a entrada simultânea de R$ 100.000,00 em Bens Móveis (Ativo Não Circulante - Imobilizado). O valor total do Ativo e do Patrimônio Líquido permaneceu inalterado (houve apenas mutação qualitativa).  
-> - **C) INCORRETA:** A aquisição de computadores não diminui o PL (a redução do PL ocorrerá posteriormente e de forma gradual via depreciação mensal).  
-> - **D) INCORRETA:** A despesa decorreu diretamente da execução do orçamento (despesa de capital na LOA).  
-> - **E) INCORRETA:** Trata-se de despesa orçamentária de capital com pleno registro patrimonial no PCASP.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. A compra de bens com desembolso financeiro de caixa não gera VPA (receita patrimonial).
+> - **B)** Correta. Trata-se de um típico fato permutativo (qualitativo) entre contas do Ativo: ocorreu a diminuição de R$ 100.000,00 na conta Caixa/Bancos (Ativo Circulante) e o aumento simultâneo de R$ 100.000,00 na conta de Equipamentos e Material Permanente (Ativo Não Circulante - Imobilizado). O total do Ativo e a Situação Patrimonial Líquida permaneceram rigorosamente inalterados.
+> - **C)** Incorreta. A redução do patrimônio líquido ocorrerá de forma paulatina e distribuída nos exercícios seguintes por meio do registro da depreciação mensal.
+> - **D)** Incorreta. A transação resultou diretamente da execução de dotação de capital fixada na LOA (variação resultante da execução orçamentária).
+> - **E)** Incorreta. É despesa orçamentária própria de capital, plenamente escriturada nos subsistemas orçamentário e patrimonial do PCASP.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -237,15 +246,16 @@ C) R$ 100.000,00 e R$ 2.000,00.
 D) R$ 120.000,00 e R$ 1.666,67.  
 E) R$ 140.000,00 e R$ 2.333,33.  
 
-> **Gabarito: B**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **Cálculo do Valor Depreciável:**  
->   $\text{Valor Depreciável} = \text{Custo de Aquisição} - \text{Valor Residual}$  
->   $\text{Valor Depreciável} = 120.000,00 - 20.000,00 =$ **R$ 100.000,00**  
-> - **Cálculo da Quota Mensal de Depreciação:**  
->   $\text{Quota Mensal} = \frac{\text{Valor Depreciável}}{\text{Vida Útil em Meses}} = \frac{100.000,00}{60} \approx$ **R$ 1.666,67**  
-> - Portanto, o valor depreciável é R$ 100.000,00 e a quota mensal é R$ 1.666,67 (Gabarito B).
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Erra ao desconsiderar a dedução do valor residual no cálculo do valor depreciável.
+> - **B)** Correta. O cálculo contábil é exato:  
+>   1. **Valor Depreciável:** Custo de Aquisição (R$ 120.000,00) menos Valor Residual (R$ 20.000,00) = **R$ 100.000,00**.  
+>   2. **Quota Mensal de Depreciação:** Valor Depreciável (R$ 100.000,00) dividido por 60 meses de vida útil = **R$ 1.666,67** por mês, lançada como VPD.
+> - **C)** Incorreta. R$ 2.000,00 por mês seria a quota caso o valor residual fosse zero (120.000 / 60).
+> - **D)** Incorreta. O valor depreciável não é o custo bruto (120.000,00), pois há valor residual a ser deduzido.
+> - **E)** Incorreta. Erra ao somar o valor residual ao custo em vez de subtrair.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -264,10 +274,11 @@ C) II e III, apenas.
 D) I e III, apenas.  
 E) I, II e III.  
 
-> **Gabarito: E**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **Item I - VERDADEIRO:** O art. 35 da Lei nº 4.320/1964 fixa: *"Pertencem ao exercício financeiro: I - as receitas nele arrecadadas; II - as despesas nele legalmente empenhadas"* (regime misto de caixa para receitas e competência para despesas).  
-> - **Item II - VERDADEIRO:** As normas NBC TSP e o MCASP consagram o regime de competência puro para o patrimônio governamental, registrando VPAs e VPDs pelo fato gerador.  
-> - **Item III - VERDADEIRO:** Quando o crédito tributário já foi objeto de lançamento anterior (já houve VPA), o pagamento no banco representa arrecadação na esfera orçamentária e simples permutação patrimonial entre Disponibilidades e Créditos Tributários a Receber (não gera nova VPA).  
-> - Estão corretos todos os três itens (Gabarito E).
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Os itens II e III também são verdadeiros, tornando a alternativa incompleta.
+> - **B)** Incorreta. Deixa de incluir o item III, que expressa corretamente a dinâmica da CASP.
+> - **C)** Incorreta. O item I é a previsão literal do art. 35 da Lei nº 4.320/1964.
+> - **D)** Incorreta. O item II reflete o preceito central do MCASP moderno (regime de competência patrimonial).
+> - **E)** Correta. Todas as três assertivas são verdadeiras: o item I reproduz o art. 35 da Lei Federal nº 4.320/1964 (regime orçamentário misto); o item II reflete a consolidação da competência pura para o patrimônio pelas NBC TSP e MCASP; e o item III descreve com rigor a transação de arrecadação de tributos cujo lançamento ocorreu em momento anterior (no lançamento houve VPA; na arrecadação há receita orçamentária realizada e simples permutação patrimonial entre Disponibilidades e Créditos a Receber).
+> 
+> **Gabarito: E**

@@ -14,267 +14,310 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-2. Arquitetura Agentiva, Ferramentas Autônomas e Loops de Execução
-├── 2.1 Arquitetura dos Agentes de Codificação
-│   ├── 2.1.1 De Chatbots Passivos a Agentes Autônomos: Diferença entre autocompletar simples e agentes orientados a objetivos (Goal-Driven Agents)
-│   ├── 2.1.2 Componentes Centrais de um Agente:
-│   │   ├── Cérebro / Modelo de Raciocínio (LLM de alta capacidade lógica)
-│   │   ├── Memória (Memória de curto prazo / histórico do diálogo + memória de longo prazo / indexação de código)
-│   │   ├── Percepção / Sensores (leitura de arquivos, árvores de diretórios, stdout/stderr de comandos)
-│   │   └── Atuadores / Ferramentas (escrita/edição de arquivos, execução de scripts, chamadas de rede via MCP)
-│   └── 2.1.3 Padrões de Interfaces:
-│       ├── Interfaces de Linha de Comando (CLI): Ferramentas executadas diretamente no terminal (Claude Code, Antigravity CLI, Aider)
-│       └── Ambientes Integrados (IDE Native): Extensões e IDEs agentivas completas (Cursor, Windsurf, Copilot Workspace)
-├── 2.2 O Ciclo Agentivo de Desenvolvimento (The Agentic Loop)
-│   ├── 2.2.1 Fase 1: Descoberta e Coleta de Contexto (Percepção)
-│   │   ├── Inspeção de estrutura de diretórios e arquivos de configuração (`package.json`, `pom.xml`, etc.)
-│   │   ├── Varredura semântica e busca por palavras-chave em arquivos de código
-│   │   └── Leitura seletiva de arquivos relevantes para evitar sobrecarga de contexto
-│   ├── 2.2.2 Fase 2: Planejamento e Tomada de Decisão (Reasoning & Planning)
-│   │   ├── Formulação de plano estruturado com passos atômicos
-│   │   ├── Antecipação de dependências e possíveis pontos de falha
-│   │   └── Solicitação de esclarecimento ao usuário em caso de ambiguidade (Human-in-the-Loop)
-│   ├── 2.2.3 Fase 3: Execução de Ações no Ambiente (Action)
-│   │   ├── Modificação atômica de código via ferramentas de edição de arquivos (`replace_content`, `write_file`)
-│   │   ├── Execução de comandos no shell do sistema operacional (instalação de dependências, compilação)
-│   │   └── Gestão de processos assíncronos e processos em background (daemons)
-│   └── 2.2.4 Fase 4: Verificação Autônoma e Autocorreção (Verification & Self-Healing)
-│       ├── Execução automatizada de suites de testes (JUnit, Jest, Pytest) e linter
-│       ├── Captura e interpretação do stack trace de erros ocorridos durante a execução
-│       ├── Loop de reflexão e autocorreção (*Self-Healing*): O agente analisa o erro, ajusta o código e reexecuta os testes de forma autônoma sem intervenção humana
-│       └── Critério de parada (Stop condition): Sucesso verificado ou esgotamento de tentativas
-└── 2.3 Ferramentas de Referência e Paralelos Funcionais
-    ├── 2.3.1 Claude Code: Filosofia CLI de terminal, integração nativa com ferramentas UNIX, busca em repositório e edição precisa
-    ├── 2.3.2 Antigravity CLI: Orquestração de subagentes especializados, gestão de artefatos estruturados e automação integrada de desenvolvimento
-    └── 2.3.3 Mecanismos de Segurança e Permissões do Usuário (Sandboxing, confirmação de comandos destrutivos)
-```
+## 🧭 Sumário
+- [1. Arquitetura dos Agentes de Codificação](#1-arquitetura-dos-agentes-de-codificação)
+  - [1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)](#11-a-evolução-de-chatbots-passivos-a-agentes-orientados-a-objetivos-goal-driven)
+  - [1.2 Os Quatro Componentes Estruturais de um Agente de Software](#12-os-quatro-componentes-estruturais-de-um-agente-de-software)
+  - [1.3 Padrões de Interface: Agentes de Linha de Comando (CLI) vs. Agentes Nativos em IDE](#13-padrões-de-interface-agentes-de-linha-de-comando-cli-vs-agentes-nativos-em-ide)
+- [2. O Ciclo Agentivo de Desenvolvimento (The Agentic Loop)](#2-o-ciclo-agentivo-de-desenvolvimento-the-agentic-loop)
+  - [2.1 Fundamentos do Paradigma ReAct e Ciclo OODA](#21-fundamentos-do-paradigma-react-e-ciclo-ooda)
+  - [2.2 Fase 1: Descoberta e Coleta de Contexto (Percepção)](#22-fase-1-descoberta-e-coleta-de-contexto-percepção)
+  - [2.3 Fase 2: Planejamento, Decomposição e Deliberação (Reasoning & Planning)](#23-fase-2-planejamento-decomposição-e-deliberação-reasoning--planning)
+  - [2.4 Fase 3: Execução de Ações no Ambiente (Action)](#24-fase-3-execução-de-ações-no-ambiente-action)
+  - [2.5 Fase 4: Verificação Autônoma e o Loop de Autocorreção (Self-Healing)](#25-fase-4-verificação-autônoma-e-o-loop-de-autocorreção-self-healing)
+  - [2.6 Critérios de Parada (Stop Conditions) e Disjuntores (Circuit Breakers)](#26-critérios-de-parada-stop-conditions-e-disjuntores-circuit-breakers)
+- [3. Ferramentas de Referência e Governança de Segurança](#3-ferramentas-de-referência-e-governança-de-segurança)
+  - [3.1 Claude Code e a Filosofia Unix-First de Terminal](#31-claude-code-e-a-filosofia-unix-first-de-terminal)
+  - [3.2 Antigravity CLI e a Orquestração Hierárquica Multiagente](#32-antigravity-cli-e-a-orquestração-hierárquica-multiagente)
+  - [3.3 Segurança Cibernética, Privilégio Mínimo e Human-in-the-Loop](#33-segurança-cibernética-privilégio-mínimo-e-human-in-the-loop)
+- [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
+- [5. Questões Comentadas & Prática Padrão FCC](#5-questões-comentadas--prática-padrão-fcc)
 
 ---
 
-## 📖 Teoria Aprofundada & Fundamentos Técnicos
+## 1. Arquitetura dos Agentes de Codificação
 
-### 2.1 Arquitetura dos Agentes de Codificação
-
-A transição dos assistentes de programação tradicionais para sistemas agentivos autônomos representa o salto de um mecanismo reativo de completamento de texto para um sistema cibernético de ciclo fechado (*Closed-Loop System*), capaz de perceber o ambiente, deliberar, agir e corrigir seu próprio comportamento.
-
-#### 2.1.1 De Chatbots Passivos a Agentes Orientados a Objetivos (*Goal-Driven*)
-- **Chatbots e Completadores Passivos (Autocompletion):** Modelos como a primeira geração de extensões de código operavam apenas por predição de texto fantasma (*ghost text*). O desenvolvedor digitava o código, e o modelo sugeria a próxima linha. Caso o código sugerido quebrasse a compilação, o usuário precisava manualmente diagnosticar o erro, copiar a mensagem, colar em um chat e solicitar uma nova tentativa.
-- **Agentes Autônomos Orientados a Objetivos (*Goal-Driven Agents*):** O usuário fornece um objetivo de alto nível (*"Implemente a validação da certidão negativa de débitos com tratamento de timeout e testes unitários"*). O agente assume o controle do fluxo de trabalho: ele localiza os arquivos no disco, cria branches, executa comandos de shell, compila, analisa os logs de falha e aplica correções sucessivas até atingir a meta pré-determinada.
+### 1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)
+A evolução da inteligência artificial aplicada ao desenvolvimento de software pode ser compreendida pela transição entre sistemas de loop aberto (*Open-Loop*) e sistemas cibernéticos autônomos de loop fechado (*Closed-Loop*):
 
 ```mermaid
 flowchart TD
-    subgraph "Chatbot Tradicional (Loop Aberto / Usuário Manual)"
-        U1["Desenvolvedor"] -->|Digita prompt| CB["Chatbot"]
+    subgraph Chatbot["1. Chatbot Tradicional (Loop Aberto / Dependência Humana)"]
+        U1["Desenvolvedor"] -->|Digita prompt| CB["Chatbot / Autocompletion"]
         CB -->|Gera texto no chat| U1
-        U1 -->|Copia/cola código no editor| ID1["Editor de Código"]
-        U1 -->|Roda testes no terminal| TR1["Terminal"]
+        U1 -->|Copia/cola código| IDE1["Editor de Código"]
+        U1 -->|Compila no terminal| TR1["Terminal / Testes"]
         TR1 -->|Erro de compilação| U1
     end
 
-    subgraph "Agente Autônomo (Loop Fechado / Agentic Loop)"
-        U2["Desenvolvedor"] -->|Define Objetivo| AG["Agente de IA"]
+    subgraph Agente["2. Agente Autônomo (Loop Fechado / Agentic Loop)"]
+        U2["Desenvolvedor"] -->|Define Objetivo de Alto Nível| AG["Agente de IA"]
         AG -->|Lê arquivos e planeja| FS["Sistema de Arquivos"]
-        AG -->|Edita código no disco| FS
-        AG -->|Executa comandos e testes| SH["Shell do SO"]
+        AG -->|Edita arquivos no disco| FS
+        AG -->|Executa comandos de shell| SH["Shell do SO / Testes"]
         SH -->|Retorna stderr / falha| AG
-        AG -->|Reflexão e Autocorreção / Self-Healing| FS
-        AG -->|Notifica conclusão após sucesso| U2
+        AG -->|Diagnostica e aplica Self-Healing| FS
+        AG -->|Notifica após 100% de sucesso| U2
     end
 ```
 
-#### 2.1.2 Componentes Centrais de um Agente de Software
-Segundo a taxonomia clássica de IA (formalizada por Lilian Weng, 2023), um agente de codificação moderno é estruturado em quatro módulos integrados:
-
-1. **Cérebro / Modelo de Raciocínio (LLM Core):** O modelo fundacional de ponta (ex.: Claude 3.5 Sonnet, GPT-4o) responsável pela decomposição de problemas, tomada de decisões lógicas e geração de chamadas estruturadas de ferramentas (*tool calling*).
-2. **Sistema de Memória:**
-   - **Memória de Curto Prazo (Working Memory):** Mantida dentro da janela de contexto. Armazena o objetivo da tarefa, histórico de comandos executados, saídas recentes de ferramentas e estado atual do plano de ação.
-   - **Memória de Longo Prazo:** Bases vetoriais locais ou bancos de dados relacionais que mantêm indexação semântica do repositório, histórico de commits, decisões arquiteturais consolidadas e regras corporativas persistentes.
-3. **Módulo de Percepção / Sensores:** Permite ao agente observar o estado do projeto:
-   - Inspeção de árvores de diretórios (`list_dir`, `glob`);
-   - Leitura seletiva de arquivos de código (`view_file`, `grep`);
-   - Captura de streams de saída padrão (`stdout`) e de erro (`stderr`) dos comandos de shell;
-   - Monitoramento do status do controle de versão (`git status`, `git diff`).
-4. **Módulo de Atuadores / Ferramentas (*Tool Use*):** Interfaces determinísticas expostas pelo host para que o agente exerça mudanças no ambiente:
-   - Ferramentas de escrita e substituição pontual de arquivos (`write_file`, `replace_file_content`);
-   - Execução de comandos no sistema operacional (`run_command`);
-   - Invocação de serviços remotos e ferramentas de dados via protocolo MCP (*Model Context Protocol*).
-
-#### 2.1.3 Padrões de Interfaces: CLI vs. IDE Integrada
-
-| Dimensão de Comparação | Agentes de Linha de Comando (CLI) | Agentes Integrados à IDE (IDE Native) |
-| :--- | :--- | :--- |
-| **Exemplos Canônicos** | Claude Code, Antigravity CLI, Aider, Mentat | Cursor, Windsurf, Copilot Workspace, Continue.dev |
-| **Ambiente de Execução** | Terminal do Sistema Operacional (Bash, Zsh, PowerShell) | Janelas e painéis internos do ambiente gráfico (VS Code fork, JetBrains) |
-| **Integração com Ferramentas** | Acesso nativo direto a comandos UNIX/Windows (`grep`, `find`, `git`, `docker`, scripts bash). | Acesso via APIs de extensão da IDE (LSP - Language Server Protocol, painéis gráficos). |
-| **Controle de Contexto** | Focado em leitura dinâmica e concisa orientada a pipes e ferramentas de terminal. | Focado em arquivos abertos no editor, cursores ativos e árvore de projeto gráfica. |
-| **Consumo de Recursos** | Mínimo overhead de interface gráfica; ideal para servidores remotos e pipelines de CI/CD. | Maior consumo de memória e CPU devido à renderização gráfica e servidores de linguagem em background. |
-| **Perfil de Uso** | Engenheiros sêniores, automações pesadas de terminal, refatorações multi-repositório. | Desenvolvimento iterativo do dia a dia com edição visual lado a lado. |
+- **Chatbots e Completadores Passivos (Autocompletion):** Modelos reativos baseados em sugestão de texto fantasma (*ghost text*). O desenvolvedor programa manualmente e o modelo prevê a próxima linha. Diante de erros sintáticos ou falhas em testes, o desenvolvedor precisa copiar o log, colar na caixa de diálogo e pedir uma nova versão, aplicando o código manualmente no editor.
+- **Agentes Autônomos Orientados a Objetivos (*Goal-Driven Agents*):** O usuário define a meta macro em linguagem natural (ex.: *"Implemente a emissão de certidão de débitos tributários com tratamento de concorrência e testes unitários"*). O agente assume a condução do fluxo: descobre a estrutura do projeto, inspeciona dependências, cria ou modifica arquivos no disco rígido, executa o compilador no shell, analisa as saídas de erro e realiza ciclos contínuos de autocorreção até que todas as condições de sucesso sejam satisfeitas.
 
 ---
 
-### 2.2 O Ciclo Agentivo de Desenvolvimento (*The Agentic Loop*)
+### 1.2 Os Quatro Componentes Estruturais de um Agente de Software
+Segundo a taxonomia clássica de agentes autônomos baseados em LLMs (formalizada por Lilian Weng, 2023), um agente de engenharia de software estrutura-se em quatro pilares articulados:
 
-O núcleo do comportamento autônomo é o ciclo de execução contínuo, fortemente inspirado no paradigma **ReAct** (Yao et al., 2023) e no ciclo **OODA** (*Observe, Orient, Decide, Act*), estruturado em quatro fases ordenadas:
+```mermaid
+flowchart TD
+    subgraph ArquiteturaAgente["Estrutura Central de um Agente de Codificação"]
+        C["1. Cérebro / Modelo de Raciocínio (LLM Core)
+        - Decomposição de problemas
+        - Tomada de decisões lógicas
+        - Emissão de chamadas de ferramentas (Tool Calling)"]
+        
+        M["2. Sistema de Memória
+        - Curto Prazo: Janela de Contexto (Working Memory)
+        - Longo Prazo: Índices Semânticos (RAG) e Repositório"]
+        
+        P["3. Percepção / Sensores
+        - Leitura de diretórios e arquivos
+        - Captura de stdout / stderr do shell
+        - Status do controle de versão (Git)"]
+        
+        A["4. Atuadores / Ferramentas (Tool Use)
+        - Edição pontual de arquivos (replace_content)
+        - Execução de comandos no SO (run_command)
+        - Protocolo MCP para ferramentas externas"]
+    end
+    C <--> M
+    C --> A
+    P --> C
+```
+
+1. **Cérebro / Modelo de Raciocínio (LLM Core):** O modelo fundacional de ponta (ex.: Claude 3.5 Sonnet, GPT-4o) responsável pelo raciocínio lógico, interpretação de regras de negócio, planejamento em etapas e decisão de qual ferramenta acionar a cada instante.
+2. **Sistema de Memória:**
+   - **Memória de Curto Prazo (*Working Memory*):** Reside na janela de contexto da sessão ativa. Retém o objetivo da tarefa, o plano de trabalho corrente, o histórico recente de ações executadas e os logs parciais retornados pelo terminal.
+   - **Memória de Longo Prazo:** Bases vetoriais locais ou grafos de código que mantêm o repositório indexado semanticamente, além de documentações e diretrizes institucionais persistentes entre sessões.
+3. **Módulo de Percepção / Sensores:** Permite ao agente observar o ambiente de software:
+   - Inspeção estrutural de diretórios (`list_dir`, `glob`);
+   - Leitura pontual de arquivos de código (`view_file`, `grep`);
+   - Captura dos fluxos padrão de saída (`stdout`) e de erro (`stderr`) emitidos pelo sistema operacional;
+   - Monitoramento do status do controle de versão (`git status`, `git diff`).
+4. **Módulo de Atuadores / Ferramentas (*Tool Use*):** Mecanismos determinísticos fornecidos pela aplicação hospedeira para que o agente altere o ambiente:
+   - Manipulação de arquivos (`write_to_file`, `replace_file_content`);
+   - Execução de processos e comandos de shell (`run_command`);
+   - Invocação de ferramentas e serviços externos padronizados via protocolo MCP (*Model Context Protocol*).
+
+---
+
+### 1.3 Padrões de Interface: Agentes de Linha de Comando (CLI) vs. Agentes Nativos em IDE
+
+| Dimensão Técnica | Agentes de Linha de Comando (CLI) | Agentes Integrados à IDE (IDE Native) |
+|---|---|---|
+| **Exemplos de Referência** | Claude Code, Antigravity CLI, Aider, Mentat. | Cursor, Windsurf, Copilot Workspace, Continue.dev. |
+| **Ambiente de Hospedagem** | Terminal do Sistema Operacional (Bash, Zsh, PowerShell). | Painéis internos de Ambientes de Desenvolvimento Integrados (forks do VS Code, plugins JetBrains). |
+| **Acesso a Ferramentas** | Acesso nativo direto a comandos do SO (`git`, `grep`, `find`, `docker`, scripts shell compilados). | Acesso intermediado por APIs da IDE e protocolos de linguagem (LSP - *Language Server Protocol*). |
+| **Consumo de Recursos** | Mínimo overhead de memória e CPU; dispensa renderização de interfaces gráficas pesadas. | Elevado consumo de memória RAM devido aos processos gráficos e servidores de linguagem paralelos. |
+| **Cenário de Uso Ideal** | Servidores remotos via SSH, máquinas virtuais sem interface gráfica (*headless*), automações de esteiras CI/CD e refatorações multi-repositório. | Programação interativa do dia a dia com edição visual lado a lado e navegação gráfica do código. |
+
+---
+
+## 2. O Ciclo Agentivo de Desenvolvimento (The Agentic Loop)
+
+### 2.1 Fundamentos do Paradigma ReAct e Ciclo OODA
+O núcleo operacional que rege o comportamento autônomo apoia-se no paradigma **ReAct** (*Reasoning + Acting*, Yao et al., 2023), integrando raciocínio reflexivo e ação no mundo físico:
+
+```mermaid
+flowchart LR
+    subgraph ReAct["Ciclo ReAct Contínuo"]
+        T["1. Pensamento (Thought):<br/>Raciocínio dedutivo"] --> A["2. Ação (Action):<br/>Invocação de ferramenta"]
+        A --> O["3. Observação (Observation):<br/>Retorno do ambiente"]
+        O --> R["4. Reflexão (Reflection):<br/>Avaliação de progresso"]
+        R --> T
+    end
+```
+
+O ciclo opera em quatro fases sequenciais estruturadas:
 
 ```mermaid
 stateDiagram-v2
     [*] --> Descoberta_Percepcao : Usuário submete objetivo
-    Descoberta_Percepcao --> Planejamento_Deliberacao : Mapeamento do repositório concluído
-    Planejamento_Deliberacao --> Execucao_Acao : Plano atômico traçado
-    Execucao_Acao --> Verificacao_Testes : Código editado / dependências instaladas
+    Descoberta_Percepcao --> Planejamento_Deliberacao : Mapeamento de diretórios e contratos
+    Planejamento_Deliberacao --> Execucao_Acao : Plano de passos atômicos traçado
+    Execucao_Acao --> Verificacao_Testes : Edição de código e compilação
     
     state Verificacao_Testes {
-        [*] --> RodaSuiteTestes
-        RodaSuiteTestes --> AnaliseResultado
+        [*] --> ExecutaTestes
+        ExecutaTestes --> AnalisaFeedback
     }
 
-    Verificacao_Testes --> Sucesso_Conclusao : Todos os testes passaram (Assert OK)
-    Verificacao_Testes --> Self_Healing_Loop : Falha detectada (Stack trace / Linter error)
+    Verificacao_Testes --> Conclusao_Sucesso : Todos os testes passaram (Asserts OK)
+    Verificacao_Testes --> Self_Healing_Loop : Falha detectada (Stack trace no stderr)
     
     Self_Healing_Loop --> Planejamento_Deliberacao : Formulação de nova hipótese corretiva
-    Sucesso_Conclusao --> [*] : Notifica usuário / Artefato gerado
+    Conclusao_Sucesso --> [*] : Notifica usuário / Apresenta artefato
 ```
-
-#### 2.2.1 Fase 1: Descoberta e Coleta de Contexto (Percepção)
-Antes de produzir qualquer linha de código, um agente de engenharia de software eficiente deve inspecionar o ambiente para ancorar seu raciocínio:
-1. **Mapeamento Estrutural:** Identificação da tecnologia através de manifestos de projeto (`pom.xml` para Maven/Java, `package.json` para Node/TypeScript, `pyproject.toml` ou `requirements.txt` para Python).
-2. **Localização Cirúrgica:** Uso de ferramentas de busca por padrões de texto e símbolos para encontrar declarações exatas de métodos, evitando carregar o repositório inteiro na janela de contexto (prevenindo saturação de tokens e dispersão de atenção).
-3. **Leitura de Contratos:** Análise de interfaces, entidades de banco de dados e arquivos de configuração existentes para absorver o padrão de nomenclatura da organização.
-
-#### 2.2.2 Fase 2: Planejamento e Tomada de Decisão (Reasoning & Planning)
-Nesta fase, o modelo formula uma estratégia de execução:
-- **Decomposição em Tarefas Atômicas:** Em vez de tentar resolver tudo em uma única etapa, o agente quebra a tarefa em submetas: (1) Adicionar campo na entidade; (2) Criar migration no banco; (3) Implementar regra de negócio no service; (4) Atualizar controller; (5) Executar testes.
-- **Identificação de Riscos e Pontos Críticos:** Avaliação de impactos em partes adjacentes do software.
-- **Interação *Human-in-the-Loop*:** Se o requisito for ambíguo ou contraditório, o agente suspende a execução e solicita clarificação ao desenvolvedor humano.
-
-#### 2.2.3 Fase 3: Execução de Ações no Ambiente (Action)
-O agente invoca ferramentas para alterar o estado do sistema:
-- **Edição Atômica de Arquivos:** Substituição cirúrgica de blocos de texto (`replace_file_content`) utilizando correspondência exata, evitando reescrever arquivos de milhares de linhas na íntegra (o que geraria alto custo e risco de truncamento).
-- **Comandos de Terminal:** Compilação (`mvn compile`, `npm run build`), instalação de pacotes e inicialização de processos em segundo plano (*daemons*).
-
-#### 2.2.4 Fase 4: Verificação Autônoma e Autocorreção (*Self-Healing*)
-Esta é a fase que verdadeiramente diferencia um agente autônomo de um gerador estático de código:
-1. **Execução de Verificadores:** O agente roda suítes automatizadas de testes (`pytest`, `jest`, `mvn test`) e ferramentas de análise estática (*linters*).
-2. **Captura do Feedback do Ambiente:** O agente recebe o código de saída (*exit code*), o log de erro e o *stack trace* gerados pelo compilador ou framework de testes.
-3. **O Loop de Autocorreção (*Self-Healing Loop*):**
-   - Caso o teste falhe com uma asserção incorreta ou um `NullPointerException`, o agente não encerra o processo nem devolve a tarefa como terminada.
-   - O agente analisa a linha exata apontada pelo *stack trace*, formula uma hipótese de correção, edita o arquivo de código e dispara novamente a suíte de testes.
-4. **Critérios de Parada (*Stop Conditions*):**
-   - **Critério de Sucesso:** Passagem de 100% dos testes e conformidade com o linter.
-   - **Critério de Proteção (Circuit Breaker):** Esgotamento do limite máximo de tentativas estipulado (ex.: 5 iterações sem progresso), momento em que o agente interrompe o ciclo e solicita intervenção humana para evitar loops infinitos de consumo de API.
 
 ---
 
-### 2.3 Ferramentas de Referência e Práticas de Segurança
+### 2.2 Fase 1: Descoberta e Coleta de Contexto (Percepção)
+Antes de redigir qualquer instrução de código, o agente inspeciona o ambiente para ancorar seu raciocínio em dados concretos:
+1. **Identificação da Pilha Tecnológica:** Localização e leitura de manifestos de dependências (`pom.xml` para Java, `package.json` para TypeScript/Node, `pyproject.toml` para Python).
+2. **Localização Cirúrgica de Símbolos:** Utilização de ferramentas de busca rápida (como `grep` ou comandos de busca semântica) para encontrar declarações exatas de métodos, evitando a leitura indiscriminada de pastas inteiras (o que provocaria esgotamento prematuro da janela de contexto).
+3. **Mapeamento de Contratos e DDLs:** Identificação das interfaces, entidades e modelos já consolidados na base de código institucional.
 
-#### 2.3.1 Claude Code e Filosofia Unix-First
-O **Claude Code** (desenvolvido pela Anthropic) consolidou o padrão de agente CLI projetado especificamente para terminal:
-- Opera diretamente sobre a árvore git do repositório local;
-- Utiliza ferramentas integradas como `Bash`, `Glob`, `Grep`, `FileEdit` e `FileRead`;
-- Utiliza raciocínio avançado para compreender dependências em código legado e executar refatorações completas com comandos de terminal controlados.
+---
 
-#### 2.3.2 Antigravity CLI e Sistemas Multiagente
-O **Antigravity CLI** destaca-se pela orquestração hierárquica e gestão estruturada de artefatos:
-- **Separação de Papéis:** Capacidade de despachar tarefas especializadas para subagentes paralelos (ex.: um subagente focado em documentação, outro em testes unitários e outro em análise de segurança);
-- **Artefatos Estruturados:** Emissão de planos executáveis e relatórios consolidados que podem ser inspecionados visualmente pelo usuário antes ou durante a execução.
+### 2.3 Fase 2: Planejamento, Decomposição e Deliberação (Reasoning & Planning)
+Nesta fase, o modelo formula uma estratégia de execução transparente:
+- **Decomposição em Subtarefas Atômicas:** Em vez de tentar resolver um requisito complexo de uma só vez, o agente divide o problema em passos incrementais (ex.: 1. Criar migration no banco; 2. Implementar repositório; 3. Escrever regras de negócio no serviço; 4. Expor endpoint no controller; 5. Criar testes unitários).
+- **Antecipação de Efeitos Colaterais:** Análise prévia de como a alteração impactará módulos interdependentes.
+- **Mecanismo *Human-in-the-Loop* para Ambiguidade:** Caso o requisito de negócio contenha contradições ou indefinições, o agente pausa a execução e questiona o usuário de forma estruturada antes de tomar decisões arbitrárias.
 
-#### 2.3.3 Mecanismos de Segurança, Isolamento e Governança
-A autonomia de um agente para rodar comandos de terminal exige controles rigorosos de segurança da informação:
+---
+
+### 2.4 Fase 3: Execução de Ações no Ambiente (Action)
+O agente invoca as ferramentas disponibilizadas para alterar o estado do sistema:
+- **Edição Atômica de Arquivos:** Aplicação de modificações cirúrgicas por correspondência de texto exato (`replace_file_content`), evitando a reescrita desnecessária de arquivos extensos de milhares de linhas (o que geraria alto custo e risco de truncamento acidental de código pré-existente).
+- **Comandos de Terminal:** Compilação de código (`mvn compile`, `npm run build`), instalação de dependências e gerenciamento de processos em background.
+
+---
+
+### 2.5 Fase 4: Verificação Autônoma e o Loop de Autocorreção (Self-Healing)
+É a fase que separa definitivamente um gerador estático de código de um sistema agentivo autônomo:
 
 ```mermaid
 flowchart TD
-    CMD["Agente emite comando de shell: run_command()"] --> EVAL{"Classificação de Risco"}
-    EVAL -->|Baixo Risco: Leitura, compilação, testes| AUTO["Execução Automática em Sandbox"]
-    EVAL -->|Alto Risco: rm -rf, drop table, git push force, acesso externo| HITL["Bloqueio e Confirmação Humana (Human-in-the-Loop)"]
-    HITL -->|Usuário Autoriza| RUN["Executa e Registra em Log de Auditoria"]
-    HITL -->|Usuário Rejeita| CANCEL["Aborta Ação e Notifica o Agente"]
+    Exec["1. Execução de Testes Automatizados (pytest / mvn test / jest)"] --> Res{"Resultado da Execução"}
+    Res -->|Sucesso Total (Exit Code 0)| Term["Conclui Tarefa com Sucesso"]
+    Res -->|Falha ou Erro de Compilação (Exit Code != 0)| Cap["2. Captura do Stack Trace no stderr"]
+    Cap --> Diag["3. Diagnóstico e Formulação de Nova Hipótese"]
+    Diag --> Edit["4. Aplicação de Ajuste Cirúrgico no Código"]
+    Edit --> Exec
 ```
 
-> ⭐ **IMPORTANTE / REGRA DE OURO:**  
-> Princípio do **Privilégio Mínimo** para Agentes: Um agente de desenvolvimento NUNCA deve ser executado sob permissões de superusuário (`root` ou `Administrator`) em máquinas com acesso a ambientes de produção ou bancos de dados reais. Devem operar em containers isolados (*Docker/Podman*) ou ambientes de *sandbox*, com confirmação manual explícita (*Human-in-the-Loop*) para comandos destrutivos.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A FCC adora cobrar a distinção entre a autonomia do agente no ciclo de **Self-Healing** e a governança em **Comandos Críticos**:  
-> - No *Self-Healing*, o agente tem autonomia para **corrigir seu próprio código e reexecutar testes** em loop fechado sem pedir permissão a cada linha alterada.  
-> - Em ações com efeitos colaterais severos e irreversíveis (como deleção de arquivos fora do escopo, chamadas a endpoints desconhecidos de rede ou execução com credenciais elevadas), o sistema **deve obrigatoriamente exigir aprovação humana**. Não confunda autocorreção de código com autonomia irrestrita de sistema operacional!
+1. **Disparo de Verificadores:** O agente roda suítes automatizadas de testes unitários e de integração (`pytest`, `jest`, `mvn test`), bem como linters e analisadores estáticos.
+2. **Captura do Feedback do Ambiente:** O agente intercepta o código de retorno do processo (*exit code*) e os logs detalhados de erro emitidos no canal `stderr`.
+3. **Mecânica do *Self-Healing*:** Ao se deparar com uma falha (como um `NullPointerException` ou uma asserção de teste frustrada), o agente **não desiste nem repassa o problema ao usuário imediatamente**. Ele lê a linha exata apontada pelo stack trace, diagnostica a causa-raiz, elabora uma correção no código e dispara os testes novamente de forma totalmente autônoma.
 
 ---
 
-## 🌐 Fontes Recomendadas na Internet
-
-### 1. Pesquisas Seminais e Artigos de Arquitetura Agentiva
-- [ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al., ICLR 2023 - arXiv:2210.03629)](https://arxiv.org/abs/2210.03629): Artigo pioneiro que estabeleceu o ciclo ReAct (*Thought -> Action -> Observation*), base teórica de todos os agentes de engenharia de software modernos.
-- [LLM Powered Autonomous Agents (Lilian Weng - OpenAI Blog)](https://lilianweng.github.io/posts/2023-06-23-agent/): Guia de engenharia conceitual consagrado que disseca o Cérebro, Planejamento, Memória (curto/longo prazo) e Ferramentas.
-- [Building Effective Agents (Anthropic Research)](https://www.anthropic.com/research/building-effective-agents): Publicação seminal que analisa padrões arquiteturais agentivos: *Workflows*, *Orchestrator-Workers*, *Routing* e loops de avaliação contínua.
-
-### 2. Documentação Oficial de Ferramentas Agentivas
-- [Claude Code Official Documentation (Anthropic)](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview): Especificação completa do fluxo de trabalho em CLI, ferramentas padrão de terminal e políticas de aprovação de segurança para comandos shell.
-- [Aider: AI Pair Programming in Your Terminal](https://aider.chat/docs/): Documentação de uma das principais referências de código aberto em pair programming agentivo via terminal com commits atômicos automáticos em Git.
+### 2.6 Critérios de Parada (Stop Conditions) e Disjuntores (Circuit Breakers)
+Para evitar que o agente entre em ciclos infinitos de tentativa e erro que consumam excessivamente a cota de tokens e recursos de máquina, arquiteturas agentivas incorporam critérios rígidos de parada:
+- **Critério de Sucesso:** Aprovação integral de 100% dos testes e ausência de violações no linter.
+- **Disjuntor (*Circuit Breaker*):** Limite máximo parametrizado de iterações consecutivas sem progresso (tipicamente entre 3 e 5 iterações de *Self-Healing*). Ao atingir o limite, o disjuntor interrompe o loop, reverte alterações defeituosas via Git e convoca a intervenção do desenvolvedor humano com um relatório detalhado das falhas persistentes.
 
 ---
 
-## 📝 Questões Comentadas & Prática Padrão FCC
+## 3. Ferramentas de Referência e Governança de Segurança
+
+### 3.1 Claude Code e a Filosofia Unix-First de Terminal
+Desenvolvido pela Anthropic, o **Claude Code** tornou-se a referência contemporânea de assistente agentivo operado diretamente no terminal:
+- **Integração com Ferramental Nativo:** Opera sobre o repositório git local utilizando ferramentas integradas como `Bash`, `Glob`, `Grep`, `FileEdit` e `FileRead`.
+- **Raciocínio Contextual em Larga Escala:** Capacidade de analisar o grafo de arquivos do projeto para propor refatorações complexas mantendo compatibilidade com código legado.
+
+---
+
+### 3.2 Antigravity CLI e a Orquestração Hierárquica Multiagente
+O **Antigravity CLI** destaca-se pela sua arquitetura modular voltada para governança e execução de tarefas concorrentes:
+- **Delegação a Subagentes Especializados:** Capacidade de criar e despachar agentes filhos isolados (*subagents*) para atuar em tarefas complementares (ex.: um subagente encarregado de pesquisar documentações, outro focado em testes unitários e um terceiro dedicado à auditoria de vulnerabilidades de segurança).
+- **Emissão Estruturada de Artefatos:** Geração de relatórios, memoriais de cálculo e planos de execução em arquivos Markdown estruturados, facilitando a inspeção e conferência humana antes e durante a execução.
+
+---
+
+### 3.3 Segurança Cibernética, Privilégio Mínimo e Human-in-the-Loop
+A concessão de autonomia para que uma IA execute comandos de terminal exige controles de segurança e governança corporativa:
+
+```mermaid
+flowchart TD
+    CMD["Agente emite chamada de ferramenta: run_command()"] --> RISC{"Classificação de Risco da Ação"}
+    RISC -->|Baixo Risco: Leitura, compilação, testes locais| AUTO["Execução Automática em Ambiente Isolado (Sandbox)"]
+    RISC -->|Alto Risco: Deleção de arquivos, drop table, git push force, acesso externo| HITL["Bloqueio e Solicitação de Aprovação Humana (Human-in-the-Loop)"]
+    HITL -->|Desenvolvedor Aprova| RUN["Comando executado e gravado em log de auditoria"]
+    HITL -->|Desenvolvedor Rejeita| ABORT["Ação cancelada e agente notificado do veto"]
+```
+
+> 🚨 **ALERTA DE PROVA / FCC:**  
+> A banca explora com rigor a fronteira entre a autonomia do **Self-Healing** e o controle de **Comandos Críticos**:  
+> - No *Self-Healing*, o agente possui autonomia plena para **editar o código e reexecutar testes locais em loop fechado** sem requerer confirmação humana a cada linha alterada.  
+> - Em contrapartida, para ações potencialmente destrutivas ou com efeitos colaterais irreversíveis (ex.: exclusão de arquivos, comandos com privilégios de superusuário `sudo`, alterações de banco de dados ou operações forçadas de rede), o sistema **deve obrigatoriamente impor confirmação humana explícita (*Human-in-the-Loop*)**.
+> - **Princípio do Menor Privilégio (*Least Privilege*):** Agentes de desenvolvimento devem operar em ambientes isolados (*sandboxes* ou containers Docker/Podman) e nunca com privilégios de administrador/root da infraestrutura.
+
+---
+
+## 4. Fontes Recomendadas na Internet
+
+- [ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al., ICLR 2023)](https://arxiv.org/abs/2210.03629): Artigo pioneiro que estabeleceu o ciclo ReAct (*Thought -> Action -> Observation*), fundamento conceitual dos agentes modernos de codificação.
+- [LLM Powered Autonomous Agents (Lilian Weng - OpenAI)](https://lilianweng.github.io/posts/2023-06-23-agent/): Publicação de referência sobre a taxonomia estrutural de agentes: Cérebro, Planejamento, Memória e Ferramentas.
+- [Building Effective Agents (Anthropic Research)](https://www.anthropic.com/research/building-effective-agents): Análise detalhada dos padrões arquiteturais agentivos (Orquestrador-Trabalhadores, Avaliador-Otimizador e loops de feedback contínuo).
+- [Claude Code Overview & Official CLI Guide](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview): Documentação técnica sobre agentes em linha de comando, permissões de segurança e execução de comandos shell.
+
+---
+
+## 5. Questões Comentadas & Prática Padrão FCC
 
 ### Questão 1 (FCC - Adaptada / TI - Sistemas Agentivos e Ciclo ReAct)
 Diferente dos chatbots passivos baseados em LLMs tradicionais, os sistemas agentivos modernos de desenvolvimento de software (como agentes de codificação em terminal e IDEs inteligentes) operam com base em ciclos autônomos orientados a objetivos (*Goal-Driven Agents*).
 
-A respeito da dinâmica de funcionamento e das propriedades de um ciclo agentivo de desenvolvimento, assinale a afirmativa correta:
+A respeito da dinâmica de funcionamento e das propriedades de um ciclo agentivo de desenvolvimento, assinale a afirmativa correta:  
 A) O mecanismo de *Self-Healing* (autocorreção) exige que o desenvolvedor humano interrompa o agente a cada falha de compilação para reescrever manualmente os arquivos antes que o agente possa continuar.  
 B) No paradigma ReAct (*Reasoning + Acting*), o ciclo operacional do agente envolve os passos ordenados de pensamento/raciocínio (*Thought*), execução de uma ferramenta no ambiente (*Action*), coleta e assimilação do resultado obtido (*Observation*) e reavaliação (*Reflection*) até atingir o critério de parada.  
 C) Os agentes de software em linha de comando (CLI) são conceituados como modelos puramente estáticos que não possuem capacidade de invocar ferramentas do sistema operacional ou inspecionar o sistema de arquivos local.  
 D) O uso de memória de curto prazo em sistemas agentivos substitui a necessidade de manter janelas de contexto ativas, operando sem consumir tokens de inferência do modelo de linguagem.  
-E) Caso um teste unitário falhe durante a execução de uma tarefa de codificação pelo agente, o ciclo agentivo é imediatamente abortado por razões de conformidade, sendo proibido ao agente rodar suites de teste subsequentes.
+E) Caso um teste unitário falhe durante a execução de uma tarefa de codificação pelo agente, o ciclo agentivo é imediatamente abortado por razões de conformidade, sendo proibido ao agente rodar suites de teste subsequentes.  
 
-> **Gabarito: B**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** A propriedade definidora do **Self-Healing** é justamente a autonomia com que o agente intercepta o erro gerado pelo ambiente, elabora uma nova hipótese de solução e edita novamente o arquivo para nova verificação sem depender de intervenção humana em cada iteração intermediária.  
-> - **B está CORRETA:** O paradigma **ReAct** (Yao et al., 2023) sincroniza deliberadamente o raciocínio (*Thought*) e a ação externa (*Action*). Ao receber o retorno do ambiente (*Observation*), o agente reflete (*Reflection*) sobre o impacto daquela ação no progresso em direção ao objetivo final.  
-> - **C está INCORRETA:** Agentes de linha de comando (como Claude Code e similares) baseiam sua operação na invocação de ferramentas do SO: executam comandos de shell, leem e editam arquivos locais e consultam árvores de diretórios.  
-> - **D está INCORRETA:** A memória de curto prazo (histórico da sessão, planos e resultados de comandos) reside integralmente dentro da janela de contexto do LLM e consome tokens de entrada a cada nova iteração do ciclo.  
-> - **E está INCORRETA:** A falha de um teste unitário é exatamente o sinal de retroalimentação que deflagra o loop de *Self-Healing*, permitindo ao agente diagnosticar o erro e ajustar o código para que o teste passe.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O propósito primordial do mecanismo de *Self-Healing* é viabilizar a autonomia do agente para diagnosticar falhas de compilação ou testes e aplicar correções no código sem requerer intervenção humana em cada ciclo intermediário.
+> - **B)** **CORRETA.** O paradigma **ReAct** (Yao et al., 2023) estabelece a sincronização de quatro etapas essenciais: o raciocínio preliminar (*Thought*), a emissão de chamada de ferramenta no ambiente (*Action*), a recepção do feedback do sistema (*Observation*) e a reflexão avaliativa (*Reflection*) para direcionar o próximo passo até a meta.
+> - **C)** Incorreta. Agentes CLI interagem diretamente com o sistema operacional por meio de comandos shell, manipulando arquivos e diretórios locais.
+> - **D)** Incorreta. A memória de curto prazo de um agente reside precisamente na janela de contexto ativa e consome tokens de entrada a cada iteração do ciclo.
+> - **E)** Incorreta. A falha de um teste unitário é exatamente o estímulo de retroalimentação que deflagra o loop de *Self-Healing*, permitindo que o agente ajuste o código para fazer o teste passar.
+> 
+> **Gabarito: B**
 
 ---
 
 ### Questão 2 (FCC - Adaptada / TI - Governança e Segurança em Agentes Autônomos)
 Ao adotar ferramentas de engenharia de software assistidas por IA com execução de comandos no terminal (CLI) e no sistema de arquivos, uma organização pública de controle externo deve mitigar riscos cibernéticos decorrentes de ações potencialmente destrutivas ou não autorizadas no ambiente de infraestrutura.
 
-Para equilibrar produtividade e governança corporativa na operação desses agentes autônomos, a melhor prática arquitetural consiste em:
+Para equilibrar produtividade e governança corporativa na operação desses agentes autônomos, a melhor prática arquitetural consiste em:  
 A) Conceder ao processo do agente privilégios de superusuário (*root* ou *Administrator*) com bypass irrestrito de confirmação para todas as chamadas de sistema, a fim de garantir autonomia total.  
 B) Impedir qualquer leitura de arquivos do repositório pelo agente, restringindo sua atuação exclusivamente à emissão de trechos de código em formato texto no chat da interface gráfica.  
 C) Implementar políticas de isolamento em ambiente de desenvolvimento controlado (*sandboxing* / containers) e mecanismos de aprovação humana (*Human-in-the-Loop*) para comandos de alto impacto ou potencialmente destrutivos (como remoção recursiva de diretórios, formatação de volumes ou operações com dados produtivos).  
 D) Desativar a coleta de logs e telemetria das ações tomadas pelo agente, pois registros de comandos executados no shell expõem os pesos internos do modelo de linguagem.  
-E) Bloquear a integração do agente com o sistema de controle de versão (Git), evitando que o histórico registre commits assistidos por ferramentas autônomas.
+E) Bloquear a integração do agente com o sistema de controle de versão (Git), evitando que o histórico registre commits assistidos por ferramentas autônomas.  
 
-> **Gabarito: C**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** Conceder acesso `root` sem confirmação viola o princípio do privilégio mínimo e expõe a infraestrutura a desastres irreparáveis, seja por alucinação na emissão de comandos de terminal, seja por ataques de injeção de prompt indireta.  
-> - **B está INCORRETA:** Proibir a leitura de arquivos impede o agente de compreender o contexto do repositório, rebaixando a ferramenta a um chatbot ineficaz e incapaz de gerar código contextualizado.  
-> - **C está CORRETA:** A governança moderna de sistemas agentivos preconiza a execução em caixas de areia seguras (*sandboxes* ou containers efêmeros) e a imposição estrita de *Human-in-the-Loop* (solicitação explícita de confirmação ao operador humano) sempre que a ferramenta tentar executar comandos potencialmente perigosos ou irreversíveis.  
-> - **D está INCORRETA:** A auditoria minuciosa de comandos e logs de execução é essencial para conformidade, segurança da informação e rastreabilidade em órgãos públicos. Comandos no shell não expõem pesos internos do modelo.  
-> - **E está INCORRETA:** A integração com o Git é altamente desejada para permitir *diffs* visíveis, revisão por pares (*code review*) e reversão (*rollback*) rápida caso uma alteração do agente seja inadequada.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Conceder permissões de superusuário irrestritas viola o princípio do privilégio mínimo e expõe o ambiente a catástrofes decorrentes de alucinações ou comandos indevidos.
+> - **B)** Incorreta. Proibir a leitura de arquivos descaracteriza a arquitetura agentiva, rebaixando a ferramenta a um chatbot desconectado do repositório de código.
+> - **C)** **CORRETA.** A governança em sistemas agentivos estabelece a execução em caixas de areia seguras (*sandboxes* ou containers) combinada com a imposição obrigatória de **Human-in-the-Loop** (aprovação explícita do operador humano) para comandos de alto risco ou ações com potencial destrutivo irreversível.
+> - **D)** Incorreta. A coleta de logs de auditoria é mandatória para conformidade e rastreabilidade em órgãos públicos, e comandos de shell não revelam os pesos do modelo.
+> - **E)** Incorreta. A integração com o Git é essencial para garantir rastreabilidade, auditoria e facilidade de reversão (*rollback*) de alterações.
+> 
+> **Gabarito: C**
 
 ---
 
 ### Questão 3 (FCC - Padrão Concursos TI / Mecânica do Self-Healing Loop)
 Em um fluxo de integração contínua (CI), um agente autônomo foi configurado para resolver chamados de correção de defeitos em microsserviços legados em Java. Durante o processamento de um chamado, o agente realizou a modificação do arquivo `CalculadoraAliquotaService.java`, mas o comando de compilação disparado pelo próprio agente retornou o erro: `error: cannot find symbol: class BigDecimalUtils`.
 
-Diante dessa situação em um ciclo agentivo dotado de *Self-Healing*, a ação esperada do agente é:
+Diante dessa situação em um ciclo agentivo dotado de *Self-Healing*, a ação esperada do agente é:  
 A) Encerrar a execução imediatamente e desinstalar o JDK da máquina hospedeira para prevenir danos sistêmicos.  
 B) Capturar a mensagem de erro da saída do compilador (`stderr`), interpretar que a dependência ou classe auxiliar não foi importada ou não existe, buscar referências similares no repositório, realizar o ajuste atômico do código e reexecutar o comando de compilação.  
 C) Ignorar a mensagem de erro e realizar o merge forçado da alteração no branch principal do repositório de produção.  
 D) Reescrever todo o sistema operacional da máquina servidora em linguagem Rust para contornar o erro de compilação do Java.  
-E) Solicitar que o usuário humano reescreva todo o método do zero, pois agentes são formalmente incapazes de ler mensagens de erro de compiladores.
+E) Solicitar que o usuário humano reescreva todo o método do zero, pois agentes são formalmente incapazes de ler mensagens de erro de compiladores.  
 
-> **Gabarito: B**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** A falha de compilação é um evento rotineiro no desenvolvimento de software; abortar e desinstalar o compilador representaria uma falha arquitetural grotesca.  
-> - **B está CORRETA:** O ciclo de *Self-Healing* consiste exatamente nesta cadeia: a percepção do erro no `stderr` (símbolo não encontrado), a formulação de um plano de reparo (localizar o import correto ou implementar a utilidade faltante), a aplicação da alteração no arquivo e o reteste automático.  
-> - **C está INCORRETA:** Fazer merge de código com falha de compilação em produção viola todos os princípios de qualidade de software e quebra o pipeline de CI/CD.  
-> - **D está INCORRETA:** Ação desproporcional, fictícia e completamente descabida.  
-> - **E está INCORRETA:** A interpretação de stack traces e saídas de compilador é uma das capacidades mais maduras e comprovadas dos LLMs em sistemas agentivos.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Erros de compilação são ocorrências ordinárias; desinstalar ferramentas de desenvolvimento é uma ação absurda.
+> - **B)** **CORRETA.** A dinâmica do **Self-Healing** apoia-se precisamente nessa sequência: captura da saída de erro (`stderr`), diagnóstico da ausência de importação ou símbolo, localização da referência correta no projeto, aplicação da correção no arquivo e nova compilação automatizada.
+> - **C)** Incorreta. Fazer merge de código com erro de compilação viola preceitos básicos de integração contínua e quebra o sistema.
+> - **D)** Incorreta. Proposição inverossímil e sem sentido técnico.
+> - **E)** Incorreta. A leitura e interpretação de stack traces de compiladores constitui uma das competências centrais dos modelos em sistemas agentivos.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -283,37 +326,44 @@ Analise as afirmativas abaixo a respeito das diferenças operacionais e arquitet
 
 I. Agentes em CLI (como Claude Code ou Aider) possuem integração direta com o ambiente de terminal do sistema operacional, permitindo encadear ferramentas nativas de busca textual (como `grep`), comandos de compilação e automação de scripts bash sem a necessidade de uma interface gráfica ativa.  
 II. Assistentes nativos em IDE dependem exclusivamente de protocolos de completamento sintático local e são tecnicamente impedidos de utilizar modelos de linguagem em nuvem.  
-III. O uso de agentes em CLI é especialmente vantajoso em ambientes de servidores remotos (acessados via SSH) e pipelines automatizados de esteiras DevOps, onde interfaces gráficas pesadas de IDEs não estão disponíveis.
+III. O uso de agentes em CLI é especialmente vantajoso em ambientes de servidores remotos (acessados via SSH) e pipelines automatizados de esteiras DevOps, onde interfaces gráficas pesadas de IDEs não estão disponíveis.  
 
-Está correto o que se afirma em:
+Está correto o que se afirma em:  
 A) I e II, apenas.  
 B) I e III, apenas.  
 C) II e III, apenas.  
 D) I, apenas.  
-E) I, II e III.
+E) I, II e III.  
 
-> **Gabarito: B**  
-> **Comentário Analítico Passo a Passo:**  
-> - **Item I (Correto):** Agentes de terminal operam nativamente sobre o shell, tirando proveito de utilitários UNIX/Windows e comandos git para manipular o projeto com agilidade.  
-> - **Item II (Incorreto):** As IDEs agentivas (como Cursor, Windsurf e extensões de VS Code) utilizam intensamente modelos de ponta hospedados em nuvem (ou modelos locais avançados), comunicando-se via APIs REST e websockets.  
-> - **Item III (Correto):** Em servidores de teste, instâncias em nuvem sem ambiente desktop gráfico (*headless*) e nós de execução em esteiras CI/CD, as ferramentas CLI são ideais por não dependerem de servidores gráficos ou janelas de IDE.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O item II está incorreto porque IDEs agentivas utilizam amplamente modelos em nuvem.
+> - **B)** **CORRETA.** Análise detalhada dos itens:
+>   - **Item I (Correto):** Agentes CLI operam nativamente sobre o shell, alavancando utilitários UNIX e comandos de sistema sem demandar interface gráfica.
+>   - **Item II (Incorreto):** IDEs agentivas (como Cursor e extensões de VS Code) utilizam intensamente modelos de última geração hospedados em nuvem via requisições de API.
+>   - **Item III (Correto):** Em servidores de teste remotos via SSH e runners de esteiras de CI/CD sem ambiente gráfico (*headless*), agentes CLI são a solução ideal devido à leveza operacional.
+> - **C)** Incorreta. O item II é falso.
+> - **D)** Incorreta. O item III também está plenamente correto.
+> - **E)** Incorreta. O item II é falso.
+> 
+> **Gabarito: B**
 
 ---
 
 ### Questão 5 (FCC - Padrão Concursos TI / Critérios de Parada e Circuit Breakers em Agentes)
 Em arquiteturas de agentes de software autônomos, o conceito de Critério de Parada (*Stop Condition*) ou Disjuntor (*Circuit Breaker*) é essencial para garantir a estabilidade e a viabilidade econômica do sistema.
 
-A função primária desse mecanismo é:
+A função primária desse mecanismo é:  
 A) Impedir que o agente consuma energia elétrica nas placas de vídeo durante a noite.  
 B) Evitar que o agente entre em loops infinitos de autocorreção não convergente, interrompendo a execução caso o número máximo de iterações configurado seja atingido sem que os testes passem.  
 C) Bloquear o acesso do desenvolvedor humano aos logs de execução após o término da primeira iteração.  
 D) Assegurar que nenhum código seja compilado caso o sistema identifique mais de três variáveis locais no método.  
-E) Desconectar a máquina da rede local toda vez que uma requisição de ferramenta for concluída com êxito.
+E) Desconectar a máquina da rede local toda vez que uma requisição de ferramenta for concluída com êxito.  
 
-> **Gabarito: B**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** Circuit breakers em agentes são controles de lógica de software e governança de processos, não sistemas de gestão de energia predial.  
-> - **B está CORRETA:** Se um agente tentar consertar um bug de forma cíclica e falhar repetidamente (ex.: alterando A que quebra B, e ao consertar B quebra A novamente), o *Circuit Breaker* (critério de parada por esgotamento de iterações ou cota de tokens) encerra o loop, emite o relatório dos erros persistentes e convoca a intervenção do desenvolvedor humano.  
-> - **C está INCORRETA:** Os logs devem ser preservados para análise humana, especialmente em casos de falha.  
-> - **D está INCORRETA:** O número de variáveis locais não é critério de interrupção arquitetural de agentes.  
-> - **E está INCORRETA:** Desconectar a rede após ações bem-sucedidas inviabilizaria a operação normal do sistema.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Disjuntores em sistemas de software controlam fluxo de execução e consumo de cotas de computação lógica, não energia elétrica predial.
+> - **B)** **CORRETA.** Caso o agente caia em um ciclo de autocorreção não convergente (onde a correção de um erro desencadeia um novo erro ciclicamente), o **Circuit Breaker** (critério de parada por esgotamento de tentativas) interrompe a execução, preserva o repositório e notifica o desenvolvedor humano, prevenindo custos descontrolados de API e congelamento de recursos.
+> - **C)** Incorreta. Os logs devem ser preservados para viabilizar auditoria e depuração pelo desenvolvedor humano.
+> - **D)** Incorreta. A quantidade de variáveis locais não é critério arquitetural de interrupção de agentes.
+> - **E)** Incorreta. Desconectar a rede após ações bem-sucedidas impediria o funcionamento contínuo do sistema.
+> 
+> **Gabarito: B**

@@ -19,44 +19,54 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-2. Fonética, Ortografia, Vocabulário e Formação de Palavras
-├── 2.1 Acentuação Gráfica e Novo Acordo Ortográfico
-│   ├── 2.1.1 Posição da Sílaba Tônica: Oxítonas, Paroxítonas e Proparoxítonas
-│   ├── 2.1.2 Regra das Proparoxítonas: Todas acentuadas (proparoxítonas reais e aparentes/eventuais)
-│   ├── 2.1.3 Regra das Paroxítonas: Terminações em R, X, N, L, I/IS, US, UM/UNS, PS, Ã/ÃS, ÃOS e Ditongos orais
-│   ├── 2.1.4 Regra das Oxítonas: Terminações em A(s), E(s), O(s), EM e ENS
-│   ├── 2.1.5 Monossílabos Tônicos: Terminações em A(s), E(s) e O(s)
-│   ├── 2.1.6 Ditongos Abertos (ÉI, ÓI, ÉU):
-│   │   ├── Mantêm acento em oxítonas e monossílabos (herói, troféu, pastéis, réu)
-│   │   └── Perderam acento em paroxítonas (ideia, jiboia, heroico, plateia)
-│   ├── 2.1.7 Regra do Hiato: I e U tônicos sozinhos ou com S (saúde, saída vs. rainha, feiura)
-│   └── 2.1.8 Acento Diferencial Obrigatório: pôde/pode, pôr/por, têm/tem, vêm/vem (e compostos mantêm/mantém)
-├── 2.2 Emprego do Hífen com Prefixos
-│   ├── 2.2.1 Regra dos Opostos: Letras iguais se separam com hífen; letras diferentes se unem
-│   ├── 2.2.2 Letras R e S no segundo elemento: Unem-se e duplicam a consoante (antirreflexo, minissaia)
-│   ├── 2.2.3 Letra H no segundo elemento: Sempre com hífen (anti-higiênico, super-homem)
-│   └── 2.2.4 Prefixos Especiais: ex-, vice-, sem-, recém-, além-, aquém- (sempre com hífen); co- e re- (aglutinam sempre)
-├── 2.3 Semântica Vocabular: Homônimos, Parônimos e Relações Lexicais
-│   ├── 2.3.1 Parônimos Clássicos: eminente/iminente, flagrante/fragrante, mandado/mandato, retificar/ratificar
-│   ├── 2.3.2 Homônimos Homófonos: cessão/sessão/seção, censo/senso, acento/assento, concerto/conserto
-│   └── 2.3.3 Hiperonímia (conceito geral/englobante) vs. Hiponímia (conceito específico/englobado)
-└── 2.4 Morfologia e Processos de Formação de Palavras
-    ├── 2.4.1 Elementos Mórmicos: Radical, afixos, desinências e vogais/consoantes de ligação
-    ├── 2.4.2 Derivação Prefixal, Sufixal e Prefixal-Sufixal (acréscimos independentes)
-    ├── 2.4.3 Derivação Parassintética: Acréscimo simultâneo e obrigatório (esfriar, anoitecer, enlouquecer)
-    ├── 2.4.4 Derivação Regressiva (Deverbal): Substantivos abstratos que indicam ação (combate, resgate, debate)
-    ├── 2.4.5 Derivação Imprópria (Conversão): Mudança de classe gramatical sem alteração de forma
-    └── 2.4.6 Composição por Justaposição (sem perda fonética) vs. Aglutinação (com fusão e perda fonética)
-```
+## 🧭 Sumário
+- [1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico](#1-sistema-geral-de-acentuação-gráfica-e-acordo-ortográfico)
+  - [1.1 Posição da Sílaba Tônica e Tonicidade Vocálica](#11-posição-da-sílaba-tônica-e-tonicidade-vocálica)
+  - [1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC](#12-regra-das-proparoxítonas-e-proparoxítonas-eventuais-na-fcc)
+  - [1.3 Regra das Paroxítonas e Ditongos Orais](#13-regra-das-paroxítonas-e-ditongos-orais)
+  - [1.4 Regra das Oxítonas e Monossílabos Tônicos](#14-regra-das-oxítonas-e-monossílabos-tônicos)
+- [2. Regras Especiais de Acentuação](#2-regras-especiais-de-acentuação)
+  - [2.1 Regra dos Hiatos Tônicos (I e U)](#21-regra-dos-hiatos-tônicos-i-e-u)
+  - [2.2 Ditongos Abertos (ÉI, ÓI, ÉU) e o Novo Acordo](#22-ditongos-abertos-éi-ói-éu-e-o-novo-acordo)
+  - [2.3 Formas Verbais com Pronomes Enclíticos](#23-formas-verbais-com-pronomes-enclíticos)
+  - [2.4 Acento Diferencial Obrigatório e Facultativo](#24-acento-diferencial-obrigatório-e-facultativo)
+- [3. Emprego do Hífen com Prefixos e Elementos de Composição](#3-emprego-do-hífen-com-prefixos-e-elementos-de-composição)
+  - [3.1 Regra Geral dos Opostos e Casos com Consoante H](#31-regra-geral-dos-opostos-e-casos-com-consoante-h)
+  - [3.2 Duplicação das Consoantes R e S](#32-duplicação-das-consoantes-r-e-s)
+  - [3.3 Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada](#33-prefixos-especiais-acentuados-e-casos-de-aglutinação-forçada)
+  - [3.4 Hífen em Compostos por Justaposição e Expressões Consagradas](#34-hífen-em-compostos-por-justaposição-e-expressões-consagradas)
+- [4. Semântica Lexical: Relações de Sentido e Vocabulário](#4-semântica-lexical-relações-de-sentido-e-vocabulário)
+  - [4.1 Sinonímia e Antonímia](#41-sinonímia-e-antonímia)
+  - [4.2 Hiperonímia e Hiponímia](#42-hiperonímia-e-hiponímia)
+  - [4.3 Polissemia e Homonímia](#43-polissemia-e-homonímia)
+  - [4.4 Parônimos e Homófonos de Alta Incidência em Concursos](#44-parônimos-e-homófonos-de-alta-incidência-em-concursos)
+- [5. Morfologia: Elementos Estruturais da Palavra](#5-morfologia-elementos-estruturais-da-palavra)
+  - [5.1 Radical, Alomorfia e Vogal Temática](#51-radical-alomorfia-e-vogal-temática)
+  - [5.2 Tema e Afixos Formadores (Prefixos e Sufixos)](#52-tema-e-afixos-formadores-prefixos-e-sufixos)
+  - [5.3 Desinências Nominais e Desinências Verbais](#53-desinências-nominais-e-desinências-verbais)
+  - [5.4 Vogais e Consoantes de Ligação](#54-vogais-e-consoantes-de-ligação)
+- [6. Processos de Formação de Palavras](#6-processos-de-formação-de-palavras)
+  - [6.1 Derivação Prefixal, Sufixal e Prefixal-Sufixal](#61-derivação-prefixal-sufixal-e-prefixal-sufixal)
+  - [6.2 Derivação Parassintética](#62-derivação-parassintética)
+  - [6.3 Derivação Regressiva ou Deverbal](#63-derivação-regressiva-ou-deverbal)
+  - [6.4 Derivação Imprópria ou Conversão](#64-derivação-imprópria-ou-conversão)
+  - [6.5 Composição: Justaposição e Aglutinação](#65-composição-justaposição-e-aglutinação)
+  - [6.6 Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo](#66-outros-processos-hibridismo-siglonimização-abreviação-e-neologismo)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
+- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
+  - [Questão 01](#questão-01)
+  - [Questão 02](#questão-02)
+  - [Questão 03](#questão-03)
+  - [Questão 04](#questão-04)
+  - [Questão 05](#questão-05)
 
 ---
 
-## 📖 Resumo Teórico & Pontos-Chave
+## 1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico
 
-### 1. Sistema Geral de Acentuação Gráfica
+A acentuação gráfica na língua portuguesa tem por objetivo assinalar, na escrita, a sílaba de maior intensidade fonética (sílaba tônica) de determinadas palavras e, em situações específicas, indicar o timbre aberto ou fechado da vogal. O sistema gráfico oficial brasileiro é regido pelo Acordo Ortográfico da Língua Portuguesa de 1990, promulgado no território nacional pelo Decreto nº 6.583/2008 e tornado obrigatório a partir de 1º de janeiro de 2016.
+
+A estrutura acentual do idioma apoia-se em um princípio de economia: a grande maioria dos vocábulos da língua portuguesa é paroxítona terminada nas vogais mais comuns (*-a*, *-e*, *-o* seguidas ou não de *-s*). Por essa razão estatística, tais vocábulos não recebem acento gráfico (como em *mesa*, *parede*, *livro*). O acento é reservado àquelas palavras cuja terminação ou estrutura silábica contraria o padrão fonológico predominante.
 
 ```mermaid
 flowchart TD
@@ -71,31 +81,124 @@ flowchart TD
     Posicao -->|Última| Oxit["OXÍTONA<br/>Acentuam-se as terminadas em:<br/>A(s), E(s), O(s), EM, ENS<br/>(pará, café, cipó, também, parabéns)"]
 ```
 
-#### 1.1 O Caso Especial das Paroxítonas Terminadas em Ditongo Crescente (FCC):
-* Palavras como *se-cre-tá-ria*, *re-la-tó-rio*, *his-tó-ria*, *cél-cia* possuem dupla classificação admitida pela gramática normativa:
-  1. **Corrente Tradicional:** São paroxítonas terminadas em ditongo oral crescente.
-  2. **Corrente Fonológica (Proparoxítonas Aparentes / Eventuais):** Podem sofrer divisão silábica estendida (*re-la-tó-ri-o*), comportando-se como proparoxítonas.
-* **Comportamento da FCC em prova:** A FCC aceita as duas justificativas! Porém, a banca formula a maioria dos seus gabaritos agrupando essas palavras na regra das **paroxítonas terminadas em ditongo oral crescente**.
+### 1.1 Posição da Sílaba Tônica e Tonicidade Vocálica
 
-#### 1.2 Regra Especial dos Hiatos e Ditongos Abertos:
-* **Hiatos (I e U tônicos):** Acentuam-se a segunda vogal do hiato quando for **I** ou **U** tônico, sozinho na sílaba ou com **S**, desde que:
-  * Não seja seguido por **NH** na sílaba seguinte (*ra-i-nha*, *mo-i-nho* não levam acento);
-  * Não seja precedido de ditongo decrescente em palavras paroxítonas (*fei-u-ra*, *chei-i-nho*, *ba-i-u-ca* perderam o acento; mas se for oxítona mantém: *Pi-au-í*).
-* **Ditongos Abertos (ÉI, ÓI, ÉU):**
-  * **Oxítonas e Monossílabos:** MANTÊM o acento gráfico (*herói*, *pastéis*, *chapéu*, *céu*, *dói*);
-  * **Paroxítonas:** PERDERAM o acento com o Novo Acordo (*ideia*, *jiboia*, *heroico*, *boia*, *plateia*, *coreia*).
+A correta identificação da sílaba tônica depende do reconhecimento da divisão silábica e da intensidade com que cada vogal é articulada:
+1. **Oxítonas (ou oxítonos):** a sílaba tônica recai na última sílaba do vocábulo (*ca-fée*, *ca-ná-rio* não, mas *ru-bim*, *pa-pel*, *a-raz*).
+2. **Paroxítonas (ou paroxítonos):** a tonicidade incide na penúltima sílaba (*ca-der-no*, *re-lór-gio*, *es-co-la*). Representam mais de 70% do léxico em português.
+3. **Proparoxítonas (ou proparoxítonos):** a sílaba tônica situa-se na antepenúltima posição (*lâmp-a-da*, *ár-vo-re*, *vér-ti-ce*). Na língua portuguesa, nenhuma palavra de padrão vernáculo recebe tonicidade anterior à antepenúltima sílaba.
 
-#### 1.3 Acento Diferencial Obrigatório:
-* **Pôde** (pretérito perfeito do indicativo) $\neq$ **Pode** (presente do indicativo);
-* **Pôr** (verbo) $\neq$ **Por** (preposição essencial);
-* **Têm / Vêm** (3ª pessoa do plural) $\neq$ **Tem / Vem** (3ª pessoa do singular);
-* **Compostos de Ter e Vir (Manter, Conter, Intervir):**
-  * Singular com agudo: *ele mantém*, *ele intervém*;
-  * Plural com circunflexo: *eles mantêm*, *eles intervêm*.
+> 📌 **NOTA EXPLICATIVA / SÍLABA SUBTÔNICA:** As palavras derivadas por sufixação (como *cafezinho*, *rapidamente*) desenvolvem uma sílaba de intensidade secundária, chamada de subtônica, que coincide historicamente com a sílaba tônica do termo primitivo. Essa sílaba subtônica jamais recebe acento gráfico agudo ou circunflexo, perdendo qualquer acento original que a base continha (*café* $\rightarrow$ *cafezinho*; *fácil* $\rightarrow$ *facilmente*).
+
+### 1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC
+
+A regra basilar do idioma determina que **todas as palavras proparoxítonas reais são acentuadas graficamente**, sem exceção, sejam elas de origem vernácula ou vocábulos latinos e estrangeiros aportuguesados que se integraram ao léxico (*médico*, *álvoroço*, *espírito*, *déficit*, *superávit*, *habitat*).
+
+Existe, contudo, uma divergência clássica na doutrina gramatical a respeito das palavras paroxítonas terminadas em ditongo oral crescente (vogal precedida de semivogal: *-ia*, *-ie*, *-io*, *-ua*, *-uo*), tais como *se-cre-tá-ria*, *re-la-tó-rio*, *his-tó-ria*, *sê-rie*, *má-goa*, *espécie*, *tênue*:
+1. **Visão Tradicional (Paroxítonas Terminadas em Ditongo):** Autores como Evanildo Bechara e a ABL registram primordialmente que tais vocábulos são paroxítonos, pois na linguagem fluida a semivogal e a vogal final formam uma única sílaba (*re-la-tó-rio*).
+2. **Visão Fonológica / Ortográfica Ampla (Proparoxítonas Aparentes, Relativas ou Eventuais):** Autores como Celso Cunha e Lindley Cintra explicam que, em pronúncia enfática, poética ou distendida, o ditongo crescente final pode se bipartir em hiato (*re-la-tó-ri-o*), deslocando a tonicidade para a antepenúltima sílaba e conferindo-lhes natureza proparoxítona aparente.
+
+> 🚨 **ALERTA DE PROVA / COMO A FCC COBRA:** Em questões de justificativa de acentuação, a Fundação Carlos Chagas com frequência agrupa termos como *relatório*, *secretária*, *renúncia* e *prévio* sob a regra das **paroxítonas terminadas em ditongo oral crescente**. Caso o enunciado traga a expressão "proparoxítonas eventuais ou aparentes", a justificativa é igualmente válida. O ponto inegociável para a FCC é que palavras como *relatório* e *renúncia* pertencem à **mesma regra**, ao passo que confrontadas com *médico* (proparoxítona real pura) ou *saúde* (regra do hiato) configuram regras distintas.
+
+### 1.3 Regra das Paroxítonas e Ditongos Orais
+
+Acentuam-se graficamente as palavras paroxítonas cuja terminação fuja ao padrão de natural atonicidade. Memoriza-se esse rol por meio de terminações específicas:
+* **R:** *revólver, açúcar, caráter, cadáver, éter*;
+* **X:** *tórax, córtex, látex, fênix, clímax*;
+* **N:** *pólen, hífen, cânon, elétron* (Atenção: o plural dessas palavras perde o acento, pois termina em *-ens*: *polens, hifens, canons, eletrons* — ver alerta abaixo);
+* **L:** *fácil, amável, fóssil, réptil, imprescindível, túnel*;
+* **I / IS:** *táxi, júri, beribéri, lápis, grátis, oásis*;
+* **US:** *vírus, bônus, ônus, húmus, Vênus*;
+* **UM / UNS:** *álbum, álbuns, fórum, fóruns, médium, médiuns*;
+* **PS:** *bíceps, tríceps, fórceps*;
+* **Ã / ÃS:** *ímã, ímãs, órfã, órfãs*;
+* **ÃO / ÃOS:** *órgão, órgãos, bênção, bênçãos, sótão, sótãos*;
+* **ON / ONS:** *próton, prótons, nêutron, nêutrons, íon, íons*;
+* **Ditongos Orais (crescentes ou decrescentes, seguidos ou não de S):** *relatório, renúncia, perspicácia, vácuo, colégio, água, pônei, fósseis, fáceis*.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA DO PLURAL DE HÍFEN:** A palavra *hífen* é acentuada por ser paroxítona terminada em -N. Contudo, em seu plural vernáculo, *hifens*, o acento gráfico **desaparece**, pois passa a recair na terminação *-ens*, análoga a *homens, nuvens, jovens*, que são paroxítonas não acentuadas. Caso se utilize o plural erudito *hífenes*, a palavra passa a ser proparoxítona e recebe acento obrigatoriamente.
+
+### 1.4 Regra das Oxítonas e Monossílabos Tônicos
+
+Acentuam-se as oxítonas que apresentam terminações bem definidas, contrapondo-se às paroxítonas:
+* Terminadas em **A(s):** *Pará, maracujá, sofás, vatapá*;
+* Terminadas em **E(s):** *você, café, pontapés, jacaré*;
+* Terminadas em **O(s):** *cipó, avô, avó, jiló, compôs*;
+* Terminadas em **EM / ENS (com duas ou mais sílabas):** *também, porém, vintém, armazém, parabéns, retém*.
+
+Oxítonas terminadas em *-i* ou *-u* (como *rubi, saci, urubu, caju*) não levam acento gráfico geral, salvo se incidirem na regra específica dos hiatos (*Piauí, baú*).
+
+Já os **Monossílabos Tônicos** constituem regra autônoma em relação às oxítonas. Enquanto as oxítonas possuem duas ou mais sílabas, os monossílabos contêm apenas uma sílaba forte proferida com autonomia fonética e semântica. Acentuam-se os monossílabos tônicos terminados em:
+* **A(s):** *pá, pás, má, más, já, lá*;
+* **E(s):** *pé, pés, fé, mês, três, lê*;
+* **O(s):** *pó, nós, vós, cós, dó, sós*.
+
+Monossílabos tônicos terminados em *-i* ou *-u* (*ti, vi, tu, cru, nus*) não são acentuados, exceto quando formam ditongos abertos tônicos (*dói, céu, réu*).
+
+> ⭐ **IMPORTANTE / MONOSSÍLABO TÔNICO VS. OXÍTONA:** Jamais justifique o acento de *pá* ou *mês* pela "regra das oxítonas". Para as bancas examinadoras, notadamente a FCC, a regra dos monossílabos tônicos é estruturalmente distinta da regra das oxítonas polissilábicas (*maracujá* e *pé* não compartilham a mesma regra).
 
 ---
 
-### 2. Guia Prático do Emprego do Hífen (Novo Acordo)
+## 2. Regras Especiais de Acentuação
+
+Além das regras gerais dependentes unicamente da terminação e da contagem silábica, o português adota regras que consideram a qualidade do encontro vocálico e a necessidade de desambiguação morfológica.
+
+### 2.1 Regra dos Hiatos Tônicos (I e U)
+
+Acentuam-se a segunda vogal de um hiato quando for **I** ou **U** tônico, sozinho na sílaba ou acompanhado apenas da letra **S**:
+* Exemplos com vogal sozinha: *sa-ú-de, sa-í-da, ba-ú, pre-ju-í-zo, fa-ís-ca, ju-í-zes, ci-ú-me*;
+* Exemplos acompanhados de S: *pa-ís, fa-ís-cas, ba-la-ús-tre, e-go-ís-mo*.
+
+A regra do hiato possui duas restrições determinantes:
+1. **Seguidos de NH:** Se a letra *i* ou *u* tônico for seguida pelo dígrafo *nh* na sílaba subsequente, **não** recebe acento gráfico: *ra-i-nha, ta-i-nha, la-i-nha, mo-i-nho*. A nasalidade exercida pelo dígrafo foneticamente já fecha a vogal anterior, tornando o acento desnecessário.
+2. **Precedidos de Ditongo Decrescente em Palavras Paroxítonas (Regra do Novo Acordo):** Se a vogal tônica *i* ou *u* vier antecedida de ditongo em uma palavra paroxítona, ela **perdeu o acento gráfico**: *fei-u-ra, bo-i-u-no, chei-i-nho, ba-i-u-ca*. Contudo, caso a palavra seja **oxítona**, o acento permanece obrigatório: *Pi-au-í, tui-ui-ú*.
+3. **Vogais dobradas:** As formas paroxítonas com vogais idênticas dobradas perderam o acento circunflexo pelo Acordo Ortográfico (*voo, perdoo, abençoo, leem, deem, veem, creem*).
+
+> 🚨 **ALERTA DE PROVA / HIATOS ACOMPANHADOS DE OUTRAS CONSOANTES:** Se a vogal *i* ou *u* formar sílaba com qualquer consoante que não seja o *s*, o acento não é aplicado, pois a consoante trava a sílaba e marca a tonicidade por si mesma: *ju-iz* (sem acento, termina em Z) vs. *ju-í-zes* (com acento, I sozinho na sílaba); *ru-im* (sem acento, termina em M); *a-in-da* (sem acento, o I forma sílaba com N: *a-in-da*).
+
+### 2.2 Ditongos Abertos (ÉI, ÓI, ÉU) e o Novo Acordo
+
+Os ditongos orais com pronúncia aberta (*-éi, -ói, -éu*) sofreram alteração significativa com a vigência do Decreto nº 6.583/2008:
+* **Nas Oxítonas e Monossílabos Tônicos:** O acento gráfico **permanece obrigatório**:
+  * *herói, constrói, corrói, pastéis, bacharéis, anéis, chapéu, troféu, céu, réu, dói, mói*.
+* **Nas Paroxítonas:** O acento gráfico foi **integralmente abolido**:
+  * *ideia, assembleia, plateia, europeia, estreia, jiboia, heroico, paranoico, boia, joia, Coreia, apoia (do verbo apoiar)*.
+
+> ⭐ **IMPORTANTE / CONTRASTE HERÓI VS. HEROICO:** Esse é um dos pares favoritos da banca examinadora FCC. Em *herói*, a palavra é oxítona terminada no ditongo aberto *-ói*, mantendo o acento agudo. Já em *he-roi-co*, a sílaba tônica recai na penúltima sílaba (*-roi-*), tratando-se de paroxítona que perdeu o acento com o Acordo Ortográfico.
+
+### 2.3 Formas Verbais com Pronomes Enclíticos
+
+Na conjugação de verbos acompanhados de pronomes oblíquos enclíticos (*-lo, -la, -los, -las, -no, -na*), a análise da tonicidade e das regras de acentuação deve isolar completamente o pronome e incidir exclusivamente sobre a terminação da forma verbal residual:
+* *Cantar + a* $\rightarrow$ *cantá-la* (oxítona terminada na vogal *a*);
+* *Fazer + o* $\rightarrow$ *fazê-lo* (oxítona terminada na vogal *e*);
+* *Pôr + o* $\rightarrow$ *pô-lo* (oxítona/monossílabo tônico terminado na vogal *o*);
+* *Partir + o* $\rightarrow$ *parti-lo* (oxítona terminada na vogal *i*, logo não recebe acento);
+* *Distribuir + o* $\rightarrow$ *distribuí-lo* (recebe acento pela regra especial do hiato tônico isolado).
+
+### 2.4 Acento Diferencial Obrigatório e Facultativo
+
+O Novo Acordo Ortográfico eliminou a quase totalidade dos acentos diferenciais que distinguiam palavras homógrafas tônicas de átonas (foram eliminados acentos como *pêlo/pelo, péla/pela, pólo/polo*). Todavia, foram mantidos os acentos diferenciais de extrema relevância sintática e semântica:
+
+#### Acentos Diferenciais Obrigatórios:
+1. **Pôde (Pretérito Perfeito) $\neq$ Pode (Presente do Indicativo):** O verbo *poder* recebe acento circunflexo na 3ª pessoa do singular do pretérito perfeito (*"Ontem o auditor não pôde comparecer"*) para se distinguir da forma homógrafa no presente do indicativo (*"Hoje ele pode analisar o processo"*).
+2. **Pôr (Verbo) $\neq$ Por (Preposição):** O verbo *pôr* mantém o acento circunflexo (*"É preciso pôr ordem no setor"*) para diferenciar-se da preposição monossilábica átona *por* (*"Caminhou por aquele corredor"*).
+3. **Têm e Vêm (Plural) $\neq$ Tem e Vem (Singular):** Os verbos *ter* e *vir* levam acento circunflexo na 3ª pessoa do plural do presente do indicativo:
+   * *O auditor tem competência técnica* (singular, sem acento);
+   * *Os auditores têm competência técnica* (plural, circunflexo);
+   * *O recurso vem tempestivamente* (singular, sem acento);
+   * *Os recursos vêm tempestivamente* (plural, circunflexo).
+4. **Derivados de Ter e Vir (Manter, Conter, Deter, Intervir, Provir):** Por serem oxítonas com duas ou mais sílabas, recebem acento agudo no singular por regra geral das oxítonas em *-em*, e acento circunflexo no plural por acento diferencial:
+   * Singular (acento agudo): *ele mantém, ele intervém, o cofre contém, o Estado detém*;
+   * Plural (acento circunflexo): *eles mantêm, eles intervêm, os cofres contêm, os Estados detêm*.
+
+#### Acentos Diferenciais Facultativos:
+* **Fôrma / Forma:** O emprego do acento circunflexo no substantivo *fôrma* (molde, vasilha) é facultativo, sendo recomendado pelo formulário ortográfico apenas quando houver risco evidente de ambiguidade com o substantivo ou verbo *forma* (aparência exterior, conformação, do verbo formar): *"Cada um tem sua própria forma de usar a fôrma de bolo"*.
+
+---
+
+## 3. Emprego do Hífen com Prefixos e Elementos de Composição
+
+O emprego do hífen em palavras formadas por prefixação ou falsos prefixos (radicais de origem grega ou latina que atuam como elementos compositivos) obedece a um sistema harmonizado pelo Acordo Ortográfico.
 
 ```mermaid
 flowchart TD
@@ -104,12 +207,45 @@ flowchart TD
     Hifen --> LetrasIguais["LETRAS IGUAIS SE REPELEM (-)<br/>• micro-ondas<br/>• anti-inflamatório<br/>• sobre-erguer"]
     Hifen --> LetrasDif["LETRAS DIFERENTES SE UNEM<br/>• autoescola<br/>• infraestrutura<br/>• contraindicação"]
     Hifen --> ConsoantesRS["SEGUNDA PALAVRA COM R ou S<br/>• Duplica a consoante e junta tudo!<br/>• antirreflexo, minissaia, ultrassom"]
-    Hifen --> LetraH["SEGUNDA PALAVRA COM H<br/>• SEMPRE leva hífen!<br/>• super-homem, anti-higiênico, sobre-humano"]
+    Hifen --> LetraH["SEGUNDA PALAVRA COM H<br/>• SEMPRE leva hífen!<br/>• super-homem, anti-higiênico,<br/> sobre-humano"]
 ```
 
-#### Tabela Resumo do Hífen com Prefixos:
+### 3.1 Regra Geral dos Opostos e Casos com Consoante H
 
-| Regra / Contexto | Diretriz do Acordo | Exemplos Corretos |
+A regra motriz da reforma ortográfica estabelece o **princípio da atração dos diferentes e repulsão dos iguais**:
+1. **Letras Iguais se Separam com Hífen:** Se o prefixo terminar pela mesma letra (seja vogal ou consoante) com que se inicia o segundo elemento, o uso do hífen é **obrigatório**:
+   * *micro-ondas, anti-inflamatório, semi-interno, contra-ataque, sobre-erguer, arqui-inimigo*;
+   * *inter-regional, hiper-requintado, super-resistente, sub-base*.
+2. **Letras Diferentes se Unem sem Hífen (Aglutinação):** Se o prefixo terminar por letra distinta daquela que abre o segundo elemento, os elementos aglutinam-se diretamente:
+   * *autoescola, infraestrutura, contraindicação, semiaberto, agroindústria, hidroelétrica*;
+   * *intermunicipal, hipermercado, subchefe, supersônico*.
+3. **Segundo Elemento Iniciado por Consoante H:** O fonema inicial mudo da letra *h* não admite fusão ortográfica direta com prefixos na língua padrão. Logo, diante de palavra iniciada por *h*, o uso do hífen é **sempre obrigatório**, qualquer que seja o prefixo:
+   * *anti-higiênico, super-homem, sobre-humano, pan-helênico, macro-história, sub-hepático, geo-história*.
+
+> 🚨 **ALERTA DE PROVA / EXCEÇÃO DA PALAVRA SUBUMANO:** Quando o elemento *humano* une-se ao prefixo *des-* ou *in-*, o *h* cai por etimologia histórica (*desumano, inumano*). Com o prefixo *sub-*, o vocabulário oficial registra tanto a forma hifenizada *sub-humano* quanto a forma aglutinada sem H *subumano*. A FCC costuma cobrar preferencialmente a forma geral hifenizada (*sub-humano*).
+
+### 3.2 Duplicação das Consoantes R e S
+
+Se o prefixo terminar em **vogal** e o segundo elemento principiar pelas consoantes **R** ou **S**, o hífen é eliminado e a consoante correspondente deve ser **duplicada** (*rr* ou *ss*), a fim de manter o valor sonoro original do fonema:
+* Exemplos com R duplicado: *antirreflexo, antirrábico, contrarregra, microrradiografia, ultrarrápido, semirreta*;
+* Exemplos com S duplicado: *minissaia, ultrassom, microssistema, cosseno, antissocial, pressuposto*.
+
+> ⭐ **IMPORTANTE / PREFIXOS TERMINADOS EM CONSOANTE DIANTE DE R E S:** A regra da duplicação aplica-se exclusivamente a prefixos terminados em **vogal**. Se o prefixo terminar por consoante (como *inter-, hiper-, super-, sub-*), a regra que vigora é a regra geral:
+> - Diante de letra igual (R), usa-se hífen: *inter-relação, super-rápido, hiper-reativo*;
+> - Diante de letra diferente (S), junta-se sem duplicar e sem hífen: *intersindical, supersônico, hipertenso*.
+
+### 3.3 Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada
+
+Determinados elementos mórficos obedecem a prescrições pontuais da norma:
+* **Prefixos Sempre Hifenizados:** Os prefixos tônicos acentuados graficamente (*pós-, pré-, pró-*) e os prefixos *ex-* (com sentido de estado anterior/cessação), *vice-, vizo-, sem-, além-, aquém-, recém-* exigem hífen em qualquer contexto:
+  * *ex-diretor, ex-presidente, vice-governador, sem-terra, além-mar, aquém-fronteiras, recém-empossado, pós-graduação, pré-edital, pró-ativo*.
+  * Atenção: se o elemento for átono e sem acento próprio, aglutina-se sem hífen: *proativo, predeterminado, pospor*.
+* **O Prefixo CO- e RE- (Aglutinação Forçada):** Os prefixos *co-* e *re-* unem-se ao elemento seguinte mesmo quando este principia pela mesma vogal *o* ou *e*, sem necessidade de hífen:
+  * *coordenar, cooperação, coobrigado, coautor, coexistir, reeleger, reencontro, reestruturar*.
+* **Os Prefixos CIRCUM- e PAN-:** Exigem hífen diante de palavras iniciadas por vogal, pela letra *h* ou pelas consoantes *m* e *n*:
+  * *pan-americano, circum-navegação, pan-helênico*.
+
+| Prefixo / Contexto | Diretriz do Acordo | Exemplos Corretos |
 | :--- | :--- | :--- |
 | **Vogal + Vogal Igual** | Usa-se Hífen | *micro-ondas, anti-inflamatório, semi-interno, arqui-inimigo* |
 | **Vogal + Vogal Diferente** | Não se usa Hífen (aglutina) | *autoescola, semiaberto, coautor, infraestrutura, agroindústria* |
@@ -117,12 +253,136 @@ flowchart TD
 | **Vogal + Demais Consoantes** | Junta-se sem alteração | *antiprojeto, autopeça, geopolítica, semicírculo* |
 | **Consoante + Consoante Igual** | Usa-se Hífen | *inter-regional, sub-base, super-resistente, hiper-requintado* |
 | **Consoante + Consoante Diferente** | Junta-se sem hífen | *intermunicipal, hipermercado, subchefe, superpopulação* |
-| **Segundo Elemento com 'H'** | Usa-se Hífen SEMPRE | *anti-herói, super-homem, sobre-humano, pan-helênico* |
-| **Prefixos Especiais** | Sempre com hífen | *ex-diretor, sem-terra, vice-presidente, recém-nascido, pró-ativo* |
+| **Segundo Elemento com H** | Usa-se Hífen SEMPRE | *anti-herói, super-homem, sobre-humano, pan-helênico* |
+| **Prefixos Especiais** | Sempre com hífen | *ex-diretor, sem-terra, vice-presidente, recém-nascido, pós-graduação* |
+
+### 3.4 Hífen em Compostos por Justaposição e Expressões Consagradas
+
+Em palavras compostas por justaposição que formam uma unidade sintagmática e semântica mantendo autonomia fonética, o hífen deve ser mantido (*arco-íris, decreto-lei, segunda-feira, conta-gotas, guarda-chuva*).
+
+Entretanto, o Acordo Ortográfico determinou o **fim do hífen nas locuções de qualquer natureza** (substantivas, adjetivas, adverbiais, prepositivas ou conjuntivas):
+* *fim de semana, sala de jantar, cão de guarda, cor de café, dia a dia, à toa, ponto e vírgula, passo a passo*.
+* **Exceções consagradas pela tradição:** Mantêm o hífen as consagradas *cor-de-rosa, água-de-colônia, arco-da-velha, mais-que-perfeito, pé-de-meia*, bem como os nomes botânicos e zoológicos ligados por hífen (*couve-flor, bem-te-vi, erva-doce*).
 
 ---
 
-### 3. Processos de Formação de Palavras: Quadro Comparativo
+## 4. Semântica Lexical: Relações de Sentido e Vocabulário
+
+O estudo da semântica vocabular foca as relações de significação estabelecidas entre as palavras de uma língua, permitindo analisar a coesão referencial, a precisão textual e os desvios de significação em textos técnicos e jurídicos.
+
+### 4.1 Sinonímia e Antonímia
+
+* **Sinonímia:** Relação que se estabelece entre dois ou mais termos que possuem significados idênticos ou muito próximos no mesmo contexto discursivo (*conceder / outorgar; rescindir / anular; célere / ágil; prudente / cauteloso*). A sinonímia absoluta é raríssima no idioma, pois nuances de formalidade, regionalismo ou intensidade quase sempre diferenciam os vocábulos.
+* **Antonímia:** Relação existente entre palavras que expressam significados opostos ou contraditórios (*legalidade / ilegalidade; público / privado; eficiência / ineficiência; reter / liberar*).
+
+### 4.2 Hiperonímia e Hiponímia
+
+Conceitos capitais na estruturação de mecanismos de substituição coesiva em redação e interpretação textual:
+* **Hiperônimo (Hiperonímia):** Vocábulo de sentido geral, amplo, abrangente, que engloba sob sua extensão semântica outros termos mais específicos. O hiperônimo funciona como a "classe" ou o gênero.
+  * Exemplo: *Tribunal* é hiperônimo de *TCE-GO*; *veículo* é hiperônimo de *viatura*; *documento* é hiperônimo de *relatório de auditoria*.
+* **Hipônimo (Hiponímia):** Vocábulo de sentido restrito, específico, pontual, que integra a classe de um termo maior. O hipônimo funciona como a "espécie".
+  * Exemplo: *TCE-GO* é hipônimo de *órgão de controle*; *auditoria de conformidade* é hipônimo de *fiscalização*.
+
+> 💡 **DICA DE RESOLUÇÃO / COESÃO POR HIPERONÍMIA:** A banca FCC frequentemente formula itens elogiando o uso de hiperônimos para evitar repetições vocabulares no texto (*"O TCE-GO julgou a tomada de contas especial. A corte de contas concluiu pela condenação do gestor"*). A substituição de *TCE-GO* por *corte de contas* opera um mecanismo exemplar de hiperonímia anafórica.
+
+### 4.3 Polissemia e Homonímia
+
+* **Polissemia:** Propriedade de uma **única palavra** que pode assumir múltiplos significados distintos a depender do contexto discursivo em que é empregada, preservando entretanto uma raiz semântica comum de parentesco conceitual (*"A <ins>linha</ins> de raciocínio do parecer"*, *"A <ins>linha</ins> telefônica do gabinete"*, *"A <ins>linha</ins> divisória do município"*).
+* **Homonímia:** Fenômeno pelo qual duas palavras inteiramente **distintas**, de etimologias e origens históricas diferentes, convergem para a mesma forma gráfica e/ou sonora. Subdivide-se em:
+  * **Homófonos heterográficos:** Possuem o mesmo som, mas grafias e significados diferentes (*sessão / seção / cessão; censo / senso; acento / assento*);
+  * **Homógrafos heterofônicos:** Apresentam a mesma grafia, mas pronúncia e significados divergentes (*o almoço* [ô] / *eu almoço* [ó]; *a sede* [ê] / *eu tenho sede* [é]);
+  * **Homônimos perfeitos:** Coincidem integralmente no som e na grafia, guardando origens e acepções díspares (*manga* [fruta] / *manga* [parte da camisa]; *canto* [ângulo] / *canto* [verbo cantar]).
+
+### 4.4 Parônimos e Homófonos de Alta Incidência em Concursos
+
+Os parônimos são palavras muito semelhantes na grafia e na pronúncia, mas que possuem significados totalmente diferentes. O domínio exato desses pares é requisito frequente nas provas de controle e tribunais:
+
+1. **Eminente $\neq$ Iminente:**
+   * *Eminente:* ilustre, notável, elevado, de alta estirpe (*"O eminente Conselheiro proferiu o voto"*);
+   * *Iminente:* que está prestes a ocorrer a qualquer instante (*"O risco de desabamento da ponte era iminente"*).
+2. **Flagrante $\neq$ Fragrante:**
+   * *Flagrante:* evidente, manifesto, testemunhado no calor da ação (*"O servidor foi autuado em flagrante"*);
+   * *Fragrante:* aromático, perfumado, que exala odor agradável (*"Flores fragrantes enfeitavam a bancada"*).
+3. **Mandado $\neq$ Mandato:**
+   * *Mandado:* ordem formal emanada de autoridade judiciária (*"mandado de segurança", "mandado de prisão", "mandado de busca e apreensão"*);
+   * *Mandato:* procuração jurídica ou período temporário de representação e investidura política (*"O mandato do Governador encerra-se em 2026"*).
+4. **Retificar $\neq$ Ratificar:**
+   * *Retificar:* emendar, corrigir, alterar o que continha vício (*"O engenheiro retificou a planilha de custos"*);
+   * *Ratificar:* confirmar, validar, comprovar, reafirmar (*"O plenário ratificou a medida cautelar expedida"*).
+5. **Sessão $\neq$ Seção / Secção $\neq$ Cessão:**
+   * *Sessão (com S inicial e SS medial):* intervalo de tempo dedicado a uma assembleia, deliberação de colegiado ou espetáculo (*"A sessão plenária teve início às 14 horas"*);
+   * *Seção ou Secção (com S e Ç):* ato de cortar, partição, fração, divisão interna ou departamento administrativo (*"A seção de protocolo autuou o expediente"*);
+   * *Cessão (com C inicial e SS medial):* ato voluntário de ceder, transferir posse, bens ou direitos (*"A cessão onerosa de servidores públicos foi autorizada"*).
+6. **Censo $\neq$ Senso:**
+   * *Censo (com C):* levantamento estatístico de dados da população (*"O IBGE apresentou o censo demográfico"*);
+   * *Senso (com S):* faculdade de julgar, discernimento, prudência, bom juízo (*"Faltou-lhe bom senso na condução dos debates"*).
+7. **Prescrever $\neq$ Proscrever:**
+   * *Prescrever:* perder a eficácia jurídica pelo decurso do prazo temporal legal; receitar ou determinar (*"A ação punitiva prescreveu em 5 anos"*);
+   * *Proscrever:* banir, extinguir, condenar ao exílio, proibir formalmente (*"A Constituição proscreve as penas cruéis"*).
+8. **Incipiente $\neq$ Insipiente:**
+   * *Incipiente (com C):* principiante, inicial, que está no começo (*"A análise de riscos ainda está em fase incipiente"*);
+   * *Insipiente (com S):* ignorante, tolo, desprovido de sabedoria (*"Trata-se de juízo insipiente sobre o tema"*).
+
+---
+
+## 5. Morfologia: Elementos Estruturais da Palavra
+
+As palavras na língua portuguesa são formadas pela articulação lógica de unidades mínimas portadoras de significado, denominadas **morfemas** ou **elementos mórficos**.
+
+```mermaid
+flowchart LR
+    Morfemas["ELEMENTOS MÓRFICOS"]
+    
+    Morfemas --> Rad["Radical: base de significado léxico"]
+    Morfemas --> VT["Vogal Temática: agrega ao radical formando o tema"]
+    Morfemas --> Afixos["Afixos: prefixos e sufixos"]
+    Morfemas --> Desin["Desinências: flexões nominais e verbais"]
+    Morfemas --> Lig["Elementos de Ligação: fonemas eufônicos"]
+```
+
+### 5.1 Radical, Alomorfia e Vogal Temática
+
+* **Radical:** É o núcleo mórfico irredutível e invariável que encerra a significação básica da família de palavras cognatas (*<ins>livr</ins>-o, <ins>livr</ins>-eiro, <ins>livr</ins>-aria*).
+  * *Alomorfia:* Ocorre quando o mesmo radical se manifesta sob formas fonéticas ligeiramente alteradas em virtude da evolução fonética histórica. Exemplo: *faz-er, fiz, faç-o* apresentam alomorfes do mesmo radical.
+* **Vogal Temática (VT):** É o elemento mórfico vocálico que se une diretamente ao radical com a finalidade de prepará-lo para o recebimento das desinências flexionais:
+  * **Vogal Temática Verbal:** Identifica a conjugação à qual o verbo pertence:
+    * 1ª conjugação: vogal temática **A** (*cant-<ins>a</ins>-r, louv-<ins>a</ins>-va*);
+    * 2ª conjugação: vogal temática **E** (*vend-<ins>e</ins>-r, bat-<ins>e</ins>-sse*);
+    * 3ª conjugação: vogal temática **I** (*part-<ins>i</ins>-r, divid-<ins>i</ins>-mos*).
+    * O verbo *pôr* e seus compostos pertencem historicamente à 2ª conjugação (do arcaico *poer*).
+  * **Vogal Temática Nominal:** Ocorre no final de substantivos e adjetivos átonos que não marcam flexão de gênero opositora (*livr-<ins>o</ins>, mes-<ins>a</ins>, dent-<ins>e</ins>, trib-<ins>u</ins>*). Nestes casos, a letra *a* de *mesa* ou o *o* de *livro* não indicam feminino ou masculino, pois não existe *"o meso"* ou *"a livra"*; são vogais temáticas nominais.
+
+### 5.2 Tema e Afixos Formadores (Prefixos e Sufixos)
+
+* **Tema:** É a unidade resultante da fusão do radical com a sua respectiva vogal temática:
+  $$\text{Tema} = \text{Radical} + \text{Vogal Temática}$$
+  * Em *cant-a-r*, o tema verbal é *canta-*; em *livr-o*, o tema nominal é *livro-*. Quando a palavra não possui vogal temática (como em vocábulos terminados em consoante forte: *mar, dor, sol*), o tema confunde-se diretamente com o próprio radical.
+* **Afixos:** São morfemas derivacionais agregados à raiz ou ao tema para produzir novas palavras:
+  * **Prefixos:** Morfemas antepostos ao radical, operando predominantemente mudança de sentido lexical sem alterar a classe gramatical primitiva: *<ins>des</ins>-leal, <ins>in</ins>-apto, <ins>re</ins>-fazer, <ins>sub</ins>-chefe*.
+  * **Sufixos:** Morfemas pospostos ao radical, possuindo alta capacidade de converter a palavra em outra classe gramatical: *leal $\rightarrow$ leal-<ins>dade</ins>* (adjetivo em substantivo); *atual $\rightarrow$ atual-<ins>izar</ins>* (adjetivo em verbo); *rápido $\rightarrow$ rapida-<ins>mente</ins>* (adjetivo em advérbio).
+
+### 5.3 Desinências Nominais e Desinências Verbais
+
+As desinências são morfemas flexionais que se localizam na extremidade da palavra para indicar alterações puramente gramaticais:
+1. **Desinências Nominais:**
+   * **De Gênero:** Distinguem o masculino do feminino (*menino / menin-<ins>a</ins>; autor / autor-<ins>a</ins>*);
+   * **De Número:** Indicam a oposição singular versus plural (*casa / casa-<ins>s</ins>; papel / papéi-<ins>s</ins>*).
+2. **Desinências Verbais:**
+   * **Modo-Temporais (DMT):** Indicam o tempo cronológico e o modo em que se desenvolve a ação verbal (*cant-<ins>va</ins>-mos* [pretérito imperfeito do indicativo]; *cant-a-<ins>sse</ins>-mos* [pretérito imperfeito do subjuntivo]; *cant-a-<ins>ra</ins>-mos* [pretérito mais-que-perfeito]);
+   * **Número-Pessoais (DNP):** Indicam a pessoa do discurso (1ª, 2ª ou 3ª) e o número gramatical (singular ou plural): *cantava-<ins>mos</ins>* (1ª pessoa do plural); *cantava-<ins>s</ins>* (2ª pessoa do singular); *cantara-<ins>m</ins>* (3ª pessoa do plural).
+
+### 5.4 Vogais e Consoantes de Ligação
+
+São fonemas inseridos unicamente por imperativo de eufonia, isto é, para viabilizar ou facilitar a pronúncia da junção entre radicais ou entre radical e sufixo, evitando a dissonância fonética. **Não possuem qualquer valor significativo ou semântico**:
+* *chaleira:* *chá* (radical) + *-eira* (sufixo) + **l** (consoante de ligação);
+* *gasômetro:* *gás* (radical) + *-metro* (radical) + **o** (vogal de ligação);
+* *cafeicultura:* *café* (radical) + *cultura* (radical) + **i** (vogal de ligação).
+
+---
+
+## 6. Processos de Formação de Palavras
+
+A ampliação do acervo vocabular do idioma opera-se fundamentalmente por meio de dois mecanismos estruturais: a **derivação** (que parte de um único radical já existente) e a **composição** (que congrega dois ou mais radicais para conceber uma nova entidade semântica).
 
 ```mermaid
 flowchart TD
@@ -141,28 +401,70 @@ flowchart TD
     Composicao --> CAglu["Aglutinação (com perda fonética): planalto (plano+alto), pernalta"]
 ```
 
-#### Distinção Crítica: Derivação Prefixal-Sufixal vs. Parassíntese:
-* **Prefixal e Sufixal:** O prefixo e o sufixo são anexados de forma independente. Se você retirar um dos afixos, a palavra restante **continua existindo** no vocabulário!
-  * Exemplo: *des-leal-dade* $\rightarrow$ existe *desleal* e existe *lealdade*.
-* **Parassíntese (Derivação Parassintética):** A agregação do prefixo e do sufixo ocorre de forma **simultânea e indissociável**. Se você retirar qualquer um dos afixos, o vocábulo resultante **NÃO existe** no idioma!
-  * Exemplo: *a-noit-ecer* $\rightarrow$ não existe *"anoite"* nem *"noitecer"*; *en-surd-ecer* $\rightarrow$ não existe *"ensurdo"* nem *"surdecer"*.
+### 6.1 Derivação Prefixal, Sufixal e Prefixal-Sufixal
 
----
+* **Derivação Prefixal (ou Prefixação):** Incorporação de um prefixo ao radical de uma palavra primitiva, mantendo-se a categoria gramatical básica: *in-justo, des-leal, re-ver, pré-história*.
+* **Derivação Sufixal (ou Sufixação):** Acréscimo de um sufixo à raiz primitiva, modificando frequentemente a classe gramatical original ou seu significado estilístico: *leal-dade, feliz-mente, auditor-ia, flor-ista*.
+* **Derivação Prefixal e Sufixal:** Situação em que o vocábulo recebe concomitantemente um prefixo e um sufixo, mas os dois afixos atuam de modo **independente**. A prova definitiva desse processo reside no fato de que a palavra resiste à retirada de qualquer um dos morfemas agregados, permanecendo um vocábulo semanticamente existente no léxico:
+  * Exemplo: *des-leal-dade* $\rightarrow$ existe a forma *desleal* (apenas prefixo) e existe a forma *lealdade* (apenas sufixo).
+  * Exemplo: *in-feliz-mente* $\rightarrow$ existe a forma *infeliz* e existe a forma *felizmente*.
 
-## ⚠️ Alertas de Prova & Pegadinhas da FCC
+### 6.2 Derivação Parassintética
 
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A FCC adora comparar palavras como *história*, *notícia*, *espécie* e *país*. As três primeiras são acentuadas por serem **paroxítonas terminadas em ditongo oral crescente** (ou proparoxítonas aparentes), ao passo que *país* é acentuada pela **regra do hiato** (I tônico isolado na sílaba). Elas **não** pertencem à mesma regra!
+A derivação parassintética (ou parassíntese) configura-se quando o prefixo e o sufixo associam-se ao radical de forma **estritamente simultânea e indissociável**. Trata-se de mecanismo empregado comumente para formar verbos a partir de substantivos ou adjetivos primitivos:
+* Em *a-noit-ecer* (de *noite*): não existe o vocábulo *"anoite"* nem existe *"noitecer"*;
+* Em *es-fri-ar* (de *frio*): não existe o vocábulo *"esfrio"* nem existe o verbo transitivo *"friar"*;
+* Em *en-louqu-ecer* (de *louco*): não existe *"enlouco"* nem *"louquecer"*;
+* Em *a-benço-ar* (de *bênção*): não existe *"abenção"* nem *"bençoar"*;
+* Em *en-surd-ecer* (de *surdo*): não existe *"ensurdo"* nem *"surdecer"*.
 
-> ⭐ **IMPORTANTE / NOVO ACORDO:** Palavras paroxítonas que contêm os ditongos abertos **EI** e **OI** perderam o acento! Portanto, grafam-se sem acento: *ideia*, *estreia*, *jiboia*, *coreia*, *heroico*, *paranoia*. Se a palavra for oxítona, o acento permanece: *herói*, *dói*, *troféu*, *pastéis*.
+> 🚨 **ALERTA DE PROVA / DIFERENÇA VITAL (PREFIXAL-SUFIXAL VS. PARASSÍNTESE):** Para a FCC, o teste do desmonte é soberano: retire mentalmente o prefixo da palavra. Se a forma remanescente com o sufixo fizer sentido na língua padrão, trata-se de **derivação prefixal e sufixal** (*deslealdade* $\rightarrow$ *lealdade* existe). Se a forma remanescente for inexistente, o processo é obrigatoriamente **parassintético** (*esfriar* $\rightarrow$ *friar* não existe; logo, é parassíntese).
 
-> 📌 **NOTA EXPLICATIVA / DERIVAÇÃO REGRESSIVA:** Na derivação regressiva (deverbal), forma-se sempre um **substantivo abstrato indicador de ação** a partir de um verbo primitivo (*comprar* $\rightarrow$ *a compra*; *pescar* $\rightarrow$ *a pesca*; *censurar* $\rightarrow$ *a censura*). Se o substantivo designar um objeto concreto, ele é que é a palavra primitiva (*âncora* $\rightarrow$ *ancorar*; *martelo* $\rightarrow$ *martelar*).
+### 6.3 Derivação Regressiva ou Deverbal
 
-> 💡 **DICA DE MEMORIZAÇÃO / PARÔNIMOS:**
-> * **Sessão:** reunião de pessoas / tempo de duração (sessão plenária do TCE-GO, sessão de cinema);
-> * **Seção / Secção:** divisão, corte, repartição (seção de auditoria, seção eleitoral);
-> * **Cessão:** ato de ceder / transferir direitos (cessão de servidores, cessão de posse);
-> * **Mandado:** ordem da autoridade (mandado de segurança, mandado de prisão);
-> * **Mandato:** procuração / tempo de cargo eletivo (mandato de Conselheiro ou Governador).
+A derivação regressiva caracteriza-se pela **redução formal** da palavra primitiva. Quase a totalidade das ocorrências na língua consiste na formação de um **substantivo abstrato indicador de ação a partir de um verbo primitivo**, motivo pelo qual a gramática a denomina derivação deverbal:
+* *debater* $\rightarrow$ *o debate*;
+* *resgatar* $\rightarrow$ *o resgate*;
+* *alcançar* $\rightarrow$ *o alcance*;
+* *pescar* $\rightarrow$ *a pesca*;
+* *comprar* $\rightarrow$ *a compra*;
+* *atacar* $\rightarrow$ *o ataque*;
+* *censurar* $\rightarrow$ *a censura*.
+
+> 📌 **NOTA EXPLICATIVA / IDENTIFICAÇÃO DO SENTIDO PRIMITIVO:** Nem todo substantivo correlato a um verbo decorre de derivação regressiva. Se o substantivo designar um **objeto físico concreto**, a palavra primitiva é o substantivo e o verbo é que surge por derivação sufixal:
+> - *martelo* (concreto, primitivo) $\rightarrow$ *martel-ar* (derivado sufixal);
+> - *âncora* (concreto, primitivo) $\rightarrow$ *ancor-ar* (derivado sufixal);
+> - Em contrapartida, *o corte* (abstrato, nomeia a ação de cortar) deriva regressivamente de *cortar*.
+
+### 6.4 Derivação Imprópria ou Conversão
+
+Ocorre derivação imprópria quando uma palavra muda de classe gramatical e altera seu significado contextual sem sofrer nenhuma modificação na sua estrutura morfológica exterior:
+* **Verbo convertido em Substantivo:** *"O <ins>olhar</ins> do auditor era penetrante"* (o artigo transformou o verbo em substantivo); *"O <ins>saber</ins> acumulado na fiscalização"* (verbo substantivado);
+* **Adjetivo convertido em Substantivo:** *"Os <ins>maus</ins> serão penalizados pela corte"*;
+* **Substantivo convertido em Adjetivo:** *"Ele deu uma resposta <ins>monstro</ins>"*;
+* **Palavra invariável convertida em Substantivo:** *"Não compreendi o <ins>porquê</ins> de sua relutância"*.
+
+### 6.5 Composição: Justaposição e Aglutinação
+
+A composição ocorre quando dois ou mais radicais autônomos unem-se para estruturar um vocábulo composto:
+1. **Justaposição:** Os radicais constituintes aproximam-se mantendo integralmente sua autonomia fonética, sem perda de fonemas ou modificação acentual de suas bases primitivas (com ou sem hífen):
+   * *passatempo* (*passa* + *tempo*);
+   * *girassol* (*gira* + *sol* — o acréscimo de um 's' é meramente ortográfico para conservar o fonema consonantal sibilante surdo, não havendo perda de matéria sonora);
+   * *guarda-chuva, pontapé, segunda-feira, pé-de-moleque*.
+2. **Aglutinação:** Na fusão dos radicais, verifica-se alteração, supressão ou perda de fonemas e deslocamento do centro tônico original das palavras primitivas:
+   * *planalto* (*plano* + *alto* — perda da vogal 'o');
+   * *embora* (*em* + *boa* + *hora*);
+   * *vinagre* (*vinho* + *acre*);
+   * *aguardente* (*água* + *ardente*);
+   * *pernalta* (*perna* + *alta*).
+
+### 6.6 Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo
+
+Além dos processos clássicos, a língua recorre a outros expedientes formais:
+* **Hibridismo:** Vocábulos construídos pela justaposição de elementos mórficos originários de línguas distintas: *sociologia* (*latim* sócio + *grego* logia); *televisão* (*grego* tele + *latim* visão); *automóvel* (*grego* auto + *latim* móvel); *burocracia* (*francês* bureau + *grego* cracia).
+* **Abreviação Vocabular (Redução):** Eliminação de parte da palavra original para produzir uma forma curta comunicativamente eficaz: *foto* (de fotografia); *moto* (de motocicleta); *pneu* (de pneumático); *cine* (de cinematógrafo).
+* **Siglonimização e Acrônimos:** Junção de letras iniciais que passam a se comportar como palavras autônomas: *TCE-GO, TCU, Petrobras, Mercosul*.
+* **Neologismo Lexical:** Criação de novos vocábulos impulsionados pela evolução social ou tecnológica: *deletar, tuitar, escanear, empoderamento*.
 
 ---
 
@@ -182,19 +484,20 @@ flowchart TD
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Assinale a alternativa em que ambos os vocábulos sublinhados são acentuados com fundamento na **mesma regra gramatical**:
 
-* **A)** *"O relatório do Tribunal contém dados sobre a renúncia de receita."*
-* **B)** *"A autoridade pública examinou o processo na sessão de julgamento."*
-* **C)** *"A atuação do Estado em saúde preventiva é imprescindível para o país."*
-* **D)** *"O órgão de auditoria apurou o prejuízo e aplicou a sanção cabível."*
+* **A)** *"O <ins>relatório</ins> do Tribunal contém dados sobre a <ins>renúncia</ins> de receita."*
+* **B)** *"A autoridade <ins>pública</ins> examinou o processo na <ins>sessão</ins> de julgamento."*
+* **C)** *"A atuação do Estado em <ins>saúde</ins> preventiva é imprescindível para o <ins>país</ins>."* (comparando saúde/país com imprescindível)
+* **D)** *"O <ins>órgão</ins> de auditoria apurou o <ins>prejuízo</ins> e aplicou a sanção cabível."*
 * **E)** *"O auditor demonstrou perspicácia ao desvendar o desvio de recursos."* (perspicácia – desvendar)
 
-> **Gabarito: A**  
-> **Comentário Detalhado:**  
-> - **A) CORRETA.** Os vocábulos *relatório* (re-la-tó-rio) e *renúncia* (re-nún-cia) são ambos acentuados pela regra das **paroxítonas terminadas em ditongo oral crescente** (ou proparoxítonas eventuais/aparentes, conforme nomenclatura gramatical adotada pela banca FCC). Ambos compartilham rigorosamente a mesma regra de justificação acentual!  
-> - **B) Incorreta.** *pública* é acentuada por ser **proparoxítona** (todas são acentuadas), ao passo que a frase não apresenta outro termo acentuado pela mesma regra.  
-> - **C) Incorreta.** *saúde* e *país* pertencem à regra do hiato, mas comparados com *imprescindível* (paroxítona terminada em L), as regras são distintas.  
-> - **D) Incorreta.** *órgão* é paroxítona terminada em -ão, enquanto *prejuízo* é acentuada pela regra do hiato (U tônico formando hiato com o E anterior).  
-> - **E) Incorreta.** *desvendar* é oxítona terminada em R e sequer recebe acento gráfico.
+> **Comentário Detalhado:**
+> - **A)** Correta. Os vocábulos *relatório* (re-la-tó-rio) e *renúncia* (re-nún-cia) são ambos acentuados pela regra das paroxítonas terminadas em ditongo oral crescente (ou proparoxítonas eventuais/aparentes, nomenclatura consagrada pela FCC). Compartilham rigorosamente a mesma regra de justificação ortográfica.
+> - **B)** Incorreta. O vocábulo *pública* é acentuado por ser proparoxítona real (todas são acentuadas), ao passo que *sessão* não recebe acento gráfico (o til não é acento tônico primário, mas marca de nasalidade em outras palavras, e aqui sequer há til).
+> - **C)** Incorreta. Embora *saúde* e *país* compartilhem a regra do hiato tônico (I e U tônicos formando sílaba sozinhos ou com S), a análise comparativa com *imprescindível* (paroxítona terminada na consoante L) desfaz a uniformidade da assertiva.
+> - **D)** Incorreta. *Órgão* é acentuada por ser paroxítona terminada em ditongo nasal *-ão*, enquanto *prejuízo* é acentuada com base na regra especial dos hiatos (U tônico isolado na sílaba sem consoante nasal).
+> - **E)** Incorreta. *Perspicácia* é paroxítona terminada em ditongo oral, ao passo que *desvendar* é oxítona terminada na consoante R e sequer recebe acento gráfico.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -208,14 +511,21 @@ Quanto ao emprego do hífen em palavras formadas por derivação prefixal em con
 * **D)** anti-inflamatório, autoescola, micro-ondas, hiperresistente.
 * **E)** antiinflamatório, auto-escola, micro-ondas, hiper-resistente.
 
-> **Gabarito: C**  
-> **Comentário Detalhado:**  
-> - Aplicando as regras do Novo Acordo Ortográfico:  
->   1. **anti-inflamatório:** O prefixo *anti-* termina na mesma vogal com que se inicia o segundo elemento (*i*). Letras iguais se repelem com **hífen** (*anti-inflamatório*).  
->   2. **autoescola:** O prefixo *auto-* termina com *o* e o segundo elemento começa com *e*. Letras diferentes se unem **sem hífen** (*autoescola*).  
->   3. **micro-ondas:** O prefixo *micro-* termina em *o* e o segundo elemento inicia em *o*. Vogais iguais exigem **hífen** (*micro-ondas*).  
->   4. **hiper-resistente:** O prefixo *hiper-* termina na consoante *r* e o segundo elemento começa pela mesma consoante *r*. Consoantes iguais se separam com **hífen** (*hiper-resistente*).  
-> - A única alternativa que apresenta todas as formas grafadas com perfeição é a letra C.
+> **Comentário Detalhado:**
+> Análise de cada vocábulo à luz do Acordo Ortográfico:
+> 1. *anti-inflamatório:* o prefixo *anti-* termina na mesma vogal com que se inicia o segundo elemento (*i*). Letras iguais repelem-se com hífen.
+> 2. *autoescola:* o prefixo *auto-* termina com a vogal *o* e o segundo elemento inicia-se com a vogal *e*. Vogais diferentes atraem-se, unindo-se sem hífen.
+> 3. *micro-ondas:* o prefixo *micro-* termina em *o* e o segundo elemento inicia em *o*. Vogais idênticas exigem hífen.
+> 4. *hiper-resistente:* o prefixo *hiper-* termina na consoante *r* e o segundo elemento inicia pela mesma consoante *r*. Consoantes idênticas separam-se com hífen.
+>
+> Análise das alternativas:
+> - **A)** Incorreta. Erra ao colocar hífen em *auto-escola* (o correto é *autoescola*, aglutinado).
+> - **B)** Incorreta. Erra ao aglutinar *antiinflamatório*, *microondas* e *hiperresistente* (todos exigem hífen por reunirem letras idênticas).
+> - **C)** Correta. Todos os quatro vocábulos estão impecavelmente grafados de acordo com a norma ortográfica vigente.
+> - **D)** Incorreta. Erra ao aglutinar *hiperresistente* sem hífen (prefixo em consoante R seguido de palavra iniciada por R exige hífen).
+> - **E)** Incorreta. Erra em *antiinflamatório* (falta hífen) e em *auto-escola* (hífen indevido).
+> 
+> **Gabarito: C**
 
 ---
 
@@ -235,13 +545,21 @@ A grafia e o emprego semântico dos vocábulos sublinhados estão corretos em:
 * **D)** I, II e IV, apenas.
 * **E)** II, III e IV, apenas.
 
-> **Gabarito: A**  
-> **Comentário Detalhado:**  
-> - **Item I: Correto.** *Sessão* (com iniciais S e dígrafo SS) designa a reunião de um colegiado deliberativo ou o tempo em que uma assembleia delibera.  
-> - **Item II: Correto.** *Flagrante* delito significa o ato evidente, manifesto, que está sendo presenciado no momento de sua realização (não confundir com *fragrante*, que significa aromático/cheiroso).  
-> - **Item III: Correto.** *Mandato* refere-se à procuração política ou período de exercício de uma função pública eletiva (não confundir com *mandado*, que é a ordem judicial de prisão, segurança ou busca).  
-> - **Item IV: Correto.** *Retificação* é o ato de corrigir, retificar ou emendar algo que continha falhas (não confundir com *ratificação*, que significa confirmar ou validar algo já feito).  
-> - Todos os quatro itens estão impecavelmente empregados. Gabarito: A.
+> **Comentário Detalhado:**
+> Avaliação individual das proposições:
+> - **Item I: Correto.** *Sessão* (iniciado por S e com dígrafo SS) designa a reunião de um corpo colegiado, o intervalo de tempo em que delibera uma corte de contas ou um parlamento. Não se confunde com *seção* (repartição/divisão) nem com *cessão* (ato de ceder).
+> - **Item II: Correto.** *Flagrante* delito designa o ato ilícito que está sendo presenciado, evidente, manifesto no ato da execução. Não se confunde com *fragrante* (aromático, cheiroso).
+> - **Item III: Correto.** *Mandato* é o poder conferido pelo voto popular ou a procuração para o exercício temporário de cargo diretivo/eletivo. Não se confunde com *mandado* (ordem judicial escrita).
+> - **Item IV: Correto.** *Retificação* é o ato de retificar, consertar, emendar ou corrigir vícios e incorreções. Não se confunde com *ratificação* (ato de confirmar ou validar formalmente).
+>
+> Análise das opções:
+> - **A)** Correta. Todas as quatro ocorrências estão perfeitamente adequadas quanto ao léxico e à ortografia.
+> - **B)** Incorreta. Desconsidera o acerto evidente dos itens II e IV.
+> - **C)** Incorreta. Desconsidera o acerto evidente dos itens I e III.
+> - **D)** Incorreta. Omite o item III, que também está rigorosamente correto.
+> - **E)** Incorreta. Omite o item I, cuja grafia está irrepreensível.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -255,13 +573,14 @@ Em relação aos processos morfológicos de formação das palavras, assinale a 
 * **D)** *"O relatório final foi concluído <ins>infelizmente</ins> fora do prazo regulamentar."*
 * **E)** *"O <ins>passatempo</ins> preferido dos funcionários consistia em desvendar charadas lógicas."*
 
-> **Gabarito: B**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** *deslealdade* é formada por derivação prefixal e sufixal independente (des- + leal + -dade). Se retirarmos o prefixo, existe *lealdade*; se retirarmos o sufixo, existe *desleal*.  
-> - **B) CORRETA.** *esfriar* é formada por derivação **parassintética** (e- + frio/fri- + -ar). O acréscimo do prefixo e do sufixo verbal dá-se de modo simultâneo: não existe no português o substantivo/adjetivo *"esfrio"* nem o verbo *"friar"*. A eliminação de qualquer um dos afixos destrói a palavra.  
-> - **C) Incorreta.** *resgate* é formada por derivação regressiva (deverbal), originada do verbo de ação *resgatar*.  
-> - **D) Incorreta.** *infelizmente* é formada por derivação sufixal a partir de *infeliz* (ou prefixal e sufixal independente, pois existem *felizmente* e *infeliz*).  
-> - **E) Incorreta.** *passatempo* é formada por composição por justaposição (passa + tempo), unindo dois radicais sem perda fonética.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O vocábulo *deslealdade* resulta de derivação prefixal e sufixal independente (*des-* + *leal* + *-dade*). Se subtrairmos o prefixo, subsiste o termo legítimo *lealdade*; se suprimirmos o sufixo, permanece a forma legítima *desleal*.
+> - **B)** Correta. O verbo *esfriar* é formado por derivação parassintética (*e-* + *frio/fri-* + *-ar*). A agregação do prefixo e do sufixo verbal dá-se de modo estritamente simultâneo: não existe no português moderno o vocábulo *"esfrio"* nem o verbo transitivo *"friar"*. A eliminação de qualquer um dos afixos invalida o vocábulo.
+> - **C)** Incorreta. O vocábulo *resgate* origina-se de derivação regressiva (deverbal) a partir do verbo de ação *resgatar*.
+> - **D)** Incorreta. O termo *infelizmente* é originado de derivação prefixal e sufixal (ou sufixal a partir do adjetivo *infeliz*), havendo plena autonomia das bases cognatas *infeliz* e *felizmente*.
+> - **E)** Incorreta. A palavra *passatempo* forma-se pelo processo de composição por justaposição (*passa* + *tempo*), reunindo dois radicais sem perda de substância fonética.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -269,16 +588,17 @@ Em relação aos processos morfológicos de formação das palavras, assinale a 
 **(FCC – METRÔ-SP – Analista de Gestão)**  
 O vocábulo formado por **derivação regressiva** (também denominada deverbal) encontra-se presente na frase:
 
-* **A)** *"O debate entre os candidatos à vaga de conselheiro prolongou-se pela madrugada."*
-* **B)** *"O envelhecimento prematuro das pontes estaduais alarmou o setor de engenharia."*
-* **C)** *"Os técnicos agiram com rapidez invejável no reestabelecimento dos servidores de dados."*
-* **D)** *"O girassol plantado nos canteiros da corte simbolizava a busca pela transparência."*
-* **E)** *"O saber acumulado pelo fiscal garantiu a correta instrução probatória dos autos."*
+* **A)** *"O <ins>debate</ins> entre os candidatos à vaga de conselheiro prolongou-se pela madrugada."*
+* **B)** *"O <ins>envelhecimento</ins> prematuro das pontes estaduais alarmou o setor de engenharia."*
+* **C)** *"Os técnicos agiram com <ins>rapidez</ins> invejável no reestabelecimento dos servidores de dados."*
+* **D)** *"O <ins>girassol</ins> plantado nos canteiros da corte simbolizava a busca pela transparência."*
+* **E)** *"O <ins>saber</ins> acumulado pelo fiscal garantiu a correta instrução probatória dos autos."*
 
-> **Gabarito: A**  
-> **Comentário Detalhado:**  
-> - **A) CORRETA.** O substantivo abstrato *debate* deriva regressivamente do verbo de ação *debater* (debater $\rightarrow$ debate). Na derivação regressiva, o verbo primitivo perde suas desinências e reduz-se a um substantivo abstrato que nomeia a própria ação verbal.  
-> - **B) Incorreta.** *envelhecimento* é formada por derivação sufixal a partir do verbo parassintético *envelhecer*.  
-> - **C) Incorreta.** *rapidez* é formada por derivação sufixal a partir do adjetivo *rápido* (rápido + -ez).  
-> - **D) Incorreta.** *girassol* é formada por composição por justaposição (gira + sol).  
-> - **E) Incorreta.** *o saber* é exemplo de derivação imprópria (conversão), pois o verbo *saber* foi substantivado pelo artigo *o*.
+> **Comentário Detalhado:**
+> - **A)** Correta. O substantivo abstrato *debate* resulta de derivação regressiva a partir do verbo primitivo de ação *debater* (*debater* $\rightarrow$ *o debate*). O verbo perde sua desinência de infinitivo e forma um substantivo indicador da própria ação.
+> - **B)** Incorreta. A palavra *envelhecimento* resulta de derivação sufixal (*-mento*) aplicada sobre o verbo parassintético prévio *envelhecer*.
+> - **C)** Incorreta. O vocábulo *rapidez* constitui derivação sufixal abstrata gerada a partir do adjetivo primitivo *rápido* (*rápido* + *-ez*).
+> - **D)** Incorreta. A palavra *girassol* constitui exemplo de composição por justaposição de dois radicais (*gira* + *sol*).
+> - **E)** Incorreta. A expressão *o saber* constitui exemplo lídimo de derivação imprópria (conversão funcional), haja vista que o verbo no infinitivo *saber* foi convertido em substantivo pela anteposição do artigo definido *o*.
+> 
+> **Gabarito: A**

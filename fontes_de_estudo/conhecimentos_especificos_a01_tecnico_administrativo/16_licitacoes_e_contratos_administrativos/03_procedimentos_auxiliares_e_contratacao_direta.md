@@ -20,109 +20,202 @@
 
 ---
 
-## 🌳 Classificação Hierárquica do Conteúdo
-
-```text
-3. Procedimentos Auxiliares e Regime da Contratação Direta (Lei nº 14.133/2021)
-├── 3.1 Procedimentos Auxiliares das Licitações (Art. 78)
-│   ├── Credenciamento (Art. 79): Chamamento aberto e remuneração pré-fixada
-│   │   ├── Paralela e não excludente: Vários prestadores simultâneos (ex.: clínicas e laboratórios)
-│   │   ├── A critério de terceiros: Usuário escolhe o credenciado (ex.: passagens aéreas e médicos)
-│   │   └── Mercados fluidos: Cotação volátil em tempo real (ex.: combustíveis e commodities)
-│   ├── Pré-Qualificação (Art. 80): Subjetiva (habilitação técnica) e Objetiva (bens) - Validade: 1 ano
-│   ├── Procedimento de Manifestação de Interesse - PMI (Art. 81): Estudos de particulares para concessões
-│   └── Sistema de Registro de Preços - SRP (Arts. 82 a 86):
-│       ├── Ata de Registro de Preços (ARP): Validade de 1 ano, prorrogável por mais 1 (máx. 2 anos)
-│       └── Regras Restritivas para Caronas (Art. 86): Limite individual de 50% e limite global do dobro (2x)
-├── 3.2 O Processo Administrativo de Contratação Direta (Art. 72)
-│   ├── Instrução Obrigatória: Demanda, ETP, TR/PB, estimativa de valor, dotação, certidões e pareceres
-│   └── Publicidade no PNCP no prazo de 10 dias úteis como condição de eficácia
-├── 3.3 Inexigibilidade de Licitação (Art. 74 - Inviabilidade de Competição)
-│   ├── Natureza do Rol: ROL EXEMPLIFICATIVO (inviabilidade fática de disputa)
-│   ├── Fornecedor Exclusivo (Inciso I): Atestado oficial de entidade setorial; vedada preferência de marca
-│   ├── Artista Consagrado (Inciso II): Reconhecido pela crítica especializada ou opinião pública
-│   ├── Serviços Técnicos Especializados de Natureza Predominantemente Intelectual (Inciso III):
-│   │   ├── Notória especialização em pareceres, defesas judiciais, auditorias e treinamentos
-│   │   └── VEDAÇÃO EXPRESSA (Art. 74, § 3º): É proibida a inexigibilidade para serviços de publicidade!
-│   └── Aquisição ou Locação de Imóvel Específico (Inciso V): Singularidade de instalações e localização
-└── 3.4 Dispensa de Licitação (Art. 75 - Licitação Viável, mas Dispensada por Lei)
-    ├── Natureza do Rol: ROL TAXATIVO (numerus clausus - permissão legal expressa)
-    ├── Dispensa em Razão do Valor (Pequeno Valor - Incisos I e II):
-    │   ├── Obras e serviços de engenharia e manutenção de veículos (limite atualizado anualmente)
-    │   ├── Compras e outros serviços gerais (limite atualizado anualmente)
-    │   └── Vedação ao Fracionamento: Somatório do exercício financeiro da mesma natureza
-    └── Principais Hipóteses Materiais:
-        ├── Emergência e Calamidade Pública (Inciso VIII): Contrato máximo de 1 ano; vedada prorrogação!
-        ├── Licitação Deserta (Inciso III): Nenhum interessado acudiu à licitação anterior
-        ├── Licitação Fracassada: Todos foram inabilitados ou desclassificados
-        └── Remanescente de Obra ou Serviço (Inciso VII): Convocação na ordem do certame anterior
-```
+## 🧭 Sumário
+1. [Distinção Fundamental: Inexigibilidade x Dispensa de Licitação](#1-distinção-fundamental-inexigibilidade-x-dispensa-de-licitação)
+2. [Procedimentos Auxiliares da Lei nº 14.133/2021 (Art. 78)](#2-procedimentos-auxiliares-da-lei-nº-141332021-art-78)
+   - 2.1 [Credenciamento (Art. 79)](#21-credenciamento-art-79)
+   - 2.2 [Pré-Qualificação Subjetiva e Objetiva (Art. 80)](#22-pré-qualificação-subjetiva-e-objetiva-art-80)
+   - 2.3 [Procedimento de Manifestação de Interesse - PMI (Art. 81)](#23-procedimento-de-manifestação-de-interesse---pmi-art-81)
+   - 2.4 [Sistema de Registro de Preços - SRP e Regras do Carona (Arts. 82 a 86)](#24-sistema-de-registro-de-preços---srp-e-regras-do-carona-arts-82-a-86)
+   - 2.5 [Registro Cadastral Unificado (Art. 87)](#25-registro-cadastral-unificado-art-87)
+3. [Processo Administrativo de Contratação Direta (Art. 72)](#3-processo-administrativo-de-contratação-direta-art-72)
+4. [Inexigibilidade de Licitação (Art. 74 - Inviabilidade de Competição)](#4-inexigibilidade-de-licitação-art-74---inviabilidade-de-competição)
+   - 4.1 [Fornecedor e Prestador Exclusivo (Inciso I)](#41-fornecedor-e-prestador-exclusivo-inciso-i)
+   - 4.2 [Profissional do Setor Artístico Consagrado (Inciso II)](#42-profissional-do-setor-artístico-consagrado-inciso-ii)
+   - 4.3 [Serviços Técnicos Especializados e Notória Especialização (Inciso III)](#43-serviços-técnicos-especializados-e-notória-especialização-inciso-iii)
+   - 4.4 [Aquisição ou Locação de Imóvel Singular (Inciso V)](#44-aquisição-ou-locação-de-imóvel-singular-inciso-v)
+5. [Dispensa de Licitação (Art. 75 - Rol Taxativo)](#5-dispensa-de-licitação-art-75---rol-taxativo)
+   - 5.1 [Dispensa em Razão do Valor (Pequeno Valor - Incisos I e II)](#51-dispensa-em-razão-do-valor-pequeno-valor---incisos-i-e-ii)
+   - 5.2 [Dispensa por Emergência ou Calamidade Pública (Inciso VIII)](#52-dispensa-por-emergência-ou-calamidade-pública-inciso-viii)
+   - 5.3 [Licitação Deserta, Fracassada e Remanescente de Contrato](#53-licitação-deserta-fracassada-e-remanescente-de-contrato)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+7. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#7-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
 
 ---
 
 ## 📖 Teoria Aprofundada e Pontos Críticos
 
-### 1. Inexigibilidade x Dispensa de Licitação
+### 1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação
+
+A regra geral insculpida no art. 37, XXI, da CF/88 impõe a obrigatoriedade de licitar para obras, serviços, compras e alienações no setor público. Todavia, a própria Constituição ressalva "os casos especificados na legislação". A Nova Lei de Licitações (Lei nº 14.133/2021) estrutura a contratação direta sem certame competitivo em duas categorias nucleares: a **Inexigibilidade** e a **Dispensa**.
 
 ```mermaid
 flowchart TD
-    CONTRAT["Contratação Direta sem Licitação Prévia"] --> CRIT{"A competição entre fornecedores é viável?"}
-    CRIT -->|"NÃO É VIÁVEL<br/>(Inviabilidade fática ou jurídica)"| INEX["INEXIGIBILIDADE (Art. 74)<br/>• Rol EXEMPLIFICATIVO<br/>• Fornecedor exclusivo<br/>• Notória especialização intelectual<br/>• Artista consagrado<br/>• Imóvel singular<br/>• VEDADA para publicidade!"]
-    CRIT -->|"SIM, É VIÁVEL<br/>(Mas a lei autoriza não licitar)"| DISP["DISPENSA (Art. 75)<br/>• Rol TAXATIVO<br/>• Pequeno valor (compras e obras)<br/>• Emergência (máx. 1 ano, sem prorrogação)<br/>• Licitação deserta ou fracassada<br/>• Remanescente de obra"]
+    CONTRAT["Contratação Direta sem Licitação Prévia"] --> CRIT{"A competição entre potenciais fornecedores é viável?"}
+    CRIT -->|"NÃO É VIÁVEL<br/>(Inviabilidade fática, técnica ou jurídica de disputa)"| INEX["INEXIGIBILIDADE (Art. 74)<br/>• Rol EXEMPLIFICATIVO (numerus apertus)<br/>• Fornecedor exclusivo comprovado<br/>• Notória especialização intelectual<br/>• Artista consagrado pela crítica/público<br/>• Imóvel singularmente adequado<br/>• Credenciamento<br/>• VEDAÇÃO ABSOLUTA: Publicidade e propaganda!"]
+    CRIT -->|"SIM, É VIÁVEL<br/>(A disputa é plenamente possível, mas a lei autoriza dispensar)"| DISP["DISPENSA (Art. 75)<br/>• Rol TAXATIVO (numerus clausus)<br/>• Pequeno valor (compras, obras e serviços)<br/>• Emergência ou calamidade (máx. 1 ano, sem prorrogação)<br/>• Licitação deserta ou fracassada<br/>• Remanescente de obra ou serviço"]
 ```
+
+- **Inexigibilidade (Art. 74):** Configura-se sempre que houver **inviabilidade fática ou jurídica de competição**. Não há como comparar objetivamente propostas porque o objeto é único, o fornecedor é exclusivo ou a prestação decorre de dotes personalíssimos/intelectuais singulares. Por essa razão, a jurisprudência pacífica do TCU e a doutrina consagram que o rol do art. 74 é **exemplificativo** (*numerus apertus*), admitindo outros casos em que se comprove a impossibilidade fática de disputa.
+- **Dispensa (Art. 75):** A disputa concorrencial é plenamente viável no plano fático e de mercado, porém o legislador, sopesando critérios de economicidade, celeridade ou interesse público primário, optou por autorizar a Administração a não licitar. Em face de seu caráter derrogatório da regra constitucional, o rol do art. 75 é **taxativo** (*numerus clausus*), vedada interpretação extensiva ou analógica para criar novas hipóteses de dispensa.
 
 ---
 
 ### 2. Procedimentos Auxiliares da Lei nº 14.133/2021 (Art. 78)
 
-1. **Credenciamento (Art. 79):** Procedimento aberto em que a Administração credencia **todos os interessados** que preencham as condições do edital permanente. A remuneração é tabelada e prefixada pela Administração. Três hipóteses de cabimento:
-   - *Paralela e não excludente:* Vários credenciados atendem ao mesmo tempo (ex.: credenciamento de laboratórios para exames do Ipasgo).
-   - *A critério de terceiros:* O próprio cidadão atendido escolhe o prestador cadastrado (ex.: escolha de médico ou emissão de passagens).
-   - *Mercados fluidos:* Flutuação contínua e volátil de preços (ex.: combustíveis de frotas).
-2. **Pré-Qualificação (Art. 80):** Procedimento permanente para atestar previamente a qualificação técnica de licitantes (*subjetiva*) ou de bens e materiais (*objetiva*). A pré-qualificação é válida por no máximo **1 ano**.
-3. **Procedimento de Manifestação de Interesse - PMI (Art. 81):** Chamamento aberto a empresas e consultorias privadas para elaboração de projetos, levantamentos e estudos de viabilidade para futuras concessões ou PPPs. O autor do estudo **só é ressarcido pelo vencedor** da futura licitação, caso o projeto seja efetivamente utilizado.
-4. **Sistema de Registro de Preços - SRP (Arts. 82 a 86):** Procedimento para registrar formalmente preços para aquisições futuras.
-   - **Vigência da Ata:** **1 ano**, prorrogável por igual período até o máximo de **2 anos**.
-   - **Regras para o "Carona" (Órgão Não Participante - Art. 86):**
-     - Exige autorização prévia do órgão gerenciador e estudo de vantajosismo econômico;
-     - Limite individual por órgão não participante: até **50% dos quantitativos** da ata;
-     - Limite global de todas as caronas somadas: no máximo o **dobro (200% ou 2x)** do quantitativo de cada item registrado na ata.
+O art. 78 da Lei nº 14.133/2021 sistematizou cinco procedimentos auxiliares das licitações e contratações administrativas:
+1. Credenciamento;
+2. Pré-qualificação;
+3. Procedimento de Manifestação de Interesse (PMI);
+4. Sistema de Registro de Preços (SRP);
+5. Registro Cadastral.
+
+#### 2.1 Credenciamento (Art. 79)
+O credenciamento é o procedimento administrativo pelo qual a Administração convoca, mediante **edital de chamamento público com inscrições permanentemente abertas**, todos os interessados que preencham os requisitos previamente definidos para prestar serviços ou fornecer bens. 
+
+No credenciamento, a Administração **não escolhe um único vencedor**: ela contrata **todos** os interessados habilitados, remunerando-os segundo uma tabela fixa de preços definida pelo próprio Poder Público. As hipóteses legais de cabimento são taxativas:
+1. **Paralela e não excludente:** Caso em que é viável e vantajosa a contratação simultânea de vários prestadores para atender à demanda da Administração (ex.: credenciamento de laboratórios e clínicas de imagens para atender os segurados do plano de saúde dos servidores estaduais).
+2. **Com seleção a critério de terceiros:** A definição do contratado compete ao próprio usuário final ou beneficiário do serviço (ex.: credenciamento de profissionais médicos em que o próprio paciente escolhe o especialista cadastrado, ou credenciamento de companhias aéreas em que o servidor escolhe o voo).
+3. **Em mercados fluidos:** Hipótese em que a flutuação constante de preços e a exigência de rapidez tornam inviável a fixação antecipada por licitação tradicional, realizando-se cotação volátil em tempo real no momento de cada contratação (ex.: compra de combustíveis para abastecimento de frota pública em trânsito).
+
+> 🚨 **ALERTA DE PROVA / FCC:**  
+> A Lei nº 14.133/2021 tratou o credenciamento sob dupla face: no art. 78, como **procedimento auxiliar**, e no art. 74, inciso IV, como modalidade expressa de **inexigibilidade de licitação**. Como não há disputa concorrencial entre os credenciados (todos que cumprem os requisitos são credenciados sob tabela prefixada), há inviabilidade jurídica de competição, caracterizando a inexigibilidade formal da contratação.
+
+#### 2.2 Pré-Qualificação Subjetiva e Objetiva (Art. 80)
+A pré-qualificação é o procedimento técnico-administrativo técnico permanente aberto a qualquer interessado para atestar antecipadamente:
+- **Pré-qualificação Subjetiva:** A habilitação jurídica, técnica, fiscal e econômico-financeira de licitantes que reúnam condições de participar de futuras licitações;
+- **Pré-qualificação Objetiva:** A conformidade técnica e operacional de bens, produtos ou serviços que atendam às exigências técnicas e padrões mínimos de desempenho da Administração.
+
+A pré-qualificação é realizada mediante chamamento público aberto permanentemente. A validade da pré-qualificação é de **no máximo 1 (um) ano**, podendo ser atualizada a qualquer tempo pelos interessados ou revogada de ofício pela Administração quando comprovada perda dos requisitos originais. A pré-qualificação pode ser realizada em grupos ou segmentos determinados e sua existência permite agilizar certames posteriores com dispensa de reapresentação de documentos já convalidados.
+
+#### 2.3 Procedimento de Manifestação de Interesse - PMI (Art. 81)
+O Procedimento de Manifestação de Interesse (PMI) é o chamamento público facultativo dirigido a pessoas físicas ou jurídicas de direito privado para a propositura e realização de estudos, investigações, levantamentos e projetos de soluções inovadoras que subsidiem futuras concessões comuns, parcerias público-privadas (PPPs), concessões de serviços públicos ou grandes projetos de infraestrutura.
+
+Regras estruturais do PMI:
+- O chamamento público define o escopo, as diretrizes e os critérios objetivos para aprovação dos projetos.
+- A mera participação no PMI **não gera qualquer direito** a ressarcimento financeiro automático, indenização ou preferência no futuro certame licitatório.
+- O autor do projeto selecionado e efetivamente utilizado na licitação só será ressarcido financeiramente **pelo vencedor da futura licitação**, sendo essa obrigação expressamente consignada no instrumento convocatório.
+
+#### 2.4 Sistema de Registro de Preços - SRP e Regras do Carona (Arts. 82 a 86)
+O SRP é um conjunto de procedimentos para registro formal de preços relativos à prestação de serviços, obras e aquisição e locação de bens para contratações futuras e incertas. 
+
+Adoção do SRP é recomendada quando:
+- As demandas forem frequentes e rotineiras;
+- For conveniente a aquisição parcelada para entregas contínuas;
+- For impossível prever com exatidão prévia o quantitativo total a ser demandado no exercício financeiro.
+
+A formalização do SRP ocorre por meio da **Ata de Registro de Preços (ARP)**, documento vinculativo e obrigacional com características de compromisso para futuras contratações.
+
+**Regras de Vigência da Ata de Registro de Preços:**
+- O prazo de vigência da ARP é de **1 (um) ano**, prorrogável por igual período (máximo de **2 anos**), desde que comprovada documentalmente a manutenção da vantajosidade dos preços registrados.
+
+**Figuras do SRP:**
+- **Órgão Gerenciador:** Responsável pela condução do certame licitatório e pelo gerenciamento global da ARP.
+- **Órgão Participante:** Órgão que participou dos procedimentos iniciais do planejamento do certame e integrou a ata desde sua origem com quantitativos próprios estimados.
+- **Órgão Não Participante ("Carona"):** Órgão que não participou do certame licitatório, mas solicita aderir tardiamente à ARP gerenciada por outro ente federativo ou órgão da Administração.
+
+**Limites Imperativos para Adesão Tardia do Carona (Art. 86 da Lei 14.133/2021):**
+A concessão de adesão exige autorização do órgão gerenciador, aceitação pelo fornecedor e demonstração analítica de vantagem econômica pelo carona. A NLLC impôs barreiras matemáticas severas contra abusos:
+1. **Limite Individual por Órgão Não Participante (Art. 86, § 4º):** A contratação adicional não poderá exceder a **50% (cinquenta por cento)** dos quantitativos registrados na ata para o órgão gerenciador e para os órgãos participantes.
+2. **Limite Global de TODAS as Adesões Somadas (Art. 86, § 5º):** O quantitativo total decorrente do conjunto de todas as caronas autorizadas não poderá ultrapassar, na totalidade, ao **dobro (200% ou 2x)** do quantitativo de cada item registrado na ata.
 
 ```mermaid
 flowchart LR
-    ATA["Ata do SRP: 10.000 unidades"] --> CARONA_IND["Limite por Órgão Carona:<br/>Até 50% = 5.000 unidades"]
-    ATA --> CARONA_GLOB["Limite Global de TODAS as caronas:<br/>Até o Dobro (2x) = 20.000 unidades"]
+    ATA["Ata do SRP:<br/>10.000 unidades registradas"] --> CARONA_IND["Limite por Órgão Carona:<br/>Até 50% = 5.000 unidades"]
+    ATA --> CARONA_GLOB["Limite Global de TODAS as caronas somadas:<br/>Até o Dobro (2x) = 20.000 unidades"]
 ```
+
+> ⚠️ **RESTRIÇÃO FEDERATIVA (Art. 86, § 8º):**  
+> É vedada aos órgãos e entidades da Administração Pública Federal a adesão a ata de registro de preços gerenciada por órgão ou entidade estadual, distrital ou municipal. Em contrapartida, órgãos estaduais e municipais podem aderir a atas federais, desde que obedecidos os limites legais.
+
+#### 2.5 Registro Cadastral Unificado (Art. 87)
+A Lei nº 14.133/2021 impõe a criação do sistema de registro cadastral unificado, operacionalizado no Portal Nacional de Contratações Públicas (PNCP), de acesso público e permanente. O registro cadastral simplifica a verificação de regularidade fiscal, trabalhista e qualificação econômico-financeira de licitantes, dispensando os inscritos da apresentação física de certidões válidas já integradas digitalmente ao sistema.
 
 ---
 
-### 3. Principais Hipóteses de Dispensa de Licitação (Art. 75)
+### 3. Processo Administrativo de Contratação Direta (Art. 72)
 
-#### 3.1 Dispensa em Razão do Valor (Incisos I e II)
-- Obras e serviços de engenharia ou manutenção de veículos automotores (valor atualizado periodicamente por decreto).
-- Compras em geral e outros serviços (valor atualizado periodicamente por decreto).
-- **Proibição de Fracionamento:** O limite deve ser verificado considerando o somatório de todas as despesas da mesma natureza realizadas no mesmo exercício financeiro pela respectiva unidade gestora.
-- Os limites são **duplicados** para compras realizadas por consórcios públicos e agências executivas.
+Tanto a dispensa quanto a inexigibilidade não significam informalidade ou ausência de procedimento. O art. 72 da Lei nº 14.133/2021 estabelece que o processo de contratação direta deve ser obrigatoriamente instruído com os seguintes elementos mínimos sob pena de nulidade:
+1. Documento de formalização da demanda e, se for o caso, Estudo Técnico Preliminar (ETP);
+2. Termo de Referência (TR), anteprojeto, projeto básico ou projeto executivo;
+3. Estimativa de despesa calculada na forma do art. 23 da Lei;
+4. Demonstração de previsão dos recursos orçamentários em dotação própria;
+5. Comprovação de que o contratado preenche os requisitos de habilitação e qualificação mínima exigida;
+6. Justificativa expressa de preço (comprovando compatibilidade com o mercado praticado);
+7. Razão da escolha do contratado ou executante;
+8. Parecer jurídico do órgão de assessoramento advocatício da Administração e eventuais pareceres técnicos;
+9. Autorização expressa e motivação emanada da autoridade máxima competente.
 
-#### 3.2 Dispensa por Emergência ou Calamidade Pública (Inciso VIII)
-- Destinada a afastar risco de danos a pessoas, obras, serviços ou bens públicos.
-- **Duração Máxima:** Contratos firmados sob esta hipótese vigoram pelo prazo máximo de **1 (um) ano** contado da data de ocorrência da emergência.
-- **VEDAÇÕES ABSOLUTAS:**
-  1. É **terminantemente proibida a prorrogação** dos contratos emergenciais;
-  2. É **proibida a recontratação de empresa** que deu causa à emergência por inexecução culposa de contrato anterior.
+> 📢 **Eficácia no PNCP (Art. 94 e Art. 72, parágrafo único):**  
+> O ato que autoriza a contratação direta ou o respectivo extrato de contrato deve ser publicado e divulgado obrigatoriamente no **Portal Nacional de Contratações Públicas (PNCP)** no prazo de **10 (dez) dias úteis**, contado da data de sua assinatura, como condição indispensável para sua eficácia jurídica perante terceiros.
 
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A emergência fabricada por inércia ou omissão de gestores públicos **não impede** a contratação emergencial necessária para evitar dano à população, mas impõe a abertura de processo de apuração de responsabilidade para punir os agentes omissos que deram causa à emergência.
+---
+
+### 4. Inexigibilidade de Licitação (Art. 74 - Inviabilidade de Competição)
+
+A inexigibilidade é caracterizada pela inviabilidade fática ou jurídica de certame licitatório. O rol do art. 74 é **exemplificativo**. As hipóteses legais expressas são:
+
+#### 4.1 Fornecedor e Prestador Exclusivo (Inciso I)
+- Aquisição de materiais, equipamentos ou gêneros, ou contratação de serviços que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivo.
+- **Comprovação Formal Obrigatória:** Atestado emitido pelo órgão de registro do comércio local, pelo sindicato, federação ou confederação patronal, ou entidade equivalente.
+- **Vedação à Preferência de Marca:** É expressamente vedada a indicação de marca, modelo ou preferência injustificada na fase preparatória que venha a fabricar artificialmente uma exclusividade mercantil.
+
+#### 4.2 Profissional do Setor Artístico Consagrado (Inciso II)
+- Contratação de profissional de qualquer setor artístico, diretamente ou por meio de empresário exclusivo.
+- **Requisito Subjetivo:** O artista deve ser consagrado pela crítica especializada ou pela opinião pública regional/nacional.
+- **Empresário Exclusivo:** A lei exige a representação por empresário exclusivo de fato (com contrato de exclusividade arquivado e de ampla duração), vedada a intermediação por agenciadores eventuais que recebem procurações de ocasião apenas para o evento licitado.
+
+#### 4.3 Serviços Técnicos Especializados e Notória Especialização (Inciso III)
+A contratação direta sem licitação para serviços técnicos especializados exige cumulativamente três requisitos fundamentais:
+1. Que o serviço seja de natureza **predominantemente intelectual** e enquadrado no rol do art. 67 (pareceres, perícias, laudos, assessorias técnicas, patrocínio ou defesa de causas judiciais e administrativas, auditorias financeiras e tributárias, restauração de obras de arte, treinamento e aperfeiçoamento de pessoal);
+2. Que seja executado por profissional ou empresa de **notória especialização** (cujo conceito, histórico profissional, titulação, pesquisas e trabalhos anteriores permitam inferir que seu trabalho é indiscutivelmente o mais adequado e essencial à plena satisfação do objeto);
+3. Que o serviço possua natureza **singular** (características peculiares que afastam a padronização comum de mercado).
+
+> 🚫 **VEDAÇÃO ABSOLUTA DA NLLC (Art. 74, § 3º):**  
+> É **vedada a inexigibilidade de licitação para serviços de publicidade e divulgação**. Campanhas publicitárias institucionais e propaganda governamental exigem compulsoriamente licitação com rito regulado pela Lei Federal nº 12.232/2010 (julgamento por melhor técnica ou técnica e preço, com subcomissão técnica imparcial).
+
+#### 4.4 Aquisição ou Locação de Imóvel Singular (Inciso V)
+- Aquisição ou locação de imóvel cujas características de instalações e de localização tornem necessária sua escolha pela Administração.
+- **Requisitos Formais:** Exige avaliação prévia de mercado, certificação da inexistência de imóveis públicos vagos adequados e justificativa técnica detalhada comprovando a singularidade do imóvel para o desempenho das atividades institucionais.
+
+---
+
+### 5. Dispensa de Licitação (Art. 75 - Rol Taxativo)
+
+A dispensa de licitação ocorre em circunstâncias nas quais a competição entre particulares seria perfeitamente viável, mas a lei autoriza a Administração a contratar diretamente por razões de eficiência, utilidade ou conveniência coletiva. O rol do art. 75 é **taxativo** (*numerus clausus*).
+
+#### 5.1 Dispensa em Razão do Valor (Pequeno Valor - Incisos I e II)
+- **Inciso I:** Obras e serviços de engenharia ou serviços de manutenção de veículos automotores (valor-base de R$ 100.000,00 na publicação da lei, reajustado anualmente por decreto federal).
+- **Inciso II:** Outros serviços e compras em geral (valor-base de R$ 50.000,00 na publicação da lei, reajustado anualmente por decreto federal).
+- **Vedação ao Fracionamento Ilícito (§ 1º do art. 75):** Para fins de aferição dos valores-limite, deve ser considerado o somatório do que for despendido no mesmo **exercício financeiro** pela mesma **unidade gestora** com objetos de **mesma natureza**, entendidos como aqueles relativos a contratações no mesmo ramo de atividade econômica.
+- **Duplicação de Limites (§ 2º):** Os valores-limite são duplicados (2x) para contratações realizadas por consórcios públicos e agências executivas.
+
+#### 5.2 Dispensa por Emergência ou Calamidade Pública (Inciso VIII)
+- Aplica-se em situações de emergência ou calamidade pública quando caracterizada urgência de atendimento de situação que possa ocasionar prejuízo ou comprometer a segurança de pessoas, obras, serviços, equipamentos e outros bens, públicos ou particulares.
+- Destina-se exclusivamente à contratação de bens e serviços necessários ao atendimento da situação emergencial concreta, no limite do estritamente indispensável.
+
+**Inovações Capitais da Lei 14.133/2021 sobre Emergência:**
+1. **Prazo de Vigência Contratual:** O contrato emergencial terá prazo máximo de vigência de até **1 (um) ano**, contado da data de ocorrência da emergência (superando o antigo limite de 180 dias da Lei 8.666/93).
+2. **Vedação Absoluta de Prorrogação:** É **expressamente proibida a prorrogação** dos contratos administrativos emergenciais firmados sob este inciso.
+3. **Vedação de Recontratação da Empresa Causadora:** É expressamente vedada a recontratação de empresa que tenha dado causa à situação emergencial ou de calamidade por inexecução culposa ou inadimplemento de contrato anterior.
+
+> 🚨 **ALERTA DE PROVA / FCC:**  
+> A ocorrência de "emergência fabricada" — isto é, decorrente da desídia, inércia ou omissão de gestores públicos que deixaram de licitar a tempo um contrato continuado — **não impede** a contratação emergencial quando o interesse coletivo exigir a continuidade do serviço ou preservação de vidas. Todavia, a NLLC e a jurisprudência sumulada do TCU determinam que a autoridade deve determinar imediatamente a instauração de processo administrativo para apuração de responsabilidade dos agentes que deram causa à emergência por dolo ou negligência.
+
+#### 5.3 Licitação Deserta, Fracassada e Remanescente de Contrato
+- **Licitação Deserta (Art. 75, III, "a"):** Licitação na qual não compareceu nenhum licitante interessado (ausência de propostas). A dispensa é autorizada se comprovado que nova licitação causaria prejuízo à Administração e desde que sejam mantidas todas as condições preestabelecidas no edital primitivo.
+- **Licitação Fracassada (Art. 75, III, "b"):** Certame em que todas as propostas apresentadas foram desclassificadas (preços abusivos ou desconformidade técnica) ou todos os licitantes foram inabilitados. A dispensa exige a comprovação de prejuízo na repetição do certame e a estrita manutenção das condições do edital.
+- **Remanescente de Obra, Serviço ou Fornecimento (Art. 75, VII):** Ocorre após a rescisão contratual de ajuste anterior. A contratação direta é facultada aos demais licitantes classificados no certame original, atendida a ordem de classificação originária e desde que o convocado aceite celebrar o contrato nas mesmas condições econômicas propostas pelo licitante vencedor original.
 
 ---
 
 ## 🌐 Fontes Recomendadas na Internet
-- [Lei Federal nº 14.133/2021 - Artigos 71 a 86 (Contratação Direta e SRP)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art71)
-  - Dispositivos completos sobre inexigibilidade, dispensa, credenciamento e adesão tardia ao SRP.
-- [Decreto Federal nº 11.462/2023 (Regulamento Federal do SRP)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11462.htm)
-  - Normas regulamentares do Sistema de Registro de Preços e limites do carona.
-- [Jurisprudência Selecionada do TCU sobre Contratações Diretas](https://pesquisa.apps.tcu.gov.br/)
-  - Entendimentos fixados sobre comprovação de notória especialização e vedação de fracionamento de despesa.
+- [Lei Federal nº 14.133/2021 - Artigos 71 a 88 (Contratação Direta e Procedimentos Auxiliares)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art71)
+  - Normas legais completas sobre credenciamento, pré-qualificação, SRP, dispensa e inexigibilidade.
+- [Decreto Federal nº 11.462/2023 - Regulamento do Sistema de Registro de Preços](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11462.htm)
+  - Regulamento federal das regras de gestão da ARP e limites objetivos de adesão por caronas.
+- [Jurisprudência Selecionada do Tribunal de Contas da União (TCU)](https://pesquisa.apps.tcu.gov.br/)
+  - Acórdãos essenciais sobre emergência fabricada, notória especialização e vedação ao fracionamento indevido.
 
 ---
 
@@ -139,20 +232,14 @@ C) É obrigatória a deflagração de Concorrência de Menor Preço, sendo vedad
 D) A contratação é nula, pois serviços técnicos intelectuais devem ser contratados exclusivamente mediante a modalidade Pregão Eletrônico.  
 E) A hipótese deve ser processada obrigatoriamente por Leilão com lances decrescentes de honorários sucumbenciais.  
 
-> **Gabarito: A**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Art. 74, inciso III, alínea "c", da Lei Federal nº 14.133/2021:  
->    É **inexigível** a licitação para a contratação de serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de **notória especialização**, especificamente para: *"patrocínio ou defesa de causas judiciais ou administrativas"*, bem como pareceres e perícias (alínea "b").  
-> 2. Pelo conceito do art. 6º, XIX, considera-se de notória especialização o profissional cujo conceito no campo de sua especialidade decorre de desempenho anterior, estudos, experiências e publicações que permitam inferir que seu trabalho é essencial e indiscutivelmente o mais adequado à plena satisfação do objeto.  
-> 3. Trata-se de hipótese clássica de inviabilidade de competição por critérios objetivos de menor preço, qualificando a **inexigibilidade de licitação**.  
->  
-> **Análise das Alternativas:**  
-> - **A) CORRETA:** Subsunção literal ao art. 74, III, da Lei nº 14.133/2021.  
-> - **B) Incorreta:** Não é caso de dispensa (art. 75), mas sim de inviabilidade de disputa por inexigibilidade (art. 74).  
-> - **C) Incorreta:** A contratação direta de serviços jurídicos por notória especialização é expressamente autorizada pela lei.  
-> - **D) Incorreta:** Serviços intelectuais com notória especialização não se enquadram em pregão de serviços comuns.  
-> - **E) Incorreta:** Leilão é modalidade de alienação de bens.
+> **Comentário Detalhado:**
+> - **A) CORRETA:** Conforme o art. 74, inciso III, alínea "c", da Lei nº 14.133/2021, é inexigível a licitação para a contratação de serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização, notadamente para o patrocínio ou defesa de causas judiciais ou administrativas, bem como para emissão de pareceres e perícias (alínea "b"). A notória especialização e a natureza singular do debate constitucional inviabilizam a disputa por menor preço, justificando plenamente a inexigibilidade.
+> - **B) Incorreta:** O fundamento não reside em dispensa emergencial (art. 75, VIII), mas na inviabilidade fática de comparação de propostas pelo mérito intelectual do especialista (inexigibilidade, art. 74).
+> - **C) Incorreta:** A contratação direta de serviços técnicos jurídicos intelectuais por inexigibilidade é expressamente autorizada pela NLLC, não se exigindo concorrência.
+> - **D) Incorreta:** O pregão destina-se a bens e serviços comuns com padrões objetivos de desempenho no mercado, não se aplicando a serviços intelectuais singulares de notória especialização.
+> - **E) Incorreta:** O leilão é modalidade destinada à alienação de bens públicos a quem oferecer maior lance, descabendo para contratação de serviços intelectuais.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -167,20 +254,14 @@ C) A NLLC proibiu terminantemente qualquer adesão tardia por órgãos caronas n
 D) O somatório de todas as caronas concedidas durante a validade da ata não possui teto financeiro ou quantitativo.  
 E) O limite individual do carona é de 10% e o limite global é de 30% dos quantitativos registrados.  
 
-> **Gabarito: B**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Art. 86, § 4º, da Lei Federal nº 14.133/2021:  
->    *"As aquisições ou as contratações adicionais a que se refere o § 2º deste artigo não poderão exceder, por órgão ou entidade, a **50% (cinquenta por cento)** dos quantitativos dos itens do instrumento convocatório e registrados na ata de registro de preços para o órgão gerenciador e para os órgãos participantes."*  
-> 2. Além disso, o § 5º estabelece que o quantitativo decorrente de todas as adesões não poderá exceder, na totalidade, ao **dobro** do quantitativo de cada item registrado na ata.  
-> 3. Logo, para a autarquia consulente, o teto máximo de aquisição por adesão individual corresponde a 50% de 20.000 caixas, ou seja, 10.000 caixas.  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta:** O limite individual é de 50%, e não 100%.  
-> - **B) CORRETA:** Reproduz fielmente a regra expressa do art. 86, § 4º, da Lei 14.133/2021.  
-> - **C) Incorreta:** A figura do carona continua permitida, mas submetida a limites objetivos estritos.  
-> - **D) Incorreta:** Há limite global acumulado imperativo fixado no dobro dos quantitativos da ata.  
-> - **E) Incorreta:** Percentuais incorretos.
+> **Comentário Detalhado:**
+> - **A) Incorreta:** O limite individual fixado pela lei é de até 50% do quantitativo do item registrado, e não 100%.
+> - **B) CORRETA:** De acordo com o art. 86, § 4º, da Lei nº 14.133/2021, as aquisições ou as contratações adicionais por órgão não participante não poderão exceder, por órgão ou entidade individual, a 50% (cinquenta por cento) dos quantitativos dos itens do instrumento convocatório e registrados na ata para o gerenciador e participantes.
+> - **C) Incorreta:** A NLLC não proibiu a adesão tardia do carona, mas submeteu o instituto a rígidos limites objetivos (50% individual e 2x global).
+> - **D) Incorreta:** Há teto global imperativo: conforme o art. 86, § 5º, a soma de todas as adesões de caronas não poderá exceder, na totalidade, ao dobro (200% ou 2x) do quantitativo de cada item registrado na ata.
+> - **E) Incorreta:** Os limites estipulados pela Lei 14.133/2021 são de 50% individual e o dobro global, e não 10% e 30%.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -195,21 +276,14 @@ C) É obrigatória a contratação da mesma empresa que construiu a ponte origin
 D) A dispensa emergencial exige a realização prévia de audiência pública presencial com prazo de 60 dias de antecedência.  
 E) A vigência do contrato emergencial é fixada no prazo máximo improrrogável de 180 dias.  
 
-> **Gabarito: A**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Art. 75, inciso VIII, da Lei Federal nº 14.133/2021:  
->    É dispensável a licitação nos casos de emergência ou calamidade pública para a contratação das parcelas que possam ser concluídas no prazo máximo de **1 (um) ano**, contado da data de ocorrência da emergência da qual decorreu a contratação.  
-> 2. A NLLC inovou expressamente em relação à antiga Lei 8.666/93:  
->    - O prazo máximo passou de 180 dias para **1 ano**;  
->    - A lei proibiu categoricamente: *"vedada a prorrogação dos respectivos contratos e a recontratação de empresa já contratada com base no disposto neste inciso."*  
->  
-> **Análise das Alternativas:**  
-> - **A) CORRETA:** Expressão literal das regras do art. 75, VIII, da Lei 14.133/2021 (prazo de 1 ano e vedação absoluta de prorrogação).  
-> - **B) Incorreta:** A prorrogação de contrato emergencial é terminantemente proibida pela NLLC.  
-> - **C) Incorreta:** É vedada a recontratação de empresa que tenha dado causa à emergência por inexecução anterior.  
-> - **D) Incorreta:** A emergência é incompatível com ritos delongados de audiências prévias.  
-> - **E) Incorreta:** 180 dias era a regra da antiga Lei 8.666/93; a NLLC fixou o prazo em 1 ano.
+> **Comentário Detalhado:**
+> - **A) CORRETA:** Conforme o art. 75, inciso VIII, da Lei nº 14.133/2021, nas contratações por emergência ou calamidade pública, a vigência do contrato administrativo é de no máximo 1 (um) ano, contado da ocorrência da emergência, sendo expressamente vedada a prorrogação dos respectivos contratos e vedada a recontratação de empresa que tenha dado causa à emergência.
+> - **B) Incorreta:** A prorrogação de contrato emergencial é terminantemente proibida pela Lei 14.133/2021, inexistindo possibilidade de prorrogação decenal.
+> - **C) Incorreta:** Se a empresa anterior deu causa culposa ou estrutural ao colapso, sua recontratação é expressamente proibida pelo art. 75, VIII.
+> - **D) Incorreta:** A natureza urgente e inadiável da calamidade pública repele audiências públicas prévias com prazos dilatados de 60 dias.
+> - **E) Incorreta:** O prazo de 180 dias era a regra da antiga Lei nº 8.666/1993; a NLLC inovou expressamente fixando o teto em até 1 ano improrrogável.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -224,20 +298,14 @@ C) A inexigibilidade é lícita desde que o valor total da campanha não ultrapa
 D) A publicidade institucional dispensa qualquer licitação sempre que visar a divulgação de turismo regional.  
 E) A contratação direta deveria ter ocorrido sob a modalidade Diálogo Competitivo com chancela do Tribunal de Contas.  
 
-> **Gabarito: B**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Art. 74, § 3º, da Lei Federal nº 14.133/2021:  
->    *"É vedada a inexigibilidade de licitação para serviços de publicidade e divulgação."*  
-> 2. O legislador nacional vedou expressamente a contratação direta por inexigibilidade de serviços de publicidade e propaganda, obrigando o Poder Público a realizar licitação sob as normas da Lei Federal nº 12.232/2010 (julgamento por melhor técnica ou técnica e preço, com subcomissão técnica imparcial).  
-> 3. Trata-se de vedação absoluta e taxativa, sendo nulo o ato de contratação direta.  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta:** Por vedação legal expressa do § 3º do art. 74, serviços de publicidade jamais admitem inexigibilidade de licitação.  
-> - **B) CORRETA:** Aplicação direta do art. 74, § 3º, da Lei nº 14.133/2021.  
-> - **C) Incorreta:** A proibição legal independe do valor econômico da campanha.  
-> - **D) Incorreta:** Publicidade governamental submete-se compulsoriamente a certame licitatório.  
-> - **E) Incorreta:** Diálogo Competitivo é modalidade de licitação, não contratação direta sem disputa.
+> **Comentário Detalhado:**
+> - **A) Incorreta:** Embora a agência possua reputação e prêmios, a lei veda de forma absoluta a inexigibilidade para publicidade e propaganda.
+> - **B) CORRETA:** O art. 74, § 3º, da Lei nº 14.133/2021 estabelece taxativamente: *"É vedada a inexigibilidade de licitação para serviços de publicidade e divulgação."* Tais serviços exigem compulsoriamente certame licitatório regulado pela Lei Federal nº 12.232/2010.
+> - **C) Incorreta:** A vedação é material e absoluta, não dependendo de teto ou valor da contratação.
+> - **D) Incorreta:** Não existe hipótese de dispensa ou inexigibilidade genérica para publicidade governamental, ainda que de fomento ao turismo.
+> - **E) Incorreta:** Diálogo Competitivo é modalidade licitatória destinada à inovação tecnológica e soluções complexas sem padrão de mercado, não se aplicando à veiculação ordinária de publicidade.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -252,19 +320,11 @@ C) Dispensa de licitação por fracionamento contínuo de despesa
 D) Sistema de Registro de Preços para contratação em lote fechado exclusivo  
 E) Leilão invertido com disputa de lances decrescentes  
 
-> **Gabarito: B**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Art. 79 da Lei Federal nº 14.133/2021:  
->    O **Credenciamento** é o procedimento auxiliar de contratação em que a Administração convoca, por meio de edital público permanentemente aberto, todos os interessados que preencham os requisitos previamente definidos.  
-> 2. Hipótese legal específica atendida (art. 79, I e II):  
->    - *Paralela e não excludente:* Há viabilidade e necessidade de contratação simultânea de múltiplos prestadores para o mesmo serviço;  
->    - *A critério de terceiros:* A determinação do prestador do serviço compete ao próprio usuário final (o cidadão/paciente atendido escolhe onde deseja consultar).  
-> 3. A remuneração é uniforme e tabelada previamente pelo Poder Público.  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta:** Concorrência pressupõe seleção excludente do vencedor com proposta mais vantajosa.  
-> - **B) CORRETA:** Definição doutrinária e legal precisa do procedimento auxiliar de Credenciamento (art. 79 da NLLC).  
-> - **C) Incorreta:** Trata-se de procedimento auxiliar regular de credenciamento, e não de fracionamento ilícito de dispensa.  
-> - **D) Incorreta:** No SRP há disputa competitiva de preços com seleção do fornecedor registrado.  
-> - **E) Incorreta:** Leilão é para alienação de bens com maior lance.
+> **Comentário Detalhado:**
+> - **A) Incorreta:** A concorrência visa selecionar uma proposta vencedora excludente, enquanto no credenciamento todos os que preenchem as condições são contratados.
+> - **B) CORRETA:** Configura fielmente o procedimento auxiliar de Credenciamento previsto nos arts. 78, I, e 79 da Lei nº 14.133/2021. Trata-se de hipótese paralela e não excludente com seleção a critério de terceiros (o usuário final do SUS escolhe o prestador) com remuneração tabelada e uniforme previamente fixada pelo Poder Público.
+> - **C) Incorreta:** O credenciamento é procedimento legal e plenamente legítimo, não se confundindo com burla ou fracionamento indevido de dispensa.
+> - **D) Incorreta:** O SRP destina-se ao registro de preços unitários para aquisições parceladas futuras mediante seleção concorrencial do menor preço, e não credenciamento de todos os interessados sob tabela pública.
+> - **E) Incorreta:** O leilão destina-se à alienação de bens públicos para o maior lance.
+> 
+> **Gabarito: B**

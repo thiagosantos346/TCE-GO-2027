@@ -3,6 +3,7 @@
 > **Matéria:** Noções de Direito Constitucional  
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `02_direitos_e_garantias_fundamentais_e_politicos.md`  
+> **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
 ---
 
@@ -18,80 +19,34 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-2. Direitos e Garantias Fundamentais, Cidadania e Regime Político-Partidário
-├── 2.1 Teoria Geral e Direitos Individuais e Coletivos (Art. 5º)
-│   ├── 2.1.1 Características: Universalidade, imprescritibilidade, inalienabilidade, irrenunciabilidade e relatividade
-│   ├── 2.1.2 Dimensões de Eficácia: Eficácia Vertical, Eficácia Horizontal (Drittwirkung) e Eficácia Diagonal
-│   ├── 2.1.3 Inviolabilidade de Domicílio (Art. 5º, XI):
-│   │   ├── Regra geral: A casa é asilo inviolável, ninguém nela podendo penetrar sem consentimento
-│   │   ├── Exceções a qualquer hora (dia ou noite): Flagrante delito, desastre ou prestar socorro
-│   │   └── Exceção estrita diurna: Por determinação judicial (APENAS DURANTE O DIA)
-│   ├── 2.1.4 Inviolabilidade das Comunicações e Sigilo de Dados (Art. 5º, XII):
-│   │   ├── Sigilo de correspondência, telegrafia e dados: Quebra por ordem judicial e comissões parlamentares
-│   │   └── Interceptação telefônica: Cláusula de reserva de jurisdição (exclusiva do Poder Judiciário), para fins de investigação criminal ou instrução processual penal
-│   ├── 2.1.5 Liberdade de Associação (Art. 5º, XVII a XXI):
-│   │   ├── Plena liberdade para fins lícitos, vedada a de caráter paramilitar
-│   │   ├── Criação de associações independe de autorização estatal; vedada interferência estatal
-│   │   ├── Suspensão de atividades: Exige decisão judicial (mesmo liminar)
-│   │   ├── Dissolucao compulsória: Exige decisão judicial transitada em julgado
-│   │   └── Representação processual em juízo: Exige autorização expressa (Tema 82/STF)
-│   ├── 2.1.6 Direito de Propriedade e Função Social (Art. 5º, XXII a XXVI):
-│   │   ├── Desapropriação ordinária: Necessidade/utilidade pública ou interesse social com prévia e justa indenização em dinheiro
-│   │   ├── Requisição administrativa: Iminente perigo público, uso transitório, indenização ulterior somente se houver dano
-│   │   └── Pequena propriedade rural trabalhada pela família: Impenhorável por débitos decorrentes da atividade produtiva
-│   └── 2.1.7 Princípios Penais e Processuais Penais Fundamentais:
-│       ├── Inafiançáveis e imprescritíveis: Racismo (Lei 7.716/89 e injúria racial) e ação de grupos armados contra a ordem constitucional
-│       ├── Inafiançáveis e insuscetíveis de graça ou anistia (3T + H): Tortura, Tráfico ilícito de entorpecentes, Terrorismo e Crimes Hediondos
-│       ├── Princípio da legalidade penal e irretroatividade: Lei não retroage, salvo para beneficiar o réu
-│       └── Tribunal do Júri: Plenitude de defesa, sigilo das votações, soberania dos veredictos e competência para crimes dolosos contra a vida
-├── 2.2 Remédios Constitucionais (*Writs*)
-│   ├── 2.2.1 Habeas Corpus (Art. 5º, LXVIII): Tutela a liberdade de locomoção (ir, vir e permanecer); gratuito; dispensa advogado
-│   ├── 2.2.2 Habeas Data (Art. 5º, LXXII): Acesso, retificação ou anotação de dados pessoais em bancos de entidades públicas ou de caráter público; gratuito; exige prova de recusa administrativa prévia (Súmula 2 do STJ)
-│   ├── 2.2.3 Mandado de Segurança Individual e Coletivo (Art. 5º, LXIX e LXX; Lei 12.016/2009): Direito líquido e certo (prova pré-constituída); subsidiário (não amparado por HC ou HD); prazo decadencial de 120 dias; oneroso
-│   ├── 2.2.4 Mandado de Injunção (Art. 5º, LXXI; Lei 13.300/2016): Combate à omissão legislativa total ou parcial inviabilizadora de direito constitucional; adota posição concretista intermediária
-│   └── 2.2.5 Ação Popular (Art. 5º, LXXIII; Lei 4.717/1965): Legitimidade exclusiva do CIDADÃO (eleitor); anulação de ato lesivo ao patrimônio público, moralidade, meio ambiente e patrimônio histórico; gratuita, salvo má-fé comprovada
-├── 2.3 Direitos Sociais (Arts. 6º a 11)
-│   ├── 2.3.1 Rol Fundamental do Art. 6º: Educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência social, proteção à maternidade e à infância, assistência aos desamparados
-│   └── 2.3.2 Direitos dos Trabalhadores (Art. 7º): Salário mínimo nacionalmente unificado, FGTS, irredutibilidade salarial salvo acordo/convenção, jornada de 8h/44h semanais, repouso semanal remunerado preferencialmente aos domingos, licença-maternidade (120 dias) e paternidade
-├── 2.4 Nacionalidade (Arts. 12 e 13)
-│   ├── 2.4.1 Brasileiro Nato: *Jus soli* (nascidos no Brasil, ainda que de pais estrangeiros, desde que estes não estejam a serviço de seu país) e *Jus sanguinis* (nascidos no exterior a serviço do Brasil ou com registro consular ou opção confirmatória)
-│   ├── 2.4.2 Brasileiro Naturalizado: Naturalização ordinária (países de língua portuguesa: 1 ano de residência ininterrupta + idoneidade moral) e extraordinária (mais de 15 anos ininterruptos sem condenação penal)
-│   ├── 2.4.3 Cargos Privativos de Nato (Art. 12, § 3º - Mnemônico MP3.COM):
-│   │   ├── M: Ministro do Supremo Tribunal Federal (todos os 11 Ministros)
-│   │   ├── P: Presidente e Vice-Presidente da República
-│   │   ├── P: Presidente da Câmara dos Deputados
-│   │   ├── P: Presidente do Senado Federal
-│   │   ├── C: Carreira diplomática
-│   │   ├── O: Oficial das Forças Armadas
-│   │   └── M: Ministro de Estado da Defesa
-│   └── 2.4.4 Novo Regime de Perda da Nacionalidade (Emenda Constitucional nº 131/2023):
-│       ├── Revogação da perda automática por naturalização voluntária no exterior
-│       ├── Perda voluntária: Exclusivamente a pedido expresso do cidadão perante autoridade competente
-│       └── Perda involuntária/judicial: Exclusiva para naturalizados em caso de fraude documental ou atentado contra a ordem constitucional
-└── 2.5 Direitos Políticos e Partidos Políticos (Arts. 14 a 17)
-    ├── 2.5.1 Exercício da Soberania Popular: Plebiscito (consulta prévia), Referendo (consulta posterior) e Iniciativa Popular
-    ├── 2.5.2 Capacidade Eleitoral Ativa (Alistabilidade e Voto):
-    │   ├── Obrigatórios: Maiores de 18 anos
-    │   ├── Facultativos: Maiores de 70 anos, analfabetos e jovens entre 16 e 18 anos
-    │   └── Inalistáveis e Inelegíveis: Estrangeiros e conscritos em serviço militar obrigatório
-    ├── 2.5.3 Capacidade Eleitoral Passiva (Idades Mínimas de Elegibilidade):
-    │   ├── 35 anos: Presidente, Vice-Presidente e Senador
-    │   ├── 30 anos: Governador e Vice-Governador de Estado e do DF
-    │   ├── 21 anos: Deputados (Federal, Estadual, Distrital), Prefeito, Vice-Prefeito e Juiz de Paz
-    │   └── 18 anos: Vereador
-    ├── 2.5.4 Inelegibilidade Reflexa e Súmula Vinculante 18: Inelegibilidade de cônjuge e parentes até 2º grau do Chefe do Executivo no respectivo território de jurisdição; dissolução do vínculo matrimonial durante o mandato não elide a inelegibilidade
-    ├── 2.5.5 Perda e Suspensão dos Direitos Políticos (Art. 15): Vedação à cassação; hipóteses taxativas (cancelamento de naturalização, incapacidade absoluta, condenação penal transitada em julgado, escusa de consciência, improbidade administrativa)
-    └── 2.5.6 Partidos Políticos (Art. 17): Autonomia interna, registro civil e no TSE, prestação de contas, vedação de financiamento estrangeiro e proibição de caráter paramilitar
-```
+## 🧭 Sumário
+1. [Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)](#1-teoria-geral-e-direitos-individuais-e-coletivos-art-5º-da-cf88)
+   - 1.1 [Características Fundamentais e Dimensões de Eficácia](#11-características-fundamentais-e-dimensões-de-eficácia)
+   - 1.2 [Inviolabilidade do Domicílio (Art. 5º, XI)](#12-inviolabilidade-do-domicílio-art-5º-xi)
+   - 1.3 [Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)](#13-inviolabilidade-das-comunicações-e-reserva-de-jurisdição-art-5º-xii)
+   - 1.4 [Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)](#14-liberdade-de-associação-e-limites-estatais-art-5º-xvii-a-xxi)
+   - 1.5 [Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC](#15-tratamento-constitucional-dos-crimes-o-quarteto-penal-da-fcc)
+2. [Remédios Constitucionais (Writs de Garantia)](#2-remédios-constitucionais-writs-de-garantia)
+   - 2.1 [Análise Comparativa dos Remédios Constitucionais](#21-análise-comparativa-dos-remédios-constitucionais)
+3. [Direitos Sociais (Arts. 6º a 11)](#3-direitos-sociais-arts-6º-a-11)
+4. [Teoria da Nacionalidade e a Nova Disciplina da Perda (Arts. 12 e 13)](#4-teoria-da-nacionalidade-e-a-nova-disciplina-da-perda-arts-12-e-13)
+   - 4.1 [Espécies de Nacionalidade Originária (Brasileiro Nato)](#41-espécies-de-nacionalidade-originária-brasileiro-nato)
+   - 4.2 [Brasileiro Naturalizado](#42-brasileiro-naturalizado)
+   - 4.3 [Cargos Privativos de Brasileiro Nato (Art. 12, § 3º - MP3.COM)](#43-cargos-privativos-de-brasileiro-nato-art-12-§-3º---mp3com)
+   - 4.4 [Perda da Nacionalidade: O Novo Regime da EC nº 131/2023](#44-perda-da-nacionalidade-o-novo-regime-da-ec-nº-1312023)
+5. [Direitos Políticos e Sistema Partidário (Arts. 14 a 17)](#5-direitos-políticos-e-sistema-partidário-arts-14-a-17)
+   - 5.1 [Alistamento Eleitoral e Voto](#51-alistamento-eleitoral-e-voto)
+   - 5.2 [Idades Mínimas de Elegibilidade (Capacidade Eleitoral Passiva)](#52-idades-mínimas-de-elegibilidade-capacidade-eleitoral-passiva)
+   - 5.3 [Inelegibilidade Reflexa (Art. 14, § 7º) e Súmula Vinculante 18](#53-inelegibilidade-reflexa-art-14-§-7º-e-súmula-vinculante-18)
+   - 5.4 [Perda e Suspensão dos Direitos Políticos (Art. 15 da CF/88)](#54-perda-e-suspensão-dos-direitos-políticos-art-15-da-cf88)
+6. [Fontes Oficiais & Doutrinárias Recomendadas](#6-fontes-oficiais--doutrinárias-recomendadas)
+7. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#7-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
 
 ---
 
 ## 📖 Conteúdo Teórico Aprofundado
 
-### 1. Teoria Geral e Direitos Fundamentais em Espécie (Art. 5º da CF/88)
+### 1. Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)
 
 #### 1.1 Características Fundamentais e Dimensões de Eficácia
 - **Inexistência de Direitos Absolutos (Relatividade):** Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional. Nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a").
@@ -236,7 +191,7 @@ flowchart TD
 - **Naturalização Ordinária (Art. 12, II, "a"):** Para originários de países de língua portuguesa: residência por **1 ano ininterrupto** e idoneidade moral. Para os demais estrangeiros: preenchimento dos requisitos da Lei de Migração (Lei nº 13.445/2017).
 - **Naturalização Extraordinária / Quinzenária (Art. 12, II, "b"):** Estrangeiros de qualquer nacionalidade, residentes no Brasil há mais de **15 anos ininterruptos** e sem condenação penal, desde que requeiram a nacionalidade brasileira.
 
-#### 4.3 Cargos Privativos de Brasileiro Nato (Art. 12, § 3º)
+#### 4.3 Cargos Privativos de Brasileiro Nato (Art. 12, § 3º - MP3.COM)
 A Carta Magna proíbe distinções entre brasileiros natos e naturalizados, salvo nos casos expressamente previstos no próprio texto constitucional. A lista taxativa de cargos privativos é resumida pelo mnemônico consagrado **MP3.COM**:
 
 ```mermaid
@@ -256,8 +211,6 @@ flowchart TD
 > - **Deputados e Senadores Comuns:** Podem ser brasileiros naturalizados! Apenas os cargos de **Presidente da Câmara** e **Presidente do Senado** são privativos de natos, pois figuram na linha de substituição presidencial sucessória (art. 80 da CF).  
 > - **Tribunais Superiores e Tribunais de Contas:** Ministros do STJ, Ministros do TST, Ministros do STM e Conselheiros/Ministros de Tribunais de Contas (TCU e TCE-GO) **podem ser brasileiros naturalizados**. Apenas os 11 Ministros do STF devem ser natos!  
 > - **Ministros de Estado:** Apenas o **Ministro da Defesa** precisa ser nato. Todos os demais Ministros de Estado (Fazenda, Justiça, Planejamento etc.) podem ser naturalizados.
-
----
 
 #### 4.4 Perda da Nacionalidade: O Novo Regime da EC nº 131/2023
 A Emenda Constitucional nº 131, promulgada no final de 2023, reformulou integralmente o regime de perda da nacionalidade:
@@ -337,7 +290,7 @@ A Constituição Federal estabelece: **"É VEDADA a cassação de direitos polí
 
 ---
 
-## 📝 Questões Comentadas no Padrão FCC
+## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
 
 ### Questão 1 (FCC - Adaptada / Analista Judiciário)
 Determinado servidor público estadual lotado no Tribunal de Contas teve ciência de que existem registros funcionais desabonadores a seu respeito nos bancos de dados informatizados de caráter público do órgão, contendo incorreções fáticas quanto à apuração de sua assiduidade e conduta funcional. O servidor formulou requerimento formal solicitando a retificação de seus dados cadastrais, pedido que foi expressamente indeferido pela autoridade administrativa sem qualquer fundamentação jurídica plausível.
@@ -350,14 +303,14 @@ C) Mandado de Injunção, em virtude da omissão do órgão público em editar p
 D) Ação Popular, promovida pelo servidor em face da autoridade coatora com pedido de indenização civil por danos morais.  
 E) Habeas Corpus, haja vista que a inserção de anotações incorretas tolhe indiretamente a liberdade de locomoção do servidor público.  
 
-> **Gabarito: B**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** O Mandado de Segurança é cabível para proteção de direito líquido e certo não amparado por *Habeas Corpus* ou *Habeas Data* (caráter residual expresso no art. 5º, LXIX). Existindo remédio específico (*Habeas Data* para retificação de dados próprios), o MS não tem cabimento, além de não ser constitucionalmente gratuito.  
-> - **B) CORRETA:** Conforme o art. 5º, LXXII, "b" da CF/88, o *Habeas Data* concede-se para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso. O art. 5º, LXXVII garante expressamente a gratuidade do remédio. Ademais, a Súmula 2 do STJ exige a comprovação da recusa ao requerimento administrativo, requisito plenamente atendido no caso fático.  
-> - **C) INCORRETA:** O Mandado de Injunção (art. 5º, LXXI) presta-se exclusivamente a sanar a falta de norma regulamentadora que torne inviável o exercício dos direitos e liberdades constitucionais. Não é instrumento para retificar dados cadastrais existentes.  
-> - **D) INCORRETA:** A Ação Popular (art. 5º, LXXIII) visa a anular ato lesivo ao patrimônio público, moralidade administrativa, meio ambiente ou patrimônio histórico/cultural, não possuindo como objeto a tutela individual de dados cadastrais funcionais de servidor nem pretensão indenizatória estritamente privada.  
-> - **E) INCORRETA:** O *Habeas Corpus* (art. 5º, LXVIII) tutela tão somente a liberdade de locomoção física (direito de ir, vir e ficar). Problemas de cadastro funcional não afetam a locomoção do cidadão.
+> **Comentário Detalhado:**
+> - **A) Incorreta:** O Mandado de Segurança é cabível para proteção de direito líquido e certo não amparado por *Habeas Corpus* ou *Habeas Data* (caráter residual expresso no art. 5º, LXIX). Existindo remédio específico (*Habeas Data* para retificação de dados próprios), o MS não tem cabimento, além de não ser constitucionalmente gratuito.  
+> - **B) CORRETA:** Conforme o art. 5º, LXXII, "b", da CF/88, o *Habeas Data* concede-se para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso. O art. 5º, LXXVII, garante expressamente a gratuidade das ações de *Habeas Data*. Ademais, a Súmula 2 do STJ exige a comprovação da recusa ao requerimento administrativo, requisito plenamente atendido no caso fático.  
+> - **C) Incorreta:** O Mandado de Injunção (art. 5º, LXXI) presta-se exclusivamente a sanar a falta de norma regulamentadora que torne inviável o exercício dos direitos e liberdades constitucionais. Não é instrumento para retificar dados cadastrais existentes.  
+> - **D) Incorreta:** A Ação Popular (art. 5º, LXXIII) visa a anular ato lesivo ao patrimônio público, moralidade administrativa, meio ambiente ou patrimônio histórico/cultural, não possuindo como objeto a tutela individual de dados cadastrais funcionais de servidor nem pretensão indenizatória estritamente privada.  
+> - **E) Incorreta:** O *Habeas Corpus* (art. 5º, LXVIII) tutela tão somente a liberdade de locomoção física (direito de ir, vir e ficar). Problemas de cadastro funcional não afetam a locomoção do cidadão.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -376,17 +329,17 @@ C) Apenas a situação II é viável, pois a idade mínima para Governador de Es
 D) Apenas a situação III é admitida, sendo vedado o mandato de Deputado Federal a brasileiros naturalizados.  
 E) Todas as três situações são expressamente vedadas pela Carta Magna.  
 
-> **Gabarito: A**  
->
-> **Análise detalhada de cada alternativa:**  
+> **Comentário Detalhado:**
 > - **A) CORRETA:**  
->   - *Situação I é válida:* O art. 14, § 3º, VI, "b" da CF/88 fixa a idade mínima de 30 anos para Governador e Vice-Governador de Estado e do DF. Arthur possui 32 anos e é nato, preenchendo todos os requisitos.  
+>   - *Situação I é válida:* O art. 14, § 3º, VI, "b", da CF/88 fixa a idade mínima de 30 anos para Governador e Vice-Governador de Estado e do DF. Arthur possui 32 anos e é nato, preenchendo todos os requisitos.  
 >   - *Situação II é válida:* Apenas o cargo de *Presidente da Câmara dos Deputados* é privativo de brasileiro nato (art. 12, § 3º, II). Deputados Federais comuns podem ser brasileiros naturalizados, e a idade mínima exigida é de 21 anos (art. 14, § 3º, VI, "c"), atendida por Beatriz (28 anos).  
 >   - *Situação III é inconstitucional:* Todos os 11 cargos de Ministro do Supremo Tribunal Federal são privativos de **brasileiro nato** (art. 12, § 3º, IV). Cláudio, sendo naturalizado, jamais poderá assumir cadeira no STF.  
-> - **B) INCORRETA:** Erra ao incluir a situação III, manifestamente inconstitucional.  
-> - **C) INCORRETA:** A idade mínima para Governador é 30 anos, e não 35 anos (35 anos é para Presidente, Vice e Senador).  
-> - **D) INCORRETA:** Deputados Federais podem ser naturalizados; apenas a presidência da Casa legislativa exige nacionalidade originária.  
-> - **E) INCORRETA:** As situações I e II cumprem perfeitamente os ditames constitucionais.
+> - **B) Incorreta:** Erra ao incluir a situação III, manifestamente inconstitucional.  
+> - **C) Incorreta:** A idade mínima para Governador é 30 anos, e não 35 anos (35 anos é para Presidente, Vice e Senador).  
+> - **D) Incorreta:** Deputados Federais podem ser naturalizados; apenas a presidência da Casa legislativa exige nacionalidade originária.  
+> - **E) Incorreta:** As situações I e II cumprem perfeitamente os ditames constitucionais.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -405,13 +358,17 @@ C) I e III, apenas.
 D) I, apenas.  
 E) I, II e III.  
 
-> **Gabarito: B**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **Item I - FALSO:** Conforme o teor literal da **Súmula Vinculante nº 18 do STF**, a dissolução da sociedade ou do vínculo conjugal no curso do mandato eletivo **não afasta** a inelegibilidade reflexa prevista no art. 14, § 7º da CF/88.  
-> - **Item II - VERDADEIRO:** Reproduz integralmente o art. 5º, XI da CF/88. A determinação judicial só autoriza o ingresso durante o dia, enquanto as situações de emergência (flagrante delito, desastre ou prestar socorro) legitimam a entrada tanto de dia quanto de noite.  
-> - **Item III - VERDADEIRO:** De acordo com o art. 5º, incisos XLII e XLIV da CF/88, o racismo e a ação de grupos armados são os dois únicos grupos de crimes taxados pela Constituição como concomitantemente **inafiançáveis e imprescritíveis**.  
-> - Portanto, estão corretos apenas os itens II e III (Alternativa B).
+> **Comentário Detalhado:**
+> - **A) Incorreta:** O item I é incorreto nos termos da Súmula Vinculante nº 18 do STF.
+> - **B) CORRETA:**  
+>   - *Item I (Falso):* Conforme o teor da **Súmula Vinculante nº 18 do STF**, a dissolução da sociedade ou do vínculo conjugal no curso do mandato eletivo **não afasta** a inelegibilidade reflexa prevista no art. 14, § 7º, da CF/88.  
+>   - *Item II (Verdadeiro):* Reproduz integralmente o art. 5º, XI, da CF/88. A determinação judicial só autoriza o ingresso durante o dia, enquanto as situações de emergência (flagrante delito, desastre ou prestar socorro) legitimam a entrada tanto de dia quanto de noite.  
+>   - *Item III (Verdadeiro):* De acordo com o art. 5º, incisos XLII e XLIV, da CF/88, o racismo e a ação de grupos armados são os dois únicos grupos de crimes taxados pela Constituição como concomitantemente **inafiançáveis e imprescritíveis**.  
+> - **C) Incorreta:** O item I é falso.
+> - **D) Incorreta:** O item I é falso e os itens II e III são verdadeiros.
+> - **E) Incorreta:** O item I é falso.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -424,14 +381,14 @@ C) A condenação criminal transitada em julgado acarreta a suspensão dos direi
 D) A criação de associação de moradores independe de autorização do Poder Público, mas suas atividades podem ser compulsoriamente dissolvidas por ato motivado do Secretário de Segurança Pública.  
 E) São condições de elegibilidade para o cargo de Vereador a nacionalidade brasileira, o alistamento eleitoral, o domicílio eleitoral na circunscrição e a idade mínima de vinte e um anos completos.  
 
-> **Gabarito: C**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** O *caput* do art. 15 da CF/88 determina expressamente: **"É vedada a cassação de direitos políticos"**. O ordenamento brasileiro não admite a cassação sob nenhuma hipótese.  
-> - **B) INCORRETA:** Conforme o art. 14, § 8º, I e II da CF/88, o militar com *menos de dez anos* de serviço deverá afastar-se definitivamente da atividade; já o militar com *mais de dez anos* de serviço será agregado pela autoridade superior e, se eleito, passará automaticamente, no ato da diplomação, para a inatividade.  
-> - **C) CORRETA:** O art. 15, III da CF/88 estabelece a suspensão dos direitos políticos em decorrência de condenação criminal transitada em julgado enquanto durarem seus efeitos. Conforme pacificado pelo STF e pelo TSE (Súmula 9/TSE), a suspensão é efeito automático da condenação e persiste durante todo o cumprimento da pena, alcançando inclusive os beneficiados por sursis, livramento condicional ou pena restritiva de direitos.  
-> - **D) INCORRETA:** Conforme o art. 5º, XIX da CF/88, a dissolução compulsória de associações exige **decisão judicial transitada em julgado**, sendo terminantemente vedada a dissolução por ato administrativo de autoridade do Poder Executivo.  
-> - **E) INCORRETA:** A idade mínima para o cargo de Vereador é de **18 anos** (art. 14, § 3º, VI, "d"), e não 21 anos.
+> **Comentário Detalhado:**
+> - **A) Incorreta:** O *caput* do art. 15 da CF/88 determina expressamente: **"É vedada a cassação de direitos políticos"**. O ordenamento brasileiro não admite a cassação sob nenhuma hipótese.  
+> - **B) Incorreta:** Conforme o art. 14, § 8º, I e II, da CF/88, o militar com *menos de dez anos* de serviço deverá afastar-se definitivamente da atividade; já o militar com *mais de dez anos* de serviço será agregado pela autoridade superior e, se eleito, passará automaticamente, no ato da diplomação, para a inatividade.  
+> - **C) CORRETA:** O art. 15, III, da CF/88 estabelece a suspensão dos direitos políticos em decorrência de condenação criminal transitada em julgado enquanto durarem seus efeitos. Conforme pacificado pelo STF e pelo TSE (Súmula 9/TSE), a suspensão é efeito automático da condenação e persiste durante todo o cumprimento da pena, alcançando inclusive os beneficiados por sursis, livramento condicional ou pena restritiva de direitos.  
+> - **D) Incorreta:** Conforme o art. 5º, XIX, da CF/88, a dissolução compulsória de associações exige **decisão judicial transitada em julgado**, sendo terminantemente vedada a dissolução por ato administrativo de autoridade do Poder Executivo.  
+> - **E) Incorreta:** A idade mínima para o cargo de Vereador é de **18 anos** (art. 14, § 3º, VI, "d"), e não 21 anos.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -446,11 +403,11 @@ C) Não perde a nacionalidade brasileira pela mera aquisição voluntária da ci
 D) Passará automaticamente à condição de brasileiro naturalizado, perdendo o direito de concorrer a qualquer cargo eletivo no Brasil.  
 E) Perderá compulsoriamente a nacionalidade brasileira por sentença do juiz federal competente, por ter adotado fidelidade política a nação estrangeira.  
 
-> **Gabarito: C**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** A regra da perda automática da nacionalidade pela aquisição voluntária de outra foi expressamente revogada pela Emenda Constitucional nº 131/2023. Atualmente, a aquisição voluntária de outra nacionalidade não afeta a condição de brasileiro nato.  
-> - **B) INCORRETA:** O Congresso Nacional e o MRE não possuem atribuição constitucional para decretar a perda de nacionalidade por representação política.  
-> - **C) CORRETA:** Com a nova redação dada ao art. 12, § 4º da Constituição pela EC nº 131/2023, o brasileiro só perde a nacionalidade originária se fizer pedido expresso de renúncia perante autoridade brasileira competente, desde que essa renúncia não o transforme em apátrida. A aquisição de nacionalidade estrangeira não gera mais perda automática!  
-> - **D) INCORRETA:** A Constituição não prevê "rebaixamento" de brasileiro nato para naturalizado. Marcos continua sendo brasileiro nato com todos os seus direitos políticos e civis resguardados.  
-> - **E) INCORRETA:** O cancelamento de nacionalidade por sentença judicial por atividade nociva ao interesse nacional / atentado contra a ordem constitucional aplica-se exclusivamente aos **brasileiros naturalizados** (art. 12, § 4º, I). O brasileiro nato nunca perde a nacionalidade por sentença judicial.
+> **Comentário Detalhado:**
+> - **A) Incorreta:** A regra da perda automática da nacionalidade pela aquisição voluntária de outra foi expressamente revogada pela Emenda Constitucional nº 131/2023. Atualmente, a aquisição voluntária de outra nacionalidade não afeta a condição de brasileiro nato.  
+> - **B) Incorreta:** O Congresso Nacional e o MRE não possuem atribuição constitucional para decretar a perda de nacionalidade por representação política.  
+> - **C) CORRETA:** Com a nova redação dada ao art. 12, § 4º, da Constituição pela EC nº 131/2023, o brasileiro só perde a nacionalidade originária se fizer pedido expresso de renúncia perante autoridade brasileira competente, desde que essa renúncia não o transforme em apátrida. A aquisição de nacionalidade estrangeira não gera mais perda automática!  
+> - **D) Incorreta:** A Constituição não prevê "rebaixamento" de brasileiro nato para naturalizado. Marcos continua sendo brasileiro nato com todos os seus direitos políticos e civis resguardados.  
+> - **E) Incorreta:** O cancelamento de nacionalidade por sentença judicial por atividade nociva ao interesse nacional / atentado contra a ordem constitucional aplica-se exclusivamente aos **brasileiros naturalizados** (art. 12, § 4º, I). O brasileiro nato nunca perde a nacionalidade por sentença judicial.
+> 
+> **Gabarito: C**

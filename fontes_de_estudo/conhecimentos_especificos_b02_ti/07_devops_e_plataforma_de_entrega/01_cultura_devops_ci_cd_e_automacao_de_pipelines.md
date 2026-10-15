@@ -17,59 +17,42 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-1. Cultura DevOps, Ciclo de CI/CD e Automação de Pipelines
-├── 1.1 Fundamentos da Cultura DevOps
-│   ├── 1.1.1 Definição: Quebra de silos entre Desenvolvimento (Dev), Operações (Ops) e Qualidade (QA)
-│   ├── 1.1.2 Framework CALMS: Culture (Cultura), Automation (Automação), Lean (Enxuto), Measurement (Medição), Sharing (Compartilhamento)
-│   ├── 1.1.3 As Três Vias do DevOps (Gene Kim / The Phoenix Project):
-│   │   ├── 1ª Via: Fluxo Rápido da Esquerda para a Direita (Systems Thinking / Redução de Lead Time)
-│   │   ├── 2ª Via: Amplificação dos Ciclos de Feedback (Encurtamento do tempo de resposta a falhas)
-│   │   └── 3ª Via: Cultura de Experimentação Contínua e Aprendizado Organizacional
-│   └── 1.1.4 Métricas DORA (DevOps Research and Assessment):
-│       ├── Deployment Frequency (Frequência de Deploy)
-│       ├── Lead Time for Changes (Tempo de Lead para Mudanças)
-│       ├── Change Failure Rate (Taxa de Falha em Mudanças)
-│       └── Time to Restore Service / MTTR (Tempo Médio de Recuperação)
-├── 1.2 O Espectro de Automação: CI vs. CD (Delivery vs. Deployment)
-│   ├── 1.2.1 Integração Contínua (CI):
-│   │   ├── Commits frequentes no branch principal (Trunk-Based / branches de vida curta)
-│   │   ├── Automação compulsória de compilação (build) e suítes de testes unitários
-│   │   └── Princípio "Stop the Line" (Andon Cord): build quebrado paralisa novos merges
-│   ├── 1.2.2 Entrega Contínua (Continuous Delivery - CD):
-│   │   ├── Software permanentemente pronto para produção (Release Candidate contínuo)
-│   │   ├── Ambientes de homologação/staging automatizados com testes de carga e integração
-│   │   └── Gatilho Manual (Manual Gate / Aprovação de Negócio) para entrada em produção
-│   └── 1.2.3 Implantação Contínua (Continuous Deployment - CD):
-│       └── Promoção automática para o ambiente produtivo sem intervenção humana após passar por todos os gates automatizados
-├── 1.3 Estratégias Modernas de Liberação (Deploy Strategies)
-│   ├── 1.3.1 Recreate (Downtime total durante atualização)
-│   ├── 1.3.2 Rolling Update (Atualização progressiva de nós/instâncias sem indisponibilidade)
-│   ├── 1.3.3 Blue-Green Deployment (Ambientes idênticos paralelos com chaveamento de roteador/balanceador)
-│   ├── 1.3.4 Canary Deployment (Roteamento de pequena fração percentual de tráfego para a versão nova)
-│   └── 1.3.5 Feature Toggles / Feature Flags e Dark Launching
-├── 1.4 Anatomia e Estágios de um Pipeline de CI/CD (DevSecOps)
-│   ├── 1.4.1 Linting, Formatação e Análise Estática de Código
-│   ├── 1.4.2 Análise de Segurança de Aplicações: SAST, DAST e SCA (Software Composition Analysis)
-│   ├── 1.4.3 Compilação e Build de Binários / Imagens de Contêineres
-│   ├── 1.4.4 Testes Automatizados (Pirâmide de Testes: Unitários, Integração, Contrato, E2E)
-│   ├── 1.4.5 Publicação de Artefatos em Registry Seguro (Docker Registry, Nexus, Artifactory)
-│   └── 1.4.6 Implantação e Smoke Tests pós-deploy
-└── 1.5 Plataformas e Ferramentas de Automação
-    ├── 1.5.1 GitHub Actions (Workflows, Events, Jobs, Steps, Runners, Secrets, Matrix)
-    ├── 1.5.2 GitLab CI/CD (Manifesto `.gitlab-ci.yml`, stages, artifacts, cache, rules, GitLab Runners)
-    └── 1.5.3 Jenkins (Arquitetura Controller-Agent, Jenkinsfile Declarativo vs. Scripted, Groovy DSL)
-```
+## 🧭 Sumário
+- [1. Fundamentos da Cultura DevOps](#1-fundamentos-da-cultura-devops)
+  - [1.1 Eliminação do Muro da Confusão e Responsabilidade Compartilhada](#11-eliminação-do-muro-da-confusão-e-responsabilidade-compartilhada)
+  - [1.2 O Framework C.A.L.M.S.](#12-o-framework-calms)
+  - [1.3 As Três Vias do DevOps](#13-as-três-vias-do-devops)
+  - [1.4 As Quatro Métricas DORA (DevOps Research and Assessment)](#14-as-quatro-métricas-dora-devops-research-and-assessment)
+- [2. O Espectro de Automação: CI vs. CD (Delivery vs. Deployment)](#2-o-espectro-de-automação-ci-vs-cd-delivery-vs-deployment)
+  - [2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line](#21-integração-contínua-ci-boas-práticas-trunk-based-e-princípio-stop-the-line)
+  - [2.2 Entrega Contínua (Continuous Delivery): O Release Candidate Permanente](#22-entrega-contínua-continuous-delivery-o-release-candidate-permanente)
+  - [2.3 Implantação Contínua (Continuous Deployment): Promoção Automática para Produção](#23-implantação-contínua-continuous-deployment-promoção-automática-para-produção)
+  - [2.4 Tabela Comparativa Detalhada: CI vs. Continuous Delivery vs. Continuous Deployment](#24-tabela-comparativa-detalhada-ci-vs-continuous-delivery-vs-continuous-deployment)
+- [3. Estratégias Modernas de Publicação (Deployment Strategies)](#3-estratégias-modernas-de-publicação-deployment-strategies)
+  - [3.1 Recreate (Recriação)](#31-recreate-recriação)
+  - [3.2 Rolling Update (Atualização Progressiva)](#32-rolling-update-atualização-progressiva)
+  - [3.3 Blue-Green Deployment (Azul-Verde)](#33-blue-green-deployment-azul-verde)
+  - [3.4 Canary Deployment (Canário)](#34-canary-deployment-canário)
+  - [3.5 Feature Flags / Feature Toggles e Dark Launching](#35-feature-flags--feature-toggles-e-dark-launching)
+- [4. Estrutura, Estágios e Segurança de Pipelines (DevSecOps)](#4-estrutura-estágios-e-segurança-de-pipelines-devsecops)
+  - [4.1 Estágios Canônicos: Lint, Análise Estática (SAST/SCA), Build, Testes e Registry](#41-estágios-canônicos-lint-análise-estática-sastsca-build-testes-e-registry)
+  - [4.2 Pirâmide de Testes Automatizados no Pipeline](#42-pirâmide-de-testes-automatizados-no-pipeline)
+- [5. Ferramentas de Automação: Sintaxe, Arquitetura e Manifestos](#5-ferramentas-de-automação-sintaxe-arquitetura-e-manifestos)
+  - [5.1 GitHub Actions: Workflows, Events, Jobs, Steps, Runners e Secrets](#51-github-actions-workflows-events-jobs-steps-runners-e-secrets)
+  - [5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners](#52-gitlab-cicd-stages-jobs-artifacts-cache-rules-e-runners)
+  - [5.3 Jenkins: Arquitetura Controller-Agent, Declarative Pipeline e Scripted Pipeline](#53-jenkins-arquitetura-controller-agent-declarative-pipeline-e-scripted-pipeline)
+- [6. Questões Comentadas & Prática Padrão FCC](#6-questões-comentadas--prática-padrão-fcc)
 
 ---
 
-## 📖 Resumo Teórico & Pontos-Chave Aprofundados
+## 1. Fundamentos da Cultura DevOps
 
-### 1. Cultura DevOps, Princípios e Métricas DORA
+A cultura DevOps surgiu como uma resposta essencial à ineficiência e aos conflitos crônicos entre os modelos tradicionais de desenvolvimento de software e de operação de infraestrutura. Em organizações convencionais com silos funcionais estanques, as equipes operam com incentivos conflitantes:
 
-A cultura DevOps surge da necessidade de eliminar o conflito de interesses histórico existente na Tecnologia da Informação tradicional: enquanto a equipe de **Desenvolvimento** busca *velocidade de entrega e mudança frequente*, a equipe de **Operações** busca *estabilidade, controle e previsibilidade*, gerando o clássico "Muro da Confusão" (*Wall of Confusion*).
+- A equipe de **Desenvolvimento (Dev)** é cobrada por velocidade de entrega, lançamento contínuo de novas funcionalidades e mudanças dinâmicas no sistema.
+- A equipe de **Operações (Ops)** é cobrada por estabilidade operacional, resiliência, disponibilidade ininterrupta (uptime) e contenção de riscos, vendo qualquer alteração no ambiente produtivo como uma ameaça potencial à estabilidade.
+
+Esse choque histórico consolidou o chamado **"Muro da Confusão" (*Wall of Confusion*)**: desenvolvedores empacotavam binários em suas máquinas locais e os "jogavam por cima do muro" para que a equipe de infraestrutura os instalasse manualmente em produção, gerando o clássico empasse *"Na minha máquina funciona, o problema é na infraestrutura"*.
 
 ```mermaid
 flowchart LR
@@ -90,37 +73,53 @@ flowchart LR
     end
 ```
 
-#### O Framework C.A.L.M.S.
-Sistematizado por Damon Edwards e John Willis, resume os pilares de avaliação da maturidade DevOps:
-- **C (Culture):** Foco nas pessoas, colaboração mútua, eliminação de culpa (*blameless post-mortems*).
-- **A (Automation):** Automação de pipelines de integração, testes, provisionamento de infraestrutura e deploys para eliminar erros humanos e tarefas repetitivas (*toil*).
-- **L (Lean):** Princípios da manufatura enxuta: redução de desperdício, trabalho em lotes pequenos (*small batch sizes*) e limitação do trabalho em progresso (*WIP - Work in Progress*).
-- **M (Measurement):** Telemetria contínua, visibilidade de métricas técnicas e de negócio.
-- **S (Sharing):** Compartilhamento de conhecimento, boas práticas, ferramentas e lições aprendidas entre todos os times.
+### 1.1 Eliminação do Muro da Confusão e Responsabilidade Compartilhada
 
-#### As Três Vias do DevOps (Gene Kim et al., *The Phoenix Project* e *The DevOps Handbook*)
-1. **Primeira Via (O Princípio do Fluxo):** Acelerar o fluxo de valor do Desenvolvimento (esquerda) para a Operação e Produção (direita). Requer tornar o trabalho visível, reduzir o tamanho dos lotes de entrega e evitar que defeitos sejam propagados downstream.
-2. **Segunda Via (O Princípio do Feedback):** Encurtar e amplificar os ciclos de feedback da direita (Operações/Produção) para a esquerda (Desenvolvimento). Se um erro ocorre em produção ou no pipeline, o time é notificado instantaneamente para corrigir a causa raiz.
-3. **Terceira Via (O Princípio do Aprendizado Contínuo e Experimentação):** Criar uma cultura de alta confiança que encoraje a experimentação, tomada de riscos calculados e aprendizado a partir de falhas, transformando o conhecimento local em melhoria global da organização.
+O DevOps quebra essa barreira através da fusão de processos, práticas colaborativas e ferramentas automatizadas, estabelecendo o princípio da **responsabilidade compartilhada de ponta a ponta** (*"You build it, you run it"*, sintetizado por Werner Vogels, CTO da Amazon). Sob essa ótica:
+- Desenvolvedores assumem a corresponsabilidade pelo comportamento da aplicação em produção, projetando sistemas já preparados para observabilidade, diagnóstico e tolerância a falhas.
+- Engenheiros de operações e infraestrutura fornecem plataformas automatizadas (*Platform Engineering*) como autosserviço (*Self-Service*), permitindo que os desenvolvedores criem ambientes, executem pipelines e realizem deploys seguros de forma autônoma.
+- Adota-se a cultura de post-mortems isentos de culpa (*Blameless Post-Mortems*), tratando falhas de produção não como erros individuais de programadores, mas como deficiências no sistema e nos processos que exigem automação de barreiras de proteção (*guardrails*).
 
-#### As Quatro Métricas DORA (*DevOps Research and Assessment*)
-A FCC frequentemente cobra as métricas científicas que diferenciam organizações de alta e baixa performance:
+### 1.2 O Framework C.A.L.M.S.
 
-| Métrica DORA | Dimensão | Definição | Organizações de Alta Performance |
-| :--- | :--- | :--- | :--- |
-| **Deployment Frequency (DF)** | Velocidade | Com que frequência o código é implantado com sucesso em produção | Múltiplos deploys por dia (sob demanda) |
-| **Lead Time for Changes (LTTC)** | Velocidade | Tempo decorrido desde o primeiro commit até o código estar em produção | Menos de 1 hora |
-| **Change Failure Rate (CFR)** | Estabilidade | Percentual de implantações que resultam em falha/degradação exigindo rollback, hotfix ou patch | 0% a 15% |
-| **Time to Restore Service (MTTR)** | Estabilidade | Tempo decorrido para restabelecer o serviço em caso de incidente ou indisponibilidade em produção | Menos de 1 hora |
+Sistematizado pioneiramente por Damon Edwards e John Willis (e posteriormente complementado por Jez Humble), o modelo conceitual **CALMS** define os cinco pilares essenciais para avaliar e evoluir a maturidade DevOps:
+
+1. **C (Culture - Cultura):** Transformação comportamental centrada em pessoas, confiança mútua, colaboração multidisciplinar e eliminação de silos. Prioriza a segurança psicológica da equipe para experimentar e inovar.
+2. **A (Automation - Automação):** Substituição de intervenções manuais propensas a erros por pipelines automatizados de build, testes, segurança, provisionamento de infraestrutura (IaC) e deploy. A automação elimina o trabalho repetitivo e sem valor agregado (*toil*).
+3. **L (Lean - Princípios Enxutos):** Aplicação dos princípios da manufatura enxuta (Sistema Toyota de Produção) ao ciclo de software: redução drástica de desperdícios, entregas frequentes em lotes pequenos (*small batch sizes*), redução do tempo de fila e limitação estrita do trabalho em progresso (*WIP - Work in Progress*).
+4. **M (Measurement - Medição):** Coleta contínua e visibilidade de telemetria, abrangendo métricas de negócio (conversões, faturamento), métricas técnicas de estabilidade (tempo de resposta, taxa de erros) e métricas de processo de entrega (como o framework DORA).
+5. **S (Sharing - Compartilhamento):** Disseminação aberta de conhecimento, ferramentas, erros, padrões arquiteturais e vitórias entre todos os setores da instituição, prevenindo a criação de novos "feudos" tecnológicos.
+
+### 1.3 As Três Vias do DevOps
+
+Formalizadas por Gene Kim, Kevin Behr e George Spafford nas obras seminais *The Phoenix Project* e *The DevOps Handbook*, as Três Vias estruturam as práticas dinâmicas da entrega contínua:
+
+1. **A Primeira Via (O Princípio do Fluxo):** Tem por objetivo acelerar a velocidade com que o valor transita da esquerda (Desenvolvimento e Requisitos) para a direita (Operações e Produção). Exige tornar o fluxo de trabalho visível (via quadros Kanban), limitar o trabalho em andamento (WIP), reduzir o tamanho dos lotes e criar barreiras que impeçam terminantemente a propagação de defeitos para etapas posteriores (*downstream*).
+2. **A Segunda Via (O Princípio do Feedback):** Busca encurtar e amplificar continuamente os ciclos de retorno da direita (Operações e Clientes em Produção) para a esquerda (Desenvolvimento). Isso significa que, se um bug surge em produção ou um teste falha no pipeline, os desenvolvedores recebem alarmes e telemetria em tempo real, permitindo identificar a causa raiz e corrigir o problema imediatamente antes que ele escale.
+3. **A Terceira Via (O Princípio do Aprendizado Contínuo e Experimentação):** Fomenta uma cultura organizacional de alta confiança que estimula a experimentação deliberada, a tomada de riscos calculados e o domínio da resiliência através da repetição e da prática. O conhecimento gerado a partir de sucessos e falhas locais é sistematicamente compartilhado e incorporado às práticas institucionais de toda a organização.
+
+### 1.4 As Quatro Métricas DORA (DevOps Research and Assessment)
+
+As métricas DORA resultam de quase uma década de pesquisas empíricas e rigor estatístico conduzidas pelo grupo fundado por Nicole Forsgren, Jez Humble e Gene Kim (posteriormente incorporado ao Google Cloud). A FCC cobra sistematicamente a classificação e os impactos dessas métricas:
+
+| Métrica DORA | Dimensão Operacional | Definição Precisa | Nível de Elite / Alta Performance | Nível Baixo |
+| :--- | :--- | :--- | :--- | :--- |
+| **Deployment Frequency (DF)** | **Throughput (Velocidade)** | Frequência com que a organização implanta com sucesso código no ambiente de produção. | **Múltiplos deploys por dia** (sob demanda contínua). | Menos de 1 deploy a cada 6 meses. |
+| **Lead Time for Changes (LTTC)** | **Throughput (Velocidade)** | Intervalo de tempo transcorrido desde o primeiro commit no controle de versão até a entrada efetiva em produção. | **Menos de 1 hora** (do commit ao deploy produtivo). | Entre 1 mês e 6 meses. |
+| **Change Failure Rate (CFR)** | **Stability (Estabilidade)** | Percentual de alterações enviadas para produção que resultam em falha operacional imediata (exigindo rollback, hotfix ou intervenção emergencial). | **0% a 15%** de taxa de falhas. | Mais de 45% a 60% de falhas. |
+| **Time to Restore Service (MTTR)** | **Stability (Estabilidade)** | Tempo médio necessário para restabelecer a operação normal do serviço quando ocorre um incidente de indisponibilidade em produção. | **Menos de 1 hora** (recuperação ágil via rollback ou fix-forward). | Mais de 1 semana a 1 mês. |
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A FCC adora tentar classificar as métricas DORA trocando seus eixos: *Lead Time for Changes* e *Deployment Frequency* medem **Taxa de Transferência / Velocidade (Throughput)**. Já *Change Failure Rate* e *Time to Restore Service* medem **Estabilidade / Confiabilidade**. Times de alta performance otimizam velocidade e estabilidade simultaneamente, quebrando o falso mito de que "implantar rápido aumenta as falhas".
+> A FCC adora elaborar afirmativas que tentam classificar incorretamente as dimensões das métricas DORA:
+> - **Throughput / Velocidade de Entrega:** *Deployment Frequency (DF)* e *Lead Time for Changes (LTTC)*.
+> - **Estabilidade / Confiabilidade do Sistema:** *Change Failure Rate (CFR)* e *Time to Restore Service (MTTR)*.
+> - **A GRANDE CONCLUSÃO CIENTÍFICA DORA:** Empresas de alta performance **NÃO sacrificam estabilidade em troca de velocidade**. Elas atingem alto throughput E alta estabilidade simultaneamente, quebrando o mito antiquado de que "entregar mais rápido produz mais erros".
 
 ---
 
-### 2. O Espectro de Automação: CI vs. CD (Delivery vs. Deployment)
+## 2. O Espectro de Automação: CI vs. CD (Delivery vs. Deployment)
 
-A evolução da automação de software divide-se em três etapas progressivas. Compreender a fronteira exata entre cada uma é questão recorrente em certas provas da FCC.
+A automação da esteira de publicação de software é composta por três patamares progressivos de maturidade. Compreender o limite exato de escopo e responsabilidade entre eles é matéria clássica em provas da FCC.
 
 ```mermaid
 flowchart TD
@@ -142,37 +141,64 @@ flowchart TD
     F -->|Aprovado por Humano| G
 ```
 
-#### Tabela Comparativa Detalhada: CI vs. Continuous Delivery vs. Continuous Deployment
+### 2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line
+
+Conforme consagrado por Martin Fowler, a **Integração Contínua (*Continuous Integration*)** é a prática de engenharia na qual os membros de um time integram suas alterações de código-fonte ao branch principal do repositório com alta frequência — preferencialmente **ao menos uma vez por dia**.
+
+**Práticas Fundamentais de CI:**
+1. **Repositório Central Único:** Todo o código, configurações e scripts de build residem em um repositório centralizado versionado.
+2. **Desenvolvimento em Tronco (*Trunk-Based Development*) ou Feature Branches Curtas:** Evita-se a criação de branches de desenvolvimento isoladas de longa duração. Branches que duram semanas acumulam conflitos de mesclagem complexos (*merge hell*). No modelo trunk-based, merges acontecem em ciclos diários.
+3. **Build Automatizado Autocontido:** A compilação da aplicação deve ser disparada automaticamente a cada push ou commit, operando a partir de um único comando de script (ex.: `mvn clean package`, `npm run build`), sem intervenção manual de ambiente.
+4. **Execução Obrigatória de Testes de Unidade e Linting:** A esteira de CI roda linters de código e baterias de testes unitários rápidos. A meta é que a validação de CI execute em menos de 10 minutos para não bloquear o fluxo do desenvolvedor.
+5. **O Princípio *Stop the Line* (Corda de Andon):** Inspirado no modelo de produção enxuta, se um commit quebra o build no branch principal, a equipe inteira deve suspender novas tarefas e priorizar a resolução imediata da quebra antes de efetuar novos merges. Manter o branch principal permanentemente verde (*always green*) é mandatório.
+
+### 2.2 Entrega Contínua (Continuous Delivery): O Release Candidate Permanente
+
+A **Entrega Contínua (*Continuous Delivery*)** expande o escopo da Integração Contínua para além dos testes unitários e da compilação:
+- Ela automatiza toda a preparação da aplicação até o limiar de produção. Cada alteração que passa pelos testes é empacotada em uma imagem ou binário e implantada automaticamente em ambientes de homologação (*staging*, *pre-prod*) estritamente idênticos à produção.
+- Nesse ambiente, o sistema é submetido a baterias automatizadas de testes de integração, testes de aceitação de negócio, testes de segurança estática e dinâmica, e testes de estresse/carga.
+- **Característica Definitiva:** O software é mantido em um estado **permanentemente pronto para entrar em produção (*deployable at any time*)**. Contudo, a efetiva promoção para o ambiente produtivo real depende de um **gatilho manual** (*Manual Gate* / decisão de negócio, liberação por diretoria ou janela de release programada).
+
+### 2.3 Implantação Contínua (Continuous Deployment): Promoção Automática para Produção
+
+A **Implantação Contínua (*Continuous Deployment*)** representa o nível máximo de maturidade na automação da esteira de entrega:
+- Elimina-se completamente qualquer intervenção humana, aprovação de comitê ou gatilho manual.
+- Toda modificação que passa com sucesso em 100% dos estágios automatizados do pipeline (CI + Staging + Gates de Segurança e Qualidade) é **promovida de forma instantânea e automática para os servidores de produção**.
+- **Pré-requisitos Mandatórios:** Exige cobertura massiva de testes automatizados, esteiras de análise estática sem falso-positivo, arquitetura resiliente com rollback automático disparado por telemetria e estratégias avançadas de liberação (como Canary ou Blue-Green).
+
+### 2.4 Tabela Comparativa Detalhada: CI vs. Continuous Delivery vs. Continuous Deployment
 
 | Característica | Integração Contínua (CI) | Entrega Contínua (Continuous Delivery) | Implantação Contínua (Continuous Deployment) |
 | :--- | :--- | :--- | :--- |
-| **Objetivo Principal** | Validar que o código de diferentes autores se integra sem conflitos ou erros de compilação. | Garantir que o software está **sempre em estado pronto para ser implantado** em produção a qualquer momento. | Colocar as alterações em produção nas mãos dos usuários finais de forma automatizada e contínua. |
-| **Frequência de Integração** | Diária ou várias vezes ao dia no branch principal (`main`/`trunk`). | Contínua (cada alteração gera um candidato a release). | Contínua (cada alteração aprovada em testes vai para produção). |
-| **Escopo dos Testes** | Testes de unidade, sintaxe, linters e testes de integração rápidos. | Testes de carga, contratos, ponta a ponta (E2E), segurança e regressão. | Idem ao Delivery, com monitoramento ativo e canary/health checks em produção. |
-| **Ambientes Envolvidos** | Servidor de CI/Runner temporário. | Runner de CI + Ambientes de Teste, QA e Homologação (Staging). | Todos os ambientes até a Produção real. |
-| **Gatilho de Produção** | Não contempla deploy em produção. | **MANUAL** (decisão humana, botão de deploy, janela de release de negócio). | **AUTOMÁTICO** (nenhuma intervenção humana; se os testes passaram, vai para produção). |
-| **Requisito Crítico** | Cultura de trunk-based ou feature branches muito curtas; testes rápidos (< 10 min). | Ambiente de staging estritamente idêntico à produção; automação total do processo de release. | Suíte de testes extremamente madura, telemetria em tempo real, capacidade de *rollback* automático. |
+| **Objetivo Primário** | Validar que o código de múltiplos desenvolvedores compila e se integra sem quebrar funcionalidades existentes. | Assegurar que o software está em **estado permanente de prontidão para deploy produtivo** a qualquer momento. | Disponibilizar novas alterações para os usuários finais em produção de maneira imediata e ininterrupta. |
+| **Frequência de Integração** | Diária ou múltiplas vezes ao dia no branch principal (`main`/`trunk`). | Contínua (cada lote de commits aprovados gera um novo *release candidate*). | Contínua (fluxo contínuo do commit até o servidor de produção). |
+| **Escopo dos Testes** | Análise sintática (linters), tipos estáticos e testes de unidade rápidos. | Testes de integração, de contrato, ponta a ponta (E2E), segurança (SAST/DAST) e carga. | Idem ao Delivery, acrescido de monitoramento ativo de telemetria e testes de saúde em produção. |
+| **Ambientes Envolvidos** | Runners de CI efêmeros (contêineres de build). | Runners de CI + Ambientes de Teste, QA e Staging/Homologação idênticos à produção. | Toda a cadeia de ambientes estendendo-se até o cluster de **Produção Real**. |
+| **Gatilho de Produção** | Não contempla publicação em produção. | **GATILHO MANUAL** (Decisão humana, clique em painel, aprovação de negócio). | **100% AUTOMÁTICO** (Nenhuma intervenção humana; commit aprovado nos testes vai direto para produção). |
+| **Fator Crítico de Sucesso** | Testes rápidos (< 10 min); disciplina estrita de resolução imediata de builds quebrados. | Automação total de provisionamento de staging; paridade estrita de infraestrutura dev/prod. | Monitoramento e observabilidade em tempo real com mecanismo de **rollback automatizado** sem intervenção humana. |
 
 > ⭐ **IMPORTANTE / REGRA DE OURO:**  
-> A diferença entre **Entrega Contínua (*Continuous Delivery*)** e **Implantação Contínua (*Continuous Deployment*)** resume-se ao **gatilho de ida para o ambiente de Produção**:  
-> - **Continuous Delivery:** A publicação em produção é acionada por uma **decisão humana (manual approval)**.  
-> - **Continuous Deployment:** A publicação em produção ocorre **100% via código e automação**, sem qualquer intervenção humana.
+> A fronteira conceitual cobrada em concursos entre **Continuous Delivery** e **Continuous Deployment** reside **exclusivamente no gatilho para o ambiente de Produção**:
+> - **Continuous Delivery:** A publicação em produção requer acionamento por **aprovação manual humana**.
+> - **Continuous Deployment:** A publicação em produção é **totalmente automatizada via software**, sem cliques ou autorizações manuais.
 
 ---
 
-### 3. Estratégias Modernas de Implantação (Deployment Strategies)
+## 3. Estratégias Modernas de Publicação (Deployment Strategies)
 
-Em arquiteturas modernas de microsserviços e contêineres, atualizar uma aplicação sem causar indisponibilidade (*zero downtime*) exige estratégias estruturadas:
+Em infraestruturas modernas baseadas em contêineres e microsserviços, a substituição de versões deve buscar a eliminação de indisponibilidade (*zero downtime*), a mitigação do raio de impacto (*blast radius*) e a rapidez de reversão (*rollback*).
 
-#### A. Recreate (Recriação)
-- Encerra completamente a versão antiga ($V1$) antes de iniciar a nova versão ($V2$).
-- **Vantagem:** Muito simples de implementar; sem incompatibilidade de esquemas de banco de dados concorrentes.
-- **Desvantagem:** Há **downtime** (indisponibilidade) perceptível para o usuário final durante a transição.
+### 3.1 Recreate (Recriação)
 
-#### B. Rolling Update (Atualização Progressiva)
-- Atualiza instâncias/pods de forma gradual. Por exemplo, de 4 réplicas, substitui 1 réplica por vez.
-- **Vantagem:** Sem downtime; não requer o dobro de capacidade de infraestrutura.
-- **Desvantagem:** Durante o rollout, coexistem versões diferentes ($V1$ e $V2$) atendendo tráfego simultaneamente, exigindo retrocompatibilidade estrita com a API e o banco de dados.
+- **Mecanismo:** Todas as instâncias da versão antiga ($V1$) são terminadas simultaneamente antes que qualquer instância da nova versão ($V2$) seja inicializada.
+- **Vantagens:** É a abordagem mais simples de configurar; não exige retrocompatibilidade de banco de dados, pois nunca coexistem versões diferentes executando simultaneamente.
+- **Desvantagens:** Gera **indisponibilidade obrigatória (*downtime*)** para os usuários durante o intervalo de desligamento da $V1$ e inicialização completa da $V2$. Inadmissível para sistemas críticos de fiscalização e arrecadação fiscal.
+
+### 3.2 Rolling Update (Atualização Progressiva)
+
+- **Mecanismo:** A substituição ocorre de forma gradual e incremental. Em um cluster com 4 réplicas de contêineres, uma instância antiga é terminada e substituída por uma nova réplica $V2$. Uma vez que a $V2$ passa nos testes de integridade (*readiness probes*), a próxima instância antiga é substituída, até que 100% dos nós estejam executando a versão $V2$.
+- **Vantagens:** Garante **zero downtime** sem a necessidade de alocar o dobro de recursos de infraestrutura. É a estratégia nativa padrão em orquestradores como o Kubernetes (`strategy: RollingUpdate`).
+- **Desvantagens:** Durante o processo de transição, instâncias da $V1$ e da $V2$ respondem concomitantemente às requisições dos usuários, exigindo que o banco de dados e as APIs sejam rigorosamente retrocompatíveis. Em caso de falha no meio do processo, o rollback demanda tempo para reverter progressivamente os nós alterados.
 
 ```mermaid
 flowchart LR
@@ -186,12 +212,12 @@ flowchart LR
     end
 ```
 
-#### C. Blue-Green Deployment (Azul-Verde)
-- Mantém dois ambientes idênticos em produção: um ativo recebendo todo o tráfego do usuário (**Blue**) e outro inativo (**Green**).
-- A nova versão é implantada e exaustivamente testada no ambiente **Green**.
-- Quando validado, o roteador/balanceador de carga (*Load Balancer* ou *Ingress Controller*) chaveia 100% do tráfego para **Green**.
-- Se houver qualquer anomalia crítica, o **rollback é quase instantâneo**, bastando comutar o balanceador de volta para **Blue**.
-- **Desvantagem:** Requer duplicidade de infraestrutura física/computacional (custo mais elevado).
+### 3.3 Blue-Green Deployment (Azul-Verde)
+
+- **Mecanismo:** Mantêm-se dois ambientes de produção fisicamente idênticos e isolados: o ambiente **Blue** (que está ativo atendendo 100% das requisições reais dos usuários) e o ambiente **Green** (que permanece ocioso em modo de espera).
+- **Fluxo Operacional:** A nova versão do software ($V2$) é instalada no ambiente Green. Nesse ambiente isolado, a equipe executa testes de fumaça (*smoke tests*), testes de carga e validações funcionais completas sem impactar os usuários reais.
+- **Comutação e Rollback:** Quando a versão Green é plenamente aprovada, o balanceador de carga (*Load Balancer*) ou controlador de entrada (*Ingress*) chaveia 100% do tráfego para Green, tornando-o o ambiente ativo. O ambiente Blue passa a ser o novo ambiente inativo. Caso surja uma falha catastrófica imprevista, o **rollback é instantâneo**: basta reverter a rota do balanceador de carga de volta para Blue em questão de milissegundos.
+- **Desvantagens:** Exige infraestrutura computacional duplicada, elevando os custos de nuvem ou de servidores locais.
 
 ```mermaid
 flowchart TD
@@ -203,10 +229,12 @@ flowchart TD
     style GREEN fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
 ```
 
-#### D. Canary Deployment (Canário)
-- A nova versão ($V2$) é colocada no ar ao lado da versão atual ($V1$), mas recebe apenas uma fração diminuta do tráfego real (ex.: 2% a 5%), direcionada via regras de roteamento (por cabeçalho HTTP, cookies ou porcentagem randômica).
-- O comportamento do canário é monitorado em tempo real por métricas de erro (HTTP 5xx), latência e uso de CPU.
-- Se as métricas forem saudáveis, a proporção é aumentada gradativamente (10%, 25%, 50%, 100%). Em caso de anomalia, o tráfego do canário é cancelado imediatamente, impactando o menor número possível de usuários.
+### 3.4 Canary Deployment (Canário)
+
+- **Origem do Termo:** Alusão histórica aos canários utilizados nas minas de carvão britânicas para detectar vazamentos de gases tóxicos antes que afetassem os operários.
+- **Mecanismo:** A nova versão ($V2$) é colocada no ar paralelamente à versão estável ($V1$), mas recebe apenas uma fração diminuta do tráfego real dos usuários (tipicamente entre 1% e 5%), enquanto a $V1$ continua atendendo os 95% restantes. O tráfego do canário pode ser roteado por amostragem percentual randômica, por localização geográfica ou por grupos de usuários específicos (ex.: servidores internos).
+- **Monitoramento e Expansão:** Durante a exposição do canário, sistemas de telemetria analisam ativamente métricas como taxa de erros HTTP 5xx, consumo de memória e latência de resposta. Se o canário mantiver estabilidade perfeita, a proporção de tráfego é ampliada de forma progressiva (ex.: 5% $\rightarrow$ 25% $\rightarrow$ 50% $\rightarrow$ 100%).
+- **Mitigação do Raio de Impacto (*Blast Radius*):** Se o canário apresentar anomalias ou falhas, o roteamento para ele é imediatamente interrompido, afetando apenas uma fração insignificante de requisições.
 
 ```mermaid
 flowchart TD
@@ -218,29 +246,73 @@ flowchart TD
     style CANARY fill:#fff9c4,stroke:#fbc02d
 ```
 
-#### E. Feature Toggles / Feature Flags e Dark Launching
-- Mecanismo em nível de código-fonte que permite ativar ou desativar funcionalidades em tempo de execução sem realizar novo deploy.
-- **Dark Launching:** O código novo é executado em produção de forma invisível ao usuário (ex.: o backend chama o novo serviço em paralelo e descarta o retorno apenas para medir performance sob carga real).
+### 3.5 Feature Flags / Feature Toggles e Dark Launching
+
+- **Feature Flags (ou Toggles):** Mecanismo de controle em nível de código-fonte que permite encapsular novas funcionalidades em blocos condicionais (`if (featureManager.isEnabled("NOVO_MODULO_FISCAL")) { ... }`). Permite desacoplar a implantação do código (*deployment*) da ativação comercial do recurso (*release*). Um código pode estar rodando em produção com a funcionalidade desligada no servidor de configuração remota, sendo ativada sob demanda sem a necessidade de novo pipeline de deploy.
+- **Dark Launching:** O código novo é implantado em produção e passa a ser executado em segundo plano de forma invisível aos usuários (ex.: para cada requisição recebida, o sistema envia uma chamada assíncrona ao novo algoritmo fiscal em paralelo, comparando os resultados e medindo o impacto em banco de dados sem exibir as saídas na interface do usuário).
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A FCC adora comparar as características de risco e infraestrutura:
+> - **Blue-Green:** Comutação total de 100% de uma vez; rollback **instantâneo** via balanceador; exige **duplicação integral de infraestrutura**.
+> - **Canary:** Comutação **fracionada/percentual** (ex.: 5% inicial); focado em **reduzir o blast radius** e validar métricas de saúde com tráfego real.
+> - **Rolling Update:** Substituição progressiva de instâncias/pods; **zero downtime** sem duplicação de infraestrutura, mas exige convivência temporária de versões.
 
 ---
 
-### 4. Ferramentas de CI/CD: Sintaxe e Componentes Chave
+## 4. Estrutura, Estágios e Segurança de Pipelines (DevSecOps)
 
-As bancas de concurso cobram cada vez mais a estrutura sintática das três ferramentas predominantes:
+A construção de um pipeline de entrega contínua robusto organiza as atividades em estágios lógicos estritamente encadeados, impedindo o avanço de artefatos defeituosos ou inseguros.
 
-#### 4.1 GitHub Actions
-- **Arquivo de Configuração:** Arquivos YAML dentro de `.github/workflows/*.yml`.
-- **Hierarquia:**
-  - **Workflow:** Procedimento automatizado de alto nível.
-  - **Events (`on:`):** Gatilhos que disparam o workflow (`push`, `pull_request`, `schedule`, `workflow_dispatch`).
-  - **Jobs:** Conjunto de passos que rodam em um mesmo runner. Por padrão, **jobs diferentes rodam em paralelo**. Para criar dependência sequencial, usa-se a diretiva `needs: [job_anterior]`.
-  - **Steps:** Tarefas sequenciais executadas dentro do job (podem rodar comandos de shell com `run:` ou invocar ações com `uses:`).
-  - **Runners (`runs-on:`):** Servidores de execução gerenciados (`ubuntu-latest`, `windows-latest`) ou auto-hospedados (*self-hosted*).
-  - **Secrets:** Gerenciados via `${{ secrets.NOME_DO_SEGREDO }}` (criptografia em repouso).
+### 4.1 Estágios Canônicos: Lint, Análise Estática (SAST/SCA), Build, Testes e Registry
 
-Exemplo completo de workflow com dependência e testes:
+```mermaid
+flowchart LR
+    A["1. Code & Lint"] --> B["2. SAST & SCA<br/>(Segurança Estática)"]
+    B --> C["3. Build & Compilação"]
+    C --> D["4. Testes Automatizados<br/>(Unit, Int, Regressão)"]
+    D --> E["5. Publicação de Imagem<br/>(Container Registry)"]
+    E --> F["6. Deploy & Smoke Tests<br/>(Staging / Prod)"]
+```
+
+1. **Linting e Verificação de Estilo:** Análise léxica rápida para garantir uniformidade e detectar erros sintáticos elementares sem compilar o código (ex.: ESLint, SonarLint, flake8).
+2. **DevSecOps - SAST (*Static Application Security Testing*) e SCA (*Software Composition Analysis*):**
+   - **SAST:** Varredura estática no código-fonte em busca de falhas de segurança conhecidas (como SQL Injection, Cross-Site Scripting - XSS, uso de funções obsoletas). Ex.: SonarQube, Checkmarx.
+   - **SCA:** Inspeção do grafo de dependências e bibliotecas externas de terceiros em busca de vulnerabilidades catalogadas na base CVE (*Common Vulnerabilities and Exposures*). Ex.: OWASP Dependency-Check, Snyk, Trivy.
+3. **Build e Compilação:** Compilação do código-fonte em artefatos binários executáveis (`.jar`, `.war`, binários Go) ou construção de imagens de contêiner imutáveis via Dockerfile.
+4. **Testes Automatizados:** Execução encadeada de suítes de testes automatizados organizados conforme a pirâmide de testes.
+5. **Armazenamento em *Registry* de Artefatos:** Publicação segura do artefato aprovado em repositório centralizado de binários (como Docker Hub corporativo, GitHub Container Registry, Harbor ou Nexus).
+6. **Deploy e *Smoke Tests*:** Implantação nos servidores de destino e disparo de testes de fumaça rápidos para verificar a disponibilidade de portas de rede e rotas de saúde (`/healthz`).
+
+### 4.2 Pirâmide de Testes Automatizados no Pipeline
+
+Proposta por Mike Cohn, a pirâmide de testes orienta a distribuição ótima dos testes automatizados na esteira de integração contínua:
+
+1. **Base da Pirâmide - Testes de Unidade (Unitários):** Representam a esmagadora maioria dos testes (cerca de 70%). Testam classes e funções isoladas com uso de *mocks* e *stubs*. São extremamente rápidos de executar (milissegundos) e possuem baixo custo de manutenção.
+2. **Meio da Pirâmide - Testes de Integração e de Contrato:** Testam a comunicação entre componentes integrados (como a camada de persistência com o banco de dados em contêiner de teste ou contratos de API REST via Pact). Mais lentos que os testes unitários, demandam inicialização de serviços.
+3. **Topo da Pirâmide - Testes de Ponta a Ponta (E2E / Interface do Usuário):** Simulam a jornada completa do usuário final em navegadores ou clientes de API. São testes lentos, caros de manter e sujeitos a falhas intermitentes (*flaky tests*), devendo representar a menor fatia da suíte de automação (cerca de 10%).
+
+---
+
+## 5. Ferramentas de Automação: Sintaxe, Arquitetura e Manifestos
+
+As bancas examinadoras de concursos de Tecnologia da Informação cobram com frequência a sintaxe de manifestos e os componentes arquiteturais das principais ferramentas de orquestração de CI/CD do mercado.
+
+### 5.1 GitHub Actions: Workflows, Events, Jobs, Steps, Runners e Secrets
+
+O GitHub Actions é uma plataforma de automação e orquestração de pipelines integrada nativamente ao GitHub.
+
+- **Localização dos Arquivos:** Os manifestos são codificados no formato YAML e devem residir estritamente no diretório `.github/workflows/` na raiz do repositório.
+- **Estrutura Hierárquica:**
+  - **Workflows:** Processos automatizados configuráveis definidos por um arquivo YAML.
+  - **Events (`on:`):** Eventos específicos que disparam o workflow. Exemplos: `push` em branches específicas, abertura de `pull_request`, execuções agendadas via cron (`schedule`) ou disparos manuais via interface web (`workflow_dispatch`).
+  - **Jobs:** Conjunto de passos executados em um mesmo ambiente de runner. **Por padrão, múltiplos jobs definidos no mesmo workflow executam em paralelo**. Para criar dependência sequencial ou construir um grafo acíclico direcionado (DAG), utiliza-se a palavra-chave `needs: [nome_do_job]`.
+  - **Steps:** Tarefas sequenciais executadas dentro de um job. Um step pode executar comandos de shell direto via `run:` ou invocar ações modulares reutilizáveis via `uses:` (como `uses: actions/checkout@v4`).
+  - **Runners (`runs-on:`):** Máquinas virtuais ou contêineres que executam os jobs. Podem ser hospedados pela nuvem do GitHub (`ubuntu-latest`, `windows-latest`) ou auto-hospedados pela instituição (*self-hosted runners*). Cada job roda em uma instância de runner limpa e isolada.
+  - **Secrets e Variáveis de Ambiente:** Credenciais e tokens sensíveis são armazenados criptografados e acessados nos workflows pela sintaxe `${{ secrets.NOME_DO_SEGREDO }}`.
+
+Exemplo de manifesto completo do GitHub Actions:
 ```yaml
-name: Backend CI-CD Pipeline
+name: Pipeline CI-CD Institucional
 on:
   push:
     branches: [ "main" ]
@@ -248,93 +320,145 @@ on:
     branches: [ "main" ]
 
 jobs:
-  lint-and-test:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name: Baixar código
+      - name: Baixar Código-Fonte
         uses: actions/checkout@v4
-      - name: Instalar Node.js
+      - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Instalar dependências
+      - name: Instalar Dependências
         run: npm ci
-      - name: Executar testes
+      - name: Executar Bateria de Testes
         run: npm test
 
-  deploy:
-    needs: [lint-and-test] # Depende da conclusão com sucesso do job anterior
+  security-scan:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
     steps:
+      - name: Baixar Código-Fonte
+        uses: actions/checkout@v4
+      - name: Auditoria de Vulnerabilidades
+        run: npm audit --audit-level=high
+
+  deploy:
+    needs: [test, security-scan] # Só roda se test E security-scan concluírem com sucesso
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' # Só executa em pushes diretos ou merges na main
+    steps:
+      - name: Baixar Código-Fonte
+        uses: actions/checkout@v4
       - name: Deploy em Produção
         env:
-          PROD_KEY: ${{ secrets.PROD_API_KEY }}
-        run: ./scripts/deploy.sh
+          CHAVE_PRODUCAO: ${{ secrets.PROD_API_KEY }}
+        run: ./scripts/deploy-prod.sh
 ```
 
-#### 4.2 GitLab CI/CD
-- **Arquivo de Configuração:** `.gitlab-ci.yml` na raiz do repositório.
-- **Hierarquia:**
-  - **Stages:** Define a ordem lógica das fases do pipeline (ex.: `stages: [build, test, deploy]`). Jobs do mesmo stage rodam em **paralelo**; o próximo stage só inicia se todos os jobs do stage anterior tiverem sucesso.
-  - **Jobs:** Especificam a imagem Docker (`image:`), o estágio (`stage:`), os comandos (`script:`, `before_script:`, `after_script:`).
-  - **Artifacts:** Arquivos gerados por um job (como binários compilados ou relatórios de cobertura) salvos no GitLab e repassados automaticamente aos estágios seguintes.
-  - **Cache:** Mecanismo de persistência entre diferentes execuções de pipelines para acelerar o download de dependências (ex.: diretório `.m2` ou `node_modules`). Não deve ser confundido com *artifacts*.
-  - **Rules:** Condições avançadas para inclusão/exclusão de jobs com base em branches, tags, variáveis ou status de merge requests.
+### 5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners
 
-Exemplo de `.gitlab-ci.yml`:
+O GitLab CI/CD baseia-se em um único arquivo de manifesto denominado obrigatoriamente `.gitlab-ci.yml`, posicionado na raiz do repositório.
+
+- **Conceito de Stages:** A diretiva global `stages` define a ordem cronológica de execução das etapas do pipeline (ex.: `stages: [build, test, security, deploy]`). Todos os jobs associados ao mesmo stage executam **em paralelo**. O pipeline só avança para o stage subsequente se **todos os jobs do stage corrente** forem concluídos com êxito.
+- **Artifacts vs. Cache (Diferença Crucial em Provas):**
+  - **Artifacts:** São artefatos gerados pela execução de um job (como binários compilados `.jar`, pacotes `.zip` ou relatórios de cobertura) que são transferidos para os servidores do GitLab e repassados automaticamente aos estágios posteriores do **mesmo pipeline**.
+  - **Cache:** Mecanismo de armazenamento temporário destinado unicamente a acelerar execuções futuras do pipeline, persistindo diretórios de bibliotecas externas (como `node_modules` ou `.m2/repository`) entre **diferentes execuções de pipelines**. O cache não deve ser utilizado para repassar binários finais.
+- **GitLab Runners e Tags:** Os *runners* são os agentes que processam os trabalhos. Um job pode especificar quais runners têm permissão para executá-lo através de rótulos de identificação (*tags*).
+
+Exemplo de manifesto `.gitlab-ci.yml`:
 ```yaml
 stages:
   - build
   - test
-  - release
+  - deploy
 
-build_app:
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+
+cache:
+  paths:
+    - .m2/repository/
+
+build_job:
   stage: build
   image: maven:3.9-eclipse-temurin-17
   script:
-    - mvn clean package -DskipTests
+    - mvn clean compile
   artifacts:
     paths:
-      - target/*.jar
-    expire_in: 1 week
+      - target/classes/
+    expire_in: 1 day
 
-run_tests:
+test_job:
   stage: test
   image: maven:3.9-eclipse-temurin-17
   script:
     - mvn test
 
 deploy_staging:
-  stage: release
+  stage: deploy
   script:
-    - ./deploy.sh staging
+    - ./scripts/deploy-staging.sh
   rules:
     - if: '$CI_COMMIT_BRANCH == "main"'
 ```
 
-#### 4.3 Jenkins
-- **Arquitetura Controller-Agent:** O nó central (*Controller*, antigamente chamado de *Master*) gerencia as filas, agenda os builds e serve a interface Web. Os nós executores (*Agents*, antigamente chamados de *Slaves*) executam os trabalhos reais em contêineres ou VMs separadas.
-- **Jenkinsfile:** Arquivo versionado que define o pipeline como código. Suporta dois estilos:
-  1. **Declarative Pipeline (Recomendado):** Estrutura padronizada, sintaxe rígida e clara, bloco raiz `pipeline { agent any; stages { stage('...') { steps { ... } } } }`.
-  2. **Scripted Pipeline:** Sintaxe mais antiga baseada diretamente em Groovy puro, com blocos `node { stage('...') { ... } }`, permitindo lógica de controle complexa, porém com menor legibilidade e menor facilidade de manutenção.
+### 5.3 Jenkins: Arquitetura Controller-Agent, Declarative Pipeline e Scripted Pipeline
+
+O Jenkins é um dos servidores de automação de código aberto mais tradicionais e disseminados na administração pública.
+
+- **Arquitetura Controller-Agent:**
+  - **Controller (antigo Master):** Servidor central que hospeda a interface web, gerencia as configurações dos projetos, agenda a fila de execução e supervisiona a distribuição de cargas de trabalho. O Controller **não deve executar compilações ou testes pesados diretamente**, a fim de preservar sua estabilidade.
+  - **Agents (antigos Slaves):** Instâncias de computação (máquinas virtuais, nós físicos ou contêineres Docker efêmeros) que recebem comandos do Controller para executar fisicamente as etapas do pipeline.
+- **Jenkinsfile e Estilos de Pipeline:** O pipeline é versionado dentro do projeto em um arquivo chamado `Jenkinsfile`:
+  1. **Declarative Pipeline (Estilo Moderno e Padronizado):** Utiliza uma sintaxe declarativa estrita e de fácil leitura, iniciando obrigatoriamente pelo bloco raiz `pipeline { ... }`. Possui seções estruturadas para `agent`, `stages`, `stage`, `steps` e blocos de encerramento `post { success { ... } failure { ... } }`.
+  2. **Scripted Pipeline (Estilo Tradicional em Groovy):** Sintaxe imperativa legada baseada diretamente na linguagem Groovy, iniciando por blocos `node { ... }`. Permite construções lógicas complexas e laços imperativos, mas apresenta curva de aprendizado mais íngreme e menor facilidade de manutenção.
+
+Exemplo de Jenkinsfile Declarativo:
+```groovy
+pipeline {
+    agent any
+    stages {
+        stage('Compilação e Lint') {
+            steps {
+                echo 'Compilando a aplicação...'
+                sh 'mvn clean compile'
+            }
+        }
+        stage('Testes Automatizados') {
+            steps {
+                echo 'Executando testes de unidade...'
+                sh 'mvn test'
+            }
+        }
+        stage('Homologação e Deploy') {
+            steps {
+                echo 'Implantando no cluster corporativo...'
+                sh './scripts/deploy.sh'
+            }
+        }
+    }
+    post {
+        always {
+            echo 'Encerrando execução do pipeline e limpando workspace.'
+            cleanWs()
+        }
+        failure {
+            echo 'Alerta: Falha no pipeline. Notificando equipe de TI.'
+        }
+    }
+}
+```
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A FCC adora cobrar as diferenças entre ferramentas de CI/CD:
+> - **GitHub Actions:** Configurado em `.github/workflows/*.yml`; usa `needs:` para dependência de jobs (que rodam em paralelo por padrão); usa `runs-on:` para runners.
+> - **GitLab CI/CD:** Arquivo `.gitlab-ci.yml`; organiza por `stages` (jobs de um mesmo stage rodam em paralelo; stages rodam em sequência); distingue `artifacts` (transferência no mesmo pipeline) de `cache` (reaproveitamento entre pipelines).
+> - **Jenkins:** Arquitetura `Controller-Agent` (o Controller gerencia; os Agents executam); pipelines declarativos iniciam com `pipeline { agent any; stages { ... } }`.
 
 ---
 
-## 🌐 Fontes Recomendadas na Internet
-
-### 1. Documentação Oficial das Plataformas de CI/CD
-- [GitHub Actions Documentation (pt-BR)](https://docs.github.com/pt/actions/writing-workflows/quickstart): Guia oficial completo cobrindo a sintaxe de workflows em YAML (`.github/workflows/`), eventos gatilhos (`on: [push, pull_request]`), jobs paralelos/dependentes, matrizes de build e segredos criptografados (*GitHub Secrets*).
-- [GitLab CI/CD Official Documentation & Reference](https://docs.gitlab.com/ee/ci/yaml/): Manual de referência da sintaxe do `.gitlab-ci.yml`, detalhando diretivas `stages`, `script`, `artifacts`, `cache`, `rules` e configuração de executores (*GitLab Runners*).
-- [Jenkins User Handbook - Pipeline](https://www.jenkins.io/doc/book/pipeline/): Documentação oficial do Jenkins descrevendo a estrutura de pipelines declarativos (`pipeline { agent any; stages { ... } }`) e scriptados em Groovy via `Jenkinsfile`.
-
-### 2. Artigos Canônicos e Fundamentos
-- [Continuous Integration (Martin Fowler)](https://martinfowler.com/articles/continuousIntegration.html): Artigo clássico fundamental que estabeleceu as boas práticas da Integração Contínua: repositório único compartilhado, automação de build, testes em ambiente idêntico a produção e commits diários ao branch principal.
-- [Google Cloud Architecture Center - DORA Metrics](https://cloud.google.com/devops): Pesquisa oficial do grupo DORA sobre as quatro métricas chave de entrega de software e cultura de alta performance.
-
----
-
-## 📝 Questões Comentadas & Exemplos (Padrão FCC)
+## 6. Questões Comentadas & Prática Padrão FCC
 
 ### Questão 1 (FCC - Adaptada / TI - Práticas de CI/CD e Espectro de Automação)
 No contexto da cultura DevOps e das práticas modernas de engenharia de software, considere as seguintes afirmativas sobre Integração Contínua (CI), Entrega Contínua (*Continuous Delivery*) e Implantação Contínua (*Continuous Deployment*):
@@ -350,17 +474,14 @@ C) II e III, apenas.
 D) I e III, apenas.  
 E) I, II e III.
 
-> **Gabarito: E**  
-> **Comentário Analítico Passo a Passo:**  
-> - **Item I está CORRETO:** Martin Fowler define a Integração Contínua exatamente como a prática em que membros da equipe integram seu trabalho frequentemente (ao menos diariamente), e cada integração é verificada por um build e testes automatizados imediatos para detectar erros o mais rápido possível.  
-> - **Item II está CORRETO:** A Entrega Contínua (*Continuous Delivery*) assegura que o software pode ser liberado para produção a qualquer momento, tendo sido testado em staging de forma automatizada, mantendo um *release candidate* sempre disponível. O deploy efetivo em produção requer uma decisão/acionamento humano explícito (ex.: botão de aprovação ou janela programada).  
-> - **Item III está CORRETO:** Na Implantação Contínua (*Continuous Deployment*), o processo é automatizado de ponta a ponta sem qualquer gatilho ou aprovação manual. Se o commit passa em todas as suítes de testes e verificações de segurança do pipeline, ele vai direto para os servidores de produção.  
-> - **Análise das Alternativas:**  
->   - **A está incorreta** porque os itens II e III também são verdadeiros.  
->   - **B está incorreta** porque o item III é verdadeiro.  
->   - **C está incorreta** porque o item I é verdadeiro.  
->   - **D está incorreta** porque o item II é verdadeiro.  
->   - **E está CORRETA**, pois as três assertivas conceituam de forma impecável as fases de maturidade de CI/CD.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Os itens II e III também são verdadeiros e conceituam com rigor técnico as práticas de automação.
+> - **B)** Incorreta. O item III está correto, pois na Implantação Contínua a passagem para produção ocorre sem intervenção humana.
+> - **C)** Incorreta. O item I também está correto ao definir a Integração Contínua.
+> - **D)** Incorreta. O item II também é verdadeiro ao definir o gate manual de negócio na Entrega Contínua.
+> - **E)** Correta. Todas as três assertivas estão rigorosamente exatas: (I) a Integração Contínua foca na integração frequente ao branch principal com compilação e testes unitários imediatos; (II) a Entrega Contínua (*Continuous Delivery*) mantém o software em estado permanente de liberação (*deployable*), mas aguarda uma aprovação manual de negócio para o deploy em produção; (III) a Implantação Contínua (*Continuous Deployment*) automatiza o ciclo completo, promovendo a versão para produção sem qualquer intervenção humana.
+> 
+> **Gabarito: E**
 
 ---
 
@@ -377,13 +498,14 @@ C) *Blue-Green Deployment*.
 D) *Big Bang Release*.  
 E) *In-Place Deployment*.
 
-> **Gabarito: C**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** O *Recreate Deployment* derruba intencionalmente as instâncias antigas antes de subir as novas, causando indisponibilidade (*downtime*) obrigatória durante o intervalo de subida da nova versão, violando o requisito de zero downtime e reversão imediata.  
-> - **B está INCORRETA:** O *Rolling Update* substitui pods ou nós gradualmente (ex.: um a um). Embora garanta zero downtime, durante o processo coexistem instâncias antigas e novas respondendo ao tráfego, o rollback não é instantâneo (exige novo rollout reverso) e não há um ambiente completo idêntico e isolado pré-testado antes de iniciar a migração.  
-> - **C está CORRETA:** No *Blue-Green Deployment*, mantêm-se dois ambientes de produção idênticos (Blue e Green). Enquanto o ambiente Blue atende 100% dos usuários, o novo software é instalado e testado com carga no ambiente Green. Quando tudo é validado, altera-se o roteamento no balanceador de carga para direcionar o tráfego a Green. Caso ocorra um problema, o balanceador é chaveado de volta para Blue em segundos, realizando o rollback quase instantaneamente.  
-> - **D está INCORRETA:** O *Big Bang Release* é a abordagem tradicional monolítica onde todo o sistema é desligado durante a madrugada ou fim de semana para substituição total em lote único, com alto risco de falha e downtime prolongado.  
-> - **E está INCORRETA:** O *In-Place Deployment* substitui os arquivos da aplicação diretamente nos servidores existentes em execução, o que interrompe o serviço temporariamente e torna o rollback complexo e demorado caso a compilação falhe no local.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O modelo *Recreate* desliga todas as instâncias antigas antes de iniciar as novas, gerando período de indisponibilidade obrigatória (*downtime*) e inviabilizando testes em paralelo e rollback imediato.
+> - **B)** Incorreta. O *Rolling Update* atualiza instâncias progressivamente sem downtime, mas durante o processo há convivência temporária de versões antigas e novas atendendo requisições, não há um ambiente idêntico pré-testado na íntegra e o rollback não é instantâneo (exige um novo rollout reverso).
+> - **C)** Correta. No *Blue-Green Deployment*, mantêm-se dois ambientes de produção idênticos. O ambiente inativo (Green) recebe a nova versão e pode ser exaustivamente testado com tráfego simulado. Quando aprovado, comuta-se o balanceador de carga para Green quase instantaneamente. Se surgir uma falha, o balanceador é chaveado de volta para Blue em segundos, realizando o rollback de forma imediata.
+> - **D)** Incorreta. O *Big Bang Release* é a abordagem tradicional monolítica em que o sistema é totalmente paralisado para substituição de arquivos em lote único durante janelas de manutenção, com elevado risco de falha.
+> - **E)** Incorreta. O *In-Place Deployment* sobrescreve os artefatos diretamente nas máquinas em execução, causando indisponibilidade temporária e tornando o rollback lento e complexo caso haja falha de compilação ou compatibilidade.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -395,13 +517,14 @@ C) Baixa frequência de implantação (deploys semestrais em lotes grandes), pri
 D) Alta taxa de falha em mudanças (*Change Failure Rate* acima de 50%), justificada pela necessidade de aprendizado rápido na Terceira Via do DevOps, desconsiderando a perda de disponibilidade.  
 E) Foco exclusivo no custo financeiro da computação em nuvem, ignorando métricas de velocidade de entrega e estabilidade operacional.
 
-> **Gabarito: B**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** Um *Lead Time for Changes* longo (superior a um mês) e a exigência de aprovações burocráticas centralizadas por CAB (*Change Advisory Board*) são sintomas clássicos de organizações de **baixa performance**. Times de alta performance possuem *Lead Time* inferior a uma hora.  
-> - **B está CORRETA:** A descoberta empírica mais relevante do DORA é que **velocidade e estabilidade não são opostos**. Times de elite conseguem implantar com alta frequência (múltiplas vezes ao dia sob demanda) e ciclo de entrega curto, ao mesmo tempo em que apresentam baixíssima taxa de falha nas mudanças (0% a 15%) e tempo de restauração do serviço (*Time to Restore*) inferior a uma hora.  
-> - **C está INCORRETA:** Deploys esporádicos em lotes gigantescos e políticas de *code freeze* geram acúmulo de risco, integração dolorosa (*merge hell*) e maior propensão a falhas catastróficas, caracterizando baixa performance.  
-> - **D está INCORRETA:** A cultura de experimentação da Terceira Via estimula a tomada de riscos calculados e testes de hipóteses com resiliência arquitetural, mas nunca aceita deploys descuidados em produção com 50% de falha sistemática.  
-> - **E está INCORRETA:** As métricas DORA são estritamente centradas em quatro dimensões técnicas fundamentais de throughput e estabilidade (Deployment Frequency, Lead Time, MTTR e Change Failure Rate), e não no custo de faturamento de provedores em nuvem.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Um *Lead Time for Changes* elevado (meses) e a dependência de comitês centralizados manuais (CAB) são marcas registradas de organizações de baixa performance. Times de elite possuem Lead Time inferior a 1 hora.
+> - **B)** Correta. A principal descoberta científica do DORA é que velocidade (*throughput*) e estabilidade não são excludentes: organizações de alta performance possuem altíssima frequência de deploy e ciclo ágil de entrega, acompanhados de baixíssima taxa de falha nas mudanças (0% a 15%) e recuperação de falhas (*Time to Restore*) em menos de 1 hora.
+> - **C)** Incorreta. Deploys semestrais em lotes gigantescos e políticas de congelamento de código geram acúmulo de risco, integração traumática (*merge hell*) e falhas graves de sistema, caracterizando organizações de baixa maturidade.
+> - **D)** Incorreta. A Terceira Via do DevOps estimula experimentação e aprendizado a partir de falhas em ambientes seguros, mas nunca aceita uma taxa de 50% de quebra em produção com prejuízo aos usuários.
+> - **E)** Incorreta. As métricas DORA são estritamente centradas nas quatro dimensões técnicas fundamentais de throughput e estabilidade operacional, e não no custo financeiro da fatura de nuvem.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -442,13 +565,14 @@ C) O job `deploy` só iniciará sua execução se ambos os jobs `test` e `securi
 D) O atributo `runs-on: ubuntu-latest` faz com que os três jobs compartilhem a mesma memória RAM e o mesmo sistema de arquivos local sem isolamento.  
 E) O gatilho `on: push: branches: [ "main" ]` indica que o pipeline será executado apenas quando uma nova *Pull Request* for aberta por qualquer desenvolvedor, mas nunca quando um commit direto for enviado ao branch `main`.
 
-> **Gabarito: C**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** No GitHub Actions, por padrão, jobs definidos no mesmo nível sem a declaração da diretiva `needs` são executados em **paralelo**. Como nem `test` nem `security-scan` possuem `needs`, eles iniciam simultaneamente em runners distintos.  
-> - **B está INCORRETA:** O job `deploy` possui a diretiva explícita `needs: [test, security-scan]`. Isso impõe uma relação de precedência (grafo direcionado acíclico - DAG), impedindo que ele execute em paralelo a eles.  
-> - **C está CORRETA:** A diretiva `needs: [test, security-scan]` instrui o runner a aguardar a conclusão satisfatória (status de sucesso) de **ambos** os jobs anteriores listados. Se `test` ou `security-scan` falharem (código de retorno diferente de zero), o job `deploy` é automaticamente cancelado/pulado (*skipped*), protegendo o ambiente produtivo.  
-> - **D está INCORRETA:** Cada job no GitHub Actions é executado em uma máquina virtual (ou contêiner) isolada e independente. Mudanças no disco ou memória do job `test` não são vistas no job `security-scan` nem no job `deploy`, a menos que sejam explicitamente transferidas via artefatos (`upload-artifact` / `download-artifact`).  
-> - **E está INCORRETA:** O gatilho especificado é `push` no branch `main`. Portanto, ele dispara precisamente ao ocorrer um envio de commits (*push*) direto ou merge concluído para a branch `main`. Para escutar abertura de PRs, o evento exigido seria `pull_request`.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. No GitHub Actions, jobs declarados no mesmo nível sem a cláusula `needs:` são disparados **em paralelo**. Como `test` e `security-scan` não dependem um do outro, eles executam concomitantemente em runners independentes.
+> - **B)** Incorreta. O job `deploy` possui a diretiva explícita `needs: [test, security-scan]`, o que cria uma dependência estrita e impede sua execução paralela aos demais.
+> - **C)** Correta. A diretiva `needs: [test, security-scan]` instrui o orquestrador a aguardar a conclusão bem-sucedida (código de saída zero) de **ambos** os jobs anteriores. Caso `test` ou `security-scan` falhem, o job `deploy` é automaticamente ignorado (*skipped*), impedindo que código quebrado ou inseguro seja promovido.
+> - **D)** Incorreta. Cada job no GitHub Actions executa em uma máquina virtual (ou contêiner) limpa, efêmera e totalmente isolada. Não há compartilhamento nativo de memória ou disco local entre jobs distintos.
+> - **E)** Incorreta. O gatilho especificado é `push` no branch `main`. Portanto, ele dispara com commits enviados diretamente ou resultantes de um merge concluído na branch `main`. Para escutar abertura de Pull Requests, o evento exigido seria `pull_request`.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -460,10 +584,11 @@ C) No Jenkins, a arquitetura moderna prevê o nó *Controller* (antigo Master) c
 D) Um pipeline declarativo do Jenkins (*Declarative Pipeline*) é codificado livremente sem qualquer estrutura de blocos obrigatória, usando comandos Groovy imperativos sem a necessidade da diretiva `pipeline`.  
 E) No arquivo `.gitlab-ci.yml`, a palavra-chave `image:` é obrigatória para cada job individual, sendo proibido definir uma imagem Docker global compartilhada no nível raiz do arquivo.
 
-> **Gabarito: C**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** No GitLab CI/CD, há distinção conceitual crítica entre `artifacts` e `cache`. **Artifacts** são saídas formais geradas por um job (ex.: binários `.jar`, relatórios de testes) salvas no GitLab e transmitidas aos estágios seguintes do **mesmo pipeline** para serem consumidas. **Cache** é destinado a acelerar a execução armazenando dependências de bibliotecas de terceiros (como pacotes Maven ou npm) compartilhadas entre **diferentes execuções de pipelines**.  
-> - **B está INCORRETA:** Jobs que pertencem ao mesmo estágio (*stage*) rodam em **paralelo**, caso haja múltiplos runners disponíveis no GitLab, promovendo celeridade no build e execução de testes.  
-> - **C está CORRETA:** A arquitetura padrão e recomendada do Jenkins é distribuída (*Controller-Agent*). O nó Controller armazena a configuração dos jobs, processa as regras de negócio do pipeline e despacha as cargas de trabalho para os nós Agents, que realizam a compilação, testes e deploys de forma isolada.  
-> - **D está INCORRETA:** Essa descrição refere-se ao *Scripted Pipeline* (baseado em Groovy puro). O *Declarative Pipeline* possui sintaxe estrita e estruturada obrigatória, iniciando imperativamente pelo bloco delimitador `pipeline { agent ... stages { stage('...') { steps { ... } } } }`.  
-> - **E está INCORRETA:** No GitLab CI/CD, é perfeitamente válido (e muito comum) declarar a diretiva `image:` no nível global (raiz) do arquivo `.gitlab-ci.yml`, tornando aquela imagem Docker o padrão para todos os jobs que não definirem sua própria imagem de forma personalizada.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. No GitLab CI/CD existe distinção conceitual nítida entre `artifacts` e `cache`. **Artifacts** são saídas formais geradas por um job (como binários compilados `.jar` ou relatórios de testes) salvas no GitLab e transmitidas aos estágios posteriores do **mesmo pipeline**. **Cache** serve para acelerar builds armazenando dependências de bibliotecas de terceiros (como `.m2` ou `node_modules`) compartilhadas entre **diferentes execuções de pipelines**.
+> - **B)** Incorreta. Jobs associados ao mesmo estágio (*stage*) executam **em paralelo** caso existam múltiplos runners disponíveis no GitLab, acelerando o tempo de processamento.
+> - **C)** Correta. A arquitetura padrão do Jenkins é distribuída (*Controller-Agent*). O nó Controller gerencia os jobs, agenda filas e hospeda a interface gráfica, delegando a execução física das compilações, testes e comandos de shell para os nós Agents.
+> - **D)** Incorreta. Essa descrição aplica-se ao *Scripted Pipeline* (baseado em Groovy imperativo puro iniciado por blocos `node { ... }`). O *Declarative Pipeline* possui sintaxe estrita obrigatória, iniciando sempre pelo bloco estruturado `pipeline { agent any; stages { ... } }`.
+> - **E)** Incorreta. No GitLab CI/CD, é perfeitamente válido declarar a diretiva `image:` no nível global (raiz) do arquivo `.gitlab-ci.yml`, tornando aquela imagem Docker o padrão compartilhado para todos os jobs que não definirem sua própria imagem específica.
+> 
+> **Gabarito: C**

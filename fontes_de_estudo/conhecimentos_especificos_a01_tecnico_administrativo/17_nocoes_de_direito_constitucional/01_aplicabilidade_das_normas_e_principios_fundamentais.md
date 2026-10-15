@@ -19,36 +19,19 @@
 
 ---
 
-## 🌳 Classificação Hierárquica do Conteúdo
-
-```text
-1. Teoria da Norma Constitucional e Princípios Fundamentais da CF/88
-├── 1.1 Classificação das Normas Constitucionais Quanto à Eficácia (José Afonso da Silva)
-│   ├── Normas de Eficácia Plena: Direta, imediata e integral (autoaplicáveis e insuscetíveis de contenção)
-│   ├── Normas de Eficácia Contida / Redutível: Direta, imediata e NÃO integral (plena até a vinda da lei)
-│   │   └── Exemplo clássico: Art. 5º, XIII (liberdade de profissão atendidas qualificações da lei)
-│   ├── Normas de Eficácia Limitada: Indireta, mediata e reduzida (dependem de integração legislativa)
-│   │   ├── De Princípio Institutivo / Organizatório: Estruturação de órgãos e entidades
-│   │   └── De Princípio Programático: Traçam diretrizes sociais, metas e políticas públicas
-│   ├── Eficácia Jurídica Mínima das Normas Limitadas: Eficácia revogatória/negativa e hermenêutica
-│   └── Conflito Constitucional: Reserva do Possível vs. Núcleo Intangível do Mínimo Existencial
-├── 1.2 Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)
-│   ├── Forma de Estado: Federação (Cláusula pétrea - Art. 60, § 4º, I)
-│   ├── Forma de Governo: República (Eletividade, temporariedade e dever de prestar contas)
-│   ├── Regime Político: Democracia Semidireta / Participativa (Art. 1º, parágrafo único)
-│   ├── Fundamentos da República (Art. 1º - Mnemônico SO-CI-DI-VA-PLU):
-│   │   ├── Soberania, Cidadania, Dignidade da Pessoa Humana
-│   │   ├── Valores Sociais do Trabalho e da Livre Iniciativa
-│   │   └── Pluralismo Político (Distinção entre pluralismo de ideias e pluripartidarismo partidário)
-│   ├── Separação dos Poderes e Freios e Contrapesos (Art. 2º): Funções típicas e atípicas
-│   ├── Objetivos Fundamentais (Art. 3º - Ações com Verbos no Infinitivo: CON-GA-ERRA-PRO):
-│   │   ├── Construir uma sociedade livre, justa e solidária
-│   │   ├── Garantir o desenvolvimento nacional
-│   │   ├── Erradicar a pobreza/marginalização e reduzir as desigualdades sociais e regionais
-│   │   └── Promover o bem de todos, sem preconceitos de origem, raça, sexo, cor e idade
-│   └── Relações Internacionais (Art. 4º): Prevalência dos direitos humanos, não intervenção, asilo político
-│       └── Parágrafo Único: Integração econômica, política e cultural da América Latina
-```
+## 🧭 Sumário
+1. [Eficácia e Aplicabilidade das Normas Constitucionais](#1-eficácia-e-aplicabilidade-das-normas-constitucionais)
+   - 1.1 [Classificação Tripartite de José Afonso da Silva](#11-classificação-tripartite-de-josé-afonso-da-silva)
+   - 1.2 [Eficácia Mínima das Normas Limitadas e Remédios contra Omissão](#12-eficácia-mínima-das-normas-limitadas-e-remédios-contra-omissão)
+   - 1.3 [Reserva do Possível versus Mínimo Existencial](#13-reserva-do-possível-versus-mínimo-existencial)
+2. [Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)](#2-princípios-fundamentais-da-cf88-título-i---arts-1º-a-4º)
+   - 2.1 [Forma de Estado, Forma de Governo e Regime Político](#21-forma-de-estado-forma-de-governo-e-regime-político)
+   - 2.2 [Fundamentos da República Federativa do Brasil (Art. 1º)](#22-fundamentos-da-república-federativa-do-brasil-art-1º)
+   - 2.3 [Separação dos Poderes e o Sistema de Freios e Contrapesos (Art. 2º)](#23-separação-dos-poderes-e-o-sistema-de-freios-e-contrapesos-art-2º)
+   - 2.4 [Objetivos Fundamentais da República (Art. 3º)](#24-objetivos-fundamentais-da-república-art-3º)
+   - 2.5 [Princípios nas Relações Internacionais e Integração Latino-Americana (Art. 4º)](#25-princípios-nas-relações-internacionais-e-integração-latino-americana-art-4º)
+3. [Fontes Recomendadas na Internet](#3-fontes-recomendadas-na-internet)
+4. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#4-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -56,53 +39,89 @@
 
 ### 1. Eficácia e Aplicabilidade das Normas Constitucionais
 
-A doutrina brasileira consagra a divisão tripartite formulada pelo professor José Afonso da Silva:
+O estudo da aplicabilidade das normas constitucionais investiga o grau de aptidão que cada preceito da Lei Fundamental possui para produzir efeitos jurídicos no mundo dos fatos desde a sua promulgação. No direito público brasileiro, a doutrina amplamente majoritária e a jurisprudência pacífica do Supremo Tribunal Federal (STF) consagram a classificação tripartite formulada pelo professor José Afonso da Silva.
+
+#### 1.1 Classificação Tripartite de José Afonso da Silva
 
 | Classificação da Norma | Aplicabilidade | Depende de Lei Infraconstitucional? | Pode Ser Restringida por Lei? | Exemplos Canônicos na CF/88 |
 |---|:---:|:---:|:---:|---|
-| **Eficácia Plena** | **Direta, Imediata e Integral** | **NÃO** | **NÃO** | Art. 2º (Poderes independentes); Art. 5º, III (Vedação da tortura); Art. 5º, LVI (Proibição de provas ilícitas). |
-| **Eficácia Contida** | **Direta, Imediata e NÃO Integral** | **NÃO** (já produz efeitos plenos desde a promulgação) | **SIM** (a lei posterior pode restringir seu alcance) | Art. 5º, XIII (Liberdade de exercício profissional); Art. 5º, XII (Sigilo de correspondência salvo ordem judicial). |
-| **Eficácia Limitada** | **Indireta, Mediata e Reduzida** | **SIM** (exige lei regulamentadora para viabilizar o exercício) | Não se aplica | Art. 37, VII (Direito de greve dos servidores públicos); Art. 196 (Direito à saúde como política pública). |
+| **Eficácia Plena** | **Direta, Imediata e Integral** | **NÃO** | **NÃO** | Art. 2º (Separação dos Poderes); Art. 5º, III (Vedação da tortura); Art. 5º, LVI (Inadmissibilidade de provas ilícitas). |
+| **Eficácia Contida (ou Redutível)** | **Direta, Imediata e NÃO Integral** | **NÃO** (produz efeitos plenos desde a promulgação) | **SIM** (a lei infraconstitucional pode restringir seu alcance) | Art. 5º, XIII (Liberdade de exercício profissional atendidas qualificações da lei); Art. 5º, XII (Inviolabilidade de sigilo telefônico salvo ordem judicial). |
+| **Eficácia Limitada** | **Indireta, Mediata e Reduzida** | **SIM** (depende de atuação integradora do legislador ordinário) | Não se aplica (o direito nasce contido e depende de ampliação legal) | Art. 37, VII (Direito de greve dos servidores públicos civis); Art. 196 (Direito à saúde como dever do Estado mediante políticas públicas). |
 
 ```mermaid
 flowchart TD
-    N["Norma Constitucional Promulgada"] --> DEC{"Pode ser aplicada imediatamente sem precisar de lei?"}
-    DEC -->|"SIM, aplica-se de pronto"| COMP{"A lei futura pode restringir o direito?"}
-    COMP -->|"NÃO pode restringir"| PLENA["EFICÁCIA PLENA<br/>• Direta, imediata e integral<br/>• Nasce pronta e definitiva"]
-    COMP -->|"SIM, pode restringir"| CONT["EFICÁCIA CONTIDA<br/>• Direta, imediata, mas redutível<br/>• Ampla até que venha a lei"]
-    DEC -->|"NÃO, precisa de lei para produzir efeitos essenciais"| LIMIT["EFICÁCIA LIMITADA<br/>• Indireta, mediata e diferida<br/>• Programática ou Institutiva"]
+    N["Norma Constitucional Promulgada"] --> DEC{"Pode ser aplicada de imediato sem depender de lei futura?"}
+    DEC -->|"SIM, aplica-se de pronto"| COMP{"A lei infraconstitucional pode restringir o alcance do direito?"}
+    COMP -->|"NÃO pode restringir"| PLENA["EFICÁCIA PLENA<br/>• Direta, imediata e integral<br/>• Não admite contenção legislativa"]
+    COMP -->|"SIM, pode restringir"| CONT["EFICÁCIA CONTIDA / REDUTÍVEL<br/>• Direta, imediata e não integral<br/>• Plena até a vinda da lei restritiva"]
+    DEC -->|"NÃO, necessita de integração legislativa para gerar efeitos essenciais"| LIMIT["EFICÁCIA LIMITADA<br/>• Indireta, mediata e reduzida<br/>• De Princípio Institutivo ou Programático"]
 ```
 
-#### 1.1 Normas Programáticas, Reserva do Possível e Mínimo Existencial
-- **Normas Programáticas:** Espécie de norma de eficácia limitada que traça objetivos sociais e fins a serem perseguidos pelos poderes públicos (saúde, educação, moradia).
-- **Eficácia Mínima Negativa:** Embora dependam de políticas públicas, revogam a legislação anterior que lhes for contrária e obstam a edição de leis futuras incompatíveis.
-- **Reserva do Possível x Mínimo Existencial (STF):** O Estado não pode alegar de forma genérica a limitação orçamentária ("reserva do possível") para justificar o descumprimento de prestações sociais indispensáveis à preservação do núcleo intangível do **mínimo existencial** (dignidade da pessoa humana).
+- **Normas de Eficácia Plena:** São aquelas que desde a promulgação da Constituição receberam do constituinte uma normatividade suficiente para serem aplicadas de pronto a situações concretas. Não dependem de qualquer regulamentação legal ulterior para produzirem todos os seus efeitos e não podem ser restringidas pelo legislador ordinário.
+- **Normas de Eficácia Contida (ou Redutível / Prospectiva):** São normas que também produzem efeitos plenos e imediatos a partir da promulgação, mas nas quais o constituinte deixou expressa ou implicitamente uma cláusula de contenção (*"na forma da lei"*, *"atendidas as qualificações que a lei estabelecer"*, *"salvo disposição em contrário"*). Enquanto o legislador ordinário não editar a norma restritiva, o exercício do direito é pleno e irrestrito.
+- **Normas de Eficácia Limitada:** Não produzem seus efeitos fundamentais de imediato, dependendo da interferência do legislador infraconstitucional para conferir densidade e viabilizar o exercício prático da prerrogativa. Subdividem-se em:
+  1. *Normas de Princípio Institutivo (ou Organizatório):* Aquelas pelas quais o constituinte traça o esquema geral de criação e organização de órgãos, entidades ou instituições do Estado (ex.: art. 88 da CF/88, que dispõe que a lei disporá sobre a criação e extinção de Ministérios);
+  2. *Normas de Princípio Programático:* Aquelas que estabelecem metas, programas sociais, diretrizes socioeconômicas e fins de interesse público a serem alcançados pelos poderes públicos (ex.: saúde, erradicação do analfabetismo, proteção ao meio ambiente).
+
+#### 1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão
+Embora as normas de eficácia limitada não confiram exigibilidade imediata da prestação originária sem integração legislativa, é incorreto afirmar que elas são desprovidas de valor jurídico. A doutrina e a jurisprudência reconhecem a **eficácia jurídica mínima** dessas normas:
+- **Eficácia Revogatória (ou Negativa):** Revogam automaticamente toda a legislação anterior que com elas seja materialmente incompatível (não recepção).
+- **Eficácia Impeditiva:** Impedem a edição de leis futuras que contrariem seus vetores teleológicos, sob pena de inconstitucionalidade direta.
+- **Eficácia Hermenêutica / Interpretativa:** Servem de vetor interpretativo obrigatório para juízes e administradores públicos.
+- **Remédios Constitucionais contra a Omissão Inconstitucional:** Para combater a mora legislativa que inviabiliza o exercício de direitos previstos em normas de eficácia limitada, a Constituição consagrou o **Mandado de Injunção** (art. 5º, LXXI, e Lei nº 13.300/2016) e a **Ação Direta de Inconstitucionalidade por Omissão (ADO)** (art. 103, § 2º).
+
+#### 1.3 Reserva do Possível versus Mínimo Existencial
+No controle judicial de políticas públicas decorrentes de normas programáticas (saúde, fornecimento de medicamentos de alto custo, vagas em creches):
+- **Reserva do Possível (*Vorbehalt des Möglichen*):** Tese frequentemente invocada pela Fazenda Pública segundo a qual a efetivação dos direitos sociais condiciona-se à existência de capacidade orçamentária e financeira do Estado, bem como à discricionariedade do administrador na alocação de recursos escassos.
+- **Mínimo Existencial:** Entendimento consolidado pelo STF no sentido de que a reserva do possível encontra limite intransponível no **núcleo essencial dos direitos fundamentais indispensáveis a uma vida digna** (mínimo existencial). Quando estiver em jogo a própria sobrevivência ou a integridade biológica do indivíduo, a alegação de insuficiência de recursos orçamentários torna-se inoponível ao cidadão.
 
 ---
 
-### 2. Princípios Fundamentais (Arts. 1º a 4º da CF/88)
+### 2. Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)
 
-#### 2.1 Fundamentos x Objetivos da República (A Pegadinha Clássica da FCC)
-A banca FCC troca rotineiramente os conceitos dos artigos 1º e 3º para confundir o candidato:
-- **Fundamentos (Art. 1º - Mnemônico SO-CI-DI-VA-PLU):** São valores estruturais de partida expressos por **substantivos**:
-  - **SO**berania;
-  - **CI**dadania;
-  - **DI**gnidade da pessoa humana;
-  - **VA**lores sociais do trabalho e da livre iniciativa;
-  - **PLU**ralismo político (*cuidado: pluralismo de ideias políticas/filosóficas, e não mero pluripartidarismo!*).
-- **Objetivos Fundamentais (Art. 3º - Mnemônico CON-GA-ERRA-PRO):** São metas de chegada que começam sempre com **VERBOS NO INFINITIVO**:
-  - **CON**struir uma sociedade livre, justa e solidária;
-  - **GA**rantir o desenvolvimento nacional;
-  - **ERRA**dicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;
-  - **PRO**mover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
+O Título I da Constituição Federal delimita as decisões políticas estruturantes do Estado brasileiro.
+
+#### 2.1 Forma de Estado, Forma de Governo e Regime Político
+- **Forma de Estado: Federação.** Caracteriza-se pela descentralização política, coexistência de esferas federativas autônomas (União, Estados, Distrito Federal e Municípios), vedação ao direito de secessão e proteção sob cláusula pétrea explícita (art. 60, § 4º, I).
+- **Forma de Governo: República.** Caracteriza-se pela eletividade e temporariedade dos mandatos dos governantes, pela responsabilidade política e jurídica dos agentes públicos e pelo dever republicano de prestar contas perante a sociedade e as Cortes de Contas.
+- **Regime Político: Democracia Semidireta (ou Participativa).** Conforme o art. 1º, parágrafo único: *"Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição."* O exercício direto manifesta-se por meio do **plebiscito**, do **referendo** e da **iniciativa popular** de leis (art. 14, I, II e III).
+
+#### 2.2 Fundamentos da República Federativa do Brasil (Art. 1º)
+Os fundamentos consubstanciam as bases estruturais sobre as quais se erige o Estado brasileiro. São expressos por substantivos e memorizados pelo consagrado mnemônico **SO-CI-DI-VA-PLU**:
+1. **SOberania:** Poder supremo no plano interno e independente na ordem internacional;
+2. **CIdadania:** Prerrogativa de participação ativa na vida política do país e na formação das decisões estatais;
+3. **DIgnidade da Pessoa Humana:** Matriz axiológica de todo o ordenamento jurídico, que coloca o ser humano como fim primordial do Estado, e não mero instrumento;
+4. **VAlores Sociais do Trabalho e da Livre Iniciativa:** Reconhecimento concomitante do trabalho como fonte de emancipação social e da liberdade econômica de mercado como motor da produção de riquezas;
+5. **PLUralismo Político:** Abertura para a livre manifestação e convivência harmoniosa de diferentes correntes ideológicas, filosóficas e políticas.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A banca FCC frequentemente tenta confundir o candidato trocando **pluralismo político** por **pluripartidarismo**. O pluripartidarismo (liberdade de criação de partidos políticos) é apenas uma das dimensões instrumentais do pluralismo político, que é um conceito infinitamente mais amplo de liberdade de pensamento e de cosmovisão.
+
+#### 2.3 Separação dos Poderes e o Sistema de Freios e Contrapesos (Art. 2º)
+O art. 2º da Carta Magna estabelece: *"São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."*
+
+No modelo do constitucionalismo contemporâneo:
+- **Não há separação estanque ou absoluta:** Cada Poder desempenha uma **função típica preponderante** e **funções atípicas secundárias** expressamente delimitadas pela Constituição:
+  - **Poder Executivo:** Função típica: governar e administrar a coisa pública; Funções atípicas: legislar (ao editar medidas provisórias e leis delegadas) e julgar (ao decidir processos administrativos e disciplinares).
+  - **Poder Legislativo:** Funções típicas: legislar (elaborar normas gerais e abstratas) e fiscalizar (controle financeiro e contábil externo com auxílio dos Tribunais de Contas); Funções atípicas: administrar (gerir seu quadro funcional e contratos) e julgar (o Senado julga o Presidente da República e Ministros do STF em crimes de responsabilidade).
+  - **Poder Judiciário:** Função típica: jurisdicional (dizer o direito no caso concreto com definitividade); Funções atípicas: administrar (realizar licitações e prover cargos) e legislar (elaborar os regimentos internos de seus tribunais).
+- **Sistema de Freios e Contrapesos (*Checks and Balances*):** Mecanismo de controle recíproco em que um Poder limita e fiscaliza a atuação do outro, prevenindo abusos e garantindo a harmonia institucional (ex.: veto do Presidente a projetos de lei; sabatina e aprovação de ministros pelo Senado; controle de constitucionalidade de leis e atos do Executivo exercido pelo Judiciário).
+
+#### 2.4 Objetivos Fundamentais da República (Art. 3º)
+Os objetivos fundamentais consubstanciam as metas de chegada e as finalidades que o Estado brasileiro deve perseguir. Diferenciam-se dos fundamentos porque começam invariavelmente por **VERBOS NO INFINITIVO** (Mnemônico **CON-GA-ERRA-PRO**):
+1. **CON**struir uma sociedade livre, justa e solidária;
+2. **GA**rantir o desenvolvimento nacional;
+3. **ERRA**dicar a pobreza e a marginalização e **reduzir as desigualdades sociais e regionais**;
+4. **PRO**mover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
 
 ```mermaid
 flowchart LR
-    F["FUNDAMENTOS (Art. 1º)<br/>Substantivos de Partida:<br/>• SOberania<br/>• CIdadania<br/>• DIgnidade<br/>• VAlores do trabalho<br/>• PLUralismo político"] --> EST["ESTADO BRASILEIRO"]
-    EST --> O["OBJETIVOS (Art. 3º)<br/>Metas com Verbos no Infinitivo:<br/>• CONstruir<br/>• GArantir<br/>• ERRadicar e Reduzir<br/>• PROmover o bem de todos"]
+    F["FUNDAMENTOS (Art. 1º)<br/>Substantivos de Partida:<br/>• SOberania<br/>• CIdadania<br/>• DIgnidade<br/>• VAlores do trabalho<br/>• PLUralismo político"] --> ESTADO["ESTADO BRASILEIRO"]
+    ESTADO --> OBJ["OBJETIVOS FUNDAMENTAIS (Art. 3º)<br/>Ações com Verbos no Infinitivo:<br/>• CONstruir<br/>• GArantir<br/>• ERRadicar e Reduzir<br/>• PROmover"]
 ```
 
-#### 2.2 Princípios nas Relações Internacionais (Art. 4º)
+#### 2.5 Princípios nas Relações Internacionais e Integração Latino-Americana (Art. 4º)
 A República Federativa do Brasil rege-se em suas relações internacionais pelos seguintes princípios:
 1. Independência nacional;
 2. Prevalência dos direitos humanos;
@@ -114,20 +133,21 @@ A República Federativa do Brasil rege-se em suas relações internacionais pelo
 8. Repúdio ao terrorismo e ao racismo;
 9. Cooperação entre os povos para o progresso da humanidade;
 10. Concessão de asilo político.
-- **Parágrafo Único:** A República Federativa do Brasil buscará a **integração econômica, política, social e cultural dos povos da América Latina**, visando à formação de uma **comunidade latino-americana de nações**.
+
+- **Parágrafo Único do Art. 4º:** Estabelece expressamente que o Brasil buscará a **integração econômica, política, social e cultural dos povos da América Latina**, visando à formação de uma **comunidade latino-americana de nações**.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A banca frequentemente troca "América Latina" por "América do Sul" ou "Mercosul". O texto constitucional expresso fala textualmente em **América Latina**!
+> A banca examinadora costuma substituir ardilosamente a expressão constitucional **América Latina** por "América do Sul", "Mercosul" ou "países lusófonos". Atenção máxima: a redação do parágrafo único do art. 4º consagra expressamente a **América Latina**!
 
 ---
 
 ## 🌐 Fontes Recomendadas na Internet
 - [Constituição da República Federativa do Brasil de 1988 - Arts. 1º a 4º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art1)
-  - Texto oficial e consolidado do Título I da Constituição.
-- [Supremo Tribunal Federal - Mandado de Injunção nº 670 (Direito de Greve)](https://portal.stf.jus.br/)
-  - Decisão paradigmática sobre a aplicabilidade prática de normas de eficácia limitada.
-- [Lei Federal nº 13.300/2016 (Regulamenta o Mandado de Injunção)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13300.htm)
-  - Marco processual contra a omissão do poder público na regulamentação de normas constitucionais.
+  - Texto oficial e atualizado dos Princípios Fundamentais da República.
+- [Supremo Tribunal Federal - Mandado de Injunção nº 670 (Direito de Greve no Setor Público)](https://portal.stf.jus.br/)
+  - Decisão paradigmática do plenário do STF sobre normas de eficácia limitada e mora inconstitucional.
+- [Lei Federal nº 13.300/2016 - Disciplina o Processo e o Julgamento dos Mandados de Injunção](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13300.htm)
+  - Legislação nacional regulamentadora dos remédios contra a falta de norma integradora.
 
 ---
 
@@ -144,21 +164,14 @@ C) Limitada programática, visto que não gera efeitos jurídicos até que o Con
 D) Diferida absoluta, cuja aplicabilidade condiciona-se à prévia autorização administrativa de conselhos corporativos de classe.  
 E) Ineficaz, por se tratar de mera exortação moral sem força cogente vinculante.  
 
-> **Gabarito: B**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Pela classificação de José Afonso da Silva:  
->    - **Normas de Eficácia Plena:** aplicabilidade direta, imediata e integral (não admitem restrição legal infraconstitucional).  
->    - **Normas de Eficácia Contida:** aplicabilidade direta, imediata, mas **não integral** (produzem efeitos desde a promulgação, porém o constituinte autorizou o legislador ordinário a restringir ou limitar o direito).  
->    - **Normas de Eficácia Limitada:** aplicabilidade indireta, mediata e reduzida (não produzem seus efeitos fundamentais até que venha a lei regulamentadora).  
-> 2. O art. 5º, XIII, é o exemplo clássico de **norma de eficácia contida**: qualquer indivíduo pode exercer qualquer atividade laboral livremente; contudo, se o legislador entender conveniente estabelecer exigências de qualificação (como exame de ordem para advogados ou diploma para médicos), ele editará lei restritiva. Enquanto a lei não existir, o exercício é pleno.  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta:** Se fosse de eficácia plena, a lei não poderia restringir o exercício exigindo qualificações profissionais.  
-> - **B) CORRETA:** Definição doutrinária e jurídica exata da norma de eficácia contida.  
-> - **C) Incorreta:** Se fosse limitada, ninguém poderia trabalhar até que saísse a lei de cada profissão.  
-> - **D) Incorreta:** Categoria inexistente na taxonomia constitucional brasileira.  
-> - **E) Incorreta:** Todas as normas constitucionais possuem eficácia jurídica vinculante.
+> **Comentário Detalhado:**
+> - **A) Incorreta:** Se fosse de eficácia plena, o exercício da profissão não poderia sofrer nenhuma restrição ou condição posterior por lei infraconstitucional.
+> - **B) CORRETA:** Conforme a consagrada classificação de José Afonso da Silva, as normas de eficácia contida (ou redutíveis) possuem aplicabilidade direta e imediata, operando de pronto a proteção ao direito; contudo, o próprio texto constitucional autoriza que lei superveniente venha a conter, limitar ou restringir o seu alcance (ex.: exigência de diploma ou inscrição em conselho de classe para certas profissões). Enquanto a lei não sobrevier, a liberdade é ampla e plena.
+> - **C) Incorreta:** Se a norma fosse de eficácia limitada, o cidadão estaria impedido de trabalhar até que sobreviesse lei regulamentando cada profissão, o que contraria o postulado da liberdade profissional.
+> - **D) Incorreta:** A classificação doutrinária não contempla a categoria "diferida absoluta" como modalidade autônoma nesse contexto.
+> - **E) Incorreta:** As normas constitucionais detêm imperatividade e eficácia jurídica formal e material, não sendo meros conselhos morais.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -177,20 +190,14 @@ C) II e III, apenas
 D) I, II e III  
 E) I, apenas  
 
-> **Gabarito: D**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. **Item I (Correto):** O art. 1º, incisos III e V, da CF/88 estabelece que a dignidade da pessoa humana e o pluralismo político integram o rol dos **fundamentos** da República (SO-CI-DI-VA-PLU).  
-> 2. **Item II (Correto):** O art. 3º, inciso III, da CF/88 consagra como **objetivo fundamental** do Brasil *"erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais"*.  
-> 3. **Item III (Correto):** O art. 4º, incisos II e X, da CF/88 estabelece a prevalência dos direitos humanos e a concessão de asilo político como **princípios nas relações internacionais**.  
-> Todos os três enunciados são verdadeiros.  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta:** O item III também está correto.  
-> - **B) Incorreta:** O item II também está correto.  
-> - **C) Incorreta:** O item I também está correto.  
-> - **D) CORRETA:** Todos os itens I, II e III correspondem fielmente aos dispositivos constitucionais.  
-> - **E) Incorreta:** Os itens II e III também são verdadeiros.
+> **Comentário Detalhado:**
+> - **A) Incorreta:** A assertiva III também está plenamente correta nos termos do art. 4º, II e X, da CF/88.
+> - **B) Incorreta:** A assertiva II também é verdadeira de acordo com o art. 3º, III, da CF/88.
+> - **C) Incorreta:** A assertiva I também expressa preceitos constitucionais exatos do art. 1º, III e V, da CF/88.
+> - **D) CORRETA:** Todas as assertivas são corretas: I reproduz fundamentos do art. 1º (SO-CI-DI-VA-PLU); II reproduz objetivos fundamentais do art. 3º (CON-GA-ERRA-PRO); III reproduz princípios de relações internacionais do art. 4º.
+> - **E) Incorreta:** Há outras proposições verdadeiras no rol examinado.
+> 
+> **Gabarito: D**
 
 ---
 
@@ -205,18 +212,14 @@ C) Trata-se de norma de eficácia limitada, cuja omissão legislativa inconstitu
 D) Trata-se de norma de eficácia contida, vigorando a proibição absoluta de greve até que venha a lei autorizativa.  
 E) A norma é programática e desprovida de qualquer eficácia jurídica, não vinculando o legislador nem o Judiciário.  
 
-> **Gabarito: C**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. O art. 37, VII, da CF/88 é exemplo clássico de **norma de eficácia limitada**: o direito existe constitucionalmente, mas a sua aplicabilidade prática subordina-se à edição de lei específica pelo Congresso Nacional.  
-> 2. Diante da prolongada inércia do legislador, o STF, no julgamento histórico dos Mandados de Injunção nº 670, 708 e 712, adotou a posição concretista geral: reconheceu a mora legislativa inconstitucional e determinou a aplicação analógica da Lei de Greve dos trabalhadores privados (Lei nº 7.783/89) aos servidores públicos civis.  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta:** A norma subordina o exercício a limites previstos em lei específica, sendo limitada.  
-> - **B) Incorreta:** A omissão não torna o direito inexistente nem imune a controle pelo STF via Mandado de Injunção.  
-> - **C) CORRETA:** Síntese perfeita da classificação de eficácia limitada e do precedente vinculante do STF no MI 670.  
-> - **D) Incorreta:** Na norma contida o direito é pleno até a vinda da lei; na limitada o direito depende da lei.  
-> - **E) Incorreta:** Toda norma constitucional possui eficácia jurídica mínima vinculante e revogatória.
+> **Comentário Detalhado:**
+> - **A) Incorreta:** A norma subordina o exercício a termos e limites estabelecidos em lei específica, possuindo eficácia mediata e dependente de integração legislativa.
+> - **B) Incorreta:** A ausência de lei não aniquila o direito fundamental nem impede a intervenção concretista do Judiciário para sanar a omissão.
+> - **C) CORRETA:** O art. 37, VII, é norma de eficácia limitada. Diante da inércia do Congresso Nacional, o STF, no julgamento conjunto dos Mandados de Injunção nº 670, 708 e 712, adotou a teoria concretista geral, suprindo a lacuna mediante a aplicação por analogia da Lei Federal nº 7.783/89 (que regula a greve na iniciativa privada) aos servidores civis, ressalvadas as carreiras ligadas diretamente à segurança pública armada.
+> - **D) Incorreta:** Nas normas contidas o exercício do direito é pleno desde a promulgação até que advenha a restrição; no caso da greve do servidor, o exercício dependia da própria lei instituidora.
+> - **E) Incorreta:** As normas constitucionais possuem eficácia normativa vinculante e geram o dever constitucional de legislar, sujeito a controle judicial via mandado de injunção.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -229,19 +232,14 @@ C) Da América Latina, visando à formação de uma comunidade latino-americana 
 D) Do Mercosul exclusivamente, vedada qualquer aliança com nações não lindeiras.  
 E) Dos países de língua oficial portuguesa (CPLP) em caráter preferencial e excludente.  
 
-> **Gabarito: C**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Texto do art. 4º, parágrafo único, da CF/88:  
->    *"A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."*  
-> 2. O constituinte fixou expressamente o escopo geográfico e geopolítico de integração regional prioritária com a **América Latina**, com o objetivo transcendente de formar uma comunidade de nações irmãs.  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta:** Não menciona "hemisfério ocidental".  
-> - **B) Incorreta:** O Brasil não integra a aliança militar do Atlântico Norte (OTAN).  
-> - **C) CORRETA:** Reprodução literal do art. 4º, parágrafo único, da CF/88.  
-> - **D) Incorreta:** A norma constitucional refere-se à América Latina como um todo, e não apenas ao Mercosul.  
-> - **E) Incorreta:** A cooperação com países lusófonos é importante, mas o parágrafo único do art. 4º vincula a integração à América Latina.
+> **Comentário Detalhado:**
+> - **A) Incorreta:** A Constituição não alude a hemisfério ocidental ou zona de comércio transcontinental.
+> - **B) Incorreta:** Refere-se à OTAN, aliança militar do hemisfério norte da qual o Brasil não faz parte.
+> - **C) CORRETA:** O parágrafo único do art. 4º da CF/88 dispõe textualmente: *"A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."*
+> - **D) Incorreta:** A diretriz constitucional alcança toda a América Latina, e não unicamente os países membros do Mercosul.
+> - **E) Incorreta:** A cooperação com a comunidade de língua portuguesa é relevante, mas o comando constitucional integrativo expresso do art. 4º reporta-se aos povos latino-americanos.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -256,17 +254,11 @@ C) Cada Poder exerce uma função típica preponderante inerente à sua natureza
 D) O sistema de freios e contrapesos autoriza o Poder Executivo a revogar sentenças judiciais transitadas em julgado por motivos de conveniência financeira.  
 E) A independência entre os Poderes impede que o Tribunal de Contas fiscalize despesas realizadas pela Assembleia Legislativa.  
 
-> **Gabarito: C**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. A separação de poderes no constitucionalismo contemporâneo não é estanque nem absoluta:  
->    - Cada Poder possui uma **função típica** (Executivo administra; Legislativo legisla e fiscaliza; Judiciário julga com definitividade).  
->    - Paralelamente, todos os Poderes exercem **funções atípicas** expressamente outorgadas pela Constituição (ex.: o Judiciário administra seus serviços e realiza licitações; o Senado julga o Presidente em crimes de responsabilidade; o Executivo edita medidas provisórias com força de lei).  
-> 2. O sistema de **freios e contrapesos** (*checks and balances*) garante que nenhum Poder se sobreponha aos demais, estabelecendo controles recíprocos balizados na própria Constituição (ex.: veto presidencial a projetos de lei; aprovação de ministros pelo Senado; controle de constitucionalidade pelo Judiciário).  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta:** A separação não é absoluta; admite o exercício de funções atípicas previstas na CF.  
-> - **B) Incorreta:** O Judiciário exerce atipicamente a função de administrar seus próprios recursos, servidores e contratos.  
-> - **C) CORRETA:** Síntese perfeita da dinâmica moderna entre funções típicas, atípicas e sistema de freios e contrapesos.  
-> - **D) Incorreta:** O Executivo jamais pode desconstituir decisões judiciais transitadas em julgado.  
-> - **E) Incorreta:** O Tribunal de Contas fiscaliza a execução orçamentária de todos os Poderes, inclusive do Legislativo e Judiciário (CF, art. 70).
+> **Comentário Detalhado:**
+> - **A) Incorreta:** A separação dos poderes não é absoluta nem estanque, pois a própria Carta Magna encarrega cada Poder de exercer certas funções atípicas secundárias.
+> - **B) Incorreta:** O Judiciário exerce atipicamente a função administrativa ao organizar seus órgãos, licitar e gerir seus servidores (CF, art. 96).
+> - **C) CORRETA:** O princípio da separação dos poderes organiza o Estado conferindo a cada órgão uma função típica prioritária (legislar, julgar ou administrar), sem prejuízo de desempenharem funções atípicas e mecanismos mútuos de contenção e controle no âmbito do sistema de freios e contrapesos (*checks and balances*).
+> - **D) Incorreta:** Decisões judiciais transitadas em julgado revestem-se da garantia da coisa julgada (art. 5º, XXXVI), sendo insuscetíveis de revogação pelo Executivo.
+> - **E) Incorreta:** Por mandamento do art. 70 da CF/88, o controle financeiro e orçamentário externo exercido com o auxílio do Tribunal de Contas alcança os três Poderes, inclusive o Poder Legislativo.
+> 
+> **Gabarito: C**

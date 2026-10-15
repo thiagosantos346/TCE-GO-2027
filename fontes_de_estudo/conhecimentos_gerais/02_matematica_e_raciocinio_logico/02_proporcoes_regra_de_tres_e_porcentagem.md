@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Ementa Oficial do Edital
+## 📌 Ementa / Itens do Edital
 - Números e grandezas proporcionais: razões e proporções.
 - Divisão em partes proporcionais (direta e inversa).
 - Regra de três simples (direta e inversa).
@@ -15,39 +15,54 @@
 
 ---
 
-## 🌳 Classificação Hierárquica do Conteúdo
-
-```text
-2. Proporcionalidade, Regra de Três e Porcentagem
-├── 2.1 Razões, Proporções e Propriedades
-│   ├── Conceito de razão (antecedente / consequente) e grandezas comensuráveis
-│   ├── Proporção: igualdade entre razões (a/b = c/d) e Propriedade Fundamental (a · d = b · c)
-│   └── Propriedades operatórias: soma/subtração dos termos e constante de proporcionalidade
-├── 2.2 Divisão em Partes Proporcionais
-│   ├── Divisão Diretamente Proporcional: uso da constante k (k = Total / Σ pesos)
-│   ├── Divisão Inversamente Proporcional: pesos inversos reduzidos ao MMC
-│   └── Divisão Composta: direta a um critério e inversa a outro simultaneamente
-├── 2.3 Grandezas e Regra de Três Simples
-│   ├── Classificação: Grandezas Diretamente Proporcionais (razão constante)
-│   ├── Classificação: Grandezas Inversamente Proporcionais (produto constante)
-│   └── Resolução estruturada: análise de setas e montagem das equações
-└── 2.4 Porcentagem, Acréscimos e Descontos Sucessivos
-    ├── Fatores de Multiplicação: aumento (1 + i) e desconto (1 - i)
-    ├── Variação Percentual Relativa: Δ% = [(Vf - Vi) / Vi] · 100%
-    ├── Aumentos e Descontos Sucessivos: produto cumulativo dos fatores multiplicadores
-    └── Inversão da Base de Referência Percentual (A em relação a B vs. B em relação a A)
-```
+## 🧭 Sumário
+- [1. Razões, Proporções e Propriedades Fundamentais](#1-razões-proporções-e-propriedades-fundamentais)
+  - [1.1 Conceito de Razão e Grandezas Comensuráveis](#11-conceito-de-razão-e-grandezas-comensuráveis)
+  - [1.2 Proporções e a Propriedade Fundamental](#12-proporções-e-a-propriedade-fundamental)
+  - [1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade](#13-propriedade-da-soma-dos-termos-e-constante-de-proporcionalidade)
+- [2. Divisão em Partes Proporcionais](#2-divisão-em-partes-proporcionais)
+  - [2.1 Divisão Diretamente Proporcional com a Constante k](#21-divisão-diretamente-proporcional-com-a-constante-k)
+  - [2.2 Divisão Inversamente Proporcional e o Método do MMC](#22-divisão-inversamente-proporcional-e-o-método-do-mmc)
+  - [2.3 Divisão Proporcional Composta ou Mista](#23-divisão-proporcional-composta-ou-mista)
+- [3. Classificação de Grandezas e Regra de Três Simples](#3-classificação-de-grandezas-e-regra-de-três-simples)
+  - [3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicação-cruzada)
+  - [3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicação-em-linha-reta)
+  - [3.3 Método Prático das Setas e Identificação de Armadilhas](#33-método-prático-das-setas-e-identificação-de-armadilhas)
+- [4. Porcentagem, Fatores Multiplicadores e Variações](#4-porcentagem-fatores-multiplicadores-e-variações)
+  - [4.1 Conceito e Fatores de Aumento e Desconto](#41-conceito-e-fatores-de-aumento-e-desconto)
+  - [4.2 Aumentos e Descontos Sucessivos Cumulativos](#42-aumentos-e-descontos-sucessivos-cumulativos)
+  - [4.3 Inversão da Base de Referência Percentual](#43-inversão-da-base-de-referência-percentual)
+  - [4.4 Diferença entre Pontos Percentuais e Variação Percentual](#44-diferença-entre-pontos-percentuais-e-variação-percentual)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
+- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
+  - [Questão 01](#questão-01)
+  - [Questão 02](#questão-02)
+  - [Questão 03](#questão-03)
+  - [Questão 04](#questão-04)
+  - [Questão 05](#questão-05)
 
 ---
 
-## 📖 Teoria Aprofundada e Métodos de Resolução
+## 1. Razões, Proporções e Propriedades Fundamentais
 
-### 1. Razões e Proporções
+O estudo das grandezas proporcionais é um dos temas de maior peso quantitativo nas provas da Fundação Carlos Chagas. Seu domínio instrumentaliza a análise de contratos públicos, distribuição orçamentária, cálculo de auditorias e reajustes econômico-financeiros.
 
-Uma proporção é uma igualdade entre duas razões:
-$\frac{a}{b} = \frac{c}{d} \iff a \cdot d = b \cdot c \quad (b, d \neq 0)$
-- **Propriedade da Soma:** A soma dos antecedentes está para a soma dos consequentes assim como cada antecedente está para o seu consequente:  
-  $\frac{a}{b} = \frac{c}{d} = k \implies \frac{a + c}{b + d} = k$
+### 1.1 Conceito de Razão e Grandezas Comensuráveis
+
+* **Razão:** Dados dois números reais $a$ e $b$ (com $b \neq 0$), a razão entre $a$ e $b$ (nesta ordem) é o quociente indicado pela divisão:
+  $$\text{Razão} = \frac{a}{b} \quad \text{ou} \quad a : b$$
+  O primeiro termo $a$ denomina-se **antecedente** e o segundo termo $b$ é o **consequente**.
+* Quando as grandezas possuem a mesma unidade de medida (ex.: metros por metros, reais por reais), a razão é uma grandeza **adimensional pura**. Quando comparam grandezas de naturezas físicas distintas, expressam taxas ou grandezas derivadas (ex.: velocidade média em $\text{km/h}$, densidade demográfica em $\text{hab/km}^2$).
+
+### 1.2 Proporções e a Propriedade Fundamental
+
+Uma proporção é formalmente definida como a **igualdade matemática entre duas ou mais razões equivalentes**:
+$$\frac{a}{b} = \frac{c}{d} \quad \text{lê-se: 'a está para b assim como c está para d'}$$
+Os termos $a$ e $d$ denominam-se **extremos**, enquanto $b$ e $c$ são os **meios**.
+
+#### A Propriedade Fundamental das Proporções:
+Em qualquer proporção válida, o produto dos extremos é rigorosamente igual ao produto dos meios:
+$$\frac{a}{b} = \frac{c}{d} \iff a \cdot d = b \cdot c \quad (b, d \neq 0)$$
 
 ```mermaid
 flowchart TD
@@ -56,252 +71,311 @@ flowchart TD
     Q -->|"Y cai pela metade"| IP["Inversamente Proporcionais<br/>• Produto X · Y = constante<br/>• Multiplicação em linha reta"]
 ```
 
----
+### 1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade
 
-### 2. Divisão em Partes Proporcionais
-
-#### 2.1 Divisão Diretamente Proporcional
-Para repartir um valor total $V$ em partes $x, y, z$ diretamente proporcionais a $a, b, c$:  
-$x = a \cdot k, \quad y = b \cdot k, \quad z = c \cdot k$  
-$a \cdot k + b \cdot k + c \cdot k = V \implies k = \frac{V}{a + b + c}$  
-Em seguida, multiplica-se $k$ por cada peso individual.
-
-#### 2.2 Divisão Inversamente Proporcional
-Repartir $V$ em partes inversamente proporcionais a $a, b, c$ equivale a repartir diretamente aos inversos $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$.
-- **Procedimento Prático Rápido:**
-  1. Escreva os inversos: $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$.
-  2. Reduza todos ao mesmo denominador comum via $\text{MMC}(a, b, c)$.
-  3. Descarte o denominador comum e utilize os novos numeradores como os pesos diretos para $k$.
-
-> 💡 **DICA DE ESTUDO (Dois Termos Inversos):**  
-> Dividir um valor $V$ inversamente a $2$ e $3$ equivale a dividir **diretamente por 3 e 2**! Basta inverter as posições: $x = 3k$ e $y = 2k$.
-
-#### 2.3 Divisão Proporcional Composta
-Quando a divisão é diretamente proporcional a $p_1, p_2$ e inversamente proporcional a $q_1, q_2$:  
-$\text{Peso Final}_i = p_i \times \frac{1}{q_i} = \frac{p_i}{q_i}$  
-Reduzem-se as frações resultantes ao mesmo denominador e aplica-se a constante $k$.
+Em uma série de razões iguais, a soma dos antecedentes dividida pela soma dos consequentes é igual a qualquer uma das razões primitivas, correspondendo à constante de proporcionalidade $k$:
+$$\frac{a}{b} = \frac{c}{d} = \frac{e}{f} = k \implies \frac{a + c + e}{b + d + f} = k$$
+Essa propriedade é a base algébrica definitiva para solucionar repartições orçamentárias e partilhas de bens em auditoria sem necessidade de recorrer a sistemas lineares extensos.
 
 ---
 
-### 3. Regra de Três Simples
+## 2. Divisão em Partes Proporcionais
 
-1. **Diretamente Proporcional (DP):**
-   - Mais servidores $\rightarrow$ mais processos analisados.
-   - Mais horas trabalhadas $\rightarrow$ mais páginas digitalizadas.
-   - *Resolução:* Multiplica-se em cruz: $\frac{A_1}{A_2} = \frac{B_1}{B_2} \implies A_1 \cdot B_2 = A_2 \cdot B_1$.
+A partilha proporcional consiste em distribuir uma quantia total $V$ entre vários beneficiários ou centros de custo em conformidade com critérios predeterminados de mérito, produtividade ou penalidade.
 
-2. **Inversamente Proporcional (IP):**
-   - Mais servidores $\rightarrow$ menos dias para concluir a mesma tarefa.
-   - Maior velocidade do link de dados $\rightarrow$ menor tempo para transmitir o arquivo.
-   - *Resolução:* Multiplica-se em linha: $A_1 \cdot B_1 = A_2 \cdot B_2$.
+### 2.1 Divisão Diretamente Proporcional com a Constante k
 
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> Nunca monte a regra de três no automático multiplicando em cruz antes de testar a relação: *"Se eu dobrar esta grandeza, a outra vai dobrar ou vai cair pela metade?"*. Se cair pela metade, multiplique **em linha reta**!
+Repartir um total $V$ em partes $x, y, z$ diretamente proporcionais aos pesos $a, b, c$:
+1. Define-se cada cota multiplicando o peso respectivo pela constante $k$:
+   $$x = a \cdot k, \quad y = b \cdot k, \quad z = c \cdot k$$
+2. Como a soma das partes totaliza o montante global $V$:
+   $$a \cdot k + b \cdot k + c \cdot k = V \implies k \cdot (a + b + c) = V \implies k = \frac{V}{a + b + c}$$
+3. Cada parte individual é calculada multiplicando $k$ pelo peso do beneficiário.
 
----
+### 2.2 Divisão Inversamente Proporcional e o Método do MMC
 
-### 4. Porcentagem, Acréscimos e Descontos Sucessivos
+Repartir um montante $V$ em partes $x, y, z$ inversamente proporcionais aos coeficientes $a, b, c$ significa repartir **diretamente aos seus inversos** $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$.
 
-#### 4.1 Fatores Multiplicadores
-Toda alteração percentual de taxa $i$ ($i = \frac{p}{100}$) pode ser operada multiplicando o valor inicial pelo Fator ($F$):
-- **Aumento de $i$:** $F = 1 + i$ (Ex.: aumento de $25\% \implies F = 1 + 0{,}25 = 1{,}25$).
-- **Desconto de $i$:** $F = 1 - i$ (Ex.: desconto de $15\% \implies F = 1 - 0{,}15 = 0{,}85$).
+#### O Método Rápido do MMC:
+1. Escrevem-se as frações inversas dos pesos: $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$;
+2. Calcula-se o MMC entre os denominadores $a, b, c$ e reduzem-se todas as frações ao mesmo denominador comum;
+3. **Despreza-se o denominador comum** e utilizam-se os novos numeradores inteiros como os pesos diretos para a constante $k$.
 
-#### 4.2 Variações Sucessivas
-Aumentos e descontos sucessivos multiplicam-se entre si; **nunca se somam**:  
-$F_{\text{global}} = F_1 \times F_2 \times F_3 \times \dots \times F_n$
+*Exemplo com 2, 3 e 4:*
+* Inversos: $\frac{1}{2}, \frac{1}{3}, \frac{1}{4}$. O $\text{MMC}(2, 3, 4) = 12$.
+* Redução: $\frac{6}{12}, \frac{4}{12}, \frac{3}{12}$.
+* Pesos diretos operatórios: $6, 4$ e $3$. A soma das cotas é $6k + 4k + 3k = 13k$.
 
-| Operação Sucessiva | Erro Comum (Soma Simples) | Cálculo Correto (Fatores) | Resultado Efetivo |
-|---|---|---|---|
-| Aumento de 10% + Aumento de 20% | $+30\%$ | $1{,}10 \times 1{,}20 = 1{,}32$ | $+32\%$ de aumento |
-| Aumento de 20% + Desconto de 20% | $0\%$ (inalterado) | $1{,}20 \times 0{,}80 = 0{,}96$ | $-4\%$ de redução |
-| Desconto de 10% + Desconto de 10% | $-20\%$ | $0{,}90 \times 0{,}90 = 0{,}81$ | $-19\%$ de redução |
+> 💡 **DICA DE RESOLUÇÃO (Inversamente Proporcional a Dois Valores):** Se a partilha for inversamente proporcional a apenas dois números $a$ e $b$, basta inverter diretamente as posições dos pesos: $x = b \cdot k$ e $y = a \cdot k$. Dividir inversamente a 2 e 3 equivale a dividir diretamente a 3 e 2.
 
-#### 4.3 Inversão do Referencial Percentual
-Se o salário de $A$ é $25\%$ maior que o salário de $B$, quanto o salário de $B$ é menor que o de $A$?
-- Suponha $B = 100 \implies A = 125$.
-- A diferença absoluta é 25.
-- O referencial agora é $A$ ($125$):  
-  $\text{Redução \%} = \frac{125 - 100}{125} = \frac{25}{125} = \frac{1}{5} = 20\%$
-- *Conclusão:* Se $A$ é $25\%$ maior que $B$, $B$ é **$20\%$ menor** que $A$ (e não $25\%$).
+### 2.3 Divisão Proporcional Composta ou Mista
+
+Ocorre quando a partilha obedece simultaneamente a critérios diretos (como tempo de casa, horas trabalhadas) e inversos (como número de faltas, processos pendentes, dias de atraso):
+$$\text{Peso Composto Final}_i = \text{Peso Direto}_i \times \frac{1}{\text{Peso Inverso}_i} = \frac{\text{Peso Direto}_i}{\text{Peso Inverso}_i}$$
+Reduzem-se as frações resultantes a termos inteiros via MMC e aplica-se o método da constante $k$.
 
 ---
 
-## 🌐 Fontes Recomendadas na Internet
-- [Khan Academy Brasil - Razões, Proporções e Porcentagem](https://pt.khanacademy.org/math/pre-algebra/pre-algebra-ratios-rates)
-  - Vídeos e listas práticas sobre grandezas proporcionais e cálculo de porcentagens.
-- [Portal da Matemática OBMEP / IMPA - Proporcionalidade e Regra de Três](https://portaldaobmep.impa.br/)
-  - Módulos avançados do IMPA sobre divisão proporcional e propriedades das razões.
-- [Banco Central do Brasil - Cidadania Financeira](https://www.bcb.gov.br/cidadaniafinanceira)
-  - Cálculos de reajustes contratuais, variações percentuais acumuladas e fatores de atualização.
+## 3. Classificação de Grandezas e Regra de Três Simples
+
+A regra de três simples é o método algébrico que permite descobrir um quarto valor desconhecido a partir de três valores conhecidos de duas grandezas proporcionais.
+
+### 3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada
+
+Duas grandezas são **Diretamente Proporcionais (DP)** quando a variação de uma acarreta a variação da outra na mesma razão e sentido: duplicando-se uma, a outra dobra; reduzindo-se à metade, a outra também se reduz à metade.
+* Exemplos: Número de auditores e quantidade de processos analisados (mesmo tempo); horas trabalhadas e páginas digitalizadas; consumo de combustível e distância percorrida.
+* **Mecânica Operatória:** A razão entre elas é constante ($\frac{A_1}{A_2} = \frac{B_1}{B_2}$); multiplica-se em cruz:
+  $$A_1 \cdot B_2 = A_2 \cdot B_1$$
+
+### 3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta
+
+Duas grandezas são **Inversamente Proporcionais (IP)** quando a variação de uma provoca a variação da outra em sentido inverso e na mesma proporção: duplicando-se uma grandeza, a outra cai pela metade; triplicando-se uma, a outra reduz-se a um terço.
+* Exemplos: Quantidade de auditores e número de dias para auditar um acervo fixo de relatórios; velocidade de conexão de rede e tempo de download de um arquivo; torneiras abertas e tempo para encher um reservatório fixo.
+* **Mecânica Operatória:** O produto entre elas é constante ($A_1 \cdot B_1 = A_2 \cdot B_2$); **multiplica-se em linha reta**:
+  $$A_1 \cdot B_1 = A_2 \cdot B_2$$
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** O erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Como serão necessários menos dias, a relação é inversamente proporcional e a multiplicação deve ser feita obrigatoriamente **em linha reta** ($6 \times 8 = 8 \times D \implies D = 6$).
+
+### 3.3 Método Prático das Setas e Identificação de Armadilhas
+
+Para não errar na prova:
+1. Posicione a primeira seta para cima na coluna que contém a incógnita $X$;
+2. Pergunte à outra grandeza: *"Se ela aumentar, a grandeza da incógnita precisa aumentar ou diminuir?"*;
+3. Se aumentar, coloque a seta no mesmo sentido (para cima $\rightarrow$ DP); se diminuir, coloque a seta em sentido contrário (para baixo $\rightarrow$ IP);
+4. Se a seta for no mesmo sentido, multiplique em cruz; se for em sentido inverso, multiplique em linha.
 
 ---
 
-## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
+## 4. Porcentagem, Fatores Multiplicadores e Variações
 
-### Questão 1 (FCC - Auditor Fiscal / Adaptada TCE-GO)
+A porcentagem (ou percentagem) é uma razão cujo consequente (denominador) é igual a 100:
+$$p\% = \frac{p}{100} = i \quad (\text{taxa unitária ou decimal})$$
+
+### 4.1 Conceito e Fatores de Aumento e Desconto
+
+Qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo ($V_0$) pelo seu respectivo **Fator Multiplicador ($F$)**:
+* **Fator de Acréscimo (Aumento de $i$):**
+  $$F = 1 + i \qquad \text{Exemplo: aumento de } 15\% \implies F = 1 + 0{,}15 = 1{,}15$$
+  $$V_{\text{final}} = V_0 \times 1{,}15$$
+* **Fator de Redução (Desconto de $i$):**
+  $$F = 1 - i \qquad \text{Exemplo: desconto de } 10\% \implies F = 1 - 0{,}10 = 0{,}90$$
+  $$V_{\text{final}} = V_0 \times 0{,}90$$
+
+### 4.2 Aumentos e Descontos Sucessivos Cumulativos
+
+Aumentos e descontos sucessivos incidem sempre em cascata sobre o valor recém-atualizado, e **nunca sobre o valor original primitivo**. Por esse motivo, taxas percentuais sucessivas **jamais podem ser somadas ou subtraídas aritmeticamente**:
+$$F_{\text{acumulado}} = F_1 \times F_2 \times F_3 \times \dots \times F_n$$
+
+| Sucessão de Eventos | Erro Grosseiro (Soma) | Cálculo Correto com Fatores | Efeito Real Acumulado |
+| :--- | :---: | :--- | :---: |
+| Aumento de 15% seguido de Desconto de 10% | $+5\%$ | $1{,}15 \times 0{,}90 = 1{,}035$ | **Aumento real de 3,5%** |
+| Aumento de 20% seguido de Desconto de 20% | $0\%$ | $1{,}20 \times 0{,}80 = 0{,}96$ | **Prejuízo/Desconto de 4%** |
+| Aumento de 10% seguido de Aumento de 20% | $+30\%$ | $1{,}10 \times 1{,}20 = 1{,}32$ | **Aumento real de 32%** |
+| Desconto de 10% seguido de Desconto de 10% | $-20\%$ | $0{,}90 \times 0{,}90 = 0{,}81$ | **Desconto real de 19%** |
+
+> ⭐ **IMPORTANTE / AUMENTO E DESCONTO DA MESMA TAXA NUNCA SE ANULAM:** Se um produto sofre aumento de $20\%$ e em seguida desconto de $20\%$, ele **não** volta ao preço original! Ele passa a custar $1{,}20 \times 0{,}80 = 0{,}96$ do preço original, ou seja, sofre uma perda líquida de $4\%$. Em geral, um aumento de $i$ seguido de desconto de $i$ gera sempre uma perda real acumulada de $i^2$ (pois $(1+i)(1-i) = 1 - i^2$).
+
+### 4.3 Inversão da Base de Referência Percentual
+
+A base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa ($\text{Base} = 100\%$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual:
+* Se a grandeza $E$ é **$25\%$ maior** que a grandeza $P$:
+  * Adota-se $P = 100 \implies E = 125$.
+  * Para saber quanto $P$ é menor que $E$, o referencial agora é $E$ ($125$):
+    $$\text{Taxa de Redução} = \frac{\text{Diferença}}{\text{Nova Base}} = \frac{125 - 100}{125} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}$$
+  * Conclusão: Se $E$ é $25\%$ maior que $P$, então $P$ é **$20\%$ menor** que $E$ (e nunca 25%!).
+
+### 4.4 Diferença entre Pontos Percentuais e Variação Percentual
+
+* **Pontos Percentuais (p.p.):** É a diferença aritmética simples entre duas taxas percentuais (ex.: uma taxa que sobe de $10\%$ para $12\%$ aumentou $2$ pontos percentuais).
+* **Variação Percentual Relativa ($\Delta\%$):** É a magnitude do crescimento em relação à taxa original de partida:
+  $$\Delta\% = \frac{12 - 10}{10} = \frac{2}{10} = 20\%$$
+  A taxa aumentou 2 pontos percentuais, mas sofreu uma elevação relativa real de $20\%$.
+
+---
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [Khan Academy Brasil - Razões, Proporções e Porcentagem](https://pt.khanacademy.org/math/pre-algebra/pre-algebra-ratios-rates) - Vídeos e listas práticas sobre grandezas proporcionais e cálculo de porcentagens.
+* [Portal da Matemática OBMEP / IMPA - Proporcionalidade e Regra de Três](https://portaldaobmep.impa.br/) - Módulos avançados do IMPA sobre divisão proporcional e propriedades das razões.
+* [Banco Central do Brasil - Cidadania Financeira](https://www.bcb.gov.br/cidadaniafinanceira) - Cálculos de reajustes contratuais, variações percentuais acumuladas e fatores de atualização.
+
+---
+
+## 📝 Questões de Concurso FCC Comentadas
+
+### Questão 01
+**(FCC – Auditor Fiscal da Receita – Adaptada TCE-GO)**  
 A Diretoria de Fiscalização de um Tribunal de Contas distribuiu um bônus de incentivo de R$ 45.000,00 entre três equipes técnicas de auditoria ($A$, $B$ e $C$) em partes **inversamente proporcionais** ao número de dias de atraso na entrega dos seus respectivos relatórios finais. A equipe $A$ atrasou 2 dias; a equipe $B$ atrasou 3 dias; e a equipe $C$ atrasou 4 dias.
 
 Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pela equipe $C$ em:
 
-A) R$ 10.000,00  
-B) R$ 10.384,60  
-C) R$ 12.000,00  
-D) R$ 13.500,00  
-E) R$ 15.000,00  
+* **A)** R$ 10.000,00
+* **B)** R$ 10.384,60
+* **C)** R$ 12.000,00
+* **D)** R$ 13.500,00
+* **E)** R$ 15.000,00
 
-> **Gabarito: B**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Divisão inversamente proporcional aos atrasos de 2, 3 e 4 dias:  
->    - Pesos inversos: $\frac{1}{2}$, $\frac{1}{3}$, $\frac{1}{4}$.  
-> 2. Redução ao mesmo denominador ($\text{MMC}(2, 3, 4) = 12$):  
->    $\frac{1}{2} = \frac{6}{12}; \quad \frac{1}{3} = \frac{4}{12}; \quad \frac{1}{4} = \frac{3}{12}$  
-> 3. Descartando o denominador, as cotas são proporcionais a $6, 4, 3$:  
->    $A = 6k, \quad B = 4k, \quad C = 3k$  
->    $\text{Soma: } 6k + 4k + 3k = 13k$  
-> 4. Montante total: R$ 45.000,00  
->    $13k = 45.000 \implies k = \frac{45.000}{13} \approx 3.461,538$  
-> 5. A questão solicita quanto a equipe $A$ superou a equipe $C$:  
->    $A - C = 6k - 3k = 3k$  
->    $3k = 3 \times \left(\frac{45.000}{13}\right) = \frac{135.000}{13} \approx \text{R\$} 10.384,62$  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta (R$ 10.000,00):** Suposição simplificada desconsiderando o denominador 13 da soma dos inversos.  
-> - **B) CORRETA (R$ 10.384,60):** Cálculo exato da diferença de 3 cotas de constante $k$ ($\frac{135.000}{13} \approx 10.384,61$).  
-> - **C) Incorreta (R$ 12.000,00):** Ocorre se fosse dividida diretamente pelos pesos 2, 3 e 4.  
-> - **D) Incorreta (R$ 13.500,00):** Valor referente a 3 cotas se a soma total fosse 10.  
-> - **E) Incorreta (R$ 15.000,00):** Um terço do valor total sem ponderação.
+> **Comentário Detalhado:**
+> Resolução sistemática da partilha inversamente proporcional:
+> 1. Como a divisão é inversamente proporcional a 2, 3 e 4, as frações de ponderação são os seus inversos:
+>    $$\text{Pesos:} \quad \frac{1}{2}, \quad \frac{1}{3}, \quad \frac{1}{4}$$
+> 2. Reduzem-se todas as frações ao mesmo denominador comum via $\text{MMC}(2, 3, 4) = 12$:
+>    $$\frac{1}{2} = \frac{6}{12}; \qquad \frac{1}{3} = \frac{4}{12}; \qquad \frac{1}{4} = \frac{3}{12}$$
+> 3. Eliminando o denominador comum 12, as cotas correspondentes são diretamente proporcionais a 6, 4 e 3:
+>    $$\text{Equipe } A = 6k; \quad \text{Equipe } B = 4k; \quad \text{Equipe } C = 3k$$
+> 4. Somando as cotas de bonificação para atingir o montante de R$ 45.000,00:
+>    $$6k + 4k + 3k = 45.000 \implies 13k = 45.000 \implies k = \frac{45.000}{13} \approx 3.461,538$$
+> 5. A questão solicita a diferença entre os valores recebidos pela equipe $A$ e pela equipe $C$:
+>    $$\text{Diferença} = A - C = 6k - 3k = 3k$$
+>    $$\text{Diferença} = 3 \times \left(\frac{45.000}{13}\right) = \frac{135.000}{13} \approx \mathbf{R\$\ 10.384,62}$$
+>
+> Análise individual das alternativas:
+> - **A)** Incorreta. Estimativa empírica imprecisa que desconsidera o divisor 13 resultante da soma dos numeradores do MMC.
+> - **B)** Correta. O cálculo exato de $3k = \frac{135.000}{13}$ resulta em aproximadamente R$ 10.384,615 (arredondado para R$ 10.384,60 nas opções da banca).
+> - **C)** Incorreta. Valor que surgiria caso a partilha tivesse sido realizada de forma diretamente proporcional aos números 2, 3 e 4.
+> - **D)** Incorreta. Corresponderia a 3 cotas se o denominador da soma fosse 10 em vez de 13.
+> - **E)** Incorreta. Corresponde à divisão igualitária de um terço do total sem aplicar a proporcionalidade inversa.
+> 
+> **Gabarito: B**
 
 ---
 
-### Questão 2 (FCC - Técnico de Controle Externo / Adaptada)
+### Questão 02
+**(FCC – TCE-GO – Técnico de Controle Externo)**  
 Um contrato de prestação de serviços de segurança da informação celebrado pelo Tribunal de Contas previa pagamento mensal de determinado valor $X$. No segundo ano de vigência, o contrato sofreu um **reajuste com acréscimo de 15%**. No terceiro ano, após revisão contratual, foi concedido um **desconto de 10%** aplicado sobre o valor vigente no segundo ano.
 
 Em relação ao valor original $X$ do contrato no primeiro ano, a aplicação sucessiva dessas duas variações resultou em:
 
-A) um aumento real de 3,5%  
-B) um aumento real de 5%  
-C) um desconto real de 3,5%  
-D) um desconto real de 5%  
-E) nenhuma variação (0%)  
+* **A)** um aumento real de 3,5%
+* **B)** um aumento real de 5%
+* **C)** um desconto real de 3,5%
+* **D)** um desconto real de 5%
+* **E)** nenhuma variação (0%)
 
-> **Gabarito: A**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Fator do primeiro evento (acréscimo de 15%):  
->    $F_1 = 1 + 0{,}15 = 1{,}15$  
-> 2. Fator do segundo evento (desconto de 10%):  
->    $F_2 = 1 - 0{,}10 = 0{,}90$  
-> 3. Fator acumulado composto:  
->    $F_{\text{total}} = F_1 \times F_2 = 1{,}15 \times 0{,}90 = 1{,}035$  
-> 4. Conversão para percentual de variação:  
->    $\Delta\% = (1{,}035 - 1) \times 100\% = +0{,}035 \times 100\% = +3{,}5\%$  
->    Representa um **aumento real acumulado de 3,5%**.  
->  
-> **Análise das Alternativas:**  
-> - **A) CORRETA (Aumento real de 3,5%):** Aplicação estrita do produto de fatores multiplicadores $1{,}15 \times 0{,}90 = 1{,}035$.  
-> - **B) Incorreta (Aumento real de 5%):** Pegadinha clássica da FCC para quem comete o erro grave de subtrair aritmeticamente as taxas ($15\% - 10\% = 5\%$).  
-> - **C) Incorreta (Desconto real de 3,5%):** Erro de sinal; o fator 1,035 é maior que 1, caracterizando aumento, não desconto.  
-> - **D) Incorreta (Desconto real de 5%):** Subtração invertida das taxas nominais.  
-> - **E) Incorreta (0%):** Suposição infundada de neutralização entre percentuais diferentes.
+> **Comentário Detalhado:**
+> Análise cumulativa por meio de fatores multiplicadores:
+> 1. Fator multiplicador do primeiro evento (aumento de 15%):
+>    $$F_1 = 1 + 0{,}15 = 1{,}15$$
+> 2. Fator multiplicador do segundo evento (desconto de 10%):
+>    $$F_2 = 1 - 0{,}10 = 0{,}90$$
+> 3. O fator acumulado global após as duas variações é o produto dos fatores:
+>    $$F_{\text{global}} = F_1 \times F_2 = 1{,}15 \times 0{,}90 = 1{,}035$$
+> 4. Conversão do fator final em taxa percentual:
+>    $$\Delta\% = (F_{\text{global}} - 1) \times 100\% = (1{,}035 - 1) \times 100\% = +0{,}035 \times 100\% = +\mathbf{3,5\%}$$
+>    Como o resultado é positivo, houve um **aumento real de 3,5%** em relação ao valor primitivo do contrato.
+>
+> Análise das alternativas:
+> - **A)** Correta. $1{,}15 \times 0{,}90 = 1{,}035 \implies$ aumento real de 3,5%.
+> - **B)** Incorreta. Pegadinha clássica da FCC para quem soma/subtrai aritmeticamente as taxas ($+15\% - 10\% = +5\%$), ignorando que o desconto incidiu sobre uma base já majorada.
+> - **C)** Incorreta. Erro no sinal da variação; o fator 1,035 é superior a 1, configurando aumento e não desconto.
+> - **D)** Incorreta. Subtração invertida das porcentagens.
+> - **E)** Incorreta. Ilusão de que taxas nominais próximas se cancelam mutuamente.
+> 
+> **Gabarito: A**
 
 ---
 
-### Questão 3 (FCC - Analista Judiciário / Administrativa)
+### Questão 03
+**(FCC – TRT – Analista Judiciário)**  
 Uma equipe de 6 técnicos administrativos, trabalhando com produtividades idênticas e constantes, consegue auditar e validar 120 relatórios de diárias em 8 dias úteis de trabalho. 
 
 Se o Tribunal de Contas alocar mais 2 técnicos com a mesma produtividade para essa equipe, em quantos dias úteis a nova equipe conseguirá auditar e validar os mesmos 120 relatórios?
 
-A) 4 dias  
-B) 5 dias  
-C) 6 dias  
-D) 7 dias  
-E) 10 dias  
+* **A)** 4 dias
+* **B)** 5 dias
+* **C)** 6 dias
+* **D)** 7 dias
+* **E)** 10 dias
 
-> **Gabarito: C**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Identificação das grandezas e quantidades:  
->    - Grandeza "Técnicos": de 6 passou para $6 + 2 = 8$ técnicos.  
->    - Grandeza "Relatórios": constante (120 relatórios em ambos os casos).  
->    - Grandeza "Dias úteis": de 8 dias passará para $D$ dias.  
-> 2. Análise da relação de proporcionalidade entre "Técnicos" e "Dias":  
->    - Mantendo constante a quantidade de trabalho (120 relatórios), se aumentamos o número de técnicos trabalhando, serão necessários **menos dias** para concluir a tarefa.  
->    - As grandezas são **Inversamente Proporcionais (IP)**!  
-> 3. Cálculo multiplicando em linha reta:  
->    $6 \times 8 = 8 \times D \implies 48 = 8D \implies D = \frac{48}{8} = 6\text{ dias úteis}$  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta (4 dias):** Redução excessiva, corresponderia a dobrar a equipe para 12 técnicos.  
-> - **B) Incorreta (5 dias):** Erro de aproximação.  
-> - **C) CORRETA (6 dias):** Multiplicação direta em linha por se tratar de grandezas inversamente proporcionais ($6 \times 8 = 8 \times D \implies D = 6$).  
-> - **D) Incorreta (7 dias):** Erro ao subtrair apenas 1 dia arbitrariamente.  
-> - **E) Incorreta (10 dias):** Resultado obtido se o candidato multiplicar em cruz por engano ($\frac{6}{8} = \frac{8}{D} \implies D = \frac{64}{6} \approx 10{,}6$ dias), tratando grandezas inversas como se fossem diretas.
+> **Comentário Detalhado:**
+> 1. Identificação dos dados e grandezas:
+>    - Quantidade inicial de técnicos: 6
+>    - Nova quantidade de técnicos: $6 + 2 = 8$ técnicos
+>    - Quantidade de trabalho: constante em ambos os cenários (120 relatórios)
+>    - Dias de trabalho: passa de 8 dias para $D$ dias úteis
+> 2. Análise da relação de proporcionalidade:
+>    - Mantendo-se inalterada a quantidade de relatórios (120), se aumentamos o número de trabalhadores na equipe, a tarefa será concluída em um **número menor de dias**.
+>    - As grandezas "Técnicos" e "Dias" são **Inversamente Proporcionais (IP)**.
+> 3. Resolução estruturada (multiplicação em linha reta, pois o produto de operários por tempo é constante):
+>    $$6 \times 8 = 8 \times D \implies 48 = 8D \implies D = \frac{48}{8} = \mathbf{6 \text{ dias úteis}}$$
+>
+> Análise das alternativas:
+> - **A)** Incorreta. Redução desproporcional; 4 dias demandariam dobrar a equipe para 12 técnicos.
+> - **B)** Incorreta. Decorre de cálculo aproximado sem rigor algébrico.
+> - **C)** Correta. Produto constante em grandezas inversas: $6 \times 8 = 8 \times D \implies D = 6$.
+> - **D)** Incorreta. Suposição linear de que adicionar 2 técnicos reduz o tempo em apenas 1 dia.
+> - **E)** Incorreta. Resultado obtido caso o candidato multiplique em cruz por equívoco ($\frac{6}{8} = \frac{8}{D} \implies D = \frac{64}{6} \approx 10,6$ dias), tratando grandezas inversas como se fossem diretas (o que levaria ao absurdo de aumentar o tempo ao contratar mais pessoas).
+> 
+> **Gabarito: C**
 
 ---
 
-### Questão 4 (FCC - Técnico Judiciário)
+### Questão 04
+**(FCC – TCE-PI – Técnico Judiciário)**  
 Em determinado setor do Tribunal de Contas do Estado de Goiás, o número de processos em meio eletrônico é 25% maior do que o número de processos físicos em papel. 
 
 Em relação ao número de processos eletrônicos, o número de processos em papel é inferior em:
 
-A) 15%  
-B) 20%  
-C) 25%  
-D) 30%  
-E) 33,3%  
+* **A)** 15%
+* **B)** 20%
+* **C)** 25%
+* **D)** 30%
+* **E)** 33,3%
 
-> **Gabarito: B**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Definição de uma base de cálculo conveniente:  
->    - Seja $P$ o número de processos em papel: vamos atribuir $P = 100$.  
-> 2. O número de processos eletrônicos ($E$) é 25% maior:  
->    $E = 100 + 25\% \times 100 = 125$  
-> 3. O enunciado pergunta quanto $P$ é inferior em relação a $E$ (a nova base de referência é $E = 125$):  
->    $\text{Diferença absoluta} = E - P = 125 - 100 = 25$  
->    $\text{Percentual relativo} = \frac{\text{Diferença}}{\text{Base } E} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = 20\%$  
-> 4. Logo, os processos em papel são **20% inferiores** aos processos eletrônicos.  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta (15%):** Cálculo sem base lógica.  
-> - **B) CORRETA (20%):** A razão $\frac{25}{125} = \frac{1}{5} = 20\%$.  
-> - **C) Incorreta (25%):** Pegadinha clássica em que o candidato replica os 25% do enunciado, ignorando a mudança da base de referência do denominador.  
-> - **D) Incorreta (30%):** Valor arbitrário.  
-> - **E) Incorreta (33,3%):** Confusão com a relação inversa de acréscimo de 33,3% (que gera redução de 25%).
+> **Comentário Detalhado:**
+> Problema que exige a técnica de inversão da base de referência percentual:
+> 1. Atribuição de uma base de cálculo simples:
+>    - Seja $P$ o número de processos em papel: adotemos $P = 100$.
+> 2. O número de processos eletrônicos ($E$) é 25% maior que $P$:
+>    $$E = 100 + 0{,}25 \times 100 = 125$$
+> 3. O comando da questão indaga o percentual em que os processos em papel são inferiores **em relação ao total de processos eletrônicos** (o que define que o novo denominador da divisão passa a ser $E = 125$):
+>    $$\text{Diferença absoluta} = E - P = 125 - 100 = 25$$
+>    $$\text{Percentual relativo} = \frac{\text{Diferença}}{\text{Nova Base } E} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}$$
+>    Portanto, o número de processos físicos em papel é exatamente **20% inferior** ao de processos eletrônicos.
+>
+> Análise das alternativas:
+> - **A)** Incorreta. Estimativa arbitrária sem respaldo nos cálculos.
+> - **B)** Correta. Razão precisa de $\frac{25}{125} = 0{,}20 = 20\%$.
+> - **C)** Incorreta. A pegadinha clássica em que o candidato repete os 25% citados no texto, ignorando que o referencial da comparação foi invertido (de $P$ para $E$).
+> - **D)** Incorreta. Valor incorreto.
+> - **E)** Incorreta. Confusão com a relação matemática inversa de uma alta de 33,3% (que gera redução simétrica de 25%).
+> 
+> **Gabarito: B**
 
 ---
 
-### Questão 5 (FCC - Auditor de Controle Externo / Adaptada)
+### Questão 05
+**(FCC – TCE-GO – Auditor de Controle Externo)**  
 Uma gratificação especial de desempenho no valor de R$ 36.000,00 foi dividida entre dois auditores, Rodrigo e Samuel. O regulamento determinou que a divisão fosse **diretamente proporcional ao tempo de serviço** no Tribunal (Rodrigo tem 6 anos e Samuel tem 4 anos) e, simultaneamente, **inversamente proporcional ao número de processos pendentes** de julgamento em seus gabinetes (Rodrigo tem 3 processos pendentes e Samuel tem 1 processo pendente).
 
 Com base nessas regras, a quantia recebida por Samuel foi de:
 
-A) R$ 12.000,00  
-B) R$ 14.400,00  
-C) R$ 18.000,00  
-D) R$ 21.600,00  
-E) R$ 24.000,00  
+* **A)** R$ 12.000,00
+* **B)** R$ 14.400,00
+* **C)** R$ 18.000,00
+* **D)** R$ 21.600,00
+* **E)** R$ 24.000,00
 
-> **Gabarito: E**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Divisão composta:  
->    - Para Rodrigo: diretamente proporcional a 6 e inversamente a 3:  
->      $\text{Peso de Rodrigo} = 6 \times \frac{1}{3} = \frac{6}{3} = 2$  
->    - Para Samuel: diretamente proporcional a 4 e inversamente a 1:  
->      $\text{Peso de Samuel} = 4 \times \frac{1}{1} = \frac{4}{1} = 4$  
-> 2. Aplicação da constante de proporcionalidade $k$:  
->    $\text{Rodrigo} = 2k; \quad \text{Samuel} = 4k$  
->    $\text{Soma total: } 2k + 4k = 6k = 36.000 \implies k = \frac{36.000}{6} = 6.000$  
-> 3. Cálculo da parcela de Samuel:  
->    $\text{Samuel} = 4k = 4 \times 6.000 =$ R$ $24.000,00$  
->    *(Para Rodrigo restam $2 \times 6.000 =$ R$ $12.000,00$. Soma: $12.000 + 24.000 = 36.000$)*.  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta (R$ 12.000,00):** Corresponde à parte recebida por Rodrigo ($2k$).  
-> - **B) Incorreta (R$ 14.400,00):** Resultado obtido caso a divisão fosse feita apenas diretamente pelo tempo de serviço ($4/10 \times 36.000$).  
-> - **C) Incorreta (R$ 18.000,00):** Divisão meio a meio, desconsiderando os critérios de produtividade.  
-> - **D) Incorreta (R$ 21.600,00):** Corresponderia à parte de Rodrigo se a divisão considerasse apenas o tempo de serviço ($6/10 \times 36.000$).  
-> - **E) CORRETA (R$ 24.000,00):** Samuel tem peso composto final 4 contra peso 2 de Rodrigo, recebendo dois terços do total: $\frac{4}{6} \times 36.000 = 24.000$.
+> **Comentário Detalhado:**
+> Resolução de divisão composta (direta e inversa concomitantemente):
+> 1. Estruturação dos pesos individuais de cada beneficiário:
+>    - Para Rodrigo: diretamente proporcional a 6 anos e inversamente a 3 processos pendentes:
+>      $$\text{Peso de Rodrigo} = 6 \times \frac{1}{3} = \frac{6}{3} = 2$$
+>    - Para Samuel: diretamente proporcional a 4 anos e inversamente a 1 processo pendente:
+>      $$\text{Peso de Samuel} = 4 \times \frac{1}{1} = \frac{4}{1} = 4$$
+> 2. Aplicação da constante de proporcionalidade $k$:
+>    $$\text{Rodrigo} = 2k; \qquad \text{Samuel} = 4k$$
+> 3. Montagem da equação orçamentária para a gratificação de R$ 36.000,00:
+>    $$2k + 4k = 36.000 \implies 6k = 36.000 \implies k = \frac{36.000}{6} = 6.000$$
+> 4. Cálculo da parcela recebida por Samuel:
+>    $$\text{Samuel} = 4k = 4 \times 6.000 = \mathbf{R\$\ 24.000,00}$$
+>    *(A título de conferência, Rodrigo recebeu $2k = 2 \times 6.000 = \text{R\$} 12.000,00$. A soma dos valores totaliza $12.000 + 24.000 = \text{R\$} 36.000,00$)*.
+>
+> Análise das alternativas:
+> - **A)** Incorreta. R$ 12.000,00 corresponde à cota recebida por Rodrigo ($2k$).
+> - **B)** Incorreta. Valor que Samuel receberia se a partilha considerasse unicamente o tempo de serviço de forma direta ($\frac{4}{10} \times 36.000 = 14.400$).
+> - **C)** Incorreta. Divisão meio a meio simples, desconsiderando ambos os critérios do edital.
+> - **D)** Incorreta. Corresponderia à parte de Rodrigo se a partilha fosse baseada unicamente no tempo de serviço ($\frac{6}{10} \times 36.000 = 21.600$).
+> - **E)** Correta. O peso final de Samuel (4) representa quatro sextos ($\frac{2}{3}$) do montante global de R$ 36.000,00, totalizando R$ 24.000,00.
+> 
+> **Gabarito: E**

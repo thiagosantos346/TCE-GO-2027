@@ -39,43 +39,14 @@
 
 ---
 
-## 🌳 Classificação Hierárquica do Conteúdo
-
-```text
-2. Treinamento, Desenvolvimento, Gestão do Conhecimento e Aprendizagem
-├── 2.1 Diferenciação Fundamental: Treinamento vs. Desenvolvimento (T&D)
-│   ├── 2.1.1 Treinamento: Foco no cargo atual, curto prazo e redução de gaps operacionais
-│   └── 2.1.2 Desenvolvimento: Foco na carreira, longo prazo e visão estratégica
-├── 2.2 As Quatro Etapas do Ciclo de Treinamento
-│   ├── 2.2.1 Diagnóstico / Levantamento de Necessidades (LNT)
-│   │   ├── Análise Organizacional (alinhamento aos objetivos estratégicos)
-│   │   ├── Análise de Operações/Tarefas (requisitos dos cargos)
-│   │   └── Análise Individual (gaps de competências revelados em avaliações)
-│   ├── 2.2.2 Desenho e Programação Instrucional (objetivos, metodologias e instrutores)
-│   ├── 2.2.3 Execução e Condução (presencial, híbrido e plataformas EaD)
-│   └── 2.2.4 Avaliação de Resultados do Treinamento
-│       ├── Nível 1: Reação (pesquisa de satisfação imediata)
-│       ├── Nível 2: Aprendizagem (testes cognitivos e práticos)
-│       ├── Nível 3: Comportamento no Cargo / Transferência (mudança de postura no trabalho)
-│       ├── Nível 4: Resultados / Impacto Institucional (melhoria nos serviços públicos)
-│       └── Nível 5: Retorno sobre o Investimento - ROI (Jack Phillips)
-├── 2.3 Gestão do Conhecimento Organizacional
-│   ├── 2.3.1 Dado, Informação e Conhecimento (Pirâmide DIKW)
-│   ├── 2.3.2 Conhecimento Tácito vs. Conhecimento Explícito
-│   └── 2.3.3 O Modelo SECI e a Espiral do Conhecimento (Nonaka e Takeuchi)
-│       ├── Socialização (Tácito -> Tácito)
-│       ├── Externalização (Tácito -> Explícito)
-│       ├── Combinação (Explícito -> Explícito)
-│       └── Internalização (Explícito -> Tácito)
-├── 2.4 Aprendizagem Organizacional e as Cinco Disciplinas (Peter Senge)
-│   ├── 2.4.1 Aprendizagem em Circuito Simples vs. Circuito Duplo (Argyris & Schön)
-│   ├── 2.4.2 Domínio Pessoal e Modelos Mentais
-│   ├── 2.4.3 Visão Compartilhada e Aprendizagem em Equipe
-│   └── 2.4.4 Pensamento Sistêmico (A Quinta Disciplina)
-└── 2.5 Educação Corporativa e Escolas de Governo
-    ├── 2.5.1 Universidade Corporativa no Setor Público
-    └── 2.5.2 Escola Superior de Controle do TCE-GO (Instituto Leopoldo de Bulhões)
-```
+## 🧭 Sumário Interativo
+- [1. Treinamento vs. Desenvolvimento de Pessoas](#1-treinamento-vs-desenvolvimento-de-pessoas)
+- [2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick](#2-o-ciclo-de-treinamento-em-quatro-etapas-e-a-avaliação-de-kirkpatrick)
+- [3. Gestão do Conhecimento Organizacional e o Modelo SECI](#3-gestão-do-conhecimento-organizacional-e-o-modelo-seci)
+- [4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge](#4-aprendizagem-organizacional-e-as-cinco-disciplinas-de-peter-senge)
+- [5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)](#5-educação-corporativa-e-escolas-de-governo-ilbtce-go)
+- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referências-bibliográficas)
+- [7. Questões de Concurso FCC Comentadas](#7-questões-de-concurso-fcc-comentadas)
 
 ---
 
@@ -93,6 +64,8 @@ flowchart TD
     end
 ```
 
+#### Tabela Comparativa: Treinamento vs. Desenvolvimento
+
 | Critério de Comparação | Treinamento | Desenvolvimento de Pessoas |
 | :--- | :--- | :--- |
 | **Dimensão Temporal** | **Curto prazo** (ação pontual e imediata). | **Médio e longo prazo** (processo contínuo). |
@@ -101,9 +74,12 @@ flowchart TD
 | **Escopo do Conteúdo** | Estrito, técnico, procedural e centrado na tarefa (ex.: operar o sistema de protocolo eletrônico). | Amplo, abrangente, reflexivo e estratégico (ex.: programa de governança e ética pública). |
 | **Avaliação do Sucesso** | Rápida execução sem erros na rotina diária do posto de trabalho. | Capacidade de inovação, liderança adaptativa e visão sistêmica institucional. |
 
+> 🛑 **ATENÇÃO (TREINAMENTO VS. DESENVOLVIMENTO):**  
+> Treinamento refere-se ao **presente** e ao cargo **atual** (objetivo imediato e operacional). Desenvolvimento refere-se ao **futuro** e à **carreira** como um todo (objetivo mediato, estratégico e de liderança).
+
 ---
 
-### 2. O Ciclo de Treinamento em Quatro Etapas
+### 2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick
 
 Segundo Idalberto Chiavenato, o treinamento funciona como um ciclo contínuo composto por quatro fases lógicas e sequenciais:
 
@@ -115,23 +91,14 @@ flowchart TD
     E4 -.->|Retroalimentação / Feedback| E1
 ```
 
-#### Etapa 1: Diagnóstico / Levantamento das Necessidades de Treinamento (LNT)
-
+#### A) Etapa 1: Diagnóstico / Levantamento das Necessidades de Treinamento (LNT)
 O LNT é o diagnóstico das carências de competências que prejudicam o alcance das metas organizacionais. O diagnóstico ocorre em três níveis de análise:
 1. **Análise Organizacional:** examina a missão, a visão de futuro, os planos estratégicos e as metas globais do órgão para identificar quais competências coletivas são essenciais.
 2. **Análise dos Recursos Humanos (Competências):** mapeia as competências atuais dos servidores frente às competências exigidas pelo órgão, detectando as lacunas (*skills gaps*).
 3. **Análise das Operações e Tarefas (Cargos):** avalia a descrição de cada cargo, os requisitos técnicos e o padrão de excelência esperado para cada função pública.
 
-* **Principais Métodos de Coleta de Dados para o LNT:**
-  - Avaliação de desempenho funcional (revela desempenhos abaixo do padrão esperado);
-  - Observação direta do trabalho em campo;
-  - Entrevistas estruturadas com supervisores e chefias imediatas;
-  - Questionários de autoavaliação;
-  - Análise de relatórios de auditoria, processos com atraso e incidentes críticos.
-
-#### Etapa 2: Desenho e Programação do Treinamento
-
-Consiste no planejamento instrucional estruturado. A programação deve responder a seis questões cruciais:
+#### B) Etapa 2: Desenho e Programação do Treinamento
+Consiste no planejamento instrucional estruturado, respondendo a seis questões cruciais:
 * **Quem deve ser treinado?** (público-alvo / participantes selecionados);
 * **Quem vai treinar?** (instrutores internos da Escola de Contas ou consultores externos contratados);
 * **Em que treinar?** (conteúdo programático, competências técnicas e comportamentais);
@@ -139,12 +106,10 @@ Consiste no planejamento instrucional estruturado. A programação deve responde
 * **Como treinar?** (métodos pedagógicos: estudos de caso, oficinas, simulações ou palestras expositivas);
 * **Quando treinar?** (cronograma, carga horária e período de realização).
 
-#### Etapa 3: Execução e Condução do Treinamento
-
+#### C) Etapa 3: Execução e Condução do Treinamento
 Aplicação prática do plano pedagógico. Exige ambiente físico e tecnológico adequado, motivação dos educandos e domínio didático por parte dos instrutores.
 
-#### Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)
-
+#### D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)
 Donald Kirkpatrick propôs a metodologia mais consagrada e cobrada em concursos públicos para mensurar a eficácia de programas de capacitação, dividida em quatro níveis sucessivos de complexidade:
 
 ```mermaid
@@ -162,16 +127,17 @@ flowchart TD
 | **Nível 4: Resultados / Impacto Organizacional** | Avalia os impactos macroinstitucionais obtidos pelo órgão (redução de custos, agilidade processual). | Longo prazo (semestral ou anual). | Indicadores de desempenho, relatórios gerenciais e metas institucionais atingidas. |
 | **Nível 5: ROI (Jack Phillips)** | Avalia a relação financeira entre o custo do treinamento e os benefícios monetários gerados. | Pós-implementação. | Fórmula do ROI: $\text{ROI (\%)} = \frac{\text{Benefícios Líquidos}}{\text{Custos do Treinamento}} \times 100$. |
 
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A banca frequentemente afirma que *"uma avaliação de reação altamente positiva comprova que os servidores assimilaram o conteúdo e melhorarão a produtividade da instituição"*. **ERRADO!** O Nível 1 mede apenas se os participantes gostaram da aula e das instalações. Uma reação excelente pode conviver com zero aprendizagem (Nível 2) ou zero aplicação no trabalho (Nível 3). Cada nível é autônomo e exige mensuração específica!
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC (NÍVEIS DE KIRKPATRICK):**  
+> A banca frequentemente afirma que *"uma avaliação de reação altamente positiva comprova que os servidores assimilaram o conteúdo e melhorarão a produtividade da instituição"*. **ERRADO!** O Nível 1 mede apenas se os participantes gostaram da aula e das instalações. Uma reação excelente pode conviver com zero aprendizagem (Nível 2) ou zero aplicação no trabalho (Nível 3).  
+> Além disso, lembre-se: provas de conhecimentos teóricos ao final do curso medem **Aprendizagem (Nível 2)** e NÃO comportamento no trabalho (Nível 3).
 
 ---
 
-### 3. Gestão do Conhecimento Organizacional
+### 3. Gestão do Conhecimento Organizacional e o Modelo SECI
 
 A gestão do conhecimento é o conjunto integrado de processos que criam, organizam, disseminam e aplicam saberes para alavancar a eficiência organizacional.
 
-#### A Pirâmide DIKW (Hierarquia do Saber)
+#### A) A Pirâmide DIKW (Hierarquia do Saber)
 
 ```mermaid
 flowchart TD
@@ -188,7 +154,7 @@ flowchart TD
 * **Conhecimento:** Informação processada pela mente humana, combinada com experiência, valores e intuição, capacitando o indivíduo para a tomada de decisão (ex.: "Auditor identifica irregularidade na dispensa com base no histórico do fornecedor e na Lei 14.133/2021").
 * **Sabedoria:** Capacidade superior de aplicar o conhecimento com prudência, discernimento ético e visão de longo prazo em prol da sociedade.
 
-#### Conhecimento Tácito vs. Conhecimento Explícito
+#### B) Conhecimento Tácito vs. Conhecimento Explícito
 
 | Dimensão | Conhecimento Tácito | Conhecimento Explícito |
 | :--- | :--- | :--- |
@@ -197,9 +163,8 @@ flowchart TD
 | **Facilidade de Transmissão** | Difícil de verbalizar, codificar e formalizar por escrito. | Fácil de estruturar, armazenar, duplicar e compartilhar em rede. |
 | **Forma de Aprendizado** | Aprendizado prático por convivência, mentoria, tutoria e imitação. | Leitura de documentos, estudo de normas e consulta a bancos de dados. |
 
-#### O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka & Hirotaka Takeuchi)
-
-Segundo Nonaka e Takeuchi, o conhecimento institucional é criado a partir da interação dinâmica e ininterrupta entre o conhecimento tácito e o explícito, percorrendo quatro modos de conversão (*Modelo SECI*):
+#### C) O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka & Hirotaka Takeuchi)
+Segundo Nonaka e Takeuchi, o conhecimento institucional é criado a partir da interação dinâmica e ininterrupta entre o conhecimento tácito e o explícito, percorrendo quatro modos de conversão:
 
 ```mermaid
 flowchart TD
@@ -216,22 +181,17 @@ flowchart TD
     INT --> SOC
 ```
 
-1. **Socialização (Tácito $\rightarrow$ Tácito):**
-   - Compartilhamento de experiências diretas entre pessoas, sem uso necessário da linguagem escrita;
-   - Exemplos: tutoria de um técnico novato por um auditor sênior, conversas informais no cafezinho, observação direta no trabalho (*on-the-job training*);
-   - Ocorre no *Ba Originário* (espaço físico de encontros presenciais).
-2. **Externalização (Tácito $\rightarrow$ Explícito):**
-   - Articulação e tradução do conhecimento tácito em conceitos compreensíveis, modelos visuais, metáforas, manuais operacionais e fluxogramas;
-   - É a etapa fundamental para a criação de novos saberes compartilháveis por toda a instituição;
-   - Ocorre no *Ba Interativo* (espaço de diálogo e reflexão coletiva).
-3. **Combinação (Explícito $\rightarrow$ Explícito):**
-   - Agrupamento, classificação, análise e cruzamento de diferentes fontes de conhecimentos já codificados;
-   - Exemplo: compilar diferentes pareceres jurídicos, acórdãos e normas internas para redigir uma Instrução Normativa consolidada do TCE-GO;
-   - Ocorre no *Ba Cibernético* (redes virtuais e sistemas de informação).
-4. **Internalização (Explícito $\rightarrow$ Tácito):**
-   - Incorporação do conhecimento explícito recém-produzido na mente e nos hábitos de trabalho do servidor;
-   - Consiste em "aprender fazendo" (*learning by doing*), aplicando manuais e normas até que se tornem uma segunda natureza funcional;
-   - Ocorre no *Ba Exercitante* (espaço de treinamento prático e ação cotidiana).
+1. **Socialização (Tácito $\rightarrow$ Tácito):** Compartilhamento de experiências diretas entre pessoas, sem uso necessário da linguagem escrita (ex.: tutoria de um técnico novato por um auditor sênior, conversas informais e observação em campo no *Ba Originário*).
+2. **Externalização (Tácito $\rightarrow$ Explícito):** Articulação e tradução do conhecimento tácito em conceitos compreensíveis, modelos visuais, metáforas, manuais operacionais e fluxogramas acessíveis a todos (no *Ba Interativo*).
+3. **Combinação (Explícito $\rightarrow$ Explícito):** Agrupamento, classificação, análise e cruzamento de diferentes fontes de conhecimentos já codificados (ex.: compilar acórdãos e pareceres para redigir uma Instrução Normativa consolidada do TCE-GO no *Ba Cibernético*).
+4. **Internalização (Explícito $\rightarrow$ Tácito):** Incorporação do conhecimento explícito recém-produzido na mente e nos hábitos de trabalho do servidor por meio do "aprender fazendo" (*learning by doing* no *Ba Exercitante*).
+
+> ⭐ **IMPORTANTE (HISTORINHAS PRÁTICAS DO MODELO SECI):**  
+> A FCC adora cobrar o Modelo SECI por meio de situações hipotéticas de trabalho:  
+> - Se o auditor experiente passa dicas práticas e intuições para um estagiário durante uma fiscalização em campo: **SOCIALIZAÇÃO (Tácito para Tácito)**.  
+> - Se esse auditor redige uma apostila ou manual de auditoria com seus métodos: **EXTERNALIZAÇÃO (Tácito para Explícito)**.  
+> - Se o setor reúne manuais de diversos tribunais e publica um guia analítico unificado: **COMBINAÇÃO (Explícito para Explícito)**.  
+> - Se os novos servidores leem o guia e passam a aplicá-lo automaticamente na rotina: **INTERNALIZAÇÃO (Explícito para Tácito)**.
 
 ---
 
@@ -239,17 +199,16 @@ flowchart TD
 
 A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo é incorporado aos processos, valores, estruturas e cultura permanente da organização.
 
-#### Circuito Simples vs. Circuito Duplo (Chris Argyris e Donald Schön)
+#### A) Circuito Simples vs. Circuito Duplo (Chris Argyris e Donald Schön)
+* **Aprendizagem em Circuito Simples (*Single-Loop Learning*):** A organização detecta um erro e corrige os procedimentos imediatos, **sem questionar as premissas, normas ou políticas básicas** que originaram a falha (comportamento de mero "termostato").
+* **Aprendizagem em Circuito Duplo (*Double-Loop Learning*):** A organização detecta o erro e **reexamina criticamente as regras subjacentes, objetivos fundamentais e premissas culturais**, promovendo mudanças estruturais profundas e inovação transformadora.
 
-* **Aprendizagem em Circuito Simples (*Single-Loop Learning*):**
-  - A organização detecta um erro e corrige os procedimentos imediatos, **sem questionar as premissas, normas ou políticas básicas** que originaram a falha;
-  - Foco em manter o sistema operacional dentro dos limites preexistentes (comportamento de "termostato").
-* **Aprendizagem em Circuito Duplo (*Double-Loop Learning*):**
-  - A organização detecta o erro e **reexamina criticamente as regras subjacentes, objetivos fundamentais e premissas culturais**;
-  - Promove mudanças estruturais profundas e inovação transformadora.
+> 📌 **NOTA EXPLICATIVA — CIRCUITO DUPLO DE ARGYRIS:**  
+> A diferença fundamental reside no questionamento das premissas:  
+> - Circuito simples: corrige a rota sem questionar o destino (mantém os valores vigentes);  
+> - Circuito duplo: questiona se o destino e as normas prévias ainda fazem sentido no contexto atual.
 
-#### As Cinco Disciplinas de Peter Senge (*A Quinta Disciplina*)
-
+#### B) As Cinco Disciplinas de Peter Senge (*A Quinta Disciplina*)
 Para Peter Senge, uma **Organização que Aprende** (*Learning Organization*) baseia-se na prática contínua de cinco disciplinas essenciais:
 
 ```mermaid
@@ -274,7 +233,7 @@ flowchart TD
 
 ---
 
-### 5. Educação Corporativa e Escolas de Governo
+### 5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)
 
 No setor público moderno, a visão fragmentada de "cursos isolados" foi substituída pelo modelo de **Educação Corporativa**:
 * **Universidade Corporativa / Escolas de Governo:** Unidades educacionais estratégicas vinculadas diretamente aos órgãos públicos com a missão de desenvolver competências institucionais essenciais alinhadas aos objetivos estratégicos de Estado.
@@ -282,34 +241,7 @@ No setor público moderno, a visão fragmentada de "cursos isolados" foi substit
 
 ---
 
-## ⚠️ Alertas de Prova & Pegadinhas da FCC
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A FCC adora cobrar o **Modelo SECI de Nonaka e Takeuchi** por meio de historinhas práticas de trabalho:  
-> - Se o enunciado descrever um auditor experiente passando dicas práticas e intuições para um estagiário durante uma fiscalização em campo, trata-se de **SOCIALIZAÇÃO (Tácito para Tácito)**.  
-> - Se o enunciado disser que esse auditor redigiu uma apostila ou um manual operacional para sistematizar o que sabe, trata-se de **EXTERNALIZAÇÃO (Tácito para Explícito)**.  
-> - Se um setor reuniu manuais e planilhas diversas e publicou um relatório analítico unificado, é **COMBINAÇÃO (Explícito para Explícito)**.  
-> - Se os novos servidores leram o manual e passaram a aplicá-lo fluentemente na prática, é **INTERNALIZAÇÃO (Explícito para Tácito)**.
-
-> ⭐ **IMPORTANTE — NÍVEIS DE KIRKPATRICK:**  
-> Lembre-se sempre da ordem evolutiva dos níveis de avaliação:  
-> 1. **Reação:** os participantes gostaram?  
-> 2. **Aprendizagem:** os participantes aprenderam os conceitos?  
-> 3. **Comportamento (Transferência):** os participantes aplicam na prática do cargo?  
-> 4. **Resultados (Impacto):** a organização colheu resultados institucionais mensuráveis?  
-> Provas de conhecimentos teóricos ao final do curso medem **Aprendizagem (Nível 2)** e NÃO comportamento no trabalho (Nível 3).
-
-> 📌 **NOTA EXPLICATIVA — CIRCUITO DUPLO DE ARGYRIS:**  
-> A diferença fundamental entre *circuito simples* e *circuito duplo* de aprendizagem reside no questionamento das premissas:  
-> - Circuito simples: corrige a rota sem questionar o destino (mantém os valores vigentes);  
-> - Circuito duplo: questiona se o destino e as normas prévias ainda fazem sentido no contexto atual.
-
-> 🛑 **ATENÇÃO — TREINAMENTO VS. DESENVOLVIMENTO:**  
-> Treinamento refere-se ao **presente** e ao cargo **atual** (objetivo imediato). Desenvolvimento refere-se ao **futuro** e à **carreira** como um todo (objetivo mediato e estratégico).
-
----
-
-## 🌐 Fontes Oficiais e Referências Bibliográficas
+### 6. Fontes Oficiais e Referências Bibliográficas
 
 * [NONAKA, Ikujiro; TAKEUCHI, Hirotaka. Criação de Conhecimento na Empresa: como as empresas japonesas geram a dinâmica da inovação. Rio de Janeiro: Elsevier, 1997](https://www.grupogen.com.br).
 * [SENGE, Peter. A Quinta Disciplina: a arte e a prática da organização que aprende. Rio de Janeiro: Best Seller, 2018](https://www.record.com.br).
@@ -319,7 +251,7 @@ No setor público moderno, a visão fragmentada de "cursos isolados" foi substit
 
 ---
 
-## 📝 Questões de Concurso FCC Comentadas
+### 7. Questões de Concurso FCC Comentadas
 
 ### Questão 01
 **(FCC – Auditor de Controle Externo – TCE-GO)**  
@@ -331,13 +263,14 @@ O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práti
 * **D)** Internalização.
 * **E)** Aprendizagem em circuito simples.
 
-> **Gabarito: B**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** A socialização ocorre na troca direta de experiências de indivíduo para indivíduo (tácito para tácito), sem formalização por escrito.  
 > - **B) CORRETA.** A **Externalização** é exatamente a conversão do conhecimento **Tácito em Explícito**. Ocorre quando os profissionais conseguem expressar suas vivências intuitivas, julgamentos e saberes práticos sob a forma de conceitos compreensíveis, manuais de procedimentos, roteiros escritos, fluxogramas e documentos formais acessíveis a outros membros.  
 > - **C) Incorreta.** A combinação consiste em juntar e cruzar conhecimentos já codificados (explícito para explícito), como compilar duas leis em um documento unificado.  
 > - **D) Incorreta.** A internalização é a conversão de explícito em tácito, quando os indivíduos leem os manuais e os transformam em rotinas mentais por meio da prática (*aprender fazendo*).  
-> - **E) Incorreta.** A aprendizagem em circuito simples é conceito de Argyris e Schön voltado à correção operacional mecânica de desvios, estranho aos modos de conversão da teoria de Nonaka e Takeuchi.
+> - **E) Incorreta.** A aprendizagem em circuito simples é conceito de Argyris e Schön voltado à correção operacional mecânica de desvios, estranho aos modos de conversão da teoria de Nonaka e Takeuchi.  
+> 
+> **Gabarito: B**
 
 ---
 
@@ -351,13 +284,14 @@ Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licita�
 * **D)** Nível 4 – Retorno Financeiro sobre o Investimento (ROI).
 * **E)** Nível 5 – Clima Institucional e Motivação Relacional.
 
-> **Gabarito: C**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** O Nível 1 (Reação) afere a satisfação dos alunos com o instrutor e as instalações ao término da aula (pesquisa de opinião imediata).  
 > - **B) Incorreta.** O Nível 2 (Aprendizagem) avalia a retenção de conceitos mediante provas aplicadas imediatamente ao final do treinamento.  
 > - **C) CORRETA.** O **Nível 3 (Comportamento no Cargo ou Transferência do Aprendizado)** avalia a extensão em que os participantes aplicaram e transferiram efetivamente os novos saberes para as suas rotinas diárias no posto de trabalho. Ao verificar, após 60 dias de prática real, se as minutas e condutas dos servidores foram alteradas, a organização está medindo a modificação comportamental funcional.  
 > - **D) Incorreta.** O Nível 4 (Resultados) avalia impactos globais institucionais na estratégia corporativa, e o ROI financeiro foi estruturado como 5º nível por Jack Phillips.  
-> - **E) Incorreta.** O modelo original de Kirkpatrick contempla 4 níveis e não prevê clima institucional como nível autônomo de avaliação.
+> - **E) Incorreta.** O modelo original de Kirkpatrick contempla 4 níveis e não prevê clima institucional como nível autônomo de avaliação.  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -371,13 +305,14 @@ No âmbito da administração de recursos humanos, as ações voltadas para Trei
 * **D)** Instrução sumária da equipe de atendimento sobre como cadastrar visitantes no balcão da portaria do edifício-sede.
 * **E)** Treinamento emergencial sobre normas de combate a incêndio promovido pela brigada de segurança predial.
 
-> **Gabarito: C**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** Trata-se de ação típica de **Treinamento**: foco no cargo atual, curto prazo e suprimento de carência operacional pontual.  
 > - **B) Incorreta.** Foco exclusivo na execução de tarefas do posto de trabalho atual com finalidade corretiva imediata (treinamento operacional).  
 > - **C) CORRETA.** O **Desenvolvimento de Pessoas** caracteriza-se pelo foco no **longo prazo**, na expansão de competências abrangentes, no crescimento intelectual contínuo e na preparação dos servidores para **cargos futuros**, desafios estratégicos e planos de sucessão institucional, como demonstrado pelo programa de liderança e governança.  
 > - **D) Incorreta.** Instrução técnica e pontual vinculada estritamente às tarefas rotineiras do cargo presente (treinamento operacional).  
-> - **E) Incorreta.** Capacitação específica de curto prazo para segurança física no local de trabalho (treinamento instrucional).
+> - **E) Incorreta.** Capacitação específica de curto prazo para segurança física no local de trabalho (treinamento instrucional).  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -391,13 +326,14 @@ Em sua consagrada obra sobre organizações que aprendem (*Learning Organization
 * **D)** Aprendizagem em Equipe.
 * **E)** Pensamento Sistêmico.
 
-> **Gabarito: E**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** O Domínio Pessoal é a disciplina voltada ao crescimento e autoconhecimento individual.  
 > - **B) Incorreta.** Os Modelos Mentais referem-se à capacidade de expor e questionar pressupostos e crenças internalizadas sobre como a realidade funciona.  
 > - **C) Incorreta.** A Visão Compartilhada é a construção de um objetivo e identidade coletivos que mobilizam o compromisso autêntico da equipe.  
 > - **D) Incorreta.** A Aprendizagem em Equipe fundamenta-se no diálogo honesto para gerar inteligência coletiva superior.  
-> - **E) CORRETA.** O **Pensamento Sistêmico (a Quinta Disciplina)** é expressamente definido por Peter Senge como a **disciplina conceitual e integradora** que reúne todas as demais em um corpo coerente de teoria e prática. É o método de pensar que permite enxergar padrões, estruturas subjacentes e ciclos de feedback interdependentes, em vez de instantâneos estáticos e causas lineares isoladas.
+> - **E) CORRETA.** O **Pensamento Sistêmico (a Quinta Disciplina)** é expressamente definido por Peter Senge como a **disciplina conceitual e integradora** que reúne todas as demais em um corpo coerente de teoria e prática. É o método de pensar que permite enxergar padrões, estruturas subjacentes e ciclos de feedback interdependentes, em vez de instantâneos estáticos e causas lineares isoladas.  
+> 
+> **Gabarito: E**
 
 ---
 
@@ -411,10 +347,11 @@ Dois teóricos fundamentais do comportamento organizacional, Chris Argyris e Don
 * **D)** Caracteriza-se pelo processo em que a organização, ao detectar erros e desvios, confronta e questiona criticamente as premissas subjacentes, as normas vigentes e os valores orientadores das políticas institucionais, reformulando seus padrões estruturais.
 * **E)** Representa a aquisição estritamente individual de novos conhecimentos teóricos pelo colaborador sem qualquer possibilidade de compartilhamento coletivo com seus pares.
 
-> **Gabarito: D**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** Punição burocrática e controle disciplinar não constituem aprendizagem em circuito duplo.  
 > - **B) Incorreta.** A repetição mecânica de rotinas é condicionamento instrumental pavloviano, oposto da aprendizagem reflexiva.  
 > - **C) Incorreta.** Modificar rotinas sem questionar valores e políticas subjacentes é a definição exata de **aprendizagem em circuito simples (*single-loop*)**.  
 > - **D) CORRETA.** A **aprendizagem em circuito duplo (*double-loop*)** ocorre precisamente quando a organização não se contenta em aplicar correções superficiais em procedimentos prévios, mas **questiona criticamente as normas, valores, objetivos e premissas fundamentais** que orientavam a conduta anterior, reestruturando a lógica do próprio sistema organizacional.  
-> - **E) Incorreta.** A aprendizagem individual isolada não reflete a dimensão da aprendizagem em circuito duplo descrita por Argyris e Schön.
+> - **E) Incorreta.** A aprendizagem individual isolada não reflete a dimensão da aprendizagem em circuito duplo descrita por Argyris e Schön.  
+> 
+> **Gabarito: D**

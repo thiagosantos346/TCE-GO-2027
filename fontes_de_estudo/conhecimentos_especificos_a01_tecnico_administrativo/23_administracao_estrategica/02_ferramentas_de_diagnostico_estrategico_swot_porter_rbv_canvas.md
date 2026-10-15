@@ -27,64 +27,33 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-2. Ferramentas Analíticas de Diagnóstico Estratégico
-├── 2.1 Análise SWOT Cruzada (FOFA)
-│   ├── 2.1.1 Diagnóstico de Variáveis Ambientais:
-│   │   ├── Forças (Strengths): Vantagens internas sob controle da organização
-│   │   ├── Fraquezas (Weaknesses): Vulnerabilidades internas sob controle da gestão
-│   │   ├── Oportunidades (Opportunities): Fatores externos favoráveis incontroláveis
-│   │   └── Ameaças (Threats): Fatores externos desfavoráveis incontroláveis
-│   └── 2.1.2 As Quatro Posturas Estratégicas Cruzadas:
-│       ├── Forças + Oportunidades: Postura Ofensiva / Alavancagem (Expansão)
-│       ├── Fraquezas + Oportunidades: Postura de Reforço / Reorientação (Virada)
-│       ├── Forças + Ameaças: Postura de Confronto / Manutenção (Defensiva)
-│       └── Fraquezas + Ameaças: Postura de Sobrevivência (Desinvestimento)
-├── 2.2 O Modelo das Cinco Forças e Estratégias Genéricas de Michael Porter
-│   ├── 2.2.1 As Cinco Forças Competitivas:
-│   │   ├── Força 1: Rivalidade entre Concorrentes Estabelecidos
-│   │   ├── Força 2: Ameaça de Novos Entrantes (Barreiras de Entrada)
-│   │   ├── Força 3: Poder de Negociação dos Compradores / Clientes
-│   │   ├── Força 4: Poder de Negociação dos Fornecedores
-│   │   └── Força 5: Ameaça de Produtos Substitutos
-│   └── 2.2.2 As Três Estratégias Genéricas:
-│       ├── Liderança em Custo Total: Produção padronizada de baixo custo em escala
-│       ├── Diferenciação: Singularidade de produto e fidelização de marca
-│       └── Enfoque / Foco: Atendimento exclusivo a um nicho estreito de mercado
-├── 2.3 Visão Baseada em Recursos (RBV - Jay Barney)
-│   ├── 2.3.1 Recursos Heterogêneos e de Imobilidade Imperfeita (Foco no ambiente interno)
-│   └── 2.3.2 O Framework VRIO:
-│       ├── V - Valor: Neutraliza ameaças e aproveita oportunidades?
-│       ├── R - Raridade: Controlado por poucos ou exclusivo?
-│       ├── I - Inimitabilidade: Difícil de reproduzir (condições históricas e ambiguidade causal)?
-│       └── O - Organização: A instituição está estruturada para capturar esse valor?
-│       └── V + R + I + O = Vantagem Competitiva Sustentável
-└── 2.4 Business Model Canvas (Osterwalder)
-    ├── 2.4.1 Blocos de Entrega de Valor (Lado Direito): Proposta de Valor, Segmentos, Canais, Relacionamento e Receitas
-    └── 2.4.2 Blocos de Infraestrutura e Operação (Lado Esquerdo): Parcerias, Atividades, Recursos e Custos
-```
+## 🧭 Sumário Interativo
+- [1. Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas](#1-análise-swot-cruzada-fofa-e-as-quatro-posturas-estratégicas)
+- [2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter](#2-o-modelo-das-cinco-forças-e-as-estratégias-genéricas-de-michael-porter)
+- [3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)](#3-a-visão-baseada-em-recursos-rbv-e-o-framework-vrio-jay-barney)
+- [4. O Business Model Canvas (Alexander Osterwalder)](#4-o-business-model-canvas-alexander-osterwalder)
+- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
+- [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
 
 ---
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
-### 1. A Matriz SWOT Cruzada e as Quatro Posturas Estratégicas
+### 1. Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas
 
-A análise SWOT (sigla em inglês para *Strengths, Weaknesses, Opportunities e Threats* / FOFA em português) combina as dimensões ambientais para determinar o direcionamento estratégico da instituição:
+A análise SWOT (acrônimo para *Strengths, Weaknesses, Opportunities e Threats* / Matriz FOFA em português) combina as variáveis do ambiente interno e externo para subsidiar a escolha da postura estratégica mais adequada:
 
 ```mermaid
 flowchart TD
-    subgraph Matriz_SWOT_Cruzada ["Matriz SWOT Cruzada"]
+    subgraph Matriz_SWOT_Cruzada ["Matriz SWOT Cruzada e as Quatro Posturas"]
         direction TB
-        SO["1. Forças + Oportunidades<br/>POSTURA OFENSIVA / ALAVANCAGEM<br/>• Crescimento acelerado e inovação<br/>• Uso das virtudes para aproveitar o meio"]
+        SO["1. Forças + Oportunidades<br/>POSTURA OFENSIVA / ALAVANCAGEM<br/>• A organização é forte e o ambiente externo é favorável<br/>• Foco: Expansão, inovação acelerada e novos serviços"]
         
-        WO["2. Fraquezas + Oportunidades<br/>POSTURA DE REFORÇO / REORIENTAÇÃO<br/>• Correção de deficiências internas<br/>• Capacitação para não perder oportunidades"]
+        WO["2. Fraquezas + Oportunidades<br/>POSTURA DE REFORÇO / REORIENTAÇÃO<br/>• O ambiente externo é promissor, mas há deficiências internas<br/>• Foco: Capacitação interna, correção de gaps e virada estratégica"]
         
-        ST["3. Forças + Ameaças<br/>POSTURA DE CONFRONTO / DEFENSIVA<br/>• Utilização das forças internas<br/>• Neutralização de riscos externos"]
+        ST["3. Forças + Ameaças<br/>POSTURA DE CONFRONTO / DEFENSIVA<br/>• A organização é competente, mas o ambiente externo é hostil<br/>• Foco: Blindagem institucional, neutralização de riscos e manutenção"]
         
-        WT["4. Fraquezas + Ameaças<br/>POSTURA DE SOBREVIVÊNCIA<br/>• Redução de custos e desinvestimento<br/>• Foco na preservação mínima da entidade"]
+        WT["4. Fraquezas + Ameaças<br/>POSTURA DE SOBREVIVÊNCIA<br/>• O pior cenário: fragilidade interna perante ameaças externas graves<br/>• Foco: Redução drástica de gastos, contenção de danos e desinvestimento"]
     end
 ```
 
@@ -92,110 +61,128 @@ flowchart TD
 
 | Postura Estratégica | Quadrante Cruzado | Diagnóstico Situacional | Ação Estratégica Primordial |
 | :--- | :---: | :--- | :--- |
-| **Alavancagem / Ofensiva** | **Forças + Oportunidades** | A organização é forte e o ambiente externo oferece oportunidades favoráveis. | Expansão de serviços, lançamento de novos projetos e consolidação de liderança. |
-| **Reorientação / Reforço** | **Fraquezas + Oportunidades** | O ambiente externo é promissor, mas a organização tem limitações internas que a impedem de aproveitá-lo. | Capacitação de servidores, aquisição de tecnologias e reestruturação interna. |
-| **Manutenção / Confronto** | **Forças + Ameaças** | A instituição possui excelentes competências internas, porém enfrenta hostilidade no ambiente externo. | Adoção de postura defensiva, blindagem institucional e neutralização de perigos. |
-| **Sobrevivência** | **Fraquezas + Ameaças** | O pior cenário: a organização possui graves deficiências internas e o ambiente externo apresenta fortes ameaças. | Contenção extrema de despesas, enxugamento de processos e abandono de planos secundários. |
+| **Alavancagem / Ofensiva** | **Forças + Oportunidades** | A organização é sólida internamente e o ambiente externo abre oportunidades vantajosas. | Expansão de atuação, modernização tecnológica e consolidação de liderança. |
+| **Reorientação / Reforço** | **Fraquezas + Oportunidades** | O ambiente externo é favorável, mas a organização possui carências internas que limitam seu aproveitamento. | Capacitação de pessoal, reestruturação de processos e correção de deficiências. |
+| **Manutenção / Confronto** | **Forças + Ameaças** | O órgão possui excelente capacidade interna, contudo enfrenta hostilidade ou riscos no ambiente externo. | Adoção de postura defensiva, preservação de competências essenciais e blindagem. |
+| **Sobrevivência** | **Fraquezas + Ameaças** | Situação crítica: a instituição acumula vulnerabilidades internas sob severas pressões e ameaças externas. | Contenção extrema de despesas, enxugamento de rotinas e abandono de ações secundárias. |
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC (FORÇAS VS. OPORTUNIDADES NA SWOT):**  
+> Questão garantida de prova: a FCC coloca no enunciado que "o quadro de pessoal do tribunal possui excelente qualificação técnica e os sistemas informatizados são modernos" e pergunta se isso é uma Oportunidade. **NÃO!** Isso é uma **FORÇA (ambiente interno controlável)**! Oportunidades são eventos **estritamente externos** que o órgão não controla (ex.: aprovação de linha federal de crédito para modernização ou surgimento de novas ferramentas abertas de IA).
+
+> 📌 **NOTA EXPLICATIVA (POSTURA DE SOBREVIVÊNCIA NA SWOT):**  
+> No cruzamento SWOT, a postura de sobrevivência decorre da convergência entre **Fraquezas internas predominantes** e **Ameaças externas graves**, demandando corte imediato de gastos, redução de projetos e contenção rigorosa de danos.
 
 ---
 
-### 2. O Modelo das Cinco Forças Competitivas de Michael Porter
+### 2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter
 
-Michael Porter demonstrou que a estrutura competitiva e a atratividade de qualquer setor são moldadas pela interação de cinco forças fundamentais:
+Michael Porter desenvolveu um clássico referencial para explicar como as forças estruturais de uma indústria determinam sua intensidade competitiva e seu nível de atratividade:
 
 ```mermaid
 flowchart TD
-    RNE["2. Ameaça de Novos Entrantes<br/>(Contida por Barreiras de Entrada)"] --> RIV["1. RIVALIDADE ENTRE OS<br/>CONCORRENTES EXISTENTES"]
+    RNE["2. Ameaça de Novos Entrantes<br/>(Contida por Barreiras à Entrada)"] --> RIV["1. RIVALIDADE ENTRE OS<br/>CONCORRENTES EXISTENTES"]
     PFOR["4. Poder de Barganha<br/>dos Fornecedores"] --> RIV
     PCOM["3. Poder de Barganha<br/>dos Compradores / Clientes"] --> RIV
     ASUB["5. Ameaça de Produtos<br/>ou Serviços Substitutos"] --> RIV
 ```
 
-#### Detalhamento das Cinco Forças de Porter:
-1. **Rivalidade entre Concorrentes:** Determinada pelo número de competidores, taxa de crescimento da indústria, homogeneidade dos produtos e altas barreiras de saída.
-2. **Ameaça de Novos Entrantes:** É amortecida pelas **barreiras à entrada**, tais como: economias de escala elevadas, requisitos maciços de capital inicial, custos de mudança de fornecedor (*switching costs*), patentes e autorizações estatais regulatórias.
-3. **Poder de Barganha dos Compradores (Clientes):** Alto quando os clientes compram em grandes volumes, os produtos são padronizados e os custos de troca são insignificantes.
-4. **Poder de Barganha dos Fornecedores:** Elevado quando o insumo é exclusivo, não há substitutos satisfatórios e existem poucos fornecedores no mercado.
-5. **Ameaça de Produtos Substitutos:** Bens ou serviços de **outras indústrias** que desempenham a mesma função básica a um custo inferior ou melhor custo-benefício (ex.: transporte rodoviário substituindo transporte aéreo em distâncias curtas).
+#### As Cinco Forças Competitivas:
+1. **Rivalidade entre Concorrentes Estabelecidos:** Ponto central do modelo. Intensificada por fatores como: elevado número de concorrentes com forças semelhantes, lento crescimento do mercado, custos fixos altos e elevadas barreiras de saída (custos para abandonar o negócio).
+2. **Ameaça de Novos Entrantes:** Determinada pela solidez das **barreiras à entrada**, que representam dificuldades e custos impostos aos novatos, tais como:
+   - Economias de escala alcançadas pelas empresas consolidadas;
+   - Requisitos elevados de investimento de capital inicial;
+   - Custos de mudança (*switching costs*) incorridos pelo cliente ao trocar de marca;
+   - Políticas e regulamentações governamentais protetivas.
+3. **Poder de Barganha dos Compradores (Clientes):** Alto quando os clientes compram em grandes volumes, os produtos oferecidos são padronizados/comoditizados e os custos de migração para outra empresa são insignificantes.
+4. **Poder de Barganha dos Fornecedores:** Elevado quando os fornecedores operam em mercado concentrado, o insumo fornecido é exclusivo ou crítico e inexistem produtos substitutos no mercado.
+5. **Ameaça de Produtos Substitutos:** Produtos ou serviços oriundos de **outros setores/indústrias** que desempenham a mesma função básica a um custo inferior ou com maior conveniência para o usuário.
 
-#### As Três Estratégias Genéricas de Porter:
-* **Liderança em Custo Total:** A organização foca na eficiência máxima e escala para oferecer serviços ou produtos ao menor custo unitário do mercado.
-* **Diferenciação:** A organização oferece produtos ou serviços com atributos percebidos como únicos e exclusivos (qualidade excepcional, tecnologia superior, atendimento exemplar), gerando fidelidade do usuário.
-* **Enfoque / Foco:** A organização restringe sua atuação a um nicho de mercado estreito, aplicando liderança em custo ou diferenciação voltada exclusivamente àquele público específico.
+#### As Três Estratégias Genéricas de Michael Porter:
+* **Liderança em Custo Total:** A organização estrutura-se para produzir e operar com o menor custo unitário da indústria, valendo-se de economias de escala, rígido controle de despesas e processos padronizados.
+* **Diferenciação:** A organização busca criar produtos ou serviços percebidos no mercado como singulares, únicos e de qualidade superior, conquistando fidelidade à marca e viabilizando a cobrança de um preço superior (*premium price*).
+* **Enfoque / Foco:** A organização canaliza seus esforços para atender de forma estrita e especializada a um nicho de mercado específico, aplicando ou a liderança em custo ou a diferenciação restrita àquele segmento.
+
+> ⭐ **IMPORTANTE (PRODUTOS SUBSTITUTOS DE PORTER):**  
+> Cuidado: produtos substitutos na visão de Porter **NÃO SÃO produtos de concorrentes diretos da mesma indústria** (ex.: Pepsi e Coca-Cola são concorrentes diretos no setor de refrigerantes). Produtos substitutos pertencem a **outras indústrias** que atendem à mesma necessidade essencial por meio de solução alternativa (ex.: ônibus interestadual substituindo passagens aéreas em trechos regionais).
 
 ---
 
 ### 3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)
 
-A **RBV (*Resource-Based View*)** enfatiza que os fatores determinantes do desempenho duradouro residem no **ambiente interno** da instituição: em seus recursos tangíveis (imóveis, computadores, orçamento) e intangíveis (conhecimento técnico dos auditores, reputação, processos e cultura).
+Ao contrário dos modelos que olham prioritariamente para o mercado exterior (como Porter), a **Visão Baseada em Recursos (RBV - *Resource-Based View*)** sustenta que a fonte de vantagem competitiva sustentada e de desempenho superior das organizações reside em seu **ambiente interno**: nos recursos e capacidades que a organização possui e controla.
+
+A teoria parte de duas premissas essenciais:
+* **Heterogeneidade de Recursos:** As organizações possuem feixes de recursos e competências distintos entre si.
+* **Imobilidade Imperfeita de Recursos:** Os recursos essenciais não podem ser transferidos ou comprados livre e instantaneamente de uma entidade para outra.
 
 ```mermaid
 flowchart TD
-    Recurso["Avaliação do Recurso Organizacional"]
+    Recurso["Avaliação do Recurso Organizacional (Modelo VRIO)"]
     
-    Recurso --> V{"1. Tem VALOR?<br/>(Neutraliza ameaças e<br/>aproveita oportunidades?)"}
-    V -- NÃO --> Desv["Desvantagem Competitiva"]
-    V -- SIM --> R{"2. É RARO?<br/>(Controlado por poucas<br/>outras instituições?)"}
+    Recurso --> V{"1. Tem VALOR?<br/>(Neutraliza ameaças e explora oportunidades?)"}
+    V -- NÃO --> Desv["DESVANTAGEM COMPETITIVA"]
+    V -- SIM --> R{"2. É RARO?<br/>(Controlado por poucas outras entidades?)"}
     
-    R -- NÃO --> Par["Paridade Competitiva"]
-    R -- SIM --> I{"3. É INIMITÁVEL?<br/>(Difícil e caro para os<br/>concorrentes copiarem?)"}
+    R -- NÃO --> Par["PARIDADE COMPETITIVA"]
+    R -- SIM --> I{"3. É INIMITÁVEL?<br/>(Difícil e custoso para outros reproduzirem?)"}
     
-    I -- NÃO --> VTemp["Vantagem Competitiva Temporária"]
-    I -- SIM --> O{"4. ORGANIZAÇÃO explora?<br/>(Processos e políticas preparados<br/>para capturar o valor?)"}
+    I -- NÃO --> VTemp["VANTAGEM COMPETITIVA TEMPORÁRIA"]
+    I -- SIM --> O{"4. A ORGANIZAÇÃO o explora?<br/>(Estrutura e processos aptos a capturar o valor?)"}
     
-    O -- NÃO --> VSub["Vantagem Competitiva não explorada"]
+    O -- NÃO --> VSub["Vantagem Competitiva Inexplorada"]
     O -- SIM --> VSust["VANTAGEM COMPETITIVA SUSTENTÁVEL"]
 ```
 
-* **V - Valor:** Permite à organização explorar oportunidades ambientais ou neutralizar ameaças.
-* **R - Raridade:** Recurso escasso e não dominado pela ampla maioria dos competidores.
-* **I - Inimitabilidade:** Barreiras para reprodução decorrentes de condições históricas únicas, ambiguidade causal (não se sabe a receita exata do sucesso) e complexidade social (confiança e clima interpessoal).
-* **O - Organização:** A organização possui desenho estrutural, rotinas e liderança aptos a absorver e potencializar esse recurso.
+#### Os Critérios do Framework VRIO:
+1. **V - Valor:** O recurso permite à organização explorar uma oportunidade ambiental externa ou neutralizar uma ameaça?
+2. **R - Raridade:** O recurso é escasso e controlado por poucas entidades concorrentes?
+3. **I - Inimitabilidade:** As outras organizações enfrentam desvantagens de custo elevadas para reproduzir ou obter esse recurso? A inimitabilidade decorre de três barreiras clássicas:
+   - *Condições históricas únicas:* recursos desenvolvidos ao longo de trajetórias históricas irrepetíveis;
+   - *Ambiguidade causal:* os competidores não conseguem decifrar exatamente qual fator específico causa o sucesso da organização;
+   - *Complexidade social:* recursos enraizados em relações humanas, reputação, confiança mútua e cultura institucional.
+4. **O - Organização:** A instituição dispõe de desenho organizacional, sistemas de informação, liderança e governança estruturados para absorver e capitalizar plenamente o potencial desse recurso?
+
+> 🛑 **ATENÇÃO (VRIO E VANTAGEM SUSTENTÁVEL):**  
+> Se o recurso for Valioso e Raro, mas os competidores puderem copiá-lo rapidamente no mercado, ele gera unicamente **Vantagem Competitiva Temporária**. Para assegurar vantagem **Sustentável**, o recurso deve ser imperativamente **Inimitável** e a entidade deve dispor de **Organização** para explorá-lo!
 
 ---
 
 ### 4. O Business Model Canvas (Alexander Osterwalder)
 
-O Canvas mapeia o modelo de negócio visualmente em uma matriz de 9 blocos complementares:
+Desenvolvido por Alexander Osterwalder e Yves Pigneur, o **Business Model Canvas** é uma ferramenta de gestão estratégica visual que sintetiza a arquitetura de negócios de uma instituição em um único painel composto por **nove blocos interdependentes**:
 
 ```mermaid
 flowchart TD
-    subgraph Proposta ["Centro: O Coração do Modelo"]
-        Prop["5. PROPOSTA DE VALOR<br/>(Problema que resolvemos / Valor gerado ao cidadão)"]
+    subgraph Proposta ["Centro: O Coração Estratégico"]
+        Prop["5. PROPOSTA DE VALOR<br/>(Pacote de produtos, serviços e soluções que resolvem o problema do cidadão/cliente)"]
     end
 
     subgraph Operacao ["Back-Stage: Infraestrutura Interna (Como fazemos)"]
         direction LR
-        Parc["1. Parcerias Principais"] ~~~ Ativ["2. Atividades-Chave"] ~~~ Rec["3. Recursos Principais"] ~~~ Cust["4. Estrutura de Custos"]
+        Parc["1. Parcerias Principais<br/>(Rede de aliados e terceiros)"] ~~~ Ativ["2. Atividades-Chave<br/>(Ações operacionais críticas)"] ~~~ Rec["3. Recursos Principais<br/>(Ativos humanos, físicos e TI)"] ~~~ Cust["4. Estrutura de Custos<br/>(Despesas fixas e variáveis)"]
     end
 
     subgraph Mercado ["Front-Stage: Relacionamento e Entrega (Para quem fazemos)"]
         direction LR
-        Rel["6. Relacionamento com Clientes"] ~~~ Can["7. Canais de Acesso"] ~~~ Seg["8. Segmentos de Cidadãos"] ~~~ RecFin["9. Fontes de Recursos"]
+        Rel["6. Relacionamento com Clientes<br/>(Tipo de interação e suporte)"] ~~~ Can["7. Canais de Acesso<br/>(Pontos de contato e entrega)"] ~~~ Seg["8. Segmentos de Clientes<br/>(Grupos de usuários atendidos)"] ~~~ RecFin["9. Fontes de Recursos<br/>(Orçamento público e receitas)"]
     end
 
     Operacao ==> Proposta ==> Mercado
 ```
 
----
-
-## 🚨 Alertas de Prova & Pegadinhas da FCC
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC (FORÇAS VS. OPORTUNIDADES NA SWOT):**  
-> Questão garantida de prova: a FCC coloca no enunciado que "o corpo funcional do tribunal possui pós-graduação e domina auditoria de dados" e pergunta se isso é uma Oportunidade. **NÃO!** Isso é uma **FORÇA (ambiente interno controlável)**! Oportunidades são eventos **estritamente externos** que o órgão não controla (ex.: surgimento de novas ferramentas de inteligência artificial de código aberto no mercado).
-
-> ⭐ **IMPORTANTE (PRODUTOS SUBSTITUTOS DE PORTER):**  
-> Cuidado: produtos substitutos na visão de Porter **NÃO SÃO produtos de marcas concorrentes diretas do mesmo mercado** (ex.: Pepsi não é produto substituto da Coca-Cola; é concorrente direto da mesma indústria). Produtos substitutos vêm de **outras indústrias** e atendem à mesma necessidade básica de forma alternativa (ex.: suco natural ou chá gelado em relação ao refrigerante).
-
-> 🛑 **ATENÇÃO (VRIO E VANTAGEM SUSTENTÁVEL):**  
-> Se o recurso for Valioso e Raro, mas os concorrentes puderem copiá-lo facilmente a curto prazo, ele gera apenas **Vantagem Competitiva Temporária**. Para gerar vantagem **Sustentável**, o recurso deve ser imperativamente **Inimitável** e a instituição deve estar **Organizada** para explorá-lo!
-
-> 📌 **NOTA EXPLICATIVA (POSTURA DE SOBREVIVÊNCIA NA SWOT):**  
-> No cruzamento SWOT, a postura de sobrevivência ocorre quando a organização se depara concomitantemente com **Fraquezas internas predominantes** e **Ameaças externas graves**, demandando corte imediato de gastos, redução de projetos e contenção de danos.
+1. **Proposta de Valor:** O núcleo central do Canvas; descreve o valor que a organização entrega ao cidadão-usuário, indicando que problemas resolve e que necessidades satisfaz.
+2. **Segmentos de Clientes/Usuários:** Identifica os diferentes públicos, nichos sociais ou jurisdicionados para os quais o valor é gerado.
+3. **Canais:** Meios pelos quais a instituição divulga, disponibiliza e entrega sua proposta de valor (ex.: balcão presencial, portal eletrônico, aplicativo móvel).
+4. **Relacionamento com Clientes:** Padrões de interação estabelecidos com os usuários (ex.: autoatendimento, atendimento personalizado, ouvidoria).
+5. **Fontes de Receita / Recursos:** Como a entidade se sustenta financeiramente (no setor público: dotações orçamentárias, repasses constitucionais e taxas de fiscalização).
+6. **Recursos Principais:** Ativos essenciais necessários para fazer o modelo funcionar (servidores qualificados, sistemas informatizados, imóveis e banco de dados).
+7. **Atividades-Chave:** As ações e processos primordiais que a entidade precisa realizar com excelência (fiscalização contábil, julgamento de contas, auditorias de obras).
+8. **Parcerias Principais:** A rede de cooperação interinstitucional (Ministério Público, Polícia Federal, universidades e outros Tribunais de Contas) que potencializa o alcance do órgão.
+9. **Estrutura de Custos:** Todos os principais custos operacionais incorridos para manter o modelo em funcionamento (folha de pagamento, infraestrutura e licenças de software).
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
+### 5. Fontes Oficiais e Referências Bibliográficas
 
 * [PORTER, Michael E. Estratégia Competitiva: técnicas para análise de indústrias e da concorrência. Campus.](https://www.grupogen.com.br).
 * [BARNEY, Jay B. Gaining and Sustaining Competitive Advantage. Pearson.](https://www.pearson.com) - A teoria RBV e o modelo VRIO.
@@ -204,7 +191,7 @@ flowchart TD
 
 ---
 
-## 📝 Questões de Concurso FCC Comentadas
+### 6. Questões de Concurso FCC Comentadas
 
 ### Questão 01
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
@@ -216,13 +203,14 @@ De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido p
 * **D)** Baixo custo de mudança (*switching costs*) suportado pelos consumidores ao migrarem de fornecedor.
 * **E)** Existência de produtos substitutos com preços significativamente menores no mercado.
 
-> **Gabarito: A**  
 > **Comentário Detalhado:**  
 > - **A) CORRETA.** Segundo Michael Porter, a ameaça de novos concorrentes entrantes é diretamente atenuada pela existência de **barreiras à entrada**, que elevam os custos e riscos para quem deseja entrar no setor (ex.: economias de escala dos incumbentes, diferenciação de marcas, altos requisitos de investimento de capital, acesso restrito aos canais de distribuição e regulação pública).  
 > - **B) Incorreta.** Alta rivalidade é outra força competitiva; a ausência de barreiras facilita o ingresso.  
 > - **C) Incorreta.** Se os canais são de fácil acesso, a barreira é baixa, o que estimula a entrada de novos concorrentes.  
 > - **D) Incorreta.** Baixo custo de mudança (*switching costs*) estimula o consumidor a trocar de empresa, fragilizando a barreira.  
-> - **E) Incorreta.** A ameaça de produtos substitutos é a quinta força do modelo de Porter, não se confundindo com as barreiras à entrada de concorrentes no mesmo setor.
+> - **E) Incorreta.** A ameaça de produtos substitutos é a quinta força do modelo de Porter, não se confundindo com as barreiras à entrada de concorrentes no mesmo setor.  
+> 
+> **Gabarito: A**
 
 ---
 
@@ -236,7 +224,6 @@ Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado 
 * **D)** Paridade competitiva definitiva.
 * **E)** Ineficiência operacional estrutural.
 
-> **Gabarito: B**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** Como o recurso é valioso e raro, a empresa obtém diferencial positivo, e não desvantagem.  
 > - **B) CORRETA.** No framework VRIO:  
@@ -245,7 +232,9 @@ Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado 
 >   - Apenas se for Inimitável e sustentado pela Organização é que se alcança a **Vantagem Competitiva Sustentável**.  
 > - **C) Incorreta.** A sustentabilidade requer obrigatoriamente que o recurso seja inimitável.  
 > - **D) Incorreta.** Paridade ocorre quando o recurso não é raro.  
-> - **E) Incorreta.** Não guarda pertinência com ineficiência estrutural.
+> - **E) Incorreta.** Não guarda pertinência com ineficiência estrutural.  
+> 
+> **Gabarito: B**
 
 ---
 
@@ -259,13 +248,14 @@ Determinada entidade governamental realizou o diagnóstico de seu ambiente por m
 * **D)** Postura de Liderança em Diferenciação de Marca.
 * **E)** Postura de Reforço Baseada em Vantagem Sustentável.
 
-> **Gabarito: B**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** A postura ofensiva/alavancagem ocorre no quadrante Forças + Oportunidades.  
 > - **B) CORRETA.** No cruzamento da matriz SWOT, quando uma instituição acumula **Fraquezas internas** diante de **Ameaças externas graves** (quadrante WT), a estratégia mandatória é a **Postura de Sobrevivência**, caracterizada pela contenção drástica de despesas, eliminação de desperdícios, redução de escopo e reestruturação para evitar o colapso operacional da organização.  
 > - **C) Incorreta.** Expansão é postura ofensiva para momentos favoráveis.  
 > - **D) Incorreta.** Diferenciação é estratégia de posicionamento mercadológico de Porter.  
-> - **E) Incorreta.** O momento é de mitigação extrema de riscos, e não de sustentação de vantagem.
+> - **E) Incorreta.** O momento é de mitigação extrema de riscos, e não de sustentação de vantagem.  
+> 
+> **Gabarito: B**
 
 ---
 
@@ -279,13 +269,14 @@ No modelo das Estratégias Genéricas formulado por Michael Porter, a organizaç
 * **D)** Conglomerado Diversificado.
 * **E)** Paridade Tecnológica Compulsória.
 
-> **Gabarito: B**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** Liderança em custos busca operar com o menor custo unitário de produção da indústria com base em economias de escala.  
 > - **B) CORRETA.** A estratégia genérica de **Diferenciação** baseia-se na criação de um produto ou serviço percebido pelo mercado/usuário como exclusivo e singular em suas características, gerando lealdade à marca e permitindo que a organização cobre preços superiores (*preço premium*) ou atinja alto reconhecimento público.  
 > - **C) Incorreta.** Desinvestimento é manobra de redução de ativos, e não estratégia competitiva genérica.  
 > - **D) Incorreta.** Conglomerado é forma societária de diversificação corporativa.  
-> - **E) Incorreta.** Categoria inexistente na taxonomia de Porter.
+> - **E) Incorreta.** Categoria inexistente na taxonomia de Porter.  
+> 
+> **Gabarito: B**
 
 ---
 
@@ -299,10 +290,11 @@ A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterw
 * **D)** A ferramenta Canvas foi desenhada com a finalidade exclusiva de substituir as Demonstrações Contábeis Aplicadas ao Setor Público (DCASP).
 * **E)** O bloco das Parcerias Principais destina-se a mensurar os prazos cronológicos das tarefas críticas de projetos de curto prazo.
 
-> **Gabarito: C**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** A Proposta de Valor define o conjunto de benefícios, produtos e soluções que resolvem o problema ou atendem à necessidade do cliente, sem tratar de organogramas internos.  
 > - **B) Incorreta.** Segmentos de Clientes integra o lado direito do Canvas (front-stage / mercado e clientes).  
 > - **C) CORRETA.** O **Business Model Canvas** é uma metodologia visual consagrada dividida em **nove blocos essenciais** (Proposta de Valor, Segmentos de Clientes, Canais, Relacionamento com Clientes, Fontes de Receita, Recursos Principais, Atividades-Chave, Parcerias Principais e Estrutura de Custos), concebida para mapear de forma sistêmica como a entidade gera, entrega e captura valor.  
 > - **D) Incorreta.** O Canvas é ferramenta de modelagem estratégica e de negócios, não tendo natureza de demonstrativo contábil.  
-> - **E) Incorreta.** Parcerias Principais mapeia a rede de fornecedores, aliados e parceiros estratégicos que viabilizam o funcionamento da instituição.
+> - **E) Incorreta.** Parcerias Principais mapeia a rede de fornecedores, aliados e parceiros estratégicos que viabilizam o funcionamento da instituição.  
+> 
+> **Gabarito: C**
