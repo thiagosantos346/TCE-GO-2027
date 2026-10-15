@@ -43,40 +43,14 @@
 
 ---
 
-## 🌳 Classificação Hierárquica do Conteúdo
-
-```text
-3. Avaliação de Desempenho, Remuneração, QVT e Novas Modalidades de Trabalho
-├── 3.1 Gestão e Métodos de Avaliação de Desempenho
-│   ├── 3.1.1 Objetivos e Finalidades Estratégicas no Setor Público
-│   ├── 3.1.2 Métodos Tradicionais
-│   │   ├── Escalas Gráficas (tabela de fatores graduados, viés de centralidade)
-│   │   ├── Escolha Forçada (blocos de frases, elimina viés, impede feedback)
-│   │   ├── Incidentes Críticos (foco em extremos, ignora o trabalho rotineiro)
-│   │   └── Pesquisa de Campo (especialista de RH + gestor, profunda e cara)
-│   └── 3.1.3 Métodos Modernos e Integrados
-│       ├── Avaliação por Objetivos / Metas (APO participativa)
-│       ├── Avaliação 360 Graus (superior, pares, subordinados, clientes e autoavaliação)
-│       └── Avaliação por Competências (entrega de CHA na prática)
-├── 3.2 Vieses e Erros Cognitivos do Avaliador
-│   ├── 3.2.1 Efeito Halo (generalização positiva) e Efeito Horn (generalização negativa)
-│   ├── 3.2.2 Tendência Central (concentração de todos na nota média)
-│   ├── 3.2.3 Recenticidade (peso desproporcional a fatos recentes)
-│   ├── 3.2.4 Complacência (leniência/benevolência) vs. Rigor Excessivo
-│   └── 3.2.5 Erro de Contraste e Erro de Semelhança (Similar-to-me)
-├── 3.3 Remuneração e Carreiras no Setor Público
-│   ├── 3.3.1 Vencimento Básico vs. Remuneração
-│   ├── 3.3.2 Regime de Subsídio Constitucional em Parcela Única (CF/88, art. 39, § 4º)
-│   ├── 3.3.3 Teto Remuneratório e Verbas Indenizatórias
-│   └── 3.3.4 Progressão Horizontal vs. Promoção Vertical
-├── 3.4 Qualidade de Vida no Trabalho (QVT - Modelo de Walton)
-│   ├── 3.4.1 As Oito Dimensões Clássicas de Richard Walton
-│   └── 3.4.2 Constitucionalismo e Espaço Total de Vida
-└── 3.5 Teletrabalho e Trabalho Híbrido no Setor Público
-    ├── 3.5.1 Gestão por Resultados e Metas vs. Relógio de Ponto Físico
-    ├── 3.5.2 Racionalização de Recursos Públicos e Produtividade
-    └── 3.5.3 Desafios: Isolamento Social, Segurança da Informação e Direito à Desconexão
-```
+## 🧭 Sumário Interativo
+- [1. Gestão e Métodos de Avaliação de Desempenho](#1-gestão-e-métodos-de-avaliação-de-desempenho)
+- [2. Erros, Vieses e Distorções Cognitivas do Avaliador](#2-erros-vieses-e-distorções-cognitivas-do-avaliador)
+- [3. Remuneração e Planos de Carreira no Setor Público](#3-remuneração-e-planos-de-carreira-no-setor-público)
+- [4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton](#4-qualidade-de-vida-no-trabalho-qvt-modelo-de-richard-walton)
+- [5. Teletrabalho e Trabalho Híbrido no Setor Público](#5-teletrabalho-e-trabalho-híbrido-no-setor-público)
+- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referências-bibliográficas)
+- [7. Questões de Concurso FCC Comentadas](#7-questões-de-concurso-fcc-comentadas)
 
 ---
 
@@ -117,11 +91,14 @@ flowchart TD
     end
 ```
 
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC (FEEDBACK NA ESCOLHA FORÇADA):**  
+> A banca frequentemente afirma que o método da **Escolha Forçada** é o mais indicado quando o objetivo central do órgão é promover sessões ricas de *feedback* individual entre o chefe e o subordinado. **ERRADO!** Esse é um dos maiores "peguenhas" da FCC! A Escolha Forçada **NÃO serve para fornecer feedback**, pois o avaliador desconhece a pontuação estatística das frases preenchidas, o que impossibilita justificar detalhadamente a avaliação para o servidor.
+
 ---
 
 ### 2. Erros, Vieses e Distorções Cognitivas do Avaliador
 
-A subjetividade humana constitui o maior obstáculo à precisão da avaliação de desempenho. As provas de concurso exploram exaustivamente essas armadilhas perceptivas:
+A subjetividade humana constitui o maior obstáculo à precisão da avaliação de desempenho:
 
 ```mermaid
 flowchart LR
@@ -131,22 +108,24 @@ flowchart LR
 ```
 
 1. **Efeito Halo (*Halo Effect*) e Efeito Horn:**
-   - *Halo:* O avaliador projeta uma característica altamente positiva (ex.: o servidor é extremamente pontual ou simpático) sobre todo o desempenho, atribuindo notas excelentes em fatores técnicos não conferidos.
+   - *Halo:* O avaliador projeta uma característica altamente positiva (ex.: o servidor é pontual ou simpático) sobre todo o desempenho, atribuindo notas excelentes em fatores técnicos que sequer avaliou.
    - *Horn:* Uma falha isolada contamina negativamente todos os demais quesitos, rotulando o servidor como inteiramente inapto.
-2. **Tendência Central:** O avaliador tem receio de prejudicar os maus colaboradores ou gerar ciumeiras ao destacar os melhores; por comodismo ou covardia, atribui notas medianas ("bom" ou "regular") a todos.
+2. **Tendência Central:** O avaliador tem receio de prejudicar os maus colaboradores ou gerar atritos ao destacar os melhores; por comodismo ou insegurança, atribui notas medianas ("bom" ou "regular") a todos.
 3. **Erro de Recenticidade (Recência):** O avaliador deixa-se influenciar desproporcionalmente por fatos ocorridos nos últimos 15 ou 30 dias que antecedem a avaliação, ignorando os comportamentos dos 11 meses anteriores.
 4. **Complacência / Leniência:** Tendência sistemática de conceder notas infladas a todos os subordinados para evitar descontentamento, atritos pessoais ou conversas difíceis de feedback.
 5. **Rigor Excessivo / Severidade:** O avaliador estabelece padrões de exigência inalcançáveis, atribuindo notas baixas de forma generalizada por considerar que "ninguém faz mais do que a obrigação".
 6. **Erro de Semelhança (*Similar-to-me*):** Tendência de avaliar mais favoravelmente indivíduos que compartilham dos mesmos valores, formação acadêmica, estilo pessoal ou interesses do próprio avaliador.
 7. **Erro de Contraste:** O avaliador julga o servidor comparando-o diretamente com o indivíduo avaliado logo antes, e não confrontando seu desempenho com os padrões objetivos do cargo.
 
+> 🛑 **ATENÇÃO — EFEITO HALO VS. RECÊNCIA:**  
+> - **Efeito Halo:** distorção decorrente de uma **única característica ou traço marcante** que cega o avaliador sobre os demais quesitos;  
+> - **Erro de Recência:** distorção de ordem **temporal**, em que o avaliador recorda apenas dos acontecimentos dos **últimos dias ou semanas** do ciclo avaliativo.
+
 ---
 
 ### 3. Remuneração e Planos de Carreira no Setor Público
 
-A remuneração no serviço público subordina-se a rígidos parâmetros constitucionais de legalidade e moralidade.
-
-#### Estrutura Básica de Remuneração
+A remuneração no serviço público subordina-se a rígidos parâmetros constitucionais de legalidade e moralidade:
 
 * **Vencimento Básico:** Retribuição pecuniária fixada em lei devida ao servidor pelo efetivo exercício de cargo público.
 * **Remuneração:** O vencimento do cargo efetivo acrescido das vantagens pecuniárias permanentes estabelecidas em lei (adicionais por tempo de serviço, gratificações de titulação, etc.).
@@ -166,6 +145,9 @@ flowchart LR
 
 * **Progressão:** Passagem do servidor de um padrão remuneratório para o seguinte, dentro da mesma classe de seu cargo efetivo (foco na senioridade e avaliações periódicas).
 * **Promoção:** Elevação do servidor de uma classe para a classe imediatamente superior dentro da mesma carreira, dependendo de merecimento, capacitação continuada e vacância. *Não se confunde com ascensão ou transposição (formas de provimento derivado banidas pela CF/88).*
+
+> 📌 **NOTA EXPLICATIVA — SUBSÍDIO CONSTITUCIONAL:**  
+> O subsídio em parcela única (art. 39, § 4º da CF/88) **proíbe gratificações e adicionais de natureza remuneratória**, mas **NÃO impede verbas estritamente indenizatórias** (como diárias de viagem a serviço e ajuda de custo para transporte), visto que verbas indenizatórias apenas ressarcem despesas extraordinárias do agente e não integram a base remuneratória.
 
 ---
 
@@ -196,6 +178,9 @@ flowchart TD
 7. **Espaço Total de Vida:** Equilíbrio sadio entre a dedicação às atividades profissionais e o tempo reservado ao convívio familiar, lazer, descanso e vida pessoal (prevenção ao esgotamento).
 8. **Relevância Social do Trabalho:** Percepção e orgulho do servidor de que o trabalho de sua instituição gera valor real, protege o interesse público e contribui para o bem comum da sociedade.
 
+> ⭐ **IMPORTANTE — CONSTITUCIONALISMO DE RICHARD WALTON:**  
+> Em provas de tribunais e controladorias, a dimensão do **Constitucionalismo** desponta com enorme frequência. Ela significa assegurar os **direitos civis do trabalhador** dentro dos muros da repartição (privacidade de dados, liberdade de discordância respeitosa, equidade e devido processo em sindicâncias).
+
 ---
 
 ### 5. Teletrabalho e Trabalho Híbrido no Setor Público
@@ -217,24 +202,7 @@ A consolidação do regime de teletrabalho transformou a dinâmica das institui�
 
 ---
 
-## ⚠️ Alertas de Prova & Pegadinhas da FCC
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A banca frequentemente afirma que o método da **Escolha Forçada** é o mais indicado quando o objetivo central do órgão é promover sessões ricas de *feedback* individual entre o chefe e o subordinado. **ERRADO!** Esse é um dos maiores "peguenhas" da FCC! A Escolha Forçada **NÃO serve para fornecer feedback**, pois o avaliador desconhece a pontuação estatística das frases preenchidas, o que impossibilita justificar detalhadamente a avaliação para o servidor.
-
-> ⭐ **IMPORTANTE — CONSTITUCIONALISMO DE RICHARD WALTON:**  
-> Em provas de tribunais e controladorias, a dimensão do **Constitucionalismo** desponta com enorme frequência. Ela significa assegurar os **direitos civis do trabalhador** dentro dos muros da repartição (privacidade de dados, liberdade de discordância respeitosa, equidade e devido processo em sindicâncias).
-
-> 📌 **NOTA EXPLICATIVA — SUBSÍDIO CONSTITUCIONAL:**  
-> O subsídio em parcela única (art. 39, § 4º da CF/88) **proíbe gratificações e adicionais de natureza remuneratória**, mas **NÃO impede verbas estritamente indenizatórias** (como diárias de viagem a serviço e ajuda de custo para transporte), visto que verbas indenizatórias apenas ressarcem despesas extraordinárias do agente e não integram a base remuneratória.
-
-> 🛑 **ATENÇÃO — EFEITO HALO VS. RECÊNCIA:**  
-> - **Efeito Halo:** distorção decorrente de uma **única característica ou traço marcante** que cega o avaliador sobre os demais quesitos;  
-> - **Erro de Recência:** distorção de ordem **temporal**, em que o avaliador recorda apenas dos acontecimentos dos **últimos dias ou semanas** do ciclo avaliativo.
-
----
-
-## 🌐 Fontes Oficiais e Referências Bibliográficas
+### 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) - Art. 37, XI (Teto constitucional) e Art. 39, § 4º (Regime de subsídio).
 * [WALTON, Richard E. Quality of Working Life: What is it? Sloan Management Review, 1973](https://mitsloan.mit.edu).
@@ -244,7 +212,7 @@ A consolidação do regime de teletrabalho transformou a dinâmica das institui�
 
 ---
 
-## 📝 Questões de Concurso FCC Comentadas
+### 7. Questões de Concurso FCC Comentadas
 
 ### Questão 01
 **(FCC – Analista de Controle Externo – TCE-GO)**  
@@ -256,13 +224,14 @@ Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual 
 * **D)** Viés de recência funcional.
 * **E)** Falso consenso heurístico.
 
-> **Gabarito: B**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** O erro de tendência central ocorre quando o avaliador evita notas extremas e coloca todos os subordinados na nota média intermediária.  
 > - **B) CORRETA.** O **Efeito Halo (*Halo Effect*)** é a distorção perceptiva na qual o avaliador permite que uma impressão positiva isolada a respeito de uma característica específica (neste caso, a pontualidade e simpatia) irradie e contamine favoravelmente o julgamento de todas as demais dimensões de competência técnica do avaliado, atribuindo-lhe notas excelentes em itens que sequer foram testados.  
 > - **C) Incorreta.** O rigor excessivo é a conduta implacável de conceder notas rebaixadas para praticamente toda a equipe.  
 > - **D) Incorreta.** O viés de recência refere-se à supervalorização de episódios temporais recentes (últimos dias do ciclo), esquecendo o restante do período.  
-> - **E) Incorreta.** O falso consenso é a presunção equivocada de que os outros indivíduos compartilham dos mesmos julgamentos e crenças do avaliador.
+> - **E) Incorreta.** O falso consenso é a presunção equivocada de que os outros indivíduos compartilham dos mesmos julgamentos e crenças do avaliador.  
+> 
+> **Gabarito: B**
 
 ---
 
@@ -276,13 +245,14 @@ Em determinado órgão público estadual, a diretoria de Recursos Humanos decidi
 * **D)** fixar compulsoriamente todas as avaliações no patamar intermediário de notas, provocando uma distorção generalizada por tendência central.
 * **E)** restringir-se exclusivamente à apuração de dados financeiros e orçamentários, sendo inaplicável a cargos de suporte administrativo.
 
-> **Gabarito: C**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** A contratação de especialistas para entrevistas detalhadas é a característica marcante do método da Pesquisa de Campo, não da Escolha Forçada.  
 > - **B) Incorreta.** A maior vantagem da Escolha Forçada é precisamente **eliminar a subjetividade**, o favoritismo e a complacência, obrigando a escolha entre blocos de frases pré-definidas.  
 > - **C) CORRETA.** A crítica clássica e mais cobrada em concursos em relação ao método da **Escolha Forçada** é a sua **incapacidade de gerar feedback construtivo**: como as combinações de frases possuem ponderações estatísticas matemáticas tabuladas privativamente pela área de RH, a chefia imediata preenche o formulário sem saber exatamente como o servidor pontuou em cada quesito, impossibilitando orientá-lo sobre onde e como melhorar seu desempenho no trabalho.  
 > - **D) Incorreta.** A tendência central é a marca do método das Escalas Gráficas.  
-> - **E) Incorreta.** A Escolha Forçada é um método geral de avaliação comportamental, perfeitamente utilizável na área administrativa.
+> - **E) Incorreta.** A Escolha Forçada é um método geral de avaliação comportamental, perfeitamente utilizável na área administrativa.  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -296,13 +266,14 @@ O modelo conceitual de Qualidade de Vida no Trabalho (QVT) estruturado por Richa
 * **D)** Constitucionalismo na Organização.
 * **E)** Compensação Justa e Adequada.
 
-> **Gabarito: D**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** O Espaço Total de Vida diz respeito ao equilíbrio sadio entre as demandas laborais e a vida pessoal, social e familiar do empregado.  
 > - **B) Incorreta.** A Relevância Social do Trabalho analisa o orgulho que o trabalhador ostenta quanto à contribuição ética e ao valor público que a instituição entrega à sociedade.  
 > - **C) Incorreta.** A Integração Social na Organização envolve a ausência de discriminações e preconceitos e o fortalecimento de laços de companheirismo e cooperação mútua.  
 > - **D) CORRETA.** No modelo de Richard Walton, o **Constitucionalismo na Organização** é a dimensão que estabelece a vigência dos direitos civis e das garantias de cidadania dentro da corporação. Envolve o respeito aos direitos trabalhistas, regras institucionais claras, proteção da intimidade/privacidade, liberdade de opinião e o cumprimento inafastável do contraditório e da ampla defesa antes da imposição de sanções disciplinares.  
-> - **E) Incorreta.** A Compensação Justa e Adequada compreende renda condizente com a dignidade e critérios de equidade interna e externa.
+> - **E) Incorreta.** A Compensação Justa e Adequada compreende renda condizente com a dignidade e critérios de equidade interna e externa.  
+> 
+> **Gabarito: D**
 
 ---
 
@@ -316,13 +287,14 @@ Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas ca
 * **D)** O pagamento de diárias e de ajuda de custo para ressarcir despesas extraordinárias com deslocamento a serviço é terminantemente vedado aos agentes remunerados por subsídio.
 * **E)** O subsídio pode ser instituído discricionariamente mediante portaria interna expedida pelo Presidente do Tribunal de Contas, prescindindo de lei formal específica.
 
-> **Gabarito: B**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** O subsídio veda terminantemente a inclusão de gratificações por tempo de serviço ou adicionais de produtividade típicos da remuneração composta.  
 > - **B) CORRETA.** Conforme a redação expressa do art. 39, § 4º da CF/88, o subsídio é fixado em **parcela única, vedado o acréscimo de qualquer gratificação, adicional, abono, prêmio, verba de representação** ou outra espécie remuneratória. A jurisprudência consolidada do STF ressalva expressamente que essa vedação **não atinge parcelas de natureza estritamente indenizatória** (como diárias e indenização de transporte), pois elas visam ressarcir despesas suportadas pelo agente público no interesse do serviço e não constituem ganho patrimonial.  
 > - **C) Incorreta.** Todos os subsídios subordinam-se expressamente ao teto remuneratório constitucional previsto no art. 37, XI da CF/88.  
 > - **D) Incorreta.** Diárias e ajuda de custo são parcelas indenizatórias legítimas e plenamente compatíveis com o regime de subsídio.  
-> - **E) Incorreta.** A fixação ou alteração de subsídios exige obrigatoriamente lei formal específica (princípio da reserva legal).
+> - **E) Incorreta.** A fixação ou alteração de subsídios exige obrigatoriamente lei formal específica (princípio da reserva legal).  
+> 
+> **Gabarito: B**
 
 ---
 
@@ -336,10 +308,11 @@ Com o avanço da transformação digital na administração pública, o regime d
 * **D)** o cancelamento compulsório de todos os programas institucionais de capacitação continuada para os servidores admitidos na modalidade remota.
 * **E)** a proibição legal do retorno do servidor ao regime de trabalho presencial, dado o caráter irrevogável do termo de adesão ao teletrabalho.
 
-> **Gabarito: C**  
-> **Comentário Passo a Passo:**  
+> **Comentário Detalhado:**  
 > - **A) Incorreta.** O teletrabalho moderno rompe exatamente com a lógica cartorial de vigiar horários mecânicos, substituindo-a pelo foco em resultados e produtividade.  
 > - **B) Incorreta.** O órgão mantém a obrigação de orientar sobre práticas ergonômicas e instituir mecanismos rígidos de governança e segurança da informação (VPN, sigilo funcional).  
 > - **C) CORRETA.** O fundamento primordial do teletrabalho e do trabalho híbrido no setor público reside na transição paradigmática do controle de presença física e cumprimento estrito de horas no relógio para a **gestão por resultados**, orientada por metas quantitativas e qualitativas claras, com prazos e entregas concretas pactuadas no plano de trabalho institucional.  
 > - **D) Incorreta.** Servidores em teletrabalho permanecem com pleno direito e necessidade de qualificação por meio de educação corporativa (EaD e cursos).  
-> - **E) Incorreta.** A permanência em teletrabalho não constitui direito adquirido; trata-se de regime precário e revogável por necessidade do serviço ou interesse da administração pública a qualquer momento.
+> - **E) Incorreta.** A permanência em teletrabalho não constitui direito adquirido; trata-se de regime precário e revogável por necessidade do serviço ou interesse da administração pública a qualquer momento.  
+> 
+> **Gabarito: C**

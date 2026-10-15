@@ -1,485 +1,423 @@
-# 01 - Machine Learning, Redes Neurais e Deep Learning
+# Módulo 09: Inteligência Artificial e Ciência de Dados
+## 01. Fundamentos de IA, Machine Learning e Deep Learning
 
-> **Matéria:** Inteligência Artificial, Ciência de Dados e Automação  
-> **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
-> **Arquivo:** `01_fundamentos_ia_machine_learning_e_deep_learning.md`  
-
----
-
-## 📌 Ementa / Itens do Edital
-- Fundamentos e histórico da Inteligência Artificial
-- Aprendizado de Máquina (Machine Learning):
-  - Aprendizado Supervisionado (Classificação e Regressão)
-  - Aprendizado Não Supervisionado (Agrupamento e Redução de Dimensionalidade)
-  - Aprendizado por Reforço (Reinforcement Learning)
-- Redes Neurais Artificiais (Arquitetura, Treinamento e Funções de Ativação)
-- Noções de Aprendizado Profundo (Deep Learning)
+**Última Atualização:** 2026-03-31  
+**Banca Foco:** FCC (Fundação Carlos Chagas)  
+**Cargo:** Auditor de Controle Externo - Tecnologia da Informação  
+**Status do Mapeamento:** 100% aderente ao edital TCE-GO
 
 ---
 
-## 🌳 Classificação Hierárquica
+### 📌 Ementa / Itens do Edital
+1. **Fundamentos e Histórico da Inteligência Artificial:** Definições clássicas de Russell & Norvig; Teste de Turing, Quarto Chinês de Searle; IA Estreita (*Narrow AI*) vs. IA Geral (*AGI*) vs. Superinteligência (*ASI*); Paradigma Simbólico (*Sistemas Especialistas*) vs. Paradigma Conexionista (*Subsimbólico/Estatístico*); Conceito formal de Agente Racional.
+2. **Aprendizado de Máquina (Machine Learning):**
+   - **Aprendizado Supervisionado:** Tarefas de Classificação (Regressão Logística, Árvores de Decisão com Entropia/Gini, SVM com hiperplano de margem máxima e kernel trick, Naive Bayes com suposição de independência condicional, k-NN com cálculo de distâncias) e Tarefas de Regressão (Regressão Linear via OLS, Regularização Ridge com norma $L_2$ e Lasso com norma $L_1$ para seleção de atributos, Elastic Net).
+   - **Métodos de Ensemble:** Bagging (*Random Forest* com amostragem bootstrap e subespaço aleatório de features para redução de variância) vs. Boosting (*AdaBoost*, *Gradient Boosting*, *XGBoost* e *LightGBM* com treinamento sequencial focado em resíduos para redução de viés).
+   - **Aprendizado Não Supervisionado:** Agrupamento/Clustering (K-Means com inércia e método do cotovelo, DBSCAN com densidade, pontos núcleo/borda/ruído para detecção de anomalias, Agrupamento Hierárquico com dendrogramas e abordagens aglomerativa/divisiva) e Redução de Dimensionalidade (PCA com autovalores/autovetores e máxima variância, t-SNE e UMAP).
+   - **Aprendizado por Reforço:** Agente, Ambiente, Estado, Ação, Recompensa, Processos de Decisão de Markov (MDP), Equação de Bellman, Dilema *Exploration vs. Exploitation* e Q-Learning.
+3. **Redes Neurais Artificiais e Deep Learning:**
+   - **Arquitetura e Fundamentos:** Perceptron de Rosenblatt (pesos, bias, soma ponderada), limitação linear e problema do XOR (Minsky & Papert); Perceptron Multicamadas (MLP) e Teorema da Aproximação Universal.
+   - **Funções de Ativação Não Lineares:** Sigmoide (desvanecimento do gradiente), Tangente Hiperbólica ($\tanh$ centrada em zero), ReLU (padrão em camadas ocultas e patologia do *Dying ReLU*) e Softmax (restrita à camada de saída multiclasse).
+   - **Treinamento e Otimização:** Funções de Perda (MSE, Entropia Cruzada Binária e Categórica), Retropropagação (*Backpropagation* via Regra da Cadeia), Gradiente Descendente e Otimizadores (SGD, Momentum, RMSprop e Adam), Regularização (Dropout, Batch Normalization e Early Stopping).
+   - **Arquiteturas Especializadas:** Redes Convolucionais (CNNs: filtros convolucionais, compartilhamento de pesos, pooling e invariância translacional para visão computacional); Redes Recorrentes (RNNs, LSTM com portas de esquecimento/entrada/saída e GRU); e Arquitetura Transformer (mecanismo de autoatenção pura).
 
-```text
-1. Paradigmas de IA, Aprendizado de Máquina e Redes Neurais
-├── 1.1 Fundamentos de Inteligência Artificial
-│   ├── 1.1.1 Definição de IA: Sistemas que agem ou pensam como humanos vs. racionalmente (Russell & Norvig)
-│   ├── 1.1.2 Teste de Turing, Quarto Chinês de Searle e IA Fraca (Narrow AI) vs. IA Geral (AGI)
-│   └── 1.1.3 Paradigmas: IA Simbólica (Sistemas Especialistas, regras lógicas) vs. IA Conexionista (Estatística e Redes Neurais)
-├── 1.2 Tipos de Aprendizado de Máquina (Machine Learning)
-│   ├── 1.2.1 Aprendizado Supervisionado (Dados rotulados: entradas X e saídas esperadas y):
-│   │   ├── Tarefas de Classificação (saídas discretas/classes):
-│   │   │   ├── Regressão Logística (fronteira linear, função sigmoide)
-│   │   │   ├── Árvores de Decisão (Critérios de divisão: Entropia / Ganho de Informação e Índice Gini)
-│   │   │   ├── Random Forest e Gradient Boosting (XGBoost, LightGBM - métodos de ensemble: Bagging vs. Boosting)
-│   │   │   ├── Support Vector Machines (SVM: Hiperplano ótimo de separação, margem máxima e truque do kernel)
-│   │   │   ├── Naive Bayes (Classificador probabilístico baseado no Teorema de Bayes e independência condicional)
-│   │   │   └── k-Nearest Neighbors (k-NN: Aprendizado baseado em instâncias / preguiçoso e cálculo de distâncias)
-│   │   └── Tarefas de Regressão (saídas contínuas/numéricas):
-│   │       ├── Regressão Linear Simples e Múltipla (Método dos Mínimos Quadrados Ordinários - OLS)
-│   │       └── Regularização: Ridge (norma L2 - encolhe coeficientes) e Lasso (norma L1 - zera coeficientes / seleção de features)
-│   ├── 1.2.2 Aprendizado Não Supervisionado (Dados não rotulados: descoberta de padrões intrínsecos):
-│   │   ├── Algoritmos de Agrupamento (Clustering):
-│   │   │   ├── K-Means: Particionamento baseado em centroides, critério da inércia e Método do Cotovelo (Elbow Method)
-│   │   │   ├── DBSCAN: Agrupamento espacial baseado em densidade (detecta clusters de formatos arbitrários e ruídos/outliers)
-│   │   │   └── Agrupamento Hierárquico (Dendrogramas, abordagens aglomerativa e divisiva)
-│   │   └── Redução de Dimensionalidade:
-│   │       ├── Análise de Componentes Principais (PCA: autovalores, autovetores e projeção em eixos ortogonais de máxima variância)
-│   │       └── t-SNE e UMAP (técnicas não lineares para visualização em 2D/3D)
-│   └── 1.2.3 Aprendizado por Reforço (Reinforcement Learning - RL):
-│       ├── Componentes: Agente, Ambiente, Estado (S), Ação (A), Recompensa (R)
-│       ├── Processos de Decisão de Markov (MDP) e Função de Valor
-│       └── Dilema Exploração vs. Explotação (Exploration vs. Exploitation) e algoritmo Q-Learning
-└── 1.3 Redes Neurais Artificiais e Deep Learning
-    ├── 1.3.1 O Neurônio Artificial (Perceptron de Rosenblatt): Entradas ponderadas por pesos (w_i), viés (bias b), função de soma e função de ativação
-    ├── 1.3.2 Redes Multicamadas (MLP - Multilayer Perceptron): Camada de entrada, camadas ocultas (hidden layers) e camada de saída
-    ├── 1.3.3 Funções de Ativação Não Lineares:
-    │   ├── Sigmoide: Saídas entre 0 e 1 (problema do desvanecimento do gradiente)
-    │   ├── Tangente Hiperbólica (tanh): Saídas centradas em zero entre -1 e 1
-    │   ├── ReLU (Rectified Linear Unit): Padrão na indústria, rápida e resolve desvanecimento para valores positivos
-    │   └── Softmax: Converte vetor de saídas brutas em distribuição de probabilidades cuja soma é 1 (para classificação multiclasse)
-    ├── 1.3.4 Processo de Treinamento e Otimização:
-    │   ├── Função de Perda (Loss Function): Erro Quadrático Médio (MSE) para regressão; Entropia Cruzada (Cross-Entropy) para classificação
-    │   ├── Algoritmo de Retropropagação (Backpropagation): Cálculo dos gradientes pela Regra da Cadeia
-    │   └── Otimizadores de Gradiente Descendente: SGD (Stochastic Gradient Descent), Momentum, RMSprop e Adam
-    └── 1.3.5 Principais Arquiteturas de Deep Learning:
-        ├── Redes Neurais Convolucionais (CNNs): Convolução, Pooling e filtros (visão computacional, reconhecimento de imagens)
-        ├── Redes Neurais Recorrentes (RNNs) e LSTM / GRU: Células com portas para retenção de memória sequencial temporal
-        └── Arquitetura Transformer: Atenção pura sem recorrência (base dos modelos de linguagem modernos)
+---
+
+### 🧭 Sumário
+- [1. Fundamentos e Paradigmas da Inteligência Artificial](#1-fundamentos-e-paradigmas-da-inteligência-artificial)
+  - [1.1 Dimensões de Russell & Norvig e o Conceito de Agente Racional](#11-dimensões-de-russell--norvig-e-o-conceito-de-agente-racional)
+  - [1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência](#12-níveis-de-ia-narrow-ai-vs-agi-vs-superinteligência)
+  - [1.3 Paradigma Simbólico vs. Paradigma Conexionista](#13-paradigma-simbólico-vs-paradigma-conexionista)
+- [2. Aprendizado de Máquina Supervisionado](#2-aprendizado-de-máquina-supervisionado)
+  - [2.1 Modelos e Algoritmos de Classificação](#21-modelos-e-algoritmos-de-classificação)
+  - [2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting](#22-comitês-de-modelos-ensemble-bagging-vs-boosting)
+  - [2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)](#23-modelos-de-regressão-e-técnicas-de-regularização-ridge-lasso-e-elastic-net)
+- [3. Aprendizado Não Supervisionado e por Reforço](#3-aprendizado-não-supervisionado-e-por-reforço)
+  - [3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)](#31-algoritmos-de-agrupamento-clustering-k-means-dbscan-e-hierárquico)
+  - [3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)](#32-redução-de-dimensionalidade-pca-t-sne-e-umap)
+  - [3.3 Aprendizado por Reforço (Reinforcement Learning)](#33-aprendizado-por-reforço-reinforcement-learning)
+- [4. Redes Neurais Artificiais e Deep Learning](#4-redes-neurais-artificiais-e-deep-learning)
+  - [4.1 Perceptron, Limitações Lineares e Redes Multicamadas (MLP)](#41-perceptron-limitações-lineares-e-redes-multicamadas-mlp)
+  - [4.2 Funções de Ativação Não Lineares e suas Patologias](#42-funções-de-ativação-não-lineares-e-suas-patologias)
+  - [4.3 Treinamento: Backpropagation, Gradiente Descendente e Otimizadores](#43-treinamento-backpropagation-gradiente-descendente-e-otimizadores)
+  - [4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers](#44-arquiteturas-profundas-cnns-rnnslstm-e-transformers)
+- [5. Questões Comentadas (FCC)](#5-questões-comentadas-fcc)
+
+---
+
+## 1. Fundamentos e Paradigmas da Inteligência Artificial
+
+A Inteligência Artificial (IA) estuda e projeta entidades computacionais capazes de realizar tarefas cognitivas historicamente associadas à inteligência biológica humana, tais como percepção visual, tomada de decisão sob incerteza, raciocínio lógico dedutivo e aprendizado contínuo.
+
+### 1.1 Dimensões de Russell & Norvig e o Conceito de Agente Racional
+
+A taxonomia formal estabelecida por Stuart Russell e Peter Norvig estrutura as abordagens de IA em uma matriz quadrante baseada em duas dimensões fundamentais:
+
+```
+                          FIDELIDADE AO HUMANO          FIDELIDADE À RACIONALIDADE
+                   ┌──────────────────────────────┬──────────────────────────────┐
+  FOCO NO PROCESSO │    PENSAR COMO HUMANOS       │      PENSAR RACIONALMENTE    │
+    DE PENSAMENTO  │ (Ciência Cognitiva, Modelagem│ (Lógica Formal, Silogismos   │
+                   │  Empírica do Cérebro Humano) │  Aristotélicos, Leis da Mente│
+                   ├──────────────────────────────┼──────────────────────────────┤
+  FOCO NO COMPOR-  │      AGIR COMO HUMANOS       │       AGIR RACIONALMENTE     │
+      TAMENTO      │ (Teste de Turing de 1950,    │ (Agente Racional, Maximização│
+   (AÇÃO VISÍVEL)  │  Processamento de Linguagem) │  da Utilidade/Desempenho)    │
+                   └──────────────────────────────┴──────────────────────────────┘
 ```
 
+1. **Agir como Humanos:** Medido operacionalmente pelo célebre **Teste de Turing (1950)**. Se um avaliador humano interagindo via terminal de texto não for capaz de distinguir confiavelmente se as respostas procedem de um operador humano ou de um computador, o sistema é considerado aprovado no teste comportamental. O filósofo John Searle contra-argumentou com o experimento mental do **Quarto Chinês (*Chinese Room*)**, afirmando que a mera manipulação sintática de regras e símbolos não confere compreensão semântica ou consciência real à máquina.
+2. **Pensar como Humanos:** Procura reproduzir fielmente os processos mentais e psicológicos dos seres humanos por meio da intersecção entre modelos computacionais de IA e técnicas experimentais da psicologia e neurociência cognitiva.
+3. **Pensar Racionalmente:** Baseia-se em sistemas de lógica formal dedutiva (silogismos e cálculo proposicional). Limitação prática: incapacidade de lidar eficientemente com incertezas, dados probabilísticos e o conhecimento informal difuso do mundo real.
+4. **Agir Racionalmente (Abordagem de Agentes Racionais):** Paradigma predominante na ciência da computação contemporânea. Um **Agente Racional** é definido formalmente como uma entidade autônoma que:
+   - Percebe seu ambiente operacional por meio de **Sensores**;
+   - Processa computacionalmente esse fluxo perceptivo através de uma **Função de Agente** interna;
+   - Executa intervenções físicas ou virtuais no ambiente através de **Atuadores** com o objetivo explícito de **maximizar a sua medida de desempenho esperada**.
+
+> ⚠️ **Alerta de Prova (FCC):**
+> A banca FCC costuma cobrar com frequência a definição canônica de **Agente Racional**. Fixe bem: a racionalidade não significa perfeição, onisciência ou clarividência humana. A racionalidade computacional busca maximizar o resultado esperado em face do conhecimento histórico acumulado pelo agente e das percepções recebidas pelos seus sensores no momento da decisão.
+
+### 1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência
+
+* **IA Estreita / Fraca (*Narrow AI* ou *Weak AI*):**
+  - Sistemas computacionais altamente especializados, construídos e treinados para solucionar **uma tarefa restrita e delimitada**.
+  - Exemplos: Classificação de transações fraudulentas pelo TCE-GO, sistemas de reconhecimento facial, motores de recomendação de comércio eletrônico, grandes modelos de linguagem (LLMs) e motores de xadrez/Go. **Toda a inteligência artificial desenvolvida e operacional no mundo atual pertence exclusivamente à categoria Narrow AI**.
+* **IA Geral / Forte (*Artificial General Intelligence - AGI*):**
+  - Sistema hipotético dotado de plasticidade e capacidade cognitiva comparáveis ou equivalentes às de um ser humano adulto. Uma AGI deve ser capaz de aprender, raciocinar, transferir aprendizado entre domínios totalmente distintos e solucionar desafios inéditos sem a necessidade de reconfiguração algorítmica ou retreinamento supervisionado por humanos.
+* **Superinteligência Artificial (*Artificial Superintelligence - ASI*):**
+  - Estágio teórico em que a capacidade cognitiva de uma entidade de silício ultrapassa exponencialmente a capacidade intelectual combinada de todos os cérebros humanos da Terra em todas as disciplinas criativas, científicas, estratégicas e sociais.
+
+### 1.3 Paradigma Simbólico vs. Paradigma Conexionista
+
+A trajetória histórica da IA subdivide-se em duas correntes metodológicas centrais:
+- **Paradigma Simbólico (IA Clássica / GOFAI - *Good Old-Fashioned AI*):**
+  - Abordagem *top-down* orientada à manipulação lógica de símbolos, árvores de inferência dedutiva e bases de regras determinísticas do tipo `SE <condição> ENTÃO <ação>`.
+  - Seu apogeu deu-se nas décadas de 1970 e 1980 com os **Sistemas Especialistas** (*Expert Systems*).
+  - *Vantagem:* Total interpretabilidade, transparência explicativa e facilidade de auditoria (*white box*).
+  - *Gargalo Histórico:* Dificuldade extrema de codificar regras manuais para conhecimento implícito complexo (*knowledge acquisition bottleneck*) e total fragilidade perante ruídos em dados não estruturados (áudio, vídeo, imagens).
+- **Paradigma Conexionista / Subsimbólico:**
+  - Abordagem *bottom-up* inspirada na neurobiologia humana e modelada em redes matemáticas densas de nós processadores interconectados por pesos sinápticos numéricos ajustáveis (Redes Neurais Artificiais e modelos estatísticos).
+  - O conhecimento não reside em regras textuais explícitas, mas sim distribuído nos pesos numéricos aprendidos por otimização estatística direta sobre grandes massas de dados.
+  - *Vantagem:* Robustez incomparável a ruídos estatísticos e capacidade superior de extrair padrões latentes de alta dimensionalidade (processamento de linguagem natural e visão computacional).
+  - *Desvantagem:* Natureza de "caixa-preta" (*black box*), opacidade decisória e altíssimo custo de processamento computacional em GPUs/TPUs.
+
 ---
 
-## 📖 Teoria Aprofundada
+## 2. Aprendizado de Máquina Supervisionado
 
-### 1. Paradigmas de Inteligência Artificial
+O Aprendizado Supervisionado opera sobre conjuntos de dados históricos previamente rotulados, formalizados pelo conjunto de treino $\{(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)\}$, onde $x_i$ representa o vetor de características (*features*) e $y_i$ representa o rótulo verdadeiro (*ground truth*). O objetivo do algoritmo é estimar uma função $f(x) \approx y$ com alta capacidade de generalização para amostras inéditas.
 
-A Inteligência Artificial (IA) é historicamente categorizada sob a taxonomia clássica de Stuart Russell e Peter Norvig segundo duas dimensões: o foco do processo (pensamento vs. comportamento) e o critério de sucesso (fidelidade humana vs. racionalidade ideal).
+### 2.1 Modelos e Algoritmos de Classificação
 
-```mermaid
-flowchart TD
-    subgraph Dimensoes["Dimensões de IA (Russell & Norvig)"]
-        direction TB
-        subgraph FocoHumano["Fidelidade ao Humano"]
-            PH["Pensar como Humanos<br/>(Ciência Cognitiva, Modelagem Psicológica)"]
-            AH["Agir como Humanos<br/>(Teste de Turing, Processamento de Linguagem)"]
-        end
-        subgraph FocoRacional["Fidelidade à Racionalidade"]
-            PR["Pensar Racionalmente<br/>(Leis do Pensamento, Lógica Formal)"]
-            AR["Agir Racionalmente<br/>(Agente Racional, Maximização de Utilidade)"]
-        end
-    end
+Quando a variável dependente $y$ é de natureza discreta/categórica (ex.: `0` para contratação idônea e `1` para superfaturada), o problema enquadra-se como **Classificação**:
+
+1. **Regressão Logística:**
+   - Apesar do termo "regressão", é um algoritmo de **classificação linear**. Estima a probabilidade a posteriori de uma classe binária através da função logística sigmoide:
+     $$P(y=1|\mathbf{x}) = \sigma(\mathbf{w}^T \mathbf{x} + b) = \frac{1}{1 + e^{-(\mathbf{w}^T \mathbf{x} + b)}}$$
+   - A fronteira de separação entre as classes é estritamente linear ($\mathbf{w}^T \mathbf{x} + b = 0$). O treinamento minimiza a função de perda de Entropia Cruzada Binária (*Log-Loss*).
+
+2. **Árvores de Decisão (*Decision Trees*):**
+   - Modelos hierárquicos não paramétricos compostos por nós de decisão, ramos e folhas que dividem recursivamente o espaço de atributos.
+   - **Critérios de Divisão de Nós:**
+     - *Entropia e Ganho de Informação (Algoritmos ID3 e C4.5):* A Entropia mede o grau de desordem ou incerteza dos dados:
+       $$\text{Entropia}(S) = - \sum_{i=1}^{c} p_i \log_2(p_i)$$
+       O algoritmo escolhe a divisão que maximiza a redução de entropia (Ganho de Informação).
+     - *Índice de Impureza Gini (Algoritmo CART):* Mede a probabilidade de um elemento aleatório ser incorretamente classificado:
+       $$\text{Gini}(S) = 1 - \sum_{i=1}^{c} p_i^2$$
+   - Árvores de decisão profundas e sem limites de crescimento sofrem gravemente de **sobreajuste (*overfitting*)** (alta variância). Para mitigar essa patologia, aplicam-se técnicas de poda prévia (*pre-pruning*, limitando a profundidade máxima `max_depth` ou número mínimo de amostras por nó) e poda posterior (*post-pruning* via complexidade de custo).
+
+3. **Support Vector Machines (SVM):**
+   - Constrói o **hiperplano de separação ótimo** que maximiza a distância geométrica perpendicular (**margem de separação**) até as instâncias mais próximas de cada classe.
+   - **Vetores de Suporte:** São unicamente as instâncias críticas situadas sobre as fronteiras da margem que determinam a posição matemática e inclinação do hiperplano; todos os outros pontos podem ser adicionados ou removidos sem afetar a solução ótima.
+   - **Hiperparâmetro $C$ (Margem Suave):** Controla o compromisso entre a largura da margem e a tolerância a erros de classificação: um $C$ elevado penaliza violações severamente (margem estreita, risco de sobreajuste); um $C$ baixo admite mais violações em troca de margens mais amplas (maior viés e melhor generalização).
+   - **Truque do Kernel (*Kernel Trick*):** Permite resolver problemas não linearmente separáveis sem a necessidade de calcular explicitamente as coordenadas em um espaço de dimensão infinita ou muito alta, substituindo o produto escalar por uma função de kernel: Linear, Polinomial ou Gaussiano RBF (*Radial Basis Function*).
+
+4. **Naive Bayes:**
+   - Classificador probabilístico alicerçado diretamente no Teorema de Bayes:
+     $$P(y|\mathbf{X}) = \frac{P(\mathbf{X}|y) P(y)}{P(\mathbf{X})}$$
+   - **Suposição "Ingênua" (*Naive*):** Assume categoricamente que todos os atributos preditores $x_1, x_2, \dots, x_d$ são **mutuamente independentes entre si, dado o rótulo de classe $y$**:
+     $$P(\mathbf{X}|y) = \prod_{j=1}^{d} P(x_j|y)$$
+   - Apesar dessa premissa ser quase sempre violada no mundo real, apresenta eficácia e velocidade ímpares na filtragem de spam, análise de sentimento e classificação de textos jurídicos.
+
+5. **k-Nearest Neighbors (k-NN):**
+   - Algoritmo não-paramétrico **baseado em instâncias** (*instance-based*) e classificado como **aprendizado preguiçoso (*lazy learning*)**, pois não possui uma fase de treinamento explícita que gere coeficientes ou modelos matemáticos: ele simplesmente memoriza todos os dados de treino na memória.
+   - Durante a inferência, calcula a distância (Euclidiana, Manhattan ou Minkowski) entre a nova amostra e todos os pontos históricos da base, atribuindo a classe majoritária entre os $k$ vizinhos mais próximos. Sofre severamente com a **maldição da dimensionalidade** (*curse of dimensionality*).
+
+### 2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting
+
+A combinação coordenada de múltiplos estimadores fracos (*weak learners*) permite construir comitês com capacidade preditiva muito superior à de qualquer modelo individual isolado:
+
+```
+[BAGGING - Random Forest]
+ Amostra Bootstrap 1 ──► [Árvore Profunda 1] ──┐
+ Amostra Bootstrap 2 ──► [Árvore Profunda 2] ──┼──► Votação Majoritária (Média)
+ Amostra Bootstrap N ──► [Árvore Profunda N] ──┘    Reduz a VARIÂNCIA (Overfitting)
+ (Treinamento em PARALELO e INDEPENDENTE)
+
+[BOOSTING - XGBoost / AdaBoost]
+ Dataset ──► [Modelo Fraco 1] ──(Resíduos/Erros)──► [Modelo Fraco 2] ──(Resíduos)──► ...
+ (Treinamento SEQUENCIAL / ADAPTATIVO)               Reduz o VIÉS (Underfitting)
 ```
 
-- **Agir como humanos:** Avaliado operacionalmente pelo clássico **Teste de Turing** (1950), onde um interrogador humano tenta distinguir se as respostas textuais advêm de um humano ou de uma máquina.
-- **Pensar como humanos:** Requer desvendar o funcionamento empírico da mente humana por meio de experimentos psicológicos e neuroimagem (ciência cognitiva).
-- **Pensar racionalmente:** Alicerçado na lógica dedutiva formal (silogismos aristotélicos). Limitação: dificuldade em codificar incerteza e conhecimento informal do mundo real.
-- **Agir racionalmente (Abordagem de Agentes Racionais):** Paradigma predominante na ciência da computação contemporânea. Um **agente racional** é aquele que opera de modo a alcançar o melhor resultado esperado, considerando suas percepções e seu conhecimento prévio.
-
-> ⭐ **IMPORTANTE / REGRA DE OURO:**  
-> Nos concursos de alto nível (FCC/FGV), a definição contemporânea mais aceita de IA é a de **Agente Racional**: uma entidade computacional autônoma que percebe seu ambiente através de sensores, processa essas informações matematicamente e atua sobre o ambiente por meio de atuadores para **maximizar a sua medida de desempenho esperada**.
-
-#### IA Estreita (Narrow AI) vs. IA Geral (AGI) vs. Superinteligência
-- **IA Estreita / Fraca (Narrow / Weak AI):** Sistemas projetados e treinados para realizar uma tarefa específica (ex.: reconhecimento facial, detecção de fraude tributária, diagnóstico por imagem, jogos como xadrez e Go). Toda a IA existente no mercado hoje é Narrow AI.
-- **IA Geral / Forte (AGI - Artificial General Intelligence):** Sistema hipotético dotado de flexibilidade cognitiva ampla equivalente à humana, capaz de aprender, raciocinar, transferir conhecimento entre domínios distintos e solucionar problemas inéditos sem retreinamento específico.
-- **Superinteligência Artificial (ASI):** Estágio hipotético em que o intelecto computacional supera as capacidades combinadas da totalidade dos cérebros humanos em praticamente todos os campos (científico, criativo, social).
-
-#### Paradigmas Históricos: Simbólico vs. Conexionista
-- **IA Simbólica (GOFAI - Good Old-Fashioned AI):** Baseada na manipulação de símbolos e regras lógicas determinísticas (*top-down*). Destacam-se os **Sistemas Especialistas** e motores de inferência (décadas de 1970–1980). Vantagens: total interpretabilidade e rastreabilidade (*white box*). Desvantagem: fragilidade perante ruído, ambiguidade e dados não estruturados (*knowledge acquisition bottleneck*).
-- **IA Conexionista / Subsimbólica:** Inspirada na estrutura neurobiológica (*bottom-up*). Modela o conhecimento através de pesos sinápticos distribuídos em redes de nós interconectados (redes neurais artificiais e modelos estatísticos). Aprende diretamente dos dados por otimização numérica. Vantagens: robustez a ruído e capacidade ímpar de generalização em alta dimensionalidade (imagens, áudio, texto). Desvantagem: comportamento de "caixa-preta" (*black box*) e alta demanda computacional e de dados.
-
----
-
-### 2. Aprendizado de Máquina (Machine Learning)
-
-O Aprendizado de Máquina é o subcampo da IA voltado ao desenvolvimento de algoritmos que melhoram seu desempenho $P$ em determinada classe de tarefas $T$ a partir da experiência empírica $E$, formalizado pela definição de Tom Mitchell ($P, T, E$).
-
-```mermaid
-flowchart LR
-    ML["Machine Learning"] --> Sup["Supervisionado<br/>(Dados Rotulados: X -> y)"]
-    ML --> NaoSup["Não Supervisionado<br/>(Sem Rótulos: X)"]
-    ML --> Reforco["Por Reforço<br/>(Interação com Ambiente)"]
-    
-    Sup --> Cla["Classificação<br/>(Saída Discreta/Classes)"]
-    Sup --> Reg["Regressão<br/>(Saída Contínua/Numérica)"]
-    
-    NaoSup --> Clust["Agrupamento (Clustering)<br/>(K-Means, DBSCAN)"]
-    NaoSup --> RedDim["Redução Dimensional<br/>(PCA, t-SNE)"]
-    
-    Reforco --> Pol["Políticas e Recompensas<br/>(Q-Learning, MDP)"]
-```
-
----
-
-### 2.1 Aprendizado Supervisionado
-
-No aprendizado supervisionado, o conjunto de dados de treino é composto por pares ordenados de entrada e saída $\{(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)\}$, onde o algoritmo busca aprender uma função preditiva $f(x) \approx y$.
-
-#### A) Classificação (Rótulos Categóricos / Discretos)
-- **Regressão Logística:** Apesar do nome "regressão", é um algoritmo de **classificação linear**. Modela a probabilidade de um evento binário por meio da função logística (sigmoide):
-  $P(y=1|x) = \sigma(w^T x + b) = \frac{1}{1 + e^{-(w^T x + b)}}$
-  A fronteira de decisão gerada é linear ($w^T x + b = 0$). O treinamento minimiza a função de perda de Entropia Cruzada Binária (*Log-Loss*).
-
-- **Árvores de Decisão (Decision Trees):** Modelos hierárquicos não paramétricos que particionam iterativamente o espaço de características.
-  - **Algoritmo ID3 / C4.5:** Utiliza a **Entropia** para quantificar a incerteza e escolhe o atributo que maximiza o **Ganho de Informação** (*Information Gain*):
-    $\text{Entropia}(S) = - \sum_{i=1}^{c} p_i \log_2(p_i)$
-  - **Algoritmo CART (Classification and Regression Trees):** Utiliza o **Índice de Impureza Gini**:
-    $\text{Gini}(S) = 1 - \sum_{i=1}^{c} p_i^2$
-  - Árvores puras sem restrição de profundidade sofrem severamente de **overfitting** (alta variância). Métodos de prevenção: poda prévia (*pre-pruning* via profundidade máxima ou número mínimo de amostras por folha) e poda posterior (*post-pruning* via *cost-complexity pruning*).
-
-- **Support Vector Machines (SVM):** Procura encontrar o **hiperplano ótimo** que separa as classes com a **margem máxima** de separação.
-  - **Vetores de Suporte:** Pontos de dados mais próximos do hiperplano que definem a margem. Apenas esses pontos determinam a posição do hiperplano; os demais pontos podem ser removidos sem alterar a fronteira.
-  - **Margem Suave (Soft Margin):** Introduz variáveis de folga ($\xi_i$) e um hiperparâmetro de regularização $C$ para tolerar pontos mal classificados ou dentro da margem. Um $C$ alto penaliza erros com rigor (risco de overfitting); um $C$ baixo aceita mais violações para gerar margens mais largas (maior viés).
-  - **Truque do Kernel (Kernel Trick):** Mapeia implicitamente os dados de entrada de um espaço original não separável linearmente para um espaço de dimensão superior onde a separação linear se torna possível, sem calcular explicitamente as coordenadas de alta dimensão. Kernels comuns: Linear, Polinomial e RBF Gaussiano (*Radial Basis Function*).
-
-- **Naive Bayes:** Classificador probabilístico baseado no Teorema de Bayes:
-  $P(y|X) = \frac{P(X|y) \cdot P(y)}{P(X)}$
-  Adota a suposição "ingênua" (*naive*) de que todas as características $x_i$ são **estatisticamente independentes entre si, dado o rótulo da classe $y$**:
-  $P(X|y) = \prod_{i=1}^{d} P(x_i|y)$
-  Apesar de violada na vida real, apresenta excelente desempenho computacional em tarefas como filtragem de spam e categorização textual.
-
-- **k-Nearest Neighbors (k-NN):** Algoritmo **baseado em instâncias** (*instance-based*) e classificado como **aprendizado preguiçoso** (*lazy learner*), pois não constrói um modelo discriminativo explícito na fase de treino; limita-se a memorizar os dados. A classificação de um novo ponto calcula as distâncias (Euclidiana, Manhattan ou Minkowski) até todos os pontos de treino e atribui a classe majoritária dentre os $k$ vizinhos mais próximos. Sofre severamente com a **maldição da dimensionalidade** (*curse of dimensionality*).
-
-#### B) Métodos de Ensemble (Comitês de Modelos)
-Combinam múltiplos estimadores base (*weak learners*) para construir um preditor composto mais robusto e acurado.
-
-| Característica | Bagging (Bootstrap Aggregating) | Boosting |
+| Critério Comparativo | Bagging (Bootstrap Aggregating) | Boosting |
 | :--- | :--- | :--- |
-| **Construção dos Modelos** | **Paralela** e independente. | **Sequencial** e adaptativa. |
-| **Amostragem dos Dados** | Reamostragem com reposição (*Bootstrap*) aleatória uniforme. | Reamostragem ponderada; instâncias erradas ganham maior peso residual. |
-| **Foco de Otimização** | Reduzir a **variância** (combater overfitting). | Reduzir o **viés** (combater underfitting) e aumentar precisão. |
-| **Agregação da Saída** | Média simples (regressão) ou votação majoritária (classificação). | Combinação ponderada baseada no desempenho de cada estimador. |
-| **Exemplos Canônicos** | **Random Forest**, Extra Trees. | **AdaBoost, Gradient Boosting, XGBoost, LightGBM, CatBoost**. |
-| **Complexidade dos Estimadores Base** | Árvores profundas (alta variância, baixo viés). | Árvores rasas / *stumps* (baixo custo, alto viés). |
+| **Arquitetura de Treinamento** | **Paralela** e estritamente independente. | **Sequencial**, cumulativa e adaptativa. |
+| **Tratamento dos Dados** | Reamostragem com reposição (*Bootstrap*) aleatória uniforme. | Reamostragem ponderada: instâncias mal classificadas recebem maior peso no próximo ciclo. |
+| **Foco Matemático no Erro** | **Reduzir a Variância** (combater a tendência ao *overfitting* de modelos complexos). | **Reduzir o Viés** (combater o *underfitting* transformando modelos simples em preditores fortes). |
+| **Estimadores de Base Típicos** | Modelos complexos e profundos com baixo viés e alta variância (ex.: árvores de decisão não podadas). | Estimadores fracos e rasos intencionalmente simples (ex.: árvores de profundidade 1 a 3, chamadas *decision stumps*). |
+| **Agregação Final** | Média aritmética simples (em regressão) ou voto da maioria (em classificação). | Combinação linear ponderada pela performance de cada modelo fraco no histórico. |
+| **Algoritmos Canônicos** | **Random Forest**, Extra Trees. | **AdaBoost, Gradient Boosting, XGBoost, LightGBM, CatBoost**. |
 
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A FCC frequentemente tenta inverter os objetivos do Bagging e do Boosting:
-> - O **Random Forest (Bagging)** treina árvores completas e profundas em **paralelo** em subconjuntos aleatórios de dados e de *features* (*feature subsampling*), visando derrubar a **variância** do modelo!
-> - O **Boosting** treina estimadores fracos em **série sequencial**, onde cada modelo subsequente foca em **minimizar os erros residuais** dos modelos que o antecederam, atuando precipuamente na redução do **viés**!
+> ⚠️ **Alerta de Prova (FCC):**
+> A FCC adora inverter os papéis do Bagging e do Boosting em questões de TI e Ciência de Dados:
+> 1. No **Random Forest (Bagging)**, as árvores são geradas em **paralelo**. Além do bootstrap nas linhas, o algoritmo sorteia aleatoriamente um subconjunto de variáveis (*feature subsampling*, comumente $\sqrt{p}$) na divisão de cada nó. Isso descorrelaciona as árvores e derruba a **variância**.
+> 2. No **Boosting**, as árvores são geradas em **série sequencial**, onde cada árvore aprende a prever os **resíduos/erros** gerados pelo somatório das anteriores, reduzindo drasticamente o **viés**.
 
-```mermaid
-flowchart TD
-    subgraph BaggingFlow["Bagging (ex.: Random Forest) - Treino em Paralelo"]
-        D1["Dataset Original"] --> B1["Amostra Bootstrap 1"] --> T1["Árvore Profunda 1"]
-        D1 --> B2["Amostra Bootstrap 2"] --> T2["Árvore Profunda 2"]
-        D1 --> B3["Amostra Bootstrap N"] --> T3["Árvore Profunda N"]
-        T1 & T2 & T3 --> Voto["Votação Majoritária / Média"]
-    end
-    
-    subgraph BoostingFlow["Boosting (ex.: XGBoost) - Treino em Sequência"]
-        D2["Dataset"] --> M1["Modelo Fraco 1"] --> E1["Calcula Erros / Resíduos"]
-        E1 --> M2["Modelo Fraco 2 (Foco nos Resíduos)"] --> E2["Novos Resíduos"]
-        E2 --> M3["Modelo Fraco N (Refinamento)"] --> Soma["Soma Ponderada Final"]
-    end
+### 2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)
+
+Quando a variável de saída $y$ é contínua (ex.: estimativa do valor de sobrepreço em obras públicas), emprega-se a **Regressão**.
+O método clássico dos **Mínimos Quadrados Ordinários (OLS - *Ordinary Least Squares*)** minimiza o Erro Quadrático Médio ($\text{MSE}$). Em bases com dezenas ou centenas de variáveis multicolineares, o OLS produz coeficientes com variância gigante e sobreajuste.
+
+Para estabilizar o modelo, adiciona-se uma penalidade matemática $\lambda \cdot \Omega(\mathbf{w})$ à função de perda:
+
+```
+[Geometria das Restrições de Regularização]
+     Penalidade L2 (Ridge)                      Penalidade L1 (Lasso)
+             w2                                         w2
+             ▲                                          ▲
+          ┌──┴──┐                                       /\
+         /   │   \                                     /  \
+        │────┼────│ w1                                /────┼────\ w1
+         \   │   /                                     \  /
+          └──┬──┘                                       \/
+             ▼                                          ▼
+   (Esfera lisa: encolhe coeficientes         (Losango pontiagudo nos eixos:
+    sem zerar rigorosamente nenhum)             zera coeficientes irrelevantes)
 ```
 
-#### C) Regressão e Técnicas de Regularização
-Na regressão, a variável de resposta $y$ é contínua. O modelo de Regressão Linear Clássico minimiza a soma dos quadrados dos resíduos pelo método de Mínimos Quadrados Ordinários (OLS - *Ordinary Least Squares*). Quando o número de variáveis é elevado ou há alta colinearidade entre preditores, o OLS sofre de instabilidade numérica e sobreajuste. A regularização adiciona um termo de penalidade à função de perda:
-
-$$\mathcal{L}_{\text{regularizada}} = \text{MSE} + \lambda \cdot \Omega(w)$$
-
-| Técnica | Penalidade $\Omega(w)$ | Propriedades Matemáticas | Comportamento dos Coeficientes |
-| :--- | :--- | :--- | :--- |
-| **Ridge Regression** | Norma $L_2$: $\sum_{j=1}^{p} w_j^2$ | Diferenciável em zero; penaliza coeficientes proporcionalmente à sua magnitude ao quadrado. | **Encolhe** (*shrinks*) os coeficientes em direção a zero, mas **nunca zera nenhum estritamente**. Excelente contra multicolinearidade. |
-| **Lasso Regression** | Norma $L_1$: $\sum_{j=1}^{p} |w_j|$ | Não diferenciável na origem ($w=0$); geometria pontiaguda nos eixos coordenados. | Força coeficientes irrelevantes a se tornarem **exatamente zero**. Realiza **seleção automática de atributos** (*feature selection*) gerando modelos esparsos. |
-| **Elastic Net** | Combinação convexa: $\alpha L_1 + (1-\alpha) L_2$ | Une a esparsidade do Lasso com a estabilidade do Ridge para grupos de variáveis correlacionadas. | Seleciona variáveis mantendo grupos de preditores fortemente correlacionados juntos. |
+1. **Regressão Ridge (Penalidade com Norma $L_2$):**
+   - Adiciona a soma dos quadrados dos coeficientes:
+     $$\mathcal{L}_{\text{Ridge}} = \text{MSE} + \lambda \sum_{j=1}^{p} w_j^2$$
+   - Por ser suave e esférica, a penalidade $L_2$ **encolhe (*shrinks*) continuamente a magnitude dos coeficientes** em direção a zero à medida que $\lambda$ cresce, **mas nunca força nenhum coeficiente a se tornar rigorosamente zero**. Excelente para mitigar multicolinearidade severa.
+2. **Regressão Lasso (*Least Absolute Shrinkage and Selection Operator* - Norma $L_1$):**
+   - Adiciona a soma dos valores absolutos dos coeficientes:
+     $$\mathcal{L}_{\text{Lasso}} = \text{MSE} + \lambda \sum_{j=1}^{p} |w_j|$$
+   - Devido aos vértices pontiagudos nos eixos da geometria em losango da norma $L_1$, a solução de custo mínimo toca os eixos cartesianos, **forçando coeficientes irrelevantes a se tornarem EXATAMENTE ZERO**.
+   - O Lasso executa simultaneamente contração e **seleção automática de atributos (*feature selection*)**, produzindo modelos parcimoniosos e esparsos.
+3. **Elastic Net:**
+   - Combinação convexa das penalidades $L_1$ e $L_2$:
+     $$\mathcal{L}_{\text{ElasticNet}} = \text{MSE} + \lambda \left[ \alpha \sum_{j=1}^{p} |w_j| + \frac{1-\alpha}{2} \sum_{j=1}^{p} w_j^2 \right]$$
+   - Une a capacidade de gerar modelos esparsos do Lasso com a capacidade do Ridge de manter grupos inteiros de variáveis correlacionadas dentro do modelo.
 
 ---
 
-### 2.2 Aprendizado Não Supervisionado
+## 3. Aprendizado Não Supervisionado e por Reforço
 
-Opera sobre conjuntos de dados sem anotação prévia ou rótulos de classe, descobrindo correlações, agrupamentos naturais ou projeções latentes de baixa dimensionalidade.
+### 3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)
 
-#### A) Algoritmos de Agrupamento (Clustering)
+O agrupamento descobre partições ou morfologias naturais em dados não rotulados:
 
-```mermaid
-flowchart LR
-    subgraph Particionamento["K-MEANS (Partição por Centroides)"]
-        K1["1. Define k Inicial"] --> K2["2. Atribui Pontos ao Centroide Próximo"] --> K3["3. Recalcula Médias"] --> K4{"Convergiu?"}
-        K4 -- Não --> K2
-        K4 -- Sim --> KFim["Fim (Clusters Esféricos)"]
-    end
-```
+1. **K-Means (Agrupamento Particional por Centroides):**
+   - O algoritmo requer a especificação prévia do número de clusters ($k$).
+   - Minimiza a variação intra-cluster somando as distâncias euclidianas quadráticas dos pontos até o centroide correspondente (**Inércia** ou WCSS):
+     $$\text{WCSS} = \sum_{k=1}^{K} \sum_{\mathbf{x}_i \in C_k} \|\mathbf{x}_i - \boldsymbol{\mu}_k\|^2$$
+   - O número ideal $k$ é avaliado visualmente pelo **Método do Cotovelo (*Elbow Method*)** ou pelo **Coeficiente de Silhueta** (que oscila entre $-1$ e $+1$).
+   - *Limitações Clássicas:* Assume que todos os clusters são convexos e esféricos com variâncias semelhantes. Falha completamente na identificação de formatos orgânicos alongados e atribui compulsoriamente todo ponto a algum cluster, sendo muito sensível a *outliers*.
 
-```mermaid
-flowchart LR
-    subgraph Densidade["DBSCAN (Agrupamento por Densidade de Aplicações)"]
-        D1["1. Parâmetros: Raio eps e MinPts"] --> D2["2. Identifica Pontos Núcleo (Core Points)"] --> D3["3. Expande Regiões Densas"] --> D4["4. Isola Ruídos e Outliers"]
-    end
-```
+2. **DBSCAN (*Density-Based Spatial Clustering of Applications with Noise*):**
+   - Agrupa os dados com base na **densidade espacial local**, orientando-se por dois parâmetros: raio de vizinhança ($\varepsilon$) e número mínimo de pontos (*min_samples*).
+   - Tipologia dos pontos:
+     - *Ponto Núcleo (Core Point):* Possui pelo menos *min_samples* pontos em seu raio $\varepsilon$.
+     - *Ponto de Borda (Border Point):* Não é núcleo, mas situa-se no raio $\varepsilon$ de um núcleo.
+     - *Ruído / Outlier (Noise):* Não é núcleo nem borda (cai em regiões de baixa densidade).
+   - *Vantagens Essenciais:* **Não requer a definição prévia da quantidade de grupos ($k$)**, detecta agrupamentos de **formatos geométricos arbitrários e não convexos** e **isola explicitamente ruídos e anomalias**, constituindo o algoritmo perfeito para detecção de fraudes em auditorias de controle externo.
 
-- **K-Means:**
-  - Minimiza a variação intra-cluster (soma dos quadrados intra-cluster - WCSS, também chamada de inércia):
-    $\text{WCSS} = \sum_{k=1}^{K} \sum_{x_i \in C_k} ||x_i - \mu_k||^2$
-  - Exige a definição explícita prévia do número de grupos $k$. O valor ótimo de $k$ costuma ser determinado empiricamente pelo **Método do Cotovelo** (*Elbow Method*) ou pelo **Coeficiente de Silhueta** (que varia de $-1$ a $+1$).
-  - Limitações: Assume clusters convexos (esféricos) e de variância similar; altamente sensível à inicialização de centroides (mitigado pelo *K-Means++*) e à presença de *outliers*.
-- **DBSCAN (Density-Based Spatial Clustering of Applications with Noise):**
-  - Baseia-se na densidade local de pontos delimitada por dois hiperparâmetros fundamentais: $\varepsilon$ (*eps*, distância máxima de vizinhança) e *min_samples* (número mínimo de vizinhos em um raio $\varepsilon$).
-  - Classificação dos pontos:
-    1. **Ponto Núcleo (Core Point):** Possui pelo menos *min_samples* vizinhos em sua vizinhança $\varepsilon$.
-    2. **Ponto de Borda (Border Point):** Não é núcleo, mas está na vizinhança $\varepsilon$ de um ponto núcleo.
-    3. **Ruído / Anomalia (Noise / Outlier):** Não é núcleo nem borda; cai em regiões de baixa densidade.
-  - Vantagens capitais: **Não requer definição prévia de $k$**, detecta agrupamentos com geometrias arbitrárias/alongadas e classifica dados isolados explicitamente como **ruído**, sendo amplamente utilizado para detecção de fraudes.
-- **Agrupamento Hierárquico:**
-  - Gera uma árvore de agrupamentos denominada **Dendrograma**.
-  - Abordagem **Aglomerativa** (*bottom-up*): cada ponto inicia como um cluster unitário e pares são fundidos iterativamente.
-  - Abordagem **Divisiva** (*top-down*): todos os pontos iniciam em um único cluster global que é iterativamente biparticionado.
-  - Métodos de ligação (*linkage*): *Single* (distância mínima), *Complete* (distância máxima), *Average* (distância média) e *Ward* (minimiza o aumento da variância total interna).
+3. **Agrupamento Hierárquico (*Hierarchical Clustering*):**
+   - Gera uma representação em árvore taxonômica denominada **Dendrograma**.
+   - Abordagem **Aglomerativa (*Bottom-up*)**: Cada ponto inicia como seu próprio cluster e pares mais próximos são progressivamente fundidos.
+   - Métodos de Ligação (*Linkage*): *Single* (distância mínima entre membros, suscetível ao efeito de encadeamento /*chaining*), *Complete* (distância máxima), *Average* (distância média) e *Ward* (minimiza o incremento da variância total interna).
 
-#### B) Redução de Dimensionalidade
-- **PCA (Principal Component Analysis - Análise de Componentes Principais):**
-  - Técnica **linear e não supervisionada** que projeta os dados em um novo sistema de eixos ortogonais não correlacionados denominados **Componentes Principais**.
-  - O primeiro componente principal captura a direção de **máxima variância** dos dados; o segundo componente captura a segunda maior variância sujeito à restrição de ortogonalidade em relação ao primeiro, e assim por diante.
-  - Baseia-se na decomposição espectral (autovalores e autovetores) da matriz de covariância dos dados padronizados ou em decomposição em valores singulares (SVD).
-- **t-SNE (t-Distributed Stochastic Neighbor Embedding) e UMAP (Uniform Manifold Approximation and Projection):**
-  - Técnicas **não lineares** projetadas primordialmente para redução de alta dimensionalidade para 2D ou 3D com a finalidade de visualização. Preservam com rigor as estruturas de vizinhança local entre as instâncias.
+### 3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)
+
+Reduz a quantidade de preditores de um dataset volumoso preservando a maior quantidade possível de variância estatística ou vizinhança:
+- **PCA (*Principal Component Analysis*):**
+  - Técnica estatística **linear e não supervisionada** que transforma as variáveis originais em um novo conjunto de variáveis não correlacionadas denominadas **Componentes Principais (PCs)**.
+  - O primeiro componente principal captura a direção de **máxima variância** dos dados; o segundo componente captura a segunda maior variância sob a restrição de ser rigorosamente **ortogonal** ao primeiro, e assim por diante.
+  - Obtido computacionalmente através da **decomposição espectral (autovalores e autovetores)** da matriz de covariância dos dados padronizados ou por decomposição em valores singulares (SVD).
+- **t-SNE e UMAP:**
+  - Métodos **não lineares** dedicados prioritariamente à projeção de espaços de centenas de dimensões em espaços de 2D ou 3D para inspeção visual humana, preservando topologias de vizinhança local.
+
+### 3.3 Aprendizado por Reforço (Reinforcement Learning)
+
+Um **Agente** aprende a tomar decisões sequenciais ideais através de tentativa e erro, interagindo iterativamente com um **Ambiente** dinâmico:
+- Formalizado matematicamente por um **Processo de Decisão de Markov (MDP)**, representado pela 5-tupla $(S, A, P, R, \gamma)$.
+- A cada instante $t$, o agente observa o estado $S_t$, executa uma ação $A_t$ orientada por sua política $\pi(a|s)$, recebe uma recompensa escalar imediata $R_{t+1}$ e transiciona para o novo estado $S_{t+1}$.
+- O objetivo é aprender uma política ótima que maximize o retorno cumulativo descontado no longo prazo ($G_t = \sum_{k=0}^{\infty} \gamma^k R_{t+k+1}$), governado pela **Equação de Bellman**.
+- **Dilema Exploração vs. Explotação (*Exploration vs. Exploitation*):** O agente deve arbitrar entre descobrir ações inéditas (*exploration*) para colher melhores recompensas futuras e executar as ações que já provaram ser eficazes (*exploitation*).
+- **Q-Learning:** Algoritmo clássico de aprendizado por diferença temporal, classificado como *model-free* e *off-policy*, que atualiza recursivamente os valores $Q(s, a)$ da função de valor ação-estado.
 
 ---
 
-### 2.3 Aprendizado por Reforço (Reinforcement Learning)
+## 4. Redes Neurais Artificiais e Deep Learning
 
-No Aprendizado por Reforço, um **Agente** interage ativamente com um **Ambiente** estocástico ao longo do tempo discreto $t = 0, 1, 2, \dots$. A cada passo, o agente observa um **Estado** $S_t$, executa uma **Ação** $A_t$ e recebe uma **Recompensa** escalar $R_{t+1}$, transicionando para o próximo estado $S_{t+1}$.
+O Aprendizado Profundo (*Deep Learning*) fundamenta-se em arquiteturas com múltiplas camadas ocultas empilhadas capazes de extrair representações hierárquicas e abstratas de dados não estruturados de ponta a ponta (*end-to-end*).
 
-```mermaid
-sequenceDiagram
-    autonumber
-    participant Agente
-    participant Ambiente
-    Ambiente->>Agente: Envia Estado Atual (S_t) e Recompensa (R_t)
-    Agente->>Agente: Seleciona Ação (A_t) conforme Política π(a|s)
-    Agente->>Ambiente: Executa Ação (A_t)
-    Ambiente->>Ambiente: Transição de Estado estocástica
-    Ambiente->>Agente: Retorna Novo Estado (S_t+1) e Recompensa (R_t+1)
-```
+### 4.1 Perceptron, Limitações Lineares e Redes Multicamadas (MLP)
 
-- **Formalismo Matemático:** Processo de Decisão de Markov (MDP), formalizado pela 5-tupla $(S, A, P, R, \gamma)$, onde $\gamma \in [0, 1)$ é o fator de desconto temporal de recompensas futuras.
-- **Função de Valor e Equação de Bellman:** O objetivo do agente é aprender uma **Política** $\pi(a|s)$ ótima que maximize o retorno acumulado descontado esperado:
-  $Q^*(s, a) = R(s, a) + \gamma \sum_{s'} P(s'|s, a) \max_{a'} Q^*(s', a')$
-- **Dilema Exploração vs. Explotação (Exploration vs. Exploitation):** O agente deve balancear o ato de explorar ações inéditas para descobrir recompensas potencialmente maiores (*exploration*) e o ato de executar a melhor ação já conhecida para garantir pontuação (*exploitation*). Estratégia típica: política $\varepsilon$-greedy.
-- **Q-Learning:** Algoritmo clássico de aprendizado por diferença temporal (*Temporal Difference*) classificado como **off-policy** e livre de modelo (*model-free*), que atualiza iterativamente uma tabela de valores $Q(s, a)$.
+* **O Neurônio Artificial (Perceptron de Rosenblatt - 1958):**
+  Calcula a soma ponderada de suas entradas multiplicadas pelos pesos sinápticos, soma um coeficiente linear de ajuste (**bias** $b$) e submete o resultado a uma função de ativação:
+  $$z = \sum_{i=1}^{m} w_i x_i + b = \mathbf{w}^T \mathbf{x} + b, \quad \hat{y} = f(z)$$
+  Em 1969, Marvin Minsky e Seymour Papert demonstraram matematicamente que o Perceptron de camada única só é capaz de resolver funções linearmente separáveis, sendo **completamente incapaz de resolver o problema do OU-Exclusivo (XOR)**.
+* **Perceptron Multicamadas (MLP - *Multilayer Perceptron*):**
+  A introdução de uma ou mais **camadas ocultas (*hidden layers*)** com **funções de ativação não lineares** resolveu essa limitação histórica. Segundo o **Teorema da Aproximação Universal** (Cybenko, 1989 / Hornik, 1991), uma rede MLP feedforward com uma única camada oculta contendo uma quantidade finita de neurônios não lineares é capaz de aproximar qualquer função contínua arbitrária com precisão pré-estabelecida.
 
----
+### 4.2 Funções de Ativação Não Lineares e suas Patologias
 
-### 3. Redes Neurais Artificiais e Deep Learning
+As funções de ativação inserem a não linearidade necessária para que o empilhamento de camadas neurais não colapse matematicamente em uma única transformação afim linear:
 
-#### 3.1 O Neurônio Artificial (Perceptron)
-Concebido por Frank Rosenblatt (1958), o Perceptron realiza o produto escalar entre o vetor de entradas $x = [x_1, x_2, \dots, x_m]$ e o vetor de pesos sinápticos $w = [w_1, w_2, \dots, w_m]$, adicionando um termo linear de viés (*bias* $b$), passando a soma por uma função de ativação $f$:
-
-$$z = \sum_{i=1}^{m} w_i x_i + b = w^T x + b, \quad \hat{y} = f(z)$$
-
-O Perceptron simples só é capaz de resolver problemas linearmente separáveis, falhando na resolução de operações lógicas elementares não lineares como o **XOR** (Exclusive OR), limitação formalmente comprovada por Minsky e Papert em 1969.
-
-```mermaid
-flowchart LR
-    X1["x_1"] -- "w_1" --> Soma(("Σ (Soma Ponderada) <br/> w^T x + b"))
-    X2["x_2"] -- "w_2" --> Soma
-    XN["x_m"] -- "w_m" --> Soma
-    B["Bias (b)"] -- "1" --> Soma
-    Soma --> Ativ["Função de Ativação f(z)"] --> Y["Saída (ŷ)"]
-```
-
-#### 3.2 Redes Multicamadas (MLP - Multilayer Perceptron)
-Ao intercalar camadas ocultas (*hidden layers*) dotadas de funções de ativação **não lineares** entre a camada de entrada e a camada de saída, as MLPs tornam-se capazes de aproximar qualquer função contínua arbitrária (Teorema da Aproximação Universal de Cybenko e Hornik).
-
-#### 3.3 Funções de Ativação Não Lineares
-
-```mermaid
-flowchart TD
-    subgraph Ativacoes["Principais Funções de Ativação"]
-        Sig["Sigmoide: σ(z) = 1 / (1 + e^-z)<br/>Saída: (0, 1) | Sofre Vanishing Gradient"]
-        Tanh["Tanh: tanh(z)<br/>Saída: (-1, 1) | Centrada no zero"]
-        ReLU["ReLU: max(0, z)<br/>Saída: [0, +inf) | Padrão ouro, veloz"]
-        Softmax["Softmax: e^z_i / Σ e^z_j<br/>Saída: Probabilidades [0, 1] cuja soma = 1"]
-    end
-```
-
-| Função de Ativação | Expressão Matemática | Faixa de Saída (*Range*) | Vantagens | Desvantagens / Patologias |
+| Função de Ativação | Fórmula Matemática | Faixa de Saída (*Range*) | Características Operacionais | Patologia Crítica / Cuidados de Projeto |
 | :--- | :--- | :--- | :--- | :--- |
-| **Sigmoide** | $\sigma(z) = \frac{1}{1 + e^{-z}}$ | $(0, 1)$ | Interpretação probabilística direta para classificação binária. | Satura para valores extremos ($|z| \gg 0$), provocando **desvanecimento do gradiente** (*vanishing gradient*); saída não centrada em zero. |
-| **Tangente Hiperbólica (tanh)** | $\tanh(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}}$ | $(-1, 1)$ | Saída **centrada em zero**, facilitando a convergência do gradiente em comparação à sigmoide. | Também satura nas caudas e sofre de desvanecimento de gradientes em redes profundas. |
-| **ReLU (Rectified Linear Unit)** | $f(z) = \max(0, z)$ | $[0, +\infty)$ | Não satura para valores positivos; gradiente constante ($=1$ para $z>0$); cálculo computacionalmente ultrarrápido; padrão ouro em camadas ocultas. | Problema do neurônio morto (*Dying ReLU*): se $z \le 0$, o neurônio emite saída zero e gradiente zero, podendo nunca mais se recuperar no treino. |
-| **Softmax** | $\text{Softmax}(z)_i = \frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}}$ | $(0, 1)$, com $\sum_{i=1}^K \text{Softmax}(z)_i = 1$ | Converte o vetor de números reais não normalizados (*logits*) em uma **distribuição de probabilidade categórica bem definida**. | Utilizada quase que **exclusivamente na camada de saída** em tarefas de classificação multiclasse mutualmente exclusivas. |
+| **Sigmoide** | $\sigma(z) = \frac{1}{1 + e^{-z}}$ | $(0, 1)$ | Saída probabilística interpretável; curva em formato de "S". | Sofre com a **Saturação e Desvanecimento do Gradiente (*Vanishing Gradient*)**: quando $|z|$ é grande, sua derivada tende a zero, anulando a atualização das camadas iniciais. Saída não é centrada em zero. |
+| **Tangente Hiperbólica (tanh)** | $\tanh(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}}$ | $(-1, 1)$ | Saída **centrada em zero**, o que acelera a convergência dos gradientes em comparação à sigmoide. | Também satura nas caudas e sofre de desvanecimento de gradientes em redes profundas. |
+| **ReLU (*Rectified Linear Unit*)** | $f(z) = \max(0, z)$ | $[0, +\infty)$ | **Padrão da indústria para camadas ocultas**. Não satura para valores positivos ($z > 0$, onde a derivada é $1$), permitindo treinar redes profundas rapidamente sem vanishing gradient. | **Problema do Neurônio Morto (*Dying ReLU*)**: se uma entrada $z \le 0$, tanto a saída quanto a derivada tornam-se zero. Um neurônio empurrado para essa região inerte pode nunca mais atualizar seus pesos. |
+| **Softmax** | $\sigma(\mathbf{z})_i = \frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}}$ | $(0, 1)$, $\sum \sigma_i = 1$ | Converte o vetor de valores reais brutos (*logits*) em uma **distribuição de probabilidades normalizada**. | **Exclusiva da camada de saída** em problemas de classificação multiclasse mutualmente exclusivos. **Nunca deve ser usada em camadas ocultas intermediárias**. |
 
-> ⭐ **IMPORTANTE / REGRA DE OURO:**  
-> A função **Softmax** nunca deve ser utilizada como função de ativação em camadas ocultas intermediárias. Ela pertence à **camada de saída** de problemas de classificação multiclasse. Para camadas ocultas em Deep Learning contemporâneo, a escolha primária padrão é a família **ReLU** (ReLU, Leaky ReLU, Parametric ReLU ou GeLU).
+### 4.3 Treinamento: Backpropagation, Gradiente Descendente e Otimizadores
 
-#### 3.4 Treinamento, Otimização e Regularização
+O ciclo de aprendizado de redes profundas articula quatro etapas fundamentais:
+1. **Propagação Direta (*Forward Pass*):** Os dados avançam pelas camadas da rede até produzir uma saída predita $\hat{y}$, que é comparada ao rótulo real $y$ através de uma **Função de Perda** ($\mathcal{L}$).
+   - Regressão: $\text{MSE} = \frac{1}{n} \sum (y - \hat{y})^2$.
+   - Classificação Binária: Entropia Cruzada Binária ($\text{Log-Loss}$).
+   - Classificação Multiclasse: Entropia Cruzada Categórica ($-\sum y_i \log \hat{y}_i$).
+2. **Retropropagação (*Backpropagation*):** Algoritmo que calcula analiticamente o vetor de derivadas parciais da perda em relação a cada peso de cada camada ($\frac{\partial \mathcal{L}}{\partial w}$), partindo da camada final em direção à camada inicial através da aplicação estrita da **Regra da Cadeia (*Chain Rule*)** do cálculo multivariável.
+3. **Otimizadores de Atualização de Pesos:**
+   - *Gradiente Descendente Estocástico (SGD):* Atualiza pesos por amostra ou minilote (*mini-batch*): $w \leftarrow w - \eta \nabla \mathcal{L}$.
+   - *Momentum:* Adiciona uma fração inercial da velocidade anterior, amortecendo oscilações e acelerando o escape de platôs e mínimos locais rasos.
+   - *RMSprop:* Ajusta a taxa de aprendizado dinamicamente com base na raiz da média móvel quadrática dos gradientes recentes.
+   - *Adam (*Adaptive Moment Estimation*):* Combina os benefícios do **Momentum** (primeiro momento dos gradientes) e do **RMSprop** (segundo momento não-centrado dos gradientes). É o otimizador padrão mais utilizado no estado da arte.
+4. **Técnicas de Regularização em Deep Learning:**
+   - *Dropout:* Desativa aleatoriamente uma porcentagem fixada de neurônios (ex.: 20% a 50%) a cada iteração do treinamento, impedindo a coadaptação espúria entre nós vizinhos.
+   - *Batch Normalization:* Normaliza as ativações de cada minilote para média zero e variância unitária, estabilizando e acelerando a convergência.
+   - *Early Stopping:* Interrompe o treinamento quando o erro no conjunto de validação começa a subir consecutivamente, evitando o *overfitting*.
 
-O treinamento de uma rede neural profunda ocorre em duas etapas complementares coordenadas:
-1. **Passo Direto (Forward Pass):** Os dados fluem da entrada pelas camadas intermediárias até a saída, onde a predição $\hat{y}$ é comparada ao rótulo real $y$ através de uma **Função de Perda** ($\mathcal{L}$).
-   - Para Regressão: Erro Quadrático Médio ($\text{MSE} = \frac{1}{n}\sum(y - \hat{y})^2$).
-   - Para Classificação Binária: Entropia Cruzada Binária ($\text{BCE} = - [y \log \hat{y} + (1-y)\log(1-\hat{y})]$).
-   - Para Classificação Multiclasse: Entropia Cruzada Categórica ($\text{CCE} = - \sum y_i \log \hat{y}_i$).
-2. **Retropropagação (Backpropagation):** Algoritmo que calcula as derivadas parciais da perda em relação a cada peso e viés da rede ($\frac{\partial \mathcal{L}}{\partial w}$), propagando os erros da camada final de volta para as camadas iniciais através da aplicação rigorosa da **Regra da Cadeia** do cálculo diferencial.
-3. **Atualização dos Pesos (Gradiente Descendente):** Os pesos são atualizados no sentido oposto ao vetor gradiente para minimizar a perda:
-   $w \leftarrow w - \eta \cdot \frac{\partial \mathcal{L}}{\partial w}$
-   onde $\eta$ é a **taxa de aprendizado** (*learning rate*).
+### 4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers
 
-```mermaid
-flowchart LR
-    A["Forward Pass: Entrada -> Camadas Ocultas -> Saída"] --> B["Cálculo da Perda (Loss Function)"]
-    B --> C["Backpropagation: Cálculo dos Gradientes (Regra da Cadeia)"]
-    C --> D["Otimizador: Atualização dos Pesos (w <- w - η*grad)"]
-    D -.-> A
-```
-
-- **Otimizadores Modernos:**
-  - **SGD (Stochastic Gradient Descent):** Atualiza pesos por amostra individual ou minilote (*mini-batch*); sujeito a oscilações ruidosas.
-  - **Momentum:** Adiciona uma fração da atualização anterior para acelerar em vales de gradiente constante e amortecer oscilações.
-  - **RMSprop:** Ajusta a taxa de aprendizado individual de cada peso dividindo o gradiente pela raiz da média móvel quadrática recente.
-  - **Adam (Adaptive Moment Estimation):** Combina os conceitos de **Momentum** (primeiro momento: média dos gradientes) e **RMSprop** (segundo momento: média dos gradientes ao quadrado). É o otimizador padrão mais utilizado em modelos profundos.
-
-- **Técnicas de Regularização em Deep Learning:**
-  - **Dropout:** Durante o treino, desativa aleatoriamente uma fração $p$ (ex.: $20\%$ a $50\%$) dos neurônios a cada iteração. Evita a coadaptação excessiva entre neurônios vizinhos e atua virtualmente como um *ensemble* de múltiplas sub-redes.
-  - **Normalização em Lote (Batch Normalization):** Normaliza as entradas de cada camada oculta para média zero e variância unitária ao longo do minilote, acelerando o treinamento e estabilizando a propagação de gradientes.
-  - **Parada Antecipada (Early Stopping):** Monitora a perda no conjunto de validação e interrompe o treinamento assim que o erro de validação passa a subir consecutivamente, prevenindo o *overfitting*.
-
-#### 3.5 Arquiteturas Especializadas de Deep Learning
-- **Redes Neurais Convolucionais (CNNs - Convolutional Neural Networks):**
-  - Projetadas especificamente para processamento de matrizes e tensores espaciais (imagens e vídeos).
-  - Componentes essenciais:
-    1. **Camadas Convolucionais:** Aplicam filtros matemáticos (*kernels*) deslizantes que extraem características locais (bordas, texturas, formas geométricas), mantendo a **invariância à translação espacial** e reduzindo drasticamente o número de parâmetros pelo compartilhamento de pesos.
-    2. **Camadas de Pooling (Subamostragem):** Reduzem a resolução espacial das matrizes (*Max Pooling* seleciona o valor máximo; *Average Pooling* calcula a média local), diminuindo a dimensionalidade e tornando a representação robusta a pequenas deformações.
-    3. **Camada Totalmente Conectada (Dense/Fully Connected):** Camada final após o achatamento (*Flatten*) para realizar a classificação definitiva.
-- **Redes Neurais Recorrentes (RNNs) e LSTM / GRU:**
-  - Projetadas para dados sequenciais e séries temporais com dependência cronológica (áudio, texto, previsões temporais).
-  - RNNs convencionais sofrem criticamente com o desvanecimento e explosão do gradiente ao processar sequências longas.
-  - **LSTM (Long Short-Term Memory):** Introduz uma célula de memória interna protegida por portas lógicas não lineares:
-    - *Forget Gate* (Porta de Esquecimento): decide o que descartar da memória antiga.
-    - *Input Gate* (Porta de Entrada): decide quais novas informações registrar.
-    - *Output Gate* (Porta de Saída): decide qual porção do estado da célula será emitida na saída oculta atual.
-  - **GRU (Gated Recurrent Unit):** Variante simplificada da LSTM que combina as portas de esquecimento e entrada em uma única porta de atualização (*update gate*), demandando menor custo computacional.
-- **Transformers:**
-  - Introduzidos no artigo *"Attention Is All You Need"* (Vaswani et al., 2017). Substituíram as RNNs e LSTMs em NLP.
-  - Eliminam completamente a recorrência sequencial em favor de mecanismos de **Autoatenção** (*Self-Attention*) e Atenção Multi-Cabeça (*Multi-Head Attention*).
-  - Permitem paralelização massiva no treinamento de grandes volumes de texto e capturam dependências de longo alcance em documentos extensos sem degradação informacional.
+* **Redes Neurais Convolucionais (CNNs):**
+  - Projetadas especificamente para processar dados estruturados em grades bidimensionais ou tridimensionais (visão computacional, imagens de satélite para fiscalização de obras pelo TCE-GO).
+  - *Convoluções e Kernels:* Filtros matemáticos deslizantes que operam com **compartilhamento de pesos (*weight sharing*)**, capturando características invariantes à translação espacial e reduzindo drasticamente o número total de parâmetros livres.
+  - *Pooling:* Camadas de subamostragem (*Max Pooling* e *Average Pooling*) que reduzem a resolução espacial dos mapas de características, conferindo tolerância a pequenas rotações e deformações geométricas.
+* **Redes Neurais Recorrentes (RNNs) e Células LSTM / GRU:**
+  - Concebidas para dados sequenciais e temporais (textos e séries temporais). Possuem conexões de realimentação que mantêm um estado oculto de memória.
+  - Como as RNNs simples sofrem de desvanecimento de gradientes em dependências longas, utilizam-se células **LSTM (*Long Short-Term Memory*)**, que utilizam portas lógicas governadas por ativações sigmoides:
+    - *Forget Gate:* Seleciona o que descartar da memória antiga.
+    - *Input Gate:* Seleciona quais informações inéditas gravar na célula de estado.
+    - *Output Gate:* Decide qual porção do estado da célula comporá a saída visível.
+* **Arquitetura Transformer (Vaswani et al., 2017):**
+  - Revolucionou o processamento de linguagem natural ao abandonar totalmente a recorrência sequencial em favor de mecanismos de **Autoatenção (*Self-Attention*) e Atenção Multi-Cabeça (*Multi-Head Attention*)**.
+  - Permite o processamento massivamente paralelo de sequências textuais inteiras e modela dependências contextuais de longuíssimo alcance sem sofrer degradação informacional.
 
 ---
 
-## 🌐 Fontes Recomendadas na Internet
+## 5. Questões Comentadas (FCC)
 
-1. [Deep Learning Book (Goodfellow, Bengio & Courville - MIT Press)](https://www.deeplearningbook.org/): Referência bibliográfica definitiva global para a fundamentação teórica de redes profundas, otimização e modelos generativos.
-2. [Scikit-Learn Machine Learning Documentation](https://scikit-learn.org/stable/user_guide.html): Guia oficial documentando minuciosamente algoritmos clássicos de machine learning supervisionado e não supervisionado com implementações em Python.
-3. [CS231n: Deep Learning for Computer Vision (Stanford University)](https://cs231n.github.io/): Notas de aula clássicas de Stanford detalhando a mecânica analítica de redes convolucionais, backpropagation e funções de ativação.
-4. [3Blue1Brown - Neural Networks Series](https://www.3blue1brown.com/topics/neural-networks): Demonstração visual e rigorosa de cálculo multivariável aplicado ao ajuste de pesos via gradiente descendente.
+### Questão 01
+**(FCC - SEFAZ-PE - Auditoria de Tecnologia da Informação)**
+Uma equipe de auditores de dados está implementando modelos de aprendizado de máquina para classificar notas fiscais e declarações fiscais de contribuintes estaduais em duas classes: "Conforme" ou "Potencialmente Fraudulenta". Durante o desenvolvimento, debateu-se a utilização de algoritmos baseados em Comitês de Modelos (*Ensemble Learning*), especificamente comparando o *Random Forest* (baseado em *Bagging*) com o *XGBoost* e *LightGBM* (baseados em *Boosting*).
+Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
+A) O *Random Forest* treina seus estimadores base de maneira estritamente sequencial, focando cada árvore sucessiva na redução do viés do modelo anterior.
+B) O método de *Bagging* treina múltiplos estimadores em paralelo a partir de amostras geradas com reposição (*bootstrap*), tendo como foco matemático primordial a redução da variância do ensemble final sem aumentar substancialmente o seu viés.
+C) Os algoritmos de *Boosting* constroem árvores de decisão profundas e complexas de maneira totalmente independente, utilizando a votação por maioria simples para reduzir a variância.
+D) No *Random Forest*, o processo de amostragem aleatória restringe-se exclusivamente às linhas do dataset, sendo vedada a seleção aleatória de subconjuntos de atributos (*features*) na divisão dos nós.
+E) O *AdaBoost* mantém pesos uniformes e imutáveis para todas as instâncias de treino ao longo de todas as iterações, independentemente de os estimadores anteriores terem classificado o registro corretamente ou não.
 
----
-
-## 📝 Questões Comentadas (Padrão FCC)
-
-### Questão 1 (FCC - Adaptada / SEFAZ - Auditoria de TI - Métodos de Ensemble e Trade-off Viés-Variância)
-Uma equipe de auditores fiscais da Secretaria da Fazenda está desenvolvendo modelos preditivos para classificar notas fiscais eletrônicas em duas categorias: idôneas ou fraudulentas. Para otimizar o desempenho do comitê de modelos, a equipe debate as propriedades teóricas e práticas das técnicas de *Bagging* (como o *Random Forest*) e de *Boosting* (como o *XGBoost* e o *LightGBM*). 
-
-A respeito dos métodos de *Ensemble Learning*, assinale a alternativa correta:
-A) O *Random Forest* emprega o princípio do *Boosting*, treinando árvores de decisão em sequência direta onde cada árvore subsequente foca exclusivamente em reduzir o viés gerado pelas árvores precedentes.  
-B) O *Bagging* constrói múltiplos estimadores em paralelo a partir de amostras geradas com reposição (*bootstrap*), sendo seu principal objetivo matemático a redução da variância do modelo global sem aumentar substancialmente o seu viés.  
-C) Os algoritmos de *Boosting* treinam estimadores de base complexos e profundos de forma estritamente independente e paralela, visando primordialmente diminuir a variância por meio do voto da maioria simples.  
-D) No *Random Forest*, a técnica de amostragem aleatória restringe-se exclusivamente às linhas (instâncias de treino), sendo terminantemente vedada a seleção aleatória de subconjuntos de atributos (*features*) para a divisão dos nós das árvores.  
-E) O *AdaBoost* atribui pesos idênticos e constantes a todas as observações ao longo de todas as iterações de treino, ignorando completamente se uma instância foi classificada de forma correta ou incorreta pelos estimadores anteriores.
-
-> **Gabarito: B**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** O *Random Forest* é um algoritmo baseado no paradigma de **Bagging** (*Bootstrap Aggregating*), e não de *Boosting*. No *Random Forest*, as árvores são construídas de forma **independente e paralela**, visando derrubar a alta variância das árvores individuais profundas.  
-> - **B está CORRETA:** O *Bagging* gera múltiplos subconjuntos de treino mediante amostragem com reposição (*bootstrap*). Cada modelo base (tipicamente uma árvore profunda com baixo viés e alta variância) é treinado em paralelo. A agregação final (média em regressão ou votação em classificação) reduz drasticamente a **variância** do ensemble sem prejudicar o baixo viés conquistado pelas árvores individuais.  
-> - **C está INCORRETA:** O *Boosting* opera de maneira **sequencial (em série)**, e não em paralelo ou independente. Além disso, utiliza estimadores base intencionalmente simples (*weak learners*, como árvores muito rasas chamadas *decision stumps*) e seu objetivo primordial é reduzir o **viés** do modelo acumulado.  
-> - **D está INCORRETA:** Uma das inovações fundamentais do *Random Forest* em relação ao Bagging convencional de árvores é justamente o **subespaço aleatório de atributos** (*feature subsampling*): ao avaliar cada divisão de nó, o algoritmo sorteia aleatoriamente um subconjunto de características (comumente $\sqrt{p}$ para classificação), o que descorrelaciona as árvores geradas e maximiza a redução de variância.  
-> - **E está INCORRETA:** O cerne do *AdaBoost* (*Adaptive Boosting*) é justamente o ajuste adaptativo de pesos das instâncias: as observações que foram **classificadas incorretamente** pelo estimador atual recebem pesos significativamente maiores na próxima iteração, forçando o estimador seguinte a se concentrar nas instâncias mais difíceis.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Quem treina árvores em sequência focando na redução de viés é o **Boosting** (como o AdaBoost ou Gradient Boosting). O *Random Forest* utiliza **Bagging** com treinamento paralelo e independente.
+> - **B)** **Correta.** O **Bagging (*Bootstrap Aggregating*)** gera réplicas de conjuntos de dados via amostragem com reposição (*bootstrap*), ajustando estimadores base em **paralelo**. A agregação das predições de múltiplos modelos descorrelacionados reduz drasticamente a **variância** global do comitê, combatendo o sobreajuste (*overfitting*).
+> - **C)** Incorreta. O *Boosting* opera em **série sequencial** e utiliza estimadores fracos intencionalmente simples (*weak learners / stumps*), atuando precipuamente na redução do **viés**.
+> - **D)** Incorreta. O diferencial determinante do *Random Forest* é a amostragem aleatória de atributos (*feature subsampling*): ao avaliar cada divisão de nó, sorteia-se um subconjunto aleatório de features (tipicamente $\sqrt{p}$), descorrelacionando as árvores.
+> - **E)** Incorreta. O núcleo do *AdaBoost* reside no reponderamento adaptativo: instâncias classificadas com erro na iteração atual recebem **pesos significativamente maiores** no ciclo seguinte.
+> 
+> **Gabarito: B**
 
 ---
 
-### Questão 2 (FCC - Adaptada / Tribunal de Contas - Auditoria de Controle Externo - Agrupamento e Detecção de Fraudes)
-Durante uma auditoria contínua de contratos governamentais, um auditor necessita aplicar técnicas de Aprendizado Não Supervisionado (*Clustering*) para segmentar os pagamentos emitidos e identificar desvios operacionais atípicos. O conjunto de dados apresenta densidades heterogêneas, ruídos espúrios e agrupamentos cujas fronteiras não são convexas (possuem formatos geométricos orgânicos e alongados). Além disso, a auditoria não possui uma estimativa prévia de quantos grupos naturais existem no conjunto de dados.
+### Questão 02
+**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+Em uma auditoria de contratos de obras públicas, um auditor necessita aplicar técnicas de Aprendizado Não Supervisionado (*Clustering*) para segmentar os pagamentos emitidos e detectar desvios operacionais atípicos. O conjunto de dados apresenta geometrias arbitrárias com densidades heterogêneas e a auditoria não possui uma estimativa prévia de quantos grupos naturais existem na base.
+Nesse contexto, o algoritmo mais apropriado para a tarefa e sua fundamentação técnica é o:
+A) K-Means, pois particiona os dados descobrindo clusters de qualquer geometria arbitrária não-esférica sem exigir o valor de $k$ a priori.
+B) PCA, pois é um algoritmo de particionamento estocástico que divide a base em grupos convexos através dos autovetores da matriz de confusão.
+C) DBSCAN, pois identifica agrupamentos baseando-se na densidade local de pontos delimitada por raio e vizinhos mínimos, não exige o fornecimento prévio da quantidade de clusters e classifica dados em regiões rarefeitas explicitamente como ruído (*outliers*).
+D) Regressão Logística, pois dispensa rótulos de classe para traçar a fronteira linear que separa automaticamente anomalias de observações regulares.
+E) Agrupamento Hierárquico Divisivo com ligação simples (*Single Linkage*), pois exige a parametrização de centroides esféricos pré-fixados para evitar o efeito de encadeamento (*chaining*).
 
-Nesse cenário, o algoritmo mais adequado para essa tarefa e sua respectiva justificativa técnica é o:
-A) K-Means, pois particiona os dados garantindo a descoberta exata de grupos de qualquer formato geométrico não esférico, sem exigir a definição do parâmetro $k$ a priori.  
-B) PCA, pois trata-se de um algoritmo de particionamento estocástico que divide a base em grupos convexos através do cálculo direto dos autovetores da matriz de confusão.  
-C) DBSCAN, pois identifica clusters baseando-se na densidade local de pontos delimitada por raio e quantidade mínima de vizinhos, não requer o fornecimento prévio do número de clusters e classifica pontos em regiões rarefeitas explicitamente como ruído (*outliers*).  
-D) Regressão Logística, pois dispensa o uso de rótulos prévios de classe para calcular a fronteira linear que separa automaticamente anomalias de dados regulares.  
-E) Agrupamento Hierárquico Divisivo com método de ligação simples (*Single Linkage*), pois exige obrigatoriamente a definição de centroides esféricos pré-fixados para evitar o efeito de encadeamento (*chaining*).
-
-> **Gabarito: C**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** O *K-Means* possui duas restrições que o inviabilizam no cenário proposto: (1) exige a definição mandatória e antecipada do número de grupos $k$; (2) assume que os grupos são esféricos e de variância similar, falhando completamente na identificação de formatos orgânicos, não convexos ou com geometrias arbitrárias. Além disso, é altamente sensível a ruídos, atribuindo todo e qualquer ponto a algum cluster.  
-> - **B está INCORRETA:** O PCA (*Principal Component Analysis*) não é um algoritmo de agrupamento (*clustering*), mas sim uma técnica de **redução de dimensionalidade linear**. Além disso, o PCA calcula a decomposição espectral da matriz de covariância (ou correlação) dos dados, e não de uma "matriz de confusão" (que pertence à avaliação de modelos supervisionados).  
-> - **C está CORRETA:** O **DBSCAN** (*Density-Based Spatial Clustering of Applications with Noise*) é perfeitamente aderente aos requisitos: utiliza os hiperparâmetros $\varepsilon$ (*raio*) e *min_samples* (*densidade mínima*); **não necessita da especificação prévia do número de grupos**; descobre agrupamentos de geometrias arbitrárias e complexas; e rotula pontos isolados em regiões de baixa densidade diretamente como **ruído** (anomalias/outliers), característica ideal para detecção de fraudes.  
-> - **D está INCORRETA:** A Regressão Logística é um modelo de aprendizado **supervisionado** que exige rigorosamente dados previamente rotulados com classes binárias ou multivariadas para ajustar seus coeficientes.  
-> - **E está INCORRETA:** O agrupamento aglomerativo com ligação simples (*Single Linkage*) sofre severamente do chamado efeito de encadeamento (*chaining effect*), unindo clusters distintos caso haja uma linha tênue de pontos intermediários. Ademais, o agrupamento hierárquico não emprega "centroides esféricos pré-fixados".
-
----
-
-### Questão 3 (FCC - Adaptada / TRT - Analista Judiciário - TI - Redes Neurais e Funções de Ativação)
-Em arquiteturas de Redes Neurais Artificiais profundas (*Deep Learning*), as funções de ativação não lineares são elementos indispensáveis para viabilizar a modelagem de fronteiras complexas e a representação de dados não lineares.
-
-A respeito das funções de ativação e dos fenômenos que ocorrem durante o treinamento de redes neurais multicamadas, assinale a alternativa correta:
-A) A função de ativação ReLU (*Rectified Linear Unit*), definida por $f(z) = \max(0, z)$, resolve inteiramente o desvanecimento de gradientes para valores positivos ($z > 0$), porém pode apresentar o problema do "neurônio morto" (*Dying ReLU*) quando as entradas $z$ são negativas, caso em que o neurônio passa a ter saída e gradiente nulos.  
-B) A função Sigmoide é a escolha recomendada para todas as camadas intermediárias (ocultas) de redes neurais profundas com mais de cinquenta camadas, pois suas derivadas nunca se aproximam de zero, impedindo a ocorrência de *vanishing gradient*.  
-C) A função de ativação *Softmax* pode ser aplicada indistintamente em qualquer camada oculta intermediária de uma rede convolucional para acelerar a convolução de tensores espaciais.  
-D) A função Tangente Hiperbólica ($\tanh$) gera saídas no intervalo estrito de $0$ a $+1$, comportando-se de maneira idêntica à função degrau de Heaviside utilizada no Perceptron clássico de Rosenblatt.  
-E) A retropropagação (*Backpropagation*) dispensa a regra da cadeia e utiliza apenas a média aritmética simples dos erros da camada de saída para atualizar os pesos de todas as camadas ocultas.
-
-> **Gabarito: A**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está CORRETA:** A ReLU ($f(z) = \max(0, z)$) possui derivada constante igual a $1$ para qualquer valor positivo ($z > 0$), eliminando o desvanecimento do gradiente nessa região e viabilizando o treino veloz de redes profundas. Contudo, para valores negativos ($z \le 0$), tanto sua saída quanto seu gradiente tornam-se rigorosamente zero. Se um neurônio for empurrado por um gradiente desfavorável para um estado em que gere saídas negativas para quase todas as amostras do dataset, seus pesos deixarão de ser atualizados, tornando-o um "neurônio inerte/morto" (*Dying ReLU*).  
-> - **B está INCORRETA:** A função Sigmoide sofre exatamente do fenômeno inverso: para valores moderadamente positivos ou negativos de $z$, a curva da sigmoide atinge platôs horizontais onde a derivada $\sigma'(z) = \sigma(z)(1 - \sigma(z))$ converge a valores próximos de zero. Ao multiplicar esses gradientes minúsculos em redes profundas (com várias dezenas de camadas), o gradiente se desvanece (*vanishing gradient*) antes de alcançar as camadas iniciais, inviabilizando o treino.  
-> - **C está INCORRETA:** A função *Softmax* normaliza os valores dos neurônios transformando-os em probabilidades que somam $1$. Sua utilidade destina-se quase que **exclusivamente à camada de saída** em problemas de classificação multiclasse mutualmente exclusivos. Aplicá-la em camadas ocultas intermediárias destrói a dinâmica de representação e impõe um custo computacional desnecessário.  
-> - **D está INCORRETA:** A função Tangente Hiperbólica mapeia os valores reais para o intervalo aberto entre **$-1$ e $+1$** (sendo centrada em zero), e não entre $0$ e $1$. A função com saídas entre $0$ e $1$ é a Sigmoide.  
-> - **E está INCORRETA:** O algoritmo de *Backpropagation* é alicerçado estritamente na **Regra da Cadeia** (*Chain Rule*) do cálculo diferencial multivariável para computar o gradiente analítico da função de perda em relação a cada peso em cada camada da rede neural.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O *K-Means* exige a parametrização prévia e obrigatória do número de clusters ($k$) e assume que os grupos são esféricos e de variâncias semelhantes, falhando em formatos arbitrários.
+> - **B)** Incorreta. O PCA é uma técnica de **redução de dimensionalidade linear**, e não um algoritmo de agrupamento.
+> - **C)** **Correta.** O **DBSCAN (*Density-Based Spatial Clustering of Applications with Noise*)** é sob medida para o problema: utiliza os parâmetros $\varepsilon$ e *min_samples*; **dispensa a definição prévia de $k$**; detecta formas geométricas não convexas e complexas; e isola dados em áreas de baixa densidade classificando-os formalmente como **ruído (*noise/outliers*)**, perfeito para auditoria e detecção de anomalias.
+> - **D)** Incorreta. A Regressão Logística é um modelo de aprendizado **supervisionado** que exige rótulos históricos de classe para treino.
+> - **E)** Incorreta. O método de ligação simples no agrupamento hierárquico é notório justamente por sofrer severamente do efeito de encadeamento (*chaining*), não resolvendo anomalias por centroides esféricos.
+> 
+> **Gabarito: C**
 
 ---
 
-### Questão 4 (FCC - Adaptada / SEFAZ - Auditoria Fiscal - Regularização em Modelos Lineares)
-Um cientista de dados está construindo um modelo de regressão para estimar a arrecadação tributária setorial a partir de duzentas variáveis macroeconômicas e fiscais. Identificou-se que muitas dessas variáveis apresentam correlação entre si e que diversas delas não possuem relevância estatística real para a previsão. O analista deseja utilizar uma técnica de regularização que execute **seleção automática de atributos**, zerando expressamente os coeficientes das variáveis irrelevantes e gerando um modelo parcimonioso e esparso.
+### Questão 03
+**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
+Em arquiteturas de Redes Neurais Artificiais profundas (*Deep Learning*), as funções de ativação não lineares são elementos indispensáveis para viabilizar o aprendizado de fronteiras complexas. A respeito do comportamento dessas funções de ativação e de suas características computacionais, assinale a alternativa correta:
+A) A função de ativação ReLU (*Rectified Linear Unit*), definida por $f(z) = \max(0, z)$, resolve o desvanecimento do gradiente para valores positivos ($z > 0$), porém pode apresentar a patologia do "neurônio morto" (*Dying ReLU*) quando as entradas $z$ são negativas, caso em que o neurônio emite saída e gradiente nulos.
+B) A função Sigmoide é a escolha recomendada para todas as camadas ocultas intermediárias de redes profundas com centenas de camadas, pois suas derivadas nunca se aproximam de zero.
+C) A função de ativação *Softmax* pode ser aplicada indistintamente em qualquer camada oculta intermediária de redes convolucionais para acelerar o cálculo de tensores.
+D) A função Tangente Hiperbólica ($\tanh$) gera valores de saída estritamente limitados ao intervalo de $0$ a $+1$, comportando-se de forma equivalente à função logística sigmoide.
+E) A retropropagação (*Backpropagation*) dispensa a regra da cadeia e utiliza apenas a média aritmética simples dos erros da camada final para atualizar os pesos de todas as camadas.
 
+> **Comentário Detalhado:**
+> - **A)** **Correta.** A função **ReLU** ($f(z) = \max(0, z)$) possui derivada constante igual a $1$ para $z > 0$, prevenindo o desvanecimento de gradiente na região positiva. No entanto, para entradas menores ou iguais a zero ($z \le 0$), sua saída e derivada tornam-se zero. Se um neurônio for levado por gradientes desfavoráveis a um estado de ativação negativo para quase todo o dataset, ele não mais atualizará seus pesos, tornando-se inerte (*Dying ReLU*).
+> - **B)** Incorreta. A Sigmoide satura nas caudas ($|z| \gg 0$) gerando derivadas próximas a zero. Ao encadear dezenas de camadas, o produto sucessivo dessas derivadas zera o gradiente (**vanishing gradient**), inviabilizando o treino das camadas iniciais.
+> - **C)** Incorreta. A função **Softmax** converte saídas em probabilidades categóricas cuja soma resulta em $1$, pertencendo estrita e quase exclusivamente à **camada de saída** de problemas de classificação multiclasse.
+> - **D)** Incorreta. A Tangente Hiperbólica mapeia as entradas para o intervalo **$(-1, +1)$**, sendo centrada em zero, diferentemente da Sigmoide que mapeia para $(0, 1)$.
+> - **E)** Incorreta. O algoritmo de *Backpropagation* fundamenta-se compulsoriamente na **Regra da Cadeia** do cálculo diferencial multivariável.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 04
+**(FCC - SEFAZ-PE - Auditor Fiscal do Tesouro Estadual)**
+Um cientista de dados está desenvolvendo um modelo preditivo de regressão para projetar a arrecadação tributária estadual a partir de duzentas variáveis macroeconômicas. Sabendo que muitas dessas variáveis apresentam alta correlação entre si e que diversas delas não contribuem relevantemente para o poder explicativo do modelo, o analista deseja aplicar uma técnica de regularização que execute **seleção automática de atributos**, forçando expressamente a zero os coeficientes das variáveis irrelevantes para gerar um modelo final esparso e parcimonioso.
 A técnica de modelagem que atende estritamente ao requisito de zerar coeficientes e sua correspondente penalização matemática é:
-A) Regressão Ridge, que utiliza uma penalidade baseada na norma $L_2$ (soma dos quadrados dos coeficientes).  
-B) Mínimos Quadrados Ordinários (OLS), que utiliza a restrição de posto pleno para zerar covariáveis linearmente dependentes.  
-C) Regressão Lasso (*Least Absolute Shrinkage and Selection Operator*), que utiliza uma penalidade baseada na norma $L_1$ (soma dos valores absolutos dos coeficientes).  
-D) Regressão Logística Multinomial com regularização nula, que elimina preditores correlacionados por meio da convergência da matriz Hessiana.  
-E) Análise Discriminante Linear, que zera coeficientes eliminando diretamente autovalores inferiores à unidade.
+A) Regressão Ridge, que utiliza uma penalidade baseada na norma $L_2$ (soma dos quadrados dos coeficientes).
+B) Mínimos Quadrados Ordinários (OLS), que utiliza restrições de posto pleno para anular colinearidades.
+C) Regressão Lasso (*Least Absolute Shrinkage and Selection Operator*), que utiliza uma penalidade baseada na norma $L_1$ (soma dos valores absolutos dos coeficientes).
+D) Regressão Logística com regularização nula, que elimina preditores irrelevantes pelo determinante da matriz Hessiana.
+E) Análise Discriminante Linear, que zera coeficientes descartando autovalores inferiores à unidade.
 
-> **Gabarito: C**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** A Regressão **Ridge** penaliza a função de perda pela soma dos quadrados dos coeficientes (norma $L_2$: $\sum w_j^2$). A geometria da penalidade $L_2$ (esférica/circular suave) encolhe continuamente a magnitude dos coeficientes em direção a zero, mas **nunca força nenhum coeficiente a se tornar exatamente zero**. Logo, o Ridge não realiza seleção de atributos (*feature selection*).  
-> - **B está INCORRETA:** O método OLS tradicional não possui termo de regularização. Quando há variáveis correlacionadas, o OLS pode produzir estimativas com variância altíssima e coeficientes instáveis sem zerar preditores de forma esparsa.  
-> - **C está CORRETA:** A Regressão **Lasso** penaliza a função de perda pela soma dos valores absolutos dos coeficientes (norma $L_1$: $\sum |w_j|$). Devido aos vértices pontiagudos da região de restrição em formato de losango na norma $L_1$, a solução ótima atinge frequentemente os eixos onde certos coeficientes são **rigorosamente iguais a zero**. Dessa forma, o Lasso realiza simultaneamente encolhimento de parâmetros e **seleção de variáveis**, resultando em um modelo esparso ideal para o problema narrado.  
-> - **D está INCORRETA:** A regressão com regularização nula não penaliza nem reduz parâmetros; se houver alta colinearidade, a matriz Hessiana torna-se quase singular (mal condicionada), prejudicando a otimização por métodos de Newton-Raphson.  
-> - **E está INCORRETA:** A Análise Discriminante Linear (LDA) é um modelo supervisionado de classificação e redução de dimensionalidade baseado na razão da dispersão inter-classes e intra-classes, não correspondendo a um modelo de regressão com penalidade esparsa para seleção de variáveis.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. A Regressão **Ridge** utiliza a norma $L_2$ ($\sum w_j^2$). A geometria esférica suave encolhe os coeficientes em direção a zero, mas **nunca zera nenhum estritamente**, não realizando seleção de atributos.
+> - **B)** Incorreta. O método OLS clássico não possui termo de regularização, sofrendo com alta variância e coeficientes instáveis sob multicolinearidade.
+> - **C)** **Correta.** A Regressão **Lasso** adiciona a penalidade com base na norma $L_1$ ($\lambda \sum |w_j|$). Devido aos vértices pontiagudos nos eixos cartesianos da restrição em losango da norma $L_1$, a solução atinge pontos onde os coeficientes tornam-se **rigorosamente iguais a zero**, realizando simultaneamente contração e **seleção automática de variáveis**.
+> - **D)** Incorreta. Modelos sem regularização não eliminam nem zeram coeficientes.
+> - **E)** Incorreta. A Análise Discriminante Linear é um método de classificação/redução dimensional, não um estimador de regressão com penalidade esparsa.
+> 
+> **Gabarito: C**
 
 ---
 
-### Questão 5 (FCC - Adaptada / TRF - Analista Judiciário - Informática - Arquiteturas de Deep Learning)
-No contexto de arquiteturas de Aprendizado Profundo (*Deep Learning*), diferentes redes neurais especializadas foram desenvolvidas para lidar com dados de imagens, dados sequenciais e processamento de linguagem natural.
+### Questão 05
+**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
+No ecossistema de arquiteturas especializadas de Aprendizado Profundo (*Deep Learning*), diversas redes foram desenvolvidas para processar eficientemente imagens, fluxos de áudio e dados textuais sequenciais.
+Sobre as características estruturais dessas arquiteturas, assinale a alternativa correta:
+A) As Redes Neurais Convolucionais (CNNs) utilizam filtros deslizantes com compartilhamento de pesos nas camadas convolucionais, proporcionando invariância à translação espacial e reduzindo substancialmente a quantidade de parâmetros em comparação com redes totalmente conectadas.
+B) As camadas de *Max Pooling* em uma rede convolucional aumentam a resolução espacial das matrizes de características para expandir o número de parâmetros ajustáveis na retropropagação.
+C) As Redes Neurais Recorrentes (RNNs) simples conseguem manter dependências contextuais de longuíssimo prazo sem sofrer atenuação de gradientes, tornando as células LSTM obsoletas.
+D) A arquitetura *Transformer* baseia-se exclusivamente em convoluções bidimensionais causais e descarta inteiramente mecanismos de atenção entre tokens.
+E) As células LSTM (*Long Short-Term Memory*) descartam qualquer tipo de porta reguladora, substituindo todo o fluxo interno por uma única camada Perceptron sem função de ativação.
 
-Sobre as propriedades estruturais dessas arquiteturas, assinale a alternativa correta:
-A) As Redes Neurais Convolucionais (CNNs) utilizam filtros deslizantes com compartilhamento de pesos nas camadas convolucionais, garantindo a extração de padrões espaciais invariantes à translação e reduzindo significativamente a quantidade de parâmetros em comparação com redes totalmente conectadas.  
-B) As camadas de *Max Pooling* em uma rede convolucional aumentam a resolução espacial das matrizes de características para expandir o número de parâmetros ajustáveis na retropropagação.  
-C) As Redes Neurais Recorrentes (RNNs) padrão conseguem reter dependências contextuais de longuíssimo alcance sem sofrer atenuação ou explosão de gradientes, tornando o uso de células LSTM ou GRU completamente obsoleto.  
-D) A arquitetura *Transformer* baseia-se exclusivamente em convoluções bidimensionais com filtros causais e descarta por completo mecanismos de atenção entre tokens.  
-E) As células LSTM (*Long Short-Term Memory*) eliminam qualquer tipo de porta lógica, substituindo todo o fluxo de gradiente por uma única camada densa Perceptron sem função de ativação.
-
-> **Gabarito: A**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está CORRETA:** As **CNNs** foram idealizadas para dados multidimensionais como imagens. O emprego de núcleos convolucionais (*kernels*) que deslizam sobre a imagem com **compartilhamento de pesos** (*weight sharing*) e conexões locais confere a propriedade de **invariância à translação espacial** (um elemento visual como uma assinatura ou carimbo é reconhecido independentemente de sua posição na página) e reduz drasticamente a contagem de parâmetros livres frente a uma rede totalmente conectada (MLP).  
-> - **B está INCORRETA:** O propósito das camadas de pooling (*Max Pooling* ou *Average Pooling*) é realizar a **subamostragem** (*downsampling*), ou seja, **reduzir** as dimensões espaciais (largura e altura) dos mapas de características. Isso diminui a dimensionalidade, atenua o custo computacional e confere tolerância a pequenas rotações e deformações.  
-> - **C está INCORRETA:** As RNNs convencionais sofrem gravemente do problema do **desvanecimento do gradiente** (*vanishing gradient*) decorrente da multiplicação sequencial de matrizes de pesos ao longo de muitas etapas temporais (*Backpropagation Through Time - BPTT*), impedindo a retenção de dependências distantes. Por esse exato motivo, as arquiteturas **LSTM** e **GRU** foram desenvolvidas com mecanismos de portas para mitigar essa deficiência.  
-> - **D está INCORRETA:** A arquitetura *Transformer* (Vaswani et al., 2017) fundamenta-se precipuamente no mecanismo de **Autoatenção** (*Self-Attention / Multi-Head Attention*), abandonando tanto a recorrência sequencial das RNNs quanto as convoluções tradicionais no núcleo de processamento linguístico.  
-> - **E está INCORRETA:** A arquitetura LSTM baseia-se fundamentalmente em **portas reguladoras** (*gates*) controladas por funções sigmoides e tangentes hiperbólicas: a porta de esquecimento (*forget gate*), a porta de entrada (*input gate*) e a porta de saída (*output gate*), que governam a leitura, escrita e retenção na célula de estado de memória.
+> **Comentário Detalhado:**
+> - **A)** **Correta.** As **CNNs** empregam filtros convolucionais deslizantes (*kernels*) que compartilham pesos ao longo de todo o mapa espacial. Isso confere a propriedade fundamental de **invariância à translação espacial** (um padrão como uma assinatura ou trinca em asfalto é reconhecido independentemente de sua posição na imagem) e derruba drasticamente a quantidade de parâmetros livres frente a redes densas (MLP).
+> - **B)** Incorreta. O propósito das camadas de pooling (*Max Pooling* ou *Average Pooling*) é realizar o **downsampling (subamostragem)**, ou seja, **reduzir** a resolução espacial das matrizes para diminuir o custo de processamento e conferir robustez a pequenas deformações.
+> - **C)** Incorreta. As RNNs simples sofrem severamente do problema de **desvanecimento do gradiente** (*vanishing gradient*) em sequências longas. Por esse motivo, as células **LSTM** e **GRU** foram desenvolvidas com portas seletivas para reter dependências contextuais distantes.
+> - **D)** Incorreta. O *Transformer* (Vaswani et al., 2017) fundamenta-se precipuamente no mecanismo de **Autoatenção (*Self-Attention*)**, dispensando tanto convoluções quanto recorrências sequenciais.
+> - **E)** Incorreta. A LSTM baseia-se exatamente em **portas reguladoras não lineares** (*forget gate*, *input gate* e *output gate*), que governam matematicamente a retenção e descarte de dados no fluxo de memória.
+> 
+> **Gabarito: A**

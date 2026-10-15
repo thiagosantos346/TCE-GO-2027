@@ -15,51 +15,28 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-2. Estratégias de Branching e Colaboração em Plataformas Git
-├── 2.1 Modelos e Estratégias de Branching
-│   ├── 2.1.1 Modelo Git Flow (Vincent Driessen):
-│   │   ├── Ramos Permanentes (Long-Lived): `main` (código de produção estável) e `develop` (integração contínua de funcionalidades)
-│   │   ├── Ramos Temporários / Suporte (Short-Lived):
-│   │   │   ├── `feature/*`: Nascem de `develop` e são integrados de volta em `develop`
-│   │   │   ├── `release/*`: Nascem de `develop` (quando o escopo está fechado), recebem correções de homologação e são mesclados em `main` (com tag semântica) E em `develop`
-│   │   │   └── `hotfix/*`: Nascem diretamente de `main` (correção crítica urgente em produção) e são mesclados em `main` (com tag) E em `develop`
-│   │   └── Aplicabilidade: Softwares com ciclos de lançamento formalizados por versão e empacotamento tradicional; menos indicado para CI/CD de múltiplos deploys diários
-│   ├── 2.1.2 Trunk-Based Development (TBD):
-│   │   ├── Filosofia Central: Todos os membros da equipe integram alterações com alta frequência (ao menos diariamente) no ramo principal (`trunk` / `main`)
-│   │   ├── Ramos de Vida Curtíssima (*Short-Lived Feature Branches* - poucas horas a 1 ou 2 dias) ou commits diretos no trunk
-│   │   ├── Prática de Desacoplamento: Feature Flags / Feature Toggles (código em produção desabilitado via configuração lógica)
-│   │   ├── Prática Arquitetural: Branch by Abstraction para refatorações profundas no trunk
-│   │   └── Benefícios: Eliminação do "Merge Hell", suporte pleno à Integração Contínua (CI) e métricas DORA de alta performance
-│   ├── 2.1.3 Modelo GitHub Flow:
-│   │   ├── Princípio: A branch `main` é permanentemente implantável e pronta para produção
-│   │   └── Ciclo: Cria-se branch descritiva a partir de `main` -> Commits frequentes -> Pull Request -> Revisão e testes -> Deploy -> Merge em `main`
-│   └── 2.1.4 Modelo GitLab Flow:
-│       ├── GitLab Flow com Branches de Ambiente (ex.: `main` -> `pre-production` -> `production`)
-│       └── GitLab Flow com Branches de Versão / Release (para suporte a versões retroativas com backport de patches)
-├── 2.2 Estratégias de Integração no Botão de Merge (PR / MR)
-│   ├── 2.2.1 Merge Commit (`git merge --no-ff`): Preserva todos os commits da branch e cria um nó explícito de junção com dois commits pais
-│   ├── 2.2.2 Squash and Merge (`git merge --squash`): Condensa todos os commits intermediários em um único commit atômico no branch de destino
-│   └── 2.2.3 Rebase and Merge (`git rebase`): Reaplica linearmente os commits sobre a ponta do branch de destino sem criar nó de merge (histórico estritamente linear)
-└── 2.3 Governança, Políticas de Proteção e Revisão Colaborativa
-    ├── 2.3.1 Regras de Proteção de Branches (Branch Protection Rules):
-    │   ├── Bloqueio de *Push Direto* e de *Force Push* (`git push --force`) na branch `main`
-    │   ├── Bloqueio de exclusão da branch principal
-    │   ├── Exigência de Aprovação por Pares (mínimo de revisores antes do merge)
-    │   └── Exigência de Aprovação em Verificações de Status do CI (*Required Status Checks*)
-    ├── 2.3.2 Arquivo `CODEOWNERS`: Atribuição mandatória de revisões de código baseada em diretórios ou extensões
-    └── 2.3.3 Diferenças Terminológicas entre Plataformas: GitHub (Pull Request, Actions) vs. GitLab (Merge Request, GitLab CI)
-```
+## 🧭 Sumário
+- [1. Modelos e Estratégias de Branching](#1-modelos-e-estratégias-de-branching)
+  - [1.1 O Modelo Git Flow: Ramos Perenes e Ramos Temporários](#11-o-modelo-git-flow-ramos-perenes-e-ramos-temporários)
+  - [1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction](#12-trunk-based-development-tbd-filosofia-feature-flags-e-branch-by-abstraction)
+  - [1.3 O Modelo GitHub Flow](#13-o-modelo-github-flow)
+  - [1.4 O Modelo GitLab Flow (Ambientes e Versões)](#14-o-modelo-gitlab-flow-ambientes-e-versões)
+  - [1.5 Matriz Comparativa Síntese entre os Modelos de Ramificação](#15-matriz-comparativa-síntese-entre-os-modelos-de-ramificação)
+- [2. Estratégias de Integração e Mesclagem (Merge Commit, Squash e Rebase)](#2-estratégias-de-integração-e-mesclagem-merge-commit-squash-e-rebase)
+  - [2.1 Create a Merge Commit (`git merge --no-ff`)](#21-create-a-merge-commit-git-merge---no-ff)
+  - [2.2 Squash and Merge (`git merge --squash`)](#22-squash-and-merge-git-merge---squash)
+  - [2.3 Rebase and Merge (`git rebase`)](#23-rebase-and-merge-git-rebase)
+- [3. Governança, Regras de Proteção de Branches e `CODEOWNERS`](#3-governança-regras-de-proteção-de-branches-e-codeowners)
+  - [3.1 Regras de Proteção de Branches (Branch Protection Rules)](#31-regras-de-proteção-de-branches-branch-protection-rules)
+  - [3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes](#32-o-arquivo-codeowners-e-revisões-bloqueantes)
+  - [3.3 Comparativo Terminológico e Operacional: GitHub vs. GitLab](#33-comparativo-terminológico-e-operacional-github-vs-gitlab)
+- [4. Questões Comentadas & Prática Padrão FCC](#4-questões-comentadas--prática-padrão-fcc)
 
 ---
 
-## 📖 Resumo Teórico & Pontos-Chave Aprofundados
+## 1. Modelos e Estratégias de Branching
 
-### 1. Modelos de Branching: Git Flow vs. Trunk-Based Development vs. GitHub Flow
-
-A estratégia de ramificação define como os desenvolvedores colaboram e como o código flui desde o rascunho local até a implantação em produção. Escolher o modelo inadequado é a principal causa do chamado *"Merge Hell"* (conflitos massivos e dolorosos ao tentar juntar branches que divergiram por semanas).
+A estratégia de ramificação (*branching strategy*) estabelece as regras e convenções que orientam como desenvolvedores criam branches, integram códigos, isolam novas funcionalidades e estabilizam versões para publicação. A escolha inadequada de um modelo de ramificação é a principal causadora do chamado **"Merge Hell"** — o cenário traumático em que múltiplas branches isoladas divergem por semanas ou meses, acumulando centenas de conflitos de mesclagem de resolução complexa e arriscada.
 
 ```mermaid
 flowchart TD
@@ -84,27 +61,32 @@ flowchart TD
     end
 ```
 
-#### A. Detalhamento do Git Flow
-Criado em 2010 por Vincent Driessen, foi projetado para softwares que seguem lançamentos tradicionais com versionamento semântico rígido (ex.: aplicativos móveis, pacotes de desktop, sistemas com cronograma de entrega fixo).
+### 1.1 O Modelo Git Flow: Ramos Perenes e Ramos Temporários
 
-1. **Ramos Perenes (Long-Lived Branches):**
-   - `main` (ou `master`): Contém estritamente o código que está rodando em produção. Cada commit na `main` representa uma nova versão e deve ser anotado com uma *Git Tag* (ex.: `v1.0.0`).
-   - `develop`: Contém o código integrado com as funcionalidades mais recentes já aprovadas para o próximo lançamento planejado.
-2. **Ramos Temporários (Supporting / Short-Lived Branches):**
-   - `feature/*`: Nascem **a partir de `develop`** e retornam obrigatoriamente para **`develop`**. Servem para desenvolver novas funcionalidades.
-   - `release/*`: Nascem **a partir de `develop`** quando todas as funcionalidades planejadas estão concluídas. Durante a existência da branch de release, apenas correções de bugs de homologação, ajustes de documentação e geração de metadados de versão são permitidos. Quando finalizada, é mesclada na **`main`** (com tag) E de volta na **`develop`**.
-   - `hotfix/*`: Nascem **diretamente de `main`** para solucionar incidentes críticos que não podem esperar o próximo ciclo de release. Ao ser concluída, é mesclada na **`main`** E também na **`develop`** (para garantir que o próximo release não reintroduza o bug corrigido).
+Formalizado por Vincent Driessen em 2010, o **Git Flow** foi concebido para produtos de software que operam com ciclos de lançamento formais e programados com versionamento semântico estrito (como distribuições empacotadas para desktop, aplicativos de smartphone em lojas de apps e sistemas legados com janelas mensais ou trimestrais de homologação).
+
+O Git Flow define rigorosamente duas categorias de branches:
+
+#### 1. Ramos Perenes (Long-Lived Branches)
+Permanecem ativos durante todo o ciclo de vida do repositório:
+- **`main` (ou `master`):** Armazena exclusivamente o código em estado de prontidão para produção ou que já está rodando nos servidores produtivos. Cada commit na branch `main` representa um release oficial de software e deve ser compulsoriamente etiquetado com uma tag semântica (ex.: `v1.0.0`, `v1.1.0`).
+- **`develop`:** Atua como o ramo integrador do trabalho contínuo de desenvolvimento. Reúne as funcionalidades concluídas e testadas que comporão o próximo lançamento planejado.
+
+#### 2. Ramos Temporários de Suporte (Short-Lived / Supporting Branches)
+Possuem ciclo de vida efêmero e regras rígidas de derivação e mesclagem:
+- **`feature/*`:** Nascem **exclusivamente a partir de `develop`** e realizam merge de volta **obrigatoriamente em `develop`**. São utilizadas por equipes para implementar funcionalidades específicas sem interferir no trabalho alheio.
+- **`release/*`:** Nascem **a partir de `develop`** quando o conjunto de funcionalidades planejadas para a próxima versão está finalizado (*code freeze*). Durante a existência da branch de release, é proibida a adição de novas funcionalidades; realizam-se apenas correções de defeitos identificados em homologação, ajustes finos de documentação e bump de versão. Ao ser finalizada e homologada, a branch de release é mesclada na **`main`** (recebendo uma tag) **E também na `develop`** (para repassar os ajustes de homologação ao fluxo principal).
+- **`hotfix/*`:** Nascem **diretamente a partir de `main`** para solucionar incidentes críticos de segurança ou bugs impeditivos em produção que não podem aguardar o próximo ciclo formal de release. Uma vez testada e validada, a branch de hotfix deve ser mesclada na **`main`** (com nova subversão de patch, ex.: `v1.0.1`) **E compulsoriamente na `develop`**, impedindo que lançamentos futuros reintroduzam a falha que acabara de ser corrigida.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A FCC adora cobrar para onde deve ser feito o merge de uma branch de **`hotfix`** ou de **`release`** no Git Flow. Memorize:  
-> - **`hotfix`:** Nasce de `main` $\rightarrow$ Faz merge em **`main` E `develop`**!  
-> - **`release`:** Nasce de `develop` $\rightarrow$ Faz merge em **`main` E `develop`**!  
-> Se o candidato responder que o hotfix só faz merge na `main`, errará a questão!
+> A FCC adora cobrar o destino de mesclagem das branches temporárias de **`hotfix`** e de **`release`** no Git Flow:
+> - **`hotfix`:** Deriva de `main` $\rightarrow$ Realiza merge **em `main` E em `develop`**!
+> - **`release`:** Deriva de `develop` $\rightarrow$ Realiza merge **em `main` E em `develop`**!
+> Se a alternativa afirmar que o hotfix ou a release faz merge apenas na `main`, a afirmativa está incorreta!
 
----
+### 1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction
 
-#### B. Trunk-Based Development (TBD)
-O Trunk-Based Development é o modelo adotado por empresas como Google, Meta e pelas organizações com alta maturidade em DevOps e práticas de Entrega Contínua (apontado com destaque pelos relatórios DORA).
+O **Trunk-Based Development (TBD)** é o modelo de ramificação preconizado pelas organizações de alta performance tecnológica (como Google, Meta, Netflix) e referendado com destaque empírico nas pesquisas do **DORA** (*State of DevOps Report*).
 
 ```mermaid
 flowchart LR
@@ -119,110 +101,136 @@ flowchart LR
     end
 ```
 
-- **Premissa:** Existe apenas um ramo principal (`trunk` ou `main`).
-- Todos os desenvolvedores integram seu trabalho ao `trunk` com altíssima frequência (múltiplas vezes ao dia).
-- Se branches secundárias forem utilizadas, elas devem ser **de curtíssima duração (*short-lived feature branches*)**, durando poucas horas ou no máximo 1 a 2 dias.
-- **Como gerenciar tarefas complexas sem quebrar o trunk?**
-  1. **Feature Flags / Feature Toggles:** O código de uma funcionalidade ainda incompleta é mesclado no trunk e até mesmo implantado em produção, mas protegido por uma condicional booleana que mantém o recurso invisível aos usuários até que esteja concluído e testado.
-  2. **Branch by Abstraction:** Cria-se uma camada de abstração (interface) para substituir gradualmente um componente legado por um novo no trunk, sem interromper o funcionamento do sistema existente.
+- **Filosofia Central:** Existe **apenas um único ramo perene**, denominado `trunk` (ou `main`).
+- Todos os desenvolvedores integram seu trabalho ao `trunk` com altíssima frequência (ao menos uma vez por dia, preferencialmente múltiplas vezes).
+- Se houver uso de branches de tarefas, elas devem ser estritamente de **vida curtíssima (*short-lived feature branches*)**, durando poucas horas ou no máximo 1 a 2 dias, sendo submetidas a Pull Requests pequenos e fáceis de revisar.
+- **Habilitadores Técnicos Indispensáveis:**
+  1. **Feature Flags / Feature Toggles:** Como integrar ao trunk códigos de histórias de usuário complexas que levam duas semanas para serem construídas? A equipe comita e sobe o código diariamente para produção, mas o mantém envolto em uma condicional booleana (*Feature Flag*). O recurso inacabado executa em produção desativado para os cidadãos e auditores, sem risco de quebra.
+  2. **Branch by Abstraction:** Padrão arquitetural em nível de código-fonte utilizado para refatorar subsistemas complexos diretamente no trunk: cria-se uma interface/abstração intermediária entre o chamador e a implementação legada; implementa-se o novo componente gradualmente; redireciona-se o chamador para a nova implementação; e expurga-se o código legado do repositório, sem a necessidade de criar branches paralelas de longa duração.
 
-#### C. Comparativo Síntese entre Modelos de Ramificação
+### 1.3 O Modelo GitHub Flow
 
-| Característica | Git Flow | Trunk-Based Development (TBD) | GitHub Flow | GitLab Flow (Environment) |
+Criado pela equipe do GitHub, o **GitHub Flow** é uma abordagem minimalista e centrada na web, amplamente adotada em arquiteturas de microsserviços e sistemas com entregas contínuas:
+
+- **Premissa Inviolável:** A branch `main` é permanentemente estável e **a qualquer momento pronta para entrar em produção** (*"Anything in the main branch is deployable"*).
+- **Ciclo Operacional:**
+  1. Cria-se uma branch descritiva diretamente a partir da `main` (ex.: `add-oauth2-support`);
+  2. Adicionam-se commits frequentes e mensagens claras;
+  3. Abre-se uma *Pull Request* precocemente para iniciar a discussão técnica e executar pipelines de CI automatizados;
+  4. Após aprovação em revisão por pares e nos testes automatizados, o código é implantado em produção (para validação imediata);
+  5. Realiza-se o merge na branch `main` e a branch de trabalho é excluída.
+
+### 1.4 O Modelo GitLab Flow (Ambientes e Versões)
+
+O **GitLab Flow** une a simplicidade do GitHub Flow à necessidade corporativa de gerenciar múltiplos ambientes de infraestrutura e suporte a versões legadas:
+
+1. **GitLab Flow com Branches de Ambiente (*Environment Branches*):**
+   - Cria-se uma branch perene para cada ambiente do ciclo de vida: `main` (desenvolvimento/integração), `pre-production` (homologação/staging) e `production` (produção real).
+   - O código flui em sentido único: da `main` para `pre-production`, e de `pre-production` para `production`. O merge entre essas branches dispara automaticamente o pipeline de implantação no respectivo ambiente físico, garantindo que tudo o que entra em produção passou comprovadamente por homologação.
+2. **GitLab Flow com Branches de Versão (*Release Branches*):**
+   - Utilizado quando uma organização precisa manter suporte a múltiplas versões ativas de um mesmo software distribuído (ex.: versões 1.x, 2.x e 3.x). Correções de bugs são aplicadas primeiro na `main` e depois retroalimentadas (*backported*) nas branches de versão ativas através de comandos `git cherry-pick`.
+
+### 1.5 Matriz Comparativa Síntese entre os Modelos de Ramificação
+
+| Dimensão de Análise | Git Flow | Trunk-Based Development (TBD) | GitHub Flow | GitLab Flow (Ambientes) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Complexidade** | Alta (múltiplos ramos com regras estritas) | Muito Baixa | Mínima | Moderada |
-| **Ramos Principais** | 2 (`main` e `develop`) | 1 (`trunk` / `main`) | 1 (`main`) | 1 principal + ramos por ambiente |
-| **Vida Útil das Branches** | Longa (dias, semanas ou meses) | Curtíssima (horas a no máximo 1-2 dias) | Curta (enquanto dura a tarefa) | Curta para features; perenes para ambientes |
-| **Frequência de Deploys** | Baixa a Média (ciclos de release agendados) | Contínua (várias vezes ao dia sob demanda) | Contínua (a cada PR aprovado) | Progressiva por ambiente (homolog $\rightarrow$ prod) |
-| **Resolução de Conflitos** | Frequente e complexa (*merge hell*) | Precoce e trivial (poucas linhas alteradas) | Simples | Simples |
-| **Dependência de Feature Flags** | Rara / Opcional | **Crítica / Essencial** | Opcional | Opcional |
-| **Aderência a CI/CD Moderno** | Baixa (cria silos em branches paralelas) | **Máxima (recomendado pelo DORA)** | Alta para microsserviços/web | Alta para pipelines corporativos com governança |
+| **Complexidade Estrutural** | **Alta** (múltiplas branches com regras estritas) | **Mínima** | Baixa | Moderada |
+| **Ramos Perenes Principais** | 2 (`main` e `develop`) | 1 (`trunk` / `main`) | 1 (`main`) | 1 principal + ramos de ambiente (`prod`, `staging`) |
+| **Duração das Branches** | Longa (semanas a meses) | Curtíssima (horas a no máximo 1-2 dias) | Curta (ciclo da tarefa) | Curta para features; perene para ambientes |
+| **Frequência de Deploys** | Baixa/Média (janelas de release agendadas) | Contínua (múltiplas vezes ao dia sob demanda) | Contínua (a cada PR aprovado) | Progressiva por promoção de ambiente |
+| **Risco de Conflitos (Merge Hell)**| **Elevado** devido ao isolamento prolongado | **Quase nulo** (resolução precoce) | Baixo | Baixo |
+| **Uso de Feature Flags** | Opcional | **Crítico / Essencial** | Opcional | Recomendado |
+| **Aderência ao DevOps / CI/CD** | Baixa (silos temporais em branches) | **Padrão Ouro (Recomendado DORA)** | Alta para web e microsserviços | Alta para governança corporativa |
 
 ---
 
-### 2. Estratégias de Integração no Botão de Merge (PR / MR)
+## 2. Estratégias de Integração e Mesclagem (Merge Commit, Squash e Rebase)
 
-Quando uma *Pull Request* (GitHub) ou *Merge Request* (GitLab) é aprovada, a plataforma oferece três estratégias distintas para integrar os commits no ramo alvo:
+Ao aprovar uma *Pull Request* (no GitHub) ou *Merge Request* (no GitLab), as plataformas oferecem três estratégias fundamentais para integrar os commits da branch de trabalho ao ramo de destino:
 
 ```mermaid
 flowchart TD
     subgraph MergeCommit["1. Create a Merge Commit (--no-ff)"]
-        MC_A["Commit A"] --> MC_M["Merge Commit M (2 pais)"]
-        MC_B1["Commit B1"] --> MC_M
-        MC_B2["Commit B2"] --> MC_M
+        MC_A["Commit A (main)"] --> MC_M["Merge Commit M (2 nós pais)"]
+        MC_B1["Commit B1 (feature)"] --> MC_M
+        MC_B2["Commit B2 (feature)"] --> MC_M
     end
     
     subgraph SquashMerge["2. Squash and Merge (--squash)"]
-        SQ_A["Commit A"] --> SQ_C["Novo Commit Único (B1 + B2 condensados)"]
+        SQ_A["Commit A (main)"] --> SQ_C["Commit Único C (B1 + B2 achatados)"]
     end
     
     subgraph RebaseMerge["3. Rebase and Merge (Linear)"]
-        RB_A["Commit A"] --> RB_B1["Commit B1' (Novo SHA)"] --> RB_B2["Commit B2' (Novo SHA)"]
+        RB_A["Commit A (main)"] --> RB_B1["Commit B1' (Novo SHA)"] --> RB_B2["Commit B2' (Novo SHA)"]
     end
 ```
 
-#### 2.1 Create a Merge Commit (`git merge --no-ff`)
-- Cria um novo commit especial que possui **dois commits pais**: a ponta da branch principal e a ponta da branch que está sendo integrada.
-- **Vantagem:** Preserva rigorosamente o histórico original, o contexto de cada commit individual e a informação exata de que uma ramificação ocorreu.
-- **Desvantagem:** Pode poluir visualmente a árvore do repositório com grafos complexos e múltiplos commits desnecessários do tipo *"wip", "fix typo", "ajustando teste"*.
+### 2.1 Create a Merge Commit (`git merge --no-ff`)
 
-#### 2.2 Squash and Merge (`git merge --squash`)
-- Pega todos os commits da branch de funcionalidade, une suas alterações em um único bloco e cria **apenas um commit novo** na branch de destino com uma mensagem de resumo descritiva.
-- **Vantagem:** Mantém o histórico da branch principal extremamente limpo, legível e linear. Cada commit no trunk representa uma entrega atômica e coesa. Facilita o comando `git bisect` e o `git revert`.
-- **Desvantagem:** Perde o histórico granular detalhado dos passos intermediários realizados pelo desenvolvedor.
+- **Operação Subjacente:** Executa um merge do tipo *no fast-forward*. Cria um nó de commit especial na árvore do Git que possui **dois nós pais**: o último commit da branch de destino e o último commit da branch de trabalho.
+- **Vantagens:** Preserva integralmente o histórico original de todos os commits intermediários e a exata demarcação cronológica de que aquele conjunto de linhas foi concebido em uma branch isolada.
+- **Desvantagens:** Pode transformar o grafo visual do repositório em uma "teia de espaguete" de difícil interpretação, repleta de commits triviais como *"wip"*, *"corrigindo typo"* ou *"ajuste de teste"*.
 
-#### 2.3 Rebase and Merge (`git rebase`)
-- Reaplica os commits individuais da branch de trabalho sequencialmente sobre a ponta atual da branch principal.
-- Não cria commit de merge intermediário. O histórico torna-se uma linha reta perfeitamente linear.
-- **Ponto de atenção:** Os hashes SHA-1 dos commits originais são reescritos, gerando novos identificadores de commit.
+### 2.2 Squash and Merge (`git merge --squash`)
+
+- **Operação Subjacente:** Coleta todas as modificações introduzidas pelos múltiplos commits da branch de trabalho, une-as em uma única alteração atômica e registra **um único e coeso commit novo** no topo da branch de destino, descartando os commits individuais intermediários.
+- **Vantagens:** Mantém o histórico do branch principal (`main`) estritamente limpo, coeso e legível. Cada commit na `main` corresponde a uma entrega funcional completa (*atomic commit*). Facilita drasticamente a identificação de bugs via `git bisect` e a reversão de falhas em produção via um único comando `git revert <hash>`.
+- **Desvantagens:** Suprime o detalhamento granular dos micro-passos dados pelo desenvolvedor durante a confecção da funcionalidade.
+
+### 2.3 Rebase and Merge (`git rebase`)
+
+- **Operação Subjacente:** Pega os commits individuais da branch de trabalho e os reaplica um a um sobre a ponta mais recente da branch de destino, gerando um histórico estritamente linear sem nós de merge intermediários.
+- **Pontos de Atenção:** Ao reaplicar os commits, o Git recalcula os identificadores criptográficos (hashes SHA-1/SHA-256), alterando a identidade dos commits originais. Não cria nó com múltiplos pais.
 
 ---
 
-### 3. Governança, Regras de Proteção de Branches e `CODEOWNERS`
+## 3. Governança, Regras de Proteção de Branches e `CODEOWNERS`
 
-Em órgãos públicos como Tribunais de Contas e Secretarias de Fazenda, o repositório de código é um ativo de segurança nacional sujeito a auditorias de integridade. A governança das plataformas Git é implementada através de:
+Em instituições governamentais e órgãos de controle externo como o TCE-GO, os repositórios de código constituem ativos estratégicos sujeitos a rígidos requisitos de conformidade, trilhas de auditoria e segregação de funções.
 
-#### 3.1 Regras de Proteção de Branch (*Branch Protection Rules*)
-- **Bloqueio de Push Direto:** Desenvolvedores são impedidos de executar `git push origin main`. Qualquer alteração precisa obrigatoriamente tramitar via *Pull Request*.
-- **Bloqueio de *Force Push* (`--force`):** Impede a reescrita maliciosa ou acidental do histórico da branch protegida.
-- **Bloqueio de Exclusão:** Impede que comandos como `git push origin --delete main` destruam o ramo principal.
-- **Revisão Obrigatória por Pares (*Required Pull Request Reviews*):** Exige a aprovação explícita de ao menos um (ou mais) revisores antes que o botão de merge seja liberado.
-- **Status Checks Mandatórios (*Require Status Checks to Pass*):** Exige que suítes de testes, linters e scanners de segurança executados pelos runners de CI terminem com sucesso (código de saída 0).
-- **Assinatura de Commits Obrigatória (*Require Signed Commits*):** Exige chaves GPG ou SSH para comprovar criptograficamente a autoria de quem comitou.
+### 3.1 Regras de Proteção de Branches (Branch Protection Rules)
 
-#### 3.2 O Arquivo `CODEOWNERS`
-O arquivo `CODEOWNERS` (alocado na raiz, em `.github/` ou em `.gitlab/`) define formalmente quais equipes ou indivíduos são proprietários e responsáveis por partes específicas da base de código. Quando uma PR altera um arquivo mapeado, os proprietários correspondentes são atribuídos compulsoriamente como revisores bloqueantes.
+As configurações de proteção de branch (*Branch Protection Rules* no GitHub ou *Protected Branches* no GitLab) impõem controles automatizados invioláveis sobre ramos críticos (especialmente `main` e `develop`):
 
-Sintaxe típica:
+1. **Bloqueio de Push Direto (*Require a pull request before merging*):** Impede que qualquer desenvolvedor envie commits diretamente para a branch principal sem a abertura de uma Pull Request formal.
+2. **Bloqueio de Forçamento de Histórico (*Block Force Pushes*):** Desativa compulsoriamente a permissão para executar comandos `git push --force`, impedindo a reescrita deliberada ou acidental do histórico versionado.
+3. **Bloqueio de Exclusão (*Prevent Branch Deletion*):** Impede que comandos administrativos apaguem a branch principal.
+4. **Revisão Obrigatória por Pares (*Required Approvals*):** Condiciona o merge à aprovação formal de ao menos um (ou mais) revisores humanos qualificados, impedindo a auto-aprovação de código pelo próprio autor.
+5. **Aprovação Obrigatória em Verificações de Status do CI (*Required Status Checks*):** Exige que suítes de testes unitários, checagens de linter e análises de vulnerabilidades executadas nos runners de CI reportem sucesso obrigatório antes que o botão de merge seja liberado.
+6. **Assinatura Criptográfica Obrigatória (*Require Signed Commits*):** Rejeita commits que não possuam assinatura criptográfica válida (via chaves GPG ou SSH), comprovando a identidade real do autor e prevenindo falsificação de identidade (*commit spoofing*).
+
+### 3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes
+
+O arquivo **`CODEOWNERS`** (alocado na raiz do repositório, dentro da pasta `.github/` ou em `.gitlab/`) permite estabelecer proprietários técnicos e papéis de governança baseados em diretórios ou extensões de arquivos:
+
 ```text
-# O time core é dono de tudo por padrão:
-*       @orgao/time-arquitetura
+# O time de arquitetura é dono de todo o repositório por padrão:
+*       @orgao-tce/time-arquitetura
 
-# O time de segurança deve aprovar compulsoriamente mudanças em autenticação:
-/src/auth/      @orgao/time-seguranca-app
-/config/jwt/    @orgao/time-seguranca-app
+# Mudanças em módulos de autenticação e criptografia exigem aprovação da equipe de segurança:
+/src/auth/      @orgao-tce/time-seguranca-app
+/config/jwt/    @orgao-tce/time-seguranca-app
 
-# Especialistas em banco de dados para migrações SQL:
-*.sql           @orgao/time-dbas
-/database/      @orgao/time-dbas
+# Migrações e scripts SQL de banco de dados exigem aprovação obrigatória dos DBAs:
+*.sql           @orgao-tce/time-dbas
+/database/      @orgao-tce/time-dbas
 ```
 
+**Mecânica de Aplicação:** Quando um desenvolvedor abre uma *Pull Request* alterando qualquer arquivo coberto pelas regras do `CODEOWNERS`, a plataforma Git adiciona **automaticamente e de forma obrigatória** as equipes ou usuários especificados como revisores bloqueantes. O merge da PR torna-se tecnicamente impossível até que os proprietários do código tenham revisado e concedido a aprovação.
+
+### 3.3 Comparativo Terminológico e Operacional: GitHub vs. GitLab
+
+| Conceito / Recurso | Plataforma GitHub | Plataforma GitLab |
+| :--- | :--- | :--- |
+| **Proposta de Integração de Código** | **Pull Request (PR)** | **Merge Request (MR)** |
+| **Pipeline de Automação CI/CD** | **GitHub Actions** (`.github/workflows/*.yml`) | **GitLab CI/CD** (`.gitlab-ci.yml`) |
+| **Agente Executor de Tarefas** | **GitHub Runner** (*Hosted* ou *Self-Hosted*) | **GitLab Runner** (Shared ou Specific) |
+| **Regras de Governança de Ramos** | *Branch Protection Rules* | *Protected Branches* |
+| **Arquivo de Donos de Código** | `.github/CODEOWNERS` ou raiz | `.gitlab/CODEOWNERS` ou raiz |
+
 ---
 
-## 🌐 Fontes Recomendadas na Internet
-
-### 1. Referências Oficiais de Estratégias de Branching
-- [Trunk Based Development Official Reference](https://trunkbaseddevelopment.com/): Portal canônico de referência sobre Trunk-Based Development (TBD), cobrindo ramificações de vida curta (*short-lived feature branches*), integração direta com CI e estratégias de *branch by abstraction*.
-- [A Successful Git Branching Model (Vincent Driessen)](https://nvie.com/posts/a-successful-git-branching-model/): Artigo original histórico que formalizou o modelo Git Flow, detalhando a mecânica dos ramos perenes (`main`, `develop`) e transitórios (`feature`, `release`, `hotfix`).
-- [Feature Toggles / Feature Flags (Martin Fowler)](https://martinfowler.com/articles/feature-toggles.html): Artigo clássico indispensável que detalha como desacoplar o deploy do código da liberação de funcionalidades de negócio em produção.
-
-### 2. Documentação Oficial das Plataformas Colaborativas
-- [GitHub Docs - Regras de Proteção de Branches (pt-BR)](https://docs.github.com/pt/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches): Guia oficial sobre imposição de revisões de código obrigatórias, bloqueio de *force push*, restrições via `CODEOWNERS` e exigência de checks de CI aprovados.
-- [GitLab Flow Documentation](https://docs.gitlab.com/ee/topics/gitlab_flow.html): Comparativo oficial do GitLab entre Git Flow, GitHub Flow e GitLab Flow com branches baseadas em ambientes.
-
----
-
-## 📝 Questões Comentadas & Exemplos (Padrão FCC)
+## 4. Questões Comentadas & Prática Padrão FCC
 
 ### Questão 1 (FCC - Adaptada / TI - Modelos de Branching: Git Flow)
 No modelo de desenvolvimento e controle de versões conhecido como **Git Flow**, concebido por Vincent Driessen, há ramos com tempos de vida diferentes que atendem a papéis bem definidos no ciclo de lançamento de um software. Considere uma situação em que uma falha de segurança gravíssima é detectada na versão que se encontra atualmente em execução no ambiente de produção de uma Secretaria Estadual.
@@ -234,13 +242,14 @@ C) Criar um branch temporário de `release` derivado de `main` e, após a aplica
 D) Aplicar a alteração diretamente no servidor de produção via terminal SSH, uma vez que o Git Flow proíbe a criação de ramos emergenciais quando a branch `main` já possui uma tag vinculada.  
 E) Criar um branch de `feature` a partir de `develop`, aguardar a janela de homologação semestral e realizar o merge apenas em `develop`, mantendo o ambiente de produção com a vulnerabilidade ativa até o próximo grande lançamento.
 
-> **Gabarito: B**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** Um branch de `hotfix` não nasce de `develop`, mas sim de `main`, pois se destina a corrigir a versão exata que está em produção. Além disso, mesclá-lo apenas em `feature` deixaria o ambiente de produção vulnerável.  
-> - **B está CORRETA:** Conforme as especificações originais do Git Flow, o branch de `hotfix` é o único tipo de ramificação temporária que nasce diretamente da branch `main` (para corrigir bugs críticos de produção). Ao concluir o ajuste, a regra de ouro do Git Flow exige que o merge seja efetuado **na `main`** (gerando uma nova subversão/tag, ex.: `1.0.1`) **E também na `develop`**, garantindo que a correção seja absorvida pelo fluxo contínuo de desenvolvimento e não seja sobrescrita no próximo release.  
-> - **C está INCORRETA:** Branches de `release` nascem de `develop` para congelar o escopo de uma nova versão planejada, não sendo utilizadas para correções emergenciais em produção.  
-> - **D está INCORRETA:** Fazer alterações diretas em servidores sem controle de versão é uma violação grave de boas práticas de DevOps e governança pública de TI. O Git Flow provê suporte nativo para esse cenário justamente com o ramo de `hotfix`.  
-> - **E está INCORRETA:** Correções urgentes em produção não podem aguardar o fluxo moroso de branches de `feature`, cuja finalidade é o desenvolvimento de novas funcionalidades.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O branch de `hotfix` deriva de `main` (onde está o bug de produção) e não de `develop`. Fazer merge apenas em `feature` não corrigiria a produção.
+> - **B)** Correta. De acordo com as especificações canônicas do Git Flow, o branch de `hotfix` deriva diretamente da branch `main` (para corrigir o estado exato de produção). Concluída a correção e os testes, o merge deve ser efetuado **na branch `main`** (gerando nova tag semântica) **E compulsoriamente na branch `develop`**, assegurando que os novos desenvolvimentos não reintroduzam a vulnerabilidade no próximo ciclo de release.
+> - **C)** Incorreta. Branches de `release` nascem de `develop` para congelar o escopo de novas funcionalidades planejadas, e não para correções emergenciais.
+> - **D)** Incorreta. Fazer alterações diretas em servidores sem controle de versão viola os princípios mais basilares de governança de TI. O Git Flow suporta correções emergenciais via ramo de hotfix.
+> - **E)** Incorreta. Incidentes críticos de segurança em produção não podem aguardar o fluxo moroso de branches de `feature`, cuja finalidade é construir novas funcionalidades.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -254,13 +263,14 @@ C) O modelo Trunk-Based Development proíbe a execução de testes automatizados
 D) No Trunk-Based Development, é mandatório manter duas branches permanentes em paralelo: uma denominada `trunk` e outra denominada `develop`, ambas recebendo commits ao mesmo tempo.  
 E) A prática de *Branch by Abstraction* consiste em abrir uma branch no repositório remoto para cada desenvolvedor individual, a qual nunca sofrerá merge com o trunk até o fim do projeto.
 
-> **Gabarito: B**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** O Trunk-Based Development preconiza o extremo oposto: branches de vida curtíssima (*short-lived branches*, de algumas horas ou no máximo 1-2 dias) ou commits frequentes no branch principal, eliminando o isolamento prolongado de código.  
-> - **B está CORRETA:** O grande desafio de comitar código com alta frequência no *trunk* é lidar com tarefas complexas que demoram dias para serem finalizadas. O mecanismo fundamental que resolve isso é o uso de **Feature Flags / Feature Toggles**: o código inacabado é integrado ao branch principal e até implantado em produção, mas envolto em uma condicional que mantém o comportamento inativo para o usuário final até que esteja totalmente concluído.  
-> - **C está INCORRETA:** O TBD depende criticamente de suítes de testes automatizados e builds rápidos no CI a cada commit. Sem CI robusto, o trunk quebraria continuamente.  
-> - **D está INCORRETA:** No TBD há **apenas um ramo perene** (`trunk` ou `main`). A existência de um ramo `develop` paralelo de vida longa é a característica típica do Git Flow.  
-> - **E está INCORRETA:** *Branch by Abstraction* não é uma ramificação no Git, mas sim um padrão de projeto no código-fonte que introduz uma camada abstrata intermediária para permitir refatorações profundas no próprio *trunk*, coexistindo o código legado e o novo até a migração completa.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O Trunk-Based Development preconiza o oposto: branches de curtíssima duração (*short-lived branches*, de algumas horas a 1 ou 2 dias) ou integração direta no trunk, eliminando branches isoladas de longa duração.
+> - **B)** Correta. O habilitador técnico crucial do TBD para viabilizar entregas diárias de histórias de usuário complexas é o uso de **Feature Flags / Feature Toggles**: o código em desenvolvimento é continuamente integrado no trunk e publicado em produção, mas protegido por uma chave lógica que o mantém inativo para os usuários finais até sua validação completa.
+> - **C)** Incorreta. O TBD depende criticamente da execução compulsória de testes automatizados e builds rápidos no CI a cada commit; sem eles, o trunk se tornaria instável com facilidade.
+> - **D)** Incorreta. No TBD há **apenas um ramo perene** (`trunk` ou `main`). A existência de um ramo `develop` permanente paralelo é característica do Git Flow.
+> - **E)** Incorreta. *Branch by Abstraction* não é um ramo no repositório Git, mas um padrão de design em código que introduz interfaces abstratas intermediárias para possibilitar refatorações graduais e seguras diretamente no trunk.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -274,13 +284,14 @@ C) Combinar todos os 12 commits fragmentados da branch secundária em um único 
 D) Preservar todos os nós de commit individuais e gerar um commit com três nós pais obrigatórios no grafo do Git.  
 E) Reescrever os certificados digitais de commit do autor para mascarar a autoria de quem realizou a modificação no código.
 
-> **Gabarito: C**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** Squash and Merge é uma operação de manipulação da árvore de commits do Git durante a integração de ramos, não tendo qualquer relação com clonagem em máquinas externas ou segredos de conexão.  
-> - **B está INCORRETA:** A operação de merge não converte branches em contêineres Docker; isso seria papel de um pipeline de build/empacotamento de CI.  
-> - **C está CORRETA:** A funcionalidade de **Squash and Merge** unifica (achata) todas as modificações dos múltiplos commits da branch de origem em um único commit aplicado sobre o branch alvo. Isso elimina o ruído de commits intermediários ou mensagens desleixadas (`"wip"`, `"ajustes"`), resultando em um histórico da `main` linear, limpo e legível. Se houver falha, reverter a entrega inteira exige apenas um comando `git revert <hash_do_commit_único>`.  
-> - **D está INCORRETA:** Preservar todos os commits e criar um nó de junção é a característica do *Merge Commit* tradicional (`--no-ff`), que possui exatamente dois pais, e não três.  
-> - **E está INCORRETA:** A finalidade do Squash não é mascarar ou falsificar a autoria das modificações, mantendo-se o autor original das alterações no metadado do commit gerado.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Squash and Merge é uma operação de mesclagem na árvore de commits do Git e não tem relação com clonagem em máquinas externas.
+> - **B)** Incorreta. A operação de merge lida com grafos de controle de versão, não convertendo branches em contêineres Docker.
+> - **C)** Correta. O **Squash and Merge** condensa (achata) todos os commits da branch de trabalho em um único commit atômico aplicado sobre o branch principal. Isso elimina ruídos de mensagens provisórias (*"wip"*, *"fix"*) e mantém a história do repositório linear, limpa e coesa. Se for necessário reverter a alteração no futuro, basta executar `git revert` sobre aquele commit único.
+> - **D)** Incorreta. A preservação de todos os commits intermediários e a criação de um nó de junção é papel do *Merge Commit* tradicional (`--no-ff`), que possui dois pais, e não três.
+> - **E)** Incorreta. O propósito do Squash não é alterar ou fraudar a identidade do autor das alterações.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -297,16 +308,17 @@ C) Atribuir a todos os usuários o perfil de *Owner* do repositório; habilitar 
 D) Configurar o GitLab Runner em modo compartilhado sem restrição de tags; habilitar a flag `fast-forward only`; e renomear os arquivos `.sql` para `.txt`.  
 E) Revogar o acesso de leitura de todos os membros da equipe e realizar commits manuais em produção utilizando um pendrive criptografado.
 
-> **Gabarito: B**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** Habilitar *force pushes* permitiria reescrever o histórico (o oposto do desejado), e colocar `/database/` no `.gitignore` faria o Git ignorar esses arquivos, impedindo seu versionamento.  
-> - **B está CORRETA:** As três ferramentas de governança do GitHub/GitLab atendem precisamente aos requisitos:  
->   1. *Branch Protection Rules* com bloqueio de *force push* protege a integridade e rastreabilidade do histórico da branch `main`.  
->   2. *Required Status Checks* garante que o botão de merge só seja habilitado se os pipelines de testes automatizados do CI passarem com sucesso.  
->   3. O arquivo `CODEOWNERS` permite associar padrões de arquivos e diretórios (`/database/ @time-dbas`) a times específicos, exigindo compulsoriamente a aprovação desses donos de código antes da conclusão do merge da *Pull Request*.  
-> - **C está INCORRETA:** Dar perfil de Owner para todos os usuários elimina qualquer segregação de funções e destrói os mecanismos de proteção do repositório.  
-> - **D está INCORRETA:** Renomear arquivos `.sql` para `.txt` e alterar flags de fast-forward não provê controle de aprovação por papéis nem protege o histórico contra reescrita forçada.  
-> - **E está INCORRETA:** Proposta descabida que inviabiliza o trabalho colaborativo moderno e desrespeita práticas de governança e DevOps.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Permitir *force pushes* violaria o requisito 1, e colocar a pasta no `.gitignore` impediria o seu versionamento.
+> - **B)** Correta. Os três recursos de governança do GitHub atendem perfeitamente aos requisitos institucionais:
+>   1. *Branch Protection Rules* com bloqueio explícito de force pushes protege a rastreabilidade do histórico;
+>   2. *Required Status Checks* bloqueia o botão de merge até que os pipelines automatizados de testes sejam aprovados;
+>   3. O arquivo `CODEOWNERS` permite delegar compulsoriamente revisões bloqueantes a grupos específicos (`/database/ @time-dbas`).
+> - **C)** Incorreta. Atribuir privilégios de Owner a todos destrói qualquer política de governança e segregação de funções.
+> - **D)** Incorreta. Modificar extensões de arquivo ou alterar flags de fast-forward não provê controle de aprovação por papéis.
+> - **E)** Incorreta. O uso de mídias físicas manuais é contrário aos princípios fundamentais de DevOps e colaboração moderna.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -318,10 +330,11 @@ C) No GitHub Flow, o branch `main` nunca reflete o código de produção, servin
 D) No GitLab Flow, é proibido o uso de *Merge Requests*, sendo a sincronização entre branches realizada exclusivamente por comandos de upload via FTP.  
 E) Tanto o GitHub Flow quanto o GitLab Flow rejeitam completamente o uso do sistema Git, exigindo ferramentas baseadas em controle de versão centralizado (SVN).
 
-> **Gabarito: B**  
-> **Comentário Analítico Passo a Passo:**  
-> - **A está INCORRETA:** O GitHub Flow é caracterizado pela simplicidade extrema: não existem múltiplos ramos intermediários perenes; apenas a branch `main` e as branches curtas de funcionalidade criadas diretamente a partir dela.  
-> - **B está CORRETA:** O GitLab Flow adapta a agilidade do GitHub Flow para realidades corporativas que possuem múltiplos ambientes de homologação e produção formalmente separados. Ele introduz *branches de ambiente* (como `pre-production` e `production`): quando o código é aprovado e integrado na `main`, um merge da `main` para `pre-production` aciona o deploy no ambiente de testes/homologação; uma vez validado, um merge de `pre-production` para `production` aciona o deploy produtivo.  
-> - **C está INCORRETA:** No GitHub Flow, o princípio basilar e inviolável é: *"Anything in the main branch is deployable"* (qualquer coisa na branch main está pronta para implantação em produção).  
-> - **D está INCORRETA:** O GitLab Flow apoia-se intensamente no mecanismo central de *Merge Requests* (MRs), onde ocorrem as discussões, execuções de pipelines de CI e aprovações.  
-> - **E está INCORRETA:** Ambos são modelos de fluxo de trabalho desenhados especificamente para o ecossistema Git distribuído, e não para sistemas legados centralizados como Apache Subversion (SVN).
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O GitHub Flow é caracterizado pela ausência de ramos intermediários perenes, utilizando apenas a branch `main` e branches temporárias curtas.
+> - **B)** Correta. O GitLab Flow com *branches de ambiente* introduz ramos alinhados aos estágios da infraestrutura (como `main`, `pre-production` e `production`). O merge entre branches promove o deploy automático nos respectivos ambientes, proporcionando rastreabilidade rigorosa sobre quais versões estão ativas em cada camada.
+> - **C)** Incorreta. No GitHub Flow, o postulado fundamental é: *"Anything in the main branch is deployable"* (tudo no branch main deve estar pronto para produção).
+> - **D)** Incorreta. O GitLab Flow é estruturado prioritariamente em torno do uso de *Merge Requests* (MRs) com revisões por pares e pipelines integrados.
+> - **E)** Incorreta. Ambos foram criados especificamente para tirar proveito da arquitetura distribuída do Git.
+> 
+> **Gabarito: B**

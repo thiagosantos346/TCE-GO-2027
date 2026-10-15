@@ -26,49 +26,13 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-1. Fundamentos da Estratégia, Identidade Organizacional e Escolas Estratégicas
-├── 1.1 Conceito e Evolução do Planejamento Estratégico
-│   ├── 1.1.1 Definição: Processo gerencial contínuo para alinhar forças internas a oportunidades externas
-│   ├── 1.1.2 Princípios do Planejamento: Participativo, coordenado, integrado e permanente
-│   └── 1.1.3 Estratégias Deliberadas vs. Emergentes (Mintzberg):
-│       ├── Estratégia Pretendida: Plano formal inicial traçado pela liderança
-│       ├── Estratégia Deliberada: Parcela do plano intencional executada com sucesso
-│       ├── Estratégia Não Realizada: Planos que se tornaram inviáveis e foram descartados
-│       ├── Estratégia Emergente: Padrões de ação não planejados que brotam da base operacional
-│       └── Estratégia Realizada: Síntese concreta executada (Deliberadas + Emergentes)
-├── 1.2 A Identidade Estratégica Organizacional
-│   ├── 1.2.1 Missão Institucional:
-│   │   ├── Foco no PRESENTE: "Quem somos? Para que existimos? A quem servimos?"
-│   │   └── Exemplo TCE-GO: "Garantir a regularidade e efetividade dos recursos públicos em benefício da sociedade"
-│   ├── 1.2.2 Visão de Futuro:
-│   │   ├── Foco no FUTURO: "O que queremos ser? Onde queremos chegar até 2030?"
-│   │   └── Características: Inspiradora, desafiadora, factível e delimitada no tempo
-│   └── 1.2.3 Valores Organizacionais:
-│       ├── Princípios éticos inegociáveis (Ética, Transparência, Inovação, Efetividade, Tempestividade)
-│       └── Balizas comportamentais que estabelecem limites para as decisões de todos os servidores
-├── 1.3 As Quatro Fases do Ciclo de Gestão Estratégica
-│   ├── 1.3.1 Diagnóstico Estratégico: Avaliação ambiental macro (externo) e organizacional (interno)
-│   ├── 1.3.2 Formulação Estratégica: Estabelecimento de visão, objetivos, metas e projetos prioritários
-│   ├── 1.3.3 Implementação Estratégica: Alocação de recursos, desdobramento tático-operacional e governança
-│   └── 1.3.4 Monitoramento e Controle: Reuniões de Avaliação da Estratégia (RAE) e ajustes tempestivos
-└── 1.4 As Dez Escolas do Pensamento Estratégico (Mintzberg)
-    ├── 1.4.1 Escolas Prescritivas (Como a estratégia DEVE ser formulada):
-    │   ├── Escola do Design: Ajuste deliberado entre forças/fraquezas e oportunidades/ameaças (SWOT)
-    │   ├── Escola do Planejamento: Processo formal, decomposto em etapas sequenciais e manuais analíticos
-    │   └── Escola do Posicionamento: Seleção de posições genéricas na indústria concorrencial (Porter)
-    ├── 1.4.2 Escolas Descritivas (Como a estratégia REALMENTE é formulada na prática):
-    │   ├── Escola Empreendedora: A estratégia como visão personalíssima intuitiva do líder central
-    │   ├── Escola Cognitiva: A estratégia como processamento mental no cérebro do tomador de decisão
-    │   ├── Escola do Aprendizado: A estratégia como processo emergente por tentativa, erro e experiência
-    │   ├── Escola do Poder: A estratégia como negociação política, jogos de poder e coalizões de interesse
-    │   ├── Escola Cultural: A estratégia como processo social coletivo enraizado nos valores e tradições
-    │   └── Escola Ambiental: A estratégia como resposta passiva e reativa às pressões do meio externo
-    └── 1.4.3 Escola Configurativa (Integrativa):
-        └── Enxerga a organização em estados de estabilidade interrompidos por transformações quânticas
-```
+## 🧭 Sumário Interativo
+- [1. A Tríade da Identidade Estratégica: Missão, Visão e Valores](#1-a-tríade-da-identidade-estratégica-missão-visão-e-valores)
+- [2. O Ciclo da Gestão Estratégica Integrada](#2-o-ciclo-da-gestão-estratégica-integrada)
+- [3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)](#3-estratégias-deliberadas-vs-estratégias-emergentes-henry-mintzberg)
+- [4. As Dez Escolas do Pensamento Estratégico (Safári de Estratégia)](#4-as-dez-escolas-do-pensamento-estratégico-safári-de-estratégia)
+- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
+- [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
 
 ---
 
@@ -76,17 +40,17 @@
 
 ### 1. A Tríade da Identidade Estratégica: Missão, Visão e Valores
 
-A formulação da identidade organizacional é o primeiro passo de qualquer planejamento estratégico, estabelecendo a bússola institucional:
+A construção da identidade organizacional representa o marco fundador do planejamento estratégico, orientando a tomada de decisão da alta cúpula até a base operacional:
 
 ```mermaid
 flowchart TD
-    subgraph Identidade ["Tríade da Identidade Estratégica"]
+    subgraph Identidade ["Tríade da Identidade Estratégica Institucional"]
         direction TB
-        M["MISSÃO INSTITUCIONAL<br/>• Horizonte: Presente contínuo<br/>• Pergunta: Quem somos? Para que existimos?<br/>• Razão de ser e valor entregue ao cidadão"]
+        M["MISSÃO INSTITUCIONAL<br/>• Dimensão Temporal: Presente contínuo<br/>• Pergunta Fundamental: Quem somos? Para que existimos? A quem servimos?<br/>• Razão de ser basilar e entrega de valor público à sociedade"]
         
-        V["VISÃO DE FUTURO<br/>• Horizonte: Médio/Longo prazo delimitado<br/>• Pergunta: Onde queremos chegar até 2030?<br/>• Aspiração inspiradora e desafiadora"]
+        V["VISÃO DE FUTURO<br/>• Dimensão Temporal: Médio / Longo prazo (delimitado no tempo)<br/>• Pergunta Fundamental: Onde queremos chegar? O que queremos ser até 2030?<br/>• Estado aspiracional ambicioso, inspirador e mobilizador"]
         
-        VAL["VALORES INSTITUCIONAIS<br/>• Horizonte: Permanente / Atemporal<br/>• Pergunta: Como devemos nos comportar?<br/>• Princípios morais e éticos inegociáveis"]
+        VAL["VALORES INSTITUCIONAIS<br/>• Dimensão Temporal: Permanente / Atemporal<br/>• Pergunta Fundamental: Como devemos nos comportar em qualquer situação?<br/>• Princípios éticos inegociáveis que delimitam as condutas funcionais"]
         
         VAL --> M
         M --> V
@@ -97,93 +61,115 @@ flowchart TD
 
 | Componente | Dimensão Temporal | Foco Central | Exemplo Prático no Setor Público (TCE-GO) |
 | :--- | :--- | :--- | :--- |
-| **Missão** | **Presente** (contínuo). | A razão de existir hoje; a entrega fundamental que justifica a existência do órgão. | *"Exercer o controle externo com excelência, assegurando a regular aplicação dos recursos públicos em benefício da sociedade."* |
-| **Visão** | **Futuro** (longo prazo). | O estado almejado; onde a instituição projeta estar em uma data futura determinada. | *"Ser reconhecido pela sociedade, até 2030, como referência nacional em inovação e eficácia no controle governamental."* |
-| **Valores** | **Atemporal** (permanente). | Os mandamentos éticos inegociáveis que norteiam a conduta funcional e as decisões. | *Ética, Transparência, Independência Funcional, Inovação, Tempestividade e Comprometimento Social.* |
-
----
-
-### 2. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)
-
-Henry Mintzberg revolucionou a teoria estratégica ao demonstrar que a estratégia implementada raramente coincide com os planos originais de gabinete:
-
-```mermaid
-flowchart LR
-    EP["Estratégia Pretendida<br/>(Plano formal inicial)"] --> ED["Estratégia Deliberada<br/>(Planos executados)"]
-    EP --> ENR["Estratégia Não Realizada<br/>(Planos descartados)"]
-    
-    EE["Estratégias Emergentes<br/>(Ações espontâneas da base)"] --> ER["ESTRATÉGIA REALIZADA<br/>(O que de fato aconteceu)"]
-    ED --> ER
-```
-
-* **Estratégia Pretendida:** O plano formal concebido pela alta cúpula antes do início do período.
-* **Estratégia Deliberada:** A parcela do plano pretendido que foi rigorosamente executada conforme o desenho original.
-* **Estratégia Não Realizada:** Os planos que se mostraram inviáveis devido a restrições orçamentárias, tecnológicas ou mudanças legislativas e acabaram sendo abandonados.
-* **Estratégia Emergente:** Padrões de comportamento e iniciativas que **não constavam do plano formal**, mas que brotaram espontaneamente da ação dos servidores operacionais diante de situações imprevistas do dia a dia.
-* **Estratégia Realizada:** A estratégia que efetivamente se materializou, resultante da conjunção de ações deliberadas e respostas emergentes.
-
----
-
-### 3. As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia*)
-
-No clássico livro *Safári de Estratégia*, Mintzberg, Ahlstrand e Lampel dividem a história da estratégia em dez escolas fundamentais:
-
-```mermaid
-flowchart TD
-    Escolas["As 10 Escolas da Estratégia (Mintzberg)"]
-    
-    Escolas --> Presc["Escolas Prescritivas (Normativas)<br/>Como a estratégia DEVERIA ser feita"]
-    Escolas --> Descr["Escolas Descritivas<br/>Como a estratégia REALMENTE acontece"]
-    Escolas --> Integr["Escola Integrativa<br/>Síntese e transformação"]
-    
-    Presc --> E1["1. Design (Ajuste SWOT)"]
-    Presc --> E2["2. Planejamento (Formal e metódica)"]
-    Presc --> E3["3. Posicionamento (Porter / Mercado)"]
-    
-    Descr --> E4["4. Empreendedora (Visão do líder)"]
-    Descr --> E5["5. Cognitiva (Processos mentais)"]
-    Descr --> E6["6. Aprendizado (Tentativa e erro)"]
-    Descr --> E7["7. Poder (Negociação e política)"]
-    Descr --> E8["8. Cultural (Crenças e mitos)"]
-    Descr --> E9["9. Ambiental (Reação ao meio)"]
-    
-    Integr --> E10["10. Configuração (Estados e ruptura)"]
-```
-
-#### Detalhamento das Dez Escolas:
-1. **Escola do Design:** A pioneira. A estratégia é desenhada como um processo deliberado de concepção mental buscando o **ajuste (*fit*) perfeito** entre a capacidade interna e as possibilidades externas (origem da matriz SWOT).
-2. **Escola do Planejamento:** Liderada por Igor Ansoff. Concebe a formulação como um processo formal, decomposto em manuais, cronogramas e rotinas rígidas conduzidas por analistas de planejamento.
-3. **Escola do Posicionamento:** Liderada por Michael Porter. Reduz a estratégia à escolha analítica de posições genéricas predefinidas em setores competitivos.
-4. **Escola Empreendedora:** Enxerga a estratégia como uma visão personalíssima baseada no carisma, intuição e liderança do governante ou fundador.
-5. **Escola Cognitiva:** Estuda a estratégia como um processo mental no cérebro do decisor, analisando como os modelos mentais e vieses cognitivos filtram a realidade.
-6. **Escola do Aprendizado:** A estratégia emerge passo a passo à medida que a organização aprende com a prática, lidando com contingências e descobrindo caminhos viáveis (*learning organizations*).
-7. **Escola do Poder:** Vê a estratégia como um processo de barganha, negociação política e formação de coalizões entre grupos rivais pelo controle do orçamento e das decisões.
-8. **Escola Cultural:** Trata a estratégia como um processo social coletivo sustentado pelas crenças, símbolos, tradições e valores compartilhados pelos colaboradores.
-9. **Escola Ambiental:** A organização é vista como um ator passivo subordinado às pressões incontroláveis do ambiente externo, que seleciona ou extingue instituições.
-10. **Escola da Configuração:** Sintetiza as demais escolas; enxerga a organização vivendo períodos estáveis de configuração coerente que são periodicamente rompidos por transformações revolucionárias quânticas.
-
----
-
-## 🚨 Alertas de Prova & Pegadinhas da FCC
+| **Missão** | **Presente** (contínuo). | A razão de existir hoje; a entrega fundamental que justifica a existência do órgão perante a sociedade. | *"Exercer o controle externo com excelência, assegurando a regular aplicação dos recursos públicos em benefício da sociedade."* |
+| **Visão** | **Futuro** (longo prazo delimitado). | O estado almejado; onde a instituição projeta e quer estar em um marco temporal futuro. | *"Ser reconhecido pela sociedade, até 2030, como referência nacional em inovação e eficácia no controle governamental."* |
+| **Valores** | **Atemporal** (permanente). | Os mandamentos morais e éticos inegociáveis que norteiam a conduta funcional e as decisões diárias. | *Ética, Transparência, Independência Funcional, Inovação, Tempestividade e Comprometimento Social.* |
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (MISSÃO VS. VISÃO NAS QUESTÕES):**  
-> Identifique imediatamente a temporalidade da frase no enunciado:  
+> Identifique imediatamente a temporalidade da assertiva no enunciado:  
 > - Se o texto afirma o que a instituição é ou faz no **PRESENTE** ("prestar controle externo de qualidade para a sociedade"): trata-se de **MISSÃO**.  
 > - Se o texto traz uma ambição de **FUTURO** com prazo determinado ("ser reconhecido até 2030 como centro de excelência"): trata-se de **VISÃO**.
 
-> ⭐ **IMPORTANTE (ESCOLAS PRESCRITIVAS VS. DESCRITIVAS):**  
-> - **Escolas Prescritivas (Design, Planejamento e Posicionamento):** Preocupam-se em prescrever **COMO AS ESTRATÉGIAS DEVEM SER FEITAS** (foco normativo ideal).  
-> - **Escolas Descritivas (Aprendizado, Poder, Cultura, etc.):** Preocupam-se em descrever **COMO AS ESTRATÉGIAS SÃO FEITAS NA REALIDADE** (foco empírico prático).
-
-> 🛑 **ATENÇÃO (ESTRATÉGIAS EMERGENTES NO DIA A DIA):**  
-> As estratégias emergentes **não nascem na sala de reunião da alta direção**. Elas brotam da base operacional como soluções criativas e espontâneas diante de contingências reais não previstas no planejamento formal.
-
 > 📌 **NOTA EXPLICATIVA (VALORES INSTITUCIONAIS):**  
-> Os valores funcionam como freios éticos e morais. Uma meta arrojada de um plano estratégico jamais pode ser perseguida às custas da violação dos valores éticos estabelecidos pela instituição.
+> Os valores institucionais atuam como balizas e limites éticos inderrogáveis. Nenhuma meta estratégica arrojada pode ser legitimamente cumprida se para tanto for violado qualquer valor ético fixado pela instituição.
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
+### 2. O Ciclo da Gestão Estratégica Integrada
+
+A gestão estratégica contemporânea não é um evento isolado quadrienal, mas um ciclo administrativo contínuo, dinâmico e retroalimentado composto por quatro etapas estruturadas:
+
+```mermaid
+flowchart TD
+    Ciclo["As 4 Fases do Ciclo de Gestão Estratégica"]
+    
+    Ciclo --> F1["1. Diagnóstico Estratégico Situacional<br/>(Análise ambiental externa PESTEL e interna SWOT/FOFA)"]
+    F1 --> F2["2. Formulação Estratégica<br/>(Definição de Visão, Objetivos, Metas, Iniciativas e BSC)"]
+    F2 --> F3["3. Implementação e Execução<br/>(Alocação orçamentária, planos de ação 5W2H e gestão de processos)"]
+    F3 --> F4["4. Monitoramento e Controle Estratégico<br/>(Reuniões de Avaliação da Estratégia - RAE e auditoria de indicadores)"]
+    F4 -->|Retroalimentação e ajustes dinâmicos| F1
+```
+
+1. **Diagnóstico Estratégico:** Mapeamento sistemático do ambiente externo (oportunidades e ameaças incontroláveis) e do ambiente interno (forças e fraquezas controláveis), permitindo compreender a posição real da organização.
+2. **Formulação Estratégica:** Estabelecimento dos macro-objetivos, indicadores de desempenho, metas quantificadas e programas de ação prioritários alinhados à missão e visão.
+3. **Implementação da Estratégia:** Desdobramento tático-operacional, alocação de recursos financeiros pelo orçamento público (PPA, LDO e LOA), designação formal de responsáveis e governança das ações.
+4. **Monitoramento e Controle:** Acompanhamento tempestivo dos indicadores de resultado, identificação precoce de desvios e realização periódica de Reuniões de Avaliação da Estratégia (RAE) para calibragem de rotas.
+
+---
+
+### 3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)
+
+Henry Mintzberg revolucionou os estudos de estratégia organizacional ao demonstrar que a estratégia executada na prática raramente corresponde de forma idêntica àquela planejada nos gabinetes da diretoria:
+
+```mermaid
+flowchart LR
+    EP["Estratégia Pretendida<br/>(Plano formal inicial da cúpula)"] --> ED["Estratégia Deliberada<br/>(Parcela formal executada com sucesso)"]
+    EP --> ENR["Estratégia Não Realizada<br/>(Planos formais descartados ou inviáveis)"]
+    
+    EE["Estratégias Emergentes<br/>(Respostas espontâneas da base operacional)"] --> ER["ESTRATÉGIA REALIZADA<br/>(O resultado concreto efetivado)"]
+    ED --> ER
+```
+
+* **Estratégia Pretendida:** O plano estratégico inicial concebido formalmente pela liderança institucional.
+* **Estratégia Deliberada:** A parcela das intenções estratégicas originais que foi executada exatamente como planejada.
+* **Estratégia Não Realizada:** Os objetivos e projetos que, devido a contingências econômicas, cortes orçamentários, alterações legais ou inviabilidade técnica, foram formalmente abandonados.
+* **Estratégia Emergente:** Padrões de conduta e soluções práticas que surgem espontaneamente no dia a dia da base operacional, em resposta a contingências imprevistas do ambiente.
+* **Estratégia Realizada:** A estratégia que efetivamente ocorreu no mundo dos fatos, configurando a síntese harmonizada entre as estratégias deliberadas da cúpula e as estratégias emergentes da base.
+
+> 🛑 **ATENÇÃO (ESTRATÉGIAS EMERGENTES NO DIA A DIA):**  
+> As estratégias emergentes **não brotam nas reuniões formais da cúpula diretiva**. Elas nascem na base de execução (no chão de fábrica ou nas rotinas diárias dos analistas) como soluções práticas, criativas e espontâneas diante de contingências reais não antecipadas no planejamento original.
+
+---
+
+### 4. As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia*)
+
+Na consagrada obra *Safári de Estratégia*, Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel organizaram a evolução do pensamento estratégico em dez escolas, categorizadas em prescritivas, descritivas e integrativas:
+
+```mermaid
+flowchart TD
+    Escolas["As 10 Escolas do Pensamento Estratégico (Mintzberg)"]
+    
+    Escolas --> Presc["Escolas Prescritivas (Normativas)<br/>Como a estratégia DEVERIA ser concebida"]
+    Escolas --> Descr["Escolas Descritivas<br/>Como a estratégia REALMENTE é concebida"]
+    Escolas --> Integr["Escola Integrativa<br/>Síntese evolutiva de transformação"]
+    
+    Presc --> E1["1. Design (Ajuste SWOT)"]
+    Presc --> E2["2. Planejamento (Formal e analítica)"]
+    Presc --> E3["3. Posicionamento (Porter e a indústria)"]
+    
+    Descr --> E4["4. Empreendedora (Visão intuitiva do líder)"]
+    Descr --> E5["5. Cognitiva (Processamento mental e vieses)"]
+    Descr --> E6["6. Aprendizado (Incremental e emergente)"]
+    Descr --> E7["7. Poder (Negociação política e coalizões)"]
+    Descr --> E8["8. Cultural (Crenças, tradição e mitos)"]
+    Descr --> E9["9. Ambiental (Reação e adaptação ao meio)"]
+    
+    Integr --> E10["10. Configuração (Estados de estabilidade e saltos quânticos)"]
+```
+
+#### A) Escolas Prescritivas (Normativas - Foco em prescrever o modelo ideal):
+1. **Escola do Design:** A pioneira (década de 1960). Enxerga a formulação como um processo de concepção mental deliberada cujo objetivo supremo é o **ajuste (*fit*) essencial** entre as capacidades internas da organização (Forças e Fraquezas) e as condições externas do ambiente (Oportunidades e Ameaças) – base da Matriz SWOT.
+2. **Escola do Planejamento:** Liderada por H. Igor Ansoff. Concebe a formulação como um processo altamente formal, metódico e sequencial, desdobrado em manuais exaustivos, cronogramas e orçamentos operados por analistas de planejamento.
+3. **Escola do Posicionamento:** Liderada por Michael Porter (anos 1980). A estratégia é vista como um processo analítico de escolha de posições competitivas genéricas (Liderança em Custo, Diferenciação ou Enfoque) dentro da estrutura da indústria concorrencial.
+
+#### B) Escolas Descritivas (Foco em descrever como a estratégia ocorre na prática real):
+4. **Escola Empreendedora:** Enxerga a formulação estratégica como um processo visionário personalizado, centrado na intuição, experiência e liderança carismática do governante ou fundador.
+5. **Escola Cognitiva:** Analisa a estratégia como um processo mental no cérebro do tomador de decisão, investigando como os modelos mentais e vieses cognitivos filtram ou distorcem as informações do ambiente.
+6. **Escola do Aprendizado:** Sustenta que o ambiente é excessivamente dinâmico para planejamentos rígidos; a estratégia emerge de forma incremental e contínua à medida que a organização "aprende fazendo" (*learning organizations*).
+7. **Escola do Poder:** Enxerga a estratégia como um processo de negociação política, jogos de influência e coalizões entre grupos rivais pelo controle do orçamento e das decisões institucionais.
+8. **Escola Cultural:** Trata a estratégia como um processo social coletivo enraizado nos valores, símbolos, rituais e crenças compartilhadas pelos servidores.
+9. **Escola Ambiental:** Trata a organização como um agente relativamente passivo, cuja estratégia é moldada e determinada pelas pressões impositivas do ambiente externo.
+
+#### C) Escola Integrativa:
+10. **Escola da Configuração:** Sintetiza as visões anteriores, compreendendo que a organização atravessa longos períodos de estabilidade estrutural coerente (configurações), interrompidos periodicamente por transformações revolucionárias e saltos quânticos de ruptura (*turnaround*).
+
+> ⭐ **IMPORTANTE (ESCOLAS PRESCRITIVAS VS. DESCRITIVAS):**  
+> - **Escolas Prescritivas (Design, Planejamento e Posicionamento):** Preocupam-se em prescrever **COMO AS ESTRATÉGIAS DEVEM SER FEITAS** (foco normativo do modelo ideal).  
+> - **Escolas Descritivas (Aprendizado, Poder, Cultural, etc.):** Preocupam-se em descrever **COMO AS ESTRATÉGIAS EFETIVAMENTE ACONTECEM NA PRÁTICA** (foco empírico real).
+
+---
+
+### 5. Fontes Oficiais e Referências Bibliográficas
 
 * [MINTZBERG, Henry; AHLSTRAND, Bruce; LAMPEL, Joseph. Safári de Estratégia: um roteiro pela selva do planejamento estratégico. Editora Bookman.](https://www.grupoa.com.br) - As dez escolas do pensamento estratégico.
 * [OLIVEIRA, Djalma de Pinho Rebouças de. Planejamento Estratégico: conceitos, metodologia e práticas. Editora Atlas.](https://www.grupogen.com.br).
@@ -193,7 +179,7 @@ flowchart TD
 
 ---
 
-## 📝 Questões de Concurso FCC Comentadas
+### 6. Questões de Concurso FCC Comentadas
 
 ### Questão 01
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
@@ -209,11 +195,12 @@ Nos termos da teoria do planejamento estratégico, os enunciados I e II correspo
 * **D)** Meta Operacional e Diretriz Tática.
 * **E)** Valores e Visão.
 
-> **Gabarito: C**  
 > **Comentário Detalhado:**  
 > - O **Enunciado I** expressa a razão de ser primordial do órgão no presente, identificando sua atividade-fim e o benefício gerado para a sociedade, configurando formalmente a **Missão** institucional.  
 > - O **Enunciado II** estabelece um horizonte temporal futuro bem delimitado (até 2030) e delineia o estado aspiracional almejado pela instituição, configurando a **Visão** de futuro.  
-> - Portanto, trata-se de Missão e Visão, respectivamente (Alternativa C).
+> - Portanto, trata-se de Missão e Visão, respectivamente (Alternativa C).  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -227,13 +214,14 @@ Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári 
 * **D)** Escola Cultural.
 * **E)** Escola do Poder.
 
-> **Gabarito: B**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** A Escola do Aprendizado é descritiva e concebe a estratégia emergindo de forma incremental ao longo do tempo.  
 > - **B) CORRETA.** A **Escola do Planejamento** (liderada por Igor Ansoff) é uma escola prescritiva que encara a estratégia como um processo altamente formalizado, programado e subdividido em etapas analíticas rígidas, com orçamentos detalhados preparados por planejadores profissionais da organização.  
 > - **C) Incorreta.** A Escola Empreendedora é descritiva e fundamenta-se na visão e intuição individual do líder.  
 > - **D) Incorreta.** A Escola Cultural é descritiva e baseia-se em crenças e valores coletivos.  
-> - **E) Incorreta.** A Escola do Poder é descritiva e foca em jogos políticos e disputas de recursos.
+> - **E) Incorreta.** A Escola do Poder é descritiva e foca em jogos políticos e disputas de recursos.  
+> 
+> **Gabarito: B**
 
 ---
 
@@ -247,13 +235,14 @@ De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica d
 * **D)** Estratégias Deliberadas.
 * **E)** Estratégias Mecanicistas.
 
-> **Gabarito: B**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** A estratégia pretendida é o plano formal inicial traçado pela liderança.  
 > - **B) CORRETA.** Para Mintzberg, as **estratégias emergentes** são aquelas que não foram concebidas no plano formal deliberado, mas surgem espontaneamente da base organizacional a partir da resposta prática dos colaboradores a desafios e oportunidades cotidianas não previstos.  
 > - **C) Incorreta.** A estratégia não realizada é a parcela do plano que foi descartada ou abandonada.  
 > - **D) Incorreta.** A estratégia deliberada é o plano formal que foi executado exatamente conforme o planejado.  
-> - **E) Incorreta.** Categoria inexistente na taxonomia de Mintzberg.
+> - **E) Incorreta.** Categoria inexistente na taxonomia de Mintzberg.  
+> 
+> **Gabarito: B**
 
 ---
 
@@ -267,13 +256,14 @@ Ao formular seu planejamento plurianual, determinada defensoria pública incluiu
 * **D)** As Estratégias não realizadas do exercício anterior.
 * **E)** As Oportunidades captadas no ambiente externo através da análise PESTEL.
 
-> **Gabarito: C**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** A Visão é uma imagem de futuro onde a instituição quer chegar, com prazo delimitado.  
 > - **B) Incorreta.** Metas táticas são alvos quantitativos mensuráveis (ex.: realizar 5.000 atendimentos).  
 > - **C) CORRETA.** Os princípios éticos, mandamentos morais e diretrizes de conduta que direcionam as atitudes dos membros de uma instituição e expressam o que é inegociável na cultura organizacional constituem os **Valores** da organização.  
 > - **D) Incorreta.** Estratégias não realizadas são planos que foram formalmente descontinuados.  
-> - **E) Incorreta.** Oportunidades são eventos externos favoráveis do mercado/ambiente político.
+> - **E) Incorreta.** Oportunidades são eventos externos favoráveis do mercado/ambiente político.  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -287,10 +277,11 @@ Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de
 * **D)** Respostas puramente passivas e reativas ditadas pelas forças demográficas e climáticas do ambiente ecológico.
 * **E)** Vieses cognitivos inconscientes e restrições biológicas da capacidade de memória dos diretores executivos.
 
-> **Gabarito: B**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** Simulações matemáticas pertencem a abordagens analíticas quantitativas ou de pesquisa operacional.  
 > - **B) CORRETA.** A **Escola do Design** é a escola clássica (pioneira nos anos 1960) que propõe a estratégia como um processo deliberado de concepção mental cujo núcleo é o **ajuste (*fit*)** essencial entre a análise interna da organização (pontos fortes e fracos) e a análise externa do ambiente (oportunidades e ameaças), constituindo a base conceitual da famosa matriz SWOT.  
 > - **C) Incorreta.** Jogos de barganha e política caracterizam a Escola do Poder.  
 > - **D) Incorreta.** Adaptação reativa às forças externas caracteriza a Escola Ambiental.  
-> - **E) Incorreta.** Vieses mentais e processos cerebrais caracterizam a Escola Cognitiva.
+> - **E) Incorreta.** Vieses mentais e processos cerebrais caracterizam a Escola Cognitiva.  
+> 
+> **Gabarito: B**

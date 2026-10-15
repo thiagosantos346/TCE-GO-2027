@@ -38,219 +38,263 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-2. Lei Orgânica do TCE-GO (Lei Estadual nº 16.168/2007)
-├── 2.1 Natureza, Jurisdição e Competências Constitucionais e Legais (Arts. 1º a 4º)
-│   ├── 2.1.1 Natureza jurídica, autonomia funcional, administrativa e financeira, sede em Goiânia
-│   ├── 2.1.2 Abrangência territorial e rol exaustivo dos jurisdicionados (Art. 4º):
-│   │   ├── Gestores públicos da administração direta, autárquica e fundacional
-│   │   ├── Dirigentes de empresas públicas e sociedades de economia mista estaduais
-│   │   ├── Entidades privadas recebedoras de recursos estaduais (subvenções, convênios, OSs, OSCIPs e MROSC)
-│   │   ├── Responsáveis por desvio, extravio ou perda de dinheiros, bens ou valores públicos
-│   │   └── Sucessores dos administradores até o limite do valor do patrimônio transferido
-│   └── 2.1.3 Competências constitucionais e institucionais privativas (Arts. 1º a 3º)
-├── 2.2 Fiscalização de Atos, Contratos e Instrumentos de Controle Externo (Arts. 5º a 10)
-│   ├── 2.2.1 Instrumentos Operacionais: Auditorias, inspeções, acompanhamentos, monitoramentos e levantamentos
-│   ├── 2.2.2 Fiscalização de Atos Sujeitos a Registro (admissão de pessoal e aposentadorias/pensões)
-│   └── 2.2.3 Fiscalização de Licitações e Contratos (exame de editais, termos aditivos e suspensão cautelar)
-├── 2.3 Julgamento de Contas e Tomada de Contas Especial (Arts. 11 a 28)
-│   ├── 2.3.1 Prestação de Contas Ordinária anual dos ordenadores de despesas
-│   ├── 2.3.2 Tomada de Contas Especial (TCE) (Arts. 11 a 13):
-│   │   ├── Pressupostos obrigatórios de instauração (omissão, não comprovação, desfalque, desvio, dano)
-│   │   ├── Esgotamento das medidas administrativas internas pelo órgão de origem
-│   │   ├── Dispensa por economia processual (valor de alçada mínimo fixado pelo Tribunal)
-│   │   ├── Prazo decadencial de 10 anos sem notificação válida (inviabilização da ampla defesa)
-│   │   └── Responsabilidade solidária da autoridade omissa em instaurar a TCE
-│   └── 2.3.3 Julgamento e Classificação das Contas pelo Tribunal (Arts. 16 a 21):
-│       ├── Contas Regulares (Art. 17): quitação plena e incondicional
-│       ├── Contas Regulares com Ressalva (Art. 18): impropriedades formais, quitação com determinações preventivas
-│       ├── Contas Irregulares (Art. 19): omissão, dano, desvio, fraude; condenação em débito, multa e inelegibilidade
-│       └── Contas Iliquidáveis (Arts. 20 e 21): caso fortuito/força maior, trancamento e desarquivamento em até 5 anos
-├── 2.4 Medidas Cautelares, Sanções e Penalidades (Arts. 41 a 47)
-│   ├── 2.4.1 Medidas Cautelares: suspensão de atos/licitações, afastamento provisório e indisponibilidade de bens
-│   ├── 2.4.2 Imputação de Débito (condenação ressarcitória com eficácia de título executivo extrajudicial)
-│   ├── 2.4.3 Multas do TCE-GO:
-│   │   ├── Multa proporcional ao dano apurado (até 100% do débito imputado)
-│   │   └── Multa sancionatória simples por infração legal/regulamentar ou sonegação de informações
-│   ├── 2.4.4 Inabilitação para o exercício de cargo em comissão ou função de confiança (até 5 anos)
-│   └── 2.4.5 Declaração de Inidoneidade para licitar ou contratar com a administração estadual (até 5 anos)
-└── 2.5 Processo, Prazos e Sistema Recursal (Arts. 50 a 65)
-    ├── 2.5.1 Devido processo legal, contraditório, citação e prazo ordinário de defesa (30 dias)
-    ├── 2.5.2 Rol Taxativo dos Recursos na Lei Orgânica:
-    │   ├── Recurso de Reconsideração (Art. 52): exclusivo de processos de contas; prazo 30 dias; efeito suspensivo
-    │   ├── Recurso de Reexame (Art. 53): processos de atos, contratos, admissão, denúncia; prazo 30 dias; efeito suspensivo
-    │   ├── Embargos de Declaração (Art. 55): obscuridade, omissão ou contradição; prazo 10 dias; interrompe prazo recursal
-    │   └── Recurso de Revisão (Art. 56): natureza rescisória; prazo 5 anos; sem efeito suspensivo; hipóteses taxativas
-    └── 2.5.3 Prescrição da pretensão punitiva e ressarcitória (prazo geral de 5 anos; prescrição intercorrente de 3 anos)
-```
+## 🧭 Sumário
+- [1. Natureza, Jurisdição e Competências Constitucionais e Legais (Arts. 1º a 4º)](#1-natureza-jurisdição-e-competências-constitucionais-e-legais-arts-1º-a-4º)
+  - [1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais](#11-natureza-jurídica-sedes-e-autonomias-constitucionais)
+  - [1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores](#12-rol-legal-dos-jurisdicionados-e-responsabilidade-dos-sucessores)
+  - [1.3 Competências Finalísticas Privativas do TCE-GO](#13-competências-finalísticas-privativas-do-tce-go)
+- [2. Instrumentos de Fiscalização Externa (Arts. 5º a 10)](#2-instrumentos-de-fiscalização-externa-arts-5º-a-10)
+  - [2.1 Quadro Diferencial dos Instrumentos Operacionais de Controle](#21-quadro-diferencial-dos-instrumentos-operacionais-de-controle)
+  - [2.2 Fiscalização de Atos de Admissão, Concessão de Aposentadorias e Pensões](#22-fiscalização-de-atos-de-admissão-concessão-de-aposentadorias-e-pensões)
+  - [2.3 Controle de Editais, Licitações, Contratos e Parcerias com o Terceiro Setor](#23-controle-de-editais-licitações-contratos-e-parcerias-com-o-terceiro-setor)
+- [3. Julgamento de Contas e Tomada de Contas Especial (Arts. 11 a 28)](#3-julgamento-de-contas-e-tomada-de-contas-especial-arts-11-a-28)
+  - [3.1 Prestação de Contas Ordinária dos Ordenadores de Despesas](#31-prestação-de-contas-ordinária-dos-ordenadores-de-despesas)
+  - [3.2 Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência](#32-tomada-de-contas-especial-pressupostos-solidariedade-e-decadência)
+  - [3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis](#33-classificação-técnica-das-decisões-de-contas-regulares-regulares-com-ressalva-irregulares-e-iliquidáveis)
+- [4. Medidas Cautelares e Poder Sancionatório do TCE-GO (Arts. 41 a 47)](#4-medidas-cautelares-e-poder-sancionatório-do-tce-go-arts-41-a-47)
+  - [4.1 Medidas Cautelares: Suspensão, Afastamento e Indisponibilidade de Bens](#41-medidas-cautelares-suspensão-afastamento-e-indisponibilidade-de-bens)
+  - [4.2 Imputação de Débito e Eficácia Executiva Extrajudicial](#42-imputação-de-débito-e-eficácia-executiva-extrajudicial)
+  - [4.3 Regime das Multas Sancionatórias e Proporcionais ao Dano](#43-regime-das-multas-sancionatórias-e-proporcionais-ao-dano)
+  - [4.4 Inabilitação para Cargo em Comissão e Declaração de Inidoneidade](#44-inabilitação-para-cargo-em-comissão-e-declaração-de-inidoneidade)
+- [5. Processo, Prazos e Sistema Recursal da Lei Orgânica (Arts. 50 a 65)](#5-processo-prazos-e-sistema-recursal-da-lei-orgânica-arts-50-a-65)
+  - [5.1 Devido Processo Legal, Contraditório e Prazos de Defesa](#51-devido-processo-legal-contraditório-e-prazos-de-defesa)
+  - [5.2 Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão](#52-sistema-recursal-taxativo-reconsideração-reexame-embargos-e-revisão)
+  - [5.3 Regime da Prescrição Punitiva e Ressarcitória no TCE-GO](#53-regime-da-prescrição-punitiva-e-ressarcitória-no-tce-go)
+- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referências-bibliográficas)
+- [7. Questões de Concurso FCC Comentadas](#7-questões-de-concurso-fcc-comentadas)
 
 ---
 
-## 📖 Resumo Teórico & Pontos-Chave
+## 1. Natureza, Jurisdição e Competências Constitucionais e Legais (Arts. 1º a 4º)
 
-### 1. Jurisdição e Jurisdicionados do TCE-GO (Arts. 1º a 4º da Lei Estadual nº 16.168/2007)
+### 1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais
+O Tribunal de Contas do Estado de Goiás (TCE-GO), criado pela ordem constitucional e disciplinado no plano infraconstitucional pela **Lei Estadual nº 16.168, de 11 de dezembro de 2007** (Lei Orgânica do TCE-GO), é órgão público constitucional autônomo, investido da missão republicana de controle externo contábil, financeiro, orçamentário, operacional e patrimonial do Estado de Goiás.
 
-O Tribunal de Contas do Estado de Goiás é órgão dotado de **autonomia funcional, administrativa e financeira**, com sede na Capital (Goiânia) e **jurisdição própria e privativa em todo o território goiano**, abrangendo:
-
-* **Administração Direta:** Os Poderes Executivo, Legislativo e Judiciário estaduais, bem como o Ministério Público Estadual e a Defensoria Pública do Estado;
-* **Administração Indireta:** Autarquias, fundações públicas, empresas públicas e sociedades de economia mista estaduais;
-* **Entidades Privadas e Terceiro Setor:** Qualquer pessoa física ou jurídica que receba recursos públicos estaduais a título de subvenção, auxílio, convênio, contrato de gestão (Organizações Sociais - OSs), termo de parceria (OSCIPs) ou termos de colaboração/fomento (MROSC);
-* **Causadores de Dano:** Qualquer pessoa que der causa a perda, extravio, desvio ou outra irregularidade de que resulte dano ao erário estadual;
-* **Sucessores:** Os sucessores dos administradores e responsáveis, que respondem pela reparação do dano até o limite do valor do patrimônio que lhes foi transferido pela sucessão hereditária.
+- **Sede e Jurisdição Territorial:** Tem sede na Capital do Estado (Goiânia) e exerce **jurisdição própria e privativa em todo o território estadual de Goiás**, alcançando todos os responsáveis por dinheiros, bens e valores públicos da administração estadual direta e indireta.
+- **Autonomias:** Goza de **autonomia funcional, administrativa e financeira**, com autogoverno (eleição de seu Presidente, Vice-Presidente e Corregedor-Geral pelo Tribunal Pleno), iniciativa privativa de leis para organização de seus serviços e cargos de seu quadro técnico, e competência para executar suas dotações orçamentárias de acordo com a programação financeira.
 
 ---
 
-### 2. Instrumentos de Fiscalização Externa (Arts. 5º a 10)
+### 1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores
+Estão expressamente submetidos à jurisdição fiscalizatória do TCE-GO, nos termos do artigo 4º da Lei Estadual nº 16.168/2007:
+1. Qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens ou valores públicos estaduais ou pelos quais o Estado de Goiás responda;
+2. Todos os gestores, ordenadores de despesas e agentes dos Poderes Executivo, Legislativo e Judiciário, do Ministério Público Estadual, da Defensoria Pública do Estado e dos Tribunais e Conselhos vinculados ao Estado;
+3. Dirigentes de autarquias, fundações públicas estaduais, empresas públicas e sociedades de economia mista sob controle acionário do Estado de Goiás;
+4. Dirigentes de entidades privadas recebedoras de recursos estaduais sob qualquer título: subvenções sociais, auxílios, convênios de cooperação, contratos de gestão (Organizações Sociais - OSs), termos de parceria (OSCIPs) ou termos de colaboração e fomento (Marco Regulatório das Organizações da Sociedade Civil - MROSC / Lei Federal nº 13.019/2014);
+5. Qualquer pessoa que der causa a perda, extravio, desfalque ou desvio de bens e valores públicos estaduais;
+6. **Responsabilidade dos Sucessores (Art. 4º, parágrafo único):** A obrigação de reparar o dano causado ao erário e as dívidas decorrentes de acórdãos condenatórios do Tribunal estendem-se aos sucessores e herdeiros do administrador ou responsável, **até o limite do valor do patrimônio que lhes tenha sido transferido** pela sucessão causa mortis.
 
-Para exercer a fiscalização contábil, financeira, orçamentária, operacional e patrimonial, o TCE-GO utiliza os seguintes instrumentos formais:
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** O TCE-GO possui jurisdição estritamente sobre a esfera **ESTADUAL**. Ele **NÃO fiscaliza recursos municipais próprios** dos 246 municípios goianos — estes são de competência privativa do **TCM-GO** (Tribunal de Contas dos Municípios do Estado de Goiás). Todavia, se o Estado de Goiás repassar recursos voluntários a um Município via convênio, o TCE-GO tem jurisdição sobre o convênio estadual! Quanto aos sucessores, atente-se à pegadinha de afirmar que os herdeiros respondem com seus próprios bens: a responsabilidade é estritamente intra vires hereditatis (limitada ao valor do quinhão hereditário recebido).
 
-| Instrumento | Finalidade Específica | Momento / Dinâmica |
+---
+
+### 1.3 Competências Finalísticas Privativas do TCE-GO
+Nos moldes dos artigos 1º a 3º da Lei nº 16.168/2007, compete privativamente ao TCE-GO:
+- Apreciar as contas anuais prestadas pelo Governador do Estado mediante Parecer Prévio em 60 dias;
+- Julgar as contas dos administradores e demais responsáveis por recursos estaduais;
+- Apreciar, para fins de registro, a legalidade dos atos de admissão de pessoal e das concessões iniciais de aposentadorias, reformas e pensões;
+- Realizar, por iniciativa própria ou a pedido da Assembleia Legislativa, auditorias e inspeções;
+- Fiscalizar a aplicação de quaisquer recursos repassados pelo Estado a Municípios ou entidades privadas;
+- Prestar as informações solicitadas pela Assembleia Legislativa sobre a fiscalização contábil e orçamentária;
+- Aplicar sanções e fixar prazos para adoção de medidas corretivas em atos ilegais;
+- Emitir pronunciamento em caráter normativo em resposta a **Consultas** formuladas por autoridades legitimadas (sem analisar casos concretos).
+
+---
+
+## 2. Instrumentos de Fiscalização Externa (Arts. 5º a 10)
+
+### 2.1 Quadro Diferencial dos Instrumentos Operacionais de Controle
+Para concretizar as diretrizes da fiscalização contábil, orçamentária e operacional, o corpo técnico do TCE-GO atua por meio de cinco instrumentos procedimentais formais:
+
+| Instrumento Formal | Finalidade e Âmbito de Aplicação | Momento Temporal / Característica |
 | :--- | :--- | :--- |
-| **Auditoria** | Exame aprofundado e sistemático de operações contábeis, programas e sistemas governamentais. | Ordinária (prevista no Plano Anual de Fiscalização) ou Extraordinária. |
-| **Inspeção** | Verificação *in loco* para suprir omissões, esclarecer dúvidas de auditoria ou apurar denúncias e representações. | Pontual, rápida e direcionada a fatos específicos e urgentes. |
-| **Acompanhamento** | Fiscalização concomitante e contínua das atividades dos órgãos jurisdicionados. | Ao longo de todo o exercício financeiro (em tempo real). |
-| **Monitoramento** | Verificação do cumprimento das deliberações, acórdãos e recomendações emitidas pelo Tribunal. | Posterior, focado na efetividade das determinações expedidas. |
-| **Levantamento** | Mapeamento preliminar de áreas para conhecer a estrutura, sistemas e riscos dos jurisdicionados. | Fase preparatória para definir o plano de auditorias. |
+| **Auditoria** | Exame aprofundado, abrangente e estruturado da gestão orçamentária, contábil, financeira, patrimonial ou operacional de órgãos e programas. | Prevista no **Plano Anual de Fiscalização (PAF)** (ordinária) ou decorrente de fato grave superveniente (extraordinária). |
+| **Inspeção** | Verificação *in loco* pontual destinada a suprir omissões, esclarecer fatos duvidosos levantados em auditorias ou apurar **denúncias e representações urgentes**. | Ação pontual, emergencial e de tiro curto sobre objeto determinado. |
+| **Acompanhamento** | Fiscalização concomitante, simultânea e contínua dos atos de gestão pública ao longo do exercício orçamentário. | Realizado **em tempo real** no curso do exercício financeiro. |
+| **Monitoramento** | Verificação do efetivo cumprimento e do resultado prático das decisões, acórdãos e recomendações emanadas do Tribunal. | Atuação **posterior** para averiguar a eficácia e obediência às determinações do Pleno. |
+| **Levantamento** | Mapeamento prévio de áreas, processos de trabalho, sistemas corporativos e estrutura de controle de jurisdicionados. | Fase preliminar de diagnóstico para identificar riscos e subsidiar a elaboração de futuras auditorias. |
+
+> ⭐ **IMPORTANTE / DISTINÇÃO RECORRENTE DA FCC:** A FCC adora cobrar a distinção conceitual entre *Monitoramento* e *Levantamento*. Memorize a regra mnemônica: **Levantamento** é o diagnóstico prévio (*antes* da auditoria, para mapear riscos); **Monitoramento** é o acompanhamento posterior (*depois* do acórdão, para checar se o gestor cumpriu as determinações expedidas pela Corte de Contas).
 
 ---
 
-### 3. Tomada de Contas Especial (TCE) (Arts. 11 a 13)
-
-A Tomada de Contas Especial é um processo administrativo formal, de caráter excepcional, instaurado pela autoridade competente quando esgotadas as medidas administrativas internas de cobrança ou saneamento.
-
-#### 3.1 Hipóteses Obrigatórias de Instauração:
-1. Omissão injustificada no dever de prestar contas;
-2. Não comprovação da aplicação dos recursos repassados pelo Estado (inclusive convênios e subvenções);
-3. Ocorrência de desfalque, desvio de dinheiro, bens ou valores públicos;
-4. Prática de qualquer ato ilegal, ilegítimo ou antieconômico de que resulte comprovado dano ao erário.
-
-#### 3.2 Regras Processuais Fundamentais da TCE:
-* **Esgotamento das Vias Administrativas:** A instauração da TCE só é cabível após frustradas as providências administrativas internas do órgão de origem para recompor o dano.
-* **Responsabilidade Solidária da Autoridade Omissa (Art. 11, § 1º):** Sob pena de responsabilidade solidária com o causador do dano, a autoridade administrativa competente é obrigada a instaurar a TCE no prazo fixado em ato normativo do TCE-GO.
-* **Dispensa de Instauração por Economia Processual:** O Tribunal pode fixar valor de alçada anual abaixo do qual a TCE não deve ser instaurada nem encaminhada, por ser o custo da cobrança superior ao valor do prejuízo (exceto em caso de reincidência cumulativa do mesmo gestor).
-* **Decadência Decenal (10 anos):** Salvo determinação em contrário do Tribunal, fica dispensada a instauração da TCE quando houver transcorrido prazo superior a **10 (dez) anos** entre a data provável do fato gerador e a primeira notificação válida do responsável pela autoridade administrativa, devido à inviabilização do pleno exercício da ampla defesa.
+### 2.2 Fiscalização de Atos de Admissão, Concessão de Aposentadorias e Pensões
+O TCE-GO examina a legalidade dos atos de admissão de pessoal na administração pública estadual (efetivos e empregados públicos), ressalvadas expressamente as nomeações para **cargos em comissão de livre nomeação e exoneração**.
+- **Registro de Aposentadorias e Pensões:** Caracteriza-se como ato administrativo complexo. O deferimento pelo órgão ou entidade previdenciária de origem constitui apenas etapa inicial, aperfeiçoando-se com o registro definitivo concedido pelo Tribunal de Contas.
+- O prazo para o exame do ato concessório é de **cinco anos**, findos os quais, sem decisão do Tribunal, opera-se a estabilização para efeito de garantia do contraditório e ampla defesa (Tema 445 do STF).
 
 ---
 
-### 4. Classificação das Contas Julgadas pelo TCE-GO (Arts. 16 a 21)
+### 2.3 Controle de Editais, Licitações, Contratos e Parcerias com o Terceiro Setor
+O Tribunal fiscaliza procedimentos de licitação, editais, atas de registro de preços, contratos administrativos e instrumentos congêneres de órgãos estaduais.
+- O TCE-GO possui atribuição legal para analisar a minuta de editais de concessões, parcerias público-privadas (PPPs) e grandes contratações públicas, determinando ajustes saneadores quando identificadas cláusulas restritivas da competitividade.
+- Nas parcerias com o Terceiro Setor (Organizações Sociais de Saúde, Educação, etc.), a fiscalização do TCE-GO debruça-se sobre o atingimento de metas pactuadas nos **Contratos de Gestão**, a regularidade dos processos de contratação de terceiros pelas OSs e o cumprimento dos limites de despesas com pessoal e custeio.
 
-Ao deliberar sobre processo de tomada ou prestação de contas dos ordenadores de despesas e administradores públicos estaduais, o Tribunal de Contas proferirá decisão definitiva classificando as contas em:
+---
+
+## 3. Julgamento de Contas e Tomada de Contas Especial (Arts. 11 a 28)
+
+### 3.1 Prestação de Contas Ordinária dos Ordenadores de Despesas
+Anualmente, todos os titulares de órgãos da administração direta, autarquias, fundações e dirigentes de empresas estatais estaduais devem apresentar ao TCE-GO a sua **Prestação de Contas Ordinária**.
+As contas são organizadas sob a forma de demonstrativos contábeis, relatórios de execução orçamentária e relatório conclusivo do órgão de controle interno, submetendo-se à instrução das unidades técnicas especializadas da Corte e parecer do Ministério Público de Contas antes do julgamento final pelo Tribunal Pleno ou por uma de suas Câmaras.
+
+---
+
+### 3.2 Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência
+A **Tomada de Contas Especial (TCE)** é um processo de controle externo extraordinário e coercitivo instaurado diante da caracterização de dano ao erário estadual.
+
+1. **Pressupostos Materiais Obrigatórios de Instauração (Art. 11):**
+   - Omissão culposa ou dolosa no dever de prestar contas;
+   - Não comprovação da aplicação dos recursos repassados pelo Estado;
+   - Ocorrência de desfalque, desvio, alcance ou extravio de bens ou valores públicos;
+   - Prática de qualquer ato ilegal, ilegítimo ou antieconômico do qual resulte comprovado prejuízo financeiro ao erário estadual.
+2. **Esgotamento das Providências Internas:** A instauração formal da TCE pressupõe o insucesso das medidas administrativas internas deflagradas no próprio órgão de origem para notificar o devedor e reaver amigavelmente os valores lesados.
+3. **Responsabilidade Solidária da Autoridade Omissa (Art. 11, § 1º):** A autoridade administrativa máxima do órgão ou entidade jurisdicionada tem o dever legal inafastável de instaurar a TCE diante da notícia fundamentada de dano ou desvio. Caso se omita culposamente, **responderá solidariamente** pelo valor total do prejuízo apurado perante o Tribunal de Contas!
+4. **Dispensa de Encaminhamento por Economia Processual:** O Plenário do TCE-GO edita anualmente instruções normativas fixando **valor de alçada mínimo** (montante mínimo de prejuízo) abaixo do qual a TCE não deve ser remetida à Corte, para evitar que o custo operacional do processamento administrativo supere o próprio montante a ser recuperado (salvo casos de reincidência dolosa do gestor).
+5. **Decadência Decenal (10 Anos):** Salvo expressa determinação em contrário do Tribunal, fica **dispensada a instauração da Tomada de Contas Especial** quando houver transcorrido prazo superior a **10 (dez) anos** entre a data presumida do fato lesivo e a primeira notificação formal válida do responsável pelo órgão administrativo, por restar manifestamente inviabilizado o exercício pleno do contraditório e da ampla defesa pelo longo decurso do tempo.
+
+---
+
+### 3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis
+Ao julgar as tomadas ou prestações de contas, o TCE-GO proferirá decisão terminativa ou definitiva, classificando as contas em uma das quatro hipóteses taxativas dos artigos 16 a 21 da LOTCE:
 
 ```mermaid
 graph TD
-    Julgamento[Julgamento das Contas pelo TCE-GO]
+    Julgamento["Julgamento de Mérito pelo TCE-GO (Arts. 16 a 21)"]
     
-    Julgamento --> Reg[Regulares: Art. 17]
-    Julgamento --> RegRess[Regulares com Ressalva: Art. 18]
-    Julgamento --> Irreg[Irregulares: Art. 19]
-    Julgamento --> Iliq[Iliquidáveis: Arts. 20 e 21]
+    Julgamento --> Reg["Contas Regulares (Art. 17)"]
+    Julgamento --> RegRess["Contas Regulares com Ressalva (Art. 18)"]
+    Julgamento --> Irreg["Contas Irregulares (Art. 19)"]
+    Julgamento --> Iliq["Contas Iliquidáveis (Arts. 20 e 21)"]
     
-    Reg --> Q1[Quitação plena e incondicional]
-    RegRess --> Q2[Quitação com determinações de saneamento futuro]
-    Irreg --> Q3[Imputação de Débito + Multa + Inelegibilidade LC 64/90]
-    Iliq --> Q4[Trancamento dos autos por caso fortuito/força maior<br/>Arquivamento definitivo após 5 anos sem provas novas]
+    Reg --> Q1["Expressam exatidão e legitimidade plena<br/>Efeito: QUITAÇÃO PLENA E IRREVOGÁVEL"]
+    RegRess --> Q2["Faltas meramente formais sem prejuízo ao erário<br/>Efeito: QUITAÇÃO COM DETERMINAÇÕES CORRETIVAS"]
+    Irreg --> Q3["Dano, fraude, desvio, omissão ou reincidência grave<br/>Efeito: CONDENAÇÃO EM DÉBITO + MULTAS + INELEGIBILIDADE"]
+    Iliq --> Q4["Caso fortuito ou força maior externa comprovada<br/>Efeito: TRANCAMENTO DAS CONTAS (Reabertura em até 5 anos)"]
 ```
 
-#### Quadro Sinótico de Julgamento de Contas:
-
-| Classificação | Fundamento Legal | Efeitos Jurídicos / Consequências |
+| Classificação das Contas | Hipóteses Materiais Enquadradas | Consequências Jurídicas e Decisórias |
 | :--- | :--- | :--- |
-| **Regulares** | Art. 17 da LOTCE. Exatidão dos demonstrativos, legalidade, legitimidade e economicidade dos atos de gestão. | O Tribunal confere **quitação plena** e irrevogável ao responsável, liberando-o da responsabilidade. |
-| **Regulares com Ressalva** | Art. 18 da LOTCE. Impropriedade ou falta de natureza formal de que não resulte dano ao erário nem evidencie má-fé. | O Tribunal dá **quitação**, emitindo determinação com recomendações para que as falhas sejam corrigidas no futuro. |
-| **Irregulares** | Art. 19 da LOTCE. Omissão na prestação de contas, desvio de bens, infração grave a norma legal/regulamentar ou dano ao erário. | Condenação em **débito** (reparação do dano); aplicação de **multa**; inabilitação/inidoneidade; envio ao MP Estadual (improbidade) e à Justiça Eleitoral (**inelegibilidade** da LC 64/90 se houver dano doloso). |
-| **Iliquidáveis** | Arts. 20 e 21 da LOTCE. Quando caso fortuito ou força maior, alheio à vontade do responsável, tornar materialmente impossível o julgamento do mérito. | O Tribunal ordena o **trancamento das contas** e o arquivamento. Se em até **5 (cinco) anos** surgirem elementos probatórios, o feito é reaberto; após 5 anos, opera-se o arquivamento definitivo. |
+| **Regulares** (Art. 17) | Demonstram de forma cristalina a exatidão dos demonstrativos, a legalidade, legitimidade e economicidade dos atos de gestão financeira e orçamentária praticados. | O Tribunal confere **quitação plena e irrestrita** ao gestor, exonerando-o da responsabilidade pelo exercício examinado. |
+| **Regulares com Ressalva** (Art. 18) | Evidenciam impropriedades de natureza meramente formal ou falhas burocráticas que **não resultaram em dano ao patrimônio público** nem revelam conduta de má-fé. | O Tribunal confere **quitação**, expedindo determinações e recomendações preventivas para que as falhas sejam expurgadas nos períodos seguintes. |
+| **Irregulares** (Art. 19) | a) Omissão injustificada na prestação de contas;<br/>b) Prática de ato de gestão ilegal, ilegítimo ou antieconômico, ou infração grave a norma legal;<br/>c) Dano ao erário resultante de ato de gestão ilegítimo ou desfalque/desvio;<br/>d) Reincidência no descumprimento de determinações anteriores do Tribunal. | - **Condenação em débito** (ressarcimento);<br/>- Aplicação de multas simples ou proporcionais;<br/>- Inabilitação para cargos comissionados e inidoneidade;<br/>- Remessa ao MPE (para ACP por Improbidade);<br/>- Envio à Justiça Eleitoral (**inelegibilidade** da LC 64/90, caso a conduta configure ato doloso de improbidade administrativa). |
+| **Iliquidáveis** (Arts. 20 e 21) | Ocorrência de **caso fortuito ou força maior**, comprovadamente alheio à vontade do responsável, que torne **materialmente impossível** a apuração do mérito das contas (ex.: desastre natural, enchente súbita ou incêndio que destrua integralmente os arquivos). | O Tribunal ordena o **trancamento das contas** e o arquivamento do feito. Caso surjam novos elementos ou provas no prazo decadencial de **cinco (5) anos**, o processo é desentranhado e julgado pelo mérito; esgotado o quinquênio, o arquivamento torna-se definitivo. |
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Fique atento: o desaparecimento ou extravio de documentos por desídia, culpa ou desleixo do ordenador de despesas **NÃO autoriza a classificação como iliquidável**! Se o gestor não comprova força maior cabal, suas contas são julgadas **IRREGULARES** por omissão e falta de comprovação de gastos. Contas iliquidáveis decorrem estritamente de caso fortuito ou força maior comprovados.
 
 ---
 
-### 5. Medidas Cautelares e Sanções Administrativas (Arts. 41 a 47)
+## 4. Medidas Cautelares e Poder Sancionatório do TCE-GO (Arts. 41 a 47)
 
-#### 5.1 Medidas Cautelares (Art. 41)
-Em caso de urgência (*periculum in mora*) e havendo plausibilidade do direito (*fumus boni iuris*), o Relator ou o Plenário poderá, de ofício ou a requerimento do Ministério Público de Contas, decretar cautelarmente:
-* **Suspensão cautelar de atos administrativos e licitações:** paralisação imediata de certame ou execução contratual viciada;
-* **Afastamento provisório de responsáveis:** quando houver fortes indícios de que sua permanência no cargo dificulte a instrução processual ou destrua provas (sem prejuízo de seus vencimentos);
-* **Indisponibilidade de bens dos responsáveis:** por prazo determinado, no montante estritamente necessário para garantir o ressarcimento do erário apurado.
-
-#### 5.2 Sanções do TCE-GO
-1. **Imputação de Débito:** condenação ressarcitória do valor do dano atualizado monetariamente e acrescido de juros legais. Constitui **título executivo extrajudicial** (Art. 71, § 3º da CF/88);
-2. **Multa Proporcional ao Dano:** pode ser aplicada ao responsável em percentual de até **100% (cem por cento)** do valor do dano imputado (aplicada cumulativamente com o débito);
-3. **Multa Sancionatória por Infração Grave / Obstrução:** cominada em faixas de valores legais independentemente de dano ao erário (ex.: sonegação de documentos, desobediência a diligências no prazo regulamentar, reincidência);
-4. **Inabilitação para Cargo em Comissão ou Função de Confiança:** pelo prazo de até **5 (cinco) anos** para o exercício de cargos de chefia, direção e assessoramento na Administração Pública de Goiás;
-5. **Declaração de Inidoneidade para Licitar e Contratar:** pelo prazo de até **5 (cinco) anos** com a Administração Pública Estadual para pessoas físicas ou jurídicas que tenham cometido fraude em licitações ou contratos.
+### 4.1 Medidas Cautelares: Suspensão, Afastamento e Indisponibilidade de Bens
+No curso de fiscalizações ou processos de contas, havendo receio fundamentado de dano irreparável ao erário (*periculum in mora*) e plausibilidade jurídica da ilicitude (*fumus boni iuris*), o Relator ou o Tribunal Pleno poderá expedir **medidas cautelares preparatórias ou incidentais**:
+1. **Suspensão Cautelar de Licitação ou Contrato:** Paralisação imediata de certames ou atos administrativos irregulares até o julgamento definitivo;
+2. **Afastamento Provisório de Responsáveis:** Quando comprovado que a permanência do investigado no cargo público poderá embaraçar a colheita de provas ou fraudar a instrução, sem prejuízo de seus vencimentos e subsídios funcionais;
+3. **Indisponibilidade Provisória de Bens:** Bloqueio acautelatório de bens do responsável, em valor suficiente para garantir a integral recomposição do prejuízo apurado.
 
 ---
 
-### 6. Sistema Recursal da Lei Orgânica do TCE-GO (Arts. 50 a 65)
+### 4.2 Imputação de Débito e Eficácia Executiva Extrajudicial
+A imputação de débito constitui provimento de recomposição patrimonial que obriga o agente condenado a recolher aos cofres públicos o montante do prejuízo verificado, monetariamente corrigido e acrescido de juros de mora legais (Art. 41 c/c Art. 47).
+- A decisão proferida pelo TCE-GO que imputa débito ou comina penalidade de multa tem **eficácia de título executivo extrajudicial**, apto a amparar a propositura direta de Ação de Execução Fiscal pela Procuradoria-Geral do Estado (PGE-GO).
 
-O sistema recursal da Lei Estadual nº 16.168/2007 é taxativo e possui distinções procedimentais rigorosas:
+---
+
+### 4.3 Regime das Multas Sancionatórias e Proporcionais ao Dano
+O TCE-GO dispõe de competência legal para impor duas espécies de multas:
+- **Multa Proporcional ao Dano (Art. 42):** Nos casos em que o responsável for julgado em débito, o Tribunal poderá aplicar-lhe multa proporcional de até **100% (cem por cento)** do valor atualizado do prejuízo financeiro causado ao erário. Essa sanção é cumulável com a obrigação de restituição do débito, não configurando *bis in idem*.
+- **Multa Sancionatória Simples (Art. 43):** Cominada nas situações de desrespeito à autoridade das deliberações da Corte, mesmo sem ocorrência de dano patrimonial direto:
+  - Grave infração a preceito constitucional, legal ou regulamentar de natureza financeira, contábil ou patrimonial;
+  - Não atendimento, sem justa causa, de diligência, notificação ou prazo assinado pelo Relator;
+  - Obstrução ao livre exercício de inspeções e auditorias determinadas pela Corte;
+  - Sonegação de livros, contratos, notas fiscais e documentos requisitados em diligência de controle externo;
+  - Reincidência no descumprimento de ordens ou recomendações do Tribunal.
+
+---
+
+### 4.4 Inabilitação para Cargo em Comissão e Declaração de Inidoneidade
+Em casos revestidos de especial gravidade, o Tribunal Pleno do TCE-GO poderá deliberar pelas seguintes medidas gravosas de idoneidade administrativa:
+- **Inabilitação para o Exercício de Cargo em Comissão ou Função de Confiança (Art. 43, parágrafo único):** Pelo prazo de até **cinco (5) anos**, impedindo a nomeação do apenado para funções de chefia, direção e assessoramento em qualquer órgão ou entidade da administração estadual de Goiás;
+- **Declaração de Inidoneidade para Licitar e Contratar com a Administração Pública Estadual (Art. 44):** Pelo prazo de até **cinco (5) anos**, imposta a empresas, consórcios e pessoas físicas que tenham perpetrado fraude comprovada em certames licitatórios ou contratos públicos perante órgãos sob controle do TCE-GO.
+
+---
+
+## 5. Processo, Prazos e Sistema Recursal da Lei Orgânica (Arts. 50 a 65)
+
+### 5.1 Devido Processo Legal, Contraditório e Prazos de Defesa
+Os processos perante o Tribunal de Contas observam estritamente o devido processo legal constitucional, com publicidade das pautas de julgamento, intimações regulares e garantia de contraditório e ampla defesa.
+- **Prazo Geral de Resposta / Defesa:** Citado o responsável ou notificado o interessado para justificar irregularidades ou recolher o débito, o prazo geral assinado para apresentação de defesa formal é de **30 (trinta) dias**.
+
+---
+
+### 5.2 Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão
+O rol recursal da Lei Orgânica do TCE-GO é estritamente legal e desenhado com competências específicas:
 
 ```mermaid
 graph TD
-    Decisao[Deliberação do TCE-GO]
+    Deliberacao["Deliberação Decisória do TCE-GO"]
     
-    Decisao --> ProcessoContas["Processo de CONTAS (Prestação/Tomada de Contas)"]
-    Decisao --> ProcessoFiscalizacao["Processo de FISCALIZAÇÃO (Atos, Contratos, Pessoal, Denúncias)"]
-    Decisao --> Obscuridade["Dúvida / Omissão / Contradição"]
-    Decisao --> TransitoJulgado["Decisão com Trânsito em Julgado"]
+    Deliberacao --> ProcessoContas["Em Processos de CONTAS (Prestação ou Tomada de Contas)"]
+    Deliberacao --> ProcessoFisc["Em Processos de FISCALIZAÇÃO (Atos, Contratos, Admissão, Denúncia)"]
+    Deliberacao --> VicioInterno["Contra qualquer decisão: Obscuridade, Omissão ou Contradição"]
+    Deliberacao --> CoisaJulgada["Acórdão Condenatório Transitado em Julgado"]
     
-    ProcessoContas --> RReconsideracao["Recurso de Reconsideração<br/>• Prazo: 30 dias<br/>• Efeito: Devolutivo e Suspensivo<br/>• Julgado pelo Tribunal Pleno"]
-    ProcessoFiscalizacao --> RReexame["Recurso de Reexame<br/>• Prazo: 30 dias<br/>• Efeito: Devolutivo e Suspensivo<br/>• Julgado pelo Tribunal Pleno"]
-    Obscuridade --> ED["Embargos de Declaração<br/>• Prazo: 10 dias<br/>• Interrompe prazo recursal"]
-    TransitoJulgado --> RRevisao["Recurso de Revisão (Rescisória)<br/>• Prazo: até 5 anos<br/>• Sem efeito suspensivo<br/>• Hipóteses taxativas (falsidade, erro de cálculo, doc novo)"]
+    ProcessoContas --> RecReconsideracao["RECURSO DE RECONSIDERAÇÃO (Art. 52)<br/>• Prazo: 30 dias<br/>• Efeito: Devolutivo e Suspensivo<br/>• Julgado pelo Tribunal Pleno"]
+    ProcessoFisc --> RecReexame["RECURSO DE REEXAME (Art. 53)<br/>• Prazo: 30 dias<br/>• Efeito: Devolutivo e Suspensivo<br/>• Julgado pelo Tribunal Pleno"]
+    VicioInterno --> EmbDeclara["EMBARGOS DE DECLARAÇÃO (Art. 55)<br/>• Prazo: 10 DIAS (não 5 dias)<br/>• Efeito: INTERROMPE o prazo dos demais recursos"]
+    CoisaJulgada --> RecRevisao["RECURSO DE REVISÃO (Art. 56)<br/>• Prazo: 5 anos do trânsito em julgado<br/>• Efeito: Somente Devolutivo (SEM efeito suspensivo)<br/>• Hipóteses: Erro de cálculo, falsidade documental ou documento novo"]
 ```
 
-#### Tabela Comparativa dos Recursos:
-
-| Recurso | Cabimento Específico | Prazo | Efeitos | Competência para Julgar |
+| Espécie Recursal | Matéria / Cabimento Específico | Prazo Legal | Efeitos Processuais | Julgador Competente |
 | :--- | :--- | :--- | :--- | :--- |
-| **Recurso de Reconsideração** (Art. 52) | Deliberações definitivas proferidas em **processos de contas** (prestação de contas, tomada de contas ordinária ou especial). Pode ser interposto apenas uma única vez. | **30 dias** | Devolutivo e **Suspensivo** | **Tribunal Pleno** |
-| **Recurso de Reexame** (Art. 53) | Deliberações proferidas em processos de **fiscalização de atos e contratos, atos sujeitos a registro (admissão/aposentadoria), denúncias e representações**. | **30 dias** | Devolutivo e **Suspensivo** | **Tribunal Pleno** |
-| **Embargos de Declaração** (Art. 55) | Contra qualquer decisão (monocrática ou colegiada) para sanar **obscuridade, omissão ou contradição**. | **10 dias** | Efeito devolutivo próprio; **interrompe** o prazo para outros recursos. | O mesmo Relator ou Colegiado prolator da decisão. |
-| **Recurso de Revisão** (Art. 56) | Contra decisão de mérito transitada em julgado, fundado estritamente em: 1) erro de cálculo; 2) falsidade de documento; 3) documento novo relevante superveniente. | **5 anos** do trânsito em julgado | Devolutivo (**não suspende** a execução da decisão). | **Tribunal Pleno** |
+| **Recurso de Reconsideração** (Art. 52) | Cabe exclusivamente contra deliberação definitiva proferida em **processos de tomada ou prestação de contas**. Interponível apenas uma vez. | **30 dias** | Devolutivo e **Suspensivo** | **Tribunal Pleno** |
+| **Recurso de Reexame** (Art. 53) | Cabe contra decisões definitivas proferidas em processos de **fiscalização de atos, editais, licitações, contratos administrativos, atos sujeitos a registro (pessoal e aposentadoria), denúncias e representações**. | **30 dias** | Devolutivo e **Suspensivo** | **Tribunal Pleno** |
+| **Embargos de Declaração** (Art. 55) | Oponíveis contra decisões monocráticas ou acórdãos para suprir **omissão**, aclarar **obscuridade** ou eliminar **contradição**. | **10 dias** | Devolutivo próprio; **interrompe** a contagem do prazo para outros recursos. | O mesmo prolator da deliberação recorrida (Relator ou Colegiado). |
+| **Recurso de Revisão** (Art. 56) | Ação rescisória autônoma contra decisão de mérito transitada em julgado, com base restrita em: 1) erro de cálculo; 2) falsidade documental comprovada; 3) surgimento de documentos novos e relevantes supervenientes. | **5 anos** (do trânsito em julgado) | **Apenas efeito devolutivo** (não suspende a cobrança executiva da condenação). | **Tribunal Pleno** |
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Memorize as duas diferenças capitais que derrubam candidatos:
+> 1. Embargos de Declaração na Lei Orgânica têm prazo de **10 DIAS** (o CPC prevê 5 dias; a FCC coloca 5 dias para o candidato errar!). Os embargos **interrompem** (zeram) o prazo dos demais recursos.
+> 2. O recurso contra processo de **contas** chama-se *Reconsideração*; o recurso contra processos de **atos, contratos, editais e pessoal** chama-se *Reexame*.
 
 ---
 
-## ⚠️ Alertas de Prova & Pegadinhas da FCC
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A FCC frequentemente troca os recursos: diz que cabe *Recurso de Reconsideração* em fiscalização de contrato ou em ato de aposentadoria. **Atenção:** Recurso de **Reconsideração** é exclusivo de processos de **CONTAS**. Para atos, contratos, licitações, denúncias e representações, o recurso cabível é o Recurso de **Reexame**. Ambos têm prazo de **30 dias** e efeito suspensivo.
-
-> ⭐ **IMPORTANTE / DISTINÇÃO CONCEITUAL:** Se o gestor foi negligente ou sumiu com os documentos, as contas são **IRREGULARES** (omissão no dever de prestar contas). As contas somente serão consideradas **ILIQUIDÁVEIS** se a impossibilidade decorrer de **caso fortuito ou força maior** (ex.: enchente ou incêndio acidental comprovado pelo corpo de bombeiros que destruiu os arquivos públicos). O prazo para reabertura de contas iliquidáveis se surgirem provas é de **5 (cinco) anos**.
-
-> 📌 **NOTA EXPLICATIVA / PRAZO PROCESSUAL:** Diferente do Código de Processo Civil (CPC), que fixa o prazo de embargos de declaração em 5 dias, na Lei Orgânica do TCE-GO (e na Lei Orgânica do TCU) o prazo dos Embargos de Declaração é de **10 (dez) dias**! E os embargos **interrompem** a contagem do prazo para a interposição dos demais recursos.
-
-> 🛑 **ATENÇÃO / PRAZO DECADENCIAL DA TCE:** A autoridade administrativa deve instaurar a TCE tempestivamente. Caso transcorram mais de 10 anos entre a ocorrência do fato gerador e a notificação válida sem motivo atribuível ao réu, o Tribunal considera inviabilizada a ampla defesa e determina o arquivamento sem julgamento de mérito por decadência da pretensão de instauração.
+### 5.3 Regime da Prescrição Punitiva e Ressarcitória no TCE-GO
+Em consonância com as teses vinculantes fixadas pelo Supremo Tribunal Federal (Temas 899 e 1021) e normativos do Tribunal:
+- **Prescrição Geral Quinquenal (5 anos):** A pretensão punitiva (aplicação de multas e sanções de inabilitação/inidoneidade) e a pretensão de cobrança de débitos decorrentes de títulos do TCE prescrevem em **cinco (5) anos**, contados da data da ocorrência do fato ou da cessação da conduta irregular.
+- **Prescrição Intercorrente Trienal (3 anos):** Incide a prescrição intercorrente caso o processo administrativo de controle externo permaneça paralisado por mais de **três (3) anos** ininterruptos, pendente de despacho ou deliberação da autoridade instrutória.
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
+## 6. Fontes Oficiais e Referências Bibliográficas
 
-* [Lei Estadual nº 16.168, de 11/12/2007 (Legisla Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/83307/lei-16168) - Lei Orgânica do Tribunal de Contas do Estado de Goiás com atualizações normativas consolidadas.
-* [Lei Estadual nº 21.050, de 15/07/2021 (Legisla Goiás)](https://legisla.casacivil.go.gov.br) - Introduziu modificações sobre instrução processual e comunicações eletrônicas no TCE-GO.
-* [Portal do Tribunal de Contas do Estado de Goiás](https://portal.tce.go.gov.br) - Seção de Legislação Aplicada e Jurisprudência do Controle Externo.
-* [Súmula nº 282 do TCU / Jurisprudência do STF sobre Prescrição no Controle Externo (Tema 899)](https://portal.stf.jus.br) - Aplicação do regime prescricional quinquenal às pretensões de cobrança e sanção.
+* [Lei Estadual nº 16.168, de 11/12/2007 (Legisla Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/83307/lei-16168) - Lei Orgânica do Tribunal de Contas do Estado de Goiás com atualizações consolidadas.
+* [Lei Estadual nº 21.050, de 15/07/2021 (Legisla Goiás)](https://legisla.casacivil.go.gov.br) - Alterações procedimentais nas comunicações eletrônicas e instrução processual do TCE-GO.
+* [Lei Federal nº 13.019/2014 (MROSC)](http://www.planalto.gov.br) - Marco Regulatório das Organizações da Sociedade Civil.
+* [Portal do Tribunal de Contas do Estado de Goiás](https://portal.tce.go.gov.br) - Legislação, Regimentos e Jurisprudência Aplicada do Controle Externo.
+* [Supremo Tribunal Federal - Tema 899 (RE 636.886)](https://portal.stf.jus.br) - Prescritibilidade da pretensão de ressarcimento fundada em decisões de Tribunal de Contas.
 
 ---
 
-## 📝 Questões de Concurso FCC Comentadas
+## 7. Questões de Concurso FCC Comentadas
 
 ### Questão 01
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Em decorrência de auditoria operacional e contábil realizada no âmbito de determinada Secretaria de Estado, o Tribunal de Contas do Estado de Goiás constatou que o gestor ordenou despesas amparado em documentação formalmente incompleta, mas que as obras foram integralmente executadas, o valor praticado foi condizente com a tabela de referência de preços oficiais e não houve prejuízo financeiro aos cofres públicos. Consoante o regramento expresso da Lei Estadual nº 16.168/2007 (Lei Orgânica do TCE-GO), as contas desse gestor deverão ser julgadas:
 
-* **A)** Irregulares, aplicando-se multa rescisória e declarando-se a inidoneidade para licitar, tendo em vista o princípio da legalidade estrita que rege a despesa pública.
-* **B)** Regulares com ressalva, dando-se quitação ao responsável e determinando-se a adoção de medidas necessárias à correção das impropriedades constatadas.
-* **C)** Iliquidáveis, determinando-se o trancamento das contas e o arquivamento definitivo do feito sem apreciação de mérito.
-* **D)** Regulares com quitação plena e irrestrita, reputando-se inexistentes quaisquer impropriedades de caráter formal.
-* **E)** Sobrestadas pelo prazo de cinco anos, aguardando eventual manifestação confirmatória da Controladoria-Geral do Estado.
+* A) Irregulares, aplicando-se multa rescisória e declarando-se a inidoneidade para licitar, tendo em vista o princípio da legalidade estrita que rege a despesa pública.
+* B) Regulares com ressalva, dando-se quitação ao responsável e determinando-se a adoção de medidas necessárias à correção das impropriedades constatadas.
+* C) Iliquidáveis, determinando-se o trancamento das contas e o arquivamento definitivo do feito sem apreciação de mérito.
+* D) Regulares com quitação plena e irrestrita, reputando-se inexistentes quaisquer impropriedades de caráter formal.
+* E) Sobrestadas pelo prazo de cinco anos, aguardando eventual manifestação confirmatória da Controladoria-Geral do Estado.
 
-> **Gabarito: B**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** As contas só são julgadas irregulares quando houver omissão de prestação, grave infração à norma legal ou regulamentar, dano ao erário, desfalque ou desvio de dinheiro público (Art. 19). Mera impropriedade formal sem desfalque ou má-fé não enseja irregularidade nem inidoneidade.  
-> - **B) CORRETA.** Nos termos do art. 16, II c/c art. 18 da Lei Estadual nº 16.168/2007: as contas serão julgadas *regulares com ressalva* quando evidenciarem impropriedade ou qualquer outra falta de natureza formal de que não resulte dano ao erário. Nesse caso, o Tribunal dará quitação ao responsável e expedirá determinações corretivas para que as falhas não se repitam nos exercícios seguintes.  
-> - **C) Incorreta.** As contas iliquidáveis (Arts. 20 e 21) ocorrem apenas quando caso fortuito ou força maior, alheio à vontade do responsável, torne materialmente inviável o julgamento de mérito (ex.: documentos destruídos em desastre natural devidamente comprovado).  
-> - **D) Incorreta.** As contas regulares puras (Art. 17) expressam de forma cabal a exatidão e a legalidade estrita de todos os atos; quando há impropriedade formal, o julgamento é pela regularidade *com ressalva*.  
-> - **E) Incorreta.** Não há previsão legal de sobrestamento ordinário por cinco anos para aguardar a Controladoria em caso de contas com documentação formal incompleta já submetidas a julgamento no TCE.
+> **Comentário Detalhado:**
+> - **A) Incorreta.** As contas somente são julgadas irregulares quando constatada grave infração à norma legal ou regulamentar, omissão injustificada na prestação de contas, prática de ato antieconômico ou ocorrência de dano, desvio ou desfalque de dinheiro público (Art. 19). Faltas de natureza estritamente formal sem dano financeiro não ensejam irregularidade nem inidoneidade.
+> - **B) CORRETA.** Nos termos do artigo 16, II c/c art. 18 da Lei Estadual nº 16.168/2007: as contas são julgadas *regulares com ressalva* quando evidenciarem impropriedade ou qualquer outra falta de natureza formal da qual não resulte dano ao erário. Em tal cenário, o Tribunal Pleno profere decisão dando quitação ao responsável e expedindo determinações corretivas para que as falhas sejam sanadas nos exercícios seguintes.
+> - **C) Incorreta.** As contas iliquidáveis (Arts. 20 e 21 da LOTCE) ocorrem unicamente quando evento decorrente de caso fortuito ou força maior externa e imprevisível, alheio à vontade do responsável, torne materialmente impossível a análise de mérito (como em desastres naturais com perda irreversível do acervo).
+> - **D) Incorreta.** O julgamento pela regularidade plena (Art. 17) expressa de forma cabal a correção formal e material de todos os atos praticados, sem qualquer desvio burocrático; ocorrendo falha procedimental formal sanável, impõe-se a regularidade *com ressalva*.
+> - **E) Incorreta.** Inexiste mandamento na LOTCE para sobrestamento ordinário do processo por cinco anos em razão de mera instrução documental formal incompleta em contas já pautadas para deliberação do Pleno.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -258,19 +302,20 @@ Em decorrência de auditoria operacional e contábil realizada no âmbito de det
 **(FCC – TCE-AP – Auditor de Controle Externo)**  
 A respeito da Tomada de Contas Especial (TCE) disciplinada nas leis orgânicas dos Tribunais de Contas e na Lei Orgânica do TCE-GO, assinale a opção correta:
 
-* **A)** A Tomada de Contas Especial pode ser instaurada imediatamente pelo Tribunal de Contas perante qualquer indício de irregularidade, prescindindo da tentativa de adoção de medidas saneadoras internas pelo órgão de origem.
-* **B)** A autoridade administrativa que tiver conhecimento de dano ao erário e se omitir em instaurar tempestivamente a Tomada de Contas Especial responderá solidariamente pelo débito com o causador do prejuízo.
-* **C)** O Tribunal de Contas não pode estabelecer valor mínimo de prejuízo (valor de alçada) para a dispensa de envio de tomada de contas especial, devendo todo e qualquer dano financeiro, independentemente do montante, ser remetido à Corte de Contas.
-* **D)** Transcorrido o prazo de vinte anos entre a ocorrência do fato gerador e a notificação do responsável, o Tribunal de Contas deverá obrigatoriamente julgar as contas pelo mérito e condenar o responsável à revelia.
-* **E)** A Tomada de Contas Especial constitui procedimento processual comum e periódico, devendo ser apresentada anualmente por todos os secretários de Estado no encerramento de suas gestões.
+* A) A Tomada de Contas Especial pode ser instaurada imediatamente pelo Tribunal de Contas perante qualquer indício de irregularidade, prescindindo da tentativa de adoção de medidas saneadoras internas pelo órgão de origem.
+* B) A autoridade administrativa que tiver conhecimento de dano ao erário e se omitir em instaurar tempestivamente a Tomada de Contas Especial responderá solidariamente pelo débito com o causador do prejuízo.
+* C) O Tribunal de Contas não pode estabelecer valor mínimo de prejuízo (valor de alçada) para a dispensa de envio de tomada de contas especial, devendo todo e qualquer dano financeiro, independentemente do montante, ser remetido à Corte de Contas.
+* D) Transcorrido o prazo de vinte anos entre a ocorrência do fato gerador e a notificação do responsável, o Tribunal de Contas deverá obrigatoriamente julgar as contas pelo mérito e condenar o responsável à revelia.
+* E) A Tomada de Contas Especial constitui procedimento processual comum e periódico, devendo ser apresentada anualmente por todos os secretários de Estado no encerramento de suas gestões.
 
-> **Gabarito: B**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** A Tomada de Contas Especial tem natureza excepcional e subsidiária. O art. 11 da LOTCE estabelece que ela pressupõe o esgotamento prévio das medidas administrativas internas de cobrança ou recomposição no órgão ou entidade de origem.  
-> - **B) CORRETA.** Conforme prevê expressamente o art. 11, § 1º da Lei nº 16.168/2007 (reproduzindo o modelo federal do art. 8º da Lei nº 8.443/92), a autoridade administrativa competente, sob pena de **responsabilidade solidária**, deve adotar imediatas providências para instauração de tomada de contas especial diante de omissão, desfalque, desvio ou dano ao erário.  
-> - **C) Incorreta.** O Tribunal de Contas pode sim (e costuma) fixar valor de alçada mínimo para remessa de TCE por razões de economia processual, arquivando internamente as cobranças cujo custo de processamento superaria o valor do próprio ressarcimento.  
-> - **D) Incorreta.** Decorrido prazo superior a **10 (dez) anos** do fato gerador sem a notificação válida do responsável, fica inviabilizado o exercício do contraditório e da ampla defesa, ensejando a dispensa de instauração e o arquivamento por decadência do procedimento.  
-> - **E) Incorreta.** O procedimento ordinário anual prestado por todos os secretários de Estado é a **Prestação de Contas Ordinária**. A TCE é um processo de exceção instaurado apenas quando há dano, omissão ou extravio de bens públicos.
+> **Comentário Detalhado:**
+> - **A) Incorreta.** A Tomada de Contas Especial possui caráter excepcional e subsidiário. O art. 11 da LOTCE preconiza que a sua formalização no órgão de origem pressupõe o exaurimento prévio de todas as medidas administrativas internas tendentes à recomposição amigável do prejuízo.
+> - **B) CORRETA.** Em observância estrita ao art. 11, § 1º da Lei nº 16.168/2007 (reproduzindo o mandamento federal do art. 8º da Lei nº 8.443/92): a autoridade administrativa competente que se omitir na adoção tempestiva de providências para a instauração da tomada de contas especial responderá **solidariamente** pelo dano financeiro causado ao erário.
+> - **C) Incorreta.** O Tribunal de Contas é expressamente autorizado por lei a fixar valor de alçada mínimo, dispensando o processamento de TCEs cujo custo operacional de tramitação seja superior ao montante a ser ressarcido (princípio da economicidade processual).
+> - **D) Incorreta.** Decorrido prazo superior a **10 (dez) anos** do fato gerador sem que tenha havido a notificação válida do agente investigado, opera-se a dispensa de instauração por presunção legal de comprometimento insuperável da ampla defesa e contraditório pelo decurso de prazo decenal.
+> - **E) Incorreta.** O procedimento periódico regular e obrigatório de todos os secretários de Estado é a **Prestação de Contas Ordinária** anual. A TCE é procedimento especial e restrito às ocorrências de dano, fraude ou extravio.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -278,19 +323,20 @@ A respeito da Tomada de Contas Especial (TCE) disciplinada nas leis orgânicas d
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Determinado Secretário de Estado de Goiás foi sancionado pelo Tribunal Pleno do TCE-GO em processo de fiscalização de licitação pública com aplicação de penalidade de multa por grave infração a preceito da Lei de Licitações. Querendo recorrer da decisão colegiada, o gestor deverá utilizar a via recursal cabível segundo a Lei Orgânica do TCE-GO (Lei Estadual nº 16.168/2007), que prevê:
 
-* **A)** Recurso de Reconsideração, a ser interposto no prazo preclusivo de quinze dias úteis, dotado de efeito apenas devolutivo.
-* **B)** Recurso de Reexame, no prazo de trinta dias, que terá efeito suspensivo e devolutivo, a ser apreciado pelo Tribunal Pleno.
-* **C)** Embargos Infringentes, no prazo de cinco dias, desde que a decisão colegiada não tenha sido unânime.
-* **D)** Agravo de Instrumento perante o Tribunal de Justiça do Estado de Goiás, uma vez exaurida a jurisdição administrativa do Tribunal de Contas.
-* **E)** Recurso de Apelação Administrativa, no prazo de dez dias, encaminhado à Assembleia Legislativa de Goiás para deliberação final.
+* A) Recurso de Reconsideração, a ser interposto no prazo preclusivo de quinze dias úteis, dotado de efeito apenas devolutivo.
+* B) Recurso de Reexame, no prazo de trinta dias, que terá efeito suspensivo e devolutivo, a ser apreciado pelo Tribunal Pleno.
+* C) Embargos Infringentes, no prazo de cinco dias, desde que a decisão colegiada não tenha sido unânime.
+* D) Agravo de Instrumento perante o Tribunal de Justiça do Estado de Goiás, uma vez exaurida a jurisdição administrativa do Tribunal de Contas.
+* E) Recurso de Apelação Administrativa, no prazo de dez dias, encaminhado à Assembleia Legislativa de Goiás para deliberação final.
 
-> **Gabarito: B**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** O Recurso de Reconsideração (Art. 52) é privativo de processos de **contas** (prestação ou tomada de contas). Em processo de fiscalização de licitações, atos e contratos, a espécie cabível é o Recurso de Reexame. Além disso, o prazo é de 30 dias (não 15).  
-> - **B) CORRETA.** Conforme o art. 53 da Lei nº 16.168/2007: de decisão definitiva proferida em processo de fiscalização de atos, contratos, admissão, concessão, representação ou denúncia, cabe **Recurso de Reexame**, com efeito suspensivo e devolutivo, no prazo de **trinta (30) dias**, a ser julgado pelo Tribunal Pleno.  
-> - **C) Incorreta.** Não existe a figura dos Embargos Infringentes no rol recursal da Lei Orgânica do TCE-GO.  
-> - **D) Incorreta.** As decisões de Tribunais de Contas não são recorríveis para o Poder Judiciário via agravo de instrumento; o Judiciário somente analisa a legalidade mediante ação ordinária ou mandado de segurança autônomo, não integrando a hierarquia recursal da Corte de Contas.  
-> - **E) Incorreta.** A Assembleia Legislativa não julga recursos contra deliberações sancionatórias do Tribunal de Contas; o TCE goza de autonomia funcional e decisória.
+> **Comentário Detalhado:**
+> - **A) Incorreta.** O Recurso de Reconsideração (Art. 52) é privativo e exclusivo de decisões proferidas em processos de **contas** (prestação de contas ou tomada de contas). Em processo de fiscalização de licitações, atos e contratos, a modalidade adequada é o Recurso de Reexame. Além disso, o prazo legal é de 30 dias contínuos.
+> - **B) CORRETA.** O artigo 53 da Lei Estadual nº 16.168/2007 prevê expressamente que cabe **Recurso de Reexame** de decisão definitiva proferida em processo concernente a ato sujeito a registro, fiscalização de atos, contratos, editais, termos aditivos, denúncias e representações, no prazo de **trinta (30) dias**, dotado de efeito devolutivo e **suspensivo**, sendo julgado pelo Tribunal Pleno.
+> - **C) Incorreta.** O rol recursal da Lei Orgânica do TCE-GO é exaustivo e não prevê a figura dos Embargos Infringentes.
+> - **D) Incorreta.** O Poder Judiciário não atua como instância recursal hierárquica das decisões dos Tribunais de Contas; o controle judicial é estritamente de legalidade e mediante ação própria ordinária, inexistindo agravo de instrumento judicial contra acórdão de TCE.
+> - **E) Incorreta.** A Assembleia Legislativa não julga recursos interpostos contra decisões sancionatórias do Tribunal de Contas, órgão dotado de autonomia decisória plena.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -298,19 +344,20 @@ Determinado Secretário de Estado de Goiás foi sancionado pelo Tribunal Pleno d
 **(FCC – TCE-PR – Auditor de Controle Externo)**  
 Sobre o poder sancionatório e a aplicação de medidas punitivas pelo Tribunal de Contas do Estado de Goiás com fundamento na Lei Estadual nº 16.168/2007, assinale a afirmativa correta:
 
-* **A)** A condenação em débito para ressarcimento de dano causado ao erário impede a cominação concomitante de penalidade de multa, sob pena de configurar *bis in idem*.
-* **B)** O Tribunal de Contas pode aplicar ao responsável por dano ao erário multa proporcional de até 100% do valor atualizado do dano, cumulada com a condenação em ressarcimento.
-* **C)** A declaração de inidoneidade para participar de licitações ou contratar com a Administração Pública Estadual é sanção privativa do Governador do Estado, cabendo ao Tribunal de Contas apenas propor a penalidade.
-* **D)** A inabilitação para o exercício de cargo em comissão ou função de confiança pode ser aplicada pelo Tribunal de Contas pelo prazo de até vinte anos ininterruptos.
-* **E)** As multas aplicadas pelo Tribunal de Contas possuem eficácia executiva provisória, necessitando de ratificação judicial expressa pela Vara da Fazenda Pública para sua cobrança coercitiva.
+* A) A condenação em débito para ressarcimento de dano causado ao erário impede a cominação concomitante de penalidade de multa, sob pena de configurar *bis in idem*.
+* B) O Tribunal de Contas pode aplicar ao responsável por dano ao erário multa proporcional de até 100% do valor atualizado do dano, cumulada com a condenação em ressarcimento.
+* C) A declaração de inidoneidade para participar de licitações ou contratar com a Administração Pública Estadual é sanção privativa do Governador do Estado, cabendo ao Tribunal de Contas apenas propor a penalidade.
+* D) A inabilitação para o exercício de cargo em comissão ou função de confiança pode ser aplicada pelo Tribunal de Contas pelo prazo de até vinte anos ininterruptos.
+* E) As multas aplicadas pelo Tribunal de Contas possuem eficácia executiva provisória, necessitando de ratificação judicial expressa pela Vara da Fazenda Pública para sua cobrança coercitiva.
 
-> **Gabarito: B**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** O débito visa recompor o patrimônio lesado (natureza indenizatória/reparatória), enquanto a multa visa punir a conduta reprovável (natureza sancionatória). A cumulação de débito com multa é expressamente autorizada pela LOTCE (Art. 42).  
-> - **B) CORRETA.** Nos termos do art. 42 da Lei Estadual nº 16.168/2007, quando o responsável for julgado em débito, o Tribunal poderá aplicar-lhe multa de até **100% (cem por cento)** do valor atualizado do dano causado ao erário.  
-> - **C) Incorreta.** O Tribunal de Contas possui competência própria para declarar a inidoneidade do licitante fraudador para licitar ou contratar com a Administração Pública do Estado de Goiás pelo prazo de até 5 (cinco) anos (Art. 44).  
-> - **D) Incorreta.** O prazo máximo de inabilitação para o exercício de cargo em comissão ou função de confiança na administração pública estadual cominada pelo TCE é de **até 5 (cinco) anos** (Art. 43), e não 20 anos.  
-> - **E) Incorreta.** As decisões do Tribunal de Contas que imputam débito ou multa ostentam **eficácia de título executivo extrajudicial** imediata (Art. 71, § 3º da CF/88 c/c art. 47 da LOTCE), prescindindo de homologação ou ratificação prévia do Poder Judiciário.
+> **Comentário Detalhado:**
+> - **A) Incorreta.** O débito ostenta natureza puramente recompositiva/indenizatória (retorno do valor subtraído aos cofres), ao passo que a multa possui natureza sancionatória/repressiva. A cumulação de ambas as sanções é expressamente autorizada pela LOTCE e sumulada pela jurisprudência.
+> - **B) CORRETA.** Nos termos do artigo 42 da Lei Estadual nº 16.168/2007, havendo julgamento pela ocorrência de débito, o Pleno poderá aplicar ao ordenador responsável multa proporcional de até **100% (cem por cento)** do valor do dano devidamente atualizado.
+> - **C) Incorreta.** O TCE-GO possui competência legal autônoma e própria para aplicar a sanção de declaração de inidoneidade para licitar e contratar com os entes públicos do Estado de Goiás pelo prazo de até cinco anos (Art. 44).
+> - **D) Incorreta.** A penalidade de inabilitação para o exercício de cargo em comissão ou função de confiança na esfera estadual possui o limite temporal máximo de **até 5 (cinco) anos** (Art. 43, parágrafo único).
+> - **E) Incorreta.** Os acórdãos condenatórios proferidos por Tribunais de Contas que imponham débito ou multa ostentam **eficácia imediata de título executivo extrajudicial** (Art. 71, § 3º da CF/88 c/c art. 47 da LOTCE), prescindindo de chancela ou ação homologatória judicial.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -318,16 +365,17 @@ Sobre o poder sancionatório e a aplicação de medidas punitivas pelo Tribunal 
 **(FCC – TCE-CE – Técnico de Controle Externo)**  
 Decorridos dois anos da publicação de acórdão definitivo transitado em julgado do TCE-GO que condenou um ex-ordenador de despesas a ressarcir os cofres públicos por suposto desvio de recursos, foram localizadas nos arquivos da Secretaria notas fiscais originais e atestados de recebimento da época que comprovam inequivocamente a efetiva entrega das mercadorias e a regularidade do pagamento. Diante dessa nova situação, o ex-gestor:
 
-* **A)** Não poderá mais recorrer no âmbito administrativo do TCE-GO, haja vista a preclusão absoluta operada pelo decurso do prazo de trinta dias da decisão definitiva.
-* **B)** Deverá interpor Recurso de Reconsideração, pois fatos novos reabrem a contagem do prazo recursal originário de trinta dias.
-* **C)** Poderá interpor Recurso de Revisão no prazo de até cinco anos contados do trânsito em julgado, com base na superveniência de documentos novos com eficácia sobre a prova produzida.
-* **D)** Poderá interpor Embargos de Declaração perante o Tribunal Pleno com efeito suspensivo imediato sobre a dívida ativa.
-* **E)** Deverá ajuizar Reclamação Constitucional perante o Supremo Tribunal Federal, sendo vedado novo pronunciamento da Corte de Contas estadual.
+* A) Não poderá mais recorrer no âmbito administrativo do TCE-GO, haja vista a preclusão absoluta operada pelo decurso do prazo de trinta dias da decisão definitiva.
+* B) Deverá interpor Recurso de Reconsideração, pois fatos novos reabrem a contagem do prazo recursal originário de trinta dias.
+* C) Poderá interpor Recurso de Revisão no prazo de até cinco anos contados do trânsito em julgado, com base na superveniência de documentos novos com eficácia sobre a prova produzida.
+* D) Poderá interpor Embargos de Declaração perante o Tribunal Pleno com efeito suspensivo imediato sobre a dívida ativa.
+* E) Deverá ajuizar Reclamação Constitucional perante o Supremo Tribunal Federal, sendo vedado novo pronunciamento da Corte de Contas estadual.
 
-> **Gabarito: C**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** A decisão transitada em julgado pode ser revista na via do Recurso de Revisão no prazo legal de até 5 anos.  
-> - **B) Incorreta.** O Recurso de Reconsideração tem prazo preclusivo de 30 dias contados da publicação da decisão e não cabe após o trânsito em julgado.  
-> - **C) CORRETA.** Nos termos do art. 56 da Lei nº 16.168/2007: cabe **Recurso de Revisão** ao Tribunal Pleno, interposto no prazo de **cinco (5) anos** do trânsito em julgado da deliberação condenatória, fundado em: I - erro de cálculo nas contas; II - falsidade de documento em que se tenha fundamentado o acórdão; ou III - **superveniência de novos documentos com eficácia sobre a prova produzida**.  
-> - **D) Incorreta.** O prazo dos Embargos de Declaração é de 10 dias e visa sanar obscuridade, omissão ou contradição no texto da própria decisão, não se prestando para juntada de novas provas após o trânsito em julgado.  
-> - **E) Incorreta.** A Reclamação ao STF visa preservar a competência do STF ou garantir a autoridade de suas decisões/súmulas vinculantes, não cabendo para simples juntada de notas fiscais supervenientes em processo de contas.
+> **Comentário Detalhado:**
+> - **A) Incorreta.** A autoridade da coisa julgada administrativa em processos de controle externo não é absoluta; a decisão transitada em julgado é passível de revisão extraordinária via Recurso de Revisão no prazo quinquenal.
+> - **B) Incorreta.** O Recurso de Reconsideração tem prazo preclusivo originário de 30 dias contados da publicação da decisão e somente cabe antes da ocorrência do trânsito em julgado.
+> - **C) CORRETA.** Nos exatos termos do artigo 56 da Lei nº 16.168/2007: cabe **Recurso de Revisão** ao Tribunal Pleno, interposto em uma única oportunidade e dentro do prazo decadencial de **cinco (5) anos** contados do trânsito em julgado da deliberação condenatória, fundado em: I - erro de cálculo nas contas; II - falsidade de documento que serviu de sustentáculo à condenação; ou III - **superveniência de novos documentos com eficácia preponderante sobre a prova produzida**.
+> - **D) Incorreta.** O prazo legal dos Embargos de Declaração é de 10 dias da publicação do ato e destina-se estritamente à sanação de obscuridades ou omissões do julgado, sendo via imprópria para dilação probatória nova após o trânsito em julgado.
+> - **E) Incorreta.** A Reclamação ao STF presta-se exclusivamente à preservação da competência do Supremo ou garantia de eficácia de súmula vinculante, descabendo para juntada probatória de quitação fática perante o Tribunal de Contas.
+> 
+> **Gabarito: C**

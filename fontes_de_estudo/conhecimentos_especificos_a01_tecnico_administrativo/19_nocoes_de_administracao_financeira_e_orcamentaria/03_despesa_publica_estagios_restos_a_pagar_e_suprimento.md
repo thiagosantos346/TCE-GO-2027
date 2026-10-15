@@ -27,167 +27,198 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
+## 🧭 Sumário Interativo
 
-```text
-3. Regime da Despesa Pública e Mecanismos Excepcionais de Execução
-├── 3.1 Estágios da Despesa Orçamentária (Lei nº 4.320/1964)
-│   ├── 3.1.1 Fixação: Dotação orçamentária autorizada pelo Poder Legislativo na Lei Orçamentária Anual
-│   ├── 3.1.2 Empenho (Art. 58): Ato de autoridade que cria obrigação de pagamento pendente ou não de condição
-│   │   ├── Empenho Ordinário: Despesa com valor exato conhecido e pagamento em parcela única (ex.: compra de computadores)
-│   │   ├── Empenho Estimativo: Despesa de montante previamente inexato (ex.: contas de água, energia, telefone, combustível)
-│   │   └── Empenho Global: Despesa contratual de valor determinado com execução/pagamento parcelado (ex.: locações e obras)
-│   ├── 3.1.3 Liquidação (Art. 63): Verificação do direito adquirido pelo credor mediante conferência documental e atesto físico
-│   └── 3.1.4 Pagamento (Art. 64): Despacho determinando a quitação da obrigação mediante Ordem Bancária na Conta Única
-├── 3.2 Estrutura e Classificações Orçamentárias da Despesa
-│   ├── 3.2.1 Classificação Institucional: "Quem gasta?" (Órgão Orçamentário e Unidade Orçamentária - UO)
-│   ├── 3.2.2 Classificação Funcional: "Em que área de governo?"
-│   │   ├── Função: Maior nível de agregação das áreas de atuação pública (Saúde, Educação, Segurança, Controle Externo)
-│   │   └── Subfunção: Ramo específico da função; Princípio da Matricialidade (qualquer subfunção combina com qualquer função)
-│   ├── 3.2.3 Classificação Programática: "Para que gastar?" (Programa -> Ações Orçamentárias):
-│   │   ├── Projetos: Instrumentos temporários de expansão que criam produto novo ou ampliam capacidade física (novo hospital)
-│   │   ├── Atividades: Ações contínuas e permanentes destinadas à manutenção dos serviços públicos (manutenção do hospital)
-│   │   └── Operações Especiais: Despesas financeiras que não geram contraprestação física ou serviços (pagamento da dívida)
-│   └── 3.2.4 Classificação por Natureza da Despesa (Estrutura de 6 dígitos: c.g.mm.ee):
-│       ├── Categoria Econômica: 3 - Despesas Correntes / 4 - Despesas de Capital
-│       ├── Grupos de Natureza da Despesa (GND):
-│       │   ├── GND 1: Pessoal e Encargos Sociais
-│       │   ├── GND 2: Juros e Encargos da Dívida
-│       │   ├── GND 3: Outras Despesas Correntes (ODC - material de consumo, diárias, serviços terceirizados)
-│       │   ├── GND 4: Investimentos (obras públicas novas, ampliações e aquisição de equipamentos permanentes)
-│       │   ├── GND 5: Inversões Financeiras (aquisição de imóveis PRONTOS em uso, desapropriações e compra de ações)
-│       │   └── GND 6: Amortização da Dívida (pagamento do principal da dívida pública fundada)
-│       ├── Modalidade de Aplicação: Eliminação da dupla contagem de recursos repassados
-│       └── Elemento de Despesa: Objeto específico do gasto (material de consumo, serviços de TI, vencimentos)
-├── 3.3 Restos a Pagar (RAP) e Despesas de Exercícios Anteriores (DEA)
-│   ├── 3.3.1 Restos a Pagar (Art. 36 da Lei 4.320/64): Despesas empenhadas e não pagas até 31 de dezembro:
-│   │   ├── Restos a Pagar Processados (RPP): Despesa empenhada E liquidada (direito adquirido do credor; vedado cancelamento unilateral)
-│   │   └── Restos a Pagar Não Processados (RPNP): Despesa empenhada e NÃO liquidada (bem ou serviço pendente de entrega)
-│   └── 3.3.2 Despesas de Exercícios Anteriores (DEA - Art. 37): Pagas à conta do orçamento vigente nas hipóteses:
-│       ├── 1. Despesas para as quais o orçamento anterior consignava crédito próprio e saldo suficiente, mas não empenhadas na época
-│       ├── 2. Restos a pagar cancelados, desde que o direito do credor subsista e a prescrição quinquenal esteja interrompida
-│       └── 3. Compromissos decorrentes de obrigações legais ou contratuais reconhecidos pela autoridade após o fim do ano
-└── 3.4 Regime de Suprimento de Fundos (Adiantamento)
-    ├── 3.4.1 Hipóteses Restritas: Despesas de pequeno vulto (pronto pagamento), viagens/urgências e despesas sigilosas
-    ├── 3.4.2 Vedações Categóricas: A servidor em alcance (com prestação de contas pendente/atrasada) ou responsável por almoxarifado
-    └── 3.4.3 Regra de Ouro: Exige empenho prévio em nome do servidor suprido (não dispensa a licitação material)
-```
+- [1. Despesa Pública: Conceito e Estágios Legais](#1-despesa-pública-conceito-e-estágios-legais)
+  - [1.1 Despesa Orçamentária vs. Dispêndios Extraorçamentários](#11-despesa-orçamentária-vs-dispêndios-extraorçamentários)
+  - [1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)](#12-os-quatro-estágios-da-despesa-pública-fixação-empenho-liquidação-e-pagamento)
+  - [1.3 Modalidades de Empenho: Ordinário, Estimativo e Global](#13-modalidades-de-empenho-ordinário-estimativo-e-global)
+- [2. Estrutura e Classificações da Despesa Orçamentária](#2-estrutura-e-classificações-da-despesa-orçamentária)
+  - [2.1 Classificação Institucional e Funcional (Matricialidade)](#21-classificação-institucional-e-funcional-matricialidade)
+  - [2.2 Classificação Programática: Projetos, Atividades e Operações Especiais](#22-classificação-programática-projetos-atividades-e-operações-especiais)
+  - [2.3 Classificação por Natureza da Despesa e GNDs](#23-classificação-por-natureza-da-despesa-e-gnds)
+  - [2.4 A Distinção Crítica FCC: Investimentos (GND 4) vs. Inversões Financeiras (GND 5)](#24-a-distinção-crítica-fcc-investimentos-gnd-4-vs-inversões-financeiras-gnd-5)
+- [3. Restos a Pagar (RAP) e Despesas de Exercícios Anteriores (DEA)](#3-restos-a-pagar-rap-e-despesas-de-exercícios-anteriores-dea)
+  - [3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)](#31-restos-a-pagar-processados-rpp-vs-restos-a-pagar-não-processados-rpnp)
+  - [3.2 Cancelamento de RAP e a Prescrição Quinquenal](#32-cancelamento-de-rap-e-a-prescrição-quinquenal)
+  - [3.3 As Três Hipóteses Legais de DEA (Art. 37 da Lei nº 4.320/1964)](#33-as-três-hipóteses-legais-de-dea-art-37-da-lei-nº-43201964)
+- [4. Regime Excepcional de Suprimento de Fundos (Adiantamento)](#4-regime-excepcional-de-suprimento-de-fundos-adiantamento)
+  - [4.1 Hipóteses Restritas e Regra do Empenho Prévio](#41-hipóteses-restritas-e-regra-do-empenho-prévio)
+  - [4.2 Vedações Categóricas e Prestação de Contas](#42-vedações-categóricas-e-prestação-de-contas)
+- [5. Fontes Oficiais & Manuais Técnicos Recomendados](#5-fontes-oficiais--manuais-técnicos-recomendados)
+- [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
 
 ---
 
 ## 📖 Conteúdo Teórico Aprofundado
 
-### 1. Estágios da Despesa Orçamentária (Lei nº 4.320/1964)
+### 1. Despesa Pública: Conceito e Estágios Legais
 
-A realização da despesa pública cumpre uma rígida ordem cronológica legal e contábil:
+#### 1.1 Despesa Orçamentária vs. Dispêndios Extraorçamentários
+No direito financeiro e na contabilidade pública, a realização de saídas financeiras dos cofres estatais divide-se em:
+- **Despesas Orçamentárias (Sentido Estrito):** São aquelas que necessitam de prévia autorização legislativa fixada na Lei Orçamentária Anual (ou em créditos adicionais) para serem executadas, destinando-se a financiar os serviços públicos, investimentos e transferências governamentais.
+- **Dispêndios Extraorçamentários (Saídas de Caixa):** Não representam despesa orçamentária nem reduzem o patrimônio líquido estatal. Correspondem a saídas puramente financeiras que extinguem passivos exigíveis anteriormente constituídos (ex.: devolução de cauções ou fianças licitatórias depositadas em dinheiro, resgate de depósitos judiciais, repasse aos bancos de empréstimos consignados retidos em folha e pagamento de Restos a Pagar).
+
+```mermaid
+flowchart TD
+    Saidas["Saídas de Recursos Financeiros dos Cofres Públicos"]
+    Saidas --> DO["Despesas Orçamentárias (Sentido Estrito)<br/>• Exigem prévia dotação na LOA<br/>• Cumprem o ciclo: Empenho, Liquidação e Pagamento<br/>• Financiam serviços públicos e investimentos"]
+    Saidas --> DE["Dispêndios Extraorçamentários<br/>• NÃO constam como dotação da LOA<br/>• Extinguem passivo financeiro preexistente<br/>• Ex.: Devolução de cauções, repasse de consignações, pagamento de RAP"]
+```
+
+#### 1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)
+A execução formal da despesa pública submete-se a quatro estágios sucessivos e interdependentes (arts. 58 a 65 da Lei Federal nº 4.320/1964):
 
 ```mermaid
 flowchart LR
-    Fix["1. Fixação<br/>(Planejamento)<br/>Dotação na LOA"] --> Emp["2. Empenho<br/>(Execução)<br/>Reserva do crédito"]
-    Emp --> Liq["3. Liquidação<br/>(Execução)<br/>Direito adquirido"]
-    Liq --> Pag["4. Pagamento<br/>(Execução)<br/>Ordem bancária"]
+    Fix["1. FIXAÇÃO<br/>(Planejamento)<br/>Aprovação na LOA"] --> Emp["2. EMPENHO<br/>(Execução)<br/>Cria a obrigação e reserva dotação"]
+    Emp --> Liq["3. LIQUIDAÇÃO<br/>(Execução)<br/>Verifica direito adquirido do credor"]
+    Liq --> Pag["4. PAGAMENTO<br/>(Execução)<br/>Ordem bancária na Conta Única"]
 ```
 
-#### 1.1 O Empenho (Arts. 58 a 61 da Lei nº 4.320/1964)
-- **Conceito:** Ato emanado de autoridade competente que cria para o Estado a obrigação de pagamento pendente ou não de implemento de condição. Tem a função contábil de reservar previamente a dotação orçamentária, garantindo recursos ao fornecedor.
-- **Princípio da Prévia Dotação:** É terminantemente vedada a realização de despesa sem prévio empenho (Art. 60).
-- **As Três Modalidades de Empenho:**
+1. **Fixação (Etapa de Planejamento):** É a autorização legislativa conferida ao Poder Executivo e demais órgãos independentes, por meio da LOA, estabelecendo o limite máximo de recursos destinados a cada programa e ação de governo.
+2. **Empenho (Art. 58 da Lei nº 4.320/1964):**  
+   - *"O empenho de despesa é o ato emanado de autoridade competente que cria para o Estado obrigação de pagamento pendente ou não de implemento de condição."*
+   - Possui função jurídica (criação da obrigação) e contábil (reserva prévia da dotação orçamentária, impedindo que o mesmo recurso seja utilizado para outra finalidade).
+   - **Regra de Ouro (Art. 60):** É **vedada a realização de despesa sem prévio empenho**!
+   - Formaliza-se pelo documento oficial denominado **Nota de Empenho (NE)**, que deve indicar o nome do credor, a especificação do bem ou serviço e a importância exata da despesa.
+3. **Liquidação (Art. 63 da Lei nº 4.320/1964):**  
+   - Consiste na **verificação objetiva do direito adquirido pelo credor** tendo por base os títulos e documentos comprobatórios do respectivo crédito.
+   - Tem por objetivo apurar:
+     1. A origem e o objeto do que se deve pagar;
+     2. A importância exata a pagar;
+     3. A quem se deve pagar para extinguir a obrigação.
+   - Requer a realização de **atesto formal** na nota fiscal por servidor competente ou comissão fiscalizadora, certificando que as obras, os serviços ou os materiais foram recebidos em perfeita conformidade com as especificações contratadas.
+4. **Pagamento (Arts. 64 e 65 da Lei nº 4.320/1964):**  
+   - É o despacho exarado pelo ordenador de despesas determinando a efetiva quitação da obrigação liquidada.
+   - Processa-se mediante **Ordem Bancária (OB)** emitida contra a Conta Única do Tesouro Estadual diretamente em favor do credor.
+   - **Regra de Interdependência (Art. 62):** A ordem de pagamento só pode ser expedida após a regular liquidação da despesa!
 
-| Modalidade de Empenho | Montante da Despesa | Forma de Pagamento | Exemplo Prático de Aplicação |
+#### 1.3 Modalidades de Empenho: Ordinário, Estimativo e Global
+A legislação orçamentária prevê três modalidades formais de empenho, a serem adotadas conforme a natureza da obrigação contratual:
+
+| Modalidade de Empenho | Montante da Despesa | Forma de Desembolso / Pagamento | Casos Práticos de Aplicação (Padrão FCC) |
 | :--- | :--- | :--- | :--- |
-| **Ordinário (Comum)** | Exato e previamente determinado. | **Parcela única** (de uma só vez). | Compra de lote de 10 impressoras entregues e faturadas em fatura única. |
-| **Estimativo** | **Inexato / Impossível** de fixar previamente. | Parcelado ao longo do período. | Contas mensais de energia elétrica, fornecimento de água potável e consumo de combustível da frota. |
-| **Global** | Exato e previamente determinado. | **Parcelado / Sucessivo**. | Contratos de locação de imóvel com aluguéis mensais, contratos de vigilância continuada e medições de obras. |
+| **Ordinário (Comum)** | Exato e previamente conhecido. | **Parcela única** (desembolso de uma só vez). | Aquisição de lote de veículos ou computadores faturados e entregues de uma só vez. |
+| **Estimativo** | **Inexato / Impossível** de fixar previamente. | Desembolsos parcelados ou periódicos. | Contas de consumo mensal: energia elétrica, água, telefonia, diárias e combustíveis da frota. |
+| **Global** | Exato e previamente conhecido em contrato. | **Parcelado / Sucessivo** ao longo do exercício. | Contratos de locação de imóveis (aluguel mensal fixo), contratos continuados de vigilância e medições de obras. |
 
 ---
 
-#### 1.2 A Liquidação (Art. 63 da Lei nº 4.320/1964)
-- **Conceito:** Verificação do **direito adquirido pelo credor**, tendo por base os títulos e documentos comprobatórios do crédito.
-- **Elementos de Aferição Obrigatória:**
-  1. A origem e o objeto do que se deve pagar;
-  2. A importância exata a pagar;
-  3. A quem se deve pagar para extinguir a obrigação.
-- **Procedimento:** Exige a comprovação documental e o **atesto formal** por comissão fiscalizatória ou servidor credenciado de que os bens foram entregues ou de que os serviços foram integralmente executados de acordo com as especificações do contrato e da nota de empenho.
+### 2. Estrutura e Classificações da Despesa Orçamentária
 
-#### 1.3 O Pagamento (Arts. 64 e 65 da Lei nº 4.320/1964)
-- **Conceito:** O despacho exarado pela autoridade competente ordenando que a despesa liquidada seja paga.
-- **Processamento:** Dá-se mediante emissão de **Ordem Bancária (OB)** transferindo o valor diretamente da Conta Única do Tesouro para a conta bancária do credor. Nenhum pagamento pode ser realizado sem a prévia e regular liquidação da despesa (Art. 62).
+#### 2.1 Classificação Institucional e Funcional (Matricialidade)
+- **Classificação Institucional:** Responde à indagação: *"Quem gasta o recurso público?"*. Estrutura-se em dois níveis fundamentais:
+  - **Órgão Orçamentário:** Maior nível institucional (ex.: Tribunal de Contas do Estado, Secretaria de Estado da Fazenda, Tribunal de Justiça);
+  - **Unidade Orçamentária (UO):** Subunidade executora detentora direta de dotação orçamentária (ex.: Fundo de Modernização do TCE-GO, Diretoria-Geral da Polícia Civil).
+- **Classificação Funcional:** Responde à pergunta: *"Em qual área de atuação governamental a despesa será realizada?"*. Composta por:
+  - **Função:** O maior nível de agregação das competências estatais (ex.: 01 - Legislativa, 04 - Administração, 10 - Saúde, 12 - Educação);
+  - **Subfunção:** Ramo específico e detalhado de uma função (ex.: 122 - Administração Geral, 301 - Atenção Básica, 361 - Ensino Fundamental);
+  - **Princípio da Matricialidade Funcional:** Qualquer subfunção pode ser combinada com qualquer função orçamentária, independentemente da vinculação institucional tradicional (ex.: uma escola administrada pelo TCE-GO para capacitação de servidores pode ser classificada na Função 01 - Legislativa e Subfunção 128 - Formação de Recursos Humanos).
 
----
+#### 2.2 Classificação Programática: Projetos, Atividades e Operações Especiais
+A estrutura programática organiza as ações governamentais orientadas a metas em três tipos:
+1. **Projeto:** Instrumento de programação temporário destinado a expandir a infraestrutura pública ou criar novo bem/serviço, resultando em formação bruta de capital (ex.: construção de novo edifício-sede de fórum judicial ou implantação de rodovia);
+2. **Atividade:** Instrumento contínuo e permanente destinado à manutenção e funcionamento regular das ações governamentais preexistentes (ex.: manutenção da frota, pagamento de pessoal, fornecimento de merenda escolar);
+3. **Operação Especial:** Despesas que não resultam na produção de um bem nem na prestação direta de serviços, destinadas a obrigações financeiras do Estado (ex.: pagamento do serviço da dívida pública, sentenças judiciais/precatórios, amortizações financeiras).
 
-### 2. Despesas de Capital: Investimentos vs. Inversões Financeiras
+#### 2.3 Classificação por Natureza da Despesa e GNDs
+A Portaria Interministerial STN/SOF nº 163/2001 padronizou a codificação da despesa na seguinte estrutura:
 
-A distinção entre o Grupo de Natureza da Despesa 4 (Investimentos) e o Grupo 5 (Inversões Financeiras) é uma das temáticas mais exploradas em concursos da FCC:
+$$\text{C . G . MM . EE}$$
+
+- **1º dígito - Categoria Econômica:**
+  - `3` - Despesas Correntes;
+  - `4` - Despesas de Capital.
+- **2º dígito - Grupo de Natureza da Despesa (GND):**
+  - **GND 1:** Pessoal e Encargos Sociais (vencimentos, subsídios, previdência patronal);
+  - **GND 2:** Juros e Encargos da Dívida (remuneração financeira do endividamento público);
+  - **GND 3:** Outras Despesas Correntes - ODC (materiais de consumo, serviços de terceiros, passagens, diárias);
+  - **GND 4:** Investimentos (obras novas, aquisições de equipamentos permanentes e instalações);
+  - **GND 5:** Inversões Financeiras (aquisição de imóveis em uso, compra de títulos de empresas já constituídas e empréstimos concedidos);
+  - **GND 6:** Amortização da Dívida (pagamento do principal da dívida pública fundada).
+- **3º e 4º dígitos - Modalidade de Aplicação:** Elimina a dupla contagem nas transferências intergovernamentais e entre órgãos;
+- **5º e 6º dígitos - Elemento de Despesa:** Identifica os objetos pontuais de gasto (ex.: 14 - Diárias, 30 - Material de Consumo, 52 - Equipamentos e Material Permanente).
+
+#### 2.4 A Distinção Crítica FCC: Investimentos (GND 4) vs. Inversões Financeiras (GND 5)
+A jurisprudência da banca FCC cobra com rigor a distinção entre os gastos de capital que aumentam a capacidade produtiva da sociedade e os que consistem em meras transferências patrimoniais:
 
 ```mermaid
 flowchart TD
-    DespCap["Despesas de Capital (Código 4)"]
-    DespCap --> GND4["GND 4: INVESTIMENTOS<br/>Cria capital físico NOVO na sociedade<br/>Aumenta a capacidade produtiva e o PIB"]
-    DespCap --> GND5["GND 5: INVERSÕES FINANCEIRAS<br/>Mera transferência patrimonial<br/>Não cria infraestrutura física nova"]
-
-    GND4 --> Ex4["- Obras públicas novas (hospitais, pontes)<br/>- Instalação e compra de máquinas novas<br/>- Softwares desenvolvidos"]
-    GND5 --> Ex5["- Compra de imóvel PRONTO já em uso<br/>- Desapropriação de imóveis prontos<br/>- Aquisição de ações de empresas existentes<br/>- Concessão de empréstimos e financiamentos"]
+    Capital["Despesas de Capital (Código 4)"]
+    Capital --> GND4["GND 4: INVESTIMENTOS<br/>• Gera capital fixo novo na economia nacional<br/>• Aumenta a capacidade física produtiva do país<br/>• Ex.: Construção de novas pontes, compra de maquinário novo de fábrica"]
+    Capital --> GND5["GND 5: INVERSÕES FINANCEIRAS<br/>• Mera substituição/transferência de titularidade<br/>• NÃO gera capital físico novo no país<br/>• Ex.: Compra de imóvel PRONTO já em uso, desapropriação de terras, compra de ações de estatais preexistentes"]
 ```
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> - **Construir um prédio novo** ou adquirir um imóvel recém-construído diretamente para primeira utilização do Poder Público classifica-se como **INVESTIMENTO (GND 4)**!  
-> - **Comprar um prédio comercial que já estava alugado ou funcionando** no mercado privado, ou desapropriar um terreno/imóvel pronto classifica-se como **INVERSÃO FINANCEIRA (GND 5)**! Isso ocorre porque a operação não gerou formação bruta de capital novo no país; representou apenas a mudança de titularidade de um patrimônio preexistente.
 
 ---
 
-### 3. Restos a Pagar (RAP) vs. Despesas de Exercícios Anteriores (DEA)
+### 3. Restos a Pagar (RAP) e Despesas de Exercícios Anteriores (DEA)
+
+#### 3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)
+O art. 36 da Lei Federal nº 4.320/1964 prescreve que se consideram **Restos a Pagar** as despesas empenhadas, mas não pagas até o dia 31 de dezembro, distinguindo-se em:
 
 ```mermaid
 flowchart TD
-    Encerr["Encerramento do Exercício em 31 de Dezembro"]
-    Encerr --> Empenhada["Despesa com Empenho Emitido no Ano"]
-    Empenhada --> StatusLiq{"Houve Liquidação regular<br/>até 31/12?"}
-    StatusLiq -->|SIM| RPP["RESTOS A PAGAR PROCESSADOS (RPP)<br/>Credor adquiriu direito ao pagamento.<br/>VEDADO cancelamento unilateral!"]
-    StatusLiq -->|NÃO| RPNP["RESTOS A PAGAR NÃO PROCESSADOS (RPNP)<br/>Fornecedor ainda não entregou o bem.<br/>Pode ser cancelado se descumprido."]
-
-    RPNP --> Canc["Cancelamento do Empenho de RPNP"]
-    Canc --> EntregouDepois{"Credor cumpriu a obrigação<br/>no ano seguinte?"}
-    EntregouDepois -->|SIM| DEA["DESPESAS DE EXERCÍCIOS ANTERIORES (DEA)<br/>Empenha-se na dotação própria da LOA vigente<br/>(Art. 37 da Lei 4.320/64)"]
+    Ano["31 de Dezembro (Fim do Exercício)"] --> Emp["Despesas Regularmente Empenhadas no Ano"]
+    Emp --> Liq{"A despesa foi LIQUIDADA<br/>(serviço/bem atestado) até 31/12?"}
+    Liq -->|SIM| RPP["RESTOS A PAGAR PROCESSADOS (RPP)<br/>• Credor cumpriu integralmente a sua obrigação<br/>• Direito adquirido aperfeiçoado<br/>• É VEDADO o cancelamento unilateral pelo Poder Público"]
+    Liq -->|NÃO| RPNP["RESTOS A PAGAR NÃO PROCESSADOS (RPNP)<br/>• Fornecedor ainda não entregou o bem/obra<br/>• Sujeitos a cancelamento se expirado o prazo"]
 ```
 
-#### 3.1 Restos a Pagar Processados (RPP) vs. Não Processados (RPNP)
-- **Restos a Pagar Processados (RPP):** Despesas empenhadas e **liquidadas** dentro do exercício, pendentes apenas do pagamento financeiro. A Administração Pública não pode cancelar o empenho arbitrariamente sem quitar a dívida, pois o credor já cumpriu sua prestação e o direito adquirido está aperfeiçoado.
-- **Restos a Pagar Não Processados (RPNP):** Despesas empenhadas, mas **não liquidadas** até 31 de dezembro (a entrega do bem ou serviço ainda não ocorreu). Podem ser canceladas pela administração caso o prazo contratual expire ou haja desistência justificada.
+1. **Restos a Pagar Processados (RPP):** A despesa percorreu os estágios do empenho e da **liquidação** dentro do exercício financeiro. O credor tem direito subjetivo líquido e certo ao pagamento; a administração pública **não pode cancelar** o respectivo empenho de forma unilateral, sob pena de enriquecimento sem causa do Estado.
+2. **Restos a Pagar Não Processados (RPNP):** Despesas empenhadas cuja **liquidação não ocorreu** até 31 de dezembro (a contraprestação contratual ainda está pendente). Podem ser canceladas administrativamente caso o credor descumpra o cronograma de entrega ou o interesse público deixe de existir.
 
-#### 3.2 Despesas de Exercícios Anteriores (DEA - Art. 37 da Lei nº 4.320/1964)
-As dívidas passadas de exercícios já encerrados serão empenhadas e pagas à conta de dotação orçamentária constante na **Lei Orçamentária Anual do exercício em curso**, exclusivamente nas seguintes hipóteses:
-1. Despesas para as quais o orçamento respectivo consignava **crédito próprio, com saldo suficiente**, mas que não tenham sido empenhadas na época própria;
-2. Restos a pagar com **prescrição interrompida** ou cancelados indevidamente, desde que o direito do credor subsista;
-3. Compromissos decorrentes de obrigações contratuais ou legais cujo reconhecimento da dívida tenha sido formalizado pela autoridade competente após o encerramento do exercício.
+#### 3.2 Cancelamento de RAP e a Prescrição Quinquenal
+- Conforme o Decreto Federal nº 93.872/1986, os Restos a Pagar Não Processados perdem a validade e devem ser cancelados ao final do exercício subsequente caso a liquidação não tenha sido iniciada.
+- O cancelamento contábil de um empenho de RAP **não extingue o direito do credor**, desde que a prestação do serviço seja comprovada e não tenha decorrido a **prescrição quinquenal de 5 anos** (Decreto nº 20.910/1932). Nesses casos, o credor fará jus ao recebimento mediante reconhecimento de dívida por **Despesas de Exercícios Anteriores (DEA)**.
+
+#### 3.3 As Três Hipóteses Legais de DEA (Art. 37 da Lei nº 4.320/1964)
+As dívidas passadas de exercícios orçamentários já encerrados serão empenhadas e pagas à conta das dotações constantes na **LOA do exercício corrente**, exclusivamente quando enquadradas nas seguintes hipóteses taxativas:
+1. **Despesas sem empenho na época própria:** Despesas para as quais o orçamento do exercício pretérito consignava crédito orçamentário próprio com **saldo suficiente**, mas que, por erro ou omissão administrativa, não foram empenhadas na época oportuna;
+2. **Restos a Pagar cancelados:** Restos a pagar com **prescrição interrompida** ou cancelados indevidamente, desde que o direito creditório do fornecedor subsista;
+3. **Compromissos reconhecidos a posteriori:** Despesas contratuais ou legais cujo reconhecimento formal da obrigação pela autoridade competente tenha ocorrido **após o encerramento do exercício financeiro**.
 
 ---
 
-### 4. Regime de Suprimento de Fundos (Adiantamento)
+### 4. Regime Excepcional de Suprimento de Fundos (Adiantamento)
 
-Consiste na entrega de numerário a um servidor público para realização de despesas que não possam subordinar-se ao processo normal de aplicação (empenho -> liquidação -> pagamento).
-- **O empenho prévio continua obrigatório**, sendo emitido previamente no nome do servidor suprido.
-- **Hipóteses Autorizadas em Regulamento:**
-  1. Despesas miúdas de pequeno vulto (pronto pagamento em dinheiro ou cartão corporativo);
-  2. Despesas extraordinárias e urgentes que possam comprometer o serviço público;
-  3. Despesas com viagens e representações institucionais de servidores;
-  4. Despesas de caráter reservado ou sigiloso (segurança pública e inteligência policial).
-- **Vedações Categóricas de Concessão de Suprimento de Fundos:**
-  - A servidor **em alcance** (que esteja em atraso na prestação de contas de adiantamento anterior ou que teve contas impugnadas);
-  - A servidor responsável pela guarda ou utilização do material a adquirir (ex.: chefe ou funcionário de almoxarifado);
-  - Fracionamento indevido de despesas para burlar o dever de licitar da Lei nº 14.133/2021.
+O **Suprimento de Fundos** (regime de adiantamento financeiro previsto no art. 68 da Lei nº 4.320/1964 e no Decreto Federal nº 93.872/1986) consiste na entrega direta de numerário a um servidor público para execução de gastos que não possam subordinar-se ao rito ordinário de empenho -> liquidação -> pagamento:
+
+```mermaid
+flowchart TD
+    SF["Regime de Suprimento de Fundos"]
+    SF --> Regra["REGRA DE OURO:<br/>Exige EMPENHO PRÉVIO em nome do servidor suprido!"]
+    SF --> Hipot["HIPÓTESES AUTORIZADAS:<br/>1. Despesas miúdas de pronto pagamento (pequeno vulto)<br/>2. Despesas extraordinárias e urgentes<br/>3. Despesas com viagens de representação<br/>4. Despesas de caráter reservado/sigiloso"]
+    SF --> Vedac["VEDAÇÕES CATEGÓRICAS:<br/>• Servidor em ALCANCE (atraso na prestação de contas anterior)<br/>• Servidor responsável por ALMOXARIFADO / guarda de bens<br/>• Fracionamento indevido para fuga de licitação"]
+```
+
+#### 4.1 Hipóteses Restritas e Regra do Empenho Prévio
+- **O empenho prévio é obrigatório:** Embora subverta a ordem cronológica usual do pagamento (o dinheiro vai para o servidor antes da compra), o recurso **deve ser formalmente empenhado** à conta da dotação orçamentária própria em nome do servidor designado (o suprido).
+- **Hipóteses Restritas:**
+  1. Despesas de pequeno vulto (despesas miúdas de consumo imediato);
+  2. Despesas urgentes e imprevistas que possam paralisar o serviço público;
+  3. Despesas de viagens e estadias fora da sede de trabalho;
+  4. Despesas sigilosas de segurança e investigação policial.
+
+#### 4.2 Vedações Categóricas e Prestação de Contas
+É terminantemente proibido conceder adiantamento a:
+- Servidor **em alcance** (que esteja em atraso no dever de prestar contas de adiantamento anterior ou que tenha tido contas rejeitadas);
+- Servidor que seja responsável pela **guarda e custódia do material** a ser adquirido (ex.: chefes e operadores de almoxarifados ou patrimônio);
+- Servidor que não esteja em efetivo exercício no órgão concedente.
+- A prestação de contas é obrigatória e deve ser apresentada pelo suprido no prazo estipulado pelo regulamento, sob pena de instauração imediata de Tomada de Contas Especial (TCE).
 
 ---
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
 - [Lei Federal nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm)
-  - Arts. 58 a 65 (Dos Estágios da Despesa), Art. 36 (Restos a Pagar) e Art. 37 (DEA).
+  - Arts. 58 a 65 (Estágios da Despesa), Art. 36 (Restos a Pagar), Art. 37 (DEA) e Art. 68 (Suprimento de Fundos).
 - [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição (STN)](https://www.gov.br/tesouronacional/pt-br)
-  - Parte I: Procedimentos Contábeis Orçamentários - Despesa Pública e GNDs.
+  - Parte I: Procedimentos Contábeis Orçamentários - Despesa e Grupos de Natureza.
 - [Decreto Federal nº 93.872/1986](https://www.planalto.gov.br/ccivil_03/decreto/d93872.htm)
-  - Disciplina a unificação dos recursos de caixa e as regras de Suprimento de Fundos.
+  - Arts. 45 a 47 (Regime de Suprimento de Fundos) e Arts. 67 a 71 (Restos a Pagar).
 - [Decreto Estadual de Goiás nº 9.697/2020](https://legisla.casacivil.go.gov.br)
-  - Regulamento da execução financeira e prestação de contas de suprimento de fundos em Goiás.
+  - Regulamentação da execução orçamentária e suprimento de fundos no Estado de Goiás.
 
 ---
 
@@ -202,14 +233,14 @@ C) A liquidação da despesa tem por objetivo comprovar o implemento de condiç�
 D) O pagamento da despesa pública pode anteceder a liquidação nas hipóteses de aquisição de bens duráveis com cláusula de entrega futura.  
 E) As despesas empenhadas e não pagas até o encerramento do exercício financeiro em 31 de dezembro serão obrigatoriamente anuladas pelo controle interno.  
 
-> **Gabarito: C**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** Para despesas contratuais com pagamentos parcelados mensais, a modalidade de empenho exigida é o **empenho global** (art. 60, § 3º da Lei 4.320/64).  
-> - **B) INCORRETA:** A compra de imóvel já construído e em utilização configura **Inversão Financeira (GND 5)**, pois não gera formação bruta de capital fixo novo na economia.  
-> - **C) CORRETA:** Nos termos do art. 63 da Lei nº 4.320/1964, a liquidação consiste na verificação objetiva do direito adquirido pelo credor, mediante verificação da documentação e atesto físico de que o serviço foi concluído ou os bens entregues.  
-> - **D) INCORRETA:** A ordem legal é rígida: fixação -> empenho -> liquidação -> pagamento. O pagamento antes da liquidação é terminantemente vedado (art. 62).  
-> - **E) INCORRETA:** Despesas empenhadas e não pagas até 31 de dezembro são inscritas em **Restos a Pagar** (art. 36), não sendo sumariamente canceladas.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. Despesas contratuais com pagamentos parcelados mensais de valor determinado exigem a modalidade de empenho global (art. 60, § 3º da Lei nº 4.320/1964).
+> - **B)** Incorreta. A aquisição de imóveis prontos já edificados e em uso no mercado constitui Inversão Financeira (GND 5), pois não gera formação bruta de capital físico novo.
+> - **C)** Correta. De acordo com o art. 63 da Lei nº 4.320/1964, a liquidação consiste na verificação objetiva do direito adquirido pelo credor, mediante a conferência de títulos, documentos e atesto físico de entrega dos bens ou conclusão dos serviços prestados.
+> - **D)** Incorreta. O art. 62 da Lei nº 4.320/1964 prescreve que o pagamento da despesa só pode ser efetuado após a regular liquidação.
+> - **E)** Incorreta. As despesas empenhadas e não pagas até 31 de dezembro são inscritas em Restos a Pagar (art. 36), não sendo automaticamente canceladas.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -222,14 +253,14 @@ C) O suprimento de fundos dispensa a realização de empenho orçamentário pré
 D) As despesas de exercícios encerrados para as quais o orçamento respectivo consignava crédito próprio e com saldo suficiente, mas que não tenham sido empenhadas na época própria, poderão ser pagas à conta de dotação para despesas de exercícios anteriores (DEA).  
 E) O cancelamento de Restos a Pagar Processados enseja a imediata extinção irrecorrível do direito creditório do fornecedor perante a Fazenda Pública.  
 
-> **Gabarito: D**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** É expressamente vedada a concessão de suprimento de fundos a servidor em alcance (com prestação de contas pendente de homologação ou em atraso).  
-> - **B) INCORRETA:** As DEA referem-se a compromissos pretéritos que não foram quitados no exercício de competência e serão custeados à conta da dotação da LOA em vigor (art. 37 da Lei 4.320/64).  
-> - **C) INCORRETA:** O empenho prévio em nome do agente recebedor (suprido) é condição indeclinável antes da liberação do numerário.  
-> - **D) CORRETA:** O art. 37 da Lei nº 4.320/1964 prevê que as despesas de exercícios encerrados para as quais o orçamento respectivo consignava crédito próprio com saldo suficiente, mas que não se empenharam na época própria, poderão ser empenhadas e pagas à conta de dotação de DEA na LOA vigente.  
-> - **E) INCORRETA:** Se a despesa foi liquidada, o direito do fornecedor subsiste; eventual cancelamento indevido enseja reconhecimento do débito como DEA dentro do prazo prescricional quinquenal.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. É categoricamente proibido conceder suprimento de fundos a servidor em alcance (que esteja em mora na prestação de contas de suprimento anterior).
+> - **B)** Incorreta. As DEA referem-se a compromissos pendentes que serão empenhados e quitados na LOA do exercício em curso, nas hipóteses do art. 37 da Lei nº 4.320/1964.
+> - **C)** Incorreta. O adiantamento exige prévio empenho emitido formalmente em nome do servidor suprido.
+> - **D)** Correta. Conforme o art. 37 da Lei nº 4.320/1964, despesas de exercícios findos que contavam com crédito orçamentário com saldo suficiente, mas que não foram empenhadas na época própria por erro ou omissão da administração, são empenhadas e pagas à conta de DEA.
+> - **E)** Incorreta. O direito creditório do fornecedor subsiste e respeita o prazo prescricional quinquenal de 5 anos; se o RPP foi cancelado indevidamente, o débito deve ser reaberto como DEA.
+> 
+> **Gabarito: D**
 
 ---
 
@@ -244,14 +275,14 @@ C) Estimativo.
 D) Extraorçamentário.  
 E) Suplementar por Decreto.  
 
-> **Gabarito: C**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** O empenho ordinário aplica-se a despesas de valor exato conhecido e pagamento em parcela única.  
-> - **B) INCORRETA:** O empenho global exige que o valor total da obrigação contratual seja previamente conhecido com exatidão (ex.: aluguel fixado em R$ 5.000/mês).  
-> - **C) CORRETA:** De acordo com o art. 60, § 2º da Lei nº 4.320/1964, aplica-se o **empenho estimativo** para as despesas cujo montante exato não se possa previamente determinar no momento da emissão, como as contas de água, energia, telefone e combustíveis.  
-> - **D) INCORRETA:** Despesas com serviços essenciais de manutenção são despesas orçamentárias correntes.  
-> - **E) INCORRETA:** Crédito suplementar é instrumento de alteração orçamentária, não modalidade de empenho.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O empenho ordinário é utilizado exclusivamente para despesas de valor exato prefixado e pagamento único.
+> - **B)** Incorreta. O empenho global destina-se a despesas contratuais cujo valor total exato é previamente conhecido, sendo desembolsado em parcelas.
+> - **C)** Correta. Nos termos do art. 60, § 2º da Lei nº 4.320/1964, utiliza-se a modalidade de empenho estimativo para as despesas cujo montante exato não se possa fixar previamente, como é o caso das contas de utilidade pública (energia elétrica, água, telefonia e combustíveis).
+> - **D)** Incorreta. Serviços essenciais de manutenção contínua são despesas orçamentárias correntes obrigatórias.
+> - **E)** Incorreta. Crédito suplementar é espécie de crédito adicional para reforço de dotação, não modalidade de nota de empenho.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -266,16 +297,14 @@ C) Outras Despesas Correntes (GND 3) e Investimentos (GND 4).
 D) Inversões Financeiras (GND 5) e Inversões Financeiras (GND 5).  
 E) Amortização da Dívida (GND 6) e Outras Despesas Correntes (GND 3).  
 
-> **Gabarito: A**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) CORRETA:**  
->   - A aquisição de terrenos ou imóveis prontos existentes no mercado configura **Inversão Financeira (GND 5)**, pois não gera formação bruta de capital físico novo.  
->   - A execução de obras públicas de construção civil nova de um prédio administrativo gera infraestrutura nova para a sociedade, classificando-se como **Investimento (GND 4)**.  
-> - **B) INCORRETA:** Terrenos prontos são classificados no GND 5.  
-> - **C) INCORRETA:** Nenhuma das duas operações constitui despesa corrente de consumo (GND 3).  
-> - **D) INCORRETA:** Construção de obra nova é investimento (GND 4).  
-> - **E) INCORRETA:** Não se trata de amortização de dívida pública fundada (GND 6).
+> **Comentário Detalhado:**
+> - **A)** Correta. A compra de terrenos ou imóveis prontos preexistentes no mercado configura Inversão Financeira (GND 5), pois transfere a posse sem gerar formação bruta de capital físico novo no país. Em contrapartida, a contratação de obras de construção civil para erguer um novo prédio público gera infraestrutura nova, qualificando-se como Investimento (GND 4).
+> - **B)** Incorreta. Terrenos e imóveis prontos não integram o GND 4.
+> - **C)** Incorreta. Ambas são despesas de capital (código 4) e não de consumo/custeio corrente (GND 3).
+> - **D)** Incorreta. Obra de construção nova de prédio público é investimento.
+> - **E)** Incorreta. Não se referem a amortização do principal da dívida pública fundada.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -292,13 +321,11 @@ C) Restos a Pagar Processados e Restos a Pagar Não Processados.
 D) Despesas de Exercícios Anteriores e Restos a Pagar Processados.  
 E) Ingressos Extraorçamentários e Restos a Pagar Não Processados.  
 
-> **Gabarito: C**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** O contrato II não foi liquidado, não podendo ser processado.  
-> - **B) INCORRETA:** O contrato I foi regularmente liquidado antes de 31 de dezembro, qualificando-se como processado.  
-> - **C) CORRETA:**  
->   - Despesas empenhadas e **liquidadas** (serviço atestado) e não pagas em 31/12 são inscritas como **Restos a Pagar Processados (RPP)** (Contrato I).  
->   - Despesas empenhadas e **não liquidadas** (bens a serem entregues no exercício seguinte) são inscritas como **Restos a Pagar Não Processados (RPNP)** (Contrato II).  
-> - **D) INCORRETA:** DEA refere-se a despesas de anos pretéritos que serão pagas no orçamento corrente sem restos a pagar válidos.  
-> - **E) INCORRETA:** São despesas orçamentárias de capital/corrente, não ingressos.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O Contrato II não foi liquidado até 31 de dezembro, logo não pode constituir restos a pagar processados.
+> - **B)** Incorreta. O Contrato I foi regularmente liquidado antes do encerramento do exercício, qualificando-se compulsoriamente como processado.
+> - **C)** Correta. Conforme o art. 36 da Lei nº 4.320/1964, despesas empenhadas e liquidadas que não foram pagas até 31 de dezembro são inscritas em Restos a Pagar Processados (RPP - Contrato I); enquanto despesas empenhadas e não liquidadas até essa data são inscritas como Restos a Pagar Não Processados (RPNP - Contrato II).
+> - **D)** Incorreta. DEA aplica-se a exercícios anteriores para os quais não há inscrição válida em restos a pagar.
+> - **E)** Incorreta. São despesas orçamentárias de capital e correntes, e não ingressos financeiros.
+> 
+> **Gabarito: C**

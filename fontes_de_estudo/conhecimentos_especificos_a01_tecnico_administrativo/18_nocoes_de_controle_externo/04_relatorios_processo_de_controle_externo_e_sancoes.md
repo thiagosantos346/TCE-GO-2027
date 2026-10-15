@@ -3,6 +3,7 @@
 > **Matéria:** Noções de Controle Externo  
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `04_relatorios_processo_de_controle_externo_e_sancoes.md`  
+> **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
 ---
 
@@ -34,61 +35,44 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-4. Relatórios, Processo de Controle Externo, Tomada de Contas Especial e Sanções
-├── 4.1 Comunicação dos Resultados e Deliberações do Tribunal
-│   ├── 4.1.1 Atributos Qualitativos do Relatório: Clareza, concisão, precisão, objetividade, completude e tempestividade
-│   ├── 4.1.2 Espécies de Deliberações:
-│   │   ├── Acórdão: Decisão colegiada proferida pelas Câmaras ou pelo Plenário
-│   │   ├── Decisão Monocrática: Proferida singularmente pelo Conselheiro-Relator (ex.: concessão de cautelar)
-│   │   ├── Determinações: Ordens mandamentais vinculantes para sanar ilegalidades (cumprimento obrigatório)
-│   │   └── Recomendações: Orientações de caráter propositivo e pedagógico para aprimorar a gestão discricionária
-│   └── 4.1.3 Monitoramento: Fiscalização do cumprimento das deliberações com exigência de Plano de Ação
-├── 4.2 Tomada de Contas Especial (TCE)
-│   ├── 4.2.1 Natureza: Processo administrativo excepcional de ressarcimento deflagrado após esgotadas as vias internas
-│   ├── 4.2.2 Pressupostos de Instauração Obrigatória:
-│   │   ├── 1. Omissão no dever de prestar contas ou ocorrência de desfalque, desvio ou dano ao erário
-│   │   ├── 2. Esgotamento das providências administrativas internas no órgão onde o fato ocorreu
-│   │   ├── 3. Prejuízo financeiro em valor superior ao limite de alçada normativo
-│   │   └── 4. Não transcurso de mais de 10 anos entre a ocorrência do fato e a notificação válida do responsável
-│   └── 4.2.3 As Duas Fases da TCE:
-│       ├── Fase Interna: Conduzida no órgão de origem pela comissão tomadora, com relatório do controle interno e manifestação da autoridade máxima supervisora
-│       └── Fase Externa: Autuada no Tribunal de Contas, com citação do responsável, parecer do Ministério Público de Contas e julgamento colegiado
-├── 4.3 O Processo de Controle Externo e as Garantias Constitucionais
-│   ├── 4.3.1 Espécies de Comunicação Processual:
-│   │   ├── Citação: Comunicação para recolher débito apurado OU apresentar alegações de defesa (há imputação de dano)
-│   │   └── Audiência: Chamamento para apresentar razões de justificativa (apuração de infração à norma, sem dano)
-│   ├── 4.3.2 Sistema Recursal no Processo de Contas:
-│   │   ├── Recurso de Reconsideração: Cabível contra decisão definitiva em processo de contas (efeito suspensivo)
-│   │   ├── Pedido de Reexame: Cabível contra decisão de mérito em processos de fiscalização (auditorias, inspeções)
-│   │   ├── Embargos de Declaração: Para sanar omissão, contradição ou obscuridade no julgado
-│   │   ├── Agravo: Cabível contra decisões monocráticas interlocutórias do Relator
-│   │   └── Recurso de Revisão: Ação rescisória de contas cabível no prazo de 5 anos fundada em fato ou documento novo
-│   └── 4.3.3 Coisa Julgada Administrativa: Decisão torna-se definitiva na via administrativa, admitindo revisão judicial estrita da legalidade pelo Poder Judiciário (Art. 5º, XXXV da CF)
-├── 4.4 Julgamento das Contas de Gestão (Art. 71, II da CF)
-│   ├── 4.4.1 Contas Regulares: Demonstram exatidão e legalidade plena dos atos -> Quitação plena ao responsável
-│   ├── 4.4.2 Contas Regulares com Ressalva: Falhas meramente formais que não causaram dano -> Quitação com determinações
-│   ├── 4.4.3 Contas Irregulares: Dano ao erário, desfalque, desvio, gestão ilegítima ou grave infração legal -> Condenação em débito, multa, inabilitação e remessa ao MPE (inelegibilidade da Lei da Ficha Limpa)
-│   └── 4.4.4 Contas Iliquidáveis: Caso fortuito ou força maior que impossibilite materialmente o julgamento -> Trancamento das contas e arquivamento (reabríveis dentro de 5 anos com novos fatos)
-└── 4.5 Regime Sancionatório e Prescrição
-    ├── 4.5.1 Sanções Aplicáveis pelos Tribunais de Contas:
-    │   ├── Imputação de Débito: Ressarcimento integral do dano patrimonial (eficácia de título executivo extrajudicial)
-    │   ├── Multa Proporcional ao Dano: De até 100% do valor do prejuízo apurado
-    │   ├── Multa por Grave Infração à Norma Legal ou não atendimento de diligências
-    │   ├── Inabilitação para o Exercício de Cargo em Comissão ou Função de Confiança: Por período de até 5 anos
-    │   └── Declaração de Inidoneidade para Licitar e Contratar: Por período de até 5 anos
-    └── 4.5.2 Prescrição nos Tribunais de Contas (Lei 9.873/1999 e STF Tema 899):
-        ├── Prescrição Principal: Prazo de 5 (cinco) anos para o exercício das pretensões punitiva e de ressarcimento
-        └── Prescrição Intercorrente: Prazo de 3 (três) anos se o processo ficar paralisado sem movimentação instrutória
-```
+## 🧭 Sumário
+1. [Comunicação dos Resultados e Deliberações do Tribunal](#1-comunicação-dos-resultados-e-deliberações-do-tribunal)
+   - 1.1 [Atributos do Relatório de Auditoria](#11-atributos-do-relatório-de-auditoria)
+   - 1.2 [Espécies de Deliberações: Determinações versus Recomendações](#12-espécies-de-deliberações-determinações-versus-recomendações)
+2. [Tomada de Contas Especial (TCE): Rito e Pressupostos](#2-tomada-de-contas-especial-tce-rito-e-pressupostos)
+   - 2.1 [Natureza Jurídica e Pressupostos de Instauração Obrigatória](#21-natureza-jurídica-e-pressupostos-de-instauração-obrigatória)
+   - 2.2 [Fase Interna versus Fase Externa da TCE](#22-fase-interna-versus-fase-externa-da-tce)
+3. [Comunicações Processuais: Citação versus Audiência](#3-comunicações-processuais-citação-versus-audiência)
+4. [Julgamento das Contas de Gestão dos Administradores Públicos](#4-julgamento-das-contas-de-gestão-dos-administradores-públicos)
+5. [Sistema Recursal no Processo de Controle Externo](#5-sistema-recursal-no-processo-de-controle-externo)
+6. [Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)](#6-regime-sancionatório-e-reflexos-eleitorais-lei-da-ficha-limpa)
+7. [Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)](#7-prescrição-nos-tribunais-de-contas-o-marco-do-stf-tema-899)
+8. [Fontes Oficiais & Jurisprudenciais Recomendadas](#8-fontes-oficiais--jurisprudenciais-recomendadas)
+9. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#9-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
 
 ---
 
 ## 📖 Conteúdo Teórico Aprofundado
 
-### 1. Tomada de Contas Especial (TCE): Rito e Pressupostos
+### 1. Comunicação dos Resultados e Deliberações do Tribunal
+
+#### 1.1 Atributos do Relatório de Auditoria
+A comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100:
+- **Clareza:** Linguagem acessível, técnica e compreensível para os leitores e cidadãos;
+- **Concisão:** Foco direto no que é materialmente relevante, sem prolixidade inútil;
+- **Precisão:** Informações exatas, lastreadas em evidências idôneas e documentação incontestável;
+- **Objetividade:** Neutralidade, ausência de juízos emocionais e equilíbrio na ponderação dos argumentos do auditado;
+- **Completude:** Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito;
+- **Tempestividade:** Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
+
+#### 1.2 Espécies de Deliberações: Determinações versus Recomendações
+As deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais:
+- **Determinações:** Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+- **Recomendações:** Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa. Não possuem caráter sancionatório direto imediato.
+
+---
+
+### 2. Tomada de Contas Especial (TCE): Rito e Pressupostos
 
 A **Tomada de Contas Especial (TCE)** é um processo administrativo de caráter **excepcional**, instaurado com rito próprio para apurar fatos lesivos, identificar responsáveis, quantificar o prejuízo e obter a recomposição do erário.
 
@@ -108,16 +92,20 @@ flowchart TD
     FaseExt --> Citacao["Citação dos Responsáveis, Instrução, Parecer do MPC e Julgamento"]
 ```
 
-#### Pressupostos de Instauração e Hipóteses de Dispensa / Arquivamento
+#### 2.1 Natureza Jurídica e Pressupostos de Instauração Obrigatória
 Para a instauração e prosseguimento regular de uma TCE, exige-se o preenchimento cumulativo de quatro pressupostos:
 1. **Ocorrência do Dano ou Omissão:** Caracterização de desfalque, desvio, ato de gestão ilegal/ilegítimo ou omissão no dever de prestar contas;
 2. **Esgotamento das Vias Internas:** Demonstração de que a administração tentou obter o ressarcimento voluntário sem sucesso;
 3. **Limite de Alçada:** O valor histórico atualizado do dano deve ser **igual ou superior ao limite mínimo de alçada** fixado anualmente pelo Tribunal de Contas (evita que o custo operacional do controle supere o montante a recuperar);
 4. **Tempestividade (Regra dos 10 anos):** Não deve ter decorrido prazo superior a **dez (10) anos** entre a data originária do fato e a primeira notificação válida do responsável pela administração. Se decorridos mais de 10 anos sem notificação, a TCE é arquivada por comprometimento insanável da ampla defesa e do contraditório.
 
+#### 2.2 Fase Interna versus Fase Externa da TCE
+- **Fase Interna (no órgão público de origem):** Conduzida por comissão tomadora de contas no órgão lesado; localiza documentos, notifica o gestor para recolhimento amigável, elabora o Relatório do Tomador de Contas, recebe o Certificado de Auditoria do Controle Interno e o pronunciamento do Secretário de Estado supervisor da pasta.
+- **Fase Externa (no Tribunal de Contas):** Tem início com o ingresso formal do processo no Tribunal de Contas; são autuados os autos, realizada a instrução pela unidade técnica de fiscalização, aberta a citação do responsável para recolher o valor ou contestar, emitido parecer conclusivo do Ministério Público de Contas e realizado o julgamento definitivo pelo Plenário ou Câmara.
+
 ---
 
-### 2. Comunicações Processuais: Citação vs. Audiência
+### 3. Comunicações Processuais: Citação versus Audiência
 
 Nos processos em trâmite nos Tribunais de Contas, a intimação para defesa adota duas formas distintas conforme o conteúdo da imputação:
 
@@ -133,7 +121,7 @@ flowchart LR
 
 ---
 
-### 3. Julgamento das Contas de Gestão dos Administradores Públicos
+### 4. Julgamento das Contas de Gestão dos Administradores Públicos
 
 O Tribunal de Contas, ao julgar em caráter definitivo as contas dos ordenadores de despesas e gestores públicos (Art. 71, II da CF/88), manifestará um dos quatro julgamentos:
 
@@ -149,7 +137,7 @@ O Tribunal de Contas, ao julgar em caráter definitivo as contas dos ordenadores
 
 ---
 
-### 4. Sistema Recursal no Processo de Controle Externo
+### 5. Sistema Recursal no Processo de Controle Externo
 
 A legislação orgânica dos Tribunais de Contas (Lei nº 16.168/2007 do TCE-GO e Lei 8.443/92) prevê os seguintes recursos:
 
@@ -172,7 +160,19 @@ flowchart TD
 
 ---
 
-### 5. Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)
+### 6. Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)
+
+As sanções administrativas dos Tribunais de Contas incluem:
+1. **Imputação de Débito:** Condenação à devolução integral do valor do dano ou desvio, acrescido de correção monetária e juros de mora (constitui título executivo extrajudicial - art. 71, § 3º da CF);
+2. **Multa Proporcional ao Dano:** Aplicável nos casos de dano ao erário, no percentual de até 100% do valor atualizado do prejuízo;
+3. **Multa por Infração à Norma Legal:** Penalidade cominada por grave infração a normas contábeis, financeiras, orçamentárias ou operacionais, independentemente da ocorrência de prejuízo monetário;
+4. **Inabilitação para Exercício de Cargo em Comissão:** Penalidade de inabilitação temporária, por período de **até 5 anos**, para o exercício de cargo em comissão ou função de confiança na Administração Pública;
+5. **Declaração de Inidoneidade para Licitar e Contratar:** Penalidade aplicada a licitantes e empresas que fraudarem licitações ou cometerem ilícitos graves, com eficácia de **até 5 anos**;
+6. **Reflexos Eleitorais (Art. 1º, I, "g" da LC nº 64/90 - Lei da Ficha Limpa):** São inelegíveis para qualquer cargo político os que tiverem suas contas relativas ao exercício de cargos ou funções públicas rejeitadas por **irregularidade insanável que configure ato doloso de improbidade administrativa**, por decisão irrecorrível do órgão competente, para as eleições que se realizarem nos **oito (8) anos seguintes**, salvo se suspensa ou anulada pelo Poder Judiciário.
+
+---
+
+### 7. Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)
 
 A disciplina da prescrição nas ações perante os Tribunais de Contas é orientada pelas seguintes diretrizes:
 - **Tema 899 do STF (RE 636.886):** O Supremo Tribunal Federal pacificou que a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas é **prescritível**, aplicando-se o prazo **quinquenal (5 anos)** do Decreto nº 20.910/1932 e da Lei nº 9.873/1999.
@@ -200,7 +200,7 @@ A disciplina da prescrição nas ações perante os Tribunais de Contas é orien
 
 ---
 
-## 📝 Questões Comentadas no Padrão FCC
+## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
 
 ### Questão 1 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
 A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional e processual dos Tribunais de Contas, assinale a opção correta:
@@ -211,14 +211,14 @@ C) A instauração da TCE é medida excepcional de apuração de responsabilidad
 D) Caso o dano apurado decorra de desfalque praticado por particular sem vínculo estatutário com o poder público, o Tribunal de Contas não possui competência jurisdicional para julgar a respectiva TCE, devendo os autos ser remetidos com exclusividade à autoridade policial.  
 E) A citação do responsável no bojo da Tomada de Contas Especial dispensa a individualização da conduta e a indicação do valor nominal do débito atribuído, bastando a descrição genérica do fato apurado pela comissão tomadora.  
 
-> **Gabarito: C**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** O procedimento ordinário anual é a Prestação/Tomada de Contas Ordinária. A TCE é processo administrativo de caráter extraordinário e excepcional vocacionado a apurar dano ao erário e buscar reparação patrimonial.  
-> - **B) INCORRETA:** A autoridade administrativa deve, primeiramente, esgotar todas as providências administrativas internas no âmbito do próprio órgão para tentar reaver os valores amigavelmente antes de instaurar a TCE.  
+> **Comentário Detalhado:**
+> - **A) Incorreta:** O procedimento ordinário anual é a Prestação/Tomada de Contas Ordinária. A TCE é processo administrativo de caráter extraordinário e excepcional vocacionado a apurar dano ao erário e buscar reparação patrimonial.  
+> - **B) Incorreta:** A autoridade administrativa deve, primeiramente, esgotar todas as providências administrativas internas no âmbito do próprio órgão para tentar reaver os valores amigavelmente antes de instaurar a TCE.  
 > - **C) CORRETA:** A TCE é instrumento de exceção. A sua regular deflagração exige simultaneamente: a) ocorrência de dano; b) esgotamento das vias administrativas prévias sem êxito; c) valor do dano superior ao limite de alçada normativo do Tribunal; e d) não transcurso de mais de dez anos entre o fato e a primeira notificação válida do agente.  
-> - **D) INCORRETA:** O art. 70, parágrafo único e o art. 71, II da CF/88 conferem competência ampla ao Tribunal de Contas para julgar particulares que derem causa a perda, extravio ou outra irregularidade de que resulte dano ao erário.  
-> - **E) INCORRETA:** Para resguardar a ampla defesa e o contraditório, o mandado de citação deve obrigatoriamente delimitar o valor atualizado do débito, o período dos fatos e a conduta individualizada atribuída ao responsável.
+> - **D) Incorreta:** O art. 70, parágrafo único e o art. 71, II da CF/88 conferem competência ampla ao Tribunal de Contas para julgar particulares que derem causa a perda, extravio ou outra irregularidade de que resulte dano ao erário.  
+> - **E) Incorreta:** Para resguardar a ampla defesa e o contraditório, o mandado de citação deve obrigatoriamente delimitar o valor atualizado do débito, o período dos fatos e a conduta individualizada atribuída ao responsável.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -233,14 +233,14 @@ C) Julgar as contas regulares com ressalva, haja vista que a ausência de preju�
 D) Declarar extinta a punibilidade, reconhecendo a imprescritibilidade privativa do processo administrativo de contas públicas.  
 E) Deixar de julgar as contas e remeter os autos à Procuradoria-Geral do Estado para ajuizamento de ação de improbidade administrativa perante o Poder Judiciário.  
 
-> **Gabarito: B**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** Contas iliquidáveis decorrem de caso fortuito ou força maior comprovada (ex.: enchente destruindo arquivos) que impeça materialmente o julgamento.  
+> **Comentário Detalhado:**
+> - **A) Incorreta:** Contas iliquidáveis decorrem de caso fortuito ou força maior comprovada (ex.: enchente destruindo arquivos) que impeça materialmente o julgamento.  
 > - **B) CORRETA:** Conforme o art. 71, II e VIII da CF/88 e a Lei Orgânica do TCE-GO (art. 59, III), as contas de gestão serão julgadas **irregulares** quando comprovada a prática de grave infração a norma legal ou regulamentar de natureza contábil, financeira ou orçamentária, aplicando-se multa sancionatória ao gestor, mesmo na hipótese em que não tenha havido dano ao erário.  
-> - **C) INCORRETA:** Grave infração a norma legal impede o juízo de regularidade com ressalva, o qual se reserva estritamente a falhas formais de menor relevância que não comprometam a legitimidade da gestão.  
-> - **D) INCORRETA:** Pretensões punitivas do Tribunal de Contas prescrevem no prazo de cinco anos (Tema 899 do STF).  
-> - **E) INCORRETA:** O julgamento técnico das contas dos administradores de fundações públicas é competência constitucional privativa e irrenunciável do Tribunal de Contas (art. 71, II).
+> - **C) Incorreta:** Grave infração a norma legal impede o juízo de regularidade com ressalva, o qual se reserva estritamente a falhas formais de menor relevância que não comprometam a legitimidade da gestão.  
+> - **D) Incorreta:** Pretensões punitivas do Tribunal de Contas prescrevem no prazo de cinco anos (Tema 899 do STF).  
+> - **E) Incorreta:** O julgamento técnico das contas dos administradores de fundações públicas é competência constitucional privativa e irrenunciável do Tribunal de Contas (art. 71, II).
+> 
+> **Gabarito: B**
 
 ---
 
@@ -255,14 +255,14 @@ C) Interpelação judicial perante a Vara da Fazenda Pública.
 D) Notificação cartorária para confissão de dívida.  
 E) Citação por edital com prazo de cinco dias sob pena de revelia e prisão civil.  
 
-> **Gabarito: B**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** A citação é reservada a processos em que há imputação de débito e pretensão de ressarcimento por dano ao erário.  
+> **Comentário Detalhado:**
+> - **A) Incorreta:** A citação é reservada a processos em que há imputação de débito e pretensão de ressarcimento por dano ao erário.  
 > - **B) CORRETA:** A **Audiência** é o instrumento processual próprio de chamamento aos autos utilizado pelo Tribunal de Contas quando se imputa ao responsável a prática de infração à norma legal ou regulamentar sem dano patrimonial apurado, conferindo-lhe prazo para apresentar **razões de justificativa** antes de eventual cominação de multa.  
-> - **C) INCORRETA:** Trata-se de procedimento administrativo de controle externo, prescindindo de interpelação perante o Poder Judiciário.  
-> - **D) INCORRETA:** Inaplicável aos processos de controle externo.  
-> - **E) INCORRETA:** Tribunais de Contas não decretam prisão civil e a citação é medida voltada para cobrança de dano.
+> - **C) Incorreta:** Trata-se de procedimento administrativo de controle externo, prescindindo de interpelação perante o Poder Judiciário.  
+> - **D) Incorreta:** Inaplicável aos processos de controle externo.  
+> - **E) Incorreta:** Tribunais de Contas não decretam prisão civil e a citação é medida voltada para cobrança de dano.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -275,14 +275,14 @@ C) Recurso de Reconsideração.
 D) Apelação Cível Administrativa.  
 E) Mandado de Segurança perante o Tribunal de Justiça.  
 
-> **Gabarito: C**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** O Recurso de Revisão tem natureza de ação rescisória, cabível no prazo decadencial de 5 anos do trânsito em julgado, sem efeito suspensivo.  
-> - **B) INCORRETA:** O Pedido de Reexame é o recurso cabível contra decisões de mérito em **processos de fiscalização** (auditorias, inspeções, acompanhamentos), e não em processos de contas.  
+> **Comentário Detalhado:**
+> - **A) Incorreta:** O Recurso de Revisão tem natureza de ação rescisória, cabível no prazo decadencial de 5 anos do trânsito em julgado, sem efeito suspensivo.  
+> - **B) Incorreta:** O Pedido de Reexame é o recurso cabível contra decisões de mérito em **processos de fiscalização** (auditorias, inspeções, acompanhamentos), e não em processos de contas.  
 > - **C) CORRETA:** Nos termos da Lei Orgânica dos Tribunais de Contas (art. 76 da Lei nº 16.168/2007 do TCE-GO e art. 33 da Lei 8.443/92), o recurso cabível contra acórdão definitivo proferido em **processo de contas** (Prestação de Contas ou Tomada de Contas Especial) é o **Recurso de Reconsideração**, dotado de efeito suspensivo.  
-> - **D) INCORRETA:** Recurso inexistente no processo de controle externo.  
-> - **E) INCORRETA:** O MS é remédio jurisdicional, e não via recursal administrativa interna contra decisão definitiva de contas.
+> - **D) Incorreta:** Recurso inexistente no processo de controle externo.  
+> - **E) Incorreta:** O MS é remédio jurisdicional, e não via recursal administrativa interna contra decisão definitiva de contas.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -295,11 +295,11 @@ C) Toda e qualquer reprovação de contas em Tribunal de Contas gera inelegibili
 D) As decisões dos Tribunais de Contas não produzem efeitos eleitorais, cabendo exclusivamente à Justiça Eleitoral apurar danos patrimoniais e desvios de conduta.  
 E) A inelegibilidade decorrente da rejeição de contas perdura por até vinte anos contados da data da notificação inicial no Tribunal de Contas.  
 
-> **Gabarito: B**  
->
-> **Análise detalhada de cada alternativa:**  
-> - **A) INCORRETA:** Regularidade com ressalva não gera inelegibilidade, pois representa quitação das contas com identificação de meras falhas formais.  
+> **Comentário Detalhado:**
+> - **A) Incorreta:** Regularidade com ressalva não gera inelegibilidade, pois representa quitação das contas com identificação de meras falhas formais.  
 > - **B) CORRETA:** Reproduz a literalidade do art. 1º, inciso I, alínea "g" da Lei Complementar nº 64/1990: são inelegíveis *"os que tiverem suas contas relativas ao exercício de cargos ou funções públicas rejeitadas por irregularidade insanável que configure ato doloso de improbidade administrativa, e por decisão irrecorrível do órgão competente, salvo se esta houver sido suspensa ou anulada pelo Poder Judiciário, para as eleições que se realizarem nos 8 (oito) anos seguintes"*.  
-> - **C) INCORRETA:** Pelo princípio da inafastabilidade da jurisdição (art. 5º, XXXV da CF), o Poder Judiciário pode apreciar a legalidade formal e material dos julgamentos dos TCs.  
-> - **D) INCORRETA:** As decisões dos Tribunais de Contas constituem o fundamento primordial da cláusula de inelegibilidade do art. 1º, I, "g" da LC 64/90.  
-> - **E) INCORRETA:** O prazo legal de inelegibilidade é de **oito (8) anos** contados da data da decisão irrecorrível.
+> - **C) Incorreta:** Pelo princípio da inafastabilidade da jurisdição (art. 5º, XXXV da CF), o Poder Judiciário pode apreciar a legalidade formal e material dos julgamentos dos TCs.  
+> - **D) Incorreta:** As decisões dos Tribunais de Contas constituem o fundamento primordial da cláusula de inelegibilidade do art. 1º, I, "g" da LC 64/90.  
+> - **E) Incorreta:** O prazo legal de inelegibilidade é de **oito (8) anos** contados da data da decisão irrecorrível.
+> 
+> **Gabarito: B**

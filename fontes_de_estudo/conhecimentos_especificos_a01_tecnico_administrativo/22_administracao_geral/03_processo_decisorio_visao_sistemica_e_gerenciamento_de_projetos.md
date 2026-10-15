@@ -23,175 +23,150 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-3. Processo Decisório, Visão Sistêmica e Gerenciamento de Projetos
-├── 3.1 O Processo Decisório Organizacional
-│   ├── 3.1.1 Fases do Ciclo de Decisão:
-│   │   ├── 1. Identificação do problema ou oportunidade
-│   │   ├── 2. Diagnóstico da situação e coleta de evidências
-│   │   ├── 3. Desenvolvimento e formulação de alternativas
-│   │   ├── 4. Análise comparativa das alternativas (risco vs. benefício)
-│   │   ├── 5. Seleção e escolha da melhor alternativa (a decisão)
-│   │   ├── 6. Implementação e execução do plano de ação
-│   │   └── 7. Monitoramento, controle e retroalimentação (feedback)
-│   ├── 3.1.2 Tipos de Decisão (Herbert Simon):
-│   │   ├── Decisões Programadas: Estruturadas, dados claros, regras preexistentes (baixo risco)
-│   │   └── Decisões Não Programadas: Inéditas, mal estruturadas, imprevisíveis (alta cúpula)
-│   └── 3.1.3 Condições Ambientais da Tomada de Decisão:
-│       ├── Certeza: Resultados determinísticos e conhecidos com exatidão
-│       ├── Risco: Desfechos incertos, porém com probabilidades estatísticas calculáveis
-│       ├── Incerteza: Ausência de dados suficientes para calcular probabilidades matemáticas
-│       └── Ambiguidade: Problema obscuro, metas indefinidas e alternativas imprecisas
-├── 3.2 Visão Sistêmica e Pensamento Holístico
-│   ├── 3.2.1 Conceito: Organização vista como totalidade aberta em interação contínua
-│   ├── 3.2.2 Superação dos Silos Organizacionais: Eliminação de barreiras e cooperação intersetorial
-│   ├── 3.2.3 Sinergia Organizacional: O resultado integrado do todo supera a soma isolada das partes
-│   └── 3.2.4 Subsistemas Organizacionais (Kast e Rosenzweig):
-│       ├── Subsistema de Objetivos e Valores (Missão e cultura)
-│       ├── Subsistema Técnico (Conhecimento, equipamentos e processos)
-│       ├── Subsistema Psicossocial (Relações humanas, motivação e clima)
-│       ├── Subsistema Estrutural (Organograma, autoridade e fluxo formal)
-│       └── Subsistema Gerencial (Coordenação, liderança, estratégia e controle)
-└── 3.3 Noções de Gerenciamento de Projetos
-    ├── 3.3.1 Conceito: Empreendimento temporário voltado à criação de um produto ou serviço exclusivo
-    ├── 3.3.2 Restrição Tripla: Equilíbrio dinâmico entre Escopo, Tempo e Custo (Qualidade no centro)
-    └── 3.3.3 Ferramentas de Cronograma e Controle:
-        ├── Gráfico de Gantt: Cronograma de barras horizontais que relaciona tarefas e datas
-        ├── Método do Caminho Crítico (CPM): Sequência mais longa de atividades interdependentes (Folga Zero)
-        └── Técnica PERT: Estimativa probabilística por média ponderada: TE = (O + 4M + P) / 6
-```
+## 🧭 Sumário Interativo
+- [1. O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)](#1-o-ciclo-do-processo-decisório-e-a-tipologia-de-decisões-herbert-simon)
+- [2. Condições Ambientais da Tomada de Decisão](#2-condições-ambientais-da-tomada-de-decisão)
+- [3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais](#3-visão-sistêmica-pensamento-holístico-e-silos-organizacionais)
+- [4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT](#4-gerenciamento-de-projetos-restrição-tripla-gantt-cpm-e-pert)
+- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
+- [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
 
 ---
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
-### 1. O Processo Decisório e a Tipologia das Decisões
+### 1. O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)
 
-O processo decisório é a sequência lógica pela qual um administrador seleciona uma linha de ação entre duas ou mais alternativas concorrentes:
+O processo decisório é a sequência lógica e deliberada de passos cognitivos por meio da qual um administrador ou colegiado identifica uma demanda e elege uma linha de ação específica dentre alternativas concorrentes:
 
 ```mermaid
 flowchart TD
-    Ciclo["As 7 Etapas do Ciclo Decisório"]
+    Ciclo["As 7 Etapas do Ciclo Decisório Organizacional"]
     
-    Ciclo --> E1["1. Identificação do Problema ou Oportunidade"]
-    E1 --> E2["2. Diagnóstico e Levantamento de Dados"]
-    E2 --> E3["3. Formulação de Alternativas de Solução"]
-    E3 --> E4["4. Análise e Comparação das Alternativas"]
-    E4 --> E5["5. Escolha da Alternativa mais Adequada"]
-    E5 --> E6["6. Implementação e Ação Concreta"]
-    E6 --> E7["7. Monitoramento e Avaliação de Resultados"]
-    E7 -->|Feedback contínuo| E1
+    Ciclo --> E1["1. Identificação do Problema ou Oportunidade<br/>(Reconhecimento da discrepância entre o estado real e o desejado)"]
+    E1 --> E2["2. Diagnóstico da Situação e Coleta de Dados<br/>(Mapeamento de causas profundas e evidências fáticas)"]
+    E2 --> E3["3. Formulação e Desenvolvimento de Alternativas<br/>(Geração de diferentes cursos de ação possíveis)"]
+    E3 --> E4["4. Análise e Avaliação Comparativa das Alternativas<br/>(Ponderação entre riscos, custos, viabilidade legal e benefícios)"]
+    E4 --> E5["5. Escolha da Alternativa mais Adequada<br/>(A tomada de decisão propriamente dita: seleção satisfatória)"]
+    E5 --> E6["6. Implementação e Execução da Decisão<br/>(Mobilização de pessoas e recursos no plano de ação 5W2H)"]
+    E6 --> E7["7. Monitoramento, Controle e Avaliação de Resultados<br/>(Verificação da eficácia e retroalimentação/feedback contínuo)"]
+    E7 -->|Feedback corretivo contínuo| E1
 ```
 
 #### Decisões Programadas versus Não Programadas (Herbert Simon):
 
+Herbert Simon dividiu as decisões administrativas em duas categorias essenciais:
+
 ```mermaid
 flowchart TD
-    Dec["Tipos de Decisões Organizacionais (Simon)"]
+    Dec["Tipos de Decisões Organizacionais (Herbert Simon)"]
     
-    Dec --> Prog["Decisões Programadas<br/>• Problemas repetitivos e conhecidos<br/>• Aplicação de normas, resoluções e POPs<br/>• Nível Operacional e Gerência Média<br/>• Ex.: Concessão de licença a servidor"]
+    Dec --> Prog["DECISÕES PROGRAMADAS<br/>• Problemas repetitivos, rotineiros e bem estruturados<br/>• Soluções pré-fixadas em leis, resoluções normativas e POPs<br/>• Nível Operacional e Chefias Intermediárias<br/>• Ex.: Concessão de licença-prêmio a servidor público"]
     
-    Dec --> NProg["Decisões Não Programadas<br/>• Problemas inéditos, complexos e mal estruturados<br/>• Exigem criatividade, julgamento e liderança<br/>• Alta Cúpula / Nível Estratégico<br/>• Ex.: Plano de contingência para pandemia"]
+    Dec --> NProg["DECISÕES NÃO PROGRAMADAS<br/>• Problemas inéditos, complexos e mal estruturados<br/>• Demandam julgamento crítico, visão holística e inovação<br/>• Alta Cúpula Diretiva / Nível Estratégico<br/>• Ex.: Plano de contingência operacional diante de pandemia"]
 ```
 
 | Critério de Comparação | Decisões Programadas | Decisões Não Programadas |
 | :--- | :--- | :--- |
-| **Natureza do Problema** | Estruturado, rotineiro, repetitivo e frequente. | Inédito, mal estruturado, singular e imprevisto. |
-| **Grau de Incerteza** | Mínimo; desfechos amplamente previsíveis. | Elevado; variáveis desconhecidas e mutáveis. |
+| **Natureza do Problema** | Estruturado, rotineiro, repetitivo e frequente. | Inédito, mal estruturado, singular e imprevisível. |
+| **Grau de Incerteza** | Mínimo; desfechos amplamente previsíveis e seguros. | Elevado; variáveis desconhecidas, mutáveis e turbulentas. |
 | **Fundamento da Escolha** | Procedimentos operacionais padrão (POP), leis e manuais. | Julgamento crítico, intuição embasada e visão estratégica. |
-| **Nível Organizacional Típico** | Nível Operacional e Tático intermediário. | Alta Cúpula Institucional (Nível Estratégico). |
+| **Nível Organizacional Típico** | Nível Operacional e Gerência Média/Tática. | Alta Cúpula Institucional (Nível Estratégico). |
+
+> 🛑 **ATENÇÃO (DECISÕES PROGRAMADAS VS. NÃO PROGRAMADAS):**  
+> - Decisões **Programadas** baseiam-se em normas, rotinas, formulários padronizados e leis vigentes (nível operacional).  
+> - Decisões **Não Programadas** tratam de imprevistos inéditos e desestruturados, exigindo julgamento e visão estratégica da alta cúpula.
 
 ---
 
 ### 2. Condições Ambientais da Tomada de Decisão
 
+O contexto em que a decisão é tomada varia segundo a qualidade e a completude das informações disponíveis:
+
 ```mermaid
 flowchart LR
-    Certeza["1. Certeza<br/>(Informações perfeitas<br/>Resultado exato)"] --> Risco["2. Risco<br/>(Resultado incerto, mas com<br/>probabilidade calculável)"]
-    Risco --> Incerteza["3. Incerteza<br/>(Sem dados suficientes<br/>Probabilidade impossível)"]
-    Incerteza --> Ambiguidade["4. Ambiguidade<br/>(Objetivos confusos<br/>Alternativas nebulosas)"]
+    Certeza["1. Certeza<br/>(Informações perfeitas<br/>Resultado exato determinístico)"] --> Risco["2. Risco<br/>(Resultado incerto, mas com<br/>probabilidade calculável)"]
+    Risco --> Incerteza["3. Incerteza<br/>(Sem dados suficientes<br/>Probabilidade matemática impossível)"]
+    Incerteza --> Ambiguidade["4. Ambiguidade<br/>(Objetivos confusos<br/>Alternativas e problemas nebulosos)"]
 ```
 
-1. **Condição de Certeza:** O tomador de decisão conhece previamente com exatidão todas as alternativas e as consequências determinísticas de cada uma delas.
-2. **Condição de Risco:** O decisor não tem certeza absoluta do resultado, mas dispõe de séries históricas e dados suficientes para estimar **probabilidades matemáticas confiáveis** de sucesso ou fracasso (ex.: 80% de chance de vitória jurídica).
-3. **Condição de Incerteza:** O decisor possui informações incompletas e o ambiente externo é tão dinâmico que é impossível calcular probabilidades matemáticas fidedignas.
-4. **Condição de Ambiguidade:** A situação mais complexa e caótica; os próprios objetivos são vagos ou contraditórios, o problema é mal compreendido e as alternativas são obscuras.
-
----
-
-### 3. Visão Sistêmica e Pensamento Holístico
-
-* **Superação dos "Silos Organizacionais":** Na visão mecanicista tradicional, cada setor atuava como um "feudo isolado", preocupando-se apenas com suas tarefas departamentais sem se importar com o impacto no restante da instituição. A visão sistêmica quebra essa fragmentação e enxerga a organização como um **organismo vivo e interconectado**.
-* **Sinergia Organizacional:** Conceito sistêmico segundo o qual o todo integrado operando cooperativamente produz um resultado qualitativa e quantitativamente superior à soma das partes isoladas ($1 + 1 > 2$).
-* **Os 5 Subsistemas de Kast e Rosenzweig:**
-  1. *Subsistema de Objetivos e Valores:* Missão, visão e cultura institucional;
-  2. *Subsistema Técnico:* Equipamentos, tecnologias, métodos de auditoria e fluxos operacionais;
-  3. *Subsistema Estrutural:* Organograma, divisão do trabalho e linhas formais de autoridade;
-  4. *Subsistema Psicossocial:* Clima de trabalho, motivação dos servidores e liderança;
-  5. *Subsistema Gerencial:* Coordenação de todos os demais subsistemas, planejamento e controle global.
-
----
-
-### 4. Gerenciamento de Projetos: Restrição Tripla, CPM e PERT
-
-```mermaid
-flowchart TD
-    subgraph RestricaoTripla ["A Restrição Tripla Clássica"]
-        direction TB
-        E["ESCOPO<br/>(O trabalho a ser entregue)"]
-        T["TEMPO<br/>(O prazo de entrega)"]
-        C["CUSTO<br/>(O orçamento disponível)"]
-        
-        E <--> T
-        T <--> C
-        C <--> E
-        
-        Q["QUALIDADE<br/>(Conformidade com os requisitos)"]
-        E -.-> Q
-        T -.-> Q
-        C -.-> Q
-    end
-```
-
-#### Instrumentos Primordiais de Gestão de Cronograma e Redes:
-1. **Gráfico de Gantt:** Gráfico bidimensional de barras horizontais que relaciona visualmente as atividades no eixo vertical e o calendário de tempo no eixo horizontal. É excelente para comunicação visual rápida do status do projeto.
-2. **Método do Caminho Crítico (CPM - *Critical Path Method*):**
-   - Mapeia o diagrama de rede de precedências lógicas entre tarefas.
-   - O Caminho Crítico é a **sequência mais longa de atividades interdependentes** do início ao encerramento do projeto.
-   - **Regra Fundamental de Concurso:** Todas as atividades situadas no caminho crítico possuem **FOLGA TEMPORAL NULA (FOLGA ZERO)**. Qualquer atraso em uma atividade crítica acarreta automaticamente o **atraso de todo o projeto**!
-3. **Técnica PERT (*Program Evaluation and Review Technique*):**
-   - Desenvolvida para projetos pioneiros com incerteza na duração das atividades.
-   - Utiliza a distribuição beta baseada em três estimativas de duração:
-     - **O:** Estimativa Otimista;
-     - **M:** Estimativa Mais Provável (*Most Likely*);
-     - **P:** Estimativa Pessimista.
-   - Fórmula da Média Ponderada PERT:
-     $$\mathbf{\text{Tempo Esperado (TE)} = \frac{O + 4M + P}{6}}$$
-
----
-
-## 🚨 Alertas de Prova & Pegadinhas da FCC
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC (FOLGA DO CAMINHO CRÍTICO):**  
-> Questão clássica da FCC: perguntar qual é o valor da folga de tempo das atividades que integram o caminho crítico (CPM) de um projeto. A resposta é taxativa: **FOLGA ZERO (FOLGA NULA)**! As tarefas críticas não admitem nenhum dia de atraso sem comprometer a data de entrega final de todo o empreendimento!
+1. **Condição de Certeza:** O decisor dispõe de informações completas, exatas e confiáveis. Os resultados de cada linha de ação são previsíveis com precisão matemática (resultado determinístico).
+2. **Condição de Risco:** O decisor desconhece com certeza o desfecho final, mas possui dados históricos, séries temporais e estatísticas suficientes para **atribuir probabilidades matemáticas confiáveis** a cada alternativa (ex.: probabilidade de 70% de êxito em uma fiscalização externa).
+3. **Condição de Incerteza:** O ambiente é tão dinâmico ou a situação é tão inovadora que faltam dados históricos básicos. O gestor **não tem condições de calcular probabilidades estatísticas** confiáveis, dependendo de intuição embasada e cenários prospectivos.
+4. **Condição de Ambiguidade:** A situação mais crítica de gestão; as próprias metas organizacionais são nebulosas ou contraditórias, o problema é mal compreendido e inexistem alternativas claras de ação delineadas.
 
 > ⭐ **IMPORTANTE (RISCO VS. INCERTEZA NA DECISÃO):**  
-> Grave a diferença estatística:  
+> Grave a diferença estatística crucial nas provas da FCC:  
 > - Em ambiente de **RISCO**, você **consegue calcular probabilidades matemáticas** associadas aos eventos futuros porque dispõe de séries históricas e dados estatísticos.  
 > - Em ambiente de **INCERTEZA**, os dados são precários ou inexistentes, sendo **impossível estimar probabilidades matemáticas confiáveis**.
 
-> 🛑 **ATENÇÃO (DECISÕES PROGRAMADAS VS. NÃO PROGRAMADAS):**  
-> - Decisões **Programadas** baseiam-se em normas, rotinas, formulários e leis vigentes (nível operacional).  
-> - Decisões **Não Programadas** tratam de imprevistos inéditos e desestruturados, exigindo julgamento e visão estratégica da alta cúpula.
+---
+
+### 3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais
+
+A abordagem sistêmica concebe a instituição pública como um **sistema aberto** composto por partes dinamicamente interconectadas e em constante intercâmbio com a sociedade:
+
+1. **Superação dos Silos Organizacionais (Feudos Administrativos):** Na abordagem burocrática mecanicista tradicional, cada diretoria ou setor funcionava como um "feudo isolado" (*silo organizacional*), preocupado exclusivamente com suas próprias metas setoriais e cego aos impactos no restante do órgão. O **pensamento holístico** supera essa fragmentação, integrando as unidades em torno do propósito público comum.
+2. **Sinergia Organizacional:** Fenômeno pelo qual a ação cooperativa e coordenada dos subsistemas integrados produz um resultado global significativamente superior à mera soma dos resultados obtidos por cada unidade isoladamente ($1 + 1 > 2$).
+3. **Os Cinco Subsistemas Organizacionais de Kast e Rosenzweig:**
+   - **Subsistema de Objetivos e Valores:** Missão institucional, visão de futuro e cultura ética do órgão.
+   - **Subsistema Técnico:** Instalações físicas, softwares, métodos de fiscalização, equipamentos e conhecimentos aplicados.
+   - **Subsistema Estrutural:** Desenho do organograma, divisão do trabalho, regimentos internos e linhas de subordinação hierárquica.
+   - **Subsistema Psicossocial:** Relações humanas interpessoais, clima de trabalho, dinâmica de grupos, motivação e liderança.
+   - **Subsistema Gerencial:** Função integradora superior que conecta e direciona todos os outros subsistemas através do planejamento, organização, comando, coordenação e controle.
 
 > 📌 **NOTA EXPLICATIVA (O CONCEITO DE SINERGIA):**  
 > Na abordagem sistêmica, sinergia significa que as unidades interdependentes cooperando de forma harmônica geram um valor total que excede a simples soma de seus desempenhos isolados ($1 + 1 > 2$).
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
+### 4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT
+
+Segundo o Project Management Institute (PMI/PMBOK), um **projeto** é um empreendimento temporário (possui início e fim previamente definidos) desenvolvido para criar um produto, serviço ou resultado único e exclusivo. Diferencia-se dos **processos**, que são operações contínuas, rotineiras e padronizadas.
+
+```mermaid
+flowchart TD
+    subgraph RestricaoTripla ["A Restrição Tripla Clássica de Projetos"]
+        direction TB
+        E["ESCOPO<br/>(O trabalho a ser realizado e as entregas)"]
+        T["TEMPO<br/>(O cronograma de prazos e datas-limite)"]
+        C["CUSTO<br/>(O orçamento financeiro alocado)"]
+        
+        E <--> T
+        T <--> C
+        C <--> E
+        
+        Q["QUALIDADE<br/>(Atendimento aos requisitos dos clientes e normas)"]
+        E -.-> Q
+        T -.-> Q
+        C -.-> Q
+    end
+```
+
+#### As Ferramentas de Planejamento e Controle de Cronograma:
+
+1. **Gráfico de Gantt:**
+   - Representação visual bidimensional de barras horizontais em que o eixo vertical elenca as tarefas e o eixo horizontal projeta a linha do tempo (dias, semanas ou meses).
+   - Proporciona acompanhamento visual imediato do avanço das tarefas e de suas datas de início e término.
+2. **Método do Caminho Crítico (CPM - *Critical Path Method*):**
+   - Mapeia o diagrama de rede de dependências e precedências lógicas entre todas as atividades do projeto.
+   - O Caminho Crítico é a **sequência mais longa de atividades interdependentes** do início ao final do projeto, determinando a sua duração total mínima.
+   - **Regra Mandatória de Prova:** Todas as atividades situadas no caminho crítico possuem **FOLGA TEMPORAL NULA (FOLGA ZERO)**. Qualquer atraso em uma tarefa do caminho crítico acarreta automaticamente o atraso na entrega final de todo o projeto!
+3. **Técnica PERT (*Program Evaluation and Review Technique*):**
+   - Ferramenta probabilística empregada em projetos complexos ou inovadores com alto grau de incerteza quanto à duração das atividades.
+   - Utiliza a distribuição beta baseada em três estimativas temporais fornecidas pelos especialistas:
+     - **O (Otimista):** Tempo mínimo em que a atividade pode ser concluída em condições ideais.
+     - **M (Mais Provável / *Most Likely*):** Tempo esperado em circunstâncias normais de trabalho.
+     - **P (Pessimista):** Tempo máximo exigido na pior hipótese concebível (quando tudo dá errado).
+   - **Fórmula da Média Ponderada PERT (Tempo Esperado):**
+     $$\mathbf{\text{Tempo Esperado (TE)} = \frac{O + 4M + P}{6}}$$
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC (FOLGA DO CAMINHO CRÍTICO):**  
+> Questão clássica da FCC: perguntar qual é o valor da folga de tempo das atividades que integram o caminho crítico (CPM) de um projeto. A resposta é taxativa: **FOLGA ZERO (FOLGA NULA)**! As tarefas críticas não admitem nenhum dia de atraso sem comprometer a data de entrega final de todo o empreendimento!
+
+---
+
+### 5. Fontes Oficiais e Referências Bibliográficas
 
 * [MAXIMIANO, Antonio Cesar Amaru. Administração para Projetos: como transformar ideias em resultados. Editora Atlas.](https://www.grupogen.com.br).
 * [SIMON, Herbert A. Comportamento Administrativo: estudo dos processos decisórios nas organizações. FGV.](https://www.fgv.br).
@@ -201,7 +176,7 @@ flowchart TD
 
 ---
 
-## 📝 Questões de Concurso FCC Comentadas
+### 6. Questões de Concurso FCC Comentadas
 
 ### Questão 01
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
@@ -213,13 +188,14 @@ A respeito das técnicas de planejamento e cronograma utilizadas no gerenciament
 * **D)** Representar uma estrutura analítica de decomposição hierárquica do escopo sem vinculação temporal.
 * **E)** Substituir o uso de diagramas de rede pela elaboração isolada de matrizes SWOT de contingência.
 
-> **Gabarito: B**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** As tarefas do caminho crítico não admitem folga de tempo; quem tem folga são as atividades fora do caminho crítico.  
 > - **B) CORRETA.** O **Caminho Crítico (CPM)** é precisamente a sequência de atividades dependentes de maior duração total contínua no diagrama de rede que define o tempo mínimo para a conclusão do projeto; todas as atividades que o compõem possuem **folga temporal zero (nula)**, de maneira que qualquer atraso nelas acarreta automaticamente o atraso de todo o projeto.  
 > - **C) Incorreta.** O CPM é uma ferramenta de gestão temporal de prazos e dependências em rede.  
 > - **D) Incorreta.** A decomposição do escopo em entregas é a EAP (WBS), que não se confunde com o CPM.  
-> - **E) Incorreta.** O CPM decorre compulsoriamente da montagem do diagrama de rede de precedências lógicas.
+> - **E) Incorreta.** O CPM decorre compulsoriamente da montagem do diagrama de rede de precedências lógicas.  
+> 
+> **Gabarito: B**
 
 ---
 
@@ -233,13 +209,14 @@ Determinado setor administrativo de um Tribunal de Contas analisa diariamente de
 * **D)** Decisão holística sob incerteza extrema.
 * **E)** Decisão estratégica de ruptura.
 
-> **Gabarito: C**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** Decisões não programadas são tomadas perante fatos inéditos, complexos e que demandam soluções inovadoras.  
 > - **B) Incorreta.** Ambiguidade é a ausência de metas ou clareza sobre o problema; na hipótese narrada, as regras e dados são claros.  
 > - **C) CORRETA.** As **decisões programadas** são aquelas que tratam de problemas rotineiros, estruturados e repetitivos, cuja resposta é automática e amparada em normas regimentais, resoluções, regras fixas ou procedimentos operacionais padrão (POPs) preestabelecidos pela organização.  
 > - **D) Incorreta.** Os parâmetros são plenamente conhecidos, inexistindo incerteza extrema.  
-> - **E) Incorreta.** A análise de pedidos de prazo de rotina é tarefa operacional, e não decisão estratégica de ruptura.
+> - **E) Incorreta.** A análise de pedidos de prazo de rotina é tarefa operacional, e não decisão estratégica de ruptura.  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -253,12 +230,13 @@ No âmbito da gestão estratégica de projetos governamentais, uma equipe necess
 * **D)** 20 dias.
 * **E)** 15 dias.
 
-> **Gabarito: C**  
 > **Comentário Detalhado:**  
 > - A técnica PERT adota a média ponderada com peso 4 para a estimativa mais provável:  
 >   - $\text{TE} = \frac{O + 4M + P}{6}$  
 >   - Substituindo os valores do enunciado: $\text{TE} = \frac{10 + (4 \times 16) + 28}{6} = \frac{10 + 64 + 28}{6} = \frac{102}{6} = 17\text{ dias}$.  
-> - Logo, a resposta exata é **17 dias** (Alternativa C).
+> - Logo, a resposta exata é **17 dias** (Alternativa C).  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -272,13 +250,14 @@ A respeito da tomada de decisão em ambientes organizacionais e das condições 
 * **D)** Na condição de risco, o tomador de decisão desconhece com certeza o resultado final, contudo dispõe de dados suficientes para calcular probabilidades estatísticas associadas a cada alternativa.
 * **E)** A condição de incerteza permite ao gestor modelar todas as variáveis futuras por meio de equações determinísticas de causa e efeito imediato.
 
-> **Gabarito: D**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** Informações completas e resultado exato definem a condição de **certeza**, e não de risco.  
 > - **B) Incorreta.** Na ambiguidade, as metas são desconhecidas e os dados são obscuros, sendo impossível calcular probabilidades.  
 > - **C) Incorreta.** Na certeza, o resultado é deterministicamente conhecido.  
 > - **D) CORRETA.** Na condição de **risco**, o resultado concreto de cada escolha é incerto, mas a organização possui informações e base histórica que tornam viável atribuir **probabilidades matemáticas ou estatísticas** de ocorrência a cada alternativa.  
-> - **E) Incorreta.** Na incerteza, as informações são escassas e as probabilidades matemáticas não podem ser calculadas com segurança.
+> - **E) Incorreta.** Na incerteza, as informações são escassas e as probabilidades matemáticas não podem ser calculadas com segurança.  
+> 
+> **Gabarito: D**
 
 ---
 
@@ -292,10 +271,11 @@ O modelo de administração contemporâneo valoriza o pensamento holístico e a 
 * **D)** Restringe a atuação do órgão público à preservação de fronteiras rígidas e impenetráveis, impedindo qualquer intercâmbio de dados com a sociedade externa.
 * **E)** Rejeita o conceito de sinergia por considerá-lo incompatível com a estrita divisão formal de trabalho prescrita em leis administrativas.
 
-> **Gabarito: B**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** Priorizar o próprio setor em detrimento do todo caracteriza a visão míope dos "silos organizacionais", combatida pela abordagem sistêmica.  
 > - **B) CORRETA.** A **visão sistêmica (ou holística)** enxerga a organização como um sistema aberto composto por subsistemas reciprocamente dependentes e interconectados; assim, qualquer alteração em um subsistema repercute em todos os demais e no resultado final entregue à sociedade.  
 > - **C) Incorreta.** O controle (retroalimentação/feedback) é elemento vital da teoria sistêmica para manter a homeostase dinâmica.  
 > - **D) Incorreta.** As organizações são sistemas **abertos**, com fronteiras permeáveis que realizam intercâmbio contínuo de recursos e dados com o meio externo.  
-> - **E) Incorreta.** A sinergia ($1 + 1 > 2$) é um dos pilares centrais da teoria de sistemas.
+> - **E) Incorreta.** A sinergia ($1 + 1 > 2$) é um dos pilares centrais da teoria de sistemas.  
+> 
+> **Gabarito: B**

@@ -15,238 +15,327 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-5. Segurança em Aplicações: Identidade, Acesso e Tokens
-├── 5.1 Conceitos Fundamentais de Segurança de Acesso
-│   ├── 5.1.1 Autenticação (Quem é você? - Verificação da identidade)
-│   ├── 5.1.2 Autorização (O que você pode fazer? - Controle de permissões e privilégios)
-│   └── 5.1.3 Modelos de Controle de Acesso: RBAC (Role-Based Access Control) e ABAC (Attribute-Based Access Control)
-├── 5.2 Framework de Autorização OAuth 2.0 (RFC 6749)
-│   ├── 5.2.1 Papéis no OAuth 2.0:
-│   │   ├── Resource Owner (Proprietário do Recurso / Usuário final)
-│   │   ├── Client (Aplicação terceira solicitando acesso: Web, SPA, Mobile, Backend)
-│   │   ├── Authorization Server (Servidor de Autorização / Emissor de tokens)
-│   │   └── Resource Server (Servidor que hospeda as APIs e recursos protegidos)
-│   ├── 5.2.2 Fluxos de Concessão (Grant Types):
-│   │   ├── Authorization Code Grant (fluxo mais seguro para aplicações cliente-servidor)
-│   │   ├── Authorization Code com PKCE (Proof Key for Code Exchange - padrão para SPAs e Mobile)
-│   │   ├── Client Credentials Grant (comunicação direta máquina-a-máquina / M2M sem usuário)
-│   │   ├── Refresh Token Grant (renovação de tokens expirados sem solicitar novas credenciais)
-│   │   └── Fluxos obsoletos/desaconselhados: Implicit Grant e Resource Owner Password Credentials (ROPC)
-│   └── 5.2.3 Escopos (Scopes): Definição de permissões granulares (read:users, write:orders)
-├── 5.3 Camada de Identidade OpenID Connect (OIDC 1.0)
-│   ├── 5.3.1 Propósito: Construído sobre o OAuth 2.0 para adicionar autenticação e federação de identidades
-│   ├── 5.3.2 Tipos de Tokens no OIDC:
-│   │   ├── ID Token (prova criptográfica da identidade do usuário para o Client)
-│   │   ├── Access Token (token de autorização para o Resource Server)
-│   │   └── Refresh Token (token para renovação de acesso)
-│   ├── 5.3.3 Endpoints Padrão OIDC: /authorize, /token, /userinfo e discovery /.well-known/openid-configuration
-│   └── 5.3.4 Single Sign-On (SSO) corporativo e Provedores de Identidade (IdP: Keycloak, Auth0, Microsoft Entra ID)
-└── 5.4 JSON Web Token - JWT (RFC 7519)
-    ├── 5.4.1 Estrutura do JWT (Três partes separadas por ponto: header.payload.signature codificadas em Base64URL)
-    ├── 5.4.2 Cabeçalho (Header): Algoritmo de assinatura (alg: HS256, RS256) e tipo (typ: "JWT")
-    ├── 5.4.3 Carga Útil (Payload) e Claims:
-    │   ├── Claims Registradas (Registered Claims):
-    │   │   ├── iss (Issuer - emissor do token)
-    │   │   ├── sub (Subject - identificador do usuário / sujeito)
-    │   │   ├── aud (Audience - destinatário esperado do token)
-    │   │   ├── exp (Expiration Time - timestamp Unix de expiração)
-    │   │   ├── nbf (Not Before - timestamp antes do qual o token é inválido)
-    │   │   ├── iat (Issued At - timestamp de emissão)
-    │   │   └── jti (JWT ID - identificador único para evitar replay attacks)
-    │   ├── Claims Públicas e Claims Privadas (dados personalizados da aplicação: roles, permissions)
-    │   └── Atenção: Base64URL não é criptografia! JWS (integridade) vs. JWE (confidencialidade)
-    ├── 5.4.4 Assinatura Criptográfica (Signature):
-    │   ├── Simétrica: HMAC com segredo compartilhado (HS256)
-    │   └── Assimétrica: Par de chaves pública e privada (RS256, ES256) com distribuição JWKS
-    └── 5.4.5 Boas Práticas e Segurança com JWT: Nunca armazenar dados sensíveis não criptografados no payload; tempo de vida curto do Access Token; proteção contra vazamento em LocalStorage vs. Cookies HttpOnly SameSite
-```
+## 🧭 Sumário
+- [1. Conceitos Fundamentais de Segurança de Acesso](#1-conceitos-fundamentais-de-segurança-de-acesso)
+  - [1.1 Autenticação (AuthN) vs. Autorização (AuthZ)](#11-autenticação-authn-vs-autorização-authz)
+  - [1.2 Fatores de Autenticação e MFA](#12-fatores-de-autenticação-e-mfa)
+  - [1.3 Modelos de Controle de Acesso: RBAC e ABAC](#13-modelos-de-controle-de-acesso-rbac-e-abac)
+- [2. Framework de Autorização OAuth 2.0 (RFC 6749)](#2-framework-de-autorização-oauth-20-rfc-6749)
+  - [2.1 Os Quatro Papéis Fundamentais](#21-os-quatro-papéis-fundamentais)
+  - [2.2 Fluxos de Concessão (Grant Types) e Cenários de Aplicação](#22-fluxos-de-concessão-grant-types-e-cenários-de-aplicação)
+  - [2.3 A Extensão PKCE (RFC 7636) para Clientes Públicos](#23-a-extensão-pkce-rfc-7636-para-clientes-públicos)
+  - [2.4 Escopos (Scopes) e Autorização Granular](#24-escopos-scopes-e-autorização-granular)
+- [3. Camada de Identidade OpenID Connect (OIDC 1.0)](#3-camada-de-identidade-openid-connect-oidc-10)
+  - [3.1 Distinção Essencial: OAuth 2.0 vs. OpenID Connect](#31-distinção-essencial-oauth-20-vs-openid-connect)
+  - [3.2 Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token](#32-tríade-de-tokens-no-oidc-id-token-access-token-e-refresh-token)
+  - [3.3 Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo](#33-endpoints-padronizados-oidc-e-single-sign-on-sso-corporativo)
+- [4. JSON Web Token - JWT (RFC 7519)](#4-json-web-token---jwt-rfc-7519)
+  - [4.1 Anatomia Estrutural: Header, Payload e Signature](#41-anatomia-estrutural-header-payload-e-signature)
+  - [4.2 Claims Registradas, Públicas e Privadas](#42-claims-registradas-públicas-e-privadas)
+  - [4.3 Assinatura Digital: Algoritmos Simétricos (HS256) vs. Assimétricos (RS256)](#43-assinatura-digital-algoritmos-simétricos-hs256-vs-assimétricos-rs256)
+  - [4.4 Armazenamento Seguro de Tokens no Cliente e Mitigação de Ataques](#44-armazenamento-seguro-de-tokens-no-cliente-e-mitigação-de-ataques)
+- [5. Quadro Comparativo Consolidado de Segurança de Acesso](#5-quadro-comparativo-consolidado-de-segurança-de-acesso)
+- [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+- [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questões-comentadas--exemplos-padrão-fcc)
 
 ---
 
-## 📖 Teoria Aprofundada & Pontos-Chave
+## 1. Conceitos Fundamentais de Segurança de Acesso
 
-### 5.1 Autenticação, Autorização e Modelos de Controle de Acesso
-
-- **Autenticação (AuthN - *Authentication*):** Processo de validação da identidade de uma entidade (usuário, dispositivo ou serviço). Responde à pergunta fundamental: **"Quem é você?"**. Envolve verificação de fatores de autenticação:
-  1. *O que você sabe* (senhas, PINs).
-  2. *O que você tem* (smartcards, certificados digitais, tokens OTP via smartphone).
-  3. *O que você é* (biometria, reconhecimento facial, impressão digital).
-- **Autorização (AuthZ - *Authorization*):** Processo de verificar se uma entidade já autenticada possui os privilégios e direitos necessários para executar uma ação específica sobre determinado recurso. Responde à pergunta: **"O que você tem permissão para fazer?"**.
+### 1.1 Autenticação (AuthN) vs. Autorização (AuthZ)
+A segurança em sistemas de informação modernos apoia-se na distinção categórica entre dois processos interdependentes:
 
 ```mermaid
 flowchart LR
-    subgraph ModelosAcesso["Modelos de Controle de Acesso"]
-        RBAC["RBAC (Role-Based Access Control)
-        Acesso vinculado a Papéis/Cargos:
-        Usuário -> Papel (Ex.: Auditor) -> Permissões"]
-        ABAC["ABAC (Attribute-Based Access Control)
-        Acesso avaliado dinamicamente por Atributos:
-        Sujeito + Recurso + Ação + Contexto Ambiental (Horário/IP/Local)"]
+    subgraph AuthN_Flow["1. Autenticação (AuthN)"]
+        A1["Usuário fornece credenciais"] --> A2["Sistema valida a identidade"]
+        A2 --> A3["'Quem é você?' -> Identidade Confirmada"]
     end
+    subgraph AuthZ_Flow["2. Autorização (AuthZ)"]
+        B1["Usuário autenticado solicita ação"] --> B2["Sistema avalia políticas e privilégios"]
+        B2 --> B3["'O que você pode fazer?' -> Acesso Concedido ou Negado"]
+    end
+    AuthN_Flow --> AuthZ_Flow
 ```
 
-| Modelo | Mecanismo Central | Vantagens | Desvantagens |
-|---|---|---|---|
-| **RBAC** (*Role-Based*) | Atribuição de permissões a papéis (*roles*) fixos (`Auditor`, `Gestor`). Usuários herdam os direitos de suas funções. | Simples de auditar e gerenciar em organizações tradicionais. | Explosão de papéis (*role explosion*) quando se exige granularidade fina. |
-| **ABAC** (*Attribute-Based*) | Avaliação booleana em tempo real de atributos do sujeito, recurso, ação e ambiente (*contexto*). | Altíssima flexibilidade (ex.: permitir acesso apenas no horário de expediente e na rede interna). | Maior complexidade de implementação e custo computacional de avaliação. |
+- **Autenticação (AuthN - *Authentication*):** Processo de validação e verificação inequívoca da identidade alegada por uma entidade (seja ela um usuário humano, um dispositivo ou um serviço autônomo). Responde à indagação fundamental: **"Quem é você?"**.
+- **Autorização (AuthZ - *Authorization*):** Processo de determinar quais direitos, permissões e operações uma entidade **previamente autenticada** tem legitimidade para exercer sobre um recurso específico no sistema. Responde à pergunta: **"O que você tem permissão para fazer?"**.
 
 ---
 
-### 5.2 Framework de Autorização OAuth 2.0 (RFC 6749)
+### 1.2 Fatores de Autenticação e MFA
+A robustez do processo de autenticação é medida pelo emprego de múltiplos fatores independentes (**MFA - *Multi-Factor Authentication***):
+1. **Fator de Conhecimento (*Something you know*):** Informações secretas memorizadas pelo usuário (senhas alfanuméricas, códigos PIN, respostas a perguntas de segurança).
+2. **Fator de Posse (*Something you have*):** Objetos físicos ou digitais sob custódia do usuário (smartcards com chip, tokens criptográficos USB/FIDO2, certificados digitais ICP-Brasil, aplicativos autenticadores geradores de senhas descartáveis baseadas em tempo — TOTP/Google Authenticator).
+3. **Fator de Inerência (*Something you are*):** Características biológicas ou biométricas intrínsecas e exclusivas do indivíduo (impressão digital, reconhecimento facial 3D, geometria de íris/retina, padrão vascular).
 
-#### 5.2.1 Os Quatro Papéis Fundamentais do OAuth 2.0
-1. **Resource Owner (Proprietário do Recurso):** O usuário final que detém os dados e tem autoridade para conceder acesso às suas informações protegidas.
-2. **Client (Aplicação Cliente):** A aplicação que solicita autorização para acessar recursos em nome do *Resource Owner*. Pode ser confidencial (backend seguro com chave privada) ou público (SPA em React, aplicativo mobile).
-3. **Authorization Server (Servidor de Autorização):** Servidor responsável por autenticar o *Resource Owner*, colher o seu consentimento e emitir tokens de acesso (*Access Tokens*) após validação.
-4. **Resource Server (Servidor de Recursos):** O servidor que hospeda os dados e as APIs protegidas, capaz de aceitar e responder a requisições contendo *Access Tokens* válidos.
+> 🚨 **ALERTA DE PROVA / FCC:**  
+> A banca costuma colocar pegadinhas afirmando que "utilizar senha e código PIN simultaneamente configura autenticação multifator". Isso é falso! Senha e PIN pertencem à **mesma categoria (conhecimento)**. O MFA exige o uso concorrente de pelo menos **duas categorias distintas de fatores** (ex.: senha + token TOTP ou biometria + certificado digital).
 
-#### 5.2.2 Fluxos de Concessão (*Grant Types*) no OAuth 2.0
+---
+
+### 1.3 Modelos de Controle de Acesso: RBAC e ABAC
+Uma vez autenticada a entidade, o subsistema de autorização aplica políticas para liberar ou vetar o acesso aos endpoints e bancos de dados:
+
+```mermaid
+flowchart TD
+    subgraph ModelosAcesso["Modelos Principais de Controle de Acesso"]
+        subgraph RBAC["RBAC (Role-Based Access Control)"]
+            U["Usuário"] --> P["Papel / Função (Ex.: Auditor)"]
+            P --> Perm["Permissões Estáticas (read:processos, sign:parecer)"]
+        end
+        subgraph ABAC["ABAC (Attribute-Based Access Control)"]
+            Sujeito["Atributos do Sujeito (Cargo, Lotação, Vínculo)"]
+            Recurso["Atributos do Recurso (Grau Sigilo, Unidade Orçamentária)"]
+            Ambiente["Atributos Ambientais (IP de Origem, Horário, Geolocalização)"]
+            Motor["Motor de Políticas ABAC (XACML / OPA)"]
+            Sujeito --> Motor
+            Recurso --> Motor
+            Ambiente --> Motor
+            Motor --> Decisao["Decisão Booleana em Tempo Real (Permitir / Bloquear)"]
+        end
+    end
+```
+
+| Critério de Comparação | RBAC (*Role-Based Access Control*) | ABAC (*Attribute-Based Access Control*) |
+|---|---|---|
+| **Fundamento Central** | Acesso concedido com base no **papel ou função estrutural** que o indivíduo exerce na organização (`Auditor`, `Gestor`, `Técnico`). | Acesso avaliado dinamicamente combinando múltiplos **atributos** do sujeito, do recurso, da ação pretendida e do ambiente contextual. |
+| **Flexibilidade Contextual** | **Baixa**. O papel é estático e ignora variáveis temporais, geográficas ou de rede no momento da solicitação. | **Altíssima**. Permite regras condicionais refinadas (ex.: "Permitir acesso apenas se o auditor pertencer à 2ª Câmara, o processo for da sua relatoria e o acesso ocorrer em dia útil via VPN do TCE"). |
+| **Complexidade de Gestão** | Sofre do problema de **explosão de papéis (*role explosion*)** quando a organização necessita de regras com granularidade muito fina. | Complexidade na escrita e no processamento computacional de políticas dinâmicas (frequentemente expressas em padrões como XACML ou OPA/Rego). |
+| **Aplicação Típica** | Sistemas departamentais convencionais e portais corporativos simples. | Ambientes governamentais críticos, controle fiscal e sistemas orientados a microsserviços. |
+
+---
+
+## 2. Framework de Autorização OAuth 2.0 (RFC 6749)
+
+### 2.1 Os Quatro Papéis Fundamentais
+O framework OAuth 2.0 (padronizado pela IETF na **RFC 6749**) foi concebido para resolver o problema da concessão delegada de acesso, permitindo que uma aplicação terceira acesse recursos protegidos em nome do usuário **sem jamais exigir o compartilhamento de suas credenciais (login e senha)**.
+
+1. **Resource Owner (Proprietário do Recurso):** A entidade (normalmente o usuário humano final) capaz de outorgar o acesso aos seus recursos protegidos.
+2. **Client (Aplicação Cliente):** A aplicação que realiza requisições a recursos protegidos em nome do *Resource Owner*. Classifica-se em:
+   - *Confidential Client (Cliente Confidencial):* Capaz de manter a confidencialidade de suas credenciais (`client_secret`), pois roda em servidores backend seguros controlados pela organização.
+   - *Public Client (Cliente Público):* Incapaz de proteger um segredo criptográfico estático, pois roda no dispositivo do usuário final (SPAs em JavaScript no navegador, aplicativos móveis para Android/iOS).
+3. **Authorization Server (Servidor de Autorização):** Servidor responsável por autenticar o *Resource Owner*, colher o seu consentimento expresso e emitir os tokens criptográficos de acesso (*Access Tokens*) após validação das credenciais e escopos.
+4. **Resource Server (Servidor de Recursos):** O servidor que hospeda os recursos e APIs protegidos, capaz de receber, validar os tokens de acesso e responder às requisições do cliente.
+
+---
+
+### 2.2 Fluxos de Concessão (Grant Types) e Cenários de Aplicação
+O OAuth 2.0 define fluxos distintos de acordo com a natureza da aplicação cliente e os requisitos de segurança:
+
+```mermaid
+flowchart TD
+    subgraph EscolhaGrant["Árvore de Decisão de Fluxos OAuth 2.0 Modernos"]
+        Q1{"Há usuário humano envolvido?"}
+        Q1 -->|Não (Comunicação M2M / Batch)| CC["Client Credentials Grant"]
+        Q1 -->|Sim| Q2{"O cliente consegue proteger um secret no backend?"}
+        Q2 -->|Sim (Web App Tradicional)| AC["Authorization Code Grant"]
+        Q2 -->|Não (SPA React ou App Mobile)| PKCE["Authorization Code Grant com PKCE"]
+    end
+```
+
+| Fluxo (*Grant Type*) | Cenário Operacional | Nível de Segurança | Situação Normativa Atual |
+|---|---|:---:|---|
+| **Authorization Code** | Aplicações Web clássicas baseadas em servidor com backend seguro (*confidential clients*). | **Máximo** | Padrão recomendado pela IETF. |
+| **Authorization Code com PKCE** | Clientes públicos: Single Page Applications (SPAs em React, Angular) e Apps Mobile nativos. | **Máximo** | **Obrigatório** pelas diretrizes contemporâneas (RFC 7636 e OAuth 2.1). |
+| **Client Credentials** | Comunicação direta máquina-a-máquina (M2M), microsserviços internos, scripts batch e daemons sem usuário. | **Alto** | Padrão oficial para comunicação automatizada entre sistemas. |
+| **Refresh Token Grant** | Renovação transparente de *Access Tokens* expirados sem requerer novo login do usuário. | **Alto** | Empregado como mecanismo complementar aos fluxos de código. |
+| **Implicit Grant** | SPAs legadas nos primórdios da web, onde o token vinha diretamente exposto no fragmento da URL (`#access_token=...`). | **Vulnerável** | **DEPRECADO E PROIBIDO** no OAuth 2.1 devido a riscos de interceptação no histórico do navegador. |
+| **Resource Owner Password Credentials (ROPC)** | O usuário digita suas credenciais corporativas diretamente na tela da aplicação cliente. | **Crítico** | **DEPRECADO E PROIBIDO** no OAuth 2.1 (viola a premissa central de não compartilhar senhas com clientes terceiros). |
+
+---
+
+### 2.3 A Extensão PKCE (RFC 7636) para Clientes Públicos
+Em clientes públicos (como aplicações React ou apps móveis), um atacante pode registrar um esquema customizado de URI ou inspecionar o tráfego do sistema operacional para interceptar o código de autorização (`code`) retornado pelo servidor. Como o cliente público não possui um `client_secret` sigiloso, o atacante poderia trocar esse código interceptado por um *Access Token*.
+
+A extensão **PKCE** (*Proof Key for Code Exchange*, RFC 7636) neutraliza essa ameaça através de segredos criptográficos efêmeros criados dinamicamente para cada autenticação:
 
 ```mermaid
 sequenceDiagram
     autonumber
-    actor RO as Usuário (Resource Owner)
-    participant Client as Aplicação Cliente (React + Backend)
+    actor Usuário
+    participant Client as SPA React (Cliente Público)
     participant AS as Authorization Server
-    participant RS as Resource Server (API)
+    participant API as Resource Server (API)
 
-    Note over RO,AS: Fluxo Authorization Code com PKCE
-    Client->>Client: Gera code_verifier e calcula code_challenge = SHA256(verifier)
-    Client->>AS: Redireciona navegador para /authorize?response_type=code&code_challenge=...
-    RO->>AS: Autentica-se e concede consentimento
+    Note over Client: 1. Gera code_verifier aleatório<br/>2. Calcula code_challenge = Base64URL(SHA256(verifier))
+    Client->>AS: GET /authorize?response_type=code&code_challenge=...&code_challenge_method=S256
+    Usuário->>AS: Autentica-se e autoriza o acesso
     AS-->>Client: Redireciona com Código Temporário (?code=AUTH_CODE)
-    Client->>AS: POST /token (code=AUTH_CODE, code_verifier=...)
-    AS->>AS: Valida SHA256(code_verifier) == code_challenge
+    Client->>AS: POST /token (code=AUTH_CODE, code_verifier=SEGREDO_ORIGINAL)
+    Note over AS: AS calcula SHA256(code_verifier) e compara com code_challenge registrado
     AS-->>Client: Retorna Access Token + ID Token (OIDC)
-    Client->>RS: GET /api/processos (Authorization: Bearer <Access_Token>)
-    RS-->>Client: Retorna dados protegidos de auditoria
+    Client->>API: GET /api/processos (Authorization: Bearer <Token>)
+    API-->>Client: Dados Fiscais Protegidos
 ```
 
-| Tipo de Fluxo (*Grant Type*) | Cenário de Uso Principal | Nível de Segurança | Estado Atual / Recomendações |
-|---|---|:---:|---|
-| **Authorization Code** | Aplicações web com backend (*confidential clients* com segredo seguro). | **Máximo** | Padrão recomendado clássico. |
-| **Authorization Code com PKCE** | Clientes Públicos: Single Page Applications (SPAs em React, Vue) e Apps Mobile. | **Máximo** | **Obrigatório** pelas especificações modernas (RFC 7636 e OAuth 2.1). |
-| **Client Credentials** | Comunicação máquina-a-máquina (M2M), microsserviços internos, rotinas batch (sem usuário humano). | **Alto** | Padrão oficial para comunicação direta entre sistemas. |
-| **Refresh Token** | Renovação de *Access Tokens* expirados sem intervenção do usuário final. | **Alto** | Utilizado em conjunto com outros fluxos para manter sessões ativas. |
-| **Implicit Grant** | SPAs legadas no navegador onde o token vinha diretamente no fragmento da URL (`#access_token=...`). | **Inseguro** | **DEPRECADO / OBSOLETO** (risco de interceptação de token). |
-| **Resource Owner Password Credentials (ROPC)** | O usuário digita usuário e senha diretamente dentro da aplicação terceira. | **Crítico** | **DEPRECADO / OBSOLETO** (viola o princípio central do OAuth 2.0). |
-
-> ⭐ **IMPORTANTE / REGRA DE OURO:**  
-> **O que é PKCE (*Proof Key for Code Exchange*)?**  
-> Clientes públicos (como aplicações React rodando no navegador ou apps de smartphone) não conseguem manter um `client_secret` em sigilo, pois qualquer usuário pode inspecionar o código-fonte ou descompilar o APK. O PKCE resolve essa vulnerabilidade gerando um segredo dinâmico descartável para cada requisição: o cliente gera um `code_verifier` aleatório e envia seu hash SHA-256 (`code_challenge`) no `/authorize`. Ao trocar o código por token no `/token`, ele envia o `code_verifier` em texto claro. O servidor calcula o hash e verifica a coincidência, garantindo que quem recebeu o código de autorização foi quem de fato o solicitou!
+1. O cliente cria uma string secreta criptograficamente aleatória denominada **`code_verifier`**.
+2. O cliente calcula o hash dessa string utilizando SHA-256 e o codifica em Base64URL, obtendo o **`code_challenge`**.
+3. Na solicitação de autorização (`GET /authorize`), o cliente envia apenas o `code_challenge` e o método utilizado (`code_challenge_method=S256`).
+4. Ao receber o código de autorização e solicitar o token (`POST /token`), o cliente envia o `code_verifier` original em texto claro.
+5. O Servidor de Autorização calcula internamente o hash do `code_verifier` recebido e compara com o `code_challenge` guardado previamente. Se coincidirem, emite o token. Se um invasor tiver interceptado o `code`, não conseguirá trocá-lo por tokens porque não conhece o `code_verifier`.
 
 ---
 
-### 5.3 Camada de Identidade OpenID Connect (OIDC 1.0)
+### 2.4 Escopos (Scopes) e Autorização Granular
+Os **escopos (*scopes*)** no OAuth 2.0 são identificadores textuais que expressam o conjunto delimitado de privilégios solicitados pela aplicação cliente ao concedente:
+- Exemplos: `scope=read:processos write:processos openid email`.
+- O *Resource Owner* pode consentir apenas com um subconjunto dos escopos solicitados.
+- O Servidor de Recursos (API) analisa as claims de escopo presentes dentro do token de acesso para autorizar ou barrar endpoints específicos.
 
-#### 5.3.1 A Distinção Vital: OAuth 2.0 vs. OpenID Connect
-- **OAuth 2.0 NÃO É um protocolo de autenticação!** Ele é estritamente um framework de **autorização delegada**. Ele permite conceder a uma aplicação terceira acesso a arquivos ou APIs sem fornecer a senha, emitindo um `access_token` opaco ou estruturado.
-- **OpenID Connect (OIDC 1.0):** É uma camada de **identidade e autenticação** construída sobre o OAuth 2.0. Ele introduz o conceito padronizado de perfil de usuário e emite um token exclusivo para a aplicação cliente saber quem é o usuário logado: o **`id_token`**.
+---
+
+## 3. Camada de Identidade OpenID Connect (OIDC 1.0)
+
+### 3.1 Distinção Essencial: OAuth 2.0 vs. OpenID Connect
+
+> 🚨 **ALERTA DE PROVA / FCC:**  
+> A afirmação *"OAuth 2.0 é um protocolo de autenticação"* é um dos maiores distratores em concursos públicos!
+> - **OAuth 2.0 é exclusivamente um framework de autorização delegada.** Ele informa que uma aplicação tem autorização para consumir determinadas APIs, mas não padroniza quem é o usuário, qual o formato do token nem como consultar o perfil do usuário.
+> - O **OpenID Connect (OIDC 1.0)** é uma camada de **identidade e autenticação** federada construída **sobre** o OAuth 2.0. Ele introduz o escopo obrigatório `openid` e define o padrão para emissão de um token de identidade padronizado: o **ID Token**.
 
 ```mermaid
 flowchart TD
-    subgraph ArquiteturaOIDC["RELAÇÃO ARQUITETURAL: OAUTH 2.0 vs. OPENID CONNECT"]
-        OIDC["<b>OpenID Connect 1.0 (Camada de Identidade)</b><br/>• Propósito: Autenticação de Usuário ('Quem é você?')<br/>• Emite: ID Token (JWT com perfil e dados do usuário)<br/>• Destinatário: Aplicação Cliente (Client App)"]
-        OAuth["<b>OAuth 2.0 (Camada Base de Autorização Delegada)</b><br/>• Propósito: Concessão de Acesso ('O que você pode acessar?')<br/>• Emite: Access Token (para invocar endpoints da API)<br/>• Destinatário: Servidor de Recursos (Resource Server / API)"]
+    subgraph OIDC_Stack["Camadas Arquiteturais OIDC / OAuth 2.0"]
+        OIDC["<b>OpenID Connect 1.0 (Identidade / Autenticação)</b><br/>• Responde: 'Quem é o usuário logado?'<br/>• Emite: ID Token (formato obrigatório JWT)<br/>• Destinatário: Aplicação Cliente (Client)"]
+        OAuth["<b>OAuth 2.0 (Autorização Delegada de APIs)</b><br/>• Responde: 'Quais permissões a aplicação possui?'<br/>• Emite: Access Token<br/>• Destinatário: Servidor de Recursos (API)"]
     end
-    OIDC -->|Construído sobre a infraestrutura de| OAuth
+    OIDC -->|Adiciona perfil, userInfo e ID Token sobre| OAuth
 ```
-
-#### 5.3.2 Comparativo dos Tokens no Ecossistema OIDC
-
-| Atributo | ID Token | Access Token | Refresh Token |
-|---|---|---|---|
-| **Padrão Normativo** | OpenID Connect Core 1.0 | OAuth 2.0 (RFC 6749) | OAuth 2.0 (RFC 6749) |
-| **Destinatário (*Audience*)**| A **Aplicação Cliente (*Client*)** | O **Servidor de Recursos (*Resource Server* / API)** | O **Servidor de Autorização (*Authorization Server*)** |
-| **Formato Obrigatório**| **JSON Web Token (JWT)** assinado | Formato flexível (geralmente JWT ou token opaco) | String opaca / chave criptográfica segura |
-| **Finalidade Central** | Provar que o usuário se autenticou e informar seus dados (`sub`, `name`, `email`). | Provar que a aplicação tem permissão para acessar endpoints e executar escopos. | Obter novos tokens quando o Access Token expirar sem incomodar o usuário. |
-| **Tempo de Vida** | Curto (minutos) | Curto (geralmente de 5 a 60 minutos) | Longo (dias, semanas ou meses) |
 
 ---
 
-### 5.4 JSON Web Token - JWT (RFC 7519)
+### 3.2 Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token
 
-#### 5.4.1 Anatomia Estrutural do JWT
-Um token JWT no formato compacto serializado (JWS) é uma cadeia alfanumérica contínua formada por **três partes distintas separadas por pontos (`.`)**:
+| Atributo / Dimensão | ID Token | Access Token | Refresh Token |
+|---|---|---|---|
+| **Norma de Origem** | OpenID Connect Core 1.0 | OAuth 2.0 (RFC 6749) | OAuth 2.0 (RFC 6749) |
+| **Destinatário (*Audience*)** | A **Aplicação Cliente (*Client*)** | O **Servidor de Recursos (*Resource Server* / API)** | O **Servidor de Autorização (*Authorization Server*)** |
+| **Formato Obrigatório** | **JWT (JSON Web Token)** assinado digitalmente | Não normatizado pelo OAuth 2.0 (na prática, JWT ou string opaca) | String opaca criptograficamente aleatória |
+| **Finalidade Primária** | Provar que o usuário se autenticou com sucesso e fornecer seus atributos básicos de perfil (`sub`, `name`, `email`). | Credencial utilizada para autorizar chamadas às APIs e microsserviços nos cabeçalhos `Authorization: Bearer <token>`. | Credencial de longa duração utilizada para obter um novo *Access Token* quando o atual expirar, sem exigir novas credenciais do usuário. |
+| **Tempo de Vida Médio** | Curto (minutos) | Curto (geralmente entre 5 e 60 minutos) | Longo (dias, semanas ou meses, com rotação de tokens) |
+
+---
+
+### 3.3 Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo
+O OpenID Connect padroniza os endpoints do Provedor de Identidade (*Identity Provider* - IdP):
+- **`/.well-known/openid-configuration` (Discovery):** Endpoint público de autodescoberta que lista as capacidades do servidor, algoritmos suportados e as URLs de todos os endpoints.
+- **`/authorize`:** Onde o usuário é redirecionado para realizar o login e conceder consentimento.
+- **`/token`:** Onde o cliente troca o código de autorização pelos tokens de acesso e identidade.
+- **`/userinfo`:** Endpoint protegido onde a aplicação cliente apresenta o *Access Token* para obter dados adicionais e detalhados do perfil do usuário autenticado.
+- **Single Sign-On (SSO):** Arquitetura corporativa federada que permite ao usuário realizar login uma única vez no Provedor de Identidade (ex.: Keycloak, Microsoft Entra ID / Azure AD, Auth0) e acessar de forma transparente todos os sistemas governamentais integrados sem reinserir senhas.
+
+---
+
+## 4. JSON Web Token - JWT (RFC 7519)
+
+### 4.1 Anatomia Estrutural: Header, Payload e Signature
+O JWT (RFC 7519) é um padrão aberto compacto e autocontido (*stateless*) para transmitir com segurança informações entre partes na forma de um objeto JSON. No formato compacto serializado JWS (*JSON Web Signature*), é composto por **três seções separadas por pontos (`.`)**:
 
 ```text
 [Header Base64URL] . [Payload Base64URL] . [Signature]
 ```
 
-1. **Cabeçalho (*Header*):** Objeto JSON codificado em Base64URL indicando o tipo de token e o algoritmo criptográfico de assinatura empregado:
-   ```json
-   {
-     "alg": "RS256",
-     "typ": "JWT"
-   }
-   ```
-2. **Carga Útil (*Payload*):** Objeto JSON codificado em Base64URL contendo as **declarações (*claims*)** sobre uma entidade (sujeito) e metadados contextuais adicionais.
-3. **Assinatura (*Signature*):** Hash criptográfico gerado a partir do cabeçalho codificado, do payload codificado e de uma chave secreta/privada. Assegura a **integridade** (que a mensagem não foi modificada) e a **autenticidade** (que partiu do emissor legítimo).
-
-#### 5.4.2 Claims Registradas Padronizadas pela RFC 7519
-
-| Claim | Nome Completo | Significado Técnico e Relevância |
-|---|---|---|
-| **`sub`** | *Subject* | Sujeito do token. Identificador exclusivo e imutável do usuário no sistema (ex.: `"user_12345"`). |
-| **`iss`** | *Issuer* | Emissor do token. URI ou identificador do Servidor de Autorização (ex.: `"https://login.sefaz.go.gov.br"`). |
-| **`aud`** | *Audience* | Audiência esperada. Identificador dos destinatários/recursos autorizados a aceitar este token. |
-| **`exp`** | *Expiration Time* | Timestamp Unix (segundos desde a epoch) após o qual o token **deve ser sumariamente rejeitado**. |
-| **`nbf`** | *Not Before* | Timestamp Unix antes do qual o token não pode ser considerado válido. |
-| **`iat`** | *Issued At* | Timestamp Unix indicando o momento exato em que o token foi gerado e emitido. |
-| **`jti`** | *JWT ID* | Identificador exclusivo do token, útil para revogação em listas negras (*blacklists*) e prevenção de replay attacks. |
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> O JWT padrão (JWS - *JSON Web Signature*) garante **integridade e autenticidade**, mas **NÃO garante confidencialidade**! A codificação Base64URL não é cifra nem criptografia; é apenas uma representação em texto seguro para URLs. Qualquer pessoa que intercepte o token pode decodificar o payload instantaneamente e ler tudo em texto claro. Portanto, **nunca armazene senhas, hashes de senhas ou dados fiscais/médicos protegidos dentro do payload de um JWT** sem utilizar JWE (*JSON Web Encryption*).
-
-#### 5.4.3 Algoritmos de Assinatura: Simétricos (HS256) vs. Assimétricos (RS256)
-
 ```mermaid
 flowchart LR
-    subgraph Simetrico["PADRÃO SIMÉTRICO: HS256 (Mesmo Segredo K Compartilhado)"]
-        AS1["Servidor de Autorização"] -->|"Assina com Segredo Compartilhado (K)"| JWT1["JWT Assinado"]
-        JWT1 --> RS1["Resource Server (API)"]
-        RS1 -->|"Valida com o MESMO Segredo (K)"| V1["Validação OK"]
-    end
+    H["Header (JSON)<br/>{ 'alg': 'RS256', 'typ': 'JWT' }"] -->|"Base64URL"| H64["Parte 1: Header"]
+    P["Payload (JSON)<br/>{ 'sub': '123', 'iss': 'tce', 'exp': ... }"] -->|"Base64URL"| P64["Parte 2: Payload"]
+    H64 --> S["Assinatura Criptográfica:<br/>Hash(Header + '.' + Payload, Chave)"]
+    P64 --> S
+    S --> S64["Parte 3: Signature"]
 ```
 
-```mermaid
-flowchart LR
-    subgraph Assimetrico["PADRÃO ASSIMÉTRICO: RS256 (Par de Chaves Pública / Privada)"]
-        AS2["Servidor de Autorização"] -->|"Assina com CHAVE PRIVADA"| JWT2["JWT Assinado"]
-        JWT2 --> RS2["Resource Server (API)"]
-        AS2 -.->|"Distribui CHAVE PÚBLICA (JWKS)"| RS2
-        RS2 -->|"Valida apenas com a CHAVE PÚBLICA"| V2["Validação OK"]
-    end
-```
+1. **Cabeçalho (*Header*):** Especifica o tipo do token (`typ: "JWT"`) e o algoritmo de assinatura criptográfica empregado (`alg: "RS256"` ou `"HS256"`).
+2. **Carga Útil (*Payload*):** Contém as **declarações (*claims*)**, que são afirmações sobre o sujeito e metadados adicionais.
+3. **Assinatura (*Signature*):** Gerada pela aplicação da função criptográfica especificada no header sobre a concatenação do header codificado com o payload codificado, utilizando uma chave secreta ou privada.
 
-- **HS256 (HMAC com SHA-256):** Usa a **mesma chave secreta** para assinar e validar o token. Requer que todos os microsserviços que validam o token conheçam o segredo. Se um microsserviço for comprometido, o atacante poderá forjar tokens válidos para todo o sistema corporativo.
-- **RS256 (RSA com SHA-256):** Utiliza um par de chaves assimétricas. O Servidor de Autorização assina o token com sua **chave privada** (que nunca sai do servidor seguro). Todos os servidores de recursos e clientes validam a integridade utilizando exclusivamente a **chave pública**, disponibilizada no endpoint padronizado JWKS (*JSON Web Key Set*).
+> 🚨 **ALERTA DE PROVA / FCC:**  
+> **Base64URL NÃO É CRIPTOGRAFIA!**  
+> Um token JWS padrão garante **integridade** (o conteúdo não foi adulterado) e **autenticidade** (foi emitido por quem possui a chave), mas **NÃO fornece confidencialidade**. O Payload é meramente codificado em Base64URL; qualquer entidade que capture o token pode decodificá-lo instantaneamente e ler todos os seus campos em texto claro. Para manter o conteúdo em sigilo contra interceptadores, deve-se adotar o padrão **JWE (*JSON Web Encryption*)**.
 
 ---
 
-## 🌐 Fontes Recomendadas na Internet (Acesso Direto e Gratuito)
+### 4.2 Claims Registradas, Públicas e Privadas
+As declarações contidas no payload classificam-se em três grupos segundo a RFC 7519:
 
-- [x] **IETF Datatracker - Especificações Oficiais RFC:**
-  - Link Oficial: [RFC 7519 - JSON Web Token (JWT)](https://datatracker.ietf.org/doc/html/rfc7519)
-  - Link Oficial: [RFC 6749 - OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749)
-  - Link Oficial: [RFC 7636 - PKCE for OAuth 2.0](https://datatracker.ietf.org/doc/html/rfc7636)
-  - *Conteúdo:* Normas técnicas primárias que definem claims registradas, fluxos de concessão e segurança de clientes públicos.
-- [x] **OpenID Foundation - Especificação Oficial OIDC Core 1.0:**
-  - Link Oficial: [OpenID Connect Core 1.0](https://openid.net/specs/openid-connect-core-1_0.html)
-  - *Conteúdo:* Definição formal do ID Token, escopo `openid`, fluxo de autenticação e endpoint `/userinfo`.
-- [x] **OAuth.net - Portal Canônico da Comunidade OAuth:**
-  - Link Oficial: [OAuth 2.0 Simplified](https://oauth.net/2/)
-  - *Conteúdo:* Guias didáticos ilustrados sobre grant types, migração de fluxos obsoletos e boas práticas de segurança (OAuth 2.1).
-- [x] **JWT.io - Debugger e Artigos Técnicos (Auth0):**
-  - Link Oficial: [JWT.io Introduction](https://jwt.io/introduction)
-  - *Conteúdo:* Estrutura do JWS compacto, decodificação em tempo real de Base64URL e cálculo de assinaturas HS256 e RS256.
+#### Claims Registradas (*Registered Claims*)
+Conjunto padronizado de chaves reservadas recomendadas para garantir interoperabilidade entre sistemas:
+- **`sub` (*Subject*):** Identificador unívoco do sujeito/usuário a quem o token pertence (ex.: `"sub": "usr_9841"`).
+- **`iss` (*Issuer*):** Entidade ou autoridade que emitiu o token (ex.: `"iss": "https://auth.tce.go.gov.br"`).
+- **`aud` (*Audience*):** Destinatário ou aplicação para a qual o token foi emitido. Se o microsserviço receptor não constar no `aud`, deve rejeitar o token.
+- **`exp` (*Expiration Time*):** Carimbo de data/hora no formato Unix Timestamp (segundos decorridos desde 01/01/1970 UTC) indicando o limite de validade do token. **Se `tempoAtual > exp`, o token é sumariamente inválido**.
+- **`nbf` (*Not Before*):** Timestamp antes do qual o token não pode ser aceito para processamento.
+- **`iat` (*Issued At*):** Timestamp indicando o instante exato em que o token foi criado e emitido.
+- **`jti` (*JWT ID*):** Identificador exclusivo do token, frequentemente utilizado para prevenir ataques de repetição (*replay attacks*) e gerenciar revogações em listas negras (*blacklists*).
+
+#### Claims Públicas e Privadas
+- **Claims Públicas:** Nomes definidos e acordados em registros públicos da IANA ou nomes formatados como URIs para prevenir colisões de nomenclatura.
+- **Claims Privadas:** Propriedades customizadas acordadas livremente entre os sistemas para tráfego de dados de negócio (ex.: `"roles": ["Auditor", "Administrador"]`, `"orgao": "TCE-GO"`).
 
 ---
 
-## 📝 Questões Comentadas & Exemplos (Padrão FCC)
+### 4.3 Assinatura Digital: Algoritmos Simétricos (HS256) vs. Assimétricos (RS256)
+
+```mermaid
+flowchart TD
+    subgraph Simetrico["1. Padrão Simétrico: HS256 (HMAC-SHA256)"]
+        AS1["Servidor de Autorização"] -->|"Assina com Segredo K"| T1["JWT"]
+        T1 --> RS1["Resource Server (API 1)"]
+        T1 --> RS2["Resource Server (API 2)"]
+        RS1 -->|"Valida com o MESMO Segredo K"| OK1["Válido"]
+        RS2 -->|"Valida com o MESMO Segredo K"| OK2["Válido"]
+    end
+    subgraph Assimetrico["2. Padrão Assimétrico: RS256 (RSA-SHA256)"]
+        AS2["Servidor de Autorização"] -->|"Assina com CHAVE PRIVADA"| T2["JWT"]
+        T2 --> RS3["Resource Server (API 1)"]
+        T2 --> RS4["Resource Server (API 2)"]
+        AS2 -.->|"Distribui CHAVE PÚBLICA via JWKS"| RS3
+        AS2 -.->|"Distribui CHAVE PÚBLICA via JWKS"| RS4
+        RS3 -->|"Valida usando apenas a CHAVE PÚBLICA"| OK3["Válido"]
+        RS4 -->|"Valida usando apenas a CHAVE PÚBLICA"| OK4["Válido"]
+    end
+```
+
+- **HS256 (HMAC com SHA-256):** Algoritmo **simétrico**. Utiliza a mesmíssima chave secreta (*shared secret*) para assinar e para verificar a assinatura.
+  - *Vulnerabilidade Arquitetural:* Todos os microsserviços que precisam validar tokens devem conhecer a chave secreta. Caso uma API periférica seja violada e a chave vaze, o invasor adquire o poder de **forjar tokens legítimos** para todo o ecossistema corporativo.
+- **RS256 (RSA com SHA-256) / ES256 (ECDSA):** Algoritmo **assimétrico**.
+  - O Servidor de Autorização assina o token com a sua **chave privada** (que nunca deixa seu cofre seguro de chaves).
+  - Todos os servidores de recursos, APIs e clientes validam a assinatura utilizando unicamente a **chave pública**, obtida no endpoint padronizado **JWKS (*JSON Web Key Set* - `/.well-known/jwks.json`)**.
+  - Mesmo que uma API receptora seja comprometida, o atacante jamais conseguirá forjar novos tokens, pois a chave pública apenas valida, não assina.
+
+---
+
+### 4.4 Armazenamento Seguro de Tokens no Cliente e Mitigação de Ataques
+
+| Mecanismo no Navegador | Vulnerabilidade a XSS (*Cross-Site Scripting*) | Vulnerabilidade a CSRF (*Cross-Site Request Forgery*) | Recomendação de Segurança |
+|---|:---:|:---:|---|
+| **`localStorage` / `sessionStorage`** | **Totalmente Vulnerável**. Qualquer script malicioso injetado via XSS pode ler `localStorage.getItem("token")` e exfiltrá-lo. | Imune a CSRF (o navegador não anexa dados do localStorage automaticamente às requisições). | **Desaconselhado** para armazenamento de tokens com privilégios elevados. |
+| **Cookies HTTP com Flags `HttpOnly` e `Secure`** | **Imune a roubo por XSS**. A flag `HttpOnly` bloqueia expressamente o acesso ao cookie via API JavaScript (`document.cookie`). | Suscetível a ataques de CSRF se não for configurado adequadamente. | **Altamente Recomendado**, desde que acompanhado do atributo **`SameSite=Strict`** (ou `Lax`) e tokens anti-CSRF para mitigar requisições forjadas entre sites. |
+
+---
+
+## 5. Quadro Comparativo Consolidado de Segurança de Acesso
+
+| Dimensão | OAuth 2.0 | OpenID Connect (OIDC) | JWT (JWS) |
+|---|---|---|---|
+| **Propósito Central** | **Autorização Delegada** para APIs e microsserviços | **Identidade e Autenticação** federada de usuários | **Formato Estruturado de Token** assinado e compacto |
+| **Token Principal** | *Access Token* (concede acesso aos endpoints) | *ID Token* (contém as informações do perfil do usuário) | É o formato adotado para o ID Token e geralmente para o Access Token |
+| **Problema Solucionado** | Elimina a necessidade de repassar senhas para aplicações terceiras | Padroniza o Single Sign-On (SSO) e o intercâmbio de perfis | Elimina a necessidade de o backend consultar o banco de dados a cada requisição (*Stateless*) |
+| **Norma Técnica** | RFC 6749 / RFC 7636 | OpenID Connect Core 1.0 | RFC 7519 / RFC 7515 |
+
+---
+
+## 6. Fontes Recomendadas na Internet
+
+- [RFC 7519 - JSON Web Token (JWT) - IETF](https://datatracker.ietf.org/doc/html/rfc7519): Especificação oficial canônica detalhando as claims registradas, serialização compacta e regras de processamento.
+- [RFC 6749 - OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749): Norma regulamentadora dos papéis, grant types e ciclo de vida dos tokens.
+- [RFC 7636 - PKCE for OAuth 2.0](https://datatracker.ietf.org/doc/html/rfc7636): Especificação do mecanismo de proteção para aplicações públicas SPAs e Mobile.
+- [OpenID Connect Core 1.0 Specification](https://openid.net/specs/openid-connect-core-1_0.html): Documento normativo oficial definindo a camada de identidade, o ID Token e o fluxo de autenticação.
+- [OAuth 2.0 Simplified (Aaron Parecki / Okta)](https://oauth.net/2/): Referência prática amplamente reconhecida na indústria de software sobre fluxos contemporâneos e deprecações do OAuth 2.1.
+
+---
+
+## 7. Questões Comentadas & Exemplos (Padrão FCC)
 
 ### Questão 1 (FCC - Analista de TI / Segurança e Arquitetura)
 Uma equipe de desenvolvimento do Tribunal de Contas está projetando a integração de uma nova aplicação Web Single Page Application (SPA), construída com React, com a API de auditoria de processos governamentais. A aplicação cliente executa integralmente no navegador do usuário (*public client*) e necessita autenticar a identidade dos auditores para obter acesso aos endpoints protegidos.
@@ -258,20 +347,14 @@ C) O protocolo OAuth 2.0 isolado é suficiente para autenticar o auditor perante
 D) O fluxo mais recomendado para esse cenário é o *Resource Owner Password Credentials* (ROPC), pelo qual o frontend coleta login e senha diretamente em um formulário comum e os repassa ao servidor de autorização.  
 E) A integridade e autenticidade do token JWT devem ser verificadas no frontend através de um algoritmo simétrico HS256, armazenando o segredo compartilhado nas variáveis de ambiente estáticas do código JavaScript.  
 
-> **Gabarito: B**  
->
-> **Comentário Analítico Passo a Passo:**  
-> Analisando as regras arquiteturais modernas de autenticação e autorização:
-> - Aplicações SPA rodam no browser do cliente e são classificadas como *public clients* (incapazes de proteger um segredo fixo `client_secret`).
-> - OAuth 2.0 cuida de autorização; quem provê a identidade e autenticação federada é o **OpenID Connect (OIDC)**, gerando o `id_token`.
-> - O padrão moderno obrigatório para clientes públicos é o **Authorization Code com PKCE**.
->
-> **Análise detalhada das alternativas:**  
-> - **A (Incorreta):** O fluxo *Implicit Grant* foi formalmente descontinuado e considerado vulnerável nas recomendações atuais do OAuth 2.0 e OAuth 2.1, pois o token viajava exposto no fragmento da URL do histórico do navegador e nos cabeçalhos `Referer`.  
-> - **B (CORRETA):** O OIDC provê a autenticação com entrega do `id_token` ao cliente React, enquanto o fluxo Authorization Code com extensão PKCE protege clientes públicos contra ataques de interceptação do código de autorização.  
-> - **C (Incorreta):** O OAuth 2.0 é um protocolo de **autorização**, não de identidade. Utilizar apenas OAuth 2.0 para "provar identidade" é um antipadrão clássico conhecido como pseudo-autenticação (*OAuth is not authentication*).  
-> - **D (Incorreta):** O fluxo ROPC (coleta direta de usuário e senha pela aplicação) é obsoleto e viola o princípio de privilégio mínimo e isolamento de credenciais, além de não suportar MFA (Multi-Factor Authentication).  
-> - **E (Incorreta):** Gravar uma chave secreta simétrica (HS256) no código JavaScript de uma SPA expõe o segredo para qualquer pessoa que inspecione o código no DevTools do navegador. O correto é validação assimétrica com RS256 e chave pública distribuída via JWKS.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O fluxo *Implicit Grant* foi formalmente deprecado e proibido nas diretrizes modernas do OAuth 2.0 e OAuth 2.1 devido à exposição indevida do token no fragmento de URL do histórico de navegação e cabeçalhos `Referer`.
+> - **B)** **CORRETA.** A autenticação da identidade do usuário é de competência do **OpenID Connect (OIDC)**, que fornece o `id_token`. Em clientes públicos no navegador (SPAs), a especificação IETF determina estritamente o uso do **Authorization Code Grant complementado com a extensão PKCE** (RFC 7636), evitando que interceptações de código de autorização permitam a geração de tokens ilegítimos.
+> - **C)** Incorreta. O OAuth 2.0 provê apenas autorização delegada, não autenticação. Supor a identidade de um usuário unicamente pela posse de um access token configura uma vulnerabilidade clássica de pseudo-autenticação.
+> - **D)** Incorreta. O fluxo ROPC (coleta direta de login e senha pela aplicação cliente) é considerado obsoleto e proibido em novas implementações, por quebrar o isolamento de credenciais e impedir autenticação multifator nativa.
+> - **E)** Incorreta. A validação com algoritmo simétrico (HS256) exige o compartilhamento de um segredo criptográfico. Inserir esse segredo no código de uma SPA expõe a chave a qualquer usuário por meio do DevTools do navegador. Deve-se empregar RS256 e validação com chave pública via JWKS.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -289,22 +372,17 @@ C) I e III, apenas.
 D) I, apenas.  
 E) I, II e III.  
 
-> **Gabarito: C**  
->
-> **Comentário Analítico Passo a Passo:**  
-> Vamos analisar cada item à luz da RFC 7519:
-> - **Item I (Correto):** O JWT compacto possui a sintaxe exata: `Base64URL(Header) . Base64URL(Payload) . Signature`.
-> - **Item II (Incorreto):** Pegadinha clássica e recorrente da Fundação Carlos Chagas! A assinatura no JWS (*JSON Web Signature*) assegura **integridade e autenticidade**, mas **NÃO garante confidencialidade**. O Base64URL é meramente um esquema de codificação reversível sem chave. Qualquer pessoa pode decodificar o Base64URL e ler o JSON do payload em texto claro. Criptografia e sigilo só existem no formato JWE (*JSON Web Encryption*).
-> - **Item III (Correto):** A RFC 7519 padroniza as *Registered Claims*: `sub` (*Subject* - usuário), `iss` (*Issuer* - emissor), `exp` (*Expiration Time* - expiração), `aud` (*Audience*), `iat` (*Issued At*), `nbf` (*Not Before*) e `jti` (*JWT ID*).
->
-> Conclui-se que apenas os itens I e III estão corretos.
->
-> **Análise detalhada das alternativas:**  
-> - **A (Incorreta):** O item II está incorreto devido à ausência de sigilo/criptografia nativa no payload do JWS.  
-> - **B (Incorreta):** Inclui o item II incorreto e omite o item I verdadeiro.  
-> - **C (CORRETA):** Identifica com precisão que os itens I e III são verdadeiros e o item II é falso.  
-> - **D (Incorreta):** O item III também está perfeitamente correto, não podendo ser descartado.  
-> - **E (Incorreta):** Julga o item II como verdadeiro, caindo na pegadinha da confidencialidade.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O item II está incorreto porque o JWS não é criptografado.
+> - **B)** Incorreta. O item II é falso e o item I é verdadeiro.
+> - **C)** **CORRETA.** Análise detalhada dos itens:
+>   - **Item I (Verdadeiro):** A estrutura serializada compacta de um JWS é formada precisamente pela concatenação `Base64URL(Header) . Base64URL(Payload) . Signature`.
+>   - **Item II (Falso):** A assinatura do JWS assegura estritamente **integridade e autenticidade**, mas **não provê confidencialidade**. O Base64URL é um esquema de codificação reversível sem uso de chaves; qualquer pessoa pode decodificar o payload e ler o JSON em texto claro. Criptografia no padrão JWT é atribuição exclusiva do padrão JWE (*JSON Web Encryption*).
+>   - **Item III (Verdadeiro):** As claims registradas da RFC 7519 definem `sub` como a identidade do sujeito, `iss` como a autoridade emissora e `exp` como o timestamp de expiração após o qual o token é inválido.
+> - **D)** Incorreta. O item III também está perfeitamente correto.
+> - **E)** Incorreta. O item II é falso.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -318,18 +396,14 @@ C) *Implicit Grant*.
 D) *Resource Owner Password Credentials Grant*.  
 E) *Device Authorization Grant*.  
 
-> **Gabarito: B**  
->
-> **Comentário Analítico Passo a Passo:**  
-> O OAuth 2.0 define fluxos específicos dependendo de haver ou não um usuário humano envolvido:
-> - Quando uma aplicação cliente precisa acessar recursos mantidos por ela mesma ou dados de sistema onde a autorização foi concedida previamente à própria aplicação (sem a figura do *Resource Owner* humano interagindo durante a execução), utiliza-se o fluxo de credenciais do cliente.
->
-> **Análise detalhada das alternativas:**  
-> - **A (Incorreta):** O fluxo Authorization Code exige a presença de um usuário final (*Resource Owner*) interagindo em um navegador web para digitar login/senha e dar consentimento expresso.  
-> - **B (CORRETA):** O *Client Credentials Grant* foi concebido especificamente para cenários de comunicação direta máquina-a-máquina (M2M). O serviço envia suas próprias credenciais (`client_id` e `client_secret`) diretamente ao endpoint `/token` e recebe um *Access Token* para operar de forma autônoma.  
-> - **C (Incorreta):** O Implicit Grant destina-se a navegadores web e está obsoleto, não fazendo sentido para processos batch de backend.  
-> - **D (Incorreta):** ROPC exige usuário e senha de uma pessoa física, sendo inadequado e desaconselhado para automações M2M.  
-> - **E (Incorreta):** O Device Flow (RFC 8628) é destinado a dispositivos com restrição de entrada de dados (como Smart TVs ou consoles), nos quais o usuário usa outro aparelho com navegador para autorizar o acesso.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O fluxo Authorization Code exige que um usuário humano interaja em um navegador para fornecer consentimento e autenticação, sendo incompatível com rotinas batch sem interação humana.
+> - **B)** **CORRETA.** O fluxo **Client Credentials Grant** é o mecanismo padronizado pelo OAuth 2.0 para cenários de comunicação direta máquina-a-máquina (M2M) ou serviços autônomos. A aplicação cliente autentica-se diretamente perante o Servidor de Autorização utilizando suas próprias credenciais (`client_id` e `client_secret`) e obtém um *Access Token* para consumir as APIs necessárias sem requerer contexto de usuário individual.
+> - **C)** Incorreta. O Implicit Grant é voltado a clientes no navegador e está deprecado.
+> - **D)** Incorreta. O ROPC exige credenciais individuais de um usuário físico e está obsoleto.
+> - **E)** Incorreta. O Device Grant (RFC 8628) destina-se a dispositivos com capacidade limitada de entrada de dados (smart TVs, consoles de videogame), onde o usuário utiliza um segundo aparelho para autenticação.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -343,19 +417,14 @@ C) A alteração de qualquer caractere no Payload de um token JWT não invalida 
 D) Caso o cabeçalho do token informe `"alg": "none"`, a aplicação receptora deve aceitar o token automaticamente como infalível, pois esse identificador sinaliza aprovação prévia por autoridade certificadora de raiz.  
 E) O algoritmo RS256 utiliza a mesma chave secreta tanto para assinar o JWT quanto para verificar sua assinatura em todos os nós da rede.  
 
-> **Gabarito: B**  
->
-> **Comentário Analítico Passo a Passo:**  
-> Analisando as modalidades de assinatura digital em tokens JWT:
-> - **Simétrica (HS256):** Uma única chave secreta é compartilhada entre emissor e receptores. Se um receptor for invadido, a chave secreta vaza e o atacante pode assinar tokens em nome do emissor.
-> - **Assimétrica (RS256):** O emissor mantém a **chave privada** sob sigilo estrito e assina os tokens. Os receptores só recebem a **chave pública** (via JWKS), permitindo validar a assinatura com segurança sem possuir a capacidade de forjar novos tokens.
->
-> **Análise detalhada das alternativas:**  
-> - **A (Incorreta):** No algoritmo HS256 (simétrico), o Servidor de Recursos deve possuir o **mesmo segredo simétrico compartilhado** usado para gerar a assinatura. Chaves públicas são exclusivas de criptografia assimétrica.  
-> - **B (CORRETA):** Descreve com perfeição a mecânica do RS256: o Servidor de Autorização assina com sua chave privada e os microsserviços validam de maneira desacoplada utilizando a chave pública exposta no JWKS (`/.well-known/jwks.json`).  
-> - **C (Incorreta):** Qualquer alteração mínima em um único bit do Header ou do Payload quebra a integridade da assinatura criptográfica calculada pela função de hash SHA-256, provocando rejeição imediata do token pelo servidor.  
-> - **D (Incorreta):** O algoritmo `"alg": "none"` indica ausência proposital de assinatura e representa uma das vulnerabilidades históricas mais críticas em bibliotecas desatualizadas de JWT. Aplicações seguras devem rejeitar terminantemente tokens sem assinatura ou com `alg: none`.  
-> - **E (Incorreta):** RS256 é assimétrico (par de chaves pública e privada); quem utiliza a mesma chave para assinar e validar é o HS256.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. No algoritmo simétrico HS256, o Servidor de Recursos deve deter a mesma chave secreta compartilhada usada para assinar o token. Chaves públicas são exclusivas de criptografia assimétrica.
+> - **B)** **CORRETA.** No algoritmo assimétrico **RS256** (RSA com SHA-256), a assinatura é calculada pelo Servidor de Autorização utilizando sua **chave privada** secreta. Qualquer microsserviço ou cliente receptor pode validar a integridade e a autenticidade do token utilizando exclusivamente a **chave pública** correspondente, obtida no endpoint padronizado JWKS (`/.well-known/jwks.json`), sem riscos de comprometimento do segredo de emissão.
+> - **C)** Incorreta. Qualquer alteração, mesmo que de um único caractere, no Payload ou Header altera o valor do hash criptográfico e resulta em falha catastrófica de validação da assinatura digital.
+> - **D)** Incorreta. O identificador `"alg": "none"` denota um token não assinado, constituindo uma grave vulnerabilidade se aceito em produção. Aplicações seguras devem rejeitar terminantemente tokens com `alg: none`.
+> - **E)** Incorreta. O algoritmo RS256 é assimétrico (par de chaves pública e privada). Quem emprega uma única chave compartilhada é o HS256.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -367,16 +436,11 @@ C) O modelo ABAC (*Attribute-Based Access Control*) restringe permissões estrit
 D) Tokens JWT emitidos com tempo de vida de 30 dias para o `access_token` representam a melhor prática recomendada pela arquitetura de microsserviços, pois eliminam a necessidade de qualquer mecanismo de renovação ou refresh token.  
 E) O modelo RBAC (*Role-Based Access Control*) fundamenta-se na avaliação contínua de políticas dinâmicas com lógica booleana contextual, substituindo completamente a definição de funções ou perfis de usuário.  
 
-> **Gabarito: B**  
->
-> **Comentário Analítico Passo a Passo:**  
-> A segurança de aplicações web na retenção de credenciais depende das características do navegador:
-> - O `localStorage` é plenamente acessível por qualquer código JavaScript executado na página (`window.localStorage.getItem(...)`). Se a aplicação sofrer um ataque de XSS (Cross-Site Scripting), o invasor exfiltra o token armazenado em milissegundos.
-> - Ao gravar o token em um cookie com a flag **`HttpOnly`**, o navegador proíbe expressamente que scripts JavaScript (incluindo scripts maliciosos injetados por XSS) tenham acesso de leitura ao cookie. A flag **`Secure`** garante que ele só trafegue em conexões HTTPS criptografadas.
->
-> **Análise detalhada das alternativas:**  
-> - **A (Incorreta):** O `localStorage` é altamente suscetível a XSS; scripts injetados lêem diretamente o armazenamento local.  
-> - **B (CORRETA):** A flag `HttpOnly` impede o acesso ao cookie via API `document.cookie` no JavaScript, fornecendo proteção robusta contra roubo de tokens em cenários de XSS.  
-> - **C (Incorreta):** O modelo que se apoia em papéis estáticos é o **RBAC**. O ABAC avalia justamente atributos dinâmicos do contexto ambiental (hora, local, IP, dispositivo).  
-> - **D (Incorreta):** Access tokens devem possuir tempo de vida **curto** (tipicamente de 5 a 15 minutos) para minimizar a janela de exposição em caso de vazamento. Sessões longas são sustentadas com o uso de *Refresh Tokens* controlados no servidor de autorização.  
-> - **E (Incorreta):** O modelo que utiliza políticas dinâmicas com lógica booleana e atributos de contexto é o **ABAC**, e não o RBAC. O RBAC baseia-se exatamente em funções e papéis hierárquicos predefinidos.
+> **Comentário Detalhado:**
+> - **A)** Incorreta. O `localStorage` é plenamente acessível por scripts JavaScript no navegador (`localStorage.getItem`). Se a aplicação sofrer ataque de Cross-Site Scripting (XSS), os scripts invasores roubam os tokens imediatamente.
+> - **B)** **CORRETA.** A flag **`HttpOnly`** impede expressamente que scripts JavaScript executados no navegador leiam ou manipulem o conteúdo do cookie via `document.cookie`, blindando o token contra exfiltração em eventuais vulnerabilidades de XSS. A flag **`Secure`** assegura que o cookie só seja transmitido sob conexões HTTPS criptografadas.
+> - **C)** Incorreta. O modelo que opera com base em papéis organizacionais estáticos é o **RBAC**. O ABAC baseia-se na avaliação de atributos contextuais como data, hora, endereço IP e nível de confidencialidade.
+> - **D)** Incorreta. Access tokens devem possuir tempo de vida **curto** (tipicamente de 5 a 15 minutos) para minimizar o impacto de interceptações acidentais. Sessões longas são sustentadas através de *Refresh Tokens*.
+> - **E)** Incorreta. O modelo que realiza avaliação contínua de políticas contextuais dinâmicas é o **ABAC**. O RBAC estrutura-se formalmente sobre funções e papéis corporativos pré-definidos.
+> 
+> **Gabarito: B**

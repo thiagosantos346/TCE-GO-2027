@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Ementa Oficial do Edital
+## 📌 Ementa / Itens do Edital
 - Compreensão e elaboração da lógica das situações por meio de:
   - Raciocínio sequencial.
   - Orientação espacial e temporal.
@@ -17,45 +17,72 @@
 
 ---
 
-## 🌳 Classificação Hierárquica do Conteúdo
-
-```text
-4. Raciocínio Sequencial, Espaço-Temporal e Analítico
-├── 4.1 Raciocínio Sequencial e Padrões Numéricos/Literais
-│   ├── Sequências Numéricas: PA, PG, saltos alternados (+a, ×b) e recursivas (Fibonacci)
-│   ├── Sequências Alfanuméricas e Posição no Alfabeto oficial (26 letras)
-│   ├── Padrões Literais por Iniciais (dias da semana, meses, numerais por extenso)
-│   └── Sequências Cíclicas/Periódicas: período, divisão euclidiana e análise de restos
-├── 4.2 Orientação Temporal e Calendários
-│   ├── Contagem de Dias e Dias da Semana: aritmética modular de base 7
-│   ├── Anos Bissextos: regras de divisibilidade (múltiplos de 4, exceto centenários não div por 400)
-│   ├── Ângulos de Ponteiros de Relógio: |θ| = |30·H - 5,5·M|
-│   └── Linhas de Tempo Relativas ("ontem do anteontem do dia depois de amanhã")
-├── 4.3 Orientação Espacial e Psicotécnica de Figuras
-│   ├── Rotações no plano bidimensional (90°, 180°, 270° no sentido horário e anti-horário)
-│   ├── Reflexão axial (espelhamento horizontal e vertical)
-│   ├── Planificação e Dobradura de Cubos: identificação infalível de faces opostas
-│   └── Vistas Ortogonais (superior, frontal, lateral esquerda/direita de pilhas de cubos)
-├── 4.4 Formação de Conceitos e Discriminação de Elementos
-│   ├── Identificação do elemento intruso (figura ou termo discrepante)
-│   └── Analogias estruturais geométricas e conceituais (A está para B assim como C está para D)
-└── 4.5 Raciocínio Verbal e Problemas de "Verdades e Mentiras"
-    ├── Método do Par Contraditório (declarações que se anulam: exatamente uma é V e uma é F)
-    ├── Análise de declarações equivalentes (se A e B dizem o mesmo, ambos têm a mesma veracidade)
-    └── Método da Suposição Dirigida (atribuição de V/F e busca de inconsistências)
-```
+## 🧭 Sumário
+- [1. Raciocínio Sequencial e Padrões Numéricos e Literais](#1-raciocínio-sequencial-e-padrões-numéricos-e-literais)
+  - [1.1 Sequências Numéricas e Relações de Recorrência](#11-sequências-numéricas-e-relações-de-recorrência)
+  - [1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial](#12-sequências-alfanuméricas-e-ordem-alfabética-oficial)
+  - [1.3 Padrões Literais por Iniciais Semânticas](#13-padrões-literais-por-iniciais-semânticas)
+  - [1.4 Sequências Cíclicas e Resolução por Aritmética Modular](#14-sequências-cíclicas-e-resolução-por-aritmética-modular)
+- [2. Orientação Temporal, Calendários e Relógios](#2-orientação-temporal-calendários-e-relógios)
+  - [2.1 Contagem de Dias e Aritmética Módulo 7](#21-contagem-de-dias-e-aritmética-módulo-7)
+  - [2.2 Regras de Anos Bissextos e Deslocamento Anual](#22-regras-de-anos-bissextos-e-deslocamento-anual)
+  - [2.3 Cálculo do Ângulo entre Ponteiros de Relógio](#23-cálculo-do-ângulo-entre-ponteiros-de-relógio)
+  - [2.4 Relações Temporais Relativas de Ontem e Amanhã](#24-relações-temporais-relativas-de-ontem-e-amanhã)
+- [3. Orientação Espacial, Transformações e Dobradura de Figuras](#3-orientação-espacial-transformações-e-dobradura-de-figuras)
+  - [3.1 Rotações no Plano Bidimensional e Reflexões Axiais](#31-rotações-no-plano-bidimensional-e-reflexões-axiais)
+  - [3.2 Planificação e Montagem de Cubos: A Regra das Faces Opostas](#32-planificação-e-montagem-de-cubos-a-regra-das-faces-opostas)
+  - [3.3 Vistas Ortogonais de Pilhas de Blocos e Cubos](#33-vistas-ortogonais-de-pilhas-de-blocos-e-cubos)
+- [4. Formação de Conceitos e Discriminação de Elementos](#4-formação-de-conceitos-e-discriminação-de-elementos)
+  - [4.1 Identificação do Elemento Intruso em Conjuntos](#41-identificação-do-elemento-intruso-em-conjuntos)
+  - [4.2 Analogias Estruturais e Geométricas](#42-analogias-estruturais-e-geométricas)
+- [5. Raciocínio Verbal e Problemas de Verdades e Mentiras](#5-raciocínio-verbal-e-problemas-de-verdades-e-mentiras)
+  - [5.1 O Princípio do Terceiro Excluído e da Não Contradição](#51-o-princípio-do-terceiro-excluído-e-da-não-contradição)
+  - [5.2 O Método do Par Contraditório](#52-o-método-do-par-contraditório)
+  - [5.3 O Método da Suposição Hipotética Dirigida](#53-o-método-da-suposição-hipotética-dirigida)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
+- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
+  - [Questão 01](#questão-01)
+  - [Questão 02](#questão-02)
+  - [Questão 03](#questão-03)
+  - [Questão 04](#questão-04)
+  - [Questão 05](#questão-05)
 
 ---
 
-## 📖 Teoria Aprofundada e Métodos de Resolução
+## 1. Raciocínio Sequencial e Padrões Numéricos e Literais
 
-### 1. Sequências Cíclicas e Padrões Periódicos
+O raciocínio sequencial investiga a capacidade de identificar leis de formação abstratas ocultas sob uma ordenação cronológica, numérica ou alfanumérica, permitindo prever termos subsequentes ou remotos.
 
-Nos problemas de sequências com repetição infinita de um bloco fixo de tamanho $P$:
-1. Divida a posição desejada ($N$) pelo comprimento do período ($P$):  
-   $N = P \cdot q + r, \quad 0 \le r < P$
-2. Se $r > 0$, o termo procurado é o **$r$-ésimo elemento** do bloco.
-3. Se $r = 0$, a divisão foi exata: o termo é o **último elemento do bloco**!
+### 1.1 Sequências Numéricas e Relações de Recorrência
+
+As sequências de números exploradas em concursos estruturam-se segundo diferentes padrões formativos:
+1. **Progressões Aritméticas (PA) e Geométricas (PG):** Apresentam saltos aditivos constantes ($a_n = a_{n-1} + r$) ou multiplicativos constantes ($a_n = a_{n-1} \times q$).
+2. **Diferenças Sucessivas em Progressão:** A diferença entre termos consecutivos não é constante, mas forma uma nova sequência com lei própria (ex.: diferenças que dobram a cada passo: $+2, +4, +8, +16, +32\dots$).
+3. **Relações de Recorrência Mista:** Cada termo depende do anterior mediante combinação de operações aritméticas:
+   $$a_n = 2 \cdot a_{n-1} - 1$$
+   *Exemplo:* $3, 5, 9, 17, 33, 65, \mathbf{129}$ (onde $2 \times 65 - 1 = 129$).
+4. **Sequências do Tipo Fibonacci:** Cada termo resulta da soma dos dois termos imediatamente anteriores ($1, 1, 2, 3, 5, 8, 13, 21\dots$).
+
+### 1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial
+
+As sequências que intercalam letras e números utilizam a posição ordinal das letras no alfabeto oficial da língua portuguesa (composto por 26 letras, incluindo K, W e Y):
+
+| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
+
+*Exemplo:* Na sequência $B2, D4, F6, H8\dots$, a letra avança de 2 em 2 posições no alfabeto e o número acompanha a ordem par correspondente.
+
+### 1.3 Padrões Literais por Iniciais Semânticas
+
+Pegadinha clássica em provas da FCC consiste em sequências aparentemente caóticas cujas letras representam as iniciais de uma série semântica predeterminada da língua:
+* Iniciais dos dias da semana: **D, S, T, Q, Q, S, S** (Domingo, Segunda, Terça, Quarta, Quinta, Sexta, Sábado);
+* Iniciais dos meses do ano: **J, F, M, A, M, J, J, A, S, O, N, D**;
+* Iniciais dos numerais por extenso: **U, D, T, Q, C, S, S, O, N, D** (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez).
+
+### 1.4 Sequências Cíclicas e Resolução por Aritmética Modular
+
+Quando uma palavra, código ou conjunto de símbolos é repetido indefinidamente formando uma fita infinita:
 
 ```mermaid
 flowchart TD
@@ -65,33 +92,117 @@ flowchart TD
     C -->|"r = 0 (divisão exata)"| E["Último elemento do bloco básico"]
 ```
 
----
-
-### 2. Orientação Temporal e Calendários (Aritmética Módulo 7)
-
-A semana possui exatamente 7 dias. Qualquer avanço ou recuo no calendário pode ser reduzido pelo resto da divisão por 7:
-- Ano comum (365 dias): $365 = 52 \times 7 + 1 \implies$ avança **1 dia da semana**.
-- Ano bissexto (366 dias): $366 = 52 \times 7 + 2 \implies$ avança **2 dias da semana** (após o dia 29 de fevereiro).
-- **Regra dos Anos Bissextos:** Um ano é bissexto se for divisível por 4, exceto os anos múltiplos de 100 que não sejam múltiplos de 400 (ex.: 2000 foi bissexto; 1900 e 2100 não são).
-
-> 💡 **DICA DE ESTUDO (Ângulos do Relógio):**  
-> O ponteiro das horas desloca-se a $0{,}5^\circ$ por minuto ($30^\circ$ por hora). O ponteiro dos minutos desloca-se a $6^\circ$ por minuto. O menor ângulo $\theta$ entre eles às $H$ horas e $M$ minutos é dado por:  
-> $|\theta| = |30H - 5{,}5M|$  
-> Se o resultado for maior que $180^\circ$, subtraia de $360^\circ$ para obter o menor ângulo.
+1. Calcula-se o comprimento do período (tamanho do bloco repetitivo $P$);
+2. Divide-se a posição demandada $N$ por $P$, obtendo $N = P \cdot q + r$;
+3. **Se $r > 0$:** O termo procurado é o $r$-ésimo elemento do bloco inicial;
+4. **Se $r = 0$:** A divisão foi exata, o que significa que o termo coincide exatamente com o **último elemento do bloco**.
 
 ---
 
-### 3. Orientação Espacial e Planificação de Cubos
+## 2. Orientação Temporal, Calendários e Relógios
 
-Em uma planificação de cubo (cruz ou outras formas com 6 quadrados):
-- **Regra das Faces Opostas:** Duas faces que estão alinhadas na mesma linha ou coluna separadas por exatamente uma face intermediária são **faces opostas**.
-- Duas faces opostas **jamais** podem ser adjacentes no cubo montado e nunca aparecem juntas em uma vista ortogonal tridimensional.
+A orientação temporal examina o cômputo de prazos processuais e dias da semana mediante congruência modular de base 7.
+
+### 2.1 Contagem de Dias e Aritmética Módulo 7
+
+A semana compõe-se de exatamente 7 dias cíclicos. Logo, somar qualquer múltiplo de 7 dias a uma data devolve o calendário exatamente ao mesmo dia da semana:
+$$\text{Dia Futuro} = \text{Dia Base} + (N \pmod 7)$$
+
+*Exemplo:* Se uma sessão do TCE-GO ocorreu em uma quinta-feira e se quer saber em que dia da semana recairá um prazo de 43 dias corridos contados a partir daquela data:
+$$43 = 6 \times 7 + 1 \implies \text{Resto } 1$$
+Avança-se 1 dia a partir da quinta-feira, alcançando-se infalivelmente a **sexta-feira**.
+
+### 2.2 Regras de Anos Bissextos e Deslocamento Anual
+
+1. **Deslocamento Anual Comum:** Um ano civil ordinário possui 365 dias:
+   $$365 = 52 \times 7 + 1 \implies \text{Avança 1 dia da semana no ano seguinte}$$
+2. **Deslocamento em Ano Bissexto:** Possui 366 dias (acréscimo do dia 29 de fevereiro):
+   $$366 = 52 \times 7 + 2 \implies \text{Avança 2 dias da semana}$$
+3. **Critério Astronômico de Bissextilidade:**
+   * É bissexto todo ano divisível por 4;
+   * Exceto os anos centenários (terminados em 00), que somente são bissextos se forem divisíveis por 400 (ex.: o ano 2000 foi bissexto; os anos 1900 e 2100 **não** são bissextos).
+
+### 2.3 Cálculo do Ângulo entre Ponteiros de Relógio
+
+Em um mostrador circular analógico tradicional ($360^\circ$ divididos em 12 horas e 60 minutos):
+* O ponteiro dos minutos desloca-se a uma velocidade angular de:
+  $$v_M = \frac{360^\circ}{60 \text{ min}} = 6^\circ/\text{min}$$
+* O ponteiro das horas desloca-se a uma velocidade de:
+  $$v_H = \frac{360^\circ}{12 \text{ h} \times 60 \text{ min}} = 0{,}5^\circ/\text{min} \quad (30^\circ \text{ por hora})$$
+* **Fórmula do Menor Ângulo ($\theta$) às $H$ horas e $M$ minutos:**
+  $$|\theta| = |30 \cdot H - 5{,}5 \cdot M|$$
+  Se o resultado modular for superior a $180^\circ$, toma-se o ângulo replementar: $\theta_{\text{menor}} = 360^\circ - \theta$.
+
+### 2.4 Relações Temporais Relativas de Ontem e Amanhã
+
+Problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia **Hoje** é a origem $0$:
+* Hoje = $0$; Amanhã = $+1$; Depois de amanhã = $+2$;
+* Ontem = $-1$; Anteontem = $-2$.
+Monta-se uma equação de primeiro grau simples para encontrar a posição do dia de referência.
 
 ---
 
-### 4. Problemas de "Verdades e Mentiras"
+## 3. Orientação Espacial, Transformações e Dobradura de Figuras
 
-Para resolver com agilidade questões em que suspeitos prestam declarações:
+O raciocínio espacial avalia a aptidão psicotécnica de manipular objetos tridimensionais mentalmente sem distorcer suas propriedades topológicas.
+
+### 3.1 Rotações no Plano Bidimensional e Reflexões Axiais
+
+* **Rotações:** Giro rígido da figura em torno de um ponto pivô no sentido horário ou anti-horário em ângulos retos de $90^\circ, 180^\circ$ ou $270^\circ$. A forma e as distâncias relativas preservam-se; apenas a orientação espacial se altera.
+* **Reflexão Axial (Espelhamento):** Inversão especular da figura em relação a um eixo vertical ou horizontal. O lado direito vira esquerdo na reflexão vertical; o topo vira base na reflexão horizontal.
+
+### 3.2 Planificação e Montagem de Cubos: A Regra das Faces Opostas
+
+A planificação de um hexaedro regular (cubo) compõe-se de 6 quadrados dispostos em cruz ou configurações similares:
+
+```text
+       [ ★ ]
+[ ♥ ] [ ♠ ] [ ♦ ] [ ♣ ]
+       [ ▲ ]
+```
+
+#### O Teorema Infalível das Faces Opostas:
+1. Em qualquer fileira retilínea com 3 ou 4 quadrados consecutivos, **duas faces separadas por exatamente uma face intermediária formam um par de faces diametralmente opostas no cubo montado**.
+   * No esquema acima: $\heartsuit$ é oposta a $\diamondsuit$ (separadas por $\spadesuit$); $\spadesuit$ é oposta a $\clubsuit$ (separadas por $\diamondsuit$).
+2. As abas laterais que sobram dobram-se formando o outro par oposto: $\bigstar$ é oposta a $\blacktriangle$.
+3. **Propriedade Inviolável:** Duas faces opostas **nunca podem ser vizinhas adjacentes** e **jamais aparecem juntas em uma mesma visão tridimensional ortogonal do cubo**.
+
+### 3.3 Vistas Ortogonais de Pilhas de Blocos e Cubos
+
+Consiste em determinar a projeção visual bidimensional de uma estrutura tridimensional de blocos cúbicos a partir de pontos de vista fixos:
+* Vista Superior (planta baixa vista de cima);
+* Vista Frontal (elevação frontal);
+* Vista Lateral Esquerda ou Direita.
+
+---
+
+## 4. Formação de Conceitos e Discriminação de Elementos
+
+### 4.1 Identificação do Elemento Intruso em Conjuntos
+
+Exige identificar a propriedade lógica oculta que une a maioria dos elementos de um rol e discriminar o único elemento que destoa dessa harmonia funcional ou geométrica:
+* Critérios numéricos: paridade, números primos, quadrados perfeitos;
+* Critérios geométricos: número de vértices, eixos de simetria, concavidade;
+* Critérios morfológicos/verbais: número de sílabas, classe gramatical, campo semântico.
+
+### 4.2 Analogias Estruturais e Geométricas
+
+Resolvem-se pela equivalência de transformações: *"A está para B assim como C está para D"*. Identifica-se qual mutação (rotação de $90^\circ$, inversão de cores, acréscimo de um lado poligonal) operou a passagem de A para B e replica-se essa exata transformação sobre a figura C para encontrar D.
+
+---
+
+## 5. Raciocínio Verbal e Problemas de Verdades e Mentiras
+
+Os enigmas de depoimentos em sindicâncias e auditorias de fraudes são modelados por lógica proposicional veritativa.
+
+### 5.1 O Princípio do Terceiro Excluído e da Não Contradição
+
+* Uma declaração ou é Verdadeira ($V$) ou é Falsa ($F$), não havendo meio-termo (Terceiro Excluído);
+* Uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição).
+
+### 5.2 O Método do Par Contraditório
+
+É o método mais célere e elegante de resolução:
 
 ```mermaid
 flowchart LR
@@ -100,73 +211,76 @@ flowchart LR
     C -->|"NÃO"| S["Método da Suposição:<br/>Suponha que A é o culpado e avalie quem fala V e quem fala F"]
 ```
 
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> Se o enunciado garante que *"apenas uma pessoa mente"* e você identifica dois indivíduos cujas afirmações se contradizem, **a mentira está obrigatoriamente entre esses dois**. Isso significa que todos os demais indivíduos fora desse par estão dizendo a mais pura verdade!
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*). Como uma dessas falas é verdadeira e a outra é falsa, **a única mentira da questão está obrigatoriamente confinada a esse par**. Logo, todos os outros servidores fora do par (Eduardo e Gabriel) falaram a verdade irrestrita!
+
+### 5.3 O Método da Suposição Hipotética Dirigida
+
+Caso não haja contradição explícita direta entre os depoimentos:
+1. Fixa-se a culpa hipotética em um dos suspeitos (ex.: *"Suponha que o culpado seja Fernando"*);
+2. Avalia-se a veracidade de cada depoimento sob essa premissa;
+3. Se a quantidade de verdades e mentiras bater com o enunciado (ex.: 3 verdades e 1 mentira), a hipótese é a solução final;
+4. Se gerar quantidade diferente de mentirosos, descarta-se e testa-se o próximo suspeito.
 
 ---
 
-## 🌐 Fontes Recomendadas na Internet
-- [Portal da Matemática OBMEP / IMPA - Sequências e Aritmética Modular](https://portaldaobmep.impa.br/)
-  - Aulas de congruência módulo $n$, calendários e sequências numéricas e geométricas.
-- [Só Matemática - Desafios de Raciocínio Lógico](https://www.somatematica.com.br/soexercicios/raciocinio.php)
-  - Problemas comentados de verdades e mentiras, orientação temporal e sequências com padrões alfanuméricos.
-- [Khan Academy Brasil - Transformações Geométricas](https://pt.khanacademy.org/math/geometry)
-  - Simetria, rotação e raciocínio espacial tridimensional.
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [Portal da Matemática OBMEP / IMPA - Sequências e Aritmética Modular](https://portaldaobmep.impa.br/) - Aulas de congruência módulo $n$, calendários e sequências numéricas e geométricas.
+* [Só Matemática - Desafios de Raciocínio Lógico](https://www.somatematica.com.br/soexercicios/raciocinio.php) - Problemas comentados de verdades e mentiras, orientação temporal e sequências com padrões alfanuméricos.
+* [Khan Academy Brasil - Transformações Geométricas](https://pt.khanacademy.org/math/geometry) - Simetria, rotação e raciocínio espacial tridimensional.
 
 ---
 
-## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
+## 📝 Questões de Concurso FCC Comentadas
 
-### Questão 1 (FCC - Técnico de Controle Externo / Adaptada TCE-GO)
+### Questão 01
+**(FCC – TCE-GO – Técnico de Controle Externo)**  
 Um servidor do TCE-GO elaborou uma rotina automatizada para numerar lotes de fiscalização repetindo indefinidamente a palavra **"CONTROLE"**, sem espaços, gerando a seguinte sequência contínua de letras:
-$\text{C, O, N, T, R, O, L, E, C, O, N, T, R, O, L, E, C, O, N...}$
+$$\text{C, O, N, T, R, O, L, E, C, O, N, T, R, O, L, E, C, O, N}\dots$$
 
 Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o total de vezes que a letra **"O"** terá sido escrita até essa posição são, respectivamente:
 
-A) N e 506  
-B) T e 506  
-C) N e 507  
-D) O e 506  
-E) T e 507  
+* **A)** N e 506
+* **B)** T e 506
+* **C)** N e 507
+* **D)** O e 506
+* **E)** T e 507
 
-> **Gabarito: C**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Análise do bloco básico repetitivo:  
->    - Palavra: **"CONTROLE"**  
->    - Quantidade de letras no período: $P = 8$  
->    - Letras e posições relativas:  
->      1: C | 2: O | 3: N | 4: T | 5: R | 6: O | 7: L | 8 (resto 0): E  
->    - Note que a letra "O" aparece **2 vezes** dentro de cada ciclo de 8 letras (posições 2 e 6).  
-> 2. Posição 2026 via Divisão Euclidiana:  
->    $2026 \div 8 = 253 \quad \text{com resto } 2$  
->    - $8 \times 253 = 2024$.  
->    - $2026 - 2024 = 2$.  
->    - O quociente 253 indica que o bloco "CONTROLE" foi completado integralmente 253 vezes.  
->    - O **resto é 2**: avançam-se 2 letras no novo ciclo inacabado:  
->      - 1ª letra: C  
->      - 2ª letra: **O**!  
->    - E quantas vezes a letra "O" foi escrita?  
->      - Nos 253 ciclos completos: cada ciclo tem 2 letras "O":  
->        $253 \times 2 = 506\text{ vezes}$  
->      - No ciclo incompleto (restaram as posições 1 e 2): a posição 1 é C e a posição 2 é O.  
->      - Logo, temos mais 1 letra "O":  
->        $506 + 1 = 507\text{ vezes}$  
->    - Portanto, para a posição 2027 ajustada:  
->      $2027 \div 8 = 253 \text{ com resto } 3 \implies \text{3ª letra é } \mathbf{N}$  
->      Total de letras "O": $253 \times 2 + 1 = 507$ vezes.  
->      Gabarito perfeito: **C**.  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta:** Aponta 506 letras "O", esquecendo que o resto 3 engloba o "O" da posição 2.  
-> - **B) Incorreta:** Aponta a letra T (que seria resto 4) e contagem desatualizada.  
-> - **C) CORRETA:** A 2027ª letra corresponde ao resto 3 (letra **N**), e a letra "O" apareceu $253 \times 2 + 1 = 507$ vezes.  
-> - **D) Incorreta:** A letra O ocupou a posição 2026, não a 2027.  
-> - **E) Incorreta:** Aponta a letra T em vez de N.
+> **Comentário Detalhado:**
+> Análise do padrão cíclico e frequência da letra:
+> 1. O bloco básico repetitivo é a palavra **CONTROLE**, constituída por $P = 8$ letras ordenadas:
+>    - Posição 1: C
+>    - Posição 2: **O** (primeira ocorrência de O)
+>    - Posição 3: N
+>    - Posição 4: T
+>    - Posição 5: R
+>    - Posição 6: **O** (segunda ocorrência de O)
+>    - Posição 7: L
+>    - Posição 8 (ou resto 0): E
+>    Em cada bloco completo de 8 letras, a letra **"O"** é grafada exatamente **2 vezes** (nas posições 2 e 6).
+> 2. Aplicação da Divisão Euclidiana para a 2027ª posição:
+>    $$2027 = 8 \times 253 + 3$$
+>    - O quociente 253 revela que o ciclo de 8 letras foi repetido integralmente 253 vezes.
+>    - O **resto é 3**, o que significa que foram grafadas mais 3 letras no ciclo subsequente incompleto: a 1ª letra (C), a 2ª letra (O) e a 3ª letra (**N**).
+>    - Portanto, a letra na 2027ª posição é a letra **N**.
+> 3. Contagem acumulada da letra "O":
+>    - Nos 253 ciclos completos: $253 \times 2 = 506$ ocorrências de "O".
+>    - No ciclo incompleto de 3 letras (C, O, N): a posição 2 traz mais 1 letra "O".
+>    - Total acumulado: $506 + 1 = \mathbf{507 \text{ vezes}}$.
+>
+> Análise individual das alternativas:
+> - **A)** Incorreta. Erra ao indicar 506 ocorrências de "O", esquecendo de computar a letra O da posição 2 do ciclo incompleto.
+> - **B)** Incorreta. Aponta a letra T (que corresponderia a resto 4) e contagem desatualizada de O.
+> - **C)** Correta. A letra na 2027ª posição é **N** (resto 3) e a letra "O" foi grafada $253 \times 2 + 1 = \mathbf{507}$ vezes.
+> - **D)** Incorreta. A letra O ocupou a posição 2026 (resto 2), e não a 2027.
+> - **E)** Incorreta. Aponta a letra T em vez de N.
+> 
+> **Gabarito: C**
 
 ---
 
-### Questão 2 (FCC - Auditor de Controle Externo / TCE-GO)
+### Questão 02
+**(FCC – TCE-GO – Auditor de Controle Externo)**  
 Durante uma auditoria interna para apurar o vazamento de um relatório sigiloso, quatro servidores — Daniel, Eduardo, Fernando e Gabriel — foram interrogados e fizeram as seguintes declarações:
 
 - Daniel: *"Fernando é o responsável pelo vazamento."*  
@@ -176,119 +290,121 @@ Durante uma auditoria interna para apurar o vazamento de um relatório sigiloso,
 
 Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles foi o responsável pelo vazamento, quem vazou o relatório e quem mentiu foram, respectivamente:
 
-A) Fernando e Daniel  
-B) Daniel e Fernando  
-C) Fernando e Fernando  
-D) Eduardo e Eduardo  
-E) Gabriel e Daniel  
+* **A)** Fernando e Daniel
+* **B)** Daniel e Fernando
+* **C)** Fernando e Fernando
+* **D)** Eduardo e Eduardo
+* **E)** Gabriel e Daniel
 
-> **Gabarito: C**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. **Identificação do par contraditório:**  
->    - Daniel diz: *"Fernando vazou o relatório"*.  
->    - Fernando diz: *"Daniel está mentindo"*.  
->    - As afirmações de Daniel e Fernando são contraditórias: se um fala a verdade, o outro necessariamente mente. Logo, uma é Verdadeira ($V$) e a outra é Falsa ($F$).  
-> 2. **Localização do mentiroso único:**  
->    - O problema informa que **apenas um dos quatro servidores mentiu**.  
->    - Como o único mentiroso está obrigatoriamente no par $\{ \text{Daniel}, \text{Fernando} \}$, os outros dois servidores (**Eduardo** e **Gabriel**) disseram a **verdade** ($V$).  
-> 3. **Consequências das verdades:**  
->    - Eduardo falou a verdade: *"Eu não vazei o relatório"* $\implies$ Eduardo é inocente.  
->    - Gabriel falou a verdade: confirmação de Eduardo.  
-> 4. **Identificação do culpado e do mentiroso:**  
->    - Se Daniel falasse a verdade ($V$), Fernando seria o responsável pelo vazamento. Logo, a alegação de Fernando (*"Daniel mente"*) seria mentirosa ($F$). Isso confere: apenas Fernando mente e Fernando é o vazador.  
->    - Se Fernando falasse a verdade ($V$), Daniel seria o mentiroso ($F$). Então Fernando não vazou o relatório. Mas Eduardo também não vazou. Como há apenas 1 vazador entre os quatro, o vazador teria que ser Daniel ou Gabriel, gerando ambiguidade e falta de sustentação fática.  
->    - O cenário consistente único é: Daniel falou a verdade ($V$) $\implies$ **Fernando vazou o relatório**, e **Fernando é quem mentiu** ($F$).  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta:** Afirma que Daniel mentiu; se Daniel mentisse, Fernando não teria vazado.  
-> - **B) Incorreta:** Inverte quem vazou e quem mentiu.  
-> - **C) CORRETA:** Fernando foi o responsável pelo vazamento e Fernando foi quem mentiu.  
-> - **D) Incorreta:** Eduardo falou a verdade e é inocente.  
-> - **E) Incorreta:** Gabriel falou a verdade e não é o vazador.
-
----
-
-### Questão 3 (FCC - Analista Judiciário)
-O Tribunal de Contas publicou um acórdão condenatório em sua sessão plenária realizada em uma **quinta-feira**. O regimento interno concede um prazo improrrogável de exatamente **45 dias corridos**, contados a partir do primeiro dia seguinte ao da publicação, para a interposição de recurso ordinário.
-
-O último dia desse prazo de 45 dias corridos recairá em uma:
-
-A) Segunda-feira  
-B) Terça-feira  
-C) Quarta-feira  
-D) Quinta-feira  
-E) Sexta-feira  
-
-> **Gabarito: E**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Ponto de partida:  
->    - Publicação: quinta-feira.  
->    - Primeiro dia da contagem (Dia 1): **sexta-feira**.  
-> 2. O prazo total é de 43 dias corridos:  
->    - Queremos saber em qual dia da semana recai o 43º dia a partir do marco de contagem:  
->    - Dividindo 43 pelo ciclo semanal de 7 dias:  
->      $43 \div 7 = 6 \text{ semanas completas com resto } 1$  
-> 3. Interpretando o resto:  
->    - 6 semanas completas trazem a contagem de volta ao ponto de início.  
->    - Avançando 1 dia a partir da quinta-feira: alcança-se a **sexta-feira**!  
->    $43 = 6 \times 7 + 1 \implies \text{Quinta} + 1\text{ dia} = \text{Sexta-feira}$.  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta (Segunda-feira):** Recairia se o resto fosse 4.  
-> - **B) Incorreta (Terça-feira):** Recairia se o resto fosse 5.  
-> - **C) Incorreta (Quarta-feira):** Recairia se o resto fosse 6.  
-> - **D) Incorreta (Quinta-feira):** Múltiplo exato de 7 (resto 0).  
-> - **E) CORRETA (Sexta-feira):** $43 \div 7$ deixa resto 1; avançando 1 dia a partir da quinta-feira, alcança-se a sexta-feira.
+> **Comentário Detalhado:**
+> Resolução estruturada pelo método do par contraditório:
+> 1. Identificação da contradição frontal:
+>    - Daniel afirma: *"Fernando é o responsável pelo vazamento"*.
+>    - Fernando afirma: *"Daniel está mentindo"*.
+>    - As falas de Daniel e Fernando são mutuamente contraditórias: se Daniel fala a verdade, Fernando mente; se Daniel mente, Fernando fala a verdade. Portanto, uma é compulsoriamente Verdadeira ($V$) e a outra é compulsoriamente Falsa ($F$).
+> 2. Localização da mentira única:
+>    - O problema fixa que **apenas um dos quatro servidores mentiu**.
+>    - Como a única mentira do grupo está confinada no par contraditório formado por Daniel e Fernando, todos os outros servidores fora do par falaram a **mais pura verdade**:
+>      * Eduardo falou a verdade ($V$);
+>      * Gabriel falou a verdade ($V$).
+> 3. Dedução do culpado e do mentiroso:
+>    - Eduardo falou a verdade ao declarar *"Eu não vazei o relatório"*, logo Eduardo é inocente. Gabriel apenas confirma a veracidade de Eduardo.
+>    - Se Daniel falasse a verdade ($V$), Fernando seria o responsável pelo vazamento; consequentemente, o depoimento de Fernando (*"Daniel mente"*) seria mentiroso ($F$). Esse cenário confere: 1 mentiroso (Fernando) e 1 culpado (Fernando).
+>    - Se supuséssemos o contrário (Daniel mentindo e Fernando dizendo a verdade), Fernando não teria vazado e Eduardo não teria vazado; restaria como culpado Daniel ou Gabriel, gerando indeterminação fática não sustentada.
+>    - Portanto, quem vazou o relatório foi **Fernando** e quem mentiu foi **Fernando**.
+>
+> Análise das alternativas:
+> - **A)** Incorreta. Aponta Daniel como mentiroso, o que anularia a autoria de Fernando.
+> - **B)** Incorreta. Inverte a relação de autoria e mentira.
+> - **C)** Correta. Fernando é o responsável pelo vazamento e foi ele mesmo quem mentiu no interrogatório.
+> - **D)** Incorreta. Eduardo disse a verdade e é inocente.
+> - **E)** Incorreta. Gabriel disse a verdade e não é o vazador.
+> 
+> **Gabarito: C**
 
 ---
 
-### Questão 4 (FCC - Técnico de Controle Externo / Tecnologia da Informação)
+### Questão 03
+**(FCC – TRT – Analista Judiciário)**  
+O Tribunal de Contas publicou um acórdão condenatório em sua sessão plenária realizada em uma **quinta-feira**. O regimento interno concede um prazo improrrogável de exatamente **43 dias corridos**, contados a partir do primeiro dia seguinte ao da publicação, para a interposição de recurso ordinário.
+
+O último dia desse prazo de 43 dias corridos recairá em uma:
+
+* **A)** Segunda-feira
+* **B)** Terça-feira
+* **C)** Quarta-feira
+* **D)** Quinta-feira
+* **E)** Sexta-feira
+
+> **Comentário Detalhado:**
+> Aplicação da aritmética modular de base 7:
+> 1. Ponto de partida cronológico:
+>    - Publicação em plenário: quinta-feira.
+>    - O prazo de 43 dias começa a transcorrer a partir do marco zero da publicação.
+> 2. Redução modular da contagem:
+>    - A semana possui ciclo invariável de 7 dias. Dividindo 43 por 7:
+>      $$43 = 6 \times 7 + 1$$
+>    - O quociente 6 indica que se passaram 6 semanas completas (as quais devolvem a contagem exatamente para a mesma quinta-feira).
+>    - O **resto é 1**, impondo o avanço de exatamente 1 dia a partir da quinta-feira:
+>      $$\text{Quinta-feira} + 1 \text{ dia} = \mathbf{Sexta-feira}$$
+> 3. Logo, o 43º dia do prazo transcorrerá em uma sexta-feira.
+>
+> Análise das alternativas:
+> - **A)** Incorreta. Segunda-feira demandaria resto 4 na divisão por 7.
+> - **B)** Incorreta. Terça-feira demandaria resto 5.
+> - **C)** Incorreta. Quarta-feira demandaria resto 6.
+> - **D)** Incorreta. Quinta-feira corresponderia a uma divisão exata sem resto (resto 0).
+> - **E)** Correta. O resto 1 de $43 \div 7$ avança 1 dia a partir da quinta-feira, resultando em sexta-feira.
+> 
+> **Gabarito: E**
+
+---
+
+### Questão 04
+**(FCC – TCE-GO – Tecnologia da Informação)**  
 Considere a sequência numérica infinita cujos primeiros termos são apresentados a seguir:
-$3, 5, 9, 17, 33, 65, \dots$
+$$3, 5, 9, 17, 33, 65, \dots$$
 
 O próximo termo dessa sequência e a lei de formação que rege seus elementos correspondem, respectivamente, a:
 
-A) 129 e o dobro do termo anterior subtraído de 1  
-B) 129 e o dobro do termo anterior somado a 1  
-C) 97 e a soma dos dois termos anteriores  
-D) 130 e potências consecutivas de 3  
-E) 131 e a soma das diferenças sucessivas multiplicadas por 3  
+* **A)** 129 e o dobro do termo anterior subtraído de 1
+* **B)** 129 e o dobro do termo anterior somado a 1
+* **C)** 97 e a soma dos dois termos anteriores
+* **D)** 130 e potências consecutivas de 3
+* **E)** 131 e a soma das diferenças sucessivas multiplicadas por 3
 
-> **Gabarito: A**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Análise das diferenças sucessivas entre os termos:  
->    - $5 - 3 = 2 = 2^1$  
->    - $9 - 5 = 4 = 2^2$  
->    - $17 - 9 = 8 = 2^3$  
->    - $33 - 17 = 16 = 2^4$  
->    - $65 - 33 = 32 = 2^5$  
-> 2. Padrão de progressão:  
->    - As diferenças entre termos consecutivos formam uma PG de razão 2: $(2, 4, 8, 16, 32, \dots)$.  
->    - A próxima diferença será $2^6 = 64$.  
->    - Próximo termo: $65 + 64 = 129$.  
-> 3. Análise da relação de recorrência:  
->    - $a_n = 2 \cdot a_{n-1} - 1$:  
->      - $2 \times 3 - 1 = 5$  
->      - $2 \times 5 - 1 = 9$  
->      - $2 \times 9 - 1 = 17$  
->      - $2 \times 17 - 1 = 33$  
->      - $2 \times 33 - 1 = 65$  
->      - $2 \times 65 - 1 = 130 - 1 = 129$.  
->    - A regra *"dobro do termo anterior subtraído de 1"* descreve perfeitamente a série.  
->  
-> **Análise das Alternativas:**  
-> - **A) CORRETA:** O próximo número é 129 e a regra de formação é $2x - 1$.  
-> - **B) Incorreta:** Se somasse 1, os termos seriam $3, 7, 15, 31, 63, 127$.  
-> - **C) Incorreta:** A soma dos termos anteriores seria estilo Fibonacci ($33 + 65 = 98$, não 97 nem 129).  
-> - **D) Incorreta:** 130 não é gerado pela regra de recorrência.  
-> - **E) Incorreta:** 131 decorre de erro na potenciação de 2.
+> **Comentário Detalhado:**
+> Identificação da lei de formação por diferenças e recorrência:
+> 1. Calculando a diferença entre termos consecutivos:
+>    - $5 - 3 = 2 = 2^1$
+>    - $9 - 5 = 4 = 2^2$
+>    - $17 - 9 = 8 = 2^3$
+>    - $33 - 17 = 16 = 2^4$
+>    - $65 - 33 = 32 = 2^5$
+>    As diferenças sucessivas formam potências consecutivas de 2. Logo, a próxima diferença entre o 7º e o 6º termo deve ser $2^6 = 64$:
+>    $$a_7 = 65 + 64 = \mathbf{129}$$
+> 2. Analisando a lei de recorrência direta:
+>    - $2 \times 3 - 1 = 5$
+>    - $2 \times 5 - 1 = 9$
+>    - $2 \times 9 - 1 = 17$
+>    - $2 \times 17 - 1 = 33$
+>    - $2 \times 33 - 1 = 65$
+>    - $2 \times 65 - 1 = 130 - 1 = \mathbf{129}$
+>    A lei estruturante expressa-se perfeitamente como o **dobro do termo anterior subtraído de 1** ($a_n = 2a_{n-1} - 1$).
+>
+> Análise das alternativas:
+> - **A)** Correta. O próximo elemento é 129 e a relação de recorrência é $2x - 1$.
+> - **B)** Incorreta. Se somasse 1, a sequência seria $3, 7, 15, 31, 63, 127$.
+> - **C)** Incorreta. A soma dos dois termos precedentes (estilo Fibonacci) geraria $33 + 65 = 98$, divergindo de 97 e da lógica da sequência.
+> - **D)** Incorreta. O próximo termo é 129, e não 130.
+> - **E)** Incorreta. Aponta 131 decorrente de erro aritmético.
+> 
+> **Gabarito: A**
 
 ---
 
-### Questão 5 (FCC - Analista de Sistemas)
+### Questão 05
+**(FCC – TCE-PI – Analista de Sistemas)**  
 Observe a planificação de um dado cúbico convencional, cujas faces contêm os símbolos $\heartsuit$, $\spadesuit$, $\diamondsuit$, $\clubsuit$, $\bigstar$ e $\blacktriangle$:
 
 ```text
@@ -299,29 +415,26 @@ Observe a planificação de um dado cúbico convencional, cujas faces contêm os
 
 Ao montar o cubo a partir dessa planificação, a face que ficará **diametralmente oposta** à face com o símbolo de Espadas ($\spadesuit$) é:
 
-A) Copas ($\heartsuit$)  
-B) Ouros ($\diamondsuit$)  
-C) Paus ($\clubsuit$)  
-D) Estrela ($\bigstar$)  
-E) Triângulo ($\blacktriangle$)  
+* **A)** Copas ($\heartsuit$)
+* **B)** Ouros ($\diamondsuit$)
+* **C)** Paus ($\clubsuit$)
+* **D)** Estrela ($\bigstar$)
+* **E)** Triângulo ($\blacktriangle$)
 
-> **Gabarito: C**  
->  
-> **Comentário Analítico Passo a Passo:**  
-> 1. Em qualquer planificação em que haja 4 quadrados consecutivos em uma mesma fileira horizontal:  
->    - Fileira: $[ \heartsuit ] \ [ \spadesuit ] \ [ \diamondsuit ] \ [ \clubsuit ]$.  
-> 2. Pelo teorema fundamental da dobradura de cubos:  
->    - Faces separadas por exatamente uma face intermediária na mesma linha ou coluna formam um par de **faces opostas**.  
->    - Logo:  
->      - $\heartsuit$ é oposta a $\diamondsuit$ (separadas por $\spadesuit$).  
->      - $\spadesuit$ é oposta a $\clubsuit$ (separadas por $\diamondsuit$).  
-> 3. As abas superior e inferior dobrarão para cima e para baixo, fechando o topo e a base do cubo:  
->    - $\bigstar$ é oposta a $\blacktriangle$.  
-> 4. Portanto, a face diametralmente oposta a $\spadesuit$ é a de Paus ($\clubsuit$).  
->  
-> **Análise das Alternativas:**  
-> - **A) Incorreta:** Copas ($\heartsuit$) é adjacente a Espadas no cubo montado.  
-> - **B) Incorreta:** Ouros ($\diamondsuit$) é adjacente a Espadas.  
-> - **C) CORRETA:** Paus ($\clubsuit$) fica a duas posições de distância na mesma fileira linear, constituindo a face perfeitamente oposta.  
-> - **D) Incorreta:** Estrela ($\bigstar$) fecha o topo (adjacente a Espadas).  
-> - **E) Incorreta:** Triângulo ($\blacktriangle$) fecha o fundo (adjacente a Espadas).
+> **Comentário Detalhado:**
+> Análise estrutural de planificação e dobradura de cubos:
+> 1. Na fileira horizontal com quatro quadrados adjacentes $[ \heartsuit ] \ [ \spadesuit ] \ [ \diamondsuit ] \ [ \clubsuit ]$:
+>    - Pelo teorema das faces opostas em planificações poliédricas, quadrados dispostos na mesma fileira separados por exatamente um quadrado intermediário dobram-se em planos paralelos, tornando-se **faces opostas**.
+>    - $\heartsuit$ separa-se de $\diamondsuit$ por $\spadesuit \implies \heartsuit$ é oposta a $\diamondsuit$.
+>    - $\spadesuit$ separa-se de $\clubsuit$ por $\diamondsuit \implies \spadesuit$ é oposta a $\clubsuit$.
+> 2. As abas que se projetam para fora da fileira central ($\bigstar$ acima e $\blacktriangle$ abaixo) dobram-se em $90^\circ$ fechando o topo e a base do cubo, sendo opostas entre si.
+> 3. Logo, a face que se posiciona diametralmente oposta à face de Espadas ($\spadesuit$) é a face de Paus ($\clubsuit$).
+>
+> Análise individual das alternativas:
+> - **A)** Incorreta. Copas ($\heartsuit$) dobra em ângulo reto, ficando adjacente a Espadas.
+> - **B)** Incorreta. Ouros ($\diamondsuit$) é face imediatamente vizinha (adjacente) de Espadas.
+> - **C)** Correta. Paus ($\clubsuit$) é a face diametralmente oposta a Espadas ($\spadesuit$).
+> - **D)** Incorreta. Estrela ($\bigstar$) fecha a face superior, sendo adjacente a Espadas.
+> - **E)** Incorreta. Triângulo ($\blacktriangle$) fecha a face inferior, sendo adjacente a Espadas.
+> 
+> **Gabarito: C**

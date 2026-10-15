@@ -26,251 +26,318 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-1. Fundamentos Constitucionais da Administração Pública e do Controle Externo
-├── 1.1 Regime Constitucional da Administração Pública (CF/88, Arts. 37 a 41)
-│   ├── 1.1.1 Princípios Constitucionais:
-│   │   ├── Princípios Expressos (Art. 37, caput): Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência (LIMPE)
-│   │   └── Princípios Implícitos: Razoabilidade, Proporcionalidade, Autotutela (Súmulas 346 e 473 do STF), Motivação e Supremacia do Interesse Público
-│   ├── 1.1.2 Provimento de Cargos e Concurso Público (Art. 37, I a IV):
-│   │   ├── Concurso de provas ou provas e títulos; prazo de validade de até 2 anos, prorrogável uma vez por igual período
-│   │   └── Cargos em comissão (livre nomeação e exoneração, para direção, chefia e assessoramento) e funções de confiança (privativas de concursados)
-│   ├── 1.1.3 Remuneração, Subsídios e Tetos Constitucionais (Art. 37, XI e § 12):
-│   │   ├── Teto Geral Federal: Subsídio mensal dos Ministros do STF
-│   │   └── Subtetos no Estado de Goiás: Executivo (subsídio do Governador), Legislativo (deputados estaduais) e Judiciário (desembargadores do TJ-GO)
-│   ├── 1.1.4 Acumulação Remunerada de Cargos Públicos (Art. 37, XVI e XVII):
-│   │   ├── Regra Geral: VEDAÇÃO ABSOLUTA de acumulação remunerada
-│   │   └── Exceções Expressas (desde que haja compatibilidade de horários):
-│   │       ├── a) Dois cargos de professor;
-│   │       ├── b) Um cargo de professor com outro técnico ou científico;
-│   │       └── c) Dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas
-│   ├── 1.1.5 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38):
-│   │   ├── Mandato federal, estadual ou distrital: Afastamento obrigatório do cargo
-│   │   ├── Mandato de Prefeito: Afastamento obrigatório, sendo facultado optar pela remuneração do cargo efetivo
-│   │   └── Mandato de Vereador: Havendo compatibilidade de horários, percebe as vantagens de ambos os cargos; sem compatibilidade, afasta-se e opta
-│   ├── 1.1.6 Estabilidade Constitucional e Perda do Cargo (Art. 41):
-│   │   ├── Estabilidade após 3 anos de efetivo exercício + aprovação em Avaliação Especial de Desempenho
-│   │   └── Hipóteses Taxativas de Perda do Cargo do Servidor Estável:
-│   │       ├── 1. Sentença judicial transitada em julgado;
-│   │       ├── 2. Processo administrativo disciplinar (PAD) com ampla defesa;
-│   │       ├── 3. Procedimento de avaliação periódica de desempenho (na forma de lei complementar); e
-│   │       └── 4. Excesso de despesa com pessoal após esgotamento das medidas prévias (Art. 169, § 4º da CF/88)
-│   └── 1.1.7 Responsabilidade Civil Objetiva do Estado (Art. 37, § 6º):
-│       ├── Pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos
-│       ├── Responsabilidade objetiva (independe de dolo ou culpa do agente; Teoria do Risco Administrativo)
-│       └── Ação Regressiva do Estado contra o agente público: Exige dolo ou culpa (responsabilidade subjetiva)
-├── 1.2 Sistema Constitucional de Controle Externo e Interno (CF/88, Arts. 70 a 75)
-│   ├── 1.2.1 Abrangência Material do Controle: Fiscalização contábil, financeira, orçamentária, operacional e patrimonial
-│   ├── 1.2.2 Princípios de Fiscalização: Legalidade, legitimidade, economicidade, aplicação das subvenções e renúncia de receitas
-│   ├── 1.2.3 Sujeito Passivo Obrigatório da Prestação de Contas (Art. 70, parágrafo único):
-│   │   └── Qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos
-│   ├── 1.2.4 Competências Constitucionais dos Tribunais de Contas (Art. 71):
-│   │   ├── Contas de Governo: Emissão de Parecer Prévio opinativo em 60 dias (julgamento exclusivo pelo Legislativo)
-│   │   ├── Contas de Gestão: Julgamento técnico definitivo pelo Tribunal de Contas (com quitação ou condenação)
-│   │   ├── Atos de Pessoal: Registro de admissões de pessoal e concessão inicial de aposentadorias/pensões (ato complexo)
-│   │   ├── Inspeções e Auditorias: De ofício ou por solicitação do Legislativo
-│   │   ├── Aplicação de Sanções e Multas: Decisão condenatória tem eficácia de Título Executivo Extrajudicial (Art. 71, § 3º)
-│   │   ├── Sustação de Atos: Assina prazo de 30 dias; não cumprido, o próprio TC susta a execução do ato
-│   │   └── Sustação de Contratos: Assina prazo; não cumprido, solicita a sustação ao Legislativo; se omisso por 90 dias, o TC decide
-│   ├── 1.2.5 Sistema de Controle Interno Integrado (Art. 74):
-│   │   ├── Apoio ao controle externo na missão fiscalizatória
-│   │   └── Dever de Alerta: Obrigatoriedade de comunicar qualquer ilegalidade sob pena de responsabilidade solidária (Art. 74, § 1º)
-│   └── 1.2.6 Princípio da Simetria Constitucional Obrigatória (Art. 75):
-│       └── As normas do TCU (arts. 70 a 74) aplicam-se compulsoriamente aos Tribunais de Contas Estaduais e Municipais
-└── 1.3 O TCE-GO na Constituição do Estado de Goiás (Arts. 26 a 33 da CE/GO)
-    ├── 1.3.1 Posição Institucional e Autonomia:
-    │   ├── Órgão constitucional autônomo, dotado de autogoverno, quadro próprio de pessoal e autonomia orçamentária
-    │   └── Jurisdição própria e privativa em todo o território estadual de Goiás
-    ├── 1.3.2 Composição e Nomeação dos 7 Conselheiros (Art. 27 da CE/GO):
-    │   ├── 4 Conselheiros: Escolhidos e nomeados pela Assembleia Legislativa de Goiás (ALEGO)
-    │   └── 3 Conselheiros: Nomeados pelo Governador do Estado com aprovação prévia da ALEGO, sendo:
-    │       ├── 1 de livre escolha do Governador;
-    │       ├── 1 escolhido dentre os Conselheiros Substitutos (Auditores), em lista tríplice por merecimento e antiguidade; e
-    │       └── 1 escolhido dentre os membros do Ministério Público de Contas (MPC), em lista tríplice por merecimento e antiguidade
-    ├── 1.3.3 Requisitos Constitucionais para Nomeação de Conselheiro:
-    │   ├── Cidadão brasileiro; idade entre 35 e 70 anos incompletos;
-    │   ├── Idoneidade moral e reputação ilibada;
-    │   └── Notórios conhecimentos jurídicos, contábeis, econômicos, financeiros ou de administração pública + mais de 10 anos de exercício funcional
-    ├── 1.3.4 Estatuto dos Conselheiros (Art. 28 da CE/GO):
-    │   └── Mesmas garantias (vitaliciedade, inamovibilidade e irredutibilidade), prerrogativas e impedimentos dos Desembargadores do TJ-GO
-    ├── 1.3.5 O Ministério Público de Contas de Goiás (Art. 30 da CE/GO):
-    │   └── Instituição permanente junto ao TCE-GO; ingresso por concurso público; mesmas garantias e vedações dos membros do MPE
-    └── 1.3.6 Prazos Específicos:
-        └── Envio e emissão de parecer prévio das contas anuais do Governador: 60 dias a contar do seu recebimento oficial
-```
+## 🧭 Sumário
+- [1. Regime Constitucional da Administração Pública (CF/88, Arts. 37 a 41)](#1-regime-constitucional-da-administração-pública-cf88-arts-37-a-41)
+  - [1.1 Princípios Constitucionais Expressos e Implícitos](#11-princípios-constitucionais-expressos-e-implícitos)
+  - [1.2 Provimento de Cargos, Concurso Público e Prazos](#12-provimento-de-cargos-concurso-público-e-prazos)
+  - [1.3 Regime Remuneratório, Subsídios e Tetos Constitucionais](#13-regime-remuneratório-subsídios-e-tetos-constitucionais)
+  - [1.4 Acumulação Remunerada de Cargos Públicos](#14-acumulação-remunerada-de-cargos-públicos)
+  - [1.5 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#15-exercício-de-mandato-eletivo-pelo-servidor-público-art-38)
+  - [1.6 Estabilidade Constitucional e Hipóteses Taxativas de Perda do Cargo](#16-estabilidade-constitucional-e-hipóteses-taxativas-de-perda-do-cargo)
+  - [1.7 Responsabilidade Civil Objetiva do Estado e Ação Regressiva](#17-responsabilidade-civil-objetiva-do-estado-e-ação-regressiva)
+- [2. Fiscalização e Controle na CF/88 (Arts. 70 a 75)](#2-fiscalização-e-controle-na-cf88-arts-70-a-75)
+  - [2.1 Abrangência Material e Sujeição Subjetiva ao Dever de Prestar Contas](#21-abrangência-material-e-sujeição-subjetiva-ao-dever-de-prestar-contas)
+  - [2.2 Competências dos Tribunais de Contas: Contas de Governo vs. Contas de Gestão](#22-competências-dos-tribunais-de-contas-contas-de-governo-vs-contas-de-gestão)
+  - [2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões](#23-fiscalização-de-atos-de-pessoal-e-registro-de-aposentadorias-e-pensões)
+  - [2.4 Rito Constitucional de Sustação de Atos e Contratos Administrativos](#24-rito-constitucional-de-sustação-de-atos-e-contratos-administrativos)
+  - [2.5 Eficácia Executiva das Decisões Condenatórias e Prescrição](#25-eficácia-executiva-das-decisões-condenatórias-e-prescrição)
+  - [2.6 Sistema Integrado de Controle Interno e Responsabilidade Solidária (Art. 74)](#26-sistema-integrado-de-controle-interno-e-responsabilidade-solidária-art-74)
+  - [2.7 Princípio da Simetria Constitucional Obrigatória (Art. 75)](#27-princípio-da-simetria-constitucional-obrigatória-art-75)
+- [3. O Tribunal de Contas do Estado de Goiás na CE/GO (Arts. 26 a 33)](#3-o-tribunal-de-contas-do-estado-de-goiás-na-cego-arts-26-a-33)
+  - [3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais](#31-natureza-jurídica-jurisdição-e-autonomias-constitucionais)
+  - [3.2 Composição e Escolha dos 7 Conselheiros do TCE-GO](#32-composição-e-escolha-dos-7-conselheiros-do-tce-go)
+  - [3.3 Requisitos Constitucionais para a Investidura de Conselheiro](#33-requisitos-constitucionais-para-a-investidura-de-conselheiro)
+  - [3.4 Estatuto dos Conselheiros: Garantias, Prerrogativas, Vedações e Foro](#34-estatuto-dos-conselheiros-garantias-prerrogativas-vedações-e-foro)
+  - [3.5 Ministério Público de Contas de Goiás (Art. 30 da CE/GO)](#35-ministério-público-de-contas-de-goiás-art-30-da-cego)
+  - [3.6 Competências Específicas na Carta Estadual e Prazos Regimentais](#36-competências-específicas-na-carta-estadual-e-prazos-regimentais)
+- [4. Fontes Oficiais e Referências Bibliográficas](#4-fontes-oficiais-e-referências-bibliográficas)
+- [5. Questões de Concurso FCC Comentadas](#5-questões-de-concurso-fcc-comentadas)
 
 ---
 
-## 📖 Resumo Teórico Aprofundado & Esquematizado
+## 1. Regime Constitucional da Administração Pública (CF/88, Arts. 37 a 41)
 
-### 1. Administração Pública na CF/88: Pontos Críticos para a FCC
+### 1.1 Princípios Constitucionais Expressos e Implícitos
+O artigo 37, *caput*, da Constituição da República de 1988 estabelece que a Administração Pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência (mnemônico clássico **LIMPE**), além de princípios implícitos densificados pela doutrina e pela jurisprudência dos Tribunais Superiores.
 
-#### 1.1 Princípios Constitucionais Expressos e Implícitos (Art. 37, caput)
-* **Legalidade:** Enquanto o particular pode fazer tudo o que a lei não proíbe (princípio da autonomia da vontade - Art. 5º, II da CF), o administrador público **só pode agir nos estritos termos e limites autorizados pela lei** (*princípio da subordinação à lei*).
-* **Impessoalidade:** Veda o favorecimento ou perseguição pessoal de indivíduos (finalidade pública inafastável). Desdobramento central no Art. 37, § 1º: **vedação à promoção pessoal** de autoridades ou servidores em publicidade de atos, programas, obras ou serviços públicos (proibição de nomes, símbolos ou imagens que caracterizem promoção pessoal).
-* **Moralidade:** Exige probidade, boa-fé e lealdade institucional. A imoralidade administrativa é causa autônoma de invalidação do ato pelo Judiciário e viabiliza a propositura de **Ação Popular** (Art. 5º, LXXIII) e ação de improbidade administrativa.
-* **Publicidade:** Os atos públicos devem ser transparentes para produzir efeitos jurídicos e viabilizar o controle social, ressalvadas hipóteses de segurança do Estado ou intimidade/vida privada.
-* **Eficiência:** Inserido pela Emenda Constitucional nº 19/1998 (Reforma Administrativa). Exige produtividade, otimização de recursos, combate ao desperdício e celeridade nos serviços estatais.
-* **Princípio da Autotutela (Súmulas 346 e 473 do STF):** A Administração Pública pode **anular** seus próprios atos quando eivados de ilegalidade (porque deles não se originam direitos), e pode **revogar** seus atos legais por motivo de conveniência e oportunidade, respeitados os direitos adquiridos.
+1. **Princípio da Legalidade:** No Direito Administrativo, a legalidade adquire feição estrita (princípio da subordinação à lei). Enquanto o particular no regime privado goza de autonomia da vontade — podendo fazer tudo o que a lei não proíbe (Art. 5º, II da CF) —, o administrador público só tem permissão para praticar atos expressamente autorizados ou determinados em lei. Qualquer atuação estatal fora do balizamento normativo configura abuso de poder e ilegalidade insanável.
+2. **Princípio da Impessoalidade:** Exige que a atividade administrativa seja orientada exclusivamente ao interesse público, sendo vedada a perseguição de inimigos ou o privilégio indevido de amigos e aliados políticos. Desdobra-se decisivamente no **Art. 37, § 1º da CF/88**: a publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deve possuir caráter estritamente educativo, informativo ou de orientação social, dela **não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal** de autoridades ou servidores públicos.
+3. **Princípio da Moralidade:** Exige conduta ética, lealdade institucional, boa-fé e probidade na gestão dos recursos públicos. A ofensa à moralidade prescinde de prova de violação frontal à letra fria da lei; o ato administrativo imoral é nulo e passível de desconstituição pelo Poder Judiciário por meio de **Ação Popular** (Art. 5º, LXXIII da CF) e sancionamento via Ação de Improbidade Administrativa (Lei nº 8.429/1992).
+4. **Princípio da Publicidade:** A regra geral republicana é a absoluta transparência dos atos administrativos para assegurar a sua eficácia externa e possibilitar o controle social e institucional. As únicas exceções constitucionalmente toleradas decorrem de imperativos de **segurança da sociedade e do Estado** ou de preservação da **intimidade, honra e vida privada** das pessoas (Art. 5º, X e XXXIII).
+5. **Princípio da Eficiência:** Inserido pela Emenda Constitucional nº 19/1998, traduz o modelo de Administração Pública Gerencial. Impõe aos órgãos e agentes a busca contínua por resultados de qualidade, economicidade, rendimento funcional, combate a desperdícios e celeridade nos serviços postos à disposição do cidadão.
+6. **Princípios Implícitos Relevantes:**
+   - **Autotutela (Súmulas 346 e 473 do STF):** A Administração Pública tem o poder-dever de **anular** seus próprios atos quando eivados de vício de ilegalidade (porque de atos ilegais não se originam direitos), e de **revogá-los** por razões de conveniência e oportunidade, resguardados os direitos adquiridos e assegurada a ampla defesa quando houver reflexo em interesses individuais.
+   - **Razoabilidade e Proporcionalidade:** Proíbem a imposição de restrições ou sanções em medida superior à estritamente necessária para o atendimento do interesse público (vedação ao excesso).
+   - **Motivação:** Dever funcional de explicitar os fundamentos de fato e de direito que justificaram a prática do ato administrativo.
 
-#### 1.2 Regras de Cargos, Empregos e Concursos Públicos
-* **Regra Geral:** A investidura em cargo ou emprego público depende de aprovação prévia em **concurso público de provas ou de provas e títulos**, de acordo com a natureza e a complexidade do cargo.
-* **Validade do Concurso (Art. 37, III):** Prazo de validade de **até dois anos**, prorrogável uma vez, por igual período. O candidato aprovado dentro do número de vagas previsto no edital tem **direito subjetivo à nomeação** durante o prazo de vigência (STF - Tema 161).
-* **Cargos em Comissão vs. Funções de Confiança (Art. 37, V):**
-  * *Funções de Confiança:* Exercidas **exclusivamente por servidores ocupantes de cargo efetivo**;
-  * *Cargos em Comissão:* Preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, e por pessoas sem vínculo efetivo;
-  * Ambos destinam-se **apenas às atribuições de direção, chefia e assessoramento** (é inconstitucional a criação de cargo em comissão para atribuições meramente técnicas ou operacionais!).
-
-#### 1.3 Acumulação de Cargos e Mandato Eletivo
-* **Vedações e Exceções de Acumulação Remunerada (Art. 37, XVI):**
-  * A regra geral é a proibição de acumulação de cargos públicos, abrangendo autarquias, fundações, empresas públicas e sociedades de economia mista.
-  * **Exceções cumulativas com compatibilidade de horários:**
-    1. Dois cargos de **professor**;
-    2. Um cargo de **professor** com outro **técnico ou científico**;
-    3. Dois cargos ou empregos privativos de **profissionais de saúde**, com profissões regulamentadas.
-  * O teto remuneratório constitucional aplica-se a **cada vínculo isoladamente**, e não à soma das remunerações acumuladas (*STF - Temas 377 e 384*).
-* **Servidor em Mandato Eletivo (Art. 38 da CF/88):**
-  * *Mandato Federal, Estadual ou Distrital (Deputado, Senador):* Afastamento compulsório do cargo público;
-  * *Mandato de Prefeito:* Afasta-se do cargo público, sendo-lhe **facultado optar pela sua remuneração**;
-  * *Mandato de Vereador:* Havendo compatibilidade de horários, **percebe as vantagens do seu cargo e o subsídio do mandato**; sem compatibilidade, afasta-se e opta pela remuneração.
-
-#### 1.4 Estabilidade e Hipóteses de Perda do Cargo (Art. 41)
-* São estáveis após **três anos de efetivo exercício** os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.
-* Requisito obrigatório para a aquisição da estabilidade: **aprovação prévia em avaliação especial de desempenho** por comissão instituída para essa finalidade.
-* **As 4 hipóteses taxativas de perda do cargo do servidor público estável:**
-  1. Sentença judicial transitada em julgado;
-  2. Processo administrativo disciplinar (PAD) no qual lhe seja assegurada ampla defesa;
-  3. Procedimento de avaliação periódica de desempenho, na forma de **lei complementar**, assegurada ampla defesa;
-  4. Excesso de despesa com pessoal (Art. 169, § 4º da CF/88): após redução de 20% das despesas com cargos em comissão e exoneração dos servidores não estáveis, se o excesso persistir, o servidor estável poderá perder o cargo mediante ato motivado e indenização compensatória de 1 mês por ano de serviço.
-
-#### 1.5 Responsabilidade Civil do Estado (Art. 37, § 6º)
-* **Regra Geral:** Responsabilidade civil **objetiva** das pessoas jurídicas de direito público e das pessoas jurídicas de direito privado prestadoras de serviços públicos pelos danos que seus agentes causarem a terceiros.
-* Adota a **Teoria do Risco Administrativo** (o particular lesado precisa provar apenas o ato estatal, o dano e o nexo de causalidade, dispensando prova de dolo ou culpa da Administração).
-* **Excludentes de Responsabilidade:** Caso fortuito, força maior e culpa exclusiva da vítima (rompem o nexo causal). A culpa concorrente atenua a indenização.
-* **Ação Regressiva:** O Estado responde perante a vítima objetivamente; caso seja condenado, tem o direito de regresso contra o servidor público causador do dano, em cuja ação deverá comprovar cabalmente a ocorrência de **dolo ou culpa (responsabilidade subjetiva)**.
-* **Tema 940 do STF (Tese Vinculante):** A vítima do dano deve ajuizar a ação indenizatória **exclusivamente contra o Estado ou pessoa jurídica prestadora**, sendo vedado o ajuizamento da ação diretamente contra o servidor público ou a inclusão deste no polo passivo em litisconsórcio.
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A banca FCC frequentemente tenta confundir os desdobramentos de *Impessoalidade* e *Moralidade*. A veiculação de foto, slogan ou nome de prefeito/governador em placas de obras públicas é expressamente uma violação da regra constitucional de **impessoalidade** (Art. 37, § 1º), ainda que também afronte a moralidade. Lembre-se ainda de que o princípio da *Eficiência* não constava no texto original de 1988; foi introduzido formalmente pela EC 19/1998.
 
 ---
 
-### 2. Fiscalização e Controle na CF/88 (Arts. 70 a 75)
+### 1.2 Provimento de Cargos, Concurso Público e Prazos
+A investidura em cargo ou emprego público depende de aprovação prévia em **concurso público de provas ou de provas e títulos**, consoante a complexidade e a natureza do cargo (Art. 37, II da CF).
+
+- **Prazos de Validade (Art. 37, III):** O prazo de validade do concurso será de **até dois anos**, prorrogável uma única vez, por igual período. A prorrogação constitui ato discricionário da Administração, devendo ocorrer impreterivelmente dentro do prazo de vigência original.
+- **Direito Subjetivo à Nomeação:** O STF fixou a tese com repercussão geral (**Tema 161 - RE 598.099**) segundo a qual o candidato aprovado **dentro do número de vagas** expressamente previsto no edital possui direito público subjetivo à nomeação durante o prazo de vigência do certame, salvo situações excepcionalíssimas caracterizadas por superveniência, imprevisibilidade, gravidade e necessidade coletiva inadiável.
+- **Cargos em Comissão vs. Funções de Confiança (Art. 37, V):**
+  - **Funções de Confiança:** Destinadas exclusivamente a servidores ocupantes de cargo efetivo.
+  - **Cargos em Comissão:** De livre nomeação e livre exoneração (*ad nutum*), preenchidos por servidores de carreira nos casos, condições e percentuais mínimos fixados em lei, e por pessoas sem vínculo prévio com a Administração.
+  - **Restrição Material Rígida:** Tanto os cargos em comissão quanto as funções de confiança destinam-se **apenas às atribuições de direção, chefia e assessoramento**. A criação por lei de cargos comissionados para atividades rotineiras, burocráticas, meramente técnicas ou operacionais é formalmente **inconstitucional** (Tema 1010 do STF).
+
+---
+
+### 1.3 Regime Remuneratório, Subsídios e Tetos Constitucionais
+A remuneração dos servidores públicos e os subsídios dos agentes políticos submetem-se ao teto remuneratório geral estabelecido no artigo 37, XI, da Carta Magna, cujo limite máximo federal corresponde ao **subsídio mensal dos Ministros do Supremo Tribunal Federal (STF)**.
+
+Nos Estados-membros, adota-se o regime de subtetos por Poder, salvo se houver emenda estadual instituindo subteto único:
+- **Poder Executivo:** Subsídio mensal do Governador do Estado.
+- **Poder Legislativo:** Subsídio mensal dos Deputados Estaduais.
+- **Poder Judiciário, Ministério Público, Defensoria Pública e TRIBUNAIS DE CONTAS:** Subsídio mensal dos Desembargadores do Tribunal de Justiça do Estado (limitado a 90,25% do subsídio dos Ministros do STF).
+
+> 📌 **NOTA EXPLICATIVA / TETO NA ACUMULAÇÃO LÍCITA:** Conforme julgamento dos **Temas 377 e 384 de Repercussão Geral do STF**, nos casos autorizados constitucionalmente de acumulação de cargos, o teto remuneratório incide sobre a **remuneração de cada cargo ou vínculo isoladamente considerado**, e não sobre o somatório dos rendimentos percebidos pelo agente.
+
+---
+
+### 1.4 Acumulação Remunerada de Cargos Públicos
+A regra republicana insculpida no artigo 37, XVI e XVII, da CF/88 é a **vedação absoluta** da acumulação remunerada de cargos, empregos ou funções públicas na Administração direta, autárquica, fundacional, empresas públicas e sociedades de economia mista.
+
+A Constituição autoriza apenas três hipóteses taxativas e excepcionais de acumulação, **desde que haja imperativa compatibilidade de horários**:
+1. A de dois cargos de **professor**;
+2. A de um cargo de **professor** com outro **técnico ou científico**;
+3. A de dois cargos ou empregos privativos de **profissionais de saúde**, com profissões regulamentadas.
+
+> ⭐ **IMPORTANTE / CONCEITO DE CARGO TÉCNICO:** O Superior Tribunal de Justiça (STJ) pacificou que "cargo técnico ou científico" para efeito de acumulação constitucional é aquele para cujo exercício sejam exigidos conhecimentos específicos em nível superior ou formação profissionalizante de ensino médio, não se enquadrando funções meramente administrativas ou de suporte genérico.
+
+---
+
+### 1.5 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)
+Ao servidor público da administração direta, autárquica e fundacional no exercício de mandato eletivo aplicam-se as disposições expressas do artigo 38 da CF/88:
+
+| Mandato Eletivo Conquistado | Afastamento do Cargo Efetivo | Regra de Remuneração / Opção | Tempo de Serviço e Benefícios |
+| :--- | :--- | :--- | :--- |
+| **Federal, Estadual ou Distrital** (Deputado, Senador) | **Afastamento obrigatório** do cargo, emprego ou função. | Recebe o subsídio do mandato político (não há faculdade de opção). | Conta para todos os efeitos legais, salvo promoção por merecimento. |
+| **Prefeito Municipal** (ou Vice-Prefeito em exercício executivo) | **Afastamento obrigatório** do cargo, emprego ou função. | **Facultado optar** pela remuneração do cargo efetivo ou pelo subsídio de Prefeito. | Conta para todos os efeitos legais, salvo promoção por merecimento. |
+| **Vereador Municipal** | - **Havendo compatibilidade:** NÃO se afasta.<br/>- **Sem compatibilidade:** Afasta-se do cargo efetivo. | - *Com compatibilidade:* Percebe as vantagens de seu cargo **acumuladas** com o subsídio de vereador.<br/>- *Sem compatibilidade:* Aplica-se a regra de Prefeito (afasta-se e opta). | Mantém filiação previdenciária original e cômputo de tempo de serviço. |
+
+---
+
+### 1.6 Estabilidade Constitucional e Hipóteses Taxativas de Perda do Cargo
+Nos moldes do artigo 41 da CF/88, adquire estabilidade após **três anos de efetivo exercício** o servidor público nomeado para cargo de provimento efetivo em virtude de aprovação em concurso público. 
+
+É condição obrigatória e indispensável para a consolidação da estabilidade a aprovação prévia em **avaliação especial de desempenho**, realizada por comissão especificamente instituída.
+
+O servidor público estável somente perderá o cargo público nas seguintes **quatro hipóteses taxativas**:
+1. **Sentença judicial transitada em julgado** (não cabe perda por decisão de primeira instância pendente de recurso);
+2. **Processo administrativo disciplinar (PAD)** no qual lhe seja formalmente assegurada a ampla defesa e o contraditório;
+3. **Procedimento de avaliação periódica de desempenho**, na forma de **lei complementar**, assegurada ampla defesa;
+4. **Excesso de despesa com pessoal (Art. 169, § 4º da CF/88):** Caso as despesas de pessoal superem os limites da Lei de Responsabilidade Fiscal e as medidas preliminares obrigatórias (redução de pelo menos 20% das despesas com comissionados e exoneração de todos os servidores não estáveis) se revelem insuficientes, o servidor estável poderá ser exonerado, fazendo jus a uma indenização equivalente a 1 (um) mês de remuneração por ano de serviço prestado.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Questões da FCC frequentemente tentam enganar o candidato afirmando que o servidor estável "somente perde o cargo por sentença transitada em julgado ou PAD". Essa assertiva está **INCORRETA** porque ignora as duas outras vias constitucionais expressas: a avaliação periódica de desempenho e o corte por despesa excessiva do art. 169. Fique atento à presença de termos restritivos como "apenas" e "somente".
+
+---
+
+### 1.7 Responsabilidade Civil Objetiva do Estado e Ação Regressiva
+O artigo 37, § 6º, da CF/88 estabelece a **responsabilidade civil extracontratual do Estado** adotando a **Teoria do Risco Administrativo**:
+
+$$\text{Ato Administrativo (Comissivo)} + \text{Dano Efetivo} + \text{Nexo Causal} \Longrightarrow \text{Dever de Indenizar (Responsabilidade Objetiva)}$$
+
+- **Abrangência Subjetiva:** Submetem-se ao regime da responsabilidade objetiva:
+  - As pessoas jurídicas de direito público (União, Estados, DF, Municípios, Autarquias e Fundações Públicas de direito público);
+  - As pessoas jurídicas de direito privado **prestadoras de serviços públicos** (empresas públicas, sociedades de economia mista prestadoras, concessionárias e permissionárias de serviço público), relativamente a danos causados a usuários e a não usuários do serviço.
+- **Excludentes e Atenuantes do Nexo Causal:** O rompimento do nexo de causalidade afasta a responsabilidade do Estado nas hipóteses de **culpa exclusiva da vítima**, **caso fortuito absoluto** ou **força maior**. Havendo culpa concorrente da vítima, a obrigação de indenizar é mitigada proporcionalmente (atenuante).
+- **Ação Regressiva do Estado:** Caso o Estado seja condenado a indenizar a vítima, ele detém o direito/dever de ajuizar **ação de regresso** em desfavor do servidor público causador direto do dano. A responsabilidade do servidor é puramente **subjetiva**, exigindo-se prova irrefutável de que ele agiu com **dolo ou culpa**.
+- **Tema 940 do STF (Tese Vinculante - RE 1.027.633):** A ação indenizatória por danos causados por agente público no exercício de suas funções deve ser proposta **exclusivamente em face da pessoa jurídica de direito público ou da concessionária**, sendo inadmissível o ajuizamento da ação diretamente contra o agente público ou a sua inclusão no polo passivo mediante litisconsórcio passivo facultativo.
+
+---
+
+## 2. Fiscalização e Controle na CF/88 (Arts. 70 a 75)
 
 ```mermaid
 flowchart TD
-    CF[CF/88: Fiscalização Contábil, Financeira, Orçamentária e Patrimonial] --> CE[Controle Externo: Poder Legislativo + Tribunal de Contas]
-    CF --> CI[Controle Interno: Integrado em cada Poder]
+    CF["CF/88: Fiscalização Contábil, Financeira, Orçamentária e Patrimonial"] --> CE["Controle Externo: Poder Legislativo com auxílio do Tribunal de Contas"]
+    CF --> CI["Controle Interno: Integrado em cada Poder do Estado"]
     
-    CE --> JulgContas{Qual o tipo de conta?}
-    JulgContas -- "Chefe do Executivo (Governador)" --> ParecerPrev["Parecer Prévio Opinativo (60 dias)<br/>Julgamento final: Assembleia Legislativa"]
-    JulgContas -- "Demais Administradores (Gestão)" --> JulgDef["Julgamento Técnico Definitivo do TC<br/>Pela regularidade, ressalva ou irregularidade"]
+    CE --> JulgContas{"Qual a natureza das contas submetidas?"}
+    JulgContas -- "Contas do Chefe do Executivo (Governador)" --> ParecerPrev["Parecer Prévio Técnico-Opinativo (60 dias)<br/>Julgamento Definitivo Político: Assembleia Legislativa"]
+    JulgContas -- "Contas de Gestores e Ordenadores de Despesa" --> JulgDef["Julgamento Técnico-Definitivo do Tribunal de Contas<br/>(Pela regularidade, ressalvas ou irregularidade)"]
 
-    CE --> Sanções["Sanções do TC: Débito e Multa<br/>Eficácia de Título Executivo Extrajudicial (Art. 71, § 3º)"]
-    CE --> SustAto["Ato Ilegal: TC assina prazo e ele mesmo Susta"]
-    CE --> SustContrato["Contrato Ilegal: TC assina prazo e LEGISLATIVO Susta"]
+    CE --> Sanc["Sanções com Eficácia de Título Executivo (Art. 71, § 3º)<br/>Imputação de Débito e Aplicação de Multa"]
+    CE --> SustAto["Ato Ilegal: TC assina prazo de 30 dias; desatendido, o próprio TC Susta"]
+    CE --> SustCont["Contrato Ilegal: TC assina prazo; desatendido, o Legislativo Susta<br/>(Se Legislativo omisso por 90 dias, o TC decide a sustação)"]
 
-    CI --> Alerta["Dever de Alerta Imediato ao TC<br/>Omissão gera Responsabilidade Solidária (Art. 74, § 1º)"]
+    CI --> DeverAler["Dever de Comunicação Imediata de Ilegalidade<br/>Omissão gera Responsabilidade Solidária do Dirigente (Art. 74, § 1º)"]
 ```
 
-#### 2.1 Emissão de Parecer Prévio vs. Julgamento de Contas
-| Tipo de Conta | Responsável | Atuação do Tribunal de Contas | Quem Julga Definitivamente? |
-| :--- | :--- | :--- | :--- |
-| **Contas de Governo** | Chefe do Poder Executivo (Governador / Presidente / Prefeito) | Emite **Parecer Prévio** (opinativo e consultivo) no prazo de **60 dias**. | **Poder Legislativo** (Assembleia Legislativa ou Congresso Nacional). |
-| **Contas de Gestão** | Ordenadores de despesas, Secretários, Diretores de autarquias e empresas estatais | **Julga em caráter técnico e definitivo** a regularidade ou irregularidade das contas. | **O próprio Tribunal de Contas**. |
+### 2.1 Abrangência Material e Sujeição Subjetiva ao Dever de Prestar Contas
+A fiscalização contábil, financeira, orçamentária, operacional e patrimonial dos entes federados quanto à legalidade, legitimidade, economicidade, aplicação de subvenções e renúncia de receitas é exercida pelo Poder Legislativo, mediante controle externo, e pelos sistemas de controle interno integrados de cada Poder (Arts. 70 e 71 da CF).
 
-> **Jurisprudência Vinculante do STF (Temas 157 e 835):** Para fins de inelegibilidade eleitoral (Lei da Ficha Limpa - LC 64/90), a competência para julgar **todas** as contas prestadas por Prefeito Municipal (sejam contas de governo ou contas de gestão na condição de ordenador de despesas) é **exclusiva da Câmara de Vereadores**, atuando o Tribunal de Contas apenas como órgão auxiliar emissor de parecer prévio opinativo.
-
-#### 2.2 Rito de Sustação: Atos Administrativos vs. Contratos Administrativos
-* **Ato Administrativo Ilegal (Art. 71, X):** Verificada a ilegalidade, o Tribunal de Contas assina prazo para que o órgão adote as medidas corretivas. Se não atendido o prazo, **o próprio Tribunal de Contas susta a execução do ato impugnado**, comunicando a decisão ao Poder Legislativo.
-* **Contrato Administrativo Ilegal (Art. 71, XI e § 1º):** No caso de contrato, o Tribunal de Contas assina prazo para regularização. Se desatendido, **a competência para sustar o contrato é originária do Poder Legislativo** (Assembleia Legislativa), que solicitará imediatamente ao Executivo as providências.
-* **Atuação Subsidiária do Tribunal de Contas (Art. 71, § 2º):** Se o Poder Legislativo ou o Poder Executivo, no prazo de **90 (noventa) dias**, não efetivar as medidas de sustação do contrato, **o próprio Tribunal de Contas decidirá a respeito da sustação**.
-
-#### 2.3 Eficácia das Decisões Condenatórias (Art. 71, § 3º)
-* As decisões do Tribunal de Contas de que resulte imputação de **débito** (ressarcimento) ou **multa** têm **eficácia de título executivo extrajudicial**.
-* **Cobrança Judicial:** O Tribunal de Contas não tem personalidade jurídica nem procuradoria contenciosa para ingressar com execução fiscal na Justiça. A execução é ajuizada pela **Fazenda Pública titular do crédito** (a Procuradoria-Geral do Estado de Goiás - PGE-GO no caso de recursos estaduais).
-* **Tema 899 do STF (Tese Vinculante):** É **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, aplicando-se o prazo prescricional de **5 (cinco) anos**.
+- **Dever Universal de Prestar Contas (Art. 70, parágrafo único):** Prestará contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos ou pelos quais o Estado responda, ou que, em nome deste, assuma obrigações de natureza pecuniária.
 
 ---
 
-### 3. Disposições do TCE-GO na Constituição do Estado de Goiás (Arts. 26 a 33 da CE/GO)
+### 2.2 Competências dos Tribunais de Contas: Contas de Governo vs. Contas de Gestão
+A sistemática de julgamento e exame de contas públicas divide-se com rigor constitucional:
 
-#### 3.1 Composição e Processo de Escolha dos 7 Conselheiros (Art. 27 da CE/GO)
+1. **Contas de Governo (Chefe do Executivo):** Consistem no balanço geral do Estado e na execução global dos orçamentos (LOA, LDO, PPA). Sobre elas, o Tribunal de Contas **não julga**, mas apenas **aprecia mediante Parecer Prévio opinativo**, emitido no prazo de **60 (sessenta) dias** a contar do seu recebimento. A competência para o julgamento definitivo e político dessas contas é indelegável da **Assembleia Legislativa** (em nível federal, do Congresso Nacional).
+2. **Contas de Gestão (Ordenadores de Despesas):** Envolvem os atos concretos de gestão, compras, licitações e liquidação de despesas praticados por secretários de estado, diretores de empresas estatais, presidentes de fundações e quaisquer ordenadores de despesa. O Tribunal de Contas **julga tecnicamente em caráter definitivo**, proferindo decisão que pode declarar a regularidade, regularidade com ressalvas ou irregularidade das contas.
+
+> 📌 **NOTA EXPLICATIVA / SÚMULAS E TEMAS 157 E 835 DO STF:** O Supremo Tribunal Federal pacificou que, para fins de inelegibilidade eleitoral (alínea 'g' do inciso I do art. 1º da LC 64/90), a competência para julgar **todas** as contas prestadas por Prefeito Municipal — tanto as contas de governo quanto as contas de gestão na condição de ordenador — é **exclusiva da Câmara Municipal**, figurando o parecer do Tribunal de Contas como ato opinativo que somente deixará de prevalecer por voto de 2/3 dos vereadores. No entanto, para os **Governadores e Secretários de Estado**, mantém-se a distinção: o TCE emite parecer nas contas anuais do Governador e julga diretamente os Secretários de Estado quando ordenadores.
+
+---
+
+### 2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões
+Nos termos do artigo 71, III, da CF/88, compete ao Tribunal de Contas apreciar, para fins de registro, a legalidade dos atos de admissão de pessoal (ressalvadas as nomeações para cargo de comissão) e das concessões iniciais de aposentadorias, reformas e pensões.
+
+- **Natureza de Ato Complexo:** O ato de concessão de aposentadoria ou pensão é classificado pelo STF como **ato administrativo complexo**. O ato concessório emitido pelo órgão de origem do servidor é precário e provisório, somente se aperfeiçoando e tornando-se definitivo com o competente exame e registro pelo Tribunal de Contas.
+- **Súmula Vinculante nº 3 do STF:** Nos processos perante os Tribunais de Contas que resultem em anulação ou revogação de atos administrativos que beneficiem alguém, são assegurados o contraditório e a ampla defesa, **excetuada a apreciação da legalidade do ato de concessão inicial de aposentadoria, reforma e pensão**.
+- **Tema 445 do STF (Marco Temporal de 5 Anos):** Em atenção à segurança jurídica e à confiança legítima, os Tribunais de Contas têm o prazo decadencial de **5 (cinco) anos** para apreciar a legalidade do ato de concessão inicial de aposentadoria ou pensão, contados da data de chegada do processo à Corte de Contas. Passados 5 anos sem homologação, o ato considera-se tacitamente estabilizado para fins de exigência de prévio contraditório perante o servidor jubilado.
+
+---
+
+### 2.4 Rito Constitucional de Sustação de Atos e Contratos Administrativos
+A fiscalização corretiva do Tribunal de Contas sobre atos e contratos eivados de ilegalidade segue ritos inteiramente distintos, cobrados com insistência cirúrgica pela banca FCC:
+
+| Categoria Objeto de Ilegalidade | 1º Passo: Fixação de Prazo | Omissão da Administração: Quem Susta Diretamente? | Comunicação / Providência Posterior |
+| :--- | :--- | :--- | :--- |
+| **Ato Administrativo Ilegal** (Portarias, nomeações, editais de concurso) | O Tribunal de Contas assina prazo de **30 dias** para que o órgão adote as medidas necessárias ao exato cumprimento da lei. | **O próprio TRIBUNAL DE CONTAS susta** diretamente a execução do ato ilegal impugnado. | Comunica a decisão e providência à Assembleia Legislativa. |
+| **Contrato Administrativo Ilegal** (Ajuste firmado com terceiro particular) | O Tribunal de Contas assina prazo para a regularização ou anulação do contrato. | A competência originária para sustar a execução do contrato é do **PODER LEGISLATIVO** (Assembleia Legislativa), que solicitará imediatamente ao Executivo as medidas. | Se o Legislativo ou o Executivo **não adotarem as medidas no prazo de 90 dias**, o **próprio TRIBUNAL DE CONTAS decidirá** a respeito da sustação. |
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Grave esta regra com atenção: o Tribunal de Contas **NUNCA susta contratos administrativos de imediato**. A sustação de contrato é primária e privativa do Poder Legislativo. O Tribunal de Contas só ganha competência subsidiária se passarem **90 (noventa) dias** de inércia parlamentar/executiva (Art. 71, § 2º da CF). A FCC costuma tentar induzir o candidato ao erro trocando 90 dias por 30 ou 60 dias!
+
+---
+
+### 2.5 Eficácia Executiva das Decisões Condenatórias e Prescrição
+Conforme prescreve o artigo 71, § 3º, da Carta Federal, as decisões do Tribunal de Contas de que resulte imputação de **débito** (reparação do erário) ou cominação de **multa** têm **eficácia de título executivo extrajudicial**.
+
+- **Legitimidade para Execução:** O Tribunal de Contas não é pessoa jurídica e não possui capacidade processual contenciosa para ajuizar execução de suas decisões em juízo. A legitimação ativa para a execução fiscal pertence à **Fazenda Pública credora** (em Goiás, o Estado de Goiás, representado pela Procuradoria-Geral do Estado - PGE-GO; ou o Município, se a condenação envolver verbas municipais).
+- **Destinação das Multas:** Os valores arrecadados a título de multa por condenação proferida pelo TCE revertem aos cofres do ente federativo a que o Tribunal está vinculado (ou a fundos específicos legalmente instituídos para aperfeiçoamento institucional do órgão de controle).
+- **Tema 899 do STF (Prescritibilidade da Execução de Decisões de TC):** Ao fixar tese no RE 636.886, o Supremo Tribunal Federal assentou que: *"É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas"*, aplicando-se o **prazo prescricional quinquenal (5 anos)** da Lei de Execuções Fiscais e do Decreto nº 20.910/1932.
+
+---
+
+### 2.6 Sistema Integrado de Controle Interno e Responsabilidade Solidária (Art. 74)
+Os Poderes Legislativo, Executivo e Judiciário manterão, de forma integrada, sistema de controle interno com as finalidades constitucionais de:
+1. Avaliar o cumprimento das metas previstas no plano plurianual e a execução dos programas de governo e dos orçamentos;
+2. Comprovar a legalidade e avaliar os resultados, quanto à eficácia e eficiência, da gestão orçamentária, financeira e patrimonial nos órgãos e entidades da administração;
+3. Exercer o controle das operações de crédito, avais e garantias, bem como dos direitos e haveres do Estado;
+4. Apoiar o controle externo no exercício de sua missão institucional.
+
+> 🚨 **ALERTA DE PROVA / DEVER DE CIÊNCIA E SOLIDARIEDADE:** O artigo 74, § 1º, da CF/88 impõe aos responsáveis pelo controle interno uma obrigação de alerta cogente: ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, **devem dela dar ciência imediata ao Tribunal de Contas**, sob pena de **responsabilidade solidária**. Ou seja, a omissão do chefe de auditoria ou controlador interno atrai a sua responsabilização pessoal pelo dano verificado!
+
+---
+
+### 2.7 Princípio da Simetria Constitucional Obrigatória (Art. 75)
+O artigo 75 da Constituição de 1988 positiva o princípio da simetria federativa: as normas relativas à fiscalização contábil, financeira, orçamentária, operacional e patrimonial estabelecidas para a União (arts. 70 a 74) **aplicam-se obrigatoriamente à organização, composição e fiscalização dos Tribunais de Contas dos Estados e do Distrito Federal, bem como aos Tribunais e Conselhos de Contas dos Municípios**.
+Qualquer tentativa das Constituições Estaduais de inovar, restringir competências fiscalizatórias ou alterar a fórmula de composição dos Tribunais de Contas padece de vício de inconstitucionalidade material e formal.
+
+---
+
+## 3. O Tribunal de Contas do Estado de Goiás na CE/GO (Arts. 26 a 33)
+
+### 3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais
+O Tribunal de Contas do Estado de Goiás (TCE-GO) é órgão público constitucional autônomo, não subordinado nem vinculado hierarquicamente a nenhum dos três Poderes de Estado (Executivo, Legislativo ou Judiciário).
+- **Sede e Jurisdição:** Tem sede na capital do Estado (Goiânia) e estende sua jurisdição própria e privativa sobre todas as pessoas, órgãos e entidades sujeitos à fiscalização orçamentária estadual em todo o território goiano (Art. 26 da CE/GO).
+- **Autonomias Constitucionais:** O TCE-GO possui autonomia funcional, administrativa, financeira e orçamentária. Dispõe de autogoverno (eleição de seus dirigentes pelo Tribunal Pleno), iniciativa legislativa reservada para propor a criação de seus cargos e fixação de vencimentos do seu quadro próprio de servidores, e competência para elaborar sua proposta orçamentária anual dentro dos limites das diretrizes orçamentárias.
+
+---
+
+### 3.2 Composição e Escolha dos 7 Conselheiros do TCE-GO
+Nos moldes do artigo 27 da Constituição do Estado de Goiás, em estrita simetria com a CF/88, o TCE-GO é composto por **7 (sete) Conselheiros**, cuja escolha observa o seguinte esquema:
 
 ```mermaid
 graph TD
-    TCE[Composição do TCE-GO: 7 Conselheiros]
+    TCE["Composição do TCE-GO: 7 Conselheiros Vitalícios"]
     
     TCE --> ALEGO["4 Conselheiros: Escolhidos e nomeados pela ALEGO"]
-    TCE --> GOV["3 Conselheiros: Nomeados pelo Governador com aprovação da ALEGO"]
+    TCE --> GOV["3 Conselheiros: Nomeados pelo Governador com aprovação prévia da ALEGO"]
     
-    GOV --> G1["1 de Livre Escolha do Governador"]
-    GOV --> G2["1 Dentre os Conselheiros Substitutos (Auditores)"]
-    GOV --> G3["1 Dentre os Membros do Ministério Público de Contas (MPC)"]
+    GOV --> G1["1 de Livre Escolha do Chefe do Executivo"]
+    GOV --> G2["1 Dentre os Conselheiros Substitutos (Auditores) do Tribunal"]
+    GOV --> G3["1 Dentre os Membros do Ministério Público de Contas (MPC-GO)"]
     
-    G2 & G3 --> LT["Lista Tríplice formulada pelo Pleno do TCE-GO<br/>(Alternância entre Antiguidade e Merecimento)"]
+    G2 & G3 --> LT["Lista Tríplice formulada pelo Pleno do TCE-GO<br/>(Alternância obrigatória entre Antiguidade e Merecimento)"]
 ```
 
-#### 3.2 Requisitos Constitucionais para Nomeação de Conselheiro (Art. 27, § 1º da CE/GO):
-1. **Nacionalidade:** Ser brasileiro;
-2. **Idade:** Ter mais de **35 (trinta e cinco) anos** e menos de **70 (setenta) anos** de idade;
-3. **Reputação:** Idoneidade moral e reputação ilibada;
-4. **Qualificação Profissional:** Notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública;
-5. **Experiência Profissional:** Contar mais de **10 (dez) anos de exercício de função** ou de efetiva atividade profissional que exija os conhecimentos acima mencionados.
+- **4 Conselheiros:** De livre escolha, indicação e nomeação da **Assembleia Legislativa do Estado de Goiás (ALEGO)**;
+- **3 Conselheiros:** Nomeados pelo **Governador do Estado**, com prévia aprovação da Assembleia Legislativa após arguição pública (sabatina), sendo:
+  - **1 (um)** de livre escolha do Governador do Estado;
+  - **1 (um)** escolhido alternadamente dentre os **Conselheiros Substitutos (Auditores)** do Tribunal de Contas, indicados em lista tríplice formulada pelo Pleno, segundo critérios alternados de antiguidade e merecimento;
+  - **1 (um)** escolhido alternadamente dentre os membros do **Ministério Público de Contas (MPC-GO)**, indicados em lista tríplice formulada pelo Pleno do Tribunal, também pelos critérios alternados de antiguidade e merecimento.
 
-#### 3.3 Garantias, Prerrogativas e Vedações dos Conselheiros (Art. 28 da CE/GO):
-* Os Conselheiros do TCE-GO gozam das mesmas garantias, prerrogativas, impedimentos, subsídios e vantagens dos **Desembargadores do Tribunal de Justiça do Estado de Goiás (TJ-GO)**:
-  * **Vitaliciedade:** Adquirida na posse (para os indicados políticos) ou após 2 anos de efetivo exercício (para membros de carreira);
-  * **Inamovibilidade:** Não podem ser removidos de suas funções compulsoriamente, salvo por motivo de interesse público fundamentado;
-  * **Irredutibilidade de Subsídio:** Sujeito aos impostos gerais e ao teto constitucional;
-  * **Vedações:** Exercer outro cargo ou função pública (salvo uma de magistério); exercer atividade político-partidária; exercer a advocacia no juízo perante o qual se afastou antes de decorridos 3 anos (*quarentena de saída*).
-
-#### 3.4 Ministério Público de Contas junto ao TCE-GO (Art. 30 da CE/GO):
-* Instituição permanente que oficia em todos os processos perante o Tribunal de Contas;
-* Composto por Procuradores de Contas, chefiados pelo **Procurador-Geral de Contas**;
-* Ingresso obrigatório na carreira mediante **concurso público de provas e títulos**;
-* Seus membros gozam das mesmas garantias, prerrogativas, vedações e subsídios aplicáveis aos membros do **Ministério Público Estadual (MPE-GO)**.
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Lembre-se de dois números fundamentais: o TCE-GO tem **7 Conselheiros** (o TCU tem 9 Ministros). A Assembleia Legislativa escolhe a MAIORIA (**4 Conselheiros**), e o Governador escolhe a minoria (**3 Conselheiros**), sendo que 2 das vagas do Governador são obrigatoriamente vinculadas à lista tríplice de carreiras técnicas (Auditor e Procurador de Contas).
 
 ---
 
-## ⚠️ Alertas de Prova & Pegadinhas da FCC
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A FCC costuma afirmar que o TCE é composto por 9 Conselheiros (confundindo com os 9 Ministros do TCU). **Atenção:** Pelo Art. 75 da CF/88 e pela Constituição de Goiás, os Tribunais de Contas Estaduais são compostos por exatamente **SETE (7) Conselheiros** (4 indicados pelo Legislativo e 3 pelo Executivo).
-
-> ⭐ **IMPORTANTE / PRAZO REGIMENTAL:** O Tribunal de Contas assina prazo para adoção de providências. Se o órgão nada fizer, quem susta o contrato é o Poder Legislativo. O Tribunal de Contas só sustará diretamente se o Legislativo (ou Executivo) for omisso por **90 (noventa) dias** (Art. 71, § 2º da CF/88). Questões de concurso colocam prazos de 30 ou 60 dias para tentar induzir o candidato ao erro!
-
-> 📌 **NOTA EXPLICATIVA / SÚMULA VINCULANTE Nº 3 E TEMA 445 DO STF:** O registro de aposentadoria é ato complexo e dispensa contraditório no Tribunal de Contas, **desde que o processo seja julgado em até 5 anos** da sua entrada no Tribunal. Se ultrapassar 5 anos sem julgamento, o servidor jubilado passa a ter direito subjetivo ao contraditório e à ampla defesa perante o Tribunal de Contas.
+### 3.3 Requisitos Constitucionais para a Investidura de Conselheiro
+O artigo 27, § 1º, da Constituição Estadual elenca de forma taxativa as exigências cumulativas para nomeação como Conselheiro do TCE-GO:
+1. **Nacionalidade:** Ser brasileiro (nato ou naturalizado);
+2. **Idade Mínima e Máxima:** Contar com mais de **35 (trinta e cinco) anos** e menos de **70 (setenta) anos** de idade na data da investidura;
+3. **Moralidade:** Possuir idoneidade moral e reputação ilibada;
+4. **Qualificação Profissional:** Comprovar notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública;
+5. **Experiência Profissional:** Contar com mais de **10 (dez) anos de efetivo exercício de função** ou de atividade profissional que exija os conhecimentos técnicos exigidos.
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
+### 3.4 Estatuto dos Conselheiros: Garantias, Prerrogativas, Vedações e Foro
+O artigo 28 da Carta Estadual estabelece que os Conselheiros do TCE-GO gozam das mesmas garantias, prerrogativas, impedimentos, subsídios e vencimentos atribuídos aos **Desembargadores do Tribunal de Justiça do Estado de Goiás (TJ-GO)**:
+
+- **Garantias da Magistratura:**
+  - **Vitaliciedade:** Adquirida na posse para os indicados políticos oriundos da ALEGO e do Executivo, ou após dois anos de estágio para os membros de carreira técnica. A perda do cargo de Conselheiro só pode ocorrer por sentença judicial transitada em julgado (ou processo de impeachment por crime de responsabilidade);
+  - **Inamovibilidade:** Não podem ser transferidos compulsoriamente de seus cargos, salvo interesse público fundamentado;
+  - **Irredutibilidade de Subsídio:** Remuneração na forma de subsídio mensal, sujeita aos impostos gerais e ao subteto estadual do Poder Judiciário.
+- **Vedações Expressas:** É vedado ao Conselheiro exercer outro cargo ou função pública (ressalvada uma de magistério), dedicar-se a atividade político-partidária ou exercer a advocacia no Tribunal de que se afastou antes de decorridos 3 anos de seu afastamento (quarentena constitucional).
+- **Foro por Prerrogativa de Função:** Nos termos do artigo 105, I, "a", da CF/88, os Conselheiros de Tribunais de Contas Estaduais respondem penalmente, nos crimes comuns e de responsabilidade, originária e diretamente perante o **Superior Tribunal de Justiça (STJ)**.
+
+---
+
+### 3.5 Ministério Público de Contas de Goiás (Art. 30 da CE/GO)
+O Ministério Público de Contas (MPC-GO) atua junto ao TCE-GO como órgão permanente de fiscalização da lei:
+- É chefiado pelo **Procurador-Geral de Contas**, nomeado pelo Governador do Estado a partir de lista tríplice eleita pelos integrantes da carreira para mandato com prazo legalmente fixado.
+- O ingresso na carreira dá-se obrigatoriamente mediante **concurso público de provas e títulos**.
+- Seus membros gozam das mesmas garantias, prerrogativas, vedações e subsídios conferidos aos membros do **Ministério Público Estadual (MPE-GO)**.
+
+---
+
+### 3.6 Competências Específicas na Carta Estadual e Prazos Regimentais
+Além das atribuições comuns simétricas ao art. 71 da CF, destacam-se prazos e funções expressas na CE/GO (Arts. 26 a 33):
+- **Parecer Prévio do Governador:** O Tribunal emitirá parecer prévio sobre as contas prestadas anualmente pelo Governador do Estado no prazo de **60 (sessenta) dias** a contar do seu recebimento.
+- **Representação e Fiscalização de Ofício:** Realização de auditorias financeiras, orçamentárias e operacionais por iniciativa própria da Corte ou por solicitação expressa da Assembleia Legislativa.
+- **Consulta:** O TCE-GO tem competência para responder a consultas formuladas por autoridades competentes sobre matérias de sua alçada, tendo a resposta caráter normativo e constituindo prejulgamento da tese, mas não do fato concreto.
+
+---
+
+## 4. Fontes Oficiais e Referências Bibliográficas
 
 * [Constituição da República Federativa do Brasil de 1988 (Planalto)](http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) - Arts. 37 a 41 (Da Administração Pública) e Arts. 70 a 75 (Da Fiscalização Contábil, Financeira e Orçamentária).
 * [Constituição do Estado de Goiás de 1989 (Legisla Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/83300/constituicao-estadual) - Arts. 26 a 33 (Do Tribunal de Contas do Estado).
-* [Supremo Tribunal Federal - Súmula Vinculante nº 3](https://portal.stf.jus.br) - Contraditório e ampla defesa em processos de concessão inicial perante os Tribunais de Contas.
-* [Supremo Tribunal Federal - Tema 899 de Repercussão Geral (RE 636.886)](https://portal.stf.jus.br) - Prescritibilidade da pretensão de ressarcimento fundada em decisões de Tribunal de Contas.
-* [Supremo Tribunal Federal - Tema 940 de Repercussão Geral (RE 1.027.633)](https://portal.stf.jus.br) - Ação de responsabilidade civil contra o Estado e vedação de ação direta em desfavor do servidor.
+* [Supremo Tribunal Federal - Súmula Vinculante nº 3](https://portal.stf.jus.br) - Contraditório e ampla defesa em processos perante os Tribunais de Contas.
+* [Supremo Tribunal Federal - Tema 161 de Repercussão Geral (RE 598.099)](https://portal.stf.jus.br) - Direito subjetivo à nomeação de candidato aprovado dentro do número de vagas.
+* [Supremo Tribunal Federal - Tema 445 de Repercussão Geral (RE 636.553)](https://portal.stf.jus.br) - Prazo decadencial de 5 anos para registro inicial de aposentadorias perante o Tribunal de Contas.
+* [Supremo Tribunal Federal - Tema 899 de Repercussão Geral (RE 636.886)](https://portal.stf.jus.br) - Prescritibilidade da pretensão de ressarcimento ao erário fundada em decisões de Tribunal de Contas.
+* [Supremo Tribunal Federal - Tema 940 de Repercussão Geral (RE 1.027.633)](https://portal.stf.jus.br) - Responsabilidade civil objetiva do Estado e vedação de ação direta contra agente público.
 
 ---
 
-## 📝 Questões de Concurso FCC Comentadas
+## 5. Questões de Concurso FCC Comentadas
 
 ### Questão 01
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A respeito das normas constitucionais federais aplicáveis ao sistema de fiscalização contábil, financeira e orçamentária e da jurisprudência consolidada do Supremo Tribunal Federal, assinale a opção correta:
 
-* **A)** A competência para julgar as contas prestadas anualmente pelo Governador de Estado pertence ao respectivo Tribunal de Contas, o qual profere julgamento definitivo imune à revisão judicial de mérito.
-* **B)** A decisão do Tribunal de Contas que imputa débito ou comina penalidade de multa a ordenador de despesas ostenta eficácia de título executivo extrajudicial, cabendo à Procuradoria do próprio Tribunal de Contas promover a respectiva execução judicial.
-* **C)** No caso de contrato administrativo eivado de ilegalidade insanável, o Tribunal de Contas comunicará o fato ao Poder Legislativo para que este adote o ato de sustação; todavia, caso o Legislativo ou o Executivo não adotem a medida no prazo de 90 dias, o próprio Tribunal de Contas decidirá a respeito da sustação do contrato.
-* **D)** O sistema de controle interno de cada Poder tem competência constitucional para emitir o parecer prévio sobre as contas do Chefe do Executivo, cabendo ao Tribunal de Contas apenas a homologação revisional.
-* **E)** As decisões dos Tribunais de Contas que resultam em imputação de débito ao agente público para reparação de dano ao erário são impassíveis de prescrição, consoante o princípio da imprescritibilidade geral da dívida ativa pública.
+* A) A competência para julgar as contas prestadas anualmente pelo Governador de Estado pertence ao respectivo Tribunal de Contas, o qual profere julgamento definitivo imune à revisão judicial de mérito.
+* B) A decisão do Tribunal de Contas que imputa débito ou comina penalidade de multa a ordenador de despesas ostenta eficácia de título executivo extrajudicial, cabendo à Procuradoria do próprio Tribunal de Contas promover a respectiva execução judicial.
+* C) No caso de contrato administrativo eivado de ilegalidade insanável, o Tribunal de Contas comunicará o fato ao Poder Legislativo para que este adote o ato de sustação; todavia, caso o Legislativo ou o Executivo não adotem a medida no prazo de 90 dias, o próprio Tribunal de Contas decidirá a respeito da sustação do contrato.
+* D) O sistema de controle interno de cada Poder tem competência constitucional para emitir o parecer prévio sobre as contas do Chefe do Executivo, cabendo ao Tribunal de Contas apenas a homologação revisional.
+* E) As decisões dos Tribunais de Contas que resultam em imputação de débito ao agente público para reparação de dano ao erário são impassíveis de prescrição, consoante o princípio da imprescritibilidade geral da dívida ativa pública.
 
-> **Gabarito: C**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** O Tribunal de Contas emite apenas **Parecer Prévio** (opinativo) sobre as contas do Governador (Art. 71, I da CF). Quem julga essas contas é a **Assembleia Legislativa** (Art. 75 c/c Art. 49, IX da CF).  
-> - **B) Incorreta.** A decisão possui de fato eficácia de título executivo **extrajudicial** (Art. 71, § 3º), mas quem detém personalidade e legitimidade para ajuizar a execução judicial é a **Fazenda Pública lesada (PGE)**, e não o Tribunal de Contas.  
-> - **C) CORRETA.** Trata-se da regra literal do art. 71, § 1º e § 2º da CF/88: no caso de contrato, a sustação compete ao Poder Legislativo; se este ou o Poder Executivo não adotarem as medidas cabíveis no prazo de **90 dias**, o próprio Tribunal de Contas decidirá a respeito da sustação.  
-> - **D) Incorreta.** O parecer prévio sobre as contas do Chefe do Executivo é competência privativa do Tribunal de Contas perante o Poder Legislativo. O controle interno apoia o controle externo, mas não elabora o parecer prévio constitucional.  
-> - **E) Incorreta.** O STF fixou a tese vinculante no **Tema 899** estabelecendo expressamente que a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas é **prescritível** no prazo quinquenal (5 anos).
+> **Comentário Detalhado:**
+> - **A) Incorreta.** O Tribunal de Contas não julga as contas prestadas anualmente pelo Governador do Estado; ele emite exclusivamente **Parecer Prévio** (opinativo) no prazo de 60 dias (Art. 71, I da CF). O julgamento definitivo e político dessas contas compete à **Assembleia Legislativa** (Art. 75 c/c Art. 49, IX da CF).
+> - **B) Incorreta.** A decisão do Tribunal de Contas ostenta, de fato, eficácia de título executivo extrajudicial (Art. 71, § 3º da CF), mas o Tribunal de Contas não é pessoa jurídica e não tem procuradoria contenciosa para ajuizar execução fiscal. A legitimidade para a cobrança judicial é da **Fazenda Pública titular do crédito** (a PGE no caso do Estado).
+> - **C) CORRETA.** Aplicação literal do art. 71, § 1º e § 2º da CF/88: no caso de contrato administrativo irregular, a competência primária para sustação é do Poder Legislativo. Todavia, se o Poder Legislativo ou o Poder Executivo, no prazo de **90 (noventa) dias**, não efetivar as medidas de sustação cabíveis, o próprio Tribunal de Contas decidirá a respeito da sustação.
+> - **D) Incorreta.** O parecer prévio sobre as contas de governo é atribuição indelegável do Tribunal de Contas perante o Poder Legislativo. O sistema de controle interno apoia o controle externo, mas não detém competência para emitir o parecer prévio constitucional.
+> - **E) Incorreta.** O Plenário do STF, ao fixar tese no **Tema 899 de Repercussão Geral (RE 636.886)**, pacificou que é **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, incidindo o prazo prescricional quinquenal (5 anos).
+> 
+> **Gabarito: C**
 
 ---
 
@@ -278,19 +345,20 @@ A respeito das normas constitucionais federais aplicáveis ao sistema de fiscali
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Segundo as normas da Constituição do Estado de Goiás que disciplinam a organização e o funcionamento do Tribunal de Contas do Estado de Goiás (TCE-GO), a escolha e a nomeação de seus Conselheiros submetem-se ao seguinte regramento:
 
-* **A)** Cinco Conselheiros são indicados e nomeados pela Assembleia Legislativa e dois pelo Governador do Estado com aprovação prévia do Tribunal de Justiça.
-* **B)** Quatro Conselheiros são indicados pela Assembleia Legislativa e três pelo Governador do Estado, com prévia aprovação legislativa, devendo dois destes últimos recair necessariamente sobre membros de carreira técnica (um Conselheiro Substituto e um membro do MPC-GO).
-* **C)** Todos os sete Conselheiros são livremente nomeados pelo Governador do Estado, cabendo à Assembleia Legislativa a fixação prévia de lista sêxtupla representativa.
-* **D)** O Tribunal é composto por nove Conselheiros vitalícios, exigindo-se idade mínima de trinta anos e formação privativa em Ciências Contábeis ou Econômicas.
-* **E)** A vaga destinada aos membros do Ministério Público de Contas prescinde de lista tríplice, sendo o candidato nomeado por antiguidade absoluta apurada na carreira.
+* A) Cinco Conselheiros são indicados e nomeados pela Assembleia Legislativa e dois pelo Governador do Estado com aprovação prévia do Tribunal de Justiça.
+* B) Quatro Conselheiros são indicados pela Assembleia Legislativa e três pelo Governador do Estado, com prévia aprovação legislativa, devendo dois destes últimos recair necessariamente sobre membros de carreira técnica (um Conselheiro Substituto e um membro do MPC-GO).
+* C) Todos os sete Conselheiros são livremente nomeados pelo Governador do Estado, cabendo à Assembleia Legislativa a fixação prévia de lista sêxtupla representativa.
+* D) O Tribunal é composto por nove Conselheiros vitalícios, exigindo-se idade mínima de trinta anos e formação privativa em Ciências Contábeis ou Econômicas.
+* E) A vaga destinada aos membros do Ministério Público de Contas prescinde de lista tríplice, sendo o candidato nomeado por antiguidade absoluta apurada na carreira.
 
-> **Gabarito: B**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** São 4 indicados pela ALEGO e 3 pelo Governador, e a sabatina é da ALEGO (não do TJ).  
-> - **B) CORRETA.** Nos termos do art. 27 da Constituição do Estado de Goiás (em perfeita simetria com o art. 73, § 2º e art. 75 da CF/88): o TCE-GO compõe-se de **7 Conselheiros**, sendo **quatro indicados pela Assembleia Legislativa** e **três pelo Governador do Estado**, aprovados pela ALEGO, sendo um de sua livre escolha e **dois alternadamente entre Conselheiros Substitutos (Auditores) e membros do Ministério Público de Contas (MPC-GO)**, indicados em lista tríplice pelo Tribunal Pleno segundo os critérios de antiguidade e merecimento.  
-> - **C) Incorreta.** A maioria (4 Conselheiros) é indicada pelo Poder Legislativo.  
-> - **D) Incorreta.** O TCE-GO possui 7 Conselheiros (e não 9) e a idade mínima exigida é de **35 anos** (e máxima de 70 anos incompletos).  
-> - **E) Incorreta.** A indicação dá-se compulsoriamente mediante lista tríplice elaborada pelo Pleno do TCE-GO, alternando-se antiguidade e merecimento.
+> **Comentário Detalhado:**
+> - **A) Incorreta.** A proporção constitucional no TCE-GO é de 4 Conselheiros pela ALEGO e 3 pelo Governador do Estado, cabendo à própria Assembleia Legislativa aprovar os indicados do Governador em sabatina (o Tribunal de Justiça não participa da escolha).
+> - **B) CORRETA.** Nos termos do artigo 27 da CE/GO (em simetria compulsória com o art. 73, § 2º e art. 75 da CF/88): o TCE-GO compõe-se de **7 Conselheiros**, sendo **quatro indicados e nomeados pela ALEGO** e **três nomeados pelo Governador do Estado** após aprovação legislativa, sendo 1 de sua livre escolha e **2 obrigatoriamente vinculados às carreiras técnicas** (um Conselheiro Substituto Auditor e um Procurador de Contas do MPC-GO), indicados em lista tríplice formulada pelo Pleno alternando antiguidade e merecimento.
+> - **C) Incorreta.** O Governador do Estado não nomeia todos os membros livremente; a maioria absoluta (4 membros) é escolhida pelo Poder Legislativo, e 2 das suas 3 vagas vinculam-se a listas tríplices de carreiras técnicas.
+> - **D) Incorreta.** O TCE-GO possui exatamente 7 Conselheiros (Tribunais de Contas Estaduais possuem 7 membros, enquanto o TCU possui 9 Ministros). A idade exigida é de mais de 35 anos e menos de 70 anos.
+> - **E) Incorreta.** A nomeação de membro do MPC-GO exige a formação de lista tríplice elaborada pelo Pleno do Tribunal de Contas, alternando-se critérios de antiguidade e merecimento.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -298,19 +366,20 @@ Segundo as normas da Constituição do Estado de Goiás que disciplinam a organi
 **(FCC – DPE-RS – Analista Jurídico)**  
 A respeito das garantias constitucionais da magistratura atribuídas aos membros dos Tribunais de Contas pela Constituição da República de 1988 e reproduzidas nas Constituições Estaduais, os Conselheiros gozam de:
 
-* **A)** Estabilidade simples após aprovação em estágio probatório de três anos, sendo equiparados aos Procuradores de Estado.
-* **B)** Vitaliciedade, inamovibilidade e irredutibilidade de subsídio, tendo os mesmos impedimentos, prerrogativas e vencimentos dos Desembargadores do Tribunal de Justiça.
-* **C)** Inamovibilidade relativa, podendo ser livremente exonerados *ad nutum* mediante decreto do Chefe do Poder Executivo em caso de rejeição de contas públicas.
-* **D)** Foro por prerrogativa de função perante a Assembleia Legislativa para o julgamento de crimes comuns e de responsabilidade.
-* **E)** Mandato com prazo determinado de quatro anos, permitida uma única recondução consecutiva por deliberação do Colégio de Líderes parlamentares.
+* A) Estabilidade simples após aprovação em estágio probatório de três anos, sendo equiparados aos Procuradores de Estado.
+* B) Vitaliciedade, inamovibilidade e irredutibilidade de subsídio, tendo os mesmos impedimentos, prerrogativas e vencimentos dos Desembargadores do Tribunal de Justiça.
+* C) Inamovibilidade relativa, podendo ser livremente exonerados *ad nutum* mediante decreto do Chefe do Poder Executivo em caso de rejeição de contas públicas.
+* D) Foro por prerrogativa de função perante a Assembleia Legislativa para o julgamento de crimes comuns e de responsabilidade.
+* E) Mandato com prazo determinado de quatro anos, permitida uma única recondução consecutiva por deliberação do Colégio de Líderes parlamentares.
 
-> **Gabarito: B**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** Conselheiros gozam de vitaliciedade (garantia da magistratura), e não de mera estabilidade estatutária.  
-> - **B) CORRETA.** Pelo art. 73, § 3º c/c art. 75 da CF/88 e art. 28 da Constituição do Estado de Goiás, os Conselheiros do Tribunal de Contas do Estado têm as mesmas garantias (**vitaliciedade, inamovibilidade e irredutibilidade de subsídio**), prerrogativas, impedimentos, vencimentos e vantagens dos **Desembargadores do Tribunal de Justiça**.  
-> - **C) Incorreta.** É inadmissível exoneração *ad nutum* de membro vitalício; a perda do cargo de Conselheiro só ocorre por sentença judicial transitada em julgado (ou processo de impeachment no Senado/Assembleia por crime de responsabilidade).  
-> - **D) Incorreta.** Conselheiros de Tribunais de Contas Estaduais possuem foro por prerrogativa de função perante o **Superior Tribunal de Justiça (STJ)** para crimes comuns e de responsabilidade (Art. 105, I, "a" da CF/88).  
-> - **E) Incorreta.** O cargo de Conselheiro é de investidura vitalícia, e não de mandato com prazo fixo.
+> **Comentário Detalhado:**
+> - **A) Incorreta.** Os Conselheiros de Tribunais de Contas gozam de garantias da magistratura, incluindo a vitaliciedade, não se submetendo a mero regime estatutário de estabilidade simples.
+> - **B) CORRETA.** Em observância ao art. 73, § 3º c/c art. 75 da CF/88 e art. 28 da Carta Estadual de Goiás, os Conselheiros do Tribunal de Contas do Estado têm as mesmas garantias (**vitaliciedade, inamovibilidade e irredutibilidade de subsídio**), prerrogativas, impedimentos, subsídios e vantagens conferidos aos **Desembargadores do Tribunal de Justiça do Estado de Goiás**.
+> - **C) Incorreta.** Membros vitalícios não podem ser exonerados discricionariamente ou *ad nutum* pelo Poder Executivo; a perda do cargo só ocorre mediante processo judicial transitado em julgado ou impeachment.
+> - **D) Incorreta.** Por determinação expressa do art. 105, I, "a", da CF/88, os Conselheiros dos Tribunais de Contas Estaduais respondem em foro por prerrogativa de função perante o **Superior Tribunal de Justiça (STJ)** nos crimes comuns e de responsabilidade.
+> - **E) Incorreta.** O cargo de Conselheiro de Tribunal de Contas é vitalício, inexistindo fixação de mandato temporal de quatro anos ou sistema de recondução política.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -323,17 +392,18 @@ II. O direito de regresso da Administração Pública contra o servidor público
 III. O teto remuneratório constitucional aplica-se ao somatório das remunerações nas hipóteses de acumulação lícita de cargos públicos, devendo o excedente ser retido pelo ente pagador.  
 
 Está correto o que se afirma APENAS em:
-* **A)** I.
-* **B)** II.
-* **C)** III.
-* **D)** I e II.
-* **E)** II e III.
+* A) I.
+* B) II.
+* C) III.
+* D) I e II.
+* E) II e III.
 
-> **Gabarito: B**  
-> **Comentário Detalhado:**  
-> - **Item I Incorreto:** A Constituição prevê **quatro hipóteses** de perda do cargo pelo estável (Art. 41, § 1º e Art. 169, § 4º): 1) sentença judicial transitada em julgado; 2) PAD com ampla defesa; 3) procedimento de avaliação periódica de desempenho (lei complementar); e 4) excesso de despesa com pessoal da LRF. A assertiva peca ao dizer que "inexiste qualquer outra hipótese".  
-> - **Item II CORRETO.** O Art. 37, § 6º da CF/88 define que o Estado responde objetivamente perante o administrado, mas o direito de regresso contra o responsável subordina-se à demonstração de **dolo ou culpa** (responsabilidade subjetiva).  
-> - **Item III Incorreto.** O STF fixou tese em repercussão geral (**Temas 377 e 384**) de que, havendo acumulação legítima de cargos públicos, o teto constitucional incide sobre a remuneração de **cada cargo isoladamente considerado**, e não sobre a soma dos vencimentos.
+> **Comentário Detalhado:**
+> - **Item I Incorreto:** A Constituição da República prevê **quatro hipóteses expressas** de perda de cargo pelo servidor público estável (Art. 41, § 1º e Art. 169, § 4º): 1) sentença judicial transitada em julgado; 2) PAD assegurada ampla defesa; 3) avaliação periódica de desempenho regulada por lei complementar; e 4) excesso de despesas com pessoal. A assertiva incorre em erro grosseiro ao declarar que "inexiste qualquer outra hipótese".
+> - **Item II CORRETO.** O artigo 37, § 6º, da CF/88 estabelece que o Estado responde perante terceiros de forma objetiva (risco administrativo), assegurado o direito de regresso contra o agente público responsável nos casos de **dolo ou culpa** (responsabilidade subjetiva).
+> - **Item III Incorreto.** O STF julgou os **Temas 377 e 384 de Repercussão Geral**, fixando a tese de que, nos casos autorizados de acumulação de cargos públicos, a incidência do teto constitucional de remuneração opera-se em relação à remuneração de **cada cargo isoladamente**, sendo inconstitucional a retenção baseada no somatório de proventos.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -341,16 +411,17 @@ Está correto o que se afirma APENAS em:
 **(FCC – TCE-AP – Técnico de Controle Externo)**  
 Nos termos do artigo 74 da Constituição Federal de 1988, os responsáveis pelo sistema de controle interno integrado dos Poderes Executivo, Legislativo e Judiciário têm a obrigação constitucional de:
 
-* **A)** Homologar judicialmente as decisões condenatórias exaradas pelo Tribunal de Contas no prazo improrrogável de quinze dias.
-* **B)** Assinar prazo para anulação de leis estaduais que contrariem as metas fiscais da Lei de Diretrizes Orçamentárias.
-* **C)** Dar ciência imediata ao Tribunal de Contas de qualquer irregularidade ou ilegalidade de que tomarem conhecimento na gestão pública, sob pena de responsabilidade solidária.
-* **D)** Substituir o Tribunal de Contas no julgamento das contas anuais dos secretários de Estado e dirigentes autárquicos.
-* **E)** Exercer privativamente a representação judicial dos Conselheiros do Tribunal de Contas perante os órgãos de cúpula do Poder Judiciário.
+* A) Homologar judicialmente as decisões condenatórias exaradas pelo Tribunal de Contas no prazo improrrogável de quinze dias.
+* B) Assinar prazo para anulação de leis estaduais que contrariem as metas fiscais da Lei de Diretrizes Orçamentárias.
+* C) Dar ciência imediata ao Tribunal de Contas de qualquer irregularidade ou ilegalidade de que tomarem conhecimento na gestão pública, sob pena de responsabilidade solidária.
+* D) Substituir o Tribunal de Contas no julgamento das contas anuais dos secretários de Estado e dirigentes autárquicos.
+* E) Exercer privativamente a representação judicial dos Conselheiros do Tribunal de Contas perante os órgãos de cúpula do Poder Judiciário.
 
-> **Gabarito: C**  
-> **Comentário Detalhado:**  
-> - **A) Incorreta.** Decisões de TC não dependem de homologação de controle interno; são títulos executivos extrajudiciais constitucionais plenos.  
-> - **B) Incorreta.** O controle interno não assina prazo para anular leis; controle de constitucionalidade é do Judiciário.  
-> - **C) CORRETA.** O art. 74, § 1º da CF/88 estabelece de forma categórica: *"Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas da União, sob pena de responsabilidade solidária"*.  
-> - **D) Incorreta.** O julgamento técnico das contas de gestão é competência privativa indelegável do Tribunal de Contas (Art. 71, II da CF).  
-> - **E) Incorreta.** O controle interno não exerce representação judicial contenciosa.
+> **Comentário Detalhado:**
+> - **A) Incorreta.** Decisões de Tribunais de Contas que imputam débito ou multa possuem eficácia imediata de título executivo extrajudicial por mandamento constitucional (Art. 71, § 3º), dispensando qualquer homologação de controle interno ou judicial prévia.
+> - **B) Incorreta.** O controle de constitucionalidade de leis é atribuição privativa do Poder Judiciário; os órgãos de controle interno não detêm competência para assinar prazos com vistas à anulação de leis.
+> - **C) CORRETA.** O artigo 74, § 1º, da CF/88 prescreve categoricamente: *"Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas da União [e do Estado por simetria], sob pena de responsabilidade solidária"*.
+> - **D) Incorreta.** O julgamento de contas de gestão de secretários e ordenadores de despesas constitui competência técnica privativa do próprio Tribunal de Contas (Art. 71, II da CF).
+> - **E) Incorreta.** O controle interno não exerce representação judicial contenciosa de Conselheiros, atuando estritamente na fiscalização administrativa e operacional.
+> 
+> **Gabarito: C**

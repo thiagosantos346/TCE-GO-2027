@@ -33,41 +33,14 @@
 
 ---
 
-## 🌳 Classificação Hierárquica
-
-```text
-2. ORT, Eficiência vs. Eficácia, Dinâmica Organizacional e Ambientes
-├── 2.1 A Organização Racional do Trabalho (ORT - Taylorismo)
-│   ├── 2.1.1 Análise do Trabalho e Estudo dos Tempos e Movimentos (Therbligs)
-│   ├── 2.1.2 Estudo da Fadiga Humana: Ergonomia embrionária e eliminação de movimentos inúteis
-│   ├── 2.1.3 Divisão do Trabalho e Especialização do Operário: Linha seriada de produção
-│   ├── 2.1.4 Desenho de Cargos e Tarefas: Tarefas elementares, repetitivas e rápida qualificação
-│   ├── 2.1.5 Incentivos Salariais e Remuneração por Produção: Postulado do Homo Economicus
-│   ├── 2.1.6 Padronização: A única melhor maneira (The one best way) de fazer o trabalho
-│   └── 2.1.7 Supervisão Funcional: Separação de autoridade por especialidade técnica
-├── 2.2 Eficiência, Eficácia e Efetividade Organizacional
-│   ├── 2.2.1 Eficiência: Foco nos MEIOS, insumos e custos. Fazer certo as coisas (menor desperdício)
-│   ├── 2.2.2 Eficácia: Foco nos FINS e resultados. Fazer as coisas certas (alcance das metas planejadas)
-│   └── 2.2.3 Efetividade: Foco no IMPACTO social e transformação da realidade do cidadão
-├── 2.3 Dinâmica das Organizações Formais e Informais
-│   ├── 2.3.1 Organização Formal:
-│   │   ├── Planejada pela cúpula institucional e retratada no organograma regimental
-│   │   └── Cadeia formal de comando, regulamentos internos e linhas oficiais de comunicação
-│   └── 2.3.2 Organização Informal:
-│       ├── Rede de relacionamentos interpessoais espontâneos não previstos formalmente
-│       ├── Grupos de interesse, laços de amizade e camaradagem
-│       ├── Liderança Informal (baseada no carisma e na confiança, sem cargo oficial)
-│       └── Canais Informais de Comunicação (Rádio-peão / Grapevine)
-├── 2.4 Centralização, Descentralização e o Processo de Delegação
-│   ├── 2.4.1 Centralização Decisória: Concentração do poder decisório no ápice da hierarquia
-│   ├── 2.4.2 Descentralização Decisória: Dispersão do poder decisório para os níveis operacionais
-│   └── 2.4.3 Regra Áurea da Delegação:
-│       ├── Delega-se a AUTORIDADE e a execução da tarefa ao subordinado
-│       └── A RESPONSABILIDADE pelo resultado perante a cúpula permanece INDELEGÁVEL
-└── 2.5 Ambientes Organizacionais: Macroambiente vs. Microambiente
-    ├── 2.5.1 Ambiente Geral / Macroambiente: Forças genéricas comuns (Análise PESTEL)
-    └── 2.5.2 Ambiente de Tarefa / Operacional: O nicho de atuação direta (cidadãos, fornecedores e controle)
-```
+## 🧭 Sumário Interativo
+- [1. Os Nove Pilares da Organização Racional do Trabalho (ORT)](#1-os-nove-pilares-da-organização-racional-do-trabalho-ort)
+- [2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade](#2-dicotomia-conceitual-eficiência-vs-eficácia-vs-efetividade)
+- [3. Dinâmica das Organizações Formais e Informais](#3-dinâmica-das-organizações-formais-e-informais)
+- [4. Centralização vs. Descentralização e a Regra Áurea da Delegação](#4-centralização-vs-descentralização-e-a-regra-áurea-da-delegação)
+- [5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)](#5-ambientes-organizacionais-ambiente-geral-macro-vs-ambiente-de-tarefa-micro)
+- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referências-bibliográficas)
+- [7. Questões de Concurso FCC Comentadas](#7-questões-de-concurso-fcc-comentadas)
 
 ---
 
@@ -75,117 +48,139 @@
 
 ### 1. Os Nove Pilares da Organização Racional do Trabalho (ORT)
 
-Frederick W. Taylor desenvolveu a ORT no início do século XX com a missão de substituir o empirismo rudimentar dos operários pela sistematização científica do trabalho:
+Frederick W. Taylor desenvolveu a Organização Racional do Trabalho (ORT) no início do século XX com a missão precípua de substituir o empirismo rudimentar e a improvisação dos operários por métodos científicos e matematicamente padronizados:
 
 ```mermaid
 flowchart TD
     ORT["Os 9 Pilares da ORT de Taylor"]
     
     ORT --> P1["1. Estudo dos Tempos e Movimentos<br/>(Cronometragem e tempo-padrão)"]
-    ORT --> P2["2. Estudo da Fadiga Humana<br/>(Ergonomia básica e pausas)"]
-    ORT --> P3["3. Divisão do Trabalho e Especialização<br/>(Operário focado em microtarefas)"]
+    ORT --> P2["2. Estudo da Fadiga Humana<br/>(Ergonomia embrionária e pausas)"]
+    ORT --> P3["3. Divisão do Trabalho e Especialização<br/>(Operário restrito a microtarefas)"]
     ORT --> P4["4. Desenho de Cargos Simples<br/>(Rotinas fáceis de treinar)"]
     ORT --> P5["5. Incentivos Salariais por Peça<br/>(Prêmios de produtividade fabril)"]
     ORT --> P6["6. Conceito de Homo Economicus<br/>(Motivado pelo ganho monetário)"]
-    ORT --> P7["7. Condições Físicas de Trabalho<br/>(Iluminação, ferramentas adequadas)"]
+    ORT --> P7["7. Condições Físicas de Trabalho<br/>(Iluminação, ventilação e conforto)"]
     ORT --> P8["8. Padronização de Métodos<br/>(The one best way)"]
     ORT --> P9["9. Supervisão Funcional<br/>(Chefes múltiplos especialistas)"]
 ```
 
-#### Detalhamento dos Componentes da ORT:
-* **Estudo dos Tempos e Movimentos:** Decomposição de cada tarefa em movimentos corporais elementares (*therbligs*, conceito introduzido pelo casal Gilbreth) para eliminar movimentos inúteis e fixar o tempo-padrão de execução.
-* **Homo Economicus:** Concepção antropológica de que o ser humano é indolente por natureza e busca unicamente o ganho financeiro individual, sendo estimulado a produzir mais pelo pagamento por peça produzida.
-* **Supervisão Funcional:** Taylor refutou a chefia militar centralizada e propôs que cada operário tivesse múltiplos supervisores, cada qual especialista em um aspecto específico do trabalho (ex.: velocidade da máquina, manutenção, controle de qualidade, instruções de abastecimento).
+#### Detalhamento Teórico dos Componentes da ORT:
+1. **Análise do Trabalho e Estudo dos Tempos e Movimentos:** Decomposição analítica de cada operação em micromovimentos elementares (*therbligs*, introduzidos por Frank e Lillian Gilbreth), cronometrando o tempo exato para eliminar movimentos inúteis e estabelecer o tempo-padrão de execução.
+2. **Estudo da Fadiga Humana:** A fadiga reduz o rendimento muscular e eleva o índice de acidentes e doenças; a ORT propôs a calibragem de intervalos regulares de descanso, economia de esforços musculares e adequação ergonômica de instrumentos de trabalho.
+3. **Divisão do Trabalho e Especialização do Operário:** Confinamento do trabalhador à repetição estrita de uma única tarefa ultraespecífica no chão de fábrica, elevando a destreza mecânica.
+4. **Desenho de Cargos e Tarefas Simples:** Estruturação de posições que prescindem de qualificação prévia profunda, barateando a mão de obra e viabilizando o treinamento relâmpago de novos operadores.
+5. **Incentivos Salariais e Prêmios de Produção:** Sistema remuneratório em que o trabalhador recebe um valor fixo por peça que exceder a meta padrão calculada pelo estudo de tempos.
+6. **Conceito de Homo Economicus:** Axioma segundo o qual o operário é um ser naturalmente indolente e calculista, que trabalha unicamente motivado pelo estímulo financeiro e medo da fome.
+7. **Condições Ambientais de Trabalho:** Reconhecimento científico pioneiro de que iluminação inadequada, ruído excessivo, má ventilação e calor degradam a eficiência física do corpo humano.
+8. **Padronização de Métodos e Ferramentas:** Busca pela "única melhor maneira" (*the one best way*) de desempenhar cada rotina produtiva, padronizando uniformemente maquinários, materiais e movimentos.
+9. **Supervisão Funcional:** Substituição da chefia linear tradicional por diversos supervisores simultâneos, cabendo a cada qual instruir o operário em sua respectiva área de especialidade técnica.
+
+> 🛑 **ATENÇÃO (ORT E A CONCEPÇÃO DO TRABALHADOR):**  
+> Lembre-se sempre de que Taylor fundamentava toda a sua ORT no conceito do **Homo Economicus** (o ser humano é preguiçoso e reage exclusivamente a incentivos salariais monetários). Se a questão de concurso FCC afirmar que Taylor valorizou a autorrealização, o clima afetivo grupal ou a autonomia criativa, o item está flagrantemente incorreto!
 
 ---
 
-### 2. A Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade
+### 2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade
 
-A distinção entre eficiência e eficácia, magistralmente sintetizada por Peter Drucker e Chester Barnard, é um dos temas mais recorrentes nos concursos da FCC:
+A distinção conceitual entre eficiência e eficácia, magistralmente consolidada por teóricos como Peter Drucker e Chester Barnard, aliada à dimensão moderna da efetividade, figura entre os temas mais cobrados pela FCC:
 
 $$\mathbf{\text{Eficiência} = \text{"Fazer certo as coisas"} \quad (\textit{Doing things right})}$$
 $$\mathbf{\text{Eficácia} = \text{"Fazer as coisas certas"} \quad (\textit{Doing the right things})}$$
+$$\mathbf{\text{Efetividade} = \text{"Produzir impacto transformador real e sustentável"}}$$
 
 ```mermaid
 flowchart LR
-    Recursos["Recursos / Insumos<br/>(Custos, tempo, pessoas)"] -->|EFICIÊNCIA<br/>(Foco nos Meios)| Processo["Processamento / Métodos<br/>(Fazer certo as coisas)"]
-    Processo -->|EFICÁCIA<br/>(Foco nos Fins)| Metas["Resultados / Metas<br/>(Fazer as coisas certas)"]
-    Metas -->|EFETIVIDADE<br/>(Foco no Impacto)| Impacto["Impacto Social<br/>(Transformação duradoura)"]
+    Recursos["Recursos / Insumos<br/>(Custos, tempo, pessoas, materiais)"] -->|EFICIÊNCIA<br/>(Foco nos Meios / Relação Insumo-Produto)| Processo["Processamento e Métodos<br/>(Fazer certo as coisas)"]
+    Processo -->|EFICÁCIA<br/>(Foco nos Fins / Metas)| Metas["Resultados e Metas Atingidas<br/>(Fazer as coisas certas)"]
+    Metas -->|EFETIVIDADE<br/>(Foco no Impacto Social)| Impacto["Transformação Real da Sociedade<br/>(Valor público sustentável)"]
 ```
 
 #### Tabela Comparativa Analítica:
 
 | Dimensão | Eficiência | Eficácia | Efetividade |
 | :--- | :--- | :--- | :--- |
-| **Foco Estratégico** | **Nos Meios** (métodos, tempo, custos e recursos). | **Nos Fins** (metas atingidas, objetivos entregues). | **No Impacto** (transformação duradoura da realidade). |
-| **Pergunta-Chave** | *Como* estamos fazendo? Há economia de recursos? | *O que* estamos entregando? Atingimos a meta planejada? | *Qual* benefício social real foi gerado para o cidadão? |
-| **Exemplo no Setor Público** | Reduzir o custo de papel e impressoras ao digitalizar processos no TCE-GO. | Concluir 1.000 auditorias orçamentárias dentro do cronograma do exercício. | Reduzir a corrupção e recuperar recursos públicos desviados para a saúde. |
+| **Foco Estratégico** | **Nos Meios** (métodos, custos, tempo e otimização de insumos). | **Nos Fins** (metas concretas atingidas, objetivos entregues). | **No Impacto** (transformação duradoura na vida do cidadão). |
+| **Pergunta-Chave** | *Como* estamos fazendo? Há economia de insumos e celeridade? | *O que* foi entregue? A meta quantitativa foi cumprida? | *Qual* alteração real de bem-estar social ocorreu na sociedade? |
+| **Exemplo no TCE-GO** | Reduzir custos com papel e viagens ao realizar auditorias virtuais de TI. | Emitir 500 pareceres prévios sobre contas municipais no exercício. | Inibir fraudes e garantir que o dinheiro chegue aos postos de saúde de Goiás. |
 
-> 💡 **DICA DE ESTUDO (A EQUAÇÃO DO SUCESSO):**  
-> - **Eficiente e Ineficaz:** O setor público gasta pouquíssimo dinheiro e analisa processos com extrema rapidez, mas analisa processos errados ou omite irregularidades graves.  
-> - **Ineficiente e Eficaz:** O órgão atinge a meta de construir a escola, mas estoura o orçamento em 200% e desperdiça materiais.  
-> - **Efetivo:** O órgão constrói a escola no prazo e custo adequados, e as crianças da região passam a ter melhor desempenho no aprendizado!
+> ⭐ **IMPORTANTE (EFICIÊNCIA VS. EFICÁCIA NAS NARRATIVAS DE PROVA):**  
+> Identifique os gatilhos no enunciado da FCC:  
+> - Se o texto destaca "custos reduzidos, menos horas gastas, processos sem desperdício de papel, economia de insumos", a questão trata de **EFICIÊNCIA** (foco nos meios).  
+> - Se o texto destaca "meta de 100% de processos julgados alcançada, prazo final cumprido, entrega de 50 novas escolas", trata de **EFICÁCIA** (foco nos fins/metas).  
+> - Se o texto destaca "a mortalidade infantil caiu 40% na região após a inauguração das unidades", trata de **EFETIVIDADE** (foco no impacto social).
 
 ---
 
 ### 3. Dinâmica das Organizações Formais e Informais
 
-Toda instituição humana possui uma dupla dimensão que convive em interação permanente:
+Toda instituição humana possui uma dupla dimensão estrutural que convive em interação dialética permanente:
 
 ```mermaid
 flowchart TD
     subgraph Organizacao_Dual ["A Dualidade Organizacional"]
         direction TB
-        OF["1. ORGANIZAÇÃO FORMAL<br/>• Instituída oficialmente por decreto ou lei<br/>• Expressa no Organograma e Regimento<br/>• Autoridade delegada por cargo formal<br/>• Comunicação via canais hierárquicos oficiais"]
+        OF["1. ORGANIZAÇÃO FORMAL<br/>• Planejada conscientemente pela alta cúpula<br/>• Oficializada em leis, decretos, organogramas e manuais de serviço<br/>• Linhas de autoridade formal e hierarquia escalar definida<br/>• Canais regimentais e oficiais de comunicação documental"]
         
-        OI["2. ORGANIZAÇÃO INFORMAL<br/>• Emerge espontaneamente do convívio social<br/>• Grupos de amizade, afinidades e simpatia<br/>• Liderança informal baseada em prestígio moral<br/>• Comunicação ágil via 'rádio-peão' (grapevine)"]
+        OI["2. ORGANIZAÇÃO INFORMAL<br/>• Emerge espontaneamente do convívio cotidiano dos indivíduos<br/>• Grupos de afinidade, simpatia, laços afetivos e amizade<br/>• Liderança informal baseada em carisma, confiança e prestígio moral<br/>• Canais ágeis e invisíveis de comunicação lateral: a Rádio-Peão (Grapevine)"]
         
-        OF <===>|"Interação Recíproca Contínua"| OI
+        OF <===>|"Interação Recíproca e Influência Contínua"| OI
     end
 ```
 
-* **A Origem Sociológica da Organização Informal:** Ficou demonstrada na famosa **Experiência de Hawthorne (1927-1932)** liderada por Elton Mayo. Verificou-se que a produtividade e a moral dos funcionários dependem intrinsecamente do clima afetivo do grupo informal e da aceitação mútua entre os pares.
-* **A Rádio-Peão (*Grapevine*):** É a rede informal de comunicação. É extremamente veloz e atende à necessidade humana de troca de informações, embora possa disseminar boatos quando a comunicação formal oficial do órgão for precária ou omissa.
+* **A Origem Sociológica da Organização Informal:** Ficou experimentalmente demonstrada na **Experiência de Hawthorne (1927-1932)** conduzida por Elton Mayo. Comprovou-se que a produtividade e a motivação dependem da integração no grupo informal e da aprovação social entre colegas.
+* **A Rádio-Peão (*Grapevine*):** É a rede informal de comunicação. É extremamente veloz e atende à necessidade humana de troca de informações, embora possa propagar boatos quando a comunicação formal oficial do órgão público for deficiente, opaca ou autoritária.
+
+> 📌 **NOTA EXPLICATIVA (A ORGANIZAÇÃO INFORMAL NÃO DEVE SER COMBATIDA):**  
+> A organização informal é uma manifestação sociológica inevitável do comportamento coletivo humano. Administradores públicos preparados não tentam reprimi-la ou puni-la, mas sim buscar sua convergência harmônica com as metas formais da instituição pública.
 
 ---
 
-### 4. Centralização vs. Descentralização e a Regra da Delegação
+### 4. Centralização vs. Descentralização e a Regra Áurea da Delegação
+
+A distribuição formal do poder de decisão dentro da hierarquia é classificada em dois modelos estruturais:
 
 ```mermaid
 flowchart TD
-    Decisao["Modelos de Distribuição de Autoridade"]
+    Decisao["Modelos de Distribuição de Autoridade Decisória"]
     
-    Decisao --> Cent["Centralização Decisória<br/>(Decisões retidas no topo)"]
-    Decisao --> Descent["Descentralização Decisória<br/>(Decisões na base operacional)"]
+    Decisao --> Cent["Centralização Decisória<br/>(Decisões retidas no ápice hierárquico)"]
+    Decisao --> Descent["Descentralização Decisória<br/>(Poder disperso para os níveis operacionais da base)"]
     
-    Cent --> VCent["Vantagens:<br/>• Visão sistêmica e global<br/>• Decisões padronizadas<br/>• Menor custo com chefias"]
-    Cent --> DCent["Desvantagens:<br/>• Lentidão de comunicação<br/>• Distanciamento da ponta<br/>• Sobrecarga da cúpula"]
+    Cent --> VCent["Vantagens:<br/>• Visão sistêmica, ampla e integrada da cúpula<br/>• Uniformidade e coerência nas decisões do órgão<br/>• Eliminação de duplicações de chefias e custos"]
+    Cent --> DCent["Desvantagens:<br/>• Lentidão e burocracia nas linhas de comunicação<br/>• Distanciamento das especificidades locais da ponta<br/>• Sobrecarga cognitiva estrangulando a alta direção"]
     
-    Descent --> VDescent["Vantagens:<br/>• Rapidez de resposta na ponta<br/>• Motivação dos servidores<br/>• Desafogo dos dirigentes"]
-    Descent --> DDescent["Desvantagens:<br/>• Risco de perda de alinhamento<br/>• Duplicação de esforços"]
+    Descent --> VDescent["Vantagens:<br/>• Resposta rápida e tempestiva junto ao cidadão na ponta<br/>• Motivação e desenvolvimento da autonomia funcional<br/>• Desafogo da cúpula para focar em planejamento estratégico"]
+    Descent --> DDescent["Desvantagens:<br/>• Risco de dispersão e desalinhamento das metas globais<br/>• Possível duplicação de estruturas e divergência de critérios"]
 ```
 
 #### A Regra Áurea da Delegação de Autoridade:
-* **O que se delega:** Delega-se a **autoridade formal** e a **atribuição de executar a tarefa**.
-* **O que NUNCA se delega:** A **responsabilidade final perante a organização permanece INDELEGÁVEL**! O gestor que delega continua sendo plenamente responsável pelas falhas ou sucessos cometidos pelo subordinado a quem conferiu poderes.
+A delegação é o ato administrativo mediante o qual uma autoridade transfere atribuições decisórias e operacionais a um subordinado:
+* **O que se delega:** Delega-se a **autoridade formal** e a **atribuição executiva de desempenhar a tarefa**.
+* **O que NUNCA se delega:** A **responsabilidade final perante a organização permanece INDELEGÁVEL**! O superior que delega continua sendo plenamente responsável pelas falhas, irregularidades ou sucessos cometidos pelo subordinado delegado.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC (DELEGAÇÃO DE RESPONSABILIDADE):**  
+> Questão certeira da FCC: afirmar que "ao delegar a emissão de relatórios de auditoria a um subordinado, o diretor da unidade exime-se integralmente de sua responsabilidade funcional". **FALSO!** A delegação transfere unicamente a **autoridade executiva**, mas a **responsabilidade final pelos resultados permanece retida com o superior delegante**.
 
 ---
 
-### 5. Ambientes Organizacionais: Geral (Macro) vs. Tarefa (Micro)
+### 5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)
+
+Nenhuma organização pública funciona no vácuo; ela opera inserida em camadas ambientais com diferentes graus de proximidade e influência:
 
 ```mermaid
 flowchart TD
     subgraph Macroambiente ["Ambiente Geral / Macroambiente (Análise PESTEL)"]
         P["Político"] --- E["Econômico"] --- S["Social"] --- T["Tecnológico"] --- Eco["Ecológico"] --- L["Legal"]
         
-        subgraph Microambiente ["Ambiente de Tarefa / Operacional"]
-            Cid["Cidadãos / Usuários"]
-            Forn["Fornecedores"]
-            Conc["Organizações Congêneres"]
-            Reg["Órgãos Reguladores e Tribunais de Contas"]
+        subgraph Microambiente ["Ambiente de Tarefa / Microambiente Operacional"]
+            Cid["Cidadãos e Jurisdicionados"]
+            Forn["Fornecedores Licitantes e Prestadores"]
+            Conc["Órgãos e Entidades Congêneres"]
+            Reg["Entidades de Fiscalização e Controle Externo"]
             
-            subgraph Interno ["A Entidade Pública"]
-                Org["Estrutura, Pessoas e Sistemas"]
+            subgraph Interno ["A Entidade Pública Interna"]
+                Org["Estrutura Formal, Servidores, Sistemas e Cultura"]
             end
         end
     end
@@ -193,31 +188,21 @@ flowchart TD
     Macroambiente --> Microambiente --> Interno
 ```
 
-* **Ambiente Geral (Macroambiente):** Conjunto abrangente de condições genéricas externas que afetam indistintamente todas as organizações de uma sociedade. É mapeado pela matriz **PESTEL** (Políticas, Econômicas, Sociais, Tecnológicas, Ecológicas e Legais).
-* **Ambiente de Tarefa (Ambiente Operacional):** É o nicho específico e imediato no qual o órgão público interage cotidianamente. É constituído por: cidadãos-usuários atendidos, fornecedores licitantes de bens e serviços, entidades reguladoras e órgãos de controle externo (TCE-GO, MP, etc.).
+1. **Ambiente Geral (Macroambiente):** Conjunto amplo de condições genéricas e cenários que afetam todas as organizações de uma determinada sociedade. Analisado pelas variáveis **PESTEL**:
+   - **P**olíticas: estabilidade governamental, diretrizes do Executivo;
+   - **E**conômicas: taxa de juros, inflação, arrecadação tributária estadual;
+   - **S**ociais: pirâmide demográfica, nível educacional, demandas populares;
+   - **T**ecnológicas: inteligência artificial, computação em nuvem, digitalização de serviços;
+   - **E**cológicas: sustentabilidade ambiental, mudanças climáticas;
+   - **L**egais: reformas constitucionais, marcos regulatórios e leis orçamentárias.
+2. **Ambiente de Tarefa (Microambiente / Ambiente Operacional):** Nicho específico no qual o órgão público atua de maneira imediata e diária para desempenhar suas competências regimentais. É composto por:
+   - **Cidadãos-usuários (jurisdicionados):** Destinatários finais dos serviços públicos e do controle da gestão;
+   - **Fornecedores:** Empresas concorrentes em licitações e contratos para fornecimento de bens e serviços;
+   - **Entidades de Controle e Regulação:** Tribunais de Contas, Ministério Público e agências fiscalizadoras.
 
 ---
 
-## 🚨 Alertas de Prova & Pegadinhas da FCC
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC (DELEGAÇÃO DE RESPONSABILIDADE):**  
-> Questão certíssima da FCC: afirmar que "ao delegar a execução de uma fiscalização contábil a um auditor, o chefe da diretoria exime-se integralmente de sua responsabilidade funcional". **FALSO!** A delegação transfere a **autoridade executiva**, mas a **responsabilidade pelo resultado final permanece com o delegante**.
-
-> ⭐ **IMPORTANTE (EFICIÊNCIA VS. EFICÁCIA NAS NARRATIVAS DE PROVA):**  
-> Identifique os gatilhos no enunciado:  
-> - Se o texto destaca "custos reduzidos, menos horas gastas, processos sem desperdício de papel", está falando de **EFICIÊNCIA**.  
-> - Se o texto destaca "meta de 100% de processos julgados alcançada, prazo final cumprido", está falando de **EFICÁCIA**.  
-> - Se o texto destaca "o analfabetismo foi erradicado no município após as ações escolares", está falando de **EFETIVIDADE**.
-
-> 🛑 **ATENÇÃO (ORT E A CONCEPÇÃO DO TRABALHADOR):**  
-> Lembre-se sempre de que Taylor fundamentava toda a sua ORT no conceito do **Homo Economicus** (o homem é movido por prêmios financeiros e dinheiro). Se a questão falar que Taylor valorizou a auto-realização ou a motivação social, a alternativa está errada!
-
-> 📌 **NOTA EXPLICATIVA (ORGANIZAÇÃO INFORMAL NÃO É CRIME):**  
-> A organização informal é a expressão sociológica natural do convívio humano (redes de amizade e camaradagem no setor). Administradores inteligentes não tentam suprimi-la, mas sim integrá-la positivamente à cultura do órgão público.
-
----
-
-## 🌐 Fontes Oficiais e Referências Bibliográficas
+### 6. Fontes Oficiais e Referências Bibliográficas
 
 * [CHIAVENATO, Idalberto. Introdução à Teoria Geral da Administração. 10ª Edição. Editora Atlas.](https://www.grupogen.com.br) - Capítulos sobre a ORT, Estruturas e Dinâmica Organizacional.
 * [DRUCKER, Peter F. Prática da Administração de Empresas. Pioneira Thomson Learning.](https://www.grupogen.com.br) - Conceituação de Eficiência e Eficácia.
@@ -226,7 +211,7 @@ flowchart TD
 
 ---
 
-## 📝 Questões de Concurso FCC Comentadas
+### 7. Questões de Concurso FCC Comentadas
 
 ### Questão 01
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
@@ -238,13 +223,14 @@ A respeito da Organização Racional do Trabalho (ORT) desenvolvida por Frederic
 * **D)** Taylor defendia a preservação estrita do capataz geral de fábrica com comando único, condenando a divisão da supervisão em funções especializadas.
 * **E)** A fadiga humana era ignorada pela ORT por ser considerada um fenômeno psicológico irrelevante para a produtividade fabril.
 
-> **Gabarito: C**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** A ORT combatia a improvisação empírica dos operários, impondo métodos padronizados cientificamente planejados pela gerência.  
 > - **B) Incorreta.** Taylor adotava a concepção do **Homo Economicus** (o ser humano é motivado pelo ganho financeiro individual por peça produzida).  
 > - **C) CORRETA.** O estudo dos tempos e movimentos (sistematizado por Taylor e aprofundado pelos Gilbreth) constituía a viga-mestra da ORT: fragmentar a tarefa em micromovimentos elementares, erradicar movimentos inúteis e fixar o tempo-padrão de execução para a melhor maneira científica de trabalhar (*the one best way*).  
 > - **D) Incorreta.** Taylor propunha a **supervisão funcional** (múltiplos supervisores especializados), rompendo com o princípio do chefe militar único.  
-> - **E) Incorreta.** O estudo da fadiga humana era um dos pilares centrais da ORT para evitar a exaustão física do operário e garantir a cadência do trabalho.
+> - **E) Incorreta.** O estudo da fadiga humana era um dos pilares centrais da ORT para evitar a exaustão física do operário e garantir a cadência do trabalho.  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -258,13 +244,14 @@ Determinada unidade de fiscalização governamental realizou uma auditoria utili
 * **D)** A omissão decorreu exclusivamente da atuação autônoma da organização informal da equipe técnica.
 * **E)** O resultado comprova a inadequação da departamentalização funcional nos órgãos de controle público.
 
-> **Gabarito: B**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** A equipe não foi eficaz, uma vez que falhou em atingir o objetivo primordial da fiscalização (detectar e apontar as irregularidades materiais).  
 > - **B) CORRETA.** A equipe foi **eficiente** (minimizou o uso de insumos, cortou custos em 40% e poupou tempo - foco excelente nos meios), porém foi **ineficaz** (não alcançou o objetivo finalístico proposto, falhando na entrega do resultado material substantivo - foco nos fins).  
 > - **C) Incorreta.** Ocorreu exatamente o oposto: houve alta eficiência nos meios e ineficácia nos fins.  
 > - **D) Incorreta.** A omissão traduz um erro técnico de execução processual, e não efeito puro da organização informal.  
-> - **E) Incorreta.** O caso não aborda modelos de departamentalização, mas sim a distinção clássica entre eficiência e eficácia.
+> - **E) Incorreta.** O caso não aborda modelos de departamentalização, mas sim a distinção clássica entre eficiência e eficácia.  
+> 
+> **Gabarito: B**
 
 ---
 
@@ -278,13 +265,14 @@ No tocante à dinâmica da delegação de competências e à centralização ver
 * **D)** A centralização tem como principal desvantagem a duplicação generalizada de custos operacionais e a proliferação descontrolada de órgãos descentralizados.
 * **E)** A delegação de autoridade no serviço público é vedada pelo princípio da hierarquia institucional previsto na Constituição Federal.
 
-> **Gabarito: C**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** Concentrar decisões no topo da cúpula é a definição de **centralização**, e não de descentralização.  
 > - **B) Incorreta.** Regra basilar de administração: **a responsabilidade final pelo resultado perante a organização é indelegável**. Delega-se a autoridade e a execução da tarefa, mas o gestor delegante responde perante a instituição pelas falhas cometidas pelo delegado.  
 > - **C) CORRETA.** A **descentralização** aproxima a decisão do local onde o problema ocorre (a base operacional/ponta), conferindo agilidade de resposta às demandas dos cidadãos e motivando os servidores locais que passam a exercer autonomia funcional.  
 > - **D) Incorreta.** Duplicação de esforços é desvantagem eventual da descentralização. A desvantagem da centralização é a lentidão decisória e o estrangulamento da cúpula.  
-> - **E) Incorreta.** A delegação é amplamente autorizada e recomendada pelo direito administrativo e pelo princípio da eficiência (ex.: Lei Federal nº 9.784/1999 e Lei Estadual nº 13.800/2001).
+> - **E) Incorreta.** A delegação é amplamente autorizada e recomendada pelo direito administrativo e pelo princípio da eficiência (ex.: Lei Federal nº 9.784/1999 e Lei Estadual nº 13.800/2001).  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -298,13 +286,14 @@ Em relação ao estudo dos ambientes organizacionais e sua influência sobre o f
 * **D)** A análise PESTEL destina-se a mensurar exclusivamente as variáveis psicológicas e comportamentais da organização informal no ambiente interno.
 * **E)** As organizações que atuam em ambientes de tarefa dinâmicos e imprevisíveis devem adotar estruturas estritamente burocráticas e centralizadas para mitigar riscos operacionais.
 
-> **Gabarito: C**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** Inflação, clima e demografia compõem o **ambiente geral (macroambiente)**, e não o ambiente de tarefa.  
 > - **B) Incorreta.** Usuários, fornecedores e órgãos fiscalizadores integram o **ambiente de tarefa (microambiente)**.  
 > - **C) CORRETA.** O **ambiente de tarefa (ou microambiente operacional)** é o nicho direto com o qual a instituição pública se relaciona cotidianamente para desempenhar sua missão: nele estão inseridos os cidadãos-usuários (jurisdicionados), os fornecedores contratados e as entidades reguladoras e controladoras.  
 > - **D) Incorreta.** A matriz PESTEL analisa o macroambiente externo (variáveis Políticas, Econômicas, Sociais, Tecnológicas, Ecológicas e Legais).  
-> - **E) Incorreta.** Em ambientes dinâmicos e imprevisíveis, a teoria contingencial recomenda estruturas **orgânicas** (flexíveis e descentralizadas), e não burocráticas mecanicistas.
+> - **E) Incorreta.** Em ambientes dinâmicos e imprevisíveis, a teoria contingencial recomenda estruturas **orgânicas** (flexíveis e descentralizadas), e não burocráticas mecanicistas.  
+> 
+> **Gabarito: C**
 
 ---
 
@@ -318,10 +307,11 @@ A respeito da organização formal e da organização informal no cotidiano das 
 * **D)** Os canais informais de comunicação (rádio-peão) transmitem informações de forma mais lenta e burocrática do que os canais hierárquicos regimentais.
 * **E)** O organograma regimental de uma instituição representa graficamente tanto as linhas de comando formal quanto as redes de solidariedade da organização informal.
 
-> **Gabarito: B**  
 > **Comentário Detalhado:**  
 > - **A) Incorreta.** A organização informal é um fenômeno social espontâneo, natural e impossível de ser extirpado pela via disciplinar; gestores eficientes aprendem a conviver com ela e a canalizar seu potencial.  
 > - **B) CORRETA.** A **organização formal** é desenhada deliberadamente pela direção, oficializada em regulamentos, manuais e organogramas; em contrapartida, a **organização informal** surge espontaneamente da convivência entre as pessoas, laços de amizade, identificação mútua e costumes compartilhados.  
 > - **C) Incorreta.** A liderança informal é conquistada pelo carisma, respeito e confiança dos colegas, podendo ser exercida por servidores sem qualquer cargo de chefia formal.  
 > - **D) Incorreta.** A comunicação informal é notoriamente veloz, contornando a burocracia dos canais formais.  
-> - **E) Incorreta.** O organograma retrata exclusivamente a estrutura **formal** (departamentos e linhas hierárquicas oficiais), sendo incapaz de mapear as redes informais.
+> - **E) Incorreta.** O organograma retrata exclusivamente a estrutura **formal** (departamentos e linhas hierárquicas oficiais), sendo incapaz de mapear as redes informais.  
+> 
+> **Gabarito: B**
