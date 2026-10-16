@@ -16,31 +16,30 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Controle de Acesso Lógico e Mecanismos de Autenticação](#1-controle-de-acesso-lógico-e-mecanismos-de-autenticação)
+- [1. Controle de Acesso Lógico e Mecanismos de Autenticação](#1-controle-de-acesso-logico-e-mecanismos-de-autenticacao)
     - [1.1 O Modelo AAA (Authentication, Authorization, Accounting)](#11-o-modelo-aaa-authentication-authorization-accounting)
-    - [1.2 Os Três Fatores Clássicos de Autenticação](#12-os-três-fatores-clássicos-de-autenticação)
-    - [1.3 Autenticação Multifator (MFA / 2FA) e Regras Mandatórias](#13-autenticação-multifator-mfa--2fa-e-regras-mandatórias)
-    - [1.4 Ameaças e Vetores de Ataque contra Credenciais](#14-ameaças-e-vetores-de-ataque-contra-credenciais)
-- [2. Modelos Clássicos de Controle de Acesso Lógico](#2-modelos-clássicos-de-controle-de-acesso-lógico)
-    - [2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)](#21-visão-geral-e-comparativo-dos-modelos-dac-mac-rbac-abac)
+    - [1.2 Os Três Fatores Clássicos de Autenticação](#12-os-tres-fatores-classicos-de-autenticacao)
+    - [1.3 Autenticação Multifator (MFA / 2FA) e Regras Mandatórias](#13-autenticacao-multifator-mfa-2fa-e-regras-mandatorias)
+    - [1.4 Ameaças e Vetores de Ataque contra Credenciais](#14-ameacas-e-vetores-de-ataque-contra-credenciais)
+- [2. Modelos Clássicos de Controle de Acesso Lógico](#2-modelos-classicos-de-controle-de-acesso-logico)
+    - [2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)](#21-visao-geral-e-comparativo-dos-modelos-dac-mac-rbac-abac)
     - [2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso](#22-dac-discretionary-access-control-e-listas-de-controle-de-acesso)
-    - [2.3 MAC (Mandatory Access Control) e Modelos Multiníveis Formais: Bell-LaPadula vs. Biba](#23-mac-mandatory-access-control-e-modelos-multiníveis-formais-bell-lapadula-vs-biba)
-    - [2.4 RBAC (Role-Based Access Control) na Governança Corporativa](#24-rbac-role-based-access-control-na-governança-corporativa)
+    - [2.3 MAC (Mandatory Access Control) e Modelos Multiníveis Formais: Bell-LaPadula vs. Biba](#23-mac-mandatory-access-control-e-modelos-multiniveis-formais-bell-lapadula-vs-biba)
+    - [2.4 RBAC (Role-Based Access Control) na Governança Corporativa](#24-rbac-role-based-access-control-na-governanca-corporativa)
     - [2.5 ABAC (Attribute-Based Access Control) e a Norma XACML](#25-abac-attribute-based-access-control-e-a-norma-xacml)
-- [3. Gestão de Identidades e Acessos (IAM) e PAM](#3-gestão-de-identidades-e-acessos-iam-e-pam)
-    - [3.1 Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)](#31-ciclo-de-vida-da-identidade-onboarding-movimentação-e-offboarding)
-    - [3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)](#32-menor-privilégio-polp-vs-acúmulo-indevido-privilege-creep)
-    - [3.3 Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas](#33-gestão-de-acessos-privilegiados-pam-cofre-jit-e-sessões-gravadas)
-    - [3.4 Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)](#34-federação-de-identidades-e-single-sign-on-sso-saml-20-openid-connect)
-- [4. Arquitetura Zero Trust (Confiança Zero - NIST SP 800-207)](#4-arquitetura-zero-trust-confiança-zero---nist-sp-800-207)
-    - [4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")](#41-o-colapso-da-segurança-de-borda-tradicional-castelo-e-fosso)
-    - [4.2 Os Três Princípios Norteadores Oficiais do Zero Trust](#42-os-três-princípios-norteadores-oficiais-do-zero-trust)
-    - [4.3 Pilares Fundamentais da Confiança Zero](#43-pilares-fundamentais-da-confiança-zero)
-    - [4.4 Microsegmentação e Contenção do Movimento Lateral](#44-microsegmentação-e-contenção-do-movimento-lateral)
-    - [4.5 Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)](#45-componentes-lógicos-policy-engine-pe-policy-administrator-pa-e-policy-enforcement-point-pep)
+- [3. Gestão de Identidades e Acessos (IAM) e PAM](#3-gestao-de-identidades-e-acessos-iam-e-pam)
+    - [3.1 Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)](#31-ciclo-de-vida-da-identidade-onboarding-movimentacao-e-offboarding)
+    - [3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)](#32-menor-privilegio-polp-vs-acumulo-indevido-privilege-creep)
+    - [3.3 Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas](#33-gestao-de-acessos-privilegiados-pam-cofre-jit-e-sessoes-gravadas)
+    - [3.4 Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)](#34-federacao-de-identidades-e-single-sign-on-sso-saml-20-openid-connect)
+- [4. Arquitetura Zero Trust (Confiança Zero - NIST SP 800-207)](#4-arquitetura-zero-trust-confianca-zero-nist-sp-800-207)
+    - [4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")](#41-o-colapso-da-seguranca-de-borda-tradicional-castelo-e-fosso)
+    - [4.2 Os Três Princípios Norteadores Oficiais do Zero Trust](#42-os-tres-principios-norteadores-oficiais-do-zero-trust)
+    - [4.3 Pilares Fundamentais da Confiança Zero](#43-pilares-fundamentais-da-confianca-zero)
+    - [4.4 Microsegmentação e Contenção do Movimento Lateral](#44-microsegmentacao-e-contencao-do-movimento-lateral)
+    - [4.5 Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)](#45-componentes-logicos-policy-engine-pe-policy-administrator-pa-e-policy-enforcement-point-pep)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas & Exemplos Práticos](#6-questões-comentadas--exemplos-práticos)
+- [6. Questões Comentadas & Exemplos Práticos](#6-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -104,9 +103,11 @@ classDiagram
 1. **Fator de Conhecimento ("O que você sabe"):**
     - Baseia-se exclusivamente na retenção mnemônica de informações secretas pelo usuário (senhas alfanuméricas, frases-passe, números PIN, perguntas secretas).
     - *Vulnerabilidades:* Suscetível a ataques de força bruta, tabelas arco-íris (*rainbow tables*), interceptações por *keyloggers*, ataques de repetição e técnicas de engenharia social (phishing).
+
 2. **Fator de Posse ("O que você tem"):**
     - Baseia-se na custódia e no controle físico ou lógico de um artefato tangível exclusivo (cartões inteligentes com chip, *tokens* geradores de códigos de uso único OTP baseados em tempo TOTP ou em evento HOTP, chaves criptográficas físicas FIDO2/U2F conectadas via USB/NFC, ou smartphones autenticados).
     - *Vulnerabilidades:* Riscos de perda material, roubo do hardware, ataques de interceptação via clonagem de chip/número (*SIM swapping*) quando códigos são enviados por SMS.
+
 3. **Fator de Inerência ("O que você é"):**
     - Baseia-se em traços biológicos intrínsecos e únicos do indivíduo:
     - *Biometria Fisiológica:* Padrão de impressões digitais, mapeamento venoso da palma da mão, geometria facial tridimensional, escaneamento de íris ou retina.
@@ -326,8 +327,10 @@ Normatizada pelo Instituto Nacional de Padrões e Tecnologia dos EUA através do
 
 1. **Nunca Confie, Sempre Verifique (*Never Trust, Always Verify*):**
     - Não existe zona de confiança implícita, mesmo para conexões originadas do prédio sede da corporação ou de computadores patrimoniados. Toda e qualquer requisição de acesso deve ser autenticada, autorizada e criptografada explicitamente, avaliando em tempo real o contexto da sessão.
+
 2. **Conceda Acesso com Menor Privilégio (*Use Least Privilege Access*):**
     - Limite a exposição de dados concedendo acesso apenas ao recurso exato demandado, utilizando controles adaptativos como *Just-In-Time* (JIT) e *Just-Enough-Access* (JEA).
+
 3. **Assuma a Violação (*Assume Breach*):**
     - Projete os sistemas partindo da certeza de que o adversário já conseguiu comprometer algum elemento da infraestrutura. Reduza ao máximo o "raio de explosão" (*blast radius*) do ataque por meio de **microsegmentação**, inspeção detalhada de todo o tráfego e criptografia de dados em trânsito e em repouso.
 
@@ -383,12 +386,12 @@ flowchart LR
 
 ## 5. Fontes Recomendadas na Internet
 
-### 1. Padrões Internacionais do NIST e CISA
+#### 1. Padrões Internacionais do NIST e CISA
 - [NIST Special Publication 800-207 - Zero Trust Architecture](https://csrc.nist.gov/publications/detail/sp/800-207/final): Publicação oficial definitiva que formalizou os princípios norteadores do Zero Trust (*Never Trust, Always Verify* e *Assume Breach*), componentes lógicos de controle (*Policy Engine*, *Policy Administrator* e *Policy Enforcement Point*) e abordagens de microsegmentação.
 - [CISA Zero Trust Maturity Model (cisa.gov)](https://www.cisa.gov/zero-trust-maturity-model): Roteiro de maturidade da Agência de Segurança Cibernética e de Infraestrutura dos EUA cobrindo os 5 pilares: Identidade, Dispositivos, Redes, Cargas de Trabalho e Dados.
 - [NIST Special Publication 800-63B - Digital Identity Guidelines](https://pages.nist.gov/800-63-3/sp800-63b.html): Diretrizes de autenticação eletrônica detalhando os três fatores fundamentais (conhecimento, posse e inerência) e requisitos de proteção contra ataques de repetição e phishing.
 
-### 2. Normas e Padrões de Controle de Acesso
+#### 2. Normas e Padrões de Controle de Acesso
 - [OASIS XACML Standard](https://www.oasis-open.org/committees/xacml/): Padrão aberto oficial para definição de políticas granulares de controle de acesso baseado em atributos (ABAC).
 
 ---
@@ -407,6 +410,7 @@ A respeito dos fatores clássicos de autenticação e dos princípios de MFA, as
 * **E)** O uso de MFA elimina a necessidade de controle de autorização e revoga automaticamente o princípio do menor privilégio.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Exigir uma senha alfanumérica e um código PIN constitui o fornecimento de duas instâncias da mesma classe conceitual: conhecimento ("algo que você sabe"). Trata-se de autenticação de fator único fortalecido, e não MFA.
 > - **B)** Correta. A Autenticação Multifator exige formalmente a combinação de fatores de pelo menos duas categorias conceituais distintas entre conhecimento, posse e inerência.
 > - **C)** Incorreta. Palavras secretas e respostas a perguntas baseiam-se em memória cognitiva, caracterizando o fator de conhecimento, e não de posse.
@@ -429,6 +433,7 @@ Sobre o funcionamento desses dois modelos, assinale a afirmativa correta:
 * **E)** Ambos os modelos Bell-LaPadula e Biba operam sob a filosofia de controle discricionário (DAC), na qual o criador do arquivo detém total autonomia para conceder privilégios a terceiros.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O modelo Bell-LaPadula tem como foco primordial a garantia da confidencialidade, e não da integridade (o modelo com foco em integridade é o Biba).
 > - **B)** Correta. O modelo Bell-LaPadula define que para preservar a confidencialidade aplicam-se a Propriedade de Segurança Simples (*No Read Up* - não ler acima) e a Propriedade Estrela (*No Write Down* - não escrever abaixo, impedindo que segredos sejam vazados para níveis públicos).
 > - **C)** Incorreta. Biba foi desenvolvido com foco exclusivo em integridade, e não confidencialidade.
@@ -451,6 +456,7 @@ A respeito dos princípios fundamentais que regem o paradigma Zero Trust, assina
 * **E)** No Zero Trust, após a primeira autenticação realizada com sucesso no início da jornada de trabalho, o usuário obtém acesso irrestrito a todas as aplicações corporativas pelo período contínuo de 30 dias.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A falha central combatida pelo Zero Trust é justamente tratar redes internas como confiáveis. Nenhuma zona de rede é implicitamente segura.
 > - **B)** Correta. O princípio fundamental do Zero Trust preconiza que não há confiança implícita para nenhuma solicitação; toda requisição deve ser explicitamente autenticada, autorizada e criptografada a cada acesso.
 > - **C)** Incorreta. Assumir a violação (*Assume Breach*) exige a implantação vigorosa de microsegmentação e criptografia para conter o raio de alcance da invasão e deter movimentos laterais.
@@ -473,6 +479,7 @@ Assinale a opção que descreve corretamente o papel e a função desses compone
 * **E)** A arquitetura Zero Trust do NIST veda expressamente o uso de PEPs intermediários entre o dispositivo do usuário e as aplicações de negócio.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Quem toma a decisão de acesso é o Policy Engine (PE); o PEP limita-se a executar e impor (*enforce*) a decisão recebida.
 > - **B)** Correta. Na arquitetura NIST SP 800-207, o Policy Decision Point (PDP) agrega logicamente o Policy Engine (PE - cérebro decisório) e o Policy Administrator (PA - coordenador de sessões e emissor de comandos ao PEP).
 > - **C)** Incorreta. O Policy Engine é o motor analítico de inteligência que processa regras contextuais de autorização, não se confundindo com switches ou roteadores passivos.
@@ -495,6 +502,7 @@ Considerando os princípios de Governança de Identidades (IAM) e de Gestão de 
 * **E)** Padronizar o uso de contas genéricas e senhas únicas para todos os membros da equipe de sustentação de infraestrutura.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O acúmulo indevido de permissões (*Privilege Creep*) é uma vulnerabilidade crítica decorrente de falhas no processo de gestão de mudanças de cargo e deve ser estritamente erradicado.
 > - **B)** Correta. Soluções de PAM com cofre de senhas, privilégios temporários JIT e sessões gravadas saneiam o uso indevido de contas privilegiadas compartilhadas, enquanto campanhas periódicas de recertificação de acessos combatem o acúmulo residual de privilégios.
 > - **C)** Incorreta. A desativação de logs de auditoria viola diretamente o princípio da responsabilização (*accountability*) e inviabiliza investigações e auditorias de controle externo.

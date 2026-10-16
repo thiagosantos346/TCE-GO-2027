@@ -16,26 +16,26 @@
 
 ## 🧭 Sumário
 - [1. Subconjuntos da Linguagem SQL](#1-subconjuntos-da-linguagem-sql)
-    - [1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL](#11-classificação-ansi-ddl-dml-dql-dcl-e-tcl)
-    - [1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE](#12-o-duelo-clássico-drop-vs-truncate-vs-delete)
-    - [1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira](#13-restrições-de-integridade-constraints-e-ações-de-chave-estrangeira)
-- [2. Ordem Lógica de Execução da Consulta SQL (DQL)](#2-ordem-lógica-de-execução-da-consulta-sql-dql)
-    - [2.1 Ordem Léxica (Escrita) vs. Ordem Lógica (Processamento)](#21-ordem-léxica-escrita-vs-ordem-lógica-processamento)
+    - [1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL](#11-classificacao-ansi-ddl-dml-dql-dcl-e-tcl)
+    - [1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE](#12-o-duelo-classico-drop-vs-truncate-vs-delete)
+    - [1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira](#13-restricoes-de-integridade-constraints-e-acoes-de-chave-estrangeira)
+- [2. Ordem Lógica de Execução da Consulta SQL (DQL)](#2-ordem-logica-de-execucao-da-consulta-sql-dql)
+    - [2.1 Ordem Léxica (Escrita) vs. Ordem Lógica (Processamento)](#21-ordem-lexica-escrita-vs-ordem-logica-processamento)
     - [2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases](#22-o-conflito-where-vs-having-e-a-ilegalidade-de-aliases)
-- [3. Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas](#3-consultas-avançadas-junções-operadores-de-conjunto-e-subconsultas)
-    - [3.1 Junções (INNER, LEFT, RIGHT, FULL OUTER e CROSS JOIN)](#31-junções-inner-left-right-full-outer-e-cross-join)
+- [3. Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas](#3-consultas-avancadas-juncoes-operadores-de-conjunto-e-subconsultas)
+    - [3.1 Junções (INNER, LEFT, RIGHT, FULL OUTER e CROSS JOIN)](#31-juncoes-inner-left-right-full-outer-e-cross-join)
     - [3.2 Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)](#32-operadores-de-conjunto-union-vs-union-all-intersect-except)
-    - [3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL](#33-lógica-ternária-three-valued-logic-e-a-armadilha-do-not-in-com-null)
+    - [3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL](#33-logica-ternaria-three-valued-logic-e-a-armadilha-do-not-in-com-null)
     - [3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)](#34-common-table-expressions-ctes-e-recursividade-with-recursive)
-- [4. Funções Analíticas de Janela (Window Functions)](#4-funções-analíticas-de-janela-window-functions)
-    - [4.1 Sintaxe Geral e Cláusula OVER (PARTITION BY ... ORDER BY ...)](#41-sintaxe-geral-e-cláusula-over-partition-by--order-by-)
-    - [4.2 Funções de Ranking: ROW_NUMBER(), RANK() e DENSE_RANK()](#42-funções-de-ranking-row_number-rank-e-dense_rank)
-    - [4.3 Funções de Deslocamento: LEAD() e LAG()](#43-funções-de-deslocamento-lead-e-lag)
-- [5. Objetos Programáveis de Banco de Dados](#5-objetos-programáveis-de-banco-de-dados)
-    - [5.1 Visões: View Padrão vs. View Materializada (Materialized View)](#51-visões-view-padrão-vs-view-materializada-materialized-view)
+- [4. Funções Analíticas de Janela (Window Functions)](#4-funcoes-analiticas-de-janela-window-functions)
+    - [4.1 Sintaxe Geral e Cláusula OVER (PARTITION BY ... ORDER BY ...)](#41-sintaxe-geral-e-clausula-over-partition-by-order-by)
+    - [4.2 Funções de Ranking: ROW_NUMBER(), RANK() e DENSE_RANK()](#42-funcoes-de-ranking-rownumber-rank-e-denserank)
+    - [4.3 Funções de Deslocamento: LEAD() e LAG()](#43-funcoes-de-deslocamento-lead-e-lag)
+- [5. Objetos Programáveis de Banco de Dados](#5-objetos-programaveis-de-banco-de-dados)
+    - [5.1 Visões: View Padrão vs. View Materializada (Materialized View)](#51-visoes-view-padrao-vs-view-materializada-materialized-view)
     - [5.2 Stored Procedures vs. User-Defined Functions (UDF)](#52-stored-procedures-vs-user-defined-functions-udf)
     - [5.3 Gatilhos (Triggers): Eventos, Momentos (BEFORE, AFTER, INSTEAD OF) e Pseudorregistros OLD/NEW](#53-gatilhos-triggers-eventos-momentos-before-after-instead-of-e-pseudorregistros-oldnew)
-- [6. Questões Comentadas & Prática Padrão FCC](#6-questões-comentadas--prática-padrão-fcc)
+- [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -169,6 +169,7 @@ Em SQL, qualquer comparação direta com valor nulo (`coluna = NULL` ou `coluna 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A armadilha clássica da FCC em subconsultas:  
 > Considere a consulta: `SELECT nome FROM cliente WHERE id NOT IN (SELECT id_cliente FROM divida);`  
+>
 > - Se a tabela `divida` contiver **ao menos UM único registro cujo `id_cliente` seja `NULL`**, a subconsulta retornará o valor `NULL`.  
 > - Como o predicado desdobra-se em: `id != 1 AND id != 2 AND id != NULL`, e qualquer comparação com `NULL` resulta em `UNKNOWN`, a expressão inteira avaliará como `UNKNOWN` para todas as linhas!  
 > - **Resultado Catastrófico:** A consulta retornará **ZERO LINHAS (conjunto vazio)**!  
@@ -177,6 +178,7 @@ Em SQL, qualquer comparação direta com valor nulo (`coluna = NULL` ou `coluna 
 ### 3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)
 
 As Expressões de Tabela Comuns (*CTEs*) são conjuntos de resultados temporários nomeados declarados através da cláusula `WITH`:
+
 ```sql
 WITH AuditoriasRecentes AS (
     SELECT auditor_id, COUNT(*) AS total
@@ -188,6 +190,7 @@ SELECT a.nome, ar.total
 FROM auditor a
 JOIN AuditoriasRecentes ar ON a.id = ar.auditor_id;
 ```
+
 - **`WITH RECURSIVE`:** Permite que a CTE faça referência a si mesma, viabilizando consultas em estruturas hierárquicas e em grafos (como organogramas empresariais ou árvores de dependência de processos).
 
 ---
@@ -205,6 +208,7 @@ FUNCAO_ANALITICA() OVER (
     ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
 )
 ```
+
 - **`PARTITION BY`:** Divide o conjunto de resultados em janelas lógicas independentes (equivalente ao agrupamento, sem colapsar linhas).
 - **`ORDER BY`:** Define a ordem de processamento das tuplas dentro de cada partição.
 - **`Frame Specification` (`ROWS / RANGE`):** Delimita o subconjunto deslizante de linhas que compõem o cálculo da janela (ex.: médias móveis).
@@ -290,6 +294,7 @@ A consulta SQL correta que atende exatamente a essa especificação utiliza a fu
 * **E)** `LEAD(Salario, 1) OVER (PARTITION BY Orgao)`
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O `ROW_NUMBER()` gera um sequencial estritamente único para cada linha (1, 2, 3...), desconsiderando empates salariais.
 > - **B)** Incorreta. O `RANK()` atribui a mesma posição aos empatados, mas pula posições subsequentes na sequência (ex.: se houver dois primeiros colocados, o próximo recebe a posição 3), deixando lacunas.
 > - **C)** Correta. A função **`DENSE_RANK()`** atribui a mesma posição aos registros com valores empatados e garante que a posição imediatamente seguinte seja a próxima na ordem inteira contígua (1, 1, 2, 3...), preservando o ranqueamento denso sem deixar lacunas na numeração.
@@ -310,6 +315,7 @@ No que concerne aos gatilhos (*Triggers*) em sistemas de gerenciamento de bancos
 * **E)** Gatilhos do tipo `INSTEAD OF` podem ser aplicados exclusivamente sobre tabelas físicas com chave primária simples, sendo proibido o seu uso em visões (*Views*).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Em um `INSERT`, o pseudorregistro `OLD` é nulo/indefinido, pois não existia linha prévia.
 > - **B)** Correta. O gatilho **`BEFORE FOR EACH ROW`** é acionado antes da escrita física no disco e possui acesso a `NEW`, permitindo validar regras de negócio, abortar a transação ou alterar valores dos campos antes que sejam efetivamente gravados.
 > - **C)** Incorreta. O gatilho por instrução (`FOR EACH STATEMENT`) executa **exatamente uma vez para todo o comando SQL**, independentemente de quantas linhas tenham sido afetadas.
@@ -330,6 +336,7 @@ Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com
 * **E)** O comando `DELETE` reinicializa compulsoriamente os geradores automáticos de identidade (*sequences / serial*) para o valor inicial estabelecido na criação da tabela.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O `TRUNCATE` é formalmente uma instrução **DDL** e gera uma quantidade mínima de log em relação ao `DELETE`.
 > - **B)** Incorreta. O `DELETE` varre e remove linha por linha gravando cada exclusão no log de transações (Undo/Redo). Quem desaloca páginas com overhead mínimo é o `TRUNCATE`.
 > - **C)** Incorreta. O comando `TRUNCATE` **não dispara gatilhos de nível de linha** (`FOR EACH ROW`).
@@ -347,11 +354,13 @@ Considere duas tabelas em um banco de dados fazendário:
 - `INFRACAO (id_infracao, id_contribuinte, valor)` com 500 registros, sendo que em 5 registros o atributo `id_contribuinte` possui o valor `NULL` (infrações lavradas com autor ainda não identificado).
 
 Um auditor executa a seguinte consulta para listar os contribuintes que nunca cometeram infração:
+
 ```sql
 SELECT nome 
 FROM CONTRIBUINTE 
 WHERE id_contribuinte NOT IN (SELECT id_contribuinte FROM INFRACAO);
 ```
+
 O resultado obtido por essa consulta será:  
 
 * **A)** Uma relação contendo exatamente os contribuintes sem registros correspondentes na tabela de infração.
@@ -361,6 +370,7 @@ O resultado obtido por essa consulta será:
 * **E)** Uma relação com exatamente 495 registros, correspondente à diferença algébrica simples.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O predicado `NOT IN` não retornará essa lista devido ao colapso provocado pelo valor nulo.
 > - **B)** Incorreta. O retorno não trará todos os registros.
 > - **C)** Correta. De acordo com a **Lógica Ternária (Three-Valued Logic)** da SQL, a expressão `x NOT IN (v1, v2, NULL)` é avaliada como `x != v1 AND x != v2 AND x != NULL`. Como qualquer comparação com `NULL` resulta em `UNKNOWN`, e a conjunção de `TRUE AND UNKNOWN` resulta em `UNKNOWN`, a cláusula `WHERE` descarta todas as linhas (pois ela só preserva linhas cuja condição seja estritamente `TRUE`). Portanto, a consulta retorna **zero registros (conjunto vazio)**. Para evitar essa anomalia, deve-se usar `NOT EXISTS`.
@@ -373,12 +383,14 @@ O resultado obtido por essa consulta será:
 
 ### Questão 5 (FCC - Adaptada / TI - Ordem Lógica de Execução e Agrupamento: WHERE vs. HAVING)
 Considere a seguinte consulta SQL proposta por um desenvolvedor júnior para listar as secretarias cujo valor total de empenhos fiscais ultrapassou R$ 1.000.000 no exercício:
+
 ```sql
 SELECT secretaria_id, SUM(valor_empenho) AS total_empenhado
 FROM empenhos
 WHERE total_empenhado > 1000000
 GROUP BY secretaria_id;
 ```
+
 Ao ser submetida ao compilador SQL de um SGBD relacional padrão, a consulta:  
 
 * **A)** Executará com sucesso, pois o compilador SQL resolve primeiro a cláusula `SELECT` para em seguida processar a restrição no `WHERE`.
@@ -388,10 +400,12 @@ Ao ser submetida ao compilador SQL de um SGBD relacional padrão, a consulta:
 * **E)** Executará perfeitamente, desde que o alias `total_empenhado` seja renomeado para corresponder a um tipo `DECIMAL`.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A cláusula `SELECT` é processada muito após o `WHERE`, de modo que aliases de projeção não existem durante a avaliação do `WHERE`.
 > - **B)** Correta. A consulta falha por dois motivos decorrentes da ordem lógica de execução da SQL:
->   1. O `WHERE` é processado antes do `SELECT` e, portanto, **não reconhece o alias de coluna `total_empenhado`**;
->   2. O filtro exige uma condição sobre função de agregação (`SUM()`), a qual não pode constar no `WHERE` (que atua linha a linha), devendo ser posicionada obrigatoriamente na cláusula **`HAVING SUM(valor_empenho) > 1000000`** após o `GROUP BY`.
+>     1. O `WHERE` é processado antes do `SELECT` e, portanto, **não reconhece o alias de coluna `total_empenhado`**;
+>     2. O filtro exige uma condição sobre função de agregação (`SUM()`), a qual não pode constar no `WHERE` (que atua linha a linha), devendo ser posicionada obrigatoriamente na cláusula **`HAVING SUM(valor_empenho) > 1000000`** após o `GROUP BY`.
+>
 > - **C)** Incorreta. A presença de índices não corrige erros sintáticos e semânticos de compilação SQL.
 > - **D)** Incorreta. O uso de `ORDER BY` é opcional com `GROUP BY`.
 > - **E)** Incorreta. Renomear o alias não altera a restrição de que agregações devem ser filtradas no `HAVING`.

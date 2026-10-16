@@ -6,7 +6,7 @@
 
 ---
 
-### 📌 Ementa / Itens do Edital
+## 📌 Ementa / Itens do Edital
 1. **Princípios Fundamentais da Segurança da Informação:** Confidencialidade, Integridade, Disponibilidade, Autenticidade e Não Repúdio / Irretratabilidade (CIDAN); Atributos complementares (Conformidade/Legalidade, Auditorabilidade/*Accountability* e Privacidade).
 2. **Classificação e Rotulagem da Informação:** Critérios de sensibilidade e criticidade de ativos; Graus de sigilo na Administração Pública conforme a Lei de Acesso à Informação (LAI - Lei nº 12.527/2011: Reservada com 5 anos, Secreta com 15 anos e Ultrassecreta com 25 anos; prazos de prorrogação e dados pessoais até 100 anos); e Classificação corporativa geral (Pública, Interna, Confidencial e Restrita).
 3. **Gestão de Riscos de Segurança da Informação:** Ativo (*Asset*), Ameaça (*Threat*), Vulnerabilidade (*Vulnerability*) e Impacto; Risco Inerente vs. Risco Residual e Apetite ao Risco; Análise Qualitativa (matrizes de probabilidade vs. impacto) vs. Análise Quantitativa ($SLE = AV \times EF$, $ALE = SLE \times ARO$ e CBA); e Opções de Tratamento do Risco (Mitigar/Reduzir, Aceitar/Reter, Transferir/Compartilhar e Evitar/Eliminar).
@@ -15,25 +15,25 @@
 
 ---
 
-### 🧭 Sumário
-- [1. Princípios Básicos da Segurança da Informação (CIDAN)](#1-princípios-básicos-da-segurança-da-informação-cidan)
+## 🧭 Sumário
+- [1. Princípios Básicos da Segurança da Informação (CIDAN)](#1-principios-basicos-da-seguranca-da-informacao-cidan)
     - [1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade](#11-os-pilares-fundamentais-confidencialidade-integridade-e-disponibilidade)
-    - [1.2 Autenticidade, Não Repúdio e Atributos Complementares](#12-autenticidade-não-repúdio-e-atributos-complementares)
-- [2. Classificação e Rotulagem da Informação](#2-classificação-e-rotulagem-da-informação)
-    - [2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)](#21-graus-de-sigilo-no-setor-público-lei-de-acesso-à-informação---lei-nº-125272011)
-    - [2.2 Classificação Corporativa Geral de Ativos](#22-classificação-corporativa-geral-de-ativos)
-- [3. Gestão e Análise de Riscos de Segurança da Informação](#3-gestão-e-análise-de-riscos-de-segurança-da-informação)
-    - [3.1 A Tríade Ativo, Ameaça e Vulnerabilidade](#31-a-tríade-ativo-ameaça-e-vulnerabilidade)
-    - [3.2 Análise Qualitativa vs. Análise Quantitativa (SLE, ARO e ALE)](#32-análise-qualitativa-vs-análise-quantitativa-sle-aro-e-ale)
-    - [3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)](#33-as-quatro-estratégias-de-tratamento-do-risco-isoiec-27005)
-- [4. Gestão de Vulnerabilidades e Resposta a Incidentes](#4-gestão-de-vulnerabilidades-e-resposta-a-incidentes)
-    - [4.1 Métricas do CVSS v3.1 (Common Vulnerability Scoring System)](#41-métricas-do-cvss-v31-common-vulnerability-scoring-system)
+    - [1.2 Autenticidade, Não Repúdio e Atributos Complementares](#12-autenticidade-nao-repudio-e-atributos-complementares)
+- [2. Classificação e Rotulagem da Informação](#2-classificacao-e-rotulagem-da-informacao)
+    - [2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)](#21-graus-de-sigilo-no-setor-publico-lei-de-acesso-a-informacao-lei-no-125272011)
+    - [2.2 Classificação Corporativa Geral de Ativos](#22-classificacao-corporativa-geral-de-ativos)
+- [3. Gestão e Análise de Riscos de Segurança da Informação](#3-gestao-e-analise-de-riscos-de-seguranca-da-informacao)
+    - [3.1 A Tríade Ativo, Ameaça e Vulnerabilidade](#31-a-triade-ativo-ameaca-e-vulnerabilidade)
+    - [3.2 Análise Qualitativa vs. Análise Quantitativa (SLE, ARO e ALE)](#32-analise-qualitativa-vs-analise-quantitativa-sle-aro-e-ale)
+    - [3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)](#33-as-quatro-estrategias-de-tratamento-do-risco-isoiec-27005)
+- [4. Gestão de Vulnerabilidades e Resposta a Incidentes](#4-gestao-de-vulnerabilidades-e-resposta-a-incidentes)
+    - [4.1 Métricas do CVSS v3.1 (Common Vulnerability Scoring System)](#41-metricas-do-cvss-v31-common-vulnerability-scoring-system)
     - [4.2 As Quatro Fases do Ciclo de Resposta a Incidentes (NIST SP 800-61)](#42-as-quatro-fases-do-ciclo-de-resposta-a-incidentes-nist-sp-800-61)
-- [5. Família de Normas ISO/IEC 27000 (SGSI)](#5-família-de-normas-isoiec-27000-sgsi)
-    - [5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL](#51-a-norma-certificável-isoiec-27001-e-o-anexo-sl)
-    - [5.2 A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)](#52-a-nova-isoiec-27002-edição-2022-4-temas-e-93-controles)
-    - [5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005](#53-a-declaração-de-aplicabilidade-soa-e-a-isoiec-27005)
-- [6. Questões Comentadas (FCC)](#6-questões-comentadas-fcc)
+- [5. Família de Normas ISO/IEC 27000 (SGSI)](#5-familia-de-normas-isoiec-27000-sgsi)
+    - [5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL](#51-a-norma-certificavel-isoiec-27001-e-o-anexo-sl)
+    - [5.2 A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)](#52-a-nova-isoiec-27002-edicao-2022-4-temas-e-93-controles)
+    - [5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005](#53-a-declaracao-de-aplicabilidade-soa-e-a-isoiec-27005)
+- [6. Questões Comentadas (FCC)](#6-questoes-comentadas-fcc)
 
 ---
 
@@ -47,10 +47,12 @@ A segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como 
     - Garantia de que o acesso à informação é restrito estrita e exclusivamente a pessoas, entidades ou processos formalmente autorizados.
     - *Ameaças clássicas:* Escuta clandestina de rede (*sniffing/eavesdropping*), roubo de dispositivos físicos, engenharia social, vazamento inadvertido de dados fiscais protegidos por sigilo e acessos não autorizados.
     - *Mecanismos técnicos:* Criptografia em trânsito (TLS) e em repouso (TDE), controle de acesso lógico baseado em papéis (RBAC), mascaramento dinâmico de dados e soluções de Prevenção contra Perda de Dados (*DLP - Data Loss Prevention*).
+
 2. **Integridade (*Integrity*):**
     - Propriedade de salvaguardar a exatidão, originalidade e completude da informação e de seus métodos de processamento, impedindo alterações, corrupções ou supressões indevidas ou não autorizadas.
     - *Ameaças clássicas:* Adulteração maliciosa de tabelas contábeis ou salariais em bancos de dados (*tampering*), infecção por malware, ataques man-in-the-middle e erros de transmissão de rede sem checagem de paridade.
     - *Mecanismos técnicos:* Funções criptográficas de espalhamento (*hashing* criptográfico como SHA-256 e SHA-512), códigos de autenticação de mensagem (HMAC), assinaturas digitais, somas de verificação (*checksums*) e trilhas de auditoria imutáveis.
+
 3. **Disponibilidade (*Availability*):**
     - Garantia de que a informação, os sistemas computacionais e os ativos de telecomunicações associados estejam acessíveis e utilizáveis sob demanda pelos usuários autorizados sempre que necessário.
     - *Ameaças clássicas:* Ataques de negação de serviço (DoS e DDoS), falhas físicas de hardware em servidores e storages, interrupção no fornecimento de energia elétrica, panes nos links de internet e desastres ambientais (enchentes, incêndios em datacenters).
@@ -163,15 +165,15 @@ A gestão de riscos estabelece um processo contínuo e estruturado para identifi
 * **Análise Quantitativa:**
     - Mensura as perdas e investimentos em **valores monetários concretos** (R$).
     - **Fórmulas Canônicas Obrigatórias:**
-    1. **SLE (*Single Loss Expectancy* - Expectativa de Perda Única):**
-       $$\text{SLE} = \text{AV} \times \text{EF}$$
-       onde $\text{AV}$ (*Asset Value*) é o valor financeiro do ativo e $\text{EF}$ (*Exposure Factor*) é a fração percentual do valor do ativo perdida em um único incidente (0% a 100%).
-    2. **ALE (*Annualized Loss Expectancy* - Expectativa de Perda Anual):**
-       $$\text{ALE} = \text{SLE} \times \text{ARO}$$
-       onde $\text{ARO}$ (*Annualized Rate of Occurrence*) é a frequência estimada do evento por ano (ex.: 1 incidente a cada 4 anos equivale a $\text{ARO} = 0{,}25$; 2 incidentes por ano equivale a $\text{ARO} = 2$).
-    3. **Análise de Custo-Benefício do Controle (CBA):**
-       $$\text{Valor do Controle} = (\text{ALE}_{\text{antes}} - \text{ALE}_{\text{depois}}) - \text{ACS}$$
-       onde $\text{ACS}$ (*Annualized Cost of Safeguard*) é o custo anual de manutenção do controle. Se o saldo for positivo, o controle de segurança é economicamente viável.
+        1. **SLE (*Single Loss Expectancy* - Expectativa de Perda Única):**
+           $$\text{SLE} = \text{AV} \times \text{EF}$$
+           onde $\text{AV}$ (*Asset Value*) é o valor financeiro do ativo e $\text{EF}$ (*Exposure Factor*) é a fração percentual do valor do ativo perdida em um único incidente (0% a 100%).
+        2. **ALE (*Annualized Loss Expectancy* - Expectativa de Perda Anual):**
+           $$\text{ALE} = \text{SLE} \times \text{ARO}$$
+           onde $\text{ARO}$ (*Annualized Rate of Occurrence*) é a frequência estimada do evento por ano (ex.: 1 incidente a cada 4 anos equivale a $\text{ARO} = 0{,}25$; 2 incidentes por ano equivale a $\text{ARO} = 2$).
+        3. **Análise de Custo-Benefício do Controle (CBA):**
+           $$\text{Valor do Controle} = (\text{ALE}_{\text{antes}} - \text{ALE}_{\text{depois}}) - \text{ACS}$$
+           onde $\text{ACS}$ (*Annualized Cost of Safeguard*) é o custo anual de manutenção do controle. Se o saldo for positivo, o controle de segurança é economicamente viável.
 
 ### 3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)
 
@@ -232,6 +234,7 @@ O tratamento de incidentes cibernéticos adota o ciclo formalizado no guia NIST 
     - *Contenção:* Ação emergencial prioritária voltada a **estancar a disseminação do ataque e limitar o raio de destruição** (*blast radius*), tal como isolar a máquina da rede, desconectar cabos ou bloquear portas de switches.
     - *Erradicação:* Expurgar o agente agressor (remover malwares, fechar brechas de software e alterar credenciais comprometidas).
     - *Recuperação:* Restaurar sistemas para operação produtiva plena utilizando cópias seguras de backup, testando sua estabilidade.
+
 4. **Atividades Pós-Incidente (*Post-Incident Activity / Lessons Learned*):** Reunião formal de **Lições Aprendidas** para documentar como o incidente foi tratado, registrar métricas temporais e aprimorar as salvaguardas da fase de preparação.
 
 ---
@@ -241,6 +244,7 @@ O tratamento de incidentes cibernéticos adota o ciclo formalizado no guia NIST 
 ### 5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL
 
 A norma **ABNT NBR ISO/IEC 27001** estabelece os requisitos formais para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI).
+
 - **Certificação:** É a **única norma auditável e formalmente certificável** da família para organizações.
 - **Estrutura Harmonizada (Anexo SL - Cláusulas 4 a 10):**
     - *Cláusula 4:* Contexto da Organização (partes interessadas e escopo do SGSI)
@@ -280,6 +284,7 @@ A edição atualizada (ISO/IEC 27002:2022) simplificou os antigos 14 domínios d
     2. A justificativa técnica para inclusão de cada controle aplicável;
     3. O estado atual de implementação dos controles;
     4. A **justificativa formal obrigatória para a exclusão** de qualquer controle que não tenha sido adotado.
+
 - **ISO/IEC 27005:** Norma que fornece diretrizes especializadas para o processo de avaliação e tratamento de riscos de segurança da informação no suporte ao SGSI.
 
 ---
@@ -304,6 +309,7 @@ As situações 1, 2 e 3 correspondem, respectivamente, aos princípios de:
 * **E)** Integridade; Autenticidade; e Disponibilidade.
 
 > **Comentário Detalhado:**
+>
 > - **Situação 1:** Trata da garantia contra adulterações ou corrupções de conteúdo, correspondendo estritamente ao princípio da **Integridade**.
 > - **Situação 2:** Trata do barramento de visualização e leitura por terceiros não autorizados, salvaguardando o sigilo, o que define a **Confidencialidade**.
 > - **Situação 3:** Trata da impossibilidade jurídica de o autor contestar ou negar falsamente ter praticado o ato, o que define formalmente o princípio do **Não Repúdio** (ou Irretratabilidade).
@@ -328,6 +334,7 @@ A respeito dos conceitos de gestão de riscos e da família de normas ABNT NBR I
 * **E)** A opção de tratamento de risco denominada "Aceitação" consiste em instalar firewalls redundantes e sistemas IPS para zerar o risco residual.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Os conceitos foram invertidos: **Vulnerabilidade** é a fraqueza interna do ativo; **Ameaça** é o agente ou evento externo causador do dano potencial.
 > - **B)** **Correta.** A **ABNT NBR ISO/IEC 27001** prescreve formalmente os **requisitos do SGSI**, sendo a única norma da família 27000 passível de certificação institucional para organizações.
 > - **C)** Incorreta. A ISO/IEC 27002:2022 consolidou os antigos 14 domínios em **4 temas integrados**: Organizacionais, Pessoas, Físicos e Tecnológicos, somando 93 controles.
@@ -350,10 +357,11 @@ Com base nas métricas clássicas de análise quantitativa de risco ($\text{SLE}
 * **E)** R$ 160.000,00 e R$ 80.000,00.
 
 > **Comentário Detalhado:**
+>
 > - **1. Dados fornecidos:**
->   - $\text{AV}$ (*Asset Value*) = R$ 400.000,00
->   - $\text{EF}$ (*Exposure Factor*) = $40\% = 0{,}40$
->   - $\text{ARO}$ (*Annualized Rate of Occurrence*) = $0{,}25$
+>     - $\text{AV}$ (*Asset Value*) = R$ 400.000,00
+>     - $\text{EF}$ (*Exposure Factor*) = $40\% = 0{,}40$
+>     - $\text{ARO}$ (*Annualized Rate of Occurrence*) = $0{,}25$
 > - **2. Cálculo da Expectativa de Perda Única (SLE):**
 >   $$\text{SLE} = \text{AV} \times \text{EF} = 400.000 \times 0{,}40 = \text{R\$}~160.000,00$$
 > - **3. Cálculo da Expectativa de Perda Anual (ALE):**
@@ -374,8 +382,10 @@ A Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI) dispõe sobr
 Considere as seguintes assertivas sobre os graus de sigilo e prazos previstos na LAI:
 
 I. A classificação de uma informação como reservada impõe restrição de acesso pelo prazo máximo de 5 anos.  
+
 II. A informação classificada como secreta possui prazo máximo de restrição de 15 anos, sendo admitida prorrogação automática e ilimitada por sucessivos períodos de 10 anos.  
-III. O prazo máximo de restrição de acesso à informação ultrassecreta é de 25 anos, podendo ser prorrogado uma única vez, por igual período, por decisão privativa da Comissão Mista de Reavaliação de Informações (CMRI).
+
+III. O prazo máximo de restrição de acesso à informação ultrassecreta é de 25 anos, podendo ser prorrogado uma única vez, por igual período, por decisão privativa da Comissão Mista de Reavaliação de Informações (CMRI).  
 
 Está correto o que se afirma em:
 
@@ -386,6 +396,7 @@ Está correto o que se afirma em:
 * **E)** I, II e III.
 
 > **Comentário Detalhado:**
+>
 > - **Item I (Correto):** Conforme o Art. 24, § 1º, III da LAI, o prazo de sigilo da informação **reservada** é de no máximo **5 anos**.
 > - **Item II (Incorreto):** O prazo da informação **secreta** é de **15 anos**, mas a LAI **não admite prorrogações sucessivas ou ilimitadas**; o sigilo extingue-se impreterivelmente ao final dos 15 anos.
 > - **Item III (Correto):** Conforme o Art. 24, § 1º, I c/c Art. 35, § 1º da LAI, a informação **ultrassecreta** possui prazo de **25 anos**, admitindo **uma única prorrogação por igual período** por decisão privativa da CMRI.
@@ -412,6 +423,7 @@ A referida ação operacional executada pela equipe insere-se formalmente na fas
 * **E)** Classificação de Ativos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Preparação é a etapa preventiva preliminar (treinamentos, políticas e criação do CSIRT).
 > - **B)** Incorreta. Detecção e análise já ocorreram, pois o malware foi previamente identificado e analisado.
 > - **C)** **Correta.** A ação de desconectar cabos, isolar máquinas da rede ou desativar portas de switch compõe a essência da **Contenção (*Containment*)**, cuja finalidade imediata é frear o avanço do ataque e limitar o dano aos ativos adjacentes.

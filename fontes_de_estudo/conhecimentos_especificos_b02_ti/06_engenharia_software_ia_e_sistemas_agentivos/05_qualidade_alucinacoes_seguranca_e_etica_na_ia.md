@@ -17,32 +17,32 @@
 ---
 
 ## 🧭 Sumário
-- [1. Avaliação de Qualidade e Benchmarks de IA para Software](#1-avaliação-de-qualidade-e-benchmarks-de-ia-para-software)
-    - [1.1 Limitações de Métricas Tradicionais de PLN e a Ascensão do CodeBLEU](#11-limitações-de-métricas-tradicionais-de-pln-e-a-ascensão-do-codebleu)
-    - [1.2 A Métrica Soberana de Avaliação Funcional: Pass@k](#12-a-métrica-soberana-de-avaliação-funcional-passk)
-    - [1.3 Benchmarks Fundacionais da Indústria: HumanEval, MBPP e SWE-bench](#13-benchmarks-fundacionais-da-indústria-humaneval-mbpp-e-swe-bench)
-    - [1.4 Avaliação de Qualidade Estática, Complexidade Ciclomática e Manutenibilidade](#14-avaliação-de-qualidade-estática-complexidade-ciclomática-e-manutenibilidade)
-- [2. Alucinações em LLMs e Mecanismos de Validação de Resultados](#2-alucinações-em-llms-e-mecanismos-de-validação-de-resultados)
-    - [2.1 Natureza e Tipologia das Alucinações em Código-Fonte](#21-natureza-e-tipologia-das-alucinações-em-código-fonte)
-    - [2.2 Mecanismos de Mitigação: Sandboxing, Linters e Verificação Formal](#22-mecanismos-de-mitigação-sandboxing-linters-e-verificação-formal)
-- [3. Segurança da Informação e Riscos Cibernéticos em Código Gerado por IA](#3-segurança-da-informação-e-riscos-cibernéticos-em-código-gerado-por-ia)
+- [1. Avaliação de Qualidade e Benchmarks de IA para Software](#1-avaliacao-de-qualidade-e-benchmarks-de-ia-para-software)
+    - [1.1 Limitações de Métricas Tradicionais de PLN e a Ascensão do CodeBLEU](#11-limitacoes-de-metricas-tradicionais-de-pln-e-a-ascensao-do-codebleu)
+    - [1.2 A Métrica Soberana de Avaliação Funcional: Pass@k](#12-a-metrica-soberana-de-avaliacao-funcional-passk)
+    - [1.3 Benchmarks Fundacionais da Indústria: HumanEval, MBPP e SWE-bench](#13-benchmarks-fundacionais-da-industria-humaneval-mbpp-e-swe-bench)
+    - [1.4 Avaliação de Qualidade Estática, Complexidade Ciclomática e Manutenibilidade](#14-avaliacao-de-qualidade-estatica-complexidade-ciclomatica-e-manutenibilidade)
+- [2. Alucinações em LLMs e Mecanismos de Validação de Resultados](#2-alucinacoes-em-llms-e-mecanismos-de-validacao-de-resultados)
+    - [2.1 Natureza e Tipologia das Alucinações em Código-Fonte](#21-natureza-e-tipologia-das-alucinacoes-em-codigo-fonte)
+    - [2.2 Mecanismos de Mitigação: Sandboxing, Linters e Verificação Formal](#22-mecanismos-de-mitigacao-sandboxing-linters-e-verificacao-formal)
+- [3. Segurança da Informação e Riscos Cibernéticos em Código Gerado por IA](#3-seguranca-da-informacao-e-riscos-ciberneticos-em-codigo-gerado-por-ia)
     - [3.1 Ataques de Supply Chain e Envenenamento de Pacotes: Slopsquatting e Package Squatting](#31-ataques-de-supply-chain-e-envenenamento-de-pacotes-slopsquatting-e-package-squatting)
-    - [3.2 Reprodução de Vulnerabilidades Conhecidas (CWE / OWASP) e Insecure Output Handling](#32-reprodução-de-vulnerabilidades-conhecidas-cwe--owasp-e-insecure-output-handling)
+    - [3.2 Reprodução de Vulnerabilidades Conhecidas (CWE / OWASP) e Insecure Output Handling](#32-reproducao-de-vulnerabilidades-conhecidas-cwe-owasp-e-insecure-output-handling)
     - [3.3 Vazamento de Segredos e Credenciais em Prompts (OWASP LLM06)](#33-vazamento-de-segredos-e-credenciais-em-prompts-owasp-llm06)
-    - [3.4 Injeção de Instruções: Direct Prompt Injection vs. Indirect Prompt Injection (OWASP LLM01)](#34-injeção-de-instruções-direct-prompt-injection-vs-indirect-prompt-injection-owasp-llm01)
-    - [3.5 Overreliance (Confiança Excessiva - OWASP LLM09) e Complacência Cognitiva](#35-overreliance-confiança-excessiva---owasp-llm09-e-complacência-cognitiva)
-- [4. Privacidade e Proteção de Dados (LGPD) em Assistentes de Desenvolvimento](#4-privacidade-e-proteção-de-dados-lgpd-em-assistentes-de-desenvolvimento)
-    - [4.1 Exposição de Código Proprietário e Dados Pessoais de Cidadãos](#41-exposição-de-código-proprietário-e-dados-pessoais-de-cidadãos)
-    - [4.2 Cláusulas Críticas: Zero Data Retention (ZDR) e Opt-Out de Retreinamento](#42-cláusulas-críticas-zero-data-retention-zdr-e-opt-out-de-retreinamento)
+    - [3.4 Injeção de Instruções: Direct Prompt Injection vs. Indirect Prompt Injection (OWASP LLM01)](#34-injecao-de-instrucoes-direct-prompt-injection-vs-indirect-prompt-injection-owasp-llm01)
+    - [3.5 Overreliance (Confiança Excessiva - OWASP LLM09) e Complacência Cognitiva](#35-overreliance-confianca-excessiva-owasp-llm09-e-complacencia-cognitiva)
+- [4. Privacidade e Proteção de Dados (LGPD) em Assistentes de Desenvolvimento](#4-privacidade-e-protecao-de-dados-lgpd-em-assistentes-de-desenvolvimento)
+    - [4.1 Exposição de Código Proprietário e Dados Pessoais de Cidadãos](#41-exposicao-de-codigo-proprietario-e-dados-pessoais-de-cidadaos)
+    - [4.2 Cláusulas Críticas: Zero Data Retention (ZDR) e Opt-Out de Retreinamento](#42-clausulas-criticas-zero-data-retention-zdr-e-opt-out-de-retreinamento)
     - [4.3 Modelos Locais (On-Premise) e Nuvens Privadas Governamentais](#43-modelos-locais-on-premise-e-nuvens-privadas-governamentais)
 - [5. Propriedade Intelectual, Direitos Autorais e Licenciamento de Software](#5-propriedade-intelectual-direitos-autorais-e-licenciamento-de-software)
-    - [5.1 Legislação Autoral Vigente e a Titularidade de Códigos Gerados por IA](#51-legislação-autoral-vigente-e-a-titularidade-de-códigos-gerados-por-ia)
-    - [5.2 Contaminação de Licenças de Código Aberto (License Poisoning) e Licenças Copyleft (GPLv3)](#52-contaminação-de-licenças-de-código-aberto-license-poisoning-e-licenças-copyleft-gplv3)
-    - [5.3 Filtros de Correspondência de Código Público (Public Code Match Filters)](#53-filtros-de-correspondência-de-código-público-public-code-match-filters)
-- [6. Ética no Desenvolvimento Assistido e Responsabilidade Profissional Indelegável](#6-ética-no-desenvolvimento-assistido-e-responsabilidade-profissional-indelegável)
-    - [6.1 O Princípio da Supervisão Humana Significativa (Meaningful Human Control)](#61-o-princípio-da-supervisão-humana-significativa-meaningful-human-control)
-    - [6.2 Marco Regulatório do TCE-GO (Resolução Administrativa nº 24/2024) e Responsabilidade Funcional](#62-marco-regulatório-do-tce-go-resolução-administrativa-nº-242024-e-responsabilidade-funcional)
-- [7. Questões Comentadas & Prática Padrão FCC](#7-questões-comentadas--prática-padrão-fcc)
+    - [5.1 Legislação Autoral Vigente e a Titularidade de Códigos Gerados por IA](#51-legislacao-autoral-vigente-e-a-titularidade-de-codigos-gerados-por-ia)
+    - [5.2 Contaminação de Licenças de Código Aberto (License Poisoning) e Licenças Copyleft (GPLv3)](#52-contaminacao-de-licencas-de-codigo-aberto-license-poisoning-e-licencas-copyleft-gplv3)
+    - [5.3 Filtros de Correspondência de Código Público (Public Code Match Filters)](#53-filtros-de-correspondencia-de-codigo-publico-public-code-match-filters)
+- [6. Ética no Desenvolvimento Assistido e Responsabilidade Profissional Indelegável](#6-etica-no-desenvolvimento-assistido-e-responsabilidade-profissional-indelegavel)
+    - [6.1 O Princípio da Supervisão Humana Significativa (Meaningful Human Control)](#61-o-principio-da-supervisao-humana-significativa-meaningful-human-control)
+    - [6.2 Marco Regulatório do TCE-GO (Resolução Administrativa nº 24/2024) e Responsabilidade Funcional](#62-marco-regulatorio-do-tce-go-resolucao-administrativa-no-242024-e-responsabilidade-funcional)
+- [7. Questões Comentadas & Prática Padrão FCC](#7-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -86,6 +86,7 @@ Onde:
 - $k$: número de chances/tentativas consideradas na métrica.
 
 **Interpretação Prática das Variações:**
+
 - **$\text{pass@1}$:** Mede a precisão e o determinismo do modelo na primeiríssima tentativa (geração com temperatura baixa ou $k=1$). É a métrica mais relevante para assistentes de auto-completar em IDEs (onde o desenvolvedor espera que a sugestão imediata funcione de primeira).
 - **$\text{pass@5}$ ou $\text{pass@10}$:** Mede a capacidade exploratória e a diversidade gerativa do modelo em cenários agentivos ou depuração autônoma, onde a ferramenta pode gerar múltiplos candidatos em sandbox e testá-los antes de apresentar a solução final.
 
@@ -319,6 +320,7 @@ Esses dois fenômenos de segurança cibernética são denominados tecnicamente, 
 * **E)** *Denial of Service (DoS)* e *Poisoning de Gradiente*.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O *Direct Prompt Injection* decorre de instruções enviadas diretamente pelo usuário na caixa de diálogo inicial da IA, ao passo que a situação 1 descreve a absorção passiva de instruções hostis de terceiros lidas em arquivos. Além disso, SQL Injection é uma vulnerabilidade clássica de bancos de dados relacionais e nada tem a ver com a criação de dependências fictícias.
 > - **B)** Correta. A primeira situação é uma **Injeção Indireta de Prompt (*Indirect Prompt Injection*)**, onde dados não confiáveis de repositórios ou relatórios sequestram o controle operacional do agente autônomo. A segunda situação é a **Alucinação de Pacotes (*Package Hallucination*)**, que quando explorada por atacantes para registro premeditado de dependências maliciosas em gerenciadores públicos é denominada **Slopsquatting** ou **Package Squatting**.
 > - **C)** Incorreta. *Overreliance* diz respeito à complacência cognitiva e confiança cega na IA por parte do desenvolvedor; XSS consiste na injeção de scripts maliciosos em páginas web renderizadas no cliente.
@@ -333,8 +335,10 @@ Esses dois fenômenos de segurança cibernética são denominados tecnicamente, 
 No tocante às métricas de qualidade de modelos de linguagem aplicados à engenharia de software e à governança de IA no setor público, analise as afirmativas a seguir:
 
 I. O benchmark *HumanEval* avalia a resolução de problemas de programação em nível de funções algorítmicas autocontidas e isoladas, enquanto o benchmark *SWE-bench* avalia a capacidade de agentes em resolver issues completas do mundo real em repositórios complexos do GitHub, demandando raciocínio multi-arquivo e passagem em testes de regressão.  
+
 II. O risco de *Overreliance* (confiança excessiva), categorizado pela OWASP, manifesta-se quando desenvolvedores ou auditores aceitam cegamente o código ou relatórios produzidos por LLMs sem auditoria humana, ignorando potenciais alucinações lógicas e vulnerabilidades de segurança.  
-III. Em conformidade com os princípios éticos da administração pública e normativos institucionais de controle (como a RA nº 24/2024 do TCE-GO), o uso de agentes autônomos de IA transfere integralmente para o fornecedor da plataforma de inteligência artificial a responsabilidade civil e disciplinar por falhas de sistemas colocados em produção.
+
+III. Em conformidade com os princípios éticos da administração pública e normativos institucionais de controle (como a RA nº 24/2024 do TCE-GO), o uso de agentes autônomos de IA transfere integralmente para o fornecedor da plataforma de inteligência artificial a responsabilidade civil e disciplinar por falhas de sistemas colocados em produção.  
 
 Está correto o que se afirma em:
 
@@ -345,6 +349,7 @@ Está correto o que se afirma em:
 * **E)** I, II e III.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. Os itens I e II estão tecnicamente perfeitos: o *HumanEval* avalia funções simples de Python a partir de docstrings, enquanto o *SWE-bench* é o padrão para resolver problemas de repositórios reais com múltiplos arquivos e testes de regressão. O *Overreliance* (OWASP LLM09) é a complacência humana que homologa artefatos de IA sem auditoria crítica.
 > - **B)** Incorreta. O item III está errado ao alegar transferência de responsabilidade para o fornecedor de IA.
 > - **C)** Incorreta. O item I também está correto e o item III está errado.
@@ -367,6 +372,7 @@ A justificativa metodológica correta para a escolha do $\text{pass@}k$ reside n
 * **E)** O $\text{pass@}k$ só pode ser computado se o modelo de linguagem for executado diretamente no microcontrolador de uma impressora fiscal.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Trata-se de uma afirmação absurda sem fundamentação matemática.
 > - **B)** Correta. O BLEU foi concebido para tradução de idiomas humanos e compara sobreposição de n-gramas lexicais. No código de software, dois programas funcionalmente idênticos podem usar estruturas de loop diferentes ou nomes de identificadores distintos, resultando em BLEU baixo apesar de ambos funcionarem perfeitamente. A métrica **$\text{pass@}k$** avalia a **corretude funcional real**: executa o programa em um ambiente de testes e valida se as asserções de saída passam com sucesso.
 > - **C)** Incorreta. O $\text{pass@}k$ valida que o código gerado passou com sucesso nas asserções de teste unitário funcional, não realizando varredura estática de segurança ou imunidade a CVEs.
@@ -389,6 +395,7 @@ Considerando os aspectos de propriedade intelectual e licenciamento de software,
 * **E)** O desenvolvedor torna-se titular perpétuo de uma patente internacional concedida pela Organização Mundial da Propriedade Intelectual (OMPI).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O uso de geradores de inteligência artificial não derroga ou anula direitos autorais preexistentes nem desobriga a observância de licenças de software.
 > - **B)** Correta. A licença GPLv3 possui forte cláusula de *copyleft* recíproco: a inclusão substancial de código derivado de software GPL em outro projeto impõe que a totalidade do software seja licenciada sob os mesmos termos da GPLv3 caso venha a ser distribuído. Em sistemas institucionais proprietários ou de código fechado, a identificação dessa contaminação exige a imediata remoção e refatoração limpa (*clean-room design*) do componente afetado.
 > - **C)** Incorreta. A GPL não confere direitos de cobrança de royalties sobre terceiros.
@@ -409,6 +416,7 @@ Em conformidade com a Lei Geral de Proteção de Dados (LGPD) e as melhores prá
 * **E)** A obrigatoriedade de que todos os computadores dos auditores fiscais operem sem senhas de autenticação.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Disponibilizar código e dados fiscais em servidores públicos de compartilhamento livre constitui grave violação do sigilo fiscal e da LGPD.
 > - **B)** Incorreta. A Administração Pública não pode renunciar ao poder-dever de fiscalização e auditoria em contratos de tecnologia.
 > - **C)** Correta. As contratações de serviços de IA pelo setor público devem impor salvaguardas contratuais rigorosas de privacidade e segurança: proibição estrita de treinamento (*Opt-Out* de retreino), retenção efêmera de dados (*Zero Data Retention* - ZDR) e padrões avançados de criptografia em trânsito (TLS 1.3) e em repouso com controle corporativo de chaves.

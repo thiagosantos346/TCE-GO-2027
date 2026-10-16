@@ -17,29 +17,28 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Criptografia Simétrica (Chave Secreta Compartilhada)](#1-criptografia-simétrica-chave-secreta-compartilhada)
-    - [1.1 Fundamentos, Vantagens e o Problema da Distribuição de Chaves](#11-fundamentos-vantagens-e-o-problema-da-distribuição-de-chaves)
+- [1. Criptografia Simétrica (Chave Secreta Compartilhada)](#1-criptografia-simetrica-chave-secreta-compartilhada)
+    - [1.1 Fundamentos, Vantagens e o Problema da Distribuição de Chaves](#11-fundamentos-vantagens-e-o-problema-da-distribuicao-de-chaves)
     - [1.2 Cifras de Bloco vs. Cifras de Fluxo (AES, DES, 3DES, ChaCha20)](#12-cifras-de-bloco-vs-cifras-de-fluxo-aes-des-3des-chacha20)
-    - [1.3 Modos de Operação de Bloco (ECB, CBC, CTR, GCM e AEAD)](#13-modos-de-operação-de-bloco-ecb-cbc-ctr-gcm-e-aead)
-- [2. Criptografia Assimétrica (Chaves Públicas)](#2-criptografia-assimétrica-chaves-públicas)
-    - [2.1 Princípios Matemáticos e as Duas Operações Fundamentais](#21-princípios-matemáticos-e-as-duas-operações-fundamentais)
-    - [2.2 Algoritmos Assimétricos Principais (RSA, ECC, Diffie-Hellman)](#22-algoritmos-assimétricos-principais-rsa-ecc-diffie-hellman)
-    - [2.3 Criptografia Híbrida na Prática](#23-criptografia-híbrida-na-prática)
-- [3. Funções de Resumo Criptográfico (Hash)](#3-funções-de-resumo-criptográfico-hash)
-    - [3.1 Propriedades Matemáticas Essenciais e Princípio do Pombal](#31-propriedades-matemáticas-essenciais-e-princípio-do-pombal)
-    - [3.2 Algoritmos Seguros vs. Vulneráveis (SHA-2, SHA-3, MD5, SHA-1)](#32-algoritmos-seguros-vs-vulneráveis-sha-2-sha-3-md5-sha-1)
-- [4. Infraestrutura de Chaves Públicas e a ICP-Brasil](#4-infraestrutura-de-chaves-públicas-e-a-icp-brasil)
-    - [4.1 Estrutura Organizacional e Hierarquia Legal (MP nº 2.200-2/2001)](#41-estrutura-organizacional-e-hierarquia-legal-mp-nº-2200-22001)
-    - [4.2 Certificados Digitais Padrão X.509 v3 e Ciclo de Vida](#42-certificados-digitais-padrão-x509-v3-e-ciclo-de-vida)
-    - [4.3 Mecanismos de Revogação: LCR / CRL vs. OCSP](#43-mecanismos-de-revogação-lcr--crl-vs-ocsp)
-    - [4.4 Tipos de Certificados na ICP-Brasil (A1 vs. A3, Séries S e T)](#44-tipos-de-certificados-na-icp-brasil-a1-vs-a3-séries-s-e-t)
-- [5. Assinatura Digital e Validade Jurídica](#5-assinatura-digital-e-validade-jurídica)
-    - [5.1 Mecânica Operacional Passo a Passo (Geração e Verificação)](#51-mecânica-operacional-passo-a-passo-geração-e-verificação)
-    - [5.2 Propriedades Garantidas vs. Ausência de Confidencialidade](#52-propriedades-garantidas-vs-ausência-de-confidencialidade)
-    - [5.3 Padrões de Assinatura Avançada (CAdES, XAdES, PAdES) e Carimbo do Tempo](#53-padrões-de-assinatura-avançada-cades-xades-pades-e-carimbo-do-tempo)
+    - [1.3 Modos de Operação de Bloco (ECB, CBC, CTR, GCM e AEAD)](#13-modos-de-operacao-de-bloco-ecb-cbc-ctr-gcm-e-aead)
+- [2. Criptografia Assimétrica (Chaves Públicas)](#2-criptografia-assimetrica-chaves-publicas)
+    - [2.1 Princípios Matemáticos e as Duas Operações Fundamentais](#21-principios-matematicos-e-as-duas-operacoes-fundamentais)
+    - [2.2 Algoritmos Assimétricos Principais (RSA, ECC, Diffie-Hellman)](#22-algoritmos-assimetricos-principais-rsa-ecc-diffie-hellman)
+    - [2.3 Criptografia Híbrida na Prática](#23-criptografia-hibrida-na-pratica)
+- [3. Funções de Resumo Criptográfico (Hash)](#3-funcoes-de-resumo-criptografico-hash)
+    - [3.1 Propriedades Matemáticas Essenciais e Princípio do Pombal](#31-propriedades-matematicas-essenciais-e-principio-do-pombal)
+    - [3.2 Algoritmos Seguros vs. Vulneráveis (SHA-2, SHA-3, MD5, SHA-1)](#32-algoritmos-seguros-vs-vulneraveis-sha-2-sha-3-md5-sha-1)
+- [4. Infraestrutura de Chaves Públicas e a ICP-Brasil](#4-infraestrutura-de-chaves-publicas-e-a-icp-brasil)
+    - [4.1 Estrutura Organizacional e Hierarquia Legal (MP nº 2.200-2/2001)](#41-estrutura-organizacional-e-hierarquia-legal-mp-no-2200-22001)
+    - [4.2 Certificados Digitais Padrão X.509 v3 e Ciclo de Vida](#42-certificados-digitais-padrao-x509-v3-e-ciclo-de-vida)
+    - [4.3 Mecanismos de Revogação: LCR / CRL vs. OCSP](#43-mecanismos-de-revogacao-lcr-crl-vs-ocsp)
+    - [4.4 Tipos de Certificados na ICP-Brasil (A1 vs. A3, Séries S e T)](#44-tipos-de-certificados-na-icp-brasil-a1-vs-a3-series-s-e-t)
+- [5. Assinatura Digital e Validade Jurídica](#5-assinatura-digital-e-validade-juridica)
+    - [5.1 Mecânica Operacional Passo a Passo (Geração e Verificação)](#51-mecanica-operacional-passo-a-passo-geracao-e-verificacao)
+    - [5.2 Propriedades Garantidas vs. Ausência de Confidencialidade](#52-propriedades-garantidas-vs-ausencia-de-confidencialidade)
+    - [5.3 Padrões de Assinatura Avançada (CAdES, XAdES, PAdES) e Carimbo do Tempo](#53-padroes-de-assinatura-avancada-cades-xades-pades-e-carimbo-do-tempo)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Exemplos Práticos](#7-questões-comentadas--exemplos-práticos)
+- [7. Questões Comentadas & Exemplos Práticos](#7-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -365,12 +364,12 @@ Para uniformizar a aplicação de assinaturas digitais em formatos padronizados,
 
 ## 6. Fontes Recomendadas na Internet
 
-### 1. Legislação Oficial e Documentos Governamentais
+#### 1. Legislação Oficial e Documentos Governamentais
 - [Estrutura da ICP-Brasil e Legislação (ITI / Gov.br)](https://www.gov.br/iti/pt-br/assuntos/icp-brasil): Portal oficial do Instituto Nacional de Tecnologia da Informação detalhando a hierarquia da cadeia de certificação brasileira, o papel da AC-Raiz, normas de credenciamento de ACs e ARs e padrões de assinatura digital.
 - [Medida Provisória nº 2.200-2/2001 (Planalto)](https://www.planalto.gov.br/ccivil_03/mpv/2200-2.htm): Diploma legal basilar que instituiu a ICP-Brasil, garantindo a presunção legal de veracidade aos documentos eletrônicos assinados com certificados digitais emitidos no âmbito da infraestrutura nacional.
 - [Cartilha de Criptografia do CERT.br](https://cartilha.cert.br/fasciculos/criptografia/): Fascículo oficial explicando o funcionamento de algoritmos simétricos (AES), assimétricos (RSA, ECC), resumos criptográficos (SHA-256) e certificados digitais.
 
-### 2. Padrões Técnicos Internacionais
+#### 2. Padrões Técnicos Internacionais
 - [RFC 5280 - Internet X.509 Public Key Infrastructure Certificate Profile](https://datatracker.ietf.org/doc/html/rfc5280): Especificação técnica formal dos campos do certificado X.509 v3, listas de certificados revogados (LCR / CRL) e caminhos de certificação.
 - [NIST SP 800-38D - Recommendation for Block Cipher Modes of Operation: GCM](https://csrc.nist.gov/publications/detail/sp/800-38d/final): Padrão de especificação formal do modo Galois/Counter Mode (GCM).
 
@@ -390,6 +389,7 @@ A respeito do processo técnico de assinatura digital e das garantias proporcion
 * **E)** A alteração de um único caractere no documento original após a assinatura não afeta o resultado da verificação, permanecendo a assinatura perfeitamente válida.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Cifrar o documento na íntegra com a chave pública do destinatário é a operação destinada a prover confidencialidade (sigilo), e não assinatura digital.
 > - **B)** Correta. A assinatura digital baseia-se na aplicação de uma função hash unidirecional sobre o documento para gerar um resumo fixo, seguida da cifragem desse resumo pela chave privada do remetente. O destinatário confere a validade decifrando a assinatura com a chave pública do remetente e comparando o resultado obtido com o hash recalculado do texto recebido.
 > - **C)** Incorreta. A assinatura digital provê autenticidade, integridade e não repúdio, mas não assegura confidencialidade. O documento assinado transita em texto legível.
@@ -404,8 +404,10 @@ A respeito do processo técnico de assinatura digital e das garantias proporcion
 No que tange à arquitetura hierárquica da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), instituída pela MP nº 2.200-2/2001, e aos tipos de certificados digitais X.509, analise as seguintes afirmativas:
 
 I. O Instituto Nacional de Tecnologia da Informação (ITI) desempenha as funções operacionais de Autoridade Certificadora Raiz (AC-Raiz) da ICP-Brasil, sendo a entidade máxima encarregada de emitir os certificados das Autoridades Certificadoras de primeiro nível.  
+
 II. As Autoridades de Registro (ARs) são entidades operacionais responsáveis pela identificação do solicitante e validação presencial ou biométrica de documentos, não possuindo competência para assinar nem emitir diretamente os certificados digitais.  
-III. O certificado digital ICP-Brasil do tipo A1 possui seu par de chaves criptográficas gerado e armazenado diretamente em mídia física segura inviolável (como cartão inteligente ou token criptográfico USB), enquanto o certificado do tipo A3 é gerado e armazenado em software no disco rígido do computador.
+
+III. O certificado digital ICP-Brasil do tipo A1 possui seu par de chaves criptográficas gerado e armazenado diretamente em mídia física segura inviolável (como cartão inteligente ou token criptográfico USB), enquanto o certificado do tipo A3 é gerado e armazenado em software no disco rígido do computador.  
 
 Está correto o que se afirma em:
 
@@ -416,6 +418,7 @@ Está correto o que se afirma em:
 * **E)** I, II e III.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O item II também está integralmente correto, tornando a opção incompleta.
 > - **B)** Correta. O Item I é verdadeiro porque a MP 2.200-2/2001 estabelece o ITI como AC-Raiz da cadeia nacional. O Item II é verdadeiro porque as Autoridades de Registro (ARs) atuam na validação da identidade dos titulares, sem possuir autoridade para assinar ou emitir certificados digitais. O Item III é falso por inversão de conceitos: A1 é armazenado em software (validade 1 ano) e A3 é armazenado em hardware seguro inviolável (validade até 5 anos).
 > - **C)** Incorreta. Julga verdadeiro o Item III, que contém grave erro de inversão de conceitos.
@@ -438,6 +441,7 @@ Assinale a afirmativa correta sobre o tema:
 * **E)** O modo de operação GCM (*Galois/Counter Mode*) foi descontinuado pelos padrões modernos da IETF por não suportar criptografia autenticada com dados associados (AEAD).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O modo ECB não realiza encadeamento nem utiliza vetor de inicialização (quem faz isso é o CBC). No ECB, blocos idênticos geram textos cifrados idênticos, preservando padrões visuais e contextuais dos dados.
 > - **B)** Incorreta. Quem operava com blocos de 64 bits e chave de 56 bits era o padrão obsoleto DES. O AES opera com blocos de 128 bits e suporta chaves de 128, 192 e 256 bits.
 > - **C)** Correta. O cálculo de chaves simétricas independentes para $N$ usuários é dado por $K = \frac{N(N-1)}{2}$. Para $N = 20$: $K = \frac{20 \times 19}{2} = \frac{380}{2} = 190$ chaves secretas distintas.
@@ -460,6 +464,7 @@ A respeito das propriedades matemáticas e características das funções hash, 
 * **E)** A resistência a colisões forte significa que é impossível que duas mensagens distintas venham a ter o mesmo hash em qualquer cenário matemático teórico.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O MD5 gera resumos de 128 bits e é considerado inseguro e vulnerável a colisões práticas, sendo expressamente banido pela ICP-Brasil. O padrão adotado é o SHA-256.
 > - **B)** Incorreta. O efeito avalanche é uma característica essencial e altamente desejável segundo a qual a menor modificação no texto de entrada altera dramaticamente cerca de 50% dos bits do hash de saída.
 > - **C)** Correta. A unidirecionalidade (*pre-image resistance*) define que a função opera em mão única: é simples calcular o resumo a partir do dado de entrada, mas computacionalmente inviável inverter o processo para recuperar a mensagem original a partir do hash.
@@ -482,6 +487,7 @@ Sobre os campos do certificado X.509 v3 e os mecanismos de revogação de certif
 * **E)** Caso um certificado digital esteja presente na LCR da autoridade emissora, o sistema de controle de acesso deve considerá-lo plenamente confiável e válido até o término do ano corrente.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O mecanismo que exige o download da lista monolítica em lote é a LCR/CRL. O protocolo OCSP realiza consultas pontuais leves em tempo real sobre o número de série do certificado.
 > - **B)** Correta. A Lista de Certificados Revogados (LCR / CRL) é a estrutura digital assinada periodicamente pela Autoridade Certificadora que relaciona os números de série dos certificados revogados antes do termo regular de vigência.
 > - **C)** Incorreta. O campo *Subject Public Key Info* armazena exclusivamente a chave pública do titular. A chave privada jamais integra o certificado digital.

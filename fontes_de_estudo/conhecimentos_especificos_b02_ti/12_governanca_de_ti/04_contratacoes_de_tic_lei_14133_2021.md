@@ -20,21 +20,21 @@
 ---
 
 ## 🧭 Sumário
-- [1. Princípios e Diretrizes das Contratações de TIC na Lei nº 14.133/2021](#1-princípios-e-diretrizes-das-contratações-de-tic-na-lei-nº-141332021)
-    - [1.1 Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)](#11-alinhamento-estratégico-e-planejamento-prévio-pdti-e-pca)
-    - [1.2 Vedações Expressas e Jurisprudência dos Tribunais de Contas](#12-vedações-expressas-e-jurisprudência-dos-tribunais-de-contas)
-- [2. O Ciclo de Vida da Contratação e a Fase Preparatória](#2-o-ciclo-de-vida-da-contratação-e-a-fase-preparatória)
+- [1. Princípios e Diretrizes das Contratações de TIC na Lei nº 14.133/2021](#1-principios-e-diretrizes-das-contratacoes-de-tic-na-lei-no-141332021)
+    - [1.1 Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)](#11-alinhamento-estrategico-e-planejamento-previo-pdti-e-pca)
+    - [1.2 Vedações Expressas e Jurisprudência dos Tribunais de Contas](#12-vedacoes-expressas-e-jurisprudencia-dos-tribunais-de-contas)
+- [2. O Ciclo de Vida da Contratação e a Fase Preparatória](#2-o-ciclo-de-vida-da-contratacao-e-a-fase-preparatoria)
     - [2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)](#21-artefatos-da-fase-de-planejamento-dod-etp-mapa-de-riscos-e-tr)
-    - [2.2 Custo Total de Propriedade (TCO - Total Cost of Ownership)](#22-custo-total-de-propriedade-tco---total-cost-of-ownership)
-- [3. Fase de Seleção do Fornecedor em TIC](#3-fase-de-seleção-do-fornecedor-em-tic)
-    - [3.1 Modalidades de Licitação (Pregão, Concorrência e Diálogo Competitivo)](#31-modalidades-de-licitação-pregão-concorrência-e-diálogo-competitivo)
-    - [3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)](#32-hipóteses-de-contratação-direta-em-tic-inexigibilidade-vs-dispensa)
-- [4. Gestão e Fiscalização de Contratos de TIC](#4-gestão-e-fiscalização-de-contratos-de-tic)
-    - [4.1 Segregação de Papéis na Equipe de Fiscalização](#41-segregação-de-papéis-na-equipe-de-fiscalização)
-    - [4.2 Instrumento de Medição de Resultado (IMR), SLA e Glosas](#42-instrumento-de-medição-de-resultado-imr-sla-e-glosas)
-    - [4.3 Recebimento Provisório e Recebimento Definitivo](#43-recebimento-provisório-e-recebimento-definitivo)
+    - [2.2 Custo Total de Propriedade (TCO - Total Cost of Ownership)](#22-custo-total-de-propriedade-tco-total-cost-of-ownership)
+- [3. Fase de Seleção do Fornecedor em TIC](#3-fase-de-selecao-do-fornecedor-em-tic)
+    - [3.1 Modalidades de Licitação (Pregão, Concorrência e Diálogo Competitivo)](#31-modalidades-de-licitacao-pregao-concorrencia-e-dialogo-competitivo)
+    - [3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)](#32-hipoteses-de-contratacao-direta-em-tic-inexigibilidade-vs-dispensa)
+- [4. Gestão e Fiscalização de Contratos de TIC](#4-gestao-e-fiscalizacao-de-contratos-de-tic)
+    - [4.1 Segregação de Papéis na Equipe de Fiscalização](#41-segregacao-de-papeis-na-equipe-de-fiscalizacao)
+    - [4.2 Instrumento de Medição de Resultado (IMR), SLA e Glosas](#42-instrumento-de-medicao-de-resultado-imr-sla-e-glosas)
+    - [4.3 Recebimento Provisório e Recebimento Definitivo](#43-recebimento-provisorio-e-recebimento-definitivo)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
+- [6. Questões Comentadas no Padrão FCC](#6-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -155,6 +155,7 @@ flowchart TD
     1. Visa contratar objeto que envolva **inovação tecnológica ou técnica**;
     2. Não possui conhecimento suficiente para redigir as especificações técnicas da solução disponível no mercado; ou
     3. Precisa avaliar e definir a melhor modelagem técnica, jurídica ou financeira com o mercado antes de formular o edital final.
+
 - **Dinâmica:**
     - *Fase de Diálogo:* O órgão publica edital convocatório, seleciona concorrentes qualificados e realiza rodadas de diálogo transparentes para construir a melhor solução técnica.
     - *Fase Competitiva:* Concluído o diálogo, publica-se o edital final com a solução construída, concedendo prazo de no mínimo 60 dias para a apresentação das propostas formais de preço e técnica.
@@ -224,6 +225,7 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 1. **Recebimento Provisório:**  
     - Realizado pelos **Fiscais Técnico, Requisitante e Administrativo** imediatamente após a entrega do produto ou encerramento da etapa de serviços.  
     - Objetivo: Registrar a entrega formal para fins de início dos testes de homologação e inspeção detalhada de conformidade.
+
 2. **Recebimento Definitivo:**  
     - Realizado pelo **Gestor do Contrato** ou por comissão designada, após a homologação técnica completa, validação de conformidade com o Termo de Referência e apuração dos indicadores do IMR.  
     - Objetivo: Atestar a conformidade integral do objeto, autorizando a liquidação e o pagamento final da fatura.
@@ -256,6 +258,7 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 * **E)** A responsabilidade pela escolha da métrica de homem-hora é privativa da empresa licitante vencedora, não podendo a Administração impor métricas de pagamento.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O modelo ágil não autoriza a administração pública a remunerar fornecedores por mera "presença física" ou tempo corrido sem entrega de valor mensurável; a jurisprudência pacífica do TCU exige aferição objetiva de resultados mesmo em projetos ágeis.
 > - **B)** **Correta.** A Súmula nº 269 do TCU e os princípios da economicidade, eficiência e motivação da Lei nº 14.133/2021 vedam a remuneração de serviços de TIC baseada unicamente em homem-hora desvinculada de resultados mensuráveis. O pagamento deve basear-se em produtos, ordens de serviço, métricas objetivas (como Pontos de Função ou UST) e cumprimento de metas de SLA através do IMR.
 > - **C)** Incorreta. O Leilão destina-se à alienação de bens móveis inservíveis ou imóveis da administração, jamais à contratação de serviços de software.
@@ -276,6 +279,7 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 * **E)** Credenciamento Automático.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O pregão presencial é exceção na Lei nº 14.133/2021 (a regra é a forma eletrônica) e é restrito a bens e serviços comuns, sendo inviável para situações em que a administração sequer consegue especificar o objeto sem diálogo prévio com o mercado.
 > - **B)** **Correta.** O Diálogo Competitivo (Art. 32 da Lei nº 14.133/2021) foi introduzido exatamente para contratações que envolvem inovação tecnológica ou técnica, impossibilidade de a administração definir com precisão suficiente as especificações técnicas da solução, ou necessidade de definir a melhor modelagem da contratação através de diálogo prévio com licitantes previamente selecionados.
 > - **C)** Incorreta. O Concurso destina-se à escolha de trabalho técnico, científico ou artístico para concessão de prêmio ou remuneração.
@@ -296,6 +300,7 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 * **E)** Depreciação Linear Fixa Arbitrária.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. ROE é um indicador financeiro privado de rentabilidade sobre patrimônio acionário, não tendo relação com a avaliação integral do ciclo de vida de aquisição de TIC.
 > - **B)** **Correta.** O Custo Total de Propriedade (TCO - *Total Cost of Ownership*) é a metodologia que calcula o custo integral de uma solução ao longo de todo o seu ciclo de vida (aquisição, implantação, treinamento, energia, suporte/manutenção e descarte/migração), sendo ferramenta obrigatória no ETP de TIC para evitar falsas economias baseadas apenas no menor preço inicial de licença.
 > - **C)** Incorreta. Análise de Pontos de Função (FPA) é técnica de medição do tamanho funcional de software, não cálculo financeiro de ciclo de vida.
@@ -316,6 +321,7 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 * **E)** A Lei nº 14.133/2021 proibiu expressamente a figura do recebimento provisório em contratos de TIC para conferir maior velocidade às compras públicas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Ambos os recebimentos são atos administrativos privativos de agentes públicos da Administração contratante, jamais do fornecedor contratado.
 > - **B)** **Correta.** O Recebimento Provisório (Art. 140 da Lei 14.133/2021) é formalizado pelos fiscais do contrato assim que o fornecedor entrega o produto ou conclui a prestação do serviço, servindo para registrar o recebimento físico/lógico e dar início ao prazo de homologação, inspeção técnica e aferição das metas do IMR.
 > - **C)** Incorreta. O Recebimento Definitivo ocorre justamente após a verificação de que o objeto atende a todas as exigências do Termo de Referência, incluindo homologação e avaliação dos níveis de serviço do IMR.
@@ -336,6 +342,7 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 * **E)** Exigir que a contratada compense o tempo de queda aumentando a velocidade da internet residencial dos servidores da Secretaria.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O pagamento integral sem abatimento por serviço defeituoso ou abaixo do SLA configuraria liquidação irregular de despesa pública e dano ao erário.
 > - **B)** **Correta.** O Instrumento de Medição de Resultado (IMR) serve justamente para operacionalizar as glosas financeiras (retenções/descontos no valor faturado) correspondentes ao não alcance dos níveis mínimos de serviço pactuados, garantindo que o órgão público pague apenas pelo serviço efetivamente prestado com a qualidade exigida, cabendo ainda advertência ou multa em caso de reiteração de falhas graves.
 > - **C)** Incorreta. Solução desproporcional e ilegal que violaria o interesse público e a continuidade dos serviços.

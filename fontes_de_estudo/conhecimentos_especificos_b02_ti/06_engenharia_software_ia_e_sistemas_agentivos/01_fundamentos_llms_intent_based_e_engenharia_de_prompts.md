@@ -17,22 +17,22 @@
 
 ## 🧭 Sumário
 - [1. Modelos de Linguagem de Grande Porte (LLMs) no Desenvolvimento de Software](#1-modelos-de-linguagem-de-grande-porte-llms-no-desenvolvimento-de-software)
-    - [1.1 A Arquitetura Transformer e o Mecanismo de Autoatenção (Self-Attention)](#11-a-arquitetura-transformer-e-o-mecanismo-de-autoatenção-self-attention)
+    - [1.1 A Arquitetura Transformer e o Mecanismo de Autoatenção (Self-Attention)](#11-a-arquitetura-transformer-e-o-mecanismo-de-autoatencao-self-attention)
     - [1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder](#12-variantes-arquiteturais-encoder-only-decoder-only-e-encoder-decoder)
-    - [1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)](#13-ciclo-de-vida-do-treinamento-pré-treinamento-sft-e-alinhamento-rlhfdpo)
-    - [1.4 Tokenização, Vocabulário e Gestão de Custos Computacionais](#14-tokenização-vocabulário-e-gestão-de-custos-computacionais)
-    - [1.5 Hiperparâmetros de Inferência e Amostragem: Temperature, Top-P e Penalidades](#15-hiperparâmetros-de-inferência-e-amostragem-temperature-top-p-e-penalidades)
-- [2. Programação Baseada em Intenção e Linguagem Natural](#2-programação-baseada-em-intenção-e-linguagem-natural)
-    - [2.1 Intent-Based Programming: A Transição do "COMO" para o "O QUÊ"](#21-intent-based-programming-a-transição-do-como-para-o-o-quê)
-    - [2.2 Sintaxe Estrita vs. Semântica Declarativa e Contratos de Interface](#22-sintaxe-estrita-vs-semântica-declarativa-e-contratos-de-interface)
-    - [2.3 Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis](#23-especificações-dirigidas-por-comportamento-bdd-como-prompts-executáveis)
+    - [1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)](#13-ciclo-de-vida-do-treinamento-pre-treinamento-sft-e-alinhamento-rlhfdpo)
+    - [1.4 Tokenização, Vocabulário e Gestão de Custos Computacionais](#14-tokenizacao-vocabulario-e-gestao-de-custos-computacionais)
+    - [1.5 Hiperparâmetros de Inferência e Amostragem: Temperature, Top-P e Penalidades](#15-hiperparametros-de-inferencia-e-amostragem-temperature-top-p-e-penalidades)
+- [2. Programação Baseada em Intenção e Linguagem Natural](#2-programacao-baseada-em-intencao-e-linguagem-natural)
+    - [2.1 Intent-Based Programming: A Transição do "COMO" para o "O QUÊ"](#21-intent-based-programming-a-transicao-do-como-para-o-o-que)
+    - [2.2 Sintaxe Estrita vs. Semântica Declarativa e Contratos de Interface](#22-sintaxe-estrita-vs-semantica-declarativa-e-contratos-de-interface)
+    - [2.3 Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis](#23-especificacoes-dirigidas-por-comportamento-bdd-como-prompts-executaveis)
 - [3. Engenharia de Prompts e Engenharia de Contexto para Software](#3-engenharia-de-prompts-e-engenharia-de-contexto-para-software)
-    - [3.1 Estrutura Canônica de um Prompt de Código Corporativo](#31-estrutura-canônica-de-um-prompt-de-código-corporativo)
-    - [3.2 Técnicas Centrais de Prompting: Zero-Shot, Few-Shot, CoT e Test-Driven](#32-técnicas-centrais-de-prompting-zero-shot-few-shot-cot-e-test-driven)
-    - [3.3 Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"](#33-janela-de-contexto-e-a-mitigação-do-efeito-lost-in-the-middle)
-    - [3.4 Curadoria de Contexto e Minimização de Ruído no Repositório](#34-curadoria-de-contexto-e-minimização-de-ruído-no-repositório)
+    - [3.1 Estrutura Canônica de um Prompt de Código Corporativo](#31-estrutura-canonica-de-um-prompt-de-codigo-corporativo)
+    - [3.2 Técnicas Centrais de Prompting: Zero-Shot, Few-Shot, CoT e Test-Driven](#32-tecnicas-centrais-de-prompting-zero-shot-few-shot-cot-e-test-driven)
+    - [3.3 Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"](#33-janela-de-contexto-e-a-mitigacao-do-efeito-lost-in-the-middle)
+    - [3.4 Curadoria de Contexto e Minimização de Ruído no Repositório](#34-curadoria-de-contexto-e-minimizacao-de-ruido-no-repositorio)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
-- [5. Questões Comentadas & Prática Padrão FCC](#5-questões-comentadas--prática-padrão-fcc)
+- [5. Questões Comentadas & Prática Padrão FCC](#5-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -153,6 +153,7 @@ Na programação clássica, o compilador atua como um juiz sintático inflexíve
 
 ### 2.3 Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis
 A disciplina do BDD (*Behavior-Driven Development*) serve como ponte natural entre intenção em linguagem humana e testes automatizados. Cenários descritos em sintaxe Gherkin (`Dado que... Quando... Então...`) são utilizados como especificações inequívocas:
+
 ```gherkin
 Cenário: Aplicação de glosa por sobrepreço em auditoria de obras
   Dado que o valor orçado para o item "Concreto Armado" é de R$ 500.000,00
@@ -161,6 +162,7 @@ Cenário: Aplicação de glosa por sobrepreço em auditoria de obras
   Então o sistema deve registrar uma glosa de R$ 80.000,00
   E classificar a irregularidade com gravidade "GRAVE_COM_DANO_AO_ERARIO"
 ```
+
 O LLM recebe esse contrato comportamental e gera simultaneamente a suíte de testes correspondente e o código de domínio que satisfaz o cenário.
 
 ---
@@ -226,6 +228,7 @@ flowchart TD
 A **Janela de Contexto (*Context Window*)** é a quantidade máxima de tokens que um modelo de IA consegue manter na memória de trabalho durante uma sessão de inferência.
 
 Contudo, possuir uma janela de contexto extensa (como 128k ou 1 milhão de tokens) não significa que o modelo preste atenção uniforme em todas as posições do texto.
+
 - **A Pesquisa Seminal (Liu et al., 2023 - *"Lost in the Middle"*):** Demonstrou empiricamente a presença de vieses posicionais acentuados na arquitetura Transformer:
     - **Viés de Primazia (*Primacy Bias*):** Altíssima retenção das informações posicionadas no **início** do contexto (System Prompt, primeiras instruções).
     - **Viés de Recência (*Recency Bias*):** Altíssima retenção das informações posicionadas no **final** do contexto (logo antes do comando de geração).
@@ -273,6 +276,7 @@ Considerando as técnicas de engenharia de prompts e a calibração de modelos d
 * **E)** O *System Prompt* não tem impacto no comportamento global do modelo, servindo apenas para armazenar o histórico efêmero de mensagens trocadas na sessão atual.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Uma temperatura alta ($T \approx 1.0$) achata a distribuição probabilística dos logits, aumentando a entropia e aleatoriedade das previsões. Isso induz alucinações sintáticas, gerando nomes de métodos inexistentes e quebrando o código.
 > - **B)** Incorreta. O fornecimento de múltiplos exemplos de demonstração no prompt é a definição canônica de **Few-Shot Prompting** (In-Context Learning). O *Zero-Shot Prompting* fornece apenas a instrução da tarefa sem nenhum exemplo prévio.
 > - **C)** **CORRETA.** Para geração de código, testes e validações contábeis determinísticas, deve-se adotar temperatura baixa ($0.0 \le T \le 0.2$), assegurando repetibilidade e fidelidade sintática. O uso combinado com *Few-Shot Prompting* (fornecendo 2 a 3 exemplos do padrão institucional) garante a conformidade com a arquitetura desejada.
@@ -295,6 +299,7 @@ Sobre esses conceitos, assinale a afirmativa correta:
 * **E)** *Few-Shot Prompting* e *Fine-Tuning* são termos sinônimos que descrevem o processo de re-treinamento dos pesos do modelo com retropropagação de gradientes (*backpropagation*) a cada nova instrução de código.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A programação baseada em intenção não suprime a supervisão humana (*Human-in-the-Loop*) nem a exigência de testes formais, sendo a responsabilidade técnica e jurídica intransferível do desenvolvedor e da organização.
 > - **B)** Incorreta. A pesquisa seminal de Liu et al. (2023) comprovou exatamente o oposto: modelos de linguagem apresentam forte degradação de recuperação para informações situadas no meio geométrico da janela de contexto (*Lost in the Middle*).
 > - **C)** **CORRETA.** Na *Intent-Based Programming*, o engenheiro de software foca na declaração da intenção (o "O QUÊ" - requisitos, invariantes, contratos e pós-condições), cabendo ao sistema de IA sintetizar o algoritmo correspondente (o "COMO" imperativo).
@@ -317,6 +322,7 @@ A respeito desse funcionamento interno, assinale a afirmativa correta:
 * **E)** Os vetores de Consulta ($Q$), Chave ($K$) e Valor ($V$) no mecanismo de atenção são constantes numéricas fixas imutáveis, definidas pelos desenvolvedores e independentes do texto de entrada.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O mecanismo de *Self-Attention* calcula correlações dinâmicas de longo alcance entre todos os tokens da sequência simultaneamente, superando as limitações locais das Cadeias de Markov.
 > - **B)** Incorreta. O algoritmo BPE decompõe palavras e identificadores desconhecidos em subpalavras e caracteres individuais quando necessário.
 > - **C)** **CORRETA.** Em modelos decodificadores autoregressivos (como GPT e Claude), a aplicação da máscara causal (*Causal Masking*) no mecanismo de autoatenção impede que a previsão do token na posição $t$ consulte informações de posições futuras ($t+1, t+2, \dots$), assegurando a geração estritamente sequencial da esquerda para a direita.
@@ -339,6 +345,7 @@ Nesse cenário, a abordagem metodologicamente mais adequada é:
 * **E)** Aumentar a `Frequency Penalty` para seu valor máximo possível, garantindo que palavras reservadas da linguagem como `if` e `return` nunca se repitam no código gerado.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A abordagem Zero-Shot com temperatura máxima ($1.0$) produz alta variabilidade estatística e erros grosseiros de cálculo contábil.
 > - **B)** **CORRETA.** A técnica de *Chain-of-Thought* (CoT) compele o modelo a decompor o problema em etapas explícitas de raciocínio lógico. Ao calcular passo a passo a meação, as faixas progressivas e as isenções antes da codificação final, a precisão matemática atinge seu nível máximo.
 > - **C)** Incorreta. O *System Prompt* é mandatório para estabelecer governança, restrições e requisitos de segurança.
@@ -361,6 +368,7 @@ Considerando as boas práticas de curadoria de contexto e a mitigação de viese
 * **E)** A janela de contexto não impõe nenhum custo financeiro adicional em provedores de nuvem, visto que a tarifação incide unicamente sobre o tempo de conexão TCP/IP mantido aberto.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O centro do contexto é o local onde a atenção decai (*Lost in the Middle*); posicionar regras essenciais no centro leva à omissão de diretrizes.
 > - **B)** Incorreta. Enviar pastas de dependências (`node_modules`, `.lock`) polui o contexto com ruído desnecessário, esgota tokens e prejudica a qualidade da inferência.
 > - **C)** **CORRETA.** Para contornar os vieses de primazia e recência (*Lost in the Middle*), as regras centrais devem ficar nas extremidades (no System Prompt/início e no comando final imediato), utilizando tags estruturadas (`<context>`, `<rules>`) para delimitar blocos e mantendo apenas arquivos pertinentes.

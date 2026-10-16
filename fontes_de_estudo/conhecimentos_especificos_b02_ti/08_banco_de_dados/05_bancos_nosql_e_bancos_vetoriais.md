@@ -6,35 +6,36 @@
 
 ---
 
-### 📌 Ementa / Itens do Edital
+## 📌 Ementa / Itens do Edital
 1. **Teorema CAP e Modelo BASE:** Teorema CAP de Eric Brewer (Consistência, Disponibilidade e Tolerância a Partições), trade-offs fundamentais (CP vs. AP), Teorema PACELC e Modelo BASE (*Basically Available*, *Soft state*, *Eventual consistency*) vs. Modelo ACID.
 2. **As Quatro Famílias de Bancos NoSQL:**
     - **Documentos:** Modelagem semiestruturada (JSON/BSON), coleções, identificador único `_id`, pipeline de agregação e arquitetura MongoDB (*Replica Sets* e *Sharding*).
     - **Chave-Valor (*Key-Value*):** Estruturas nativas em memória RAM, persistência (RDB e AOF), TTL e arquitetura Redis.
     - **Famílias de Colunas (*Wide-Column*):** Tabelas esparsas multidimensionais, arquitetura descentralizada sem nó mestre (*masterless*), Cassandra e HBase.
     - **Grafos:** Vértices, arestas direcionadas tipadas, propriedades, linguagem Cypher e adjacência livre de índice (*Index-free Adjacency*) no Neo4j.
+
 3. **Casos de Uso e Escalabilidade:** Trade-offs arquiteturais, escalabilidade horizontal (*sharding*) e adequação a cenários de Big Data e auditoria de controle externo.
 4. **Bancos de Dados Vetoriais Aplicados à Inteligência Artificial:** Representação vetorial contínua (*embeddings*), métricas de distância e similaridade (Cosseno, Euclidiana $L_2$ e Produto Escalar), algoritmos de busca aproximada por vizinhos mais próximos (ANN: HNSW e IVF), ecossistema vetorial (`pgvector` no PostgreSQL e SGBDs vetoriais dedicados como Qdrant, Milvus e Pinecone) e aplicação em RAG (*Retrieval-Augmented Generation*).
 
 ---
 
-### 🧭 Sumário
+## 🧭 Sumário
 - [1. Teorema CAP, Teorema PACELC e o Modelo BASE](#1-teorema-cap-teorema-pacelc-e-o-modelo-base)
-    - [1.1 Teorema CAP (Eric Brewer / Gilbert & Lynch)](#11-teorema-cap-eric-brewer--gilbert--lynch)
+    - [1.1 Teorema CAP (Eric Brewer / Gilbert & Lynch)](#11-teorema-cap-eric-brewer-gilbert-lynch)
     - [1.2 O Teorema PACELC](#12-o-teorema-pacelc)
     - [1.3 Modelo BASE vs. Propriedades ACID](#13-modelo-base-vs-propriedades-acid)
-- [2. As Quatro Famílias de Bancos de Dados NoSQL](#2-as-quatro-famílias-de-bancos-de-dados-nosql)
+- [2. As Quatro Famílias de Bancos de Dados NoSQL](#2-as-quatro-familias-de-bancos-de-dados-nosql)
     - [2.1 Bancos Orientados a Documentos (MongoDB)](#21-bancos-orientados-a-documentos-mongodb)
     - [2.2 Bancos Chave-Valor (Redis)](#22-bancos-chave-valor-redis)
-    - [2.3 Bancos de Famílias de Colunas (Wide-Column / Cassandra / HBase)](#23-bancos-de-famílias-de-colunas-wide-column--cassandra--hbase)
+    - [2.3 Bancos de Famílias de Colunas (Wide-Column / Cassandra / HBase)](#23-bancos-de-familias-de-colunas-wide-column-cassandra-hbase)
     - [2.4 Bancos Orientados a Grafos (Neo4j e Cypher)](#24-bancos-orientados-a-grafos-neo4j-e-cypher)
     - [2.5 Matriz Comparativa e Casos de Uso no Controle Externo](#25-matriz-comparativa-e-casos-de-uso-no-controle-externo)
-- [3. Bancos de Dados Vetoriais e Inteligência Artificial](#3-bancos-de-dados-vetoriais-e-inteligência-artificial)
-    - [3.1 Embeddings: Do Texto Não-Estruturado ao Espaço Vetorial](#31-embeddings-do-texto-não-estruturado-ao-espaço-vetorial)
-    - [3.2 Métricas Matemáticas de Distância e Similaridade](#32-métricas-matemáticas-de-distância-e-similaridade)
-    - [3.3 Algoritmos de Busca Aproximada por Vizinhos Mais Próximos (ANN)](#33-algoritmos-de-busca-aproximada-por-vizinhos-mais-próximos-ann)
-    - [3.4 Ecossistema Tecnológico: Extensão pgvector e Bancos Nativos](#34-ecossistema-tecnológico-extensão-pgvector-e-bancos-nativos)
-- [4. Questões Comentadas (FCC)](#4-questões-comentadas-fcc)
+- [3. Bancos de Dados Vetoriais e Inteligência Artificial](#3-bancos-de-dados-vetoriais-e-inteligencia-artificial)
+    - [3.1 Embeddings: Do Texto Não-Estruturado ao Espaço Vetorial](#31-embeddings-do-texto-nao-estruturado-ao-espaco-vetorial)
+    - [3.2 Métricas Matemáticas de Distância e Similaridade](#32-metricas-matematicas-de-distancia-e-similaridade)
+    - [3.3 Algoritmos de Busca Aproximada por Vizinhos Mais Próximos (ANN)](#33-algoritmos-de-busca-aproximada-por-vizinhos-mais-proximos-ann)
+    - [3.4 Ecossistema Tecnológico: Extensão pgvector e Bancos Nativos](#34-ecossistema-tecnologico-extensao-pgvector-e-bancos-nativos)
+- [4. Questões Comentadas (FCC)](#4-questoes-comentadas-fcc)
 
 ---
 
@@ -110,6 +111,7 @@ Os bancos de dados NoSQL agrupam-se em quatro categorias fundamentais de acordo 
 ### 2.1 Bancos Orientados a Documentos (MongoDB)
 
 Armazenam dados na forma de documentos semiestruturados, geralmente serializados em formatos como JSON, BSON (*Binary JSON*) ou XML.
+
 - **Coleções e Documentos:** Os dados são agrupados em Coleções (*Collections*), que equivalem conceitualmente às tabelas relacionais. No entanto, cada Documento (*Document*) individual dentro de uma mesma coleção pode possuir campos, tipos e estruturas inteiramente distintas (esquema dinâmico / *schema-flexible*).
 - **Identificador Canônico (`_id`):** Todo documento possui obrigatoriamente um identificador exclusivo mapeado pelo campo `_id`, instanciado por padrão como um `ObjectId` de 12 bytes (composto por timestamp Unix de 4 bytes, identificador do host/processo de 5 bytes e contador incremental aleatório de 3 bytes).
 - **BSON (Binary JSON):** Extensão binária do JSON que viabiliza tipos primitivos adicionais não suportados pelo JSON textual puro, como tipos `Date` nativos, inteiros de 64 bits (`long`), decimais de alta precisão e dados binários brutos, otimizando a velocidade de parseamento e travessia.
@@ -126,6 +128,7 @@ Armazenam dados na forma de documentos semiestruturados, geralmente serializados
 ### 2.2 Bancos Chave-Valor (Redis)
 
 O modelo mais simples, minimalista e veloz. Armazena pares formados por uma chave única (string) mapeada para um valor (escalar primitivo, objeto binário ou estrutura complexa).
+
 - **Arquitetura em Memória RAM:** O **Redis (*Remote Dictionary Server*)** opera primariamente na memória principal do servidor, propiciando tempos de resposta na escala de dezenas de microssegundos.
 - **Estruturas de Dados Nativas do Redis:**
     - `Strings`: O tipo básico fundamental (suporta texto, blobs de até 512 MB ou inteiros/floats com manipulação atômica via `INCR`, `DECR`, `INCRBY`).
@@ -168,13 +171,14 @@ Modelam os dados utilizando os conceitos formais da teoria dos grafos: **Vértic
     - **Vantagem de Performance:** A travessia de relacionamentos possui custo computacional em tempo constante $\mathcal{O}(1)$ por aresta percorrida. O tempo de execução da consulta depende exclusivamente do subgrafo visitado na vizinhança, e não do volume global de bilhões de registros armazenados no banco.
 - **Linguagem Declarativa Cypher:**
     - Linguagem de consulta padrão de mercado para grafos que utiliza representação visual de arte ASCII:
-  ```cypher
-  MATCH (auditor:Auditor {matricula: 'A123'})-[:FISCALIZA]->(contrato:Contrato)
-  MATCH (contrato)-[:EXECUTADO_POR]->(empresa:Empresa)
-  MATCH (socio:Pessoa)-[:SOCIO_DE]->(empresa)
-  WHERE contrato.valor > 1000000.00
-  RETURN auditor.nome, contrato.numero, empresa.razao_social, socio.nome
-  ```
+
+```cypher
+MATCH (auditor:Auditor {matricula: 'A123'})-[:FISCALIZA]->(contrato:Contrato)
+MATCH (contrato)-[:EXECUTADO_POR]->(empresa:Empresa)
+MATCH (socio:Pessoa)-[:SOCIO_DE]->(empresa)
+WHERE contrato.valor > 1000000.00
+RETURN auditor.nome, contrato.numero, empresa.razao_social, socio.nome
+```
 
 ### 2.5 Matriz Comparativa e Casos de Uso no Controle Externo
 
@@ -247,28 +251,30 @@ A indexação e recuperação de embeddings pode ser implementada por duas abord
 1. **Abordagem Integrada / Multimodelo (`pgvector` no PostgreSQL):**
     - Extensão de código aberto que acrescenta nativamente o tipo de dados `vector(dimensoes)` ao PostgreSQL.
     - Permite que uma tabela relacional clássica armazene o texto bruto, metadados de auditoria e a representação vetorial juntos:
-     ```sql
-     CREATE EXTENSION IF NOT EXISTS vector;
-     
-     CREATE TABLE acordaos_tce (
-         id BIGSERIAL PRIMARY KEY,
-         numero_processo VARCHAR(50) NOT NULL,
-         data_julgamento DATE,
-         conteudo_ementa TEXT,
-         vetor_embedding vector(1536) -- Embedding gerado pelo modelo
-     );
-     
-     -- Criação de índice vetorial de alta performance HNSW
-     CREATE INDEX idx_acordaos_hnsw ON acordaos_tce 
-     USING hnsw (vetor_embedding vector_cosine_ops);
-     
-     -- Consulta por similaridade semântica (operador <=> calcula a distância de cosseno)
-     SELECT numero_processo, conteudo_ementa, 
-            1 - (vetor_embedding <=> '[0.012, -0.045, ...]'::vector) AS similaridade
-     FROM acordaos_tce
-     ORDER BY vetor_embedding <=> '[0.012, -0.045, ...]'::vector
-     LIMIT 5;
-     ```
+
+```sql
+CREATE EXTENSION IF NOT EXISTS vector;
+
+CREATE TABLE acordaos_tce (
+    id BIGSERIAL PRIMARY KEY,
+    numero_processo VARCHAR(50) NOT NULL,
+    data_julgamento DATE,
+    conteudo_ementa TEXT,
+    vetor_embedding vector(1536) -- Embedding gerado pelo modelo
+);
+
+-- Criação de índice vetorial de alta performance HNSW
+CREATE INDEX idx_acordaos_hnsw ON acordaos_tce 
+USING hnsw (vetor_embedding vector_cosine_ops);
+
+-- Consulta por similaridade semântica (operador <=> calcula a distância de cosseno)
+SELECT numero_processo, conteudo_ementa, 
+       1 - (vetor_embedding <=> '[0.012, -0.045, ...]'::vector) AS similaridade
+FROM acordaos_tce
+ORDER BY vetor_embedding <=> '[0.012, -0.045, ...]'::vector
+LIMIT 5;
+```
+
     - Operadores de distância do `pgvector`:
     - `<->`: Distância Euclidiana ($L_2$).
     - `<=>`: Distância de Cosseno ($1 - \text{Similaridade de Cosseno}$).
@@ -298,11 +304,12 @@ Considerando as famílias NoSQL mais eficientes para os casos e as regras de sis
 * **E)** O Projeto 1 deve utilizar Banco de Séries Temporais; o Projeto 2 deve utilizar Banco Orientado a Objetos; e transações ACID distribuídas mantêm disponibilidade total mesmo com isolamento físico de rede entre datacenters.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Houve inversão completa das soluções tecnológicas indicadas, além da afirmação errônea de que é possível garantir C e A simultaneamente na vigência de partições de rede.
 > - **B)** **Correta.** 
->   - No Projeto 1, a análise de redes societárias e parentescos exige travessia profunda e multidirecional de arestas; o modelo de **Grafos** (como o Neo4j) é a solução sob medida, viabilizando navegação com custo $\mathcal{O}(1)$ por nó explorado (*Index-free Adjacency*).
->   - No Projeto 2, o gerenciamento de sessões com expiração automática (TTL) requer armazenamento ultrarrápido em RAM; o modelo **Chave-Valor** (como o Redis) é o padrão da indústria.
->   - Pelo **Teorema CAP**, como falhas de comunicação em rede física (**P**) são contingências inevitáveis em sistemas distribuídos, o arquiteto é obrigado a arbitrar entre **Consistência (C)** ou **Disponibilidade (A)** durante o evento de partição.
+>     - No Projeto 1, a análise de redes societárias e parentescos exige travessia profunda e multidirecional de arestas; o modelo de **Grafos** (como o Neo4j) é a solução sob medida, viabilizando navegação com custo $\mathcal{O}(1)$ por nó explorado (*Index-free Adjacency*).
+>     - No Projeto 2, o gerenciamento de sessões com expiração automática (TTL) requer armazenamento ultrarrápido em RAM; o modelo **Chave-Valor** (como o Redis) é o padrão da indústria.
+>     - Pelo **Teorema CAP**, como falhas de comunicação em rede física (**P**) são contingências inevitáveis em sistemas distribuídos, o arquiteto é obrigado a arbitrar entre **Consistência (C)** ou **Disponibilidade (A)** durante o evento de partição.
 > - **C)** Incorreta. Bancos de famílias de colunas são otimizados para ingestão massiva e séries temporais, sendo inadequados para travessia de grafos de relacionamentos em teia; ademais, o Teorema CAP aplica-se formalmente a qualquer sistema distribuído em rede.
 > - **D)** Incorreta. O modelo de documentos lida com coleções semiestruturadas em árvore, sendo ineficiente para detectar conexões de grafos em anel ou cíclicas sem múltiplos loops de aplicação.
 > - **E)** Incorreta. Sistemas distribuídos com particionamento de rede não conseguem sustentar ACID clássico pleno sem degradar totalmente a disponibilidade do sistema perante os clientes dos nós isolados.
@@ -322,6 +329,7 @@ A implementação de sistemas de Inteligência Artificial Generativa e Arquitetu
 * **E)** Em espaços vetoriais densos, um valor de similaridade de cosseno igual a zero indica que os conceitos representados possuem máxima correlação e equivalência semântica absoluta.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Hashes criptográficos (como MD5 ou SHA-256) possuem o chamado *efeito avalanche*: qualquer alteração mínima gera um hash completamente diferente. Já os embeddings gerados por LLMs realizam mapeamento contínuo onde vetores espacialmente próximos representam textos semanticamente afins.
 > - **B)** **Correta.** A métrica de **Similaridade de Cosseno** calcula $\cos(\theta) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|}$, mensurando a orientação angular dos vetores sem sofrer distorções causadas pela variação no comprimento bruto dos textos analisados, constituindo a métrica padrão para busca textual em RAG.
 > - **C)** Incorreta. A varredura linear completa em todos os vetores é a definição da busca exata por força bruta ($k$-NN exato). Algoritmos **ANN** (como o **HNSW**) utilizam grafos de mundo pequeno navegáveis multicamadas para navegar no espaço vetorial em tempo logarítmico $\mathcal{O}(\log N)$.
@@ -343,6 +351,7 @@ No banco de dados NoSQL Redis, o gerenciamento eficiente da memória RAM e as op
 * **E)** A estrutura de dados *Hash* permite o armazenamento de apenas uma chave simples atrelada a uma string escalar, não suportando subcampos internos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O *Sorted Set (ZSET)* armazena exclusivamente elementos **únicos** (sem duplicatas), cada um obrigatoriamente associado a um valor numérico de ponto flutuante denominado **score**, sendo ordenados por esse score (e não pela ordem de inserção cronológica).
 > - **B)** Incorreta. A gravação síncrona de cada instrução em arquivo contínuo de log é responsabilidade do mecanismo **AOF**. O **RDB** gera instantâneos compactos pontuais (*point-in-time snapshots*) em intervalos de tempo configuráveis.
 > - **C)** **Correta.** O mecanismo **AOF (*Append Only File*)** atua de forma contínua registrando cada operação de mutação da base em um arquivo de log, de modo análogo ao Write-Ahead Logging (WAL) dos bancos relacionais, possibilitando a recomposição precisa da base em memória durante o reinício do serviço.
@@ -364,6 +373,7 @@ Em ambientes de computação distribuída e bancos de dados NoSQL projetados par
 * **E)** Atomic Broadcast.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. *Soft State* (Estado Maleável) estabelece que o estado dos nós do cluster pode mudar ou oscilar com o tempo por sincronização de réplicas em segundo plano, mesmo que não haja novas entradas externas.
 > - **B)** Incorreta. *Basically Available* (Disponibilidade Básica) determina que o sistema continuará operando e respondendo aos clientes de maneira tolerante a falhas locais, admitindo degradação controlada.
 > - **C)** **Correta.** O conceito de **Eventual Consistency (Consistência Eventual)** postula que, cessadas novas submissões de dados ao cluster, todas as réplicas do sistema distribuído trocarão mensagens de reconciliação (via quóruns, gossip protocol ou anti-entropy) e convergirão eventualmente para um estado idêntico e consistente.
@@ -386,6 +396,7 @@ A decisão técnica justifica-se primariamente porque:
 * **E)** A linguagem Cypher baseia-se exclusivamente em comandos imperativos procedurais em linguagem C, sendo compilada estaticamente durante a inicialização do cluster.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Bancos de grafos nativos utilizam armazenamento em arquivos binários contíguos estruturados de nós e arestas cacheados agressivamente na memória RAM.
 > - **B)** **Correta.** O recurso técnico chave dos bancos de grafos é a **Adjacência Livre de Índice (*Index-free Adjacency*)**: cada nó armazena ponteiros físicos diretos de memória para os nós vizinhos interligados. Desse modo, o custo para saltar de uma entidade para outra é $\mathcal{O}(1)$ por nó explorado, eliminando os múltiplos `JOINs` sucessivos e pesados que provocam colapso de planos de execução em bancos relacionais em análises profundas.
 > - **C)** Incorreta. No modelo *Labeled Property Graph*, tanto os nós quanto os relacionamentos (arestas) podem livremente armazenar atributos de propriedades (ex.: percentual de cotas, data de entrada na sociedade).

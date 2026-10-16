@@ -32,11 +32,11 @@
 ## 🧭 Sumário Interativo
 - [1. Grupos de Trabalho versus Equipes de Trabalho](#1-grupos-de-trabalho-versus-equipes-de-trabalho)
 - [2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman](#2-o-modelo-de-desenvolvimento-de-grupos-de-bruce-tuckman)
-- [3. Evolução das Teorias de Liderança e a Liderança Situacional](#3-evolução-das-teorias-de-liderança-e-a-liderança-situacional)
-- [4. Liderança Transacional vs. Liderança Transformacional](#4-liderança-transacional-vs-liderança-transformacional)
-- [5. O Processo de Comunicação Organizacional e suas Barreiras](#5-o-processo-de-comunicação-organizacional-e-suas-barreiras)
-- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referências-bibliográficas)
-- [7. Questões de Concurso FCC Comentadas](#7-questões-de-concurso-fcc-comentadas)
+- [3. Evolução das Teorias de Liderança e a Liderança Situacional](#3-evolucao-das-teorias-de-lideranca-e-a-lideranca-situacional)
+- [4. Liderança Transacional vs. Liderança Transformacional](#4-lideranca-transacional-vs-lideranca-transformacional)
+- [5. O Processo de Comunicação Organizacional e suas Barreiras](#5-o-processo-de-comunicacao-organizacional-e-suas-barreiras)
+- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+- [7. Questões de Concurso FCC Comentadas](#7-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -219,6 +219,7 @@ A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kennet
 * **E)** Estilo de Imposição Burocrática Inflexível sem concessão de explicações pedagógicas.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Delegar (E4) aplica-se exclusivamente a liderados com maturidade M4 (altamente competentes e autônomos).  
 > - **B) CORRETA.** No modelo de Hersey e Blanchard, liderados com nível de prontidão **M2** (possuem entusiasmo e motivação, mas ainda não têm competência técnica prática consolidada) exigem o estilo **E2 - Persuadir / Orientar / Vender**, que combina **alto comportamento de tarefa** (o líder ensina, direciona e dá instruções de trabalho) com **alto comportamento de relacionamento** (o líder apoia, dialoga e mantém acesa a motivação do servidor).  
 > - **C) Incorreta.** Laissez-faire é a ausência de liderança, prejudicial para iniciantes.  
@@ -240,6 +241,7 @@ No âmbito dos estudos sobre liderança nas organizações contemporâneas, o mo
 * **E)** A liderança transformacional é restrita a estruturas organizacionais mecanicistas e lineares do setor militar.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** O uso de incentivos pecuniários contingentes por metas pactuadas caracteriza a liderança **transacional**.  
 > - **B) CORRETA.** A **Liderança Transformacional** vai além da troca transacional imediata; por meio dos quatro pilares clássicos (carisma, consideração individualizada, inspiração motivacional e estimulação intelectual), o líder transformacional motiva os seguidores a superarem seus interesses individuais em benefício do propósito coletivo da instituição, fomentando transformações culturais perenes.  
 > - **C) Incorreta.** A liderança transacional apoia-se exatamente na cobrança de rotinas e trocas formais de incentivos.  
@@ -261,6 +263,7 @@ De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce
 * **E)** Estágio de Desintegração (*Adjourning*).
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Formação é a fase inicial de reconhecimento mútuo e incerteza.  
 > - **B) CORRETA.** O estágio de **Tormenta (ou Conflito / *Storming*)** é caracterizado exatamente pelo surgimento de embates internos de poder e discordâncias quanto às regras; os participantes aceitam a existência do grupo, mas resistem ao controle exercido sobre eles e disputam a liderança até que a hierarquia de papéis se estabilize.  
 > - **C) Incorreta.** Normatização é a fase posterior em que a coesão é restabelecida e surgem regras claras.  
@@ -282,6 +285,7 @@ A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Traba
 * **E)** As equipes autogerenciadas são aquelas nas quais o gestor superior centraliza todas as decisões operacionais sem delegar autoridade aos membros.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A responsabilidade no grupo de trabalho é puramente individual; na equipe é que ela é mútua e compartilhada.  
 > - **B) CORRETA.** As **Equipes de Trabalho** caracterizam-se pela **sinergia positiva** ($1 + 1 > 2$), o que significa que o esforço coordenado e integrado dos membros resulta em um patamar de entrega e desempenho global muito superior à mera soma aritmética das ações individuais isoladas.  
 > - **C) Incorreta.** As habilidades complementares são requisito essencial das **equipes**, ao passo que nos grupos as habilidades são aleatórias.  
@@ -303,6 +307,7 @@ Durante a elaboração de um relatório de fiscalização, determinado analista 
 * **E)** Percepção sensorial dilatada.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Sobrecarga ocorre quando o volume de dados ultrapassa a capacidade de processamento mental.  
 > - **B) CORRETA.** A **Filtragem** é a manipulação deliberada da mensagem pelo emissor para que ela seja vista de modo mais favorável pelo receptor (muito comum em organizações hierarquizadas quando o subordinado omite más notícias para agradar a chefia ou não se indispor com superiores).  
 > - **C) Incorreta.** A omissão partiu do emissor no momento do envio, e não da decodificação pelo receptor.  

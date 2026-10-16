@@ -12,31 +12,37 @@
     - Servidor Público: pessoa legalmente investida em cargo público de provimento efetivo ou em comissão;
     - Cargo Público: unidade básica de atribuições e responsabilidades cometidas a um servidor, criada por lei, com denominação própria, quantidade certa e remuneração paga pelos cofres estaduais;
     - Função de Confiança (exclusiva de servidores de cargo efetivo) vs. Cargo em Comissão (livre nomeação e exoneração, com percentual mínimo reservado para servidores de carreira).
+
 2. **Provimento de Cargos Públicos:**
     - Requisitos básicos para investidura em cargo público estadual (nacionalidade brasileira, gozo dos direitos políticos, quitação militar e eleitoral, nível de escolaridade exigido, idade mínima de 18 anos e higidez física e mental);
     - A Nomeação (provimento originário em caráter efetivo ou em comissão);
     - A Posse: formalização da investidura mediante assinatura do respectivo termo; prazo legal improrrogável de **30 (trinta) dias** contados da publicação oficial do ato de nomeação no Diário Oficial; consequência do descumprimento: o ato de nomeação é **tornado sem efeito**;
     - O Exercício: início do efetivo desempenho das funções cometidas ao cargo; prazo legal de **15 (quinze) dias** contados da posse; consequência do descumprimento: o servidor empossado é **exonerado de ofício**.
+
 3. **Estágio Probatório e Estabilidade Constitucional:**
     - Período de **3 (três) anos (36 meses) de efetivo exercício** em cargo de provimento efetivo;
     - Fatores de avaliação especial de desempenho: assiduidade, pontualidade, disciplina, capacidade de iniciativa, produtividade e responsabilidade;
     - Comissão Especial de Avaliação de Desempenho;
     - Consequência da inabilitação no probatório: **exoneração de ofício** (se não estável anteriormente no serviço público estadual) ou **recondução ao cargo de origem** (se já estável em outro cargo público estadual);
     - Hipóteses constitucionais de perda do cargo pelo servidor estável (CF/88, art. 41 e art. 169).
+
 4. **Formas Derivadas de Provimento:**
     - **Reintegração:** retorno do servidor estável indevidamente demitido por via de anulação judicial ou administrativa, com recomposição financeira retroativa integral;
     - **Recondução:** retorno do servidor estável ao cargo anteriormente ocupado por inabilitação em probatório de outro cargo ou reintegração do titular precedente;
     - **Reversão:** retorno à atividade do servidor aposentado (de ofício por cessação da incapacidade em junta médica ou a pedido no interesse público);
     - **Aproveitamento:** retorno compulsório do servidor estável em disponibilidade remunerada para cargo de natureza e vencimentos compatíveis;
     - **Readaptação:** investidura em cargo de complexidade compatível com limitação física ou mental comprovada em perícia médica oficial, assegurada a irredutibilidade remuneratória (sem decesso).
+
 5. **Vacância do Cargo Público:**
     - Exoneração (*a pedido* do servidor ou *de ofício* por inabilitação no estágio probatório ou descumprimento do prazo de exercício) vs. Demissão (penalidade disciplinar punitiva gravíssima);
     - Outras hipóteses legais de vacância: readaptação, aposentadoria, posse em outro cargo inacumulável, falecimento e destituição de cargo em comissão.
+
 6. **Direitos, Vantagens Pecuniárias e Licenças:**
     - Vencimento básico vs. Remuneração (vencimento acrescido de vantagens de caráter permanente e transitório);
     - Indenizações (caráter não incorporável, não previdenciário e não sujeito ao abate-teto): Ajuda de Custo (deslocamento para nova sede no interesse da administração), Diárias (hospedagem e alimentação em missão fora da sede) e Indenização de Transporte;
     - Férias anuais e acréscimo de um terço constitucional;
     - Licenças estatutárias: para tratamento de saúde, por motivo de doença em pessoa da família, maternidade e paternidade, para capacitação profissional (até 3 meses a cada quinquênio, com remuneração integral) e para tratar de interesses particulares (até 3 anos consecutivos, sem remuneração, condicionada à estabilidade prévia).
+
 7. **Regime Disciplinar, Sanções e Prescrição (Lei nº 20.756/2020):**
     - Responsabilidade civil, penal e administrativa (independência relativa das instâncias e reflexo imediato da absolvição criminal que nega a autoria ou a existência do fato);
     - Deveres funcionais e proibições estatutárias;
@@ -48,32 +54,31 @@
 ---
 
 ## 🧭 Sumário Interativo
-
-- [1. Disposições Gerais e Conceitos Estruturais](#1-disposições-gerais-e-conceitos-estruturais)
-    - [1.1 Servidor Público e Cargo Público](#11-servidor-público-e-cargo-público)
-    - [1.2 Cargos de Provimento Efetivo, em Comissão e Funções de Confiança](#12-cargos-de-provimento-efetivo-em-comissão-e-funções-de-confiança)
-    - [1.3 Requisitos Básicos para Investidura](#13-requisitos-básicos-para-investidura)
-- [2. Dinâmica de Ingresso: Nomeação, Posse e Exercício](#2-dinâmica-de-ingresso-nomeação-posse-e-exercício)
+- [1. Disposições Gerais e Conceitos Estruturais](#1-disposicoes-gerais-e-conceitos-estruturais)
+    - [1.1 Servidor Público e Cargo Público](#11-servidor-publico-e-cargo-publico)
+    - [1.2 Cargos de Provimento Efetivo, em Comissão e Funções de Confiança](#12-cargos-de-provimento-efetivo-em-comissao-e-funcoes-de-confianca)
+    - [1.3 Requisitos Básicos para Investidura](#13-requisitos-basicos-para-investidura)
+- [2. Dinâmica de Ingresso: Nomeação, Posse e Exercício](#2-dinamica-de-ingresso-nomeacao-posse-e-exercicio)
     - [2.1 A Trilha Temporal de Investidura](#21-a-trilha-temporal-de-investidura)
-    - [2.2 Consequências Jurídicas do Descumprimento dos Prazos](#22-consequências-jurídicas-do-descumprimento-dos-prazos)
-- [3. Estágio Probatório e Estabilidade Constitucional](#3-estágio-probatório-e-estabilidade-constitucional)
-    - [3.1 Requisitos e Fatores de Avaliação Especial](#31-requisitos-e-fatores-de-avaliação-especial)
-    - [3.2 Desfechos da Avaliação Especial: Exoneração vs. Recondução](#32-desfechos-da-avaliação-especial-exoneração-vs-recondução)
-    - [3.3 Hipóteses Constitucionais de Perda do Cargo do Servidor Estável](#33-hipóteses-constitucionais-de-perda-do-cargo-do-servidor-estável)
-- [4. Provimento Derivado e Vacância de Cargos Públicos](#4-provimento-derivado-e-vacância-de-cargos-públicos)
+    - [2.2 Consequências Jurídicas do Descumprimento dos Prazos](#22-consequencias-juridicas-do-descumprimento-dos-prazos)
+- [3. Estágio Probatório e Estabilidade Constitucional](#3-estagio-probatorio-e-estabilidade-constitucional)
+    - [3.1 Requisitos e Fatores de Avaliação Especial](#31-requisitos-e-fatores-de-avaliacao-especial)
+    - [3.2 Desfechos da Avaliação Especial: Exoneração vs. Recondução](#32-desfechos-da-avaliacao-especial-exoneracao-vs-reconducao)
+    - [3.3 Hipóteses Constitucionais de Perda do Cargo do Servidor Estável](#33-hipoteses-constitucionais-de-perda-do-cargo-do-servidor-estavel)
+- [4. Provimento Derivado e Vacância de Cargos Públicos](#4-provimento-derivado-e-vacancia-de-cargos-publicos)
     - [4.1 Formas Derivadas de Provimento (Quadro Comparativo)](#41-formas-derivadas-de-provimento-quadro-comparativo)
-    - [4.2 Hipóteses Legais de Vacância](#42-hipóteses-legais-de-vacância)
-- [5. Direitos, Vantagens Pecuniárias e Licenças Estatutárias](#5-direitos-vantagens-pecuniárias-e-licenças-estatutárias)
-    - [5.1 Sistema Remuneratório: Vencimento, Remuneração e Indenizações](#51-sistema-remuneratório-vencimento-remuneração-e-indenizações)
-    - [5.2 Regime de Férias](#52-regime-de-férias)
-    - [5.3 Licenças Estatutárias: Capacitação vs. Interesses Particulares](#53-licenças-estatutárias-capacitação-vs-interesses-particulares)
+    - [4.2 Hipóteses Legais de Vacância](#42-hipoteses-legais-de-vacancia)
+- [5. Direitos, Vantagens Pecuniárias e Licenças Estatutárias](#5-direitos-vantagens-pecuniarias-e-licencas-estatutarias)
+    - [5.1 Sistema Remuneratório: Vencimento, Remuneração e Indenizações](#51-sistema-remuneratorio-vencimento-remuneracao-e-indenizacoes)
+    - [5.2 Regime de Férias](#52-regime-de-ferias)
+    - [5.3 Licenças Estatutárias: Capacitação vs. Interesses Particulares](#53-licencas-estatutarias-capacitacao-vs-interesses-particulares)
 - [6. Regime Disciplinar e Processo Sancionador](#6-regime-disciplinar-e-processo-sancionador)
-    - [6.1 Responsabilidade Funcional e Independência Relativa das Instâncias](#61-responsabilidade-funcional-e-independência-relativa-das-instâncias)
-    - [6.2 As Penalidades Disciplinares e Hipóteses de Demissão](#62-as-penalidades-disciplinares-e-hipóteses-de-demissão)
-    - [6.3 Prazos de Prescrição da Pretensão Punitiva](#63-prazos-de-prescrição-da-pretensão-punitiva)
-    - [6.4 Sindicância e Processo Administrativo Disciplinar (PAD)](#64-sindicância-e-processo-administrativo-disciplinar-pad)
-- [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referências-bibliográficas)
-- [8. Questões de Concurso FCC Comentadas](#8-questões-de-concurso-fcc-comentadas)
+    - [6.1 Responsabilidade Funcional e Independência Relativa das Instâncias](#61-responsabilidade-funcional-e-independencia-relativa-das-instancias)
+    - [6.2 As Penalidades Disciplinares e Hipóteses de Demissão](#62-as-penalidades-disciplinares-e-hipoteses-de-demissao)
+    - [6.3 Prazos de Prescrição da Pretensão Punitiva](#63-prazos-de-prescricao-da-pretensao-punitiva)
+    - [6.4 Sindicância e Processo Administrativo Disciplinar (PAD)](#64-sindicancia-e-processo-administrativo-disciplinar-pad)
+- [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
+- [8. Questões de Concurso FCC Comentadas](#8-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -97,11 +102,13 @@ A estrutura de cargos e funções públicas no Estado de Goiás desdobra-se em t
     - Exigem aprovação prévia em **concurso público** de provas ou de provas e títulos;
     - Destinam-se ao corpo permanente da administração direta, autárquica e fundacional;
     - Proporcionam a aquisição de **estabilidade** após 3 anos de efetivo exercício e aprovação em avaliação especial de desempenho.
+
 2. **Cargos em Comissão:**
     - Declarados em lei de **livre nomeação e livre exoneração** (*ad nutum*);
     - Destinam-se exclusivamente às atribuições de **direção, chefia e assessoramento**;
     - Não conferem estabilidade sob nenhuma hipótese;
     - A legislação goiana exige a destinação de um percentual mínimo desses cargos aos servidores titulares de cargos efetivos de carreira.
+
 3. **Funções de Confiança (ou Funções Gratificadas):**
     - Exercidas **exclusivamente por servidores ocupantes de cargo de provimento efetivo**;
     - Destinadas exclusivamente às atribuições de direção, chefia e assessoramento intermediários;
@@ -155,11 +162,13 @@ flowchart TD
     - É o ato administrativo formal pelo qual o Chefe do Poder ou autoridade competente convoca o candidato aprovado no certame para preencher a vaga existente;
     - Trata-se da única modalidade de **provimento originário** no ordenamento jurídico brasileiro pós-1988;
     - Realiza-se em caráter efetivo (para cargos que exigem concurso) ou em comissão (para cargos declarados de livre provimento).
+
 2. **Posse:**
     - É o momento solene e formal em que se **consuma a investidura** no cargo público;
     - Formaliza-se pela assinatura do termo de posse, no qual o nomeado declara expressamente aceitar as atribuições, deveres, responsabilidades e direitos inerentes ao cargo;
     - Ocorre no prazo improrrogável de **30 (trinta) dias**, contados da data da publicação oficial do ato de nomeação no Diário Oficial do Estado (DOE);
     - A posse pode dar-se mediante procuração específica em casos excepcionais previstos no regulamento.
+
 3. **Exercício:**
     - É o efetivo desempenho das atribuições e encargos do cargo público pelo servidor;
     - O prazo para o servidor empossado entrar em exercício é de **15 (quinze) dias**, contados da data da posse;
@@ -222,6 +231,7 @@ flowchart TD
 1. **Servidor Não Estável no Serviço Público Goiano:**
     - Inabilitado na avaliação especial de desempenho $\rightarrow$ **Exoneração de ofício**;
     - Não se trata de demissão disciplinar, mas de rescisão administrativa unilateral decorrente da constatação objetiva de falta de aptidão para a carreira.
+
 2. **Servidor Previamente Estável em Outro Cargo Estadual:**
     - Inabilitado no novo estágio probatório $\rightarrow$ **Recondução ao cargo primitivo**;
     - O instituto protege a estabilidade conquistada no cargo anterior, permitindo que o servidor retorne ao seu posto de origem sem qualquer prejuízo pecuniário, mas sem direito a indenizações.
@@ -279,6 +289,7 @@ Vacância é o ato ou fato administrativo que extingue o provimento, tornando de
 1. **Exoneração:** desprovimento sem conotação sancionatória/punitiva. Dá-se:
     - *A pedido* do próprio servidor;
     - *De ofício:* quando não satisfeitas as condições do estágio probatório ou quando o servidor empossado não entrar em exercício no prazo legal de 15 dias; ou ainda para desocupação de cargo em comissão.
+
 2. **Demissão:** sanção disciplinar punitiva expulsória aplicada em razão do cometimento de falta funcional gravíssima apurada em regular PAD.
 3. **Readaptação:** gera vacância do cargo originário no momento em que o servidor é investido no cargo adaptado às suas limitações.
 4. **Aposentadoria:** extingue o provimento ativo, abrindo vaga no quadro funcional.
@@ -302,9 +313,9 @@ A Lei nº 20.756/2020 estabelece rigorosa distinção técnica conceitual no âm
     - **Não servem de base de cálculo** para a incidência de contribuição previdenciária;
     - **Não se sujeitam ao teto remuneratório constitucional** (abate-teto do art. 37, XI, CF/88);
     - As principais indenizações no Estatuto Goiano são:
-    1. **Ajuda de Custo:** destina-se a compensar as despesas de instalação e transporte do servidor que passa a ter exercício em nova sede funcional, por necessidade do serviço e com mudança de domicílio em caráter permanente;
-    2. **Diárias:** concedidas ao servidor que se deslocar da sede em caráter eventual ou transitório no interesse do serviço público para cobrir custos de alimentação, transporte urbano e hospedagem;
-    3. **Indenização de Transporte:** paga ao servidor que realiza despesas com a utilização de meio próprio de locomoção para a execução de serviços externos de fiscalização e auditoria inerentes ao cargo.
+        1. **Ajuda de Custo:** destina-se a compensar as despesas de instalação e transporte do servidor que passa a ter exercício em nova sede funcional, por necessidade do serviço e com mudança de domicílio em caráter permanente;
+        2. **Diárias:** concedidas ao servidor que se deslocar da sede em caráter eventual ou transitório no interesse do serviço público para cobrir custos de alimentação, transporte urbano e hospedagem;
+        3. **Indenização de Transporte:** paga ao servidor que realiza despesas com a utilização de meio próprio de locomoção para a execução de serviços externos de fiscalização e auditoria inerentes ao cargo.
 
 ### 5.2 Regime de Férias
 
@@ -385,23 +396,26 @@ flowchart TD
 1. **Advertência:**
     - Aplicada formalmente **por escrito** (não existe sanção verbal no Estatuto Goiano);
     - Cabível em casos de inobservância de dever funcional previsto em lei, regulamento ou norma interna, bem como em proibições leves que não justifiquem imposição de suspensão.
+
 2. **Suspensão:**
     - Aplicada em caso de reincidência nas faltas punidas com advertência ou por violação de deveres funcionais graves que não cominem demissão;
     - **Prazo Máximo:** não poderá exceder a **90 (noventa) dias**;
     - **Conversão Pecuniária em Multa:** quando houver comprovada conveniência para a continuidade do serviço público, a penalidade de suspensão poderá ser convertida em multa pecuniária à razão de **50% (cinquenta por cento) por dia de remuneração**, permanecendo o servidor no exercício obrigatório de suas atividades funcionais normais.
+
 3. **Demissão:**
     - Sanção disciplinar máxima e expulsória, obrigatoriamente precedida de regular Processo Administrativo Disciplinar (PAD);
     - Hipóteses taxativas de demissão na Lei nº 20.756/2020:
-    1. Prática de crime contra a administração pública;
-    2. Prática dolosa de ato de improbidade administrativa;
-    3. **Abandono de Cargo:** caracterizado pela ausência intencional e injustificada do servidor ao serviço por **mais de 30 (trinta) dias consecutivos**;
-    4. **Inassiduidade Habitual:** configurada pela falta injustificada ao serviço por **60 (sessenta) dias interpolados** no interregno temporal de 12 (doze) meses;
-    5. Recebimento de propina, comissão ou vantagem indevida em razão das atribuições do cargo (corrupção funcional);
-    6. Aplicação irregular de recursos públicos com lesão ao erário;
-    7. Insubordinação grave em serviço ou ofensa física comissiva em serviço contra outrem (salvo em legítima defesa);
-    8. Revelação dolosa de segredo funcional da repartição.
+        1. Prática de crime contra a administração pública;
+        2. Prática dolosa de ato de improbidade administrativa;
+        3. **Abandono de Cargo:** caracterizado pela ausência intencional e injustificada do servidor ao serviço por **mais de 30 (trinta) dias consecutivos**;
+        4. **Inassiduidade Habitual:** configurada pela falta injustificada ao serviço por **60 (sessenta) dias interpolados** no interregno temporal de 12 (doze) meses;
+        5. Recebimento de propina, comissão ou vantagem indevida em razão das atribuições do cargo (corrupção funcional);
+        6. Aplicação irregular de recursos públicos com lesão ao erário;
+        7. Insubordinação grave em serviço ou ofensa física comissiva em serviço contra outrem (salvo em legítima defesa);
+        8. Revelação dolosa de segredo funcional da repartição.
 4. **Cassação de Aposentadoria ou de Disponibilidade:**
     - Aplicada ao servidor aposentado ou posto em disponibilidade remunerada que houver praticado, enquanto ainda em atividade funcional, falta gravíssima punível originariamente com demissão.
+
 5. **Destituição de Cargo em Comissão:**
     - Aplicada a ocupante de cargo comissionado sem vínculo efetivo que praticar infração punível com suspensão ou demissão.
 
@@ -438,10 +452,11 @@ flowchart LR
     - Rito obrigatório para aplicação de penalidade de **suspensão superior a 30 dias**, **demissão**, **cassação de aposentadoria/disponibilidade** e **destituição de cargo comissionado**;
     - **Comissão Processante:** composta obrigatoriamente por **3 (três) servidores públicos estáveis**, designados pela autoridade instauradora, que indicará dentre eles o Presidente (que deve ocupar cargo efetivo de nível igual ou superior ao do indiciado);
     - **Fases Procedimentais Básicas:**
-    1. *Instauração:* publicação da portaria que designa os membros da comissão;
-    2. *Inquérito Administrativo:* instrução probatória ampla (oitiva de testemunhas, perícias, vistorias e interrogatório do acusado), indiciação formal com descrição detalhada dos fatos imputados, e apresentação de defesa escrita pelo servidor indiciado;
-    3. *Relatório Conclusivo:* elaboração do relatório final pela comissão, apreciando as provas e opinando pela absolvição ou condenação do indiciado;
-    4. *Julgamento:* decisão proferida pela autoridade competente.
+        1. *Instauração:* publicação da portaria que designa os membros da comissão;
+        2. *Inquérito Administrativo:* instrução probatória ampla (oitiva de testemunhas, perícias, vistorias e interrogatório do acusado), indiciação formal com descrição detalhada dos fatos imputados, e apresentação de defesa escrita pelo servidor indiciado;
+        3. *Relatório Conclusivo:* elaboração do relatório final pela comissão, apreciando as provas e opinando pela absolvição ou condenação do indiciado;
+        4. *Julgamento:* decisão proferida pela autoridade competente.
+
 * **Garantias Constitucionais:** asseguram-se ao servidor indiciado o contraditório, ampla defesa, acompanhamento por advogado constituído ou defensor dativo, vista aos autos e o direito de requerer novas provas relevantes e pertinentes.
 
 ---
@@ -470,11 +485,12 @@ Um cidadão regularmente aprovado em concurso público para o cargo de Técnico 
 * **E)** 10 dias contados da nomeação; e a transformação do ato em disponibilidade remunerada proporcional.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O prazo legal para entrada em efetivo exercício após a posse é de 15 dias (e não 30 dias). Além disso, a demissão é sanção disciplinar punitiva gravíssima que pressupõe infração funcional apurada em PAD para servidor em atividade funcional.
 > - **B)** Incorreta. A inércia de um indivíduo empossado repercute unicamente em sua própria esfera jurídica individual de investidura, não afetando a validade ou a homologação do certame público.
 > - **C)** **CORRETA.** Conforme preceitua a Lei Estadual nº 20.756/2020:
->   - O exercício é o início do desempenho efetivo das atribuições do cargo e dar-se-á no prazo improrrogável de **15 (quinze) dias**, contados da assinatura do termo de posse;
->   - Como a posse já consumou a investidura formal no cargo público, se o servidor empossado não entrar em exercício dentro do prazo legal, a administração expedirá ato de **exoneração de ofício** (desprovimento formal sem caráter punitivo).
+>     - O exercício é o início do desempenho efetivo das atribuições do cargo e dar-se-á no prazo improrrogável de **15 (quinze) dias**, contados da assinatura do termo de posse;
+>     - Como a posse já consumou a investidura formal no cargo público, se o servidor empossado não entrar em exercício dentro do prazo legal, a administração expedirá ato de **exoneração de ofício** (desprovimento formal sem caráter punitivo).
 > - **D)** Incorreta. O prazo de 30 dias aplica-se à posse (contado da nomeação), e a inobservância não enseja cancelamento de termo homologatório.
 > - **E)** Incorreta. A disponibilidade remunerada é instituto garantido a servidores estáveis quando da extinção de cargo ou declaração de sua desnecessidade.
 > 
@@ -493,11 +509,12 @@ Rodrigo, servidor público estável do Estado de Goiás, foi demitido da reparti
 * **E)** Aproveitamento de Rodrigo em cargo em comissão; e manutenção definitiva de Marcos no cargo efetivo em disputa.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O retorno de servidor demitido ilegalmente denomina-se reintegração (e não recondução); ademais, servidor estável que ocupava a vaga em disputa não pode sofrer exoneração compulsória sumária.
 > - **B)** Incorreta. Reversão é a modalidade de retorno do servidor aposentado à ativa funcional.
 > - **C)** **CORRETA.** Consoante o art. 41, § 2º, da Constituição Federal e as normas da Lei Estadual nº 20.756/2020:
->   - O retorno do servidor estável em decorrência de decisão judicial ou administrativa que anula sua demissão ilegal denomina-se **Reintegração**, com recomposição patrimonial retroativa e ressarcimento de todos os direitos e vantagens que deixou de auferir;
->   - O eventual ocupante da vaga (Marcos), sendo estável, será **reconduzido ao cargo de origem, sem direito a indenização**, ou **aproveitado em outro cargo** de atribuições e vencimentos equivalentes, ou posto em disponibilidade remunerada proporcional ao tempo de contribuição.
+>     - O retorno do servidor estável em decorrência de decisão judicial ou administrativa que anula sua demissão ilegal denomina-se **Reintegração**, com recomposição patrimonial retroativa e ressarcimento de todos os direitos e vantagens que deixou de auferir;
+>     - O eventual ocupante da vaga (Marcos), sendo estável, será **reconduzido ao cargo de origem, sem direito a indenização**, ou **aproveitado em outro cargo** de atribuições e vencimentos equivalentes, ou posto em disponibilidade remunerada proporcional ao tempo de contribuição.
 > - **D)** Incorreta. Readaptação refere-se exclusivamente a limitações de ordem física ou psíquica atestadas em perícia médica oficial, e Marcos não cometeu ilícito apto a demissão.
 > - **E)** Incorreta. A reintegração dá-se compulsoriamente no cargo efetivo de origem titularizado pelo servidor reintegrado.
 > 
@@ -516,6 +533,7 @@ Um servidor público titular de cargo efetivo da administração direta do Estad
 * **E)** Inaptidão probatória superveniente, ensejando a aposentadoria compulsória do agente com proventos integrais.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Inassiduidade habitual caracteriza-se pela falta injustificada ao trabalho por 60 dias interpolados no período de 12 meses, conduta igualmente apenada com demissão.
 > - **B)** **CORRETA.** A Lei Estadual nº 20.756/2020 define expressamente o **Abandono de Cargo** como a ausência voluntária e injustificada do servidor ao serviço por **mais de 30 (trinta) dias consecutivos**. Como o servidor permaneceu 35 dias consecutivos ausente, tipificou-se o abandono funcional, conduta gravíssima sancionada obrigatoriamente com a pena de **demissão**, cuja imposição exige prévio Processo Administrativo Disciplinar (PAD) com observância do contraditório e da ampla defesa.
 > - **C)** Incorreta. Ausência imotivada contínua superior a 30 dias constitui ilícito funcional expulsório de extrema gravidade, inadmitindo qualquer compensação em banco de horas.
@@ -537,13 +555,14 @@ Nos moldes da Lei Estadual nº 20.756/2020, o servidor público estável poderá
 * **E)** Durante o período de fruição da licença sem vencimentos, o servidor continuará computando o tempo integralmente para efeitos de promoção por merecimento funcional.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A licença é concedida **sem remuneração** e pelo período de **até 3 (três) anos consecutivos** (e não cinco anos com remuneração).
 > - **B)** Incorreta. Trata-se de ato eminentemente discricionário, cabendo à autoridade competente avaliar a conveniência e oportunidade do afastamento frente às necessidades de serviço do órgão.
 > - **C)** **CORRETA.** De acordo com as disposições literais da Lei Estadual nº 20.756/2020, a **licença para tratar de interesses particulares**:
->   - É usufruída **sem qualquer remuneração**;
->   - Tem prazo de **até 3 (três) anos consecutivos**;
->   - Exige que o servidor já seja titular de **estabilidade funcional**;
->   - Submete-se ao juízo discricionário de conveniência e oportunidade da administração estadual.
+>     - É usufruída **sem qualquer remuneração**;
+>     - Tem prazo de **até 3 (três) anos consecutivos**;
+>     - Exige que o servidor já seja titular de **estabilidade funcional**;
+>     - Submete-se ao juízo discricionário de conveniência e oportunidade da administração estadual.
 > - **D)** Incorreta. O estatuto veda terminantemente a outorga da referida licença a servidor que ainda esteja cumprindo período de estágio probatório.
 > - **E)** Incorreta. Durante o afastamento não remunerado para fins particulares, suspende-se o cômputo de tempo para efeitos de evolução funcional, progressão e promoção por merecimento.
 > 
@@ -562,10 +581,11 @@ Em matéria de poder disciplinar sancionador preconizado na Lei Estadual de Goi�
 * **E)** Em 180 dias para a demissão; e em 30 dias para a suspensão funcional de servidores de controle.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **CORRETA.** Os prazos de prescrição da pretensão punitiva disciplinar na Lei Estadual nº 20.756/2020 são estipulados taxativamente conforme a gravidade da sanção:
->   - **5 (cinco) anos:** para as infrações cominadas com **demissão**, **cassação de aposentadoria ou de disponibilidade** e destituição de cargo em comissão;
->   - **2 (dois) anos:** para as infrações puníveis com **suspensão**;
->   - **180 (cento e oitenta) dias:** para as faltas leves sancionadas com **advertência**.
+>     - **5 (cinco) anos:** para as infrações cominadas com **demissão**, **cassação de aposentadoria ou de disponibilidade** e destituição de cargo em comissão;
+>     - **2 (dois) anos:** para as infrações puníveis com **suspensão**;
+>     - **180 (cento e oitenta) dias:** para as faltas leves sancionadas com **advertência**.
 > - **B)** Incorreta. Prazos incompatíveis com a sistemática legal goiana.
 > - **C)** Incorreta. A lei estabelece prazos graduados de acordo com a gravidade da pena e não um prazo genérico e uniforme de 4 anos.
 > - **D)** Incorreta. A ação disciplinar prescreve em prazos certos, sendo 180 dias para advertência e 5 anos para demissão.

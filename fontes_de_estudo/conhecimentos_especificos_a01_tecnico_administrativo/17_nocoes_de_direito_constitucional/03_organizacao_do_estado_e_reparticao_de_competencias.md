@@ -22,22 +22,22 @@
 ---
 
 ## 🧭 Sumário
-1. [Forma Federativa e Organização Político-Administrativa](#1-forma-federativa-e-organização-político-administrativa)
-    - 1.1 [Características da Federação Brasileira e Autonomia dos Entes](#11-características-da-federação-brasileira-e-autonomia-dos-entes)
-    - 1.2 [Vedações Constitucionais Federativas (Art. 19)](#12-vedações-constitucionais-federativas-art-19)
-    - 1.3 [Bens Públicos Constitucionais e Criação de Novos Entes](#13-bens-públicos-constitucionais-e-criação-de-novos-entes)
-2. [O Modelo Constitucional de Repartição de Competências](#2-o-modelo-constitucional-de-repartição-de-competências)
-    - 2.1 [Competências Legislativas: Privativa da União versus Concorrente](#21-competências-legislativas-privativa-da-união-versus-concorrente)
-    - 2.2 [Competências Administrativas: Exclusivas e Comuns](#22-competências-administrativas-exclusivas-e-comuns)
-    - 2.3 [Competências dos Estados e Municípios](#23-competências-dos-estados-e-municípios)
-3. [Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual](#3-mecanismos-excepcionais-de-equilíbrio-intervenção-federal-e-estadual)
-4. [Regime Constitucional da Administração Pública e Servidores (Arts. 37 a 41)](#4-regime-constitucional-da-administração-pública-e-servidores-arts-37-a-41)
-    - 4.1 [Concurso Público, Funções de Confiança e Cargos em Comissão](#41-concurso-público-funções-de-confiança-e-cargos-em-comissão)
-    - 4.2 [Regra Constitucional da Não-Acumulação e Exceções (Art. 37, XVI)](#42-regra-constitucional-da-não-acumulação-e-exceções-art-37-xvi)
-    - 4.3 [Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#43-exercício-de-mandato-eletivo-pelo-servidor-público-art-38)
-    - 4.4 [Estabilidade e Perda do Cargo do Servidor Estável (Art. 41)](#44-estabilidade-e-perda-do-cargo-do-servidor-estável-art-41)
-5. [Fontes Oficiais & Doutrinárias Recomendadas](#5-fontes-oficiais--doutrinárias-recomendadas)
-6. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#6-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
+- [1. Forma Federativa e Organização Político-Administrativa](#1-forma-federativa-e-organizacao-politico-administrativa)
+    - [1.1 Características da Federação Brasileira e Autonomia dos Entes](#11-caracteristicas-da-federacao-brasileira-e-autonomia-dos-entes)
+    - [1.2 Vedações Constitucionais Federativas (Art. 19)](#12-vedacoes-constitucionais-federativas-art-19)
+    - [1.3 Bens Públicos Constitucionais e Criação de Novos Entes](#13-bens-publicos-constitucionais-e-criacao-de-novos-entes)
+- [2. O Modelo Constitucional de Repartição de Competências](#2-o-modelo-constitucional-de-reparticao-de-competencias)
+    - [2.1 Competências Legislativas: Privativa da União versus Concorrente](#21-competencias-legislativas-privativa-da-uniao-versus-concorrente)
+    - [2.2 Competências Administrativas: Exclusivas e Comuns](#22-competencias-administrativas-exclusivas-e-comuns)
+    - [2.3 Competências dos Estados e Municípios](#23-competencias-dos-estados-e-municipios)
+- [3. Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual](#3-mecanismos-excepcionais-de-equilibrio-intervencao-federal-e-estadual)
+- [4. Regime Constitucional da Administração Pública e Servidores (Arts. 37 a 41)](#4-regime-constitucional-da-administracao-publica-e-servidores-arts-37-a-41)
+    - [4.1 Concurso Público, Funções de Confiança e Cargos em Comissão](#41-concurso-publico-funcoes-de-confianca-e-cargos-em-comissao)
+    - [4.2 Regra Constitucional da Não-Acumulação e Exceções (Art. 37, XVI)](#42-regra-constitucional-da-nao-acumulacao-e-excecoes-art-37-xvi)
+    - [4.3 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#43-exercicio-de-mandato-eletivo-pelo-servidor-publico-art-38)
+    - [4.4 Estabilidade e Perda do Cargo do Servidor Estável (Art. 41)](#44-estabilidade-e-perda-do-cargo-do-servidor-estavel-art-41)
+- [5. Fontes Oficiais & Doutrinárias Recomendadas](#fontes-oficiais-doutrinarias-recomendadas)
+- [6. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -47,6 +47,7 @@
 
 #### 1.1 Características da Federação Brasileira e Autonomia dos Entes
 A República Federativa do Brasil é formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal (Art. 18, *caput*).
+
 - **Origem Histórica:** Formou-se por **desagregação** (ou segregação), decorrente de um movimento **centrífugo** (o Estado unitário imperial descentralizou poderes políticos para as províncias que se transformaram em Estados-membros).
 - **Indissolubilidade do Vínculo Federativo:** Não existe o direito de secessão (nenhum Estado ou Município pode se separar do Brasil). A tentativa de desmembramento justifica a intervenção federal imediata (art. 34, I) e constitui crime inafiançável e imprescritível (art. 5º, XLIV).
 - **Soberania vs. Autonomia:**
@@ -110,9 +111,10 @@ Esta é a distinção mais exigida pela banca FCC. Analise as características d
 | **Concorrente (Art. 24)** | **União, Estados e Distrito Federal** *(Municípios NÃO participam formalmente do art. 24)* | Direito **P**enitenciário, **U**rbanístico, **F**inanceiro, **E**conômico e **T**ributário (**Mnemônico: PUFET**), além de Orçamento, Meio Ambiente, Florestas e Proteção ao Consumidor. | **União:** limita-se a fixar **Normas Gerais**.<br/>**Estados/DF:** exercem competência **Suplementar**.<br/>Se a União não editar norma geral, o Estado adquire competência plena. |
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+>
 > - **Direito Processual vs. Direito Penitenciário / Custas Forenses:**  
->   - Direito **Processual** é competência **privativa da União** (Art. 22, I). Leis estaduais que criem prazos ou ritos processuais judiciais são formalmente inconstitucionais!  
->   - Direito **Penitenciário** e custas dos serviços forenses são competências **concorrentes** (Art. 24, I e IV).  
+>     - Direito **Processual** é competência **privativa da União** (Art. 22, I). Leis estaduais que criem prazos ou ritos processuais judiciais são formalmente inconstitucionais!  
+>     - Direito **Penitenciário** e custas dos serviços forenses são competências **concorrentes** (Art. 24, I e IV).  
 > - **Superveniência de Lei Federal sobre Normas Gerais (Art. 24, § 4º):**  
 >   A superveniência de lei federal contendo normas gerais **NÃO REVOGA** a lei estadual anterior contrária; ela apenas **SUSPENDE A SUA EFICÁCIA** naquilo que for incompatível. Se a lei federal for declarada inconstitucional ou revogada, a lei estadual volta a produzir efeitos normalmente!
 
@@ -137,6 +139,7 @@ Esta é a distinção mais exigida pela banca FCC. Analise as características d
 ### 3. Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual
 
 A não-intervenção é a regra geral da federação. A intervenção consubstancia medida drástica e temporária que suspende a autonomia do ente subnacional para resguardar a integridade da ordem federativa.
+
 - **Intervenção Federal nos Estados e DF (Art. 34):** Cabível para manter a integridade nacional, repelir invasão estrangeira ou de uma unidade na outra, pôr termo a grave comprometimento da ordem pública, garantir o livre exercício de qualquer dos Poderes, reorganizar as finanças do Estado (se suspender pagamento de dívida por mais de 2 anos consecutivos) ou assegurar a observância dos **princípios constitucionais sensíveis** (forma republicana, direitos da pessoa humana, regime democrático, prestação de contas da administração e aplicação dos mínimos em saúde e educação).
 - **Intervenção Estadual nos Municípios (Art. 35):** Decretada pelo Governador do Estado quando o Município deixar de pagar sua dívida fundada por dois anos consecutivos, não prestar contas devidas, não aplicar o mínimo constitucional em saúde e educação ou quando o Tribunal de Justiça der provimento a representação para garantir a observância de princípios da Constituição Estadual ou prover a execução de lei ou ordem judicial.
 
@@ -177,6 +180,7 @@ flowchart TD
 ```
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+>
 > - **Teto Remuneratório na Acumulação Lícita (Tema 377/STF):** No caso de acumulação constitucional legítima de cargos, o teto remuneratório constitucional incide **isoladamente sobre cada um dos cargos**, e não sobre o somatório das remunerações!  
 > - **Cargo Técnico:** Para fins de acumulação com professor, considera-se técnico o cargo que exige conhecimentos técnicos específicos ou formação superior determinada, como o cargo de Analista e Técnico de Controle Externo do TCE-GO.
 
@@ -247,6 +251,7 @@ Considerando o modelo constitucional brasileiro de repartição de competências
 * **E)** A antinomia entre as duas leis impõe a anulação simultânea de ambas pelo Tribunal de Justiça, competindo aos Municípios legislar de forma residual.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O art. 24, I, da CF/88 consagra competência concorrente sobre direito tributário e financeiro. Inexistindo lei federal de normas gerais, o Estado exerce competência legislativa plena (art. 24, § 3º), sem necessidade de lei complementar delegatória.  
 > - **B) CORRETA:** O texto do art. 24, § 3º, confere ao Estado competência legislativa plena perante a inércia da União. O § 4º do mesmo artigo prescreve expressamente: *"A superveniência de lei federal sobre normas gerais suspende a eficácia da lei estadual, no que lhe for contrário."*  
 > - **C) Incorreta:** A União tem competência constitucional originária para editar normas gerais a qualquer tempo no âmbito concorrente.  
@@ -269,6 +274,7 @@ Considerando as normas constitucionais que regem a acumulação remunerada de ca
 * **E)** A acumulação é permitida exclusivamente para dois cargos privativos de profissionais de saúde, sendo vedada a docência por técnicos de controle externo.
 
 > **Comentário Detalhado:**
+>
 > - **A) CORRETA:** O art. 37, XVI, "b", da CF/88 excepciona a vedação de acumulação permitindo a de um cargo de professor com outro técnico ou científico, desde que haja compatibilidade de horários. O cargo de Técnico de Controle Externo possui inequívoca natureza de cargo técnico.  
 > - **B) Incorreta:** A cumulação constitucional pode envolver cargos de qualquer ente federativo (União, Estados, DF ou Municípios), inclusive estendendo-se à administração indireta (art. 37, XVII).  
 > - **C) Incorreta:** Na acumulação lícita com compatibilidade de horários, o servidor percebe a remuneração integral de ambos os cargos (respeitados os tetos individuais).  
@@ -283,7 +289,9 @@ Considerando as normas constitucionais que regem a acumulação remunerada de ca
 Sobre o regime constitucional de estabilidade dos servidores públicos civis e as hipóteses de perda do cargo público efetivo previstas na Constituição da República, analise as proposições a seguir:
 
 I. São estáveis após dois anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.  
+
 II. Como condição para a aquisição da estabilidade, é obrigatória a avaliação especial de desempenho por comissão instituída para essa finalidade.  
+
 III. O servidor público estável poderá perder o cargo mediante procedimento de avaliação periódica de desempenho, na forma de lei complementar, assegurada a ampla defesa.  
 
 Está correto o que se afirma em:
@@ -295,11 +303,12 @@ Está correto o que se afirma em:
 * **E)** I, II e III.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O item I é incorreto, pois o prazo constitucional de estágio probatório é de 3 anos de efetivo exercício.
 > - **B) CORRETA:**  
->   - *Item I (Falso):* Desde a Emenda Constitucional nº 19/1998, o prazo constitucional de estágio probatório para a aquisição de estabilidade é de **3 (três) anos de efetivo exercício**, e não dois anos (art. 41, *caput*).  
->   - *Item II (Verdadeiro):* O § 4º do art. 41 da CF/88 estabelece que *"é obrigatória a avaliação especial de desempenho por comissão instituída para essa finalidade"* como condição imprescindível para a estabilidade.  
->   - *Item III (Verdadeiro):* O art. 41, § 1º, III, da CF/88 prescreve expressamente que o servidor público estável só perderá o cargo, dentre outras hipóteses, *"mediante procedimento de avaliação periódica de desempenho, na forma de lei complementar, assegurada ampla defesa"*.  
+>     - *Item I (Falso):* Desde a Emenda Constitucional nº 19/1998, o prazo constitucional de estágio probatório para a aquisição de estabilidade é de **3 (três) anos de efetivo exercício**, e não dois anos (art. 41, *caput*).  
+>     - *Item II (Verdadeiro):* O § 4º do art. 41 da CF/88 estabelece que *"é obrigatória a avaliação especial de desempenho por comissão instituída para essa finalidade"* como condição imprescindível para a estabilidade.  
+>     - *Item III (Verdadeiro):* O art. 41, § 1º, III, da CF/88 prescreve expressamente que o servidor público estável só perderá o cargo, dentre outras hipóteses, *"mediante procedimento de avaliação periódica de desempenho, na forma de lei complementar, assegurada ampla defesa"*.  
 > - **C) Incorreta:** O item I é falso.
 > - **D) Incorreta:** Os itens II e III são verdadeiros.
 > - **E) Incorreta:** O item I é falso.
@@ -320,6 +329,7 @@ De acordo com o regime constitucional do servidor em exercício de mandato eleti
 * **E)** O servidor não pode assumir o mandato de Vereador sob pena de demissão imediata a bem do serviço público.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** Servidor público eleito para qualquer mandato jamais é obrigado a renunciar ou perder o cargo de provimento efetivo; ele apenas se afasta das funções durante a legislatura.  
 > - **B) Incorreta:** A percepção cumulativa das vantagens somente é admitida se houver estrita compatibilidade de horários (art. 38, III). O enunciado frisou que os horários coincidem parcialmente (incompatíveis).  
 > - **C) CORRETA:** De acordo com o art. 38, III, da CF/88, investido no mandato de Vereador, *"havendo compatibilidade de horários, perceberá as vantagens de seu cargo, emprego ou função, sem prejuízo da remuneração do cargo eletivo, e, não havendo compatibilidade, será aplicada a norma do inciso anterior"* (ou seja, afasta-se do cargo público, sendo-lhe facultado optar pela sua remuneração).  
@@ -340,6 +350,7 @@ Em tema de repartição constitucional de competências legislativas entre os en
 * **E)** Concorrentemente à União e aos Municípios, ficando os Estados restritos às normas de interesse regional.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** Essas três matérias não integram o rol da competência concorrente do art. 24 da CF/88.  
 > - **B) Incorreta:** Estados não têm competência privativa originária sobre tais matérias substantivas federais.  
 > - **C) CORRETA:** As matérias Direito do Trabalho e Direito Processual estão arroladas no art. 22, I, da CF/88, e Trânsito e Transporte no art. 22, XI, da CF/88, configurando competências privativas da União. O parágrafo único do art. 22 prescreve expressamente: *"Lei complementar poderá autorizar os Estados a legislar sobre questões específicas das matérias relacionadas neste artigo."*  

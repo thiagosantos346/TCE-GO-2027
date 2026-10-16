@@ -16,29 +16,28 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)](#1-fundamentos-do-inglês-instrumental-english-for-specific-purposes---esp)
-    - [1.1 Tripé de Competências Cognitivas](#11-tripé-de-competências-cognitivas)
-    - [1.2 Fases do Processo de Leitura Técnica](#12-fases-do-processo-de-leitura-técnica)
-- [2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)](#2-skimming-leitura-rápida-panorâmica-main-idea--gist)
-    - [2.1 Mecânica de Execução e Tópico Frasal](#21-mecânica-de-execução-e-tópico-frasal)
-    - [2.2 Identificação de Tipos de Questões FCC](#22-identificação-de-tipos-de-questões-fcc)
+- [1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)](#1-fundamentos-do-ingles-instrumental-english-for-specific-purposes-esp)
+    - [1.1 Tripé de Competências Cognitivas](#11-tripe-de-competencias-cognitivas)
+    - [1.2 Fases do Processo de Leitura Técnica](#12-fases-do-processo-de-leitura-tecnica)
+- [2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)](#2-skimming-leitura-rapida-panoramica-main-idea-gist)
+    - [2.1 Mecânica de Execução e Tópico Frasal](#21-mecanica-de-execucao-e-topico-frasal)
+    - [2.2 Identificação de Tipos de Questões FCC](#22-identificacao-de-tipos-de-questoes-fcc)
 - [3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)](#3-scanning-leitura-de-varredura-seletiva-locating-specific-data)
-    - [3.1 Mecânica de Execução e Pistas Tipográficas](#31-mecânica-de-execução-e-pistas-tipográficas)
+    - [3.1 Mecânica de Execução e Pistas Tipográficas](#31-mecanica-de-execucao-e-pistas-tipograficas)
     - [3.2 Matriz Comparativa: Skimming vs. Scanning](#32-matriz-comparativa-skimming-vs-scanning)
-- [4. Predição e Pistas Contextuais de Vocabulário (Context Clues)](#4-predição-e-pistas-contextuais-de-vocabulário-context-clues)
-    - [4.1 Pistas de Definição, Paráfrase e Exemplificação](#41-pistas-de-definição-paráfrase-e-exemplificação)
-    - [4.2 Pistas de Contraste, Oposição, Causa e Efeito](#42-pistas-de-contraste-oposição-causa-e-efeito)
-    - [4.3 Decomposição Morfológica (Prefixos, Raízes e Sufixos)](#43-decomposição-morfológica-prefixos-raízes-e-sufixos)
-    - [4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software](#44-vocabulário-crítico-de-engenharia-e-arquitetura-de-software)
-- [5. Falsos Cognatos Críticos em TI (False Friends)](#5-falsos-cognatos-críticos-em-ti-false-friends)
+- [4. Predição e Pistas Contextuais de Vocabulário (Context Clues)](#4-predicao-e-pistas-contextuais-de-vocabulario-context-clues)
+    - [4.1 Pistas de Definição, Paráfrase e Exemplificação](#41-pistas-de-definicao-parafrase-e-exemplificacao)
+    - [4.2 Pistas de Contraste, Oposição, Causa e Efeito](#42-pistas-de-contraste-oposicao-causa-e-efeito)
+    - [4.3 Decomposição Morfológica (Prefixos, Raízes e Sufixos)](#43-decomposicao-morfologica-prefixos-raizes-e-sufixos)
+    - [4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software](#44-vocabulario-critico-de-engenharia-e-arquitetura-de-software)
+- [5. Falsos Cognatos Críticos em TI (False Friends)](#5-falsos-cognatos-criticos-em-ti-false-friends)
     - [5.1 Cognatos Verdadeiros vs. Falsos Amigos](#51-cognatos-verdadeiros-vs-falsos-amigos)
-    - [5.2 Quadro Lexical de Falsos Cognatos Críticos](#52-quadro-lexical-de-falsos-cognatos-críticos)
-- [6. Coesão Textual e Referência Pronominal (Reference Words)](#6-coesão-textual-e-referência-pronominal-reference-words)
-    - [6.1 Anáfora e Catáfora em Textos Técnicos](#61-anáfora-e-catáfora-em-textos-técnicos)
+    - [5.2 Quadro Lexical de Falsos Cognatos Críticos](#52-quadro-lexical-de-falsos-cognatos-criticos)
+- [6. Coesão Textual e Referência Pronominal (Reference Words)](#6-coesao-textual-e-referencia-pronominal-reference-words)
+    - [6.1 Anáfora e Catáfora em Textos Técnicos](#61-anafora-e-catafora-em-textos-tecnicos)
     - [6.2 Encapsulamento Conceitual com Demonstrativos](#62-encapsulamento-conceitual-com-demonstrativos)
 - [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
-- [8. Questões Comentadas & Exemplos (Padrão FCC)](#8-questões-comentadas--exemplos-padrão-fcc)
+- [8. Questões Comentadas & Exemplos (Padrão FCC)](#8-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -115,6 +114,7 @@ O **Scanning** (análogo à operação de busca de um comando `grep` ou ao feixe
     - **Numéricos e Temporais:** Algarismos arábicos (`2024`, `99.99%`, `128-bit`, `500 ms`).
     - **Nomes Próprios e Acrônimos:** Grafia em caixa alta ou siglas conhecidas (`NIST`, `OAuth 2.0`, `PostgreSQL`, `Kubernetes`).
     - **Termos de Sintaxe / TI:** Palavras grafadas em itálico, com formatação monotipada ou entre aspas (`idempotent`, `deadlock`, `mutex`).
+
 3. **Varredura Ocular Não-Linear:** Percorrer os olhos rapidamente em zigue-zague ou verticalmente pela página, inibindo qualquer subvocalização. Tudo o que não coincide com a âncora gráfica é visualmente descartado.
 4. **Foco Cirúrgico Local:** Ao identificar visualmente a âncora, interromper a varredura e realizar uma leitura analítica rigorosa apenas da oração que contém o termo, bem como da oração imediatamente anterior e posterior.
 
@@ -299,6 +299,7 @@ Based on reading comprehension strategies and technical lexicon, it is correct t
 * **E)** The pronoun **"their"** in the sentence *"their authorization must be continually re-evaluated"* refers syntactically to *"traditional perimeter defenses"*.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Explora a pegadinha clássica do falso cognato (*false friend*). O advérbio **"eventually"** significa "no final das contas", "com o tempo" ou "ao longo do processo" (*in the end / ultimately*). A alternativa tenta induzir o candidato ao erro traduzindo-o por "ocasionalmente / de modo esporádico", o que em inglês seria expresso por *occasionally* ou *sporadically*.
 > - **B)** Incorreta. Mediante *Skimming*, nota-se que o parágrafo apresenta a superioridade conceitual e a necessidade do modelo Zero Trust frente às defesas tradicionais de perímetro, que assumiam presunções ingênuas de confiança interna. O autor não afirma que o modelo tradicional é superior.
 > - **C)** Incorreta. Mediante *Scanning*, verifica-se que o texto assinala expressamente o oposto: *"even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated"* (mesmo após obter acesso inicial, a autorização deve ser continuamente reavaliada, logo não permanece estática).
@@ -323,13 +324,15 @@ Na língua portuguesa, as palavras destacadas no trecho (**pretended**, **compre
 * **E)** planejou – compacta – apólice – futuramente
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Erra ao traduzir *comprehensive* como "compreensiva" (tolerante é *understanding*), *policy* como "polícia" (*police*) e *actually* como "atualmente" (*currently*).
 > - **B)** Incorreta. Erra ao traduzir *pretended* como "pretendeu" (pretender é *to intend*) e *actually* como "atualmente" (*currently*).
 > - **C)** Correta. Decodifica perfeitamente os quatro termos técnicos:
->   1. **To pretend:** fingir, simular (não confundir com *to intend*, pretender).
->   2. **Comprehensive:** abrangente, amplo, exaustivo (não confundir com tolerante/compreensivo).
->   3. **Policy:** diretriz, norma institucional, política de segurança (não confundir com corporação policial).
->   4. **Actually:** na verdade, de fato, efetivamente, realmente (não confundir com nos dias atuais).
+>     1. **To pretend:** fingir, simular (não confundir com *to intend*, pretender).
+>     2. **Comprehensive:** abrangente, amplo, exaustivo (não confundir com tolerante/compreensivo).
+>     3. **Policy:** diretriz, norma institucional, política de segurança (não confundir com corporação policial).
+>     4. **Actually:** na verdade, de fato, efetivamente, realmente (não confundir com nos dias atuais).
+>
 > - **D)** Incorreta. Erra ao atribuir "tentou" (*attempted*), "tolerante" (*tolerant*) e "polícia" (*police*).
 > - **E)** Incorreta. Erra em "planejou" (*planned*), "compacta" (*compact*) e "futuramente" (*in the future*).
 > 
@@ -351,6 +354,7 @@ Based on reading strategies and vocabulary inference, select the correct stateme
 * **E)** The pronoun **"this intrusion"** in the third sentence refers specifically to the automated restoration of cold backups.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. No léxico técnico de cibersegurança e auditoria de sistemas, **"to compromise"** significa violar a segurança, corromper ou assumir controle indevido de um recurso. A alternativa apoia-se no sentido leigo e diplomático da palavra (acordo/concessão recíproca), descabido no contexto de exploração de vulnerabilidade.
 > - **B)** Correta. A preposição **"Unlike"** (ao contrário de / diferentemente de) atua como um marcador contrastivo inequívoco: confronta as campanhas convencionais de malware, que interrompem operações instantaneamente (*disrupt operations immediately*), com a invasão analisada, que permaneceu dormente durante semanas (*remained dormant for weeks*).
 > - **C)** Incorreta. Por meio de *Scanning* focado na expressão "physical sites", constata-se a menção expressa a *"across **multiple** physical sites"* (múltiplos locais físicos, e não um único).
@@ -375,6 +379,7 @@ Through the application of skimming and scanning techniques, it can be concluded
 * **E)** The linking word **"Nonetheless"** introduces an addition of arguments in favor of monolithic deployment pipelines.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O *skimming* demonstra que o texto adota uma abordagem equilibrada de engenharia, enfatizando que os microsserviços acarretam complexidade operacional distribuída e custos adicionais consideráveis (*operational complexity, network latency*), refutando a tese de recomendação incondicional sem desvantagens.
 > - **B)** Incorreta. O termo **"bottleneck"** (gargalo) designa um ponto crítico de estrangulamento ou restrição que retarda o fluxo de trabalho e reduz a produtividade, e nunca um acelerador de velocidade.
 > - **C)** Incorreta. O *scanning* localiza que a maior latência de rede (*network latency*) e o desafio de consistência transacional entre serviços (*cross-service transactional consistency*) são ônus inerentes aos **microsserviços**, e não aos sistemas monolíticos.
@@ -399,6 +404,7 @@ Regarding reading comprehension, context clues, and reference words in the text,
 * **E)** The author argues that machine learning models should enter production immediately, dispensing with explainability and audit trails.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Empregada como adjetivo de língua inglesa, a palavra **"novel"** significa novo, inédito, original ou inovador (raiz latina de novidade). Não guarda relação com algo antigo ou tradicional, tampouco com romances literários.
 > - **B)** Correta. Ocorre aqui o encapsulamento conceitual anafórico: a locução demonstrativa **"To prevent this"** (Para prevenir que isso aconteça) retoma todo o fato crítico enunciado imediatamente antes: o viés algorítmico inadvertido prejudicar cidadãos em situação vulnerável (*undetected algorithmic bias can harm vulnerable citizens*).
 > - **C)** Incorreta. O adjetivo **"sensible"** é falso cognato e traduz-se como sensato, criterioso, razoável e prudente. A noção de suscetibilidade emocional ou dados protegidos traduz-se por *sensitive*.

@@ -20,26 +20,25 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)](#1-princípios-gerais-e-regime-da-lei-federal-nº-141332021-nllc)
-    - [1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos](#11-âmbito-de-aplicação-subjetivo-e-objetos-abrangidos)
-    - [1.2 Os Objetivos Fundamentais do Processo Licitatório (Art. 11)](#12-os-objetivos-fundamentais-do-processo-licitatório-art-11)
-    - [1.3 Governança das Contratações e Gestão por Competências](#13-governança-das-contratações-e-gestão-por-competências)
-- [2. Agentes Públicos da Contratação e Segregação de Funções](#2-agentes-públicos-da-contratação-e-segregação-de-funções)
-    - [2.1 O Agente de Contratação e o Pregoeiro](#21-o-agente-de-contratação-e-o-pregoeiro)
-    - [2.2 Comissão de Contratação e a Regra do Diálogo Competitivo](#22-comissão-de-contratação-e-a-regra-do-diálogo-competitivo)
-    - [2.3 O Princípio da Segregação de Funções e Conflito de Interesses](#23-o-princípio-da-segregação-de-funções-e-conflito-de-interesses)
-    - [2.4 Defesa Jurídica Institucional dos Agentes (Art. 10)](#24-defesa-jurídica-institucional-dos-agentes-art-10)
-- [3. Planejamento das Contratações e Instrumentos Preparatórios](#3-planejamento-das-contratações-e-instrumentos-preparatórios)
-    - [3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária](#31-plano-de-contratações-anual-pca-e-integração-orçamentária)
-    - [3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios](#32-estudo-técnico-preliminar-etp-conceito-e-elementos-obrigatórios)
-    - [3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo](#33-termo-de-referência-vs-projeto-básico-e-projeto-executivo)
-    - [3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro](#34-matriz-de-alocação-de-riscos-e-equilíbrio-econômico-financeiro)
-- [4. O Portal Nacional de Contratações Públicas (PNCP)](#4-o-portal-nacional-de-contratações-públicas-pncp)
-    - [4.1 Natureza e Atribuições Centrais do Portal](#41-natureza-e-atribuições-centrais-do-portal)
-    - [4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)](#42-a-divulgação-no-pncp-como-requisito-indispensável-de-eficácia-art-94)
+- [1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)](#1-principios-gerais-e-regime-da-lei-federal-no-141332021-nllc)
+    - [1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos](#11-ambito-de-aplicacao-subjetivo-e-objetos-abrangidos)
+    - [1.2 Os Objetivos Fundamentais do Processo Licitatório (Art. 11)](#12-os-objetivos-fundamentais-do-processo-licitatorio-art-11)
+    - [1.3 Governança das Contratações e Gestão por Competências](#13-governanca-das-contratacoes-e-gestao-por-competencias)
+- [2. Agentes Públicos da Contratação e Segregação de Funções](#2-agentes-publicos-da-contratacao-e-segregacao-de-funcoes)
+    - [2.1 O Agente de Contratação e o Pregoeiro](#21-o-agente-de-contratacao-e-o-pregoeiro)
+    - [2.2 Comissão de Contratação e a Regra do Diálogo Competitivo](#22-comissao-de-contratacao-e-a-regra-do-dialogo-competitivo)
+    - [2.3 O Princípio da Segregação de Funções e Conflito de Interesses](#23-o-principio-da-segregacao-de-funcoes-e-conflito-de-interesses)
+    - [2.4 Defesa Jurídica Institucional dos Agentes (Art. 10)](#24-defesa-juridica-institucional-dos-agentes-art-10)
+- [3. Planejamento das Contratações e Instrumentos Preparatórios](#3-planejamento-das-contratacoes-e-instrumentos-preparatorios)
+    - [3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária](#31-plano-de-contratacoes-anual-pca-e-integracao-orcamentaria)
+    - [3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios](#32-estudo-tecnico-preliminar-etp-conceito-e-elementos-obrigatorios)
+    - [3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo](#33-termo-de-referencia-vs-projeto-basico-e-projeto-executivo)
+    - [3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro](#34-matriz-de-alocacao-de-riscos-e-equilibrio-economico-financeiro)
+- [4. O Portal Nacional de Contratações Públicas (PNCP)](#4-o-portal-nacional-de-contratacoes-publicas-pncp)
+    - [4.1 Natureza e Atribuições Centrais do Portal](#41-natureza-e-atribuicoes-centrais-do-portal)
+    - [4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)](#42-a-divulgacao-no-pncp-como-requisito-indispensavel-de-eficacia-art-94)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas & Exemplos (Padrão FCC)](#6-questões-comentadas--exemplos-padrão-fcc)
+- [6. Questões Comentadas & Exemplos (Padrão FCC)](#6-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -81,6 +80,7 @@ A NLLC elevou a governança ao patamar de exigência legal expressa (art. 11, pa
 ### 2.1 O Agente de Contratação e o Pregoeiro
 
 O **Agente de Contratação** (art. 8º) é a pessoa física designada pela autoridade competente para tomar decisões, acompanhar o trâmite da licitação, dar impulso ao procedimento e executar quaisquer outras atividades necessárias ao bom andamento do certame até a homologação.
+
 - **Requisito Obrigatório de Investidura:** Deve ser, preferencialmente, **servidor efetivo ou empregado público dos quadros permanentes** da Administração Pública.  
   > 🚨 **ALERTA CRÍTICO FCC:** É vedada a designação exclusiva de cidadão ocupante de cargo em comissão sem vínculo efetivo com o ente federado para atuar como Agente de Contratação!
 - **Responsabilidade Individual:** Responde **individualmente** pelos atos que praticar na condução do procedimento, salvo quando for induzido a erro pela atuação de sua equipe de apoio ou comissão.
@@ -182,6 +182,7 @@ flowchart TD
 ### 4.1 Natureza e Atribuições Centrais do Portal
 
 O **Portal Nacional de Contratações Públicas (PNCP)**, disciplinado pelos arts. 174 a 176 da Lei nº 14.133/2021, é o sítio eletrônico oficial único de divulgação de compras públicas gerido pelo Comitê Gestor da Rede Nacional de Contratações Públicas.
+
 - Suas atribuições envolvem centralizar a publicação de editais, atas de registro de preços, planos anuais de contratações, catálogos eletrônicos de padronização e o cadastro unificado de fornecedores impedidos e inidôneos.
 
 ### 4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)
@@ -224,6 +225,7 @@ Em face das normas expressas de governança e princípios instituídos pela Lei 
 * **E)** A cumulação de funções de agente de contratação e fiscal de contrato é obrigatória em órgãos que contam com menos de cem servidores.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A busca por celeridade não autoriza a eliminação de controles internos básicos nem a supressão de salvaguardas contra desvios de conduta.
 > - **B)** Correta. De acordo com o art. 5º e art. 7º, § 1º, da Lei Federal nº 14.133/2021, a autoridade deve observar o **princípio da segregação de funções**, sendo vedada a designação do mesmo agente para atuar simultaneamente em funções mais suscetíveis a riscos (planejar o objeto, julgar a licitação e fiscalizar a despesa). Ademais, o art. 8º da NLLC exige que o Agente de Contratação seja designado dentre **servidores efetivos ou empregados públicos dos quadros permanentes** da Administração Pública, o que impede a entrega da condução do certame a servidor exclusivamente comissionado.
 > - **C)** Incorreta. O agente de contratação é agente público investido legalmente nos quadros do Estado, e não consultor privado terceirizado.
@@ -246,6 +248,7 @@ Com base na disciplina da Lei Federal nº 14.133/2021:
 * **E)** A matriz de alocação de riscos somente produz efeitos se ratificada por acórdão do Tribunal de Contas respectivo.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. A Lei Federal nº 14.133/2021 prescreve em seu art. 124, § 1º, que é dispensada a formalização de termo aditivo para restabelecimento do equilíbrio econômico-financeiro quando o evento superveniente decorrer de risco cuja responsabilidade financeira tenha sido contratualmente atribuída ao contratado na **Matriz de Alocação de Riscos**. Tendo a empresa assumido o risco de oscilação ordinária do insumo, ela o precificou em sua proposta; a concretização desse evento não rompe a equação originária do contrato.
 > - **B)** Incorreta. A matriz de riscos é cláusula de adoção **obrigatória** nas contratações de grande vulto (art. 22, § 3º), assim entendidas aquelas que ultrapassam R$ 200 milhões.
 > - **C)** Incorreta. O rateio de ônus depende de estipulação expressa na matriz de riscos, descabendo divisão genérica e apriorística de 50%.
@@ -268,13 +271,14 @@ Considerando o que prescreve o art. 18 da Lei Federal nº 14.133/2021 sobre o co
 * **E)** A indicação da viabilidade técnica da contratação é facultativa caso haja parecer favorável da chefia imediata.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A Lei nº 14.133/2021 estabelece no art. 18, § 2º, um rol taxativo de cinco itens que devem obrigatoriamente constar do ETP, não sendo sua confecção meramente discricionária.
 > - **B)** Correta. O art. 18, § 2º, da Lei nº 14.133/2021 expressamente impõe a obrigatoriedade da inclusão no ETP de:
->   - I. Descrição da necessidade da contratação;
->   - **IV. Estimativa das quantidades a serem contratadas, acompanhada das memórias de cálculo e dos documentos que lhe dão suporte;**
->   - VI. Estimativa do valor da contratação;
->   - **VII. Justificativa para o parcelamento ou não da contratação;**
->   - XIII. Posicionamento conclusivo sobre a adequação da contratação para o atendimento da necessidade pública.  
+>     - I. Descrição da necessidade da contratação;
+>     - **IV. Estimativa das quantidades a serem contratadas, acompanhada das memórias de cálculo e dos documentos que lhe dão suporte;**
+>     - VI. Estimativa do valor da contratação;
+>     - **VII. Justificativa para o parcelamento ou não da contratação;**
+>     - XIII. Posicionamento conclusivo sobre a adequação da contratação para o atendimento da necessidade pública.  
 >   Logo, a supressão desses tópicos é vedada pela norma geral.
 > - **C)** Incorreta. O ETP constitui a regra geral da fase de planejamento da NLLC, independentemente do valor da contratação.
 > - **D)** Incorreta. A pesquisa mercadológica e a elaboração do ETP devem preceder formalmente a redação do termo de referência e do edital.
@@ -296,6 +300,7 @@ Conforme as disposições da Lei Federal nº 14.133/2021 relativas aos agentes d
 * **E)** A condução por colegiado é terminantemente proibida na Nova Lei de Licitações, prevalecendo sempre a decisão monocrática.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. De acordo com o art. 32, inciso XI, e art. 8º, § 1º, da Lei Federal nº 14.133/2021: *"o diálogo competitivo será conduzido por comissão de contratação composta de pelo menos 3 (três) servidores efetivos ou empregados públicos pertencentes aos quadros permanentes da Administração, admitida a contratação de profissionais para assessoramento técnico da comissão."* Trata-se de uma das hipóteses legais em que a condução colegiada por comissão de contratação é obrigatória, em razão das sucessivas rodadas de debates técnicos com os licitantes.
 > - **B)** Incorreta. A condução monocrática por agente individual é vedada no Diálogo Competitivo.
 > - **C)** Incorreta. O Presidente da corte atua como autoridade homologadora, descabendo a condução direta da sessão pública sem comissão técnica.
@@ -318,6 +323,7 @@ O Estado de Goiás homologou licitação para aquisição de equipamentos hospit
 * **E)** Fica dispensado de publicação no PNCP caso o valor contratado seja inferior a R$ 20 milhões.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A Lei nº 14.133/2021 alterou o marco de publicidade em relação ao regime revogado da Lei 8.666/93; o Diário Oficial é veículo complementar, sendo a publicidade no PNCP a condição indispensável de eficácia.
 > - **B)** Correta. O art. 94 da Lei Federal nº 14.133/2021 preceitua categoricamente: *"A divulgação no Portal Nacional de Contratações Públicas (PNCP) é condição indispensável para a eficácia do contrato e de seus aditamentos e deverá ocorrer nos seguintes prazos, contados da data de sua assinatura: I - 20 (vinte) dias úteis, no caso de licitação; II - 10 (dez) dias úteis, no caso de contratação direta."* Sem a publicação tempestiva no PNCP, o contrato existe e é válido, mas permanece **ineficaz** perante o ordenamento, não autorizando a exigência de cumprimento nem o empenho e liquidação de despesas públicas.
 > - **C)** Incorreta. A omissão no PNCP afeta a eficácia do instrumento contratual e comporta saneamento mediante publicação posterior no portal, não configurando nulidade insanável no objeto da licitação.

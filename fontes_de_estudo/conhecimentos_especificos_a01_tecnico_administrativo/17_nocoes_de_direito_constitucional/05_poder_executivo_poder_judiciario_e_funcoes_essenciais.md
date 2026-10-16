@@ -29,22 +29,22 @@
 ---
 
 ## 🧭 Sumário
-1. [Poder Executivo: Estrutura, Atribuições e Responsabilidade](#1-poder-executivo-estrutura-atribuições-e-responsabilidade)
-    - 1.1 [Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)](#11-dupla-vacância-dos-cargos-presidenciais-art-81-da-cf88)
-    - 1.2 [Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)](#12-atribuições-delegáveis-do-presidente-da-república-art-84-parágrafo-único)
-    - 1.3 [Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)](#13-responsabilidade-do-presidente-da-república-e-imunidades-arts-85-e-86)
-2. [Poder Judiciário: Estrutura Orgânica, CNJ e Súmula Vinculante](#2-poder-judiciário-estrutura-orgânica-cnj-e-súmula-vinculante)
-    - 2.1 [Garantias e Vedações dos Magistrados (Art. 95 da CF/88)](#21-garantias-e-vedações-dos-magistrados-art-95-da-cf88)
-    - 2.2 [Conselho Nacional de Justiça (CNJ - Art. 103-B)](#22-conselho-nacional-de-justiça-cnj---art-103-b)
-    - 2.3 [Supremo Tribunal Federal e o Regime da Súmula Vinculante (Art. 103-A)](#23-supremo-tribunal-federal-e-o-regime-da-súmula-vinculante-art-103-a)
-    - 2.4 [Superior Tribunal de Justiça e o Filtro de Relevância (Arts. 104 e 105)](#24-superior-tribunal-de-justiça-e-o-filtro-de-relevância-arts-104-e-105)
-3. [Funções Essenciais à Justiça](#3-funções-essenciais-à-justiça)
-    - 3.1 [Ministério Público e o CNMP (Arts. 127 a 130-A)](#31-ministério-público-e-o-cnmp-arts-127-a-130-a)
-    - 3.2 [Advocacia Pública (Arts. 131 e 132)](#32-advocacia-pública-arts-131-e-132)
-    - 3.3 [Defensoria Pública (Arts. 134 e 135)](#33-defensoria-pública-arts-134-e-135)
-    - 3.4 [Advocacia Privada (Art. 133)](#34-advocacia-privada-art-133)
-4. [Fontes Oficiais & Jurisprudenciais Recomendadas](#4-fontes-oficiais--jurisprudenciais-recomendadas)
-5. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#5-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
+- [1. Poder Executivo: Estrutura, Atribuições e Responsabilidade](#1-poder-executivo-estrutura-atribuicoes-e-responsabilidade)
+    - [1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)](#11-dupla-vacancia-dos-cargos-presidenciais-art-81-da-cf88)
+    - [1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)](#12-atribuicoes-delegaveis-do-presidente-da-republica-art-84-paragrafo-unico)
+    - [1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)](#13-responsabilidade-do-presidente-da-republica-e-imunidades-arts-85-e-86)
+- [2. Poder Judiciário: Estrutura Orgânica, CNJ e Súmula Vinculante](#2-poder-judiciario-estrutura-organica-cnj-e-sumula-vinculante)
+    - [2.1 Garantias e Vedações dos Magistrados (Art. 95 da CF/88)](#21-garantias-e-vedacoes-dos-magistrados-art-95-da-cf88)
+    - [2.2 Conselho Nacional de Justiça (CNJ - Art. 103-B)](#22-conselho-nacional-de-justica-cnj-art-103-b)
+    - [2.3 Supremo Tribunal Federal e o Regime da Súmula Vinculante (Art. 103-A)](#23-supremo-tribunal-federal-e-o-regime-da-sumula-vinculante-art-103-a)
+    - [2.4 Superior Tribunal de Justiça e o Filtro de Relevância (Arts. 104 e 105)](#24-superior-tribunal-de-justica-e-o-filtro-de-relevancia-arts-104-e-105)
+- [3. Funções Essenciais à Justiça](#3-funcoes-essenciais-a-justica)
+    - [3.1 Ministério Público e o CNMP (Arts. 127 a 130-A)](#31-ministerio-publico-e-o-cnmp-arts-127-a-130-a)
+    - [3.2 Advocacia Pública (Arts. 131 e 132)](#32-advocacia-publica-arts-131-e-132)
+    - [3.3 Defensoria Pública (Arts. 134 e 135)](#33-defensoria-publica-arts-134-e-135)
+    - [3.4 Advocacia Privada (Art. 133)](#34-advocacia-privada-art-133)
+- [4. Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+- [5. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -78,6 +78,7 @@ O art. 84 fixa as competências privativas do Presidente da República. Em regra
 1. **Art. 84, VI:** Dispor, mediante **decreto autônomo**, sobre:
     - *a)* Organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;
     - *b)* Extinção de funções ou cargos públicos, quando vagos;
+
 2. **Art. 84, XII:** Conceder **indulto e comutar penas**, com audiência, se necessário, dos órgãos instituídos em lei;
 3. **Art. 84, XXV, primeira parte:** **Prover** cargos públicos federais, na forma da lei.
 
@@ -87,6 +88,7 @@ flowchart LR
 ```
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+>
 > - **Extinção de Órgãos Públicos:** O Presidente NÃO pode criar nem extinguir Ministérios ou órgãos públicos por decreto! A criação e extinção de órgãos públicos exige expressamente **lei formal ordinária** (art. 88 da CF/88). O decreto autônomo serve exclusivamente para organizar órgãos existentes sem gerar custos ou extinguir cargos vagos.  
 > - **Extinção de Cargos Públicos Ocupados:** Depende obrigatoriamente de lei formal. Por decreto autônomo, o Chefe do Executivo só pode extinguir cargos e funções quando estiverem **vagos**!
 
@@ -207,6 +209,7 @@ A respeito das atribuições constitucionais do Presidente da República e da po
 * **E)** As atribuições privativas do Presidente da República são personalíssimas e indelegáveis sob qualquer hipótese, em observância estrita ao princípio da separação dos poderes.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A criação e a extinção de Ministérios e órgãos públicos dependem obrigatoriamente de lei formal (art. 88 da CF/88), sendo matéria indelegável.  
 > - **B) CORRETA:** De acordo com o art. 84, parágrafo único, da CF/88, o Presidente da República poderá delegar as atribuições mencionadas nos incisos VI (decreto autônomo), XII (conceder indulto e comutar penas) e XXV, primeira parte (prover cargos públicos federais vagos), aos Ministros de Estado, ao **Procurador-Geral da República** ou ao **Advogado-Geral da União**.  
 > - **C) Incorreta:** Decretar e executar intervenção federal (art. 84, X) e celebrar a paz (art. 84, XX) são competências indelegáveis e exclusivas do Presidente da República.  
@@ -227,6 +230,7 @@ Sobre a estrutura e as atribuições do Conselho Nacional de Justiça (CNJ), com
 * **E)** É composto exclusivamente por magistrados togados de carreira, sendo vedada a nomeação de advogados e membros do Ministério Público em seu colegiado.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O CNJ não exerce qualquer atividade jurisdicional ou recursal típica, não possuindo poder para cassar ou reformar decisões judiciais de mérito (art. 103-B, § 4º).  
 > - **B) CORRETA:** Reproduz a literalidade do art. 103-B da CF/88: o Conselho Nacional de Justiça compõe-se de 15 membros com mandato de dois anos, admitida uma única recondução, sob a presidência do Presidente do STF.  
 > - **C) Incorreta:** O CNJ não possui iniciativa privativa para deflagrar Propostas de Emenda à Constituição (art. 60) nem leis que disciplinem o estatuto da magistratura (atribuição do STF - art. 93).  
@@ -249,6 +253,7 @@ O Supremo Tribunal Federal aprovou enunciado de Súmula Vinculante versando sobr
 * **E)** A Súmula Vinculante produz efeitos apenas no âmbito dos órgãos do Poder Judiciário, não gerando obrigações para a administração direta dos Estados.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A Súmula Vinculante não atinge o Poder Legislativo em sua função legislativa típica (*efeito não fossilizante* do ordenamento). O parlamento é livre para inovar legislativamente mesmo contra súmulas vinculantes.  
 > - **B) CORRETA:** O art. 103-A da CF/88 estabelece que a Súmula Vinculante terá efeito vinculante em relação aos demais órgãos do Poder Judiciário e à **Administração Pública direta e indireta, nas esferas federal, estadual e municipal**. Ela não vincula o Legislativo em sua atividade típica de legislar nem vincula o próprio STF.  
 > - **C) Incorreta:** Não há previsão constitucional de dissolução de mesa legislativa pelo STF por atividade legiferante.  
@@ -263,7 +268,9 @@ O Supremo Tribunal Federal aprovou enunciado de Súmula Vinculante versando sobr
 Acerca do regime constitucional conferido às Funções Essenciais à Justiça na Constituição Federal de 1988, analise as proposições a seguir:
 
 I. São princípios institucionais do Ministério Público a unidade, a indivisibilidade e a independência funcional.  
+
 II. À Defensoria Pública é assegurada a autonomia funcional e administrativa e a iniciativa de sua proposta orçamentária dentro dos limites estabelecidos na lei de diretrizes orçamentárias.  
+
 III. O ingresso nas carreiras da Advocacia Pública dos Estados depende de concurso público de provas e títulos, com a participação facultativa da Ordem dos Advogados do Brasil em sua comissão examinadora.  
 
 Está correto o que se afirma em:
@@ -275,10 +282,11 @@ Está correto o que se afirma em:
 * **E)** I, II e III.
 
 > **Comentário Detalhado:**
+>
 > - **A) CORRETA:**  
->   - *Item I (Verdadeiro):* O art. 127, § 1º, da CF/88 prescreve: *"São princípios institucionais do Ministério Público a unidade, a indivisibilidade e a independência funcional."*  
->   - *Item II (Verdadeiro):* A autonomia funcional, administrativa e orçamentária da Defensoria Pública está expressamente prevista nos §§ 2º e 3º do art. 134 da CF/88.  
->   - *Item III (Falso):* Conforme o art. 132 da CF/88, o ingresso na carreira de Procurador do Estado dá-se mediante concurso público de provas e títulos, **com a participação obrigatória** (e não facultativa) da Ordem dos Advogados do Brasil em todas as suas fases.  
+>     - *Item I (Verdadeiro):* O art. 127, § 1º, da CF/88 prescreve: *"São princípios institucionais do Ministério Público a unidade, a indivisibilidade e a independência funcional."*  
+>     - *Item II (Verdadeiro):* A autonomia funcional, administrativa e orçamentária da Defensoria Pública está expressamente prevista nos §§ 2º e 3º do art. 134 da CF/88.  
+>     - *Item III (Falso):* Conforme o art. 132 da CF/88, o ingresso na carreira de Procurador do Estado dá-se mediante concurso público de provas e títulos, **com a participação obrigatória** (e não facultativa) da Ordem dos Advogados do Brasil em todas as suas fases.  
 > - **B) Incorreta:** O item III é falso.  
 > - **C) Incorreta:** O item III é falso e o item II é verdadeiro.  
 > - **D) Incorreta:** O item II também é verdadeiro.  
@@ -298,6 +306,7 @@ Na hipótese de ocorrer a vacância simultânea e definitiva dos cargos de Presi
 * **E)** Haverá intervenção militar provisória até que o Colégio Eleitoral estadual convoque novo plebiscito presidencial.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O Presidente da Câmara figura apenas na linha de substituição temporária (art. 80), não assumindo mandato em caráter definitivo em caso de dupla vacância.  
 > - **B) Incorreta:** Eleições diretas em 90 dias só ocorrem se a dupla vacância acontecer nos **dois primeiros anos** do mandato (art. 81, *caput*).  
 > - **C) CORRETA:** Nos termos do art. 81, § 1º, da CF/88, ocorrendo a vacância nos **últimos dois anos do mandato** (caso do enunciado, que citou o terceiro ano), a eleição para ambos os cargos será feita **trinta dias depois da última vaga, pelo Congresso Nacional (eleição indireta)**, cabendo aos eleitos completar o período dos antecessores (*mandato-tampão* - art. 81, § 2º).  

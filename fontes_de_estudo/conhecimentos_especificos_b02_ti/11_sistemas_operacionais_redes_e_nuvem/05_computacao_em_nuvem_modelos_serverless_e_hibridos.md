@@ -18,28 +18,27 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Fundamentos de Computação em Nuvem (NIST SP 800-145)](#1-fundamentos-de-computação-em-nuvem-nist-sp-800-145)
-    - [1.1 Definição Canônica do NIST](#11-definição-canônica-do-nist)
-    - [1.2 As Cinco Características Essenciais](#12-as-cinco-características-essenciais)
-    - [1.3 Os Quatro Modelos de Implantação (Pública, Privada, Comunitária, Híbrida)](#13-os-quatro-modelos-de-implantação-pública-privada-comunitária-híbrida)
-- [2. Modelos de Serviço e Matriz de Responsabilidade Compartilhada](#2-modelos-de-serviço-e-matriz-de-responsabilidade-compartilhada)
+- [1. Fundamentos de Computação em Nuvem (NIST SP 800-145)](#1-fundamentos-de-computacao-em-nuvem-nist-sp-800-145)
+    - [1.1 Definição Canônica do NIST](#11-definicao-canonica-do-nist)
+    - [1.2 As Cinco Características Essenciais](#12-as-cinco-caracteristicas-essenciais)
+    - [1.3 Os Quatro Modelos de Implantação (Pública, Privada, Comunitária, Híbrida)](#13-os-quatro-modelos-de-implantacao-publica-privada-comunitaria-hibrida)
+- [2. Modelos de Serviço e Matriz de Responsabilidade Compartilhada](#2-modelos-de-servico-e-matriz-de-responsabilidade-compartilhada)
     - [2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle](#21-iaas-paas-e-saas-estrutura-e-escopos-de-controle)
     - [2.2 Matriz de Responsabilidade Compartilhada (Shared Responsibility Model)](#22-matriz-de-responsabilidade-compartilhada-shared-responsibility-model)
-- [3. Computação Serverless (FaaS - Function as a Service)](#3-computação-serverless-faas---function-as-a-service)
-    - [3.1 Paradigma: Execução Orientada a Eventos e Abstração de Infraestrutura](#31-paradigma-execução-orientada-a-eventos-e-abstração-de-infraestrutura)
-    - [3.2 Escala Automática a Zero (Scale-to-Zero) e Cobrança Fracionada](#32-escala-automática-a-zero-scale-to-zero-e-cobrança-fracionada)
-    - [3.3 O Desafio do Cold Start e Estratégias de Mitigação](#33-o-desafio-do-cold-start-e-estratégias-de-mitigação)
+- [3. Computação Serverless (FaaS - Function as a Service)](#3-computacao-serverless-faas-function-as-a-service)
+    - [3.1 Paradigma: Execução Orientada a Eventos e Abstração de Infraestrutura](#31-paradigma-execucao-orientada-a-eventos-e-abstracao-de-infraestrutura)
+    - [3.2 Escala Automática a Zero (Scale-to-Zero) e Cobrança Fracionada](#32-escala-automatica-a-zero-scale-to-zero-e-cobranca-fracionada)
+    - [3.3 O Desafio do Cold Start e Estratégias de Mitigação](#33-o-desafio-do-cold-start-e-estrategias-de-mitigacao)
 - [4. Arquiteturas de Alta Disponibilidade e Escalabilidade em Nuvem](#4-arquiteturas-de-alta-disponibilidade-e-escalabilidade-em-nuvem)
-    - [4.1 Topologia Física Global: Regiões, Zonas de Disponibilidade (AZs) e Pontos de Presença](#41-topologia-física-global-regiões-zonas-de-disponibilidade-azs-e-pontos-de-presença)
+    - [4.1 Topologia Física Global: Regiões, Zonas de Disponibilidade (AZs) e Pontos de Presença](#41-topologia-fisica-global-regioes-zonas-de-disponibilidade-azs-e-pontos-de-presenca)
     - [4.2 Escalabilidade Vertical (Scale-Up) vs. Horizontal (Scale-Out)](#42-escalabilidade-vertical-scale-up-vs-horizontal-scale-out)
-    - [4.3 Padrões de Resiliência: Multi-AZ e Recuperação de Desastres](#43-padrões-de-resiliência-multi-az-e-recuperação-de-desastres)
-- [5. Integração Híbrida e Governança Financeira (FinOps)](#5-integração-híbrida-e-governança-financeira-finops)
-    - [5.1 Conectividade Corporativa Híbrida: VPN IPsec vs. Links Dedicados Diretos](#51-conectividade-corporativa-híbrida-vpn-ipsec-vs-links-dedicados-diretos)
-    - [5.2 Modelos de Compra em Nuvem: On-Demand, Instâncias Reservadas e Spot](#52-modelos-de-compra-em-nuvem-on-demand-instâncias-reservadas-e-spot)
-    - [5.3 FinOps: Transição CapEx para OpEx e Dimensionamento Correto (Rightsizing)](#53-finops-transição-capex-para-opex-e-dimensionamento-correto-rightsizing)
+    - [4.3 Padrões de Resiliência: Multi-AZ e Recuperação de Desastres](#43-padroes-de-resiliencia-multi-az-e-recuperacao-de-desastres)
+- [5. Integração Híbrida e Governança Financeira (FinOps)](#5-integracao-hibrida-e-governanca-financeira-finops)
+    - [5.1 Conectividade Corporativa Híbrida: VPN IPsec vs. Links Dedicados Diretos](#51-conectividade-corporativa-hibrida-vpn-ipsec-vs-links-dedicados-diretos)
+    - [5.2 Modelos de Compra em Nuvem: On-Demand, Instâncias Reservadas e Spot](#52-modelos-de-compra-em-nuvem-on-demand-instancias-reservadas-e-spot)
+    - [5.3 FinOps: Transição CapEx para OpEx e Dimensionamento Correto (Rightsizing)](#53-finops-transicao-capex-para-opex-e-dimensionamento-correto-rightsizing)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Exemplos Práticos](#7-questões-comentadas--exemplos-práticos)
+- [7. Questões Comentadas & Exemplos Práticos](#7-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -272,6 +271,7 @@ A respeito dos modelos de serviço e da matriz de responsabilidade compartilhada
 * **E)** No modelo IaaS, o provisionamento de recursos físicos é estático e exclusivo, não permitindo o compartilhamento dinâmico de recursos físicos (*Resource Pooling*) entre múltiplos locatários (*multi-tenancy*).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Em soluções IaaS, o provedor cuida exclusivamente da infraestrutura física e da virtualização; a instalação de patches de segurança e a gestão do sistema operacional convidado são encargos estritos do cliente.
 > - **B)** Incorreta. No modelo PaaS, o provedor gerencia a infraestrutura, o sistema operacional e a plataforma de runtime; o cliente foca no código e nos dados.
 > - **C)** Correta. Transcreve com rigor a definição canônica da norma NIST SP 800-145 para o modelo SaaS (*Software as a Service*), onde o usuário consome o software funcional sem gerenciar as camadas técnicas inferiores.
@@ -294,6 +294,7 @@ Considerando as características intrínsecas das arquiteturas *Serverless*, é 
 * **E)** Impede a integração com serviços orientados a eventos, necessitando que o código execute uma rotina em laço infinito (*polling*) para inspecionar novos arquivos no repositório.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O modelo Serverless abstrai inteiramente a administração de sistemas operacionais, máquinas virtuais e gerenciamento de portas de rede.
 > - **B)** Correta. A computação Serverless reduz a escala a zero nos períodos de inatividade (custo zero de processamento), podendo apresentar latência transitória de *cold start* na inicialização inicial do ambiente de execução do contêiner da função.
 > - **C)** Incorreta. As plataformas FaaS escalam horizontalmente de forma massiva e instantânea para absorver centenas de execuções paralelas.
@@ -314,6 +315,7 @@ Com relação aos conceitos de resiliência, topologia física e estratégias de
 * **E)** A estratégia de resiliência *Multi-AZ* é ineficaz para mitigar falhas físicas de data center, dependendo compulsoriamente de migração manual de discos rígidos físicos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Zonas de Disponibilidade são data centers completos fisicamente separados por quilômetros de distância, e não simples racks de servidores.
 > - **B)** Incorreta. Adicionar processadores e memória a uma mesma máquina existente é a definição de escalabilidade **vertical** (*scale-up*), a qual possui teto físico de expansão.
 > - **C)** Correta. Expressa a definição técnica de uma Zona de Disponibilidade (AZ): infraestrutura composta por um ou mais data centers independentes, com redundância própria de energia, refrigeração e rede, conectada a outras AZs por fibra óptica de alta velocidade e baixa latência.
@@ -336,6 +338,7 @@ A respeito dos mecanismos de conectividade em arquiteturas de nuvem híbrida, é
 * **E)** A utilização de links dedicados privados inviabiliza a comunicação com recursos alocados em redes virtuais privadas (VPC ou VNet) na nuvem.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. As VPNs IPsec utilizam a infraestrutura compartilhada da Internet pública para o transporte de seus túneis criptografados.
 > - **B)** Correta. Soluções como AWS Direct Connect e Azure ExpressRoute estabelecem conexões privadas físicas exclusivas que não trafegam pela Internet pública, garantindo desempenho determinístico, alta vazão e latência constante.
 > - **C)** Incorreta. Os links dedicados conectam-se diretamente aos roteadores e firewalls de borda da organização utilizando o protocolo BGP.
@@ -358,6 +361,7 @@ A respeito dos modelos de contratação de capacidade computacional disponíveis
 * **E)** Em arquiteturas de nuvem, a transição do modelo financeiro migra custos de despesas operacionais (OpEx) para despesas exclusivas de capital imobilizado (CapEx).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. As instâncias Spot utilizam capacidade ociosa do provedor e podem ser revogadas/interrompidas a qualquer instante com aviso prévio de minutos, sendo inadequadas para bancos de dados críticos.
 > - **B)** Incorreta. O modelo Sob Demanda (*On-Demand*) destaca-se exatamente pela ausência de carência ou compromisso de permanência.
 > - **C)** Correta. As Instâncias Reservadas e Savings Plans reduzem significativamente a tarifa horária em troca de um compromisso de uso contínuo por 1 ou 3 anos para cargas estáveis e previsíveis.

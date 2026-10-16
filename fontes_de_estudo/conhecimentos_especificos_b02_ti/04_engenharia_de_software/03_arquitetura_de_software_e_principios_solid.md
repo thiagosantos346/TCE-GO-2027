@@ -16,19 +16,19 @@
 ## 🧭 Sumário
 - [1. Fundamentos de Arquitetura de Software](#1-fundamentos-de-arquitetura-de-software)
     - [1.1 Estrutura, Componentes e Conectores Arquiteturais](#11-estrutura-componentes-e-conectores-arquiteturais)
-    - [1.2 O Modelo 4+1 Visões de Philippe Kruchten](#12-o-modelo-41-visões-de-philippe-kruchten)
-    - [1.3 Coesão e Acoplamento: A Busca pela Alta Coesão e Baixo Acoplamento](#13-coesão-e-acoplamento-a-busca-pela-alta-coesão-e-baixo-acoplamento)
-- [2. Estilos e Padrões Arquiteturais](#2-estilos-e-padrões-arquiteturais)
-    - [2.1 Arquitetura em Camadas (Layered / N-Tier Architecture) e Variações Hexagonais](#21-arquitetura-em-camadas-layered--n-tier-architecture-e-variações-hexagonais)
-    - [2.2 Arquitetura Orientada a Serviços (SOA) e o Papel do Barramento Corporativo (ESB)](#22-arquitetura-orientada-a-serviços-soa-e-o-papel-do-barramento-corporativo-esb)
-    - [2.3 Arquitetura de Microsserviços e seus Padrões de Resiliência e Dados](#23-arquitetura-de-microsserviços-e-seus-padrões-de-resiliência-e-dados)
-    - [2.4 Arquitetura Orientada a Eventos (EDA - Event-Driven Architecture)](#24-arquitetura-orientada-a-eventos-eda---event-driven-architecture)
-    - [2.5 Matriz Comparativa: Monólito vs. SOA vs. Microsserviços](#25-matriz-comparativa-monólito-vs-soa-vs-microsserviços)
-- [3. Princípios de Design e Código Limpo](#3-princípios-de-design-e-código-limpo)
-    - [3.1 Os Princípios SOLID de Robert C. Martin](#31-os-princípios-solid-de-robert-c-martin)
-    - [3.2 Princípios Práticos de Engenharia: DRY, KISS e YAGNI](#32-princípios-práticos-de-engenharia-dry-kiss-e-yagni)
-- [4. Fontes Oficiais e Referências Bibliográficas](#4-fontes-oficiais-e-referências-bibliográficas)
-- [5. Questões de Concurso FCC Comentadas](#5-questões-de-concurso-fcc-comentadas)
+    - [1.2 O Modelo 4+1 Visões de Philippe Kruchten](#12-o-modelo-41-visoes-de-philippe-kruchten)
+    - [1.3 Coesão e Acoplamento: A Busca pela Alta Coesão e Baixo Acoplamento](#13-coesao-e-acoplamento-a-busca-pela-alta-coesao-e-baixo-acoplamento)
+- [2. Estilos e Padrões Arquiteturais](#2-estilos-e-padroes-arquiteturais)
+    - [2.1 Arquitetura em Camadas (Layered / N-Tier Architecture) e Variações Hexagonais](#21-arquitetura-em-camadas-layered-n-tier-architecture-e-variacoes-hexagonais)
+    - [2.2 Arquitetura Orientada a Serviços (SOA) e o Papel do Barramento Corporativo (ESB)](#22-arquitetura-orientada-a-servicos-soa-e-o-papel-do-barramento-corporativo-esb)
+    - [2.3 Arquitetura de Microsserviços e seus Padrões de Resiliência e Dados](#23-arquitetura-de-microsservicos-e-seus-padroes-de-resiliencia-e-dados)
+    - [2.4 Arquitetura Orientada a Eventos (EDA - Event-Driven Architecture)](#24-arquitetura-orientada-a-eventos-eda-event-driven-architecture)
+    - [2.5 Matriz Comparativa: Monólito vs. SOA vs. Microsserviços](#25-matriz-comparativa-monolito-vs-soa-vs-microsservicos)
+- [3. Princípios de Design e Código Limpo](#3-principios-de-design-e-codigo-limpo)
+    - [3.1 Os Princípios SOLID de Robert C. Martin](#31-os-principios-solid-de-robert-c-martin)
+    - [3.2 Princípios Práticos de Engenharia: DRY, KISS e YAGNI](#32-principios-praticos-de-engenharia-dry-kiss-e-yagni)
+- [4. Fontes Oficiais e Referências Bibliográficas](#4-fontes-oficiais-e-referencias-bibliograficas)
+- [5. Questões de Concurso FCC Comentadas](#5-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -36,6 +36,7 @@
 
 ### 1.1 Estrutura, Componentes e Conectores Arquiteturais
 A Arquitetura de Software define a organização fundamental de um sistema corporativo, representada por seus componentes estruturais, pelos conectores e relacionamentos estabelecidos entre eles, pelo ambiente operacional em que executam e pelos princípios que norteiam seu design e evolução ao longo do tempo (IEEE 1471 / ISO/IEC 42010).
+
 - **Componentes:** Unidades computacionais ou módulos de processamento e armazenamento de dados (ex.: microsserviços, controladores web, camadas de acesso a dados ou bancos relacionais);
 - **Conectores:** Mecanismos que intermedeiam a comunicação, coordenação e transferência de dados entre os componentes (ex.: chamadas de procedimentos remotos RPC, requisições REST/HTTP, pipes, barramentos de mensageria ou filas Kafka/RabbitMQ);
 - **Trade-offs Arquiteturais:** Nenhuma decisão arquitetural é neutra. Uma escolha que maximize desempenho ou escalabilidade horizontal quase invariavelmente introduz maior complexidade operacional e consistência eventual de dados (*Teorema CAP*).
@@ -85,6 +86,7 @@ flowchart LR
     2. *Camada de Aplicação / Serviços:* Orquestra os fluxos de trabalho e casos de uso;
     3. *Camada de Domínio / Negócio:* Encapsula as regras de negócio puras e entidades corporativas;
     4. *Camada de Acesso a Dados / Persistência:* Isola operações de banco de dados (DAOs, Repositories).
+
 - **Variações Modernas (Arquitetura Hexagonal e Clean Architecture):**
     - **Ports and Adapters (Alistair Cockburn):** O núcleo de domínio de negócio fica no centro, completamente isolado de frameworks e bancos. Comunica-se com o mundo externo através de **Portas** (interfaces abstratas) e **Adaptadores** (implementações concretas de controllers REST, drivers de banco ou filas).
     - **Clean Architecture (Robert Martin):** Estruturada em círculos concêntricos governados pela **Regra da Dependência**: as dependências de código-fonte devem apontar unicamente para dentro, em direção às entidades e casos de uso de alto nível.
@@ -123,11 +125,13 @@ stateDiagram-v2
     - *Fechado (Closed):* As requisições fluem normalmente. Falhas são contabilizadas;
     - *Aberto (Open):* Ao atingir um limiar de erros, o circuito abre. Todas as requisições falham imediatamente (*fail-fast*), sem tentar acessar a rede;
     - *Semi-Aberto (Half-Open):* Após um tempo de espera (*timeout*), o circuito permite a passagem de algumas requisições de teste. Se forem bem-sucedidas, o circuito fecha; se falharem, o circuito volta ao estado aberto.
+
 2. **API Gateway:** Ponto único de entrada para todas as requisições de clientes externos. Responsável por roteamento dinâmico, autenticação, controle de taxa (*rate limiting*), monitoramento e agregação de respostas de múltiplos serviços;
 3. **Saga Pattern (Transações Distribuídas):** Substitui o bloqueio rígido do *Two-Phase Commit (2PC)* em ambientes distribuídos, gerenciando a consistência final por meio de uma sequência de transações locais encadeadas:
     - *Coreografia:* Cada serviço executa sua transação local e emite um evento de domínio que aciona a transação no serviço seguinte;
     - *Orquestração:* Um serviço coordenador centralizado comanda explicitamente a execução de cada etapa;
     - *Ações Compensatórias:* Caso uma etapa falhe no meio do fluxo, a Saga executa transações de compensação (estorno) para desfazer os efeitos parciais anteriores;
+
 4. **CQRS (Command Query Responsibility Segregation):** Segrega o modelo de escrita/atualização de dados (*Commands*) do modelo de leitura/consulta (*Queries*), permitindo otimizar e escalar separadamente os bancos de escrita (foco em normalização) e de leitura (foco em desnormalização rápida).
 
 ---
@@ -172,16 +176,20 @@ graph TD
 1. **S - Single Responsibility Principle (SRP - Princípio da Responsabilidade Única):**
     - *Definição:* Uma classe deve possuir uma e apenas uma razão para mudar (deve atender a um único ator de negócio);
     - *Violação Clássica:* Criar classes monstruosas (*God Classes*) que acumulam regras de negócio, persistência de banco de dados e geração de relatórios gráficos no mesmo arquivo.
+
 2. **O - Open/Closed Principle (OCP - Princípio Aberto/Fechado):**
     - *Definição:* Entidades de software (classes, módulos, funções) devem estar **abertas para extensão, mas fechadas para modificação**;
     - *Aplicação:* Novos comportamentos devem ser adicionados mediante criação de novas classes derivadas ou polimorfismo de interfaces, sem editar e arriscar quebrar o código-fonte original já em produção;
     - *Violação Clássica:* Estruturas extensas de `if-else-if` ou `switch-case` checando tipos de objetos para aplicar regras de cálculo distintas (ex.: cálculo de frete por transportadora).
+
 3. **L - Liskov Substitution Principle (LSP - Princípio da Substituição de Liskov):**
     - *Definição:* Se $S$ é um subtipo de $T$, objetos do tipo $T$ devem poder ser substituídos por objetos do tipo $S$ sem alterar a corretude do programa;
     - *Violação Clássica:* Uma classe `Quadrado` que herda de `Retangulo`. Como o quadrado força largura e altura rigorosamente iguais, invocar `setLargura(5)` e `setAltura(10)` em uma referência polimórfica de `Retangulo` que aponte para um `Quadrado` viola as expectativas de comportamento da classe base. Outro sintoma claro é uma subclasse sobrescrever um método herdado lançando `UnsupportedOperationException`.
+
 4. **I - Interface Segregation Principle (ISP - Princípio da Segregação de Interfaces):**
     - *Definição:* Muitas interfaces específicas são melhores do que uma interface única de propósito geral ("interface gorda");
     - *Aplicação:* Classes clientes não devem ser forçadas a depender de métodos que não utilizam. Decompõem-se interfaces amplas em interfaces menores e coesas.
+
 5. **D - Dependency Inversion Principle (DIP - Princípio da Inversão de Dependência):**
     - *Definição:* Módulos de alto nível não devem depender de módulos de baixo nível; ambos devem depender de **abstrações** (interfaces). Abstrações não devem depender de detalhes; detalhes devem depender de abstrações;
     - *Aplicação:* As classes de serviço de negócio dependem de interfaces (`RepositorioAuditoria`), e as implementações concretas de acesso a banco (`PostgresRepositorioAuditoria`) implementam essa interface.
@@ -217,13 +225,14 @@ graph TD
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Em um sistema corporativo em Java, uma interface denominada `DispositivoMultifuncional` declara os seguintes métodos: `imprimirDocumento()`, `digitalizarDocumento()`, `enviarFax()` e `grampearFolhas()`. Uma classe denominada `ImpressoraBasicaDomestica` implementa essa interface, mas, por não possuir scanner, fax nem grampeador, é forçada a lançar exceções do tipo `UnsupportedOperationException` no corpo desses três últimos métodos. De acordo com os princípios de orientação a objetos SOLID preconizados por Robert C. Martin, essa estrutura viola diretamente o:
 
-* A) Princípio da Responsabilidade Única (SRP).
-* B) Princípio Aberto/Fechado (OCP).
-* C) Princípio da Segregação de Interfaces (ISP).
-* D) Princípio da Inversão de Dependência (DIP).
-* E) Princípio da Substituição de Liskov (LSP).
+* **A)** Princípio da Responsabilidade Única (SRP).
+* **B)** Princípio Aberto/Fechado (OCP).
+* **C)** Princípio da Segregação de Interfaces (ISP).
+* **D)** Princípio da Inversão de Dependência (DIP).
+* **E)** Princípio da Substituição de Liskov (LSP).
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** O SRP estabelece que uma classe deve ter um único motivo para mudar perante seus stakeholders, não tratando da imposição de métodos supérfluos em interfaces.
 > - **B) Incorreta.** O OCP versa sobre a extensibilidade sem modificação de código existente.
 > - **C) CORRETA.** O **Princípio da Segregação de Interfaces (ISP - *Interface Segregation Principle*)** determina formalmente que clientes não devem ser forçados a depender de interfaces e métodos que não utilizam. Quando uma interface agrega métodos demais ("interface gorda"), forçando implementadores parciais a lançar exceções ou deixar métodos vazios, viola-se frontalmente o ISP. A refatoração correta consiste em segregar em interfaces coesas (`Imprimivel`, `Digitalizavel`, `Faxavel`).
@@ -238,13 +247,14 @@ Em um sistema corporativo em Java, uma interface denominada `DispositivoMultifun
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 Em uma arquitetura de microsserviços distribuídos, para evitar que a indisponibilidade ou latência excessiva de um serviço secundário externo provoque falhas em cascata e o esgotamento dos recursos de computação do serviço principal chamador, adota-se um padrão de resiliência que monitora as chamadas recentes. Se a taxa de falhas exceder um limiar pré-definido, o padrão interrompe imediatamente as chamadas subsequentes, retornando erro ou resposta de contingência instantânea sem sobrecarregar a rede, testando periodicamente se o serviço remoto se recuperou. Esse padrão é denominado:
 
-* A) API Gateway.
-* B) Circuit Breaker.
-* C) Service Registry.
-* D) Event Sourcing.
-* E) Command Query Responsibility Segregation (CQRS).
+* **A)** API Gateway.
+* **B)** Circuit Breaker.
+* **C)** Service Registry.
+* **D)** Event Sourcing.
+* **E)** Command Query Responsibility Segregation (CQRS).
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** O API Gateway atua como ponto único de entrada para requisições de clientes externos, concentrando autenticação e roteamento, mas não implementa a máquina de estados de tolerância a falhas do disjuntor em si.
 > - **B) CORRETA.** O padrão de resiliência **Circuit Breaker (Disjuntor)** opera exatamente monitorando o tráfego remoto e chaveando entre três estados: *Fechado* (fluxo normal), *Aberto* (rejeição imediata *fail-fast* ao atingir taxa de erro crítica) e *Semi-Aberto* (envio de requisições piloto de teste após um período de timeout).
 > - **C) Incorreta.** O Service Registry atua como catálogo de registro e localização dinâmica de endereços de rede das instâncias ativas de microsserviços.
@@ -259,13 +269,14 @@ Em uma arquitetura de microsserviços distribuídos, para evitar que a indisponi
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Considere uma classe Java que calcula o valor do frete para pedidos de um tribunal. O método `calcularFrete` possui uma estrutura sequencial de instruções `if-else-if` verificando a modalidade de entrega: caso seja "SEDEX", aplica uma fórmula; se for "PAC", aplica outra; se for "TRANSPORTADORA", aplica uma terceira. Sempre que o órgão firma contrato com uma nova transportadora, o desenvolvedor é obrigado a abrir a classe de serviço existente e adicionar uma nova cláusula `else-if`. Essa estrutura arquitetural viola diretamente o princípio SOLID:
 
-* A) Aberto/Fechado (OCP - Open/Closed Principle).
-* B) Substituição de Liskov (LSP - Liskov Substitution Principle).
-* C) Segregação de Interfaces (ISP - Interface Segregation Principle).
-* D) Don't Repeat Yourself (DRY).
-* E) Keep It Simple, Stupid (KISS).
+* **A)** Aberto/Fechado (OCP - Open/Closed Principle).
+* **B)** Substituição de Liskov (LSP - Liskov Substitution Principle).
+* **C)** Segregação de Interfaces (ISP - Interface Segregation Principle).
+* **D)** Don't Repeat Yourself (DRY).
+* **E)** Keep It Simple, Stupid (KISS).
 
 > **Comentário Detalhado:**
+>
 > - **A) CORRETA.** O **Princípio Aberto/Fechado (OCP - *Open/Closed Principle*)** postula que módulos devem estar **abertos para extensão, mas fechados para modificação**. A necessidade recorrente de editar o código-fonte de uma classe funcional consolidada para adicionar novos tipos de cálculo mediante `if-else-if` viola o OCP. O correto é extrair o cálculo para uma interface polimórfica (`EstrategiaFrete`) com implementações separadas (Padrão de Projeto *Strategy*).
 > - **B) Incorreta.** O LSP cuida da integridade semântica de subtipos ao herdarem classes base, não do encadeamento de condicionais de tipo.
 > - **C) Incorreta.** O ISP trata de interfaces com métodos excessivos.
@@ -281,18 +292,21 @@ Considere uma classe Java que calcula o valor do frete para pedidos de um tribun
 Em relação aos estilos arquiteturais para sistemas corporativos, analise as afirmativas a respeito da Arquitetura Orientada a Serviços (SOA) e da Arquitetura de Microsserviços:
 
 I. Em SOA tradicional, é comum a utilização de um Barramento de Serviços Corporativo (ESB) centralizado que concentra regras complexas de roteamento, orquestração e transformação de protocolos.  
+
 II. Na arquitetura de microsserviços, recomenda-se a utilização de um banco de dados relacional único compartilhado entre todos os serviços para garantir transações atômicas ACID globais imediatas.  
+
 III. Os microsserviços enfatizam serviços autônomos com deploys independentes e o conceito de *smart endpoints and dumb pipes*, mantendo a lógica de negócio nas pontas e a comunicação por mecanismos leves.  
 
 Está correto o que se afirma em:
 
-* A) I e II, apenas.
-* B) II e III, apenas.
-* C) I e III, apenas.
-* D) I, II e III.
-* E) III, apenas.
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** I e III, apenas.
+* **D)** I, II e III.
+* **E)** III, apenas.
 
 > **Comentário Detalhado:**
+>
 > - **Item I (Correto):** Na arquitetura SOA clássica, o Barramento Corporativo (**ESB**) centraliza transformações de dados pesadas, roteamento dinâmico e orquestração entre serviços.
 > - **Item II (Incorreto):** O compartilhamento de um banco de dados relacional centralizado é um grave **antipadrão em microsserviços**. A regra basilar é o padrão *Database per Service* (banco de dados exclusivo por serviço) para assegurar autonomia e desacoplamento do esquema de persistência.
 > - **Item III (Correto):** Microsserviços adotam canais de comunicação leves e endpoints inteligentes (*smart endpoints, dumb pipes*), com deploys e ciclos de vida independentes.
@@ -306,13 +320,14 @@ Está correto o que se afirma em:
 **(FCC – SEFAZ – Auditor de Tecnologia da Informação)**  
 No contexto das boas práticas de engenharia e arquitetura de software, os acrônimos DRY e YAGNI orientam a tomada de decisões no projeto de sistemas. A correta definição desses princípios estabelece que:
 
-* A) DRY (*Don't Repeat Yourself*) determina que duas classes jamais podem conter a mesma assinatura de método; YAGNI (*You Aren't Gonna Need It*) proíbe o uso de testes unitários automatizados em ambientes de produção.
-* B) DRY determina que cada porção de conhecimento ou lógica de negócio em um sistema deve possuir uma representação única, não ambígua e definitiva; YAGNI recomenda aos desenvolvedores não implementar funcionalidades antecipadas baseadas em suposições futuras até que sejam estritamente necessárias.
-* C) DRY refere-se exclusivamente à padronização de nomenclatura de variáveis de banco de dados; YAGNI recomenda a criação preventiva de tabelas adicionais para suportar ampliações cadastrais.
-* D) YAGNI estabelece a obrigatoriedade de reescrever todo o código legado a cada seis meses; DRY impõe que todo código-fonte deva ser distribuído em licença de código aberto.
-* E) Ambos os princípios foram concebidos pelo modelo CMMI para fundamentar a documentação textual exaustiva de projetos antes de qualquer codificação.
+* **A)** DRY (*Don't Repeat Yourself*) determina que duas classes jamais podem conter a mesma assinatura de método; YAGNI (*You Aren't Gonna Need It*) proíbe o uso de testes unitários automatizados em ambientes de produção.
+* **B)** DRY determina que cada porção de conhecimento ou lógica de negócio em um sistema deve possuir uma representação única, não ambígua e definitiva; YAGNI recomenda aos desenvolvedores não implementar funcionalidades antecipadas baseadas em suposições futuras até que sejam estritamente necessárias.
+* **C)** DRY refere-se exclusivamente à padronização de nomenclatura de variáveis de banco de dados; YAGNI recomenda a criação preventiva de tabelas adicionais para suportar ampliações cadastrais.
+* **D)** YAGNI estabelece a obrigatoriedade de reescrever todo o código legado a cada seis meses; DRY impõe que todo código-fonte deva ser distribuído em licença de código aberto.
+* **E)** Ambos os princípios foram concebidos pelo modelo CMMI para fundamentar a documentação textual exaustiva de projetos antes de qualquer codificação.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** Compartilhar assinaturas é a base do polimorfismo; e o YAGNI apoia ativamente a confecção de testes unitários.
 > - **B) CORRETA.** O princípio **DRY (*Don't Repeat Yourself*)**, formulado por Andy Hunt e Dave Thomas, visa garantir que cada conhecimento do domínio tenha uma representação única e sem duplicações no sistema. O princípio **YAGNI (*You Aren't Gonna Need It*)**, oriundo do Extreme Programming (XP), preceitua que os desenvolvedores não devem gastar tempo implementando funcionalidades especulativas baseadas em suposições de demandas futuras até que elas sejam realmente necessárias.
 > - **C) Incorreta.** Criar tabelas preventivamente por especulação futura é exatamente a sobre-engenharia (*overengineering*) que o YAGNI combate.

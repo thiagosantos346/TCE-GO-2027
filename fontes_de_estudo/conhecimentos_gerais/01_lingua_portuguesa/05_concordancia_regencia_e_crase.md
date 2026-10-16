@@ -20,44 +20,44 @@
 ---
 
 ## 🧭 Sumário
-- [1. Concordância Verbal: Fundamentos e Estruturas Particulares](#1-concordância-verbal-fundamentos-e-estruturas-particulares)
-    - [1.1 Regra Geral da Concordância Verbal e Identificação do Núcleo](#11-regra-geral-da-concordância-verbal-e-identificação-do-núcleo)
-    - [1.2 Sujeito Simples com Expressões Partitivas e Coletivos](#12-sujeito-simples-com-expressões-partitivas-e-coletivos)
-    - [1.3 Concordância com Expressões Numéricas, Frações e Percentuais](#13-concordância-com-expressões-numéricas-frações-e-percentuais)
-    - [1.4 Concordância com Pronomes Relativos Que e Quem](#14-concordância-com-pronomes-relativos-que-e-quem)
-    - [1.5 Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo](#15-sujeito-composto-posição-anteposta-posposta-e-aposto-recapitulativo)
-- [2. Verbos Impessoais e a Dinâmica das Locuções Verbais](#2-verbos-impessoais-e-a-dinâmica-das-locuções-verbais)
-    - [2.1 O Verbo Haver Impessoal e a Comparação com o Verbo Existir](#21-o-verbo-haver-impessoal-e-a-comparação-com-o-verbo-existir)
-    - [2.2 O Verbo Fazer Indicando Tempo Decorrido ou Fenômenos Climáticos](#22-o-verbo-fazer-indicando-tempo-decorrido-ou-fenômenos-climáticos)
-    - [2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções](#23-transmissão-de-impessoalidade-ao-verbo-auxiliar-nas-locuções)
-    - [2.4 Concordância Verbal com a Partícula SE](#24-concordância-verbal-com-a-partícula-se)
-- [3. Concordância Nominal e Casos Especiais](#3-concordância-nominal-e-casos-especiais)
-    - [3.1 Regra Geral da Concordância Nominal](#31-regra-geral-da-concordância-nominal)
+- [1. Concordância Verbal: Fundamentos e Estruturas Particulares](#1-concordancia-verbal-fundamentos-e-estruturas-particulares)
+    - [1.1 Regra Geral da Concordância Verbal e Identificação do Núcleo](#11-regra-geral-da-concordancia-verbal-e-identificacao-do-nucleo)
+    - [1.2 Sujeito Simples com Expressões Partitivas e Coletivos](#12-sujeito-simples-com-expressoes-partitivas-e-coletivos)
+    - [1.3 Concordância com Expressões Numéricas, Frações e Percentuais](#13-concordancia-com-expressoes-numericas-fracoes-e-percentuais)
+    - [1.4 Concordância com Pronomes Relativos Que e Quem](#14-concordancia-com-pronomes-relativos-que-e-quem)
+    - [1.5 Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo](#15-sujeito-composto-posicao-anteposta-posposta-e-aposto-recapitulativo)
+- [2. Verbos Impessoais e a Dinâmica das Locuções Verbais](#2-verbos-impessoais-e-a-dinamica-das-locucoes-verbais)
+    - [2.1 O Verbo Haver Impessoal e a Comparação com o Verbo Existir](#21-o-verbo-haver-impessoal-e-a-comparacao-com-o-verbo-existir)
+    - [2.2 O Verbo Fazer Indicando Tempo Decorrido ou Fenômenos Climáticos](#22-o-verbo-fazer-indicando-tempo-decorrido-ou-fenomenos-climaticos)
+    - [2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções](#23-transmissao-de-impessoalidade-ao-verbo-auxiliar-nas-locucoes)
+    - [2.4 Concordância Verbal com a Partícula SE](#24-concordancia-verbal-com-a-particula-se)
+- [3. Concordância Nominal e Casos Especiais](#3-concordancia-nominal-e-casos-especiais)
+    - [3.1 Regra Geral da Concordância Nominal](#31-regra-geral-da-concordancia-nominal)
     - [3.2 Adjetivo Referente a Mais de um Substantivo](#32-adjetivo-referente-a-mais-de-um-substantivo)
-    - [3.3 Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo](#33-palavras-e-expressões-críticas-anexo-incluso-próprio-e-mesmo)
+    - [3.3 Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo](#33-palavras-e-expressoes-criticas-anexo-incluso-proprio-e-mesmo)
     - [3.4 O Funcionamento de Bastante, Meio, Menos e Alerta](#34-o-funcionamento-de-bastante-meio-menos-e-alerta)
-    - [3.5 Expressões do Tipo É Proibido, É Necessário e É Bom](#35-expressões-do-tipo-é-proibido-é-necessário-e-é-bom)
-- [4. Regência Verbal: Transitividade e Complementação dos Verbos Críticos](#4-regência-verbal-transitividade-e-complementação-dos-verbos-críticos)
-    - [4.1 Princípios da Regência Verbal na Norma Culta](#41-princípios-da-regência-verbal-na-norma-culta)
-    - [4.2 O Cardápio dos Verbos Preferidos da FCC](#42-o-cardápio-dos-verbos-preferidos-da-fcc)
-    - [4.3 Regência Verbal Associada a Pronomes Relativos](#43-regência-verbal-associada-a-pronomes-relativos)
-- [5. Regência Nominal de Substantivos e Adjetivos](#5-regência-nominal-de-substantivos-e-adjetivos)
-    - [5.1 Mecânica do Complemento Nominal](#51-mecânica-do-complemento-nominal)
-    - [5.2 Nomes de Alta Frequência em Atos de Controle e Direito Público](#52-nomes-de-alta-frequência-em-atos-de-controle-e-direito-público)
+    - [3.5 Expressões do Tipo É Proibido, É Necessário e É Bom](#35-expressoes-do-tipo-e-proibido-e-necessario-e-e-bom)
+- [4. Regência Verbal: Transitividade e Complementação dos Verbos Críticos](#4-regencia-verbal-transitividade-e-complementacao-dos-verbos-criticos)
+    - [4.1 Princípios da Regência Verbal na Norma Culta](#41-principios-da-regencia-verbal-na-norma-culta)
+    - [4.2 O Cardápio dos Verbos Preferidos da FCC](#42-o-cardapio-dos-verbos-preferidos-da-fcc)
+    - [4.3 Regência Verbal Associada a Pronomes Relativos](#43-regencia-verbal-associada-a-pronomes-relativos)
+- [5. Regência Nominal de Substantivos e Adjetivos](#5-regencia-nominal-de-substantivos-e-adjetivos)
+    - [5.1 Mecânica do Complemento Nominal](#51-mecanica-do-complemento-nominal)
+    - [5.2 Nomes de Alta Frequência em Atos de Controle e Direito Público](#52-nomes-de-alta-frequencia-em-atos-de-controle-e-direito-publico)
 - [6. Teoria Geral e Emprego do Sinal Indicativo de Crase](#6-teoria-geral-e-emprego-do-sinal-indicativo-de-crase)
-    - [6.1 Natureza Fonética e Morfossintática da Crase](#61-natureza-fonética-e-morfossintática-da-crase)
-    - [6.2 Métodos Práticos de Reconhecimento: A Troca pelo Masculino (Método do AO)](#62-métodos-práticos-de-reconhecimento-a-troca-pelo-masculino-método-do-ao)
+    - [6.1 Natureza Fonética e Morfossintática da Crase](#61-natureza-fonetica-e-morfossintatica-da-crase)
+    - [6.2 Métodos Práticos de Reconhecimento: A Troca pelo Masculino (Método do AO)](#62-metodos-praticos-de-reconhecimento-a-troca-pelo-masculino-metodo-do-ao)
     - [6.3 Casos de Crase Proibida](#63-casos-de-crase-proibida)
-    - [6.4 Casos de Crase Obrigatória](#64-casos-de-crase-obrigatória)
+    - [6.4 Casos de Crase Obrigatória](#64-casos-de-crase-obrigatoria)
     - [6.5 Casos de Crase Facultativa](#65-casos-de-crase-facultativa)
     - [6.6 Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo](#66-crase-com-pronomes-demonstrativos-aquele-aquela-e-aquilo)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
-- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-    - [Questão 01](#questão-01)
-    - [Questão 02](#questão-02)
-    - [Questão 03](#questão-03)
-    - [Questão 04](#questão-04)
-    - [Questão 05](#questão-05)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
+    - [Questão 01](#questao-01)
+    - [Questão 02](#questao-02)
+    - [Questão 03](#questao-03)
+    - [Questão 04](#questao-04)
+    - [Questão 05](#questao-05)
 
 ---
 
@@ -78,6 +78,7 @@ A diretriz basilar estabelece que **o verbo concorda em número e pessoa com o n
     * Concordância lógica (com o núcleo singular da expressão): *"A maioria dos auditores **votou** favoravelmente."*
     * Concordância atrativa (com o especificador plural): *"A maioria dos auditores **votaram** favoravelmente."*
     * Ambas as construções são tidas como impecáveis perante a norma culta e a FCC.
+
 2. **Substantivo Coletivo Singular:** O verbo permanece obrigatoriamente no singular quando o sujeito é formado por coletivo simples sem especificador: *"A comissão **deliberou** pela anulação"*. Se o coletivo vier especificado no plural, a doutrina admite a concordância no singular (preferencial) ou no plural atrativo (*"Um bando de manifestantes **invadiu / invadiram** o plenário"*).
 
 ### 1.3 Concordância com Expressões Numéricas, Frações e Percentuais
@@ -86,6 +87,7 @@ A diretriz basilar estabelece que **o verbo concorda em número e pessoa com o n
     * *"1% do orçamento **foi executado**."*
     * *"20% do orçamento **foram executados**."*
     * Se a expressão percentual vier acompanhada de termo especificador substantivo, admite-se a concordância tanto com o numeral quanto com o especificador: *"20% da receita estadual **foi aplicada / foram aplicados** na saúde"*.
+
 2. **Expressões "Mais de um / Menos de dois":**
     * Em regra, o verbo concorda com o numeral que se segue: *"Mais de um auditor **rejeitou** o parecer"* (verbo no singular, concorda com *um*).
     * Exceção: o verbo vai ao plural se a expressão *mais de um* for repetida ou indicar reciprocidade mútua (*"Mais de um deputado se **acusaram** em plenário"*).
@@ -105,9 +107,11 @@ Quando o sujeito da oração é constituído por pronome relativo:
 
 1. **Sujeito Composto Anteposto ao Verbo:** O verbo vai obrigatoriamente para o **plural**:
     * *"O conselheiro presidente e o procurador-geral **abriram** a sessão solene."*
+
 2. **Sujeito Composto Posposto ao Verbo:** Admite duas possibilidades normativas:
     * Concordância gramatical total (verbo no plural somando todos os núcleos): *"**Abriram** a sessão solene o conselheiro presidente e o procurador-geral."*
     * Concordância atrativa (o verbo concorda em número e gênero com o núcleo mais próximo): *"**Abriu** a sessão solene o conselheiro presidente e o procurador-geral."*
+
 3. **Núcleos Resumidos por Aposto Recapitulativo:** Se os núcleos do sujeito composto forem seguidos por pronomes indefinidos resumitivos (*tudo, nada, ninguém, nenhum*), o verbo concorda obrigatoriamente no **singular**:
     * *"Documentos, notas fiscais, contratos, extratos bancários, **nada escapou** à perícia dos auditores."*
 
@@ -167,6 +171,7 @@ A concordância com o pronome *se* depende da transitividade do predicado:
 1. **Com Verbo Transitivo Direto (VTD + SE = Pronome Apassivador):** Há sujeito paciente expresso na oração, exigindo que o verbo concorde com ele obrigatoriamente:
     * *"Identificou-se a falha formal."* (sujeito singular $\rightarrow$ verbo singular)
     * *"Identificaram-se as falhas formais."* (sujeito plural $\rightarrow$ verbo no plural)
+
 2. **Com Verbo Transitivo Indireto, Intransitivo ou de Ligação (VTI/VI/VL + SE = Índice de Indeterminação do Sujeito):** Não há sujeito paciente, sendo o sujeito indeterminado. O verbo fica **travado na 3ª pessoa do singular**:
     * *"Trata-se de apurações sigilosas."* (rejeita o plural *"Tratam-se de apurações"*).
     * *"Precisa-se de peritos judiciais."* (rejeita o plural *"Precisam-se de peritos"*).
@@ -188,6 +193,7 @@ O adjetivo concorda em gênero e número com o único substantivo a que se repor
     * Se os substantivos forem de gêneros diferentes: o adjetivo vai preferencialmente para o **masculino plural** (concordância genérica total) ou concorda com o substantivo **mais próximo**:
     * *"A comissão analisou o processo e a planilha **atualizados**."* (masculino plural englobante)
     * *"A comissão analisou o processo e a planilha **atualizada**."* (concorda com *planilha*)
+
 2. **Adjetivo Anteposto aos Substantivos:**
     * O adjetivo concorda compulsoriamente em gênero e número com o substantivo **mais próximo**:
     * *"Foi constatada **excelente** disposição e preparo dos auditores."*
@@ -208,9 +214,11 @@ O adjetivo concorda em gênero e número com o único substantivo a que se repor
 1. **BASTANTE:**
     * Quando qualifica um substantivo (pronome adjetivo com sentido de *muitos/muitas*), é **variável no plural**: *"Havia **bastantes** processos em pauta"* (= havia muitos processos).
     * Quando modifica um adjetivo, verbo ou outro advérbio (advérbio de intensidade com sentido de *muito*), é **invariável**: *"Os fiscais estavam **bastante** atentos"* (= muito atentos).
+
 2. **MEIO:**
     * Quando atua como numeral (metade de algo), concorda com o substantivo feminino: *"Tomou **meia** dose de café"*, *"É meio-dia e **meia**"* (= meia hora).
     * Quando atua como advérbio modificando um adjetivo (significando *um pouco*), é **invariável**: *"A servidora estava **meio** apreensiva"* (a forma *"meia apreensiva"* é vício gramatical inaceitável).
+
 3. **MENOS e ALERTA:**
     * São palavras **sempre invariáveis**: *"Havia **menos** vagas"* (a palavra *"menas"* não existe na norma culta); *"Os guardas permaneceram **alerta**"* (advérbio).
 
@@ -343,21 +351,26 @@ O emprego do sinal indicativo de crase é estritamente vedado nos seguintes cont
     * Diante de pronomes indefinidos que não aceitam artigo (*toda, cada, qualquer, ninguém, alguém, tudo*): *"Comunicou o fato **a todas** as autoridades"*, *"Não fez referência **a nenhuma** servidora"*.
     * Diante de pronomes pessoais (*mim, ti, ela, nós*): *"Entregou a pasta **a ela**"*.
     * Diante da grande maioria dos pronomes de tratamento (*Vossa Excelência, Vossa Senhoria, Você*): *"Encaminhou o ofício **a Vossa Excelência**"*. Exceções: admitem crase os tratamentos *senhora, senhorita e dona*.
+
 4. **Em Expressões com Palavras Repetidas:** Expressões idiomáticas simétricas com substantivos repetidos não admitem crase: *"frente a frente"*, *"dia a dia"*, *"face a face"*, *"gota a gota"*.
 5. **Com a Letra "A" no Singular diante de Substantivo Feminino no Plural:**
     * A presença do *a* singular diante de termo plural demonstra que se trata exclusivamente de preposição pura, sem artigo: *"Fez alusão **a** normas constitucionais"* (sem crase). Para ocorrer crase, o artigo deveria estar presente no plural: *"Fez alusão **às** normas constitucionais"*.
+
 6. **Antes de Nomes de Cidade que Rejeitam Artigo:** Aplica-se a regra mnemônica clássica: *"Se vou a e volto da, craseio o a; se vou a e volto de, crase pra quê?"*: *"Vou a Goiânia"* (volto de Goiânia $\rightarrow$ sem crase). Se a cidade for qualificada, a crase torna-se obrigatória: *"Vou à bela Goiânia de minha infância"*.
 
 ### 6.4 Casos de Crase Obrigatória
 
 1. **Locuções Adverbiais Femininas:** Expressam circunstâncias de tempo, modo ou lugar estruturadas com palavra feminina:
     * *à noite, à tarde, às vezes, às pressas, à vista, à toa, à risca, à revelia, à direita, às escondidas*.
+
 2. **Locuções Prepositivas e Conjuntivas Femininas:**
     * *à medida que, à proporção que, à espera de, à procura de, à custa de, à semelhança de*.
+
 3. **Indicação de Horas Exatas e Determinadas:**
     * *"A audiência pública terá início **às 14 horas**."*
     * *"O expediente encerra-se **à uma hora** da madrugada."*
     * Nota: se houver preposição antecedente (*para, desde, após, até*), não há crase: *"A reunião foi agendada **para as** 14 horas"*.
+
 4. **Locução Elíptica "À Moda De / À Maneira De":** Ocorre crase mesmo diante de vocábulos masculinos quando estiver subentendida a expressão feminina *à moda de*: *"Pediu um bife **à [moda de]** milanesa"*, *"Escrevia versos **à [maneira de]** Olavo Bilac"*.
 
 ### 6.5 Casos de Crase Facultativa
@@ -368,10 +381,12 @@ A ocorrência da crase é de uso puramente facultativo em três situações cons
     * O uso do artigo antes desses pronomes é opcional no português brasileiro:
     * *"Encaminhei o relatório **a** minha diretora"* (apenas preposição) OU *"Encaminhei o relatório **à** minha diretora"* (preposição + artigo opcional).
     * Atenção: se o pronome possessivo for substantivo (estiver ocultando um substantivo já citado), o artigo torna-se obrigatório e a crase vira obrigatória: *"Entregou a pasta à minha diretora e **à sua**"* [à sua diretora].
+
 2. **Diante de Nomes Próprios Femininos de Pessoas:**
     * O emprego do artigo diante de antropônimos femininos familiares é facultativo:
     * *"Entreguei o documento **a** Mariana"* OU *"Entreguei o documento **à** Mariana"*.
     * Se o nome vier especificado ou qualificado, a crase passa a ser obrigatória: *"Entreguei o documento **à** Mariana da procuradoria"*.
+
 3. **Após a Preposição "ATÉ":**
     * A locução prepositiva pode ser *até* ou *até a*:
     * *"O fiscal caminhou até **a** sala"* OU *"O fiscal caminhou até **à** sala"*.
@@ -409,6 +424,7 @@ A frase em que a concordância verbal, a regência e o emprego do sinal indicati
 * **E)** *"Tratam-se de condutas graves que desobedecem as normas orçamentárias e conduzem à severas sanções."*
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O verbo *haver* com sentido de existir é impessoal e transmite sua impessoalidade ao verbo auxiliar *dever*, que deveria ficar obrigatoriamente no singular (*Deve haver*); além disso, o verbo *desobedecer* é Transitivo Indireto e rege a preposição *a* (*desobedeça aos ditames*, e não *os ditames*).
 > - **B)** Incorreta. Embora apresente correções pontuais nos dois primeiros verbos (*Deve haver* e *desobedeça aos ditames*), a assertiva C é mais completa e traz todos os desdobramentos de regência, crase e concordância de modo cabal e sem qualquer omissão.
 > - **C)** Correta. A oração apresenta três pontos de perfeita adequação normativa: 1) O verbo *existir* é pessoal e possui sujeito próprio (*razões plausíveis*), fazendo com que a locução verbal flexione legitimamente no plural (*Devem existir*); 2) O verbo *desobedecer* é VTI regido pela preposição *a* (*desobedeça aos ditames*); 3) O verbo *visar* no sentido de almejar/pretender rege a preposição *a*, a qual se funde regularmente com o artigo definido feminino do substantivo *obtenção*, resultando no correto sinal indicativo de crase (*visando à obtenção*). Perfeito em todos os planos sintáticos.
@@ -432,6 +448,7 @@ As lacunas da frase acima são correta e respectivamente preenchidas por:
 * **E)** a que – cuja a
 
 > **Comentário Detalhado:**
+>
 > - **1ª Lacuna:** O verbo *referir-se* é Transitivo Indireto e rege obrigatoriamente a preposição **a** (*quem se refere, refere-se a algo*). Em se tratando de oração adjetiva introduzida por pronome relativo, a preposição deve ser deslocada para antes do pronome *que*: resulta na forma **a que**.
 > - **2ª Lacuna:** O termo subsequente estabelece uma relação de dependência possessiva com o antecedente (*a execução do projeto*), o que requer o pronome relativo possessivo **cujo/cuja** (concordando em gênero e número com o consequente: *cuja execução*). Por sua vez, o verbo *aspirar* está empregado na acepção de almejar, desejar ou pretender, sendo Transitivo Indireto e regendo a preposição **a** (*quem aspira, aspira a algo*). Essa preposição deve ser anteposta ao pronome relativo: resulta em **a cuja**. Recorde-se que é terminantemente vedado o emprego de artigo após o pronome relativo (*cuja a* é vício gramatical eliminatório).
 > - **A)** Incorreta. Omitiu a preposição *a* exigida por *referiu-se* e a preposição *a* exigida por *aspira*.
@@ -455,6 +472,7 @@ Assinale a frase em que o sinal indicativo de crase está empregado em **estrita
 * **E)** *"O presidente do órgão concedeu audiência à um grupo de manifestantes da área de saúde."*
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. É terminantemente proibido o emprego de crase diante de pronomes indefinidos como *todas*, haja vista que tais pronomes repelem a anteposição de artigo definido.
 > - **B)** Incorreta. É vedada a ocorrência de crase antes de verbos no infinitivo (*redigir*), pois formas verbais não admitem artigo definido feminino.
 > - **C)** Incorreta. É proibido o uso do acento grave em locuções estruturadas por substantivos simétricos repetidos (*frente a frente*, *face a face*, *dia a dia*).
@@ -476,6 +494,7 @@ No tocante às normas de **concordância nominal**, assinale a frase inteirament
 * **E)** *"É proibida entrada de pessoas sem identificação nas dependências do tribunal."*
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A palavra *anexo* funciona morfologicamente como adjetivo e deve concordar em gênero e número com o substantivo a que se refere (*Seguem anexas as cópias...*). Apenas a locução adverbial *em anexo* é invariável.
 > - **B)** Incorreta. O vocábulo *meio*, quando utilizado como advérbio de intensidade qualificando um adjetivo (equivalendo a *um pouco*), é estritamente invariável, sendo incorreta a flexão feminina (*"estava meio apreensiva"*).
 > - **C)** Correta. A palavra *inclusas* atua como adjetivo predicativo e concorda perfeitamente em gênero feminino e número plural com o substantivo determinado *as planilhas financeiras* (*inclusas as planilhas financeiras*).
@@ -497,6 +516,7 @@ A respeito da regência do verbo **PREFERIR**, assinale a opção que atende à 
 * **E)** *"O auditor prefere analisar os demonstrativos contábeis do que ouvir testemunhas."*
 
 > **Comentário Detalhado:**
+>
 > - O verbo **preferir** é Transitivo Direto e Indireto (VTDI). Ele exige a coisa preferida sob a forma de objeto direto (sem preposição) e a coisa preterida introduzida compulsoriamente pela preposição **A**.
 > - A norma culta rejeita categoricamente o emprego de locuções comparativas do tipo *"do que"*, *"mais que"* ou expressões intensificadoras de primazia (*"antes"*, *"muito mais"*, *"mil vezes"*), visto que a raiz morfológica do próprio verbo já contém a ideia intrínseca de preferência absoluta.
 > - **A)** Incorreta. Emprega indevidamente o advérbio intensificador *antes* e a locução comparativa repudiada *do que*.

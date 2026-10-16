@@ -17,27 +17,26 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Evolução dos Protocolos Web: HTTP/1.1, HTTP/2, HTTP/3 e HTTPS](#1-evolução-dos-protocolos-web-http11-http2-http3-e-https)
-    - [1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação](#11-http11-e-o-bloqueio-de-início-de-fila-head-of-line-blocking-na-aplicação)
-    - [1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK](#12-http2-formato-binário-multiplexação-de-streams-e-compressão-hpack)
+- [1. Evolução dos Protocolos Web: HTTP/1.1, HTTP/2, HTTP/3 e HTTPS](#1-evolucao-dos-protocolos-web-http11-http2-http3-e-https)
+    - [1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação](#11-http11-e-o-bloqueio-de-inicio-de-fila-head-of-line-blocking-na-aplicacao)
+    - [1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK](#12-http2-formato-binario-multiplexacao-de-streams-e-compressao-hpack)
     - [1.3 HTTP/3 e o Protocolo QUIC sobre UDP](#13-http3-e-o-protocolo-quic-sobre-udp)
     - [1.4 HTTPS e TLS 1.3 Integrado](#14-https-e-tls-13-integrado)
-- [2. Protocolos Utilitários, Transferência de Arquivos e Correio Eletrônico](#2-protocolos-utilitários-transferência-de-arquivos-e-correio-eletrônico)
+- [2. Protocolos Utilitários, Transferência de Arquivos e Correio Eletrônico](#2-protocolos-utilitarios-transferencia-de-arquivos-e-correio-eletronico)
     - [2.1 SSH (Secure Shell) e Redirecionamento de Portas](#21-ssh-secure-shell-e-redirecionamento-de-portas)
-    - [2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP](#22-transferência-de-arquivos-ftp-vs-ftps-vs-sftp)
-    - [2.3 Correio Eletrônico: SMTP vs. POP3 vs. IMAP](#23-correio-eletrônico-smtp-vs-pop3-vs-imap)
-- [3. Elementos de Borda e Segurança de Rede: VPN, IPsec, Balanceadores e Proxies](#3-elementos-de-borda-e-segurança-de-rede-vpn-ipsec-balanceadores-e-proxies)
-    - [3.1 Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel](#31-arquitetura-ipsec-cabeçalhos-ah-vs-esp-e-modos-transporte-vs-túnel)
+    - [2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP](#22-transferencia-de-arquivos-ftp-vs-ftps-vs-sftp)
+    - [2.3 Correio Eletrônico: SMTP vs. POP3 vs. IMAP](#23-correio-eletronico-smtp-vs-pop3-vs-imap)
+- [3. Elementos de Borda e Segurança de Rede: VPN, IPsec, Balanceadores e Proxies](#3-elementos-de-borda-e-seguranca-de-rede-vpn-ipsec-balanceadores-e-proxies)
+    - [3.1 Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel](#31-arquitetura-ipsec-cabecalhos-ah-vs-esp-e-modos-transporte-vs-tunel)
     - [3.2 Balanceadores de Carga: Camada 4 (L4) vs. Camada 7 (L7)](#32-balanceadores-de-carga-camada-4-l4-vs-camada-7-l7)
     - [3.3 Servidores Proxy: Forward Proxy vs. Reverse Proxy](#33-servidores-proxy-forward-proxy-vs-reverse-proxy)
-- [4. Redes Sem Fio (IEEE 802.11 - Wi-Fi)](#4-redes-sem-fio-ieee-80211---wi-fi)
-    - [4.1 Evolução dos Padrões 802.11 (Wi-Fi 4, Wi-Fi 5 e Wi-Fi 6/6E)](#41-evolução-dos-padrões-80211-wi-fi-4-wi-fi-5-e-wi-fi-66e)
-    - [4.2 Frequências de Operação: 2.4 GHz vs. 5 GHz](#42-frequências-de-operação-24-ghz-vs-5-ghz)
-    - [4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)](#43-mecanismo-de-acesso-ao-meio-csmaca-e-o-problema-do-nó-oculto-rtscts)
-    - [4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)](#44-evolução-da-segurança-sem-fio-wep-wpa-wpa2-e-wpa3-personal-vs-enterprise)
+- [4. Redes Sem Fio (IEEE 802.11 - Wi-Fi)](#4-redes-sem-fio-ieee-80211-wi-fi)
+    - [4.1 Evolução dos Padrões 802.11 (Wi-Fi 4, Wi-Fi 5 e Wi-Fi 6/6E)](#41-evolucao-dos-padroes-80211-wi-fi-4-wi-fi-5-e-wi-fi-66e)
+    - [4.2 Frequências de Operação: 2.4 GHz vs. 5 GHz](#42-frequencias-de-operacao-24-ghz-vs-5-ghz)
+    - [4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)](#43-mecanismo-de-acesso-ao-meio-csmaca-e-o-problema-do-no-oculto-rtscts)
+    - [4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)](#44-evolucao-da-seguranca-sem-fio-wep-wpa-wpa2-e-wpa3-personal-vs-enterprise)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas & Exemplos Práticos](#6-questões-comentadas--exemplos-práticos)
+- [6. Questões Comentadas & Exemplos Práticos](#6-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -153,9 +152,11 @@ flowchart LR
 1. **SMTP (*Simple Mail Transfer Protocol* - Portas TCP 25 e TCP 587):**
     - É um protocolo do tipo **Push (Envio)**.
     - Utilizado pelo cliente para submeter e-mails ao seu servidor (porta 587 com autenticação e STARTTLS) e utilizado para retransmitir e-mails entre servidores de correio na Internet (porta 25).
+
 2. **POP3 (*Post Office Protocol v3* - Portas TCP 110 e TCP 995 com SSL):**
     - É um protocolo do tipo **Pull (Recuperação)**.
     - Baixa as mensagens do servidor para a máquina local do usuário e, por padrão histórico, **remove as mensagens da caixa postal do servidor**. Não suporta criação nem sincronização de pastas remotas.
+
 3. **IMAP (*Internet Message Access Protocol* - Portas TCP 143 e TCP 993 com SSL):**
     - É um protocolo do tipo **Pull (Acesso e Sincronização)**.
     - Mantém as mensagens, pastas customizadas, marcações de lido/não-lido e rascunhos **armazenados permanentemente no servidor central**. Permite que o usuário consulte sua caixa de correio através de múltiplos dispositivos (smartphone, webmail, notebook) com sincronização em tempo real.
@@ -305,6 +306,7 @@ Sobre as características fundamentais desses protocolos, assinale a afirmativa 
 * **E)** Os protocolos HTTP/2 e HTTP/3 mantiveram a estrutura de mensagens baseada em formato estritamente textual legível por humanos em seus cabeçalhos e fluxos, para simplificar a auditoria direta por analisadores de pacotes.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O HTTP/2 opera sobre o protocolo de transporte TCP, mantendo o problema do bloqueio de início de fila (*Head-of-Line Blocking*) na camada de transporte caso ocorra perda de pacotes.
 > - **B)** Correta. O HTTP/3 adota o protocolo QUIC sobre UDP, garantindo que os fluxos multiplexados operem de forma verdadeiramente independente, de modo que a perda de um pacote em um stream específico não paralisa a entrega dos demais fluxos da conexão.
 > - **C)** Incorreta. A multiplexação de fluxos binários sobre uma única conexão TCP foi a grande inovação do HTTP/2, e não do HTTP/1.1.
@@ -327,6 +329,7 @@ Para atender plenamente aos requisitos de interconexão VPN *Site-to-Site*, o an
 * **E)** O protocolo TLS em Modo Enlace com portas abertas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O protocolo AH não fornece sigilo (criptografia de dados) e o Modo Transporte preserva o cabeçalho IP original visível na rede pública.
 > - **B)** Incorreta. O Modo Transporte expõe o cabeçalho IP original, revelando os endereços IPs internos dos servidores para qualquer nó intermediário da Internet.
 > - **C)** Correta. O protocolo ESP em Modo Túnel é a configuração canônica obrigatória para VPNs *Site-to-Site*, pois criptografa integralmente o pacote IP original (cabeçalho privado + payload) e insere um novo cabeçalho IP público externo para roteamento seguro entre os gateways de borda.
@@ -347,6 +350,7 @@ No que tange às redes sem fio fundamentadas no padrão IEEE 802.11 (Wi-Fi) e ao
 * **E)** No padrão IEEE 802.11ax (Wi-Fi 6), a tecnologia CSMA/CA foi totalmente substituída pelo protocolo de chaveamento de circuitos estáticos Token Ring.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Redes sem fio utilizam CSMA/CA (prevenção de colisões), e não CSMA/CD (detecção), pois não conseguem escutar o meio de forma confiável enquanto suas antenas transmitem sinal.
 > - **B)** Correta. O mecanismo CSMA/CA com quadros RTS/CTS soluciona com precisão o problema do nó oculto (*hidden node problem*), onde duas estações fora do alcance mútuo de rádio disputam o mesmo Ponto de Acesso.
 > - **C)** Incorreta. A faixa de 2.4 GHz tem menor largura de banda e conta com apenas 3 canais não sobrepostos (1, 6 e 11), ao passo que a faixa de 5 GHz oferece taxas mais elevadas e dezenas de canais sem sobreposição.
@@ -367,6 +371,7 @@ A respeito dos protocolos da camada de aplicação e seus papéis no ecossistema
 * **E)** O protocolo SSH opera por padrão na porta UDP 22, não provendo recursos de confidencialidade e limitando-se a registrar sessões de auditoria em arquivos de log do sistema operacional.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A sincronização permanente e bidirecional de mensagens e pastas no servidor é a característica definidora do protocolo **IMAP**, enquanto o POP3 baixa os e-mails e convencionalmente os apaga do servidor.
 > - **B)** Incorreta. O protocolo SMTP é classificado como protocolo de envio (**Push**), utilizado para despachar e retransmitir mensagens, e não para recuperação e leitura por usuários finais.
 > - **C)** Incorreta. O SFTP roda inteiramente dentro da sessão do protocolo SSH na porta **TCP 22**, não tendo nenhuma relação com as portas TCP 20 e 21 do FTP legado.
@@ -389,6 +394,7 @@ Em comparação com implementações domésticas baseadas em WPA2-Personal (PSK)
 * **E)** Prescindir do uso de certificados digitais ou credenciais individuais, concedendo acesso livre e irrestrito através de um portal cativo (*captive portal*) não autenticado.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O uso de uma chave pré-compartilhada estática única é a definição do modo Personal (PSK), e não do modo Enterprise.
 > - **B)** Incorreta. O modo Enterprise emprega criptografia de alto nível em trânsito (AES-128/192 com CCMP/GCMP); a filtragem MAC não constitui mecanismo seguro de proteção.
 > - **C)** Correta. A arquitetura WPA/WPA3 Enterprise implementa autenticação individualizada centralizada através da norma IEEE 802.1X com servidores corporativos RADIUS, vinculando cada usuário ao diretório central de identidades.

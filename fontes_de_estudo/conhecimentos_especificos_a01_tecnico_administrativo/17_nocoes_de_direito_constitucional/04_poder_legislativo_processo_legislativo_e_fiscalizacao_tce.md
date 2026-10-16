@@ -28,22 +28,22 @@
 ---
 
 ## 🧭 Sumário
-1. [Estrutura Bicameral e Atribuições das Casas Legislativas](#1-estrutura-bicameral-e-atribuições-das-casas-legislativas)
-    - 1.1 [Modelo Bicameral Federal e Unicameral Estadual/Municipal](#11-modelo-bicameral-federal-e-unicameral-estadualmunicipal)
-    - 1.2 [Repartição de Competências no Congresso Nacional](#12-repartição-de-competências-no-congresso-nacional)
-    - 1.3 [Estatuto dos Congressistas e Imunidades Parlamentares](#13-estatuto-dos-congressistas-e-imunidades-parlamentares)
-2. [O Processo Legislativo Constitucional](#2-o-processo-legislativo-constitucional)
-    - 2.1 [Emendas à Constituição (Art. 60) e Limitações ao Poder de Reforma](#21-emendas-à-constituição-art-60-e-limitações-ao-poder-de-reforma)
-    - 2.2 [Leis Complementares versus Leis Ordinárias](#22-leis-complementares-versus-leis-ordinárias)
-    - 2.3 [Medidas Provisórias (Art. 62): Prazos e Vedações Temáticas](#23-medidas-provisórias-art-62-prazos-e-vedações-temáticas)
-3. [Fiscalização e Controle Externo pelos Tribunais de Contas (Arts. 70 a 75)](#3-fiscalização-e-controle-externo-pelos-tribunais-de-contas-arts-70-a-75)
-    - 3.1 [Abrangência e Critérios da Fiscalização Financeira](#31-abrangência-e-critérios-da-fiscalização-financeira)
-    - 3.2 [O Julgamento de Contas Públicas: Contas de Governo versus Contas de Gestão](#32-o-julgamento-de-contas-públicas-contas-de-governo-versus-contas-de-gestão)
-    - 3.3 [Sustação de Atos Ilegais versus Sustação de Contratos Administrativos](#33-sustação-de-atos-ilegais-versus-sustação-de-contratos-administrativos)
-    - 3.4 [Eficácia das Decisões Condenatórias e Título Executivo Extrajudicial](#34-eficácia-das-decisões-condenatórias-e-título-executivo-extrajudicial)
-    - 3.5 [Simetria Federativa (Art. 75) e o Ministério Público de Contas (Art. 130)](#35-simetria-federativa-art-75-e-o-ministério-público-de-contas-art-130)
-4. [Fontes Oficiais & Jurisprudenciais Recomendadas](#4-fontes-oficiais--jurisprudenciais-recomendadas)
-5. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#5-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
+- [1. Estrutura Bicameral e Atribuições das Casas Legislativas](#1-estrutura-bicameral-e-atribuicoes-das-casas-legislativas)
+    - [1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal](#11-modelo-bicameral-federal-e-unicameral-estadualmunicipal)
+    - [1.2 Repartição de Competências no Congresso Nacional](#12-reparticao-de-competencias-no-congresso-nacional)
+    - [1.3 Estatuto dos Congressistas e Imunidades Parlamentares](#13-estatuto-dos-congressistas-e-imunidades-parlamentares)
+- [2. O Processo Legislativo Constitucional](#2-o-processo-legislativo-constitucional)
+    - [2.1 Emendas à Constituição (Art. 60) e Limitações ao Poder de Reforma](#21-emendas-a-constituicao-art-60-e-limitacoes-ao-poder-de-reforma)
+    - [2.2 Leis Complementares versus Leis Ordinárias](#22-leis-complementares-versus-leis-ordinarias)
+    - [2.3 Medidas Provisórias (Art. 62): Prazos e Vedações Temáticas](#23-medidas-provisorias-art-62-prazos-e-vedacoes-tematicas)
+- [3. Fiscalização e Controle Externo pelos Tribunais de Contas (Arts. 70 a 75)](#3-fiscalizacao-e-controle-externo-pelos-tribunais-de-contas-arts-70-a-75)
+    - [3.1 Abrangência e Critérios da Fiscalização Financeira](#31-abrangencia-e-criterios-da-fiscalizacao-financeira)
+    - [3.2 O Julgamento de Contas Públicas: Contas de Governo versus Contas de Gestão](#32-o-julgamento-de-contas-publicas-contas-de-governo-versus-contas-de-gestao)
+    - [3.3 Sustação de Atos Ilegais versus Sustação de Contratos Administrativos](#33-sustacao-de-atos-ilegais-versus-sustacao-de-contratos-administrativos)
+    - [3.4 Eficácia das Decisões Condenatórias e Título Executivo Extrajudicial](#34-eficacia-das-decisoes-condenatorias-e-titulo-executivo-extrajudicial)
+    - [3.5 Simetria Federativa (Art. 75) e o Ministério Público de Contas (Art. 130)](#35-simetria-federativa-art-75-e-o-ministerio-publico-de-contas-art-130)
+- [4. Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+- [5. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -102,13 +102,14 @@ flowchart TD
 ```
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+>
 > 1. **Iniciativa Popular de PEC:** NÃO existe iniciativa popular para propor Emenda à Constituição! A iniciativa popular no Brasil (art. 61, § 2º) é restrita a projetos de **lei ordinária** e **lei complementar**.  
 > 2. **Sanção e Veto Presidencial:** O Presidente da República **NÃO sanciona nem veta** Emendas à Constituição. Uma vez aprovada por 3/5 em dois turnos na Câmara e no Senado, a PEC é promulgada diretamente pelas Mesas da Câmara dos Deputados e do Senado Federal.  
 > 3. **Cláusulas Pétreas (Art. 60, § 4º):** Não será objeto de deliberação a proposta de emenda tendente a abolir:
->    - I - a forma federativa de Estado;
->    - II - o voto direto, secreto, universal e periódico;
->    - III - a separação dos Poderes;
->    - IV - os direitos e garantias individuais.
+>     - I - a forma federativa de Estado;
+>     - II - o voto direto, secreto, universal e periódico;
+>     - III - a separação dos Poderes;
+>     - IV - os direitos e garantias individuais.
 
 - **Limitações Circunstanciais (Art. 60, § 1º):** A Constituição não poderá ser emendada na vigência de intervenção federal, de estado de defesa ou de estado de sítio.
 - **Princípio da Irrepetibilidade (Art. 60, § 5º):** A matéria constante de proposta de emenda rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa (ano parlamentar).
@@ -135,6 +136,7 @@ flowchart TD
 
 #### 3.1 Abrangência e Critérios da Fiscalização Financeira
 Conforme o art. 70 da CF/88, a fiscalização contábil, financeira, orçamentária, operacional e patrimonial da Administração Pública e de qualquer entidade que utilize recursos públicos será exercida pelo Congresso Nacional (ou Assembleia Legislativa estadual), mediante **controle externo**, e pelos sistemas de **controle interno** de cada Poder.
+
 - **Aspectos Controlados:**
     - *Legalidade:* Conformidade com as leis e a Constituição.
     - *Legitimidade:* Atendimento ao interesse público e à moralidade administrativa.
@@ -229,6 +231,7 @@ Nos termos do artigo 31, § 2º da Constituição Federal de 1988 e da jurisprud
 * **E)** Caberá ao Presidente do Tribunal de Justiça do Estado de Goiás desempatar a votação e proferir a decisão terminativa sobre as contas do Chefe do Executivo.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O parecer prévio do Tribunal de Contas recomendou a **rejeição** das contas. Para rejeitar essa conclusão técnica e aprovar as contas do prefeito, a Câmara Municipal precisava alcançar o quórum qualificado de **dois terços** (66,66%) dos vereadores. Tendo obtido apenas 60% dos votos favoráveis, a votação não conseguiu derrubar o parecer prévio.  
 > - **B) Incorreta:** O parecer prévio não possui natureza jurisdicional definitiva impositiva sobre o julgamento político das contas de prefeito, sendo atribuída a competência julgadora à Câmara de Vereadores.  
 > - **C) Incorreta:** A Constituição exige quórum qualificado de dois terços dos membros da Câmara Municipal (art. 31, § 2º), e não voto unânime.  
@@ -251,6 +254,7 @@ Diante do regramento inserto no artigo 71, § 3º da Constituição Federal de 1
 * **E)** O débito imputado prescreve compulsoriamente no prazo de noventa dias contados do encerramento da sessão plenária de julgamento.
 
 > **Comentário Detalhado:**
+>
 > - **A) CORRETA:** Conforme o art. 71, § 3º, da CF/88, as decisões dos Tribunais de Contas que resultem em imputação de débito ou aplicação de multa possuem eficácia de título executivo extrajudicial. Como a Corte de Contas não executa suas próprias decisões no Judiciário, o título é encaminhado à Procuradoria-Geral do Estado para cobrança judicial mediante processo de Execução Fiscal.  
 > - **B) Incorreta:** Os Tribunais de Contas não integram o Poder Judiciário e não possuem jurisdição executiva coercitiva de penhora e expropriação patrimonial.  
 > - **C) Incorreta:** Sendo a decisão um título executivo extrajudicial líquido, certo e exigível por força de mandamento constitucional, descabe o ajuizamento de ação ordinária de conhecimento prévio.  
@@ -265,7 +269,9 @@ Diante do regramento inserto no artigo 71, § 3º da Constituição Federal de 1
 Acerca do processo legislativo federal disciplinado na Constituição Federal de 1988, notadamente em relação às propostas de emenda à Constituição (PEC) e às medidas provisórias (MP), analise as afirmativas a seguir:
 
 I. A Constituição poderá ser emendada mediante proposta de um terço, no mínimo, dos membros da Câmara dos Deputados ou do Senado Federal, do Presidente da República ou de mais da metade das Assembleias Legislativas das unidades da Federação.  
+
 II. Não será admitida Proposta de Emenda à Constituição proposta por iniciativa popular de cidadãos, ainda que subscrita por mais de um por cento do eleitorado nacional.  
+
 III. É admitida a edição de medida provisória sobre matéria relativa a direito processual civil e direito eleitoral, desde que configurados os pressupostos formais de relevância e urgência.  
 
 Está correto o que se afirma em:
@@ -277,10 +283,11 @@ Está correto o que se afirma em:
 * **E)** I, II e III.
 
 > **Comentário Detalhado:**
+>
 > - **A) CORRETA:**  
->   - *Item I (Verdadeiro):* Reproduz fielmente os legitimados constitucionais para propor PEC previstos no art. 60, I a III, da CF/88.  
->   - *Item II (Verdadeiro):* No ordenamento jurídico brasileiro, a iniciativa popular (art. 61, § 2º) é restrita a projetos de lei ordinária e lei complementar, não se admitindo iniciativa popular para propor emenda à Constituição Federal.  
->   - *Item III (Falso):* O art. 62, § 1º, I, "a" e "b", veda terminantemente a edição de medidas provisórias sobre direito eleitoral e direito processual civil, mesmo com relevância e urgência.  
+>     - *Item I (Verdadeiro):* Reproduz fielmente os legitimados constitucionais para propor PEC previstos no art. 60, I a III, da CF/88.  
+>     - *Item II (Verdadeiro):* No ordenamento jurídico brasileiro, a iniciativa popular (art. 61, § 2º) é restrita a projetos de lei ordinária e lei complementar, não se admitindo iniciativa popular para propor emenda à Constituição Federal.  
+>     - *Item III (Falso):* O art. 62, § 1º, I, "a" e "b", veda terminantemente a edição de medidas provisórias sobre direito eleitoral e direito processual civil, mesmo com relevância e urgência.  
 > - **B) Incorreta:** O item III é falso.  
 > - **C) Incorreta:** O item III é falso e o item II é verdadeiro.  
 > - **D) Incorreta:** O item II também é verdadeiro.  
@@ -302,6 +309,7 @@ De acordo com o sistema de competências do controle externo estabelecido no art
 * **E)** O Tribunal de Contas não pode adotar qualquer medida sobre atos já aperfeiçoados, cabendo-lhe apenas comunicar o fato à Ouvidoria Geral.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O Tribunal de Contas não tem competência originária direta para anular ou sustar contrato administrativo, nem competência administrativa para destituir secretários de Estado.  
 > - **B) CORRETA:** Pelo art. 71, X, da CF/88, se não atendido o prazo de correção, o Tribunal de Contas sustará a execução do ato impugnado; todavia, no caso de contrato, o ato de sustação será adotado diretamente pelo Poder Legislativo (art. 71, § 1º). Apenas se o Poder Legislativo ou o Executivo não deliberarem em 90 dias é que a competência supletiva de sustação passa ao Tribunal de Contas (§ 2º).  
 > - **C) Incorreta:** Trata-se de competência expressa de controle externo atribuída pela própria Constituição ao Legislativo e ao Tribunal de Contas.  
@@ -322,6 +330,7 @@ No que tange às competências privativas das Casas Legislativas no âmbito do C
 * **E)** Compete exclusivamente ao Congresso Nacional, com necessária sanção do Presidente da República, fixar a remuneração de seus próprios membros ao final de cada legislatura.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** Processar e julgar Ministros do STF e o PGR por crimes de responsabilidade é competência privativa do **Senado Federal** (art. 52, II, da CF/88).  
 > - **B) CORRETA:** Conforme o art. 52, III, alínea "b", da CF/88, compete privativamente ao Senado Federal aprovar previamente, por voto secreto, após arguição pública, a escolha de Ministros do Tribunal de Contas da União indicados pelo Presidente da República.  
 > - **C) Incorreta:** Desde a expedição do diploma, os membros do Congresso Nacional não podem ser submetidos à prisão preventiva ordinária, admitindo-se a prisão unicamente em flagrante de crime inafiançável (art. 53, § 2º).  

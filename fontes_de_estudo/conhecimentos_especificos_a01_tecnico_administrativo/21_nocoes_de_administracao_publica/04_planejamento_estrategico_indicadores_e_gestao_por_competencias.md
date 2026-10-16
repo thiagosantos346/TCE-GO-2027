@@ -30,15 +30,15 @@
 ---
 
 ## 🧭 Sumário Interativo
-- [1. Níveis do Planejamento Organizacional](#1-níveis-do-planejamento-organizacional)
-- [2. O Balanced Scorecard (BSC) no Setor Público](#2-o-balanced-scorecard-bsc-no-setor-público)
-- [3. Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H](#3-matrizes-swot-fofa-gut-e-plano-de-ação-5w2h)
-- [4. Indicadores de Desempenho e Métodos de Avaliação Funcional](#4-indicadores-de-desempenho-e-métodos-de-avaliação-funcional)
-- [5. Gestão por Competências no Setor Público (Decreto 9.991/2019)](#5-gestão-por-competências-no-setor-público-decreto-99912019)
-- [6. Processo Decisório e Teoria da Decisão (Herbert Simon)](#6-processo-decisório-e-teoria-da-decisão-herbert-simon)
-- [7. Gestão de Conflitos Organizacionais (Thomas-Kilmann)](#7-gestão-de-conflitos-organizacionais-thomas-kilmann)
-- [8. Fontes Oficiais e Referências Bibliográficas](#8-fontes-oficiais-e-referências-bibliográficas)
-- [9. Questões de Concurso FCC Comentadas](#9-questões-de-concurso-fcc-comentadas)
+- [1. Níveis do Planejamento Organizacional](#1-niveis-do-planejamento-organizacional)
+- [2. O Balanced Scorecard (BSC) no Setor Público](#2-o-balanced-scorecard-bsc-no-setor-publico)
+- [3. Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H](#3-matrizes-swot-fofa-gut-e-plano-de-acao-5w2h)
+- [4. Indicadores de Desempenho e Métodos de Avaliação Funcional](#4-indicadores-de-desempenho-e-metodos-de-avaliacao-funcional)
+- [5. Gestão por Competências no Setor Público (Decreto 9.991/2019)](#5-gestao-por-competencias-no-setor-publico-decreto-99912019)
+- [6. Processo Decisório e Teoria da Decisão (Herbert Simon)](#6-processo-decisorio-e-teoria-da-decisao-herbert-simon)
+- [7. Gestão de Conflitos Organizacionais (Thomas-Kilmann)](#7-gestao-de-conflitos-organizacionais-thomas-kilmann)
+- [8. Fontes Oficiais e Referências Bibliográficas](#8-fontes-oficiais-e-referencias-bibliograficas)
+- [9. Questões de Concurso FCC Comentadas](#9-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -62,10 +62,12 @@ flowchart TD
     - **Horizonte Temporal:** Longo prazo.
     - **Nível Hierárquico:** Institucional (Diretoria, Tribunal Pleno, Secretários de Estado).
     - **Escopo e Foco:** Envolve a totalidade da organização, com ênfase nas variáveis do ambiente externo e na consecução da Missão (razão de existir), Visão (estado futuro desejado) e Valores organizacionais. Caracteriza-se por elevado grau de incerteza e orientação para a eficácia e efetividade institucional.
+
 2. **Planejamento Tático:**
     - **Horizonte Temporal:** Médio prazo.
     - **Nível Hierárquico:** Intermediário / Gerencial (chefias de departamentos, diretorias setoriais).
     - **Escopo e Foco:** Traduz e fragmenta as macroestratégias corporativas em planos táticos departamentais funcionais (Plano de Contratações de TI, Plano Anual de Capacitação, Planejamento Orçamentário Setorial). Foca na coordenação e integração de recursos.
+
 3. **Planejamento Operacional:**
     - **Horizonte Temporal:** Curto prazo (execução cotidiana).
     - **Nível Hierárquico:** Operacional (supervisores, servidores de execução técnica e analítica).
@@ -102,10 +104,13 @@ flowchart TD
 1. **Perspectiva do Cidadão / Sociedade (Topo no Setor Público):**
     - *Na iniciativa privada:* O topo do mapa estratégico é a **Perspectiva Financeira**, orientada para a geração de lucros, dividendos e retorno sobre o patrimônio dos acionistas (*shareholders*).
     - *No setor público:* O topo do mapa estratégico é **obrigatoriamente a Perspectiva do Cidadão e da Sociedade**. O órgão público não visa ao lucro comercial, mas sim à geração de valor público, garantia de direitos fundamentais e satisfação dos cidadãos-usuários.
+
 2. **Perspectiva Financeira / Orçamentária:**
     - No setor público, os recursos orçamentários não são um fim em si mesmos, mas atuam como **fatores restritores e viabilizadores** da estratégia. Foca na economicidade, sustentabilidade orçamentária, equilíbrio fiscal (LRF) e conformidade na aplicação das verbas.
+
 3. **Perspectiva dos Processos Internos:**
     - Mapeia os processos de trabalho críticos nos quais a instituição deve atingir excelência. Compreende processos de inovação, fiscalização tempestiva, controle preventivo, modernização de sistemas e celeridade procedimental.
+
 4. **Perspectiva de Aprendizado e Crescimento (Base de Sustentação):**
     - Representa os alicerces estruturais e o capital intangível que suporta todos os processos superiores: capital humano (competências e capacitação), capital informacional (infraestrutura tecnológica, banco de dados) e capital organizacional (cultura institucional, liderança, alinhamento e trabalho em equipe).
 
@@ -248,6 +253,7 @@ flowchart TD
     - **Decisões Não Programadas:** Tomadas em face de problemas inéditos, complexos, desestruturados e de alta incerteza, exigindo julgamento crítico, intuição embasada e criação de soluções personalizadas (ex.: reestruturação de uma agência reguladora frente a um desastre ambiental imprevisível).
 
 > 🛑 **ATENÇÃO (HOMEM ECONÔMICO VS. HOMEM ADMINISTRATIVO):**  
+>
 > - *Homem Econômico:* Racionalidade ilimitada, escolhe a decisão **ótima/maximizadora** (modelo clássico irreal).  
 > - *Homem Administrativo (Simon):* Racionalidade limitada, escolhe a decisão **satisfatória** (modelo realista adotado na administração contemporânea).
 
@@ -309,6 +315,7 @@ Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Co
 * **E)** O mapa estratégico dispensa a identificação de indicadores e metas para os processos de fiscalização e controle.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** No setor público inexiste distribuição de lucros ou busca por retorno de capital a acionistas como meta finalística institucional.  
 > - **B) CORRETA.** No setor público, o ápice da cadeia de valor do BSC é ocupado pela perspectiva do **Cidadão / Sociedade**, pois o órgão governamental visa entregar serviços com valor público à sociedade. A perspectiva orçamentária atua como suporte viabilizador da estratégia, e não como fim em si mesma.  
 > - **C) Incorreta.** O aprendizado e crescimento (capital humano, tecnologia, liderança e cultura) é a base indispensável de sustentação de qualquer organização no BSC.  
@@ -330,6 +337,7 @@ A respeito do processo decisório nas organizações e das conclusões da Teoria
 * **E)** As decisões operacionais tomadas sob racionalidade limitada prescindem da fixação prévia de objetivos organizacionais pelo planejamento.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** O modelo clássico do "homem econômico" e da decisão ótima pura é uma ficção teórica refutada por Simon.  
 > - **B) Incorreta.** Os gestores atuam sob ambiente de incerteza, com tempo escasso e dados parciais.  
 > - **C) CORRETA.** Segundo Herbert Simon, em virtude da impossibilidade humana de capturar todas as variáveis do ambiente e analisar infinitas alternativas, o tomador de decisão opera como o **homem administrativo**, optando por soluções **satisfatórias** (que atendam a critérios suficientes de eficácia) em vez de soluções ótimas puras.  
@@ -358,6 +366,7 @@ Sob a ótica da Matriz SWOT (FOFA), os fatores 1, 2, 3 e 4 representam, respecti
 * **E)** Força, Fraqueza, Ameaça e Oportunidade.
 
 > **Comentário Detalhado:**  
+>
 > - **Fator 1 (Força):** Qualificação dos servidores do órgão é uma característica interna positiva e controlável pela instituição (**Força / Strengths**).  
 > - **Fator 2 (Fraqueza):** Despadronização interna de rotinas é uma vulnerabilidade interna e controlável pela gestão (**Fraqueza / Weaknesses**).  
 > - **Fator 3 (Oportunidade):** Linhas federais de financiamento são fatores externos favoráveis que a organização não controla, mas pode aproveitar (**Oportunidade / Opportunities**).  
@@ -379,11 +388,12 @@ Na gestão de pessoas no setor público, a metodologia de Gestão por Competênc
 * **E)** Ausência simultânea de Conhecimento, Habilidade e Atitude.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** O domínio das leis é o Conhecimento em si.  
 > - **B) CORRETA.** Na tríade CHA:  
->   - **Conhecimento (Saber):** É o saber teórico, conceitual e cognitivo (domínio das regras da Lei nº 14.133/2021).  
->   - **Habilidade (Saber Fazer):** É a aplicação prática da teoria, o manejo de ferramentas e a operação de sistemas informatizados.  
->   - Como o servidor conhece a lei (tem Conhecimento), mas não consegue operar o sistema na prática, seu déficit específico reside na **Habilidade** ("saber fazer").  
+>     - **Conhecimento (Saber):** É o saber teórico, conceitual e cognitivo (domínio das regras da Lei nº 14.133/2021).  
+>     - **Habilidade (Saber Fazer):** É a aplicação prática da teoria, o manejo de ferramentas e a operação de sistemas informatizados.  
+>     - Como o servidor conhece a lei (tem Conhecimento), mas não consegue operar o sistema na prática, seu déficit específico reside na **Habilidade** ("saber fazer").  
 > - **C) Incorreta.** Ele não possui a habilidade técnica de operar o sistema de compras.  
 > - **D) Incorreta.** Ele carece exatamente de habilidade prática.  
 > - **E) Incorreta.** Ele possui inequívoco conhecimento teórico demonstrado.  
@@ -403,6 +413,7 @@ Dois diretores de uma agência reguladora divergem categoricamente a respeito do
 * **E)** Acordo ou Concessão Mútua equilibrada.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Colaboração combina alta assertividade com **alta cooperação**, buscando uma solução integrada "ganha-ganha".  
 > - **B) Incorreta.** Acomodação apresenta **baixa assertividade** (o indivíduo abre mão do seu próprio interesse) e alta cooperação.  
 > - **C) CORRETA.** O estilo de **Competição (ou Imposição / Enfrentamento)** é definido pela **alta assertividade** (busca obstinada de fazer prevalecer seus próprios interesses) combinada com **baixa cooperação** (desprezo pelos anseios e argumentos da contraparte), configurando uma dinâmica de "ganha-perde".  

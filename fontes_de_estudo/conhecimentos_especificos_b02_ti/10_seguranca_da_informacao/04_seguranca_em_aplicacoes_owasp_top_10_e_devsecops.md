@@ -16,23 +16,22 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. O Projeto OWASP Top 10 e Vulnerabilidades Críticas em Software Web](#1-o-projeto-owasp-top-10-e-vulnerabilidades-críticas-em-software-web)
-    - [1.1 Visão Geral e Categorias Oficiais do OWASP Top 10](#11-visão-geral-e-categorias-oficiais-do-owasp-top-10)
+- [1. O Projeto OWASP Top 10 e Vulnerabilidades Críticas em Software Web](#1-o-projeto-owasp-top-10-e-vulnerabilidades-criticas-em-software-web)
+    - [1.1 Visão Geral e Categorias Oficiais do OWASP Top 10](#11-visao-geral-e-categorias-oficiais-do-owasp-top-10)
     - [1.2 Broken Access Control (#1) e Insecure Direct Object References (IDOR)](#12-broken-access-control-1-e-insecure-direct-object-references-idor)
-    - [1.3 Cryptographic Failures (#2) e Proteção de Dados](#13-cryptographic-failures-2-e-proteção-de-dados)
+    - [1.3 Cryptographic Failures (#2) e Proteção de Dados](#13-cryptographic-failures-2-e-protecao-de-dados)
     - [1.4 Injection (#3): SQL Injection vs. Consultas Parametrizadas e Modalidades de XSS](#14-injection-3-sql-injection-vs-consultas-parametrizadas-e-modalidades-de-xss)
-    - [1.5 Demais Categorias Críticas: Insecure Design, Misconfiguration, SSRF e Supply Chain](#15-demais-categorias-críticas-insecure-design-misconfiguration-ssrf-e-supply-chain)
+    - [1.5 Demais Categorias Críticas: Insecure Design, Misconfiguration, SSRF e Supply Chain](#15-demais-categorias-criticas-insecure-design-misconfiguration-ssrf-e-supply-chain)
 - [2. Abordagem DevSecOps e a Cultura Shift-Left](#2-abordagem-devsecops-e-a-cultura-shift-left)
-    - [2.1 Princípios do DevSecOps e Economia da Correção Precoce (Shift-Left)](#21-princípios-do-devsecops-e-economia-da-correção-precoce-shift-left)
-    - [2.2 Modelagem de Ameaças com a Metodologia STRIDE](#22-modelagem-de-ameaças-com-a-metodologia-stride)
-    - [2.3 Ferramentas Automatizadas de Teste de Segurança (SAST, DAST, IAST, SCA)](#23-ferramentas-automatizadas-de-teste-de-segurança-sast-dast-iast-sca)
-- [3. Segurança em APIs, Contêineres e Ambientes de Nuvem](#3-segurança-em-apis-contêineres-e-ambientes-de-nuvem)
-    - [3.1 Segurança em APIs: OWASP API Security Top 10 e BOLA](#31-segurança-em-apis-owasp-api-security-top-10-e-bola)
-    - [3.2 Boas Práticas e Hardening em Contêineres Docker e Kubernetes](#32-boas-práticas-e-hardening-em-contêineres-docker-e-kubernetes)
-    - [3.3 Segurança em Nuvem: Modelo de Responsabilidade Compartilhada e Proteção de Metadados](#33-segurança-em-nuvem-modelo-de-responsabilidade-compartilhada-e-proteção-de-metadados)
+    - [2.1 Princípios do DevSecOps e Economia da Correção Precoce (Shift-Left)](#21-principios-do-devsecops-e-economia-da-correcao-precoce-shift-left)
+    - [2.2 Modelagem de Ameaças com a Metodologia STRIDE](#22-modelagem-de-ameacas-com-a-metodologia-stride)
+    - [2.3 Ferramentas Automatizadas de Teste de Segurança (SAST, DAST, IAST, SCA)](#23-ferramentas-automatizadas-de-teste-de-seguranca-sast-dast-iast-sca)
+- [3. Segurança em APIs, Contêineres e Ambientes de Nuvem](#3-seguranca-em-apis-conteineres-e-ambientes-de-nuvem)
+    - [3.1 Segurança em APIs: OWASP API Security Top 10 e BOLA](#31-seguranca-em-apis-owasp-api-security-top-10-e-bola)
+    - [3.2 Boas Práticas e Hardening em Contêineres Docker e Kubernetes](#32-boas-praticas-e-hardening-em-conteineres-docker-e-kubernetes)
+    - [3.3 Segurança em Nuvem: Modelo de Responsabilidade Compartilhada e Proteção de Metadados](#33-seguranca-em-nuvem-modelo-de-responsabilidade-compartilhada-e-protecao-de-metadados)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
-- [5. Questões Comentadas & Exemplos Práticos](#5-questões-comentadas--exemplos-práticos)
+- [5. Questões Comentadas & Exemplos Práticos](#5-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -65,10 +64,13 @@ Essa falha ocorre quando a aplicação não valida no lado do servidor se o usu�
 
 #### O Caso Clássico do IDOR (*Insecure Direct Object References*):
 Ocorre quando a aplicação expõe diretamente um identificador de banco de dados na URL ou no corpo da requisição:
+
 ```text
 https://tribunal.gov.br/api/processo?id=1050
 ```
+
 Se o usuário simplesmente alterar o valor na barra de endereços para `id=1051` e o sistema exibir o processo sigiloso de outro cidadão, configura-se um **IDOR**, espécie notória de *Broken Access Control*.
+
 - **Mitigação Mandatória:** O servidor deve SEMPRE verificar na camada de aplicação:  
   *O `usuario_autenticado` é o proprietário legítimo ou possui autorização formal no RBAC/ABAC para acessar o recurso `id=1051`?* Se não, a requisição deve ser bloqueada com código HTTP `403 Forbidden`.
 
@@ -104,17 +106,20 @@ flowchart TD
 ```
 
 - **Código Vulnerável:**
-  ```python
-  # O atacante altera a árvore de execução sintática do SQL
-  query = f"SELECT * FROM servidores WHERE cpf = '{cpf_input}'"
-  cursor.execute(query)
-  ```
+
+```python
+# O atacante altera a árvore de execução sintática do SQL
+query = f"SELECT * FROM servidores WHERE cpf = '{cpf_input}'"
+cursor.execute(query)
+```
+
 - **Código Seguro (Prepared Statements com Parâmetros Vinculados):**
-  ```python
-  # O motor do banco de dados trata a entrada estritamente como dado literal puro
-  query = "SELECT * FROM servidores WHERE cpf = %s"
-  cursor.execute(query, (cpf_input,))
-  ```
+
+```python
+# O motor do banco de dados trata a entrada estritamente como dado literal puro
+query = "SELECT * FROM servidores WHERE cpf = %s"
+cursor.execute(query, (cpf_input,))
+```
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A FCC adora afirmar que funções de substituição manual de caracteres (como trocar aspas por barras) são a solução ideal para injeção de SQL. **ERRADO!** Filtros manuais baseados em listas de bloqueio (*denylists*) são historicamente burláveis por diversas técnicas de codificação. A **única defesa definitiva e prioritária recomendada pela OWASP são as Consultas Parametrizadas (*Prepared Statements* com parâmetros vinculados / *bind variables*)**.
@@ -219,9 +224,11 @@ Diferente das aplicações web tradicionais baseadas em renderização no servid
 A execução de microsserviços em contêineres exige práticas rigorosas de isolamento para evitar fugas para o sistema hospedeiro (*container breakout*):
 
 1. **Não Executar Contêineres como `root`:** Por padrão, o processo dentro de um contêiner Docker roda como usuário com UID 0 (`root`). É mandatória a especificação de um usuário comum sem privilégios no `Dockerfile`:
-   ```dockerfile
-   USER 10001:10001
-   ```
+
+```dockerfile
+USER 10001:10001
+```
+
 2. **Utilizar Imagens Mínimas (*Distroless* ou *Alpine*):** Imagens base compactas eliminam utilitários desnecessários do sistema operacional (como gerenciadores de pacotes `apt`/`apk`, interpretadores `bash` e ferramentas de rede `curl`), reduzindo drasticamente a superfície de ataque e o número de CVEs presentes na imagem.
 3. **Sistemas de Arquivos Somente Leitura (*Read-Only Root Filesystem*):** Inicializar o contêiner com a flag `--read-only`, impedindo que invasores ou scripts maliciosos gravem arquivos executáveis em diretórios do sistema.
 4. **Descarte de Capacidades do Linux (*Drop Capabilities*):** Configurar o contêiner para descartar todas as capacidades administrativas padrão do kernel Linux (`--cap-drop=ALL`), adicionando estritamente aquelas indispensáveis para a operação do serviço.
@@ -258,12 +265,12 @@ flowchart TD
 
 ## 4. Fontes Recomendadas na Internet
 
-### 1. Projetos Oficiais da Fundação OWASP
+#### 1. Projetos Oficiais da Fundação OWASP
 - [OWASP Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten/): Documentação oficial do projeto de referência mundial classificando as 10 vulnerabilidades mais críticas em aplicações web, encabeçadas por *A01: Broken Access Control*, *A02: Cryptographic Failures* e *A03: Injection*.
 - [OWASP API Security Top 10](https://owasp.org/www-project-api-security/): Padrão específico para segurança de interfaces de programação, destacando a vulnerabilidade *BOLA (Broken Object Level Authorization)* e falhas de autenticação.
 - [OWASP Cheat Sheet Series - SQL Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html): Guia canônico de codificação segura com exemplos práticos de uso de consultas parametrizadas (*Prepared Statements*).
 
-### 2. Normas de Desenvolvimento Seguro
+#### 2. Normas de Desenvolvimento Seguro
 - [NIST Special Publication 800-218 - Secure Software Development Framework (SSDF)](https://csrc.nist.gov/pubs/sp/800/218/final): Framework oficial do governo americano para integrar práticas seguras em todas as fases do ciclo de vida de desenvolvimento de software (DevSecOps e cultura *Shift-Left*).
 - [Center for Internet Security (CIS) Docker & Kubernetes Benchmarks](https://www.cisecurity.org/cis-benchmarks): Diretrizes de hardening para ambientes de contêineres e orquestradores.
 
@@ -290,6 +297,7 @@ Considerando a classificação de vulnerabilidades do **OWASP Top 10** e os prin
 * **E)** O uso de parâmetros vinculados (*bind variables*) em consultas parametrizadas é desaconselhado pela OWASP por provocar vazamento de memória na máquina hospedeira.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O interpretador Python trata a operação como concatenação literal de caracteres, montando uma consulta SQL vulnerável e desprotegida.
 > - **B)** Correta. A concatenação de dados não sanitizados permite que metacaracteres modifiquem a lógica sintática da consulta (Injeção de SQL - A03). O remédio canônico definitivo recomendado pela OWASP consiste na adoção obrigatória de consultas parametrizadas (*Prepared Statements*), onde o banco de dados compila previamente a instrução e trata as variáveis estritamente como literais de dados.
 > - **C)** Incorreta. A vulnerabilidade afeta a base de dados relacional (SQL Injection), ao passo que XSS afeta o navegador do cliente com a execução de scripts maliciosos.
@@ -312,6 +320,7 @@ A respeito das ferramentas e abordagens de testes de segurança de software, ass
 * **E)** Ferramentas de SAST e DAST tornam dispensáveis a modelagem de ameaças e o controle de acesso lógico nas aplicações.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Essa é a definição operacional do teste dinâmico (DAST). O SAST inspeciona o código estático em repouso, sem compilação nem execução da aplicação.
 > - **B)** Incorreta. Essa é a definição do SAST. O DAST necessita da aplicação rodando plenamente para simular ataques externos via protocolo HTTP.
 > - **C)** Correta. As ferramentas de SCA (como Snyk, Dependabot e OWASP Dependency-Check) realizam o inventário contínuo de dependências externas para detectar vulnerabilidades catalogadas (CVEs) e violações de licenças de software livre.
@@ -338,6 +347,7 @@ No contexto das vulnerabilidades catalogadas pelo **OWASP Top 10**, essa falha �
 * **E)** SQL Injection cego (Blind SQLi - A03).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O SSRF envolve induzir o servidor a realizar requisições maliciosas contra alvos da rede interna ou metadados de nuvem.
 > - **B)** Correta. Trata-se da clássica vulnerabilidade **IDOR (*Insecure Direct Object References*)**, pertencente à categoria **Broken Access Control (A01)**, caracterizada pela ausência de verificação no servidor sobre os direitos do usuário de acessar um identificador de registro direto recebido na requisição.
 > - **C)** Incorreta. O problema não tem correlação com protocolos de criptografia em trânsito, mas sim com a falha lógica de verificação de permissões do usuário logado.
@@ -360,6 +370,7 @@ A respeito do mapeamento entre as categorias de ameaça do modelo STRIDE e os pr
 * **E)** A categoria *Denial of Service* (Negação de Serviço) viola o princípio do Não Repúdio.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. *Spoofing* (falsificação de identidade) atenta contra o princípio da Autenticidade.
 > - **B)** Correta. A categoria *Tampering* refere-se à modificação não autorizada de informações e códigos em trânsito ou em repouso, violando frontalmente a Integridade dos dados.
 > - **C)** Incorreta. *Repudiation* consiste em negar falsamente a prática de uma ação, violando o princípio do Não Repúdio (irretratabilidade).
@@ -380,6 +391,7 @@ Em relação às boas práticas de segurança na execução de contêineres Dock
 * **E)** O uso de imagens de contêiner do tipo *Distroless* é contraindicado pelas normas do CIS (*Center for Internet Security*), por dificultar o trabalho de manutenção ao remover pacotes supérfluos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. No modelo IaaS, o provedor responsabiliza-se somente pela infraestrutura física e camada de virtualização; o sistema operacional convidado, sua configuração e a aplicação de patches cabem com exclusividade ao cliente.
 > - **B)** Incorreta. A execução de contêineres como superusuário `root` eleva severamente o risco de invasões e quebras de isolamento (*container breakout*). A recomendação padrão é adotar usuários sem privilégios (`USER nonroot`).
 > - **C)** Correta. No modelo de responsabilidade compartilhada, a custódia, a governança e a segurança sobre os dados e sobre os privilégios das identidades concedidas são de responsabilidade plena e exclusiva do cliente em todos os cenários (IaaS, PaaS e SaaS).

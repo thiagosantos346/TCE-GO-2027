@@ -25,11 +25,11 @@
 
 ## 🧭 Sumário Interativo
 - [1. A Cadeia de Valor de Michael Porter](#1-a-cadeia-de-valor-de-michael-porter)
-- [2. O Desdobramento da Estratégia (*Cascading*) pelo BSC](#2-o-desdobramento-da-estratégia-cascading-pelo-bsc)
-- [3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)](#3-as-quatro-barreiras-à-execução-da-estratégia-kaplan-e-norton)
-- [4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)](#4-escritório-de-gestão-estratégica-ege-e-reuniões-de-avaliação-rae)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
+- [2. O Desdobramento da Estratégia (*Cascading*) pelo BSC](#2-o-desdobramento-da-estrategia-cascading-pelo-bsc)
+- [3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)](#3-as-quatro-barreiras-a-execucao-da-estrategia-kaplan-e-norton)
+- [4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)](#4-escritorio-de-gestao-estrategica-ege-e-reunioes-de-avaliacao-rae)
+- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -67,6 +67,7 @@ flowchart TD
     - *Logística de Saída (Externa):* Coleta, armazenagem e distribuição final dos relatórios, acórdãos ou produtos aos clientes/cidadãos.
     - *Marketing e Vendas:* Comunicação social, canais de transparência, publicidade e estímulo ao controle social.
     - *Serviços (Pós-Venda):* Atendimento contínuo, ouvidoria, monitoramento e suporte aos usuários.
+
 2. **Atividades de Apoio (Suporte):** Sustentam transversalmente as atividades primárias fornecendo infraestrutura institucional, pessoal, tecnologia e materiais:
     - *Infraestrutura da Organização:* Gestão geral, assessoria jurídica, planejamento orçamentário e relações institucionais.
     - *Gestão de Recursos Humanos:* Seleção pública, planos de cargos e salários, capacitação contínua e avaliação de desempenho.
@@ -176,6 +177,7 @@ Segundo a teoria da Cadeia de Valor concebida por Michael Porter, as atividades 
 * **E)** Logística interna, assistência técnica a clientes e recursos humanos.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Logística de entrada, operações e logística de saída são atividades primárias.  
 > - **B) Incorreta.** Marketing e serviços pós-venda são atividades primárias; apenas infraestrutura é de apoio.  
 > - **C) CORRETA.** No modelo de Porter, as **Atividades de Apoio (Suporte)** são compostas por quatro funções transversais que sustentam toda a organização: 1) Infraestrutura Organizacional; 2) **Gestão de Recursos Humanos**; 3) **Desenvolvimento de Tecnologia**; e 4) **Aquisições (função de compras e suprimentos)**.  
@@ -197,6 +199,7 @@ No contexto do alinhamento organizacional e desdobramento da estratégia pelo Ba
 * **E)** Barreira cultural mecanicista.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A barreira da visão traduz a incompreensão da estratégia pelos servidores da base (apenas 5% a compreendem).  
 > - **B) Incorreta.** A barreira das pessoas ocorre quando os incentivos e metas individuais dos colaboradores não têm vínculo com os objetivos do plano estratégico.  
 > - **C) CORRETA.** A **barreira dos recursos** decorre da desconexão entre o processo orçamentário e o plano estratégico (mais de 60% das organizações elaboram seus orçamentos sem consultar as prioridades estratégicas, inviabilizando o financiamento das novas iniciativas).  
@@ -218,6 +221,7 @@ No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard 
 * **E)** Mapa Estratégico: o documento contábil que consolida a execução orçamentária do exercício anterior.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** O Objetivo Estratégico define *o que* a organização almeja alcançar em cada perspectiva do BSC, não se confundindo com plano orçamentário de diárias.  
 > - **B) CORRETA.** O **Indicador-Chave de Desempenho (KPI - *Key Performance Indicator*)** é o instrumento analítico quantificável que serve de régua para monitorar continuamente o desempenho e verificar se o objetivo estratégico está sendo atingido.  
 > - **C) Incorreta.** A Meta é o valor numérico temporalmente delimitado que se pretende alcançar (ex.: atingir 95% até 2026).  
@@ -239,6 +243,7 @@ No âmbito da administração pública gerencial, a aplicação da teoria da Cad
 * **E)** Logística Externa de Distribuição.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Infraestrutura organizacional é atividade de apoio transversal (administração predial, assessoria jurídica geral).  
 > - **B) Incorreta.** Logística de entrada seria o recebimento e protocolo das contas dos jurisdicionados.  
 > - **C) CORRETA.** As **Operações** correspondem ao processo nuclear de transformação dos insumos (dados brutos, notas fiscais e processos licitatórios) no produto técnico final do Tribunal (relatórios circunstanciados de auditoria e propostas de voto). Constitui a atividade operacional finalística precípua do órgão de controle.  
@@ -260,6 +265,7 @@ Com o propósito de assegurar a governança e a implementação efetiva de seu p
 * **E)** Julgar as contas anuais de governo encaminhadas pelos prefeitos municipais ao parlamento.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Sindicâncias disciplinares competem à Corregedoria do órgão.  
 > - **B) CORRETA.** As **Reuniões de Avaliação da Estratégia (RAE)** constituem o rito máximo de governança executiva do plano estratégico: reúnem periodicamente a alta direção e os coordenadores de projetos para analisar os *dashboards* de indicadores (KPIs), identificar semáforos amarelos ou vermelhos e deliberar ajustes de rota e planos de contingência tempestivos.  
 > - **C) Incorreta.** Emissão de pareceres em recursos de pessoal compete à consultoria jurídica ou área de RH.  

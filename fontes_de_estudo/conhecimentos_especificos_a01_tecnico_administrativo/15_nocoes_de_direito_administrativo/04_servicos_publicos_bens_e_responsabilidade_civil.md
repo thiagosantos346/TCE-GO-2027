@@ -19,25 +19,24 @@
 ---
 
 ## 🧭 Sumário
-
 - [1. Responsabilidade Civil Extracontratual do Estado](#1-responsabilidade-civil-extracontratual-do-estado)
-    - [1.1 Evolução Histórica da Responsabilidade Estatal](#11-evolução-histórica-da-responsabilidade-estatal)
-    - [1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva](#12-o-art-37--6º-da-cf88-e-os-elementos-da-responsabilidade-objetiva)
+    - [1.1 Evolução Histórica da Responsabilidade Estatal](#11-evolucao-historica-da-responsabilidade-estatal)
+    - [1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva](#12-o-art-37-6o-da-cf88-e-os-elementos-da-responsabilidade-objetiva)
     - [1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes](#13-teoria-do-risco-administrativo-excludentes-e-atenuantes)
-    - [1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais](#14-teoria-do-risco-integral-e-suas-hipóteses-excepcionais)
-    - [1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica](#15-responsabilidade-por-omissão-estatal-genérica-vs-específica)
-    - [1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)](#16-ação-regressiva-e-a-teoria-da-dupla-garantia-tema-940--stf)
-- [2. Regime Jurídico dos Serviços Públicos e sua Delegação](#2-regime-jurídico-dos-serviços-públicos-e-sua-delegação)
-    - [2.1 Princípios do Serviço Público Adequado](#21-princípios-do-serviço-público-adequado)
-    - [2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)](#22-concessão-comum-e-permissão-de-serviço-público-lei-nº-89871995)
-    - [2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade](#23-formas-de-extinção-das-concessões-encampação-vs-caducidade)
-    - [2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)](#24-parcerias-público-privadas---ppps-lei-nº-110792004)
-- [3. Bens Públicos: Classificação, Afetação e Prerrogativas](#3-bens-públicos-classificação-afetação-e-prerrogativas)
-    - [3.1 Classificação Quanto à Destinação (Código Civil, art. 99)](#31-classificação-quanto-à-destinação-código-civil-art-99)
-    - [3.2 Fenômeno da Afetação e Desafetação](#32-fenômeno-da-afetação-e-desafetação)
-    - [3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta](#33-prerrogativas-do-regime-jurídico-e-a-imprescritibilidade-absoluta)
+    - [1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais](#14-teoria-do-risco-integral-e-suas-hipoteses-excepcionais)
+    - [1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica](#15-responsabilidade-por-omissao-estatal-generica-vs-especifica)
+    - [1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)](#16-acao-regressiva-e-a-teoria-da-dupla-garantia-tema-940-stf)
+- [2. Regime Jurídico dos Serviços Públicos e sua Delegação](#2-regime-juridico-dos-servicos-publicos-e-sua-delegacao)
+    - [2.1 Princípios do Serviço Público Adequado](#21-principios-do-servico-publico-adequado)
+    - [2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)](#22-concessao-comum-e-permissao-de-servico-publico-lei-no-89871995)
+    - [2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade](#23-formas-de-extincao-das-concessoes-encampacao-vs-caducidade)
+    - [2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)](#24-parcerias-publico-privadas-ppps-lei-no-110792004)
+- [3. Bens Públicos: Classificação, Afetação e Prerrogativas](#3-bens-publicos-classificacao-afetacao-e-prerrogativas)
+    - [3.1 Classificação Quanto à Destinação (Código Civil, art. 99)](#31-classificacao-quanto-a-destinacao-codigo-civil-art-99)
+    - [3.2 Fenômeno da Afetação e Desafetação](#32-fenomeno-da-afetacao-e-desafetacao)
+    - [3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta](#33-prerrogativas-do-regime-juridico-e-a-imprescritibilidade-absoluta)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
-- [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questões-comentadas--exemplos-padrão-fcc)
+- [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -81,6 +80,7 @@ O ordenamento jurídico brasileiro adota como **regra geral a Teoria do Risco Ad
     1. *Culpa Exclusiva da Vítima:* O evento decorreu inteiramente do comportamento negligente, imprudente ou voluntário do próprio lesado (ex.: pedestre que se atira intencionalmente sob as rodas de um ônibus público em alta velocidade).
     2. *Caso Fortuito ou Força Maior Absoluta:* Eventos imprevisíveis da natureza com violência desmedida (raios imprevisíveis, terremotos, trombas d'água fora de qualquer série histórica), desde que o Estado não tenha sido omisso em adotar medidas preventivas exigíveis.
     3. *Fato Exclusivo de Terceiro:* Dano provocado exclusivamente por ação autônoma e imprevisível de outrem sem qualquer concurso da conduta estatal (ex.: assalto à mão armada ocorrido dentro de um ônibus coletivo com disparo de arma de fogo deflagrado pelo criminoso).
+
 - **Causas Atenuantes do Nexo de Causalidade:**
     - *Culpa Concorrente da Vítima:* A vítima e o agente público concorreram simultaneamente para a eclosão do evento danoso. O Estado continua obrigado a indenizar, mas o montante indenizatório é **reduzido proporcionalmente** ao grau de culpa da vítima.
 
@@ -207,6 +207,7 @@ O regime jurídico dos bens públicos é informado por quatro prerrogativas estr
 3. **Imprescritibilidade Absoluta (Vedação de Usucapião):**  
    O art. 183, § 3º e o art. 191, parágrafo único, da Constituição Federal, corroborados pela **Súmula 340 do STF**, preceituam que **nenhum bem público, qualquer que seja sua classificação (inclusive os bens dominicais), pode ser adquirido por usucapião**.
     - *Natureza da Ocupação Irregular:* O particular que ocupa área pública sem título legítimo é considerado **mero detentor clandestino**. Não exerce posse jurídica tutelável, não tem direito a interditos possessórios contra o Estado e não faz jus a retenção ou indenização por benfeitorias realizadas.
+
 4. **Não-Onerabilidade:** Impossibilidade de que bens públicos sejam gravados com direitos reais de garantia em favor de terceiros (hipoteca, penhor, anticrese).
 
 ---
@@ -240,6 +241,7 @@ Uma viatura oficial pertencente ao Tribunal de Contas, conduzida em horário de 
 * **E)** A ilegitimidade do servidor cessa caso a vítima comprove perante o juízo que o Tribunal de Contas não dispõe de dotação orçamentária para precatórios.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A jurisprudência vinculante do Supremo Tribunal Federal vedou a propositura de ação indenizatória exclusivamente em face do servidor causador do ato, bem como a formação de litisconsórcio passivo facultativo entre a Fazenda Pública e o agente estatal.
 > - **B)** Correta. De acordo com a tese fixada pelo STF no Tema 940 da Repercussão Geral (RE 1.027.633), com amparo na **Teoria da Dupla Garantia**: *"a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."* O particular demanda contra o Estado sob responsabilidade objetiva; o Estado, se condenado, aciona o servidor em via regressiva sob responsabilidade subjetiva (dolo ou culpa).
 > - **C)** Incorreta. A responsabilidade do Estado perante a vítima é direta, primária e solidária institucionalmente, descabendo benefício de ordem patrimonial contra o servidor.
@@ -262,6 +264,7 @@ Nessas circunstâncias, a extinção antecipada do contrato de concessão por mo
 * **E)** Caducidade, que dispensa autorização legislativa ou pagamento de indenização prévia.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A caducidade é a extinção do contrato decorrente de inadimplemento culposo ou prestação defeituosa por parte da própria concessionária. Como a concessionária cumpria rigorosamente o contrato, descabe caducidade.
 > - **B)** Incorreta. A rescisão judicial é a modalidade de extinção proposta pela concessionária em face da Administração em virtude de descumprimento de cláusulas pelo poder público (art. 39 da Lei 8.987/95).
 > - **C)** Correta. Nos termos do art. 37 da Lei Federal nº 8.987/1995, a **encampação** (ou resgate) é a retomada coativa do serviço pelo poder concedente durante o prazo da concessão por motivo de **interesse público relevante**, exigindo imperativamente **lei autorizativa específica** e **pagamento prévio de justa indenização** à concessionária pelos investimentos em bens reversíveis ainda não amortizados.
@@ -284,6 +287,7 @@ Em conformidade com a tese firmada pelo Supremo Tribunal Federal em regime de re
 * **E)** O Estado responde com base na Teoria do Risco Integral, não admitindo qualquer prova pericial contrária em juízo.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Na violação de dever de custódia específica, o regime adotado pelo Pretório Excelso é objetivo, dispensando a prova de dolo do gestor penitenciário.
 > - **B)** Correta. De acordo com a tese vinculante firmada pelo STF no Tema 592 de Repercussão Geral (RE 841.526): *"Em caso de inobservância do seu dever específico de proteção previsto no art. 5º, inciso XLIX, da Constituição Federal, o Estado é responsável pela morte de detento."* O recolhimento de cidadão a estabelecimento prisional coloca o Estado na condição de garantidor estrito de sua integridade física, tipificando **omissão estatal específica de natureza objetiva**. O Estado só afasta o dever reparatório se comprovar pericialmente que a morte decorreu de causa estritamente natural ou que era faticamente impossível impedi-la mesmo adotados todos os procedimentos de vigilância e cautela cabíveis.
 > - **C)** Incorreta. O homicídio de detento em cela coletiva durante a custódia não corporifica caso fortuito ou excludente automática de fato de terceiro.
@@ -306,6 +310,7 @@ Com base na disciplina constitucional e do Código Civil sobre bens públicos:
 * **E)** Caberá ao particular a manutenção da posse direta em desfavor da Fazenda Pública, impedindo a reintegração de posse pelo Estado.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A regra constitucional e sumular é taxativa: nenhum bem público é passível de usucapião, independentemente de se encontrar ou não afetado.
 > - **B)** Correta. A Constituição da República de 1988 estabelece categoricamente nos arts. 183, § 3º (imóveis urbanos) e 191, parágrafo único (imóveis rurais) que os imóveis públicos não serão adquiridos por usucapião. Em idêntico sentido, a **Súmula 340 do STF** consagra: *"Desde a vigência do Código Civil, os bens dominicais, como os demais bens públicos, não podem ser adquiridos por usucapião."* A imprescritibilidade é atributo absoluto aplicável a todos os bens públicos, constituindo a ocupação irregular mera **detenção clandestina** insuscetível de gerar efeitos aquisitivos ou tutela possessória contra a Administração.
 > - **C)** Incorreta. A inércia administrativa não gera perda de propriedade imobiliária pública nem desafetação em proveito de invasor privado.
@@ -328,6 +333,7 @@ O Governo do Estado pretende estruturar um projeto de infraestrutura hospitalar 
 * **E)** Empreitada por preço unitário regida exclusivamente pelas regras gerais da Lei de Licitações.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A concessão patrocinada exige imperativamente a existência de tarifa cobrada dos usuários, complementada por contraprestação pecuniária do parceiro público (art. 2º, § 1º, da Lei 11.079/2004). Como os pacientes do SUS nada pagam, não se trata de concessão patrocinada.
 > - **B)** Correta. O art. 2º, § 2º, da Lei Federal nº 11.079/2004 define textualmente: *"Concessão administrativa é o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens."* Na concessão administrativa, a remuneração da concessionária privada decorre inteiramente da contraprestação pecuniária paga pelo poder público, prestando o serviço público de forma inteiramente gratuita para os usuários finais.
 > - **C)** Incorreta. A concessão comum da Lei 8.987/95 fundamenta-se estritamente na cobrança de tarifa do usuário, sem contraprestação ordinária regular do Estado.

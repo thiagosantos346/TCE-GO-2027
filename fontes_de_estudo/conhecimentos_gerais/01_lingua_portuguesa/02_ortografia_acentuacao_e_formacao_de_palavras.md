@@ -20,45 +20,45 @@
 ---
 
 ## 🧭 Sumário
-- [1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico](#1-sistema-geral-de-acentuação-gráfica-e-acordo-ortográfico)
-    - [1.1 Posição da Sílaba Tônica e Tonicidade Vocálica](#11-posição-da-sílaba-tônica-e-tonicidade-vocálica)
-    - [1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC](#12-regra-das-proparoxítonas-e-proparoxítonas-eventuais-na-fcc)
-    - [1.3 Regra das Paroxítonas e Ditongos Orais](#13-regra-das-paroxítonas-e-ditongos-orais)
-    - [1.4 Regra das Oxítonas e Monossílabos Tônicos](#14-regra-das-oxítonas-e-monossílabos-tônicos)
-- [2. Regras Especiais de Acentuação](#2-regras-especiais-de-acentuação)
-    - [2.1 Regra dos Hiatos Tônicos (I e U)](#21-regra-dos-hiatos-tônicos-i-e-u)
-    - [2.2 Ditongos Abertos (ÉI, ÓI, ÉU) e o Novo Acordo](#22-ditongos-abertos-éi-ói-éu-e-o-novo-acordo)
-    - [2.3 Formas Verbais com Pronomes Enclíticos](#23-formas-verbais-com-pronomes-enclíticos)
-    - [2.4 Acento Diferencial Obrigatório e Facultativo](#24-acento-diferencial-obrigatório-e-facultativo)
-- [3. Emprego do Hífen com Prefixos e Elementos de Composição](#3-emprego-do-hífen-com-prefixos-e-elementos-de-composição)
+- [1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico](#1-sistema-geral-de-acentuacao-grafica-e-acordo-ortografico)
+    - [1.1 Posição da Sílaba Tônica e Tonicidade Vocálica](#11-posicao-da-silaba-tonica-e-tonicidade-vocalica)
+    - [1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC](#12-regra-das-proparoxitonas-e-proparoxitonas-eventuais-na-fcc)
+    - [1.3 Regra das Paroxítonas e Ditongos Orais](#13-regra-das-paroxitonas-e-ditongos-orais)
+    - [1.4 Regra das Oxítonas e Monossílabos Tônicos](#14-regra-das-oxitonas-e-monossilabos-tonicos)
+- [2. Regras Especiais de Acentuação](#2-regras-especiais-de-acentuacao)
+    - [2.1 Regra dos Hiatos Tônicos (I e U)](#21-regra-dos-hiatos-tonicos-i-e-u)
+    - [2.2 Ditongos Abertos (ÉI, ÓI, ÉU) e o Novo Acordo](#22-ditongos-abertos-ei-oi-eu-e-o-novo-acordo)
+    - [2.3 Formas Verbais com Pronomes Enclíticos](#23-formas-verbais-com-pronomes-encliticos)
+    - [2.4 Acento Diferencial Obrigatório e Facultativo](#24-acento-diferencial-obrigatorio-e-facultativo)
+- [3. Emprego do Hífen com Prefixos e Elementos de Composição](#3-emprego-do-hifen-com-prefixos-e-elementos-de-composicao)
     - [3.1 Regra Geral dos Opostos e Casos com Consoante H](#31-regra-geral-dos-opostos-e-casos-com-consoante-h)
-    - [3.2 Duplicação das Consoantes R e S](#32-duplicação-das-consoantes-r-e-s)
-    - [3.3 Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada](#33-prefixos-especiais-acentuados-e-casos-de-aglutinação-forçada)
-    - [3.4 Hífen em Compostos por Justaposição e Expressões Consagradas](#34-hífen-em-compostos-por-justaposição-e-expressões-consagradas)
-- [4. Semântica Lexical: Relações de Sentido e Vocabulário](#4-semântica-lexical-relações-de-sentido-e-vocabulário)
-    - [4.1 Sinonímia e Antonímia](#41-sinonímia-e-antonímia)
-    - [4.2 Hiperonímia e Hiponímia](#42-hiperonímia-e-hiponímia)
-    - [4.3 Polissemia e Homonímia](#43-polissemia-e-homonímia)
-    - [4.4 Parônimos e Homófonos de Alta Incidência em Concursos](#44-parônimos-e-homófonos-de-alta-incidência-em-concursos)
+    - [3.2 Duplicação das Consoantes R e S](#32-duplicacao-das-consoantes-r-e-s)
+    - [3.3 Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada](#33-prefixos-especiais-acentuados-e-casos-de-aglutinacao-forcada)
+    - [3.4 Hífen em Compostos por Justaposição e Expressões Consagradas](#34-hifen-em-compostos-por-justaposicao-e-expressoes-consagradas)
+- [4. Semântica Lexical: Relações de Sentido e Vocabulário](#4-semantica-lexical-relacoes-de-sentido-e-vocabulario)
+    - [4.1 Sinonímia e Antonímia](#41-sinonimia-e-antonimia)
+    - [4.2 Hiperonímia e Hiponímia](#42-hiperonimia-e-hiponimia)
+    - [4.3 Polissemia e Homonímia](#43-polissemia-e-homonimia)
+    - [4.4 Parônimos e Homófonos de Alta Incidência em Concursos](#44-paronimos-e-homofonos-de-alta-incidencia-em-concursos)
 - [5. Morfologia: Elementos Estruturais da Palavra](#5-morfologia-elementos-estruturais-da-palavra)
-    - [5.1 Radical, Alomorfia e Vogal Temática](#51-radical-alomorfia-e-vogal-temática)
+    - [5.1 Radical, Alomorfia e Vogal Temática](#51-radical-alomorfia-e-vogal-tematica)
     - [5.2 Tema e Afixos Formadores (Prefixos e Sufixos)](#52-tema-e-afixos-formadores-prefixos-e-sufixos)
-    - [5.3 Desinências Nominais e Desinências Verbais](#53-desinências-nominais-e-desinências-verbais)
-    - [5.4 Vogais e Consoantes de Ligação](#54-vogais-e-consoantes-de-ligação)
-- [6. Processos de Formação de Palavras](#6-processos-de-formação-de-palavras)
-    - [6.1 Derivação Prefixal, Sufixal e Prefixal-Sufixal](#61-derivação-prefixal-sufixal-e-prefixal-sufixal)
-    - [6.2 Derivação Parassintética](#62-derivação-parassintética)
-    - [6.3 Derivação Regressiva ou Deverbal](#63-derivação-regressiva-ou-deverbal)
-    - [6.4 Derivação Imprópria ou Conversão](#64-derivação-imprópria-ou-conversão)
-    - [6.5 Composição: Justaposição e Aglutinação](#65-composição-justaposição-e-aglutinação)
-    - [6.6 Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo](#66-outros-processos-hibridismo-siglonimização-abreviação-e-neologismo)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
-- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-    - [Questão 01](#questão-01)
-    - [Questão 02](#questão-02)
-    - [Questão 03](#questão-03)
-    - [Questão 04](#questão-04)
-    - [Questão 05](#questão-05)
+    - [5.3 Desinências Nominais e Desinências Verbais](#53-desinencias-nominais-e-desinencias-verbais)
+    - [5.4 Vogais e Consoantes de Ligação](#54-vogais-e-consoantes-de-ligacao)
+- [6. Processos de Formação de Palavras](#6-processos-de-formacao-de-palavras)
+    - [6.1 Derivação Prefixal, Sufixal e Prefixal-Sufixal](#61-derivacao-prefixal-sufixal-e-prefixal-sufixal)
+    - [6.2 Derivação Parassintética](#62-derivacao-parassintetica)
+    - [6.3 Derivação Regressiva ou Deverbal](#63-derivacao-regressiva-ou-deverbal)
+    - [6.4 Derivação Imprópria ou Conversão](#64-derivacao-impropria-ou-conversao)
+    - [6.5 Composição: Justaposição e Aglutinação](#65-composicao-justaposicao-e-aglutinacao)
+    - [6.6 Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo](#66-outros-processos-hibridismo-siglonimizacao-abreviacao-e-neologismo)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
+    - [Questão 01](#questao-01)
+    - [Questão 02](#questao-02)
+    - [Questão 03](#questao-03)
+    - [Questão 04](#questao-04)
+    - [Questão 05](#questao-05)
 
 ---
 
@@ -196,6 +196,7 @@ O Novo Acordo Ortográfico eliminou a quase totalidade dos acentos diferenciais 
     * *Os auditores têm competência técnica* (plural, circunflexo);
     * *O recurso vem tempestivamente* (singular, sem acento);
     * *Os recursos vêm tempestivamente* (plural, circunflexo).
+
 4. **Derivados de Ter e Vir (Manter, Conter, Deter, Intervir, Provir):** Por serem oxítonas com duas ou mais sílabas, recebem acento agudo no singular por regra geral das oxítonas em *-em*, e acento circunflexo no plural por acento diferencial:
     * Singular (acento agudo): *ele mantém, ele intervém, o cofre contém, o Estado detém*;
     * Plural (acento circunflexo): *eles mantêm, eles intervêm, os cofres contêm, os Estados detêm*.
@@ -226,9 +227,11 @@ A regra motriz da reforma ortográfica estabelece o **princípio da atração do
 1. **Letras Iguais se Separam com Hífen:** Se o prefixo terminar pela mesma letra (seja vogal ou consoante) com que se inicia o segundo elemento, o uso do hífen é **obrigatório**:
     * *micro-ondas, anti-inflamatório, semi-interno, contra-ataque, sobre-erguer, arqui-inimigo*;
     * *inter-regional, hiper-requintado, super-resistente, sub-base*.
+
 2. **Letras Diferentes se Unem sem Hífen (Aglutinação):** Se o prefixo terminar por letra distinta daquela que abre o segundo elemento, os elementos aglutinam-se diretamente:
     * *autoescola, infraestrutura, contraindicação, semiaberto, agroindústria, hidroelétrica*;
     * *intermunicipal, hipermercado, subchefe, supersônico*.
+
 3. **Segundo Elemento Iniciado por Consoante H:** O fonema inicial mudo da letra *h* não admite fusão ortográfica direta com prefixos na língua padrão. Logo, diante de palavra iniciada por *h*, o uso do hífen é **sempre obrigatório**, qualquer que seja o prefixo:
     * *anti-higiênico, super-homem, sobre-humano, pan-helênico, macro-história, sub-hepático, geo-história*.
 
@@ -315,25 +318,32 @@ Os parônimos são palavras muito semelhantes na grafia e na pronúncia, mas que
 1. **Eminente $\neq$ Iminente:**
     * *Eminente:* ilustre, notável, elevado, de alta estirpe (*"O eminente Conselheiro proferiu o voto"*);
     * *Iminente:* que está prestes a ocorrer a qualquer instante (*"O risco de desabamento da ponte era iminente"*).
+
 2. **Flagrante $\neq$ Fragrante:**
     * *Flagrante:* evidente, manifesto, testemunhado no calor da ação (*"O servidor foi autuado em flagrante"*);
     * *Fragrante:* aromático, perfumado, que exala odor agradável (*"Flores fragrantes enfeitavam a bancada"*).
+
 3. **Mandado $\neq$ Mandato:**
     * *Mandado:* ordem formal emanada de autoridade judiciária (*"mandado de segurança", "mandado de prisão", "mandado de busca e apreensão"*);
     * *Mandato:* procuração jurídica ou período temporário de representação e investidura política (*"O mandato do Governador encerra-se em 2026"*).
+
 4. **Retificar $\neq$ Ratificar:**
     * *Retificar:* emendar, corrigir, alterar o que continha vício (*"O engenheiro retificou a planilha de custos"*);
     * *Ratificar:* confirmar, validar, comprovar, reafirmar (*"O plenário ratificou a medida cautelar expedida"*).
+
 5. **Sessão $\neq$ Seção / Secção $\neq$ Cessão:**
     * *Sessão (com S inicial e SS medial):* intervalo de tempo dedicado a uma assembleia, deliberação de colegiado ou espetáculo (*"A sessão plenária teve início às 14 horas"*);
     * *Seção ou Secção (com S e Ç):* ato de cortar, partição, fração, divisão interna ou departamento administrativo (*"A seção de protocolo autuou o expediente"*);
     * *Cessão (com C inicial e SS medial):* ato voluntário de ceder, transferir posse, bens ou direitos (*"A cessão onerosa de servidores públicos foi autorizada"*).
+
 6. **Censo $\neq$ Senso:**
     * *Censo (com C):* levantamento estatístico de dados da população (*"O IBGE apresentou o censo demográfico"*);
     * *Senso (com S):* faculdade de julgar, discernimento, prudência, bom juízo (*"Faltou-lhe bom senso na condução dos debates"*).
+
 7. **Prescrever $\neq$ Proscrever:**
     * *Prescrever:* perder a eficácia jurídica pelo decurso do prazo temporal legal; receitar ou determinar (*"A ação punitiva prescreveu em 5 anos"*);
     * *Proscrever:* banir, extinguir, condenar ao exílio, proibir formalmente (*"A Constituição proscreve as penas cruéis"*).
+
 8. **Incipiente $\neq$ Insipiente:**
     * *Incipiente (com C):* principiante, inicial, que está no começo (*"A análise de riscos ainda está em fase incipiente"*);
     * *Insipiente (com S):* ignorante, tolo, desprovido de sabedoria (*"Trata-se de juízo insipiente sobre o tema"*).
@@ -383,6 +393,7 @@ As desinências são morfemas flexionais que se localizam na extremidade da pala
 1. **Desinências Nominais:**
     * **De Gênero:** Distinguem o masculino do feminino (*menino / menin-<ins>a</ins>; autor / autor-<ins>a</ins>*);
     * **De Número:** Indicam a oposição singular versus plural (*casa / casa-<ins>s</ins>; papel / papéi-<ins>s</ins>*).
+
 2. **Desinências Verbais:**
     * **Modo-Temporais (DMT):** Indicam o tempo cronológico e o modo em que se desenvolve a ação verbal (*cant-<ins>va</ins>-mos* [pretérito imperfeito do indicativo]; *cant-a-<ins>sse</ins>-mos* [pretérito imperfeito do subjuntivo]; *cant-a-<ins>ra</ins>-mos* [pretérito mais-que-perfeito]);
     * **Número-Pessoais (DNP):** Indicam a pessoa do discurso (1ª, 2ª ou 3ª) e o número gramatical (singular ou plural): *cantava-<ins>mos</ins>* (1ª pessoa do plural); *cantava-<ins>s</ins>* (2ª pessoa do singular); *cantara-<ins>m</ins>* (3ª pessoa do plural).
@@ -473,6 +484,7 @@ A composição ocorre quando dois ou mais radicais autônomos unem-se para estru
     * *passatempo* (*passa* + *tempo*);
     * *girassol* (*gira* + *sol* — o acréscimo de um 's' é meramente ortográfico para conservar o fonema consonantal sibilante surdo, não havendo perda de matéria sonora);
     * *guarda-chuva, pontapé, segunda-feira, pé-de-moleque*.
+
 2. **Aglutinação:** Na fusão dos radicais, verifica-se alteração, supressão ou perda de fonemas e deslocamento do centro tônico original das palavras primitivas:
     * *planalto* (*plano* + *alto* — perda da vogal 'o');
     * *embora* (*em* + *boa* + *hora*);
@@ -514,6 +526,7 @@ Assinale a alternativa em que ambos os vocábulos sublinhados são acentuados co
 * **E)** *"O auditor demonstrou perspicácia ao desvendar o desvio de recursos."* (perspicácia – desvendar)
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. Os vocábulos *relatório* (re-la-tó-rio) e *renúncia* (re-nún-cia) são ambos acentuados pela regra das paroxítonas terminadas em ditongo oral crescente (ou proparoxítonas eventuais/aparentes, nomenclatura consagrada pela FCC). Compartilham rigorosamente a mesma regra de justificação ortográfica.
 > - **B)** Incorreta. O vocábulo *pública* é acentuado por ser proparoxítona real (todas são acentuadas), ao passo que *sessão* não recebe acento gráfico (o til não é acento tônico primário, mas marca de nasalidade em outras palavras, e aqui sequer há til).
 > - **C)** Incorreta. Embora *saúde* e *país* compartilhem a regra do hiato tônico (I e U tônicos formando sílaba sozinhos ou com S), a análise comparativa com *imprescindível* (paroxítona terminada na consoante L) desfaz a uniformidade da assertiva.
@@ -559,9 +572,12 @@ Quanto ao emprego do hífen em palavras formadas por derivação prefixal em con
 Considere os vocábulos destacados nas frases abaixo:  
 
 I. *"O plenário do Tribunal encerrou a <ins>sessão</ins> extraordinária às dezoito horas."*  
+
 II. *"A empresa cometeu ato ilícito e foi autuada em <ins>flagrante</ins> delito pela equipe fiscal."*  
+
 III. *"O Governador do Estado cumpriu integralmente os quatro anos de seu <ins>mandato</ins> eletivo."*  
-IV. *"O engenheiro responsável promoveu a <ins>retificação</ins> das falhas apontadas no projeto original."*
+
+IV. *"O engenheiro responsável promoveu a <ins>retificação</ins> das falhas apontadas no projeto original."*  
 
 A grafia e o emprego semântico dos vocábulos sublinhados estão corretos em:
 
@@ -602,6 +618,7 @@ Em relação aos processos morfológicos de formação das palavras, assinale a 
 * **E)** *"O <ins>passatempo</ins> preferido dos funcionários consistia em desvendar charadas lógicas."*
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O vocábulo *deslealdade* resulta de derivação prefixal e sufixal independente (*des-* + *leal* + *-dade*). Se subtrairmos o prefixo, subsiste o termo legítimo *lealdade*; se suprimirmos o sufixo, permanece a forma legítima *desleal*.
 > - **B)** Correta. O verbo *esfriar* é formado por derivação parassintética (*e-* + *frio/fri-* + *-ar*). A agregação do prefixo e do sufixo verbal dá-se de modo estritamente simultâneo: não existe no português moderno o vocábulo *"esfrio"* nem o verbo transitivo *"friar"*. A eliminação de qualquer um dos afixos invalida o vocábulo.
 > - **C)** Incorreta. O vocábulo *resgate* origina-se de derivação regressiva (deverbal) a partir do verbo de ação *resgatar*.
@@ -623,6 +640,7 @@ O vocábulo formado por **derivação regressiva** (também denominada deverbal)
 * **E)** *"O <ins>saber</ins> acumulado pelo fiscal garantiu a correta instrução probatória dos autos."*
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. O substantivo abstrato *debate* resulta de derivação regressiva a partir do verbo primitivo de ação *debater* (*debater* $\rightarrow$ *o debate*). O verbo perde sua desinência de infinitivo e forma um substantivo indicador da própria ação.
 > - **B)** Incorreta. A palavra *envelhecimento* resulta de derivação sufixal (*-mento*) aplicada sobre o verbo parassintético prévio *envelhecer*.
 > - **C)** Incorreta. O vocábulo *rapidez* constitui derivação sufixal abstrata gerada a partir do adjetivo primitivo *rápido* (*rápido* + *-ez*).

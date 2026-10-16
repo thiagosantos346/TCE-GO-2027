@@ -15,26 +15,25 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)](#1-linguagem-normativa-e-prescritiva-de-engenharia-rfc-2119--rfc-8174)
-    - [1.1 Os Níveis Normativos Canônicos](#11-os-níveis-normativos-canônicos)
-    - [1.2 Matriz de Conformidade Técnica da RFC 2119](#12-matriz-de-conformidade-técnica-da-rfc-2119)
-- [2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)](#2-interpretação-de-documentação-de-apis-rest-openapi-swagger-e-graphql)
-    - [2.1 Estrutura de Rotas, Métodos HTTP e Idempotência](#21-estrutura-de-rotas-métodos-http-e-idempotência)
-    - [2.2 Parâmetros de Requisição e Schemas de Dados JSON](#22-parâmetros-de-requisição-e-schemas-de-dados-json)
-    - [2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta](#23-códigos-de-status-http-críticos-e-cabeçalhos-de-resposta)
-    - [2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)](#24-documentação-de-apis-graphql-queries-mutations-e-types)
-- [3. Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas](#3-interpretação-de-manuais-técnicos-e-guias-de-configuração-de-sistemas)
+- [1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)](#1-linguagem-normativa-e-prescritiva-de-engenharia-rfc-2119-rfc-8174)
+    - [1.1 Os Níveis Normativos Canônicos](#11-os-niveis-normativos-canonicos)
+    - [1.2 Matriz de Conformidade Técnica da RFC 2119](#12-matriz-de-conformidade-tecnica-da-rfc-2119)
+- [2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)](#2-interpretacao-de-documentacao-de-apis-rest-openapi-swagger-e-graphql)
+    - [2.1 Estrutura de Rotas, Métodos HTTP e Idempotência](#21-estrutura-de-rotas-metodos-http-e-idempotencia)
+    - [2.2 Parâmetros de Requisição e Schemas de Dados JSON](#22-parametros-de-requisicao-e-schemas-de-dados-json)
+    - [2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta](#23-codigos-de-status-http-criticos-e-cabecalhos-de-resposta)
+    - [2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)](#24-documentacao-de-apis-graphql-queries-mutations-e-types)
+- [3. Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas](#3-interpretacao-de-manuais-tecnicos-e-guias-de-configuracao-de-sistemas)
     - [3.1 Verbos Operacionais no Modo Imperativo](#31-verbos-operacionais-no-modo-imperativo)
-    - [3.2 Seções Estruturantes de um Manual de Implantação](#32-seções-estruturantes-de-um-manual-de-implantação)
-    - [3.3 Categorização e Gravidade das Advertências Técnicas](#33-categorização-e-gravidade-das-advertências-técnicas)
+    - [3.2 Seções Estruturantes de um Manual de Implantação](#32-secoes-estruturantes-de-um-manual-de-implantacao)
+    - [3.3 Categorização e Gravidade das Advertências Técnicas](#33-categorizacao-e-gravidade-das-advertencias-tecnicas)
     - [3.4 Ciclo de Vida: Deprecated vs. Decommissioned](#34-ciclo-de-vida-deprecated-vs-decommissioned)
-- [4. Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)](#4-leitura-crítica-de-artigos-científicos-e-papers-de-ti-ieee--acm--arxiv)
+- [4. Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)](#4-leitura-critica-de-artigos-cientificos-e-papers-de-ti-ieee-acm-arxiv)
     - [4.1 Anatomia Estrutural de um Artigo de Vanguarda](#41-anatomia-estrutural-de-um-artigo-de-vanguarda)
-    - [4.2 A Metodologia Three-Pass sob Pressão de Tempo de Prova](#42-a-metodologia-three-pass-sob-pressão-de-tempo-de-prova)
-    - [4.3 Léxico de Validação Experimental e Evidências Empíricas](#43-léxico-de-validação-experimental-e-evidências-empíricas)
+    - [4.2 A Metodologia Three-Pass sob Pressão de Tempo de Prova](#42-a-metodologia-three-pass-sob-pressao-de-tempo-de-prova)
+    - [4.3 Léxico de Validação Experimental e Evidências Empíricas](#43-lexico-de-validacao-experimental-e-evidencias-empiricas)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas & Exemplos (Padrão FCC)](#6-questões-comentadas--exemplos-padrão-fcc)
+- [6. Questões Comentadas & Exemplos (Padrão FCC)](#6-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -160,6 +159,7 @@ A compreensão precisa das famílias de códigos de status HTTP é intensamente 
     - `504 Gateway Timeout`: O gateway expirou aguardando a resposta do serviço interno.
 
 > 💡 **Diferença Crítica FCC (401 vs. 403):**  
+>
 > - **401 Unauthorized** $\rightarrow$ *Quem é você?* (Problema de Identidade / Autenticação).  
 > - **403 Forbidden** $\rightarrow$ *Eu sei quem você é, mas você não tem permissão para entrar aqui.* (Problema de Privilégio / Autorização).
 
@@ -279,6 +279,7 @@ Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de p
 *Consider the excerpt below from a technical specification draft for a public auditory API:*
 
 > *"Section 4.2 – Authentication and Message Security  
+>
 > 1. All incoming client requests **MUST** include a cryptographically signed JSON Web Token (JWT) in the `Authorization` header.  
 > 2. The authentication gateway **MUST NOT** accept tokens signed with the deprecated 'none' algorithm.  
 > 3. Implementers **SHOULD** configure an asymmetric RSA-256 signature scheme rather than a shared symmetric secret.  
@@ -293,6 +294,7 @@ According to the normative definitions established by RFC 2119, it is correct to
 * **E)** The term **"SHOULD"** in item 3 implies that asymmetric RSA-256 signature is strictly mandatory and cannot be substituted under any circumstances.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O item 4 emprega o modal **"MAY"**, que expressa uma funcionalidade verdadeiramente opcional (*truly optional*), e não uma exigência absoluta.
 > - **B)** Incorreta. O item 2 estabelece uma proibição absoluta: **"MUST NOT"** (*absolute prohibition*). O gateway está terminantemente impedido de aceitar tokens com algoritmo 'none', sem qualquer exceção para ambientes de teste.
 > - **C)** Correta. De acordo com a RFC 2119, o termo **"SHOULD"** (ou *RECOMMENDED*) tipifica uma recomendação forte de boa prática técnica. Podem existir circunstâncias particulares em que a alternativa seja válida (ex.: chaves pré-compartilhadas em canais isolados), contanto que as implicações integrais de segurança sejam formalmente compreendidas e sopesadas.
@@ -328,6 +330,7 @@ A partir da leitura técnica da documentação e dos cabeçalhos HTTP apresentad
 * **E)** O status 429 indica um erro interno de falha de infraestrutura no lado do servidor (*Internal Server Error*).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Respostas com código 429 pertencem à classe de erros de cliente (4xx) e indicam rejeição temporária por estrangulamento de chamadas, e não sucesso de processamento.
 > - **B)** Correta. O código HTTP **429 Too Many Requests** indica que o cliente ultrapassou a taxa máxima de requisições admitida pela política de governança da API (*throttling*). O cabeçalho padronizado **`Retry-After: 120`** estipula expressamente que o cliente deve aguardar um intervalo de 120 segundos antes de emitir novas requisições.
 > - **C)** Incorreta. O cabeçalho `Warning: 299` veicula um aviso de gerenciamento de ciclo de vida de software, alertando sobre a obsolescência da rota, sem nenhuma conexão com corrupção de banco de dados.
@@ -382,7 +385,9 @@ paths:
 Com base na especificação técnica acima e nos princípios de arquitetura de APIs, analise as afirmativas:
 
 I. O envio do corpo da requisição (*requestBody*) é mandatório (`required: true`), e a ausência do campo `taxpayer_id` causará a rejeição da mensagem.  
+
 II. Caso um cliente apresente um token de autenticação válido, porém desprovido do escopo de segurança `audit:write`, o endpoint retornará o status HTTP 403 Forbidden.  
+
 III. O envio de um valor negativo para o campo `declared_revenue` gerará um status HTTP 400 Bad Request, haja vista que a restrição `minimum: 0.0` constitui erro sintático de transporte HTTP.  
 
 Está correto o que se afirma em:
@@ -394,10 +399,11 @@ Está correto o que se afirma em:
 * **E)** I, II e III.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. Apenas os itens I e II estão alinhados à especificação e às boas práticas de API:
->   - **Item I (Verdadeiro):** A linha `requestBody: required: true` torna o corpo obrigatório. A chave `taxpayer_id` figura expressamente no bloco `required:`, tornando sua ausência causa mandatória de recusa da submissão.
->   - **Item II (Verdadeiro):** A seção `security: BearerAuth: [audit:write]` exige que o token possua o escopo `audit:write`. A resposta para credenciais autenticadas porém carentes do privilégio necessário é textualmente documentada como **403 Forbidden** (*client lacks audit:write scope*).
->   - **Item III (Falso):** O envio de valor negativo para `declared_revenue` configura violação semântica de regra de negócio (`minimum: 0.0`), e não falha sintática de formatação. O schema associa essa falha textualmente ao código **422 Unprocessable Entity** (*Semantic validation failure, e.g., negative revenue*), reservando o status 400 para payloads corrompidos.
+>     - **Item I (Verdadeiro):** A linha `requestBody: required: true` torna o corpo obrigatório. A chave `taxpayer_id` figura expressamente no bloco `required:`, tornando sua ausência causa mandatória de recusa da submissão.
+>     - **Item II (Verdadeiro):** A seção `security: BearerAuth: [audit:write]` exige que o token possua o escopo `audit:write`. A resposta para credenciais autenticadas porém carentes do privilégio necessário é textualmente documentada como **403 Forbidden** (*client lacks audit:write scope*).
+>     - **Item III (Falso):** O envio de valor negativo para `declared_revenue` configura violação semântica de regra de negócio (`minimum: 0.0`), e não falha sintática de formatação. O schema associa essa falha textualmente ao código **422 Unprocessable Entity** (*Semantic validation failure, e.g., negative revenue*), reservando o status 400 para payloads corrompidos.
 > - **B)** Incorreta. O item III é falso.
 > - **C)** Incorreta. O item I é verdadeiro e o III é falso.
 > - **D)** Incorreta. O item II também é verdadeiro.
@@ -423,6 +429,7 @@ Based on reading technical manuals and understanding operational directives, it 
 * **E)** The text states that irrecoverable data divergence can be automatically repaired by the operating system without manual intervention.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A seção *Prerequisites* expressa um mandamento absoluto com o termo normativo **"MUST"** (*administrators MUST synchronize system clocks*), impedindo que o procedimento seja contornado (*bypassed*).
 > - **B)** Incorreta. O guia afirma expressamente que um desvio de relógio (*clock drift*) além de 250 milissegundos causará quedas imediatas no tráfego de controle e sinalização de heartbeat (*trigger immediate heartbeat dropouts*).
 > - **C)** Incorreta. A advertência técnica (*Caution*) desaconselha formalmente o uso de número par de nós votantes (*"Do not configure an even number of voting nodes"*), visto que topologias simétricas causam impasses eleitorais e risco de *split-brain*.
@@ -447,6 +454,7 @@ Based on paper reading techniques (*Abstract comprehension*) and technical vocab
 * **E)** The proposed framework proved inefficient, as experimental results demonstrated a 42% increase in latency and higher server costs.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A avaliação empírica do artigo evidencia a superioridade do modelo preditivo e proativo proposto (*KubeWarm*), o qual reduziu a latência de cauda em 42% e expurgou 87% das inicializações a frio frente aos modelos reativos tradicionais.
 > - **B)** Incorreta. Na engenharia de software e computação em nuvem, o vocábulo **"overhead"** traduz o custo computacional marginal de processamento de hardware (neste caso, menos de 3% de consumo extra de ciclos de CPU para operar o algoritmo inteligente), e não tributos monetários.
 > - **C)** Incorreta. O ato de postergar a inicialização do runtime de contêineres até a chegada efetiva do pacote HTTP é a assinatura dos mecanismos tradicionais reativos (*conventional reactive autoscalers*), superada pelo dinamismo proativo do *KubeWarm*.

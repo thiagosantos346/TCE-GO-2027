@@ -32,28 +32,27 @@
 ---
 
 ## 🧭 Sumário Interativo
-
-- [1. Fundamentos e Padronização Federativa do PCASP](#1-fundamentos-e-padronização-federativa-do-pcasp)
-    - [1.1 Objetivos Centrais e Abrangência Federativa Obrigatória](#11-objetivos-centrais-e-abrangência-federativa-obrigatória)
-    - [1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)](#12-os-atributos-pf-das-contas-contábeis-financeiro-e-permanente)
-- [2. Estrutura Codificada do PCASP (Sete Níveis de Detalhamento)](#2-estrutura-codificada-do-pcasp-sete-níveis-de-detalhamento)
-    - [2.1 Estrutura Numérica Decimal (X.X.X.X.X.XX.XX)](#21-estrutura-numérica-decimal-xxxxxxxxxxxx)
+- [1. Fundamentos e Padronização Federativa do PCASP](#1-fundamentos-e-padronizacao-federativa-do-pcasp)
+    - [1.1 Objetivos Centrais e Abrangência Federativa Obrigatória](#11-objetivos-centrais-e-abrangencia-federativa-obrigatoria)
+    - [1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)](#12-os-atributos-pf-das-contas-contabeis-financeiro-e-permanente)
+- [2. Estrutura Codificada do PCASP (Sete Níveis de Detalhamento)](#2-estrutura-codificada-do-pcasp-sete-niveis-de-detalhamento)
+    - [2.1 Estrutura Numérica Decimal (X.X.X.X.X.XX.XX)](#21-estrutura-numerica-decimal-xxxxxxxxx)
     - [2.2 Detalhamento Federativo vs. Especificidades do Ente](#22-detalhamento-federativo-vs-especificidades-do-ente)
-- [3. Os Três Subsistemas de Informação Contábil e Regra da Autonomia](#3-os-três-subsistemas-de-informação-contábil-e-regra-da-autonomia)
+- [3. Os Três Subsistemas de Informação Contábil e Regra da Autonomia](#3-os-tres-subsistemas-de-informacao-contabil-e-regra-da-autonomia)
     - [3.1 Subsistema Patrimonial (Classes 1, 2, 3 e 4)](#31-subsistema-patrimonial-classes-1-2-3-e-4)
-    - [3.2 Subsistema Orçamentário (Classes 5 e 6)](#32-subsistema-orçamentário-classes-5-e-6)
+    - [3.2 Subsistema Orçamentário (Classes 5 e 6)](#32-subsistema-orcamentario-classes-5-e-6)
     - [3.3 Subsistema de Controle (Classes 7 e 8) e Atos Potenciais](#33-subsistema-de-controle-classes-7-e-8-e-atos-potenciais)
     - [3.4 Regra da Autonomia e Fechamento das Partidas Dobradas](#34-regra-da-autonomia-e-fechamento-das-partidas-dobradas)
 - [4. As Oito Classes de Contas e a Natureza dos Saldos](#4-as-oito-classes-de-contas-e-a-natureza-dos-saldos)
-    - [4.1 A Regra de Ouro: Classes Ímpares (Devedoras) vs. Pares (Credoras)](#41-a-regra-de-ouro-classes-ímpares-devedoras-vs-pares-credoras)
-    - [4.2 Quadro Sinótico Consolidado das Classes](#42-quadro-sinótico-consolidado-das-classes)
-- [5. Mecânica dos Lançamentos Contábeis Típicos](#5-mecânica-dos-lançamentos-contábeis-típicos)
-    - [5.1 Aprovação da Lei Orçamentária Anual (Previsão da Receita e Fixação da Despesa)](#51-aprovação-da-lei-orçamentária-anual-previsão-da-receita-e-fixação-da-despesa)
-    - [5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)](#52-execução-da-despesa-orçamentária-passo-a-passo-empenho-liquidação-e-pagamento)
-    - [5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)](#53-execução-da-receita-orçamentária-lançamento-e-arrecadaçãorecolhimento)
-    - [5.4 Escrituração dos Atos Potenciais e Controle de Contratos Administrativos](#54-escrituração-dos-atos-potenciais-e-controle-de-contratos-administrativos)
-- [6. Fontes Oficiais & Manuais Técnicos Recomendados](#6-fontes-oficiais--manuais-técnicos-recomendados)
-- [7. Questões Comentadas no Padrão FCC](#7-questões-comentadas-no-padrão-fcc)
+    - [4.1 A Regra de Ouro: Classes Ímpares (Devedoras) vs. Pares (Credoras)](#41-a-regra-de-ouro-classes-impares-devedoras-vs-pares-credoras)
+    - [4.2 Quadro Sinótico Consolidado das Classes](#42-quadro-sinotico-consolidado-das-classes)
+- [5. Mecânica dos Lançamentos Contábeis Típicos](#5-mecanica-dos-lancamentos-contabeis-tipicos)
+    - [5.1 Aprovação da Lei Orçamentária Anual (Previsão da Receita e Fixação da Despesa)](#51-aprovacao-da-lei-orcamentaria-anual-previsao-da-receita-e-fixacao-da-despesa)
+    - [5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)](#52-execucao-da-despesa-orcamentaria-passo-a-passo-empenho-liquidacao-e-pagamento)
+    - [5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)](#53-execucao-da-receita-orcamentaria-lancamento-e-arrecadacaorecolhimento)
+    - [5.4 Escrituração dos Atos Potenciais e Controle de Contratos Administrativos](#54-escrituracao-dos-atos-potenciais-e-controle-de-contratos-administrativos)
+- [6. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+- [7. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -202,6 +201,7 @@ Na aprovação da LOA pelo Poder Legislativo, os lançamentos ocorrem **exclusiv
 1. **Previsão Inicial da Receita:**
     - `D` - `5.2.1.1.1` Previsão Inicial da Receita (Classe 5 - Devedora)
     - `C` - `6.2.1.1.0` Receita a Realizar (Classe 6 - Credora)
+
 2. **Fixação Inicial da Despesa:**
     - `D` - `6.2.2.1.1` Crédito Disponível (Classe 6 - Devedora transitória)
     - `C` - `5.2.2.1.1` Dotação Inicial (Classe 5 - Credora transitória)
@@ -228,6 +228,7 @@ flowchart TD
     - `D` - `1.1.2.X` Créditos Tributários a Receber (Ativo Circulante)
     - `C` - `4.1.1.X` VPA - Impostos (Classe 4 - VPA de Resultado)
     - *Subsistema Orçamentário:* **Nenhum lançamento**, pois a receita orçamentária só se realiza na arrecadação (regime misto da Lei nº 4.320/1964).
+
 2. **Arrecadação e Recolhimento na Conta Única:**
     - *Subsistema Orçamentário:*
     - `D` - `6.2.1.1.0` Receita a Realizar
@@ -269,6 +270,7 @@ De acordo com a estrutura do Plano de Contas Aplicado ao Setor Público (PCASP) 
 * **E)** As despesas fixadas na LOA e as receitas arrecadadas no exercício.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O orçamento aprovado e a sua execução são escriturados nas Classes 5 (Orçamento Aprovado) e 6 (Execução do Orçamento), pertencentes ao subsistema orçamentário.
 > - **B)** Incorreta. O ativo circulante e não circulante pertence à Classe 1, enquanto o passivo e o patrimônio líquido pertencem à Classe 2.
 > - **C)** Correta. No PCASP, a Classe 3 é destinada às Variações Patrimoniais Diminutivas (VPD), possuindo natureza devedora e refletindo decréscimos no patrimônio líquido da entidade; a Classe 4 destina-se às Variações Patrimoniais Aumentativas (VPA), possuindo natureza credora e refletindo acréscimos na situação patrimonial líquida. Ambas integram o Subsistema Patrimonial de resultado.
@@ -289,6 +291,7 @@ A formalização da celebração de um contrato administrativo de prestação de
 * **E)** Nenhum registro contábil, uma vez que contratos administrativos só são escriturados após o pagamento das ordens bancárias.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A assinatura do contrato não representa prestação de serviços nem fato gerador de despesa pública; logo, inexiste VPD ou obrigação líquida a pagar no passivo circulante.
 > - **B)** Correta. A formalização de contratos administrativos gera direitos e obrigações futuras que caracterizam atos potenciais ativos e passivos. No PCASP, esses eventos são compulsoriamente escriturados no Subsistema de Controle, debitando-se uma conta da Classe 7 (Controles Devedores) e creditando-se uma conta da Classe 8 (Controles Credores).
 > - **C)** Incorreta. O pagamento orçamentário só ocorre no estágio final da despesa, após prévio empenho e atesto na liquidação.
@@ -303,8 +306,11 @@ A formalização da celebração de um contrato administrativo de prestação de
 No âmbito da execução orçamentária e financeira do setor público regida pelo PCASP, considere os seguintes fatos:
 
 I. Aprovação do orçamento com fixação da despesa na Lei Orçamentária Anual.  
+
 II. Emissão de Nota de Empenho ordinário para aquisição de material de consumo.  
+
 III. Recebimento e atesto do material no almoxarifado acompanhado da respectiva nota fiscal (liquidação).  
+
 IV. Emissão da ordem bancária e pagamento ao fornecedor.  
 
 À luz das normas contábeis aplicadas ao setor público, haverá registro contábil no **Subsistema Patrimonial** especificamente nos estágios indicados em:
@@ -316,11 +322,12 @@ IV. Emissão da ordem bancária e pagamento ao fornecedor.
 * **E)** II, III e IV, apenas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Os fatos I e II pertencem com exclusividade ao subsistema orçamentário.
 > - **B)** Incorreta. O empenho (fato II) é mero ato orçamentário de reserva que não altera o patrimônio nem gera passivo exigível.
 > - **C)** Correta. Apenas a liquidação (III) e o pagamento (IV) provocam lançamentos no subsistema patrimonial:  
->   - No fato III (Liquidação): debita-se Estoques (Ativo Circulante - Classe 1) e credita-se Fornecedores a Pagar (Passivo Circulante - Classe 2);  
->   - No fato IV (Pagamento): debita-se Fornecedores a Pagar (Classe 2) e credita-se Caixa/Bancos (Ativo Circulante - Classe 1).  
+>     - No fato III (Liquidação): debita-se Estoques (Ativo Circulante - Classe 1) e credita-se Fornecedores a Pagar (Passivo Circulante - Classe 2);  
+>     - No fato IV (Pagamento): debita-se Fornecedores a Pagar (Classe 2) e credita-se Caixa/Bancos (Ativo Circulante - Classe 1).  
 >   Os itens I e II tramitam exclusivamente no subsistema orçamentário (Classes 5 e 6).
 > - **D)** Incorreta. I e II são atos de controle e fixação orçamentária.
 > - **E)** Incorreta. O item II não afeta elementos patrimoniais.
@@ -339,6 +346,7 @@ Assinale a alternativa que apresenta a correta associação entre a classe de co
 * **E)** Classe 7 (Controles Devedores) – Subsistema de Controle – Natureza Credora.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A Classe 1 (Ativo) integra o subsistema patrimonial, mas tem natureza devedora (classe ímpar).
 > - **B)** Incorreta. A Classe 4 (VPA) integra o subsistema patrimonial, mas possui natureza credora (classe par).
 > - **C)** Incorreta. A Classe 5 (Orçamento Aprovado) pertence ao subsistema orçamentário e possui natureza devedora (classe ímpar).
@@ -359,10 +367,12 @@ Em determinado exercício financeiro, uma autarquia estadual efetuou a liquidaç
 * **E)** Orçamentário: Débito em Crédito Empenhado Liquidado a Pagar e Crédito em Crédito Empenhado Pago; Patrimonial: Débito em Fornecedores a Pagar e Crédito em Caixa.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Descreve lançamento inexistente e apuração equivocada de receita patrimonial.
 > - **B)** Correta. No estágio da liquidação da despesa de serviços:  
->   1. No Subsistema Orçamentário (Classe 6): debita-se Crédito Empenhado a Liquidar e credita-se Crédito Empenhado Liquidado a Pagar;  
->   2. No Subsistema Patrimonial (Classes 3 e 2): reconhece-se o consumo do serviço com débito em Variação Patrimonial Diminutiva (VPD - Serviços de Terceiros - Classe 3) e credita-se Fornecedores a Pagar (Passivo Circulante - Classe 2).
+>     1. No Subsistema Orçamentário (Classe 6): debita-se Crédito Empenhado a Liquidar e credita-se Crédito Empenhado Liquidado a Pagar;  
+>     2. No Subsistema Patrimonial (Classes 3 e 2): reconhece-se o consumo do serviço com débito em Variação Patrimonial Diminutiva (VPD - Serviços de Terceiros - Classe 3) e credita-se Fornecedores a Pagar (Passivo Circulante - Classe 2).
+>
 > - **C)** Incorreta. Reflete fixação orçamentária na LOA e imobilização de bens que não se aplica a serviço contínuo de limpeza.
 > - **D)** Incorreta. Mistura execução da receita pública com estocagem de materiais.
 > - **E)** Incorreta. Descreve o estágio subsequente do pagamento, e não o da liquidação.

@@ -13,6 +13,7 @@
     - Fase Legal / Relações Industriais: impacto da legislação trabalhista e relações sindicais; conciliação de conflitos corporativos.
     - Fase Clássica / Administração de Recursos Humanos (ARH): pessoas vistas como insumos e recursos produtivos homogêneos sujeitos a comando e controle.
     - Fase Estratégica / Gestão Estratégica de Pessoas (GEP): pessoas como parceiras ativas do negócio, sujeitos dotados de competências, inteligência, iniciativa e capital intelectual indispensável para a entrega de valor público.
+
 2. **Os Seis Processos da Gestão de Pessoas (Modelo de Idalberto Chiavenato):**
     - **Agregar Pessoas:** quem deve trabalhar na organização (recrutamento, seleção e planejamento de RH).
     - **Aplicar Pessoas:** o que as pessoas farão na organização (desenho de cargos, análise funcional, orientação/socialização organizacional e avaliação de desempenho).
@@ -20,14 +21,17 @@
     - **Desenvolver Pessoas:** como capacitar e aprimorar competências (treinamento, desenvolvimento funcional, aprendizagem organizacional e planos de carreira).
     - **Manter Pessoas:** como criar condições ambientais e psicológicas de permanência (clima organizacional, cultura, higiene, segurança e qualidade de vida no trabalho - QVT).
     - **Monitorar Pessoas:** como acompanhar e controlar as atividades e informações de pessoal (banco de dados, sistemas de informação gerencial de RH e auditoria de pessoal).
+
 3. **Rotinas Administrativas do Departamento de Pessoal no Setor Público:**
     - Admissão, posse e exercício funcional; controle de assiduidade e pontualidade; processamento de folha de pagamento (vencimento básico, adicionais, gratificações e limites do teto constitucional); escala e concessão de férias; assentamentos individuais e prontuário funcional.
+
 4. **O Processo de Agregar Pessoas — Recrutamento e Seleção:**
     - Recrutamento: mercado de trabalho vs. mercado de recursos humanos; técnicas de atração.
     - Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto: conceitos, vantagens e desvantagens de cada modalidade (destaque para a *endogamia cultural* no interno e os custos/tempo no externo).
     - Seleção de Pessoas como processo de comparação e decisão: requisitos do cargo (perfil de competências) vs. qualificações do candidato.
     - Técnicas e instrumentos de seleção: provas de conhecimentos e habilidades, entrevistas estruturadas e comportamentais por competências (técnica STAR), testes de aptidão e personalidade, dinâmicas de grupo e avaliação de títulos.
     - O Concurso Público (CF/88, art. 37, II): regime constitucional, princípios da impessoalidade, publicidade, isonomia e meritocracia; validade, prorrogação e direito subjetivo à nomeação dos aprovados no número de vagas.
+
 5. **Processo de Socialização e Integração Organizacional (*Onboarding*):**
     - Conceito, relevância para a administração pública e aceleração do período de estágio probatório.
     - As três fases da socialização organizacional (Socialização Antecipatória, Encontro/Confronto e Metamorfose/Adaptação).
@@ -36,14 +40,14 @@
 ---
 
 ## 🧭 Sumário Interativo
-- [1. Evolução Histórica dos Paradigmas de Gestão de Pessoas](#1-evolução-histórica-dos-paradigmas-de-gestão-de-pessoas)
-- [2. Os Seis Processos da Gestão de Pessoas (Chiavenato)](#2-os-seis-processos-da-gestão-de-pessoas-chiavenato)
-- [3. Rotinas Administrativas do Departamento de Pessoal no Setor Público](#3-rotinas-administrativas-do-departamento-de-pessoal-no-setor-público)
-- [4. O Processo de Agregar Pessoas: Recrutamento e Seleção](#4-o-processo-de-agregar-pessoas-recrutamento-e-seleção)
-- [5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)](#5-o-concurso-público-como-instrumento-republicano-cf88-art-37)
-- [6. Processo de Socialização e Integração Organizacional (Onboarding)](#6-processo-de-socialização-e-integração-organizacional-onboarding)
-- [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referências-bibliográficas)
-- [8. Questões de Concurso FCC Comentadas](#8-questões-de-concurso-fcc-comentadas)
+- [1. Evolução Histórica dos Paradigmas de Gestão de Pessoas](#1-evolucao-historica-dos-paradigmas-de-gestao-de-pessoas)
+- [2. Os Seis Processos da Gestão de Pessoas (Chiavenato)](#2-os-seis-processos-da-gestao-de-pessoas-chiavenato)
+- [3. Rotinas Administrativas do Departamento de Pessoal no Setor Público](#3-rotinas-administrativas-do-departamento-de-pessoal-no-setor-publico)
+- [4. O Processo de Agregar Pessoas: Recrutamento e Seleção](#4-o-processo-de-agregar-pessoas-recrutamento-e-selecao)
+- [5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)](#5-o-concurso-publico-como-instrumento-republicano-cf88-art-37)
+- [6. Processo de Socialização e Integração Organizacional (Onboarding)](#6-processo-de-socializacao-e-integracao-organizacional-onboarding)
+- [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
+- [8. Questões de Concurso FCC Comentadas](#8-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -126,20 +130,24 @@ Mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indis
     - Conferência de documentos pessoais e habilitação legal;
     - Realização de perícia médica oficial e aferição de aptidão física/mental;
     - Lavratura do termo de posse pela autoridade competente e registro do início do efetivo exercício.
+
 2. **Controle de Frequência e Assiduidade:**
     - Acompanhamento do registro biométrico ou eletrônico de ponto;
     - Gestão de escalas de trabalho, compensações e banco de horas autorizadas;
     - Processamento de justificativas legais, faltas abonadas e desconto em folha decorrente de ausências não justificadas.
+
 3. **Elaboração e Processamento da Folha de Pagamento:**
     - Apuração do vencimento básico atribuído ao cargo e padrão da carreira;
     - Lançamento de vantagens funcionais (quinquênios, gratificações de desempenho, adicionais de titulação, auxílio-alimentação e transporte);
     - Cálculo e retenção de descontos obrigatórios (Previdência Própria / Regime Geral e Imposto de Renda Retido na Fonte - IRRF);
     - Gestão de consignações facultativas em folha (empréstimos consignados, planos de saúde, mensalidades sindicais);
     - Aplicação e corte de remunerações que excedam o **teto remuneratório constitucional** (CF/88, art. 37, XI).
+
 4. **Escala e Concessão de Férias:**
     - Controle do período aquisitivo (12 meses de efetivo exercício) e período concessivo;
     - Elaboração da escala anual de férias para evitar descontinuidade do serviço público;
     - Pagamento obrigatório do terço constitucional de férias.
+
 5. **Assentamentos Individuais e Prontuário Funcional:**
     - Registro histórico de toda a vida funcional do servidor (designações, licenças, afastamentos, progressões, penalidades e elogios);
     - Averbação de tempo de contribuição prévio para fins de aposentadoria e disponibilidade.
@@ -197,6 +205,7 @@ flowchart TD
     - Avaliam o nível de conhecimento teórico e prático exigido para a função;
     - Podem ser objetivas (múltipla escolha, verdadeiro/falso) ou discursivas (estudo de caso, redação técnica);
     - Constituem o núcleo central do concurso público brasileiro.
+
 2. **Entrevistas de Seleção:**
     - **Não estruturadas:** livres, sem roteiro prévio (baixa confiabilidade);
     - **Estruturadas / Padronizadas:** roteiro rígido de perguntas iguais para todos os candidatos (alta comparabilidade);
@@ -205,11 +214,14 @@ flowchart TD
     - **T** (*Tarefa*): responsabilidade ou desafio que cabia a ele resolver;
     - **A** (*Ação*): atitudes e procedimentos concretos adotados pelo profissional;
     - **R** (*Resultado*): impactos qualitativos e quantitativos alcançados.
+
 3. **Testes Psicológicos e de Aptidão:**
     - **Testes Psicométricos:** mensuram aptidões intelectuais, raciocínio lógico, atenção concentrada e memória;
     - **Testes de Personalidade:** avaliam traços de caráter, temperamento, equilíbrio emocional e maturidade (ex.: testes projetivos e expressivos, devidamente validados pelo Conselho Federal de Psicologia).
+
 4. **Técnicas Vivenciais / Dinâmicas de Grupo:**
     - Simulação de situações reais de trabalho, dramatizações (*role-playing*) e jogos de negócios para observar liderança, trabalho em equipe e comunicação interpessoal.
+
 5. **Avaliação de Títulos:**
     - Pontuação objetiva de títulos acadêmicos (especialização, mestrado, doutorado) e experiência profissional prévia. *No setor público, a avaliação de títulos tem caráter estritamente classificatório, nunca eliminatório (CF/88, art. 37, II).*
 
@@ -232,6 +244,7 @@ flowchart TD
     1. *Cargos em comissão declarados em lei de livre nomeação e exoneração* (destinados exclusivamente às atribuições de direção, chefia e assessoramento — art. 37, II e V);
     2. *Contratação por tempo determinado* para atender a necessidade temporária de excepcional interesse público (Processo Seletivo Simplificado - PSS, art. 37, IX);
     3. *Agentes Comunitários de Saúde e de Combate às Endemias* (processo seletivo público específico, art. 198, § 4º).
+
 * **Prazo de Validade (Art. 37, III):** Até dois anos, prorrogável uma vez por igual período (critério de discricionariedade da administração, dentro do período inicial).
 * **Direito Subjetivo à Nomeação (Jurisprudência Vinculante do STF - Tema 161 / RE 598.099):** O candidato aprovado dentro do número de vagas previsto originariamente no edital do concurso público possui **direito público subjetivo à nomeação** durante o prazo de validade do certame. A recusa da administração só é admitida em hipóteses excepcionalíssimas (superveniência, imprevisibilidade, gravidade extrema e necessidade inafastável).
 
@@ -259,10 +272,12 @@ flowchart LR
 1. **Fase 1: Socialização Prévia (ou Antecipatória):**
     - Ocorre antes do ingresso formal do servidor na repartição;
     - O indivíduo traz consigo valores acadêmicos, crenças sociais e expectativas idealizadas a respeito da carreira e do órgão público.
+
 2. **Fase 2: Encontro (ou Confronto):**
     - Ocorre no momento em que o servidor toma posse e entra em efetivo exercício;
     - Há um inevitável confronto entre suas expectativas prévias e a realidade concreta da repartição (rotinas burocráticas, sistemas informatizados, hierarquias);
     - Programas formais de acolhimento reduzem o risco de choque cultural traumático.
+
 3. **Fase 3: Metamorfose (ou Adaptação Permanente):**
     - O novo servidor internaliza as normas, compreende a linguagem corporativa e ajusta seu comportamento aos padrões institucionais;
     - Desenvolve sensação de pertencimento, segurança psicológica e alinhamento com a missão do Tribunal de Contas.
@@ -299,6 +314,7 @@ No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto
 * **E)** Monitorar Pessoas.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** O macroprocesso de Agregar Pessoas engloba unicamente as atividades de atração e seleção (planejamento da força de trabalho, recrutamento e seleção/concurso).  
 > - **B) CORRETA.** Os **Processos de Aplicar Pessoas** dizem respeito a como as pessoas operam na organização e o que realizam. Chiavenato engloba expressamente neste macroprocesso: o desenho e especificação de cargos/tarefas, a orientação e socialização organizacional (integração dos admitidos) e a **avaliação periódica de desempenho**.  
 > - **C) Incorreta.** Recompensar Pessoas envolve folha de pagamento, estrutura de vencimentos, adicionais e benefícios sociais.  
@@ -320,6 +336,7 @@ Uma entidade pública estadual necessita preencher posições funcionais de gest
 * **E)** incapacidade operacional de avaliar previamente as competências comportamentais dos candidatos que já compõem o quadro institucional.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** O recrutamento interno destaca-se exatamente por ser **ágil e econômico**, não demandando editais caros nem contratação de bancas examinadoras externas.  
 > - **B) Incorreta.** O recrutamento interno **eleva a motivação** dos colaboradores internos, pois oferece perspectivas concretas de carreira e reconhecimento funcional.  
 > - **C) CORRETA.** A clássica desvantagem técnica do recrutamento exclusivamente interno é a **endogamia cultural (*inbreeding*)**: como a organização se alimenta apenas de seus próprios membros, há o risco de reproduzir continuadamente as mesmas ideias, manter velhos vícios e blindar a instituição contra visões renovadas e saberes trazidos pelo ambiente externo.  
@@ -341,6 +358,7 @@ Em uma entrevista de seleção baseada na gestão por competências, o examinado
 * **E)** Teste de personalidade expressiva para verificação de temperamento frouxo.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A entrevista não diretiva é desestruturada e aberta, sem perguntas previamente padronizadas nem foco em dados fáticos estruturados.  
 > - **B) Incorreta.** A simulação psicodramática (*role-playing*) exige encenação de papéis interpessoais em dinâmica de grupo, não sendo uma entrevista individual reflexiva.  
 > - **C) Incorreta.** Provas psicométricas são testes formais de raciocínio lógico, atenção ou inteligência que geram escores quantitativos padronizados.  
@@ -362,6 +380,7 @@ De acordo com os preceitos expressos no art. 37 da Constituição Federal de 198
 * **E)** O provimento originário em cargos públicos efetivos independe de prévia aprovação em concurso, desde que o servidor comprove exercício temporário anterior superior a dez anos.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A prova de títulos tem caráter **estritamente classificatório**, sendo vedada a eliminação de candidatos com base exclusiva na ausência ou pontuação insuficiente de títulos.  
 > - **B) Incorreta.** Conforme pacificado pelo STF no Tema 161 (RE 598.099), o candidato aprovado dentro do número de vagas possui **direito público subjetivo à nomeação** durante a vigência do certame, salvo situações imprevisíveis, supervenientes e extraordinárias fundamentadamente comprovadas.  
 > - **C) CORRETA.** O art. 37, IX da CF/88 prevê expressamente que a lei estabelecerá os casos de contratação temporária para atender a necessidade de excepcional interesse público, dispensando o concurso público tradicional e viabilizando o Processo Seletivo Simplificado (PSS).  
@@ -383,6 +402,7 @@ O processo de socialização organizacional compreende o conjunto de mecanismos 
 * **E)** Desinstitucionalização Funcional.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A metamorfose é a fase final, na qual o colaborador já ajustou suas atitudes, assimilou a cultura institucional e alcançou estabilidade funcional e produtiva.  
 > - **B) CORRETA.** A **fase de Encontro (ou Confronto)** ocorre precisamente no momento do ingresso formal na instituição. É nela que o indivíduo vivencia a realidade concreta da organização e confronta suas expectativas e idealizações prévias com as regras práticas, rotinas diárias e dinâmicas interpessoais da unidade. É a fase crítica onde programas de acolhimento e ambientação exercem papel fundamental.  
 > - **C) Incorreta.** A socialização prévia (ou antecipatória) ocorre antes da entrada do servidor no órgão, envolvendo o aprendizado de conhecimentos gerais e as expectativas construídas durante a fase preparatória de estudos.  

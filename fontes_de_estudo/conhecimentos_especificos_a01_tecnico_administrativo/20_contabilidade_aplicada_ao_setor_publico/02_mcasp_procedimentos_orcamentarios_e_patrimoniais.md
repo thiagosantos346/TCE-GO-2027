@@ -25,23 +25,22 @@
 ---
 
 ## 🧭 Sumário Interativo
-
-- [1. O Dualismo de Regimes na Contabilidade Pública (Orçamentário vs. Patrimonial)](#1-o-dualismo-de-regimes-na-contabilidade-pública-orçamentário-vs-patrimonial)
-    - [1.1 O Regime Orçamentário da Lei nº 4.320/1964 (Art. 35)](#11-o-regime-orçamentário-da-lei-nº-43201964-art-35)
-    - [1.2 O Regime Patrimonial da Competência Integral (MCASP e NBC TSP)](#12-o-regime-patrimonial-da-competência-integral-mcasp-e-nbc-tsp)
-    - [1.3 Quadro Sinótico de Confronto e Fatos Contábeis](#13-quadro-sinótico-de-confronto-e-fatos-contábeis)
-- [2. Variações Patrimoniais: Classificações e Origens](#2-variações-patrimoniais-classificações-e-origens)
-    - [2.1 Variações Qualitativas (Permutativas) vs. Quantitativas (Modificativas)](#21-variações-qualitativas-permutativas-vs-quantitativas-modificativas)
-    - [2.2 Variações Resultantes vs. Independentes da Execução Orçamentária](#22-variações-resultantes-vs-independentes-da-execução-orçamentária)
+- [1. O Dualismo de Regimes na Contabilidade Pública (Orçamentário vs. Patrimonial)](#1-o-dualismo-de-regimes-na-contabilidade-publica-orcamentario-vs-patrimonial)
+    - [1.1 O Regime Orçamentário da Lei nº 4.320/1964 (Art. 35)](#11-o-regime-orcamentario-da-lei-no-43201964-art-35)
+    - [1.2 O Regime Patrimonial da Competência Integral (MCASP e NBC TSP)](#12-o-regime-patrimonial-da-competencia-integral-mcasp-e-nbc-tsp)
+    - [1.3 Quadro Sinótico de Confronto e Fatos Contábeis](#13-quadro-sinotico-de-confronto-e-fatos-contabeis)
+- [2. Variações Patrimoniais: Classificações e Origens](#2-variacoes-patrimoniais-classificacoes-e-origens)
+    - [2.1 Variações Qualitativas (Permutativas) vs. Quantitativas (Modificativas)](#21-variacoes-qualitativas-permutativas-vs-quantitativas-modificativas)
+    - [2.2 Variações Resultantes vs. Independentes da Execução Orçamentária](#22-variacoes-resultantes-vs-independentes-da-execucao-orcamentaria)
 - [3. Procedimentos Patrimoniais Aplicados ao Ativo Imobilizado](#3-procedimentos-patrimoniais-aplicados-ao-ativo-imobilizado)
-    - [3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura](#31-mensuração-inicial-custos-atribuíveis-e-bens-de-infraestrutura)
-    - [3.2 Depreciação, Amortização e Exaustão: Conceitos e Fórmulas](#32-depreciação-amortização-e-exaustão-conceitos-e-fórmulas)
-    - [3.3 Ativos que NÃO Sofrem Depreciação Periódica](#33-ativos-que-não-sofrem-depreciação-periódica)
-- [4. Teste de Redução ao Valor Recuperável de Ativos (*Impairment Test*)](#4-teste-de-redução-ao-valor-recuperável-de-ativos-impairment-test)
-    - [4.1 Mecanismo de Aferição do Valor Recuperável](#41-mecanismo-de-aferição-do-valor-recuperável)
-    - [4.2 Reconhecimento Contábil da Perda e Reversões](#42-reconhecimento-contábil-da-perda-e-reversões)
-- [5. Fontes Oficiais & Manuais Técnicos Recomendados](#5-fontes-oficiais--manuais-técnicos-recomendados)
-- [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
+    - [3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura](#31-mensuracao-inicial-custos-atribuiveis-e-bens-de-infraestrutura)
+    - [3.2 Depreciação, Amortização e Exaustão: Conceitos e Fórmulas](#32-depreciacao-amortizacao-e-exaustao-conceitos-e-formulas)
+    - [3.3 Ativos que NÃO Sofrem Depreciação Periódica](#33-ativos-que-nao-sofrem-depreciacao-periodica)
+- [4. Teste de Redução ao Valor Recuperável de Ativos (*Impairment Test*)](#4-teste-de-reducao-ao-valor-recuperavel-de-ativos-impairment-test)
+    - [4.1 Mecanismo de Aferição do Valor Recuperável](#41-mecanismo-de-afericao-do-valor-recuperavel)
+    - [4.2 Reconhecimento Contábil da Perda e Reversões](#42-reconhecimento-contabil-da-perda-e-reversoes)
+- [5. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -101,6 +100,7 @@ flowchart LR
 ```
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+>
 > - **A Depreciação é despesa orçamentária? NÃO!** A depreciação é uma **Variação Patrimonial Diminutiva Independente da Execução Orçamentária (VIEO)**. Não exige empenho, dotação orçamentária na LOA nem liquidação; opera-se exclusivamente no subsistema patrimonial!  
 > - **A Doação de imóvel recebida é receita orçamentária de capital? NÃO!** Não transita pela LOA nem envolve disponibilidade financeira em moeda. Trata-se de uma **VPA Independente da Execução Orçamentária (VIEO)** que eleva diretamente o Ativo Imobilizado e o Patrimônio Líquido do ente federativo.
 
@@ -187,6 +187,7 @@ Sob a ótica do Manual de Contabilidade Aplicada ao Setor Público (MCASP 11ª e
 * **E)** O terreno recebido deverá sofrer depreciação periódica anual linear à alíquota contábil de 4% ao ano.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Doações de bens materiais não geram influxo de caixa financeiro nem constam na LOA, não constituindo receita orçamentária.
 > - **B)** Correta. A doação de bens recebida amplia o ativo e o patrimônio líquido da entidade sem passar pelos estágios do orçamento (LOA), qualificando-se exatamente como uma Variação Patrimonial Aumentativa (VPA) Independente da Execução Orçamentária. O lançamento debita o Ativo Não Circulante (Imobilizado - Terrenos) e credita VPA no resultado.
 > - **C)** Incorreta. O reconhecimento contábil do terreno ocorre no momento da obtenção de seu controle formal (escritura e posse), e não na futura edificação da obra.
@@ -207,6 +208,7 @@ Em relação aos conceitos de depreciação, amortização e teste de recuperabi
 * **E)** A amortização aplica-se aos bens corpóreos que sofrem desgaste físico ou perecimento gradual ao longo do tempo.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O valor depreciável é calculado subtraindo-se o valor residual do custo histórico de aquisição ($Custo - Valor\ Residual$).
 > - **B)** Incorreta. A depreciação é um procedimento estritamente patrimonial (VPD independente da execução orçamentária), não dependendo de dotação na LOA nem de emissão de nota de empenho.
 > - **C)** Incorreta. O teste de recuperabilidade aplica-se obrigatoriamente inclusive aos ativos não geradores de caixa, avaliando-se a perda de seu potencial de serviços à sociedade.
@@ -229,6 +231,7 @@ Sob a ótica patrimonial e orçamentária, essa transação completa caracteriza
 * **E)** Transação extraorçamentária que dispensa registro no subsistema patrimonial.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A compra de bens com desembolso financeiro de caixa não gera VPA (receita patrimonial).
 > - **B)** Correta. Trata-se de um típico fato permutativo (qualitativo) entre contas do Ativo: ocorreu a diminuição de R$ 100.000,00 na conta Caixa/Bancos (Ativo Circulante) e o aumento simultâneo de R$ 100.000,00 na conta de Equipamentos e Material Permanente (Ativo Não Circulante - Imobilizado). O total do Ativo e a Situação Patrimonial Líquida permaneceram rigorosamente inalterados.
 > - **C)** Incorreta. A redução do patrimônio líquido ocorrerá de forma paulatina e distribuída nos exercícios seguintes por meio do registro da depreciação mensal.
@@ -251,10 +254,12 @@ Utilizando o método das quotas constantes (linear) preconizado pelo MCASP, o va
 * **E)** R$ 140.000,00 e R$ 2.333,33.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Erra ao desconsiderar a dedução do valor residual no cálculo do valor depreciável.
 > - **B)** Correta. O cálculo contábil é exato:  
->   1. **Valor Depreciável:** Custo de Aquisição (R$ 120.000,00) menos Valor Residual (R$ 20.000,00) = **R$ 100.000,00**.  
->   2. **Quota Mensal de Depreciação:** Valor Depreciável (R$ 100.000,00) dividido por 60 meses de vida útil = **R$ 1.666,67** por mês, lançada como VPD.
+>     1. **Valor Depreciável:** Custo de Aquisição (R$ 120.000,00) menos Valor Residual (R$ 20.000,00) = **R$ 100.000,00**.  
+>     2. **Quota Mensal de Depreciação:** Valor Depreciável (R$ 100.000,00) dividido por 60 meses de vida útil = **R$ 1.666,67** por mês, lançada como VPD.
+>
 > - **C)** Incorreta. R$ 2.000,00 por mês seria a quota caso o valor residual fosse zero (120.000 / 60).
 > - **D)** Incorreta. O valor depreciável não é o custo bruto (120.000,00), pois há valor residual a ser deduzido.
 > - **E)** Incorreta. Erra ao somar o valor residual ao custo em vez de subtrair.
@@ -267,7 +272,9 @@ Utilizando o método das quotas constantes (linear) preconizado pelo MCASP, o va
 No tocante ao regime contábil aplicado no setor público, analise as afirmativas a seguir:
 
 I. De acordo com a Lei nº 4.320/1964 (Art. 35), o regime orçamentário é misto, pertencendo ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas.  
+
 II. Segundo as normas NBC TSP e o MCASP, o regime contábil patrimonial é o de competência, exigindo o reconhecimento de receitas e despesas patrimoniais no momento da ocorrência de seus respectivos fatos geradores.  
+
 III. A arrecadação de tributos em dinheiro gera concomitantemente uma receita orçamentária realizada e um fato permutativo no patrimônio líquido da entidade caso o crédito tributário já tenha sido lançado previamente.  
 
 Está correto o que se afirma em:
@@ -279,6 +286,7 @@ Está correto o que se afirma em:
 * **E)** I, II e III.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Os itens II e III também são verdadeiros, tornando a alternativa incompleta.
 > - **B)** Incorreta. Deixa de incluir o item III, que expressa corretamente a dinâmica da CASP.
 > - **C)** Incorreta. O item I é a previsão literal do art. 35 da Lei nº 4.320/1964.

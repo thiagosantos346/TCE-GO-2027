@@ -24,33 +24,32 @@
 ---
 
 ## 🧭 Sumário Interativo
-
-- [1. Conceito, Natureza Jurídica e Evolução dos Modelos Orçamentários](#1-conceito-natureza-jurídica-e-evolução-dos-modelos-orçamentários)
-    - [1.1 Conceito e Natureza Jurídica do Orçamento Público](#11-conceito-e-natureza-jurídica-do-orçamento-público)
-    - [1.2 Modelos Orçamentários e Comparativo Evolutivo](#12-modelos-orçamentários-e-comparativo-evolutivo)
-- [2. Princípios Orçamentários: O Núcleo Normativo e Doutrinário](#2-princípios-orçamentários-o-núcleo-normativo-e-doutrinário)
-    - [2.1 Princípio da Unidade ou Totalidade](#21-princípio-da-unidade-ou-totalidade)
-    - [2.2 Princípio da Universalidade](#22-princípio-da-universalidade)
-    - [2.3 Princípio da Anualidade ou Periodicidade](#23-princípio-da-anualidade-ou-periodicidade)
-    - [2.4 Princípio da Exclusividade Orçamentária](#24-princípio-da-exclusividade-orçamentária)
-    - [2.5 Princípio do Orçamento Bruto](#25-princípio-do-orçamento-bruto)
-    - [2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos](#26-princípio-da-não-afetação-não-vinculação-da-receita-de-impostos)
-    - [2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade](#27-princípios-do-equilíbrio-legalidade-clareza-e-publicidade)
-- [3. O Sistema Orçamentário Constitucional: PPA, LDO e LOA](#3-o-sistema-orçamentário-constitucional-ppa-ldo-e-loa)
-    - [3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo](#31-plano-plurianual-ppa-planejamento-estratégico-de-médio-prazo)
-    - [3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF](#32-lei-de-diretrizes-orçamentárias-ldo-o-elo-tático-e-as-exigências-da-lrf)
-    - [3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada](#33-lei-orçamentária-anual-loa-a-estrutura-tríplice-integrada)
-- [4. Ciclo Orçamentário e Processo Legislativo Orçamentário](#4-ciclo-orçamentário-e-processo-legislativo-orçamentário)
-    - [4.1 As Quatro Etapas do Ciclo Orçamentário](#41-as-quatro-etapas-do-ciclo-orçamentário)
-    - [4.2 Processo Legislativo e a Tramitação na CMO](#42-processo-legislativo-e-a-tramitação-na-cmo)
-    - [4.3 Prazos Constitucionais de Envio e Devolução (ADCT)](#43-prazos-constitucionais-de-envio-e-devolução-adct)
-- [5. Emendas Parlamentares e o Regime do Orçamento Impositivo](#5-emendas-parlamentares-e-o-regime-do-orçamento-impositivo)
+- [1. Conceito, Natureza Jurídica e Evolução dos Modelos Orçamentários](#1-conceito-natureza-juridica-e-evolucao-dos-modelos-orcamentarios)
+    - [1.1 Conceito e Natureza Jurídica do Orçamento Público](#11-conceito-e-natureza-juridica-do-orcamento-publico)
+    - [1.2 Modelos Orçamentários e Comparativo Evolutivo](#12-modelos-orcamentarios-e-comparativo-evolutivo)
+- [2. Princípios Orçamentários: O Núcleo Normativo e Doutrinário](#2-principios-orcamentarios-o-nucleo-normativo-e-doutrinario)
+    - [2.1 Princípio da Unidade ou Totalidade](#21-principio-da-unidade-ou-totalidade)
+    - [2.2 Princípio da Universalidade](#22-principio-da-universalidade)
+    - [2.3 Princípio da Anualidade ou Periodicidade](#23-principio-da-anualidade-ou-periodicidade)
+    - [2.4 Princípio da Exclusividade Orçamentária](#24-principio-da-exclusividade-orcamentaria)
+    - [2.5 Princípio do Orçamento Bruto](#25-principio-do-orcamento-bruto)
+    - [2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos](#26-principio-da-nao-afetacao-nao-vinculacao-da-receita-de-impostos)
+    - [2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade](#27-principios-do-equilibrio-legalidade-clareza-e-publicidade)
+- [3. O Sistema Orçamentário Constitucional: PPA, LDO e LOA](#3-o-sistema-orcamentario-constitucional-ppa-ldo-e-loa)
+    - [3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo](#31-plano-plurianual-ppa-planejamento-estrategico-de-medio-prazo)
+    - [3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF](#32-lei-de-diretrizes-orcamentarias-ldo-o-elo-tatico-e-as-exigencias-da-lrf)
+    - [3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada](#33-lei-orcamentaria-anual-loa-a-estrutura-triplice-integrada)
+- [4. Ciclo Orçamentário e Processo Legislativo Orçamentário](#4-ciclo-orcamentario-e-processo-legislativo-orcamentario)
+    - [4.1 As Quatro Etapas do Ciclo Orçamentário](#41-as-quatro-etapas-do-ciclo-orcamentario)
+    - [4.2 Processo Legislativo e a Tramitação na CMO](#42-processo-legislativo-e-a-tramitacao-na-cmo)
+    - [4.3 Prazos Constitucionais de Envio e Devolução (ADCT)](#43-prazos-constitucionais-de-envio-e-devolucao-adct)
+- [5. Emendas Parlamentares e o Regime do Orçamento Impositivo](#5-emendas-parlamentares-e-o-regime-do-orcamento-impositivo)
     - [5.1 Emendas Individuais Impositivas](#51-emendas-individuais-impositivas)
     - [5.2 Emendas de Bancada Estadual Impositivas](#52-emendas-de-bancada-estadual-impositivas)
-    - [5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)](#53-transferências-especiais-emendas-pix-e-com-finalidade-definida-art-166-a)
-    - [5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória](#54-limitações-e-impedimentos-técnicos-na-execução-obrigatória)
-- [6. Fontes Oficiais & Normativas Recomendadas](#6-fontes-oficiais--normativas-recomendadas)
-- [7. Questões Comentadas no Padrão FCC](#7-questões-comentadas-no-padrão-fcc)
+    - [5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)](#53-transferencias-especiais-emendas-pix-e-com-finalidade-definida-art-166-a)
+    - [5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória](#54-limitacoes-e-impedimentos-tecnicos-na-execucao-obrigatoria)
+- [6. Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
+- [7. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -82,14 +81,17 @@ flowchart LR
     - Instrumento de controle de legalidade política e financeira do Poder Legislativo sobre o Poder Executivo;
     - Foco exclusivo no **objeto do gasto** (insumos: salários, móveis, material de expediente) — *"o que a administração compra"*;
     - Completa dissociação entre o orçamento e qualquer planejamento de longo prazo; não há mensuração de benefícios sociais ou metas de desempenho.
+
 2. **Orçamento de Desempenho (Funcional):**
     - Surge no período pós-Segunda Guerra Mundial (relatórios da Comissão Hoover nos EUA);
     - Foco nas **coisas que o governo faz** (serviços e produtos) em vez de apenas no que compra — *"o que a administração faz"*;
     - Embora introduza a ideia de desempenho e atividade operacional, continuava desvinculado de um planejamento governamental estratégico de longo prazo.
+
 3. **Orçamento Base-Zero (OBZ) ou Estratégico:**
     - Criado por Peter Pyhrr e disseminado na década de 1970;
     - Caracteriza-se pela **inexistência de direito adquirido à manutenção de despesas** do exercício anterior (rompimento com a abordagem incrementalista);
     - A cada novo ciclo orçamentário, todas as atividades e programas devem ser justificados desde a sua base ("marco zero"), competindo entre si em pacotes de decisão hierarquizados por custo-benefício.
+
 4. **Orçamento-Programa:**
     - **Modelo adotado no ordenamento brasileiro** desde o Decreto-Lei nº 200/1967 e consolidado na CF/88 e pela Portaria MOG nº 42/1999;
     - É a expressão financeira de programas de trabalho do governo voltados para objetivos e metas claros;
@@ -286,6 +288,7 @@ A Emenda Constitucional nº 105/2019 introduziu o art. 166-A na Carta Magna, dis
     - Despesas com pessoal e encargos sociais;
     - Pagamento de encargos do serviço da dívida pública consolidada.
     - **Mínimo de 70% em Capital:** Pelo menos **70% (setenta por cento)** das transferências especiais devem ser aplicadas em **despesas de capital** (investimentos, obras, aquisição de equipamentos), sendo permitido o máximo de 30% em despesas correntes de custeio operacional.
+
 2. **Transferência com Finalidade Definida:**
     - Os recursos são expressamente vinculados à programação e ao objeto estabelecido na emenda parlamentar;
     - Devem ser aplicados nas áreas de competência constitucional associadas ao objeto, sujeitando-se à prestação de contas vinculada e acompanhamento pelo Tribunal de Contas da União (TCU).
@@ -317,7 +320,9 @@ A execução obrigatória do orçamento impositivo não é irrestrita:
 A respeito dos princípios orçamentários consagrados na legislação brasileira e no texto da Constituição Federal de 1988, considere as seguintes assertivas:
 
 I. O princípio da exclusividade impede que a Lei Orçamentária Anual disponha sobre autorização para a contratação de operações de crédito, ainda que por antecipação de receita orçamentária.  
+
 II. O princípio da não afetação veda genericamente a vinculação de qualquer espécie tributária a órgão, fundo ou despesa pública.  
+
 III. O princípio do orçamento bruto estabelece que todas as receitas e despesas constarão da lei de orçamento pelos seus totais, vedadas quaisquer deduções pecuniárias prévias.  
 
 Está correto o que se afirma APENAS em:
@@ -329,6 +334,7 @@ Está correto o que se afirma APENAS em:
 * **E)** I e III.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O item I é falso, pois a contratação de operações de crédito (inclusive por ARO) é ressalva expressa ao princípio da exclusividade.
 > - **B)** Incorreta. O item II é falso, pois a vedação de afetação alcança restritivamente os impostos, não abrangendo taxas ou contribuições.
 > - **C)** Correta. Apenas a assertiva III é verdadeira. O art. 6º da Lei nº 4.320/1964 dispõe taxativamente que todas as receitas e despesas constarão da Lei de Orçamento pelos seus totais, vedadas quaisquer deduções pecuniárias.
@@ -349,6 +355,7 @@ Em relação às normas constitucionais vigentes relativas às emendas parlament
 * **E)** A execução orçamentária das emendas individuais de bancada estadual possui natureza facultativa e estritamente discricionária do Poder Executivo em qualquer hipótese.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O art. 166-A, § 1º da CF/88 proíbe terminantemente a utilização de transferências especiais para custear despesas com pessoal/encargos e para pagamento do serviço da dívida consolidada.
 > - **B)** Correta. Nos exatos termos do art. 166, § 9º da CF/88, as emendas individuais são aprovadas no limite de 2% da receita corrente líquida do exercício anterior, sendo que metade (50%) desse percentual é compulsoriamente destinada a ações e serviços públicos de saúde (ASPS).
 > - **C)** Incorreta. As emendas impositivas subordinam-se a contingenciamento proporcional na hipótese de frustração de receitas fiscais e podem ter execução sobrestada por impedimentos de ordem técnica fundamentados.
@@ -369,6 +376,7 @@ Acerca da vigência e da dinâmica estrutural do Plano Plurianual (PPA) no model
 * **E)** Os projetos de lei de PPA são de iniciativa concorrente entre o Presidente da República e os Presidentes da Câmara dos Deputados e do Senado Federal.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O PPA não coincide com os quatro anos exatos do mandato do chefe eleito, justamente para permitir continuidade gerencial e planejamento de médio prazo.
 > - **B)** Correta. Nos termos do art. 35, § 2º, I do ADCT da CF/88, o PPA vigora por quatro anos, iniciando seus efeitos em 1º de janeiro do segundo ano de mandato do Chefe do Executivo e perdurando até 31 de dezembro do primeiro ano do mandato governamental seguinte.
 > - **C)** Incorreta. O modelo orçamentário tripartite é obrigatório e vinculante para todas as esferas federativas, independentemente do porte populacional do Município.
@@ -389,6 +397,7 @@ A Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000) introduziu inst
 * **E)** Demonstrativo de Restos a Pagar.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Relatório de Gestão Fiscal (RGF) é documento de controle emitido quadrimestralmente por cada Poder e órgão (arts. 54 e 55 da LRF).
 > - **B)** Incorreta. O Anexo de Riscos Fiscais (ARF) avalia os passivos contingentes e outros riscos capazes de comprometer as finanças públicas (art. 4º, § 3º da LRF).
 > - **C)** Correta. De acordo com o art. 4º, § 1º da LRF, integrará o projeto de LDO o Anexo de Metas Fiscais (AMF), em que serão estabelecidas metas anuais para receitas, despesas, montante da dívida pública e resultados nominal e primário, para o exercício a que se referir e para os dois seguintes.
@@ -411,6 +420,7 @@ Diante do princípio orçamentário da exclusividade (art. 165, § 8º da CF/88)
 * **E)** O projeto é nulo e deve ser arquivado imediatamente sem deliberação pelo plenário da Assembleia Legislativa.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A LOA não pode veicular alterações de alíquotas tributárias de direito substantivo; isso configura típica violação ao princípio da exclusividade ("cauda orçamentária").
 > - **B)** Incorreta. A CF/88 estabelece duas exceções taxativas ao princípio da exclusividade (créditos suplementares e operações de crédito).
 > - **C)** Correta. Conforme o art. 165, § 8º da CF/88, a LOA não conterá matéria estranha à previsão da receita e à fixação da despesa, excetuando-se a autorização para abertura de créditos suplementares e contratação de operações de crédito. Logo, a autorização de créditos suplementares é constitucional, e a norma alteradora de alíquota do ICMS é inconstitucional por constituir matéria estranha à lei de meios orçamentária.

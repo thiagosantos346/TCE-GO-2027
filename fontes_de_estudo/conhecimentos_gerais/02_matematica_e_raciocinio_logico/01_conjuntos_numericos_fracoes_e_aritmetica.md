@@ -17,33 +17,33 @@
 ---
 
 ## 🧭 Sumário
-- [1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais](#1-conjuntos-numéricos-fundamentais-e-propriedades-estruturais)
-    - [1.1 Conjunto dos Números Naturais e Inteiros](#11-conjunto-dos-números-naturais-e-inteiros)
-    - [1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas](#12-conjunto-dos-números-racionais-decimais-finitos-e-dízimas-periódicas)
-    - [1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos](#13-algoritmo-da-divisão-euclidiana-e-aritmética-dos-restos)
-- [2. Operações Aritméticas e Expressões Numéricas](#2-operações-aritméticas-e-expressões-numéricas)
-    - [2.1 Ordem de Precedência das Operações e Delimitadores](#21-ordem-de-precedência-das-operações-e-delimitadores)
-    - [2.2 Potenciação: Propriedades Operatórias e Notação Científica](#22-potenciação-propriedades-operatórias-e-notação-científica)
-- [3. Teoria dos Números: Divisibilidade, Primos, MMC e MDC](#3-teoria-dos-números-divisibilidade-primos-mmc-e-mdc)
-    - [3.1 Critérios de Divisibilidade Aplicados](#31-critérios-de-divisibilidade-aplicados)
-    - [3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos](#32-decomposição-em-fatores-primos-e-contagem-de-divisores-positivos)
-    - [3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade](#33-mínimo-múltiplo-comum-ciclos-coincidências-e-periodicidade)
-    - [3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos](#34-máximo-divisor-comum-partições-equitativas-e-lotes-máximos)
-    - [3.5 Relação Fundamental entre MMC e MDC](#35-relação-fundamental-entre-mmc-e-mdc)
-- [4. Álgebra Fracionária e Operações com Frações](#4-álgebra-fracionária-e-operações-com-frações)
-    - [4.1 Conceito, Tipologias e Equivalência de Frações](#41-conceito-tipologias-e-equivalência-de-frações)
-    - [4.2 Operações Aritméticas com Frações](#42-operações-aritméticas-com-frações)
-- [5. Modelagem e Resolução de Problemas no Padrão FCC](#5-modelagem-e-resolução-de-problemas-no-padrão-fcc)
-    - [5.1 Problemas de Fração de Resto ou Cadeia Regressiva](#51-problemas-de-fração-de-resto-ou-cadeia-regressiva)
+- [1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais](#1-conjuntos-numericos-fundamentais-e-propriedades-estruturais)
+    - [1.1 Conjunto dos Números Naturais e Inteiros](#11-conjunto-dos-numeros-naturais-e-inteiros)
+    - [1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas](#12-conjunto-dos-numeros-racionais-decimais-finitos-e-dizimas-periodicas)
+    - [1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos](#13-algoritmo-da-divisao-euclidiana-e-aritmetica-dos-restos)
+- [2. Operações Aritméticas e Expressões Numéricas](#2-operacoes-aritmeticas-e-expressoes-numericas)
+    - [2.1 Ordem de Precedência das Operações e Delimitadores](#21-ordem-de-precedencia-das-operacoes-e-delimitadores)
+    - [2.2 Potenciação: Propriedades Operatórias e Notação Científica](#22-potenciacao-propriedades-operatorias-e-notacao-cientifica)
+- [3. Teoria dos Números: Divisibilidade, Primos, MMC e MDC](#3-teoria-dos-numeros-divisibilidade-primos-mmc-e-mdc)
+    - [3.1 Critérios de Divisibilidade Aplicados](#31-criterios-de-divisibilidade-aplicados)
+    - [3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos](#32-decomposicao-em-fatores-primos-e-contagem-de-divisores-positivos)
+    - [3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade](#33-minimo-multiplo-comum-ciclos-coincidencias-e-periodicidade)
+    - [3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos](#34-maximo-divisor-comum-particoes-equitativas-e-lotes-maximos)
+    - [3.5 Relação Fundamental entre MMC e MDC](#35-relacao-fundamental-entre-mmc-e-mdc)
+- [4. Álgebra Fracionária e Operações com Frações](#4-algebra-fracionaria-e-operacoes-com-fracoes)
+    - [4.1 Conceito, Tipologias e Equivalência de Frações](#41-conceito-tipologias-e-equivalencia-de-fracoes)
+    - [4.2 Operações Aritméticas com Frações](#42-operacoes-aritmeticas-com-fracoes)
+- [5. Modelagem e Resolução de Problemas no Padrão FCC](#5-modelagem-e-resolucao-de-problemas-no-padrao-fcc)
+    - [5.1 Problemas de Fração de Resto ou Cadeia Regressiva](#51-problemas-de-fracao-de-resto-ou-cadeia-regressiva)
     - [5.2 Problemas de Trabalho Conjunto e Torneiras](#52-problemas-de-trabalho-conjunto-e-torneiras)
-    - [5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais](#53-problemas-de-ciclos-periódicos-e-padrões-sequenciais)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
-- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-    - [Questão 01](#questão-01)
-    - [Questão 02](#questão-02)
-    - [Questão 03](#questão-03)
-    - [Questão 04](#questão-04)
-    - [Questão 05](#questão-05)
+    - [5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais](#53-problemas-de-ciclos-periodicos-e-padroes-sequenciais)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
+    - [Questão 01](#questao-01)
+    - [Questão 02](#questao-02)
+    - [Questão 03](#questao-03)
+    - [Questão 04](#questao-04)
+    - [Questão 05](#questao-05)
 
 ---
 
@@ -165,6 +165,7 @@ $$360 = 2^3 \cdot 3^2 \cdot 5^1 \implies Q(360) = (3 + 1)(2 + 1)(1 + 1) = 4 \tim
 ### 3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade
 
 O **Mínimo Múltiplo Comum (MMC)** entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
+
 * **Cálculo Prático:** Decompõem-se os números em fatores primos; o MMC é o produto de **todos os fatores primos comuns e não comuns, elevados aos seus maiores expoentes**.
 
 ```mermaid
@@ -179,6 +180,7 @@ flowchart LR
 ### 3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos
 
 O **Máximo Divisor Comum (MDC)** é o maior número inteiro capaz de dividir exatamente todos os números dados, sem deixar resto.
+
 * **Cálculo Prático:** É o produto **apenas dos fatores primos comuns a todos os números, elevados aos seus menores expoentes**.
 
 | Característica | Mínimo Múltiplo Comum (MMC) | Máximo Divisor Comum (MDC) |
@@ -350,15 +352,16 @@ Nessas condições, o **número total de caixas organizadoras** necessárias par
 > A resolução compõe-se de duas etapas lógicas:
 >
 > 1. Para que as caixas tenham capacidade idêntica, comportem apenas pastas do mesmo tipo e o número de pastas em cada caixa seja o **maior possível**, a capacidade de cada caixa deve corresponder ao **Máximo Divisor Comum (MDC)** entre 168, 216 e 264:
->    - $168 = 2^3 \times 3 \times 7$
->    - $216 = 2^3 \times 3^3$
->    - $264 = 2^3 \times 3 \times 11$
->    - $\text{MDC}(168, 216, 264) = 2^3 \times 3^1 = 8 \times 3 = 24 \text{ pastas por caixa}$.
+>     - $168 = 2^3 \times 3 \times 7$
+>     - $216 = 2^3 \times 3^3$
+>     - $264 = 2^3 \times 3 \times 11$
+>     - $\text{MDC}(168, 216, 264) = 2^3 \times 3^1 = 8 \times 3 = 24 \text{ pastas por caixa}$.
+>
 > 2. O enunciado indaga expressamente o **número de caixas** demandado (e não a quantidade de pastas por caixa):
->    - Caixas para o lote A: $168 \div 24 = 7 \text{ caixas}$
->    - Caixas para o lote B: $216 \div 24 = 9 \text{ caixas}$
->    - Caixas para o lote C: $264 \div 24 = 11 \text{ caixas}$
->    - Total de caixas: $7 + 9 + 11 = 27 \text{ caixas}$.
+>     - Caixas para o lote A: $168 \div 24 = 7 \text{ caixas}$
+>     - Caixas para o lote B: $216 \div 24 = 9 \text{ caixas}$
+>     - Caixas para o lote C: $264 \div 24 = 11 \text{ caixas}$
+>     - Total de caixas: $7 + 9 + 11 = 27 \text{ caixas}$.
 >
 > Análise das alternativas:
 >
@@ -426,15 +429,17 @@ O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão 
 > Análise do padrão de periodicidade cíclica:
 >
 > 1. O ciclo básico é composto por 5 algarismos ordenados:
->    - 1º elemento: 7 (posições que deixam resto 1 na divisão por 5)
->    - 2º elemento: 4 (posições que deixam resto 2 na divisão por 5)
->    - 3º elemento: 5 (posições que deixam resto 3 na divisão por 5)
->    - 4º elemento: 8 (posições que deixam resto 4 na divisão por 5)
->    - 5º elemento: 2 (posições que deixam resto 0 na divisão por 5, múltiplos exatos de 5)
+>     - 1º elemento: 7 (posições que deixam resto 1 na divisão por 5)
+>     - 2º elemento: 4 (posições que deixam resto 2 na divisão por 5)
+>     - 3º elemento: 5 (posições que deixam resto 3 na divisão por 5)
+>     - 4º elemento: 8 (posições que deixam resto 4 na divisão por 5)
+>     - 5º elemento: 2 (posições que deixam resto 0 na divisão por 5, múltiplos exatos de 5)
+>
 > 2. Pelo algoritmo da divisão euclidiana, dividimos a posição 2027 pelo comprimento do período (5):
 >    $$2027 = 5 \times 405 + 2$$
->    - O quociente 405 indica que o ciclo completo de 5 algarismos é repetido integralmente 405 vezes.
->    - O **resto é 2**.
+>     - O quociente 405 indica que o ciclo completo de 5 algarismos é repetido integralmente 405 vezes.
+>     - O **resto é 2**.
+>
 > 3. Como o resto da divisão é 2, o algarismo que ocupa a 2027ª posição corresponde ao segundo elemento do bloco cíclico padrão $(7, \mathbf{4}, 5, 8, 2)$, que é o algarismo **4**.
 > 4. Logo, o algarismo é **4** e o resto é **2**.
 >

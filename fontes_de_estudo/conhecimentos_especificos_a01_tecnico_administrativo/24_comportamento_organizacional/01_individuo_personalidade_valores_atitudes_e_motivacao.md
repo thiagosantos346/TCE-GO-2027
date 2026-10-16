@@ -32,12 +32,12 @@
 
 ## 🧭 Sumário Interativo
 - [1. Fundamentos do Comportamento Organizacional (CO)](#1-fundamentos-do-comportamento-organizacional-co)
-- [2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos](#2-personalidade-o-modelo-dos-cinco-grandes-fatores-big-five-e-traços-específicos)
-- [3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional](#3-atitudes-dissonância-cognitiva-e-comprometimento-organizacional)
-- [4. Teorias Motivacionais de Conteúdo (Maslow, Herzberg, Alderfer e McClelland)](#4-teorias-motivacionais-de-conteúdo-maslow-herzberg-alderfer-e-mcclelland)
+- [2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos](#2-personalidade-o-modelo-dos-cinco-grandes-fatores-big-five-e-tracos-especificos)
+- [3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional](#3-atitudes-dissonancia-cognitiva-e-comprometimento-organizacional)
+- [4. Teorias Motivacionais de Conteúdo (Maslow, Herzberg, Alderfer e McClelland)](#4-teorias-motivacionais-de-conteudo-maslow-herzberg-alderfer-e-mcclelland)
 - [5. Teorias Motivacionais de Processo (Vroom, Adams, Locke e Skinner)](#5-teorias-motivacionais-de-processo-vroom-adams-locke-e-skinner)
-- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referências-bibliográficas)
-- [7. Questões de Concurso FCC Comentadas](#7-questões-de-concurso-fcc-comentadas)
+- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+- [7. Questões de Concurso FCC Comentadas](#7-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -126,6 +126,7 @@ As necessidades humanas organizam-se em uma pirâmide progressiva e hierárquica
 3. **Necessidades Sociais (Amor/Afiliação):** Amizades no setor, aceitação pelos pares e clima harmônico de trabalho.
 4. **Necessidades de Estima:** Reconhecimento profissional, status funcional, prestígio e respeito dos superiores.
 5. **Necessidades de Autorrealização (Topo):** Pleno desenvolvimento do potencial próprio, autonomia criativa e desafios intelectuais.
+
 * *Premissa de Maslow:* Uma necessidade superior só passa a motivar o comportamento quando a necessidade imediatamente inferior estiver substancialmente satisfeita.
 
 #### B) Teoria dos Dois Fatores de Frederick Herzberg:
@@ -188,6 +189,7 @@ flowchart LR
 1. **Expectativa ($E$):** Relação **Esforço $\rightarrow$ Desempenho**. A crença subjetiva do indivíduo de que seu esforço resultará no atingimento do padrão de desempenho exigido.
 2. **Instrumentalidade ($I$):** Relação **Desempenho $\rightarrow$ Recompensa**. A crença de que a organização realmente cumprirá o acordado e entregará a recompensa prometida se o desempenho for alcançado.
 3. **Valência ($V$):** Relação **Recompensa $\rightarrow$ Metas Pessoais**. O valor atrativo, positivo ou negativo, que o servidor atribui ao resultado ou recompensa oferecida.
+
 * **Propriedade Multiplicativa:** Tratando-se de uma multiplicação, **se qualquer uma das três variáveis for igual a zero, a motivação final será nula!**
 
 > 🛑 **ATENÇÃO (PRODUTO MULTIPLICATIVO DE VROOM):**  
@@ -240,6 +242,7 @@ Determinado gestor público, objetivando elevar a motivação dos servidores do 
 * **E)** O mobiliário moderno reduz a expectativa de esforço, eliminando a instrumentalidade postulada por Victor Vroom.
 
 > **Comentário Detalhado:**  
+>
 > - **A) CORRETA.** Segundo Frederick Herzberg, aspectos como ergonomia, ar-condicionado, condições de higiene predial e benefícios remuneratórios são **Fatores Higiênicos (Extrínsecos)**. A presença desses fatores em excelente nível é indispensável para evitar a insatisfação e reclamações dos servidores, mas é absolutamente incapaz de gerar motivação ou dedicação espontânea acima da média. A motivação decorre unicamente dos **Fatores Motivacionais (Intrínsecos)**, que dizem respeito ao desafio intelectual, responsabilidade, utilidade da tarefa e reconhecimento.  
 > - **B) Incorreta.** Trata-se da teoria bifatorial de Herzberg, não da equidade de Adams.  
 > - **C) Incorreta.** Alderfer dividiu as necessidades em Existência, Relacionamento e Crescimento.  
@@ -261,11 +264,12 @@ Segundo a Teoria da Expectativa desenvolvida por Victor Vroom, a motivação de 
 * **E)** Locus de controle externo.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Valência é o grau de atratividade e valor pessoal que a recompensa possui para o servidor.  
 > - **B) CORRETA.** No modelo de Victor Vroom:  
->   - *Expectativa:* É a crença de que o **Esforço levará ao Desempenho** (acreditar na própria competência para atingir a meta).  
->   - **Instrumentalidade:** É a crença de que o **Desempenho alcançado levará à Recompensa prometida** (confiança de que a instituição entregará o benefício prometido se a meta for batida).  
->   - *Valência:* É a relação entre a **Recompensa e os Objetivos Pessoais** (o apreço subjetivo pelo benefício).  
+>     - *Expectativa:* É a crença de que o **Esforço levará ao Desempenho** (acreditar na própria competência para atingir a meta).  
+>     - **Instrumentalidade:** É a crença de que o **Desempenho alcançado levará à Recompensa prometida** (confiança de que a instituição entregará o benefício prometido se a meta for batida).  
+>     - *Valência:* É a relação entre a **Recompensa e os Objetivos Pessoais** (o apreço subjetivo pelo benefício).  
 > - **C) Incorreta.** Expectativa refere-se à relação esforço-desempenho.  
 > - **D) Incorreta.** Equidade pertence à teoria de J. Stacy Adams.  
 > - **E) Incorreta.** Locus de controle é conceito de traço de personalidade.  
@@ -285,6 +289,7 @@ No modelo dos Cinco Grandes Fatores de Personalidade (*Big Five*), amplamente ad
 * **E)** Estabilidade Emocional.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A extroversão prediz desempenho em funções comerciais e de liderança política, mas não de modo universal.  
 > - **B) CORRETA.** Centenas de pesquisas em Comportamento Organizacional comprovam que a **Conscienciosidade** (associada a alto senso de responsabilidade, rigor, organização, persistência, confiabilidade e foco em metas) é o fator do *Big Five* que possui correlação positiva mais forte e consistente com o bom desempenho profissional em quase todas as carreiras.  
 > - **C) Incorreta.** A agradabilidade favorece o trabalho em equipe, mas não é o principal preditor geral.  
@@ -306,6 +311,7 @@ Um auditor fiscal estadual constatou que um colega recém-empossado na mesma ger
 * **E)** Teoria da Racionalidade Absoluta dos Processos.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Skinner é o autor da teoria do reforço operante.  
 > - **B) Incorreta.** Maslow trata da hierarquia fisiológica até autorrealização.  
 > - **C) CORRETA.** A **Teoria da Equidade de J. Stacy Adams** postula que os indivíduos comparam sua relação Resultados/Insumos com a relação de outros profissionais comparáveis. Ao constatar que o colega recebe recompensa desproporcionalmente maior para o mesmo esforço (iniquidade negativa sentida), o trabalhador busca restaurar o equilíbrio reduzindo seus insumos de trabalho (diminuindo o ritmo e faltando ao serviço).  
@@ -327,6 +333,7 @@ A respeito das dimensões do comprometimento organizacional formuladas por John 
 * **E)** Reativo.
 
 > **Comentário Detalhado:**  
+>
 > - **A) e B) Incorretas.** O comprometimento instrumental (ou de continuação) baseia-se na dependência financeira e no receio dos custos de deixar o emprego (permanece porque precisa).  
 > - **C) CORRETA.** O **Comprometimento Normativo** reflete a obrigação moral e o sentimento de dever ético de permanecer na organização (o indivíduo fica porque **sente que deve**, movido por lealdade ou gratidão pela entidade).  
 > - **D) e E) Incorretas.** Termos não contemplados no modelo de três componentes de Meyer e Allen (que são: Afetivo, Instrumental e Normativo).  

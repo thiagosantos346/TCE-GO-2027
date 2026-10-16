@@ -36,19 +36,19 @@
 ---
 
 ## 🧭 Sumário
-1. [Comunicação dos Resultados e Deliberações do Tribunal](#1-comunicação-dos-resultados-e-deliberações-do-tribunal)
-    - 1.1 [Atributos do Relatório de Auditoria](#11-atributos-do-relatório-de-auditoria)
-    - 1.2 [Espécies de Deliberações: Determinações versus Recomendações](#12-espécies-de-deliberações-determinações-versus-recomendações)
-2. [Tomada de Contas Especial (TCE): Rito e Pressupostos](#2-tomada-de-contas-especial-tce-rito-e-pressupostos)
-    - 2.1 [Natureza Jurídica e Pressupostos de Instauração Obrigatória](#21-natureza-jurídica-e-pressupostos-de-instauração-obrigatória)
-    - 2.2 [Fase Interna versus Fase Externa da TCE](#22-fase-interna-versus-fase-externa-da-tce)
-3. [Comunicações Processuais: Citação versus Audiência](#3-comunicações-processuais-citação-versus-audiência)
-4. [Julgamento das Contas de Gestão dos Administradores Públicos](#4-julgamento-das-contas-de-gestão-dos-administradores-públicos)
-5. [Sistema Recursal no Processo de Controle Externo](#5-sistema-recursal-no-processo-de-controle-externo)
-6. [Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)](#6-regime-sancionatório-e-reflexos-eleitorais-lei-da-ficha-limpa)
-7. [Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)](#7-prescrição-nos-tribunais-de-contas-o-marco-do-stf-tema-899)
-8. [Fontes Oficiais & Jurisprudenciais Recomendadas](#8-fontes-oficiais--jurisprudenciais-recomendadas)
-9. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#9-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
+- [1. Comunicação dos Resultados e Deliberações do Tribunal](#1-comunicacao-dos-resultados-e-deliberacoes-do-tribunal)
+    - [1.1 Atributos do Relatório de Auditoria](#11-atributos-do-relatorio-de-auditoria)
+    - [1.2 Espécies de Deliberações: Determinações versus Recomendações](#12-especies-de-deliberacoes-determinacoes-versus-recomendacoes)
+- [2. Tomada de Contas Especial (TCE): Rito e Pressupostos](#2-tomada-de-contas-especial-tce-rito-e-pressupostos)
+    - [2.1 Natureza Jurídica e Pressupostos de Instauração Obrigatória](#21-natureza-juridica-e-pressupostos-de-instauracao-obrigatoria)
+    - [2.2 Fase Interna versus Fase Externa da TCE](#22-fase-interna-versus-fase-externa-da-tce)
+- [3. Comunicações Processuais: Citação versus Audiência](#3-comunicacoes-processuais-citacao-versus-audiencia)
+- [4. Julgamento das Contas de Gestão dos Administradores Públicos](#4-julgamento-das-contas-de-gestao-dos-administradores-publicos)
+- [5. Sistema Recursal no Processo de Controle Externo](#5-sistema-recursal-no-processo-de-controle-externo)
+- [6. Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)](#6-regime-sancionatorio-e-reflexos-eleitorais-lei-da-ficha-limpa)
+- [7. Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)](#7-prescricao-nos-tribunais-de-contas-o-marco-do-stf-tema-899)
+- [8. Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+- [9. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -217,6 +217,7 @@ A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional e
 * **E)** A citação do responsável no bojo da Tomada de Contas Especial dispensa a individualização da conduta e a indicação do valor nominal do débito atribuído, bastando a descrição genérica do fato apurado pela comissão tomadora.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O procedimento ordinário anual é a Prestação/Tomada de Contas Ordinária. A TCE é processo administrativo de caráter extraordinário e excepcional vocacionado a apurar dano ao erário e buscar reparação patrimonial.  
 > - **B) Incorreta:** A autoridade administrativa deve, primeiramente, esgotar todas as providências administrativas internas no âmbito do próprio órgão para tentar reaver os valores amigavelmente antes de instaurar a TCE.  
 > - **C) CORRETA:** A TCE é instrumento de exceção. A sua regular deflagração exige simultaneamente: a) ocorrência de dano; b) esgotamento das vias administrativas prévias sem êxito; c) valor do dano superior ao limite de alçada normativo do Tribunal; e d) não transcurso de mais de dez anos entre o fato e a primeira notificação válida do agente.  
@@ -239,6 +240,7 @@ Diante de tal quadro, à luz da legislação de regência e da jurisprudência c
 * **E)** Deixar de julgar as contas e remeter os autos à Procuradoria-Geral do Estado para ajuizamento de ação de improbidade administrativa perante o Poder Judiciário.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** Contas iliquidáveis decorrem de caso fortuito ou força maior comprovada (ex.: enchente destruindo arquivos) que impeça materialmente o julgamento.  
 > - **B) CORRETA:** Conforme o art. 71, II e VIII da CF/88 e a Lei Orgânica do TCE-GO (art. 59, III), as contas de gestão serão julgadas **irregulares** quando comprovada a prática de grave infração a norma legal ou regulamentar de natureza contábil, financeira ou orçamentária, aplicando-se multa sancionatória ao gestor, mesmo na hipótese em que não tenha havido dano ao erário.  
 > - **C) Incorreta:** Grave infração a norma legal impede o juízo de regularidade com ressalva, o qual se reserva estritamente a falhas formais de menor relevância que não comprometam a legitimidade da gestão.  
@@ -261,6 +263,7 @@ Para oportunizar a manifestação formal do gestor que subscreveu o edital impug
 * **E)** Citação por edital com prazo de cinco dias sob pena de revelia e prisão civil.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A citação é reservada a processos em que há imputação de débito e pretensão de ressarcimento por dano ao erário.  
 > - **B) CORRETA:** A **Audiência** é o instrumento processual próprio de chamamento aos autos utilizado pelo Tribunal de Contas quando se imputa ao responsável a prática de infração à norma legal ou regulamentar sem dano patrimonial apurado, conferindo-lhe prazo para apresentar **razões de justificativa** antes de eventual cominação de multa.  
 > - **C) Incorreta:** Trata-se de procedimento administrativo de controle externo, prescindindo de interpelação perante o Poder Judiciário.  
@@ -281,6 +284,7 @@ Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgou irreg
 * **E)** Mandado de Segurança perante o Tribunal de Justiça.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O Recurso de Revisão tem natureza de ação rescisória, cabível no prazo decadencial de 5 anos do trânsito em julgado, sem efeito suspensivo.  
 > - **B) Incorreta:** O Pedido de Reexame é o recurso cabível contra decisões de mérito em **processos de fiscalização** (auditorias, inspeções, acompanhamentos), e não em processos de contas.  
 > - **C) CORRETA:** Nos termos da Lei Orgânica dos Tribunais de Contas (art. 76 da Lei nº 16.168/2007 do TCE-GO e art. 33 da Lei 8.443/92), o recurso cabível contra acórdão definitivo proferido em **processo de contas** (Prestação de Contas ou Tomada de Contas Especial) é o **Recurso de Reconsideração**, dotado de efeito suspensivo.  
@@ -301,6 +305,7 @@ Acerca dos reflexos eleitorais decorrentes das decisões terminativas proferidas
 * **E)** A inelegibilidade decorrente da rejeição de contas perdura por até vinte anos contados da data da notificação inicial no Tribunal de Contas.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** Regularidade com ressalva não gera inelegibilidade, pois representa quitação das contas com identificação de meras falhas formais.  
 > - **B) CORRETA:** Reproduz a literalidade do art. 1º, inciso I, alínea "g" da Lei Complementar nº 64/1990: são inelegíveis *"os que tiverem suas contas relativas ao exercício de cargos ou funções públicas rejeitadas por irregularidade insanável que configure ato doloso de improbidade administrativa, e por decisão irrecorrível do órgão competente, salvo se esta houver sido suspensa ou anulada pelo Poder Judiciário, para as eleições que se realizarem nos 8 (oito) anos seguintes"*.  
 > - **C) Incorreta:** Pelo princípio da inafastabilidade da jurisdição (art. 5º, XXXV da CF), o Poder Judiciário pode apreciar a legalidade formal e material dos julgamentos dos TCs.  

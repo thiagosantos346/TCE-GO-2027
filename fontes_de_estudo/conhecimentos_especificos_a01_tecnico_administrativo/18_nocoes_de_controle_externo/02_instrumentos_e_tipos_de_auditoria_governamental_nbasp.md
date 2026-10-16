@@ -26,18 +26,18 @@
 ---
 
 ## 🧭 Sumário
-1. [Os Cinco Instrumentos de Fiscalização do Controle Externo](#1-os-cinco-instrumentos-de-fiscalização-do-controle-externo)
-    - 1.1 [Conceito e Finalidade Prática de Cada Instrumento](#11-conceito-e-finalidade-prática-de-cada-instrumento)
-    - 1.2 [Diferença Prática entre Inspeção e Monitoramento](#12-diferença-prática-entre-inspeção-e-monitoramento)
-2. [Tipologia das Auditorias Governamentais (Normas NBASP / INTOSAI)](#2-tipologia-das-auditorias-governamentais-normas-nbasp--intosai)
-    - 2.1 [Auditoria de Conformidade (NBASP 400)](#21-auditoria-de-conformidade-nbasp-400)
-    - 2.2 [Auditoria Operacional ou de Desempenho e os 4 Es (NBASP 300)](#22-auditoria-operacional-ou-de-desempenho-e-os-4-es-nbasp-300)
-    - 2.3 [Auditoria Financeira e os Tipos de Opinião do Auditor (NBASP 200)](#23-auditoria-financeira-e-os-tipos-de-opinião-do-auditor-nbasp-200)
-3. [Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria](#3-estrutura-normativa-nbasp--intosai-e-as-três-partes-da-auditoria)
-4. [Postura e Conduta Profissional do Auditor (NBASP 100)](#4-postura-e-conduta-profissional-do-auditor-nbasp-100)
-5. [Matrizes Metodológicas de Trabalho: Planejamento e Achados](#5-matrizes-metodológicas-de-trabalho-planejamento-e-achados)
-6. [Fontes Oficiais & Normativas Recomendadas](#6-fontes-oficiais--normativas-recomendadas)
-7. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#7-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
+- [1. Os Cinco Instrumentos de Fiscalização do Controle Externo](#1-os-cinco-instrumentos-de-fiscalizacao-do-controle-externo)
+    - [1.1 Conceito e Finalidade Prática de Cada Instrumento](#11-conceito-e-finalidade-pratica-de-cada-instrumento)
+    - [1.2 Diferença Prática entre Inspeção e Monitoramento](#12-diferenca-pratica-entre-inspecao-e-monitoramento)
+- [2. Tipologia das Auditorias Governamentais (Normas NBASP / INTOSAI)](#2-tipologia-das-auditorias-governamentais-normas-nbasp-intosai)
+    - [2.1 Auditoria de Conformidade (NBASP 400)](#21-auditoria-de-conformidade-nbasp-400)
+    - [2.2 Auditoria Operacional ou de Desempenho e os 4 Es (NBASP 300)](#22-auditoria-operacional-ou-de-desempenho-e-os-4-es-nbasp-300)
+    - [2.3 Auditoria Financeira e os Tipos de Opinião do Auditor (NBASP 200)](#23-auditoria-financeira-e-os-tipos-de-opiniao-do-auditor-nbasp-200)
+- [3. Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria](#3-estrutura-normativa-nbasp-intosai-e-as-tres-partes-da-auditoria)
+- [4. Postura e Conduta Profissional do Auditor (NBASP 100)](#4-postura-e-conduta-profissional-do-auditor-nbasp-100)
+- [5. Matrizes Metodológicas de Trabalho: Planejamento e Achados](#5-matrizes-metodologicas-de-trabalho-planejamento-e-achados)
+- [6. Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
+- [7. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -104,9 +104,11 @@ flowchart TD
     2. **Eficiência:** Relação técnica entre os insumos empregados (*inputs*) e os produtos, obras ou serviços gerados (*outputs*) - maximizar entregas com o menor dispêndio de recursos.
     3. **Eficácia:** Grau de alcance dos objetivos e metas formais estabelecidos no planejamento governamental (*atingir o percentual previsto no PPA/LOA*).
     4. **Efetividade:** Impacto social real e duradouro alcançado sobre a população-alvo e o meio ambiente (*transformação positiva na realidade dos cidadãos*).
+
 - **Desfecho:** Emissão preponderante de **recomendações pedagógicas de melhoria de gestão**, reservando-se as determinações apenas para obrigações legais vinculadas.
 
 > ⭐ **IMPORTANTE (EFICÁCIA vs. EFETIVIDADE NA BANCA FCC):**  
+>
 > - Uma campanha pública de vacinação que vacinou 100% das crianças estipuladas na meta física foi **EFICAZ**.  
 > - Se, apesar de vacinadas, a taxa de internações pela doença permaneceu alta devido à perda de refrigeração do lote de vacinas, o programa **NÃO FOI EFETIVO**!  
 > - A eficácia afere a entrega física da meta; a efetividade afere a alteração concreta da realidade socioeconômica.
@@ -196,6 +198,7 @@ De acordo com as Normas Brasileiras de Auditoria do Setor Público (NBASP 100 e 
 * **E)** Acompanhamento.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O levantamento serve para mapear processos e conhecer o funcionamento das entidades para planejar fiscalizações futuras.  
 > - **B) Incorreta:** A auditoria de conformidade avalia a legalidade e regularidade dos atos administrativos e contratos em face da lei.  
 > - **C) Incorreta:** A inspeção tem a finalidade de suprir omissões pontuais em processos ou apurar denúncias e representações de natureza urgente.  
@@ -218,6 +221,7 @@ Sob a ótica dos princípios da auditoria de desempenho público consagrados na 
 * **E)** O achado de auditoria configura distorção relevante em auditoria financeira, impondo emissão de parecer com abstenção de opinião.
 
 > **Comentário Detalhado:**
+>
 > - **A) CORRETA:** O programa foi **eficiente** (entregou a infraestrutura otimizando insumos e respeitando os custos e prazos orçados) e **eficaz** (atingiu 100% da meta física estipulada no planejamento), porém **não foi efetivo**, pois o impacto final transformador na saúde pública (redução das internações por doenças hídricas) não se concretizou.  
 > - **B) Incorreta:** A efetividade social foi expressamente frustrada e a eficiência foi plenamente alcançada na execução da obra.  
 > - **C) Incorreta:** O custo respeitou o orçamento previsto, não havendo demonstração de sobrepreço, antieconomicidade ou crime fiscal.  
@@ -240,6 +244,7 @@ De acordo com as normas da NBASP 200 (Auditoria Financeira), a equipe de auditor
 * **E)** Recomendações operacionais, arquivando-se o processo por falta de interesse de agir.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A opinião sem ressalvas é emitida quando as demonstrações estão adequadas e livres de distorções relevantes.  
 > - **B) Incorreta:** A opinião com ressalvas aplica-se quando as distorções são relevantes, porém **não generalizadas** (isto é, limitadas a itens contábeis isolados).  
 > - **C) CORRETA:** Conforme a NBASP 200, quando o auditor obtém evidência apropriada e suficiente e conclui que as distorções são **relevantes e generalizadas** (*pervasive*) para as demonstrações contábeis como um todo, deve expressar uma **Opinião Adversa**.  
@@ -262,6 +267,7 @@ Essa postura profissional exigida pelas normas NBASP 100 denomina-se:
 * **E)** Reserva Mental Processual.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O julgamento profissional é a aplicação do saber técnico, não se confundindo com o conceito de mente questionadora.  
 > - **B) CORRETA:** Conforme a NBASP 100, o **Ceticismo Profissional** é a postura que inclui uma mente questionadora, o permanente estado de alerta para circunstâncias indicativas de fraude ou erro e a avaliação crítica de todas as evidências obtidas ao longo da auditoria.  
 > - **C) Incorreta:** Imparcialidade política refere-se à independência e neutralidade partidária do servidor.  
@@ -282,6 +288,7 @@ Na metodologia de auditoria governamental aplicada pelos Tribunais de Contas, a 
 * **E)** Nota de Empenho Ordinário.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A matriz de riscos é instrumento contratual da Lei 14.133/2021 para alocação de encargos entre as partes.  
 > - **B) Incorreta:** A matriz de planejamento é elaborada antes da execução e contém questões de auditoria e métodos de coleta.  
 > - **C) CORRETA:** A **Matriz de Achados** é a ferramenta consagrada que estrutura cada achado de auditoria a partir de seus elementos essenciais: situação encontrada, critério legal/técnico, causa primária, efeitos/consequências e a respectiva proposta de deliberação ao colegiado.  

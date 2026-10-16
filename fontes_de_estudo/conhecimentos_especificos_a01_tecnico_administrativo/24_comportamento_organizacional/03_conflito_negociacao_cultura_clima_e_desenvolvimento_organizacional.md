@@ -31,14 +31,14 @@
 ---
 
 ## 🧭 Sumário Interativo
-- [1. Evolução Teórica do Conflito e Tipologias por Conteúdo](#1-evolução-teórica-do-conflito-e-tipologias-por-conteúdo)
-- [2. Estilos de Administração de Conflitos (Thomas-Kilmann)](#2-estilos-de-administração-de-conflitos-thomas-kilmann)
-- [3. Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)](#3-técnicas-de-negociação-distributiva-vs-integrativa-modelo-harvard)
-- [4. Cultura Organizacional e os Três Níveis de Edgar Schein](#4-cultura-organizacional-e-os-três-níveis-de-edgar-schein)
+- [1. Evolução Teórica do Conflito e Tipologias por Conteúdo](#1-evolucao-teorica-do-conflito-e-tipologias-por-conteudo)
+- [2. Estilos de Administração de Conflitos (Thomas-Kilmann)](#2-estilos-de-administracao-de-conflitos-thomas-kilmann)
+- [3. Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)](#3-tecnicas-de-negociacao-distributiva-vs-integrativa-modelo-harvard)
+- [4. Cultura Organizacional e os Três Níveis de Edgar Schein](#4-cultura-organizacional-e-os-tres-niveis-de-edgar-schein)
 - [5. Cultura Organizacional versus Clima Organizacional](#5-cultura-organizacional-versus-clima-organizacional)
-- [6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)](#6-desenvolvimento-organizacional-e-gestão-da-mudança-kurt-lewin)
-- [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referências-bibliográficas)
-- [8. Questões de Concurso FCC Comentadas](#8-questões-de-concurso-fcc-comentadas)
+- [6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)](#6-desenvolvimento-organizacional-e-gestao-da-mudanca-kurt-lewin)
+- [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
+- [8. Questões de Concurso FCC Comentadas](#8-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -156,6 +156,7 @@ flowchart LR
 | **Metáfora Clássica** | É o **DNA e a Personalidade** duradoura da instituição. | É o **Estado de Espírito e o Humor** momentâneo da equipe. |
 
 > ⭐ **IMPORTANTE (CULTURA VS. CLIMA ORGANIZACIONAL):**  
+>
 > - Se o enunciado relatar o moral da equipe, a atmosfera vivenciada após uma nomeação ou o nível momentâneo de entusiasmo com um bônus: trata-se de **CLIMA**.  
 > - Se relatar tradições institucionais de décadas, rituais históricos consolidados, crenças profundas e valores compartilhados: trata-se de **CULTURA**.
 
@@ -177,6 +178,7 @@ flowchart LR
 1. **Descongelamento (*Unfreezing*):** A liderança quebra a inércia e desafia o *status quo* vigente, conscientizando os servidores de que as rotinas antigas estão superadas, criando a prontidão psicológica indispensável para a mudança.
 2. **Movimento / Mudança (*Changing*):** Fase de transição e implementação prática; os servidores recebem capacitação, assimilam novos softwares e passam a adotar novos processos de trabalho.
 3. **Recongelamento (*Refreezing*):** Estabilização e institucionalização das novas práticas no cotidiano e na cultura do órgão, assegurando que o novo padrão se torne permanente e evitando a regressão aos velhos hábitos.
+
 * **Análise do Campo de Forças (Lewin):** Toda mudança organizacional decorre do equilíbrio dinâmico entre **Forças Propulsoras/Impulsoras** (que estimulam a transformação) e **Forças Restritivas** (que resistem à inovação e buscam manter a inércia). Gestores eficientes concentram esforços em **atenuar e reduzir as forças restritivas**, mitigando o medo do desconhecido e o estresse da equipe.
 
 > 📌 **NOTA EXPLICATIVA (O PAPEL DO RECONGELAMENTO DE LEWIN):**  
@@ -207,6 +209,7 @@ Segundo a teoria dos níveis da cultura organizacional desenvolvida por Edgar Sc
 * **E)** Códigos formais de ética institucional.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Artefatos são os elementos superficiais e plenamente visíveis da cultura (prédios, vestuário, mobília, slogans).  
 > - **B) Incorreta.** Valores compartilhados são premissas conscientes verbalizadas pela liderança.  
 > - **C) Incorreta.** Símbolos materiais integram o nível dos artefatos.  
@@ -228,6 +231,7 @@ No modelo clássico de gestão da mudança organizacional formulado por Kurt Lew
 * **E)** Institucionalização de valor.
 
 > **Comentário Detalhado:**  
+>
 > - **A) CORRETA.** A fase de **Descongelamento (*Unfreezing*)** no modelo de Kurt Lewin visa precisamente desafiar e quebrar a inércia do *status quo*, conscientizando os servidores de que os procedimentos atuais são obsoletos ou ineficazes e gerando a prontidão psicológica indispensável para assimilar novos hábitos.  
 > - **B) Incorreta.** O recongelamento é a fase final de estabilização e padronização da nova conduta aprendida.  
 > - **C) Incorreta.** O movimento é a etapa intermediária de transição e assimilação dos novos métodos.  
@@ -249,6 +253,7 @@ A respeito da diferença essencial entre Cultura Organizacional e Clima Organiza
 * **E)** O clima organizacional manifesta-se exclusivamente através dos pressupostos básicos subjacentes inconscientes descritos por Edgar Schein.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A cultura é duradoura e perene; o clima é transitório e mutável.  
 > - **B) Incorreta.** A questão inverteu os conceitos de cultura e clima.  
 > - **C) CORRETA.** A **Cultura Organizacional** corresponde ao DNA, à personalidade estável e aos valores históricos da instituição; o **Clima Organizacional** traduz o estado de espírito, o "humor" momentâneo e as percepções transitórias compartilhadas pelos servidores em dado período (como após uma reestruturação ou atraso salarial).  
@@ -270,6 +275,7 @@ No âmbito da teoria contemporânea de gestão de conflitos, a abordagem Interac
 * **E)** As organizações que operam sob a abordagem interacionista eliminam a figura do líder para permitir conflitos ilimitados e irrestritos.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Essa é a Visão Tradicional do conflito (anos 1930/40).  
 > - **B) Incorreta.** A ausência total de conflitos sinaliza apatia, estagnação e pensamento grupal acrítico (*groupthink*).  
 > - **C) CORRETA.** A **Visão Interacionista** preconiza que um nível **mínimo e moderado de conflito funcional** (focado no conteúdo das tarefas) é saudável e indispensável para manter o grupo vivo, criativo e inovador, impedindo que a equipe caia na estagnação e no comodismo.  
@@ -291,6 +297,7 @@ Durante uma negociação contratual complexa entre um órgão público e uma emp
 * **E)** Restringir-se a transações mercantis esporádicas de compra imediata, nas quais a única variável relevante é o menor preço à vista.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Foco em posições fixas e partilha de soma zero caracterizam a negociação **distributiva**.  
 > - **B) CORRETA.** A **Negociação Integrativa (Ganha-Ganha / *Win-Win*)** foca nos **interesses subjacentes** mútuos das partes, buscando "aumentar o bolo" (criar valor conjunto) por meio de opções criativas que satisfaçam as necessidades de ambos os lados e fortaleçam a parceria institucional de longo prazo.  
 > - **C) Incorreta.** Capitulação unilateral corresponde ao estilo de acomodação ou perda forçada, oposto ao ganha-ganha.  

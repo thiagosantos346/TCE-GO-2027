@@ -18,28 +18,27 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Fundamentos de Serviços de Diretório e Protocolo LDAP](#1-fundamentos-de-serviços-de-diretório-e-protocolo-ldap)
-    - [1.1 Conceito: Diretório Hierárquico vs. Banco de Dados Relacional (RDBMS)](#11-conceito-diretório-hierárquico-vs-banco-de-dados-relacional-rdbms)
-    - [1.2 O Protocolo LDAP: Portas Padrão e Arquitetura TCP/IP](#12-o-protocolo-ldap-portas-padrão-e-arquitetura-tcpip)
+- [1. Fundamentos de Serviços de Diretório e Protocolo LDAP](#1-fundamentos-de-servicos-de-diretorio-e-protocolo-ldap)
+    - [1.1 Conceito: Diretório Hierárquico vs. Banco de Dados Relacional (RDBMS)](#11-conceito-diretorio-hierarquico-vs-banco-de-dados-relacional-rdbms)
+    - [1.2 O Protocolo LDAP: Portas Padrão e Arquitetura TCP/IP](#12-o-protocolo-ldap-portas-padrao-e-arquitetura-tcpip)
     - [1.3 Formato de Nomenclatura X.500: DN, RDN, CN, OU e DC](#13-formato-de-nomenclatura-x500-dn-rdn-cn-ou-e-dc)
-    - [1.4 Operações LDAP Fundamentais e Filtros de Busca](#14-operações-ldap-fundamentais-e-filtros-de-busca)
-- [2. Arquitetura Lógica do Microsoft Active Directory (AD DS)](#2-arquitetura-lógica-do-microsoft-active-directory-ad-ds)
-    - [2.1 Níveis Hierárquicos: OUs, Domínios, Árvores e Floresta](#21-níveis-hierárquicos-ous-domínios-árvores-e-floresta)
+    - [1.4 Operações LDAP Fundamentais e Filtros de Busca](#14-operacoes-ldap-fundamentais-e-filtros-de-busca)
+- [2. Arquitetura Lógica do Microsoft Active Directory (AD DS)](#2-arquitetura-logica-do-microsoft-active-directory-ad-ds)
+    - [2.1 Níveis Hierárquicos: OUs, Domínios, Árvores e Floresta](#21-niveis-hierarquicos-ous-dominios-arvores-e-floresta)
     - [2.2 Tipos e Escopos de Grupos no AD DS](#22-tipos-e-escopos-de-grupos-no-ad-ds)
-    - [2.3 A Estratégia Canônica de Permissões: AGDLP e AGUDLP](#23-a-estratégia-canônica-de-permissões-agdlp-e-agudlp)
-- [3. Estrutura Física e Serviços de Infraestrutura do AD DS](#3-estrutura-física-e-serviços-de-infraestrutura-do-ad-ds)
-    - [3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL](#31-controladores-de-domínio-dcs-ntdsdit-e-sysvol)
-    - [3.2 Sites, Sub-redes e Otimização de Replicação Física](#32-sites-sub-redes-e-otimização-de-replicação-física)
-    - [3.3 Catálogo Global (Global Catalog - GC)](#33-catálogo-global-global-catalog---gc)
-    - [3.4 As 5 Funções Mestres de Operação Única (FSMO)](#34-as-5-funções-mestres-de-operação-única-fsmo)
-- [4. Políticas de Grupo (GPO) e Autenticação Kerberos v5](#4-políticas-de-grupo-gpo-e-autenticação-kerberos-v5)
-    - [4.1 Precedência e Ordem de Processamento de GPOs (LSDOU)](#41-precedência-e-ordem-de-processamento-de-gpos-lsdou)
-    - [4.2 Bloqueio de Herança (Block Inheritance) vs. Imposição (Enforced)](#42-bloqueio-de-herança-block-inheritance-vs-imposição-enforced)
-    - [4.3 Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço](#43-mecânica-do-kerberos-v5-kdc-as-tgs-tgt-e-bilhetes-de-serviço)
-    - [4.4 Tolerância Temporal (Clock Skew) e o Papel do PDC Emulator](#44-tolerância-temporal-clock-skew-e-o-papel-do-pdc-emulator)
+    - [2.3 A Estratégia Canônica de Permissões: AGDLP e AGUDLP](#23-a-estrategia-canonica-de-permissoes-agdlp-e-agudlp)
+- [3. Estrutura Física e Serviços de Infraestrutura do AD DS](#3-estrutura-fisica-e-servicos-de-infraestrutura-do-ad-ds)
+    - [3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL](#31-controladores-de-dominio-dcs-ntdsdit-e-sysvol)
+    - [3.2 Sites, Sub-redes e Otimização de Replicação Física](#32-sites-sub-redes-e-otimizacao-de-replicacao-fisica)
+    - [3.3 Catálogo Global (Global Catalog - GC)](#33-catalogo-global-global-catalog-gc)
+    - [3.4 As 5 Funções Mestres de Operação Única (FSMO)](#34-as-5-funcoes-mestres-de-operacao-unica-fsmo)
+- [4. Políticas de Grupo (GPO) e Autenticação Kerberos v5](#4-politicas-de-grupo-gpo-e-autenticacao-kerberos-v5)
+    - [4.1 Precedência e Ordem de Processamento de GPOs (LSDOU)](#41-precedencia-e-ordem-de-processamento-de-gpos-lsdou)
+    - [4.2 Bloqueio de Herança (Block Inheritance) vs. Imposição (Enforced)](#42-bloqueio-de-heranca-block-inheritance-vs-imposicao-enforced)
+    - [4.3 Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço](#43-mecanica-do-kerberos-v5-kdc-as-tgs-tgt-e-bilhetes-de-servico)
+    - [4.4 Tolerância Temporal (Clock Skew) e o Papel do PDC Emulator](#44-tolerancia-temporal-clock-skew-e-o-papel-do-pdc-emulator)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas & Exemplos Práticos](#6-questões-comentadas--exemplos-práticos)
+- [6. Questões Comentadas & Exemplos Práticos](#6-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -146,10 +145,13 @@ flowchart TD
     - É o menor elemento da hierarquia do AD DS no qual se pode:
     - **Vincular diretamente uma Política de Grupo (GPO)**;
     - **Delegar poderes de administração** (ex.: conceder ao suporte técnico de Goiânia autorização para redefinir senhas exclusivamente dos servidores daquela OU).
+
 2. **Domínio (*Domain*):**
     - É a unidade lógica central de segurança, replicação e gerenciamento de contas. Todos os Controladores de Domínio (DCs) do mesmo domínio replicam 100% dos objetos locais.
+
 3. **Árvore de Domínios (*Domain Tree*):**
     - Coleção de um ou mais domínios que compartilham um **namespace DNS contíguo** (ex.: `tce.go.gov.br` e o filho `sistemas.tce.go.gov.br`). Estabelecem relações de confiança automáticas bidirecionais e transitivas entre pai e filho.
+
 4. **Floresta (*Forest*):**
     - É a **fronteira máxima de segurança (*Security Boundary*)** de toda a arquitetura Active Directory.
     - Compreende uma ou mais árvores de domínios que obrigatoriamente compartilham:
@@ -348,6 +350,7 @@ Sabendo que a OU `Licitacoes` possui a opção de "Bloquear Herança" (*Block In
 * **E)** GPO "Diretiva-Dominio", pois a opção de Imposição (*Enforced*) ignora e sobrepõe qualquer bloqueio de herança definido nas Unidades Organizacionais descendentes.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A diretiva Local é a primeira a ser processada na cadeia e possui a menor precedência em relação às diretivas de domínio.
 > - **B)** Incorreta. As diretivas de Site são ordinariamente bloqueadas pelo Bloqueio de Herança caso não estejam marcadas como Enforced.
 > - **C)** Incorreta. A GPO da OU Administrativo foi devidamente bloqueada pelo Block Inheritance da OU filha e não possui a flag Enforced.
@@ -372,6 +375,7 @@ De acordo com o padrão LDAP, assinale a alternativa que apresenta a sintaxe can
 * **E)** `CN=Julio Cesar.OU=AuditoriaTributaria.OU=Fiscalizacao.DC=sefaz.go.gov.br`
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. Segue com perfeição a regra de construção de DN da RFC 4511: inicia pelo nó folha mais específico (`CN=Julio Cesar`), seguido das OUs em ordem ascendente (`OU=AuditoriaTributaria`, `OU=Fiscalizacao`) e finaliza com os componentes de domínio DNS individualizados (`DC=sefaz,DC=go,DC=gov,DC=br`), todos separados por vírgulas.
 > - **B)** Incorreta. Utiliza barras como delimitadores e agrupa o domínio com pontos, violando a norma de atributos individuais DC.
 > - **C)** Incorreta. Emprega identificadores inexistentes no esquema padrão LDAP (`USER`, `DEPT`, `SECTOR`, `DOMAIN`).
@@ -394,6 +398,7 @@ Sobre as atribuições e o escopo dessas funções, é correto afirmar:
 * **E)** A função de *Domain Naming Master* tem escopo de domínio e é responsável por atribuir identificadores relativos (RIDs) a cada novo objeto criado pelos controladores de domínio locais.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Schema Master possui escopo de floresta (apenas 1 por floresta); o esquema do AD DS é único e universal para todos os domínios da floresta.
 > - **B)** Correta. O PDC Emulator opera no nível de domínio e é a função FSMO de maior atividade, sendo responsável pela sincronização de tempo NTP (vital para o Kerberos) e processamento imediato de alterações de senha.
 > - **C)** Incorreta. O RID Master opera no nível de domínio e distribui blocos de identificadores relativos para criação de novos SIDs.
@@ -414,6 +419,7 @@ No protocolo de autenticação Kerberos v5, implementado nativamente pelo Active
 * **E)** O protocolo prescinde do uso de criptografia simétrica, utilizando certificados digitais de chave pública assimetricamente em todas as interações de solicitação de arquivos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. No Kerberos, a senha do usuário jamais é transmitida pela rede em nenhuma circunstância.
 > - **B)** Incorreta. Quem emite o TGT inicial durante o logon primário é o serviço Authentication Server (AS), e não o TGS.
 > - **C)** Incorreta. A sincronia de relógio é indispensável para evitar ataques de repetição (*replay attack*). Se o desvio temporal exceder a tolerância padrão de 5 minutos, a autenticação falhará.
@@ -436,6 +442,7 @@ Para cumprir esse padrão, a sequência correta de estruturação de contas, esc
 * **E)** As contas de usuários (**A**) são associadas diretamente a uma Unidade Organizacional (**OU**), onde as permissões NTFS (**P**) de pastas são vinculadas via GPO.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Inserir usuários individuais em ACLs é uma péssima prática de governança que inviabiliza a auditoria e a escala administrativa.
 > - **B)** Incorreta. Inverte a ordem do aninhamento estrutural: no AGDLP, os Grupos Globais entram nos Grupos Locais de Domínio.
 > - **C)** Correta. Expressa a metodologia canônica AGDLP: Contas (**A**) entram em Grupos Globais (**G** que definem funções), estes entram em Grupos Locais de Domínio (**DL** que definem direitos), que finalmente recebem as Permissões (**P**) nas ACLs de pastas.

@@ -13,6 +13,7 @@
     - Foco do treinamento: cargo atual, suprimento de carências imediatas de desempenho operacional;
     - Foco do desenvolvimento: carreira, ampliação do potencial intelectual e cargos/desafios futuros;
     - Papel de T&D no macroprocesso de **Desenvolver Pessoas** de Idalberto Chiavenato.
+
 2. **O Ciclo Estratégico de Treinamento (4 Etapas Integradas):**
     - **Etapa 1: Diagnóstico / Levantamento de Necessidades de Treinamento (LNT):** análise organizacional, análise da força de trabalho/competências e análise funcional/individual (instrumentos: avaliação de desempenho, observação direta, entrevistas com lideranças e incidentes críticos).
     - **Etapa 2: Desenho e Programação do Treinamento:** os 6 parâmetros do projeto instrucional (*quem deve ser treinado, quem vai treinar, em que treinar, onde treinar, como treinar e quando treinar*).
@@ -23,6 +24,7 @@
     - Nível 3: Comportamento no Cargo / Aplicabilidade / Transferência do Aprendizado;
     - Nível 4: Resultados Organizacionais e Impacto Institucional (ampliação de eficiência no controle externo);
     - O Modelo de Jack Phillips: o 5º Nível (*Return on Investment* - ROI financeiro).
+
 3. **Gestão do Conhecimento Organizacional:**
     - A pirâmide cognitiva: Dado $\rightarrow$ Informação $\rightarrow$ Conhecimento $\rightarrow$ Sabedoria (Modelo DIKW);
     - Conhecimento Tácito (subjetivo, pessoal, empírico, interiorizado e difícil de formalizar) vs. Conhecimento Explícito (estruturado, codificado, documentado em manuais, leis e sistemas);
@@ -32,6 +34,7 @@
     - **Combinação:** Explícito $\rightarrow$ Explícito (cruzamento e sistematização de bases documentais);
     - **Internalização:** Explícito $\rightarrow$ Tácito (incorporação do conteúdo na prática diária - *learning by doing*);
     - O conceito japonês de *Ba* (contexto e espaço compartilhado para geração de conhecimento).
+
 4. **Aprendizagem Organizacional e a Organização que Aprende:**
     - Aprendizagem em Circuito Simples (*Single-Loop Learning*) vs. Aprendizagem em Circuito Duplo (*Double-Loop Learning*) segundo Chris Argyris e Donald Schön;
     - As Cinco Disciplinas de Peter Senge (*A Quinta Disciplina*): Domínio Pessoal, Modelos Mentais, Visão Compartilhada, Aprendizagem em Equipe e Pensamento Sistêmico;
@@ -41,12 +44,12 @@
 
 ## 🧭 Sumário Interativo
 - [1. Treinamento vs. Desenvolvimento de Pessoas](#1-treinamento-vs-desenvolvimento-de-pessoas)
-- [2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick](#2-o-ciclo-de-treinamento-em-quatro-etapas-e-a-avaliação-de-kirkpatrick)
-- [3. Gestão do Conhecimento Organizacional e o Modelo SECI](#3-gestão-do-conhecimento-organizacional-e-o-modelo-seci)
+- [2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick](#2-o-ciclo-de-treinamento-em-quatro-etapas-e-a-avaliacao-de-kirkpatrick)
+- [3. Gestão do Conhecimento Organizacional e o Modelo SECI](#3-gestao-do-conhecimento-organizacional-e-o-modelo-seci)
 - [4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge](#4-aprendizagem-organizacional-e-as-cinco-disciplinas-de-peter-senge)
-- [5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)](#5-educação-corporativa-e-escolas-de-governo-ilbtce-go)
-- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referências-bibliográficas)
-- [7. Questões de Concurso FCC Comentadas](#7-questões-de-concurso-fcc-comentadas)
+- [5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)](#5-educacao-corporativa-e-escolas-de-governo-ilbtce-go)
+- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+- [7. Questões de Concurso FCC Comentadas](#7-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -269,6 +272,7 @@ O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práti
 * **E)** Aprendizagem em circuito simples.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A socialização ocorre na troca direta de experiências de indivíduo para indivíduo (tácito para tácito), sem formalização por escrito.  
 > - **B) CORRETA.** A **Externalização** é exatamente a conversão do conhecimento **Tácito em Explícito**. Ocorre quando os profissionais conseguem expressar suas vivências intuitivas, julgamentos e saberes práticos sob a forma de conceitos compreensíveis, manuais de procedimentos, roteiros escritos, fluxogramas e documentos formais acessíveis a outros membros.  
 > - **C) Incorreta.** A combinação consiste em juntar e cruzar conhecimentos já codificados (explícito para explícito), como compilar duas leis em um documento unificado.  
@@ -290,6 +294,7 @@ Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licita�
 * **E)** Nível 5 – Clima Institucional e Motivação Relacional.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** O Nível 1 (Reação) afere a satisfação dos alunos com o instrutor e as instalações ao término da aula (pesquisa de opinião imediata).  
 > - **B) Incorreta.** O Nível 2 (Aprendizagem) avalia a retenção de conceitos mediante provas aplicadas imediatamente ao final do treinamento.  
 > - **C) CORRETA.** O **Nível 3 (Comportamento no Cargo ou Transferência do Aprendizado)** avalia a extensão em que os participantes aplicaram e transferiram efetivamente os novos saberes para as suas rotinas diárias no posto de trabalho. Ao verificar, após 60 dias de prática real, se as minutas e condutas dos servidores foram alteradas, a organização está medindo a modificação comportamental funcional.  
@@ -311,6 +316,7 @@ No âmbito da administração de recursos humanos, as ações voltadas para Trei
 * **E)** Treinamento emergencial sobre normas de combate a incêndio promovido pela brigada de segurança predial.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Trata-se de ação típica de **Treinamento**: foco no cargo atual, curto prazo e suprimento de carência operacional pontual.  
 > - **B) Incorreta.** Foco exclusivo na execução de tarefas do posto de trabalho atual com finalidade corretiva imediata (treinamento operacional).  
 > - **C) CORRETA.** O **Desenvolvimento de Pessoas** caracteriza-se pelo foco no **longo prazo**, na expansão de competências abrangentes, no crescimento intelectual contínuo e na preparação dos servidores para **cargos futuros**, desafios estratégicos e planos de sucessão institucional, como demonstrado pelo programa de liderança e governança.  
@@ -332,6 +338,7 @@ Em sua consagrada obra sobre organizações que aprendem (*Learning Organization
 * **E)** Pensamento Sistêmico.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** O Domínio Pessoal é a disciplina voltada ao crescimento e autoconhecimento individual.  
 > - **B) Incorreta.** Os Modelos Mentais referem-se à capacidade de expor e questionar pressupostos e crenças internalizadas sobre como a realidade funciona.  
 > - **C) Incorreta.** A Visão Compartilhada é a construção de um objetivo e identidade coletivos que mobilizam o compromisso autêntico da equipe.  
@@ -353,6 +360,7 @@ Dois teóricos fundamentais do comportamento organizacional, Chris Argyris e Don
 * **E)** Representa a aquisição estritamente individual de novos conhecimentos teóricos pelo colaborador sem qualquer possibilidade de compartilhamento coletivo com seus pares.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Punição burocrática e controle disciplinar não constituem aprendizagem em circuito duplo.  
 > - **B) Incorreta.** A repetição mecânica de rotinas é condicionamento instrumental pavloviano, oposto da aprendizagem reflexiva.  
 > - **C) Incorreta.** Modificar rotinas sem questionar valores e políticas subjacentes é a definição exata de **aprendizagem em circuito simples (*single-loop*)**.  

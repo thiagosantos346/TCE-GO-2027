@@ -17,23 +17,23 @@
 ## 🧭 Sumário
 - [1. Engenharia de Requisitos de Software](#1-engenharia-de-requisitos-de-software)
     - [1.1 Ciclo de Vida da Engenharia de Requisitos](#11-ciclo-de-vida-da-engenharia-de-requisitos)
-    - [1.2 Técnicas de Elicitação de Requisitos](#12-técnicas-de-elicitação-de-requisitos)
-    - [1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)](#13-requisitos-funcionais-vs-requisitos-não-funcionais-taxonomia-de-sommerville)
-    - [1.4 Gerenciamento, Rastreabilidade e Mudança de Requisitos](#14-gerenciamento-rastreabilidade-e-mudança-de-requisitos)
-- [2. Modelagem por Casos de Uso e Histórias de Usuário](#2-modelagem-por-casos-de-uso-e-histórias-de-usuário)
+    - [1.2 Técnicas de Elicitação de Requisitos](#12-tecnicas-de-elicitacao-de-requisitos)
+    - [1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)](#13-requisitos-funcionais-vs-requisitos-nao-funcionais-taxonomia-de-sommerville)
+    - [1.4 Gerenciamento, Rastreabilidade e Mudança de Requisitos](#14-gerenciamento-rastreabilidade-e-mudanca-de-requisitos)
+- [2. Modelagem por Casos de Uso e Histórias de Usuário](#2-modelagem-por-casos-de-uso-e-historias-de-usuario)
     - [2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)](#21-modelagem-de-casos-de-uso-elementos-e-relacionamentos-include-vs-extend)
-    - [2.2 Histórias de Usuário (User Stories) e os 3 Cs de Ron Jeffries](#22-histórias-de-usuário-user-stories-e-os-3-cs-de-ron-jeffries)
-    - [2.3 Critérios de Aceite e o Padrão INVEST](#23-critérios-de-aceite-e-o-padrão-invest)
-- [3. Modelagem de Sistemas com UML (versão 2.5)](#3-modelagem-de-sistemas-com-uml-versão-25)
+    - [2.2 Histórias de Usuário (User Stories) e os 3 Cs de Ron Jeffries](#22-historias-de-usuario-user-stories-e-os-3-cs-de-ron-jeffries)
+    - [2.3 Critérios de Aceite e o Padrão INVEST](#23-criterios-de-aceite-e-o-padrao-invest)
+- [3. Modelagem de Sistemas com UML (versão 2.5)](#3-modelagem-de-sistemas-com-uml-versao-25)
     - [3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais](#31-taxonomia-dos-diagramas-uml-estruturais-vs-comportamentais)
-    - [3.2 Diagrama de Classes: Visibilidade, Multiplicidade, Agregação e Composição](#32-diagrama-de-classes-visibilidade-multiplicidade-agregação-e-composição)
-    - [3.3 Diagramas de Sequência, Atividades e Máquina de Estados](#33-diagramas-de-sequência-atividades-e-máquina-de-estados)
-- [4. Modelagem de Processos de Negócio com BPMN 2.0](#4-modelagem-de-processos-de-negócio-com-bpmn-20)
+    - [3.2 Diagrama de Classes: Visibilidade, Multiplicidade, Agregação e Composição](#32-diagrama-de-classes-visibilidade-multiplicidade-agregacao-e-composicao)
+    - [3.3 Diagramas de Sequência, Atividades e Máquina de Estados](#33-diagramas-de-sequencia-atividades-e-maquina-de-estados)
+- [4. Modelagem de Processos de Negócio com BPMN 2.0](#4-modelagem-de-processos-de-negocio-com-bpmn-20)
     - [4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas](#41-elementos-de-fluxo-eventos-atividades-e-tipos-de-tarefas)
-    - [4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)](#42-gateways-decisórios-no-bpmn-20-xor-and-or-e-event-based)
-    - [4.3 Estruturas de Separação (Pools e Lanes) e Conectores de Sequência vs. Mensagem](#43-estruturas-de-separação-pools-e-lanes-e-conectores-de-sequência-vs-mensagem)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
+    - [4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)](#42-gateways-decisorios-no-bpmn-20-xor-and-or-e-event-based)
+    - [4.3 Estruturas de Separação (Pools e Lanes) e Conectores de Sequência vs. Mensagem](#43-estruturas-de-separacao-pools-e-lanes-e-conectores-de-sequencia-vs-mensagem)
+- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -100,15 +100,18 @@ Um Caso de Uso descreve uma sequência de interações entre um ator externo (hu
 - **Cenários:** Compõe-se de um *Cenário Principal* (fluxo básico ou "caminho feliz" onde tudo ocorre com sucesso) e *Cenários Alternativos/Exceção* (desvios de rota, validações de erro ou falhas).
 
 **Relacionamentos no Diagrama de Casos de Uso (Cobrança Clássica da FCC):**
+
 1. **Associação:** Linha contínua que conecta um ator a um caso de uso, denotando comunicação direta.
 2. **Estereótipo `«include»` (Inclusão Obrigatória):**
     - O caso de uso base **depende obrigatoriamente** do caso de uso incluído para completar sua execução com sucesso;
     - Evita duplicação de comportamentos comuns compartilhados por múltiplos casos de uso (ex.: *Emitir Relatório* inclui compulsoriamente *Autenticar Usuário*);
     - **Direção da Seta:** Seta tracejada apontando **do Caso Base para o Caso Incluído** ($\text{Base} \xrightarrow{\ll\text{include}\gg} \text{Incluído}$).
+
 3. **Estereótipo `«extend»` (Extensão Condicional / Opcional):**
     - Modela comportamento acessório, opcional ou excepcional que somente é acionado se determinada condição pré-definida for satisfeita em um **ponto de extensão (*extension point*)**;
     - O caso base executa e conclui com sucesso mesmo se a extensão jamais ocorrer (ex.: *Emitir Notificação Especial* estende o caso base *Processar Pedido* quando o valor for superior a cem mil reais);
     - **Direção da Seta:** Seta tracejada apontando **do Caso Extensor para o Caso Base** ($\text{Extensão} \xrightarrow{\ll\text{extend}\gg} \text{Base}$).
+
 4. **Generalização / Especialização:** Relação de herança representada por uma seta com triângulo vazado na ponta. Pode ocorrer entre casos de uso ou entre atores (ex.: *Auditor de TI* especializa *Auditor Geral*).
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
@@ -158,6 +161,7 @@ A UML 2.5 divide seus diagramas em duas categorias fundamentais cobradas rigoros
     - **Diagrama de Implantação (*Deployment*)** (arquitetura de hardware, nós de rede e distribuição de artefatos);
     - **Diagrama de Pacotes** (organização lógica de subsistemas);
     - **Diagrama de Estrutura Composta** e **Diagrama de Perfis**.
+
 2. **Diagramas Comportamentais (Aspectos Dinâmicos e Fluxos de Controle):**
     - **Diagrama de Casos de Uso** (interações de atores com funcionalidades);
     - **Diagrama de Atividades** (fluxos de trabalho procedimentais e concorrência);
@@ -226,6 +230,7 @@ A notação **BPMN 2.0** (*Business Process Model and Notation*), mantida pelo c
     - *Intermediário (Intermediate Event):* Linha de borda dupla;
     - *Fim (End Event):* Linha de borda grossa e preenchida.
     - *Gatilhos de Eventos:* Mensagem (ícone de envelope), Temporizador (ícone de relógio), Erro (ícone de raio) ou Condicional (ícone de documento).
+
 2. **Atividades (Retângulos com Cantos Arredondados):** Trabalho realizado dentro do processo:
     - *Tarefas (Atômicas):* Tarefa de Usuário (*User Task* - mão humana), Tarefa de Serviço (*Service Task* - engrenagem, executada por software automatizado), Tarefa Manual (*Manual Task*) e Tarefa de Script (*Script Task*);
     - *Subprocessos:* Atividades compostas que podem ser visualizadas de forma colapsada (com marcador de cruz "+") ou expandida.
@@ -257,6 +262,7 @@ flowchart TD
 - **Raia (*Lane*):** Subdivisão interna de uma Pool, utilizada para alocar tarefas e agrupar responsabilidades por departamentos, funções, setores ou sistemas daquela mesma organização.
 
 **Regras Fundamentais dos Conectores de Fluxo (Muito Cobrado em Prova):**
+
 - **Fluxo de Sequência (*Sequence Flow*):** Representado por **linha sólida contínua com seta preenchida**. Conecta a sequência de atividades dentro da mesma Pool.  
   > 🚨 **REGRA DE OURO DO BPMN:** Um Fluxo de Sequência **NUNCA PODE CRUZAR A BORDA DE UMA POOL PARA OUTRA POOL!** Ele só pode cruzar linhas de Lanes dentro da mesma Pool!
 - **Fluxo de Mensagem (*Message Flow*):** Representado por **linha tracejada com um círculo vazado na origem e uma seta aberta no destino**. Utilizado estritamente para modelar comunicação e troca de mensagens **entre duas Pools distintas**.
@@ -279,13 +285,14 @@ flowchart TD
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Em um diagrama de casos de uso da UML (versão 2.5), os relacionamentos entre casos de uso podem ser representados por estereótipos como «include» e «extend». A respeito desses relacionamentos, é correto afirmar que:
 
-* A) O relacionamento «extend» representa uma inclusão incondicional e obrigatória de comportamento em todos os fluxos de execução do caso de uso base.
-* B) O relacionamento «include» indica que a execução do caso de uso incluído é obrigatória para que o caso de uso base seja completado com sucesso, enquanto o relacionamento «extend» representa um comportamento opcional ou condicional que é disparado a partir de um ponto de extensão.
-* C) As setas tracejadas de ambos os relacionamentos apontam sempre do caso de uso estendido/incluído em direção ao ator primário.
-* D) O relacionamento «include» só pode ocorrer entre atores do sistema, não entre casos de uso.
-* E) O relacionamento «extend» impede a ocorrência de cenários alternativos no caso de uso base.
+* **A)** O relacionamento «extend» representa uma inclusão incondicional e obrigatória de comportamento em todos os fluxos de execução do caso de uso base.
+* **B)** O relacionamento «include» indica que a execução do caso de uso incluído é obrigatória para que o caso de uso base seja completado com sucesso, enquanto o relacionamento «extend» representa um comportamento opcional ou condicional que é disparado a partir de um ponto de extensão.
+* **C)** As setas tracejadas de ambos os relacionamentos apontam sempre do caso de uso estendido/incluído em direção ao ator primário.
+* **D)** O relacionamento «include» só pode ocorrer entre atores do sistema, não entre casos de uso.
+* **E)** O relacionamento «extend» impede a ocorrência de cenários alternativos no caso de uso base.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** A inclusão incondicional e obrigatória de comportamento define o relacionamento de inclusão (`«include»`), e não de extensão (`«extend»`).
 > - **B) CORRETA.** Nos termos formais da especificação UML 2.5: o estereótipo `«include»` modela uma dependência obrigatória e incondicional (o caso base não atinge seu objetivo sem a execução do caso incluído); por sua vez, o estereótipo `«extend»` modela um comportamento acessório, opcional ou excepcional, cuja ativação depende da ocorrência de uma condição em um ponto de extensão (*extension point*) pré-definido.
 > - **C) Incorreta.** Os relacionamentos `«include»` e `«extend»` interligam casos de uso entre si, jamais casos de uso a atores primários.
@@ -300,13 +307,14 @@ Em um diagrama de casos de uso da UML (versão 2.5), os relacionamentos entre ca
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 Na modelagem de processos de negócio com a notação BPMN 2.0, um analista precisa representar uma bifurcação no fluxo em que duas atividades subsequentes devem ser executadas simultaneamente (em paralelo), independentemente de qualquer condição ou teste de dados. Para essa finalidade, deve-se empregar o gateway:
 
-* A) Exclusivo baseado em dados (marcado com um "X").
-* B) Paralelo (marcado com um sinal de soma "+").
-* C) Inclusivo (marcado com um círculo "O").
-* D) Complexo (marcado com um asterisco "*").
-* E) Baseado em eventos (marcado com um pentágono).
+* **A)** Exclusivo baseado em dados (marcado com um "X").
+* **B)** Paralelo (marcado com um sinal de soma "+").
+* **C)** Inclusivo (marcado com um círculo "O").
+* **D)** Complexo (marcado com um asterisco "*").
+* **E)** Baseado em eventos (marcado com um pentágono).
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** O gateway exclusivo (XOR) toma estritamente uma única rota de saída com base em condições de dados mutuamente excludentes.
 > - **B) CORRETA.** O **Gateway Paralelo (AND)**, graficamente identificado por um **sinal de adição "+""** no interior do losango, é empregado para sincronizar ou dividir o fluxo de controle em múltiplos ramos que são ativados simultaneamente e concorrentemente, sem avaliação de testes booleanos de dados.
 > - **C) Incorreta.** O gateway inclusivo (OR - círculo) pode disparar um ou mais ramos, mas subordina-se à validação de condições lógicas em dados.
@@ -321,13 +329,14 @@ Na modelagem de processos de negócio com a notação BPMN 2.0, um analista prec
 **(FCC – TRF – Analista Judiciário / TI)**  
 No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assumir formas especializadas de acoplamento do tipo Todo-Parte conhecidas como Agregação e Composição. Sobre esses conceitos, assinale a afirmação correta:
 
-* A) Na Composição, a destruição do objeto que representa o "Todo" acarreta obrigatoriamente a destruição dos objetos que compõem suas "Partes", caracterizando um ciclo de vida estritamente compartilhado e dependente.
-* B) A Agregação é visualmente representada por um losango preenchido em preto conectado ao objeto da "Parte".
-* C) Na Composição, as "Partes" podem pertencer simultaneamente a múltiplos objetos "Todo" em tempo de execução.
-* D) A Agregação representa um acoplamento mais forte e rígido do que a Composição, exigindo obrigatoriamente multiplicidade de 1..1.
-* E) Na UML, a generalização entre classes concretas substitui integralmente a necessidade de composição quando se deseja implementar herança múltipla.
+* **A)** Na Composição, a destruição do objeto que representa o "Todo" acarreta obrigatoriamente a destruição dos objetos que compõem suas "Partes", caracterizando um ciclo de vida estritamente compartilhado e dependente.
+* **B)** A Agregação é visualmente representada por um losango preenchido em preto conectado ao objeto da "Parte".
+* **C)** Na Composição, as "Partes" podem pertencer simultaneamente a múltiplos objetos "Todo" em tempo de execução.
+* **D)** A Agregação representa um acoplamento mais forte e rígido do que a Composição, exigindo obrigatoriamente multiplicidade de 1..1.
+* **E)** Na UML, a generalização entre classes concretas substitui integralmente a necessidade de composição quando se deseja implementar herança múltipla.
 
 > **Comentário Detalhado:**
+>
 > - **A) CORRETA.** A **Composição** é uma variante forte da relação Todo-Parte caracterizada por forte dependência existencial e ciclo de vida compartilhado: o objeto "Parte" pertence exclusivamente a um único "Todo" e, caso o objeto "Todo" seja destruído ou excluído da memória, todas as suas "Partes" integrantes são destruídas em cascata.
 > - **B) Incorreta.** O losango preenchido em preto (sólido) representa a Composição; a Agregação é graficamente denotada por um losango vazado (branco).
 > - **C) Incorreta.** Na Composição, a Parte só pode estar atrelada a no máximo um Todo de cada vez (multiplicidade máxima 1 do lado do Todo).
@@ -342,13 +351,14 @@ No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assu
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 No que diz respeito à notação BPMN 2.0 e suas regras formais de modelagem de processos corporativos, assinale a afirmativa correta:
 
-* A) Um Fluxo de Sequência (*Sequence Flow*) pode conectar diretamente uma atividade contida em uma Piscina (*Pool*) a uma atividade contida em outra Piscina distinta.
-* B) Uma Piscina (*Pool*) representa uma organização ou participante independente no processo, enquanto as Raias (*Lanes*) são subdivisões internas usadas para separar funções ou departamentos daquela organização.
-* C) Mensagens trocadas entre diferentes participantes de um processo devem ser modeladas obrigatoriamente utilizando linhas sólidas com setas preenchidas.
-* D) Um evento de início do tipo Temporizador só pode ser posicionado dentro de um subprocesso de eventos com gatilho de erro fatal.
-* E) Os objetos de dados (*Data Objects*) são elementos de execução que controlam ativamente o redirecionamento das rotas do processo de negócio.
+* **A)** Um Fluxo de Sequência (*Sequence Flow*) pode conectar diretamente uma atividade contida em uma Piscina (*Pool*) a uma atividade contida em outra Piscina distinta.
+* **B)** Uma Piscina (*Pool*) representa uma organização ou participante independente no processo, enquanto as Raias (*Lanes*) são subdivisões internas usadas para separar funções ou departamentos daquela organização.
+* **C)** Mensagens trocadas entre diferentes participantes de um processo devem ser modeladas obrigatoriamente utilizando linhas sólidas com setas preenchidas.
+* **D)** Um evento de início do tipo Temporizador só pode ser posicionado dentro de um subprocesso de eventos com gatilho de erro fatal.
+* **E)** Os objetos de dados (*Data Objects*) são elementos de execução que controlam ativamente o redirecionamento das rotas do processo de negócio.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** Regra estrutural do padrão BPMN 2.0: um Fluxo de Sequência (linha contínua) **nunca pode cruzar as fronteiras entre duas Pools distintas**. Apenas o Fluxo de Mensagem cruza Pools.
 > - **B) CORRETA.** No metamodelo do BPMN, uma **Piscina (*Pool*)** representa graficamente um participante autônomo (uma entidade corporativa ou processo independente), e as **Raias (*Lanes*)** atuam como partições internas dentro da Pool para segregar e organizar responsabilidades de departamentos, funções ou sistemas.
 > - **C) Incorreta.** O Fluxo de Mensagem (*Message Flow*) é desenhado estritamente com **linha tracejada**, portando um círculo vazado na origem e uma seta aberta no destino.
@@ -363,13 +373,14 @@ No que diz respeito à notação BPMN 2.0 e suas regras formais de modelagem de 
 **(FCC – SEFAZ – Auditor Fiscal da Receita Estadual)**  
 Ao redigir Histórias de Usuário (*User Stories*) em projetos orientados por metodologias ágeis, os analistas empregam o acrônimo INVEST para avaliar a qualidade técnica das histórias escritas. A letra "N" do referido acrônimo estabelece que a história deve ser:
 
-* A) Notável (*Notable*), ou seja, deve figurar obrigatoriamente entre as três principais prioridades estratégicas da diretoria da organização.
-* B) Negociável (*Negotiable*), demonstrando que a história não representa um contrato rígido ou imutável, devendo deixar espaço para debate e refinamento entre o cliente e os desenvolvedores.
-* C) Normalizada (*Normalized*), seguindo rigorosamente a terceira forma normal de banco de dados relacional.
-* D) Nominal (*Nominal*), contendo a assinatura formal em cartório do patrocinador do projeto antes do início de cada Sprint.
-* E) Não-funcional (*Non-functional*), priorizando exclusivamente requisitos de segurança e volumetria de infraestrutura.
+* **A)** Notável (*Notable*), ou seja, deve figurar obrigatoriamente entre as três principais prioridades estratégicas da diretoria da organização.
+* **B)** Negociável (*Negotiable*), demonstrando que a história não representa um contrato rígido ou imutável, devendo deixar espaço para debate e refinamento entre o cliente e os desenvolvedores.
+* **C)** Normalizada (*Normalized*), seguindo rigorosamente a terceira forma normal de banco de dados relacional.
+* **D)** Nominal (*Nominal*), contendo a assinatura formal em cartório do patrocinador do projeto antes do início de cada Sprint.
+* **E)** Não-funcional (*Non-functional*), priorizando exclusivamente requisitos de segurança e volumetria de infraestrutura.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** O "N" não significa notável na metodologia ágil de escrita de requisitos.
 > - **B) CORRETA.** No modelo mnemônico **INVEST** (proposto por Bill Wake e popularizado por Mike Cohn), a letra **N** representa **Negotiable (Negociável)**. As Histórias de Usuário são concebidas como convites para conversas futuras; elas capturam a intenção do usuário sem engessá-la como um contrato rígido e definitivo, mantendo flexibilidade para negociação técnica durante o planejamento e a execução da iteração.
 > - **C) Incorreta.** Normalização de banco de dados é um conceito puramente relacional de persistência física, alheio à técnica de redação de histórias.

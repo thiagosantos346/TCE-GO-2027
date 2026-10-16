@@ -6,7 +6,7 @@
 
 ---
 
-### 📌 Ementa / Itens do Edital
+## 📌 Ementa / Itens do Edital
 1. **Ética em Inteligência Artificial e Princípios de IA Responsável:** Diretrizes internacionais (OCDE, UNESCO); Princípios de Beneficência, Justiça, Equidade (*Fairness*) e Não Discriminação; Tipologias de viés algorítmico (Histórico, Representação e Medição); Responsabilização e Prestação de Contas (*Accountability* e trilhas de auditoria); e Modelos de Supervisão Humana (*Human-in-the-Loop*, *Human-on-the-Loop* e *Human-in-Command*).
 2. **Explicabilidade e Interpretabilidade Algorítmica (XAI - *Explainable AI*):** O dilema Desempenho vs. Interpretabilidade; Modelos Intrinsecamente Interpretáveis (*White-Box*: Regressões, Árvores de Decisão rasas) vs. Modelos Caixa-Preta (*Black-Box*: Ensembles complexos, Deep Learning); e Métodos de Interpretação Post-Hoc Agósticos: **SHAP** (Valores de Shapley da Teoria dos Jogos Cooperativos e axiomas de eficiência, simetria, jogador nulo e consistência) e **LIME** (perturbações locais e modelos lineares substitutos).
 3. **Aplicação da LGPD (Lei nº 13.709/2018) à Inteligência Artificial:** Princípios da Não Discriminação Ilícita (Art. 6º, IX) e da Necessidade/Minimização; Bases legais para treinamento de modelos de IA no Poder Público (Art. 7º, III - execução de políticas públicas); Tratamento de Dados Pessoais Sensíveis (Art. 11); **O Artigo 20 da LGPD** (Direito à revisão de decisões unicamente automatizadas, dever de transparência sobre critérios e parâmetros, e poder de auditoria técnica direta pela ANPD em caso de alegação de segredo comercial/industrial); e Relatório de Impacto à Proteção de Dados Pessoais (RIPD / DPIA) em projetos de alto risco.
@@ -14,24 +14,24 @@
 
 ---
 
-### 🧭 Sumário
-- [1. Princípios de IA Responsável, Ética e Governança Humana](#1-princípios-de-ia-responsável-ética-e-governança-humana)
+## 🧭 Sumário
+- [1. Princípios de IA Responsável, Ética e Governança Humana](#1-principios-de-ia-responsavel-etica-e-governanca-humana)
     - [1.1 Diretrizes Internacionais (OCDE e UNESCO)](#11-diretrizes-internacionais-ocde-e-unesco)
-    - [1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)](#12-vieses-algorítmicos-e-métricas-de-equidade-fairness)
-    - [1.3 Modelos de Supervisão Humana: HITL, HOTL e HIC](#13-modelos-de-supervisão-humana-hitl-hotl-e-hic)
+    - [1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)](#12-vieses-algoritmicos-e-metricas-de-equidade-fairness)
+    - [1.3 Modelos de Supervisão Humana: HITL, HOTL e HIC](#13-modelos-de-supervisao-humana-hitl-hotl-e-hic)
 - [2. Explicabilidade e Interpretabilidade de IA (XAI)](#2-explicabilidade-e-interpretabilidade-de-ia-xai)
     - [2.1 O Dilema Desempenho vs. Interpretabilidade](#21-o-dilema-desempenho-vs-interpretabilidade)
-    - [2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas](#22-método-shap-shapley-additive-explanations-e-seus-axiomas)
-    - [2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)](#23-método-lime-local-interpretable-model-agnostic-explanations)
-- [3. A LGPD (Lei nº 13.709/2018) Aplicada à Inteligência Artificial](#3-a-lgpd-lei-nº-137092018-aplicada-à-inteligência-artificial)
-    - [3.1 Bases Legais e Princípio da Não Discriminação](#31-bases-legais-e-princípio-da-não-discriminação)
-    - [3.2 O Artigo 20: Revisão de Decisões Automatizadas e Auditoria da ANPD](#32-o-artigo-20-revisão-de-decisões-automatizadas-e-auditoria-da-anpd)
-    - [3.3 Relatório de Impacto à Proteção de Dados Pessoais (RIPD)](#33-relatório-de-impacto-à-proteção-de-dados-pessoais-ripd)
-- [4. Estratégia Brasileira de Inteligência Artificial (EBIA)](#4-estratégia-brasileira-de-inteligência-artificial-ebia)
-    - [4.1 Marco Regulatório (Portaria MCTI nº 4.617/2021)](#41-marco-regulatório-portaria-mcti-nº-46172021)
-    - [4.2 Os Três Eixos Transversais](#42-os-três-eixos-transversais)
-    - [4.3 Os Seis Eixos Verticais (Temáticos)](#43-os-seis-eixos-verticais-temáticos)
-- [5. Questões Comentadas (FCC)](#5-questões-comentadas-fcc)
+    - [2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas](#22-metodo-shap-shapley-additive-explanations-e-seus-axiomas)
+    - [2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)](#23-metodo-lime-local-interpretable-model-agnostic-explanations)
+- [3. A LGPD (Lei nº 13.709/2018) Aplicada à Inteligência Artificial](#3-a-lgpd-lei-no-137092018-aplicada-a-inteligencia-artificial)
+    - [3.1 Bases Legais e Princípio da Não Discriminação](#31-bases-legais-e-principio-da-nao-discriminacao)
+    - [3.2 O Artigo 20: Revisão de Decisões Automatizadas e Auditoria da ANPD](#32-o-artigo-20-revisao-de-decisoes-automatizadas-e-auditoria-da-anpd)
+    - [3.3 Relatório de Impacto à Proteção de Dados Pessoais (RIPD)](#33-relatorio-de-impacto-a-protecao-de-dados-pessoais-ripd)
+- [4. Estratégia Brasileira de Inteligência Artificial (EBIA)](#4-estrategia-brasileira-de-inteligencia-artificial-ebia)
+    - [4.1 Marco Regulatório (Portaria MCTI nº 4.617/2021)](#41-marco-regulatorio-portaria-mcti-no-46172021)
+    - [4.2 Os Três Eixos Transversais](#42-os-tres-eixos-transversais)
+    - [4.3 Os Seis Eixos Verticais (Temáticos)](#43-os-seis-eixos-verticais-tematicos)
+- [5. Questões Comentadas (FCC)](#5-questoes-comentadas-fcc)
 
 ---
 
@@ -192,6 +192,7 @@ O Artigo 20 da Lei nº 13.709/2018 constitui o epicentro do regime jurídico de 
 ### 3.3 Relatório de Impacto à Proteção de Dados Pessoais (RIPD)
 
 Nos termos do Art. 38 da LGPD, a ANPD pode exigir a elaboração de um **Relatório de Impacto à Proteção de Dados Pessoais (RIPD / DPIA)** para operações de tratamento que possam gerar elevado risco aos direitos fundamentais e liberdades civis.
+
 - *Projetos de IA de Alto Risco:* Reconhecimento facial em vias públicas, escoragem preditiva automatizada de cidadãos, perfilamento em larga escala e sistemas de concessão ou cancelamento de direitos sociais devem conter obrigatoriamente um RIPD descrevendo a necessidade, a proporcionalidade e as medidas de mitigação de riscos e segurança implementadas.
 
 ---
@@ -227,8 +228,10 @@ A EBIA estrutura-se em uma arquitetura matricial dividida categoricamente entre 
 1. **Legislação, Regulação e Uso Ético:**
     - Promover um ambiente normativo propício à inovação com segurança jurídica, adotando mecanismos flexíveis como os **Ambientes Regulatórios Experimentais (*Regulatory Sandboxes*)**.
     - Garantir a observância irrestrita aos princípios éticos centrados na dignidade humana, nos direitos fundamentais e na não discriminação.
+
 2. **Governança de IA:**
     - Estruturar fóruns multissetoriais participativos (governo, academia, setor produtivo e sociedade civil organizada) para monitorar diretrizes, métricas de transparência e auditoria algorítmica.
+
 3. **Aspectos Internacionais:**
     - Posicionar ativamente o Brasil nos debates internacionais multilaterais (OCDE, UNESCO, G20 e Mercosul), alinhando padrões e fomentando a cooperação científica transfronteiriça.
 
@@ -257,6 +260,7 @@ A respeito da taxonomia e da divisão temática dos eixos da EBIA, assinale a af
 * **E)** A EBIA determina que a substituição de empregos decorrente da automação dispensa programas de capacitação ou requalificação profissional por parte do Estado.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** Enuncia rigorosamente a divisão estrutural canônica formalizada na Portaria MCTI nº 4.617/2021: **3 Eixos Transversais** (Legislação, Regulação e Uso Ético; Governança de IA; Aspectos Internacionais) e **6 Eixos Verticais** (Educação e Capacitação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação nos Setores Produtivos; Aplicação no Poder Público; Segurança Pública).
 > - **B)** Incorreta. A aplicação no Poder Público constitui expressamente um dos eixos temáticos prioritários.
 > - **C)** Incorreta. Criptomoedas e jogos eletrônicos não fazem parte da taxonomia de eixos transversais da política nacional.
@@ -279,6 +283,7 @@ Um contribuinte teve sua certidão negativa de débitos fiscais cancelada de for
 * **E)** A LGPD autoriza expressamente a discriminação ilícita ou abusiva quando esta for executada por algoritmos de aprendizado profundo (*deep learning*).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Artigo 20 da LGPD consagra formalmente o direito à **revisão de decisões tomadas unicamente com base em tratamento automatizado**.
 > - **B)** **Correta.** O Artigo 20 assegura ao titular o direito de requerer a revisão da decisão unicamente automatizada, bem como o dever vinculado do controlador de fornecer informações transparentes sobre critérios e procedimentos adotados no cálculo.
 > - **C)** Incorreta. Conforme o Art. 20, § 2º, a invocação de segredo comercial/industrial pelo controlador **não extingue a fiscalização pública**: a **ANPD poderá deflagrar auditoria técnica direta** para verificar a ocorrência de discriminações abusivas no código e dados.
@@ -301,6 +306,7 @@ A respeito dos fundamentos matemáticos e características do SHAP e do LIME, as
 * **E)** Ambos os métodos exigem acesso obrigatório e exclusivo aos códigos-fonte proprietários dos compiladores para operar, sendo proibido seu uso em bibliotecas abertas como Scikit-Learn.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** O **SHAP** fundamenta-se nos **Valores de Shapley** da Teoria dos Jogos Cooperativos (Lundberg & Lee, 2017). O método calcula a contribuição marginal média ponderada de cada variável considerando todas as permutações e subconjuntos de coalizões possíveis, sendo a única técnica com garantia axiomática de **Eficiência/Aditividade Local**, **Simetria**, **Jogador Nulo** e **Consistência**.
 > - **B)** Incorreta. O LIME é um método **agóstico** ao modelo (opera sobre qualquer modelo caixa-preta) e fornece explicações **locais** (ao redor de uma instância).
 > - **C)** Incorreta. O cálculo do SHAP apoia-se formalmente em permutações de coalizões marginais, e não em distribuições aleatórias de Poisson.
@@ -323,6 +329,7 @@ A respeito dos conceitos de equidade (*fairness*) e dos modelos de supervisão h
 * **E)** A equidade algorítmica é um conceito puramente comercial sem relevância para os órgãos públicos do Poder Judiciário e Tribunais de Contas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O modelo **Human-in-the-Loop (HITL)** exige compulsoriamente a validação e intervenção de um **operador humano na decisão final**.
 > - **B)** **Correta.** O **Viés de Representação (*Representation Bias*)** surge quando certos estratos ou grupos sociais são sub-representados na base amostral de treinamento. O modelo não aprende os padrões particulares desse subgrupo, gerando taxas de erro e classificações incorretas sensivelmente maiores contra essas minorias.
 > - **C)** Incorreta. A falácia da "Equidade por Desconhecimento" comprova que simplesmente remover uma coluna não impede o viés, visto que modelos capturam facilmente variáveis correlacionadas que atuam como **proxies indiretos** (ex.: CEP residencial, faixa de renda, histórico profissional).
@@ -345,6 +352,7 @@ Considerando as regras da LGPD e as diretrizes internacionais de governança ét
 * **E)** Sistemas de IA aplicados à segurança pública prescindem de qualquer controle de precisão técnica ou teste de estresse de segurança cibernética.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** Dados biométricos faciais são categorizados como **dados pessoais sensíveis** (Art. 11 da LGPD). O seu processamento automatizado com perfilamento em larga escala introduz riscos severos aos direitos civis e liberdades fundamentais (como riscos de constrangimentos ou prisões indevidas por falsos positivos em minorias), demandando compulsoriamente a prévia elaboração de um **Relatório de Impacto à Proteção de Dados Pessoais (RIPD / DPIA)** (Art. 38) com salvaguardas de mitigação.
 > - **B)** Incorreta. O Poder Público submete-se estritamente às obrigações da LGPD (Art. 23 e seguintes), não havendo dispensa genérica de RIPD para o Poder Judiciário em tratamentos de alto risco.
 > - **C)** Incorreta. As diretrizes da OCDE exigem transparência, auditabilidade técnica e prestação de contas (*accountability*).

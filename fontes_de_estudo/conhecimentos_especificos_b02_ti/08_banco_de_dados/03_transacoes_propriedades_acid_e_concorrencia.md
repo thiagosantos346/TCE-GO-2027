@@ -17,26 +17,26 @@
 ---
 
 ## 🧭 Sumário
-- [1. O Conceito Formal de Transação e o Modelo ACID](#1-o-conceito-formal-de-transação-e-o-modelo-acid)
-    - [1.1 Ciclo de Vida e Estados de uma Transação](#11-ciclo-de-vida-e-estados-de-uma-transação)
+- [1. O Conceito Formal de Transação e o Modelo ACID](#1-o-conceito-formal-de-transacao-e-o-modelo-acid)
+    - [1.1 Ciclo de Vida e Estados de uma Transação](#11-ciclo-de-vida-e-estados-de-uma-transacao)
     - [1.2 As Quatro Propriedades Fundamentais: ACID](#12-as-quatro-propriedades-fundamentais-acid)
     - [1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)](#13-mecanismos-internos-undo-log-redo-log-e-write-ahead-logging-wal)
 - [2. Comandos de Controle Transacional (TCL)](#2-comandos-de-controle-transacional-tcl)
-    - [2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs](#21-commit-rollback-e-gestão-de-savepoints)
-- [3. Fenômenos e Anomalias de Concorrência](#3-fenômenos-e-anomalias-de-concorrência)
+    - [2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs](#21-commit-rollback-e-gestao-de-savepoints)
+- [3. Fenômenos e Anomalias de Concorrência](#3-fenomenos-e-anomalias-de-concorrencia)
     - [3.1 Leitura Suja (Dirty Read)](#31-leitura-suja-dirty-read)
-    - [3.2 Leitura Não Repetível (Non-Repeatable Read)](#32-leitura-não-repetível-non-repeatable-read)
+    - [3.2 Leitura Não Repetível (Non-Repeatable Read)](#32-leitura-nao-repetivel-non-repeatable-read)
     - [3.3 Leitura Fantasma (Phantom Read)](#33-leitura-fantasma-phantom-read)
-    - [3.4 Atualização Perdida (Lost Update)](#34-atualização-perdida-lost-update)
-- [4. Níveis de Isolamento ANSI SQL-92](#4-níveis-de-isolamento-ansi-sql-92)
-    - [4.1 Matriz de Isolamento vs. Fenômenos Admitidos](#41-matriz-de-isolamento-vs-fenômenos-admitidos)
-    - [4.2 Snapshot Isolation (Isolamento por Instantâneo)](#42-snapshot-isolation-isolamento-por-instantâneo)
-- [5. Técnicas de Controle de Concorrência](#5-técnicas-de-controle-de-concorrência)
+    - [3.4 Atualização Perdida (Lost Update)](#34-atualizacao-perdida-lost-update)
+- [4. Níveis de Isolamento ANSI SQL-92](#4-niveis-de-isolamento-ansi-sql-92)
+    - [4.1 Matriz de Isolamento vs. Fenômenos Admitidos](#41-matriz-de-isolamento-vs-fenomenos-admitidos)
+    - [4.2 Snapshot Isolation (Isolamento por Instantâneo)](#42-snapshot-isolation-isolamento-por-instantaneo)
+- [5. Técnicas de Controle de Concorrência](#5-tecnicas-de-controle-de-concorrencia)
     - [5.1 Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)](#51-bloqueios-locks-e-matriz-de-compatibilidade-shared-vs-exclusive)
-    - [5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso](#52-protocolo-de-bloqueio-em-duas-fases-2pl---two-phase-locking-básico-estrito-e-rigoroso)
-    - [5.3 Controle Multiversão de Concorrência (MVCC)](#53-controle-multiversão-de-concorrência-mvcc)
-    - [5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima](#54-impasses-deadlocks-detecção-via-wait-for-graph-e-resolução-por-transação-vítima)
-- [6. Questões Comentadas & Prática Padrão FCC](#6-questões-comentadas--prática-padrão-fcc)
+    - [5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso](#52-protocolo-de-bloqueio-em-duas-fases-2pl-two-phase-locking-basico-estrito-e-rigoroso)
+    - [5.3 Controle Multiversão de Concorrência (MVCC)](#53-controle-multiversao-de-concorrencia-mvcc)
+    - [5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima](#54-impasses-deadlocks-deteccao-via-wait-for-graph-e-resolucao-por-transacao-vitima)
+- [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -82,10 +82,13 @@ flowchart TD
 
 1. **A - Atomicidade (*Atomicity*):**
     - Princípio do **"tudo ou nada"** (*all-or-nothing*). Todas as operações que compõem a transação são consolidadas em conjunto no banco de dados, ou nenhuma delas produzirá efeito algum. Não existe efetivação parcial de transação.
+
 2. **C - Consistência (*Consistency*):**
     - Garante que a transação conduz o banco de dados de um **estado válido para outro estado igualmente válido**. A transação não pode violar nenhuma regra de integridade declarativa (chaves primárias, chaves estrangeiras, restrições `CHECK`, valores `NOT NULL`) ou procedimental (gatilhos e regras de negócio).
+
 3. **I - Isolamento (*Isolation*):**
     - Assegura que a execução concomitante de múltiplas transações seja invisível entre si. Os efeitos intermediários e temporários de uma transação não comitada não podem ser observados por outras transações concorrentes. O resultado final deve equivaler a uma execução estritamente sequencial (*serializável*).
+
 4. **D - Durabilidade (*Durability*):**
     - Garante que, uma vez que a transação foi confirmada com sucesso (`COMMIT`), suas modificações tornam-se **permanentes e indeléveis**. As alterações não serão perdidas sob nenhuma hipótese, resistindo até mesmo a falhas catastróficas de energia física ou travamentos no sistema operacional da máquina servidora.
 
@@ -146,6 +149,7 @@ A norma ANSI/ISO SQL-92 estabelece quatro níveis canônicos de isolamento trans
 | **`SERIALIZABLE`** | ✅ **Previne** | ✅ **Previne** | ✅ **Previne** | Bloqueios de predicado / Range Locks ou SSI (*Serializable Snapshot Isolation*). Simula execução serial estrita. |
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+>
 > 1. *"Qual o nível de isolamento MÍNIMO que impede Leitura Não Repetível?"* $\rightarrow$ **`REPEATABLE READ`**.
 > 2. No PostgreSQL, a implementação prática do nível `REPEATABLE READ` via MVCC impede também leituras fantasmas; contudo, nas questões teóricas da FCC baseadas estritamente no **padrão ANSI SQL-92**, o candidato deve assinalar que o `REPEATABLE READ` **admite Leitura Fantasma**!
 > 3. O único nível do padrão ANSI que previne **todos os três fenômenos** é o **`SERIALIZABLE`**.
@@ -188,6 +192,7 @@ flowchart LR
 - **Regra Fundamental do 2PL Básico:** A transação possui duas fases estanques:
     1. *Fase de Crescimento (*Growing Phase*):* A transação pode adquirir quantos bloqueios precisar, mas **é terminantemente proibida de liberar qualquer bloqueio**.
     2. *Fase de Encolhimento (*Shrinking Phase*):* A transação pode liberar bloqueios já utilizados, mas **é terminantemente proibida de adquirir novos bloqueios**.
+
 - **Strict 2PL (2PL Estrito):** Todos os bloqueios **exclusivos (X)** devem ser mantidos até o fim definitivo da transação (`COMMIT` ou `ROLLBACK`). Evita abortos em cascata (*cascadeless schedules*).
 - **Rigorous 2PL (2PL Rigoroso):** Todos os bloqueios (tanto **compartilhados - S** quanto **exclusivos - X**) devem ser mantidos até o `COMMIT` ou `ROLLBACK`. É a variante mais utilizada na prática por garantir serializabilidade estrita.
 
@@ -235,6 +240,7 @@ Considerando os fenômenos de concorrência e os níveis de isolamento padroniza
 * **E)** A ocorrência de leituras não repetíveis viola o princípio da Durabilidade (D do ACID), revertendo compulsoriamente a transação $T_2$.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Leitura Suja ocorre quando uma transação lê dados modificados por outra transação que **ainda não fez commit** (podendo abortar). No caso narrado, $T_2$ comitou com sucesso antes da releitura.
 > - **B)** Correta. O fenômeno em que a mesma transação relê a mesma linha e encontra valores modificados por outra transação que já efetuou commit é a **Leitura Não Repetível** (*Non-Repeatable Read*). Conforme a matriz ANSI SQL-92, o nível `READ COMMITTED` permite esse fenômeno, sendo necessário configurar no mínimo o nível **`REPEATABLE READ`** para impedi-lo.
 > - **C)** Incorreta. Leitura Fantasma ocorre em consultas baseadas em intervalos onde surgem novas linhas inseridas.
@@ -255,6 +261,7 @@ A respeito dos mecanismos de controle de concorrência, bloqueios (*locks*) e tr
 * **E)** O grafo de espera (*Wait-For Graph*) é uma estrutura utilizada para calcular o espaço em disco ocupado pelos logs de auditoria, não possuindo utilidade na detecção de deadlocks.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O protocolo 2PL proíbe a alternância livre: divide-se em fase de crescimento (apenas obtém locks) e fase de encolhimento (apenas libera locks).
 > - **B)** Correta. O pilar fundamental do MVCC é: *"Leitores não bloqueiam escritores, e escritores não bloqueiam leitores"*. Leitores consultam versões prévias consolidadas no seu snapshot temporal, permitindo que escritores criem novas versões sem travar leituras.
 > - **C)** Incorreta. Bloqueios Compartilhados (S) são compatíveis entre si; múltiplas transações podem reter simultaneamente bloqueios S sobre o mesmo dado para leitura.
@@ -277,6 +284,7 @@ Sobre os mecanismos que asseguram as propriedades ACID nesse cenário, assinale 
 * **E)** O mecanismo de Write-Ahead Logging (WAL) determina que as páginas de dados sejam obrigatoriamente persistidas nas tabelas físicas do disco antes que o registro transacional seja gravado no log.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Desfazer operações de transações não comitadas é responsabilidade do log de **UNDO**. O REDO reaplica transações comitadas.
 > - **B)** Correta. A **Durabilidade** garante que transações comitadas persistam mesmo que os dados estivessem voláteis na memória RAM durante a queda. No processo de recuperação, o SGBD lê o Redo Log / WAL e reaplica as alterações comitadas na base de dados.
 > - **C)** Incorreta. O impedimento de interferência entre transações concorrentes é atribuição da propriedade de **Isolamento** (I do ACID).
@@ -299,6 +307,7 @@ Acerca do funcionamento e das variantes do protocolo 2PL, é correto afirmar:
 * **E)** O protocolo 2PL assegura que a ordem de commit das transações seja sempre idêntica à ordem cronológica de inicialização dos seus processos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O 2PL garante **serializabilidade**, mas **NÃO evita deadlocks**!
 > - **B)** Incorreta. A fase de encolhimento inicia quando a transação realiza a liberação do seu primeiro bloqueio.
 > - **C)** Correta. No **Rigorous 2PL**, todos os bloqueios adquiridos (tanto compartilhados - S quanto exclusivos - X) são mantidos obrigatoriamente até o fim definitivo da transação com `COMMIT` ou `ROLLBACK`, simplificando a recuperação e prevenindo abortos em cascata.
@@ -311,6 +320,7 @@ Acerca do funcionamento e das variantes do protocolo 2PL, é correto afirmar:
 
 ### Questão 5 (FCC - Adaptada / TI - Controle de Transações: SAVEPOINT e ROLLBACK TO)
 Considere a sequência de comandos executada em uma única sessão transacional em um SGBD em conformidade com o padrão ANSI SQL:
+
 ```sql
 BEGIN TRANSACTION;
   INSERT INTO fornecedores (id, nome) VALUES (1, 'Fornecedor Alfa');
@@ -322,6 +332,7 @@ BEGIN TRANSACTION;
   INSERT INTO fornecedores (id, nome) VALUES (4, 'Fornecedor Delta');
 COMMIT;
 ```
+
 Considerando que a tabela `fornecedores` encontrava-se vazia antes do início do bloco transacional e que nenhuma instrução apresentou erro de restrição de integridade, quais registros constarão na tabela após o término da execução?  
 
 * **A)** Fornecedor Alfa, Fornecedor Beta, Fornecedor Gama e Fornecedor Delta.
@@ -331,6 +342,7 @@ Considerando que a tabela `fornecedores` encontrava-se vazia antes do início do
 * **E)** Nenhum registro, pois o comando `ROLLBACK TO SAVEPOINT` desfaz a transação inteira e aborta o bloco.
 
 > **Comentário Detalhado:**
+>
 > - **Passo 1:** `INSERT (1, 'Fornecedor Alfa')` é executado na transação ativa.
 > - **Passo 2:** É criado o marco `SAVEPOINT ponto_1`.
 > - **Passo 3:** `INSERT (2, 'Fornecedor Beta')` é executado.

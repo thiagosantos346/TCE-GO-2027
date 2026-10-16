@@ -28,12 +28,12 @@
 ---
 
 ## 🧭 Sumário Interativo
-- [1. Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas](#1-análise-swot-cruzada-fofa-e-as-quatro-posturas-estratégicas)
-- [2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter](#2-o-modelo-das-cinco-forças-e-as-estratégias-genéricas-de-michael-porter)
-- [3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)](#3-a-visão-baseada-em-recursos-rbv-e-o-framework-vrio-jay-barney)
+- [1. Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas](#1-analise-swot-cruzada-fofa-e-as-quatro-posturas-estrategicas)
+- [2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter](#2-o-modelo-das-cinco-forcas-e-as-estrategias-genericas-de-michael-porter)
+- [3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)](#3-a-visao-baseada-em-recursos-rbv-e-o-framework-vrio-jay-barney)
 - [4. O Business Model Canvas (Alexander Osterwalder)](#4-o-business-model-canvas-alexander-osterwalder)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
+- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -93,6 +93,7 @@ flowchart TD
     - Requisitos elevados de investimento de capital inicial;
     - Custos de mudança (*switching costs*) incorridos pelo cliente ao trocar de marca;
     - Políticas e regulamentações governamentais protetivas.
+
 3. **Poder de Barganha dos Compradores (Clientes):** Alto quando os clientes compram em grandes volumes, os produtos oferecidos são padronizados/comoditizados e os custos de migração para outra empresa são insignificantes.
 4. **Poder de Barganha dos Fornecedores:** Elevado quando os fornecedores operam em mercado concentrado, o insumo fornecido é exclusivo ou crítico e inexistem produtos substitutos no mercado.
 5. **Ameaça de Produtos Substitutos:** Produtos ou serviços oriundos de **outros setores/indústrias** que desempenham a mesma função básica a um custo inferior ou com maior conveniência para o usuário.
@@ -141,6 +142,7 @@ flowchart TD
     - *Condições históricas únicas:* recursos desenvolvidos ao longo de trajetórias históricas irrepetíveis;
     - *Ambiguidade causal:* os competidores não conseguem decifrar exatamente qual fator específico causa o sucesso da organização;
     - *Complexidade social:* recursos enraizados em relações humanas, reputação, confiança mútua e cultura institucional.
+
 4. **O - Organização:** A instituição dispõe de desenho organizacional, sistemas de informação, liderança e governança estruturados para absorver e capitalizar plenamente o potencial desse recurso?
 
 > 🛑 **ATENÇÃO (VRIO E VANTAGEM SUSTENTÁVEL):**  
@@ -205,6 +207,7 @@ De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido p
 * **E)** Existência de produtos substitutos com preços significativamente menores no mercado.
 
 > **Comentário Detalhado:**  
+>
 > - **A) CORRETA.** Segundo Michael Porter, a ameaça de novos concorrentes entrantes é diretamente atenuada pela existência de **barreiras à entrada**, que elevam os custos e riscos para quem deseja entrar no setor (ex.: economias de escala dos incumbentes, diferenciação de marcas, altos requisitos de investimento de capital, acesso restrito aos canais de distribuição e regulação pública).  
 > - **B) Incorreta.** Alta rivalidade é outra força competitiva; a ausência de barreiras facilita o ingresso.  
 > - **C) Incorreta.** Se os canais são de fácil acesso, a barreira é baixa, o que estimula a entrada de novos concorrentes.  
@@ -226,11 +229,12 @@ Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado 
 * **E)** Ineficiência operacional estrutural.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Como o recurso é valioso e raro, a empresa obtém diferencial positivo, e não desvantagem.  
 > - **B) CORRETA.** No framework VRIO:  
->   - Recurso Valioso, mas não Raro $\rightarrow$ Paridade Competitiva;  
->   - Recurso Valioso e Raro, mas **Imitável (fácil de copiar)** $\rightarrow$ **Vantagem Competitiva Temporária**, visto que logo os rivais conseguirão reproduzi-lo, extinguindo o diferencial inicial.  
->   - Apenas se for Inimitável e sustentado pela Organização é que se alcança a **Vantagem Competitiva Sustentável**.  
+>     - Recurso Valioso, mas não Raro $\rightarrow$ Paridade Competitiva;  
+>     - Recurso Valioso e Raro, mas **Imitável (fácil de copiar)** $\rightarrow$ **Vantagem Competitiva Temporária**, visto que logo os rivais conseguirão reproduzi-lo, extinguindo o diferencial inicial.  
+>     - Apenas se for Inimitável e sustentado pela Organização é que se alcança a **Vantagem Competitiva Sustentável**.  
 > - **C) Incorreta.** A sustentabilidade requer obrigatoriamente que o recurso seja inimitável.  
 > - **D) Incorreta.** Paridade ocorre quando o recurso não é raro.  
 > - **E) Incorreta.** Não guarda pertinência com ineficiência estrutural.  
@@ -250,6 +254,7 @@ Determinada entidade governamental realizou o diagnóstico de seu ambiente por m
 * **E)** Postura de Reforço Baseada em Vantagem Sustentável.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A postura ofensiva/alavancagem ocorre no quadrante Forças + Oportunidades.  
 > - **B) CORRETA.** No cruzamento da matriz SWOT, quando uma instituição acumula **Fraquezas internas** diante de **Ameaças externas graves** (quadrante WT), a estratégia mandatória é a **Postura de Sobrevivência**, caracterizada pela contenção drástica de despesas, eliminação de desperdícios, redução de escopo e reestruturação para evitar o colapso operacional da organização.  
 > - **C) Incorreta.** Expansão é postura ofensiva para momentos favoráveis.  
@@ -271,6 +276,7 @@ No modelo das Estratégias Genéricas formulado por Michael Porter, a organizaç
 * **E)** Paridade Tecnológica Compulsória.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Liderança em custos busca operar com o menor custo unitário de produção da indústria com base em economias de escala.  
 > - **B) CORRETA.** A estratégia genérica de **Diferenciação** baseia-se na criação de um produto ou serviço percebido pelo mercado/usuário como exclusivo e singular em suas características, gerando lealdade à marca e permitindo que a organização cobre preços superiores (*preço premium*) ou atinja alto reconhecimento público.  
 > - **C) Incorreta.** Desinvestimento é manobra de redução de ativos, e não estratégia competitiva genérica.  
@@ -292,6 +298,7 @@ A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterw
 * **E)** O bloco das Parcerias Principais destina-se a mensurar os prazos cronológicos das tarefas críticas de projetos de curto prazo.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A Proposta de Valor define o conjunto de benefícios, produtos e soluções que resolvem o problema ou atendem à necessidade do cliente, sem tratar de organogramas internos.  
 > - **B) Incorreta.** Segmentos de Clientes integra o lado direito do Canvas (front-stage / mercado e clientes).  
 > - **C) CORRETA.** O **Business Model Canvas** é uma metodologia visual consagrada dividida em **nove blocos essenciais** (Proposta de Valor, Segmentos de Clientes, Canais, Relacionamento com Clientes, Fontes de Receita, Recursos Principais, Atividades-Chave, Parcerias Principais e Estrutura de Custos), concebida para mapear de forma sistêmica como a entidade gera, entrega e captura valor.  

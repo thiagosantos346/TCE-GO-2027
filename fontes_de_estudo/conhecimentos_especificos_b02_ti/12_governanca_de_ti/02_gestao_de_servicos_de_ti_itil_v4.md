@@ -27,20 +27,20 @@
 
 ## 🧭 Sumário
 - [1. O Modelo Central da ITIL v4](#1-o-modelo-central-da-itil-v4)
-    - [1.1 Conceitos de Serviço, Co-criação de Valor, Utilidade e Garantia](#11-conceitos-de-serviço-co-criação-de-valor-utilidade-e-garantia)
-    - [1.2 As Quatro Dimensões do Gerenciamento de Serviço](#12-as-quatro-dimensões-do-gerenciamento-de-serviço)
-    - [1.3 O Sistema de Valor de Serviço (SVS)](#13-o-sistema-de-valor-de-serviço-svs)
-    - [1.4 Os 7 Princípios Orientadores (Guiding Principles)](#14-os-7-princípios-orientadores-guiding-principles)
-    - [1.5 A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)](#15-a-cadeia-de-valor-de-serviço-svc---6-atividades-operacionais)
-- [2. Práticas Essenciais de Gerenciamento de Serviços da ITIL v4](#2-práticas-essenciais-de-gerenciamento-de-serviços-da-itil-v4)
-    - [2.1 Central de Serviços (Service Desk)](#21-central-de-serviços-service-desk)
+    - [1.1 Conceitos de Serviço, Co-criação de Valor, Utilidade e Garantia](#11-conceitos-de-servico-co-criacao-de-valor-utilidade-e-garantia)
+    - [1.2 As Quatro Dimensões do Gerenciamento de Serviço](#12-as-quatro-dimensoes-do-gerenciamento-de-servico)
+    - [1.3 O Sistema de Valor de Serviço (SVS)](#13-o-sistema-de-valor-de-servico-svs)
+    - [1.4 Os 7 Princípios Orientadores (Guiding Principles)](#14-os-7-principios-orientadores-guiding-principles)
+    - [1.5 A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)](#15-a-cadeia-de-valor-de-servico-svc-6-atividades-operacionais)
+- [2. Práticas Essenciais de Gerenciamento de Serviços da ITIL v4](#2-praticas-essenciais-de-gerenciamento-de-servicos-da-itil-v4)
+    - [2.1 Central de Serviços (Service Desk)](#21-central-de-servicos-service-desk)
     - [2.2 Gerenciamento de Incidentes vs. Gerenciamento de Problemas](#22-gerenciamento-de-incidentes-vs-gerenciamento-de-problemas)
-    - [2.3 Habilitação de Mudanças (Change Enablement)](#23-habilitação-de-mudanças-change-enablement)
-    - [2.4 Gerenciamento de Configuração de Serviço (CMDB) vs. Ativos de TI (ITAM)](#24-gerenciamento-de-configuração-de-serviço-cmdb-vs-ativos-de-ti-itam)
-    - [2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)](#25-gerenciamento-de-nível-de-serviço-sla-ola-e-uc)
-    - [2.6 Gerenciamento de Continuidade de Serviços de TI (ITSCM: RTO e RPO)](#26-gerenciamento-de-continuidade-de-serviços-de-ti-itscm-rto-e-rpo)
+    - [2.3 Habilitação de Mudanças (Change Enablement)](#23-habilitacao-de-mudancas-change-enablement)
+    - [2.4 Gerenciamento de Configuração de Serviço (CMDB) vs. Ativos de TI (ITAM)](#24-gerenciamento-de-configuracao-de-servico-cmdb-vs-ativos-de-ti-itam)
+    - [2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)](#25-gerenciamento-de-nivel-de-servico-sla-ola-e-uc)
+    - [2.6 Gerenciamento de Continuidade de Serviços de TI (ITSCM: RTO e RPO)](#26-gerenciamento-de-continuidade-de-servicos-de-ti-itscm-rto-e-rpo)
 - [3. Fontes Recomendadas na Internet](#3-fontes-recomendadas-na-internet)
-- [4. Questões Comentadas no Padrão FCC](#4-questões-comentadas-no-padrão-fcc)
+- [4. Questões Comentadas no Padrão FCC](#4-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -135,6 +135,7 @@ flowchart LR
     3. **Cadeia de Valor de Serviço (*Service Value Chain*):** O modelo operacional composto por 6 atividades interconectadas.
     4. **Práticas (*Practices*):** Conjuntos de recursos organizacionais desenhados para realizar tarefas específicas (a ITIL v4 substitui o conceito de "processos" da v3 pelo termo mais abrangente "práticas").
     5. **Melhoria Contínua (*Continual Improvement*):** Atividade recorrente executada em todos os níveis e componentes da organização.
+
 - **Saída:** Realização contínua de **Valor** para as partes interessadas.
 
 ---
@@ -338,7 +339,9 @@ Responsável por garantir que a disponibilidade e o desempenho dos serviços de 
 **Enunciado:** Em um Tribunal de Contas Estadual, a equipe de infraestrutura e operações de TIC vivenciou os seguintes episódios durante a rotina de sustentação tecnológica:  
 
 I. O sistema de protocolo eletrônico tornou-se subitamente indisponível no início do expediente; o analista plantonista reiniciou imediatamente os serviços de aplicação e executou um script de liberação de conexões residuais, restabelecendo a operação aos usuários em menos de dez minutos.  
+
 II. Durante a semana seguinte, uma equipe de especialistas foi destacada para investigar detalhadamente os logs de transação e os despejos de memória (*heap dumps*), com o objetivo de descobrir por que o subsistema de sessões acumulou conexões órfãs e formular uma solução definitiva, registrando no repositório de conhecimento uma solução de contorno para o caso de nova ocorrência.  
+
 Considerando as práticas preconizadas pela ITIL v4, as condutas descritas nos itens I e II correspondem, respectivamente, às práticas de:  
 
 * **A)** Gerenciamento de Problemas e Habilitação de Mudanças.
@@ -348,6 +351,7 @@ Considerando as práticas preconizadas pela ITIL v4, as condutas descritas nos i
 * **E)** Gerenciamento de Capacidade e Gerenciamento de Ativos de TI.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O item I trata de restabelecimento urgente de serviço (Incidentes), e não de Problemas; o item II trata de análise de causa-raiz e documentação de erro (Problemas), e não da prática de Habilitação de Mudanças.
 > - **B)** **Correta.** O item I caracteriza o Gerenciamento de Incidentes, cujo propósito central é restaurar a operação normal do serviço no menor tempo possível, minimizando o impacto negativo no negócio (mesmo usando soluções temporárias como reinicialização). O item II descreve com perfeição o Gerenciamento de Problemas, cuja finalidade é investigar a causa-raiz de incidentes repetidos ou graves, gerando soluções definitivas e alimentando o KEDB (*Known Error Database*) com soluções de contorno.
 > - **C)** Incorreta. Gerenciamento de Liberação cuida de tornar serviços e recursos novos ou modificados disponíveis para uso, enquanto a Central de Serviços é a unidade organizacional de contato com os usuários.
@@ -373,11 +377,13 @@ As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:
 * **E)** Operacional, Tática e Governamental.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A situação 1 não é emergencial (é uma rotina diária de baixo risco), e a situação 3 não é uma mudança padrão.
 > - **B)** **Correta.** A ITIL v4 classifica as mudanças em três tipos:  
->   1. **Mudança Padrão (*Standard*):** Mudança rotineira, de baixo risco, pré-autorizada e com procedimento documentado (criação de conta de usuário).  
->   2. **Mudança Normal (*Normal*):** Mudança que requer avaliação formal de risco, submissão de RFC (*Request for Change*) e aprovação pela Autoridade de Mudança / CAB antes da execução (atualização de SGBD).  
->   3. **Mudança de Emergência (*Emergency*):** Mudança que precisa ser implementada imediatamente para restaurar um serviço crítico ou tratar uma vulnerabilidade urgente de segurança cibernética, com validação rápida pelo ECAB.
+>     1. **Mudança Padrão (*Standard*):** Mudança rotineira, de baixo risco, pré-autorizada e com procedimento documentado (criação de conta de usuário).  
+>     2. **Mudança Normal (*Normal*):** Mudança que requer avaliação formal de risco, submissão de RFC (*Request for Change*) e aprovação pela Autoridade de Mudança / CAB antes da execução (atualização de SGBD).  
+>     3. **Mudança de Emergência (*Emergency*):** Mudança que precisa ser implementada imediatamente para restaurar um serviço crítico ou tratar uma vulnerabilidade urgente de segurança cibernética, com validação rápida pelo ECAB.
+>
 > - **C)** Incorreta. A situação 1 não é mudança normal; requerer análise e autorização formal do CAB para cada novo servidor admitido geraria burocracia desnecessária para uma rotina de baixo risco.
 > - **D)** Incorreta. "Estratégica" e "Crítica" não correspondem aos tipos formais de mudança da prática de Change Enablement da ITIL v4.
 > - **E)** Incorreta. A ITIL v4 não adota essa divisão de níveis gerenciais para tipificar mudanças no Change Enablement.
@@ -396,6 +402,7 @@ As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:
 * **E)** Mantenha Simples e Prático (*Keep It Simple and Practical*).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O princípio Foco no Valor estabelece que tudo o que a organização faz deve vincular-se, direta ou indiretamente, à entrega de valor para os stakeholders.
 > - **B)** Incorreta. O princípio Pense e Trabalhe Holisticamente exige que nenhuma parte da organização atue de forma isolada e que a entrega de serviços seja vista como um todo interconectado.
 > - **C)** **Correta.** O princípio Comece de Onde Você Está orienta a nunca começar do zero sem antes analisar o estado atual; processos, ferramentas e habilidades em vigor devem ser mensurados e reaproveitados sempre que viável.
@@ -416,6 +423,7 @@ As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:
 * **E)** Fatores Externos PESTLE.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A dimensão Informação e Tecnologia trata da gestão dos dados institucionais, sistemas corporativos, ferramentas de software, segurança da informação e infraestrutura física/em nuvem.
 > - **B)** Incorreta. A dimensão Parceiros e Fornecedores foca nos relacionamentos da organização com outras entidades envolvidas no desenho, entrega e suporte dos serviços (contratos, parceiros de terceirização, integradores).
 > - **C)** Incorreta. A dimensão Fluxos de Valor e Processos cuida das atividades, fluxos operacionais e procedimentos coordenados que viabilizam a criação de produtos e serviços.
@@ -436,6 +444,7 @@ As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:
 * **E)** Gerenciamento de Continuidade e Gerenciamento de Disponibilidade.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Gerenciamento de Nível de Serviço trata da negociação e monitoramento de SLAs com clientes; a Central de Serviços é o ponto único de contato (SPOC) para usuários.
 > - **B)** **Correta.** O Gerenciamento de Configuração de Serviço tem como foco manter informações precisas e confiáveis sobre os Itens de Configuração (CIs) e seus relacionamentos técnicos (armazenados tipicamente no CMDB), servindo de base para análises de impacto em incidentes e mudanças. Já o Gerenciamento de Ativos de TI (ITAM) trata do ciclo de vida completo dos ativos de TI sob a ótica financeira, legal e patrimonial, abrangendo aquisição, controle de licenças de software, depreciação contábil e descarte seguro.
 > - **C)** Incorreta. Gerenciamento de Problemas investiga causas-raiz de falhas, e Habilitação de Mudanças autoriza e agenda modificações na infraestrutura.

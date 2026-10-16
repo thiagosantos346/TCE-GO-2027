@@ -15,26 +15,26 @@
 ---
 
 ## 🧭 Sumário
-- [1. Controle de Versão Distribuído com Git](#1-controle-de-versão-distribuído-com-git)
-    - [1.1 Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas](#11-arquitetura-interna-distribuído-vs-centralizado-e-snapshots-vs-deltas)
+- [1. Controle de Versão Distribuído com Git](#1-controle-de-versao-distribuido-com-git)
+    - [1.1 Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas](#11-arquitetura-interna-distribuido-vs-centralizado-e-snapshots-vs-deltas)
     - [1.2 O Modelo de Objetos do Git: Blobs, Trees, Commits e Tags](#12-o-modelo-de-objetos-do-git-blobs-trees-commits-e-tags)
-    - [1.3 As Três Áreas Locais e o Ciclo de Vida dos Arquivos](#13-as-três-áreas-locais-e-o-ciclo-de-vida-dos-arquivos)
-    - [1.4 Comandos Fundamentais de Inspeção, Rastreamento e Histórico](#14-comandos-fundamentais-de-inspeção-rastreamento-e-histórico)
-    - [1.5 Ramificação e Integração: `git merge` vs. `git rebase`](#15-ramificação-e-integração-git-merge-vs-git-rebase)
-    - [1.6 Operações de Recuperação e Desfazer: `reset`, `revert`, `stash` e `cherry-pick`](#16-operações-de-recuperação-e-desfazer-reset-revert-stash-e-cherry-pick)
-    - [1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`](#17-sincronização-e-fluxo-remoto-fetch-pull-e-push)
-- [2. Gerenciamento de Dependências de Software](#2-gerenciamento-de-dependências-de-software)
-    - [2.1 Grafos de Dependência, Dependências Transitivas e Conflitos](#21-grafos-de-dependência-dependências-transitivas-e-conflitos)
-    - [2.2 Versionamento Semântico (SemVer 2.0.0)](#22-versionamento-semântico-semver-200)
+    - [1.3 As Três Áreas Locais e o Ciclo de Vida dos Arquivos](#13-as-tres-areas-locais-e-o-ciclo-de-vida-dos-arquivos)
+    - [1.4 Comandos Fundamentais de Inspeção, Rastreamento e Histórico](#14-comandos-fundamentais-de-inspecao-rastreamento-e-historico)
+    - [1.5 Ramificação e Integração: `git merge` vs. `git rebase`](#15-ramificacao-e-integracao-git-merge-vs-git-rebase)
+    - [1.6 Operações de Recuperação e Desfazer: `reset`, `revert`, `stash` e `cherry-pick`](#16-operacoes-de-recuperacao-e-desfazer-reset-revert-stash-e-cherry-pick)
+    - [1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`](#17-sincronizacao-e-fluxo-remoto-fetch-pull-e-push)
+- [2. Gerenciamento de Dependências de Software](#2-gerenciamento-de-dependencias-de-software)
+    - [2.1 Grafos de Dependência, Dependências Transitivas e Conflitos](#21-grafos-de-dependencia-dependencias-transitivas-e-conflitos)
+    - [2.2 Versionamento Semântico (SemVer 2.0.0)](#22-versionamento-semantico-semver-200)
     - [2.3 Manifestos vs. Arquivos de Trava (Lockfiles) e o Comando `npm ci`](#23-manifestos-vs-arquivos-de-trava-lockfiles-e-o-comando-npm-ci)
-    - [2.4 Ecossistemas de Dependências: Node.js (npm), Python (pip/Poetry) e Java (Maven)](#24-ecossistemas-de-dependências-nodejs-npm-python-pippoetry-e-java-maven)
-    - [2.5 O Ciclo de Vida Padrão do Apache Maven](#25-o-ciclo-de-vida-padrão-do-apache-maven)
-- [3. Empacotamento Web e Publicação de Aplicações](#3-empacotamento-web-e-publicação-de-aplicações)
+    - [2.4 Ecossistemas de Dependências: Node.js (npm), Python (pip/Poetry) e Java (Maven)](#24-ecossistemas-de-dependencias-nodejs-npm-python-pippoetry-e-java-maven)
+    - [2.5 O Ciclo de Vida Padrão do Apache Maven](#25-o-ciclo-de-vida-padrao-do-apache-maven)
+- [3. Empacotamento Web e Publicação de Aplicações](#3-empacotamento-web-e-publicacao-de-aplicacoes)
     - [3.1 Empacotadores Web Modernos (Webpack, Vite, Rollup e esbuild)](#31-empacotadores-web-modernos-webpack-vite-rollup-e-esbuild)
-    - [3.2 Otimizações de Produção: Tree Shaking, Code Splitting e Minificação](#32-otimizações-de-produção-tree-shaking-code-splitting-e-minificação)
-    - [3.3 Empacotamento de Backend: JAR/WAR, Wheels Python e Repositórios Corporativos](#33-empacotamento-de-backend-jarwar-wheels-python-e-repositórios-corporativos)
+    - [3.2 Otimizações de Produção: Tree Shaking, Code Splitting e Minificação](#32-otimizacoes-de-producao-tree-shaking-code-splitting-e-minificacao)
+    - [3.3 Empacotamento de Backend: JAR/WAR, Wheels Python e Repositórios Corporativos](#33-empacotamento-de-backend-jarwar-wheels-python-e-repositorios-corporativos)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
-- [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questões-comentadas--exemplos-padrão-fcc)
+- [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -181,6 +181,7 @@ O comando `git reset <hash>` move o ponteiro HEAD para trás:
 
 #### 2. `git revert <hash>` (Desfazendo em Ramos Públicos)
 Em branches públicas compartilhadas, o `git reset` é proibido. Para desfazer alterações com segurança sem quebrar o histórico compartilhado, utiliza-se o **`git revert <hash>`**.
+
 - Ele **não apaga o commit defeituoso**.
 - Em vez disso, o Git analisa as modificações daquele commit e gera automaticamente um **novo commit inverso**, anulando as alterações introduzidas com total transparência e auditabilidade.
 
@@ -254,6 +255,7 @@ flowchart LR
 
 > 🚨 **ALERTA DE PROVA / FCC:**  
 > **`npm install` vs. `npm ci` em Esteiras de CI/CD:**  
+>
 > - Em esteiras de Integração Contínua (CI/CD) de produção, **NUNCA se deve rodar `npm install`**. O `npm install` pode atualizar dependências permitidas pelas faixas do manifesto e regerar o `package-lock.json`, introduzindo código não testado em produção.
 > - O comando correto e padronizado para esteiras automatizadas é o **`npm ci`** (*Clean Install*). Ele apaga a pasta `node_modules` inteira e instala rigorosamente o que está congelado no `package-lock.json`. Se houver qualquer discrepância entre o manifesto e o lockfile, ele aborta a esteira com erro.
 
@@ -296,6 +298,7 @@ flowchart LR
 
 ### 3.1 Empacotadores Web Modernos (Webpack, Vite, Rollup e esbuild)
 No desenvolvimento front-end moderno, o código-fonte é decomposto em centenas de componentes JSX/TSX, folhas de estilo SASS/CSS e imagens. Navegadores não executam esses formatos diretamente de forma eficiente sem empacotamento.
+
 - **Module Bundling:** Processo que analisa o grafo de dependências a partir de um arquivo de entrada (*entry point* como `index.tsx`) e consolida todos os recursos em arquivos estáticos otimizados (HTML, JS, CSS) dentro da pasta de produção (geralmente `dist/` ou `build/`).
 - **Ferramentas:**
     - **Webpack:** O empacotador tradicional mais maduro e configurável do mercado.
@@ -335,6 +338,7 @@ flowchart TD
 
 #### Repositórios Corporativos de Artefatos
 Em ambientes corporativos como tribunais de contas, o acesso a repositórios públicos (npm, PyPI, Maven Central) é intermediado por gerenciadores de repositório privados como **Sonatype Nexus**, **JFrog Artifactory** ou **GitHub Packages**.
+
 - Funcionam como proxy de cache local de dependências externas.
 - Permitem aplicar varreduras automatizadas de segurança e vulnerabilidades conhecidas (CVEs) antes de permitir a instalação no ambiente governamental.
 
@@ -365,9 +369,11 @@ Para atender a esses dois requisitos com segurança e conformidade com as boas p
 * **E)** `git clean -df` para ocultar o código local; e `git commit --amend` para renomear o commit defeituoso no repositório remoto.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **CORRETA.** Análise minuciosa dos dois cenários operacionais:
->   1. Para armazenar temporariamente o progresso de trabalho inacabado sem criar commits incompletos e limpar a área de trabalho para permitir troca de branch, o comando padronizado é o **`git stash`**.
->   2. Em branches públicas compartilhadas por múltiplos desenvolvedores, reescrever ou apagar commits com `reset` quebra os repositórios locais dos demais membros. O comando seguro é o **`git revert <hash>`**, que cria um novo commit que aplica exatamente o efeito inverso das alterações trazidas pelo commit alvo, preservando a transparência e integridade da história.
+>     1. Para armazenar temporariamente o progresso de trabalho inacabado sem criar commits incompletos e limpar a área de trabalho para permitir troca de branch, o comando padronizado é o **`git stash`**.
+>     2. Em branches públicas compartilhadas por múltiplos desenvolvedores, reescrever ou apagar commits com `reset` quebra os repositórios locais dos demais membros. O comando seguro é o **`git revert <hash>`**, que cria um novo commit que aplica exatamente o efeito inverso das alterações trazidas pelo commit alvo, preservando a transparência e integridade da história.
+>
 > - **B)** Incorreta. O `git reset --hard` destrói e descarta permanentemente todas as alterações em andamento no disco, provocando perda irreparável de código.
 > - **C)** Incorreta. Trocar de ramo com alterações conflitantes no disco gera erro, e executar `rebase` em branch pública viola a regra de ouro do Git.
 > - **D)** Incorreta. O uso de `push --force` em branches compartilhadas corrompe os ponteiros de trabalho dos outros colaboradores da equipe.
@@ -389,6 +395,7 @@ A respeito das regras formais do SemVer e da gestão de dependências com gerenc
 * **E)** A alteração do número de versão `MAJOR` sinaliza aos consumidores que foram adicionadas apenas correções superficiais de documentação, com garantia total de retrocompatibilidade.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Correções de falhas ou correções de segurança que mantêm total compatibilidade da API devem incrementar unicamente o dígito de **PATCH** (passando para `2.4.2`).
 > - **B)** **CORRETA.** A adição de novas funcionalidades preservando integralmente a compatibilidade com versões anteriores (*backwards-compatible*) exige formalmente o incremento do dígito **MINOR** (passando de `2.4.1` para `2.5.0` e zerando o patch).
 > - **C)** Incorreta. O prefixo circunflexo `^2.4.1` autoriza atualizações de **MINOR e PATCH** (qualquer versão menor que `3.0.0`). O prefixo que congela a versão menor e restringe apenas a correções de patch é o til (`~2.4.1`).
@@ -411,6 +418,7 @@ Sobre os efeitos dos parâmetros do comando `git reset`, assinale a afirmativa c
 * **E)** A opção `--soft` é a única que apaga os arquivos do sistema de arquivos no disco rígido.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A opção `--soft` não descarta nenhuma alteração; ela preserva todas as mudanças na Staging Area.
 > - **B)** **CORRETA.** O modo padrão `--mixed` recua o HEAD para o commit indicado, limpa a Staging Area (desfazendo o preparo), porém **preserva intactas todas as alterações no Working Directory**, mantendo os arquivos no disco como modificações pendentes de novo `git add`.
 > - **C)** Incorreta. A opção `--hard` descarta sumariamente e sobrescreve todas as modificações no Working Directory e na Staging Area.
@@ -433,6 +441,7 @@ A técnica que consiste na análise estática das instruções `import` e `expor
 * **E)** *Source Mapping*
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. *Code Splitting* é a técnica de segmentar o bundle em múltiplos arquivos (*chunks*) para carregamento sob demanda (*lazy loading*).
 > - **B)** Incorreta. *Hot Module Replacement (HMR)* atualiza módulos no navegador durante o desenvolvimento sem recarregar a página por completo.
 > - **C)** **CORRETA.** A técnica de **Tree Shaking** (*dead-code elimination*) analisa a estrutura estática dos módulos ESM (`import`/`export`) durante a compilação e remove do pacote final qualquer função ou classe importada que não seja invocada no código da aplicação.
@@ -455,6 +464,7 @@ A respeito do ciclo de vida do Maven e dos mecanismos que garantem builds reprod
 * **E)** O arquivo de lockfile (`package-lock.json` ou `poetry.lock`) impede a compilação de código caso o repositório remoto contenha novas versões maiores (*MAJOR*) de bibliotecas de terceiros.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A fase `compile` precede obrigatoriamente a fase `package`, pois não é possível empacotar classes antes de sua compilação.
 > - **B)** **CORRETA.** A fase **`install`** do ciclo padrão do Maven compila os arquivos, executa os testes unitários, gera o pacote (`.jar` ou `.war`) e o instala no repositório local (`~/.m2/repository`), permitindo que outros projetos desenvolvidos localmente o consumam como dependência.
 > - **C)** Incorreta. Em esteiras de CI/CD, o comando correto é o **`npm ci`**, pois ele instala estritamente as versões travadas no `package-lock.json` e aborta se houver divergências.

@@ -25,28 +25,27 @@
 ---
 
 ## 🧭 Sumário Interativo
-
-- [1. Elementos da Organização Formal e Desenho Estrutural](#1-elementos-da-organização-formal-e-desenho-estrutural)
-    - [1.1 Os Pilares da Organização Formal Moderna](#11-os-pilares-da-organização-formal-moderna)
+- [1. Elementos da Organização Formal e Desenho Estrutural](#1-elementos-da-organizacao-formal-e-desenho-estrutural)
+    - [1.1 Os Pilares da Organização Formal Moderna](#11-os-pilares-da-organizacao-formal-moderna)
     - [1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)](#12-amplitude-administrativa-e-formato-organizacional-agudo-vs-plano)
-    - [1.3 Centralização vs. Descentralização Decisória](#13-centralização-vs-descentralização-decisória)
+    - [1.3 Centralização vs. Descentralização Decisória](#13-centralizacao-vs-descentralizacao-decisoria)
 - [2. Modelos de Estrutura Organizacional](#2-modelos-de-estrutura-organizacional)
-    - [2.1 Estrutura Linear (Militar/Clássica)](#21-estrutura-linear-militarclássica)
+    - [2.1 Estrutura Linear (Militar/Clássica)](#21-estrutura-linear-militarclassica)
     - [2.2 Estrutura Funcional (Tayloriana)](#22-estrutura-funcional-tayloriana)
     - [2.3 Estrutura Linha-Staff (Comando e Assessoria)](#23-estrutura-linha-staff-comando-e-assessoria)
-    - [2.4 Estrutura Matricial (Dupla Subordinação)](#24-estrutura-matricial-dupla-subordinação)
+    - [2.4 Estrutura Matricial (Dupla Subordinação)](#24-estrutura-matricial-dupla-subordinacao)
     - [2.5 Estrutura em Rede (Modular e Desverticalizada)](#25-estrutura-em-rede-modular-e-desverticalizada)
-- [3. Critérios de Departamentalização](#3-critérios-de-departamentalização)
-    - [3.1 Departamentalização Funcional, Territorial e por Produtos](#31-departamentalização-funcional-territorial-e-por-produtos)
-    - [3.2 Departamentalização por Clientes, Processos e Projetos](#32-departamentalização-por-clientes-processos-e-projetos)
-- [4. O Processo Organizacional e as Funções Administrativas (PODC)](#4-o-processo-organizacional-e-as-funções-administrativas-podc)
-    - [4.1 Planejamento: Estratégico, Tático e Operacional](#41-planejamento-estratégico-tático-e-operacional)
-    - [4.2 Organização: Distribuição de Tarefas, Autoridade e Recursos](#42-organização-distribuição-de-tarefas-autoridade-e-recursos)
-    - [4.3 Direção, Liderança e Comunicação Organizacional](#43-direção-liderança-e-comunicação-organizacional)
-    - [4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)](#44-controle-padrões-medição-e-momentos-de-atuação-prévio-concomitante-e-posterior)
-- [5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças](#5-gestão-pública-vs-gestão-privada-convergências-e-diferenças)
-- [6. Fontes Oficiais & Referências Bibliográficas](#6-fontes-oficiais--referências-bibliográficas)
-- [7. Questões Comentadas no Padrão FCC](#7-questões-comentadas-no-padrão-fcc)
+- [3. Critérios de Departamentalização](#3-criterios-de-departamentalizacao)
+    - [3.1 Departamentalização Funcional, Territorial e por Produtos](#31-departamentalizacao-funcional-territorial-e-por-produtos)
+    - [3.2 Departamentalização por Clientes, Processos e Projetos](#32-departamentalizacao-por-clientes-processos-e-projetos)
+- [4. O Processo Organizacional e as Funções Administrativas (PODC)](#4-o-processo-organizacional-e-as-funcoes-administrativas-podc)
+    - [4.1 Planejamento: Estratégico, Tático e Operacional](#41-planejamento-estrategico-tatico-e-operacional)
+    - [4.2 Organização: Distribuição de Tarefas, Autoridade e Recursos](#42-organizacao-distribuicao-de-tarefas-autoridade-e-recursos)
+    - [4.3 Direção, Liderança e Comunicação Organizacional](#43-direcao-lideranca-e-comunicacao-organizacional)
+    - [4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)](#44-controle-padroes-medicao-e-momentos-de-atuacao-previo-concomitante-e-posterior)
+- [5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças](#5-gestao-publica-vs-gestao-privada-convergencias-e-diferencas)
+- [6. Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
+- [7. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -295,6 +294,7 @@ Determinada autarquia estadual de regulação de transportes estruturou suas equ
 * **E)** Colegiada.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A estrutura linear fundamenta-se na unidade de comando irrestrita, com linhas únicas, diretas e verticais de chefia.
 > - **B)** Incorreta. A estrutura funcional fraciona a autoridade de acordo com a especialidade funcional, mas não sobrepõe gerências temporárias de projetos a departamentos fixos.
 > - **C)** Correta. A estrutura matricial caracteriza-se essencialmente pela combinação bidimensional de uma estrutura funcional permanente com gerências de projetos temporárias, resultando na **dupla subordinação** dos colaboradores (ao líder do projeto e ao chefe funcional da sua área técnica).
@@ -315,6 +315,7 @@ A respeito das funções do processo administrativo (planejamento, organização
 * **E)** As organizações privadas submetem-se ao mesmo regime de recrutamento universal mediante concurso público imposto pela Constituição aos órgãos estatais.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O planejamento abrange três horizontes: estratégico (longo prazo), tático (médio prazo) e operacional (curto prazo). A fixação de metas institucionais pertence ao planejamento estratégico, e não à organização.
 > - **B)** Correta. Essa é a distinção jurídica clássica: na gestão privada vigora a autonomia da vontade (fazer tudo que a lei não proíbe - Art. 5º, II da CF), enquanto na administração pública incide o princípio da legalidade estrita (o agente só pode agir de acordo com o que a lei expressamente autoriza ou determina - Art. 37, caput da CF).
 > - **C)** Incorreta. O planejamento é a primeira função administrativa. O controle depende da existência prévia de metas e padrões para aferir desvios e corrigi-los.
@@ -335,6 +336,7 @@ Considere uma organização pública estadual que decida reduzir o número de se
 * **E)** A transformação imediata do modelo organizacional em departamentalização estritamente geográfica.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Reduzir escalões faz o oposto: alarga a amplitude de controle e horizontaliza a estrutura.
 > - **B)** Incorreta. A divisão do trabalho permanece; ela não depende da quantidade de níveis hierárquicos.
 > - **C)** Correta. Ao reduzir os níveis intermediários sem diminuir o total de subordinados, cada gestor remanescente passará a chefiar um contingente maior de pessoas (**alargamento da amplitude administrativa**). Como consequência direta, a organização torna-se **achatada (plana/horizontalizada)**, reduzindo a distância entre a base e a cúpula.
@@ -355,6 +357,7 @@ Uma das etapas cruciais da função administrativa de Direção é a comunicaç�
 * **E)** A ampliação de níveis hierárquicos em estruturas verticais favorece a fidelidade da mensagem e elimina qualquer possibilidade de ruído comunicacional.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Relatórios, dúvidas e sugestões vindos da base para a chefia constituem o fluxo **ascendente**. O fluxo descendente transmite diretrizes, metas e normas do topo para a base.
 > - **B)** Correta. A comunicação horizontal (ou lateral) ocorre entre membros de departamentos distintos ou colegas que ocupam o mesmo patamar hierárquico, facilitando a cooperação mútua, integração de processos e resolução ágil de problemas cotidianos.
 > - **C)** Incorreta. Falhas mecânicas e instabilidade de sinal são barreiras **físicas**. Barreiras **semânticas** dizem respeito ao significado das palavras, jargões técnicos incompreendidos ou diferenças de vocabulário.
@@ -375,6 +378,7 @@ No âmbito da administração contemporânea, o processo administrativo de contr
 * **E)** A realização de auditoria de conformidade ex post destinada a quantificar o dano ao erário decorrente de sobrepreço em contrato encerrado.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A análise de contas após o encerramento do exercício financeiro é um controle **posterior (ex post)**.
 > - **B)** Incorreta. A aplicação de sanção por entrega defeituosa é uma medida **corretiva/posterior** à constatação da infração contratual.
 > - **C)** Incorreta. A fiscalização presencial durante a realização dos serviços é um controle **concomitante (em tempo real)**.

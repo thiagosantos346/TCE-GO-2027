@@ -21,16 +21,16 @@
 ---
 
 ## 🧭 Sumário Interativo
-- [1. Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)](#1-síntese-comparativa-das-escolas-da-teoria-geral-da-administração-tga)
-- [2. A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)](#2-a-divergência-clássica-taylor-científica-vs-fayol-clássica)
-- [3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne](#3-teoria-das-relações-humanas-elton-mayo-e-a-experiência-de-hawthorne)
-- [4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)](#4-teoria-da-burocracia-max-weber-e-as-disfunções-burocráticas-robert-merton)
+- [1. Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)](#1-sintese-comparativa-das-escolas-da-teoria-geral-da-administracao-tga)
+- [2. A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)](#2-a-divergencia-classica-taylor-cientifica-vs-fayol-classica)
+- [3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne](#3-teoria-das-relacoes-humanas-elton-mayo-e-a-experiencia-de-hawthorne)
+- [4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)](#4-teoria-da-burocracia-max-weber-e-as-disfuncoes-burocraticas-robert-merton)
 - [5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon](#5-abordagem-comportamental-mcgregor-barnard-e-herbert-simon)
-- [6. Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto](#6-teoria-geral-dos-sistemas-tgs-a-organização-como-sistema-aberto)
-- [7. Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos](#7-teoria-contingencial-sistemas-mecanicistas-vs-orgânicos)
-- [8. Metáforas Organizacionais de Gareth Morgan](#8-metáforas-organizacionais-de-gareth-morgan)
-- [9. Fontes Oficiais e Referências Bibliográficas](#9-fontes-oficiais-e-referências-bibliográficas)
-- [10. Questões de Concurso FCC Comentadas](#10-questões-de-concurso-fcc-comentadas)
+- [6. Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto](#6-teoria-geral-dos-sistemas-tgs-a-organizacao-como-sistema-aberto)
+- [7. Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos](#7-teoria-contingencial-sistemas-mecanicistas-vs-organicos)
+- [8. Metáforas Organizacionais de Gareth Morgan](#8-metaforas-organizacionais-de-gareth-morgan)
+- [9. Fontes Oficiais e Referências Bibliográficas](#9-fontes-oficiais-e-referencias-bibliograficas)
+- [10. Questões de Concurso FCC Comentadas](#10-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -101,11 +101,13 @@ flowchart TD
     - **Comandar:** Dirigir, orientar e instruir o corpo de funcionários.
     - **Coordenar:** Ligar, unir, harmonizar e sincronizar todos os atos e esforços coletivos.
     - **Controlar:** Verificar se tudo corre de acordo com o programa aprovado e as ordens expedidas.
+
 3. **Os 14 Princípios Gerais da Administração:**
     - Destaque absoluto em provas para a **Unidade de Comando** (cada agente tem apenas um chefe imediato de quem recebe ordens), a **Unidade de Direção** (um só chefe e um só programa para um conjunto de operações com o mesmo objetivo), a **Cadeia Escalar / Hierarquia** (linha de autoridade do topo à base) e a **Divisão do Trabalho**.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (UNIDADE DE COMANDO VS. SUPERVISÃO FUNCIONAL):**  
 > Questão predileta da FCC: contrapor Taylor e Fayol em matéria de chefia!  
+>
 > - **Supervisão Funcional:** Defendida por **Taylor** (o operário responde a vários supervisores especialistas em cada função técnica).  
 > - **Unidade de Comando:** Defendida categoricamente por **Fayol** (cada funcionário só pode receber ordens de um único chefe direto, sob pena de gerar desordem, conflito de lealdades e anarquia).
 
@@ -159,8 +161,10 @@ A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotand
 1. **Douglas McGregor (Teoria X versus Teoria Y):**
     - **Teoria X (Visão Tradicional e Pessimista):** O indivíduo é preguiçoso, avesso ao trabalho, desprovido de ambição e evita responsabilidades. Exige supervisão cerrada, coerção, controle punitivo e recompensas pecuniárias extrínsecas.
     - **Teoria Y (Visão Moderna e Otimista):** O esforço no trabalho é tão natural quanto o lazer. As pessoas são capazes de automotivação, criatividade, autodireção e buscam responsabilidades quando alinhadas aos propósitos institucionais.
+
 2. **Chester Barnard (A Organização como Sistema Cooperativo):**
     - Formulou a **Teoria da Aceitação da Autoridade**: a autoridade não flui compulsoriamente de cima para baixo. Ela só existe efetivamente quando o subordinado decide aceitar a ordem dada pelo superior, dentro de sua "zona de indiferença" (quando entende a ordem, julga-a compatível com os objetivos da organização e com seus valores pessoais).
+
 3. **Herbert Simon (Processo Decisório e Racionalidade Limitada):**
     - Demonstrou que o gestor atua como o **Homem Administrativo**, tomando decisões **satisfatórias** diante da escassez de tempo, imprecisão de dados e limitações de processamento cognitivo, sepultando o mito do *Homem Econômico* maximizador.
 
@@ -187,6 +191,7 @@ flowchart LR
 * **Sinergia:** O efeito multiplicador da cooperação sistêmica, no qual o resultado global do todo integrado é qualitativa e quantitativamente superior à simples soma das partes isoladas ($1 + 1 > 2$).
 
 > ⭐ **IMPORTANTE (ENTROPIA NEGATIVA VS. HOMEOSTASE DINÂMICA):**  
+>
 > - **Entropia Negativa (Negentropia):** É o processo de **importar energia/recursos de fora** para não entrar em colapso (combate o desgaste natural).  
 > - **Homeostase Dinâmica:** É a capacidade interna de **manter o equilíbrio e estabilidade**, ajustando o organismo às variações do ambiente.
 
@@ -260,6 +265,7 @@ A respeito da evolução do pensamento administrativo e das premissas sustentada
 * **E)** O modelo weberiano de burocracia baseia-se na autoridade carismática como esteio fundamental para a profissionalização e estabilidade do quadro funcional das organizações.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** O conceito de *Homo Economicus* pertence à Administração Científica (Taylor) e Teoria Clássica (Fayol). A Escola de Relações Humanas (Mayo) concebeu o trabalhador como **Homo Socialis** (motivado pelo grupo e integração social).  
 > - **B) Incorreta.** A Teoria Contingencial rejeita a existência de princípios universais ou de uma "melhor maneira" única, afirmando que a estrutura adequada depende da tecnologia e do ambiente.  
 > - **C) CORRETA.** Na Teoria Geral dos Sistemas, as organizações são concebidas como **sistemas abertos** que realizam trocas permanentes com o meio externo e possuem **entropia negativa (negentropia)**, ou seja, a capacidade de importar insumos e energia para deter o colapso e preservar a homeostase interna.  
@@ -281,6 +287,7 @@ Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa a
 * **E)** Joan Woodward e os teóricos da abordagem situacional contemporânea.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Elton Mayo inaugurou a abordagem humanística focada no comportamento grupal e nas necessidades psicossociais.  
 > - **B) CORRETA.** A **metáfora da máquina** proposta por Morgan reflete a concepção mecanicista do início do século XX encabeçada por **Taylor (Administração Científica)** e **Fayol (Teoria Clássica)**, na qual a instituição é planejada como uma engrenagem mecânica precisa, projetada para funcionar com rotina, previsibilidade e máxima eficiência padronizada.  
 > - **C) Incorreta.** A Teoria dos Sistemas utiliza prioritariamente a metáfora dos organismos vivos.  
@@ -302,6 +309,7 @@ Considere que um gestor público de departamento estadual dividiu as rotinas de 
 * **E)** Teoria Comportamental fundamentada na Teoria Y de Douglas McGregor.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** As Relações Humanas valorizam o reconhecimento social e os grupos informais, rejeitando a primazia do dinheiro como motivador único.  
 > - **B) CORRETA.** A **Administração Científica de Frederick Taylor** baseava-se no estudo sistemático dos tempos e movimentos (ORT), fragmentação máxima das tarefas e estímulo pecuniário através do pagamento por produção individual, alicerçada no postulado antropológico do **Homo Economicus** (o ser humano é preguiçoso e move-se unicamente pela busca do ganho material/financeiro).  
 > - **C) Incorreta.** A abordagem estruturalista foca na interação entre estruturas formais e informais e no papel dos conflitos.  
@@ -323,6 +331,7 @@ No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de 
 * **E)** A proliferação descontrolada de grupos informais que ditam os padrões de produtividade à revelia da administração.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A supervisão funcional é uma proposta da Administração Científica de Taylor, não uma disfunção da burocracia de Merton.  
 > - **B) Incorreta.** A burocracia peca pelo excesso de rigidez e apego às regras, e não por flexibilização emocional.  
 > - **C) CORRETA.** Robert Merton demonstrou que o apego cego e intransigente aos regulamentos provoca o **deslocamento de objetivos**: a regra, que deveria ser um mero instrumento para atingir o fim público, transforma-se no objetivo primordial do funcionário. O cumprimento formal da norma passa a valer mais do que a solução do problema do cidadão.  
@@ -344,6 +353,7 @@ Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingen
 * **E)** As organizações que adotam sistemas orgânicos eliminam integralmente a divisão do trabalho e suprimem as metas institucionais de longo prazo.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Descentralização, comunicação horizontal e adaptabilidade rápida a ambientes dinâmicos são atributos dos sistemas **orgânicos**.  
 > - **B) Incorreta.** Ambientes estáveis e previsíveis ajustam-se melhor aos sistemas **mecanicistas**.  
 > - **C) CORRETA.** Segundo Burns e Stalker, os **sistemas mecanicistas** são marcados por hierarquia vertical estrita, autoridade centralizada na cúpula, tarefas fragmentadas e rotinas padronizadas, sendo ideais para ambientes externos **estáveis e previsíveis**.  

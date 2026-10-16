@@ -22,23 +22,23 @@
 ---
 
 ## 🧭 Sumário
-1. [Conceito, Características e Cláusulas Exorbitantes dos Contratos Administrativos](#1-conceito-características-e-cláusulas-exorbitantes-dos-contratos-administrativos)
-    - 1.1 [Características Fundamentais e Formalização](#11-características-fundamentais-e-formalização)
-    - 1.2 [Cláusulas Exorbitantes e Restrição à Exceção do Contrato Não Cumprido](#12-cláusulas-exorbitantes-e-restrição-à-exceção-do-contrato-não-cumprido)
-2. [Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)](#2-garantias-contratuais-e-seguro-garantia-com-cláusula-de-retomada-step-in-rights)
-3. [Duração e Prorrogação dos Contratos Administrativos](#3-duração-e-prorrogação-dos-contratos-administrativos)
-    - 3.1 [Serviços e Fornecimentos Contínuos (Regra 5 + 5 = Até 10 Anos)](#31-serviços-e-fornecimentos-contínuos-regra-5--5--até-10-anos)
-    - 3.2 [Contratos por Escopo](#32-contratos-por-escopo)
-4. [Gestão, Fiscalização e Responsabilidade Trabalhista do Estado](#4-gestão-fiscalização-e-responsabilidade-trabalhista-do-estado)
-    - 4.1 [Estrutura de Gestão e Fiscalização Contratual](#41-estrutura-de-gestão-e-fiscalização-contratual)
-    - 4.2 [Responsabilidade Trabalhista e Previdenciária: O Tema 246 do STF](#42-responsabilidade-trabalhista-e-previdenciária-o-tema-246-do-stf)
-    - 4.3 [Recebimento Provisório e Definitivo do Objeto](#43-recebimento-provisório-e-definitivo-do-objeto)
-5. [Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro](#5-alterações-contratuais-e-manutenção-do-equilíbrio-econômico-financeiro)
-    - 5.1 [Alterações Unilaterais e Consensuais: Limites de 25% e 50%](#51-alterações-unilaterais-e-consensuais-limites-de-25-e-50)
-    - 5.2 [Instrumentos de Recomposição: Reajuste, Repactuação e Revisão](#52-instrumentos-de-recomposição-reajuste-repactuação-e-revisão)
-6. [Infrações, Sistema Sancionador e Processo de Reabilitação](#6-infrações-sistema-sancionador-e-processo-de-reabilitação)
-7. [Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
-8. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#8-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
+- [1. Conceito, Características e Cláusulas Exorbitantes dos Contratos Administrativos](#1-conceito-caracteristicas-e-clausulas-exorbitantes-dos-contratos-administrativos)
+    - [1.1 Características Fundamentais e Formalização](#11-caracteristicas-fundamentais-e-formalizacao)
+    - [1.2 Cláusulas Exorbitantes e Restrição à Exceção do Contrato Não Cumprido](#12-clausulas-exorbitantes-e-restricao-a-excecao-do-contrato-nao-cumprido)
+- [2. Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)](#2-garantias-contratuais-e-seguro-garantia-com-clausula-de-retomada-step-in-rights)
+- [3. Duração e Prorrogação dos Contratos Administrativos](#3-duracao-e-prorrogacao-dos-contratos-administrativos)
+    - [3.1 Serviços e Fornecimentos Contínuos (Regra 5 + 5 = Até 10 Anos)](#31-servicos-e-fornecimentos-continuos-regra-5-5-ate-10-anos)
+    - [3.2 Contratos por Escopo](#32-contratos-por-escopo)
+- [4. Gestão, Fiscalização e Responsabilidade Trabalhista do Estado](#4-gestao-fiscalizacao-e-responsabilidade-trabalhista-do-estado)
+    - [4.1 Estrutura de Gestão e Fiscalização Contratual](#41-estrutura-de-gestao-e-fiscalizacao-contratual)
+    - [4.2 Responsabilidade Trabalhista e Previdenciária: O Tema 246 do STF](#42-responsabilidade-trabalhista-e-previdenciaria-o-tema-246-do-stf)
+    - [4.3 Recebimento Provisório e Definitivo do Objeto](#43-recebimento-provisorio-e-definitivo-do-objeto)
+- [5. Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro](#5-alteracoes-contratuais-e-manutencao-do-equilibrio-economico-financeiro)
+    - [5.1 Alterações Unilaterais e Consensuais: Limites de 25% e 50%](#51-alteracoes-unilaterais-e-consensuais-limites-de-25-e-50)
+    - [5.2 Instrumentos de Recomposição: Reajuste, Repactuação e Revisão](#52-instrumentos-de-recomposicao-reajuste-repactuacao-e-revisao)
+- [6. Infrações, Sistema Sancionador e Processo de Reabilitação](#6-infracoes-sistema-sancionador-e-processo-de-reabilitacao)
+- [7. Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
+- [8. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -88,6 +88,7 @@ A critério da autoridade competente, em cada contratação a Administração po
 3. **Seguro-garantia** emitido por seguradora autorizada pela SUSEP.
 
 **Limites Ordinários de Garantia:**
+
 - **Regra Geral:** O percentual de garantia contratual será de até **5% (cinco por cento)** do valor inicial do contrato (art. 98).
 - **Contratos de Alta Complexidade Técnica ou Riscos Elevados:** A garantia pode ser fixada em até **10% (dez por cento)** do valor do contrato, desde que expressamente motivada na fase preparatória (art. 98, § 1º).
 
@@ -165,6 +166,7 @@ flowchart LR
 ```
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+>
 > 1. O limite ampliado de **até 50% é exclusivo para acréscimos em reformas** de edifícios ou de equipamentos. Obras novas ou ampliações submetem-se ao teto de 25%.  
 > 2. **Para supressões (reduções quantitativas), o limite legal é sempre de 25%**, inclusive em reformas de edifícios!  
 > 3. É **terminantemente proibida a compensação matemática** entre acréscimos e supressões para efeito de cumprimento dos limites legais (ex.: acrescer 40% em um item e suprimir 40% em outro configura ilegalidade manifesta pelo "jogo de planilhas").
@@ -228,6 +230,7 @@ Em face dos limites de alteração unilateral estabelecidos no art. 125 da Lei F
 * **E)** O limite de 50% aplica-se apenas caso a empreiteira comprove que o aço foi importado de país membro do Mercosul.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** Desconsidera a regra específica do art. 125 que autoriza teto de até 50% exclusivamente para acréscimos em reformas de edifícios ou equipamentos.
 > - **B) CORRETA:** Conforme o art. 125 da Lei nº 14.133/2021, o contratado fica obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 25% do valor inicial do contrato, mas, no caso de reforma de edifício ou de equipamento, o limite para os acréscimos será de até 50% (cinquenta por cento). Como o contrato original era de R$ 4 milhões, o teto de 50% equivale a R$ 2 milhões adicionais; logo, o aditivo de R$ 1,6 milhão (40%) é perfeitamente lícito.
 > - **C) Incorreta:** Não existe permissão legal para alterações unilaterais ilimitadas, e o CREA não possui competência para derrogar o teto legal de 50%.
@@ -250,6 +253,7 @@ Durante a execução de um contrato administrativo de fornecimento de sistemas d
 * **E)** Extingue-se automaticamente caso a empresa altere sua denominação social e seu quadro de sócios.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A sanção que se restringe à esfera do próprio ente federativo é o "Impedimento de licitar e contratar" (art. 156, III). A declaração de inidoneidade tem efeito nacional amplo.
 > - **B) CORRETA:** De acordo com o art. 156, § 5º, da Lei nº 14.133/2021, a sanção de declaração de inidoneidade para licitar ou contratar impedirá o responsável de licitar ou contratar no âmbito da Administração Pública direta e indireta de todos os entes federativos (União, Estados, Distrito Federal e Municípios), pelo prazo mínimo de 3 (três) anos e máximo de 6 (seis) anos.
 > - **C) Incorreta:** A sanção não é perpétua e admite processo de reabilitação após cumprido o prazo mínimo de 3 anos, reparado o dano e atendidas exigências de integridade (art. 163).
@@ -272,6 +276,7 @@ Diante do art. 121, § 1º, da Lei Federal nº 14.133/2021 e da tese de repercus
 * **E)** O ônus de provar a regularidade fiscalização das guias de FGTS transfere-se automaticamente para o Ministério Público do Trabalho.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O STF fixou expressamente no RE 760.931 (Tema 246) que o inadimplemento trabalhista do contratado não transfere responsabilidade objetiva ao Estado.
 > - **B) CORRETA:** Pelo art. 121, § 1º, da Lei 14.133/2021 c/c o Tema 246 da Repercussão Geral do STF, a responsabilidade subsidiária da Administração Pública não opera por transferência automática. É indispensável a comprovação inequívoca nos autos de conduta culposa da Administração no dever de fiscalizar (culpa *in vigilando*), ônus probatório que recai sobre o trabalhador postulante.
 > - **C) Incorreta:** Não há solidariedade em matéria de verbas trabalhistas de terceirizados nem equiparação funcional com servidores efetivos.
@@ -294,6 +299,7 @@ Os institutos jurídicos cabíveis para a recomposição financeira dos contrato
 * **E)** Encampação e caducidade contratual
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O reajuste em sentido estrito adota índices oficiais de preços prefixados para cobrir a inflação ordinária, não se aplicando à majoração decorrente de CCT nem ao caso de guerra imprevisível.
 > - **B) CORRETA:** Nos contratos com dedicação exclusiva de mão de obra (como o de limpeza), a variação de custos decorrente de Convenção Coletiva de Trabalho (CCT) é recomposta por meio do instituto da **Repactuação** (art. 135 da Lei nº 14.133/2021). Já o aumento extraordinário e imprevisível de combustíveis por guerra externa caracteriza álea extraordinária, ensejando a **Revisão** (Reequilíbrio Econômico-Financeiro em sentido estrito - art. 124, II, "d").
 > - **C) Incorreta:** Inverte a ordem dos institutos aplicáveis aos dois contratos apresentados.
@@ -316,6 +322,7 @@ De acordo com o art. 102 da Lei Federal nº 14.133/2021, a **cláusula de retoma
 * **E)** Transfere a titularidade da obra para a seguradora em regime de dação em pagamento definitiva.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O limite de garantia com cláusula de retomada pode atingir até 30% do valor inicial do contrato, e o propósito basilar do dispositivo é autorizar a intervenção direta da seguradora para terminar a obra.
 > - **B) CORRETA:** Conforme o art. 102 da Lei nº 14.133/2021, na contratação de obras e serviços de engenharia de grande vulto, o edital pode prever a obrigatoriedade de seguro-garantia com percentual de até 30% do valor inicial do contrato com previsão de cláusula de retomada (*step-in rights*), pela qual a seguradora, em caso de inadimplemento do contratado, assume a execução e conclui a obra, diretamente ou por meio de terceiros subcontratados.
 > - **C) Incorreta:** A seguradora assume a gestão jurídica da execução, podendo contratar empresas e engenheiros especializados para os serviços práticos de engenharia.

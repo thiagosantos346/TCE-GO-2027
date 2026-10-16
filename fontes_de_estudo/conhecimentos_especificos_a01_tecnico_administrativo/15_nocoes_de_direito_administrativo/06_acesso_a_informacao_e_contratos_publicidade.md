@@ -19,24 +19,23 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Transparência Pública e Regime da Lei de Acesso à Informação](#1-transparência-pública-e-regime-da-lei-de-acesso-à-informação)
+- [1. Transparência Pública e Regime da Lei de Acesso à Informação](#1-transparencia-publica-e-regime-da-lei-de-acesso-a-informacao)
     - [1.1 Diretrizes Fundamentais: A Publicidade como Regra Geral](#11-diretrizes-fundamentais-a-publicidade-como-regra-geral)
-    - [1.2 Transparência Ativa e a Divulgação de Vencimentos (Tema 483 / STF)](#12-transparência-ativa-e-a-divulgação-de-vencimentos-tema-483--stf)
-    - [1.3 Transparência Passiva e a Vedação de Justificativa (Art. 10, § 3º)](#13-transparência-passiva-e-a-vedação-de-justificativa-art-10--3º)
+    - [1.2 Transparência Ativa e a Divulgação de Vencimentos (Tema 483 / STF)](#12-transparencia-ativa-e-a-divulgacao-de-vencimentos-tema-483-stf)
+    - [1.3 Transparência Passiva e a Vedação de Justificativa (Art. 10, § 3º)](#13-transparencia-passiva-e-a-vedacao-de-justificativa-art-10-3o)
     - [1.4 Prazos Procedimentais e Regime Recursal](#14-prazos-procedimentais-e-regime-recursal)
-- [2. Classificação de Informações Sigilosas e Proteção de Dados Pessoais](#2-classificação-de-informações-sigilosas-e-proteção-de-dados-pessoais)
-    - [2.1 Graus de Sigilo e Prazos Máximos de Restrição](#21-graus-de-sigilo-e-prazos-máximos-de-restrição)
-    - [2.2 Competência Funcional para Classificação no Estado de Goiás](#22-competência-funcional-para-classificação-no-estado-de-goiás)
-    - [2.3 Proteção de Informações Pessoais (100 Anos)](#23-proteção-de-informações-pessoais-100-anos)
-    - [2.4 Vedação Absoluta de Sigilo: Violações a Direitos Humanos](#24-vedação-absoluta-de-sigilo-violações-a-direitos-humanos)
-- [3. Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)](#3-licitações-e-contratos-de-serviços-de-publicidade-lei-nº-122322010)
-    - [3.1 Objeto Específico e a Vedação Categórica ao Pregão](#31-objeto-específico-e-a-vedação-categórica-ao-pregão)
-    - [3.2 Tipos Licitatórios Obrigatórios](#32-tipos-licitatórios-obrigatórios)
-    - [3.3 A Subcomissão Técnica de Julgamento (Art. 10)](#33-a-subcomissão-técnica-de-julgamento-art-10)
-    - [3.4 Julgamento às Cegas e Proposta Técnica Desidentificada](#34-julgamento-às-cegas-e-proposta-técnica-desidentificada)
+- [2. Classificação de Informações Sigilosas e Proteção de Dados Pessoais](#2-classificacao-de-informacoes-sigilosas-e-protecao-de-dados-pessoais)
+    - [2.1 Graus de Sigilo e Prazos Máximos de Restrição](#21-graus-de-sigilo-e-prazos-maximos-de-restricao)
+    - [2.2 Competência Funcional para Classificação no Estado de Goiás](#22-competencia-funcional-para-classificacao-no-estado-de-goias)
+    - [2.3 Proteção de Informações Pessoais (100 Anos)](#23-protecao-de-informacoes-pessoais-100-anos)
+    - [2.4 Vedação Absoluta de Sigilo: Violações a Direitos Humanos](#24-vedacao-absoluta-de-sigilo-violacoes-a-direitos-humanos)
+- [3. Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)](#3-licitacoes-e-contratos-de-servicos-de-publicidade-lei-no-122322010)
+    - [3.1 Objeto Específico e a Vedação Categórica ao Pregão](#31-objeto-especifico-e-a-vedacao-categorica-ao-pregao)
+    - [3.2 Tipos Licitatórios Obrigatórios](#32-tipos-licitatorios-obrigatorios)
+    - [3.3 A Subcomissão Técnica de Julgamento (Art. 10)](#33-a-subcomissao-tecnica-de-julgamento-art-10)
+    - [3.4 Julgamento às Cegas e Proposta Técnica Desidentificada](#34-julgamento-as-cegas-e-proposta-tecnica-desidentificada)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
-- [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questões-comentadas--exemplos-padrão-fcc)
+- [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -215,6 +214,7 @@ Um cidadão domiciliado no Município de Goiânia protocolou pedido de acesso à
 * **E)** A negativa é legítima porque contratos de tecnologia da informação possuem sigilo ultrassecreto automático por 25 anos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O direito à transparência e ao controle social da Administração Pública independe de justificativa ou demonstração de interesse jurídico individual ou subjetivo.
 > - **B)** Correta. De acordo com o art. 10, § 3º, da Lei Federal nº 12.527/2011 e com o art. 10, § 3º, da Lei Estadual de Goiás nº 18.025/2013: *"são vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público."* Qualquer cidadão tem o direito constitucional de ter acesso a contratos, licitações e despesas públicas sem ser compelido a justificar perante a Administração as razões que motivaram seu pedido. O indeferimento liminar é frontalmente ilegal.
 > - **C)** Incorreta. O *Habeas Data* tutela dados e registros pessoais do próprio impetrante constantes de bancos de dados estatais, não servindo para obtenção de cópias de processos licitatórios gerais.
@@ -237,6 +237,7 @@ Considerando as normas especiais da Lei Federal nº 12.232/2010 e a jurisprudên
 * **E)** A autarquia pode utilizar pregão desde que fixe como tipo o maior lance comercial de patrocínio.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O pregão é privativo de bens e serviços comuns, sendo expressamente vetado para publicidade criativa institucional.
 > - **B)** Correta. O art. 5º da Lei Federal nº 12.232/2010, em consonância com o art. 29 da Lei nº 14.133/2021, preceitua que as licitações para serviços de publicidade institucional serão processadas obrigatoriamente pelos tipos **"melhor técnica"** ou **"técnica e preço"**, sendo **expressamente vedada a adoção da modalidade pregão**. A criação publicitária requer desenvolvimento conceitual, artístico e intelectual que não pode ser enquadrado como "serviço comum" passível de julgamento puramente por menor preço.
 > - **C)** Incorreta. O leilão é modalidade destinada à alienação de bens públicos ou apreendidos, não se aplicando à contratação de serviços.
@@ -259,10 +260,11 @@ Em relação aos graus de sigilo e aos prazos máximos legais de restrição de 
 * **E)** Qualquer servidor público efetivo dispõe de competência originária para classificar documentos no grau ultrassecreto.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. O art. 24, § 1º, da Lei Federal nº 12.527/2011 e o diploma estadual goiano fixam exatamente os seguintes prazos máximos de restrição a contar da produção do documento:
->   - I - **Ultrassecreta:** até **25 (vinte e cinco) anos**;
->   - II - **Secreta:** até **15 (quinze) anos**;
->   - III - **Reservada:** até **5 (cinco) anos**.
+>     - I - **Ultrassecreta:** até **25 (vinte e cinco) anos**;
+>     - II - **Secreta:** até **15 (quinze) anos**;
+>     - III - **Reservada:** até **5 (cinco) anos**.
 > - **B)** Incorreta. O prazo para documentos reservados é de 5 anos (e não 10), e o prazo originário do ultrassecreto é de 25 anos.
 > - **C)** Incorreta. No Estado Democrático de Direito não existe sigilo eterno ou perpétuo; decorrido o prazo legal máximo de classificação, a informação torna-se automaticamente pública.
 > - **D)** Incorreta. A proteção legal outorgada a informações pessoais relativas à intimidade, vida privada, honra e imagem tem prazo máximo de até **100 anos** (art. 31, § 1º, I), não se confundindo com o prazo de 15 anos do grau secreto.
@@ -284,6 +286,7 @@ A respeito da composição e das regras aplicáveis à **Subcomissão Técnica**
 * **E)** A proposta técnica apresentada pelas agências contenha logotipo e marcas de identificação destacadas para facilitar a atribuição de notas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A lei expressamente proíbe que todos os membros possuam vínculo com o órgão licitante, impondo a presença obrigatória de avaliadores externos independentes.
 > - **B)** Correta. De acordo com o art. 10 da Lei Federal nº 12.232/2010, a Subcomissão Técnica de publicidade é composta por pelo menos **3 (três) membros** com formação superior ou experiência comprovada na área de comunicação social, publicidade ou marketing. Seus integrantes são escolhidos **obrigatoriamente mediante sorteio público** em sessão previamente convocada, sendo imperativo que **pelo menos um terço (1/3) dos membros não mantenha vínculo funcional ou contratual** com o órgão ou entidade promotora da licitação.
 > - **C)** Incorreta. A indicação direta discricionária é nula de pleno direito; a seleção exige sorteio público aberto na presença de interessados.
@@ -306,6 +309,7 @@ Em consonância com a jurisprudência vinculante fixada pelo Supremo Tribunal Fe
 * **E)** Os vencimentos de agentes públicos podem ser divulgados apenas mediante solicitação individual fundamentada protocolada presencialmente no protocolo físico.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A pretensão da associação afronta a tese vinculante do STF fixada em repercussão geral, sendo legítima e constitucional a divulgação.
 > - **B)** Correta. No julgamento do RE 652.777 sob a sistemática da repercussão geral (**Tema 483**), o Supremo Tribunal Federal assentou: *"É legítima a publicação, inclusive em sítio eletrônico mantido pela Administração Pública, dos nomes dos seus servidores e do valor dos correspondentes vencimentos e vantagens pecuniárias."* A prevalência do princípio da publicidade, da transparência ativa e do controle social dos gastos públicos sobrepõe-se à pretensão de sigilo patrimonial de quem é pago pelo erário.
 > - **C)** Incorreta. A transparência ativa recai uniformemente sobre servidores concursados efetivos, comissionados e agentes políticos.

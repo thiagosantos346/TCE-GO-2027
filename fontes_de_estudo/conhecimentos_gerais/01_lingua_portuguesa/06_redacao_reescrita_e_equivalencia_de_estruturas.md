@@ -20,42 +20,42 @@
 ---
 
 ## 🧭 Sumário
-- [1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC](#1-confronto-e-julgamento-de-frases-o-checklist-caça-erros-da-fcc)
-    - [1.1 Estratégia de Varredura e Identificação de Vícios Gramaticais](#11-estratégia-de-varredura-e-identificação-de-vícios-gramaticais)
-    - [1.2 Vícios Recorrentes em Provas de Tribunais](#12-vícios-recorrentes-em-provas-de-tribunais)
+- [1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC](#1-confronto-e-julgamento-de-frases-o-checklist-caca-erros-da-fcc)
+    - [1.1 Estratégia de Varredura e Identificação de Vícios Gramaticais](#11-estrategia-de-varredura-e-identificacao-de-vicios-gramaticais)
+    - [1.2 Vícios Recorrentes em Provas de Tribunais](#12-vicios-recorrentes-em-provas-de-tribunais)
     - [1.3 Pronomes Retos Usados Indevidamente como Objetos](#13-pronomes-retos-usados-indevidamente-como-objetos)
-- [2. Paralelismo Sintático e Semântico](#2-paralelismo-sintático-e-semântico)
-    - [2.1 Princípio da Simetria Estrutural em Termos Coordenados](#21-princípio-da-simetria-estrutural-em-termos-coordenados)
+- [2. Paralelismo Sintático e Semântico](#2-paralelismo-sintatico-e-semantico)
+    - [2.1 Princípio da Simetria Estrutural em Termos Coordenados](#21-principio-da-simetria-estrutural-em-termos-coordenados)
     - [2.2 Paralelismo em Estruturas Correlativas](#22-paralelismo-em-estruturas-correlativas)
-    - [2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção](#23-casos-típicos-de-quebra-de-paralelismo-e-métodos-de-correção)
-- [3. Ambiguidade e Vícios de Construção Frasal](#3-ambiguidade-e-vícios-de-construção-frasal)
+    - [2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção](#23-casos-tipicos-de-quebra-de-paralelismo-e-metodos-de-correcao)
+- [3. Ambiguidade e Vícios de Construção Frasal](#3-ambiguidade-e-vicios-de-construcao-frasal)
     - [3.1 Ambiguidade Estrutural vs. Ambiguidade Lexical](#31-ambiguidade-estrutural-vs-ambiguidade-lexical)
     - [3.2 Ambiguidade pelo Mau Emprego de Pronomes Possessivos (Seu/Sua)](#32-ambiguidade-pelo-mau-emprego-de-pronomes-possessivos-seusua)
-    - [3.3 O Mau Posicionamento de Adjuntos Adverbiais e Orações Reduzidas](#33-o-mau-posicionamento-de-adjuntos-adverbiais-e-orações-reduzidas)
-    - [3.4 O Emprego Vicioso do Vocábulo O Mesmo](#34-o-emprego-vicioso-do-vocábulo-o-mesmo)
-- [4. Organização e Reorganização de Orações e Períodos](#4-organização-e-reorganização-de-orações-e-períodos)
-    - [4.1 Ordem Direta e os Efeitos Comunicativos das Inversões](#41-ordem-direta-e-os-efeitos-comunicativos-das-inversões)
-    - [4.2 Posicionamento Estratégico de Termos Intercalados e Pontuação](#42-posicionamento-estratégico-de-termos-intercalados-e-pontuação)
-    - [4.3 Coesão Sequencial e Encadeamento Lógico de Argumentos](#43-coesão-sequencial-e-encadeamento-lógico-de-argumentos)
-- [5. Equivalência, Transformação de Estruturas e Paráfrase](#5-equivalência-transformação-de-estruturas-e-paráfrase)
-    - [5.1 Critérios Cumulativos da Paráfrase Legítima](#51-critérios-cumulativos-da-paráfrase-legítima)
-    - [5.2 Transposição entre Orações Desenvolvidas e Reduzidas](#52-transposição-entre-orações-desenvolvidas-e-reduzidas)
-    - [5.3 Matriz de Substituição e Equivalência de Conectivos](#53-matriz-de-substituição-e-equivalência-de-conectivos)
-    - [5.4 Mecanismos de Nominalização e Concisão Textual](#54-mecanismos-de-nominalização-e-concisão-textual)
-    - [5.5 Transposição de Vozes Verbais na Reescrita](#55-transposição-de-vozes-verbais-na-reescrita)
-- [6. O Emprego Correto das Quatro Formas dos Porquês](#6-o-emprego-correto-das-quatro-formas-dos-porquês)
+    - [3.3 O Mau Posicionamento de Adjuntos Adverbiais e Orações Reduzidas](#33-o-mau-posicionamento-de-adjuntos-adverbiais-e-oracoes-reduzidas)
+    - [3.4 O Emprego Vicioso do Vocábulo O Mesmo](#34-o-emprego-vicioso-do-vocabulo-o-mesmo)
+- [4. Organização e Reorganização de Orações e Períodos](#4-organizacao-e-reorganizacao-de-oracoes-e-periodos)
+    - [4.1 Ordem Direta e os Efeitos Comunicativos das Inversões](#41-ordem-direta-e-os-efeitos-comunicativos-das-inversoes)
+    - [4.2 Posicionamento Estratégico de Termos Intercalados e Pontuação](#42-posicionamento-estrategico-de-termos-intercalados-e-pontuacao)
+    - [4.3 Coesão Sequencial e Encadeamento Lógico de Argumentos](#43-coesao-sequencial-e-encadeamento-logico-de-argumentos)
+- [5. Equivalência, Transformação de Estruturas e Paráfrase](#5-equivalencia-transformacao-de-estruturas-e-parafrase)
+    - [5.1 Critérios Cumulativos da Paráfrase Legítima](#51-criterios-cumulativos-da-parafrase-legitima)
+    - [5.2 Transposição entre Orações Desenvolvidas e Reduzidas](#52-transposicao-entre-oracoes-desenvolvidas-e-reduzidas)
+    - [5.3 Matriz de Substituição e Equivalência de Conectivos](#53-matriz-de-substituicao-e-equivalencia-de-conectivos)
+    - [5.4 Mecanismos de Nominalização e Concisão Textual](#54-mecanismos-de-nominalizacao-e-concisao-textual)
+    - [5.5 Transposição de Vozes Verbais na Reescrita](#55-transposicao-de-vozes-verbais-na-reescrita)
+- [6. O Emprego Correto das Quatro Formas dos Porquês](#6-o-emprego-correto-das-quatro-formas-dos-porques)
     - [6.1 Por que: Interrogativo e Relativo](#61-por-que-interrogativo-e-relativo)
-    - [6.2 Por quê: Isolado ou Imediatamente Antes de Pontuação](#62-por-quê-isolado-ou-imediatamente-antes-de-pontuação)
-    - [6.3 Porque: Conjunção Causal ou Explicativa](#63-porque-conjunção-causal-ou-explicativa)
-    - [6.4 Porquê: Substantivo com Artigo ou Determinante](#64-porquê-substantivo-com-artigo-ou-determinante)
-    - [6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A](#65-distinções-léxicas-adicionais-a-fim-de-vs-afim-e-ao-encontro-de-vs-de-encontro-a)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
-- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-    - [Questão 01](#questão-01)
-    - [Questão 02](#questão-02)
-    - [Questão 03](#questão-03)
-    - [Questão 04](#questão-04)
-    - [Questão 05](#questão-05)
+    - [6.2 Por quê: Isolado ou Imediatamente Antes de Pontuação](#62-por-que-isolado-ou-imediatamente-antes-de-pontuacao)
+    - [6.3 Porque: Conjunção Causal ou Explicativa](#63-porque-conjuncao-causal-ou-explicativa)
+    - [6.4 Porquê: Substantivo com Artigo ou Determinante](#64-porque-substantivo-com-artigo-ou-determinante)
+    - [6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A](#65-distincoes-lexicas-adicionais-a-fim-de-vs-afim-e-ao-encontro-de-vs-de-encontro-a)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
+    - [Questão 01](#questao-01)
+    - [Questão 02](#questao-02)
+    - [Questão 03](#questao-03)
+    - [Questão 04](#questao-04)
+    - [Questão 05](#questao-05)
 
 ---
 
@@ -226,9 +226,11 @@ Uma das técnicas prediletas de transformação de períodos na banca FCC é a c
 1. **De Oração Desenvolvida para Reduzida:**
     * Desenvolvida Concessiva: *"Embora o conselheiro conhecesse os riscos da decisão, manteve seu voto."*
     * Reduzida de Infinitivo: *"**Apesar de conhecer** os riscos da decisão, o conselheiro manteve seu voto."*
+
 2. **De Oração Reduzida para Desenvolvida:**
     * Reduzida Temporal: *"**Ao constatar** a fraude, o auditor lavrou o auto de infração."*
     * Desenvolvida Temporal: *"**Quando constatou** a fraude, o auditor lavrou o auto de infração."*
+
 3. **De Oração Nominal para Oração Subordinada:**
     * *"**A despeito das advertências** emitidas pelo órgão, mantiveram as práticas."*
     * $\rightarrow$ *"**Embora o órgão tenha emitido** advertências, mantiveram as práticas."*
@@ -272,9 +274,11 @@ A grafia **separada e sem acento** ocorre em três contextos bem delimitados:
 1. **Em frases interrogativas diretas ou indiretas:** atua como locução prepositiva interrogativa (= *por qual razão*, *por qual motivo*):
     * *"**Por que** o cronograma físico-financeiro sofreu sucessivas prorrogações?"* (pergunta direta).
     * *"Gostaria de compreender **por que** o cronograma sofreu atrasos."* (pergunta indireta).
+
 2. **Equivalendo ao pronome relativo "pelo qual / pela qual / pelos quais / pelas quais":** liga duas orações associando a preposição *por* ao pronome relativo *que*:
     * *"Os motivos **por que** [pelos quais] o contrato foi rescindido são graves."*
     * *"As causas **por que** lutamos são nobres."*
+
 3. **Equivalendo a "por qual razão" diante de substantivos elípticos:**
     * *"Não compreendo **por que** tanta relutância."* (= por qual razão).
 
@@ -307,6 +311,7 @@ Para garantir a perfeição no confronto de frases da FCC:
 1. **A Fim De vs. Afim:**
     * **A fim de (separado):** locução prepositiva de finalidade (= com o objetivo de, com o propósito de): *"Reuniram-se **a fim de** deliberar sobre as diretrizes"*.
     * **Afim (junto):** adjetivo que expressa parentesco, semelhança ou afinidade de interesses: *"Possuíam ideias **afins** sobre auditoria"*; *"Parentes **afins**"*.
+
 2. **Ao Encontro De vs. De Encontro A:**
     * **Ao encontro de:** indica concordância, harmonia, aproximação favorável: *"A decisão do pleno foi **ao encontro dos** anseios da sociedade"*.
     * **De encontro a:** indica colisão, choque, oposição, contrariedade: *"O reajuste salarial sem previsão orçamentária vai **de encontro às** determinações da LRF"*.
@@ -336,6 +341,7 @@ A frase cuja redação prima pela clareza, pela concisão e pela **estrita corre
 * **E)** *"O tribunal busca aprimorar os mecanismos de auditoria não só para conferir transparência aos atos mas garantindo a legalidade."*
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Apresenta quebra frontal de paralelismo sintático: o verbo *dedicar-se* regeu a preposição *a* no primeiro termo coordenado (*a examinar*) e a preposição *em* no segundo termo coordenado (*na verificação*). A construção harmônica exigiria: *dedicou-se a examinar os contratos e a verificar as certidões* (ou *ao exame dos contratos e à verificação das certidões*).
 > - **B)** Correta. A oração reúne três acertos sintáticos exemplares: 1) A expressão *fazer menção* rege a preposição *a* (*quem faz menção, faz menção a algo*), a qual foi adequadamente anteposta ao pronome relativo (*a que o conselheiro fez menção*); 2) O vocábulo *por que* foi grafado separadamente e sem acento de forma perfeita, equivalendo a "pelas quais razões"; 3) A concordância verbal da voz passiva sintética está irrepreensível, com o verbo no plural concordando com o sujeito paciente plural (*foram desaprovadas as contas da autarquia*).
 > - **C)** Incorreta. Apresenta dois erros graves: o verbo impessoal *haver* no sentido de existir foi indevidamente pluralizado (*haveriam reuniões* em vez do correto *haveria reuniões*); e a locução de finalidade foi grafada junta de modo vicioso (*afim de* em vez de *a fim de*).
@@ -359,6 +365,7 @@ Uma reescrita que preserva a correção gramatical e as **mesmas relações lóg
 * **E)** *"Conforme o órgão fiscalizador advertiu, os gestores mantiveram as práticas ilegítimas de modo que multaram-se os ordenadores."*
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Desvirtua a relação semântica fundamental do período: substituiu o valor concessivo original (*A despeito de*) por um valor causal (*Visto que*), e transformou a consequência final em causa explicativa com *porquanto*.
 > - **B)** Correta. Transforma impecavelmente a locução prepositiva nominal concessiva (*A despeito de...*) em uma oração subordinada adverbial concessiva desenvolvida introduzida pelo conectivo canônico **"Embora"**, flexionando o verbo de modo harmônico no pretérito perfeito do subjuntivo (**"Embora (...) tenha emitido"**). Ademais, preserva a oração principal intacta e verte o segmento consecutivo final em oração coordenada conclusiva de límpida concisão e correção gramatical (**"motivo pelo qual severas multas foram aplicadas"**).
 > - **C)** Incorreta. Converteu a relação de concessão em uma relação de simultaneidade progressiva proporcional por meio do uso das locuções proporcionais *À medida que* e *à proporção que*.
@@ -380,6 +387,7 @@ A frase que apresenta **quebra de paralelismo sintático** é:
 * **E)** *"O auditor atuou não apenas no levantamento documental, mas também na instrução probatória dos autos."*
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Apresenta paralelismo sintático perfeito: todos os três complementos coordenados do verbo *exigir* são sintagmas nominais homogêneos (*idoneidade moral*, *notório conhecimento*, *capacidade de liderança*).
 > - **B)** Incorreta. Paralelismo sintático preservado: os dois complementos verbais são estruturados por sintagmas nominais com substantivos abstratos derivados de ação (*a suspensão cautelar* e *a anulação de todos os atos*).
 > - **C)** Correta (apresenta erro de paralelismo). O verbo *propôs* teve seus complementos coordenados estruturados de forma assimétrica e heterogênea: o primeiro elemento coordenado é um **sintagma nominal** (*a revisão das medições de asfalto*), ao passo que o segundo elemento coordenado é uma **oração subordinada substantiva desenvolvida** (*e que se fizesse uma nova perícia técnica*). A harmonia sintática culta exigiria unificar as estruturas: ou dois sintagmas nominais (*propôs a revisão das medições e a realização de nova perícia*) ou duas orações desenvolvidas (*propôs que se revisassem as medições e que se fizesse nova perícia*).
@@ -395,9 +403,12 @@ A frase que apresenta **quebra de paralelismo sintático** é:
 Considere as frases e o emprego das quatro formas dos **porquês**:  
 
 I. *"Gostaria de compreender <ins>por que</ins> o cronograma físico-financeiro sofreu sucessivas prorrogações."*  
+
 II. *"A prestação de contas foi reprovada <ins>porque</ins> os gastos não foram devidamente comprovados."*  
+
 III. *"O ordenador de despesas não apresentou recurso no prazo regulamentar, e ninguém sabe <ins>por quê</ins>."*  
-IV. *"O conselheiro relator desvendou o <ins>porquê</ins> de tantas notas fiscais emitidas sem atesto de entrega."*
+
+IV. *"O conselheiro relator desvendou o <ins>porquê</ins> de tantas notas fiscais emitidas sem atesto de entrega."*  
 
 O emprego das palavras sublinhadas está plenamente correto em:
 
@@ -408,6 +419,7 @@ O emprego das palavras sublinhadas está plenamente correto em:
 * **E)** II, III e IV, apenas.
 
 > **Comentário Detalhado:**
+>
 > - **Item I: Correto.** Trata-se de uma oração interrogativa indireta na qual o vocábulo equivale a "por qual razão / por qual motivo", devendo ser grafado **separadamente e sem acento circunflexo** (*por que*).
 > - **Item II: Correto.** Atua como conjunção subordinativa causal que explicita a causa da reprovação das contas (= *pois, já que, visto que*), exigindo a grafia **junta e sem acento circunflexo** (*porque*).
 > - **Item III: Correto.** O termo encontra-se posicionado imediatamente antes de um sinal de pontuação (ponto final) no término da oração, assumindo tonicidade fonética e exigindo a grafia **separada e com acento circunflexo** (*por quê*).
@@ -431,6 +443,7 @@ Assinale a alternativa em que a reescrita da frase entre parênteses elimina a a
 * **E)** *"O presidente comunicou ao conselheiro que a assessoria do mesmo seria transferida para o novo gabinete."*
 
 > **Comentário Detalhado:**
+>
 > - **Problema da frase original:** O emprego do pronome possessivo de terceira pessoa *sua* gera ambiguidade estrutural manifesta, impedindo o leitor de definir com segurança se a assessoria a ser transferida pertencia ao Presidente (sujeito) ou ao Conselheiro (objeto indireto).
 > - **A)** Correta. Ao substituir o pronome possessivo polissêmico pela locução pós-nominal **"dele"** (*a assessoria dele*), a frase dissipa qualquer dúvida interpretativa, demonstrando cristalinamente que a assessoria subordinava-se ao conselheiro. Ademais, promove uma elegante nominalização (*a transferência da assessoria*), garantindo concisão e estrita observância à norma culta.
 > - **B)** Incorreta. A locução artificial *"assessoria de sua pessoa"* é prolixa, canhestra e rejeitada pela estilística oficial.

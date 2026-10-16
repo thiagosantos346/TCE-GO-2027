@@ -23,25 +23,24 @@
 ---
 
 ## 🧭 Sumário Interativo
-
-- [1. Balanço Orçamentário (BO - Art. 102 da Lei nº 4.320/1964)](#1-balanço-orçamentário-bo---art-102-da-lei-nº-43201964)
+- [1. Balanço Orçamentário (BO - Art. 102 da Lei nº 4.320/1964)](#1-balanco-orcamentario-bo-art-102-da-lei-no-43201964)
     - [1.1 Estrutura e Quadros Demonstrativos](#11-estrutura-e-quadros-demonstrativos)
-    - [1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)](#12-apuração-do-resultado-orçamentário-superávit-vs-déficit)
-- [2. Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)](#2-balanço-financeiro-bf---art-103-da-lei-nº-43201964)
-    - [2.1 Estrutura de Ingressos e Dispêndios](#21-estrutura-de-ingressos-e-dispêndios)
-    - [2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar](#22-o-fechamento-contábil-obrigatório-e-a-inscrição-de-restos-a-pagar)
-- [3. Balanço Patrimonial (BP - Art. 105 da Lei nº 4.320/1964 e NBC TSP 11)](#3-balanço-patrimonial-bp---art-105-da-lei-nº-43201964-e-nbc-tsp-11)
-    - [3.1 Estrutura Dual: Lei nº 4.320/1964 vs. Normas Internacionais (NBC TSP)](#31-estrutura-dual-lei-nº-43201964-vs-normas-internacionais-nbc-tsp)
-    - [3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)](#32-apuração-e-cálculo-do-superávit-financeiro-art-43--2º)
-- [4. Demonstração das Variações Patrimoniais (DVP) e Outras Demonstrações](#4-demonstração-das-variações-patrimoniais-dvp-e-outras-demonstrações)
-    - [4.1 Estrutura da DVP e Resultado Patrimonial por Competência](#41-estrutura-da-dvp-e-resultado-patrimonial-por-competência)
-    - [4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto](#42-demonstração-dos-fluxos-de-caixa-dfc-pelo-método-direto)
-    - [4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas](#43-demonstração-das-mutações-do-patrimônio-líquido-dmpl-e-notas-explicativas)
-- [5. Prestação de Contas ao Tribunal de Contas (TCE-GO)](#5-prestação-de-contas-ao-tribunal-de-contas-tce-go)
-    - [5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)](#51-contas-de-governo-parecer-prévio-vs-contas-de-gestão-julgamento-técnico)
-    - [5.2 Composição Documental Obrigatória e Papel do Controle Interno](#52-composição-documental-obrigatória-e-papel-do-controle-interno)
-- [6. Fontes Oficiais & Manuais Técnicos Recomendados](#6-fontes-oficiais--manuais-técnicos-recomendados)
-- [7. Questões Comentadas no Padrão FCC](#7-questões-comentadas-no-padrão-fcc)
+    - [1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)](#12-apuracao-do-resultado-orcamentario-superavit-vs-deficit)
+- [2. Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)](#2-balanco-financeiro-bf-art-103-da-lei-no-43201964)
+    - [2.1 Estrutura de Ingressos e Dispêndios](#21-estrutura-de-ingressos-e-dispendios)
+    - [2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar](#22-o-fechamento-contabil-obrigatorio-e-a-inscricao-de-restos-a-pagar)
+- [3. Balanço Patrimonial (BP - Art. 105 da Lei nº 4.320/1964 e NBC TSP 11)](#3-balanco-patrimonial-bp-art-105-da-lei-no-43201964-e-nbc-tsp-11)
+    - [3.1 Estrutura Dual: Lei nº 4.320/1964 vs. Normas Internacionais (NBC TSP)](#31-estrutura-dual-lei-no-43201964-vs-normas-internacionais-nbc-tsp)
+    - [3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)](#32-apuracao-e-calculo-do-superavit-financeiro-art-43-2o)
+- [4. Demonstração das Variações Patrimoniais (DVP) e Outras Demonstrações](#4-demonstracao-das-variacoes-patrimoniais-dvp-e-outras-demonstracoes)
+    - [4.1 Estrutura da DVP e Resultado Patrimonial por Competência](#41-estrutura-da-dvp-e-resultado-patrimonial-por-competencia)
+    - [4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto](#42-demonstracao-dos-fluxos-de-caixa-dfc-pelo-metodo-direto)
+    - [4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas](#43-demonstracao-das-mutacoes-do-patrimonio-liquido-dmpl-e-notas-explicativas)
+- [5. Prestação de Contas ao Tribunal de Contas (TCE-GO)](#5-prestacao-de-contas-ao-tribunal-de-contas-tce-go)
+    - [5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)](#51-contas-de-governo-parecer-previo-vs-contas-de-gestao-julgamento-tecnico)
+    - [5.2 Composição Documental Obrigatória e Papel do Controle Interno](#52-composicao-documental-obrigatoria-e-papel-do-controle-interno)
+- [6. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+- [7. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -113,6 +112,7 @@ flowchart TD
 $$\mathbf{\text{Total dos Ingressos} = \text{Total dos Dispêndios}}$$
 
 A diferença entre o somatório das entradas e das saídas é exatamente equilibrada pelo saldo de disponibilidades financeiras transportado para o exercício seguinte;
+
 - **A Inscrição de Restos a Pagar como Ingresso Extraorçamentário:**  
   Como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos **ingressos extraorçamentários** como artifício contábil compensatório para fechar o balanço financeiro do ano.
 
@@ -205,6 +205,7 @@ flowchart TD
     - Consubstanciam o balanço geral anual do Estado e a prestação macroeconômica da execução orçamentária e financeira;
     - O Tribunal de Contas **não julga as contas de governo**; emite **Parecer Prévio** de caráter técnico conclusivo no prazo de sessenta (60) dias;
     - O julgamento final é político-institucional e compete privativamente à Assembleia Legislativa do Estado de Goiás (ALEGO). O parecer técnico do TCE só deixará de prevalecer por decisão de **dois terços (2/3)** dos membros do parlamento estadual.
+
 2. **Contas de Gestão (Ordenadores de Despesas):**
     - Referem-se aos atos de gestão patrimonial, orçamentária e financeira praticados individualmente pelos secretários de Estado, dirigentes de autarquias, fundações e fundos especiais;
     - O Tribunal de Contas **julga diretamente e em definitivo** a regularidade dessas contas, proferindo acórdão que pode imputar débito ou aplicar multas com **eficácia de título executivo extrajudicial** (art. 71, § 3º da CF/88).
@@ -252,6 +253,7 @@ Com base estritamente nas regras da Lei Federal nº 4.320/1964 (Art. 43, § 2º)
 * **E)** R$ 2.000.000,00.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Refere-se à diferença bruta entre Ativo Financeiro e Passivo Financeiro ($12.000.000 - 7.000.000 = 5.000.000$), esquecendo-se da dedução obrigatória dos créditos especiais reabertos.
 > - **B)** Correta. De acordo com o art. 43, § 2º da Lei Federal nº 4.320/1964, o superávit financeiro é calculado subtraindo-se o Passivo Financeiro do Ativo Financeiro e deduzindo-se os saldos de créditos adicionais reabertos que ainda oneram a disponibilidade:  
 >   $$\text{SF} = \text{Ativo Financeiro} - \text{Passivo Financeiro} - \text{Créditos Reabertos}$$  
@@ -274,6 +276,7 @@ No âmbito da Contabilidade Aplicada ao Setor Público, a demonstração contáb
 * **E)** Demonstrativo das Variações Patrimoniais.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Balanço Financeiro (art. 103 da Lei nº 4.320/1964) evidencia os ingressos e dispêndios de recursos orçamentários e extraorçamentários e a movimentação das disponibilidades de caixa.
 > - **B)** Incorreta. O Balanço Patrimonial (art. 105 da Lei nº 4.320/1964) evidencia a situação estática de bens, direitos, obrigações e patrimônio líquido.
 > - **C)** Correta. O Balanço Orçamentário (art. 102 da Lei nº 4.320/1964 e MCASP Parte V) é o demonstrativo que confronta a previsão e arrecadação das receitas públicas com a fixação e execução das despesas orçamentárias (empenho, liquidação e pagamento), demonstrando formalmente o superávit ou déficit orçamentário do exercício.
@@ -294,6 +297,7 @@ Em relação ao Balanço Financeiro disciplinado pela Lei nº 4.320/1964 e pelo 
 * **E)** A cota de depreciação acumulada dos edifícios públicos é registrada como um dispêndio extraorçamentário.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Balanço Financeiro não apresenta saldo de superávit ou déficit financeiro ao final, pois o total dos ingressos sempre se iguala ao total dos dispêndios mediante o transporte do saldo para o exercício seguinte. O superávit financeiro é calculado no Balanço Patrimonial.
 > - **B)** Correta. Como a despesa orçamentária é computada nos dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos ingressos extraorçamentários como contrapartida contábil de ajuste para manter a equação financeira em equilíbrio.
 > - **C)** Incorreta. Repasses e sub-repasses são transferências puramente financeiras entre órgãos públicos, não constituindo receita orçamentária.
@@ -314,6 +318,7 @@ No encerramento do exercício financeiro, uma entidade governamental constatou q
 * **E)** Exclusivamente na Demonstração dos Fluxos de Caixa, classificado como fluxo de investimentos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A depreciação independe de dotação e não envolve execução de despesa orçamentária, não figurando no Balanço Orçamentário.
 > - **B)** Incorreta. A depreciação não envolve desembolso financeiro de moeda, não afetando o Balanço Financeiro nem a DFC.
 > - **C)** Correta. A depreciação periódica é um fato contábil estritamente patrimonial decorrente do regime de competência. Seu lançamento é: débito em Variação Patrimonial Diminutiva (VPD - Classe 3) e crédito em Depreciação Acumulada (Conta retificadora do Ativo Imobilizado - Classe 1). Logo, impacta a DVP (como VPD) e o Balanço Patrimonial (reduzindo o valor contábil líquido do Ativo Não Circulante).
@@ -334,6 +339,7 @@ A respeito da prestação de contas dos administradores públicos perante o Trib
 * **E)** As demonstrações contábeis exigidas na prestação de contas anual dispensam notas explicativas caso o Balanço Patrimonial não registre dívida fundada consolidada.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. As contas de governo do Chefe do Executivo estadual (Governador) são julgadas politicamente pela Assembleia Legislativa, cabendo ao Tribunal de Contas emitir parecer prévio técnico conclusivo (art. 71, I c/c art. 75 da CF/88).
 > - **B)** Incorreta. Os ordenadores de despesas e dirigentes de órgãos e autarquias prestam contas de gestão, as quais são julgadas diretamente pelo Tribunal de Contas com caráter terminativo.
 > - **C)** Correta. Conforme o modelo constitucional de controle externo (art. 31, § 2º aplicado por simetria federativa e normas correlatas da Constituição de Goiás), o parecer prévio técnico emitido pelo Tribunal de Contas sobre as contas anuais de governo do Chefe do Executivo somente deixará de prevalecer por decisão qualificada de dois terços (2/3) dos membros do Poder Legislativo.

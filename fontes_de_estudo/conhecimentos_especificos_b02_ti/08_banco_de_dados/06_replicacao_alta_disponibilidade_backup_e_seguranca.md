@@ -6,7 +6,7 @@
 
 ---
 
-### 📌 Ementa / Itens do Edital
+## 📌 Ementa / Itens do Edital
 1. **Replicação de Dados:** Replicação síncrona vs. assíncrona (trade-offs de latência, vazão e consistência); Topologias Master-Replica (*Leader-Follower*) e Multi-Master; Replicação Física (*Streaming de WAL/Redo Logs*) vs. Replicação Lógica.
 2. **Alta Disponibilidade (HA) e Resiliência:** Clusters ativo-passivo vs. ativo-ativo; Mecanismos de *Failover* e *Switchover*; Problema do *Split-Brain* e algoritmos de consenso e quórum (Raft, Paxos, nós testemunhas e *STONITH/Fencing*); Ferramentas de mercado (Patroni, Oracle Data Guard e RAC).
 3. **Estratégias de Backup e Disaster Recovery:** Níveis de backup (Lógico vs. Físico); Tipos de backup (Completo/*Full*, Diferencial e Incremental); Complexidade de execução vs. restauração (*Restore*); *Point-in-Time Recovery* (PITR) e aplicação de logs arquivados.
@@ -15,26 +15,26 @@
 
 ---
 
-### 🧭 Sumário
-- [1. Replicação de Dados e Topologias Distribuídas](#1-replicação-de-dados-e-topologias-distribuídas)
-    - [1.1 Replicação Síncrona vs. Assíncrona](#11-replicação-síncrona-vs-assíncrona)
-    - [1.2 Topologias de Replicação: Leader-Follower vs. Multi-Master](#12-topologias-de-replicação-leader-follower-vs-multi-master)
-    - [1.3 Replicação Física vs. Replicação Lógica](#13-replicação-física-vs-replicação-lógica)
-- [2. Alta Disponibilidade (HA), Failover e Mitigação de Split-Brain](#2-alta-disponibilidade-ha-failover-e-mitigação-de-split-brain)
-    - [2.1 Switchover vs. Failover: Transições Planejadas e Emergenciais](#21-switchover-vs-failover-transições-planejadas-e-emergenciais)
-    - [2.2 O Fenômeno Crítico do Split-Brain](#22-o-fenômeno-crítico-do-split-brain)
-    - [2.3 Estratégias de Quórum Distribuído, Árbitros e STONITH](#23-estratégias-de-quórum-distribuído-árbitros-e-stonith)
-    - [2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC](#24-soluções-de-ha-corporativas-patroni-oracle-data-guard-e-rac)
-- [3. Estratégias de Backup, PITR e Métricas de Continuidade de Negócios](#3-estratégias-de-backup-pitr-e-métricas-de-continuidade-de-negócios)
-    - [3.1 Backup Lógico vs. Backup Físico](#31-backup-lógico-vs-backup-físico)
+## 🧭 Sumário
+- [1. Replicação de Dados e Topologias Distribuídas](#1-replicacao-de-dados-e-topologias-distribuidas)
+    - [1.1 Replicação Síncrona vs. Assíncrona](#11-replicacao-sincrona-vs-assincrona)
+    - [1.2 Topologias de Replicação: Leader-Follower vs. Multi-Master](#12-topologias-de-replicacao-leader-follower-vs-multi-master)
+    - [1.3 Replicação Física vs. Replicação Lógica](#13-replicacao-fisica-vs-replicacao-logica)
+- [2. Alta Disponibilidade (HA), Failover e Mitigação de Split-Brain](#2-alta-disponibilidade-ha-failover-e-mitigacao-de-split-brain)
+    - [2.1 Switchover vs. Failover: Transições Planejadas e Emergenciais](#21-switchover-vs-failover-transicoes-planejadas-e-emergenciais)
+    - [2.2 O Fenômeno Crítico do Split-Brain](#22-o-fenomeno-critico-do-split-brain)
+    - [2.3 Estratégias de Quórum Distribuído, Árbitros e STONITH](#23-estrategias-de-quorum-distribuido-arbitros-e-stonith)
+    - [2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC](#24-solucoes-de-ha-corporativas-patroni-oracle-data-guard-e-rac)
+- [3. Estratégias de Backup, PITR e Métricas de Continuidade de Negócios](#3-estrategias-de-backup-pitr-e-metricas-de-continuidade-de-negocios)
+    - [3.1 Backup Lógico vs. Backup Físico](#31-backup-logico-vs-backup-fisico)
     - [3.2 Tipos de Backup: Completo (Full), Diferencial e Incremental](#32-tipos-de-backup-completo-full-diferencial-e-incremental)
     - [3.3 Point-in-Time Recovery (PITR)](#33-point-in-time-recovery-pitr)
-    - [3.4 Métricas Críticas: RPO vs. RTO](#34-métricas-críticas-rpo-vs-rto)
-- [4. Segurança, Criptografia, Privacidade e Governança de Dados](#4-segurança-criptografia-privacidade-e-governança-de-dados)
+    - [3.4 Métricas Críticas: RPO vs. RTO](#34-metricas-criticas-rpo-vs-rto)
+- [4. Segurança, Criptografia, Privacidade e Governança de Dados](#4-seguranca-criptografia-privacidade-e-governanca-de-dados)
     - [4.1 Criptografia em Repouso: Transparent Data Encryption (TDE)](#41-criptografia-em-repouso-transparent-data-encryption-tde)
-    - [4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)](#42-mascaramento-dinâmico-de-dados-ddm-e-privacidade-lgpd)
-    - [4.3 Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)](#43-trilhas-de-auditoria-e-controle-de-acesso-baseado-em-papéis-rbac)
-- [5. Questões Comentadas (FCC)](#5-questões-comentadas-fcc)
+    - [4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)](#42-mascaramento-dinamico-de-dados-ddm-e-privacidade-lgpd)
+    - [4.3 Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)](#43-trilhas-de-auditoria-e-controle-de-acesso-baseado-em-papeis-rbac)
+- [5. Questões Comentadas (FCC)](#5-questoes-comentadas-fcc)
 
 ---
 
@@ -223,6 +223,7 @@ A elaboração de acordos de nível de serviço (SLA) para desastres baseia-se e
     - Mede a **tolerância máxima aceitável de perda de dados**, expressa em unidades de tempo.
     - Responde à indagação: *"Até que momento retroativo no tempo a instituição aceita perder transações comitadas?"*.
     - Exemplo: Uma política com backups diários sem arquivamento contínuo tem $RPO = 24 \text{ horas}$. Para alcançar **$RPO = 0$ (perda zero)**, é mandatório utilizar **replicação síncrona**.
+
 2. **RTO (Recovery Time Objective - Objetivo de Tempo de Recuperação):**
     - Mede o **tempo máximo aceitável de paralisação** do sistema até que ele retorne à plena operacionalidade.
     - Responde à indagação: *"Por quanto tempo a instituição aguenta manter o sistema fora do ar até a recuperação?"*.
@@ -256,6 +257,7 @@ O **Dynamic Data Masking (DDM)** intercepta as consultas SQL no momento de sua e
 
 1. **Role-Based Access Control (RBAC):**
     - Os privilégios de acesso a tabelas, visões e procedimentos armazenados não são concedidos a usuários individuais, mas sim a **Papéis (*Roles*)** institucionais (ex.: `role_auditor_ti`, `role_consultor_externo`), respeitando o Princípio do Menor Privilégio (*Least Privilege*).
+
 2. **Trilhas de Auditoria (*Database Auditing*):**
     - Registram de modo irrefutável e imutável os eventos críticos no banco: quem executou (`username`), qual máquina de origem (`ip_address`), quando (`timestamp`) e o comando SQL exato que alterou ou consultou tabelas fiscais confidenciais, viabilizando perícias judiciais e investigações de controle externo.
 
@@ -275,6 +277,7 @@ Para reverter o banco de dados exatamente ao estado em que se encontrava às 14h
 * **E)** Restaurar unicamente o arquivo de backup incremental de segunda-feira, sendo tecnicamente impossível recuperar dados transacionados entre as 23h00 de segunda e as 14h35 de terça.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Restaurar unicamente o backup de domingo descartaria dois dias completos de transações legítimas comitadas, contrariando as boas práticas de recuperação de desastres.
 > - **B)** **Correta.** O **Point-in-Time Recovery (PITR)** é a técnica padrão que combina a restauração de um backup físico de base com o reaproveitamento sequencial (*roll-forward*) dos arquivos arquivados de log de transação (WAL/Redo Logs) até atingir o timestamp exato (`14:34:59`), cessando a recuperação milissegundos antes da execução do comando destrutivo `DROP TABLE`.
 > - **C)** Incorreta. Backups lógicos não interagem com fluxos temporais contínuos de logs transacionais para restauração de segundo em segundo.
@@ -301,10 +304,11 @@ A respeito das métricas de resiliência e dos modelos de replicação envolvido
 * **E)** RPO e RTO são conceitos financeiros atrelados ao custo de licenças de software, sem relação com tempos de contingência operacional.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A primeira diretriz trata de limite de perda de dados no tempo (**RPO**), e não de tempo de restauração do serviço (**RTO**). Ademais, fitas semanais produzem perdas de vários dias.
 > - **B)** **Correta.** 
->   - O **RPO (*Recovery Point Objective*)** define o volume aceitável de dados perdidos expresso em tempo retroativo. Exigir *zero transações confirmadas* significa **$RPO = 0$**, o que demanda compulsoriamente a **Replicação Síncrona**.
->   - O **RTO (*Recovery Time Objective*)** define o prazo máximo para colocar o sistema em operação após a ocorrência do desastre. O intervalo de 15 minutos demanda arquitetura de alta disponibilidade com monitoramento de batimento cardíaco (*heartbeat*) e rotinas de **failover** rápidas ou automatizadas.
+>     - O **RPO (*Recovery Point Objective*)** define o volume aceitável de dados perdidos expresso em tempo retroativo. Exigir *zero transações confirmadas* significa **$RPO = 0$**, o que demanda compulsoriamente a **Replicação Síncrona**.
+>     - O **RTO (*Recovery Time Objective*)** define o prazo máximo para colocar o sistema em operação após a ocorrência do desastre. O intervalo de 15 minutos demanda arquitetura de alta disponibilidade com monitoramento de batimento cardíaco (*heartbeat*) e rotinas de **failover** rápidas ou automatizadas.
 > - **C)** Incorreta. *Split-Brain* é a anomalia grave em que dois nós do cluster assumem a função de nó primário simultaneamente em decorrência de quebra no link de comunicação; não se relaciona com uma métrica de 48 horas.
 > - **D)** Incorreta. Na replicação assíncrona, o nó primário confirma o commit antes de transmitir o dado à réplica; em falha abrupta, transações em trânsito são irremediavelmente perdidas ($RPO > 0$).
 > - **E)** Incorreta. RPO e RTO são métricas consagradas de engenharia de software e continuidade de negócios (*Disaster Recovery*).
@@ -330,6 +334,7 @@ Sobre os procedimentos técnicos de restauração (*Restore*) na quinta-feira, �
 * **E)** A rotina noturna de backup incremental consome progressivamente mais tempo de execução e espaço em disco a cada dia sucessivo do que a rotina diferencial.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** O backup **Diferencial** armazena cumulativamente todos os blocos de dados alterados **desde o último backup COMPLETO (*Full*)**. Dessa forma, o arquivo diferencial gerado na noite de quarta-feira já consolida todas as modificações de segunda, terça e quarta. Para restaurar o banco na quinta-feira de manhã, são necessários exatamente **dois arquivos**: o *Full* de domingo + o *Diferencial* de quarta-feira.
 > - **B)** Incorreta. O backup **Incremental** grava unicamente o delta ocorrido em relação ao backup anterior (seja full ou incremental). Para restaurar a base na quinta-feira via incremental, é mandatório aplicar **toda a cadeia sequencial**: `Full (Domingo) + Inc (Segunda) + Inc (Terça) + Inc (Quarta)`.
 > - **C)** Incorreta. O backup diferencial consolida desde o último Full; sua restauração é mais ágil porque envolve apenas dois arquivos.
@@ -351,6 +356,7 @@ Em clusters de alta disponibilidade operando com réplicas distribuídas em data
 * **E)** Para garantir a mitigação de falhas em partições de rede, os clusters distribuídos devem ser projetados prioritariamente com um número par de servidores.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Clusters de 2 nós com pesos iguais são os mais suscetíveis ao *Split-Brain*, pois em caso de partição cada nó enxerga 50% dos votos (1 de 2), não atingindo a maioria estrita sem um árbitro externo (*witness*).
 > - **B)** **Correta.** Os algoritmos de consenso e quórum (Raft, Paxos) exigem a conquista da **maioria absoluta estrita** ($\lfloor N/2 \rfloor + 1$). Se um cluster de 3 nós sofrer partição binária dividindo-se em [2 nós] e [1 nó], a partição maior detém o quórum ($2 > 1.5$) e continua processando gravações, enquanto o nó minoritário isolado suspende as alterações para resguardar a integridade global da base.
 > - **C)** Incorreta. O STONITH é uma técnica drástica de isolamento (*fencing*) de hardware que desliga eletricamente pela força o nó suspeito via comandos de gerenciamento de rede (IPMI/iLO).
@@ -377,10 +383,11 @@ As duas abordagens de segurança correspondem, respectivamente, a:
 * **E)** *Role-Based Access Control* (RBAC); e cálculo de hash MD5 na cláusula `WHERE`.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Houve inversão da correspondência dos conceitos apresentados.
 > - **B)** **Correta.** 
->   - O item 1 descreve com precisão o **TDE (*Transparent Data Encryption*)**, funcionalidade que cifra os arquivos de dados físicos (*datafiles*), logs e backups no armazenamento persistente de forma transparente para a aplicação cliente e sem alterações no código SQL.
->   - O item 2 retrata o **Dynamic Data Masking (DDM)** (Mascaramento Dinâmico de Dados), tecnologia que intercepta a consulta SQL em tempo de execução e ofusca o dado sensível para perfis não autorizados, mantendo o dado físico armazenado na tabela rigorosamente intacto.
+>     - O item 1 descreve com precisão o **TDE (*Transparent Data Encryption*)**, funcionalidade que cifra os arquivos de dados físicos (*datafiles*), logs e backups no armazenamento persistente de forma transparente para a aplicação cliente e sem alterações no código SQL.
+>     - O item 2 retrata o **Dynamic Data Masking (DDM)** (Mascaramento Dinâmico de Dados), tecnologia que intercepta a consulta SQL em tempo de execução e ofusca o dado sensível para perfis não autorizados, mantendo o dado físico armazenado na tabela rigorosamente intacto.
 > - **C)** Incorreta. O PITR é uma estratégia de restauração de desastres, e a anonimização definitiva altera permanentemente o registro original no disco.
 > - **D)** Incorreta. Conceitos não guardam relação técnica com a descrição do enunciado.
 > - **E)** Incorreta. RBAC gerencia autorizações por papéis de usuários, e cálculos de hash irreversíveis impediriam consultas de dados originais por usuários privilegiados.

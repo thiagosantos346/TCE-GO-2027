@@ -16,26 +16,26 @@
 ---
 
 ## 🧭 Sumário
-- [1. Algoritmos, Lógica de Execução e Complexidade Assintótica](#1-algoritmos-lógica-de-execução-e-complexidade-assintótica)
-    - [1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)](#11-variáveis-escopo-e-passagem-de-parâmetros-valor-vs-referência)
-    - [1.2 Recursão e Pilha de Execução (Call Stack)](#12-recursão-e-pilha-de-execução-call-stack)
-    - [1.3 Análise Assintótica e a Notação Big-O](#13-análise-assintótica-e-a-notação-big-o)
+- [1. Algoritmos, Lógica de Execução e Complexidade Assintótica](#1-algoritmos-logica-de-execucao-e-complexidade-assintotica)
+    - [1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)](#11-variaveis-escopo-e-passagem-de-parametros-valor-vs-referencia)
+    - [1.2 Recursão e Pilha de Execução (Call Stack)](#12-recursao-e-pilha-de-execucao-call-stack)
+    - [1.3 Análise Assintótica e a Notação Big-O](#13-analise-assintotica-e-a-notacao-big-o)
 - [2. Estruturas de Dados Fundamentais](#2-estruturas-de-dados-fundamentais)
     - [2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas](#21-estruturas-lineares-vetores-listas-encadeadas-pilhas-e-filas)
-    - [2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão](#22-tabelas-hash-hash-tables-e-métodos-de-tratamento-de-colisão)
-    - [2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos](#23-estruturas-não-lineares-árvores-binárias-de-busca-bst-e-percursos)
-    - [2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos](#24-árvores-auto-balanceadas-avl-e-rubro-negra-e-grafos)
+    - [2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão](#22-tabelas-hash-hash-tables-e-metodos-de-tratamento-de-colisao)
+    - [2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos](#23-estruturas-nao-lineares-arvores-binarias-de-busca-bst-e-percursos)
+    - [2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos](#24-arvores-auto-balanceadas-avl-e-rubro-negra-e-grafos)
     - [2.5 Matriz Geral de Complexidade das Estruturas de Dados](#25-matriz-geral-de-complexidade-das-estruturas-de-dados)
-- [3. Paradigma de Programação Orientada a Objetos (POO)](#3-paradigma-de-programação-orientada-a-objetos-poo)
-    - [3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo](#31-os-quatro-pilares-da-poo-abstração-encapsulamento-herança-e-polimorfismo)
-    - [3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)](#32-polimorfismo-estático-sobrecarga-vs-polimorfismo-dinâmico-sobrescrita)
-    - [3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento](#33-relações-estruturais-classes-abstratas-interfaces-coesão-e-acoplamento)
-- [4. Paradigma de Programação Funcional (PF)](#4-paradigma-de-programação-funcional-pf)
-    - [4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial](#41-princípios-fundamentais-funções-puras-imutabilidade-e-transparência-referencial)
-    - [4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)](#42-funções-de-primeira-classe-e-funções-de-alta-ordem-higher-order-functions)
-    - [4.3 Operações Funcionais sobre Coleções: map, filter e reduce](#43-operações-funcionais-sobre-coleções-map-filter-e-reduce)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
+- [3. Paradigma de Programação Orientada a Objetos (POO)](#3-paradigma-de-programacao-orientada-a-objetos-poo)
+    - [3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo](#31-os-quatro-pilares-da-poo-abstracao-encapsulamento-heranca-e-polimorfismo)
+    - [3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)](#32-polimorfismo-estatico-sobrecarga-vs-polimorfismo-dinamico-sobrescrita)
+    - [3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento](#33-relacoes-estruturais-classes-abstratas-interfaces-coesao-e-acoplamento)
+- [4. Paradigma de Programação Funcional (PF)](#4-paradigma-de-programacao-funcional-pf)
+    - [4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial](#41-principios-fundamentais-funcoes-puras-imutabilidade-e-transparencia-referencial)
+    - [4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)](#42-funcoes-de-primeira-classe-e-funcoes-de-alta-ordem-higher-order-functions)
+    - [4.3 Operações Funcionais sobre Coleções: map, filter e reduce](#43-operacoes-funcionais-sobre-colecoes-map-filter-e-reduce)
+- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -130,13 +130,14 @@ flowchart LR
 
 ### 2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão
 Uma Tabela Hash associa chaves de busca a índices de um array de tamanho $m$ por meio de uma **função de espalhamento** (*hash function*): $\text{índice} = h(\text{chave}) \pmod m$.
+
 - **Fator de Carga ($\alpha$):** Razão entre o número de itens armazenados $n$ e o número total de posições da tabela $m$ ($\alpha = \frac{n}{m}$). Quando o fator de carga ultrapassa o limiar regulamentar (tipicamente $0.75$), a tabela é redimensionada (*rehashing*), duplicando a capacidade e recalculando as posições.
 - **Tratamento de Colisões (Quando duas chaves resultam no mesmo índice):**
     1. **Encadeamento Separado (*Separate Chaining*):** Cada slot do vetor principal referencia uma lista encadeada (ou árvore binária balanceada quando a lista cresce demais, como no Java 8+). Os elementos colidentes são simplesmente adicionados como novos nós dessa lista secundária.
     2. **Endereçamento Aberto (*Open Addressing*):** Todos os elementos residem diretamente no vetor principal. Ocorrendo colisão, o algoritmo pesquisa sistematicamente o próximo slot vago:
-    - *Sondagem Linear (*Linear Probing*):* Testa células consecutivas ($i+1, i+2, \dots$). Sofre com o fenômeno de **agrupamento primário** (*primary clustering*);
-    - *Sondagem Quadrática (*Quadratic Probing*):* Testa células com incrementos quadráticos ($i+1^2, i+2^2, \dots$);
-    - *Duplo Hash (*Double Hashing*):* Calcula o tamanho do salto através de uma segunda função hash: $\text{passo} = h_2(\text{chave})$.
+        - *Sondagem Linear (*Linear Probing*):* Testa células consecutivas ($i+1, i+2, \dots$). Sofre com o fenômeno de **agrupamento primário** (*primary clustering*);
+        - *Sondagem Quadrática (*Quadratic Probing*):* Testa células com incrementos quadráticos ($i+1^2, i+2^2, \dots$);
+        - *Duplo Hash (*Double Hashing*):* Calcula o tamanho do salto através de uma segunda função hash: $\text{passo} = h_2(\text{chave})$.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A complexidade temporal média de busca, inserção e remoção em uma Tabela Hash é $\mathcal{O}(1)$. Todavia, no **pior caso** (quando todas as chaves colidem no mesmo índice devido a uma função hash deficiente ou ataque de negação de serviço), a complexidade **degrada compulsoriamente para $\mathcal{O}(n)$**. A FCC frequentemente tenta enganar o candidato afirmando que a busca em tabela hash é $\mathcal{O}(1)$ em qualquer circunstância!
@@ -160,6 +161,7 @@ graph TD
 ```
 
 **Percursos em Profundidade (DFS - Depth-First Search):**
+
 1. **Pré-Ordem (Pre-order / Raiz $\rightarrow$ Esquerda $\rightarrow$ Direita):** Visita a Raiz, depois percorre a subárvore Esquerda, e por fim a Direita.  
    *Sequência na árvore acima:* `40, 20, 10, 30, 60, 50, 70`. (Utilizada para clonagem ou serialização estrutural da árvore).
 2. **Em-Ordem (In-order / Esquerda $\rightarrow$ Raiz $\rightarrow$ Direita):** Percorre a subárvore Esquerda, visita a Raiz, e por fim a Direita.  
@@ -240,6 +242,7 @@ A Programação Funcional é um paradigma declarativo que trata a computação c
 1. **Funções Puras (*Pure Functions*):**
     - *Determinismo:* Para os mesmos argumentos de entrada, a função retorna **rigorosamente o mesmo valor**;
     - *Ausência de Efeitos Colaterais (*No Side Effects*):* Não modifica variáveis externas ou globais, não altera parâmetros recebidos por referência e não realiza operações de I/O em disco ou rede durante a sua computação pura;
+
 2. **Imutabilidade:** As estruturas de dados não são alteradas após criadas. Qualquer transformação produz uma **nova estrutura de dados**, deixando a original intacta. Isso elimina problemas de condição de corrida (*race conditions*) em ambientes concorrentes multithread;
 3. **Transparência Referencial:** Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema.
 
@@ -291,30 +294,32 @@ push(15); push(25); pop(); push(35); push(45); pop(); push(55); push(65); pop();
 
 Ao término da execução dessa sequência completa de operações, o elemento posicionado no topo da pilha e a quantidade total de elementos presentes na estrutura são, respectivamente:
 
-* A) 45 e 2.
-* B) 55 e 3.
-* C) 35 e 3.
-* D) 65 e 4.
-* E) 55 e 2.
+* **A)** 45 e 2.
+* **B)** 55 e 3.
+* **C)** 35 e 3.
+* **D)** 65 e 4.
+* **E)** 55 e 2.
 
 > **Comentário Detalhado:**
+>
 > - Rastreando passo a passo o estado da pilha (LIFO):
->   1. `push(15)`: Pilha = `[15]` (topo = 15).
->   2. `push(25)`: Pilha = `[15, 25]` (topo = 25).
->   3. `pop()`: Remove o topo (25). Pilha = `[15]` (topo = 15).
->   4. `push(35)`: Pilha = `[15, 35]` (topo = 35).
->   5. `push(45)`: Pilha = `[15, 35, 45]` (topo = 45).
->   6. `pop()`: Remove o topo (45). Pilha = `[15, 35]` (topo = 35).
->   7. `push(55)`: Pilha = `[15, 35, 55]` (topo = 55).
->   8. `push(65)`: Pilha = `[15, 35, 55, 65]` (topo = 65).
->   9. `pop()`: Remove o topo (65). Pilha = `[15, 35, 55]` (topo = 55).
+>     1. `push(15)`: Pilha = `[15]` (topo = 15).
+>     2. `push(25)`: Pilha = `[15, 25]` (topo = 25).
+>     3. `pop()`: Remove o topo (25). Pilha = `[15]` (topo = 15).
+>     4. `push(35)`: Pilha = `[15, 35]` (topo = 35).
+>     5. `push(45)`: Pilha = `[15, 35, 45]` (topo = 45).
+>     6. `pop()`: Remove o topo (45). Pilha = `[15, 35]` (topo = 35).
+>     7. `push(55)`: Pilha = `[15, 35, 55]` (topo = 55).
+>     8. `push(65)`: Pilha = `[15, 35, 55, 65]` (topo = 65).
+>     9. `pop()`: Remove o topo (65). Pilha = `[15, 35, 55]` (topo = 55).
+>
 > - Ao término das instruções, a pilha contém 3 elementos (`[15, 35, 55]`) e o elemento do topo é o **55**.
 > - Análise das alternativas:
->   - **A) Incorreta.** O elemento 45 foi desempilhado no passo 6.
->   - **B) CORRETA.** Topo igual a 55 e quantidade de 3 elementos.
->   - **C) Incorreta.** 35 é o elemento intermediário, posicionado abaixo de 55.
->   - **D) Incorreta.** 65 foi desempilhado no passo 9.
->   - **E) Incorreta.** A quantidade de elementos é 3, não 2.
+>     - **A) Incorreta.** O elemento 45 foi desempilhado no passo 6.
+>     - **B) CORRETA.** Topo igual a 55 e quantidade de 3 elementos.
+>     - **C) Incorreta.** 35 é o elemento intermediário, posicionado abaixo de 55.
+>     - **D) Incorreta.** 65 foi desempilhado no passo 9.
+>     - **E) Incorreta.** A quantidade de elementos é 3, não 2.
 > 
 > **Gabarito: B**
 
@@ -326,13 +331,14 @@ No contexto do paradigma de Programação Orientada a Objetos (POO), analise o m
 
 Esse mecanismo e seu momento de amarração (*binding*) correspondem, respectivamente, a:
 
-* A) Sobrecarga (*Overloading*) com amarração estática (*early binding*).
-* B) Sobrescrita (*Overriding*) com amarração dinâmica (*late binding*).
-* C) Encapsulamento reflexivo com resolução de compilação.
-* D) Coesão ad-hoc com ligação tardia (*late binding*).
-* E) Sobrecarga (*Overloading*) com amarração dinâmica (*late binding*).
+* **A)** Sobrecarga (*Overloading*) com amarração estática (*early binding*).
+* **B)** Sobrescrita (*Overriding*) com amarração dinâmica (*late binding*).
+* **C)** Encapsulamento reflexivo com resolução de compilação.
+* **D)** Coesão ad-hoc com ligação tardia (*late binding*).
+* **E)** Sobrecarga (*Overloading*) com amarração dinâmica (*late binding*).
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** A sobrecarga (*overloading*) ocorre na mesma classe, exige assinaturas diferentes e é decidida estaticamente em tempo de compilação.
 > - **B) CORRETA.** O enunciado traz a definição exata de **Sobrescrita (*Overriding*)**: redefinição de método herdado da superclasse em uma subclasse com **assinatura idêntica**, viabilizando o polimorfismo dinâmico cuja invocação é resolvida em tempo de execução (*runtime*) via **amarração dinâmica (*late binding*)**.
 > - **C) Incorreta.** Encapsulamento é a prática de ocultação de estado interno de objetos com modificadores de acesso, não polimorfismo de métodos.
@@ -353,32 +359,33 @@ Inserções na ordem: 40, 20, 60, 10, 30, 50, 70
 
 Se essa árvore for percorrida utilizando os algoritmos de percurso em **Pré-Ordem** (*Pre-order*) e **Em-Ordem** (*In-order*), as sequências exatas geradas pelas visitas aos nós serão, respectivamente:
 
-* A) Pré-Ordem: `40, 20, 10, 30, 60, 50, 70` ; Em-Ordem: `10, 20, 30, 40, 50, 60, 70`.
-* B) Pré-Ordem: `10, 20, 30, 40, 50, 60, 70` ; Em-Ordem: `40, 20, 10, 30, 60, 50, 70`.
-* C) Pré-Ordem: `10, 30, 20, 50, 70, 60, 40` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
-* D) Pré-Ordem: `40, 20, 60, 10, 30, 50, 70` ; Em-Ordem: `40, 20, 30, 10, 60, 50, 70`.
-* E) Pré-Ordem: `40, 20, 10, 30, 60, 50, 70` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
+* **A)** Pré-Ordem: `40, 20, 10, 30, 60, 50, 70` ; Em-Ordem: `10, 20, 30, 40, 50, 60, 70`.
+* **B)** Pré-Ordem: `10, 20, 30, 40, 50, 60, 70` ; Em-Ordem: `40, 20, 10, 30, 60, 50, 70`.
+* **C)** Pré-Ordem: `10, 30, 20, 50, 70, 60, 40` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
+* **D)** Pré-Ordem: `40, 20, 60, 10, 30, 50, 70` ; Em-Ordem: `40, 20, 30, 10, 60, 50, 70`.
+* **E)** Pré-Ordem: `40, 20, 10, 30, 60, 50, 70` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
 
 > **Comentário Detalhado:**
+>
 > - Desenhando a BST a partir das inserções:
->   - 40 é a raiz;
->   - 20 fica à esquerda de 40; 60 fica à direita de 40;
->   - 10 fica à esquerda de 20; 30 fica à direita de 20;
->   - 50 fica à esquerda de 60; 70 fica à direita de 60.
+>     - 40 é a raiz;
+>     - 20 fica à esquerda de 40; 60 fica à direita de 40;
+>     - 10 fica à esquerda de 20; 30 fica à direita de 20;
+>     - 50 fica à esquerda de 60; 70 fica à direita de 60.
 > - **Percurso em Pré-Ordem (Raiz $\rightarrow$ Esquerda $\rightarrow$ Direita):**
->   - Visita raiz 40;
->   - Subárvore esquerda de 40: visita 20, depois 10, depois 30;
->   - Subárvore direita de 40: visita 60, depois 50, depois 70;
->   - Sequência: `40, 20, 10, 30, 60, 50, 70`.
+>     - Visita raiz 40;
+>     - Subárvore esquerda de 40: visita 20, depois 10, depois 30;
+>     - Subárvore direita de 40: visita 60, depois 50, depois 70;
+>     - Sequência: `40, 20, 10, 30, 60, 50, 70`.
 > - **Percurso Em-Ordem (Esquerda $\rightarrow$ Raiz $\rightarrow$ Direita):**
->   - Em qualquer BST, o percurso Em-Ordem visita os elementos em **ordem estritamente crescente**;
->   - Sequência: `10, 20, 30, 40, 50, 60, 70`.
+>     - Em qualquer BST, o percurso Em-Ordem visita os elementos em **ordem estritamente crescente**;
+>     - Sequência: `10, 20, 30, 40, 50, 60, 70`.
 > - Análise das alternativas:
->   - **A) CORRETA.** Exibe perfeitamente a Pré-Ordem e a Em-Ordem calculadas.
->   - **B) Incorreta.** Inverteu a nomenclatura dos dois percursos.
->   - **C) Incorreta.** Apresenta percurso em pós-ordem e ordem decrescente.
->   - **D) Incorreta.** Apresenta percurso em largura (nível por nível) na primeira sequência.
->   - **E) Incorreta.** Apresenta a ordem decrescente na segunda sequência.
+>     - **A) CORRETA.** Exibe perfeitamente a Pré-Ordem e a Em-Ordem calculadas.
+>     - **B) Incorreta.** Inverteu a nomenclatura dos dois percursos.
+>     - **C) Incorreta.** Apresenta percurso em pós-ordem e ordem decrescente.
+>     - **D) Incorreta.** Apresenta percurso em largura (nível por nível) na primeira sequência.
+>     - **E) Incorreta.** Apresenta a ordem decrescente na segunda sequência.
 > 
 > **Gabarito: A**
 
@@ -388,13 +395,14 @@ Se essa árvore for percorrida utilizando os algoritmos de percurso em **Pré-Or
 **(FCC – Auditor Fiscal / Tecnologia da Informação)**  
 As Tabelas Hash (*Hash Tables*) são amplamente utilizadas em sistemas de informação pela sua eficiência em operações de busca, inserção e remoção de registros indexados por chaves. A respeito da teoria das tabelas hash e dos métodos de tratamento de colisões, assinale a afirmativa correta:
 
-* A) A complexidade temporal assintótica de busca em uma tabela hash é estritamente $\mathcal{O}(1)$ em qualquer circunstância, independentemente da função hash ou da quantidade de colisões.
-* B) No método de tratamento de colisões por encadeamento separado (*separate chaining*), cada posição do vetor principal referencia uma lista encadeada, de modo que elementos colidentes são armazenados como nós dessa lista.
-* C) O fator de carga (*load factor*) de uma tabela hash corresponde ao tempo em milissegundos gasto pela CPU para calcular a função hash de uma chave string.
-* D) No endereçamento aberto com sondagem linear (*linear probing*), elementos que sofrem colisão são sempre descartados da tabela para impedir o agrupamento primário.
-* E) As tabelas hash armazenam seus elementos de forma intrinsicamente ordenada pelas suas chaves, facilitando operações de busca por intervalo (*range queries*).
+* **A)** A complexidade temporal assintótica de busca em uma tabela hash é estritamente $\mathcal{O}(1)$ em qualquer circunstância, independentemente da função hash ou da quantidade de colisões.
+* **B)** No método de tratamento de colisões por encadeamento separado (*separate chaining*), cada posição do vetor principal referencia uma lista encadeada, de modo que elementos colidentes são armazenados como nós dessa lista.
+* **C)** O fator de carga (*load factor*) de uma tabela hash corresponde ao tempo em milissegundos gasto pela CPU para calcular a função hash de uma chave string.
+* **D)** No endereçamento aberto com sondagem linear (*linear probing*), elementos que sofrem colisão são sempre descartados da tabela para impedir o agrupamento primário.
+* **E)** As tabelas hash armazenam seus elementos de forma intrinsicamente ordenada pelas suas chaves, facilitando operações de busca por intervalo (*range queries*).
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** $\mathcal{O}(1)$ é a complexidade média esperada; no pior caso (quando ocorrem colisões em massa), a busca degrada para $\mathcal{O}(n)$.
 > - **B) CORRETA.** No encadeamento separado (*separate chaining*), cada slot da tabela hash funciona como o cabeçalho de uma lista encadeada (ou árvore rubro-negra), de forma que múltiplos elementos associados ao mesmo índice hash são armazenados como nós sequenciais nessa lista.
 > - **C) Incorreta.** O fator de carga ($\alpha = n/m$) é a razão entre o número de elementos armazenados e o número de slots disponíveis na tabela, medindo a taxa de ocupação, não tempo de CPU.
@@ -415,23 +423,25 @@ No paradigma de Programação Funcional (PF), a manipulação de coleções é r
 
 Para atingir exatamente esse objetivo seguindo os princípios funcionais, as funções de alta ordem aplicadas nos passos 1, 2 e 3 devem ser, respectivamente:
 
-* A) `map`, `filter` e `reduce`.
-* B) `filter`, `reduce` e `map`.
-* C) `filter`, `map` e `reduce`.
-* D) `reduce`, `map` e `filter`.
-* E) `map`, `map` e `forEach`.
+* **A)** `map`, `filter` e `reduce`.
+* **B)** `filter`, `reduce` e `map`.
+* **C)** `filter`, `map` e `reduce`.
+* **D)** `reduce`, `map` e `filter`.
+* **E)** `map`, `map` e `forEach`.
 
 > **Comentário Detalhado:**
+>
 > - Analisando a finalidade técnica de cada função funcional padrão:
->   1. **Passo 1:** Selecionar um subconjunto de elementos baseado em um predicado booleano (`salario > 3500`) é a atribuição precípua do **`filter`**.
->   2. **Passo 2:** Aplicar uma transformação matemática individual em cada item da lista mantendo o mesmo número de elementos (`salario * 1.10`) é a atribuição clássica do **`map`**.
->   3. **Passo 3:** Reduzir e agregar iterativamente todos os itens de uma coleção em um único valor escalar final (a soma total) é o objetivo do **`reduce`**.
+>     1. **Passo 1:** Selecionar um subconjunto de elementos baseado em um predicado booleano (`salario > 3500`) é a atribuição precípua do **`filter`**.
+>     2. **Passo 2:** Aplicar uma transformação matemática individual em cada item da lista mantendo o mesmo número de elementos (`salario * 1.10`) é a atribuição clássica do **`map`**.
+>     3. **Passo 3:** Reduzir e agregar iterativamente todos os itens de uma coleção em um único valor escalar final (a soma total) é o objetivo do **`reduce`**.
+>
 > - A sequência exata é: **`filter`**, **`map`** e **`reduce`**.
 > - Análise das alternativas:
->   - **A) Incorreta.** Inverteu a ordem de `map` e `filter`.
->   - **B) Incorreta.** O `reduce` condensaria a lista antes da aplicação do `map`.
->   - **C) CORRETA.** Sequência correta e canônica do pipeline funcional.
->   - **D) Incorreta.** Inicia prematuramente pelo `reduce`.
->   - **E) Incorreta.** `forEach` destina-se à execução de efeitos colaterais imperativos e retorna `void`.
+>     - **A) Incorreta.** Inverteu a ordem de `map` e `filter`.
+>     - **B) Incorreta.** O `reduce` condensaria a lista antes da aplicação do `map`.
+>     - **C) CORRETA.** Sequência correta e canônica do pipeline funcional.
+>     - **D) Incorreta.** Inicia prematuramente pelo `reduce`.
+>     - **E) Incorreta.** `forEach` destina-se à execução de efeitos colaterais imperativos e retorna `void`.
 > 
 > **Gabarito: C**
