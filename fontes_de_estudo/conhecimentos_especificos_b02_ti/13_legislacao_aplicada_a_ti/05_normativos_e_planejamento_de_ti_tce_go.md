@@ -9,28 +9,28 @@
 
 ## 📌 Ementa / Itens do Edital
 - Normativos institucionais do Tribunal de Contas do Estado de Goiás sobre Governança, Planejamento e Segurança de TI:
-  - **Resolução Normativa nº 13/2016 (compilada):** Instituição, composição e atribuições do Comitê Estratégico de TI (CETI)
-  - **Resolução Administrativa nº 14/2024:** Política de Governança Organizacional do TCE-GO
-  - **Resolução Administrativa nº 17/2024:** Política de Segurança da Informação (PSI) do TCE-GO
-  - **Resolução Administrativa nº 14/2025:** Estrutura e competências privativas da Diretoria de Tecnologia da Informação (DTI) e gerências vinculadas
-  - **Plano Diretor de Tecnologia da Informação (PDTI) 2025–2026:** Aprovado pela Ordem de Serviço nº 001/2025-CETI
+    - **Resolução Normativa nº 13/2016 (compilada):** Instituição, composição e atribuições do Comitê Estratégico de TI (CETI)
+    - **Resolução Administrativa nº 14/2024:** Política de Governança Organizacional do TCE-GO
+    - **Resolução Administrativa nº 17/2024:** Política de Segurança da Informação (PSI) do TCE-GO
+    - **Resolução Administrativa nº 14/2025:** Estrutura e competências privativas da Diretoria de Tecnologia da Informação (DTI) e gerências vinculadas
+    - **Plano Diretor de Tecnologia da Informação (PDTI) 2025–2026:** Aprovado pela Ordem de Serviço nº 001/2025-CETI
 
 ---
 
 ## 🧭 Sumário
 - [1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)](#1-o-comitê-estratégico-de-tecnologia-da-informação---ceti-resolução-normativa-nº-132016)
-  - [1.1 Natureza e Segregação entre Governança e Gestão](#11-natureza-e-segregação-entre-governança-e-gestão)
-  - [1.2 Composição e Competências Primordiais do CETI](#12-composição-e-competências-primordiais-do-ceti)
+    - [1.1 Natureza e Segregação entre Governança e Gestão](#11-natureza-e-segregação-entre-governança-e-gestão)
+    - [1.2 Composição e Competências Primordiais do CETI](#12-composição-e-competências-primordiais-do-ceti)
 - [2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)](#2-política-de-governança-organizacional-resolução-administrativa-nº-142024)
 - [3. Política de Segurança da Informação - PSI (Resolução Administrativa nº 17/2024)](#3-política-de-segurança-da-informação---psi-resolução-administrativa-nº-172024)
-  - [3.1 Classificação Corporativa da Informação no TCE-GO](#31-classificação-corporativa-da-informação-no-tce-go)
-  - [3.2 Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes](#32-diretrizes-de-uso-seguro-teletrabalho-e-resposta-a-incidentes)
+    - [3.1 Classificação Corporativa da Informação no TCE-GO](#31-classificação-corporativa-da-informação-no-tce-go)
+    - [3.2 Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes](#32-diretrizes-de-uso-seguro-teletrabalho-e-resposta-a-incidentes)
 - [4. Estrutura e Competências da Diretoria de TI (Resolução Administrativa nº 14/2025)](#4-estrutura-e-competências-da-diretoria-de-ti-resolução-administrativa-nº-142025)
-  - [4.1 Competências Executivas Privativas da DTI](#41-competências-executivas-privativas-da-dti)
-  - [4.2 Divisão Funcional das Gerências Vinculadas](#42-divisão-funcional-das-gerências-vinculadas)
+    - [4.1 Competências Executivas Privativas da DTI](#41-competências-executivas-privativas-da-dti)
+    - [4.2 Divisão Funcional das Gerências Vinculadas](#42-divisão-funcional-das-gerências-vinculadas)
 - [5. Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)](#5-plano-diretor-de-ti---pdti-20252026-ordem-de-serviço-nº-0012025-ceti)
-  - [5.1 Diagnóstico Estratégico SWOT](#51-diagnóstico-estratégico-swot)
-  - [5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026](#52-os-quatro-eixos-estratégicos-do-pdti-20252026)
+    - [5.1 Diagnóstico Estratégico SWOT](#51-diagnóstico-estratégico-swot)
+    - [5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026](#52-os-quatro-eixos-estratégicos-do-pdti-20252026)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 - [7. Questões Comentadas no Padrão FCC](#7-questões-comentadas-no-padrão-fcc)
 
@@ -77,6 +77,7 @@ flowchart TD
 
 #### Composição Colegiada
 O CETI é composto por membros natos e designados da alta cúpula decisória do Tribunal:
+
 - Conselheiro-Presidente (ou Conselheiro formalmente designado para presidir o Comitê);
 - Diretor-Geral do Tribunal;
 - Secretário-Geral de Controle Externo (representando a área finalística de auditoria);
@@ -98,9 +99,9 @@ A Resolução Administrativa nº 14/2024 consolidou o modelo de Governança Púb
 
 1. **Princípios Estruturantes:** Integridade, confiabilidade, transparência, prestação de contas (*accountability*), tempestividade e foco no cidadão.
 2. **Modelo das Três Linhas:**
-   - *1ª Linha (Gestores Operacionais):* Responsáveis pela execução direta das rotinas e pelos controles internos primários em cada unidade;
-   - *2ª Linha (Unidades de Riscos e Integridade):* Responsáveis pelo monitoramento de conformidade, desenho de políticas de riscos e suporte metodológico;
-   - *3ª Linha (Auditoria Interna):* Fornece avaliação independente e objetiva da eficácia dos processos de governança e controles institucionais.
+    - *1ª Linha (Gestores Operacionais):* Responsáveis pela execução direta das rotinas e pelos controles internos primários em cada unidade;
+    - *2ª Linha (Unidades de Riscos e Integridade):* Responsáveis pelo monitoramento de conformidade, desenho de políticas de riscos e suporte metodológico;
+    - *3ª Linha (Auditoria Interna):* Fornece avaliação independente e objetiva da eficácia dos processos de governança e controles institucionais.
 3. **Conexão com a TIC:** A Governança de TI não é uma ilha isolada; os objetivos tecnológicos do PDTI são derivados diretamente dos objetivos estratégicos da RA nº 14/2024 para maximizar o valor público entregue pelo Tribunal à sociedade goiana.
 
 ---
@@ -134,17 +135,17 @@ flowchart LR
 ### 3.2 Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes
 
 1. **Credenciais e Autenticação:**
-   - Senhas pessoais, intransferíveis e secretas com política de complexidade mínima (números, caracteres especiais, maiúsculas e minúsculas);
-   - Uso compulsório de **Autenticação Multifator (MFA)** para todos os acessos externos e sistemas corporativos sensíveis.
+    - Senhas pessoais, intransferíveis e secretas com política de complexidade mínima (números, caracteres especiais, maiúsculas e minúsculas);
+    - Uso compulsório de **Autenticação Multifator (MFA)** para todos os acessos externos e sistemas corporativos sensíveis.
 2. **Teletrabalho e Acesso Remoto:**
-   - Conexão remota permitida exclusivamente por meio de túnel criptografado **VPN (*Virtual Private Network*) corporativa** do Tribunal;
-   - Proibição de armazenamento de documentos restritos em dispositivos particulares (computadores domésticos compartilhados sem antivírus gerenciado);
-   - Bloqueio automático de tela configurado para tempo máximo de inatividade (ex.: 5 minutos).
+    - Conexão remota permitida exclusivamente por meio de túnel criptografado **VPN (*Virtual Private Network*) corporativa** do Tribunal;
+    - Proibição de armazenamento de documentos restritos em dispositivos particulares (computadores domésticos compartilhados sem antivírus gerenciado);
+    - Bloqueio automático de tela configurado para tempo máximo de inatividade (ex.: 5 minutos).
 3. **Dispositivos Móveis de Armazenamento:**
-   - Bloqueio por política de grupo (GPO) do uso de dispositivos USB (*pendrives*, HDs externos) não homologados nas estações de trabalho do Tribunal.
+    - Bloqueio por política de grupo (GPO) do uso de dispositivos USB (*pendrives*, HDs externos) não homologados nas estações de trabalho do Tribunal.
 4. **Tratamento de Incidentes de Segurança:**
-   - Existência de equipe especializada de resposta a incidentes cibernéticos (CSIRT do TCE-GO);
-   - Dever funcional de todo servidor de comunicar imediatamente à DTI qualquer indício de infecção por malware, tentativa de *phishing* ou perda de equipamento funcional.
+    - Existência de equipe especializada de resposta a incidentes cibernéticos (CSIRT do TCE-GO);
+    - Dever funcional de todo servidor de comunicar imediatamente à DTI qualquer indício de infecção por malware, tentativa de *phishing* ou perda de equipamento funcional.
 
 ---
 
@@ -213,14 +214,14 @@ flowchart TD
 ## 6. Fontes Recomendadas na Internet
 
 - [x] **Repositório Normativo Oficial do TCE-GO:**
-  - Link Oficial: [Legislação e Atos Normativos do TCE-GO](https://portal.tce.go.gov.br/legislacao)
-  - *Textos Oficiais:* Resolução Normativa nº 13/2016 (CETI), Resolução Administrativa nº 14/2024 (Governança Organizacional), Resolução Administrativa nº 17/2024 (PSI) e Resolução Administrativa nº 14/2025 (Estrutura da DTI).
+    - Link Oficial: [Legislação e Atos Normativos do TCE-GO](https://portal.tce.go.gov.br/legislacao)
+    - *Textos Oficiais:* Resolução Normativa nº 13/2016 (CETI), Resolução Administrativa nº 14/2024 (Governança Organizacional), Resolução Administrativa nº 17/2024 (PSI) e Resolução Administrativa nº 14/2025 (Estrutura da DTI).
 - [x] **Portal de Planejamento Estratégico e TIC do TCE-GO:**
-  - Link Oficial: [Planejamento de TIC e Governança Digital TCE-GO](https://portal.tce.go.gov.br/planejamento-estrategico)
-  - *Conteúdo:* Publicação oficial do PDTI 2025–2026 e atos do CETI (Ordem de Serviço nº 001/2025-CETI).
+    - Link Oficial: [Planejamento de TIC e Governança Digital TCE-GO](https://portal.tce.go.gov.br/planejamento-estrategico)
+    - *Conteúdo:* Publicação oficial do PDTI 2025–2026 e atos do CETI (Ordem de Serviço nº 001/2025-CETI).
 - [x] **Referencial Básico de Governança de TI do TCU:**
-  - Link Oficial: [Referenciais de Governança de TIC do TCU](https://portal.tcu.gov.br/governanca/gestao-publica/governanca-de-ti/)
-  - *Conteúdo:* Princípios de separação de papéis entre governança (CETI) e gestão técnica (DTI).
+    - Link Oficial: [Referenciais de Governança de TIC do TCU](https://portal.tcu.gov.br/governanca/gestao-publica/governanca-de-ti/)
+    - *Conteúdo:* Princípios de separação de papéis entre governança (CETI) e gestão técnica (DTI).
 
 ---
 
@@ -228,11 +229,12 @@ flowchart TD
 
 ### Questão 1 (FCC Inédita - Auditor Estadual de Controle Externo / TI)
 **Enunciado:** No desenho da estrutura de governança e gestão de tecnologia da informação do Tribunal de Contas do Estado de Goiás, a Resolução Normativa nº 13/2016 instituiu o Comitê Estratégico de Tecnologia da Informação (CETI). Considerando os preceitos de segregação de funções entre instâncias de governança superior e órgãos executivos de gestão técnica, assinale a opção que expressa uma competência atribuída ao CETI:  
-A) Programar rotinas de banco de dados em linguagem SQL e configurar portas de switches de borda no Data Center.  
-B) Aprovar formalmente as diretrizes do Plano Diretor de Tecnologia da Informação (PDTI) e priorizar as iniciativas e investimentos estratégicos de TIC alinhados ao planejamento do Tribunal.  
-C) Atender a chamados de primeiro nível de suporte técnico de usuários que esqueceram senhas na intranet institucional.  
-D) Homologar individualmente cada commit de código-fonte produzido pelos analistas de desenvolvimento da DTI.  
-E) Assinar monocraticamente contratos de compra de computadores sem a instauração de procedimento licitatório regular.  
+
+* **A)** Programar rotinas de banco de dados em linguagem SQL e configurar portas de switches de borda no Data Center.
+* **B)** Aprovar formalmente as diretrizes do Plano Diretor de Tecnologia da Informação (PDTI) e priorizar as iniciativas e investimentos estratégicos de TIC alinhados ao planejamento do Tribunal.
+* **C)** Atender a chamados de primeiro nível de suporte técnico de usuários que esqueceram senhas na intranet institucional.
+* **D)** Homologar individualmente cada commit de código-fonte produzido pelos analistas de desenvolvimento da DTI.
+* **E)** Assinar monocraticamente contratos de compra de computadores sem a instauração de procedimento licitatório regular.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A programação de rotinas de banco de dados e configuração de switches são atribuições estritamente técnicas e operacionais da Diretoria de TI (DTI), e não de um comitê estratégico colegiado de alta direção.
@@ -247,11 +249,12 @@ E) Assinar monocraticamente contratos de compra de computadores sem a instauraç
 
 ### Questão 2 (FCC Inédita - Técnico de Controle Externo / Tecnologia da Informação)
 **Enunciado:** Um auditor técnico do TCE-GO, atuando no regime de teletrabalho, necessita acessar a base de dados do sistema de controle de processos administrativos para instruir um relatório de fiscalização. Em conformidade com a Política de Segurança da Informação (PSI) do Tribunal, instituída pela Resolução Administrativa nº 17/2024:  
-A) O auditor deve conectar-se obrigatoriamente por meio de Rede Privada Virtual (VPN) corporativa com uso de autenticação de múltiplos fatores (MFA), sendo-lhe vedado armazenar cópias locais desprotegidas de relatórios restritos em computador doméstico compartilhado.  
-B) O auditor pode desativar a política de antivírus institucional caso sinta lentidão no processamento de planilhas.  
-C) É permitido compartilhar sua senha pessoal de rede com familiares próximos para agilizar a digitação de dados.  
-D) O acesso a documentos sigilosos de auditoria pode ser realizado a partir de computadores de uso público em cibercafés ou hotéis sem qualquer proteção criptográfica.  
-E) O uso de autenticação de duplo fator é expressamente proibido pela PSI por retardar o trabalho remoto.  
+
+* **A)** O auditor deve conectar-se obrigatoriamente por meio de Rede Privada Virtual (VPN) corporativa com uso de autenticação de múltiplos fatores (MFA), sendo-lhe vedado armazenar cópias locais desprotegidas de relatórios restritos em computador doméstico compartilhado.
+* **B)** O auditor pode desativar a política de antivírus institucional caso sinta lentidão no processamento de planilhas.
+* **C)** É permitido compartilhar sua senha pessoal de rede com familiares próximos para agilizar a digitação de dados.
+* **D)** O acesso a documentos sigilosos de auditoria pode ser realizado a partir de computadores de uso público em cibercafés ou hotéis sem qualquer proteção criptográfica.
+* **E)** O uso de autenticação de duplo fator é expressamente proibido pela PSI por retardar o trabalho remoto.
 
 > **Comentário Detalhado:**
 > - **A)** **Correta.** A Resolução Administrativa nº 17/2024 (PSI do TCE-GO) estabelece normas rigorosas para o teletrabalho e segurança da informação: acesso externo somente via túnel VPN corporativo com autenticação multifator (MFA), proteção de credenciais institucionais e proibição categórica de gravação de arquivos de trabalho restritos em mídias particulares não homologadas ou computadores compartilhados.
@@ -266,11 +269,12 @@ E) O uso de autenticação de duplo fator é expressamente proibido pela PSI por
 
 ### Questão 3 (FCC Inédita - Analista de TI / Governança e Planejamento)
 **Enunciado:** O Plano Diretor de Tecnologia da Informação (PDTI) para o biênio 2025–2026 do Tribunal de Contas do Estado de Goiás foi aprovado pela Ordem de Serviço nº 001/2025-CETI. Em relação ao alinhamento estratégico, à estrutura e aos objetivos do PDTI 2025–2026, é correto afirmar:  
-A) O PDTI é um instrumento puramente contábil que apenas lista a depreciação de monitores antigos, sem qualquer conexão com os objetivos finalísticos do Tribunal.  
-B) As contratações de TIC a serem deflagradas pelo Tribunal devem guardar estrita correlação e previsão no PDTI vigente, o qual estabelece eixos estratégicos voltados à modernização em nuvem resiliente, automação inteligente com IA no controle externo, cibersegurança e transformação digital.  
-C) A vigência do PDTI do TCE-GO é perpétua e imutável, sendo dispensada a revisão semestral pelo CETI.  
-D) As diretrizes de modernização de infraestrutura do PDTI dispensam a observância aos parâmetros de interoperabilidade com os demais Poderes do Estado de Goiás.  
-E) O PDTI veda o uso de inteligência artificial em quaisquer atividades operacionais ou finalísticas do controle externo.  
+
+* **A)** O PDTI é um instrumento puramente contábil que apenas lista a depreciação de monitores antigos, sem qualquer conexão com os objetivos finalísticos do Tribunal.
+* **B)** As contratações de TIC a serem deflagradas pelo Tribunal devem guardar estrita correlação e previsão no PDTI vigente, o qual estabelece eixos estratégicos voltados à modernização em nuvem resiliente, automação inteligente com IA no controle externo, cibersegurança e transformação digital.
+* **C)** A vigência do PDTI do TCE-GO é perpétua e imutável, sendo dispensada a revisão semestral pelo CETI.
+* **D)** As diretrizes de modernização de infraestrutura do PDTI dispensam a observância aos parâmetros de interoperabilidade com os demais Poderes do Estado de Goiás.
+* **E)** O PDTI veda o uso de inteligência artificial em quaisquer atividades operacionais ou finalísticas do controle externo.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O PDTI é o instrumento diretor de alinhamento tático de TI com a missão finalística de controle externo do Tribunal de Contas, muito além de mero controle de depreciação de bens.
@@ -285,11 +289,12 @@ E) O PDTI veda o uso de inteligência artificial em quaisquer atividades operaci
 
 ### Questão 4 (FCC Inédita - Analista de Sistemas / Engenharia de Software)
 **Enunciado:** Em conformidade com a Resolução Administrativa nº 14/2025, que reestruturou a Diretoria de Tecnologia da Informação (DTI) do TCE-GO, assinale a opção que descreve atribuições típicas das unidades técnicas subordinadas à DTI:  
-A) Julgar as contas prestadas pelos prefeitos municipais goianos com força executiva de título judicial.  
-B) Desenvolver, sustentar e testar os softwares corporativos de controle externo, gerenciar a infraestrutura de redes e data centers, administrar bancos de dados corporativos e prestar atendimento de suporte ao usuário (Service Desk).  
-C) Elaborar o projeto de lei orçamentária anual do Estado de Goiás para votação na Assembleia Legislativa.  
-D) Substituir monocraticamente o Plenário do Tribunal na emissão de pareceres prévios sobre as contas do Governador do Estado.  
-E) Fiscalizar presencialmente a regularidade de tráfego de veículos rodoviários nas rodovias estaduais goianas.  
+
+* **A)** Julgar as contas prestadas pelos prefeitos municipais goianos com força executiva de título judicial.
+* **B)** Desenvolver, sustentar e testar os softwares corporativos de controle externo, gerenciar a infraestrutura de redes e data centers, administrar bancos de dados corporativos e prestar atendimento de suporte ao usuário (Service Desk).
+* **C)** Elaborar o projeto de lei orçamentária anual do Estado de Goiás para votação na Assembleia Legislativa.
+* **D)** Substituir monocraticamente o Plenário do Tribunal na emissão de pareceres prévios sobre as contas do Governador do Estado.
+* **E)** Fiscalizar presencialmente a regularidade de tráfego de veículos rodoviários nas rodovias estaduais goianas.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O julgamento de contas municipais é competência de controle externo dos Tribunais de Contas ou das Câmaras Municipais (conforme o tipo de conta), exercida pelos Conselheiros relatores e órgãos deliberativos do TCE, e não pela área técnica de TI.
@@ -304,11 +309,12 @@ E) Fiscalizar presencialmente a regularidade de tráfego de veículos rodoviári
 
 ### Questão 5 (FCC Inédita - Auditor Estadual de Controle Externo / TI)
 **Enunciado:** Durante uma inspeção extraordinária sobre indícios de fraude em licitação promovida por secretaria de estado, a equipe de auditoria do TCE-GO coletou documentos fiscais sigilosos e relatórios de inteligência financeira. Segundo a Resolução Administrativa nº 17/2024 (Política de Segurança da Informação do TCE-GO), quanto à classificação da informação e tratamento desses ativos:  
-A) Esses relatórios preliminares de inspeção sigilosa e dados fiscais devem ser classificados no nível Restrito/Sigiloso, tendo seu acesso restrito unicamente aos auditores legalmente designados e autoridades autorizadas, sendo vedada a disponibilização pública até a formal desclassificação nos termos da lei.  
-B) Devem ser imediatamente publicados na página inicial do Portal da Transparência em acesso livre irrestrito, sob a classificação de informação pública ordinária.  
-C) Podem ser encaminhados por correio eletrônico comercial gratuito não corporativo para guarda pessoal do auditor.  
-D) A classificação de informações no Tribunal de Contas é facultativa, inexistindo diferenciação entre documentos públicos e dados sob segredo fiscal.  
-E) Devem ser armazenados em pendrive sem senha e afixados no mural de avisos da recepção do Tribunal.  
+
+* **A)** Esses relatórios preliminares de inspeção sigilosa e dados fiscais devem ser classificados no nível Restrito/Sigiloso, tendo seu acesso restrito unicamente aos auditores legalmente designados e autoridades autorizadas, sendo vedada a disponibilização pública até a formal desclassificação nos termos da lei.
+* **B)** Devem ser imediatamente publicados na página inicial do Portal da Transparência em acesso livre irrestrito, sob a classificação de informação pública ordinária.
+* **C)** Podem ser encaminhados por correio eletrônico comercial gratuito não corporativo para guarda pessoal do auditor.
+* **D)** A classificação de informações no Tribunal de Contas é facultativa, inexistindo diferenciação entre documentos públicos e dados sob segredo fiscal.
+* **E)** Devem ser armazenados em pendrive sem senha e afixados no mural de avisos da recepção do Tribunal.
 
 > **Comentário Detalhado:**
 > - **A)** **Correta.** De acordo com a RA nº 17/2024 (PSI do TCE-GO) e a legislação arquivística/LAI, informações protegidas por sigilo fiscal, bancário ou referentes a inspeções preliminares de auditoria em curso recebem o nível de classificação Restrita / Sigilosa. Esse nível impõe controles rígidos de acesso exclusivo aos auditores formalmente designados e autoridades competentes, visando não frustrar a eficácia da investigação e preservar garantias legais.

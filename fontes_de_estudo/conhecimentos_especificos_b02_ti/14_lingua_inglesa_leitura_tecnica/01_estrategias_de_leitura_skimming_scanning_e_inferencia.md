@@ -18,25 +18,25 @@
 ## 🧭 Sumário
 
 - [1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)](#1-fundamentos-do-inglês-instrumental-english-for-specific-purposes---esp)
-  - [1.1 Tripé de Competências Cognitivas](#11-tripé-de-competências-cognitivas)
-  - [1.2 Fases do Processo de Leitura Técnica](#12-fases-do-processo-de-leitura-técnica)
+    - [1.1 Tripé de Competências Cognitivas](#11-tripé-de-competências-cognitivas)
+    - [1.2 Fases do Processo de Leitura Técnica](#12-fases-do-processo-de-leitura-técnica)
 - [2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)](#2-skimming-leitura-rápida-panorâmica-main-idea--gist)
-  - [2.1 Mecânica de Execução e Tópico Frasal](#21-mecânica-de-execução-e-tópico-frasal)
-  - [2.2 Identificação de Tipos de Questões FCC](#22-identificação-de-tipos-de-questões-fcc)
+    - [2.1 Mecânica de Execução e Tópico Frasal](#21-mecânica-de-execução-e-tópico-frasal)
+    - [2.2 Identificação de Tipos de Questões FCC](#22-identificação-de-tipos-de-questões-fcc)
 - [3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)](#3-scanning-leitura-de-varredura-seletiva-locating-specific-data)
-  - [3.1 Mecânica de Execução e Pistas Tipográficas](#31-mecânica-de-execução-e-pistas-tipográficas)
-  - [3.2 Matriz Comparativa: Skimming vs. Scanning](#32-matriz-comparativa-skimming-vs-scanning)
+    - [3.1 Mecânica de Execução e Pistas Tipográficas](#31-mecânica-de-execução-e-pistas-tipográficas)
+    - [3.2 Matriz Comparativa: Skimming vs. Scanning](#32-matriz-comparativa-skimming-vs-scanning)
 - [4. Predição e Pistas Contextuais de Vocabulário (Context Clues)](#4-predição-e-pistas-contextuais-de-vocabulário-context-clues)
-  - [4.1 Pistas de Definição, Paráfrase e Exemplificação](#41-pistas-de-definição-paráfrase-e-exemplificação)
-  - [4.2 Pistas de Contraste, Oposição, Causa e Efeito](#42-pistas-de-contraste-oposição-causa-e-efeito)
-  - [4.3 Decomposição Morfológica (Prefixos, Raízes e Sufixos)](#43-decomposição-morfológica-prefixos-raízes-e-sufixos)
-  - [4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software](#44-vocabulário-crítico-de-engenharia-e-arquitetura-de-software)
+    - [4.1 Pistas de Definição, Paráfrase e Exemplificação](#41-pistas-de-definição-paráfrase-e-exemplificação)
+    - [4.2 Pistas de Contraste, Oposição, Causa e Efeito](#42-pistas-de-contraste-oposição-causa-e-efeito)
+    - [4.3 Decomposição Morfológica (Prefixos, Raízes e Sufixos)](#43-decomposição-morfológica-prefixos-raízes-e-sufixos)
+    - [4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software](#44-vocabulário-crítico-de-engenharia-e-arquitetura-de-software)
 - [5. Falsos Cognatos Críticos em TI (False Friends)](#5-falsos-cognatos-críticos-em-ti-false-friends)
-  - [5.1 Cognatos Verdadeiros vs. Falsos Amigos](#51-cognatos-verdadeiros-vs-falsos-amigos)
-  - [5.2 Quadro Lexical de Falsos Cognatos Críticos](#52-quadro-lexical-de-falsos-cognatos-críticos)
+    - [5.1 Cognatos Verdadeiros vs. Falsos Amigos](#51-cognatos-verdadeiros-vs-falsos-amigos)
+    - [5.2 Quadro Lexical de Falsos Cognatos Críticos](#52-quadro-lexical-de-falsos-cognatos-críticos)
 - [6. Coesão Textual e Referência Pronominal (Reference Words)](#6-coesão-textual-e-referência-pronominal-reference-words)
-  - [6.1 Anáfora e Catáfora em Textos Técnicos](#61-anáfora-e-catáfora-em-textos-técnicos)
-  - [6.2 Encapsulamento Conceitual com Demonstrativos](#62-encapsulamento-conceitual-com-demonstrativos)
+    - [6.1 Anáfora e Catáfora em Textos Técnicos](#61-anáfora-e-catáfora-em-textos-técnicos)
+    - [6.2 Encapsulamento Conceitual com Demonstrativos](#62-encapsulamento-conceitual-com-demonstrativos)
 - [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
 - [8. Questões Comentadas & Exemplos (Padrão FCC)](#8-questões-comentadas--exemplos-padrão-fcc)
 
@@ -93,6 +93,7 @@ O **Skimming** (derivado do verbo *to skim*, "desnatar", retirar a camada superi
 ### 2.2 Identificação de Tipos de Questões FCC
 
 A FCC recorre frequentemente a comandos que demandam exclusivamente a aplicação de *Skimming*:
+
 - *"The main purpose of the text is to..."* (O objetivo central do texto é...)
 - *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?)
 - *"The central theme discussed in the passage revolves around..."* (O tema central discutido no texto gira em torno de...)
@@ -111,9 +112,9 @@ O **Scanning** (análogo à operação de busca de um comando `grep` ou ao feixe
 
 1. **Definição da Âncora no Enunciado:** Antes de olhar para o texto, o candidato identifica o termo-chave (*anchor word / keyword*) no comando da questão ou nas alternativas (por exemplo: um número de norma ISO/IEC, um percentual de redução, o nome de um algoritmo, uma porta de comunicação, um autor ou uma linha indicada).
 2. **Mapeamento do Padrão Gráfico:**
-   - **Numéricos e Temporais:** Algarismos arábicos (`2024`, `99.99%`, `128-bit`, `500 ms`).
-   - **Nomes Próprios e Acrônimos:** Grafia em caixa alta ou siglas conhecidas (`NIST`, `OAuth 2.0`, `PostgreSQL`, `Kubernetes`).
-   - **Termos de Sintaxe / TI:** Palavras grafadas em itálico, com formatação monotipada ou entre aspas (`idempotent`, `deadlock`, `mutex`).
+    - **Numéricos e Temporais:** Algarismos arábicos (`2024`, `99.99%`, `128-bit`, `500 ms`).
+    - **Nomes Próprios e Acrônimos:** Grafia em caixa alta ou siglas conhecidas (`NIST`, `OAuth 2.0`, `PostgreSQL`, `Kubernetes`).
+    - **Termos de Sintaxe / TI:** Palavras grafadas em itálico, com formatação monotipada ou entre aspas (`idempotent`, `deadlock`, `mutex`).
 3. **Varredura Ocular Não-Linear:** Percorrer os olhos rapidamente em zigue-zague ou verticalmente pela página, inibindo qualquer subvocalização. Tudo o que não coincide com a âncora gráfica é visualmente descartado.
 4. **Foco Cirúrgico Local:** Ao identificar visualmente a âncora, interromper a varredura e realizar uma leitura analítica rigorosa apenas da oração que contém o termo, bem como da oração imediatamente anterior e posterior.
 
@@ -153,30 +154,31 @@ Em certames da FCC para a área de TI, é praxe a inclusão de vocabulário téc
 ### 4.1 Pistas de Definição, Paráfrase e Exemplificação
 
 - **Definição Direta e Paráfrase (*Definition / Restatement Clues*):** O próprio texto elucida o termo desconhecido na sequência, frequentemente isolado por vírgulas, travessões, parênteses ou conjunções explicativas (*that is, in other words, known as, which means, defined as, namely*).
-  - *Exemplo:* *"The distributed service implements an **idempotent** operation—**that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation**—thereby preventing accidental billing duplicates."*  
+    - *Exemplo:* *"The distributed service implements an **idempotent** operation—**that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation**—thereby preventing accidental billing duplicates."*  
     $\rightarrow$ A definição formal está dada entre travessões: operação repetível que não altera o estado do sistema além da primeira execução.
 - **Exemplificação (*Example Clues*):** O sentido de uma categoria complexa ou abstrata é revelado pela enumeração de exemplos concretos introduzidos por marcadores como *such as, for instance, for example, e.g., including*.
-  - *Exemplo:* *"The migration revealed several **ephemeral** storage configurations, **such as temporary in-memory caches and non-persistent container volumes**, that caused data loss upon reboot."*  
+    - *Exemplo:* *"The migration revealed several **ephemeral** storage configurations, **such as temporary in-memory caches and non-persistent container volumes**, that caused data loss upon reboot."*  
     $\rightarrow$ Os exemplos práticos (*temporary, non-persistent*) revelam com precisão que *ephemeral* significa volátil, transitório ou efêmero.
 
 ### 4.2 Pistas de Contraste, Oposição, Causa e Efeito
 
 - **Contraste e Antônimos (*Contrast / Antonym Clues*):** O termo opõe-se a uma ideia conhecida por meio de conectivos adversativos ou concessivos (*unlike, whereas, while, in contrast to, instead of, on the contrary, but, however*).
-  - *Exemplo:* *"**Unlike** legacy monolithic repositories that are completely **intertwined**, modern cloud applications are composed of **loosely coupled**, independent microservices."*  
+    - *Exemplo:* *"**Unlike** legacy monolithic repositories that are completely **intertwined**, modern cloud applications are composed of **loosely coupled**, independent microservices."*  
     $\rightarrow$ Se os microsserviços são *loosely coupled* (fracamente acoplados / independentes), o conectivo *Unlike* explicita que os monólitos *intertwined* são fortemente entrelaçados ou acoplados.
 - **Causa e Efeito (*Cause and Effect Clues*):** A relação de causalidade expressa por *because, since, as a result, consequently, thereby, thus, leading to* permite inferir o significado a partir do resultado prático.
-  - *Exemplo:* *"Because the automated script lacked input validation, it allowed arbitrary SQL injection, **leading to catastrophic** data corruption."*  
+    - *Exemplo:* *"Because the automated script lacked input validation, it allowed arbitrary SQL injection, **leading to catastrophic** data corruption."*  
     $\rightarrow$ A consequência danosa clarifica o teor destrutivo de *catastrophic*.
 
 ### 4.3 Decomposição Morfológica (Prefixos, Raízes e Sufixos)
 
 A morfologia vocabular permite dissecar o verbete técnico desconhecido:
+
 - **Prefixos de Negação e Reversão:** *un-* (*unpatched*, não corrigido), *in-/im-* (*immutable*, imutável), *dis-* (*disrupt*, interromper/desestruturar), *mis-* (*misconfiguration*, erro de configuração).
 - **Prefixos de Tempo e Escala:** *pre-* (*pre-computation*), *post-* (*postmortem analysis*), *micro-* (*microsegmentation*), *hyper-* (*hypervisor*).
 - **Sufixos Gramaticais:**
-  - Substantivos: *-tion* (*authentication*), *-ment* (*deployment*), *-ity* (*scalability*), *-ness* (*responsiveness*).
-  - Adjetivos: *-able/-ible* (*scalable*, *accessible*), *-ive* (*predictive*), *-al* (*procedural*).
-  - Advérbios: *-ly* (*continually*, *actually*).
+    - Substantivos: *-tion* (*authentication*), *-ment* (*deployment*), *-ity* (*scalability*), *-ness* (*responsiveness*).
+    - Adjetivos: *-able/-ible* (*scalable*, *accessible*), *-ive* (*predictive*), *-al* (*procedural*).
+    - Advérbios: *-ly* (*continually*, *actually*).
 
 ### 4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software
 
@@ -189,8 +191,8 @@ Determinados termos técnicos de língua inglesa possuem acepções altamente es
 - **Compromise (Violar a Segurança / Invadir):** Em cibersegurança, *to compromise a system* significa violar sua integridade, confidencialidade ou controle de acesso. Não significa "fazer um acordo amigável" ou "ter um compromisso na agenda".
 - **Novel (Inovador / Inédito / Original):** Quando empregado como adjetivo (*a novel approach*), significa inovador, novo ou original. Não significa "novela" de televisão ou literatura romântica.
 - **Sensible vs. Sensitive:**  
-  - *Sensible:* Sensato, criterioso, razoável, prudente (*a sensible decision*).  
-  - *Sensitive:* Sensível, delicado, confidencial (*sensitive data*, dados sensíveis sob a LGPD).
+    - *Sensible:* Sensato, criterioso, razoável, prudente (*a sensible decision*).  
+    - *Sensitive:* Sensível, delicado, confidencial (*sensitive data*, dados sensíveis sob a LGPD).
 
 ---
 
@@ -233,10 +235,10 @@ Um dos tipos de questões favoritos da FCC consiste em destacar um pronome em de
 
 - **Referência Anafórica (*Anaphora*):** O pronome retoma um termo ou ideia explicitado anteriormente no fluxo textual.
 - **Regras Estritas de Concordância Primitiva:**
-  - **It / Its:** Retoma substantivos neutros singulares (um protocolo, um sistema, um servidor, um vetor de ataque).
-  - **They / Their / Them:** Retoma substantivos plurais, sejam pessoas (desenvolvedores, peritos) ou entidades neutras (microsserviços, registros, contêineres).
-  - **Who / Whom:** Aplica-se exclusivamente a pessoas humanas (*analysts who detected the flaw*).
-  - **Which / That:** Aplica-se a coisas, sistemas e conceitos inanimados.
+    - **It / Its:** Retoma substantivos neutros singulares (um protocolo, um sistema, um servidor, um vetor de ataque).
+    - **They / Their / Them:** Retoma substantivos plurais, sejam pessoas (desenvolvedores, peritos) ou entidades neutras (microsserviços, registros, contêineres).
+    - **Who / Whom:** Aplica-se exclusivamente a pessoas humanas (*analysts who detected the flaw*).
+    - **Which / That:** Aplica-se a coisas, sistemas e conceitos inanimados.
 
 ### 6.2 Encapsulamento Conceitual com Demonstrativos
 
@@ -290,11 +292,11 @@ flowchart LR
 
 Based on reading comprehension strategies and technical lexicon, it is correct to state that:
 
-A) The term **"eventually"** in the last sentence indicates that migrating legacy systems demands engineering effort only on rare, unpredictable occasions.  
-B) The main purpose of the paragraph is to demonstrate that legacy perimeter defenses remain technically superior to Zero Trust architectures.  
-C) According to the text, once a device achieves initial authentication inside an internal subnet, its authorization privileges remain unconditionally static.  
-D) The author highlights that Zero Trust mandates continuous re-evaluation of authorization privileges, even for internal network traffic.  
-E) The pronoun **"their"** in the sentence *"their authorization must be continually re-evaluated"* refers syntactically to *"traditional perimeter defenses"*.  
+* **A)** The term **"eventually"** in the last sentence indicates that migrating legacy systems demands engineering effort only on rare, unpredictable occasions.
+* **B)** The main purpose of the paragraph is to demonstrate that legacy perimeter defenses remain technically superior to Zero Trust architectures.
+* **C)** According to the text, once a device achieves initial authentication inside an internal subnet, its authorization privileges remain unconditionally static.
+* **D)** The author highlights that Zero Trust mandates continuous re-evaluation of authorization privileges, even for internal network traffic.
+* **E)** The pronoun **"their"** in the sentence *"their authorization must be continually re-evaluated"* refers syntactically to *"traditional perimeter defenses"*.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Explora a pegadinha clássica do falso cognato (*false friend*). O advérbio **"eventually"** significa "no final das contas", "com o tempo" ou "ao longo do processo" (*in the end / ultimately*). A alternativa tenta induzir o candidato ao erro traduzindo-o por "ocasionalmente / de modo esporádico", o que em inglês seria expresso por *occasionally* ou *sporadically*.
@@ -314,11 +316,11 @@ E) The pronoun **"their"** in the sentence *"their authorization must be continu
 
 Na língua portuguesa, as palavras destacadas no trecho (**pretended**, **comprehensive**, **policy**, **actually**) possuem os significados corretos e contextuais expressos em:
 
-A) fingiu – compreensiva – polícia – atualmente  
-B) pretendeu – abrangente – diretriz – atualmente  
-C) fingiu – abrangente – política/diretriz – na verdade/efetivamente  
-D) tentou – tolerante – polícia – realmente  
-E) planejou – compacta – apólice – futuramente  
+* **A)** fingiu – compreensiva – polícia – atualmente
+* **B)** pretendeu – abrangente – diretriz – atualmente
+* **C)** fingiu – abrangente – política/diretriz – na verdade/efetivamente
+* **D)** tentou – tolerante – polícia – realmente
+* **E)** planejou – compacta – apólice – futuramente
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Erra ao traduzir *comprehensive* como "compreensiva" (tolerante é *understanding*), *policy* como "polícia" (*police*) e *actually* como "atualmente" (*currently*).
@@ -342,11 +344,11 @@ E) planejou – compacta – apólice – futuramente
 
 Based on reading strategies and vocabulary inference, select the correct statement:
 
-A) In the first sentence, the word **"compromise"** means that the adversaries entered into an amicable agreement or diplomatic settlement with the domain controller.  
-B) The connector **"Unlike"** establishes a relation of contrast between the intrusion described and conventional malware campaigns regarding their timing of disruption.  
-C) By using scanning techniques on the text, one can determine that the ransomware encrypted databases located within a single physical datacenter.  
-D) The verb **"remediate"** indicates that the security operations center decided to accept and tolerate the breach without executing countermeasures.  
-E) The pronoun **"this intrusion"** in the third sentence refers specifically to the automated restoration of cold backups.  
+* **A)** In the first sentence, the word **"compromise"** means that the adversaries entered into an amicable agreement or diplomatic settlement with the domain controller.
+* **B)** The connector **"Unlike"** establishes a relation of contrast between the intrusion described and conventional malware campaigns regarding their timing of disruption.
+* **C)** By using scanning techniques on the text, one can determine that the ransomware encrypted databases located within a single physical datacenter.
+* **D)** The verb **"remediate"** indicates that the security operations center decided to accept and tolerate the breach without executing countermeasures.
+* **E)** The pronoun **"this intrusion"** in the third sentence refers specifically to the automated restoration of cold backups.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. No léxico técnico de cibersegurança e auditoria de sistemas, **"to compromise"** significa violar a segurança, corromper ou assumir controle indevido de um recurso. A alternativa apoia-se no sentido leigo e diplomático da palavra (acordo/concessão recíproca), descabido no contexto de exploração de vulnerabilidade.
@@ -366,11 +368,11 @@ E) The pronoun **"this intrusion"** in the third sentence refers specifically to
 
 Through the application of skimming and scanning techniques, it can be concluded that:
 
-A) Skimming the passage reveals that the author unconditionally recommends microservices as a superior solution without any operational drawbacks.  
-B) The term **"bottleneck"** is used contextually to describe an acceleration mechanism that improves developer delivery speed.  
-C) According to the text, monolithic architectures present higher network latency and more complex cross-service transactions than microservices.  
-D) The word **"trade-off"** indicates a compromise where gaining deployment velocity comes at the expense of higher distributed complexity and latency.  
-E) The linking word **"Nonetheless"** introduces an addition of arguments in favor of monolithic deployment pipelines.  
+* **A)** Skimming the passage reveals that the author unconditionally recommends microservices as a superior solution without any operational drawbacks.
+* **B)** The term **"bottleneck"** is used contextually to describe an acceleration mechanism that improves developer delivery speed.
+* **C)** According to the text, monolithic architectures present higher network latency and more complex cross-service transactions than microservices.
+* **D)** The word **"trade-off"** indicates a compromise where gaining deployment velocity comes at the expense of higher distributed complexity and latency.
+* **E)** The linking word **"Nonetheless"** introduces an addition of arguments in favor of monolithic deployment pipelines.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O *skimming* demonstra que o texto adota uma abordagem equilibrada de engenharia, enfatizando que os microsserviços acarretam complexidade operacional distribuída e custos adicionais consideráveis (*operational complexity, network latency*), refutando a tese de recomendação incondicional sem desvantagens.
@@ -390,11 +392,11 @@ E) The linking word **"Nonetheless"** introduces an addition of arguments in fav
 
 Regarding reading comprehension, context clues, and reference words in the text, choose the correct alternative:
 
-A) The adjective **"novel"** in the first sentence indicates that algorithmic auditing challenges are traditional, ancient, and already solved by standard literature.  
-B) In the phrase **"To prevent this"**, the pronoun *"this"* refers back to the entire problem of undetected algorithmic bias harming citizens.  
-C) The adjective **"sensible"** indicates that training datasets must be easily hurt by emotional or sensitive reactions.  
-D) The subject pronoun **"They"** in the final sentence syntactically refers to *"vulnerable citizens"*.  
-E) The author argues that machine learning models should enter production immediately, dispensing with explainability and audit trails.  
+* **A)** The adjective **"novel"** in the first sentence indicates that algorithmic auditing challenges are traditional, ancient, and already solved by standard literature.
+* **B)** In the phrase **"To prevent this"**, the pronoun *"this"* refers back to the entire problem of undetected algorithmic bias harming citizens.
+* **C)** The adjective **"sensible"** indicates that training datasets must be easily hurt by emotional or sensitive reactions.
+* **D)** The subject pronoun **"They"** in the final sentence syntactically refers to *"vulnerable citizens"*.
+* **E)** The author argues that machine learning models should enter production immediately, dispensing with explainability and audit trails.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Empregada como adjetivo de língua inglesa, a palavra **"novel"** significa novo, inédito, original ou inovador (raiz latina de novidade). Não guarda relação com algo antigo ou tradicional, tampouco com romances literários.

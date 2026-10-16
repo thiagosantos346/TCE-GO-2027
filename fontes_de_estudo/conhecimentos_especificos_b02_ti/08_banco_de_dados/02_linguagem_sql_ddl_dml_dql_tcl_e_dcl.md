@@ -16,25 +16,25 @@
 
 ## 🧭 Sumário
 - [1. Subconjuntos da Linguagem SQL](#1-subconjuntos-da-linguagem-sql)
-  - [1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL](#11-classificação-ansi-ddl-dml-dql-dcl-e-tcl)
-  - [1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE](#12-o-duelo-clássico-drop-vs-truncate-vs-delete)
-  - [1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira](#13-restrições-de-integridade-constraints-e-ações-de-chave-estrangeira)
+    - [1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL](#11-classificação-ansi-ddl-dml-dql-dcl-e-tcl)
+    - [1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE](#12-o-duelo-clássico-drop-vs-truncate-vs-delete)
+    - [1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira](#13-restrições-de-integridade-constraints-e-ações-de-chave-estrangeira)
 - [2. Ordem Lógica de Execução da Consulta SQL (DQL)](#2-ordem-lógica-de-execução-da-consulta-sql-dql)
-  - [2.1 Ordem Léxica (Escrita) vs. Ordem Lógica (Processamento)](#21-ordem-léxica-escrita-vs-ordem-lógica-processamento)
-  - [2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases](#22-o-conflito-where-vs-having-e-a-ilegalidade-de-aliases)
+    - [2.1 Ordem Léxica (Escrita) vs. Ordem Lógica (Processamento)](#21-ordem-léxica-escrita-vs-ordem-lógica-processamento)
+    - [2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases](#22-o-conflito-where-vs-having-e-a-ilegalidade-de-aliases)
 - [3. Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas](#3-consultas-avançadas-junções-operadores-de-conjunto-e-subconsultas)
-  - [3.1 Junções (INNER, LEFT, RIGHT, FULL OUTER e CROSS JOIN)](#31-junções-inner-left-right-full-outer-e-cross-join)
-  - [3.2 Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)](#32-operadores-de-conjunto-union-vs-union-all-intersect-except)
-  - [3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL](#33-lógica-ternária-three-valued-logic-e-a-armadilha-do-not-in-com-null)
-  - [3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)](#34-common-table-expressions-ctes-e-recursividade-with-recursive)
+    - [3.1 Junções (INNER, LEFT, RIGHT, FULL OUTER e CROSS JOIN)](#31-junções-inner-left-right-full-outer-e-cross-join)
+    - [3.2 Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)](#32-operadores-de-conjunto-union-vs-union-all-intersect-except)
+    - [3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL](#33-lógica-ternária-three-valued-logic-e-a-armadilha-do-not-in-com-null)
+    - [3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)](#34-common-table-expressions-ctes-e-recursividade-with-recursive)
 - [4. Funções Analíticas de Janela (Window Functions)](#4-funções-analíticas-de-janela-window-functions)
-  - [4.1 Sintaxe Geral e Cláusula OVER (PARTITION BY ... ORDER BY ...)](#41-sintaxe-geral-e-cláusula-over-partition-by--order-by-)
-  - [4.2 Funções de Ranking: ROW_NUMBER(), RANK() e DENSE_RANK()](#42-funções-de-ranking-row_number-rank-e-dense_rank)
-  - [4.3 Funções de Deslocamento: LEAD() e LAG()](#43-funções-de-deslocamento-lead-e-lag)
+    - [4.1 Sintaxe Geral e Cláusula OVER (PARTITION BY ... ORDER BY ...)](#41-sintaxe-geral-e-cláusula-over-partition-by--order-by-)
+    - [4.2 Funções de Ranking: ROW_NUMBER(), RANK() e DENSE_RANK()](#42-funções-de-ranking-row_number-rank-e-dense_rank)
+    - [4.3 Funções de Deslocamento: LEAD() e LAG()](#43-funções-de-deslocamento-lead-e-lag)
 - [5. Objetos Programáveis de Banco de Dados](#5-objetos-programáveis-de-banco-de-dados)
-  - [5.1 Visões: View Padrão vs. View Materializada (Materialized View)](#51-visões-view-padrão-vs-view-materializada-materialized-view)
-  - [5.2 Stored Procedures vs. User-Defined Functions (UDF)](#52-stored-procedures-vs-user-defined-functions-udf)
-  - [5.3 Gatilhos (Triggers): Eventos, Momentos (BEFORE, AFTER, INSTEAD OF) e Pseudorregistros OLD/NEW](#53-gatilhos-triggers-eventos-momentos-before-after-instead-of-e-pseudorregistros-oldnew)
+    - [5.1 Visões: View Padrão vs. View Materializada (Materialized View)](#51-visões-view-padrão-vs-view-materializada-materialized-view)
+    - [5.2 Stored Procedures vs. User-Defined Functions (UDF)](#52-stored-procedures-vs-user-defined-functions-udf)
+    - [5.3 Gatilhos (Triggers): Eventos, Momentos (BEFORE, AFTER, INSTEAD OF) e Pseudorregistros OLD/NEW](#53-gatilhos-triggers-eventos-momentos-before-after-instead-of-e-pseudorregistros-oldnew)
 - [6. Questões Comentadas & Prática Padrão FCC](#6-questões-comentadas--prática-padrão-fcc)
 
 ---
@@ -79,15 +79,17 @@ Um dos tópicos de maior incidência em provas da FCC para cargos de Tecnologia 
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A FCC adora elaborar enunciados afirmando que:
+>
 > 1. *"O comando TRUNCATE é uma operação DML porque manipula dados de linhas."* $\rightarrow$ **ERRADO!** O `TRUNCATE` é formalmente classificado como **DDL**, pois opera desalocando páginas físicas de armazenamento no catálogo de dados.
 > 2. *"O comando TRUNCATE aciona gatilhos de auditoria FOR EACH ROW para registrar quem apagou cada linha."* $\rightarrow$ **ERRADO!** O `TRUNCATE` ignora completamente gatilhos de nível de linha!
 
 ### 1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira
 
 As restrições de integridade garantem a consistência lógica dos dados no banco:
+
 - **`PRIMARY KEY`:** Garante unicidade e impede valores nulos (`UNIQUE` + `NOT NULL`). Cada tabela pode conter apenas uma chave primária.
 - **`FOREIGN KEY` (Integridade Referencial):** Impõe que o valor da coluna exista previamente na chave primária da tabela referenciada.
-  - **Ações Referenciais em Deleção/Atualização (`ON DELETE` / `ON UPDATE`):**
+    - **Ações Referenciais em Deleção/Atualização (`ON DELETE` / `ON UPDATE`):**
     - `RESTRICT` / `NO ACTION`: Bloqueia e rejeita a operação no pai caso existam registros filhos dependentes (comportamento padrão).
     - `CASCADE`: Propaga a alteração/exclusão automaticamente aos filhos (se o contrato for apagado, todos os seus aditivos são apagados).
     - `SET NULL`: Atualiza o campo da chave estrangeira dos filhos para `NULL` quando o pai é excluído (exige que a coluna aceite nulos).
@@ -117,6 +119,7 @@ flowchart TD
 ### 2.1 Ordem Léxica (Escrita) vs. Ordem Lógica (Processamento)
 
 A ordem lógica executada pelo motor relacional é rigorosamente:
+
 1. **`FROM` e `JOIN / ON`:** Identifica as relações de entrada e calcula produtos cartesianos e junções;
 2. **`WHERE`:** Aplica filtros booleanos linha a linha antes de qualquer agregação;
 3. **`GROUP BY`:** Agrupa as linhas restantes em blocos lógicos baseados nas chaves de agrupamento;
@@ -131,12 +134,13 @@ A ordem lógica executada pelo motor relacional é rigorosamente:
 ### 2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases
 
 Compreender essa cronologia lógica resolve duas das questões mais frequentes da FCC:
+
 1. **Ilegalidade de Aliases no `WHERE`:**  
    Como a cláusula `WHERE` (etapa 2) é processada **muito antes da cláusula `SELECT`** (etapa 6), qualquer apelido de coluna (*alias*) criado no `SELECT` ainda não existe no catálogo de símbolos durante a avaliação do `WHERE`.  
    *Código Inválido:* `SELECT salario * 1.1 AS novo_salario FROM servidor WHERE novo_salario > 5000;` *(Gera erro de coluna inexistente!)*.
 2. **`WHERE` vs. `HAVING`:**  
-   - O **`WHERE`** filtra registros **individuais** antes da formação dos grupos e **rejeita terminantemente funções agregadas** (ex.: `WHERE SUM(valor) > 100` é sintaticamente inválido).
-   - O **`HAVING`** filtra **grupos agregados** já sumarizados pelo `GROUP BY` e aceita funções agregadas (ex.: `HAVING SUM(valor) > 100`).
+    - O **`WHERE`** filtra registros **individuais** antes da formação dos grupos e **rejeita terminantemente funções agregadas** (ex.: `WHERE SUM(valor) > 100` é sintaticamente inválido).
+    - O **`HAVING`** filtra **grupos agregados** já sumarizados pelo `GROUP BY` e aceita funções agregadas (ex.: `HAVING SUM(valor) > 100`).
 
 ---
 
@@ -153,8 +157,8 @@ Compreender essa cronologia lógica resolve duas das questões mais frequentes d
 ### 3.2 Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)
 
 - **`UNION` vs. `UNION ALL`:**
-  - **`UNION`:** Combina os resultados de duas consultas com compatibilidade de esquema e executa um algoritmo interno de ordenação/hashing para **eliminar compulsoriamente linhas duplicadas**.
-  - **`UNION ALL`:** Apenas concatena as duas listas de tuplas, **preservando todas as duplicatas intactas**. Possui desempenho computacional dramaticamente superior ao `UNION`.
+    - **`UNION`:** Combina os resultados de duas consultas com compatibilidade de esquema e executa um algoritmo interno de ordenação/hashing para **eliminar compulsoriamente linhas duplicadas**.
+    - **`UNION ALL`:** Apenas concatena as duas listas de tuplas, **preservando todas as duplicatas intactas**. Possui desempenho computacional dramaticamente superior ao `UNION`.
 - **`INTERSECT`:** Retorna apenas as tuplas que constam simultaneamente em ambas as consultas, eliminando duplicatas.
 - **`EXCEPT` (ou `MINUS` no Oracle):** Retorna as tuplas da primeira consulta que não estão presentes na segunda consulta.
 
@@ -223,6 +227,7 @@ Considere quatro servidores avaliados por salário dentro de uma partição: Ana
 ### 4.3 Funções de Deslocamento: LEAD() e LAG()
 
 Permitem acessar dados de linhas vizinhas na mesma partição sem necessidade de efetuar auto-junções (*self-joins*) lentas:
+
 - **`LAG(coluna, N, valor_padrao)`:** Retorna o valor da coluna correspondente a $N$ linhas **anteriores** à linha corrente.
 - **`LEAD(coluna, N, valor_padrao)`:** Retorna o valor da coluna correspondente a $N$ linhas **posteriores** à linha corrente.
 
@@ -233,13 +238,13 @@ Permitem acessar dados de linhas vizinhas na mesma partição sem necessidade de
 ### 5.1 Visões: View Padrão vs. View Materializada (Materialized View)
 
 - **View Padrão (Virtual View):**
-  - Não armazena dados físicos em disco; representa apenas uma consulta SQL gravada no dicionário de dados do SGBD.
-  - A cada execução de um `SELECT` contra a View, o otimizador expande a consulta subjacente e varre as tabelas base em tempo real.
-  - Vantagens: Dados sempre 100% atualizados; atua como camada de segurança e abstração (ocultando colunas confidenciais).
+    - Não armazena dados físicos em disco; representa apenas uma consulta SQL gravada no dicionário de dados do SGBD.
+    - A cada execução de um `SELECT` contra a View, o otimizador expande a consulta subjacente e varre as tabelas base em tempo real.
+    - Vantagens: Dados sempre 100% atualizados; atua como camada de segurança e abstração (ocultando colunas confidenciais).
 - **View Materializada (*Materialized View*):**
-  - O resultado da consulta é **gravado e persistido fisicamente em disco** como uma tabela real.
-  - Proporciona leituras de altíssima velocidade em consultas analíticas pesadas com múltiplos `JOINs` e agregações complexas.
-  - **Trade-off:** Os dados ficam estáticos/defasados até que um comando de atualização explícito seja disparado: `REFRESH MATERIALIZED VIEW nome_da_view;`.
+    - O resultado da consulta é **gravado e persistido fisicamente em disco** como uma tabela real.
+    - Proporciona leituras de altíssima velocidade em consultas analíticas pesadas com múltiplos `JOINs` e agregações complexas.
+    - **Trade-off:** Os dados ficam estáticos/defasados até que um comando de atualização explícito seja disparado: `REFRESH MATERIALIZED VIEW nome_da_view;`.
 
 ### 5.2 Stored Procedures vs. User-Defined Functions (UDF)
 
@@ -256,13 +261,13 @@ Gatilhos (*Triggers*) são blocos de código procedurais executados automaticame
 
 #### Pseudorregistros de Contexto:
 - **`OLD`:** Representa o estado da linha **antes** da modificação.
-  - No `INSERT`: É nulo/indefinido (não existia linha prévia).
-  - No `UPDATE`: Contém os valores originais da linha.
-  - No `DELETE`: Contém os valores da linha que está sendo removida.
+    - No `INSERT`: É nulo/indefinido (não existia linha prévia).
+    - No `UPDATE`: Contém os valores originais da linha.
+    - No `DELETE`: Contém os valores da linha que está sendo removida.
 - **`NEW`:** Representa o estado da linha **após** a modificação proposta.
-  - No `INSERT`: Contém os valores da nova linha a ser inserida.
-  - No `UPDATE`: Contém os novos valores propostos.
-  - No `DELETE`: É nulo/indefinido (a linha deixará de existir).
+    - No `INSERT`: Contém os valores da nova linha a ser inserida.
+    - No `UPDATE`: Contém os novos valores propostos.
+    - No `DELETE`: É nulo/indefinido (a linha deixará de existir).
 
 #### Momentos de Disparo (*Timing*):
 - **`BEFORE`:** Executado antes que a modificação seja persistida no disco. Ideal para **validação de dados**, enriquecimento de campos e integridade de negócio. Permite alterar os valores de `NEW` antes da gravação.
@@ -277,11 +282,12 @@ Gatilhos (*Triggers*) são blocos de código procedurais executados automaticame
 Considere uma tabela denominada `AUDITORIA_FOLHA` que armazena os vencimentos de servidores, com as colunas `Matricula`, `Orgao` e `Salario`. Um analista precisa gerar um relatório onde os servidores sejam classificados em ordem decrescente de salário dentro de cada órgão (`Orgao`), de modo que servidores com salários idênticos recebam a mesma posição no ranking e a numeração da posição subsequente continue consecutiva, sem deixar lacunas ou "pular" números.
 
 A consulta SQL correta que atende exatamente a essa especificação utiliza a função de janela:  
-A) `ROW_NUMBER() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`  
-B) `RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`  
-C) `DENSE_RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`  
-D) `COUNT(Salario) OVER (ORDER BY Orgao DESC)`  
-E) `LEAD(Salario, 1) OVER (PARTITION BY Orgao)`
+
+* **A)** `ROW_NUMBER() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
+* **B)** `RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
+* **C)** `DENSE_RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
+* **D)** `COUNT(Salario) OVER (ORDER BY Orgao DESC)`
+* **E)** `LEAD(Salario, 1) OVER (PARTITION BY Orgao)`
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O `ROW_NUMBER()` gera um sequencial estritamente único para cada linha (1, 2, 3...), desconsiderando empates salariais.
@@ -296,11 +302,12 @@ E) `LEAD(Salario, 1) OVER (PARTITION BY Orgao)`
 
 ### Questão 2 (FCC - Adaptada / TI - Gatilhos / Triggers e Pseudorregistros)
 No que concerne aos gatilhos (*Triggers*) em sistemas de gerenciamento de bancos de dados relacionais padrão ANSI/ISO e SGBDs modernos (como Oracle e PostgreSQL), assinale a afirmativa correta:  
-A) Em um gatilho acionado por uma instrução `INSERT`, tanto o pseudorregistro `OLD` quanto o pseudorregistro `NEW` contêm os mesmos valores da nova linha inserida.  
-B) Gatilhos do tipo `BEFORE FOR EACH ROW` são ideais para validação de integridade ou atribuição prévia de valores calculados aos campos antes da gravação definitiva da linha no disco.  
-C) Um gatilho com nível de disparo por instrução (`FOR EACH STATEMENT`) executa uma vez para cada linha afetada pelo comando DML executado.  
-D) Em um evento de `DELETE`, o pseudorregistro `NEW` armazena os valores da linha que acabou de ser apagada, enquanto o pseudorregistro `OLD` torna-se nulo.  
-E) Gatilhos do tipo `INSTEAD OF` podem ser aplicados exclusivamente sobre tabelas físicas com chave primária simples, sendo proibido o seu uso em visões (*Views*).
+
+* **A)** Em um gatilho acionado por uma instrução `INSERT`, tanto o pseudorregistro `OLD` quanto o pseudorregistro `NEW` contêm os mesmos valores da nova linha inserida.
+* **B)** Gatilhos do tipo `BEFORE FOR EACH ROW` são ideais para validação de integridade ou atribuição prévia de valores calculados aos campos antes da gravação definitiva da linha no disco.
+* **C)** Um gatilho com nível de disparo por instrução (`FOR EACH STATEMENT`) executa uma vez para cada linha afetada pelo comando DML executado.
+* **D)** Em um evento de `DELETE`, o pseudorregistro `NEW` armazena os valores da linha que acabou de ser apagada, enquanto o pseudorregistro `OLD` torna-se nulo.
+* **E)** Gatilhos do tipo `INSTEAD OF` podem ser aplicados exclusivamente sobre tabelas físicas com chave primária simples, sendo proibido o seu uso em visões (*Views*).
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Em um `INSERT`, o pseudorregistro `OLD` é nulo/indefinido, pois não existia linha prévia.
@@ -315,11 +322,12 @@ E) Gatilhos do tipo `INSTEAD OF` podem ser aplicados exclusivamente sobre tabela
 
 ### Questão 3 (FCC - Adaptada / TI - DDL vs. DML: Comandos TRUNCATE e DELETE)
 Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com mais de 50 milhões de registros de log transitório em um ambiente de produção. Ao avaliar o uso do comando `TRUNCATE TABLE` em comparação com `DELETE FROM`, conclui-se corretamente que:  
-A) O comando `TRUNCATE` é classificado como DML e gera o mesmo volume de logs transacionais no disco que o comando `DELETE`.  
-B) O comando `DELETE` desaloca diretamente as extensões de páginas de disco sem registrar cada exclusão de tupla no log de transações.  
-C) O comando `TRUNCATE` dispara todos os gatilhos do tipo `BEFORE DELETE FOR EACH ROW` associados à tabela.  
-D) O comando `TRUNCATE` é uma instrução DDL de execução rápida que desaloca as páginas de dados da tabela, operando com consumo mínimo de log de transação.  
-E) O comando `DELETE` reinicializa compulsoriamente os geradores automáticos de identidade (*sequences / serial*) para o valor inicial estabelecido na criação da tabela.
+
+* **A)** O comando `TRUNCATE` é classificado como DML e gera o mesmo volume de logs transacionais no disco que o comando `DELETE`.
+* **B)** O comando `DELETE` desaloca diretamente as extensões de páginas de disco sem registrar cada exclusão de tupla no log de transações.
+* **C)** O comando `TRUNCATE` dispara todos os gatilhos do tipo `BEFORE DELETE FOR EACH ROW` associados à tabela.
+* **D)** O comando `TRUNCATE` é uma instrução DDL de execução rápida que desaloca as páginas de dados da tabela, operando com consumo mínimo de log de transação.
+* **E)** O comando `DELETE` reinicializa compulsoriamente os geradores automáticos de identidade (*sequences / serial*) para o valor inicial estabelecido na criação da tabela.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O `TRUNCATE` é formalmente uma instrução **DDL** e gera uma quantidade mínima de log em relação ao `DELETE`.
@@ -334,6 +342,7 @@ E) O comando `DELETE` reinicializa compulsoriamente os geradores automáticos de
 
 ### Questão 4 (FCC - Adaptada / TI - Subconsultas e a Lógica de Nulos com NOT IN vs. NOT EXISTS)
 Considere duas tabelas em um banco de dados fazendário:
+
 - `CONTRIBUINTE (id_contribuinte, nome)` com 1.000 registros.
 - `INFRACAO (id_infracao, id_contribuinte, valor)` com 500 registros, sendo que em 5 registros o atributo `id_contribuinte` possui o valor `NULL` (infrações lavradas com autor ainda não identificado).
 
@@ -344,11 +353,12 @@ FROM CONTRIBUINTE
 WHERE id_contribuinte NOT IN (SELECT id_contribuinte FROM INFRACAO);
 ```
 O resultado obtido por essa consulta será:  
-A) Uma relação contendo exatamente os contribuintes sem registros correspondentes na tabela de infração.  
-B) Uma relação com todos os 1.000 contribuintes da tabela original.  
-C) Um conjunto vazio (zero registros retornados), em virtude da presença de valores nulos na subconsulta avaliada pelo operador `NOT IN`.  
-D) Uma mensagem de erro de compilação SQL, visto que o operador `NOT IN` não suporta subconsultas como argumento.  
-E) Uma relação com exatamente 495 registros, correspondente à diferença algébrica simples.
+
+* **A)** Uma relação contendo exatamente os contribuintes sem registros correspondentes na tabela de infração.
+* **B)** Uma relação com todos os 1.000 contribuintes da tabela original.
+* **C)** Um conjunto vazio (zero registros retornados), em virtude da presença de valores nulos na subconsulta avaliada pelo operador `NOT IN`.
+* **D)** Uma mensagem de erro de compilação SQL, visto que o operador `NOT IN` não suporta subconsultas como argumento.
+* **E)** Uma relação com exatamente 495 registros, correspondente à diferença algébrica simples.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O predicado `NOT IN` não retornará essa lista devido ao colapso provocado pelo valor nulo.
@@ -370,11 +380,12 @@ WHERE total_empenhado > 1000000
 GROUP BY secretaria_id;
 ```
 Ao ser submetida ao compilador SQL de um SGBD relacional padrão, a consulta:  
-A) Executará com sucesso, pois o compilador SQL resolve primeiro a cláusula `SELECT` para em seguida processar a restrição no `WHERE`.  
-B) Falhará na compilação, pois a cláusula `WHERE` é processada antes da cláusula `SELECT` e não reconhece aliases de coluna nem admite filtros sobre valores agregados, os quais devem constar na cláusula `HAVING`.  
-C) Executará com sucesso apenas se a tabela `empenhos` possuir um índice agrupado (*clustered*) sobre a coluna `secretaria_id`.  
-D) Falhará na execução porque a cláusula `GROUP BY` exige obrigatoriamente a presença da cláusula `ORDER BY` para que o agrupamento seja válido.  
-E) Executará perfeitamente, desde que o alias `total_empenhado` seja renomeado para corresponder a um tipo `DECIMAL`.
+
+* **A)** Executará com sucesso, pois o compilador SQL resolve primeiro a cláusula `SELECT` para em seguida processar a restrição no `WHERE`.
+* **B)** Falhará na compilação, pois a cláusula `WHERE` é processada antes da cláusula `SELECT` e não reconhece aliases de coluna nem admite filtros sobre valores agregados, os quais devem constar na cláusula `HAVING`.
+* **C)** Executará com sucesso apenas se a tabela `empenhos` possuir um índice agrupado (*clustered*) sobre a coluna `secretaria_id`.
+* **D)** Falhará na execução porque a cláusula `GROUP BY` exige obrigatoriamente a presença da cláusula `ORDER BY` para que o agrupamento seja válido.
+* **E)** Executará perfeitamente, desde que o alias `total_empenhado` seja renomeado para corresponder a um tipo `DECIMAL`.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A cláusula `SELECT` é processada muito após o `WHERE`, de modo que aliases de projeção não existem durante a avaliação do `WHERE`.

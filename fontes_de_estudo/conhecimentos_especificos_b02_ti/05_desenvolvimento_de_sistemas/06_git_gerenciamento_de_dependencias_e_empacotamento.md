@@ -16,23 +16,23 @@
 
 ## 🧭 Sumário
 - [1. Controle de Versão Distribuído com Git](#1-controle-de-versão-distribuído-com-git)
-  - [1.1 Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas](#11-arquitetura-interna-distribuído-vs-centralizado-e-snapshots-vs-deltas)
-  - [1.2 O Modelo de Objetos do Git: Blobs, Trees, Commits e Tags](#12-o-modelo-de-objetos-do-git-blobs-trees-commits-e-tags)
-  - [1.3 As Três Áreas Locais e o Ciclo de Vida dos Arquivos](#13-as-três-áreas-locais-e-o-ciclo-de-vida-dos-arquivos)
-  - [1.4 Comandos Fundamentais de Inspeção, Rastreamento e Histórico](#14-comandos-fundamentais-de-inspeção-rastreamento-e-histórico)
-  - [1.5 Ramificação e Integração: `git merge` vs. `git rebase`](#15-ramificação-e-integração-git-merge-vs-git-rebase)
-  - [1.6 Operações de Recuperação e Desfazer: `reset`, `revert`, `stash` e `cherry-pick`](#16-operações-de-recuperação-e-desfazer-reset-revert-stash-e-cherry-pick)
-  - [1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`](#17-sincronização-e-fluxo-remoto-fetch-pull-e-push)
+    - [1.1 Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas](#11-arquitetura-interna-distribuído-vs-centralizado-e-snapshots-vs-deltas)
+    - [1.2 O Modelo de Objetos do Git: Blobs, Trees, Commits e Tags](#12-o-modelo-de-objetos-do-git-blobs-trees-commits-e-tags)
+    - [1.3 As Três Áreas Locais e o Ciclo de Vida dos Arquivos](#13-as-três-áreas-locais-e-o-ciclo-de-vida-dos-arquivos)
+    - [1.4 Comandos Fundamentais de Inspeção, Rastreamento e Histórico](#14-comandos-fundamentais-de-inspeção-rastreamento-e-histórico)
+    - [1.5 Ramificação e Integração: `git merge` vs. `git rebase`](#15-ramificação-e-integração-git-merge-vs-git-rebase)
+    - [1.6 Operações de Recuperação e Desfazer: `reset`, `revert`, `stash` e `cherry-pick`](#16-operações-de-recuperação-e-desfazer-reset-revert-stash-e-cherry-pick)
+    - [1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`](#17-sincronização-e-fluxo-remoto-fetch-pull-e-push)
 - [2. Gerenciamento de Dependências de Software](#2-gerenciamento-de-dependências-de-software)
-  - [2.1 Grafos de Dependência, Dependências Transitivas e Conflitos](#21-grafos-de-dependência-dependências-transitivas-e-conflitos)
-  - [2.2 Versionamento Semântico (SemVer 2.0.0)](#22-versionamento-semântico-semver-200)
-  - [2.3 Manifestos vs. Arquivos de Trava (Lockfiles) e o Comando `npm ci`](#23-manifestos-vs-arquivos-de-trava-lockfiles-e-o-comando-npm-ci)
-  - [2.4 Ecossistemas de Dependências: Node.js (npm), Python (pip/Poetry) e Java (Maven)](#24-ecossistemas-de-dependências-nodejs-npm-python-pippoetry-e-java-maven)
-  - [2.5 O Ciclo de Vida Padrão do Apache Maven](#25-o-ciclo-de-vida-padrão-do-apache-maven)
+    - [2.1 Grafos de Dependência, Dependências Transitivas e Conflitos](#21-grafos-de-dependência-dependências-transitivas-e-conflitos)
+    - [2.2 Versionamento Semântico (SemVer 2.0.0)](#22-versionamento-semântico-semver-200)
+    - [2.3 Manifestos vs. Arquivos de Trava (Lockfiles) e o Comando `npm ci`](#23-manifestos-vs-arquivos-de-trava-lockfiles-e-o-comando-npm-ci)
+    - [2.4 Ecossistemas de Dependências: Node.js (npm), Python (pip/Poetry) e Java (Maven)](#24-ecossistemas-de-dependências-nodejs-npm-python-pippoetry-e-java-maven)
+    - [2.5 O Ciclo de Vida Padrão do Apache Maven](#25-o-ciclo-de-vida-padrão-do-apache-maven)
 - [3. Empacotamento Web e Publicação de Aplicações](#3-empacotamento-web-e-publicação-de-aplicações)
-  - [3.1 Empacotadores Web Modernos (Webpack, Vite, Rollup e esbuild)](#31-empacotadores-web-modernos-webpack-vite-rollup-e-esbuild)
-  - [3.2 Otimizações de Produção: Tree Shaking, Code Splitting e Minificação](#32-otimizações-de-produção-tree-shaking-code-splitting-e-minificação)
-  - [3.3 Empacotamento de Backend: JAR/WAR, Wheels Python e Repositórios Corporativos](#33-empacotamento-de-backend-jarwar-wheels-python-e-repositórios-corporativos)
+    - [3.1 Empacotadores Web Modernos (Webpack, Vite, Rollup e esbuild)](#31-empacotadores-web-modernos-webpack-vite-rollup-e-esbuild)
+    - [3.2 Otimizações de Produção: Tree Shaking, Code Splitting e Minificação](#32-otimizações-de-produção-tree-shaking-code-splitting-e-minificação)
+    - [3.3 Empacotamento de Backend: JAR/WAR, Wheels Python e Repositórios Corporativos](#33-empacotamento-de-backend-jarwar-wheels-python-e-repositórios-corporativos)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 - [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questões-comentadas--exemplos-padrão-fcc)
 
@@ -65,8 +65,8 @@ flowchart TD
 - **Sistemas Centralizados (SVN / CVS):** Há um único repositório centralizado. Para inspecionar logs de commits antigos, ramificar código ou confirmar alterações, o desenvolvedor precisa de conectividade direta com o servidor. Se o servidor queimar sem backup, todo o histórico é irremediavelmente perdido.
 - **Sistemas Distribuídos (Git):** Cada desenvolvedor que executa um `git clone` recebe uma **cópia integral e idêntica do repositório**, contendo cada branch, cada commit e todos os metadados históricos desde a criação do projeto. Cada máquina opera como um servidor autônomo, viabilizando operações offline instantâneas e tolerância a falhas catastróficas.
 - **Snapshots vs. Deltas:**
-  - Sistemas legados salvam dados como conjuntos de alterações linha a linha baseados em arquivos (**deltas baseados em diferenças**).
-  - O Git não pensa em termos de deltas de arquivos: ele enxerga seus dados como um conjunto de **instantâneos completos (*snapshots*)** da árvore de arquivos no momento exato do commit. Para não desperdiçar espaço em disco, se um arquivo não sofreu nenhuma modificação entre versões, o Git não grava o arquivo novamente: ele apenas insere um ponteiro direto apontando para o snapshot anterior já armazenado.
+    - Sistemas legados salvam dados como conjuntos de alterações linha a linha baseados em arquivos (**deltas baseados em diferenças**).
+    - O Git não pensa em termos de deltas de arquivos: ele enxerga seus dados como um conjunto de **instantâneos completos (*snapshots*)** da árvore de arquivos no momento exato do commit. Para não desperdiçar espaço em disco, se um arquivo não sofreu nenhuma modificação entre versões, o Git não grava o arquivo novamente: ele apenas insere um ponteiro direto apontando para o snapshot anterior já armazenado.
 
 ---
 
@@ -129,8 +129,8 @@ flowchart LR
 - **`git clone <url>`:** Clona um repositório remoto completo com todo o histórico de branches para a máquina local.
 - **`git status`:** Exibe o estado comparativo das três áreas, listando arquivos não rastreados (*untracked*), modificados e preparados (*staged*).
 - **`git diff`:** Exibe diferenças linha a linha:
-  - `git diff`: Diferenças entre o *Working Directory* e a *Staging Area*.
-  - `git diff --staged` (ou `--cached`): Diferenças entre a *Staging Area* e o último commit no *HEAD*.
+    - `git diff`: Diferenças entre o *Working Directory* e a *Staging Area*.
+    - `git diff --staged` (ou `--cached`): Diferenças entre a *Staging Area* e o último commit no *HEAD*.
 - **`git add <arquivo>`:** Adiciona o snapshot do arquivo à Staging Area.
 - **`git commit -m "mensagem"`:** Grava o snapshot da Staging Area permanentemente no repositório local.
 - **`git log`:** Exibe a linha do tempo de commits (`--oneline`, `--graph` para visualizar ramificações).
@@ -186,6 +186,7 @@ Em branches públicas compartilhadas, o `git reset` é proibido. Para desfazer a
 
 #### 3. `git stash` (Armazenamento Temporário de Trabalho Inacabado)
 Permite salvar o estado intermediário do *Working Directory* e da *Staging Area* em uma pilha interna temporária de memória do Git, limpando os arquivos do disco para o estado do último commit:
+
 - `git stash` (ou `git stash push -m "descrição"`): Guarda as alterações pendentes e limpa a pasta de trabalho.
 - `git stash pop`: Restaura as alterações salvas de volta para o diretório de trabalho e remove o registro do topo da pilha.
 - `git stash apply`: Restaura as alterações, mas mantém uma cópia guardada na pilha.
@@ -297,8 +298,8 @@ flowchart LR
 No desenvolvimento front-end moderno, o código-fonte é decomposto em centenas de componentes JSX/TSX, folhas de estilo SASS/CSS e imagens. Navegadores não executam esses formatos diretamente de forma eficiente sem empacotamento.
 - **Module Bundling:** Processo que analisa o grafo de dependências a partir de um arquivo de entrada (*entry point* como `index.tsx`) e consolida todos os recursos em arquivos estáticos otimizados (HTML, JS, CSS) dentro da pasta de produção (geralmente `dist/` ou `build/`).
 - **Ferramentas:**
-  - **Webpack:** O empacotador tradicional mais maduro e configurável do mercado.
-  - **Vite:** Ferramenta moderna de alta velocidade que utiliza o motor **esbuild** (escrito em Go) para pré-empacotamento instantâneo em desenvolvimento e o **Rollup** para gerar o bundle final de produção.
+    - **Webpack:** O empacotador tradicional mais maduro e configurável do mercado.
+    - **Vite:** Ferramenta moderna de alta velocidade que utiliza o motor **esbuild** (escrito em Go) para pré-empacotamento instantâneo em desenvolvimento e o **Rollup** para gerar o bundle final de produção.
 
 ---
 
@@ -356,11 +357,12 @@ Um analista de sistemas do Tribunal de Contas estava desenvolvendo uma nova roti
 Posteriormente, após solucionar a falha e submeter a correção ao repositório remoto público compartilhado com toda a equipe de engenharia, ele constatou que um commit anterior presente na branch pública compartilhada causou um efeito colateral indesejado. Ele precisa anular e desfazer as alterações introduzidas por aquele commit específico sem reescrever ou apagar a linha histórica já sincronizada pelos demais desenvolvedores.
 
 Para atender a esses dois requisitos com segurança e conformidade com as boas práticas do Git, o analista deve executar, respectivamente, os comandos:  
-A) `git stash` para armazenar temporariamente as modificações não consolidadas em uma pilha interna; e `git revert <hash>` para gerar um novo commit que anula exatamente as modificações do commit defeituoso na branch pública.  
-B) `git reset --hard` para limpar o diretório de trabalho; e `git reset --soft <hash>` para remover o commit do histórico compartilhado.  
-C) `git checkout -b hotfix` para ignorar o trabalho não salvo; e `git rebase -i` para expurgar a linha do commit na branch compartilhada.  
-D) `git stash` para guardar as alterações; e `git reset --hard <hash>` acompanhado de `git push --force` para sobrescrever a branch pública.  
-E) `git clean -df` para ocultar o código local; e `git commit --amend` para renomear o commit defeituoso no repositório remoto.  
+
+* **A)** `git stash` para armazenar temporariamente as modificações não consolidadas em uma pilha interna; e `git revert <hash>` para gerar um novo commit que anula exatamente as modificações do commit defeituoso na branch pública.
+* **B)** `git reset --hard` para limpar o diretório de trabalho; e `git reset --soft <hash>` para remover o commit do histórico compartilhado.
+* **C)** `git checkout -b hotfix` para ignorar o trabalho não salvo; e `git rebase -i` para expurgar a linha do commit na branch compartilhada.
+* **D)** `git stash` para guardar as alterações; e `git reset --hard <hash>` acompanhado de `git push --force` para sobrescrever a branch pública.
+* **E)** `git clean -df` para ocultar o código local; e `git commit --amend` para renomear o commit defeituoso no repositório remoto.
 
 > **Comentário Detalhado:**
 > - **A)** **CORRETA.** Análise minuciosa dos dois cenários operacionais:
@@ -379,11 +381,12 @@ E) `git clean -df` para ocultar o código local; e `git commit --amend` para ren
 Considere uma biblioteca de auditoria governamental que adota rigorosamente a especificação de Versionamento Semântico (*Semantic Versioning* - SemVer 2.0.0), encontrando-se atualmente na versão de distribuição `2.4.1`. A equipe de desenvolvimento realizou intervenções de melhoria e disponibilizou novas versões do pacote.
 
 A respeito das regras formais do SemVer e da gestão de dependências com gerenciadores de pacotes modernos, assinale a afirmativa correta:  
-A) Se a equipe corrigir uma falha de segurança interna sem alterar ou descontinuar nenhum método da API pública, a nova versão oficial deve ser rotulada como `3.0.0`.  
-B) Se a equipe adicionar uma nova função de cálculo tributário que preserva total compatibilidade reversa com o código existente dos consumidores, a versão deve ser incrementada para `2.5.0`.  
-C) Em um arquivo de manifesto `package.json`, a declaração `"modulo": "^2.4.1"` instrui o gerenciador `npm` a autorizar estritamente atualizações de correção (*patch*), congelando a versão menor (*minor*).  
-D) O arquivo de manifesto substitui integralmente a necessidade de um arquivo de trava (*lockfile*), pois ambos contêm exatamente as mesmas informações e os mesmos hashes criptográficos de integridade.  
-E) A alteração do número de versão `MAJOR` sinaliza aos consumidores que foram adicionadas apenas correções superficiais de documentação, com garantia total de retrocompatibilidade.  
+
+* **A)** Se a equipe corrigir uma falha de segurança interna sem alterar ou descontinuar nenhum método da API pública, a nova versão oficial deve ser rotulada como `3.0.0`.
+* **B)** Se a equipe adicionar uma nova função de cálculo tributário que preserva total compatibilidade reversa com o código existente dos consumidores, a versão deve ser incrementada para `2.5.0`.
+* **C)** Em um arquivo de manifesto `package.json`, a declaração `"modulo": "^2.4.1"` instrui o gerenciador `npm` a autorizar estritamente atualizações de correção (*patch*), congelando a versão menor (*minor*).
+* **D)** O arquivo de manifesto substitui integralmente a necessidade de um arquivo de trava (*lockfile*), pois ambos contêm exatamente as mesmas informações e os mesmos hashes criptográficos de integridade.
+* **E)** A alteração do número de versão `MAJOR` sinaliza aos consumidores que foram adicionadas apenas correções superficiais de documentação, com garantia total de retrocompatibilidade.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Correções de falhas ou correções de segurança que mantêm total compatibilidade da API devem incrementar unicamente o dígito de **PATCH** (passando para `2.4.2`).
@@ -400,11 +403,12 @@ E) A alteração do número de versão `MAJOR` sinaliza aos consumidores que for
 No modelo operacional do Git, o comando `git reset` permite retroceder a posição do ponteiro `HEAD` para um determinado commit anterior da árvore histórica. Esse comando aceita diferentes parâmetros que determinam o destino das alterações existentes nos arquivos.
 
 Sobre os efeitos dos parâmetros do comando `git reset`, assinale a afirmativa correta:  
-A) O comando `git reset --soft HEAD~1` move o ponteiro HEAD para o commit anterior e descarta permanentemente todas as alterações tanto da Staging Area quanto do Working Directory.  
-B) O comando `git reset --mixed HEAD~1` (modo padrão) move o ponteiro HEAD para o commit anterior, desfaz a preparação dos arquivos na Staging Area, mas preserva todas as modificações no Working Directory como arquivos modificados não rastreados para o próximo commit.  
-C) O comando `git reset --hard HEAD~1` mantém intactas as modificações no Working Directory e apenas remove os arquivos da Staging Area.  
-D) O comando `git reset --hard` é o mecanismo recomendado para branches públicas compartilhadas, pois não afeta o histórico de commits dos demais desenvolvedores.  
-E) A opção `--soft` é a única que apaga os arquivos do sistema de arquivos no disco rígido.  
+
+* **A)** O comando `git reset --soft HEAD~1` move o ponteiro HEAD para o commit anterior e descarta permanentemente todas as alterações tanto da Staging Area quanto do Working Directory.
+* **B)** O comando `git reset --mixed HEAD~1` (modo padrão) move o ponteiro HEAD para o commit anterior, desfaz a preparação dos arquivos na Staging Area, mas preserva todas as modificações no Working Directory como arquivos modificados não rastreados para o próximo commit.
+* **C)** O comando `git reset --hard HEAD~1` mantém intactas as modificações no Working Directory e apenas remove os arquivos da Staging Area.
+* **D)** O comando `git reset --hard` é o mecanismo recomendado para branches públicas compartilhadas, pois não afeta o histórico de commits dos demais desenvolvedores.
+* **E)** A opção `--soft` é a única que apaga os arquivos do sistema de arquivos no disco rígido.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A opção `--soft` não descarta nenhuma alteração; ela preserva todas as mudanças na Staging Area.
@@ -421,11 +425,12 @@ E) A opção `--soft` é a única que apaga os arquivos do sistema de arquivos n
 No contexto do desenvolvimento de aplicações web modernas com ferramentas de empacotamento (*module bundlers* como Webpack, Rollup e Vite), o processo que visa reduzir o volume de dados transferido para os navegadores dos usuários finais recorre a técnicas sofisticadas de otimização de código.
 
 A técnica que consiste na análise estática das instruções `import` e `export` dos módulos ECMAScript (ESM) para identificar e eliminar blocos de código, funções e variáveis exportadas que nunca são efetivamente utilizados no restante da aplicação denomina-se:  
-A) *Code Splitting*  
-B) *Hot Module Replacement (HMR)*  
-C) *Tree Shaking*  
-D) *Continuous Integration (CI)*  
-E) *Source Mapping*  
+
+* **A)** *Code Splitting*
+* **B)** *Hot Module Replacement (HMR)*
+* **C)** *Tree Shaking*
+* **D)** *Continuous Integration (CI)*
+* **E)** *Source Mapping*
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. *Code Splitting* é a técnica de segmentar o bundle em múltiplos arquivos (*chunks*) para carregamento sob demanda (*lazy loading*).
@@ -442,11 +447,12 @@ E) *Source Mapping*
 No ecossistema de desenvolvimento de sistemas em Java gerenciado pela ferramenta Apache Maven, o ciclo de vida de construção (*build lifecycle*) organiza a execução de objetivos (*goals*) em fases pré-definidas. Simultaneamente, em ambientes de esteiras de Integração Contínua (CI/CD), a garantia de builds reprodutíveis e determinísticos tornou-se um requisito mandatório de conformidade e segurança da cadeia de suprimentos.
 
 A respeito do ciclo de vida do Maven e dos mecanismos que garantem builds reproduzíveis em gerenciadores de dependências modernos, assinale a afirmativa correta:  
-A) A fase `package` do Maven precede a fase `compile`, permitindo empacotar o artefato antes da compilação do código Java para acelerar o processo de testes.  
-B) O comando `mvn install` compila o código, roda os testes, gera o pacote e copia o artefato resultante para o repositório local do desenvolvedor (`~/.m2/repository`), disponibilizando-o como dependência para outros projetos na mesma máquina.  
-C) Em projetos Node.js em esteiras de CI/CD, o comando `npm install` deve sempre substituir o comando `npm ci`, pois o `npm install` impede qualquer modificação no arquivo `package-lock.json`.  
-D) As coordenadas de um artefato Maven declaradas no `pom.xml` são definidas unicamente pelo parâmetro `releaseDate`, dispensando a indicação de `groupId` e `artifactId`.  
-E) O arquivo de lockfile (`package-lock.json` ou `poetry.lock`) impede a compilação de código caso o repositório remoto contenha novas versões maiores (*MAJOR*) de bibliotecas de terceiros.  
+
+* **A)** A fase `package` do Maven precede a fase `compile`, permitindo empacotar o artefato antes da compilação do código Java para acelerar o processo de testes.
+* **B)** O comando `mvn install` compila o código, roda os testes, gera o pacote e copia o artefato resultante para o repositório local do desenvolvedor (`~/.m2/repository`), disponibilizando-o como dependência para outros projetos na mesma máquina.
+* **C)** Em projetos Node.js em esteiras de CI/CD, o comando `npm install` deve sempre substituir o comando `npm ci`, pois o `npm install` impede qualquer modificação no arquivo `package-lock.json`.
+* **D)** As coordenadas de um artefato Maven declaradas no `pom.xml` são definidas unicamente pelo parâmetro `releaseDate`, dispensando a indicação de `groupId` e `artifactId`.
+* **E)** O arquivo de lockfile (`package-lock.json` ou `poetry.lock`) impede a compilação de código caso o repositório remoto contenha novas versões maiores (*MAJOR*) de bibliotecas de terceiros.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A fase `compile` precede obrigatoriamente a fase `package`, pois não é possível empacotar classes antes de sua compilação.

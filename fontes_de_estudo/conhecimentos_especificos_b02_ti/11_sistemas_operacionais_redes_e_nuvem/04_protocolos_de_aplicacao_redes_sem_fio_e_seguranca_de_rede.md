@@ -8,9 +8,9 @@
 
 ## 📌 Ementa / Itens do Edital
 - Protocolos da camada de aplicação e transporte:
-  - Evolução da Web: HTTP/1.1, HTTP/2, HTTP/3 e HTTPS
-  - Gerenciamento e transferência: SSH, FTP/SFTP
-  - Correio eletrônico: SMTP, IMAP e POP3
+    - Evolução da Web: HTTP/1.1, HTTP/2, HTTP/3 e HTTPS
+    - Gerenciamento e transferência: SSH, FTP/SFTP
+    - Correio eletrônico: SMTP, IMAP e POP3
 - Tecnologias de interconexão e segurança perimetral: VPN, Balanceamento de Carga, Proxies e Firewalls
 - Noções de redes sem fio (Padrões IEEE 802.11 e segurança Wi-Fi)
 
@@ -19,23 +19,23 @@
 ## 🧭 Sumário
 
 - [1. Evolução dos Protocolos Web: HTTP/1.1, HTTP/2, HTTP/3 e HTTPS](#1-evolução-dos-protocolos-web-http11-http2-http3-e-https)
-  - [1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação](#11-http11-e-o-bloqueio-de-início-de-fila-head-of-line-blocking-na-aplicação)
-  - [1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK](#12-http2-formato-binário-multiplexação-de-streams-e-compressão-hpack)
-  - [1.3 HTTP/3 e o Protocolo QUIC sobre UDP](#13-http3-e-o-protocolo-quic-sobre-udp)
-  - [1.4 HTTPS e TLS 1.3 Integrado](#14-https-e-tls-13-integrado)
+    - [1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação](#11-http11-e-o-bloqueio-de-início-de-fila-head-of-line-blocking-na-aplicação)
+    - [1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK](#12-http2-formato-binário-multiplexação-de-streams-e-compressão-hpack)
+    - [1.3 HTTP/3 e o Protocolo QUIC sobre UDP](#13-http3-e-o-protocolo-quic-sobre-udp)
+    - [1.4 HTTPS e TLS 1.3 Integrado](#14-https-e-tls-13-integrado)
 - [2. Protocolos Utilitários, Transferência de Arquivos e Correio Eletrônico](#2-protocolos-utilitários-transferência-de-arquivos-e-correio-eletrônico)
-  - [2.1 SSH (Secure Shell) e Redirecionamento de Portas](#21-ssh-secure-shell-e-redirecionamento-de-portas)
-  - [2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP](#22-transferência-de-arquivos-ftp-vs-ftps-vs-sftp)
-  - [2.3 Correio Eletrônico: SMTP vs. POP3 vs. IMAP](#23-correio-eletrônico-smtp-vs-pop3-vs-imap)
+    - [2.1 SSH (Secure Shell) e Redirecionamento de Portas](#21-ssh-secure-shell-e-redirecionamento-de-portas)
+    - [2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP](#22-transferência-de-arquivos-ftp-vs-ftps-vs-sftp)
+    - [2.3 Correio Eletrônico: SMTP vs. POP3 vs. IMAP](#23-correio-eletrônico-smtp-vs-pop3-vs-imap)
 - [3. Elementos de Borda e Segurança de Rede: VPN, IPsec, Balanceadores e Proxies](#3-elementos-de-borda-e-segurança-de-rede-vpn-ipsec-balanceadores-e-proxies)
-  - [3.1 Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel](#31-arquitetura-ipsec-cabeçalhos-ah-vs-esp-e-modos-transporte-vs-túnel)
-  - [3.2 Balanceadores de Carga: Camada 4 (L4) vs. Camada 7 (L7)](#32-balanceadores-de-carga-camada-4-l4-vs-camada-7-l7)
-  - [3.3 Servidores Proxy: Forward Proxy vs. Reverse Proxy](#33-servidores-proxy-forward-proxy-vs-reverse-proxy)
+    - [3.1 Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel](#31-arquitetura-ipsec-cabeçalhos-ah-vs-esp-e-modos-transporte-vs-túnel)
+    - [3.2 Balanceadores de Carga: Camada 4 (L4) vs. Camada 7 (L7)](#32-balanceadores-de-carga-camada-4-l4-vs-camada-7-l7)
+    - [3.3 Servidores Proxy: Forward Proxy vs. Reverse Proxy](#33-servidores-proxy-forward-proxy-vs-reverse-proxy)
 - [4. Redes Sem Fio (IEEE 802.11 - Wi-Fi)](#4-redes-sem-fio-ieee-80211---wi-fi)
-  - [4.1 Evolução dos Padrões 802.11 (Wi-Fi 4, Wi-Fi 5 e Wi-Fi 6/6E)](#41-evolução-dos-padrões-80211-wi-fi-4-wi-fi-5-e-wi-fi-66e)
-  - [4.2 Frequências de Operação: 2.4 GHz vs. 5 GHz](#42-frequências-de-operação-24-ghz-vs-5-ghz)
-  - [4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)](#43-mecanismo-de-acesso-ao-meio-csmaca-e-o-problema-do-nó-oculto-rtscts)
-  - [4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)](#44-evolução-da-segurança-sem-fio-wep-wpa-wpa2-e-wpa3-personal-vs-enterprise)
+    - [4.1 Evolução dos Padrões 802.11 (Wi-Fi 4, Wi-Fi 5 e Wi-Fi 6/6E)](#41-evolução-dos-padrões-80211-wi-fi-4-wi-fi-5-e-wi-fi-66e)
+    - [4.2 Frequências de Operação: 2.4 GHz vs. 5 GHz](#42-frequências-de-operação-24-ghz-vs-5-ghz)
+    - [4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)](#43-mecanismo-de-acesso-ao-meio-csmaca-e-o-problema-do-nó-oculto-rtscts)
+    - [4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)](#44-evolução-da-segurança-sem-fio-wep-wpa-wpa2-e-wpa3-personal-vs-enterprise)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 - [6. Questões Comentadas & Exemplos Práticos](#6-questões-comentadas--exemplos-práticos)
 
@@ -48,6 +48,7 @@
 O protocolo **HTTP/1.1** (RFC 2616) estruturou a comunicação na web durante duas décadas. Ele trouxe como avanço o suporte a **conexões persistentes (*Keep-Alive*)**, permitindo que uma mesma conexão TCP fosse reaproveitada para transferir múltiplos recursos sem a necessidade de reabrir o handshake a cada arquivo.
 
 Contudo, o HTTP/1.1 padece de uma limitação arquitetural grave:
+
 - As mensagens trafegam em formato **estritamente textual e sequencial** no modelo requisição-resposta.
 - Se uma página web demanda dezenas de imagens, folhas de estilo CSS e scripts JavaScript, o cliente envia uma requisição e precisa aguardar o servidor responder integralmente antes de enviar a próxima.
 - Esse fenômeno é denominado **Bloqueio de Início de Fila na Aplicação (*Head-of-Line Blocking / HoL Blocking*)**: se a primeira requisição for lenta ou complexa para o backend processar, todos os demais recursos da página ficam bloqueados na fila do navegador. Para mitigar o problema, os navegadores passaram a abrir de 6 a 8 conexões TCP concorrentes com o mesmo domínio, sobrecarregando os servidores.
@@ -65,6 +66,7 @@ Padronizado pela RFC 7540, o **HTTP/2** reformulou a camada de aplicação sem a
 
 #### O Gargalo Restante do HTTP/2: HoL Blocking no Transporte TCP
 Embora o HTTP/2 tenha solucionado o bloqueio de início de fila na aplicação, ele transferiu o problema para a **Camada de Transporte (TCP)**:
+
 - Como todos os streams do site compartilham a mesma e única conexão TCP, se um único pacote TCP for corrompido ou perdido na rede, o mecanismo de confiabilidade do TCP obriga o receptor a paralisar **a entrega de todos os outros streams da conexão** até que o pacote faltante seja retransmitido (*TCP Head-of-Line Blocking*).
 
 ---
@@ -105,6 +107,7 @@ flowchart TD
 ### 1.4 HTTPS e TLS 1.3 Integrado
 
 O **HTTPS** nada mais é do que o tráfego HTTP executado sobre uma camada de segurança de transporte criptográfica:
+
 - **TLS 1.3 (RFC 8446):** Padrão moderno obrigatório que aboliu cifras antigas fracas ou suscetíveis a ataques (eliminou suporte a RC4, 3DES, CBC, MD5 e trocas estáticas de chave RSA).
 - **Forward Secrecy Mandatório:** O TLS 1.3 exige o uso de algoritmos de troca de chave efêmera (como ECDHE), garantindo que, mesmo que a chave privada do servidor web seja roubada no futuro, o tráfego gravado no passado não poderá ser decifrado.
 - No HTTP/3, o **TLS 1.3 é embutido nativamente no QUIC**, não existindo HTTP/3 em texto claro na especificação padrão.
@@ -116,11 +119,12 @@ O **HTTPS** nada mais é do que o tráfego HTTP executado sobre uma camada de se
 ### 2.1 SSH (Secure Shell) e Redirecionamento de Portas
 
 O protocolo **SSH** opera na **porta TCP 22** e provê comunicação criptografada segura para administração remota de servidores, transferência de arquivos e execução remota de comandos, substituindo protocolos inseguros legados (Telnet, rlogin):
+
 - **Autenticação:** Baseada em senhas ou pares de chaves criptográficas assimétricas (RSA, Ed25519), onde a chave pública fica registrada no arquivo `~/.ssh/authorized_keys` do servidor remoto e a chave privada permanece protegida sob custódia do usuário.
 - **Túneis e Redirecionamento de Portas (*Port Forwarding*):**
-  - *Local Port Forwarding (`ssh -L local_port:target_host:target_port user@server`):* Encaminha o tráfego de uma porta local da estação do administrador através do túnel criptografado SSH para um serviço interno na rede remota (ex.: acessar uma base de dados inacessível pela Internet).
-  - *Remote Port Forwarding (`ssh -R remote_port:target_host:target_port user@server`):* Encaminha tráfego recebido em uma porta do servidor remoto de volta para um serviço rodando na máquina local do administrador.
-  - *Dynamic Port Forwarding (`ssh -D local_port user@server`):* Transforma a sessão SSH em um servidor proxy local do tipo SOCKS4/SOCKS5.
+    - *Local Port Forwarding (`ssh -L local_port:target_host:target_port user@server`):* Encaminha o tráfego de uma porta local da estação do administrador através do túnel criptografado SSH para um serviço interno na rede remota (ex.: acessar uma base de dados inacessível pela Internet).
+    - *Remote Port Forwarding (`ssh -R remote_port:target_host:target_port user@server`):* Encaminha tráfego recebido em uma porta do servidor remoto de volta para um serviço rodando na máquina local do administrador.
+    - *Dynamic Port Forwarding (`ssh -D local_port user@server`):* Transforma a sessão SSH em um servidor proxy local do tipo SOCKS4/SOCKS5.
 
 ---
 
@@ -147,14 +151,14 @@ flowchart LR
 
 #### Protocolos em Detalhes:
 1. **SMTP (*Simple Mail Transfer Protocol* - Portas TCP 25 e TCP 587):**
-   - É um protocolo do tipo **Push (Envio)**.
-   - Utilizado pelo cliente para submeter e-mails ao seu servidor (porta 587 com autenticação e STARTTLS) e utilizado para retransmitir e-mails entre servidores de correio na Internet (porta 25).
+    - É um protocolo do tipo **Push (Envio)**.
+    - Utilizado pelo cliente para submeter e-mails ao seu servidor (porta 587 com autenticação e STARTTLS) e utilizado para retransmitir e-mails entre servidores de correio na Internet (porta 25).
 2. **POP3 (*Post Office Protocol v3* - Portas TCP 110 e TCP 995 com SSL):**
-   - É um protocolo do tipo **Pull (Recuperação)**.
-   - Baixa as mensagens do servidor para a máquina local do usuário e, por padrão histórico, **remove as mensagens da caixa postal do servidor**. Não suporta criação nem sincronização de pastas remotas.
+    - É um protocolo do tipo **Pull (Recuperação)**.
+    - Baixa as mensagens do servidor para a máquina local do usuário e, por padrão histórico, **remove as mensagens da caixa postal do servidor**. Não suporta criação nem sincronização de pastas remotas.
 3. **IMAP (*Internet Message Access Protocol* - Portas TCP 143 e TCP 993 com SSL):**
-   - É um protocolo do tipo **Pull (Acesso e Sincronização)**.
-   - Mantém as mensagens, pastas customizadas, marcações de lido/não-lido e rascunhos **armazenados permanentemente no servidor central**. Permite que o usuário consulte sua caixa de correio através de múltiplos dispositivos (smartphone, webmail, notebook) com sincronização em tempo real.
+    - É um protocolo do tipo **Pull (Acesso e Sincronização)**.
+    - Mantém as mensagens, pastas customizadas, marcações de lido/não-lido e rascunhos **armazenados permanentemente no servidor central**. Permite que o usuário consulte sua caixa de correio através de múltiplos dispositivos (smartphone, webmail, notebook) com sincronização em tempo real.
 
 ---
 
@@ -190,12 +194,12 @@ flowchart TD
 Os Balanceadores de Carga (*Load Balancers*) distribuem o fluxo de requisições entre múltiplos servidores de backend para garantir escalabilidade horizontal e alta disponibilidade:
 
 - **Balanceador de Camada 4 (L4 - Transporte):**
-  - Toma decisões de chaveamento baseando-se unicamente em informações das camadas de rede e transporte: **Endereço IP de origem/destino e Portas TCP/UDP**.
-  - Não examina o conteúdo da aplicação. Apresenta rendimento extraordinário, baixa latência e consome poucos recursos computacionais.
+    - Toma decisões de chaveamento baseando-se unicamente em informações das camadas de rede e transporte: **Endereço IP de origem/destino e Portas TCP/UDP**.
+    - Não examina o conteúdo da aplicação. Apresenta rendimento extraordinário, baixa latência e consome poucos recursos computacionais.
 - **Balanceador de Camada 7 (L7 - Aplicação):**
-  - Compreende a semântica dos protocolos de aplicação (HTTP/HTTPS, gRPC).
-  - Pode inspecionar URLs, caminhos de requisição (`/api` vs. `/imagens`), cabeçalhos HTTP, métodos REST e cookies de sessão.
-  - Suporta roteamento contextual baseado em conteúdo, persistência de sessão (*Sticky Sessions* via cookies) e descarregamento de processamento criptográfico (**SSL Termination / Offloading**).
+    - Compreende a semântica dos protocolos de aplicação (HTTP/HTTPS, gRPC).
+    - Pode inspecionar URLs, caminhos de requisição (`/api` vs. `/imagens`), cabeçalhos HTTP, métodos REST e cookies de sessão.
+    - Suporta roteamento contextual baseado em conteúdo, persistência de sessão (*Sticky Sessions* via cookies) e descarregamento de processamento criptográfico (**SSL Termination / Offloading**).
 
 ---
 
@@ -221,11 +225,11 @@ Os Balanceadores de Carga (*Load Balancers*) distribuem o fluxo de requisições
 ### 4.2 Frequências de Operação: 2.4 GHz vs. 5 GHz
 
 - **Faixa de 2.4 GHz:**
-  - *Vantagem:* Maior comprimento de onda, proporcionando **maior alcance físico** de cobertura e melhor penetração através de paredes e obstáculos sólidos.
-  - *Desvantagem:* Menor largura de banda total e **altíssima interferência** (disputa espaço com Bluetooth, fornos micro-ondas e telefones sem fio). Possui apenas **3 canais não sobrepostos** na regulamentação padrão (canais 1, 6 e 11).
+    - *Vantagem:* Maior comprimento de onda, proporcionando **maior alcance físico** de cobertura e melhor penetração através de paredes e obstáculos sólidos.
+    - *Desvantagem:* Menor largura de banda total e **altíssima interferência** (disputa espaço com Bluetooth, fornos micro-ondas e telefones sem fio). Possui apenas **3 canais não sobrepostos** na regulamentação padrão (canais 1, 6 e 11).
 - **Faixa de 5 GHz:**
-  - *Vantagem:* Menor índice de interferência, dezenas de canais não sobrepostos e capacidade para canais largos (80/160 MHz), oferecendo **altíssima vazão de dados**.
-  - *Desvantagem:* Menor alcance de cobertura de sinal e maior atenuação ao atravessar obstáculos físicos.
+    - *Vantagem:* Menor índice de interferência, dezenas de canais não sobrepostos e capacidade para canais largos (80/160 MHz), oferecendo **altíssima vazão de dados**.
+    - *Desvantagem:* Menor alcance de cobertura de sinal e maior atenuação ao atravessar obstáculos físicos.
 
 ---
 
@@ -252,6 +256,7 @@ sequenceDiagram
 Ocorre quando duas estações distantes (Estação A e Estação B) estão ambas dentro do raio de alcance do mesmo Ponto de Acesso (AP), mas encontram-se fora do alcance de escuta de rádio uma da outra. Se ambas escutarem o canal e acharem que ele está livre, transmitirão simultaneamente para o AP, provocando colisão destrutiva.
 
 O problema é neutralizado pelo mecanismo opcional de reserva via quadros de controle **RTS/CTS**:
+
 1. A Estação A transmite um quadro **RTS (*Request to Send*)** ao AP solicitando tempo de reserva;
 2. O AP responde com um quadro **CTS (*Clear to Send*)** em broadcast;
 3. A Estação B escuta o CTS emitido pelo AP e suspende suas transmissões (ajustando seu temporizador NAV - *Network Allocation Vector*), permitindo que a Estação A envie seus dados sem risco de colisão.
@@ -270,9 +275,9 @@ O problema é neutralizado pelo mecanismo opcional de reserva via quadros de con
 #### Modos de Operação: Personal vs. Enterprise
 - **Modo Personal (WPA-PSK):** Emprega uma **chave pré-compartilhada única (*Pre-Shared Key*)** configurada no ponto de acesso e digitada por todos os usuários da rede. Típico de ambientes residenciais ou pequenas empresas.
 - **Modo Enterprise (WPA-Enterprise):** Não utiliza senha compartilhada única. Implementa a arquitetura de autenticação centralizada e individualizada baseada no padrão **IEEE 802.1X**:
-  - Cada colaborador autentica-se com seu próprio login e senha do Active Directory ou com um certificado digital pessoal;
-  - A comunicação é intermediada pelo ponto de acesso e validada por um servidor de autenticação corporativo baseado no protocolo **RADIUS** (*Remote Authentication Dial-In User Service*);
-  - Uma chave criptográfica de sessão exclusiva é gerada dinamicamente para cada dispositivo individualmente.
+    - Cada colaborador autentica-se com seu próprio login e senha do Active Directory ou com um certificado digital pessoal;
+    - A comunicação é intermediada pelo ponto de acesso e validada por um servidor de autenticação corporativo baseado no protocolo **RADIUS** (*Remote Authentication Dial-In User Service*);
+    - Uma chave criptográfica de sessão exclusiva é gerada dinamicamente para cada dispositivo individualmente.
 
 ---
 
@@ -293,11 +298,11 @@ Considere a evolução dos protocolos da arquitetura World Wide Web, em especial
 
 Sobre as características fundamentais desses protocolos, assinale a afirmativa correta:
 
-A) O HTTP/2 resolveu integralmente o problema de bloqueio de início de fila (*head-of-line blocking*) em conexões suscetíveis a perdas de pacotes, pois aboliu o protocolo TCP e adotou datagramas UDP em conexões paralelas.  
-B) O HTTP/3 adota o protocolo de transporte QUIC operando primariamente sobre datagramas UDP, o que possibilita múltiplos fluxos multiplexados verdadeiramente independentes, nos quais a perda de um pacote individual em um fluxo não bloqueia o processamento dos demais fluxos da conexão.  
-C) O HTTP/1.1 introduziu o mecanismo de multiplexação binária através de uma única conexão TCP, dispensando conexões concorrentes para o download de folhas de estilo e imagens.  
-D) O protocolo QUIC do HTTP/3 opera em texto plano sem segurança criptográfica nativa, exigindo a instalação manual e facultativa de certificados SSL externos para cifrar dados sensíveis.  
-E) Os protocolos HTTP/2 e HTTP/3 mantiveram a estrutura de mensagens baseada em formato estritamente textual legível por humanos em seus cabeçalhos e fluxos, para simplificar a auditoria direta por analisadores de pacotes.  
+* **A)** O HTTP/2 resolveu integralmente o problema de bloqueio de início de fila (*head-of-line blocking*) em conexões suscetíveis a perdas de pacotes, pois aboliu o protocolo TCP e adotou datagramas UDP em conexões paralelas.
+* **B)** O HTTP/3 adota o protocolo de transporte QUIC operando primariamente sobre datagramas UDP, o que possibilita múltiplos fluxos multiplexados verdadeiramente independentes, nos quais a perda de um pacote individual em um fluxo não bloqueia o processamento dos demais fluxos da conexão.
+* **C)** O HTTP/1.1 introduziu o mecanismo de multiplexação binária através de uma única conexão TCP, dispensando conexões concorrentes para o download de folhas de estilo e imagens.
+* **D)** O protocolo QUIC do HTTP/3 opera em texto plano sem segurança criptográfica nativa, exigindo a instalação manual e facultativa de certificados SSL externos para cifrar dados sensíveis.
+* **E)** Os protocolos HTTP/2 e HTTP/3 mantiveram a estrutura de mensagens baseada em formato estritamente textual legível por humanos em seus cabeçalhos e fluxos, para simplificar a auditoria direta por analisadores de pacotes.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O HTTP/2 opera sobre o protocolo de transporte TCP, mantendo o problema do bloqueio de início de fila (*Head-of-Line Blocking*) na camada de transporte caso ocorra perda de pacotes.
@@ -315,11 +320,11 @@ Uma entidade governamental necessita interligar a rede local de seu data center 
 
 Para atender plenamente aos requisitos de interconexão VPN *Site-to-Site*, o analista deve configurar a arquitetura IPsec utilizando:
 
-A) O protocolo AH (*Authentication Header*) em Modo Transporte.  
-B) O protocolo ESP (*Encapsulating Security Payload*) em Modo Transporte.  
-C) O protocolo ESP (*Encapsulating Security Payload*) em Modo Túnel.  
-D) O protocolo AH (*Authentication Header*) em Modo Túnel.  
-E) O protocolo TLS em Modo Enlace com portas abertas.  
+* **A)** O protocolo AH (*Authentication Header*) em Modo Transporte.
+* **B)** O protocolo ESP (*Encapsulating Security Payload*) em Modo Transporte.
+* **C)** O protocolo ESP (*Encapsulating Security Payload*) em Modo Túnel.
+* **D)** O protocolo AH (*Authentication Header*) em Modo Túnel.
+* **E)** O protocolo TLS em Modo Enlace com portas abertas.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O protocolo AH não fornece sigilo (criptografia de dados) e o Modo Transporte preserva o cabeçalho IP original visível na rede pública.
@@ -335,11 +340,11 @@ E) O protocolo TLS em Modo Enlace com portas abertas.
 ### Questão 3 (FCC - Adaptada / Analista de Infraestrutura de Redes de Comunicação)
 No que tange às redes sem fio fundamentadas no padrão IEEE 802.11 (Wi-Fi) e aos seus mecanismos de controle de acesso ao meio físico e topologia, é correto afirmar:
 
-A) As redes Wi-Fi implementam o protocolo de acesso ao meio CSMA/CD, o qual baseia-se na detecção ativa e instantânea de colisões elétricas na antena transmissora para interromper transmissões conflitantes.  
-B) O mecanismo de prevenção de colisões CSMA/CA com suporte aos quadros de controle RTS (*Request to Send*) e CTS (*Clear to Send*) visa contornar especificamente o problema do nó oculto (*hidden node problem*), em que duas estações não se detectam mutuamente mas tentam transmitir simultaneamente para o mesmo ponto de acesso.  
-C) A faixa de frequência de 2.4 GHz oferece taxas de transmissão teóricas substancialmente superiores à faixa de 5 GHz, além de disponibilizar uma quantidade três vezes maior de canais não sobrepostos.  
-D) O protocolo WEP é o algoritmo atualmente recomendado pelas normas internacionais para redes governamentais de alta segurança, pois utiliza a cifra de bloco AES com chaves simétricas de 256 bits.  
-E) No padrão IEEE 802.11ax (Wi-Fi 6), a tecnologia CSMA/CA foi totalmente substituída pelo protocolo de chaveamento de circuitos estáticos Token Ring.  
+* **A)** As redes Wi-Fi implementam o protocolo de acesso ao meio CSMA/CD, o qual baseia-se na detecção ativa e instantânea de colisões elétricas na antena transmissora para interromper transmissões conflitantes.
+* **B)** O mecanismo de prevenção de colisões CSMA/CA com suporte aos quadros de controle RTS (*Request to Send*) e CTS (*Clear to Send*) visa contornar especificamente o problema do nó oculto (*hidden node problem*), em que duas estações não se detectam mutuamente mas tentam transmitir simultaneamente para o mesmo ponto de acesso.
+* **C)** A faixa de frequência de 2.4 GHz oferece taxas de transmissão teóricas substancialmente superiores à faixa de 5 GHz, além de disponibilizar uma quantidade três vezes maior de canais não sobrepostos.
+* **D)** O protocolo WEP é o algoritmo atualmente recomendado pelas normas internacionais para redes governamentais de alta segurança, pois utiliza a cifra de bloco AES com chaves simétricas de 256 bits.
+* **E)** No padrão IEEE 802.11ax (Wi-Fi 6), a tecnologia CSMA/CA foi totalmente substituída pelo protocolo de chaveamento de circuitos estáticos Token Ring.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Redes sem fio utilizam CSMA/CA (prevenção de colisões), e não CSMA/CD (detecção), pois não conseguem escutar o meio de forma confiável enquanto suas antenas transmitem sinal.
@@ -355,11 +360,11 @@ E) No padrão IEEE 802.11ax (Wi-Fi 6), a tecnologia CSMA/CA foi totalmente subst
 ### Questão 4 (FCC - Adaptada / Analista de Sistemas - Suporte a Serviços de Rede)
 A respeito dos protocolos da camada de aplicação e seus papéis no ecossistema de infraestrutura de TI, assinale a afirmação correta:
 
-A) O protocolo POP3 opera na porta TCP 110 e caracteriza-se por manter cópias sincronizadas das pastas e mensagens permanentemente no servidor, refletindo instantaneamente as alterações feitas em múltiplos clientes de correio.  
-B) O protocolo SMTP (Simple Mail Transfer Protocol) é classificado tecnicamente como um protocolo do tipo *pull*, utilizado primariamente para a recuperação e leitura de mensagens armazenadas nas caixas de correio dos usuários finais.  
-C) O protocolo SFTP (*SSH File Transfer Protocol*) baseia-se na execução paralela do protocolo FTP tradicional com redirecionamento de portas, exigindo a abertura obrigatória das portas TCP 20 e 21 nos firewalls perimetrais.  
-D) O protocolo IMAP opera permitindo a sincronização bidirecional entre o cliente e o servidor de mensagens, mantendo a estrutura de diretórios e o estado das mensagens centralizados no servidor de correio eletrônico.  
-E) O protocolo SSH opera por padrão na porta UDP 22, não provendo recursos de confidencialidade e limitando-se a registrar sessões de auditoria em arquivos de log do sistema operacional.  
+* **A)** O protocolo POP3 opera na porta TCP 110 e caracteriza-se por manter cópias sincronizadas das pastas e mensagens permanentemente no servidor, refletindo instantaneamente as alterações feitas em múltiplos clientes de correio.
+* **B)** O protocolo SMTP (Simple Mail Transfer Protocol) é classificado tecnicamente como um protocolo do tipo *pull*, utilizado primariamente para a recuperação e leitura de mensagens armazenadas nas caixas de correio dos usuários finais.
+* **C)** O protocolo SFTP (*SSH File Transfer Protocol*) baseia-se na execução paralela do protocolo FTP tradicional com redirecionamento de portas, exigindo a abertura obrigatória das portas TCP 20 e 21 nos firewalls perimetrais.
+* **D)** O protocolo IMAP opera permitindo a sincronização bidirecional entre o cliente e o servidor de mensagens, mantendo a estrutura de diretórios e o estado das mensagens centralizados no servidor de correio eletrônico.
+* **E)** O protocolo SSH opera por padrão na porta UDP 22, não provendo recursos de confidencialidade e limitando-se a registrar sessões de auditoria em arquivos de log do sistema operacional.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A sincronização permanente e bidirecional de mensagens e pastas no servidor é a característica definidora do protocolo **IMAP**, enquanto o POP3 baixa os e-mails e convencionalmente os apaga do servidor.
@@ -377,11 +382,11 @@ Em uma organização pública que implementou uma infraestrutura de rede corpora
 
 Em comparação com implementações domésticas baseadas em WPA2-Personal (PSK), a referida arquitetura governamental caracteriza-se por:
 
-A) Utilizar uma única chave criptográfica estática pré-compartilhada gravada nas estações de trabalho de todos os servidores do órgão, a qual nunca pode ser alterada.  
-B) Eliminar a camada de criptografia dos dados em trânsito no ar, restringindo a proteção unicamente à filtragem por endereço físico MAC cadastrado na tabela ARP do roteador.  
-C) Implementar autenticação centralizada e individualizada baseada no padrão IEEE 802.1X, utilizando um servidor corporativo de controle de acesso fundamentado no protocolo RADIUS integrado a um repositório de identidades.  
-D) Utilizar a cifra obsoleta RC4 com vetores de inicialização estendidos de 128 bits para manter compatibilidade reversa com o padrão WEP.  
-E) Prescindir do uso de certificados digitais ou credenciais individuais, concedendo acesso livre e irrestrito através de um portal cativo (*captive portal*) não autenticado.  
+* **A)** Utilizar uma única chave criptográfica estática pré-compartilhada gravada nas estações de trabalho de todos os servidores do órgão, a qual nunca pode ser alterada.
+* **B)** Eliminar a camada de criptografia dos dados em trânsito no ar, restringindo a proteção unicamente à filtragem por endereço físico MAC cadastrado na tabela ARP do roteador.
+* **C)** Implementar autenticação centralizada e individualizada baseada no padrão IEEE 802.1X, utilizando um servidor corporativo de controle de acesso fundamentado no protocolo RADIUS integrado a um repositório de identidades.
+* **D)** Utilizar a cifra obsoleta RC4 com vetores de inicialização estendidos de 128 bits para manter compatibilidade reversa com o padrão WEP.
+* **E)** Prescindir do uso de certificados digitais ou credenciais individuais, concedendo acesso livre e irrestrito através de um portal cativo (*captive portal*) não autenticado.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O uso de uma chave pré-compartilhada estática única é a definição do modo Personal (PSK), e não do modo Enterprise.

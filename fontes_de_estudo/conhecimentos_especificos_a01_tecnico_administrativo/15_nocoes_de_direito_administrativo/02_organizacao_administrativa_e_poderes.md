@@ -22,29 +22,29 @@
 ## 🧭 Sumário
 
 - [1. Organização Administrativa: Técnicas de Estruturação Estatal](#1-organização-administrativa-técnicas-de-estruturação-estatal)
-  - [1.1 Centralização e Descentralização](#11-centralização-e-descentralização)
-  - [1.2 Desconcentração e a Criação de Órgãos Públicos](#12-desconcentração-e-a-criação-de-órgãos-públicos)
-  - [1.3 Quadro Distintivo: Descentralização vs. Desconcentração](#13-quadro-distintivo-descentralização-vs-desconcentração)
+    - [1.1 Centralização e Descentralização](#11-centralização-e-descentralização)
+    - [1.2 Desconcentração e a Criação de Órgãos Públicos](#12-desconcentração-e-a-criação-de-órgãos-públicos)
+    - [1.3 Quadro Distintivo: Descentralização vs. Desconcentração](#13-quadro-distintivo-descentralização-vs-desconcentração)
 - [2. Entidades da Administração Indireta](#2-entidades-da-administração-indireta)
-  - [2.1 Autarquias e Autarquias de Regime Especial](#21-autarquias-e-autarquias-de-regime-especial)
-  - [2.2 Fundações Públicas (Direito Público vs. Direito Privado)](#22-fundações-públicas-direito-público-vs-direito-privado)
-  - [2.3 Empresas Públicas e Sociedades de Economia Mista](#23-empresas-públicas-e-sociedades-de-economia-mista)
-  - [2.4 O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)](#24-o-estatuto-jurídico-das-estatais-lei-nº-133032016)
-  - [2.5 Controle Finalístico, Tutela e Supervisão Ministerial](#25-controle-finalístico-tutela-e-supervisão-ministerial)
+    - [2.1 Autarquias e Autarquias de Regime Especial](#21-autarquias-e-autarquias-de-regime-especial)
+    - [2.2 Fundações Públicas (Direito Público vs. Direito Privado)](#22-fundações-públicas-direito-público-vs-direito-privado)
+    - [2.3 Empresas Públicas e Sociedades de Economia Mista](#23-empresas-públicas-e-sociedades-de-economia-mista)
+    - [2.4 O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)](#24-o-estatuto-jurídico-das-estatais-lei-nº-133032016)
+    - [2.5 Controle Finalístico, Tutela e Supervisão Ministerial](#25-controle-finalístico-tutela-e-supervisão-ministerial)
 - [3. O Terceiro Setor e Entidades Paraestatais](#3-o-terceiro-setor-e-entidades-paraestatais)
-  - [3.1 Serviços Sociais Autônomos (Sistema S)](#31-serviços-sociais-autônomos-sistema-s)
-  - [3.2 Organizações Sociais (OS) e Contratos de Gestão](#32-organizações-sociais-os-e-contratos-de-gestão)
-  - [3.3 OSCIPs e Termos de Parceria](#33-oscips-e-termos-de-parceria)
+    - [3.1 Serviços Sociais Autônomos (Sistema S)](#31-serviços-sociais-autônomos-sistema-s)
+    - [3.2 Organizações Sociais (OS) e Contratos de Gestão](#32-organizações-sociais-os-e-contratos-de-gestão)
+    - [3.3 OSCIPs e Termos de Parceria](#33-oscips-e-termos-de-parceria)
 - [4. Poderes Administrativos e Prerrogativas Públicas](#4-poderes-administrativos-e-prerrogativas-públicas)
-  - [4.1 Poder Vinculado vs. Poder Discricionário e o Mérito Administrativo](#41-poder-vinculado-vs-poder-discricionário-e-o-mérito-administrativo)
-  - [4.2 Poder Hierárquico: Delegação, Avocação e a Regra do CENORA](#42-poder-hierárquico-delegação-avocação-e-a-regra-do-cenora)
-  - [4.3 Poder Disciplinar e Sanções Funcionais](#43-poder-disciplinar-e-sanções-funcionais)
-  - [4.4 Poder Regulamentar / Normativo e os Decretos Autônomos](#44-poder-regulamentar--normativo-e-os-decretos-autônomos)
-  - [4.5 Poder de Polícia, Ciclo de Polícia e Delegação (Tema 532/STF)](#45-poder-de-polícia-ciclo-de-polícia-e-delegação-tema-532stf)
+    - [4.1 Poder Vinculado vs. Poder Discricionário e o Mérito Administrativo](#41-poder-vinculado-vs-poder-discricionário-e-o-mérito-administrativo)
+    - [4.2 Poder Hierárquico: Delegação, Avocação e a Regra do CENORA](#42-poder-hierárquico-delegação-avocação-e-a-regra-do-cenora)
+    - [4.3 Poder Disciplinar e Sanções Funcionais](#43-poder-disciplinar-e-sanções-funcionais)
+    - [4.4 Poder Regulamentar / Normativo e os Decretos Autônomos](#44-poder-regulamentar--normativo-e-os-decretos-autônomos)
+    - [4.5 Poder de Polícia, Ciclo de Polícia e Delegação (Tema 532/STF)](#45-poder-de-polícia-ciclo-de-polícia-e-delegação-tema-532stf)
 - [5. Uso e Abuso de Poder e a Lei nº 13.869/2019](#5-uso-e-abuso-de-poder-e-a-lei-nº-138692019)
-  - [5.1 Excesso de Poder vs. Desvio de Finalidade](#51-excesso-de-poder-vs-desvio-de-finalidade)
-  - [5.2 Elemento Subjetivo Especial e Proibição do Crime de Hermenêutica](#52-elemento-subjetivo-especial-e-proibição-do-crime-de-hermenêutica)
-  - [5.3 Sujeitos Ativos no Âmbito dos Tribunais de Contas](#53-sujeitos-ativos-no-âmbito-dos-tribunais-de-contas)
+    - [5.1 Excesso de Poder vs. Desvio de Finalidade](#51-excesso-de-poder-vs-desvio-de-finalidade)
+    - [5.2 Elemento Subjetivo Especial e Proibição do Crime de Hermenêutica](#52-elemento-subjetivo-especial-e-proibição-do-crime-de-hermenêutica)
+    - [5.3 Sujeitos Ativos no Âmbito dos Tribunais de Contas](#53-sujeitos-ativos-no-âmbito-dos-tribunais-de-contas)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 - [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questões-comentadas--exemplos-padrão-fcc)
 
@@ -74,9 +74,9 @@ flowchart TD
 
 - **Centralização:** Ocorre quando o Estado executa suas tarefas administrativas **diretamente**, por meio dos órgãos e agentes integrantes da própria pessoa jurídica política matriz (União, Estados, DF e Municípios — Administração Direta).
 - **Descentralização:** Ocorre quando o Estado transfere a execução ou a titularidade e execução de determinada atividade administrativa para **outra pessoa jurídica distinta**, dotada de personalidade própria.
-  - **Descentralização por Serviços, Outorga ou Funcional:** O poder público transfere a **titularidade e a execução** do serviço mediante **lei formal** para entidades da Administração Pública Indireta (Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista). Possui caráter de estabilidade institucional duradoura.
-  - **Descentralização por Colaboração ou Delegação:** O poder público transfere apenas a **execução material** do serviço para particulares (concessionárias e permissionárias de serviços públicos) mediante **contrato administrativo de concessão** ou **ato unilateral de permissão**. A titularidade permanece nas mãos do poder concedente.
-  - **Descentralização Territorial ou Geográfica:** Ocorre na criação de Territórios Federais (entidades autárquicas geográficas com capacidade genérica de gestão local).
+    - **Descentralização por Serviços, Outorga ou Funcional:** O poder público transfere a **titularidade e a execução** do serviço mediante **lei formal** para entidades da Administração Pública Indireta (Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista). Possui caráter de estabilidade institucional duradoura.
+    - **Descentralização por Colaboração ou Delegação:** O poder público transfere apenas a **execução material** do serviço para particulares (concessionárias e permissionárias de serviços públicos) mediante **contrato administrativo de concessão** ou **ato unilateral de permissão**. A titularidade permanece nas mãos do poder concedente.
+    - **Descentralização Territorial ou Geográfica:** Ocorre na criação de Territórios Federais (entidades autárquicas geográficas com capacidade genérica de gestão local).
 
 ### 1.2 Desconcentração e a Criação de Órgãos Públicos
 
@@ -119,6 +119,7 @@ flowchart LR
 ### 2.2 Fundações Públicas (Direito Público vs. Direito Privado)
 
 Entidades com patrimônio personalizado voltadas a finalidades sociais, de saúde, educação, cultura ou pesquisa (sem fins lucrativos):
+
 - **Fundação Pública de Direito Público (Fundação Autárquica / Autarquia Fundacional):** Criada diretamente por lei específica. Equipara-se material e formalmente a uma autarquia em direitos, deveres, prerrogativas e imunidades.
 - **Fundação Pública de Direito Privado:** Tem sua criação **autorizada por lei específica**, nascendo juridicamente com a inscrição de seus atos constitutivos no Cartório de Registro Civil das Pessoas Jurídicas. O art. 37, XIX, da CF exige a edição de **lei complementar para definir as áreas de sua atuação**.
 
@@ -138,12 +139,14 @@ São as empresas estatais, pessoas jurídicas de direito privado instituídas pa
 ### 2.4 O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)
 
 A Lei Federal nº 13.303/2016 instituiu o estatuto jurídico unificado de governança e contratações para todas as empresas públicas e sociedades de economia mista da União, Estados, DF e Municípios:
+
 - **Governança Corporativa e Conformidade:** Exigência de comitês estatutários de auditoria e risco, regras de integridade e requisitos rigorosos de idoneidade técnica e experiência profissional para a indicação de membros do Conselho de Administração e Diretorias Executivas (vedação a ocupantes de cargos políticos e sindicais partidários).
 - **Regime Próprio de Licitações das Estatais:** As estatais possuem regime licitatório próprio disciplinado pelos arts. 28 a 84 da Lei 13.303/2016, com modalidades licitatórias simplificadas e procedimentos de negociação direta, não se sujeitando como regra geral à Lei nº 14.133/2021.
 
 ### 2.5 Controle Finalístico, Tutela e Supervisão Ministerial
 
 Entre a Administração Direta e as entidades da Administração Indireta **NÃO existe subordinação hierárquica**. O controle exercido pelo ente instituidor denomina-se **controle finalístico, supervisão ministerial ou tutela administrativa**:
+
 - É um controle de conformidade com os fins para os quais a entidade foi criada (*princípio da especialidade*).
 - Não autoriza intervenções abusivas no mérito ou na gestão interna autônoma, limitando-se aos atos expressamente autorizados em lei.
 
@@ -178,16 +181,17 @@ Os poderes administrativos são prerrogativas instrumentais outorgadas aos agent
 
 - **Poder Vinculado:** A lei estabelece com precisão exaustiva todos os requisitos e a única conduta obrigatória a ser adotada pelo agente, inexistindo qualquer margem de liberdade ou juízo de conveniência (ex.: concessão de aposentadoria ao servidor que cumpriu todos os requisitos legais).
 - **Poder Discricionário:** A lei confere expressamente ao administrador uma margem controlada de livre apreciação para eleger a decisão mais adequada perante o caso concreto, com base na **conveniência e oportunidade** (**Mérito Administrativo**).
-  - *Limites do Controle Judicial:* O Poder Judiciário e o Tribunal de Contas **não podem invadir o mérito administrativo puro** (não podem substituir a escolha legítima e discricionária do gestor); todavia, exercem pleno controle de legalidade, proporcionalidade, razoabilidade e moralidade sobre o ato.
+    - *Limites do Controle Judicial:* O Poder Judiciário e o Tribunal de Contas **não podem invadir o mérito administrativo puro** (não podem substituir a escolha legítima e discricionária do gestor); todavia, exercem pleno controle de legalidade, proporcionalidade, razoabilidade e moralidade sobre o ato.
 
 ### 4.2 Poder Hierárquico: Delegação, Avocação e a Regra do CENORA
 
 O poder hierárquico distribui e escalona funções entre órgãos e agentes subordinados, conferindo poderes de dar ordens, fiscalizar, revisar atos, delegar e avocar competências:
+
 - **Delegação:** Transferência temporária do exercício de certas competências para órgãos ou agentes subordinados ou de mesmo nível hierárquico.
 - **Vedações Absolutas à Delegação (Mnemônico CENORA - Lei 9.784/99, art. 13):**
-  - **CE:** Competência **Exclusiva** conferida por lei a determinado órgão ou autoridade.
-  - **NO:** Edição de atos de caráter **Normativo**.
-  - **RA:** Decisão de **Recursos Administrativos**.
+    - **CE:** Competência **Exclusiva** conferida por lei a determinado órgão ou autoridade.
+    - **NO:** Edição de atos de caráter **Normativo**.
+    - **RA:** Decisão de **Recursos Administrativos**.
 
 > 🚨 **ALERTA CRÍTICO DE PROVA FCC:**  
 > A decisão de recursos administrativos é **terminantemente indelegável**! Se o titular de uma pasta delegar a um subordinado o julgamento de um recurso contra sanção proferida pelo órgão, a delegação é nula de pleno direito, pois violaria o duplo grau de julgamento administrativo.
@@ -200,10 +204,11 @@ O poder hierárquico distribui e escalona funções entre órgãos e agentes sub
 ### 4.4 Poder Regulamentar / Normativo e os Decretos Autônomos
 
 Prerrogativa outorgada aos Chefes do Poder Executivo para expedir atos gerais e abstratos:
+
 - **Decretos de Execução / Regulamentares (CF, art. 84, IV):** Editados para a fiel execução de leis já existentes. Não podem inovar originariamente na ordem jurídica nem criar direitos ou obrigações primárias não contempladas na lei.
 - **Decretos Autônomos (CF, art. 84, VI):** Espécie normativa primária excepcional, autorizada diretamente pelo texto constitucional apenas em duas hipóteses taxativas:
-  - *Alínea "a":* **Organização e funcionamento da administração pública**, desde que **não implique aumento de despesa** nem **criação ou extinção de órgãos públicos**;
-  - *Alínea "b":* **Extinção de funções ou cargos públicos, quando vagos**.
+    - *Alínea "a":* **Organização e funcionamento da administração pública**, desde que **não implique aumento de despesa** nem **criação ou extinção de órgãos públicos**;
+    - *Alínea "b":* **Extinção de funções ou cargos públicos, quando vagos**.
 
 > 💡 **Pegadinha Clássica FCC:**  
 > Decreto autônomo **NUNCA pode criar ou extinguir órgãos públicos**, e **NUNCA pode extinguir cargos públicos se estiverem ocupados**! A criação e extinção de órgãos públicos exige expressamente **lei formal em sentido estrito** (CF, art. 48, XI e art. 61, § 1º, II, "e").
@@ -213,10 +218,10 @@ Prerrogativa outorgada aos Chefes do Poder Executivo para expedir atos gerais e 
 O art. 78 do Código Tributário Nacional (CTN) conceitua o **poder de polícia** como a atividade da administração pública que, regulando a prática de ato ou a abstenção de fato em razão de interesse público, limita ou disciplina direito, interesse ou liberdade individual.
 - **Atributos do Poder de Polícia:** Discricionariedade, Autoexecutoriedade e Coercibilidade.
 - **O Ciclo de Polícia (Quatro Fases):**
-  1. *Ordem de Polícia:* A norma jurídica legal que institui a restrição ou comando abstrato.
-  2. *Consentimento de Polícia:* Ato pelo qual o Estado autoriza ou licencia o exercício da atividade privada condicionada (alvarás, licenças).
-  3. *Fiscalização de Polícia:* Vistorias, inspeções, autuações e blitz.
-  4. *Sanção de Polícia:* Aplicação punitiva da penalidade administrativa (multa, apreensão de mercadoria, interdição de estabelecimento).
+    1. *Ordem de Polícia:* A norma jurídica legal que institui a restrição ou comando abstrato.
+    2. *Consentimento de Polícia:* Ato pelo qual o Estado autoriza ou licencia o exercício da atividade privada condicionada (alvarás, licenças).
+    3. *Fiscalização de Polícia:* Vistorias, inspeções, autuações e blitz.
+    4. *Sanção de Polícia:* Aplicação punitiva da penalidade administrativa (multa, apreensão de mercadoria, interdição de estabelecimento).
 
 ```mermaid
 flowchart LR
@@ -238,6 +243,7 @@ Superando divergências anteriores, o STF pacificou a tese com eficácia vincula
 ### 5.1 Excesso de Poder vs. Desvio de Finalidade
 
 O **abuso de poder** é gênero que se desdobra em duas espécies nucleares:
+
 1. **Excesso de Poder (Vício de Competência):** Ocorre quando a autoridade atua além dos limites legais de suas atribuições funcionais. O agente é incompetente para praticar aquele ato específico, exorbitando do mandato legal.
 2. **Desvio de Finalidade / Desvio de Poder (Vício de Finalidade):** Ocorre quando o agente público atua dentro de sua competência legal formal, mas pratica o ato com o propósito de atingir fim diverso daquele fixado pela lei ou com intenção privada espúria (perseguição política, favorecimento ilícito ou vingança pessoal). É vício de nulidade insanável.
 
@@ -253,11 +259,12 @@ flowchart TD
 ### 5.2 Elemento Subjetivo Especial e Proibição do Crime de Hermenêutica
 
 A **Lei nº 13.869/2019** (Lei de Abuso de Autoridade) disciplina os crimes cometidos por agentes públicos no exercício de suas funções:
+
 - **Dolo Específico Obrigatório (Art. 1º, § 1º):** As condutas descritas na lei constituem crime exclusivamente quando praticadas pelo agente público com a finalidade específica de:
-  1. Prejudicar outrem;
-  2. Beneficiar a si mesmo ou a terceiro; ou
-  3. Por mero capricho ou satisfação pessoal.
-  - *Não se admite modalidade culposa!*
+    1. Prejudicar outrem;
+    2. Beneficiar a si mesmo ou a terceiro; ou
+    3. Por mero capricho ou satisfação pessoal.
+    - *Não se admite modalidade culposa!*
 - **Proibição do Crime de Hermenêutica (Art. 1º, § 2º):** A divergência na interpretação de lei ou na avaliação de fatos e provas **NÃO configura abuso de autoridade**. O magistrado, membro do Ministério Público ou auditor do Tribunal de Contas não comete crime simplesmente por aplicar uma tese jurídica contrária à pretensão do réu.
 
 ### 5.3 Sujeitos Ativos no Âmbito dos Tribunais de Contas
@@ -289,11 +296,11 @@ O Governo do Estado de Goiás, com o propósito de aprimorar a prestação de se
 
 Em conformidade com a Constituição Federal e com o regime jurídico administrativo:
 
-A) Trata-se de uma Autarquia de regime especial, cuja existência jurídica formal decorre diretamente da publicação da lei complementar instituidora.  
-B) Trata-se de uma Sociedade de Economia Mista, devendo adotar obrigatoriamente a forma de sociedade anônima com capital misto.  
-C) Trata-se de uma Empresa Pública, cuja criação depende de autorização em lei específica e cuja personalidade jurídica nasce com a inscrição de seus atos constitutivos no registro competente.  
-D) Bastará a edição de decreto autônomo do Governador do Estado para outorgar-lhe personalidade jurídica e patrimônio próprio.  
-E) A entidade integrará a Administração Direta estadual, estabelecendo relação de subordinação hierárquica direta com o Governador.  
+* **A)** Trata-se de uma Autarquia de regime especial, cuja existência jurídica formal decorre diretamente da publicação da lei complementar instituidora.
+* **B)** Trata-se de uma Sociedade de Economia Mista, devendo adotar obrigatoriamente a forma de sociedade anônima com capital misto.
+* **C)** Trata-se de uma Empresa Pública, cuja criação depende de autorização em lei específica e cuja personalidade jurídica nasce com a inscrição de seus atos constitutivos no registro competente.
+* **D)** Bastará a edição de decreto autônomo do Governador do Estado para outorgar-lhe personalidade jurídica e patrimônio próprio.
+* **E)** A entidade integrará a Administração Direta estadual, estabelecendo relação de subordinação hierárquica direta com o Governador.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. As autarquias ostentam personalidade jurídica de direito público e são criadas diretamente por lei ordinária específica, não possuindo natureza de direito privado nem patrimônio societário.
@@ -311,11 +318,11 @@ Um auditor fiscal do Tribunal de Contas, contrariado com a postura intransigente
 
 Analisando a tipologia dos atos administrativos e as regras da Lei nº 13.869/2019:
 
-A) A conduta do auditor caracteriza uso regular do poder discricionário inerente à função de fiscalização externa.  
-B) A conduta configura excesso de poder e desvio de finalidade, tipificando crime de abuso de autoridade diante da presença de elemento subjetivo especial consistente na satisfação de vingança ou interesse pessoal.  
-C) Servidores de Tribunais de Contas gozam de imunidade penal material absoluta, não se sujeitando às cominações da Lei de Abuso de Autoridade.  
-D) O ato do auditor padece unicamente de irregularidade administrativa sanável por convalidação posterior pelo Plenário do Tribunal.  
-E) Para a caracterização de abuso de autoridade, a lei dispensa a análise do elemento anímico ou motivação especial, admitindo modalidade culposa.  
+* **A)** A conduta do auditor caracteriza uso regular do poder discricionário inerente à função de fiscalização externa.
+* **B)** A conduta configura excesso de poder e desvio de finalidade, tipificando crime de abuso de autoridade diante da presença de elemento subjetivo especial consistente na satisfação de vingança ou interesse pessoal.
+* **C)** Servidores de Tribunais de Contas gozam de imunidade penal material absoluta, não se sujeitando às cominações da Lei de Abuso de Autoridade.
+* **D)** O ato do auditor padece unicamente de irregularidade administrativa sanável por convalidação posterior pelo Plenário do Tribunal.
+* **E)** Para a caracterização de abuso de autoridade, a lei dispensa a análise do elemento anímico ou motivação especial, admitindo modalidade culposa.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O poder discricionário nunca acoberta ações arbitrárias desprovidas de amparo regimental e motivadas por retaliações ou vinganças privadas.
@@ -333,11 +340,11 @@ Determinada empresa pública estadual, constituída sob regime não concorrencia
 
 À luz da jurisprudência firmada pelo Supremo Tribunal Federal em sede de repercussão geral (**Tema 532**):
 
-A) A delegação é inconstitucional, pois todo o poder de polícia estatal é privativo e indelegável a pessoas jurídicas de direito privado.  
-B) É constitucional a delegação das fases de consentimento, fiscalização e sanção de trânsito a empresas públicas e sociedades de economia mista que prestem serviço público em regime não concorrencial e com capital social majoritariamente público.  
-C) Apenas a aplicação de sanções pode ser delegada à empresa estatal, permanecendo a fiscalização restrita a órgãos da Administração Direta.  
-D) A delegação exige que a empresa pública adote previamente a natureza jurídica de autarquia em regime especial.  
-E) A delegação é válida apenas se as multas aplicadas forem revertidas integralmente em bônus remuneratório aos agentes celetistas da empresa.  
+* **A)** A delegação é inconstitucional, pois todo o poder de polícia estatal é privativo e indelegável a pessoas jurídicas de direito privado.
+* **B)** É constitucional a delegação das fases de consentimento, fiscalização e sanção de trânsito a empresas públicas e sociedades de economia mista que prestem serviço público em regime não concorrencial e com capital social majoritariamente público.
+* **C)** Apenas a aplicação de sanções pode ser delegada à empresa estatal, permanecendo a fiscalização restrita a órgãos da Administração Direta.
+* **D)** A delegação exige que a empresa pública adote previamente a natureza jurídica de autarquia em regime especial.
+* **E)** A delegação é válida apenas se as multas aplicadas forem revertidas integralmente em bônus remuneratório aos agentes celetistas da empresa.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Tese superada pelo julgamento do RE 633.782 pelo Plenário do STF, que validou a delegação em condições estritas de regime não concorrencial.
@@ -355,11 +362,11 @@ No âmbito de uma Secretaria de Estado, o Secretário Titular pretende delegar t
 
 De acordo com a teoria geral do poder hierárquico e os limites da delegação fixados na legislação do processo administrativo:
 
-A) A delegação pretendida é lícita e válida, haja vista que o poder hierárquico confere ao superior liberdade irrestrita para delegar qualquer de suas atribuições.  
-B) A delegação é vedada pelo ordenamento jurídico, pois a decisão de recursos administrativos constitui matéria indelegável.  
-C) A delegação somente será válida se for homologada previamente pelo Tribunal de Contas do Estado.  
-D) A delegação transfere em definitivo a titularidade da competência recursal ao Diretor subordinado, extinguindo a responsabilidade do Secretário.  
-E) A delegação é cabível desde que o recurso trate de matérias fáticas, sendo vedada apenas para matérias de direito estrito.  
+* **A)** A delegação pretendida é lícita e válida, haja vista que o poder hierárquico confere ao superior liberdade irrestrita para delegar qualquer de suas atribuições.
+* **B)** A delegação é vedada pelo ordenamento jurídico, pois a decisão de recursos administrativos constitui matéria indelegável.
+* **C)** A delegação somente será válida se for homologada previamente pelo Tribunal de Contas do Estado.
+* **D)** A delegação transfere em definitivo a titularidade da competência recursal ao Diretor subordinado, extinguindo a responsabilidade do Secretário.
+* **E)** A delegação é cabível desde que o recurso trate de matérias fáticas, sendo vedada apenas para matérias de direito estrito.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O poder hierárquico e as prerrogativas de delegação encontram limites intransponíveis expressos na legislação que regula o processo administrativo.
@@ -377,11 +384,11 @@ O Governador do Estado de Goiás editou decreto criando cinco novos Departamento
 
 Analisando a conformidade constitucional do ato com base nos limites do **decreto autônomo** (CF/88, art. 84, VI):
 
-A) O ato do Governador é perfeitamente válido, pois a organização da administração pública é matéria de competência privativa que dispensa lei formal em qualquer hipótese.  
-B) O decreto autônomo é cabível para criar ou extinguir órgãos públicos, desde que não implique criação de novos cargos efetivos.  
-C) O decreto é inconstitucional, pois o decreto autônomo só pode disciplinar a organização administrativa quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos.  
-D) O ato configura exercício regular do poder de polícia administrativa, imune ao controle de legalidade.  
-E) Apenas o Poder Judiciário poderia sustar os efeitos do referido decreto, descabendo atuação do Poder Legislativo.  
+* **A)** O ato do Governador é perfeitamente válido, pois a organização da administração pública é matéria de competência privativa que dispensa lei formal em qualquer hipótese.
+* **B)** O decreto autônomo é cabível para criar ou extinguir órgãos públicos, desde que não implique criação de novos cargos efetivos.
+* **C)** O decreto é inconstitucional, pois o decreto autônomo só pode disciplinar a organização administrativa quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos.
+* **D)** O ato configura exercício regular do poder de polícia administrativa, imune ao controle de legalidade.
+* **E)** Apenas o Poder Judiciário poderia sustar os efeitos do referido decreto, descabendo atuação do Poder Legislativo.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A competência privativa regulamentar do Chefe do Executivo é demarcada com rigidez pela Constituição, que interdita o uso de decretos autônomos para criar ou extinguir órgãos públicos.

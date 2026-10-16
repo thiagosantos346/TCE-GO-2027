@@ -21,49 +21,49 @@
 
 ## 🧭 Sumário
 - [1. Compreensão vs. Interpretação na Tradição da FCC](#1-compreensão-vs-interpretação-na-tradição-da-fcc)
-  - [1.1 Compreensão Textual e Informação Explícita](#11-compreensão-textual-e-informação-explícita)
-  - [1.2 Interpretação Textual e Inferência Autorizada](#12-interpretação-textual-e-inferência-autorizada)
-  - [1.3 Os Três Erros Clássicos de Leitura](#13-os-três-erros-clássicos-de-leitura)
-  - [1.4 Método Prático de Resolução](#14-método-prático-de-resolução)
+    - [1.1 Compreensão Textual e Informação Explícita](#11-compreensão-textual-e-informação-explícita)
+    - [1.2 Interpretação Textual e Inferência Autorizada](#12-interpretação-textual-e-inferência-autorizada)
+    - [1.3 Os Três Erros Clássicos de Leitura](#13-os-três-erros-clássicos-de-leitura)
+    - [1.4 Método Prático de Resolução](#14-método-prático-de-resolução)
 - [2. Gêneros Textuais e Contexto de Produção](#2-gêneros-textuais-e-contexto-de-produção)
-  - [2.1 Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-gênero-textual)
-  - [2.2 Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-crônica-e-artigo-de-opinião)
-  - [2.3 Contexto Histórico, Cultural e Ideológico](#23-contexto-histórico-cultural-e-ideológico)
+    - [2.1 Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-gênero-textual)
+    - [2.2 Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-crônica-e-artigo-de-opinião)
+    - [2.3 Contexto Histórico, Cultural e Ideológico](#23-contexto-histórico-cultural-e-ideológico)
 - [3. Tipologias Textuais](#3-tipologias-textuais)
-  - [3.1 Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
-  - [3.2 Narração e Descrição](#32-narração-e-descrição)
-  - [3.3 Exposição e Injunção](#33-exposição-e-injunção)
+    - [3.1 Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
+    - [3.2 Narração e Descrição](#32-narração-e-descrição)
+    - [3.3 Exposição e Injunção](#33-exposição-e-injunção)
 - [4. Argumentação na Tipologia Dissertativa](#4-argumentação-na-tipologia-dissertativa)
-  - [4.1 Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
-  - [4.2 Estratégias Argumentativas](#42-estratégias-argumentativas)
-  - [4.3 Operadores Argumentativos](#43-operadores-argumentativos)
-  - [4.4 Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
+    - [4.1 Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
+    - [4.2 Estratégias Argumentativas](#42-estratégias-argumentativas)
+    - [4.3 Operadores Argumentativos](#43-operadores-argumentativos)
+    - [4.4 Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
 - [5. Níveis de Linguagem e Denotação e Conotação](#5-níveis-de-linguagem-e-denotação-e-conotação)
-  - [5.1 Linguagem Denotativa](#51-linguagem-denotativa)
-  - [5.2 Linguagem Conotativa](#52-linguagem-conotativa)
+    - [5.1 Linguagem Denotativa](#51-linguagem-denotativa)
+    - [5.2 Linguagem Conotativa](#52-linguagem-conotativa)
 - [6. Modalidades de Discurso](#6-modalidades-de-discurso)
-  - [6.1 Discurso Direto](#61-discurso-direto)
-  - [6.2 Discurso Indireto](#62-discurso-indireto)
-  - [6.3 Discurso Indireto Livre](#63-discurso-indireto-livre)
+    - [6.1 Discurso Direto](#61-discurso-direto)
+    - [6.2 Discurso Indireto](#62-discurso-indireto)
+    - [6.3 Discurso Indireto Livre](#63-discurso-indireto-livre)
 - [7. Transposição de Discursos](#7-transposição-de-discursos)
-  - [7.1 Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposição-do-direto-para-o-indireto)
-  - [7.2 Correlação Verbal e Armadilhas na Transposição](#72-correlação-verbal-e-armadilhas-na-transposição)
+    - [7.1 Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposição-do-direto-para-o-indireto)
+    - [7.2 Correlação Verbal e Armadilhas na Transposição](#72-correlação-verbal-e-armadilhas-na-transposição)
 - [8. Intertextualidade](#8-intertextualidade)
-  - [8.1 Paráfrase](#81-paráfrase)
-  - [8.2 Paródia](#82-paródia)
-  - [8.3 Citação, Epígrafe e Alusão](#83-citação-epígrafe-e-alusão)
+    - [8.1 Paráfrase](#81-paráfrase)
+    - [8.2 Paródia](#82-paródia)
+    - [8.3 Citação, Epígrafe e Alusão](#83-citação-epígrafe-e-alusão)
 - [9. Figuras de Linguagem](#9-figuras-de-linguagem)
-  - [9.1 Figuras Semânticas ou de Palavra](#91-figuras-semânticas-ou-de-palavra)
-  - [9.2 Figuras de Pensamento](#92-figuras-de-pensamento)
-  - [9.3 Figuras de Construção ou de Sintaxe](#93-figuras-de-construção-ou-de-sintaxe)
-  - [9.4 Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-fonéticas)
+    - [9.1 Figuras Semânticas ou de Palavra](#91-figuras-semânticas-ou-de-palavra)
+    - [9.2 Figuras de Pensamento](#92-figuras-de-pensamento)
+    - [9.3 Figuras de Construção ou de Sintaxe](#93-figuras-de-construção-ou-de-sintaxe)
+    - [9.4 Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-fonéticas)
 - [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 - [Questões de Concurso FCC Comentadas](#-questões-de-concurso-fcc-comentadas)
-  - [Questão 01](#questão-01)
-  - [Questão 02](#questão-02)
-  - [Questão 03](#questão-03)
-  - [Questão 04](#questão-04)
-  - [Questão 05](#questão-05)
+    - [Questão 01](#questão-01)
+    - [Questão 02](#questão-02)
+    - [Questão 03](#questão-03)
+    - [Questão 04](#questão-04)
+    - [Questão 05](#questão-05)
 
 ---
 
@@ -112,7 +112,13 @@ A maioria das alternativas erradas em questões de leitura da FCC cai em uma de 
 
 ### 1.4 Método Prático de Resolução
 
-Um roteiro eficiente para questões de leitura é: (1) ler o **enunciado antes** do texto, para saber se a questão é de compreensão (explícito) ou interpretação (implícito); (2) ler o texto identificando a **tese** e os **conectivos** que organizam a argumentação; (3) para cada alternativa, localizar o **trecho correspondente** no texto; (4) classificar o erro de cada alternativa descartada (extrapolação, redução ou contradição); (5) desconfiar de alternativas com linguagem extremada ou que tragam soluções, culpados e números ausentes do texto.
+Um roteiro eficiente para questões de leitura é:
+
+1. ler o **enunciado antes** do texto, para saber se a questão é de compreensão (explícito) ou interpretação (implícito)
+2. ler o texto identificando a **tese** e os **conectivos** que organizam a argumentação
+3. para cada alternativa, localizar o **trecho correspondente** no texto
+4. classificar o erro de cada alternativa descartada (extrapolação, redução ou contradição)
+5. desconfiar de alternativas com linguagem extremada ou que tragam soluções, culpados e números ausentes do texto.
 
 Outro ponto importante é o **vocabulário em contexto**: a FCC frequentemente pergunta o sentido de uma palavra "no contexto". A resposta não é necessariamente o primeiro sentido do dicionário, mas aquele que a frase ativa. "Panaceia", "asséptica", "miopia ética", por exemplo, são usados em sentido figurado em textos ensaísticos (ver item 5.2).
 
@@ -272,7 +278,13 @@ Observe que o discurso indireto **não** é introduzido por conectivo causal (*p
 
 O **discurso indireto livre** é uma modalidade **híbrida**: a fala ou o pensamento da personagem é inserido **diretamente na narração em 3ª pessoa**, **sem verbo de elocução, sem conjunção integrante e sem travessão ou aspas**. A voz do narrador e a da personagem se **fundem**, de modo que o leitor "ouve" o fluxo de consciência da personagem por dentro do relato. É recurso típico do narrador onisciente e da prosa moderna (Graciliano Ramos, Clarice Lispector, Machado de Assis em alguns trechos).
 
-Como reconhecer: (a) a narração está em 3ª pessoa; (b) de repente surgem **perguntas, exclamações, reticências ou expressões coloquiais** que claramente pertencem à mente da personagem, e não ao narrador; (c) não há marca formal de introdução dessas falas. Exemplo: *"O relator permaneceu em silêncio. **Como solucionar aquele impasse sem ferir a jurisprudência?** Era preciso decidir."* A pergunta não é feita pelo narrador ao leitor; é a hesitação íntima do relator, inserida livremente no relato.
+Como reconhecer:
+
+- **a)** a narração está em 3ª pessoa
+- **b)** de repente surgem **perguntas, exclamações, reticências ou expressões coloquiais** que claramente pertencem à mente da personagem, e não ao narrador
+- **c)** não há marca formal de introdução dessas falas.
+
+Exemplo: *"O relator permaneceu em silêncio. **Como solucionar aquele impasse sem ferir a jurisprudência?** Era preciso decidir."* A pergunta não é feita pelo narrador ao leitor; é a hesitação íntima do relator, inserida livremente no relato.
 
 > ⭐ **IMPORTANTE / DISCURSO INDIRETO LIVRE:** O sinal característico do Discurso Indireto Livre em provas de Língua Portuguesa da FCC é a presença de frases interrogativas ou exclamativas súbitas inseridas na terceira pessoa do singular, expressando a hesitação interna da personagem sem que haja travessão ou oração subordinada integrante (*"Estava diante do tribunal. Entraria ou fugiria? Já não restava alternativa"*).
 
@@ -306,7 +318,13 @@ Também é preciso respeitar o **sentido temporal** original: o futuro (algo que
 
 A transposição exige **ajuste simultâneo** de todos os elementos: uma alternativa que corrige o tempo verbal, mas mantém *amanhã* ou *este*, está errada. Na transposição inversa (indireto → direto), faz-se o caminho contrário: restaura-se a 1ª pessoa, o presente/futuro do presente, os dêiticos de proximidade (*este, aqui, hoje, amanhã*) e a pontuação própria (dois-pontos, travessão ou aspas).
 
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Nas questões de transposição, confira **três itens** em cada alternativa: (1) o tempo verbal (futuro do presente → futuro do pretérito); (2) os advérbios (*amanhã* → *no dia seguinte*; *hoje* → *naquele dia*; *ontem* → *na véspera*); (3) os demonstrativos (*este/esse* → *aquele*). Basta um elemento não ajustado para a alternativa ser incorreta.
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Nas questões de transposição, confira **três itens** em cada alternativa:
+>
+> 1. o tempo verbal (futuro do presente → futuro do pretérito)
+> 2. os advérbios (*amanhã* → *no dia seguinte*; *hoje* → *naquele dia*; *ontem* → *na véspera*)
+> 3. os demonstrativos (*este/esse* → *aquele*).
+>
+> Basta um elemento não ajustado para a alternativa ser incorreta.
 
 ---
 
@@ -484,6 +502,7 @@ para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se cor
 ### Questão 04
 **(FCC – METRÔ-SP – Analista de Comunicação)**  
 Considere os versos e expressões a seguir:  
+
 I. *"A cidade dormia sob o manto pesado de um silêncio ensurdecedor."*  
 II. *"Ele não era exatamente uma fonte de sabedoria; faltava-lhe perspicácia para lidar com o público."*  
 III. *"Nas horas de angústia, o coração do fiscal chorava lágrimas de ferro."*
@@ -498,11 +517,13 @@ As figuras de linguagem presentes nos trechos I, II e III são, respectivamente:
 
 > **Comentário Detalhado:**
 > Análise dos trechos:
+>
 > - **Trecho I:** *"silêncio ensurdecedor"* reúne, no mesmo ser, termos logicamente excludentes (o silêncio não pode ensurdecer), configurando **paradoxo (oximoro)**.
 > - **Trecho II:** *"não era exatamente uma fonte de sabedoria"* suaviza a constatação rude de que a pessoa era pouco sábia ou despreparada, caracterizando **eufemismo** (na modalidade litotes: afirmação pela negação do contrário).
 > - **Trecho III:** *"o coração (...) chorava lágrimas de ferro"* atribui ação humana (chorar) ao órgão, caracterizando **prosopopeia (personificação)**, combinada com metáfora expressiva ("lágrimas de ferro").
 >
 > Análise das alternativas:
+>
 > - **A)** Correta. É a única sequência em que os três trechos estão corretamente classificados: paradoxo, eufemismo e prosopopeia.
 > - **B)** Incorreta. Em I não há antítese, pois os opostos não se referem a aspectos distintos, mas se fundem no mesmo ser (paradoxo); em II não há exagero (hipérbole), mas atenuação; em III não há substituição por contiguidade (metonímia).
 > - **C)** Incorreta. Em I não há pleonasmo (repetição de ideia), mas contradição; em II não há inversão de sentido (ironia) — a frase diz, de modo brando, exatamente o que pensa; em III a imagem é criativa, e não uma metáfora cristalizada pelo uso (catacrese).

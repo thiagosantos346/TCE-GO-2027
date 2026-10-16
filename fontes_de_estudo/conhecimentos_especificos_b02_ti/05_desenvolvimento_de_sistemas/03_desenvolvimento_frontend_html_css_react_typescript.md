@@ -14,30 +14,30 @@
 
 ## 🧭 Sumário
 - [1. Fundamentos de HTML5 Semântico e Acessibilidade](#1-fundamentos-de-html5-semântico-e-acessibilidade)
-  - [1.1 Estrutura Básica do Documento e Metatags Essenciais](#11-estrutura-básica-do-documento-e-metatags-essenciais)
-  - [1.2 Elementos Semânticos e Seccionamento de Conteúdo](#12-elementos-semânticos-e-seccionamento-de-conteúdo)
-  - [1.3 Formulários Modernos e Validação Nativa](#13-formulários-modernos-e-validação-nativa)
-  - [1.4 Mídia, Gráficos e Acessibilidade Digital (WCAG e WAI-ARIA)](#14-mídia-gráficos-e-acessibilidade-digital-wcag-e-wai-aria)
+    - [1.1 Estrutura Básica do Documento e Metatags Essenciais](#11-estrutura-básica-do-documento-e-metatags-essenciais)
+    - [1.2 Elementos Semânticos e Seccionamento de Conteúdo](#12-elementos-semânticos-e-seccionamento-de-conteúdo)
+    - [1.3 Formulários Modernos e Validação Nativa](#13-formulários-modernos-e-validação-nativa)
+    - [1.4 Mídia, Gráficos e Acessibilidade Digital (WCAG e WAI-ARIA)](#14-mídia-gráficos-e-acessibilidade-digital-wcag-e-wai-aria)
 - [2. Estilização com CSS3](#2-estilização-com-css3)
-  - [2.1 Cascata, Seletores e Cálculo de Especificidade CSS](#21-cascata-seletores-e-cálculo-de-especificidade-css)
-  - [2.2 Modelo de Caixa (Box Model) e a Propriedade `box-sizing`](#22-modelo-de-caixa-box-model-e-a-propriedade-box-sizing)
-  - [2.3 Layouts Flexíveis com Flexbox (Unidimensional)](#23-layouts-flexíveis-com-flexbox-unidimensional)
-  - [2.4 Grid Bidimensional (CSS Grid Layout)](#24-grid-bidimensional-css-grid-layout)
-  - [2.5 Design Responsivo, Mobile-First e Unidades de Medida](#25-design-responsivo-mobile-first-e-unidades-de-medida)
-  - [2.6 Transições, Transformações e Animações CSS](#26-transições-transformações-e-animações-css)
+    - [2.1 Cascata, Seletores e Cálculo de Especificidade CSS](#21-cascata-seletores-e-cálculo-de-especificidade-css)
+    - [2.2 Modelo de Caixa (Box Model) e a Propriedade `box-sizing`](#22-modelo-de-caixa-box-model-e-a-propriedade-box-sizing)
+    - [2.3 Layouts Flexíveis com Flexbox (Unidimensional)](#23-layouts-flexíveis-com-flexbox-unidimensional)
+    - [2.4 Grid Bidimensional (CSS Grid Layout)](#24-grid-bidimensional-css-grid-layout)
+    - [2.5 Design Responsivo, Mobile-First e Unidades de Medida](#25-design-responsivo-mobile-first-e-unidades-de-medida)
+    - [2.6 Transições, Transformações e Animações CSS](#26-transições-transformações-e-animações-css)
 - [3. TypeScript: Tipagem Estática no Front-end](#3-typescript-tipagem-estática-no-front-end)
-  - [3.1 Arquitetura, Transpilação e o Arquivo `tsconfig.json`](#31-arquitetura-transpilação-e-o-arquivo-tsconfigjson)
-  - [3.2 Sistema de Tipos: Primitivos e Tipos Especiais (`any`, `unknown`, `never`, `void`)](#32-sistema-de-tipos-primitivos-e-tipos-especiais-any-unknown-never-void)
-  - [3.3 Union, Intersection Types e Type Narrowing](#33-union-intersection-types-e-type-narrowing)
-  - [3.4 Interfaces vs. Type Aliases e Declaration Merging](#34-interfaces-vs-type-aliases-e-declaration-merging)
-  - [3.5 Generics e Utility Types Fundamentais](#35-generics-e-utility-types-fundamentais)
+    - [3.1 Arquitetura, Transpilação e o Arquivo `tsconfig.json`](#31-arquitetura-transpilação-e-o-arquivo-tsconfigjson)
+    - [3.2 Sistema de Tipos: Primitivos e Tipos Especiais (`any`, `unknown`, `never`, `void`)](#32-sistema-de-tipos-primitivos-e-tipos-especiais-any-unknown-never-void)
+    - [3.3 Union, Intersection Types e Type Narrowing](#33-union-intersection-types-e-type-narrowing)
+    - [3.4 Interfaces vs. Type Aliases e Declaration Merging](#34-interfaces-vs-type-aliases-e-declaration-merging)
+    - [3.5 Generics e Utility Types Fundamentais](#35-generics-e-utility-types-fundamentais)
 - [4. Desenvolvimento Front-end com a Biblioteca React](#4-desenvolvimento-front-end-com-a-biblioteca-react)
-  - [4.1 Paradigma Declarativo, Componentização e Sintaxe JSX](#41-paradigma-declarativo-componentização-e-sintaxe-jsx)
-  - [4.2 Virtual DOM e o Algoritmo de Reconciliação (Fiber)](#42-virtual-dom-e-o-algoritmo-de-reconciliação-fiber)
-  - [4.3 Propriedades (Props), Fluxo Unidirecional e Renderização de Listas com `key`](#43-propriedades-props-fluxo-unidirecional-e-renderização-de-listas-com-key)
-  - [4.4 Gerenciamento de Estado e Ciclo de Vida com Hooks (`useState`, `useEffect`)](#44-gerenciamento-de-estado-e-ciclo-de-vida-com-hooks-usestate-useeffect)
-  - [4.5 Gerenciamento Global com `useContext` e Hooks de Performance (`useMemo`, `useCallback`, `useRef`)](#45-gerenciamento-global-com-usecontext-e-hooks-de-performance-usememo-usecallback-useref)
-  - [4.6 Formulários: Componentes Controlados vs. Não Controlados](#46-formulários-componentes-controlados-vs-não-controlados)
+    - [4.1 Paradigma Declarativo, Componentização e Sintaxe JSX](#41-paradigma-declarativo-componentização-e-sintaxe-jsx)
+    - [4.2 Virtual DOM e o Algoritmo de Reconciliação (Fiber)](#42-virtual-dom-e-o-algoritmo-de-reconciliação-fiber)
+    - [4.3 Propriedades (Props), Fluxo Unidirecional e Renderização de Listas com `key`](#43-propriedades-props-fluxo-unidirecional-e-renderização-de-listas-com-key)
+    - [4.4 Gerenciamento de Estado e Ciclo de Vida com Hooks (`useState`, `useEffect`)](#44-gerenciamento-de-estado-e-ciclo-de-vida-com-hooks-usestate-useeffect)
+    - [4.5 Gerenciamento Global com `useContext` e Hooks de Performance (`useMemo`, `useCallback`, `useRef`)](#45-gerenciamento-global-com-usecontext-e-hooks-de-performance-usememo-usecallback-useref)
+    - [4.6 Formulários: Componentes Controlados vs. Não Controlados](#46-formulários-componentes-controlados-vs-não-controlados)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 - [6. Questões Comentadas & Exemplos (Padrão FCC)](#6-questões-comentadas--exemplos-padrão-fcc)
 
@@ -105,16 +105,16 @@ flowchart TD
 O HTML5 modernizou a coleta de dados com novos tipos semânticos de `<input>` e atributos de validação integrados no próprio navegador, dispensando scripts JavaScript complexos para validações básicas:
 
 - **Novos Tipos de Input:**
-  - `type="email"`: Valida o formato sintático de endereço de correio eletrônico (`usuario@dominio.com`).
-  - `type="number"`: Força entrada numérica, permitindo definir limites com `min="1"`, `max="100"` e granularidade com `step="1"`.
-  - `type="date"`, `time`, `datetime-local`: Renderiza seletores nativos de calendário e horário adaptados ao sistema operacional.
-  - `type="url"`: Valida URLs absolutas com protocolo (`https://...`).
-  - `type="tel"`: Otimizado para teclado numérico de discagem em celulares.
+    - `type="email"`: Valida o formato sintático de endereço de correio eletrônico (`usuario@dominio.com`).
+    - `type="number"`: Força entrada numérica, permitindo definir limites com `min="1"`, `max="100"` e granularidade com `step="1"`.
+    - `type="date"`, `time`, `datetime-local`: Renderiza seletores nativos de calendário e horário adaptados ao sistema operacional.
+    - `type="url"`: Valida URLs absolutas com protocolo (`https://...`).
+    - `type="tel"`: Otimizado para teclado numérico de discagem em celulares.
 - **Atributos de Validação:**
-  - `required`: Torna o preenchimento do campo estritamente obrigatório para submissão do formulário.
-  - `pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"`: Valida o campo contra uma expressão regular (Regex) em tempo de cliente (ex.: máscara de CPF).
-  - `placeholder`: Fornece uma dica curta do formato esperado (não substitui o elemento `<label>`).
-  - `disabled` vs. `readonly`: Um campo `disabled` é desativado visualmente e **não é enviado** na submissão do formulário (`POST/GET`). Já um campo `readonly` impede a edição pelo usuário, mas **é devidamente transmitido** na submissão.
+    - `required`: Torna o preenchimento do campo estritamente obrigatório para submissão do formulário.
+    - `pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"`: Valida o campo contra uma expressão regular (Regex) em tempo de cliente (ex.: máscara de CPF).
+    - `placeholder`: Fornece uma dica curta do formato esperado (não substitui o elemento `<label>`).
+    - `disabled` vs. `readonly`: Um campo `disabled` é desativado visualmente e **não é enviado** na submissão do formulário (`POST/GET`). Já um campo `readonly` impede a edição pelo usuário, mas **é devidamente transmitido** na submissão.
 
 ---
 
@@ -134,6 +134,7 @@ O HTML5 modernizou a coleta de dados com novos tipos semânticos de `<input>` e 
 
 #### Diretrizes WCAG e Atributos WAI-ARIA
 As diretrizes WCAG (*Web Content Accessibility Guidelines*) da W3C são organizadas em torno dos 4 princípios fundamentais (**POUR**):
+
 1. **Perceptível (*Perceivable*):** Informações e componentes visuais devem ser apresentados de modo que todos os usuários possam percebê-los (ex.: fornecer textos alternativos `alt` em imagens e legendas em vídeos).
 2. **Operável (*Operable*):** Todos os componentes da interface devem poder ser operados via teclado, sem armadilhas de foco (*keyboard traps*).
 3. **Compreensível (*Understandable*):** A operação e a leitura devem ser previsíveis e sem jargões confusos.
@@ -144,13 +145,13 @@ As diretrizes WCAG (*Web Content Accessibility Guidelines*) da W3C são organiza
 - `aria-label`: Fornece um rótulo textual audível para elementos visuais que não possuem texto visível (ex.: `<button aria-label="Fechar janela">X</button>`).
 - `aria-labelledby` e `aria-describedby`: Apontam para IDs de elementos existentes que dão título ou descrição adicional ao componente.
 - `aria-live`: Define regiões de atualização dinâmica assíncrona para que leitores de tela avisem imediatamente o usuário:
-  - `aria-live="polite"`: O leitor de tela aguarda o usuário terminar sua ação atual antes de ler o aviso.
-  - `aria-live="assertive"`: Interrompe a fala do leitor de tela imediatamente para alertar sobre erros críticos.
+    - `aria-live="polite"`: O leitor de tela aguarda o usuário terminar sua ação atual antes de ler o aviso.
+    - `aria-live="assertive"`: Interrompe a fala do leitor de tela imediatamente para alertar sobre erros críticos.
 - `aria-hidden="true"`: **Oculta o elemento de leitores de tela**, mantendo-o visível visualmente (útil para ícones puramente decorativos).
 - **Atributo `tabindex`:**
-  - `tabindex="0"`: Insere o elemento na sequência natural de tabulação do teclado.
-  - `tabindex="-1"`: Remove o elemento da ordem do teclado, permitindo foco programático via JavaScript (`elemento.focus()`).
-  - `tabindex="1+"` (positivo): **Antipadrão severo**. Quebra a ordem de leitura do documento e confunde usuários dependentes de navegação por teclado.
+    - `tabindex="0"`: Insere o elemento na sequência natural de tabulação do teclado.
+    - `tabindex="-1"`: Remove o elemento da ordem do teclado, permitindo foco programático via JavaScript (`elemento.focus()`).
+    - `tabindex="1+"` (positivo): **Antipadrão severo**. Quebra a ordem de leitura do documento e confunde usuários dependentes de navegação por teclado.
 
 ---
 
@@ -158,6 +159,7 @@ As diretrizes WCAG (*Web Content Accessibility Guidelines*) da W3C são organiza
 
 ### 2.1 Cascata, Seletores e Cálculo de Especificidade CSS
 O CSS (*Cascading Style Sheets*) baseia-se no princípio da **Cascata** para resolver conflitos entre múltiplas declarações de estilo apontando para o mesmo elemento HTML. A resolução segue a hierarquia:
+
 1. **Importância:** Regras marcadas com `!important` sobrepõem qualquer regra ordinária.
 2. **Especificidade:** Se não houver `!important`, vence a regra que tiver a pontuação de especificidade mais alta.
 3. **Ordem de Aparição no Código:** Se houver empate exato de especificidade, vence a última regra declarada no arquivo CSS.
@@ -183,6 +185,7 @@ flowchart LR
 
 > 🚨 **ALERTA DE PROVA / FCC:**  
 > A comparação de especificidade é posicional da esquerda para a direita, **nunca somatória linear simples**:
+>
 > - Uma regra com 1 único ID `(0, 1, 0, 0)` tem maior prioridade que uma regra contendo 15 classes combinadas `(0, 0, 15, 0)`.
 > - A declaração `!important` não acrescenta "pontos" à tupla; ela altera a fase da cascata. Havendo duas declarações com `!important`, o desempate volta a ser feito pela pontuação normal de especificidade entre elas.
 
@@ -203,14 +206,14 @@ flowchart TD
 ```
 
 - **`box-sizing: content-box` (Padrão nativo do navegador):**
-  - A largura definida na propriedade `width` é aplicada **estritamente à área de conteúdo (*Content*)**.
-  - O `padding` e a `border` são adicionados **por fora** dessa largura.
-  - Se definirmos `width: 300px; padding: 20px; border: 5px solid black;`, a largura total ocupada na tela pelo elemento será:
+    - A largura definida na propriedade `width` é aplicada **estritamente à área de conteúdo (*Content*)**.
+    - O `padding` e a `border` são adicionados **por fora** dessa largura.
+    - Se definirmos `width: 300px; padding: 20px; border: 5px solid black;`, a largura total ocupada na tela pelo elemento será:
     $$\text{Largura Total} = 300 + (20 \times 2) + (5 \times 2) = 350\text{ px}$$
 - **`box-sizing: border-box` (Padrão moderno da indústria de software):**
-  - A propriedade `width` define a **largura total da caixa visível**, incluindo a borda e o padding.
-  - A área útil de conteúdo encolhe automaticamente para acomodar o espaçamento interno.
-  - No mesmo exemplo (`width: 300px; padding: 20px; border: 5px solid black;`), a largura final na tela será **exatamente $300\text{ px}$**.
+    - A propriedade `width` define a **largura total da caixa visível**, incluindo a borda e o padding.
+    - A área útil de conteúdo encolhe automaticamente para acomodar o espaçamento interno.
+    - No mesmo exemplo (`width: 300px; padding: 20px; border: 5px solid black;`), a largura final na tela será **exatamente $300\text{ px}$**.
 
 ---
 
@@ -218,17 +221,17 @@ flowchart TD
 O Flexbox (`display: flex`) é um modelo de layout voltado para a distribuição de espaço e alinhamento de itens ao longo de um **único eixo por vez** (linha ou coluna).
 
 - **Eixo Principal (*Main Axis*) vs. Eixo Transversal (*Cross Axis*):**
-  - `flex-direction: row` (padrão): O eixo principal é horizontal (esquerda para a direita); o eixo transversal é vertical.
-  - `flex-direction: column`: O eixo principal é vertical; o transversal torna-se horizontal.
+    - `flex-direction: row` (padrão): O eixo principal é horizontal (esquerda para a direita); o eixo transversal é vertical.
+    - `flex-direction: column`: O eixo principal é vertical; o transversal torna-se horizontal.
 - **Propriedades do Contêiner Flex (*Flex Container*):**
-  - `justify-content`: Alinha os itens ao longo do **eixo principal** (`flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`).
-  - `align-items`: Alinha os itens ao longo do **eixo transversal** (`stretch`, `flex-start`, `flex-end`, `center`, `baseline`).
-  - `flex-wrap`: Define se os itens que ultrapassam a largura do contêiner devem quebrar para a próxima linha (`nowrap` ou `wrap`).
-  - `gap`: Define o espaçamento entre os itens filhos sem recorrer a margens manuais.
+    - `justify-content`: Alinha os itens ao longo do **eixo principal** (`flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`).
+    - `align-items`: Alinha os itens ao longo do **eixo transversal** (`stretch`, `flex-start`, `flex-end`, `center`, `baseline`).
+    - `flex-wrap`: Define se os itens que ultrapassam a largura do contêiner devem quebrar para a próxima linha (`nowrap` ou `wrap`).
+    - `gap`: Define o espaçamento entre os itens filhos sem recorrer a margens manuais.
 - **Propriedades dos Filhos (*Flex Items*):**
-  - `flex-grow`: Fator de crescimento relativo do item para preencher o espaço restante disponível.
-  - `flex-shrink`: Fator de encolhimento relativo quando o espaço total for insuficiente.
-  - `flex-basis`: Tamanho inicial padrão do item antes da distribuição de sobras.
+    - `flex-grow`: Fator de crescimento relativo do item para preencher o espaço restante disponível.
+    - `flex-shrink`: Fator de encolhimento relativo quando o espaço total for insuficiente.
+    - `flex-basis`: Tamanho inicial padrão do item antes da distribuição de sobras.
 
 ---
 
@@ -236,10 +239,10 @@ O Flexbox (`display: flex`) é um modelo de layout voltado para a distribuição
 Diferentemente do Flexbox, o CSS Grid (`display: grid`) é um sistema **bidimensional nativo**, permitindo controlar simultaneamente linhas (*rows*) e colunas (*columns*).
 
 - **Criação de Trilhas e Unidade Fracional (`fr`):**
-  - `grid-template-columns: 200px 1fr 2fr`: Define três colunas: a primeira fixa com 200px, e o restante dividido em 3 partes fracionais (1 parte para a segunda coluna e 2 partes para a terceira).
-  - `repeat(3, 1fr)`: Cria 3 colunas de larguras rigorosamente iguais.
+    - `grid-template-columns: 200px 1fr 2fr`: Define três colunas: a primeira fixa com 200px, e o restante dividido em 3 partes fracionais (1 parte para a segunda coluna e 2 partes para a terceira).
+    - `repeat(3, 1fr)`: Cria 3 colunas de larguras rigorosamente iguais.
 - **Responsividade Automática sem Media Queries:**
-  - `grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));`: Os cards se ajustam dinamicamente na tela; se houver menos espaço que 250px, quebram sozinhos para a próxima linha.
+    - `grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));`: Os cards se ajustam dinamicamente na tela; se houver menos espaço que 250px, quebram sozinhos para a próxima linha.
 - **Áreas Nomeadas (`grid-template-areas`):**
   ```css
   .container {
@@ -265,10 +268,10 @@ Diferentemente do Flexbox, o CSS Grid (`display: grid`) é um sistema **bidimens
   }
   ```
 - **Unidades de Medida Relativas:**
-  - `rem` (*Root EM*): Relativa ao tamanho da fonte do elemento raiz (`<html>`), tipicamente `1rem = 16px`. Garante acessibilidade quando o usuário altera o tamanho padrão de fonte no navegador.
-  - `em`: Relativa ao tamanho da fonte do próprio elemento pai imediato.
-  - `%`: Relativa à dimensão do elemento contêiner pai direto.
-  - `vw` e `vh`: Porcentagens relativas à largura (*viewport width*) e altura (*viewport height*) da janela de visualização do navegador ($100\text{vw} = 100\%$ da tela).
+    - `rem` (*Root EM*): Relativa ao tamanho da fonte do elemento raiz (`<html>`), tipicamente `1rem = 16px`. Garante acessibilidade quando o usuário altera o tamanho padrão de fonte no navegador.
+    - `em`: Relativa ao tamanho da fonte do próprio elemento pai imediato.
+    - `%`: Relativa à dimensão do elemento contêiner pai direto.
+    - `vw` e `vh`: Porcentagens relativas à largura (*viewport width*) e altura (*viewport height*) da janela de visualização do navegador ($100\text{vw} = 100\%$ da tela).
 
 ---
 
@@ -294,10 +297,10 @@ O TypeScript é um **superconjunto tipado de JavaScript** (*typed superset*) des
 
 - **Verificação em Tempo de Compilação:** O TypeScript detecta erros de tipagem, acessos a propriedades nulas e incompatibilidades antes da execução. Em tempo de execução, todos os tipos são eliminados (*Type Erasure*).
 - **`tsconfig.json`:** Arquivo de configuração raiz do projeto TypeScript. Opções cruciais:
-  - `"target"`: Versão do ECMAScript de destino para a qual o código será transpilado (ex.: `"ES2022"`).
-  - `"module"`: Sistema de módulos de saída (ex.: `"CommonJS"` ou `"ESNext"`).
-  - `"strict": true`: Habilita todas as checagens rígidas de tipo (incluindo `strictNullChecks` e `noImplicitAny`).
-  - `"jsx"`: Modo de transpilação do JSX no React (ex.: `"react-jsx"`).
+    - `"target"`: Versão do ECMAScript de destino para a qual o código será transpilado (ex.: `"ES2022"`).
+    - `"module"`: Sistema de módulos de saída (ex.: `"CommonJS"` ou `"ESNext"`).
+    - `"strict": true`: Habilita todas as checagens rígidas de tipo (incluindo `strictNullChecks` e `noImplicitAny`).
+    - `"jsx"`: Modo de transpilação do JSX no React (ex.: `"react-jsx"`).
 
 ---
 
@@ -326,10 +329,10 @@ Além dos tipos primitivos comuns (`string`, `number`, `boolean`, `null`, `undef
   type Funcionario = Pessoa & { matricula: number };
   ```
 - **Type Narrowing (Afunilamento de Tipo):** O TypeScript refina dinamicamente o tipo de uma variável dentro de blocos condicionais utilizando guardas de tipo (*type guards*):
-  - `typeof x === "string"`
-  - `x instanceof Date`
-  - `"propriedade" in objeto`
-  - Funções de predicado de tipo customizadas (`pet is Cachorro`).
+    - `typeof x === "string"`
+    - `x instanceof Date`
+    - `"propriedade" in objeto`
+    - Funções de predicado de tipo customizadas (`pet is Cachorro`).
 
 ---
 
@@ -388,7 +391,7 @@ React é uma biblioteca JavaScript declarativa para a construção de interfaces
 - **Declarativo:** O desenvolvedor descreve **como a UI deve parecer** dado um determinado estado da aplicação, e o React encarrega-se de atualizar o DOM real de forma eficiente.
 - **Componentização:** A interface é decomposta em blocos independentes, isolados e reutilizáveis (hoje prioritariamente em formato de funções JavaScript puras).
 - **Sintaxe JSX (JavaScript XML):** Extensão sintática que permite escrever marcação semelhante a HTML diretamente dentro do código JavaScript. O JSX é transpilado para chamadas de função `React.createElement()` ou para o transformador moderno `_jsx()`.
-  - Diferenças fundamentais em relação ao HTML:
+    - Diferenças fundamentais em relação ao HTML:
     - `class` torna-se `className` (pois `class` é palavra reservada em JS).
     - `for` em `<label>` torna-se `htmlFor`.
     - Atributos de evento utilizam convenção camelCase (`onClick`, `onChange`, `onSubmit`).
@@ -411,8 +414,8 @@ flowchart TD
 ```
 
 - **Algoritmo de *Diffing* Heurístico ($\mathcal{O}(n)$):** O React compara a árvore antiga do VDOM com a nova árvore e calcula o conjunto mínimo de mutações necessárias.
-  - Se dois elementos forem de tipos diferentes (ex.: `<div>` mudou para `<span>`), o React destrói a subárvore antiga por completo e monta uma nova do zero.
-  - Para listas de elementos irmãos, o React utiliza a propriedade `key` para saber quais nós foram apenas movidos ou reorganizados.
+    - Se dois elementos forem de tipos diferentes (ex.: `<div>` mudou para `<span>`), o React destrói a subárvore antiga por completo e monta uma nova do zero.
+    - Para listas de elementos irmãos, o React utiliza a propriedade `key` para saber quais nós foram apenas movidos ou reorganizados.
 
 ---
 
@@ -460,9 +463,9 @@ flowchart TD
 ```
 
 - **As Três Formas do Vetor de Dependências:**
-  1. `useEffect(fn)` (sem segundo parâmetro): Executa na montagem e **após absolutamente toda e qualquer re-renderização**.
-  2. `useEffect(fn, [])` (vetor vazio): Executa **apenas uma única vez**, logo após a primeira renderização do componente (equivalente ao antigo `componentDidMount`).
-  3. `useEffect(fn, [id, filtro])` (com dependências): Executa na montagem e sempre que houver alteração de valor em `id` ou `filtro`.
+    1. `useEffect(fn)` (sem segundo parâmetro): Executa na montagem e **após absolutamente toda e qualquer re-renderização**.
+    2. `useEffect(fn, [])` (vetor vazio): Executa **apenas uma única vez**, logo após a primeira renderização do componente (equivalente ao antigo `componentDidMount`).
+    3. `useEffect(fn, [id, filtro])` (com dependências): Executa na montagem e sempre que houver alteração de valor em `id` ou `filtro`.
 - **Função de Limpeza (*Cleanup*):** Se o callback do `useEffect` retornar uma função (`return () => { clearInterval(id); };`), essa função será executada pelo React **antes de reexecutar o efeito na próxima renderização** e na **desmontagem final (*unmount*) do componente**, prevenindo vazamento de memória (*memory leaks*).
 
 ---
@@ -497,8 +500,8 @@ function Botao() {
   const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
   ```
 - **`useRef`:** Cria um objeto de referência mutável `{ current: valor }` que persiste durante todo o ciclo de vida do componente:
-  - Permite acesso direto ao nó do DOM real (`<input ref={inputRef} />` $\rightarrow$ `inputRef.current.focus()`).
-  - Armazena valores mutáveis que, quando alterados, **não disparam re-renderização** do componente.
+    - Permite acesso direto ao nó do DOM real (`<input ref={inputRef} />` $\rightarrow$ `inputRef.current.focus()`).
+    - Armazena valores mutáveis que, quando alterados, **não disparam re-renderização** do componente.
 
 ---
 
@@ -540,11 +543,12 @@ function PainelFiscal() {
 ```
 
 Ao executar essa aplicação no navegador, o comportamento verificado pelo desenvolvedor é:  
-A) A requisição à API é disparada apenas uma única vez na montagem da tela, funcionando de forma perfeitamente otimizada.  
-B) Ocorre um laço infinito de renderizações (*infinite loop*), provocando sucessivas requisições HTTP e congelamento da interface do usuário.  
-C) O React emite um erro de compilação em tempo de execução porque funções assíncronas não são permitidas dentro de componentes funcionais.  
-D) A lista de processos jamais será atualizada porque o Hook `useState` não dispara re-renderização quando recebe arrays de dados.  
-E) A requisição HTTP falha compulsoriamente devido à falta do cabeçalho de acessibilidade `aria-live` no elemento `<div>`.  
+
+* **A)** A requisição à API é disparada apenas uma única vez na montagem da tela, funcionando de forma perfeitamente otimizada.
+* **B)** Ocorre um laço infinito de renderizações (*infinite loop*), provocando sucessivas requisições HTTP e congelamento da interface do usuário.
+* **C)** O React emite um erro de compilação em tempo de execução porque funções assíncronas não são permitidas dentro de componentes funcionais.
+* **D)** A lista de processos jamais será atualizada porque o Hook `useState` não dispara re-renderização quando recebe arrays de dados.
+* **E)** A requisição HTTP falha compulsoriamente devido à falta do cabeçalho de acessibilidade `aria-live` no elemento `<div>`.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Para que o `useEffect` fosse executado estritamente na montagem inicial do componente, seria mandatório declarar um vetor de dependências vazio `[]` como segundo argumento.
@@ -576,11 +580,12 @@ type ProcessoAuditoria = {
 ```
 
 Para declarar um novo tipo derivado denominado `ProcessoEdicao`, que contenha rigorosamente todas as propriedades de `ProcessoAuditoria`, porém com todas elas definidas como **opcionais** (isto é, marcadas com `?`), deve-se utilizar o Utility Type:  
-A) `Required<ProcessoAuditoria>`  
-B) `Readonly<ProcessoAuditoria>`  
-C) `Partial<ProcessoAuditoria>`  
-D) `Omit<ProcessoAuditoria, "id">`  
-E) `Record<string, ProcessoAuditoria>`  
+
+* **A)** `Required<ProcessoAuditoria>`
+* **B)** `Readonly<ProcessoAuditoria>`
+* **C)** `Partial<ProcessoAuditoria>`
+* **D)** `Omit<ProcessoAuditoria, "id">`
+* **E)** `Record<string, ProcessoAuditoria>`
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O tipo utilitário `Required<T>` executa a transformação inversa: remove todas as interrogações `?`, tornando todas as propriedades estritamente obrigatórias.
@@ -619,11 +624,12 @@ Assumindo o fragmento HTML abaixo:
 ```
 
 A cor final com que o texto do título `Relatório de Conformidade` será renderizado na tela do navegador e o motivo técnico dessa escolha são:  
-A) Azul, porque o seletor com o identificador direto `#titulo-destaque` possui a maior especificidade absoluta entre todas as regras.  
-B) Vermelho, porque a Regra 1 é mais genérica e o navegador sempre prioriza seletores de tag simples para garantir padronização tipográfica.  
-C) Roxo (*purple*), porque a Regra 4 combina um ID (`#secao-principal`), uma classe (`.titulo`) e duas tags (`div` e `h1`), somando uma especificidade superior à da Regra 2.  
-D) Verde, porque a Regra 3 é a penúltima declarada e as classes sobrepõem identificadores únicos no CSS3 moderno.  
-E) Roxo (*purple*), porque a regra foi escrita na última linha do arquivo CSS e o desempate na cascata dá vitória estrita à regra de menor número de seletores.  
+
+* **A)** Azul, porque o seletor com o identificador direto `#titulo-destaque` possui a maior especificidade absoluta entre todas as regras.
+* **B)** Vermelho, porque a Regra 1 é mais genérica e o navegador sempre prioriza seletores de tag simples para garantir padronização tipográfica.
+* **C)** Roxo (*purple*), porque a Regra 4 combina um ID (`#secao-principal`), uma classe (`.titulo`) e duas tags (`div` e `h1`), somando uma especificidade superior à da Regra 2.
+* **D)** Verde, porque a Regra 3 é a penúltima declarada e as classes sobrepõem identificadores únicos no CSS3 moderno.
+* **E)** Roxo (*purple*), porque a regra foi escrita na última linha do arquivo CSS e o desempate na cascata dá vitória estrita à regra de menor número de seletores.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A Regra 2 possui peso de especificidade $(0, 1, 0, 0)$ (1 ID), mas é superada pela Regra 4 que soma o mesmo ID mais uma classe e duas tags.
@@ -643,11 +649,12 @@ E) Roxo (*purple*), porque a regra foi escrita na última linha do arquivo CSS e
 
 ### Questão 4 (FCC - Auditor Fiscal / Tecnologia da Informação)
 No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes de acessibilidade na Web (W3C / WCAG), assinale a afirmativa tecnicamente correta:  
-A) O elemento `<article>` deve ser utilizado exclusivamente para criar tabelas de dados financeiros de auditoria, sendo vedado para artigos de texto.  
-B) O uso do atributo `tabindex="5"` é a prática recomendada para botões de submissão, pois garante que eles sempre recebam o foco antes de qualquer campo do formulário.  
-C) O elemento `<main>` deve encapsular o conteúdo central e específico do documento, não devendo ser duplicado em um mesmo documento exibido, e conteúdos que se repetem entre páginas (como cabeçalhos de topo e rodapés gerais) devem ficar fora dele.  
-D) As tags de agrupamento genérico `<div>` e `<span>` possuem semântica rica superior às tags `<section>` e `<nav>`, sendo preferíveis pelos leitores de tela.  
-E) O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela.  
+
+* **A)** O elemento `<article>` deve ser utilizado exclusivamente para criar tabelas de dados financeiros de auditoria, sendo vedado para artigos de texto.
+* **B)** O uso do atributo `tabindex="5"` é a prática recomendada para botões de submissão, pois garante que eles sempre recebam o foco antes de qualquer campo do formulário.
+* **C)** O elemento `<main>` deve encapsular o conteúdo central e específico do documento, não devendo ser duplicado em um mesmo documento exibido, e conteúdos que se repetem entre páginas (como cabeçalhos de topo e rodapés gerais) devem ficar fora dele.
+* **D)** As tags de agrupamento genérico `<div>` e `<span>` possuem semântica rica superior às tags `<section>` e `<nav>`, sendo preferíveis pelos leitores de tela.
+* **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O elemento `<article>` representa conteúdo editorial autônomo, autocontido e reutilizável (artigos, postagens, acórdãos, notícias), não se limitando a tabelas financeiras.
@@ -664,11 +671,12 @@ E) O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento v
 Na biblioteca React, ao iterar sobre uma lista de dados para renderizar múltiplos componentes utilizando a função `.map()`, os desenvolvedores devem obrigatoriamente fornecer a propriedade especial `key` para cada item retornado.
 
 A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de reconciliação do React, assinale a afirmativa correta:  
-A) A `key` serve unicamente para estilização visual via CSS, sendo convertida em uma classe HTML automática no DOM real.  
-B) O React utiliza a `key` para identificar de forma estável quais elementos da lista foram alterados, adicionados ou removidos entre renderizações, permitindo atualizar apenas os nós do DOM que sofreram modificação efetiva.  
-C) O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila.  
-D) As chaves `key` devem ser obrigatoriamente números inteiros sequenciais gerados aleatoriamente com `Math.random()` a cada ciclo de renderização.  
-E) A propriedade `key` é repassada automaticamente pelo React para o componente filho como uma prop ordinária, podendo ser acessada livremente no código filho via `props.key`.  
+
+* **A)** A `key` serve unicamente para estilização visual via CSS, sendo convertida em uma classe HTML automática no DOM real.
+* **B)** O React utiliza a `key` para identificar de forma estável quais elementos da lista foram alterados, adicionados ou removidos entre renderizações, permitindo atualizar apenas os nós do DOM que sofreram modificação efetiva.
+* **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila.
+* **D)** As chaves `key` devem ser obrigatoriamente números inteiros sequenciais gerados aleatoriamente com `Math.random()` a cada ciclo de renderização.
+* **E)** A propriedade `key` é repassada automaticamente pelo React para o componente filho como uma prop ordinária, podendo ser acessada livremente no código filho via `props.key`.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A `key` é consumida pelo motor de reconciliação do React em memória; ela não é renderizada como atributo CSS nem classe no DOM real.

@@ -21,18 +21,18 @@
 
 ## 🧭 Sumário
 - [1. Princípios e Diretrizes das Contratações de TIC na Lei nº 14.133/2021](#1-princípios-e-diretrizes-das-contratações-de-tic-na-lei-nº-141332021)
-  - [1.1 Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)](#11-alinhamento-estratégico-e-planejamento-prévio-pdti-e-pca)
-  - [1.2 Vedações Expressas e Jurisprudência dos Tribunais de Contas](#12-vedações-expressas-e-jurisprudência-dos-tribunais-de-contas)
+    - [1.1 Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)](#11-alinhamento-estratégico-e-planejamento-prévio-pdti-e-pca)
+    - [1.2 Vedações Expressas e Jurisprudência dos Tribunais de Contas](#12-vedações-expressas-e-jurisprudência-dos-tribunais-de-contas)
 - [2. O Ciclo de Vida da Contratação e a Fase Preparatória](#2-o-ciclo-de-vida-da-contratação-e-a-fase-preparatória)
-  - [2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)](#21-artefatos-da-fase-de-planejamento-dod-etp-mapa-de-riscos-e-tr)
-  - [2.2 Custo Total de Propriedade (TCO - Total Cost of Ownership)](#22-custo-total-de-propriedade-tco---total-cost-of-ownership)
+    - [2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)](#21-artefatos-da-fase-de-planejamento-dod-etp-mapa-de-riscos-e-tr)
+    - [2.2 Custo Total de Propriedade (TCO - Total Cost of Ownership)](#22-custo-total-de-propriedade-tco---total-cost-of-ownership)
 - [3. Fase de Seleção do Fornecedor em TIC](#3-fase-de-seleção-do-fornecedor-em-tic)
-  - [3.1 Modalidades de Licitação (Pregão, Concorrência e Diálogo Competitivo)](#31-modalidades-de-licitação-pregão-concorrência-e-diálogo-competitivo)
-  - [3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)](#32-hipóteses-de-contratação-direta-em-tic-inexigibilidade-vs-dispensa)
+    - [3.1 Modalidades de Licitação (Pregão, Concorrência e Diálogo Competitivo)](#31-modalidades-de-licitação-pregão-concorrência-e-diálogo-competitivo)
+    - [3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)](#32-hipóteses-de-contratação-direta-em-tic-inexigibilidade-vs-dispensa)
 - [4. Gestão e Fiscalização de Contratos de TIC](#4-gestão-e-fiscalização-de-contratos-de-tic)
-  - [4.1 Segregação de Papéis na Equipe de Fiscalização](#41-segregação-de-papéis-na-equipe-de-fiscalização)
-  - [4.2 Instrumento de Medição de Resultado (IMR), SLA e Glosas](#42-instrumento-de-medição-de-resultado-imr-sla-e-glosas)
-  - [4.3 Recebimento Provisório e Recebimento Definitivo](#43-recebimento-provisório-e-recebimento-definitivo)
+    - [4.1 Segregação de Papéis na Equipe de Fiscalização](#41-segregação-de-papéis-na-equipe-de-fiscalização)
+    - [4.2 Instrumento de Medição de Resultado (IMR), SLA e Glosas](#42-instrumento-de-medição-de-resultado-imr-sla-e-glosas)
+    - [4.3 Recebimento Provisório e Recebimento Definitivo](#43-recebimento-provisório-e-recebimento-definitivo)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 - [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
 
@@ -152,12 +152,12 @@ flowchart TD
 
 #### 3. Diálogo Competitivo (Art. 32)
 - **Aplicação:** Modalidade inovadora da Lei nº 14.133/2021, cabível especificamente quando a Administração:
-  1. Visa contratar objeto que envolva **inovação tecnológica ou técnica**;
-  2. Não possui conhecimento suficiente para redigir as especificações técnicas da solução disponível no mercado; ou
-  3. Precisa avaliar e definir a melhor modelagem técnica, jurídica ou financeira com o mercado antes de formular o edital final.
+    1. Visa contratar objeto que envolva **inovação tecnológica ou técnica**;
+    2. Não possui conhecimento suficiente para redigir as especificações técnicas da solução disponível no mercado; ou
+    3. Precisa avaliar e definir a melhor modelagem técnica, jurídica ou financeira com o mercado antes de formular o edital final.
 - **Dinâmica:**
-  - *Fase de Diálogo:* O órgão publica edital convocatório, seleciona concorrentes qualificados e realiza rodadas de diálogo transparentes para construir a melhor solução técnica.
-  - *Fase Competitiva:* Concluído o diálogo, publica-se o edital final com a solução construída, concedendo prazo de no mínimo 60 dias para a apresentação das propostas formais de preço e técnica.
+    - *Fase de Diálogo:* O órgão publica edital convocatório, seleciona concorrentes qualificados e realiza rodadas de diálogo transparentes para construir a melhor solução técnica.
+    - *Fase Competitiva:* Concluído o diálogo, publica-se o edital final com a solução construída, concedendo prazo de no mínimo 60 dias para a apresentação das propostas formais de preço e técnica.
 
 ---
 
@@ -208,10 +208,10 @@ flowchart TD
 O **IMR** (*Instrumento de Medição de Resultado*) é o mecanismo formal que vincula o pagamento mensal da fatura ao desempenho e qualidade efetivamente entregues:
 
 - **Métricas Comuns no IMR:**
-  - Disponibilidade mensal dos sistemas (ex.: meta de 99,8%);
-  - Tempo de Resolução de Falhas Críticas (ex.: máximo de 2 horas);
-  - Taxa de defeitos em homologação (ex.: máximo de 0,05 bugs por Ponto de Função);
-  - Cumprimento de prazos das Ordens de Serviço (OS).
+    - Disponibilidade mensal dos sistemas (ex.: meta de 99,8%);
+    - Tempo de Resolução de Falhas Críticas (ex.: máximo de 2 horas);
+    - Taxa de defeitos em homologação (ex.: máximo de 0,05 bugs por Ponto de Função);
+    - Cumprimento de prazos das Ordens de Serviço (OS).
 - **Glosas Financeiras:**  
   Quando a empresa não atinge o SLA estipulado no IMR, a Administração aplica uma **glosa** (retenção/desconto direto na fatura do mês correspondente), pagando apenas pelo valor proporcional à qualidade entregue, sem prejuízo de advertência ou multa.
 
@@ -222,25 +222,25 @@ O **IMR** (*Instrumento de Medição de Resultado*) é o mecanismo formal que vi
 A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o aceite do objeto em TIC:
 
 1. **Recebimento Provisório:**  
-   - Realizado pelos **Fiscais Técnico, Requisitante e Administrativo** imediatamente após a entrega do produto ou encerramento da etapa de serviços.  
-   - Objetivo: Registrar a entrega formal para fins de início dos testes de homologação e inspeção detalhada de conformidade.
+    - Realizado pelos **Fiscais Técnico, Requisitante e Administrativo** imediatamente após a entrega do produto ou encerramento da etapa de serviços.  
+    - Objetivo: Registrar a entrega formal para fins de início dos testes de homologação e inspeção detalhada de conformidade.
 2. **Recebimento Definitivo:**  
-   - Realizado pelo **Gestor do Contrato** ou por comissão designada, após a homologação técnica completa, validação de conformidade com o Termo de Referência e apuração dos indicadores do IMR.  
-   - Objetivo: Atestar a conformidade integral do objeto, autorizando a liquidação e o pagamento final da fatura.
+    - Realizado pelo **Gestor do Contrato** ou por comissão designada, após a homologação técnica completa, validação de conformidade com o Termo de Referência e apuração dos indicadores do IMR.  
+    - Objetivo: Atestar a conformidade integral do objeto, autorizando a liquidação e o pagamento final da fatura.
 
 ---
 
 ## 5. Fontes Recomendadas na Internet
 
 - [x] **Lei Federal nº 14.133/2021 - Nova Lei de Licitações e Contratos (Portal do Planalto):**
-  - Link Oficial: [Texto Integral e Compilado da Lei nº 14.133/2021](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm)
-  - *Dispositivos-Chave para TIC:* Art. 6º (Definições de bens e serviços comuns/especiais), Art. 18 (Planejamento e Estudo Técnico Preliminar - ETP), Art. 28 a 32 (Modalidades de Licitação: Pregão, Concorrência e Diálogo Competitivo), Arts. 72 a 75 (Contratação Direta) e Art. 117 (Fiscalização Contratual).
+    - Link Oficial: [Texto Integral e Compilado da Lei nº 14.133/2021](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm)
+    - *Dispositivos-Chave para TIC:* Art. 6º (Definições de bens e serviços comuns/especiais), Art. 18 (Planejamento e Estudo Técnico Preliminar - ETP), Art. 28 a 32 (Modalidades de Licitação: Pregão, Concorrência e Diálogo Competitivo), Arts. 72 a 75 (Contratação Direta) e Art. 117 (Fiscalização Contratual).
 - [x] **Instrução Normativa SGD/MGI nº 94/2022 (Padrão Nacional de Contratações de TIC):**
-  - Link Oficial: [Instrução Normativa SGD/MGI nº 94/2022 - Portal Gov.br](https://www.gov.br/governodigital/pt-br/contratacoes-de-tic)
-  - *Conteúdo:* Rito completo das contratações de TIC: Documento de Oficialização da Demanda (DOD), Equipe de Planejamento da Contratação, Mapa de Riscos, Termo de Referência e Instrumento de Medição de Resultado (IMR).
+    - Link Oficial: [Instrução Normativa SGD/MGI nº 94/2022 - Portal Gov.br](https://www.gov.br/governodigital/pt-br/contratacoes-de-tic)
+    - *Conteúdo:* Rito completo das contratações de TIC: Documento de Oficialização da Demanda (DOD), Equipe de Planejamento da Contratação, Mapa de Riscos, Termo de Referência e Instrumento de Medição de Resultado (IMR).
 - [x] **Tribunal de Contas da União (TCU) - Jurisprudência e Boas Práticas de TIC:**
-  - Link Oficial: [Portal de Governança de TI do TCU](https://portal.tcu.gov.br/)
-  - *Conteúdo:* Súmula 269 do TCU, acórdãos referenciais sobre métricas de software (APF/UST), vedação ao pagamento por homem-hora puro e fiscalização de contratos de TIC.
+    - Link Oficial: [Portal de Governança de TI do TCU](https://portal.tcu.gov.br/)
+    - *Conteúdo:* Súmula 269 do TCU, acórdãos referenciais sobre métricas de software (APF/UST), vedação ao pagamento por homem-hora puro e fiscalização de contratos de TIC.
 
 ---
 
@@ -248,11 +248,12 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 
 ### Questão 1 (FCC - Auditor de Controle Externo / TI - Adaptada)
 **Enunciado:** Em procedimento de auditoria de controle externo realizado no setor de tecnologia da informação de uma autarquia estadual, a equipe de auditoria analisou um termo de referência para contratação de fábrica de software e constatou a previsão de que a empresa contratada seria remunerada exclusivamente pela contagem das horas trabalhadas pelos desenvolvedores alocados presencialmente no prédio da autarquia, sem vínculo com entregas, ordens de serviço, pontos de função ou metas de níveis de serviço. Considerando a jurisprudência sumulada dos Tribunais de Contas e a Lei nº 14.133/2021:  
-A) A cláusula editalícia é lícita, visto que o regime de contratação por homens-hora garante total flexibilidade técnica exigida pelo paradigma de desenvolvimento ágil.  
-B) O procedimento apresenta irregularidade grave, pois a remuneração de serviços de desenvolvimento e manutenção de software na Administração Pública deve ser vinculada a resultados concretos (como métricas de pontos de função ou ordens de serviço atreladas a níveis de serviço com IMR), sendo vedada a remuneração fundamentada exclusivamente em homem-hora sem atrelamento a produtos ou resultados mensuráveis.  
-C) A modalidade licitatória obrigatória para contratações remuneradas por homem-hora presencial é o Leilão Internacional.  
-D) A Lei nº 14.133/2021 estabelece que a contratação de software proprietário prescinde de Estudo Técnico Preliminar e de fiscalização técnica.  
-E) A responsabilidade pela escolha da métrica de homem-hora é privativa da empresa licitante vencedora, não podendo a Administração impor métricas de pagamento.  
+
+* **A)** A cláusula editalícia é lícita, visto que o regime de contratação por homens-hora garante total flexibilidade técnica exigida pelo paradigma de desenvolvimento ágil.
+* **B)** O procedimento apresenta irregularidade grave, pois a remuneração de serviços de desenvolvimento e manutenção de software na Administração Pública deve ser vinculada a resultados concretos (como métricas de pontos de função ou ordens de serviço atreladas a níveis de serviço com IMR), sendo vedada a remuneração fundamentada exclusivamente em homem-hora sem atrelamento a produtos ou resultados mensuráveis.
+* **C)** A modalidade licitatória obrigatória para contratações remuneradas por homem-hora presencial é o Leilão Internacional.
+* **D)** A Lei nº 14.133/2021 estabelece que a contratação de software proprietário prescinde de Estudo Técnico Preliminar e de fiscalização técnica.
+* **E)** A responsabilidade pela escolha da métrica de homem-hora é privativa da empresa licitante vencedora, não podendo a Administração impor métricas de pagamento.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O modelo ágil não autoriza a administração pública a remunerar fornecedores por mera "presença física" ou tempo corrido sem entrega de valor mensurável; a jurisprudência pacífica do TCU exige aferição objetiva de resultados mesmo em projetos ágeis.
@@ -267,11 +268,12 @@ E) A responsabilidade pela escolha da métrica de homem-hora é privativa da emp
 
 ### Questão 2 (FCC - Analista de TI / Governança e Contratos - Adaptada)
 **Enunciado:** Determinada Secretaria Estadual de Fazenda identificou a necessidade premente de modernizar seu ecossistema de detecção de fraudes fiscais complexas por meio de inteligência artificial generativa de ponta. No entanto, após realizar estudos iniciais, a equipe técnica concluiu que a Administração não possui conhecimento suficiente para redigir as especificações técnicas definitivas da solução, necessitando dialogar amplamente com o mercado tecnológico para avaliar os modelos algorítmicos, custos e arquiteturas disponíveis antes de receber as propostas finais. Nos termos estritos da Lei nº 14.133/2021, a modalidade de licitação cabível para esse cenário é o:  
-A) Pregão Presencial.  
-B) Diálogo Competitivo.  
-C) Concurso Artístico.  
-D) Leilão Eletrônico.  
-E) Credenciamento Automático.  
+
+* **A)** Pregão Presencial.
+* **B)** Diálogo Competitivo.
+* **C)** Concurso Artístico.
+* **D)** Leilão Eletrônico.
+* **E)** Credenciamento Automático.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O pregão presencial é exceção na Lei nº 14.133/2021 (a regra é a forma eletrônica) e é restrito a bens e serviços comuns, sendo inviável para situações em que a administração sequer consegue especificar o objeto sem diálogo prévio com o mercado.
@@ -286,11 +288,12 @@ E) Credenciamento Automático.
 
 ### Questão 3 (FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)
 **Enunciado:** No processo preparatório para a contratação de uma nova solução integrada de armazenamento em nuvem e banco de dados corporativo, a equipe de planejamento da contratação elaborou o Estudo Técnico Preliminar (ETP). Para comparar adequadamente a aquisição de infraestrutura física local (*on-premises*) com a contratação de serviços em nuvem (*cloud computing*), a equipe calculou não apenas os custos de compra imediata de licenças e servidores, mas também os gastos projetados com implantação, capacitação de servidores, suporte técnico anual, climatização de datacenter e futura migração de dados ao longo de cinco anos. Essa técnica de avaliação econômica e financeira denomina-se:  
-A) Retorno sobre Patrimônio Líquido (ROE).  
-B) Custo Total de Propriedade (TCO - *Total Cost of Ownership*).  
-C) Análise de Pontos por Função Rápida (FPA).  
-D) Custo Marginal de Substituição Imediata.  
-E) Depreciação Linear Fixa Arbitrária.  
+
+* **A)** Retorno sobre Patrimônio Líquido (ROE).
+* **B)** Custo Total de Propriedade (TCO - *Total Cost of Ownership*).
+* **C)** Análise de Pontos por Função Rápida (FPA).
+* **D)** Custo Marginal de Substituição Imediata.
+* **E)** Depreciação Linear Fixa Arbitrária.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. ROE é um indicador financeiro privado de rentabilidade sobre patrimônio acionário, não tendo relação com a avaliação integral do ciclo de vida de aquisição de TIC.
@@ -305,11 +308,12 @@ E) Depreciação Linear Fixa Arbitrária.
 
 ### Questão 4 (FCC - Técnico de Controle Externo / TI - Adaptada)
 **Enunciado:** De acordo com as disposições da Lei nº 14.133/2021 sobre a fiscalização dos contratos administrativos e a governança de contratações de TIC, os atos formais de atesto e aceite do objeto contratado dividem-se em Recebimento Provisório e Recebimento Definitivo. A respeito desses instrumentos, assinale a afirmativa correta:  
-A) O Recebimento Definitivo é realizado pelo fornecedor privado no momento do embarque dos servidores no centro de distribuição da fábrica.  
-B) O Recebimento Provisório é realizado pelos fiscais técnico, administrativo e setorial mediante termo detalhado, com a finalidade de registrar a entrega dos bens ou serviços para posterior verificação minuciosa de conformidade técnica e operacional.  
-C) O Recebimento Definitivo dispensa qualquer teste de homologação ou verificação de conformidade com os níveis mínimos de serviço estabelecidos no IMR.  
-D) O Recebimento Provisório transfere em definitivo toda a responsabilidade jurídica e financeira à Administração, vedando a aplicação de qualquer glosa posterior.  
-E) A Lei nº 14.133/2021 proibiu expressamente a figura do recebimento provisório em contratos de TIC para conferir maior velocidade às compras públicas.  
+
+* **A)** O Recebimento Definitivo é realizado pelo fornecedor privado no momento do embarque dos servidores no centro de distribuição da fábrica.
+* **B)** O Recebimento Provisório é realizado pelos fiscais técnico, administrativo e setorial mediante termo detalhado, com a finalidade de registrar a entrega dos bens ou serviços para posterior verificação minuciosa de conformidade técnica e operacional.
+* **C)** O Recebimento Definitivo dispensa qualquer teste de homologação ou verificação de conformidade com os níveis mínimos de serviço estabelecidos no IMR.
+* **D)** O Recebimento Provisório transfere em definitivo toda a responsabilidade jurídica e financeira à Administração, vedando a aplicação de qualquer glosa posterior.
+* **E)** A Lei nº 14.133/2021 proibiu expressamente a figura do recebimento provisório em contratos de TIC para conferir maior velocidade às compras públicas.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Ambos os recebimentos são atos administrativos privativos de agentes públicos da Administração contratante, jamais do fornecedor contratado.
@@ -324,11 +328,12 @@ E) A Lei nº 14.133/2021 proibiu expressamente a figura do recebimento provisór
 
 ### Questão 5 (FCC - Analista de Sistemas / Fiscalização de Contratos - Adaptada)
 **Enunciado:** Em um contrato de prestação de serviços de TIC para manutenção de portais governamentais, o Termo de Referência fixou um Instrumento de Medição de Resultado (IMR) contendo como indicador de nível de serviço (SLA) a meta mensal de disponibilidade mínima do portal em 99,8%. Durante a fiscalização do terceiro mês, o Fiscal Técnico constatou, por meio de ferramentas automatizadas de monitoramento, que o portal permaneceu indisponível por 18 horas ininterruptas em horário comercial, atingindo apenas 97,5% de disponibilidade naquele ciclo. Diante do descumprimento da meta de SLA estabelecida no IMR, o procedimento contratual cabível consiste em:  
-A) Efetuar o pagamento integral do valor da fatura sem qualquer desconto e indenizar a empresa pela instabilidade gerada.  
-B) Aplicar a respectiva glosa financeira diretamente no valor devido na fatura mensal proporcionalmente à faixa de penalidade fixada no IMR, sem prejuízo da abertura de procedimento para aplicação de sanções administrativas cabíveis em caso de reiteração.  
-C) Cancelar sumariamente todos os contratos de TIC em vigor em todo o Estado e proibir a internet nos órgãos públicos.  
-D) Substituir imediatamente o Fiscal Técnico por um funcionário indicado pelo próprio provedor inadimplente.  
-E) Exigir que a contratada compense o tempo de queda aumentando a velocidade da internet residencial dos servidores da Secretaria.  
+
+* **A)** Efetuar o pagamento integral do valor da fatura sem qualquer desconto e indenizar a empresa pela instabilidade gerada.
+* **B)** Aplicar a respectiva glosa financeira diretamente no valor devido na fatura mensal proporcionalmente à faixa de penalidade fixada no IMR, sem prejuízo da abertura de procedimento para aplicação de sanções administrativas cabíveis em caso de reiteração.
+* **C)** Cancelar sumariamente todos os contratos de TIC em vigor em todo o Estado e proibir a internet nos órgãos públicos.
+* **D)** Substituir imediatamente o Fiscal Técnico por um funcionário indicado pelo próprio provedor inadimplente.
+* **E)** Exigir que a contratada compense o tempo de queda aumentando a velocidade da internet residencial dos servidores da Secretaria.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O pagamento integral sem abatimento por serviço defeituoso ou abaixo do SLA configuraria liquidação irregular de despesa pública e dano ao erário.

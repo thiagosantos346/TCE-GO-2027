@@ -23,27 +23,27 @@
 ## 🧭 Sumário
 
 - [1. Teoria Geral do Controle da Administração Pública](#1-teoria-geral-do-controle-da-administração-pública)
-  - [1.1 Fundamento Republicano e Sistema de Freios e Contrapesos](#11-fundamento-republicano-e-sistema-de-freios-e-contrapesos)
-  - [1.2 Classificação Quanto à Origem: Controle Interno vs. Controle Externo](#12-classificação-quanto-à-origem-controle-interno-vs-controle-externo)
-  - [1.3 Classificação Quanto ao Momento: Prévio, Concomitante e Posterior](#13-classificação-quanto-ao-momento-prévio-concomitante-e-posterior)
-  - [1.4 Classificação Quanto ao Aspecto: Controle de Legalidade vs. Mérito](#14-classificação-quanto-ao-aspecto-controle-de-legalidade-vs-mérito)
+    - [1.1 Fundamento Republicano e Sistema de Freios e Contrapesos](#11-fundamento-republicano-e-sistema-de-freios-e-contrapesos)
+    - [1.2 Classificação Quanto à Origem: Controle Interno vs. Controle Externo](#12-classificação-quanto-à-origem-controle-interno-vs-controle-externo)
+    - [1.3 Classificação Quanto ao Momento: Prévio, Concomitante e Posterior](#13-classificação-quanto-ao-momento-prévio-concomitante-e-posterior)
+    - [1.4 Classificação Quanto ao Aspecto: Controle de Legalidade vs. Mérito](#14-classificação-quanto-ao-aspecto-controle-de-legalidade-vs-mérito)
 - [2. O Controle Legislativo e a Atuação dos Tribunais de Contas](#2-o-controle-legislativo-e-a-atuação-dos-tribunais-de-contas)
-  - [2.1 A Função Constitucional do Tribunal de Contas (CF/88, arts. 70 a 75)](#21-a-função-constitucional-do-tribunal-de-contas-cf88-arts-70-a-75)
-  - [2.2 Natureza das Decisões e Título Executivo Extrajudicial](#22-natureza-das-decisões-e-título-executivo-extrajudicial)
+    - [2.1 A Função Constitucional do Tribunal de Contas (CF/88, arts. 70 a 75)](#21-a-função-constitucional-do-tribunal-de-contas-cf88-arts-70-a-75)
+    - [2.2 Natureza das Decisões e Título Executivo Extrajudicial](#22-natureza-das-decisões-e-título-executivo-extrajudicial)
 - [3. O Controle Judicial dos Atos Administrativos](#3-o-controle-judicial-dos-atos-administrativos)
-  - [3.1 Limites do Controle Judicial sobre o Mérito Administrativo](#31-limites-do-controle-judicial-sobre-o-mérito-administrativo)
-  - [3.2 Anulação por Desvio de Finalidade e a Teoria dos Motivos Determinantes](#32-anulação-por-desvio-de-finalidade-e-a-teoria-dos-motivos-determinantes)
-  - [3.3 Ações Constitucionais de Controle: Mandado de Segurança, Ação Popular e ACP](#33-ações-constitucionais-de-controle-mandado-de-segurança-ação-popular-e-acp)
+    - [3.1 Limites do Controle Judicial sobre o Mérito Administrativo](#31-limites-do-controle-judicial-sobre-o-mérito-administrativo)
+    - [3.2 Anulação por Desvio de Finalidade e a Teoria dos Motivos Determinantes](#32-anulação-por-desvio-de-finalidade-e-a-teoria-dos-motivos-determinantes)
+    - [3.3 Ações Constitucionais de Controle: Mandado de Segurança, Ação Popular e ACP](#33-ações-constitucionais-de-controle-mandado-de-segurança-ação-popular-e-acp)
 - [4. A Nova Lei de Improbidade Administrativa (Lei 8.429/1992 e Lei 14.230/2021)](#4-a-nova-lei-de-improbidade-administrativa-lei-84291992-e-lei-142302021)
-  - [4.1 Sujeitos Ativos e Passivos da Improbidade Administrativa](#41-sujeitos-ativos-e-passivos-da-improbidade-administrativa)
-  - [4.2 O Elemento Subjetivo e a Extinção da Culpa (Tema 1.199 / STF)](#42-o-elemento-subjetivo-e-a-extinção-da-culpa-tema-1199--stf)
-  - [4.3 Proibição do Crime de Hermenêutica no Âmbito da LIA](#43-proibição-do-crime-de-hermenêutica-no-âmbito-da-lia)
+    - [4.1 Sujeitos Ativos e Passivos da Improbidade Administrativa](#41-sujeitos-ativos-e-passivos-da-improbidade-administrativa)
+    - [4.2 O Elemento Subjetivo e a Extinção da Culpa (Tema 1.199 / STF)](#42-o-elemento-subjetivo-e-a-extinção-da-culpa-tema-1199--stf)
+    - [4.3 Proibição do Crime de Hermenêutica no Âmbito da LIA](#43-proibição-do-crime-de-hermenêutica-no-âmbito-da-lia)
 - [5. Tipologia dos Atos de Improbidade e Quadro Sancionatório](#5-tipologia-dos-atos-de-improbidade-e-quadro-sancionatório)
-  - [5.1 Enriquecimento Ilícito (Art. 9º da LIA)](#51-enriquecimento-ilícito-art-9º-da-lia)
-  - [5.2 Prejuízo ao Erário (Art. 10 da LIA)](#52-prejuízo-ao-erário-art-10-da-lia)
-  - [5.3 Atentado aos Princípios da Administração (Art. 11 da LIA - Rol Taxativo)](#53-atentado-aos-princípios-da-administração-art-11-da-lia---rol-taxativo)
-  - [5.4 Matriz Comparativa de Sanções do Artigo 12 da LIA](#54-matriz-comparativa-de-sanções-do-artigo-12-da-lia)
-  - [5.5 Regime Prescricional Geral e Intercorrente (Art. 23 da LIA)](#55-regime-prescricional-geral-e-intercorrente-art-23-da-lia)
+    - [5.1 Enriquecimento Ilícito (Art. 9º da LIA)](#51-enriquecimento-ilícito-art-9º-da-lia)
+    - [5.2 Prejuízo ao Erário (Art. 10 da LIA)](#52-prejuízo-ao-erário-art-10-da-lia)
+    - [5.3 Atentado aos Princípios da Administração (Art. 11 da LIA - Rol Taxativo)](#53-atentado-aos-princípios-da-administração-art-11-da-lia---rol-taxativo)
+    - [5.4 Matriz Comparativa de Sanções do Artigo 12 da LIA](#54-matriz-comparativa-de-sanções-do-artigo-12-da-lia)
+    - [5.5 Regime Prescricional Geral e Intercorrente (Art. 23 da LIA)](#55-regime-prescricional-geral-e-intercorrente-art-23-da-lia)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 - [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questões-comentadas--exemplos-padrão-fcc)
 
@@ -56,6 +56,7 @@ O controle da Administração Pública compreende o conjunto de mecanismos jurí
 ### 1.1 Fundamento Republicano e Sistema de Freios e Contrapesos
 
 No Estado Democrático de Direito, nenhum poder estatal é absoluto ou imune a fiscalização. O controle administrativo fundamenta-se:
+
 1. No **Princípio Republicano** (prestação de contas obrigatória de todo aquele que gere recursos públicos);
 2. No **Princípio da Indisponibilidade do Interesse Público** (o administrador gere patrimônio alheio);
 3. No **Sistema de Freios e Contrapesos (*Checks and Balances*)**, consagrado pelo art. 2º da CF/88, segundo o qual os Poderes Legislativo, Executivo e Judiciário são harmônicos e independentes, exercendo controles recíprocos uns sobre os outros.
@@ -127,6 +128,7 @@ Em razão do princípio da inafastabilidade da tutela jurisdicional (CF/88, art.
 ### 3.2 Anulação por Desvio de Finalidade e a Teoria dos Motivos Determinantes
 
 O controle judicial sobre atos discricionários não se restringe à literalidade da lei, alcançando a legalidade ampla e os princípios constitucionais:
+
 - **Desvio de Finalidade:** O Judiciário deve decretar a anulação do ato se restar demonstrado que a autoridade usou de sua competência legal para perseguir um desafeto pessoal, satisfazer capricho ou favorecer correligionários.
 - **Teoria dos Motivos Determinantes:** Se a motivação alegada no ato for comprovadamente falsa, inexistente ou contraditória com os fatos da realidade, o ato é nulo por vício de motivo, devendo o Judiciário anulá-lo com efeitos retroativos (*ex tunc*).
 
@@ -158,8 +160,8 @@ A alteração mais radical da Lei nº 14.230/2021 consistiu na **abolição tota
 1. **Exigência de Dolo Específico:** É necessária a comprovação de responsabilidade subjetiva com **dolo específico** para a tipificação de qualquer ato de improbidade administrativa (artigos 9º, 10 e 11). Não basta dolo genérico; exige-se a demonstração da vontade livre e consciente de alcançar o resultado ilícito, acompanhada do fim especial de agir.
 2. **Extinção da Culpa (Inclusive Culpa Grave):** A negligência crassa, a imprudência, a imperícia ou o erro de gestão administrativa, ainda que inescusáveis, **NÃO configuram improbidade administrativa**. O agente negligente pode responder disciplinarmente no estatuto funcional ou em ação regressiva civil comum de reparação ao erário, mas não sob a pecha desonrosa da improbidade.
 3. **Direito Intertemporal:**
-   - *Processos com trânsito em julgado:* A nova lei **NÃO retroage** para desconstituir condenações culposas já consolidadas pela coisa julgada material.
-   - *Processos em andamento:* A revogação da culpa **aplica-se imediatamente e de forma retroativa** a todas as ações de improbidade em curso em qualquer grau de jurisdição.
+    - *Processos com trânsito em julgado:* A nova lei **NÃO retroage** para desconstituir condenações culposas já consolidadas pela coisa julgada material.
+    - *Processos em andamento:* A revogação da culpa **aplica-se imediatamente e de forma retroativa** a todas as ações de improbidade em curso em qualquer grau de jurisdição.
 
 ```mermaid
 flowchart TD
@@ -194,11 +196,11 @@ Consiste em qualquer ação ou omissão dolosa que enseje, efetiva e comprovadam
 
 Trata de condutas dolosas que violam os deveres de honestidade, imparcialidade e legalidade expressamente descritos no texto da lei.
 - **ROL ESTRITAMENTE TAXATIVO (*Numerus Clausus*):** O art. 11 passou a ter um rol fechado. Somente configuram improbidade por violação a princípios as condutas literalmente previstas em seus incisos:
-  - *Inciso III:* Revelar fato ou circunstância de que tem ciência em razão das atribuições e que deva permanecer em segredo;
-  - *Inciso IV:* Negar publicidade aos atos oficiais (salvo sigilo legal);
-  - *Inciso V:* Frustrar a licitude de concurso público;
-  - *Inciso VIII:* Recusar cumprimento a lei federal sem declaração de inconstitucionalidade;
-  - *Inciso XI:* Praticar nepotismo (nomeação de cônjuge, companheiro ou parente até 3º grau).
+    - *Inciso III:* Revelar fato ou circunstância de que tem ciência em razão das atribuições e que deva permanecer em segredo;
+    - *Inciso IV:* Negar publicidade aos atos oficiais (salvo sigilo legal);
+    - *Inciso V:* Frustrar a licitude de concurso público;
+    - *Inciso VIII:* Recusar cumprimento a lei federal sem declaração de inconstitucionalidade;
+    - *Inciso XI:* Praticar nepotismo (nomeação de cônjuge, companheiro ou parente até 3º grau).
 
 ### 5.4 Matriz Comparativa de Sanções do Artigo 12 da LIA
 
@@ -251,11 +253,11 @@ O Secretário Municipal de Saúde de determinado município goiano determinou a 
 
 Diante do controle jurisdicional dos atos administrativos e da Teoria dos Motivos Determinantes:
 
-A) O ato de remoção é imune a qualquer controle jurisdicional, por consubstanciar exercício de mérito administrativo privativo do Poder Executivo municipal.  
-B) O Poder Judiciário deve decretar a anulação do ato de remoção, pois a comprovação da falsidade do motivo determinante contamina o ato com vício insanável de legalidade (desvio de finalidade).  
-C) Caberia ao Poder Judiciário unicamente revogar o ato de remoção a partir do trânsito em julgado da sentença com efeitos meramente prospectivos.  
-D) O Judiciário deve convalidar o ato e fixar uma nova justificativa substitutiva condizente com a conveniência do município.  
-E) A falsidade do motivo alegado não gera nulidade caso a autoridade possuísse competência formal para assinar a portaria de remoção.  
+* **A)** O ato de remoção é imune a qualquer controle jurisdicional, por consubstanciar exercício de mérito administrativo privativo do Poder Executivo municipal.
+* **B)** O Poder Judiciário deve decretar a anulação do ato de remoção, pois a comprovação da falsidade do motivo determinante contamina o ato com vício insanável de legalidade (desvio de finalidade).
+* **C)** Caberia ao Poder Judiciário unicamente revogar o ato de remoção a partir do trânsito em julgado da sentença com efeitos meramente prospectivos.
+* **D)** O Judiciário deve convalidar o ato e fixar uma nova justificativa substitutiva condizente com a conveniência do município.
+* **E)** A falsidade do motivo alegado não gera nulidade caso a autoridade possuísse competência formal para assinar a portaria de remoção.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O mérito administrativo não autoriza perseguição pessoal, retaliação nem encobre fraudes a princípios da moralidade e impessoalidade.
@@ -273,11 +275,11 @@ Durante procedimento licitatório no âmbito de uma autarquia estadual, o Direto
 
 À luz da Lei Federal nº 8.429/1992 com a redação conferida pela Lei Federal nº 14.230/2021 e da tese firmada pelo Supremo Tribunal Federal no **Tema 1.199**:
 
-A) O Diretor responderá por ato de improbidade administrativa causador de prejuízo ao erário (art. 10), cuja modalidade culposa permanece em pleno vigor no ordenamento jurídico pátrio.  
-B) A conduta do agente é atípica na esfera da Lei de Improbidade Administrativa, em razão da revogação da modalidade culposa e da exigência indispensável de dolo específico para a caracterização de atos de improbidade.  
-C) O Diretor responderá automaticamente por violação aos princípios administrativos (art. 11), para o qual a lei admite condenação por culpa grave inescusável.  
-D) A ausência de dolo isenta o Diretor de qualquer dever de ressarcimento do dano civilmente e de qualquer penalidade disciplinar interna.  
-E) A nova Lei de Improbidade Administrativa aplica-se apenas aos atos que resultem em enriquecimento ilícito pessoal do agente público.  
+* **A)** O Diretor responderá por ato de improbidade administrativa causador de prejuízo ao erário (art. 10), cuja modalidade culposa permanece em pleno vigor no ordenamento jurídico pátrio.
+* **B)** A conduta do agente é atípica na esfera da Lei de Improbidade Administrativa, em razão da revogação da modalidade culposa e da exigência indispensável de dolo específico para a caracterização de atos de improbidade.
+* **C)** O Diretor responderá automaticamente por violação aos princípios administrativos (art. 11), para o qual a lei admite condenação por culpa grave inescusável.
+* **D)** A ausência de dolo isenta o Diretor de qualquer dever de ressarcimento do dano civilmente e de qualquer penalidade disciplinar interna.
+* **E)** A nova Lei de Improbidade Administrativa aplica-se apenas aos atos que resultem em enriquecimento ilícito pessoal do agente público.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A Lei Federal nº 14.230/2021 revogou a modalidade culposa que existia no art. 10 da Lei nº 8.429/1992.
@@ -295,11 +297,11 @@ Determinada autoridade estadual foi condenada judicialmente em ação de improbi
 
 Em conformidade com o novo regime sancionatório estabelecido pela Lei Federal nº 14.230/2021 para os atos que atentam contra os princípios da Administração Pública (art. 11):
 
-A) A autoridade está sujeita cumulativamente à perda da função pública e à suspensão dos direitos políticos por até oito anos.  
-B) O juízo competente poderá aplicar apenas as sanções de pagamento de multa civil de até 24 vezes o valor da remuneração e proibição de contratar com o poder público pelo prazo de até 4 anos.  
-C) As sanções cominadas ao art. 11 são idênticas àquelas cominadas para os atos de enriquecimento ilícito do art. 9º.  
-D) A condenação por violação a princípios acarreta a indisponibilidade automática de todos os bens pessoais do agente condenado.  
-E) A penalidade de cassação de aposentadoria é de imposição obrigatória e imediata em qualquer condenação do art. 11.  
+* **A)** A autoridade está sujeita cumulativamente à perda da função pública e à suspensão dos direitos políticos por até oito anos.
+* **B)** O juízo competente poderá aplicar apenas as sanções de pagamento de multa civil de até 24 vezes o valor da remuneração e proibição de contratar com o poder público pelo prazo de até 4 anos.
+* **C)** As sanções cominadas ao art. 11 são idênticas àquelas cominadas para os atos de enriquecimento ilícito do art. 9º.
+* **D)** A condenação por violação a princípios acarreta a indisponibilidade automática de todos os bens pessoais do agente condenado.
+* **E)** A penalidade de cassação de aposentadoria é de imposição obrigatória e imediata em qualquer condenação do art. 11.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A Lei nº 14.230/2021 revogou as penalidades de perda da função pública e de suspensão de direitos políticos para as condenações fundamentadas exclusivamente no art. 11.
@@ -317,11 +319,11 @@ E) A penalidade de cassação de aposentadoria é de imposição obrigatória e 
 ### Questão 4 (FCC - Técnico de Controle Externo / Administrativa)
 No âmbito da sistemática de fiscalização dos atos estatais, o acompanhamento em tempo real realizado pelos auditores do Tribunal de Contas sobre a execução das despesas orçamentárias e as vistorias in loco realizadas em canteiros de obras durante a construção de uma rodovia estadual qualificam-se, quanto à origem e quanto ao momento do controle, respectivamente, como:
 
-A) Controle interno e controle prévio  
-B) Controle externo e controle concomitante  
-C) Controle interno e controle posterior  
-D) Controle externo e controle prévio  
-E) Controle jurisdicional e controle repressivo  
+* **A)** Controle interno e controle prévio
+* **B)** Controle externo e controle concomitante
+* **C)** Controle interno e controle posterior
+* **D)** Controle externo e controle prévio
+* **E)** Controle jurisdicional e controle repressivo
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A fiscalização exercida pelo Tribunal de Contas decorre de órgão autônomo externo em auxílio ao Legislativo (controle externo), e a fiscalização durante o andamento da obra não é controle prévio.
@@ -339,11 +341,11 @@ E) Controle jurisdicional e controle repressivo
 ### Questão 5 (FCC - Analista Judiciário)
 Qualquer cidadão brasileiro no gozo de seus direitos políticos tem legitimidade ativa constitucional para propor **Ação Popular** perante o Poder Judiciário visando à anulação de ato lesivo:
 
-A) Exclusivamente ao patrimônio financeiro da União, sendo inadmissível o manejo da ação contra atos lesivos de municípios ou Estados.  
-B) Ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural.  
-C) Aos direitos individuais homogêneos de consumidores bancários privados.  
-D) Exclusivamente a direitos patrimoniais de pessoas jurídicas de direito privado com fins lucrativos.  
-E) À honra subjetiva e intimidade pessoal de agentes públicos ocupantes de cargos políticos.  
+* **A)** Exclusivamente ao patrimônio financeiro da União, sendo inadmissível o manejo da ação contra atos lesivos de municípios ou Estados.
+* **B)** Ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural.
+* **C)** Aos direitos individuais homogêneos de consumidores bancários privados.
+* **D)** Exclusivamente a direitos patrimoniais de pessoas jurídicas de direito privado com fins lucrativos.
+* **E)** À honra subjetiva e intimidade pessoal de agentes públicos ocupantes de cargos políticos.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A Ação Popular pode ser proposta contra atos lesivos praticados por qualquer esfera federativa: União, Estados, Distrito Federal ou Municípios, bem como suas respectivas entidades descentralizadas.

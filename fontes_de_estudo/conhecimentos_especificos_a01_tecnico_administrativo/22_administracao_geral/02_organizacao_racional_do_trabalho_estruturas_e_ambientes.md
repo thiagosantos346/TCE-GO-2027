@@ -8,28 +8,28 @@
 
 ## 📌 Ementa / Itens do Edital
 - Organização Racional do Trabalho (ORT): fundamentos da abordagem de Frederick Taylor:
-  - Estudo dos tempos e movimentos (*Motion Study* de Frank e Lillian Gilbreth);
-  - Estudo da fadiga humana e ergonomia inicial;
-  - Divisão do trabalho e especialização extrema do operário;
-  - Desenho de cargos e tarefas simples, fragmentadas e repetitivas;
-  - Incentivos salariais e prêmios de produção por peça produzida (*Homo Economicus*);
-  - Condições ambientais de trabalho (iluminação, ventilação e conforto físico);
-  - Padronização de métodos, ferramentas e instrumentos;
-  - Supervisão funcional especializada;
+    - Estudo dos tempos e movimentos (*Motion Study* de Frank e Lillian Gilbreth);
+    - Estudo da fadiga humana e ergonomia inicial;
+    - Divisão do trabalho e especialização extrema do operário;
+    - Desenho de cargos e tarefas simples, fragmentadas e repetitivas;
+    - Incentivos salariais e prêmios de produção por peça produzida (*Homo Economicus*);
+    - Condições ambientais de trabalho (iluminação, ventilação e conforto físico);
+    - Padronização de métodos, ferramentas e instrumentos;
+    - Supervisão funcional especializada;
 - A dicotomia clássica entre Eficiência e Eficácia (visões de Chester Barnard e Peter Drucker):
-  - Eficiência: ênfase nos meios, métodos, custos, economia de insumos e processos (*doing things right*);
-  - Eficácia: ênfase nos fins, resultados, objetivos e alcance de metas quantitativas (*doing the right things*);
-  - A busca pela Efetividade no setor público (impacto e sustentabilidade social);
+    - Eficiência: ênfase nos meios, métodos, custos, economia de insumos e processos (*doing things right*);
+    - Eficácia: ênfase nos fins, resultados, objetivos e alcance de metas quantitativas (*doing the right things*);
+    - A busca pela Efetividade no setor público (impacto e sustentabilidade social);
 - Organizações Formais versus Organizações Informais:
-  - Organização Formal: deliberadamente planejada, representada pelo organograma oficial, regimentos, hierarquia e manuais;
-  - Organização Informal: emerge espontaneamente das relações sociais, interesses comuns, liderança informal e redes de comunicação lateral (*rádio-peão / grapevine*);
+    - Organização Formal: deliberadamente planejada, representada pelo organograma oficial, regimentos, hierarquia e manuais;
+    - Organização Informal: emerge espontaneamente das relações sociais, interesses comuns, liderança informal e redes de comunicação lateral (*rádio-peão / grapevine*);
 - Centralização versus Descentralização:
-  - Centralização da autoridade: vantagens (visão holística, uniformidade de decisões e menor custo de chefias) e desvantagens (lentidão e distanciamento da realidade da ponta);
-  - Descentralização da autoridade: vantagens (agilidade na ponta, motivação dos níveis inferiores e alívio da cúpula) e desvantagens (risco de desalinhamento e duplicação de estruturas);
-  - Princípios da delegação: a autoridade se delega, mas a responsabilidade última permanece com o superior delegante;
+    - Centralização da autoridade: vantagens (visão holística, uniformidade de decisões e menor custo de chefias) e desvantagens (lentidão e distanciamento da realidade da ponta);
+    - Descentralização da autoridade: vantagens (agilidade na ponta, motivação dos níveis inferiores e alívio da cúpula) e desvantagens (risco de desalinhamento e duplicação de estruturas);
+    - Princípios da delegação: a autoridade se delega, mas a responsabilidade última permanece com o superior delegante;
 - Ambientes Organizacionais:
-  - Ambiente Geral (Macroambiente): forças PESTEL (Políticas, Econômicas, Sociais, Tecnológicas, Ecológicas e Legais);
-  - Ambiente de Tarefa (Microambiente / Ambiente Operacional): clientes/cidadãos, fornecedores, concorrentes e órgãos reguladores e de fiscalização externa.
+    - Ambiente Geral (Macroambiente): forças PESTEL (Políticas, Econômicas, Sociais, Tecnológicas, Ecológicas e Legais);
+    - Ambiente de Tarefa (Microambiente / Ambiente Operacional): clientes/cidadãos, fornecedores, concorrentes e órgãos reguladores e de fiscalização externa.
 
 ---
 
@@ -106,6 +106,7 @@ flowchart LR
 
 > ⭐ **IMPORTANTE (EFICIÊNCIA VS. EFICÁCIA NAS NARRATIVAS DE PROVA):**  
 > Identifique os gatilhos no enunciado da FCC:  
+>
 > - Se o texto destaca "custos reduzidos, menos horas gastas, processos sem desperdício de papel, economia de insumos", a questão trata de **EFICIÊNCIA** (foco nos meios).  
 > - Se o texto destaca "meta de 100% de processos julgados alcançada, prazo final cumprido, entrega de 50 novas escolas", trata de **EFICÁCIA** (foco nos fins/metas).  
 > - Se o texto destaca "a mortalidade infantil caiu 40% na região após a inauguração das unidades", trata de **EFETIVIDADE** (foco no impacto social).
@@ -156,6 +157,7 @@ flowchart TD
 
 #### A Regra Áurea da Delegação de Autoridade:
 A delegação é o ato administrativo mediante o qual uma autoridade transfere atribuições decisórias e operacionais a um subordinado:
+
 * **O que se delega:** Delega-se a **autoridade formal** e a **atribuição executiva de desempenhar a tarefa**.
 * **O que NUNCA se delega:** A **responsabilidade final perante a organização permanece INDELEGÁVEL**! O superior que delega continua sendo plenamente responsável pelas falhas, irregularidades ou sucessos cometidos pelo subordinado delegado.
 
@@ -189,16 +191,16 @@ flowchart TD
 ```
 
 1. **Ambiente Geral (Macroambiente):** Conjunto amplo de condições genéricas e cenários que afetam todas as organizações de uma determinada sociedade. Analisado pelas variáveis **PESTEL**:
-   - **P**olíticas: estabilidade governamental, diretrizes do Executivo;
-   - **E**conômicas: taxa de juros, inflação, arrecadação tributária estadual;
-   - **S**ociais: pirâmide demográfica, nível educacional, demandas populares;
-   - **T**ecnológicas: inteligência artificial, computação em nuvem, digitalização de serviços;
-   - **E**cológicas: sustentabilidade ambiental, mudanças climáticas;
-   - **L**egais: reformas constitucionais, marcos regulatórios e leis orçamentárias.
+    - **P**olíticas: estabilidade governamental, diretrizes do Executivo;
+    - **E**conômicas: taxa de juros, inflação, arrecadação tributária estadual;
+    - **S**ociais: pirâmide demográfica, nível educacional, demandas populares;
+    - **T**ecnológicas: inteligência artificial, computação em nuvem, digitalização de serviços;
+    - **E**cológicas: sustentabilidade ambiental, mudanças climáticas;
+    - **L**egais: reformas constitucionais, marcos regulatórios e leis orçamentárias.
 2. **Ambiente de Tarefa (Microambiente / Ambiente Operacional):** Nicho específico no qual o órgão público atua de maneira imediata e diária para desempenhar suas competências regimentais. É composto por:
-   - **Cidadãos-usuários (jurisdicionados):** Destinatários finais dos serviços públicos e do controle da gestão;
-   - **Fornecedores:** Empresas concorrentes em licitações e contratos para fornecimento de bens e serviços;
-   - **Entidades de Controle e Regulação:** Tribunais de Contas, Ministério Público e agências fiscalizadoras.
+    - **Cidadãos-usuários (jurisdicionados):** Destinatários finais dos serviços públicos e do controle da gestão;
+    - **Fornecedores:** Empresas concorrentes em licitações e contratos para fornecimento de bens e serviços;
+    - **Entidades de Controle e Regulação:** Tribunais de Contas, Ministério Público e agências fiscalizadoras.
 
 ---
 

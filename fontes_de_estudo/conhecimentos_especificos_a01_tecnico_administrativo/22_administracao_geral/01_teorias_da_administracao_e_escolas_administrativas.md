@@ -8,14 +8,14 @@
 
 ## 📌 Ementa / Itens do Edital
 - Evolução histórica do pensamento administrativo e das escolas da Teoria Geral da Administração (TGA):
-  - **Administração Científica (Frederick W. Taylor):** Organização Racional do Trabalho (ORT), estudo dos tempos e movimentos, fadiga, divisão do trabalho e especialização do operário, incentivos salariais por peça (*Homo Economicus*), padronização e supervisão funcional;
-  - **Teoria Clássica da Administração (Henri Fayol):** visão anatômica da empresa, as seis funções básicas da empresa, funções do administrador (POCCC - Prever, Organizar, Comandar, Coordenar e Controlar) e os 14 princípios gerais da administração (ênfase na Unidade de Comando e Unidade de Direção);
-  - **Teoria das Relações Humanas (Elton Mayo):** a Experiência de Hawthorne, o *Homo Socialis*, grupos informais, relevância dos fatores psicossociais e normas do grupo sobre a produtividade;
-  - **Teoria da Burocracia (Max Weber):** tipos de dominação legítima (tradicional, carismática e racional-legal); características do modelo burocrático e disfunções da burocracia (Robert Merton);
-  - **Teoria Neoclássica (Peter Drucker):** princípios gerais redefinidos, ecletismo, foco nos objetivos práticos e Administração por Objetivos (APO);
-  - **Teoria Comportamental (Behaviorismo):** McGregor (Teoria X versus Teoria Y), Chester Barnard (organização como sistema cooperativo e aceitação da autoridade) e Herbert Simon (processo decisório e racionalidade limitada);
-  - **Teoria Geral dos Sistemas (Bertalanffy, Katz & Kahn):** a organização como sistema aberto, insumos, processamento, saídas, retroalimentação (*feedback*), entropia negativa, homeostase dinâmica e equifinalidade;
-  - **Teoria Contingencial:** abordagem situacional, ausência de princípios universais ("tudo é relativo"), estruturas mecanicistas versus orgânicas (Burns & Stalker) e influência da tecnologia (Woodward) e do ambiente (Lawrence & Lorsch);
+    - **Administração Científica (Frederick W. Taylor):** Organização Racional do Trabalho (ORT), estudo dos tempos e movimentos, fadiga, divisão do trabalho e especialização do operário, incentivos salariais por peça (*Homo Economicus*), padronização e supervisão funcional;
+    - **Teoria Clássica da Administração (Henri Fayol):** visão anatômica da empresa, as seis funções básicas da empresa, funções do administrador (POCCC - Prever, Organizar, Comandar, Coordenar e Controlar) e os 14 princípios gerais da administração (ênfase na Unidade de Comando e Unidade de Direção);
+    - **Teoria das Relações Humanas (Elton Mayo):** a Experiência de Hawthorne, o *Homo Socialis*, grupos informais, relevância dos fatores psicossociais e normas do grupo sobre a produtividade;
+    - **Teoria da Burocracia (Max Weber):** tipos de dominação legítima (tradicional, carismática e racional-legal); características do modelo burocrático e disfunções da burocracia (Robert Merton);
+    - **Teoria Neoclássica (Peter Drucker):** princípios gerais redefinidos, ecletismo, foco nos objetivos práticos e Administração por Objetivos (APO);
+    - **Teoria Comportamental (Behaviorismo):** McGregor (Teoria X versus Teoria Y), Chester Barnard (organização como sistema cooperativo e aceitação da autoridade) e Herbert Simon (processo decisório e racionalidade limitada);
+    - **Teoria Geral dos Sistemas (Bertalanffy, Katz & Kahn):** a organização como sistema aberto, insumos, processamento, saídas, retroalimentação (*feedback*), entropia negativa, homeostase dinâmica e equifinalidade;
+    - **Teoria Contingencial:** abordagem situacional, ausência de princípios universais ("tudo é relativo"), estruturas mecanicistas versus orgânicas (Burns & Stalker) e influência da tecnologia (Woodward) e do ambiente (Lawrence & Lorsch);
 - Metáforas organizacionais (Gareth Morgan): imagens da organização (máquinas, organismos, cérebros, culturas, sistemas políticos e prisões psíquicas).
 
 ---
@@ -64,6 +64,7 @@ flowchart LR
 
 > 🛑 **ATENÇÃO (CONCEPÇÃO DO HOMEM NAS ESCOLAS):**  
 > Memorize as visões do ser humano adotadas pelas teorias:  
+>
 > - *Homo Economicus:* Taylor e Fayol (motivado apenas pelo salário/peça);  
 > - *Homo Socialis:* Elton Mayo (motivado pela integração, afeto e aprovação grupal);  
 > - *Homo Burocraticus:* Max Weber (cumpridor fiel de regulamentos formais e procedimentos);  
@@ -95,13 +96,13 @@ flowchart TD
 #### B) A Teoria Clássica de Henri Fayol:
 1. **As Seis Funções Básicas da Empresa:** Funções Técnicas (produção), Comerciais (compra/venda), Financeiras (gestão de capital), de Segurança (proteção dos bens e pessoas), Contábeis (balanços, custos) e **Administrativas** (que coordenam e presidem as outras cinco).
 2. **As Funções do Administrador (POCCC):**
-   - **Prever (ou Planejar):** Visualizar o futuro e traçar o programa de ação institucional.
-   - **Organizar:** Construir o duplo organismo material e social da empresa.
-   - **Comandar:** Dirigir, orientar e instruir o corpo de funcionários.
-   - **Coordenar:** Ligar, unir, harmonizar e sincronizar todos os atos e esforços coletivos.
-   - **Controlar:** Verificar se tudo corre de acordo com o programa aprovado e as ordens expedidas.
+    - **Prever (ou Planejar):** Visualizar o futuro e traçar o programa de ação institucional.
+    - **Organizar:** Construir o duplo organismo material e social da empresa.
+    - **Comandar:** Dirigir, orientar e instruir o corpo de funcionários.
+    - **Coordenar:** Ligar, unir, harmonizar e sincronizar todos os atos e esforços coletivos.
+    - **Controlar:** Verificar se tudo corre de acordo com o programa aprovado e as ordens expedidas.
 3. **Os 14 Princípios Gerais da Administração:**
-   - Destaque absoluto em provas para a **Unidade de Comando** (cada agente tem apenas um chefe imediato de quem recebe ordens), a **Unidade de Direção** (um só chefe e um só programa para um conjunto de operações com o mesmo objetivo), a **Cadeia Escalar / Hierarquia** (linha de autoridade do topo à base) e a **Divisão do Trabalho**.
+    - Destaque absoluto em provas para a **Unidade de Comando** (cada agente tem apenas um chefe imediato de quem recebe ordens), a **Unidade de Direção** (um só chefe e um só programa para um conjunto de operações com o mesmo objetivo), a **Cadeia Escalar / Hierarquia** (linha de autoridade do topo à base) e a **Divisão do Trabalho**.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (UNIDADE DE COMANDO VS. SUPERVISÃO FUNCIONAL):**  
 > Questão predileta da FCC: contrapor Taylor e Fayol em matéria de chefia!  
@@ -143,6 +144,7 @@ flowchart TD
 
 #### B) Disfunções da Burocracia (Robert Merton):
 O sociólogo Robert Merton demonstrou que a tentativa de buscar o máximo de previsibilidade e conformidade gera anomalias patológicas indesejadas na prática gerencial:
+
 * **Deslocamento de Objetivos (*Goal Displacement*):** O apego cego e intransigente aos regulamentos faz com que o cumprimento formal da norma deixe de ser um meio e se torne o objetivo supremo do servidor. O funcionário atende a todas as formalidades burocráticas, mas não resolve a demanda real do cidadão.
 * **Superconformidade e Rigidez Procedimental:** Resistência categórica a qualquer inovação, flexibilização ou mudança de contexto.
 * **Excesso de Formalismo e Papelório (*Red Tape*):** Proliferação desmedida de formulários, assinaturas, carimbos e etapas que retardam o trâmite processual.
@@ -155,12 +157,12 @@ O sociólogo Robert Merton demonstrou que a tentativa de buscar o máximo de pre
 A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotando uma perspectiva realista, empírica e democrática do homem nas organizações:
 
 1. **Douglas McGregor (Teoria X versus Teoria Y):**
-   - **Teoria X (Visão Tradicional e Pessimista):** O indivíduo é preguiçoso, avesso ao trabalho, desprovido de ambição e evita responsabilidades. Exige supervisão cerrada, coerção, controle punitivo e recompensas pecuniárias extrínsecas.
-   - **Teoria Y (Visão Moderna e Otimista):** O esforço no trabalho é tão natural quanto o lazer. As pessoas são capazes de automotivação, criatividade, autodireção e buscam responsabilidades quando alinhadas aos propósitos institucionais.
+    - **Teoria X (Visão Tradicional e Pessimista):** O indivíduo é preguiçoso, avesso ao trabalho, desprovido de ambição e evita responsabilidades. Exige supervisão cerrada, coerção, controle punitivo e recompensas pecuniárias extrínsecas.
+    - **Teoria Y (Visão Moderna e Otimista):** O esforço no trabalho é tão natural quanto o lazer. As pessoas são capazes de automotivação, criatividade, autodireção e buscam responsabilidades quando alinhadas aos propósitos institucionais.
 2. **Chester Barnard (A Organização como Sistema Cooperativo):**
-   - Formulou a **Teoria da Aceitação da Autoridade**: a autoridade não flui compulsoriamente de cima para baixo. Ela só existe efetivamente quando o subordinado decide aceitar a ordem dada pelo superior, dentro de sua "zona de indiferença" (quando entende a ordem, julga-a compatível com os objetivos da organização e com seus valores pessoais).
+    - Formulou a **Teoria da Aceitação da Autoridade**: a autoridade não flui compulsoriamente de cima para baixo. Ela só existe efetivamente quando o subordinado decide aceitar a ordem dada pelo superior, dentro de sua "zona de indiferença" (quando entende a ordem, julga-a compatível com os objetivos da organização e com seus valores pessoais).
 3. **Herbert Simon (Processo Decisório e Racionalidade Limitada):**
-   - Demonstrou que o gestor atua como o **Homem Administrativo**, tomando decisões **satisfatórias** diante da escassez de tempo, imprecisão de dados e limitações de processamento cognitivo, sepultando o mito do *Homem Econômico* maximizador.
+    - Demonstrou que o gestor atua como o **Homem Administrativo**, tomando decisões **satisfatórias** diante da escassez de tempo, imprecisão de dados e limitações de processamento cognitivo, sepultando o mito do *Homem Econômico* maximizador.
 
 ---
 

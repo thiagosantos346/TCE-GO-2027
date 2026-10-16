@@ -17,28 +17,28 @@
 
 ## 🧭 Sumário
 - [1. Geração de Código Assistida por Inteligência Artificial](#1-geração-de-código-assistida-por-inteligência-artificial)
-  - [1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais](#11-scaffolding-código-repetitivo-boilerplate-e-cruds-estruturais)
-  - [1.2 Síntese de Algoritmos Complexos e Regras de Negócio](#12-síntese-de-algoritmos-complexos-e-regras-de-negócio)
-  - [1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos](#13-modernização-e-tradução-de-sistemas-legados-riscos-aritméticos)
-  - [1.4 Completamento Inteligente de Código: Ghost Text e AST Local](#14-completamento-inteligente-de-código-ghost-text-e-ast-local)
+    - [1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais](#11-scaffolding-código-repetitivo-boilerplate-e-cruds-estruturais)
+    - [1.2 Síntese de Algoritmos Complexos e Regras de Negócio](#12-síntese-de-algoritmos-complexos-e-regras-de-negócio)
+    - [1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos](#13-modernização-e-tradução-de-sistemas-legados-riscos-aritméticos)
+    - [1.4 Completamento Inteligente de Código: Ghost Text e AST Local](#14-completamento-inteligente-de-código-ghost-text-e-ast-local)
 - [2. Revisão Automatizada de Código (AI Code Review)](#2-revisão-automatizada-de-código-ai-code-review)
-  - [2.1 Linters Estáticos Tradicionais (AST/SAST) vs. Agentes de AI Code Review](#21-linters-estáticos-tradicionais-astsast-vs-agentes-de-ai-code-review)
-  - [2.2 Identificação de Code Smells, Débito Técnico e Violações de SOLID](#22-identificação-de-code-smells-débito-técnico-e-violações-de-solid)
-  - [2.3 Varredura Automática de Vulnerabilidades e Vazamento de Segredos](#23-varredura-automática-de-vulnerabilidades-e-vazamento-de-segredos)
-  - [2.4 Síntese de Pull Requests e Notas de Lançamento (Release Notes)](#24-síntese-de-pull-requests-e-notas-de-lançamento-release-notes)
+    - [2.1 Linters Estáticos Tradicionais (AST/SAST) vs. Agentes de AI Code Review](#21-linters-estáticos-tradicionais-astsast-vs-agentes-de-ai-code-review)
+    - [2.2 Identificação de Code Smells, Débito Técnico e Violações de SOLID](#22-identificação-de-code-smells-débito-técnico-e-violações-de-solid)
+    - [2.3 Varredura Automática de Vulnerabilidades e Vazamento de Segredos](#23-varredura-automática-de-vulnerabilidades-e-vazamento-de-segredos)
+    - [2.4 Síntese de Pull Requests e Notas de Lançamento (Release Notes)](#24-síntese-de-pull-requests-e-notas-de-lançamento-release-notes)
 - [3. Documentação Técnica e Geração de Contratos](#3-documentação-técnica-e-geração-de-contratos)
-  - [3.1 Docstrings, Javadoc e Comentários Semânticos](#31-docstrings-javadoc-e-comentários-semânticos)
-  - [3.2 Engenharia Reversa de Contratos de API (OpenAPI 3.0 / Swagger)](#32-engenharia-reversa-de-contratos-de-api-openapi-30--swagger)
-  - [3.3 Diagramação Arquitetural Declarativa com Mermaid.js e PlantUML](#33-diagramação-arquitetural-declarativa-com-mermaidjs-e-plantuml)
+    - [3.1 Docstrings, Javadoc e Comentários Semânticos](#31-docstrings-javadoc-e-comentários-semânticos)
+    - [3.2 Engenharia Reversa de Contratos de API (OpenAPI 3.0 / Swagger)](#32-engenharia-reversa-de-contratos-de-api-openapi-30--swagger)
+    - [3.3 Diagramação Arquitetural Declarativa com Mermaid.js e PlantUML](#33-diagramação-arquitetural-declarativa-com-mermaidjs-e-plantuml)
 - [4. Depuração (Debugging) e Diagnóstico de Erros Assistidos por IA](#4-depuração-debugging-e-diagnóstico-de-erros-assistidos-por-ia)
-  - [4.1 Análise de Stack Traces e Decodificação de Erros Críticos](#41-análise-de-stack-traces-e-decodificação-de-erros-críticos)
-  - [4.2 Análise Forense de Logs de Produção e Vazamentos de Recursos](#42-análise-forense-de-logs-de-produção-e-vazamentos-de-recursos)
-  - [4.3 Análise de Causa-Raiz (Root Cause Analysis - RCA) e Patches Mínimos](#43-análise-de-causa-raiz-root-cause-analysis---rca-e-patches-mínimos)
+    - [4.1 Análise de Stack Traces e Decodificação de Erros Críticos](#41-análise-de-stack-traces-e-decodificação-de-erros-críticos)
+    - [4.2 Análise Forense de Logs de Produção e Vazamentos de Recursos](#42-análise-forense-de-logs-de-produção-e-vazamentos-de-recursos)
+    - [4.3 Análise de Causa-Raiz (Root Cause Analysis - RCA) e Patches Mínimos](#43-análise-de-causa-raiz-root-cause-analysis---rca-e-patches-mínimos)
 - [5. Geração Automatizada de Testes de Software](#5-geração-automatizada-de-testes-de-software)
-  - [5.1 A Grande Armadilha: Testar a Implementação Defeituosa vs. o Comportamento](#51-a-grande-armadilha-testar-a-implementação-defeituosa-vs-o-comportamento)
-  - [5.2 Cobertura Sistemática de Casos de Borda (Edge Cases)](#52-cobertura-sistemática-de-casos-de-borda-edge-cases)
-  - [5.3 Geração de Cenários BDD Executáveis (Gherkin)](#53-geração-de-cenários-bdd-executáveis-gherkin)
-  - [5.4 Testes de Mutação (Mutation Testing): Avaliando a Real Eficácia dos Testes](#54-testes-de-mutação-mutation-testing-avaliando-a-real-eficácia-dos-testes)
+    - [5.1 A Grande Armadilha: Testar a Implementação Defeituosa vs. o Comportamento](#51-a-grande-armadilha-testar-a-implementação-defeituosa-vs-o-comportamento)
+    - [5.2 Cobertura Sistemática de Casos de Borda (Edge Cases)](#52-cobertura-sistemática-de-casos-de-borda-edge-cases)
+    - [5.3 Geração de Cenários BDD Executáveis (Gherkin)](#53-geração-de-cenários-bdd-executáveis-gherkin)
+    - [5.4 Testes de Mutação (Mutation Testing): Avaliando a Real Eficácia dos Testes](#54-testes-de-mutação-mutation-testing-avaliando-a-real-eficácia-dos-testes)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 - [7. Questões Comentadas & Prática Padrão FCC](#7-questões-comentadas--prática-padrão-fcc)
 
@@ -48,6 +48,7 @@
 
 ### 1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais
 A automação de código por meio de modelos generativos impacta profundamente a velocidade de entrega nas fases inaugurais de projetos:
+
 - **Redução do Esforço em Boilerplate:** Tarefas repetitivas e mecânicas — como a criação de classes de entidade (*JPA/Hibernate*), objetos de transferência de dados (*DTOs*), mapeadores (*Mappers/MapStruct*), repositórios (*Spring Data JPA*) e controladores REST — são geradas em segundos a partir de especificações de esquema relacional (DDL) ou contratos de interface.
 - **Anotações de Validação:** A IA infere e aplica automaticamente regras de validação padronizadas (`@NotNull`, `@Size`, `@NotBlank`, `@Email`, `@PositiveOrZero`), diminuindo falhas de integridade na camada de borda da API.
 - **Foco no Domínio:** Ao transferir a codificação mecânica de infraestrutura para a IA, os engenheiros de software concentram-se no núcleo das regras de negócio fiscais, auditoria orçamentária e conformidade jurídica.
@@ -56,6 +57,7 @@ A automação de código por meio de modelos generativos impacta profundamente a
 
 ### 1.2 Síntese de Algoritmos Complexos e Regras de Negócio
 A partir de especificações funcionais ricas redigidas em linguagem natural, modelos de linguagem avançados deduzem a lógica algorítmica imperativa correspondente:
+
 - **Cálculos Fiscais e Previdenciários:** Implementação de tabelas progressivas de alíquotas, regras de transição de benefícios e apuração de juros moratórios.
 - **Algoritmos em Grafos e Otimização:** Algoritmos de ordenação topológica para detecção de dependências cíclicas em fluxos de processos administrativos.
 - **Pré-requisito Vital:** A qualidade e corretude do algoritmo gerado dependem estritamente da clareza com que o desenvolvedor estabelece as **pré-condições, pós-condições e invariantes lógicas** na especificação enviada.
@@ -87,6 +89,7 @@ flowchart LR
 
 ### 1.4 Completamento Inteligente de Código: Ghost Text e AST Local
 Assistentes de desenvolvimento integrados à IDE operam combinando predição estatística de tokens com inspeção estrutural estática:
+
 - **Ghost Text:** Exibição em cinza de blocos inteiros de código sugerido antes da digitação.
 - **Contexto da AST (Abstract Syntax Tree):** O assistente inspeciona a árvore sintática do arquivo em edição, classes importadas, tipos retornados por métodos e abas adjacentes recentemente abertas, assegurando coerência tipográfica e semântica com o restante da solução.
 
@@ -123,6 +126,7 @@ flowchart TD
 
 ### 2.2 Identificação de Code Smells, Débito Técnico e Violações de SOLID
 Os modelos de revisão atuam ativamente na prevenção de débito técnico em PRs:
+
 - **Classes Deus (*God Classes*):** Alerta quando uma classe acumula dezenas de responsabilidades distintas, violando o Princípio da Responsabilidade Única (SRP).
 - **Complexidade Ciclomática Excessiva:** Identificação de encadeamentos profundos de estruturas condicionais (`if`/`else` aninhados) e proposição de refatoração para o padrão *Strategy* ou *Polimorfismo*.
 - **Código Duplicado e Obsolescência:** Identificação de reimplementações de funções utilitárias que já existem no ecossistema da biblioteca padrão.
@@ -131,6 +135,7 @@ Os modelos de revisão atuam ativamente na prevenção de débito técnico em PR
 
 ### 2.3 Varredura Automática de Vulnerabilidades e Vazamento de Segredos
 Durante o ciclo de revisão, os agentes aplicam filtros baseados nas diretrizes OWASP Top 10 e CWE:
+
 - **Injeção de SQL (SQL Injection):** Identificação de interpolação direta de parâmetros de usuário em consultas HQL/JPQL ou SQL puro, recomendando consultas parametrizadas (*Prepared Statements*).
 - **Vazamento de Credenciais (*Hardcoded Secrets*):** Detecção de chaves privadas, senhas de banco de dados, tokens de APIs e certificados digitais inseridos inadvertidamente em arquivos rastreados pelo Git.
 - **Cross-Site Scripting (XSS) e Desserialização Insegura:** Alerta sobre a renderização direta de payloads HTML sem sanitização prévia.
@@ -139,6 +144,7 @@ Durante o ciclo de revisão, os agentes aplicam filtros baseados nas diretrizes 
 
 ### 2.4 Síntese de Pull Requests e Notas de Lançamento (Release Notes)
 A IA lê o conjunto completo de alterações (*diffs*) entre branches e sintetiza automaticamente:
+
 - Um resumo executivo claro das mudanças para os revisores humanos;
 - Lista de arquivos alterados agrupados por domínio de impacto;
 - Minuta preliminar das notas de versão (*Release Notes*) em conformidade com o padrão *Keep a Changelog*.
@@ -149,6 +155,7 @@ A IA lê o conjunto completo de alterações (*diffs*) entre branches e sintetiz
 
 ### 3.1 Docstrings, Javadoc e Comentários Semânticos
 A documentação no nível do código-fonte é sintetizada de acordo com os padrões da linguagem:
+
 - **Java (Javadoc):** Descrição formal de classes, métodos, parâmetros (`@param`), valores de retorno (`@return`) e exceções disparadas (`@throws`).
 - **Python (PEP 257):** Docstrings estruturadas explicando o comportamento de funções, tipos de argumentos e invariantes de execução.
 - **Regra de Ouro:** A documentação gerada deve focar no **"PORQUÊ"** daquela decisão arquitetural, e não apenas na descrição óbvia do código que qualquer programador conseguiria ler diretamente.
@@ -157,6 +164,7 @@ A documentação no nível do código-fonte é sintetizada de acordo com os padr
 
 ### 3.2 Engenharia Reversa de Contratos de API (OpenAPI 3.0 / Swagger)
 Ao inspecionar classes controladoras (*controllers*) e modelos de dados DTO, a IA é capaz de gerar o contrato formal de API em sintaxe YAML/JSON:
+
 - Mapeamento de rotas, verbos HTTP e códigos de resposta (`200 OK`, `201 Created`, `400 Bad Request`, `404 Not Found`);
 - Descrição de esquemas de segurança no bloco `components/securitySchemes` (Bearer JWT, OAuth2);
 - Exemplos de payloads válidos de requisição e resposta.
@@ -165,6 +173,7 @@ Ao inspecionar classes controladoras (*controllers*) e modelos de dados DTO, a I
 
 ### 3.3 Diagramação Arquitetural Declarativa com Mermaid.js e PlantUML
 Em vez de diagramas estáticos desenhados em ferramentas gráficas externas (que ficam rapidamente desatualizados), o agente de IA sintetiza diagramas baseados em texto dentro da própria documentação Markdown:
+
 - **Diagramas de Classes e Entidade-Relacionamento:** Representação visual do modelo relacional a partir do código das entidades;
 - **Diagramas de Sequência:** Mapeamento visual das trocas de mensagens assíncronas entre microsserviços via filas Kafka ou chamadas HTTP REST.
 
@@ -182,6 +191,7 @@ Frameworks corporativos modernos emitem rastreamentos de pilha (*stack traces*) 
 
 ### 4.2 Análise Forense de Logs de Produção e Vazamentos de Recursos
 Ao processar logs em formato estruturado (JSON, Logstash, Log4j), a IA correlaciona eventos dispersos temporalmente:
+
 - **Esgotamento de Pool de Conexões (*Connection Pool Exhaustion*):** Detecta que determinados endpoints demoram para liberar conexões com o banco de dados por ausência de blocos `try-with-resources` (`AutoCloseable`), culminando no travamento do serviço.
 - **Condições de Corrida (*Race Conditions*):** Identifica acessos concorrentes desprotegidos a variáveis compartilhadas em memória entre múltiplas threads.
 
@@ -189,6 +199,7 @@ Ao processar logs em formato estruturado (JSON, Logstash, Log4j), a IA correlaci
 
 ### 4.3 Análise de Causa-Raiz (Root Cause Analysis - RCA) e Patches Mínimos
 Ao identificar a causa-raiz de um incidente, a boa prática da engenharia de software assistida por IA recomenda a formulação de **Patches Mínimos**:
+
 - O modelo deve propor **alterações cirúrgicas restritas ao estritamente necessário** para neutralizar o defeito;
 - Devem-se evitar refatorações cosméticas em massa durante a aplicação de correções críticas (*hotfixes*), minimizando o risco de efeitos colaterais indesejados no ambiente de produção.
 
@@ -209,6 +220,7 @@ flowchart TD
 ```
 
 O risco mais crítico na geração de testes por modelos de IA é o **viés de ancoragem no código implementado**:
+
 - Se o desenvolvedor fornecer um método que contém um bug e solicitar *"gere testes unitários para a função acima"*, a IA inferirá que o código fornecido representa o comportamento correto pretendido!
 - Ela formulará asserções (`assert`) que confirmam o valor errado gerado pelo código. O teste passará com sucesso na esteira de CI/CD, conferindo uma falsa sensação de blindagem contra falhas.
 
@@ -219,6 +231,7 @@ O risco mais crítico na geração de testes por modelos de IA é o **viés de a
 
 ### 5.2 Cobertura Sistemática de Casos de Borda (Edge Cases)
 Enquanto desenvolvedores humanos frequentemente testam apenas o caminho feliz (*happy path*), modelos de linguagem são excelentes na exploração exaustiva de condições limites:
+
 - **Nulidade e Strings:** Valores `null`, strings vazias (`""`), strings contendo apenas espaços em branco e caracteres especiais de injeção;
 - **Limites Numéricos:** Limites extremos de tipos inteiros (`Integer.MAX_VALUE`, `Integer.MIN_VALUE`), números negativos em grandezas financeiras e divisão por zero;
 - **Coleções:** Listas vazias, coleções com um único elemento e arrays com volumes massivos de dados;
@@ -281,11 +294,12 @@ flowchart LR
 Durante a fase de homologação de um módulo contábil no TCE-GO, um programador utilizou uma ferramenta de inteligência artificial generativa para gerar automaticamente uma suíte de testes unitários em JUnit a partir do código-fonte recém-escrito de uma classe de cálculo de multas.
 
 Ao analisar as práticas recomendadas e os riscos associados à geração de testes automatizados assistidos por IA, assinale a afirmativa correta:  
-A) O uso de IA para testes dispensa totalmente a verificação humana das asserções (`assert`), já que modelos de linguagem possuem prova formal matemática de corretude lógica.  
-B) A ferramenta de IA é incapaz de testar casos de borda (*edge cases*), limitando-se unicamente ao caminho feliz (*happy path*) pré-definido pelo framework de teste.  
-C) Um dos principais riscos da geração de testes com base apenas no código existente é o teste da implementação em vez do comportamento pretendido: se o código possuir um bug na fórmula matemática, a IA pode gerar testes que asseveram o resultado incorreto como sendo o esperado, perpetuando o defeito.  
-D) Testes unitários gerados por IA tornam desnecessárias as etapas subsequentes de testes de integração, testes de carga e testes de segurança da aplicação.  
-E) A IA é legalmente responsável por falhas funcionais que passem despercebidas para o ambiente de produção após a execução da suíte de testes sintetizada.  
+
+* **A)** O uso de IA para testes dispensa totalmente a verificação humana das asserções (`assert`), já que modelos de linguagem possuem prova formal matemática de corretude lógica.
+* **B)** A ferramenta de IA é incapaz de testar casos de borda (*edge cases*), limitando-se unicamente ao caminho feliz (*happy path*) pré-definido pelo framework de teste.
+* **C)** Um dos principais riscos da geração de testes com base apenas no código existente é o teste da implementação em vez do comportamento pretendido: se o código possuir um bug na fórmula matemática, a IA pode gerar testes que asseveram o resultado incorreto como sendo o esperado, perpetuando o defeito.
+* **D)** Testes unitários gerados por IA tornam desnecessárias as etapas subsequentes de testes de integração, testes de carga e testes de segurança da aplicação.
+* **E)** A IA é legalmente responsável por falhas funcionais que passem despercebidas para o ambiente de produção após a execução da suíte de testes sintetizada.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Modelos de IA operam por aproximação estatística probabilística e não fornecem provas formais matemáticas de corretude, sendo indispensável a validação das asserções por desenvolvedores humanos.
@@ -302,11 +316,12 @@ E) A IA é legalmente responsável por falhas funcionais que passem despercebida
 Uma equipe de desenvolvimento governamental decidiu integrar um agente de IA generativa ao fluxo de Integração Contínua (CI/CD) para realizar a revisão automática inicial (*automated code review*) de todos os *Pull Requests* antes da avaliação pelos pares técnicos.
 
 Considerando os benefícios e os cuidados dessa prática, é correto afirmar:  
-A) A ferramenta de IA deve receber credenciais irrestritas de administrador do repositório para realizar o merge automático em produção sem necessidade de aprovação humana.  
-B) A IA atua com alta eficácia na detecção precoce de más práticas de formatação (*code smells*), violações óbvias de princípios SOLID e potenciais credenciais ou chaves expostas (*hardcoded secrets*), mas a análise humana é indispensável para validação arquitetural e conformidade com regras de negócio.  
-C) Para submeter os trechos de código do tribunal à API pública de revisão da IA, é dispensável qualquer verificação contratual sobre a política de privacidade e uso dos dados pelo provedor da ferramenta.  
-D) A revisão de código por IA torna obsoletos os linters estáticos tradicionais (como SonarQube ou ESLint), pois LLMs executam compilação binária determinística com menor custo computacional.  
-E) A IA deve ser configurada para rejeitar sumariamente qualquer *Pull Request* que contenha comentários explicativos ou docstrings, priorizando código não documentado.  
+
+* **A)** A ferramenta de IA deve receber credenciais irrestritas de administrador do repositório para realizar o merge automático em produção sem necessidade de aprovação humana.
+* **B)** A IA atua com alta eficácia na detecção precoce de más práticas de formatação (*code smells*), violações óbvias de princípios SOLID e potenciais credenciais ou chaves expostas (*hardcoded secrets*), mas a análise humana é indispensável para validação arquitetural e conformidade com regras de negócio.
+* **C)** Para submeter os trechos de código do tribunal à API pública de revisão da IA, é dispensável qualquer verificação contratual sobre a política de privacidade e uso dos dados pelo provedor da ferramenta.
+* **D)** A revisão de código por IA torna obsoletos os linters estáticos tradicionais (como SonarQube ou ESLint), pois LLMs executam compilação binária determinística com menor custo computacional.
+* **E)** A IA deve ser configurada para rejeitar sumariamente qualquer *Pull Request* que contenha comentários explicativos ou docstrings, priorizando código não documentado.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A concessão de merge automático para IA em produção viola a segregação de funções e os princípios básicos de governança e controle de mudanças.
@@ -321,11 +336,12 @@ E) A IA deve ser configurada para rejeitar sumariamente qualquer *Pull Request* 
 
 ### Questão 3 (FCC - Padrão Concursos TI / Migração de Legado e Riscos Numéricos)
 Ao utilizar um assistente de inteligência artificial para traduzir uma rotina crítica de apuração de tributos escrita em COBOL para a linguagem Java, a equipe de engenharia de software de uma Secretaria de Fazenda deve prestar atenção especial a qual das seguintes armadilhas de código frequentemente induzidas pelo modelo?  
-A) O modelo recusar-se a criar métodos públicos por limitações de licença de software livre.  
-B) A substituição de variáveis com precisão decimal exata (`COMP-3` do COBOL) por tipos de ponto flutuante primitivos como `double` ou `float` em Java, causando erros cumulativos de arredondamento em cálculos de centavos e multas.  
-C) A conversão forçada de todo o código em scripts de inicialização de BIOS de hardware.  
-D) A exigência obrigatória de compilar o novo código Java utilizando exclusivamente placas aceleradoras de inteligência artificial na nuvem.  
-E) O bloqueio automático de conexões com bancos de dados relacionais padrão SQL.  
+
+* **A)** O modelo recusar-se a criar métodos públicos por limitações de licença de software livre.
+* **B)** A substituição de variáveis com precisão decimal exata (`COMP-3` do COBOL) por tipos de ponto flutuante primitivos como `double` ou `float` em Java, causando erros cumulativos de arredondamento em cálculos de centavos e multas.
+* **C)** A conversão forçada de todo o código em scripts de inicialização de BIOS de hardware.
+* **D)** A exigência obrigatória de compilar o novo código Java utilizando exclusivamente placas aceleradoras de inteligência artificial na nuvem.
+* **E)** O bloqueio automático de conexões com bancos de dados relacionais padrão SQL.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Modelos de IA não impõem restrições de visibilidade de métodos baseadas em licenças de código aberto.
@@ -342,11 +358,12 @@ E) O bloqueio automático de conexões com bancos de dados relacionais padrão S
 Em um incidente de produção no qual um microsserviço de emissão de guias de recolhimento apresenta travamento intermitente por esgotamento de conexões com o banco de dados (*connection pool exhaustion*), a equipe recorreu a um modelo de IA para auxiliar na depuração através da análise dos logs de eventos e do código da aplicação.
 
 A respeito da atuação da IA no processo de depuração (*debugging*), assinale a afirmativa correta:  
-A) O modelo é capaz de interpretar o stack trace e identificar que certos blocos de transação de banco de dados não estão liberando conexões em blocos `finally` ou que falta o fechamento automático via blocos `try-with-resources`.  
-B) A IA altera os servidores físicos da infraestrutura em tempo real sem emitir registros nos logs de auditoria.  
-C) Ferramentas de IA são incapazes de analisar arquivos de log em formato texto estruturado como JSON ou Logstash.  
-D) O uso de IA para diagnóstico exime a necessidade de a equipe reproduzir o problema em ambientes de homologação.  
-E) Modelos de linguagem conseguem interceptar o fluxo elétrico das fontes de alimentação dos servidores para eliminar deadlocks.  
+
+* **A)** O modelo é capaz de interpretar o stack trace e identificar que certos blocos de transação de banco de dados não estão liberando conexões em blocos `finally` ou que falta o fechamento automático via blocos `try-with-resources`.
+* **B)** A IA altera os servidores físicos da infraestrutura em tempo real sem emitir registros nos logs de auditoria.
+* **C)** Ferramentas de IA são incapazes de analisar arquivos de log em formato texto estruturado como JSON ou Logstash.
+* **D)** O uso de IA para diagnóstico exime a necessidade de a equipe reproduzir o problema em ambientes de homologação.
+* **E)** Modelos de linguagem conseguem interceptar o fluxo elétrico das fontes de alimentação dos servidores para eliminar deadlocks.
 
 > **Comentário Detalhado:**
 > - **A)** **CORRETA.** Modelos de linguagem são altamente eficazes no reconhecimento de padrões de vazamento de recursos (*resource leaks*), apontando com exatidão métodos onde objetos de conexão JDBC não foram encapsulados em blocos `try-with-resources` (`AutoCloseable`), provocando a retenção indevida de conexões que esgota o pool sob carga.
@@ -363,11 +380,12 @@ E) Modelos de linguagem conseguem interceptar o fluxo elétrico das fontes de al
 Para aferir a real qualidade de uma suite de testes unitários sintetizada por uma ferramenta de IA generativa, um arquiteto de software sugeriu a aplicação de Testes de Mutação (*Mutation Testing*).
 
 O princípio básico dos Testes de Mutação para validar a eficácia da suíte de testes gerada pela IA consiste em:  
-A) Modificar os testes até que a taxa de cobertura de código atinja exatamente 200%.  
-B) Introduzir modificações sintáticas pontuais e deliberadas no código-fonte sob teste (mutantes), verificando se a suíte de testes é capaz de falhar ao executá-los; caso os testes continuem passando mesmo com as alterações defeituosas no código, evidencia-se a ineficácia das asserções dos testes gerados.  
-C) Treinar um novo modelo de IA que substitui todo o código da aplicação por scripts em shell script.  
-D) Validar unicamente a velocidade de inicialização do sistema operacional da máquina onde o teste é executado.  
-E) Comparar a quantidade de caracteres do código com o tamanho do disco rígido da estação de trabalho.  
+
+* **A)** Modificar os testes até que a taxa de cobertura de código atinja exatamente 200%.
+* **B)** Introduzir modificações sintáticas pontuais e deliberadas no código-fonte sob teste (mutantes), verificando se a suíte de testes é capaz de falhar ao executá-los; caso os testes continuem passando mesmo com as alterações defeituosas no código, evidencia-se a ineficácia das asserções dos testes gerados.
+* **C)** Treinar um novo modelo de IA que substitui todo o código da aplicação por scripts em shell script.
+* **D)** Validar unicamente a velocidade de inicialização do sistema operacional da máquina onde o teste é executado.
+* **E)** Comparar a quantidade de caracteres do código com o tamanho do disco rígido da estação de trabalho.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Cobertura de código é uma porcentagem estritamente limitada ao intervalo de 0% a 100%.

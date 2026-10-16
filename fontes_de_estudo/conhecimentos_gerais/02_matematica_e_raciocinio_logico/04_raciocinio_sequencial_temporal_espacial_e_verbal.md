@@ -9,43 +9,43 @@
 
 ## 📌 Ementa / Itens do Edital
 - Compreensão e elaboração da lógica das situações por meio de:
-  - Raciocínio sequencial.
-  - Orientação espacial e temporal.
-  - Formação de conceitos e discriminação de elementos.
-  - Raciocínio verbal e matemático aplicado.
-  - Problemas de verdades e mentiras.
+    - Raciocínio sequencial.
+    - Orientação espacial e temporal.
+    - Formação de conceitos e discriminação de elementos.
+    - Raciocínio verbal e matemático aplicado.
+    - Problemas de verdades e mentiras.
 
 ---
 
 ## 🧭 Sumário
 - [1. Raciocínio Sequencial e Padrões Numéricos e Literais](#1-raciocínio-sequencial-e-padrões-numéricos-e-literais)
-  - [1.1 Sequências Numéricas e Relações de Recorrência](#11-sequências-numéricas-e-relações-de-recorrência)
-  - [1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial](#12-sequências-alfanuméricas-e-ordem-alfabética-oficial)
-  - [1.3 Padrões Literais por Iniciais Semânticas](#13-padrões-literais-por-iniciais-semânticas)
-  - [1.4 Sequências Cíclicas e Resolução por Aritmética Modular](#14-sequências-cíclicas-e-resolução-por-aritmética-modular)
+    - [1.1 Sequências Numéricas e Relações de Recorrência](#11-sequências-numéricas-e-relações-de-recorrência)
+    - [1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial](#12-sequências-alfanuméricas-e-ordem-alfabética-oficial)
+    - [1.3 Padrões Literais por Iniciais Semânticas](#13-padrões-literais-por-iniciais-semânticas)
+    - [1.4 Sequências Cíclicas e Resolução por Aritmética Modular](#14-sequências-cíclicas-e-resolução-por-aritmética-modular)
 - [2. Orientação Temporal, Calendários e Relógios](#2-orientação-temporal-calendários-e-relógios)
-  - [2.1 Contagem de Dias e Aritmética Módulo 7](#21-contagem-de-dias-e-aritmética-módulo-7)
-  - [2.2 Regras de Anos Bissextos e Deslocamento Anual](#22-regras-de-anos-bissextos-e-deslocamento-anual)
-  - [2.3 Cálculo do Ângulo entre Ponteiros de Relógio](#23-cálculo-do-ângulo-entre-ponteiros-de-relógio)
-  - [2.4 Relações Temporais Relativas de Ontem e Amanhã](#24-relações-temporais-relativas-de-ontem-e-amanhã)
+    - [2.1 Contagem de Dias e Aritmética Módulo 7](#21-contagem-de-dias-e-aritmética-módulo-7)
+    - [2.2 Regras de Anos Bissextos e Deslocamento Anual](#22-regras-de-anos-bissextos-e-deslocamento-anual)
+    - [2.3 Cálculo do Ângulo entre Ponteiros de Relógio](#23-cálculo-do-ângulo-entre-ponteiros-de-relógio)
+    - [2.4 Relações Temporais Relativas de Ontem e Amanhã](#24-relações-temporais-relativas-de-ontem-e-amanhã)
 - [3. Orientação Espacial, Transformações e Dobradura de Figuras](#3-orientação-espacial-transformações-e-dobradura-de-figuras)
-  - [3.1 Rotações no Plano Bidimensional e Reflexões Axiais](#31-rotações-no-plano-bidimensional-e-reflexões-axiais)
-  - [3.2 Planificação e Montagem de Cubos: A Regra das Faces Opostas](#32-planificação-e-montagem-de-cubos-a-regra-das-faces-opostas)
-  - [3.3 Vistas Ortogonais de Pilhas de Blocos e Cubos](#33-vistas-ortogonais-de-pilhas-de-blocos-e-cubos)
+    - [3.1 Rotações no Plano Bidimensional e Reflexões Axiais](#31-rotações-no-plano-bidimensional-e-reflexões-axiais)
+    - [3.2 Planificação e Montagem de Cubos: A Regra das Faces Opostas](#32-planificação-e-montagem-de-cubos-a-regra-das-faces-opostas)
+    - [3.3 Vistas Ortogonais de Pilhas de Blocos e Cubos](#33-vistas-ortogonais-de-pilhas-de-blocos-e-cubos)
 - [4. Formação de Conceitos e Discriminação de Elementos](#4-formação-de-conceitos-e-discriminação-de-elementos)
-  - [4.1 Identificação do Elemento Intruso em Conjuntos](#41-identificação-do-elemento-intruso-em-conjuntos)
-  - [4.2 Analogias Estruturais e Geométricas](#42-analogias-estruturais-e-geométricas)
+    - [4.1 Identificação do Elemento Intruso em Conjuntos](#41-identificação-do-elemento-intruso-em-conjuntos)
+    - [4.2 Analogias Estruturais e Geométricas](#42-analogias-estruturais-e-geométricas)
 - [5. Raciocínio Verbal e Problemas de Verdades e Mentiras](#5-raciocínio-verbal-e-problemas-de-verdades-e-mentiras)
-  - [5.1 O Princípio do Terceiro Excluído e da Não Contradição](#51-o-princípio-do-terceiro-excluído-e-da-não-contradição)
-  - [5.2 O Método do Par Contraditório](#52-o-método-do-par-contraditório)
-  - [5.3 O Método da Suposição Hipotética Dirigida](#53-o-método-da-suposição-hipotética-dirigida)
+    - [5.1 O Princípio do Terceiro Excluído e da Não Contradição](#51-o-princípio-do-terceiro-excluído-e-da-não-contradição)
+    - [5.2 O Método do Par Contraditório](#52-o-método-do-par-contraditório)
+    - [5.3 O Método da Suposição Hipotética Dirigida](#53-o-método-da-suposição-hipotética-dirigida)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
 - [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-  - [Questão 01](#questão-01)
-  - [Questão 02](#questão-02)
-  - [Questão 03](#questão-03)
-  - [Questão 04](#questão-04)
-  - [Questão 05](#questão-05)
+    - [Questão 01](#questão-01)
+    - [Questão 02](#questão-02)
+    - [Questão 03](#questão-03)
+    - [Questão 04](#questão-04)
+    - [Questão 05](#questão-05)
 
 ---
 
@@ -56,6 +56,7 @@ O raciocínio sequencial investiga a capacidade de identificar leis de formaçã
 ### 1.1 Sequências Numéricas e Relações de Recorrência
 
 As sequências de números exploradas em concursos estruturam-se segundo diferentes padrões formativos:
+
 1. **Progressões Aritméticas (PA) e Geométricas (PG):** Apresentam saltos aditivos constantes ($a_n = a_{n-1} + r$) ou multiplicativos constantes ($a_n = a_{n-1} \times q$).
 2. **Diferenças Sucessivas em Progressão:** A diferença entre termos consecutivos não é constante, mas forma uma nova sequência com lei própria (ex.: diferenças que dobram a cada passo: $+2, +4, +8, +16, +32\dots$).
 3. **Relações de Recorrência Mista:** Cada termo depende do anterior mediante combinação de operações aritméticas:
@@ -76,6 +77,7 @@ As sequências que intercalam letras e números utilizam a posição ordinal das
 ### 1.3 Padrões Literais por Iniciais Semânticas
 
 Pegadinha clássica em provas da FCC consiste em sequências aparentemente caóticas cujas letras representam as iniciais de uma série semântica predeterminada da língua:
+
 * Iniciais dos dias da semana: **D, S, T, Q, Q, S, S** (Domingo, Segunda, Terça, Quarta, Quinta, Sexta, Sábado);
 * Iniciais dos meses do ano: **J, F, M, A, M, J, J, A, S, O, N, D**;
 * Iniciais dos numerais por extenso: **U, D, T, Q, C, S, S, O, N, D** (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez).
@@ -119,12 +121,13 @@ Avança-se 1 dia a partir da quinta-feira, alcançando-se infalivelmente a **sex
 2. **Deslocamento em Ano Bissexto:** Possui 366 dias (acréscimo do dia 29 de fevereiro):
    $$366 = 52 \times 7 + 2 \implies \text{Avança 2 dias da semana}$$
 3. **Critério Astronômico de Bissextilidade:**
-   * É bissexto todo ano divisível por 4;
-   * Exceto os anos centenários (terminados em 00), que somente são bissextos se forem divisíveis por 400 (ex.: o ano 2000 foi bissexto; os anos 1900 e 2100 **não** são bissextos).
+    * É bissexto todo ano divisível por 4;
+    * Exceto os anos centenários (terminados em 00), que somente são bissextos se forem divisíveis por 400 (ex.: o ano 2000 foi bissexto; os anos 1900 e 2100 **não** são bissextos).
 
 ### 2.3 Cálculo do Ângulo entre Ponteiros de Relógio
 
 Em um mostrador circular analógico tradicional ($360^\circ$ divididos em 12 horas e 60 minutos):
+
 * O ponteiro dos minutos desloca-se a uma velocidade angular de:
   $$v_M = \frac{360^\circ}{60 \text{ min}} = 6^\circ/\text{min}$$
 * O ponteiro das horas desloca-se a uma velocidade de:
@@ -136,6 +139,7 @@ Em um mostrador circular analógico tradicional ($360^\circ$ divididos em 12 hor
 ### 2.4 Relações Temporais Relativas de Ontem e Amanhã
 
 Problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia **Hoje** é a origem $0$:
+
 * Hoje = $0$; Amanhã = $+1$; Depois de amanhã = $+2$;
 * Ontem = $-1$; Anteontem = $-2$.
 Monta-se uma equação de primeiro grau simples para encontrar a posição do dia de referência.
@@ -163,13 +167,14 @@ A planificação de um hexaedro regular (cubo) compõe-se de 6 quadrados dispost
 
 #### O Teorema Infalível das Faces Opostas:
 1. Em qualquer fileira retilínea com 3 ou 4 quadrados consecutivos, **duas faces separadas por exatamente uma face intermediária formam um par de faces diametralmente opostas no cubo montado**.
-   * No esquema acima: $\heartsuit$ é oposta a $\diamondsuit$ (separadas por $\spadesuit$); $\spadesuit$ é oposta a $\clubsuit$ (separadas por $\diamondsuit$).
+    * No esquema acima: $\heartsuit$ é oposta a $\diamondsuit$ (separadas por $\spadesuit$); $\spadesuit$ é oposta a $\clubsuit$ (separadas por $\diamondsuit$).
 2. As abas laterais que sobram dobram-se formando o outro par oposto: $\bigstar$ é oposta a $\blacktriangle$.
 3. **Propriedade Inviolável:** Duas faces opostas **nunca podem ser vizinhas adjacentes** e **jamais aparecem juntas em uma mesma visão tridimensional ortogonal do cubo**.
 
 ### 3.3 Vistas Ortogonais de Pilhas de Blocos e Cubos
 
 Consiste em determinar a projeção visual bidimensional de uma estrutura tridimensional de blocos cúbicos a partir de pontos de vista fixos:
+
 * Vista Superior (planta baixa vista de cima);
 * Vista Frontal (elevação frontal);
 * Vista Lateral Esquerda ou Direita.
@@ -181,6 +186,7 @@ Consiste em determinar a projeção visual bidimensional de uma estrutura tridim
 ### 4.1 Identificação do Elemento Intruso em Conjuntos
 
 Exige identificar a propriedade lógica oculta que une a maioria dos elementos de um rol e discriminar o único elemento que destoa dessa harmonia funcional ou geométrica:
+
 * Critérios numéricos: paridade, números primos, quadrados perfeitos;
 * Critérios geométricos: número de vértices, eixos de simetria, concavidade;
 * Critérios morfológicos/verbais: número de sílabas, classe gramatical, campo semântico.
@@ -216,6 +222,7 @@ flowchart LR
 ### 5.3 O Método da Suposição Hipotética Dirigida
 
 Caso não haja contradição explícita direta entre os depoimentos:
+
 1. Fixa-se a culpa hipotética em um dos suspeitos (ex.: *"Suponha que o culpado seja Fernando"*);
 2. Avalia-se a veracidade de cada depoimento sob essa premissa;
 3. Se a quantidade de verdades e mentiras bater com o enunciado (ex.: 3 verdades e 1 mentira), a hipótese é a solução final;
@@ -248,6 +255,7 @@ Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o
 
 > **Comentário Detalhado:**
 > Análise do padrão cíclico e frequência da letra:
+>
 > 1. O bloco básico repetitivo é a palavra **CONTROLE**, constituída por $P = 8$ letras ordenadas:
 >    - Posição 1: C
 >    - Posição 2: **O** (primeira ocorrência de O)
@@ -269,6 +277,7 @@ Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o
 >    - Total acumulado: $506 + 1 = \mathbf{507 \text{ vezes}}$.
 >
 > Análise individual das alternativas:
+>
 > - **A)** Incorreta. Erra ao indicar 506 ocorrências de "O", esquecendo de computar a letra O da posição 2 do ciclo incompleto.
 > - **B)** Incorreta. Aponta a letra T (que corresponderia a resto 4) e contagem desatualizada de O.
 > - **C)** Correta. A letra na 2027ª posição é **N** (resto 3) e a letra "O" foi grafada $253 \times 2 + 1 = \mathbf{507}$ vezes.
@@ -298,6 +307,7 @@ Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles 
 
 > **Comentário Detalhado:**
 > Resolução estruturada pelo método do par contraditório:
+>
 > 1. Identificação da contradição frontal:
 >    - Daniel afirma: *"Fernando é o responsável pelo vazamento"*.
 >    - Fernando afirma: *"Daniel está mentindo"*.
@@ -314,6 +324,7 @@ Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles 
 >    - Portanto, quem vazou o relatório foi **Fernando** e quem mentiu foi **Fernando**.
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. Aponta Daniel como mentiroso, o que anularia a autoria de Fernando.
 > - **B)** Incorreta. Inverte a relação de autoria e mentira.
 > - **C)** Correta. Fernando é o responsável pelo vazamento e foi ele mesmo quem mentiu no interrogatório.
@@ -338,6 +349,7 @@ O último dia desse prazo de 43 dias corridos recairá em uma:
 
 > **Comentário Detalhado:**
 > Aplicação da aritmética modular de base 7:
+>
 > 1. Ponto de partida cronológico:
 >    - Publicação em plenário: quinta-feira.
 >    - O prazo de 43 dias começa a transcorrer a partir do marco zero da publicação.
@@ -350,6 +362,7 @@ O último dia desse prazo de 43 dias corridos recairá em uma:
 > 3. Logo, o 43º dia do prazo transcorrerá em uma sexta-feira.
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. Segunda-feira demandaria resto 4 na divisão por 7.
 > - **B)** Incorreta. Terça-feira demandaria resto 5.
 > - **C)** Incorreta. Quarta-feira demandaria resto 6.
@@ -375,6 +388,7 @@ O próximo termo dessa sequência e a lei de formação que rege seus elementos 
 
 > **Comentário Detalhado:**
 > Identificação da lei de formação por diferenças e recorrência:
+>
 > 1. Calculando a diferença entre termos consecutivos:
 >    - $5 - 3 = 2 = 2^1$
 >    - $9 - 5 = 4 = 2^2$
@@ -393,6 +407,7 @@ O próximo termo dessa sequência e a lei de formação que rege seus elementos 
 >    A lei estruturante expressa-se perfeitamente como o **dobro do termo anterior subtraído de 1** ($a_n = 2a_{n-1} - 1$).
 >
 > Análise das alternativas:
+>
 > - **A)** Correta. O próximo elemento é 129 e a relação de recorrência é $2x - 1$.
 > - **B)** Incorreta. Se somasse 1, a sequência seria $3, 7, 15, 31, 63, 127$.
 > - **C)** Incorreta. A soma dos dois termos precedentes (estilo Fibonacci) geraria $33 + 65 = 98$, divergindo de 97 e da lógica da sequência.
@@ -423,6 +438,7 @@ Ao montar o cubo a partir dessa planificação, a face que ficará **diametralme
 
 > **Comentário Detalhado:**
 > Análise estrutural de planificação e dobradura de cubos:
+>
 > 1. Na fileira horizontal com quatro quadrados adjacentes $[ \heartsuit ] \ [ \spadesuit ] \ [ \diamondsuit ] \ [ \clubsuit ]$:
 >    - Pelo teorema das faces opostas em planificações poliédricas, quadrados dispostos na mesma fileira separados por exatamente um quadrado intermediário dobram-se em planos paralelos, tornando-se **faces opostas**.
 >    - $\heartsuit$ separa-se de $\diamondsuit$ por $\spadesuit \implies \heartsuit$ é oposta a $\diamondsuit$.
@@ -431,6 +447,7 @@ Ao montar o cubo a partir dessa planificação, a face que ficará **diametralme
 > 3. Logo, a face que se posiciona diametralmente oposta à face de Espadas ($\spadesuit$) é a face de Paus ($\clubsuit$).
 >
 > Análise individual das alternativas:
+>
 > - **A)** Incorreta. Copas ($\heartsuit$) dobra em ângulo reto, ficando adjacente a Espadas.
 > - **B)** Incorreta. Ouros ($\diamondsuit$) é face imediatamente vizinha (adjacente) de Espadas.
 > - **C)** Correta. Paus ($\clubsuit$) é a face diametralmente oposta a Espadas ($\spadesuit$).

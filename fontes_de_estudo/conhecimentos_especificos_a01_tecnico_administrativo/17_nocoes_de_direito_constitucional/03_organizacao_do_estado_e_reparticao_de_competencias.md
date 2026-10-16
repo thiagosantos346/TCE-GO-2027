@@ -12,9 +12,9 @@
 - Da organização político-administrativa do Estado brasileiro (Artigos 18 e 19 da CF/88): forma federativa, autonomia dos entes e vedações federativas.
 - Da União, dos Estados Federados, do Distrito Federal e dos Municípios: bens públicos, criação e desmembramento de entes, e competências materiais e legislativas.
 - Repartição constitucional de competências:
-  - Competências materiais exclusivas da União (Art. 21) e comuns de todos os entes (Art. 23);
-  - Competências legislativas privativas da União (Art. 22) e concorrentes entre União, Estados e DF (Art. 24);
-  - Competências remanescentes/residuais dos Estados (Art. 25) e competências de interesse local dos Municípios (Art. 30).
+    - Competências materiais exclusivas da União (Art. 21) e comuns de todos os entes (Art. 23);
+    - Competências legislativas privativas da União (Art. 22) e concorrentes entre União, Estados e DF (Art. 24);
+    - Competências remanescentes/residuais dos Estados (Art. 25) e competências de interesse local dos Municípios (Art. 30).
 - Intervenção Federal e Estadual (Artigos 34 a 36 da CF/88): hipóteses, princípios sensíveis e procedimento.
 - Regime constitucional da Administração Pública (Artigo 37 da CF/88): princípios fundamentais, concurso público, cargos em comissão e funções de confiança, teto remuneratório e regras de acumulação de cargos.
 - Servidores públicos civis (Artigos 38 a 41 da CF/88): exercício de mandato eletivo, estágio probatório, estabilidade aos 3 anos, avaliação especial de desempenho e hipóteses constitucionais taxativas de perda do cargo público estável.
@@ -23,19 +23,19 @@
 
 ## 🧭 Sumário
 1. [Forma Federativa e Organização Político-Administrativa](#1-forma-federativa-e-organização-político-administrativa)
-   - 1.1 [Características da Federação Brasileira e Autonomia dos Entes](#11-características-da-federação-brasileira-e-autonomia-dos-entes)
-   - 1.2 [Vedações Constitucionais Federativas (Art. 19)](#12-vedações-constitucionais-federativas-art-19)
-   - 1.3 [Bens Públicos Constitucionais e Criação de Novos Entes](#13-bens-públicos-constitucionais-e-criação-de-novos-entes)
+    - 1.1 [Características da Federação Brasileira e Autonomia dos Entes](#11-características-da-federação-brasileira-e-autonomia-dos-entes)
+    - 1.2 [Vedações Constitucionais Federativas (Art. 19)](#12-vedações-constitucionais-federativas-art-19)
+    - 1.3 [Bens Públicos Constitucionais e Criação de Novos Entes](#13-bens-públicos-constitucionais-e-criação-de-novos-entes)
 2. [O Modelo Constitucional de Repartição de Competências](#2-o-modelo-constitucional-de-repartição-de-competências)
-   - 2.1 [Competências Legislativas: Privativa da União versus Concorrente](#21-competências-legislativas-privativa-da-união-versus-concorrente)
-   - 2.2 [Competências Administrativas: Exclusivas e Comuns](#22-competências-administrativas-exclusivas-e-comuns)
-   - 2.3 [Competências dos Estados e Municípios](#23-competências-dos-estados-e-municípios)
+    - 2.1 [Competências Legislativas: Privativa da União versus Concorrente](#21-competências-legislativas-privativa-da-união-versus-concorrente)
+    - 2.2 [Competências Administrativas: Exclusivas e Comuns](#22-competências-administrativas-exclusivas-e-comuns)
+    - 2.3 [Competências dos Estados e Municípios](#23-competências-dos-estados-e-municípios)
 3. [Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual](#3-mecanismos-excepcionais-de-equilíbrio-intervenção-federal-e-estadual)
 4. [Regime Constitucional da Administração Pública e Servidores (Arts. 37 a 41)](#4-regime-constitucional-da-administração-pública-e-servidores-arts-37-a-41)
-   - 4.1 [Concurso Público, Funções de Confiança e Cargos em Comissão](#41-concurso-público-funções-de-confiança-e-cargos-em-comissão)
-   - 4.2 [Regra Constitucional da Não-Acumulação e Exceções (Art. 37, XVI)](#42-regra-constitucional-da-não-acumulação-e-exceções-art-37-xvi)
-   - 4.3 [Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#43-exercício-de-mandato-eletivo-pelo-servidor-público-art-38)
-   - 4.4 [Estabilidade e Perda do Cargo do Servidor Estável (Art. 41)](#44-estabilidade-e-perda-do-cargo-do-servidor-estável-art-41)
+    - 4.1 [Concurso Público, Funções de Confiança e Cargos em Comissão](#41-concurso-público-funções-de-confiança-e-cargos-em-comissão)
+    - 4.2 [Regra Constitucional da Não-Acumulação e Exceções (Art. 37, XVI)](#42-regra-constitucional-da-não-acumulação-e-exceções-art-37-xvi)
+    - 4.3 [Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#43-exercício-de-mandato-eletivo-pelo-servidor-público-art-38)
+    - 4.4 [Estabilidade e Perda do Cargo do Servidor Estável (Art. 41)](#44-estabilidade-e-perda-do-cargo-do-servidor-estável-art-41)
 5. [Fontes Oficiais & Doutrinárias Recomendadas](#5-fontes-oficiais--doutrinárias-recomendadas)
 6. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#6-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
 
@@ -50,8 +50,8 @@ A República Federativa do Brasil é formada pela união indissolúvel dos Estad
 - **Origem Histórica:** Formou-se por **desagregação** (ou segregação), decorrente de um movimento **centrífugo** (o Estado unitário imperial descentralizou poderes políticos para as províncias que se transformaram em Estados-membros).
 - **Indissolubilidade do Vínculo Federativo:** Não existe o direito de secessão (nenhum Estado ou Município pode se separar do Brasil). A tentativa de desmembramento justifica a intervenção federal imediata (art. 34, I) e constitui crime inafiançável e imprescritível (art. 5º, XLIV).
 - **Soberania vs. Autonomia:**
-  - A **Soberania** é atributo exclusivo da **República Federativa do Brasil** no plano internacional.
-  - A **Autonomia** é outorgada aos entes federados (União, Estados, DF e Municípios), manifestando-se pela tríplice capacidade de auto-organização (Constituições e Leis Orgânicas), autogoverno (eleição de chefes dos poderes) e autoadministração (gestão e tributação próprias).
+    - A **Soberania** é atributo exclusivo da **República Federativa do Brasil** no plano internacional.
+    - A **Autonomia** é outorgada aos entes federados (União, Estados, DF e Municípios), manifestando-se pela tríplice capacidade de auto-organização (Constituições e Leis Orgânicas), autogoverno (eleição de chefes dos poderes) e autoadministração (gestão e tributação próprias).
 
 ```mermaid
 flowchart TD
@@ -64,6 +64,7 @@ flowchart TD
 
 #### 1.2 Vedações Constitucionais Federativas (Art. 19)
 O art. 19 da Carta da República veda à União, aos Estados, ao Distrito Federal e aos Municípios:
+
 1. **Estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança**, ressalvada, na forma da lei, a colaboração de interesse público *(Princípio da Laicidade Estatal)*.
 2. **Recusar fé aos documentos públicos** *(Eficácia probatória nacional dos documentos emitidos por órgãos oficiais)*.
 3. **Criar distinções entre brasileiros ou preferências entre si** *(Proibição de discriminação tributária, previdenciária ou funcional com base na origem regional)*.
@@ -79,6 +80,7 @@ O art. 19 da Carta da República veda à União, aos Estados, ao Distrito Federa
 ### 2. O Modelo Constitucional de Repartição de Competências
 
 A Constituição Federal de 1988 adotou o **princípio da predominância do interesse**:
+
 - **União:** Matérias de interesse nacional e geral.
 - **Estados:** Matérias de interesse regional.
 - **Municípios:** Matérias de predominante interesse local.
@@ -121,10 +123,10 @@ Esta é a distinção mais exigida pela banca FCC. Analise as características d
 #### 2.3 Competências dos Estados e Municípios
 - **Estados-Membros (Art. 25, § 1º):** Possuem competência **remanescente (residual)**: são reservadas aos Estados todas as competências que não lhes sejam vedadas pela Constituição e que não pertençam expressamente à União ou aos Municípios. Além disso, cabe aos Estados explorar diretamente ou mediante concessão os serviços locais de gás canalizado (art. 25, § 2º, vedada edição de MP para sua regulamentação).
 - **Municípios (Art. 30):**
-  1. Legislar sobre assuntos de **interesse local**;
-  2. Suplementar a legislação federal e estadual no que couber;
-  3. Instituir e arrecadar os tributos municipais e aplicar suas rendas;
-  4. Organizar e prestar, diretamente ou sob concessão/permissão, os serviços públicos de interesse local, incluído o de **transporte coletivo**, de caráter essencial.
+    1. Legislar sobre assuntos de **interesse local**;
+    2. Suplementar a legislação federal e estadual no que couber;
+    3. Instituir e arrecadar os tributos municipais e aplicar suas rendas;
+    4. Organizar e prestar, diretamente ou sob concessão/permissão, os serviços públicos de interesse local, incluído o de **transporte coletivo**, de caráter essencial.
 
 > ⭐ **IMPORTANTE (SÚMULA VINCULANTE 38 DO STF):**  
 > *"É competente o Município para fixar o horário de funcionamento de estabelecimento comercial."*  
@@ -145,9 +147,9 @@ A não-intervenção é a regra geral da federação. A intervenção consubstan
 #### 4.1 Concurso Público, Funções de Confiança e Cargos em Comissão
 - **Validade do Concurso (Art. 37, III):** Validade de **até 2 (dois) anos**, prorrogável uma única vez, por igual período. O edital pode fixar validade inferior (ex.: 6 meses prorrogável por mais 6 meses).
 - **Funções de Confiança vs. Cargos em Comissão (Art. 37, V):**
-  - *Funções de Confiança:* Exercidas **exclusivamente** por servidores ocupantes de cargo de provimento efetivo.
-  - *Cargos em Comissão:* Preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, ou por pessoas sem vínculo (comissionados puros).
-  - Ambos destinam-se exclusivamente às atribuições de **direção, chefia e assessoramento** (vedada a criação para atribuições técnicas, operacionais ou burocráticas subalternas - Súmula Vinculante 37).
+    - *Funções de Confiança:* Exercidas **exclusivamente** por servidores ocupantes de cargo de provimento efetivo.
+    - *Cargos em Comissão:* Preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, ou por pessoas sem vínculo (comissionados puros).
+    - Ambos destinam-se exclusivamente às atribuições de **direção, chefia e assessoramento** (vedada a criação para atribuições técnicas, operacionais ou burocráticas subalternas - Súmula Vinculante 37).
 
 ```mermaid
 flowchart TD
@@ -201,10 +203,10 @@ flowchart TD
 - **Aquisição da Estabilidade:** São estáveis após **3 (três) anos** de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.
 - **Condição Obrigatória:** É obrigatória a aprovação prévia em **avaliação especial de desempenho** realizada por comissão instituída especificamente para essa finalidade (art. 41, § 4º).
 - **As Quatro Hipóteses Exaustivas de Perda do Cargo do Servidor Estável:**
-  1. Em virtude de **sentença judicial transitada em julgado**;
-  2. Mediante **processo administrativo disciplinar (PAD)** no qual lhe seja assegurada ampla defesa;
-  3. Mediante **procedimento de avaliação periódica de desempenho**, na forma de lei complementar federal, assegurada ampla defesa;
-  4. Para cumprimento dos **limites com despesas de pessoal** (art. 169, § 4º da CF/88), caso as medidas anteriores (corte de cargos em comissão e exoneração de servidores não estáveis) sejam insuficientes.
+    1. Em virtude de **sentença judicial transitada em julgado**;
+    2. Mediante **processo administrativo disciplinar (PAD)** no qual lhe seja assegurada ampla defesa;
+    3. Mediante **procedimento de avaliação periódica de desempenho**, na forma de lei complementar federal, assegurada ampla defesa;
+    4. Para cumprimento dos **limites com despesas de pessoal** (art. 169, § 4º da CF/88), caso as medidas anteriores (corte de cargos em comissão e exoneração de servidores não estáveis) sejam insuficientes.
 
 ```mermaid
 flowchart TD
@@ -221,13 +223,13 @@ flowchart TD
 ## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 
 - [Constituição Federal de 1988 - Título III (Da Organização do Estado)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art18)
-  - Dispositivos completos sobre competências dos entes federados e estatuto dos servidores públicos.
+    - Dispositivos completos sobre competências dos entes federados e estatuto dos servidores públicos.
 - [Supremo Tribunal Federal - Súmula Vinculante nº 38](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=38)
-  - Competência municipal para fixação de horário de comércio.
+    - Competência municipal para fixação de horário de comércio.
 - [Supremo Tribunal Federal - Tema 377 de Repercussão Geral (Teto na Acumulação Lícita)](https://portal.stf.jus.br/)
-  - Fixação de que o teto constitucional incide sobre cada remuneração individualmente considerada.
+    - Fixação de que o teto constitucional incide sobre cada remuneração individualmente considerada.
 - [Supremo Tribunal Federal - Tema 280 (Violação de Domicílio e Tráfico)](https://portal.stf.jus.br/)
-  - Critérios constitucionais de controle da atuação estatal e repartição de poderes.
+    - Critérios constitucionais de controle da atuação estatal e repartição de poderes.
 
 ---
 
@@ -238,11 +240,11 @@ A Assembleia Legislativa do Estado de Goiás aprovou projeto de lei que discipli
 
 Considerando o modelo constitucional brasileiro de repartição de competências legislativas concorrentes (art. 24 da CF/88):
 
-A) A lei estadual goiana era originariamente inconstitucional, pois aos Estados Federados é terminantemente vedado legislar sobre direito financeiro e tributário sem expressa autorização em lei complementar federal.  
-B) O Estado de Goiás exerceu legitimamente competência legislativa plena ante a omissão originária da União; todavia, a superveniência da lei federal sobre normas gerais suspende a eficácia da lei estadual no que lhe for contrário.  
-C) A lei federal posterior padece de inconstitucionalidade formal, por invadir competência reservada originariamente ao Estado-membro.  
-D) A lei estadual goiana foi formalmente revogada e extinta do ordenamento jurídico, tendo em vista o princípio da hierarquia absoluta da União sobre os Estados Federados.  
-E) A antinomia entre as duas leis impõe a anulação simultânea de ambas pelo Tribunal de Justiça, competindo aos Municípios legislar de forma residual.  
+* **A)** A lei estadual goiana era originariamente inconstitucional, pois aos Estados Federados é terminantemente vedado legislar sobre direito financeiro e tributário sem expressa autorização em lei complementar federal.
+* **B)** O Estado de Goiás exerceu legitimamente competência legislativa plena ante a omissão originária da União; todavia, a superveniência da lei federal sobre normas gerais suspende a eficácia da lei estadual no que lhe for contrário.
+* **C)** A lei federal posterior padece de inconstitucionalidade formal, por invadir competência reservada originariamente ao Estado-membro.
+* **D)** A lei estadual goiana foi formalmente revogada e extinta do ordenamento jurídico, tendo em vista o princípio da hierarquia absoluta da União sobre os Estados Federados.
+* **E)** A antinomia entre as duas leis impõe a anulação simultânea de ambas pelo Tribunal de Justiça, competindo aos Municípios legislar de forma residual.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** O art. 24, I, da CF/88 consagra competência concorrente sobre direito tributário e financeiro. Inexistindo lei federal de normas gerais, o Estado exerce competência legislativa plena (art. 24, § 3º), sem necessidade de lei complementar delegatória.  
@@ -260,11 +262,11 @@ Um servidor público ocupante do cargo de provimento efetivo de Técnico de Cont
 
 Considerando as normas constitucionais que regem a acumulação remunerada de cargos públicos (art. 37, XVI da CF/88) e comprovada a plena compatibilidade de horários entre as jornadas de trabalho:
 
-A) A acumulação é constitucionalmente admitida, por envolver o exercício de um cargo técnico ou científico com outro cargo de professor.  
-B) A acumulação é ilícita, pois a Constituição Federal veda expressamente a cumulação de vínculos com entes federativos distintos (Estado e Município).  
-C) O servidor deve obrigatoriamente optar pela remuneração de apenas um dos cargos, prestando serviços de docência de maneira voluntária.  
-D) Apenas servidores estáveis com mais de dez anos de serviço podem exercer a prerrogativa excepcional de acumulação remunerada.  
-E) A acumulação é permitida exclusivamente para dois cargos privativos de profissionais de saúde, sendo vedada a docência por técnicos de controle externo.  
+* **A)** A acumulação é constitucionalmente admitida, por envolver o exercício de um cargo técnico ou científico com outro cargo de professor.
+* **B)** A acumulação é ilícita, pois a Constituição Federal veda expressamente a cumulação de vínculos com entes federativos distintos (Estado e Município).
+* **C)** O servidor deve obrigatoriamente optar pela remuneração de apenas um dos cargos, prestando serviços de docência de maneira voluntária.
+* **D)** Apenas servidores estáveis com mais de dez anos de serviço podem exercer a prerrogativa excepcional de acumulação remunerada.
+* **E)** A acumulação é permitida exclusivamente para dois cargos privativos de profissionais de saúde, sendo vedada a docência por técnicos de controle externo.
 
 > **Comentário Detalhado:**
 > - **A) CORRETA:** O art. 37, XVI, "b", da CF/88 excepciona a vedação de acumulação permitindo a de um cargo de professor com outro técnico ou científico, desde que haja compatibilidade de horários. O cargo de Técnico de Controle Externo possui inequívoca natureza de cargo técnico.  
@@ -286,11 +288,11 @@ III. O servidor público estável poderá perder o cargo mediante procedimento d
 
 Está correto o que se afirma em:
 
-A) I e II, apenas.  
-B) II e III, apenas.  
-C) I e III, apenas.  
-D) I, apenas.  
-E) I, II e III.  
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** I e III, apenas.
+* **D)** I, apenas.
+* **E)** I, II e III.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** O item I é incorreto, pois o prazo constitucional de estágio probatório é de 3 anos de efetivo exercício.
@@ -311,11 +313,11 @@ Determinado servidor público efetivo do Tribunal de Contas estadual decidiu con
 
 De acordo com o regime constitucional do servidor em exercício de mandato eletivo (art. 38 da CF/88):
 
-A) O servidor deverá obrigatoriamente renunciar ao cargo efetivo no Tribunal de Contas no ato da posse, assumindo dedicação exclusiva no parlamento.  
-B) O servidor acumulará compulsoriamente os subsídios integrais de ambos os cargos, devendo cumprir sua jornada técnica em regime de plantão no final de semana.  
-C) Inexistindo compatibilidade de horários, o servidor será afastado do cargo de Técnico de Controle Externo, sendo-lhe facultado optar pela sua remuneração funcional.  
-D) O tempo de exercício do mandato eletivo será computado para todos os efeitos funcionais, inclusive para promoção compulsória por merecimento.  
-E) O servidor não pode assumir o mandato de Vereador sob pena de demissão imediata a bem do serviço público.  
+* **A)** O servidor deverá obrigatoriamente renunciar ao cargo efetivo no Tribunal de Contas no ato da posse, assumindo dedicação exclusiva no parlamento.
+* **B)** O servidor acumulará compulsoriamente os subsídios integrais de ambos os cargos, devendo cumprir sua jornada técnica em regime de plantão no final de semana.
+* **C)** Inexistindo compatibilidade de horários, o servidor será afastado do cargo de Técnico de Controle Externo, sendo-lhe facultado optar pela sua remuneração funcional.
+* **D)** O tempo de exercício do mandato eletivo será computado para todos os efeitos funcionais, inclusive para promoção compulsória por merecimento.
+* **E)** O servidor não pode assumir o mandato de Vereador sob pena de demissão imediata a bem do serviço público.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** Servidor público eleito para qualquer mandato jamais é obrigado a renunciar ou perder o cargo de provimento efetivo; ele apenas se afasta das funções durante a legislatura.  
@@ -331,11 +333,11 @@ E) O servidor não pode assumir o mandato de Vereador sob pena de demissão imed
 ### Questão 5 (FCC - Adaptada / Procuradoria Legislativa)
 Em tema de repartição constitucional de competências legislativas entre os entes federados, a competência para legislar sobre **Direito do Trabalho**, **Direito Processual** e **Trânsito e Transporte** pertence:
 
-A) Concorrentemente à União, aos Estados e ao Distrito Federal.  
-B) Privativamente aos Estados Federados, cabendo aos Municípios suplementar as peculiaridades locais.  
-C) Privativamente à União, podendo lei complementar federal autorizar os Estados a legislar sobre questões específicas dessas matérias.  
-D) Exclusivamente à União, sendo vedada qualquer hipótese de delegação de competência aos Estados-membros.  
-E) Concorrentemente à União e aos Municípios, ficando os Estados restritos às normas de interesse regional.  
+* **A)** Concorrentemente à União, aos Estados e ao Distrito Federal.
+* **B)** Privativamente aos Estados Federados, cabendo aos Municípios suplementar as peculiaridades locais.
+* **C)** Privativamente à União, podendo lei complementar federal autorizar os Estados a legislar sobre questões específicas dessas matérias.
+* **D)** Exclusivamente à União, sendo vedada qualquer hipótese de delegação de competência aos Estados-membros.
+* **E)** Concorrentemente à União e aos Municípios, ficando os Estados restritos às normas de interesse regional.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** Essas três matérias não integram o rol da competência concorrente do art. 24 da CF/88.  

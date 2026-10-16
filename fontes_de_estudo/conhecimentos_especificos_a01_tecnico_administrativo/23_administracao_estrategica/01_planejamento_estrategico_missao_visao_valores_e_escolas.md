@@ -9,20 +9,20 @@
 ## 📌 Ementa / Itens do Edital
 - Planejamento estratégico: conceitos, características, objetivos e evolução conceitual;
 - A tríade fundamental da identidade institucional:
-  - **Missão:** a razão de existir da organização no presente, seu propósito essencial, competências e público atendido;
-  - **Visão:** a aspiração de futuro da instituição, onde ela pretende chegar no horizonte temporal delimitado;
-  - **Valores:** princípios morais, crenças fundamentais e padrões éticos inegociáveis que orientam a conduta organizacional;
+    - **Missão:** a razão de existir da organização no presente, seu propósito essencial, competências e público atendido;
+    - **Visão:** a aspiração de futuro da instituição, onde ela pretende chegar no horizonte temporal delimitado;
+    - **Valores:** princípios morais, crenças fundamentais e padrões éticos inegociáveis que orientam a conduta organizacional;
 - O ciclo da gestão estratégica integrada:
-  - 1. Diagnóstico Estratégico (análise ambiental externa e interna);
-  - 2. Formulação da Estratégia (estabelecimento de objetivos, metas e iniciativas estratégicas);
-  - 3. Implementação e Execução (alocação orçamentária, planos de ação e governança);
-  - 4. Controle e Avaliação da Estratégia (monitoramento por indicadores, RAE e retroalimentação);
+    - 1. Diagnóstico Estratégico (análise ambiental externa e interna);
+    - 2. Formulação da Estratégia (estabelecimento de objetivos, metas e iniciativas estratégicas);
+    - 3. Implementação e Execução (alocação orçamentária, planos de ação e governança);
+    - 4. Controle e Avaliação da Estratégia (monitoramento por indicadores, RAE e retroalimentação);
 - Tipologias de estratégias segundo Henry Mintzberg:
-  - Estratégia Pretendida, Deliberada, Não Realizada, Emergente e Realizada;
+    - Estratégia Pretendida, Deliberada, Não Realizada, Emergente e Realizada;
 - As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia* - Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel):
-  - **Escolas Prescritivas / Normativas:** Escola do Design (ajuste interno/externo e SWOT), Escola do Planejamento (formalismo mecanicista e etapas sequenciais) e Escola do Posicionamento (análise setorial e matrizes de Porter);
-  - **Escolas Descritivas:** Escola Empreendedora (visão intuitiva do líder), Escola Cognitiva (processamento mental e vieses), Escola do Aprendizado (estratégias emergentes e tentativa e erro), Escola do Poder (negociação, jogos de poder e coalizões), Escola Cultural (crenças coletivas e mitos) e Escola Ambiental (adaptação passiva às pressões externas);
-  - **Escola Integrativa:** Escola da Configuração (estabilidade pontuada por transformações estruturais quânticas).
+    - **Escolas Prescritivas / Normativas:** Escola do Design (ajuste interno/externo e SWOT), Escola do Planejamento (formalismo mecanicista e etapas sequenciais) e Escola do Posicionamento (análise setorial e matrizes de Porter);
+    - **Escolas Descritivas:** Escola Empreendedora (visão intuitiva do líder), Escola Cognitiva (processamento mental e vieses), Escola do Aprendizado (estratégias emergentes e tentativa e erro), Escola do Poder (negociação, jogos de poder e coalizões), Escola Cultural (crenças coletivas e mitos) e Escola Ambiental (adaptação passiva às pressões externas);
+    - **Escola Integrativa:** Escola da Configuração (estabilidade pontuada por transformações estruturais quânticas).
 
 ---
 
@@ -67,6 +67,7 @@ flowchart TD
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (MISSÃO VS. VISÃO NAS QUESTÕES):**  
 > Identifique imediatamente a temporalidade da assertiva no enunciado:  
+>
 > - Se o texto afirma o que a instituição é ou faz no **PRESENTE** ("prestar controle externo de qualidade para a sociedade"): trata-se de **MISSÃO**.  
 > - Se o texto traz uma ambição de **FUTURO** com prazo determinado ("ser reconhecido até 2030 como centro de excelência"): trata-se de **VISÃO**.
 
@@ -184,6 +185,7 @@ flowchart TD
 ### Questão 01
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Determinado Tribunal de Contas publicou seu Plano Estratégico com os seguintes enunciados institucionais:
+
 I. "Garantir a adequada aplicação dos recursos públicos em benefício da sociedade por meio do controle externo tempestivo e orientador."  
 II. "Ser reconhecido pela sociedade, até o ano de 2030, como órgão de controle de excelência, moderno e indispensável à integridade governamental."  
 

@@ -22,22 +22,22 @@
 ## 🧭 Sumário
 
 - [1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)](#1-princípios-gerais-e-regime-da-lei-federal-nº-141332021-nllc)
-  - [1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos](#11-âmbito-de-aplicação-subjetivo-e-objetos-abrangidos)
-  - [1.2 Os Objetivos Fundamentais do Processo Licitatório (Art. 11)](#12-os-objetivos-fundamentais-do-processo-licitatório-art-11)
-  - [1.3 Governança das Contratações e Gestão por Competências](#13-governança-das-contratações-e-gestão-por-competências)
+    - [1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos](#11-âmbito-de-aplicação-subjetivo-e-objetos-abrangidos)
+    - [1.2 Os Objetivos Fundamentais do Processo Licitatório (Art. 11)](#12-os-objetivos-fundamentais-do-processo-licitatório-art-11)
+    - [1.3 Governança das Contratações e Gestão por Competências](#13-governança-das-contratações-e-gestão-por-competências)
 - [2. Agentes Públicos da Contratação e Segregação de Funções](#2-agentes-públicos-da-contratação-e-segregação-de-funções)
-  - [2.1 O Agente de Contratação e o Pregoeiro](#21-o-agente-de-contratação-e-o-pregoeiro)
-  - [2.2 Comissão de Contratação e a Regra do Diálogo Competitivo](#22-comissão-de-contratação-e-a-regra-do-diálogo-competitivo)
-  - [2.3 O Princípio da Segregação de Funções e Conflito de Interesses](#23-o-princípio-da-segregação-de-funções-e-conflito-de-interesses)
-  - [2.4 Defesa Jurídica Institucional dos Agentes (Art. 10)](#24-defesa-jurídica-institucional-dos-agentes-art-10)
+    - [2.1 O Agente de Contratação e o Pregoeiro](#21-o-agente-de-contratação-e-o-pregoeiro)
+    - [2.2 Comissão de Contratação e a Regra do Diálogo Competitivo](#22-comissão-de-contratação-e-a-regra-do-diálogo-competitivo)
+    - [2.3 O Princípio da Segregação de Funções e Conflito de Interesses](#23-o-princípio-da-segregação-de-funções-e-conflito-de-interesses)
+    - [2.4 Defesa Jurídica Institucional dos Agentes (Art. 10)](#24-defesa-jurídica-institucional-dos-agentes-art-10)
 - [3. Planejamento das Contratações e Instrumentos Preparatórios](#3-planejamento-das-contratações-e-instrumentos-preparatórios)
-  - [3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária](#31-plano-de-contratações-anual-pca-e-integração-orçamentária)
-  - [3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios](#32-estudo-técnico-preliminar-etp-conceito-e-elementos-obrigatórios)
-  - [3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo](#33-termo-de-referência-vs-projeto-básico-e-projeto-executivo)
-  - [3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro](#34-matriz-de-alocação-de-riscos-e-equilíbrio-econômico-financeiro)
+    - [3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária](#31-plano-de-contratações-anual-pca-e-integração-orçamentária)
+    - [3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios](#32-estudo-técnico-preliminar-etp-conceito-e-elementos-obrigatórios)
+    - [3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo](#33-termo-de-referência-vs-projeto-básico-e-projeto-executivo)
+    - [3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro](#34-matriz-de-alocação-de-riscos-e-equilíbrio-econômico-financeiro)
 - [4. O Portal Nacional de Contratações Públicas (PNCP)](#4-o-portal-nacional-de-contratações-públicas-pncp)
-  - [4.1 Natureza e Atribuições Centrais do Portal](#41-natureza-e-atribuições-centrais-do-portal)
-  - [4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)](#42-a-divulgação-no-pncp-como-requisito-indispensável-de-eficácia-art-94)
+    - [4.1 Natureza e Atribuições Centrais do Portal](#41-natureza-e-atribuições-centrais-do-portal)
+    - [4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)](#42-a-divulgação-no-pncp-como-requisito-indispensável-de-eficácia-art-94)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 - [6. Questões Comentadas & Exemplos (Padrão FCC)](#6-questões-comentadas--exemplos-padrão-fcc)
 
@@ -70,6 +70,7 @@ flowchart TD
 ### 1.3 Governança das Contratações e Gestão por Competências
 
 A NLLC elevou a governança ao patamar de exigência legal expressa (art. 11, parágrafo único):
+
 - A alta administração do órgão ou entidade é responsável pela implementação e fiscalização contínua de mecanismos de liderança, estratégia e controle;
 - Exige **gestão por competências**, determinando que os agentes públicos designados para atuar na área de licitações possuam formação compatível ou qualificação atestada por certificação profissional emitida por escola de governo.
 
@@ -88,6 +89,7 @@ O **Agente de Contratação** (art. 8º) é a pessoa física designada pela auto
 ### 2.2 Comissão de Contratação e a Regra do Diálogo Competitivo
 
 A condução por comissão colegiada constitui exceção à regra geral do agente individual:
+
 - **Composição da Comissão:** Composta por, no mínimo, **3 (três) membros**, sendo a maioria servidores efetivos ou empregados públicos permanentes. Os membros respondem solidariamente por todos os atos, ressalvado o membro que manifestar voto divergente registrado expressamente em ata (art. 8º, § 1º).
 - **Hipóteses de Atuação:** Bens e serviços especiais; procedimentos auxiliares; e obrigatoriamente no **Diálogo Competitivo**.
 
@@ -97,10 +99,11 @@ A condução por comissão colegiada constitui exceção à regra geral do agent
 ### 2.3 O Princípio da Segregação de Funções e Conflito de Interesses
 
 Positivado formalmente no art. 5º e detalhado no art. 7º, § 1º, da NLLC:
+
 - **Conceito:** Impõe a repartição criteriosa de funções entre agentes públicos distintos, vedando expressamente a concentração de atribuições mais suscetíveis a riscos em uma mesma autoridade;
 - **Aplicação Prática Inegociável:**
-  1. O agente que elabora o Estudo Técnico Preliminar e o Termo de Referência (fase interna) **não deve conduzir o julgamento das propostas** como agente de contratação (fase externa);
-  2. O agente que julga e adjudica a licitação **não pode atuar como fiscal ou gestor do contrato**, nem ser o responsável por atestar faturas e autorizar pagamentos financeiros.
+    1. O agente que elabora o Estudo Técnico Preliminar e o Termo de Referência (fase interna) **não deve conduzir o julgamento das propostas** como agente de contratação (fase externa);
+    2. O agente que julga e adjudica a licitação **não pode atuar como fiscal ou gestor do contrato**, nem ser o responsável por atestar faturas e autorizar pagamentos financeiros.
 
 ```mermaid
 flowchart LR
@@ -143,6 +146,7 @@ O **Estudo Técnico Preliminar (ETP)** é o documento constitutivo da primeira e
 
 #### Os 5 Elementos Obrigatórios do ETP (Art. 18, § 2º):
 Embora o ETP contenha treze itens descritivos em seu roteiro geral, a NLLC fixou **cinco elementos com preenchimento obrigatório indispensável**:
+
 1. Descrição da **necessidade da contratação**;
 2. **Estimativa das quantidades** a serem contratadas, acompanhada de memória de cálculo detalhada;
 3. **Estimativa do valor da contratação**, amparada em pesquisa prévia de preços;
@@ -213,11 +217,11 @@ O Diretor-Geral de uma autarquia estadual designou um mesmo servidor público oc
 
 Em face das normas expressas de governança e princípios instituídos pela Lei Federal nº 14.133/2021:
 
-A) A designação foi regular, visto que a centralização de todas as fases da contratação em um único servidor otimiza a celeridade e a economicidade administrativa.  
-B) O procedimento violou o princípio da segregação de funções, além de descumprir o requisito legal de que o Agente de Contratação seja preferencialmente servidor efetivo ou empregado público dos quadros permanentes.  
-C) A Lei nº 14.133/2021 exige que o Agente de Contratação seja contratado por consultoria privada terceirizada, vedando a investidura de agentes públicos.  
-D) O princípio da segregação de funções aplica-se apenas no âmbito de concessões comuns regidas pela Lei nº 8.987/1995.  
-E) A cumulação de funções de agente de contratação e fiscal de contrato é obrigatória em órgãos que contam com menos de cem servidores.  
+* **A)** A designação foi regular, visto que a centralização de todas as fases da contratação em um único servidor otimiza a celeridade e a economicidade administrativa.
+* **B)** O procedimento violou o princípio da segregação de funções, além de descumprir o requisito legal de que o Agente de Contratação seja preferencialmente servidor efetivo ou empregado público dos quadros permanentes.
+* **C)** A Lei nº 14.133/2021 exige que o Agente de Contratação seja contratado por consultoria privada terceirizada, vedando a investidura de agentes públicos.
+* **D)** O princípio da segregação de funções aplica-se apenas no âmbito de concessões comuns regidas pela Lei nº 8.987/1995.
+* **E)** A cumulação de funções de agente de contratação e fiscal de contrato é obrigatória em órgãos que contam com menos de cem servidores.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A busca por celeridade não autoriza a eliminação de controles internos básicos nem a supressão de salvaguardas contra desvios de conduta.
@@ -235,11 +239,11 @@ Em licitação de obra de engenharia de grande vulto (valor estimado em R$ 250 m
 
 Com base na disciplina da Lei Federal nº 14.133/2021:
 
-A) O pedido de reequilíbrio econômico-financeiro deve ser indeferido, pois a materialização de risco expressamente atribuído ao contratado na matriz de riscos não autoriza aditivo de valor.  
-B) O reequilíbrio é compulsório, tendo em vista que a cláusula de matriz de riscos é nula em obras que ultrapassem o valor de R$ 100 milhões.  
-C) O Poder Público é obrigado a arcar com 50% da variação cambial e de insumos industriais, independentemente de previsão editalícia.  
-D) A ocorrência de qualquer oscilação de mercado gera direito subjetivo automático à rescisão unilateral com indenização de lucros cessantes.  
-E) A matriz de alocação de riscos somente produz efeitos se ratificada por acórdão do Tribunal de Contas respectivo.  
+* **A)** O pedido de reequilíbrio econômico-financeiro deve ser indeferido, pois a materialização de risco expressamente atribuído ao contratado na matriz de riscos não autoriza aditivo de valor.
+* **B)** O reequilíbrio é compulsório, tendo em vista que a cláusula de matriz de riscos é nula em obras que ultrapassem o valor de R$ 100 milhões.
+* **C)** O Poder Público é obrigado a arcar com 50% da variação cambial e de insumos industriais, independentemente de previsão editalícia.
+* **D)** A ocorrência de qualquer oscilação de mercado gera direito subjetivo automático à rescisão unilateral com indenização de lucros cessantes.
+* **E)** A matriz de alocação de riscos somente produz efeitos se ratificada por acórdão do Tribunal de Contas respectivo.
 
 > **Comentário Detalhado:**
 > - **A)** Correta. A Lei Federal nº 14.133/2021 prescreve em seu art. 124, § 1º, que é dispensada a formalização de termo aditivo para restabelecimento do equilíbrio econômico-financeiro quando o evento superveniente decorrer de risco cuja responsabilidade financeira tenha sido contratualmente atribuída ao contratado na **Matriz de Alocação de Riscos**. Tendo a empresa assumido o risco de oscilação ordinária do insumo, ela o precificou em sua proposta; a concretização desse evento não rompe a equação originária do contrato.
@@ -257,11 +261,11 @@ Durante a fase preparatória de uma contratação de serviços técnicos contín
 
 Considerando o que prescreve o art. 18 da Lei Federal nº 14.133/2021 sobre o conteúdo do Estudo Técnico Preliminar:
 
-A) A sugestão do analista é lícita, visto que todo o conteúdo do ETP é meramente exemplificativo e facultativo.  
-B) A estimativa das quantidades com respectiva memória de cálculo e a justificativa para o parcelamento ou não da solução são elementos obrigatórios indispensáveis do ETP.  
-C) O ETP é dispensado de plano em qualquer contratação cujo valor seja inferior a R$ 50 milhões.  
-D) O ETP pode ser substituído por mera pesquisa sumária na internet realizada após a publicação do edital.  
-E) A indicação da viabilidade técnica da contratação é facultativa caso haja parecer favorável da chefia imediata.  
+* **A)** A sugestão do analista é lícita, visto que todo o conteúdo do ETP é meramente exemplificativo e facultativo.
+* **B)** A estimativa das quantidades com respectiva memória de cálculo e a justificativa para o parcelamento ou não da solução são elementos obrigatórios indispensáveis do ETP.
+* **C)** O ETP é dispensado de plano em qualquer contratação cujo valor seja inferior a R$ 50 milhões.
+* **D)** O ETP pode ser substituído por mera pesquisa sumária na internet realizada após a publicação do edital.
+* **E)** A indicação da viabilidade técnica da contratação é facultativa caso haja parecer favorável da chefia imediata.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A Lei nº 14.133/2021 estabelece no art. 18, § 2º, um rol taxativo de cinco itens que devem obrigatoriamente constar do ETP, não sendo sua confecção meramente discricionária.
@@ -285,11 +289,11 @@ No âmbito do Tribunal de Contas, a comissão encarregada de planejar o processo
 
 Conforme as disposições da Lei Federal nº 14.133/2021 relativas aos agentes da licitação:
 
-A) A modalidade Diálogo Competitivo deve ser conduzida obrigatoriamente por uma comissão de contratação composta de pelo menos 3 servidores efetivos ou empregados públicos dos quadros permanentes.  
-B) O Diálogo Competitivo é conduzido por um único agente de contratação monocrático comissionado.  
-C) O certame deve ser coordenado diretamente pelo Presidente do Tribunal de Contas, dispensada a equipe de apoio.  
-D) As empresas licitantes participantes do diálogo devem indicar dois membros para compor a comissão com direito a voto.  
-E) A condução por colegiado é terminantemente proibida na Nova Lei de Licitações, prevalecendo sempre a decisão monocrática.  
+* **A)** A modalidade Diálogo Competitivo deve ser conduzida obrigatoriamente por uma comissão de contratação composta de pelo menos 3 servidores efetivos ou empregados públicos dos quadros permanentes.
+* **B)** O Diálogo Competitivo é conduzido por um único agente de contratação monocrático comissionado.
+* **C)** O certame deve ser coordenado diretamente pelo Presidente do Tribunal de Contas, dispensada a equipe de apoio.
+* **D)** As empresas licitantes participantes do diálogo devem indicar dois membros para compor a comissão com direito a voto.
+* **E)** A condução por colegiado é terminantemente proibida na Nova Lei de Licitações, prevalecendo sempre a decisão monocrática.
 
 > **Comentário Detalhado:**
 > - **A)** Correta. De acordo com o art. 32, inciso XI, e art. 8º, § 1º, da Lei Federal nº 14.133/2021: *"o diálogo competitivo será conduzido por comissão de contratação composta de pelo menos 3 (três) servidores efetivos ou empregados públicos pertencentes aos quadros permanentes da Administração, admitida a contratação de profissionais para assessoramento técnico da comissão."* Trata-se de uma das hipóteses legais em que a condução colegiada por comissão de contratação é obrigatória, em razão das sucessivas rodadas de debates técnicos com os licitantes.
@@ -307,11 +311,11 @@ O Estado de Goiás homologou licitação para aquisição de equipamentos hospit
 
 À luz do art. 94 da Lei Federal nº 14.133/2021, o contrato administrativo celebrado:
 
-A) Produz efeitos plenos e imediatos, visto que a publicação no Diário Oficial do Estado é a única legalmente exigível para a eficácia contratual.  
-B) Não possui eficácia jurídica plena, visto que a divulgação no Portal Nacional de Contratações Públicas (PNCP) é condição indispensável para a eficácia do contrato e de seus aditamentos.  
-C) É nulo de pleno direito por vício insanável de objeto, devendo ser repetida toda a licitação.  
-D) Transfere a obrigação do fornecimento diretamente para o segundo colocado do certame licitatório.  
-E) Fica dispensado de publicação no PNCP caso o valor contratado seja inferior a R$ 20 milhões.  
+* **A)** Produz efeitos plenos e imediatos, visto que a publicação no Diário Oficial do Estado é a única legalmente exigível para a eficácia contratual.
+* **B)** Não possui eficácia jurídica plena, visto que a divulgação no Portal Nacional de Contratações Públicas (PNCP) é condição indispensável para a eficácia do contrato e de seus aditamentos.
+* **C)** É nulo de pleno direito por vício insanável de objeto, devendo ser repetida toda a licitação.
+* **D)** Transfere a obrigação do fornecimento diretamente para o segundo colocado do certame licitatório.
+* **E)** Fica dispensado de publicação no PNCP caso o valor contratado seja inferior a R$ 20 milhões.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A Lei nº 14.133/2021 alterou o marco de publicidade em relação ao regime revogado da Lei 8.666/93; o Diário Oficial é veículo complementar, sendo a publicidade no PNCP a condição indispensável de eficácia.

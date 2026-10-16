@@ -15,10 +15,10 @@
 - Amostragem em auditoria governamental: amostragem probabilística (estatística) e não probabilística (por julgamento); métodos de amostragem e risco de amostragem (Risco Alfa e Risco Beta);
 - Programas de auditoria e papéis de trabalho (documentação de auditoria): finalidades, requisitos de clareza e completude, confidencialidade, arquivos correntes e permanentes;
 - Técnicas e procedimentos de auditoria governamental:
-  - Exame documental, inspeção física, conferência de cálculos (recálculo), observação direta, entrevistas técnicas;
-  - Circularização (confirmação externa: modalidades positiva em branco, positiva em preto e negativa);
-  - Conciliação contábil e bancária;
-  - Procedimentos analíticos / Revisão analítica (estudo de relações plausíveis, flutuações e índices);
+    - Exame documental, inspeção física, conferência de cálculos (recálculo), observação direta, entrevistas técnicas;
+    - Circularização (confirmação externa: modalidades positiva em branco, positiva em preto e negativa);
+    - Conciliação contábil e bancária;
+    - Procedimentos analíticos / Revisão analítica (estudo de relações plausíveis, flutuações e índices);
 - Evidências de auditoria: atributos essenciais de validade (suficiência, adequação/pertinência e confiabilidade);
 - Estruturação anatômica dos achados de auditoria: Critério, Condição, Causa e Efeito;
 - Matriz de Achados e Matriz de Responsabilização (conduta, nexo de causalidade e culpabilidade à luz do Art. 28 da LINDB).
@@ -27,17 +27,17 @@
 
 ## 🧭 Sumário
 1. [Planejamento da Fiscalização e Avaliação de Risco](#1-planejamento-da-fiscalização-e-avaliação-de-risco)
-   - 1.1 [Critérios de Seleção de Objetos de Controle (Critérios MRC)](#11-critérios-de-seleção-de-objetos-de-controle-critérios-mrc)
-   - 1.2 [O Modelo do Risco de Auditoria (Auditoria Risk - AR)](#12-o-modelo-do-risco-de-auditoria-auditoria-risk---ar)
-   - 1.3 [Amostragem em Auditoria Governamental e Riscos Amostrais](#13-amostragem-em-auditoria-governamental-e-riscos-amostrais)
+    - 1.1 [Critérios de Seleção de Objetos de Controle (Critérios MRC)](#11-critérios-de-seleção-de-objetos-de-controle-critérios-mrc)
+    - 1.2 [O Modelo do Risco de Auditoria (Auditoria Risk - AR)](#12-o-modelo-do-risco-de-auditoria-auditoria-risk---ar)
+    - 1.3 [Amostragem em Auditoria Governamental e Riscos Amostrais](#13-amostragem-em-auditoria-governamental-e-riscos-amostrais)
 2. [Programas de Auditoria e Documentação (Papéis de Trabalho)](#2-programas-de-auditoria-e-documentação-papéis-de-trabalho)
 3. [Técnicas e Procedimentos de Auditoria Governamental](#3-técnicas-e-procedimentos-de-auditoria-governamental)
-   - 3.1 [Quadro Geral dos Procedimentos de Obtenção de Evidências](#31-quadro-geral-dos-procedimentos-de-obtenção-de-evidências)
-   - 3.2 [Modalidades de Circularização (Confirmação Externa)](#32-modalidades-de-circularização-confirmação-externa)
+    - 3.1 [Quadro Geral dos Procedimentos de Obtenção de Evidências](#31-quadro-geral-dos-procedimentos-de-obtenção-de-evidências)
+    - 3.2 [Modalidades de Circularização (Confirmação Externa)](#32-modalidades-de-circularização-confirmação-externa)
 4. [Evidências de Auditoria: Os Três Pilares da Validade](#4-evidências-de-auditoria-os-três-pilares-da-validade)
 5. [A Estrutura Anatômica do Achado de Auditoria](#5-a-estrutura-anatômica-do-achado-de-auditoria)
-   - 5.1 [Os Quatro Elementos do Achado](#51-os-quatro-elementos-do-achado)
-   - 5.2 [Matriz de Responsabilização e a LINDB (Art. 28)](#52-matriz-de-responsabilização-e-a-lindb-art-28)
+    - 5.1 [Os Quatro Elementos do Achado](#51-os-quatro-elementos-do-achado)
+    - 5.2 [Matriz de Responsabilização e a LINDB (Art. 28)](#52-matriz-de-responsabilização-e-a-lindb-art-28)
 6. [Fontes Oficiais & Manuais Técnicos Recomendados](#6-fontes-oficiais--manuais-técnicos-recomendados)
 7. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#7-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
 
@@ -51,6 +51,7 @@ O Tribunal de Contas atua pautado pelo planejamento estratégico e pela alocaç�
 
 #### 1.1 Critérios de Seleção de Objetos de Controle (Critérios MRC)
 Os objetos de controle a serem incluídos no Plano Anual de Fiscalização são priorizados com base nos consagrados critérios **MRC**:
+
 - **Materialidade:** Representatividade monetária dos recursos geridos pelo órgão (volume financeiro, orçamentário e patrimonial envolvido).
 - **Relevância:** Importância socioeconômica, ambiental ou político-estratégica das ações governamentais auditadas para a sociedade.
 - **Criticidade:** Nível de vulnerabilidade do ambiente institucional, complexidade técnica, histórico de fraudes e irregularidades, ou fragilidade evidente dos controles internos.
@@ -95,11 +96,11 @@ flowchart TD
 
 #### 1.3 Amostragem em Auditoria Governamental e Riscos Amostrais
 - **Amostragem Estatística (Probabilística):** Seleção aleatória de itens na qual cada item da população possui chance conhecida e diferente de zero de ser selecionado. Permite a avaliação quantitativa do risco de amostragem mediante intervalos de confiança matemáticos.
-  - *Tipos:* Aleatória simples, sistemática (intervalo regular de seleção), estratificada (subdivisão da população em estratos homogêneos) e por unidade monetária (foco em valores financeiros mais expressivos).
+    - *Tipos:* Aleatória simples, sistemática (intervalo regular de seleção), estratificada (subdivisão da população em estratos homogêneos) e por unidade monetária (foco em valores financeiros mais expressivos).
 - **Amostragem Não Estatística (Não Probabilística):** Seleção fundamentada exclusivamente no julgamento profissional, conhecimento prévio ou intuição do auditor.
 - **Riscos de Amostragem na FCC:**
-  - *Risco Alfa (Risco de Rejeição Incorreta):* Concluir que a amostra apresenta falhas graves quando a população total está em conformidade. Afeta a **eficiência** do trabalho (gera retrabalho e testes desnecessários).
-  - *Risco Beta (Risco de Aceitação Incorreta):* Concluir que a amostra está adequada quando a população total contém erros relevantes graves. Afeta a **eficácia** da auditoria e é o mais perigoso, pois o auditor chancela contas viciadas.
+    - *Risco Alfa (Risco de Rejeição Incorreta):* Concluir que a amostra apresenta falhas graves quando a população total está em conformidade. Afeta a **eficiência** do trabalho (gera retrabalho e testes desnecessários).
+    - *Risco Beta (Risco de Aceitação Incorreta):* Concluir que a amostra está adequada quando a população total contém erros relevantes graves. Afeta a **eficácia** da auditoria e é o mais perigoso, pois o auditor chancela contas viciadas.
 
 ---
 
@@ -107,9 +108,9 @@ flowchart TD
 
 - **Programa de Auditoria:** Roteiro operacional e detalhado das etapas, procedimentos e testes substantivos e de conformidade que os membros da equipe devem executar no trabalho de campo.
 - **Papéis de Trabalho (Documentação de Auditoria):**
-  - *Finalidade:* Registrar as evidências colhidas, suportar técnica e juridicamente o relatório final e comprovar o cumprimento das normas profissionais da NBASP.
-  - *Titularidade e Custódia:* São de **propriedade exclusiva do Tribunal de Contas**, sujeitos a sigilo legal durante a fase de instrução e arquivamento regulamentar.
-  - *Classificação Arquivística:*
+    - *Finalidade:* Registrar as evidências colhidas, suportar técnica e juridicamente o relatório final e comprovar o cumprimento das normas profissionais da NBASP.
+    - *Titularidade e Custódia:* São de **propriedade exclusiva do Tribunal de Contas**, sujeitos a sigilo legal durante a fase de instrução e arquivamento regulamentar.
+    - *Classificação Arquivística:*
     - **Arquivo Corrente:** Guarda documentos e papéis específicos daquela auditoria em exercício financeiro determinado (ex.: notas fiscais, empenhos daquele mês e atas de medição);
     - **Arquivo Permanente:** Guarda documentos de uso contínuo por vários exercícios (ex.: lei de criação da entidade, organogramas, regimentos internos e manuais de rotina).
 
@@ -143,12 +144,13 @@ flowchart TD
 ### 4. Evidências de Auditoria: Os Três Pilares da Validade
 
 As conclusões do relatório de auditoria dependem da colheita de evidências que satisfaçam cumulativamente:
+
 1. **Suficiência (Aspecto Quantitativo):** Mede a quantidade de evidência colhida. Deve ser persuasiva o bastante para convencer uma pessoa sensata e prudente.
 2. **Adequação / Relevância (Aspecto Qualitativo):** Pertinência da evidência em relação aos objetivos dos testes e às questões de auditoria formuladas.
 3. **Confiabilidade:** Grau de autenticidade da evidência.
-   - Evidências obtidas de **fontes externas independentes** são mais confiáveis do que as obtidas dentro da entidade auditada.
-   - Evidências obtidas **diretamente pelo auditor** (ex.: inspeção física pessoal) são mais confiáveis do que as obtidas indiretamente.
-   - Documentos **originais** são mais confiáveis do que fotocópias ou impressões digitalizadas.
+    - Evidências obtidas de **fontes externas independentes** são mais confiáveis do que as obtidas dentro da entidade auditada.
+    - Evidências obtidas **diretamente pelo auditor** (ex.: inspeção física pessoal) são mais confiáveis do que as obtidas indiretamente.
+    - Documentos **originais** são mais confiáveis do que fotocópias ou impressões digitalizadas.
 
 ---
 
@@ -177,6 +179,7 @@ O **Achado de Auditoria** é a discrepância relevante identificada entre a situ
 
 #### 5.2 Matriz de Responsabilização e a LINDB (Art. 28)
 Ao propor imputação de débito ou cominação de multas sancionatórias a agentes públicos, a equipe de auditoria deve confeccionar obrigatoriamente a **Matriz de Responsabilização**, demonstrando:
+
 - **Identificação Individual:** Nome, CPF e cargo do agente público ou privado;
 - **Conduta:** Ação ou omissão específica imputada ao gestor;
 - **Nexo de Causalidade:** Vínculo fático entre o ato praticado e o resultado lesivo gerado ao erário;
@@ -187,13 +190,13 @@ Ao propor imputação de débito ou cominação de multas sancionatórias a agen
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
 - [Manual de Auditoria de Conformidade do TCU](https://portal.tcu.gov.br/)
-  - Metodologia de elaboração de papéis de trabalho, testes de auditoria e matriz de achados.
+    - Metodologia de elaboração de papéis de trabalho, testes de auditoria e matriz de achados.
 - [Manual de Auditoria Operacional do TCU / IRB](https://irbcontas.org.br/)
-  - Técnicas de elaboração de matriz de planejamento e critérios de seleção MRC.
+    - Técnicas de elaboração de matriz de planejamento e critérios de seleção MRC.
 - [Norma Brasileira de Auditoria do Setor Público - NBASP 100](https://irbcontas.org.br/nbasp/)
-  - Diretrizes profissionais sobre evidências, documentação e risco de auditoria.
+    - Diretrizes profissionais sobre evidências, documentação e risco de auditoria.
 - [Lei de Introdução às Normas do Direito Brasileiro (LINDB) - Artigo 28](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm)
-  - Exigência de dolo ou erro grosseiro para responsabilização pessoal de agentes públicos.
+    - Exigência de dolo ou erro grosseiro para responsabilização pessoal de agentes públicos.
 
 ---
 
@@ -202,11 +205,11 @@ Ao propor imputação de débito ou cominação de multas sancionatórias a agen
 ### Questão 1 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
 No âmbito dos trabalhos de fiscalização governamental conduzidos por equipe de controle externo do Tribunal de Contas, os auditores compararam o volume mensal de combustível faturado por uma secretaria de estado com a quilometragem média rodada pelos veículos no mesmo período, constatando desvios e picos anômalos de consumo em determinados meses. A técnica de auditoria utilizada pela equipe denomina-se:
 
-A) Circularização ativa.  
-B) Revisão analítica (ou procedimentos analíticos).  
-C) Inspeção física.  
-D) Conciliação contábil.  
-E) Conferência de cálculos.  
+* **A)** Circularização ativa.
+* **B)** Revisão analítica (ou procedimentos analíticos).
+* **C)** Inspeção física.
+* **D)** Conciliação contábil.
+* **E)** Conferência de cálculos.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** Circularização consiste em obter confirmação externa formal de terceiros alheios à entidade auditada.  
@@ -222,11 +225,11 @@ E) Conferência de cálculos.
 ### Questão 2 (FCC - Adaptada / TCE-AM - Auditor de Controle Externo)
 Em relatório de fiscalização de obras rodoviárias, a equipe técnica do Tribunal de Contas registrou a ocorrência de fissuras e afundamentos prematuros no asfalto decorrentes da utilização de ligante betuminoso com espessura inferior à exigida nas especificações do projeto executivo aprovado pela Agência Goiana de Infraestrutura. De acordo com a metodologia de estruturação de achados de auditoria preconizada pelas normas de auditoria do setor público (NBASP), a especificação do projeto executivo e o asfalto com espessura inferior constituem, respectivamente:
 
-A) Condição e Critério.  
-B) Causa e Efeito.  
-C) Critério e Condição.  
-D) Efeito e Causa.  
-E) Matriz de Risco e Evidência.  
+* **A)** Condição e Critério.
+* **B)** Causa e Efeito.
+* **C)** Critério e Condição.
+* **D)** Efeito e Causa.
+* **E)** Matriz de Risco e Evidência.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** A ordem está invertida.  
@@ -244,11 +247,11 @@ E) Matriz de Risco e Evidência.
 ### Questão 3 (FCC - Adaptada / Auditor Governamental)
 Acerca do modelo de avaliação de risco de auditoria e dos fatores de risco considerados no planejamento das ações de controle externo, assinale a opção correta:
 
-A) O risco de detecção é o risco de que os controles internos da entidade auditada não consigam prevenir tempestivamente uma fraude contábil relevante.  
-B) O risco inerente decorre exclusivamente de erros cometidos pela própria equipe de auditores durante a aplicação de seus testes substantivos.  
-C) O risco de controle e o risco inerente são intrínsecos ao ambiente do órgão auditado, cabendo ao auditor gerenciar e reduzir o risco de detecção para manter o risco global de auditoria em patamar aceitável.  
-D) Diante de controles internos eficientes e ausência de risco inerente, o auditor de controle externo pode dispensar a aplicação de quaisquer testes e aprovar as contas sumariamente.  
-E) O risco de auditoria independe da extensão dos procedimentos aplicados pelo órgão de controle externo.  
+* **A)** O risco de detecção é o risco de que os controles internos da entidade auditada não consigam prevenir tempestivamente uma fraude contábil relevante.
+* **B)** O risco inerente decorre exclusivamente de erros cometidos pela própria equipe de auditores durante a aplicação de seus testes substantivos.
+* **C)** O risco de controle e o risco inerente são intrínsecos ao ambiente do órgão auditado, cabendo ao auditor gerenciar e reduzir o risco de detecção para manter o risco global de auditoria em patamar aceitável.
+* **D)** Diante de controles internos eficientes e ausência de risco inerente, o auditor de controle externo pode dispensar a aplicação de quaisquer testes e aprovar as contas sumariamente.
+* **E)** O risco de auditoria independe da extensão dos procedimentos aplicados pelo órgão de controle externo.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** O risco de o controle interno falhar denomina-se **Risco de Controle (RC)**. Risco de detecção é a falha dos procedimentos do próprio auditor.  
@@ -264,11 +267,11 @@ E) O risco de auditoria independe da extensão dos procedimentos aplicados pelo 
 ### Questão 4 (FCC - Adaptada / Técnico de Controle Externo)
 Em relação aos papéis de trabalho (documentação de auditoria) elaborados e custodiados no âmbito dos Tribunais de Contas, é correto afirmar:
 
-A) Pertencem pessoalmente ao auditor que os confeccionou, que detém o direito autoral de levá-los consigo ao se aposentar.  
-B) O arquivo permanente é destinado à guarda de documentos específicos de uma única auditoria em exercício financeiro determinado, como notas fiscais daquele mês.  
-C) Os papéis de trabalho pertencem ao Tribunal de Contas, destinando-se a fundamentar as conclusões do relatório técnico e a comprovar a observância das normas profissionais de auditoria.  
-D) São de livre acesso público irrestrito e devem ser divulgados em tempo real na internet durante a realização dos testes de campo.  
-E) Devem ser destruídos imediatamente após a publicação da deliberação plenária terminativa do processo de controle externo.  
+* **A)** Pertencem pessoalmente ao auditor que os confeccionou, que detém o direito autoral de levá-los consigo ao se aposentar.
+* **B)** O arquivo permanente é destinado à guarda de documentos específicos de uma única auditoria em exercício financeiro determinado, como notas fiscais daquele mês.
+* **C)** Os papéis de trabalho pertencem ao Tribunal de Contas, destinando-se a fundamentar as conclusões do relatório técnico e a comprovar a observância das normas profissionais de auditoria.
+* **D)** São de livre acesso público irrestrito e devem ser divulgados em tempo real na internet durante a realização dos testes de campo.
+* **E)** Devem ser destruídos imediatamente após a publicação da deliberação plenária terminativa do processo de controle externo.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** Os papéis de trabalho são patrimônio documental oficial e institucional exclusivo do Tribunal de Contas.  
@@ -286,11 +289,11 @@ Ao elaborar a Matriz de Responsabilização em processo de tomada de contas espe
 
 Nos termos do artigo 28 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), para que o agente público responda pessoalmente por suas decisões perante o Tribunal de Contas, é necessário demonstrar que ele agiu:
 
-A) Com qualquer modalidade de culpa leve, aplicando-se a teoria do risco integral administrativo.  
-B) Com dolo ou erro grosseiro.  
-C) Sem aprovação prévia da Procuradoria-Geral do Estado, independentemente de demonstração de culpabilidade.  
-D) Exclusivamente com motivação político-partidária de oposição.  
-E) Em contrariedade a parecer técnico não vinculante emitido por estagiário do órgão.  
+* **A)** Com qualquer modalidade de culpa leve, aplicando-se a teoria do risco integral administrativo.
+* **B)** Com dolo ou erro grosseiro.
+* **C)** Sem aprovação prévia da Procuradoria-Geral do Estado, independentemente de demonstração de culpabilidade.
+* **D)** Exclusivamente com motivação político-partidária de oposição.
+* **E)** Em contrariedade a parecer técnico não vinculante emitido por estagiário do órgão.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** A responsabilidade pessoal sancionatória e ressarcitória do gestor perante o Tribunal de Contas não é objetiva (risco integral), exigindo elemento subjetivo qualificado. Culpa levíssima ou escusável não autoriza condenação pessoal.  

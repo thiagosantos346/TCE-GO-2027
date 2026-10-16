@@ -10,40 +10,40 @@
 
 - Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP): processo de convergência às normas internacionais IPSAS (*International Public Sector Accounting Standards*);
 - NBC TSP Estrutura Conceitual:
-  - Usuários primários da informação contábil governamental: cidadãos, seus representantes políticos (parlamentares e Tribunais de Contas) e provedores de recursos;
-  - Objetivos dos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs): prestação de contas (*accountability*) e tomada de decisão;
-  - Características qualitativas da informação contábil: relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade;
-  - Restrições inerentes à informação: materialidade, custo-benefício e alcance do equilíbrio entre características;
+    - Usuários primários da informação contábil governamental: cidadãos, seus representantes políticos (parlamentares e Tribunais de Contas) e provedores de recursos;
+    - Objetivos dos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs): prestação de contas (*accountability*) e tomada de decisão;
+    - Características qualitativas da informação contábil: relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade;
+    - Restrições inerentes à informação: materialidade, custo-benefício e alcance do equilíbrio entre características;
 - Elementos das demonstrações contábeis patrimoniais:
-  - Ativo sob o enfoque patrimonial e o conceito distintivo de **potencial de serviços**;
-  - Passivo, Situação Patrimonial Líquida, Receita (Variação Patrimonial Aumentativa - VPA) e Despesa (Variação Patrimonial Diminutiva - VPD) sob a ótica da competência pura;
+    - Ativo sob o enfoque patrimonial e o conceito distintivo de **potencial de serviços**;
+    - Passivo, Situação Patrimonial Líquida, Receita (Variação Patrimonial Aumentativa - VPA) e Despesa (Variação Patrimonial Diminutiva - VPD) sob a ótica da competência pura;
 - Critérios e bases de mensuração de ativos e passivos:
-  - Bases para Ativos: custo histórico, valor de mercado, custo de reposição ou substituição, preço líquido de venda e valor em uso;
-  - Bases para Passivos: custo histórico, custo de cumprimento da obrigação, valor de mercado, custo de liberação e preço de assunção;
+    - Bases para Ativos: custo histórico, valor de mercado, custo de reposição ou substituição, preço líquido de venda e valor em uso;
+    - Bases para Passivos: custo histórico, custo de cumprimento da obrigação, valor de mercado, custo de liberação e preço de assunção;
 - Visão geral das normas específicas fundamentais:
-  - NBC TSP 03: Provisões, Passivos Contingentes e Ativos Contingentes (matriz de probabilidade de desembolso);
-  - NBC TSP 04: Estoques e mensuração de itens mantidos para distribuição gratuita na rede pública;
-  - NBC TSP 07: Ativo Imobilizado, mensuração e depreciação periódica;
-  - NBC TSP 34: Sistema de Informação de Custos no Setor Público.
+    - NBC TSP 03: Provisões, Passivos Contingentes e Ativos Contingentes (matriz de probabilidade de desembolso);
+    - NBC TSP 04: Estoques e mensuração de itens mantidos para distribuição gratuita na rede pública;
+    - NBC TSP 07: Ativo Imobilizado, mensuração e depreciação periódica;
+    - NBC TSP 34: Sistema de Informação de Custos no Setor Público.
 
 ---
 
 ## 🧭 Sumário Interativo
 
 - [1. O Enfoque Patrimonial da Contabilidade Pública e a Convergência IPSAS](#1-o-enfoque-patrimonial-da-contabilidade-pública-e-a-convergência-ipsas)
-  - [1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado](#11-evolução-do-enfoque-orçamentário-ao-patrimonial-integrado)
-  - [1.2 O Conceito Crítico de "Potencial de Serviços"](#12-o-conceito-crítico-de-potencial-de-serviços)
-  - [1.3 Usuários Primários e Objetivos Centrais dos RCPGs](#13-usuários-primários-e-objetivos-centrais-dos-rcpgs)
+    - [1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado](#11-evolução-do-enfoque-orçamentário-ao-patrimonial-integrado)
+    - [1.2 O Conceito Crítico de "Potencial de Serviços"](#12-o-conceito-crítico-de-potencial-de-serviços)
+    - [1.3 Usuários Primários e Objetivos Centrais dos RCPGs](#13-usuários-primários-e-objetivos-centrais-dos-rcpgs)
 - [2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)](#2-características-qualitativas-da-informação-contábil-útil-nbc-tsp-ec)
-  - [2.1 As Seis Características Qualitativas](#21-as-seis-características-qualitativas)
-  - [2.2 Restrições Inerentes: Custo-Benefício e Materialidade](#22-restrições-inerentes-custo-benefício-e-materialidade)
+    - [2.1 As Seis Características Qualitativas](#21-as-seis-características-qualitativas)
+    - [2.2 Restrições Inerentes: Custo-Benefício e Materialidade](#22-restrições-inerentes-custo-benefício-e-materialidade)
 - [3. Elementos das Demonstrações Contábeis e Bases de Mensuração](#3-elementos-das-demonstrações-contábeis-e-bases-de-mensuração)
-  - [3.1 Elementos Patrimoniais: Ativo, Passivo, SPL, VPA e VPD](#31-elementos-patrimoniais-ativo-passivo-spl-vpa-e-vpd)
-  - [3.2 Bases de Mensuração para Ativos e Passivos](#32-bases-de-mensuração-para-ativos-e-passivos)
+    - [3.1 Elementos Patrimoniais: Ativo, Passivo, SPL, VPA e VPD](#31-elementos-patrimoniais-ativo-passivo-spl-vpa-e-vpd)
+    - [3.2 Bases de Mensuração para Ativos e Passivos](#32-bases-de-mensuração-para-ativos-e-passivos)
 - [4. Normas Específicas Fundamentais no Padrão FCC](#4-normas-específicas-fundamentais-no-padrão-fcc)
-  - [4.1 Matriz de Provisões e Passivos Contingentes (NBC TSP 03)](#41-matriz-de-provisões-e-passivos-contingentes-nbc-tsp-03)
-  - [4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)](#42-mensuração-de-estoques-públicos-para-distribuição-gratuita-nbc-tsp-04)
-  - [4.3 Ativo Imobilizado e Depreciação Sistemática (NBC TSP 07)](#43-ativo-imobilizado-e-depreciação-sistemática-nbc-tsp-07)
+    - [4.1 Matriz de Provisões e Passivos Contingentes (NBC TSP 03)](#41-matriz-de-provisões-e-passivos-contingentes-nbc-tsp-03)
+    - [4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)](#42-mensuração-de-estoques-públicos-para-distribuição-gratuita-nbc-tsp-04)
+    - [4.3 Ativo Imobilizado e Depreciação Sistemática (NBC TSP 07)](#43-ativo-imobilizado-e-depreciação-sistemática-nbc-tsp-07)
 - [5. Fontes Oficiais & Normativas Recomendadas](#5-fontes-oficiais--normativas-recomendadas)
 - [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
 
@@ -75,13 +75,14 @@ Por essa razão, a Estrutura Conceitual da NBC TSP introduziu o conceito de **po
 
 #### 1.3 Usuários Primários e Objetivos Centrais dos RCPGs
 Conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes **usuários primários**:
+
 1. **Cidadãos e usuários de serviços públicos:** Avaliam a gestão dos recursos públicos, a sustentabilidade intergeracional e a qualidade dos serviços ofertados (controle social);
 2. **Representantes políticos:** Parlamentares da Assembleia Legislativa, vereadores e os órgãos de controle externo (**Tribunais de Contas**), que necessitam de informações fidedignas para o julgamento das contas e a fiscalização orçamentária e financeira;
 3. **Provedores de recursos:** Contribuintes tributários, credores, investidores e organismos multilaterais de crédito (BID, BIRD) que financiam o Estado.
 
 - **Os Dois Objetivos Centrais dos RCPGs:**
-  - Fornecer informações úteis para a **prestação de contas e responsabilização (*accountability*)**;
-  - Fornecer subsídios técnicos indispensáveis para a **tomada de decisão** sobre a alocação de recursos públicos.
+    - Fornecer informações úteis para a **prestação de contas e responsabilização (*accountability*)**;
+    - Fornecer subsídios técnicos indispensáveis para a **tomada de decisão** sobre a alocação de recursos públicos.
 
 ---
 
@@ -175,7 +176,7 @@ flowchart TD
 #### 4.3 Ativo Imobilizado e Depreciação Sistemática (NBC TSP 07)
 - **Mensuração Inicial:** O ativo imobilizado é reconhecido inicialmente pelo seu custo histórico (preço de aquisição somado a todas as despesas diretamente atribuíveis para colocar o bem em condições operacionais de uso).
 - **Depreciação Periódica:** Consiste na alocação sistemática do valor depreciável de um bem ativo ao longo de sua vida útil estimada. Reconhece-se a perda de potencial de serviços por uso, desgaste natural ou obsolescência tecnológica:
-  - **Lançamento Contábil:**
+    - **Lançamento Contábil:**
     - `D` - Variação Patrimonial Diminutiva (VPD - Depreciação);
     - `C` - Depreciação Acumulada (Conta retificadora do Ativo Imobilizado).
 
@@ -184,15 +185,15 @@ flowchart TD
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 
 - [Conselho Federal de Contabilidade (CFC) - NBC TSP Estrutura Conceitual](https://cfc.org.br/)
-  - Postulados contábeis, características qualitativas e elementos patrimoniais.
+    - Postulados contábeis, características qualitativas e elementos patrimoniais.
 - [NBC TSP 03 - Provisões, Passivos Contingentes e Ativos Contingentes](https://cfc.org.br/)
-  - Disciplina o reconhecimento, mensuração e divulgação de riscos judiciais.
+    - Disciplina o reconhecimento, mensuração e divulgação de riscos judiciais.
 - [NBC TSP 04 - Estoques](https://cfc.org.br/)
-  - Regras de estoques de consumo e bens para distribuição gratuita no setor público.
+    - Regras de estoques de consumo e bens para distribuição gratuita no setor público.
 - [NBC TSP 07 - Ativo Imobilizado](https://cfc.org.br/)
-  - Mensuração inicial, custos atribuíveis e depreciação periódica.
+    - Mensuração inicial, custos atribuíveis e depreciação periódica.
 - [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição (STN)](https://www.gov.br/tesouronacional/pt-br)
-  - Parte II: Procedimentos Contábeis Patrimoniais (PCP).
+    - Parte II: Procedimentos Contábeis Patrimoniais (PCP).
 
 ---
 
@@ -203,11 +204,11 @@ A Estrutura Conceitual das Normas Brasileiras de Contabilidade Aplicadas ao Seto
 
 A característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens e fenômenos econômicos, seja entre diferentes entidades do setor público, seja em relação à mesma entidade ao longo de períodos contábeis consecutivos, denomina-se:
 
-A) Compreensibilidade.  
-B) Comparabilidade.  
-C) Tempestividade.  
-D) Representação fidedigna.  
-E) Verificabilidade.  
+* **A)** Compreensibilidade.
+* **B)** Comparabilidade.
+* **C)** Tempestividade.
+* **D)** Representação fidedigna.
+* **E)** Verificabilidade.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Compreensibilidade é a qualidade que possibilita a rápida compreensão do significado da informação contábil por usuários com conhecimento razoável.
@@ -225,11 +226,11 @@ A Procuradoria-Geral de determinado Estado foi intimada de ação judicial de gr
 
 Consoante as disposições da NBC TSP 03 e do Manual de Contabilidade Aplicada ao Setor Público (MCASP):
 
-A) O Estado não deve efetuar nenhum registro contábil nem em notas explicativas até o trânsito em julgado irrecorrível da decisão judicial condenatória.  
-B) A entidade deve divulgar a informação exclusivamente em notas explicativas, sem efetuar quaisquer lançamentos contábeis no Balanço Patrimonial.  
-C) A entidade pública deve reconhecer uma provisão no Passivo, em contrapartida a uma Variação Patrimonial Diminutiva (VPD) no resultado do exercício.  
-D) A perda potencial deve ser reconhecida como despesa orçamentária imediatamente no estágio da fixação da Lei Orçamentária Anual.  
-E) Trata-se de um ativo contingente cujo ingresso de recursos deve ser registrado preventivamente no subsistema orçamentário.  
+* **A)** O Estado não deve efetuar nenhum registro contábil nem em notas explicativas até o trânsito em julgado irrecorrível da decisão judicial condenatória.
+* **B)** A entidade deve divulgar a informação exclusivamente em notas explicativas, sem efetuar quaisquer lançamentos contábeis no Balanço Patrimonial.
+* **C)** A entidade pública deve reconhecer uma provisão no Passivo, em contrapartida a uma Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
+* **D)** A perda potencial deve ser reconhecida como despesa orçamentária imediatamente no estágio da fixação da Lei Orçamentária Anual.
+* **E)** Trata-se de um ativo contingente cujo ingresso de recursos deve ser registrado preventivamente no subsistema orçamentário.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O regime de competência contábil exige o registro tempestivo da obrigação presente assim que o fato gerador e os critérios de probabilidade se consolidem, não aguardando o trânsito em julgado formal.
@@ -247,11 +248,11 @@ No âmbito do setor público, a Secretaria de Estado da Saúde de Goiás mantém
 
 De acordo com as regras de mensuração de estoques contidas na NBC TSP 04:
 
-A) Os estoques devem ser mensurados pelo menor valor entre o custo histórico de aquisição e o valor justo de mercado para revenda.  
-B) Os estoques mantidos para distribuição gratuita devem ser mensurados pelo menor valor entre o custo e o custo corrente de reposição.  
-C) A Secretaria de Saúde deve mensurar seus estoques obrigatoriamente a valor presente descontado pela taxa básica de juros (Selic).  
-D) Medicamentos para distribuição gratuita não configuram ativo, devendo ser lançados como despesa de consumo no ato do recebimento da nota fiscal.  
-E) Os estoques devem ser mantidos sem qualquer registro patrimonial até o momento da efetiva aplicação nos pacientes.  
+* **A)** Os estoques devem ser mensurados pelo menor valor entre o custo histórico de aquisição e o valor justo de mercado para revenda.
+* **B)** Os estoques mantidos para distribuição gratuita devem ser mensurados pelo menor valor entre o custo e o custo corrente de reposição.
+* **C)** A Secretaria de Saúde deve mensurar seus estoques obrigatoriamente a valor presente descontado pela taxa básica de juros (Selic).
+* **D)** Medicamentos para distribuição gratuita não configuram ativo, devendo ser lançados como despesa de consumo no ato do recebimento da nota fiscal.
+* **E)** Os estoques devem ser mantidos sem qualquer registro patrimonial até o momento da efetiva aplicação nos pacientes.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Bens destinados à distribuição gratuita à sociedade não têm como objetivo a comercialização, inexistindo valor justo ou valor realizável de venda no mercado.
@@ -267,11 +268,11 @@ E) Os estoques devem ser mantidos sem qualquer registro patrimonial até o momen
 ### Questão 4 (FCC - Adaptada / Analista Contábil)
 A respeito do conceito de Ativo no setor público preconizado na NBC TSP Estrutura Conceitual, assinale a opção correta:
 
-A) A capacidade de um bem público gerar fluxos futuros de caixa positivos é requisito indispensável para sua classificação como ativo governamental.  
-B) Um recurso pode ser reconhecido como ativo no setor público quando a entidade possui o controle do recurso, decorrente de evento passado, e do qual se espera a geração de benefícios econômicos ou potencial de serviços.  
-C) Bens de uso comum do povo, como rodovias e praças públicas, não podem ser classificados como ativos patrimoniais em virtude de sua inalienabilidade civil.  
-D) A titularidade da propriedade jurídica formal é elemento obrigatório e insubstituível para o reconhecimento de qualquer ativo no setor público.  
-E) Os ativos intangíveis desenvolvidos pelo ente público são vedados na contabilidade governamental por ausência de valor físico tangível.  
+* **A)** A capacidade de um bem público gerar fluxos futuros de caixa positivos é requisito indispensável para sua classificação como ativo governamental.
+* **B)** Um recurso pode ser reconhecido como ativo no setor público quando a entidade possui o controle do recurso, decorrente de evento passado, e do qual se espera a geração de benefícios econômicos ou potencial de serviços.
+* **C)** Bens de uso comum do povo, como rodovias e praças públicas, não podem ser classificados como ativos patrimoniais em virtude de sua inalienabilidade civil.
+* **D)** A titularidade da propriedade jurídica formal é elemento obrigatório e insubstituível para o reconhecimento de qualquer ativo no setor público.
+* **E)** Os ativos intangíveis desenvolvidos pelo ente público são vedados na contabilidade governamental por ausência de valor físico tangível.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. No setor público, a esmagadora maioria dos bens não gera fluxos de caixa positivos, mas gera potencial de serviços essenciais à coletividade.
@@ -289,11 +290,11 @@ Em determinado processo judicial em trâmite na Justiça do Trabalho contra uma 
 
 Em observância à NBC TSP 03 e ao MCASP, a conduta contábil adequada a ser adotada pela autarquia é:
 
-A) Reconhecer imediatamente uma provisão no Passivo Não Circulante pelo valor estimado pelo autor da ação.  
-B) Não efetuar lançamento contábil de provisão no Balanço Patrimonial, divulgando as informações relevantes sobre o passivo contingente em Notas Explicativas.  
-C) Deixar de efetuar qualquer lançamento contábil e dispensar a divulgação em notas explicativas em virtude do princípio do sigilo processual.  
-D) Registrar uma Variação Patrimonial Aumentativa para neutralizar o impacto financeiro futuro.  
-E) Solicitar abertura imediata de crédito adicional extraordinário para cobertura judicial.  
+* **A)** Reconhecer imediatamente uma provisão no Passivo Não Circulante pelo valor estimado pelo autor da ação.
+* **B)** Não efetuar lançamento contábil de provisão no Balanço Patrimonial, divulgando as informações relevantes sobre o passivo contingente em Notas Explicativas.
+* **C)** Deixar de efetuar qualquer lançamento contábil e dispensar a divulgação em notas explicativas em virtude do princípio do sigilo processual.
+* **D)** Registrar uma Variação Patrimonial Aumentativa para neutralizar o impacto financeiro futuro.
+* **E)** Solicitar abertura imediata de crédito adicional extraordinário para cobertura judicial.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O reconhecimento de provisão no Balanço Patrimonial é cabível apenas e tão somente quando o risco de saída de recursos for classificado como provável.

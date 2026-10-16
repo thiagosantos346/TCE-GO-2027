@@ -9,43 +9,43 @@
 ## 📌 Ementa / Itens do Edital
 
 - Evolução dos paradigmas da gestão pública:
-  - **Administração Pública Patrimonialista:** características, confusão entre patrimônio público e privado, prebendas, sinécures, clientelismo e nepotismo;
-  - **Administração Pública Burocrática (Max Weber):** racionalidade, formalismo, impessoalidade, meritocracia, hierarquia funcional, controle prévio (*a priori*) de processos e as disfunções da burocracia (Robert Merton);
-  - **Administração Pública Gerencial (*New Public Management* - NPM):** orientação para resultados, foco no cidadão-usuário/cliente, descentralização, controle a posteriori e contratualização de resultados;
-  - As três fases do gerencialismo: Gerencialismo Puro (*Managerialism*), *Consumerism* e *Public Service Orientation* (PSO);
+    - **Administração Pública Patrimonialista:** características, confusão entre patrimônio público e privado, prebendas, sinécures, clientelismo e nepotismo;
+    - **Administração Pública Burocrática (Max Weber):** racionalidade, formalismo, impessoalidade, meritocracia, hierarquia funcional, controle prévio (*a priori*) de processos e as disfunções da burocracia (Robert Merton);
+    - **Administração Pública Gerencial (*New Public Management* - NPM):** orientação para resultados, foco no cidadão-usuário/cliente, descentralização, controle a posteriori e contratualização de resultados;
+    - As três fases do gerencialismo: Gerencialismo Puro (*Managerialism*), *Consumerism* e *Public Service Orientation* (PSO);
 - A Reforma Gerencial de 1995 no Brasil (Plano Diretor da Reforma do Aparelho do Estado - PDRAE):
-  - Os quatro setores do Estado: Núcleo Estratégico, Atividades Exclusivas, Serviços Não Exclusivos e Produção de Bens e Serviços para o Mercado;
-  - Formas de atuação e publicização: Agências Reguladoras, Agências Executivas, Organizações Sociais (OS) e Organizações da Sociedade Civil de Interesse Público (OSCIP);
+    - Os quatro setores do Estado: Núcleo Estratégico, Atividades Exclusivas, Serviços Não Exclusivos e Produção de Bens e Serviços para o Mercado;
+    - Formas de atuação e publicização: Agências Reguladoras, Agências Executivas, Organizações Sociais (OS) e Organizações da Sociedade Civil de Interesse Público (OSCIP);
 - Eficiência, Eficácia e Efetividade no setor público (a tríade dos resultados públicos e economicidade);
 - Governança e Governabilidade: conceitos, distinções e mecanismos (liderança, estratégia e controle - Referencial TCU);
 - O conceito e dimensões de *Accountability*: vertical, horizontal e social (societal);
 - Transparência pública e controle social: a Lei de Acesso à Informação (Lei Federal nº 12.527/2011 - LAI) e Lei Estadual de Goiás nº 18.025/2013:
-  - Transparência ativa versus transparência passiva;
-  - Prazos de resposta e instâncias de recurso administrativo (regra 20 + 10 dias);
-  - Graus de sigilo documental: reservada (5 anos), secreta (15 anos) e ultrassecreta (25 anos); proteção de dados pessoais (100 anos).
+    - Transparência ativa versus transparência passiva;
+    - Prazos de resposta e instâncias de recurso administrativo (regra 20 + 10 dias);
+    - Graus de sigilo documental: reservada (5 anos), secreta (15 anos) e ultrassecreta (25 anos); proteção de dados pessoais (100 anos).
 
 ---
 
 ## 🧭 Sumário Interativo
 
 - [1. Evolução Histórica dos Modelos de Gestão Pública](#1-evolução-histórica-dos-modelos-de-gestão-pública)
-  - [1.1 Modelo Patrimonialista](#11-modelo-patrimonialista)
-  - [1.2 Modelo Burocrático Weberiano](#12-modelo-burocrático-weberiano)
-  - [1.3 Modelo Gerencial (*New Public Management* - NPM)](#13-modelo-gerencial-new-public-management---npm)
-  - [1.4 Quadro Analítico Comparativo dos Três Modelos](#14-quadro-analítico-comparativo-dos-três-modelos)
+    - [1.1 Modelo Patrimonialista](#11-modelo-patrimonialista)
+    - [1.2 Modelo Burocrático Weberiano](#12-modelo-burocrático-weberiano)
+    - [1.3 Modelo Gerencial (*New Public Management* - NPM)](#13-modelo-gerencial-new-public-management---npm)
+    - [1.4 Quadro Analítico Comparativo dos Três Modelos](#14-quadro-analítico-comparativo-dos-três-modelos)
 - [2. As Disfunções da Burocracia (Robert Merton)](#2-as-disfunções-da-burocracia-robert-merton)
 - [3. A Reforma Gerencial Brasileira de 1995 (PDRAE)](#3-a-reforma-gerencial-brasileira-de-1995-pdrae)
-  - [3.1 Os Quatro Setores do Estado](#31-os-quatro-setores-do-estado)
-  - [3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)](#32-o-mecanismo-da-publicização-e-as-organizações-sociais-os)
+    - [3.1 Os Quatro Setores do Estado](#31-os-quatro-setores-do-estado)
+    - [3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)](#32-o-mecanismo-da-publicização-e-as-organizações-sociais-os)
 - [4. As Dimensões do Desempenho Público (Os 6Es da Gestão)](#4-as-dimensões-do-desempenho-público-os-6es-da-gestão)
-  - [4.1 Economicidade, Eficiência, Eficácia e Efetividade](#41-economicidade-eficiência-eficácia-e-efetividade)
+    - [4.1 Economicidade, Eficiência, Eficácia e Efetividade](#41-economicidade-eficiência-eficácia-e-efetividade)
 - [5. Governança, Governabilidade e Accountability](#5-governança-governabilidade-e-accountability)
-  - [5.1 Governabilidade vs. Governança (Distinção Crítica FCC)](#51-governabilidade-vs-governança-distinção-crítica-fcc)
-  - [5.2 Dimensões da Accountability (Vertical, Horizontal e Social)](#52-dimensões-da-accountability-vertical-horizontal-e-social)
+    - [5.1 Governabilidade vs. Governança (Distinção Crítica FCC)](#51-governabilidade-vs-governança-distinção-crítica-fcc)
+    - [5.2 Dimensões da Accountability (Vertical, Horizontal e Social)](#52-dimensões-da-accountability-vertical-horizontal-e-social)
 - [6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)](#6-transparência-pública-e-a-lei-de-acesso-à-informação-lei-nº-125272011)
-  - [6.1 Transparência Ativa vs. Transparência Passiva](#61-transparência-ativa-vs-transparência-passiva)
-  - [6.2 Prazos de Atendimento e Desnecessidade de Motivação](#62-prazos-de-atendimento-e-desnecessidade-de-motivação)
-  - [6.3 Graus e Prazos Máximos de Sigilo Documental](#63-graus-e-prazos-máximos-de-sigilo-documental)
+    - [6.1 Transparência Ativa vs. Transparência Passiva](#61-transparência-ativa-vs-transparência-passiva)
+    - [6.2 Prazos de Atendimento e Desnecessidade de Motivação](#62-prazos-de-atendimento-e-desnecessidade-de-motivação)
+    - [6.3 Graus e Prazos Máximos de Sigilo Documental](#63-graus-e-prazos-máximos-de-sigilo-documental)
 - [7. Fontes Oficiais & Referências Bibliográficas](#7-fontes-oficiais--referências-bibliográficas)
 - [8. Questões Comentadas no Padrão FCC](#8-questões-comentadas-no-padrão-fcc)
 
@@ -72,20 +72,20 @@ flowchart LR
 - Estruturado conceitualmente por Max Weber no início do século XX e introduzido no Brasil pela reforma do DASP (1936-1938);
 - **Objetivo Histórico Primário:** Combater frontalmente a corrupção e o nepotismo patrimonialistas mediante regras rígidas;
 - **Princípios Racionais-Legais:**
-  - *Formalismo Estrito:* A autoridade emana da lei e as rotinas devem ser reduzidas a documentos escritos e processos formais;
-  - *Impessoalidade:* As decisões administrativas aplicam-se a categorias abstratas, sem discriminações ou privilégios subjetivos;
-  - *Meritocracia e Profissionalização:* Ingresso na carreira por concurso público e promoções baseadas no mérito funcional;
-  - *Hierarquia Funcional:* Cadeia de comando clara, com linhas bem delimitadas de subordinação;
-  - *Controle a Priori (Prévio):* Controle minucioso e exaustivo sobre a conformidade dos meios, formulários e ritos processuais antes de qualquer decisão.
+    - *Formalismo Estrito:* A autoridade emana da lei e as rotinas devem ser reduzidas a documentos escritos e processos formais;
+    - *Impessoalidade:* As decisões administrativas aplicam-se a categorias abstratas, sem discriminações ou privilégios subjetivos;
+    - *Meritocracia e Profissionalização:* Ingresso na carreira por concurso público e promoções baseadas no mérito funcional;
+    - *Hierarquia Funcional:* Cadeia de comando clara, com linhas bem delimitadas de subordinação;
+    - *Controle a Priori (Prévio):* Controle minucioso e exaustivo sobre a conformidade dos meios, formulários e ritos processuais antes de qualquer decisão.
 
 #### 1.3 Modelo Gerencial (*New Public Management* - NPM)
 - Emergente nas décadas de 1970/1980 (Reino Unido, Nova Zelândia e EUA) e adotado no Brasil pela Reforma de 1995 (PDRAE);
 - **Objetivo Central:** Superar a rigidez, a lentidão e a ineficiência do modelo burocrático diante da crise fiscal do Estado social;
 - **Princípios Estruturantes:** Descentralização da gestão, autonomia dos gestores, flexibilização das contratações, incentivo à inovação, contratualização de resultados e foco absoluto nas necessidades do **cidadão-usuário/cliente**;
 - **Fases do Gerencialismo:**
-  1. *Gerencialismo Puro (Managerialism):* Foco inicial obsessivo no corte de gastos públicos, equilíbrio fiscal e redução do tamanho da máquina governamental;
-  2. *Consumerism:* Introdução do conceito de qualidade total, desregulamentação, competição entre prestadores e tratamento do cidadão como "cliente";
-  3. *Public Service Orientation (PSO):* Síntese democrática contemporânea que resgata a cidadania plena, direitos republicanos, equidade, transparência e governança participativa.
+    1. *Gerencialismo Puro (Managerialism):* Foco inicial obsessivo no corte de gastos públicos, equilíbrio fiscal e redução do tamanho da máquina governamental;
+    2. *Consumerism:* Introdução do conceito de qualidade total, desregulamentação, competição entre prestadores e tratamento do cidadão como "cliente";
+    3. *Public Service Orientation (PSO):* Síntese democrática contemporânea que resgata a cidadania plena, direitos republicanos, equidade, transparência e governança participativa.
 
 #### 1.4 Quadro Analítico Comparativo dos Três Modelos
 
@@ -175,6 +175,7 @@ flowchart LR
 
 > 💡 **Exemplo Clássico em Provas:**  
 > Numa campanha de vacinação infantil:
+>
 > - Comprar as vacinas e seringas pelo menor preço do mercado = **Economicidade**;
 > - Aplicar 80 doses por hora por enfermeiro sem desperdício de ampolas = **Eficiência**;
 > - Atingir a meta de imunizar 95% das crianças do público-alvo = **Eficácia**;
@@ -197,12 +198,13 @@ flowchart TD
 ```
 
 - **Os Mecanismos de Governança (Referencial Básico do TCU):**
-  1. **Liderança:** Papel dos dirigentes em estabelecer integridade, propósito e direção ética;
-  2. **Estratégia:** Definição de planos claros, metas, diretrizes e prioridades alinhadas à missão;
-  3. **Controle:** Gestão de riscos, transparência, integridade (*compliance*) e monitoramento contínuo.
+    1. **Liderança:** Papel dos dirigentes em estabelecer integridade, propósito e direção ética;
+    2. **Estratégia:** Definição de planos claros, metas, diretrizes e prioridades alinhadas à missão;
+    3. **Controle:** Gestão de riscos, transparência, integridade (*compliance*) e monitoramento contínuo.
 
 #### 5.2 Dimensões da Accountability (Vertical, Horizontal e Social)
 O termo *accountability* compreende o dever indeclinável de prestar contas, responder pelos atos praticados na gestão da coisa pública e submeter-se a sanções em caso de malversação:
+
 1. **Accountability Vertical:** Opera de baixo para cima, no vínculo entre o cidadão e os governantes, materializada essencialmente pelo **voto livre e secreto nas eleições democráticas**, bem como por plebiscitos e referendos;
 2. **Accountability Horizontal:** Consiste no controle mútuo e recíproco exercido entre órgãos estatais autônomos dotados de poderes constitucionais de freios e contrapesos (**Tribunais de Contas**, Ministério Público, Poder Judiciário e Controladorias);
 3. **Accountability Social (ou Societal):** Exercida pela mobilização da sociedade civil organizada, sindicatos, conselhos de políticas públicas e pela imprensa investigativa independente.
@@ -237,6 +239,7 @@ flowchart TD
 
 #### 6.3 Graus e Prazos Máximos de Sigilo Documental
 As informações cuja divulgação possa colocar em risco a segurança da sociedade ou do Estado podem ser classificadas em três graus de sigilo:
+
 1. **Reservada:** Prazo máximo de restrição de **até 5 (cinco) anos**;
 2. **Secreta:** Prazo máximo de restrição de **até 15 (quinze) anos**;
 3. **Ultrassecreta:** Prazo máximo de restrição de **até 25 (vinte e cinco) anos**, prorrogável uma única vez por igual período;
@@ -247,13 +250,13 @@ As informações cuja divulgação possa colocar em risco a segurança da socied
 ## 🌐 Fontes Oficiais & Referências Bibliográficas
 
 - [BRESSER-PEREIRA, Luiz Carlos. Plano Diretor da Reforma do Aparelho do Estado (PDRAE)](https://www.bresserpereira.org.br)
-  - Documento histórico fundamental do Ministério da Administração e Reforma do Estado (MARE, 1995).
+    - Documento histórico fundamental do Ministério da Administração e Reforma do Estado (MARE, 1995).
 - [Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)
-  - Estatuto nacional de transparência ativa, passiva e graus de sigilo.
+    - Estatuto nacional de transparência ativa, passiva e graus de sigilo.
 - [Lei Estadual de Goiás nº 18.025/2013](https://legisla.casacivil.go.gov.br)
-  - Aplicação e regulamento da Lei de Acesso à Informação no âmbito do Estado de Goiás.
+    - Aplicação e regulamento da Lei de Acesso à Informação no âmbito do Estado de Goiás.
 - [Tribunal de Contas da União (TCU) - Referencial Básico de Governança Aplicável ao Setor Público](https://portal.tcu.gov.br)
-  - Princípios de liderança, estratégia, governança e controle.
+    - Princípios de liderança, estratégia, governança e controle.
 
 ---
 
@@ -268,11 +271,11 @@ III. No modelo gerencial de administração pública, o controle estatal privile
 
 Está correto o que se afirma em:
 
-A) I, apenas.  
-B) I e II, apenas.  
-C) I e III, apenas.  
-D) II e III, apenas.  
-E) I, II e III.  
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O item III também está correto, tornando a opção incompleta.
@@ -292,11 +295,11 @@ E) I, II e III.
 ### Questão 2 (FCC – TCE-RS – Auditor de Controle Externo)
 Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a respeito dos prazos de resposta aos pedidos de acesso à informação formulados por cidadãos e da classificação de sigilo documental, é correto afirmar:
 
-A) O prazo para resposta ao pedido de informação não atendido de imediato é de 30 dias, vedada qualquer prorrogação.  
-B) Informações classificadas no grau reservado permanecem sob restrição de acesso público pelo prazo máximo de 5 anos.  
-C) O acesso à informação pública subordina-se à demonstração de legítimo interesse jurídico e comprovação dos motivos determinantes da solicitação pelo requerente.  
-D) A classificação de informação como ultrassecreta é atribuição passível de delegação a qualquer servidor ocupante de cargo comissionado de chefia.  
-E) A transparência ativa refere-se exclusivamente às informações fornecidas pelo poder público em resposta a pedidos protocolados via ouvidoria geral.  
+* **A)** O prazo para resposta ao pedido de informação não atendido de imediato é de 30 dias, vedada qualquer prorrogação.
+* **B)** Informações classificadas no grau reservado permanecem sob restrição de acesso público pelo prazo máximo de 5 anos.
+* **C)** O acesso à informação pública subordina-se à demonstração de legítimo interesse jurídico e comprovação dos motivos determinantes da solicitação pelo requerente.
+* **D)** A classificação de informação como ultrassecreta é atribuição passível de delegação a qualquer servidor ocupante de cargo comissionado de chefia.
+* **E)** A transparência ativa refere-se exclusivamente às informações fornecidas pelo poder público em resposta a pedidos protocolados via ouvidoria geral.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O prazo legal fixado pelo art. 11, §§ 1º e 2º da LAI é de até 20 dias, admitindo-se prorrogação justificada por mais 10 dias.
@@ -312,11 +315,11 @@ E) A transparência ativa refere-se exclusivamente às informações fornecidas 
 ### Questão 3 (FCC – TCE-GO – Analista de Controle Externo)
 A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas do Estado sobre as contas dos Poderes Executivo, Legislativo e Judiciário materializa uma dimensão específica da *accountability*. Trata-se de um exemplo típico de *accountability*:
 
-A) Vertical, pois o Tribunal de Contas situa-se em escalão hierárquico superior aos órgãos do Poder Executivo estadual.  
-B) Social, uma vez que decorre unicamente de representações apresentadas por organizações não governamentais e pela imprensa.  
-C) Horizontal, por consistir em controle mútuo de legalidade e legitimidade exercido por um órgão estatal autônomo sobre outros órgãos estatais no mesmo nível institucional.  
-D) Comportamental, pois visa exclusivamente à apuração disciplinar de infrações éticas cometidas por servidores subalternos.  
-E) Primária, caracterizada pelo exercício direto do sufrágio universal e do voto popular nas urnas.  
+* **A)** Vertical, pois o Tribunal de Contas situa-se em escalão hierárquico superior aos órgãos do Poder Executivo estadual.
+* **B)** Social, uma vez que decorre unicamente de representações apresentadas por organizações não governamentais e pela imprensa.
+* **C)** Horizontal, por consistir em controle mútuo de legalidade e legitimidade exercido por um órgão estatal autônomo sobre outros órgãos estatais no mesmo nível institucional.
+* **D)** Comportamental, pois visa exclusivamente à apuração disciplinar de infrações éticas cometidas por servidores subalternos.
+* **E)** Primária, caracterizada pelo exercício direto do sufrágio universal e do voto popular nas urnas.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Não existe hierarquia entre o Tribunal de Contas e os Poderes; a relação é de equilíbrio e controle constitucional autônomo.
@@ -332,11 +335,11 @@ E) Primária, caracterizada pelo exercício direto do sufrágio universal e do v
 ### Questão 4 (FCC – ARTESP – Especialista em Regulação de Transportes)
 O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, propôs a descentralização do Estado e a reorganização de suas atividades em quatro setores. A prestação de serviços de saúde básica em hospitais públicos e a realização de pesquisas científicas em universidades enquadram-se, segundo a tipologia do PDRAE, no setor de:
 
-A) Atividades Exclusivas de Estado, a serem desempenhadas compulsoriamente por agências reguladoras.  
-B) Núcleo Estratégico, com manutenção de propriedade puramente estatal e cargos privativos de livre nomeação política.  
-C) Serviços Não Exclusivos do Estado, com orientação para o modelo de publicização mediante parcerias com Organizações Sociais (OS).  
-D) Produção de Bens e Serviços para o Mercado, orientados à privatização compulsória em bolsa de valores.  
-E) Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcional e dos Tribunais de Contas.  
+* **A)** Atividades Exclusivas de Estado, a serem desempenhadas compulsoriamente por agências reguladoras.
+* **B)** Núcleo Estratégico, com manutenção de propriedade puramente estatal e cargos privativos de livre nomeação política.
+* **C)** Serviços Não Exclusivos do Estado, com orientação para o modelo de publicização mediante parcerias com Organizações Sociais (OS).
+* **D)** Produção de Bens e Serviços para o Mercado, orientados à privatização compulsória em bolsa de valores.
+* **E)** Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcional e dos Tribunais de Contas.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Atividades exclusivas abrangem polícia, arrecadação, fiscalização e regulação.
@@ -351,17 +354,18 @@ E) Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcio
 
 ### Questão 5 (FCC – DPE-RS – Analista: Área Administrativa)
 Considere que determinado município gaúcho implementou um programa de alfabetização de adultos com orçamento de R$ 1.000.000,00. Ao final do projeto, constatou-se que:
+
 1. O custo por aluno atendido foi o menor registrado no Estado, sem desperdício de material pedagógico.
 2. A meta quantitativa de matricular e formar 2.000 estudantes foi rigorosamente alcançada.
 3. Decorrido um ano da conclusão, levantamento censitário demonstrou que 95% dos formandos foram inseridos no mercado formal de trabalho e aumentaram sua renda familiar.
 
 As constatações 1, 2 e 3 correspondem, respectivamente, aos conceitos de:
 
-A) Eficácia, Eficiência e Efetividade.  
-B) Eficiência, Eficácia e Efetividade.  
-C) Efetividade, Eficiência e Eficácia.  
-D) Economicidade, Efetividade e Eficiência.  
-E) Eficiência, Efetividade e Eficácia.  
+* **A)** Eficácia, Eficiência e Efetividade.
+* **B)** Eficiência, Eficácia e Efetividade.
+* **C)** Efetividade, Eficiência e Eficácia.
+* **D)** Economicidade, Efetividade e Eficiência.
+* **E)** Eficiência, Efetividade e Eficácia.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Inverte a ordem das duas primeiras dimensões.

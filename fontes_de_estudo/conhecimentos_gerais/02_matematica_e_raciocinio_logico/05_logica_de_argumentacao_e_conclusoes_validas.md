@@ -18,31 +18,31 @@
 
 ## 🧭 Sumário
 - [1. Proposições Lógicas, Princípios e Conectivos Fundamentais](#1-proposições-lógicas-princípios-e-conectivos-fundamentais)
-  - [1.1 Definição de Proposição e Sentenças Não Proposicionais](#11-definição-de-proposição-e-sentenças-não-proposicionais)
-  - [1.2 Os Três Princípios Fundamentais da Lógica Clássica](#12-os-três-princípios-fundamentais-da-lógica-clássica)
-  - [1.3 Conectivos Lógicos e Regras da Tabela-Verdade](#13-conectivos-lógicos-e-regras-da-tabela-verdade)
-  - [1.4 A Condicional: Peculiaridades e o Caso Falso Único](#14-a-condicional-peculiaridades-e-o-caso-falso-único)
+    - [1.1 Definição de Proposição e Sentenças Não Proposicionais](#11-definição-de-proposição-e-sentenças-não-proposicionais)
+    - [1.2 Os Três Princípios Fundamentais da Lógica Clássica](#12-os-três-princípios-fundamentais-da-lógica-clássica)
+    - [1.3 Conectivos Lógicos e Regras da Tabela-Verdade](#13-conectivos-lógicos-e-regras-da-tabela-verdade)
+    - [1.4 A Condicional: Peculiaridades e o Caso Falso Único](#14-a-condicional-peculiaridades-e-o-caso-falso-único)
 - [2. Álgebra Proposicional: Negações e Equivalências Clássicas](#2-álgebra-proposicional-negações-e-equivalências-clássicas)
-  - [2.1 Leis de De Morgan para Conjunção e Disjunção](#21-leis-de-de-morgan-para-conjunção-e-disjunção)
-  - [2.2 Negação da Condicional e a Regra do MANÉ](#22-negação-da-condicional-e-a-regra-do-mané)
-  - [2.3 Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)](#23-equivalências-notáveis-da-condicional-contrapositiva-e-disjuntiva-neya)
-  - [2.4 Tautologias, Contradições e Contingências](#24-tautologias-contradições-e-contingências)
+    - [2.1 Leis de De Morgan para Conjunção e Disjunção](#21-leis-de-de-morgan-para-conjunção-e-disjunção)
+    - [2.2 Negação da Condicional e a Regra do MANÉ](#22-negação-da-condicional-e-a-regra-do-mané)
+    - [2.3 Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)](#23-equivalências-notáveis-da-condicional-contrapositiva-e-disjuntiva-neya)
+    - [2.4 Tautologias, Contradições e Contingências](#24-tautologias-contradições-e-contingências)
 - [3. Validade de Argumentos Dedutivos e Regras de Inferência](#3-validade-de-argumentos-dedutivos-e-regras-de-inferência)
-  - [3.1 Estrutura do Argumento: Premissas e Conclusão](#31-estrutura-do-argumento-premissas-e-conclusão)
-  - [3.2 Conceito Formal de Validade vs. Verdade Empírica](#32-conceito-formal-de-validade-vs-verdade-empírica)
-  - [3.3 Principais Regras de Inferência Válidas](#33-principais-regras-de-inferência-válidas)
-  - [3.4 O Método do Encadeamento de Premissas Verdadeiras](#34-o-método-do-encadeamento-de-premissas-verdadeiras)
+    - [3.1 Estrutura do Argumento: Premissas e Conclusão](#31-estrutura-do-argumento-premissas-e-conclusão)
+    - [3.2 Conceito Formal de Validade vs. Verdade Empírica](#32-conceito-formal-de-validade-vs-verdade-empírica)
+    - [3.3 Principais Regras de Inferência Válidas](#33-principais-regras-de-inferência-válidas)
+    - [3.4 O Método do Encadeamento de Premissas Verdadeiras](#34-o-método-do-encadeamento-de-premissas-verdadeiras)
 - [4. Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos](#4-lógica-de-primeira-ordem-quantificadores-e-silogismos-categóricos)
-  - [4.1 Quantificadores Universais e Existenciais: Todo, Nenhum e Algum](#41-quantificadores-universais-e-existenciais-todo-nenhum-e-algum)
-  - [4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO](#42-negação-de-proposições-categóricas-e-a-mnemônica-pea--não)
-  - [4.3 Análise de Silogismos via Diagramas de Euler-Venn](#43-análise-de-silogismos-via-diagramas-de-euler-venn)
+    - [4.1 Quantificadores Universais e Existenciais: Todo, Nenhum e Algum](#41-quantificadores-universais-e-existenciais-todo-nenhum-e-algum)
+    - [4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO](#42-negação-de-proposições-categóricas-e-a-mnemônica-pea--não)
+    - [4.3 Análise de Silogismos via Diagramas de Euler-Venn](#43-análise-de-silogismos-via-diagramas-de-euler-venn)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
 - [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-  - [Questão 01](#questão-01)
-  - [Questão 02](#questão-02)
-  - [Questão 03](#questão-03)
-  - [Questão 04](#questão-04)
-  - [Questão 05](#questão-05)
+    - [Questão 01](#questão-01)
+    - [Questão 02](#questão-02)
+    - [Questão 03](#questão-03)
+    - [Questão 04](#questão-04)
+    - [Questão 05](#questão-05)
 
 ---
 
@@ -53,17 +53,18 @@ A lógica proposicional (ou lógica sentencial) é o ramo da lógica matemática
 ### 1.1 Definição de Proposição e Sentenças Não Proposicionais
 
 * **Proposição Lógica:** Toda oração declarativa com sujeito e predicado expressos que veicula um pensamento completo e à qual se pode atribuir, de forma unívoca, um único valor lógico: **Verdadeiro ($V$)** ou **Falso ($F$)**.
-  * Exemplos: *"O TCE-GO fiscaliza as contas municipais"*; *"Goiânia é a capital do Estado de Goiás"*.
+    * Exemplos: *"O TCE-GO fiscaliza as contas municipais"*; *"Goiânia é a capital do Estado de Goiás"*.
 * **Sentenças Não Proposicionais (que NÃO são proposições lógicas perante concursos):**
-  * Sentenças interrogativas: *"Quem relatou o processo?"*;
-  * Sentenças exclamativas: *"Excelente trabalho de auditoria!"*;
-  * Sentenças imperativas: *"Instrua os autos imediatamente"*;
-  * Sentenças optativas (exprimem desejo): *"Deus o abençoe"*;
-  * Sentenças abertas (paradoxo ou incógnita indefinida): *"Ele é auditor fiscal"* (falta definir quem é "ele"); *"$x + 5 = 12$"* (sem o valor de $x$, não é V nem F).
+    * Sentenças interrogativas: *"Quem relatou o processo?"*;
+    * Sentenças exclamativas: *"Excelente trabalho de auditoria!"*;
+    * Sentenças imperativas: *"Instrua os autos imediatamente"*;
+    * Sentenças optativas (exprimem desejo): *"Deus o abençoe"*;
+    * Sentenças abertas (paradoxo ou incógnita indefinida): *"Ele é auditor fiscal"* (falta definir quem é "ele"); *"$x + 5 = 12$"* (sem o valor de $x$, não é V nem F).
 
 ### 1.2 Os Três Princípios Fundamentais da Lógica Clássica
 
 A lógica bivalente aristotélica assenta-se sobre três postulados absolutos:
+
 1. **Princípio da Identidade:** Uma proposição é idêntica a si mesma: se ela é verdadeira, é sempre verdadeira; se é falsa, é sempre falsa ($p \implies p$).
 2. **Princípio da Não Contradição:** Uma proposição não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias e no mesmo tempo: $\neg(p \land \neg p)$.
 3. **Princípio do Terceiro Excluído:** Uma proposição só pode assumir dois valores lógicos ($V$ ou $F$), excluindo-se qualquer terceiro valor ou estado intermediário.
@@ -96,6 +97,7 @@ flowchart TD
 ### 1.4 A Condicional: Peculiaridades e o Caso Falso Único
 
 A condicional $p \rightarrow q$ é a estrutura que mais induz candidatos a erro. Na condicional:
+
 * O termo $p$ é o **antecedente** (ou condição suficiente);
 * O termo $q$ é o **consequente** (ou condição necessária).
 * **A Regra do Falso Único:** A condicional só é avaliada como Falsa se ocorrer a combinação $V \rightarrow F$ (o famoso mnemônico *Vera Fischer é Falsa*).
@@ -110,6 +112,7 @@ Duas proposições compostas são **logicamente equivalentes** ($P \equiv Q$) qu
 ### 2.1 Leis de De Morgan para Conjunção e Disjunção
 
 As Leis de Augustus De Morgan ditam a negação das estruturas conjuntivas e disjuntivas:
+
 1. **Negação da Conjunção ("E"):** Nega-se a primeira, nega-se a segunda e troca-se o conectivo por "OU":
    $$\neg(p \land q) \equiv \neg p \lor \neg q$$
    *Exemplo:* A negação de *"O relatório foi concluído e o prazo foi cumprido"* é *"O relatório **não** foi concluído **OU** o prazo **não** foi cumprido"*.
@@ -129,6 +132,7 @@ $$\neg(p \rightarrow q) \equiv p \land \neg q$$
 ### 2.3 Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)
 
 A FCC explora intensamente duas formas canônicas de reescrever a condicional $p \rightarrow q$:
+
 1. **Equivalência Contrapositiva (Inverte e Nega Tudo):**
    $$p \rightarrow q \equiv \neg q \rightarrow \neg p$$
    *Exemplo:* *"Se a prestação de contas foi apresentada tempestivamente, então a certidão foi emitida"* $\equiv$ *"Se a certidão **não** foi emitida, então a prestação de contas **não** foi apresentada tempestivamente"*.
@@ -151,6 +155,7 @@ A argumentação lógica investiga se uma determinada conclusão decorre com nec
 ### 3.1 Estrutura do Argumento: Premissas e Conclusão
 
 Um argumento dedutivo é um conjunto ordenado de proposições estruturado em:
+
 * **Premissas ($P_1, P_2, \dots, P_n$):** Proposições que servem de ponto de partida, evidência ou suporte fático.
 * **Conclusão ($C$):** Proposição final deduzida que decorre das premissas.
 Representa-se simbolicamente por: $P_1, P_2, \dots, P_n \vdash C$.
@@ -175,6 +180,7 @@ Representa-se simbolicamente por: $P_1, P_2, \dots, P_n \vdash C$.
 ### 3.4 O Método do Encadeamento de Premissas Verdadeiras
 
 O método prático para resolver questões com múltiplas premissas condicionais na FCC consiste em:
+
 1. Atribuir o valor lógico **VERDADEIRO ($V$)** a todas as premissas do enunciado;
 2. Localizar o ponto de partida mais restrito: quase sempre uma **proposição simples isolada** ou uma **conjunção ("E")**;
 3. Propagar esse valor veritativo pelas condicionais utilizando *Modus Ponens* ou *Modus Tollens*;
@@ -202,22 +208,24 @@ flowchart LR
 ### 4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO
 
 Para negar uma proposição quantificada, deve-se alternar o tipo de quantificador (universal vira existencial, e existencial vira universal):
+
 1. **Negação de "TODO A é B":**
-   * Não é "Nenhum A é B"! Para quebrar uma afirmação universal afirmativa, basta encontrar **ao menos um contraexemplo**.
-   * Aplica-se a regra mnemônica **PEA + NÃO**:
-     * **P**elo menos um A não é B;
-     * **E**xiste A que não é B;
-     * **A**lgum A não é B.
+    * Não é "Nenhum A é B"! Para quebrar uma afirmação universal afirmativa, basta encontrar **ao menos um contraexemplo**.
+    * Aplica-se a regra mnemônica **PEA + NÃO**:
+    * **P**elo menos um A não é B;
+    * **E**xiste A que não é B;
+    * **A**lgum A não é B.
 2. **Negação de "NENHUM A é B":**
-   * Basta provar que existe pelo menos um elemento na interseção: *"Algum A é B"* (ou *"Pelo menos um A é B"*).
+    * Basta provar que existe pelo menos um elemento na interseção: *"Algum A é B"* (ou *"Pelo menos um A é B"*).
 3. **Negação de "ALGUM A é B":**
-   * Nega-se pelo quantificador universal negativo: *"Nenhum A é B"*.
+    * Nega-se pelo quantificador universal negativo: *"Nenhum A é B"*.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA DO "TODO" VS. "NENHUM":** A alternativa mais tentadora e incorreta em provas da FCC para negar *"Todos os servidores são concursados"* é *"Nenhum servidor é concursado"*. Lembre-se: "Todo" e "Nenhum" são proposições contrárias (podem ser ambas falsas ao mesmo tempo se houver 99 concursados e 1 comissionado), mas **não são contraditórias**. A negação legítima é: *"Pelo menos um servidor não é concursado"*.
 
 ### 4.3 Análise de Silogismos via Diagramas de Euler-Venn
 
 Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Algum E é P"*:
+
 * Desenhe os círculos de conjuntos de Euler-Venn;
 * O círculo $A$ está totalmente dentro de $E$;
 * O círculo $P$ cruza com $E$, mas **não se pode garantir que encoste em $A$**. Ele pode estar numa região de $E$ totalmente afastada de $A$;
@@ -252,6 +260,7 @@ A negação lógica dessa afirmação é expressa por:
 
 > **Comentário Detalhado:**
 > Formalização simbólica e aplicação das leis lógicas:
+>
 > 1. Estrutura proposicional:
 >    - Seja $p$: *"A prestação de contas foi apresentada tempestivamente"*.
 >    - Seja $q$: *"A documentação comprobatória é idônea"*.
@@ -266,6 +275,7 @@ A negação lógica dessa afirmação é expressa por:
 >    Traduzindo para a linguagem corrente: *"A prestação de contas foi apresentada tempestivamente"* ($p$) **E** ($\land$) *"[a documentação comprobatória não é idônea"* ($\neg q$) **OU** ($\lor$) *"o parecer técnico não é favorável]"* ($\neg r$).
 >
 > Análise individual das alternativas:
+>
 > - **A)** Incorreta. Estrutura a negação como uma nova condicional (a negação estrita da condicional nunca é condicional).
 > - **B)** Correta. Aplica perfeitamente a regra do MANÉ associada à Lei de De Morgan: mantém a primeira proposição com "e" e nega o consequente composto trocando o conectivo interno de "e" para "ou".
 > - **C)** Incorreta. Expressa a equivalência disjuntiva da condicional ($\neg p \lor (q \land r)$), e não a sua negação.
@@ -295,6 +305,7 @@ A partir dessas premissas, é correto concluir de forma necessariamente válida 
 
 > **Comentário Detalhado:**
 > Dedução formal por encadeamento retroativo (*Modus Tollens*):
+>
 > 1. Todas as premissas devem ser assumidas como Verdadeiras ($V$):
 >    - Pela Premissa IV (fato simples garantido): *"A empresa não apresentou defesa"* $= V$. Logo, a proposição *"A empresa apresenta defesa"* é **Falsa ($F$)**.
 > 2. Pela Premissa III:
@@ -312,6 +323,7 @@ A partir dessas premissas, é correto concluir de forma necessariamente válida 
 > 5. Conclusão sintetizada: O contrato não possui cláusula abusiva ($V$) **E** a auditoria não emitiu notificação ($V$).
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. Ambas as proposições foram demonstradas como falsas.
 > - **B)** Incorreta. O ordenador não suspendeu o pagamento.
 > - **C)** Correta. Enuncia exatamente as deduções irrefutáveis obtidas pelo encadeamento dedutivo das premissas.
@@ -336,6 +348,7 @@ Do ponto de vista da lógica formal, a proposição:
 
 > **Comentário Detalhado:**
 > Análise das leis de equivalência da condicional $p \rightarrow q$:
+>
 > 1. Identificação das proposições:
 >    - $p$: *"O servidor público observa o princípio da moralidade"*
 >    - $q$: *"Sua conduta administrativa é inatacável"*
@@ -345,6 +358,7 @@ Do ponto de vista da lógica formal, a proposição:
 > 3. Como a contrapositiva não figura entre as opções, busca-se a forma disjuntiva $\neg p \lor q$, presente de modo límpido na alternativa C.
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. Consiste na recíproca simples ($q \rightarrow p$), o que constitui a falácia da afirmação do consequente.
 > - **B)** Incorreta. É a inversa simples ($\neg p \rightarrow \neg q$), falácia da negação do antecedente.
 > - **C)** Correta. Aplicação perfeita da equivalência disjuntiva NEYA: $\neg p \lor q$.
@@ -372,6 +386,7 @@ A partir dessas premissas, é **necessariamente** correto concluir que:
 
 > **Comentário Detalhado:**
 > Modelagem geométrica por Diagramas de Euler-Venn:
+>
 > 1. Premissa 1 (*"Todo Auditor é Especialista"*): o conjunto dos Auditores ($A$) está totalmente contido no conjunto dos Especialistas em Finanças ($E$), ou seja, $A \subset E$.
 > 2. Premissa 2 (*"Algum Especialista é Professor"*): o conjunto dos Professores ($P$) possui interseção não vazia com o conjunto dos Especialistas ($E$), isto é, $E \cap P \neq \emptyset$.
 > 3. Relação espacial entre $A$ e $P$:
@@ -380,6 +395,7 @@ A partir dessas premissas, é **necessariamente** correto concluir que:
 >    - Como não há restrição impositiva, ambas as hipóteses são perfeitamente possíveis. Portanto, não se pode deduzir com necessidade lógica que *"Algum auditor é professor"*, nem que *"Nenhum auditor é professor"*. A afirmação é contingente e não necessária.
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. Generalização abusiva desprovida de nexo dedutivo.
 > - **B)** Incorreta. Erro clássico da falácia de quatro termos; a interseção de $E$ com $P$ não tem garantia de alcançar o subconjunto $A$.
 > - **C)** Incorreta. Não se pode garantir que não haja interseção.
@@ -402,6 +418,7 @@ A afirmação *"Todos os relatórios elaborados pela comissão técnica continha
 
 > **Comentário Detalhado:**
 > Análise da negação de proposições universais afirmativas:
+>
 > 1. A proposição dada é categórica universal afirmativa: *"Todo A é B"*, onde $A$ representa o conjunto de relatórios da comissão técnica e $B$ a propriedade de conter recomendações.
 > 2. Para negar uma afirmação universal afirmativa, basta exibir a existência de **ao menos uma exceção**:
 >    $$\neg (\forall x, A(x) \rightarrow B(x)) \equiv \exists x, A(x) \land \neg B(x)$$
@@ -412,6 +429,7 @@ A afirmação *"Todos os relatórios elaborados pela comissão técnica continha
 > 4. Tradução exata: *"Pelo menos um relatório elaborado pela comissão técnica NÃO continha recomendações aos municípios"*.
 >
 > Análise individual das alternativas:
+>
 > - **A)** Incorreta. *"Nenhum A é B"* é a proposição contrária universal, e não a negação contraditória. Se houver 99 relatórios com recomendações e apenas 1 sem recomendações, tanto a proposição original quanto a alternativa A serão simultaneamente falsas.
 > - **B)** Incorreta. Equivalente a "Nenhum", cometendo o mesmo equívoco de A.
 > - **C)** Correta. Traduz com perfeição lógica formal a negação existencial do quantificador universal afirmativo.

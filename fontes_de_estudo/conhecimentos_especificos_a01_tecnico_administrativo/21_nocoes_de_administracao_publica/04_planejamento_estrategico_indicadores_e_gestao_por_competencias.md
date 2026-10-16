@@ -9,22 +9,22 @@
 ## 📌 Ementa / Itens do Edital
 - Níveis do planejamento organizacional: Estratégico (institucional e longo prazo), Tático (departamental e médio prazo) e Operacional (tarefas, rotinas e curto prazo);
 - Ferramentas de análise e diagnóstico para a gestão:
-  - **Balanced Scorecard (BSC - Kaplan & Norton):** mapa estratégico, relações de causa e efeito, e as quatro perspectivas adaptadas ao setor público (Cidadão/Sociedade, Orçamentária/Financeira, Processos Internos e Aprendizado/Crescimento);
-  - **Matriz SWOT (FOFA):** forças e fraquezas (ambiente interno controlável) versus oportunidades e ameaças (ambiente externo incontrolável);
-  - **Matriz GUT:** priorização matemática de problemas por Gravidade, Urgência e Tendência;
-  - Metodologia 5W2H de planos de ação operacional;
+    - **Balanced Scorecard (BSC - Kaplan & Norton):** mapa estratégico, relações de causa e efeito, e as quatro perspectivas adaptadas ao setor público (Cidadão/Sociedade, Orçamentária/Financeira, Processos Internos e Aprendizado/Crescimento);
+    - **Matriz SWOT (FOFA):** forças e fraquezas (ambiente interno controlável) versus oportunidades e ameaças (ambiente externo incontrolável);
+    - **Matriz GUT:** priorização matemática de problemas por Gravidade, Urgência e Tendência;
+    - Metodologia 5W2H de planos de ação operacional;
 - Indicadores de gestão pública e desempenho organizacional:
-  - Os 6 Es do desempenho público: Economicidade, Eficiência, Eficácia, Efetividade, Execução e Excelência;
-  - Propriedades e requisitos dos indicadores: representatividade, simplicidade, rastreabilidade, sensibilidade e economicidade;
+    - Os 6 Es do desempenho público: Economicidade, Eficiência, Eficácia, Efetividade, Execução e Excelência;
+    - Propriedades e requisitos dos indicadores: representatividade, simplicidade, rastreabilidade, sensibilidade e economicidade;
 - Metodologias de avaliação de desempenho funcional:
-  - Avaliação individual e institucional; métodos tradicionais e modernos;
-  - Avaliação 360 graus (múltiplas fontes), autoavaliação e avaliação participativa por objetivos;
+    - Avaliação individual e institucional; métodos tradicionais e modernos;
+    - Avaliação 360 graus (múltiplas fontes), autoavaliação e avaliação participativa por objetivos;
 - Gestão por Competências na administração pública (Decreto Federal nº 9.991/2019):
-  - A tríade **CHA** (Conhecimentos, Habilidades e Atitudes);
-  - Mapeamento de competências, diagnóstico de lacunas (*gap analysis*) e elaboração do Plano de Desenvolvimento de Pessoas (PDP);
+    - A tríade **CHA** (Conhecimentos, Habilidades e Atitudes);
+    - Mapeamento de competências, diagnóstico de lacunas (*gap analysis*) e elaboração do Plano de Desenvolvimento de Pessoas (PDP);
 - Processo decisório e teoria da decisão:
-  - Modelo Racional Absoluto (*Homem Econômico*) versus Teoria da Racionalidade Limitada de Herbert Simon (*Homem Administrativo* e decisões satisfatórias);
-  - Decisões programadas versus decisões não programadas;
+    - Modelo Racional Absoluto (*Homem Econômico*) versus Teoria da Racionalidade Limitada de Herbert Simon (*Homem Administrativo* e decisões satisfatórias);
+    - Decisões programadas versus decisões não programadas;
 - Gestão de conflitos organizacionais: conflitos funcionais e disfuncionais; estilos de tratamento de conflitos (Kenneth Thomas e Ralph Kilmann).
 
 ---
@@ -59,17 +59,17 @@ flowchart TD
 ```
 
 1. **Planejamento Estratégico:**
-   - **Horizonte Temporal:** Longo prazo.
-   - **Nível Hierárquico:** Institucional (Diretoria, Tribunal Pleno, Secretários de Estado).
-   - **Escopo e Foco:** Envolve a totalidade da organização, com ênfase nas variáveis do ambiente externo e na consecução da Missão (razão de existir), Visão (estado futuro desejado) e Valores organizacionais. Caracteriza-se por elevado grau de incerteza e orientação para a eficácia e efetividade institucional.
+    - **Horizonte Temporal:** Longo prazo.
+    - **Nível Hierárquico:** Institucional (Diretoria, Tribunal Pleno, Secretários de Estado).
+    - **Escopo e Foco:** Envolve a totalidade da organização, com ênfase nas variáveis do ambiente externo e na consecução da Missão (razão de existir), Visão (estado futuro desejado) e Valores organizacionais. Caracteriza-se por elevado grau de incerteza e orientação para a eficácia e efetividade institucional.
 2. **Planejamento Tático:**
-   - **Horizonte Temporal:** Médio prazo.
-   - **Nível Hierárquico:** Intermediário / Gerencial (chefias de departamentos, diretorias setoriais).
-   - **Escopo e Foco:** Traduz e fragmenta as macroestratégias corporativas em planos táticos departamentais funcionais (Plano de Contratações de TI, Plano Anual de Capacitação, Planejamento Orçamentário Setorial). Foca na coordenação e integração de recursos.
+    - **Horizonte Temporal:** Médio prazo.
+    - **Nível Hierárquico:** Intermediário / Gerencial (chefias de departamentos, diretorias setoriais).
+    - **Escopo e Foco:** Traduz e fragmenta as macroestratégias corporativas em planos táticos departamentais funcionais (Plano de Contratações de TI, Plano Anual de Capacitação, Planejamento Orçamentário Setorial). Foca na coordenação e integração de recursos.
 3. **Planejamento Operacional:**
-   - **Horizonte Temporal:** Curto prazo (execução cotidiana).
-   - **Nível Hierárquico:** Operacional (supervisores, servidores de execução técnica e analítica).
-   - **Escopo e Foco:** Atividades, tarefas e rotinas individualizadas. Utiliza ferramentas como Procedimentos Operacionais Padrão (POP), ordens de serviço, cronogramas de fiscalização e orçamentos operacionais. Focado na eficiência produtiva e no estrito cumprimento de prazos imediatos.
+    - **Horizonte Temporal:** Curto prazo (execução cotidiana).
+    - **Nível Hierárquico:** Operacional (supervisores, servidores de execução técnica e analítica).
+    - **Escopo e Foco:** Atividades, tarefas e rotinas individualizadas. Utiliza ferramentas como Procedimentos Operacionais Padrão (POP), ordens de serviço, cronogramas de fiscalização e orçamentos operacionais. Focado na eficiência produtiva e no estrito cumprimento de prazos imediatos.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (NÍVEIS DE PLANEJAMENTO):**  
 > A FCC frequentemente tenta inverter os horizontes temporais e escopos, afirmando que o planejamento tático cuida de tarefas operacionais diárias ou que o planejamento operacional traça a visão de longo prazo do órgão. Lembre-se: Estratégico = Longo Prazo / Toda a Organização; Tático = Médio Prazo / Unidades e Departamentos; Operacional = Curto Prazo / Tarefas, Procedimentos e Rotinas.
@@ -100,14 +100,14 @@ flowchart TD
 
 #### As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público:
 1. **Perspectiva do Cidadão / Sociedade (Topo no Setor Público):**
-   - *Na iniciativa privada:* O topo do mapa estratégico é a **Perspectiva Financeira**, orientada para a geração de lucros, dividendos e retorno sobre o patrimônio dos acionistas (*shareholders*).
-   - *No setor público:* O topo do mapa estratégico é **obrigatoriamente a Perspectiva do Cidadão e da Sociedade**. O órgão público não visa ao lucro comercial, mas sim à geração de valor público, garantia de direitos fundamentais e satisfação dos cidadãos-usuários.
+    - *Na iniciativa privada:* O topo do mapa estratégico é a **Perspectiva Financeira**, orientada para a geração de lucros, dividendos e retorno sobre o patrimônio dos acionistas (*shareholders*).
+    - *No setor público:* O topo do mapa estratégico é **obrigatoriamente a Perspectiva do Cidadão e da Sociedade**. O órgão público não visa ao lucro comercial, mas sim à geração de valor público, garantia de direitos fundamentais e satisfação dos cidadãos-usuários.
 2. **Perspectiva Financeira / Orçamentária:**
-   - No setor público, os recursos orçamentários não são um fim em si mesmos, mas atuam como **fatores restritores e viabilizadores** da estratégia. Foca na economicidade, sustentabilidade orçamentária, equilíbrio fiscal (LRF) e conformidade na aplicação das verbas.
+    - No setor público, os recursos orçamentários não são um fim em si mesmos, mas atuam como **fatores restritores e viabilizadores** da estratégia. Foca na economicidade, sustentabilidade orçamentária, equilíbrio fiscal (LRF) e conformidade na aplicação das verbas.
 3. **Perspectiva dos Processos Internos:**
-   - Mapeia os processos de trabalho críticos nos quais a instituição deve atingir excelência. Compreende processos de inovação, fiscalização tempestiva, controle preventivo, modernização de sistemas e celeridade procedimental.
+    - Mapeia os processos de trabalho críticos nos quais a instituição deve atingir excelência. Compreende processos de inovação, fiscalização tempestiva, controle preventivo, modernização de sistemas e celeridade procedimental.
 4. **Perspectiva de Aprendizado e Crescimento (Base de Sustentação):**
-   - Representa os alicerces estruturais e o capital intangível que suporta todos os processos superiores: capital humano (competências e capacitação), capital informacional (infraestrutura tecnológica, banco de dados) e capital organizacional (cultura institucional, liderança, alinhamento e trabalho em equipe).
+    - Representa os alicerces estruturais e o capital intangível que suporta todos os processos superiores: capital humano (competências e capacitação), capital informacional (infraestrutura tecnológica, banco de dados) e capital organizacional (cultura institucional, liderança, alinhamento e trabalho em equipe).
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (O TOPO DO BSC PÚBLICO):**  
 > A FCC adora afirmar que a perspectiva financeira figura no topo do Balanced Scorecard no setor público. Isso é **FALSO**! No setor público, quem ocupa o topo do mapa estratégico é a **Perspectiva do Cidadão / Sociedade**, pois o órgão estatal não busca lucro comercial, mas sim gerar valor social e cumprir sua missão pública!
@@ -136,6 +136,7 @@ flowchart TD
 
 > ⭐ **IMPORTANTE (SWOT: AMBIENTE INTERNO VS. EXTERNO):**  
 > Grave os limites de controle:  
+>
 > - **Ambiente Interno (Sob controle do órgão):** Forças (*Strengths*) e Fraquezas (*Weaknesses*).  
 > - **Ambiente Externo (Fora do controle do órgão):** Oportunidades (*Opportunities*) e Ameaças (*Threats*).  
 > Se a questão citar uma crise econômica, uma mudança climática ou uma alteração da lei, isso é **incontrolável**, portanto pertence ao ambiente externo (Ameaça ou Oportunidade)!
@@ -151,6 +152,7 @@ $$\mathbf{\text{Pontuação de Prioridade} = \text{Gravidade (G)} \times \text{U
 
 #### C) Plano de Ação 5W2H
 Metodologia operacional consagrada para estruturação e acompanhamento da execução prática de projetos e deliberações administrativas:
+
 1. **What? (O quê?):** Descrição da meta, ação ou entrega a realizar.
 2. **Why? (Por quê?):** Justificativa, benefício e razão de ser da iniciativa.
 3. **Where? (Onde?):** Local físico ou sistema institucional onde ocorrerá.
@@ -177,6 +179,7 @@ A gestão pública moderna avalia políticas públicas e entidades governamentai
 
 #### B) Propriedades Técnicas dos Indicadores
 Para assegurar a utilidade e fidedignidade dos relatórios de governança, os indicadores devem preencher:
+
 * **Validade:** Capacidade de representar com exatidão o fenômeno que se pretende medir.
 * **Confiabilidade:** Obtenção de resultados consistentes e idênticos independentemente de quem execute a coleta.
 * **Simplicidade:** Facilidade de compreensão, cálculo e comunicação aos gestores e cidadãos.
@@ -241,8 +244,8 @@ flowchart TD
 2. **Modelo do Homem Administrativo (Racionalidade Limitada):**  
    Reconhece que na administração real o gestor opera sob severas restrições: imperfeição das informações disponíveis, custos de transação, limites de processamento mental da mente humana e escassez temporal. Diante dessas limitações, o decisor não busca a alternativa ótima absoluta, mas sim a alternativa **satisfatória** (*satisficing*), isto é, a primeira opção que atende aos padrões mínimos aceitáveis fixados para a resolução do problema.
 3. **Tipologia das Decisões Administrativas:**
-   - **Decisões Programadas:** Tomadas em situações rotineiras, repetitivas e padronizadas, orientadas por normas prévias, procedimentos operacionais e algoritmos formais (ex.: concessão de férias regulamentares com base no tempo de serviço).
-   - **Decisões Não Programadas:** Tomadas em face de problemas inéditos, complexos, desestruturados e de alta incerteza, exigindo julgamento crítico, intuição embasada e criação de soluções personalizadas (ex.: reestruturação de uma agência reguladora frente a um desastre ambiental imprevisível).
+    - **Decisões Programadas:** Tomadas em situações rotineiras, repetitivas e padronizadas, orientadas por normas prévias, procedimentos operacionais e algoritmos formais (ex.: concessão de férias regulamentares com base no tempo de serviço).
+    - **Decisões Não Programadas:** Tomadas em face de problemas inéditos, complexos, desestruturados e de alta incerteza, exigindo julgamento crítico, intuição embasada e criação de soluções personalizadas (ex.: reestruturação de uma agência reguladora frente a um desastre ambiental imprevisível).
 
 > 🛑 **ATENÇÃO (HOMEM ECONÔMICO VS. HOMEM ADMINISTRATIVO):**  
 > - *Homem Econômico:* Racionalidade ilimitada, escolhe a decisão **ótima/maximizadora** (modelo clássico irreal).  
@@ -253,10 +256,12 @@ flowchart TD
 ### 7. Gestão de Conflitos Organizacionais (Thomas-Kilmann)
 
 Nas teorias organizacionais modernas, o conflito deixou de ser encarado como uma patologia a ser sumariamente extirpada. O conflito pode ser:
+
 * **Funcional:** Produtivo e estimulante, quando oxigena o debate técnico, desafia o conformismo institucional e propicia inovação nas políticas públicas.
 * **Disfuncional:** Destrutivo e desestabilizador, quando gera animosidade interpessoal, bloqueios de comunicação, absenteísmo e prejuízo às atividades finalísticas.
 
 Kenneth Thomas e Ralph Kilmann estruturaram uma consagrada matriz bidimensional para identificar os **cinco estilos de administração de conflitos**, considerando duas dimensões comportamentais fundamentais:
+
 * **Assertividade:** O grau em que o indivíduo se esforça para satisfazer seus próprios interesses e convicções.
 * **Cooperatividade:** O grau em que o indivíduo se esforça para satisfazer os interesses da outra parte.
 
@@ -338,6 +343,7 @@ A respeito do processo decisório nas organizações e das conclusões da Teoria
 ### Questão 03
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 Durante a realização de um diagnóstico institucional, os analistas de um tribunal identificaram os seguintes fatores:
+
 1. Elevado índice de qualificação acadêmica do quadro próprio de analistas (pós-graduados).
 2. Ausência de padronização nos procedimentos operacionais dos cartórios judiciais.
 3. Disponibilização de novas linhas federais de financiamento para modernização tecnológica dos tribunais.

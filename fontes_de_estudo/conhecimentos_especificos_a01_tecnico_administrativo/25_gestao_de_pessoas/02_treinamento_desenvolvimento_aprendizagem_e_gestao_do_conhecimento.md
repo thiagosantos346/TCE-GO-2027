@@ -9,33 +9,33 @@
 ## 📌 Ementa & Delimitação do Conteúdo
 
 1. **Diferenciação Teórica: Treinamento vs. Desenvolvimento de Pessoas:**
-   - Critérios de temporalidade (curto prazo vs. longo prazo);
-   - Foco do treinamento: cargo atual, suprimento de carências imediatas de desempenho operacional;
-   - Foco do desenvolvimento: carreira, ampliação do potencial intelectual e cargos/desafios futuros;
-   - Papel de T&D no macroprocesso de **Desenvolver Pessoas** de Idalberto Chiavenato.
+    - Critérios de temporalidade (curto prazo vs. longo prazo);
+    - Foco do treinamento: cargo atual, suprimento de carências imediatas de desempenho operacional;
+    - Foco do desenvolvimento: carreira, ampliação do potencial intelectual e cargos/desafios futuros;
+    - Papel de T&D no macroprocesso de **Desenvolver Pessoas** de Idalberto Chiavenato.
 2. **O Ciclo Estratégico de Treinamento (4 Etapas Integradas):**
-   - **Etapa 1: Diagnóstico / Levantamento de Necessidades de Treinamento (LNT):** análise organizacional, análise da força de trabalho/competências e análise funcional/individual (instrumentos: avaliação de desempenho, observação direta, entrevistas com lideranças e incidentes críticos).
-   - **Etapa 2: Desenho e Programação do Treinamento:** os 6 parâmetros do projeto instrucional (*quem deve ser treinado, quem vai treinar, em que treinar, onde treinar, como treinar e quando treinar*).
-   - **Etapa 3: Execução e Condução:** metodologias ativas, simulações, oficinas práticas, cursos presenciais e Ensino a Distância (EaD/microlearning).
-   - **Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick):**
-     - Nível 1: Reação e Satisfação;
-     - Nível 2: Aprendizado e Retenção Cognitiva;
-     - Nível 3: Comportamento no Cargo / Aplicabilidade / Transferência do Aprendizado;
-     - Nível 4: Resultados Organizacionais e Impacto Institucional (ampliação de eficiência no controle externo);
-     - O Modelo de Jack Phillips: o 5º Nível (*Return on Investment* - ROI financeiro).
+    - **Etapa 1: Diagnóstico / Levantamento de Necessidades de Treinamento (LNT):** análise organizacional, análise da força de trabalho/competências e análise funcional/individual (instrumentos: avaliação de desempenho, observação direta, entrevistas com lideranças e incidentes críticos).
+    - **Etapa 2: Desenho e Programação do Treinamento:** os 6 parâmetros do projeto instrucional (*quem deve ser treinado, quem vai treinar, em que treinar, onde treinar, como treinar e quando treinar*).
+    - **Etapa 3: Execução e Condução:** metodologias ativas, simulações, oficinas práticas, cursos presenciais e Ensino a Distância (EaD/microlearning).
+    - **Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick):**
+    - Nível 1: Reação e Satisfação;
+    - Nível 2: Aprendizado e Retenção Cognitiva;
+    - Nível 3: Comportamento no Cargo / Aplicabilidade / Transferência do Aprendizado;
+    - Nível 4: Resultados Organizacionais e Impacto Institucional (ampliação de eficiência no controle externo);
+    - O Modelo de Jack Phillips: o 5º Nível (*Return on Investment* - ROI financeiro).
 3. **Gestão do Conhecimento Organizacional:**
-   - A pirâmide cognitiva: Dado $\rightarrow$ Informação $\rightarrow$ Conhecimento $\rightarrow$ Sabedoria (Modelo DIKW);
-   - Conhecimento Tácito (subjetivo, pessoal, empírico, interiorizado e difícil de formalizar) vs. Conhecimento Explícito (estruturado, codificado, documentado em manuais, leis e sistemas);
-   - O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka e Hirotaka Takeuchi):
-     - **Socialização:** Tácito $\rightarrow$ Tácito (compartilhamento de experiências diretas e tutoria);
-     - **Externalização:** Tácito $\rightarrow$ Explícito (articulação do saber prático em manuais e conceitos);
-     - **Combinação:** Explícito $\rightarrow$ Explícito (cruzamento e sistematização de bases documentais);
-     - **Internalização:** Explícito $\rightarrow$ Tácito (incorporação do conteúdo na prática diária - *learning by doing*);
-   - O conceito japonês de *Ba* (contexto e espaço compartilhado para geração de conhecimento).
+    - A pirâmide cognitiva: Dado $\rightarrow$ Informação $\rightarrow$ Conhecimento $\rightarrow$ Sabedoria (Modelo DIKW);
+    - Conhecimento Tácito (subjetivo, pessoal, empírico, interiorizado e difícil de formalizar) vs. Conhecimento Explícito (estruturado, codificado, documentado em manuais, leis e sistemas);
+    - O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka e Hirotaka Takeuchi):
+    - **Socialização:** Tácito $\rightarrow$ Tácito (compartilhamento de experiências diretas e tutoria);
+    - **Externalização:** Tácito $\rightarrow$ Explícito (articulação do saber prático em manuais e conceitos);
+    - **Combinação:** Explícito $\rightarrow$ Explícito (cruzamento e sistematização de bases documentais);
+    - **Internalização:** Explícito $\rightarrow$ Tácito (incorporação do conteúdo na prática diária - *learning by doing*);
+    - O conceito japonês de *Ba* (contexto e espaço compartilhado para geração de conhecimento).
 4. **Aprendizagem Organizacional e a Organização que Aprende:**
-   - Aprendizagem em Circuito Simples (*Single-Loop Learning*) vs. Aprendizagem em Circuito Duplo (*Double-Loop Learning*) segundo Chris Argyris e Donald Schön;
-   - As Cinco Disciplinas de Peter Senge (*A Quinta Disciplina*): Domínio Pessoal, Modelos Mentais, Visão Compartilhada, Aprendizagem em Equipe e Pensamento Sistêmico;
-   - Educação Corporativa no Setor Público: Escolas de Governo e a atuação da Escola Superior de Controle do TCE-GO (Instituto Leopoldo de Bulhões - ILB).
+    - Aprendizagem em Circuito Simples (*Single-Loop Learning*) vs. Aprendizagem em Circuito Duplo (*Double-Loop Learning*) segundo Chris Argyris e Donald Schön;
+    - As Cinco Disciplinas de Peter Senge (*A Quinta Disciplina*): Domínio Pessoal, Modelos Mentais, Visão Compartilhada, Aprendizagem em Equipe e Pensamento Sistêmico;
+    - Educação Corporativa no Setor Público: Escolas de Governo e a atuação da Escola Superior de Controle do TCE-GO (Instituto Leopoldo de Bulhões - ILB).
 
 ---
 
@@ -93,12 +93,14 @@ flowchart TD
 
 #### A) Etapa 1: Diagnóstico / Levantamento das Necessidades de Treinamento (LNT)
 O LNT é o diagnóstico das carências de competências que prejudicam o alcance das metas organizacionais. O diagnóstico ocorre em três níveis de análise:
+
 1. **Análise Organizacional:** examina a missão, a visão de futuro, os planos estratégicos e as metas globais do órgão para identificar quais competências coletivas são essenciais.
 2. **Análise dos Recursos Humanos (Competências):** mapeia as competências atuais dos servidores frente às competências exigidas pelo órgão, detectando as lacunas (*skills gaps*).
 3. **Análise das Operações e Tarefas (Cargos):** avalia a descrição de cada cargo, os requisitos técnicos e o padrão de excelência esperado para cada função pública.
 
 #### B) Etapa 2: Desenho e Programação do Treinamento
 Consiste no planejamento instrucional estruturado, respondendo a seis questões cruciais:
+
 * **Quem deve ser treinado?** (público-alvo / participantes selecionados);
 * **Quem vai treinar?** (instrutores internos da Escola de Contas ou consultores externos contratados);
 * **Em que treinar?** (conteúdo programático, competências técnicas e comportamentais);
@@ -188,6 +190,7 @@ flowchart TD
 
 > ⭐ **IMPORTANTE (HISTORINHAS PRÁTICAS DO MODELO SECI):**  
 > A FCC adora cobrar o Modelo SECI por meio de situações hipotéticas de trabalho:  
+>
 > - Se o auditor experiente passa dicas práticas e intuições para um estagiário durante uma fiscalização em campo: **SOCIALIZAÇÃO (Tácito para Tácito)**.  
 > - Se esse auditor redige uma apostila ou manual de auditoria com seus métodos: **EXTERNALIZAÇÃO (Tácito para Explícito)**.  
 > - Se o setor reúne manuais de diversos tribunais e publica um guia analítico unificado: **COMBINAÇÃO (Explícito para Explícito)**.  
@@ -205,6 +208,7 @@ A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo 
 
 > 📌 **NOTA EXPLICATIVA — CIRCUITO DUPLO DE ARGYRIS:**  
 > A diferença fundamental reside no questionamento das premissas:  
+>
 > - Circuito simples: corrige a rota sem questionar o destino (mantém os valores vigentes);  
 > - Circuito duplo: questiona se o destino e as normas prévias ainda fazem sentido no contexto atual.
 
@@ -236,6 +240,7 @@ flowchart TD
 ### 5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)
 
 No setor público moderno, a visão fragmentada de "cursos isolados" foi substituída pelo modelo de **Educação Corporativa**:
+
 * **Universidade Corporativa / Escolas de Governo:** Unidades educacionais estratégicas vinculadas diretamente aos órgãos públicos com a missão de desenvolver competências institucionais essenciais alinhadas aos objetivos estratégicos de Estado.
 * **Escola Superior de Controle do TCE-GO (Instituto Leopoldo de Bulhões - ILB):** Unidade de formação e capacitação que promove o contínuo aperfeiçoamento dos servidores do Tribunal de Contas do Estado de Goiás e a orientação pedagógica dos gestores municipais e estaduais jurisdicionados, funcionando como vetor de controle preventivo e pedagógico.
 
