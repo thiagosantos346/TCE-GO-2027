@@ -9,16 +9,16 @@
 
 ## 📌 Ementa / Itens do Edital
 - Código de Ética dos Servidores do Tribunal de Contas do Estado de Goiás:
-  - Princípios e valores deontológicos fundamentais do controle externo: dignidade, decoro, zelo, probidade, eficácia, independência, integridade, impessoalidade e imparcialidade;
-  - Normas Internacionais das Entidades Fiscalizadoras Superiores (Código de Ética da INTOSAI - ISSAI 130);
-  - Direitos funcionais e deveres éticos: zelo com o interesse público, urbanidade com partes e jurisdicionados, eficiência técnica e aperfeiçoamento profissional contínuo;
-  - Dever indeclinável de sigilo funcional e confidencialidade: custódia de dados, processos sigilosos e vedação expressa ao uso de informações privilegiadas;
-  - Conflito de interesses: conceito, prevenção, transparência e autodeclaração de impedimento e suspeição;
-  - Vedações e proibições éticas expressas:
+    - Princípios e valores deontológicos fundamentais do controle externo: dignidade, decoro, zelo, probidade, eficácia, independência, integridade, impessoalidade e imparcialidade;
+    - Normas Internacionais das Entidades Fiscalizadoras Superiores (Código de Ética da INTOSAI - ISSAI 130);
+    - Direitos funcionais e deveres éticos: zelo com o interesse público, urbanidade com partes e jurisdicionados, eficiência técnica e aperfeiçoamento profissional contínuo;
+    - Dever indeclinável de sigilo funcional e confidencialidade: custódia de dados, processos sigilosos e vedação expressa ao uso de informações privilegiadas;
+    - Conflito de interesses: conceito, prevenção, transparência e autodeclaração de impedimento e suspeição;
+    - Vedações e proibições éticas expressas:
     - Vedação à antecipação de juízos de valor à imprensa ou em redes sociais sobre processos em curso;
     - Vedação ao exercício de advocacia, assessoria técnica ou consultoria a órgãos e entidades jurisdicionadas;
     - Política de aceitação de presentes x brindes: distinção legal, limites de valor econômico e destinação de itens recusáveis;
-  - Comissão de Ética do TCE-GO:
+    - Comissão de Ética do TCE-GO:
     - Natureza institucional, composição e mandato de seus membros;
     - Competência consultiva e preventiva (orientação e resposta a dúvidas dos servidores);
     - Competência investigativa e processual (rito sumário, garantia do contraditório e ampla defesa);
@@ -29,20 +29,20 @@
 
 ## 🧭 Sumário
 - [1. Fundamentos Deontológicos e Normas Internacionais de Auditoria](#1-fundamentos-deontológicos-e-normas-internacionais-de-auditoria)
-  - [1.1 Princípios e Valores Éticos do Controle Externo](#11-princípios-e-valores-éticos-do-controle-externo)
-  - [1.2 Alinhamento com a ISSAI 130 da INTOSAI e Primazia do Interesse Público](#12-alinhamento-com-a-issai-130-da-intosai-e-primazia-do-interesse-público)
+    - [1.1 Princípios e Valores Éticos do Controle Externo](#11-princípios-e-valores-éticos-do-controle-externo)
+    - [1.2 Alinhamento com a ISSAI 130 da INTOSAI e Primazia do Interesse Público](#12-alinhamento-com-a-issai-130-da-intosai-e-primazia-do-interesse-público)
 - [2. Deveres Éticos e Postura Funcional do Servidor do TCE-GO](#2-deveres-éticos-e-postura-funcional-do-servidor-do-tce-go)
-  - [2.1 Urbanidade, Relações Profissionais e Presteza](#21-urbanidade-relações-profissionais-e-presteza)
-  - [2.2 Zelo Técnico, Produtividade e Rigor Procedimental](#22-zelo-técnico-produtividade-e-rigor-procedimental)
-  - [2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas](#23-dever-incondicional-de-sigilo-custódia-de-dados-e-vedação-a-informações-privilegiadas)
+    - [2.1 Urbanidade, Relações Profissionais e Presteza](#21-urbanidade-relações-profissionais-e-presteza)
+    - [2.2 Zelo Técnico, Produtividade e Rigor Procedimental](#22-zelo-técnico-produtividade-e-rigor-procedimental)
+    - [2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas](#23-dever-incondicional-de-sigilo-custódia-de-dados-e-vedação-a-informações-privilegiadas)
 - [3. Proibições Éticas, Vedações e Conflito de Interesses](#3-proibições-éticas-vedações-e-conflito-de-interesses)
-  - [3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais](#31-vedações-expressas-advocacia-consultoria-e-redes-sociais)
-  - [3.2 Política Institucional de Presentes vs. Brindes](#32-política-institucional-de-presentes-vs-brindes)
-  - [3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento](#33-prevenção-de-conflito-de-interesses-e-autodeclaração-de-impedimento)
+    - [3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais](#31-vedações-expressas-advocacia-consultoria-e-redes-sociais)
+    - [3.2 Política Institucional de Presentes vs. Brindes](#32-política-institucional-de-presentes-vs-brindes)
+    - [3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento](#33-prevenção-de-conflito-de-interesses-e-autodeclaração-de-impedimento)
 - [4. A Comissão de Ética do TCE-GO e o Processo Ético](#4-a-comissão-de-ética-do-tce-go-e-o-processo-ético)
-  - [4.1 Composição e Tríplice Atuação da Comissão de Ética](#41-composição-e-tríplice-atuação-da-comissão-de-ética)
-  - [4.2 Rito Sumário Apuratório e Garantia da Ampla Defesa](#42-rito-sumário-apuratório-e-garantia-da-ampla-defesa)
-  - [4.3 A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria](#43-a-penalidade-exclusiva-de-censura-ética-e-remessa-disciplinar-à-corregedoria)
+    - [4.1 Composição e Tríplice Atuação da Comissão de Ética](#41-composição-e-tríplice-atuação-da-comissão-de-ética)
+    - [4.2 Rito Sumário Apuratório e Garantia da Ampla Defesa](#42-rito-sumário-apuratório-e-garantia-da-ampla-defesa)
+    - [4.3 A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria](#43-a-penalidade-exclusiva-de-censura-ética-e-remessa-disciplinar-à-corregedoria)
 - [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
 - [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
 
@@ -61,6 +61,7 @@ O Código de Ética e de Conduta dos Servidores do Tribunal de Contas do Estado 
 
 ### 1.2 Alinhamento com a ISSAI 130 da INTOSAI e Primazia do Interesse Público
 O Código de Ética do TCE-GO encontra-se em total sintonia com a **ISSAI 130 (Código de Ética da Organização Internacional das Entidades Fiscalizadoras Superiores - INTOSAI)** e com as diretrizes da Associação dos Membros dos Tribunais de Contas do Brasil (ATRICON) e do Instituto Rui Barbosa (IRB):
+
 - **Primazia do Interesse Público:** O interesse público coletivo se sobrepõe incondicionalmente a quaisquer conveniências pessoais, partidárias, corporativas ou setoriais.
 - **Cultura de Integridade e Prestação de Contas (*Accountability*):** O controle externo deve constituir modelo de integridade para toda a Administração Pública, não se tolerando complacência com desvios morais ou conflitos de interesses em suas próprias fileiras.
 
@@ -70,6 +71,7 @@ O Código de Ética do TCE-GO encontra-se em total sintonia com a **ISSAI 130 (C
 
 ### 2.1 Urbanidade, Relações Profissionais e Presteza
 Constituem deveres inafastáveis dos servidores do TCE-GO:
+
 - Tratar com urbanidade, respeito, civilidade e presteza todas as partes, procuradores, advogados, agentes públicos jurisdicionados e cidadãos;
 - Facilitar o exercício dos direitos de fiscalização social assegurados ao cidadão;
 - Atuar com neutralidade ideológica no trato das informações processuais e nas relações institucionais.
@@ -78,6 +80,7 @@ Constituem deveres inafastáveis dos servidores do TCE-GO:
 
 ### 2.2 Zelo Técnico, Produtividade e Rigor Procedimental
 O servidor do controle externo tem a obrigação de:
+
 - Cumprir com presteza e pontualidade os prazos processuais e regimentais de instrução, elaboração de relatórios de auditoria e cumprimento de despachos;
 - Fundamentar com rigor técnico todas as análises de contas, apontando com precisão os dispositivos legais transgredidos e a quantificação fidedigna do dano ao erário quando verificado;
 - Zelar pela conservação dos bens públicos, equipamentos eletrônicos, bases de dados e materiais colocados à disposição para o desempenho do serviço.
@@ -86,6 +89,7 @@ O servidor do controle externo tem a obrigação de:
 
 ### 2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas
 No âmbito do TCE-GO, o manuseio de dados fiscais, bancários, orçamentários e relatórios de auditoria submete-se ao mais rígido **dever de sigilo e confidencialidade**:
+
 - **Custódia Segura das Bases de Dados:** O servidor responde pela integridade e preservação dos arquivos eletrônicos, papéis de trabalho e informações confidenciais a que tiver acesso;
 - **Proibição de Uso de Informação Privilegiada:** É expressamente vedado ao servidor utilizar informação confidencial ou ainda não divulgada formalmente pela Corte de Contas para auferir vantagem pessoal direta ou indireta, para beneficiar parentes, amigos ou terceiros;
 - **Sigilo das Ações de Fiscalização:** As etapas preliminares de inspeções e auditorias mantêm caráter reservado até a notificação formal das partes e liberação pública do relatório pelos órgãos deliberativos, sob pena de responsabilidade ética, disciplinar e criminal por quebra de segredo funcional.
@@ -96,6 +100,7 @@ No âmbito do TCE-GO, o manuseio de dados fiscais, bancários, orçamentários e
 
 ### 3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais
 É terminantemente proibido ao servidor do Tribunal de Contas do Estado de Goiás:
+
 1. **Exercício da Advocacia ou Assessoria a Jurisdicionados:** Atuar, direta ou indiretamente, como procurador, consultor jurídico, assessor contábil ou preposto de quaisquer órgãos da administração pública direta ou indireta estadual, empresas públicas, consórcios, ou pessoas físicas e jurídicas sujeitas à jurisdição da Corte de Contas;
 2. **Antecipação de Juízos de Valor em Redes Sociais e Imprensa:** Emitir declarações públicas ou publicações em redes sociais pessoais, blogs e meios de comunicação manifestando opinião antecipada, críticas pessoais ou juízos de valor sobre processos em tramitação, decisões pendentes ou sobre gestores investigados;
 3. **Uso Privado da Estrutura do Tribunal:** Empregar servidores subordinados, bens patrimoniais, equipamentos eletrônicos ou sistemas corporativos do TCE-GO em atividades estranhas ao serviço público ou em campanhas político-partidárias;
@@ -142,16 +147,18 @@ O conflito de interesses ocorre quando o interesse privado do servidor pode infl
 
 ### 4.1 Composição e Tríplice Atuação da Comissão de Ética
 A Comissão de Ética do TCE-GO é órgão autônomo colegiado, instituído pela Presidência da Corte:
+
 - **Composição:** Composta por **três (3) servidores públicos efetivos e estáveis**, designados para mandato com duração pré-fixada;
 - **Tríplice Atuação Institucional:**
-  1. **Função Consultiva e Preventiva:** Responde a consultas abstratas de servidores sobre conflitos de interesses e dilemas deontológicos, emitindo pareceres orientadores;
-  2. **Função Educativa:** Promove campanhas institucionais de integridade, transparência e respeito à ética pública;
-  3. **Função Investigativa e Judicante:** Processa e julga representações e denúncias sobre condutas antiéticas de servidores da Casa.
+    1. **Função Consultiva e Preventiva:** Responde a consultas abstratas de servidores sobre conflitos de interesses e dilemas deontológicos, emitindo pareceres orientadores;
+    2. **Função Educativa:** Promove campanhas institucionais de integridade, transparência e respeito à ética pública;
+    3. **Função Investigativa e Judicante:** Processa e julga representações e denúncias sobre condutas antiéticas de servidores da Casa.
 
 ---
 
 ### 4.2 Rito Sumário Apuratório e Garantia da Ampla Defesa
 O procedimento ético adota rito sumário simplificado, com garantia constitucional da ampla defesa:
+
 1. Notificação do servidor investigado para, querendo, prestar esclarecimentos preliminares e apresentar defesa escrita no prazo regimental;
 2. Produção de provas documentais e oitiva de eventuais testemunhas sob a condução da Comissão;
 3. Elaboração de relatório conclusivo motivado reconhecendo a improcedência do fato ou a consumação de desvio ético.

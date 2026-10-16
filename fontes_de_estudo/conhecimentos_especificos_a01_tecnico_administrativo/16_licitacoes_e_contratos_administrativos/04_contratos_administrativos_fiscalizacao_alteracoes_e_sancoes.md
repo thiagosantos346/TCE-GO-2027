@@ -23,19 +23,19 @@
 
 ## 🧭 Sumário
 1. [Conceito, Características e Cláusulas Exorbitantes dos Contratos Administrativos](#1-conceito-características-e-cláusulas-exorbitantes-dos-contratos-administrativos)
-   - 1.1 [Características Fundamentais e Formalização](#11-características-fundamentais-e-formalização)
-   - 1.2 [Cláusulas Exorbitantes e Restrição à Exceção do Contrato Não Cumprido](#12-cláusulas-exorbitantes-e-restrição-à-exceção-do-contrato-não-cumprido)
+    - 1.1 [Características Fundamentais e Formalização](#11-características-fundamentais-e-formalização)
+    - 1.2 [Cláusulas Exorbitantes e Restrição à Exceção do Contrato Não Cumprido](#12-cláusulas-exorbitantes-e-restrição-à-exceção-do-contrato-não-cumprido)
 2. [Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)](#2-garantias-contratuais-e-seguro-garantia-com-cláusula-de-retomada-step-in-rights)
 3. [Duração e Prorrogação dos Contratos Administrativos](#3-duração-e-prorrogação-dos-contratos-administrativos)
-   - 3.1 [Serviços e Fornecimentos Contínuos (Regra 5 + 5 = Até 10 Anos)](#31-serviços-e-fornecimentos-contínuos-regra-5--5--até-10-anos)
-   - 3.2 [Contratos por Escopo](#32-contratos-por-escopo)
+    - 3.1 [Serviços e Fornecimentos Contínuos (Regra 5 + 5 = Até 10 Anos)](#31-serviços-e-fornecimentos-contínuos-regra-5--5--até-10-anos)
+    - 3.2 [Contratos por Escopo](#32-contratos-por-escopo)
 4. [Gestão, Fiscalização e Responsabilidade Trabalhista do Estado](#4-gestão-fiscalização-e-responsabilidade-trabalhista-do-estado)
-   - 4.1 [Estrutura de Gestão e Fiscalização Contratual](#41-estrutura-de-gestão-e-fiscalização-contratual)
-   - 4.2 [Responsabilidade Trabalhista e Previdenciária: O Tema 246 do STF](#42-responsabilidade-trabalhista-e-previdenciária-o-tema-246-do-stf)
-   - 4.3 [Recebimento Provisório e Definitivo do Objeto](#43-recebimento-provisório-e-definitivo-do-objeto)
+    - 4.1 [Estrutura de Gestão e Fiscalização Contratual](#41-estrutura-de-gestão-e-fiscalização-contratual)
+    - 4.2 [Responsabilidade Trabalhista e Previdenciária: O Tema 246 do STF](#42-responsabilidade-trabalhista-e-previdenciária-o-tema-246-do-stf)
+    - 4.3 [Recebimento Provisório e Definitivo do Objeto](#43-recebimento-provisório-e-definitivo-do-objeto)
 5. [Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro](#5-alterações-contratuais-e-manutenção-do-equilíbrio-econômico-financeiro)
-   - 5.1 [Alterações Unilaterais e Consensuais: Limites de 25% e 50%](#51-alterações-unilaterais-e-consensuais-limites-de-25-e-50)
-   - 5.2 [Instrumentos de Recomposição: Reajuste, Repactuação e Revisão](#52-instrumentos-de-recomposição-reajuste-repactuação-e-revisão)
+    - 5.1 [Alterações Unilaterais e Consensuais: Limites de 25% e 50%](#51-alterações-unilaterais-e-consensuais-limites-de-25-e-50)
+    - 5.2 [Instrumentos de Recomposição: Reajuste, Repactuação e Revisão](#52-instrumentos-de-recomposição-reajuste-repactuação-e-revisão)
 6. [Infrações, Sistema Sancionador e Processo de Reabilitação](#6-infrações-sistema-sancionador-e-processo-de-reabilitação)
 7. [Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
 8. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#8-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
@@ -58,15 +58,16 @@ O contrato administrativo é o ajuste bilateral de vontades celebrado entre a Ad
 
 #### 1.2 Cláusulas Exorbitantes e Restrição à Exceção do Contrato Não Cumprido
 As cláusulas exorbitantes (art. 104 da Lei nº 14.133/2021) conferem prerrogativas extraordinárias que extrapolam o direito privado comum, justificadas pela supremacia do interesse público sobre o privado:
+
 1. **Modificação unilateral do contrato:** A Administração pode alterar qualitativa ou quantitativamente as cláusulas de serviço para melhor adequação técnica ao interesse público;
 2. **Extinção unilateral do contrato:** Rescisão decorrente de inadimplemento do contratado ou por razões de interesse público de alta relevância;
 3. **Fiscalização contínua da execução:** Acompanhamento técnico, administrativo e financeiro pelo Poder Público;
 4. **Aplicação direta de sanções administrativas:** Imposição de sanções pelo próprio órgão contratante sem necessidade de intervenção prévia do Poder Judiciário;
 5. **Ocupação provisória de bens e serviços:** Utilização de bens móveis, imóveis e pessoal do contratado necessários à continuidade de serviços públicos essenciais paralisados;
 6. **Atenuação da *Exceptio Non Adimpleti Contractus* (Exceção do Contrato Não Cumprido):**
-   - No direito civil comum, se um contratante deixa de pagar, o outro pode imediatamente paralisar suas atividades contratuais.
-   - No regime jurídico-administrativo, em virtude do **princípio da continuidade do serviço público**, o contratado **não pode paralisar imediatamente** as obras ou serviços em caso de inadimplemento financeiro do Estado.
-   - Pelo art. 137, § 2º, inciso IV, da Lei nº 14.133/2021, o particular é obrigado a continuar executando o contrato até o limite de **2 (dois) meses de atraso ininterrupto** nos pagamentos devidos pela Administração Pública. Somente após transcorridos 2 meses contínuos de inadimplemento é que assiste ao particular o direito de suspender a execução de suas obrigações ou requerer a extinção do contrato.
+    - No direito civil comum, se um contratante deixa de pagar, o outro pode imediatamente paralisar suas atividades contratuais.
+    - No regime jurídico-administrativo, em virtude do **princípio da continuidade do serviço público**, o contratado **não pode paralisar imediatamente** as obras ou serviços em caso de inadimplemento financeiro do Estado.
+    - Pelo art. 137, § 2º, inciso IV, da Lei nº 14.133/2021, o particular é obrigado a continuar executando o contrato até o limite de **2 (dois) meses de atraso ininterrupto** nos pagamentos devidos pela Administração Pública. Somente após transcorridos 2 meses contínuos de inadimplemento é que assiste ao particular o direito de suspender a execução de suas obrigações ou requerer a extinção do contrato.
 
 ```mermaid
 flowchart TD
@@ -81,6 +82,7 @@ flowchart TD
 ### 2. Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)
 
 A critério da autoridade competente, em cada contratação a Administração pode exigir do contratado a prestação de garantia (art. 96). Caberá ao **contratado optar** por uma das seguintes modalidades:
+
 1. **Caução em dinheiro ou em títulos da dívida pública;**
 2. **Fiança bancária** emitida por banco ou instituição financeira autorizada pelo Banco Central;
 3. **Seguro-garantia** emitido por seguradora autorizada pela SUSEP.
@@ -91,6 +93,7 @@ A critério da autoridade competente, em cada contratação a Administração po
 
 #### Seguro-Garantia com Cláusula de Retomada (*Step-in Rights* - Art. 102)
 Para combater o problema crônico nacional de paralisação e abandono de obras públicas, a Nova Lei de Licitações introduziu uma inovação profunda inspirada no modelo norte-americano (*performance bond*):
+
 - Em contratações de obras e serviços de engenharia de **grande vulto** (valor superior a R$ 200 milhões na edição da lei, atualizado anualmente), o edital pode prever a obrigatoriedade de seguro-garantia com previsão expressa de **cláusula de retomada** (*step-in rights*).
 - Nessa modalidade, o valor da garantia pode alcançar até **30% (trinta por cento)** do valor inicial do contrato.
 - **Funcionamento:** Em caso de inadimplemento, atraso grave ou abandono por parte da construtora, a seguradora é notificada para intervir diretamente. A seguradora assume a administração do canteiro de obras e conclui a execução do objeto contratado, diretamente ou mediante subcontratação de terceiros idôneos aprovados pelo Poder Público.
@@ -104,6 +107,7 @@ A regra orçamentária tradicional vinculava a vigência contratual aos crédito
 
 #### 3.1 Serviços e Fornecimentos Contínuos (Regra 5 + 5 = Até 10 Anos)
 O art. 106 da NLLC estabelece uma revolução para os contratos de serviços e fornecimentos contínuos (limpeza, vigilância, suporte de TI, manutenção predial, locação de equipamentos):
+
 - Podem ser celebrados com prazo de vigência inicial de **até 5 (cinco) anos**.
 - A Administração pode prorrogar sucessivamente a contratação até o limite máximo total de **10 (dez) anos**, desde que comprovada documentalmente a vantajosidade econômica das condições e a manutenção da qualidade da execução.
 - Permite amortização mais eficiente de investimentos e redução substantiva dos custos de transação causados por licitações repetitivas anuais.
@@ -118,6 +122,7 @@ O art. 106 da NLLC estabelece uma revolução para os contratos de serviços e f
 
 #### 4.1 Estrutura de Gestão e Fiscalização Contratual
 A execução do contrato deve ser acompanhada e fiscalizada permanentemente por um ou mais fiscais do contrato, auxiliados por gestores, atendendo ao princípio da segregação de funções (art. 117):
+
 - **Gestor do Contrato:** Servidor responsável pela coordenação global dos atos administrativos, prorrogações, reajustes e controle financeiro macro.
 - **Fiscal Técnico:** Servidor responsável pelo acompanhamento prático, rotineiro e presencial da conformidade dos serviços e obras executados em relação às especificações do projeto.
 - **Fiscal Administrativo:** Servidor responsável pela fiscalização da documentação fiscal, previdenciária e trabalhista da mão de obra terceirizada.
@@ -125,16 +130,18 @@ A execução do contrato deve ser acompanhada e fiscalizada permanentemente por 
 
 #### 4.2 Responsabilidade Trabalhista e Previdenciária: O Tema 246 do STF
 A responsabilidade do Estado perante terceiros na terceirização de serviços é tema de alta incidência na jurisprudência e concursos:
+
 - **Encargos Fiscais e Comerciais:** A inadimplência do contratado não transfere em hipótese alguma a responsabilidade ao Poder Público (art. 121, § 1º).
 - **Encargos Previdenciários:** O Estado responde solidariamente pelos débitos previdenciários nos moldes do art. 31 da Lei nº 8.212/91 e art. 121, § 2º.
 - **Encargos Trabalhistas e o Tema 246 do STF (ADC 16 e RE 760.931):**
-  - O art. 121, § 1º, da NLLC reforça que o inadimplemento trabalhista da empresa terceirizada **não transfere automaticamente** a responsabilidade de pagamento ao Poder Público tomador de serviços.
-  - O STF, ao julgar com repercussão geral o **Tema 246**, consolidou que o Estado **não possui responsabilidade objetiva** nem responde automaticamente.
-  - A condenação subsidiária da Administração Pública só é admitida se restar cabalmente demonstrada nos autos processuais a sua **culpa *in vigilando*** — caracterizada pela omissão reiterada e culposa do dever legal de fiscalizar mensalmente o adimplemento dos salários, recolhimento de FGTS e verbas da folha pela contratada.
-  - O encargo probatório dessa conduta omissiva recai sobre o trabalhador reclamante, sendo vedada presunção automática de culpa contra a Fazenda Pública.
+    - O art. 121, § 1º, da NLLC reforça que o inadimplemento trabalhista da empresa terceirizada **não transfere automaticamente** a responsabilidade de pagamento ao Poder Público tomador de serviços.
+    - O STF, ao julgar com repercussão geral o **Tema 246**, consolidou que o Estado **não possui responsabilidade objetiva** nem responde automaticamente.
+    - A condenação subsidiária da Administração Pública só é admitida se restar cabalmente demonstrada nos autos processuais a sua **culpa *in vigilando*** — caracterizada pela omissão reiterada e culposa do dever legal de fiscalizar mensalmente o adimplemento dos salários, recolhimento de FGTS e verbas da folha pela contratada.
+    - O encargo probatório dessa conduta omissiva recai sobre o trabalhador reclamante, sendo vedada presunção automática de culpa contra a Fazenda Pública.
 
 #### 4.3 Recebimento Provisório e Definitivo do Objeto
 O art. 140 da NLLC disciplina as fases de entrega do objeto contratado:
+
 - **Recebimento Provisório:** Realizado pelo **fiscal do contrato**, mediante termo circunstanciado, para efeito de posterior verificação da conformidade do material ou serviço com as especificações exigidas.
 - **Recebimento Definitivo:** Realizado por **servidor ou comissão designada pela autoridade competente**, mediante termo circunstanciado que comprove a perfeita adequação do objeto aos termos contratuais e técnicos.
 - O recebimento provisório ou definitivo não exclui a responsabilidade civil do contratado pela solidez e segurança da obra ou serviço durante o prazo legal de 5 anos (art. 618 do Código Civil), nem por vícios ocultos.
@@ -147,6 +154,7 @@ O art. 140 da NLLC disciplina as fases de entrega do objeto contratado:
 Os contratos administrativos podem ser alterados unilateralmente pela Administração (quando houver modificação de projeto ou adequação quantitativa) ou consensualmente por acordo mútuo entre as partes (para substituição de garantia ou repactuação) — art. 124.
 
 O art. 125 estipula os limites legais obrigatórios que o contratado é obrigado a aceitar nas alterações unilaterais:
+
 - **Regra Geral (Compras, Serviços e Obras):** O contratado fica obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até **25% (vinte e cinco por cento)** do valor inicial atualizado do contrato.
 - **Exceção Específica para REFORMAS de Edifícios ou Equipamentos:** O limite para **acréscimos será de até 50% (cinquenta por cento)** do valor inicial atualizado do contrato.
 
@@ -188,6 +196,7 @@ O cometimento de infrações administrativas elencadas no art. 155 da Lei nº 14
 
 **Reabilitação do Sancionado (Art. 163):**
 A reabilitação perante a Administração exige cumulativamente:
+
 1. Reparação integral do dano causado ao erário;
 2. Pagamento da multa aplicada;
 3. Transcurso do prazo mínimo de **1 ano** da aplicação de impedimento de licitar ou **3 anos** da declaração de inidoneidade;
@@ -197,11 +206,11 @@ A reabilitação perante a Administração exige cumulativamente:
 
 ## 🌐 Fontes Recomendadas na Internet
 - [Lei Federal nº 14.133/2021 - Artigos 89 a 163 (Contratos e Sanções)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art89)
-  - Normas legais sobre garantias, vigência contratual decenal, alterações e penalidades administrativas.
+    - Normas legais sobre garantias, vigência contratual decenal, alterações e penalidades administrativas.
 - [STF - Tema 246 da Repercussão Geral (ADC 16 e RE 760.931)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=246)
-  - Jurisprudência vinculante do Supremo afastando a responsabilidade objetiva da Administração Pública na terceirização.
+    - Jurisprudência vinculante do Supremo afastando a responsabilidade objetiva da Administração Pública na terceirização.
 - [Tribunal de Contas da União (TCU) - Jurisprudência sobre Sanções e Retomada de Obras](https://pesquisa.apps.tcu.gov.br/)
-  - Acórdãos sobre limites de alteração contratual unilateral e efetividade dos *step-in rights*.
+    - Acórdãos sobre limites de alteração contratual unilateral e efetividade dos *step-in rights*.
 
 ---
 
@@ -212,11 +221,11 @@ O Tribunal de Contas do Estado de Goiás formalizou contrato administrativo para
 
 Em face dos limites de alteração unilateral estabelecidos no art. 125 da Lei Federal nº 14.133/2021:
 
-A) O acréscimo pretendido é ilegal, visto que a NLLC fixou o teto inflexível de 25% para qualquer alteração contratual no setor público.  
-B) O aditivo de valor é juridicamente admitido, tendo em vista que, no caso de reforma de edifício ou de equipamento, o limite legal para os acréscimos unilaterais é de até 50% do valor inicial atualizado do contrato.  
-C) As reformas prediais admitem acréscimos unilaterais ilimitados, desde que autorizados pelo Conselho de Engenharia (CREA).  
-D) A Administração é obrigada a anular o contrato e instaurar concurso público para contratação de novos operários.  
-E) O limite de 50% aplica-se apenas caso a empreiteira comprove que o aço foi importado de país membro do Mercosul.  
+* **A)** O acréscimo pretendido é ilegal, visto que a NLLC fixou o teto inflexível de 25% para qualquer alteração contratual no setor público.
+* **B)** O aditivo de valor é juridicamente admitido, tendo em vista que, no caso de reforma de edifício ou de equipamento, o limite legal para os acréscimos unilaterais é de até 50% do valor inicial atualizado do contrato.
+* **C)** As reformas prediais admitem acréscimos unilaterais ilimitados, desde que autorizados pelo Conselho de Engenharia (CREA).
+* **D)** A Administração é obrigada a anular o contrato e instaurar concurso público para contratação de novos operários.
+* **E)** O limite de 50% aplica-se apenas caso a empreiteira comprove que o aço foi importado de país membro do Mercosul.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** Desconsidera a regra específica do art. 125 que autoriza teto de até 50% exclusivamente para acréscimos em reformas de edifícios ou equipamentos.
@@ -234,11 +243,11 @@ Durante a execução de um contrato administrativo de fornecimento de sistemas d
 
 À luz do regime sancionatório da Lei Federal nº 14.133/2021, a sanção aplicada:
 
-A) Produz efeitos restritos ao órgão contratante, permitindo que a empresa continue licitando com outros órgãos do Estado de Goiás e com Municípios.  
-B) Impede o responsável de licitar ou contratar no âmbito da Administração Pública direta e indireta de todos os entes federativos (União, Estados, DF e Municípios), pelo prazo de 3 a 6 anos.  
-C) Tem vigência perpétua e irreversível, sendo vedada qualquer reabilitação jurídica do sancionado.  
-D) Pode ser aplicada monocraticamente pelo fiscal administrativo do contrato em despacho ordinário.  
-E) Extingue-se automaticamente caso a empresa altere sua denominação social e seu quadro de sócios.  
+* **A)** Produz efeitos restritos ao órgão contratante, permitindo que a empresa continue licitando com outros órgãos do Estado de Goiás e com Municípios.
+* **B)** Impede o responsável de licitar ou contratar no âmbito da Administração Pública direta e indireta de todos os entes federativos (União, Estados, DF e Municípios), pelo prazo de 3 a 6 anos.
+* **C)** Tem vigência perpétua e irreversível, sendo vedada qualquer reabilitação jurídica do sancionado.
+* **D)** Pode ser aplicada monocraticamente pelo fiscal administrativo do contrato em despacho ordinário.
+* **E)** Extingue-se automaticamente caso a empresa altere sua denominação social e seu quadro de sócios.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** A sanção que se restringe à esfera do próprio ente federativo é o "Impedimento de licitar e contratar" (art. 156, III). A declaração de inidoneidade tem efeito nacional amplo.
@@ -256,11 +265,11 @@ Um empregado terceirizado que prestava serviços de vigilância armada no prédi
 
 Diante do art. 121, § 1º, da Lei Federal nº 14.133/2021 e da tese de repercussão geral fixada pelo Supremo Tribunal Federal no **Tema 246**:
 
-A) A condenação foi escorreita, visto que a responsabilidade trabalhista do Poder Público tomador de serviços terceirizados é objetiva e prescinde de qualquer prova de culpa.  
-B) A condenação subsidiária do ente público é indevida sem a comprovação cabal de sua culpa *in vigilando* na fiscalização do cumprimento das obrigações contratuais e trabalhistas da empresa prestadora de serviços.  
-C) O Estado responde de forma solidária primária, equiparando-se o terceirizado a servidor público concursado.  
-D) A Lei nº 14.133/2021 extinguiu qualquer possibilidade de condenação da Fazenda Pública na Justiça do Trabalho.  
-E) O ônus de provar a regularidade fiscalização das guias de FGTS transfere-se automaticamente para o Ministério Público do Trabalho.  
+* **A)** A condenação foi escorreita, visto que a responsabilidade trabalhista do Poder Público tomador de serviços terceirizados é objetiva e prescinde de qualquer prova de culpa.
+* **B)** A condenação subsidiária do ente público é indevida sem a comprovação cabal de sua culpa *in vigilando* na fiscalização do cumprimento das obrigações contratuais e trabalhistas da empresa prestadora de serviços.
+* **C)** O Estado responde de forma solidária primária, equiparando-se o terceirizado a servidor público concursado.
+* **D)** A Lei nº 14.133/2021 extinguiu qualquer possibilidade de condenação da Fazenda Pública na Justiça do Trabalho.
+* **E)** O ônus de provar a regularidade fiscalização das guias de FGTS transfere-se automaticamente para o Ministério Público do Trabalho.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** O STF fixou expressamente no RE 760.931 (Tema 246) que o inadimplemento trabalhista do contratado não transfere responsabilidade objetiva ao Estado.
@@ -278,11 +287,11 @@ Durante a execução de um contrato administrativo de serviços de limpeza e con
 
 Os institutos jurídicos cabíveis para a recomposição financeira dos contratos de limpeza e de combustíveis são, respectivamente:
 
-A) Reajuste em sentido estrito e repactuação  
-B) Repactuação e revisão (reequilíbrio econômico-financeiro)  
-C) Revisão e reajuste por índice inflacionário  
-D) Supressão unilateral e rescisão consensual  
-E) Encampação e caducidade contratual  
+* **A)** Reajuste em sentido estrito e repactuação
+* **B)** Repactuação e revisão (reequilíbrio econômico-financeiro)
+* **C)** Revisão e reajuste por índice inflacionário
+* **D)** Supressão unilateral e rescisão consensual
+* **E)** Encampação e caducidade contratual
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** O reajuste em sentido estrito adota índices oficiais de preços prefixados para cobrir a inflação ordinária, não se aplicando à majoração decorrente de CCT nem ao caso de guerra imprevisível.
@@ -300,11 +309,11 @@ Em uma licitação de obra pública de grande vulto (orçada em R$ 300 milhões)
 
 De acordo com o art. 102 da Lei Federal nº 14.133/2021, a **cláusula de retomada no seguro-garantia**:
 
-A) Limita a garantia a 1% do valor do contrato e proíbe a seguradora de ingressar no canteiro de obras.  
-B) Pode prever garantia de até 30% do valor inicial do contrato, ficando a seguradora obrigada, em caso de inadimplemento do contratado, a assumir a execução e concluir o objeto do contrato.  
-C) Exige que a seguradora execute a obra diretamente por seus próprios corretores de seguros.  
-D) Isenta a seguradora de qualquer responsabilidade caso a construtora entre em recuperação judicial.  
-E) Transfere a titularidade da obra para a seguradora em regime de dação em pagamento definitiva.  
+* **A)** Limita a garantia a 1% do valor do contrato e proíbe a seguradora de ingressar no canteiro de obras.
+* **B)** Pode prever garantia de até 30% do valor inicial do contrato, ficando a seguradora obrigada, em caso de inadimplemento do contratado, a assumir a execução e concluir o objeto do contrato.
+* **C)** Exige que a seguradora execute a obra diretamente por seus próprios corretores de seguros.
+* **D)** Isenta a seguradora de qualquer responsabilidade caso a construtora entre em recuperação judicial.
+* **E)** Transfere a titularidade da obra para a seguradora em regime de dação em pagamento definitiva.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** O limite de garantia com cláusula de retomada pode atingir até 30% do valor inicial do contrato, e o propósito basilar do dispositivo é autorizar a intervenção direta da seguradora para terminar a obra.

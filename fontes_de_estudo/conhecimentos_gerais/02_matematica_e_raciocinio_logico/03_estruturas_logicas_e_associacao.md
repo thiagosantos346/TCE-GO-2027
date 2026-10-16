@@ -16,31 +16,31 @@
 
 ## 🧭 Sumário
 - [1. Fundamentos da Associação Lógica Biunívoca](#1-fundamentos-da-associação-lógica-biunívoca)
-  - [1.1 Natureza das Relações Arbitrárias e Conjuntos Finitos](#11-natureza-das-relações-arbitrárias-e-conjuntos-finitos)
-  - [1.2 O Princípio da Correspondência Biunívoca](#12-o-princípio-da-correspondência-biunívoca)
-  - [1.3 Tipologia de Pistas e Classificação de Premissas](#13-tipologia-de-pistas-e-classificação-de-premissas)
+    - [1.1 Natureza das Relações Arbitrárias e Conjuntos Finitos](#11-natureza-das-relações-arbitrárias-e-conjuntos-finitos)
+    - [1.2 O Princípio da Correspondência Biunívoca](#12-o-princípio-da-correspondência-biunívoca)
+    - [1.3 Tipologia de Pistas e Classificação de Premissas](#13-tipologia-de-pistas-e-classificação-de-premissas)
 - [2. Metodologia das Matrizes Cruzadas de Associação](#2-metodologia-das-matrizes-cruzadas-de-associação)
-  - [2.1 Estruturação da Tabela Bidimensional e Tridimensional](#21-estruturação-da-tabela-bidimensional-e-tridimensional)
-  - [2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão](#22-o-princípio-de-propagação-do-sim-e-fechamento-por-exclusão)
-  - [2.3 Tratamento de Pistas Compostas e Vínculos Indiretos](#23-tratamento-de-pistas-compostas-e-vínculos-indiretos)
+    - [2.1 Estruturação da Tabela Bidimensional e Tridimensional](#21-estruturação-da-tabela-bidimensional-e-tridimensional)
+    - [2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão](#22-o-princípio-de-propagação-do-sim-e-fechamento-por-exclusão)
+    - [2.3 Tratamento de Pistas Compostas e Vínculos Indiretos](#23-tratamento-de-pistas-compostas-e-vínculos-indiretos)
 - [3. Problemas de Ordenação Linear e Posicionamento Relativo](#3-problemas-de-ordenação-linear-e-posicionamento-relativo)
-  - [3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico](#31-semântica-de-ordenação-imediatamente-antes-vs-antes-genérico)
-  - [3.2 Filas, Andares e Classificações em Concurso](#32-filas-andares-e-classificações-em-concurso)
-  - [3.3 O Método das Caixas e Blocos Contíguos](#33-o-método-das-caixas-e-blocos-contíguos)
+    - [3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico](#31-semântica-de-ordenação-imediatamente-antes-vs-antes-genérico)
+    - [3.2 Filas, Andares e Classificações em Concurso](#32-filas-andares-e-classificações-em-concurso)
+    - [3.3 O Método das Caixas e Blocos Contíguos](#33-o-método-das-caixas-e-blocos-contíguos)
 - [4. Problemas de Ordenação Circular e Mesas Redondas](#4-problemas-de-ordenação-circular-e-mesas-redondas)
-  - [4.1 Ponto de Vista Referencial e Orientação Espacial](#41-ponto-de-vista-referencial-e-orientação-espacial)
-  - [4.2 Posições Diametralmente Opostas em Mesas Pares](#42-posições-diametralmente-opostas-em-mesas-pares)
-  - [4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda](#43-vizinhos-imediatos-e-adjacências-direita-e-esquerda)
+    - [4.1 Ponto de Vista Referencial e Orientação Espacial](#41-ponto-de-vista-referencial-e-orientação-espacial)
+    - [4.2 Posições Diametralmente Opostas em Mesas Pares](#42-posições-diametralmente-opostas-em-mesas-pares)
+    - [4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda](#43-vizinhos-imediatos-e-adjacências-direita-e-esquerda)
 - [5. Dedução Lógica e Avaliação de Suficiência de Condições](#5-dedução-lógica-e-avaliação-de-suficiência-de-condições)
-  - [5.1 Dedução Hipotética e Eliminação de Contradições](#51-dedução-hipotética-e-eliminação-de-contradições)
-  - [5.2 Condições Necessárias, Suficientes e Redundantes](#52-condições-necessárias-suficientes-e-redundantes)
+    - [5.1 Dedução Hipotética e Eliminação de Contradições](#51-dedução-hipotética-e-eliminação-de-contradições)
+    - [5.2 Condições Necessárias, Suficientes e Redundantes](#52-condições-necessárias-suficientes-e-redundantes)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
 - [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-  - [Questão 01](#questão-01)
-  - [Questão 02](#questão-02)
-  - [Questão 03](#questão-03)
-  - [Questão 04](#questão-04)
-  - [Questão 05](#questão-05)
+    - [Questão 01](#questão-01)
+    - [Questão 02](#questão-02)
+    - [Questão 03](#questão-03)
+    - [Questão 04](#questão-04)
+    - [Questão 05](#questão-05)
 
 ---
 
@@ -55,12 +55,14 @@ Nessas questões, a relação entre os entes não decorre de nenhuma lei física
 ### 1.2 O Princípio da Correspondência Biunívoca
 
 A premissa implícita em quase todas as questões de associação lógica da FCC é o **princípio da bijeção (correspondência biunívoca)**:
+
 * Cada elemento de um determinado conjunto associa-se a **exatamente um** elemento de cada um dos demais conjuntos;
 * Não há elementos repetidos nem elementos desprovidos de correspondente no modelo padrão (salvo se o enunciado indicar expressamente o contrário).
 
 ### 1.3 Tipologia de Pistas e Classificação de Premissas
 
 As informações fornecidas dividem-se em três modalidades lógicas:
+
 1. **Afirmações Diretas (Pistas Positivas):** Vinculam dois elementos de modo afirmativo e categórico (*"Alice trabalha no gabinete Z"*, *"O economista é de Goiânia"*).
 2. **Negações Diretas (Pistas Negativas):** Declaram a incompatibilidade mútua entre dois atributos (*"Bruno não é formado em Contabilidade"*, *"Carlos não trabalha na TI"*).
 3. **Pistas Condicionais ou Compostas:** Estabelecem vínculos de causa-efeito ou conexões temporais e espaciais simultâneas (*"Se Lucas cuida da Folha, então Mateus cuida do Portal"*; *"O técnico que mora em Anápolis chegou depois de Carlos"*).
@@ -97,14 +99,15 @@ Adiciona-se ainda, se necessário, uma submatriz relacionando diretamente as For
 ### 2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão
 
 1. **Propagação do "SIM" (ou valor verdadeiro):**
-   * Ao marcar **SIM** na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com **NÃO** todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
+    * Ao marcar **SIM** na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com **NÃO** todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
 2. **Fechamento Dedutivo por Exclusão:**
-   * Se em uma linha de três atributos surgirem dois **NÃO**, o terceiro campo vazio torna-se compulsoriamente **SIM**.
-   * Se em uma coluna surgirem todos os campos preenchidos com **NÃO** exceto um, esse último é obrigatoriamente preenchido com **SIM**.
+    * Se em uma linha de três atributos surgirem dois **NÃO**, o terceiro campo vazio torna-se compulsoriamente **SIM**.
+    * Se em uma coluna surgirem todos os campos preenchidos com **NÃO** exceto um, esse último é obrigatoriamente preenchido com **SIM**.
 
 ### 2.3 Tratamento de Pistas Compostas e Vínculos Indiretos
 
 Quando o texto apresenta a pista: *"O servidor formado em Direito reside em Aparecida de Goiânia"*:
+
 * Essa pista amarra os atributos *Direito* e *Aparecida* como uma **unidade inseparável**.
 * Se sabemos por outra pista que *Bruno reside em Goiânia*, deduz-se imediatamente que *Bruno NÃO é formado em Direito* (pois se o fosse, deveria residir em Aparecida).
 
@@ -148,6 +151,7 @@ O raciocínio espacial em arranjos circulares é recorrente em questões que sim
 ### 4.1 Ponto de Vista Referencial e Orientação Espacial
 
 A resolução exige que o candidato projete seu olhar a partir da cadeira do ocupante analisado, **voltado para o centro da mesa circular**:
+
 * O braço direito do ocupante aponta para a sua direita na mesa;
 * O braço esquerdo aponta para a sua esquerda;
 * A rotação no sentido horário corresponde à esquerda de quem está no topo e à direita de quem está na base. Convém sempre desenhar o círculo com setas indicativas de "olhando para dentro".
@@ -157,13 +161,14 @@ A resolução exige que o candidato projete seu olhar a partir da cadeira do ocu
 Em mesas circulares com um número par $N$ de assentos ($N = 6$ ou $N = 8$), diz-se que duas pessoas estão sentadas **em frente** ou **diametralmente opostas** quando a linha reta que as une passa pelo centro da mesa:
 $$\text{Distância de Oposição} = \frac{N}{2} \text{ posições}$$
 * Em uma mesa de 6 cadeiras numeradas de 1 a 6 em sentido horário:
-  * O oposto da cadeira 1 é a cadeira $1 + 3 = 4$;
-  * O oposto da cadeira 2 é a cadeira $2 + 3 = 5$;
-  * O oposto da cadeira 3 é a cadeira $3 + 3 = 6$.
+    * O oposto da cadeira 1 é a cadeira $1 + 3 = 4$;
+    * O oposto da cadeira 2 é a cadeira $2 + 3 = 5$;
+    * O oposto da cadeira 3 é a cadeira $3 + 3 = 6$.
 
 ### 4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda
 
 Cada ocupante possui exatamente dois vizinhos imediatos (adjacentes):
+
 * O vizinho imediatamente à sua direita;
 * O vizinho imediatamente à sua esquerda.
 Todos os demais ocupantes não são vizinhos imediatos.
@@ -177,6 +182,7 @@ A avaliação das condições de contorno de um problema examina a consistência
 ### 5.1 Dedução Hipotética e Eliminação de Contradições
 
 Quando as pistas diretas não encerram todas as variáveis, recorre-se ao método da **bifurcação hipotética**:
+
 1. Formula-se uma hipótese arbitrária para uma célula não preenchida (ex.: *"Suponha que Alice more em Anápolis"*);
 2. Desdobram-se as consequências lógicas da hipótese nas demais variáveis;
 3. Se o desdobramento conduzir a uma **contradição lógica** (uma linha sem nenhum elemento verdadeiro, ou duas pessoas com o mesmo cargo), a hipótese é falsa e seu oposto é compulsoriamente verdadeiro;
@@ -185,6 +191,7 @@ Quando as pistas diretas não encerram todas as variáveis, recorre-se ao métod
 ### 5.2 Condições Necessárias, Suficientes e Redundantes
 
 A ementa do edital exige expressamente a *"avaliação das condições usadas para estabelecer a estrutura daquelas relações"*:
+
 * **Condição Suficiente:** Aquela que, por si só, basta para fixar uma conclusão ou determinar o sistema sem necessidade de dados complementares.
 * **Condição Necessária:** Requisito sem o qual o sistema não atinge a determinação unívoca, gerando graus de liberdade ou ambiguidade entre múltiplos cenários válidos.
 * **Condição Redundante:** Informação cuja veracidade já havia sido demonstrada pelo encadeamento das premissas precedentes, nada acrescentando à solução final.
@@ -220,6 +227,7 @@ Com base nessas informações, é correto concluir que:
 
 > **Comentário Detalhado:**
 > Dedução passo a passo por cruzamento de atributos:
+>
 > 1. Pela pista 2, Bruno reside em Goiânia. Pela pista 4, quem reside em Aparecida de Goiânia é formado em Direito. Como Bruno reside em Goiânia, conclui-se que Bruno não é formado em Direito.
 > 2. A pista 2 também declara que Bruno não é formado em Ciências Contábeis. Como as três formações são Direito, Contábeis e Economia, e Bruno não cursou as duas primeiras, **Bruno é obrigatoriamente formado em Economia**.
 > 3. Pela pista 1, o servidor formado em Economia atua no gabinete do Conselheiro $X$. Portanto, **Bruno trabalha com o Conselheiro $X$**.
@@ -233,6 +241,7 @@ Com base nessas informações, é correto concluir que:
 >      * **Alice:** Conselheiro $Z$, Ciências Contábeis, Anápolis.
 >
 > Análise individual das alternativas:
+>
 > - **A)** Correta. Alice reside em Anápolis e possui graduação em Ciências Contábeis.
 > - **B)** Incorreta. Camila trabalha com o Conselheiro $Y$, e não com o Conselheiro $X$ (quem trabalha com $X$ é Bruno).
 > - **C)** Incorreta. Bruno trabalha com o Conselheiro $X$, e não com o Conselheiro $Y$.
@@ -262,6 +271,7 @@ Com base nessas condições, o auditor que obteve o 1º lugar foi:
 
 > **Comentário Detalhado:**
 > Resolução por ordenação linear de posições $(1º, 2º, 3º, 4º, 5º)$:
+>
 > 1. Pista fixa: **Daniel ocupa o 3º lugar** $\implies (\_, \_, D, \_, \_)$.
 > 2. Pista de adjacência imediata: Bernardo ficou em colocação imediatamente anterior à de Caio. Isso significa que Bernardo e Caio formam um **bloco contíguo indivisível $[B, C]$**.
 > 3. Como o 3º lugar está ocupado por Daniel, o bloco $[B, C]$ só pode ser inserido em dois intervalos:
@@ -275,6 +285,7 @@ Com base nessas condições, o auditor que obteve o 1º lugar foi:
 > 6. As posições restantes ($4º$ e $5º$) são ocupadas por André e Eduardo. Como Caio ($2º$) superou Eduardo, e André não é o 1º nem está colado atrás de Caio, todas as condições são respeitadas com Bernardo no topo.
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. O enunciado veda explicitamente André na 1ª colocação.
 > - **B)** Correta. Bernardo é compulsoriamente o 1º colocado.
 > - **C)** Incorreta. Caio situa-se imediatamente após Bernardo, obtendo o 2º lugar.
@@ -304,6 +315,7 @@ Nessas condições, quem está sentado imediatamente à esquerda de Diana?
 
 > **Comentário Detalhado:**
 > Análise do arranjo circular de 6 posições (numeradas de 1 a 6 no sentido horário):
+>
 > 1. Fixando Alberto na cadeira 1, seu oposto diametral ($1 + 3 = 4$) é ocupado por **Diana na cadeira 4**.
 > 2. Pela pista 2, Beatriz senta-se imediatamente à direita de Alberto. Adotando a orientação de quem olha para o centro da mesa na cadeira 1, a direita corresponde à cadeira 2 $\implies$ **Beatriz ocupa a cadeira 2**.
 > 3. Os pares diametralmente opostos em 6 cadeiras são: $(1, 4)$, $(2, 5)$ e $(3, 6)$.
@@ -315,6 +327,7 @@ Nessas condições, quem está sentado imediatamente à esquerda de Diana?
 >    - Quem ocupa a cadeira 5 é **Carlos**.
 >
 > Análise individual das alternativas:
+>
 > - **A)** Incorreta. Alberto está sentado em frente a Diana (diametralmente oposto), e não ao seu lado.
 > - **B)** Incorreta. Beatriz senta-se na cadeira 2, ao lado de Alberto.
 > - **C)** Correta. Carlos ocupa a cadeira 5, posicionando-se imediatamente à esquerda de Diana na mesa circular.
@@ -344,6 +357,7 @@ A partir dessas premissas, conclui-se necessariamente que:
 
 > **Comentário Detalhado:**
 > Dedução formal por encadeamento de regras de inferência lógica:
+>
 > 1. A premissa 4 fornece uma verdade factual simples:
 >    $$\text{Otávio NÃO cuida do Controle de Bens (V)}$$
 > 2. Pela premissa 2, temos a condicional:
@@ -357,6 +371,7 @@ A partir dessas premissas, conclui-se necessariamente que:
 > 4. Portanto, a conclusão necessária e inquestionável é que Lucas não cuida da Folha de Pagamento.
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. Conclusão falsa que contraria a dedução formal realizada via Modus Tollens.
 > - **B)** Incorreta. Ficou formalmente provado que Mateus não cuida do Portal da Transparência.
 > - **C)** Incorreta. Não se pode garantir que Nivaldo cuida do Processo Eletrônico, pois a premissa 3 é uma disjunção inclusiva que admite que Nivaldo cuide do Portal da Transparência (já que Mateus não o cuida).
@@ -385,6 +400,7 @@ Avalie se essas três condições, em conjunto, são suficientes para determinar
 
 > **Comentário Detalhado:**
 > Avaliação sistemática de suficiência de dados:
+>
 > 1. O conjunto de idades é $\{25, 28, 31, 35\}$. O único número par é 28.
 > 2. Pela condição II, a idade de Renan é par $\implies$ **Renan tem compulsoriamente 28 anos**.
 > 3. As idades restantes para Paulo, Sérgio e Tiago são $\{25, 31, 35\}$.
@@ -397,6 +413,7 @@ Avalie se essas três condições, em conjunto, são suficientes para determinar
 > 6. A condição III atua como validador de consistência do sistema ou como restrição de contorno em modelos sem a fixação prévia de paridade. Em conjunto, o sistema de premissas amarra integralmente todas as quatro variáveis, determinando sem margem de dúvida a idade de cada um dos quatro auditores.
 >
 > Análise individual das alternativas:
+>
 > - **A)** Incorreta. O sistema de premissas elimina todos os graus de liberdade e determina a idade de todos os membros.
 > - **B)** Incorreta. A avaliação de suficiência considera o conjunto das três condições apresentadas para estabelecer a unicidade da estrutura relacional.
 > - **C)** Correta. O conjunto das três condições é suficiente para fixar com certeza absoluta a idade dos quatro auditores.

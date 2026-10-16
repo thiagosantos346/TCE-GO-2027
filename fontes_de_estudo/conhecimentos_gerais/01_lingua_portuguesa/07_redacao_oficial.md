@@ -22,40 +22,40 @@
 
 ## 🧭 Sumário
 - [1. Fundamentos Constitucionais e Conceito de Redação Oficial](#1-fundamentos-constitucionais-e-conceito-de-redação-oficial)
-  - [1.1 Definição e Finalidade da Comunicação Pública](#11-definição-e-finalidade-da-comunicação-pública)
-  - [1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração](#12-fundamentos-constitucionais-o-artigo-37-da-cf88-e-os-princípios-da-administração)
-  - [1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019](#13-evolução-normativa-o-mrpr-3ª-edição-e-o-decreto-federal-nº-97582019)
+    - [1.1 Definição e Finalidade da Comunicação Pública](#11-definição-e-finalidade-da-comunicação-pública)
+    - [1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração](#12-fundamentos-constitucionais-o-artigo-37-da-cf88-e-os-princípios-da-administração)
+    - [1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019](#13-evolução-normativa-o-mrpr-3ª-edição-e-o-decreto-federal-nº-97582019)
 - [2. Atributos Fundamentais da Redação Oficial](#2-atributos-fundamentais-da-redação-oficial)
-  - [2.1 Princípio da Impessoalidade e Seus Três Desdobramentos](#21-princípio-da-impessoalidade-e-seus-três-desdobramentos)
-  - [2.2 Clareza e Precisão Linguística](#22-clareza-e-precisão-linguística)
-  - [2.3 Concisão Textual e Eliminação da Prolixidade](#23-concisão-textual-e-eliminação-da-prolixidade)
-  - [2.4 Formalidade, Padronização e Tipografia](#24-formalidade-padronização-e-tipografia)
-  - [2.5 O Uso do Padrão Culto da Língua](#25-o-uso-do-padrão-culto-da-língua)
+    - [2.1 Princípio da Impessoalidade e Seus Três Desdobramentos](#21-princípio-da-impessoalidade-e-seus-três-desdobramentos)
+    - [2.2 Clareza e Precisão Linguística](#22-clareza-e-precisão-linguística)
+    - [2.3 Concisão Textual e Eliminação da Prolixidade](#23-concisão-textual-e-eliminação-da-prolixidade)
+    - [2.4 Formalidade, Padronização e Tipografia](#24-formalidade-padronização-e-tipografia)
+    - [2.5 O Uso do Padrão Culto da Língua](#25-o-uso-do-padrão-culto-da-língua)
 - [3. Pronomes de Tratamento, Vocativos e Endereçamento](#3-pronomes-de-tratamento-vocativos-e-endereçamento)
-  - [3.1 Vossa Excelência vs. Vossa Senhoria: Tabela Completa de Aplicação](#31-vossa-excelência-vs-vossa-senhoria-tabela-completa-de-aplicação)
-  - [3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento](#32-regras-rígidas-de-concordância-gramatical-com-pronomes-de-tratamento)
-  - [3.3 Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades](#33-sistema-de-vocativos-a-distinção-entre-chefes-de-poder-e-demais-autoridades)
-  - [3.4 Endereçamento no Envelope e Regras Dêiticas: Vossa vs. Sua](#34-endereçamento-no-envelope-e-regras-dêiticas-vossa-vs-sua)
-  - [3.5 Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos](#35-abolição-de-fórmulas-laudatórias-adulações-e-arcaísmos)
+    - [3.1 Vossa Excelência vs. Vossa Senhoria: Tabela Completa de Aplicação](#31-vossa-excelência-vs-vossa-senhoria-tabela-completa-de-aplicação)
+    - [3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento](#32-regras-rígidas-de-concordância-gramatical-com-pronomes-de-tratamento)
+    - [3.3 Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades](#33-sistema-de-vocativos-a-distinção-entre-chefes-de-poder-e-demais-autoridades)
+    - [3.4 Endereçamento no Envelope e Regras Dêiticas: Vossa vs. Sua](#34-endereçamento-no-envelope-e-regras-dêiticas-vossa-vs-sua)
+    - [3.5 Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos](#35-abolição-de-fórmulas-laudatórias-adulações-e-arcaísmos)
 - [4. O Padrão Ofício Unificado na 3ª Edição do MRPR](#4-o-padrão-ofício-unificado-na-3ª-edição-do-mrpr)
-  - [4.1 Unificação Formal: Extinção do Aviso e do Memorando](#41-unificação-formal-extinção-do-aviso-e-do-memorando)
-  - [4.2 Partes Componentes e Diagramação Oficial do Ofício](#42-partes-componentes-e-diagramação-oficial-do-ofício)
-  - [4.3 Estrutura do Texto: Introdução, Desenvolvimento e Conclusão](#43-estrutura-do-texto-introdução-desenvolvimento-e-conclusão)
-  - [4.4 Regras de Numeração de Parágrafos](#44-regras-de-numeração-de-parágrafos)
-  - [4.5 Identificação do Signatário e Vedação à Linha de Assinatura](#45-identificação-do-signatário-e-vedação-à-linha-de-assinatura)
-  - [4.6 O Sistema Binário de Fechos Regulamentares](#46-o-sistema-binário-de-fechos-regulamentares)
+    - [4.1 Unificação Formal: Extinção do Aviso e do Memorando](#41-unificação-formal-extinção-do-aviso-e-do-memorando)
+    - [4.2 Partes Componentes e Diagramação Oficial do Ofício](#42-partes-componentes-e-diagramação-oficial-do-ofício)
+    - [4.3 Estrutura do Texto: Introdução, Desenvolvimento e Conclusão](#43-estrutura-do-texto-introdução-desenvolvimento-e-conclusão)
+    - [4.4 Regras de Numeração de Parágrafos](#44-regras-de-numeração-de-parágrafos)
+    - [4.5 Identificação do Signatário e Vedação à Linha de Assinatura](#45-identificação-do-signatário-e-vedação-à-linha-de-assinatura)
+    - [4.6 O Sistema Binário de Fechos Regulamentares](#46-o-sistema-binário-de-fechos-regulamentares)
 - [5. Espécies Documentais e Comunicação Digital](#5-espécies-documentais-e-comunicação-digital)
-  - [5.1 O Correio Eletrônico Institucional (E-mail Público)](#51-o-correio-eletrônico-institucional-e-mail-público)
-  - [5.2 A Mensagem entre Chefes de Poder](#52-a-mensagem-entre-chefes-de-poder)
-  - [5.3 A Exposição de Motivos (EM)](#53-a-exposição-de-motivos-em)
-  - [5.4 Atos Típicos dos Tribunais de Contas: Relatório Técnico, Parecer e Acórdão](#54-atos-típicos-dos-tribunais-de-contas-relatório-técnico-parecer-e-acórdão)
+    - [5.1 O Correio Eletrônico Institucional (E-mail Público)](#51-o-correio-eletrônico-institucional-e-mail-público)
+    - [5.2 A Mensagem entre Chefes de Poder](#52-a-mensagem-entre-chefes-de-poder)
+    - [5.3 A Exposição de Motivos (EM)](#53-a-exposição-de-motivos-em)
+    - [5.4 Atos Típicos dos Tribunais de Contas: Relatório Técnico, Parecer e Acórdão](#54-atos-típicos-dos-tribunais-de-contas-relatório-técnico-parecer-e-acórdão)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
 - [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-  - [Questão 01](#questão-01)
-  - [Questão 02](#questão-02)
-  - [Questão 03](#questão-03)
-  - [Questão 04](#questão-04)
-  - [Questão 05](#questão-05)
+    - [Questão 01](#questão-01)
+    - [Questão 02](#questão-02)
+    - [Questão 03](#questão-03)
+    - [Questão 04](#questão-04)
+    - [Questão 05](#questão-05)
 
 ---
 
@@ -70,6 +70,7 @@ A redação oficial destina-se a viabilizar a comunicação clara, transparente 
 ### 1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração
 
 A redação de expedientes oficiais decorre imediatamente dos princípios basilares esculpidos no *caput* do artigo 37 da Constituição Federal de 1988:
+
 * **Legalidade:** A expedição de atos e comunicações só é válida quando amparada em lei ou competência regulamentar explícita.
 * **Impessoalidade:** O documento não representa a vontade pessoal do servidor ou agente público emitente, mas a manifestação institucional impessoal do órgão ou entidade.
 * **Moralidade:** Veda o emprego de comunicações oficiais para finalidades espúrias, autopromoção ou perseguição de administrados.
@@ -89,6 +90,7 @@ Para que uma correspondência ou ato público cumpra sua missão constitucional,
 ### 2.1 Princípio da Impessoalidade e Seus Três Desdobramentos
 
 A impessoalidade é a viga mestra da redação pública, decompondo-se em três planos complementares:
+
 1. **Impessoalidade do Emissor:** Quem emite a comunicação não é o cidadão privado que ocupa temporariamente o cargo, mas o serviço público institucionalizado. Não cabem impressões individuais, desabafos, opiniões particulares ou estilo literário floreado.
 2. **Impessoalidade do Destinatário:** O público-alvo ou o cidadão é considerado genericamente como membro da coletividade, vedando-se qualquer distinção fundada em simpatias, antipatias ou privilégios de casta.
 3. **Impessoalidade do Assunto:** A matéria tratada deve circunscrever-se rigorosamente ao interesse público e à finalidade legal do ato.
@@ -101,6 +103,7 @@ A impessoalidade é a viga mestra da redação pública, decompondo-se em três 
 ### 2.3 Concisão Textual e Eliminação da Prolixidade
 
 A concisão consiste em transmitir o máximo de conteúdo informativo útil com o menor número possível de palavras, sem jamais sacrificar a clareza. São regras práticas para atingir a concisão:
+
 * Cortar adjetivações vazias, advérbios redundantes e superlativos artificiais;
 * Eliminar rodeios oratórios e circunlóquios burocráticos (*"Vimos pela presente trazer ao vosso conhecimento o fato de que..."* $\rightarrow$ substitua simplesmente por: *"Comunico que..."*);
 * Suprimir períodos de introdução cerimoniosa que nada acrescentam à matéria de fato.
@@ -109,9 +112,9 @@ A concisão consiste em transmitir o máximo de conteúdo informativo útil com 
 
 * **Formalidade e Polidez:** O texto público orienta-se pela sobriedade, civilidade e polidez republicana, evitando intimidades, gírias e agressividades verbais.
 * **Padronização Visual:** A identidade institucional dos expedientes oficiais exige parâmetros rígidos de diagramação:
-  * Fonte tipográfica padrão: **Calibri** ou **Carlito**, corpo 12 para o corpo do texto e corpo 9 para notas de rodapé e citações longas;
-  * Espaçamento entrelinhas simples (1,0) ou de 1,15, com recuo de parágrafo padronizado (2,5 cm da margem esquerda);
-  * Margem esquerda e superior de 3,0 cm; margem direita e inferior de 2,0 cm.
+    * Fonte tipográfica padrão: **Calibri** ou **Carlito**, corpo 12 para o corpo do texto e corpo 9 para notas de rodapé e citações longas;
+    * Espaçamento entrelinhas simples (1,0) ou de 1,15, com recuo de parágrafo padronizado (2,5 cm da margem esquerda);
+    * Margem esquerda e superior de 3,0 cm; margem direita e inferior de 2,0 cm.
 
 ### 2.5 O Uso do Padrão Culto da Língua
 
@@ -146,30 +149,32 @@ A 3ª edição do MRPR uniformizou o rol de autoridades contempladas com cada f�
 ### 3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento
 
 O emprego dos pronomes de tratamento exige o cumprimento rigoroso de três regras morfossintáticas:
+
 1. **Concordância Verbal Compulsoriamente em 3ª Pessoa:** Embora o pronome de tratamento se refira à pessoa com quem se fala (2ª pessoa do discurso), a forma verbal associada deve ser flexionada **obrigatoriamente na 3ª pessoa do singular (ou do plural)**:
-   * *"Vossa Excelência **aprovou** a prestação de contas"* (e nunca *"aprovastes"*).
-   * *"Vossa Senhoria **deve** apresentar os laudos"* (e nunca *"deveis"*).
+    * *"Vossa Excelência **aprovou** a prestação de contas"* (e nunca *"aprovastes"*).
+    * *"Vossa Senhoria **deve** apresentar os laudos"* (e nunca *"deveis"*).
 2. **Concordância Pronominal em 3ª Pessoa:** Os pronomes possessivos ou oblíquos associados devem ser estritamente de terceira pessoa (**seu, sua, seus, suas, o, a, lhe**). É erro gravíssimo usar formas de 2ª pessoa do plural (*vosso, vossa, vos*):
-   * *"Comunico a Vossa Excelência que **sua** assessoria já concluiu o relatório"* (e nunca *"vossa assessoria"*).
-   * *"Solicito a Vossa Senhoria que apresente **seus** esclarecimentos"* (e nunca *"vossos esclarecimentos"*).
+    * *"Comunico a Vossa Excelência que **sua** assessoria já concluiu o relatório"* (e nunca *"vossa assessoria"*).
+    * *"Solicito a Vossa Senhoria que apresente **seus** esclarecimentos"* (e nunca *"vossos esclarecimentos"*).
 3. **Concordância de Gênero com o Sexo Real do Interlocutor:** Adjetivos e particípios predicativos concordam em gênero gramatical com o sexo real e biológico da pessoa física a quem o pronome se dirige (concordância por silepse de gênero consagrada):
-   * Se o Conselheiro for homem: *"Vossa Excelência está **atento** às recomendações."*
-   * Se a Conselheira for mulher: *"Vossa Excelência está **atenta** às recomendações."*
+    * Se o Conselheiro for homem: *"Vossa Excelência está **atento** às recomendações."*
+    * Se a Conselheira for mulher: *"Vossa Excelência está **atenta** às recomendações."*
 
 ### 3.3 Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades
 
 A 3ª edição do MRPR simplificou radicalmente os vocativos, reservando a locução *"Excelentíssimo Senhor..."* **exclusivamente aos Chefes dos Três Poderes da República**:
+
 1. **Vocativo "Excelentíssimo Senhor [Cargo],":**
-   * *Excelentíssimo Senhor Presidente da República,*
-   * *Excelentíssimo Senhor Presidente do Congresso Nacional,*
-   * *Excelentíssimo Senhor Presidente do Supremo Tribunal Federal,*
+    * *Excelentíssimo Senhor Presidente da República,*
+    * *Excelentíssimo Senhor Presidente do Congresso Nacional,*
+    * *Excelentíssimo Senhor Presidente do Supremo Tribunal Federal,*
 2. **Vocativo "Senhor [Cargo]," (Para TODAS as demais autoridades):**
-   * Aplica-se a governadores de estado, ministros de estado, senadores, deputados federais e estaduais, prefeitos, juízes, desembargadores e **Conselheiros de Tribunais de Contas**:
-   * *Senhor Governador,*
-   * *Senhor Ministro,*
-   * *Senhor Conselheiro,*
-   * *Senhor Juiz de Direito,*
-   * *Senhor Diretor-Geral,*
+    * Aplica-se a governadores de estado, ministros de estado, senadores, deputados federais e estaduais, prefeitos, juízes, desembargadores e **Conselheiros de Tribunais de Contas**:
+    * *Senhor Governador,*
+    * *Senhor Ministro,*
+    * *Senhor Conselheiro,*
+    * *Senhor Juiz de Direito,*
+    * *Senhor Diretor-Geral,*
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A Fundação Carlos Chagas reiteradamente tenta induzir o candidato ao erro inserindo o vocativo *"Excelentíssimo Senhor Governador,"* ou *"Excelentíssimo Senhor Ministro de Estado,"*. Trata-se de erro frontal contra a 3ª edição do MRPR. O vocativo cerimonial *Excelentíssimo* é privativo dos **três Chefes de Poder da União** (PR, CN e STF). Para governadores, conselheiros e ministros, usa-se compulsoriamente: *"Senhor Governador,"*, *"Senhor Conselheiro,"*, *"Senhor Ministro,"*.
 
@@ -177,12 +182,13 @@ A 3ª edição do MRPR simplificou radicalmente os vocativos, reservando a locu�
 
 * **Vossa Excelência / Vossa Senhoria:** Utiliza-se a forma **Vossa** quando o enunciador está em comunicação direta face a face com o interlocutor (no corpo do texto ou no diálogo oral): *"Informo a Vossa Excelência que os autos foram instruídos"*.
 * **Sua Excelência / Sua Senhoria:** Emprega-se a forma **Sua** quando o enunciador refere-se a uma terceira autoridade sobre quem se está falando ou no sobrescrito do envelope/endereçamento do documento:
-  * No endereçamento do ofício: *"A Sua Excelência o Senhor Conselheiro Presidente do TCE-GO"*.
-  * Ao referir-se à autoridade ausente: *"Sua Excelência o Governador determinou a imediata apuração dos fatos"*.
+    * No endereçamento do ofício: *"A Sua Excelência o Senhor Conselheiro Presidente do TCE-GO"*.
+    * Ao referir-se à autoridade ausente: *"Sua Excelência o Governador determinou a imediata apuração dos fatos"*.
 
 ### 3.5 Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos
 
 O Manual de Redação da Presidência da República e o Decreto nº 9.758/2019 baniram expressamente o uso de qualificativos bajuladores e expressões arcaicas na administração pública:
+
 * Foram expressamente extintos os tratamentos: **Digníssimo (DD.)**, **Ilustríssimo (Ilmo.)**, **Preclaro**, **Insígne** e **Mui Digno**;
 * A dignidade e a honradez são predicados inerentes ao próprio cargo público, sendo redundante e despropositado explicitá-las em correspondências oficiais;
 * É vedado o uso de fórmulas de encerramento vazias ou servientes (*"Com votos de elevado apreço e distinta consideração"*, *"Aproveito o ensejo para renovar protestos de estima"* ou *"Sem mais para o momento"*).
@@ -202,6 +208,7 @@ A 3ª edição do MRPR promoveu uma revolução de simplificação: **aboliu for
 ### 4.2 Partes Componentes e Diagramação Oficial do Ofício
 
 O expediente regido pelo Padrão Ofício estrutura-se nos seguintes blocos obrigatórios:
+
 1. **Cabeçalho Oficial:** Centralizado no topo da primeira página, contendo o Brasão de Armas da República e o nome do órgão (nunca impresso nas páginas de continuação);
 2. **Identificação do Expediente:** Alinhado à margem esquerda, composto por tipo do documento, número, ano e sigla do órgão emissor (*Ofício 123/2026/GAB-PRES/TCE-GO*);
 3. **Local e Data:** Alinhados à **margem direita**, com a cidade por extenso e o mês em minúsculas (*Goiânia, 15 de abril de 2026.*);
@@ -221,14 +228,16 @@ O expediente regido pelo Padrão Ofício estrutura-se nos seguintes blocos obrig
 ### 4.4 Regras de Numeração de Parágrafos
 
 Nos expedientes estruturados no padrão ofício:
+
 * Se o texto contiver **apenas um único parágrafo**, este **não recebe numeração** arábica;
 * Se o texto contiver dois ou mais parágrafos, **todos os parágrafos são numerados a partir do segundo** (o primeiro parágrafo, correspondente à introdução, nunca é numerado):
-  * Primeiro parágrafo: não numerado (introdução);
-  * Segundo parágrafo em diante: numerados com algarismos arábicos (2., 3., 4....).
+    * Primeiro parágrafo: não numerado (introdução);
+    * Segundo parágrafo em diante: numerados com algarismos arábicos (2., 3., 4....).
 
 ### 4.5 Identificação do Signatário e Vedação à Linha de Assinatura
 
 No encerramento do documento:
+
 * Escreve-se o **nome da autoridade signatária** em letras maiúsculas e negrito;
 * Imediatamente abaixo, sem negrito, inscreve-se a designação de seu **cargo público**;
 * **É formalmente vedada a colocação de linha tracejada ou traço sobreposto** para apor a assinatura. A assinatura física ou digital deve recair diretamente sobre o nome digitado.
@@ -258,6 +267,7 @@ flowchart TD
 ### 5.1 O Correio Eletrônico Institucional (E-mail Público)
 
 O correio eletrônico consolidou-se como meio legítimo e preferencial de comunicação administrativa ágil no setor público, devendo observar parâmetros estritos de validade jurídica:
+
 * O endereço eletrônico deve ser invariavelmente institucional (*@tce.go.gov.br*), repudiando-se o uso de e-mails pessoais para a prática de atos funcionais;
 * Deve conter campo de assunto conciso e informativo;
 * O texto deve primar pela sobriedade e impessoalidade, mantendo os mesmos fechos regulamentares (*Respeitosamente* ou *Atenciosamente*);
@@ -266,6 +276,7 @@ O correio eletrônico consolidou-se como meio legítimo e preferencial de comuni
 ### 5.2 A Mensagem entre Chefes de Poder
 
 A Mensagem é o instrumento formal e privativo utilizado pelo Chefe do Poder Executivo para se comunicar diretamente com os Chefes dos demais Poderes da República:
+
 * Encaminhamento de projetos de lei ordinária, complementar ou propostas de emenda constitucional ao Poder Legislativo;
 * Apresentação da prestação de contas anual do Governador ao Tribunal de Contas do Estado e à Assembleia Legislativa;
 * Comunicação de razões de veto a projetos de lei.
@@ -273,12 +284,14 @@ A Mensagem é o instrumento formal e privativo utilizado pelo Chefe do Poder Exe
 ### 5.3 A Exposição de Motivos (EM)
 
 A Exposição de Motivos é o expediente submetido privativamente por um Ministro de Estado ou titular de órgão ao Presidente da República (ou por Secretário de Estado ao Governador) com a finalidade de:
+
 * Propor a edição de ato normativo (projeto de lei, medida provisória ou decreto);
 * Submeter matéria de alta relevância governamental à decisão superior do Chefe do Executivo.
 
 ### 5.4 Atos Típicos dos Tribunais de Contas: Relatório Técnico, Parecer e Acórdão
 
 No âmbito do controle externo, a produção textual desdobra-se em espécies especializadas:
+
 * **Relatório de Auditoria:** Documento descritivo e analítico elaborado pelos auditores de controle externo, contendo os achados de auditoria, critérios de auditoria, matriz de responsabilização e propostas de encaminhamento;
 * **Instrução Técnica:** Peça processual intermediária que examina as defesas apresentadas pelos jurisdicionados;
 * **Parecer do Ministério Público de Contas:** Manifestação jurídica conclusiva do Procurador de Contas opinando pela regularidade, regularidade com ressalva ou irregularidade das contas;
@@ -343,6 +356,7 @@ No que concerne ao emprego de pronomes de tratamento e à concordância gramatic
 ### Questão 03
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A respeito da padronização de expedientes oficiais segundo a 3ª edição do Manual de Redação da Presidência da República, considere as afirmações:  
+
 I. As comunicações oficiais internas entre diretorias e gerências de um mesmo órgão público devem ser redigidas sob a denominação de *Memorando*.  
 II. O *Aviso* é espécie documental privativa utilizada para envio de correspondências por Ministros de Estado a particulares.  
 III. Os antigos expedientes denominados *Aviso* e *Memorando* deixaram de existir como tipos autônomos, tendo sido absorvidos pelo *Padrão Ofício*.  

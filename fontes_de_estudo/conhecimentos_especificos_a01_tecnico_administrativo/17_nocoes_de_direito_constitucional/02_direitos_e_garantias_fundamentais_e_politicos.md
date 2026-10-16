@@ -21,24 +21,24 @@
 
 ## 🧭 Sumário
 1. [Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)](#1-teoria-geral-e-direitos-individuais-e-coletivos-art-5º-da-cf88)
-   - 1.1 [Características Fundamentais e Dimensões de Eficácia](#11-características-fundamentais-e-dimensões-de-eficácia)
-   - 1.2 [Inviolabilidade do Domicílio (Art. 5º, XI)](#12-inviolabilidade-do-domicílio-art-5º-xi)
-   - 1.3 [Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)](#13-inviolabilidade-das-comunicações-e-reserva-de-jurisdição-art-5º-xii)
-   - 1.4 [Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)](#14-liberdade-de-associação-e-limites-estatais-art-5º-xvii-a-xxi)
-   - 1.5 [Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC](#15-tratamento-constitucional-dos-crimes-o-quarteto-penal-da-fcc)
+    - 1.1 [Características Fundamentais e Dimensões de Eficácia](#11-características-fundamentais-e-dimensões-de-eficácia)
+    - 1.2 [Inviolabilidade do Domicílio (Art. 5º, XI)](#12-inviolabilidade-do-domicílio-art-5º-xi)
+    - 1.3 [Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)](#13-inviolabilidade-das-comunicações-e-reserva-de-jurisdição-art-5º-xii)
+    - 1.4 [Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)](#14-liberdade-de-associação-e-limites-estatais-art-5º-xvii-a-xxi)
+    - 1.5 [Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC](#15-tratamento-constitucional-dos-crimes-o-quarteto-penal-da-fcc)
 2. [Remédios Constitucionais (Writs de Garantia)](#2-remédios-constitucionais-writs-de-garantia)
-   - 2.1 [Análise Comparativa dos Remédios Constitucionais](#21-análise-comparativa-dos-remédios-constitucionais)
+    - 2.1 [Análise Comparativa dos Remédios Constitucionais](#21-análise-comparativa-dos-remédios-constitucionais)
 3. [Direitos Sociais (Arts. 6º a 11)](#3-direitos-sociais-arts-6º-a-11)
 4. [Teoria da Nacionalidade e a Nova Disciplina da Perda (Arts. 12 e 13)](#4-teoria-da-nacionalidade-e-a-nova-disciplina-da-perda-arts-12-e-13)
-   - 4.1 [Espécies de Nacionalidade Originária (Brasileiro Nato)](#41-espécies-de-nacionalidade-originária-brasileiro-nato)
-   - 4.2 [Brasileiro Naturalizado](#42-brasileiro-naturalizado)
-   - 4.3 [Cargos Privativos de Brasileiro Nato (Art. 12, § 3º - MP3.COM)](#43-cargos-privativos-de-brasileiro-nato-art-12-§-3º---mp3com)
-   - 4.4 [Perda da Nacionalidade: O Novo Regime da EC nº 131/2023](#44-perda-da-nacionalidade-o-novo-regime-da-ec-nº-1312023)
+    - 4.1 [Espécies de Nacionalidade Originária (Brasileiro Nato)](#41-espécies-de-nacionalidade-originária-brasileiro-nato)
+    - 4.2 [Brasileiro Naturalizado](#42-brasileiro-naturalizado)
+    - 4.3 [Cargos Privativos de Brasileiro Nato (Art. 12, § 3º - MP3.COM)](#43-cargos-privativos-de-brasileiro-nato-art-12-§-3º---mp3com)
+    - 4.4 [Perda da Nacionalidade: O Novo Regime da EC nº 131/2023](#44-perda-da-nacionalidade-o-novo-regime-da-ec-nº-1312023)
 5. [Direitos Políticos e Sistema Partidário (Arts. 14 a 17)](#5-direitos-políticos-e-sistema-partidário-arts-14-a-17)
-   - 5.1 [Alistamento Eleitoral e Voto](#51-alistamento-eleitoral-e-voto)
-   - 5.2 [Idades Mínimas de Elegibilidade (Capacidade Eleitoral Passiva)](#52-idades-mínimas-de-elegibilidade-capacidade-eleitoral-passiva)
-   - 5.3 [Inelegibilidade Reflexa (Art. 14, § 7º) e Súmula Vinculante 18](#53-inelegibilidade-reflexa-art-14-§-7º-e-súmula-vinculante-18)
-   - 5.4 [Perda e Suspensão dos Direitos Políticos (Art. 15 da CF/88)](#54-perda-e-suspensão-dos-direitos-políticos-art-15-da-cf88)
+    - 5.1 [Alistamento Eleitoral e Voto](#51-alistamento-eleitoral-e-voto)
+    - 5.2 [Idades Mínimas de Elegibilidade (Capacidade Eleitoral Passiva)](#52-idades-mínimas-de-elegibilidade-capacidade-eleitoral-passiva)
+    - 5.3 [Inelegibilidade Reflexa (Art. 14, § 7º) e Súmula Vinculante 18](#53-inelegibilidade-reflexa-art-14-§-7º-e-súmula-vinculante-18)
+    - 5.4 [Perda e Suspensão dos Direitos Políticos (Art. 15 da CF/88)](#54-perda-e-suspensão-dos-direitos-políticos-art-15-da-cf88)
 6. [Fontes Oficiais & Doutrinárias Recomendadas](#6-fontes-oficiais--doutrinárias-recomendadas)
 7. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#7-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
 
@@ -51,9 +51,9 @@
 #### 1.1 Características Fundamentais e Dimensões de Eficácia
 - **Inexistência de Direitos Absolutos (Relatividade):** Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional. Nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a").
 - **Eficácia Vertical vs. Eficácia Horizontal (*Drittwirkung*):**
-  - *Eficácia Vertical:* Relação tradicional entre o indivíduo e o Estado, funcionando como escudo protetor contra o arbítrio estatal.
-  - *Eficácia Horizontal:* Incidência direta e imediata dos direitos fundamentais nas relações jurídicas entre particulares (ex.: respeito à ampla defesa e ao contraditório para expulsão de sócio de clube ou cooperativa privada - STF).
-  - *Eficácia Diagonal:* Relação entre particulares caracterizada por flagrante assimetria fática e jurídica (ex.: relações de trabalho e contratos de consumo).
+    - *Eficácia Vertical:* Relação tradicional entre o indivíduo e o Estado, funcionando como escudo protetor contra o arbítrio estatal.
+    - *Eficácia Horizontal:* Incidência direta e imediata dos direitos fundamentais nas relações jurídicas entre particulares (ex.: respeito à ampla defesa e ao contraditório para expulsão de sócio de clube ou cooperativa privada - STF).
+    - *Eficácia Diagonal:* Relação entre particulares caracterizada por flagrante assimetria fática e jurídica (ex.: relações de trabalho e contratos de consumo).
 
 ```mermaid
 flowchart TD
@@ -168,15 +168,15 @@ flowchart TD
 
 - **Rol Exemplificativo do Art. 6º:** São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, e a assistência aos desamparados.
 - **Direitos dos Trabalhadores Urbanos e Rurais (Art. 7º):**
-  - *Salário Mínimo:* Fixado em lei, nacionalmente unificado, capaz de atender às necessidades vitais básicas do trabalhador e de sua família, com reajustes periódicos; vedada sua vinculação para qualquer fim (Súmula Vinculante 4 do STF).
-  - *Jornada de Trabalho:* Não superior a 8 horas diárias e 44 horas semanais, facultada a compensação de horários e a redução da jornada mediante acordo ou convenção coletiva. Para turnos ininterruptos de revezamento: jornada de 6 horas, salvo negociação coletiva.
-  - *Repouso Semanal Remunerado:* Preferencialmente aos domingos.
-  - *Férias:* Anuais remuneradas com, pelo menos, um terço a mais do que o salário normal (terço constitucional).
-  - *Licenças:* Maternidade sem prejuízo do emprego e do salário, com duração de 120 dias; licença-paternidade nos termos da lei (atualmente 5 dias, prorrogável por mais 15 dias no programa Empresa Cidadã).
+    - *Salário Mínimo:* Fixado em lei, nacionalmente unificado, capaz de atender às necessidades vitais básicas do trabalhador e de sua família, com reajustes periódicos; vedada sua vinculação para qualquer fim (Súmula Vinculante 4 do STF).
+    - *Jornada de Trabalho:* Não superior a 8 horas diárias e 44 horas semanais, facultada a compensação de horários e a redução da jornada mediante acordo ou convenção coletiva. Para turnos ininterruptos de revezamento: jornada de 6 horas, salvo negociação coletiva.
+    - *Repouso Semanal Remunerado:* Preferencialmente aos domingos.
+    - *Férias:* Anuais remuneradas com, pelo menos, um terço a mais do que o salário normal (terço constitucional).
+    - *Licenças:* Maternidade sem prejuízo do emprego e do salário, com duração de 120 dias; licença-paternidade nos termos da lei (atualmente 5 dias, prorrogável por mais 15 dias no programa Empresa Cidadã).
 - **Direito de Greve:**
-  - *Trabalhadores da iniciativa privada (Art. 9º):* Exercício assegurado, competindo aos trabalhadores definir a oportunidade de exercer e os interesses a defender.
-  - *Servidores públicos civis (Art. 37, VII):* Depende de lei ordinária regulamentadora. Por força do Tema 23 e MI 670/STF, aplica-se aos servidores públicos a Lei de Greve da iniciativa privada (Lei nº 7.783/1989), com possibilidade de desconto dos dias parados (salvo se a greve foi deflagrada por conduta ilícita do Poder Público).
-  - *Militares (Art. 142, § 3º, IV):* Proibição absoluta de greve e sindicalização. Aplica-se também a policiais civis e guardas municipais que atuam na segurança pública armada (STF, ARE 654.432).
+    - *Trabalhadores da iniciativa privada (Art. 9º):* Exercício assegurado, competindo aos trabalhadores definir a oportunidade de exercer e os interesses a defender.
+    - *Servidores públicos civis (Art. 37, VII):* Depende de lei ordinária regulamentadora. Por força do Tema 23 e MI 670/STF, aplica-se aos servidores públicos a Lei de Greve da iniciativa privada (Lei nº 7.783/1989), com possibilidade de desconto dos dias parados (salvo se a greve foi deflagrada por conduta ilícita do Poder Público).
+    - *Militares (Art. 142, § 3º, IV):* Proibição absoluta de greve e sindicalização. Aplica-se também a policiais civis e guardas municipais que atuam na segurança pública armada (STF, ARE 654.432).
 
 ---
 
@@ -235,9 +235,9 @@ flowchart TD
 #### 5.1 Alistamento Eleitoral e Voto
 - **Voto no Brasil:** É direto, secreto, universal e periódico, com igual valor para todos.
 - **Obrigatoriedade:**
-  - *Obrigatório:* Maiores de 18 anos e menores de 70 anos alfabetizados.
-  - *Facultativo:* Maiores de 70 anos; maiores de 16 e menores de 18 anos; analfabetos.
-  - *Inalistáveis (não podem se alistar nem votar):* Estrangeiros e, durante o período de serviço militar obrigatório, os conscritos.
+    - *Obrigatório:* Maiores de 18 anos e menores de 70 anos alfabetizados.
+    - *Facultativo:* Maiores de 70 anos; maiores de 16 e menores de 18 anos; analfabetos.
+    - *Inalistáveis (não podem se alistar nem votar):* Estrangeiros e, durante o período de serviço militar obrigatório, os conscritos.
 
 #### 5.2 Idades Mínimas de Elegibilidade (Capacidade Eleitoral Passiva)
 As idades mínimas constitucionais devem ser aferidas na data da **posse**, exceto para a idade de 18 anos (vereador), que deve estar preenchida na data-limite do registro de candidatura (Lei nº 9.504/1997 e Súmula 53 do TSE):
@@ -276,17 +276,17 @@ A Constituição Federal estabelece: **"É VEDADA a cassação de direitos polí
 ## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 
 - [Constituição Federal de 1988 - Título II (Direitos e Garantias Fundamentais)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art5)
-  - Texto compilado dos artigos 5º ao 17.
+    - Texto compilado dos artigos 5º ao 17.
 - [Emenda Constitucional nº 131/2023](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc131.htm)
-  - Altera o art. 12 da Constituição Federal para suprimir a perda automática da nacionalidade brasileira por naturalização voluntária.
+    - Altera o art. 12 da Constituição Federal para suprimir a perda automática da nacionalidade brasileira por naturalização voluntária.
 - [Lei Federal nº 12.016/2009 (Disciplina o Mandado de Segurança)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm)
-  - Regula o procedimento do MS individual e coletivo.
+    - Regula o procedimento do MS individual e coletivo.
 - [Lei Federal nº 13.300/2016 (Lei do Mandado de Injunção)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13300.htm)
-  - Regras procedimentais, efeitos da decisão e mandado de injunção coletivo.
+    - Regras procedimentais, efeitos da decisão e mandado de injunção coletivo.
 - [Lei Federal nº 4.717/1965 (Lei da Ação Popular)](https://www.planalto.gov.br/ccivil_03/leis/l4717.htm)
-  - Regulação dos requisitos e condições da Ação Popular.
+    - Regulação dos requisitos e condições da Ação Popular.
 - [Supremo Tribunal Federal - Súmula Vinculante nº 18](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=18)
-  - Jurisprudência vinculante sobre a inelegibilidade reflexa e dissolução do vínculo conjugal.
+    - Jurisprudência vinculante sobre a inelegibilidade reflexa e dissolução do vínculo conjugal.
 
 ---
 
@@ -297,11 +297,11 @@ Determinado servidor público estadual lotado no Tribunal de Contas teve ciênci
 
 Diante da recusa administrativa formal, o instrumento processual constitucional adequado, cabível e gratuito para assegurar a retificação desses dados perante o Poder Judiciário é o:
 
-A) Mandado de Segurança, impetrado no prazo improrrogável de cento e vinte dias contados da ciência da decisão denegatória.  
-B) Habeas Data, cuja ação é constitucionalmente gratuita e se destina especificamente a assegurar o conhecimento e a retificação de informações relativas à pessoa do impetrante constantes de entidades governamentais ou de caráter público.  
-C) Mandado de Injunção, em virtude da omissão do órgão público em editar portaria disciplinadora do assentamento funcional.  
-D) Ação Popular, promovida pelo servidor em face da autoridade coatora com pedido de indenização civil por danos morais.  
-E) Habeas Corpus, haja vista que a inserção de anotações incorretas tolhe indiretamente a liberdade de locomoção do servidor público.  
+* **A)** Mandado de Segurança, impetrado no prazo improrrogável de cento e vinte dias contados da ciência da decisão denegatória.
+* **B)** Habeas Data, cuja ação é constitucionalmente gratuita e se destina especificamente a assegurar o conhecimento e a retificação de informações relativas à pessoa do impetrante constantes de entidades governamentais ou de caráter público.
+* **C)** Mandado de Injunção, em virtude da omissão do órgão público em editar portaria disciplinadora do assentamento funcional.
+* **D)** Ação Popular, promovida pelo servidor em face da autoridade coatora com pedido de indenização civil por danos morais.
+* **E)** Habeas Corpus, haja vista que a inserção de anotações incorretas tolhe indiretamente a liberdade de locomoção do servidor público.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** O Mandado de Segurança é cabível para proteção de direito líquido e certo não amparado por *Habeas Corpus* ou *Habeas Data* (caráter residual expresso no art. 5º, LXIX). Existindo remédio específico (*Habeas Data* para retificação de dados próprios), o MS não tem cabimento, além de não ser constitucionalmente gratuito.  
@@ -323,11 +323,11 @@ III. Cláudio, brasileiro naturalizado, com 50 anos de idade, notável saber jur
 
 À luz das normas constitucionais em vigor:
 
-A) Apenas as situações I e II são juridicamente viáveis perante a Constituição Federal.  
-B) As situações I, II e III são plenamente permitidas pelo texto constitucional.  
-C) Apenas a situação II é viável, pois a idade mínima para Governador de Estado é de 35 anos.  
-D) Apenas a situação III é admitida, sendo vedado o mandato de Deputado Federal a brasileiros naturalizados.  
-E) Todas as três situações são expressamente vedadas pela Carta Magna.  
+* **A)** Apenas as situações I e II são juridicamente viáveis perante a Constituição Federal.
+* **B)** As situações I, II e III são plenamente permitidas pelo texto constitucional.
+* **C)** Apenas a situação II é viável, pois a idade mínima para Governador de Estado é de 35 anos.
+* **D)** Apenas a situação III é admitida, sendo vedado o mandato de Deputado Federal a brasileiros naturalizados.
+* **E)** Todas as três situações são expressamente vedadas pela Carta Magna.
 
 > **Comentário Detalhado:**
 > - **A) CORRETA:**  
@@ -352,11 +352,11 @@ III. A prática do racismo e a ação de grupos armados, civis ou militares, con
 
 Está correto o que se afirma em:
 
-A) I e II, apenas.  
-B) II e III, apenas.  
-C) I e III, apenas.  
-D) I, apenas.  
-E) I, II e III.  
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** I e III, apenas.
+* **D)** I, apenas.
+* **E)** I, II e III.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** O item I é incorreto nos termos da Súmula Vinculante nº 18 do STF.
@@ -375,11 +375,11 @@ E) I, II e III.
 ### Questão 4 (FCC - Adaptada / Auditor de Controle Externo)
 À luz das disposições constitucionais sobre os direitos políticos, a perda e suspensão de tais prerrogativas e a organização partidária, assinale a opção correta:
 
-A) É permitida a cassação de direitos políticos mediante processo administrativo com contraditório e ampla defesa instaurado pelo Tribunal Superior Eleitoral.  
-B) O militar alistável que contar com mais de dez anos de serviço será afastado definitivamente da atividade militar no momento do registro de sua candidatura.  
-C) A condenação criminal transitada em julgado acarreta a suspensão dos direitos políticos do condenado enquanto durarem seus efeitos, mesmo nos casos em que ocorra a concessão de livramento condicional ou sursis.  
-D) A criação de associação de moradores independe de autorização do Poder Público, mas suas atividades podem ser compulsoriamente dissolvidas por ato motivado do Secretário de Segurança Pública.  
-E) São condições de elegibilidade para o cargo de Vereador a nacionalidade brasileira, o alistamento eleitoral, o domicílio eleitoral na circunscrição e a idade mínima de vinte e um anos completos.  
+* **A)** É permitida a cassação de direitos políticos mediante processo administrativo com contraditório e ampla defesa instaurado pelo Tribunal Superior Eleitoral.
+* **B)** O militar alistável que contar com mais de dez anos de serviço será afastado definitivamente da atividade militar no momento do registro de sua candidatura.
+* **C)** A condenação criminal transitada em julgado acarreta a suspensão dos direitos políticos do condenado enquanto durarem seus efeitos, mesmo nos casos em que ocorra a concessão de livramento condicional ou sursis.
+* **D)** A criação de associação de moradores independe de autorização do Poder Público, mas suas atividades podem ser compulsoriamente dissolvidas por ato motivado do Secretário de Segurança Pública.
+* **E)** São condições de elegibilidade para o cargo de Vereador a nacionalidade brasileira, o alistamento eleitoral, o domicílio eleitoral na circunscrição e a idade mínima de vinte e um anos completos.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** O *caput* do art. 15 da CF/88 determina expressamente: **"É vedada a cassação de direitos políticos"**. O ordenamento brasileiro não admite a cassação sob nenhuma hipótese.  
@@ -397,11 +397,11 @@ Com relação ao regime da nacionalidade instituído pela Constituição Federal
 
 Considerando o texto constitucional vigente com as alterações promovidas pela Emenda Constitucional nº 131/2023, Marcos:
 
-A) Perdeu automaticamente a nacionalidade brasileira no momento da formalização do deferimento da cidadania francesa.  
-B) Poderá perder a nacionalidade brasileira apenas se houver representação formal do Ministério das Relações Exteriores aprovada pelo Congresso Nacional.  
-C) Não perde a nacionalidade brasileira pela mera aquisição voluntária da cidadania estrangeira, somente ocorrendo a perda se declarar expressamente por escrito perante autoridade brasileira competente que renuncia à nacionalidade brasileira.  
-D) Passará automaticamente à condição de brasileiro naturalizado, perdendo o direito de concorrer a qualquer cargo eletivo no Brasil.  
-E) Perderá compulsoriamente a nacionalidade brasileira por sentença do juiz federal competente, por ter adotado fidelidade política a nação estrangeira.  
+* **A)** Perdeu automaticamente a nacionalidade brasileira no momento da formalização do deferimento da cidadania francesa.
+* **B)** Poderá perder a nacionalidade brasileira apenas se houver representação formal do Ministério das Relações Exteriores aprovada pelo Congresso Nacional.
+* **C)** Não perde a nacionalidade brasileira pela mera aquisição voluntária da cidadania estrangeira, somente ocorrendo a perda se declarar expressamente por escrito perante autoridade brasileira competente que renuncia à nacionalidade brasileira.
+* **D)** Passará automaticamente à condição de brasileiro naturalizado, perdendo o direito de concorrer a qualquer cargo eletivo no Brasil.
+* **E)** Perderá compulsoriamente a nacionalidade brasileira por sentença do juiz federal competente, por ter adotado fidelidade política a nação estrangeira.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** A regra da perda automática da nacionalidade pela aquisição voluntária de outra foi expressamente revogada pela Emenda Constitucional nº 131/2023. Atualmente, a aquisição voluntária de outra nacionalidade não afeta a condição de brasileiro nato.  

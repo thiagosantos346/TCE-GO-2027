@@ -9,51 +9,51 @@
 ## 📌 Ementa / Itens do Edital
 
 - Gestão da Qualidade e excelência nos serviços públicos:
-  - Evolução dos conceitos da qualidade: inspeção, controle estatístico de processos (CEP), garantia da qualidade e Gestão da Qualidade Total (*Total Quality Management* - TQM);
-  - Mestres da qualidade e suas contribuições essenciais:
+    - Evolução dos conceitos da qualidade: inspeção, controle estatístico de processos (CEP), garantia da qualidade e Gestão da Qualidade Total (*Total Quality Management* - TQM);
+    - Mestres da qualidade e suas contribuições essenciais:
     - W. Edwards Deming: 14 princípios e o Ciclo PDCA (*Plan, Do, Check, Act*);
     - Joseph Juran: Trilogia da Qualidade (Planejamento, Controle e Aperfeiçoamento da Qualidade) e custos da qualidade;
     - Kaoru Ishikawa: Diagrama de Causa e Efeito (Espinha de Peixe / 6M), Círculos de Controle de Qualidade (CCQ) e as 7 ferramentas da qualidade;
     - Philip Crosby: Conceito de "Zero Defeito" e conformidade com requisitos;
-  - Modelos de excelência em gestão pública: Modelo de Excelência em Gestão (MEG / Fundação Nacional da Qualidade - FNQ) e Programa GesPública;
+    - Modelos de excelência em gestão pública: Modelo de Excelência em Gestão (MEG / Fundação Nacional da Qualidade - FNQ) e Programa GesPública;
 - Simplificação, racionalização e avaliação dos serviços prestados aos usuários:
-  - **Decreto Federal nº 9.094/2017** e alterações (Decreto nº 9.723/2019 e Lei nº 13.726/2018 - Lei de Desburocratização):
+    - **Decreto Federal nº 9.094/2017** e alterações (Decreto nº 9.723/2019 e Lei nº 13.726/2018 - Lei de Desburocratização):
     - Dispensa de reconhecimento de firma em cartório e de autenticação de cópias de documentos;
     - Proibição de exigência de certidões ou documentos emitidos pela própria administração pública ou presentes em bancos de dados oficiais;
     - Adoção do CPF como número suficiente e universal de identificação do cidadão nos serviços públicos;
     - **Carta de Serviços ao Usuário:** conteúdo compulsório, padrões de qualidade, prazos e atualização permanente;
 - Gestão de Processos de Negócio (*Business Process Management* - BPM):
-  - Conceito e hierarquia dos processos: Macroprocesso, Processo, Subprocesso, Atividade e Tarefa;
-  - Tipos de processos organizacionais: Processos Finalísticos (Primários / Ponta a Ponta), de Suporte (Apoio / Secundários) e de Gerenciamento (Gestão);
-  - Ciclo de vida do BPM: Diagnóstico da situação atual (*AS-IS*) versus Modelagem do estado futuro otimizado (*TO-BE*);
+    - Conceito e hierarquia dos processos: Macroprocesso, Processo, Subprocesso, Atividade e Tarefa;
+    - Tipos de processos organizacionais: Processos Finalísticos (Primários / Ponta a Ponta), de Suporte (Apoio / Secundários) e de Gerenciamento (Gestão);
+    - Ciclo de vida do BPM: Diagnóstico da situação atual (*AS-IS*) versus Modelagem do estado futuro otimizado (*TO-BE*);
 - Noções de Gestão de Projetos:
-  - Distinção conceitual entre Projeto (esforço temporário para criar um resultado exclusivo) e Processo (fluxo contínuo, padronizado e perene);
-  - O guia PMBOK (*Project Management Institute* - PMI): os 5 grupos de processos (Iniciação, Planejamento, Execução, Monitoramento/Controle e Encerramento);
-  - Termo de Abertura do Projeto (TAP / *Project Charter*) e Estrutura Analítica do Projeto (EAP / *WBS*).
+    - Distinção conceitual entre Projeto (esforço temporário para criar um resultado exclusivo) e Processo (fluxo contínuo, padronizado e perene);
+    - O guia PMBOK (*Project Management Institute* - PMI): os 5 grupos de processos (Iniciação, Planejamento, Execução, Monitoramento/Controle e Encerramento);
+    - Termo de Abertura do Projeto (TAP / *Project Charter*) e Estrutura Analítica do Projeto (EAP / *WBS*).
 
 ---
 
 ## 🧭 Sumário Interativo
 
 - [1. Gestão da Qualidade: Eras, Teóricos e Ferramentas](#1-gestão-da-qualidade-eras-teóricos-e-ferramentas)
-  - [1.1 Evolução das Quatro Eras da Qualidade](#11-evolução-das-quatro-eras-da-qualidade)
-  - [1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)](#12-os-mestres-da-qualidade-e-suas-contribuições-deming-juran-ishikawa-e-crosby)
-  - [1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade](#13-o-ciclo-pdca-e-as-sete-ferramentas-da-qualidade)
-  - [1.4 Modelos de Excelência: MEG / FNQ e o GesPública](#14-modelos-de-excelência-meg--fnq-e-o-gespública)
+    - [1.1 Evolução das Quatro Eras da Qualidade](#11-evolução-das-quatro-eras-da-qualidade)
+    - [1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)](#12-os-mestres-da-qualidade-e-suas-contribuições-deming-juran-ishikawa-e-crosby)
+    - [1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade](#13-o-ciclo-pdca-e-as-sete-ferramentas-da-qualidade)
+    - [1.4 Modelos de Excelência: MEG / FNQ e o GesPública](#14-modelos-de-excelência-meg--fnq-e-o-gespública)
 - [2. Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)](#2-desburocratização-e-atendimento-ao-cidadão-decreto-nº-90942017)
-  - [2.1 Supressão de Custos Cartorários (Reconhecimento de Firma e Autenticação)](#21-supressão-de-custos-cartorários-reconhecimento-de-firma-e-autenticação)
-  - [2.2 Proibição de Exigência Documental Redundante e Interoperabilidade](#22-proibição-de-exigência-documental-redundante-e-interoperabilidade)
-  - [2.3 O CPF como Chave Unificada de Identificação](#23-o-cpf-como-chave-unificada-de-identificação)
-  - [2.4 A Carta de Serviços ao Usuário](#24-a-carta-de-serviços-ao-usuário)
+    - [2.1 Supressão de Custos Cartorários (Reconhecimento de Firma e Autenticação)](#21-supressão-de-custos-cartorários-reconhecimento-de-firma-e-autenticação)
+    - [2.2 Proibição de Exigência Documental Redundante e Interoperabilidade](#22-proibição-de-exigência-documental-redundante-e-interoperabilidade)
+    - [2.3 O CPF como Chave Unificada de Identificação](#23-o-cpf-como-chave-unificada-de-identificação)
+    - [2.4 A Carta de Serviços ao Usuário](#24-a-carta-de-serviços-ao-usuário)
 - [3. Gestão de Processos de Negócio (BPM)](#3-gestão-de-processos-de-negócio-bpm)
-  - [3.1 Conceito e Hierarquia Estrutural dos Processos](#31-conceito-e-hierarquia-estrutural-dos-processos)
-  - [3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento](#32-tipos-de-processos-finalísticos-de-suporte-e-de-gerenciamento)
-  - [3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE](#33-redesenho-de-processos-diagnóstico-as-is-vs-modelagem-to-be)
+    - [3.1 Conceito e Hierarquia Estrutural dos Processos](#31-conceito-e-hierarquia-estrutural-dos-processos)
+    - [3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento](#32-tipos-de-processos-finalísticos-de-suporte-e-de-gerenciamento)
+    - [3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE](#33-redesenho-de-processos-diagnóstico-as-is-vs-modelagem-to-be)
 - [4. Gestão de Projetos segundo o Guia PMBOK (PMI)](#4-gestão-de-projetos-segundo-o-guia-pmbok-pmi)
-  - [4.1 Distinção Conceitual: Projeto versus Processo](#41-distinção-conceitual-projeto-versus-processo)
-  - [4.2 Os Cinco Grupos de Processos do PMBOK](#42-os-cinco-grupos-de-processos-do-pmbok)
-  - [4.3 Instrumentos Primordiais: TAP e EAP (WBS)](#43-instrumentos-primordiais-tap-e-eap-wbs)
-  - [4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)](#44-a-restrição-tripla-clássica-escopo-custo-e-tempo)
+    - [4.1 Distinção Conceitual: Projeto versus Processo](#41-distinção-conceitual-projeto-versus-processo)
+    - [4.2 Os Cinco Grupos de Processos do PMBOK](#42-os-cinco-grupos-de-processos-do-pmbok)
+    - [4.3 Instrumentos Primordiais: TAP e EAP (WBS)](#43-instrumentos-primordiais-tap-e-eap-wbs)
+    - [4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)](#44-a-restrição-tripla-clássica-escopo-custo-e-tempo)
 - [5. Fontes Oficiais & Referências Bibliográficas](#5-fontes-oficiais--referências-bibliográficas)
 - [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
 
@@ -81,9 +81,9 @@ flowchart LR
 #### 1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)
 - **W. Edwards Deming:** Conhecido como o pai do gerenciamento moderno da qualidade. Defendeu que mais de 85% dos problemas de qualidade decorrem de falhas no sistema administrativo, e não dos trabalhadores. Formulou os 14 Princípios da Qualidade e disseminou globalmente o **Ciclo PDCA**;
 - **Joseph Juran:** Enfatizou que a qualidade deve ser gerenciada como uma função executiva de negócios. Concebeu a **Trilogia da Qualidade**:
-  1. *Planejamento da Qualidade:* Identificar quem são os clientes e desenvolver processos capazes de produzir as características exigidas;
-  2. *Controle da Qualidade:* Monitorar o desempenho real e agir quando houver desvios;
-  3. *Melhoria da Qualidade:* Conduzir projetos contínuos de aprimoramento estrutural de processos;
+    1. *Planejamento da Qualidade:* Identificar quem são os clientes e desenvolver processos capazes de produzir as características exigidas;
+    2. *Controle da Qualidade:* Monitorar o desempenho real e agir quando houver desvios;
+    3. *Melhoria da Qualidade:* Conduzir projetos contínuos de aprimoramento estrutural de processos;
 - **Kaoru Ishikawa:** Pai dos **Círculos de Controle de Qualidade (CCQ)** (grupos voluntários de funcionários que se reúnem regularmente para debater e resolver falhas de rotina). Criou o célebre **Diagrama de Causa e Efeito (Diagrama Espinha de Peixe / Diagrama de Ishikawa)**, que organiza as causas de um problema nos tradicionais **6Ms**: Método, Matéria-prima, Mão de obra, Máquinas/Tecnologia, Medição e Meio ambiente;
 - **Philip Crosby:** Criador do conceito de **"Zero Defeito"** (*Zero Defects*). Defendeu que a qualidade significa estrita "conformidade com os requisitos", afirmando que "a qualidade é de graça" (*Quality is Free*), pois os custos de fazer certo da primeira vez são infinitamente menores do que os custos do retrabalho e do desperdício.
 
@@ -103,13 +103,13 @@ flowchart TD
 ```
 
 - **As Sete Ferramentas Clássicas da Qualidade:**
-  1. *Fluxograma:* Representação gráfica sequencial do fluxo de etapas de um processo;
-  2. *Diagrama de Ishikawa:* Identificação visual e estruturada das causas raízes de um defeito;
-  3. *Folha de Verificação:* Formulário padronizado para coleta metódica de dados operacionais;
-  4. *Diagrama de Pareto:* Gráfico de barras ordenado decrescente associado a uma curva cumulativa baseado no **Princípio 80/20** ("80% dos problemas decorrem de 20% das causas vitais");
-  5. *Histograma:* Gráfico de barras que ilustra a distribuição de frequência de dados quantitativos;
-  6. *Gráfico de Dispersão:* Avaliação gráfica da correlação estatística entre duas variáveis;
-  7. *Cartas de Controle:* Gráficos temporais com limites superior e inferior de controle para verificar a estabilidade do processo.
+    1. *Fluxograma:* Representação gráfica sequencial do fluxo de etapas de um processo;
+    2. *Diagrama de Ishikawa:* Identificação visual e estruturada das causas raízes de um defeito;
+    3. *Folha de Verificação:* Formulário padronizado para coleta metódica de dados operacionais;
+    4. *Diagrama de Pareto:* Gráfico de barras ordenado decrescente associado a uma curva cumulativa baseado no **Princípio 80/20** ("80% dos problemas decorrem de 20% das causas vitais");
+    5. *Histograma:* Gráfico de barras que ilustra a distribuição de frequência de dados quantitativos;
+    6. *Gráfico de Dispersão:* Avaliação gráfica da correlação estatística entre duas variáveis;
+    7. *Cartas de Controle:* Gráficos temporais com limites superior e inferior de controle para verificar a estabilidade do processo.
 
 #### 1.4 Modelos de Excelência: MEG / FNQ e o GesPública
 - **Modelo de Excelência da Gestão (MEG / Fundação Nacional da Qualidade):** Baseado na visão sistêmica e em fundamentos de gestão contemporâneos (liderança transformadora, foco no cidadão, orientação para resultados, governança e responsabilidade socioambiental);
@@ -145,6 +145,7 @@ Conforme as alterações trazidas pelo Decreto nº 9.723/2019 e Lei nº 14.534/2
 
 #### 2.4 A Carta de Serviços ao Usuário
 A Carta de Serviços ao Usuário é um instrumento de governança e transparência de publicação compulsória nos portais oficiais na internet e em local visível nas repartições públicas. Deve detalhar:
+
 - Os serviços públicos oferecidos pelo órgão e as formas de acesso;
 - Requisitos, documentos e informações necessários para cada serviço;
 - Prazos máximos para a conclusão e entrega de cada etapa;
@@ -175,14 +176,14 @@ flowchart TD
 
 #### 3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento
 1. **Processos Finalísticos (Primários ou de Ponta a Ponta):**
-   - Diretamente relacionados ao cumprimento da **missão essencial** do órgão e à entrega direta de valor público ao cidadão ou usuário externo;
-   - *Exemplos:* Emissão de certidões, realização de cirurgias no SUS, fiscalização de contas de prefeituras pelo TCE-GO;
+    - Diretamente relacionados ao cumprimento da **missão essencial** do órgão e à entrega direta de valor público ao cidadão ou usuário externo;
+    - *Exemplos:* Emissão de certidões, realização de cirurgias no SUS, fiscalização de contas de prefeituras pelo TCE-GO;
 2. **Processos de Suporte (Secundários ou de Apoio):**
-   - Garantem a infraestrutura material, tecnológica e humana indispensável para que os processos finalísticos ocorram com sucesso, atendendo a clientes internos;
-   - *Exemplos:* Gestão da folha de pagamento, contratação de serviços de vigilância e limpeza, suporte de TI e manutenção de viaturas;
+    - Garantem a infraestrutura material, tecnológica e humana indispensável para que os processos finalísticos ocorram com sucesso, atendendo a clientes internos;
+    - *Exemplos:* Gestão da folha de pagamento, contratação de serviços de vigilância e limpeza, suporte de TI e manutenção de viaturas;
 3. **Processos de Gerenciamento (Gestão):**
-   - Asseguram a governança corporativa, o direcionamento estratégico, a medição contínua e a gestão de riscos e integridade da instituição;
-   - *Exemplos:* Formulação do plano estratégico institucional, auditoria interna de controle, comitês de governança.
+    - Asseguram a governança corporativa, o direcionamento estratégico, a medição contínua e a gestão de riscos e integridade da instituição;
+    - *Exemplos:* Formulação do plano estratégico institucional, auditoria interna de controle, comitês de governança.
 
 #### 3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE
 
@@ -244,15 +245,15 @@ A alteração em qualquer um desses vértices impacta compulsoriamente os outros
 ## 🌐 Fontes Oficiais & Referências Bibliográficas
 
 - [Decreto Federal nº 9.094/2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9094.htm)
-  - Simplificação do atendimento público, dispensa de ritos notariais e Carta de Serviços ao Usuário.
+    - Simplificação do atendimento público, dispensa de ritos notariais e Carta de Serviços ao Usuário.
 - [Lei Federal nº 13.726/2018 (Lei da Desburocratização)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13726.htm)
-  - Racionalização de atos administrativos e eliminação de formalidades desnecessárias.
+    - Racionalização de atos administrativos e eliminação de formalidades desnecessárias.
 - [Associação dos Profissionais de BPM (ABPMP) - Guia para o Gerenciamento de Processos de Negócio (BPM CBOK v4.0)](https://www.abpmp-br.org/)
-  - Ciclo de vida de processos, modelagem AS-IS/TO-BE e hierarquia processual.
+    - Ciclo de vida de processos, modelagem AS-IS/TO-BE e hierarquia processual.
 - [Project Management Institute (PMI) - Guia PMBOK (7ª Edição)](https://www.pmi.org)
-  - Padrões globais de gerenciamento de projetos, Termo de Abertura e EAP.
+    - Padrões globais de gerenciamento de projetos, Termo de Abertura e EAP.
 - [Fundação Nacional da Qualidade (FNQ) - Cadernos MEG (Modelo de Excelência da Gestão)](https://fnq.org.br)
-  - Conceitos de qualidade total, liderança transformadora e melhoria contínua.
+    - Conceitos de qualidade total, liderança transformadora e melhoria contínua.
 
 ---
 
@@ -261,11 +262,11 @@ A alteração em qualquer um desses vértices impacta compulsoriamente os outros
 ### Questão 1 (FCC – TCE-PI – Auditor de Controle Externo)
 Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para requerer certidão de regularidade funcional, apresentando cópia simples de sua cédula de identidade acompanhada do documento original. O atendente público recusou o recebimento da documentação, exigindo que o requerente providenciasse prévia autenticação da cópia e reconhecimento de firma em cartório de notas. Considerando o disposto no Decreto Federal nº 9.094/2017 e na legislação correlata sobre simplificação de serviços públicos:
 
-A) A conduta do atendente foi correta, pois a fé pública de documentos apresentados ao Estado depende de reconhecimento notarial.  
-B) A conduta do atendente foi indevida, pois é vedada a exigência de reconhecimento de firma e de cópia autenticada, cabendo ao próprio servidor público atestar a autenticidade mediante cotejo da cópia com o original apresentado.  
-C) O atendente agiu com respaldo legal, desde que o prazo de validade da cédula de identidade apresentada pelo cidadão tenha expirado há mais de cinco anos.  
-D) O atendimento só poderia ser recusado se o cidadão não comprovasse residência fixa no Estado por meio de certidão cartorária.  
-E) A dispensa de autenticação cartorária somente se aplica a pessoas jurídicas sem fins lucrativos qualificadas como organizações sociais.  
+* **A)** A conduta do atendente foi correta, pois a fé pública de documentos apresentados ao Estado depende de reconhecimento notarial.
+* **B)** A conduta do atendente foi indevida, pois é vedada a exigência de reconhecimento de firma e de cópia autenticada, cabendo ao próprio servidor público atestar a autenticidade mediante cotejo da cópia com o original apresentado.
+* **C)** O atendente agiu com respaldo legal, desde que o prazo de validade da cédula de identidade apresentada pelo cidadão tenha expirado há mais de cinco anos.
+* **D)** O atendimento só poderia ser recusado se o cidadão não comprovasse residência fixa no Estado por meio de certidão cartorária.
+* **E)** A dispensa de autenticação cartorária somente se aplica a pessoas jurídicas sem fins lucrativos qualificadas como organizações sociais.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O Decreto nº 9.094/2017 e a Lei Federal nº 13.726/2018 proíbem a transferência de custos e formalidades cartorárias ao cidadão quando o documento original é exibido ao agente público.
@@ -281,11 +282,11 @@ E) A dispensa de autenticação cartorária somente se aplica a pessoas jurídic
 ### Questão 2 (FCC – TCE-RS – Auditor de Controle Externo)
 No âmbito da gestão estratégica e da teoria das organizações, a respeito das distinções essenciais entre a gestão de processos de negócio e a gestão de projetos:
 
-A) Os projetos caracterizam-se por sua natureza contínua e repetitiva, destinando-se a manter estabilizadas as operações de rotina da organização.  
-B) A modelagem de processos denominada AS-IS refere-se ao desenho ideal do fluxo futuro após a eliminação de redundâncias e automação tecnológica.  
-C) O projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto os processos representam fluxos de trabalho permanentes e padronizados.  
-D) A Estrutura Analítica do Projeto (EAP) consiste em um gráfico de barras cronológico destinado a mensurar os custos diários incorridos pela equipe.  
-E) Os processos primários ou finalísticos de um órgão público são aqueles voltados exclusivamente para dar suporte administrativo às áreas de informática e compras.  
+* **A)** Os projetos caracterizam-se por sua natureza contínua e repetitiva, destinando-se a manter estabilizadas as operações de rotina da organização.
+* **B)** A modelagem de processos denominada AS-IS refere-se ao desenho ideal do fluxo futuro após a eliminação de redundâncias e automação tecnológica.
+* **C)** O projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto os processos representam fluxos de trabalho permanentes e padronizados.
+* **D)** A Estrutura Analítica do Projeto (EAP) consiste em um gráfico de barras cronológico destinado a mensurar os custos diários incorridos pela equipe.
+* **E)** Os processos primários ou finalísticos de um órgão público são aqueles voltados exclusivamente para dar suporte administrativo às áreas de informática e compras.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A perenidade, continuidade e repetitividade são traços definidores dos processos de rotina operacional, e não dos projetos.
@@ -301,11 +302,11 @@ E) Os processos primários ou finalísticos de um órgão público são aqueles 
 ### Questão 3 (FCC – DPE-RS – Analista: Área Administrativa)
 Determinada equipe de modernização administrativa do Tribunal de Contas recebeu a incumbência de identificar as causas fundamentais dos atrasos reiterados na instrução processual de tomadas de contas especiais. Para estruturar a análise, os analistas utilizaram uma ferramenta visual que categoriza as causas potenciais em fatores como procedimentos e rotinas (Método), capacitação dos auditores (Mão de obra), sistemas informatizados utilizados (Máquinas/Tecnologia) e insumos documentais recebidos dos jurisdicionados (Matéria-prima). A ferramenta descrita é o:
 
-A) Diagrama de Ishikawa (Espinha de Peixe).  
-B) Gráfico de Pareto baseado na regra 80/20.  
-C) Ciclo PDCA na etapa de Checagem.  
-D) Histograma de frequências acumuladas.  
-E) Gráfico de dispersão linear de Pearson.  
+* **A)** Diagrama de Ishikawa (Espinha de Peixe).
+* **B)** Gráfico de Pareto baseado na regra 80/20.
+* **C)** Ciclo PDCA na etapa de Checagem.
+* **D)** Histograma de frequências acumuladas.
+* **E)** Gráfico de dispersão linear de Pearson.
 
 > **Comentário Detalhado:**
 > - **A)** Correta. O Diagrama de Causa e Efeito (Diagrama de Ishikawa ou Espinha de Peixe) é o instrumento clássico da qualidade estruturado para rastrear e categorizar as causas raízes de um problema operacional, dividindo-as tradicionalmente nos 6Ms (Método, Mão de obra, Máquina, Matéria-prima, Medição e Meio ambiente).
@@ -321,11 +322,11 @@ E) Gráfico de dispersão linear de Pearson.
 ### Questão 4 (FCC – ARTESP – Especialista em Regulação de Transportes)
 Em relação ao gerenciamento de projetos estruturado segundo as boas práticas do guia PMBOK (Project Management Institute), assinale a opção correta:
 
-A) O Termo de Abertura do Projeto (TAP) é emitido após o término da execução física para consolidar as lições aprendidas pela equipe.  
-B) A Estrutura Analítica do Projeto (EAP) tem por objetivo decompor hierarquicamente o trabalho total do projeto em partes menores e gerenciáveis orientadas a entregas.  
-C) O grupo de processos de encerramento do projeto dispensa a aceitação formal das entregas pelo cliente quando o cronograma for cumprido no prazo previsto.  
-D) A restrição tripla do gerenciamento de projetos é composta exclusivamente por variáveis comportamentais: motivação, liderança e clima institucional.  
-E) O gerente de projeto adquire autoridade formal para aplicar recursos da organização apenas no momento em que a equipe conclui a fase de encerramento contratual.  
+* **A)** O Termo de Abertura do Projeto (TAP) é emitido após o término da execução física para consolidar as lições aprendidas pela equipe.
+* **B)** A Estrutura Analítica do Projeto (EAP) tem por objetivo decompor hierarquicamente o trabalho total do projeto em partes menores e gerenciáveis orientadas a entregas.
+* **C)** O grupo de processos de encerramento do projeto dispensa a aceitação formal das entregas pelo cliente quando o cronograma for cumprido no prazo previsto.
+* **D)** A restrição tripla do gerenciamento de projetos é composta exclusivamente por variáveis comportamentais: motivação, liderança e clima institucional.
+* **E)** O gerente de projeto adquire autoridade formal para aplicar recursos da organização apenas no momento em que a equipe conclui a fase de encerramento contratual.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O Termo de Abertura do Projeto (TAP) é emitido no grupo de Iniciação, inaugurando formalmente o projeto.
@@ -341,11 +342,11 @@ E) O gerente de projeto adquire autoridade formal para aplicar recursos da organ
 ### Questão 5 (FCC – SEFAZ-SC – Auditor Fiscal da Receita Estadual)
 No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Business Process Management), os processos organizacionais são classificados em finalísticos, de suporte e de gerenciamento. Assinale a alternativa que apresenta um exemplo legítimo de processo de suporte (secundário) em uma organização pública:
 
-A) Realização de fiscalização tributária e lançamento de ofício do crédito tributário estadual.  
-B) Concessão de aposentadorias e pensões aos servidores vinculados ao regime próprio de previdência.  
-C) Gestão de compras e contratação de serviços de vigilância e limpeza para as dependências do prédio sede.  
-D) Julgamento de autos de infração fiscal pelo Tribunal Administrativo Tributário.  
-E) Auditoria de regularidade das despesas públicas municipais efetuada pelo Tribunal de Contas.  
+* **A)** Realização de fiscalização tributária e lançamento de ofício do crédito tributário estadual.
+* **B)** Concessão de aposentadorias e pensões aos servidores vinculados ao regime próprio de previdência.
+* **C)** Gestão de compras e contratação de serviços de vigilância e limpeza para as dependências do prédio sede.
+* **D)** Julgamento de autos de infração fiscal pelo Tribunal Administrativo Tributário.
+* **E)** Auditoria de regularidade das despesas públicas municipais efetuada pelo Tribunal de Contas.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A fiscalização e o lançamento de tributos constituem a atividade-fim essencial da Secretaria da Fazenda, qualificando-se como processo finalístico (primário).

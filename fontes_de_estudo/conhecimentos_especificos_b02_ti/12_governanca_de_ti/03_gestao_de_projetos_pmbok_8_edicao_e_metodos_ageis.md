@@ -20,18 +20,18 @@
 
 ## 🧭 Sumário
 - [1. Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI](#1-fundamentos-de-gestão-de-projetos-e-mudança-de-paradigma-do-pmi)
-  - [1.1 Conceito de Projeto vs. Operação](#11-conceito-de-projeto-vs-operação)
-  - [1.2 Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#12-hierarquia-pmi-projetos-programas-e-portfólios-de-tic)
-  - [1.3 O Sistema de Entrega de Valor (System for Value Delivery)](#13-o-sistema-de-entrega-de-valor-system-for-value-delivery)
+    - [1.1 Conceito de Projeto vs. Operação](#11-conceito-de-projeto-vs-operação)
+    - [1.2 Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#12-hierarquia-pmi-projetos-programas-e-portfólios-de-tic)
+    - [1.3 O Sistema de Entrega de Valor (System for Value Delivery)](#13-o-sistema-de-entrega-de-valor-system-for-value-delivery)
 - [2. Os 12 Princípios de Entrega de Projetos](#2-os-12-princípios-de-entrega-de-projetos)
 - [3. Os 8 Domínios de Desempenho do Projeto](#3-os-8-domínios-de-desempenho-do-projeto)
 - [4. Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)](#4-ciclos-de-vida-métodos-ágeis-abordagens-híbridas-e-adaptação-tailoring)
-  - [4.1 Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)](#41-comparativo-dos-ciclos-de-vida-preditivo-a-adaptativo)
-  - [4.2 Abordagens Híbridas na Administração Pública](#42-abordagens-híbridas-na-administração-pública)
-  - [4.3 Adaptação Contextual (Tailoring)](#43-adaptação-contextual-tailoring)
+    - [4.1 Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)](#41-comparativo-dos-ciclos-de-vida-preditivo-a-adaptativo)
+    - [4.2 Abordagens Híbridas na Administração Pública](#42-abordagens-híbridas-na-administração-pública)
+    - [4.3 Adaptação Contextual (Tailoring)](#43-adaptação-contextual-tailoring)
 - [5. Análise de Valor Agregado (EVM / EVA)](#5-análise-de-valor-agregado-evm--eva)
-  - [5.1 Variáveis Fundamentais (VP, CR e VA)](#51-variáveis-fundamentais-vp-cr-e-va)
-  - [5.2 Variações e Índices de Desempenho (IDP e IDC)](#52-variações-e-índices-de-desempenho-idp-e-idc)
+    - [5.1 Variáveis Fundamentais (VP, CR e VA)](#51-variáveis-fundamentais-vp-cr-e-va)
+    - [5.2 Variações e Índices de Desempenho (IDP e IDC)](#52-variações-e-índices-de-desempenho-idp-e-idc)
 - [6. Gestão de Portfólio de TI e Governança de Programas](#6-gestão-de-portfólio-de-ti-e-governança-de-programas)
 - [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
 - [8. Questões Comentadas no Padrão FCC](#8-questões-comentadas-no-padrão-fcc)
@@ -49,8 +49,8 @@ Segundo a padronização do Project Management Institute (PMI), um **Projeto** �
 - **Temporário:** Possui marco temporal de início e término definidos. O fim é alcançado quando os objetivos foram integralmente atingidos, ou quando o projeto é cancelado por inviabilidade técnica, orçamentária ou perda de alinhamento estratégico.
 - **Exclusivo (Único):** O resultado final (sistema desenvolvido, data center modernizado) difere substancialmente de qualquer outro trabalho previamente executado.
 - **Projeto versus Operação Contínua:**
-  - *Projetos:* Geram mudanças, criam ativos novos, possuem equipes multidisciplinares temporárias e encerram-se ao concluir a entrega.
-  - *Operações:* Sustentam o negócio existente, repetem processos padronizados contínuos (atendimento de chamados, manutenção de infraestrutura, rotinas de backup) e não têm data prevista para término.
+    - *Projetos:* Geram mudanças, criam ativos novos, possuem equipes multidisciplinares temporárias e encerram-se ao concluir a entrega.
+    - *Operações:* Sustentam o negócio existente, repetem processos padronizados contínuos (atendimento de chamados, manutenção de infraestrutura, rotinas de backup) e não têm data prevista para término.
 
 ---
 
@@ -87,6 +87,7 @@ flowchart TD
 A partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos).
 
 A gestão de projetos passou a ser compreendida dentro de um **Sistema de Entrega de Valor**, no qual o foco se desloca dos meros "entregáveis" (*deliverables* físicos) para os **resultados e valor de negócio gerados** (*outcomes and business value*). Esse sistema é composto por:
+
 - Governança organizacional e estratégica;
 - Funções de gestão de projetos (liderança servidora, facilitação e remoção de barreiras);
 - Ambiente interno (cultura, maturidade, recursos) e externo (legislação, avanços tecnológicos);
@@ -185,6 +186,7 @@ flowchart TD
 ### 4.3 Adaptação Contextual (Tailoring)
 
 O princípio do **Tailoring** dita que não existe uma metodologia universal. Cada projeto exige adaptações deliberadas nos processos de gestão:
+
 - *Porte do projeto:* Projetos de pequeno porte dispensam comitês pesados e documentação excessiva.
 - *Criticidade e Risco:* Sistemas centrais de controle fiscal exigem maior rigor formal e testes automatizados mais densos do que protótipos internos.
 - *Cultura Organizacional:* Adequação dos ritos à maturidade do órgão e dos servidores envolvidos.
@@ -208,28 +210,28 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 #### Variações Absolutas
 - **Variação de Prazos ($VPr$ ou $SV$):**
   $$VPr = VA - VP$$
-  - $VPr > 0$: Projeto adiantado.
-  - $VPr = 0$: Projeto rigorosamente no cronograma.
-  - $VPr < 0$: Projeto atrasado.
+    - $VPr > 0$: Projeto adiantado.
+    - $VPr = 0$: Projeto rigorosamente no cronograma.
+    - $VPr < 0$: Projeto atrasado.
 
 - **Variação de Custos ($VC$ ou $CV$):**
   $$VC = VA - CR$$
-  - $VC > 0$: Abaixo do orçamento (economia de recursos).
-  - $VC = 0$: Exatamente no orçamento planejado.
-  - $VC < 0$: Acima do orçamento (estouro financeiro).
+    - $VC > 0$: Abaixo do orçamento (economia de recursos).
+    - $VC = 0$: Exatamente no orçamento planejado.
+    - $VC < 0$: Acima do orçamento (estouro financeiro).
 
 #### Índices de Desempenho Relativo
 - **Índice de Desempenho de Prazos ($IDP$ ou $SPI$):**
   $$IDP = \frac{VA}{VP}$$
-  - $IDP > 1$: Eficiência de cronograma superior ao previsto (adiantado).
-  - $IDP = 1$: No ritmo do cronograma previsto.
-  - $IDP < 1$: Eficiência de cronograma inferior ao previsto (atrasado).
+    - $IDP > 1$: Eficiência de cronograma superior ao previsto (adiantado).
+    - $IDP = 1$: No ritmo do cronograma previsto.
+    - $IDP < 1$: Eficiência de cronograma inferior ao previsto (atrasado).
 
 - **Índice de Desempenho de Custos ($IDC$ ou $CPI$):**
   $$IDC = \frac{VA}{CR}$$
-  - $IDC > 1$: Eficiência de custos favorável (gastando menos para cada unidade de entrega).
-  - $IDC = 1$: Gastando rigorosamente o orçado.
-  - $IDC < 1$: Eficiência desfavorável (gastando mais para entregar o trabalho).
+    - $IDC > 1$: Eficiência de custos favorável (gastando menos para cada unidade de entrega).
+    - $IDC = 1$: Gastando rigorosamente o orçado.
+    - $IDC < 1$: Eficiência desfavorável (gastando mais para entregar o trabalho).
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca FCC adora inverter os numeradores e denominadores para induzir ao erro. Grave a regra mnemônica: **O Valor Agregado ($VA$) SEMPRE fica no numerador nas fórmulas dos índices de desempenho** ($IDP = VA / VP$ e $IDC = VA / CR$).
@@ -248,6 +250,7 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 ## 6. Gestão de Portfólio de TI e Governança de Programas
 
 A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribunal à seleção e execução das iniciativas tecnológicas:
+
 - **Comitê de Governança Digital / Comitê de TI:** Órgão colegiado que avalia propostas de novos projetos e programas, priorizando-os de acordo com o impacto fiscal e institucional.
 - **Modelos de Pontuação (*Scoring Models*):** Critérios ponderados de priorização (ex.: retorno social, urgência regulatória, complexidade técnica, custo estimado e matriz de riscos).
 - **Balanceamento do Portfólio:** Equilíbrio equilibrado entre projetos de alta inovação (IA para auditoria), modernização de infraestrutura (migração para nuvem) e sustentação de sistemas legados essenciais.
@@ -257,14 +260,14 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 ## 7. Fontes Recomendadas na Internet
 
 - [x] **Project Management Institute (PMI) - PMBOK Guide & Standards:**
-  - Link Oficial: [PMI Standards and PMBOK Guide Overview](https://www.pmi.org/pmbok-guide-standards)
-  - *Conteúdo:* Os 12 Princípios de Entrega de Projetos, os 8 Domínios de Desempenho do Projeto e o Sistema de Entrega de Valor.
+    - Link Oficial: [PMI Standards and PMBOK Guide Overview](https://www.pmi.org/pmbok-guide-standards)
+    - *Conteúdo:* Os 12 Princípios de Entrega de Projetos, os 8 Domínios de Desempenho do Projeto e o Sistema de Entrega de Valor.
 - [x] **PMI Practice Standards - Earned Value Management (EVM) Basics:**
-  - Link Oficial: [PMI Learning Library - Fundamentos de EVM](https://www.pmi.org/learning/library/earned-value-management-basics-7320)
-  - *Conteúdo:* Fórmulas e aplicação prática de Valor Planejado (VP), Custo Real (CR), Valor Agregado (VA), Índice de Desempenho de Prazos (IDP/SPI) e Custos (IDC/CPI).
+    - Link Oficial: [PMI Learning Library - Fundamentos de EVM](https://www.pmi.org/learning/library/earned-value-management-basics-7320)
+    - *Conteúdo:* Fórmulas e aplicação prática de Valor Planejado (VP), Custo Real (CR), Valor Agregado (VA), Índice de Desempenho de Prazos (IDP/SPI) e Custos (IDC/CPI).
 - [x] **PMI Agile Practice Guide & Tailoring Guide:**
-  - Link Oficial: [PMI Agile and Hybrid Approaches](https://www.pmi.org/pmbok-guide-standards/agile)
-  - *Conteúdo:* Diretrizes para combinação de ciclos de vida preditivos e adaptativos, liderança servidora e adaptação contextual (*tailoring*).
+    - Link Oficial: [PMI Agile and Hybrid Approaches](https://www.pmi.org/pmbok-guide-standards/agile)
+    - *Conteúdo:* Diretrizes para combinação de ciclos de vida preditivos e adaptativos, liderança servidora e adaptação contextual (*tailoring*).
 
 ---
 
@@ -272,15 +275,17 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 
 ### Questão 1 (FCC - Analista de TI / Gestão de Projetos - Adaptada)
 **Enunciado:** Em uma auditoria de acompanhamento de um projeto estratégico de desenvolvimento de software em um Tribunal de Contas, o fiscal técnico de TI apurou os seguintes valores na Análise de Valor Agregado (EVM) ao término do quinto mês:  
+
 - Valor Planejado (VP): R$ 400.000,00  
 - Valor Agregado (VA): R$ 320.000,00  
 - Custo Real (CR): R$ 300.000,00  
 Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e do Índice de Desempenho de Custos (IDC) demonstram que o projeto está:  
-A) Adiantado no cronograma (IDP = 1,25) e gastando mais que o previsto (IDC = 0,75).  
-B) Atrasado no cronograma (IDP = 0,80) e com desempenho de custos favorável, abaixo do orçamento para o trabalho executado (IDC = 1,067).  
-C) Rigorosamente no prazo (IDP = 1,00) e com equilíbrio fiscal absoluto (IDC = 1,00).  
-D) Atrasado no cronograma (IDP = 0,80) e com prejuízo financeiro grave, estourando os custos orçados (IDC = 0,937).  
-E) Adiantado no cronograma (IDP = 1,33) e com custos favoráveis (IDC = 1,20).  
+
+* **A)** Adiantado no cronograma (IDP = 1,25) e gastando mais que o previsto (IDC = 0,75).
+* **B)** Atrasado no cronograma (IDP = 0,80) e com desempenho de custos favorável, abaixo do orçamento para o trabalho executado (IDC = 1,067).
+* **C)** Rigorosamente no prazo (IDP = 1,00) e com equilíbrio fiscal absoluto (IDC = 1,00).
+* **D)** Atrasado no cronograma (IDP = 0,80) e com prejuízo financeiro grave, estourando os custos orçados (IDC = 0,937).
+* **E)** Adiantado no cronograma (IDP = 1,33) e com custos favoráveis (IDC = 1,20).
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Inverteu os valores dividindo $VP$ por $VA$ para calcular o IDP.
@@ -295,11 +300,12 @@ E) Adiantado no cronograma (IDP = 1,33) e com custos favoráveis (IDC = 1,20).
 
 ### Questão 2 (FCC - Técnico de Controle Externo / TI - Adaptada)
 **Enunciado:** A respeito da estrutura de governança de projetos, programas e portfólios preconizada pelas boas práticas do Project Management Institute (PMI), assinale a afirmativa correta:  
-A) Um portfólio consiste exclusivamente em um conjunto de projetos que possuem dependências técnicas operacionais obrigatórias e sequenciais entre si.  
-B) O programa é caracterizado por um grupo de projetos relacionados, subsidiários e atividades correlatas gerenciados de forma coordenada para obter benefícios que não estariam disponíveis se fossem gerenciados individualmente.  
-C) Um projeto é uma iniciativa permanente da organização que visa executar rotinas padronizadas e contínuas para manutenção do suporte de TI.  
-D) O gerenciamento de portfólio foca exclusivamente no acompanhamento da velocidade diária de codificação dos desenvolvedores de sistemas.  
-E) A gestão de programas visa substituir os órgãos colegiados e a alta administração do Tribunal de Contas nas deliberações de planejamento estratégico.  
+
+* **A)** Um portfólio consiste exclusivamente em um conjunto de projetos que possuem dependências técnicas operacionais obrigatórias e sequenciais entre si.
+* **B)** O programa é caracterizado por um grupo de projetos relacionados, subsidiários e atividades correlatas gerenciados de forma coordenada para obter benefícios que não estariam disponíveis se fossem gerenciados individualmente.
+* **C)** Um projeto é uma iniciativa permanente da organização que visa executar rotinas padronizadas e contínuas para manutenção do suporte de TI.
+* **D)** O gerenciamento de portfólio foca exclusivamente no acompanhamento da velocidade diária de codificação dos desenvolvedores de sistemas.
+* **E)** A gestão de programas visa substituir os órgãos colegiados e a alta administração do Tribunal de Contas nas deliberações de planejamento estratégico.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Os projetos e programas agrupados em um portfólio não necessitam de dependências técnicas mútuas; seu elo reside no alinhamento aos mesmos objetivos estratégicos corporativos.
@@ -314,11 +320,12 @@ E) A gestão de programas visa substituir os órgãos colegiados e a alta admini
 
 ### Questão 3 (FCC - Analista de TI / Sistemas - Adaptada)
 **Enunciado:** O padrão de gestão de projetos moderno do Guia PMBOK abandonou a estrutura estritamente processual e prescritiva, adotando uma abordagem holística estruturada em 12 Princípios de Entrega de Projetos e 8 Domínios de Desempenho. O princípio que estabelece a necessidade deliberada de ajustar e personalizar a governança, os métodos, as ferramentas e a quantidade de documentação de acordo com as características específicas, o porte e o nível de incerteza de cada projeto denomina-se:  
-A) Stewardship (Administração Diligente).  
-B) Systems Thinking (Pensamento Sistêmico).  
-C) Tailoring (Adaptação Contextual).  
-D) Quality (Incorporação de Qualidade).  
-E) Complexity (Navegação na Complexidade).  
+
+* **A)** Stewardship (Administração Diligente).
+* **B)** Systems Thinking (Pensamento Sistêmico).
+* **C)** Tailoring (Adaptação Contextual).
+* **D)** Quality (Incorporação de Qualidade).
+* **E)** Complexity (Navegação na Complexidade).
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. *Stewardship* trata do zelo ético, integridade, honestidade e responsabilidade socioambiental na condução do projeto.
@@ -333,11 +340,12 @@ E) Complexity (Navegação na Complexidade).
 
 ### Questão 4 (FCC - Auditor Federal de Controle Externo / TI - Adaptada)
 **Enunciado:** No âmbito do Domínio de Desempenho da Abordagem de Desenvolvimento e Ciclo de Vida do PMBOK, a escolha do ciclo de vida adequado para um projeto de TI deve equilibrar previsibilidade e agilidade. Ao planejar o desenvolvimento de um grande sistema previdenciário público, a equipe optou por fixar o escopo macro, o limite orçamentário e os marcos regulatórios de conformidade em um plano formal inicial, enquanto os módulos de software são implementados e homologados em sprints quinzenais por times ágeis. Essa configuração caracteriza uma abordagem:  
-A) Preditiva pura (Cascata).  
-B) Híbrida.  
-C) Caótica descontrolada.  
-D) Exclusivamente iterativa sem entregas funcionais.  
-E) Estritamente linear sem feedback.  
+
+* **A)** Preditiva pura (Cascata).
+* **B)** Híbrida.
+* **C)** Caótica descontrolada.
+* **D)** Exclusivamente iterativa sem entregas funcionais.
+* **E)** Estritamente linear sem feedback.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Na abordagem preditiva pura (cascata), todas as etapas são sequenciais e a entrega é única ao final de todo o ciclo, sem sprints quinzenais nem entregas iterativas funcionais.
@@ -352,11 +360,12 @@ E) Estritamente linear sem feedback.
 
 ### Questão 5 (FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)
 **Enunciado:** O Guia PMBOK define os 8 Domínios de Desempenho do Projeto (*Project Performance Domains*). O domínio que trata de atividades como o gerenciamento do fluxo de trabalho físico e digital, a alocação eficiente de recursos materiais, a remoção de impedimentos e o gerenciamento contínuo das aquisições e contratos durante o ciclo diário do projeto denomina-se:  
-A) Domínio das Partes Interessadas (*Stakeholders*).  
-B) Domínio da Entrega (*Delivery*).  
-C) Domínio do Trabalho do Projeto (*Project Work*).  
-D) Domínio da Medição (*Measurement*).  
-E) Domínio da Incerteza (*Uncertainty*).  
+
+* **A)** Domínio das Partes Interessadas (*Stakeholders*).
+* **B)** Domínio da Entrega (*Delivery*).
+* **C)** Domínio do Trabalho do Projeto (*Project Work*).
+* **D)** Domínio da Medição (*Measurement*).
+* **E)** Domínio da Incerteza (*Uncertainty*).
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O domínio de Stakeholders trata de mapear, engajar e comunicar-se com os indivíduos e grupos impactados pelo projeto.

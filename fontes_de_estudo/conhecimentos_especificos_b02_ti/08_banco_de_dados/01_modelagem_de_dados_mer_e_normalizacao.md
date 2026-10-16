@@ -17,24 +17,24 @@
 
 ## 🧭 Sumário
 - [1. As Três Fases do Projeto de Banco de Dados](#1-as-três-fases-do-projeto-de-banco-de-dados)
-  - [1.1 Modelo Conceitual: Semântica e Independência de Tecnologia](#11-modelo-conceitual-semântica-e-independência-de-tecnologia)
-  - [1.2 Modelo Lógico: Dependência do Paradigma Relacional](#12-modelo-lógico-dependência-do-paradigma-relacional)
-  - [1.3 Modelo Físico: Implementação e Otimização no SGBD](#13-modelo-físico-implementação-e-otimização-no-sgbd)
-  - [1.4 Tabela Comparativa dos Níveis de Abstração](#14-tabela-comparativa-dos-níveis-de-abstração)
+    - [1.1 Modelo Conceitual: Semântica e Independência de Tecnologia](#11-modelo-conceitual-semântica-e-independência-de-tecnologia)
+    - [1.2 Modelo Lógico: Dependência do Paradigma Relacional](#12-modelo-lógico-dependência-do-paradigma-relacional)
+    - [1.3 Modelo Físico: Implementação e Otimização no SGBD](#13-modelo-físico-implementação-e-otimização-no-sgbd)
+    - [1.4 Tabela Comparativa dos Níveis de Abstração](#14-tabela-comparativa-dos-níveis-de-abstração)
 - [2. Modelo Entidade-Relacionamento (MER / DER de Peter Chen)](#2-modelo-entidade-relacionamento-mer--der-de-peter-chen)
-  - [2.1 Entidades Fortes (Regulares) vs. Entidades Fracas](#21-entidades-fortes-regulares-vs-entidades-fracas)
-  - [2.2 Tipologia e Representação Gráfica dos Atributos](#22-tipologia-e-representação-gráfica-dos-atributos)
-  - [2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)](#23-relacionamentos-cardinalidade-e-participação-total-vs-parcial)
+    - [2.1 Entidades Fortes (Regulares) vs. Entidades Fracas](#21-entidades-fortes-regulares-vs-entidades-fracas)
+    - [2.2 Tipologia e Representação Gráfica dos Atributos](#22-tipologia-e-representação-gráfica-dos-atributos)
+    - [2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)](#23-relacionamentos-cardinalidade-e-participação-total-vs-parcial)
 - [3. Álgebra Relacional: Operações Formais e Consultas](#3-álgebra-relacional-operações-formais-e-consultas)
-  - [3.1 As Seis Operações Fundamentais (Seleção, Projeção, Produto Cartesiano, União, Diferença e Renomeação)](#31-as-seis-operações-fundamentais-seleção-projeção-produto-cartesiano-união-diferença-e-renomeação)
-  - [3.2 Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional](#32-operações-derivadas-junção-natural-theta-join-equijunção-interseção-e-divisão-relacional)
+    - [3.1 As Seis Operações Fundamentais (Seleção, Projeção, Produto Cartesiano, União, Diferença e Renomeação)](#31-as-seis-operações-fundamentais-seleção-projeção-produto-cartesiano-união-diferença-e-renomeação)
+    - [3.2 Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional](#32-operações-derivadas-junção-natural-theta-join-equijunção-interseção-e-divisão-relacional)
 - [4. Teoria da Normalização e Formas Normais (Codd)](#4-teoria-da-normalização-e-formas-normais-codd)
-  - [4.1 Dependências Funcionais: Total, Parcial e Transitiva](#41-dependências-funcionais-total-parcial-e-transitiva)
-  - [4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN](#42-a-escada-da-normalização-1ª-fn-2ª-fn-e-3ª-fn)
-  - [4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN](#43-forma-normal-de-boyce-codd-fnbc--bcnf-vs-3ª-fn)
+    - [4.1 Dependências Funcionais: Total, Parcial e Transitiva](#41-dependências-funcionais-total-parcial-e-transitiva)
+    - [4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN](#42-a-escada-da-normalização-1ª-fn-2ª-fn-e-3ª-fn)
+    - [4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN](#43-forma-normal-de-boyce-codd-fnbc--bcnf-vs-3ª-fn)
 - [5. Processo de Desnormalização de Dados](#5-processo-de-desnormalização-de-dados)
-  - [5.1 Motivações e Trade-offs: OLTP vs. OLAP / Data Warehouses](#51-motivações-e-trade-offs-oltp-vs-olap--data-warehouses)
-  - [5.2 Técnicas Comuns e Riscos de Integridade](#52-técnicas-comuns-e-riscos-de-integridade)
+    - [5.1 Motivações e Trade-offs: OLTP vs. OLAP / Data Warehouses](#51-motivações-e-trade-offs-oltp-vs-olap--data-warehouses)
+    - [5.2 Técnicas Comuns e Riscos de Integridade](#52-técnicas-comuns-e-riscos-de-integridade)
 - [6. Questões Comentadas & Prática Padrão FCC](#6-questões-comentadas--prática-padrão-fcc)
 
 ---
@@ -78,6 +78,7 @@ flowchart LR
 
 > 🚨 **ALERTA DE PROVA / FCC:**  
 > A FCC adora cobrar a fronteira entre os modelos:
+>
 > - O **Modelo Conceitual** NÃO possui chaves estrangeiras nem tipos de dados de sistema operacional.
 > - A introdução formal de **chaves estrangeiras (FKs)** ocorre estritamente na transição para o **Modelo Lógico**.
 > - Estruturas de aceleração física como **índices B-Tree, particionamento e tablespaces** pertencem com exclusividade ao **Modelo Físico**.
@@ -91,17 +92,17 @@ Publicado em 1976 por Peter Pin-Shan Chen, o Modelo Entidade-Relacionamento torn
 ### 2.1 Entidades Fortes (Regulares) vs. Entidades Fracas
 
 - **Entidade Forte (Regular):**
-  - Possui existência autônoma e independente no mundo real.
-  - Possui ao menos um atributo identificador próprio (chave primária) que distingue univocamente cada uma de suas instâncias.
-  - Representação gráfica de Chen: **Retângulo de linha simples**.
+    - Possui existência autônoma e independente no mundo real.
+    - Possui ao menos um atributo identificador próprio (chave primária) que distingue univocamente cada uma de suas instâncias.
+    - Representação gráfica de Chen: **Retângulo de linha simples**.
 - **Entidade Fraca:**
-  - Sua existência depende obrigatoriamente da existência de outra entidade (denominada entidade proprietária ou dominante). Se a entidade proprietária for removida, a entidade fraca deixa de fazer sentido.
-  - Não possui chave primária completa própria; possui apenas um **discriminador** ou **chave parcial**, que identifica a ocorrência apenas no escopo da sua entidade dominante.
-  - Sua identificação plena é formada pela junção: $\text{Chave da Entidade Forte} + \text{Chave Parcial}$.
-  - Representação gráfica de Chen: **Retângulo de linha dupla**.
+    - Sua existência depende obrigatoriamente da existência de outra entidade (denominada entidade proprietária ou dominante). Se a entidade proprietária for removida, a entidade fraca deixa de fazer sentido.
+    - Não possui chave primária completa própria; possui apenas um **discriminador** ou **chave parcial**, que identifica a ocorrência apenas no escopo da sua entidade dominante.
+    - Sua identificação plena é formada pela junção: $\text{Chave da Entidade Forte} + \text{Chave Parcial}$.
+    - Representação gráfica de Chen: **Retângulo de linha dupla**.
 - **Relacionamento Identificador:**
-  - É o relacionamento formal que vincula a entidade fraca à sua entidade forte proprietária.
-  - Representação gráfica de Chen: **Losango de linha dupla**.
+    - É o relacionamento formal que vincula a entidade fraca à sua entidade forte proprietária.
+    - Representação gráfica de Chen: **Losango de linha dupla**.
 
 ```mermaid
 flowchart LR
@@ -129,14 +130,15 @@ No modelo clássico de Chen, os atributos são expressos por elipses conectadas 
 
 - **Grau do Relacionamento:** Quantidade de entidades participantes (Binário = 2 entidades; Ternário = 3 entidades; Unário / Auto-relacionamento = a mesma entidade se relaciona consigo mesma, como `FUNCIONARIO gerencia FUNCIONARIO`).
 - **Razão de Cardinalidade:** Especifica o número máximo de ocorrências de relacionamento nas quais uma entidade pode participar:
-  - $1:1$ (Um para Um);
-  - $1:N$ (Um para Muitos);
-  - $N:M$ (Muitos para Muitos - na conversão lógica, exige compulsoriamente a criação de uma tabela associativa intermediária).
+    - $1:1$ (Um para Um);
+    - $1:N$ (Um para Muitos);
+    - $N:M$ (Muitos para Muitos - na conversão lógica, exige compulsoriamente a criação de uma tabela associativa intermediária).
 - **Participação Total (Dependência de Existência):** Toda entidade do conjunto de entidades **obrigatoriamente deve participar** de ao menos uma instância do relacionamento. É representada graficamente por uma **linha dupla** que liga a entidade ao losango. Na notação $(mín, máx)$, expressa-se com $mín \ge 1$.
 - **Participação Parcial:** A participação é opcional (algumas instâncias podem não participar do relacionamento). Representada por uma **linha simples**. Na notação $(mín, máx)$, expressa-se com $mín = 0$.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > Cuidado com a notação de cardinalidade:
+>
 > - Na notação clássica de Chen com cardinalidade nas pontas ($1$ e $N$), o valor representa a cardinalidade máxima permitida.
 > - Na notação de pares de limites $(mín, máx)$, se $mín = 0$, a participação é **parcial**; se $mín = 1$, a participação é **total**. Além disso, na notação $(min, max)$, os limites ficam posicionados **adjacentes à entidade que possui aquela restrição**!
 
@@ -182,7 +184,7 @@ São operações construídas a partir da composição das primitivas fundamenta
   $$R \bowtie S = \pi_{\text{esquema\_unificado}}(\sigma_{R.A_1 = S.A_1 \land \dots \land R.A_m = S.A_m}(R \times S))$$
 - **Interseção ($R \cap S$):** Retorna as tuplas presentes simultaneamente em $R$ e $S$. Derivável pela diferença: $R \cap S = R - (R - S)$.
 - **Divisão Relacional ($R \div S$):** Operação fundamental para responder a consultas que envolvem o **quantificador universal "para todos" ($\forall$)** — por exemplo, *"encontrar os auditores que fiscalizaram TODOS os municípios do estado de Goiás"*.
-  - Se $R$ possui esquema $(A, B)$ e $S$ possui esquema $(B)$, a divisão $R \div S$ produz uma relação de esquema $(A)$ contendo as tuplas $t$ tais que, para toda tupla $s \in S$, o par ordenado $(t, s)$ existe na relação $R$.
+    - Se $R$ possui esquema $(A, B)$ e $S$ possui esquema $(B)$, a divisão $R \div S$ produz uma relação de esquema $(A)$ contendo as tuplas $t$ tais que, para toda tupla $s \in S$, o par ordenado $(t, s)$ existe na relação $R$.
 
 ---
 
@@ -211,15 +213,15 @@ Dada uma relação $R$, diz-se que o conjunto de atributos $X$ determina funcion
 ### 4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN
 
 1. **Primeira Forma Normal (1ª FN):**
-   - **Regra:** Todos os domínios de atributos devem conter **apenas valores atômicos e indivisíveis**. Proíbe-se a presença de atributos multivalorados, atributos compostos e grupos repetitivos (como campos contendo listas separadas por vírgula ou tabelas aninhadas).
+    - **Regra:** Todos os domínios de atributos devem conter **apenas valores atômicos e indivisíveis**. Proíbe-se a presença de atributos multivalorados, atributos compostos e grupos repetitivos (como campos contendo listas separadas por vírgula ou tabelas aninhadas).
 2. **Segunda Forma Normal (2ª FN):**
-   - **Regra:** A relação deve estar na **1ª FN** e todo atributo não-chave deve depender **totalmente da chave primária**, eliminando qualquer dependência funcional parcial.
-   - **Regra de Ouro em Provas:** A violação da 2ª FN só pode ocorrer se a chave primária for **composta** (possuir 2 ou mais atributos). Se a chave primária for simples (apenas 1 atributo), estando na 1ª FN ela estará **automaticamente na 2ª FN**!
+    - **Regra:** A relação deve estar na **1ª FN** e todo atributo não-chave deve depender **totalmente da chave primária**, eliminando qualquer dependência funcional parcial.
+    - **Regra de Ouro em Provas:** A violação da 2ª FN só pode ocorrer se a chave primária for **composta** (possuir 2 ou mais atributos). Se a chave primária for simples (apenas 1 atributo), estando na 1ª FN ela estará **automaticamente na 2ª FN**!
 3. **Terceira Forma Normal (3ª FN):**
-   - **Regra:** A relação deve estar na **2ª FN** e nenhum atributo não-chave pode depender transitivamente da chave primária.
-   - **Definição Formal de Codd:** Para toda dependência funcional não-trivial $X \rightarrow A$:
-     1. $X$ é uma superchave; **OU**
-     2. $A$ é um atributo primo (faz parte de ao menos uma chave candidata).
+    - **Regra:** A relação deve estar na **2ª FN** e nenhum atributo não-chave pode depender transitivamente da chave primária.
+    - **Definição Formal de Codd:** Para toda dependência funcional não-trivial $X \rightarrow A$:
+    1. $X$ é uma superchave; **OU**
+    2. $A$ é um atributo primo (faz parte de ao menos uma chave candidata).
 
 ### 4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN
 
@@ -256,12 +258,12 @@ flowchart TD
 ### 5.2 Técnicas Comuns e Riscos de Integridade
 
 - **Técnicas de Desnormalização:**
-  1. *Junção Pré-calculada:* Mesclar duas tabelas $1:N$ em uma única tabela para evitar consultas com `JOIN`.
-  2. *Campos Totalizadores / Derivados Persistidos:* Adicionar uma coluna `ValorTotalNota` na tabela mestre para evitar calcular `SUM()` de itens a cada requisição.
-  3. *Replicação de Colunas de Consulta Frequente:* Armazenar o `NomeFornecedor` diretamente na tabela de `Empenho`.
+    1. *Junção Pré-calculada:* Mesclar duas tabelas $1:N$ em uma única tabela para evitar consultas com `JOIN`.
+    2. *Campos Totalizadores / Derivados Persistidos:* Adicionar uma coluna `ValorTotalNota` na tabela mestre para evitar calcular `SUM()` de itens a cada requisição.
+    3. *Replicação de Colunas de Consulta Frequente:* Armazenar o `NomeFornecedor` diretamente na tabela de `Empenho`.
 - **Riscos e Trade-offs:**
-  - Redundância severa e aumento do consumo de armazenamento em disco;
-  - **Risco Crítico de Inconsistência:** Atualizar o nome do fornecedor exige atualizar milhões de registros duplicados; se uma atualização falhar pela metade, o banco de dados entra em estado inconsistente.
+    - Redundância severa e aumento do consumo de armazenamento em disco;
+    - **Risco Crítico de Inconsistência:** Atualizar o nome do fornecedor exige atualizar milhões de registros duplicados; se uma atualização falhar pela metade, o banco de dados entra em estado inconsistente.
 
 ---
 
@@ -271,17 +273,19 @@ flowchart TD
 Considere uma relação não normalizada de um sistema de compras públicas representada pelo esquema:  
 `CONTRATO (NumContrato, NumItem, CodFornecedor, NomeFornecedor, DescricaoItem, Quantidade, ValorUnitario)`  
 Onde a chave primária composta da relação é `(NumContrato, NumItem)`. Sabe-se ainda que existem as seguintes dependências funcionais:
+
 - `(NumContrato, NumItem) -> Quantidade, ValorUnitario`
 - `NumItem -> DescricaoItem`
 - `NumContrato -> CodFornecedor, NomeFornecedor`
 - `CodFornecedor -> NomeFornecedor`
 
 Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve-se:  
-A) Eliminar os grupos repetitivos e garantir a atomicidade dos campos, mantendo todos os atributos na mesma tabela.  
-B) Eliminar as dependências funcionais parciais, decompondo a relação de modo que nenhum atributo não-chave dependa de apenas parte da chave primária composta.  
-C) Eliminar as dependências transitivas, garantindo que o `NomeFornecedor` não dependa de `CodFornecedor`.  
-D) Converter todas as chaves primárias em chaves substitutas (*surrogate keys*) UUID geradas pelo SGBD.  
-E) Desnormalizar a relação unificando `Quantidade` e `ValorUnitario` em um atributo multivalorado.
+
+* **A)** Eliminar os grupos repetitivos e garantir a atomicidade dos campos, mantendo todos os atributos na mesma tabela.
+* **B)** Eliminar as dependências funcionais parciais, decompondo a relação de modo que nenhum atributo não-chave dependa de apenas parte da chave primária composta.
+* **C)** Eliminar as dependências transitivas, garantindo que o `NomeFornecedor` não dependa de `CodFornecedor`.
+* **D)** Converter todas as chaves primárias em chaves substitutas (*surrogate keys*) UUID geradas pelo SGBD.
+* **E)** Desnormalizar a relação unificando `Quantidade` e `ValorUnitario` em um atributo multivalorado.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A atomicidade de domínios e a eliminação de grupos repetitivos constituem a regra da **Primeira Forma Normal (1ª FN)**.
@@ -298,11 +302,12 @@ E) Desnormalizar a relação unificando `Quantidade` e `ValorUnitario` em um atr
 Na Álgebra Relacional, uma consulta sobre duas relações $R(A, B, C)$ e $S(C, D, E)$ tem por objetivo filtrar as tuplas de $R$ onde o atributo $A = 10$, concatenar com as tuplas correspondentes de $S$ onde $R.C = S.C$, e projetar apenas as colunas $B$ e $D$.
 
 A expressão formal algébrica que representa essa operação com precisão é:  
-A) $\pi_{B, D} (\sigma_{A = 10} (R \bowtie S))$  
-B) $\sigma_{B, D} (\pi_{A = 10} (R \times S))$  
-C) $\pi_{B, D} (\sigma_{A = 10} (R) \cup \sigma_{A = 10} (S))$  
-D) $\rho_{B, D} (\sigma_{A = 10} (R - S))$  
-E) $\pi_{A = 10} (\sigma_{B, D} (R \div S))$
+
+* **A)** $\pi_{B, D} (\sigma_{A = 10} (R \bowtie S))$
+* **B)** $\sigma_{B, D} (\pi_{A = 10} (R \times S))$
+* **C)** $\pi_{B, D} (\sigma_{A = 10} (R) \cup \sigma_{A = 10} (S))$
+* **D)** $\rho_{B, D} (\sigma_{A = 10} (R - S))$
+* **E)** $\pi_{A = 10} (\sigma_{B, D} (R \div S))$
 
 > **Comentário Detalhado:**
 > - **A)** Correta. A junção natural $R \bowtie S$ realiza a equijunção pelo atributo comum $C$ ($R.C = S.C$). Em seguida, a seleção $\sigma_{A=10}$ filtra apenas as tuplas onde $A$ vale $10$. Por fim, a projeção $\pi_{B, D}$ descarta as demais colunas e projeta unicamente os atributos solicitados $B$ e $D$, eliminando eventuais duplicatas.
@@ -320,11 +325,12 @@ No contexto do Diagrama Entidade-Relacionamento (DER) segundo a notação origin
 *"Em um órgão de fiscalização fazendária, cada PROCESSO_FISCAL possui um número de processo que o identifica unicamente. Cada processo pode conter múltiplos TERMOS_FISCAIS. Um termo fiscal possui apenas uma numeração sequencial interna (ex.: 1, 2, 3), só faz sentido existir vinculado ao seu respectivo processo fiscal e sua identificação plena depende da chave primária do processo."*
 
 Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração sequencial interna e o relacionamento entre `PROCESSO_FISCAL` e `TERMO_FISCAL` são classificados, respectivamente, como:  
-A) Entidade Associativa, Atributo Composto e Auto-relacionamento.  
-B) Entidade Fraca, Chave Parcial (discriminador) e Relacionamento Identificador.  
-C) Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador.  
-D) Entidade Fraca, Atributo Derivado e Agregação.  
-E) Superclasse, Atributo Atômico e Relacionamento Ternário.
+
+* **A)** Entidade Associativa, Atributo Composto e Auto-relacionamento.
+* **B)** Entidade Fraca, Chave Parcial (discriminador) e Relacionamento Identificador.
+* **C)** Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador.
+* **D)** Entidade Fraca, Atributo Derivado e Agregação.
+* **E)** Superclasse, Atributo Atômico e Relacionamento Ternário.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Entidades associativas resolvem relacionamentos $N:M$ com atributos próprios, e auto-relacionamento ocorre quando uma entidade se relaciona consigo mesma.
@@ -346,11 +352,12 @@ $F = \{ (A, B) \rightarrow C, \quad C \rightarrow B \}$
 Sabe-se que as chaves candidatas dessa relação são $(A, B)$ e $(A, C)$.
 
 Com base nas definições formais das Formas Normais, afirma-se corretamente que a relação $R$:  
-A) Não está na 1ª FN, pois apresenta dependências funcionais sobrepostas.  
-B) Está na 2ª FN, mas viola a 3ª FN porque $C$ determina um atributo não-chave.  
-C) Está na 3ª FN, mas não está na Forma Normal de Boyce-Codd (FNBC).  
-D) Está na Forma Normal de Boyce-Codd (FNBC), pois todas as dependências funcionais são triviais.  
-E) Encontra-se na 4ª FN, pois não possui atributos multivalorados dependentes.
+
+* **A)** Não está na 1ª FN, pois apresenta dependências funcionais sobrepostas.
+* **B)** Está na 2ª FN, mas viola a 3ª FN porque $C$ determina um atributo não-chave.
+* **C)** Está na 3ª FN, mas não está na Forma Normal de Boyce-Codd (FNBC).
+* **D)** Está na Forma Normal de Boyce-Codd (FNBC), pois todas as dependências funcionais são triviais.
+* **E)** Encontra-se na 4ª FN, pois não possui atributos multivalorados dependentes.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A relação está na 1ª FN (domínios atômicos).
@@ -371,15 +378,17 @@ Em sistemas de banco de dados relacionais, deseja-se elaborar uma consulta algé
 *"Recuperar o código de todos os Auditores Fiscais que realizaram inspeções em TODOS os estabelecimentos cadastrados no estado."*
 
 Considere os esquemas das relações:
+
 - `INSPECAO (CodAuditor, CodEstabelecimento)`
 - `ESTABELECIMENTO (CodEstabelecimento)`
 
 A operação da Álgebra Relacional que expressa diretamente essa semântica de quantificação universal ("para todos"), sem a necessidade de aninhamentos complexos de operadores de diferença, é a:  
-A) Junção Externa Completa (`INSPECAO` $\mathbin{⟗}$ `ESTABELECIMENTO`)  
-B) Equijunção (`INSPECAO` $\bowtie_{\text{CodEstabelecimento} = \text{CodEstabelecimento}}$ `ESTABELECIMENTO`)  
-C) Divisão Relacional (`INSPECAO` $\div$ `ESTABELECIMENTO`)  
-D) Produto Cartesiano (`INSPECAO` $\times$ `ESTABELECIMENTO`)  
-E) Interseção (`INSPECAO` $\cap$ `ESTABELECIMENTO`)
+
+* **A)** Junção Externa Completa (`INSPECAO` $\mathbin{⟗}$ `ESTABELECIMENTO`)
+* **B)** Equijunção (`INSPECAO` $\bowtie_{\text{CodEstabelecimento} = \text{CodEstabelecimento}}$ `ESTABELECIMENTO`)
+* **C)** Divisão Relacional (`INSPECAO` $\div$ `ESTABELECIMENTO`)
+* **D)** Produto Cartesiano (`INSPECAO` $\times$ `ESTABELECIMENTO`)
+* **E)** Interseção (`INSPECAO` $\cap$ `ESTABELECIMENTO`)
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O Full Outer Join preserva tuplas sem correspondência em ambos os lados preenchendo com nulos, sem filtrar por quantificação universal.

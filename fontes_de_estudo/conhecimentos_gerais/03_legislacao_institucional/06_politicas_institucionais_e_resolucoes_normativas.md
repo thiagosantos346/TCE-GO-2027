@@ -9,36 +9,36 @@
 
 ## 📌 Ementa / Itens do Edital
 - Políticas institucionais do Tribunal de Contas do Estado de Goiás e resoluções normativas relacionadas à organização, funcionamento e gestão institucional:
-  - **Resolução Administrativa nº 14/2025:** Define a estrutura organizacional do TCE-GO com as respectivas competências das secretarias, diretorias técnicas e unidades auxiliares;
-  - **Resolução Administrativa nº 17/2024:** Dispõe sobre a Política de Segurança da Informação (PSI) do TCE-GO, pilares de confidencialidade, integridade, disponibilidade, autenticidade e legalidade (CIDA+L), classificação de ativos e deveres dos usuários;
-  - **Resolução Normativa nº 5/2024:** Regulamenta o tratamento e a proteção de dados pessoais no âmbito do TCE-GO à luz da Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD), bases legais do controle externo, atribuições do Encarregado (DPO), Comitê de Privacidade e Relatório de Impacto à Proteção de Dados Pessoais (RIPD);
-  - **Resolução Administrativa nº 24/2024:** Dispõe sobre as diretrizes, princípios éticos e governança para o uso de ferramentas de Inteligência Artificial (IA) no TCE-GO (supervisão humana indelegável *Human-in-the-loop*, vedação de dados sigilosos em IAs públicas e responsabilidade pessoal do operador);
-  - **Resolução Administrativa nº 5/2024:** Dispõe sobre a Política de Gestão de Pessoas do TCE-GO (gestão por competências, capacitação continuada na ESCOEX, avaliação de desempenho, saúde ocupacional e regras de teletrabalho);
-  - **Resolução Administrativa nº 19/2024:** Dispõe sobre a Política de Comunicação Institucional (transparência pública, linguagem simples/cidadã, centralização na Assessoria de Comunicação e relacionamento com a mídia);
-  - **Resolução Administrativa nº 15/2024:** Dispõe sobre o Sistema de Planejamento e Gestão Institucional do TCE-GO (planejamento estratégico plurianual, governança pública, gestão de riscos no Modelo das Três Linhas e monitoramento de indicadores de desempenho).
+    - **Resolução Administrativa nº 14/2025:** Define a estrutura organizacional do TCE-GO com as respectivas competências das secretarias, diretorias técnicas e unidades auxiliares;
+    - **Resolução Administrativa nº 17/2024:** Dispõe sobre a Política de Segurança da Informação (PSI) do TCE-GO, pilares de confidencialidade, integridade, disponibilidade, autenticidade e legalidade (CIDA+L), classificação de ativos e deveres dos usuários;
+    - **Resolução Normativa nº 5/2024:** Regulamenta o tratamento e a proteção de dados pessoais no âmbito do TCE-GO à luz da Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD), bases legais do controle externo, atribuições do Encarregado (DPO), Comitê de Privacidade e Relatório de Impacto à Proteção de Dados Pessoais (RIPD);
+    - **Resolução Administrativa nº 24/2024:** Dispõe sobre as diretrizes, princípios éticos e governança para o uso de ferramentas de Inteligência Artificial (IA) no TCE-GO (supervisão humana indelegável *Human-in-the-loop*, vedação de dados sigilosos em IAs públicas e responsabilidade pessoal do operador);
+    - **Resolução Administrativa nº 5/2024:** Dispõe sobre a Política de Gestão de Pessoas do TCE-GO (gestão por competências, capacitação continuada na ESCOEX, avaliação de desempenho, saúde ocupacional e regras de teletrabalho);
+    - **Resolução Administrativa nº 19/2024:** Dispõe sobre a Política de Comunicação Institucional (transparência pública, linguagem simples/cidadã, centralização na Assessoria de Comunicação e relacionamento com a mídia);
+    - **Resolução Administrativa nº 15/2024:** Dispõe sobre o Sistema de Planejamento e Gestão Institucional do TCE-GO (planejamento estratégico plurianual, governança pública, gestão de riscos no Modelo das Três Linhas e monitoramento de indicadores de desempenho).
 
 ---
 
 ## 🧭 Sumário
 - [1. Estrutura Organizacional e Competências Técnicas (RA nº 14/2025)](#1-estrutura-organizacional-e-competências-técnicas-ra-nº-142025)
-  - [1.1 Macroestrutura Superior e Órgãos Deliberativos](#11-macroestrutura-superior-e-órgãos-deliberativos)
-  - [1.2 Secretarias de Controle Externo e Unidades de Apoio Estratégico](#12-secretarias-de-controle-externo-e-unidades-de-apoio-estratégico)
+    - [1.1 Macroestrutura Superior e Órgãos Deliberativos](#11-macroestrutura-superior-e-órgãos-deliberativos)
+    - [1.2 Secretarias de Controle Externo e Unidades de Apoio Estratégico](#12-secretarias-de-controle-externo-e-unidades-de-apoio-estratégico)
 - [2. Política de Segurança da Informação - PSI (RA nº 17/2024)](#2-política-de-segurança-da-informação---psi-ra-nº-172024)
-  - [2.1 Pilares Basilares: CIDA+L e Destinatários da Norma](#21-pilares-basilares-cidal-e-destinatários-da-norma)
-  - [2.2 Classificação da Informação e Controles Operacionais de TI](#22-classificação-da-informação-e-controles-operacionais-de-ti)
-  - [2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade](#23-tratamento-de-incidentes-cibernéticos-e-rastreabilidade)
+    - [2.1 Pilares Basilares: CIDA+L e Destinatários da Norma](#21-pilares-basilares-cidal-e-destinatários-da-norma)
+    - [2.2 Classificação da Informação e Controles Operacionais de TI](#22-classificação-da-informação-e-controles-operacionais-de-ti)
+    - [2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade](#23-tratamento-de-incidentes-cibernéticos-e-rastreabilidade)
 - [3. Tratamento e Proteção de Dados Pessoais - LGPD (RN nº 5/2024)](#3-tratamento-e-proteção-de-dados-pessoais---lgpd-rn-nº-52024)
-  - [3.1 Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento](#31-aplicação-da-lgpd-ao-controle-externo-dispensabilidade-do-consentimento)
-  - [3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê](#32-governança-de-privacidade-controlador-operador-dpo-e-comitê)
-  - [3.3 Minimização, Anonimização e Relatório de Impacto (RIPD)](#33-minimização-anonimização-e-relatório-de-impacto-ripd)
+    - [3.1 Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento](#31-aplicação-da-lgpd-ao-controle-externo-dispensabilidade-do-consentimento)
+    - [3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê](#32-governança-de-privacidade-controlador-operador-dpo-e-comitê)
+    - [3.3 Minimização, Anonimização e Relatório de Impacto (RIPD)](#33-minimização-anonimização-e-relatório-de-impacto-ripd)
 - [4. Governança e Uso de Inteligência Artificial no TCE-GO (RA nº 24/2024)](#4-governança-e-uso-de-inteligência-artificial-no-tce-go-ra-nº-242024)
-  - [4.1 Princípio da Supervisão Humana Compulsória (*Human-in-the-loop*)](#41-princípio-da-supervisão-humana-compulsória-human-in-the-loop)
-  - [4.2 Proibição Estrita de Dados Sigilosos em Modelos Abertos](#42-proibição-estrita-de-dados-sigilosos-em-modelos-abertos)
-  - [4.3 Responsabilidade Funcional Exclusiva do Servidor Operador](#43-responsabilidade-funcional-exclusiva-do-servidor-operador)
+    - [4.1 Princípio da Supervisão Humana Compulsória (*Human-in-the-loop*)](#41-princípio-da-supervisão-humana-compulsória-human-in-the-loop)
+    - [4.2 Proibição Estrita de Dados Sigilosos em Modelos Abertos](#42-proibição-estrita-de-dados-sigilosos-em-modelos-abertos)
+    - [4.3 Responsabilidade Funcional Exclusiva do Servidor Operador](#43-responsabilidade-funcional-exclusiva-do-servidor-operador)
 - [5. Gestão de Pessoas, Comunicação e Planejamento Integrado](#5-gestão-de-pessoas-comunicação-e-planejamento-integrado)
-  - [5.1 Política de Gestão de Pessoas e Teletrabalho (RA nº 5/2024)](#51-política-de-gestão-de-pessoas-e-teletrabalho-ra-nº-52024)
-  - [5.2 Política de Comunicação Institucional e Linguagem Simples (RA nº 19/2024)](#52-política-de-comunicação-institucional-e-linguagem-simples-ra-nº-192024)
-  - [5.3 Planejamento Institucional e o Modelo das Três Linhas do IIA (RA nº 15/2024)](#53-planejamento-institucional-e-o-modelo-das-três-linhas-do-iia-ra-nº-152024)
+    - [5.1 Política de Gestão de Pessoas e Teletrabalho (RA nº 5/2024)](#51-política-de-gestão-de-pessoas-e-teletrabalho-ra-nº-52024)
+    - [5.2 Política de Comunicação Institucional e Linguagem Simples (RA nº 19/2024)](#52-política-de-comunicação-institucional-e-linguagem-simples-ra-nº-192024)
+    - [5.3 Planejamento Institucional e o Modelo das Três Linhas do IIA (RA nº 15/2024)](#53-planejamento-institucional-e-o-modelo-das-três-linhas-do-iia-ra-nº-152024)
 - [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referências-bibliográficas)
 - [7. Questões de Concurso FCC Comentadas](#7-questões-de-concurso-fcc-comentadas)
 
@@ -48,33 +48,35 @@
 
 ### 1.1 Macroestrutura Superior e Órgãos Deliberativos
 A **Resolução Administrativa nº 14/2025** atualizou e consolidou a estrutura organizacional do Tribunal de Contas do Estado de Goiás, organizando a Corte em níveis funcionais e hierárquicos bem delineados:
+
 - **Órgãos Deliberativos Colegiados Superiores:**
-  - **Tribunal Pleno:** Composto pelos 7 Conselheiros e presença obrigatória do Procurador-Geral de Contas. Competência constitucional privativa para emissão de parecer prévio sobre as contas do Governador, apreciação de consultas em tese, deliberação recursal e eleição de dirigentes;
-  - **Primeira e Segunda Câmaras Deliberativas:** Compostas por 3 Conselheiros cada, com competência para julgamento ordinário de contas de ordenadores, registro de atos de pessoal/aposentadorias e auditorias temáticas.
+    - **Tribunal Pleno:** Composto pelos 7 Conselheiros e presença obrigatória do Procurador-Geral de Contas. Competência constitucional privativa para emissão de parecer prévio sobre as contas do Governador, apreciação de consultas em tese, deliberação recursal e eleição de dirigentes;
+    - **Primeira e Segunda Câmaras Deliberativas:** Compostas por 3 Conselheiros cada, com competência para julgamento ordinário de contas de ordenadores, registro de atos de pessoal/aposentadorias e auditorias temáticas.
 - **Órgãos de Direção Superior:**
-  - **Presidência:** Direção executiva, administração geral, ordenação de despesas e representação institucional;
-  - **Vice-Presidência:** Substituição regimental e supervisão de projetos institucionais;
-  - **Corregedoria-Geral:** Órgão correicional permanente, responsável pela fiscalização de prazos processuais e disciplina funcional.
+    - **Presidência:** Direção executiva, administração geral, ordenação de despesas e representação institucional;
+    - **Vice-Presidência:** Substituição regimental e supervisão de projetos institucionais;
+    - **Corregedoria-Geral:** Órgão correicional permanente, responsável pela fiscalização de prazos processuais e disciplina funcional.
 - **Órgãos Especiais e Vinculados:**
-  - **Ministério Público de Contas (MPC-GO):** Atuação ministerial autônoma com intervenção obrigatória em todos os processos;
-  - **Ouvidoria:** Canal de transparência ativa, acesso à informação (LAI) e acolhimento de denúncias de controle social;
-  - **Escola Superior de Controle Externo (ESCOEX / Escola de Contas):** Centro de excelência responsável pela capacitação, pós-graduação e formação continuada de servidores da Corte e de gestores municipais e estaduais de Goiás.
+    - **Ministério Público de Contas (MPC-GO):** Atuação ministerial autônoma com intervenção obrigatória em todos os processos;
+    - **Ouvidoria:** Canal de transparência ativa, acesso à informação (LAI) e acolhimento de denúncias de controle social;
+    - **Escola Superior de Controle Externo (ESCOEX / Escola de Contas):** Centro de excelência responsável pela capacitação, pós-graduação e formação continuada de servidores da Corte e de gestores municipais e estaduais de Goiás.
 
 ---
 
 ### 1.2 Secretarias de Controle Externo e Unidades de Apoio Estratégico
 As atividades finalísticas e corporativas do Tribunal são executadas por secretarias especializadas:
+
 - **Secretarias Técnicas de Controle Externo:**
-  - *Secretaria de Fiscalização de Contas e Orçamento:* Instrução das contas anuais do Governador e acompanhamento da Lei de Responsabilidade Fiscal (LRF);
-  - *Secretaria de Fiscalização de Obras Públicas e Meio Ambiente:* Auditorias de engenharia, medições físicas, editais de infraestrutura e sustentabilidade;
-  - *Secretaria de Fiscalização de Pessoal e Previdência:* Exame de admissões em concurso público e registro de aposentadorias, pensões e reformas;
-  - *Secretaria de Fiscalização de Licitações, Contratos e Parcerias:* Controle de editais, contratos administrativos, consórcios e termos celebrados com Organizações Sociais (OSs);
-  - *Secretaria de Avaliação de Políticas Públicas e Desempenho:* Auditorias operacionais para mensurar eficácia, eficiência e efetividade de programas sociais e de saúde/educação.
+    - *Secretaria de Fiscalização de Contas e Orçamento:* Instrução das contas anuais do Governador e acompanhamento da Lei de Responsabilidade Fiscal (LRF);
+    - *Secretaria de Fiscalização de Obras Públicas e Meio Ambiente:* Auditorias de engenharia, medições físicas, editais de infraestrutura e sustentabilidade;
+    - *Secretaria de Fiscalização de Pessoal e Previdência:* Exame de admissões em concurso público e registro de aposentadorias, pensões e reformas;
+    - *Secretaria de Fiscalização de Licitações, Contratos e Parcerias:* Controle de editais, contratos administrativos, consórcios e termos celebrados com Organizações Sociais (OSs);
+    - *Secretaria de Avaliação de Políticas Públicas e Desempenho:* Auditorias operacionais para mensurar eficácia, eficiência e efetividade de programas sociais e de saúde/educação.
 - **Secretarias de Apoio Corporativo:**
-  - *Secretaria de Tecnologia da Informação (STI):* Gestão de infraestrutura de TI, governança de dados, inteligência artificial, segurança cibernética e sustentação de sistemas processuais;
-  - *Secretaria-Geral:* Suporte direto ao Pleno e às Câmaras no processamento de pautas, atas e acórdãos;
-  - *Secretaria de Gestão Estratégica:* Planejamento institucional, mapa de riscos e acompanhamento de metas globais;
-  - *Diretoria de Gestão de Pessoas (DGP):* Gestão funcional, folha de pagamento, saúde ocupacional e desenvolvimento por competências.
+    - *Secretaria de Tecnologia da Informação (STI):* Gestão de infraestrutura de TI, governança de dados, inteligência artificial, segurança cibernética e sustentação de sistemas processuais;
+    - *Secretaria-Geral:* Suporte direto ao Pleno e às Câmaras no processamento de pautas, atas e acórdãos;
+    - *Secretaria de Gestão Estratégica:* Planejamento institucional, mapa de riscos e acompanhamento de metas globais;
+    - *Diretoria de Gestão de Pessoas (DGP):* Gestão funcional, folha de pagamento, saúde ocupacional e desenvolvimento por competências.
 
 ---
 
@@ -99,6 +101,7 @@ $$\text{CIDA+L} = \text{Confidencialidade} + \text{Integridade} + \text{Disponib
 
 ### 2.2 Classificação da Informação e Controles Operacionais de TI
 A informação produzida ou sob guarda do TCE-GO é categorizada em quatro níveis de confidencialidade:
+
 - **Pública:** Disponível para livre acesso da sociedade e dos jurisdicionados (acórdãos públicos, pautas, relatórios finais e portarias normativas);
 - **Interna:** Informações de uso corporativo ordinário interno, que não devem ser divulgadas publicamente sem justificativa;
 - **Confidencial:** Informações protegidas por sigilo bancário, fiscal, comercial ou referente a processos disciplinares e denúncias com apuração preliminar pendente;
@@ -125,8 +128,8 @@ A infraestrutura do TCE-GO conta com a **Equipe de Tratamento de Incidentes de R
 A **Resolução Normativa nº 5/2024** disciplina o tratamento de dados pessoais no âmbito do TCE-GO em harmonia com a Lei Geral de Proteção de Dados Pessoais (Lei Federal nº 13.709/2018 - LGPD):
 
 - **Bases Legais Autônomas no Controle Externo:** O Tribunal de Contas trata dados pessoais (incluindo dados de ordenadores de despesas, servidores, licitantes e terceiros envolvidos em auditorias) com amparo nas seguintes hipóteses legais expressas:
-  - **Artigo 7º, II da LGPD:** Cumprimento de obrigação legal ou regulatória pelo controlador;
-  - **Artigo 7º, III da LGPD:** Execução de políticas públicas e exercício de competências institucionais de fiscalização e controle externo atribuídas pela Constituição Federal e Estadual.
+    - **Artigo 7º, II da LGPD:** Cumprimento de obrigação legal ou regulatória pelo controlador;
+    - **Artigo 7º, III da LGPD:** Execução de políticas públicas e exercício de competências institucionais de fiscalização e controle externo atribuídas pela Constituição Federal e Estadual.
 - **Inexigibilidade de Consentimento:** O TCE-GO **NÃO depende de consentimento** do titular de dados para requisitar, tratar, cruzar e analisar folhas de pagamento, extratos bancários de contas públicas ou contratos administrativos em processos de fiscalização. O dever republicano de prestar contas e a missão constitucional de controle prevalecem sobre o interesse individual de ocultar registros financeiros públicos.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** É frequente a banca FCC tentar confundir o candidato afirmando que um gestor público auditado tem o direito de exigir que o Tribunal de Contas apague seus dados com base na LGPD. Essa assertiva está **INCORRETA**. O direito de eliminação de dados não se aplica quando o tratamento for amparado no cumprimento de obrigação legal de fiscalização e guarda de documentos públicos (Art. 16 da LGPD).
@@ -135,6 +138,7 @@ A **Resolução Normativa nº 5/2024** disciplina o tratamento de dados pessoais
 
 ### 3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê
 A governança de dados pessoais no TCE-GO é estruturada com clareza funcional:
+
 - **Controlador:** O próprio **Tribunal de Contas do Estado de Goiás**, pessoa jurídica de direito público a quem competem as decisões sobre o tratamento de dados;
 - **Operador:** As pessoas físicas ou jurídicas terceirizadas que realizam o tratamento de dados em nome e sob as ordens do TCE-GO (ex.: provedores de computação em nuvem, empresas de desenvolvimento de software);
 - **Encarregado pelo Tratamento de Dados Pessoais (DPO):** Servidor formalmente designado pelo Presidente do Tribunal, responsável por atuar como canal oficial de comunicação entre o TCE-GO, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD);
@@ -163,6 +167,7 @@ graph TD
 
 ### 4.1 Princípio da Supervisão Humana Compulsória (*Human-in-the-loop*)
 A **Resolução Administrativa nº 24/2024** estabelece as diretrizes éticas e de governança para o uso de ferramentas de Inteligência Artificial (IA) no âmbito do TCE-GO:
+
 - **Ferramenta de Suporte Cognitivo:** Os sistemas de IA (generativa, preditiva ou de processamento de linguagem natural) atuam exclusivamente como instrumentos complementares para potencializar a produtividade e a análise de dados pelo corpo técnico;
 - **Vedação de Decisão Automatizada:** É expressamente proibida a prolação de pareceres técnicos, relatórios de auditoria ou votos decisórios gerados de forma puramente automatizada sem a supervisão e validação crítica de um servidor público (*Human-in-the-loop*). O juízo técnico de mérito e discricionariedade é monopólio da inteligência e discernimento humanos.
 
@@ -170,6 +175,7 @@ A **Resolução Administrativa nº 24/2024** estabelece as diretrizes éticas e 
 
 ### 4.2 Proibição Estrita de Dados Sigilosos em Modelos Abertos
 A norma impõe restrições operacionais categóricas à segurança da informação:
+
 - **Proibição de Upload de Dados em IAs Públicas:** É terminantemente **vedado carregar ou inserir documentos sigilosos, segredos de justiça, dados bancários, fiscais ou dados pessoais protegidos pela LGPD em ferramentas públicas gratuitas de IA generativa** disponíveis na internet (como chatbots abertos sem salvaguardas contratuais corporativas de privacidade);
 - **Uso de Soluções Corporativas Homologadas:** O desenvolvimento e uso de inteligência artificial no Tribunal deve ocorrer prioritariamente dentro do ecossistema tecnológico corporativo mantido e monitorado pela Secretaria de Tecnologia da Informação (STI), sob acordos estritos de confidencialidade e segurança de dados.
 
@@ -177,6 +183,7 @@ A norma impõe restrições operacionais categóricas à segurança da informaç
 
 ### 4.3 Responsabilidade Funcional Exclusiva do Servidor Operador
 O servidor que utilizar ferramentas de IA para redigir peças processuais, despachos, resumos de auditoria ou minutas de instrução assume **responsabilidade pessoal e funcional integral pelo conteúdo**:
+
 - O servidor tem a obrigação inescusável de conferir a veracidade dos fatos narrados, a exatidão das referências normativas e a autenticidade dos precedentes jurisprudenciais citados;
 - A alegação de "alucinação algorítmica" ou falha da inteligência artificial **NÃO isenta o servidor de culpa funcional**, respondendo ele administrativamente perante a Corregedoria-Geral por negligência ou erro grosseiro.
 
@@ -188,17 +195,19 @@ O servidor que utilizar ferramentas de IA para redigir peças processuais, despa
 
 ### 5.1 Política de Gestão de Pessoas e Teletrabalho (RA nº 5/2024)
 A **Resolução Administrativa nº 5/2024** estrutura a moderna gestão de pessoas do Tribunal:
+
 - **Gestão Estratégica por Competências:** Mapeamento continuado de Conhecimentos, Habilidades e Atitudes (CHA) para adequar o perfil técnico dos servidores às atribuições das secretarias;
 - **Regime de Teletrabalho e Trabalho Híbrido:**
-  - Caráter facultativo e condicionado à conveniência da administração pública;
-  - Exige prévia pactuação de **Plano de Trabalho Individualizado com estipulação de metas superiores** às exigidas no regime exclusivamente presencial;
-  - Não é admitido aos servidores que apresentem desempenho insatisfatório ou estejam cumprindo sanção disciplinar;
+    - Caráter facultativo e condicionado à conveniência da administração pública;
+    - Exige prévia pactuação de **Plano de Trabalho Individualizado com estipulação de metas superiores** às exigidas no regime exclusivamente presencial;
+    - Não é admitido aos servidores que apresentem desempenho insatisfatório ou estejam cumprindo sanção disciplinar;
 - **Papel da ESCOEX:** Planejamento e execução de programas de capacitação continuada e pós-graduações, com foco no controle externo e governança pública.
 
 ---
 
 ### 5.2 Política de Comunicação Institucional e Linguagem Simples (RA nº 19/2024)
 A **Resolução Administrativa nº 19/2024** orienta a comunicação pública do TCE-GO:
+
 - **Movimento da Linguagem Simples e Cidadã:** Determinação cogente de redigir atos, resumos de acórdãos, notícias e painéis de dados em linguagem direta, clara e acessível ao cidadão comum, extirpando expressões rebuscadas em latim ou formalismos jurídicos estéreis;
 - **Centralização da Relação com a Imprensa:** O atendimento a jornalistas, comunicados oficiais e concessão de entrevistas em nome institucional do TCE-GO competem privativamente à **Assessoria de Comunicação (ASCOM)**, preservando a neutralidade e integridade da imagem da Corte.
 

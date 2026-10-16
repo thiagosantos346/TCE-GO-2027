@@ -10,16 +10,16 @@
 
 - Características básicas das organizações formais modernas: estrutura organizacional, sistemas de autoridade, hierarquia, amplitude administrativa e especialização do trabalho;
 - Desenho de estruturas organizacionais:
-  - Relação entre amplitude de controle e formato organizacional (estruturas agudas/altas versus estruturas achatadas/planas);
-  - Centralização e descentralização da tomada de decisão;
+    - Relação entre amplitude de controle e formato organizacional (estruturas agudas/altas versus estruturas achatadas/planas);
+    - Centralização e descentralização da tomada de decisão;
 - Tipos de estrutura organizacional: linear (militar), funcional, linha-staff, matricial e estruturas em rede (redes organizacionais flexíveis);
 - Critérios de departamentalização: por funções (funcional), por produtos ou serviços, territorial (geográfica), por clientes, por processos e por projetos;
 - Processo organizacional: as funções fundamentais da administração (PODC):
-  - Planejamento (níveis estratégico, tático e operacional; objetivos e planos de ação);
-  - Organização (alocação de recursos, divisão do trabalho e atribuição de responsabilidades);
-  - Direção e Coordenação (liderança, motivação, delegação de autoridade e harmonização de esforços);
-  - Comunicação organizacional (fluxos verticais ascendente e descendente, horizontais e diagonais; barreiras e ruídos na comunicação);
-  - Controle e Avaliação (estabelecimento de padrões, medição do desempenho real, comparação e ações corretivas; controles prévio, concomitante e posterior);
+    - Planejamento (níveis estratégico, tático e operacional; objetivos e planos de ação);
+    - Organização (alocação de recursos, divisão do trabalho e atribuição de responsabilidades);
+    - Direção e Coordenação (liderança, motivação, delegação de autoridade e harmonização de esforços);
+    - Comunicação organizacional (fluxos verticais ascendente e descendente, horizontais e diagonais; barreiras e ruídos na comunicação);
+    - Controle e Avaliação (estabelecimento de padrões, medição do desempenho real, comparação e ações corretivas; controles prévio, concomitante e posterior);
 - Convergências e diferenças essenciais entre a gestão pública e a gestão privada (princípio da legalidade estrita versus autonomia da vontade, finalidade pública versus lucro, regime de pessoal e sujeição aos órgãos de controle externo).
 
 ---
@@ -27,23 +27,23 @@
 ## 🧭 Sumário Interativo
 
 - [1. Elementos da Organização Formal e Desenho Estrutural](#1-elementos-da-organização-formal-e-desenho-estrutural)
-  - [1.1 Os Pilares da Organização Formal Moderna](#11-os-pilares-da-organização-formal-moderna)
-  - [1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)](#12-amplitude-administrativa-e-formato-organizacional-agudo-vs-plano)
-  - [1.3 Centralização vs. Descentralização Decisória](#13-centralização-vs-descentralização-decisória)
+    - [1.1 Os Pilares da Organização Formal Moderna](#11-os-pilares-da-organização-formal-moderna)
+    - [1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)](#12-amplitude-administrativa-e-formato-organizacional-agudo-vs-plano)
+    - [1.3 Centralização vs. Descentralização Decisória](#13-centralização-vs-descentralização-decisória)
 - [2. Modelos de Estrutura Organizacional](#2-modelos-de-estrutura-organizacional)
-  - [2.1 Estrutura Linear (Militar/Clássica)](#21-estrutura-linear-militarclássica)
-  - [2.2 Estrutura Funcional (Tayloriana)](#22-estrutura-funcional-tayloriana)
-  - [2.3 Estrutura Linha-Staff (Comando e Assessoria)](#23-estrutura-linha-staff-comando-e-assessoria)
-  - [2.4 Estrutura Matricial (Dupla Subordinação)](#24-estrutura-matricial-dupla-subordinação)
-  - [2.5 Estrutura em Rede (Modular e Desverticalizada)](#25-estrutura-em-rede-modular-e-desverticalizada)
+    - [2.1 Estrutura Linear (Militar/Clássica)](#21-estrutura-linear-militarclássica)
+    - [2.2 Estrutura Funcional (Tayloriana)](#22-estrutura-funcional-tayloriana)
+    - [2.3 Estrutura Linha-Staff (Comando e Assessoria)](#23-estrutura-linha-staff-comando-e-assessoria)
+    - [2.4 Estrutura Matricial (Dupla Subordinação)](#24-estrutura-matricial-dupla-subordinação)
+    - [2.5 Estrutura em Rede (Modular e Desverticalizada)](#25-estrutura-em-rede-modular-e-desverticalizada)
 - [3. Critérios de Departamentalização](#3-critérios-de-departamentalização)
-  - [3.1 Departamentalização Funcional, Territorial e por Produtos](#31-departamentalização-funcional-territorial-e-por-produtos)
-  - [3.2 Departamentalização por Clientes, Processos e Projetos](#32-departamentalização-por-clientes-processos-e-projetos)
+    - [3.1 Departamentalização Funcional, Territorial e por Produtos](#31-departamentalização-funcional-territorial-e-por-produtos)
+    - [3.2 Departamentalização por Clientes, Processos e Projetos](#32-departamentalização-por-clientes-processos-e-projetos)
 - [4. O Processo Organizacional e as Funções Administrativas (PODC)](#4-o-processo-organizacional-e-as-funções-administrativas-podc)
-  - [4.1 Planejamento: Estratégico, Tático e Operacional](#41-planejamento-estratégico-tático-e-operacional)
-  - [4.2 Organização: Distribuição de Tarefas, Autoridade e Recursos](#42-organização-distribuição-de-tarefas-autoridade-e-recursos)
-  - [4.3 Direção, Liderança e Comunicação Organizacional](#43-direção-liderança-e-comunicação-organizacional)
-  - [4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)](#44-controle-padrões-medição-e-momentos-de-atuação-prévio-concomitante-e-posterior)
+    - [4.1 Planejamento: Estratégico, Tático e Operacional](#41-planejamento-estratégico-tático-e-operacional)
+    - [4.2 Organização: Distribuição de Tarefas, Autoridade e Recursos](#42-organização-distribuição-de-tarefas-autoridade-e-recursos)
+    - [4.3 Direção, Liderança e Comunicação Organizacional](#43-direção-liderança-e-comunicação-organizacional)
+    - [4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)](#44-controle-padrões-medição-e-momentos-de-atuação-prévio-concomitante-e-posterior)
 - [5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças](#5-gestão-pública-vs-gestão-privada-convergências-e-diferenças)
 - [6. Fontes Oficiais & Referências Bibliográficas](#6-fontes-oficiais--referências-bibliográficas)
 - [7. Questões Comentadas no Padrão FCC](#7-questões-comentadas-no-padrão-fcc)
@@ -56,6 +56,7 @@
 
 #### 1.1 Os Pilares da Organização Formal Moderna
 A **organização formal** é a estrutura deliberadamente planejada, racionalmente desenhada e oficialmente sancionada por normas e regulamentos para integrar recursos humanos, materiais, financeiros e tecnológicos em direção a objetivos comuns. Seus pilares teóricos centrais compreendem:
+
 1. **Divisão do Trabalho:** Decomposição das atividades complexas em tarefas menores, homogêneas e sequenciais, potencializando a eficiência global;
 2. **Especialização:** Concentração individual em funções específicas do processo de trabalho, permitindo aprimoramento da perícia técnica;
 3. **Cadeia Escalar e Hierarquia:** Linha ininterrupta de autoridade formal e responsabilidade que conecta a cúpula diretiva à base operacional (*princípio escalar de Fayol*);
@@ -211,19 +212,21 @@ Função responsável pela modelagem dos órgãos, desenho de cargos, atribuiç�
 
 #### 4.3 Direção, Liderança e Comunicação Organizacional
 A função de **Direção** dinamiza a organização, orientando e influenciando as pessoas para que desempenhem com zelo suas atribuições:
+
 - **Liderança e Motivação:** Condução de equipes através de estilos de liderança (autocrático, democrático e liberal/laissez-faire) e compreensão dos fatores motivacionais de servidores públicos (Teoria dos Dois Fatores de Herzberg, Teoria das Necessidades de Maslow);
 - **Comunicação Organizacional e seus Fluxos:**
-  - **Fluxo Descendente (Top-Down):** Da chefia superior para a base operacional (ordens de serviço, diretrizes institucionais, metas e instruções normativas);
-  - **Fluxo Ascendente (Bottom-Up):** Da base operacional para a cúpula (relatórios de progresso, sugestões de melhoria, dúvidas e recursos administrativos);
-  - **Fluxo Horizontal (Lateral):** Entre servidores ou unidades situados no mesmo nível hierárquico (coordenação interdisciplinar e cooperação técnica);
-  - **Fluxo Diagonal:** Atravessa diferentes setores e diferentes níveis hierárquicos simultaneamente (agiliza soluções de problemas complexos);
+    - **Fluxo Descendente (Top-Down):** Da chefia superior para a base operacional (ordens de serviço, diretrizes institucionais, metas e instruções normativas);
+    - **Fluxo Ascendente (Bottom-Up):** Da base operacional para a cúpula (relatórios de progresso, sugestões de melhoria, dúvidas e recursos administrativos);
+    - **Fluxo Horizontal (Lateral):** Entre servidores ou unidades situados no mesmo nível hierárquico (coordenação interdisciplinar e cooperação técnica);
+    - **Fluxo Diagonal:** Atravessa diferentes setores e diferentes níveis hierárquicos simultaneamente (agiliza soluções de problemas complexos);
 - **Barreiras Comunicacionais:** Ruídos que prejudicam a decodificação da mensagem:
-  - *Físicas:* Barulho ambiente, interferência técnica em equipamentos e falhas de rede;
-  - *Semânticas:* Diferenças de vocabulário, termos técnicos ou jurídicos herméticos inacessíveis ao receptor;
-  - *Psicológicas:* Preconceitos, desconfiança, filtros seletivos e viés perceptivo do interlocutor.
+    - *Físicas:* Barulho ambiente, interferência técnica em equipamentos e falhas de rede;
+    - *Semânticas:* Diferenças de vocabulário, termos técnicos ou jurídicos herméticos inacessíveis ao receptor;
+    - *Psicológicas:* Preconceitos, desconfiança, filtros seletivos e viés perceptivo do interlocutor.
 
 #### 4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)
 O controle assegura que o desempenho real esteja em consonância com o que foi previamente planejado:
+
 1. **Estabelecimento de Padrões de Desempenho:** Fixação prévia de metas, indicadores e prazos;
 2. **Medição do Desempenho Real:** Obtenção de dados tempestivos sobre o andamento dos processos;
 3. **Comparação entre Desempenho Real e Padrão:** Identificação de variações, desvios e erros;
@@ -270,13 +273,13 @@ flowchart TD
 ## 🌐 Fontes Oficiais & Referências Bibliográficas
 
 - [CHIAVENATO, Idalberto. Introdução à Teoria Geral da Administração: Uma visão abrangente da moderna administração das organizações. 10ª Edição.](https://www.grupogen.com.br)
-  - Estrutura organizacional, amplitude administrativa e funções administrativas (PODC).
+    - Estrutura organizacional, amplitude administrativa e funções administrativas (PODC).
 - [MAXIMIANO, Antonio Cesar Amaru. Teoria Geral da Administração: da revolução urbana à revolução digital. Editora Atlas.](https://www.grupogen.com.br)
-  - Modelagem estrutural, centralização, departamentalização e fluxos comunicacionais.
+    - Modelagem estrutural, centralização, departamentalização e fluxos comunicacionais.
 - [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)
-  - Art. 37 (Princípios da Administração Pública e Concurso Público).
+    - Art. 37 (Princípios da Administração Pública e Concurso Público).
 - [Cadernos ENAP (Escola Nacional de Administração Pública)](https://repositorio.enap.gov.br)
-  - Textos de referência sobre Organização do Estado e Gestão Pública Contemporânea.
+    - Textos de referência sobre Organização do Estado e Gestão Pública Contemporânea.
 
 ---
 
@@ -285,11 +288,11 @@ flowchart TD
 ### Questão 1 (FCC – TCE-PI – Auditor de Controle Externo)
 Determinada autarquia estadual de regulação de transportes estruturou suas equipes de fiscalização agrupando os servidores em torno de projetos especiais com prazos pré-fixados, mantendo concomitantemente as diretorias técnicas fixas de engenharia, finanças e tecnologia. Nesse modelo, os auditores reportam-se tanto ao coordenador do projeto específico quanto ao diretor da sua respectiva área técnica de origem. Trata-se de típica estrutura organizacional:
 
-A) Linear.  
-B) Funcional pura.  
-C) Matricial.  
-D) Linha-staff.  
-E) Colegiada.  
+* **A)** Linear.
+* **B)** Funcional pura.
+* **C)** Matricial.
+* **D)** Linha-staff.
+* **E)** Colegiada.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A estrutura linear fundamenta-se na unidade de comando irrestrita, com linhas únicas, diretas e verticais de chefia.
@@ -305,11 +308,11 @@ E) Colegiada.
 ### Questão 2 (FCC – TCE-RS – Auditor de Controle Externo)
 A respeito das funções do processo administrativo (planejamento, organização, direção e controle) e das diferenças entre a gestão pública e a gestão privada, assinale a opção correta:
 
-A) A função administrativa de planejamento restringe-se ao nível operacional da instituição, cabendo à função de organização a definição das metas estratégicas de longo prazo.  
-B) A gestão pública e a gestão privada diferenciam-se essencialmente pelo regime de legalidade, na medida em que, na administração pública, o administrador só pode fazer o que a lei expressamente autoriza ou determina.  
-C) O controle é a primeira função administrativa a ser desempenhada no processo de trabalho, dispensando a existência de padrões prévios fixados no planejamento.  
-D) A amplitude de controle administrativa define a quantidade total de departamentos existentes na organização, independentemente do número de subordinados por chefia.  
-E) As organizações privadas submetem-se ao mesmo regime de recrutamento universal mediante concurso público imposto pela Constituição aos órgãos estatais.  
+* **A)** A função administrativa de planejamento restringe-se ao nível operacional da instituição, cabendo à função de organização a definição das metas estratégicas de longo prazo.
+* **B)** A gestão pública e a gestão privada diferenciam-se essencialmente pelo regime de legalidade, na medida em que, na administração pública, o administrador só pode fazer o que a lei expressamente autoriza ou determina.
+* **C)** O controle é a primeira função administrativa a ser desempenhada no processo de trabalho, dispensando a existência de padrões prévios fixados no planejamento.
+* **D)** A amplitude de controle administrativa define a quantidade total de departamentos existentes na organização, independentemente do número de subordinados por chefia.
+* **E)** As organizações privadas submetem-se ao mesmo regime de recrutamento universal mediante concurso público imposto pela Constituição aos órgãos estatais.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O planejamento abrange três horizontes: estratégico (longo prazo), tático (médio prazo) e operacional (curto prazo). A fixação de metas institucionais pertence ao planejamento estratégico, e não à organização.
@@ -325,11 +328,11 @@ E) As organizações privadas submetem-se ao mesmo regime de recrutamento univer
 ### Questão 3 (FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)
 Considere uma organização pública estadual que decida reduzir o número de seus escalões hierárquicos intermediários de sete para apenas três níveis, mantendo o mesmo quantitativo total de servidores em seus quadros operacionais. Sob a ótica da teoria da organização formal, essa reforma provocará:
 
-A) O estreitamento da amplitude de controle e a verticalização da estrutura organizacional.  
-B) A eliminação da divisão do trabalho e a conversão automática para a estrutura linear pura.  
-C) O alargamento da amplitude de controle dos gestores e o achatamento (horizontalização) da estrutura organizacional.  
-D) A centralização absoluta de todas as decisões na cúpula diretiva em razão do aumento do número de chefes.  
-E) A transformação imediata do modelo organizacional em departamentalização estritamente geográfica.  
+* **A)** O estreitamento da amplitude de controle e a verticalização da estrutura organizacional.
+* **B)** A eliminação da divisão do trabalho e a conversão automática para a estrutura linear pura.
+* **C)** O alargamento da amplitude de controle dos gestores e o achatamento (horizontalização) da estrutura organizacional.
+* **D)** A centralização absoluta de todas as decisões na cúpula diretiva em razão do aumento do número de chefes.
+* **E)** A transformação imediata do modelo organizacional em departamentalização estritamente geográfica.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Reduzir escalões faz o oposto: alarga a amplitude de controle e horizontaliza a estrutura.
@@ -345,11 +348,11 @@ E) A transformação imediata do modelo organizacional em departamentalização 
 ### Questão 4 (FCC – AL-AP – Analista Legislativo: Administração)
 Uma das etapas cruciais da função administrativa de Direção é a comunicação organizacional. A respeito dos fluxos comunicacionais e de suas barreiras nas organizações públicas, assinale a alternativa correta:
 
-A) O fluxo de comunicação descendente transporta prioritariamente relatórios de desempenho, pedidos de esclarecimento e sugestões de melhoria vindos da base operacional.  
-B) O fluxo horizontal ou lateral refere-se à troca de informações entre servidores situados no mesmo nível hierárquico, sendo indispensável para a coordenação interdepartamental.  
-C) Barreiras semânticas decorrem exclusivamente de falhas mecânicas nos equipamentos de transmissão e instabilidade nas redes de computadores.  
-D) A comunicação diagonal ocorre exclusivamente entre a chefia superior de um setor e os estagiários daquele mesmo departamento.  
-E) A ampliação de níveis hierárquicos em estruturas verticais favorece a fidelidade da mensagem e elimina qualquer possibilidade de ruído comunicacional.  
+* **A)** O fluxo de comunicação descendente transporta prioritariamente relatórios de desempenho, pedidos de esclarecimento e sugestões de melhoria vindos da base operacional.
+* **B)** O fluxo horizontal ou lateral refere-se à troca de informações entre servidores situados no mesmo nível hierárquico, sendo indispensável para a coordenação interdepartamental.
+* **C)** Barreiras semânticas decorrem exclusivamente de falhas mecânicas nos equipamentos de transmissão e instabilidade nas redes de computadores.
+* **D)** A comunicação diagonal ocorre exclusivamente entre a chefia superior de um setor e os estagiários daquele mesmo departamento.
+* **E)** A ampliação de níveis hierárquicos em estruturas verticais favorece a fidelidade da mensagem e elimina qualquer possibilidade de ruído comunicacional.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Relatórios, dúvidas e sugestões vindos da base para a chefia constituem o fluxo **ascendente**. O fluxo descendente transmite diretrizes, metas e normas do topo para a base.
@@ -365,11 +368,11 @@ E) A ampliação de níveis hierárquicos em estruturas verticais favorece a fid
 ### Questão 5 (FCC – DPE-RS – Analista: Área Administrativa)
 No âmbito da administração contemporânea, o processo administrativo de controle desdobra-se em três momentos temporais fundamentais: prévio, concomitante e posterior. Constitui exemplo típico de controle prévio (preventivo) no setor público:
 
-A) A análise da prestação de contas do ordenador de despesa efetuada pelo Tribunal de Contas após o encerramento do exercício financeiro.  
-B) A aplicação de penalidade contratual de multa a uma empresa fornecedora que entregou bens com defeito de fabricação.  
-C) A medição semanal em tempo real do avanço físico de uma rodovia estadual pelo fiscal da administração durante a execução da obra.  
-D) A exigência de apresentação prévia de certidões de regularidade fiscal e habilitação jurídica no edital antes da contratação da empresa licitante.  
-E) A realização de auditoria de conformidade ex post destinada a quantificar o dano ao erário decorrente de sobrepreço em contrato encerrado.  
+* **A)** A análise da prestação de contas do ordenador de despesa efetuada pelo Tribunal de Contas após o encerramento do exercício financeiro.
+* **B)** A aplicação de penalidade contratual de multa a uma empresa fornecedora que entregou bens com defeito de fabricação.
+* **C)** A medição semanal em tempo real do avanço físico de uma rodovia estadual pelo fiscal da administração durante a execução da obra.
+* **D)** A exigência de apresentação prévia de certidões de regularidade fiscal e habilitação jurídica no edital antes da contratação da empresa licitante.
+* **E)** A realização de auditoria de conformidade ex post destinada a quantificar o dano ao erário decorrente de sobrepreço em contrato encerrado.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A análise de contas após o encerramento do exercício financeiro é um controle **posterior (ex post)**.

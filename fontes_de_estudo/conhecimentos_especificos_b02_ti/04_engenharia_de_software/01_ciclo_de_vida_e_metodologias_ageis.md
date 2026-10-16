@@ -16,27 +16,27 @@
 
 ## 🧭 Sumário
 - [1. Fundamentos de Engenharia de Software e Processos](#1-fundamentos-de-engenharia-de-software-e-processos)
-  - [1.1 Escopo da Engenharia de Software e a Crise do Software](#11-escopo-da-engenharia-de-software-e-a-crise-do-software)
-  - [1.2 Atividades Genéricas de Processo de Software](#12-atividades-genéricas-de-processo-de-software)
-  - [1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)](#13-modelos-de-maturidade-de-processo-cmmi-e-mpsbr)
+    - [1.1 Escopo da Engenharia de Software e a Crise do Software](#11-escopo-da-engenharia-de-software-e-a-crise-do-software)
+    - [1.2 Atividades Genéricas de Processo de Software](#12-atividades-genéricas-de-processo-de-software)
+    - [1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)](#13-modelos-de-maturidade-de-processo-cmmi-e-mpsbr)
 - [2. Modelos de Ciclo de Vida de Software](#2-modelos-de-ciclo-de-vida-de-software)
-  - [2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V](#21-abordagem-preditiva-modelo-cascata-waterfall-e-modelo-v)
-  - [2.2 Abordagem Iterativa e Incremental: Modelo Espiral e RUP](#22-abordagem-iterativa-e-incremental-modelo-espiral-e-rup)
-  - [2.3 Abordagem Adaptativa / Ágil: O Manifesto Ágil de 2001](#23-abordagem-adaptativa--ágil-o-manifesto-ágil-de-2001)
-  - [2.4 Abordagens Híbridas de Desenvolvimento](#24-abordagens-híbridas-de-desenvolvimento)
+    - [2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V](#21-abordagem-preditiva-modelo-cascata-waterfall-e-modelo-v)
+    - [2.2 Abordagem Iterativa e Incremental: Modelo Espiral e RUP](#22-abordagem-iterativa-e-incremental-modelo-espiral-e-rup)
+    - [2.3 Abordagem Adaptativa / Ágil: O Manifesto Ágil de 2001](#23-abordagem-adaptativa--ágil-o-manifesto-ágil-de-2001)
+    - [2.4 Abordagens Híbridas de Desenvolvimento](#24-abordagens-híbridas-de-desenvolvimento)
 - [3. O Framework Scrum (Guia Scrum 2020)](#3-o-framework-scrum-guia-scrum-2020)
-  - [3.1 Pilares do Empirismo e Valores Fundamentais](#31-pilares-do-empirismo-e-valores-fundamentais)
-  - [3.2 Estrutura do Scrum Team e Responsabilidades](#32-estrutura-do-scrum-team-e-responsabilidades)
-  - [3.3 Eventos Formais do Scrum e Regras de Time-box](#33-eventos-formais-do-scrum-e-regras-de-time-box)
-  - [3.4 Artefatos Oficiais e seus Três Compromissos Formais](#34-artefatos-oficiais-e-seus-três-compromissos-formais)
-  - [3.5 Métricas e Gráficos de Acompanhamento (Burndown e Burnup)](#35-métricas-e-gráficos-de-acompanhamento-burndown-e-burnup)
+    - [3.1 Pilares do Empirismo e Valores Fundamentais](#31-pilares-do-empirismo-e-valores-fundamentais)
+    - [3.2 Estrutura do Scrum Team e Responsabilidades](#32-estrutura-do-scrum-team-e-responsabilidades)
+    - [3.3 Eventos Formais do Scrum e Regras de Time-box](#33-eventos-formais-do-scrum-e-regras-de-time-box)
+    - [3.4 Artefatos Oficiais e seus Três Compromissos Formais](#34-artefatos-oficiais-e-seus-três-compromissos-formais)
+    - [3.5 Métricas e Gráficos de Acompanhamento (Burndown e Burnup)](#35-métricas-e-gráficos-de-acompanhamento-burndown-e-burnup)
 - [4. Método Kanban e Gestão do Fluxo de Valor](#4-método-kanban-e-gestão-do-fluxo-de-valor)
-  - [4.1 Princípios e Práticas Gerais do Kanban](#41-princípios-e-práticas-gerais-do-kanban)
-  - [4.2 Limites de Trabalho em Progresso (WIP) e Gargalos](#42-limites-de-trabalho-em-progresso-wip-e-gargalos)
-  - [4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD](#43-métricas-de-fluxo-lead-time-cycle-time-throughput-e-cfd)
+    - [4.1 Princípios e Práticas Gerais do Kanban](#41-princípios-e-práticas-gerais-do-kanban)
+    - [4.2 Limites de Trabalho em Progresso (WIP) e Gargalos](#42-limites-de-trabalho-em-progresso-wip-e-gargalos)
+    - [4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD](#43-métricas-de-fluxo-lead-time-cycle-time-throughput-e-cfd)
 - [5. Extreme Programming (XP) e Lean Software Development](#5-extreme-programming-xp-e-lean-software-development)
-  - [5.1 Extreme Programming: Valores e Práticas de Engenharia](#51-extreme-programming-valores-e-práticas-de-engenharia)
-  - [5.2 Lean Software Development e Eliminação dos 7 Desperdícios](#52-lean-software-development-e-eliminação-dos-7-desperdícios)
+    - [5.1 Extreme Programming: Valores e Práticas de Engenharia](#51-extreme-programming-valores-e-práticas-de-engenharia)
+    - [5.2 Lean Software Development e Eliminação dos 7 Desperdícios](#52-lean-software-development-e-eliminação-dos-7-desperdícios)
 - [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referências-bibliográficas)
 - [7. Questões de Concurso FCC Comentadas](#7-questões-de-concurso-fcc-comentadas)
 
@@ -48,13 +48,14 @@
 A Engenharia de Software é a disciplina de engenharia dedicada ao estabelecimento e uso de sólidos princípios e métodos sistemáticos, disciplinados e quantificáveis para o desenvolvimento, operação e manutenção de software de alta qualidade dentro de custos e prazos previsíveis.
 - **A Crise do Software:** O termo emergiu formalmente na Conferência da OTAN (NATO Conference) em 1968, em Garmisch, motivado pela incapacidade sistemática da indústria de entregar sistemas confiáveis dentro do orçamento e cronograma. Os projetos sofriam rotineiramente com estouros orçamentários astronômicos, atrasos severos, código repleto de defeitos e sistemas que não atendiam às necessidades reais dos usuários.
 - **Fatores da Complexidade do Software (Frederick Brooks - *No Silver Bullet*):** Brooks dividiu a complexidade em duas dimensões:
-  - *Complexidade Essencial:* Intrínseca à natureza do software (conformidade legal mutável, invisibilidade, complexidade inerente ao domínio do negócio);
-  - *Complexidade Acidental:* Relacionada às limitações transitórias da tecnologia utilizada (compiladores rudimentares, falta de ferramentas de integração ou linguagens de baixo nível). Não há "bala de prata" tecnológica capaz de quadruplicar a produtividade por si só.
+    - *Complexidade Essencial:* Intrínseca à natureza do software (conformidade legal mutável, invisibilidade, complexidade inerente ao domínio do negócio);
+    - *Complexidade Acidental:* Relacionada às limitações transitórias da tecnologia utilizada (compiladores rudimentares, falta de ferramentas de integração ou linguagens de baixo nível). Não há "bala de prata" tecnológica capaz de quadruplicar a produtividade por si só.
 
 ---
 
 ### 1.2 Atividades Genéricas de Processo de Software
 Independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a literatura clássica de engenharia de software (Pressman e Sommerville) mapeia cinco atividades genéricas de processo:
+
 1. **Comunicação:** Cooperação contínua e levantamento de requisitos junto a clientes e partes interessadas (*stakeholders*);
 2. **Planejamento:** Estimativas de esforço, alocação de recursos, definição de entregáveis, cronograma e análise de riscos;
 3. **Modelagem:** Elaboração de arquitetura de software, diagramação de modelos conceituais, fluxos de dados e especificações detalhadas de design;
@@ -65,11 +66,11 @@ Independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a li
 
 ### 1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)
 - **CMMI (Capability Maturity Model Integration):** Desenvolvido pelo SEI (Software Engineering Institute), estrutura a capacidade e maturidade de organizações em 5 níveis escalonados:
-  - *Nível 1 (Inicial):* Processos imprevisíveis, reativos e caóticos; o sucesso depende do esforço heróico individual;
-  - *Nível 2 (Gerenciado):* Projetos planejados, medidos e controlados em nível de projeto;
-  - *Nível 3 (Definido):* Processos corporativos padronizados e integrados em toda a organização;
-  - *Nível 4 (Quantitativamente Gerenciado):* Processos controlados estatisticamente mediante métricas rigorosas de desempenho;
-  - *Nível 5 (Em Otimização):* Foco na melhoria contínua e inovação sistemática de processos.
+    - *Nível 1 (Inicial):* Processos imprevisíveis, reativos e caóticos; o sucesso depende do esforço heróico individual;
+    - *Nível 2 (Gerenciado):* Projetos planejados, medidos e controlados em nível de projeto;
+    - *Nível 3 (Definido):* Processos corporativos padronizados e integrados em toda a organização;
+    - *Nível 4 (Quantitativamente Gerenciado):* Processos controlados estatisticamente mediante métricas rigorosas de desempenho;
+    - *Nível 5 (Em Otimização):* Foco na melhoria contínua e inovação sistemática de processos.
 - **MPS.BR (Melhoria de Processo do Software Brasileiro):** Modelo nacional alinhado às normas ISO/IEC 12207 e 15504, subdividido em 7 níveis de maturidade decrescentes em letras (do nível G - Parcialmente Gerenciado até o nível A - Em Otimização).
 
 ---
@@ -95,30 +96,30 @@ flowchart TD
 
 ### 2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V
 - **Modelo Cascata (Royce, 1970):** Caracteriza-se por uma progressão linear, estritamente sequencial entre as fases do ciclo de vida. Uma fase subsequente somente é iniciada quando todos os artefatos da fase anterior estiverem totalmente concluídos, documentados e formalmente aprovados (*gates* de transição).
-  - *Vantagens:* Estrutura rígida de fácil controle gerencial para projetos com requisitos absolutamente estáveis, bem compreendidos e sem previsão de mudanças tecnológicas.
-  - *Desvantagens:* Inflexibilidade severa para absorver mudanças; o software só ganha forma executável nas fases finais do projeto, postergando a percepção de valor e a identificação de defeitos críticos para o encerramento do cronograma.
+    - *Vantagens:* Estrutura rígida de fácil controle gerencial para projetos com requisitos absolutamente estáveis, bem compreendidos e sem previsão de mudanças tecnológicas.
+    - *Desvantagens:* Inflexibilidade severa para absorver mudanças; o software só ganha forma executável nas fases finais do projeto, postergando a percepção de valor e a identificação de defeitos críticos para o encerramento do cronograma.
 - **Modelo V (Verificação e Validação):** Variação direta do modelo cascata que explicita o pareamento simétrico entre cada fase de especificação/desenvolvimento e a sua correspondente fase de testes:
-  - Requisitos de Negócio $\longleftrightarrow$ Testes de Aceitação;
-  - Requisitos de Sistema $\longleftrightarrow$ Testes de Sistema;
-  - Design Arquitetural $\longleftrightarrow$ Testes de Integração;
-  - Design Detalhado de Módulos $\longleftrightarrow$ Testes Unitários.
+    - Requisitos de Negócio $\longleftrightarrow$ Testes de Aceitação;
+    - Requisitos de Sistema $\longleftrightarrow$ Testes de Sistema;
+    - Design Arquitetural $\longleftrightarrow$ Testes de Integração;
+    - Design Detalhado de Módulos $\longleftrightarrow$ Testes Unitários.
 
 ---
 
 ### 2.2 Abordagem Iterativa e Incremental: Modelo Espiral e RUP
 - **Conceito de Iteração vs. Incremento:**
-  - *Iterativo:* O software é desenvolvido por meio de repetições sucessivas de ciclos de desenvolvimento, refinando progressivamente a solução.
-  - *Incremental:* A cada ciclo concluído, uma porção utilizável e funcional do software é acrescida à versão anterior.
+    - *Iterativo:* O software é desenvolvido por meio de repetições sucessivas de ciclos de desenvolvimento, refinando progressivamente a solução.
+    - *Incremental:* A cada ciclo concluído, uma porção utilizável e funcional do software é acrescida à versão anterior.
 - **Modelo Espiral (Barry Boehm, 1988):** Modelo orientado a riscos (*risk-driven*), no qual o desenvolvimento progride em ciclos espirais contínuos compostos por quatro quadrantes obrigatórios:
-  1. *Determinação de objetivos, alternativas e restrições;*
-  2. *Identificação e resolução de riscos* (análise de risco, prototipação e simulações);
-  3. *Desenvolvimento e validação do produto do nível atual;*
-  4. *Planejamento da próxima fase.*
+    1. *Determinação de objetivos, alternativas e restrições;*
+    2. *Identificação e resolução de riscos* (análise de risco, prototipação e simulações);
+    3. *Desenvolvimento e validação do produto do nível atual;*
+    4. *Planejamento da próxima fase.*
 - **Processo Unificado (RUP - Rational Unified Process):** Metodologia iterativa e incremental orientada por Casos de Uso e centrada na Arquitetura de Software. Estrutura-se em quatro fases temporais sequenciais:
-  1. *Iniciação (Inception):* Estabelecimento do escopo de negócio e viabilidade;
-  2. *Elaboração (Elaboration):* Mapeamento profundo dos requisitos, mitigação de riscos maiores e estabilização da arquitetura executável básica;
-  3. *Construção (Construction):* Desenvolvimento em larga escala e codificação de todos os componentes;
-  4. *Transição (Transition):* Implantação, homologação, treinamento dos usuários e passagem para operação.
+    1. *Iniciação (Inception):* Estabelecimento do escopo de negócio e viabilidade;
+    2. *Elaboração (Elaboration):* Mapeamento profundo dos requisitos, mitigação de riscos maiores e estabilização da arquitetura executável básica;
+    3. *Construção (Construction):* Desenvolvimento em larga escala e codificação de todos os componentes;
+    4. *Transição (Transition):* Implantação, homologação, treinamento dos usuários e passagem para operação.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A característica mais cobrada pela FCC a respeito do Modelo Espiral de Boehm é a **gestão explícita e sistemática de riscos** (*risk analysis*) em cada espira. Se a questão mencionar "modelo direcionado pela mitigação contínua de riscos através de prototipação em cada volta do ciclo", marque com segurança o **Modelo Espiral**.
 
@@ -140,6 +141,7 @@ Em fevereiro de 2001, em Snowbird (Utah), dezessete líderes de desenvolvimento 
 
 ### 2.4 Abordagens Híbridas de Desenvolvimento
 Reconhecem que o mundo corporativo raramente opera em extremos absolutos. Um projeto híbrido pode adotar:
+
 - Abordagem preditiva no planejamento macro de escopo, contratação pública e cronograma de alto nível (governança tradicional);
 - Abordagem adaptativa/ágil na execução das iterações técnicas pelas equipes de desenvolvimento (com Sprints Scrum, gestão visual Kanban e testes contínuos).
 
@@ -160,29 +162,31 @@ graph LR
 
 ### 3.1 Pilares do Empirismo e Valores Fundamentais
 O Scrum é um framework leve que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos. Alicerça-se no **Empirismo** e no pensamento **Lean**:
+
 - **Três Pilares Empíricos:**
-  1. *Transparência:* Processos e artefatos devem ser visíveis para todos os responsáveis pelos resultados;
-  2. *Inspeção:* O progresso rumo aos objetivos deve ser examinado com frequência diligente para identificar anomalias;
-  3. *Adaptação:* Havendo desvios inaceitáveis, os ajustes operacionais devem ser implementados no menor tempo viável.
+    1. *Transparência:* Processos e artefatos devem ser visíveis para todos os responsáveis pelos resultados;
+    2. *Inspeção:* O progresso rumo aos objetivos deve ser examinado com frequência diligente para identificar anomalias;
+    3. *Adaptação:* Havendo desvios inaceitáveis, os ajustes operacionais devem ser implementados no menor tempo viável.
 - **Cinco Valores do Scrum:** Compromisso (*Commitment*), Foco (*Focus*), Abertura (*Openness*), Respeito (*Respect*) e Coragem (*Courage*).
 
 ---
 
 ### 3.2 Estrutura do Scrum Team e Responsabilidades
 No Guia Scrum oficial de 2020, o **Scrum Team** é a unidade fundamental de trabalho, caracterizado por ser **multifuncional** (possui todas as habilidades necessárias para entregar o incremento) e **autogerenciado** (*self-managing* - a equipe decide internamente *quem*, *o que* e *como* fazer). O time compõe-se de três papéis/responsabilidades:
+
 1. **Product Owner (PO):**
-   - Responsável por **maximizar o valor do produto** resultante do trabalho do time;
-   - Única pessoa responsável pela gestão eficaz do **Product Backlog** (criação, ordenação, clareza e comunicação dos itens de backlog);
-   - Representa os interesses dos stakeholders; suas decisões devem ser respeitadas por toda a organização.
+    - Responsável por **maximizar o valor do produto** resultante do trabalho do time;
+    - Única pessoa responsável pela gestão eficaz do **Product Backlog** (criação, ordenação, clareza e comunicação dos itens de backlog);
+    - Representa os interesses dos stakeholders; suas decisões devem ser respeitadas por toda a organização.
 2. **Scrum Master (SM):**
-   - Responsável por promover e apoiar o Scrum conforme definido no Guia;
-   - Atua como um **líder que serve** (*true leader who serves*);
-   - Remove impedimentos externos que bloqueiam o avanço dos Desenvolvedores;
-   - Facilita os eventos do Scrum e garante a eficácia e a melhoria dos processos do time.
+    - Responsável por promover e apoiar o Scrum conforme definido no Guia;
+    - Atua como um **líder que serve** (*true leader who serves*);
+    - Remove impedimentos externos que bloqueiam o avanço dos Desenvolvedores;
+    - Facilita os eventos do Scrum e garante a eficácia e a melhoria dos processos do time.
 3. **Desenvolvedores (Developers):**
-   - Pessoas do Scrum Team comprometidas em criar qualquer aspecto de um **Incremento utilizável a cada Sprint**;
-   - Criam o plano para a Sprint (Sprint Backlog);
-   - Adaptam o plano diariamente na Daily Scrum e responsabilizam-se pela qualidade aplicando a Definição de Pronto (*DoD*).
+    - Pessoas do Scrum Team comprometidas em criar qualquer aspecto de um **Incremento utilizável a cada Sprint**;
+    - Criam o plano para a Sprint (Sprint Backlog);
+    - Adaptam o plano diariamente na Daily Scrum e responsabilizam-se pela qualidade aplicando a Definição de Pronto (*DoD*).
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > 1. No Guia 2020 **NÃO existe mais o papel "Time de Desenvolvimento" (Development Team)**. Existe apenas o *Scrum Team*, formado por PO, Scrum Master e Desenvolvedores. Não há subtimes nem hierarquias internas!  
@@ -209,11 +213,11 @@ Todos os eventos no Scrum possuem duração máxima pré-fixada (**time-box**):
 Cada um dos três artefatos do Scrum contém um **compromisso formal** associado (introduzido formalmente no Guia 2020) para fornecer transparência e foco:
 
 1. **Product Backlog** $\longrightarrow$ Compromisso: **Meta do Produto (*Product Goal*)**  
-   - O Product Backlog é a lista ordenada e emergente de tudo o que é necessário para melhorar o produto. A Meta do Produto descreve o estado futuro que serve como alvo de longo prazo para o Scrum Team.
+    - O Product Backlog é a lista ordenada e emergente de tudo o que é necessário para melhorar o produto. A Meta do Produto descreve o estado futuro que serve como alvo de longo prazo para o Scrum Team.
 2. **Sprint Backlog** $\longrightarrow$ Compromisso: **Meta da Sprint (*Sprint Goal*)**  
-   - O Sprint Backlog é composto pela Meta da Sprint (o porquê), o conjunto de itens selecionados do Product Backlog (o quê) e o plano de ação detalhado (o como). A Meta da Sprint é o objetivo único acordado para a iteração, que não muda durante a sua execução.
+    - O Sprint Backlog é composto pela Meta da Sprint (o porquê), o conjunto de itens selecionados do Product Backlog (o quê) e o plano de ação detalhado (o como). A Meta da Sprint é o objetivo único acordado para a iteração, que não muda durante a sua execução.
 3. **Incremento** $\longrightarrow$ Compromisso: **Definição de Pronto (*Definition of Done - DoD*)**  
-   - O Incremento é um degrau concreto rumo à Meta do Produto. No momento em que um item do Product Backlog atende à Definição de Pronto, um novo Incremento nasce. A DoD é a descrição formal dos critérios de qualidade exigidos para que o item seja considerado pronto para uso.
+    - O Incremento é um degrau concreto rumo à Meta do Produto. No momento em que um item do Product Backlog atende à Definição de Pronto, um novo Incremento nasce. A DoD é a descrição formal dos critérios de qualidade exigidos para que o item seja considerado pronto para uso.
 
 ---
 
@@ -229,17 +233,18 @@ Cada um dos três artefatos do Scrum contém um **compromisso formal** associado
 Concebido por David J. Anderson com base no Sistema Toyota de Produção, o método Kanban é uma abordagem evolucionária e não prescritiva para gestão de fluxos de trabalho do conhecimento.
 - **Princípios de Gestão de Mudança:** Comece com o que você faz hoje; busque mudança evolucionária e incremental; respeite os papéis, responsabilidades e títulos atuais; incentive liderança em todos os níveis.
 - **Práticas Gerais do Kanban:**
-  1. *Visualizar o fluxo de trabalho* (quadro Kanban com colunas de status);
-  2. *Limitar o Trabalho em Progresso (WIP)*;
-  3. *Gerenciar o fluxo*;
-  4. *Tornar as políticas de processo explícitas*;
-  5. *Implementar ciclos de feedback (cadências)*;
-  6. *Melhorar colaborativamente e evoluir experimentalmente*.
+    1. *Visualizar o fluxo de trabalho* (quadro Kanban com colunas de status);
+    2. *Limitar o Trabalho em Progresso (WIP)*;
+    3. *Gerenciar o fluxo*;
+    4. *Tornar as políticas de processo explícitas*;
+    5. *Implementar ciclos de feedback (cadências)*;
+    6. *Melhorar colaborativamente e evoluir experimentalmente*.
 
 ---
 
 ### 4.2 Limites de Trabalho em Progresso (WIP) e Gargalos
 O Kanban opera como um **sistema puxado (*pull system*)**:
+
 - **Limite de WIP (Work In Progress):** Cada coluna do quadro possui um teto máximo de itens permitidos simultaneamente (ex.: a coluna "Testes" com WIP = 3).
 - **Efeito Prático:** Impede a sobrecarga da equipe, reduz o desperdício de troca de contexto (*context switching*) e torna imediatamente visíveis os **gargalos** de produção. Se uma coluna atingir o limite de WIP, a etapa anterior é impedida de empurrar novos itens, forçando os membros da equipe a colaborar para destravar o gargalo (*"Pare de começar e comece a terminar!"*).
 
@@ -250,8 +255,8 @@ O Kanban opera como um **sistema puxado (*pull system*)**:
 - **Cycle Time:** É o tempo em que a equipe técnica esteve ativamente trabalhando no desenvolvimento do item (desde que o cartão foi puxado para a primeira coluna de execução até a conclusão da tarefa);
 - **Throughput (Vazão):** Quantidade de itens entregues e concluídos por unidade de tempo (ex.: 12 tarefas por semana);
 - **Diagrama de Fluxo Cumulativo (CFD - Cumulative Flow Diagram):** Gráfico de áreas empilhadas que ilustra o número cumulativo de itens em cada fase do processo ao longo do tempo:
-  - *Distância Vertical:* Mostra a quantidade de Trabalho em Progresso (WIP) em um dado instante;
-  - *Distância Horizontal:* Revela o Lead Time aproximado dos itens. Bandas com inclinação constante indicam fluxo estável e previsível.
+    - *Distância Vertical:* Mostra a quantidade de Trabalho em Progresso (WIP) em um dado instante;
+    - *Distância Horizontal:* Revela o Lead Time aproximado dos itens. Bandas com inclinação constante indicam fluxo estável e previsível.
 
 ---
 
@@ -261,15 +266,15 @@ O Kanban opera como um **sistema puxado (*pull system*)**:
 Criado por Kent Beck, o Extreme Programming (XP) é uma metodologia ágil voltada à excelência técnica e engenharia de software para times pequenos e médios submetidos a requisitos vagos e altamente dinâmicos.
 - **Cinco Valores do XP:** Comunicação, Simplicidade, Feedback, Coragem e Respeito.
 - **Práticas de Engenharia Centrais (Cobrança Constante em Concursos):**
-  1. **Programação em Par (*Pair Programming*):** Dois desenvolvedores trabalham simultaneamente em uma única estação de trabalho. O **Driver (Piloto)** assume o teclado e digita o código com foco no detalhe imediato; o **Navigator (Copiloto)** analisa estrategicamente a solução, checa erros de sintaxe, avalia impactos arquiteturais e elabora casos de teste adicionais;
-  2. **Test-Driven Development (TDD):** Desenvolvimento guiado por testes mediante o ciclo contínuo **Red-Green-Refactor**:
-     - *Red:* Escrever um teste automatizado que falha (pois a funcionalidade ainda não existe);
-     - *Green:* Escrever o código mínimo de produção suficiente para fazer o teste passar;
-     - *Refactor:* Limpar e aprimorar o código-fonte (eliminando duplicações), garantindo que todos os testes continuem passando;
-  3. **Refatoração Contínua (*Refactoring*):** Melhoria da estrutura interna do código sem alterar seu comportamento observável externo;
-  4. **Propriedade Coletiva do Código (*Collective Ownership*):** Qualquer desenvolvedor do time tem liberdade e responsabilidade para alterar qualquer módulo do sistema para corrigir defeitos ou implementar melhorias;
-  5. **Integração Contínua (*Continuous Integration*):** Código integrado e testado no repositório compartilhado várias vezes ao dia;
-  6. **Design Simples:** O código atende a todos os testes, expressa com clareza a intenção, não possui duplicações (DRY - *Don't Repeat Yourself*) e contém o menor número possível de classes e métodos (YAGNI - *You Aren't Gonna Need It*).
+    1. **Programação em Par (*Pair Programming*):** Dois desenvolvedores trabalham simultaneamente em uma única estação de trabalho. O **Driver (Piloto)** assume o teclado e digita o código com foco no detalhe imediato; o **Navigator (Copiloto)** analisa estrategicamente a solução, checa erros de sintaxe, avalia impactos arquiteturais e elabora casos de teste adicionais;
+    2. **Test-Driven Development (TDD):** Desenvolvimento guiado por testes mediante o ciclo contínuo **Red-Green-Refactor**:
+    - *Red:* Escrever um teste automatizado que falha (pois a funcionalidade ainda não existe);
+    - *Green:* Escrever o código mínimo de produção suficiente para fazer o teste passar;
+    - *Refactor:* Limpar e aprimorar o código-fonte (eliminando duplicações), garantindo que todos os testes continuem passando;
+    3. **Refatoração Contínua (*Refactoring*):** Melhoria da estrutura interna do código sem alterar seu comportamento observável externo;
+    4. **Propriedade Coletiva do Código (*Collective Ownership*):** Qualquer desenvolvedor do time tem liberdade e responsabilidade para alterar qualquer módulo do sistema para corrigir defeitos ou implementar melhorias;
+    5. **Integração Contínua (*Continuous Integration*):** Código integrado e testado no repositório compartilhado várias vezes ao dia;
+    6. **Design Simples:** O código atende a todos os testes, expressa com clareza a intenção, não possui duplicações (DRY - *Don't Repeat Yourself*) e contém o menor número possível de classes e métodos (YAGNI - *You Aren't Gonna Need It*).
 
 ---
 

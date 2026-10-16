@@ -9,43 +9,43 @@
 
 ## 📌 Ementa / Itens do Edital
 - Regime Jurídico dos Servidores Públicos Civis do Estado de Goiás (Lei Estadual nº 20.756/2020):
-  - Disposições preliminares: conceito de servidor público, cargo público de provimento efetivo e em comissão, classe, padrão e quadro de pessoal;
-  - Provimento de cargos públicos: forma originária (nomeação) e formas derivadas (reintegração, recondução, reversão, aproveitamento e readaptação);
-  - Concurso público: requisitos, validade, prorrogação e reserva legal de vagas para pessoas com deficiência;
-  - Posse e Exercício: requisitos legais, prazos rigorosos (30 dias para posse e 15 dias para exercício) e consequências jurídicas do não comparecimento (ato sem efeito x exoneração de ofício);
-  - Estágio Probatório: período de 3 (três) anos (36 meses) de efetivo exercício, comissão de avaliação, critérios taxativos avaliados e consequências da inaptidão (exoneração ou recondução);
-  - Estabilidade constitucional e hipóteses de perda do cargo público;
-  - Vacância do cargo público: exoneração, demissão, readaptação, aposentadoria, posse em outro cargo inacumulável e falecimento;
-  - Direitos e vantagens pecuniárias: vencimento básico, remuneração, indenizações (diárias, ajuda de custo e transporte), gratificações e adicionais;
-  - Regime de férias, licenças e afastamentos remunerados e não remunerados;
-  - Regime Disciplinar: deveres funcionais, vedações e proibições;
-  - Penalidades disciplinares: advertência, suspensão (limite máximo de 90 dias e conversão em multa), demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão ou função de confiança;
-  - Prescrição da pretensão punitiva disciplinar: prazos de 5 anos, 2 anos e 180 dias; termo inicial e causas de interrupção;
-  - Processo Administrativo Disciplinar (PAD) e Sindicância: fases procedimentais (instauração, inquérito administrativo com instrução, defesa e relatório, e julgamento);
+    - Disposições preliminares: conceito de servidor público, cargo público de provimento efetivo e em comissão, classe, padrão e quadro de pessoal;
+    - Provimento de cargos públicos: forma originária (nomeação) e formas derivadas (reintegração, recondução, reversão, aproveitamento e readaptação);
+    - Concurso público: requisitos, validade, prorrogação e reserva legal de vagas para pessoas com deficiência;
+    - Posse e Exercício: requisitos legais, prazos rigorosos (30 dias para posse e 15 dias para exercício) e consequências jurídicas do não comparecimento (ato sem efeito x exoneração de ofício);
+    - Estágio Probatório: período de 3 (três) anos (36 meses) de efetivo exercício, comissão de avaliação, critérios taxativos avaliados e consequências da inaptidão (exoneração ou recondução);
+    - Estabilidade constitucional e hipóteses de perda do cargo público;
+    - Vacância do cargo público: exoneração, demissão, readaptação, aposentadoria, posse em outro cargo inacumulável e falecimento;
+    - Direitos e vantagens pecuniárias: vencimento básico, remuneração, indenizações (diárias, ajuda de custo e transporte), gratificações e adicionais;
+    - Regime de férias, licenças e afastamentos remunerados e não remunerados;
+    - Regime Disciplinar: deveres funcionais, vedações e proibições;
+    - Penalidades disciplinares: advertência, suspensão (limite máximo de 90 dias e conversão em multa), demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão ou função de confiança;
+    - Prescrição da pretensão punitiva disciplinar: prazos de 5 anos, 2 anos e 180 dias; termo inicial e causas de interrupção;
+    - Processo Administrativo Disciplinar (PAD) e Sindicância: fases procedimentais (instauração, inquérito administrativo com instrução, defesa e relatório, e julgamento);
 - Plano de Cargos, Carreiras e Remuneração dos Servidores do TCE-GO (Lei Estadual nº 15.122/2005 e alterações):
-  - Estrutura da Carreira de Controle Externo: Analista de Controle Externo e Técnico de Controle Externo (Especialidades Administrativa e TI);
-  - Atribuições típicas do cargo de Técnico de Controle Externo;
-  - Desenvolvimento funcional: Progressão Funcional (horizontal, entre padrões da mesma classe) e Promoção Funcional (vertical, entre classes da carreira);
-  - Requisitos de interstício temporal, avaliação periódica de desempenho e capacitação continuada na Escola Superior de Controle Externo do TCE-GO;
-  - Estrutura remuneratória: vencimento base, Gratificação de Controle Externo (GCE) e adicional de qualificação.
+    - Estrutura da Carreira de Controle Externo: Analista de Controle Externo e Técnico de Controle Externo (Especialidades Administrativa e TI);
+    - Atribuições típicas do cargo de Técnico de Controle Externo;
+    - Desenvolvimento funcional: Progressão Funcional (horizontal, entre padrões da mesma classe) e Promoção Funcional (vertical, entre classes da carreira);
+    - Requisitos de interstício temporal, avaliação periódica de desempenho e capacitação continuada na Escola Superior de Controle Externo do TCE-GO;
+    - Estrutura remuneratória: vencimento base, Gratificação de Controle Externo (GCE) e adicional de qualificação.
 
 ---
 
 ## 🧭 Sumário
 - [1. Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei nº 20.756/2020)](#1-estatuto-dos-servidores-públicos-civis-do-estado-de-goiás-lei-nº-207562020)
-  - [1.1 Conceito de Servidor, Cargo Público e Formas de Provimento](#11-conceito-de-servidor-cargo-público-e-formas-de-provimento)
-  - [1.2 Posse e Exercício: Prazos e Consequências do Descumprimento](#12-posse-e-exercício-prazos-e-consequências-do-descumprimento)
-  - [1.3 Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão](#13-estágio-probatório-fatores-de-avaliação-e-hipóteses-de-inaptidão)
-  - [1.4 Vacância do Cargo Público](#14-vacância-do-cargo-público)
-  - [1.5 Direitos, Vantagens Pecuniárias, Férias e Licenças](#15-direitos-vantagens-pecuniárias-férias-e-licenças)
-  - [1.6 Regime Disciplinar: Deveres, Proibições e Penalidades](#16-regime-disciplinar-deveres-proibições-e-penalidades)
-  - [1.7 Prescrição da Pretensão Punitiva Disciplinar](#17-prescrição-da-pretensão-punitiva-disciplinar)
-  - [1.8 Sindicância e Processo Administrativo Disciplinar (PAD)](#18-sindicância-e-processo-administrativo-disciplinar-pad)
+    - [1.1 Conceito de Servidor, Cargo Público e Formas de Provimento](#11-conceito-de-servidor-cargo-público-e-formas-de-provimento)
+    - [1.2 Posse e Exercício: Prazos e Consequências do Descumprimento](#12-posse-e-exercício-prazos-e-consequências-do-descumprimento)
+    - [1.3 Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão](#13-estágio-probatório-fatores-de-avaliação-e-hipóteses-de-inaptidão)
+    - [1.4 Vacância do Cargo Público](#14-vacância-do-cargo-público)
+    - [1.5 Direitos, Vantagens Pecuniárias, Férias e Licenças](#15-direitos-vantagens-pecuniárias-férias-e-licenças)
+    - [1.6 Regime Disciplinar: Deveres, Proibições e Penalidades](#16-regime-disciplinar-deveres-proibições-e-penalidades)
+    - [1.7 Prescrição da Pretensão Punitiva Disciplinar](#17-prescrição-da-pretensão-punitiva-disciplinar)
+    - [1.8 Sindicância e Processo Administrativo Disciplinar (PAD)](#18-sindicância-e-processo-administrativo-disciplinar-pad)
 - [2. Plano de Cargos, Carreiras e Remuneração do TCE-GO (Lei nº 15.122/2005)](#2-plano-de-cargos-carreiras-e-remuneração-do-tce-go-lei-nº-151222005)
-  - [2.1 Estrutura do Quadro Efetivo do TCE-GO](#21-estrutura-do-quadro-efetivo-do-tce-go)
-  - [2.2 Atribuições Legais do Técnico de Controle Externo](#22-atribuições-legais-do-técnico-de-controle-externo)
-  - [2.3 Desenvolvimento Funcional: Progressão Horizontal vs. Promoção Vertical](#23-desenvolvimento-funcional-progressão-horizontal-vs-promoção-vertical)
-  - [2.4 Estrutura Remuneratória e Vantagens Específicas do Tribunal](#24-estrutura-remuneratória-e-vantagens-específicas-do-tribunal)
+    - [2.1 Estrutura do Quadro Efetivo do TCE-GO](#21-estrutura-do-quadro-efetivo-do-tce-go)
+    - [2.2 Atribuições Legais do Técnico de Controle Externo](#22-atribuições-legais-do-técnico-de-controle-externo)
+    - [2.3 Desenvolvimento Funcional: Progressão Horizontal vs. Promoção Vertical](#23-desenvolvimento-funcional-progressão-horizontal-vs-promoção-vertical)
+    - [2.4 Estrutura Remuneratória e Vantagens Específicas do Tribunal](#24-estrutura-remuneratória-e-vantagens-específicas-do-tribunal)
 - [3. Fontes Oficiais e Referências Bibliográficas](#3-fontes-oficiais-e-referências-bibliográficas)
 - [4. Questões de Concurso FCC Comentadas](#4-questões-de-concurso-fcc-comentadas)
 
@@ -85,11 +85,11 @@ graph TD
 ```
 
 - **Prazos Oficiais:**
-  - **Posse:** Deve ocorrer no prazo de **trinta (30) dias** contados da data da publicação oficial do ato de provimento (nomeação), prorrogável por igual período a requerimento justificado do interessado.
-  - **Exercício:** É o efetivo desempenho das atribuições do cargo público. O prazo para o servidor empossado entrar em exercício é de **quinze (15) dias**, contados da data da posse.
+    - **Posse:** Deve ocorrer no prazo de **trinta (30) dias** contados da data da publicação oficial do ato de provimento (nomeação), prorrogável por igual período a requerimento justificado do interessado.
+    - **Exercício:** É o efetivo desempenho das atribuições do cargo público. O prazo para o servidor empossado entrar em exercício é de **quinze (15) dias**, contados da data da posse.
 - **Distinção Crítica das Consequências:**
-  - Se o nomeado **NÃO tomar posse** no prazo legal de 30 dias: o ato de nomeação será tornado **SEM EFEITO** (a pessoa ainda não é servidora, logo não se pode exonerar quem nunca tomou posse!).
-  - Se o nomeado **tomar posse, mas NÃO entrar em exercício** no prazo legal de 15 dias: o servidor será **EXONERADO DE OFÍCIO**.
+    - Se o nomeado **NÃO tomar posse** no prazo legal de 30 dias: o ato de nomeação será tornado **SEM EFEITO** (a pessoa ainda não é servidora, logo não se pode exonerar quem nunca tomou posse!).
+    - Se o nomeado **tomar posse, mas NÃO entrar em exercício** no prazo legal de 15 dias: o servidor será **EXONERADO DE OFÍCIO**.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A banca FCC rotineiramente inverte as consequências: afirma que quem não toma posse é exonerado, ou que quem não entra em exercício tem o ato tornado sem efeito. Grave esta correlação imediata: **Não tomou posse $\rightarrow$ ato SEM EFEITO**. **Tomou posse mas não entrou em exercício $\rightarrow$ EXONERAÇÃO DE OFÍCIO**.
 
@@ -99,20 +99,21 @@ graph TD
 Ao entrar em exercício, o servidor nomeado para cargo de provimento efetivo cumpre **estágio probatório por período de 3 (três) anos** (36 meses) de efetivo exercício, durante o qual sua aptidão e idoneidade serão avaliadas por comissão constituída para essa finalidade.
 
 - **Critérios Legais Avaliados no Estágio (Art. 31 da Lei nº 20.756/2020):**
-  1. **Assiduidade**;
-  2. **Pontualidade**;
-  3. **Disciplina**;
-  4. **Iniciativa**;
-  5. **Produtividade e qualidade** no trabalho;
-  6. **Responsabilidade**.
+    1. **Assiduidade**;
+    2. **Pontualidade**;
+    3. **Disciplina**;
+    4. **Iniciativa**;
+    5. **Produtividade e qualidade** no trabalho;
+    6. **Responsabilidade**.
 - **Consequências da Inaptidão / Reprovação no Estágio Probatório:**
-  - Se o servidor era **recém-ingressante** no serviço público (não possuía estabilidade anterior no Estado de Goiás): é **exonerado de ofício** daquele cargo;
-  - Se o servidor **já era estável** em cargo público estadual anterior: é **reconduzido** ao cargo de origem anteriormente ocupado, sem direito a indenização.
+    - Se o servidor era **recém-ingressante** no serviço público (não possuía estabilidade anterior no Estado de Goiás): é **exonerado de ofício** daquele cargo;
+    - Se o servidor **já era estável** em cargo público estadual anterior: é **reconduzido** ao cargo de origem anteriormente ocupado, sem direito a indenização.
 
 ---
 
 ### 1.4 Vacância do Cargo Público
 A vacância de cargo público decorre de fatos funcionais taxativos previstos em lei:
+
 1. **Exoneração:** Não tem caráter punitivo. Pode ocorrer a pedido do próprio servidor ou de ofício (quando não satisfeitas as condições do estágio probatório, quando o servidor empossado não entrar em exercício, ou para ajuste fiscal do art. 169 da CF);
 2. **Demissão:** Penalidade disciplinar de caráter punitivo imposta pela prática de falta funcional de natureza grave;
 3. **Readaptação:** Provimento no novo cargo compatível com a limitação e vacância simultânea do cargo originário;
@@ -124,12 +125,12 @@ A vacância de cargo público decorre de fatos funcionais taxativos previstos em
 
 ### 1.5 Direitos, Vantagens Pecuniárias, Férias e Licenças
 - **Vencimento vs. Remuneração:**
-  - *Vencimento:* É a retribuição pecuniária básica fixada em lei para o padrão ocupado pelo servidor no cargo público efetivo.
-  - *Remuneração:* É o vencimento do cargo efetivo acrescido das vantagens pecuniárias de caráter permanente estabelecidas em lei.
+    - *Vencimento:* É a retribuição pecuniária básica fixada em lei para o padrão ocupado pelo servidor no cargo público efetivo.
+    - *Remuneração:* É o vencimento do cargo efetivo acrescido das vantagens pecuniárias de caráter permanente estabelecidas em lei.
 - **Indenizações (Não incorporam aos proventos nem sofrem incidência de imposto de renda ou previdência):**
-  - **Diárias:** Indenização por despesas extraordinárias de alimentação e pousada quando o servidor se desloca a serviço do seu município de lotação;
-  - **Ajuda de Custo:** Indenização para cobrir despesas de mudança e instalação quando o servidor for transferido de ofício para ter exercício em nova localidade;
-  - **Indenização de Transporte:** Paga ao servidor que realizar despesas com a utilização de meio próprio de locomoção para execução de serviços externos.
+    - **Diárias:** Indenização por despesas extraordinárias de alimentação e pousada quando o servidor se desloca a serviço do seu município de lotação;
+    - **Ajuda de Custo:** Indenização para cobrir despesas de mudança e instalação quando o servidor for transferido de ofício para ter exercício em nova localidade;
+    - **Indenização de Transporte:** Paga ao servidor que realizar despesas com a utilização de meio próprio de locomoção para execução de serviços externos.
 - **Férias:** O servidor faz jus a **30 (trinta) dias de férias anuais** remuneradas, pagas com acréscimo de **1/3 (um terço) constitucional**. É vedada a acumulação de mais de dois períodos de férias por absoluta necessidade do serviço.
 - **Licenças Estatutárias:** Licença para tratamento da própria saúde; por motivo de doença em pessoa da família; maternidade (180 dias); paternidade (20 dias); capacitação profissional (até 3 meses a cada quinquênio trabalhado); e para desempenho de mandato classista.
 
@@ -148,16 +149,17 @@ graph TD
 
 - **Advertência:** Aplicada por escrito em caso de inobservância de dever funcional ou falta leve, para a qual a lei não comine expressamente sanção mais gravosa.
 - **Suspensão:** Aplicada em caso de reincidência em falta punida com advertência ou prática de falta média.
-  - **Limite Temporal Rigoroso:** A suspensão **não pode exceder a noventa (90) dias**.
-  - **Conversão em Multa:** Quando houver conveniência para o serviço público, a penalidade de suspensão poderá ser convertida em multa na base de **50% (cinquenta por cento)** por dia de remuneração, ficando o servidor obrigado a permanecer em serviço.
+    - **Limite Temporal Rigoroso:** A suspensão **não pode exceder a noventa (90) dias**.
+    - **Conversão em Multa:** Quando houver conveniência para o serviço público, a penalidade de suspensão poderá ser convertida em multa na base de **50% (cinquenta por cento)** por dia de remuneração, ficando o servidor obrigado a permanecer em serviço.
 - **Demissão:** Penalidade expulsiva aplicável nos casos de infrações disciplinares gravíssimas:
-  - Crime contra a administração pública e improbidade administrativa;
-  - **Abandono de Cargo:** Ausência intencional do servidor ao serviço por mais de **trinta (30) dias consecutivos**;
-  - **Inassiduidade Habitual:** Falta injustificada ao serviço por **sessenta (60) dias interpolados** durante o período de doze meses;
-  - Corrupção passiva, concussão, recebimento de propina, aceitação de vantagem indevida ou revelação de segredo funcional de que tenha conhecimento em razão do cargo.
+    - Crime contra a administração pública e improbidade administrativa;
+    - **Abandono de Cargo:** Ausência intencional do servidor ao serviço por mais de **trinta (30) dias consecutivos**;
+    - **Inassiduidade Habitual:** Falta injustificada ao serviço por **sessenta (60) dias interpolados** durante o período de doze meses;
+    - Corrupção passiva, concussão, recebimento de propina, aceitação de vantagem indevida ou revelação de segredo funcional de que tenha conhecimento em razão do cargo.
 - **Cassação de Aposentadoria ou Disponibilidade:** Aplicada ao inativo que tenha praticado, na atividade, falta grave para a qual seja cominada a pena de demissão.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Grave a distinção entre abandono e inassiduidade:
+>
 > - **Abandono de Cargo:** mais de **30 dias consecutivos**.
 > - **Inassiduidade Habitual:** **60 dias interpolados** em 12 meses.
 > Ambas as condutas são faltas graves sancionadas compulsoriamente com **DEMISSÃO** após apuração formal em PAD.
@@ -166,6 +168,7 @@ graph TD
 
 ### 1.7 Prescrição da Pretensão Punitiva Disciplinar
 A ação disciplinar para imposição de penalidades aos servidores públicos prescreve nos seguintes prazos legais:
+
 - **Cinco (5) anos:** Para infrações disciplinares puníveis com **demissão**, **cassação de aposentadoria ou disponibilidade** e **destituição de cargo em comissão ou função de confiança**;
 - **Dois (2) anos:** Para infrações puníveis com **suspensão**;
 - **Cento e oitenta (180) dias:** Para infrações puníveis com **advertência**.
@@ -176,10 +179,11 @@ A ação disciplinar para imposição de penalidades aos servidores públicos pr
 
 ### 1.8 Sindicância e Processo Administrativo Disciplinar (PAD)
 O PAD é o procedimento contraditório formal destinado a apurar a responsabilidade de servidor público por infração funcional praticada no exercício de suas atribuições:
+
 - Desenvolve-se nas seguintes fases sequenciais:
-  1. **Instauração:** Publicação da portaria designando comissão processante tripartite (composta por três servidores estáveis);
-  2. **Inquérito Administrativo:** Subdivide-se em instrução probatória (oitiva de testemunhas, juntada de perícias e documentos), defesa (citação do acusado para apresentação de defesa escrita) e relatório conclusivo minucioso da comissão;
-  3. **Julgamento:** Decisão fundamentada proferida pela autoridade competente para a aplicação da penalidade.
+    1. **Instauração:** Publicação da portaria designando comissão processante tripartite (composta por três servidores estáveis);
+    2. **Inquérito Administrativo:** Subdivide-se em instrução probatória (oitiva de testemunhas, juntada de perícias e documentos), defesa (citação do acusado para apresentação de defesa escrita) e relatório conclusivo minucioso da comissão;
+    3. **Julgamento:** Decisão fundamentada proferida pela autoridade competente para a aplicação da penalidade.
 
 ---
 
@@ -187,15 +191,17 @@ O PAD é o procedimento contraditório formal destinado a apurar a responsabilid
 
 ### 2.1 Estrutura do Quadro Efetivo do TCE-GO
 A **Lei Estadual nº 15.122, de 04 de fevereiro de 2005**, organiza o Plano de Cargos, Carreiras e Remuneração (PCCR) dos servidores do Tribunal de Contas do Estado de Goiás. O quadro de provimento efetivo do TCE-GO é estruturado em duas carreiras técnicas:
+
 1. **Analista de Controle Externo:** Nível de escolaridade superior. Atuação finalística em auditorias, inspeções, instrução técnica de processos complexos de contas e fiscalização orçamentária e operacional.
 2. **Técnico de Controle Externo:** Nível técnico/intermediário superior. Compreende especialidades voltadas ao suporte operacional, instrução procedimental e gestão de sistemas:
-   - **Especialidade Técnico Administrativo (Cargo A01):** Gestão administrativa, apoio ao processamento de autos, gestão de contratos internos, compras, almoxarifado, patrimônio e apoio aos gabinetes de Conselheiros e Secretarias de Câmaras;
-   - **Especialidade Tecnologia da Informação (Cargo B02):** Suporte técnico operacional de infraestrutura de TI, atendimento aos usuários de sistemas internos, gerenciamento de redes, segurança da informação, suporte a bancos de dados e desenvolvimento/manutenção de softwares de auditoria eletrônica.
+    - **Especialidade Técnico Administrativo (Cargo A01):** Gestão administrativa, apoio ao processamento de autos, gestão de contratos internos, compras, almoxarifado, patrimônio e apoio aos gabinetes de Conselheiros e Secretarias de Câmaras;
+    - **Especialidade Tecnologia da Informação (Cargo B02):** Suporte técnico operacional de infraestrutura de TI, atendimento aos usuários de sistemas internos, gerenciamento de redes, segurança da informação, suporte a bancos de dados e desenvolvimento/manutenção de softwares de auditoria eletrônica.
 
 ---
 
 ### 2.2 Atribuições Legais do Técnico de Controle Externo
 Nos termos da Lei nº 15.122/2005 e regulamentos internos da Corte, incumbe ao Técnico de Controle Externo:
+
 - Executar atividades e rotinas de nível técnico voltadas ao apoio do controle externo e da administração geral do Tribunal;
 - Operacionalizar softwares de triagem, alimentação de bancos de dados processuais e gestão eletrônica de autos;
 - Prestar suporte logístico e administrativo às equipes de fiscalização e inspeção externa;
@@ -230,6 +236,7 @@ graph LR
 
 ### 2.4 Estrutura Remuneratória e Vantagens Específicas do Tribunal
 A remuneração dos servidores efetivos do TCE-GO é composta por:
+
 - **Vencimento Básico:** Fixado nas tabelas salariais da Lei nº 15.122/2005 de acordo com a classe e padrão de evolução;
 - **Gratificação de Controle Externo (GCE):** Vantagem pecuniária vinculada ao exercício de atividades de fiscalização e suporte técnico no âmbito da Corte de Contas;
 - **Adicional de Qualificação:** Concedido em percentuais legais com base na conclusão de cursos de pós-graduação (*lato sensu*, mestrado ou doutorado) em áreas de interesse do Tribunal de Contas, incentivando o contínuo aprimoramento técnico do corpo de servidores.

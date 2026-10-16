@@ -9,20 +9,20 @@
 ## 📌 Ementa / Itens do Edital
 - Fundamentos do Comportamento Organizacional (CO): conceito, objetivos científicos (descrever, explicar, prever e controlar o comportamento) e os três níveis de análise de Stephen Robbins (nível individual, grupal e do sistema organizacional);
 - O Comportamento Individual nas organizações:
-  - Personalidade: determinantes (hereditariedade vs. ambiente), o modelo dos Cinco Grandes Fatores (*Big Five*: Extroversão, Agradabilidade, Conscienciosidade, Estabilidade Emocional e Abertura a Experiências);
-  - Traços de personalidade específicos: *Locus* de controle interno versus externo, autoeficácia (Bandura), maquiavelismo, autoestima e automonitoramento;
-  - Emoções e sentimentos no ambiente de trabalho; o conceito de Inteligência Emocional (Daniel Goleman);
+    - Personalidade: determinantes (hereditariedade vs. ambiente), o modelo dos Cinco Grandes Fatores (*Big Five*: Extroversão, Agradabilidade, Conscienciosidade, Estabilidade Emocional e Abertura a Experiências);
+    - Traços de personalidade específicos: *Locus* de controle interno versus externo, autoeficácia (Bandura), maquiavelismo, autoestima e automonitoramento;
+    - Emoções e sentimentos no ambiente de trabalho; o conceito de Inteligência Emocional (Daniel Goleman);
 - Valores, Atitudes e Satisfação no Trabalho:
-  - Atitudes: componentes cognitivo (crença/saber), afetivo (sentimento) e comportamental (intenção de ação);
-  - Dissonância Cognitiva (Leon Festinger): desconforto mental e estratégias de harmonização interna;
-  - Satisfação no trabalho e as três dimensões do Comprometimento Organizacional (Meyer e Allen: Afetivo, Instrumental/Continuação e Normativo);
+    - Atitudes: componentes cognitivo (crença/saber), afetivo (sentimento) e comportamental (intenção de ação);
+    - Dissonância Cognitiva (Leon Festinger): desconforto mental e estratégias de harmonização interna;
+    - Satisfação no trabalho e as três dimensões do Comprometimento Organizacional (Meyer e Allen: Afetivo, Instrumental/Continuação e Normativo);
 - Teorias da Motivação no Trabalho:
-  - **Teorias de Conteúdo (O que motiva as pessoas?):**
+    - **Teorias de Conteúdo (O que motiva as pessoas?):**
     - Hierarquia das Necessidades Humanas de Abraham Maslow;
     - Teoria dos Dois Fatores de Frederick Herzberg (Fatores Higiênicos vs. Fatores Motivacionais);
     - Teoria ERC de Clayton Alderfer (Existência, Relacionamento e Crescimento) e o princípio de frustração-regressão;
     - Teoria das Necessidades Adquiridas de David McClelland (Realização, Poder e Afiliação);
-  - **Teorias de Processo (Como ocorre a dinâmica motivacional?):**
+    - **Teorias de Processo (Como ocorre a dinâmica motivacional?):**
     - Teoria da Expectativa / Expectância de Victor Vroom (Força Motivacional = Expectativa $\times$ Instrumentalidade $\times$ Valência);
     - Teoria da Equidade de J. Stacy Adams (comparação da relação insumos/recompensas com os pares);
     - Teoria do Estabelecimento de Metas de Edwin Locke (metas específicas e desafiadoras com *feedback*);
@@ -92,12 +92,14 @@ flowchart LR
 ### 3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional
 
 Uma **atitude** é um estado mental de prontidão organizado pela experiência, manifestado em juízos avaliativos (favoráveis ou desfavoráveis) sobre objetos, pessoas ou eventos. Estrutura-se em três componentes indissociáveis:
+
 * **Componente Cognitivo:** O saber, a crença, a opinião ou o conhecimento fático sobre o objeto (ex.: "A auditoria pública combate a corrupção").
 * **Componente Afetivo:** A dimensão emocional ou sentimento em relação ao objeto (ex.: "Tenho orgulho de atuar no Tribunal de Contas").
 * **Componente Comportamental:** A intenção explícita de agir ou se comportar de determinado modo (ex.: "Vou me dedicar com rigor na elaboração do relatório de fiscalização").
 
 #### Dissonância Cognitiva (Leon Festinger):
 Fenômeno caracterizado por desconforto e tensão psicológica profunda quando o indivíduo percebe inconsistência entre duas atitudes ou entre sua atitude pessoal e seu comportamento concreto. Para mitigar essa tensão interna, o sujeito tende a:
+
 1. Mudar o seu comportamento concreto;
 2. Alterar a sua crença/atitude pessoal para justificar o ato; ou
 3. Desenvolver justificativas racionais e argumentos atenuantes.
@@ -118,6 +120,7 @@ As **teorias de conteúdo** buscam identificar e explicar *o que* motiva as pess
 
 #### A) Hierarquia das Necessidades Humanas de Abraham Maslow:
 As necessidades humanas organizam-se em uma pirâmide progressiva e hierárquica:
+
 1. **Necessidades Fisiológicas (Base):** Alimentação, repouso, sono, abrigo e conforto térmico.
 2. **Necessidades de Segurança:** Estabilidade no cargo, proteção física, remuneração previsível e plano de saúde.
 3. **Necessidades Sociais (Amor/Afiliação):** Amizades no setor, aceitação pelos pares e clima harmônico de trabalho.
@@ -151,6 +154,7 @@ flowchart TD
 
 #### C) Teoria ERC de Clayton Alderfer:
 Condensou os níveis de Maslow em três necessidades essenciais:
+
 * **E**xistência (fisiológicas e de segurança);
 * **R**elacionamento (sociais e consideração externa);
 * **C**rescimento (estima interna e autorrealização).
@@ -158,6 +162,7 @@ Condensou os níveis de Maslow em três necessidades essenciais:
 
 #### D) Teoria das Necessidades Adquiridas de David McClelland:
 Afirma que a motivação dos indivíduos é moldada por três necessidades essenciais adquiridas ao longo da socialização:
+
 1. **Necessidade de Realização (*nAch*):** Busca incessante por excelência, superação de padrões difíceis e assunção de riscos calculados.
 2. **Necessidade de Poder (*nPow*):** Desejo de influenciar, liderar, controlar e orientar o comportamento de terceiros.
 3. **Necessidade de Afiliação (*nAff*):** Desejo de estabelecer relacionamentos interpessoais amigáveis, cooperação e aceitação mútua.
@@ -197,12 +202,14 @@ $$\frac{\text{Recompensas Próprias}}{\text{Insumos Próprios}} \quad \text{vers
 
 #### C) Teoria do Estabelecimento de Metas de Edwin Locke:
 Comprovou empiricamente que:
+
 * Metas **específicas, mensuráveis e desafiadoras** conduzem a desempenhos significativamente mais elevados do que metas fáceis ou genéricas ("faça o melhor que puder");
 * O fornecimento de **feedback constante** é indispensável para orientar e sustentar o empenho do indivíduo;
 * A **participação dos servidores** na fixação das metas eleva substancialmente seu nível de comprometimento com o resultado final.
 
 #### D) Teoria do Reforço de B.F. Skinner:
 Abordagem comportamentalista segundo a qual o comportamento é condicionado por suas consequências ambientais:
+
 * **Reforço Positivo:** Apresentação de um estímulo agradável (elogio, bônus) após a conduta desejada, aumentando a probabilidade de sua repetição.
 * **Reforço Negativo:** Remoção de uma consequência desagradável quando o indivíduo adota a conduta desejada (ex.: cessação de cobranças diárias quando o servidor entrega o relatório).
 * **Punição:** Aplicação de uma penalidade desagradável (advertência, corte salarial) para desestimular condutas censuráveis.

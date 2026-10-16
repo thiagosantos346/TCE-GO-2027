@@ -17,22 +17,22 @@
 ## 🧭 Sumário
 
 - [1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)](#1-linguagem-normativa-e-prescritiva-de-engenharia-rfc-2119--rfc-8174)
-  - [1.1 Os Níveis Normativos Canônicos](#11-os-níveis-normativos-canônicos)
-  - [1.2 Matriz de Conformidade Técnica da RFC 2119](#12-matriz-de-conformidade-técnica-da-rfc-2119)
+    - [1.1 Os Níveis Normativos Canônicos](#11-os-níveis-normativos-canônicos)
+    - [1.2 Matriz de Conformidade Técnica da RFC 2119](#12-matriz-de-conformidade-técnica-da-rfc-2119)
 - [2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)](#2-interpretação-de-documentação-de-apis-rest-openapi-swagger-e-graphql)
-  - [2.1 Estrutura de Rotas, Métodos HTTP e Idempotência](#21-estrutura-de-rotas-métodos-http-e-idempotência)
-  - [2.2 Parâmetros de Requisição e Schemas de Dados JSON](#22-parâmetros-de-requisição-e-schemas-de-dados-json)
-  - [2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta](#23-códigos-de-status-http-críticos-e-cabeçalhos-de-resposta)
-  - [2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)](#24-documentação-de-apis-graphql-queries-mutations-e-types)
+    - [2.1 Estrutura de Rotas, Métodos HTTP e Idempotência](#21-estrutura-de-rotas-métodos-http-e-idempotência)
+    - [2.2 Parâmetros de Requisição e Schemas de Dados JSON](#22-parâmetros-de-requisição-e-schemas-de-dados-json)
+    - [2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta](#23-códigos-de-status-http-críticos-e-cabeçalhos-de-resposta)
+    - [2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)](#24-documentação-de-apis-graphql-queries-mutations-e-types)
 - [3. Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas](#3-interpretação-de-manuais-técnicos-e-guias-de-configuração-de-sistemas)
-  - [3.1 Verbos Operacionais no Modo Imperativo](#31-verbos-operacionais-no-modo-imperativo)
-  - [3.2 Seções Estruturantes de um Manual de Implantação](#32-seções-estruturantes-de-um-manual-de-implantação)
-  - [3.3 Categorização e Gravidade das Advertências Técnicas](#33-categorização-e-gravidade-das-advertências-técnicas)
-  - [3.4 Ciclo de Vida: Deprecated vs. Decommissioned](#34-ciclo-de-vida-deprecated-vs-decommissioned)
+    - [3.1 Verbos Operacionais no Modo Imperativo](#31-verbos-operacionais-no-modo-imperativo)
+    - [3.2 Seções Estruturantes de um Manual de Implantação](#32-seções-estruturantes-de-um-manual-de-implantação)
+    - [3.3 Categorização e Gravidade das Advertências Técnicas](#33-categorização-e-gravidade-das-advertências-técnicas)
+    - [3.4 Ciclo de Vida: Deprecated vs. Decommissioned](#34-ciclo-de-vida-deprecated-vs-decommissioned)
 - [4. Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)](#4-leitura-crítica-de-artigos-científicos-e-papers-de-ti-ieee--acm--arxiv)
-  - [4.1 Anatomia Estrutural de um Artigo de Vanguarda](#41-anatomia-estrutural-de-um-artigo-de-vanguarda)
-  - [4.2 A Metodologia Three-Pass sob Pressão de Tempo de Prova](#42-a-metodologia-three-pass-sob-pressão-de-tempo-de-prova)
-  - [4.3 Léxico de Validação Experimental e Evidências Empíricas](#43-léxico-de-validação-experimental-e-evidências-empíricas)
+    - [4.1 Anatomia Estrutural de um Artigo de Vanguarda](#41-anatomia-estrutural-de-um-artigo-de-vanguarda)
+    - [4.2 A Metodologia Three-Pass sob Pressão de Tempo de Prova](#42-a-metodologia-three-pass-sob-pressão-de-tempo-de-prova)
+    - [4.3 Léxico de Validação Experimental e Evidências Empíricas](#43-léxico-de-validação-experimental-e-evidências-empíricas)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 - [6. Questões Comentadas & Exemplos (Padrão FCC)](#6-questões-comentadas--exemplos-padrão-fcc)
 
@@ -130,34 +130,34 @@ Nas especificações OpenAPI 3.0 / Swagger, os parâmetros distribuem-se em quat
 - **Path Parameters (`/taxpayers/{id}`):** Integram a hierarquia da URL e identificam instâncias unívocas de recursos. São invariavelmente obrigatórios.
 - **Query Parameters (`?fiscal_year=2026&status=audited&limit=50&offset=100`):** Utilizados para filtragem, ordenação (*sorting*) e paginação de coleções.
 - **Header Parameters:** Transportam metadados essenciais de rede e segurança:
-  - `Authorization: Bearer <token_jwt>`: Credencial criptográfica de autenticação.
-  - `Content-Type: application/json`: Informa a codificação do payload transmitido.
-  - `Accept: application/json`: Comunica o formato que o cliente está apto a receber.
+    - `Authorization: Bearer <token_jwt>`: Credencial criptográfica de autenticação.
+    - `Content-Type: application/json`: Informa a codificação do payload transmitido.
+    - `Accept: application/json`: Comunica o formato que o cliente está apto a receber.
 - **Request Body (Corpo da Requisição / Payload):** Estrutura hierárquica contendo os campos de dados:
-  - `required: true`: Sinaliza que o bloco ou os campos listados no array `required:` são indispensáveis. A omissão acarreta rejeição da mensagem.
-  - `properties`: Mapeia cada atributo com suas restrições de validação (`type: string`, `pattern: '^\d{14}$'`, `minimum: 0.0`).
+    - `required: true`: Sinaliza que o bloco ou os campos listados no array `required:` são indispensáveis. A omissão acarreta rejeição da mensagem.
+    - `properties`: Mapeia cada atributo com suas restrições de validação (`type: string`, `pattern: '^\d{14}$'`, `minimum: 0.0`).
 
 ### 2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta
 
 A compreensão precisa das famílias de códigos de status HTTP é intensamente avaliada em provas:
 
 - **Família 2xx (Success):**
-  - `200 OK`: Requisição bem-sucedida com retorno de dados.
-  - `201 Created`: Criação bem-sucedida de um novo recurso no servidor (resposta clássica a `POST`).
-  - `204 No Content`: Ação processada com êxito, sem corpo textual de retorno (comum em `DELETE`).
+    - `200 OK`: Requisição bem-sucedida com retorno de dados.
+    - `201 Created`: Criação bem-sucedida de um novo recurso no servidor (resposta clássica a `POST`).
+    - `204 No Content`: Ação processada com êxito, sem corpo textual de retorno (comum em `DELETE`).
 - **Família 4xx (Client Error - Erros Originados no Cliente):**
-  - `400 Bad Request`: Erro de sintaxe da requisição (JSON malformado, quebra de delimitadores, tipos primitivos ilegíveis).
-  - `401 Unauthorized`: Falha de **autenticação**. O cliente não forneceu credenciais válidas ou o token expirou.
-  - `403 Forbidden`: O cliente está autenticado com sucesso, mas suas permissões/papéis (*roles*) **não autorizam** o acesso à rota solicitada.
-  - `404 Not Found`: A URI solicitada não corresponde a nenhum recurso existente.
-  - `409 Conflict`: Conflito com o estado atual do recurso (ex.: tentativa de cadastrar registro com chave primária já existente).
-  - `422 Unprocessable Entity`: A sintaxe do JSON está impecável, mas os dados contêm **erros semânticos ou violações de regras de negócio** (ex.: valor negativo em receita declarada, CPF com dígitos verificadores inválidos).
-  - `429 Too Many Requests`: Limite de taxa de requisições excedido (*rate limiting / throttling*). Vem associado ao cabeçalho `Retry-After: <segundos>`, que estipula o tempo de espera obrigatório antes de nova tentativa.
+    - `400 Bad Request`: Erro de sintaxe da requisição (JSON malformado, quebra de delimitadores, tipos primitivos ilegíveis).
+    - `401 Unauthorized`: Falha de **autenticação**. O cliente não forneceu credenciais válidas ou o token expirou.
+    - `403 Forbidden`: O cliente está autenticado com sucesso, mas suas permissões/papéis (*roles*) **não autorizam** o acesso à rota solicitada.
+    - `404 Not Found`: A URI solicitada não corresponde a nenhum recurso existente.
+    - `409 Conflict`: Conflito com o estado atual do recurso (ex.: tentativa de cadastrar registro com chave primária já existente).
+    - `422 Unprocessable Entity`: A sintaxe do JSON está impecável, mas os dados contêm **erros semânticos ou violações de regras de negócio** (ex.: valor negativo em receita declarada, CPF com dígitos verificadores inválidos).
+    - `429 Too Many Requests`: Limite de taxa de requisições excedido (*rate limiting / throttling*). Vem associado ao cabeçalho `Retry-After: <segundos>`, que estipula o tempo de espera obrigatório antes de nova tentativa.
 - **Família 5xx (Server Error - Falhas Internas do Provedor):**
-  - `500 Internal Server Error`: Exceção inesperada não tratada pela aplicação.
-  - `502 Bad Gateway`: O proxy reverso ou gateway recebeu resposta corrompida do microsserviço de backend.
-  - `503 Service Unavailable`: Servidor temporariamente incapacitado por sobrecarga ou manutenção programada.
-  - `504 Gateway Timeout`: O gateway expirou aguardando a resposta do serviço interno.
+    - `500 Internal Server Error`: Exceção inesperada não tratada pela aplicação.
+    - `502 Bad Gateway`: O proxy reverso ou gateway recebeu resposta corrompida do microsserviço de backend.
+    - `503 Service Unavailable`: Servidor temporariamente incapacitado por sobrecarga ou manutenção programada.
+    - `504 Gateway Timeout`: O gateway expirou aguardando a resposta do serviço interno.
 
 > 💡 **Diferença Crítica FCC (401 vs. 403):**  
 > - **401 Unauthorized** $\rightarrow$ *Quem é você?* (Problema de Identidade / Autenticação).  
@@ -166,6 +166,7 @@ A compreensão precisa das famílias de códigos de status HTTP é intensamente 
 ### 2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)
 
 Diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o padrão GraphQL opera via endpoint único (`POST /graphql`). A documentação orienta-se por esquemas de tipagem estrita (*Schema Definition Language - SDL*):
+
 - **Query:** Operação de consulta somente-leitura.
 - **Mutation:** Operação de escrita que gera efeitos colaterais de criação, atualização ou remoção.
 - **Modifiers de Obrigatoriedade:** O caractere de exclamação `!` ao final do tipo indica campo não-nulo e mandatório (ex.: `id: ID!`, `revenue: Float!`).
@@ -179,6 +180,7 @@ Manuais operacionais de infraestrutura (Linux manpages, guias do Kubernetes, Pos
 ### 3.1 Verbos Operacionais no Modo Imperativo
 
 No manual técnico, instruções diretas abrem as sentenças com o verbo no infinitivo sem "to", expressando comando executivo:
+
 - **Ensure:** *"Ensure that NTP synchronization is active before joining nodes"* $\rightarrow$ *Garanta que* a sincronização de relógio esteja ativa.
 - **Provision:** *"Provision persistent storage classes with dynamic allocation"* $\rightarrow$ *Aloque / provisione* classes de armazenamento.
 - **Purge / Prune:** *"Prune unreferenced objects to recover disk blocks"* $\rightarrow$ *Expurgue / limpe* objetos não referenciados.
@@ -195,6 +197,7 @@ No manual técnico, instruções diretas abrem as sentenças com o verbo no infi
 ### 3.3 Categorização e Gravidade das Advertências Técnicas
 
 As caixas de alerta dos manuais de engenharia são padronizadas por nível de risco:
+
 - **Note / Tip (Nota / Dica):** Informação complementar útil ou sugestão de atalho operacional.
 - **Important (Importante):** Diretriz de conformidade essencial; sua inobservância causa mau funcionamento do serviço.
 - **Caution (Cuidado):** Risco de comportamento inesperado, degradação severa de desempenho ou instabilidade na topologia (ex.: formar clusters com número par de nós, arriscando *split-brain*).
@@ -241,9 +244,9 @@ flowchart TD
 Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de prova deve ser estratificada em camadas:
 
 - **Passada 1 (Abordagem Panorâmica - 3 a 5 minutos):** Leitura concentrada do título, do *Abstract*, da introdução preliminar e da conclusão final. Essa varredura inicial responde com clareza:
-  - Qual o problema central atacado pelo autor?
-  - A tecnologia proposta substitui ou aprimora os modelos vigentes?
-  - O tom é de refutação ou de proposição de nova técnica?
+    - Qual o problema central atacado pelo autor?
+    - A tecnologia proposta substitui ou aprimora os modelos vigentes?
+    - O tom é de refutação ou de proposição de nova técnica?
 - **Passada 2 (Varredura Analítica para Itens Específicos):** Inspeção de figuras de arquitetura, gráficos de desempenho e tabelas comparativas.
 
 ### 4.3 Léxico de Validação Experimental e Evidências Empíricas
@@ -283,11 +286,11 @@ Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de p
 
 According to the normative definitions established by RFC 2119, it is correct to deduce that:
 
-A) Compressing payloads larger than 100 kilobytes with gzip is an absolute requirement for client implementations.  
-B) Servers are strictly permitted to validate tokens signed with the 'none' algorithm in development environments.  
-C) Asymmetric RSA-256 signature is a recommended practice, meaning that valid reasons may exist to employ an alternative, but the full implications must be weighed.  
-D) Including a cryptographic JWT in the `Authorization` header is an optional feature that can be ignored at the client's discretion.  
-E) The term **"SHOULD"** in item 3 implies that asymmetric RSA-256 signature is strictly mandatory and cannot be substituted under any circumstances.  
+* **A)** Compressing payloads larger than 100 kilobytes with gzip is an absolute requirement for client implementations.
+* **B)** Servers are strictly permitted to validate tokens signed with the 'none' algorithm in development environments.
+* **C)** Asymmetric RSA-256 signature is a recommended practice, meaning that valid reasons may exist to employ an alternative, but the full implications must be weighed.
+* **D)** Including a cryptographic JWT in the `Authorization` header is an optional feature that can be ignored at the client's discretion.
+* **E)** The term **"SHOULD"** in item 3 implies that asymmetric RSA-256 signature is strictly mandatory and cannot be substituted under any circumstances.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O item 4 emprega o modal **"MAY"**, que expressa uma funcionalidade verdadeiramente opcional (*truly optional*), e não uma exigência absoluta.
@@ -318,11 +321,11 @@ Warning: 299 - "This endpoint is deprecated and will be decommissioned on 2027-0
 
 A partir da leitura técnica da documentação e dos cabeçalhos HTTP apresentados, é correto afirmar:
 
-A) A requisição foi processada com êxito pelo servidor, mas o cliente foi alertado de que o formato JSON é inválido.  
-B) O cliente excedeu a cota de requisições permitida (*rate limit*) e foi instruído, por meio do cabeçalho `Retry-After`, a aguardar 120 segundos antes de reenviar a chamada.  
-C) A mensagem `Warning` adverte que o serviço falhou catastroficamente e seus dados foram corrompidos permanentemente no banco de dados.  
-D) O termo *deprecated* indica que o endpoint acabou de ser atualizado para uma versão de maior desempenho recomendada para novas integrações.  
-E) O status 429 indica um erro interno de falha de infraestrutura no lado do servidor (*Internal Server Error*).  
+* **A)** A requisição foi processada com êxito pelo servidor, mas o cliente foi alertado de que o formato JSON é inválido.
+* **B)** O cliente excedeu a cota de requisições permitida (*rate limit*) e foi instruído, por meio do cabeçalho `Retry-After`, a aguardar 120 segundos antes de reenviar a chamada.
+* **C)** A mensagem `Warning` adverte que o serviço falhou catastroficamente e seus dados foram corrompidos permanentemente no banco de dados.
+* **D)** O termo *deprecated* indica que o endpoint acabou de ser atualizado para uma versão de maior desempenho recomendada para novas integrações.
+* **E)** O status 429 indica um erro interno de falha de infraestrutura no lado do servidor (*Internal Server Error*).
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Respostas com código 429 pertencem à classe de erros de cliente (4xx) e indicam rejeição temporária por estrangulamento de chamadas, e não sucesso de processamento.
@@ -384,11 +387,11 @@ III. O envio de um valor negativo para o campo `declared_revenue` gerará um sta
 
 Está correto o que se afirma em:
 
-A) I e II, apenas.  
-B) I e III, apenas.  
-C) II e III, apenas.  
-D) I, apenas.  
-E) I, II e III.  
+* **A)** I e II, apenas.
+* **B)** I e III, apenas.
+* **C)** II e III, apenas.
+* **D)** I, apenas.
+* **E)** I, II e III.
 
 > **Comentário Detalhado:**
 > - **A)** Correta. Apenas os itens I e II estão alinhados à especificação e às boas práticas de API:
@@ -413,11 +416,11 @@ E) I, II e III.
 
 Based on reading technical manuals and understanding operational directives, it is correct to state that:
 
-A) The manual indicates that synchronizing system clocks with NTP is an optional step that can be safely bypassed in multi-region deployments.  
-B) A clock drift higher than 250 milliseconds is considered normal and will not impact heartbeat communications between nodes.  
-C) The directive labeled **"Caution"** advises configuring an even number of voting nodes to maximize electoral redundancy during partitions.  
-D) According to the guide, a strict majority quorum is indispensable to elect a primary leader and prevent the emergence of conflicting writes in distinct partitions.  
-E) The text states that irrecoverable data divergence can be automatically repaired by the operating system without manual intervention.  
+* **A)** The manual indicates that synchronizing system clocks with NTP is an optional step that can be safely bypassed in multi-region deployments.
+* **B)** A clock drift higher than 250 milliseconds is considered normal and will not impact heartbeat communications between nodes.
+* **C)** The directive labeled **"Caution"** advises configuring an even number of voting nodes to maximize electoral redundancy during partitions.
+* **D)** According to the guide, a strict majority quorum is indispensable to elect a primary leader and prevent the emergence of conflicting writes in distinct partitions.
+* **E)** The text states that irrecoverable data divergence can be automatically repaired by the operating system without manual intervention.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A seção *Prerequisites* expressa um mandamento absoluto com o termo normativo **"MUST"** (*administrators MUST synchronize system clocks*), impedindo que o procedimento seja contornado (*bypassed*).
@@ -437,11 +440,11 @@ E) The text states that irrecoverable data divergence can be automatically repai
 
 Based on paper reading techniques (*Abstract comprehension*) and technical vocabulary, select the correct alternative:
 
-A) The authors conclude that conventional reactive autoscalers are superior to proactive pre-warming frameworks in handling sudden invocation spikes.  
-B) The term **"overhead"** in the last sentence refers to a 3% financial tax imposed by cloud service providers on serverless function invocations.  
-C) According to the abstract, *KubeWarm* is designed to wait until HTTP requests arrive before initiating any container runtime provisioning.  
-D) The connector **"However"** is used to introduce the primary drawback of serverless computing addressed by the paper: cold-start latency.  
-E) The proposed framework proved inefficient, as experimental results demonstrated a 42% increase in latency and higher server costs.  
+* **A)** The authors conclude that conventional reactive autoscalers are superior to proactive pre-warming frameworks in handling sudden invocation spikes.
+* **B)** The term **"overhead"** in the last sentence refers to a 3% financial tax imposed by cloud service providers on serverless function invocations.
+* **C)** According to the abstract, *KubeWarm* is designed to wait until HTTP requests arrive before initiating any container runtime provisioning.
+* **D)** The connector **"However"** is used to introduce the primary drawback of serverless computing addressed by the paper: cold-start latency.
+* **E)** The proposed framework proved inefficient, as experimental results demonstrated a 42% increase in latency and higher server costs.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A avaliação empírica do artigo evidencia a superioridade do modelo preditivo e proativo proposto (*KubeWarm*), o qual reduziu a latência de cauda em 42% e expurgou 87% das inicializações a frio frente aos modelos reativos tradicionais.

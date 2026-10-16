@@ -9,21 +9,21 @@
 ## 📌 Ementa / Itens do Edital
 - Diagnóstico do ambiente estratégico interno e externo;
 - **Análise SWOT (Matriz FOFA):**
-  - Mapeamento de Forças e Fraquezas (ambiente interno controlável) e Oportunidades e Ameaças (ambiente externo incontrolável);
-  - Matriz de Cruzamento Estratégico e as quatro posturas organizacionais: Alavancagem/Ofensiva, Reforço/Crescimento, Confronto/Manutenção e Sobrevivência;
+    - Mapeamento de Forças e Fraquezas (ambiente interno controlável) e Oportunidades e Ameaças (ambiente externo incontrolável);
+    - Matriz de Cruzamento Estratégico e as quatro posturas organizacionais: Alavancagem/Ofensiva, Reforço/Crescimento, Confronto/Manutenção e Sobrevivência;
 - **As Cinco Forças Competitivas de Michael Porter:**
-  - 1. Rivalidade entre os concorrentes estabelecidos na indústria;
-  - 2. Ameaça de novos entrantes e as barreiras à entrada (economias de escala, diferenciação de produto, capital inicial, custos de mudança e políticas estatais);
-  - 3. Poder de barganha dos compradores / clientes;
-  - 4. Poder de barganha dos fornecedores de insumos;
-  - 5. Ameaça de produtos ou serviços substitutos (soluções de outros setores);
+    - 1. Rivalidade entre os concorrentes estabelecidos na indústria;
+    - 2. Ameaça de novos entrantes e as barreiras à entrada (economias de escala, diferenciação de produto, capital inicial, custos de mudança e políticas estatais);
+    - 3. Poder de barganha dos compradores / clientes;
+    - 4. Poder de barganha dos fornecedores de insumos;
+    - 5. Ameaça de produtos ou serviços substitutos (soluções de outros setores);
 - As três Estratégias Genéricas de Michael Porter: Liderança em Custo Total, Diferenciação e Enfoque/Foco (e o risco do meio-termo / *stuck in the middle*);
 - **Visão Baseada em Recursos (RBV - *Resource-Based View* - Jay Barney):**
-  - Recursos tangíveis versus recursos intangíveis; premissas de heterogeneidade e imobilidade imperfeita;
-  - O Framework **VRIO:** Valor, Raridade, Inimitabilidade e Organização;
-  - Consequências competitivas: Desvantagem, Paridade, Vantagem Temporária e Vantagem Competitiva Sustentável;
+    - Recursos tangíveis versus recursos intangíveis; premissas de heterogeneidade e imobilidade imperfeita;
+    - O Framework **VRIO:** Valor, Raridade, Inimitabilidade e Organização;
+    - Consequências competitivas: Desvantagem, Paridade, Vantagem Temporária e Vantagem Competitiva Sustentável;
 - **Business Model Canvas (Alexander Osterwalder):**
-  - Os nove blocos de geração de valor organizacional: Proposta de Valor, Segmentos de Clientes, Canais, Relacionamento com Clientes, Fontes de Receita, Recursos Principais, Atividades-Chave, Parcerias Principais e Estrutura de Custos.
+    - Os nove blocos de geração de valor organizacional: Proposta de Valor, Segmentos de Clientes, Canais, Relacionamento com Clientes, Fontes de Receita, Recursos Principais, Atividades-Chave, Parcerias Principais e Estrutura de Custos.
 
 ---
 
@@ -89,10 +89,10 @@ flowchart TD
 #### As Cinco Forças Competitivas:
 1. **Rivalidade entre Concorrentes Estabelecidos:** Ponto central do modelo. Intensificada por fatores como: elevado número de concorrentes com forças semelhantes, lento crescimento do mercado, custos fixos altos e elevadas barreiras de saída (custos para abandonar o negócio).
 2. **Ameaça de Novos Entrantes:** Determinada pela solidez das **barreiras à entrada**, que representam dificuldades e custos impostos aos novatos, tais como:
-   - Economias de escala alcançadas pelas empresas consolidadas;
-   - Requisitos elevados de investimento de capital inicial;
-   - Custos de mudança (*switching costs*) incorridos pelo cliente ao trocar de marca;
-   - Políticas e regulamentações governamentais protetivas.
+    - Economias de escala alcançadas pelas empresas consolidadas;
+    - Requisitos elevados de investimento de capital inicial;
+    - Custos de mudança (*switching costs*) incorridos pelo cliente ao trocar de marca;
+    - Políticas e regulamentações governamentais protetivas.
 3. **Poder de Barganha dos Compradores (Clientes):** Alto quando os clientes compram em grandes volumes, os produtos oferecidos são padronizados/comoditizados e os custos de migração para outra empresa são insignificantes.
 4. **Poder de Barganha dos Fornecedores:** Elevado quando os fornecedores operam em mercado concentrado, o insumo fornecido é exclusivo ou crítico e inexistem produtos substitutos no mercado.
 5. **Ameaça de Produtos Substitutos:** Produtos ou serviços oriundos de **outros setores/indústrias** que desempenham a mesma função básica a um custo inferior ou com maior conveniência para o usuário.
@@ -112,6 +112,7 @@ flowchart TD
 Ao contrário dos modelos que olham prioritariamente para o mercado exterior (como Porter), a **Visão Baseada em Recursos (RBV - *Resource-Based View*)** sustenta que a fonte de vantagem competitiva sustentada e de desempenho superior das organizações reside em seu **ambiente interno**: nos recursos e capacidades que a organização possui e controla.
 
 A teoria parte de duas premissas essenciais:
+
 * **Heterogeneidade de Recursos:** As organizações possuem feixes de recursos e competências distintos entre si.
 * **Imobilidade Imperfeita de Recursos:** Os recursos essenciais não podem ser transferidos ou comprados livre e instantaneamente de uma entidade para outra.
 
@@ -137,9 +138,9 @@ flowchart TD
 1. **V - Valor:** O recurso permite à organização explorar uma oportunidade ambiental externa ou neutralizar uma ameaça?
 2. **R - Raridade:** O recurso é escasso e controlado por poucas entidades concorrentes?
 3. **I - Inimitabilidade:** As outras organizações enfrentam desvantagens de custo elevadas para reproduzir ou obter esse recurso? A inimitabilidade decorre de três barreiras clássicas:
-   - *Condições históricas únicas:* recursos desenvolvidos ao longo de trajetórias históricas irrepetíveis;
-   - *Ambiguidade causal:* os competidores não conseguem decifrar exatamente qual fator específico causa o sucesso da organização;
-   - *Complexidade social:* recursos enraizados em relações humanas, reputação, confiança mútua e cultura institucional.
+    - *Condições históricas únicas:* recursos desenvolvidos ao longo de trajetórias históricas irrepetíveis;
+    - *Ambiguidade causal:* os competidores não conseguem decifrar exatamente qual fator específico causa o sucesso da organização;
+    - *Complexidade social:* recursos enraizados em relações humanas, reputação, confiança mútua e cultura institucional.
 4. **O - Organização:** A instituição dispõe de desenho organizacional, sistemas de informação, liderança e governança estruturados para absorver e capitalizar plenamente o potencial desse recurso?
 
 > 🛑 **ATENÇÃO (VRIO E VANTAGEM SUSTENTÁVEL):**  

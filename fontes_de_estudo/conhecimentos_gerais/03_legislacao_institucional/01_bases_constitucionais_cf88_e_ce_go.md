@@ -9,47 +9,47 @@
 
 ## 📌 Ementa / Itens do Edital
 - Constituição da República Federativa do Brasil de 1988:
-  - Administração Pública: disposições gerais (Art. 37); princípios expressos e implícitos; investidura em cargo ou emprego público (concurso público, prazos e direitos do aprovado); regime de subsídios, remuneração e teto constitucional (subtetos estaduais); acumulação remunerada de cargos públicos; direito de greve e livre associação sindical;
-  - Servidores Públicos civis (Arts. 38 a 41): direitos funcionais, exercício de mandato eletivo, estabilidade após três anos de efetivo exercício, avaliação especial de desempenho e hipóteses taxativas de perda do cargo do servidor estável;
-  - Responsabilidade civil do Estado (Art. 37, § 6º): Teoria do Risco Administrativo, responsabilidade objetiva da Administração e das concessionárias, excludentes e atenuantes de responsabilidade, e ação regressiva subjetiva contra o agente público causador do dano;
-  - Fiscalização contábil, financeira, orçamentária, operacional e patrimonial (Arts. 70 e 71): controle externo e controle interno; sujeição subjetiva ao dever de prestar contas;
-  - Competências constitucionais dos Tribunais de Contas: apreciação de contas do Chefe do Poder Executivo vs. julgamento técnico de contas dos ordenadores de despesas; exame de atos de admissão de pessoal e concessão inicial de aposentadorias/pensões (ato complexo); medidas saneadoras e sustação de atos administrativos; rito constitucional para sustação de contratos administrativos e intervenção subsidiária; eficácia executiva das decisões condenatórias (título executivo extrajudicial - Art. 71, § 3º);
-  - Sistema de Controle Interno de cada Poder (Art. 74): finalidades, apoio ao controle externo e dever de comunicação sob pena de responsabilidade solidária;
-  - Princípio da Simetria Constitucional (Art. 75): aplicação obrigatória do modelo federal de fiscalização e composição aos Tribunais de Contas dos Estados, DF e Municípios;
+    - Administração Pública: disposições gerais (Art. 37); princípios expressos e implícitos; investidura em cargo ou emprego público (concurso público, prazos e direitos do aprovado); regime de subsídios, remuneração e teto constitucional (subtetos estaduais); acumulação remunerada de cargos públicos; direito de greve e livre associação sindical;
+    - Servidores Públicos civis (Arts. 38 a 41): direitos funcionais, exercício de mandato eletivo, estabilidade após três anos de efetivo exercício, avaliação especial de desempenho e hipóteses taxativas de perda do cargo do servidor estável;
+    - Responsabilidade civil do Estado (Art. 37, § 6º): Teoria do Risco Administrativo, responsabilidade objetiva da Administração e das concessionárias, excludentes e atenuantes de responsabilidade, e ação regressiva subjetiva contra o agente público causador do dano;
+    - Fiscalização contábil, financeira, orçamentária, operacional e patrimonial (Arts. 70 e 71): controle externo e controle interno; sujeição subjetiva ao dever de prestar contas;
+    - Competências constitucionais dos Tribunais de Contas: apreciação de contas do Chefe do Poder Executivo vs. julgamento técnico de contas dos ordenadores de despesas; exame de atos de admissão de pessoal e concessão inicial de aposentadorias/pensões (ato complexo); medidas saneadoras e sustação de atos administrativos; rito constitucional para sustação de contratos administrativos e intervenção subsidiária; eficácia executiva das decisões condenatórias (título executivo extrajudicial - Art. 71, § 3º);
+    - Sistema de Controle Interno de cada Poder (Art. 74): finalidades, apoio ao controle externo e dever de comunicação sob pena de responsabilidade solidária;
+    - Princípio da Simetria Constitucional (Art. 75): aplicação obrigatória do modelo federal de fiscalização e composição aos Tribunais de Contas dos Estados, DF e Municípios;
 - Constituição do Estado de Goiás (Arts. 26 a 33):
-  - Disposições relativas ao Tribunal de Contas do Estado de Goiás (TCE-GO): natureza jurídica, sede, jurisdição, autonomia institucional, funcional, administrativa e orçamentária;
-  - Composição do TCE-GO: os 7 Conselheiros e as regras rígidas de indicação e nomeação (4 pela Assembleia Legislativa de Goiás - ALEGO e 3 pelo Governador do Estado com aprovação legislativa);
-  - Vagas técnicas privativas do Governador: rodízio entre Conselheiros Substitutos (Auditores) e Membros do Ministério Público de Contas (MPC-GO);
-  - Requisitos constitucionais para nomeação de Conselheiro: idade (entre 35 e 70 anos), idoneidade moral, reputação ilibada, notório saber e mais de 10 anos de exercício de função;
-  - Garantias, prerrogativas, vencimentos e vedações dos Conselheiros (equiparadas às dos Desembargadores do Tribunal de Justiça do Estado de Goiás - TJ-GO);
-  - Competências específicas na Carta Estadual e prazos de apreciação de contas do Governador (60 dias contados do recebimento).
+    - Disposições relativas ao Tribunal de Contas do Estado de Goiás (TCE-GO): natureza jurídica, sede, jurisdição, autonomia institucional, funcional, administrativa e orçamentária;
+    - Composição do TCE-GO: os 7 Conselheiros e as regras rígidas de indicação e nomeação (4 pela Assembleia Legislativa de Goiás - ALEGO e 3 pelo Governador do Estado com aprovação legislativa);
+    - Vagas técnicas privativas do Governador: rodízio entre Conselheiros Substitutos (Auditores) e Membros do Ministério Público de Contas (MPC-GO);
+    - Requisitos constitucionais para nomeação de Conselheiro: idade (entre 35 e 70 anos), idoneidade moral, reputação ilibada, notório saber e mais de 10 anos de exercício de função;
+    - Garantias, prerrogativas, vencimentos e vedações dos Conselheiros (equiparadas às dos Desembargadores do Tribunal de Justiça do Estado de Goiás - TJ-GO);
+    - Competências específicas na Carta Estadual e prazos de apreciação de contas do Governador (60 dias contados do recebimento).
 
 ---
 
 ## 🧭 Sumário
 - [1. Regime Constitucional da Administração Pública (CF/88, Arts. 37 a 41)](#1-regime-constitucional-da-administração-pública-cf88-arts-37-a-41)
-  - [1.1 Princípios Constitucionais Expressos e Implícitos](#11-princípios-constitucionais-expressos-e-implícitos)
-  - [1.2 Provimento de Cargos, Concurso Público e Prazos](#12-provimento-de-cargos-concurso-público-e-prazos)
-  - [1.3 Regime Remuneratório, Subsídios e Tetos Constitucionais](#13-regime-remuneratório-subsídios-e-tetos-constitucionais)
-  - [1.4 Acumulação Remunerada de Cargos Públicos](#14-acumulação-remunerada-de-cargos-públicos)
-  - [1.5 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#15-exercício-de-mandato-eletivo-pelo-servidor-público-art-38)
-  - [1.6 Estabilidade Constitucional e Hipóteses Taxativas de Perda do Cargo](#16-estabilidade-constitucional-e-hipóteses-taxativas-de-perda-do-cargo)
-  - [1.7 Responsabilidade Civil Objetiva do Estado e Ação Regressiva](#17-responsabilidade-civil-objetiva-do-estado-e-ação-regressiva)
+    - [1.1 Princípios Constitucionais Expressos e Implícitos](#11-princípios-constitucionais-expressos-e-implícitos)
+    - [1.2 Provimento de Cargos, Concurso Público e Prazos](#12-provimento-de-cargos-concurso-público-e-prazos)
+    - [1.3 Regime Remuneratório, Subsídios e Tetos Constitucionais](#13-regime-remuneratório-subsídios-e-tetos-constitucionais)
+    - [1.4 Acumulação Remunerada de Cargos Públicos](#14-acumulação-remunerada-de-cargos-públicos)
+    - [1.5 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#15-exercício-de-mandato-eletivo-pelo-servidor-público-art-38)
+    - [1.6 Estabilidade Constitucional e Hipóteses Taxativas de Perda do Cargo](#16-estabilidade-constitucional-e-hipóteses-taxativas-de-perda-do-cargo)
+    - [1.7 Responsabilidade Civil Objetiva do Estado e Ação Regressiva](#17-responsabilidade-civil-objetiva-do-estado-e-ação-regressiva)
 - [2. Fiscalização e Controle na CF/88 (Arts. 70 a 75)](#2-fiscalização-e-controle-na-cf88-arts-70-a-75)
-  - [2.1 Abrangência Material e Sujeição Subjetiva ao Dever de Prestar Contas](#21-abrangência-material-e-sujeição-subjetiva-ao-dever-de-prestar-contas)
-  - [2.2 Competências dos Tribunais de Contas: Contas de Governo vs. Contas de Gestão](#22-competências-dos-tribunais-de-contas-contas-de-governo-vs-contas-de-gestão)
-  - [2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões](#23-fiscalização-de-atos-de-pessoal-e-registro-de-aposentadorias-e-pensões)
-  - [2.4 Rito Constitucional de Sustação de Atos e Contratos Administrativos](#24-rito-constitucional-de-sustação-de-atos-e-contratos-administrativos)
-  - [2.5 Eficácia Executiva das Decisões Condenatórias e Prescrição](#25-eficácia-executiva-das-decisões-condenatórias-e-prescrição)
-  - [2.6 Sistema Integrado de Controle Interno e Responsabilidade Solidária (Art. 74)](#26-sistema-integrado-de-controle-interno-e-responsabilidade-solidária-art-74)
-  - [2.7 Princípio da Simetria Constitucional Obrigatória (Art. 75)](#27-princípio-da-simetria-constitucional-obrigatória-art-75)
+    - [2.1 Abrangência Material e Sujeição Subjetiva ao Dever de Prestar Contas](#21-abrangência-material-e-sujeição-subjetiva-ao-dever-de-prestar-contas)
+    - [2.2 Competências dos Tribunais de Contas: Contas de Governo vs. Contas de Gestão](#22-competências-dos-tribunais-de-contas-contas-de-governo-vs-contas-de-gestão)
+    - [2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões](#23-fiscalização-de-atos-de-pessoal-e-registro-de-aposentadorias-e-pensões)
+    - [2.4 Rito Constitucional de Sustação de Atos e Contratos Administrativos](#24-rito-constitucional-de-sustação-de-atos-e-contratos-administrativos)
+    - [2.5 Eficácia Executiva das Decisões Condenatórias e Prescrição](#25-eficácia-executiva-das-decisões-condenatórias-e-prescrição)
+    - [2.6 Sistema Integrado de Controle Interno e Responsabilidade Solidária (Art. 74)](#26-sistema-integrado-de-controle-interno-e-responsabilidade-solidária-art-74)
+    - [2.7 Princípio da Simetria Constitucional Obrigatória (Art. 75)](#27-princípio-da-simetria-constitucional-obrigatória-art-75)
 - [3. O Tribunal de Contas do Estado de Goiás na CE/GO (Arts. 26 a 33)](#3-o-tribunal-de-contas-do-estado-de-goiás-na-cego-arts-26-a-33)
-  - [3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais](#31-natureza-jurídica-jurisdição-e-autonomias-constitucionais)
-  - [3.2 Composição e Escolha dos 7 Conselheiros do TCE-GO](#32-composição-e-escolha-dos-7-conselheiros-do-tce-go)
-  - [3.3 Requisitos Constitucionais para a Investidura de Conselheiro](#33-requisitos-constitucionais-para-a-investidura-de-conselheiro)
-  - [3.4 Estatuto dos Conselheiros: Garantias, Prerrogativas, Vedações e Foro](#34-estatuto-dos-conselheiros-garantias-prerrogativas-vedações-e-foro)
-  - [3.5 Ministério Público de Contas de Goiás (Art. 30 da CE/GO)](#35-ministério-público-de-contas-de-goiás-art-30-da-cego)
-  - [3.6 Competências Específicas na Carta Estadual e Prazos Regimentais](#36-competências-específicas-na-carta-estadual-e-prazos-regimentais)
+    - [3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais](#31-natureza-jurídica-jurisdição-e-autonomias-constitucionais)
+    - [3.2 Composição e Escolha dos 7 Conselheiros do TCE-GO](#32-composição-e-escolha-dos-7-conselheiros-do-tce-go)
+    - [3.3 Requisitos Constitucionais para a Investidura de Conselheiro](#33-requisitos-constitucionais-para-a-investidura-de-conselheiro)
+    - [3.4 Estatuto dos Conselheiros: Garantias, Prerrogativas, Vedações e Foro](#34-estatuto-dos-conselheiros-garantias-prerrogativas-vedações-e-foro)
+    - [3.5 Ministério Público de Contas de Goiás (Art. 30 da CE/GO)](#35-ministério-público-de-contas-de-goiás-art-30-da-cego)
+    - [3.6 Competências Específicas na Carta Estadual e Prazos Regimentais](#36-competências-específicas-na-carta-estadual-e-prazos-regimentais)
 - [4. Fontes Oficiais e Referências Bibliográficas](#4-fontes-oficiais-e-referências-bibliográficas)
 - [5. Questões de Concurso FCC Comentadas](#5-questões-de-concurso-fcc-comentadas)
 
@@ -66,9 +66,9 @@ O artigo 37, *caput*, da Constituição da República de 1988 estabelece que a A
 4. **Princípio da Publicidade:** A regra geral republicana é a absoluta transparência dos atos administrativos para assegurar a sua eficácia externa e possibilitar o controle social e institucional. As únicas exceções constitucionalmente toleradas decorrem de imperativos de **segurança da sociedade e do Estado** ou de preservação da **intimidade, honra e vida privada** das pessoas (Art. 5º, X e XXXIII).
 5. **Princípio da Eficiência:** Inserido pela Emenda Constitucional nº 19/1998, traduz o modelo de Administração Pública Gerencial. Impõe aos órgãos e agentes a busca contínua por resultados de qualidade, economicidade, rendimento funcional, combate a desperdícios e celeridade nos serviços postos à disposição do cidadão.
 6. **Princípios Implícitos Relevantes:**
-   - **Autotutela (Súmulas 346 e 473 do STF):** A Administração Pública tem o poder-dever de **anular** seus próprios atos quando eivados de vício de ilegalidade (porque de atos ilegais não se originam direitos), e de **revogá-los** por razões de conveniência e oportunidade, resguardados os direitos adquiridos e assegurada a ampla defesa quando houver reflexo em interesses individuais.
-   - **Razoabilidade e Proporcionalidade:** Proíbem a imposição de restrições ou sanções em medida superior à estritamente necessária para o atendimento do interesse público (vedação ao excesso).
-   - **Motivação:** Dever funcional de explicitar os fundamentos de fato e de direito que justificaram a prática do ato administrativo.
+    - **Autotutela (Súmulas 346 e 473 do STF):** A Administração Pública tem o poder-dever de **anular** seus próprios atos quando eivados de vício de ilegalidade (porque de atos ilegais não se originam direitos), e de **revogá-los** por razões de conveniência e oportunidade, resguardados os direitos adquiridos e assegurada a ampla defesa quando houver reflexo em interesses individuais.
+    - **Razoabilidade e Proporcionalidade:** Proíbem a imposição de restrições ou sanções em medida superior à estritamente necessária para o atendimento do interesse público (vedação ao excesso).
+    - **Motivação:** Dever funcional de explicitar os fundamentos de fato e de direito que justificaram a prática do ato administrativo.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A banca FCC frequentemente tenta confundir os desdobramentos de *Impessoalidade* e *Moralidade*. A veiculação de foto, slogan ou nome de prefeito/governador em placas de obras públicas é expressamente uma violação da regra constitucional de **impessoalidade** (Art. 37, § 1º), ainda que também afronte a moralidade. Lembre-se ainda de que o princípio da *Eficiência* não constava no texto original de 1988; foi introduzido formalmente pela EC 19/1998.
 
@@ -80,9 +80,9 @@ A investidura em cargo ou emprego público depende de aprovação prévia em **c
 - **Prazos de Validade (Art. 37, III):** O prazo de validade do concurso será de **até dois anos**, prorrogável uma única vez, por igual período. A prorrogação constitui ato discricionário da Administração, devendo ocorrer impreterivelmente dentro do prazo de vigência original.
 - **Direito Subjetivo à Nomeação:** O STF fixou a tese com repercussão geral (**Tema 161 - RE 598.099**) segundo a qual o candidato aprovado **dentro do número de vagas** expressamente previsto no edital possui direito público subjetivo à nomeação durante o prazo de vigência do certame, salvo situações excepcionalíssimas caracterizadas por superveniência, imprevisibilidade, gravidade e necessidade coletiva inadiável.
 - **Cargos em Comissão vs. Funções de Confiança (Art. 37, V):**
-  - **Funções de Confiança:** Destinadas exclusivamente a servidores ocupantes de cargo efetivo.
-  - **Cargos em Comissão:** De livre nomeação e livre exoneração (*ad nutum*), preenchidos por servidores de carreira nos casos, condições e percentuais mínimos fixados em lei, e por pessoas sem vínculo prévio com a Administração.
-  - **Restrição Material Rígida:** Tanto os cargos em comissão quanto as funções de confiança destinam-se **apenas às atribuições de direção, chefia e assessoramento**. A criação por lei de cargos comissionados para atividades rotineiras, burocráticas, meramente técnicas ou operacionais é formalmente **inconstitucional** (Tema 1010 do STF).
+    - **Funções de Confiança:** Destinadas exclusivamente a servidores ocupantes de cargo efetivo.
+    - **Cargos em Comissão:** De livre nomeação e livre exoneração (*ad nutum*), preenchidos por servidores de carreira nos casos, condições e percentuais mínimos fixados em lei, e por pessoas sem vínculo prévio com a Administração.
+    - **Restrição Material Rígida:** Tanto os cargos em comissão quanto as funções de confiança destinam-se **apenas às atribuições de direção, chefia e assessoramento**. A criação por lei de cargos comissionados para atividades rotineiras, burocráticas, meramente técnicas ou operacionais é formalmente **inconstitucional** (Tema 1010 do STF).
 
 ---
 
@@ -90,6 +90,7 @@ A investidura em cargo ou emprego público depende de aprovação prévia em **c
 A remuneração dos servidores públicos e os subsídios dos agentes políticos submetem-se ao teto remuneratório geral estabelecido no artigo 37, XI, da Carta Magna, cujo limite máximo federal corresponde ao **subsídio mensal dos Ministros do Supremo Tribunal Federal (STF)**.
 
 Nos Estados-membros, adota-se o regime de subtetos por Poder, salvo se houver emenda estadual instituindo subteto único:
+
 - **Poder Executivo:** Subsídio mensal do Governador do Estado.
 - **Poder Legislativo:** Subsídio mensal dos Deputados Estaduais.
 - **Poder Judiciário, Ministério Público, Defensoria Pública e TRIBUNAIS DE CONTAS:** Subsídio mensal dos Desembargadores do Tribunal de Justiça do Estado (limitado a 90,25% do subsídio dos Ministros do STF).
@@ -102,6 +103,7 @@ Nos Estados-membros, adota-se o regime de subtetos por Poder, salvo se houver em
 A regra republicana insculpida no artigo 37, XVI e XVII, da CF/88 é a **vedação absoluta** da acumulação remunerada de cargos, empregos ou funções públicas na Administração direta, autárquica, fundacional, empresas públicas e sociedades de economia mista.
 
 A Constituição autoriza apenas três hipóteses taxativas e excepcionais de acumulação, **desde que haja imperativa compatibilidade de horários**:
+
 1. A de dois cargos de **professor**;
 2. A de um cargo de **professor** com outro **técnico ou científico**;
 3. A de dois cargos ou empregos privativos de **profissionais de saúde**, com profissões regulamentadas.
@@ -127,6 +129,7 @@ Nos moldes do artigo 41 da CF/88, adquire estabilidade após **três anos de efe
 É condição obrigatória e indispensável para a consolidação da estabilidade a aprovação prévia em **avaliação especial de desempenho**, realizada por comissão especificamente instituída.
 
 O servidor público estável somente perderá o cargo público nas seguintes **quatro hipóteses taxativas**:
+
 1. **Sentença judicial transitada em julgado** (não cabe perda por decisão de primeira instância pendente de recurso);
 2. **Processo administrativo disciplinar (PAD)** no qual lhe seja formalmente assegurada a ampla defesa e o contraditório;
 3. **Procedimento de avaliação periódica de desempenho**, na forma de **lei complementar**, assegurada ampla defesa;
@@ -142,8 +145,8 @@ O artigo 37, § 6º, da CF/88 estabelece a **responsabilidade civil extracontrat
 $$\text{Ato Administrativo (Comissivo)} + \text{Dano Efetivo} + \text{Nexo Causal} \Longrightarrow \text{Dever de Indenizar (Responsabilidade Objetiva)}$$
 
 - **Abrangência Subjetiva:** Submetem-se ao regime da responsabilidade objetiva:
-  - As pessoas jurídicas de direito público (União, Estados, DF, Municípios, Autarquias e Fundações Públicas de direito público);
-  - As pessoas jurídicas de direito privado **prestadoras de serviços públicos** (empresas públicas, sociedades de economia mista prestadoras, concessionárias e permissionárias de serviço público), relativamente a danos causados a usuários e a não usuários do serviço.
+    - As pessoas jurídicas de direito público (União, Estados, DF, Municípios, Autarquias e Fundações Públicas de direito público);
+    - As pessoas jurídicas de direito privado **prestadoras de serviços públicos** (empresas públicas, sociedades de economia mista prestadoras, concessionárias e permissionárias de serviço público), relativamente a danos causados a usuários e a não usuários do serviço.
 - **Excludentes e Atenuantes do Nexo Causal:** O rompimento do nexo de causalidade afasta a responsabilidade do Estado nas hipóteses de **culpa exclusiva da vítima**, **caso fortuito absoluto** ou **força maior**. Havendo culpa concorrente da vítima, a obrigação de indenizar é mitigada proporcionalmente (atenuante).
 - **Ação Regressiva do Estado:** Caso o Estado seja condenado a indenizar a vítima, ele detém o direito/dever de ajuizar **ação de regresso** em desfavor do servidor público causador direto do dano. A responsabilidade do servidor é puramente **subjetiva**, exigindo-se prova irrefutável de que ele agiu com **dolo ou culpa**.
 - **Tema 940 do STF (Tese Vinculante - RE 1.027.633):** A ação indenizatória por danos causados por agente público no exercício de suas funções deve ser proposta **exclusivamente em face da pessoa jurídica de direito público ou da concessionária**, sendo inadmissível o ajuizamento da ação diretamente contra o agente público ou a sua inclusão no polo passivo mediante litisconsórcio passivo facultativo.
@@ -217,6 +220,7 @@ Conforme prescreve o artigo 71, § 3º, da Carta Federal, as decisões do Tribun
 
 ### 2.6 Sistema Integrado de Controle Interno e Responsabilidade Solidária (Art. 74)
 Os Poderes Legislativo, Executivo e Judiciário manterão, de forma integrada, sistema de controle interno com as finalidades constitucionais de:
+
 1. Avaliar o cumprimento das metas previstas no plano plurianual e a execução dos programas de governo e dos orçamentos;
 2. Comprovar a legalidade e avaliar os resultados, quanto à eficácia e eficiência, da gestão orçamentária, financeira e patrimonial nos órgãos e entidades da administração;
 3. Exercer o controle das operações de crédito, avais e garantias, bem como dos direitos e haveres do Estado;
@@ -260,9 +264,9 @@ graph TD
 
 - **4 Conselheiros:** De livre escolha, indicação e nomeação da **Assembleia Legislativa do Estado de Goiás (ALEGO)**;
 - **3 Conselheiros:** Nomeados pelo **Governador do Estado**, com prévia aprovação da Assembleia Legislativa após arguição pública (sabatina), sendo:
-  - **1 (um)** de livre escolha do Governador do Estado;
-  - **1 (um)** escolhido alternadamente dentre os **Conselheiros Substitutos (Auditores)** do Tribunal de Contas, indicados em lista tríplice formulada pelo Pleno, segundo critérios alternados de antiguidade e merecimento;
-  - **1 (um)** escolhido alternadamente dentre os membros do **Ministério Público de Contas (MPC-GO)**, indicados em lista tríplice formulada pelo Pleno do Tribunal, também pelos critérios alternados de antiguidade e merecimento.
+    - **1 (um)** de livre escolha do Governador do Estado;
+    - **1 (um)** escolhido alternadamente dentre os **Conselheiros Substitutos (Auditores)** do Tribunal de Contas, indicados em lista tríplice formulada pelo Pleno, segundo critérios alternados de antiguidade e merecimento;
+    - **1 (um)** escolhido alternadamente dentre os membros do **Ministério Público de Contas (MPC-GO)**, indicados em lista tríplice formulada pelo Pleno do Tribunal, também pelos critérios alternados de antiguidade e merecimento.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Lembre-se de dois números fundamentais: o TCE-GO tem **7 Conselheiros** (o TCU tem 9 Ministros). A Assembleia Legislativa escolhe a MAIORIA (**4 Conselheiros**), e o Governador escolhe a minoria (**3 Conselheiros**), sendo que 2 das vagas do Governador são obrigatoriamente vinculadas à lista tríplice de carreiras técnicas (Auditor e Procurador de Contas).
 
@@ -270,6 +274,7 @@ graph TD
 
 ### 3.3 Requisitos Constitucionais para a Investidura de Conselheiro
 O artigo 27, § 1º, da Constituição Estadual elenca de forma taxativa as exigências cumulativas para nomeação como Conselheiro do TCE-GO:
+
 1. **Nacionalidade:** Ser brasileiro (nato ou naturalizado);
 2. **Idade Mínima e Máxima:** Contar com mais de **35 (trinta e cinco) anos** e menos de **70 (setenta) anos** de idade na data da investidura;
 3. **Moralidade:** Possuir idoneidade moral e reputação ilibada;
@@ -282,9 +287,9 @@ O artigo 27, § 1º, da Constituição Estadual elenca de forma taxativa as exig
 O artigo 28 da Carta Estadual estabelece que os Conselheiros do TCE-GO gozam das mesmas garantias, prerrogativas, impedimentos, subsídios e vencimentos atribuídos aos **Desembargadores do Tribunal de Justiça do Estado de Goiás (TJ-GO)**:
 
 - **Garantias da Magistratura:**
-  - **Vitaliciedade:** Adquirida na posse para os indicados políticos oriundos da ALEGO e do Executivo, ou após dois anos de estágio para os membros de carreira técnica. A perda do cargo de Conselheiro só pode ocorrer por sentença judicial transitada em julgado (ou processo de impeachment por crime de responsabilidade);
-  - **Inamovibilidade:** Não podem ser transferidos compulsoriamente de seus cargos, salvo interesse público fundamentado;
-  - **Irredutibilidade de Subsídio:** Remuneração na forma de subsídio mensal, sujeita aos impostos gerais e ao subteto estadual do Poder Judiciário.
+    - **Vitaliciedade:** Adquirida na posse para os indicados políticos oriundos da ALEGO e do Executivo, ou após dois anos de estágio para os membros de carreira técnica. A perda do cargo de Conselheiro só pode ocorrer por sentença judicial transitada em julgado (ou processo de impeachment por crime de responsabilidade);
+    - **Inamovibilidade:** Não podem ser transferidos compulsoriamente de seus cargos, salvo interesse público fundamentado;
+    - **Irredutibilidade de Subsídio:** Remuneração na forma de subsídio mensal, sujeita aos impostos gerais e ao subteto estadual do Poder Judiciário.
 - **Vedações Expressas:** É vedado ao Conselheiro exercer outro cargo ou função pública (ressalvada uma de magistério), dedicar-se a atividade político-partidária ou exercer a advocacia no Tribunal de que se afastou antes de decorridos 3 anos de seu afastamento (quarentena constitucional).
 - **Foro por Prerrogativa de Função:** Nos termos do artigo 105, I, "a", da CF/88, os Conselheiros de Tribunais de Contas Estaduais respondem penalmente, nos crimes comuns e de responsabilidade, originária e diretamente perante o **Superior Tribunal de Justiça (STJ)**.
 
@@ -292,6 +297,7 @@ O artigo 28 da Carta Estadual estabelece que os Conselheiros do TCE-GO gozam das
 
 ### 3.5 Ministério Público de Contas de Goiás (Art. 30 da CE/GO)
 O Ministério Público de Contas (MPC-GO) atua junto ao TCE-GO como órgão permanente de fiscalização da lei:
+
 - É chefiado pelo **Procurador-Geral de Contas**, nomeado pelo Governador do Estado a partir de lista tríplice eleita pelos integrantes da carreira para mandato com prazo legalmente fixado.
 - O ingresso na carreira dá-se obrigatoriamente mediante **concurso público de provas e títulos**.
 - Seus membros gozam das mesmas garantias, prerrogativas, vedações e subsídios conferidos aos membros do **Ministério Público Estadual (MPE-GO)**.
@@ -300,6 +306,7 @@ O Ministério Público de Contas (MPC-GO) atua junto ao TCE-GO como órgão perm
 
 ### 3.6 Competências Específicas na Carta Estadual e Prazos Regimentais
 Além das atribuições comuns simétricas ao art. 71 da CF, destacam-se prazos e funções expressas na CE/GO (Arts. 26 a 33):
+
 - **Parecer Prévio do Governador:** O Tribunal emitirá parecer prévio sobre as contas prestadas anualmente pelo Governador do Estado no prazo de **60 (sessenta) dias** a contar do seu recebimento.
 - **Representação e Fiscalização de Ofício:** Realização de auditorias financeiras, orçamentárias e operacionais por iniciativa própria da Corte ou por solicitação expressa da Assembleia Legislativa.
 - **Consulta:** O TCE-GO tem competência para responder a consultas formuladas por autoridades competentes sobre matérias de sua alçada, tendo a resposta caráter normativo e constituindo prejulgamento da tese, mas não do fato concreto.
@@ -392,6 +399,7 @@ II. O direito de regresso da Administração Pública contra o servidor público
 III. O teto remuneratório constitucional aplica-se ao somatório das remunerações nas hipóteses de acumulação lícita de cargos públicos, devendo o excedente ser retido pelo ente pagador.  
 
 Está correto o que se afirma APENAS em:
+
 * A) I.
 * B) II.
 * C) III.

@@ -16,25 +16,25 @@
 
 ## 🧭 Sumário
 - [1. Gestão de Contexto e Memória em Sistemas Agentivos](#1-gestão-de-contexto-e-memória-em-sistemas-agentivos)
-  - [1.1 Desafios da Janela de Contexto e a Degradação de Atenção](#11-desafios-da-janela-de-contexto-e-a-degradação-de-atenção)
-  - [1.2 Memória de Curto Prazo (Working Memory) vs. Memória de Longo Prazo](#12-memória-de-curto-prazo-working-memory-vs-memória-de-longo-prazo)
-  - [1.3 Estratégias de Gestão: Sumarização Progressiva, Podagem e Prompt Caching](#13-estratégias-de-gestão-sumarização-progressiva-podagem-e-prompt-caching)
+    - [1.1 Desafios da Janela de Contexto e a Degradação de Atenção](#11-desafios-da-janela-de-contexto-e-a-degradação-de-atenção)
+    - [1.2 Memória de Curto Prazo (Working Memory) vs. Memória de Longo Prazo](#12-memória-de-curto-prazo-working-memory-vs-memória-de-longo-prazo)
+    - [1.3 Estratégias de Gestão: Sumarização Progressiva, Podagem e Prompt Caching](#13-estratégias-de-gestão-sumarização-progressiva-podagem-e-prompt-caching)
 - [2. Retrieval-Augmented Generation (RAG) Aplicado a Bases de Código](#2-retrieval-augmented-generation-rag-aplicado-a-bases-de-código)
-  - [2.1 Arquitetura e Pipeline de Ingestão de Código](#21-arquitetura-e-pipeline-de-ingestão-de-código)
-  - [2.2 O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)](#22-o-desafio-do-chunking-consciente-de-sintaxe-ast-based-chunking)
-  - [2.3 Modelos de Embeddings e Bancos de Dados Vetoriais](#23-modelos-de-embeddings-e-bancos-de-dados-vetoriais)
-  - [2.4 Métricas de Proximidade Semântica e Similaridade de Cosseno](#24-métricas-de-proximidade-semântica-e-similaridade-de-cosseno)
-  - [2.5 Busca Híbrida (Dense + Sparse) e Técnicas de Reranking](#25-busca-híbrida-dense--sparse-e-técnicas-de-reranking)
-  - [2.6 Matriz de Decisão Arquitetural: RAG vs. Fine-Tuning](#26-matriz-de-decisão-arquitetural-rag-vs-fine-tuning)
+    - [2.1 Arquitetura e Pipeline de Ingestão de Código](#21-arquitetura-e-pipeline-de-ingestão-de-código)
+    - [2.2 O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)](#22-o-desafio-do-chunking-consciente-de-sintaxe-ast-based-chunking)
+    - [2.3 Modelos de Embeddings e Bancos de Dados Vetoriais](#23-modelos-de-embeddings-e-bancos-de-dados-vetoriais)
+    - [2.4 Métricas de Proximidade Semântica e Similaridade de Cosseno](#24-métricas-de-proximidade-semântica-e-similaridade-de-cosseno)
+    - [2.5 Busca Híbrida (Dense + Sparse) e Técnicas de Reranking](#25-busca-híbrida-dense--sparse-e-técnicas-de-reranking)
+    - [2.6 Matriz de Decisão Arquitetural: RAG vs. Fine-Tuning](#26-matriz-de-decisão-arquitetural-rag-vs-fine-tuning)
 - [3. O Protocolo Model Context Protocol (MCP)](#3-o-protocolo-model-context-protocol-mcp)
-  - [3.1 Motivação e Resolução do Problema de Integração N x M](#31-motivação-e-resolução-do-problema-de-integração-n-x-m)
-  - [3.2 A Arquitetura Cliente-Servidor do MCP (Host, Client e Server)](#32-a-arquitetura-cliente-servidor-do-mcp-host-client-e-server)
-  - [3.3 As Três Primitivas Centrais: Resources, Tools e Prompts](#33-as-três-primitivas-centrais-resources-tools-e-prompts)
-  - [3.4 Mecanismos de Transporte Padronizados: `stdio` e `SSE`](#34-mecanismos-de-transporte-padronizados-stdio-e-sse)
+    - [3.1 Motivação e Resolução do Problema de Integração N x M](#31-motivação-e-resolução-do-problema-de-integração-n-x-m)
+    - [3.2 A Arquitetura Cliente-Servidor do MCP (Host, Client e Server)](#32-a-arquitetura-cliente-servidor-do-mcp-host-client-e-server)
+    - [3.3 As Três Primitivas Centrais: Resources, Tools e Prompts](#33-as-três-primitivas-centrais-resources-tools-e-prompts)
+    - [3.4 Mecanismos de Transporte Padronizados: `stdio` e `SSE`](#34-mecanismos-de-transporte-padronizados-stdio-e-sse)
 - [4. Extensibilidade, Tool Use e Skills Especializadas](#4-extensibilidade-tool-use-e-skills-especializadas)
-  - [4.1 Funcionamento do Tool Use / Function Calling via JSON Schema](#41-funcionamento-do-tool-use--function-calling-via-json-schema)
-  - [4.2 Definição e Estrutura de Skills Modulares](#42-definição-e-estrutura-de-skills-modulares)
-  - [4.3 Orquestração Multiagente e Segregação de Responsabilidades](#43-orquestração-multiagente-e-segregação-de-responsabilidades)
+    - [4.1 Funcionamento do Tool Use / Function Calling via JSON Schema](#41-funcionamento-do-tool-use--function-calling-via-json-schema)
+    - [4.2 Definição e Estrutura de Skills Modulares](#42-definição-e-estrutura-de-skills-modulares)
+    - [4.3 Orquestração Multiagente e Segregação de Responsabilidades](#43-orquestração-multiagente-e-segregação-de-responsabilidades)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 - [6. Questões Comentadas & Prática Padrão FCC](#6-questões-comentadas--prática-padrão-fcc)
 
@@ -44,6 +44,7 @@
 
 ### 1.1 Desafios da Janela de Contexto e a Degradação de Atenção
 A operação contínua de agentes de engenharia de software enfrenta restrições físicas e cognitivas no uso de Modelos de Linguagem de Grande Porte (LLMs):
+
 - **Saturação de Tokens:** A cada comando executado, leitura de arquivo e retorno de teste, a janela de contexto acumula tokens de entrada (*input tokens*), elevando os custos financeiros da inferência e a latência de processamento.
 - **Degradação de Atenção e Ruído:** Contextos excessivamente longos e desordenados dispersam a atenção dos mecanismos de autoatenção (*Self-Attention*), aumentando a probabilidade de esquecimento de restrições arquiteturais e ocorrência de alucinações.
 
@@ -75,6 +76,7 @@ flowchart TD
 
 ### 1.3 Estratégias de Gestão: Sumarização Progressiva, Podagem e Prompt Caching
 Para viabilizar fluxos agentivos em bases de código de milhões de linhas:
+
 1. **Sumarização Progressiva (*Rolling Summarization*):** Conforme o diálogo avança, um subagente em segundo plano gera uma síntese executiva das decisões já tomadas e substitui dezenas de mensagens históricas anteriores por esse resumo conciso.
 2. **Podagem de Contexto (*Context Pruning*):** Descarte cirúrgico de retornos de ferramentas que já cumpriram seu papel (ex.: expurgar os 500 kilobytes de log de um build bem-sucedido após a confirmação de sucesso).
 3. **Prompt Caching:** Recurso disponibilizado pelos principais provedores de modelos (como Anthropic Claude), permitindo gravar em memória cache os prefixos estáticos da janela de contexto (como a leitura do código-fonte ou diretrizes institucionais). O *Prompt Caching* reduz o tempo de resposta em até 80% e corta em até 90% os custos de tokens de entrada em requisições consecutivas.
@@ -113,16 +115,16 @@ flowchart TD
 ### 2.2 O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)
 Dividir código-fonte através de fatiamento ingênuo por contagem fixa de caracteres ou linhas é um erro grave na engenharia de software: pode cortar uma função no meio, separar anotações de transação do método ou quebrar laços de repetição.
 - **Chunking Baseado em AST (*Abstract Syntax Tree*):** Utiliza parsers gramaticais (como *Tree-sitter*) para recortar o arquivo respeitando suas fronteiras sintáticas reais:
-  - Cada chunk encapsula um método completo, uma classe autocontida ou um bloco de interface com seus respectivos comentários;
-  - Preserva no topo do chunk o caminho do arquivo, imports e declaração de pacote (*namespace*), assegurando contexto para o modelo de embeddings.
+    - Cada chunk encapsula um método completo, uma classe autocontida ou um bloco de interface com seus respectivos comentários;
+    - Preserva no topo do chunk o caminho do arquivo, imports e declaração de pacote (*namespace*), assegurando contexto para o modelo de embeddings.
 
 ---
 
 ### 2.3 Modelos de Embeddings e Bancos de Dados Vetoriais
 - **Embeddings:** Modelos neurais especializados que convertem fragmentos de texto ou código em vetores densos (arrays unidimensionais de números reais com 768 a 3072 dimensões). Trechos com semântica semelhante ficam espacialmente próximos no hiperplano vetorial.
 - **Bancos de Dados Vetoriais:** Motores de persistência que organizam esses vetores com algoritmos de grafos de vizinhos mais próximos aproximados (**HNSW - *Hierarchical Navigable Small World***). Exemplos proeminentes:
-  - **`pgvector`:** Extensão oficial que habilita busca vetorial nativa dentro do SGBD PostgreSQL relacional;
-  - **Bancos Especializados:** Qdrant, Pinecone, Milvus, Chroma.
+    - **`pgvector`:** Extensão oficial que habilita busca vetorial nativa dentro do SGBD PostgreSQL relacional;
+    - **Bancos Especializados:** Qdrant, Pinecone, Milvus, Chroma.
 
 ---
 
@@ -183,6 +185,7 @@ flowchart TD
 
 ### 3.2 A Arquitetura Cliente-Servidor do MCP (Host, Client e Server)
 A especificação MCP é dividida em três papéis complementares:
+
 1. **MCP Host:** A aplicação central que executa a interface e orquestra o LLM (ex.: Claude Desktop, Cursor, Antigravity CLI).
 2. **MCP Client:** Módulo interno do host que estabelece e gerencia conexões 1:1 seguras e isoladas com os servidores.
 3. **MCP Server:** Serviço leve e desacoplado que expõe dados locais ou remotos e encapsula as ferramentas de um domínio específico (ex.: servidor MCP do PostgreSQL, servidor MCP do Git).
@@ -223,6 +226,7 @@ flowchart TD
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca frequentemente inverte os papéis de **Resources** e **Tools**:  
+>
 > - **Resources NÃO EXECUTAM comandos nem alteram dados**! São exclusivamente fontes passivas de consulta e leitura de contexto.  
 > - Toda e qualquer operação de modificação, exclusão de dados ou execução de comandos é de competência estrita das **Tools**!
 
@@ -230,6 +234,7 @@ flowchart TD
 
 ### 3.4 Mecanismos de Transporte Padronizados: `stdio` e `SSE`
 A especificação do MCP padroniza dois canais de comunicação utilizando mensagens serializadas em **JSON-RPC 2.0**:
+
 - **`stdio` (Standard Input / Output):** Padrão oficial para servidores locais que rodam na mesma máquina do Host. O Host instancia o processo do servidor MCP como um subprocesso filho e comunica-se pelas vias de entrada e saída padrão do SO. É extremamente seguro, não abre portas de rede e é isolado pelo sistema de processos do computador.
 - **`SSE` (*Server-Sent Events* sobre HTTP):** Padrão adotado para servidores remotos distribuídos em nuvem. Utiliza uma conexão HTTP persistente unidirecional para o streaming de eventos do servidor para o cliente, acompanhada por requisições HTTP POST para o envio de comandos do cliente para o servidor.
 
@@ -264,6 +269,7 @@ sequenceDiagram
 
 ### 4.2 Definição e Estrutura de Skills Modulares
 Uma **Skill** é um pacote autocontido de capacidades especializadas composto por:
+
 - **Instruções de Domínio:** Diretrizes heurísticas de especialistas que ensinam o agente a pensar naquele contexto (ex.: normas regimentais do TCE-GO, critérios de auditoria contábil);
 - **Ferramentas Dedicadas:** Mapeamento de funções executáveis expostas por servidores MCP ou scripts utilitários;
 - **Recursos e Exemplos:** Manuais técnicos, modelos de documentos e casos de referência que orientam a qualidade final.
@@ -272,6 +278,7 @@ Uma **Skill** é um pacote autocontido de capacidades especializadas composto po
 
 ### 4.3 Orquestração Multiagente e Segregação de Responsabilidades
 Em arquiteturas corporativas avançadas, a complexidade de um sistema de software não deve ser atribuída a um único agente sobrecarregado:
+
 - **Agente Orquestrador (*Planner*):** Recebe o objetivo, divide o trabalho em etapas e delega subtarefas;
 - **Subagentes Especialistas:** Operam em paralelo com ferramentas e permissões segregadas (ex.: um agente focado em pesquisa e documentação que só tem acesso de leitura via *Resources*, e outro agente de execução que possui permissão de escrita monitorada por *Human-in-the-Loop*).
 
@@ -292,15 +299,19 @@ Em arquiteturas corporativas avançadas, a complexidade de um sistema de softwar
 No desenvolvimento de ecossistemas corporativos baseados em inteligência artificial, a proliferação de integrações proprietárias ponto-a-ponto entre assistentes inteligentes e sistemas legados motivou a criação do protocolo aberto *Model Context Protocol* (MCP).
 
 A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale a afirmativa correta:  
-A) O MCP é um protocolo proprietário e fechado cujo funcionamento restringe-se exclusivamente à execução de scripts Python em ambientes isolados na nuvem.  
-B) Na arquitetura do MCP, o *MCP Host* conecta-se a múltiplos *MCP Servers*, que expõem padronizadamente três primitivas essenciais: *Resources* (dados passivos que podem ser lidos), *Tools* (funções executáveis que realizam ações ou consultas) e *Prompts* (templates de mensagens pré-configurados).  
-C) As primitivas denominadas *Tools* no MCP servem exclusivamente para exibir documentação estática ao usuário final, sendo vedada a chamada a APIs de backend ou operações com efeitos colaterais.  
-D) O transporte padrão para comunicação entre clientes e servidores locais no MCP utiliza exclusivamente websockets não autenticados, sendo proibida a comunicação via `stdio` (entrada/saída padrão de processos).  
-E) A utilização do MCP dispensa o modelo de IA de interpretar parâmetros em esquemas JSON Schema, delegando a tipagem de dados integralmente ao sistema operacional hospedeiro.  
+
+* **A)** O MCP é um protocolo proprietário e fechado cujo funcionamento restringe-se exclusivamente à execução de scripts Python em ambientes isolados na nuvem.
+* **B)** Na arquitetura do MCP, o *MCP Host* conecta-se a múltiplos *MCP Servers*, que expõem padronizadamente três primitivas essenciais: *Resources* (dados passivos que podem ser lidos), *Tools* (funções executáveis que realizam ações ou consultas) e *Prompts* (templates de mensagens pré-configurados).
+* **C)** As primitivas denominadas *Tools* no MCP servem exclusivamente para exibir documentação estática ao usuário final, sendo vedada a chamada a APIs de backend ou operações com efeitos colaterais.
+* **D)** O transporte padrão para comunicação entre clientes e servidores locais no MCP utiliza exclusivamente websockets não autenticados, sendo proibida a comunicação via `stdio` (entrada/saída padrão de processos).
+* **E)** A utilização do MCP dispensa o modelo de IA de interpretar parâmetros em esquemas JSON Schema, delegando a tipagem de dados integralmente ao sistema operacional hospedeiro.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O MCP é um padrão aberto (*open standard*) multiplataforma e neutro, com SDKs oficiais para TypeScript, Python, Kotlin e suporte comunitário para diversas outras linguagens.
-> - **B)** **CORRETA.** A arquitetura do MCP estrutura-se em Host (aplicação consumidora), Client (camada de transporte) e Server (provedor de dados e serviços). Os servidores expõem formalmente três primitivas canônicas: (1) **Resources** (dados somente-leitura), (2) **Tools** (funções executáveis ativas que produzem efeitos colaterais) e (3) **Prompts** (templates de mensagens parametrizáveis).
+> - **B)** **CORRETA.** A arquitetura do MCP estrutura-se em Host (aplicação consumidora), Client (camada de transporte) e Server (provedor de dados e serviços). Os servidores expõem formalmente três primitivas canônicas:
+>
+>     1. **Resources** (dados somente-leitura)
+>     2. **Tools** (funções executáveis ativas que produzem efeitos colaterais) e (3) **Prompts** (templates de mensagens parametrizáveis).
 > - **C)** Incorreta. *Tools* são precisamente os recursos executáveis com parâmetros validados por esquema que permitem disparar ações ativas (gravar dados, executar comandos no shell, interagir com APIs externas). Dados passivos de leitura são mapeados como *Resources*.
 > - **D)** Incorreta. Para servidores que operam localmente na mesma máquina, o transporte padrão e prioritário do MCP é o **`stdio`** (Standard Input/Output). Para servidores remotos em rede, adota-se **`SSE`** (*Server-Sent Events*) sobre HTTP.
 > - **E)** Incorreta. O MCP depende fundamentalmente da validação rigorosa de tipos e parâmetros estruturados através de contratos em **JSON Schema**.
@@ -313,11 +324,12 @@ E) A utilização do MCP dispensa o modelo de IA de interpretar parâmetros em e
 Uma instituição pública precisa capacitar um agente de IA para analisar e auditar a conformidade de novos softwares em relação a um gigantesco repositório corporativo que contém milhões de linhas de código e dezenas de manuais técnicos que sofrem atualizações diárias.
 
 Para permitir que a IA consulte essas informações atualizadas com alta precisão e custo sustentável, mantendo a integridade semântica do código, a equipe deve adotar:  
-A) O retreinamento completo (*Full Pre-training*) dos pesos de um modelo fundacional a cada nova alteração de commit no repositório Git.  
-B) Uma arquitetura de RAG (*Retrieval-Augmented Generation*), realizando o fracionamento (*chunking*) do código com base na Árvore de Sintaxe Abstrata (AST) para preservar blocos lógicos inteiros (como classes e funções), gerando embeddings armazenados em um banco vetorial para busca semântica em tempo de inferência.  
-C) A conversão de todos os arquivos de código-fonte em um único prompt contínuo de texto sem chunking, submetendo-o a modelos sem janela de contexto delimitada.  
-D) O particionamento arbitrário de código em blocos fixos de 10 linhas de texto, ignorando a estrutura sintática de métodos e classes, para maximizar o índice de acerto da busca léxica.  
-E) A técnica de *Fine-Tuning* supervisionado com exclusão de qualquer banco de dados vetorial, visto que embeddings numéricos são incapazes de representar proximidade semântica entre termos técnicos.  
+
+* **A)** O retreinamento completo (*Full Pre-training*) dos pesos de um modelo fundacional a cada nova alteração de commit no repositório Git.
+* **B)** Uma arquitetura de RAG (*Retrieval-Augmented Generation*), realizando o fracionamento (*chunking*) do código com base na Árvore de Sintaxe Abstrata (AST) para preservar blocos lógicos inteiros (como classes e funções), gerando embeddings armazenados em um banco vetorial para busca semântica em tempo de inferência.
+* **C)** A conversão de todos os arquivos de código-fonte em um único prompt contínuo de texto sem chunking, submetendo-o a modelos sem janela de contexto delimitada.
+* **D)** O particionamento arbitrário de código em blocos fixos de 10 linhas de texto, ignorando a estrutura sintática de métodos e classes, para maximizar o índice de acerto da busca léxica.
+* **E)** A técnica de *Fine-Tuning* supervisionado com exclusão de qualquer banco de dados vetorial, visto que embeddings numéricos são incapazes de representar proximidade semântica entre termos técnicos.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O pré-treinamento completo de um modelo fundacional consome milhões de dólares e semanas de processamento em supercomputadores, sendo totalmente inviável para acomodar atualizações diárias de código.
@@ -334,11 +346,12 @@ E) A técnica de *Fine-Tuning* supervisionado com exclusão de qualquer banco de
 Em um projeto de automação fiscal na Secretaria da Fazenda, a equipe técnica precisa decidir entre a adoção de uma arquitetura de RAG (Geração Aumentada por Recuperação) e o processo de Fine-Tuning supervisionado de um modelo de linguagem aberto.
 
 Sobre os critérios comparativos que orientam essa escolha técnica, assinale a afirmativa correta:  
-A) O Fine-Tuning é a melhor escolha para dados factuais altamente voláteis, pois a atualização de tabelas de alíquotas diárias no modelo dispensa custos computacionais de treino.  
-B) O RAG possui total auditabilidade e rastreabilidade, permitindo indicar com precisão cirúrgica quais arquivos de código e trechos normativos foram recuperados e inseridos no contexto para fundamentar a resposta gerada.  
-C) O Fine-Tuning elimina completamente a ocorrência de alucinações, enquanto o RAG necessariamente multiplica as alucinações ao introduzir textos externos.  
-D) Modelos submetidos a RAG perdem permanentemente a capacidade de gerar código sintaticamente válido na linguagem Python.  
-E) O RAG exige a alteração dos pesos sinápticos do modelo em cada requisição de busca vetorial efetuada pelo usuário.  
+
+* **A)** O Fine-Tuning é a melhor escolha para dados factuais altamente voláteis, pois a atualização de tabelas de alíquotas diárias no modelo dispensa custos computacionais de treino.
+* **B)** O RAG possui total auditabilidade e rastreabilidade, permitindo indicar com precisão cirúrgica quais arquivos de código e trechos normativos foram recuperados e inseridos no contexto para fundamentar a resposta gerada.
+* **C)** O Fine-Tuning elimina completamente a ocorrência de alucinações, enquanto o RAG necessariamente multiplica as alucinações ao introduzir textos externos.
+* **D)** Modelos submetidos a RAG perdem permanentemente a capacidade de gerar código sintaticamente válido na linguagem Python.
+* **E)** O RAG exige a alteração dos pesos sinápticos do modelo em cada requisição de busca vetorial efetuada pelo usuário.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O Fine-Tuning é desaconselhado para dados factuais voláteis, pois exige pipeline custoso de re-treinamento com retropropagação a cada atualização de dado. Dados dinâmicos devem ser mantidos via RAG.
@@ -355,11 +368,12 @@ E) O RAG exige a alteração dos pesos sinápticos do modelo em cada requisiçã
 Em um sistema de busca semântica de código para auditoria governamental baseado em banco de dados vetorial, um arquiteto implementou uma estratégia de Busca Híbrida (*Hybrid Search*).
 
 A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetorial pura em repositórios de software é:  
-A) A busca vetorial pura é incapaz de processar vetores com mais de três dimensões matemáticas.  
-B) A busca híbrida combina a recuperação semântica densa (baseada em embeddings e similaridade de cosseno) com a busca textual esparsa tradicional (como BM25 ou busca full-text), garantindo tanto a compreensão conceitual quanto o casamento exato de identificadores literais, nomes de tabelas e códigos de erro específicos.  
-C) A busca híbrida substitui os bancos de dados vetoriais por fitas magnéticas analógicas para reduzir o consumo de energia.  
-D) O uso de busca esparsa impede qualquer tentativa de injeção de prompt por parte de usuários maliciosos.  
-E) A similaridade de cosseno mede exclusivamente o número de caracteres coincidentes entre duas strings semânticas em ordem alfabética.  
+
+* **A)** A busca vetorial pura é incapaz de processar vetores com mais de três dimensões matemáticas.
+* **B)** A busca híbrida combina a recuperação semântica densa (baseada em embeddings e similaridade de cosseno) com a busca textual esparsa tradicional (como BM25 ou busca full-text), garantindo tanto a compreensão conceitual quanto o casamento exato de identificadores literais, nomes de tabelas e códigos de erro específicos.
+* **C)** A busca híbrida substitui os bancos de dados vetoriais por fitas magnéticas analógicas para reduzir o consumo de energia.
+* **D)** O uso de busca esparsa impede qualquer tentativa de injeção de prompt por parte de usuários maliciosos.
+* **E)** A similaridade de cosseno mede exclusivamente o número de caracteres coincidentes entre duas strings semânticas em ordem alfabética.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Modelos modernos de embeddings operam em hiperplanos vetoriais com milhares de dimensões (ex.: 768, 1536 ou 3072 floats).
@@ -376,11 +390,12 @@ E) A similaridade de cosseno mede exclusivamente o número de caracteres coincid
 Em uma auditoria de segurança da informação sobre uma solução corporativa que utiliza o *Model Context Protocol* (MCP) para conectar agentes de IA ao banco de dados PostgreSQL e ao repositório Git institucional, foi avaliado o risco de execução indevida de comandos de alteração estrutural.
 
 Considerando o funcionamento das primitivas e a governança do MCP, a equipe de auditoria deve verificar se:  
-A) As operações com potencial de alteração ou exclusão de dados e código foram implementadas exclusivamente através da primitiva *Resources*, sem permissões de rede.  
-B) O agente de IA tem autorização para invocar primitivas *Tools* com ações destrutivas (como drops de tabelas ou commits forçados) de maneira autônoma e irrestrita, sem validação de parâmetros ou supervisão humana (*Human-in-the-Loop*).  
-C) As operações de leitura de esquemas e documentação utilizam a primitiva *Resources* (somente-leitura), enquanto operações de mutação utilizam primitivas *Tools* com esquemas JSON Schema rígidos e controle de privilégios de acesso que exigem confirmação explícita de operador autorizado.  
-D) O protocolo MCP foi configurado para converter todos os dados confidenciais do banco de dados em imagens bitmap públicas antes do envio ao modelo.  
-E) As conexões locais via transporte `stdio` foram substituídas por conexões telnet sem criptografia na rede pública.  
+
+* **A)** As operações com potencial de alteração ou exclusão de dados e código foram implementadas exclusivamente através da primitiva *Resources*, sem permissões de rede.
+* **B)** O agente de IA tem autorização para invocar primitivas *Tools* com ações destrutivas (como drops de tabelas ou commits forçados) de maneira autônoma e irrestrita, sem validação de parâmetros ou supervisão humana (*Human-in-the-Loop*).
+* **C)** As operações de leitura de esquemas e documentação utilizam a primitiva *Resources* (somente-leitura), enquanto operações de mutação utilizam primitivas *Tools* com esquemas JSON Schema rígidos e controle de privilégios de acesso que exigem confirmação explícita de operador autorizado.
+* **D)** O protocolo MCP foi configurado para converter todos os dados confidenciais do banco de dados em imagens bitmap públicas antes do envio ao modelo.
+* **E)** As conexões locais via transporte `stdio` foram substituídas por conexões telnet sem criptografia na rede pública.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A primitiva *Resources* do MCP é estritamente passiva e somente-leitura; mutações de dados exigem o uso da primitiva *Tools*.

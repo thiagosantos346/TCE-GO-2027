@@ -17,22 +17,22 @@
 ## 🧭 Sumário
 
 - [1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)](#1-conectivos-lógicos-e-marcadores-discursivos-linking-words)
-  - [1.1 Relações de Contraste e Adversidade](#11-relações-de-contraste-e-adversidade)
-  - [1.2 Relações de Concessão e a Regra do Despite](#12-relações-de-concessão-e-a-regra-do-despite)
-  - [1.3 Relações de Causa, Explicação e Motivo](#13-relações-de-causa-explicação-e-motivo)
-  - [1.4 Relações de Consequência, Efeito e Conclusão](#14-relações-de-consequência-efeito-e-conclusão)
-  - [1.5 Relações de Adição, Continuidade e Ênfase](#15-relações-de-adição-continuidade-e-ênfase)
-  - [1.6 Relações de Condição e a Lógica do Unless](#16-relações-de-condição-e-a-lógica-do-unless)
-  - [1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis](#17-tabela-canônica-de-conectivos-e-substituições-intercambiáveis)
+    - [1.1 Relações de Contraste e Adversidade](#11-relações-de-contraste-e-adversidade)
+    - [1.2 Relações de Concessão e a Regra do Despite](#12-relações-de-concessão-e-a-regra-do-despite)
+    - [1.3 Relações de Causa, Explicação e Motivo](#13-relações-de-causa-explicação-e-motivo)
+    - [1.4 Relações de Consequência, Efeito e Conclusão](#14-relações-de-consequência-efeito-e-conclusão)
+    - [1.5 Relações de Adição, Continuidade e Ênfase](#15-relações-de-adição-continuidade-e-ênfase)
+    - [1.6 Relações de Condição e a Lógica do Unless](#16-relações-de-condição-e-a-lógica-do-unless)
+    - [1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis](#17-tabela-canônica-de-conectivos-e-substituições-intercambiáveis)
 - [2. Morfologia e Formação de Palavras Técnicas (Word Formation)](#2-morfologia-e-formação-de-palavras-técnicas-word-formation)
-  - [2.1 Prefixos Técnicos Recorrentes em Computação](#21-prefixos-técnicos-recorrentes-em-computação)
-  - [2.2 Famílias de Palavras e Sufixos Gramaticais](#22-famílias-de-palavras-e-sufixos-gramaticais)
-  - [2.3 Substantivos Compostos e Leitura Reversa (Noun Adjuncts)](#23-substantivos-compostos-e-leitura-reversa-noun-adjuncts)
+    - [2.1 Prefixos Técnicos Recorrentes em Computação](#21-prefixos-técnicos-recorrentes-em-computação)
+    - [2.2 Famílias de Palavras e Sufixos Gramaticais](#22-famílias-de-palavras-e-sufixos-gramaticais)
+    - [2.3 Substantivos Compostos e Leitura Reversa (Noun Adjuncts)](#23-substantivos-compostos-e-leitura-reversa-noun-adjuncts)
 - [3. Glossário Técnico Essencial por Domínio de TI](#3-glossário-técnico-essencial-por-domínio-de-ti)
-  - [3.1 Arquitetura e Engenharia de Software](#31-arquitetura-e-engenharia-de-software)
-  - [3.2 Concorrência e Sistemas Operacionais](#32-concorrência-e-sistemas-operacionais)
-  - [3.3 Computação em Nuvem e Infraestrutura](#33-computação-em-nuvem-e-infraestrutura)
-  - [3.4 Segurança Cibernética e Auditoria de Sistemas](#34-segurança-cibernética-e-auditoria-de-sistemas)
+    - [3.1 Arquitetura e Engenharia de Software](#31-arquitetura-e-engenharia-de-software)
+    - [3.2 Concorrência e Sistemas Operacionais](#32-concorrência-e-sistemas-operacionais)
+    - [3.3 Computação em Nuvem e Infraestrutura](#33-computação-em-nuvem-e-infraestrutura)
+    - [3.4 Segurança Cibernética e Auditoria de Sistemas](#34-segurança-cibernética-e-auditoria-de-sistemas)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 - [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questões-comentadas--exemplos-padrão-fcc)
 
@@ -43,6 +43,7 @@
 Os conectivos lógicos (também categorizados na literatura linguística como *Transition Words*, *Discourse Markers* ou *Connectors*) configuram os nós estruturais que asseguram a coesão referencial e a progressão lógica do pensamento em textos formais. 
 
 Nas avaliações da Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia da Informação, os testes acerca de conectivos concentram-se em dois formatos essenciais:
+
 1. **Identificação da Relação Semântica Primária:** Exige classificar se a partícula expressa *contraste*, *concessão*, *causa*, *consequência/conclusão*, *condição* ou *adição*.
 2. **Substituição sem Prejuízo de Sentido ou Gramática:** Demanda apontar o termo perfeitamente intercambiável (*synonymous transition*) respeitando rigorosamente as exigências de regência sintática (por exemplo, diferenciação entre conjunções seguidas de oração completa vs. preposições seguidas de sintagmas nominais).
 
@@ -63,20 +64,20 @@ flowchart TD
 Os conectivos de contraste indicam oposição, contraposição direta ou divergência entre duas ideias, componentes ou sistemas concorrentes:
 
 - **However, Nevertheless, Nonetheless (No entanto, todavia, contudo, não obstante):** Conectivos coordenados que introduzem ressalvas ou contra-argumentos à declaração precedente. São costumeiramente posicionados no início de uma oração independente seguidos de vírgula, ou após ponto e vírgula.
-  - *Exemplo:* *"The microservices architecture offers superior scalability; **nevertheless**, it introduces non-trivial operational complexity."*
+    - *Exemplo:* *"The microservices architecture offers superior scalability; **nevertheless**, it introduces non-trivial operational complexity."*
 - **In contrast, On the contrary, Conversely (Em contrapartida, pelo contrário, inversamente):** Estabelecem um contraponto simétrico entre dois paradigmas tecnológicos distintos.
-  - *Exemplo:* *"Relational databases enforce strict schemas. **In contrast**, document stores provide dynamic schemas."*
+    - *Exemplo:* *"Relational databases enforce strict schemas. **In contrast**, document stores provide dynamic schemas."*
 - **Whereas, While (Ao passo que, enquanto que):** Conjunções subordinativas que operam a comparação simultânea entre dois fatos ou entidades em paralelo.
-  - *Exemplo:* *"SQL systems prioritize ACID transactions, **whereas** NoSQL systems emphasize eventual consistency and horizontal elasticity."*
+    - *Exemplo:* *"SQL systems prioritize ACID transactions, **whereas** NoSQL systems emphasize eventual consistency and horizontal elasticity."*
 
 ### 1.2 Relações de Concessão e a Regra do Despite
 
 A concessão introduz uma circunstância desfavorável, limitação técnica ou obstáculo que, embora real, **não impede a realização do fato principal** (quebra de expectativa):
 
 - **Although, Even though, Though (Embora, ainda que, se bem que):** Conjunções subordinativas concessivas que exigem **oração completa com Sujeito e Verbo conjugado** (*Subject + Finite Verb*).
-  - *Exemplo:* *"**Although** the cluster experienced hardware failures, no transaction was lost."*
+    - *Exemplo:* *"**Although** the cluster experienced hardware failures, no transaction was lost."*
 - **Despite, In spite of (Apesar de, a despeito de, não obstante):** Locuções prepositivas que exigem **obrigatoriamente um Sintagma Nominal (*Noun Phrase*)** ou um verbo na forma nominal de **gerúndio (*-ing*)**.
-  - *Exemplo:* *"**Despite** the heavy network traffic, the load balancer maintained sub-second response times."*
+    - *Exemplo:* *"**Despite** the heavy network traffic, the load balancer maintained sub-second response times."*
 
 > 🚨 **ALERTA CRÍTICO DE PROVA FCC:**  
 > A forma **"Despite of" NÃO EXISTE** na língua inglesa padrão! É uma armadilha sintática que a FCC insere deliberadamente nas alternativas de substituição. 
@@ -89,16 +90,16 @@ A concessão introduz uma circunstância desfavorável, limitação técnica ou 
 Indicam o fundamento, premissa ou razão determinante para que determinado evento computacional ocorra:
 
 - **Because, Since, As, For, Inasmuch as (Porque, já que, visto que, dado que):** Conjunções causais que introduzem orações subordinadas explicativas estruturadas com sujeito e predicado verbal.
-  - *Exemplo:* *"The Kubernetes pod crashed **because** it exceeded its memory limit."*
+    - *Exemplo:* *"The Kubernetes pod crashed **because** it exceeded its memory limit."*
 - **Due to, Owing to, Because of, On account of (Devido a, em razão de, em virtude de):** Expressões prepositivas que introduzem diretamente sintagmas nominais causais.
-  - *Exemplo:* *"The latency degradation occurred **due to** excessive garbage collection cycles."*
+    - *Exemplo:* *"The latency degradation occurred **due to** excessive garbage collection cycles."*
 
 ### 1.4 Relações de Consequência, Efeito e Conclusão
 
 Indicam o resultado lógico derivado, a dedução ou a conclusão necessária a partir do que foi explanado:
 
 - **Therefore, Thus, Hence, Consequently, Accordingly (Portanto, por conseguinte, logo, assim, desse modo):** Advérbios conectivos plenamente intercambiáveis que conectam a premissa à sua decorrência inevitável.
-  - *Exemplo:* *"The primary node failed health checks; **therefore**, the orchestrator initiated an automated failover."*
+    - *Exemplo:* *"The primary node failed health checks; **therefore**, the orchestrator initiated an automated failover."*
 - **As a result, For this reason (Como resultado, por este motivo):** Locuções conclusivas que fecham cadeias argumentativas de causa e efeito.
 
 ### 1.5 Relações de Adição, Continuidade e Ênfase
@@ -106,7 +107,7 @@ Indicam o resultado lógico derivado, a dedução ou a conclusão necessária a 
 Acrescentam argumentos adicionais alinhados à mesma linha de raciocínio, sem introduzir restrições:
 
 - **Furthermore, Moreover, In addition, Additionally, Besides (Além disso, ademais, outrossim):** Conectivos aditivos cumulativos que introduzem novos fatos reforçadores.
-  - *Exemplo:* *"The firewall blocks unauthorized IP subnets; **furthermore**, it inspects deep application payloads."*
+    - *Exemplo:* *"The firewall blocks unauthorized IP subnets; **furthermore**, it inspects deep application payloads."*
 - **Not only... but also... (Não apenas... mas também...):** Estrutura correlativa de soma e reforço enfático.
 
 ### 1.6 Relações de Condição e a Lógica do Unless
@@ -115,9 +116,9 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 
 - **If (Se):** Condição direta afirmativa.
 - **Provided that, Providing that, As long as, On condition that (Contanto que, desde que):** Conectivos que introduzem condições necessárias ou restrições de conformidade.
-  - *Exemplo:* *"The gateway accepts API requests **provided that** a valid JWT bearer token is supplied."*
+    - *Exemplo:* *"The gateway accepts API requests **provided that** a valid JWT bearer token is supplied."*
 - **Unless (A não ser que, a menos que):** Conjunção que embute semanticamente uma condição negativa, equivalendo estritamente a **"if... not"** ou **"except if"**.
-  - *Exemplo:* *"The transaction will not be committed **unless** all distributed replicas acknowledge receipt."*  
+    - *Exemplo:* *"The transaction will not be committed **unless** all distributed replicas acknowledge receipt."*  
     $\equiv$ *"The transaction will not be committed **if** all distributed replicas **do not** acknowledge receipt."*
 
 > ⚠️ **Ponto de Atenção FCC:**  
@@ -170,17 +171,17 @@ flowchart LR
 ```
 
 - **Sufixos Formadores de Substantivos:**
-  - *-ity / -ty:* Qualidade, estado ou métrica formal (*availability, elasticity, scalability, integrity, latency*).
-  - *-tion / -sion:* Ação, processo ou resultado (*authentication, serialization, compression, migration*).
-  - *-ment:* Instrumento, estado ou resultado prático (*deployment, enhancement, containment*).
-  - *-ance / -ence:* Condição ou propriedade contínua (*compliance, persistence, tolerance, resilience*).
-  - *-er / -or:* Agente processador, software ou pessoa responsável (*scheduler, compiler, dispatcher, load balancer, auditor*).
+    - *-ity / -ty:* Qualidade, estado ou métrica formal (*availability, elasticity, scalability, integrity, latency*).
+    - *-tion / -sion:* Ação, processo ou resultado (*authentication, serialization, compression, migration*).
+    - *-ment:* Instrumento, estado ou resultado prático (*deployment, enhancement, containment*).
+    - *-ance / -ence:* Condição ou propriedade contínua (*compliance, persistence, tolerance, resilience*).
+    - *-er / -or:* Agente processador, software ou pessoa responsável (*scheduler, compiler, dispatcher, load balancer, auditor*).
 - **Sufixos Formadores de Adjetivos:**
-  - *-able / -ible:* Denota capacidade, passibilidade ou viabilidade técnica (*scalable* = capaz de escalar; *feasible* = viável; *reliable* = confiável; *accessible* = acessível).
-  - *-ive:* Natureza dinâmica ou operacional (*predictive, recursive, preventive, defensive*).
-  - *-al:* Pertinência conceitual (*transactional, architectural, operational, computational*).
+    - *-able / -ible:* Denota capacidade, passibilidade ou viabilidade técnica (*scalable* = capaz de escalar; *feasible* = viável; *reliable* = confiável; *accessible* = acessível).
+    - *-ive:* Natureza dinâmica ou operacional (*predictive, recursive, preventive, defensive*).
+    - *-al:* Pertinência conceitual (*transactional, architectural, operational, computational*).
 - **Sufixos Formadores de Advérbios:**
-  - *-ly:* Adicionado ao adjetivo para exprimir o modo de execução (*seamlessly* = perfeitamente, sem interrupção perceptível; *concurrently* = simultaneamente; *asynchronously* = de maneira assíncrona).
+    - *-ly:* Adicionado ao adjetivo para exprimir o modo de execução (*seamlessly* = perfeitamente, sem interrupção perceptível; *concurrently* = simultaneamente; *asynchronously* = de maneira assíncrona).
 
 ### 2.3 Substantivos Compostos e Leitura Reversa (Noun Adjuncts)
 
@@ -277,11 +278,11 @@ flowchart RL
 
 A respeito dos marcadores discursivos e do vocabulário técnico empregados no trecho, assinale a afirmação correta:
 
-A) A palavra **"nevertheless"** estabelece uma relação semântica de causa e explicação, podendo ser substituída por *"because"* sem alterar o sentido do texto.  
-B) O termo **"overhead"** refere-se exclusivamente aos encargos financeiros de licenciamento cobrados pelo fornecedor do software de orquestração.  
-C) O conectivo **"Therefore"** expressa conclusão/consequência lógica e pode ser substituído, sem alteração substancial de significado, por *"Consequently"*.  
-D) A conjunção **"unless"** introduz uma concessão incondicional, com o mesmo valor sintático e semântico de *"although"*.  
-E) A oração iniciada por *"unless rigorous benchmark metrics prove..."* indica que o serviço central será migrado de imediato, independentemente dos testes de vazão.  
+* **A)** A palavra **"nevertheless"** estabelece uma relação semântica de causa e explicação, podendo ser substituída por *"because"* sem alterar o sentido do texto.
+* **B)** O termo **"overhead"** refere-se exclusivamente aos encargos financeiros de licenciamento cobrados pelo fornecedor do software de orquestração.
+* **C)** O conectivo **"Therefore"** expressa conclusão/consequência lógica e pode ser substituído, sem alteração substancial de significado, por *"Consequently"*.
+* **D)** A conjunção **"unless"** introduz uma concessão incondicional, com o mesmo valor sintático e semântico de *"although"*.
+* **E)** A oração iniciada por *"unless rigorous benchmark metrics prove..."* indica que o serviço central será migrado de imediato, independentemente dos testes de vazão.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O conectivo **"Nevertheless"** (contudo, todavia, no entanto, não obstante) é um marcador discursivo coordenativo de **contraste/adversidade**. Ele pontua uma ressalva ou restrição à proposição anterior, e não uma relação explicativa de causa (*because*).
@@ -301,11 +302,11 @@ Na redação técnica em língua inglesa sobre infraestrutura distribuída e ban
 
 apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indica a função sintático-semântica de **"in spite of"** e o termo que poderia substituí-la mantendo rigorosamente a correção gramatical e o sentido original:
 
-A) Adição de argumentos; substituível por *"furthermore"*.  
-B) Concessão; substituível por *"despite"*.  
-C) Finalidade ou propósito; substituível por *"in order to"*.  
-D) Causa direta; substituível por *"due to"*.  
-E) Condição restritiva; substituível por *"as long as"*.  
+* **A)** Adição de argumentos; substituível por *"furthermore"*.
+* **B)** Concessão; substituível por *"despite"*.
+* **C)** Finalidade ou propósito; substituível por *"in order to"*.
+* **D)** Causa direta; substituível por *"due to"*.
+* **E)** Condição restritiva; substituível por *"as long as"*.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Marcadores aditivos (*furthermore, moreover*) agregam novos elementos cumulativos. *"In spite of"* denota uma barreira que não foi suficiente para impedir o evento.
@@ -331,11 +332,11 @@ III. O termo *"failover"* indica uma falha catastrófica definitiva que exige o 
 
 Está correto o que se afirma em:
 
-A) I e II, apenas.  
-B) I e III, apenas.  
-C) II e III, apenas.  
-D) III, apenas.  
-E) I, II e III.  
+* **A)** I e II, apenas.
+* **B)** I e III, apenas.
+* **C)** II e III, apenas.
+* **D)** III, apenas.
+* **E)** I, II e III.
 
 > **Comentário Detalhado:**
 > - **A)** Correta. Apenas as proposições I e II estão alinhadas com a gramática instrumental e os conceitos de TI:
@@ -358,11 +359,11 @@ E) I, II e III.
 
 A respeito das relações semânticas e do vocabulário técnico empregados no parágrafo, assinale a alternativa correta:
 
-A) A conjunção **"whereas"** expressa uma relação de consequência, podendo ser substituída por *"hence"*.  
-B) A locução **"Due to"** expressa concessão e equivale semanticamente a *"in spite of"*.  
-C) O termo **"tamper-proof"** indica registros protegidos contra alterações ou adulterações não autorizadas.  
-D) O conectivo **"Furthermore"** introduz uma oposição direta à frase antecedente.  
-E) O verbo **"mitigate"** significa potencializar e agravar as vulnerabilidades do hipervisor para testes de estresse.  
+* **A)** A conjunção **"whereas"** expressa uma relação de consequência, podendo ser substituída por *"hence"*.
+* **B)** A locução **"Due to"** expressa concessão e equivale semanticamente a *"in spite of"*.
+* **C)** O termo **"tamper-proof"** indica registros protegidos contra alterações ou adulterações não autorizadas.
+* **D)** O conectivo **"Furthermore"** introduz uma oposição direta à frase antecedente.
+* **E)** O verbo **"mitigate"** significa potencializar e agravar as vulnerabilidades do hipervisor para testes de estresse.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A conjunção **"whereas"** (ao passo que, enquanto que) estabelece **contraste direto e comparação em paralelo** entre dois modelos de banco de dados, e não consequência (*hence / therefore*).
@@ -382,11 +383,11 @@ E) O verbo **"mitigate"** significa potencializar e agravar as vulnerabilidades 
 
 Com base no texto técnico e nas regras gramaticais da língua inglesa, assinale a afirmação correta:
 
-A) A expressão **"race condition"** designa uma rotina otimizada de alta performance em que threads disputam para finalizar tarefas mais rapidamente sem qualquer risco de erro.  
-B) O estado denominado **"deadlock"** ocorre quando todas as threads liberam seus locks simultaneamente, acelerando o processamento do banco.  
-C) A locução conjuntiva **"provided that"** estabelece uma relação semântica de condição (contanto que / desde que).  
-D) No trecho *"without triggering disruptive latency spikes"*, a palavra *"without"* introduz uma finalidade deliberada de elevar a latência.  
-E) O termo **"immutable"** é um adjetivo que caracteriza dados que podem ser modificados livremente por qualquer thread concorrente sem restrições.  
+* **A)** A expressão **"race condition"** designa uma rotina otimizada de alta performance em que threads disputam para finalizar tarefas mais rapidamente sem qualquer risco de erro.
+* **B)** O estado denominado **"deadlock"** ocorre quando todas as threads liberam seus locks simultaneamente, acelerando o processamento do banco.
+* **C)** A locução conjuntiva **"provided that"** estabelece uma relação semântica de condição (contanto que / desde que).
+* **D)** No trecho *"without triggering disruptive latency spikes"*, a palavra *"without"* introduz uma finalidade deliberada de elevar a latência.
+* **E)** O termo **"immutable"** é um adjetivo que caracteriza dados que podem ser modificados livremente por qualquer thread concorrente sem restrições.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O termo **"race condition"** (condição de corrida) não é uma técnica de otimização, mas sim um bug grave de concorrência em que operações simultâneas sobre memória compartilhada levam a inconsistências e perda de dados.

@@ -17,29 +17,29 @@
 
 ## 🧭 Sumário
 - [1. Razões, Proporções e Propriedades Fundamentais](#1-razões-proporções-e-propriedades-fundamentais)
-  - [1.1 Conceito de Razão e Grandezas Comensuráveis](#11-conceito-de-razão-e-grandezas-comensuráveis)
-  - [1.2 Proporções e a Propriedade Fundamental](#12-proporções-e-a-propriedade-fundamental)
-  - [1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade](#13-propriedade-da-soma-dos-termos-e-constante-de-proporcionalidade)
+    - [1.1 Conceito de Razão e Grandezas Comensuráveis](#11-conceito-de-razão-e-grandezas-comensuráveis)
+    - [1.2 Proporções e a Propriedade Fundamental](#12-proporções-e-a-propriedade-fundamental)
+    - [1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade](#13-propriedade-da-soma-dos-termos-e-constante-de-proporcionalidade)
 - [2. Divisão em Partes Proporcionais](#2-divisão-em-partes-proporcionais)
-  - [2.1 Divisão Diretamente Proporcional com a Constante k](#21-divisão-diretamente-proporcional-com-a-constante-k)
-  - [2.2 Divisão Inversamente Proporcional e o Método do MMC](#22-divisão-inversamente-proporcional-e-o-método-do-mmc)
-  - [2.3 Divisão Proporcional Composta ou Mista](#23-divisão-proporcional-composta-ou-mista)
+    - [2.1 Divisão Diretamente Proporcional com a Constante k](#21-divisão-diretamente-proporcional-com-a-constante-k)
+    - [2.2 Divisão Inversamente Proporcional e o Método do MMC](#22-divisão-inversamente-proporcional-e-o-método-do-mmc)
+    - [2.3 Divisão Proporcional Composta ou Mista](#23-divisão-proporcional-composta-ou-mista)
 - [3. Classificação de Grandezas e Regra de Três Simples](#3-classificação-de-grandezas-e-regra-de-três-simples)
-  - [3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicação-cruzada)
-  - [3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicação-em-linha-reta)
-  - [3.3 Método Prático das Setas e Identificação de Armadilhas](#33-método-prático-das-setas-e-identificação-de-armadilhas)
+    - [3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicação-cruzada)
+    - [3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicação-em-linha-reta)
+    - [3.3 Método Prático das Setas e Identificação de Armadilhas](#33-método-prático-das-setas-e-identificação-de-armadilhas)
 - [4. Porcentagem, Fatores Multiplicadores e Variações](#4-porcentagem-fatores-multiplicadores-e-variações)
-  - [4.1 Conceito e Fatores de Aumento e Desconto](#41-conceito-e-fatores-de-aumento-e-desconto)
-  - [4.2 Aumentos e Descontos Sucessivos Cumulativos](#42-aumentos-e-descontos-sucessivos-cumulativos)
-  - [4.3 Inversão da Base de Referência Percentual](#43-inversão-da-base-de-referência-percentual)
-  - [4.4 Diferença entre Pontos Percentuais e Variação Percentual](#44-diferença-entre-pontos-percentuais-e-variação-percentual)
+    - [4.1 Conceito e Fatores de Aumento e Desconto](#41-conceito-e-fatores-de-aumento-e-desconto)
+    - [4.2 Aumentos e Descontos Sucessivos Cumulativos](#42-aumentos-e-descontos-sucessivos-cumulativos)
+    - [4.3 Inversão da Base de Referência Percentual](#43-inversão-da-base-de-referência-percentual)
+    - [4.4 Diferença entre Pontos Percentuais e Variação Percentual](#44-diferença-entre-pontos-percentuais-e-variação-percentual)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
 - [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-  - [Questão 01](#questão-01)
-  - [Questão 02](#questão-02)
-  - [Questão 03](#questão-03)
-  - [Questão 04](#questão-04)
-  - [Questão 05](#questão-05)
+    - [Questão 01](#questão-01)
+    - [Questão 02](#questão-02)
+    - [Questão 03](#questão-03)
+    - [Questão 04](#questão-04)
+    - [Questão 05](#questão-05)
 
 ---
 
@@ -86,6 +86,7 @@ A partilha proporcional consiste em distribuir uma quantia total $V$ entre vári
 ### 2.1 Divisão Diretamente Proporcional com a Constante k
 
 Repartir um total $V$ em partes $x, y, z$ diretamente proporcionais aos pesos $a, b, c$:
+
 1. Define-se cada cota multiplicando o peso respectivo pela constante $k$:
    $$x = a \cdot k, \quad y = b \cdot k, \quad z = c \cdot k$$
 2. Como a soma das partes totaliza o montante global $V$:
@@ -139,6 +140,7 @@ Duas grandezas são **Inversamente Proporcionais (IP)** quando a variação de u
 ### 3.3 Método Prático das Setas e Identificação de Armadilhas
 
 Para não errar na prova:
+
 1. Posicione a primeira seta para cima na coluna que contém a incógnita $X$;
 2. Pergunte à outra grandeza: *"Se ela aumentar, a grandeza da incógnita precisa aumentar ou diminuir?"*;
 3. Se aumentar, coloque a seta no mesmo sentido (para cima $\rightarrow$ DP); se diminuir, coloque a seta em sentido contrário (para baixo $\rightarrow$ IP);
@@ -154,6 +156,7 @@ $$p\% = \frac{p}{100} = i \quad (\text{taxa unitária ou decimal})$$
 ### 4.1 Conceito e Fatores de Aumento e Desconto
 
 Qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo ($V_0$) pelo seu respectivo **Fator Multiplicador ($F$)**:
+
 * **Fator de Acréscimo (Aumento de $i$):**
   $$F = 1 + i \qquad \text{Exemplo: aumento de } 15\% \implies F = 1 + 0{,}15 = 1{,}15$$
   $$V_{\text{final}} = V_0 \times 1{,}15$$
@@ -178,11 +181,12 @@ $$F_{\text{acumulado}} = F_1 \times F_2 \times F_3 \times \dots \times F_n$$
 ### 4.3 Inversão da Base de Referência Percentual
 
 A base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa ($\text{Base} = 100\%$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual:
+
 * Se a grandeza $E$ é **$25\%$ maior** que a grandeza $P$:
-  * Adota-se $P = 100 \implies E = 125$.
-  * Para saber quanto $P$ é menor que $E$, o referencial agora é $E$ ($125$):
+    * Adota-se $P = 100 \implies E = 125$.
+    * Para saber quanto $P$ é menor que $E$, o referencial agora é $E$ ($125$):
     $$\text{Taxa de Redução} = \frac{\text{Diferença}}{\text{Nova Base}} = \frac{125 - 100}{125} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}$$
-  * Conclusão: Se $E$ é $25\%$ maior que $P$, então $P$ é **$20\%$ menor** que $E$ (e nunca 25%!).
+    * Conclusão: Se $E$ é $25\%$ maior que $P$, então $P$ é **$20\%$ menor** que $E$ (e nunca 25%!).
 
 ### 4.4 Diferença entre Pontos Percentuais e Variação Percentual
 
@@ -217,6 +221,7 @@ Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pe
 
 > **Comentário Detalhado:**
 > Resolução sistemática da partilha inversamente proporcional:
+>
 > 1. Como a divisão é inversamente proporcional a 2, 3 e 4, as frações de ponderação são os seus inversos:
 >    $$\text{Pesos:} \quad \frac{1}{2}, \quad \frac{1}{3}, \quad \frac{1}{4}$$
 > 2. Reduzem-se todas as frações ao mesmo denominador comum via $\text{MMC}(2, 3, 4) = 12$:
@@ -230,6 +235,7 @@ Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pe
 >    $$\text{Diferença} = 3 \times \left(\frac{45.000}{13}\right) = \frac{135.000}{13} \approx \mathbf{R\$\ 10.384,62}$$
 >
 > Análise individual das alternativas:
+>
 > - **A)** Incorreta. Estimativa empírica imprecisa que desconsidera o divisor 13 resultante da soma dos numeradores do MMC.
 > - **B)** Correta. O cálculo exato de $3k = \frac{135.000}{13}$ resulta em aproximadamente R$ 10.384,615 (arredondado para R$ 10.384,60 nas opções da banca).
 > - **C)** Incorreta. Valor que surgiria caso a partilha tivesse sido realizada de forma diretamente proporcional aos números 2, 3 e 4.
@@ -254,6 +260,7 @@ Em relação ao valor original $X$ do contrato no primeiro ano, a aplicação su
 
 > **Comentário Detalhado:**
 > Análise cumulativa por meio de fatores multiplicadores:
+>
 > 1. Fator multiplicador do primeiro evento (aumento de 15%):
 >    $$F_1 = 1 + 0{,}15 = 1{,}15$$
 > 2. Fator multiplicador do segundo evento (desconto de 10%):
@@ -265,6 +272,7 @@ Em relação ao valor original $X$ do contrato no primeiro ano, a aplicação su
 >    Como o resultado é positivo, houve um **aumento real de 3,5%** em relação ao valor primitivo do contrato.
 >
 > Análise das alternativas:
+>
 > - **A)** Correta. $1{,}15 \times 0{,}90 = 1{,}035 \implies$ aumento real de 3,5%.
 > - **B)** Incorreta. Pegadinha clássica da FCC para quem soma/subtrai aritmeticamente as taxas ($+15\% - 10\% = +5\%$), ignorando que o desconto incidiu sobre uma base já majorada.
 > - **C)** Incorreta. Erro no sinal da variação; o fator 1,035 é superior a 1, configurando aumento e não desconto.
@@ -300,6 +308,7 @@ Se o Tribunal de Contas alocar mais 2 técnicos com a mesma produtividade para e
 >    $$6 \times 8 = 8 \times D \implies 48 = 8D \implies D = \frac{48}{8} = \mathbf{6 \text{ dias úteis}}$$
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. Redução desproporcional; 4 dias demandariam dobrar a equipe para 12 técnicos.
 > - **B)** Incorreta. Decorre de cálculo aproximado sem rigor algébrico.
 > - **C)** Correta. Produto constante em grandezas inversas: $6 \times 8 = 8 \times D \implies D = 6$.
@@ -324,6 +333,7 @@ Em relação ao número de processos eletrônicos, o número de processos em pap
 
 > **Comentário Detalhado:**
 > Problema que exige a técnica de inversão da base de referência percentual:
+>
 > 1. Atribuição de uma base de cálculo simples:
 >    - Seja $P$ o número de processos em papel: adotemos $P = 100$.
 > 2. O número de processos eletrônicos ($E$) é 25% maior que $P$:
@@ -334,6 +344,7 @@ Em relação ao número de processos eletrônicos, o número de processos em pap
 >    Portanto, o número de processos físicos em papel é exatamente **20% inferior** ao de processos eletrônicos.
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. Estimativa arbitrária sem respaldo nos cálculos.
 > - **B)** Correta. Razão precisa de $\frac{25}{125} = 0{,}20 = 20\%$.
 > - **C)** Incorreta. A pegadinha clássica em que o candidato repete os 25% citados no texto, ignorando que o referencial da comparação foi invertido (de $P$ para $E$).
@@ -358,6 +369,7 @@ Com base nessas regras, a quantia recebida por Samuel foi de:
 
 > **Comentário Detalhado:**
 > Resolução de divisão composta (direta e inversa concomitantemente):
+>
 > 1. Estruturação dos pesos individuais de cada beneficiário:
 >    - Para Rodrigo: diretamente proporcional a 6 anos e inversamente a 3 processos pendentes:
 >      $$\text{Peso de Rodrigo} = 6 \times \frac{1}{3} = \frac{6}{3} = 2$$
@@ -372,6 +384,7 @@ Com base nessas regras, a quantia recebida por Samuel foi de:
 >    *(A título de conferência, Rodrigo recebeu $2k = 2 \times 6.000 = \text{R\$} 12.000,00$. A soma dos valores totaliza $12.000 + 24.000 = \text{R\$} 36.000,00$)*.
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. R$ 12.000,00 corresponde à cota recebida por Rodrigo ($2k$).
 > - **B)** Incorreta. Valor que Samuel receberia se a partilha considerasse unicamente o tempo de serviço de forma direta ($\frac{4}{10} \times 36.000 = 14.400$).
 > - **C)** Incorreta. Divisão meio a meio simples, desconsiderando ambos os critérios do edital.

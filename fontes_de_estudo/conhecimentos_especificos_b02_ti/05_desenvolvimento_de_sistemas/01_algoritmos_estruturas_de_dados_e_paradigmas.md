@@ -17,23 +17,23 @@
 
 ## 🧭 Sumário
 - [1. Algoritmos, Lógica de Execução e Complexidade Assintótica](#1-algoritmos-lógica-de-execução-e-complexidade-assintótica)
-  - [1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)](#11-variáveis-escopo-e-passagem-de-parâmetros-valor-vs-referência)
-  - [1.2 Recursão e Pilha de Execução (Call Stack)](#12-recursão-e-pilha-de-execução-call-stack)
-  - [1.3 Análise Assintótica e a Notação Big-O](#13-análise-assintótica-e-a-notação-big-o)
+    - [1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)](#11-variáveis-escopo-e-passagem-de-parâmetros-valor-vs-referência)
+    - [1.2 Recursão e Pilha de Execução (Call Stack)](#12-recursão-e-pilha-de-execução-call-stack)
+    - [1.3 Análise Assintótica e a Notação Big-O](#13-análise-assintótica-e-a-notação-big-o)
 - [2. Estruturas de Dados Fundamentais](#2-estruturas-de-dados-fundamentais)
-  - [2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas](#21-estruturas-lineares-vetores-listas-encadeadas-pilhas-e-filas)
-  - [2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão](#22-tabelas-hash-hash-tables-e-métodos-de-tratamento-de-colisão)
-  - [2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos](#23-estruturas-não-lineares-árvores-binárias-de-busca-bst-e-percursos)
-  - [2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos](#24-árvores-auto-balanceadas-avl-e-rubro-negra-e-grafos)
-  - [2.5 Matriz Geral de Complexidade das Estruturas de Dados](#25-matriz-geral-de-complexidade-das-estruturas-de-dados)
+    - [2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas](#21-estruturas-lineares-vetores-listas-encadeadas-pilhas-e-filas)
+    - [2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão](#22-tabelas-hash-hash-tables-e-métodos-de-tratamento-de-colisão)
+    - [2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos](#23-estruturas-não-lineares-árvores-binárias-de-busca-bst-e-percursos)
+    - [2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos](#24-árvores-auto-balanceadas-avl-e-rubro-negra-e-grafos)
+    - [2.5 Matriz Geral de Complexidade das Estruturas de Dados](#25-matriz-geral-de-complexidade-das-estruturas-de-dados)
 - [3. Paradigma de Programação Orientada a Objetos (POO)](#3-paradigma-de-programação-orientada-a-objetos-poo)
-  - [3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo](#31-os-quatro-pilares-da-poo-abstração-encapsulamento-herança-e-polimorfismo)
-  - [3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)](#32-polimorfismo-estático-sobrecarga-vs-polimorfismo-dinâmico-sobrescrita)
-  - [3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento](#33-relações-estruturais-classes-abstratas-interfaces-coesão-e-acoplamento)
+    - [3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo](#31-os-quatro-pilares-da-poo-abstração-encapsulamento-herança-e-polimorfismo)
+    - [3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)](#32-polimorfismo-estático-sobrecarga-vs-polimorfismo-dinâmico-sobrescrita)
+    - [3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento](#33-relações-estruturais-classes-abstratas-interfaces-coesão-e-acoplamento)
 - [4. Paradigma de Programação Funcional (PF)](#4-paradigma-de-programação-funcional-pf)
-  - [4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial](#41-princípios-fundamentais-funções-puras-imutabilidade-e-transparência-referencial)
-  - [4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)](#42-funções-de-primeira-classe-e-funções-de-alta-ordem-higher-order-functions)
-  - [4.3 Operações Funcionais sobre Coleções: map, filter e reduce](#43-operações-funcionais-sobre-coleções-map-filter-e-reduce)
+    - [4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial](#41-princípios-fundamentais-funções-puras-imutabilidade-e-transparência-referencial)
+    - [4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)](#42-funções-de-primeira-classe-e-funções-de-alta-ordem-higher-order-functions)
+    - [4.3 Operações Funcionais sobre Coleções: map, filter e reduce](#43-operações-funcionais-sobre-coleções-map-filter-e-reduce)
 - [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
 - [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
 
@@ -43,12 +43,13 @@
 
 ### 1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)
 A lógica de programação orienta a elaboração de sequências finitas, ordenadas e inequívocas de passos para a resolução computacional de problemas:
+
 - **Variáveis e Tipagem:** Uma variável é um espaço nominal alocado na memória para armazenar determinado tipo de dado. O **escopo** delimita a visibilidade dessa variável:
-  - *Escopo Global:* Acessível em qualquer parte do módulo ou programa;
-  - *Escopo Local de Bloco/Função:* Visível estritamente dentro do corpo da sub-rotina onde foi declarada, sendo liberada da pilha (*stack*) ao término da execução.
+    - *Escopo Global:* Acessível em qualquer parte do módulo ou programa;
+    - *Escopo Local de Bloco/Função:* Visível estritamente dentro do corpo da sub-rotina onde foi declarada, sendo liberada da pilha (*stack*) ao término da execução.
 - **Mecanismos de Passagem de Parâmetros:**
-  - **Passagem por Valor:** Uma cópia literal do valor do dado primitivo é enviada à sub-rotina. Qualquer modificação efetuada internamente não altera a variável original no escopo chamador;
-  - **Passagem por Referência (ou Valor da Referência):** Em linguagens modernas como Java e Python, a passagem é estritamente **por valor**, mas para variáveis de tipos não primitivos (objetos e coleções), o "valor" copiado é o **endereço de memória (ponteiro)** do objeto. Logo:
+    - **Passagem por Valor:** Uma cópia literal do valor do dado primitivo é enviada à sub-rotina. Qualquer modificação efetuada internamente não altera a variável original no escopo chamador;
+    - **Passagem por Referência (ou Valor da Referência):** Em linguagens modernas como Java e Python, a passagem é estritamente **por valor**, mas para variáveis de tipos não primitivos (objetos e coleções), o "valor" copiado é o **endereço de memória (ponteiro)** do objeto. Logo:
     - Alterações no estado interno do objeto (ex.: `lista.add("item")` ou `obj.setNome("novo")`) afetam diretamente o objeto original no chamador;
     - Reatribuir a variável inteira dentro do método (ex.: `obj = new Objeto()`) altera apenas a cópia local do ponteiro, mantendo a variável original inalterada.
 
@@ -71,6 +72,7 @@ flowchart TD
 ```
 
 Todo algoritmo recursivo exige dois componentes fundamentais:
+
 1. **Caso Base (Condição de Parada):** Uma condição booleana explícita que encerra as chamadas subsequentes e retorna um valor constante imediato. A ausência ou falha no caso base gera recursão infinita e o esgotamento da memória de pilha do sistema operacional (*StackOverflowError*);
 2. **Passo Recursivo:** Chamada da função a si mesma com argumentos que convergem progressivamente em direção à condição de parada.
 
@@ -109,20 +111,20 @@ flowchart LR
 ```
 
 - **Vetores (Arrays):** Estrutura indexada contígua na memória.
-  - *Vantagem:* Acesso aleatório direto em $\mathcal{O}(1)$ via cálculo de deslocamento (`endereço = base + índice * tamanho`).
-  - *Desvantagem:* Inserções ou remoções no meio do vetor exigem o deslocamento (*shift*) de todos os elementos posteriores, consumindo tempo $\mathcal{O}(n)$.
+    - *Vantagem:* Acesso aleatório direto em $\mathcal{O}(1)$ via cálculo de deslocamento (`endereço = base + índice * tamanho`).
+    - *Desvantagem:* Inserções ou remoções no meio do vetor exigem o deslocamento (*shift*) de todos os elementos posteriores, consumindo tempo $\mathcal{O}(n)$.
 - **Listas Encadeadas (*Linked Lists*):** Elementos (nós) alocados dinamicamente na memória, contendo o dado e ponteiros:
-  - *Simplesmente Encadeada:* Ponteiro único apontando para o próximo nó (`next`);
-  - *Duplamente Encadeada:* Ponteiros para o anterior (`prev`) e próximo nó (`next`), permitindo percurso bidirecional e remoção em tempo $\mathcal{O}(1)$ caso a referência do nó seja conhecida;
-  - *Circular:* O último nó aponta de volta para o primeiro nó da lista.
+    - *Simplesmente Encadeada:* Ponteiro único apontando para o próximo nó (`next`);
+    - *Duplamente Encadeada:* Ponteiros para o anterior (`prev`) e próximo nó (`next`), permitindo percurso bidirecional e remoção em tempo $\mathcal{O}(1)$ caso a referência do nó seja conhecida;
+    - *Circular:* O último nó aponta de volta para o primeiro nó da lista.
 - **Pilhas (*Stacks* - Disciplina LIFO):**
-  - *Last-In, First-Out* (o último elemento a entrar é o primeiro a sair);
-  - Operações: `push()` (inserção no topo), `pop()` (remoção do topo) e `peek()` (inspeção do topo sem remoção). Todas operam em $\mathcal{O}(1)$;
-  - Aplicações: Pilha de execução de sub-rotinas (*Call Stack*), conversão de expressões polonesas reversas (RPN), mecanismos de desfazer/refazer (*Undo/Redo*) e validação de fechamento de delimitadores (chaves e parênteses).
+    - *Last-In, First-Out* (o último elemento a entrar é o primeiro a sair);
+    - Operações: `push()` (inserção no topo), `pop()` (remoção do topo) e `peek()` (inspeção do topo sem remoção). Todas operam em $\mathcal{O}(1)$;
+    - Aplicações: Pilha de execução de sub-rotinas (*Call Stack*), conversão de expressões polonesas reversas (RPN), mecanismos de desfazer/refazer (*Undo/Redo*) e validação de fechamento de delimitadores (chaves e parênteses).
 - **Filas (*Queues* - Disciplina FIFO):**
-  - *First-In, First-Out* (o primeiro elemento a entrar é o primeiro a ser processado);
-  - Operações: `enqueue()` (inserção no final da fila), `dequeue()` (remoção do início da fila) e `peek()`. Todas em $\mathcal{O}(1)$;
-  - Aplicações: Spoolers de impressão, filas de mensagens assíncronas (RabbitMQ/Kafka) e algoritmo de busca em largura (BFS) em grafos e árvores.
+    - *First-In, First-Out* (o primeiro elemento a entrar é o primeiro a ser processado);
+    - Operações: `enqueue()` (inserção no final da fila), `dequeue()` (remoção do início da fila) e `peek()`. Todas em $\mathcal{O}(1)$;
+    - Aplicações: Spoolers de impressão, filas de mensagens assíncronas (RabbitMQ/Kafka) e algoritmo de busca em largura (BFS) em grafos e árvores.
 
 ---
 
@@ -130,11 +132,11 @@ flowchart LR
 Uma Tabela Hash associa chaves de busca a índices de um array de tamanho $m$ por meio de uma **função de espalhamento** (*hash function*): $\text{índice} = h(\text{chave}) \pmod m$.
 - **Fator de Carga ($\alpha$):** Razão entre o número de itens armazenados $n$ e o número total de posições da tabela $m$ ($\alpha = \frac{n}{m}$). Quando o fator de carga ultrapassa o limiar regulamentar (tipicamente $0.75$), a tabela é redimensionada (*rehashing*), duplicando a capacidade e recalculando as posições.
 - **Tratamento de Colisões (Quando duas chaves resultam no mesmo índice):**
-  1. **Encadeamento Separado (*Separate Chaining*):** Cada slot do vetor principal referencia uma lista encadeada (ou árvore binária balanceada quando a lista cresce demais, como no Java 8+). Os elementos colidentes são simplesmente adicionados como novos nós dessa lista secundária.
-  2. **Endereçamento Aberto (*Open Addressing*):** Todos os elementos residem diretamente no vetor principal. Ocorrendo colisão, o algoritmo pesquisa sistematicamente o próximo slot vago:
-     - *Sondagem Linear (*Linear Probing*):* Testa células consecutivas ($i+1, i+2, \dots$). Sofre com o fenômeno de **agrupamento primário** (*primary clustering*);
-     - *Sondagem Quadrática (*Quadratic Probing*):* Testa células com incrementos quadráticos ($i+1^2, i+2^2, \dots$);
-     - *Duplo Hash (*Double Hashing*):* Calcula o tamanho do salto através de uma segunda função hash: $\text{passo} = h_2(\text{chave})$.
+    1. **Encadeamento Separado (*Separate Chaining*):** Cada slot do vetor principal referencia uma lista encadeada (ou árvore binária balanceada quando a lista cresce demais, como no Java 8+). Os elementos colidentes são simplesmente adicionados como novos nós dessa lista secundária.
+    2. **Endereçamento Aberto (*Open Addressing*):** Todos os elementos residem diretamente no vetor principal. Ocorrendo colisão, o algoritmo pesquisa sistematicamente o próximo slot vago:
+    - *Sondagem Linear (*Linear Probing*):* Testa células consecutivas ($i+1, i+2, \dots$). Sofre com o fenômeno de **agrupamento primário** (*primary clustering*);
+    - *Sondagem Quadrática (*Quadratic Probing*):* Testa células com incrementos quadráticos ($i+1^2, i+2^2, \dots$);
+    - *Duplo Hash (*Double Hashing*):* Calcula o tamanho do salto através de uma segunda função hash: $\text{passo} = h_2(\text{chave})$.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A complexidade temporal média de busca, inserção e remoção em uma Tabela Hash é $\mathcal{O}(1)$. Todavia, no **pior caso** (quando todas as chaves colidem no mesmo índice devido a uma função hash deficiente ou ataque de negação de serviço), a complexidade **degrada compulsoriamente para $\mathcal{O}(n)$**. A FCC frequentemente tenta enganar o candidato afirmando que a busca em tabela hash é $\mathcal{O}(1)$ em qualquer circunstância!
@@ -143,6 +145,7 @@ Uma Tabela Hash associa chaves de busca a índices de um array de tamanho $m$ po
 
 ### 2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos
 Uma **Árvore Binária de Busca (BST - Binary Search Tree)** é uma estrutura hierárquica na qual, para cada nó raiz $X$:
+
 - Todos os nós situados em sua subárvore esquerda possuem chaves estritamente **menores** que a chave de $X$;
 - Todos os nós situados em sua subárvore direita possuem chaves estritamente **maiores** que a chave de $X$.
 
@@ -173,8 +176,8 @@ graph TD
 - **Árvore AVL (Adelson-Velsky e Landis):** Mantém o Fator de Balanceamento $FB = \text{altura}(E) - \text{altura}(D) \in \{-1, 0, +1\}$. Caso $|FB| > 1$, aplica rotações (simples ou duplas) para restabelecer a altura estritamente logarítmica $\mathcal{O}(\log n)$;
 - **Árvore Rubro-Negra (Red-Black Tree):** Árvore balanceada por coloração de nós (vermelho ou preto). Menos rígida que a AVL em altura, demandando menor quantidade de rotações em operações frequentes de inserção e exclusão (utilizada internamente no `TreeMap` e `HashMap` do Java);
 - **Grafos:** Conjunto de vértices e arestas (direcionadas ou não, ponderadas ou não):
-  - *Representações:* Matriz de Adjacência ($\mathcal{O}(V^2)$ de memória, ideal para grafos densos) e Lista de Adjacência ($\mathcal{O}(V + E)$, ideal para grafos esparsos);
-  - *Algoritmos de Percurso:* Busca em Profundidade (DFS - usa pilha/recursão) e Busca em Largura (BFS - usa fila).
+    - *Representações:* Matriz de Adjacência ($\mathcal{O}(V^2)$ de memória, ideal para grafos densos) e Lista de Adjacência ($\mathcal{O}(V + E)$, ideal para grafos esparsos);
+    - *Algoritmos de Percurso:* Busca em Profundidade (DFS - usa pilha/recursão) e Busca em Largura (BFS - usa fila).
 
 ---
 
@@ -222,8 +225,8 @@ Essa comparação é cobrada com frequência máxima pela banca FCC:
 
 ### 3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento
 - **Classes Abstratas vs. Interfaces:**
-  - *Classe Abstrata:* Não pode ser instanciada diretamente (`new`). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte;
-  - *Interface:* Define um contrato puro de comportamento. Classes de diferentes hierarquias podem implementar a mesma interface, viabilizando o desacoplamento de contratos e a substituição de componentes;
+    - *Classe Abstrata:* Não pode ser instanciada diretamente (`new`). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte;
+    - *Interface:* Define um contrato puro de comportamento. Classes de diferentes hierarquias podem implementar a mesma interface, viabilizando o desacoplamento de contratos e a substituição de componentes;
 - **Alta Coesão e Baixo Acoplamento:** Módulos de software de excelência devem ser altamente coesos (cada classe com foco em um propósito único do negócio) e fracamente acoplados (comunicação através de interfaces abstratas, permitindo substituição dinâmica);
 - **Composição sobre Herança:** A herança gera forte acoplamento de código (*acoplamento de caixa-branca*), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse. A composição de objetos (*relação "tem um"*) é amplamente recomendada por promover delegação dinâmica e flexibilidade em tempo de execução.
 
@@ -233,9 +236,10 @@ Essa comparação é cobrada com frequência máxima pela banca FCC:
 
 ### 4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial
 A Programação Funcional é um paradigma declarativo que trata a computação como a avaliação de funções matemáticas e evita a mutação de estados e dados:
+
 1. **Funções Puras (*Pure Functions*):**
-   - *Determinismo:* Para os mesmos argumentos de entrada, a função retorna **rigorosamente o mesmo valor**;
-   - *Ausência de Efeitos Colaterais (*No Side Effects*):* Não modifica variáveis externas ou globais, não altera parâmetros recebidos por referência e não realiza operações de I/O em disco ou rede durante a sua computação pura;
+    - *Determinismo:* Para os mesmos argumentos de entrada, a função retorna **rigorosamente o mesmo valor**;
+    - *Ausência de Efeitos Colaterais (*No Side Effects*):* Não modifica variáveis externas ou globais, não altera parâmetros recebidos por referência e não realiza operações de I/O em disco ou rede durante a sua computação pura;
 2. **Imutabilidade:** As estruturas de dados não são alteradas após criadas. Qualquer transformação produz uma **nova estrutura de dados**, deixando a original intacta. Isso elimina problemas de condição de corrida (*race conditions*) em ambientes concorrentes multithread;
 3. **Transparência Referencial:** Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema.
 

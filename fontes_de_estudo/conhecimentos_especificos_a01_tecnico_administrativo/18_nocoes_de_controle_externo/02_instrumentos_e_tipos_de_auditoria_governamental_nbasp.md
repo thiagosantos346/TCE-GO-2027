@@ -11,15 +11,15 @@
 
 - Instrumentos de fiscalização do controle externo: levantamento, auditoria, inspeção, acompanhamento e monitoramento (conceitos, distinções operacionais e hipóteses de cabimento);
 - Tipologia da auditoria governamental segundo as normas técnicas:
-  - Auditoria de Conformidade (legalidade, legitimidade, regularidade formal e cumprimento normativo);
-  - Auditoria Operacional / de Desempenho (avaliação dos 4 Es: economicidade, eficiência, eficácia e efetividade);
-  - Auditoria Financeira (exame das demonstrações contábeis e tipos de opinião do auditor);
+    - Auditoria de Conformidade (legalidade, legitimidade, regularidade formal e cumprimento normativo);
+    - Auditoria Operacional / de Desempenho (avaliação dos 4 Es: economicidade, eficiência, eficácia e efetividade);
+    - Auditoria Financeira (exame das demonstrações contábeis e tipos de opinião do auditor);
 - Estrutura das Normas Internacionais das Entidades Fiscalizadoras Superiores (INTOSAI) e Declaração de Lima;
 - Normas Brasileiras de Auditoria do Setor Público (NBASP) emitidas pelo Instituto Rui Barbosa (IRB):
-  - **NBASP 100:** Princípios Fundamentais de Auditoria do Setor Público (as três partes da auditoria, objeto e critérios);
-  - **NBASP 200:** Princípios de Auditoria Financeira;
-  - **NBASP 300:** Princípios de Auditoria Operacional;
-  - **NBASP 400:** Princípios de Auditoria de Conformidade;
+    - **NBASP 100:** Princípios Fundamentais de Auditoria do Setor Público (as três partes da auditoria, objeto e critérios);
+    - **NBASP 200:** Princípios de Auditoria Financeira;
+    - **NBASP 300:** Princípios de Auditoria Operacional;
+    - **NBASP 400:** Princípios de Auditoria de Conformidade;
 - Postura profissional e conduta ética do auditor de controle externo: independência, integridade, ceticismo profissional, julgamento profissional, devido zelo e sigilo funcional;
 - Matrizes metodológicas: Matriz de Planejamento e Matriz de Achados de Auditoria.
 
@@ -27,12 +27,12 @@
 
 ## 🧭 Sumário
 1. [Os Cinco Instrumentos de Fiscalização do Controle Externo](#1-os-cinco-instrumentos-de-fiscalização-do-controle-externo)
-   - 1.1 [Conceito e Finalidade Prática de Cada Instrumento](#11-conceito-e-finalidade-prática-de-cada-instrumento)
-   - 1.2 [Diferença Prática entre Inspeção e Monitoramento](#12-diferença-prática-entre-inspeção-e-monitoramento)
+    - 1.1 [Conceito e Finalidade Prática de Cada Instrumento](#11-conceito-e-finalidade-prática-de-cada-instrumento)
+    - 1.2 [Diferença Prática entre Inspeção e Monitoramento](#12-diferença-prática-entre-inspeção-e-monitoramento)
 2. [Tipologia das Auditorias Governamentais (Normas NBASP / INTOSAI)](#2-tipologia-das-auditorias-governamentais-normas-nbasp--intosai)
-   - 2.1 [Auditoria de Conformidade (NBASP 400)](#21-auditoria-de-conformidade-nbasp-400)
-   - 2.2 [Auditoria Operacional ou de Desempenho e os 4 Es (NBASP 300)](#22-auditoria-operacional-ou-de-desempenho-e-os-4-es-nbasp-300)
-   - 2.3 [Auditoria Financeira e os Tipos de Opinião do Auditor (NBASP 200)](#23-auditoria-financeira-e-os-tipos-de-opinião-do-auditor-nbasp-200)
+    - 2.1 [Auditoria de Conformidade (NBASP 400)](#21-auditoria-de-conformidade-nbasp-400)
+    - 2.2 [Auditoria Operacional ou de Desempenho e os 4 Es (NBASP 300)](#22-auditoria-operacional-ou-de-desempenho-e-os-4-es-nbasp-300)
+    - 2.3 [Auditoria Financeira e os Tipos de Opinião do Auditor (NBASP 200)](#23-auditoria-financeira-e-os-tipos-de-opinião-do-auditor-nbasp-200)
 3. [Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria](#3-estrutura-normativa-nbasp--intosai-e-as-três-partes-da-auditoria)
 4. [Postura e Conduta Profissional do Auditor (NBASP 100)](#4-postura-e-conduta-profissional-do-auditor-nbasp-100)
 5. [Matrizes Metodológicas de Trabalho: Planejamento e Achados](#5-matrizes-metodológicas-de-trabalho-planejamento-e-achados)
@@ -71,6 +71,7 @@ flowchart TD
 #### 1.2 Diferença Prática entre Inspeção e Monitoramento
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca FCC frequentemente permuta as finalidades da **Inspeção** e do **Monitoramento**:  
+>
 > - Se o enunciado mencionar *"apurar fatos noticiados em representação de vereador ou denúncia popular urgente"*, o instrumento próprio e adequado é a **INSPEÇÃO**!  
 > - Se o enunciado descrever *"verificar se a Secretaria de Educação adotou as providências e determinações exaradas em acórdão anterior do Tribunal"*, o instrumento correto é o **MONITORAMENTO**!
 
@@ -99,10 +100,10 @@ flowchart TD
 
 #### 2.2 Auditoria Operacional ou de Desempenho e os 4 Es (NBASP 300)
 - **Foco:** Avaliar o desempenho de programas, projetos e órgãos públicos sob a perspectiva dos **4 Es da Administração Pública**:
-  1. **Economicidade:** Minimização dos custos dos recursos empregados na realização de uma atividade, sem comprometer a qualidade (*comprar bem e pelo preço justo*).
-  2. **Eficiência:** Relação técnica entre os insumos empregados (*inputs*) e os produtos, obras ou serviços gerados (*outputs*) - maximizar entregas com o menor dispêndio de recursos.
-  3. **Eficácia:** Grau de alcance dos objetivos e metas formais estabelecidos no planejamento governamental (*atingir o percentual previsto no PPA/LOA*).
-  4. **Efetividade:** Impacto social real e duradouro alcançado sobre a população-alvo e o meio ambiente (*transformação positiva na realidade dos cidadãos*).
+    1. **Economicidade:** Minimização dos custos dos recursos empregados na realização de uma atividade, sem comprometer a qualidade (*comprar bem e pelo preço justo*).
+    2. **Eficiência:** Relação técnica entre os insumos empregados (*inputs*) e os produtos, obras ou serviços gerados (*outputs*) - maximizar entregas com o menor dispêndio de recursos.
+    3. **Eficácia:** Grau de alcance dos objetivos e metas formais estabelecidos no planejamento governamental (*atingir o percentual previsto no PPA/LOA*).
+    4. **Efetividade:** Impacto social real e duradouro alcançado sobre a população-alvo e o meio ambiente (*transformação positiva na realidade dos cidadãos*).
 - **Desfecho:** Emissão preponderante de **recomendações pedagógicas de melhoria de gestão**, reservando-se as determinações apenas para obrigações legais vinculadas.
 
 > ⭐ **IMPORTANTE (EFICÁCIA vs. EFETIVIDADE NA BANCA FCC):**  
@@ -135,13 +136,14 @@ flowchart TD
 ### 3. Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria
 
 A INTOSAI (*International Organization of Supreme Audit Institutions*) e o Instituto Rui Barbosa (IRB) estruturam as normas em níveis hierárquicos:
+
 - **Nível 1:** Princípios Fundamentais - **Declaração de Lima (ISSAI 1 / NBASP 1)**, considerada a Carta Magna da independência das Entidades Fiscalizadoras Superiores.
 - **Nível 2:** Pré-requisitos Institucionais para o funcionamento dos Tribunais de Contas (independência, código de ética e controle de qualidade).
 - **Nível 3:** Princípios Fundamentais de Auditoria do Setor Público (NBASP 100, 200, 300 e 400).
 - **As Três Partes Envolvidas na Auditoria Pública:**
-  1. O **Auditor:** Tribunal de Contas e sua equipe técnica de controle externo;
-  2. A **Parte Responsável:** O gestor público ou entidade auditada encarregada da gestão dos recursos;
-  3. Os **Usuários Previstos:** A sociedade civil (cidadãos) e os órgãos de representação política (Poder Legislativo).
+    1. O **Auditor:** Tribunal de Contas e sua equipe técnica de controle externo;
+    2. A **Parte Responsável:** O gestor público ou entidade auditada encarregada da gestão dos recursos;
+    3. Os **Usuários Previstos:** A sociedade civil (cidadãos) e os órgãos de representação política (Poder Legislativo).
 
 ---
 
@@ -157,27 +159,28 @@ A INTOSAI (*International Organization of Supreme Audit Institutions*) e o Insti
 ### 5. Matrizes Metodológicas de Trabalho: Planejamento e Achados
 
 A moderna auditoria governamental dos Tribunais de Contas opera com base em duas matrizes estruturantes:
+
 - **Matriz de Planejamento:** Elaborada na fase preliminar; define as questões de auditoria, as informações requeridas, as fontes de consulta, os procedimentos de coleta/análise e as limitações de escopo.
 - **Matriz de Achados:** Elaborada na fase de execução; estrutura a constatação do auditor dividida em:
-  - *Achado:* O fato relevante identificado;
-  - *Situação Encontrada:* O que realmente ocorreu na prática (evidência fática);
-  - *Critério:* O que deveria ter ocorrido (norma legal, índice técnico ou boa prática);
-  - *Causa:* O motivo raiz pelo qual a situação divergiu do critério;
-  - *Efeito / Impacto:* A consequência danosa ou risco gerado para a sociedade e o erário;
-  - *Proposta de Encaminhamento:* Determinação ou recomendação corretiva a ser submetida ao Plenário.
+    - *Achado:* O fato relevante identificado;
+    - *Situação Encontrada:* O que realmente ocorreu na prática (evidência fática);
+    - *Critério:* O que deveria ter ocorrido (norma legal, índice técnico ou boa prática);
+    - *Causa:* O motivo raiz pelo qual a situação divergiu do critério;
+    - *Efeito / Impacto:* A consequência danosa ou risco gerado para a sociedade e o erário;
+    - *Proposta de Encaminhamento:* Determinação ou recomendação corretiva a ser submetida ao Plenário.
 
 ---
 
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 
 - [Instituto Rui Barbosa (IRB) - Normas Brasileiras de Auditoria do Setor Público (NBASP)](https://irbcontas.org.br/nbasp/)
-  - Textos integrais das NBASP 100, 200, 300 e 400 convergentes com o modelo INTOSAI.
+    - Textos integrais das NBASP 100, 200, 300 e 400 convergentes com o modelo INTOSAI.
 - [Declaração de Lima sobre Diretrizes para Preceitos de Auditoria (ISSAI 1)](https://www.issai.org/)
-  - Documento fundamental da INTOSAI sobre independência e prerrogativas das Entidades de Fiscalização.
+    - Documento fundamental da INTOSAI sobre independência e prerrogativas das Entidades de Fiscalização.
 - [Lei Estadual nº 16.168/2007 (Lei Orgânica do TCE-GO)](https://legisla.casacivil.go.gov.br/)
-  - Definição dos instrumentos de controle externo no âmbito do Estado de Goiás.
+    - Definição dos instrumentos de controle externo no âmbito do Estado de Goiás.
 - [Manual de Auditoria Operacional do Tribunal de Contas da União (TCU)](https://portal.tcu.gov.br/)
-  - Metodologia de elaboração de matriz de planejamento e matriz de achados.
+    - Metodologia de elaboração de matriz de planejamento e matriz de achados.
 
 ---
 
@@ -186,11 +189,11 @@ A moderna auditoria governamental dos Tribunais de Contas opera com base em duas
 ### Questão 1 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
 De acordo com as Normas Brasileiras de Auditoria do Setor Público (NBASP 100 e 300) e as disposições que regem a fiscalização dos Tribunais de Contas, o instrumento formal destinado especificamente a verificar o cumprimento de deliberações anteriores do Tribunal e os resultados práticos delas decorrentes denomina-se:
 
-A) Levantamento.  
-B) Auditoria de Conformidade.  
-C) Inspeção.  
-D) Monitoramento.  
-E) Acompanhamento.  
+* **A)** Levantamento.
+* **B)** Auditoria de Conformidade.
+* **C)** Inspeção.
+* **D)** Monitoramento.
+* **E)** Acompanhamento.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** O levantamento serve para mapear processos e conhecer o funcionamento das entidades para planejar fiscalizações futuras.  
@@ -208,11 +211,11 @@ Em auditoria operacional realizada sobre programa estadual de saneamento básico
 
 Sob a ótica dos princípios da auditoria de desempenho público consagrados na NBASP 300:
 
-A) O programa governamental foi eficiente e eficaz, porém não alcançou a efetividade social esperada.  
-B) O programa governamental demonstrou elevada efetividade, contudo violou o princípio da eficiência técnica.  
-C) Restou violado o princípio da economicidade, configurando crime tipificado contra as finanças públicas estaduais.  
-D) O programa governamental foi manifestamente ineficaz, na medida em que falhou na entrega física das redes de saneamento.  
-E) O achado de auditoria configura distorção relevante em auditoria financeira, impondo emissão de parecer com abstenção de opinião.  
+* **A)** O programa governamental foi eficiente e eficaz, porém não alcançou a efetividade social esperada.
+* **B)** O programa governamental demonstrou elevada efetividade, contudo violou o princípio da eficiência técnica.
+* **C)** Restou violado o princípio da economicidade, configurando crime tipificado contra as finanças públicas estaduais.
+* **D)** O programa governamental foi manifestamente ineficaz, na medida em que falhou na entrega física das redes de saneamento.
+* **E)** O achado de auditoria configura distorção relevante em auditoria financeira, impondo emissão de parecer com abstenção de opinião.
 
 > **Comentário Detalhado:**
 > - **A) CORRETA:** O programa foi **eficiente** (entregou a infraestrutura otimizando insumos e respeitando os custos e prazos orçados) e **eficaz** (atingiu 100% da meta física estipulada no planejamento), porém **não foi efetivo**, pois o impacto final transformador na saúde pública (redução das internações por doenças hídricas) não se concretizou.  
@@ -230,11 +233,11 @@ Durante os trabalhos de campo de uma auditoria financeira realizada pelo Tribuna
 
 De acordo com as normas da NBASP 200 (Auditoria Financeira), a equipe de auditoria deve propor a emissão de:
 
-A) Opinião Sem Ressalvas (Não Modificada).  
-B) Opinião Com Ressalvas.  
-C) Opinião Adversa.  
-D) Abstenção de Opinião.  
-E) Recomendações operacionais, arquivando-se o processo por falta de interesse de agir.  
+* **A)** Opinião Sem Ressalvas (Não Modificada).
+* **B)** Opinião Com Ressalvas.
+* **C)** Opinião Adversa.
+* **D)** Abstenção de Opinião.
+* **E)** Recomendações operacionais, arquivando-se o processo por falta de interesse de agir.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** A opinião sem ressalvas é emitida quando as demonstrações estão adequadas e livres de distorções relevantes.  
@@ -252,11 +255,11 @@ Ao desempenhar suas atividades de fiscalização in loco em órgão público jur
 
 Essa postura profissional exigida pelas normas NBASP 100 denomina-se:
 
-A) Julgamento Discricionário.  
-B) Ceticismo Profissional.  
-C) Imparcialidade Política.  
-D) Desconfiança Presuntiva Vinculada.  
-E) Reserva Mental Processual.  
+* **A)** Julgamento Discricionário.
+* **B)** Ceticismo Profissional.
+* **C)** Imparcialidade Política.
+* **D)** Desconfiança Presuntiva Vinculada.
+* **E)** Reserva Mental Processual.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** O julgamento profissional é a aplicação do saber técnico, não se confundindo com o conceito de mente questionadora.  
@@ -272,11 +275,11 @@ E) Reserva Mental Processual.
 ### Questão 5 (FCC - Adaptada / Analista de Gestão Pública)
 Na metodologia de auditoria governamental aplicada pelos Tribunais de Contas, a ferramenta estruturada que consolida as conclusões do auditor mediante a descrição do fato relevante apurado, o confronto entre a situação encontrada e o critério normativo, a identificação da causa, o apontamento dos efeitos gerados e a formulação da proposta de encaminhamento é denominada:
 
-A) Matriz de Riscos Pré-Contratual.  
-B) Matriz de Planejamento de Amostragem.  
-C) Matriz de Achados.  
-D) Termo Circunstanciado de Ocorrência.  
-E) Nota de Empenho Ordinário.  
+* **A)** Matriz de Riscos Pré-Contratual.
+* **B)** Matriz de Planejamento de Amostragem.
+* **C)** Matriz de Achados.
+* **D)** Termo Circunstanciado de Ocorrência.
+* **E)** Nota de Empenho Ordinário.
 
 > **Comentário Detalhado:**
 > - **A) Incorreta:** A matriz de riscos é instrumento contratual da Lei 14.133/2021 para alocação de encargos entre as partes.  

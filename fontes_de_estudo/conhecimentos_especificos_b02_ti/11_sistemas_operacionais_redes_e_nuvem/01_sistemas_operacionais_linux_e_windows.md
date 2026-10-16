@@ -19,33 +19,33 @@
 ## 🧭 Sumário
 
 - [1. Arquitetura de Sistemas Operacionais e Modos de Operação](#1-arquitetura-de-sistemas-operacionais-e-modos-de-operação)
-  - [1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)](#11-modos-de-operação-do-processador-user-mode-vs-kernel-mode)
-  - [1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)](#12-chamadas-de-sistema-syscalls-fork-execve-mmap-kill)
-  - [1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido](#13-tipos-de-kernel-monolítico-microkernel-e-híbrido)
+    - [1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)](#11-modos-de-operação-do-processador-user-mode-vs-kernel-mode)
+    - [1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)](#12-chamadas-de-sistema-syscalls-fork-execve-mmap-kill)
+    - [1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido](#13-tipos-de-kernel-monolítico-microkernel-e-híbrido)
 - [2. Gerenciamento de Processos, Concorrência e Escalonamento](#2-gerenciamento-de-processos-concorrência-e-escalonamento)
-  - [2.1 Processo vs. Thread (Processo Leve e Compartilhamento de Memória)](#21-processo-vs-thread-processo-leve-e-compartilhamento-de-memória)
-  - [2.2 Ciclo de Vida e Estados de um Processo](#22-ciclo-de-vida-e-estados-de-um-processo)
-  - [2.3 PCB e o Custo da Troca de Contexto (Context Switch)](#23-pcb-e-o-custo-da-troca-de-contexto-context-switch)
-  - [2.4 Algoritmos de Escalonamento de CPU (FCFS, SJF, SRTF, Round Robin, Prioridades)](#24-algoritmos-de-escalonamento-de-cpu-fcfs-sjf-srtf-round-robin-prioridades)
-  - [2.5 Sincronização e Concorrência: Mutex vs. Semáforos](#25-sincronização-e-concorrência-mutex-vs-semáforos)
+    - [2.1 Processo vs. Thread (Processo Leve e Compartilhamento de Memória)](#21-processo-vs-thread-processo-leve-e-compartilhamento-de-memória)
+    - [2.2 Ciclo de Vida e Estados de um Processo](#22-ciclo-de-vida-e-estados-de-um-processo)
+    - [2.3 PCB e o Custo da Troca de Contexto (Context Switch)](#23-pcb-e-o-custo-da-troca-de-contexto-context-switch)
+    - [2.4 Algoritmos de Escalonamento de CPU (FCFS, SJF, SRTF, Round Robin, Prioridades)](#24-algoritmos-de-escalonamento-de-cpu-fcfs-sjf-srtf-round-robin-prioridades)
+    - [2.5 Sincronização e Concorrência: Mutex vs. Semáforos](#25-sincronização-e-concorrência-mutex-vs-semáforos)
 - [3. Gerenciamento de Memória Virtual, Paginação e Swapping](#3-gerenciamento-de-memória-virtual-paginação-e-swapping)
-  - [3.1 Endereçamento Lógico vs. Físico e o Papel da MMU](#31-endereçamento-lógico-vs-físico-e-o-papel-da-mmu)
-  - [3.2 Paginação: Páginas, Molduras (Frames), Tabela de Páginas e TLB](#32-paginação-páginas-molduras-frames-tabela-de-páginas-e-tlb)
-  - [3.3 Falta de Página (Page Fault) e Algoritmos de Substituição](#33-falta-de-página-page-fault-e-algoritmos-de-substituição)
-  - [3.4 Swapping e Hiperpaginação (Thrashing)](#34-swapping-e-hiperpaginação-thrashing)
+    - [3.1 Endereçamento Lógico vs. Físico e o Papel da MMU](#31-endereçamento-lógico-vs-físico-e-o-papel-da-mmu)
+    - [3.2 Paginação: Páginas, Molduras (Frames), Tabela de Páginas e TLB](#32-paginação-páginas-molduras-frames-tabela-de-páginas-e-tlb)
+    - [3.3 Falta de Página (Page Fault) e Algoritmos de Substituição](#33-falta-de-página-page-fault-e-algoritmos-de-substituição)
+    - [3.4 Swapping e Hiperpaginação (Thrashing)](#34-swapping-e-hiperpaginação-thrashing)
 - [4. Sistemas de Arquivos e Permissões no Linux e Windows](#4-sistemas-de-arquivos-e-permissões-no-linux-e-windows)
-  - [4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena](#41-estrutura-do-inode-no-linux-o-que-armazena-e-o-que-não-armazena)
-  - [4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)](#42-links-no-linux-hard-link-vs-symbolic-link-soft-link)
-  - [4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)](#43-sistemas-de-arquivos-linux-ext4-xfs-e-windows-ntfs-fat32)
-  - [4.4 Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)](#44-permissões-octais-ugo-e-permissões-especiais-suid-sgid-sticky-bit)
+    - [4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena](#41-estrutura-do-inode-no-linux-o-que-armazena-e-o-que-não-armazena)
+    - [4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)](#42-links-no-linux-hard-link-vs-symbolic-link-soft-link)
+    - [4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)](#43-sistemas-de-arquivos-linux-ext4-xfs-e-windows-ntfs-fat32)
+    - [4.4 Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)](#44-permissões-octais-ugo-e-permissões-especiais-suid-sgid-sticky-bit)
 - [5. Administração e Shell Scripting no Linux](#5-administração-e-shell-scripting-no-linux)
-  - [5.1 Sinais POSIX (SIGKILL, SIGTERM, SIGHUP, SIGSTOP, SIGCONT)](#51-sinais-posix-sigkill-sigterm-sighup-sigstop-sigcont)
-  - [5.2 Comandos Essenciais, Filtros e Redirecionamentos](#52-comandos-essenciais-filtros-e-redirecionamentos)
-  - [5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)](#53-gerenciamento-de-serviços-com-systemd-systemctl-e-journalctl)
+    - [5.1 Sinais POSIX (SIGKILL, SIGTERM, SIGHUP, SIGSTOP, SIGCONT)](#51-sinais-posix-sigkill-sigterm-sighup-sigstop-sigcont)
+    - [5.2 Comandos Essenciais, Filtros e Redirecionamentos](#52-comandos-essenciais-filtros-e-redirecionamentos)
+    - [5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)](#53-gerenciamento-de-serviços-com-systemd-systemctl-e-journalctl)
 - [6. Administração de Windows e Windows PowerShell](#6-administração-de-windows-e-windows-powershell)
-  - [6.1 Paradigma do PowerShell: Pipeline Baseado em Objetos .NET](#61-paradigma-do-powershell-pipeline-baseado-em-objetos-net)
-  - [6.2 Cmdlets Essenciais de Administração e Filtragem](#62-cmdlets-essenciais-de-administração-e-filtragem)
-  - [6.3 Políticas de Execução de Scripts (ExecutionPolicy)](#63-políticas-de-execução-de-scripts-executionpolicy)
+    - [6.1 Paradigma do PowerShell: Pipeline Baseado em Objetos .NET](#61-paradigma-do-powershell-pipeline-baseado-em-objetos-net)
+    - [6.2 Cmdlets Essenciais de Administração e Filtragem](#62-cmdlets-essenciais-de-administração-e-filtragem)
+    - [6.3 Políticas de Execução de Scripts (ExecutionPolicy)](#63-políticas-de-execução-de-scripts-executionpolicy)
 - [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
 - [8. Questões Comentadas & Exemplos Práticos](#8-questões-comentadas--exemplos-práticos)
 
@@ -58,12 +58,12 @@
 O Sistema Operacional atua como intermediário entre o hardware físico e os softwares aplicativos do usuário. Para assegurar integridade, estabilidade e isolamento de segurança, os processadores modernos utilizam anéis de proteção (*Protection Rings*):
 
 1. **Modo Usuário (*User Mode* / Ring 3):**
-   - As aplicações e processos de usuário executam com conjunto restrito de instruções.
-   - Não possuem acesso direto aos dispositivos de entrada/saída (I/O), interrupções de hardware ou blocos arbitrários de memória física.
-   - Qualquer tentativa de executar uma instrução privilegiada gera uma exceção/trap capturada pela CPU.
+    - As aplicações e processos de usuário executam com conjunto restrito de instruções.
+    - Não possuem acesso direto aos dispositivos de entrada/saída (I/O), interrupções de hardware ou blocos arbitrários de memória física.
+    - Qualquer tentativa de executar uma instrução privilegiada gera uma exceção/trap capturada pela CPU.
 2. **Modo Núcleo / Kernel (*Kernel Mode* / Supervisor / Ring 0):**
-   - O código do núcleo executa com privilégio irrestrito sobre o hardware, tabelas de memória e registradores de controle da CPU.
-   - Controla o escalonamento, paginação e drivers de dispositivos.
+    - O código do núcleo executa com privilégio irrestrito sobre o hardware, tabelas de memória e registradores de controle da CPU.
+    - Controla o escalonamento, paginação e drivers de dispositivos.
 
 ---
 
@@ -113,10 +113,10 @@ sequenceDiagram
 
 - **Processo:** Programa em execução que possui seu próprio espaço de endereçamento virtual isolado, tabela de descritores de arquivo, PCB e contexto de segurança. A comunicação entre processos distintos exige mecanismos explícitos de IPC (*Inter-Process Communication*), como pipes, sockets, memória compartilhada ou filas de mensagens.
 - **Thread:** Menor unidade de processamento escalonável pela CPU. Múltiplas threads do mesmo processo **compartilham**:
-  - O mesmo espaço de endereçamento virtual (segmentos de Código, Dados Globais e Heap);
-  - Os mesmos arquivos e sockets abertos;
-  - Os mesmos sinais e permissões do processo pai.
-  - **O que cada thread possui de forma EXCLUSIVA:** seu próprio Program Counter (PC), registradores de CPU e sua própria Pilha de Execução (*Stack* - variáveis locais e fluxo de chamadas).
+    - O mesmo espaço de endereçamento virtual (segmentos de Código, Dados Globais e Heap);
+    - Os mesmos arquivos e sockets abertos;
+    - Os mesmos sinais e permissões do processo pai.
+    - **O que cada thread possui de forma EXCLUSIVA:** seu próprio Program Counter (PC), registradores de CPU e sua própria Pilha de Execução (*Stack* - variáveis locais e fluxo de chamadas).
 
 ---
 
@@ -147,6 +147,7 @@ stateDiagram-v2
 O **Bloco de Controle de Processo (PCB - *Process Control Block*)** é a estrutura de dados que armazena todas as informações do processo enquanto ele não está executando na CPU: estado, Program Counter (PC), registradores, informações de escalonamento, ponteiros de memória e descritores de arquivos abertos.
 
 A **Troca de Contexto (*Context Switch*)** é o procedimento pelo qual a CPU interrompe um processo, salva seu contexto no PCB e carrega o contexto do próximo processo a executar. Trata-se de uma operação de **overhead puro** (a CPU não executa trabalho útil de aplicação durante a troca):
+
 - Salva e restaura registradores;
 - Altera tabelas de mapeamento de memória virtual na MMU;
 - Invalida entradas de cache no TLB;
@@ -173,6 +174,7 @@ Quando múltiplos processos ou threads acessam variáveis e recursos compartilha
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A FCC frequentemente cobra a distinção entre **Mutex** e **Semáforo**:  
+>
 > - O **Mutex** (*Mutual Exclusion*) é um mecanismo de travamento binário com **conceito de propriedade (*ownership*)**: estritamente a thread que adquiriu o lock é quem tem o direito de liberá-lo.  
 > - O **Semáforo** é uma variável inteira atômica sem conceito de posse: qualquer processo ou thread pode executar a operação `signal()` / `post()` para incrementar o contador, prestando-se tanto à exclusão mútua (semáforo binário) quanto à sinalização e sincronização de eventos entre processos.
 
@@ -183,6 +185,7 @@ Quando múltiplos processos ou threads acessam variáveis e recursos compartilha
 ### 3.1 Endereçamento Lógico vs. Físico e o Papel da MMU
 
 A **Memória Virtual** desvincula o espaço de endereçamento lógico manipulado pelo programa da memória RAM física real. Isso permite que um programa execute mesmo que seu tamanho ultrapasse a memória RAM disponível:
+
 - **Endereço Lógico (Virtual):** Gerado pelo processador durante a execução das instruções do código.
 - **Endereço Físico:** Localização real dos bytes nos circuitos integrados dos módulos de memória RAM.
 - **MMU (*Memory Management Unit*):** Chip integrado ao processador que converte endereços virtuais em endereços físicos em tempo de execução consultando a Tabela de Páginas.
@@ -194,8 +197,8 @@ A **Memória Virtual** desvincula o espaço de endereçamento lógico manipulado
 - **Páginas Lógicas (*Pages*):** Blocos de tamanho fixo em que a memória virtual do processo é dividida.
 - **Molduras de Página Físicas (*Frames*):** Blocos de memória física RAM que possuem **rigorosamente o mesmo tamanho** das páginas lógicas (tipicamente 4 KB).
 - **Tabela de Páginas (*Page Table*):** Matriz mantida pelo kernel que armazena o mapeamento entre o número da página virtual e o número do frame físico correspondente, além de bits de controle:
-  - *Bit de Validade/Presença:* `1` indica que a página está carregada na RAM; `0` indica que está no disco (Swap) ou é inválida.
-  - *Dirty Bit (Modificado):* `1` indica que a página foi alterada desde que foi lida do disco e precisará ser gravada de volta antes de ser descartada.
+    - *Bit de Validade/Presença:* `1` indica que a página está carregada na RAM; `0` indica que está no disco (Swap) ou é inválida.
+    - *Dirty Bit (Modificado):* `1` indica que a página foi alterada desde que foi lida do disco e precisará ser gravada de volta antes de ser descartada.
 - **TLB (*Translation Lookaside Buffer*):** Cache associativa de hardware de altíssima velocidade que armazena as traduções recentes de página para frame. Evita que a CPU precise consultar a tabela de páginas na memória RAM a cada instrução (*TLB Hit*).
 
 ---
@@ -222,8 +225,8 @@ flowchart TD
 1. A CPU gera uma interrupção de falta de página (*Page Fault trap*) transferindo o controle ao kernel;
 2. O kernel verifica se o endereço é válido e localiza a página no disco de swap;
 3. Se não houver moldura livre na RAM, executa um algoritmo de substituição de páginas:
-   - **FIFO (*First-In, First-Out*):** Substitui a página mais antiga na RAM (sofre da Anomalia de Belady, onde aumentar a RAM pode aumentar as faltas de página).
-   - **LRU (*Least Recently Used*):** Substitui a página que não foi utilizada pelo maior intervalo de tempo no passado (aproximação do algoritmo ótimo teórico).
+    - **FIFO (*First-In, First-Out*):** Substitui a página mais antiga na RAM (sofre da Anomalia de Belady, onde aumentar a RAM pode aumentar as faltas de página).
+    - **LRU (*Least Recently Used*):** Substitui a página que não foi utilizada pelo maior intervalo de tempo no passado (aproximação do algoritmo ótimo teórico).
 4. O frame é carregado do disco e a tabela de páginas é atualizada (bit = 1), reiniciando a instrução original.
 
 ---
@@ -242,16 +245,16 @@ flowchart TD
 O **Inode (*Index Node*)** é a estrutura central de dados que descreve cada arquivo ou diretório em sistemas baseados em Unix/Linux:
 
 - **O que o Inode ARMAZENA:**
-  - Modo e tipo do arquivo (regular, diretório, socket, pipe, link simbólico);
-  - Permissões de acesso (`rwx`);
-  - Identificador do Dono (UID) e Grupo (GID);
-  - Tamanho exato em bytes;
-  - Carimbos temporais (`atime`, `mtime`, `ctime`);
-  - Contador de ligações diretas (*link count*);
-  - Ponteiros diretos e indiretos para os blocos de dados no disco.
+    - Modo e tipo do arquivo (regular, diretório, socket, pipe, link simbólico);
+    - Permissões de acesso (`rwx`);
+    - Identificador do Dono (UID) e Grupo (GID);
+    - Tamanho exato em bytes;
+    - Carimbos temporais (`atime`, `mtime`, `ctime`);
+    - Contador de ligações diretas (*link count*);
+    - Ponteiros diretos e indiretos para os blocos de dados no disco.
 - **O que o Inode NÃO ARMAZENA:**
-  - **O NOME do arquivo!**
-  - **O CAMINHO (path) do arquivo!**  
+    - **O NOME do arquivo!**
+    - **O CAMINHO (path) do arquivo!**  
   > 🚨 **REGRA DE OURO FCC:** O nome do arquivo e o número do seu inode ficam armazenados nos blocos de dados do **diretório pai** (estrutura *dentry*), e não dentro do próprio inode.
 
 ---
@@ -279,6 +282,7 @@ O **Inode (*Index Node*)** é a estrutura central de dados que descreve cada arq
 ### 4.4 Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)
 
 As permissões básicas dividem-se em Usuário Dono (`u`), Grupo (`g`) e Outros (`o`):
+
 - Leitura (`r`) = $4$
 - Escrita (`w`) = $2$
 - Execução (`x`) = $1$
@@ -310,17 +314,18 @@ $$\text{Exemplo: } 750 \implies \text{Dono: } 4+2+1=7\,(rwx); \quad \text{Grupo:
 - `grep -rn "padrao" /caminho`: Busca recursiva (`-r`) exibindo a linha (`-n`).
 - `find /var/log -type f -name "*.log" -mtime -7`: Localiza arquivos regulares modificados nos últimos 7 dias.
 - **Redirecionadores de Fluxo:**
-  - `>`: Sobrescreve a saída padrão (stdout / descritor 1).
-  - `>>`: Anexa à saída padrão.
-  - `2>`: Redireciona a saída de erros (stderr / descritor 2).
-  - `2>&1`: Redireciona os erros para o mesmo destino da saída padrão.
-  - `|` (Pipe): Conecta a saída padrão de um comando à entrada padrão do próximo.
+    - `>`: Sobrescreve a saída padrão (stdout / descritor 1).
+    - `>>`: Anexa à saída padrão.
+    - `2>`: Redireciona a saída de erros (stderr / descritor 2).
+    - `2>&1`: Redireciona os erros para o mesmo destino da saída padrão.
+    - `|` (Pipe): Conecta a saída padrão de um comando à entrada padrão do próximo.
 
 ---
 
 ### 5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)
 
 O **systemd** é o sistema de inicialização padrão do Linux moderno:
+
 - `systemctl start <servico>`: Inicia o serviço imediatamente na sessão corrente.
 - `systemctl enable <servico>`: Configura o serviço para iniciar automaticamente no boot do SO.
 - `systemctl status <servico>`: Exibe o estado operacional e os últimos logs do serviço.
@@ -349,6 +354,7 @@ flowchart LR
 ### 6.2 Cmdlets Essenciais de Administração e Filtragem
 
 Os cmdlets seguem estritamente o padrão **Verbo-Substantivo**:
+
 - `Get-Service`: Recupera a coleção de serviços do Windows.
 - `Where-Object` (alias `?`): Filtra objetos no pipeline com base em expressões condicionais booleanas:
   ```powershell
@@ -365,6 +371,7 @@ Os cmdlets seguem estritamente o padrão **Verbo-Substantivo**:
 ### 6.3 Políticas de Execução de Scripts (ExecutionPolicy)
 
 As políticas de execução controlam as condições para execução de scripts `.ps1`:
+
 - `Restricted`: Não executa nenhum script; permite apenas comandos interativos digitados no terminal.
 - `RemoteSigned`: Scripts criados localmente rodam livremente; scripts baixados da Internet exigem assinatura digital confiável.
 - `AllSigned`: Todos os scripts exigem assinatura digital confiável para rodar.
@@ -390,6 +397,7 @@ As políticas de execução controlam as condições para execução de scripts 
 
 ### Questão 1 (FCC - Adaptada / Analista de TI - Infraestrutura de Sistemas)
 Considere um servidor Linux em ambiente de produção onde um analista precisa configurar os privilégios de acesso de um script administrativo crítico denominado `rotina_backup.sh`. Os requisitos de conformidade determinam que:
+
 - O proprietário do arquivo tenha permissão total de leitura, escrita e execução;
 - Os membros do grupo associado ao arquivo tenham apenas permissão de leitura e execução;
 - Usuários externos e não autorizados (outros) não tenham qualquer privilégio de acesso (nem leitura, nem escrita, nem execução).
@@ -398,11 +406,11 @@ Adicionalmente, em uma sessão de monitoramento, o analista identificou um proce
 
 Assinale a alternativa que indica, correta e respectivamente, o comando para atribuir as permissões em notação octal e a linha de comando para a finalização compulsória do processo:
 
-A) `chmod 750 rotina_backup.sh` e `kill -15 8192`  
-B) `chmod 750 rotina_backup.sh` e `kill -9 8192`  
-C) `chmod 754 rotina_backup.sh` e `kill -9 8192`  
-D) `chmod 650 rotina_backup.sh` e `kill -KILL 8192`  
-E) `chmod 755 rotina_backup.sh` e `kill -STOP 8192`  
+* **A)** `chmod 750 rotina_backup.sh` e `kill -15 8192`
+* **B)** `chmod 750 rotina_backup.sh` e `kill -9 8192`
+* **C)** `chmod 754 rotina_backup.sh` e `kill -9 8192`
+* **D)** `chmod 650 rotina_backup.sh` e `kill -KILL 8192`
+* **E)** `chmod 755 rotina_backup.sh` e `kill -STOP 8192`
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O comando `kill -15` envia o sinal `SIGTERM`, que pode ser interceptado, tratado ou ignorado pela aplicação, violando a exigência de finalização compulsória imediata.
@@ -420,11 +428,11 @@ No contexto de administração e automação de servidores Windows Server utiliz
 
 Considerando a arquitetura interna do PowerShell, baseada na manipulação de coleções de objetos .NET estruturados ao longo do pipeline, assinale a linha de comando canônica e correta para a execução dessa tarefa:
 
-A) `Get-Service | grep "Running" | cut -d " " -f 1,2`  
-B) `Get-Service | Where-Object { $_.Status -eq 'Running' } | Select-Object -Property Name, DisplayName`  
-C) `Get-Process | Where-Object { $_.State == 'Running' } | Out-String -Columns Name, DisplayName`  
-D) `List-Service -Filter "Running" | Format-Table Name, DisplayName`  
-E) `Get-Service | ForEach-Object { if ($_.State -eq 'Running') { Write-Host $_.Name } }`  
+* **A)** `Get-Service | grep "Running" | cut -d " " -f 1,2`
+* **B)** `Get-Service | Where-Object { $_.Status -eq 'Running' } | Select-Object -Property Name, DisplayName`
+* **C)** `Get-Process | Where-Object { $_.State == 'Running' } | Out-String -Columns Name, DisplayName`
+* **D)** `List-Service -Filter "Running" | Format-Table Name, DisplayName`
+* **E)** `Get-Service | ForEach-Object { if ($_.State -eq 'Running') { Write-Host $_.Name } }`
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Utiliza utilitários de texto puro do ecossistema Unix (`grep` e `cut`), contrariando o pipeline baseado em objetos do PowerShell.
@@ -446,11 +454,11 @@ III. Caso o arquivo de origem de um link simbólico (*soft link*) seja excluído
 
 Está correto o que se afirma em:
 
-A) I e II, apenas.  
-B) II e III, apenas.  
-C) I e III, apenas.  
-D) I, II e III.  
-E) III, apenas.  
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** I e III, apenas.
+* **D)** I, II e III.
+* **E)** III, apenas.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Inclui o Item II, que comete grave erro conceitual ao afirmar que hard links podem cruzar partições.
@@ -468,11 +476,11 @@ No gerenciamento de memória virtual por paginação sob demanda em sistemas ope
 
 Nessa situação, o evento gerado pela arquitetura de hardware e a ação imediata subsequente realizada pelo sistema operacional são:
 
-A) Uma interrupção de *Page Fault*, que transfere o controle ao núcleo do sistema operacional para buscar a página solicitada no armazenamento secundário e carregá-la em uma moldura livre da memória principal.  
-B) Uma violação de segmento (*Segmentation Fault*), que resulta na terminação imediata e compulsória do processo por invasão de área de memória protegida.  
-C) Um *TLB Hit*, no qual o processador busca o endereço diretamente na memória cache L1 sem consultar as tabelas do núcleo.  
-D) Um procedimento de *Swapping* compulsório de todos os processos ativos para o disco, paralisando a CPU até que a memória RAM seja totalmente desfragmentada.  
-E) Uma chamada de sistema `mmap`, solicitando que o processo usuário reconfigure o seu próprio bloco de controle de processo (PCB).  
+* **A)** Uma interrupção de *Page Fault*, que transfere o controle ao núcleo do sistema operacional para buscar a página solicitada no armazenamento secundário e carregá-la em uma moldura livre da memória principal.
+* **B)** Uma violação de segmento (*Segmentation Fault*), que resulta na terminação imediata e compulsória do processo por invasão de área de memória protegida.
+* **C)** Um *TLB Hit*, no qual o processador busca o endereço diretamente na memória cache L1 sem consultar as tabelas do núcleo.
+* **D)** Um procedimento de *Swapping* compulsório de todos os processos ativos para o disco, paralisando a CPU até que a memória RAM seja totalmente desfragmentada.
+* **E)** Uma chamada de sistema `mmap`, solicitando que o processo usuário reconfigure o seu próprio bloco de controle de processo (PCB).
 
 > **Comentário Detalhado:**
 > - **A)** Correta. Quando o bit de validade é zero, a MMU sinaliza uma interrupção de falta de página (*Page Fault*), acionando a rotina do kernel que localiza a página no disco (área de swap) e a transfere para uma moldura livre na RAM.
@@ -488,11 +496,11 @@ E) Uma chamada de sistema `mmap`, solicitando que o processo usuário reconfigur
 ### Questão 5 (FCC - Adaptada / Analista de Tecnologia da Informação - Sistemas)
 Em relação aos conceitos de concorrência, processos, threads e algoritmos de escalonamento de processador em sistemas operacionais, assinale a afirmação correta:
 
-A) No algoritmo de escalonamento *Round Robin* (Alternância Circular), caso o tamanho da fatia de tempo (*quantum*) seja definido com um valor excessivamente grande, o comportamento do sistema degenera e aproxima-se do algoritmo FCFS (*First-Come, First-Served*).  
-B) O algoritmo de escalonamento SJF (*Shortest Job First*) em sua modalidade preemptiva impede a ocorrência do fenômeno de inanição (*starvation*), garantindo tempo de resposta equitativo para processos intensivos em CPU.  
-C) As threads criadas no interior de um mesmo processo possuem espaços de endereçamento de memória virtual completamente isolados e independentes, exigindo o uso de pipes ou sockets para qualquer troca de variáveis.  
-D) A troca de contexto (*context switch*) é uma operação puramente lógica que não impõe nenhum custo computacional de sobrecarga (*overhead*) para a CPU nem interfere no conteúdo das memórias cache.  
-E) O algoritmo de escalonamento FCFS é classificado como estritamente preemptivo, interrompendo processos de longa duração sempre que um novo processo requisita acesso à CPU.  
+* **A)** No algoritmo de escalonamento *Round Robin* (Alternância Circular), caso o tamanho da fatia de tempo (*quantum*) seja definido com um valor excessivamente grande, o comportamento do sistema degenera e aproxima-se do algoritmo FCFS (*First-Come, First-Served*).
+* **B)** O algoritmo de escalonamento SJF (*Shortest Job First*) em sua modalidade preemptiva impede a ocorrência do fenômeno de inanição (*starvation*), garantindo tempo de resposta equitativo para processos intensivos em CPU.
+* **C)** As threads criadas no interior de um mesmo processo possuem espaços de endereçamento de memória virtual completamente isolados e independentes, exigindo o uso de pipes ou sockets para qualquer troca de variáveis.
+* **D)** A troca de contexto (*context switch*) é uma operação puramente lógica que não impõe nenhum custo computacional de sobrecarga (*overhead*) para a CPU nem interfere no conteúdo das memórias cache.
+* **E)** O algoritmo de escalonamento FCFS é classificado como estritamente preemptivo, interrompendo processos de longa duração sempre que um novo processo requisita acesso à CPU.
 
 > **Comentário Detalhado:**
 > - **A)** Correta. Se o *quantum* do Round Robin for superior à rajada de qualquer processo ativo, nenhum processo sofrerá preempção antes de concluir sua execução voluntariamente, passando a atender na ordem de chegada exatamente como o FCFS.

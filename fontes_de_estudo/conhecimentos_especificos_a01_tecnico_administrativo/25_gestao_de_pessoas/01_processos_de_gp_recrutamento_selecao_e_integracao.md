@@ -9,29 +9,29 @@
 ## 📌 Ementa & Delimitação do Conteúdo
 
 1. **Evolução Histórica dos Paradigmas de Pessoas:**
-   - Fase Contábil / Departamento Pessoal: foco estritamente legal, registro de ponto, apuração de folha de pagamento e custos operacionais; pessoas tratadas como engrenagens mecânicas e mão de obra passiva.
-   - Fase Legal / Relações Industriais: impacto da legislação trabalhista e relações sindicais; conciliação de conflitos corporativos.
-   - Fase Clássica / Administração de Recursos Humanos (ARH): pessoas vistas como insumos e recursos produtivos homogêneos sujeitos a comando e controle.
-   - Fase Estratégica / Gestão Estratégica de Pessoas (GEP): pessoas como parceiras ativas do negócio, sujeitos dotados de competências, inteligência, iniciativa e capital intelectual indispensável para a entrega de valor público.
+    - Fase Contábil / Departamento Pessoal: foco estritamente legal, registro de ponto, apuração de folha de pagamento e custos operacionais; pessoas tratadas como engrenagens mecânicas e mão de obra passiva.
+    - Fase Legal / Relações Industriais: impacto da legislação trabalhista e relações sindicais; conciliação de conflitos corporativos.
+    - Fase Clássica / Administração de Recursos Humanos (ARH): pessoas vistas como insumos e recursos produtivos homogêneos sujeitos a comando e controle.
+    - Fase Estratégica / Gestão Estratégica de Pessoas (GEP): pessoas como parceiras ativas do negócio, sujeitos dotados de competências, inteligência, iniciativa e capital intelectual indispensável para a entrega de valor público.
 2. **Os Seis Processos da Gestão de Pessoas (Modelo de Idalberto Chiavenato):**
-   - **Agregar Pessoas:** quem deve trabalhar na organização (recrutamento, seleção e planejamento de RH).
-   - **Aplicar Pessoas:** o que as pessoas farão na organização (desenho de cargos, análise funcional, orientação/socialização organizacional e avaliação de desempenho).
-   - **Recompensar Pessoas:** como incentivar e motivar os colaboradores (vencimento, remuneração, benefícios e incentivos).
-   - **Desenvolver Pessoas:** como capacitar e aprimorar competências (treinamento, desenvolvimento funcional, aprendizagem organizacional e planos de carreira).
-   - **Manter Pessoas:** como criar condições ambientais e psicológicas de permanência (clima organizacional, cultura, higiene, segurança e qualidade de vida no trabalho - QVT).
-   - **Monitorar Pessoas:** como acompanhar e controlar as atividades e informações de pessoal (banco de dados, sistemas de informação gerencial de RH e auditoria de pessoal).
+    - **Agregar Pessoas:** quem deve trabalhar na organização (recrutamento, seleção e planejamento de RH).
+    - **Aplicar Pessoas:** o que as pessoas farão na organização (desenho de cargos, análise funcional, orientação/socialização organizacional e avaliação de desempenho).
+    - **Recompensar Pessoas:** como incentivar e motivar os colaboradores (vencimento, remuneração, benefícios e incentivos).
+    - **Desenvolver Pessoas:** como capacitar e aprimorar competências (treinamento, desenvolvimento funcional, aprendizagem organizacional e planos de carreira).
+    - **Manter Pessoas:** como criar condições ambientais e psicológicas de permanência (clima organizacional, cultura, higiene, segurança e qualidade de vida no trabalho - QVT).
+    - **Monitorar Pessoas:** como acompanhar e controlar as atividades e informações de pessoal (banco de dados, sistemas de informação gerencial de RH e auditoria de pessoal).
 3. **Rotinas Administrativas do Departamento de Pessoal no Setor Público:**
-   - Admissão, posse e exercício funcional; controle de assiduidade e pontualidade; processamento de folha de pagamento (vencimento básico, adicionais, gratificações e limites do teto constitucional); escala e concessão de férias; assentamentos individuais e prontuário funcional.
+    - Admissão, posse e exercício funcional; controle de assiduidade e pontualidade; processamento de folha de pagamento (vencimento básico, adicionais, gratificações e limites do teto constitucional); escala e concessão de férias; assentamentos individuais e prontuário funcional.
 4. **O Processo de Agregar Pessoas — Recrutamento e Seleção:**
-   - Recrutamento: mercado de trabalho vs. mercado de recursos humanos; técnicas de atração.
-   - Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto: conceitos, vantagens e desvantagens de cada modalidade (destaque para a *endogamia cultural* no interno e os custos/tempo no externo).
-   - Seleção de Pessoas como processo de comparação e decisão: requisitos do cargo (perfil de competências) vs. qualificações do candidato.
-   - Técnicas e instrumentos de seleção: provas de conhecimentos e habilidades, entrevistas estruturadas e comportamentais por competências (técnica STAR), testes de aptidão e personalidade, dinâmicas de grupo e avaliação de títulos.
-   - O Concurso Público (CF/88, art. 37, II): regime constitucional, princípios da impessoalidade, publicidade, isonomia e meritocracia; validade, prorrogação e direito subjetivo à nomeação dos aprovados no número de vagas.
+    - Recrutamento: mercado de trabalho vs. mercado de recursos humanos; técnicas de atração.
+    - Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto: conceitos, vantagens e desvantagens de cada modalidade (destaque para a *endogamia cultural* no interno e os custos/tempo no externo).
+    - Seleção de Pessoas como processo de comparação e decisão: requisitos do cargo (perfil de competências) vs. qualificações do candidato.
+    - Técnicas e instrumentos de seleção: provas de conhecimentos e habilidades, entrevistas estruturadas e comportamentais por competências (técnica STAR), testes de aptidão e personalidade, dinâmicas de grupo e avaliação de títulos.
+    - O Concurso Público (CF/88, art. 37, II): regime constitucional, princípios da impessoalidade, publicidade, isonomia e meritocracia; validade, prorrogação e direito subjetivo à nomeação dos aprovados no número de vagas.
 5. **Processo de Socialização e Integração Organizacional (*Onboarding*):**
-   - Conceito, relevância para a administração pública e aceleração do período de estágio probatório.
-   - As três fases da socialização organizacional (Socialização Antecipatória, Encontro/Confronto e Metamorfose/Adaptação).
-   - Práticas de integração: manuais do servidor, programas de boas-vindas, tutoria/mentoria institucional e cursos de formação da Escola de Contas.
+    - Conceito, relevância para a administração pública e aceleração do período de estágio probatório.
+    - As três fases da socialização organizacional (Socialização Antecipatória, Encontro/Confronto e Metamorfose/Adaptação).
+    - Práticas de integração: manuais do servidor, programas de boas-vindas, tutoria/mentoria institucional e cursos de formação da Escola de Contas.
 
 ---
 
@@ -72,15 +72,15 @@ flowchart LR
 #### Pessoas como Recursos vs. Pessoas como Parceiras (Idalberto Chiavenato)
 
 * **Pessoas como Recursos:**
-  * Tratadas como elementos passivos e estáticos de produção;
-  * Devem ser rigidamente controladas, padronizadas e subordinadas à hierarquia;
-  * Consideradas exclusivamente como centro de custos que consome verbas orçamentárias;
-  * Foco na execução mecânica de tarefas predefinidas, sem incentivo à iniciativa própria.
+    * Tratadas como elementos passivos e estáticos de produção;
+    * Devem ser rigidamente controladas, padronizadas e subordinadas à hierarquia;
+    * Consideradas exclusivamente como centro de custos que consome verbas orçamentárias;
+    * Foco na execução mecânica de tarefas predefinidas, sem incentivo à iniciativa própria.
 * **Pessoas como Parceiras (Capital Intelectual):**
-  * Tratadas como agentes proativos, autônomos e dotados de inteligência emocional e técnica;
-  * Consideradas o ativo mais valioso e geradoras diretas de valor institucional;
-  * Investimento prioritário da organização para a melhoria dos serviços públicos;
-  * Estimuladas a inovar, assumir responsabilidade pelos resultados e compartilhar conhecimento.
+    * Tratadas como agentes proativos, autônomos e dotados de inteligência emocional e técnica;
+    * Consideradas o ativo mais valioso e geradoras diretas de valor institucional;
+    * Investimento prioritário da organização para a melhoria dos serviços públicos;
+    * Estimuladas a inovar, assumir responsabilidade pelos resultados e compartilhar conhecimento.
 
 ---
 
@@ -111,6 +111,7 @@ flowchart TD
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (MACROPROCESSOS DE CHIAVENATO):**  
 > A Fundação Carlos Chagas cobra com frequência pegadinhas sobre a alocação de subsistemas nesse modelo:  
+>
 > 1. A **Avaliação de Desempenho** pertence ao macroprocesso de **APLICAR PESSOAS** (e NÃO a "Monitorar pessoas" nem a "Desenvolver pessoas"). Aplicar significa verificar o que as pessoas fazem e como estão desempenhando suas atribuições.  
 > 2. A **Integração / Socialização Organizacional** também integra os processos de **APLICAR PESSOAS**, pois orienta o servidor sobre como exercer seu cargo e agir dentro da instituição.  
 > 3. O macroprocesso de **Monitorar Pessoas** restringe-se a cadastros, bancos de dados, relatórios gerenciais e auditoria de regularidade funcional.
@@ -122,26 +123,26 @@ flowchart TD
 Mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indispensáveis para garantir a estrita legalidade e conformidade dos atos de gestão pública:
 
 1. **Admissão e Investidura:**
-   - Conferência de documentos pessoais e habilitação legal;
-   - Realização de perícia médica oficial e aferição de aptidão física/mental;
-   - Lavratura do termo de posse pela autoridade competente e registro do início do efetivo exercício.
+    - Conferência de documentos pessoais e habilitação legal;
+    - Realização de perícia médica oficial e aferição de aptidão física/mental;
+    - Lavratura do termo de posse pela autoridade competente e registro do início do efetivo exercício.
 2. **Controle de Frequência e Assiduidade:**
-   - Acompanhamento do registro biométrico ou eletrônico de ponto;
-   - Gestão de escalas de trabalho, compensações e banco de horas autorizadas;
-   - Processamento de justificativas legais, faltas abonadas e desconto em folha decorrente de ausências não justificadas.
+    - Acompanhamento do registro biométrico ou eletrônico de ponto;
+    - Gestão de escalas de trabalho, compensações e banco de horas autorizadas;
+    - Processamento de justificativas legais, faltas abonadas e desconto em folha decorrente de ausências não justificadas.
 3. **Elaboração e Processamento da Folha de Pagamento:**
-   - Apuração do vencimento básico atribuído ao cargo e padrão da carreira;
-   - Lançamento de vantagens funcionais (quinquênios, gratificações de desempenho, adicionais de titulação, auxílio-alimentação e transporte);
-   - Cálculo e retenção de descontos obrigatórios (Previdência Própria / Regime Geral e Imposto de Renda Retido na Fonte - IRRF);
-   - Gestão de consignações facultativas em folha (empréstimos consignados, planos de saúde, mensalidades sindicais);
-   - Aplicação e corte de remunerações que excedam o **teto remuneratório constitucional** (CF/88, art. 37, XI).
+    - Apuração do vencimento básico atribuído ao cargo e padrão da carreira;
+    - Lançamento de vantagens funcionais (quinquênios, gratificações de desempenho, adicionais de titulação, auxílio-alimentação e transporte);
+    - Cálculo e retenção de descontos obrigatórios (Previdência Própria / Regime Geral e Imposto de Renda Retido na Fonte - IRRF);
+    - Gestão de consignações facultativas em folha (empréstimos consignados, planos de saúde, mensalidades sindicais);
+    - Aplicação e corte de remunerações que excedam o **teto remuneratório constitucional** (CF/88, art. 37, XI).
 4. **Escala e Concessão de Férias:**
-   - Controle do período aquisitivo (12 meses de efetivo exercício) e período concessivo;
-   - Elaboração da escala anual de férias para evitar descontinuidade do serviço público;
-   - Pagamento obrigatório do terço constitucional de férias.
+    - Controle do período aquisitivo (12 meses de efetivo exercício) e período concessivo;
+    - Elaboração da escala anual de férias para evitar descontinuidade do serviço público;
+    - Pagamento obrigatório do terço constitucional de férias.
 5. **Assentamentos Individuais e Prontuário Funcional:**
-   - Registro histórico de toda a vida funcional do servidor (designações, licenças, afastamentos, progressões, penalidades e elogios);
-   - Averbação de tempo de contribuição prévio para fins de aposentadoria e disponibilidade.
+    - Registro histórico de toda a vida funcional do servidor (designações, licenças, afastamentos, progressões, penalidades e elogios);
+    - Averbação de tempo de contribuição prévio para fins de aposentadoria e disponibilidade.
 
 ---
 
@@ -193,24 +194,24 @@ flowchart TD
 #### Técnicas de Seleção de Pessoas
 
 1. **Provas de Conhecimentos ou de Capacidade:**
-   - Avaliam o nível de conhecimento teórico e prático exigido para a função;
-   - Podem ser objetivas (múltipla escolha, verdadeiro/falso) ou discursivas (estudo de caso, redação técnica);
-   - Constituem o núcleo central do concurso público brasileiro.
+    - Avaliam o nível de conhecimento teórico e prático exigido para a função;
+    - Podem ser objetivas (múltipla escolha, verdadeiro/falso) ou discursivas (estudo de caso, redação técnica);
+    - Constituem o núcleo central do concurso público brasileiro.
 2. **Entrevistas de Seleção:**
-   - **Não estruturadas:** livres, sem roteiro prévio (baixa confiabilidade);
-   - **Estruturadas / Padronizadas:** roteiro rígido de perguntas iguais para todos os candidatos (alta comparabilidade);
-   - **Entrevista Comportamental com Foco em Competências (Técnica STAR):** busca evidências de comportamentos passados para prever desempenhos futuros:
-     - **S** (*Situação*): contexto fático enfrentado pelo candidato;
-     - **T** (*Tarefa*): responsabilidade ou desafio que cabia a ele resolver;
-     - **A** (*Ação*): atitudes e procedimentos concretos adotados pelo profissional;
-     - **R** (*Resultado*): impactos qualitativos e quantitativos alcançados.
+    - **Não estruturadas:** livres, sem roteiro prévio (baixa confiabilidade);
+    - **Estruturadas / Padronizadas:** roteiro rígido de perguntas iguais para todos os candidatos (alta comparabilidade);
+    - **Entrevista Comportamental com Foco em Competências (Técnica STAR):** busca evidências de comportamentos passados para prever desempenhos futuros:
+    - **S** (*Situação*): contexto fático enfrentado pelo candidato;
+    - **T** (*Tarefa*): responsabilidade ou desafio que cabia a ele resolver;
+    - **A** (*Ação*): atitudes e procedimentos concretos adotados pelo profissional;
+    - **R** (*Resultado*): impactos qualitativos e quantitativos alcançados.
 3. **Testes Psicológicos e de Aptidão:**
-   - **Testes Psicométricos:** mensuram aptidões intelectuais, raciocínio lógico, atenção concentrada e memória;
-   - **Testes de Personalidade:** avaliam traços de caráter, temperamento, equilíbrio emocional e maturidade (ex.: testes projetivos e expressivos, devidamente validados pelo Conselho Federal de Psicologia).
+    - **Testes Psicométricos:** mensuram aptidões intelectuais, raciocínio lógico, atenção concentrada e memória;
+    - **Testes de Personalidade:** avaliam traços de caráter, temperamento, equilíbrio emocional e maturidade (ex.: testes projetivos e expressivos, devidamente validados pelo Conselho Federal de Psicologia).
 4. **Técnicas Vivenciais / Dinâmicas de Grupo:**
-   - Simulação de situações reais de trabalho, dramatizações (*role-playing*) e jogos de negócios para observar liderança, trabalho em equipe e comunicação interpessoal.
+    - Simulação de situações reais de trabalho, dramatizações (*role-playing*) e jogos de negócios para observar liderança, trabalho em equipe e comunicação interpessoal.
 5. **Avaliação de Títulos:**
-   - Pontuação objetiva de títulos acadêmicos (especialização, mestrado, doutorado) e experiência profissional prévia. *No setor público, a avaliação de títulos tem caráter estritamente classificatório, nunca eliminatório (CF/88, art. 37, II).*
+    - Pontuação objetiva de títulos acadêmicos (especialização, mestrado, doutorado) e experiência profissional prévia. *No setor público, a avaliação de títulos tem caráter estritamente classificatório, nunca eliminatório (CF/88, art. 37, II).*
 
 ---
 
@@ -228,9 +229,9 @@ flowchart TD
 
 * **Exigência Constitucional (Art. 37, II):** A investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos, de acordo com a natureza e a complexidade do cargo ou emprego, na forma prevista em lei.
 * **Exceções Constitucionais Expressas:**
-  1. *Cargos em comissão declarados em lei de livre nomeação e exoneração* (destinados exclusivamente às atribuições de direção, chefia e assessoramento — art. 37, II e V);
-  2. *Contratação por tempo determinado* para atender a necessidade temporária de excepcional interesse público (Processo Seletivo Simplificado - PSS, art. 37, IX);
-  3. *Agentes Comunitários de Saúde e de Combate às Endemias* (processo seletivo público específico, art. 198, § 4º).
+    1. *Cargos em comissão declarados em lei de livre nomeação e exoneração* (destinados exclusivamente às atribuições de direção, chefia e assessoramento — art. 37, II e V);
+    2. *Contratação por tempo determinado* para atender a necessidade temporária de excepcional interesse público (Processo Seletivo Simplificado - PSS, art. 37, IX);
+    3. *Agentes Comunitários de Saúde e de Combate às Endemias* (processo seletivo público específico, art. 198, § 4º).
 * **Prazo de Validade (Art. 37, III):** Até dois anos, prorrogável uma vez por igual período (critério de discricionariedade da administração, dentro do período inicial).
 * **Direito Subjetivo à Nomeação (Jurisprudência Vinculante do STF - Tema 161 / RE 598.099):** O candidato aprovado dentro do número de vagas previsto originariamente no edital do concurso público possui **direito público subjetivo à nomeação** durante o prazo de validade do certame. A recusa da administração só é admitida em hipóteses excepcionalíssimas (superveniência, imprevisibilidade, gravidade extrema e necessidade inafastável).
 
@@ -256,15 +257,15 @@ flowchart LR
 ```
 
 1. **Fase 1: Socialização Prévia (ou Antecipatória):**
-   - Ocorre antes do ingresso formal do servidor na repartição;
-   - O indivíduo traz consigo valores acadêmicos, crenças sociais e expectativas idealizadas a respeito da carreira e do órgão público.
+    - Ocorre antes do ingresso formal do servidor na repartição;
+    - O indivíduo traz consigo valores acadêmicos, crenças sociais e expectativas idealizadas a respeito da carreira e do órgão público.
 2. **Fase 2: Encontro (ou Confronto):**
-   - Ocorre no momento em que o servidor toma posse e entra em efetivo exercício;
-   - Há um inevitável confronto entre suas expectativas prévias e a realidade concreta da repartição (rotinas burocráticas, sistemas informatizados, hierarquias);
-   - Programas formais de acolhimento reduzem o risco de choque cultural traumático.
+    - Ocorre no momento em que o servidor toma posse e entra em efetivo exercício;
+    - Há um inevitável confronto entre suas expectativas prévias e a realidade concreta da repartição (rotinas burocráticas, sistemas informatizados, hierarquias);
+    - Programas formais de acolhimento reduzem o risco de choque cultural traumático.
 3. **Fase 3: Metamorfose (ou Adaptação Permanente):**
-   - O novo servidor internaliza as normas, compreende a linguagem corporativa e ajusta seu comportamento aos padrões institucionais;
-   - Desenvolve sensação de pertencimento, segurança psicológica e alinhamento com a missão do Tribunal de Contas.
+    - O novo servidor internaliza as normas, compreende a linguagem corporativa e ajusta seu comportamento aos padrões institucionais;
+    - Desenvolve sensação de pertencimento, segurança psicológica e alinhamento com a missão do Tribunal de Contas.
 
 #### Práticas Institucionais de Socialização no Setor Público
 

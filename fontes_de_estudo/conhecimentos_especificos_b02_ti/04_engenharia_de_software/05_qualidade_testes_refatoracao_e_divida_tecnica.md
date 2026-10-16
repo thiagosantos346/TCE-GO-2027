@@ -18,23 +18,23 @@
 
 ## 🧭 Sumário
 - [1. Atributos e Métricas de Qualidade de Software (ISO/IEC 25010)](#1-atributos-e-métricas-de-qualidade-de-software-isoiec-25010)
-  - [1.1 Desempenho e Eficiência de Recursos](#11-desempenho-e-eficiência-de-recursos)
-  - [1.2 Escalabilidade Vertical (Scale Up) vs. Escalabilidade Horizontal (Scale Out)](#12-escalabilidade-vertical-scale-up-vs-escalabilidade-horizontal-scale-out)
-  - [1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)](#13-confiabilidade-disponibilidade-e-métricas-de-manutenção-mtbf-e-mttr)
-  - [1.4 Manutenibilidade e Facilidade de Mudança](#14-manutenibilidade-e-facilidade-de-mudança)
+    - [1.1 Desempenho e Eficiência de Recursos](#11-desempenho-e-eficiência-de-recursos)
+    - [1.2 Escalabilidade Vertical (Scale Up) vs. Escalabilidade Horizontal (Scale Out)](#12-escalabilidade-vertical-scale-up-vs-escalabilidade-horizontal-scale-out)
+    - [1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)](#13-confiabilidade-disponibilidade-e-métricas-de-manutenção-mtbf-e-mttr)
+    - [1.4 Manutenibilidade e Facilidade de Mudança](#14-manutenibilidade-e-facilidade-de-mudança)
 - [2. Níveis e Estratégias de Testes de Software](#2-níveis-e-estratégias-de-testes-de-software)
-  - [2.1 A Pirâmide de Testes de Mike Cohn](#21-a-pirâmide-de-testes-de-mike-cohn)
-  - [2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)](#22-dublês-de-teste-test-doubles-de-gerard-meszaros)
-  - [2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)](#23-testes-de-caixa-preta-funcionais-vs-testes-de-caixa-branca-estruturais)
-  - [2.4 Complexidade Ciclomática de Thomas McCabe e Grafo de Fluxo](#24-complexidade-ciclomática-de-thomas-mccabe-e-grafo-de-fluxo)
+    - [2.1 A Pirâmide de Testes de Mike Cohn](#21-a-pirâmide-de-testes-de-mike-cohn)
+    - [2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)](#22-dublês-de-teste-test-doubles-de-gerard-meszaros)
+    - [2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)](#23-testes-de-caixa-preta-funcionais-vs-testes-de-caixa-branca-estruturais)
+    - [2.4 Complexidade Ciclomática de Thomas McCabe e Grafo de Fluxo](#24-complexidade-ciclomática-de-thomas-mccabe-e-grafo-de-fluxo)
 - [3. Tipos Especializados de Testes e Automação](#3-tipos-especializados-de-testes-e-automação)
-  - [3.1 Testes de Regressão e Automação Contínua](#31-testes-de-regressão-e-automação-contínua)
-  - [3.2 Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência](#32-testes-de-desempenho-carga-vs-estresse-vs-pico-vs-resistência)
-  - [3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)](#33-práticas-de-tdd-test-driven-development-e-bdd-behavior-driven-development)
+    - [3.1 Testes de Regressão e Automação Contínua](#31-testes-de-regressão-e-automação-contínua)
+    - [3.2 Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência](#32-testes-de-desempenho-carga-vs-estresse-vs-pico-vs-resistência)
+    - [3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)](#33-práticas-de-tdd-test-driven-development-e-bdd-behavior-driven-development)
 - [4. Revisão de Código, Refatoração e Dívida Técnica](#4-revisão-de-código-refatoração-e-dívida-técnica)
-  - [4.1 Técnicas Modernas de Revisão de Código (Code Review)](#41-técnicas-modernas-de-revisão-de-código-code-review)
-  - [4.2 Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler](#42-refatoração-de-código-e-os-maus-cheiros-code-smells-de-fowler)
-  - [4.3 Dívida Técnica e o Quadrante de Martin Fowler](#43-dívida-técnica-e-o-quadrante-de-martin-fowler)
+    - [4.1 Técnicas Modernas de Revisão de Código (Code Review)](#41-técnicas-modernas-de-revisão-de-código-code-review)
+    - [4.2 Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler](#42-refatoração-de-código-e-os-maus-cheiros-code-smells-de-fowler)
+    - [4.3 Dívida Técnica e o Quadrante de Martin Fowler](#43-dívida-técnica-e-o-quadrante-de-martin-fowler)
 - [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
 - [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
 
@@ -46,6 +46,7 @@ A norma internacional **ISO/IEC 25010** (evolução da ISO 9126) define o modelo
 
 ### 1.1 Desempenho e Eficiência de Recursos
 Mede o comportamento do sistema em termos de velocidade de resposta e utilização racional dos recursos computacionais sob condições especificadas:
+
 - **Tempo de Resposta (*Response Time*):** Intervalo de tempo transcorrido entre a emissão de uma requisição pelo usuário e a exibição completa da resposta processada;
 - **Latência:** Tempo de trânsito que uma mensagem ou pacote leva para viajar da origem ao destino na rede;
 - **Vazão (*Throughput*):** Quantidade de transações, requisições ou volume de dados processados com sucesso por unidade de tempo (ex.: 5.000 requisições por segundo - RPS);
@@ -64,19 +65,20 @@ Mede o comportamento do sistema em termos de velocidade de resposta e utilizaç�
 ### 1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)
 - **Confiabilidade:** Grau em que o software desempenha suas funções requeridas sob condições estabelecidas por um período especificado de tempo. Avalia a maturidade, a tolerância a falhas e a capacidade de recuperação de desastres;
 - **Disponibilidade:** Proporção de tempo em que o sistema está operacional e plenamente acessível para uso quando demandado. Expressa-se habitualmente pelo número de "noves" em acordos de nível de serviço (SLA - *Service Level Agreement*):
-  - *99% ("dois noves"):* Tolera até 3,65 dias de indisponibilidade por ano;
-  - *99,9% ("três noves"):* Tolera até 8,76 horas de indisponibilidade por ano;
-  - *99,99% ("quatro noves"):* Tolera até 52,56 minutos de indisponibilidade por ano.
+    - *99% ("dois noves"):* Tolera até 3,65 dias de indisponibilidade por ano;
+    - *99,9% ("três noves"):* Tolera até 8,76 horas de indisponibilidade por ano;
+    - *99,99% ("quatro noves"):* Tolera até 52,56 minutos de indisponibilidade por ano.
 - **Métricas Clássicas de Sustentação de Sistemas:**
-  - **MTBF (*Mean Time Between Failures* - Tempo Médio Entre Falhas):** Métrica de confiabilidade que calcula o tempo médio em que o sistema opera perfeitamente entre duas panes consecutivas;
-  - **MTTR (*Mean Time to Repair* - Tempo Médio para Reparo):** Métrica de manutenibilidade que mede o tempo médio gasto pela equipe de suporte para diagnosticar, corrigir a falha e restaurar o sistema à plena operação;
-  - **Cálculo da Disponibilidade Teórica:**
+    - **MTBF (*Mean Time Between Failures* - Tempo Médio Entre Falhas):** Métrica de confiabilidade que calcula o tempo médio em que o sistema opera perfeitamente entre duas panes consecutivas;
+    - **MTTR (*Mean Time to Repair* - Tempo Médio para Reparo):** Métrica de manutenibilidade que mede o tempo médio gasto pela equipe de suporte para diagnosticar, corrigir a falha e restaurar o sistema à plena operação;
+    - **Cálculo da Disponibilidade Teórica:**
     $$\text{Disponibilidade} = \frac{\text{MTBF}}{\text{MTBF} + \text{MTTR}}$$
 
 ---
 
 ### 1.4 Manutenibilidade e Facilidade de Mudança
 A manutenibilidade reflete a facilidade e a eficiência com que o software pode ser modificado pelos desenvolvedores para corrigir defeitos, melhorar o desempenho ou adaptar o sistema a mudanças no ambiente de negócio. Subdivide-se em:
+
 - **Modularidade:** Grau em que o sistema é composto por componentes discretos, isolando o impacto de alterações;
 - **Reusabilidade:** Capacidade de um ativo ser utilizado em mais de um sistema ou módulo;
 - **Analisabilidade:** Facilidade com que se pode diagnosticar deficiências, causas raízes de falhas ou identificar partes a serem alteradas;
@@ -132,10 +134,10 @@ graph TD
 
 ### 2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)
 - **Testes de Caixa-Preta (Funcionais):** Avaliam o comportamento do software sem conhecimento da estrutura interna ou do código-fonte. O foco reside nas entradas e saídas esperadas:
-  - *Partição de Equivalência:* Divide os dados de entrada em classes válidas e inválidas, partindo do princípio de que qualquer dado dentro da mesma partição receberá o mesmo tratamento;
-  - *Análise do Valor Limite (BVA):* Testa valores situados exatamente nas fronteiras e adjacências das partições (ex.: se o intervalo aceito é de 18 a 65 anos, testa-se 17, 18, 19, 64, 65 e 66 anos).
+    - *Partição de Equivalência:* Divide os dados de entrada em classes válidas e inválidas, partindo do princípio de que qualquer dado dentro da mesma partição receberá o mesmo tratamento;
+    - *Análise do Valor Limite (BVA):* Testa valores situados exatamente nas fronteiras e adjacências das partições (ex.: se o intervalo aceito é de 18 a 65 anos, testa-se 17, 18, 19, 64, 65 e 66 anos).
 - **Testes de Caixa-Branca (Estruturais):** Avaliam os caminhos de controle, estruturas lógicas e condições internas do código-fonte:
-  - *Critérios de Cobertura:* Cobertura de comandos (*Statement Coverage*), cobertura de decisões/desvios (*Branch Coverage*) e cobertura de caminhos independentes.
+    - *Critérios de Cobertura:* Cobertura de comandos (*Statement Coverage*), cobertura de decisões/desvios (*Branch Coverage*) e cobertura de caminhos independentes.
 
 ---
 
@@ -177,9 +179,9 @@ A engenharia de testes de desempenho categoriza os testes de acordo com o padrã
 
 ### 3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)
 - **TDD (Desenvolvimento Guiado por Testes):** Técnica de engenharia de software fundamentada no ciclo rápido e iterativo de três fases: **Red $\rightarrow$ Green $\rightarrow$ Refactor**:
-  1. *Red:* Escrever um teste automatizado que falha antes de escrever o código de produção;
-  2. *Green:* Escrever o código mais simples possível apenas para fazer o teste passar com sucesso;
-  3. *Refactor:* Limpar o código-fonte, eliminar duplicações e aperfeiçoar o design, garantindo que a suíte de testes continue verde.
+    1. *Red:* Escrever um teste automatizado que falha antes de escrever o código de produção;
+    2. *Green:* Escrever o código mais simples possível apenas para fazer o teste passar com sucesso;
+    3. *Refactor:* Limpar o código-fonte, eliminar duplicações e aperfeiçoar o design, garantindo que a suíte de testes continue verde.
 - **BDD (Desenvolvimento Guiado por Comportamento):** Evolução colaborativa do TDD focada na linguagem ubíqua e no comportamento do sistema sob a ótica do negócio. Expressa cenários no formato **Given-When-Then** (*Dado que... Quando... Então...* - sintaxe Gherkin).
 
 ---
@@ -188,6 +190,7 @@ A engenharia de testes de desempenho categoriza os testes de acordo com o padrã
 
 ### 4.1 Técnicas Modernas de Revisão de Código (Code Review)
 A revisão de código é uma prática colaborativa indispensável de garantia da qualidade:
+
 - **Inspeções Formais (Fagan):** Processo tradicional rígido com papéis formais (moderador, autor, leitor e inspetor) e reuniões presenciais de leitura de código;
 - **Revisão Baseada em Pull Requests (Moderna / Ágil):** Conduzida de forma assíncrona em plataformas como GitHub/GitLab. Antes de realizar o *merge* para a branch principal, outros desenvolvedores inspecionam o diff, verificam aderência a padrões arquiteturais, segurança e ausência de code smells;
 - **Pair Programming:** Revisão contínua em tempo real executada pelo copiloto (*Navigator*) enquanto o piloto (*Driver*) digita o código.
@@ -198,10 +201,10 @@ A revisão de código é uma prática colaborativa indispensável de garantia da
 - **Definição Canônica (Martin Fowler):** Refatoração (*Refactoring*) é o processo de **modificar a estrutura interna de um software sem alterar o seu comportamento observável externo**, visando melhorar a legibilidade, reduzir a complexidade e facilitar futuras manutenções.  
   > 🚨 **PEGADINHA FCC:** Refatoração **NÃO adiciona novas funcionalidades** e **NÃO corrige bugs de negócio**! Se o comportamento funcional externo mudou, houve evolução de software ou correção, e não pura refatoração.
 - **Maus Cheiros de Código (*Code Smells*) Recorrentes:**
-  - *Método Longo (*Long Method*):* Métodos com centenas de linhas de código. Técnica de correção: **Extract Method** (extrair trecho para novo método nomeado);
-  - *Classe Grande / Objeto Deus (*Large Class / God Class*):* Classe que acumula responsabilidades demais. Correção: **Extract Class**;
-  - *Código Duplicado (*Duplicated Code*):* Mesma estrutura lógica em múltiplos locais. Viola o princípio DRY;
-  - *Cirurgia com Espingarda (*Shotgun Surgery*):* Cada pequena alteração em uma regra exige dezenas de pequenas modificações espalhadas em classes diferentes. Indica alto acoplamento e baixa coesão.
+    - *Método Longo (*Long Method*):* Métodos com centenas de linhas de código. Técnica de correção: **Extract Method** (extrair trecho para novo método nomeado);
+    - *Classe Grande / Objeto Deus (*Large Class / God Class*):* Classe que acumula responsabilidades demais. Correção: **Extract Class**;
+    - *Código Duplicado (*Duplicated Code*):* Mesma estrutura lógica em múltiplos locais. Viola o princípio DRY;
+    - *Cirurgia com Espingarda (*Shotgun Surgery*):* Cada pequena alteração em uma regra exige dezenas de pequenas modificações espalhadas em classes diferentes. Indica alto acoplamento e baixa coesão.
 
 ---
 

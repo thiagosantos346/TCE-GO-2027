@@ -9,37 +9,37 @@
 ## 📌 Ementa / Itens do Edital
 
 - Demonstrações Contábeis Aplicadas ao Setor Público (DCASP - MCASP Parte V e NBC TSP 11):
-  - **Balanço Orçamentário (BO):** estrutura conceitual, confronto entre previsão e realização de receitas, confronto entre fixação, empenho, liquidação e pagamento de despesas; apuração do Resultado Orçamentário (superávit/déficit orçamentário); quadros anexos da execução dos Restos a Pagar Processados (RPP) e Não Processados (RPNP);
-  - **Balanço Financeiro (BF):** estrutura, ingressos e dispêndios orçamentários e extraorçamentários, transferências financeiras recebidas e concedidas (repasses, sub-repasses e duodécimos), saldo inicial e final de caixa e equivalentes de caixa; fechamento das contas financeiras;
-  - **Balanço Patrimonial (BP):** estrutura dual sob a Lei nº 4.320/1964 (Ativo Financeiro e Permanente; Passivo Financeiro e Permanente) e sob o MCASP / NBC TSP (Ativo Circulante e Não Circulante; Passivo Circulante e Não Circulante; Patrimônio Líquido); apuração e cálculo do Superávit Financeiro para abertura de créditos adicionais (Art. 43, § 2º da Lei nº 4.320/1964);
-  - **Demonstração das Variações Patrimoniais (DVP):** confronto entre Variações Patrimoniais Aumentativas (VPA) e Diminutivas (VPD); apuração do Resultado Patrimonial do exercício pelo regime de competência patrimonial pura; variações quantitativas e qualitativas;
-  - **Demonstração dos Fluxos de Caixa (DFC):** método direto obrigatório no setor público; fluxos das atividades operacionais, de investimento e de financiamento;
-  - **Demonstração das Mutações do Patrimônio Líquido (DMPL)** e Notas Explicativas;
+    - **Balanço Orçamentário (BO):** estrutura conceitual, confronto entre previsão e realização de receitas, confronto entre fixação, empenho, liquidação e pagamento de despesas; apuração do Resultado Orçamentário (superávit/déficit orçamentário); quadros anexos da execução dos Restos a Pagar Processados (RPP) e Não Processados (RPNP);
+    - **Balanço Financeiro (BF):** estrutura, ingressos e dispêndios orçamentários e extraorçamentários, transferências financeiras recebidas e concedidas (repasses, sub-repasses e duodécimos), saldo inicial e final de caixa e equivalentes de caixa; fechamento das contas financeiras;
+    - **Balanço Patrimonial (BP):** estrutura dual sob a Lei nº 4.320/1964 (Ativo Financeiro e Permanente; Passivo Financeiro e Permanente) e sob o MCASP / NBC TSP (Ativo Circulante e Não Circulante; Passivo Circulante e Não Circulante; Patrimônio Líquido); apuração e cálculo do Superávit Financeiro para abertura de créditos adicionais (Art. 43, § 2º da Lei nº 4.320/1964);
+    - **Demonstração das Variações Patrimoniais (DVP):** confronto entre Variações Patrimoniais Aumentativas (VPA) e Diminutivas (VPD); apuração do Resultado Patrimonial do exercício pelo regime de competência patrimonial pura; variações quantitativas e qualitativas;
+    - **Demonstração dos Fluxos de Caixa (DFC):** método direto obrigatório no setor público; fluxos das atividades operacionais, de investimento e de financiamento;
+    - **Demonstração das Mutações do Patrimônio Líquido (DMPL)** e Notas Explicativas;
 - Prestação de Contas ao Tribunal de Contas:
-  - Processo de contas de governo (parecer prévio sobre as contas do Chefe do Poder Executivo) versus processo de contas de gestão (julgamento de ordenadores de despesas);
-  - Peças obrigatórias dos processos de contas: DCASP completas, relatórios da LRF (RREO e RGF), relatório do órgão central de controle interno;
-  - Fiscalização contábil, financeira, orçamentária e patrimonial exercida pelo TCE-GO.
+    - Processo de contas de governo (parecer prévio sobre as contas do Chefe do Poder Executivo) versus processo de contas de gestão (julgamento de ordenadores de despesas);
+    - Peças obrigatórias dos processos de contas: DCASP completas, relatórios da LRF (RREO e RGF), relatório do órgão central de controle interno;
+    - Fiscalização contábil, financeira, orçamentária e patrimonial exercida pelo TCE-GO.
 
 ---
 
 ## 🧭 Sumário Interativo
 
 - [1. Balanço Orçamentário (BO - Art. 102 da Lei nº 4.320/1964)](#1-balanço-orçamentário-bo---art-102-da-lei-nº-43201964)
-  - [1.1 Estrutura e Quadros Demonstrativos](#11-estrutura-e-quadros-demonstrativos)
-  - [1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)](#12-apuração-do-resultado-orçamentário-superávit-vs-déficit)
+    - [1.1 Estrutura e Quadros Demonstrativos](#11-estrutura-e-quadros-demonstrativos)
+    - [1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)](#12-apuração-do-resultado-orçamentário-superávit-vs-déficit)
 - [2. Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)](#2-balanço-financeiro-bf---art-103-da-lei-nº-43201964)
-  - [2.1 Estrutura de Ingressos e Dispêndios](#21-estrutura-de-ingressos-e-dispêndios)
-  - [2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar](#22-o-fechamento-contábil-obrigatório-e-a-inscrição-de-restos-a-pagar)
+    - [2.1 Estrutura de Ingressos e Dispêndios](#21-estrutura-de-ingressos-e-dispêndios)
+    - [2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar](#22-o-fechamento-contábil-obrigatório-e-a-inscrição-de-restos-a-pagar)
 - [3. Balanço Patrimonial (BP - Art. 105 da Lei nº 4.320/1964 e NBC TSP 11)](#3-balanço-patrimonial-bp---art-105-da-lei-nº-43201964-e-nbc-tsp-11)
-  - [3.1 Estrutura Dual: Lei nº 4.320/1964 vs. Normas Internacionais (NBC TSP)](#31-estrutura-dual-lei-nº-43201964-vs-normas-internacionais-nbc-tsp)
-  - [3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)](#32-apuração-e-cálculo-do-superávit-financeiro-art-43--2º)
+    - [3.1 Estrutura Dual: Lei nº 4.320/1964 vs. Normas Internacionais (NBC TSP)](#31-estrutura-dual-lei-nº-43201964-vs-normas-internacionais-nbc-tsp)
+    - [3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)](#32-apuração-e-cálculo-do-superávit-financeiro-art-43--2º)
 - [4. Demonstração das Variações Patrimoniais (DVP) e Outras Demonstrações](#4-demonstração-das-variações-patrimoniais-dvp-e-outras-demonstrações)
-  - [4.1 Estrutura da DVP e Resultado Patrimonial por Competência](#41-estrutura-da-dvp-e-resultado-patrimonial-por-competência)
-  - [4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto](#42-demonstração-dos-fluxos-de-caixa-dfc-pelo-método-direto)
-  - [4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas](#43-demonstração-das-mutações-do-patrimônio-líquido-dmpl-e-notas-explicativas)
+    - [4.1 Estrutura da DVP e Resultado Patrimonial por Competência](#41-estrutura-da-dvp-e-resultado-patrimonial-por-competência)
+    - [4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto](#42-demonstração-dos-fluxos-de-caixa-dfc-pelo-método-direto)
+    - [4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas](#43-demonstração-das-mutações-do-patrimônio-líquido-dmpl-e-notas-explicativas)
 - [5. Prestação de Contas ao Tribunal de Contas (TCE-GO)](#5-prestação-de-contas-ao-tribunal-de-contas-tce-go)
-  - [5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)](#51-contas-de-governo-parecer-prévio-vs-contas-de-gestão-julgamento-técnico)
-  - [5.2 Composição Documental Obrigatória e Papel do Controle Interno](#52-composição-documental-obrigatória-e-papel-do-controle-interno)
+    - [5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)](#51-contas-de-governo-parecer-prévio-vs-contas-de-gestão-julgamento-técnico)
+    - [5.2 Composição Documental Obrigatória e Papel do Controle Interno](#52-composição-documental-obrigatória-e-papel-do-controle-interno)
 - [6. Fontes Oficiais & Manuais Técnicos Recomendados](#6-fontes-oficiais--manuais-técnicos-recomendados)
 - [7. Questões Comentadas no Padrão FCC](#7-questões-comentadas-no-padrão-fcc)
 
@@ -177,9 +177,9 @@ flowchart TD
 #### 4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto
 - Normatizada pela **NBC TSP 12** e pelo MCASP, a DFC no setor público deve ser elaborada compulsoriamente pelo **Método Direto** para os fluxos das atividades operacionais;
 - Desagrega os fluxos financeiros de caixa em três categorias operacionais fundamentais:
-  1. **Fluxos das Atividades Operacionais:** Arrecadação tributária, receitas de serviços, pagamento de vencimentos a servidores públicos, compras de material de consumo e transferências intergovernamentais;
-  2. **Fluxos das Atividades de Investimento:** Desembolsos para aquisição de bens do ativo imobilizado (obras, prédios, viaturas) e entradas decorrentes da alienação de ativos públicos;
-  3. **Fluxos das Atividades de Financiamento:** Captação de recursos via emissão de títulos da dívida mobiliária e contratos de empréstimos, bem como pagamentos para amortização do principal da dívida fundada.
+    1. **Fluxos das Atividades Operacionais:** Arrecadação tributária, receitas de serviços, pagamento de vencimentos a servidores públicos, compras de material de consumo e transferências intergovernamentais;
+    2. **Fluxos das Atividades de Investimento:** Desembolsos para aquisição de bens do ativo imobilizado (obras, prédios, viaturas) e entradas decorrentes da alienação de ativos públicos;
+    3. **Fluxos das Atividades de Financiamento:** Captação de recursos via emissão de títulos da dívida mobiliária e contratos de empréstimos, bem como pagamentos para amortização do principal da dívida fundada.
 
 #### 4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas
 - **DMPL (NBC TSP 11):** Evidencia a movimentação de todas as contas integrantes do Patrimônio Líquido durante o exercício (Patrimônio Social, Reservas de Capital, Ajustes de Avaliação Patrimonial e Resultados Acumulados de exercícios anteriores);
@@ -202,15 +202,16 @@ flowchart TD
 
 #### 5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)
 1. **Contas de Governo (Governador do Estado):**
-   - Consubstanciam o balanço geral anual do Estado e a prestação macroeconômica da execução orçamentária e financeira;
-   - O Tribunal de Contas **não julga as contas de governo**; emite **Parecer Prévio** de caráter técnico conclusivo no prazo de sessenta (60) dias;
-   - O julgamento final é político-institucional e compete privativamente à Assembleia Legislativa do Estado de Goiás (ALEGO). O parecer técnico do TCE só deixará de prevalecer por decisão de **dois terços (2/3)** dos membros do parlamento estadual.
+    - Consubstanciam o balanço geral anual do Estado e a prestação macroeconômica da execução orçamentária e financeira;
+    - O Tribunal de Contas **não julga as contas de governo**; emite **Parecer Prévio** de caráter técnico conclusivo no prazo de sessenta (60) dias;
+    - O julgamento final é político-institucional e compete privativamente à Assembleia Legislativa do Estado de Goiás (ALEGO). O parecer técnico do TCE só deixará de prevalecer por decisão de **dois terços (2/3)** dos membros do parlamento estadual.
 2. **Contas de Gestão (Ordenadores de Despesas):**
-   - Referem-se aos atos de gestão patrimonial, orçamentária e financeira praticados individualmente pelos secretários de Estado, dirigentes de autarquias, fundações e fundos especiais;
-   - O Tribunal de Contas **julga diretamente e em definitivo** a regularidade dessas contas, proferindo acórdão que pode imputar débito ou aplicar multas com **eficácia de título executivo extrajudicial** (art. 71, § 3º da CF/88).
+    - Referem-se aos atos de gestão patrimonial, orçamentária e financeira praticados individualmente pelos secretários de Estado, dirigentes de autarquias, fundações e fundos especiais;
+    - O Tribunal de Contas **julga diretamente e em definitivo** a regularidade dessas contas, proferindo acórdão que pode imputar débito ou aplicar multas com **eficácia de título executivo extrajudicial** (art. 71, § 3º da CF/88).
 
 #### 5.2 Composição Documental Obrigatória e Papel do Controle Interno
 Os processos de prestação de contas enviados anualmente ao TCE-GO devem conter obrigatoriamente:
+
 - O conjunto completo das Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) acompanhadas das respectivas Notas Explicativas;
 - Os relatórios fiscais previstos na LRF: Relatório Resumido da Execução Orçamentária (RREO) e Relatório de Gestão Fiscal (RGF);
 - Demonstrativo do cumprimento dos limites constitucionais mínimos de aplicação em **Saúde (12% para os Estados)** e em **Educação (25%)**;
@@ -221,13 +222,13 @@ Os processos de prestação de contas enviados anualmente ao TCE-GO devem conter
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
 - [Lei Federal nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm)
-  - Arts. 43 (Superávit Financeiro) e Arts. 101 a 106 (Das Demonstrações Contábeis).
+    - Arts. 43 (Superávit Financeiro) e Arts. 101 a 106 (Das Demonstrações Contábeis).
 - [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição (STN)](https://www.gov.br/tesouronacional/pt-br)
-  - Parte V: Demonstrações Contábeis Aplicadas ao Setor Público (DCASP).
+    - Parte V: Demonstrações Contábeis Aplicadas ao Setor Público (DCASP).
 - [Conselho Federal de Contabilidade - NBC TSP 11 e 12](https://cfc.org.br/)
-  - NBC TSP 11 (Apresentação das Demonstrações Contábeis) e NBC TSP 12 (Demonstração dos Fluxos de Caixa).
+    - NBC TSP 11 (Apresentação das Demonstrações Contábeis) e NBC TSP 12 (Demonstração dos Fluxos de Caixa).
 - [Lei Complementar Estadual de Goiás nº 161/2020 (Lei Orgânica do TCE-GO)](https://portal.tce.go.gov.br)
-  - Normas sobre processos de contas de governo e de gestão no Estado de Goiás.
+    - Normas sobre processos de contas de governo e de gestão no Estado de Goiás.
 
 ---
 
@@ -235,6 +236,7 @@ Os processos de prestação de contas enviados anualmente ao TCE-GO devem conter
 
 ### Questão 1 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
 Ao final do exercício financeiro de 2023, determinado órgão público estadual apurou as seguintes informações em seus registros contábeis para fechamento do Balanço Patrimonial:
+
 - Ativo Financeiro: R$ 12.000.000,00
 - Ativo Permanente: R$ 45.000.000,00
 - Passivo Financeiro: R$ 7.000.000,00
@@ -243,11 +245,11 @@ Ao final do exercício financeiro de 2023, determinado órgão público estadual
 
 Com base estritamente nas regras da Lei Federal nº 4.320/1964 (Art. 43, § 2º), o montante do Superávit Financeiro disponível para abertura de créditos adicionais no exercício de 2024 é de:
 
-A) R$ 5.000.000,00.  
-B) R$ 3.500.000,00.  
-C) R$ 20.000.000,00.  
-D) R$ 18.500.000,00.  
-E) R$ 2.000.000,00.  
+* **A)** R$ 5.000.000,00.
+* **B)** R$ 3.500.000,00.
+* **C)** R$ 20.000.000,00.
+* **D)** R$ 18.500.000,00.
+* **E)** R$ 2.000.000,00.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. Refere-se à diferença bruta entre Ativo Financeiro e Passivo Financeiro ($12.000.000 - 7.000.000 = 5.000.000$), esquecendo-se da dedução obrigatória dos créditos especiais reabertos.
@@ -265,11 +267,11 @@ E) R$ 2.000.000,00.
 ### Questão 2 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
 No âmbito da Contabilidade Aplicada ao Setor Público, a demonstração contábil que evidencia as receitas previstas em confronto com as realizadas e as despesas fixadas em confronto com as executadas (empenhadas, liquidadas e pagas), apurando o resultado orçamentário do exercício, é o:
 
-A) Balanço Financeiro.  
-B) Balanço Patrimonial.  
-C) Balanço Orçamentário.  
-D) Demonstrativo de Fluxo de Caixa.  
-E) Demonstrativo das Variações Patrimoniais.  
+* **A)** Balanço Financeiro.
+* **B)** Balanço Patrimonial.
+* **C)** Balanço Orçamentário.
+* **D)** Demonstrativo de Fluxo de Caixa.
+* **E)** Demonstrativo das Variações Patrimoniais.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O Balanço Financeiro (art. 103 da Lei nº 4.320/1964) evidencia os ingressos e dispêndios de recursos orçamentários e extraorçamentários e a movimentação das disponibilidades de caixa.
@@ -285,11 +287,11 @@ E) Demonstrativo das Variações Patrimoniais.
 ### Questão 3 (FCC - Adaptada / DPE-RS - Analista: Ciências Contábeis)
 Em relação ao Balanço Financeiro disciplinado pela Lei nº 4.320/1964 e pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), é correto afirmar que:
 
-A) Apura em sua última linha o montante do superávit financeiro que servirá de fonte para abertura de créditos suplementares.  
-B) A inscrição de despesas em Restos a Pagar no encerramento do exercício é registrada na coluna dos ingressos extraorçamentários para compensar a despesa empenhada.  
-C) As transferências financeiras recebidas de outros órgãos do mesmo ente da Federação (repasses e sub-repasses) devem ser classificadas como receitas orçamentárias de capital.  
-D) O pagamento de restos a pagar processados efetuado no exercício é escriturado no quadro das receitas orçamentárias correntes.  
-E) A cota de depreciação acumulada dos edifícios públicos é registrada como um dispêndio extraorçamentário.  
+* **A)** Apura em sua última linha o montante do superávit financeiro que servirá de fonte para abertura de créditos suplementares.
+* **B)** A inscrição de despesas em Restos a Pagar no encerramento do exercício é registrada na coluna dos ingressos extraorçamentários para compensar a despesa empenhada.
+* **C)** As transferências financeiras recebidas de outros órgãos do mesmo ente da Federação (repasses e sub-repasses) devem ser classificadas como receitas orçamentárias de capital.
+* **D)** O pagamento de restos a pagar processados efetuado no exercício é escriturado no quadro das receitas orçamentárias correntes.
+* **E)** A cota de depreciação acumulada dos edifícios públicos é registrada como um dispêndio extraorçamentário.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. O Balanço Financeiro não apresenta saldo de superávit ou déficit financeiro ao final, pois o total dos ingressos sempre se iguala ao total dos dispêndios mediante o transporte do saldo para o exercício seguinte. O superávit financeiro é calculado no Balanço Patrimonial.
@@ -305,11 +307,11 @@ E) A cota de depreciação acumulada dos edifícios públicos é registrada como
 ### Questão 4 (FCC - Adaptada / SEFAZ-SC - Auditor Fiscal da Receita Estadual)
 No encerramento do exercício financeiro, uma entidade governamental constatou que o reconhecimento da quota anual de depreciação de seus veículos operacionais no montante de R$ 500.000,00 produziu impactos nas Demonstrações Contábeis Aplicadas ao Setor Público. O reflexo desse fato contábil ocorreu:
 
-A) Exclusivamente no Balanço Orçamentário, reduzindo o superávit orçamentário do exercício.  
-B) No Balanço Financeiro como dispêndio operacional e na Demonstração dos Fluxos de Caixa.  
-C) Na Demonstração das Variações Patrimoniais (DVP) como Variação Patrimonial Diminutiva (VPD) e no Balanço Patrimonial como conta redutora do Ativo Não Circulante.  
-D) No Balanço Orçamentário e no Balanço Financeiro simultaneamente, sem afetar o Balanço Patrimonial.  
-E) Exclusivamente na Demonstração dos Fluxos de Caixa, classificado como fluxo de investimentos.  
+* **A)** Exclusivamente no Balanço Orçamentário, reduzindo o superávit orçamentário do exercício.
+* **B)** No Balanço Financeiro como dispêndio operacional e na Demonstração dos Fluxos de Caixa.
+* **C)** Na Demonstração das Variações Patrimoniais (DVP) como Variação Patrimonial Diminutiva (VPD) e no Balanço Patrimonial como conta redutora do Ativo Não Circulante.
+* **D)** No Balanço Orçamentário e no Balanço Financeiro simultaneamente, sem afetar o Balanço Patrimonial.
+* **E)** Exclusivamente na Demonstração dos Fluxos de Caixa, classificado como fluxo de investimentos.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. A depreciação independe de dotação e não envolve execução de despesa orçamentária, não figurando no Balanço Orçamentário.
@@ -325,11 +327,11 @@ E) Exclusivamente na Demonstração dos Fluxos de Caixa, classificado como fluxo
 ### Questão 5 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
 A respeito da prestação de contas dos administradores públicos perante o Tribunal de Contas do Estado de Goiás (TCE-GO), assinale a afirmativa correta:
 
-A) As contas prestadas pelo Chefe do Poder Executivo são submetidas a julgamento técnico irrecorrível pelo próprio Tribunal de Contas, cabendo à Assembleia Legislativa apenas tomar conhecimento.  
-B) A prestação de contas dos dirigentes de autarquias e secretários de Estado (contas de gestão) é apreciada mediante parecer prévio opinativo encaminhado ao Governador do Estado.  
-C) O parecer prévio emitido pelo TCE sobre as contas de governo do Chefe do Poder Executivo só deixará de prevalecer por decisão de dois terços dos membros da Assembleia Legislativa.  
-D) O Tribunal de Contas dispensa a apresentação do relatório do órgão central do sistema de controle interno nos processos de tomada de contas especial.  
-E) As demonstrações contábeis exigidas na prestação de contas anual dispensam notas explicativas caso o Balanço Patrimonial não registre dívida fundada consolidada.  
+* **A)** As contas prestadas pelo Chefe do Poder Executivo são submetidas a julgamento técnico irrecorrível pelo próprio Tribunal de Contas, cabendo à Assembleia Legislativa apenas tomar conhecimento.
+* **B)** A prestação de contas dos dirigentes de autarquias e secretários de Estado (contas de gestão) é apreciada mediante parecer prévio opinativo encaminhado ao Governador do Estado.
+* **C)** O parecer prévio emitido pelo TCE sobre as contas de governo do Chefe do Poder Executivo só deixará de prevalecer por decisão de dois terços dos membros da Assembleia Legislativa.
+* **D)** O Tribunal de Contas dispensa a apresentação do relatório do órgão central do sistema de controle interno nos processos de tomada de contas especial.
+* **E)** As demonstrações contábeis exigidas na prestação de contas anual dispensam notas explicativas caso o Balanço Patrimonial não registre dívida fundada consolidada.
 
 > **Comentário Detalhado:**
 > - **A)** Incorreta. As contas de governo do Chefe do Executivo estadual (Governador) são julgadas politicamente pela Assembleia Legislativa, cabendo ao Tribunal de Contas emitir parecer prévio técnico conclusivo (art. 71, I c/c art. 75 da CF/88).

@@ -9,37 +9,37 @@
 ## 📌 Ementa & Delimitação do Conteúdo
 
 1. **Gestão e Avaliação de Desempenho Funcional:**
-   - Conceito, objetivos e finalidades na administração pública: subsídio para o estágio probatório, concessão de progressões e promoções funcionais, diagnóstico de necessidades de treinamento e melhoria dos serviços aos cidadãos;
-   - Alocação no macroprocesso de **Aplicar Pessoas** (modelo de Idalberto Chiavenato);
-   - Os papéis na avaliação: autoavaliação, avaliação pelo gestor imediato, avaliação pela equipe e avaliação institucional.
+    - Conceito, objetivos e finalidades na administração pública: subsídio para o estágio probatório, concessão de progressões e promoções funcionais, diagnóstico de necessidades de treinamento e melhoria dos serviços aos cidadãos;
+    - Alocação no macroprocesso de **Aplicar Pessoas** (modelo de Idalberto Chiavenato);
+    - Os papéis na avaliação: autoavaliação, avaliação pelo gestor imediato, avaliação pela equipe e avaliação institucional.
 2. **Métodos de Avaliação de Desempenho:**
-   - **Métodos Tradicionais:**
-     - *Escalas Gráficas:* tabela de dupla entrada, fatores de avaliação graduados; simplicidade operacional vs. alta subjetividade e superficialidade;
-     - *Escolha Forçada:* blocos de frases alternativas (positivas e neutras) com escolha obrigatória; mitigação de complacência vs. impossibilidade de feedback construtivo;
-     - *Incidentes Críticos:* anotação exclusiva de comportamentos extremos altamente positivos ou falhas graves; foco em dados reais vs. omissão da rotina habitual;
-     - *Pesquisa de Campo:* condução por especialista de RH em conjunto com cada chefia direta; profundidade diagnóstica vs. elevado custo orçamentário e morosidade operacional;
-     - *Listas de Verificação (Checklists).*
-   - **Métodos Modernos e Participativos:**
-     - *Avaliação por Objetivos / Metas (APO Participativa):* pactuação prévia e consensual de metas, acompanhamento contínuo e autoavaliação orientada ao futuro;
-     - *Avaliação 360 Graus (Circular ou Múltiplas Fontes):* visão sistêmica envolvendo superior imediato, pares, subordinados, usuários do serviço e autoavaliação; riqueza de perspectivas vs. risco de complacência ou alianças espúrias.
+    - **Métodos Tradicionais:**
+    - *Escalas Gráficas:* tabela de dupla entrada, fatores de avaliação graduados; simplicidade operacional vs. alta subjetividade e superficialidade;
+    - *Escolha Forçada:* blocos de frases alternativas (positivas e neutras) com escolha obrigatória; mitigação de complacência vs. impossibilidade de feedback construtivo;
+    - *Incidentes Críticos:* anotação exclusiva de comportamentos extremos altamente positivos ou falhas graves; foco em dados reais vs. omissão da rotina habitual;
+    - *Pesquisa de Campo:* condução por especialista de RH em conjunto com cada chefia direta; profundidade diagnóstica vs. elevado custo orçamentário e morosidade operacional;
+    - *Listas de Verificação (Checklists).*
+    - **Métodos Modernos e Participativos:**
+    - *Avaliação por Objetivos / Metas (APO Participativa):* pactuação prévia e consensual de metas, acompanhamento contínuo e autoavaliação orientada ao futuro;
+    - *Avaliação 360 Graus (Circular ou Múltiplas Fontes):* visão sistêmica envolvendo superior imediato, pares, subordinados, usuários do serviço e autoavaliação; riqueza de perspectivas vs. risco de complacência ou alianças espúrias.
 3. **Erros, Vieses e Distorções Cognitivas do Avaliador:**
-   - Efeito Halo (*halo effect*) e Efeito Horn: contaminação generalizada a partir de um traço positivo ou negativo isolado;
-   - Tendência Central: receio de atribuir notas extremas, nivelando todos os servidores na nota mediana;
-   - Erro de Recenticidade (Recência): supervalorização dos eventos das últimas semanas em detrimento do desempenho anual;
-   - Complacência / Leniência: atribuição benevolente de notas máximas para evitar atritos com a equipe;
-   - Rigor Excessivo / Severidade: exigência implacável e atribuição generalizada de notas rebaixadas;
-   - Erro de Semelhança (*Similar-to-me*) e Erro de Contraste: comparação do servidor consigo mesmo ou com o colega avaliado anteriormente.
+    - Efeito Halo (*halo effect*) e Efeito Horn: contaminação generalizada a partir de um traço positivo ou negativo isolado;
+    - Tendência Central: receio de atribuir notas extremas, nivelando todos os servidores na nota mediana;
+    - Erro de Recenticidade (Recência): supervalorização dos eventos das últimas semanas em detrimento do desempenho anual;
+    - Complacência / Leniência: atribuição benevolente de notas máximas para evitar atritos com a equipe;
+    - Rigor Excessivo / Severidade: exigência implacável e atribuição generalizada de notas rebaixadas;
+    - Erro de Semelhança (*Similar-to-me*) e Erro de Contraste: comparação do servidor consigo mesmo ou com o colega avaliado anteriormente.
 4. **Remuneração, Benefícios e Planos de Carreira:**
-   - Componentes remuneratórios no setor público: vencimento básico vs. vantagens pecuniárias de caráter pessoal e funcional;
-   - O regime jurídico do **Subsídio Constitucional** em parcela única (CF/88, art. 39, § 4º): vedações a acréscimos pecuniários e ressalva expressa às verbas indenizatórias;
-   - O Teto Remuneratório Constitucional (CF/88, art. 37, XI) e o abate-teto;
-   - Progressão funcional (horizontal, na mesma classe) vs. Promoção (vertical, entre classes da mesma carreira).
+    - Componentes remuneratórios no setor público: vencimento básico vs. vantagens pecuniárias de caráter pessoal e funcional;
+    - O regime jurídico do **Subsídio Constitucional** em parcela única (CF/88, art. 39, § 4º): vedações a acréscimos pecuniários e ressalva expressa às verbas indenizatórias;
+    - O Teto Remuneratório Constitucional (CF/88, art. 37, XI) e o abate-teto;
+    - Progressão funcional (horizontal, na mesma classe) vs. Promoção (vertical, entre classes da mesma carreira).
 5. **Qualidade de Vida no Trabalho (QVT):**
-   - As 8 dimensões conceituais do modelo clássico de Richard Walton: Compensação justa e adequada, Condições de segurança e saúde, Uso e desenvolvimento de capacidades, Oportunidade de crescimento e segurança, Integração social, Constitucionalismo organizacional, Espaço total de vida e Relevância social da instituição.
+    - As 8 dimensões conceituais do modelo clássico de Richard Walton: Compensação justa e adequada, Condições de segurança e saúde, Uso e desenvolvimento de capacidades, Oportunidade de crescimento e segurança, Integração social, Constitucionalismo organizacional, Espaço total de vida e Relevância social da instituição.
 6. **Teletrabalho e Trabalho Híbrido no Setor Público:**
-   - Deslocamento do controle tradicional de ponto biométrico para a **gestão por resultados, metas pactuadas e entregas concretas**;
-   - Vantagens institucionais: racionalização de despesas prediais, flexibilidade, retenção de talentos e sustentabilidade ambiental;
-   - Riscos e cuidados ergonômicos: isolamento social, segurança cibernética de autos processuais e garantia do **direito à desconexão** contra a Síndrome de *Burnout*.
+    - Deslocamento do controle tradicional de ponto biométrico para a **gestão por resultados, metas pactuadas e entregas concretas**;
+    - Vantagens institucionais: racionalização de despesas prediais, flexibilidade, retenção de talentos e sustentabilidade ambiental;
+    - Riscos e cuidados ergonômicos: isolamento social, segurança cibernética de autos processuais e garantia do **direito à desconexão** contra a Síndrome de *Burnout*.
 
 ---
 
@@ -108,8 +108,8 @@ flowchart LR
 ```
 
 1. **Efeito Halo (*Halo Effect*) e Efeito Horn:**
-   - *Halo:* O avaliador projeta uma característica altamente positiva (ex.: o servidor é pontual ou simpático) sobre todo o desempenho, atribuindo notas excelentes em fatores técnicos que sequer avaliou.
-   - *Horn:* Uma falha isolada contamina negativamente todos os demais quesitos, rotulando o servidor como inteiramente inapto.
+    - *Halo:* O avaliador projeta uma característica altamente positiva (ex.: o servidor é pontual ou simpático) sobre todo o desempenho, atribuindo notas excelentes em fatores técnicos que sequer avaliou.
+    - *Horn:* Uma falha isolada contamina negativamente todos os demais quesitos, rotulando o servidor como inteiramente inapto.
 2. **Tendência Central:** O avaliador tem receio de prejudicar os maus colaboradores ou gerar atritos ao destacar os melhores; por comodismo ou insegurança, atribui notas medianas ("bom" ou "regular") a todos.
 3. **Erro de Recenticidade (Recência):** O avaliador deixa-se influenciar desproporcionalmente por fatos ocorridos nos últimos 15 ou 30 dias que antecedem a avaliação, ignorando os comportamentos dos 11 meses anteriores.
 4. **Complacência / Leniência:** Tendência sistemática de conceder notas infladas a todos os subordinados para evitar descontentamento, atritos pessoais ou conversas difíceis de feedback.
@@ -130,9 +130,9 @@ A remuneração no serviço público subordina-se a rígidos parâmetros constit
 * **Vencimento Básico:** Retribuição pecuniária fixada em lei devida ao servidor pelo efetivo exercício de cargo público.
 * **Remuneração:** O vencimento do cargo efetivo acrescido das vantagens pecuniárias permanentes estabelecidas em lei (adicionais por tempo de serviço, gratificações de titulação, etc.).
 * **Regime de Subsídio Constitucional (CF/88, art. 39, § 4º):**
-  - Fixado em **parcela única**, sendo expressamente **vedado o acréscimo de qualquer gratificação, adicional, abono, prêmio, verba de representação** ou outra espécie remuneratória;
-  - Obrigatório para membros de Poder, detentores de mandato eletivo, Ministros/Secretários e membros da Magistratura, Ministério Público, Defensoria Pública e carreiras policiais;
-  - **Exceção Constitucional:** O subsídio não impede o pagamento de parcelas de natureza **estritamente indenizatória** previstas em lei (como diárias, ajuda de custo para mudança de sede e indenização de transporte).
+    - Fixado em **parcela única**, sendo expressamente **vedado o acréscimo de qualquer gratificação, adicional, abono, prêmio, verba de representação** ou outra espécie remuneratória;
+    - Obrigatório para membros de Poder, detentores de mandato eletivo, Ministros/Secretários e membros da Magistratura, Ministério Público, Defensoria Pública e carreiras policiais;
+    - **Exceção Constitucional:** O subsídio não impede o pagamento de parcelas de natureza **estritamente indenizatória** previstas em lei (como diárias, ajuda de custo para mudança de sede e indenização de transporte).
 * **Teto Remuneratório Constitucional (CF/88, art. 37, XI):** Limite máximo de retribuição no serviço público, correspondente ao subsídio mensal dos Ministros do Supremo Tribunal Federal (STF). Qualquer valor excedente deve ser retido pela aplicação do instituto do **abate-teto**.
 
 #### Dinâmica dos Planos de Cargos e Carreiras
@@ -188,17 +188,17 @@ flowchart TD
 A consolidação do regime de teletrabalho transformou a dinâmica das instituições de controle externo (como os Tribunais de Contas):
 
 * **Superação do Paradigma Cartorial:** Substituição definitiva da mera fiscalização da presença física e batimento de ponto pelo modelo contemporâneo de **Pacto de Resultados e Metas Mensuráveis**:
-  - O servidor em teletrabalho não se subordina ao controle tradicional de frequência horária;
-  - Deve entregar metas previamente pactuadas com a chefia imediata (frequentemente estipuladas com produtividade superior à exigida no trabalho presencial).
+    - O servidor em teletrabalho não se subordina ao controle tradicional de frequência horária;
+    - Deve entregar metas previamente pactuadas com a chefia imediata (frequentemente estipuladas com produtividade superior à exigida no trabalho presencial).
 * **Vantagens para a Administração Pública:**
-  1. Redução expressiva dos custos fixos de manutenção predial (energia elétrica, água, insumos de escritório, mobiliário);
-  2. Aumento comprovado de produtividade na análise minuciosa de processos licitatórios e relatórios de auditoria que demandam concentração prolongada;
-  3. Atração e fixação de quadros técnicos qualificados;
-  4. Redução da pegada de carbono e melhoria na mobilidade urbana das cidades.
+    1. Redução expressiva dos custos fixos de manutenção predial (energia elétrica, água, insumos de escritório, mobiliário);
+    2. Aumento comprovado de produtividade na análise minuciosa de processos licitatórios e relatórios de auditoria que demandam concentração prolongada;
+    3. Atração e fixação de quadros técnicos qualificados;
+    4. Redução da pegada de carbono e melhoria na mobilidade urbana das cidades.
 * **Desafios e Riscos Gerenciais:**
-  - **Sensação de Isolamento Social e Afastamento Cultural:** Risco de o servidor perder o senso de identidade e comunhão com a missão do órgão;
-  - **Segurança da Informação e Sigilo de Processos:** Necessidade de criptografia avançada, redes privadas virtuais (VPN) e certificação digital;
-  - **Direito à Desconexão e Síndrome de *Burnout*:** Risco de o servidor trabalhar ininterruptamente no espaço doméstico. A administração pública deve estabelecer políticas rígidas de respeito aos períodos de repouso e desconexão digital fora do expediente pactuado.
+    - **Sensação de Isolamento Social e Afastamento Cultural:** Risco de o servidor perder o senso de identidade e comunhão com a missão do órgão;
+    - **Segurança da Informação e Sigilo de Processos:** Necessidade de criptografia avançada, redes privadas virtuais (VPN) e certificação digital;
+    - **Direito à Desconexão e Síndrome de *Burnout*:** Risco de o servidor trabalhar ininterruptamente no espaço doméstico. A administração pública deve estabelecer políticas rígidas de respeito aos períodos de repouso e desconexão digital fora do expediente pactuado.
 
 ---
 

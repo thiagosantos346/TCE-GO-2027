@@ -18,32 +18,32 @@
 
 ## 🧭 Sumário
 - [1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais](#1-conjuntos-numéricos-fundamentais-e-propriedades-estruturais)
-  - [1.1 Conjunto dos Números Naturais e Inteiros](#11-conjunto-dos-números-naturais-e-inteiros)
-  - [1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas](#12-conjunto-dos-números-racionais-decimais-finitos-e-dízimas-periódicas)
-  - [1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos](#13-algoritmo-da-divisão-euclidiana-e-aritmética-dos-restos)
+    - [1.1 Conjunto dos Números Naturais e Inteiros](#11-conjunto-dos-números-naturais-e-inteiros)
+    - [1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas](#12-conjunto-dos-números-racionais-decimais-finitos-e-dízimas-periódicas)
+    - [1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos](#13-algoritmo-da-divisão-euclidiana-e-aritmética-dos-restos)
 - [2. Operações Aritméticas e Expressões Numéricas](#2-operações-aritméticas-e-expressões-numéricas)
-  - [2.1 Ordem de Precedência das Operações e Delimitadores](#21-ordem-de-precedência-das-operações-e-delimitadores)
-  - [2.2 Potenciação: Propriedades Operatórias e Notação Científica](#22-potenciação-propriedades-operatórias-e-notação-científica)
+    - [2.1 Ordem de Precedência das Operações e Delimitadores](#21-ordem-de-precedência-das-operações-e-delimitadores)
+    - [2.2 Potenciação: Propriedades Operatórias e Notação Científica](#22-potenciação-propriedades-operatórias-e-notação-científica)
 - [3. Teoria dos Números: Divisibilidade, Primos, MMC e MDC](#3-teoria-dos-números-divisibilidade-primos-mmc-e-mdc)
-  - [3.1 Critérios de Divisibilidade Aplicados](#31-critérios-de-divisibilidade-aplicados)
-  - [3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos](#32-decomposição-em-fatores-primos-e-contagem-de-divisores-positivos)
-  - [3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade](#33-mínimo-múltiplo-comum-ciclos-coincidências-e-periodicidade)
-  - [3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos](#34-máximo-divisor-comum-partições-equitativas-e-lotes-máximos)
-  - [3.5 Relação Fundamental entre MMC e MDC](#35-relação-fundamental-entre-mmc-e-mdc)
+    - [3.1 Critérios de Divisibilidade Aplicados](#31-critérios-de-divisibilidade-aplicados)
+    - [3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos](#32-decomposição-em-fatores-primos-e-contagem-de-divisores-positivos)
+    - [3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade](#33-mínimo-múltiplo-comum-ciclos-coincidências-e-periodicidade)
+    - [3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos](#34-máximo-divisor-comum-partições-equitativas-e-lotes-máximos)
+    - [3.5 Relação Fundamental entre MMC e MDC](#35-relação-fundamental-entre-mmc-e-mdc)
 - [4. Álgebra Fracionária e Operações com Frações](#4-álgebra-fracionária-e-operações-com-frações)
-  - [4.1 Conceito, Tipologias e Equivalência de Frações](#41-conceito-tipologias-e-equivalência-de-frações)
-  - [4.2 Operações Aritméticas com Frações](#42-operações-aritméticas-com-frações)
+    - [4.1 Conceito, Tipologias e Equivalência de Frações](#41-conceito-tipologias-e-equivalência-de-frações)
+    - [4.2 Operações Aritméticas com Frações](#42-operações-aritméticas-com-frações)
 - [5. Modelagem e Resolução de Problemas no Padrão FCC](#5-modelagem-e-resolução-de-problemas-no-padrão-fcc)
-  - [5.1 Problemas de Fração de Resto ou Cadeia Regressiva](#51-problemas-de-fração-de-resto-ou-cadeia-regressiva)
-  - [5.2 Problemas de Trabalho Conjunto e Torneiras](#52-problemas-de-trabalho-conjunto-e-torneiras)
-  - [5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais](#53-problemas-de-ciclos-periódicos-e-padrões-sequenciais)
+    - [5.1 Problemas de Fração de Resto ou Cadeia Regressiva](#51-problemas-de-fração-de-resto-ou-cadeia-regressiva)
+    - [5.2 Problemas de Trabalho Conjunto e Torneiras](#52-problemas-de-trabalho-conjunto-e-torneiras)
+    - [5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais](#53-problemas-de-ciclos-periódicos-e-padrões-sequenciais)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
 - [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-  - [Questão 01](#questão-01)
-  - [Questão 02](#questão-02)
-  - [Questão 03](#questão-03)
-  - [Questão 04](#questão-04)
-  - [Questão 05](#questão-05)
+    - [Questão 01](#questão-01)
+    - [Questão 02](#questão-02)
+    - [Questão 03](#questão-03)
+    - [Questão 04](#questão-04)
+    - [Questão 05](#questão-05)
 
 ---
 
@@ -66,8 +66,8 @@ flowchart TD
 * **Conjunto dos Números Inteiros ($\mathbb{Z}$):**
   $$\mathbb{Z} = \{\dots, -3, -2, -1, 0, 1, 2, 3, \dots\}$$
   Incorpora os opostos simétricos (negativos) aos números naturais, viabilizando o fechamento irrestrito da subtração. Na reta numérica, os inteiros organizam-se ordenadamente em torno da origem zero.
-  * *Regra de Sinais na Multiplicação e Divisão:* Sinais iguais geram resultado positivo ($+ \cdot + = +$; $- \cdot - = +$); sinais contrários geram resultado negativo ($+ \cdot - = -$; $- \cdot + = -$).
-  * *Adição de Inteiros com Sinais Opostos:* Conserva-se o sinal do termo de maior valor absoluto (módulo) e subtraem-se os valores: $(-15) + (+9) = -(15 - 9) = -6$.
+    * *Regra de Sinais na Multiplicação e Divisão:* Sinais iguais geram resultado positivo ($+ \cdot + = +$; $- \cdot - = +$); sinais contrários geram resultado negativo ($+ \cdot - = -$; $- \cdot + = -$).
+    * *Adição de Inteiros com Sinais Opostos:* Conserva-se o sinal do termo de maior valor absoluto (módulo) e subtraem-se os valores: $(-15) + (+9) = -(15 - 9) = -6$.
 
 ### 1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas
 
@@ -75,14 +75,15 @@ O **Conjunto dos Números Racionais ($\mathbb{Q}$)** reúne todos os números su
 $$\mathbb{Q} = \left\{ x = \frac{a}{b} \ \middle| \ a \in \mathbb{Z}, \ b \in \mathbb{Z}, \ b \neq 0 \right\}$$
 
 Todo número racional pode ser transcrito sob representação decimal, dividindo-se o numerador pelo denominador, resultando em apenas duas possibilidades formais:
+
 1. **Decimais Exatos (ou Finitos):** Apresentam um número finito de casas decimais após a vírgula. Isso ocorre quando a fração irredutível $\frac{a}{b}$ possui um denominador $b$ decomposto exclusivamente em fatores primos iguais a $2$ e/ou $5$:
    $$0,75 = \frac{75}{100} = \frac{3}{4} \quad (4 = 2^2); \qquad 0,35 = \frac{35}{100} = \frac{7}{20} \quad (20 = 2^2 \times 5)$$
 2. **Dízimas Periódicas:** Apresentam infinitas casas decimais que se repetem de maneira cíclica a partir de um bloco repetitivo denominado **período**:
-   * **Dízima Periódica Simples:** O período principia imediatamente após a vírgula:
+    * **Dízima Periódica Simples:** O período principia imediatamente após a vírgula:
      $$0,\overline{4} = 0,444\dots = \frac{4}{9}; \qquad 0,\overline{27} = 0,2727\dots = \frac{27}{99} = \frac{3}{11}$$
-   * **Dízima Periódica Composta:** Existe um segmento decimal que não se repete (o antiperíodo) posicionado entre a vírgula e o início do período:
+    * **Dízima Periódica Composta:** Existe um segmento decimal que não se repete (o antiperíodo) posicionado entre a vírgula e o início do período:
      $$0,1\overline{6} = 0,1666\dots$$
-   * **Regra Prática da Fração Geratriz para Dízimas Compostas:**
+    * **Regra Prática da Fração Geratriz para Dízimas Compostas:**
      $$\text{Fração Geratriz} = \frac{(\text{Antiperíodo seguido do Período}) - (\text{Antiperíodo})}{(\text{tantos 9 quantos forem os dígitos do período}) \times 10^{(\text{dígitos do antiperíodo})}}$$
      Exemplo para $0,1\overline{6}$:
      $$0,1\overline{6} = \frac{16 - 1}{90} = \frac{15}{90} = \frac{1}{6}$$
@@ -93,6 +94,7 @@ Para quaisquer dois números inteiros $D$ (dividendo) e $d$ (divisor não nulo),
 $$D = d \cdot q + r, \quad \text{onde } 0 \le r < |d|$$
 
 Propriedades críticas da divisão inteira:
+
 * O resto $r$ é **estritamente não negativo** e **menor que o divisor** ($0 \le r \le d - 1$).
 * O **resto máximo possível** na divisão por um divisor $d$ é sempre igual a $d - 1$. Se um problema indagar o resto máximo obtido na divisão por $15$, esse valor é inequivocamente $15 - 1 = 14$.
 
@@ -105,6 +107,7 @@ Propriedades críticas da divisão inteira:
 ### 2.1 Ordem de Precedência das Operações e Delimitadores
 
 A avaliação de expressões aritméticas complexas exige obediência à ordem universal de precedência matemática (mnemônico PEMDAS / PDMAS):
+
 1. **Ordem dos Delimitadores de Escopo (de dentro para fora):**
    1º) Parênteses $( \ )$;
    2º) Colchetes $[ \ ]$;
@@ -119,6 +122,7 @@ A avaliação de expressões aritméticas complexas exige obediência à ordem u
 ### 2.2 Potenciação: Propriedades Operatórias e Notação Científica
 
 A potenciação traduz o produto de fatores idênticos repetidos ($a^n = \underbrace{a \cdot a \cdots a}_{n \text{ vezes}}$). Suas propriedades fundamentais incluem:
+
 * Produto de potências de mesma base: $a^m \cdot a^n = a^{m+n}$
 * Divisão de potências de mesma base: $\frac{a^m}{a^n} = a^{m-n} \quad (a \neq 0)$
 * Potência de potência: $(a^m)^n = a^{m \cdot n}$
@@ -136,6 +140,7 @@ A teoria dos números fornece o ferramental algébrico para lidar com divisões 
 ### 3.1 Critérios de Divisibilidade Aplicados
 
 Permitem verificar se um número inteiro $N$ é divisível por outro sem executar a divisão longa:
+
 * **Por 2:** O último algarismo da direita é par ($0, 2, 4, 6, 8$).
 * **Por 3:** A soma dos valores absolutos dos seus algarismos é um múltiplo de 3 (ex.: $7.458 \rightarrow 7 + 4 + 5 + 8 = 24$, que é divisível por 3).
 * **Por 4:** O número formado pelos dois últimos algarismos é divisível por 4 ou termina em $00$.
@@ -205,8 +210,8 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
 ### 4.2 Operações Aritméticas com Frações
 
 1. **Adição e Subtração:**
-   * Com denominadores iguais: conserva-se o denominador comum e operam-se os numeradores: $\frac{a}{c} \pm \frac{b}{c} = \frac{a \pm b}{c}$.
-   * Com denominadores distintos: reduz-se ao mesmo denominador mediante o cálculo do MMC dos denominadores:
+    * Com denominadores iguais: conserva-se o denominador comum e operam-se os numeradores: $\frac{a}{c} \pm \frac{b}{c} = \frac{a \pm b}{c}$.
+    * Com denominadores distintos: reduz-se ao mesmo denominador mediante o cálculo do MMC dos denominadores:
      $$\frac{a}{b} \pm \frac{c}{d} = \frac{\left(\frac{\text{MMC}}{b} \cdot a\right) \pm \left(\frac{\text{MMC}}{d} \cdot c\right)}{\text{MMC}(b, d)}$$
 2. **Multiplicação:** Multiplicam-se os numeradores entre si e os denominadores entre si:
    $$\frac{a}{b} \times \frac{c}{d} = \frac{a \cdot c}{b \cdot d}$$
@@ -221,6 +226,7 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
 ### 5.1 Problemas de Fração de Resto ou Cadeia Regressiva
 
 Problemas clássicos da FCC narram um agente que consome uma fração de um montante total no primeiro dia, gasta uma fração **do restante** no segundo dia e encerra com uma quantia fixa final:
+
 * Se no passo 1 gasta-se $\frac{1}{3}$ do total $T$, sobra:
   $$\text{Resto}_1 = 1 - \frac{1}{3} = \frac{2}{3}T$$
 * Se no passo 2 gasta-se $\frac{3}{5}$ **do que sobrou**, o gasto é $\frac{3}{5} \times \frac{2}{3}T = \frac{6}{15}T = \frac{2}{5}T$.
@@ -240,6 +246,7 @@ $$T = \frac{t_1 \cdot t_2}{t_1 + t_2}$$
 ### 5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais
 
 Em problemas que constroem sequências infinitas repetindo ciclicamente um conjunto finito de $k$ elementos ($x_1, x_2, \dots, x_k$):
+
 1. Toma-se o número da posição requerida $P$;
 2. Divide-se $P$ pelo tamanho do ciclo $k$, obtendo o quociente $q$ e o resto $r$ ($P = k \cdot q + r$);
 3. **Se o resto $r > 0$:** O termo procurado é exatamente o $r$-ésimo elemento do ciclo padrão;
@@ -271,6 +278,7 @@ O número total de processos contidos originalmente nessa amostra era:
 
 > **Comentário Detalhado:**
 > Modelando o problema algebricamente:
+>
 > - Seja $T$ a quantidade total de processos da amostra.
 > - **No Dia 1:** O auditor executou $\frac{1}{3}T$. A quantidade remanescente após o primeiro dia é:
 >   $$\text{Resto}_1 = T - \frac{1}{3}T = \frac{2}{3}T$$
@@ -280,6 +288,7 @@ O número total de processos contidos originalmente nessa amostra era:
 >   $$\frac{4}{15}T = 48 \implies 4T = 48 \times 15 \implies 4T = 720 \implies T = \frac{720}{4} = 180$$
 >
 > Análise individual das alternativas:
+>
 > - **A)** Incorreta. Se o total fosse 150, o resto final seria $\frac{4}{15} \times 150 = 40$ processos, divergindo dos 48 informados.
 > - **B)** Incorreta. Decorre de equívoco no cálculo das frações parciais.
 > - **C)** Correta. Com $T = 180$: no dia 1 são analisados 60 processos (restando 120); no dia 2 são analisados $\frac{3}{5} \times 120 = 72$ processos (restando $120 - 72 = 48$); no dia 3 são analisados exatamente os 48 processos finais.
@@ -305,6 +314,7 @@ O número de dias que decorrerão até que as três equipes voltem a iniciar sua
 > **Comentário Detalhado:**
 > O problema demanda o cálculo do menor intervalo de tempo em que eventos com frequências periódicas distintas coincidem simultaneamente no futuro, o que se resolve determinando o **Mínimo Múltiplo Comum (MMC)** entre 12, 18 e 20.
 > Decompondo os números em fatores primos simultâneos:
+>
 > - $12 = 2^2 \times 3$
 > - $18 = 2 \times 3^2$
 > - $20 = 2^2 \times 5$
@@ -313,6 +323,7 @@ O número de dias que decorrerão até que as três equipes voltem a iniciar sua
 > $$\text{MMC}(12, 18, 20) = 2^2 \times 3^2 \times 5 = 4 \times 9 \times 5 = 180 \text{ dias}$$
 > 
 > Análise individual das alternativas:
+>
 > - **A)** Incorreta. 60 é múltiplo comum de 12 e 20, mas não é divisível por 18 ($60 \div 18 \approx 3,33$).
 > - **B)** Incorreta. 120 é divisível por 12 e por 20, mas não divide exatamente por 18 ($120 \div 18 \approx 6,66$).
 > - **C)** Correta. 180 é o menor número natural simultaneamente divisível por 12 ($180/12 = 15$), 18 ($180/18 = 10$) e 20 ($180/20 = 9$).
@@ -337,6 +348,7 @@ Nessas condições, o **número total de caixas organizadoras** necessárias par
 
 > **Comentário Detalhado:**
 > A resolução compõe-se de duas etapas lógicas:
+>
 > 1. Para que as caixas tenham capacidade idêntica, comportem apenas pastas do mesmo tipo e o número de pastas em cada caixa seja o **maior possível**, a capacidade de cada caixa deve corresponder ao **Máximo Divisor Comum (MDC)** entre 168, 216 e 264:
 >    - $168 = 2^3 \times 3 \times 7$
 >    - $216 = 2^3 \times 3^3$
@@ -349,6 +361,7 @@ Nessas condições, o **número total de caixas organizadoras** necessárias par
 >    - Total de caixas: $7 + 9 + 11 = 27 \text{ caixas}$.
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. 24 é a capacidade unitária de pastas em cada caixa (o valor do MDC), armadilha clássica da FCC para o candidato desatento ao comando da questão.
 > - **B)** Correta. 27 caixas no total ($7 + 9 + 11$).
 > - **C)** Incorreta. Decorre de soma equivocada dos quocientes de divisão.
@@ -373,6 +386,7 @@ Se Bruno e Camila trabalharem juntos, no mesmo ritmo de produtividade constante,
 
 > **Comentário Detalhado:**
 > Problema clássico de trabalho cooperativo e soma de taxas operatórias:
+>
 > 1. Taxa horária de Bruno: $v_B = \frac{1}{6}$ do serviço por hora.
 > 2. Taxa horária de Camila: $v_C = \frac{1}{4}$ do serviço por hora.
 > 3. Taxa conjunta trabalhando juntos:
@@ -385,6 +399,7 @@ Se Bruno e Camila trabalharem juntos, no mesmo ritmo de produtividade constante,
 >    Portanto, o tempo total é de **2 horas e 24 minutos**.
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. Erra ao converter a parte decimal tomando $0,2$ em vez de $0,4$.
 > - **B)** Correta. $2,4 \text{ horas} = 2 \text{ horas e } 24 \text{ minutos}$.
 > - **C)** Incorreta. Resulta da confusão de achar que 2,4h equivale à média de tempo ou 2h30min.
@@ -409,6 +424,7 @@ O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão 
 
 > **Comentário Detalhado:**
 > Análise do padrão de periodicidade cíclica:
+>
 > 1. O ciclo básico é composto por 5 algarismos ordenados:
 >    - 1º elemento: 7 (posições que deixam resto 1 na divisão por 5)
 >    - 2º elemento: 4 (posições que deixam resto 2 na divisão por 5)
@@ -423,6 +439,7 @@ O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão 
 > 4. Logo, o algarismo é **4** e o resto é **2**.
 >
 > Análise das alternativas:
+>
 > - **A)** Incorreta. Indica o algarismo 5, que corresponderia a resto 3.
 > - **B)** Correta. O algarismo na posição 2027 é o 2º elemento do ciclo (**4**) e o resto da divisão euclidiana de 2027 por 5 é **2**.
 > - **C)** Incorreta. Aponta resto 1 e algarismo 7.

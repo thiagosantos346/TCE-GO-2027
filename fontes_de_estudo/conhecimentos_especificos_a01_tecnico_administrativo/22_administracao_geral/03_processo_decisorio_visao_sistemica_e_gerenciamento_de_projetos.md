@@ -9,17 +9,17 @@
 ## 📌 Ementa / Itens do Edital
 - O processo decisório na administração: etapas lógicas do ciclo decisório (identificação do problema, diagnóstico, formulação de alternativas, avaliação comparativa, escolha, implementação e avaliação dos resultados);
 - Tipos de decisões organizacionais segundo Herbert Simon:
-  - Decisões Programadas (estruturadas, rotineiras, repetitivas, amparadas por regras, resoluções e POPs);
-  - Decisões Não Programadas (não estruturadas, inéditas, complexas, estratégicas e tomadas sob turbulência);
+    - Decisões Programadas (estruturadas, rotineiras, repetitivas, amparadas por regras, resoluções e POPs);
+    - Decisões Não Programadas (não estruturadas, inéditas, complexas, estratégicas e tomadas sob turbulência);
 - Condições ambientais da tomada de decisão: condições de certeza, risco, incerteza e ambiguidade;
 - Visão sistêmica nas organizações:
-  - O pensamento holístico e a superação da visão fragmentada departamental (fim dos "silos organizacionais" ou feudos administrativos);
-  - Sinergia organizacional ($1 + 1 > 2$) e interdependência dos subsistemas (técnico, estrutural, psicossocial e gerencial de Kast e Rosenzweig);
-  - Equifinalidade e homeostase dinâmica na preservação da missão institucional perante o ambiente externo;
+    - O pensamento holístico e a superação da visão fragmentada departamental (fim dos "silos organizacionais" ou feudos administrativos);
+    - Sinergia organizacional ($1 + 1 > 2$) e interdependência dos subsistemas (técnico, estrutural, psicossocial e gerencial de Kast e Rosenzweig);
+    - Equifinalidade e homeostase dinâmica na preservação da missão institucional perante o ambiente externo;
 - Noções fundamentais de Gerenciamento de Projetos:
-  - Conceito de projeto segundo as boas práticas do PMI/PMBOK;
-  - A restrição tripla do gerenciamento de projetos: Escopo, Tempo e Custo (balizados pelo padrão de Qualidade);
-  - Ferramentas clássicas de acompanhamento e controle de projetos: Gráfico de Gantt, Método do Caminho Crítico (CPM - *Critical Path Method*) e técnica PERT (*Program Evaluation and Review Technique* com três estimativas de tempo).
+    - Conceito de projeto segundo as boas práticas do PMI/PMBOK;
+    - A restrição tripla do gerenciamento de projetos: Escopo, Tempo e Custo (balizados pelo padrão de Qualidade);
+    - Ferramentas clássicas de acompanhamento e controle de projetos: Gráfico de Gantt, Método do Caminho Crítico (CPM - *Critical Path Method*) e técnica PERT (*Program Evaluation and Review Technique* com três estimativas de tempo).
 
 ---
 
@@ -97,6 +97,7 @@ flowchart LR
 
 > ⭐ **IMPORTANTE (RISCO VS. INCERTEZA NA DECISÃO):**  
 > Grave a diferença estatística crucial nas provas da FCC:  
+>
 > - Em ambiente de **RISCO**, você **consegue calcular probabilidades matemáticas** associadas aos eventos futuros porque dispõe de séries históricas e dados estatísticos.  
 > - Em ambiente de **INCERTEZA**, os dados são precários ou inexistentes, sendo **impossível estimar probabilidades matemáticas confiáveis**.
 
@@ -109,11 +110,11 @@ A abordagem sistêmica concebe a instituição pública como um **sistema aberto
 1. **Superação dos Silos Organizacionais (Feudos Administrativos):** Na abordagem burocrática mecanicista tradicional, cada diretoria ou setor funcionava como um "feudo isolado" (*silo organizacional*), preocupado exclusivamente com suas próprias metas setoriais e cego aos impactos no restante do órgão. O **pensamento holístico** supera essa fragmentação, integrando as unidades em torno do propósito público comum.
 2. **Sinergia Organizacional:** Fenômeno pelo qual a ação cooperativa e coordenada dos subsistemas integrados produz um resultado global significativamente superior à mera soma dos resultados obtidos por cada unidade isoladamente ($1 + 1 > 2$).
 3. **Os Cinco Subsistemas Organizacionais de Kast e Rosenzweig:**
-   - **Subsistema de Objetivos e Valores:** Missão institucional, visão de futuro e cultura ética do órgão.
-   - **Subsistema Técnico:** Instalações físicas, softwares, métodos de fiscalização, equipamentos e conhecimentos aplicados.
-   - **Subsistema Estrutural:** Desenho do organograma, divisão do trabalho, regimentos internos e linhas de subordinação hierárquica.
-   - **Subsistema Psicossocial:** Relações humanas interpessoais, clima de trabalho, dinâmica de grupos, motivação e liderança.
-   - **Subsistema Gerencial:** Função integradora superior que conecta e direciona todos os outros subsistemas através do planejamento, organização, comando, coordenação e controle.
+    - **Subsistema de Objetivos e Valores:** Missão institucional, visão de futuro e cultura ética do órgão.
+    - **Subsistema Técnico:** Instalações físicas, softwares, métodos de fiscalização, equipamentos e conhecimentos aplicados.
+    - **Subsistema Estrutural:** Desenho do organograma, divisão do trabalho, regimentos internos e linhas de subordinação hierárquica.
+    - **Subsistema Psicossocial:** Relações humanas interpessoais, clima de trabalho, dinâmica de grupos, motivação e liderança.
+    - **Subsistema Gerencial:** Função integradora superior que conecta e direciona todos os outros subsistemas através do planejamento, organização, comando, coordenação e controle.
 
 > 📌 **NOTA EXPLICATIVA (O CONCEITO DE SINERGIA):**  
 > Na abordagem sistêmica, sinergia significa que as unidades interdependentes cooperando de forma harmônica geram um valor total que excede a simples soma de seus desempenhos isolados ($1 + 1 > 2$).
@@ -146,19 +147,19 @@ flowchart TD
 #### As Ferramentas de Planejamento e Controle de Cronograma:
 
 1. **Gráfico de Gantt:**
-   - Representação visual bidimensional de barras horizontais em que o eixo vertical elenca as tarefas e o eixo horizontal projeta a linha do tempo (dias, semanas ou meses).
-   - Proporciona acompanhamento visual imediato do avanço das tarefas e de suas datas de início e término.
+    - Representação visual bidimensional de barras horizontais em que o eixo vertical elenca as tarefas e o eixo horizontal projeta a linha do tempo (dias, semanas ou meses).
+    - Proporciona acompanhamento visual imediato do avanço das tarefas e de suas datas de início e término.
 2. **Método do Caminho Crítico (CPM - *Critical Path Method*):**
-   - Mapeia o diagrama de rede de dependências e precedências lógicas entre todas as atividades do projeto.
-   - O Caminho Crítico é a **sequência mais longa de atividades interdependentes** do início ao final do projeto, determinando a sua duração total mínima.
-   - **Regra Mandatória de Prova:** Todas as atividades situadas no caminho crítico possuem **FOLGA TEMPORAL NULA (FOLGA ZERO)**. Qualquer atraso em uma tarefa do caminho crítico acarreta automaticamente o atraso na entrega final de todo o projeto!
+    - Mapeia o diagrama de rede de dependências e precedências lógicas entre todas as atividades do projeto.
+    - O Caminho Crítico é a **sequência mais longa de atividades interdependentes** do início ao final do projeto, determinando a sua duração total mínima.
+    - **Regra Mandatória de Prova:** Todas as atividades situadas no caminho crítico possuem **FOLGA TEMPORAL NULA (FOLGA ZERO)**. Qualquer atraso em uma tarefa do caminho crítico acarreta automaticamente o atraso na entrega final de todo o projeto!
 3. **Técnica PERT (*Program Evaluation and Review Technique*):**
-   - Ferramenta probabilística empregada em projetos complexos ou inovadores com alto grau de incerteza quanto à duração das atividades.
-   - Utiliza a distribuição beta baseada em três estimativas temporais fornecidas pelos especialistas:
-     - **O (Otimista):** Tempo mínimo em que a atividade pode ser concluída em condições ideais.
-     - **M (Mais Provável / *Most Likely*):** Tempo esperado em circunstâncias normais de trabalho.
-     - **P (Pessimista):** Tempo máximo exigido na pior hipótese concebível (quando tudo dá errado).
-   - **Fórmula da Média Ponderada PERT (Tempo Esperado):**
+    - Ferramenta probabilística empregada em projetos complexos ou inovadores com alto grau de incerteza quanto à duração das atividades.
+    - Utiliza a distribuição beta baseada em três estimativas temporais fornecidas pelos especialistas:
+    - **O (Otimista):** Tempo mínimo em que a atividade pode ser concluída em condições ideais.
+    - **M (Mais Provável / *Most Likely*):** Tempo esperado em circunstâncias normais de trabalho.
+    - **P (Pessimista):** Tempo máximo exigido na pior hipótese concebível (quando tudo dá errado).
+    - **Fórmula da Média Ponderada PERT (Tempo Esperado):**
      $$\mathbf{\text{Tempo Esperado (TE)} = \frac{O + 4M + P}{6}}$$
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (FOLGA DO CAMINHO CRÍTICO):**  
