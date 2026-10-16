@@ -274,16 +274,21 @@ A Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 
 
 ## 6. Fontes Recomendadas na Internet
 
-- [Constituição Federal de 1988 - Art. 37 (LIMPE)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)  
-  Texto constitucional oficial com as regras basilares da Administração Pública, concurso, publicidade e teto remuneratório.
-- [Lei de Introdução às Normas do Direito Brasileiro (LINDB) - Arts. 20 a 30](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm)  
-  Dispositivos introduzidos pela Lei nº 13.655/2018 disciplinando o consequencialismo, segurança jurídica e responsabilização por erro grosseiro.
-- [Decreto Federal nº 9.830/2019 (Regulamento da LINDB)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9830.htm)  
-  Regulamentação que conceitua formalmente erro grosseiro, dolo, compromisso processual e regime de transição.
-- [Súmula Vinculante nº 13 do STF (Antinepotismo)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=13)  
-  Precedentes e teor oficial da vedação de nepotismo na administração direta e indireta.
-- [Súmula 473 do STF - Autotutela Administrativa](https://portal.stf.jus.br/jurisprudencia/sumarios/sumula.asp?seq=473)  
-  Enunciado consolidado sobre anulação de atos ilegais e revogação por conveniência e oportunidade.
+- [Constituição Federal de 1988 - Art. 37 (Princípios Constitucionais da Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)  
+  Texto constitucional oficial com as regras basilares da Administração Pública (LIMPE), concurso público, publicidade institucional e teto remuneratório.
+- [Lei de Introdução às Normas do Direito Brasileiro (LINDB Compilada - Arts. 20 a 30)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm)  
+  Dispositivos introduzidos pela Lei nº 13.655/2018 disciplinando o consequencialismo jurídico, a segurança jurídica e a responsabilização por dolo ou erro grosseiro.
+- [Lei Federal nº 13.655/2018 (Segurança Jurídica e Eficiência na Aplicação do Direito Público)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13655.htm)  
+  Diploma legal que inseriu os artigos 20 a 30 na LINDB para balizar a atuação das esferas administrativa, controladora e judicial.
+- [Decreto Federal nº 9.830/2019 (Regulamento dos Arts. 20 a 30 da LINDB)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9830.htm)  
+  Regulamentação que conceitua formalmente erro grosseiro, dolo, compromisso processual, motivação consequencialista e regime de transição.
+- [Súmula Vinculante nº 13 do STF (Vedação ao Nepotismo)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=13)  
+  Precedentes e teor oficial da vedação ao nepotismo direto e cruzado na administração direta e indireta de todos os Poderes.
+- [Súmula 473 do STF (Princípio da Autotutela Administrativa)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumula.asp?seq=473)  
+  Enunciado consolidado sobre o poder-dever de anulação de atos ilegais e a revogação de atos válidos por conveniência e oportunidade.
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 3 - Regime Jurídico Administrativo e Princípios da Administração Pública).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 1 - Introdução ao Direito Administrativo e Princípios Administrativos).
+* MELLO, Celso Antônio Bandeira de. **Curso de Direito Administrativo**. 37. ed. Belo Horizonte: Fórum, 2024. (Cap. 2 - O Regime Jurídico-Administrativo: Supremacia e Indisponibilidade do Interesse Público).
 
 ---
 

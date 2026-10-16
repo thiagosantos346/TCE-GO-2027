@@ -212,10 +212,14 @@ graph TD
 
 ## 4. Fontes Oficiais e Referências Bibliográficas
 
-* [Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin)](https://blog.cleancoder.com/) - Princípios SOLID e governança arquitetural.
-* [Microservices: Yesterday, Today, and Tomorrow (Martin Fowler)](https://martinfowler.com/articles/microservices.html) - Definição seminal de arquitetura de microsserviços.
-* [Enterprise Integration Patterns (Gregor Hohpe & Bobby Woolf)](https://www.enterpriseintegrationpatterns.com/) - Padrões de mensageria assíncrona e ESB.
-* [Building Microservices: Designing Fine-Grained Systems (Sam Newman)](https://samnewman.io/) - Padrões de decomposição, resiliência e Saga.
+* [Microservices: A Definition of This New Architectural Term (Martin Fowler & James Lewis)](https://martinfowler.com/articles/microservices.html) - Artigo seminal definindo a arquitetura de microsserviços, governança descentralizada, *smart endpoints and dumb pipes* e persistência poliglota.
+* [What do you mean by "Event-Driven"? — Arquitetura Orientada a Eventos e Event Sourcing (Martin Fowler)](https://martinfowler.com/articles/201701-event-driven.html) - Distinção formal entre notificação de eventos, transferência de estado baseada em eventos, Event Sourcing e CQRS.
+* [Strangler Fig Application — Modernização Gradual de Sistemas Legados (Martin Fowler)](https://martinfowler.com/bliki/StranglerFigApplication.html) - Padrão arquitetural para migração incremental de monólitos para arquiteturas distribuídas.
+* [Bounded Context — Contextos Delimitados no Domain-Driven Design (Martin Fowler)](https://martinfowler.com/bliki/BoundedContext.html) - Fundamento de alta coesão e baixo acoplamento no particionamento de domínios e microsserviços.
+* [The Twelve-Factor App (Os Doze Fatores para Aplicações Cloud-Native)](https://12factor.net/pt_br/) - Metodologia arquitetural para construção de softwares-como-serviço escaláveis, portáveis e resilientes.
+* MARTIN, Robert C. **Arquitetura Limpa: O Guia do Artesão para Estrutura e Design de Software**. Rio de Janeiro: Alta Books, 2019. (Parte III - Princípios de Design SOLID; Parte V - Arquitetura).
+* NEWMAN, Sam. **Building Microservices: Designing Fine-Grained Systems**. 2. ed. Sebastopol: O'Reilly Media, 2021. (Cap. 4 - Microservice Communication Styles; Cap. 6 - Workflow and Sagas; Cap. 11 - Resiliency).
+* EVANS, Eric. **Domain-Driven Design: Atacando as Complexidades no Coração do Software**. Rio de Janeiro: Alta Books, 2016. (Parte IV - Design Estratégico).
 
 ---
 

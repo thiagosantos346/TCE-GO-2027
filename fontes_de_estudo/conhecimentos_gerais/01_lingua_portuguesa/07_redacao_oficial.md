@@ -304,10 +304,14 @@ No âmbito do controle externo, a produção textual desdobra-se em espécies es
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Manual de Redação da Presidência da República - 3ª Edição Revista e Atualizada (Portal do Planalto)](http://www.planalto.gov.br/ccivil_03/manual/manual.htm) - Texto oficial que disciplina a comunicação pública na administração brasileira.
-* [Manual de Redação da Presidência da República em PDF Integral](http://www.planalto.gov.br/ccivil_03/manual/Manual_Redacao_3a_Edicao.pdf) - Diagramação oficial, modelos de ofício e fechos regulamentares.
-* [Decreto Federal nº 9.758/2019 (Planalto)](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9758.htm) - Dispõe sobre o tratamento simples e adequado aos agentes públicos.
-* [Manual de Comunicação do Senado Federal](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo) - Guia de redação oficial e atos parlamentares.
+* [Manual de Redação da Presidência da República — 3ª Edição Revista e Atualizada (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Texto normativo integral que disciplina os atributos da redação oficial, pronomes de tratamento, vocativos, fechos e o Padrão Ofício unificado.
+* [Decreto Federal nº 9.758/2019 — Formas de Tratamento na Administração Pública (Planalto)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9758.htm) - Dispõe sobre a forma de tratamento *Senhor* e veda o emprego de títulos honoríficos e fórmulas laudatórias no serviço público federal.
+* [Lei Complementar Federal nº 95/1998 — Elaboração, Redação e Consolidação das Leis (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm) - Diretrizes sobre estruturação de atos normativos, articulação de artigos, clareza e precisão legislativa.
+* [Manual de Comunicação do Senado Federal — Fundamentos e Diretrizes da Comunicação Pública](https://www12.senado.leg.br/manualdecomunicacao/fundamentos-e-diretrizes) - Princípios de impessoalidade, concisão, formalidade e transparência institucional.
+* [Manual de Comunicação do Senado Federal — Emprego de Pronomes de Tratamento e Concordância](https://www12.senado.leg.br/manualdecomunicacao/estilos/pronomes) - Regras de concordância em 3ª pessoa com *Vossa Excelência* e *Vossa Senhoria* e distinção dêitica (*Vossa* vs. *Sua*).
+* BRASIL. Presidência da República. Casa Civil. **Manual de Redação da Presidência da República**. 3. ed. rev., atual. e ampl. Brasília: Presidência da República, 2018. (Cap. I a III - As Comunicações Oficiais, Pronomes de Tratamento e O Padrão Ofício).
+* CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 11 - Pronomes de Tratamento e Silepse de Gênero).
+* GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Terceira Parte - Clareza, Concisão e Correção na Prosa Administrativa).
 
 ---
 

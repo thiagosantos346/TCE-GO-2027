@@ -188,15 +188,18 @@ Para garantir o julgamento impessoal e estritamente técnico:
 ## 4. Fontes Recomendadas na Internet
 
 - [Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)  
-  Regulamento nacional que fixa as diretrizes da transparência ativa e passiva e os graus de sigilo.
-- [Lei Estadual de Goiás nº 18.025/2013 (Acesso à Informação no Estado de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/83437/lei-18025)  
-  Marco normativo goiano de acesso à informação e proteção de dados em âmbito estadual.
-- [Lei Federal nº 12.232/2010 (Contratação de Serviços de Publicidade por Entes Públicos)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)  
-  Disciplina as licitações de publicidade institucional, a subcomissão técnica e veda expressamente o pregão.
-- [STF - Tema 483 da Repercussão Geral (Divulgação Nominal de Remuneração)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=483)  
-  Precedente vinculante consolidando a legitimidade da divulgação de nomes e vencimentos de servidores em portais da transparência.
+  Regulamento nacional que fixa as diretrizes da transparência ativa e passiva, prazos do SIC e graus de classificação de sigilo.
+- [Lei Estadual de Goiás nº 18.025/2013 (Lei de Acesso à Informação no Estado de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/83437/lei-18025)  
+  Marco normativo goiano de acesso à informação, transparência pública e competências para classificação de sigilo em âmbito estadual.
+- [Lei Federal nº 12.232/2010 (Contratação de Serviços de Publicidade pela Administração Pública)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)  
+  Disciplina as licitações e contratos de serviços de publicidade institucional, o sorteio da subcomissão técnica e a vedação ao pregão.
+- [STF - Tema 483 da Repercussão Geral (Divulgação Nominal de Remuneração de Servidores)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=483)  
+  Precedente vinculante consolidando a legitimidade da divulgação de nomes e vencimentos de servidores públicos em portais da transparência.
 - [Lei Federal nº 14.133/2021 (Nova Lei de Licitações - Artigo 29)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art29)  
-  Dispositivo que reitera a vedação expressa ao pregão para serviços de publicidade e propaganda.
+  Dispositivo que reitera a inaplicabilidade do pregão para contratações de serviços técnicos especializados e de publicidade criativa.
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 3 e Cap. 9 - Princípio da Publicidade, Lei de Acesso à Informação e Licitações Especiais).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 1 e Cap. 6 - Transparência Administrativa, Sigilo Oficial e Regime da Lei 12.527/2011).
+* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 1º a 5º e Regimes Licitatórios Especiais da Lei 12.232/2010).
 
 ---
 

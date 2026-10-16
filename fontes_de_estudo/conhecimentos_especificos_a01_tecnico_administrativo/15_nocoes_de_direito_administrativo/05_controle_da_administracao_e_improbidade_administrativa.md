@@ -235,16 +235,21 @@ flowchart TD
 
 ## 6. Fontes Recomendadas na Internet
 
-- [Lei Federal nº 8.429/1992 - Lei de Improbidade Administrativa](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm)  
-  Texto oficial compilado com as profundas alterações introduzidas pela Lei nº 14.230/2021.
-- [STF - Tema 1.199 da Repercussão Geral (Acórdão do RE 1.205.746)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=1199)  
-  Julgamento histórico do STF que confirmou a extinção da improbidade culposa e definiu a retroatividade processual do dolo.
-- [Constituição Federal de 1988 - Arts. 70 a 75 e Art. 37, § 4º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)  
-  Regramento constitucional do controle externo e das sanções políticas de improbidade administrativa.
+- [Lei Federal nº 8.429/1992 Compilada (Lei de Improbidade Administrativa)](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm)  
+  Texto oficial compilado com as profundas alterações introduzidas pela Lei nº 14.230/2021 quanto a dolo específico, tipicidade e prescrição.
+- [Lei Federal nº 14.230/2021 (Reforma da Lei de Improbidade Administrativa)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14230.htm)  
+  Diploma reformador que extinguiu a modalidade culposa, tornou taxativo o rol do art. 11 e instituiu a prescrição intercorrente.
+- [STF - Tema 1.199 da Repercussão Geral (Dolo Específico e Irretroatividade na LIA)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=1199)  
+  Julgamento histórico do STF que confirmou a extinção da improbidade culposa e definiu as regras de direito intertemporal da Lei nº 14.230/2021.
+- [Constituição Federal de 1988 - Arts. 70 a 75 (Fiscalização Contábil, Financeira e Orçamentária)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art70)  
+  Regramento constitucional do controle externo exercido pelo Poder Legislativo com o auxílio dos Tribunais de Contas e do controle interno.
+- [Lei Federal nº 12.846/2013 (Lei Anticorrupção Empresarial)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm)  
+  Dispõe sobre a responsabilização administrativa e civil objetiva de pessoas jurídicas pela prática de atos contra a administração pública.
 - [Lei Federal nº 4.717/1965 (Lei da Ação Popular)](https://www.planalto.gov.br/ccivil_03/leis/l4717.htm)  
-  Estatuto da ação constitucional privativa do cidadão para defesa da moralidade e do patrimônio público.
-- [Lei Federal nº 7.347/1985 (Lei da Ação Civil Pública)](https://www.planalto.gov.br/ccivil_03/leis/l7347orig.htm)  
-  Marco legal da tutela coletiva do patrimônio público e da probidade administrativa pelo Ministério Público.
+  Estatuto da ação constitucional privativa do cidadão eleitor para defesa da moralidade administrativa e do patrimônio público.
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 18 e Cap. 19 - Controle da Administração Pública e Improbidade Administrativa).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 20 e Cap. 22 - Controle da Administração e Improbidade Administrativa na Lei 14.230/2021).
+* NEVES, Daniel Amorim Assumpção; OLIVEIRA, Rafael Carvalho Rezende. **Improbidade Administrativa: Direito Material e Processual**. 10. ed. Rio de Janeiro: Forense, 2023. (Cap. 3 a Cap. 8 - Nova Sistemática da Lei 8.429/1992).
 
 ---
 

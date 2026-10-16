@@ -198,16 +198,19 @@ O **Portal Nacional de Contratações Públicas (PNCP)**, disciplinado pelos art
 
 ## 5. Fontes Recomendadas na Internet
 
-- [Lei Federal nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm)  
-  Texto legal nacional que rege a governança, planejamento, ETP, matriz de riscos e o PNCP.
-- [Portal Nacional de Contratações Públicas (PNCP Oficial)](https://pncp.gov.br/)  
-  Repositório central de contratações da União, Estados e Municípios brasileiros.
+- [Lei Federal nº 14.133/2021 - Arts. 1º a 27 e 174 a 176 (Governança, Planejamento e PNCP)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art1)  
+  Texto legal nacional que rege os princípios da licitação, agentes de contratação, segregação de funções, ETP, matriz de riscos e o PNCP.
+- [Lei Federal nº 14.133/2021 - Art. 94 (Divulgação Obrigatória no PNCP como Condição de Eficácia)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art94)  
+  Dispositivo que fixa os prazos de 20 e 10 dias úteis para divulgação de contratos e aditamentos no Portal Nacional de Contratações Públicas.
 - [Decreto Federal nº 10.947/2022 (Regulamento do Plano de Contratações Anual - PCA)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D10947.htm)  
-  Normas de elaboração do calendário de contratações anual integradas às leis orçamentárias.
-- [Instrução Normativa SEGES/ME nº 58/2022 (Diretrizes para Elaboração do ETP)](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-58-de-8-de-agosto-de-2022)  
-  Roteiro prático federal para elaboração de estudos técnicos preliminares na NLLC.
-- [Manual de Governança das Aquisições do TCU](https://portal.tcu.gov.br/)  
-  Referência metodológica para aplicação do princípio da segregação de funções e gestão por competências.
+  Normas de elaboração do calendário anual de contratações integradas ao planejamento estratégico e às leis orçamentárias.
+- [Compras.gov.br - Instruções Normativas SEGES sobre a Fase Preparatória e ETP (Lei 14.133/2021)](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas)  
+  Repositório normativo oficial das Instruções Normativas federais sobre pesquisa de preços, Estudo Técnico Preliminar (ETP) e Termo de Referência (TR).
+- [Constituição Federal de 1988 - Art. 37, XXI (Obrigatoriedade Constitucional de Licitar)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)  
+  Matriz constitucional do dever de licitar, da isonomia entre concorrentes e da manutenção das condições efetivas da proposta.
+* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 5º a 27 - Governança, Agentes de Contratação, Segregação de Funções e Fase Preparatória).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 - Licitação Pública: Princípios, Governança, ETP, Termo de Referência e Matriz de Riscos).
+* NIEBUHR, Joel de Menezes. **Licitação Pública e Contrato Administrativo**. 6. ed. Belo Horizonte: Fórum, 2023. (Cap. 4 e Cap. 5 - Planejamento da Contratação, Estudo Técnico Preliminar e PNCP).
 
 ---
 

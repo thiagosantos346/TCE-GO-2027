@@ -403,11 +403,15 @@ Ocorre a fusão da preposição *a* (exigida por regência verbal ou nominal) co
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Guia Gramatical do Senado Federal - Manual de Concordância e Regência](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo/guia-gramatical/concordancia-verbal) - Orientações oficiais aplicadas ao processo legislativo e de controle.
-* [Guia Oficial de Emprego do Sinal Indicativo de Crase - Senado Federal](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo/guia-gramatical/crase) - Casos proibidos, obrigatórios e facultativos com base na jurisprudência textual.
-* [Dicionário Prático de Regência Verbal de Celso Pedro Luft](https://www.soportugues.com.br/secoes/sint/sint60.php) - Obra de consulta fundamental para a transitividade de verbos da língua portuguesa.
-* CEGALLA, Domingos Paschoal. *Novíssima Gramática da Língua Portuguesa*. São Paulo: Nacional. (Capítulos de Concordância Verbal, Nominal e Regência).
-* BECHARA, Evanildo. *Moderna Gramática Portuguesa*. Rio de Janeiro: Nova Fronteira.
+* [Manual de Comunicação do Senado Federal — Concordância Verbal](https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal) - Regras de concordância com sujeito simples, composto, partitivos, porcentagens e verbos impessoais (*haver* e *fazer*).
+* [Manual de Comunicação do Senado Federal — Concordância Nominal](https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-nominal) - Casos especiais de concordância nominal (*anexo, incluso, mesmo, próprio, bastante, meio, menos, é proibido*).
+* [Manual de Comunicação do Senado Federal — Regência Verbal](https://www12.senado.leg.br/manualdecomunicacao/estilos/regencia-verbal) - Transitividade e preposições exigidas pelos verbos mais cobrados em concursos (*assistir, aspirar, visar, implicar, preferir, obedecer*).
+* [Manual de Comunicação do Senado Federal — Regência Nominal](https://www12.senado.leg.br/manualdecomunicacao/estilos/regencia-nominal) - Quadro de substantivos e adjetivos acompanhados das respectivas preposições na linguagem pública.
+* [Manual de Comunicação do Senado Federal — Emprego do Sinal Indicativo de Crase](https://www12.senado.leg.br/manualdecomunicacao/estilos/crase) - Casos obrigatórios, proibidos e facultativos de crase em textos administrativos e jurídicos.
+* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Diretrizes sobre regência, concordância e emprego da crase em comunicações oficiais.
+* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 15 e Cap. 16 - Sintaxe de Concordância Verbal e Nominal, Sintaxe de Regência e Crase).
+* CEGALLA, Domingos Paschoal. **Novíssima Gramática da Língua Portuguesa**. 49. ed. São Paulo: Companhia Editora Nacional, 2020. (Parte 3 - Concordância, Regência Verbal e Nominal e Emprego do Acento Grave).
+* CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 9 e Cap. 14 - Contração da Preposição A e Regras Especiais de Concordância e Regência).
 
 ---
 

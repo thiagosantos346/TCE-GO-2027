@@ -418,13 +418,14 @@ Exploram a **sonoridade** das palavras, sendo frequentes em poesia, publicidade 
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Portal Domínio Público (Ministério da Educação - MEC)](http://www.dominiopublico.gov.br/) - Repositório oficial de ensaios, obras de Machado de Assis, Lima Barreto e crônicas clássicas exploradas pela banca FCC.
-* [Só Português - Portal Gramatical e Estilística](https://www.soportugues.com.br/secoes/estilistica/) - Teoria da comunicação, tipologia textual, modalidades de discurso e catálogo de figuras de linguagem.
-* [Escola Virtual de Governo (EV.G / ENAP) - Leitura Crítica e Interpretação Textual](https://www.escolavirtual.gov.br/) - Cursos abertos de análise argumentativa e estruturação lógica do discurso no serviço público.
-* CEGALLA, Domingos Paschoal. *Novíssima Gramática da Língua Portuguesa*. São Paulo: Companhia Editora Nacional. (Capítulo sobre Estilística e Figuras de Estilo).
-* PLATÃO & FIORIN. *Para Entender o Texto: Leitura e Redação*. São Paulo: Ática. (Obra de referência para análise de discursos e tipologias).
-* KOCH, Ingedore Villaça. *A Inter-ação pela Linguagem*. São Paulo: Contexto. (Operadores argumentativos, pressupostos e subentendidos).
-* BECHARA, Evanildo. *Moderna Gramática Portuguesa*. Rio de Janeiro: Nova Fronteira. (Discurso direto, indireto e indireto livre; figuras de sintaxe).
+* [Manual de Comunicação do Senado Federal — Fundamentos e Diretrizes de Texto](https://www12.senado.leg.br/manualdecomunicacao/fundamentos-e-diretrizes) - Diretrizes oficiais sobre clareza, estrutura textual, argumentação, gêneros informativos e adequação discursiva.
+* [Manual de Comunicação do Senado Federal — Redação e Estilo (Índice Geral)](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo) - Orientações estilísticas sobre escolha vocabular, níveis de linguagem, discurso relatado e construção do texto.
+* [Manual de Comunicação do Senado Federal — Coesão e Redundância](https://www12.senado.leg.br/manualdecomunicacao/estilos/redundancia) - Estudo sobre pleonasmos, concisão, pressupostos semânticos e eliminação de vícios de linguagem.
+* [Manual de Comunicação do Senado Federal — Verbos Declaratórios e Tempos Verbais](https://www12.senado.leg.br/manualdecomunicacao/estilos/verbo-presente-e-futuro) - Emprego de verbos de elocução (*dicendi*) e correlação temporal na transposição entre discurso direto e indireto.
+* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Fundamentos de coesão, coerência, fidelidade interpretativa e linguagem denotativa em textos públicos.
+* KOCH, Ingedore Villaça; ELIAS, Vanda Maria. **Ler e Compreender: os sentidos do texto**. 3. ed. São Paulo: Contexto, 2018. (Cap. 2 e 4 -Compreensão, Inferência, Pressupostos, Subentendidos e Intertextualidade).
+* GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Segunda e Quarta Partes - Discurso Direto, Indireto e Indireto Livre, Figuras de Estilo e Argumentação).
+* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 18 e Apêndice - Estilística, Figuras de Sintaxe, de Palavras e de Pensamento).
 
 ---
 

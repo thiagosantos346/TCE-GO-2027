@@ -195,10 +195,13 @@ A diferenciação entre esses três padrões é uma das temáticas mais cobradas
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
-* [Design Patterns: Elements of Reusable Object-Oriented Software (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/) - O livro canônico seminal do Gang of Four (GoF).
-* [Refactoring Guru - Guia de Padrões de Projeto](https://refactoring.guru/pt-br/design-patterns) - Diagramas visuais, motivações e implementações de referência.
-* [SourceMaking - Design Patterns Guide](https://sourcemaking.com/design_patterns) - Catálogo completo de padrões arquiteturais e anti-patterns.
-* [Head First Design Patterns (Eric Freeman & Elisabeth Robson)](https://www.oreilly.com/library/view/head-first-design/9781492077992/) - Aplicação prática e didática dos padrões GoF.
+* [Refactoring.Guru — Catálogo Completo dos 23 Padrões de Projeto GoF](https://refactoring.guru/pt-br/design-patterns/catalog) - Visão geral estruturada, diagramas UML e aplicabilidade dos padrões do Gang of Four.
+* [Refactoring.Guru — Padrões de Projeto Criacionais](https://refactoring.guru/pt-br/design-patterns/creational-patterns) - Detalhamento técnico de Factory Method, Abstract Factory, Builder, Prototype e Singleton.
+* [Refactoring.Guru — Padrões de Projeto Estruturais](https://refactoring.guru/pt-br/design-patterns/structural-patterns) - Detalhamento técnico de Adapter, Bridge, Composite, Decorator, Facade, Flyweight e Proxy.
+* [Refactoring.Guru — Padrões de Projeto Comportamentais](https://refactoring.guru/pt-br/design-patterns/behavioral-patterns) - Detalhamento técnico de Strategy, State, Template Method, Observer, Command, Chain of Responsibility, Iterator, Mediator, Memento e Visitor.
+* [SourceMaking — Design Patterns Reference & Architectural Guide](https://sourcemaking.com/design_patterns) - Catálogo técnico de padrões de projeto orientados a objetos, motivações e relações entre padrões.
+* GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John. **Padrões de Projetos: Soluções Reutilizáveis de Software Orientado a Objetos**. Porto Alegre: Bookman, 2000. (Cap. 1 - Introdução; Cap. 3 a 5 - Catálogo de Padrões Criacionais, Estruturais e Comportamentais).
+* FREEMAN, Eric; ROBSON, Elisabeth. **Use a Cabeça! Padrões de Projetos (Head First Design Patterns)**. 2. ed. Rio de Janeiro: Alta Books, 2021. (Cap. 1 a 12 - Aplicação Prática dos Padrões GoF).
 
 ---
 

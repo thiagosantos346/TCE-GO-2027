@@ -505,11 +505,15 @@ Além dos processos clássicos, a língua recorre a outros expedientes formais:
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Academia Brasileira de Letras (ABL) - Vocabulário Ortográfico da Língua Portuguesa (VOLP)](https://www.academia.org.br/nossa-lingua/busca-no-vocabulario) - Base oficial de consulta léxica e grafia no Brasil.
-* [Portal da Presidência da República - Decreto Federal nº 6.583/2008](http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6583.htm) - Promulgação do Acordo Ortográfico da Língua Portuguesa.
-* [Portal da Língua Portuguesa (ILTEC)](http://www.portaldalinguaportuguesa.org/) - Guia explicativo e tabelas comparativas das regras de transição ortográfica.
-* BECHARA, Evanildo. *Moderna Gramática Portuguesa*. Rio de Janeiro: Nova Fronteira. (Seções sobre Fonética, Ortografia e Estrutura das Palavras).
-* CUNHA, Celso & CINTRA, Lindley. *Nova Gramática do Português Contemporâneo*. Rio de Janeiro: Lexikon.
+* [Decreto Federal nº 6.583/2008 — Acordo Ortográfico da Língua Portuguesa (Planalto)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6583.htm) - Texto integral das Bases I a XXI do Novo Acordo Ortográfico (acentuação gráfica, ditongos abertos, hiatos e emprego do hífen).
+* [Academia Brasileira de Letras (ABL) — Vocabulário Ortográfico da Língua Portuguesa (VOLP)](https://www.academia.org.br/nossa-lingua/busca-no-vocabulario) - Base oficial e normativa para consulta de grafia, tonicidade, hifenização e dupla prosódia no Brasil.
+* [Academia Brasileira de Letras (ABL) — Formulário Ortográfico Oficial](https://www.academia.org.br/nossa-lingua/formulario-ortografico) - Regras oficiais de ortografia, divisão silábica, homônimos, parônimos e notações léxicas.
+* [Manual de Comunicação do Senado Federal — Regras de Acentuação Gráfica](https://www12.senado.leg.br/manualdecomunicacao/estilos/acentuacao) - Síntese prática das regras gerais e especiais de acentuação e acentos diferenciais pós-Acordo Ortográfico.
+* [Manual de Comunicação do Senado Federal — Emprego do Hífen](https://www12.senado.leg.br/manualdecomunicacao/estilos/hifen) - Tabelas e casos práticos de uso do hífen com prefixos, falsos prefixos e compostos por justaposição.
+* [Academia Brasileira de Letras (ABL) — Reduções, Siglas e Abreviaturas](https://www.academia.org.br/nossa-lingua/reducoes) - Normas para abreviação vocabular, siglonimização e acrônimos na língua culta.
+* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 2 e Cap. 9 - Fonética, Ortografia Oficial, Estrutura Mórfica e Formação de Palavras).
+* CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 3 e Cap. 5 - Acentuação Gráfica, Morfemas e Processos de Derivação e Composição).
+* CEGALLA, Domingos Paschoal. **Novíssima Gramática da Língua Portuguesa**. 49. ed. São Paulo: Companhia Editora Nacional, 2020. (Parte 1 e Parte 2 - Ortografia, Semântica Lexical, Homônimos e Parônimos).
 
 ---
 
@@ -530,7 +534,7 @@ Assinale a alternativa em que ambos os vocábulos sublinhados são acentuados co
 > - **A)** Correta. Os vocábulos *relatório* (re-la-tó-rio) e *renúncia* (re-nún-cia) são ambos acentuados pela regra das paroxítonas terminadas em ditongo oral crescente (ou proparoxítonas eventuais/aparentes, nomenclatura consagrada pela FCC). Compartilham rigorosamente a mesma regra de justificação ortográfica.
 > - **B)** Incorreta. O vocábulo *pública* é acentuado por ser proparoxítona real (todas são acentuadas), ao passo que *sessão* não recebe acento gráfico (o til não é acento tônico primário, mas marca de nasalidade em outras palavras, e aqui sequer há til).
 > - **C)** Incorreta. Embora *saúde* e *país* compartilhem a regra do hiato tônico (I e U tônicos formando sílaba sozinhos ou com S), a análise comparativa com *imprescindível* (paroxítona terminada na consoante L) desfaz a uniformidade da assertiva.
-> - **D)** Incorreta. *Órgão* é acentuada por ser paroxítona terminada em ditongo nasal *-ão*, enquanto *prejuízo* é acentuada com base na regra especial dos hiatos (U tônico isolado na sílaba sem consoante nasal).
+> - **D)** Incorreta. *Órgão* é acentuada por ser paroxítona terminada em ditongo nasal *-ão*, enquanto *prejuízo* é acentuada com base na regra especial dos hiatos (I tônico isolado na sílaba sem consoante nasal).
 > - **E)** Incorreta. *Perspicácia* é paroxítona terminada em ditongo oral, ao passo que *desvendar* é oxítona terminada na consoante R e sequer recebe acento gráfico.
 > 
 > **Gabarito: A**

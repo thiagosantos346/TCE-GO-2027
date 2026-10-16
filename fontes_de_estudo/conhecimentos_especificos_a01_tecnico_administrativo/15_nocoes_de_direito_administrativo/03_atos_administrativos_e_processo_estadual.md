@@ -291,16 +291,19 @@ Para assegurar a imparcialidade nas decisões administrativas, a lei estadual es
 
 ## 7. Fontes Recomendadas na Internet
 
-- [Lei Estadual de Goiás nº 13.800/2001 (Processo Administrativo Estadual)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/38927/lei-13800)  
-  Texto legal consolidado que disciplina o processo administrativo e os prazos recursais no Estado de Goiás.
+- [Lei Estadual de Goiás nº 13.800/2001 (Processo Administrativo Estadual de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/81441/lei-13800)  
+  Texto legal consolidado que disciplina o processo administrativo, impedimentos, suspeição, convalidação e prazos recursais no Estado de Goiás.
 - [Lei Federal nº 4.717/1965 (Lei da Ação Popular - Art. 2º)](https://www.planalto.gov.br/ccivil_03/leis/l4717.htm#art2)  
-  Dispositivo normativo de referência que define os vícios de competência, finalidade, forma, motivo e objeto.
-- [Súmula Vinculante nº 3 do STF (Registro de Atos de Aposentadoria)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=3)  
-  Enunciado que consagra a desnecessidade de contraditório no ato inicial de concessão perante cortes de contas.
-- [STF - Tema 445 de Repercussão Geral (Prazo de Registro no TC)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=445)  
-  Tese de repercussão geral fixando o prazo de 5 anos para julgamento a contar da entrada dos autos no Tribunal de Contas.
-- [Lei Federal nº 9.784/1999 (Processo Administrativo Federal - Arts. 13 e 55)](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm)  
-  Normas gerais sobre convalidação e vedações à delegação de recursos administrativos.
+  Dispositivo normativo de referência que define os elementos e vícios de competência, finalidade, forma, motivo e objeto do ato administrativo.
+- [Súmula Vinculante nº 3 do STF (Contraditório e Registro de Aposentadorias nos Tribunais de Contas)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=3)  
+  Enunciado vinculante que consagra a natureza complexa e a exceção de contraditório no ato inicial de concessão de aposentadoria, reforma e pensão.
+- [STF - Tema 445 de Repercussão Geral (Prazo Decadencial de 5 Anos para Registro no TC)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=445)  
+  Tese de repercussão geral fixando o prazo de 5 anos para julgamento da legalidade do ato concessório a contar da chegada dos autos ao Tribunal de Contas.
+- [Lei Federal nº 9.784/1999 (Processo Administrativo Federal)](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm)  
+  Normas gerais sobre motivação, convalidação (art. 55), anulação decadencial quinquenal (art. 54) e vedações à delegação (art. 13).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 7 e Cap. 16 - Atos Administrativos e Processo Administrativo).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 3 e Cap. 21 - Atos Administrativos: Elementos, Atributos, Extinção e Processo Administrativo).
+* MELLO, Celso Antônio Bandeira de. **Curso de Direito Administrativo**. 37. ed. Belo Horizonte: Fórum, 2024. (Cap. 7 - Teoria dos Atos Administrativos, Perfeição, Validade, Eficácia e Convalidação).
 
 ---
 

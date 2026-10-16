@@ -416,11 +416,14 @@ Nas orações subordinadas substantivas integrantes (introduzidas por *que* ou *
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Guia Gramatical do Senado Federal - Manual de Redação e Estilo](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo/guia-gramatical) - Uso de pronomes oblíquos, correlação de modos verbais e concordância.
-* [Dicionário Priberam da Língua Portuguesa - Conjugador Verbal Oficial](https://dicionario.priberam.org/) - Paradigma flexional de verbos anômalos, defectivos e irregulares.
-* [Só Português - Guia Completo de Vozes Verbais e Sintaxe](https://www.soportugues.com.br/) - Estrutura de vozes verbais, partícula SE e complementos verbais.
-* CUNHA, Celso & CINTRA, Lindley. *Nova Gramática do Português Contemporâneo*. Rio de Janeiro: Lexikon. (Capítulos de Pronomes, Sintaxe de Colocação e Dinâmica Verbal).
-* BECHARA, Evanildo. *Moderna Gramática Portuguesa*. Rio de Janeiro: Nova Fronteira.
+* [Manual de Comunicação do Senado Federal — Emprego e Colocação de Pronomes](https://www12.senado.leg.br/manualdecomunicacao/estilos/pronomes) - Regras práticas de próclise, ênclise, mesóclise, substituição de objetos diretos/indiretos e uso do pronome relativo *cujo*.
+* [Manual de Comunicação do Senado Federal — Emprego de Tempos e Modos Verbais](https://www12.senado.leg.br/manualdecomunicacao/estilos/verbo-presente-e-futuro) - Orientações sobre correlação verbal (*consecutio temporum*), futuro do subjuntivo e vozes verbais na redação culta.
+* [Manual de Comunicação do Senado Federal — Concordância e Partícula Apassivadora](https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal) - Distinção prática entre pronome apassivador (voz passiva sintética) e índice de indeterminação do sujeito.
+* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Capítulos sobre morfossintaxe, pronomes demonstrativos (anáfora, catáfora e dêixis) e sistema verbal padrão.
+* [Academia Brasileira de Letras (ABL) — Vocabulário Ortográfico da Língua Portuguesa (VOLP)](https://www.academia.org.br/nossa-lingua/busca-no-vocabulario) - Consulta oficial sobre transitividade, conjugação de verbos defectivos/irregulares e grafia de formas enclíticas.
+* CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 11 e Cap. 12 - Pronomes Pessoais, Colocação Pronominal, Verbos, Vozes Verbais e Correlação de Tempos).
+* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 5 e Cap. 13 - Morfossintaxe, Classes de Palavras, Predicação Verbal e Sintaxe de Colocação).
+* CEGALLA, Domingos Paschoal. **Novíssima Gramática da Língua Portuguesa**. 49. ed. São Paulo: Companhia Editora Nacional, 2020. (Morfologia e Sintaxe - Flexão Verbal, Verbos Anômalos e Funções da Partícula SE).
 
 ---
 

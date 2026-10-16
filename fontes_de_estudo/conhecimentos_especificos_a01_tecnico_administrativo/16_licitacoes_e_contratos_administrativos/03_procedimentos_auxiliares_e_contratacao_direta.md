@@ -221,12 +221,19 @@ A dispensa de licitação ocorre em circunstâncias nas quais a competição ent
 ---
 
 ## 🌐 Fontes Recomendadas na Internet
-- [Lei Federal nº 14.133/2021 - Artigos 71 a 88 (Contratação Direta e Procedimentos Auxiliares)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art71)
-    - Normas legais completas sobre credenciamento, pré-qualificação, SRP, dispensa e inexigibilidade.
-- [Decreto Federal nº 11.462/2023 - Regulamento do Sistema de Registro de Preços](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11462.htm)
-    - Regulamento federal das regras de gestão da ARP e limites objetivos de adesão por caronas.
-- [Jurisprudência Selecionada do Tribunal de Contas da União (TCU)](https://pesquisa.apps.tcu.gov.br/)
-    - Acórdãos essenciais sobre emergência fabricada, notória especialização e vedação ao fracionamento indevido.
+- [Lei Federal nº 14.133/2021 - Artigos 72 a 75 (Processo de Contratação Direta, Inexigibilidade e Dispensa)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art72)  
+  Normas legais completas sobre instrução do processo de contratação direta, hipóteses exemplificativas de inexigibilidade e rol taxativo de dispensa.
+- [Lei Federal nº 14.133/2021 - Artigos 78 a 88 (Procedimentos Auxiliares das Licitações)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art78)  
+  Disciplina legal do credenciamento, pré-qualificação, procedimento de manifestação de interesse (PMI), sistema de registro de preços (SRP) e registro cadastral.
+- [Decreto Federal nº 11.462/2023 (Regulamento do Sistema de Registro de Preços na Lei 14.133/2021)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11462.htm)  
+  Regulamenta os arts. 82 a 86 da NLLC quanto à gestão da Ata de Registro de Preços, vigência prorrogável e limites de 50% e 200% para adesão de caronas.
+- [Compras.gov.br - Instruções Normativas SEGES sobre Dispensa Eletrônica e Procedimentos Auxiliares](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas)  
+  Acervo de atos normativos federais sobre cotação eletrônica de dispensa por pequeno valor, credenciamento e registro cadastral unificado.
+- [Lei Federal nº 12.232/2010 (Vedação de Contratação Direta e Pregão para Publicidade)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)  
+  Regramento especial dos serviços de publicidade governamental em harmonia com a vedação de inexigibilidade do art. 74, § 3º, da Lei 14.133/2021.
+* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 72 a 88 - Contratação Direta e Procedimentos Auxiliares).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 - Dispensa, Inexigibilidade de Licitação e Instrumentos Auxiliares na Lei 14.133/2021).
+* JACOBY FERNANDES, Jorge Ulisses. **Contratação Direta sem Licitação na Nova Lei de Licitações: Lei nº 14.133/2021**. 11. ed. Belo Horizonte: Fórum, 2022. (Cap. 2 a Cap. 5 - Inexigibilidade e Dispensa de Licitação).
 
 ---
 
