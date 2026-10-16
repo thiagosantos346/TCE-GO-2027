@@ -3,17 +3,22 @@
 """
 Gerador de Livros Digitais em Microsoft Word (.docx) - TCE-GO 2027
 Consolidação dos materiais de estudo com formatação ABNT e Design Editorial Didático.
+Inclui Transpiler Mermaid para HTML e injeção nativa via altChunk no OpenXML.
 """
 
 import os
 import re
 import glob
+import uuid
 import docx
 from docx.shared import Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
+from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.oxml import parse_xml, OxmlElement
 from docx.oxml.ns import nsdecls, qn
+from docx.opc.part import Part
+from docx.opc.packuri import PackURI
+from docx.opc.constants import RELATIONSHIP_TYPE
 
 # --- Paleta de Cores Editorial ---
 COLOR_PRIMARY_NAVY = RGBColor(0x1B, 0x36, 0x5D)     # Azul Marinho Real (#1B365D)
@@ -61,7 +66,6 @@ def configure_document_abnt(doc):
 
 def create_book_cover(doc, title, subtitle, area_label):
     """Gera uma capa editorial sofisticada e institucional na primeira página."""
-    # Espaçamento superior
     p_top = doc.add_paragraph()
     p_top.paragraph_format.space_before = Pt(72)
     p_top.paragraph_format.space_after = Pt(12)
@@ -128,6 +132,122 @@ def create_book_cover(doc, title, subtitle, area_label):
     r_bot2.font.color.rgb = COLOR_MUTED_GRAY
 
     doc.add_page_break()
+
+
+def inject_html_altchunk(doc, html_string):
+    """
+    Injeta código HTML puro diretamente no documento Word via altChunk (OpenXML).
+    O Microsoft Word e o Google Docs interpretam essa part e a convertem em blocos nativos editáveis.
+    """
+    part = doc.part
+    chunk_id = f'altChunk{uuid.uuid4().hex[:8]}'
+    partname = PackURI(f'/word/{chunk_id}.html')
+    alt_part = Part(
+        partname=partname,
+        content_type='text/html',
+        blob=html_string.encode('utf-8'),
+        package=part.package
+    )
+    part.package.parts.append(alt_part)
+    rel_id = part.relate_to(alt_part, RELATIONSHIP_TYPE.A_F_CHUNK)
+
+    # Injeta a tag <w:altChunk> no final do corpo XML do documento
+    alt_chunk = OxmlElement('w:altChunk')
+    alt_chunk.set(qn('r:id'), rel_id)
+    doc.element.body.append(alt_chunk)
+
+
+def transpile_mermaid_to_html(code_lines):
+    """
+    Transpiler Mermaid para HTML:
+    Lê o código do diagrama Mermaid, extrai nós e conexões, e gera HTML semântico com estilos
+    inline no padrão visual de livro didático de alta qualidade.
+    """
+    nodes = {}
+    edges = []
+
+    node_pattern = re.compile(
+        r'([a-zA-Z0-9_\-]+)\s*(?:\[\["?(.*?)"?\]\]|\["?(.*?)"?\]|\(\("?(.*?)"?\)\)|\("?([^)]*?)"?\)|\{"?([^}]*?)"?\})'
+    )
+    edge_pattern = re.compile(
+        r'([a-zA-Z0-9_\-]+)\s*(?:-->|-.->|---|===|==>)\s*(?:\|([^|]+)\|\s*)?([a-zA-Z0-9_\-]+)'
+    )
+
+    for line in code_lines:
+        line_clean = line.strip()
+        if not line_clean or line_clean.startswith(('flowchart', 'graph', 'sequenceDiagram', 'subgraph', 'end', '%%', 'classDef', 'style')):
+            continue
+
+        # Capturar nós declarados na linha
+        for nm in node_pattern.finditer(line_clean):
+            node_id = nm.group(1)
+            label = next((g for g in nm.groups()[1:] if g is not None), node_id).strip('"\'')
+            if node_id not in nodes or len(label) > len(nodes[node_id]):
+                nodes[node_id] = label
+
+        # Capturar conexões na linha
+        for em in edge_pattern.finditer(line_clean):
+            src, label, dst = em.groups()
+            edges.append((src, label.strip() if label else None, dst))
+
+    html_parts = [
+        '<!DOCTYPE html>',
+        '<html><head><meta charset="utf-8"></head><body>',
+        '<div style="width: 100%; margin: 16px auto; text-align: center; font-family: Arial, sans-serif;">',
+        '<div style="font-size: 8.5pt; font-family: Arial, sans-serif; font-weight: bold; color: #1E40AF; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">📊 FLUXOGRAMA CONCEITUAL</div>'
+    ]
+
+    if edges:
+        last_rendered_node = None
+        for src, label, dst in edges:
+            src_label = nodes.get(src, src).replace('\n', '<br/>')
+            dst_label = nodes.get(dst, dst).replace('\n', '<br/>')
+
+            # Renderizar nó de origem se não for o último exibido
+            if src != last_rendered_node:
+                html_parts.append(
+                    f'<div style="background-color: #EFF6FF; border: 2px solid #2563EB; padding: 10px 14px; text-align: center; font-family: Arial, sans-serif; border-radius: 5px; margin: 5px auto; width: 65%; color: #1E3A8A; font-weight: bold; font-size: 11pt; line-height: 1.3;">'
+                    f'{src_label}'
+                    f'</div>'
+                )
+
+            # Rótulo de condição e Seta
+            if label:
+                html_parts.append(
+                    f'<div style="text-align: center; margin: 3px auto;">'
+                    f'<span style="font-size: 9.5pt; font-family: Arial, sans-serif; color: #475569; font-weight: bold; background-color: #F1F5F9; border: 1px dashed #94A3B8; padding: 2px 8px; border-radius: 4px;">{label}</span>'
+                    f'</div>'
+                )
+
+            html_parts.append(
+                '<div style="text-align: center; font-size: 24px; color: #64748B; margin: 2px auto; line-height: 1;">⬇</div>'
+            )
+
+            # Renderizar nó de destino
+            html_parts.append(
+                f'<div style="background-color: #EFF6FF; border: 2px solid #2563EB; padding: 10px 14px; text-align: center; font-family: Arial, sans-serif; border-radius: 5px; margin: 5px auto; width: 65%; color: #1E3A8A; font-weight: bold; font-size: 11pt; line-height: 1.3;">'
+                f'{dst_label}'
+                f'</div>'
+            )
+            last_rendered_node = dst
+
+    elif nodes:
+        # Diagrama sem conexões explícitas: renderizar cartões sequenciais
+        node_items = list(nodes.items())
+        for idx, (nid, label) in enumerate(node_items):
+            clean_label = label.replace('\n', '<br/>')
+            html_parts.append(
+                f'<div style="background-color: #EFF6FF; border: 2px solid #2563EB; padding: 10px 14px; text-align: center; font-family: Arial, sans-serif; border-radius: 5px; margin: 5px auto; width: 65%; color: #1E3A8A; font-weight: bold; font-size: 11pt; line-height: 1.3;">'
+                f'{clean_label}'
+                f'</div>'
+            )
+            if idx < len(node_items) - 1:
+                html_parts.append(
+                    '<div style="text-align: center; font-size: 24px; color: #64748B; margin: 2px auto; line-height: 1;">⬇</div>'
+                )
+
+    html_parts.append('</div></body></html>')
+    return '\n'.join(html_parts)
 
 
 def add_formatted_runs(paragraph, text, default_size=Pt(12), default_color=None, default_bold=False, default_italic=False, default_font="Arial"):
@@ -238,23 +358,18 @@ def render_callout_box(doc, lines, box_type="alert"):
     cell = table.cell(0, 0)
     tcPr = cell._tc.get_or_add_tcPr()
 
-    # Selecionar cores
     if box_type == "alert":
         bg_hex = COLOR_ALERT_BG
         border_hex = COLOR_ALERT_BORDER
-        badge_color = RGBColor(0xB4, 0x53, 0x09)
     elif box_type == "dica":
         bg_hex = COLOR_DICA_BG
         border_hex = COLOR_DICA_BORDER
-        badge_color = RGBColor(0x1D, 0x4E, 0xD8)
     elif box_type == "note":
         bg_hex = COLOR_NOTE_BG
         border_hex = COLOR_NOTE_BORDER
-        badge_color = RGBColor(0x04, 0x78, 0x57)
     else:  # comment
         bg_hex = COLOR_COMMENT_BG
         border_hex = COLOR_COMMENT_BORDER
-        badge_color = COLOR_PRIMARY_NAVY
 
     # Shading (Fundo suave)
     shd = parse_xml(f'<w:shd {nsdecls("w")} w:fill="{bg_hex}"/>')
@@ -294,32 +409,28 @@ def render_callout_box(doc, lines, box_type="alert"):
         p.paragraph_format.space_before = Pt(2)
         p.paragraph_format.space_after = Pt(2)
 
-        # Destacar caso seja linha de Gabarito
         if "Gabarito:" in cleaned_line:
             p.paragraph_format.space_before = Pt(6)
             p.paragraph_format.space_after = Pt(4)
             add_formatted_runs(p, cleaned_line, default_size=Pt(11), default_color=COLOR_GABARITO, default_bold=True)
         elif cleaned_line.startswith("- **") or cleaned_line.startswith("* **"):
-            # Linha de alternativa justificada
             p.paragraph_format.left_indent = Cm(0.4)
             add_formatted_runs(p, cleaned_line, default_size=Pt(10.5), default_color=COLOR_TEXT_DARK)
         else:
             add_formatted_runs(p, cleaned_line, default_size=Pt(10.5), default_color=COLOR_TEXT_DARK)
 
-    # Espaçamento após o box
     p_spacer = doc.add_paragraph()
     p_spacer.paragraph_format.space_before = Pt(0)
     p_spacer.paragraph_format.space_after = Pt(6)
 
 
 def render_code_block(doc, lines, language=""):
-    """Renderiza blocos de código e diagramas estruturais (Mermaid/Text/Python)."""
+    """Renderiza blocos de código fonte (Python, SQL, JSON, etc.) em caixa monoespaçada."""
     table = doc.add_table(rows=1, cols=1)
     table.alignment = WD_TABLE_ALIGNMENT.CENTER
     cell = table.cell(0, 0)
     tcPr = cell._tc.get_or_add_tcPr()
 
-    # Fundo cinza suave e bordas sutis
     shd = parse_xml(f'<w:shd {nsdecls("w")} w:fill="F8FAFC"/>')
     tcPr.append(shd)
 
@@ -346,9 +457,7 @@ def render_code_block(doc, lines, language=""):
     p0.paragraph_format.space_before = Pt(0)
     p0.paragraph_format.space_after = Pt(4)
 
-    # Cabeçalho do bloco de código
-    badge_label = "📊 DIAGRAMA ESTRUTURAL (SINTAXE MERMAID)" if "mermaid" in language.lower() else "💻 CÓDIGO / SINTAXE ESTRUTURAL"
-    r_badge = p0.add_run(badge_label)
+    r_badge = p0.add_run(f"💻 CÓDIGO FONTE ({language.upper() if language else 'TEXT'})")
     r_badge.font.name = 'Consolas'
     r_badge.font.size = Pt(8.5)
     r_badge.bold = True
@@ -376,7 +485,6 @@ def render_markdown_table(doc, table_lines):
         if not line_clean.startswith('|'):
             continue
         cells = [c.strip() for c in line_clean.strip('|').split('|')]
-        # Ignorar linha divisória como | :--- | :--- |
         if all(re.match(r'^:?-+:?$', c) for c in cells if c):
             continue
         rows_data.append(cells)
@@ -385,7 +493,6 @@ def render_markdown_table(doc, table_lines):
         return
 
     num_cols = max(len(r) for r in rows_data)
-    # Equalizar número de colunas
     for r in rows_data:
         while len(r) < num_cols:
             r.append('')
@@ -400,7 +507,6 @@ def render_markdown_table(doc, table_lines):
         is_header = (row_idx == 0)
         table_row = table.rows[row_idx]
 
-        # Configurar cantos/linhas da tabela
         trPr = table_row._tr.get_or_add_trPr()
         trPr.append(parse_xml(f'<w:cantSplit {nsdecls("w")}/>'))
 
@@ -409,7 +515,6 @@ def render_markdown_table(doc, table_lines):
             cell.width = col_width
             tcPr = cell._tc.get_or_add_tcPr()
 
-            # Cor de fundo: Azul Marinho no Header, Zebra nas linhas pares
             if is_header:
                 shd = parse_xml(f'<w:shd {nsdecls("w")} w:fill="{COLOR_TABLE_HEADER_BG}"/>')
             elif row_idx % 2 == 0:
@@ -418,7 +523,6 @@ def render_markdown_table(doc, table_lines):
                 shd = parse_xml(f'<w:shd {nsdecls("w")} w:fill="FFFFFF"/>')
             tcPr.append(shd)
 
-            # Bordas discretas
             borders = parse_xml(
                 f'<w:tcBorders {nsdecls("w")}>'
                 f'<w:top w:val="single" w:sz="4" w:space="0" w:color="CBD5E1"/>'
@@ -428,7 +532,6 @@ def render_markdown_table(doc, table_lines):
             )
             tcPr.append(borders)
 
-            # Padding
             tcMar = parse_xml(
                 f'<w:tcMar {nsdecls("w")}>'
                 f'<w:top w:w="100" w:type="dxa"/><w:bottom w:w="100" w:type="dxa"/>'
@@ -483,7 +586,15 @@ def process_markdown_file(doc, file_path):
                 idx += 1
             if idx < total_lines:
                 idx += 1  # consome fechamento ```
-            render_code_block(doc, code_lines, language=lang)
+
+            if 'mermaid' in lang.lower():
+                # Transpila para HTML e injeta nativamente via altChunk
+                html_diagram = transpile_mermaid_to_html(code_lines)
+                inject_html_altchunk(doc, html_diagram)
+                p_sp = doc.add_paragraph()
+                p_sp.paragraph_format.space_after = Pt(6)
+            else:
+                render_code_block(doc, code_lines, language=lang)
             continue
 
         # 4. Tabelas Markdown
@@ -582,7 +693,6 @@ def process_markdown_file(doc, file_path):
             p.paragraph_format.space_before = Pt(1)
             p.paragraph_format.space_after = Pt(2)
 
-            # Marcador elegante
             r_bullet = p.add_run("• ")
             r_bullet.bold = True
             r_bullet.font.name = 'Arial'
@@ -640,7 +750,6 @@ def build_book(source_dir, output_filename, book_title, book_subtitle, area_labe
     configure_document_abnt(doc)
     create_book_cover(doc, book_title, book_subtitle, area_label)
 
-    # Obter todos os arquivos .md ordenados, ignorando READMEs e arquivos em resources
     files = sorted([
         f for f in glob.glob(os.path.join(source_dir, "**", "*.md"), recursive=True)
         if not os.path.basename(f).lower().startswith("readme")
@@ -653,7 +762,6 @@ def build_book(source_dir, output_filename, book_title, book_subtitle, area_labe
         print(f"  [{i:02d}/{len(files):02d}] Processando: {rel_path}")
         process_markdown_file(doc, file_path)
 
-    # Remover última quebra de página se existir
     doc.save(output_filename)
     file_size_mb = os.path.getsize(output_filename) / (1024 * 1024)
     print(f"✅ Livro gerado com sucesso: {output_filename} ({file_size_mb:.2f} MB)")

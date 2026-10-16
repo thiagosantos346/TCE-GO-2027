@@ -13,6 +13,7 @@ import sys
 import time
 import shutil
 import subprocess
+import uuid
 import markdown
 import pypdf
 
@@ -332,16 +333,45 @@ def remove_emojis_for_pdf(text):
     cleaned = re.sub(r'(?<=\S)[ \t]{2,}(?=\S)', ' ', cleaned)
     return cleaned
 
+def render_mermaid_to_svg(code):
+    """Renderiza código Mermaid para SVG via Mermaid CLI (mmdc)."""
+    uid = uuid.uuid4().hex[:8]
+    temp_mmd = f"temp_{uid}.mmd"
+    temp_svg = f"temp_{uid}.svg"
+    try:
+        with open(temp_mmd, "w", encoding="utf-8") as f:
+            f.write(code)
+        subprocess.run(
+            ["mmdc", "-i", temp_mmd, "-o", temp_svg, "-b", "transparent"],
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            shell=(sys.platform == "win32")
+        )
+        with open(temp_svg, "r", encoding="utf-8") as f:
+            svg_content = f.read()
+        return f'<div class="mermaid-svg-wrapper">\n{svg_content}\n</div>'
+    except Exception:
+        safe_code = code.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        return f'<pre class="mermaid">\n{safe_code}\n</pre>'
+    finally:
+        for tmp_file in (temp_mmd, temp_svg):
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except OSError:
+                    pass
+
 def process_markdown(raw_md):
     """Compila Markdown preservando blocos Mermaid, LaTeX matemático e envelopando questões."""
     text = remove_emojis_for_pdf(raw_md)
 
-    # 1. Proteger blocos de código Mermaid
+    # 1. Renderizar blocos Mermaid via CLI (mmdc) com fallback para <pre>
     mermaid_blocks = []
     def save_mermaid(m):
         code = m.group(1).strip()
-        safe_code = code.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-        mermaid_blocks.append(safe_code)
+        rendered = render_mermaid_to_svg(code)
+        mermaid_blocks.append(rendered)
         return f"@@@MERMAID_BLOCK_{len(mermaid_blocks)-1}@@@"
     text = re.sub(r'```mermaid(.*?)```', save_mermaid, text, flags=re.DOTALL)
 
@@ -391,18 +421,20 @@ def process_markdown(raw_md):
     text = re.sub(r'> \*\*ATENÇÃO(.*?):\*\*', r'> <strong class="alert-label warning">[ATENÇÃO\1]:</strong>', text)
     text = re.sub(r'> \*\*DICA(.*?):\*\*', r'> <strong class="alert-label tip">[DICA\1]:</strong>', text)
 
+    # Correção do achatamento das listas dentro dos blockquotes de comentários
+    text = re.sub(r'(>\s*\*\*Comentário Detalhado:\*\*\s*\n)(>\s*[-*]\s)', r'\1>\n\2', text)
+
     # 6. Compilar com Python Markdown
-    html = markdown.markdown(text, extensions=['extra', 'sane_lists'])
+    html = markdown.markdown(text, extensions=['extra', 'sane_lists', 'toc'])
 
     # 7. Restaurar blocos de matemática
     for i, mb in enumerate(math_blocks):
         html = html.replace(f"@@@MATH_BLOCK_{i}@@@", mb)
 
-    # 8. Restaurar blocos Mermaid encapsulados em container com dimensões controladas
-    for i, code in enumerate(mermaid_blocks):
-        block_html = f'<div class="mermaid-container"><pre class="mermaid">\n{code}\n</pre></div>'
-        html = html.replace(f"<p>@@@MERMAID_BLOCK_{i}@@@</p>", block_html)
-        html = html.replace(f"@@@MERMAID_BLOCK_{i}@@@", block_html)
+    # 8. Restaurar blocos Mermaid renderizados em SVG
+    for i, svg_html in enumerate(mermaid_blocks):
+        html = html.replace(f"<p>@@@MERMAID_BLOCK_{i}@@@</p>", svg_html)
+        html = html.replace(f"@@@MERMAID_BLOCK_{i}@@@", svg_html)
 
     # 9. Envelopamento das questões comentadas em .question-card (anti-quebra de página)
     pattern = r'(<h3>(?:<span[^>]*>)?Questão\s+\d+.*?)(?=(?:<h3>(?:<span[^>]*>)?Questão\s+\d+|<h2|<h1|\Z))'
