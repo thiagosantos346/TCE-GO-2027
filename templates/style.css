@@ -201,10 +201,17 @@ pre.mermaid {
     display: inline-block !important;
     margin: 0 auto !important;
     max-width: 100% !important;
-    max-height: 280px !important; /* Limite rigoroso: evita gráficos gigantes e quebra de páginas */
     width: auto;
     height: auto;
     vertical-align: middle;
+}
+
+.mermaid-svg-wrapper svg {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
 }
 
 /* Fórmulas KaTeX */
@@ -448,4 +455,13 @@ pre code {
     page-break-before: always;
     break-before: page;
 }
+
+@media print {
+    @page { size: A4; margin: 20mm; }
+    body { font-size: 11pt; background-color: #fff !important; }
+    .question-card, .mermaid-svg-wrapper, table, tr { page-break-inside: avoid; break-inside: avoid; }
+    h1, h2, h3 { page-break-after: avoid; break-after: avoid; }
+    * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+}
+
 
