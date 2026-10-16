@@ -221,13 +221,15 @@ Abordagem comportamentalista segundo a qual o comportamento é condicionado por 
 
 ### 6. Fontes Oficiais e Referências Bibliográficas
 
-* [ROBBINS, Stephen P.; JUDGE, Timothy A.; SOBRAL, Filipe. Comportamento Organizacional: teoria e prática no contexto brasileiro. 16ª Edição. Editora Pearson.](https://www.pearson.com).
-* [HERZBERG, Frederick. Mais uma vez: como você motiva seus funcionários? Harvard Business Review.](https://hbr.org).
-* [MASLOW, Abraham H. Motivação e Personalidade. Editora Harper & Row.](https://www.harpercollins.com).
-* [VROOM, Victor H. Gestão e Motivação. John Wiley & Sons.](https://www.wiley.com).
-* [LOCKE, Edwin A.; LATHAM, Gary P. A Theory of Goal Setting & Task Performance. Prentice-Hall.](https://www.pearson.com).
+* [Constituição Federal de 1988 - Arts. 37 a 41 (Regime dos Servidores e Princípios da Administração)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Direitos, estabilidade e regime de responsabilidade dos servidores públicos.
+* [Decreto Federal nº 1.171/1994 (Código de Ética Profissional do Servidor Público Civil)](https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm) - Padrões éticos, atitudes e valores esperados no exercício da função pública.
+* [Lei Estadual nº 20.756/2020 (Deveres e Regime Disciplinar dos Servidores de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Conduta ética, deveres funcionais e proibições aplicáveis aos servidores estaduais.
+* [TCE-GO - Código de Ética e Conduta dos Servidores](https://portal.tce.go.gov.br/documents/20181/574123/C%C3%B3digo+de+%C3%89tica/056863be-6768-4c35-a6e8-ccdd40421211) - Diretrizes deontológicas e compromisso com o interesse público no TCE-GO.
+* [Decreto Federal nº 9.991/2019 (Desenvolvimento de Pessoas e Motivação no Trabalho)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Valorização, crescimento profissional e incentivo à qualificação do servidor.
+* ROBBINS, Stephen P.; JUDGE, Timothy A.; SOBRAL, Filipe. **Comportamento Organizacional: Teoria e Prática no Contexto Brasileiro**. 14. ed. São Paulo: Pearson Prentice Hall, 2010. (Cap. 3 - Atitudes e Satisfação no Trabalho; Cap. 4 - Personalidade e Valores; Cap. 7 - Conceitos Básicos de Motivação).
+* CHIAVENATO, Idalberto. **Comportamento Organizacional: A Dinâmica do Sucesso das Organizações**. 4. ed. São Paulo: Atlas, 2021. (Cap. 3 - Personalidade e Atitudes; Cap. 5 - Teoria da Motivação: Maslow, Herzberg e McClelland).
+* HERZBERG, Frederick. **One More Time: How Do You Motivate Employees?**. Harvard Business Review, v. 46, n. 1, p. 53-62, 1968.
 
----
 
 ### 7. Questões de Concurso FCC Comentadas
 

@@ -247,16 +247,15 @@ A assinatura de um contrato de prestação de serviços continuados (ex.: segura
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
-- [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição (STN)](https://www.gov.br/tesouronacional/pt-br)
-    - Parte IV: Plano de Contas Aplicado ao Setor Público (PCASP).
-- [Secretaria do Tesouro Nacional (STN) - Tabela do PCASP Federativo](https://www.tesourotransparente.gov.br)
-    - Relação de contas padronizadas, notas explicativas e plano de contas estendido.
-- [Conselho Federal de Contabilidade - NBC TSP Estrutura Conceitual](https://cfc.org.br/)
-    - Postulados contábeis e integração dos sistemas contábeis.
-- [Lei Federal nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm)
-    - Normas orçamentárias gerais e estrutura de balanços.
+* [Tesouro Transparente - MCASP 11ª Edição (Parte IV - Plano de Contas Aplicado ao Setor Público - PCASP)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Estrutura de 8 classes de contas divididas em subsistemas: orçamentário (classes 5 e 6), patrimonial (classes 1, 2, 3 e 4) e de controle (classes 7 e 8).
+* [Tesouro Transparente - Tabela Oficial do PCASP e Lançamentos Padronizados](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Relação de contas com regras de débito e crédito nos atos potenciais ativos e passivos.
+* [Lei Federal nº 4.320/1964 - Da Escrituração Contábil (Arts. 83 a 89)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Disposições normativas gerais sobre as contas de registro e demonstrações.
+* [Decreto nº 10.540/2020 (SIAFIC e Plano de Contas Único)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10540.htm) - Unificação do plano de contas para todos os órgãos e poderes federativos.
+* [TCE-GO - Jurisdição e Consolidação Normativa de Contabilidade](https://portal.tce.go.gov.br/tce-juris/consolidacao-normativa) - Instruções do TCE-GO sobre escrituração e integração de dados de execução contábil.
+* BEZERRA FILHO, João Eudes. **Contabilidade Aplicada ao Setor Público: Teoria e Exercícios**. 3. ed. São Paulo: Atlas, 2021. (Cap. 5 - O Plano de Contas Aplicado ao Setor Público - PCASP; Cap. 6 - Lançamentos Contábeis Típicos).
+* MOTA, Francisco Glauber Lima. **Contabilidade Aplicada ao Setor Público**. 2. ed. Brasília: Gestão Pública, 2018. (Cap. 4 - Estrutura do PCASP e Partidas Dobradas nos Três Subsistemas).
+* KOHAMA, Heilio. **Contabilidade Pública: Teoria e Prática**. 15. ed. São Paulo: Atlas, 2016. (Cap. 5 - Plano de Contas e Escrituração).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC
 

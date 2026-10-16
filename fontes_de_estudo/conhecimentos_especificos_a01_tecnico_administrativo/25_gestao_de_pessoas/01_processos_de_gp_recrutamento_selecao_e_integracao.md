@@ -293,13 +293,15 @@ flowchart LR
 
 ### 7. Fontes Oficiais e Referências Bibliográficas
 
-* [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) - Art. 37 (Princípios da administração pública, concurso público e provimento de cargos).
-* [CHIAVENATO, Idalberto. Gestão de Pessoas: o novo papel dos recursos humanos nas organizações. 5ª Edição. Rio de Janeiro: GEN Atlas, 2020](https://www.grupogen.com.br).
-* [DUTRA, Joel Souza. Gestão de Pessoas: modelo, processos, tendências e perspectivas. 2ª Edição. São Paulo: Atlas, 2017](https://www.grupogen.com.br).
-* [ROBBINS, Stephen P.; JUDGE, Timothy A. Comportamento Organizacional. 18ª Edição. Pearson, 2020](https://www.pearson.com).
-* [Supremo Tribunal Federal - Tema 161 da Repercussão Geral (RE 598.099/MS)](https://portal.stf.jus.br) - Direito subjetivo à nomeação de candidato aprovado dentro do número de vagas.
+* [Constituição Federal de 1988 - Art. 37, II e IX (Concurso Público e Contratação)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Requisito obrigatório de prévia aprovação em concurso público de provas ou de provas e títulos.
+* [Lei Estadual nº 20.756/2020 - Título II (Do Provimento, Concurso e Posse)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Regras estaduais sobre edital de concurso, prazos de validade, nomeação, posse e exercício dos servidores goianos.
+* [Lei Estadual nº 15.122/2005 (Plano de Cargos e Carreira dos Servidores do TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/80023/lei-15122) - Atribuições, requisitos de ingresso e especialidades dos cargos efetivos do tribunal.
+* [STF Súmula Vinculante 13 (Vedação ao Nepotismo no Provimento)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=13) - Proíbe nomeação de cônjuge, companheiro ou parente até o terceiro grau para cargo em comissão ou função gratificada.
+* [Decreto Federal nº 9.991/2019 (Política de Ingresso e Dimensionamento da Força de Trabalho)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Metodologia de planejamento da força de trabalho e competências necessárias no setor público.
+* CHIAVENATO, Idalberto. **Gestão de Pessoas: O Novo Papel dos Recursos Humanos nas Organizações**. 5. ed. São Paulo: Atlas, 2020. (Cap. 4 - Recrutamento de Pessoas; Cap. 5 - Seleção de Pessoas; Cap. 6 - Socialização Organizacional).
+* MARRAS, Jean Pierre. **Administração de Recursos Humanos: Do Operacional ao Estratégico**. 15. ed. São Paulo: Saraiva, 2016. (Cap. 3 - Recrutamento e Seleção de Pessoal).
+* MEIRELLES, Hely Lopes. **Direito Administrativo Brasileiro**. 44. ed. São Paulo: Malheiros, 2020. (Cap. 8 - Servidores Públicos e Concurso Público).
 
----
 
 ### 8. Questões de Concurso FCC Comentadas
 

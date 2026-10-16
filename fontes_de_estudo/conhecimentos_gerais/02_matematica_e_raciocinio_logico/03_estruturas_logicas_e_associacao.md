@@ -203,9 +203,13 @@ A ementa do edital exige expressamente a *"avaliação das condições usadas pa
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Portal da Matemática OBMEP / IMPA - Lógica e Problemas de Associação](https://portaldaobmep.impa.br/) - Resoluções de desafios dedutivos e tabelas de pertinência pelo IMPA.
-* [Só Matemática - Raciocínio Lógico e Desafios de Associação](https://www.somatematica.com.br/soexercicios/raciocinio.php) - Exercícios clássicos com tabelas cruzadas e ordenação linear e circular.
-* [Iniciação à Lógica Matemática (Edgard de Alencar Filho)](https://www.obmep.org.br/) - Manual de fundamentação formal para deduções rigorosas e testes de consistência.
+* [Portal da Matemática OBMEP / IMPA - Noções de Lógica e Argumentação](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=1059) - Aulas do IMPA sobre princípios da lógica formal, tabelas-verdade, negações e proposições compostas.
+* [OBMEP / IMPA - Apostila 2 do PIC: Métodos de Contagem e Lógica](https://www.obmep.org.br/docs/apostila2.pdf) - Estratégias estruturadas de dedução, análise combinatória e diagramas de associação lógica.
+* [Khan Academy Brasil - Álgebra I: Lógica e Raciocínio Dedutivo](https://pt.khanacademy.org/math/algebra) - Resolução de quebra-cabeças lógicos, tabelas de contingência e modelagem dedutiva.
+* [OBMEP / IMPA - Apostila 8 do PIC: Raciocínio Geométrico e Estruturas Lógicas](https://www.obmep.org.br/docs/apostila8.pdf) - Modelos formais de pensamento estruturado e deduções axiomáticas em problemas lógicos.
+* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 3 e 4 - Proposições Compostas e Conectivos Lógicos).
+* COPI, Irving M. **Introdução à Lógica**. 2. ed. São Paulo: Mestre Jou, 1978. (Cap. 8 - Lógica Simbólica e Tabelas-Verdade).
+* MORTARI, Cezar A. **Introdução à Lógica**. 2. ed. São Paulo: Editora Unesp, 2016. (Cap. 5 e 6 - Sintaxe e Semântica do Cálculo Proposicional).
 
 ---
 

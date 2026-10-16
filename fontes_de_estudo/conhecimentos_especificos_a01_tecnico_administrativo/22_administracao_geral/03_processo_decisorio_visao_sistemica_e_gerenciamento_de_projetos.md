@@ -172,13 +172,15 @@ flowchart TD
 
 ### 5. Fontes Oficiais e Referências Bibliográficas
 
-* [MAXIMIANO, Antonio Cesar Amaru. Administração para Projetos: como transformar ideias em resultados. Editora Atlas.](https://www.grupogen.com.br).
-* [SIMON, Herbert A. Comportamento Administrativo: estudo dos processos decisórios nas organizações. FGV.](https://www.fgv.br).
-* [Project Management Institute (PMI) - Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK 7ª Edição)](https://www.pmi.org).
-* [KAST, Fremont E.; ROSENZWEIG, James E. Organização e Administração: um enfoque sistêmico e contingencial. Pioneira.](https://www.grupogen.com.br).
-* [CHIAVENATO, Idalberto. Teoria Geral da Administração: abordagens contemporâneas. Atlas.](https://www.grupogen.com.br).
+* [Scrum Guide 2020 Oficial (Português-BR)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Guia definitivo sobre tomada de decisão ágil, sprints e retrospectivas.
+* [Kanban Guide Oficial (English)](https://kanbanguides.org/english/) - Princípios de fluxo contínuo, limitação de trabalho em progresso (WIP) e feedback sistêmico.
+* [Decreto nº 9.203/2017 (Governança, Tomada de Decisão e Gestão de Riscos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Processo decisório baseado em evidências, gestão de riscos e controle interno.
+* [TCU - Governança e Tomada de Decisão Pública](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial para embasamento técnico de decisões administrativas complexas.
+* [TCE-GO - Plano de Fiscalização e Gestão de Projetos](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Alinhamento e monitoramento de projetos estratégicos de fiscalização.
+* SIMON, Herbert A. **Comportamento Administrativo: Estudo dos Processos Decisórios nas Organizações Administrativas**. 3. ed. Rio de Janeiro: FGV, 1979. (Cap. 4 e 5 - Racionalidade Limitada e Processo Decisório).
+* KERZNER, Harold. **Gestão de Projetos: As Melhores Práticas**. 3. ed. Porto Alegre: Bookman, 2011. (Cap. 1 - Princípios de Gerenciamento de Projetos; Cap. 11 - Controle e Monitoramento).
+* BERTALANFFY, Ludwig von. **Teoria Geral dos Sistemas: Fundamentos, Desenvolvimento e Aplicações**. 8. ed. Petrópolis: Vozes, 2015. (Cap. 2 - O Significado da Teoria Geral dos Sistemas).
 
----
 
 ### 6. Questões de Concurso FCC Comentadas
 

@@ -258,20 +258,17 @@ Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de p
 
 ---
 
-## 5. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [IETF RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels](https://datatracker.ietf.org/doc/html/rfc2119)  
-  Especificação normativa primordial da IETF formalizando as definições contratuais e técnicas de MUST, MUST NOT, SHOULD, SHOULD NOT e MAY.
-- [OpenAPI Specification (OAS) 3.1.0 Standard](https://spec.openapis.org/oas/v3.1.0)  
-  Documentação técnica oficial mantida pela Linux Foundation para especificação padronizada de APIs RESTful agnósticas.
-- [MDN Web Docs - HTTP Response Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)  
-  Guia completo da Mozilla catalogando a semântica de códigos de status das famílias 2xx, 4xx e 5xx e cabeçalhos de controle HTTP.
-- [Prof. S. Keshav - "How to Read a Paper"](http://ccr.sigcomm.org/online/files/p83-keshav.pdf)  
-  Publicação clássica do ACM SIGCOMM detalhando o método de leitura eficiente em três passadas (*three-pass method*).
-- [Kubernetes Documentation - Concepts and Architecture](https://kubernetes.io/docs/concepts/)  
-  Manual oficial da CNCF que serve de modelo para formulação de questões práticas de infraestrutura e orquestração.
+* [OpenAPI Specification 3.1.0 Official Documentation](https://spec.openapis.org/oas/v3.1.0) - Padrão de especificação formal em inglês para modelagem e consumo de interfaces RESTful.
+* [IETF RFC 9110 - HTTP Semantics and Status Codes](https://datatracker.ietf.org/doc/html/rfc9110) - Norma de referência global em inglês para semântica de métodos, cabeçalhos e respostas de APIs na Web.
+* [Docker Official Documentation - Dockerfile Reference (English)](https://docs.docker.com/reference/dockerfile/) - Manual técnico oficial para interpretação de comandos, sintaxe declarativa e boas práticas de containers.
+* [Kubernetes Official Concepts - Pods and Workloads (English)](https://kubernetes.io/docs/concepts/workloads/pods/) - Documentação técnica primária em inglês para interpretação de especificações YAML e orquestração de microsserviços.
+* [Google Technical Writing Courses - Organizing Complex Documents](https://developers.google.com/tech-writing/two) - Melhores práticas para leitura crítica e estruturação de manuais técnicos de arquitetura e APIs.
+* SWALES, John M.; FEAK, Christine B. **Academic Writing for Graduate Students: Essential Tasks and Skills**. 3. ed. Ann Arbor: University of Michigan Press, 2012. (Unit 3 - Reading and Writing Technical Instructions).
+* GLENDINNING, Eric H.; MCEWAN, John. **Oxford English for Information Technology**. 2. ed. Oxford: Oxford University Press, 2006. (Units 20 to 25 - Reading Technical Manuals and System Specifications).
+* HEWINGS, Martin. **Advanced Grammar in Use**. 3. ed. Cambridge: Cambridge University Press, 2013. (Units 80 to 85 - Complex Sentences and Technical Documentation Structures).
 
----
 
 ## 6. Questões Comentadas & Exemplos (Padrão FCC)
 

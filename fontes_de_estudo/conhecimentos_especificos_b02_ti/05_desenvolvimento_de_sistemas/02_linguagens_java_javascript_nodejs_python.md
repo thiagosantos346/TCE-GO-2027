@@ -760,10 +760,13 @@ def obter_processo(id):
 
 ## 6. Fontes Recomendadas na Internet
 
-- [The Java Tutorials (Oracle Docs)](https://docs.oracle.com/javase/tutorial/): Guia oficial e abrangente da arquitetura Java, Collections Framework (`List`, `Set`, `Map`), tratamento de exceções com `try-with-resources` e orientação a objetos.
-- [MDN Web Docs - JavaScript Guide](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide): Referência definitiva sobre declaração de variáveis (`let`, `const`, `var`), Promises, async/await, closures e modelo de concorrência com Event Loop.
-- [Node.js Official Documentation - Asynchronous Work & Event Loop](https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick): Descrição profunda da arquitetura libuv, Call Stack, Microtasks (`process.nextTick`, `Promise`) e Macrotasks (`setTimeout`).
-- [Tutorial Oficial de Python 3 (Python.org Docs)](https://docs.python.org/pt-br/3/tutorial/index.html): Documentação oficial cobrindo tipagem, estruturas de dados (`list`, `tuple`, `dict`, `set`), list comprehensions, gerenciadores de contexto (`with`) e exceções.
+* [Oracle Java Documentation - Streams and Functional Programming](https://docs.oracle.com/javase/tutorial/collections/streams/index.html) - Operações intermediárias e terminais da API Stream, expressões lambda e paralelismo.
+* [MDN Web Docs - JavaScript Guide: The Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop) - Modelo de concorrência, Call Stack, Task Queue, Microtask Queue e execução assíncrona.
+* [Python Official Documentation - Classes, Metaclasses e POO](https://docs.python.org/pt-br/3/tutorial/classes.html) - Escopos, namespaces, herança simples e múltipla e métodos mágicos em Python.
+* [Python Official Documentation - Typing and Static Type Hints](https://docs.python.org/pt-br/3/library/typing.html) - Sistema de anotação e checagem estática de tipos em Python.
+* BLOCH, Joshua. **Effective Java**. 3. ed. Boston: Addison-Wesley, 2018. (Cap. 4 - Classes and Interfaces; Cap. 7 - Lambdas and Streams).
+* FLANAGAN, David. **JavaScript: O Guia Definitivo**. 7. ed. Porto Alegre: Bookman, 2021. (Cap. 13 - JavaScript Assíncrono; Cap. 14 - Metaprogramação).
+* RAMALHO, Luciano. **Python Fluente: Programação Clara, Concisa e Eficaz**. 2. ed. São Paulo: Novatec, 2023. (Cap. 8 - Dicas de Tipos em Funções; Cap. 14 - Herança e Métodos Especiais).
 
 ---
 

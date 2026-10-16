@@ -263,23 +263,16 @@ flowchart TD
 
 ---
 
-## 4. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-#### 1. Projetos Oficiais da Fundação OWASP
-- [OWASP Top 10:2021 — Web Application Security Risks (Official Release)](https://owasp.org/Top10/): Documentação oficial do projeto de referência mundial classificando as 10 vulnerabilidades mais críticas em aplicações web, encabeçadas por *A01: Broken Access Control*, *A02: Cryptographic Failures* e *A03: Injection*.
-- [OWASP Cheat Sheet Series — Index of Security Guides](https://cheatsheetseries.owasp.org/index.html): Coleção oficial de guias práticos de arquitetura e codificação segura cobrindo segurança em REST APIs (mitigação de BOLA e Mass Assignment), Docker/Kubernetes hardening e CI/CD seguro.
-- [OWASP Cheat Sheet Series - SQL Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html): Guia canônico de codificação segura com exemplos práticos de uso de consultas parametrizadas (*Prepared Statements* com *bind variables*).
+* [OWASP Top 10:2021 Official](https://owasp.org/Top10/) - Documentação oficial dos 10 riscos mais críticos em aplicações web.
+* [OWASP API Security Top 10](https://owasp.org/API-Security/) - Classificação oficial de riscos de segurança voltados a interfaces de programação (APIs).
+* [OWASP REST Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html) - Guia oficial de mitigação e análise de vulnerabilidades em serviços RESTful.
+* [OWASP Vulnerable Dependency Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerable_Dependency_Management_Cheat_Sheet.html) - Guia oficial de mitigação e análise de componentes vulneráveis de terceiros (SCA).
+* [NIST SP 800-218 - Secure Software Development Framework (SSDF) Version 1.1](https://csrc.nist.gov/pubs/sp/800/218/final) - Framework oficial do NIST para integração de práticas de segurança no ciclo de desenvolvimento de software (DevSecOps).
+* MCGRAW, Gary. **Software Security: Building Security In**. Boston: Addison-Wesley Professional, 2006. (Cap. 1 a 5 - Práticas de Engenharia de Segurança de Software).
+* KIM, Gene; HUMBLE, Jez; DEBOIS, Patrick; WILLIS, John. **Manual de DevOps: Como Obter Agilidade, Confiabilidade e Segurança em Organizações Tecnológicas**. Rio de Janeiro: Alta Books, 2018. (Parte IV - Integrando Segurança da Informação, Controle de Mudança e Conformidade).
 
-#### 2. Normas de Desenvolvimento Seguro
-- [NIST Special Publication 800-218 - Secure Software Development Framework (SSDF)](https://csrc.nist.gov/pubs/sp/800/218/final): Framework oficial para integrar práticas seguras em todas as fases do ciclo de vida de desenvolvimento de software (DevSecOps, testes SAST/DAST/SCA e cultura *Shift-Left*).
-- [Center for Internet Security (CIS) Docker & Kubernetes Benchmarks](https://www.cisecurity.org/cis-benchmarks): Diretrizes técnicas de hardening para ambientes de contêineres, execução não-root, imagens mínimas e orquestradores em nuvem.
-
-#### 3. Referências Bibliográficas Clássicas (Padrão ABNT)
-* SHOSTACK, Adam. **Threat Modeling: Designing for Security**. Indianapolis: Wiley, 2014. (Cap. 3 — Metodologia STRIDE para Modelagem de Ameaças no Ciclo de Desenvolvimento).
-* STUTTARD, Dafydd; PINTO, Marcus. **The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws**. 2. ed. Indianapolis: Wiley, 2011. (Cap. 8, 9 e 12 — Controles de Acesso, Injeções de Código SQLi e Cross-Site Scripting XSS).
-* KIM, Gene et al. **Manual de DevOps: Como Obter Agilidade, Confiabilidade e Segurança em Organizações Tecnológicas**. Rio de Janeiro: Alta Books, 2018. (Parte V — Integração da Segurança da Informação na Esteira de Entrega Contínua e DevSecOps).
-
----
 
 ## 5. Questões Comentadas & Exemplos Práticos
 

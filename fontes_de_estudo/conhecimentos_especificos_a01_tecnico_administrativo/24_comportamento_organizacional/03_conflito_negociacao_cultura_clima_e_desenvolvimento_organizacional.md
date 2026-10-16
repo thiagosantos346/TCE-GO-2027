@@ -188,13 +188,15 @@ flowchart LR
 
 ### 7. Fontes Oficiais e Referências Bibliográficas
 
-* [SCHEIN, Edgar H. Cultura Organizacional e Liderança. Editora Atlas.](https://www.grupogen.com.br) - A teoria dos três níveis da cultura.
-* [LEWIN, Kurt. Teoria de Campo em Ciência Social. Pioneira Thomson Learning.](https://www.grupogen.com.br) - Modelo de mudança planejada.
-* [ROBBINS, Stephen P.; JUDGE, Timothy A. Comportamento Organizacional. Pearson.](https://www.pearson.com) - Conflitos, negociação e cultura.
-* [FISHER, Roger; URY, William; PATTON, Bruce. Como Chegar ao Sim: a negociação baseada em princípios. Editora Sextante.](https://www.sextante.com.br).
-* [THOMAS, Kenneth W.; KILMANN, Ralph H. Conflict Mode Instrument (TKI)](https://kilmanndiagnostics.com) - Estilos de conflito.
+* [Lei nº 13.140/2015 (Lei de Mediação e Autocomposição de Conflitos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13140.htm) - Disciplina a autocomposição e negociação consensual de conflitos no âmbito da administração pública.
+* [Decreto Federal nº 1.171/1994 (Conduta Ética e Clima Organizacional)](https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm) - Prevenção de assédio, preservação do clima de trabalho harmonioso e zelo funcional.
+* [TCE-GO - Código de Ética e Ouvidoria Institucional](https://portal.tce.go.gov.br/documents/20181/574123/C%C3%B3digo+de+%C3%89tica/056863be-6768-4c35-a6e8-ccdd40421211) - Canais de denúncia, ouvidoria e mecanismos de mediação interna no TCE-GO.
+* [TCU - Governança Institucional e Gestão do Clima Ético](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial para mitigação de conflitos e fomento à cultura de integridade pública.
+* [Lei Estadual nº 20.756/2020 (Comissões Disciplinares e Soluções Consensuais)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Termos de ajustamento de conduta funcional (TAC) e resolução de pendências disciplinares em Goiás.
+* ROBBINS, Stephen P.; JUDGE, Timothy A.; SOBRAL, Filipe. **Comportamento Organizacional: Teoria e Prática no Contexto Brasileiro**. 14. ed. São Paulo: Pearson Prentice Hall, 2010. (Cap. 14 - Conflito e Negociação; Cap. 16 - Cultura Organizacional; Cap. 18 - Mudança Organizacional).
+* SCHEIN, Edgar H. **Cultura Organizacional e Liderança**. São Paulo: Atlas, 2009. (Cap. 1 e 2 - Os Níveis da Cultura Organizacional: Artefatos, Crenças e Pressupostos Básicos).
+* FISHER, Roger; URY, William; PATTON, Bruce. **Como Chegar ao Sim: A Negociação de Acordos sem Concessões**. 3. ed. Rio de Janeiro: Imago, 2005. (Cap. 1 a 3 - Negociação Baseada em Princípios).
 
----
 
 ### 8. Questões de Concurso FCC Comentadas
 

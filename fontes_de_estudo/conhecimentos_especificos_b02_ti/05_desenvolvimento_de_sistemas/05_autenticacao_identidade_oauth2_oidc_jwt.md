@@ -333,11 +333,14 @@ flowchart TD
 
 ## 6. Fontes Recomendadas na Internet
 
-- [RFC 7519 - JSON Web Token (JWT) - IETF](https://datatracker.ietf.org/doc/html/rfc7519): Especificação oficial canônica detalhando as claims registradas, serialização compacta e regras de processamento.
-- [RFC 6749 - OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749): Norma regulamentadora dos papéis, grant types e ciclo de vida dos tokens.
-- [RFC 7636 - PKCE for OAuth 2.0](https://datatracker.ietf.org/doc/html/rfc7636): Especificação do mecanismo de proteção para aplicações públicas SPAs e Mobile.
-- [OpenID Connect Core 1.0 Specification](https://openid.net/specs/openid-connect-core-1_0.html): Documento normativo oficial definindo a camada de identidade, o ID Token e o fluxo de autenticação.
-- [OAuth 2.0 Simplified (Aaron Parecki / Okta)](https://oauth.net/2/): Referência prática amplamente reconhecida na indústria de software sobre fluxos contemporâneos e deprecações do OAuth 2.1.
+* [IETF - RFC 6749: The OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749) - Papéis, fluxos de autorização (Authorization Code, Client Credentials, Refresh Token).
+* [IETF - RFC 7636: Proof Key for Code Exchange (PKCE)](https://datatracker.ietf.org/doc/html/rfc7636) - Proteção contra interceptação de código de autorização em clientes públicos.
+* [IETF - RFC 7519: JSON Web Token (JWT)](https://datatracker.ietf.org/doc/html/rfc7519) - Estrutura compacta base64url (Header, Payload, Signature) e claims registradas.
+* [OpenID Connect Core 1.0 Specification](https://openid.net/specs/openid-connect-core-1_0.html) - Camada de identidade sobre OAuth 2.0 e ID Token assinado.
+* [NIST SP 800-63B - Digital Identity Guidelines: Authentication](https://pages.nist.gov/800-63-3/sp800-63b.html) - Diretrizes oficiais do NIST para autenticação e gestão do ciclo de vida de tokens.
+* HARDT, Dick (Ed.). **The OAuth 2.0 Authorization Protocol**. RFC 6749, Internet Engineering Task Force (IETF), 2012.
+* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson, 2018. (Cap. 13 - Autenticação de Usuário e Protocolos de Identidade).
+* CHESWICK, William R.; BELLOVIN, Steven M.; RUBIN, Aviel D. **Firewalls e Segurança na Internet**. 2. ed. Porto Alegre: Bookman, 2005. (Cap. 7 - Autenticação Distribuída e Tokens).
 
 ---
 

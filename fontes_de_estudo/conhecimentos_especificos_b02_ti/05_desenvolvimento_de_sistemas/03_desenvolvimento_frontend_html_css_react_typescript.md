@@ -540,10 +540,15 @@ const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
 
 ## 5. Fontes Recomendadas na Internet
 
-- [React Learn & Official Documentation (Meta)](https://react.dev/): Portal oficial com guias interativos sobre componentes funcionais, Hooks (`useState`, `useEffect`, `useContext`, `useMemo`), ciclo de vida e princípios de arquitetura.
-- [TypeScript Handbook Oficial (Microsoft)](https://www.typescriptlang.org/docs/handbook/intro.html): Referência oficial do sistema de tipos estático, interfaces, type aliases, generics e catálogo detalhado de Utility Types.
-- [MDN Web Docs - HTML Semântico & Guia CSS](https://developer.mozilla.org/pt-BR/docs/Web/HTML): Manuais detalhados sobre marcação semântica, formulários, Box Model, Flexbox, CSS Grid e cascata.
-- [W3C Web Accessibility Initiative (WAI / WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/): Documentação oficial sobre conformidade de acessibilidade digital, atributos WAI-ARIA e melhores práticas de inclusão governamental.
+* [React Official Documentation - Learn React](https://react.dev/learn) - Fundamentos de componentes declarativos, props, JSX, Virtual DOM e reconciliação.
+* [React Official Documentation - Built-in React Hooks](https://react.dev/reference/react/hooks) - Especificação detalhada de useState, useEffect, useContext, useReducer, useMemo e useCallback.
+* [TypeScript Official Handbook - TypeScript for JavaScript Programmers](https://www.typescriptlang.org/docs/handbook/intro.html) - Sistema de tipos estático, interfaces, type aliases, union types e type narrowing.
+* [TypeScript Official Handbook - Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html) - Catálogo de Partial, Required, Readonly, Pick, Omit e Record.
+* [MDN Web Docs - HTML Semântico e Estruturação Web](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Elementos estruturais e semântica de marcação moderna.
+* [MDN Web Docs - CSS Layout: Flexbox e Grid](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/CSS_layout) - Posicionamento bidimensional com CSS Grid e unidimensional com Flexbox.
+* BANKS, Alex; PORCELLO, Eve. **React Aprenda Praticando: Construindo Aplicações Web com React e Redux**. São Paulo: Novatec, 2021. (Cap. 4 a 6 - Estado, Hooks e Renderização).
+* CHERNY, Boris. **TypeScript Essencial: Acelerando o Desenvolvimento JavaScript**. São Paulo: Novatec, 2020. (Cap. 3 e 4 - Tipagem Estática e Funções).
+* KEITH, Jeremy; ANDREW, Rachel. **HTML5 para Designers Web**. São Paulo: Bookman, 2011. (Cap. 3 - Marcação Semântica Estruturada).
 
 ---
 

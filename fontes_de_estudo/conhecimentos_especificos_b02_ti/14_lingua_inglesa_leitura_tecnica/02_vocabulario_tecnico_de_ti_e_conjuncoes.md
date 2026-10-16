@@ -254,20 +254,17 @@ flowchart RL
 
 ---
 
-## 4. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [Gartner Information Technology (IT) Glossary](https://www.gartner.com/en/information-technology/glossary)  
-  Glossário oficial de referência da Gartner contendo definições técnicas padronizadas sobre computação em nuvem, microsserviços, governança e segurança.
-- [NIST CSRC Glossary - Computer Security Resource Center](https://csrc.nist.gov/glossary)  
-  Compêndio oficial do governo dos Estados Unidos (NIST) com a padronização terminológica internacional de cibersegurança (*tampering, vulnerability, breach, spoofing*).
-- [IETF RFC 4949 - Internet Security Glossary, Version 2](https://datatracker.ietf.org/doc/html/rfc4949)  
-  Documento normativo primário da Internet Engineering Task Force para termos de segurança de redes e criptografia.
-- [Cambridge Grammar - Linking Words and Discourse Markers](https://dictionary.cambridge.org/grammar/british-grammar/linking-words-and-expressions)  
-  Guia detalhado sobre marcadores discursivos, conectivos lógicos e regras de sintaxe para relações de contraste, concessão, causa e condição.
-- [Oxford Learner's Dictionaries - Academic and Technical Lexicon](https://www.oxfordlearnersdictionaries.com/)  
-  Dicionário acadêmico de vanguarda contendo regras de afixação morfológica (prefixos e sufixos técnicos em inglês).
+* [IETF RFC 2119 - Requirement Levels Vocabulary](https://datatracker.ietf.org/doc/html/rfc2119) - Especificação padrão do vocabulário mandatório e condicional em especificações internacionais de tecnologia.
+* [MDN Web Docs - Glossary of Web Terms](https://developer.mozilla.org/en-US/docs/Glossary) - Glossário oficial e terminologia primária de engenharia web, redes e desenvolvimento de software.
+* [OpenAPI Specification 3.1.0 (English)](https://spec.openapis.org/oas/v3.1.0) - Especificação técnica formal em inglês ideal para identificação de conectivos, sufixos, prefixos e vocabulário técnico de APIs.
+* [PostgreSQL 17 Official Documentation - Architecture Fundamentals](https://www.postgresql.org/docs/current/overview.html) - Manual técnico avançado em inglês com vocabulário de persistência, índices e concorrência.
+* [Google Technical Writing Courses - Clarifying Ambiguities](https://developers.google.com/tech-writing/one/words) - Guia de precisão lexical, conectivos lógicos e eliminação de ambiguidades em documentação técnica.
+* HEWINGS, Martin. **Advanced Grammar in Use**. 3. ed. Cambridge: Cambridge University Press, 2013. (Units 71 to 78 - Linking Words and Conjunctions: Reason, Purpose, Contrast and Condition).
+* MURPHY, Raymond. **English Grammar in Use**. 5. ed. Cambridge: Cambridge University Press, 2019. (Units 113 to 120 - Conjunctions and Prepositions: Although, In Spite Of, Unless, As Long As).
+* GLENDINNING, Eric H.; MCEWAN, John. **Oxford English for Information Technology**. 2. ed. Oxford: Oxford University Press, 2006. (Units 10 to 15 - Software Engineering Vocabulary and Connectors).
 
----
 
 ## 5. Questões Comentadas & Exemplos (Padrão FCC)
 

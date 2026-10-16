@@ -217,16 +217,15 @@ flowchart TD
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
-- [Lei Federal nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm)
-    - Arts. 58 a 65 (Estágios da Despesa), Art. 36 (Restos a Pagar), Art. 37 (DEA) e Art. 68 (Suprimento de Fundos).
-- [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição (STN)](https://www.gov.br/tesouronacional/pt-br)
-    - Parte I: Procedimentos Contábeis Orçamentários - Despesa e Grupos de Natureza.
-- [Decreto Federal nº 93.872/1986](https://www.planalto.gov.br/ccivil_03/decreto/d93872.htm)
-    - Arts. 45 a 47 (Regime de Suprimento de Fundos) e Arts. 67 a 71 (Restos a Pagar).
-- [Decreto Estadual de Goiás nº 9.697/2020](https://legisla.casacivil.go.gov.br)
-    - Regulamentação da execução orçamentária e suprimento de fundos no Estado de Goiás.
+* [Lei Federal nº 4.320/1964 - Dos Estágios da Despesa Pública](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Disciplina formal do empenho (ordinário, estimativo e global), liquidação e ordem de pagamento.
+* [Decreto nº 93.872/1986 (Regulamentação de Despesas, Restos a Pagar e DEA)](https://www.planalto.gov.br/ccivil_03/decreto/d93872.htm) - Regras operacionais para Restos a Pagar Processados/Não Processados, Despesas de Exercícios Anteriores e Suprimento de Fundos.
+* [Lei Complementar nº 101/2000 - Da Geração e Controle da Despesa Pública](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm) - Condições prévias para geração de despesa, estimativa de impacto orçamentário-financeiro e art. 42 (inscrição em restos a pagar no último ano de mandato).
+* [Tesouro Transparente - MCASP 11ª Edição (Despesa Orçamentária)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Classificação orçamentária por estrutura programática, natureza da despesa e regras de restos a pagar.
+* [Constituição do Estado de Goiás - Da Fiscalização da Despesa Estadual](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Fiscalização contábil da conformidade das despesas efetuadas pelos órgãos dos três Poderes.
+* GIACOMONI, James. **Orçamento Público**. 18. ed. São Paulo: Atlas, 2021. (Cap. 9 - A Despesa Pública: Classificações, Estágios e Restos a Pagar).
+* PALUDO, Augustinho. **Orçamento Público, AFO e LRF**. 11. ed. Salvador: JusPodivm, 2022. (Cap. 6 - Despesa Pública e Suprimento de Fundos).
+* FEIJÓ, Paulo Henrique et al. **Curso de Contabilidade Aplicada ao Setor Público**. 8. ed. Brasília: Gestão Pública, 2022. (Cap. 4 - Execução da Despesa e Regime Contábil).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC
 

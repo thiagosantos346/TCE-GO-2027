@@ -206,16 +206,15 @@ flowchart TD
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 
-- [Constituição Federal de 1988 - Artigos 44 a 75 (Poder Legislativo e Fiscalização Contábil)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art44)
-    - Estrutura completa do Congresso Nacional, processo legislativo e competências dos Tribunais de Contas.
-- [Supremo Tribunal Federal - Tema 835 de Repercussão Geral (Julgamento das Contas de Prefeito)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=835)
-    - Competência da Câmara de Vereadores para julgamento de contas de gestão e de governo do Chefe do Executivo municipal.
-- [Supremo Tribunal Federal - Tema 899 de Repercussão Geral (Prescritibilidade da Execução de Decisões do TC)](https://portal.stf.jus.br/)
-    - Fixação do prazo quinquenal para cobrança de títulos executivos extrajudiciais oriundos de Tribunais de Contas.
-- [Supremo Tribunal Federal - Tema 445 de Repercussão Geral (Prazo Decadencial de Aposentadoria no TC)](https://portal.stf.jus.br/)
-    - Prazo de 5 anos para que o Tribunal de Contas aprecie a legalidade do ato concessivo de aposentadoria ou pensão.
+* [Constituição Federal de 1988 - Arts. 44 a 69 (Poder Legislativo e Processo Legislativo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art44) - Estrutura bicameral, imunidades parlamentares, espécies normativas (emendas, leis complementares, ordinárias, delegadas, medidas provisórias).
+* [Constituição Federal de 1988 - Arts. 70 a 75 (Fiscalização Contábil, Financeira e Orçamentária)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art70) - Princípio da simetria constitucional, competências institucionais do Tribunal de Contas da União e aplicabilidade aos Tribunais de Contas Estaduais.
+* [Constituição do Estado de Goiás - Arts. 26 a 33 (Fiscalização Contábil, Financeira e TCE-GO)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Dispositivos que instituem as competências de controle externo do Tribunal de Contas do Estado de Goiás.
+* [STF Súmula 347 (Apreciação da Constitucionalidade das Leis pelo TC)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumula.asp?seq=347) - Súmula histórica do STF sobre a competência dos Tribunais de Contas para apreciar a constitucionalidade de leis e atos normativos no exercício do controle.
+* [STF Súmula Vinculante 3 (Contraditório e Ampla Defesa no TC)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=3) - Garante o contraditório nos processos dos Tribunais de Contas que resultem em anulação ou revogação de ato administrativo benéfico.
+* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 10 - O Poder Legislativo; Cap. 11 - O Processo Legislativo).
+* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 2 - O Controle Externo na Constituição Federal de 1988).
+* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 2 - A Competência Constitucional dos Tribunais de Contas).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
 

@@ -278,20 +278,15 @@ A Constituição Federal estabelece: **"É VEDADA a cassação de direitos polí
 
 ## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 
-- [Constituição Federal de 1988 - Título II (Direitos e Garantias Fundamentais)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art5)
-    - Texto compilado dos artigos 5º ao 17.
-- [Emenda Constitucional nº 131/2023](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc131.htm)
-    - Altera o art. 12 da Constituição Federal para suprimir a perda automática da nacionalidade brasileira por naturalização voluntária.
-- [Lei Federal nº 12.016/2009 (Disciplina o Mandado de Segurança)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm)
-    - Regula o procedimento do MS individual e coletivo.
-- [Lei Federal nº 13.300/2016 (Lei do Mandado de Injunção)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13300.htm)
-    - Regras procedimentais, efeitos da decisão e mandado de injunção coletivo.
-- [Lei Federal nº 4.717/1965 (Lei da Ação Popular)](https://www.planalto.gov.br/ccivil_03/leis/l4717.htm)
-    - Regulação dos requisitos e condições da Ação Popular.
-- [Supremo Tribunal Federal - Súmula Vinculante nº 18](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=18)
-    - Jurisprudência vinculante sobre a inelegibilidade reflexa e dissolução do vínculo conjugal.
+* [Constituição Federal de 1988 - Art. 5º (Direitos e Deveres Individuais e Coletivos)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art5) - Catálogo fundamental de direitos, garantias constitucionais e remédios constitucionais (Habeas Corpus, Mandado de Segurança, etc.).
+* [Constituição Federal de 1988 - Arts. 6º a 11 (Direitos Sociais)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art6) - Direitos à educação, saúde, trabalho, segurança e previdência social.
+* [Constituição Federal de 1988 - Arts. 14 a 17 (Direitos Políticos e Partidos Políticos)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art14) - Soberania popular, sufrágio universal, condições de elegibilidade e inelegibilidades constitucionais.
+* [Lei nº 12.016/2009 (Lei do Mandado de Segurança)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm) - Disciplina o mandado de segurança individual e coletivo para proteção de direito líquido e certo.
+* [Lei nº 12.527/2011 (Lei de Acesso à Informação - LAI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm) - Regulamenta o direito constitucional de acesso a informações públicas previsto no art. 5º, XXXIII da CF/88.
+* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 5 - Direitos Individuais; Cap. 7 - Direitos Políticos).
+* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 2 - Direitos e Garantias Fundamentais; Cap. 3 - Remédios Constitucionais).
+* SARLET, Ingo Wolfgang. **A Eficácia dos Direitos Fundamentais: Uma Teoria Geral dos Direitos Fundamentais na Perspectiva Constitucional**. 13. ed. Porto Alegre: Livraria do Advogado, 2018. (Cap. 4 - As Dimensões dos Direitos Fundamentais).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
 

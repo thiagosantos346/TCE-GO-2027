@@ -205,19 +205,17 @@ A ENGD 2024–2027 estrutura a evolução digital do país em três pilares fund
 
 ---
 
-## 3. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [x] **Decreto Federal nº 12.069/2024 - Estratégia Nacional de Governo Digital (ENGD 2024–2027):**
-    - Link Oficial: [Texto Integral do Decreto nº 12.069/2024 no Portal do Planalto](http://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12069.htm)
-    - *Conteúdo:* Diretrizes para a transformação digital federativa, princípios de inclusão, eixos estratégicos, governança e serviços públicos proativos.
-- [x] **Lei Federal nº 14.129/2021 - Lei do Governo Digital (Portal do Planalto):**
-    - Link Oficial: [Texto Integral e Compilado da Lei nº 14.129/2021](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm)
-    - *Conteúdo:* Princípios da digitalização, identificação do cidadão, desburocratização, interoperabilidade de bases de dados e transparência ativa.
-- [x] **Portal Oficial da Estratégia Nacional de Governo Digital (Ministério da Gestão e Inovação):**
-    - Link Oficial: [ENGD 2024-2027 no Portal Gov.br](https://www.gov.br/governodigital/pt-br/estrategia-nacional-de-governo-digital)
-    - *Conteúdo:* Guias práticos de implementação para estados e municípios, catálogo de serviços e padrões de interoperabilidade (ConectaGov).
+* [Lei nº 14.129/2021 (Lei do Governo Digital)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm) - Texto oficial que estabelece princípios, regras e instrumentos para o aumento da eficiência pública e desburocratização.
+* [Decreto nº 12.198/2024 (Estratégia Nacional de Governo Digital)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12198.htm) - Institui a Estratégia Nacional de Governo Digital para o ciclo 2024-2027.
+* [Governo Digital - Estratégia Nacional de Governo Digital (ENGD)](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/estrategianacional) - Pilares, metas e indicadores da transformação digital dos serviços públicos brasileiros.
+* [Governo Digital - Estratégia Federal de Governo Digital (EFGD)](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/EFGD) - Diretrizes estratégicas para interoperabilidade, dados abertos e serviços centrados no cidadão.
+* [Governo Digital - Infraestrutura Nacional de Dados (IND)](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados) - Governança, compartilhamento e segurança de bases de dados do setor público.
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 3 - Princípios da Administração Pública e Eficiência Digital).
+* NOHARA, Irene Patrícia. **Direito Administrativo**. 13. ed. São Paulo: Atlas, 2023. (Cap. 2 - A Transformação Digital da Administração Pública e a Lei 14.129/2021).
+* BRESSER-PEREIRA, Luiz Carlos. **Reforma do Estado para a Cidadania: a Reforma Gerencial Brasileira na Perspectiva Internacional**. São Paulo: Editora 34, 1998. (Cap. 4 - Transparência, Governança e Serviços Públicos).
 
----
 
 ## 4. Questões Comentadas no Padrão FCC
 

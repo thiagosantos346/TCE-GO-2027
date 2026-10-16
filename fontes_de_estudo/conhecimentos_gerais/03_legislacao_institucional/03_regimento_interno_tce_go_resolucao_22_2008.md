@@ -236,10 +236,14 @@ Os atos de admissão de concursados e as concessões iniciais de aposentadorias,
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
-* [Resolução nº 22, de 04 de setembro de 2008 (RITCE-GO)](https://portal.tce.go.gov.br/regimento-interno) - Texto consolidado com alterações regimentais.
-* [Portal do Tribunal de Contas do Estado de Goiás](https://portal.tce.go.gov.br) - Estrutura institucional, competências de órgãos colegiados e pautas de julgamento.
-* [Código de Processo Civil (Lei Federal nº 13.105/2015)](http://www.planalto.gov.br) - Arts. 144 a 148 (Regime de impedimentos e suspeições judiciais).
-* [Súmulas e Enunciados de Jurisprudência do TCE-GO](https://www.tce.go.gov.br/jurisprudencia) - Interpretações normativas sumuladas pelo Tribunal Pleno.
+* [Resolução nº 22/2008 - Regimento Interno do TCE-GO (Portal GNOI Oficial)](https://gnoi.tce.go.gov.br/atoNormativo/Publicado?id=9544) - Texto integral compilado com organização dos colegiados, sessões e recursos regimentais.
+* [Lei Estadual nº 16.168/2007 - Lei Orgânica do TCE-GO (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Base legal da competência regimental do Tribunal Pleno do TCE-GO.
+* [Portal Institucional do TCE-GO - TCE-Juris: Atos Normativos e Resoluções](https://portal.tce.go.gov.br/tce-juris/atos-normativos-do-tce-go) - Repositório oficial de resoluções regulamentares do TCE-GO.
+* [Portal Institucional do TCE-GO - Corregedoria Geral e Ética](https://portal.tce.go.gov.br/corregedoria-geral2) - Atribuições da Corregedoria Geral no Regimento Interno.
+* [Portal Institucional do TCE-GO - Competências do Plenário e das Câmaras](https://portal.tce.go.gov.br/competencias) - Funcionamento dos órgãos colegiados e distribuição de processos.
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 20 - Organização dos Órgãos de Controle Externo).
+* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2018. (Cap. 5 - O Processo nos Tribunais de Contas).
+* SILVA, José Afonso da. **Curso de Direito Constitucional Positivo**. 43. ed. São Paulo: Malheiros, 2020. (Cap. 4 - O Tribunal de Contas e sua Função Institucional).
 
 ---
 

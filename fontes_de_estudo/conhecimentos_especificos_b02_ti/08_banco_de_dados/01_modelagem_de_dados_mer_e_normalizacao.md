@@ -35,6 +35,7 @@
 - [5. Processo de Desnormalização de Dados](#5-processo-de-desnormalizacao-de-dados)
     - [5.1 Motivações e Trade-offs: OLTP vs. OLAP / Data Warehouses](#51-motivacoes-e-trade-offs-oltp-vs-olap-data-warehouses)
     - [5.2 Técnicas Comuns e Riscos de Integridade](#52-tecnicas-comuns-e-riscos-de-integridade)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 - [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
@@ -267,6 +268,18 @@ flowchart TD
 - **Riscos e Trade-offs:**
     - Redundância severa e aumento do consumo de armazenamento em disco;
     - **Risco Crítico de Inconsistência:** Atualizar o nome do fornecedor exige atualizar milhões de registros duplicados; se uma atualização falhar pela metade, o banco de dados entra em estado inconsistente.
+
+---
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [PostgreSQL 17 Official Documentation - Data Definition (DDL)](https://www.postgresql.org/docs/current/ddl.html) - Criação de tabelas, restrições de integridade (PRIMARY KEY, FOREIGN KEY, CHECK, UNIQUE) e domínios.
+* [PostgreSQL 17 Official Documentation - Queries and Joins](https://www.postgresql.org/docs/current/queries.html) - Consultas relacionais, junções internas e externas, agregações e subconsultas.
+* [Oracle Database 19c Documentation - Relational Concepts](https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/transactions.html) - Fundamentos do modelo relacional, integridade referencial e álgebra relacional aplicada.
+* [MongoDB Official Documentation - Data Modeling Introduction](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/) - Modelagem orientada a documentos, contraste com modelo relacional e desnormalização controlada.
+* ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 3 - Modelo Entidade-Relacionamento; Cap. 14 - Formas Normais e Dependências Funcionais).
+* SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 2 - Modelo Relacional; Cap. 6 - Projeto de Banco de Dados e Teoria da Normalização).
+* HEUSER, Carlos Alberto. **Projeto de Banco de Dados**. 6. ed. Porto Alegre: Bookman, 2009. (Cap. 2 - Modelo Conceitual DER; Cap. 5 - Normalização de Dados).
 
 ---
 

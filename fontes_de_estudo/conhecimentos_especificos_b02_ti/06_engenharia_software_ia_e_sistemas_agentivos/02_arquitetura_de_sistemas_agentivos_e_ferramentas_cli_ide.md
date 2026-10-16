@@ -258,10 +258,13 @@ flowchart TD
 
 ## 4. Fontes Recomendadas na Internet
 
-- [ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al., ICLR 2023)](https://arxiv.org/abs/2210.03629): Artigo pioneiro que estabeleceu o ciclo ReAct (*Thought -> Action -> Observation*), fundamento conceitual dos agentes modernos de codificação.
-- [LLM Powered Autonomous Agents (Lilian Weng - OpenAI)](https://lilianweng.github.io/posts/2023-06-23-agent/): Publicação de referência sobre a taxonomia estrutural de agentes: Cérebro, Planejamento, Memória e Ferramentas.
-- [Building Effective Agents (Anthropic Research)](https://www.anthropic.com/research/building-effective-agents): Análise detalhada dos padrões arquiteturais agentivos (Orquestrador-Trabalhadores, Avaliador-Otimizador e loops de feedback contínuo).
-- [Claude Code Overview & Official CLI Guide](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview): Documentação técnica sobre agentes em linha de comando, permissões de segurança e execução de comandos shell.
+* [Model Context Protocol (MCP) Official Documentation](https://modelcontextprotocol.io/introduction) - Arquitetura cliente-servidor do protocolo aberto MCP para integração de LLMs com ferramentas.
+* [ArXiv - ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al.)](https://arxiv.org/abs/2210.03629) - Integração dinâmica de raciocínio verbal e execução de ações computacionais em agentes autônomos.
+* [Anthropic Claude - Building Effective Agents Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Padrões de arquitetura agentiva: roteadores, encadeamentos, paralelismo e loops avaliador-otimizador.
+* [NIST AI Risk Management Framework - Governance of Autonomous Systems](https://www.nist.gov/itl/ai-risk-management-framework) - Controle humano no loop (*human-in-the-loop*) e barreiras de segurança operacional.
+* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 2 - Agentes Inteligentes e Arquiteturas Racionais).
+* WOOLDRIDGE, Michael. **An Introduction to MultiAgent Systems**. 2. ed. Chichester: John Wiley & Sons, 2009. (Cap. 2 e 3 - Agentes Reativos e Deliberativos).
+* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 5 - Autonomous Agents and Tool Use).
 
 ---
 

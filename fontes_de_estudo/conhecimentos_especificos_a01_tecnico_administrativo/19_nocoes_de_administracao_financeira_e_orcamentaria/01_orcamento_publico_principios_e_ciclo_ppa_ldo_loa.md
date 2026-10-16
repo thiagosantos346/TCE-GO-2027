@@ -303,16 +303,15 @@ A execução obrigatória do orçamento impositivo não é irrestrita:
 
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 
-- [Constituição Federal de 1988 - Artigos 165 a 169 (Dos Orçamentos)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art165)
-    - Estatuto constitucional de PPA, LDO, LOA, emendas parlamentares e orçamento impositivo.
-- [Lei Federal nº 4.320/1964 (Normas Gerais de Direito Financeiro)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm)
-    - Princípios orçamentários, estrutura legal do orçamento e créditos adicionais.
-- [Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm)
-    - Normas orçamentárias de responsabilidade, Anexo de Metas Fiscais (AMF) e Anexo de Riscos Fiscais (ARF).
-- [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - STN](https://www.gov.br/tesouronacional/pt-br)
-    - Parte I: Procedimentos Contábeis Orçamentários.
+* [Constituição Federal de 1988 - Arts. 165 a 169 (Finanças Públicas e Orçamento)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art165) - Normas constitucionais estruturantes do Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA).
+* [Lei Federal nº 4.320/1964 (Normas Gerais de Direito Financeiro)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Princípios orçamentários da unidade, universalidade, anualidade, exclusividade e orçamento-programa.
+* [Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal - LRF)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm) - Estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, transparência e controle.
+* [Tesouro Transparente - MCASP 11ª Edição (Parte I - Procedimentos Orçamentários)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Conceituação orçamentária oficial da Secretaria do Tesouro Nacional (STN).
+* [Constituição do Estado de Goiás - Seção IV (Dos Orçamentos)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Prazos específicos de envio e tramitação do PPA, LDO e LOA no Estado de Goiás.
+* GIACOMONI, James. **Orçamento Público**. 18. ed. São Paulo: Atlas, 2021. (Cap. 1 - O Papel do Orçamento na Economia Moderna; Cap. 3 - Princípios Orçamentários; Cap. 7 - O Ciclo Orçamentário).
+* PALUDO, Augustinho. **Orçamento Público, AFO e LRF**. 11. ed. Salvador: JusPodivm, 2022. (Cap. 1 a 4 - PPA, LDO, LOA e Princípios Orçamentários).
+* SANCHES, Osvaldo Maldonado. **Dicionário de Orçamento, Planejamento e Áreas Afins**. 2. ed. Brasília: OMS, 2004.
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC
 

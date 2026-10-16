@@ -279,11 +279,14 @@ Em consonância com as teses vinculantes fixadas pelo Supremo Tribunal Federal (
 
 ## 6. Fontes Oficiais e Referências Bibliográficas
 
-* [Lei Estadual nº 16.168, de 11/12/2007 (Legisla Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/83307/lei-16168) - Lei Orgânica do Tribunal de Contas do Estado de Goiás com atualizações consolidadas.
-* [Lei Estadual nº 21.050, de 15/07/2021 (Legisla Goiás)](https://legisla.casacivil.go.gov.br) - Alterações procedimentais nas comunicações eletrônicas e instrução processual do TCE-GO.
-* [Lei Federal nº 13.019/2014 (MROSC)](http://www.planalto.gov.br) - Marco Regulatório das Organizações da Sociedade Civil.
-* [Portal do Tribunal de Contas do Estado de Goiás](https://portal.tce.go.gov.br) - Legislação, Regimentos e Jurisprudência Aplicada do Controle Externo.
-* [Supremo Tribunal Federal - Tema 899 (RE 636.886)](https://portal.stf.jus.br) - Prescritibilidade da pretensão de ressarcimento fundada em decisões de Tribunal de Contas.
+* [Lei Estadual nº 16.168/2007 - Lei Orgânica do TCE-GO (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Texto integral compilado com competências, prazos processuais e sanções.
+* [Constituição do Estado de Goiás - Seção de Fiscalização (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Disposições constitucionais estaduais sobre a fiscalização dos municípios e do Estado.
+* [Portal Institucional do TCE-GO - Competências Institucionais e Jurisdição](https://portal.tce.go.gov.br/competencias) - Descrição oficial das competências originárias e derivadas da Lei Orgânica.
+* [Portal Institucional do TCE-GO - TCE-Juris: Atos Normativos e Resoluções](https://portal.tce.go.gov.br/tce-juris/atos-normativos-do-tce-go) - Repositório oficial de deliberações, resoluções e instruções normativas do TCE-GO.
+* [Portal Institucional do TCE-GO - Consolidação Normativa do TCE-GO](https://portal.tce.go.gov.br/tce-juris/consolidacao-normativa) - Normas consolidadas sobre processos de contas e fiscalizações.
+* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2017. (Cap. 6 - Procedimentos e Sanções nos Tribunais de Contas).
+* MOTTA, Fabrício. **Tribunais de Contas: Controle Externo e Democracia**. Belo Horizonte: Fórum, 2020. (Cap. 3 - Lei Orgânica e Autonomia dos TCs).
+* MEDAUAR, Odete. **Direito Administrativo Moderno**. 22. ed. São Paulo: Revista dos Tribunais, 2021. (Cap. 14 - O Controle Externo e os TCs).
 
 ---
 

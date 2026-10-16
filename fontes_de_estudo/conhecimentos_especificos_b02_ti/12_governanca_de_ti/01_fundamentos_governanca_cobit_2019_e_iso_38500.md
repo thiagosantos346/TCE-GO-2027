@@ -356,19 +356,17 @@ Cada atividade é avaliada conforme a escala percentual de alcance:
 
 ---
 
-## 4. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [x] **ISACA - COBIT 2019 Framework Overview (Portal Oficial ISACA):**
-    - Link Oficial: [ISACA COBIT 2019 Resources](https://www.isaca.org/resources/cobit)
-    - *Conteúdo:* Resumo oficial do framework COBIT 2019, princípios do sistema de governança, 40 objetivos dos 5 domínios (EDM, APO, BAI, DSS, MEA) e fatores de design.
-- [x] **ISO/IEC 38500:2024 - Governance of Information Technology for the Organization:**
-    - Link Oficial: [ISO Standard Overview - ISO/IEC 38500](https://www.iso.org/standard/83648.html)
-    - *Conteúdo:* Os 6 princípios de governança corporativa de TI (Responsabilidade, Estratégia, Aquisição, Desempenho, Conformidade e Comportamento Humano) e o modelo EDM (Avaliar, Dirigir, Monitorar).
-- [x] **Tribunal de Contas da União (TCU) - Referencial de Governança de TI:**
-    - Link Oficial: [Portal de Governança de TI do TCU](https://portal.tcu.gov.br/comunidades/governanca-de-ti/)
-    - *Conteúdo:* Guias do TCU para auditoria de governança de TI em órgãos públicos (iGovTI / iGG), boas práticas de alinhamento estratégico e gestão de riscos.
+* [ISACA - COBIT Framework Resources](https://www.isaca.org/resources/cobit) - Visão geral oficial do COBIT 2019, princípios de governança, objetivos de gestão e fatores de desenho.
+* [TCU - Governança Pública e de TI no TCU](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial institucional do TCU para avaliação e controle da governança nas organizações públicas.
+* [Decreto nº 12.198/2024 (Estratégia Nacional de Governo Digital)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12198.htm) - Institui a Estratégia Nacional de Governo Digital para o ciclo 2024-2027.
+* [Decreto Federal nº 9.203/2017 (Governança Pública)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Dispõe sobre a política de governança da administração pública federal e mecanismos de liderança, estratégia e controle.
+* [Governo Digital - Sistema de Administração dos Recursos de TIC (SISP)](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/sisp/sobre-o-sisp) - Estrutura de governança e alinhamento estratégico de TI no setor público.
+* FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 1 a 4 - Fundamentos de Governança, COBIT e ISO/IEC 38500).
+* ISACA. **COBIT 2019 Framework: Introduction and Methodology**. Schaumburg: ISACA, 2018. (Cap. 2 - Principles; Cap. 4 - Governance and Management Objectives).
+* ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR ISO/IEC 38500:2018**: Governança corporativa de tecnologia da informação. Rio de Janeiro: ABNT, 2018.
 
----
 
 ## 5. Questões Comentadas no Padrão FCC
 

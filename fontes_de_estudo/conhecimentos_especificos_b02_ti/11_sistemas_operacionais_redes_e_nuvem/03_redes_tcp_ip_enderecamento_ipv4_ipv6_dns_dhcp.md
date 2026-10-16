@@ -342,14 +342,15 @@ Para evitar a necessidade de instalar um servidor DHCP físico em cada sala ou f
 
 ## 6. Fontes Recomendadas na Internet
 
-- [IPv6.br - Portal de Capacitação do NIC.br](https://ipv6.br/): Portal oficial brasileiro sobre o protocolo IPv6 mantido pelo Núcleo de Informação e Coordenação do Ponto BR, com guias de sub-redes, transição e autoconfiguração.
-- [IETF RFC 791 - Internet Protocol Specification (IPv4)](https://datatracker.ietf.org/doc/html/rfc791): Norma seminal do protocolo IPv4, cabeçalho de 20 bytes e fragmentação de pacotes.
-- [IETF RFC 8200 - Internet Protocol, Version 6 (IPv6) Specification](https://datatracker.ietf.org/doc/html/rfc8200): Especificação padrão da Internet (STD 86) consolidando o cabeçalho base de 40 bytes do IPv6 e a eliminação de broadcast.
-- [IETF RFC 1035 - Domain Names - Implementation and Specification](https://datatracker.ietf.org/doc/html/rfc1035): Padrão de arquitetura do DNS, formatos de mensagens, tipos de registros fundamentais e resolução hierárquica.
-- [IETF RFC 2131 - Dynamic Host Configuration Protocol](https://datatracker.ietf.org/doc/html/rfc2131): Especificação oficial do protocolo DHCP, ciclo DORA, timers de renovação T1/T2 e concessões dinâmicas.
-- [IETF RFC 1918 - Address Allocation for Private Internets](https://datatracker.ietf.org/doc/html/rfc1918): Norma que formaliza as três faixas canônicas de endereços IPv4 privados.
+* [IETF RFC 791 - Internet Protocol (IPv4)](https://datatracker.ietf.org/doc/html/rfc791) - Especificação formal da arquitetura de pacotes, fragmentação e endereçamento IPv4.
+* [IETF RFC 8200 - Internet Protocol, Version 6 (IPv6) Specification](https://datatracker.ietf.org/doc/html/rfc8200) - Norma padrão atual da IETF para o cabeçalho e roteamento do IPv6.
+* [IETF RFC 1035 - Domain Names - Implementation and Specification](https://datatracker.ietf.org/doc/html/rfc1035) - Especificação técnica do sistema de nomes de domínio (DNS) e tipos de registros de recursos.
+* [IETF RFC 2131 - Dynamic Host Configuration Protocol (DHCP)](https://datatracker.ietf.org/doc/html/rfc2131) - Funcionamento oficial do protocolo DHCP e alocação dinâmica de parâmetros de rede IP.
+* [IETF RFC 793 - Transmission Control Protocol (TCP)](https://datatracker.ietf.org/doc/html/rfc793) - Especificação técnica do protocolo orientado à conexão TCP, controle de fluxo e three-way handshake.
+* KUROSE, James F.; ROSS, Keith W. **Redes de Computadores e a Internet: Uma Abordagem Top-Down**. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 3 - Camada de Transporte; Cap. 4 - A Camada de Rede: Plano de Dados; Cap. 5 - A Camada de Rede: Plano de Controle).
+* TANENBAUM, Andrew S.; WETHERALL, David. **Redes de Computadores**. 5. ed. São Paulo: Pearson, 2011. (Cap. 5 - Camada de Rede: Roteamento, IPv4 e IPv6; Cap. 6 - Camada de Transporte).
+* STEVENS, W. Richard; FALL, Kevin R. **TCP/IP Illustrated, Volume 1: The Protocols**. 2. ed. Boston: Addison-Wesley, 2011. (Cap. 1 a 6 - Arquitetura TCP/IP, IP, DNS e DHCP).
 
----
 
 ## 7. Questões Comentadas & Exemplos Práticos
 

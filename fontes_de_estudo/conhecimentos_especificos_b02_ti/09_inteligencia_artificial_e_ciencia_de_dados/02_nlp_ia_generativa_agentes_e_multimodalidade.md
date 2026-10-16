@@ -31,6 +31,7 @@
 - [4. Modelos Multimodais e Aplicações no Setor Público](#4-modelos-multimodais-e-aplicacoes-no-setor-publico)
     - [4.1 Alinhamento Semântico Multimodal e a Arquitetura CLIP](#41-alinhamento-semantico-multimodal-e-a-arquitetura-clip)
     - [4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)](#42-aplicacoes-em-auditoria-de-controle-externo-tce-go)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 - [5. Questões Comentadas (FCC)](#5-questoes-comentadas-fcc)
 
 ---
@@ -286,6 +287,18 @@ O marco fundamental que consolidou a visão-linguagem moderna foi o modelo **CLI
 1. **Auditoria de Obras e Engenharia Pública:** Uso de Modelos de Visão-Linguagem (VLMs) para inspecionar fotografias de vistorias técnicas, imagens de satélite multiespectrais e vídeos capturados por drones, cruzando automaticamente evidências visuais com o cronograma físico-financeiro e as planilhas orçamentárias de medição da obra pública.
 2. **OCR Semântico de Documentos Administrativos Legados:** Digitalização e leitura ótica inteligente de contratos históricos, certidões com caligrafia manual e processos digitalizados com baixa resolução, onde o modelo de linguagem contextual auxilia o modelo visual na recomposição de termos degradados pelo tempo.
 3. **Detecção de Fraudes em Notas Fiscais Eletrônicas:** Análise combinada de comprovantes digitalizados, carimbos notariais e fotos de mercadorias entregues, identificando discrepâncias materiais em compras governamentais.
+
+---
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [ArXiv - BERT: Pre-training of Deep Bidirectional Transformers (Devlin et al.)](https://arxiv.org/abs/1810.04805) - Representações bidirecionais profundas para compreensão textual e processamento de linguagem natural.
+* [ArXiv - Attention Is All You Need (Vaswani et al.)](https://arxiv.org/abs/1706.03762) - Especificação detalhada de camadas de atenção multi-cabeça (*Multi-Head Attention*) e codificação posicional.
+* [OpenAI Platform - Text Generation and Chat Completion Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Modelos autoregressivos de linguagem, amostragem por temperatura e tokenização BPE.
+* [ArXiv - ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al.)](https://arxiv.org/abs/2210.03629) - Integração de modelos generativos com chamadas de função e raciocínio agentivo.
+* JURAFSKY, Daniel; MARTIN, James H. **Speech and Language Processing**. 3. ed. Stanford University, 2024. (Cap. 9 a 11 - Modelos de Linguagem Pré-treinados e Geração Textual).
+* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 24 - Processamento de Linguagem Natural com Aprendizado Profundo).
+* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 3 - Multimodality and Agentic Workflows).
 
 ---
 

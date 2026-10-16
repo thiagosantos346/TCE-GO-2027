@@ -238,10 +238,13 @@ Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Alg
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Portal da Matemática OBMEP / IMPA - Lógica Matemática e Demonstrações](https://portaldaobmep.impa.br/) - Aulas de lógica formal, tabelas-verdade, argumentos válidos e diagramas de conjuntos.
-* [Só Matemática - Lógica Proposicional e Equivalências](https://www.somatematica.com.br/superior/logica/) - Resumos das Leis de De Morgan, contrapositiva e regras de inferência dedutiva.
-* [Stanford Encyclopedia of Philosophy - Classical Logic](https://plato.stanford.edu/entries/logic-classical/) - Enciclopédia de filosofia e lógica clássica internacional com deduções formais e semântica.
-* [Iniciação à Lógica Matemática (Edgard de Alencar Filho)](https://www.obmep.org.br/) - Referência absoluta adotada pela FCC em concursos de tribunais.
+* [Portal da Matemática OBMEP / IMPA - Módulo de Noções de Lógica e Argumentação](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=1059) - Validade de argumentos, silogismos, quantificadores (todo, algum, nenhum) e diagramas lógicos.
+* [OBMEP / IMPA - Apostila 2 do PIC: Métodos de Contagem e Lógica Formal](https://www.obmep.org.br/docs/apostila2.pdf) - Diagramas de Euler-Venn, diagramação de conjuntos e análise dedutiva formal.
+* [Khan Academy Brasil - Álgebra: Raciocínio Lógico e Argumentação Dedutiva](https://pt.khanacademy.org/math/algebra) - Construção de demonstrações, equivalências lógicas fundamentais e leis de De Morgan.
+* [Khan Academy Brasil - Pré-Álgebra: Conjuntos e Diagramas de Venn](https://pt.khanacademy.org/math/pre-algebra) - Operações de união, interseção e inclusão aplicadas a silogismos categóricos.
+* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 8 e 9 - Argumentação Lógica, Regras de Inferência e Silogismos).
+* COPI, Irving M. **Introdução à Lógica**. 2. ed. São Paulo: Mestre Jou, 1978. (Cap. 6 e 7 - Silogismos Categóricos e Diagramas de Venn).
+* MORTARI, Cezar A. **Introdução à Lógica**. 2. ed. São Paulo: Editora Unesp, 2016. (Cap. 9 - Teoria da Argumentação e Validade Dedutiva).
 
 ---
 

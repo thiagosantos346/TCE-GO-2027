@@ -186,14 +186,14 @@ Conforme o art. 29 da LRF e o art. 98 da Lei nº 4.320/1964, a dívida fundada o
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
-- [Lei Federal nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm)
-    - Arts. 40 a 46 (Créditos Adicionais e Fontes de Financiamento) e Arts. 92 a 100 (Dívida Flutuante e Fundada).
-- [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)
-    - Art. 165, § 8º (Exclusividade e Créditos Suplementares) e Art. 167, incisos II, V e §§ 2º e 3º (Reabertura e Créditos Extraordinários).
-- [Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm)
-    - Art. 5º, III (Reserva de Contingência) e Arts. 29 a 38 (Da Dívida Pública e Operações de Crédito).
-- [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição (STN)](https://www.gov.br/tesouronacional/pt-br)
-    - Procedimentos Contábeis Orçamentários e Cálculo do Superávit Financeiro.
+* [Lei Federal nº 4.320/1964 - Arts. 40 a 46 (Créditos Adicionais)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Definição, tipos (suplementares, especiais e extraordinários) e fontes de recursos para abertura de créditos adicionais.
+* [Constituição Federal de 1988 - Arts. 166 e 167 (Abertura de Créditos Extraordinários)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art165) - Requisitos de imprevisibilidade e urgência (guerra, comoção interna ou calamidade pública) e autorizações orçamentárias.
+* [Lei Complementar nº 101/2000 - Arts. 29 a 40 (Dívida e Endividamento Público)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm) - Conceitos de dívida pública consolidada, fundada, flutuante, operações de crédito e ARO (Antecipação de Receita Orçamentária).
+* [Tesouro Transparente - MCASP 11ª Edição (Operações de Crédito e Dívida)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Procedimentos contábeis e orçamentários do serviço da dívida pública.
+* [Constituição do Estado de Goiás - Limites da Dívida e Autorizações](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Competências da Assembleia Legislativa de Goiás na fixação de limites e autorização de empréstimos do Estado.
+* GIACOMONI, James. **Orçamento Público**. 18. ed. São Paulo: Atlas, 2021. (Cap. 10 - Modificações Orçamentárias: Os Créditos Adicionais).
+* PALUDO, Augustinho. **Orçamento Público, AFO e LRF**. 11. ed. Salvador: JusPodivm, 2022. (Cap. 7 - Créditos Adicionais; Cap. 12 - Dívida Pública e Operações de Crédito).
+* PISCITELLI, Roberto Bocaccio; TIMÓTEO, Alfredo. **Contabilidade Pública: Uma Abordagem da Administração Financeira Pública**. 14. ed. São Paulo: Atlas, 2019. (Cap. 5 - Créditos Adicionais e Fontes de Financiamento).
 
 ---
 

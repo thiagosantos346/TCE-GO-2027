@@ -34,6 +34,7 @@
     - [4.1 Instância vs. Banco de Dados e Estruturas de Memória (SGA e PGA)](#41-instancia-vs-banco-de-dados-e-estruturas-de-memoria-sga-e-pga)
     - [4.2 Processos de Background Mandatórios (DBWn, LGWR, CKPT, SMON, PMON)](#42-processos-de-background-mandatorios-dbwn-lgwr-ckpt-smon-pmon)
     - [4.3 Estrutura Física e Lógica de Armazenamento](#43-estrutura-fisica-e-logica-de-armazenamento)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 - [5. Questões Comentadas (FCC)](#5-questoes-comentadas-fcc)
 
 ---
@@ -368,6 +369,18 @@ TABLESPACE ────────► SEGMENTO ────────► EXTE
     - **Extensão (Extent):** Um número específico de blocos de dados Oracle logicamente e fisicamente contíguos alocados de uma só vez para acomodar o crescimento de um objeto.
     - **Segmento (Segment):** Conjunto completo de extensões alocadas para uma estrutura de dados relacional específica. Tipos de segmentos: Segmento de Dados (Tabela), Segmento de Índice, Segmento Temporário e Segmento de Undo.
     - **Tablespace:** A maior unidade lógica de armazenamento. Uma tablespace agrupa múltiplos segmentos e é mapeada fisicamente por **um ou mais Datafiles**. Um datafile pertence estrita e exclusivamente a uma única tablespace.
+
+---
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [PostgreSQL 17 Official Documentation - Indexes](https://www.postgresql.org/docs/current/indexes.html) - Tipos de índices: B-Tree, Hash, GiST, SP-GiST, GIN e BRIN e suas indicações de uso.
+* [PostgreSQL 17 Official Documentation - Using EXPLAIN for Query Tuning](https://www.postgresql.org/docs/current/using-explain.html) - Análise de planos de execução (Seq Scan, Index Scan, Bitmap Index Scan, Nested Loop, Hash Join).
+* [PostgreSQL 17 Official Documentation - Routine Vacuuming and Autovacuum](https://www.postgresql.org/docs/current/routine-vacuuming.html) - Limpeza de tuplas mortas (*dead tuples*), atualização de estatísticas do otimizador (ANALYZE).
+* [Oracle Database 19c Documentation - Index Architecture](https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/indexes-and-index-organized-tables.html) - Índices B-Tree, índices Bitmap e tabelas organizadas por índice (IOT).
+* SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 14 - Indexação; Cap. 15 - Processamento e Otimização de Consultas).
+* ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 16 - Estruturas de Indexação para Arquivos; Cap. 18 - Estratégias de Otimização).
+* HEUSER, Carlos Alberto. **Projeto de Banco de Dados**. 6. ed. Porto Alegre: Bookman, 2009. (Cap. 7 - Projeto Físico e Otimização de Índices).
 
 ---
 

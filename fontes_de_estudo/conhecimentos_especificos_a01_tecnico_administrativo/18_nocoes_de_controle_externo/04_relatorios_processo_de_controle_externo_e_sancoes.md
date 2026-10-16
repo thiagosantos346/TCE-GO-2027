@@ -192,18 +192,15 @@ A disciplina da prescrição nas ações perante os Tribunais de Contas é orien
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 
-- [Lei Estadual nº 16.168/2007 (Lei Orgânica do TCE-GO)](https://legisla.casacivil.go.gov.br/)
-    - Arts. 45 a 85 (Do processo de contas, recursos regimentais e regime de sanções).
-- [Regimento Interno do TCE-GO (Resolução nº 22/2008)](https://portal.tce.go.gov.br/)
-    - Tramitação processual, prazos recursais e procedimentos de Tomada de Contas Especial.
-- [Instrução Normativa TCU nº 71/2012](https://portal.tcu.gov.br/)
-    - Regulamenta a instauração e organização das Tomadas de Contas Especiais no setor público.
-- [Supremo Tribunal Federal - Tema 899 de Repercussão Geral](https://portal.stf.jus.br/)
-    - Tese vinculante sobre a prescritibilidade das ações de cobrança fundadas em títulos executivos dos TCs.
-- [Lei Complementar Federal nº 64/1990 (Lei das Inelegibilidades / Lei da Ficha Limpa)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm)
-    - Art. 1º, inciso I, alínea "g" (inelegibilidade decorrente de rejeição de contas por irregularidade insanável).
+* [Lei Estadual nº 16.168/2007 - Processo de Controle Externo e Sanções](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Tipos de sanções aplicáveis pelo TCE-GO: multas, inabilitação para o exercício de cargo em comissão e ressarcimento ao erário.
+* [TCE-GO - Resolução nº 22/2008 (Regimento Interno no GNOI)](https://gnoi.tce.go.gov.br/atoNormativo/Publicado?id=9544) - Rito processual, julgamento de contas regulares, regulares com ressalva e irregulares, prazos de defesa e recursos cabíveis.
+* [TCE-GO - Prestação e Julgamento de Contas](https://portal.tce.go.gov.br/prestacao-de-contas) - Prazos e critérios de envio e instrução processual de contas de governo e de gestão no TCE-GO.
+* [Constituição Federal de 1988 - Art. 71, § 3º (Eficácia de Título Executivo das Decisões do TC)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art71) - As decisões do Tribunal de que resulte imputação de débito ou multa terão eficácia de título executivo extrajudicial.
+* [STF Súmula Vinculante 3 (Contraditório Prévio)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=3) - Garante a observância do contraditório e da ampla defesa antes da aplicação de sanções pelos Tribunais de Contas.
+* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 6 - O Processo no Tribunal de Contas, Julgamento de Contas e Sanções).
+* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 6 - As Decisões do Tribunal de Contas e sua Eficácia de Título Executivo).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 17 - Sanções no Controle Externo e Responsabilização).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
 

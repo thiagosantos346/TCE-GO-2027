@@ -247,10 +247,14 @@ A remuneração dos servidores efetivos do TCE-GO é composta por:
 
 ## 3. Fontes Oficiais e Referências Bibliográficas
 
-* [Lei Estadual nº 20.756, de 28/01/2020 (Legisla Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/102987/lei-20756) - Estatuto dos Servidores Públicos Civis do Estado de Goiás com atualizações normativas consolidadas.
-* [Lei Estadual nº 15.122, de 04/02/2005 (Legisla Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/80517/lei-15122) - Plano de Cargos, Carreiras e Remuneração dos Servidores do Tribunal de Contas de Goiás.
-* [Portal da Transparência do TCE-GO](https://portal.tce.go.gov.br/transparencia/pessoal) - Quadro de pessoal, tabelas remuneratórias e planos de capacitação.
-* [Supremo Tribunal Federal - Súmula Vinculante nº 43](https://portal.stf.jus.br) - Inconstitucionalidade de provimento que propicie ao servidor investir-se em cargo que não integra a carreira na qual anteriormente investido.
+* [Lei Estadual nº 20.756/2020 - Estatuto dos Servidores de Goiás (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Texto compilado do regime jurídico dos servidores públicos civis estaduais.
+* [Lei Estadual nº 15.122/2005 - PCCR do TCE-GO (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/80023/lei-15122) - Plano de Carreira, Cargos e Vencimentos dos Servidores do TCE-GO.
+* [Constituição do Estado de Goiás - Seção dos Servidores Públicos (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Direitos, estabilidade e vencimentos no serviço público estadual.
+* [Portal Institucional do TCE-GO - Competências e Estrutura Funcional](https://portal.tce.go.gov.br/competencias) - Quadro permanente de servidores e organização interna do Tribunal.
+* [Lei Estadual nº 16.168/2007 - Lei Orgânica do TCE-GO (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Disposições sobre a gestão do quadro de servidores e auditores.
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 14 - Servidores Públicos e Regime Estatutário).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 12 - Agentes Públicos e Regime Jurídico).
+* ALEXANDRINO, Marcelo; PAULO, Vicente. **Direito Administrativo Descomplicado**. 32. ed. São Paulo: Método, 2024. (Cap. 8 - Provimento, Vacância e Direitos dos Servidores).
 
 ---
 

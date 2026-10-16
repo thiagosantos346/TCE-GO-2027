@@ -180,18 +180,15 @@ flowchart TD
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 
-- [Constituição Federal de 1988 - Artigos 70 a 75 (Fiscalização Contábil e Orçamentária)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art70)
-    - Estatuto constitucional que organiza os sistemas de controle interno e externo.
-- [Lei Estadual nº 16.168/2007 (Lei Orgânica do TCE-GO)](https://legisla.casacivil.go.gov.br/)
-    - Disciplina as competências, jurisdição, prazos e processo de controle externo em Goiás.
-- [Supremo Tribunal Federal - Súmula Vinculante nº 3](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=3)
-    - Aplicação do contraditório em processos nos Tribunais de Contas e exceção dos benefícios previdenciários.
-- [Supremo Tribunal Federal - Tema 445 de Repercussão Geral](https://portal.stf.jus.br/)
-    - Fixação do prazo decadencial de 5 anos para os Tribunais de Contas registrarem aposentadorias.
-- [Supremo Tribunal Federal - Tema 899 de Repercussão Geral](https://portal.stf.jus.br/)
-    - Prescritibilidade quinquenal das ações executórias de ressarcimento fundadas em títulos emitidos por Tribunais de Contas.
+* [Constituição Federal de 1988 - Arts. 70 a 75 (Controle Externo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art70) - Fiscalização contábil, financeira, orçamentária, operacional e patrimonial da administração pública direta e indireta.
+* [Constituição do Estado de Goiás - Seção V (Do Tribunal de Contas do Estado)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Competências institucionais privativas do TCE-GO na fiscalização do erário estadual.
+* [Lei Estadual nº 16.168/2007 (Lei Orgânica do TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Estabelece a jurisdição, as competências e a organização do Tribunal de Contas do Estado de Goiás.
+* [TCE-GO - Competências Institucionais e Jurisdição](https://portal.tce.go.gov.br/competencias) - Portal institucional do TCE-GO detalhando sua competência julgadora, opinativa e fiscalizatória.
+* [STF Súmula Vinculante 3 (Contraditório nos Tribunais de Contas)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=3) - Garante ampla defesa e contraditório nos processos de contas perante as Cortes de Contas.
+* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 1 - Teoria Geral do Controle; Cap. 2 - O Controle Externo Constitucional).
+* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 1 e 2 - Competências e Jurisdição das Cortes de Contas).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 17 - Controle da Administração Pública: Controle Legislativo e Tribunais de Contas).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
 

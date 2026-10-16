@@ -416,7 +416,7 @@ Nas orações subordinadas substantivas integrantes (introduzidas por *que* ou *
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Manual de Comunicação do Senado Federal — Emprego e Colocação de Pronomes](https://www12.senado.leg.br/manualdecomunicacao/estilos/pronomes) - Regras práticas de próclise, ênclise, mesóclise, substituição de objetos diretos/indiretos e uso do pronome relativo *cujo*.
+* [Manual de Comunicação do Senado Federal — Emprego e Colocação de Pronomes](https://www12.senado.leg.br/manualdecomunicacao/estilos/seu-sua) - Regras práticas de próclise, ênclise, mesóclise, substituição de objetos diretos/indiretos e uso do pronome relativo *cujo*.
 * [Manual de Comunicação do Senado Federal — Emprego de Tempos e Modos Verbais](https://www12.senado.leg.br/manualdecomunicacao/estilos/verbo-presente-e-futuro) - Orientações sobre correlação verbal (*consecutio temporum*), futuro do subjuntivo e vozes verbais na redação culta.
 * [Manual de Comunicação do Senado Federal — Concordância e Partícula Apassivadora](https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal) - Distinção prática entre pronome apassivador (voz passiva sintética) e índice de indeterminação do sujeito.
 * [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Capítulos sobre morfossintaxe, pronomes demonstrativos (anáfora, catáfora e dêixis) e sistema verbal padrão.

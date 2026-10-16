@@ -268,20 +268,17 @@ flowchart LR
 
 ---
 
-## 7. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [BBC Learning English - Reading Skills & Academic ESP](https://www.bbc.co.uk/learningenglish/)  
-  Portal de referência para desenvolvimento de estratégias de leitura instrumental, identificação de tópicos frasais (*Topic Sentences*) e inferência vocabular por pistas de contexto.
-- [British Council - Reading for Professionals and Academics](https://learnenglish.britishcouncil.org/skills/reading)  
-  Acervo de textos técnicos e acadêmicos classificados por níveis de proficiência (B2/C1), com foco em skimming, scanning e estrutura argumentativa.
-- [Cambridge Grammar Guide - Discourse Markers and Connectives](https://dictionary.cambridge.org/grammar/british-grammar/)  
-  Guia detalhado sobre marcadores discursivos, conectivos lógicos (*linking words*), mecanismos de coesão textual e falsos cognatos.
-- [IEEE Spectrum - Computing and Emerging Technology Insights](https://spectrum.ieee.org/computing)  
-  Publicação oficial do IEEE com artigos de vanguarda em engenharia de computação, telecomunicações e software, servindo de base para textos autênticos cobrados pela FCC.
-- [ACM TechNews - Association for Computing Machinery](https://technews.acm.org/)  
-  Boletins de alta densidade técnica com resumos executivos de pesquisas em computação, ideais para o treinamento de velocidade e precisão em *skimming*.
+* [IETF RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels](https://datatracker.ietf.org/doc/html/rfc2119) - Norma seminal em inglês definindo o significado imperativo de termos como MUST, SHALL, SHOULD e MAY na documentação técnica.
+* [Google Technical Writing Courses - Style Guide and Best Practices](https://developers.google.com/tech-writing/one) - Curso oficial do Google para redação e compreensão precisa de textos técnicos de engenharia de software.
+* [MDN Web Docs - An Overview of HTTP (English)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) - Texto de referência técnica oficial para aplicação prática de estratégias de leitura de skimming e scanning.
+* [Python Official Documentation - Tutorial (English)](https://docs.python.org/3/tutorial/index.html) - Documentação técnica de software amplamente utilizada para treinamento de inferência de significado e leitura estruturada.
+* [MDN Web Docs - Accessibility Guidelines (English)](https://developer.mozilla.org/en-US/docs/Web/Accessibility) - Documentação oficial em inglês para prática de leitura direcionada a diretrizes de acessibilidade e padrões web.
+* SWALES, John M.; FEAK, Christine B. **Academic Writing for Graduate Students: Essential Tasks and Skills**. 3. ed. Ann Arbor: University of Michigan Press, 2012. (Unit 1 - An Approach to Academic Writing; Unit 4 - Data Commentary).
+* MURPHY, Raymond. **English Grammar in Use**. 5. ed. Cambridge: Cambridge University Press, 2019. (Units 26 to 37 - Modals: Must, Should, Can, May).
+* GLENDINNING, Eric H.; MCEWAN, John. **Oxford English for Information Technology**. 2. ed. Oxford: Oxford University Press, 2006. (Units 1 to 5 - Computer Architecture and Technical Reading Skills).
 
----
 
 ## 8. Questões Comentadas & Exemplos (Padrão FCC)
 

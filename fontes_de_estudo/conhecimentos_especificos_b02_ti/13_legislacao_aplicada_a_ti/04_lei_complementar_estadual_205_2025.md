@@ -185,19 +185,17 @@ O próprio TCE-GO, alinhado à LC nº 205/2025, implementou regulação interna 
 
 ---
 
-## 4. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [x] **Legislação Estadual de Goiás - Casa Civil (Legisla Goiás):**
-    - Link Oficial: [Portal de Legislação do Estado de Goiás](https://legisla.casacivil.go.gov.br/)
-    - *Conteúdo:* Texto Integral da Lei Complementar nº 205, de 19 de maio de 2025.
-- [x] **Portal Institucional do Governo do Estado de Goiás:**
-    - Link Oficial: [Governo de Goiás - Secretaria de Ciência, Tecnologia e Inovação (Secti)](https://goias.gov.br/secti/)
-    - *Conteúdo:* Programas de fomento em IA, editais de Sandbox e diretrizes de IA Aberta.
-- [x] **Tribunal de Contas do Estado de Goiás (TCE-GO):**
-    - Link Oficial: [Inovação e Tecnologia no TCE-GO](https://portal.tce.go.gov.br/)
-    - *Conteúdo:* Normas de Governança de TIC, Resolução Administrativa nº 24/2024 e o Ecossistema IAGO de auditoria eletrônica.
+* [Lei Complementar Estadual de Goiás nº 205/2025](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/110694/lei-complementar-205) - Norma que dispõe sobre a Política Estadual de Inteligência Artificial no Estado de Goiás.
+* [Lei Complementar Estadual de Goiás nº 215/2026](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/117340/lei-complementar-215) - Altera a LC nº 205/2025, aprimorando diretrizes de governança e fomento à inovação.
+* [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework) - Framework de gestão de riscos em IA alinhado aos princípios de transparência e segurança da LC 205/2025.
+* [Governo Digital - Inteligência Artificial no Setor Público Brasileiro](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1) - Diretrizes éticas e casos de uso de IA na administração pública.
+* [TCE-GO - Competências e Jurisdição Institucional](https://portal.tce.go.gov.br/competencias) - Portal institucional com as atribuições de controle externo sobre políticas públicas de inovação do Estado de Goiás.
+* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 27 - Ética e Governança da Inteligência Artificial).
+* DONEDA, Danilo et al. **Inteligência Artificial e Direito: Ética, Regulação e Responsabilidade**. São Paulo: Thomson Reuters Brasil, 2021. (Cap. 1 a 5 - Princípios de IA e Responsabilidade Algorítmica).
+* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 4 - Controle Operacional e Avaliação de Políticas Públicas).
 
----
 
 ## 5. Questões Comentadas no Padrão FCC
 
