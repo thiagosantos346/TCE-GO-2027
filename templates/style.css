@@ -456,6 +456,47 @@ pre code {
     break-before: page;
 }
 
+/* Sumário de Tópico e Listas de Alternativas (Sem Bolinhas Duplicadas) */
+ul.sumario-list, ul.sumario-list ul {
+    list-style: none !important;
+}
+
+ul.sumario-list {
+    padding-left: 0 !important;
+}
+
+ul.sumario-list ul {
+    padding-left: 24px !important;
+}
+
+ul.options-list {
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+
+ul.options-list li {
+    margin-bottom: 6px;
+}
+
+/* Link de Retorno nos Cabeçalhos (Voltar ao Sumário) */
+a.heading-backlink {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+a.heading-backlink:hover {
+    color: var(--accent-blue) !important;
+    text-decoration: underline !important;
+}
+
+/* Item de bloco aninhado (fallback anti-achatamento) */
+.nested-item {
+    display: block;
+    margin-left: 18px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
 @media print {
     @page { size: A4; margin: 20mm; }
     body { font-size: 11pt; background-color: #fff !important; }
@@ -463,5 +504,3 @@ pre code {
     h1, h2, h3 { page-break-after: avoid; break-after: avoid; }
     * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
 }
-
-
