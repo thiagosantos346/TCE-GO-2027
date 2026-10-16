@@ -15,26 +15,25 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)](#1-conectivos-lógicos-e-marcadores-discursivos-linking-words)
-    - [1.1 Relações de Contraste e Adversidade](#11-relações-de-contraste-e-adversidade)
-    - [1.2 Relações de Concessão e a Regra do Despite](#12-relações-de-concessão-e-a-regra-do-despite)
-    - [1.3 Relações de Causa, Explicação e Motivo](#13-relações-de-causa-explicação-e-motivo)
-    - [1.4 Relações de Consequência, Efeito e Conclusão](#14-relações-de-consequência-efeito-e-conclusão)
-    - [1.5 Relações de Adição, Continuidade e Ênfase](#15-relações-de-adição-continuidade-e-ênfase)
-    - [1.6 Relações de Condição e a Lógica do Unless](#16-relações-de-condição-e-a-lógica-do-unless)
-    - [1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis](#17-tabela-canônica-de-conectivos-e-substituições-intercambiáveis)
-- [2. Morfologia e Formação de Palavras Técnicas (Word Formation)](#2-morfologia-e-formação-de-palavras-técnicas-word-formation)
-    - [2.1 Prefixos Técnicos Recorrentes em Computação](#21-prefixos-técnicos-recorrentes-em-computação)
-    - [2.2 Famílias de Palavras e Sufixos Gramaticais](#22-famílias-de-palavras-e-sufixos-gramaticais)
+- [1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)](#1-conectivos-logicos-e-marcadores-discursivos-linking-words)
+    - [1.1 Relações de Contraste e Adversidade](#11-relacoes-de-contraste-e-adversidade)
+    - [1.2 Relações de Concessão e a Regra do Despite](#12-relacoes-de-concessao-e-a-regra-do-despite)
+    - [1.3 Relações de Causa, Explicação e Motivo](#13-relacoes-de-causa-explicacao-e-motivo)
+    - [1.4 Relações de Consequência, Efeito e Conclusão](#14-relacoes-de-consequencia-efeito-e-conclusao)
+    - [1.5 Relações de Adição, Continuidade e Ênfase](#15-relacoes-de-adicao-continuidade-e-enfase)
+    - [1.6 Relações de Condição e a Lógica do Unless](#16-relacoes-de-condicao-e-a-logica-do-unless)
+    - [1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis](#17-tabela-canonica-de-conectivos-e-substituicoes-intercambiaveis)
+- [2. Morfologia e Formação de Palavras Técnicas (Word Formation)](#2-morfologia-e-formacao-de-palavras-tecnicas-word-formation)
+    - [2.1 Prefixos Técnicos Recorrentes em Computação](#21-prefixos-tecnicos-recorrentes-em-computacao)
+    - [2.2 Famílias de Palavras e Sufixos Gramaticais](#22-familias-de-palavras-e-sufixos-gramaticais)
     - [2.3 Substantivos Compostos e Leitura Reversa (Noun Adjuncts)](#23-substantivos-compostos-e-leitura-reversa-noun-adjuncts)
-- [3. Glossário Técnico Essencial por Domínio de TI](#3-glossário-técnico-essencial-por-domínio-de-ti)
+- [3. Glossário Técnico Essencial por Domínio de TI](#3-glossario-tecnico-essencial-por-dominio-de-ti)
     - [3.1 Arquitetura e Engenharia de Software](#31-arquitetura-e-engenharia-de-software)
-    - [3.2 Concorrência e Sistemas Operacionais](#32-concorrência-e-sistemas-operacionais)
-    - [3.3 Computação em Nuvem e Infraestrutura](#33-computação-em-nuvem-e-infraestrutura)
-    - [3.4 Segurança Cibernética e Auditoria de Sistemas](#34-segurança-cibernética-e-auditoria-de-sistemas)
+    - [3.2 Concorrência e Sistemas Operacionais](#32-concorrencia-e-sistemas-operacionais)
+    - [3.3 Computação em Nuvem e Infraestrutura](#33-computacao-em-nuvem-e-infraestrutura)
+    - [3.4 Segurança Cibernética e Auditoria de Sistemas](#34-seguranca-cibernetica-e-auditoria-de-sistemas)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
-- [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questões-comentadas--exemplos-padrão-fcc)
+- [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -81,6 +80,7 @@ A concessão introduz uma circunstância desfavorável, limitação técnica ou 
 
 > 🚨 **ALERTA CRÍTICO DE PROVA FCC:**  
 > A forma **"Despite of" NÃO EXISTE** na língua inglesa padrão! É uma armadilha sintática que a FCC insere deliberadamente nas alternativas de substituição. 
+>
 > - Correto: **Despite** + Substantivo (*despite the error*).  
 > - Correto: **In spite of** + Substantivo (*in spite of the error*).  
 > - Totalmente incorreto: *Despite of the error*. Descarte de imediato qualquer opção que use "despite of"!
@@ -285,6 +285,7 @@ A respeito dos marcadores discursivos e do vocabulário técnico empregados no t
 * **E)** A oração iniciada por *"unless rigorous benchmark metrics prove..."* indica que o serviço central será migrado de imediato, independentemente dos testes de vazão.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O conectivo **"Nevertheless"** (contudo, todavia, no entanto, não obstante) é um marcador discursivo coordenativo de **contraste/adversidade**. Ele pontua uma ressalva ou restrição à proposição anterior, e não uma relação explicativa de causa (*because*).
 > - **B)** Incorreta. Em arquitetura de sistemas e computação distribuída, o vocábulo **"overhead"** exprime a sobrecarga operacional computacional de processamento, consumo adicional de memória/CPU ou comunicações de rede para coordenação. Não denota despesas financeiras ou royalties.
 > - **C)** Correta. O conectivo **"Therefore"** (portanto, logo, por conseguinte) estabelece uma dedução lógica de **consequência/conclusão**. Possui equivalência perfeita de sentido com **"Consequently"**, **"Thus"** e **"Hence"**.
@@ -309,6 +310,7 @@ apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indic
 * **E)** Condição restritiva; substituível por *"as long as"*.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Marcadores aditivos (*furthermore, moreover*) agregam novos elementos cumulativos. *"In spite of"* denota uma barreira que não foi suficiente para impedir o evento.
 > - **B)** Correta. A locução prepositiva **"in spite of"** (a despeito de, apesar de) possui valor semântico de **concessão**. As formas **"in spite of"** e **"despite"** são preposições seguidas diretamente por sintagmas nominais (*noun phrases*) ou gerúndios (*-ing*), atuando como equivalentes estritos (*despite the replication lag* = a despeito do atraso de replicação).
 > - **C)** Incorreta. Conectivos de finalidade (*in order to, so as to*) expressam propósito ou objetivo pretendido, exigindo verbos no infinitivo.
@@ -327,7 +329,9 @@ apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indic
 Com base nas regras de formação de palavras, morfologia e substantivos compostos da língua inglesa, analise os itens:
 
 I. No composto *"fault-tolerant high-availability cluster provisioning system"*, a palavra principal (*head noun*) é *"system"*, e todos os termos precedentes funcionam como modificadores adjetivos.  
+
 II. O vocábulo *"seamlessly"* é um advérbio formado pelo acréscimo do sufixo *-ly* ao adjetivo *"seamless"*, significando de forma integrada, fluida e sem interrupções visíveis.  
+
 III. O termo *"failover"* indica uma falha catastrófica definitiva que exige o desligamento manual de toda a rede elétrica da organização.  
 
 Está correto o que se afirma em:
@@ -339,10 +343,11 @@ Está correto o que se afirma em:
 * **E)** I, II e III.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. Apenas as proposições I e II estão alinhadas com a gramática instrumental e os conceitos de TI:
->   - **I (Verdadeiro):** Pela regra dos *Noun Adjuncts*, a última palavra da cadeia é o núcleo substantivo (*system*). Lendo da direita para a esquerda: *sistema de provisionamento de cluster de alta disponibilidade tolerante a falhas*.
->   - **II (Verdadeiro):** O radical *seam* (costura) recebe o sufixo privativo *-less* (sem costura/sem emendas), gerando o adjetivo *seamless*. Com o acréscimo do sufixo adverbial *-ly*, forma-se *seamlessly* (perfeitamente, sem interrupção perceptível, fluidamente).
->   - **III (Falso):** O termo técnico **"failover"** designa a comutação automática e transparente de um recurso defeituoso para um nó redundante funcional, preservando a continuidade operacional, e não um desligamento manual.
+>     - **I (Verdadeiro):** Pela regra dos *Noun Adjuncts*, a última palavra da cadeia é o núcleo substantivo (*system*). Lendo da direita para a esquerda: *sistema de provisionamento de cluster de alta disponibilidade tolerante a falhas*.
+>     - **II (Verdadeiro):** O radical *seam* (costura) recebe o sufixo privativo *-less* (sem costura/sem emendas), gerando o adjetivo *seamless*. Com o acréscimo do sufixo adverbial *-ly*, forma-se *seamlessly* (perfeitamente, sem interrupção perceptível, fluidamente).
+>     - **III (Falso):** O termo técnico **"failover"** designa a comutação automática e transparente de um recurso defeituoso para um nó redundante funcional, preservando a continuidade operacional, e não um desligamento manual.
 > - **B)** Incorreta. O item III é falso.
 > - **C)** Incorreta. O item I é verdadeiro e o III é falso.
 > - **D)** Incorreta. O item III é falso.
@@ -366,6 +371,7 @@ A respeito das relações semânticas e do vocabulário técnico empregados no p
 * **E)** O verbo **"mitigate"** significa potencializar e agravar as vulnerabilidades do hipervisor para testes de estresse.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A conjunção **"whereas"** (ao passo que, enquanto que) estabelece **contraste direto e comparação em paralelo** entre dois modelos de banco de dados, e não consequência (*hence / therefore*).
 > - **B)** Incorreta. **"Due to"** (devido a, em razão de) introduz uma relação de **causa/motivo**, e não de concessão (*in spite of*).
 > - **C)** Correta. O adjetivo composto técnico **"tamper-proof"** (à prova de adulteração/violação) define registros, logs ou mídias cuja integridade é garantida criptograficamente, inviabilizando ou delatando qualquer alteração indevida.
@@ -390,6 +396,7 @@ Com base no texto técnico e nas regras gramaticais da língua inglesa, assinale
 * **E)** O termo **"immutable"** é um adjetivo que caracteriza dados que podem ser modificados livremente por qualquer thread concorrente sem restrições.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O termo **"race condition"** (condição de corrida) não é uma técnica de otimização, mas sim um bug grave de concorrência em que operações simultâneas sobre memória compartilhada levam a inconsistências e perda de dados.
 > - **B)** Incorreta. O termo **"deadlock"** (impasse / travamento mútuo) define o cenário patológico em que duas ou mais threads ficam paralisadas de forma indeterminada aguardando recursos mutuamente retidos, travando o sistema.
 > - **C)** Correta. A locução **"provided that"** (contanto que, desde que) introduz uma **oração subordinada condicional restritiva**, condicionando a adoção de estruturas imutáveis à eficiência do coletor de lixo.

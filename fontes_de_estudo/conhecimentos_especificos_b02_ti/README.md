@@ -11,6 +11,7 @@
 
 ### [04. Engenharia de Software](./04_engenharia_de_software/)
 *Diretório:* [`04_engenharia_de_software/`](./04_engenharia_de_software/)  
+
 1. `01_processos_software_scrum_kanban_xp.md` - Processos de Desenvolvimento Ágil e Preditivo (Scrum, Kanban, XP)
 2. `02_requisitos_historias_bpm_bpmn_uml.md` - Engenharia de Requisitos, Histórias de Usuário, BPMN e Diagramas UML
 3. `03_arquitetura_mvc_camadas_microsservicos_soa.md` - Arquitetura de Software: MVC, Camadas, Microsserviços e SOA
@@ -21,6 +22,7 @@
 
 ### [05. Desenvolvimento de Sistemas](./05_desenvolvimento_de_sistemas/)
 *Diretório:* [`05_desenvolvimento_de_sistemas/`](./05_desenvolvimento_de_sistemas/)  
+
 1. `01_algoritmos_estruturas_dados_complexidade.md` - Algoritmos, Estruturas de Dados e Análise de Complexidade Assintótica
 2. `02_paradigmas_orientacao_objetos_funcional.md` - Paradigmas de Programação: POO Avançada e Programação Funcional
 3. `03_linguagens_java_javascript_python.md` - Linguagens de Programação: Ecossistemas Java, JavaScript/Node.js e Python
@@ -32,6 +34,7 @@
 
 ### [06. Engenharia de Software Assistida por IA e Agentes](./06_engenharia_software_ia_e_sistemas_agentivos/)
 *Diretório:* [`06_engenharia_software_ia_e_sistemas_agentivos/`](./06_engenharia_software_ia_e_sistemas_agentivos/)  
+
 1. `01_fundamentos_llms_para_codigo.md` - Fundamentos de Modelos de Linguagem para Geração e Análise de Código
 2. `02_ferramentas_agentes_cli_ide.md` - Ferramentas e Agentes de Linha de Comando (CLI) e IDEs Inteligentes
 3. `03_ciclo_agentivo_planejamento_execucao_feedback.md` - Ciclo Agentivo: Planejamento, Execução, Feedback e Self-Healing
@@ -42,6 +45,7 @@
 
 ### [07. DevOps e Plataforma de Entrega](./07_devops_e_plataforma_de_entrega/)
 *Diretório:* [`07_devops_e_plataforma_de_entrega/`](./07_devops_e_plataforma_de_entrega/)  
+
 1. `01_cultura_devops_ci_cd_pipelines.md` - Cultura DevOps e Pipelines Contínuos (CI/CD)
 2. `02_gitflow_trunk_based_estrategias_branching.md` - Estratégias de Branching: Git Flow, Trunk-Based Development e Merge Requests
 3. `03_conteinerizacao_docker_dockerfile_compose.md` - Conteinerização com Docker: Imagens, Dockerfile e Docker Compose
@@ -53,6 +57,7 @@
 
 ### [08. Banco de Dados](./08_banco_de_dados/)
 *Diretório:* [`08_banco_de_dados/`](./08_banco_de_dados/)  
+
 1. `01_modelagem_dados_mer_algebra_relacional.md` - Modelagem Conceitual (MER) e Álgebra Relacional
 2. `02_normalizacao_formas_normais_1fn_a_bcnf.md` - Normalização de Dados: 1FN, 2FN, 3FN e BCNF
 3. `03_linguagem_sql_ansi_ddl_dml_dql_dcl_tcl.md` - Linguagem SQL ANSI: DDL, DML, DQL, DCL e TCL
@@ -64,6 +69,7 @@
 
 ### [09. Inteligência Artificial e Ciência de Dados](./09_inteligencia_artificial_e_ciencia_de_dados/)
 *Diretório:* [`09_inteligencia_artificial_e_ciencia_de_dados/`](./09_inteligencia_artificial_e_ciencia_de_dados/)  
+
 1. `01_fundamentos_ia_machine_learning_supervisionado_nao_supervisionado.md` - Fundamentos de Machine Learning Supervisionado e Não Supervisionado
 2. `02_redes_neurais_deep_learning_processamento_linguagem_natural.md` - Redes Neurais Artificiais, Deep Learning e Processamento de Linguagem Natural (PLN)
 3. `03_ia_generativa_llms_engenharia_prompt_rag.md` - IA Generativa, Arquitetura Transformer, Engenharia de Prompt e RAG
@@ -74,6 +80,7 @@
 
 ### [10. Segurança da Informação](./10_seguranca_da_informacao/)
 *Diretório:* [`10_seguranca_da_informacao/`](./10_seguranca_da_informacao/)  
+
 1. `01_principios_seguranca_cidan_politicas_iso27001_27002.md` - Princípios CIDAN, Políticas de Segurança e Normas ISO/IEC 27001 e 27002
 2. `02_criptografia_simetrica_assimetrica_hash_assinatura_digital.md` - Criptografia Simétrica, Assimétrica, Funções Hash e ICP-Brasil
 3. `03_gestao_identidade_acesso_rbac_abac_mfa_zero_trust.md` - Gestão de Identidade e Acesso: RBAC, ABAC, MFA e Arquitetura Zero Trust
@@ -84,6 +91,7 @@
 
 ### [11. Sistemas Operacionais, Redes e Nuvem](./11_sistemas_operacionais_redes_e_nuvem/)
 *Diretório:* [`11_sistemas_operacionais_redes_e_nuvem/`](./11_sistemas_operacionais_redes_e_nuvem/)  
+
 1. `01_sistemas_operacionais_linux_bash_windows_powershell.md` - Sistemas Operacionais: Administração de Linux (Bash) e Windows (PowerShell)
 2. `02_servicos_diretorio_autenticacao_active_directory_ldap.md` - Serviços de Diretório: Active Directory e Protocolo LDAP
 3. `03_redes_computadores_arquitetura_tcp_ip_enderecamento_ip.md` - Redes de Computadores: Modelo OSI, TCP/IP, IPv4 e IPv6
@@ -94,6 +102,7 @@
 
 ### [12. Governança de Tecnologia da Informação](./12_governanca_de_ti/)
 *Diretório:* [`12_governanca_de_ti/`](./12_governanca_de_ti/)  
+
 1. `01_fundamentos_governanca_ti_iso38500_alinhamento_estrategico.md` - Governança Corporativa de TIC e Norma ABNT NBR ISO/IEC 38500:2024
 2. `02_framework_cobit2019_principios_dominios_objetivos_governanca.md` - Framework COBIT 2019: Princípios, Domínios (EDM, APO, BAI, DSS, MEA) e Objetivos
 3. `03_biblioteca_itil_v4_sistema_valor_servico_praticas.md` - Framework ITIL v4: Sistema de Valor de Serviço (SVS), 4 Dimensões e Principais Práticas
@@ -104,6 +113,7 @@
 
 ### [13. Legislação Aplicada à TI](./13_legislacao_aplicada_a_ti/)
 *Diretório:* [`13_legislacao_aplicada_a_ti/`](./13_legislacao_aplicada_a_ti/)  
+
 1. `01_lgpd_fundamentos_principios_bases_legais_direitos_titular.md` - LGPD (Lei nº 13.709/2018): Princípios, Bases Legais e Direitos dos Titulares
 2. `02_lgpd_aspectos_tecnicos_seguranca_incidentes_anpd.md` - Aspectos Técnicos da LGPD: Privacy by Design, Anonimização, RIPD e Notificação à ANPD
 3. `03_marco_civil_internet_responsabilidade_provedores_registros.md` - Marco Civil da Internet (Lei nº 12.965/2014): Guarda de Registros e Neutralidade de Rede
@@ -114,6 +124,7 @@
 
 ### [14. Língua Inglesa (Leitura Técnica)](./14_lingua_inglesa_leitura_tecnica/)
 *Diretório:* [`14_lingua_inglesa_leitura_tecnica/`](./14_lingua_inglesa_leitura_tecnica/)  
+
 1. `01_estrategias_leitura_skimming_scanning_inferencia_contextual.md` - Estratégias de Leitura Instrumental: Skimming, Scanning, Cognatos e Inferência
 2. `02_vocabulario_tecnico_conectivos_estruturas_gramaticais.md` - Vocabulário Técnico de TI, Falsos Cognatos e Linking Words em Textos Tecnológicos
 3. `03_interpretacao_textos_tecnicos_documentacao_artigos_ia.md` - Interpretação de Documentação Técnica de APIs, Manuais e Artigos de Computação

@@ -18,21 +18,21 @@
 ---
 
 ## 🧭 Sumário
-- [1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)](#1-o-comitê-estratégico-de-tecnologia-da-informação---ceti-resolução-normativa-nº-132016)
-    - [1.1 Natureza e Segregação entre Governança e Gestão](#11-natureza-e-segregação-entre-governança-e-gestão)
-    - [1.2 Composição e Competências Primordiais do CETI](#12-composição-e-competências-primordiais-do-ceti)
-- [2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)](#2-política-de-governança-organizacional-resolução-administrativa-nº-142024)
-- [3. Política de Segurança da Informação - PSI (Resolução Administrativa nº 17/2024)](#3-política-de-segurança-da-informação---psi-resolução-administrativa-nº-172024)
-    - [3.1 Classificação Corporativa da Informação no TCE-GO](#31-classificação-corporativa-da-informação-no-tce-go)
+- [1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)](#1-o-comite-estrategico-de-tecnologia-da-informacao-ceti-resolucao-normativa-no-132016)
+    - [1.1 Natureza e Segregação entre Governança e Gestão](#11-natureza-e-segregacao-entre-governanca-e-gestao)
+    - [1.2 Composição e Competências Primordiais do CETI](#12-composicao-e-competencias-primordiais-do-ceti)
+- [2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)](#2-politica-de-governanca-organizacional-resolucao-administrativa-no-142024)
+- [3. Política de Segurança da Informação - PSI (Resolução Administrativa nº 17/2024)](#3-politica-de-seguranca-da-informacao-psi-resolucao-administrativa-no-172024)
+    - [3.1 Classificação Corporativa da Informação no TCE-GO](#31-classificacao-corporativa-da-informacao-no-tce-go)
     - [3.2 Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes](#32-diretrizes-de-uso-seguro-teletrabalho-e-resposta-a-incidentes)
-- [4. Estrutura e Competências da Diretoria de TI (Resolução Administrativa nº 14/2025)](#4-estrutura-e-competências-da-diretoria-de-ti-resolução-administrativa-nº-142025)
-    - [4.1 Competências Executivas Privativas da DTI](#41-competências-executivas-privativas-da-dti)
-    - [4.2 Divisão Funcional das Gerências Vinculadas](#42-divisão-funcional-das-gerências-vinculadas)
-- [5. Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)](#5-plano-diretor-de-ti---pdti-20252026-ordem-de-serviço-nº-0012025-ceti)
-    - [5.1 Diagnóstico Estratégico SWOT](#51-diagnóstico-estratégico-swot)
-    - [5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026](#52-os-quatro-eixos-estratégicos-do-pdti-20252026)
+- [4. Estrutura e Competências da Diretoria de TI (Resolução Administrativa nº 14/2025)](#4-estrutura-e-competencias-da-diretoria-de-ti-resolucao-administrativa-no-142025)
+    - [4.1 Competências Executivas Privativas da DTI](#41-competencias-executivas-privativas-da-dti)
+    - [4.2 Divisão Funcional das Gerências Vinculadas](#42-divisao-funcional-das-gerencias-vinculadas)
+- [5. Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)](#5-plano-diretor-de-ti-pdti-20252026-ordem-de-servico-no-0012025-ceti)
+    - [5.1 Diagnóstico Estratégico SWOT](#51-diagnostico-estrategico-swot)
+    - [5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026](#52-os-quatro-eixos-estrategicos-do-pdti-20252026)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas no Padrão FCC](#7-questões-comentadas-no-padrão-fcc)
+- [7. Questões Comentadas no Padrão FCC](#7-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -102,6 +102,7 @@ A Resolução Administrativa nº 14/2024 consolidou o modelo de Governança Púb
     - *1ª Linha (Gestores Operacionais):* Responsáveis pela execução direta das rotinas e pelos controles internos primários em cada unidade;
     - *2ª Linha (Unidades de Riscos e Integridade):* Responsáveis pelo monitoramento de conformidade, desenho de políticas de riscos e suporte metodológico;
     - *3ª Linha (Auditoria Interna):* Fornece avaliação independente e objetiva da eficácia dos processos de governança e controles institucionais.
+
 3. **Conexão com a TIC:** A Governança de TI não é uma ilha isolada; os objetivos tecnológicos do PDTI são derivados diretamente dos objetivos estratégicos da RA nº 14/2024 para maximizar o valor público entregue pelo Tribunal à sociedade goiana.
 
 ---
@@ -137,12 +138,15 @@ flowchart LR
 1. **Credenciais e Autenticação:**
     - Senhas pessoais, intransferíveis e secretas com política de complexidade mínima (números, caracteres especiais, maiúsculas e minúsculas);
     - Uso compulsório de **Autenticação Multifator (MFA)** para todos os acessos externos e sistemas corporativos sensíveis.
+
 2. **Teletrabalho e Acesso Remoto:**
     - Conexão remota permitida exclusivamente por meio de túnel criptografado **VPN (*Virtual Private Network*) corporativa** do Tribunal;
     - Proibição de armazenamento de documentos restritos em dispositivos particulares (computadores domésticos compartilhados sem antivírus gerenciado);
     - Bloqueio automático de tela configurado para tempo máximo de inatividade (ex.: 5 minutos).
+
 3. **Dispositivos Móveis de Armazenamento:**
     - Bloqueio por política de grupo (GPO) do uso de dispositivos USB (*pendrives*, HDs externos) não homologados nas estações de trabalho do Tribunal.
+
 4. **Tratamento de Incidentes de Segurança:**
     - Existência de equipe especializada de resposta a incidentes cibernéticos (CSIRT do TCE-GO);
     - Dever funcional de todo servidor de comunicar imediatamente à DTI qualquer indício de infecção por malware, tentativa de *phishing* ou perda de equipamento funcional.
@@ -237,6 +241,7 @@ flowchart TD
 * **E)** Assinar monocraticamente contratos de compra de computadores sem a instauração de procedimento licitatório regular.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A programação de rotinas de banco de dados e configuração de switches são atribuições estritamente técnicas e operacionais da Diretoria de TI (DTI), e não de um comitê estratégico colegiado de alta direção.
 > - **B)** **Correta.** O CETI (RN nº 13/2016) é o órgão superior colegiado de governança de TIC do TCE-GO. Cabe ao CETI avaliar, direcionar e monitorar a tecnologia, o que compreende privativamente a aprovação formal do PDTI, suas revisões e a priorização do portfólio de projetos e investimentos estratégicos da Corte de Contas.
 > - **C)** Incorreta. O suporte de primeiro nível (Service Desk) compete à Gerência de Atendimento e Suporte da DTI.
@@ -257,6 +262,7 @@ flowchart TD
 * **E)** O uso de autenticação de duplo fator é expressamente proibido pela PSI por retardar o trabalho remoto.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** A Resolução Administrativa nº 17/2024 (PSI do TCE-GO) estabelece normas rigorosas para o teletrabalho e segurança da informação: acesso externo somente via túnel VPN corporativo com autenticação multifator (MFA), proteção de credenciais institucionais e proibição categórica de gravação de arquivos de trabalho restritos em mídias particulares não homologadas ou computadores compartilhados.
 > - **B)** Incorreta. A desativação de controles de segurança (como soluções antivírus gerenciadas) é terminantemente proibida e constitui falta funcional.
 > - **C)** Incorreta. O login e a senha são individuais, personalíssimos e intransferíveis; compartilhá-los com terceiros viola a confidencialidade e a integridade da cadeia de custódia da auditoria.
@@ -277,6 +283,7 @@ flowchart TD
 * **E)** O PDTI veda o uso de inteligência artificial em quaisquer atividades operacionais ou finalísticas do controle externo.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O PDTI é o instrumento diretor de alinhamento tático de TI com a missão finalística de controle externo do Tribunal de Contas, muito além de mero controle de depreciação de bens.
 > - **B)** **Correta.** Conforme os ditames da Lei nº 14.133/2021, das diretrizes do TCU e da Ordem de Serviço nº 001/2025-CETI, todas as contratações e investimentos de TIC devem originar-se do planejamento consolidado no PDTI 2025–2026. Seus quatro eixos estruturantes englobam infraestrutura e nuvem, inteligência artificial (Ecossistema IAGO), cibersegurança Zero Trust e experiência digital dos usuários e jurisdicionados.
 > - **C)** Incorreta. O PDTI tem vigência bienal (2025–2026) e possui acompanhamento contínuo e monitoramento semestral pelo CETI.
@@ -297,6 +304,7 @@ flowchart TD
 * **E)** Fiscalizar presencialmente a regularidade de tráfego de veículos rodoviários nas rodovias estaduais goianas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O julgamento de contas municipais é competência de controle externo dos Tribunais de Contas ou das Câmaras Municipais (conforme o tipo de conta), exercida pelos Conselheiros relatores e órgãos deliberativos do TCE, e não pela área técnica de TI.
 > - **B)** **Correta.** A Resolução Administrativa nº 14/2025 define a DTI como o braço executivo de tecnologia da corte, encarregado da engenharia de software (desenvolvimento e sustentação), infraestrutura (redes, telecomunicações e data centers), governança de bancos de dados/IA e atendimento aos usuários por meio do Service Desk.
 > - **C)** Incorreta. A elaboração da LOA estadual é atribuição do Poder Executivo (Secretaria de Economia / Governador).
@@ -317,6 +325,7 @@ flowchart TD
 * **E)** Devem ser armazenados em pendrive sem senha e afixados no mural de avisos da recepção do Tribunal.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** De acordo com a RA nº 17/2024 (PSI do TCE-GO) e a legislação arquivística/LAI, informações protegidas por sigilo fiscal, bancário ou referentes a inspeções preliminares de auditoria em curso recebem o nível de classificação Restrita / Sigilosa. Esse nível impõe controles rígidos de acesso exclusivo aos auditores formalmente designados e autoridades competentes, visando não frustrar a eficácia da investigação e preservar garantias legais.
 > - **B)** Incorreta. A publicação precoce de relatórios preliminares sigilosos com dados fiscais causaria nulidade probatória, violação de sigilo fiscal (crime previsto no Código Penal e CTN) e infração à PSI.
 > - **C)** Incorreta. A PSI veda o envio de ativos de informação institucionais sigilosos para contas de correio eletrônico particulares ou serviços de nuvem pública não corporativos.

@@ -15,28 +15,28 @@
 ---
 
 ## 🧭 Sumário
-- [1. Gestão de Contexto e Memória em Sistemas Agentivos](#1-gestão-de-contexto-e-memória-em-sistemas-agentivos)
-    - [1.1 Desafios da Janela de Contexto e a Degradação de Atenção](#11-desafios-da-janela-de-contexto-e-a-degradação-de-atenção)
-    - [1.2 Memória de Curto Prazo (Working Memory) vs. Memória de Longo Prazo](#12-memória-de-curto-prazo-working-memory-vs-memória-de-longo-prazo)
-    - [1.3 Estratégias de Gestão: Sumarização Progressiva, Podagem e Prompt Caching](#13-estratégias-de-gestão-sumarização-progressiva-podagem-e-prompt-caching)
-- [2. Retrieval-Augmented Generation (RAG) Aplicado a Bases de Código](#2-retrieval-augmented-generation-rag-aplicado-a-bases-de-código)
-    - [2.1 Arquitetura e Pipeline de Ingestão de Código](#21-arquitetura-e-pipeline-de-ingestão-de-código)
+- [1. Gestão de Contexto e Memória em Sistemas Agentivos](#1-gestao-de-contexto-e-memoria-em-sistemas-agentivos)
+    - [1.1 Desafios da Janela de Contexto e a Degradação de Atenção](#11-desafios-da-janela-de-contexto-e-a-degradacao-de-atencao)
+    - [1.2 Memória de Curto Prazo (Working Memory) vs. Memória de Longo Prazo](#12-memoria-de-curto-prazo-working-memory-vs-memoria-de-longo-prazo)
+    - [1.3 Estratégias de Gestão: Sumarização Progressiva, Podagem e Prompt Caching](#13-estrategias-de-gestao-sumarizacao-progressiva-podagem-e-prompt-caching)
+- [2. Retrieval-Augmented Generation (RAG) Aplicado a Bases de Código](#2-retrieval-augmented-generation-rag-aplicado-a-bases-de-codigo)
+    - [2.1 Arquitetura e Pipeline de Ingestão de Código](#21-arquitetura-e-pipeline-de-ingestao-de-codigo)
     - [2.2 O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)](#22-o-desafio-do-chunking-consciente-de-sintaxe-ast-based-chunking)
     - [2.3 Modelos de Embeddings e Bancos de Dados Vetoriais](#23-modelos-de-embeddings-e-bancos-de-dados-vetoriais)
-    - [2.4 Métricas de Proximidade Semântica e Similaridade de Cosseno](#24-métricas-de-proximidade-semântica-e-similaridade-de-cosseno)
-    - [2.5 Busca Híbrida (Dense + Sparse) e Técnicas de Reranking](#25-busca-híbrida-dense--sparse-e-técnicas-de-reranking)
-    - [2.6 Matriz de Decisão Arquitetural: RAG vs. Fine-Tuning](#26-matriz-de-decisão-arquitetural-rag-vs-fine-tuning)
+    - [2.4 Métricas de Proximidade Semântica e Similaridade de Cosseno](#24-metricas-de-proximidade-semantica-e-similaridade-de-cosseno)
+    - [2.5 Busca Híbrida (Dense + Sparse) e Técnicas de Reranking](#25-busca-hibrida-dense-sparse-e-tecnicas-de-reranking)
+    - [2.6 Matriz de Decisão Arquitetural: RAG vs. Fine-Tuning](#26-matriz-de-decisao-arquitetural-rag-vs-fine-tuning)
 - [3. O Protocolo Model Context Protocol (MCP)](#3-o-protocolo-model-context-protocol-mcp)
-    - [3.1 Motivação e Resolução do Problema de Integração N x M](#31-motivação-e-resolução-do-problema-de-integração-n-x-m)
+    - [3.1 Motivação e Resolução do Problema de Integração N x M](#31-motivacao-e-resolucao-do-problema-de-integracao-n-x-m)
     - [3.2 A Arquitetura Cliente-Servidor do MCP (Host, Client e Server)](#32-a-arquitetura-cliente-servidor-do-mcp-host-client-e-server)
-    - [3.3 As Três Primitivas Centrais: Resources, Tools e Prompts](#33-as-três-primitivas-centrais-resources-tools-e-prompts)
+    - [3.3 As Três Primitivas Centrais: Resources, Tools e Prompts](#33-as-tres-primitivas-centrais-resources-tools-e-prompts)
     - [3.4 Mecanismos de Transporte Padronizados: `stdio` e `SSE`](#34-mecanismos-de-transporte-padronizados-stdio-e-sse)
 - [4. Extensibilidade, Tool Use e Skills Especializadas](#4-extensibilidade-tool-use-e-skills-especializadas)
-    - [4.1 Funcionamento do Tool Use / Function Calling via JSON Schema](#41-funcionamento-do-tool-use--function-calling-via-json-schema)
-    - [4.2 Definição e Estrutura de Skills Modulares](#42-definição-e-estrutura-de-skills-modulares)
-    - [4.3 Orquestração Multiagente e Segregação de Responsabilidades](#43-orquestração-multiagente-e-segregação-de-responsabilidades)
+    - [4.1 Funcionamento do Tool Use / Function Calling via JSON Schema](#41-funcionamento-do-tool-use-function-calling-via-json-schema)
+    - [4.2 Definição e Estrutura de Skills Modulares](#42-definicao-e-estrutura-de-skills-modulares)
+    - [4.3 Orquestração Multiagente e Segregação de Responsabilidades](#43-orquestracao-multiagente-e-segregacao-de-responsabilidades)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas & Prática Padrão FCC](#6-questões-comentadas--prática-padrão-fcc)
+- [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -114,6 +114,7 @@ flowchart TD
 
 ### 2.2 O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)
 Dividir código-fonte através de fatiamento ingênuo por contagem fixa de caracteres ou linhas é um erro grave na engenharia de software: pode cortar uma função no meio, separar anotações de transação do método ou quebrar laços de repetição.
+
 - **Chunking Baseado em AST (*Abstract Syntax Tree*):** Utiliza parsers gramaticais (como *Tree-sitter*) para recortar o arquivo respeitando suas fronteiras sintáticas reais:
     - Cada chunk encapsula um método completo, uma classe autocontida ou um bloco de interface com seus respectivos comentários;
     - Preserva no topo do chunk o caminho do arquivo, imports e declaração de pacote (*namespace*), assegurando contexto para o modelo de embeddings.
@@ -141,6 +142,7 @@ $$\cos(\theta) = \frac{A \cdot B}{\|A\| \|B\|} = \frac{\sum_{i=1}^n A_i B_i}{\sq
 
 ### 2.5 Busca Híbrida (Dense + Sparse) e Técnicas de Reranking
 Bases de código dependem criticamente de nomes literais exatos (como o nome de uma constante `MAX_RETRY_TIMEOUT` ou a classe `AcordaoAuditoriaService`). A busca puramente semântica pode falhar ao identificar o identificador exato.
+
 - **Busca Híbrida (*Hybrid Search*):** Combina em uma única operação a busca vetorial densa (conceitual) com a busca léxica tradicional baseada em frequência de termos (**BM25** ou Full-Text Search).
 - **Reciprocal Rank Fusion (RRF):** Algoritmo matemático que mescla e equaliza as posições das duas listas de resultados.
 - **Reranker (Cross-Encoder):** Modelo neural especializado que inspeciona detalhadamente os 20 melhores resultados preliminares, reordenando-os para selecionar os 3 a 5 chunks com mais alto grau de relevância antes da injeção no prompt final.
@@ -307,11 +309,13 @@ A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale
 * **E)** A utilização do MCP dispensa o modelo de IA de interpretar parâmetros em esquemas JSON Schema, delegando a tipagem de dados integralmente ao sistema operacional hospedeiro.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O MCP é um padrão aberto (*open standard*) multiplataforma e neutro, com SDKs oficiais para TypeScript, Python, Kotlin e suporte comunitário para diversas outras linguagens.
 > - **B)** **CORRETA.** A arquitetura do MCP estrutura-se em Host (aplicação consumidora), Client (camada de transporte) e Server (provedor de dados e serviços). Os servidores expõem formalmente três primitivas canônicas:
->
 >     1. **Resources** (dados somente-leitura)
->     2. **Tools** (funções executáveis ativas que produzem efeitos colaterais) e (3) **Prompts** (templates de mensagens parametrizáveis).
+>     2. **Tools** (funções executáveis ativas que produzem efeitos colaterais)
+>     3. **Prompts** (templates de mensagens parametrizáveis).
+>
 > - **C)** Incorreta. *Tools* são precisamente os recursos executáveis com parâmetros validados por esquema que permitem disparar ações ativas (gravar dados, executar comandos no shell, interagir com APIs externas). Dados passivos de leitura são mapeados como *Resources*.
 > - **D)** Incorreta. Para servidores que operam localmente na mesma máquina, o transporte padrão e prioritário do MCP é o **`stdio`** (Standard Input/Output). Para servidores remotos em rede, adota-se **`SSE`** (*Server-Sent Events*) sobre HTTP.
 > - **E)** Incorreta. O MCP depende fundamentalmente da validação rigorosa de tipos e parâmetros estruturados através de contratos em **JSON Schema**.
@@ -332,6 +336,7 @@ Para permitir que a IA consulte essas informações atualizadas com alta precis�
 * **E)** A técnica de *Fine-Tuning* supervisionado com exclusão de qualquer banco de dados vetorial, visto que embeddings numéricos são incapazes de representar proximidade semântica entre termos técnicos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O pré-treinamento completo de um modelo fundacional consome milhões de dólares e semanas de processamento em supercomputadores, sendo totalmente inviável para acomodar atualizações diárias de código.
 > - **B)** **CORRETA.** A arquitetura RAG viabiliza a atualização dinâmica e contínua do conhecimento factual sem retreino de pesos. O fatiamento estruturado com base na Árvore de Sintaxe Abstrata (AST) garante que classes e funções sejam preservadas em blocos lógicos coesos, produzindo embeddings representativos indexados em bancos vetoriais para busca por similaridade de cosseno.
 > - **C)** Incorreta. Submeter milhões de linhas em um único prompt ultrapassa a capacidade prática das janelas de contexto, gera custos financeiros inviáveis e sofre severa degradação posicional de atenção (*Lost in the Middle*).
@@ -354,6 +359,7 @@ Sobre os critérios comparativos que orientam essa escolha técnica, assinale a 
 * **E)** O RAG exige a alteração dos pesos sinápticos do modelo em cada requisição de busca vetorial efetuada pelo usuário.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Fine-Tuning é desaconselhado para dados factuais voláteis, pois exige pipeline custoso de re-treinamento com retropropagação a cada atualização de dado. Dados dinâmicos devem ser mantidos via RAG.
 > - **B)** **CORRETA.** No RAG, a recuperação de evidências é auditável e explícita: os trechos extraídos do banco vetorial são inseridos de forma visível no prompt de contexto, permitindo citar e auditar o arquivo, linha e documento normativo que respaldaram a resposta gerada.
 > - **C)** Incorreta. O Fine-Tuning não impede alucinações e pode sofrer com esquecimento catastrófico; o RAG é a técnica primordial para mitigação de alucinações por ancorar a resposta em contexto factual verificado.
@@ -376,6 +382,7 @@ A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetor
 * **E)** A similaridade de cosseno mede exclusivamente o número de caracteres coincidentes entre duas strings semânticas em ordem alfabética.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Modelos modernos de embeddings operam em hiperplanos vetoriais com milhares de dimensões (ex.: 768, 1536 ou 3072 floats).
 > - **B)** **CORRETA.** Repositórios de código contêm identificadores literais rígidos (como nomes de classes `ProcessoTceDTO`, constantes e códigos de erro) que podem ter baixa representatividade semântica vetorial pura. A **Busca Híbrida** integra a busca semântica densa (compreensão de conceitos afins via similaridade de cosseno) com a busca esparsa tradicional (BM25 / Full-Text Search para casamento literal exato), fundindo os rankings com máxima precisão.
 > - **C)** Incorreta. Proposição fantasiosa sem respaldo computacional.
@@ -398,6 +405,7 @@ Considerando o funcionamento das primitivas e a governança do MCP, a equipe de 
 * **E)** As conexões locais via transporte `stdio` foram substituídas por conexões telnet sem criptografia na rede pública.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A primitiva *Resources* do MCP é estritamente passiva e somente-leitura; mutações de dados exigem o uso da primitiva *Tools*.
 > - **B)** Incorreta. Conceder autonomia irrestrita para comandos destrutivos viola frontalmente o princípio do privilégio mínimo e as políticas de segurança corporativa.
 > - **C)** **CORRETA.** A segregação arquitetural recomendada no MCP determina que consultas informativas (esquemas de tabelas, logs, manuais) sejam expostas como *Resources* (idempotentes e somente-leitura). Ações ativas que modificam bancos ou arquivos (*Tools*) devem validar contratos estritos em JSON Schema e implementar barreiras de autorização humana explícita (*Human-in-the-Loop*) para comandos de risco elevado.

@@ -6,13 +6,14 @@
 
 ---
 
-### 📌 Ementa / Itens do Edital
+## 📌 Ementa / Itens do Edital
 1. **Fundamentos e Histórico da Inteligência Artificial:** Definições clássicas de Russell & Norvig; Teste de Turing, Quarto Chinês de Searle; IA Estreita (*Narrow AI*) vs. IA Geral (*AGI*) vs. Superinteligência (*ASI*); Paradigma Simbólico (*Sistemas Especialistas*) vs. Paradigma Conexionista (*Subsimbólico/Estatístico*); Conceito formal de Agente Racional.
 2. **Aprendizado de Máquina (Machine Learning):**
     - **Aprendizado Supervisionado:** Tarefas de Classificação (Regressão Logística, Árvores de Decisão com Entropia/Gini, SVM com hiperplano de margem máxima e kernel trick, Naive Bayes com suposição de independência condicional, k-NN com cálculo de distâncias) e Tarefas de Regressão (Regressão Linear via OLS, Regularização Ridge com norma $L_2$ e Lasso com norma $L_1$ para seleção de atributos, Elastic Net).
     - **Métodos de Ensemble:** Bagging (*Random Forest* com amostragem bootstrap e subespaço aleatório de features para redução de variância) vs. Boosting (*AdaBoost*, *Gradient Boosting*, *XGBoost* e *LightGBM* com treinamento sequencial focado em resíduos para redução de viés).
     - **Aprendizado Não Supervisionado:** Agrupamento/Clustering (K-Means com inércia e método do cotovelo, DBSCAN com densidade, pontos núcleo/borda/ruído para detecção de anomalias, Agrupamento Hierárquico com dendrogramas e abordagens aglomerativa/divisiva) e Redução de Dimensionalidade (PCA com autovalores/autovetores e máxima variância, t-SNE e UMAP).
     - **Aprendizado por Reforço:** Agente, Ambiente, Estado, Ação, Recompensa, Processos de Decisão de Markov (MDP), Equação de Bellman, Dilema *Exploration vs. Exploitation* e Q-Learning.
+
 3. **Redes Neurais Artificiais e Deep Learning:**
     - **Arquitetura e Fundamentos:** Perceptron de Rosenblatt (pesos, bias, soma ponderada), limitação linear e problema do XOR (Minsky & Papert); Perceptron Multicamadas (MLP) e Teorema da Aproximação Universal.
     - **Funções de Ativação Não Lineares:** Sigmoide (desvanecimento do gradiente), Tangente Hiperbólica ($\tanh$ centrada em zero), ReLU (padrão em camadas ocultas e patologia do *Dying ReLU*) e Softmax (restrita à camada de saída multiclasse).
@@ -21,25 +22,25 @@
 
 ---
 
-### 🧭 Sumário
-- [1. Fundamentos e Paradigmas da Inteligência Artificial](#1-fundamentos-e-paradigmas-da-inteligência-artificial)
-    - [1.1 Dimensões de Russell & Norvig e o Conceito de Agente Racional](#11-dimensões-de-russell--norvig-e-o-conceito-de-agente-racional)
-    - [1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência](#12-níveis-de-ia-narrow-ai-vs-agi-vs-superinteligência)
-    - [1.3 Paradigma Simbólico vs. Paradigma Conexionista](#13-paradigma-simbólico-vs-paradigma-conexionista)
-- [2. Aprendizado de Máquina Supervisionado](#2-aprendizado-de-máquina-supervisionado)
-    - [2.1 Modelos e Algoritmos de Classificação](#21-modelos-e-algoritmos-de-classificação)
-    - [2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting](#22-comitês-de-modelos-ensemble-bagging-vs-boosting)
-    - [2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)](#23-modelos-de-regressão-e-técnicas-de-regularização-ridge-lasso-e-elastic-net)
-- [3. Aprendizado Não Supervisionado e por Reforço](#3-aprendizado-não-supervisionado-e-por-reforço)
-    - [3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)](#31-algoritmos-de-agrupamento-clustering-k-means-dbscan-e-hierárquico)
-    - [3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)](#32-redução-de-dimensionalidade-pca-t-sne-e-umap)
-    - [3.3 Aprendizado por Reforço (Reinforcement Learning)](#33-aprendizado-por-reforço-reinforcement-learning)
+## 🧭 Sumário
+- [1. Fundamentos e Paradigmas da Inteligência Artificial](#1-fundamentos-e-paradigmas-da-inteligencia-artificial)
+    - [1.1 Dimensões de Russell & Norvig e o Conceito de Agente Racional](#11-dimensoes-de-russell-norvig-e-o-conceito-de-agente-racional)
+    - [1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência](#12-niveis-de-ia-narrow-ai-vs-agi-vs-superinteligencia)
+    - [1.3 Paradigma Simbólico vs. Paradigma Conexionista](#13-paradigma-simbolico-vs-paradigma-conexionista)
+- [2. Aprendizado de Máquina Supervisionado](#2-aprendizado-de-maquina-supervisionado)
+    - [2.1 Modelos e Algoritmos de Classificação](#21-modelos-e-algoritmos-de-classificacao)
+    - [2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting](#22-comites-de-modelos-ensemble-bagging-vs-boosting)
+    - [2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)](#23-modelos-de-regressao-e-tecnicas-de-regularizacao-ridge-lasso-e-elastic-net)
+- [3. Aprendizado Não Supervisionado e por Reforço](#3-aprendizado-nao-supervisionado-e-por-reforco)
+    - [3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)](#31-algoritmos-de-agrupamento-clustering-k-means-dbscan-e-hierarquico)
+    - [3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)](#32-reducao-de-dimensionalidade-pca-t-sne-e-umap)
+    - [3.3 Aprendizado por Reforço (Reinforcement Learning)](#33-aprendizado-por-reforco-reinforcement-learning)
 - [4. Redes Neurais Artificiais e Deep Learning](#4-redes-neurais-artificiais-e-deep-learning)
-    - [4.1 Perceptron, Limitações Lineares e Redes Multicamadas (MLP)](#41-perceptron-limitações-lineares-e-redes-multicamadas-mlp)
-    - [4.2 Funções de Ativação Não Lineares e suas Patologias](#42-funções-de-ativação-não-lineares-e-suas-patologias)
+    - [4.1 Perceptron, Limitações Lineares e Redes Multicamadas (MLP)](#41-perceptron-limitacoes-lineares-e-redes-multicamadas-mlp)
+    - [4.2 Funções de Ativação Não Lineares e suas Patologias](#42-funcoes-de-ativacao-nao-lineares-e-suas-patologias)
     - [4.3 Treinamento: Backpropagation, Gradiente Descendente e Otimizadores](#43-treinamento-backpropagation-gradiente-descendente-e-otimizadores)
     - [4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers](#44-arquiteturas-profundas-cnns-rnnslstm-e-transformers)
-- [5. Questões Comentadas (FCC)](#5-questões-comentadas-fcc)
+- [5. Questões Comentadas (FCC)](#5-questoes-comentadas-fcc)
 
 ---
 
@@ -199,11 +200,13 @@ Para estabilizar o modelo, adiciona-se uma penalidade matemática $\lambda \cdot
     - Adiciona a soma dos quadrados dos coeficientes:
      $$\mathcal{L}_{\text{Ridge}} = \text{MSE} + \lambda \sum_{j=1}^{p} w_j^2$$
     - Por ser suave e esférica, a penalidade $L_2$ **encolhe (*shrinks*) continuamente a magnitude dos coeficientes** em direção a zero à medida que $\lambda$ cresce, **mas nunca força nenhum coeficiente a se tornar rigorosamente zero**. Excelente para mitigar multicolinearidade severa.
+
 2. **Regressão Lasso (*Least Absolute Shrinkage and Selection Operator* - Norma $L_1$):**
     - Adiciona a soma dos valores absolutos dos coeficientes:
      $$\mathcal{L}_{\text{Lasso}} = \text{MSE} + \lambda \sum_{j=1}^{p} |w_j|$$
     - Devido aos vértices pontiagudos nos eixos da geometria em losango da norma $L_1$, a solução de custo mínimo toca os eixos cartesianos, **forçando coeficientes irrelevantes a se tornarem EXATAMENTE ZERO**.
     - O Lasso executa simultaneamente contração e **seleção automática de atributos (*feature selection*)**, produzindo modelos parcimoniosos e esparsos.
+
 3. **Elastic Net:**
     - Combinação convexa das penalidades $L_1$ e $L_2$:
      $$\mathcal{L}_{\text{ElasticNet}} = \text{MSE} + \lambda \left[ \alpha \sum_{j=1}^{p} |w_j| + \frac{1-\alpha}{2} \sum_{j=1}^{p} w_j^2 \right]$$
@@ -292,12 +295,14 @@ O ciclo de aprendizado de redes profundas articula quatro etapas fundamentais:
     - Regressão: $\text{MSE} = \frac{1}{n} \sum (y - \hat{y})^2$.
     - Classificação Binária: Entropia Cruzada Binária ($\text{Log-Loss}$).
     - Classificação Multiclasse: Entropia Cruzada Categórica ($-\sum y_i \log \hat{y}_i$).
+
 2. **Retropropagação (*Backpropagation*):** Algoritmo que calcula analiticamente o vetor de derivadas parciais da perda em relação a cada peso de cada camada ($\frac{\partial \mathcal{L}}{\partial w}$), partindo da camada final em direção à camada inicial através da aplicação estrita da **Regra da Cadeia (*Chain Rule*)** do cálculo multivariável.
 3. **Otimizadores de Atualização de Pesos:**
     - *Gradiente Descendente Estocástico (SGD):* Atualiza pesos por amostra ou minilote (*mini-batch*): $w \leftarrow w - \eta \nabla \mathcal{L}$.
     - *Momentum:* Adiciona uma fração inercial da velocidade anterior, amortecendo oscilações e acelerando o escape de platôs e mínimos locais rasos.
     - *RMSprop:* Ajusta a taxa de aprendizado dinamicamente com base na raiz da média móvel quadrática dos gradientes recentes.
     - *Adam (*Adaptive Moment Estimation*):* Combina os benefícios do **Momentum** (primeiro momento dos gradientes) e do **RMSprop** (segundo momento não-centrado dos gradientes). É o otimizador padrão mais utilizado no estado da arte.
+
 4. **Técnicas de Regularização em Deep Learning:**
     - *Dropout:* Desativa aleatoriamente uma porcentagem fixada de neurônios (ex.: 20% a 50%) a cada iteração do treinamento, impedindo a coadaptação espúria entre nós vizinhos.
     - *Batch Normalization:* Normaliza as ativações de cada minilote para média zero e variância unitária, estabilizando e acelerando a convergência.
@@ -335,6 +340,7 @@ Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
 * **E)** O *AdaBoost* mantém pesos uniformes e imutáveis para todas as instâncias de treino ao longo de todas as iterações, independentemente de os estimadores anteriores terem classificado o registro corretamente ou não.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Quem treina árvores em sequência focando na redução de viés é o **Boosting** (como o AdaBoost ou Gradient Boosting). O *Random Forest* utiliza **Bagging** com treinamento paralelo e independente.
 > - **B)** **Correta.** O **Bagging (*Bootstrap Aggregating*)** gera réplicas de conjuntos de dados via amostragem com reposição (*bootstrap*), ajustando estimadores base em **paralelo**. A agregação das predições de múltiplos modelos descorrelacionados reduz drasticamente a **variância** global do comitê, combatendo o sobreajuste (*overfitting*).
 > - **C)** Incorreta. O *Boosting* opera em **série sequencial** e utiliza estimadores fracos intencionalmente simples (*weak learners / stumps*), atuando precipuamente na redução do **viés**.
@@ -357,6 +363,7 @@ Nesse contexto, o algoritmo mais apropriado para a tarefa e sua fundamentação 
 * **E)** Agrupamento Hierárquico Divisivo com ligação simples (*Single Linkage*), pois exige a parametrização de centroides esféricos pré-fixados para evitar o efeito de encadeamento (*chaining*).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O *K-Means* exige a parametrização prévia e obrigatória do número de clusters ($k$) e assume que os grupos são esféricos e de variâncias semelhantes, falhando em formatos arbitrários.
 > - **B)** Incorreta. O PCA é uma técnica de **redução de dimensionalidade linear**, e não um algoritmo de agrupamento.
 > - **C)** **Correta.** O **DBSCAN (*Density-Based Spatial Clustering of Applications with Noise*)** é sob medida para o problema: utiliza os parâmetros $\varepsilon$ e *min_samples*; **dispensa a definição prévia de $k$**; detecta formas geométricas não convexas e complexas; e isola dados em áreas de baixa densidade classificando-os formalmente como **ruído (*noise/outliers*)**, perfeito para auditoria e detecção de anomalias.
@@ -378,6 +385,7 @@ Em arquiteturas de Redes Neurais Artificiais profundas (*Deep Learning*), as fun
 * **E)** A retropropagação (*Backpropagation*) dispensa a regra da cadeia e utiliza apenas a média aritmética simples dos erros da camada final para atualizar os pesos de todas as camadas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** A função **ReLU** ($f(z) = \max(0, z)$) possui derivada constante igual a $1$ para $z > 0$, prevenindo o desvanecimento de gradiente na região positiva. No entanto, para entradas menores ou iguais a zero ($z \le 0$), sua saída e derivada tornam-se zero. Se um neurônio for levado por gradientes desfavoráveis a um estado de ativação negativo para quase todo o dataset, ele não mais atualizará seus pesos, tornando-se inerte (*Dying ReLU*).
 > - **B)** Incorreta. A Sigmoide satura nas caudas ($|z| \gg 0$) gerando derivadas próximas a zero. Ao encadear dezenas de camadas, o produto sucessivo dessas derivadas zera o gradiente (**vanishing gradient**), inviabilizando o treino das camadas iniciais.
 > - **C)** Incorreta. A função **Softmax** converte saídas em probabilidades categóricas cuja soma resulta em $1$, pertencendo estrita e quase exclusivamente à **camada de saída** de problemas de classificação multiclasse.
@@ -400,6 +408,7 @@ A técnica de modelagem que atende estritamente ao requisito de zerar coeficient
 * **E)** Análise Discriminante Linear, que zera coeficientes descartando autovalores inferiores à unidade.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A Regressão **Ridge** utiliza a norma $L_2$ ($\sum w_j^2$). A geometria esférica suave encolhe os coeficientes em direção a zero, mas **nunca zera nenhum estritamente**, não realizando seleção de atributos.
 > - **B)** Incorreta. O método OLS clássico não possui termo de regularização, sofrendo com alta variância e coeficientes instáveis sob multicolinearidade.
 > - **C)** **Correta.** A Regressão **Lasso** adiciona a penalidade com base na norma $L_1$ ($\lambda \sum |w_j|$). Devido aos vértices pontiagudos nos eixos cartesianos da restrição em losango da norma $L_1$, a solução atinge pontos onde os coeficientes tornam-se **rigorosamente iguais a zero**, realizando simultaneamente contração e **seleção automática de variáveis**.
@@ -422,6 +431,7 @@ Sobre as características estruturais dessas arquiteturas, assinale a alternativ
 * **E)** As células LSTM (*Long Short-Term Memory*) descartam qualquer tipo de porta reguladora, substituindo todo o fluxo interno por uma única camada Perceptron sem função de ativação.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** As **CNNs** empregam filtros convolucionais deslizantes (*kernels*) que compartilham pesos ao longo de todo o mapa espacial. Isso confere a propriedade fundamental de **invariância à translação espacial** (um padrão como uma assinatura ou trinca em asfalto é reconhecido independentemente de sua posição na imagem) e derruba drasticamente a quantidade de parâmetros livres frente a redes densas (MLP).
 > - **B)** Incorreta. O propósito das camadas de pooling (*Max Pooling* ou *Average Pooling*) é realizar o **downsampling (subamostragem)**, ou seja, **reduzir** a resolução espacial das matrizes para diminuir o custo de processamento e conferir robustez a pequenas deformações.
 > - **C)** Incorreta. As RNNs simples sofrem severamente do problema de **desvanecimento do gradiente** (*vanishing gradient*) em sequências longas. Por esse motivo, as células **LSTM** e **GRU** foram desenvolvidas com portas seletivas para reter dependências contextuais distantes.

@@ -20,18 +20,18 @@
 ---
 
 ## 🧭 Sumário
-1. [Eficácia e Aplicabilidade das Normas Constitucionais](#1-eficácia-e-aplicabilidade-das-normas-constitucionais)
-    - 1.1 [Classificação Tripartite de José Afonso da Silva](#11-classificação-tripartite-de-josé-afonso-da-silva)
-    - 1.2 [Eficácia Mínima das Normas Limitadas e Remédios contra Omissão](#12-eficácia-mínima-das-normas-limitadas-e-remédios-contra-omissão)
-    - 1.3 [Reserva do Possível versus Mínimo Existencial](#13-reserva-do-possível-versus-mínimo-existencial)
-2. [Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)](#2-princípios-fundamentais-da-cf88-título-i---arts-1º-a-4º)
-    - 2.1 [Forma de Estado, Forma de Governo e Regime Político](#21-forma-de-estado-forma-de-governo-e-regime-político)
-    - 2.2 [Fundamentos da República Federativa do Brasil (Art. 1º)](#22-fundamentos-da-república-federativa-do-brasil-art-1º)
-    - 2.3 [Separação dos Poderes e o Sistema de Freios e Contrapesos (Art. 2º)](#23-separação-dos-poderes-e-o-sistema-de-freios-e-contrapesos-art-2º)
-    - 2.4 [Objetivos Fundamentais da República (Art. 3º)](#24-objetivos-fundamentais-da-república-art-3º)
-    - 2.5 [Princípios nas Relações Internacionais e Integração Latino-Americana (Art. 4º)](#25-princípios-nas-relações-internacionais-e-integração-latino-americana-art-4º)
-3. [Fontes Recomendadas na Internet](#3-fontes-recomendadas-na-internet)
-4. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#4-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
+- [1. Eficácia e Aplicabilidade das Normas Constitucionais](#1-eficacia-e-aplicabilidade-das-normas-constitucionais)
+    - [1.1 Classificação Tripartite de José Afonso da Silva](#11-classificacao-tripartite-de-jose-afonso-da-silva)
+    - [1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão](#12-eficacia-minima-das-normas-limitadas-e-remedios-contra-omissao)
+    - [1.3 Reserva do Possível versus Mínimo Existencial](#13-reserva-do-possivel-versus-minimo-existencial)
+- [2. Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)](#2-principios-fundamentais-da-cf88-titulo-i-arts-1o-a-4o)
+    - [2.1 Forma de Estado, Forma de Governo e Regime Político](#21-forma-de-estado-forma-de-governo-e-regime-politico)
+    - [2.2 Fundamentos da República Federativa do Brasil (Art. 1º)](#22-fundamentos-da-republica-federativa-do-brasil-art-1o)
+    - [2.3 Separação dos Poderes e o Sistema de Freios e Contrapesos (Art. 2º)](#23-separacao-dos-poderes-e-o-sistema-de-freios-e-contrapesos-art-2o)
+    - [2.4 Objetivos Fundamentais da República (Art. 3º)](#24-objetivos-fundamentais-da-republica-art-3o)
+    - [2.5 Princípios nas Relações Internacionais e Integração Latino-Americana (Art. 4º)](#25-principios-nas-relacoes-internacionais-e-integracao-latino-americana-art-4o)
+- [3. Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
+- [4. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -171,6 +171,7 @@ De acordo com a classificação das normas constitucionais desenvolvida pelo con
 * **E)** Ineficaz, por se tratar de mera exortação moral sem força cogente vinculante.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** Se fosse de eficácia plena, o exercício da profissão não poderia sofrer nenhuma restrição ou condição posterior por lei infraconstitucional.
 > - **B) CORRETA:** Conforme a consagrada classificação de José Afonso da Silva, as normas de eficácia contida (ou redutíveis) possuem aplicabilidade direta e imediata, operando de pronto a proteção ao direito; contudo, o próprio texto constitucional autoriza que lei superveniente venha a conter, limitar ou restringir o seu alcance (ex.: exigência de diploma ou inscrição em conselho de classe para certas profissões). Enquanto a lei não sobrevier, a liberdade é ampla e plena.
 > - **C) Incorreta:** Se a norma fosse de eficácia limitada, o cidadão estaria impedido de trabalhar até que sobreviesse lei regulamentando cada profissão, o que contraria o postulado da liberdade profissional.
@@ -185,7 +186,9 @@ De acordo com a classificação das normas constitucionais desenvolvida pelo con
 Considere as seguintes assertivas a respeito dos Princípios Fundamentais consagrados nos artigos 1º a 4º da Constituição Federal de 1988:
 
 I. O pluralismo político e a dignidade da pessoa humana são fundamentos expressos da República Federativa do Brasil.  
+
 II. Erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais consubstanciam objetivos fundamentais do Estado brasileiro.  
+
 III. A prevalência dos direitos humanos e a concessão de asilo político regem o Brasil em suas relações internacionais.  
 
 Está correto o que se afirma em:
@@ -197,6 +200,7 @@ Está correto o que se afirma em:
 * **E)** I, apenas
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A assertiva III também está plenamente correta nos termos do art. 4º, II e X, da CF/88.
 > - **B) Incorreta:** A assertiva II também é verdadeira de acordo com o art. 3º, III, da CF/88.
 > - **C) Incorreta:** A assertiva I também expressa preceitos constitucionais exatos do art. 1º, III e V, da CF/88.
@@ -219,6 +223,7 @@ O art. 37, inciso VII, da Constituição Federal prevê que *"o direito de greve
 * **E)** A norma é programática e desprovida de qualquer eficácia jurídica, não vinculando o legislador nem o Judiciário.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A norma subordina o exercício a termos e limites estabelecidos em lei específica, possuindo eficácia mediata e dependente de integração legislativa.
 > - **B) Incorreta:** A ausência de lei não aniquila o direito fundamental nem impede a intervenção concretista do Judiciário para sanar a omissão.
 > - **C) CORRETA:** O art. 37, VII, é norma de eficácia limitada. Diante da inércia do Congresso Nacional, o STF, no julgamento conjunto dos Mandados de Injunção nº 670, 708 e 712, adotou a teoria concretista geral, suprindo a lacuna mediante a aplicação por analogia da Lei Federal nº 7.783/89 (que regula a greve na iniciativa privada) aos servidores civis, ressalvadas as carreiras ligadas diretamente à segurança pública armada.
@@ -239,6 +244,7 @@ Em conformidade com o parágrafo único do art. 4º da Constituição da Repúbl
 * **E)** Dos países de língua oficial portuguesa (CPLP) em caráter preferencial e excludente.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A Constituição não alude a hemisfério ocidental ou zona de comércio transcontinental.
 > - **B) Incorreta:** Refere-se à OTAN, aliança militar do hemisfério norte da qual o Brasil não faz parte.
 > - **C) CORRETA:** O parágrafo único do art. 4º da CF/88 dispõe textualmente: *"A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."*
@@ -261,6 +267,7 @@ A respeito da **Teoria da Separação dos Poderes** e do sistema de freios e con
 * **E)** A independência entre os Poderes impede que o Tribunal de Contas fiscalize despesas realizadas pela Assembleia Legislativa.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A separação dos poderes não é absoluta nem estanque, pois a própria Carta Magna encarrega cada Poder de exercer certas funções atípicas secundárias.
 > - **B) Incorreta:** O Judiciário exerce atipicamente a função administrativa ao organizar seus órgãos, licitar e gerir seus servidores (CF, art. 96).
 > - **C) CORRETA:** O princípio da separação dos poderes organiza o Estado conferindo a cada órgão uma função típica prioritária (legislar, julgar ou administrar), sem prejuízo de desempenharem funções atípicas e mecanismos mútuos de contenção e controle no âmbito do sistema de freios e contrapesos (*checks and balances*).

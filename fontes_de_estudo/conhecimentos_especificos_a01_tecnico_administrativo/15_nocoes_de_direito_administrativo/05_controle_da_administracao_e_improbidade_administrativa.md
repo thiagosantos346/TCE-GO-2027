@@ -21,31 +21,30 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Teoria Geral do Controle da Administração Pública](#1-teoria-geral-do-controle-da-administração-pública)
+- [1. Teoria Geral do Controle da Administração Pública](#1-teoria-geral-do-controle-da-administracao-publica)
     - [1.1 Fundamento Republicano e Sistema de Freios e Contrapesos](#11-fundamento-republicano-e-sistema-de-freios-e-contrapesos)
-    - [1.2 Classificação Quanto à Origem: Controle Interno vs. Controle Externo](#12-classificação-quanto-à-origem-controle-interno-vs-controle-externo)
-    - [1.3 Classificação Quanto ao Momento: Prévio, Concomitante e Posterior](#13-classificação-quanto-ao-momento-prévio-concomitante-e-posterior)
-    - [1.4 Classificação Quanto ao Aspecto: Controle de Legalidade vs. Mérito](#14-classificação-quanto-ao-aspecto-controle-de-legalidade-vs-mérito)
-- [2. O Controle Legislativo e a Atuação dos Tribunais de Contas](#2-o-controle-legislativo-e-a-atuação-dos-tribunais-de-contas)
-    - [2.1 A Função Constitucional do Tribunal de Contas (CF/88, arts. 70 a 75)](#21-a-função-constitucional-do-tribunal-de-contas-cf88-arts-70-a-75)
-    - [2.2 Natureza das Decisões e Título Executivo Extrajudicial](#22-natureza-das-decisões-e-título-executivo-extrajudicial)
+    - [1.2 Classificação Quanto à Origem: Controle Interno vs. Controle Externo](#12-classificacao-quanto-a-origem-controle-interno-vs-controle-externo)
+    - [1.3 Classificação Quanto ao Momento: Prévio, Concomitante e Posterior](#13-classificacao-quanto-ao-momento-previo-concomitante-e-posterior)
+    - [1.4 Classificação Quanto ao Aspecto: Controle de Legalidade vs. Mérito](#14-classificacao-quanto-ao-aspecto-controle-de-legalidade-vs-merito)
+- [2. O Controle Legislativo e a Atuação dos Tribunais de Contas](#2-o-controle-legislativo-e-a-atuacao-dos-tribunais-de-contas)
+    - [2.1 A Função Constitucional do Tribunal de Contas (CF/88, arts. 70 a 75)](#21-a-funcao-constitucional-do-tribunal-de-contas-cf88-arts-70-a-75)
+    - [2.2 Natureza das Decisões e Título Executivo Extrajudicial](#22-natureza-das-decisoes-e-titulo-executivo-extrajudicial)
 - [3. O Controle Judicial dos Atos Administrativos](#3-o-controle-judicial-dos-atos-administrativos)
-    - [3.1 Limites do Controle Judicial sobre o Mérito Administrativo](#31-limites-do-controle-judicial-sobre-o-mérito-administrativo)
-    - [3.2 Anulação por Desvio de Finalidade e a Teoria dos Motivos Determinantes](#32-anulação-por-desvio-de-finalidade-e-a-teoria-dos-motivos-determinantes)
-    - [3.3 Ações Constitucionais de Controle: Mandado de Segurança, Ação Popular e ACP](#33-ações-constitucionais-de-controle-mandado-de-segurança-ação-popular-e-acp)
+    - [3.1 Limites do Controle Judicial sobre o Mérito Administrativo](#31-limites-do-controle-judicial-sobre-o-merito-administrativo)
+    - [3.2 Anulação por Desvio de Finalidade e a Teoria dos Motivos Determinantes](#32-anulacao-por-desvio-de-finalidade-e-a-teoria-dos-motivos-determinantes)
+    - [3.3 Ações Constitucionais de Controle: Mandado de Segurança, Ação Popular e ACP](#33-acoes-constitucionais-de-controle-mandado-de-seguranca-acao-popular-e-acp)
 - [4. A Nova Lei de Improbidade Administrativa (Lei 8.429/1992 e Lei 14.230/2021)](#4-a-nova-lei-de-improbidade-administrativa-lei-84291992-e-lei-142302021)
     - [4.1 Sujeitos Ativos e Passivos da Improbidade Administrativa](#41-sujeitos-ativos-e-passivos-da-improbidade-administrativa)
-    - [4.2 O Elemento Subjetivo e a Extinção da Culpa (Tema 1.199 / STF)](#42-o-elemento-subjetivo-e-a-extinção-da-culpa-tema-1199--stf)
-    - [4.3 Proibição do Crime de Hermenêutica no Âmbito da LIA](#43-proibição-do-crime-de-hermenêutica-no-âmbito-da-lia)
-- [5. Tipologia dos Atos de Improbidade e Quadro Sancionatório](#5-tipologia-dos-atos-de-improbidade-e-quadro-sancionatório)
-    - [5.1 Enriquecimento Ilícito (Art. 9º da LIA)](#51-enriquecimento-ilícito-art-9º-da-lia)
-    - [5.2 Prejuízo ao Erário (Art. 10 da LIA)](#52-prejuízo-ao-erário-art-10-da-lia)
-    - [5.3 Atentado aos Princípios da Administração (Art. 11 da LIA - Rol Taxativo)](#53-atentado-aos-princípios-da-administração-art-11-da-lia---rol-taxativo)
-    - [5.4 Matriz Comparativa de Sanções do Artigo 12 da LIA](#54-matriz-comparativa-de-sanções-do-artigo-12-da-lia)
+    - [4.2 O Elemento Subjetivo e a Extinção da Culpa (Tema 1.199 / STF)](#42-o-elemento-subjetivo-e-a-extincao-da-culpa-tema-1199-stf)
+    - [4.3 Proibição do Crime de Hermenêutica no Âmbito da LIA](#43-proibicao-do-crime-de-hermeneutica-no-ambito-da-lia)
+- [5. Tipologia dos Atos de Improbidade e Quadro Sancionatório](#5-tipologia-dos-atos-de-improbidade-e-quadro-sancionatorio)
+    - [5.1 Enriquecimento Ilícito (Art. 9º da LIA)](#51-enriquecimento-ilicito-art-9o-da-lia)
+    - [5.2 Prejuízo ao Erário (Art. 10 da LIA)](#52-prejuizo-ao-erario-art-10-da-lia)
+    - [5.3 Atentado aos Princípios da Administração (Art. 11 da LIA - Rol Taxativo)](#53-atentado-aos-principios-da-administracao-art-11-da-lia-rol-taxativo)
+    - [5.4 Matriz Comparativa de Sanções do Artigo 12 da LIA](#54-matriz-comparativa-de-sancoes-do-artigo-12-da-lia)
     - [5.5 Regime Prescricional Geral e Intercorrente (Art. 23 da LIA)](#55-regime-prescricional-geral-e-intercorrente-art-23-da-lia)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questões-comentadas--exemplos-padrão-fcc)
+- [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -183,18 +182,21 @@ O art. 1º, § 8º, da LIA estabelece expressamente que **não configura improbi
 ### 5.1 Enriquecimento Ilícito (Art. 9º da LIA)
 
 Ocorre quando o agente aufere qualquer tipo de vantagem patrimonial indevida em razão do exercício de cargo, mandato, função ou emprego público.
+
 - *Exemplos:* Receber propina, comissão ou presente oneroso; utilizar bens, veículos ou servidores públicos em obras ou serviços particulares; incorporar ao patrimônio pessoal bens públicos; evolução patrimonial desproporcional à renda declarada.
 - **Natureza do Rol:** Rol **exemplificativo** (*numerus apertus*).
 
 ### 5.2 Prejuízo ao Erário (Art. 10 da LIA)
 
 Consiste em qualquer ação ou omissão dolosa que enseje, efetiva e comprovadamente, perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação dos bens ou haveres públicos.
+
 - **Exigência de Dano Efetivo e Real:** A Lei nº 14.230/2021 **proibiu o dano presumido (*in re ipsa*)**. Para que haja condenação pelo art. 10, a acusação deve comprovar documental e pericialmente o prejuízo financeiro concreto experimentado pelos cofres públicos.
 - **Natureza do Rol:** Rol considerado **taxativo** pela nova redação legal.
 
 ### 5.3 Atentado aos Princípios da Administração (Art. 11 da LIA - Rol Taxativo)
 
 Trata de condutas dolosas que violam os deveres de honestidade, imparcialidade e legalidade expressamente descritos no texto da lei.
+
 - **ROL ESTRITAMENTE TAXATIVO (*Numerus Clausus*):** O art. 11 passou a ter um rol fechado. Somente configuram improbidade por violação a princípios as condutas literalmente previstas em seus incisos:
     - *Inciso III:* Revelar fato ou circunstância de que tem ciência em razão das atribuições e que deva permanecer em segredo;
     - *Inciso IV:* Negar publicidade aos atos oficiais (salvo sigilo legal);
@@ -260,6 +262,7 @@ Diante do controle jurisdicional dos atos administrativos e da Teoria dos Motivo
 * **E)** A falsidade do motivo alegado não gera nulidade caso a autoridade possuísse competência formal para assinar a portaria de remoção.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O mérito administrativo não autoriza perseguição pessoal, retaliação nem encobre fraudes a princípios da moralidade e impessoalidade.
 > - **B)** Correta. De acordo com a **Teoria dos Motivos Determinantes**, a validade do ato administrativo fica irrevogavelmente vinculada à veracidade e consistência jurídica dos motivos fáticos declarados pela autoridade. Demonstrado perante o Judiciário que o motivo declarado no ato (carência de enfermeiros na zona rural) era cabalmente falso e que a verdadeira finalidade era a vingança pessoal contra o servidor, o ato padece de **vício de motivo** e de **desvio de finalidade (ou de poder)**. O exame da veracidade fática dos motivos integra o **controle estrito de legalidade e moralidade**, devendo o Judiciário decretar a **anulação** do ato com efeitos retroativos (*ex tunc*).
 > - **C)** Incorreta. O Judiciário não pode revogar atos administrativos do Poder Executivo por critérios de mérito; sua atuação jurisdicional restringe-se à anulação de atos eivados de ilegalidade.
@@ -282,6 +285,7 @@ Durante procedimento licitatório no âmbito de uma autarquia estadual, o Direto
 * **E)** A nova Lei de Improbidade Administrativa aplica-se apenas aos atos que resultem em enriquecimento ilícito pessoal do agente público.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A Lei Federal nº 14.230/2021 revogou a modalidade culposa que existia no art. 10 da Lei nº 8.429/1992.
 > - **B)** Correta. A Lei nº 14.230/2021 extirpou a modalidade culposa do sistema de improbidade administrativa brasileiro. Conforme tese fixada pelo STF no Tema 1.199 da Repercussão Geral, para todas as espécies de atos de improbidade (arts. 9º, 10 e 11) é indispensável a comprovação do **dolo específico** (vontade livre e consciente de alcançar o resultado ilícito tipificado na lei). A negligência crassa ou culpa grave não configuram improbidade, tornando a conduta do Diretor **atípica perante a LIA** (sem prejuízo de responder administrativamente perante a corregedoria e civilmente em ação de reparação de danos).
 > - **C)** Incorreta. O art. 11 possui rol taxativo e também exige dolo específico, não admitindo modalidade culposa.
@@ -304,10 +308,12 @@ Em conformidade com o novo regime sancionatório estabelecido pela Lei Federal n
 * **E)** A penalidade de cassação de aposentadoria é de imposição obrigatória e imediata em qualquer condenação do art. 11.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A Lei nº 14.230/2021 revogou as penalidades de perda da função pública e de suspensão de direitos políticos para as condenações fundamentadas exclusivamente no art. 11.
 > - **B)** Correta. De acordo com a nova redação do art. 12, inciso III, da Lei nº 8.429/1992 (dada pela Lei nº 14.230/2021), as únicas sanções cominadas para a prática de atos de improbidade que atentam contra os princípios da Administração Pública (art. 11) são:
->   1. **Pagamento de multa civil de até 24 vezes o valor da remuneração** percebida pelo agente; e
->   2. **Proibição de contratar com o poder público** ou de receber benefícios ou incentivos fiscais/creditícios pelo prazo não superior a **4 (quatro) anos**.
+>     1. **Pagamento de multa civil de até 24 vezes o valor da remuneração** percebida pelo agente; e
+>     2. **Proibição de contratar com o poder público** ou de receber benefícios ou incentivos fiscais/creditícios pelo prazo não superior a **4 (quatro) anos**.
+>
 > - **C)** Incorreta. O art. 9º traz cominações muito mais drásticas, incluindo perda de bens ilícitos, perda de função pública e suspensão de direitos políticos até 14 anos.
 > - **D)** Incorreta. A indisponibilidade de bens no novo regime exige perigo de dano e estimativa de reparação patrimonial, não incidindo genericamente no art. 11.
 > - **E)** Incorreta. Não existe penalidade de cassação de aposentadoria para o art. 11.
@@ -326,10 +332,11 @@ No âmbito da sistemática de fiscalização dos atos estatais, o acompanhamento
 * **E)** Controle jurisdicional e controle repressivo
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A fiscalização exercida pelo Tribunal de Contas decorre de órgão autônomo externo em auxílio ao Legislativo (controle externo), e a fiscalização durante o andamento da obra não é controle prévio.
 > - **B)** Correta. Classificação estrita quanto aos critérios fundamentais de controle:
->   - **Quanto à Origem:** Trata-se de **controle externo**, pois é exercido pelo Tribunal de Contas (instituição externa integrante da estrutura do controle parlamentar do art. 71 da CF/88) fiscalizando órgãos do Poder Executivo estadual.
->   - **Quanto ao Momento:** Trata-se de **controle concomitante**, haja vista que as inspeções e vistorias realizam-se em tempo real, no curso do processo de execução das despesas e das obras (*pari passu*), distinguindo-se do controle prévio (que analisa o edital antes da licitação) e do posterior (que julga a prestação de contas após o encerramento do exercício financeiro).
+>     - **Quanto à Origem:** Trata-se de **controle externo**, pois é exercido pelo Tribunal de Contas (instituição externa integrante da estrutura do controle parlamentar do art. 71 da CF/88) fiscalizando órgãos do Poder Executivo estadual.
+>     - **Quanto ao Momento:** Trata-se de **controle concomitante**, haja vista que as inspeções e vistorias realizam-se em tempo real, no curso do processo de execução das despesas e das obras (*pari passu*), distinguindo-se do controle prévio (que analisa o edital antes da licitação) e do posterior (que julga a prestação de contas após o encerramento do exercício financeiro).
 > - **C)** Incorreta. O acompanhamento em tempo real não é controle posterior, tampouco interno.
 > - **D)** Incorreta. A fiscalização simultânea durante a execução não é prévia.
 > - **E)** Incorreta. O Tribunal de Contas não exerce jurisdição judicial em sentido estrito (função monopolizada pelo Poder Judiciário).
@@ -348,6 +355,7 @@ Qualquer cidadão brasileiro no gozo de seus direitos políticos tem legitimidad
 * **E)** À honra subjetiva e intimidade pessoal de agentes públicos ocupantes de cargos políticos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A Ação Popular pode ser proposta contra atos lesivos praticados por qualquer esfera federativa: União, Estados, Distrito Federal ou Municípios, bem como suas respectivas entidades descentralizadas.
 > - **B)** Correta. O art. 5º, inciso LXXIII, da Constituição da República de 1988 estabelece textualmente: *"qualquer cidadão é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência"*. O cidadão (eleitor munido de título eleitoral) atua na defesa extraordinária de bens coletivos difusos protegidos pela Carta Magna.
 > - **C)** Incorreta. Direitos individuais de consumidores privados são tutelados mediante Ação Civil Pública ou ações de indenização civil individual, e não por Ação Popular.

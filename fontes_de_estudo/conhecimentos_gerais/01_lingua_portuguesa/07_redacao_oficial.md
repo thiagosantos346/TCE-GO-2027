@@ -21,41 +21,41 @@
 ---
 
 ## 🧭 Sumário
-- [1. Fundamentos Constitucionais e Conceito de Redação Oficial](#1-fundamentos-constitucionais-e-conceito-de-redação-oficial)
-    - [1.1 Definição e Finalidade da Comunicação Pública](#11-definição-e-finalidade-da-comunicação-pública)
-    - [1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração](#12-fundamentos-constitucionais-o-artigo-37-da-cf88-e-os-princípios-da-administração)
-    - [1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019](#13-evolução-normativa-o-mrpr-3ª-edição-e-o-decreto-federal-nº-97582019)
-- [2. Atributos Fundamentais da Redação Oficial](#2-atributos-fundamentais-da-redação-oficial)
-    - [2.1 Princípio da Impessoalidade e Seus Três Desdobramentos](#21-princípio-da-impessoalidade-e-seus-três-desdobramentos)
-    - [2.2 Clareza e Precisão Linguística](#22-clareza-e-precisão-linguística)
-    - [2.3 Concisão Textual e Eliminação da Prolixidade](#23-concisão-textual-e-eliminação-da-prolixidade)
-    - [2.4 Formalidade, Padronização e Tipografia](#24-formalidade-padronização-e-tipografia)
-    - [2.5 O Uso do Padrão Culto da Língua](#25-o-uso-do-padrão-culto-da-língua)
-- [3. Pronomes de Tratamento, Vocativos e Endereçamento](#3-pronomes-de-tratamento-vocativos-e-endereçamento)
-    - [3.1 Vossa Excelência vs. Vossa Senhoria: Tabela Completa de Aplicação](#31-vossa-excelência-vs-vossa-senhoria-tabela-completa-de-aplicação)
-    - [3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento](#32-regras-rígidas-de-concordância-gramatical-com-pronomes-de-tratamento)
-    - [3.3 Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades](#33-sistema-de-vocativos-a-distinção-entre-chefes-de-poder-e-demais-autoridades)
-    - [3.4 Endereçamento no Envelope e Regras Dêiticas: Vossa vs. Sua](#34-endereçamento-no-envelope-e-regras-dêiticas-vossa-vs-sua)
-    - [3.5 Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos](#35-abolição-de-fórmulas-laudatórias-adulações-e-arcaísmos)
-- [4. O Padrão Ofício Unificado na 3ª Edição do MRPR](#4-o-padrão-ofício-unificado-na-3ª-edição-do-mrpr)
-    - [4.1 Unificação Formal: Extinção do Aviso e do Memorando](#41-unificação-formal-extinção-do-aviso-e-do-memorando)
-    - [4.2 Partes Componentes e Diagramação Oficial do Ofício](#42-partes-componentes-e-diagramação-oficial-do-ofício)
-    - [4.3 Estrutura do Texto: Introdução, Desenvolvimento e Conclusão](#43-estrutura-do-texto-introdução-desenvolvimento-e-conclusão)
-    - [4.4 Regras de Numeração de Parágrafos](#44-regras-de-numeração-de-parágrafos)
-    - [4.5 Identificação do Signatário e Vedação à Linha de Assinatura](#45-identificação-do-signatário-e-vedação-à-linha-de-assinatura)
-    - [4.6 O Sistema Binário de Fechos Regulamentares](#46-o-sistema-binário-de-fechos-regulamentares)
-- [5. Espécies Documentais e Comunicação Digital](#5-espécies-documentais-e-comunicação-digital)
-    - [5.1 O Correio Eletrônico Institucional (E-mail Público)](#51-o-correio-eletrônico-institucional-e-mail-público)
+- [1. Fundamentos Constitucionais e Conceito de Redação Oficial](#1-fundamentos-constitucionais-e-conceito-de-redacao-oficial)
+    - [1.1 Definição e Finalidade da Comunicação Pública](#11-definicao-e-finalidade-da-comunicacao-publica)
+    - [1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração](#12-fundamentos-constitucionais-o-artigo-37-da-cf88-e-os-principios-da-administracao)
+    - [1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019](#13-evolucao-normativa-o-mrpr-3a-edicao-e-o-decreto-federal-no-97582019)
+- [2. Atributos Fundamentais da Redação Oficial](#2-atributos-fundamentais-da-redacao-oficial)
+    - [2.1 Princípio da Impessoalidade e Seus Três Desdobramentos](#21-principio-da-impessoalidade-e-seus-tres-desdobramentos)
+    - [2.2 Clareza e Precisão Linguística](#22-clareza-e-precisao-linguistica)
+    - [2.3 Concisão Textual e Eliminação da Prolixidade](#23-concisao-textual-e-eliminacao-da-prolixidade)
+    - [2.4 Formalidade, Padronização e Tipografia](#24-formalidade-padronizacao-e-tipografia)
+    - [2.5 O Uso do Padrão Culto da Língua](#25-o-uso-do-padrao-culto-da-lingua)
+- [3. Pronomes de Tratamento, Vocativos e Endereçamento](#3-pronomes-de-tratamento-vocativos-e-enderecamento)
+    - [3.1 Vossa Excelência vs. Vossa Senhoria: Tabela Completa de Aplicação](#31-vossa-excelencia-vs-vossa-senhoria-tabela-completa-de-aplicacao)
+    - [3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento](#32-regras-rigidas-de-concordancia-gramatical-com-pronomes-de-tratamento)
+    - [3.3 Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades](#33-sistema-de-vocativos-a-distincao-entre-chefes-de-poder-e-demais-autoridades)
+    - [3.4 Endereçamento no Envelope e Regras Dêiticas: Vossa vs. Sua](#34-enderecamento-no-envelope-e-regras-deiticas-vossa-vs-sua)
+    - [3.5 Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos](#35-abolicao-de-formulas-laudatorias-adulacoes-e-arcaismos)
+- [4. O Padrão Ofício Unificado na 3ª Edição do MRPR](#4-o-padrao-oficio-unificado-na-3a-edicao-do-mrpr)
+    - [4.1 Unificação Formal: Extinção do Aviso e do Memorando](#41-unificacao-formal-extincao-do-aviso-e-do-memorando)
+    - [4.2 Partes Componentes e Diagramação Oficial do Ofício](#42-partes-componentes-e-diagramacao-oficial-do-oficio)
+    - [4.3 Estrutura do Texto: Introdução, Desenvolvimento e Conclusão](#43-estrutura-do-texto-introducao-desenvolvimento-e-conclusao)
+    - [4.4 Regras de Numeração de Parágrafos](#44-regras-de-numeracao-de-paragrafos)
+    - [4.5 Identificação do Signatário e Vedação à Linha de Assinatura](#45-identificacao-do-signatario-e-vedacao-a-linha-de-assinatura)
+    - [4.6 O Sistema Binário de Fechos Regulamentares](#46-o-sistema-binario-de-fechos-regulamentares)
+- [5. Espécies Documentais e Comunicação Digital](#5-especies-documentais-e-comunicacao-digital)
+    - [5.1 O Correio Eletrônico Institucional (E-mail Público)](#51-o-correio-eletronico-institucional-e-mail-publico)
     - [5.2 A Mensagem entre Chefes de Poder](#52-a-mensagem-entre-chefes-de-poder)
-    - [5.3 A Exposição de Motivos (EM)](#53-a-exposição-de-motivos-em)
-    - [5.4 Atos Típicos dos Tribunais de Contas: Relatório Técnico, Parecer e Acórdão](#54-atos-típicos-dos-tribunais-de-contas-relatório-técnico-parecer-e-acórdão)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
-- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-    - [Questão 01](#questão-01)
-    - [Questão 02](#questão-02)
-    - [Questão 03](#questão-03)
-    - [Questão 04](#questão-04)
-    - [Questão 05](#questão-05)
+    - [5.3 A Exposição de Motivos (EM)](#53-a-exposicao-de-motivos-em)
+    - [5.4 Atos Típicos dos Tribunais de Contas: Relatório Técnico, Parecer e Acórdão](#54-atos-tipicos-dos-tribunais-de-contas-relatorio-tecnico-parecer-e-acordao)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
+    - [Questão 01](#questao-01)
+    - [Questão 02](#questao-02)
+    - [Questão 03](#questao-03)
+    - [Questão 04](#questao-04)
+    - [Questão 05](#questao-05)
 
 ---
 
@@ -153,9 +153,11 @@ O emprego dos pronomes de tratamento exige o cumprimento rigoroso de três regra
 1. **Concordância Verbal Compulsoriamente em 3ª Pessoa:** Embora o pronome de tratamento se refira à pessoa com quem se fala (2ª pessoa do discurso), a forma verbal associada deve ser flexionada **obrigatoriamente na 3ª pessoa do singular (ou do plural)**:
     * *"Vossa Excelência **aprovou** a prestação de contas"* (e nunca *"aprovastes"*).
     * *"Vossa Senhoria **deve** apresentar os laudos"* (e nunca *"deveis"*).
+
 2. **Concordância Pronominal em 3ª Pessoa:** Os pronomes possessivos ou oblíquos associados devem ser estritamente de terceira pessoa (**seu, sua, seus, suas, o, a, lhe**). É erro gravíssimo usar formas de 2ª pessoa do plural (*vosso, vossa, vos*):
     * *"Comunico a Vossa Excelência que **sua** assessoria já concluiu o relatório"* (e nunca *"vossa assessoria"*).
     * *"Solicito a Vossa Senhoria que apresente **seus** esclarecimentos"* (e nunca *"vossos esclarecimentos"*).
+
 3. **Concordância de Gênero com o Sexo Real do Interlocutor:** Adjetivos e particípios predicativos concordam em gênero gramatical com o sexo real e biológico da pessoa física a quem o pronome se dirige (concordância por silepse de gênero consagrada):
     * Se o Conselheiro for homem: *"Vossa Excelência está **atento** às recomendações."*
     * Se a Conselheira for mulher: *"Vossa Excelência está **atenta** às recomendações."*
@@ -168,6 +170,7 @@ A 3ª edição do MRPR simplificou radicalmente os vocativos, reservando a locu�
     * *Excelentíssimo Senhor Presidente da República,*
     * *Excelentíssimo Senhor Presidente do Congresso Nacional,*
     * *Excelentíssimo Senhor Presidente do Supremo Tribunal Federal,*
+
 2. **Vocativo "Senhor [Cargo]," (Para TODAS as demais autoridades):**
     * Aplica-se a governadores de estado, ministros de estado, senadores, deputados federais e estaduais, prefeitos, juízes, desembargadores e **Conselheiros de Tribunais de Contas**:
     * *Senhor Governador,*
@@ -321,6 +324,7 @@ O Presidente do Tribunal de Contas do Estado de Goiás necessita encaminhar expe
 * **E)** Para o Governador: *"Ilustríssimo Senhor Governador,"* / *"Respeitosamente,"*; Para o Diretor: *"Prezado Senhor Diretor,"* / *"Atenciosamente,"*.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Erra ao empregar o vocativo cerimonial *Excelentíssimo Senhor* para Governador de Estado (exclusivo para Chefes dos Poderes da União: PR, CN e STF); além disso, traz termos abolidos no expediente do Diretor (*Ilustríssimo* e *Cordialmente*).
 > - **B)** Correta. De acordo com a 3ª edição do MRPR: 1) O vocativo para Governadores de Estado é **"Senhor Governador,"**; 2) Na relação institucional entre o Presidente de uma Corte de Contas autônoma e o Chefe do Poder Executivo estadual, aplica-se o fecho para autoridades de mesma dignidade institucional/hierarquia: **"Atenciosamente,"**; 3) O vocativo para Diretor é **"Senhor Diretor,"** e o fecho para autoridade hierarquicamente subordinada/inferior é compulsoriamente **"Atenciosamente,"**. A assertiva B é a única plenamente conforme ao manual.
 > - **C)** Incorreta. Erra no vocativo do Governador (*Excelentíssimo*) e inverte os fechos ao utilizar *Respeitosamente* para o Diretor.
@@ -342,6 +346,7 @@ No que concerne ao emprego de pronomes de tratamento e à concordância gramatic
 * **E)** *"Solicitamos a Vossa Excelência que vos digneis autorizar o empenho das despesas em vosso orçamento."*
 
 > **Comentário Detalhado:**
+>
 > - **Regra Geral:** Os pronomes de tratamento referem-se à 2ª pessoa gramatical (com quem se fala), porém exigem que **toda a concordância gramatical de verbos e pronomes seja efetuada compulsoriamente em 3ª pessoa** (*ele/ela, seu, sua, seus, suas*). O uso de verbos ou pronomes em 2ª pessoa do plural (*vós, vosso, compareçais*) é erro gramatical manifesto.
 > - **A)** Incorreta. Incorreu em erro ao empregar o pronome possessivo *vossos* e a forma verbal *compareçais* em 2ª pessoa do plural.
 > - **B)** Incorreta. Cometeu o vício de empregar a forma verbal *deveis* e o possessivo *vosso*.
@@ -358,9 +363,12 @@ No que concerne ao emprego de pronomes de tratamento e à concordância gramatic
 A respeito da padronização de expedientes oficiais segundo a 3ª edição do Manual de Redação da Presidência da República, considere as afirmações:  
 
 I. As comunicações oficiais internas entre diretorias e gerências de um mesmo órgão público devem ser redigidas sob a denominação de *Memorando*.  
+
 II. O *Aviso* é espécie documental privativa utilizada para envio de correspondências por Ministros de Estado a particulares.  
+
 III. Os antigos expedientes denominados *Aviso* e *Memorando* deixaram de existir como tipos autônomos, tendo sido absorvidos pelo *Padrão Ofício*.  
-IV. O fecho *"Respeitosamente,"* deve ser empregado em comunicações endereçadas a autoridades de hierarquia superior à do emissor.
+
+IV. O fecho *"Respeitosamente,"* deve ser empregado em comunicações endereçadas a autoridades de hierarquia superior à do emissor.  
 
 Está correto o que se afirma em:
 
@@ -371,6 +379,7 @@ Está correto o que se afirma em:
 * **E)** I, II, III e IV.
 
 > **Comentário Detalhado:**
+>
 > - **Item I: Incorreto.** O tipo documental *Memorando* foi formalmente extinto na 3ª edição do MRPR. As comunicações internas no setor público passaram a tramitar unificadamente sob o gênero *Ofício*.
 > - **Item II: Incorreto.** O tipo *Aviso* era expedido exclusivamente por Ministros de Estado para autoridades de idêntica hierarquia, tendo sido igualmente extinto na revisão de 2018.
 > - **Item III: Correto.** O MRPR promoveu a absorção do Aviso e do Memorando pelo **Padrão Ofício**, tornando-o gênero documental único para comunicações internas e externas.
@@ -392,6 +401,7 @@ Assinale a alternativa que apresenta um trecho de correspondência oficial eivad
 * **E)** *"Em cumprimento ao despacho da presidência, restituo os autos para adoção das providências cabíveis."*
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O trecho utiliza linguagem límpida, impessoal, técnica e concisa, perfeitamente adequada ao padrão oficial.
 > - **B)** Correta (apresenta vício grave). O fragmento transgride frontalmente os atributos da impessoalidade, sobriedade e concisão, recorrendo a rapapés bajuladores e expressões de subserviência (*"imensa honra"*, *"singular privilégio"*, *"vosso excelso conhecimento"*, *"meu humilde gabinete"*), formalmente banidas do serviço público republicano.
 > - **C)** Incorreta. Estrutura padrão límpida de encaminhamento oficial, sem qualquer vício de prolixidade.
@@ -413,6 +423,7 @@ Quanto à estrutura física e à diagramação padrão do **Ofício** prescritas
 * **E)** O local e a data devem ser alinhados à margem esquerda, com o mês grafado de forma numérica abreviada.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. As fontes tipográficas oficiais padronizadas pelo MRPR são **Calibri** ou **Carlito**, corpo 12 para o corpo do texto e corpo 9 para citações destacadas e notas de rodapé.
 > - **B)** Incorreta. O cabeçalho com o Brasão das Armas é impresso **exclusivamente na primeira página** do expediente; as páginas seguintes contêm apenas o número de página no cabeçalho secundário.
 > - **C)** Correta. De acordo com o MRPR (3ª edição), a identificação do signatário compõe-se do **nome da autoridade** (em letras maiúsculas e negrito) e da **designação de seu cargo** logo abaixo. É formalmente **dispensada e proibida a inserção de linha tracejada sobreposta** para aposição da assinatura, assinando-se diretamente sobre o nome digitado.

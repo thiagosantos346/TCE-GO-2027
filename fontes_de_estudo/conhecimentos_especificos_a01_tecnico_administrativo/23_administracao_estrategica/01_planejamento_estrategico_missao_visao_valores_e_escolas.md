@@ -27,12 +27,12 @@
 ---
 
 ## 🧭 Sumário Interativo
-- [1. A Tríade da Identidade Estratégica: Missão, Visão e Valores](#1-a-tríade-da-identidade-estratégica-missão-visão-e-valores)
-- [2. O Ciclo da Gestão Estratégica Integrada](#2-o-ciclo-da-gestão-estratégica-integrada)
-- [3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)](#3-estratégias-deliberadas-vs-estratégias-emergentes-henry-mintzberg)
-- [4. As Dez Escolas do Pensamento Estratégico (Safári de Estratégia)](#4-as-dez-escolas-do-pensamento-estratégico-safári-de-estratégia)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
+- [1. A Tríade da Identidade Estratégica: Missão, Visão e Valores](#1-a-triade-da-identidade-estrategica-missao-visao-e-valores)
+- [2. O Ciclo da Gestão Estratégica Integrada](#2-o-ciclo-da-gestao-estrategica-integrada)
+- [3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)](#3-estrategias-deliberadas-vs-estrategias-emergentes-henry-mintzberg)
+- [4. As Dez Escolas do Pensamento Estratégico (Safári de Estratégia)](#4-as-dez-escolas-do-pensamento-estrategico-safari-de-estrategia)
+- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -165,6 +165,7 @@ flowchart TD
 10. **Escola da Configuração:** Sintetiza as visões anteriores, compreendendo que a organização atravessa longos períodos de estabilidade estrutural coerente (configurações), interrompidos periodicamente por transformações revolucionárias e saltos quânticos de ruptura (*turnaround*).
 
 > ⭐ **IMPORTANTE (ESCOLAS PRESCRITIVAS VS. DESCRITIVAS):**  
+>
 > - **Escolas Prescritivas (Design, Planejamento e Posicionamento):** Preocupam-se em prescrever **COMO AS ESTRATÉGIAS DEVEM SER FEITAS** (foco normativo do modelo ideal).  
 > - **Escolas Descritivas (Aprendizado, Poder, Cultural, etc.):** Preocupam-se em descrever **COMO AS ESTRATÉGIAS EFETIVAMENTE ACONTECEM NA PRÁTICA** (foco empírico real).
 
@@ -187,6 +188,7 @@ flowchart TD
 Determinado Tribunal de Contas publicou seu Plano Estratégico com os seguintes enunciados institucionais:
 
 I. "Garantir a adequada aplicação dos recursos públicos em benefício da sociedade por meio do controle externo tempestivo e orientador."  
+
 II. "Ser reconhecido pela sociedade, até o ano de 2030, como órgão de controle de excelência, moderno e indispensável à integridade governamental."  
 
 Nos termos da teoria do planejamento estratégico, os enunciados I e II correspondem, respectivamente, à:
@@ -198,6 +200,7 @@ Nos termos da teoria do planejamento estratégico, os enunciados I e II correspo
 * **E)** Valores e Visão.
 
 > **Comentário Detalhado:**  
+>
 > - O **Enunciado I** expressa a razão de ser primordial do órgão no presente, identificando sua atividade-fim e o benefício gerado para a sociedade, configurando formalmente a **Missão** institucional.  
 > - O **Enunciado II** estabelece um horizonte temporal futuro bem delimitado (até 2030) e delineia o estado aspiracional almejado pela instituição, configurando a **Visão** de futuro.  
 > - Portanto, trata-se de Missão e Visão, respectivamente (Alternativa C).  
@@ -217,6 +220,7 @@ Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári 
 * **E)** Escola do Poder.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A Escola do Aprendizado é descritiva e concebe a estratégia emergindo de forma incremental ao longo do tempo.  
 > - **B) CORRETA.** A **Escola do Planejamento** (liderada por Igor Ansoff) é uma escola prescritiva que encara a estratégia como um processo altamente formalizado, programado e subdividido em etapas analíticas rígidas, com orçamentos detalhados preparados por planejadores profissionais da organização.  
 > - **C) Incorreta.** A Escola Empreendedora é descritiva e fundamenta-se na visão e intuição individual do líder.  
@@ -238,6 +242,7 @@ De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica d
 * **E)** Estratégias Mecanicistas.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A estratégia pretendida é o plano formal inicial traçado pela liderança.  
 > - **B) CORRETA.** Para Mintzberg, as **estratégias emergentes** são aquelas que não foram concebidas no plano formal deliberado, mas surgem espontaneamente da base organizacional a partir da resposta prática dos colaboradores a desafios e oportunidades cotidianas não previstos.  
 > - **C) Incorreta.** A estratégia não realizada é a parcela do plano que foi descartada ou abandonada.  
@@ -259,6 +264,7 @@ Ao formular seu planejamento plurianual, determinada defensoria pública incluiu
 * **E)** As Oportunidades captadas no ambiente externo através da análise PESTEL.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A Visão é uma imagem de futuro onde a instituição quer chegar, com prazo delimitado.  
 > - **B) Incorreta.** Metas táticas são alvos quantitativos mensuráveis (ex.: realizar 5.000 atendimentos).  
 > - **C) CORRETA.** Os princípios éticos, mandamentos morais e diretrizes de conduta que direcionam as atitudes dos membros de uma instituição e expressam o que é inegociável na cultura organizacional constituem os **Valores** da organização.  
@@ -280,6 +286,7 @@ Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de
 * **E)** Vieses cognitivos inconscientes e restrições biológicas da capacidade de memória dos diretores executivos.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Simulações matemáticas pertencem a abordagens analíticas quantitativas ou de pesquisa operacional.  
 > - **B) CORRETA.** A **Escola do Design** é a escola clássica (pioneira nos anos 1960) que propõe a estratégia como um processo deliberado de concepção mental cujo núcleo é o **ajuste (*fit*)** essencial entre a análise interna da organização (pontos fortes e fracos) e a análise externa do ambiente (oportunidades e ameaças), constituindo a base conceitual da famosa matriz SWOT.  
 > - **C) Incorreta.** Jogos de barganha e política caracterizam a Escola do Poder.  

@@ -6,7 +6,7 @@
 
 ---
 
-### 📌 Ementa / Itens do Edital
+## 📌 Ementa / Itens do Edital
 1. **Engenharia de Prompts e Modelagem de Contexto:** Princípios estruturais (Persona/Papel, Contexto, Instrução, Restrições e Formato de Saída); Técnicas avançadas de prompting (Zero-Shot, Few-Shot, Chain-of-Thought / CoT, Zero-Shot CoT, Self-Consistency e padrão ReAct - *Reasoning + Acting* com chamadas a ferramentas externas); e Riscos de segurança (Prompt Injection direto e indireto, jailbreaking e guardrails de contenção).
 2. **Arquitetura de Recuperação Aumentada por Geração (RAG - *Retrieval-Augmented Generation*):** Motivação no setor público (mitigação de alucinações, superação do knowledge cutoff, rastreabilidade documental e confidencialidade de dados); Pipeline completo (ingestão/parsing, chunking estratégico com sobreposição/*overlap*, modelos de embeddings densos, indexação em bancos vetoriais com HNSW, recuperação por similaridade de cosseno, reranking com modelos Cross-Encoder e síntese contextual); e Padrões avançados (Busca Híbrida com fusão RRF de vetores densos e léxico BM25, e GraphRAG baseado em grafos de conhecimento).
 3. **Aplicações Práticas de IA em Sistemas Governamentais:** Busca semântica e jurisprudencial em acervos de decisões do tribunal; Sumarização e extração automatizada de informações em processos de prestação de contas; Triagem e classificação de manifestações de ouvidoria e denúncias; e Assistentes virtuais baseados em normas institucionais.
@@ -14,20 +14,20 @@
 
 ---
 
-### 🧭 Sumário
+## 🧭 Sumário
 - [1. Engenharia de Prompts e Modelagem de Contexto](#1-engenharia-de-prompts-e-modelagem-de-contexto)
-    - [1.1 Princípios Estruturais de um Prompt Eficaz](#11-princípios-estruturais-de-um-prompt-eficaz)
-    - [1.2 Técnicas Avançadas: Few-Shot, Chain-of-Thought (CoT) e ReAct](#12-técnicas-avançadas-few-shot-chain-of-thought-cot-e-react)
-    - [1.3 Riscos de Segurança: Injeção de Prompts (Direta e Indireta) e Guardrails](#13-riscos-de-segurança-injeção-de-prompts-direta-e-indireta-e-guardrails)
+    - [1.1 Princípios Estruturais de um Prompt Eficaz](#11-principios-estruturais-de-um-prompt-eficaz)
+    - [1.2 Técnicas Avançadas: Few-Shot, Chain-of-Thought (CoT) e ReAct](#12-tecnicas-avancadas-few-shot-chain-of-thought-cot-e-react)
+    - [1.3 Riscos de Segurança: Injeção de Prompts (Direta e Indireta) e Guardrails](#13-riscos-de-seguranca-injecao-de-prompts-direta-e-indireta-e-guardrails)
 - [2. Arquitetura RAG (Retrieval-Augmented Generation)](#2-arquitetura-rag-retrieval-augmented-generation)
-    - [2.1 Motivação e Benefícios do RAG no Setor Público](#21-motivação-e-benefícios-do-rag-no-setor-público)
+    - [2.1 Motivação e Benefícios do RAG no Setor Público](#21-motivacao-e-beneficios-do-rag-no-setor-publico)
     - [2.2 O Pipeline Completo de RAG: Do Parsing ao Reranking](#22-o-pipeline-completo-de-rag-do-parsing-ao-reranking)
-    - [2.3 Padrões Avançados: Busca Híbrida (Dense + BM25 via RRF) e GraphRAG](#23-padrões-avançados-busca-híbrida-dense--bm25-via-rrf-e-graphrag)
-- [3. Automação Inteligente de Processos (IPA) e Mineração de Processos](#3-automação-inteligente-de-processos-ipa-e-mineração-de-processos)
-    - [3.1 Da Automação Robótica (RPA) à Automação Inteligente (IPA)](#31-da-automação-robótica-rpa-à-automação-inteligente-ipa)
-    - [3.2 Mineração de Processos (Process Mining): Logs, Descoberta e Conformidade](#32-mineração-de-processos-process-mining-logs-descoberta-e-conformidade)
-    - [3.3 Casos de Aplicação no Controle Externo (TCE-GO)](#33-casos-de-aplicação-no-controle-externo-tce-go)
-- [4. Questões Comentadas (FCC)](#4-questões-comentadas-fcc)
+    - [2.3 Padrões Avançados: Busca Híbrida (Dense + BM25 via RRF) e GraphRAG](#23-padroes-avancados-busca-hibrida-dense-bm25-via-rrf-e-graphrag)
+- [3. Automação Inteligente de Processos (IPA) e Mineração de Processos](#3-automacao-inteligente-de-processos-ipa-e-mineracao-de-processos)
+    - [3.1 Da Automação Robótica (RPA) à Automação Inteligente (IPA)](#31-da-automacao-robotica-rpa-a-automacao-inteligente-ipa)
+    - [3.2 Mineração de Processos (Process Mining): Logs, Descoberta e Conformidade](#32-mineracao-de-processos-process-mining-logs-descoberta-e-conformidade)
+    - [3.3 Casos de Aplicação no Controle Externo (TCE-GO)](#33-casos-de-aplicacao-no-controle-externo-tce-go)
+- [4. Questões Comentadas (FCC)](#4-questoes-comentadas-fcc)
 
 ---
 
@@ -147,6 +147,7 @@ A aplicação pura de LLMs na administração pública apresenta gargalos críti
     - Dividir os documentos em blocos menores (*chunks*) é imperativo: injetar um processo inteiro de centenas de páginas satura a janela de contexto, eleva custos computacionais e degrada a capacidade de foco do mecanismo de atenção da LLM.
     - **Sobreposição (*Overlap*):** Configuração canônica de 500 a 1000 tokens com 10% a 20% de sobreposição (ex.: blocos de 600 tokens com 60 tokens de sobreposição mútua).
     - *Finalidade Crítica do Overlap:* Evita que proposições conceituais contínuas, artigos de leis ou raciocínios jurídicos sejam bruscamente decepados na fronteira física de corte entre dois blocos, preservando a coerência semântica nos vetores gerados.
+
 3. **Vetorização com Modelos de Embeddings:** Converte os fragmentos de texto em vetores numéricos densos contínuos de alta dimensionalidade (geralmente entre 768 e 1536 dimensões).
 4. **Indexação e Armazenamento em Bancos Vetoriais:** Os vetores são indexados utilizando algoritmos de Busca Aproximada por Vizinhos Mais Próximos (ANN), prioritariamente o **HNSW (*Hierarchical Navigable Small World*)**, que garante tempo de resposta em escala logarítmica $\mathcal{O}(\log N)$.
 5. **Recuperação e Similaridade de Cosseno:** A pergunta do auditor é convertida em vetor pelo mesmo modelo de embedding, e o banco calcula a proximidade angular:
@@ -154,6 +155,7 @@ A aplicação pura de LLMs na administração pública apresenta gargalos críti
 6. **Reclassificação (*Reranking*) com Modelos Cross-Encoder:**
     - A busca inicial por bi-encoders é rápida, mas pode recuperar fragmentos tangenciais.
     - O modelo **Cross-Encoder (*Reranker*)** recebe simultaneamente o par $(Pergunta, Chunk)$ e processa a atenção cruzada completa entre todas as palavras, reordenando os fragmentos com altíssima precisão e selecionando os top-3 a top-5 trechos mais esclarecedores.
+
 7. **Geração Contextualizada:** O prompt aumentado com os fatos recuperados é enviado à LLM, instruindo-a a redigir a resposta definitiva exclusivamente com base nas evidências apresentadas.
 
 ### 2.3 Padrões Avançados: Busca Híbrida (Dense + BM25 via RRF) e GraphRAG
@@ -229,6 +231,7 @@ A Mineração de Processos (*Process Mining*), formulada academicamente pelo Pro
     - **Case ID:** Identificador exclusivo que vincula todas as etapas a uma dada instância processual específica (ex.: Número do Processo Administrativo nº 2025/00123).
     - **Activity Name:** Nome ou código da atividade realizada (ex.: "Autuação", "Análise Técnica", "Homologação de Licitação").
     - **Timestamp:** Carimbo de data e hora exatas da ocorrência, viabilizando o ordenamento temporal cronológico e a mensuração de tempos de espera e trâmite.
+
 2. **As Três Tipologias Canônicas de Process Mining:**
     - **Descoberta (*Discovery*):** Recebe o log de eventos bruto e gera automaticamente um modelo de processo (redes de Petri, modelos BPMN) demonstrando exatamente como os processos são operados na prática, revelando desvios e atalhos informais omitidos nos manuais da organização.
     - **Verificação de Conformidade (*Conformance Checking*):** Confronta o modelo normativo prescritivo formal (como o rito da Lei de Licitações) com os eventos reais do log, **identificando violações legais, etapas suprimidas indevidamente ou aprovações emitidas fora da ordem cronológica exigida**.
@@ -256,6 +259,7 @@ A respeito da fragmentação documental (*chunking*) e do funcionamento do RAG, 
 * **E)** A ancoragem factual (*grounding*) no RAG ocorre pela memorização estática dos parâmetros da rede neural durante a etapa de pré-treinamento, sem relação com os trechos textuais anexados em tempo de consulta.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A sobreposição (*overlap*) é uma boa prática consagrada em RAG; ela não corrompe a similaridade de cosseno, garantindo a continuidade do contexto informacional.
 > - **B)** **Correta.** A fragmentação de textos longos por contagem cega de tokens arrisca quebrar artigos ou cláusulas no meio de uma oração. A margem de **sobreposição (overlap)** entre 10% e 20% garante que o contexto nas bordas dos blocos não seja perdido, permitindo que o modelo de embedding capture a integridade semântica dos trechos.
 > - **C)** Incorreta. O RAG é projetado exatamente para **evitar o fine-tuning constante** dos pesos do modelo, injetando conhecimento factual dinamicamente no contexto da consulta (*in-context learning*).
@@ -278,13 +282,14 @@ A respeito do padrão ReAct e das técnicas avançadas de engenharia de prompts,
 * **E)** A estratégia de *Self-Consistency* restringe a amostragem a uma única resposta gerada com temperatura rigidamente nula, descartando votações por consenso majoritário.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A marca registrada do ReAct é a explicitação reflexiva verbalizada pelo modelo antes e depois de interagir com o ambiente externo.
 > - **B)** Incorreta. Quem não possui exemplos é o **Zero-Shot**. O **Few-Shot Prompting** caracteriza-se formalmente pela inclusão de demonstrações exemplares de pares entrada/saída no texto do prompt.
 > - **C)** **Correta.** O padrão **ReAct (Yao et al., 2022)** opera no ciclo sinérgico contínuo entre:
->
 >     1. **Thought** (reflexão em linguagem natural sobre o plano e o estado atual)
 >     2. **Action** (chamada formal de ferramentas, APIs ou funções externas)
 >     3. **Observation** (leitura do retorno da ferramenta para calibrar o próximo passo de raciocínio).
+>
 > - **D)** Incorreta. O *Chain-of-Thought* (CoT) comprovadamente **eleva** a precisão ao forçar o modelo a expor a cadeia de deduções intermediárias passo a passo.
 > - **E)** Incorreta. O método de *Self-Consistency* gera **múltiplas** saídas diversas com temperatura $T > 0$ e seleciona o resultado mais confiável por voto majoritário ou consenso.
 > 
@@ -304,11 +309,12 @@ A respeito dos conceitos, tipos e requisitos fundamentais da Mineração de Proc
 * **E)** A Mineração de Processos é inaplicável à administração pública porque sistemas governamentais utilizam bancos relacionais, os quais impedem matematicamente a geração de identificadores de instâncias processuais.
 
 > **Comentário Detalhado:**
-> - **A)** **Correta.** Conforme a formulação de Wil van der Aalst, a estrutura mínima indispensável de um **Log de Eventos** para Process Mining requer a tríade:
 >
+> - **A)** **Correta.** Conforme a formulação de Wil van der Aalst, a estrutura mínima indispensável de um **Log de Eventos** para Process Mining requer a tríade:
 >     1. **Case ID** (amarra os eventos a uma mesma instância processual)
 >     2. **Activity** (identifica a tarefa executada)
 >     3. **Timestamp** (registro cronológico que estabelece a ordem temporal e os tempos de espera).
+>
 > - **B)** Incorreta. A Descoberta (*Discovery*) extrai automaticamente o modelo fático real a partir dos logs brutos, sem forçar nem apagar divergências.
 > - **C)** Incorreta. O *Conformance Checking* confronta o log de eventos real contra o modelo normativo formal prescrito para acusar desvios, pulos de etapas e inconformidades legais.
 > - **D)** Incorreta. O Aprimoramento (*Enhancement*) utiliza os carimbos de tempo e recursos do log justamente para mapear gargalos e propor aperfeiçoamentos no processo.
@@ -330,6 +336,7 @@ Para superar essa limitação e elevar a precisão do pipeline de recuperação,
 * **E)** Substituir os modelos de linguagem por árvores de decisão simples com profundidade máxima unitária (*decision stumps*).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A busca aleatória destrói qualquer critério de relevância na recuperação de dados.
 > - **B)** **Correta.** A **Busca Híbrida (*Hybrid Search*)** une o melhor dos dois mundos: os vetores densos capturam conceitos e semântica abstrata, enquanto o **BM25** recupera com precisão cirúrgica números literais exatos de leis, artigos e códigos de processos. A fusão das listas via **RRF (*Reciprocal Rank Fusion*)** e o refinamento pelo **Reranker Cross-Encoder** constituem o estado da arte em precisão documental.
 > - **C)** Incorreta. Elevar a temperatura induz alucinações severas, fabricando números inverídicos de leis.
@@ -351,6 +358,7 @@ A respeito das características operacionais que distinguem a Automação Robót
 * **E)** A adoção de IPA torna desnecessária a utilização de qualquer mecanismo de segurança da informação ou controle de acesso aos bancos de dados de auditoria fiscal.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O RPA tradicional depende estritamente de dados estruturados e regras fixas determinísticas, sendo incapaz de interpretar áudio ou caligrafia manuscrita sem módulos de IA.
 > - **B)** **Correta.** O **RPA tradicional** lida com a emulação de tarefas mecânicas repetitivas sobre dados estruturados via regras fixas (*if-then*). A **Automação Inteligente (IPA / Hiperautomação)** integra componentes cognitivos de IA (PLN, OCR inteligente, Visão Computacional, LLMs e Machine Learning), viabilizando o processamento de dados não estruturados (PDFs, fotos de obras, contratos) e decisões sob incerteza.
 > - **C)** Incorreta. IPA refere-se a camadas de software corporativo e microsserviços analíticos, não a microcontroladores físicos.

@@ -29,23 +29,22 @@
 ---
 
 ## 🧭 Sumário Interativo
-
-- [1. O Enfoque Patrimonial da Contabilidade Pública e a Convergência IPSAS](#1-o-enfoque-patrimonial-da-contabilidade-pública-e-a-convergência-ipsas)
-    - [1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado](#11-evolução-do-enfoque-orçamentário-ao-patrimonial-integrado)
-    - [1.2 O Conceito Crítico de "Potencial de Serviços"](#12-o-conceito-crítico-de-potencial-de-serviços)
-    - [1.3 Usuários Primários e Objetivos Centrais dos RCPGs](#13-usuários-primários-e-objetivos-centrais-dos-rcpgs)
-- [2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)](#2-características-qualitativas-da-informação-contábil-útil-nbc-tsp-ec)
-    - [2.1 As Seis Características Qualitativas](#21-as-seis-características-qualitativas)
-    - [2.2 Restrições Inerentes: Custo-Benefício e Materialidade](#22-restrições-inerentes-custo-benefício-e-materialidade)
-- [3. Elementos das Demonstrações Contábeis e Bases de Mensuração](#3-elementos-das-demonstrações-contábeis-e-bases-de-mensuração)
+- [1. O Enfoque Patrimonial da Contabilidade Pública e a Convergência IPSAS](#1-o-enfoque-patrimonial-da-contabilidade-publica-e-a-convergencia-ipsas)
+    - [1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado](#11-evolucao-do-enfoque-orcamentario-ao-patrimonial-integrado)
+    - [1.2 O Conceito Crítico de "Potencial de Serviços"](#12-o-conceito-critico-de-potencial-de-servicos)
+    - [1.3 Usuários Primários e Objetivos Centrais dos RCPGs](#13-usuarios-primarios-e-objetivos-centrais-dos-rcpgs)
+- [2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)](#2-caracteristicas-qualitativas-da-informacao-contabil-util-nbc-tsp-ec)
+    - [2.1 As Seis Características Qualitativas](#21-as-seis-caracteristicas-qualitativas)
+    - [2.2 Restrições Inerentes: Custo-Benefício e Materialidade](#22-restricoes-inerentes-custo-beneficio-e-materialidade)
+- [3. Elementos das Demonstrações Contábeis e Bases de Mensuração](#3-elementos-das-demonstracoes-contabeis-e-bases-de-mensuracao)
     - [3.1 Elementos Patrimoniais: Ativo, Passivo, SPL, VPA e VPD](#31-elementos-patrimoniais-ativo-passivo-spl-vpa-e-vpd)
-    - [3.2 Bases de Mensuração para Ativos e Passivos](#32-bases-de-mensuração-para-ativos-e-passivos)
-- [4. Normas Específicas Fundamentais no Padrão FCC](#4-normas-específicas-fundamentais-no-padrão-fcc)
-    - [4.1 Matriz de Provisões e Passivos Contingentes (NBC TSP 03)](#41-matriz-de-provisões-e-passivos-contingentes-nbc-tsp-03)
-    - [4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)](#42-mensuração-de-estoques-públicos-para-distribuição-gratuita-nbc-tsp-04)
-    - [4.3 Ativo Imobilizado e Depreciação Sistemática (NBC TSP 07)](#43-ativo-imobilizado-e-depreciação-sistemática-nbc-tsp-07)
-- [5. Fontes Oficiais & Normativas Recomendadas](#5-fontes-oficiais--normativas-recomendadas)
-- [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
+    - [3.2 Bases de Mensuração para Ativos e Passivos](#32-bases-de-mensuracao-para-ativos-e-passivos)
+- [4. Normas Específicas Fundamentais no Padrão FCC](#4-normas-especificas-fundamentais-no-padrao-fcc)
+    - [4.1 Matriz de Provisões e Passivos Contingentes (NBC TSP 03)](#41-matriz-de-provisoes-e-passivos-contingentes-nbc-tsp-03)
+    - [4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)](#42-mensuracao-de-estoques-publicos-para-distribuicao-gratuita-nbc-tsp-04)
+    - [4.3 Ativo Imobilizado e Depreciação Sistemática (NBC TSP 07)](#43-ativo-imobilizado-e-depreciacao-sistematica-nbc-tsp-07)
+- [5. Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
+- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -163,6 +162,7 @@ flowchart TD
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca frequentemente tenta confundir o candidato afirmando que um risco **possível** deve ser registrado no Balanço Patrimonial. **FALSO!**  
+>
 > - Apenas o evento **provável** com valor estimável com segurança gera lançamento contábil no Balanço (Provisão);  
 > - O risco **possível** é apenas divulgado em Notas Explicativas (**Passivo Contingente**);  
 > - O risco **remoto** é sumariamente ignorado (sem registro e sem nota explicativa).
@@ -211,6 +211,7 @@ A característica qualitativa que permite aos usuários identificar semelhanças
 * **E)** Verificabilidade.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Compreensibilidade é a qualidade que possibilita a rápida compreensão do significado da informação contábil por usuários com conhecimento razoável.
 > - **B)** Correta. A Comparabilidade é definida textualmente na NBC TSP EC como a característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens, cobrindo tanto a comparação temporal (mesma entidade ao longo de exercícios sucessivos) quanto a comparação espacial (entre diferentes órgãos e entidades públicas).
 > - **C)** Incorreta. Tempestividade refere-se à disponibilização da informação em tempo oportuno para influenciar julgamentos e decisões.
@@ -233,6 +234,7 @@ Consoante as disposições da NBC TSP 03 e do Manual de Contabilidade Aplicada a
 * **E)** Trata-se de um ativo contingente cujo ingresso de recursos deve ser registrado preventivamente no subsistema orçamentário.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O regime de competência contábil exige o registro tempestivo da obrigação presente assim que o fato gerador e os critérios de probabilidade se consolidem, não aguardando o trânsito em julgado formal.
 > - **B)** Incorreta. A divulgação exclusiva em notas explicativas aplica-se aos passivos contingentes com risco de perda possível, e não provável.
 > - **C)** Correta. De acordo com a NBC TSP 03 e o MCASP, existindo uma obrigação presente resultante de evento passado cuja liquidação implique saída de recursos classificada como provável e o valor possa ser estimado com confiabilidade técnica, a entidade pública deve reconhecer formalmente uma Provisão no Passivo, lançando a débito uma Variação Patrimonial Diminutiva (VPD) no resultado do exercício patrimonial.
@@ -255,6 +257,7 @@ De acordo com as regras de mensuração de estoques contidas na NBC TSP 04:
 * **E)** Os estoques devem ser mantidos sem qualquer registro patrimonial até o momento da efetiva aplicação nos pacientes.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Bens destinados à distribuição gratuita à sociedade não têm como objetivo a comercialização, inexistindo valor justo ou valor realizável de venda no mercado.
 > - **B)** Correta. Conforme a regra expressa da NBC TSP 04 (Estoques), os bens mantidos pela administração pública para distribuição gratuita ou para consumo na prestação de serviços sem contraprestação financeira devem ser mensurados pelo menor valor entre o custo histórico de aquisição e o custo corrente de reposição.
 > - **C)** Incorreta. Não se aplica metodologia de desconto a valor presente por taxa Selic para estoques de suprimentos médicos.
@@ -275,6 +278,7 @@ A respeito do conceito de Ativo no setor público preconizado na NBC TSP Estrutu
 * **E)** Os ativos intangíveis desenvolvidos pelo ente público são vedados na contabilidade governamental por ausência de valor físico tangível.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. No setor público, a esmagadora maioria dos bens não gera fluxos de caixa positivos, mas gera potencial de serviços essenciais à coletividade.
 > - **B)** Correta. Reproduz a definição clássica da NBC TSP EC: ativo é um recurso controlado no presente pela entidade em decorrência de eventos passados, do qual se espera a geração de benefícios econômicos futuros ou potencial de serviços.
 > - **C)** Incorreta. Bens de uso comum do povo integram o patrimônio público e compõem o Ativo Não Circulante (Imobilizado de infraestrutura) quando controlados pelo ente.
@@ -297,6 +301,7 @@ Em observância à NBC TSP 03 e ao MCASP, a conduta contábil adequada a ser ado
 * **E)** Solicitar abertura imediata de crédito adicional extraordinário para cobertura judicial.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O reconhecimento de provisão no Balanço Patrimonial é cabível apenas e tão somente quando o risco de saída de recursos for classificado como provável.
 > - **B)** Correta. De acordo com a NBC TSP 03, quando a probabilidade de desembolso futuro for classificada como possível, a obrigação consubstancia um Passivo Contingente: não deve ser reconhecida no Balanço Patrimonial, mas deve ser compulsoriamente divulgada em Notas Explicativas, especificando a natureza da ação e as incertezas existentes.
 > - **C)** Incorreta. A dispensa de notas explicativas ocorre unicamente quando a probabilidade de perda for remota.

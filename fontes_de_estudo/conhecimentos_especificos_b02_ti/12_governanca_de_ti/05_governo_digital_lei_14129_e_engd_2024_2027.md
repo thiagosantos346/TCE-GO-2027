@@ -23,18 +23,18 @@
 ---
 
 ## 🧭 Sumário
-- [1. A Lei do Governo Digital (Lei Federal nº 14.129/2021)](#1-a-lei-do-governo-digital-lei-federal-nº-141292021)
-    - [1.1 Âmbito de Aplicação Universal](#11-âmbito-de-aplicação-universal)
-    - [1.2 Princípios e Diretrizes Marcantes](#12-princípios-e-diretrizes-marcantes)
-    - [1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)](#13-níveis-de-autenticação-na-plataforma-govbr-bronze-prata-e-ouro)
-    - [1.4 Classificação das Assinaturas Eletrônicas no Setor Público (Lei nº 14.063/2020)](#14-classificação-das-assinaturas-eletrônicas-no-setor-público-lei-nº-140632020)
+- [1. A Lei do Governo Digital (Lei Federal nº 14.129/2021)](#1-a-lei-do-governo-digital-lei-federal-no-141292021)
+    - [1.1 Âmbito de Aplicação Universal](#11-ambito-de-aplicacao-universal)
+    - [1.2 Princípios e Diretrizes Marcantes](#12-principios-e-diretrizes-marcantes)
+    - [1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)](#13-niveis-de-autenticacao-na-plataforma-govbr-bronze-prata-e-ouro)
+    - [1.4 Classificação das Assinaturas Eletrônicas no Setor Público (Lei nº 14.063/2020)](#14-classificacao-das-assinaturas-eletronicas-no-setor-publico-lei-no-140632020)
     - [1.5 Governo Como Plataforma (GaaP) e Interoperabilidade](#15-governo-como-plataforma-gaap-e-interoperabilidade)
-- [2. A Estratégia Nacional de Governo Digital – ENGD 2024–2027 (Decreto nº 12.069/2024)](#2-a-estratégia-nacional-de-governo-digital--engd-20242027-decreto-nº-120692024)
-    - [2.1 Propósito e Abrangência Federativa](#21-propósito-e-abrangência-federativa)
-    - [2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027](#22-os-5-eixos-estratégicos-da-engd-20242027)
-    - [2.3 Serviços Públicos Proativos e Infraestrutura Pública Digital (DPI)](#23-serviços-públicos-proativos-e-infraestrutura-pública-digital-dpi)
+- [2. A Estratégia Nacional de Governo Digital – ENGD 2024–2027 (Decreto nº 12.069/2024)](#2-a-estrategia-nacional-de-governo-digital-engd-20242027-decreto-no-120692024)
+    - [2.1 Propósito e Abrangência Federativa](#21-proposito-e-abrangencia-federativa)
+    - [2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027](#22-os-5-eixos-estrategicos-da-engd-20242027)
+    - [2.3 Serviços Públicos Proativos e Infraestrutura Pública Digital (DPI)](#23-servicos-publicos-proativos-e-infraestrutura-publica-digital-dpi)
 - [3. Fontes Recomendadas na Internet](#3-fontes-recomendadas-na-internet)
-- [4. Questões Comentadas no Padrão FCC](#4-questões-comentadas-no-padrão-fcc)
+- [4. Questões Comentadas no Padrão FCC](#4-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -231,6 +231,7 @@ A ENGD 2024–2027 estrutura a evolução digital do país em três pilares fund
 * **E)** A adesão aos eixos da ENGD 2024–2027 restringe-se exclusivamente às Forças Armadas e ao Ministério da Defesa.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A ENGD 2024–2027 enfatiza a inclusão digital e a multicanalidade (*omnichannel*), determinando expressamente que o atendimento digital não pode excluir cidadãos sem acesso à internet ou sem habilidades digitais, devendo o Estado manter canais presenciais acolhedores e integrados.
 > - **B)** **Correta.** Um dos maiores avanços conceituais da ENGD 2024–2027 (Decreto nº 12.069/2024) é a consagração dos Serviços Públicos Proativos: por meio do cruzamento automatizado de bases públicas interoperáveis, o Estado identifica que o cidadão atingiu as condições previstas em lei e concede o serviço/benefício ativamente, sem a necessidade de solicitações burocráticas prévias.
 > - **C)** Incorreta. O Eixo 1 da ENGD é o "Governo Integrado e Eficiente", cujo objetivo principal é impulsionar a interoperabilidade federativa entre União, estados e municípios através do ConectaGov e da Rede Gov.br.
@@ -251,6 +252,7 @@ A ENGD 2024–2027 estrutura a evolução digital do país em três pilares fund
 * **E)** A obtenção de dados por interoperabilidade de sistemas públicos é ilegal por violar compulsoriamente o princípio da segurança jurídica.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A Lei nº 14.129/2021 consagra expressamente o princípio da presunção de boa-fé do cidadão (Art. 3º, V), dispensando formalidades cartorárias excessivas como autenticações em papel quando a validação puder ser realizada internamente.
 > - **B)** **Correta.** De acordo com o Art. 5º, inciso VI c/c Art. 12 da Lei nº 14.129/2021, é expressamente vedada à Administração a exigência de certidões, declarações ou documentos expedidos por ela própria ou por outros órgãos da administração pública do mesmo ente federativo. Os órgãos estatais têm a obrigação de integrar suas bases tecnológicas para compartilhar tais informações sem sobrecarregar o cidadão.
 > - **C)** Incorreta. A Lei 14.129/2021 promove a digitalização ("Digital por Padrão") e a eliminação de processos em papel.
@@ -271,6 +273,7 @@ A ENGD 2024–2027 estrutura a evolução digital do país em três pilares fund
 * **E)** Os três tipos de assinaturas eletrônicas têm o mesmo nível de segurança técnica e são emitidos sem qualquer controle de credenciamento.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A assinatura eletrônica simples utiliza métodos básicos de conferência de identidade (como código SMS, login por senha ou confirmação de link), não dependendo de certificado ICP-Brasil.
 > - **B)** **Correta.** A Assinatura Eletrônica Avançada (Art. 4º, II da Lei 14.063/2020) está univocamente associada ao signatário, opera sob seu controle exclusivo e permite a detecção de qualquer alteração subsequente no documento. Ela é o padrão dominante nos processos eletrônicos da Administração Pública, operacionalizada de forma prática e gratuita pelos níveis Prata e Ouro do GOV.BR.
 > - **C)** Incorreta. A legislação prevê expressamente que as assinaturas avançadas podem ser utilizadas na celebração de contratos, editais e processos administrativos, não havendo exigência geral de certificado qualificado ICP-Brasil para todas as hipóteses.
@@ -291,6 +294,7 @@ A ENGD 2024–2027 estrutura a evolução digital do país em três pilares fund
 * **E)** Mantidos em sigilo permanente como regra geral, sendo liberados apenas mediante ação judicial transitada em julgado.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A publicação de dados em formato de imagens rasterizadas ou PDFs bloqueados impede a leitura automatizada e viola o princípio dos dados abertos legíveis por máquina.
 > - **B)** **Correta.** O Art. 29 da Lei nº 14.129/2021 estabelece que os dados abertos devem ser disponibilizados em formato estruturado, não proprietário e legível por máquina (ex.: CSV, JSON, XML), garantindo a gratuidade de acesso, a interoperabilidade e a livre reutilização pelas organizações civis, pesquisadores e cidadãos para auditoria social.
 > - **C)** Incorreta. O acesso aos dados abertos e informações públicas é gratuito por determinação legal constitucional e infraconstitucional.
@@ -311,6 +315,7 @@ A ENGD 2024–2027 estrutura a evolução digital do país em três pilares fund
 * **E)** Eixo de Privatização Integral dos Registros Civis.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** O Eixo 1 (Governo Integrado e Eficiente) da ENGD 2024–2027 (Decreto nº 12.069/2024) tem como objetivo primordial a integração federativa de sistemas e bases de dados por meio da interoperabilidade (ConectaGov), conectando os três níveis federativos (União, Estados e Municípios) para eliminar retrabalho, diminuir custos de infraestrutura e viabilizar serviços integrados ponta a ponta.
 > - **B)** Incorreta. A estratégia não preconiza a manutenção de sistemas analógicos em papel, mas a completa transformação digital inclusiva.
 > - **C)** Incorreta. Não existe tal eixo na ENGD; a diretriz é o compartilhamento seguro e eficiente de dados.

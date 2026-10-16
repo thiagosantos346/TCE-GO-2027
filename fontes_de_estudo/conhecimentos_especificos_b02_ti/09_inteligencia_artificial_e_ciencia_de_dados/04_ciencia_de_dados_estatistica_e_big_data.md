@@ -6,7 +6,7 @@
 
 ---
 
-### 📌 Ementa / Itens do Edital
+## 📌 Ementa / Itens do Edital
 1. **Fundamentos de Ciência de Dados e Metodologia CRISP-DM:** As seis fases iterativas do CRISP-DM (*Business Understanding*, *Data Understanding*, *Data Preparation*, *Modeling*, *Evaluation*, *Deployment*).
 2. **Pipeline de Dados e Engenharia de Features:** Tratamento de valores ausentes (*Missing Values*: MCAR, MAR, MNAR, deleção e métodos de imputação simples e avançada com KNN Imputer); Detecção de outliers (critério do IQR de Tukey e escore Z); Transformações de escala (Normalização Min-Max vs. Padronização/StandardScaler); Codificação categórica (One-Hot Encoding e armadilha dummy vs. Ordinal/Label Encoding); e Análise Exploratória de Dados (EDA).
 3. **Estatística Aplicada e Probabilidade:** Medidas de tendência central (Média, Mediana e Moda) e assimetria de distribuições (simétrica, assimetria positiva à direita e assimetria negativa à esquerda); Medidas de dispersão (Variância, Desvio Padrão e Coeficiente de Variação); Distribuições canônicas (Normal/Gaussiana com regra empírica 68-95-99.7%, Binomial e Poisson); Inferência estatística e Testes de Hipóteses ($H_0$, $H_1$, Erro Tipo I $\alpha$, Erro Tipo II $\beta$, nível de significância e regra de decisão pelo $p$-valor).
@@ -15,24 +15,24 @@
 
 ---
 
-### 🧭 Sumário
+## 🧭 Sumário
 - [1. Metodologia CRISP-DM e Pipeline de Engenharia de Dados](#1-metodologia-crisp-dm-e-pipeline-de-engenharia-de-dados)
     - [1.1 As Seis Fases do Framework CRISP-DM](#11-as-seis-fases-do-framework-crisp-dm)
-    - [1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)](#12-tratamento-de-valores-ausentes-e-outliers-critério-iqr)
-    - [1.3 Escalonamento e Codificação de Variáveis Categóricas](#13-escalonamento-e-codificação-de-variáveis-categóricas)
-- [2. Estatística Aplicada, Probabilidades e Testes de Hipóteses](#2-estatística-aplicada-probabilidades-e-testes-de-hipóteses)
-    - [2.1 Medidas de Tendência Central, Dispersão e Assimetria](#21-medidas-de-tendência-central-dispersão-e-assimetria)
-    - [2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson](#22-distribuições-de-probabilidade-normal-binomial-e-poisson)
-    - [2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor](#23-testes-de-hipóteses-erros-tipo-i-e-ii-e-critério-do-p-valor)
-- [3. Avaliação de Modelos Preditivos (Classificação e Regressão)](#3-avaliação-de-modelos-preditivos-classificação-e-regressão)
-    - [3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)](#31-o-trade-off-viés-vs-variância-bias-variance-tradeoff)
-    - [3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas](#32-matriz-de-confusão-e-métricas-para-classes-desbalanceadas)
-    - [3.3 Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)](#33-curva-roc-auc-roc-e-métricas-de-regressão-mae-mse-rmse-r)
+    - [1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)](#12-tratamento-de-valores-ausentes-e-outliers-criterio-iqr)
+    - [1.3 Escalonamento e Codificação de Variáveis Categóricas](#13-escalonamento-e-codificacao-de-variaveis-categoricas)
+- [2. Estatística Aplicada, Probabilidades e Testes de Hipóteses](#2-estatistica-aplicada-probabilidades-e-testes-de-hipoteses)
+    - [2.1 Medidas de Tendência Central, Dispersão e Assimetria](#21-medidas-de-tendencia-central-dispersao-e-assimetria)
+    - [2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson](#22-distribuicoes-de-probabilidade-normal-binomial-e-poisson)
+    - [2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor](#23-testes-de-hipoteses-erros-tipo-i-e-ii-e-criterio-do-p-valor)
+- [3. Avaliação de Modelos Preditivos (Classificação e Regressão)](#3-avaliacao-de-modelos-preditivos-classificacao-e-regressao)
+    - [3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)](#31-o-trade-off-vies-vs-variancia-bias-variance-tradeoff)
+    - [3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas](#32-matriz-de-confusao-e-metricas-para-classes-desbalanceadas)
+    - [3.3 Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)](#33-curva-roc-auc-roc-e-metricas-de-regressao-mae-mse-rmse-r2)
 - [4. Ecossistema Big Data: Hadoop e Apache Spark](#4-ecossistema-big-data-hadoop-e-apache-spark)
     - [4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop](#41-os-vs-do-big-data-e-a-arquitetura-hdfsyarn-do-hadoop)
-    - [4.2 Paradigma MapReduce e suas Limitações de I/O em Disco](#42-paradigma-mapreduce-e-suas-limitações-de-io-em-disco)
-    - [4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs](#43-apache-spark-processamento-em-memória-lazy-evaluation-e-rdds)
-- [5. Questões Comentadas (FCC)](#5-questões-comentadas-fcc)
+    - [4.2 Paradigma MapReduce e suas Limitações de I/O em Disco](#42-paradigma-mapreduce-e-suas-limitacoes-de-io-em-disco)
+    - [4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs](#43-apache-spark-processamento-em-memoria-lazy-evaluation-e-rdds)
+- [5. Questões Comentadas (FCC)](#5-questoes-comentadas-fcc)
 
 ---
 
@@ -147,6 +147,7 @@ O **CRISP-DM (*Cross-Industry Standard Process for Data Mining*)** é o padrão 
     - $68{,}27\%$ dos dados encontram-se no intervalo $[\mu - 1\sigma, \mu + 1\sigma]$.
     - $95{,}45\%$ dos dados situam-se no intervalo $[\mu - 2\sigma, \mu + 2\sigma]$.
     - $99{,}73\%$ dos dados situam-se no intervalo $[\mu - 3\sigma, \mu + 3\sigma]$.
+
 2. **Distribuição Binomial:**
     - Modela o número de sucessos $k$ em $n$ ensaios de Bernoulli independentes com probabilidade de sucesso $p$:
      $$P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}, \quad E[X] = np, \quad \text{Var}(X) = np(1-p)$$
@@ -175,6 +176,7 @@ Estrutura formal de tomada de decisão estatística sob incerteza:
 
 O erro de generalização de qualquer algoritmo decomponde-se em três termos matemáticos:
 $$\text{Erro de Teste} = \text{Viés}^2 + \text{Variância} + \sigma_{\text{ruído irredutível}}^2$$
+
 - **Underfitting (Subajuste / Alto Viés):** O modelo é excessivamente simples (ex.: impor uma reta sobre um fenômeno curvo) e falha em capturar os padrões subjacentes, apresentando alto erro tanto na base de treino quanto no teste.
 - **Overfitting (Sobreajuste / Alta Variância):** O modelo é hipercomplexo (ex.: árvore de decisão profunda sem limites) e decora as particularidades e ruídos estocásticos do treino, apresentando erro mínimo no treino e erro elevado nos dados inéditos de teste.
 - **Validação Cruzada k-Fold Estratificada (*Stratified k-Fold*):** Divide os dados em $k$ partições preservando a mesma proporção percentual das classes em cada dobra, técnica mandatória em problemas desbalanceados.
@@ -260,6 +262,7 @@ O **MapReduce** opera o processamento em lote (*batch*) em duas etapas estrutura
 1. **Fase Map:** Lê os blocos distribuídos e emite pares intermediários no formato $(chave, valor)$.
 2. **Fase Shuffle and Sort:** Agrupa e ordena via rede todos os registros intermediários que compartilham a mesma chave.
 3. **Fase Reduce:** Agrega e sintetiza os valores associados a cada chave, emitindo o resultado final.
+
 - *Gargalo Crítico:* O MapReduce **grava compulsoriamente os resultados intermediários em disco rígido (*spill to disk*)** ao término de cada fase, impondo severos gargalos de I/O mecânico em pipelines analíticos de múltiplos estágios.
 
 ### 4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs
@@ -303,10 +306,11 @@ Avaliando o desempenho desse modelo para o controle externo, assinale a afirmati
 * **E)** Um modelo fictício ingênuo que classificasse todas as 10.000 prestações de contas como regulares apresentaria uma Acurácia de 0%, revelando a sensibilidade dessa métrica ao desbalanceamento.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.**
->   - **Precisão:** $P = \frac{VP}{VP + FP} = \frac{160}{160 + 40} = \frac{160}{200} = 0{,}80$ ($80\%$).
->   - **Sensibilidade (Recall):** $R = \frac{VP}{VP + FN} = \frac{160}{160 + 40} = \frac{160}{200} = 0{,}80$ ($80\%$).
->   - **F1-Score:** $F_1 = 2 \cdot \frac{P \cdot R}{P + R} = 2 \cdot \frac{0{,}80 \cdot 0{,}80}{0{,}80 + 0{,}80} = 0{,}80$ ($80\%$).
+>     - **Precisão:** $P = \frac{VP}{VP + FP} = \frac{160}{160 + 40} = \frac{160}{200} = 0{,}80$ ($80\%$).
+>     - **Sensibilidade (Recall):** $R = \frac{VP}{VP + FN} = \frac{160}{160 + 40} = \frac{160}{200} = 0{,}80$ ($80\%$).
+>     - **F1-Score:** $F_1 = 2 \cdot \frac{P \cdot R}{P + R} = 2 \cdot \frac{0{,}80 \cdot 0{,}80}{0{,}80 + 0{,}80} = 0{,}80$ ($80\%$).
 > - **B)** Incorreta. A Acurácia simples é $\frac{160 + 9760}{10000} = 99{,}2\%$, e não 80%. Além disso, ela é sabidamente enganosa em dados desbalanceados.
 > - **C)** Incorreta. 99,2% corresponde à Acurácia geral, e não à Sensibilidade (que é 80%).
 > - **D)** Incorreta. Reduzir o recall geraria mais Falsos Negativos, deixando fraudes reais passarem impunes.
@@ -319,11 +323,13 @@ Avaliando o desempenho desse modelo para o controle externo, assinale a afirmati
 ### Questão 02
 **(FCC - SEFAZ-PE - Auditoria Fiscal - Processamento Distribuído com Apache Spark)**
 Durante o processamento em lote de dezenas de milhões de documentos fiscais eletrônicos em um cluster com Apache Spark, um analista escreveu o seguinte trecho de código:
+
 ```python
 df_filtrado = df_notas.filter(df_notas["valor"] > 100000)
 df_selecionado = df_filtrado.select("chave_nfe", "cnpj_emitente", "valor")
 total_notas = df_selecionado.count()
 ```
+
 Considerando a arquitetura interna e o paradigma computacional do Apache Spark, assinale a alternativa correta:
 
 * **A)** As instruções `filter()` e `select()` são Ações imperativas que executam o processamento físico no cluster imediatamente no instante em que as linhas de código são lidas pelo interpretador Python.
@@ -333,6 +339,7 @@ Considerando a arquitetura interna e o paradigma computacional do Apache Spark, 
 * **E)** A tolerância a falhas no Spark é garantida pela gravação redundante de sete cópias de cada partição em fitas magnéticas secundárias.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. `filter()` e `select()` são **Transformações**, e não Ações; sob a avaliação preguiçosa, nenhuma computação física ocorre nessas linhas.
 > - **B)** **Correta.** No **Apache Spark**, as Transformações operam sob **Lazy Evaluation**: apenas constroem o plano de linhagem no Grafo Acíclico Direcionado (DAG). O plano de execução físico só é compilado e executado nos nós trabalhadores quando uma **Ação** (como `count()`, `collect()` ou `show()`) é requisitada.
 > - **C)** Incorreta. `count()` é uma **Ação** que compila os resultados parciais dos nós trabalhadores e devolve a contagem escalar definitiva ao *Driver*.
@@ -356,11 +363,12 @@ A respeito da metodologia CRISP-DM e dos critérios de pré-processamento de out
 * **E)** A metodologia CRISP-DM proíbe expressamente qualquer retorno ou iteração entre a fase de Modelagem (*Modeling*) e a fase de Preparação de Dados (*Data Preparation*).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O IQR é a diferença entre os quartis ($Q_3 - Q_1 = 350 - 200 = 150$), e não a soma.
 > - **B)** **Correta.** Aplicando o critério formal de Tukey:
->   - $\text{IQR} = 350 - 200 = 150$
->   - $\text{Limite Superior} = Q_3 + 1{,}5 \cdot \text{IQR} = 350 + 1{,}5 \cdot 150 = 350 + 225 = 575$
->   - $\text{Limite Inferior} = Q_1 - 1{,}5 \cdot \text{IQR} = 200 - 1{,}5 \cdot 150 = 200 - 225 = -25$
+>     - $\text{IQR} = 350 - 200 = 150$
+>     - $\text{Limite Superior} = Q_3 + 1{,}5 \cdot \text{IQR} = 350 + 1{,}5 \cdot 150 = 350 + 225 = 575$
+>     - $\text{Limite Inferior} = Q_1 - 1{,}5 \cdot \text{IQR} = 200 - 1{,}5 \cdot 150 = 200 - 225 = -25$
 >   Portanto, qualquer custo unitário por $m^2$ superior a R$ 575,00 é formalmente rotulado como outlier.
 > - **C)** Incorreta. *Business Understanding* é a **primeira** fase do CRISP-DM, enquanto o *Deployment* é a última.
 > - **D)** Incorreta. A padronização é altamente indicada para algoritmos com descida de gradiente, e o *One-Hot Encoding* é uma técnica exclusiva para atributos categóricos.
@@ -382,6 +390,7 @@ Considerando o comportamento das medidas de tendência central e os conceitos de
 * **E)** O desvio padrão amostral de uma variável não se altera quando todos os valores observados na amostra são multiplicados por uma constante real não nula.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** Na distribuição com **assimetria positiva (à direita)**, a cauda alongada superior puxa a **Média** para cima. A **Moda** permanece no ponto de maior frequência e a **Mediana** posiciona-se no centro ordinal, resultando na ordem: $\text{Moda} < \text{Mediana} < \text{Média}$.
 > - **B)** Incorreta. Em distribuições simétricas, as três medidas coincidem no mesmo ponto: $\text{Média} = \text{Mediana} = \text{Moda}$.
 > - **C)** Incorreta. O Erro Tipo I ($\alpha$) é **rejeitar** $H_0$ quando $H_0$ é verdadeira. Não rejeitar $H_0$ falsa é o Erro Tipo II ($\beta$).
@@ -403,6 +412,7 @@ No âmbito do armazenamento e processamento distribuído de grandes volumes de d
 * **E)** O paradigma MapReduce realiza todo o processamento analítico estritamente na memória volátil dos nós, dispensando por completo gravações intermediárias em disco rígido entre as fases de Map e Reduce.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** No HDFS, o **NameNode** é o nó mestre que retém todo o *namespace* e os metadados dos blocos na **memória RAM** para prover consultas rápidas; os **DataNodes** são os nós de trabalho distribuídos encarregados de armazenar os blocos de dados brutos em seus discos rígidos locais.
 > - **B)** Incorreta. O bloco padrão do HDFS é de **128 MB** ou 256 MB, e não de 512 bytes, projetado para reduzir a sobrecarga de memória no NameNode.
 > - **C)** Incorreta. A tolerância a falhas é assegurada pela replicação automática (padrão $3\times$), suportando a perda de DataNodes sem indisponibilidade de arquivos.

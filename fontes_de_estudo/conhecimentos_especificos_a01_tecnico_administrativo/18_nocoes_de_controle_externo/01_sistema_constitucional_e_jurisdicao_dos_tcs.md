@@ -28,21 +28,21 @@
 ---
 
 ## 🧭 Sumário
-1. [O Modelo Constitucional de Controle e a Responsabilidade Solidária](#1-o-modelo-constitucional-de-controle-e-a-responsabilidade-solidária)
-    - 1.1 [Sistemas de Controle Externo, Interno e Social](#11-sistemas-de-controle-externo-interno-e-social)
-    - 1.2 [O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)](#12-o-dever-de-comunicação-do-controle-interno-e-sanção-de-solidariedade-art-74-§-1º)
-2. [Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)](#2-natureza-jurídica-autonomia-e-princípio-da-simetria-art-75)
-    - 2.1 [Natureza Jurídica e Autonomias dos Tribunais de Contas](#21-natureza-jurídica-e-autonomias-dos-tribunais-de-contas)
-    - 2.2 [O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs](#22-o-princípio-da-simetria-constitucional-federativa-e-a-composição-dos-tces)
-3. [Competências Constitucionais: Julgamento Técnico versus Parecer Prévio](#3-competências-constitucionais-julgamento-técnico-versus-parecer-prévio)
-    - 3.1 [Contas de Governo versus Contas de Gestão](#31-contas-de-governo-versus-contas-de-gestão)
-    - 3.2 [O Julgamento das Contas de Prefeito Municipal (Tema 835 do STF)](#32-o-julgamento-das-contas-de-prefeito-municipal-tema-835-do-stf)
-4. [Registro de Atos de Admissão e Benefícios Previdenciários (Art. 71, III)](#4-registro-de-atos-de-admissão-e-benefícios-previdenciários-art-71-iii)
-5. [Sustação de Atos Ilegais versus Sustação de Contratos Administrativos](#5-sustação-de-atos-ilegais-versus-sustação-de-contratos-administrativos)
-6. [Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)](#6-eficácia-executiva-e-prescritibilidade-art-71-§-3º-e-tema-899-do-stf)
-7. [Jurisdição Ampla e Independência das Instâncias](#7-jurisdição-ampla-e-independência-das-instâncias)
-8. [Fontes Oficiais & Jurisprudenciais Recomendadas](#8-fontes-oficiais--jurisprudenciais-recomendadas)
-9. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#9-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
+- [1. O Modelo Constitucional de Controle e a Responsabilidade Solidária](#1-o-modelo-constitucional-de-controle-e-a-responsabilidade-solidaria)
+    - [1.1 Sistemas de Controle Externo, Interno e Social](#11-sistemas-de-controle-externo-interno-e-social)
+    - [1.2 O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)](#12-o-dever-de-comunicacao-do-controle-interno-e-sancao-de-solidariedade-art-74-1o)
+- [2. Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)](#2-natureza-juridica-autonomia-e-principio-da-simetria-art-75)
+    - [2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas](#21-natureza-juridica-e-autonomias-dos-tribunais-de-contas)
+    - [2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs](#22-o-principio-da-simetria-constitucional-federativa-e-a-composicao-dos-tces)
+- [3. Competências Constitucionais: Julgamento Técnico versus Parecer Prévio](#3-competencias-constitucionais-julgamento-tecnico-versus-parecer-previo)
+    - [3.1 Contas de Governo versus Contas de Gestão](#31-contas-de-governo-versus-contas-de-gestao)
+    - [3.2 O Julgamento das Contas de Prefeito Municipal (Tema 835 do STF)](#32-o-julgamento-das-contas-de-prefeito-municipal-tema-835-do-stf)
+- [4. Registro de Atos de Admissão e Benefícios Previdenciários (Art. 71, III)](#4-registro-de-atos-de-admissao-e-beneficios-previdenciarios-art-71-iii)
+- [5. Sustação de Atos Ilegais versus Sustação de Contratos Administrativos](#5-sustacao-de-atos-ilegais-versus-sustacao-de-contratos-administrativos)
+- [6. Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)](#6-eficacia-executiva-e-prescritibilidade-art-71-3o-e-tema-899-do-stf)
+- [7. Jurisdição Ampla e Independência das Instâncias](#7-jurisdicao-ampla-e-independencia-das-instancias)
+- [8. Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+- [9. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -205,6 +205,7 @@ Em matéria de fiscalização contábil, financeira e orçamentária da Administ
 * **E)** As pessoas jurídicas de direito privado que recebem recursos públicos estaduais mediante parceria ou termo de colaboração não se submetem à jurisdição do Tribunal de Contas, cabendo a fiscalização unicamente ao órgão repassador originário.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** Conforme o art. 71, § 1º, da CF/88, no caso de contrato administrativo, o ato de sustação deve ser adotado primariamente pelo Poder Legislativo, que solicitará ao Poder Executivo as providências cabíveis. O Tribunal de Contas só ganha competência subsidiária se o Legislativo for omisso por noventa dias.  
 > - **B) Incorreta:** O art. 71, § 3º, confere eficácia de **título executivo extrajudicial** (e não judicial). Além disso, a cobrança dá-se pela Fazenda Pública estadual (PGE) e não pela Secretaria do Tribunal.  
 > - **C) CORRETA:** De acordo com o art. 71, X, da CF/88, compete ao Tribunal de Contas: *"sustar, se não atendido, a execução do ato impugnado, comunicando a decisão à Câmara dos Deputados e ao Senado Federal"* (ou à Assembleia Legislativa estadual).  
@@ -225,6 +226,7 @@ Sobre a relação entre os sistemas de controle interno e externo e a atuação 
 * **E)** A competência fiscalizatória dos Tribunais de Contas limita-se ao exame da estrita legalidade formal, sendo-lhe expressamente vedada a avaliação da economicidade ou legitimidade dos gastos públicos.
 
 > **Comentário Detalhado:**
+>
 > - **A) CORRETA:** O art. 74, § 1º, da CF/88 é categórico: *"Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas da União, sob pena de responsabilidade solidária."*  
 > - **B) Incorreta:** O parecer prévio sobre contas de governo é de natureza eminentemente opinativa; a decisão final e o julgamento pertencem ao Poder Legislativo.  
 > - **C) Incorreta:** Nos termos da Súmula Vinculante nº 3 do STF, no exame da concessão inicial de aposentadoria dispensa-se a oportunidade de contraditório prévio, salvo se o processo permanecer sem decisão no Tribunal por mais de cinco anos (Tema 445 do STF).  
@@ -245,6 +247,7 @@ A Constituição do Estado de Goiás prevê a organização e o funcionamento do
 * **E)** Sete Conselheiros, todos eleitos pelo Tribunal de Justiça a partir de lista sêxtupla de juristas e contadores públicos.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O TCU compõe-se de nove Ministros (art. 73 da CF), mas os Tribunais de Contas Estaduais possuem sete Conselheiros. Além disso, a aprovação é da Assembleia Legislativa estadual, não do Senado.  
 > - **B) CORRETA:** Em virtude do princípio da simetria constitucional (art. 75 c/c art. 73, § 2º, da CF/88 e art. 27 da CE-GO), os TCEs possuem 7 Conselheiros: 4 indicados pela Assembleia Legislativa e 3 pelo Governador (aprovados pela Assembleia), devendo o Governador escolher alternadamente 1 auditor de controle externo (Conselheiro-Substituto) e 1 membro do Ministério Público de Contas, a partir de listas tríplices de merecimento e antiguidade.  
 > - **C) Incorreta:** Os membros dos TCs denominam-se Conselheiros nos Estados e não são eleitos por voto funcional de servidores.  
@@ -269,6 +272,7 @@ Considerando o texto da Constituição Federal de 1988 e a jurisprudência domin
 * **E)** A jurisdição do Tribunal de Contas sobre particulares restringe-se aos casos de desapropriação indireta e concessão de serviços postais.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A jurisdição de contas orienta-se pela natureza dos recursos públicos gerenciados e pelo dever de prestar contas, e não pela natureza jurídica civil do gestor.  
 > - **B) CORRETA:** O parágrafo único do art. 70 da CF/88 prescreve solenemente: *"Prestará contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos ou pelos quais a União [ou o Estado] responda, ou que, em nome desta, assuma obrigações de natureza pecuniária."* Assim, a OS e seus dirigentes sujeitam-se amplamente à jurisdição do TCE.  
 > - **C) Incorreta:** A competência constitucional de controle externo é impositiva e cogente de ordem pública, prescindindo de previsão contratual permissiva.  
@@ -291,6 +295,7 @@ Com fundamento no Tema 899 da Repercussão Geral fixado pelo Supremo Tribunal Fe
 * **E)** A prescrição somente se opera se o Tribunal de Contas anular seu próprio acórdão de ofício mediante requerimento do Ministério Público de Contas.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A tese da imprescritibilidade fixada pelo STF no Tema 897 aplica-se estritamente às ações de ressarcimento decorrentes de **atos dolosos de improbidade administrativa** ajuizadas pelo Ministério Público/Fazenda. No caso específico de execuções de títulos executivos oriundos de **Tribunais de Contas**, o STF fixou tese diversa no Tema 899.  
 > - **B) Incorreta:** O prazo não é vintenário nem disciplinado pelo antigo Código Civil, mas quinquenal (5 anos).  
 > - **C) CORRETA:** Conforme a tese fixada pelo STF no **Tema 899 de Repercussão Geral (RE 636.886)**: *"É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas."* Aplica-se o prazo prescricional de **cinco anos** das dívidas ativas da Fazenda Pública.  

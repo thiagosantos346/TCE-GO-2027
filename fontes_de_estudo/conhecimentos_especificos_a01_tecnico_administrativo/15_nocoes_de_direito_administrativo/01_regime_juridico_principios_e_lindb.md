@@ -17,34 +17,33 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Conceito e Sentidos de Administração Pública](#1-conceito-e-sentidos-de-administração-pública)
-    - [1.1 Sentido Subjetivo, Formal ou Orgânico](#11-sentido-subjetivo-formal-ou-orgânico)
+- [1. Conceito e Sentidos de Administração Pública](#1-conceito-e-sentidos-de-administracao-publica)
+    - [1.1 Sentido Subjetivo, Formal ou Orgânico](#11-sentido-subjetivo-formal-ou-organico)
     - [1.2 Sentido Objetivo, Material ou Funcional](#12-sentido-objetivo-material-ou-funcional)
-    - [1.3 Critérios Distintivos Adotados pela FCC](#13-critérios-distintivos-adotados-pela-fcc)
-- [2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental](#2-o-regime-jurídico-administrativo-e-sua-bipolaridade-fundamental)
-    - [2.1 Princípio da Supremacia do Interesse Público sobre o Privado](#21-princípio-da-supremacia-do-interesse-público-sobre-o-privado)
-    - [2.2 Princípio da Indisponibilidade do Interesse Público](#22-princípio-da-indisponibilidade-do-interesse-público)
-    - [2.3 Interesse Público Primário vs. Secundário](#23-interesse-público-primário-vs-secundário)
-- [3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)](#3-princípios-constitucionais-expressos-art-37-caput-cf88---limpe)
-    - [3.1 Princípio da Legalidade Estrita](#31-princípio-da-legalidade-estrita)
-    - [3.2 Princípio da Impessoalidade e a Vedação à Promoção Pessoal](#32-princípio-da-impessoalidade-e-a-vedação-à-promoção-pessoal)
-    - [3.3 Princípio da Moralidade e a Súmula Vinculante nº 13 (Antinepotismo)](#33-princípio-da-moralidade-e-a-súmula-vinculante-nº-13-antinepotismo)
-    - [3.4 Princípio da Publicidade e suas Exceções Constitucionais](#34-princípio-da-publicidade-e-suas-exceções-constitucionais)
-    - [3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)](#35-princípio-da-eficiência-emenda-constitucional-nº-191998)
-- [4. Princípios Administrativos Implícitos e Regime Sumular](#4-princípios-administrativos-implícitos-e-regime-sumular)
+    - [1.3 Critérios Distintivos Adotados pela FCC](#13-criterios-distintivos-adotados-pela-fcc)
+- [2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental](#2-o-regime-juridico-administrativo-e-sua-bipolaridade-fundamental)
+    - [2.1 Princípio da Supremacia do Interesse Público sobre o Privado](#21-principio-da-supremacia-do-interesse-publico-sobre-o-privado)
+    - [2.2 Princípio da Indisponibilidade do Interesse Público](#22-principio-da-indisponibilidade-do-interesse-publico)
+    - [2.3 Interesse Público Primário vs. Secundário](#23-interesse-publico-primario-vs-secundario)
+- [3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)](#3-principios-constitucionais-expressos-art-37-caput-cf88-limpe)
+    - [3.1 Princípio da Legalidade Estrita](#31-principio-da-legalidade-estrita)
+    - [3.2 Princípio da Impessoalidade e a Vedação à Promoção Pessoal](#32-principio-da-impessoalidade-e-a-vedacao-a-promocao-pessoal)
+    - [3.3 Princípio da Moralidade e a Súmula Vinculante nº 13 (Antinepotismo)](#33-principio-da-moralidade-e-a-sumula-vinculante-no-13-antinepotismo)
+    - [3.4 Princípio da Publicidade e suas Exceções Constitucionais](#34-principio-da-publicidade-e-suas-excecoes-constitucionais)
+    - [3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)](#35-principio-da-eficiencia-emenda-constitucional-no-191998)
+- [4. Princípios Administrativos Implícitos e Regime Sumular](#4-principios-administrativos-implicitos-e-regime-sumular)
     - [4.1 Razoabilidade e Proporcionalidade](#41-razoabilidade-e-proporcionalidade)
-    - [4.2 Segurança Jurídica e Proteção à Confiança Legítima](#42-segurança-jurídica-e-proteção-à-confiança-legítima)
-    - [4.3 Princípio da Autotutela (Súmulas 346 e 473 do STF): Anulação vs. Revogação](#43-princípio-da-autotutela-súmulas-346-e-473-do-stf-anulação-vs-revogação)
-    - [4.4 Princípio da Motivação e a Teoria dos Motivos Determinantes](#44-princípio-da-motivação-e-a-teoria-dos-motivos-determinantes)
-    - [4.5 Princípio da Continuidade dos Serviços Públicos](#45-princípio-da-continuidade-dos-serviços-públicos)
-- [5. O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo](#5-o-direito-público-positivo-da-lindb-arts-20-a-30-e-o-controle-externo)
-    - [5.1 Consequencialismo Jurídico e Vedação de Valores Abstratos (Art. 20)](#51-consequencialismo-jurídico-e-vedação-de-valores-abstratos-art-20)
-    - [5.2 Obstáculos Reais e Circunstâncias Práticas do Gestor (Art. 22)](#52-obstáculos-reais-e-circunstâncias-práticas-do-gestor-art-22)
-    - [5.3 Responsabilização por Dolo ou Erro Grosseiro (Art. 28 da LINDB c/c Dec. 9.830/2019)](#53-responsabilização-por-dolo-ou-erro-grosseiro-art-28-da-lindb-cc-dec-98302019)
-    - [5.4 Segurança Jurídica, Transição e Vedação à Retroatividade (Arts. 23 e 24)](#54-segurança-jurídica-transição-e-vedação-à-retroatividade-arts-23-e-24)
+    - [4.2 Segurança Jurídica e Proteção à Confiança Legítima](#42-seguranca-juridica-e-protecao-a-confianca-legitima)
+    - [4.3 Princípio da Autotutela (Súmulas 346 e 473 do STF): Anulação vs. Revogação](#43-principio-da-autotutela-sumulas-346-e-473-do-stf-anulacao-vs-revogacao)
+    - [4.4 Princípio da Motivação e a Teoria dos Motivos Determinantes](#44-principio-da-motivacao-e-a-teoria-dos-motivos-determinantes)
+    - [4.5 Princípio da Continuidade dos Serviços Públicos](#45-principio-da-continuidade-dos-servicos-publicos)
+- [5. O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo](#5-o-direito-publico-positivo-da-lindb-arts-20-a-30-e-o-controle-externo)
+    - [5.1 Consequencialismo Jurídico e Vedação de Valores Abstratos (Art. 20)](#51-consequencialismo-juridico-e-vedacao-de-valores-abstratos-art-20)
+    - [5.2 Obstáculos Reais e Circunstâncias Práticas do Gestor (Art. 22)](#52-obstaculos-reais-e-circunstancias-praticas-do-gestor-art-22)
+    - [5.3 Responsabilização por Dolo ou Erro Grosseiro (Art. 28 da LINDB c/c Dec. 9.830/2019)](#53-responsabilizacao-por-dolo-ou-erro-grosseiro-art-28-da-lindb-cc-dec-98302019)
+    - [5.4 Segurança Jurídica, Transição e Vedação à Retroatividade (Arts. 23 e 24)](#54-seguranca-juridica-transicao-e-vedacao-a-retroatividade-arts-23-e-24)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questões-comentadas--exemplos-padrão-fcc)
+- [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -71,12 +70,14 @@ flowchart TD
 ### 1.1 Sentido Subjetivo, Formal ou Orgânico
 
 Sob o enfoque **subjetivo, formal ou orgânico**, a Administração Pública define o complexo estrutural de **sujeitos de direito, órgãos e agentes** encarregados pelo ordenamento de exercer a função administrativa. 
+
 - Responde à indagação: **"QUEM exerce a função administrativa?"**
 - No ordenamento brasileiro, adota-se o critério estritamente formal: integram a Administração Pública em sentido subjetivo **exclusivamente os órgãos e entidades aos quais a lei confere tal condição** (União, Estados, DF, Municípios, suas autarquias, fundações públicas, empresas públicas e sociedades de economia mista). Particulares em colaboração com o poder público (concessionárias, permissionárias e organizações sociais) exercem atividade administrativa, mas **não integram a Administração Pública em sentido formal**.
 
 ### 1.2 Sentido Objetivo, Material ou Funcional
 
 Sob o prisma **objetivo, material ou funcional**, a Administração Pública corresponde ao conjunto das **atividades e funções substantivas** tipicamente administrativas executadas pelo Estado.
+
 - Responde à indagação: **"O QUE é executado pela máquina pública?"**
 - Abrange classicamente quatro atividades administrativas basilares:
     1. **Serviço Público:** Prestação direta ou indireta de utilidades e comodidades materiais fruíveis individualmente pelos cidadãos (ex.: transporte coletivo, fornecimento de energia, saúde, saneamento básico).
@@ -119,6 +120,7 @@ Fundamenta a concessão de **prerrogativas e privilégios estatais** (*poderes d
 ### 2.2 Princípio da Indisponibilidade do Interesse Público
 
 Representa o contrapeso democrático às prerrogativas estatais, corporificando as **sujeições e limitações administrativas**. O administrador público não é o proprietário dos bens e interesses que gere; atua como mero curador e gestor fiduciário do patrimônio do povo.
+
 - *Manifestações Práticas:* Submissão inafastável ao princípio da legalidade estrita; obrigatoriedade de realização de concurso público para provimento de cargos efetivos (art. 37, II, CF); dever inegociável de licitar para obras, compras e serviços (art. 37, XXI, CF); dever de prestar contas aos Tribunais de Contas; e impossibilidade de renúncia graciosa a receitas tributárias ou concessão arbitrária de privilégios a particulares.
 
 ### 2.3 Interesse Público Primário vs. Secundário
@@ -165,12 +167,14 @@ A moralidade e a impessoalidade fundamentam o teor da **Súmula Vinculante nº 1
 ### 3.4 Princípio da Publicidade e suas Exceções Constitucionais
 
 A publicidade exige que a atuação estatal seja transparente, acessível e cognoscível aos cidadãos e órgãos de controle externo. 
+
 - A publicação oficial é **requisito de eficácia** (aptidão para produzir efeitos jurídicos) e de **exigibilidade** dos atos administrativos que criam obrigações para terceiros ou geram despesas públicas; não é requisito de validade intrínseca do ato.
 - **Exceções Constitucionais Estritas:** A própria CF/88 ressalva o sigilo apenas nas hipóteses de **segurança do Estado e da sociedade** e de proteção inafastável à **intimidade, honra e vida privada** das pessoas (art. 5º, incisos X, XXXIII e LX).
 
 ### 3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)
 
 Inserido formalmente no rol do art. 37 pela Reforma Administrativa (EC nº 19/1998), impõe à Administração o dever de obter o melhor rendimento funcional, presteza, perfeição técnica, celeridade na tramitação e economicidade, maximizando os resultados com o menor dispêndio possível de recursos públicos.
+
 - *Desdobramentos Constitucionais Práticos:* Avaliação especial de desempenho para aquisição da estabilidade do servidor (art. 41, § 4º, CF); perda do cargo público por avaliação periódica de desempenho (art. 41, § 1º, III, CF); e fixação de metas de desempenho institucional mediante contratos de gestão (art. 37, § 8º, CF).
 
 ---
@@ -182,6 +186,7 @@ Além dos cinco princípios expressos no art. 37 da CF, o ordenamento constituci
 ### 4.1 Razoabilidade e Proporcionalidade
 
 Exigem equilíbrio, bom senso, coerência e adequação entre os meios empregados pelo Estado e os fins pretendidos pela lei, vedando restrições desmedidas ou sacrifícios inúteis impostos aos administrados.
+
 - **Tripé da Proporcionalidade:**
     1. *Adequação:* O meio escolhido deve ser apto a alcançar o objetivo público.
     2. *Necessidade (Exigibilidade):* Entre os meios aptos, deve-se eleger o que cause menor gravame ao cidadão (*vedação de excesso*).
@@ -190,6 +195,7 @@ Exigem equilíbrio, bom senso, coerência e adequação entre os meios empregado
 ### 4.2 Segurança Jurídica e Proteção à Confiança Legítima
 
 Visa garantir a estabilidade das relações jurídicas constituídas e proteger a confiança dos administrados perante as condutas e orientações da Administração.
+
 - *Vedação à Aplicação Retroativa:* O art. 2º, parágrafo único, inciso XIII, da Lei nº 9.784/1999 veda peremptoriamente a aplicação retroativa de nova interpretação jurídica para alcançar atos pretéritos já consolidados sob a orientação anterior.
 - *Prazo Decadencial da Autotutela:* Fixação do prazo decadencial de **5 anos** para que a Administração anule atos administrativos favoráveis aos administrados praticados de boa-fé (art. 54 da Lei 9.784/99 e art. 54 da Lei Estadual/GO 13.800/2001).
 
@@ -220,11 +226,13 @@ flowchart TD
 ### 4.4 Princípio da Motivação e a Teoria dos Motivos Determinantes
 
 A motivação consiste na exposição explícita, por escrito, das razões de fato e dos fundamentos de direito que justificam a prática do ato administrativo.
+
 - **Teoria dos Motivos Determinantes:** A validade do ato administrativo fica estritamente vinculada à veracidade e pertinência dos motivos fáticos declarados pela autoridade competente. Se a Administração fundamentar a exoneração de um servidor comissionado aduzindo escassez orçamentária, e restar documentalmente comprovado que havia saldo orçamentário excedente, o ato de desligamento será declarado nulo por falsidade do motivo, mesmo que a lei não exigisse motivação obrigatória para a referida exoneração.
 
 ### 4.5 Princípio da Continuidade dos Serviços Públicos
 
 Os serviços públicos representam a prestação material de necessidades indeclináveis da sociedade, não podendo sofrer interrupções imotivadas ou abruptas.
+
 - *Limites Legítimos de Suspensão (Lei nº 8.987/1995, art. 6º, § 3º):* O serviço pode ser suspenso após aviso prévio formal ao usuário por:
     1. Razões de ordem técnica ou de segurança das instalações;
     2. Inadimplemento contratual do usuário, ressalvadas unidades públicas essenciais (hospitais e postos de saúde não podem ter o fornecimento de energia desligado por falta de pagamento).
@@ -293,6 +301,7 @@ Diante do regramento constitucional aplicável à Administração Pública, a co
 * **E)** Autotutela, pois a publicidade de atos municipais depende de chancela prévia obrigatória do Tribunal de Contas competente.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A publicidade institucional de realizações do Poder Público é permitida e salutar para o controle social, desde que preserve rigoroso caráter educativo, informativo ou de orientação social. O erro não está em divulgar a obra concluída, mas em promover a figura pessoal do administrador.
 > - **B)** Correta. O art. 37, § 1º, da Constituição Federal estabelece que a publicidade dos órgãos públicos não pode conter nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos. A aposição de fotografias e slogans eleitorais do Prefeito com dinheiro público fere frontalmente o princípio da impessoalidade e a Teoria do Órgão (segundo a qual as realizações pertencem ao Município e não à pessoa física do gestor), configurando ainda ato de improbidade administrativa.
 > - **C)** Incorreta. O vício primordial e autônomo é a promoção pessoal ilícita, e não a ausência de demonstrativos contábeis na mídia veiculada.
@@ -315,6 +324,7 @@ Em processo de auditoria de conformidade instaurado no Tribunal de Contas, a equ
 * **E)** A responsabilidade do agente público somente pode ser afastada caso haja prévia consulta formal respondida pelo Tribunal com efeito vinculante.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A responsabilidade pessoal e sancionatória do agente público perante o Tribunal de Contas é de índole subjetiva, demandando a demonstração inequívoca de dolo ou de erro grosseiro (culpa grave), nos termos do art. 28 da LINDB.
 > - **B)** Correta. O art. 28 da LINDB prescreve que o agente público somente responderá pessoalmente por suas decisões ou pareceres técnicos em caso de dolo ou erro grosseiro. O art. 12 do Decreto Federal nº 9.830/2019 e a jurisprudência do STF consolidam que não se considera erro grosseiro a decisão sustentada em interpretação jurídica plausível, razoável e fundamentada em abalizada doutrina ou jurisprudência, ainda que não seja a tese acolhida pela corte de contas.
 > - **C)** Incorreta. Mera discordância hermenêutica entre o administrador e a unidade de fiscalização do Tribunal de Contas não corporifica erro grosseiro ou conduta reprovável.
@@ -337,6 +347,7 @@ Considerando o princípio da autotutela e os enunciados das Súmulas 346 e 473 d
 * **E)** O ato tornou-se imutável por força do princípio da segurança jurídica, não podendo mais ser anulado nem mesmo pelo Poder Judiciário.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Vício de ilegalidade insanável enseja a **anulação** do ato, e não revogação. A revogação recai exclusivamente sobre atos válidos e perfeitos que se tornaram inconvenientes ou inoportunos, gerando efeitos prospectivos (*ex nunc*).
 > - **B)** Correta. Conforme as Súmulas 346 e 473 do STF, a Administração tem o poder-dever de anular seus próprios atos ilegais, operando a anulação efeitos retroativos (*ex tunc*). Todavia, como o ato produziu efeitos concretos favoráveis na esfera de direitos dos servidores beneficiados de boa-fé, é mandatório instaurar processo administrativo prévio assegurando-lhes o contraditório e a ampla defesa (Súmula Vinculante nº 3). Como transcorreram apenas dois anos, o direito da Administração de anular está plenamente preservado (o prazo decadencial é de 5 anos).
 > - **C)** Incorreta. Pelo princípio da autotutela, a Administração Pública não necessita provocar o Judiciário para extirpar atos ilegais praticados em seus quadros.
@@ -359,6 +370,7 @@ Conforme a jurisprudência pacificada do Supremo Tribunal Federal consolidada na
 * **E)** A restrição sumular não se aplica aos cargos em comissão de direção e chefia, restringindo-se às funções de assessoramento.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O parentesco colateral até o terceiro grau é expressamente abrangido pela proibição sumular. Irmãos são parentes em linha colateral de segundo grau consanguíneo, caindo sob o veto direto.
 > - **B)** Incorreta. Em cargos em comissão de livre nomeação e exoneração de natureza estritamente administrativa (como a Diretoria de Recursos Humanos), a qualificação acadêmica do parente não afasta a presunção objetiva de nepotismo e a nulidade do provimento.
 > - **C)** Correta. A Súmula Vinculante nº 13 do STF estabelece expressamente a inconstitucionalidade da nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o **terceiro grau**, inclusive, da autoridade nomeante para cargos em comissão ou de confiança (direção, chefia e assessoramento). A nomeação de irmã (2º grau colateral) para cargo de Diretora é flagrantemente nula por vulnerar a moralidade e a impessoalidade.
@@ -381,6 +393,7 @@ Considerando o princípio da segurança jurídica, a disciplina do processo admi
 * **E)** A segurança jurídica apenas protege os atos administrativos chancelados expressamente por sentença judicial transitada em julgado.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. No Estado Democrático de Direito, o princípio da legalidade não atua de modo isolado ou absoluto; ele deve ser harmonizado e sopesado com os princípios da segurança jurídica, da proteção à confiança legítima e da boa-fé objetiva.
 > - **B)** Correta. O art. 24 da LINDB proíbe expressamente que, com base em alteração posterior de orientação geral, se declarem inválidas situações plenamente constituídas, devendo a revisão levar em conta as diretrizes gerais vigentes à época em que os atos foram praticados. Em idêntico sentido, o art. 2º, parágrafo único, XIII, da Lei Federal nº 9.784/1999 (e da legislação estadual congênere) veda expressamente a "aplicação retroativa de nova interpretação". As novas orientações só produzem efeitos prospectivos (*ex nunc*).
 > - **C)** Incorreta. A Súmula 249 do TCU e a firme jurisprudência do STJ e do STF pacificaram o entendimento de que é incabível a repetição de indébito de verbas alimentares percebidas de boa-fé com esteio em interpretação jurídica equivocada do próprio poder público.

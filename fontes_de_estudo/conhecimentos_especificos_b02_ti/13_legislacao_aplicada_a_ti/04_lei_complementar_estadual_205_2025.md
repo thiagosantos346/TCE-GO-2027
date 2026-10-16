@@ -16,18 +16,18 @@
 ---
 
 ## 🧭 Sumário
-- [1. Contexto e Princípios Fundamentais da LC nº 205/2025](#1-contexto-e-princípios-fundamentais-da-lc-nº-2052025)
-    - [1.1 Objetivos e Escopo da Política Estadual de IA](#11-objetivos-e-escopo-da-política-estadual-de-ia)
-    - [1.2 Princípios Norteadores de IA no Setor Público Goiano](#12-princípios-norteadores-de-ia-no-setor-público-goiano)
-- [2. Instrumentos Estratégicos Criados pela LC nº 205/2025](#2-instrumentos-estratégicos-criados-pela-lc-nº-2052025)
-    - [2.1 Sandbox Estadual Permanente de Inteligência Artificial](#21-sandbox-estadual-permanente-de-inteligência-artificial)
-    - [2.2 Núcleo de Ética e Inovação em Inteligência Artificial (NEI-IA)](#22-núcleo-de-ética-e-inovação-em-inteligência-artificial-nei-ia)
-    - [2.3 A Diretriz Mandatória de IA Aberta (Open Source AI)](#23-a-diretriz-mandatória-de-ia-aberta-open-source-ai)
-- [3. O Papel Fiscalizatório do TCE-GO sobre Sistemas de IA](#3-o-papel-fiscalizatório-do-tce-go-sobre-sistemas-de-ia)
-    - [3.1 As Três Dimensões da Auditoria de IA Governamental](#31-as-três-dimensões-da-auditoria-de-ia-governamental)
-    - [3.2 Uso Interno de IA no TCE-GO: O Ecossistema IAGO e a RA nº 24/2024](#32-uso-interno-de-ia-no-tce-go-o-ecossistema-iago-e-a-ra-nº-242024)
+- [1. Contexto e Princípios Fundamentais da LC nº 205/2025](#1-contexto-e-principios-fundamentais-da-lc-no-2052025)
+    - [1.1 Objetivos e Escopo da Política Estadual de IA](#11-objetivos-e-escopo-da-politica-estadual-de-ia)
+    - [1.2 Princípios Norteadores de IA no Setor Público Goiano](#12-principios-norteadores-de-ia-no-setor-publico-goiano)
+- [2. Instrumentos Estratégicos Criados pela LC nº 205/2025](#2-instrumentos-estrategicos-criados-pela-lc-no-2052025)
+    - [2.1 Sandbox Estadual Permanente de Inteligência Artificial](#21-sandbox-estadual-permanente-de-inteligencia-artificial)
+    - [2.2 Núcleo de Ética e Inovação em Inteligência Artificial (NEI-IA)](#22-nucleo-de-etica-e-inovacao-em-inteligencia-artificial-nei-ia)
+    - [2.3 A Diretriz Mandatória de IA Aberta (Open Source AI)](#23-a-diretriz-mandatoria-de-ia-aberta-open-source-ai)
+- [3. O Papel Fiscalizatório do TCE-GO sobre Sistemas de IA](#3-o-papel-fiscalizatorio-do-tce-go-sobre-sistemas-de-ia)
+    - [3.1 As Três Dimensões da Auditoria de IA Governamental](#31-as-tres-dimensoes-da-auditoria-de-ia-governamental)
+    - [3.2 Uso Interno de IA no TCE-GO: O Ecossistema IAGO e a RA nº 24/2024](#32-uso-interno-de-ia-no-tce-go-o-ecossistema-iago-e-a-ra-no-242024)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
-- [5. Questões Comentadas no Padrão FCC](#5-questões-comentadas-no-padrão-fcc)
+- [5. Questões Comentadas no Padrão FCC](#5-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -103,6 +103,7 @@ A Lei Complementar nº 205/2025 estrutura a política pública estadual sobre tr
 Colegiado de natureza **consultiva e propositiva**, reunindo representantes do Poder Executivo (Secretaria de Ciência, Tecnologia e Inovação - Secti), universidades públicas, comunidade científica, sociedade civil e setor empresarial de tecnologia.
 
 **Atribuições Principais:**
+
 1. Elaborar e atualizar o Código de Boas Práticas e Governança Ética de IA para a administração pública goiana;
 2. Emitir pareceres técnicos prévios sobre projetos de IA classificados como de **alto risco** pelo Estado;
 3. Propor diretrizes para a governança de dados governamentais utilizados em modelos analíticos;
@@ -162,10 +163,12 @@ sequenceDiagram
     - Licitude da base de dados perante a LGPD;
     - Representatividade estatística e qualidade da rotulagem;
     - Ausência de distorções históricas que discriminem grupos vulneráveis.
+
 2. **Auditoria do Modelo e Desempenho (*Model Audit*):**
     - Avaliação de acurácia, precisão, recall, F1-score e curva ROC-AUC;
     - Resistência a alucinações e robustez contra ataques adversariais;
     - Verificação da diretriz de código aberto (*open source*).
+
 3. **Auditoria de Processo e Governança (*Process Audit*):**
     - Existência de supervisão humana (*Human-in-the-Loop*);
     - Trilhas de auditoria registrando inputs, scores de confiança e identificação do servidor responsável pela homologação final do ato.
@@ -208,6 +211,7 @@ O próprio TCE-GO, alinhado à LC nº 205/2025, implementou regulação interna 
 * **E)** Autoriza o tratamento irrestrito de dados pessoais sensíveis sem necessidade de observância aos preceitos da Lei Geral de Proteção de Dados Pessoais (LGPD).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Sandbox de IA de Goiás é amplo, permanente e voltado a estimular o ecossistema econômico de inovação, incluindo startups, empresas de tecnologia, universidades e órgãos públicos.
 > - **B)** **Correta.** A definição legal de Sandbox Regulatório na LC nº 205/2025 prevê um ambiente controlado de testes com flexibilização temporária e supervisionada de certas exigências regulatórias, exigindo salvaguardas essenciais: plano prévio de mitigação de riscos, respeito absoluto aos direitos humanos e submissão estrita à LGPD.
 > - **C)** Incorreta. O sandbox não confere imunidade civil ampla; eventuais danos provocados a usuários continuam sujeitos à reparação civil na forma da legislação em vigor.
@@ -228,6 +232,7 @@ O próprio TCE-GO, alinhado à LC nº 205/2025, implementou regulação interna 
 * **E)** A imposição de contratos de licenciamento perpétuo e irrevogável com cláusula de exclusividade com uma única multinacional estrangeira.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A LC nº 205/2025 combate a opacidade de soluções tipo "caixa preta" (*black box*) nos serviços públicos essenciais, contrariando o segredo fechado injustificado.
 > - **B)** **Correta.** A diretriz de IA Aberta é um dos grandes diferenciais da LC estadual nº 205/2025. Ela consagra como diretriz preferencial o uso de tecnologias, softwares e modelos abertos (*open-source*), garantindo auditabilidade técnica direta pelo Tribunal de Contas, economicidade, independência de fornecedor e soberania de dados.
 > - **C)** Incorreta. O envio de dados sensíveis de saúde para o exterior sem salvaguardas violaria a LGPD e o princípio da segurança da informação.
@@ -248,6 +253,7 @@ O próprio TCE-GO, alinhado à LC nº 205/2025, implementou regulação interna 
 * **E)** O cidadão deve renunciar previamente ao direito de defesa administrativa para interagir com sistemas de governo digital em Goiás.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A automação plena sem mecanismo humano em decisões restritivas de direitos é repudiada pela doutrina de governança de IA e pela LC nº 205/2025.
 > - **B)** **Correta.** A LC nº 205/2025 e os princípios universais de ética em IA determinam que decisões que impactem substancialmente a esfera jurídica e os direitos de pessoas físicas ou jurídicas devem assegurar o princípio do *Human-in-the-Loop* (supervisão humana), com direito a explicações inteligíveis dos critérios adotados e possibilidade de revisão por pessoa natural.
 > - **C)** Incorreta. O TCE-GO possui ampla competência constitucional e legal para fiscalizar a legitimidade, economicidade, eficácia e conformidade legal de quaisquer atos estatais, incluindo os algoritmos decisórios.
@@ -268,6 +274,7 @@ O próprio TCE-GO, alinhado à LC nº 205/2025, implementou regulação interna 
 * **E)** Substituir as câmaras de julgamento de processos de contas do Tribunal de Contas do Estado de Goiás.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O NEI-IA é órgão consultivo de governança ética, não exercendo funções jurisdicionais penais.
 > - **B)** **Correta.** O NEI-IA foi estruturado pela LC nº 205/2025 como uma instância colegiada consultiva, plural e propositiva com a missão de zelar pela ética, transparência algorítmica, mitigação de vieses preconceituosos e emissão de orientações técnicas de boas práticas para os sistemas públicos de IA em Goiás.
 > - **C)** Incorreta. O núcleo não é fábrica monopolista de software; cada órgão (como TCE, SEFAZ, Detran) mantém suas respectivas áreas de tecnologia.
@@ -288,6 +295,7 @@ O próprio TCE-GO, alinhado à LC nº 205/2025, implementou regulação interna 
 * **E)** O treinamento de modelos de aprendizado de máquina dispensa quaisquer cuidados quanto à qualidade e limpeza da base de dados histórica.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Inserir dados sigilosos e fiscais em ferramentas de IA pública na nuvem comercial gratuita configura quebra grave de sigilo funcional, violação da LGPD e transgressão às normas de segurança da informação do TCE-GO.
 > - **B)** **Correta.** As normas e a LC nº 205/2025 estabelecem expressamente que a inteligência artificial tem caráter de instrumento auxiliar de produtividade e triagem analítica. O servidor público que assina o despacho, relatório de auditoria ou ato decisório permanece integralmente responsável pelo conteúdo, sendo imperativa a revisão humana crítica do que foi sintetizado pelo modelo.
 > - **C)** Incorreta. A explicabilidade é dever do Estado de Goiás e do fornecedor, independentemente da nacionalidade da empresa desenvolvedora.

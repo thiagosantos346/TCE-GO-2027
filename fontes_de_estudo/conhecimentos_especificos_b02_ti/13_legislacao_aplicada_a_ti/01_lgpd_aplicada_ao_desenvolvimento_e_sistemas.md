@@ -18,21 +18,21 @@
 ---
 
 ## 🧭 Sumário
-- [1. Taxonomia de Dados e Papéis sob a LGPD](#1-taxonomia-de-dados-e-papéis-sob-a-lgpd)
-    - [1.1 Classificação Legal e Técnica dos Dados](#11-classificação-legal-e-técnica-dos-dados)
+- [1. Taxonomia de Dados e Papéis sob a LGPD](#1-taxonomia-de-dados-e-papeis-sob-a-lgpd)
+    - [1.1 Classificação Legal e Técnica dos Dados](#11-classificacao-legal-e-tecnica-dos-dados)
     - [1.2 Agentes de Tratamento e o Encarregado (DPO)](#12-agentes-de-tratamento-e-o-encarregado-dpo)
-- [2. Princípios do Art. 6º sob a Ótica da Arquitetura e Engenharia de Software](#2-princípios-do-art-6º-sob-a-ótica-da-arquitetura-e-engenharia-de-software)
+- [2. Princípios do Art. 6º sob a Ótica da Arquitetura e Engenharia de Software](#2-principios-do-art-6o-sob-a-otica-da-arquitetura-e-engenharia-de-software)
 - [3. Privacy by Design e Privacy by Default (Ann Cavoukian)](#3-privacy-by-design-e-privacy-by-default-ann-cavoukian)
-    - [3.1 Os 7 Princípios Fundamentais do Privacy by Design](#31-os-7-princípios-fundamentais-do-privacy-by-design)
+    - [3.1 Os 7 Princípios Fundamentais do Privacy by Design](#31-os-7-principios-fundamentais-do-privacy-by-design)
     - [3.2 Comparativo: Privacy by Design vs. Privacy by Default](#32-comparativo-privacy-by-design-vs-privacy-by-default)
-- [4. Engenharia de Desidentificação: Anonimização vs. Pseudonimização](#4-engenharia-de-desidentificação-anonimização-vs-pseudonimização)
-    - [4.1 Técnicas Criptográficas de Pseudonimização](#41-técnicas-criptográficas-de-pseudonimização)
-    - [4.2 Métricas Formais de Anonimização (k-Anonymity, l-Diversity, t-Closeness e DP)](#42-métricas-formais-de-anonimização-k-anonymity-l-diversity-t-closeness-e-dp)
-- [5. Implementação Técnica dos Direitos dos Titulares (Art. 18 da LGPD)](#5-implementação-técnica-dos-direitos-dos-titulares-art-18-da-lgpd)
-    - [5.1 Mapeamento dos Direitos e Requisitos Técnicos](#51-mapeamento-dos-direitos-e-requisitos-técnicos)
-    - [5.2 Comunicação de Incidentes de Segurança à ANPD e Titulares (Art. 48)](#52-comunicação-de-incidentes-de-segurança-à-anpd-e-titulares-art-48)
+- [4. Engenharia de Desidentificação: Anonimização vs. Pseudonimização](#4-engenharia-de-desidentificacao-anonimizacao-vs-pseudonimizacao)
+    - [4.1 Técnicas Criptográficas de Pseudonimização](#41-tecnicas-criptograficas-de-pseudonimizacao)
+    - [4.2 Métricas Formais de Anonimização (k-Anonymity, l-Diversity, t-Closeness e DP)](#42-metricas-formais-de-anonimizacao-k-anonymity-l-diversity-t-closeness-e-dp)
+- [5. Implementação Técnica dos Direitos dos Titulares (Art. 18 da LGPD)](#5-implementacao-tecnica-dos-direitos-dos-titulares-art-18-da-lgpd)
+    - [5.1 Mapeamento dos Direitos e Requisitos Técnicos](#51-mapeamento-dos-direitos-e-requisitos-tecnicos)
+    - [5.2 Comunicação de Incidentes de Segurança à ANPD e Titulares (Art. 48)](#52-comunicacao-de-incidentes-de-seguranca-a-anpd-e-titulares-art-48)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas no Padrão FCC](#7-questões-comentadas-no-padrão-fcc)
+- [7. Questões Comentadas no Padrão FCC](#7-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -91,22 +91,31 @@ O Art. 6º da LGPD elenca dez princípios fundamentais que regem as atividades d
 
 1. **Finalidade:** Realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível.
     - *Impacto em TI:* Cada campo persistido na tabela do banco de dados deve ter uma justificativa funcional rastreável. Não é permitido criar rotinas de coleta de dados genéricos sob a premissa de "podemos precisar disso no futuro".
+
 2. **Adequação:** Compatibilidade do tratamento com as finalidades informadas ao titular.
     - *Impacto em TI:* Se o cadastro foi feito para emissão de certidão negativa de débitos fiscais, o sistema não pode enviar newsletters promocionais ou compartilhar dados com empresas privadas sem base legal.
+
 3. **Necessidade (Minimização de Dados):** Limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos.
     - *Impacto em TI:* Se uma API precisa apenas validar a maioridade do usuário, ela deve receber um booleano `maior_de_idade: true/false` ou a idade calculada, e não o RG completo, filiação e certidão de nascimento digitalizada.
+
 4. **Livre Acesso:** Garantia aos titulares de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais.
     - *Impacto em TI:* Criação de painéis de autoatendimento (*self-service privacy portals*) e endpoints de leitura de perfil.
+
 5. **Qualidade dos Dados:** Garantia de exatidão, clareza, relevância e atualização dos dados.
     - *Impacto em TI:* Implementação de rotinas de validação de esquemas (JSON Schema, constraints de integridade), deduplicação de registros e mecanismos para retificação de dados incorretos pelo próprio titular.
+
 6. **Transparência:** Garantia de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento.
     - *Impacto em TI:* Políticas de privacidade com redação clara em microcopy nos formulários, registros de consentimento (*consent logs*) e termos versionados.
+
 7. **Segurança:** Utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas.
     - *Impacto em TI:* Criptografia de dados em trânsito (TLS 1.3) e em repouso (AES-256 com chaves gerenciadas por HSM/KMS), RBAC/ABAC, mTLS em microserviços e proteção contra injeções (OWASP Top 10).
+
 8. **Prevenção:** Adoção de medidas prévias para evitar a ocorrência de danos em virtude do tratamento de dados pessoais.
     - *Impacto em TI:* Auditorias contínuas de código (SAST/DAST), modelagem de ameaças e esteiras DevSecOps com bloqueio de deploy em caso de vazamento de segredos em repositórios.
+
 9. **Não Discriminação:** Impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos.
     - *Impacto em TI:* Validação ética e técnica de modelos de Machine Learning para evitar viés algorítmico (*bias*) em sistemas de concessão de créditos tributários ou triagens fiscais.
+
 10. **Responsabilização e Prestação de Contas (Accountability):** Demonstração da eficácia das medidas adotadas pelo agente.
     - *Impacto em TI:* Trilhas de auditoria imutáveis (*audit trails* / logs assinados digitalmente), relatórios de impacto à proteção de dados (RIPD/DPIA) e documentação de arquitetura de dados.
 
@@ -140,6 +149,7 @@ flowchart LR
     - Checkboxes de consentimento desmarcadas por padrão;
     - Coleta de dados estritamente necessária ativada; dados opcionais desativados;
     - Cookies de rastreamento de terceiros bloqueados por padrão.
+
 3. **Privacidade Incorporada ao Design:** A proteção da privacidade é uma funcionalidade essencial do núcleo do software e da infraestrutura, não um remendo (*patch*) colocado sobre uma arquitetura insegura.
 4. **Funcionalidade Total (Soma Positiva - *Positive-Sum, not Zero-Sum*):** Rejeita a falsa dicotomia de que "ou temos privacidade, ou temos segurança/desempenho". A arquitetura de software de excelência entrega alta performance, segurança robusta **e** respeito irrestrito à privacidade.
 5. **Segurança de Ponta a Ponta (Proteção em Todo o Ciclo de Vida):** A segurança cobre a informação desde a coleta inicial, trânsito, processamento, armazenamento, backup até o expurgo definitivo e seguro (*crypto-shredding* ou destruição física da mídia).
@@ -195,10 +205,13 @@ flowchart TD
 1. **k-Anonymity (Sweeney, 2002):**
     - Um conjunto de dados possui $k$-anonimato se cada tupla de **quase-identificadores** (ex.: Idade, Gênero, CEP) for indistinguível de pelo menos outras $k-1$ tuplas no mesmo conjunto. Ou seja, cada grupo de equivalência contém no mínimo $k$ registros.
     - *Limitação:* Não protege contra o ataque de **homogeneidade**. Se em um grupo com $k=5$, todos os 5 indivíduos tiverem o atributo sensível "Tuberculose Pulmonar", qualquer pessoa que saiba que a vítima está naquele grupo descobrirá sua doença com 100% de certeza.
+
 2. **l-Diversity (Machanavajjhala et al., 2007):**
     - Extensão do $k$-anonimato que exige que, dentro de cada grupo de equivalência de quase-identificadores, existam pelo menos $l$ valores "bem representados" para cada atributo sensível, superando o ataque de homogeneidade.
+
 3. **t-Closeness (Li et al., 2007):**
     - Exige que a distribuição de probabilidade de um atributo sensível dentro de qualquer grupo de equivalência tenha uma distância estatística de no máximo $t$ em relação à distribuição desse mesmo atributo em todo o banco de dados global.
+
 4. **Privacidade Diferencial ($\epsilon$-Differential Privacy - Dwork, 2006):**
     - Padrão-ouro na computação moderna. Garante matematicamente que a inclusão ou remoção de um único indivíduo no banco de dados não altera significativamente a probabilidade do resultado de uma consulta analítica agregada.
     - Injeta ruído aleatório calibrado (distribuição de Laplace ou Gaussiana) controlado pelo parâmetro de privacidade $\epsilon$ (*privacy budget*).
@@ -255,6 +268,7 @@ O Art. 48 da LGPD determina que o **Controlador** deve comunicar à Autoridade N
     3. As medidas técnicas e de segurança utilizadas para proteção dos dados;
     4. Os riscos relacionados ao incidente;
     5. As medidas tomadas ou que serão adotadas para reverter ou mitigar os efeitos do prejuízo.
+
 - A ANPD poderá determinar ao controlador a ampla divulgação do fato nos meios de comunicação caso considere relevante.
 
 ---
@@ -279,8 +293,11 @@ O Art. 48 da LGPD determina que o **Controlador** deve comunicar à Autoridade N
 **Enunciado:** Um arquiteto de software da Diretoria de Tecnologia da Informação de um órgão de controle externo está projetando a nova arquitetura do sistema de protocolo e tramitação processual eletrônica. Durante o levantamento de requisitos, a equipe propôs três medidas de segurança e tratamento de dados:  
 
 I. Substituir o CPF dos cidadãos denunciantes por um hash criptográfico com salt aleatório gerado pelo servidor corporativo, cuja tabela de correspondência fica protegida em repositório seguro acessível unicamente pelos auditores responsáveis pela instrução da denúncia.  
+
 II. Disponibilizar os dados de contratações públicas para consulta de terceiros somente após a aplicação de algoritmos de k-anonimato e injeção de ruído laplaciano, de tal forma que, por nenhum meio técnico razoável e disponível na ocasião do tratamento, seja possível identificar as pessoas naturais associadas.  
+
 III. Ativar, por padrão, em todos os novos formulários públicos web, caixas de diálogo pré-marcadas autorizando o compartilhamento irrestrito de contatos telefônicos de cidadãos com órgãos de publicidade privada.  
+
 À luz das disposições da Lei Federal nº 13.709/2018 (LGPD) e das metodologias de *Privacy by Design* e *Privacy by Default*, é correto afirmar que:  
 
 * **A)** As medidas I e II configuram anonimização perfeita, excluindo ambos os conjuntos de dados da incidência da LGPD.
@@ -290,6 +307,7 @@ III. Ativar, por padrão, em todos os novos formulários públicos web, caixas d
 * **E)** A medida III é juridicamente válida e recomendável pelo *Privacy by Default*, tendo em vista que desonera o usuário da tarefa manual de consentir explicitamente.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A medida I não é anonimização, e sim pseudonimização. Na pseudonimização, a associação com a pessoa física continua existindo por meio da chave/tabela que os auditores mantêm no repositório seguro. O dado continua sob o regime da LGPD.
 > - **B)** **Correta.** A medida I descreve com exatidão a pseudonimização (Art. 13, § 4º), na qual o dado perde a associação direta senão pelo uso de informação adicional mantida em ambiente controlado, continuando a ser considerado dado pessoal. A medida II atende aos critérios do Art. 12 da LGPD para anonimização (não identificável por meios técnicos razoáveis e disponíveis), deixando de ser dado pessoal. A medida III viola frontalmente o *Privacy by Default*, que proíbe caixas pré-marcadas (*opt-in* forçado) e compartilhamentos indiscriminados.
 > - **C)** Incorreta. O hash criptográfico, mesmo com salt, não descaracteriza o dado pessoal de forma absoluta perante a LGPD, pois o controlador detém a chave para reverter ou associar os registros. Trata-se de pseudonimização.
@@ -310,6 +328,7 @@ III. Ativar, por padrão, em todos os novos formulários públicos web, caixas d
 * **E)** Os princípios de privacidade devem ser implementados exclusivamente após a homologação final do software em ambiente de produção.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Contraria a essência da soma positiva, pois prega o sacrifício da privacidade em troca de ganho de desempenho (mentalidade de soma zero).
 > - **B)** **Correta.** O princípio 4 do *Privacy by Design* (Funcionalidade Total: Soma Positiva) busca satisfazer todos os objetivos legítimos em um modelo "ganha-ganha" (*win-win*), rejeitando a falsa dicotomia de que a privacidade compete destrutivamente com a segurança, usabilidade ou desempenho.
 > - **C)** Incorreta. O princípio prega explicitamente a superação do jogo de soma zero (*not Zero-Sum*). Não se admite a escolha de um em detrimento de outro.
@@ -330,6 +349,7 @@ III. Ativar, por padrão, em todos os novos formulários públicos web, caixas d
 * **E)** Transferir a guarda dos dados para uma empresa de tecnologia privada sediada no exterior a fim de eximir o Tribunal da responsabilidade civil.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O direito à eliminação (Art. 18, VI) não é absoluto. O Art. 16 da LGPD prevê expressamente as hipóteses em que os dados devem ou podem ser conservados mesmo após o término do tratamento ou a pedido do titular: cumprimento de obrigação legal ou regulatória pelo controlador (inciso I), estudo por órgão de pesquisa (inciso II), transferência a terceiro permitida pela lei (inciso III) ou uso exclusivo do controlador sob anonimização (inciso IV).
 > - **B)** **Correta.** Os autos processuais e registros administrativos de órgãos públicos são protegidos por deveres de custódia documental (legislação arquivística e de controle externo) e pelo exercício regular de direitos. Portanto, a exclusão física solicitada pelo titular deve ser negada com a devida justificativa legal fundamentada no Art. 16, I da LGPD.
 > - **C)** Incorreta. O Art. 18 estabelece que o exercício dos direitos pelo titular perante o controlador é gratuito (Art. 18, § 5º). É expressamente vedada a cobrança de taxas.
@@ -352,6 +372,7 @@ Com base nos conceitos teóricos de anonimização, esse conjunto de dados:
 * **E)** Enquadra-se como dado pseudonimizado com chave simétrica AES-GCM.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** A propriedade de $k$-anonimato ($k=5$) exige apenas que cada combinação de quase-identificadores apareça em pelo menos $k$ tuplas (o que ocorreu, pois há 5 registros indistinguíveis). Porém, como todos os indivíduos do grupo têm exatamente o mesmo diagnóstico ("Tuberculose Pulmonar"), não há diversidade de valores sensíveis ($l=1$), o que permite a um atacante com conhecimento de que o alvo está no grupo descobrir sua doença sem incerteza (ataque de homogeneidade). A métrica de $l$-diversity foi violada.
 > - **B)** Incorreta. O $k$-anonimato não falhou; ele foi satisfeito quanto aos quase-identificadores ($k=5$). O erro está em não prover $l$-diversidade no atributo sensível.
 > - **C)** Incorreta. Privacidade diferencial com $\epsilon = 0$ exigiria ruído infinito (o resultado da consulta seria puramente ruído aleatório sem qualquer utilidade analítica). O cenário trata de generalização de quase-identificadores, não de diferencial privacy.
@@ -372,6 +393,7 @@ Com base nos conceitos teóricos de anonimização, esse conjunto de dados:
 * **E)** A ANPD não possui competência legal para determinar a divulgação do fato à imprensa caso o controlador decida manter o sigilo absoluto do vazamento.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Art. 48 estabelece o dever de comunicação quando o incidente "possa acarretar risco ou dano relevante aos titulares". Incidentes triviais sem qualquer risco ou afetação a direitos não demandam comunicação formal obrigatória à ANPD e aos titulares.
 > - **B)** **Correta.** O Art. 48 da LGPD determina: "O controlador deverá comunicar à autoridade nacional e ao titular a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante aos titulares." A comunicação deve conter a natureza dos dados, informações sobre os titulares envolvidos, medidas técnicas adotadas para proteção e medidas para reverter ou mitigar os efeitos do prejuízo.
 > - **C)** Incorreta. A obrigação legal de notificação à ANPD e aos titulares é do Controlador (Art. 48). O Operador tem o dever de notificar imediatamente o Controlador sobre a ocorrência do incidente, mas não assume o papel perante a ANPD e o público.

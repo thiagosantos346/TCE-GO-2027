@@ -16,30 +16,30 @@
 ---
 
 ## 🧭 Sumário
-- [1. Razões, Proporções e Propriedades Fundamentais](#1-razões-proporções-e-propriedades-fundamentais)
-    - [1.1 Conceito de Razão e Grandezas Comensuráveis](#11-conceito-de-razão-e-grandezas-comensuráveis)
-    - [1.2 Proporções e a Propriedade Fundamental](#12-proporções-e-a-propriedade-fundamental)
+- [1. Razões, Proporções e Propriedades Fundamentais](#1-razoes-proporcoes-e-propriedades-fundamentais)
+    - [1.1 Conceito de Razão e Grandezas Comensuráveis](#11-conceito-de-razao-e-grandezas-comensuraveis)
+    - [1.2 Proporções e a Propriedade Fundamental](#12-proporcoes-e-a-propriedade-fundamental)
     - [1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade](#13-propriedade-da-soma-dos-termos-e-constante-de-proporcionalidade)
-- [2. Divisão em Partes Proporcionais](#2-divisão-em-partes-proporcionais)
-    - [2.1 Divisão Diretamente Proporcional com a Constante k](#21-divisão-diretamente-proporcional-com-a-constante-k)
-    - [2.2 Divisão Inversamente Proporcional e o Método do MMC](#22-divisão-inversamente-proporcional-e-o-método-do-mmc)
-    - [2.3 Divisão Proporcional Composta ou Mista](#23-divisão-proporcional-composta-ou-mista)
-- [3. Classificação de Grandezas e Regra de Três Simples](#3-classificação-de-grandezas-e-regra-de-três-simples)
-    - [3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicação-cruzada)
-    - [3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicação-em-linha-reta)
-    - [3.3 Método Prático das Setas e Identificação de Armadilhas](#33-método-prático-das-setas-e-identificação-de-armadilhas)
-- [4. Porcentagem, Fatores Multiplicadores e Variações](#4-porcentagem-fatores-multiplicadores-e-variações)
+- [2. Divisão em Partes Proporcionais](#2-divisao-em-partes-proporcionais)
+    - [2.1 Divisão Diretamente Proporcional com a Constante k](#21-divisao-diretamente-proporcional-com-a-constante-k)
+    - [2.2 Divisão Inversamente Proporcional e o Método do MMC](#22-divisao-inversamente-proporcional-e-o-metodo-do-mmc)
+    - [2.3 Divisão Proporcional Composta ou Mista](#23-divisao-proporcional-composta-ou-mista)
+- [3. Classificação de Grandezas e Regra de Três Simples](#3-classificacao-de-grandezas-e-regra-de-tres-simples)
+    - [3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicacao-cruzada)
+    - [3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicacao-em-linha-reta)
+    - [3.3 Método Prático das Setas e Identificação de Armadilhas](#33-metodo-pratico-das-setas-e-identificacao-de-armadilhas)
+- [4. Porcentagem, Fatores Multiplicadores e Variações](#4-porcentagem-fatores-multiplicadores-e-variacoes)
     - [4.1 Conceito e Fatores de Aumento e Desconto](#41-conceito-e-fatores-de-aumento-e-desconto)
     - [4.2 Aumentos e Descontos Sucessivos Cumulativos](#42-aumentos-e-descontos-sucessivos-cumulativos)
-    - [4.3 Inversão da Base de Referência Percentual](#43-inversão-da-base-de-referência-percentual)
-    - [4.4 Diferença entre Pontos Percentuais e Variação Percentual](#44-diferença-entre-pontos-percentuais-e-variação-percentual)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
-- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-    - [Questão 01](#questão-01)
-    - [Questão 02](#questão-02)
-    - [Questão 03](#questão-03)
-    - [Questão 04](#questão-04)
-    - [Questão 05](#questão-05)
+    - [4.3 Inversão da Base de Referência Percentual](#43-inversao-da-base-de-referencia-percentual)
+    - [4.4 Diferença entre Pontos Percentuais e Variação Percentual](#44-diferenca-entre-pontos-percentuais-e-variacao-percentual)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
+    - [Questão 01](#questao-01)
+    - [Questão 02](#questao-02)
+    - [Questão 03](#questao-03)
+    - [Questão 04](#questao-04)
+    - [Questão 05](#questao-05)
 
 ---
 
@@ -103,6 +103,7 @@ Repartir um montante $V$ em partes $x, y, z$ inversamente proporcionais aos coef
 3. **Despreza-se o denominador comum** e utilizam-se os novos numeradores inteiros como os pesos diretos para a constante $k$.
 
 *Exemplo com 2, 3 e 4:*
+
 * Inversos: $\frac{1}{2}, \frac{1}{3}, \frac{1}{4}$. O $\text{MMC}(2, 3, 4) = 12$.
 * Redução: $\frac{6}{12}, \frac{4}{12}, \frac{3}{12}$.
 * Pesos diretos operatórios: $6, 4$ e $3$. A soma das cotas é $6k + 4k + 3k = 13k$.
@@ -124,6 +125,7 @@ A regra de três simples é o método algébrico que permite descobrir um quarto
 ### 3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada
 
 Duas grandezas são **Diretamente Proporcionais (DP)** quando a variação de uma acarreta a variação da outra na mesma razão e sentido: duplicando-se uma, a outra dobra; reduzindo-se à metade, a outra também se reduz à metade.
+
 * Exemplos: Número de auditores e quantidade de processos analisados (mesmo tempo); horas trabalhadas e páginas digitalizadas; consumo de combustível e distância percorrida.
 * **Mecânica Operatória:** A razão entre elas é constante ($\frac{A_1}{A_2} = \frac{B_1}{B_2}$); multiplica-se em cruz:
   $$A_1 \cdot B_2 = A_2 \cdot B_1$$
@@ -131,6 +133,7 @@ Duas grandezas são **Diretamente Proporcionais (DP)** quando a variação de um
 ### 3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta
 
 Duas grandezas são **Inversamente Proporcionais (IP)** quando a variação de uma provoca a variação da outra em sentido inverso e na mesma proporção: duplicando-se uma grandeza, a outra cai pela metade; triplicando-se uma, a outra reduz-se a um terço.
+
 * Exemplos: Quantidade de auditores e número de dias para auditar um acervo fixo de relatórios; velocidade de conexão de rede e tempo de download de um arquivo; torneiras abertas e tempo para encher um reservatório fixo.
 * **Mecânica Operatória:** O produto entre elas é constante ($A_1 \cdot B_1 = A_2 \cdot B_2$); **multiplica-se em linha reta**:
   $$A_1 \cdot B_1 = A_2 \cdot B_2$$
@@ -232,7 +235,7 @@ Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pe
 >    $$6k + 4k + 3k = 45.000 \implies 13k = 45.000 \implies k = \frac{45.000}{13} \approx 3.461,538$$
 > 5. A questão solicita a diferença entre os valores recebidos pela equipe $A$ e pela equipe $C$:
 >    $$\text{Diferença} = A - C = 6k - 3k = 3k$$
->    $$\text{Diferença} = 3 \times \left(\frac{45.000}{13}\right) = \frac{135.000}{13} \approx \mathbf{R\$\ 10.384,62}$$
+>    $$\text{Diferença} = 3 \times \left(\frac{45.000}{13}\right) = \frac{135.000}{13} \approx \text{R\$ }\mathbf{\ 10.384,62}$$
 >
 > Análise individual das alternativas:
 >
@@ -296,14 +299,17 @@ Se o Tribunal de Contas alocar mais 2 técnicos com a mesma produtividade para e
 * **E)** 10 dias
 
 > **Comentário Detalhado:**
+>
 > 1. Identificação dos dados e grandezas:
->    - Quantidade inicial de técnicos: 6
->    - Nova quantidade de técnicos: $6 + 2 = 8$ técnicos
->    - Quantidade de trabalho: constante em ambos os cenários (120 relatórios)
->    - Dias de trabalho: passa de 8 dias para $D$ dias úteis
+>     - Quantidade inicial de técnicos: 6
+>     - Nova quantidade de técnicos: $6 + 2 = 8$ técnicos
+>     - Quantidade de trabalho: constante em ambos os cenários (120 relatórios)
+>     - Dias de trabalho: passa de 8 dias para $D$ dias úteis
+>
 > 2. Análise da relação de proporcionalidade:
->    - Mantendo-se inalterada a quantidade de relatórios (120), se aumentamos o número de trabalhadores na equipe, a tarefa será concluída em um **número menor de dias**.
->    - As grandezas "Técnicos" e "Dias" são **Inversamente Proporcionais (IP)**.
+>     - Mantendo-se inalterada a quantidade de relatórios (120), se aumentamos o número de trabalhadores na equipe, a tarefa será concluída em um **número menor de dias**.
+>     - As grandezas "Técnicos" e "Dias" são **Inversamente Proporcionais (IP)**.
+>
 > 3. Resolução estruturada (multiplicação em linha reta, pois o produto de operários por tempo é constante):
 >    $$6 \times 8 = 8 \times D \implies 48 = 8D \implies D = \frac{48}{8} = \mathbf{6 \text{ dias úteis}}$$
 >
@@ -335,7 +341,8 @@ Em relação ao número de processos eletrônicos, o número de processos em pap
 > Problema que exige a técnica de inversão da base de referência percentual:
 >
 > 1. Atribuição de uma base de cálculo simples:
->    - Seja $P$ o número de processos em papel: adotemos $P = 100$.
+>     - Seja $P$ o número de processos em papel: adotemos $P = 100$.
+>
 > 2. O número de processos eletrônicos ($E$) é 25% maior que $P$:
 >    $$E = 100 + 0{,}25 \times 100 = 125$$
 > 3. O comando da questão indaga o percentual em que os processos em papel são inferiores **em relação ao total de processos eletrônicos** (o que define que o novo denominador da divisão passa a ser $E = 125$):
@@ -371,16 +378,16 @@ Com base nessas regras, a quantia recebida por Samuel foi de:
 > Resolução de divisão composta (direta e inversa concomitantemente):
 >
 > 1. Estruturação dos pesos individuais de cada beneficiário:
->    - Para Rodrigo: diretamente proporcional a 6 anos e inversamente a 3 processos pendentes:
+>     - Para Rodrigo: diretamente proporcional a 6 anos e inversamente a 3 processos pendentes:
 >      $$\text{Peso de Rodrigo} = 6 \times \frac{1}{3} = \frac{6}{3} = 2$$
->    - Para Samuel: diretamente proporcional a 4 anos e inversamente a 1 processo pendente:
+>     - Para Samuel: diretamente proporcional a 4 anos e inversamente a 1 processo pendente:
 >      $$\text{Peso de Samuel} = 4 \times \frac{1}{1} = \frac{4}{1} = 4$$
 > 2. Aplicação da constante de proporcionalidade $k$:
 >    $$\text{Rodrigo} = 2k; \qquad \text{Samuel} = 4k$$
 > 3. Montagem da equação orçamentária para a gratificação de R$ 36.000,00:
 >    $$2k + 4k = 36.000 \implies 6k = 36.000 \implies k = \frac{36.000}{6} = 6.000$$
 > 4. Cálculo da parcela recebida por Samuel:
->    $$\text{Samuel} = 4k = 4 \times 6.000 = \mathbf{R\$\ 24.000,00}$$
+>    $$\text{Samuel} = 4k = 4 \times 6.000 = \text{R\$ }\mathbf{\ 24.000,00}$$
 >    *(A título de conferência, Rodrigo recebeu $2k = 2 \times 6.000 = \text{R\$} 12.000,00$. A soma dos valores totaliza $12.000 + 24.000 = \text{R\$} 36.000,00$)*.
 >
 > Análise das alternativas:

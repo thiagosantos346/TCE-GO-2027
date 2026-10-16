@@ -19,22 +19,22 @@
 ---
 
 ## 🧭 Sumário
-- [1. Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI](#1-fundamentos-de-gestão-de-projetos-e-mudança-de-paradigma-do-pmi)
-    - [1.1 Conceito de Projeto vs. Operação](#11-conceito-de-projeto-vs-operação)
-    - [1.2 Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#12-hierarquia-pmi-projetos-programas-e-portfólios-de-tic)
+- [1. Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI](#1-fundamentos-de-gestao-de-projetos-e-mudanca-de-paradigma-do-pmi)
+    - [1.1 Conceito de Projeto vs. Operação](#11-conceito-de-projeto-vs-operacao)
+    - [1.2 Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#12-hierarquia-pmi-projetos-programas-e-portfolios-de-tic)
     - [1.3 O Sistema de Entrega de Valor (System for Value Delivery)](#13-o-sistema-de-entrega-de-valor-system-for-value-delivery)
-- [2. Os 12 Princípios de Entrega de Projetos](#2-os-12-princípios-de-entrega-de-projetos)
-- [3. Os 8 Domínios de Desempenho do Projeto](#3-os-8-domínios-de-desempenho-do-projeto)
-- [4. Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)](#4-ciclos-de-vida-métodos-ágeis-abordagens-híbridas-e-adaptação-tailoring)
+- [2. Os 12 Princípios de Entrega de Projetos](#2-os-12-principios-de-entrega-de-projetos)
+- [3. Os 8 Domínios de Desempenho do Projeto](#3-os-8-dominios-de-desempenho-do-projeto)
+- [4. Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)](#4-ciclos-de-vida-metodos-ageis-abordagens-hibridas-e-adaptacao-tailoring)
     - [4.1 Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)](#41-comparativo-dos-ciclos-de-vida-preditivo-a-adaptativo)
-    - [4.2 Abordagens Híbridas na Administração Pública](#42-abordagens-híbridas-na-administração-pública)
-    - [4.3 Adaptação Contextual (Tailoring)](#43-adaptação-contextual-tailoring)
-- [5. Análise de Valor Agregado (EVM / EVA)](#5-análise-de-valor-agregado-evm--eva)
-    - [5.1 Variáveis Fundamentais (VP, CR e VA)](#51-variáveis-fundamentais-vp-cr-e-va)
-    - [5.2 Variações e Índices de Desempenho (IDP e IDC)](#52-variações-e-índices-de-desempenho-idp-e-idc)
-- [6. Gestão de Portfólio de TI e Governança de Programas](#6-gestão-de-portfólio-de-ti-e-governança-de-programas)
+    - [4.2 Abordagens Híbridas na Administração Pública](#42-abordagens-hibridas-na-administracao-publica)
+    - [4.3 Adaptação Contextual (Tailoring)](#43-adaptacao-contextual-tailoring)
+- [5. Análise de Valor Agregado (EVM / EVA)](#5-analise-de-valor-agregado-evm-eva)
+    - [5.1 Variáveis Fundamentais (VP, CR e VA)](#51-variaveis-fundamentais-vp-cr-e-va)
+    - [5.2 Variações e Índices de Desempenho (IDP e IDC)](#52-variacoes-e-indices-de-desempenho-idp-e-idc)
+- [6. Gestão de Portfólio de TI e Governança de Programas](#6-gestao-de-portfolio-de-ti-e-governanca-de-programas)
 - [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
-- [8. Questões Comentadas no Padrão FCC](#8-questões-comentadas-no-padrão-fcc)
+- [8. Questões Comentadas no Padrão FCC](#8-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -288,6 +288,7 @@ Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e
 * **E)** Adiantado no cronograma (IDP = 1,33) e com custos favoráveis (IDC = 1,20).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Inverteu os valores dividindo $VP$ por $VA$ para calcular o IDP.
 > - **B)** **Correta.** O cálculo do Índice de Desempenho de Prazos resulta em $IDP = \frac{VA}{VP} = \frac{320.000}{400.000} = 0,80$. Sendo $IDP < 1$, o projeto está atrasado em relação ao previsto. O cálculo do Índice de Desempenho de Custos resulta em $IDC = \frac{VA}{CR} = \frac{320.000}{300.000} \approx 1,067$. Sendo $IDC > 1$, o projeto operou abaixo do orçamento orçado para o volume de trabalho entregue (desempenho favorável).
 > - **C)** Incorreta. Os valores de IDP e IDC não são iguais à unidade.
@@ -308,6 +309,7 @@ Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e
 * **E)** A gestão de programas visa substituir os órgãos colegiados e a alta administração do Tribunal de Contas nas deliberações de planejamento estratégico.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Os projetos e programas agrupados em um portfólio não necessitam de dependências técnicas mútuas; seu elo reside no alinhamento aos mesmos objetivos estratégicos corporativos.
 > - **B)** **Correta.** Definição literal do PMI: Programa é um grupo de projetos relacionados gerenciados de forma coordenada para a obtenção de benefícios e controle que não estariam disponíveis se fossem gerenciados de maneira isolada.
 > - **C)** Incorreta. O projeto é por essência temporário (tem início e término) e único; tarefas contínuas e repetitivas configuram operações.
@@ -328,6 +330,7 @@ Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e
 * **E)** Complexity (Navegação na Complexidade).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. *Stewardship* trata do zelo ético, integridade, honestidade e responsabilidade socioambiental na condução do projeto.
 > - **B)** Incorreta. *Systems Thinking* refere-se à visão holística das interações e interdependências entre o projeto e a organização como um todo.
 > - **C)** **Correta.** O princípio da Adaptação (*Tailoring*) preconiza que não existe um modelo universal único. A equipe do projeto deve customizar conscientemente os processos, ritos e métodos às necessidades específicas do projeto e ao contexto organizacional.
@@ -348,6 +351,7 @@ Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e
 * **E)** Estritamente linear sem feedback.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Na abordagem preditiva pura (cascata), todas as etapas são sequenciais e a entrega é única ao final de todo o ciclo, sem sprints quinzenais nem entregas iterativas funcionais.
 > - **B)** **Correta.** A Abordagem Híbrida mescla características do ciclo preditivo (planejamento formal de marcos, orçamento teto e requisitos regulatórios) com técnicas adaptativas (iterações curtas, sprints e entregas frequentes por equipes ágeis).
 > - **C)** Incorreta. A abordagem híbrida é disciplinada, planejada e estruturada, não sendo caótica.
@@ -368,6 +372,7 @@ Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e
 * **E)** Domínio da Incerteza (*Uncertainty*).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O domínio de Stakeholders trata de mapear, engajar e comunicar-se com os indivíduos e grupos impactados pelo projeto.
 > - **B)** Incorreta. O domínio da Entrega foca nos requisitos, qualidade e aceitação dos entregáveis finais gerados.
 > - **C)** **Correta.** O Domínio de Desempenho do Trabalho do Projeto (*Project Work*) dedica-se ao estabelecimento dos processos de trabalho, gerenciamento dos recursos materiais, remoção de impedimentos ao fluxo da equipe e administração de aquisições e contratos de suporte.

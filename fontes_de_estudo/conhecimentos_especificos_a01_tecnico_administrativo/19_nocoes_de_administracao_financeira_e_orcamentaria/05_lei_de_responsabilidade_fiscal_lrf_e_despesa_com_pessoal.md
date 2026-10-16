@@ -29,24 +29,23 @@
 ---
 
 ## 🧭 Sumário Interativo
-
-- [1. Fundamentos e Instrumentos de Transparência da LRF](#1-fundamentos-e-instrumentos-de-transparência-da-lrf)
-    - [1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)](#11-premissas-da-gestão-fiscal-responsável-art-1º--1º)
-    - [1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF](#12-os-relatórios-fiscais-obrigatórios-rreo-e-rgf)
-- [2. Despesa Obrigatória de Caráter Continuado (DOCC - Art. 17)](#2-despesa-obrigatória-de-caráter-continuado-docc---art-17)
+- [1. Fundamentos e Instrumentos de Transparência da LRF](#1-fundamentos-e-instrumentos-de-transparencia-da-lrf)
+    - [1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)](#11-premissas-da-gestao-fiscal-responsavel-art-1o-1o)
+    - [1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF](#12-os-relatorios-fiscais-obrigatorios-rreo-e-rgf)
+- [2. Despesa Obrigatória de Caráter Continuado (DOCC - Art. 17)](#2-despesa-obrigatoria-de-carater-continuado-docc-art-17)
     - [2.1 Conceito Legal e Requisitos Formais](#21-conceito-legal-e-requisitos-formais)
-    - [2.2 Mecanismos Permanentes de Compensação Fiscal](#22-mecanismos-permanentes-de-compensação-fiscal)
+    - [2.2 Mecanismos Permanentes de Compensação Fiscal](#22-mecanismos-permanentes-de-compensacao-fiscal)
 - [3. Despesa Total com Pessoal (DTP) e Gatilhos de Controle](#3-despesa-total-com-pessoal-dtp-e-gatilhos-de-controle)
-    - [3.1 Conceito, Apuração Quadrimestral e Base da RCL](#31-conceito-apuração-quadrimestral-e-base-da-rcl)
-    - [3.2 Repartição dos Limites Globais e a Cota do TCE-GO](#32-repartição-dos-limites-globais-e-a-cota-do-tce-go)
-    - [3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações](#33-limite-de-alerta-prudencial-e-máximo-gatilhos-e-vedações)
-    - [3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)](#34-regras-de-recondução-e-medidas-constitucionais-sucessivas-de-corte-art-169)
-- [4. Endividamento, Regra de Ouro, ARO e Vedações de Fim de Mandato](#4-endividamento-regra-de-ouro-aro-e-vedações-de-fim-de-mandato)
-    - [4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)](#41-a-regra-de-ouro-orçamentária-art-167-iii-da-cf88)
-    - [4.2 Regime das Operações de Crédito por ARO (Art. 38)](#42-regime-das-operações-de-crédito-por-aro-art-38)
-    - [4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)](#43-as-restrições-severas-de-final-de-mandato-arts-21-e-42-da-lrf)
-- [5. Fontes Oficiais & Normativas Recomendadas](#5-fontes-oficiais--normativas-recomendadas)
-- [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
+    - [3.1 Conceito, Apuração Quadrimestral e Base da RCL](#31-conceito-apuracao-quadrimestral-e-base-da-rcl)
+    - [3.2 Repartição dos Limites Globais e a Cota do TCE-GO](#32-reparticao-dos-limites-globais-e-a-cota-do-tce-go)
+    - [3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações](#33-limite-de-alerta-prudencial-e-maximo-gatilhos-e-vedacoes)
+    - [3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)](#34-regras-de-reconducao-e-medidas-constitucionais-sucessivas-de-corte-art-169)
+- [4. Endividamento, Regra de Ouro, ARO e Vedações de Fim de Mandato](#4-endividamento-regra-de-ouro-aro-e-vedacoes-de-fim-de-mandato)
+    - [4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)](#41-a-regra-de-ouro-orcamentaria-art-167-iii-da-cf88)
+    - [4.2 Regime das Operações de Crédito por ARO (Art. 38)](#42-regime-das-operacoes-de-credito-por-aro-art-38)
+    - [4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)](#43-as-restricoes-severas-de-final-de-mandato-arts-21-e-42-da-lrf)
+- [5. Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
+- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -155,6 +154,7 @@ Ao atingir 95% do limite legal máximo, aplicam-se imediatamente ao Poder ou ór
 3. Alteração de estrutura de carreira que implique aumento de despesa;
 4. Provimento de cargo público, admissão ou contratação de pessoal a qualquer título;
     - **Exceção Constitucional e Legal:** Permite-se a reposição decorrente de **aposentadoria ou falecimento de servidores das áreas de educação, saúde e segurança pública**!
+
 5. Contratação de serviço extraordinário (horas extras), ressalvada situação de emergência e calamidade pública justificada.
 
 #### 3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)
@@ -227,6 +227,7 @@ Diante da constatação da superação do limite prudencial, o Governador do Est
 * **E)** Ficará automaticamente autorizado a contrair operações de crédito por antecipação de receita orçamentária para saldar a folha de pagamento.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Tribunal de Contas não tem competência para decretar monocraticamente o afastamento sumário de governadores em virtude do atingimento do limite prudencial.
 > - **B)** Incorreta. O art. 22, parágrafo único, IV da LRF proíbe expressamente o provimento de cargos públicos e contratação de pessoal quando atingido o limite prudencial, abrindo exceção apenas para reposição em saúde, educação e segurança por morte ou aposentadoria.
 > - **C)** Correta. Ao ultrapassar o limite prudencial de 95% do teto máximo de pessoal, disparam-se automaticamente as vedações do art. 22, parágrafo único da LRF, dentre as quais a vedação categórica de concessão de vantagens, aumentos ou reajustes de remuneração, ressalvada tão somente a revisão geral anual do art. 37, X da CF/88.
@@ -247,6 +248,7 @@ A respeito das regras atinentes às Operações de Crédito por Antecipação de
 * **E)** A realização de ARO dispensa a cobrança de juros bancários por se tratar de operação de curto prazo de assistência mútua federativa.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O art. 38, IV, "b" da LRF proíbe terminantemente a contratação de operações por ARO no último ano de mandato do governante.
 > - **B)** Incorreta. ARO é mecanismo de curto prazo para cobrir insuficiência momentânea de fluxo de caixa, e não para financiar despesas de capital de longo prazo.
 > - **C)** Correta. Trata-se da regra expressa do art. 42 da LRF: é vedado ao governante, nos últimos dois quadrimestres do mandato (últimos 8 meses), assumir obrigação financeira que não possa ser paga dentro dele ou que deixe parcelas para o ano seguinte sem suficiente saldo de caixa disponível.
@@ -269,6 +271,7 @@ A fatia global reservada pela LRF e sua respectiva repartição entre os órgão
 * **E)** 4,0% da RCL, com repartição disciplinada discricionariamente por ato conjunto dos Presidentes dos órgãos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O limite global estadual do Legislativo é de 3% (o limite de 6% é aplicável às Câmaras Municipais).
 > - **B)** Correta. De acordo com o art. 20, inciso II, alínea "a" da Lei de Responsabilidade Fiscal, a cota de 3,0% da Receita Corrente Líquida destinada ao Poder Legislativo Estadual é repartida em 1,8% para a Assembleia Legislativa e 1,2% para o Tribunal de Contas do Estado (TCE-GO).
 > - **C)** Incorreta. O limite de 2,0% pertence ao Ministério Público Estadual.
@@ -291,6 +294,7 @@ Nos termos do artigo 59, § 1º, inciso II da Lei Complementar nº 101/2000, dia
 * **E)** Decretar intervenção fiscal no parlamento com nomeação de interventor econômico.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A redução de 20% das comissões só é exigível após o transcurso do prazo de descumprimento do limite total (100%).
 > - **B)** Correta. Conforme o art. 59, § 1º, II da LRF, o Tribunal de Contas alertará formalmente o respectivo Poder ou órgão sempre que constatar que o montante da despesa total com pessoal ultrapassou 90% do limite máximo (Limite de Alerta). Tendo atingido 92%, a medida técnica imediata é a expedição de Alerta.
 > - **C)** Incorreta. Medida cautelar patrimonial desproporcional e inexistente para mera situação de alerta.
@@ -313,6 +317,7 @@ Nos termos do artigo 17 da Lei de Responsabilidade Fiscal, por se tratar de Desp
 * **E)** Declaração de nulidade de todos os contratos temporários em vigor na Secretaria de Educação.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A DOCC impõe condicionantes rigorosas de validade que vão muito além da simples inclusão na LOA.
 > - **B)** Correta. O art. 17 da LRF define que os atos que criarem ou aumentarem Despesa Obrigatória de Caráter Continuado (vigência superior a 2 anos) devem ser instruídos com estimativa de impacto orçamentário-financeiro no exercício de vigência e nos dois seguintes (triênio fiscal), declaração de compatibilidade com PPA/LDO/LOA, demonstração de não afetação de metas e compensação contínua permanente por aumento permanente de receitas ou redução permanente de outras despesas.
 > - **C)** Incorreta. A atuação dos Tribunais de Contas é de controle externo concomitante e a posteriori, não cabendo aprovação unânime prévia de projetos de governo.

@@ -27,24 +27,23 @@
 ---
 
 ## 🧭 Sumário Interativo
-
-- [1. Conceito e Distinção: Receita Orçamentária vs. Ingressos Extraorçamentários](#1-conceito-e-distinção-receita-orçamentária-vs-ingressos-extraorçamentários)
-    - [1.1 Sentido Amplo e Sentido Estrito de Receita Pública](#11-sentido-amplo-e-sentido-estrito-de-receita-pública)
-    - [1.2 Regime dos Ingressos Extraorçamentários e Peculiaridades FCC](#12-regime-dos-ingressos-extraorçamentários-e-peculiaridades-fcc)
-- [2. Etapas e Estágios da Receita Orçamentária](#2-etapas-e-estágios-da-receita-orçamentária)
-    - [2.1 Etapa de Planejamento: Previsão da Receita (Art. 12 da LRF)](#21-etapa-de-planejamento-previsão-da-receita-art-12-da-lrf)
-    - [2.2 Etapa de Execução: Lançamento, Arrecadação e Recolhimento](#22-etapa-de-execução-lançamento-arrecadação-e-recolhimento)
-    - [2.3 O Princípio da Unidade de Caixa (Art. 56 da Lei nº 4.320/1964)](#23-o-princípio-da-unidade-de-caixa-art-56-da-lei-nº-43201964)
-- [3. Classificações da Receita Orçamentária (Lei nº 4.320/1964 e MCASP)](#3-classificações-da-receita-orçamentária-lei-nº-43201964-e-mcasp)
-    - [3.1 Classificação por Categoria Econômica: Receitas Correntes e de Capital](#31-classificação-por-categoria-econômica-receitas-correntes-e-de-capital)
-    - [3.2 Distinção Crítica: Amortização de Empréstimos vs. Juros Recebidos](#32-distinção-crítica-amortização-de-empréstimos-vs-juros-recebidos)
-    - [3.3 Classificação por Esfera Orçamentária e por Fonte/Destinação de Recursos](#33-classificação-por-esfera-orçamentária-e-por-fontedestinação-de-recursos)
-    - [3.4 Classificação por Natureza da Receita (Estrutura Codificada de 8 Dígitos)](#34-classificação-por-natureza-da-receita-estrutura-codificada-de-8-dígitos)
+- [1. Conceito e Distinção: Receita Orçamentária vs. Ingressos Extraorçamentários](#1-conceito-e-distincao-receita-orcamentaria-vs-ingressos-extraorcamentarios)
+    - [1.1 Sentido Amplo e Sentido Estrito de Receita Pública](#11-sentido-amplo-e-sentido-estrito-de-receita-publica)
+    - [1.2 Regime dos Ingressos Extraorçamentários e Peculiaridades FCC](#12-regime-dos-ingressos-extraorcamentarios-e-peculiaridades-fcc)
+- [2. Etapas e Estágios da Receita Orçamentária](#2-etapas-e-estagios-da-receita-orcamentaria)
+    - [2.1 Etapa de Planejamento: Previsão da Receita (Art. 12 da LRF)](#21-etapa-de-planejamento-previsao-da-receita-art-12-da-lrf)
+    - [2.2 Etapa de Execução: Lançamento, Arrecadação e Recolhimento](#22-etapa-de-execucao-lancamento-arrecadacao-e-recolhimento)
+    - [2.3 O Princípio da Unidade de Caixa (Art. 56 da Lei nº 4.320/1964)](#23-o-principio-da-unidade-de-caixa-art-56-da-lei-no-43201964)
+- [3. Classificações da Receita Orçamentária (Lei nº 4.320/1964 e MCASP)](#3-classificacoes-da-receita-orcamentaria-lei-no-43201964-e-mcasp)
+    - [3.1 Classificação por Categoria Econômica: Receitas Correntes e de Capital](#31-classificacao-por-categoria-economica-receitas-correntes-e-de-capital)
+    - [3.2 Distinção Crítica: Amortização de Empréstimos vs. Juros Recebidos](#32-distincao-critica-amortizacao-de-emprestimos-vs-juros-recebidos)
+    - [3.3 Classificação por Esfera Orçamentária e por Fonte/Destinação de Recursos](#33-classificacao-por-esfera-orcamentaria-e-por-fontedestinacao-de-recursos)
+    - [3.4 Classificação por Natureza da Receita (Estrutura Codificada de 8 Dígitos)](#34-classificacao-por-natureza-da-receita-estrutura-codificada-de-8-digitos)
 - [4. Regras Fiscais Restritivas da Receita e a LRF](#4-regras-fiscais-restritivas-da-receita-e-a-lrf)
-    - [4.1 Vedação de Aplicação de Receita de Alienação de Bens em Despesa Corrente (Art. 44)](#41-vedação-de-aplicação-de-receita-de-alienação-de-bens-em-despesa-corrente-art-44)
-    - [4.2 Disciplina Fiscal da Renúncia de Receitas (Art. 14 da LRF)](#42-disciplina-fiscal-da-renúncia-de-receitas-art-14-da-lrf)
-- [5. Fontes Oficiais & Manuais Técnicos Recomendados](#5-fontes-oficiais--manuais-técnicos-recomendados)
-- [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
+    - [4.1 Vedação de Aplicação de Receita de Alienação de Bens em Despesa Corrente (Art. 44)](#41-vedacao-de-aplicacao-de-receita-de-alienacao-de-bens-em-despesa-corrente-art-44)
+    - [4.2 Disciplina Fiscal da Renúncia de Receitas (Art. 14 da LRF)](#42-disciplina-fiscal-da-renuncia-de-receitas-art-14-da-lrf)
+- [5. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -94,9 +93,11 @@ flowchart LR
 1. **Lançamento (Art. 53 da Lei nº 4.320/1964 e Art. 142 do CTN):**
     - Ato privativo da autoridade administrativa que verifica a ocorrência do fato gerador da obrigação correspondente, determina a matéria tributável, calcula o montante do tributo devido, identifica o sujeito passivo e, sendo o caso, propõe a aplicação da penalidade cabível.
     - Aplica-se típica e primordialmente às receitas tributárias diretas (ex.: IPTU, IPVA, taxas de fiscalização) e às rendas com vencimento predeterminado.
+
 2. **Arrecadação:**
     - Momento em que o sujeito passivo (contribuinte ou devedor) comparece perante os agentes arrecadadores legalmente autorizados (bancos credenciados, casas lotéricas, aplicativos bancários conveniados) e quita a guia de recolhimento oficial (DARE, DAM, GRU).
     - Nesse estágio, os recursos saem da esfera de posse do contribuinte e ingressam sob custódia dos intermediários financeiros conveniados com a administração pública.
+
 3. **Recolhimento:**
     - Ato pelo qual as instituições financeiras arrecadadoras transferem os recursos financeiros arrecadados para a **Conta Única do Tesouro Estadual ou Municipal**.
     - É o momento em que a disponibilidade de caixa passa a pertencer faticamente ao erário público para livre destinação orçamentária.
@@ -207,7 +208,9 @@ flowchart TD
 Determinado Estado da Federação recebeu as seguintes quantias financeiras em sua conta única do Tesouro ao longo do mês:
 
 I. R$ 500.000,00 referentes à venda em leilão público de veículos automotores inservíveis de sua frota administrativa.  
+
 II. R$ 200.000,00 a título de juros moratórios incidentes sobre créditos tributários de ICMS pagos em atraso por contribuintes.  
+
 III. R$ 300.000,00 decorrentes da devolução parcelada do principal de financiamento outrora concedido pelo Estado a determinado município goiano para fomento agropecuário.  
 
 Nos termos da Lei Federal nº 4.320/1964 e das normas do MCASP, os itens I, II e III classificam-se, respectivamente, como:
@@ -219,6 +222,7 @@ Nos termos da Lei Federal nº 4.320/1964 e das normas do MCASP, os itens I, II e
 * **E)** Receita de Capital; Receita Corrente; Receita Corrente.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O item I trata de alienação de ativos públicos, classificado legalmente como Receita de Capital.
 > - **B)** Correta. O item I (venda de veículos da frota) configura Alienação de Bens Móveis, integrando as Receitas de Capital; o item II (juros de mora sobre créditos tributários) integra as Receitas Correntes (receitas de juros/outras receitas correntes); e o item III (devolução do principal de empréstimo concedido) classifica-se como Amortização de Empréstimos, enquadrado como Receita de Capital. Portanto, a ordem correta é Capital, Corrente e Capital.
 > - **C)** Incorreta. O item II (juros moratórios) é receita corrente, e o item III (amortização do principal) é receita de capital.
@@ -239,6 +243,7 @@ A respeito das etapas e estágios da receita orçamentária e dos ingressos nos 
 * **E)** O lançamento é estágio obrigatório prévio e indispensável para a arrecadação de toda e qualquer receita orçamentária no âmbito da administração pública.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Garantias e cauções contratuais são ingressos extraorçamentários (recursos transitórios de terceiros com obrigação de devolução posterior), não constando da LOA.
 > - **B)** Incorreta. O pagamento realizado pelo contribuinte perante o caixa bancário consubstancia o estágio da arrecadação, e não do recolhimento.
 > - **C)** Incorreta. ARO não é receita orçamentária de capital; é mero ingresso extraorçamentário de caixa para cobrir déficits transitórios de tesouraria.
@@ -261,6 +266,7 @@ Determinado Secretário de Estado da Fazenda propôs projeto de lei concedendo i
 * **E)** A exigência de estimativa trienal restringe-se aos dois últimos anos de mandato do Chefe do Poder Executivo.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A autonomia federativa dos entes para legislar sobre seus tributos submete-se expressamente às normas gerais de finanças públicas veiculadas pela LRF.
 > - **B)** Correta. O art. 14 da LRF prescreve que qualquer benefício ou incentivo que importe em renúncia de receita deve ser acompanhado de estimativa trienal do impacto orçamentário-financeiro e atender à LDO, mediante demonstração de que foi prevista na LOA sem afetar metas ou acompanhada de medidas de compensação fiscal efetivas.
 > - **C)** Incorreta. A disciplina da LRF alcança a concessão de incentivos fiscais indistintamente, quer os beneficiários sejam pessoas físicas ou pessoas jurídicas.
@@ -283,6 +289,7 @@ De acordo com o artigo 44 da Lei Complementar nº 101/2000 (Lei de Responsabilid
 * **E)** A alienação de imóveis públicos converte-se automaticamente em receita corrente tributária após o depósito bancário.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. As restrições do art. 44 da LRF são cogentes e insuperáveis, não comportando exceção para a folha de pessoal da saúde.
 > - **B)** Correta. O art. 44 da LRF proíbe expressamente a aplicação de receitas de capital oriundas da alienação de bens e direitos para o financiamento de despesas correntes (como salários de servidores), admitindo única exceção legal para capitalização de regimes de previdência social (RPPS/RGPS).
 > - **C)** Incorreta. O gestor não possui discricionariedade para desrespeitar vedação legal expressa da lei de finanças públicas.
@@ -303,6 +310,7 @@ Na execução orçamentária de determinada entidade autárquica estadual, os va
 * **E)** Recursos vinculados de transferências voluntárias intergovernamentais.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Retenções de vencimentos para entrega a terceiros não geram acréscimo patrimonial nem remuneram bens da autarquia.
 > - **B)** Correta. As consignações em folha de pagamento (pensão alimentícia, retenções judiciais e empréstimos consignados) consubstanciam ingressos extraorçamentários. O poder público atua como mero depositário transitório desses valores, surgindo no mesmo instante a obrigação financeira exigível de repasse aos credores legítimos.
 > - **C)** Incorreta. Não existe mutação de ativo permanente nem amortização de empréstimos concedidos pelo Estado.

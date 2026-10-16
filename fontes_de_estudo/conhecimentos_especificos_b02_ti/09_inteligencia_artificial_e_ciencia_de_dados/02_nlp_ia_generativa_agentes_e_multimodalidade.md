@@ -6,7 +6,7 @@
 
 ---
 
-### 📌 Ementa / Itens do Edital
+## 📌 Ementa / Itens do Edital
 1. **Processamento de Linguagem Natural (PLN / NLP):** Pipeline clássico de pré-processamento (limpeza, normalização, tokenização por subpalavras com BPE/WordPiece, remoção de stopwords vs. impacto em modelos contextuais, normalização morfológica com Stemming vs. Lemmatization, POS Tagging e NER com esquema BIO); Representação vetorial de textos (Bag of Words, ponderação TF-IDF e embeddings estáticos Word2Vec CBOW/Skip-Gram e FastText com n-gramas de caracteres); e Modelos contextuais baseados em Transformers (Atenção escalada, Encoder-Only com BERT e Masked Language Modeling vs. Decoder-Only com GPT e Causal Language Modeling).
 2. **Inteligência Artificial Generativa:** Conceito de distribuição generativa $P(X)$; Redes Adversárias Generativas (GANs: jogo de minimax entre Gerador e Discriminador, instabilidades e patologia do Colapso de Modo / *Mode Collapse*); Modelos de Difusão (*Diffusion Models*: processo direto com adição progressiva de ruído gaussiano e processo reverso de reconstrução com redes U-Net); e Modelos de Linguagem Autoregressivos (LLMs: amostragem probabilística, temperatura, Top-$k$ e Top-$p$ Nucleus Sampling).
 3. **Agentes Inteligentes:** Conceituação formal de Agente Racional (sensores, atuadores, função de agente); Framework PEAS (*Performance, Environment, Actuators, Sensors*); Propriedades taxonômicas dos ambientes de tarefas (observabilidade, determinismo, episodicidade, dinamismo, continuidade e número de agentes); e Classificação clássica de Russell & Norvig (Agentes Reativos Simples, Reativos Baseados em Modelos com estado interno, Baseados em Objetivos, Baseados na Utilidade e Agentes com Aprendizado).
@@ -14,24 +14,24 @@
 
 ---
 
-### 🧭 Sumário
-- [1. Processamento de Linguagem Natural (PLN / NLP)](#1-processamento-de-linguagem-natural-pln--nlp)
-    - [1.1 Pipeline de Pré-Processamento Textual Clássico](#11-pipeline-de-pré-processamento-textual-clássico)
-    - [1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos](#12-representação-numérica-de-texto-bow-tf-idf-e-embeddings-estáticos)
-    - [1.3 A Revolução dos Transformers em PLN: BERT vs. GPT](#13-a-revolução-dos-transformers-em-pln-bert-vs-gpt)
-- [2. Inteligência Artificial Generativa](#2-inteligência-artificial-generativa)
+## 🧭 Sumário
+- [1. Processamento de Linguagem Natural (PLN / NLP)](#1-processamento-de-linguagem-natural-pln-nlp)
+    - [1.1 Pipeline de Pré-Processamento Textual Clássico](#11-pipeline-de-pre-processamento-textual-classico)
+    - [1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos](#12-representacao-numerica-de-texto-bow-tf-idf-e-embeddings-estaticos)
+    - [1.3 A Revolução dos Transformers em PLN: BERT vs. GPT](#13-a-revolucao-dos-transformers-em-pln-bert-vs-gpt)
+- [2. Inteligência Artificial Generativa](#2-inteligencia-artificial-generativa)
     - [2.1 Fundamentos e Arquiteturas Generativas](#21-fundamentos-e-arquiteturas-generativas)
-    - [2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo](#22-redes-adversárias-generativas-gans-e-colapso-de-modo)
-    - [2.3 Modelos de Difusão (Diffusion Models)](#23-modelos-de-difusão-diffusion-models)
-    - [2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem](#24-modelos-de-linguagem-autoregressivos-llms-e-parâmetros-de-amostragem)
+    - [2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo](#22-redes-adversarias-generativas-gans-e-colapso-de-modo)
+    - [2.3 Modelos de Difusão (Diffusion Models)](#23-modelos-de-difusao-diffusion-models)
+    - [2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem](#24-modelos-de-linguagem-autoregressivos-llms-e-parametros-de-amostragem)
 - [3. Agentes Inteligentes e Ambientes de Tarefa](#3-agentes-inteligentes-e-ambientes-de-tarefa)
-    - [3.1 O Framework PEAS e Definição de Agente Racional](#31-o-framework-peas-e-definição-de-agente-racional)
+    - [3.1 O Framework PEAS e Definição de Agente Racional](#31-o-framework-peas-e-definicao-de-agente-racional)
     - [3.2 Propriedades dos Ambientes de Tarefa](#32-propriedades-dos-ambientes-de-tarefa)
-    - [3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)](#33-as-cinco-tipologias-clássicas-de-agentes-russell--norvig)
-- [4. Modelos Multimodais e Aplicações no Setor Público](#4-modelos-multimodais-e-aplicações-no-setor-público)
-    - [4.1 Alinhamento Semântico Multimodal e a Arquitetura CLIP](#41-alinhamento-semântico-multimodal-e-a-arquitetura-clip)
-    - [4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)](#42-aplicações-em-auditoria-de-controle-externo-tce-go)
-- [5. Questões Comentadas (FCC)](#5-questões-comentadas-fcc)
+    - [3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)](#33-as-cinco-tipologias-classicas-de-agentes-russell-norvig)
+- [4. Modelos Multimodais e Aplicações no Setor Público](#4-modelos-multimodais-e-aplicacoes-no-setor-publico)
+    - [4.1 Alinhamento Semântico Multimodal e a Arquitetura CLIP](#41-alinhamento-semantico-multimodal-e-a-arquitetura-clip)
+    - [4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)](#42-aplicacoes-em-auditoria-de-controle-externo-tce-go)
+- [5. Questões Comentadas (FCC)](#5-questoes-comentadas-fcc)
 
 ---
 
@@ -48,8 +48,10 @@ O pré-processamento transforma textos brutos e não estruturados em representa�
     - *Por palavras:* Separação baseada em espaços e pontuação. Falha gravemente na presença de termos compostos, contrações e gírias.
     - *Por subpalavras (*Subword Tokenization*):* Padrão hegemônico adotado por modelos baseados em Transformers. Algoritmos como **BPE (*Byte-Pair Encoding*)**, **WordPiece** e **SentencePiece** começam na granularidade de caracteres e unem progressivamente pares de símbolos estatisticamente frequentes na base de treino.
     - *Vantagem Crítica:* Palavras conhecidas permanecem unificadas em um único token, enquanto termos raros, neologismos ou jargões jurídicos são decompostos em morfemas inteligíveis (ex.: *"anticonstitucionalidade"* $\rightarrow$ `anti` + `constitucional` + `idade`), **eliminando completamente o problema de palavras fora do vocabulário (*Out-Of-Vocabulary - OOV*)**.
+
 3. **Remoção de Stopwords:** Expurgamento de palavras funcionais com altíssima frequência estatística na língua, mas com teor discriminativo isolado ínfimo (artigos, preposições e conectivos como "de", "o", "em", "para", "que").
     - *Atenção:* Essa técnica é vital para reduzir dimensionalidade e ruído em modelos estatísticos de frequência (*Bag of Words*, TF-IDF); porém, **é contraindicada e jamais deve ser aplicada em modelos baseados em Transformers contextuais (BERT, GPT)**, pois pronomes e preposições são indispensáveis para o cálculo da autoatenção sintática e semântica entre termos na oração.
+
 4. **Normalização Morfológica: Stemming vs. Lemmatization**
 
 | Dimensão Comparativa | Stemming (Troncamento / Radicalização) | Lemmatization (Lematização) |
@@ -176,8 +178,10 @@ A conversão do vetor de números reais (*logits*) emitido pela rede em tokens t
     - Modula a magnitude dos logits antes da normalização pela função Softmax: $P(w_i) = \frac{e^{z_i / T}}{\sum_j e^{z_j / T}}$.
     - **Baixa Temperatura ($T \to 0$):** Concentra a probabilidade quase inteiramente no token mais provável, gerando respostas determinísticas, rígidas, concisas e factuais.
     - **Alta Temperatura ($T > 1$):** Suaviza a curva de probabilidades, elevando as chances de tokens menos frequentes serem sorteados, gerando respostas mais criativas, variadas e diversas (com maior propensão a alucinações se excessivamente alta).
+
 2. **Top-$k$ Sampling:**
     - Restringe o sorteio do próximo token estritamente aos $k$ tokens que possuem as maiores probabilidades imediatas, truncando a cauda longa de tokens improváveis.
+
 3. **Top-$p$ Sampling (Amostragem por Núcleo / *Nucleus Sampling*):**
     - Em vez de fixar uma contagem estática $k$, seleciona dinamicamente o menor conjunto de tokens cuja soma cumulativa de probabilidades atinja o limiar estipulado $p$ (ex.: $p = 0.90$).
     - Adapta-se fluidamente: em momentos de certeza gramatical, o núcleo pode conter apenas 1 ou 2 tokens; em contextos abertos, o núcleo expande-se dinamicamente para dezenas de opções viáveis.
@@ -232,14 +236,18 @@ A arquitetura e os algoritmos do agente são diretamente moldados pelas caracter
 1. **Agente Reativo Simples (*Simple Reflex Agent*):**
     - Decide sua ação baseando-se estritamente na percepção atual imediata por meio de regras de **Condição-Ação** ($if \text{ condição } then \text{ ação}$).
     - Não possui histórico nem memória de percepções passadas. Sofre com loops infinitos e falha em ambientes parcialmente observáveis.
+
 2. **Agente Reativo Baseado em Modelos (*Model-Based Reflex Agent*):**
     - Mantém um **Estado Interno** persistente na memória que reflete o histórico de percepções e o conhecimento sobre "como o mundo evolui de forma independente" e "como as próprias ações do agente afetam o ambiente".
     - Consegue operar com excelência em **ambientes parcialmente observáveis**, deduzindo informações que não estão diretamente acessíveis nos sensores naquele instante.
+
 3. **Agente Baseado em Objetivos (*Goal-Based Agent*):**
     - Combina o estado interno do mundo com a descrição explícita de uma ou mais **Metas/Objetivos**. Utiliza algoritmos de busca e planejamento para selecionar trajetórias de ações que conduzam ao estado final desejado.
+
 4. **Agente Baseado na Utilidade (*Utility-Based Agent*):**
     - Substitui metas binárias por uma **Função de Utilidade** contínua ($U(s) \in \mathbb{R}$) que mensura formalmente o grau numérico de desejabilidade de cada estado do mundo.
     - Permite tomar decisões ótimas balanceando trade-offs entre múltiplos objetivos conflitantes (ex.: balancear velocidade de fiscalização vs. risco de falsos positivos sob incerteza probabilística).
+
 5. **Agente com Aprendizado (*Learning Agent*):**
     - Transcende as limitações do projeto inicial programado, evoluindo seu comportamento ao longo do tempo. É dividido formalmente em quatro módulos funcionais:
     - *Elemento de Desempenho:* Seleciona as ações externas imediatas.
@@ -295,6 +303,7 @@ A respeito das técnicas de processamento de texto, assinale a alternativa corre
 * **E)** O modelo *Word2Vec* gera representações vetoriais dinâmicas que alteram as coordenadas de uma palavra conforme o contexto imediato de cada sentença em que ela se encontra, superando a rigidez estática dos modelos contextuais BERT e GPT.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Houve inversão completa: a **Lematização** é quem consulta dicionários e analisa a morfossintaxe contextual para produzir o lema canônico de dicionário; o **Stemming** é quem aplica cortes brutos e mecânicos de afixos sem respaldo sintático.
 > - **B)** Incorreta. O BPE opera na direção inversa (*bottom-up*): começa no nível de caracteres e funde iterativamente os pares de símbolos mais frequentes observados na base até formar as subpalavras.
 > - **C)** **Correta.** Em modelos estatísticos de frequência (*Bag of Words*, TF-IDF), eliminar *stopwords* reduz a dimensionalidade e descarta ruídos irrelevantes. Por outro lado, em arquiteturas de *Deep Learning* fundamentadas na **Autoatenção de Transformers** (como BERT e GPT), a presença de palavras funcionais (preposições, conectivos, pronomes) é mandatória para que o mecanismo de atenção modele com precisão a estrutura semântica e sintática das sentenças.
@@ -317,6 +326,7 @@ A respeito da classificação e do comportamento dos agentes inteligentes, assin
 * **E)** Um agente racional é definido estritamente como aquele que reproduz com total exatidão as falhas cognitivas e o processo emocional do cérebro humano, rejeitando o conceito de maximização de medidas de desempenho esperadas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Agentes Reativos Simples não realizam planejamento nem possuem memória interna; agem mecanicamente por regras condição-ação ($if \dots then \dots$) vinculadas exclusivamente à percepção imediata do instante presente.
 > - **B)** **Correta.** O **Agente Reativo Baseado em Modelos** possui uma estrutura interna de **estado** que encapsula o histórico e o conhecimento sobre a evolução do mundo exterior, permitindo deduzir facetas do ambiente que não estão diretamente ao alcance de seus sensores naquele instante, superando os desafios de ambientes **parcialmente observáveis**.
 > - **C)** Incorreta. A utilização de uma função de utilidade escalar contínua para mediar múltiplos objetivos conflitantes é atribuição do **Agente Baseado na Utilidade** (*Utility-Based Agent*). Agentes Baseados em Objetivos operam com avaliação booleana binária de metas (atingiu ou não atingiu o objetivo).
@@ -339,11 +349,12 @@ Sobre as diferenças técnicas entre as famílias BERT e GPT, assinale a afirmat
 * **E)** Os modelos BERT e GPT dispensam etapas de pré-treinamento auto-supervisionado, sendo inicializados e treinados diretamente em conjuntos de dados supervisionados anotados manualmente por auditores.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O BERT utiliza o **Codificador (*Encoder-Only*)** e opera de forma livremente **bidirecional**, sem máscaras causais triangulares restritivas.
 > - **B)** Incorreta. A família GPT baseia-se no **Decodificador (*Decoder-Only*)** e opera de forma autoregressiva unidirecional com a tarefa de previsão do próximo token (*Next Token Prediction*). Quem utiliza palavras mascaradas (*MLM*) é o BERT.
 > - **C)** **Correta.** 
->   - **BERT (Encoder-Only):** Conecta tokens simultaneamente aos seus contextos à esquerda e à direita (bidirecional). Excelente para tarefas de análise, extração, classificação e busca semântica em bases vetoriais.
->   - **GPT (Decoder-Only):** Estrutura causal autoregressiva que prevê sequencialmente a probabilidade condicional do próximo token ($P(w_t \mid w_{<t})$), sendo o motor ideal para geração contínua de texto, sumarização e interação conversacional.
+>     - **BERT (Encoder-Only):** Conecta tokens simultaneamente aos seus contextos à esquerda e à direita (bidirecional). Excelente para tarefas de análise, extração, classificação e busca semântica em bases vetoriais.
+>     - **GPT (Decoder-Only):** Estrutura causal autoregressiva que prevê sequencialmente a probabilidade condicional do próximo token ($P(w_t \mid w_{<t})$), sendo o motor ideal para geração contínua de texto, sumarização e interação conversacional.
 > - **D)** Incorreta. O fator de escalonamento da atenção divide o produto escalar pela **raiz quadrada** da dimensão ($\sqrt{d_k}$) com o objetivo expresso de **evitar a saturação da função softmax**, prevenindo o desvanecimento dos gradientes (*vanishing gradient*).
 > - **E)** Incorreta. Ambos os modelos fundamentam-se no paradigma do pré-treinamento auto-supervisionado maciço em gigabytes/terabytes de textos não rotulados da internet.
 > 
@@ -363,6 +374,7 @@ A respeito das características arquiteturais dessas tecnologias generativas, as
 * **E)** Modelos de Difusão são incapazes de gerar imagens a partir de descrições textuais (*Text-to-Image*), operando exclusivamente sobre tensores tabulares esparsos de bancos relacionais.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** Nas GANs (Goodfellow et al., 2014), o Gerador e o Discriminador disputam um jogo de minimax. A patologia do **Colapso de Modo (*Mode Collapse*)** é um dos seus maiores riscos operacionais: ocorre quando o Gerador encontra uma saída específica capaz de enganar o Discriminador com facilidade e passa a sintetizar repetidamente sempre aquela mesma imagem (ou poucas variantes), deixando de representar toda a diversidade do espaço amostral de treino.
 > - **B)** Incorreta. Quem disputa jogos adversários em soma zero são as GANs. Modelos de Difusão baseiam-se em processos estocásticos graduais de adição e remoção de ruído via cadeias de Markov.
 > - **C)** Incorreta. A injeção paulatina de ruído até a completa dissolução da imagem compõe o **Processo Direto (*Forward Process*)**. O **Processo Reverso (*Reverse Process*)** é o caminho inverso, onde uma rede neural profunda (geralmente uma U-Net) remove o ruído passo a passo para regenerar a imagem nítida.
@@ -385,6 +397,7 @@ Sobre os fundamentos operacionais e os benefícios metodológicos da arquitetura
 * **E)** O alinhamento semântico cross-modal exige rigorosamente que as sentenças de texto possuam o mesmo número de pixels em resolução gráfica que as matrizes de entrada das imagens.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O CLIP não é um OCR puramente mecânico; é uma rede neural profunda multimodal capaz de reconhecer abstrações visuais, texturas, objetos, cenas e contextos fotográficos complexos sem a presença de textos gravados na imagem.
 > - **B)** **Correta.** O princípio estrutural do **CLIP** (Radford et al., OpenAI) reside no **Treinamento Contrastivo**: um codificador de imagens (ViT/ResNet) e um codificador de textos (Transformer) operam em conjunto projetando representações em um **espaço vetorial latente compartilhado de mesma dimensionalidade**, onde imagens e suas legendas corretas têm sua **similaridade de cosseno maximizada**, ao passo que combinações incorretas de pares têm sua similaridade minimizada.
 > - **C)** Incorreta. Uma das maiores conquistas do CLIP é justamente a sua consagrada capacidade de **Classificação Zero-Shot**, que permite classificar imagens em categorias inéditas sem qualquer treino adicional, apenas calculando a similaridade contra prompts textuais descritivos.

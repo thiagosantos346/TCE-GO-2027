@@ -15,32 +15,32 @@
 ---
 
 ## 🧭 Sumário
-- [1. Fundamentos da Associação Lógica Biunívoca](#1-fundamentos-da-associação-lógica-biunívoca)
-    - [1.1 Natureza das Relações Arbitrárias e Conjuntos Finitos](#11-natureza-das-relações-arbitrárias-e-conjuntos-finitos)
-    - [1.2 O Princípio da Correspondência Biunívoca](#12-o-princípio-da-correspondência-biunívoca)
-    - [1.3 Tipologia de Pistas e Classificação de Premissas](#13-tipologia-de-pistas-e-classificação-de-premissas)
-- [2. Metodologia das Matrizes Cruzadas de Associação](#2-metodologia-das-matrizes-cruzadas-de-associação)
-    - [2.1 Estruturação da Tabela Bidimensional e Tridimensional](#21-estruturação-da-tabela-bidimensional-e-tridimensional)
-    - [2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão](#22-o-princípio-de-propagação-do-sim-e-fechamento-por-exclusão)
-    - [2.3 Tratamento de Pistas Compostas e Vínculos Indiretos](#23-tratamento-de-pistas-compostas-e-vínculos-indiretos)
-- [3. Problemas de Ordenação Linear e Posicionamento Relativo](#3-problemas-de-ordenação-linear-e-posicionamento-relativo)
-    - [3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico](#31-semântica-de-ordenação-imediatamente-antes-vs-antes-genérico)
-    - [3.2 Filas, Andares e Classificações em Concurso](#32-filas-andares-e-classificações-em-concurso)
-    - [3.3 O Método das Caixas e Blocos Contíguos](#33-o-método-das-caixas-e-blocos-contíguos)
-- [4. Problemas de Ordenação Circular e Mesas Redondas](#4-problemas-de-ordenação-circular-e-mesas-redondas)
-    - [4.1 Ponto de Vista Referencial e Orientação Espacial](#41-ponto-de-vista-referencial-e-orientação-espacial)
-    - [4.2 Posições Diametralmente Opostas em Mesas Pares](#42-posições-diametralmente-opostas-em-mesas-pares)
-    - [4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda](#43-vizinhos-imediatos-e-adjacências-direita-e-esquerda)
-- [5. Dedução Lógica e Avaliação de Suficiência de Condições](#5-dedução-lógica-e-avaliação-de-suficiência-de-condições)
-    - [5.1 Dedução Hipotética e Eliminação de Contradições](#51-dedução-hipotética-e-eliminação-de-contradições)
-    - [5.2 Condições Necessárias, Suficientes e Redundantes](#52-condições-necessárias-suficientes-e-redundantes)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
-- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-    - [Questão 01](#questão-01)
-    - [Questão 02](#questão-02)
-    - [Questão 03](#questão-03)
-    - [Questão 04](#questão-04)
-    - [Questão 05](#questão-05)
+- [1. Fundamentos da Associação Lógica Biunívoca](#1-fundamentos-da-associacao-logica-biunivoca)
+    - [1.1 Natureza das Relações Arbitrárias e Conjuntos Finitos](#11-natureza-das-relacoes-arbitrarias-e-conjuntos-finitos)
+    - [1.2 O Princípio da Correspondência Biunívoca](#12-o-principio-da-correspondencia-biunivoca)
+    - [1.3 Tipologia de Pistas e Classificação de Premissas](#13-tipologia-de-pistas-e-classificacao-de-premissas)
+- [2. Metodologia das Matrizes Cruzadas de Associação](#2-metodologia-das-matrizes-cruzadas-de-associacao)
+    - [2.1 Estruturação da Tabela Bidimensional e Tridimensional](#21-estruturacao-da-tabela-bidimensional-e-tridimensional)
+    - [2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão](#22-o-principio-de-propagacao-do-sim-e-fechamento-por-exclusao)
+    - [2.3 Tratamento de Pistas Compostas e Vínculos Indiretos](#23-tratamento-de-pistas-compostas-e-vinculos-indiretos)
+- [3. Problemas de Ordenação Linear e Posicionamento Relativo](#3-problemas-de-ordenacao-linear-e-posicionamento-relativo)
+    - [3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico](#31-semantica-de-ordenacao-imediatamente-antes-vs-antes-generico)
+    - [3.2 Filas, Andares e Classificações em Concurso](#32-filas-andares-e-classificacoes-em-concurso)
+    - [3.3 O Método das Caixas e Blocos Contíguos](#33-o-metodo-das-caixas-e-blocos-contiguos)
+- [4. Problemas de Ordenação Circular e Mesas Redondas](#4-problemas-de-ordenacao-circular-e-mesas-redondas)
+    - [4.1 Ponto de Vista Referencial e Orientação Espacial](#41-ponto-de-vista-referencial-e-orientacao-espacial)
+    - [4.2 Posições Diametralmente Opostas em Mesas Pares](#42-posicoes-diametralmente-opostas-em-mesas-pares)
+    - [4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda](#43-vizinhos-imediatos-e-adjacencias-direita-e-esquerda)
+- [5. Dedução Lógica e Avaliação de Suficiência de Condições](#5-deducao-logica-e-avaliacao-de-suficiencia-de-condicoes)
+    - [5.1 Dedução Hipotética e Eliminação de Contradições](#51-deducao-hipotetica-e-eliminacao-de-contradicoes)
+    - [5.2 Condições Necessárias, Suficientes e Redundantes](#52-condicoes-necessarias-suficientes-e-redundantes)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
+    - [Questão 01](#questao-01)
+    - [Questão 02](#questao-02)
+    - [Questão 03](#questao-03)
+    - [Questão 04](#questao-04)
+    - [Questão 05](#questao-05)
 
 ---
 
@@ -100,6 +100,7 @@ Adiciona-se ainda, se necessário, uma submatriz relacionando diretamente as For
 
 1. **Propagação do "SIM" (ou valor verdadeiro):**
     * Ao marcar **SIM** na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com **NÃO** todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
+
 2. **Fechamento Dedutivo por Exclusão:**
     * Se em uma linha de três atributos surgirem dois **NÃO**, o terceiro campo vazio torna-se compulsoriamente **SIM**.
     * Se em uma coluna surgirem todos os campos preenchidos com **NÃO** exceto um, esse último é obrigatoriamente preenchido com **SIM**.
@@ -139,6 +140,7 @@ Preenchem-se primeiro as posições fixas garantidas (ex.: *"Daniel obteve o 3º
 ### 3.3 O Método das Caixas e Blocos Contíguos
 
 Se uma pista estabelece que *"Bernardo ficou em colocação imediatamente anterior à de Caio"*, agrupa-se mentalmente o par em uma caixa única: $[B, C]$.
+
 * Em uma fila de 5 posições com o 3º lugar já ocupado por Daniel ($1, 2, \mathbf{D}, 4, 5$), o bloco contíguo $[B, C]$ só pode caber em dois nichos: nas posições $\{1, 2\}$ ou nas posições $\{4, 5\}$;
 * Testa-se cada nicho com as demais restrições para descartar inconsistências (se $C$ estivesse no 5º lugar, não poderia superar ninguém, o que violaria a regra de que Caio superou Eduardo).
 
@@ -160,6 +162,7 @@ A resolução exige que o candidato projete seu olhar a partir da cadeira do ocu
 
 Em mesas circulares com um número par $N$ de assentos ($N = 6$ ou $N = 8$), diz-se que duas pessoas estão sentadas **em frente** ou **diametralmente opostas** quando a linha reta que as une passa pelo centro da mesa:
 $$\text{Distância de Oposição} = \frac{N}{2} \text{ posições}$$
+
 * Em uma mesa de 6 cadeiras numeradas de 1 a 6 em sentido horário:
     * O oposto da cadeira 1 é a cadeira $1 + 3 = 4$;
     * O oposto da cadeira 2 é a cadeira $2 + 3 = 5$;
@@ -233,12 +236,12 @@ Com base nessas informações, é correto concluir que:
 > 3. Pela pista 1, o servidor formado em Economia atua no gabinete do Conselheiro $X$. Portanto, **Bruno trabalha com o Conselheiro $X$**.
 > 4. Pela pista 3, Alice trabalha com o Conselheiro $Z$. Resta para Camila trabalhar com o **Conselheiro $Y$**.
 > 5. Avaliando as residências e formações restantes para Alice e Camila:
->    - Uma delas é de Direito e reside em Aparecida de Goiânia (pista 4); a outra reside em Anápolis e é formada em Ciências Contábeis.
->    - Se Camila reside em Aparecida e é formada em Direito, Alice reside em Anápolis e é formada em Ciências Contábeis, satisfazendo plenamente todas as premissas sem contradições.
->    - Estrutura completa única:
->      * **Bruno:** Conselheiro $X$, Economia, Goiânia.
->      * **Camila:** Conselheiro $Y$, Direito, Aparecida de Goiânia.
->      * **Alice:** Conselheiro $Z$, Ciências Contábeis, Anápolis.
+>     - Uma delas é de Direito e reside em Aparecida de Goiânia (pista 4); a outra reside em Anápolis e é formada em Ciências Contábeis.
+>     - Se Camila reside em Aparecida e é formada em Direito, Alice reside em Anápolis e é formada em Ciências Contábeis, satisfazendo plenamente todas as premissas sem contradições.
+>     - Estrutura completa única:
+>         * **Bruno:** Conselheiro $X$, Economia, Goiânia.
+>         * **Camila:** Conselheiro $Y$, Direito, Aparecida de Goiânia.
+>         * **Alice:** Conselheiro $Z$, Ciências Contábeis, Anápolis.
 >
 > Análise individual das alternativas:
 >
@@ -275,13 +278,15 @@ Com base nessas condições, o auditor que obteve o 1º lugar foi:
 > 1. Pista fixa: **Daniel ocupa o 3º lugar** $\implies (\_, \_, D, \_, \_)$.
 > 2. Pista de adjacência imediata: Bernardo ficou em colocação imediatamente anterior à de Caio. Isso significa que Bernardo e Caio formam um **bloco contíguo indivisível $[B, C]$**.
 > 3. Como o 3º lugar está ocupado por Daniel, o bloco $[B, C]$ só pode ser inserido em dois intervalos:
->    - Hipótese 1: posições $\{1º, 2º\}$, com $B = 1º$ e $C = 2º$.
->    - Hipótese 2: posições $\{4º, 5º\}$, com $B = 4º$ e $C = 5º$.
+>     - Hipótese 1: posições $\{1º, 2º\}$, com $B = 1º$ e $C = 2º$.
+>     - Hipótese 2: posições $\{4º, 5º\}$, com $B = 4º$ e $C = 5º$.
+>
 > 4. Teste da Hipótese 2: se Caio ficasse em 5º lugar, seria impossível cumprir a primeira premissa (*"Caio ficou em colocação melhor do que Eduardo"*), pois não existiria nenhuma colocação posterior ao 5º lugar para alocar Eduardo. Portanto, a Hipótese 2 é falsa e gera contradição.
 > 5. Confirmação da Hipótese 1:
->    - **Bernardo = 1º lugar**
->    - **Caio = 2º lugar**
->    - O arranjo parcial fica $(B, C, D, \_, \_)$.
+>     - **Bernardo = 1º lugar**
+>     - **Caio = 2º lugar**
+>     - O arranjo parcial fica $(B, C, D, \_, \_)$.
+>
 > 6. As posições restantes ($4º$ e $5º$) são ocupadas por André e Eduardo. Como Caio ($2º$) superou Eduardo, e André não é o 1º nem está colado atrás de Caio, todas as condições são respeitadas com Bernardo no topo.
 >
 > Análise das alternativas:
@@ -322,9 +327,9 @@ Nessas condições, quem está sentado imediatamente à esquerda de Diana?
 > 4. Pela pista 4, Flávia senta-se em frente a Elias. Como a cadeira 2 já está ocupada por Beatriz, o par $(2, 5)$ está inviabilizado para Flávia e Elias. Consequentemente, Flávia e Elias ocupam obrigatoriamente o par oposto formado pelas **cadeiras 3 e 6**.
 > 5. Resta para **Carlos a cadeira 5**.
 > 6. Pela perspectiva de Diana (sentada na cadeira 4 voltada para o centro da mesa):
->    - Olhando para o centro a partir da cadeira 4, seu lado esquerdo aponta para a cadeira 5 e seu lado direito aponta para a cadeira 3.
->    - Logo, a cadeira 5 corresponde exatamente à posição imediatamente à esquerda de Diana.
->    - Quem ocupa a cadeira 5 é **Carlos**.
+>     - Olhando para o centro a partir da cadeira 4, seu lado esquerdo aponta para a cadeira 5 e seu lado direito aponta para a cadeira 3.
+>     - Logo, a cadeira 5 corresponde exatamente à posição imediatamente à esquerda de Diana.
+>     - Quem ocupa a cadeira 5 é **Carlos**.
 >
 > Análise individual das alternativas:
 >
@@ -387,7 +392,9 @@ A partir dessas premissas, conclui-se necessariamente que:
 Considere quatro auditores — Paulo, Renan, Sérgio e Tiago — que possuem idades distintas: 25, 28, 31 e 35 anos, não necessariamente nessa ordem. Para se determinar com precisão unívoca a idade de cada um deles, foram apresentadas as seguintes três condições:
 
 I. Paulo é mais velho que Sérgio e mais novo que Tiago.  
+
 II. A idade de Renan é um número par.  
+
 III. Sérgio não é o mais jovem de todos.  
 
 Avalie se essas três condições, em conjunto, são suficientes para determinar a idade de cada um dos quatro amigos:
@@ -407,9 +414,10 @@ Avalie se essas três condições, em conjunto, são suficientes para determinar
 > 4. Pela condição I, estabelece-se a relação estrita de ordem entre os três:
 >    $$\text{Sérgio} < \text{Paulo} < \text{Tiago}$$
 > 5. Em um conjunto de três números distintos com relação de ordem estrita $S < P < T$, há uma única alocação possível sem ambiguidade:
->    * Sérgio = 25 anos
->    * Paulo = 31 anos
->    * Tiago = 35 anos
+>     * Sérgio = 25 anos
+>     * Paulo = 31 anos
+>     * Tiago = 35 anos
+>
 > 6. A condição III atua como validador de consistência do sistema ou como restrição de contorno em modelos sem a fixação prévia de paridade. Em conjunto, o sistema de premissas amarra integralmente todas as quatro variáveis, determinando sem margem de dúvida a idade de cada um dos quatro auditores.
 >
 > Análise individual das alternativas:

@@ -16,32 +16,31 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Modelos de Referência: OSI vs. TCP/IP](#1-modelos-de-referência-osi-vs-tcpip)
-    - [1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)](#11-estrutura-em-camadas-do-modelo-osi-7-níveis)
-    - [1.2 Arquitetura em Camadas da Pilha TCP/IP (4 Níveis)](#12-arquitetura-em-camadas-da-pilha-tcpip-4-níveis)
+- [1. Modelos de Referência: OSI vs. TCP/IP](#1-modelos-de-referencia-osi-vs-tcpip)
+    - [1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)](#11-estrutura-em-camadas-do-modelo-osi-7-niveis)
+    - [1.2 Arquitetura em Camadas da Pilha TCP/IP (4 Níveis)](#12-arquitetura-em-camadas-da-pilha-tcpip-4-niveis)
     - [1.3 Unidades de Dados de Protocolo (PDU) e Encapsulamento](#13-unidades-de-dados-de-protocolo-pdu-e-encapsulamento)
-- [2. Endereçamento e Sub-redes IPv4](#2-endereçamento-e-sub-redes-ipv4)
-    - [2.1 Classes Históricas de Endereços (Classes A a E)](#21-classes-históricas-de-endereços-classes-a-a-e)
-    - [2.2 Espaço de Endereçamento Privado (RFC 1918) e NAT/PAT](#22-espaço-de-endereçamento-privado-rfc-1918-e-natpat)
-    - [2.3 Roteamento Interdomínio Sem Classe (CIDR) e VLSM](#23-roteamento-interdomínio-sem-classe-cidr-e-vlsm)
-    - [2.4 Mecânica de Cálculo de Sub-redes, Hosts Úteis e Tabela de Conversão](#24-mecânica-de-cálculo-de-sub-redes-hosts-úteis-e-tabela-de-conversão)
-- [3. Endereçamento IPv6](#3-endereçamento-ipv6)
-    - [3.1 Estrutura de 128 Bits e Regras de Compactação Oficial (RFC 5952)](#31-estrutura-de-128-bits-e-regras-de-compactação-oficial-rfc-5952)
-    - [3.2 Tipos de Transmissão no IPv6: Unicast, Anycast e Multicast (Extinção do Broadcast)](#32-tipos-de-transmissão-no-ipv6-unicast-anycast-e-multicast-extinção-do-broadcast)
-    - [3.3 Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)](#33-faixas-notáveis-de-endereços-ipv6-loopback-link-local-ula-gua)
-    - [3.4 Autoconfiguração (SLAAC) e Mecanismos de Transição (Dual-Stack, Túneis, NAT64)](#34-autoconfiguração-slaac-e-mecanismos-de-transição-dual-stack-túneis-nat64)
+- [2. Endereçamento e Sub-redes IPv4](#2-enderecamento-e-sub-redes-ipv4)
+    - [2.1 Classes Históricas de Endereços (Classes A a E)](#21-classes-historicas-de-enderecos-classes-a-a-e)
+    - [2.2 Espaço de Endereçamento Privado (RFC 1918) e NAT/PAT](#22-espaco-de-enderecamento-privado-rfc-1918-e-natpat)
+    - [2.3 Roteamento Interdomínio Sem Classe (CIDR) e VLSM](#23-roteamento-interdominio-sem-classe-cidr-e-vlsm)
+    - [2.4 Mecânica de Cálculo de Sub-redes, Hosts Úteis e Tabela de Conversão](#24-mecanica-de-calculo-de-sub-redes-hosts-uteis-e-tabela-de-conversao)
+- [3. Endereçamento IPv6](#3-enderecamento-ipv6)
+    - [3.1 Estrutura de 128 Bits e Regras de Compactação Oficial (RFC 5952)](#31-estrutura-de-128-bits-e-regras-de-compactacao-oficial-rfc-5952)
+    - [3.2 Tipos de Transmissão no IPv6: Unicast, Anycast e Multicast (Extinção do Broadcast)](#32-tipos-de-transmissao-no-ipv6-unicast-anycast-e-multicast-extincao-do-broadcast)
+    - [3.3 Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)](#33-faixas-notaveis-de-enderecos-ipv6-loopback-link-local-ula-gua)
+    - [3.4 Autoconfiguração (SLAAC) e Mecanismos de Transição (Dual-Stack, Túneis, NAT64)](#34-autoconfiguracao-slaac-e-mecanismos-de-transicao-dual-stack-tuneis-nat64)
 - [4. Protocolo DNS (Domain Name System)](#4-protocolo-dns-domain-name-system)
-    - [4.1 Finalidade, Arquitetura Hierárquica e Portas UDP/TCP 53](#41-finalidade-arquitetura-hierárquica-e-portas-udptcp-53)
+    - [4.1 Finalidade, Arquitetura Hierárquica e Portas UDP/TCP 53](#41-finalidade-arquitetura-hierarquica-e-portas-udptcp-53)
     - [4.2 Consultas Recursivas vs. Consultas Iterativas](#42-consultas-recursivas-vs-consultas-iterativas)
     - [4.3 Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)](#43-registros-de-recursos-a-aaaa-cname-mx-ns-ptr-soa-txt)
 - [5. Protocolo DHCP (Dynamic Host Configuration Protocol)](#5-protocolo-dhcp-dynamic-host-configuration-protocol)
     - [5.1 Finalidade e Portas de Transporte UDP 67/68](#51-finalidade-e-portas-de-transporte-udp-6768)
     - [5.2 O Ciclo DORA em 4 Etapas (Discover, Offer, Request, Acknowledge)](#52-o-ciclo-dora-em-4-etapas-discover-offer-request-acknowledge)
-    - [5.3 Timers de Renovação de Concessão (T1 e T2)](#53-timers-de-renovação-de-concessão-t1-e-t2)
-    - [5.4 Agente de Retransmissão DHCP (DHCP Relay Agent)](#54-agente-de-retransmissão-dhcp-dhcp-relay-agent)
+    - [5.3 Timers de Renovação de Concessão (T1 e T2)](#53-timers-de-renovacao-de-concessao-t1-e-t2)
+    - [5.4 Agente de Retransmissão DHCP (DHCP Relay Agent)](#54-agente-de-retransmissao-dhcp-dhcp-relay-agent)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Exemplos Práticos](#7-questões-comentadas--exemplos-práticos)
+- [7. Questões Comentadas & Exemplos Práticos](#7-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -366,6 +365,7 @@ Assinale a alternativa que apresenta, correta e respectivamente, a máscara de s
 * **E)** `/25`, 2 sub-redes e 126 hosts úteis
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. A demanda exige suporte a 26 computadores. Pela fórmula de hosts úteis ($2^h - 2 \ge 26$), encontramos $h = 5$ bits de host ($2^5 - 2 = 30$ hosts úteis). A máscara CIDR resultante é $32 - 5 = /27$. Como o bloco original era `/24`, foram emprestados $27 - 24 = 3$ bits, permitindo criar $2^3 = 8$ sub-redes idênticas.
 > - **B)** Incorreta. A máscara `/26` aloca 6 bits para hosts, fornecendo 62 hosts úteis e gerando o dobro de desperdício em relação ao `/27`, além de disponibilizar apenas 4 sub-redes.
 > - **C)** Incorreta. A máscara `/28` fornece apenas 14 hosts utilizáveis ($2^4 - 2 = 14$), incapaz de atender aos 26 computadores do setor.
@@ -380,7 +380,9 @@ Assinale a alternativa que apresenta, correta e respectivamente, a máscara de s
 Considere as seguintes assertivas a respeito da arquitetura do protocolo IPv6, comparativamente ao legado IPv4:
 
 I. O protocolo IPv6 aboliu o conceito de transmissão em difusão geral (*broadcast*); mensagens destinadas a múltiplos dispositivos utilizam mecanismos e endereços de *multicast*.  
+
 II. O endereço `fe80::/10` pertence à faixa de endereços *Link-Local Unicast*, sendo atribuído compulsoriamente a qualquer interface com IPv6 habilitado e possuindo validade restrita ao enlace local de comunicação.  
+
 III. No protocolo DNS, a resolução de nomes de domínio diretamente para endereços IPv6 é implementada por meio de registros de recursos do tipo `A`, ao passo que registros do tipo `AAAA` são reservados para mapeamento de servidores de e-mail.  
 
 Está correto o que se afirma em:
@@ -392,6 +394,7 @@ Está correto o que se afirma em:
 * **E)** I, apenas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. O Item I é verdadeiro porque o broadcast foi formalmente extinto no IPv6, sendo substituído por multicast estruturado e anycast. O Item II é verdadeiro porque `fe80::/10` é a faixa Link-Local gerada automaticamente em qualquer interface IPv6 para operação no enlace local. O Item III é falso porque a resolução de nomes para IPv6 utiliza o registro `AAAA` (*Quad-A*), e servidores de e-mail são mapeados por registros `MX`.
 > - **B)** Incorreta. Omite a veracidade do Item I e inclui o Item III que contém grave incorreção técnica.
 > - **C)** Incorreta. Inclui o Item III que confunde registros `AAAA` com registros `MX`.
@@ -414,6 +417,7 @@ A respeito do ciclo operacional de quatro etapas do DHCP (processo DORA), assina
 * **E)** Quando o cliente e o servidor DHCP estão localizados em redes lógicas distintas separadas por um roteador, o ciclo DORA opera naturalmente sem a necessidade de nenhum recurso intermediário de retransmissão.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O cliente em estado inicial não tem IP nem conhece os servidores, emitindo o `DHCPDISCOVER` obrigatoriamente em Broadcast.
 > - **B)** Correta. A mensagem `DHCPREQUEST` é transmitida intencionalmente em Broadcast para notificar formalmente a aceitação da proposta escolhida e, simultaneamente, avisar aos demais servidores DHCP da rede que suas ofertas foram declinadas, permitindo-lhes devolver os endereços aos seus pools livres.
 > - **C)** Incorreta. O DHCP opera sobre o protocolo de transporte UDP (portas 67 no servidor e 68 no cliente), pois uma máquina sem IP configurado não pode negociar conexões TCP.
@@ -436,6 +440,7 @@ Sobre os tipos de registros DNS e a mecânica de funcionamento desse serviço, �
 * **E)** A consulta reversa de DNS para endereços da arquitetura IPv4 utiliza o domínio de topo especial denominado `ip6.arpa`.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O registro `CNAME` vincula um alias estritamente a outro nome de domínio canônico, nunca apontando diretamente para um IP numérico.
 > - **B)** Correta. O DNS utiliza UDP 53 para consultas ágeis de baixa latência e recorre a TCP 53 para transferências completas de zona (AXFR/IXFR) ou respostas que excedam os limites de tamanho do pacote UDP.
 > - **C)** Incorreta. O processo descrito corresponde à consulta **Recursiva**. Na consulta **Iterativa**, o servidor responde fornecendo a indicação do próximo servidor de nomes a ser consultado.
@@ -456,6 +461,7 @@ No contexto das camadas do modelo de referência OSI e da arquitetura de protoco
 * **E)** O protocolo TCP é classificado como não orientado à conexão e não provê garantias formais de entrega de dados, características estas que são exclusivas do protocolo UDP.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O endereçamento lógico e o roteamento global constituem funções privativas da **Camada de Rede** (Camada 3).
 > - **B)** Correta. A Unidade de Dados de Protocolo (PDU) da camada de enlace de dados é denominada Quadro (*Frame*).
 > - **C)** Incorreta. O protocolo ARP opera na camada de enlace/rede mapeando endereços IPv4 em endereços físicos MAC, não possuindo vínculo com portas de transporte.

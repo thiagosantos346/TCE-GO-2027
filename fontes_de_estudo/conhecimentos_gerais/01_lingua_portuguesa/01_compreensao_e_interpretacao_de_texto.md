@@ -20,50 +20,50 @@
 ---
 
 ## 🧭 Sumário
-- [1. Compreensão vs. Interpretação na Tradição da FCC](#1-compreensão-vs-interpretação-na-tradição-da-fcc)
-    - [1.1 Compreensão Textual e Informação Explícita](#11-compreensão-textual-e-informação-explícita)
-    - [1.2 Interpretação Textual e Inferência Autorizada](#12-interpretação-textual-e-inferência-autorizada)
-    - [1.3 Os Três Erros Clássicos de Leitura](#13-os-três-erros-clássicos-de-leitura)
-    - [1.4 Método Prático de Resolução](#14-método-prático-de-resolução)
-- [2. Gêneros Textuais e Contexto de Produção](#2-gêneros-textuais-e-contexto-de-produção)
-    - [2.1 Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-gênero-textual)
-    - [2.2 Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-crônica-e-artigo-de-opinião)
-    - [2.3 Contexto Histórico, Cultural e Ideológico](#23-contexto-histórico-cultural-e-ideológico)
+- [1. Compreensão vs. Interpretação na Tradição da FCC](#1-compreensao-vs-interpretacao-na-tradicao-da-fcc)
+    - [1.1 Compreensão Textual e Informação Explícita](#11-compreensao-textual-e-informacao-explicita)
+    - [1.2 Interpretação Textual e Inferência Autorizada](#12-interpretacao-textual-e-inferencia-autorizada)
+    - [1.3 Os Três Erros Clássicos de Leitura](#13-os-tres-erros-classicos-de-leitura)
+    - [1.4 Método Prático de Resolução](#14-metodo-pratico-de-resolucao)
+- [2. Gêneros Textuais e Contexto de Produção](#2-generos-textuais-e-contexto-de-producao)
+    - [2.1 Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-genero-textual)
+    - [2.2 Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-cronica-e-artigo-de-opiniao)
+    - [2.3 Contexto Histórico, Cultural e Ideológico](#23-contexto-historico-cultural-e-ideologico)
 - [3. Tipologias Textuais](#3-tipologias-textuais)
     - [3.1 Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
-    - [3.2 Narração e Descrição](#32-narração-e-descrição)
-    - [3.3 Exposição e Injunção](#33-exposição-e-injunção)
-- [4. Argumentação na Tipologia Dissertativa](#4-argumentação-na-tipologia-dissertativa)
+    - [3.2 Narração e Descrição](#32-narracao-e-descricao)
+    - [3.3 Exposição e Injunção](#33-exposicao-e-injuncao)
+- [4. Argumentação na Tipologia Dissertativa](#4-argumentacao-na-tipologia-dissertativa)
     - [4.1 Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
-    - [4.2 Estratégias Argumentativas](#42-estratégias-argumentativas)
+    - [4.2 Estratégias Argumentativas](#42-estrategias-argumentativas)
     - [4.3 Operadores Argumentativos](#43-operadores-argumentativos)
     - [4.4 Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
-- [5. Níveis de Linguagem e Denotação e Conotação](#5-níveis-de-linguagem-e-denotação-e-conotação)
+- [5. Níveis de Linguagem e Denotação e Conotação](#5-niveis-de-linguagem-e-denotacao-e-conotacao)
     - [5.1 Linguagem Denotativa](#51-linguagem-denotativa)
     - [5.2 Linguagem Conotativa](#52-linguagem-conotativa)
 - [6. Modalidades de Discurso](#6-modalidades-de-discurso)
     - [6.1 Discurso Direto](#61-discurso-direto)
     - [6.2 Discurso Indireto](#62-discurso-indireto)
     - [6.3 Discurso Indireto Livre](#63-discurso-indireto-livre)
-- [7. Transposição de Discursos](#7-transposição-de-discursos)
-    - [7.1 Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposição-do-direto-para-o-indireto)
-    - [7.2 Correlação Verbal e Armadilhas na Transposição](#72-correlação-verbal-e-armadilhas-na-transposição)
+- [7. Transposição de Discursos](#7-transposicao-de-discursos)
+    - [7.1 Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposicao-do-direto-para-o-indireto)
+    - [7.2 Correlação Verbal e Armadilhas na Transposição](#72-correlacao-verbal-e-armadilhas-na-transposicao)
 - [8. Intertextualidade](#8-intertextualidade)
-    - [8.1 Paráfrase](#81-paráfrase)
-    - [8.2 Paródia](#82-paródia)
-    - [8.3 Citação, Epígrafe e Alusão](#83-citação-epígrafe-e-alusão)
+    - [8.1 Paráfrase](#81-parafrase)
+    - [8.2 Paródia](#82-parodia)
+    - [8.3 Citação, Epígrafe e Alusão](#83-citacao-epigrafe-e-alusao)
 - [9. Figuras de Linguagem](#9-figuras-de-linguagem)
-    - [9.1 Figuras Semânticas ou de Palavra](#91-figuras-semânticas-ou-de-palavra)
+    - [9.1 Figuras Semânticas ou de Palavra](#91-figuras-semanticas-ou-de-palavra)
     - [9.2 Figuras de Pensamento](#92-figuras-de-pensamento)
-    - [9.3 Figuras de Construção ou de Sintaxe](#93-figuras-de-construção-ou-de-sintaxe)
-    - [9.4 Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-fonéticas)
-- [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
-- [Questões de Concurso FCC Comentadas](#-questões-de-concurso-fcc-comentadas)
-    - [Questão 01](#questão-01)
-    - [Questão 02](#questão-02)
-    - [Questão 03](#questão-03)
-    - [Questão 04](#questão-04)
-    - [Questão 05](#questão-05)
+    - [9.3 Figuras de Construção ou de Sintaxe](#93-figuras-de-construcao-ou-de-sintaxe)
+    - [9.4 Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-foneticas)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
+    - [Questão 01](#questao-01)
+    - [Questão 02](#questao-02)
+    - [Questão 03](#questao-03)
+    - [Questão 04](#questao-04)
+    - [Questão 05](#questao-05)
 
 ---
 
@@ -104,7 +104,12 @@ A interpretação também envolve reconhecer a **postura do autor** (crítica, i
 
 A maioria das alternativas erradas em questões de leitura da FCC cai em uma de três categorias. Saber nomeá-las acelera a eliminação.
 
-1. **Extrapolação:** O candidato introduz conhecimentos prévios ou juízos de valor que podem até ser verdadeiros no mundo real, mas **não encontram respaldo ou autorização nas linhas do texto**. A extrapolação costuma aparecer como (a) uma **proposta de solução** que o autor não fez (ex.: "a tecnologia deve ser suspensa"), (b) uma **atribuição de culpa ou intenção** não mencionada (ex.: "os engenheiros agem de má-fé"), (c) uma **comparação quantitativa** inexistente (ex.: "as máquinas erram tanto quanto os humanos") ou (d) uma **generalização** indevida.
+1. **Extrapolação:** O candidato introduz conhecimentos prévios ou juízos de valor que podem até ser verdadeiros no mundo real, mas **não encontram respaldo ou autorização nas linhas do texto**. A extrapolação costuma aparecer como:
+    - **a)** uma **proposta de solução** que o autor não fez (ex.: "a tecnologia deve ser suspensa")
+    - **b)** uma **atribuição de culpa ou intenção** não mencionada (ex.: "os engenheiros agem de má-fé")
+    - **c)** uma **comparação quantitativa** inexistente (ex.: "as máquinas erram tanto quanto os humanos")
+    - **d)** uma **generalização** indevida.
+
 2. **Redução:** A alternativa pinça um detalhe secundário ou aspecto particular do texto e o apresenta como se fosse a tese central ou a conclusão definitiva do autor. A alternativa reduzida até contém algo verdadeiro, mas é **parcial**: responde a uma pergunta diferente da feita (ex.: a questão pede a ideia central e a alternativa traz um exemplo usado em um parágrafo).
 3. **Contradição:** A alternativa inverte as relações lógicas de causa e efeito ou assevera o exato oposto daquilo que o texto defendeu. Um caso muito frequente é tratar como **fato consumado** aquilo que o texto apresentou como mera **promessa, hipótese ou ilusão** (ex.: o texto fala em "promessa de erradicação do erro" e a alternativa diz que "a erradicação do erro já foi alcançada").
 
@@ -439,6 +444,7 @@ A partir da leitura atenta do texto, depreende-se corretamente que:
 * **E)** Os vieses algorítmicos decorrem da imperícia intencional dos engenheiros de computação que desenvolvem modelos visando discriminar grupos sociais específicos.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O texto não defende o banimento ou a suspensão sumária da tecnologia, mas alerta para o perigo de considerá-la neutra ou imune a falhas. A alternativa propõe uma solução que o autor não formulou: erro clássico de **extrapolação**.
 > - **B)** Incorreta. O texto não afirma que as máquinas cometem "rigorosamente a mesma quantidade de falhas" que os humanos; não há comparação quantitativa alguma. O texto diz que os sistemas herdam os vieses e preconceitos dos dados históricos. Há extrapolação, agravada pelo termo absoluto "rigorosamente".
 > - **C)** Correta. O núcleo argumentativo do excerto (introduzido pelo conectivo adversativo *"Contudo"*, reforçado pela expressão retificadora *"Longe de"*) desconstrói a visão ingênua da IA como "objetividade asséptica", demonstrando que os modelos funcionam como "espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais". A alternativa traduz com precisão essa tese crítica, inclusive preservando o grau de possibilidade ("pode ocultar" ↔ "podem operar").
@@ -463,6 +469,7 @@ No fragmento acima, a passagem assinalada pela oração interrogativa (*"Como so
 * **E)** Discurso dissertativo de autoridade estrita.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Não há discurso direto, pois faltam verbos de elocução introdutórios e a pontuação típica (dois-pontos, travessão ou aspas). "Elipse de aspas" não é categoria gramatical reconhecida; a ausência das marcas é justamente o que afasta o discurso direto.
 > - **B)** Incorreta. O discurso indireto convencional exigiria a mediação formal do narrador mediante verbo de elocução e conjunção integrante ou pronome interrogativo (*"O relator perguntou a si mesmo como solucionaria..."*). Além disso, o discurso indireto não se estrutura por conectivo causal, mas por oração subordinada substantiva.
 > - **C)** Correta. Configura-se tipicamente o **Discurso Indireto Livre**: a voz do narrador (em terceira pessoa) funde-se instantaneamente ao fluxo de consciência e à indagação íntima da personagem (*"Como solucionar aquele impasse...?"*), sem marcas formais de abertura de fala ou conectivos de subordinação.
@@ -486,11 +493,13 @@ para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se cor
 * **E)** O auditor afirmou aos gestores que tenha concluído a fiscalização amanhã e entregue aquele relatório à presidência.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Ajustou corretamente os verbos para o futuro do pretérito, mas errou ao manter os dêiticos temporal e demonstrativo ancorados no momento da fala (*amanhã* e *este*).
 > - **B)** Correta. Na transposição do Discurso Direto para o Indireto, as regras gramaticais exigem três ajustes simultâneos:
->   1. **Tempos Verbais:** Futuro do Presente (*concluirei*, *entregarei*) transforma-se em **Futuro do Pretérito** (*concluiria*, *entregaria*);
->   2. **Advérbio de Tempo:** *Amanhã* passa para **no dia seguinte** (ou *no dia subsequente*);
->   3. **Pronome Demonstrativo:** *Este* passa para **aquele**, marcando o distanciamento temporal e espacial da enunciação.
+>     1. **Tempos Verbais:** Futuro do Presente (*concluirei*, *entregarei*) transforma-se em **Futuro do Pretérito** (*concluiria*, *entregaria*);
+>     2. **Advérbio de Tempo:** *Amanhã* passa para **no dia seguinte** (ou *no dia subsequente*);
+>     3. **Pronome Demonstrativo:** *Este* passa para **aquele**, marcando o distanciamento temporal e espacial da enunciação.
+>
 > - **C)** Incorreta. O Pretérito Mais-Que-Perfeito (*concluíra*, *entregara*) e a locução *na véspera* corresponderiam a fatos passados, e não ao futuro original; além disso, *esse* não marca o distanciamento exigido.
 > - **D)** Incorreta. Ajustou o advérbio e o demonstrativo, mas manteve o verbo no futuro do presente (*concluirá*, *entregará*), o que fere a correlação com a oração principal no pretérito (*afirmou*).
 > - **E)** Incorreta. Emprega o pretérito perfeito do subjuntivo (*tenha concluído*, *entregue*), alterando o modo (de certeza para hipótese) e desfigurando a ideia de futurição original; também manteve *amanhã*.
@@ -504,8 +513,10 @@ para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se cor
 Considere os versos e expressões a seguir:  
 
 I. *"A cidade dormia sob o manto pesado de um silêncio ensurdecedor."*  
+
 II. *"Ele não era exatamente uma fonte de sabedoria; faltava-lhe perspicácia para lidar com o público."*  
-III. *"Nas horas de angústia, o coração do fiscal chorava lágrimas de ferro."*
+
+III. *"Nas horas de angústia, o coração do fiscal chorava lágrimas de ferro."*  
 
 As figuras de linguagem presentes nos trechos I, II e III são, respectivamente:
 
@@ -545,6 +556,7 @@ Assinale a alternativa em que a relação entre orações do texto expressa valo
 * **E)** *"O prazo prescricional para o ajuizamento da execução fiscal de créditos tributários é de cinco anos."*
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Frase de linguagem estritamente **denotativa**, técnico-jurídica: "rescindido unilateralmente" e a remissão a artigo de lei têm sentido literal e unívoco.
 > - **B)** Incorreta. Linguagem **denotativa** de natureza contábil-financeira: dado numérico ("quatro por cento") e terminologia técnica ("crescimento nominal", "exercício financeiro"), sem qualquer figura.
 > - **C)** Correta. A frase emprega linguagem eminentemente **conotativa (figurada)**: a burocracia não tem boca para *"engolir"* nada (prosopopeia/metáfora), a tramitação documental é metaforizada como um *"pântano"* e os carimbos são qualificados como *"inertes"*, transmitindo expressividade e juízo crítico de valor ao leitor.

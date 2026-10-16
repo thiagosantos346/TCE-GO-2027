@@ -16,26 +16,26 @@
 ---
 
 ## 🧭 Sumário
-- [1. As Três Fases do Projeto de Banco de Dados](#1-as-três-fases-do-projeto-de-banco-de-dados)
-    - [1.1 Modelo Conceitual: Semântica e Independência de Tecnologia](#11-modelo-conceitual-semântica-e-independência-de-tecnologia)
-    - [1.2 Modelo Lógico: Dependência do Paradigma Relacional](#12-modelo-lógico-dependência-do-paradigma-relacional)
-    - [1.3 Modelo Físico: Implementação e Otimização no SGBD](#13-modelo-físico-implementação-e-otimização-no-sgbd)
-    - [1.4 Tabela Comparativa dos Níveis de Abstração](#14-tabela-comparativa-dos-níveis-de-abstração)
-- [2. Modelo Entidade-Relacionamento (MER / DER de Peter Chen)](#2-modelo-entidade-relacionamento-mer--der-de-peter-chen)
+- [1. As Três Fases do Projeto de Banco de Dados](#1-as-tres-fases-do-projeto-de-banco-de-dados)
+    - [1.1 Modelo Conceitual: Semântica e Independência de Tecnologia](#11-modelo-conceitual-semantica-e-independencia-de-tecnologia)
+    - [1.2 Modelo Lógico: Dependência do Paradigma Relacional](#12-modelo-logico-dependencia-do-paradigma-relacional)
+    - [1.3 Modelo Físico: Implementação e Otimização no SGBD](#13-modelo-fisico-implementacao-e-otimizacao-no-sgbd)
+    - [1.4 Tabela Comparativa dos Níveis de Abstração](#14-tabela-comparativa-dos-niveis-de-abstracao)
+- [2. Modelo Entidade-Relacionamento (MER / DER de Peter Chen)](#2-modelo-entidade-relacionamento-mer-der-de-peter-chen)
     - [2.1 Entidades Fortes (Regulares) vs. Entidades Fracas](#21-entidades-fortes-regulares-vs-entidades-fracas)
-    - [2.2 Tipologia e Representação Gráfica dos Atributos](#22-tipologia-e-representação-gráfica-dos-atributos)
-    - [2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)](#23-relacionamentos-cardinalidade-e-participação-total-vs-parcial)
-- [3. Álgebra Relacional: Operações Formais e Consultas](#3-álgebra-relacional-operações-formais-e-consultas)
-    - [3.1 As Seis Operações Fundamentais (Seleção, Projeção, Produto Cartesiano, União, Diferença e Renomeação)](#31-as-seis-operações-fundamentais-seleção-projeção-produto-cartesiano-união-diferença-e-renomeação)
-    - [3.2 Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional](#32-operações-derivadas-junção-natural-theta-join-equijunção-interseção-e-divisão-relacional)
-- [4. Teoria da Normalização e Formas Normais (Codd)](#4-teoria-da-normalização-e-formas-normais-codd)
-    - [4.1 Dependências Funcionais: Total, Parcial e Transitiva](#41-dependências-funcionais-total-parcial-e-transitiva)
-    - [4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN](#42-a-escada-da-normalização-1ª-fn-2ª-fn-e-3ª-fn)
-    - [4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN](#43-forma-normal-de-boyce-codd-fnbc--bcnf-vs-3ª-fn)
-- [5. Processo de Desnormalização de Dados](#5-processo-de-desnormalização-de-dados)
-    - [5.1 Motivações e Trade-offs: OLTP vs. OLAP / Data Warehouses](#51-motivações-e-trade-offs-oltp-vs-olap--data-warehouses)
-    - [5.2 Técnicas Comuns e Riscos de Integridade](#52-técnicas-comuns-e-riscos-de-integridade)
-- [6. Questões Comentadas & Prática Padrão FCC](#6-questões-comentadas--prática-padrão-fcc)
+    - [2.2 Tipologia e Representação Gráfica dos Atributos](#22-tipologia-e-representacao-grafica-dos-atributos)
+    - [2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)](#23-relacionamentos-cardinalidade-e-participacao-total-vs-parcial)
+- [3. Álgebra Relacional: Operações Formais e Consultas](#3-algebra-relacional-operacoes-formais-e-consultas)
+    - [3.1 As Seis Operações Fundamentais (Seleção, Projeção, Produto Cartesiano, União, Diferença e Renomeação)](#31-as-seis-operacoes-fundamentais)
+    - [3.2 Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional](#32-operacoes-derivadas-juncao-natural-theta-join-equijuncao-intersecao-e-divisao-relacional)
+- [4. Teoria da Normalização e Formas Normais (Codd)](#4-teoria-da-normalizacao-e-formas-normais-codd)
+    - [4.1 Dependências Funcionais: Total, Parcial e Transitiva](#41-dependencias-funcionais-total-parcial-e-transitiva)
+    - [4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN](#42-a-escada-da-normalizacao-1a-fn-2a-fn-e-3a-fn)
+    - [4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN](#43-forma-normal-de-boyce-codd-fnbc-bcnf-vs-3a-fn)
+- [5. Processo de Desnormalização de Dados](#5-processo-de-desnormalizacao-de-dados)
+    - [5.1 Motivações e Trade-offs: OLTP vs. OLAP / Data Warehouses](#51-motivacoes-e-trade-offs-oltp-vs-olap-data-warehouses)
+    - [5.2 Técnicas Comuns e Riscos de Integridade](#52-tecnicas-comuns-e-riscos-de-integridade)
+- [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -214,14 +214,16 @@ Dada uma relação $R$, diz-se que o conjunto de atributos $X$ determina funcion
 
 1. **Primeira Forma Normal (1ª FN):**
     - **Regra:** Todos os domínios de atributos devem conter **apenas valores atômicos e indivisíveis**. Proíbe-se a presença de atributos multivalorados, atributos compostos e grupos repetitivos (como campos contendo listas separadas por vírgula ou tabelas aninhadas).
+
 2. **Segunda Forma Normal (2ª FN):**
     - **Regra:** A relação deve estar na **1ª FN** e todo atributo não-chave deve depender **totalmente da chave primária**, eliminando qualquer dependência funcional parcial.
     - **Regra de Ouro em Provas:** A violação da 2ª FN só pode ocorrer se a chave primária for **composta** (possuir 2 ou mais atributos). Se a chave primária for simples (apenas 1 atributo), estando na 1ª FN ela estará **automaticamente na 2ª FN**!
+
 3. **Terceira Forma Normal (3ª FN):**
     - **Regra:** A relação deve estar na **2ª FN** e nenhum atributo não-chave pode depender transitivamente da chave primária.
     - **Definição Formal de Codd:** Para toda dependência funcional não-trivial $X \rightarrow A$:
-    1. $X$ é uma superchave; **OU**
-    2. $A$ é um atributo primo (faz parte de ao menos uma chave candidata).
+        1. $X$ é uma superchave; **OU**
+        2. $A$ é um atributo primo (faz parte de ao menos uma chave candidata).
 
 ### 4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN
 
@@ -261,6 +263,7 @@ flowchart TD
     1. *Junção Pré-calculada:* Mesclar duas tabelas $1:N$ em uma única tabela para evitar consultas com `JOIN`.
     2. *Campos Totalizadores / Derivados Persistidos:* Adicionar uma coluna `ValorTotalNota` na tabela mestre para evitar calcular `SUM()` de itens a cada requisição.
     3. *Replicação de Colunas de Consulta Frequente:* Armazenar o `NomeFornecedor` diretamente na tabela de `Empenho`.
+
 - **Riscos e Trade-offs:**
     - Redundância severa e aumento do consumo de armazenamento em disco;
     - **Risco Crítico de Inconsistência:** Atualizar o nome do fornecedor exige atualizar milhões de registros duplicados; se uma atualização falhar pela metade, o banco de dados entra em estado inconsistente.
@@ -288,6 +291,7 @@ Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve
 * **E)** Desnormalizar a relação unificando `Quantidade` e `ValorUnitario` em um atributo multivalorado.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A atomicidade de domínios e a eliminação de grupos repetitivos constituem a regra da **Primeira Forma Normal (1ª FN)**.
 > - **B)** Correta. A **Segunda Forma Normal (2ª FN)** exige que a relação esteja na 1ª FN e que todo atributo não-chave dependa *totalmente* da chave primária. Como a chave primária é composta por `(NumContrato, NumItem)`, atributos como `DescricaoItem` (que depende apenas de `NumItem`) e `CodFornecedor` (que depende apenas de `NumContrato`) configuram **dependências funcionais parciais**, devendo ser isolados em tabelas próprias para atingir a 2ª FN.
 > - **C)** Incorreta. A eliminação de dependências transitivas (`CodFornecedor -> NomeFornecedor`) é o requisito exclusivo para a **Terceira Forma Normal (3ª FN)**.
@@ -310,6 +314,7 @@ A expressão formal algébrica que representa essa operação com precisão é:
 * **E)** $\pi_{A = 10} (\sigma_{B, D} (R \div S))$
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. A junção natural $R \bowtie S$ realiza a equijunção pelo atributo comum $C$ ($R.C = S.C$). Em seguida, a seleção $\sigma_{A=10}$ filtra apenas as tuplas onde $A$ vale $10$. Por fim, a projeção $\pi_{B, D}$ descarta as demais colunas e projeta unicamente os atributos solicitados $B$ e $D$, eliminando eventuais duplicatas.
 > - **B)** Incorreta. Inverte a sintaxe dos operadores: $\sigma$ recebe uma condição booleana (e não uma lista de atributos como $B, D$) e $\pi$ recebe atributos.
 > - **C)** Incorreta. O operador de união ($\cup$) concatena tuplas verticalmente e exige que as relações sejam compatíveis quanto à união (mesmo grau e domínios equivalentes), o que não ocorre entre $R$ e $S$.
@@ -333,11 +338,13 @@ Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração seq
 * **E)** Superclasse, Atributo Atômico e Relacionamento Ternário.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Entidades associativas resolvem relacionamentos $N:M$ com atributos próprios, e auto-relacionamento ocorre quando uma entidade se relaciona consigo mesma.
 > - **B)** Correta. Classificação impecável segundo a teoria de Chen:
->   1. `TERMO_FISCAL` depende existencialmente de `PROCESSO_FISCAL` e não possui chave primária global própria; logo, é uma **Entidade Fraca** (representada por retângulo de linha dupla);
->   2. A numeração sequencial interna (1, 2, 3) identifica o termo apenas dentro de cada processo; logo, é uma **Chave Parcial** ou **Discriminador** (representada por elipse com sublinhado tracejado);
->   3. O relacionamento que conecta a entidade fraca à sua proprietária é um **Relacionamento Identificador** (representado por losango de linha dupla).
+>     1. `TERMO_FISCAL` depende existencialmente de `PROCESSO_FISCAL` e não possui chave primária global própria; logo, é uma **Entidade Fraca** (representada por retângulo de linha dupla);
+>     2. A numeração sequencial interna (1, 2, 3) identifica o termo apenas dentro de cada processo; logo, é uma **Chave Parcial** ou **Discriminador** (representada por elipse com sublinhado tracejado);
+>     3. O relacionamento que conecta a entidade fraca à sua proprietária é um **Relacionamento Identificador** (representado por losango de linha dupla).
+>
 > - **C)** Incorreta. `TERMO_FISCAL` não é uma entidade regular (forte), pois depende da proprietária para sua identificação plena.
 > - **D)** Incorreta. A numeração sequencial não é atributo derivado (calculado dinamicamente).
 > - **E)** Incorreta. Conceitos de especialização/generalização e relacionamentos ternários não se aplicam ao cenário.
@@ -360,13 +367,15 @@ Com base nas definições formais das Formas Normais, afirma-se corretamente que
 * **E)** Encontra-se na 4ª FN, pois não possui atributos multivalorados dependentes.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A relação está na 1ª FN (domínios atômicos).
 > - **B)** Incorreta. A relação não viola a 3ª FN.
 > - **C)** Correta. Análise detalhada:
->   1. Chaves candidatas: $(A, B)$ e $(A, C)$. Todos os atributos ($A, B, C$) são atributos primos (pertencem a ao menos uma chave).
->   2. 2ª FN: Como não existem atributos não-primos, a relação está na 2ª FN.
->   3. 3ª FN: Para $(A, B) \rightarrow C$, $(A, B)$ é superchave. Para $C \rightarrow B$, embora $C$ não seja superchave, $B$ é atributo primo. Logo, a relação **atende à 3ª FN**.
->   4. FNBC: A FNBC exige estritamente que, para toda dependência não-trivial $X \rightarrow Y$, o determinante $X$ seja superchave. Na dependência $C \rightarrow B$, o determinante $C$ **não é superchave**. Portanto, a relação **viola a FNBC**.
+>     1. Chaves candidatas: $(A, B)$ e $(A, C)$. Todos os atributos ($A, B, C$) são atributos primos (pertencem a ao menos uma chave).
+>     2. 2ª FN: Como não existem atributos não-primos, a relação está na 2ª FN.
+>     3. 3ª FN: Para $(A, B) \rightarrow C$, $(A, B)$ é superchave. Para $C \rightarrow B$, embora $C$ não seja superchave, $B$ é atributo primo. Logo, a relação **atende à 3ª FN**.
+>     4. FNBC: A FNBC exige estritamente que, para toda dependência não-trivial $X \rightarrow Y$, o determinante $X$ seja superchave. Na dependência $C \rightarrow B$, o determinante $C$ **não é superchave**. Portanto, a relação **viola a FNBC**.
+>
 > - **D e E)** Incorretas. A relação viola a FNBC conforme demonstrado.
 > 
 > **Gabarito: C**
@@ -391,6 +400,7 @@ A operação da Álgebra Relacional que expressa diretamente essa semântica de 
 * **E)** Interseção (`INSPECAO` $\cap$ `ESTABELECIMENTO`)
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Full Outer Join preserva tuplas sem correspondência em ambos os lados preenchendo com nulos, sem filtrar por quantificação universal.
 > - **B)** Incorreta. A Equijunção apenas relaciona inspeções a estabelecimentos existentes, retornando auditores que inspecionaram *ao menos um* estabelecimento.
 > - **C)** Correta. A **Divisão Relacional ($R \div S$)** é o operador formal da álgebra relacional projetado para expressar o quantificador universal $\forall$ (*"para todos"*). A operação `INSPECAO` $\div$ `ESTABELECIMENTO` retorna unicamente as tuplas de `CodAuditor` que estão combinadas com **todas** as tuplas presentes na relação `ESTABELECIMENTO`.

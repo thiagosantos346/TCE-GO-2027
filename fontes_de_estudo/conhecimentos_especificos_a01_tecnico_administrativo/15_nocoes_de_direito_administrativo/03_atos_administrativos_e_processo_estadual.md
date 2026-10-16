@@ -19,34 +19,33 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Teoria Geral do Ato Administrativo e Distinções Conceituais](#1-teoria-geral-do-ato-administrativo-e-distinções-conceituais)
-    - [1.1 Fato da Administração vs. Fato Administrativo vs. Ato Administrativo](#11-fato-da-administração-vs-fato-administrativo-vs-ato-administrativo)
-    - [1.2 Perfeição, Validade e Eficácia do Ato](#12-perfeição-validade-e-eficácia-do-ato)
-- [2. Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)](#2-elementos-e-requisitos-de-validade-do-ato-mnemônico-cofifom)
-    - [2.1 Competência (Sujeito Competente)](#21-competência-sujeito-competente)
+- [1. Teoria Geral do Ato Administrativo e Distinções Conceituais](#1-teoria-geral-do-ato-administrativo-e-distincoes-conceituais)
+    - [1.1 Fato da Administração vs. Fato Administrativo vs. Ato Administrativo](#11-fato-da-administracao-vs-fato-administrativo-vs-ato-administrativo)
+    - [1.2 Perfeição, Validade e Eficácia do Ato](#12-perfeicao-validade-e-eficacia-do-ato)
+- [2. Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)](#2-elementos-e-requisitos-de-validade-do-ato-mnemonico-cofifom)
+    - [2.1 Competência (Sujeito Competente)](#21-competencia-sujeito-competente)
     - [2.2 Finalidade e o Desvio de Poder](#22-finalidade-e-o-desvio-de-poder)
-    - [2.3 Forma e Princípio da Solenidade](#23-forma-e-princípio-da-solenidade)
+    - [2.3 Forma e Princípio da Solenidade](#23-forma-e-principio-da-solenidade)
     - [2.4 Motivo e a Teoria dos Motivos Determinantes](#24-motivo-e-a-teoria-dos-motivos-determinantes)
-    - [2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo](#25-objeto-conteúdo-e-a-delimitação-do-mérito-administrativo)
-- [3. Atributos do Ato Administrativo (Mnemônico PATI)](#3-atributos-do-ato-administrativo-mnemônico-pati)
-    - [3.1 Presunção de Legitimidade e Veracidade](#31-presunção-de-legitimidade-e-veracidade)
+    - [2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo](#25-objeto-conteudo-e-a-delimitacao-do-merito-administrativo)
+- [3. Atributos do Ato Administrativo (Mnemônico PATI)](#3-atributos-do-ato-administrativo-mnemonico-pati)
+    - [3.1 Presunção de Legitimidade e Veracidade](#31-presuncao-de-legitimidade-e-veracidade)
     - [3.2 Autoexecutoriedade e seus Limites](#32-autoexecutoriedade-e-seus-limites)
     - [3.3 Tipicidade Administrativa](#33-tipicidade-administrativa)
     - [3.4 Imperatividade e Poder Extroverso](#34-imperatividade-e-poder-extroverso)
-- [4. Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos](#4-classificações-relevantes-para-a-fcc-atos-simples-complexos-e-compostos)
+- [4. Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos](#4-classificacoes-relevantes-para-a-fcc-atos-simples-complexos-e-compostos)
     - [4.1 Atos Simples, Complexos e Compostos](#41-atos-simples-complexos-e-compostos)
-    - [4.2 O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)](#42-o-registro-de-aposentadoria-no-tribunal-de-contas-tema-445--stf)
-- [5. Extinção e Convalidação dos Atos Administrativos](#5-extinção-e-convalidação-dos-atos-administrativos)
-    - [5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição](#51-modos-de-extinção-anulação-revogação-cassação-caducidade-e-contraposição)
-    - [5.2 Convalidação: Requisitos, Limites e Efeitos Temporais](#52-convalidação-requisitos-limites-e-efeitos-temporais)
-- [6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)](#6-processo-administrativo-no-estado-de-goiás-lei-estadual-nº-138002001)
-    - [6.1 Princípios Norteadores e Direitos dos Administrados](#61-princípios-norteadores-e-direitos-dos-administrados)
-    - [6.2 Vedações Absolutas à Delegação (Regra do CENORA - Art. 13)](#62-vedações-absolutas-à-delegação-regra-do-cenora---art-13)
-    - [6.3 Impedimentos e Suspeição de Agentes e Julgadores](#63-impedimentos-e-suspeição-de-agentes-e-julgadores)
-    - [6.4 Motivação das Decisões e Regime Recursal](#64-motivação-das-decisões-e-regime-recursal)
+    - [4.2 O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)](#42-o-registro-de-aposentadoria-no-tribunal-de-contas-tema-445-stf)
+- [5. Extinção e Convalidação dos Atos Administrativos](#5-extincao-e-convalidacao-dos-atos-administrativos)
+    - [5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição](#51-modos-de-extincao-anulacao-revogacao-cassacao-caducidade-e-contraposicao)
+    - [5.2 Convalidação: Requisitos, Limites e Efeitos Temporais](#52-convalidacao-requisitos-limites-e-efeitos-temporais)
+- [6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)](#6-processo-administrativo-no-estado-de-goias-lei-estadual-no-138002001)
+    - [6.1 Princípios Norteadores e Direitos dos Administrados](#61-principios-norteadores-e-direitos-dos-administrados)
+    - [6.2 Vedações Absolutas à Delegação (Regra do CENORA - Art. 13)](#62-vedacoes-absolutas-a-delegacao-regra-do-cenora-art-13)
+    - [6.3 Impedimentos e Suspeição de Agentes e Julgadores](#63-impedimentos-e-suspeicao-de-agentes-e-julgadores)
+    - [6.4 Motivação das Decisões e Regime Recursal](#64-motivacao-das-decisoes-e-regime-recursal)
 - [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
-- [8. Questões Comentadas & Exemplos (Padrão FCC)](#8-questões-comentadas--exemplos-padrão-fcc)
+- [8. Questões Comentadas & Exemplos (Padrão FCC)](#8-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -104,6 +103,7 @@ flowchart TD
 ### 2.1 Competência (Sujeito Competente)
 
 É o círculo de atribuições conferido pelo ordenamento jurídico ao agente ou órgão público para a prática do ato.
+
 - **Características:** É irrenunciável, intransferível por acordo entre as partes, inderrogável, imprescritível e imodificável pela vontade do titular.
 - **Espécies de Vício de Competência:**
     - *Usurpação de Função:* Crime praticado por particular que se faz passar por funcionário público (ato inexistente).
@@ -113,17 +113,20 @@ flowchart TD
 ### 2.2 Finalidade e o Desvio de Poder
 
 A finalidade representa o objetivo mediato de interesse público que o ato deve alcançar. É elemento **invariavelmente vinculado**; o administrador jamais detém discricionariedade para escolher a finalidade pública a ser perseguida.
+
 - **Desvio de Finalidade (Desvio de Poder):** Ocorre quando a autoridade competente utiliza poderes legítimos para atingir fins alheios ao interesse público ou fim diverso daquele categorizado pela lei para aquela competência (ex.: remoção compulsória de servidor com o propósito punitivo disfarçado de perseguição pessoal). É vício que acarreta a **nulidade absoluta e insanável** do ato administrativo.
 
 ### 2.3 Forma e Princípio da Solenidade
 
 A forma é o modo pelo qual a vontade da Administração se exterioriza e ganha publicidade no mundo jurídico.
+
 - No Direito Administrativo vige o princípio do formalismo moderado, mas como regra geral os atos são solenes e devem ser expedidos por **escrito**, contendo data, identificação do cargo e assinatura.
 - *Defeitos de Forma:* A omissão de formalidades não essenciais que não prejudiquem o direito de defesa dos administrados configura vício sanável, passível de **convalidação**.
 
 ### 2.4 Motivo e a Teoria dos Motivos Determinantes
 
 O motivo constitui a situação de fato (o evento do mundo real) e a situação de direito (o enquadramento na norma legal) que autorizam ou determinam a prática do ato administrativo.
+
 - Não se confunde com a **motivação** (a motivação é a declaração escrita dos motivos; o motivo é o próprio fato em si).
 
 #### A Teoria dos Motivos Determinantes:
@@ -135,6 +138,7 @@ Consagrada pela jurisprudência pacífica do STF e do STJ, preceitua que a valid
 ### 2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo
 
 O objeto é o efeito jurídico imediato e substantivo que o ato produz no mundo real (é o "o que" o ato decide, cria, extingue ou altera). Deve ser lícito, possível, determinado ou determinável.
+
 - **O Mérito Administrativo:** Nos atos discricionários, o mérito administrativo — consubstanciado no juízo de **conveniência e oportunidade** privativo da autoridade pública — incide **estrita e unicamente sobre o Motivo e o Objeto**. Os elementos Competência, Finalidade e Forma são sempre vinculados.
 
 ---
@@ -156,12 +160,14 @@ flowchart LR
 ### 3.1 Presunção de Legitimidade e Veracidade
 
 Presume-se que o ato administrativo foi expedido em estrita consonância com a lei (legitimidade) e que os fatos relatados pelos agentes públicos são verdadeiros (veracidade).
+
 - É presunção relativa (*juris tantum*), que admite prova em contrário.
 - Gera a **inversão do ônus da prova**: incumbe ao particular demonstrar e comprovar a ilegalidade ou falsidade do ato impugnado perante o Judiciário ou a Administração.
 
 ### 3.2 Autoexecutoriedade e seus Limites
 
 É a prerrogativa conferida à Administração Pública de compelir materialmente o administrado a cumprir o ato ou executar diretamente a providência administrativa, inclusive com uso moderado da força física policial, **sem necessidade de intervenção ou autorização prévia do Poder Judiciário** (ex.: guincho de carro estacionado em local proibido; interdição e lacração de restaurante com alimentos deteriorados; apreensão de drogas).
+
 - **Limites Críticos da Autoexecutoriedade:** A autoexecutoriedade depende de expressa previsão legal ou de situação fática emergencial/urgente.  
 > 🚨 **ALERTA CLÁSSICO FCC:**  
 > A cobrança de **multas pecuniárias administrativas NÃO é autoexecutória**! Se o particular se recusar a pagar a multa, a Administração não pode tomar o dinheiro de sua conta bancária diretamente; deve inscrever o débito em Dívida Ativa e ajuizar Ação de Execução Fiscal perante o Poder Judiciário.
@@ -173,6 +179,7 @@ Formulada por Maria Sylvia Zanella Di Pietro, preceitua que cada ato administrat
 ### 3.4 Imperatividade e Poder Extroverso
 
 Consiste na faculdade de impor obrigações coercitivas e restrições unilaterais a terceiros, independentemente de sua concordância prévia.
+
 - Não está presente em atos negociais (licenças, autorizações) e atos meramente enunciativos (pareceres, certidões, atestados).
 
 ---
@@ -228,11 +235,13 @@ O julgamento da legalidade e a concessão de registro de aposentadoria, pensão 
 ### 5.2 Convalidação: Requisitos, Limites e Efeitos Temporais
 
 A convalidação (ou sanatória) é o ato administrativo pelo qual a Administração corrige e supre um vício existente em ato ilegal anterior com efeitos retroativos (**ex tunc**).
+
 - **Dispositivo Normativo:** Art. 55 da Lei Federal nº 9.784/1999 e art. 54 da Lei Estadual/GO nº 13.800/2001.
 - **Requisitos Cumulativos Obrigatórios:**
     1. O ato **não pode acarretar lesão ao interesse público**;
     2. O ato **não pode causar prejuízos a terceiros de boa-fé**;
     3. O vício deve ser **sanável**.
+
 - **Defeitos Sanáveis que Comportam Convalidação:**
     - **Competência quanto à Pessoa:** Admite convalidação (ratificação pela autoridade competente), desde que a lei **NÃO tenha atribuído competência exclusiva** à autoridade que praticou o ato originário.
     - **Forma:** Admite convalidação se a forma desrespeitada não foi expressamente exigida por lei como requisito essencial de validade do ato.
@@ -309,6 +318,7 @@ Determinada autarquia estadual goiana publicou ato de concessão de aposentadori
 * **E)** A competência de registro pelo Tribunal de Contas possui prazo decadencial de dois anos contado da data de nascimento do servidor inativado.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O ato simples é aquele cuja produção jurídica decorre da vontade exclusiva de um único órgão estatal, não correspondendo à aposentadoria submetida a registro de corte de contas.
 > - **B)** Incorreta. No ato composto, há uma manifestação volitiva principal de um órgão e uma aprovação/visto meramente acessório de outro; a aposentadoria com registro pelo Tribunal de Contas é classificada pelo STF como ato genuinamente complexo.
 > - **C)** Correta. De acordo com a jurisprudência pacífica do Supremo Tribunal Federal (Súmula Vinculante nº 3 e Tema 445 da Repercussão Geral), o ato de aposentadoria, pensão ou reforma submetido ao controle externo constitucional dos Tribunais de Contas tipifica um **ato administrativo complexo**. Ele resulta da fusão indispensável de vontades do órgão instituidor e do Tribunal de Contas (exercendo sua competência do art. 71, III, da CF/88), aperfeiçoando-se e ganhando estabilidade definitiva apenas após a chancela do registro da corte.
@@ -331,6 +341,7 @@ Considerando o regime jurídico de competência e delegação estabelecido na Le
 * **E)** A competência administrativa é irrenunciável e não admite delegação de nenhuma natureza na esfera pública estadual de Goiás.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O princípio da eficiência não pode servir de pretexto para violar restrições normativas cogentes de competência legalmente estabelecidas.
 > - **B)** Correta. O art. 13, inciso II, da Lei Estadual de Goiás nº 13.800/2001 (em perfeita consonância com o art. 13 da Lei Federal nº 9.784/99) veda terminantemente a delegação da competência para **decidir recursos administrativos** (regra CENORA). O julgamento recursal pressupõe reexame hierárquico por autoridade superior; transferir a decisão recursal para um subordinado aniquila a garantia do duplo grau de jurisdição administrativa e contamina a delegação com vício de ilegalidade insanável.
 > - **C)** Incorreta. A competência em matéria de recursos é de ordem pública e irrenunciável, não podendo ser flexibilizada por acordo individual do administrado.
@@ -353,6 +364,7 @@ Diante do vício constatado, a Administração Pública:
 * **E)** Deve converter o ato em desapropriação indireta com indenização ao particular ocupante.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O vício de incompetência quanto à pessoa, desde que não se trate de competência privativa ou exclusiva conferida por lei, é um defeito sanável que admite convalidação.
 > - **B)** Correta. Nos termos do art. 54 da Lei Estadual/GO nº 13.800/2001 e do art. 55 da Lei Federal nº 9.784/1999, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração, desde que demonstrado que a providência não acarreta lesão ao interesse público nem prejuízo a terceiros de boa-fé. O defeito relativo de competência é convalidado mediante o instituto da **ratificação** pela autoridade verdadeiramente competente, operando efeitos retroativos (**ex tunc**) à data originária da prática do ato.
 > - **C)** Incorreta. A revogação destina-se a suprimir atos válidos e perfeitos por razões supervenientes de mérito (oportunidade e conveniência), e não atos maculados por vícios de competência.
@@ -375,6 +387,7 @@ Com base na **Teoria dos Motivos Determinantes**:
 * **E)** A Teoria dos Motivos Determinantes aplica-se unicamente aos atos administrativos vinculados.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Embora a exoneração de ocupante de cargo em comissão (*ad nutum*) seja dispensada de fundamentação prévia, a autoridade que opta por explicitar os motivos fáticos do desligamento vincula a higidez jurídica do ato à comprovação concreta desses motivos.
 > - **B)** Correta. A **Teoria dos Motivos Determinantes** dita que a validade de qualquer ato administrativo fica vinculada à veracidade, exatidão e sustentabilidade jurídica dos motivos invocados para a sua edição. Comprovado em juízo que a justificativa alegada pela autoridade (extinção do programa por falta de verbas) era cabalmente falsa e inexistente no plano fático, o ato padece de vício de nulidade insanável no elemento motivo, devendo ser desfeito.
 > - **C)** Incorreta. A averiguação da veracidade fática dos motivos declarados no ato constitui controle estrito de **legalidade** (verificação da ocorrência material do elemento motivo), não configurando invasão no mérito administrativo.
@@ -397,10 +410,11 @@ As formas de extinção dos atos administrativos aplicáveis, respectivamente, �
 * **E)** Contraposição e renúncia
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O primeiro caso decorreu de norma legal nova superveniente e não de conveniência do Executivo (revogação); o segundo decorreu de sanção contra descumprimento culposo do particular, e não de defeito de validade originário (anulação).
 > - **B)** Correta. Identifica rigorosamente as modalidades de extinção anômala dos atos:
->   - **Caducidade:** Extinção do ato decorrente da superveniência de norma jurídica legal de hierarquia superior que torna incompatível a continuidade da situação jurídica outrora válida (a nova lei municipal de zoneamento proibiu o pedágio no local).
->   - **Cassação:** Extinção do ato administrativo como penalidade aplicada em desfavor do particular beneficiário que passou a descumprir os requisitos e condicionantes legais obrigatórios que amparavam a autorização ou alvará (o restaurante comercializava comida estragada desrespeitando o alvará de funcionamento sanitário).
+>     - **Caducidade:** Extinção do ato decorrente da superveniência de norma jurídica legal de hierarquia superior que torna incompatível a continuidade da situação jurídica outrora válida (a nova lei municipal de zoneamento proibiu o pedágio no local).
+>     - **Cassação:** Extinção do ato administrativo como penalidade aplicada em desfavor do particular beneficiário que passou a descumprir os requisitos e condicionantes legais obrigatórios que amparavam a autorização ou alvará (o restaurante comercializava comida estragada desrespeitando o alvará de funcionamento sanitário).
 > - **C)** Incorreta. Inverteu a ordem de subsunção conceitual entre as duas situações hipotéticas.
 > - **D)** Incorreta. Ignora a tipologia das extinções por caducidade e cassação.
 > - **E)** Incorreta. Contraposição decorre de novo ato administrativo antagônico; renúncia decorre de manifestação unilateral do beneficiário.

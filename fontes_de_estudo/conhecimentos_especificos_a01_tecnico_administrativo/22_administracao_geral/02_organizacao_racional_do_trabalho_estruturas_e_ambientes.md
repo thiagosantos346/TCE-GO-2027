@@ -34,13 +34,13 @@
 ---
 
 ## 🧭 Sumário Interativo
-- [1. Os Nove Pilares da Organização Racional do Trabalho (ORT)](#1-os-nove-pilares-da-organização-racional-do-trabalho-ort)
-- [2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade](#2-dicotomia-conceitual-eficiência-vs-eficácia-vs-efetividade)
-- [3. Dinâmica das Organizações Formais e Informais](#3-dinâmica-das-organizações-formais-e-informais)
-- [4. Centralização vs. Descentralização e a Regra Áurea da Delegação](#4-centralização-vs-descentralização-e-a-regra-áurea-da-delegação)
+- [1. Os Nove Pilares da Organização Racional do Trabalho (ORT)](#1-os-nove-pilares-da-organizacao-racional-do-trabalho-ort)
+- [2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade](#2-dicotomia-conceitual-eficiencia-vs-eficacia-vs-efetividade)
+- [3. Dinâmica das Organizações Formais e Informais](#3-dinamica-das-organizacoes-formais-e-informais)
+- [4. Centralização vs. Descentralização e a Regra Áurea da Delegação](#4-centralizacao-vs-descentralizacao-e-a-regra-aurea-da-delegacao)
 - [5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)](#5-ambientes-organizacionais-ambiente-geral-macro-vs-ambiente-de-tarefa-micro)
-- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referências-bibliográficas)
-- [7. Questões de Concurso FCC Comentadas](#7-questões-de-concurso-fcc-comentadas)
+- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+- [7. Questões de Concurso FCC Comentadas](#7-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -197,6 +197,7 @@ flowchart TD
     - **T**ecnológicas: inteligência artificial, computação em nuvem, digitalização de serviços;
     - **E**cológicas: sustentabilidade ambiental, mudanças climáticas;
     - **L**egais: reformas constitucionais, marcos regulatórios e leis orçamentárias.
+
 2. **Ambiente de Tarefa (Microambiente / Ambiente Operacional):** Nicho específico no qual o órgão público atua de maneira imediata e diária para desempenhar suas competências regimentais. É composto por:
     - **Cidadãos-usuários (jurisdicionados):** Destinatários finais dos serviços públicos e do controle da gestão;
     - **Fornecedores:** Empresas concorrentes em licitações e contratos para fornecimento de bens e serviços;
@@ -226,6 +227,7 @@ A respeito da Organização Racional do Trabalho (ORT) desenvolvida por Frederic
 * **E)** A fadiga humana era ignorada pela ORT por ser considerada um fenômeno psicológico irrelevante para a produtividade fabril.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A ORT combatia a improvisação empírica dos operários, impondo métodos padronizados cientificamente planejados pela gerência.  
 > - **B) Incorreta.** Taylor adotava a concepção do **Homo Economicus** (o ser humano é motivado pelo ganho financeiro individual por peça produzida).  
 > - **C) CORRETA.** O estudo dos tempos e movimentos (sistematizado por Taylor e aprofundado pelos Gilbreth) constituía a viga-mestra da ORT: fragmentar a tarefa em micromovimentos elementares, erradicar movimentos inúteis e fixar o tempo-padrão de execução para a melhor maneira científica de trabalhar (*the one best way*).  
@@ -247,6 +249,7 @@ Determinada unidade de fiscalização governamental realizou uma auditoria utili
 * **E)** O resultado comprova a inadequação da departamentalização funcional nos órgãos de controle público.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A equipe não foi eficaz, uma vez que falhou em atingir o objetivo primordial da fiscalização (detectar e apontar as irregularidades materiais).  
 > - **B) CORRETA.** A equipe foi **eficiente** (minimizou o uso de insumos, cortou custos em 40% e poupou tempo - foco excelente nos meios), porém foi **ineficaz** (não alcançou o objetivo finalístico proposto, falhando na entrega do resultado material substantivo - foco nos fins).  
 > - **C) Incorreta.** Ocorreu exatamente o oposto: houve alta eficiência nos meios e ineficácia nos fins.  
@@ -268,6 +271,7 @@ No tocante à dinâmica da delegação de competências e à centralização ver
 * **E)** A delegação de autoridade no serviço público é vedada pelo princípio da hierarquia institucional previsto na Constituição Federal.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Concentrar decisões no topo da cúpula é a definição de **centralização**, e não de descentralização.  
 > - **B) Incorreta.** Regra basilar de administração: **a responsabilidade final pelo resultado perante a organização é indelegável**. Delega-se a autoridade e a execução da tarefa, mas o gestor delegante responde perante a instituição pelas falhas cometidas pelo delegado.  
 > - **C) CORRETA.** A **descentralização** aproxima a decisão do local onde o problema ocorre (a base operacional/ponta), conferindo agilidade de resposta às demandas dos cidadãos e motivando os servidores locais que passam a exercer autonomia funcional.  
@@ -289,6 +293,7 @@ Em relação ao estudo dos ambientes organizacionais e sua influência sobre o f
 * **E)** As organizações que atuam em ambientes de tarefa dinâmicos e imprevisíveis devem adotar estruturas estritamente burocráticas e centralizadas para mitigar riscos operacionais.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Inflação, clima e demografia compõem o **ambiente geral (macroambiente)**, e não o ambiente de tarefa.  
 > - **B) Incorreta.** Usuários, fornecedores e órgãos fiscalizadores integram o **ambiente de tarefa (microambiente)**.  
 > - **C) CORRETA.** O **ambiente de tarefa (ou microambiente operacional)** é o nicho direto com o qual a instituição pública se relaciona cotidianamente para desempenhar sua missão: nele estão inseridos os cidadãos-usuários (jurisdicionados), os fornecedores contratados e as entidades reguladoras e controladoras.  
@@ -310,6 +315,7 @@ A respeito da organização formal e da organização informal no cotidiano das 
 * **E)** O organograma regimental de uma instituição representa graficamente tanto as linhas de comando formal quanto as redes de solidariedade da organização informal.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** A organização informal é um fenômeno social espontâneo, natural e impossível de ser extirpado pela via disciplinar; gestores eficientes aprendem a conviver com ela e a canalizar seu potencial.  
 > - **B) CORRETA.** A **organização formal** é desenhada deliberadamente pela direção, oficializada em regulamentos, manuais e organogramas; em contrapartida, a **organização informal** surge espontaneamente da convivência entre as pessoas, laços de amizade, identificação mútua e costumes compartilhados.  
 > - **C) Incorreta.** A liderança informal é conquistada pelo carisma, respeito e confiança dos colegas, podendo ser exercida por servidores sem qualquer cargo de chefia formal.  

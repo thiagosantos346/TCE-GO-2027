@@ -17,21 +17,21 @@
 ---
 
 ## 🧭 Sumário
-- [1. Fundamentos de Infraestrutura como Código (IaC)](#1-fundamentos-de-infraestrutura-como-código-iac)
-    - [1.1 Definição, Propósito e Benefícios de Engenharia](#11-definição-propósito-e-benefícios-de-engenharia)
-    - [1.2 Paradigma Declarativo (O Quê) vs. Imperativo (Como)](#12-paradigma-declarativo-o-quê-vs-imperativo-como)
-    - [1.3 O Princípio da Idempotência e Desvio de Configuração (Configuration Drift)](#13-o-princípio-da-idempotência-e-desvio-de-configuração-configuration-drift)
-    - [1.4 Infraestrutura Mutável vs. Imutável (Pets vs. Cattle)](#14-infraestrutura-mutável-vs-imutável-pets-vs-cattle)
+- [1. Fundamentos de Infraestrutura como Código (IaC)](#1-fundamentos-de-infraestrutura-como-codigo-iac)
+    - [1.1 Definição, Propósito e Benefícios de Engenharia](#11-definicao-proposito-e-beneficios-de-engenharia)
+    - [1.2 Paradigma Declarativo (O Quê) vs. Imperativo (Como)](#12-paradigma-declarativo-o-que-vs-imperativo-como)
+    - [1.3 O Princípio da Idempotência e Desvio de Configuração (Configuration Drift)](#13-o-principio-da-idempotencia-e-desvio-de-configuracao-configuration-drift)
+    - [1.4 Infraestrutura Mutável vs. Imutável (Pets vs. Cattle)](#14-infraestrutura-mutavel-vs-imutavel-pets-vs-cattle)
 - [2. Provisionamento Declarativo com Terraform e OpenTofu](#2-provisionamento-declarativo-com-terraform-e-opentofu)
     - [2.1 Estrutura e Blocos Fundamentais da Linguagem HCL](#21-estrutura-e-blocos-fundamentais-da-linguagem-hcl)
     - [2.2 O Arquivo de Estado (terraform.tfstate), Remote Backend e State Locking](#22-o-arquivo-de-estado-terraformtfstate-remote-backend-e-state-locking)
     - [2.3 Ciclo Operacional da CLI: init, validate, plan, apply e destroy](#23-ciclo-operacional-da-cli-init-validate-plan-apply-e-destroy)
-- [3. Gerenciamento Automatizado de Configuração: Ansible vs. Puppet vs. Chef](#3-gerenciamento-automatizado-de-configuração-ansible-vs-puppet-vs-chef)
+- [3. Gerenciamento Automatizado de Configuração: Ansible vs. Puppet vs. Chef](#3-gerenciamento-automatizado-de-configuracao-ansible-vs-puppet-vs-chef)
     - [3.1 Modelos Arquiteturais: Push vs. Pull e Agentless vs. Agent-Based](#31-modelos-arquiteturais-push-vs-pull-e-agentless-vs-agent-based)
     - [3.2 Matriz Comparativa Detalhada: Ansible vs. Puppet vs. Chef](#32-matriz-comparativa-detalhada-ansible-vs-puppet-vs-chef)
-    - [3.3 Anatomia Operacional do Ansible: Inventário, Playbooks, Módulos, Handlers e Roles](#33-anatomia-operacional-do-ansible-inventário-playbooks-módulos-handlers-e-roles)
-    - [3.4 Sinergia Arquitetural: Terraform no Provisionamento + Ansible na Configuração](#34-sinergia-arquitetural-terraform-no-provisionamento--ansible-na-configuração)
-- [4. Questões Comentadas & Prática Padrão FCC](#4-questões-comentadas--prática-padrão-fcc)
+    - [3.3 Anatomia Operacional do Ansible: Inventário, Playbooks, Módulos, Handlers e Roles](#33-anatomia-operacional-do-ansible-inventario-playbooks-modulos-handlers-e-roles)
+    - [3.4 Sinergia Arquitetural: Terraform no Provisionamento + Ansible na Configuração](#34-sinergia-arquitetural-terraform-no-provisionamento-ansible-na-configuracao)
+- [4. Questões Comentadas & Prática Padrão FCC](#4-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -86,6 +86,7 @@ Dois conceitos são cobrados com rigor terminológico pela FCC:
 
 #### Idempotência
 Uma operação é dita **idempotente** se a sua execução repetida múltiplas vezes sobre um mesmo sistema produz **exatamente o mesmo resultado final da primeira execução**, sem gerar efeitos colaterais indesejados, duplicações de recursos ou erros de execução.
+
 - *Na prática:* Se você executar `terraform apply` ou rodar um *Playbook* do Ansible dez vezes consecutivas sobre uma infraestrutura estável sem alterar o código, a ferramenta validará que o estado real já coincide com o estado desejado e reportará **zero alterações** (`0 to add, 0 to change, 0 to destroy` ou `changed=0`).
 
 #### Desvio de Configuração (*Configuration Drift*)
@@ -251,37 +252,41 @@ flowchart TD
 ### 3.3 Anatomia Operacional do Ansible: Inventário, Playbooks, Módulos, Handlers e Roles
 
 1. **Arquivo de Inventário (`inventory`):** Mapeia os endereços IP ou nomes de domínio dos servidores-alvo agrupados por categorias lógicas (formato INI ou YAML):
-   ```ini
-   [webservers]
-   10.0.1.10
-   10.0.1.11
 
-   [dbservers]
-   10.0.2.20
-   ```
+```ini
+[webservers]
+10.0.1.10
+10.0.1.11
+
+[dbservers]
+10.0.2.20
+```
+
 2. **Playbooks:** Manifestos em YAML que definem as "jogadas" (*plays*), associando grupos do inventário a uma sequência de tarefas (*tasks*):
-   ```yaml
-   - name: Configurar Servidor Web Corporativo
-     hosts: webservers
-     become: true
-     tasks:
-       - name: Garantir que o Nginx esteja instalado
-         apt:
-           name: nginx
-           state: present
 
-       - name: Atualizar o arquivo de configuracao
-         template:
-           src: nginx.conf.j2
-           dest: /etc/nginx/nginx.conf
-         notify: Reiniciar Servico Nginx
+```yaml
+- name: Configurar Servidor Web Corporativo
+  hosts: webservers
+  become: true
+  tasks:
+    - name: Garantir que o Nginx esteja instalado
+      apt:
+        name: nginx
+        state: present
 
-     handlers:
-       - name: Reiniciar Servico Nginx
-         service:
-           name: nginx
-           state: restarted
-   ```
+    - name: Atualizar o arquivo de configuracao
+      template:
+        src: nginx.conf.j2
+        dest: /etc/nginx/nginx.conf
+      notify: Reiniciar Servico Nginx
+
+  handlers:
+    - name: Reiniciar Servico Nginx
+      service:
+        name: nginx
+        state: restarted
+```
+
 3. **Módulos Idempotentes:** Funções especializadas que realizam as modificações de baixo nível (`apt`, `package`, `service`, `systemd`, `copy`, `template`, `file`).
 4. **Handlers (Gatilhos Condicionais):** Tarefas especiais que **só são executadas se alguma tarefa anterior tiver efetivamente modificado o estado do nó (`changed=true`)** e emitido um evento via diretiva `notify`. Se a tarefa não causou alteração (status `ok`), o handler não é disparado, evitando reinicializações desnecessárias de serviços em produção.
 5. **Facts (Fatos do Sistema):** O Ansible coleta automaticamente no início da execução um dicionário detalhado de metadados do nó gerenciado (endereços IP, interfaces, capacidade de memória RAM, versão do Kernel, distribuição Linux).
@@ -310,6 +315,7 @@ A respeito desses conceitos fundamentais de Infraestrutura como Código (IaC), a
 * **E)** A idempotência aplica-se exclusivamente a bancos de dados relacionais NoSQL, sendo inaplicável a sistemas operacionais e regras de firewall em nuvem.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Idempotência é o oposto: a garantia matemática de que reaplicar o mesmo manifesto resultará em nenhuma alteração adicional se o sistema já estiver no estado desejado.
 > - **B)** Incorreta. Essa formulação descreve o paradigma **imperativo/procedural**. No paradigma declarativo, especifica-se apenas o estado final almejado (o "quê"), sem programar passos imperativos de execução.
 > - **C)** Correta. O **Configuration Drift** (desvio de configuração) ocorre precisamente quando intervenções manuais (*out-of-band*) são realizadas na infraestrutura em produção sem atualizar o repositório de IaC, fazendo com que o estado real divirja do estado versionado em código.
@@ -332,6 +338,7 @@ A esse respeito, assinale a opção que descreve corretamente a abordagem de **I
 * **E)** A infraestrutura imutável proíbe a utilização de ferramentas de provisionamento como Terraform e orquestradores de contêineres como Kubernetes.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Aplicar modificações e patches no local (*in-place*) via terminal SSH caracteriza a **Infraestrutura Mutável** (*Pets*).
 > - **B)** Correta. Na **Infraestrutura Imutável** (*Cattle*), os servidores nunca são alterados no local após a inicialização. Qualquer nova funcionalidade ou correção de segurança resulta na compilação de uma nova imagem imutável (AMI ou imagem Docker) e instanciação de novos componentes; uma vez validados, as instâncias antigas são destruídas e descartadas.
 > - **C)** Incorreta. A geração de servidores "Snowflake" artesanais e irreproduzíveis é a principal patologia da Infraestrutura Mutável, sendo erradicada pelo modelo imutável.
@@ -354,6 +361,7 @@ Os mecanismos e comandos do Terraform relacionados a essas necessidades são, re
 * **E)** A compilação manual do código HCL em arquivos binários ELF; e o desligamento da interface de rede do computador.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. `terraform destroy` apaga os recursos reais da nuvem e `.gitignore` apenas oculta arquivos no Git, sem atuar como trava de concorrência.
 > - **B)** Correta. O comando **`terraform plan`** calcula especulativamente as ações necessárias (mostrando `+`, `~`, `-`) sem tocar na infraestrutura real. Já o **State Locking** em um backend remoto (como AWS S3 com tabela DynamoDB) bloqueia o arquivo `.tfstate` durante a operação, impedindo que execuções simultâneas corrompam o estado do cluster.
 > - **C)** Incorreta. `terraform init` apenas baixa provedores, e apagar o arquivo `.tfstate` causa perda completa do rastreamento de infraestrutura.
@@ -374,6 +382,7 @@ No que diz respeito à arquitetura operacional e aos modelos de comunicação da
 * **E)** O Chef é escrito exclusivamente em arquivos binários fechados, sendo impossível customizar suas receitas com linguagens de script.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Ansible é notório por ser **agentless** (dispensa agentes dedicados) e utiliza canais modernos e seguros como SSH e WinRM.
 > - **B)** Incorreta. Puppet e Chef baseiam-se primordialmente no modelo **Pull**, no qual agentes residentes (*daemons*) consultam periodicamente o servidor mestre central.
 > - **C)** Correta. Formulação canônica e impecável: o Ansible é **agentless** (sem agente residente nos alvos) e utiliza o modelo **Push** (o nó de controle empurra ativamente as instruções via **SSH** em servidores Linux ou **WinRM** em servidores Windows).
@@ -419,6 +428,7 @@ A respeito da execução desse *Playbook* e do comportamento de seus componentes
 * **E)** A sintaxe desse arquivo é codificada em JSON estrito, sendo incompatível com a linguagem YAML.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. No Ansible, os **Handlers** operam sob o princípio da reatividade condicional: eles só são executados ao final do playbook se alguma tarefa disparadora emitir o sinal `notify` em virtude de uma alteração real no sistema (status `changed=true`). Se o arquivo remoto já for idêntico ao template, a tarefa retorna `ok`, o handler não é disparado e o serviço Nginx não sofre reinicialização indevida, assegurando a idempotência.
 > - **B)** Incorreta. Handlers executam apenas uma vez ao final do playbook se forem notificados.
 > - **C)** Incorreta. `hosts: webservers` pesquisa e seleciona o grupo de alvos definido no arquivo de **Inventário** (`inventory`).

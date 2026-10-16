@@ -20,25 +20,25 @@
 ## 🧭 Sumário
 - [1. Arquitetura do Kubernetes: Control Plane vs. Worker Nodes](#1-arquitetura-do-kubernetes-control-plane-vs-worker-nodes)
     - [1.1 Componentes do Plano de Controle (Control Plane)](#11-componentes-do-plano-de-controle-control-plane)
-    - [1.2 Componentes dos Nós de Execução (Worker Nodes)](#12-componentes-dos-nós-de-execução-worker-nodes)
-    - [1.3 O Loop de Reconciliação Contínua e o Estado Desejado](#13-o-loop-de-reconciliação-contínua-e-o-estado-desejado)
+    - [1.2 Componentes dos Nós de Execução (Worker Nodes)](#12-componentes-dos-nos-de-execucao-worker-nodes)
+    - [1.3 O Loop de Reconciliação Contínua e o Estado Desejado](#13-o-loop-de-reconciliacao-continua-e-o-estado-desejado)
 - [2. Workloads e Controladores: Qual Objeto Escolher?](#2-workloads-e-controladores-qual-objeto-escolher)
-    - [2.1 Pods: A Menor Unidade Implantável](#21-pods-a-menor-unidade-implantável)
-    - [2.2 Deployment e ReplicaSet: Gerenciamento Declarativo para Aplicações Stateless](#22-deployment-e-replicaset-gerenciamento-declarativo-para-aplicações-stateless)
-    - [2.3 StatefulSet: Identidade Estável e Volumes para Cargas Stateful](#23-statefulset-identidade-estável-e-volumes-para-cargas-stateful)
-    - [2.4 DaemonSet: Instância Única por Nó de Infraestrutura](#24-daemonset-instância-única-por-nó-de-infraestrutura)
+    - [2.1 Pods: A Menor Unidade Implantável](#21-pods-a-menor-unidade-implantavel)
+    - [2.2 Deployment e ReplicaSet: Gerenciamento Declarativo para Aplicações Stateless](#22-deployment-e-replicaset-gerenciamento-declarativo-para-aplicacoes-stateless)
+    - [2.3 StatefulSet: Identidade Estável e Volumes para Cargas Stateful](#23-statefulset-identidade-estavel-e-volumes-para-cargas-stateful)
+    - [2.4 DaemonSet: Instância Única por Nó de Infraestrutura](#24-daemonset-instancia-unica-por-no-de-infraestrutura)
     - [2.5 Job e CronJob: Tarefas em Lote e Rotinas Agendadas](#25-job-e-cronjob-tarefas-em-lote-e-rotinas-agendadas)
-- [3. Serviços de Rede (Services) e Roteamento de Borda (Ingress)](#3-serviços-de-rede-services-e-roteamento-de-borda-ingress)
+- [3. Serviços de Rede (Services) e Roteamento de Borda (Ingress)](#3-servicos-de-rede-services-e-roteamento-de-borda-ingress)
     - [3.1 Tipos de Services: ClusterIP, NodePort, LoadBalancer e ExternalName](#31-tipos-de-services-clusterip-nodeport-loadbalancer-e-externalname)
     - [3.2 O Objeto Ingress e Controladores de Roteamento de Camada 7](#32-o-objeto-ingress-e-controladores-de-roteamento-de-camada-7)
-- [4. Ciclo de Vida, Resiliência e Probes de Integridade](#4-ciclo-de-vida-resiliência-e-probes-de-integridade)
+- [4. Ciclo de Vida, Resiliência e Probes de Integridade](#4-ciclo-de-vida-resiliencia-e-probes-de-integridade)
     - [4.1 Liveness Probe vs. Readiness Probe vs. Startup Probe](#41-liveness-probe-vs-readiness-probe-vs-startup-probe)
     - [4.2 Tabela Comparativa de Comportamento em Caso de Falha](#42-tabela-comparativa-de-comportamento-em-caso-de-falha)
-- [5. Governança, Armazenamento e Segregação de Ambientes](#5-governança-armazenamento-e-segregação-de-ambientes)
-    - [5.1 ConfigMaps e Secrets: Injeção Desacoplada de Configurações](#51-configmaps-e-secrets-injeção-desacoplada-de-configurações)
-    - [5.2 Persistência: PersistentVolume (PV), PersistentVolumeClaim (PVC) e StorageClass](#52-persistência-persistentvolume-pv-persistentvolumeclaim-pvc-e-storageclass)
-    - [5.3 Segregação de Ambientes e Paridade Dev/Prod (Twelve-Factor App)](#53-segregação-de-ambientes-e-paridade-devprod-twelve-factor-app)
-- [6. Questões Comentadas & Prática Padrão FCC](#6-questões-comentadas--prática-padrão-fcc)
+- [5. Governança, Armazenamento e Segregação de Ambientes](#5-governanca-armazenamento-e-segregacao-de-ambientes)
+    - [5.1 ConfigMaps e Secrets: Injeção Desacoplada de Configurações](#51-configmaps-e-secrets-injecao-desacoplada-de-configuracoes)
+    - [5.2 Persistência: PersistentVolume (PV), PersistentVolumeClaim (PVC) e StorageClass](#52-persistencia-persistentvolume-pv-persistentvolumeclaim-pvc-e-storageclass)
+    - [5.3 Segregação de Ambientes e Paridade Dev/Prod (Twelve-Factor App)](#53-segregacao-de-ambientes-e-paridade-devprod-twelve-factor-app)
+- [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -143,6 +143,7 @@ O **Pod** é a menor e mais básica unidade gerenciável do modelo de objetos do
 - Um Pod encapsula **um ou mais contêineres estreitamente acoplados** que compartilham recursos de baixo nível:
     1. **Network Namespace Compartilhado:** Todos os contêineres do mesmo Pod compartilham o mesmo endereço IP e a mesma tabela de portas. Eles podem se comunicar internamente via `localhost` com altíssima performance.
     2. **Volumes Compartilhados:** Podem montar os mesmos diretórios de dados locais.
+
 - **Padrão Sidecar:** Um contêiner primário executa a lógica de negócio (ex.: API Node.js), enquanto contêineres secundários (*sidecars*) realizam tarefas de apoio (ex.: agente Envoy de Service Mesh ou agente de envio de logs).
 - **Efemeridade Crítica:** Pods são descartáveis e mortais. Eles nunca devem ser instanciados de forma avulsa em produção; devem ser sempre gerenciados por controladores de carga de trabalho.
 
@@ -205,12 +206,15 @@ O objeto **`Service`** provê um endereço IP virtual fixo (*VIP*) e um registro
 1. **`ClusterIP` (Padrão):**
     - Cria um IP virtual acessível **estritamente de dentro do cluster**.
     - É o padrão ouro para comunicação interna entre microsserviços (comunicação leste-oeste).
+
 2. **`NodePort`:**
     - Abre uma porta estática de alto nível (por padrão entre as faixas **30000 e 32767**) em todas as interfaces de rede de **todos os nós do cluster**.
     - Qualquer cliente que enviar tráfego para `<IP_Qualquer_No>:<NodePort>` é balanceado e direcionado aos Pods do serviço.
+
 3. **`LoadBalancer`:**
     - Estende o tipo `NodePort` ao solicitar automaticamente a criação de um balanceador de carga externo gerenciado no provedor de nuvem pública (AWS NLB, Azure Load Balancer).
     - O balanceador da nuvem recebe o tráfego externo e o despacha para os nós do Kubernetes.
+
 4. **`ExternalName`:**
     - Não utiliza seletores nem endereços IP virtuais; atua como um redirecionamento interno de DNS mapeando o serviço para um nome externo (registro CNAME), como `database.orgao.gov.br`.
 
@@ -251,9 +255,11 @@ flowchart TD
 1. **`livenessProbe` (Sonda de Sobrevivência):**
     - **Objetivo:** Detectar se a aplicação interna entrou em estado de falha fatal irrecuperável (ex.: *deadlock* de threads, vazamento catastrófico de memória ou loop infinito).
     - **Consequência da Falha:** O `kubelet` **encerra o contêiner imediatamente e o reinicia** de acordo com a política de reinício (*restartPolicy*).
+
 2. **`readinessProbe` (Sonda de Prontidão):**
     - **Objetivo:** Detectar se a aplicação está **pronta para receber tráfego de rede** dos clientes.
     - **Consequência da Falha:** O contêiner **NÃO é reiniciado**! O Kubernetes apenas **remove temporariamente o endereço IP do Pod da lista de Endpoints do Service**, impedindo que requisições de usuários sejam enviadas a um Pod que está ocupado ou aquecendo caches.
+
 3. **`startupProbe` (Sonda de Inicialização):**
     - **Objetivo:** Proteger aplicações legadas que demoram vários minutos para inicializar (ex.: monólitos corporativos em Java/Spring).
     - **Mecanismo:** Desativa as verificações de Liveness e Readiness até que a aplicação complete seu boot inicial, prevenindo que o kubelet mate prematuramente um contêiner que apenas estava inicializando seus módulos internos.
@@ -324,6 +330,7 @@ A respeito das funções e interações entre esses componentes, assinale a afir
 * **E)** O `kube-proxy` roda unicamente no nó Master e impede que contêineres dentro do mesmo Pod consigam se comunicar via `localhost`.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O `etcd` é o banco de dados chave-valor distribuído que preserva o estado completo e as configurações do cluster K8s, operando em rede privada e sem qualquer exposição para o tráfego de usuários finais da internet.
 > - **B)** Incorreta. O **único** componente do cluster que possui autorização e capacidade de interagir diretamente com o banco de dados `etcd` é o **`kube-apiserver`**. Todos os outros componentes (incluindo o scheduler e os controllers) comunicam-se via API Server.
 > - **C)** Correta. O **`kubelet`** é o agente primário de cada nó de trabalho (*Worker Node*). Ele estabelece comunicação contínua com o `kube-apiserver`, recebe as especificações dos Pods (*PodSpecs*), comanda o runtime de contêineres via CRI para instanciar as cargas de trabalho e supervisiona a saúde das instâncias através das sondas (*probes*).
@@ -350,10 +357,11 @@ Os objetos e controladores do Kubernetes mais indicados para atender aos cenári
 * **E)** `Deployment`; `CronJob`; e `Ingress`.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. As três opções correspondem perfeitamente às definições da arquitetura K8s:
->   - Cenário 1: Aplicações sem estado (*stateless*) com atualização sem parada (*RollingUpdate*) e escalabilidade horizontal são gerenciadas canonicamente por **`Deployments`**.
->   - Cenário 2: Bancos de dados e sistemas com estado (*stateful*) que exigem discos persistentes dedicados e nomes estáveis com ordenação determinística (`pod-0`, `pod-1`) exigem o uso de **`StatefulSets`**.
->   - Cenário 3: Agentes de coleta de logs, telemetria e segurança que precisam rodar com exatamente uma cópia em cada nó do cluster são orquestrados por **`DaemonSets`**.
+>     - Cenário 1: Aplicações sem estado (*stateless*) com atualização sem parada (*RollingUpdate*) e escalabilidade horizontal são gerenciadas canonicamente por **`Deployments`**.
+>     - Cenário 2: Bancos de dados e sistemas com estado (*stateful*) que exigem discos persistentes dedicados e nomes estáveis com ordenação determinística (`pod-0`, `pod-1`) exigem o uso de **`StatefulSets`**.
+>     - Cenário 3: Agentes de coleta de logs, telemetria e segurança que precisam rodar com exatamente uma cópia em cada nó do cluster são orquestrados por **`DaemonSets`**.
 > - **B)** Incorreta. O StatefulSet é para o cenário 2 e o CronJob é para tarefas periódicas.
 > - **C)** Incorreta. Job é para tarefas pontuais de lote e ConfigMap é para injeção de configurações.
 > - **D)** Incorreta. A ordem dos controladores está incorreta para os cenários descritos.
@@ -373,6 +381,7 @@ No Kubernetes, o mecanismo de abstração que permite agrupar um conjunto de Pod
 * **E)** `DaemonSet` e `ReplicaSet`.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. `ConfigMap` provê injeção de parâmetros em texto claro e o `kubelet` gerencia contêineres nos nós.
 > - **B)** Correta. O **`Service`** atua como uma abstração lógica que fornece um endereço IP estável e balanceia conexões entre réplicas de Pods selecionadas por labels. Já o **`Ingress`** opera na Camada 7 (HTTP/HTTPS), gerenciando o tráfego de borda externo, viabilizando roteamento por nomes de host (domínios virtuais), caminhos de requisição e terminação segura de certificados TLS/SSL.
 > - **C)** Incorreta. `Namespace` é partição lógica interna e `etcd` é o armazenamento distribuído do cluster.
@@ -395,6 +404,7 @@ Diante da falha contínua da verificação realizada pela sonda `livenessProbe`,
 * **E)** Desinstalar o sistema operacional Linux do nó de trabalho e formatar o disco rígido principal.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O mecanismo de resiliência (*self-healing*) do Kubernetes não permite que o kubelet ignore falhas contínuas de sondas de sobrevivência.
 > - **B)** Incorreta. Probes em contêineres individuais não acionam compras ou provisionamento financeiro de recursos em nuvem pública.
 > - **C)** Correta. A finalidade precípua da **`livenessProbe`** é identificar se a aplicação travou irrecuperavelmente. Caso a sonda falhe pelo limite consecutivo configurado (*failureThreshold*), o agente `kubelet` encerra o contêiner (sinal `SIGTERM`/`SIGKILL`) e **reinicia-o compulsoriamente** com base na política de reinício do Pod (*restartPolicy*), restaurando o serviço.
@@ -415,6 +425,7 @@ Em um órgão público, os ambientes de Desenvolvimento, Homologação e Produç
 * **E)** Armazenar os dados transacionais de bancos de dados exclusivamente na camada efêmera do Pod, proibindo o uso de `PersistentVolumes` (PV) e `PersistentVolumeClaims` (PVC).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. O particionamento lógico em **`Namespaces`** associado a cotas estritas de recursos (**`ResourceQuota`**) impede que o ambiente de desenvolvimento monopolize os recursos de CPU e memória do cluster. Além disso, a segregação de configurações em **`ConfigMaps`** e credenciais confidenciais em **`Secrets`** materializa o Fator III (*Config*) do Twelve-Factor App, garantindo que a mesma imagem de contêiner imutável seja promovida entre os ambientes sem risco de exposição de dados.
 > - **B)** Incorreta. Manter senhas no código-fonte viola os mais fundamentais princípios de segurança da informação e governança.
 > - **C)** Incorreta. Distribuir privilégios irrestritos de *cluster-admin* contraria abertamente o Princípio do Menor Privilégio (*PoLP*) e as normas de controle de acesso RBAC.

@@ -14,35 +14,35 @@
 ---
 
 ## 🧭 Sumário
-- [1. Programação em Java (Conceitos Fundamentais)](#1-programação-em-java-conceitos-fundamentais)
+- [1. Programação em Java (Conceitos Fundamentais)](#1-programacao-em-java-conceitos-fundamentais)
     - [1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode](#11-arquitetura-da-plataforma-jvm-jre-jdk-e-bytecode)
-    - [1.2 Gerenciamento de Memória: Stack vs. Heap e Garbage Collection](#12-gerenciamento-de-memória-stack-vs-heap-e-garbage-collection)
-    - [1.3 Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos](#13-tipos-primitivos-vs-classes-wrapper-e-comparação-de-objetos)
+    - [1.2 Gerenciamento de Memória: Stack vs. Heap e Garbage Collection](#12-gerenciamento-de-memoria-stack-vs-heap-e-garbage-collection)
+    - [1.3 Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos](#13-tipos-primitivos-vs-classes-wrapper-e-comparacao-de-objetos)
     - [1.4 Modificadores de Acesso e a Palavra-Chave `final`](#14-modificadores-de-acesso-e-a-palavra-chave-final)
-    - [1.5 Tratamento de Exceções: Hierarquia de `Throwable`, Checked vs. Unchecked](#15-tratamento-de-exceções-hierarquia-de-throwable-checked-vs-unchecked)
+    - [1.5 Tratamento de Exceções: Hierarquia de `Throwable`, Checked vs. Unchecked](#15-tratamento-de-excecoes-hierarquia-de-throwable-checked-vs-unchecked)
     - [1.6 Java Collections Framework: List, Set, Queue e Map](#16-java-collections-framework-list-set-queue-e-map)
     - [1.7 Recursos Modernos: Generics, Enums, Lambdas e Stream API](#17-recursos-modernos-generics-enums-lambdas-e-stream-api)
 - [2. JavaScript Moderno (ECMAScript 6+)](#2-javascript-moderno-ecmascript-6)
-    - [2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting](#21-declaração-de-variáveis-var-let-e-const-escopo-e-hoisting)
-    - [2.2 Tipos de Dados, Coerção e Operadores de Igualdade (`==` vs. `===`)](#22-tipos-de-dados-coerção-e-operadores-de-igualdade--vs-)
-    - [2.3 Recursos Idiomáticos ES6+: Desestruturação, Spread/Rest e Arrow Functions](#23-recursos-idiomáticos-es6-desestruturação-spreadrest-e-arrow-functions)
-    - [2.4 Escopo Léxico, Closures e Funções de Alta Ordem](#24-escopo-léxico-closures-e-funções-de-alta-ordem)
-- [3. Programação Assíncrona e Ambiente Node.js](#3-programação-assíncrona-e-ambiente-nodejs)
+    - [2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting](#21-declaracao-de-variaveis-var-let-e-const-escopo-e-hoisting)
+    - [2.2 Tipos de Dados, Coerção e Operadores de Igualdade (`==` vs. `===`)](#22-tipos-de-dados-coercao-e-operadores-de-igualdade-vs)
+    - [2.3 Recursos Idiomáticos ES6+: Desestruturação, Spread/Rest e Arrow Functions](#23-recursos-idiomaticos-es6-desestruturacao-spreadrest-e-arrow-functions)
+    - [2.4 Escopo Léxico, Closures e Funções de Alta Ordem](#24-escopo-lexico-closures-e-funcoes-de-alta-ordem)
+- [3. Programação Assíncrona e Ambiente Node.js](#3-programacao-assincrona-e-ambiente-nodejs)
     - [3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O](#31-arquitetura-do-nodejs-motor-v8-libuv-e-non-blocking-io)
     - [3.2 O Event Loop: Call Stack, Microtasks e Macrotasks](#32-o-event-loop-call-stack-microtasks-e-macrotasks)
-    - [3.3 Promises e a Sintaxe `async` / `await`](#33-promises-e-a-sintaxe-async--await)
-    - [3.4 Sistema de Módulos (CommonJS vs. ES Modules) e Módulos Nativos Essenciais](#34-sistema-de-módulos-commonjs-vs-es-modules-e-módulos-nativos-essenciais)
-    - [3.5 Gerenciamento de Dependências com npm](#35-gerenciamento-de-dependências-com-npm)
-- [4. Programação em Python para Automação e Back-end](#4-programação-em-python-para-automação-e-back-end)
-    - [4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8](#41-sintaxe-tipagem-dinâmica-e-forte-e-filosofia-pep-8)
-    - [4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos](#42-estruturas-de-dados-nativas-listas-tuplas-dicionários-e-conjuntos)
-    - [4.3 Fatiamento (*Slicing*), Comprehensions e Funções Geradoras (`yield`)](#43-fatiamento-slicing-comprehensions-e-funções-geradoras-yield)
-    - [4.4 Tratamento de Exceções (`try-except-else-finally`) e Gerenciadores de Contexto (`with`)](#44-tratamento-de-exceções-try-except-else-finally-e-gerenciadores-de-contexto-with)
-    - [4.5 Automação de Tarefas com Python: Arquivos, HTTP, Scraping e Formatos Estruturados](#45-automação-de-tarefas-com-python-arquivos-http-scraping-e-formatos-estruturados)
+    - [3.3 Promises e a Sintaxe `async` / `await`](#33-promises-e-a-sintaxe-async-await)
+    - [3.4 Sistema de Módulos (CommonJS vs. ES Modules) e Módulos Nativos Essenciais](#34-sistema-de-modulos-commonjs-vs-es-modules-e-modulos-nativos-essenciais)
+    - [3.5 Gerenciamento de Dependências com npm](#35-gerenciamento-de-dependencias-com-npm)
+- [4. Programação em Python para Automação e Back-end](#4-programacao-em-python-para-automacao-e-back-end)
+    - [4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8](#41-sintaxe-tipagem-dinamica-e-forte-e-filosofia-pep-8)
+    - [4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos](#42-estruturas-de-dados-nativas-listas-tuplas-dicionarios-e-conjuntos)
+    - [4.3 Fatiamento (*Slicing*), Comprehensions e Funções Geradoras (`yield`)](#43-fatiamento-slicing-comprehensions-e-funcoes-geradoras-yield)
+    - [4.4 Tratamento de Exceções (`try-except-else-finally`) e Gerenciadores de Contexto (`with`)](#44-tratamento-de-excecoes-try-except-else-finally-e-gerenciadores-de-contexto-with)
+    - [4.5 Automação de Tarefas com Python: Arquivos, HTTP, Scraping e Formatos Estruturados](#45-automacao-de-tarefas-com-python-arquivos-http-scraping-e-formatos-estruturados)
     - [4.6 Python no Back-end: Conceitos Fundamentais de Flask e FastAPI](#46-python-no-back-end-conceitos-fundamentais-de-flask-e-fastapi)
-- [5. Tabela Comparativa Sintética entre as Linguagens](#5-tabela-comparativa-sintética-entre-as-linguagens)
+- [5. Tabela Comparativa Sintética entre as Linguagens](#5-tabela-comparativa-sintetica-entre-as-linguagens)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questões-comentadas--exemplos-padrão-fcc)
+- [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -56,6 +56,7 @@ A linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle,
 3. **Bytecode:** Conjunto de instruções executáveis padronizadas que independem do hardware e do sistema operacional.
 4. **JVM (Java Virtual Machine):** A máquina virtual abstrata instalada em cada sistema operacional específico (Windows, Linux, macOS). A JVM interpreta o bytecode e traduz suas instruções para o conjunto de instruções nativas do processador subjacente.
     - **JIT Compiler (*Just-In-Time*):** Para otimizar o desempenho e evitar a lentidão da interpretação instrução por instrução, o motor JIT compila trechos de bytecode frequentemente executados (*hot spots*) diretamente em código de máquina nativo durante o tempo de execução, armazenando-os em memória cache.
+
 5. **JRE (Java Runtime Environment):** O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré-compilados. Contém a JVM, as bibliotecas padrão da API Java (`rt.jar` ou módulos JPMS) e arquivos de configuração de suporte. A JRE **não** inclui ferramentas de desenvolvimento como compilador ou depurador.
 6. **JDK (Java Development Kit):** O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador `javac`, empacotador `jar`, gerador de documentação `javadoc`, desassemblador `javap` e utilitários de diagnóstico e depuração (`jconsole`, `jstack`, `jps`).
 
@@ -113,6 +114,7 @@ flowchart TD
     1. **Young Generation (Geração Jovem):** Onde novos objetos são inicialmente alocados (subdividida em espaço *Eden* e dois espaços *Survivor* - S0 e S1). A coleta aqui é chamada de *Minor GC*.
     2. **Old / Tenured Generation (Geração Antiga):** Armazena objetos que sobreviveram a vários ciclos de *Minor GC*. A coleta nesta área é a *Major GC* ou *Full GC*.
     3. **Metaspace (antigo PermGen):** Armazena metadados de classes carregadas e constantes de reflexão (alocado fora da memória do heap principal desde o Java 8, na memória nativa do SO).
+
 - A chamada a `System.gc()` apenas **sugere** à JVM que execute uma coleta de lixo, mas **não garante** a execução imediata nem determinística do processo.
 
 ---
@@ -136,6 +138,7 @@ Armazenam diretamente os seus próprios valores numéricos, lógicos ou textuais
 
 #### Classes Wrapper (*Invólucros*)
 Para cada tipo primitivo, Java fornece uma classe correspondente no pacote `java.lang` (`Boolean`, `Byte`, `Short`, `Character`, `Integer`, `Long`, `Float`, `Double`).
+
 - **Autoboxing:** Conversão automática de um valor primitivo para seu respectivo objeto wrapper pelo compilador (ex.: `Integer obj = 10;`).
 - **Unboxing:** Conversão automática do objeto wrapper para o tipo primitivo nativo (ex.: `int valor = obj;`).
 - Objetos wrapper são **imutáveis**.
@@ -167,6 +170,7 @@ A palavra-chave `final` é um modificador de não-acesso que restringe alteraç�
 
 1. **Em Variáveis e Parâmetros:** A variável torna-se uma constante. Uma vez inicializada com um valor ou referência, seu valor não pode mais ser reatribuído.
     - *Atenção:* Se a variável for uma referência para um objeto (`final List<String> itens = new ArrayList<>();`), a referência `itens` não pode ser apontada para outra lista, mas o estado interno do objeto **continua mutável** (`itens.add("dado")` é válido).
+
 2. **Em Métodos:** Impede que subclasses sobrescrevam (*override*) o método, garantindo que o algoritmo implementado na superclasse seja mantido intacto.
 3. **Em Classes:** Impede que a classe seja herdada/estendida por subclasses (ex.: a classe `java.lang.String` e todas as classes wrapper são `final` por razões de segurança e imutabilidade).
 
@@ -210,11 +214,13 @@ Representa falhas catastróficas graves de infraestrutura e do ambiente de execu
 
 #### 2. `java.lang.Exception` e as *Checked Exceptions* (Exceções Checadas)
 São subclasses diretas de `Exception` que **não** derivam de `RuntimeException` (ex.: `IOException`, `SQLException`, `FileNotFoundException`).
+
 - **Regra do Compilador:** O compilador Java **obriga** o desenvolvedor a tratá-las explicitamente através de um bloco `try-catch` ou a propagá-las na assinatura do método por meio da cláusula `throws`. Se não o fizer, o código não compilará.
 - Representam condições externas previsíveis e recuperáveis (ex.: rede indisponível, arquivo inexistente).
 
 #### 3. `java.lang.RuntimeException` e as *Unchecked Exceptions* (Não Checadas)
 Subclasses de `RuntimeException` (ex.: `NullPointerException`, `ArithmeticException`, `ArrayIndexOutOfBoundsException`, `IllegalArgumentException`).
+
 - Decorrem normalmente de falhas de lógica do programador, bugs ou violações de pré-condições.
 - O compilador **não obriga** captura nem declaração com `throws`.
 
@@ -223,13 +229,15 @@ Subclasses de `RuntimeException` (ex.: `NullPointerException`, `ArithmeticExcept
 - **`catch`:** Captura e trata exceções do tipo compatível especificado no parâmetro. É possível capturar múltiplos tipos em um único catch (*multi-catch*): `catch (IOException | SQLException e)`.
 - **`finally`:** Bloco que é executado **sempre e incondicionalmente**, tenha ocorrido exceção ou não, tenha havido `return` no `try` ou no `catch`. A única exceção ocorre se a JVM for terminada abruptamente por `System.exit(0)`. Utilizado historicamente para fechamento de conexões, fluxos e arquivos.
 - **`try-with-resources` (Java 7+):** Declara recursos que implementam a interface `java.lang.AutoCloseable` diretamente nos parênteses da instrução `try`. Garante o fechamento automático e determinístico do recurso ao término do bloco, dispensando chamadas manuais a `.close()` no `finally`:
-  ```java
-  try (BufferedReader br = new BufferedReader(new FileReader("auditoria.log"))) {
-      String linha = br.readLine();
-  } catch (IOException e) {
-      e.printStackTrace();
-  }
-  ```
+
+```java
+try (BufferedReader br = new BufferedReader(new FileReader("auditoria.log"))) {
+    String linha = br.readLine();
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
 - **`throw` vs. `throws`:**
     - `throw`: Palavra-chave utilizada para lançar ativamente uma instância de exceção no fluxo de execução (`throw new IllegalArgumentException("Valor inválido");`).
     - `throws`: Modificador presente na declaração da assinatura do método que avisa aos chamadores que aquele método pode disparar certas exceções checadas (`public void gravar() throws IOException`).
@@ -269,17 +277,20 @@ flowchart TD
 
 #### 1. Interface `List` (Listas)
 Coleção indexada com controle absoluto de posição. **Permite elementos duplicados** e preserva a ordem de inserção.
+
 - **`ArrayList`:** Implementada sobre um array dinâmico redimensionável. Excelente para leitura e acesso aleatório por índice ($\mathcal{O}(1)$), porém custosa para inserções ou remoções de elementos no meio ou início da lista ($\mathcal{O}(n)$ devido ao deslocamento dos elementos).
 - **`LinkedList`:** Implementada sobre uma lista duplamente encadeada. Também implementa a interface `Deque`. Inserções e remoções nos extremos (início/fim) operam em tempo constante $\mathcal{O}(1)$, mas a busca e acesso por índice operam em $\mathcal{O}(n)$.
 
 #### 2. Interface `Set` (Conjuntos)
 Coleção matemática que **não permite elementos duplicados** (baseia-se nos métodos `hashCode()` e `equals()`).
+
 - **`HashSet`:** Utiliza internamente uma tabela hash (`HashMap`). Oferece operações básicas (`add`, `remove`, `contains`) em tempo constante médio $\mathcal{O}(1)$. **Não garante nenhuma ordem** dos elementos. Admite um único elemento `null`.
 - **`LinkedHashSet`:** Especialização do `HashSet` que mantém uma lista duplamente encadeada entre os elementos, preservando a **ordem de inserção**.
 - **`TreeSet`:** Implementa `NavigableSet` sobre uma Árvore Rubro-Negra (*Red-Black Tree*). Mantém os elementos **estritamente ordenados** (pela ordem natural `Comparable` ou por um `Comparator` customizado). Operações básicas operam em tempo logarítmico $\mathcal{O}(\log n)$. Não aceita elementos `null`.
 
 #### 3. Interface `Map` (Mapas / Dicionários)
 Associa chaves exclusivas a valores correspondentes (pares chave-valor). Não estende `java.util.Collection`.
+
 - **`HashMap`:** Baseado em tabela hash. Operações de `get` e `put` em $\mathcal{O}(1)$ médio. Permite uma chave `null` e múltiplos valores `null`. Desordenado.
 - **`LinkedHashMap`:** Mantém os pares chave-valor na ordem em que foram inseridos.
 - **`TreeMap`:** Mantém as chaves ordenadas com base em árvores balanceadas ($\mathcal{O}(\log n)$).
@@ -291,11 +302,13 @@ Associa chaves exclusivas a valores correspondentes (pares chave-valor). Não es
 
 #### Generics (Parametrização de Tipos)
 Introduzidos no Java 5, conferem segurança de tipos em tempo de compilação (*type safety*), eliminando a necessidade de *casts* manuais e prevenindo erros do tipo `ClassCastException` em tempo de execução:
+
 ```java
 List<String> nomes = new ArrayList<>();
 nomes.add("TCE");
 String primeiro = nomes.get(0); // Sem necessidade de cast (String)
 ```
+
 Em tempo de compilação, o Java realiza o **Type Erasure** (apagamento de tipo), removendo os metadados genéricos para manter compatibilidade binária com versões legadas da JVM.
 
 #### Expressões Lambda e Interfaces Funcionais (Java 8+)
@@ -378,6 +391,7 @@ JavaScript possui tipagem dinâmica e fraca. Seus tipos de dados dividem-se em:
 
 #### Atribuição por Desestruturação (*Destructuring Assignment*)
 Permite extrair dados de arrays ou propriedades de objetos diretamente em variáveis nomeadas de forma sucinta:
+
 ```javascript
 // Desestruturação de Objeto
 const usuario = { nome: "Carlos", cargo: "Auditor", matricula: 9481 };
@@ -389,17 +403,20 @@ const [primeiro, segundo = 0, ...demais] = [10, 20, 30, 40];
 
 #### Operadores Spread e Rest (`...`)
 - **Rest Operator (no parâmetro):** Agrupa múltiplos argumentos restantes em um array real:
-  ```javascript
-  function somar(...numeros) {
-      return numeros.reduce((acc, curr) => acc + curr, 0);
-  }
-  ```
+
+```javascript
+function somar(...numeros) {
+    return numeros.reduce((acc, curr) => acc + curr, 0);
+}
+```
+
 - **Spread Operator (na expressão):** Espalha e desmembra os elementos de um iterável (array, objeto, string) dentro de uma nova estrutura, facilitando clones superficiais (*shallow copies*) e mesclagens:
-  ```javascript
-  const listaOriginal = [1, 2, 3];
-  const copiaEstendida = [0, ...listaOriginal, 4]; // [0, 1, 2, 3, 4]
-  const configFinal = { ...configPadrao, timeout: 8000 };
-  ```
+
+```javascript
+const listaOriginal = [1, 2, 3];
+const copiaEstendida = [0, ...listaOriginal, 4]; // [0, 1, 2, 3, 4]
+const configFinal = { ...configPadrao, timeout: 8000 };
+```
 
 #### Arrow Functions
 Funções anônimas concisas com sintaxe de seta `() => {}`. Possuem duas diferenças semânticas cruciais em relação às funções tradicionais declaradas com `function`:
@@ -502,6 +519,7 @@ Um objeto `Promise` representa o resultado eventual (sucesso ou falha) de uma op
 3. `rejected` (rejeitada): A operação falhou com um erro (invoca handlers registrados com `.catch()`).
 
 **Métodos Estáticos de Combinação:**
+
 - `Promise.all([p1, p2, p3])`: Retorna quando todas as promessas forem cumpridas. Se **qualquer uma** for rejeitada, rejeita imediatamente (*fast-fail*).
 - `Promise.allSettled([p1, p2, p3])`: Aguarda a finalização de todas as promessas, independentemente de terem sido cumpridas ou rejeitadas, retornando um array de objetos descrevendo o status e resultado de cada uma.
 - `Promise.race([p1, p2, p3])`: Retorna assim que a primeira promessa for resolvida ou rejeitada.
@@ -594,6 +612,7 @@ Aplicável a listas, strings e tuplas com a sintaxe `sequencia[inicio:fim:passo]
 
 #### Comprehensions (List, Dict e Set Comprehensions)
 Notação concisa, elegante e performática para filtrar e transformar iteráveis:
+
 ```python
 # List Comprehension
 quadrados_pares = [x**2 for x in range(10) if x % 2 == 0]
@@ -607,8 +626,10 @@ tamanhos = {len(palavra) for palavra in ["tce", "concurso", "auditor", "tce"]}
 
 #### Funções Geradoras (`yield`) e Avaliação Preguiçosa (*Lazy Evaluation*)
 Uma função que contém a palavra-chave `yield` não retorna um valor comum; ela retorna um **objeto gerador (*generator*)**.
+
 - Ao ser invocada, a função pausa sua execução no ponto do `yield`, salva todo o seu estado local e entrega o valor sob demanda para a iteração (via função nativa `next()`).
 - **Vantagem Vital:** Economia radical de memória ao iterar sobre massas de dados gigantescas (arquivos de gigabytes, bilhões de linhas), pois não instancia a lista inteira na memória RAM simultaneamente.
+
 ```python
 def gerar_lotes(tamanho_maximo):
     n = 0
@@ -622,6 +643,7 @@ def gerar_lotes(tamanho_maximo):
 ### 4.4 Tratamento de Exceções (`try-except-else-finally`) e Gerenciadores de Contexto (`with`)
 
 #### Estrutura Completa de Tratamento de Exceções
+
 ```python
 try:
     conexao = abrir_banco()
@@ -639,16 +661,19 @@ finally:
 
 > 🚨 **ALERTA DE PROVA / FCC:**  
 > A cláusula `else` em uma estrutura de tratamento de exceções em Python é uma das pegadinhas favoritas da banca FCC!
+>
 > - O bloco `else` **NÃO** é executado quando uma exceção é tratada no `except`.
 > - O bloco `else` roda estritamente quando o bloco `try` é executado com **100% de sucesso (sem disparar nenhuma exceção)**.
 
 #### Gerenciadores de Contexto com a Instrução `with`
 Garante a alocação e desalocação determinística de recursos (fechamento de conexões e arquivos), mesmo diante de exceções não tratadas:
+
 ```python
 with open("relatorio_auditoria.txt", "r", encoding="utf-8") as f:
     conteudo = f.read()
 # O arquivo f é garantidamente fechado aqui automaticamente
 ```
+
 Por debaixo dos panos, o gerenciador de contexto implementa o protocolo de contexto por meio dos métodos especiais `__enter__()` (executado na entrada) e `__exit__()` (executado na saída).
 
 ---
@@ -657,28 +682,33 @@ Por debaixo dos panos, o gerenciador de contexto implementa o protocolo de conte
 
 #### 1. Manipulação de Arquivos e Sistema Operacional
 - **`pathlib.Path`:** Abordagem moderna e orientada a objetos para caminhos de arquivo no sistema de arquivos:
-  ```python
-  from pathlib import Path
-  caminho = Path("documentos") / "tce" / "edital.pdf"
-  if caminho.exists():
-      print(caminho.read_bytes())
-  ```
+
+```python
+from pathlib import Path
+caminho = Path("documentos") / "tce" / "edital.pdf"
+if caminho.exists():
+    print(caminho.read_bytes())
+```
+
 - **`os` e `sys`:** Execução de comandos do sistema, inspeção de variáveis de ambiente (`os.environ`) e argumentos de linha de comando (`sys.argv`).
 
 #### 2. Requisições HTTP e Web Scraping
 - **Biblioteca `requests`:** Padrão de fato para consumo de serviços HTTP:
-  ```python
-  import requests
-  resposta = requests.get("https://api.tce.go.gov.br/dados", timeout=10)
-  if resposta.status_code == 200:
-      dados = resposta.json() # Desserialização automática de JSON
-  ```
+
+```python
+import requests
+resposta = requests.get("https://api.tce.go.gov.br/dados", timeout=10)
+if resposta.status_code == 200:
+    dados = resposta.json() # Desserialização automática de JSON
+```
+
 - **`BeautifulSoup` (`bs4`):** Biblioteca para análise sintática (*parsing*) de documentos HTML e XML em raspagens de dados:
-  ```python
-  from bs4 import BeautifulSoup
-  soup = BeautifulSoup(resposta.text, "html.parser")
-  titulos = [h2.text.strip() for h2 in soup.find_all("h2")]
-  ```
+
+```python
+from bs4 import BeautifulSoup
+soup = BeautifulSoup(resposta.text, "html.parser")
+titulos = [h2.text.strip() for h2 in soup.find_all("h2")]
+```
 
 #### 3. Formatos Estruturados: JSON e CSV
 - **Módulo `json`:**
@@ -697,14 +727,15 @@ Por debaixo dos panos, o gerenciador de contexto implementa o protocolo de conte
 - Baseado no padrão WSGI (*Web Server Gateway Interface*) síncrono.
 - Minimalista e extensível, utiliza o mecanismo de templates Jinja2 e a biblioteca de roteamento Werkzeug.
 - Mapeamento de rotas por meio de decoradores:
-  ```python
-  from flask import Flask, jsonify
-  app = Flask(__name__)
 
-  @app.route("/api/processos/<int:id>", methods=["GET"])
-  def obter_processo(id):
-      return jsonify({"id": id, "status": "Em Julgamento"})
-  ```
+```python
+from flask import Flask, jsonify
+app = Flask(__name__)
+
+@app.route("/api/processos/<int:id>", methods=["GET"])
+def obter_processo(id):
+    return jsonify({"id": id, "status": "Em Julgamento"})
+```
 
 #### FastAPI (Framework Moderno ASGI de Alta Performance)
 - Baseado em ASGI (*Asynchronous Server Gateway Interface*), oferecendo suporte nativo e concorrente a rotas assíncronas declaradas com `async def`.
@@ -764,15 +795,17 @@ A ordem exata em que os caracteres serão impressos no console do terminal duran
 * **E)** A, C, D, B
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Supõe uma execução linear tradicional síncrona, desconsiderando que o `setTimeout` e a resolução do método `.then()` de uma `Promise` são despachados para filas assíncronas do Event Loop.
 > - **B)** Incorreta. Supõe erroneamente que a macrotarefa agendada pelo `setTimeout(..., 0)` possui prioridade sobre a microtarefa da Promise. Na especificação do ECMAScript e no motor V8/libuv, a fila de microtarefas (*Microtask Queue*) é sempre completamente drenada antes de qualquer macrotarefa ser processada.
 > - **C)** **CORRETA.** Passo a passo da execução:
->   1. O código síncrono é carregado e executado na Call Stack: `console.log("A")` imprime **A**.
->   2. O `setTimeout` registra seu temporizador e despacha seu callback para a fila de macrotarefas (*Macrotask Queue*).
->   3. `Promise.resolve().then(...)` agenda seu callback na fila de microtarefas prioritárias (*Microtask Queue*).
->   4. O código síncrono prossegue na Call Stack: `console.log("D")` imprime **D**.
->   5. A Call Stack fica vazia. O Event Loop drena primeiro todas as microtarefas pendentes: o callback da Promise executa e imprime **C**.
->   6. Estando a fila de microtarefas limpa, o Event Loop busca a primeira macrotarefa da fila: o callback do `setTimeout` executa e imprime **B**. Ordem final: **A, D, C, B**.
+>     1. O código síncrono é carregado e executado na Call Stack: `console.log("A")` imprime **A**.
+>     2. O `setTimeout` registra seu temporizador e despacha seu callback para a fila de macrotarefas (*Macrotask Queue*).
+>     3. `Promise.resolve().then(...)` agenda seu callback na fila de microtarefas prioritárias (*Microtask Queue*).
+>     4. O código síncrono prossegue na Call Stack: `console.log("D")` imprime **D**.
+>     5. A Call Stack fica vazia. O Event Loop drena primeiro todas as microtarefas pendentes: o callback da Promise executa e imprime **C**.
+>     6. Estando a fila de microtarefas limpa, o Event Loop busca a primeira macrotarefa da fila: o callback do `setTimeout` executa e imprime **B**. Ordem final: **A, D, C, B**.
+>
 > - **D)** Incorreta. Afirma que a Promise executaria antes mesmo do código síncrono inicial `console.log("A")`, o que é impossível, pois a Call Stack ainda não havia sido esvaziada.
 > - **E)** Incorreta. Afirma que a microtarefa executaria antes do encerramento do código síncrono `console.log("D")`. O Event Loop apenas inspeciona e drena filas assíncronas após o esvaziamento completo da Call Stack.
 > 
@@ -790,6 +823,7 @@ Na linguagem de programação Java, a respeito das palavras-chave de controle de
 * **E)** O bloco `finally` em uma estrutura de tratamento `try-catch-finally` é opcional e nunca é executado quando uma exceção é capturada com sucesso pelo bloco `catch`.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Atributos declarados com `private` são estritamente restritos ao corpo da própria classe declarante. Nem mesmo subclasses dentro do mesmo pacote possuem acesso direto a eles. O modificador que autorizaria o acesso no mesmo pacote e em subclasses de pacotes externos seria o `protected`.
 > - **B)** **CORRETA.** A palavra-chave `final` possui tríplice funcionalidade em Java: em variáveis cria constantes cujo valor/referência não pode ser reatribuído; em métodos impede a sobrescrita por subclasses; em classes proíbe a herança e extensão (como ocorre com a classe `java.lang.String`).
 > - **C)** Incorreta. A finalidade primária das interfaces em Java sempre foi justamente declarar assinaturas de métodos abstratos a serem implementados por classes concretas.
@@ -818,11 +852,13 @@ A execução correta desse código gerará no terminal a saída:
 * **E)** `[2, 6, 10, 14]`
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Essa lista decorreria da filtragem de números pares maiores que 3 (`4, 6, 8, 10`) multiplicados por 2.
 > - **B)** **CORRETA.** Analisando a List Comprehension:
->   1. O laço percorre os inteiros de 1 a 10.
->   2. O filtro condicional `if x % 2 != 0 and x > 3` seleciona números que sejam simultaneamente ímpares (`1, 3, 5, 7, 9`) e estritamente maiores que 3 (`x > 3`). Os únicos elementos que atendem a ambos os predicados são `5, 7, 9`.
->   3. A expressão de transformação `x * 2` dobra cada número aprovado: $5 \times 2 = 10$, $7 \times 2 = 14$ e $9 \times 2 = 18$. A lista final impressa é `[10, 14, 18]`.
+>     1. O laço percorre os inteiros de 1 a 10.
+>     2. O filtro condicional `if x % 2 != 0 and x > 3` seleciona números que sejam simultaneamente ímpares (`1, 3, 5, 7, 9`) e estritamente maiores que 3 (`x > 3`). Os únicos elementos que atendem a ambos os predicados são `5, 7, 9`.
+>     3. A expressão de transformação `x * 2` dobra cada número aprovado: $5 \times 2 = 10$, $7 \times 2 = 14$ e $9 \times 2 = 18$. A lista final impressa é `[10, 14, 18]`.
+>
 > - **C)** Incorreta. Apresenta apenas os valores originais filtrados antes da aplicação da projeção `x * 2`.
 > - **D)** Incorreta. Inclui o elemento 22, mas o valor máximo da lista original é 10 e o maior ímpar é 9 ($9 \times 2 = 18$).
 > - **E)** Incorreta. Dobra os números ímpares menores ou iguais a 3, desrespeitando o predicado `x > 3`.
@@ -841,6 +877,7 @@ No ecossistema da linguagem Java, o tratamento robusto de erros baseia-se na hie
 * **E)** A cláusula `finally` anula a necessidade de declaração de exceções na assinatura do método com `throws`.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Subclasses de `java.lang.RuntimeException` são precisamente o modelo clássico de **Unchecked Exceptions**; o compilador não exige bloco `try-catch` nem declaração formal com `throws`.
 > - **B)** **CORRETA.** Subclasses de `java.lang.Error` sinalizam falhas catastróficas da infraestrutura da JVM das quais a aplicação normalmente não consegue se recuperar (ex.: falta de memória, estouro de pilha). São consideradas não checadas (*Unchecked*) e não devem ser tratadas pelo código de negócio.
 > - **C)** Incorreta. Classes derivadas de `java.lang.Exception` que não herdam de `RuntimeException` (como `IOException` e `SQLException`) são *Checked Exceptions* e o compilador impõe rigorosamente a obrigatoriedade de captura (`try-catch`) ou declaração de repasse na assinatura (`throws`).
@@ -855,6 +892,7 @@ No ecossistema da linguagem Java, o tratamento robusto de erros baseia-se na hie
 Em JavaScript moderno, a utilização de variáveis e a criação de funções de fechamento (*closures*) dentro de laços de repetição assíncronos comportam-se de maneira distinta dependendo de como as variáveis são declaradas. Analise os dois fragmentos de código abaixo:
 
 **Fragmento 1:**
+
 ```javascript
 for (var i = 0; i < 3; i++) {
     setTimeout(() => console.log("F1:", i), 100);
@@ -862,6 +900,7 @@ for (var i = 0; i < 3; i++) {
 ```
 
 **Fragmento 2:**
+
 ```javascript
 for (let j = 0; j < 3; j++) {
     setTimeout(() => console.log("F2:", j), 100);
@@ -877,10 +916,12 @@ Após o término dos temporizadores de 100 milissegundos, as saídas produzidas 
 * **E)** Fragmento 1: `F1: undefined`, `F1: undefined`, `F1: undefined` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Supõe que `var` preservaria o escopo individual de cada iteração, o que não ocorre sem técnicas como IIFE em JavaScript legado.
 > - **B)** **CORRETA.** Explicação do escopo e closures:
->   1. **No Fragmento 1 (`var i = 0`):** `var` possui escopo de função/global. Existe uma única variável `i` compartilhada por todas as 3 iterações do laço. O laço executa sincronicamente e eleva `i` até 3 (condição de parada). Quando os 3 callbacks do `setTimeout` disparam 100ms depois, todos consultam a mesma variável compartilhada `i`, exibindo: `F1: 3`, `F1: 3`, `F1: 3`.
->   2. **No Fragmento 2 (`let j = 0`):** `let` possui escopo de bloco. O padrão ECMAScript vincula uma nova variável `j` independente a cada iteração do laço `for`. A closure de cada callback preserva o valor capturado de sua respectiva iteração (0, 1 e 2). Ao executarem, exibem: `F2: 0`, `F2: 1`, `F2: 2`.
+>     1. **No Fragmento 1 (`var i = 0`):** `var` possui escopo de função/global. Existe uma única variável `i` compartilhada por todas as 3 iterações do laço. O laço executa sincronicamente e eleva `i` até 3 (condição de parada). Quando os 3 callbacks do `setTimeout` disparam 100ms depois, todos consultam a mesma variável compartilhada `i`, exibindo: `F1: 3`, `F1: 3`, `F1: 3`.
+>     2. **No Fragmento 2 (`let j = 0`):** `let` possui escopo de bloco. O padrão ECMAScript vincula uma nova variável `j` independente a cada iteração do laço `for`. A closure de cada callback preserva o valor capturado de sua respectiva iteração (0, 1 e 2). Ao executarem, exibem: `F2: 0`, `F2: 1`, `F2: 2`.
+>
 > - **C)** Incorreta. Assume erroneamente que o `let` se comportaria com o mesmo defeito de escopo compartilhado de `var`.
 > - **D)** Incorreta. Inverte o comportamento entre as declarações `var` e `let`.
 > - **E)** Incorreta. A variável `i` foi devidamente incrementada até o valor 3 no escopo circundante, portanto não é avaliada como `undefined`.

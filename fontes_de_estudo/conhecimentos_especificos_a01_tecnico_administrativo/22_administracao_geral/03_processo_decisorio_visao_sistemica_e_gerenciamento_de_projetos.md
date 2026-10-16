@@ -24,12 +24,12 @@
 ---
 
 ## 🧭 Sumário Interativo
-- [1. O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)](#1-o-ciclo-do-processo-decisório-e-a-tipologia-de-decisões-herbert-simon)
-- [2. Condições Ambientais da Tomada de Decisão](#2-condições-ambientais-da-tomada-de-decisão)
-- [3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais](#3-visão-sistêmica-pensamento-holístico-e-silos-organizacionais)
-- [4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT](#4-gerenciamento-de-projetos-restrição-tripla-gantt-cpm-e-pert)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
+- [1. O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)](#1-o-ciclo-do-processo-decisorio-e-a-tipologia-de-decisoes-herbert-simon)
+- [2. Condições Ambientais da Tomada de Decisão](#2-condicoes-ambientais-da-tomada-de-decisao)
+- [3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais](#3-visao-sistemica-pensamento-holistico-e-silos-organizacionais)
+- [4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT](#4-gerenciamento-de-projetos-restricao-tripla-gantt-cpm-e-pert)
+- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -74,6 +74,7 @@ flowchart TD
 | **Nível Organizacional Típico** | Nível Operacional e Gerência Média/Tática. | Alta Cúpula Institucional (Nível Estratégico). |
 
 > 🛑 **ATENÇÃO (DECISÕES PROGRAMADAS VS. NÃO PROGRAMADAS):**  
+>
 > - Decisões **Programadas** baseiam-se em normas, rotinas, formulários padronizados e leis vigentes (nível operacional).  
 > - Decisões **Não Programadas** tratam de imprevistos inéditos e desestruturados, exigindo julgamento e visão estratégica da alta cúpula.
 
@@ -149,10 +150,12 @@ flowchart TD
 1. **Gráfico de Gantt:**
     - Representação visual bidimensional de barras horizontais em que o eixo vertical elenca as tarefas e o eixo horizontal projeta a linha do tempo (dias, semanas ou meses).
     - Proporciona acompanhamento visual imediato do avanço das tarefas e de suas datas de início e término.
+
 2. **Método do Caminho Crítico (CPM - *Critical Path Method*):**
     - Mapeia o diagrama de rede de dependências e precedências lógicas entre todas as atividades do projeto.
     - O Caminho Crítico é a **sequência mais longa de atividades interdependentes** do início ao final do projeto, determinando a sua duração total mínima.
     - **Regra Mandatória de Prova:** Todas as atividades situadas no caminho crítico possuem **FOLGA TEMPORAL NULA (FOLGA ZERO)**. Qualquer atraso em uma tarefa do caminho crítico acarreta automaticamente o atraso na entrega final de todo o projeto!
+
 3. **Técnica PERT (*Program Evaluation and Review Technique*):**
     - Ferramenta probabilística empregada em projetos complexos ou inovadores com alto grau de incerteza quanto à duração das atividades.
     - Utiliza a distribuição beta baseada em três estimativas temporais fornecidas pelos especialistas:
@@ -190,6 +193,7 @@ A respeito das técnicas de planejamento e cronograma utilizadas no gerenciament
 * **E)** Substituir o uso de diagramas de rede pela elaboração isolada de matrizes SWOT de contingência.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** As tarefas do caminho crítico não admitem folga de tempo; quem tem folga são as atividades fora do caminho crítico.  
 > - **B) CORRETA.** O **Caminho Crítico (CPM)** é precisamente a sequência de atividades dependentes de maior duração total contínua no diagrama de rede que define o tempo mínimo para a conclusão do projeto; todas as atividades que o compõem possuem **folga temporal zero (nula)**, de maneira que qualquer atraso nelas acarreta automaticamente o atraso de todo o projeto.  
 > - **C) Incorreta.** O CPM é uma ferramenta de gestão temporal de prazos e dependências em rede.  
@@ -211,6 +215,7 @@ Determinado setor administrativo de um Tribunal de Contas analisa diariamente de
 * **E)** Decisão estratégica de ruptura.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Decisões não programadas são tomadas perante fatos inéditos, complexos e que demandam soluções inovadoras.  
 > - **B) Incorreta.** Ambiguidade é a ausência de metas ou clareza sobre o problema; na hipótese narrada, as regras e dados são claros.  
 > - **C) CORRETA.** As **decisões programadas** são aquelas que tratam de problemas rotineiros, estruturados e repetitivos, cuja resposta é automática e amparada em normas regimentais, resoluções, regras fixas ou procedimentos operacionais padrão (POPs) preestabelecidos pela organização.  
@@ -232,9 +237,10 @@ No âmbito da gestão estratégica de projetos governamentais, uma equipe necess
 * **E)** 15 dias.
 
 > **Comentário Detalhado:**  
+>
 > - A técnica PERT adota a média ponderada com peso 4 para a estimativa mais provável:  
->   - $\text{TE} = \frac{O + 4M + P}{6}$  
->   - Substituindo os valores do enunciado: $\text{TE} = \frac{10 + (4 \times 16) + 28}{6} = \frac{10 + 64 + 28}{6} = \frac{102}{6} = 17\text{ dias}$.  
+>     - $\text{TE} = \frac{O + 4M + P}{6}$  
+>     - Substituindo os valores do enunciado: $\text{TE} = \frac{10 + (4 \times 16) + 28}{6} = \frac{10 + 64 + 28}{6} = \frac{102}{6} = 17\text{ dias}$.  
 > - Logo, a resposta exata é **17 dias** (Alternativa C).  
 > 
 > **Gabarito: C**
@@ -252,6 +258,7 @@ A respeito da tomada de decisão em ambientes organizacionais e das condições 
 * **E)** A condição de incerteza permite ao gestor modelar todas as variáveis futuras por meio de equações determinísticas de causa e efeito imediato.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Informações completas e resultado exato definem a condição de **certeza**, e não de risco.  
 > - **B) Incorreta.** Na ambiguidade, as metas são desconhecidas e os dados são obscuros, sendo impossível calcular probabilidades.  
 > - **C) Incorreta.** Na certeza, o resultado é deterministicamente conhecido.  
@@ -273,6 +280,7 @@ O modelo de administração contemporâneo valoriza o pensamento holístico e a 
 * **E)** Rejeita o conceito de sinergia por considerá-lo incompatível com a estrita divisão formal de trabalho prescrita em leis administrativas.
 
 > **Comentário Detalhado:**  
+>
 > - **A) Incorreta.** Priorizar o próprio setor em detrimento do todo caracteriza a visão míope dos "silos organizacionais", combatida pela abordagem sistêmica.  
 > - **B) CORRETA.** A **visão sistêmica (ou holística)** enxerga a organização como um sistema aberto composto por subsistemas reciprocamente dependentes e interconectados; assim, qualquer alteração em um subsistema repercute em todos os demais e no resultado final entregue à sociedade.  
 > - **C) Incorreta.** O controle (retroalimentação/feedback) é elemento vital da teoria sistêmica para manter a homeostase dinâmica.  

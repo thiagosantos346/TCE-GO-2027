@@ -34,28 +34,27 @@
 ---
 
 ## 🧭 Sumário Interativo
-
-- [1. Gestão da Qualidade: Eras, Teóricos e Ferramentas](#1-gestão-da-qualidade-eras-teóricos-e-ferramentas)
-    - [1.1 Evolução das Quatro Eras da Qualidade](#11-evolução-das-quatro-eras-da-qualidade)
-    - [1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)](#12-os-mestres-da-qualidade-e-suas-contribuições-deming-juran-ishikawa-e-crosby)
+- [1. Gestão da Qualidade: Eras, Teóricos e Ferramentas](#1-gestao-da-qualidade-eras-teoricos-e-ferramentas)
+    - [1.1 Evolução das Quatro Eras da Qualidade](#11-evolucao-das-quatro-eras-da-qualidade)
+    - [1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)](#12-os-mestres-da-qualidade-e-suas-contribuicoes-deming-juran-ishikawa-e-crosby)
     - [1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade](#13-o-ciclo-pdca-e-as-sete-ferramentas-da-qualidade)
-    - [1.4 Modelos de Excelência: MEG / FNQ e o GesPública](#14-modelos-de-excelência-meg--fnq-e-o-gespública)
-- [2. Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)](#2-desburocratização-e-atendimento-ao-cidadão-decreto-nº-90942017)
-    - [2.1 Supressão de Custos Cartorários (Reconhecimento de Firma e Autenticação)](#21-supressão-de-custos-cartorários-reconhecimento-de-firma-e-autenticação)
-    - [2.2 Proibição de Exigência Documental Redundante e Interoperabilidade](#22-proibição-de-exigência-documental-redundante-e-interoperabilidade)
-    - [2.3 O CPF como Chave Unificada de Identificação](#23-o-cpf-como-chave-unificada-de-identificação)
-    - [2.4 A Carta de Serviços ao Usuário](#24-a-carta-de-serviços-ao-usuário)
-- [3. Gestão de Processos de Negócio (BPM)](#3-gestão-de-processos-de-negócio-bpm)
+    - [1.4 Modelos de Excelência: MEG / FNQ e o GesPública](#14-modelos-de-excelencia-meg-fnq-e-o-gespublica)
+- [2. Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)](#2-desburocratizacao-e-atendimento-ao-cidadao-decreto-no-90942017)
+    - [2.1 Supressão de Custos Cartorários (Reconhecimento de Firma e Autenticação)](#21-supressao-de-custos-cartorarios-reconhecimento-de-firma-e-autenticacao)
+    - [2.2 Proibição de Exigência Documental Redundante e Interoperabilidade](#22-proibicao-de-exigencia-documental-redundante-e-interoperabilidade)
+    - [2.3 O CPF como Chave Unificada de Identificação](#23-o-cpf-como-chave-unificada-de-identificacao)
+    - [2.4 A Carta de Serviços ao Usuário](#24-a-carta-de-servicos-ao-usuario)
+- [3. Gestão de Processos de Negócio (BPM)](#3-gestao-de-processos-de-negocio-bpm)
     - [3.1 Conceito e Hierarquia Estrutural dos Processos](#31-conceito-e-hierarquia-estrutural-dos-processos)
-    - [3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento](#32-tipos-de-processos-finalísticos-de-suporte-e-de-gerenciamento)
-    - [3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE](#33-redesenho-de-processos-diagnóstico-as-is-vs-modelagem-to-be)
-- [4. Gestão de Projetos segundo o Guia PMBOK (PMI)](#4-gestão-de-projetos-segundo-o-guia-pmbok-pmi)
-    - [4.1 Distinção Conceitual: Projeto versus Processo](#41-distinção-conceitual-projeto-versus-processo)
+    - [3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento](#32-tipos-de-processos-finalisticos-de-suporte-e-de-gerenciamento)
+    - [3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE](#33-redesenho-de-processos-diagnostico-as-is-vs-modelagem-to-be)
+- [4. Gestão de Projetos segundo o Guia PMBOK (PMI)](#4-gestao-de-projetos-segundo-o-guia-pmbok-pmi)
+    - [4.1 Distinção Conceitual: Projeto versus Processo](#41-distincao-conceitual-projeto-versus-processo)
     - [4.2 Os Cinco Grupos de Processos do PMBOK](#42-os-cinco-grupos-de-processos-do-pmbok)
     - [4.3 Instrumentos Primordiais: TAP e EAP (WBS)](#43-instrumentos-primordiais-tap-e-eap-wbs)
-    - [4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)](#44-a-restrição-tripla-clássica-escopo-custo-e-tempo)
-- [5. Fontes Oficiais & Referências Bibliográficas](#5-fontes-oficiais--referências-bibliográficas)
-- [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
+    - [4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)](#44-a-restricao-tripla-classica-escopo-custo-e-tempo)
+- [5. Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
+- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -84,6 +83,7 @@ flowchart LR
     1. *Planejamento da Qualidade:* Identificar quem são os clientes e desenvolver processos capazes de produzir as características exigidas;
     2. *Controle da Qualidade:* Monitorar o desempenho real e agir quando houver desvios;
     3. *Melhoria da Qualidade:* Conduzir projetos contínuos de aprimoramento estrutural de processos;
+
 - **Kaoru Ishikawa:** Pai dos **Círculos de Controle de Qualidade (CCQ)** (grupos voluntários de funcionários que se reúnem regularmente para debater e resolver falhas de rotina). Criou o célebre **Diagrama de Causa e Efeito (Diagrama Espinha de Peixe / Diagrama de Ishikawa)**, que organiza as causas de um problema nos tradicionais **6Ms**: Método, Matéria-prima, Mão de obra, Máquinas/Tecnologia, Medição e Meio ambiente;
 - **Philip Crosby:** Criador do conceito de **"Zero Defeito"** (*Zero Defects*). Defendeu que a qualidade significa estrita "conformidade com os requisitos", afirmando que "a qualidade é de graça" (*Quality is Free*), pois os custos de fazer certo da primeira vez são infinitamente menores do que os custos do retrabalho e do desperdício.
 
@@ -178,9 +178,11 @@ flowchart TD
 1. **Processos Finalísticos (Primários ou de Ponta a Ponta):**
     - Diretamente relacionados ao cumprimento da **missão essencial** do órgão e à entrega direta de valor público ao cidadão ou usuário externo;
     - *Exemplos:* Emissão de certidões, realização de cirurgias no SUS, fiscalização de contas de prefeituras pelo TCE-GO;
+
 2. **Processos de Suporte (Secundários ou de Apoio):**
     - Garantem a infraestrutura material, tecnológica e humana indispensável para que os processos finalísticos ocorram com sucesso, atendendo a clientes internos;
     - *Exemplos:* Gestão da folha de pagamento, contratação de serviços de vigilância e limpeza, suporte de TI e manutenção de viaturas;
+
 3. **Processos de Gerenciamento (Gestão):**
     - Asseguram a governança corporativa, o direcionamento estratégico, a medição contínua e a gestão de riscos e integridade da instituição;
     - *Exemplos:* Formulação do plano estratégico institucional, auditoria interna de controle, comitês de governança.
@@ -269,6 +271,7 @@ Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para reque
 * **E)** A dispensa de autenticação cartorária somente se aplica a pessoas jurídicas sem fins lucrativos qualificadas como organizações sociais.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Decreto nº 9.094/2017 e a Lei Federal nº 13.726/2018 proíbem a transferência de custos e formalidades cartorárias ao cidadão quando o documento original é exibido ao agente público.
 > - **B)** Correta. De acordo com o art. 9º do Decreto Federal nº 9.094/2017 e a Lei nº 13.726/2018, é vedada a exigência de reconhecimento de firma e de autenticação notarial de cópias, cabendo ao próprio servidor público, sob sua fé pública funcional, confrontar a cópia simples com o documento original e atestar a sua conformidade no processo administrativo.
 > - **C)** Incorreta. A lei não admite exceção temporal para documentos oficiais de identificação válidos que individualizem o cidadão.
@@ -289,6 +292,7 @@ No âmbito da gestão estratégica e da teoria das organizações, a respeito da
 * **E)** Os processos primários ou finalísticos de um órgão público são aqueles voltados exclusivamente para dar suporte administrativo às áreas de informática e compras.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A perenidade, continuidade e repetitividade são traços definidores dos processos de rotina operacional, e não dos projetos.
 > - **B)** Incorreta. A modelagem AS-IS retrata o processo atual como ele funciona hoje (com suas falhas e gargalos); o desenho otimizado futuro é o TO-BE.
 > - **C)** Correta. É a clássica definição do PMI/PMBOK: projeto é um esforço temporário com início e fim delimitados destinado a gerar um produto, serviço ou resultado exclusivo; ao passo que processos de negócio são contínuos, permanentes e padronizados para manter as operações regulares.
@@ -309,6 +313,7 @@ Determinada equipe de modernização administrativa do Tribunal de Contas recebe
 * **E)** Gráfico de dispersão linear de Pearson.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. O Diagrama de Causa e Efeito (Diagrama de Ishikawa ou Espinha de Peixe) é o instrumento clássico da qualidade estruturado para rastrear e categorizar as causas raízes de um problema operacional, dividindo-as tradicionalmente nos 6Ms (Método, Mão de obra, Máquina, Matéria-prima, Medição e Meio ambiente).
 > - **B)** Incorreta. O Diagrama de Pareto organiza causas por frequência decrescente para priorizar os 20% de causas que respondem por 80% dos problemas.
 > - **C)** Incorreta. O PDCA é um ciclo metodológico de gestão em quatro etapas contínuas, não o gráfico de causas em espinha.
@@ -329,6 +334,7 @@ Em relação ao gerenciamento de projetos estruturado segundo as boas práticas 
 * **E)** O gerente de projeto adquire autoridade formal para aplicar recursos da organização apenas no momento em que a equipe conclui a fase de encerramento contratual.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Termo de Abertura do Projeto (TAP) é emitido no grupo de Iniciação, inaugurando formalmente o projeto.
 > - **B)** Correta. A EAP (Work Breakdown Structure - WBS) é a ferramenta de decomposição hierárquica e visual do escopo total de trabalho do projeto em partes menores e gerenciáveis (pacotes de trabalho) orientadas exclusivamente a entregas.
 > - **C)** Incorreta. O encerramento do projeto exige impreterivelmente o aceite formal das entregas finais pelo cliente ou patrocinador, além da documentação das lições aprendidas.
@@ -349,6 +355,7 @@ No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Busin
 * **E)** Auditoria de regularidade das despesas públicas municipais efetuada pelo Tribunal de Contas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A fiscalização e o lançamento de tributos constituem a atividade-fim essencial da Secretaria da Fazenda, qualificando-se como processo finalístico (primário).
 > - **B)** Incorreta. No âmbito de um instituto de previdência pública, conceder benefícios é sua atividade-fim direta (processo primário).
 > - **C)** Correta. Processos de suporte (secundários ou de apoio) são aqueles que viabilizam o funcionamento interno da instituição e dos processos finalísticos, fornecendo recursos, logística e infraestrutura para clientes internos. A contratação de vigilância, limpeza predial, almoxarifado e suporte técnico de TI são exemplos clássicos de processos de suporte.

@@ -17,19 +17,19 @@
 ---
 
 ## 🧭 Sumário
-- [1. Requisitos de Segurança em Contratações de TIC no Setor Público](#1-requisitos-de-segurança-em-contratações-de-tic-no-setor-público)
-    - [1.1 Fases do Planejamento e Segurança da Informação](#11-fases-do-planejamento-e-segurança-da-informação)
-    - [1.2 Cláusulas Contratuais Críticas de Segurança](#12-cláusulas-contratuais-críticas-de-segurança)
-- [2. O Marco Legal da Certificação Digital e a ICP-Brasil (MP nº 2.200-2/2001)](#2-o-marco-legal-da-certificação-digital-e-a-icp-brasil-mp-nº-2200-22001)
+- [1. Requisitos de Segurança em Contratações de TIC no Setor Público](#1-requisitos-de-seguranca-em-contratacoes-de-tic-no-setor-publico)
+    - [1.1 Fases do Planejamento e Segurança da Informação](#11-fases-do-planejamento-e-seguranca-da-informacao)
+    - [1.2 Cláusulas Contratuais Críticas de Segurança](#12-clausulas-contratuais-criticas-de-seguranca)
+- [2. O Marco Legal da Certificação Digital e a ICP-Brasil (MP nº 2.200-2/2001)](#2-o-marco-legal-da-certificacao-digital-e-a-icp-brasil-mp-no-2200-22001)
     - [2.1 Estrutura e Atores da ICP-Brasil](#21-estrutura-e-atores-da-icp-brasil)
     - [2.2 Tipos de Certificados Digitais ICP-Brasil (A1 vs. A3)](#22-tipos-de-certificados-digitais-icp-brasil-a1-vs-a3)
-    - [2.3 Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP](#23-presunção-legal-de-veracidade-e-validade-de-assinaturas-não-icp)
-- [3. Classificação Tripartite das Assinaturas Eletrônicas (Lei nº 14.063/2020)](#3-classificação-tripartite-das-assinaturas-eletrônicas-lei-nº-140632020)
-    - [3.1 Assinaturas Simples, Avançadas e Qualificadas](#31-assinaturas-simples-avançadas-e-qualificadas)
-    - [3.2 Princípio da Proporcionalidade e Hipóteses de Uso](#32-princípio-da-proporcionalidade-e-hipóteses-de-uso)
-- [4. Aplicação Prática da Certificação Digital na Auditoria e Processo Eletrônico](#4-aplicação-prática-da-certificação-digital-na-auditoria-e-processo-eletrônico)
+    - [2.3 Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP](#23-presuncao-legal-de-veracidade-e-validade-de-assinaturas-nao-icp)
+- [3. Classificação Tripartite das Assinaturas Eletrônicas (Lei nº 14.063/2020)](#3-classificacao-tripartite-das-assinaturas-eletronicas-lei-no-140632020)
+    - [3.1 Assinaturas Simples, Avançadas e Qualificadas](#31-assinaturas-simples-avancadas-e-qualificadas)
+    - [3.2 Princípio da Proporcionalidade e Hipóteses de Uso](#32-principio-da-proporcionalidade-e-hipoteses-de-uso)
+- [4. Aplicação Prática da Certificação Digital na Auditoria e Processo Eletrônico](#4-aplicacao-pratica-da-certificacao-digital-na-auditoria-e-processo-eletronico)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas no Padrão FCC](#6-questões-comentadas-no-padrão-fcc)
+- [6. Questões Comentadas no Padrão FCC](#6-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -169,8 +169,10 @@ Nos sistemas informatizados de auditoria governamental e processo eletrônico do
 
 1. **Processo Eletrônico (PAdES e Carimbo do Tempo):**
     - Assinatura no padrão PAdES (*PDF Advanced Electronic Signatures*) com inserção de **Carimbo do Tempo (Timestamp)** emitido por Autoridade de Carimbo do Tempo (ACT) credenciada. O carimbo garante comprovação incontestável de que o relatório de auditoria ou acórdão foi assinado antes do término do prazo legal ou regimental, mesmo que a chave do certificado expire posteriormente.
+
 2. **Autenticação Mútua Máquina-a-Máquina (mTLS):**
     - Na interoperabilidade entre os clusters do TCE-GO e da SEFAZ-GO para coleta automatizada de dados fiscais e contábeis, a comunicação utiliza APIs protegidas por mTLS (*mutual TLS*), em que tanto o cliente quanto o servidor apresentam certificados digitais X.509 no handshake criptográfico, prevenindo ataques do tipo *Man-in-the-Middle*.
+
 3. **Módulos de Segurança em Hardware (HSM - *Hardware Security Module*):**
     - Os certificados digitais institucionais utilizados para emissão de certidões eletrônicas em lote ficam custodiados em hardware inviolável (HSM) certificado FIPS 140-2 Nível 3, impedindo o vazamento da chave privada institucional por invasões cibernéticas.
 
@@ -199,9 +201,13 @@ Nos sistemas informatizados de auditoria governamental e processo eletrônico do
 **Enunciado:** O Tribunal de Contas de determinado Estado publicou edital de licitação para contratação de desenvolvimento e sustentação de sistemas de auditoria contábil. No termo de referência e na minuta contratual, a comissão de planejamento estipulou as seguintes cláusulas:  
 
 I. O pagamento mensal à contratada dar-se-á estritamente com base na quantidade bruta de horas trabalhadas apontadas pelos funcionários da empresa terceirizada em folha de ponto, sem qualquer vinculação à conclusão de entregáveis ou cumprimento de acordos de nível de serviço (SLA).  
+
 II. A contratada e todos os seus colaboradores alocados no projeto deverão firmar Acordo de Confidencialidade e Não Divulgação (NDA) sob pena de rescisão contratual e penalidades legais.  
+
 III. Todos os códigos-fonte, esquemas de bancos de dados, scripts de infraestrutura e documentação técnica desenvolvidos no âmbito do contrato pertencerão exclusivamente ao Tribunal de Contas, devendo ser versionados continuamente no repositório institucional do órgão.  
+
 IV. Ao término da vigência contratual, a contratada fica obrigada a realizar a transição assistida, exportar e entregar todos os dados em formatos abertos e estruturados, comprovando a destruição segura de quaisquer cópias em seu poder (cláusula de reversibilidade).  
+
 À luz da legislação de licitações, jurisprudência do controle externo e normas de segurança da informação em TIC:  
 
 * **A)** As cláusulas I, II, III e IV estão em perfeita conformidade com as boas práticas administrativas.
@@ -211,6 +217,7 @@ IV. Ao término da vigência contratual, a contratada fica obrigada a realizar a
 * **E)** A cláusula II viola a presunção de boa-fé dos prestadores de serviço e não tem eficácia jurídica na esfera administrativa.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A cláusula I é manifestamente irregular e ilegal perante as normas de finanças públicas e licitações.
 > - **B)** **Correta.** A cláusula I é ilegal e contraria frontalmente a Súmula TCU nº 269 (*"Nas contratações para prestação de serviços de TI, a remuneração deve ser vinculada a resultados ou ao alcance de níveis de serviço, sendo vedada a contratação com base exclusivamente em homem-hora"*). As cláusulas II (NDA), III (propriedade intelectual do código-fonte) e IV (cláusula de reversibilidade / *exit strategy*) são obrigatórias para resguardar a soberania e a segurança tecnológica do órgão público.
 > - **C)** Incorreta. A legislação de software e a Lei nº 14.133/2021 estabelecem que os direitos patrimoniais sobre códigos desenvolvidos por encomenda no âmbito de contratos públicos pertencem à Administração contratante.
@@ -232,6 +239,7 @@ Considerando as regras sobre níveis de assinaturas eletrônicas previstas na Le
 * **E)** O cidadão só pode ser dispensado do certificado físico se outorgar procuração por instrumento público lavrada em cartório de notas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O Art. 5º da Lei nº 14.063/2020 autoriza expressamente o uso de assinaturas simples e avançadas na grande maioria dos atos com o Poder Público, reservando a qualificada para hipóteses excepcionais.
 > - **B)** **Correta.** O Art. 5º, § 2º da Lei nº 14.063/2020 prevê expressamente a vedação ao excesso de exigência: é proibido aos órgãos públicos exigir assinatura qualificada (ICP-Brasil paga) quando a assinatura simples ou avançada for suficiente para atender à finalidade da interação com segurança razoável.
 > - **C)** Incorreta. Assinaturas simples e avançadas pelo Gov.br são gratuitas; os certificados ICP-Brasil exigem compra comercial de hardware e taxas de emissão.
@@ -252,6 +260,7 @@ Considerando as regras sobre níveis de assinaturas eletrônicas previstas na Le
 * **E)** A Autoridade de Registro (AR) possui a competência exclusiva de assinar digitalmente as Listas de Certificados Revogados (LCR) de todas as ACs subordinadas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O certificado A1 é gerado por software (arquivo PKCS#12) e possui validade máxima de 1 ano. Quem utiliza hardware inviolável é o certificado A3.
 > - **B)** Incorreta. A AC-Raiz da ICP-Brasil é operada com exclusividade pelo ITI (Instituto Nacional de Tecnologia da Informação), autarquia pública federal.
 > - **C)** **Correta.** Distinção técnica precisa: o certificado A3 gera e armazena a chave privada em dispositivo físico inviolável (smart card, token USB ou HSM) e não permite exportação; o certificado A1 reside em arquivo protegido por senha no computador.
@@ -272,6 +281,7 @@ Considerando as regras sobre níveis de assinaturas eletrônicas previstas na Le
 * **E)** Exclusivamente em contratos celebrados entre particulares que versem sobre compra e venda de mercadorias no varejo.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Em interações de baixo risco, a assinatura simples (login/senha) é suficiente.
 > - **B)** **Correta.** O Art. 5º, § 1º da Lei nº 14.063/2020 elenca expressamente as situações em que a assinatura qualificada é indispensável: atos normativos de Chefes de Poder e titulares de órgãos autônomos; emissão de notas fiscais eletrônicas (salvo MEIs); e atos de transferência/registro de bens imóveis.
 > - **C)** Incorreta. Petições administrativas ordinárias admitem amplamente assinatura eletrônica avançada (Gov.br Prata/Ouro).
@@ -292,6 +302,7 @@ Considerando as regras sobre níveis de assinaturas eletrônicas previstas na Le
 * **E)** Utilizar assinatura eletrônica simples por e-mail para validar cada requisição JSON enviada individualmente.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O protocolo HTTP plano transmite credenciais em texto claro pela rede e parâmetros em query string são gravados em logs intermediários de servidores proxy.
 > - **B)** **Correta.** O mTLS (*Mutual Transport Layer Security*) exige certificados digitais X.509 tanto do cliente quanto do servidor, garantindo autenticação criptográfica mútua, sigilo de dados e proteção contra interceptação e ataques *Man-in-the-Middle*.
 > - **C)** Incorreta. O cabeçalho *Referer* pode ser facilmente adulterado por atacantes e não oferece garantia criptográfica.

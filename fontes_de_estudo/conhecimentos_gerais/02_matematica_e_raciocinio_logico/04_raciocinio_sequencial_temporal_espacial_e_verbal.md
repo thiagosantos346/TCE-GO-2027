@@ -18,34 +18,34 @@
 ---
 
 ## 🧭 Sumário
-- [1. Raciocínio Sequencial e Padrões Numéricos e Literais](#1-raciocínio-sequencial-e-padrões-numéricos-e-literais)
-    - [1.1 Sequências Numéricas e Relações de Recorrência](#11-sequências-numéricas-e-relações-de-recorrência)
-    - [1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial](#12-sequências-alfanuméricas-e-ordem-alfabética-oficial)
-    - [1.3 Padrões Literais por Iniciais Semânticas](#13-padrões-literais-por-iniciais-semânticas)
-    - [1.4 Sequências Cíclicas e Resolução por Aritmética Modular](#14-sequências-cíclicas-e-resolução-por-aritmética-modular)
-- [2. Orientação Temporal, Calendários e Relógios](#2-orientação-temporal-calendários-e-relógios)
-    - [2.1 Contagem de Dias e Aritmética Módulo 7](#21-contagem-de-dias-e-aritmética-módulo-7)
+- [1. Raciocínio Sequencial e Padrões Numéricos e Literais](#1-raciocinio-sequencial-e-padroes-numericos-e-literais)
+    - [1.1 Sequências Numéricas e Relações de Recorrência](#11-sequencias-numericas-e-relacoes-de-recorrencia)
+    - [1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial](#12-sequencias-alfanumericas-e-ordem-alfabetica-oficial)
+    - [1.3 Padrões Literais por Iniciais Semânticas](#13-padroes-literais-por-iniciais-semanticas)
+    - [1.4 Sequências Cíclicas e Resolução por Aritmética Modular](#14-sequencias-ciclicas-e-resolucao-por-aritmetica-modular)
+- [2. Orientação Temporal, Calendários e Relógios](#2-orientacao-temporal-calendarios-e-relogios)
+    - [2.1 Contagem de Dias e Aritmética Módulo 7](#21-contagem-de-dias-e-aritmetica-modulo-7)
     - [2.2 Regras de Anos Bissextos e Deslocamento Anual](#22-regras-de-anos-bissextos-e-deslocamento-anual)
-    - [2.3 Cálculo do Ângulo entre Ponteiros de Relógio](#23-cálculo-do-ângulo-entre-ponteiros-de-relógio)
-    - [2.4 Relações Temporais Relativas de Ontem e Amanhã](#24-relações-temporais-relativas-de-ontem-e-amanhã)
-- [3. Orientação Espacial, Transformações e Dobradura de Figuras](#3-orientação-espacial-transformações-e-dobradura-de-figuras)
-    - [3.1 Rotações no Plano Bidimensional e Reflexões Axiais](#31-rotações-no-plano-bidimensional-e-reflexões-axiais)
-    - [3.2 Planificação e Montagem de Cubos: A Regra das Faces Opostas](#32-planificação-e-montagem-de-cubos-a-regra-das-faces-opostas)
+    - [2.3 Cálculo do Ângulo entre Ponteiros de Relógio](#23-calculo-do-angulo-entre-ponteiros-de-relogio)
+    - [2.4 Relações Temporais Relativas de Ontem e Amanhã](#24-relacoes-temporais-relativas-de-ontem-e-amanha)
+- [3. Orientação Espacial, Transformações e Dobradura de Figuras](#3-orientacao-espacial-transformacoes-e-dobradura-de-figuras)
+    - [3.1 Rotações no Plano Bidimensional e Reflexões Axiais](#31-rotacoes-no-plano-bidimensional-e-reflexoes-axiais)
+    - [3.2 Planificação e Montagem de Cubos: A Regra das Faces Opostas](#32-planificacao-e-montagem-de-cubos-a-regra-das-faces-opostas)
     - [3.3 Vistas Ortogonais de Pilhas de Blocos e Cubos](#33-vistas-ortogonais-de-pilhas-de-blocos-e-cubos)
-- [4. Formação de Conceitos e Discriminação de Elementos](#4-formação-de-conceitos-e-discriminação-de-elementos)
-    - [4.1 Identificação do Elemento Intruso em Conjuntos](#41-identificação-do-elemento-intruso-em-conjuntos)
-    - [4.2 Analogias Estruturais e Geométricas](#42-analogias-estruturais-e-geométricas)
-- [5. Raciocínio Verbal e Problemas de Verdades e Mentiras](#5-raciocínio-verbal-e-problemas-de-verdades-e-mentiras)
-    - [5.1 O Princípio do Terceiro Excluído e da Não Contradição](#51-o-princípio-do-terceiro-excluído-e-da-não-contradição)
-    - [5.2 O Método do Par Contraditório](#52-o-método-do-par-contraditório)
-    - [5.3 O Método da Suposição Hipotética Dirigida](#53-o-método-da-suposição-hipotética-dirigida)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referências-bibliográficas)
-- [Questões de Concurso FCC Comentadas](#questões-de-concurso-fcc-comentadas)
-    - [Questão 01](#questão-01)
-    - [Questão 02](#questão-02)
-    - [Questão 03](#questão-03)
-    - [Questão 04](#questão-04)
-    - [Questão 05](#questão-05)
+- [4. Formação de Conceitos e Discriminação de Elementos](#4-formacao-de-conceitos-e-discriminacao-de-elementos)
+    - [4.1 Identificação do Elemento Intruso em Conjuntos](#41-identificacao-do-elemento-intruso-em-conjuntos)
+    - [4.2 Analogias Estruturais e Geométricas](#42-analogias-estruturais-e-geometricas)
+- [5. Raciocínio Verbal e Problemas de Verdades e Mentiras](#5-raciocinio-verbal-e-problemas-de-verdades-e-mentiras)
+    - [5.1 O Princípio do Terceiro Excluído e da Não Contradição](#51-o-principio-do-terceiro-excluido-e-da-nao-contradicao)
+    - [5.2 O Método do Par Contraditório](#52-o-metodo-do-par-contraditorio)
+    - [5.3 O Método da Suposição Hipotética Dirigida](#53-o-metodo-da-suposicao-hipotetica-dirigida)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
+    - [Questão 01](#questao-01)
+    - [Questão 02](#questao-02)
+    - [Questão 03](#questao-03)
+    - [Questão 04](#questao-04)
+    - [Questão 05](#questao-05)
 
 ---
 
@@ -168,6 +168,7 @@ A planificação de um hexaedro regular (cubo) compõe-se de 6 quadrados dispost
 #### O Teorema Infalível das Faces Opostas:
 1. Em qualquer fileira retilínea com 3 ou 4 quadrados consecutivos, **duas faces separadas por exatamente uma face intermediária formam um par de faces diametralmente opostas no cubo montado**.
     * No esquema acima: $\heartsuit$ é oposta a $\diamondsuit$ (separadas por $\spadesuit$); $\spadesuit$ é oposta a $\clubsuit$ (separadas por $\diamondsuit$).
+
 2. As abas laterais que sobram dobram-se formando o outro par oposto: $\bigstar$ é oposta a $\blacktriangle$.
 3. **Propriedade Inviolável:** Duas faces opostas **nunca podem ser vizinhas adjacentes** e **jamais aparecem juntas em uma mesma visão tridimensional ortogonal do cubo**.
 
@@ -257,24 +258,25 @@ Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o
 > Análise do padrão cíclico e frequência da letra:
 >
 > 1. O bloco básico repetitivo é a palavra **CONTROLE**, constituída por $P = 8$ letras ordenadas:
->    - Posição 1: C
->    - Posição 2: **O** (primeira ocorrência de O)
->    - Posição 3: N
->    - Posição 4: T
->    - Posição 5: R
->    - Posição 6: **O** (segunda ocorrência de O)
->    - Posição 7: L
->    - Posição 8 (ou resto 0): E
+>     - Posição 1: C
+>     - Posição 2: **O** (primeira ocorrência de O)
+>     - Posição 3: N
+>     - Posição 4: T
+>     - Posição 5: R
+>     - Posição 6: **O** (segunda ocorrência de O)
+>     - Posição 7: L
+>     - Posição 8 (ou resto 0): E
 >    Em cada bloco completo de 8 letras, a letra **"O"** é grafada exatamente **2 vezes** (nas posições 2 e 6).
 > 2. Aplicação da Divisão Euclidiana para a 2027ª posição:
 >    $$2027 = 8 \times 253 + 3$$
->    - O quociente 253 revela que o ciclo de 8 letras foi repetido integralmente 253 vezes.
->    - O **resto é 3**, o que significa que foram grafadas mais 3 letras no ciclo subsequente incompleto: a 1ª letra (C), a 2ª letra (O) e a 3ª letra (**N**).
->    - Portanto, a letra na 2027ª posição é a letra **N**.
+>     - O quociente 253 revela que o ciclo de 8 letras foi repetido integralmente 253 vezes.
+>     - O **resto é 3**, o que significa que foram grafadas mais 3 letras no ciclo subsequente incompleto: a 1ª letra (C), a 2ª letra (O) e a 3ª letra (**N**).
+>     - Portanto, a letra na 2027ª posição é a letra **N**.
+>
 > 3. Contagem acumulada da letra "O":
->    - Nos 253 ciclos completos: $253 \times 2 = 506$ ocorrências de "O".
->    - No ciclo incompleto de 3 letras (C, O, N): a posição 2 traz mais 1 letra "O".
->    - Total acumulado: $506 + 1 = \mathbf{507 \text{ vezes}}$.
+>     - Nos 253 ciclos completos: $253 \times 2 = 506$ ocorrências de "O".
+>     - No ciclo incompleto de 3 letras (C, O, N): a posição 2 traz mais 1 letra "O".
+>     - Total acumulado: $506 + 1 = \mathbf{507 \text{ vezes}}$.
 >
 > Análise individual das alternativas:
 >
@@ -309,19 +311,21 @@ Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles 
 > Resolução estruturada pelo método do par contraditório:
 >
 > 1. Identificação da contradição frontal:
->    - Daniel afirma: *"Fernando é o responsável pelo vazamento"*.
->    - Fernando afirma: *"Daniel está mentindo"*.
->    - As falas de Daniel e Fernando são mutuamente contraditórias: se Daniel fala a verdade, Fernando mente; se Daniel mente, Fernando fala a verdade. Portanto, uma é compulsoriamente Verdadeira ($V$) e a outra é compulsoriamente Falsa ($F$).
+>     - Daniel afirma: *"Fernando é o responsável pelo vazamento"*.
+>     - Fernando afirma: *"Daniel está mentindo"*.
+>     - As falas de Daniel e Fernando são mutuamente contraditórias: se Daniel fala a verdade, Fernando mente; se Daniel mente, Fernando fala a verdade. Portanto, uma é compulsoriamente Verdadeira ($V$) e a outra é compulsoriamente Falsa ($F$).
+>
 > 2. Localização da mentira única:
->    - O problema fixa que **apenas um dos quatro servidores mentiu**.
->    - Como a única mentira do grupo está confinada no par contraditório formado por Daniel e Fernando, todos os outros servidores fora do par falaram a **mais pura verdade**:
->      * Eduardo falou a verdade ($V$);
->      * Gabriel falou a verdade ($V$).
+>     - O problema fixa que **apenas um dos quatro servidores mentiu**.
+>     - Como a única mentira do grupo está confinada no par contraditório formado por Daniel e Fernando, todos os outros servidores fora do par falaram a **mais pura verdade**:
+>         * Eduardo falou a verdade ($V$);
+>         * Gabriel falou a verdade ($V$).
+>
 > 3. Dedução do culpado e do mentiroso:
->    - Eduardo falou a verdade ao declarar *"Eu não vazei o relatório"*, logo Eduardo é inocente. Gabriel apenas confirma a veracidade de Eduardo.
->    - Se Daniel falasse a verdade ($V$), Fernando seria o responsável pelo vazamento; consequentemente, o depoimento de Fernando (*"Daniel mente"*) seria mentiroso ($F$). Esse cenário confere: 1 mentiroso (Fernando) e 1 culpado (Fernando).
->    - Se supuséssemos o contrário (Daniel mentindo e Fernando dizendo a verdade), Fernando não teria vazado e Eduardo não teria vazado; restaria como culpado Daniel ou Gabriel, gerando indeterminação fática não sustentada.
->    - Portanto, quem vazou o relatório foi **Fernando** e quem mentiu foi **Fernando**.
+>     - Eduardo falou a verdade ao declarar *"Eu não vazei o relatório"*, logo Eduardo é inocente. Gabriel apenas confirma a veracidade de Eduardo.
+>     - Se Daniel falasse a verdade ($V$), Fernando seria o responsável pelo vazamento; consequentemente, o depoimento de Fernando (*"Daniel mente"*) seria mentiroso ($F$). Esse cenário confere: 1 mentiroso (Fernando) e 1 culpado (Fernando).
+>     - Se supuséssemos o contrário (Daniel mentindo e Fernando dizendo a verdade), Fernando não teria vazado e Eduardo não teria vazado; restaria como culpado Daniel ou Gabriel, gerando indeterminação fática não sustentada.
+>     - Portanto, quem vazou o relatório foi **Fernando** e quem mentiu foi **Fernando**.
 >
 > Análise das alternativas:
 >
@@ -351,13 +355,14 @@ O último dia desse prazo de 43 dias corridos recairá em uma:
 > Aplicação da aritmética modular de base 7:
 >
 > 1. Ponto de partida cronológico:
->    - Publicação em plenário: quinta-feira.
->    - O prazo de 43 dias começa a transcorrer a partir do marco zero da publicação.
+>     - Publicação em plenário: quinta-feira.
+>     - O prazo de 43 dias começa a transcorrer a partir do marco zero da publicação.
+>
 > 2. Redução modular da contagem:
->    - A semana possui ciclo invariável de 7 dias. Dividindo 43 por 7:
+>     - A semana possui ciclo invariável de 7 dias. Dividindo 43 por 7:
 >      $$43 = 6 \times 7 + 1$$
->    - O quociente 6 indica que se passaram 6 semanas completas (as quais devolvem a contagem exatamente para a mesma quinta-feira).
->    - O **resto é 1**, impondo o avanço de exatamente 1 dia a partir da quinta-feira:
+>     - O quociente 6 indica que se passaram 6 semanas completas (as quais devolvem a contagem exatamente para a mesma quinta-feira).
+>     - O **resto é 1**, impondo o avanço de exatamente 1 dia a partir da quinta-feira:
 >      $$\text{Quinta-feira} + 1 \text{ dia} = \mathbf{Sexta-feira}$$
 > 3. Logo, o 43º dia do prazo transcorrerá em uma sexta-feira.
 >
@@ -390,20 +395,20 @@ O próximo termo dessa sequência e a lei de formação que rege seus elementos 
 > Identificação da lei de formação por diferenças e recorrência:
 >
 > 1. Calculando a diferença entre termos consecutivos:
->    - $5 - 3 = 2 = 2^1$
->    - $9 - 5 = 4 = 2^2$
->    - $17 - 9 = 8 = 2^3$
->    - $33 - 17 = 16 = 2^4$
->    - $65 - 33 = 32 = 2^5$
+>     - $5 - 3 = 2 = 2^1$
+>     - $9 - 5 = 4 = 2^2$
+>     - $17 - 9 = 8 = 2^3$
+>     - $33 - 17 = 16 = 2^4$
+>     - $65 - 33 = 32 = 2^5$
 >    As diferenças sucessivas formam potências consecutivas de 2. Logo, a próxima diferença entre o 7º e o 6º termo deve ser $2^6 = 64$:
 >    $$a_7 = 65 + 64 = \mathbf{129}$$
 > 2. Analisando a lei de recorrência direta:
->    - $2 \times 3 - 1 = 5$
->    - $2 \times 5 - 1 = 9$
->    - $2 \times 9 - 1 = 17$
->    - $2 \times 17 - 1 = 33$
->    - $2 \times 33 - 1 = 65$
->    - $2 \times 65 - 1 = 130 - 1 = \mathbf{129}$
+>     - $2 \times 3 - 1 = 5$
+>     - $2 \times 5 - 1 = 9$
+>     - $2 \times 9 - 1 = 17$
+>     - $2 \times 17 - 1 = 33$
+>     - $2 \times 33 - 1 = 65$
+>     - $2 \times 65 - 1 = 130 - 1 = \mathbf{129}$
 >    A lei estruturante expressa-se perfeitamente como o **dobro do termo anterior subtraído de 1** ($a_n = 2a_{n-1} - 1$).
 >
 > Análise das alternativas:
@@ -440,9 +445,10 @@ Ao montar o cubo a partir dessa planificação, a face que ficará **diametralme
 > Análise estrutural de planificação e dobradura de cubos:
 >
 > 1. Na fileira horizontal com quatro quadrados adjacentes $[ \heartsuit ] \ [ \spadesuit ] \ [ \diamondsuit ] \ [ \clubsuit ]$:
->    - Pelo teorema das faces opostas em planificações poliédricas, quadrados dispostos na mesma fileira separados por exatamente um quadrado intermediário dobram-se em planos paralelos, tornando-se **faces opostas**.
->    - $\heartsuit$ separa-se de $\diamondsuit$ por $\spadesuit \implies \heartsuit$ é oposta a $\diamondsuit$.
->    - $\spadesuit$ separa-se de $\clubsuit$ por $\diamondsuit \implies \spadesuit$ é oposta a $\clubsuit$.
+>     - Pelo teorema das faces opostas em planificações poliédricas, quadrados dispostos na mesma fileira separados por exatamente um quadrado intermediário dobram-se em planos paralelos, tornando-se **faces opostas**.
+>     - $\heartsuit$ separa-se de $\diamondsuit$ por $\spadesuit \implies \heartsuit$ é oposta a $\diamondsuit$.
+>     - $\spadesuit$ separa-se de $\clubsuit$ por $\diamondsuit \implies \spadesuit$ é oposta a $\clubsuit$.
+>
 > 2. As abas que se projetam para fora da fileira central ($\bigstar$ acima e $\blacktriangle$ abaixo) dobram-se em $90^\circ$ fechando o topo e a base do cubo, sendo opostas entre si.
 > 3. Logo, a face que se posiciona diametralmente oposta à face de Espadas ($\spadesuit$) é a face de Paus ($\clubsuit$).
 >

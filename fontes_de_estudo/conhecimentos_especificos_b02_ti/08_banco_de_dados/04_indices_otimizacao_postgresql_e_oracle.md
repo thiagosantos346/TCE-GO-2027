@@ -6,7 +6,7 @@
 
 ---
 
-### 📌 Ementa / Itens do Edital
+## 📌 Ementa / Itens do Edital
 1. **Estruturas de Indexação:** B-Tree, B+Tree, Hash, Bitmap, Índices Espaciais (R-Tree/GiST), GIN (Generalized Inverted Index), BRIN (Block Range Index), Índices Clusterizados vs. Não-Clusterizados, Índices Parciais e Baseados em Expressões. Trade-offs de escrita vs. leitura.
 2. **Otimização de Consultas (Query Tuning):** Otimizador Baseado em Custo (CBO), Estatísticas de Catálogo e Histogramas, Planos de Execução (`EXPLAIN` e `EXPLAIN ANALYZE`).
 3. **Métodos de Acesso e Operações de Junção (Joins):** Sequential Scan vs. Index Scan vs. Index Only Scan vs. Bitmap Scan; Nested Loop, Hash Join e Merge Join (critérios de escolha, memória e ordenação).
@@ -15,26 +15,26 @@
 
 ---
 
-### 🧭 Sumário
-- [1. Estruturas de Indexação e Métodos de Acesso](#1-estruturas-de-indexação-e-métodos-de-acesso)
-    - [1.1 Tipos de Índices: B+Tree, Hash, Bitmap, GIN, GiST e BRIN](#11-tipos-de-índices-btree-hash-bitmap-gin-gist-e-brin)
-    - [1.2 Índices Clusterizados vs. Não-Clusterizados, Parciais e Baseados em Expressão](#12-índices-clusterizados-vs-não-clusterizados-parciais-e-baseados-em-expressão)
-    - [1.3 Trade-offs e Custos de Manutenção de Índices](#13-trade-offs-e-custos-de-manutenção-de-índices)
-- [2. Otimização de Consultas e Planos de Execução (Query Tuning)](#2-otimização-de-consultas-e-planos-de-execução-query-tuning)
-    - [2.1 Otimizador Baseado em Custo (CBO), Estatísticas e Histogramas](#21-otimizador-baseado-em-custo-cbo-estatísticas-e-histogramas)
-    - [2.2 Análise de Planos: EXPLAIN vs. EXPLAIN ANALYZE](#22-análise-de-planos-explain-vs-explain-analyze)
-    - [2.3 Estratégias de Varredura: Seq Scan, Index Scan, Index Only Scan e Bitmap Scan](#23-estratégias-de-varredura-seq-scan-index-scan-index-only-scan-e-bitmap-scan)
-    - [2.4 Algoritmos de Junção: Nested Loop, Hash Join e Merge Join](#24-algoritmos-de-junção-nested-loop-hash-join-e-merge-join)
-- [3. Arquitetura e Administração do PostgreSQL](#3-arquitetura-e-administração-do-postgresql)
-    - [3.1 Modelo de Processos e Gerenciamento de Conexões](#31-modelo-de-processos-e-gerenciamento-de-conexões)
-    - [3.2 Parâmetros Críticos de Memória](#32-parâmetros-críticos-de-memória)
-    - [3.3 MVCC, Limpeza de Espaço e o Mecanismo VACUUM](#33-mvcc-limpeza-de-espaço-e-o-mecanismo-vacuum)
+## 🧭 Sumário
+- [1. Estruturas de Indexação e Métodos de Acesso](#1-estruturas-de-indexacao-e-metodos-de-acesso)
+    - [1.1 Tipos de Índices: B+Tree, Hash, Bitmap, GIN, GiST e BRIN](#11-tipos-de-indices-btree-hash-bitmap-gin-gist-e-brin)
+    - [1.2 Índices Clusterizados vs. Não-Clusterizados, Parciais e Baseados em Expressão](#12-indices-clusterizados-vs-nao-clusterizados-parciais-e-baseados-em-expressao)
+    - [1.3 Trade-offs e Custos de Manutenção de Índices](#13-trade-offs-e-custos-de-manutencao-de-indices)
+- [2. Otimização de Consultas e Planos de Execução (Query Tuning)](#2-otimizacao-de-consultas-e-planos-de-execucao-query-tuning)
+    - [2.1 Otimizador Baseado em Custo (CBO), Estatísticas e Histogramas](#21-otimizador-baseado-em-custo-cbo-estatisticas-e-histogramas)
+    - [2.2 Análise de Planos: EXPLAIN vs. EXPLAIN ANALYZE](#22-analise-de-planos-explain-vs-explain-analyze)
+    - [2.3 Estratégias de Varredura: Seq Scan, Index Scan, Index Only Scan e Bitmap Scan](#23-estrategias-de-varredura-seq-scan-index-scan-index-only-scan-e-bitmap-scan)
+    - [2.4 Algoritmos de Junção: Nested Loop, Hash Join e Merge Join](#24-algoritmos-de-juncao-nested-loop-hash-join-e-merge-join)
+- [3. Arquitetura e Administração do PostgreSQL](#3-arquitetura-e-administracao-do-postgresql)
+    - [3.1 Modelo de Processos e Gerenciamento de Conexões](#31-modelo-de-processos-e-gerenciamento-de-conexoes)
+    - [3.2 Parâmetros Críticos de Memória](#32-parametros-criticos-de-memoria)
+    - [3.3 MVCC, Limpeza de Espaço e o Mecanismo VACUUM](#33-mvcc-limpeza-de-espaco-e-o-mecanismo-vacuum)
     - [3.4 Write-Ahead Logging (WAL) e Checkpoints](#34-write-ahead-logging-wal-e-checkpoints)
-- [4. Arquitetura e Administração do Oracle Database](#4-arquitetura-e-administração-do-oracle-database)
-    - [4.1 Instância vs. Banco de Dados e Estruturas de Memória (SGA e PGA)](#41-instância-vs-banco-de-dados-e-estruturas-de-memória-sga-e-pga)
-    - [4.2 Processos de Background Mandatórios (DBWn, LGWR, CKPT, SMON, PMON)](#42-processos-de-background-mandatórios-dbwn-lgwr-ckpt-smon-pmon)
-    - [4.3 Estrutura Física e Lógica de Armazenamento](#43-estrutura-física-e-lógica-de-armazenamento)
-- [5. Questões Comentadas (FCC)](#5-questões-comentadas-fcc)
+- [4. Arquitetura e Administração do Oracle Database](#4-arquitetura-e-administracao-do-oracle-database)
+    - [4.1 Instância vs. Banco de Dados e Estruturas de Memória (SGA e PGA)](#41-instancia-vs-banco-de-dados-e-estruturas-de-memoria-sga-e-pga)
+    - [4.2 Processos de Background Mandatórios (DBWn, LGWR, CKPT, SMON, PMON)](#42-processos-de-background-mandatorios-dbwn-lgwr-ckpt-smon-pmon)
+    - [4.3 Estrutura Física e Lógica de Armazenamento](#43-estrutura-fisica-e-logica-de-armazenamento)
+- [5. Questões Comentadas (FCC)](#5-questoes-comentadas-fcc)
 
 ---
 
@@ -233,11 +233,14 @@ A memória no PostgreSQL é dividida categoricamente entre a Memória Compartilh
 1. **`shared_buffers`:**
     - Define a quantidade de memória primária alocada pelo PostgreSQL para armazenar blocos de dados e índices em cache na memória compartilhada.
     - Em servidores dedicados Linux/Unix, a recomendação clássica de ajuste (*tuning*) gira em torno de **25% da memória RAM física total**. Valores excessivamente altos (acima de 40-50%) podem ser prejudiciais, pois o PostgreSQL depende em conjunto do *page cache* nativo do sistema operacional.
+
 2. **`work_mem`:**
     - Define a quantidade máxima de memória privada que pode ser usada por **uma única operação interna de ordenação** (`ORDER BY`, `DISTINCT`) ou **tabela hash** (em `Hash Join` ou agregação por `GROUP BY`) antes de despejar dados para arquivos temporários no disco.
     - **Armadilha Crítica:** O valor de `work_mem` **NÃO é alocado por cliente ou por consulta**, mas sim **POR OPERAÇÃO dentro de uma consulta**. Uma consulta complexa que contenha 4 junções Hash e 2 ordenações simultâneas pode consumir até 6 vezes o valor de `work_mem` para uma única conexão ativa.
+
 3. **`maintenance_work_mem`:**
     - Memória privada alocada para operações pontuais de manutenção, tais como execução de `VACUUM`, `CREATE INDEX`, `REINDEX` e adição de chaves estrangeiras. Como essas rotinas não rodam concorrentemente por centenas de usuários, pode ser dimensionada com valores muito mais generosos (ex.: 1 GB a 2 GB).
+
 4. **`effective_cache_size`:**
     - Não aloca memória física real. Trata-se de uma diretriz métrica informativa utilizada exclusivamente pelo planejador de consultas (CBO) para estimar a quantidade total de memória disponível para armazenar páginas em cache (somando `shared_buffers` e o cache de disco do sistema operacional). Um valor padrão muito conservador faz o CBO preferir *Seq Scans* a *Index Scans*.
 
@@ -381,6 +384,7 @@ O Administrador de Banco de Dados de um tribunal precisa otimizar uma consulta e
 * **E)** Desativação total de índices para forçar um Full Table Scan paralelo em memória.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Índices B+Tree em colunas de baixíssima cardinalidade geram árvores rasas com listas gigantescas de ROWIDs nas folhas, além de não permitirem a combinação booleana ultrarrápida nativa de bitmaps.
 > - **B)** Incorreta. O índice Hash só aceita comparações de igualdade estrita e não resolve de forma combinada o filtro composto com a coluna `status`.
 > - **C)** **Correta.** Índices Bitmap são ideais para colunas com **baixa cardinalidade** (poucos valores distintos, como os 3 status e as 27 UFs) em ambientes predominantemente analíticos (OLAP) e com baixa concorrência de escritas DML. O otimizador pode combinar os bitmaps gerados para cada condição através de operações booleanas em nível de bits (`AND`, `OR`), reduzindo drasticamente o I/O de leitura.
@@ -404,6 +408,7 @@ A respeito das características dos comandos `EXPLAIN` e `EXPLAIN ANALYZE`, é c
 * **E)** O uso de `EXPLAIN ANALYZE` em consultas que realizam alterações de dados (`UPDATE` ou `DELETE`) apenas simula a modificação, sem alterar as linhas nas tabelas físicas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O `EXPLAIN` puro não executa a consulta; seus tempos e custos exibidos são puramente derivados de estimativas estatísticas do catálogo.
 > - **B)** **Correta.** O `EXPLAIN` apenas estima o plano sem processar a instrução, ao passo que o `EXPLAIN ANALYZE` gera a estimativa do CBO e **executa concretamente a consulta**, comparando o custo/linhas estimadas com o tempo real decorrido (*actual time*) e o número real de tuplas processadas (*actual rows*).
 > - **C)** Incorreta. O `EXPLAIN ANALYZE` executa de fato a query.
@@ -425,6 +430,7 @@ No Sistema Gerenciador de Banco de Dados PostgreSQL, o parâmetro de configuraç
 * **E)** Deve ser configurado obrigatoriamente com no mínimo 50% de toda a memória RAM física disponível no servidor de banco de dados.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A área global compartilhada de cache de blocos e índices é configurada pelo parâmetro `shared_buffers`.
 > - **B)** Incorreta. O `work_mem` não é alocado por transação ou por sessão, e sim por operação relacional individual que demande ordenação ou hash.
 > - **C)** **Correta.** O `work_mem` é uma área de memória privada de processo utilizada por nós do plano de execução que demandam ordenação em memória (`ORDER BY`, `DISTINCT`, Merge Join) ou tabelas hash (`Hash Join`, agregações por hash). Uma consulta contendo múltiplos joins e sorts pode alocar várias instâncias de `work_mem` simultaneamente.
@@ -446,6 +452,7 @@ No banco de dados Oracle, a comunicação entre as estruturas de memória da Ins
 * **E)** SMON (System Monitor).
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O DBWn grava blocos de dados alterados (*dirty buffers*) do Buffer Cache nos *Datafiles*, de maneira assíncrona.
 > - **B)** **Correta.** O processo LGWR (*Log Writer*) é o encarregado exclusivo de descarregar os registros de transação do *Redo Log Buffer* para os arquivos físicos de *Redo Log* em disco. No instante em que o cliente executa um `COMMIT`, a operação só é confirmada com sucesso após o LGWR gravar o registro de commit em disco.
 > - **C)** Incorreta. O CKPT notifica o DBWn e atualiza os cabeçalhos dos datafiles e control files com o SCN atual.
@@ -461,8 +468,10 @@ No banco de dados Oracle, a comunicação entre as estruturas de memória da Ins
 Na arquitetura do Oracle Database, a organização do armazenamento divide-se entre estruturas físicas e estruturas lógicas. Considere as seguintes assertivas:
 
 I. Uma *Tablespace* é uma estrutura lógica que pode ser composta por um ou mais *Datafiles* físicos, mas um *Datafile* físico pode pertencer a apenas uma única *Tablespace*.  
+
 II. Uma *Extensão* (*Extent*) lógica é formada por um conjunto contíguo de *Blocos de Dados* Oracle, e um conjunto de extensões alocadas para um objeto relacional forma um *Segmento*.  
-III. Os arquivos de controle (*Control Files*) contêm o código compilado dos procedimentos PL/SQL armazenados e os blocos de dados de índices de alta performance.
+
+III. Os arquivos de controle (*Control Files*) contêm o código compilado dos procedimentos PL/SQL armazenados e os blocos de dados de índices de alta performance.  
 
 Está correto o que se afirma em:
 
@@ -473,9 +482,10 @@ Está correto o que se afirma em:
 * **E)** I, apenas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** **Correta.** 
->   - **Item I:** Correto. A tablespace é a maior unidade lógica e mapeia um ou mais datafiles físicos, existindo uma relação estrita de 1:N (um datafile nunca pode pertencer a mais de uma tablespace).
->   - **Item II:** Correto. A hierarquia lógica fundamental do Oracle é: Bloco de Dados $\rightarrow$ Extensão (bloco contíguo) $\rightarrow$ Segmento (conjunto de extensões de um objeto) $\rightarrow$ Tablespace.
+>     - **Item I:** Correto. A tablespace é a maior unidade lógica e mapeia um ou mais datafiles físicos, existindo uma relação estrita de 1:N (um datafile nunca pode pertencer a mais de uma tablespace).
+>     - **Item II:** Correto. A hierarquia lógica fundamental do Oracle é: Bloco de Dados $\rightarrow$ Extensão (bloco contíguo) $\rightarrow$ Segmento (conjunto de extensões de um objeto) $\rightarrow$ Tablespace.
 > - **B)** Incorreta, pois o item III é falso e o item I é verdadeiro.
 > - **C)** Incorreta, pois o item III é flagrantemente falso.
 > - **D)** Incorreta, pois o item III está incorreto.

@@ -26,20 +26,20 @@
 ---
 
 ## 🧭 Sumário
-1. [Planejamento da Fiscalização e Avaliação de Risco](#1-planejamento-da-fiscalização-e-avaliação-de-risco)
-    - 1.1 [Critérios de Seleção de Objetos de Controle (Critérios MRC)](#11-critérios-de-seleção-de-objetos-de-controle-critérios-mrc)
-    - 1.2 [O Modelo do Risco de Auditoria (Auditoria Risk - AR)](#12-o-modelo-do-risco-de-auditoria-auditoria-risk---ar)
-    - 1.3 [Amostragem em Auditoria Governamental e Riscos Amostrais](#13-amostragem-em-auditoria-governamental-e-riscos-amostrais)
-2. [Programas de Auditoria e Documentação (Papéis de Trabalho)](#2-programas-de-auditoria-e-documentação-papéis-de-trabalho)
-3. [Técnicas e Procedimentos de Auditoria Governamental](#3-técnicas-e-procedimentos-de-auditoria-governamental)
-    - 3.1 [Quadro Geral dos Procedimentos de Obtenção de Evidências](#31-quadro-geral-dos-procedimentos-de-obtenção-de-evidências)
-    - 3.2 [Modalidades de Circularização (Confirmação Externa)](#32-modalidades-de-circularização-confirmação-externa)
-4. [Evidências de Auditoria: Os Três Pilares da Validade](#4-evidências-de-auditoria-os-três-pilares-da-validade)
-5. [A Estrutura Anatômica do Achado de Auditoria](#5-a-estrutura-anatômica-do-achado-de-auditoria)
-    - 5.1 [Os Quatro Elementos do Achado](#51-os-quatro-elementos-do-achado)
-    - 5.2 [Matriz de Responsabilização e a LINDB (Art. 28)](#52-matriz-de-responsabilização-e-a-lindb-art-28)
-6. [Fontes Oficiais & Manuais Técnicos Recomendados](#6-fontes-oficiais--manuais-técnicos-recomendados)
-7. [Questões Comentadas no Padrão FCC (Justificadas de A a E)](#7-questões-comentadas-no-padrão-fcc-justificadas-de-a-a-e)
+- [1. Planejamento da Fiscalização e Avaliação de Risco](#1-planejamento-da-fiscalizacao-e-avaliacao-de-risco)
+    - [1.1 Critérios de Seleção de Objetos de Controle (Critérios MRC)](#11-criterios-de-selecao-de-objetos-de-controle-criterios-mrc)
+    - [1.2 O Modelo do Risco de Auditoria (Auditoria Risk - AR)](#12-o-modelo-do-risco-de-auditoria-auditoria-risk-ar)
+    - [1.3 Amostragem em Auditoria Governamental e Riscos Amostrais](#13-amostragem-em-auditoria-governamental-e-riscos-amostrais)
+- [2. Programas de Auditoria e Documentação (Papéis de Trabalho)](#2-programas-de-auditoria-e-documentacao-papeis-de-trabalho)
+- [3. Técnicas e Procedimentos de Auditoria Governamental](#3-tecnicas-e-procedimentos-de-auditoria-governamental)
+    - [3.1 Quadro Geral dos Procedimentos de Obtenção de Evidências](#31-quadro-geral-dos-procedimentos-de-obtencao-de-evidencias)
+    - [3.2 Modalidades de Circularização (Confirmação Externa)](#32-modalidades-de-circularizacao-confirmacao-externa)
+- [4. Evidências de Auditoria: Os Três Pilares da Validade](#4-evidencias-de-auditoria-os-tres-pilares-da-validade)
+- [5. A Estrutura Anatômica do Achado de Auditoria](#5-a-estrutura-anatomica-do-achado-de-auditoria)
+    - [5.1 Os Quatro Elementos do Achado](#51-os-quatro-elementos-do-achado)
+    - [5.2 Matriz de Responsabilização e a LINDB (Art. 28)](#52-matriz-de-responsabilizacao-e-a-lindb-art-28)
+- [6. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+- [7. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -89,6 +89,7 @@ flowchart TD
 ```
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+>
 > - O auditor **NÃO altera nem controla o Risco Inerente (RI) nem o Risco de Controle (RC)**, pois estes pertencem exclusivamente à estrutura do órgão auditado e à eficiência de sua administração.  
 > - O único risco que o auditor pode e deve controlar diretamente é o **Risco de Detecção (RD)**! Se o auditor identifica que o ambiente auditado tem alto risco inerente e péssimo controle interno (alto RDR), ele deve planejar testes mais rigorosos, com amostras maiores e procedimentos aprofundados, diminuindo o seu risco de detecção para manter o risco de auditoria global em nível aceitável.
 
@@ -212,6 +213,7 @@ No âmbito dos trabalhos de fiscalização governamental conduzidos por equipe d
 * **E)** Conferência de cálculos.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** Circularização consiste em obter confirmação externa formal de terceiros alheios à entidade auditada.  
 > - **B) CORRETA:** Os procedimentos analíticos (ou revisão analítica) compreendem a avaliação de informações financeiras e operacionais por meio de estudo e comparação das relações plausíveis entre dados financeiros e não financeiros, permitindo a detecção de flutuações, índices incoerentes ou variações atípicas que exijam investigação direcionada.  
 > - **C) Incorreta:** Inspeção física exige o exame presencial e sensorial da existência palpável de bens, obras ou estoques.  
@@ -232,11 +234,12 @@ Em relatório de fiscalização de obras rodoviárias, a equipe técnica do Trib
 * **E)** Matriz de Risco e Evidência.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A ordem está invertida.  
 > - **B) Incorreta:** A causa foi a falha na dosagem ou fiscalização do executor; o efeito foram as fissuras e o prejuízo financeiro.  
 > - **C) CORRETA:** Na metodologia do achado de auditoria:  
->   - **Critério:** É o padrão normativo, contratual ou técnico ideal ("o que deveria ser") – neste caso, as especificações técnicas obrigatórias do projeto executivo aprovado.  
->   - **Condição (ou Situação Encontrada):** É a realidade fática verificada pelo auditor *in loco* ("o que é") – neste caso, a aplicação de camada asfáltica com espessura inferior à contratada.  
+>     - **Critério:** É o padrão normativo, contratual ou técnico ideal ("o que deveria ser") – neste caso, as especificações técnicas obrigatórias do projeto executivo aprovado.  
+>     - **Condição (ou Situação Encontrada):** É a realidade fática verificada pelo auditor *in loco* ("o que é") – neste caso, a aplicação de camada asfáltica com espessura inferior à contratada.  
 > - **D) Incorreta:** As deformidades e fissuras representam o efeito/impacto danoso gerado na rodovia.  
 > - **E) Incorreta:** Matriz de risco é ferramenta prévia de planejamento, e não elemento integrante da anatomia do achado.
 > 
@@ -254,6 +257,7 @@ Acerca do modelo de avaliação de risco de auditoria e dos fatores de risco con
 * **E)** O risco de auditoria independe da extensão dos procedimentos aplicados pelo órgão de controle externo.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** O risco de o controle interno falhar denomina-se **Risco de Controle (RC)**. Risco de detecção é a falha dos procedimentos do próprio auditor.  
 > - **B) Incorreta:** O risco inerente refere-se à suscetibilidade da própria atividade auditada ao erro antes de qualquer controle.  
 > - **C) CORRETA:** O auditor não pode alterar o risco inerente nem o risco de controle do jurisdicionado. Portanto, ao se deparar com um órgão de elevado risco (alto risco inerente e fragilidade de controles internos), o auditor deve **reduzir o risco de detecção (RD)** mediante a aplicação de testes mais profundos, com amostras maiores e maior ceticismo profissional.  
@@ -274,6 +278,7 @@ Em relação aos papéis de trabalho (documentação de auditoria) elaborados e 
 * **E)** Devem ser destruídos imediatamente após a publicação da deliberação plenária terminativa do processo de controle externo.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** Os papéis de trabalho são patrimônio documental oficial e institucional exclusivo do Tribunal de Contas.  
 > - **B) Incorreta:** O arquivo que guarda os dados de uma única auditoria anual é o **arquivo corrente**. O arquivo permanente abriga dados de uso continuado por anos (leis de criação do órgão, organogramas, estatutos).  
 > - **C) CORRETA:** Conforme as normas técnicas da NBASP e Manuais de Auditoria, a documentação de auditoria pertence privativamente ao Tribunal e tem o objetivo primordial de registrar as evidências, fundamentar a opinião expressa e demonstrar a qualidade dos testes executados.  
@@ -296,6 +301,7 @@ Nos termos do artigo 28 da Lei de Introdução às Normas do Direito Brasileiro 
 * **E)** Em contrariedade a parecer técnico não vinculante emitido por estagiário do órgão.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta:** A responsabilidade pessoal sancionatória e ressarcitória do gestor perante o Tribunal de Contas não é objetiva (risco integral), exigindo elemento subjetivo qualificado. Culpa levíssima ou escusável não autoriza condenação pessoal.  
 > - **B) CORRETA:** O art. 28 da LINDB (com redação dada pela Lei nº 13.655/2018) estabelece categoricamente: *"O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de **dolo ou erro grosseiro**."* O erro grosseiro é a culpa grave, inescusável, resultante de desatenção manifesta que o gestor médio não cometeria.  
 > - **C) Incorreta:** A ausência de consulta jurídica isoladamente não presume a culpa grave do agente.  

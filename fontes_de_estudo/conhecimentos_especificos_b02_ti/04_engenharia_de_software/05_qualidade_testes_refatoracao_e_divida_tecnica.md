@@ -17,26 +17,26 @@
 ---
 
 ## 🧭 Sumário
-- [1. Atributos e Métricas de Qualidade de Software (ISO/IEC 25010)](#1-atributos-e-métricas-de-qualidade-de-software-isoiec-25010)
-    - [1.1 Desempenho e Eficiência de Recursos](#11-desempenho-e-eficiência-de-recursos)
+- [1. Atributos e Métricas de Qualidade de Software (ISO/IEC 25010)](#1-atributos-e-metricas-de-qualidade-de-software-isoiec-25010)
+    - [1.1 Desempenho e Eficiência de Recursos](#11-desempenho-e-eficiencia-de-recursos)
     - [1.2 Escalabilidade Vertical (Scale Up) vs. Escalabilidade Horizontal (Scale Out)](#12-escalabilidade-vertical-scale-up-vs-escalabilidade-horizontal-scale-out)
-    - [1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)](#13-confiabilidade-disponibilidade-e-métricas-de-manutenção-mtbf-e-mttr)
-    - [1.4 Manutenibilidade e Facilidade de Mudança](#14-manutenibilidade-e-facilidade-de-mudança)
-- [2. Níveis e Estratégias de Testes de Software](#2-níveis-e-estratégias-de-testes-de-software)
-    - [2.1 A Pirâmide de Testes de Mike Cohn](#21-a-pirâmide-de-testes-de-mike-cohn)
-    - [2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)](#22-dublês-de-teste-test-doubles-de-gerard-meszaros)
+    - [1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)](#13-confiabilidade-disponibilidade-e-metricas-de-manutencao-mtbf-e-mttr)
+    - [1.4 Manutenibilidade e Facilidade de Mudança](#14-manutenibilidade-e-facilidade-de-mudanca)
+- [2. Níveis e Estratégias de Testes de Software](#2-niveis-e-estrategias-de-testes-de-software)
+    - [2.1 A Pirâmide de Testes de Mike Cohn](#21-a-piramide-de-testes-de-mike-cohn)
+    - [2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)](#22-dubles-de-teste-test-doubles-de-gerard-meszaros)
     - [2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)](#23-testes-de-caixa-preta-funcionais-vs-testes-de-caixa-branca-estruturais)
-    - [2.4 Complexidade Ciclomática de Thomas McCabe e Grafo de Fluxo](#24-complexidade-ciclomática-de-thomas-mccabe-e-grafo-de-fluxo)
-- [3. Tipos Especializados de Testes e Automação](#3-tipos-especializados-de-testes-e-automação)
-    - [3.1 Testes de Regressão e Automação Contínua](#31-testes-de-regressão-e-automação-contínua)
-    - [3.2 Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência](#32-testes-de-desempenho-carga-vs-estresse-vs-pico-vs-resistência)
-    - [3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)](#33-práticas-de-tdd-test-driven-development-e-bdd-behavior-driven-development)
-- [4. Revisão de Código, Refatoração e Dívida Técnica](#4-revisão-de-código-refatoração-e-dívida-técnica)
-    - [4.1 Técnicas Modernas de Revisão de Código (Code Review)](#41-técnicas-modernas-de-revisão-de-código-code-review)
-    - [4.2 Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler](#42-refatoração-de-código-e-os-maus-cheiros-code-smells-de-fowler)
-    - [4.3 Dívida Técnica e o Quadrante de Martin Fowler](#43-dívida-técnica-e-o-quadrante-de-martin-fowler)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questões-de-concurso-fcc-comentadas)
+    - [2.4 Complexidade Ciclomática de Thomas McCabe e Grafo de Fluxo](#24-complexidade-ciclomatica-de-thomas-mccabe-e-grafo-de-fluxo)
+- [3. Tipos Especializados de Testes e Automação](#3-tipos-especializados-de-testes-e-automacao)
+    - [3.1 Testes de Regressão e Automação Contínua](#31-testes-de-regressao-e-automacao-continua)
+    - [3.2 Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência](#32-testes-de-desempenho-carga-vs-estresse-vs-pico-vs-resistencia)
+    - [3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)](#33-praticas-de-tdd-test-driven-development-e-bdd-behavior-driven-development)
+- [4. Revisão de Código, Refatoração e Dívida Técnica](#4-revisao-de-codigo-refatoracao-e-divida-tecnica)
+    - [4.1 Técnicas Modernas de Revisão de Código (Code Review)](#41-tecnicas-modernas-de-revisao-de-codigo-code-review)
+    - [4.2 Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler](#42-refatoracao-de-codigo-e-os-maus-cheiros-code-smells-de-fowler)
+    - [4.3 Dívida Técnica e o Quadrante de Martin Fowler](#43-divida-tecnica-e-o-quadrante-de-martin-fowler)
+- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -145,6 +145,7 @@ graph TD
 Proposta por Thomas McCabe em 1976, a **Complexidade Ciclomática ($V(G)$)** mede quantitativamente a complexidade lógica de um programa através da contagem do número de caminhos linearmente independentes no seu grafo de fluxo de controle.
 
 **Fórmulas de Cálculo Clássicas:**
+
 1. Pela contagem de arestas ($E$), nós ($N$) e componentes conexos ($P=1$ para método único):
    $$V(G) = E - N + 2$$
 2. Pela contagem direta de pontos de decisão/predicados ($P$):
@@ -182,6 +183,7 @@ A engenharia de testes de desempenho categoriza os testes de acordo com o padrã
     1. *Red:* Escrever um teste automatizado que falha antes de escrever o código de produção;
     2. *Green:* Escrever o código mais simples possível apenas para fazer o teste passar com sucesso;
     3. *Refactor:* Limpar o código-fonte, eliminar duplicações e aperfeiçoar o design, garantindo que a suíte de testes continue verde.
+
 - **BDD (Desenvolvimento Guiado por Comportamento):** Evolução colaborativa do TDD focada na linguagem ubíqua e no comportamento do sistema sob a ótica do negócio. Expressa cenários no formato **Given-When-Then** (*Dado que... Quando... Então...* - sintaxe Gherkin).
 
 ---
@@ -247,13 +249,14 @@ flowchart TD
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Uma equipe de desenvolvimento de software do Tribunal de Contas concluiu a correção de uma vulnerabilidade de segurança e a implementação de uma nova funcionalidade na rotina de cadastro de credores. Antes de disponibilizar a nova versão em produção, o líder técnico determinou a execução imediata de um conjunto de testes automatizados com o objetivo específico de verificar se as alterações recentes introduzidas no código-fonte não afetaram adversamente ou causaram falhas em partes do sistema que funcionavam perfeitamente antes da alteração. O tipo de teste determinado pelo líder é o:
 
-* A) Teste de estresse.
-* B) Teste de regressão.
-* C) Teste de carga.
-* D) Teste de usabilidade.
-* E) Teste de caixa-transparente destrutivo.
+* **A)** Teste de estresse.
+* **B)** Teste de regressão.
+* **C)** Teste de carga.
+* **D)** Teste de usabilidade.
+* **E)** Teste de caixa-transparente destrutivo.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** O teste de estresse avalia o sistema sob sobrecarga extrema de infraestrutura além dos limites operacionais, sem foco em efeitos colaterais de novas linhas de código em funcionalidades estáveis.
 > - **B) CORRETA.** O **Teste de Regressão** tem a finalidade precípua e específica de assegurar que novas alterações no código-fonte (sejam correções de defeitos, refatorações ou implementação de novos recursos) não causaram "regressão", isto é, não introduziram novos defeitos em funcionalidades que anteriormente se encontravam íntegras e funcionando de forma estável.
 > - **C) Incorreta.** O teste de carga avalia o comportamento sob volume de requisições normais ou de pico contratual.
@@ -268,13 +271,14 @@ Uma equipe de desenvolvimento de software do Tribunal de Contas concluiu a corre
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 A respeito do conceito de refatoração (*refactoring*) de código em engenharia de software e da metáfora de dívida técnica, assinale a afirmativa correta:
 
-* A) A refatoração consiste em alterar a lógica de negócio do software para adicionar novos recursos solicitados pelo cliente na sprint atual.
-* B) A refatoração tem como objetivo aperfeiçoar a estrutura interna do código, tornando-o mais limpo, legível e manutenível, sem alterar o seu comportamento observável externo.
-* C) A dívida técnica é um conceito que se aplica exclusivamente aos débitos financeiros de contratos de licitação em atraso.
-* D) A prática do desenvolvimento guiado por testes (TDD) proíbe a realização de refatoração após os testes unitários passarem.
-* E) Métodos longos com dezenas de parâmetros são considerados boas práticas de modularidade no padrão Clean Code.
+* **A)** A refatoração consiste em alterar a lógica de negócio do software para adicionar novos recursos solicitados pelo cliente na sprint atual.
+* **B)** A refatoração tem como objetivo aperfeiçoar a estrutura interna do código, tornando-o mais limpo, legível e manutenível, sem alterar o seu comportamento observável externo.
+* **C)** A dívida técnica é um conceito que se aplica exclusivamente aos débitos financeiros de contratos de licitação em atraso.
+* **D)** A prática do desenvolvimento guiado por testes (TDD) proíbe a realização de refatoração após os testes unitários passarem.
+* **E)** Métodos longos com dezenas de parâmetros são considerados boas práticas de modularidade no padrão Clean Code.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** A adição de novas funcionalidades ou alterações no comportamento do software para o usuário constituem evolução ou manutenção adaptativa, contrariando a premissa de refatoração.
 > - **B) CORRETA.** Conforme a definição clássica estabelecida por Martin Fowler, a **refatoração (*refactoring*)** é o processo de alterar e aprimorar a estrutura interna do código-fonte (eliminar duplicações, melhorar modularidade e legibilidade) **sem alterar o seu comportamento observável externo**.
 > - **C) Incorreta.** A dívida técnica (*technical debt*) é uma célebre metáfora criada por Ward Cunningham no contexto do desenvolvimento de software para representar o custo cumulativo futuro gerado por atalhos arquiteturais e código mal projetado.
@@ -289,19 +293,20 @@ A respeito do conceito de refatoração (*refactoring*) de código em engenharia
 **(FCC – TRF – Analista Judiciário / TI)**  
 Considere um método Java que contém a seguinte estrutura lógica de decisões condicionais: três comandos `if` simples, um laço `while` e uma estrutura `switch-case` com quatro cláusulas `case` e uma cláusula `default`. Aplicando a técnica de teste de caixa-branca fundamentada na Complexidade Ciclomática de Thomas McCabe ($V(G)$), o número de caminhos linearmente independentes e, consequentemente, a quantidade mínima de casos de teste necessários para cobrir todos os fluxos de execução desse método é:
 
-* A) 8.
-* B) 9.
-* C) 10.
-* D) 12.
-* E) 7.
+* **A)** 8.
+* **B)** 9.
+* **C)** 10.
+* **D)** 12.
+* **E)** 7.
 
 > **Comentário Detalhado:**
+>
 > - A fórmula de cálculo da Complexidade Ciclomática de McCabe por pontos de decisão (predicados) é expressa por:
 >   $$V(G) = P + 1$$
 > - Mapeando os predicados de decisão do código:
->   - Três instruções `if` simples: $3$ predicados;
->   - Um laço de repetição `while`: $1$ predicado;
->   - Um comando `switch-case` com $4$ cláusulas `case`: $4$ predicados (a cláusula `default` é a rota padrão de escape e não pontua como predicado adicional).
+>     - Três instruções `if` simples: $3$ predicados;
+>     - Um laço de repetição `while`: $1$ predicado;
+>     - Um comando `switch-case` com $4$ cláusulas `case`: $4$ predicados (a cláusula `default` é a rota padrão de escape e não pontua como predicado adicional).
 > - Total de predicados: $P = 3 + 1 + 4 = 8$.
 > - Aplicando a fórmula:
 >   $$V(G) = 8 + 1 = 9$$
@@ -315,13 +320,14 @@ Considere um método Java que contém a seguinte estrutura lógica de decisões 
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 No desenvolvimento guiado por testes (*Test-Driven Development* - TDD) e na criação de suítes de testes unitários isolados, utilizam-se diferentes tipos de dublês de teste (*Test Doubles*). O dublê que é configurado especificamente com expectativas prévias sobre quais métodos devem ser chamados, com quais argumentos e quantas vezes, fazendo com que o teste falhe caso essas interações não ocorram conforme esperado, é denominado:
 
-* A) Dummy.
-* B) Stub.
-* C) Mock.
-* D) Fake.
-* E) Driver.
+* **A)** Dummy.
+* **B)** Stub.
+* **C)** Mock.
+* **D)** Fake.
+* **E)** Driver.
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** O Dummy é um objeto utilizado unicamente para preencher argumentos exigidos por assinaturas de construtores ou métodos, sem jamais ser executado na lógica.
 > - **B) Incorreta.** O Stub fornece respostas fixas pré-programadas para chamadas feitas durante o teste, mas não verifica expectativas de quantas vezes ou com quais argumentos foi chamado.
 > - **C) CORRETA.** Conforme a classificação formal de Gerard Meszaros e Martin Fowler, o **Mock** é um dublê de teste orientado à verificação de comportamento. Ele é configurado previamente com expectativas estritas de chamadas e parâmetros; ao final da execução do teste, o mock valida se os métodos esperados foram acionados na quantidade e ordem programadas, reprovando o teste caso haja desvio.
@@ -336,13 +342,14 @@ No desenvolvimento guiado por testes (*Test-Driven Development* - TDD) e na cria
 **(FCC – SEFAZ – Auditor de Tecnologia da Informação)**  
 Uma equipe de testes de software planeja a execução de testes não-funcionais de desempenho em um portal tributário que receberá declarações fiscais. Para verificar o comportamento do sistema quando submetido a uma carga que ultrapassa intencionalmente a capacidade operacional máxima para a qual foi projetado, com o objetivo de observar como o sistema se comporta sob falha, se degrada graciosamente e como se recupera após a remoção da sobrecarga extrema, deve ser planejado um:
 
-* A) Teste de Carga (*Load Testing*).
-* B) Teste de Estresse (*Stress Testing*).
-* C) Teste de Aceitação de Usuário (*UAT*).
-* D) Teste de Sanidade (*Sanity Testing*).
-* E) Teste de Fumaça (*Smoke Testing*).
+* **A)** Teste de Carga (*Load Testing*).
+* **B)** Teste de Estresse (*Stress Testing*).
+* **C)** Teste de Aceitação de Usuário (*UAT*).
+* **D)** Teste de Sanidade (*Sanity Testing*).
+* **E)** Teste de Fumaça (*Smoke Testing*).
 
 > **Comentário Detalhado:**
+>
 > - **A) Incorreta.** O Teste de Carga avalia o sistema dentro das condições esperadas normais e nos picos previstos de projeto, sem o objetivo proposital de colapsar o ambiente.
 > - **B) CORRETA.** O **Teste de Estresse (*Stress Testing*)** submete deliberadamente o software a volumes de requisições e cargas que ultrapassam a sua capacidade física projetada. O objetivo fundamental é observar o modo como o sistema se comporta sob colapso (garantindo que ele degrade graciosamente sem corromper dados) e verificar se ele é capaz de se recuperar autonomamente após o término do estresse.
 > - **C) Incorreta.** O UAT é o teste final de homologação pelos usuários para validar se os requisitos de negócio foram atendidos.

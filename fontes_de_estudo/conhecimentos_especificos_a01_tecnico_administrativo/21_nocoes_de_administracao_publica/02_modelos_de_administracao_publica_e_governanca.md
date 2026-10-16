@@ -27,27 +27,26 @@
 ---
 
 ## 🧭 Sumário Interativo
-
-- [1. Evolução Histórica dos Modelos de Gestão Pública](#1-evolução-histórica-dos-modelos-de-gestão-pública)
+- [1. Evolução Histórica dos Modelos de Gestão Pública](#1-evolucao-historica-dos-modelos-de-gestao-publica)
     - [1.1 Modelo Patrimonialista](#11-modelo-patrimonialista)
-    - [1.2 Modelo Burocrático Weberiano](#12-modelo-burocrático-weberiano)
-    - [1.3 Modelo Gerencial (*New Public Management* - NPM)](#13-modelo-gerencial-new-public-management---npm)
-    - [1.4 Quadro Analítico Comparativo dos Três Modelos](#14-quadro-analítico-comparativo-dos-três-modelos)
-- [2. As Disfunções da Burocracia (Robert Merton)](#2-as-disfunções-da-burocracia-robert-merton)
+    - [1.2 Modelo Burocrático Weberiano](#12-modelo-burocratico-weberiano)
+    - [1.3 Modelo Gerencial (*New Public Management* - NPM)](#13-modelo-gerencial-new-public-management-npm)
+    - [1.4 Quadro Analítico Comparativo dos Três Modelos](#14-quadro-analitico-comparativo-dos-tres-modelos)
+- [2. As Disfunções da Burocracia (Robert Merton)](#2-as-disfuncoes-da-burocracia-robert-merton)
 - [3. A Reforma Gerencial Brasileira de 1995 (PDRAE)](#3-a-reforma-gerencial-brasileira-de-1995-pdrae)
     - [3.1 Os Quatro Setores do Estado](#31-os-quatro-setores-do-estado)
-    - [3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)](#32-o-mecanismo-da-publicização-e-as-organizações-sociais-os)
-- [4. As Dimensões do Desempenho Público (Os 6Es da Gestão)](#4-as-dimensões-do-desempenho-público-os-6es-da-gestão)
-    - [4.1 Economicidade, Eficiência, Eficácia e Efetividade](#41-economicidade-eficiência-eficácia-e-efetividade)
-- [5. Governança, Governabilidade e Accountability](#5-governança-governabilidade-e-accountability)
-    - [5.1 Governabilidade vs. Governança (Distinção Crítica FCC)](#51-governabilidade-vs-governança-distinção-crítica-fcc)
-    - [5.2 Dimensões da Accountability (Vertical, Horizontal e Social)](#52-dimensões-da-accountability-vertical-horizontal-e-social)
-- [6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)](#6-transparência-pública-e-a-lei-de-acesso-à-informação-lei-nº-125272011)
-    - [6.1 Transparência Ativa vs. Transparência Passiva](#61-transparência-ativa-vs-transparência-passiva)
-    - [6.2 Prazos de Atendimento e Desnecessidade de Motivação](#62-prazos-de-atendimento-e-desnecessidade-de-motivação)
-    - [6.3 Graus e Prazos Máximos de Sigilo Documental](#63-graus-e-prazos-máximos-de-sigilo-documental)
-- [7. Fontes Oficiais & Referências Bibliográficas](#7-fontes-oficiais--referências-bibliográficas)
-- [8. Questões Comentadas no Padrão FCC](#8-questões-comentadas-no-padrão-fcc)
+    - [3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)](#32-o-mecanismo-da-publicizacao-e-as-organizacoes-sociais-os)
+- [4. As Dimensões do Desempenho Público (Os 6Es da Gestão)](#4-as-dimensoes-do-desempenho-publico-os-6es-da-gestao)
+    - [4.1 Economicidade, Eficiência, Eficácia e Efetividade](#41-economicidade-eficiencia-eficacia-e-efetividade)
+- [5. Governança, Governabilidade e Accountability](#5-governanca-governabilidade-e-accountability)
+    - [5.1 Governabilidade vs. Governança (Distinção Crítica FCC)](#51-governabilidade-vs-governanca-distincao-critica-fcc)
+    - [5.2 Dimensões da Accountability (Vertical, Horizontal e Social)](#52-dimensoes-da-accountability-vertical-horizontal-e-social)
+- [6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)](#6-transparencia-publica-e-a-lei-de-acesso-a-informacao-lei-no-125272011)
+    - [6.1 Transparência Ativa vs. Transparência Passiva](#61-transparencia-ativa-vs-transparencia-passiva)
+    - [6.2 Prazos de Atendimento e Desnecessidade de Motivação](#62-prazos-de-atendimento-e-desnecessidade-de-motivacao)
+    - [6.3 Graus e Prazos Máximos de Sigilo Documental](#63-graus-e-prazos-maximos-de-sigilo-documental)
+- [7. Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
+- [8. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -266,7 +265,9 @@ As informações cuja divulgação possa colocar em risco a segurança da socied
 A respeito da evolução dos modelos de administração pública e das reformas administrativas contemporâneas, considere as afirmativas a seguir:
 
 I. O modelo burocrático weberiano introduziu a impessoalidade e o mérito no serviço público com o objetivo de combater as práticas clientelistas e patrimonialistas da administração tradicional.  
+
 II. A governabilidade traduz a capacidade financeira, operacional e técnica do Estado de implementar políticas públicas planejadas, ao passo que a governança expressa as condições políticas de sustentação parlamentar do governo.  
+
 III. No modelo gerencial de administração pública, o controle estatal privilegia a avaliação dos resultados e o cumprimento de metas contratuais em detrimento do controle prévio e rígido dos processos procedimentais.  
 
 Está correto o que se afirma em:
@@ -278,12 +279,13 @@ Está correto o que se afirma em:
 * **E)** I, II e III.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O item III também está correto, tornando a opção incompleta.
 > - **B)** Incorreta. O item II traz um erro conceitual grave ao inverter as definições de governança e governabilidade.
 > - **C)** Correta.  
->   - O item I é verdadeiro: a burocracia weberiana surgiu historicamente para combater a apropriação privada do Estado pelo patrimonialismo, mediante mérito, concurso público e regras impessoais;  
->   - O item II é falso: governança é a capacidade técnica e gerencial de execução, enquanto governabilidade refere-se às condições políticas de sustentação no parlamento;  
->   - O item III é verdadeiro: o gerencialismo foca na avaliação a posteriori dos resultados e cumprimento de metas, flexibilizando os controles prévios processuais.  
+>     - O item I é verdadeiro: a burocracia weberiana surgiu historicamente para combater a apropriação privada do Estado pelo patrimonialismo, mediante mérito, concurso público e regras impessoais;  
+>     - O item II é falso: governança é a capacidade técnica e gerencial de execução, enquanto governabilidade refere-se às condições políticas de sustentação no parlamento;  
+>     - O item III é verdadeiro: o gerencialismo foca na avaliação a posteriori dos resultados e cumprimento de metas, flexibilizando os controles prévios processuais.  
 >   Portanto, estão corretos apenas os itens I e III.
 > - **D)** Incorreta. O item II é flagrantemente falso.
 > - **E)** Incorreta. O item II invalida a assertiva geral.
@@ -302,6 +304,7 @@ Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a res
 * **E)** A transparência ativa refere-se exclusivamente às informações fornecidas pelo poder público em resposta a pedidos protocolados via ouvidoria geral.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O prazo legal fixado pelo art. 11, §§ 1º e 2º da LAI é de até 20 dias, admitindo-se prorrogação justificada por mais 10 dias.
 > - **B)** Correta. Conforme o art. 24, § 1º, III da Lei nº 12.527/2011, as informações no grau reservado ficam submetidas ao prazo de restrição máxima de até 5 (cinco) anos.
 > - **C)** Incorreta. O art. 10, § 3º da LAI proíbe expressamente qualquer exigência de justificação ou demonstração de interesse jurídico para pedidos de informação pública.
@@ -322,6 +325,7 @@ A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas d
 * **E)** Primária, caracterizada pelo exercício direto do sufrágio universal e do voto popular nas urnas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Não existe hierarquia entre o Tribunal de Contas e os Poderes; a relação é de equilíbrio e controle constitucional autônomo.
 > - **B)** Incorreta. A atuação de ONGs e imprensa caracteriza accountability social (societal).
 > - **C)** Correta. A accountability horizontal (formulada teoricamente por Guillermo O'Donnell) traduz o controle mútuo exercido entre órgãos públicos independentes dotados de poderes constitucionais de fiscalização e freios e contrapesos (como os Tribunais de Contas, o Ministério Público e o Poder Judiciário) sobre as contas e atos de outros órgãos de Estado.
@@ -342,6 +346,7 @@ O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, prop�
 * **E)** Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcional e dos Tribunais de Contas.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Atividades exclusivas abrangem polícia, arrecadação, fiscalização e regulação.
 > - **B)** Incorreta. Núcleo Estratégico é composto pela cúpula dos Poderes (Presidência, Ministérios, Cúpula dos Tribunais).
 > - **C)** Correta. No modelo do PDRAE (1995), a saúde, educação, cultura e pesquisa científica são classificadas como Serviços Não Exclusivos do Estado, uma vez que o setor privado também atua livremente nessas áreas. A diretriz preconizada para esse setor foi a publicização, isto é, a descentralização de sua gestão para entidades do terceiro setor qualificadas como Organizações Sociais (OS), mediante contratos de gestão.
@@ -368,11 +373,12 @@ As constatações 1, 2 e 3 correspondem, respectivamente, aos conceitos de:
 * **E)** Eficiência, Efetividade e Eficácia.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Inverte a ordem das duas primeiras dimensões.
 > - **B)** Correta.  
->   - Constatação 1 (Eficiência): Atingir o menor custo por aluno sem desperdícios operacionais expressa a otimização da relação entre insumos e produtos (fazer certo as coisas), traduzindo a Eficiência;  
->   - Constatação 2 (Eficácia): Cumprir integralmente a meta planejada de matricular e formar 2.000 pessoas expressa o atingimento das saídas quantitativas (fazer a coisa certa), traduzindo a Eficácia;  
->   - Constatação 3 (Efetividade): Gerar inserção no mercado de trabalho formal e aumento real da renda familiar reflete o impacto social duradouro e a transformação da realidade coletiva, consubstanciando a Efetividade.  
+>     - Constatação 1 (Eficiência): Atingir o menor custo por aluno sem desperdícios operacionais expressa a otimização da relação entre insumos e produtos (fazer certo as coisas), traduzindo a Eficiência;  
+>     - Constatação 2 (Eficácia): Cumprir integralmente a meta planejada de matricular e formar 2.000 pessoas expressa o atingimento das saídas quantitativas (fazer a coisa certa), traduzindo a Eficácia;  
+>     - Constatação 3 (Efetividade): Gerar inserção no mercado de trabalho formal e aumento real da renda familiar reflete o impacto social duradouro e a transformação da realidade coletiva, consubstanciando a Efetividade.  
 >   Logo, a ordem precisa é Eficiência, Eficácia e Efetividade.
 > - **C)** Incorreta. Efetividade é a terceira constatação e não a primeira.
 > - **D)** Incorreta. Mistura as categorias e inverte os conceitos de impacto social.

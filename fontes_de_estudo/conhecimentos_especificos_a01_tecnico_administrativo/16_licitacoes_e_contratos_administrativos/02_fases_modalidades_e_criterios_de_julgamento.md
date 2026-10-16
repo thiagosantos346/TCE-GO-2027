@@ -19,29 +19,28 @@
 ---
 
 ## 🧭 Sumário
-
-- [1. Fases e Rito Procedimental na Lei Federal nº 14.133/2021](#1-fases-e-rito-procedimental-na-lei-federal-nº-141332021)
-    - [1.1 Sequência Cronológica Canônica (Art. 17)](#11-sequência-cronológica-canônica-art-17)
-    - [1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor](#12-a-inversão-de-fases-e-a-habilitação-exclusiva-do-vencedor)
-    - [1.3 Fase Recursal Única e Concentrada (Art. 165)](#13-fase-recursal-única-e-concentrada-art-165)
-- [2. As Cinco Modalidades Licitatórias Modernas (Art. 28)](#2-as-cinco-modalidades-licitatórias-modernas-art-28)
-    - [2.1 Pregão: Bens e Serviços Comuns de Engenharia e Consumo](#21-pregão-bens-e-serviços-comuns-de-engenharia-e-consumo)
-    - [2.2 Concorrência: Bens e Serviços Especiais e Obras](#22-concorrência-bens-e-serviços-especiais-e-obras)
-    - [2.3 Concurso: Premiação de Trabalhos Técnicos e Artísticos](#23-concurso-premiação-de-trabalhos-técnicos-e-artísticos)
-    - [2.4 Leilão: A Nova Sistemática para Móveis Inservíveis e Imóveis](#24-leilão-a-nova-sistemática-para-móveis-inservíveis-e-imóveis)
-    - [2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)](#25-diálogo-competitivo-inovação-rito-e-comissão-efetiva-art-32)
-    - [2.6 A Extinção Definitiva da Tomada de Preços e do Convite](#26-a-extinção-definitiva-da-tomada-de-preços-e-do-convite)
-- [3. Critérios de Julgamento das Propostas (Art. 33)](#3-critérios-de-julgamento-das-propostas-art-33)
-    - [3.1 Menor Preço e Maior Desconto](#31-menor-preço-e-maior-desconto)
-    - [3.2 Melhor Técnica ou Conteúdo Artístico](#32-melhor-técnica-ou-conteúdo-artístico)
-    - [3.3 Técnica e Preço e o Limite de Ponderação](#33-técnica-e-preço-e-o-limite-de-ponderação)
-    - [3.4 Maior Lance (Privativo do Leilão)](#34-maior-lance-privativo-do-leilão)
-    - [3.5 Maior Retorno Econômico e os Contratos de Eficiência (Art. 39)](#35-maior-retorno-econômico-e-os-contratos-de-eficiência-art-39)
-- [4. Modos de Disputa e Prazos Mínimos de Divulgação do Edital](#4-modos-de-disputa-e-prazos-mínimos-de-divulgação-do-edital)
-    - [4.1 Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)](#41-modos-de-disputa-aberto-fechado-e-combinações-art-56)
-    - [4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)](#42-prazos-mínimos-de-apresentação-de-propostas-art-55)
+- [1. Fases e Rito Procedimental na Lei Federal nº 14.133/2021](#1-fases-e-rito-procedimental-na-lei-federal-no-141332021)
+    - [1.1 Sequência Cronológica Canônica (Art. 17)](#11-sequencia-cronologica-canonica-art-17)
+    - [1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor](#12-a-inversao-de-fases-e-a-habilitacao-exclusiva-do-vencedor)
+    - [1.3 Fase Recursal Única e Concentrada (Art. 165)](#13-fase-recursal-unica-e-concentrada-art-165)
+- [2. As Cinco Modalidades Licitatórias Modernas (Art. 28)](#2-as-cinco-modalidades-licitatorias-modernas-art-28)
+    - [2.1 Pregão: Bens e Serviços Comuns de Engenharia e Consumo](#21-pregao-bens-e-servicos-comuns-de-engenharia-e-consumo)
+    - [2.2 Concorrência: Bens e Serviços Especiais e Obras](#22-concorrencia-bens-e-servicos-especiais-e-obras)
+    - [2.3 Concurso: Premiação de Trabalhos Técnicos e Artísticos](#23-concurso-premiacao-de-trabalhos-tecnicos-e-artisticos)
+    - [2.4 Leilão: A Nova Sistemática para Móveis Inservíveis e Imóveis](#24-leilao-a-nova-sistematica-para-moveis-inserviveis-e-imoveis)
+    - [2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)](#25-dialogo-competitivo-inovacao-rito-e-comissao-efetiva-art-32)
+    - [2.6 A Extinção Definitiva da Tomada de Preços e do Convite](#26-a-extincao-definitiva-da-tomada-de-precos-e-do-convite)
+- [3. Critérios de Julgamento das Propostas (Art. 33)](#3-criterios-de-julgamento-das-propostas-art-33)
+    - [3.1 Menor Preço e Maior Desconto](#31-menor-preco-e-maior-desconto)
+    - [3.2 Melhor Técnica ou Conteúdo Artístico](#32-melhor-tecnica-ou-conteudo-artistico)
+    - [3.3 Técnica e Preço e o Limite de Ponderação](#33-tecnica-e-preco-e-o-limite-de-ponderacao)
+    - [3.4 Maior Lance (Privativo do Leilão)](#34-maior-lance-privativo-do-leilao)
+    - [3.5 Maior Retorno Econômico e os Contratos de Eficiência (Art. 39)](#35-maior-retorno-economico-e-os-contratos-de-eficiencia-art-39)
+- [4. Modos de Disputa e Prazos Mínimos de Divulgação do Edital](#4-modos-de-disputa-e-prazos-minimos-de-divulgacao-do-edital)
+    - [4.1 Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)](#41-modos-de-disputa-aberto-fechado-e-combinacoes-art-56)
+    - [4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)](#42-prazos-minimos-de-apresentacao-de-propostas-art-55)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas & Exemplos (Padrão FCC)](#6-questões-comentadas--exemplos-padrão-fcc)
+- [6. Questões Comentadas & Exemplos (Padrão FCC)](#6-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -137,6 +136,7 @@ Modalidade moderna instituída pela NLLC, restrita a contratações de alta comp
 - **Estrutura em Duas Fases:**
     1. *Fase de Diálogos:* O edital publica os objetivos do órgão; os licitantes pré-selecionados debatem com a comissão técnica em reuniões gravadas para construir alternativas metodológicas;
     2. *Fase Competitiva Final:* Concluído o diálogo, abre-se a disputa final de propostas comerciais e técnicas com base na solução construída;
+
 - **Condução Obrigatória por Comissão Efetiva:** O Diálogo Competitivo deve ser conduzido **obrigatoriamente por comissão de contratação composta de, no mínimo, 3 (três) servidores efetivos ou empregados permanentes** (art. 32, XI).
 
 ### 2.6 A Extinção Definitiva da Tomada de Preços e do Convite
@@ -176,6 +176,7 @@ Critério inovador privativo da celebração de **Contratos de Eficiência**:
 - **Composição da Proposta:** A proposta do licitante traz:
     1. A estimativa de economia financeira gerada para a Administração; e
     2. O percentual dessa economia que reterá como remuneração de seus serviços;
+
 - O julgamento apura a **maior vantagem econômica líquida**: maior economia estimada menos a remuneração cobrada. Se a economia real aferida for menor que a proposta pelo licitante, a diferença é glosada e descontada de sua fatura.
 
 ---
@@ -236,6 +237,7 @@ Considerando as modalidades de licitação positivadas na Lei Federal nº 14.133
 * **E)** A alienação de patrimônio imobiliário de tribunais dispensa qualquer modalidade licitatória, ocorrendo por doação direta compulsória.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. A Tomada de Preços foi formalmente extinta pela Lei nº 14.133/2021, e a Concorrência não é mais a modalidade aplicável para alienação de imóveis na NLLC.
 > - **B)** Correta. De acordo com o art. 28, § 2º, c/c art. 31 da Lei Federal nº 14.133/2021, o **Leilão** é a modalidade de licitação obrigatória para a alienação de bens móveis inservíveis ou legalmente apreendidos e de **quaisquer bens imóveis** da Administração Pública. Seu critério de julgamento exclusivo é o **Maior Lance** (igual ou superior ao valor de avaliação prévia), unificando todo o procedimento de desinvestimento patrimonial do Estado.
 > - **C)** Incorreta. O Diálogo Competitivo destina-se à contratação de soluções de alta tecnologia e obras complexas, não à venda de imóveis.
@@ -258,6 +260,7 @@ Em conformidade com a sequência de fases prevista no art. 17 da Lei Federal nº
 * **E)** A inversão de fases é ato privativo do Poder Judiciário deferido em mandado de segurança preventivo.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Correta. O art. 17 da Lei Federal nº 14.133/2021 estabelece a ordem cronológica legal das fases da licitação: Preparatória $\rightarrow$ Divulgação $\rightarrow$ Propostas e lances $\rightarrow$ **Julgamento** $\rightarrow$ **Habilitação** $\rightarrow$ Recursal $\rightarrow$ Homologação. A regra geral impõe a **inversão de fases**: primeiro classificam-se as propostas e, em seguida, procede-se ao exame da documentação de habilitação **exclusivamente do licitante que obteve o primeiro lugar**. Conferir previamente os documentos de 40 empresas viola a sistemática legal de eficiência e celeridade da NLLC.
 > - **B)** Incorreta. A conferência prévia universal era a regra do regime revogado da Lei 8.666/93, superada pela NLLC.
 > - **C)** Incorreta. A fase de habilitação permanece obrigatória para o primeiro colocado classificado.
@@ -280,6 +283,7 @@ Para a hipótese descrita, a modalidade de licitação adequada prevista na Lei 
 * **E)** Inexigibilidade compulsória de licitação sem disputa
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O pregão pressupõe que o objeto seja comum e que suas especificações possam ser objetivamente pré-fixadas no edital, o que é inviável na contratação de soluções de vanguarda e alta complexidade tecnológica.
 > - **B)** Correta. De acordo com o art. 32 da Lei Federal nº 14.133/2021, o **Diálogo Competitivo** é a modalidade própria para contratações que envolvam: I - inovação tecnológica ou técnica; II - impossibilidade de a Administração ter sua necessidade satisfeita sem a adaptação de soluções disponíveis no mercado; e III - impossibilidade de as especificações técnicas serem definidas com precisão suficiente pela Administração. O modelo desenvolve-se em duas etapas (diálogos estruturados seguidos de fase competitiva de propostas finais).
 > - **C)** Incorreta. O concurso serve para escolher trabalhos prontos (projetos arquitetônicos, obras literárias) mediante concessão de prêmio, e não para contratar serviços integrados de TI.
@@ -302,6 +306,7 @@ Nos termos do art. 29 da Lei Federal nº 14.133/2021, para a contratação de **
 * **E)** É dispensada a exigência de termo de referência ou projeto básico.
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. Concurso é privativo de trabalhos técnicos, científicos ou artísticos com prêmio, não se aplicando a obras ou reformas viárias.
 > - **B)** Correta. O art. 29 da Lei Federal nº 14.133/2021 estabelece categoricamente: *"A licitação de bens e serviços comuns, incluídos os serviços comuns de engenharia, deverá ser realizada obrigatoriamente sob a modalidade pregão, admitida a concorrência se a administração assim o preferir."* Se o serviço de engenharia é rotineiro e padronizado em manuais usuais de mercado (serviço comum de engenharia), o pregão é a modalidade mandatória, adotando-se exclusivamente os critérios de **Menor Preço** ou **Maior Desconto**.
 > - **C)** Incorreta. A NLLC pacifica expressamente a admissibilidade do pregão para serviços comuns de engenharia, pondo fim a antigas controvérsias judiciais da vigência da Lei 8.666/93.
@@ -324,6 +329,7 @@ Para essa contratação, a Lei Federal nº 14.133/2021 prescreve o critério de 
 * **E)** Maior Desconto linear sobre a tarifa comercial da distribuidora de energia
 
 > **Comentário Detalhado:**
+>
 > - **A)** Incorreta. O menor preço avalia apenas o desembolso inicial, sendo inadequado para mensurar a eficiência energética futura gerada pela empresa.
 > - **B)** Correta. O art. 33, inciso VI, c/c art. 39 da Lei Federal nº 14.133/2021 institui o critério de **Maior Retorno Econômico**, que é utilizado exclusivamente para a celebração de **contratos de eficiência**. As propostas são julgadas com base na maior vantagem econômica líquida para o Poder Público (a economia financeira estimada gerada para a Administração deduzida a parcela que o licitante cobrará a título de remuneração de seus serviços).
 > - **C)** Incorreta. O julgamento vincula-se ao retorno econômico mensurável gerado nos custos do órgão, e não unicamente à capacitação técnica formal de currículos.
