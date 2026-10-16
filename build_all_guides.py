@@ -10,12 +10,15 @@ Gera os 3 PDFs finais indexados:
 import os
 import re
 import sys
+import json
 import time
 import shutil
 import subprocess
 import uuid
+import unicodedata
 import markdown
 import pypdf
+from bs4 import BeautifulSoup
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FONTES_DIR = os.path.join(BASE_DIR, "fontes_de_estudo")
@@ -319,51 +322,232 @@ MANDATORY_CSS = get_base_css()
 COMPLEMENTARY_CSS = ""
 
 def remove_emojis_for_pdf(text):
-    """Remove emojis Unicode sem destruir quebras de linha Markdown ('  \n') ou indentação."""
-    emoji_pattern = re.compile(
-        "["
-        "\U00010000-\U0010FFFF"
-        "\u2600-\u27BF"
-        "\u2300-\u23FF"
-        "]+",
-        flags=re.UNICODE
-    )
-    cleaned = emoji_pattern.sub("", text)
-    # Colapsar apenas espaços repetidos estritamente dentro de uma linha (preservando início e fim de linha)
-    cleaned = re.sub(r'(?<=\S)[ \t]{2,}(?=\S)', ' ', cleaned)
-    return cleaned
+    """Preserva 100% dos emoticons, símbolos Unicode e espaçamentos de indentação."""
+    return text
+
+
+def normalize_slug(text):
+    """Normaliza string para slug ASCII sem acentos e sem emojis."""
+    text = re.sub(r'[\*`\$]', '', text)
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9\s-]', '', text)
+    text = re.sub(r'[\s-]+', '-', text).strip('-')
+    return text or "sec"
+
+
+def adjust_mermaid_svg_size(svg_content):
+    """Ajusta dinamicamente o tamanho do SVG do Mermaid a partir da razão w / h do viewBox."""
+    soup = BeautifulSoup(svg_content, "html.parser")
+    svg = soup.find("svg")
+    if not svg:
+        return svg_content
+
+    if svg.has_attr("width"):
+        del svg["width"]
+    if svg.has_attr("height"):
+        del svg["height"]
+
+    w, h = 0.0, 0.0
+    vb = svg.get("viewBox") or svg.get("viewbox")
+    if vb:
+        parts = [p for p in re.split(r'[\s,]+', vb.strip()) if p]
+        if len(parts) == 4:
+            try:
+                w = float(parts[2])
+                h = float(parts[3])
+            except ValueError:
+                pass
+
+    if w > 0 and h > 0:
+        ratio = w / h
+        if ratio > 2.5:
+            svg["style"] = "width: 100%; max-width: 920px; height: auto; min-height: 180px; display: block; margin: 0 auto;"
+        else:
+            svg["style"] = "width: 100%; max-width: 760px; height: auto; min-height: 240px; display: block; margin: 0 auto;"
+    return str(soup)
+
+
+HAS_MMDC = shutil.which("mmdc") is not None
+
 
 def render_mermaid_to_svg(code):
-    """Renderiza código Mermaid para SVG via Mermaid CLI (mmdc)."""
+    """Renderiza código Mermaid para SVG via Mermaid CLI (mmdc) com configuração padronizada."""
+    if not HAS_MMDC:
+        safe_code = code.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        return f'<pre class="mermaid">\n{safe_code}\n</pre>'
     uid = uuid.uuid4().hex[:8]
     temp_mmd = f"temp_{uid}.mmd"
     temp_svg = f"temp_{uid}.svg"
+    temp_cfg = f"temp_{uid}_cfg.json"
+    mermaid_cfg = {
+        "theme": "default",
+        "themeVariables": {"fontSize": "15px"},
+        "flowchart": {
+            "htmlLabels": True,
+            "useMaxWidth": False,
+            "wrappingWidth": 200,
+            "nodeSpacing": 35,
+            "rankSpacing": 45
+        }
+    }
     try:
         with open(temp_mmd, "w", encoding="utf-8") as f:
             f.write(code)
+        with open(temp_cfg, "w", encoding="utf-8") as f:
+            json.dump(mermaid_cfg, f)
         subprocess.run(
-            ["mmdc", "-i", temp_mmd, "-o", temp_svg, "-b", "transparent"],
+            ["mmdc", "-i", temp_mmd, "-o", temp_svg, "-c", temp_cfg, "-b", "transparent"],
             check=True,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
             shell=(sys.platform == "win32")
         )
         with open(temp_svg, "r", encoding="utf-8") as f:
-            svg_content = f.read()
+            svg_content = adjust_mermaid_svg_size(f.read())
         return f'<div class="mermaid-svg-wrapper">\n{svg_content}\n</div>'
     except Exception:
         safe_code = code.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         return f'<pre class="mermaid">\n{safe_code}\n</pre>'
     finally:
-        for tmp_file in (temp_mmd, temp_svg):
+        for tmp_file in (temp_mmd, temp_svg, temp_cfg):
             if os.path.exists(tmp_file):
                 try:
                     os.remove(tmp_file)
                 except OSError:
                     pass
 
-def process_markdown(raw_md):
-    """Compila Markdown preservando blocos Mermaid, LaTeX matemático e envelopando questões."""
+
+def postprocess_topic_html(html, topic_id):
+    """Pós-processamento determinístico de HTML para Sumário bidirecional, listas e links."""
+    soup = BeautifulSoup(html, "html.parser")
+
+    # 1. Normalizar e prefixar IDs de todos os cabeçalhos (h1, h2, h3, h4) garantindo unicidade
+    used_slugs = {}
+    headings_info = []  # (tag, slug, text, sec_num)
+    sumario_heading = None
+
+    for h in soup.find_all(["h1", "h2", "h3", "h4"]):
+        htext = h.get_text().strip()
+        base_slug = normalize_slug(htext)
+        if base_slug in used_slugs:
+            used_slugs[base_slug] += 1
+            slug = f"{base_slug}-{used_slugs[base_slug]}"
+        else:
+            used_slugs[base_slug] = 1
+            slug = base_slug
+
+        h["id"] = f"{topic_id}_{slug}"
+
+        if h.name in ("h2", "h3") and base_slug in ("sumario", "sumario-interativo"):
+            sumario_heading = h
+            continue
+
+        m_num = re.match(r'^(?:[^\w\d\s]+\s*)*(\d+(?:\.\d+)*)\.?\s+', htext)
+        sec_num = m_num.group(1) if m_num else None
+        headings_info.append((h, slug, htext, sec_num))
+
+    # 2. Formatar lista do Sumário (ul.sumario-list) e configurar links de ida e volta
+    toc_slug_to_id = {}
+    sumario_ul = None
+    if sumario_heading:
+        nxt = sumario_heading.find_next_sibling()
+        while nxt and nxt.name not in ("ul", "ol", "h1", "h2", "h3", "hr"):
+            nxt = nxt.find_next_sibling()
+        if nxt and nxt.name in ("ul", "ol"):
+            nxt.name = "ul"
+            classes = nxt.get("class", [])
+            if "sumario-list" not in classes:
+                classes.append("sumario-list")
+            nxt["class"] = classes
+            sumario_ul = nxt
+
+            used_toc_ids = set()
+            for a in sumario_ul.find_all("a", href=True):
+                href = a["href"].strip()
+                if not href.startswith("#"):
+                    continue
+                raw_target_slug = normalize_slug(href[1:])
+                link_text = a.get_text().strip()
+                link_text_slug = normalize_slug(link_text)
+                m_tnum = re.match(r'^(\d+(?:\.\d+)*)\.?\s+(.*)$', link_text)
+                tnum = m_tnum.group(1) if m_tnum else None
+                trest_slug = normalize_slug(m_tnum.group(2)) if m_tnum else link_text_slug
+
+                matched_slug = None
+                for _, bslug, _, _ in headings_info:
+                    if bslug == raw_target_slug:
+                        matched_slug = bslug
+                        break
+                if not matched_slug:
+                    for _, bslug, _, bnum in headings_info:
+                        if (tnum and bnum == tnum) or bslug == link_text_slug or bslug == trest_slug or (trest_slug and len(trest_slug) >= 10 and trest_slug[:15] in bslug):
+                            matched_slug = bslug
+                            break
+                if not matched_slug and headings_info:
+                    matched_slug = raw_target_slug
+
+                a["href"] = f"#{topic_id}_{matched_slug}"
+                toc_id = f"toc_{topic_id}_{matched_slug}"
+                if toc_id in used_toc_ids:
+                    k = 2
+                    while f"{toc_id}-{k}" in used_toc_ids:
+                        k += 1
+                    toc_id = f"{toc_id}-{k}"
+                used_toc_ids.add(toc_id)
+                a["id"] = toc_id
+                toc_slug_to_id[matched_slug] = toc_id
+
+    # Envolver o conteúdo de cada <h2>, <h3> e <h4> do corpo em <a class="heading-backlink">
+    fallback_toc_id = sumario_heading["id"] if sumario_heading else f"{topic_id}"
+    for h, slug, htext, _ in headings_info:
+        if h.name in ("h2", "h3", "h4"):
+            back_id = toc_slug_to_id.get(slug, fallback_toc_id)
+            back_a = soup.new_tag("a", href=f"#{back_id}", **{"class": "heading-backlink", "title": "Voltar ao Sumário"})
+            for child in list(h.contents):
+                back_a.append(child.extract())
+            h.append(back_a)
+
+    # 3. Adicionar classe options-list em todas as listas <ul> de alternativas de questões (A) a E))
+    opt_re = re.compile(r'^\s*(?:\([A-E]\)|[A-E]\))\s+')
+    for ul in soup.find_all("ul"):
+        if "sumario-list" in ul.get("class", []):
+            continue
+        lis = ul.find_all("li", recursive=False)
+        if lis and any(opt_re.match(li.get_text()) for li in lis):
+            classes = ul.get("class", [])
+            if "options-list" not in classes:
+                classes.append("options-list")
+            ul["class"] = classes
+
+    # 4. Garantia contra listas achatadas residuais em <p> e <li>
+    embedded_marker_re = re.compile(r'\n\s*(?:[-*+]|\d+\.|[IVX]+\.)\s+')
+    for tag in soup.find_all(["p", "li"]):
+        if tag.find(["ul", "ol", "pre", "table"]):
+            continue
+        raw_txt = tag.get_text()
+        if embedded_marker_re.search(raw_txt):
+            inner_html = tag.decode_contents()
+            parts = re.split(r'(?:<br\s*/?>)?\s*\n\s*(?=(?:[-*+]|\d+\.|[IVX]+\.)\s+)', inner_html)
+            if len(parts) > 1:
+                new_html = parts[0] + "".join(f'<div class="nested-item">{p.strip()}</div>' for p in parts[1:])
+                new_frag = BeautifulSoup(new_html, "html.parser")
+                tag.clear()
+                for child in list(new_frag.contents):
+                    tag.append(child.extract())
+
+    # 5. Links externos em nova guia
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if href.startswith("http://") or href.startswith("https://"):
+            a["target"] = "_blank"
+            a["rel"] = "noopener noreferrer"
+
+    return str(soup)
+
+
+def process_markdown(raw_md, topic_id="topic_1"):
+    """Compila Markdown preservando emojis, blocos Mermaid, LaTeX matemático e estrutura DOM."""
     text = remove_emojis_for_pdf(raw_md)
 
     # 1. Renderizar blocos Mermaid via CLI (mmdc) com fallback para <pre>
@@ -375,19 +559,25 @@ def process_markdown(raw_md):
         return f"@@@MERMAID_BLOCK_{len(mermaid_blocks)-1}@@@"
     text = re.sub(r'```mermaid(.*?)```', save_mermaid, text, flags=re.DOTALL)
 
-    # 2. Proteger símbolos de moeda
-    text = re.sub(r'R\$(?=\s*\d)', r'R&dollar;', text)
-    text = re.sub(r'US\$(?=\s*\d)', r'US&dollar;', text)
-
-    # 3. Proteger expressões matemáticas LaTeX (Display e Inline)
+    # 2. Proteger expressões matemáticas LaTeX (Display e Inline) ANTES de símbolos de moeda
     math_blocks = []
     def save_math(m):
-        math_blocks.append(m.group(0))
+        mb = m.group(0)
+        mb = re.sub(r'\\centernot\{(\\longleftrightarrow)\}', r'\\not\1', mb)
+        mb = re.sub(r'\\centernot\b', r'\\not', mb)
+        mb = re.sub(r'\\mathbf\{R\\\$\s*([^}]+)\}', r'\\text{R\\$ }\\mathbf{\1}', mb)
+        mb = re.sub(r'\\mathbf\{R\$\s*([^}]+)\}', r'\\text{R\\$ }\\mathbf{\1}', mb)
+        mb = mb.replace('R&dollar;', r'R\$')
+        math_blocks.append(mb)
         return f"@@@MATH_BLOCK_{len(math_blocks)-1}@@@"
     # Display math $$...$$
     text = re.sub(r'\$\$.*?\$\$', save_math, text, flags=re.DOTALL)
-    # Inline math $...$
-    text = re.sub(r'(?<!\\)\$(?!\s)(.+?)(?<!\s)(?<!\\)\$', save_math, text)
+    # Inline math $...$ (evitando capturar R$ ou US$ em prosa)
+    text = re.sub(r'(?<!\\)(?<!R)(?<!US)\$(?!\s)(.+?)(?<!\s)(?<!\\)\$', save_math, text)
+
+    # 3. Proteger símbolos de moeda fora das fórmulas
+    text = re.sub(r'R\$(?=\s*\d)', r'R&dollar;', text)
+    text = re.sub(r'US\$(?=\s*\d)', r'US&dollar;', text)
 
     # 4. Garantir que opções de alternativas (A a E) tenham quebra de linha individual ('  \n')
     text = re.sub(
@@ -396,7 +586,7 @@ def process_markdown(raw_md):
         text
     )
 
-    # 5. Formatar Alertas e Badges de Prova FCC
+    # 5. Formatar Alertas e Badges de Prova FCC preservando os emojis dentro do <strong class="alert-label ...">
     text = re.sub(
         r'> \*\*Gabarito:\s*([A-E])\*\*',
         r'> <span class="gabarito-badge">GABARITO OFICIAL: \1</span>  \n>',
@@ -409,17 +599,37 @@ def process_markdown(raw_md):
         flags=re.DOTALL
     )
 
-    text = re.sub(r'> \[!NOTE\]\s*', r'> <strong class="alert-label note">[NOTA]:</strong> ', text)
-    text = re.sub(r'> \[!IMPORTANT\]\s*', r'> <strong class="alert-label important">[IMPORTANTE]:</strong> ', text)
-    text = re.sub(r'> \[!WARNING\]\s*', r'> <strong class="alert-label warning">[ALERTA DE PROVA / PEGADINHA FCC]:</strong> ', text)
-    text = re.sub(r'> \[!CAUTION\]\s*', r'> <strong class="alert-label warning">[ATENÇÃO / CUIDADO]:</strong> ', text)
-    text = re.sub(r'> \[!TIP\]\s*', r'> <strong class="alert-label tip">[DICA]:</strong> ', text)
+    text = re.sub(r'> \[!NOTE\]\s*', r'> <strong class="alert-label note">📝 [NOTA]:</strong> ', text)
+    text = re.sub(r'> \[!IMPORTANT\]\s*', r'> <strong class="alert-label important">⭐ [IMPORTANTE]:</strong> ', text)
+    text = re.sub(r'> \[!WARNING\]\s*', r'> <strong class="alert-label warning">🚨 [ALERTA DE PROVA / PEGADINHA FCC]:</strong> ', text)
+    text = re.sub(r'> \[!CAUTION\]\s*', r'> <strong class="alert-label warning">🛑 [ATENÇÃO / CUIDADO]:</strong> ', text)
+    text = re.sub(r'> \[!TIP\]\s*', r'> <strong class="alert-label tip">💡 [DICA]:</strong> ', text)
 
-    text = re.sub(r'> \*\*ALERTA DE PROVA / PEGADINHA FCC:\*\*', r'> <strong class="alert-label warning">[ALERTA DE PROVA / PEGADINHA FCC]:</strong>', text)
-    text = re.sub(r'> \*\*IMPORTANTE(.*?):\*\*', r'> <strong class="alert-label important">[IMPORTANTE\1]:</strong>', text)
-    text = re.sub(r'> \*\*NOTA EXPLICATIVA(.*?):\*\*', r'> <strong class="alert-label note">[NOTA EXPLICATIVA\1]:</strong>', text)
-    text = re.sub(r'> \*\*ATENÇÃO(.*?):\*\*', r'> <strong class="alert-label warning">[ATENÇÃO\1]:</strong>', text)
-    text = re.sub(r'> \*\*DICA(.*?):\*\*', r'> <strong class="alert-label tip">[DICA\1]:</strong>', text)
+    text = re.sub(
+        r'>[ \t]*([^\w\s\*]*)[ \t]*\*\*(ALERTA DE PROVA[^\*\n]*?):\*\*',
+        lambda m: f'> <strong class="alert-label warning">{(m.group(1) + " ") if m.group(1) else "🚨 "}[{m.group(2)}]:</strong>',
+        text
+    )
+    text = re.sub(
+        r'>[ \t]*([^\w\s\*]*)[ \t]*\*\*(IMPORTANTE[^\*\n]*?):\*\*',
+        lambda m: f'> <strong class="alert-label important">{(m.group(1) + " ") if m.group(1) else "⭐ "}[{m.group(2)}]:</strong>',
+        text
+    )
+    text = re.sub(
+        r'>[ \t]*([^\w\s\*]*)[ \t]*\*\*(NOTA EXPLICATIVA[^\*\n]*?):\*\*',
+        lambda m: f'> <strong class="alert-label note">{(m.group(1) + " ") if m.group(1) else "📝 "}[{m.group(2)}]:</strong>',
+        text
+    )
+    text = re.sub(
+        r'>[ \t]*([^\w\s\*]*)[ \t]*\*\*(ATENÇÃO[^\*\n]*?):\*\*',
+        lambda m: f'> <strong class="alert-label warning">{(m.group(1) + " ") if m.group(1) else "🛑 "}[{m.group(2)}]:</strong>',
+        text
+    )
+    text = re.sub(
+        r'>[ \t]*([^\w\s\*]*)[ \t]*\*\*(DICA[^\*\n]*?):\*\*',
+        lambda m: f'> <strong class="alert-label tip">{(m.group(1) + " ") if m.group(1) else "💡 "}[{m.group(2)}]:</strong>',
+        text
+    )
 
     # Correção do achatamento das listas dentro dos blockquotes de comentários
     text = re.sub(r'(>\s*\*\*Comentário Detalhado:\*\*\s*\n)(>\s*[-*]\s)', r'\1>\n\2', text)
@@ -436,9 +646,12 @@ def process_markdown(raw_md):
         html = html.replace(f"<p>@@@MERMAID_BLOCK_{i}@@@</p>", svg_html)
         html = html.replace(f"@@@MERMAID_BLOCK_{i}@@@", svg_html)
 
-    # 9. Envelopamento das questões comentadas em .question-card (anti-quebra de página)
-    pattern = r'(<h3>(?:<span[^>]*>)?Questão\s+\d+.*?)(?=(?:<h3>(?:<span[^>]*>)?Questão\s+\d+|<h2|<h1|\Z))'
+    # 9. Envelopamento das questões comentadas em .question-card (capturando <h3 id="...">Questão)
+    pattern = r'(<h3[^>]*>(?:<span[^>]*>)?Questão\s+\d+.*?)(?=(?:<h3[^>]*>(?:<span[^>]*>)?Questão\s+\d+|<h2|<h1|\Z))'
     html = re.sub(pattern, r'<div class="question-card">\n\1\n</div>\n', html, flags=re.DOTALL)
+
+    # 10. Pós-processamento determinístico de DOM
+    html = postprocess_topic_html(html, topic_id)
 
     return html
 
@@ -499,7 +712,7 @@ def build_target_html(target_key):
 
             toc_html.append(f'<li><a href="#{topic_id}"><span class="toc-num">{total_topics:02d}.</span> {first_line}</a></li>')
 
-            html_chunk = process_markdown(raw_md)
+            html_chunk = process_markdown(raw_md, topic_id)
 
             topic_bookmark_title = f"{total_topics:02d}. {first_line}"
             content_html.append(f'''
