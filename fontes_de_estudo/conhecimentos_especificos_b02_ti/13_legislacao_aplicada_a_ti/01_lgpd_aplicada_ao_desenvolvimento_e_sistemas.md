@@ -275,17 +275,15 @@ O Art. 48 da LGPD determina que o **Controlador** deve comunicar à Autoridade N
 
 ## 6. Fontes Recomendadas na Internet
 
-- [x] **Lei Geral de Proteção de Dados Pessoais - Lei nº 13.709/2018 (Portal do Planalto):**
-    - Link Oficial: [Texto Integral e Compilado da LGPD](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
-    - *Dispositivos Fundamentais:* Arts. 5º a 6º (Conceitos e Princípios), Arts. 7º e 11 (Bases Legais), Arts. 12 e 13 (Anonimização e Pseudonimização), Art. 18 (Direitos do Titular), Art. 23 (Setor Público), Arts. 46 a 50 (Segurança e Boas Práticas).
-- [x] **Guias Orientativos da Autoridade Nacional de Proteção de Dados (ANPD):**
-    - Link Oficial: [Publicações e Guias da ANPD](https://www.gov.br/anpd/pt-br/assuntos/noticias/guias-e-orientacoes)
-    - *Destaques:* Guia de Segurança da Informação, Guia do Encarregado e Guia de Notificação de Incidentes de Segurança.
-- [x] **Framework de Privacidade do NIST (NIST Privacy Framework v1.0):**
-    - Link Oficial: [NIST Privacy Framework Documentation](https://www.nist.gov/privacy-framework)
-    - *Foco:* Integração entre gestão de riscos de privacidade e engenharia de sistemas de computação.
+* [Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais - LGPD)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) - Texto compilado da LGPD no Planalto com todas as bases legais, direitos dos titulares e deveres dos agentes de tratamento.
+* [Decreto nº 9.637/2018 (Política Nacional de Segurança da Informação)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9637.htm) - Dispõe sobre governança de dados pessoais e segurança da informação na administração pública.
+* [Governo Digital - Privacidade e Segurança da Informação](https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca) - Diretrizes, guias operacionais e boas práticas de proteção de dados no setor público.
+* [IETF RFC 7519 - JSON Web Token (JWT)](https://datatracker.ietf.org/doc/html/rfc7519) - Especificação técnica de tokens seguros para tráfego e proteção de dados entre sistemas.
+* [OWASP Top 10 Privacy Risks Project](https://owasp.org/www-project-top-10-privacy-risks/) - Documentação oficial sobre vulnerabilidades de privacidade e controles recomendados em sistemas web.
+* DONEDA, Danilo. **Da Privacidade à Proteção de Dados Pessoais: Elementos da Formação do seu Conceito**. 2. ed. São Paulo: Thomson Reuters Brasil, 2020. (Cap. 1 a 4 - Princípios Fundamentais da Proteção de Dados).
+* BIONI, Bruno Ricardo. **Proteção de Dados Pessoais: A Função e os Limites do Consentimento**. 3. ed. Rio de Janeiro: Forense, 2021. (Cap. 2 - Bases Legais e Legitimo Interesse).
+* PINHEIRO, Patricia Peck. **Direito Digital**. 7. ed. São Paulo: SaraivaJur, 2021. (Cap. 7 - Segurança da Informação e Compliance com a LGPD).
 
----
 
 ## 7. Questões Comentadas no Padrão FCC
 

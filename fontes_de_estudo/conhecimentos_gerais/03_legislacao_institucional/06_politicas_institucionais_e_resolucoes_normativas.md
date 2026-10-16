@@ -235,11 +235,14 @@ graph TD
 
 ## 6. Fontes Oficiais e Referências Bibliográficas
 
-* [Portal de Legislação do TCE-GO](https://portal.tce.go.gov.br/legislacao) - Textos consolidados das Resoluções Administrativas nº 14/2025, 17/2024, 24/2024, 5/2024, 19/2024, 15/2024 e Resolução Normativa nº 5/2024.
-* [Portal da Governança e Planejamento Estratégico do TCE-GO](https://portal.tce.go.gov.br/planejamento-estrategico) - Mapa estratégico, cadeia de valor e painel de indicadores.
-* [Portal da Privacidade e Proteção de Dados Pessoais do TCE-GO](https://portal.tce.go.gov.br/lgpd) - Canal do DPO, inventário de dados e diretrizes de privacidade.
-* [Instituto dos Auditores Internos (IIA Brasil) - Modelo das Três Linhas](https://iiabrasil.org.br) - Estrutura de governança corporativa e gerenciamento de riscos.
-* [Lei Federal nº 13.709/2018 (Lei Geral de Proteção de Dados - LGPD)](http://www.planalto.gov.br) - Regime de proteção e tratamento de dados no setor público.
+* [Portal Institucional do TCE-GO - Tecnologia da Informação e Políticas Digitais](https://portal.tce.go.gov.br/tecnologia-da-informacao2) - Governança de TI, segurança da informação e diretrizes digitais do Tribunal.
+* [Portal Institucional do TCE-GO - Plano de Fiscalização e Governança](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Planejamento institucional e diretrizes de governança pública.
+* [Portal Institucional do TCE-GO - TCE-Juris: Atos Normativos e Resoluções](https://portal.tce.go.gov.br/tce-juris/atos-normativos-do-tce-go) - Resoluções normativas sobre inteligência artificial, segurança e processo eletrônico.
+* [Lei Complementar Estadual de Goiás nº 205/2025 - Política de IA (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/110694/lei-complementar-205) - Política Estadual de Fomento à Inovação em Inteligência Artificial no Estado de Goiás.
+* [Lei Federal nº 13.709/2018 - LGPD (Planalto)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) - Tratamento de dados pessoais pelo Poder Público e princípios de privacidade.
+* MOTTA, Fabrício. **Governança Pública e Tribunais de Contas**. Belo Horizonte: Fórum, 2022. (Cap. 5 - Inovação Tecnológica e Governança de TI no Controle Externo).
+* MARRARA, Thiago. **Processo Administrativo e Inovação Tecnológica**. São Paulo: Almedina, 2021. (Cap. 4 - Inteligência Artificial e Processo Eletrônico no Setor Público).
+* BIONI, Bruno Ricardo. **Proteção de Dados Pessoais: A Função e os Limites do Consentimento**. 2. ed. Rio de Janeiro: Forense, 2021. (Cap. 3 - Dados Pessoais e Administração Pública).
 
 ---
 

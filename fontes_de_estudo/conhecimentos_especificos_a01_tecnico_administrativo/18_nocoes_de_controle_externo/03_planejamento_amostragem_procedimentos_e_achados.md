@@ -190,16 +190,15 @@ Ao propor imputação de débito ou cominação de multas sancionatórias a agen
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
-- [Manual de Auditoria de Conformidade do TCU](https://portal.tcu.gov.br/)
-    - Metodologia de elaboração de papéis de trabalho, testes de auditoria e matriz de achados.
-- [Manual de Auditoria Operacional do TCU / IRB](https://irbcontas.org.br/)
-    - Técnicas de elaboração de matriz de planejamento e critérios de seleção MRC.
-- [Norma Brasileira de Auditoria do Setor Público - NBASP 100](https://irbcontas.org.br/nbasp/)
-    - Diretrizes profissionais sobre evidências, documentação e risco de auditoria.
-- [Lei de Introdução às Normas do Direito Brasileiro (LINDB) - Artigo 28](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm)
-    - Exigência de dolo ou erro grosseiro para responsabilização pessoal de agentes públicos.
+* [TCU - Boas Práticas e Padrões de Auditoria Governamental](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Diretrizes institucionais de auditoria, matriz de planejamento, achados e matriz de responsabilização.
+* [Lei Estadual nº 16.168/2007 - Do Planejamento das Fiscalizações](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Regras para inclusão de matérias no plano anual de fiscalização e dever de colaboração dos gestores.
+* [TCE-GO - Plano Institucional de Fiscalização e Governança](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Planejamento anual e plurianual das ações de fiscalização externa no Estado de Goiás.
+* [TCE-GO - Competências e Jurisdição Institucional](https://portal.tce.go.gov.br/competencias) - Bases legais para requisição de documentos, fixação de prazos e fiscalização de convênios e contratos.
+* [Constituição Federal de 1988 - Arts. 70 a 74 (Controle Interno e Externo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art70) - Apoio obrigatório do controle interno ao controle externo e dever de comunicação de irregularidades sob pena de responsabilidade solidária.
+* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 5 - Fases da Auditoria: Planejamento, Execução e Achados).
+* CASTRO, Domingos Poubel de. **Auditoria e Controle Interno na Administração Pública**. 3. ed. São Paulo: Atlas, 2019. (Cap. 6 - Procedimentos de Auditoria, Amostragem e Evidências).
+* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 4 - O Achado de Auditoria e a Matriz de Responsabilização).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
 

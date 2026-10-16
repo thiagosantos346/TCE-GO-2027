@@ -294,17 +294,15 @@ flowchart TD
 
 ### 8. Fontes Oficiais e Referências Bibliográficas
 
-* [Decreto Federal nº 9.991/2019 — Política Nacional de Desenvolvimento de Pessoas (PNDP) e Gestão por Competências](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) — Regulamenta o diagnóstico de lacunas (*gaps*) de competências e a elaboração do Plano de Desenvolvimento de Pessoas (PDP).
-* [Decreto Federal nº 9.203/2017 — Política de Governança da Administração Pública Federal](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) — Diretrizes de planejamento estratégico, monitoramento por indicadores de desempenho e avaliação de resultados públicos.
-* [TCE-GO — Planejamento Estratégico Institucional, Missão, Visão, Valores e Mapa Estratégico (BSC)](https://www.tce.go.gov.br/planejamento-estrategico) — Aplicação prática do *Balanced Scorecard* e das perspectivas estratégicas no Tribunal de Contas do Estado de Goiás.
-* [TCE-GO — Desempenho Institucional, Metas e Indicadores de Gestão](https://www.tce.go.gov.br/desempenho-institucional) — Painel oficial de monitoramento de indicadores (Economicidade, Eficiência, Eficácia e Efetividade) no âmbito do TCE-GO.
-* [Lei Federal nº 13.140/2015 — Lei de Mediação e Autocomposição de Conflitos na Administração Pública](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13140.htm) — Marco normativo da resolução consensual, negociação e gestão de conflitos no setor público.
-* KAPLAN, Robert S.; NORTON, David P. **A Estratégia em Ação: Balanced Scorecard**. 24. ed. Rio de Janeiro: Campus/Elsevier, 1997. (Cap. 1, 2 e 7 — As Quatro Perspectivas, Relações de Causa e Efeito e Adaptação às Organizações Públicas).
-* SIMON, Herbert Alexander. **Comportamento Administrativo: estudo dos processos decisórios nas organizações administrativas**. 3. ed. Rio de Janeiro: Editora FGV, 1979. (Cap. IV e V — A Racionalidade no Comportamento Administrativo, *Homem Administrativo* e Decisões Satisfatórias).
-* THOMAS, Kenneth W.; KILMANN, Ralph H. **Thomas-Kilmann Conflict Mode Instrument (TKI)**. Tuxedo, NY: Xicom, 1974. (Matriz bidimensional de assertividade e cooperatividade nos cinco estilos de tratamento de conflitos).
-* ROBBINS, Stephen P.; JUDGE, Timothy A.; SOBRAL, Filipe. **Comportamento Organizacional: teoria e prática no contexto brasileiro**. 14. ed. São Paulo: Pearson Prentice Hall, 2010. (Cap. 6 e 14 — Tomada de Decisão Individual e Conflito e Negociação).
+* [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Disciplina a gestão por competências e o Plano de Desenvolvimento de Pessoas (PDP) no setor público.
+* [Decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho - PGD)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Regulamenta o PGD e o teletrabalho com foco na entrega de resultados e indicadores de produtividade.
+* [TCU - Referencial Básico de Governança e Gestão Estratégica](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Orientações para elaboração de mapas estratégicos, definição de metas e alinhamento institucional.
+* [TCE-GO - Plano de Fiscalização e Desempenho Institucional](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Estratégia de atuação e metas institucionais do Tribunal de Contas de Goiás.
+* [Lei Estadual nº 20.756/2020 (Avaliação de Desempenho dos Servidores de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Critérios de avaliação de desempenho, mérito e competências no Estado de Goiás.
+* KAPLAN, Robert S.; NORTON, David P. **A Estratégia em Ação: Balanced Scorecard**. 22. ed. Rio de Janeiro: Elsevier/Campus, 1997. (Cap. 1 a 4 - As Quatro Perspectivas do BSC e Mapa Estratégico).
+* BRANDÃO, Hugo Pena; GUIMARÃES, Tomás de Aquino. **Gestão por Competências e Gestão do Desempenho: Tecnologias Distintas ou Esforços Integrados?**. Revista de Administração de Empresas (RAE), v. 41, n. 1, p. 8-15, 2001.
+* OLIVEIRA, Djalma de Pinho Rebouças de. **Planejamento Estratégico: Conceitos, Metodologia e Práticas**. 34. ed. São Paulo: Atlas, 2018. (Cap. 5 - Indicadores de Desempenho).
 
----
 
 ### 9. Questões de Concurso FCC Comentadas
 

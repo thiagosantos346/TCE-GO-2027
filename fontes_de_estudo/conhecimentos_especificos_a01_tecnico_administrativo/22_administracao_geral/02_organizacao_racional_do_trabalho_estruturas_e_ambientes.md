@@ -207,12 +207,15 @@ flowchart TD
 
 ### 6. Fontes Oficiais e Referências Bibliográficas
 
-* [CHIAVENATO, Idalberto. Introdução à Teoria Geral da Administração. 10ª Edição. Editora Atlas.](https://www.grupogen.com.br) - Capítulos sobre a ORT, Estruturas e Dinâmica Organizacional.
-* [DRUCKER, Peter F. Prática da Administração de Empresas. Pioneira Thomson Learning.](https://www.grupogen.com.br) - Conceituação de Eficiência e Eficácia.
-* [BARNARD, Chester I. As Funções do Executivo. Editora Atlas.](https://www.grupogen.com.br) - A dinâmica da cooperação e organização informal.
-* [MAXIMIANO, Antonio Cesar Amaru. Teoria Geral da Administração: da revolução urbana à revolução digital. Atlas.](https://www.grupogen.com.br).
+* [Decreto-Lei nº 200/1967 (Coordenação, Descentralização e Delegação de Competência)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Normas para evitar duplicidade de órgãos e assegurar a racionalização do trabalho.
+* [Decreto nº 9.094/2017 (Racionalização e Simplificação de Procedimentos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9094.htm) - Regras para simplificação e eliminação de exigências burocráticas redundantes.
+* [Lei nº 14.129/2021 (Governo Digital e Gestão Eficiente de Processos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm) - Digitalização e reorganização racional dos fluxos de trabalho nos órgãos federados.
+* [TCU - Governança e Desenho Estrutural Organizacional](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Boas práticas para dimensionamento e delegação em estruturas organizacionais.
+* [TCE-GO - Resolução nº 22/2008 (Regimento Interno e Estruturas no GNOI)](https://gnoi.tce.go.gov.br/atoNormativo/Publicado?id=9544) - Definição dos níveis de hierarquia, unidades de linha e de assessoria no TCE-GO.
+* CHIAVENATO, Idalberto. **Introdução à Teoria Geral da Administração**. 10. ed. São Paulo: Atlas, 2020. (Cap. 7 - Desenho Organizacional; Cap. 8 - Departamentalização e Tipos de Estruturas).
+* MINTZBERG, Henry. **Criando Organizações Eficazes: Estruturas em Cinco Configurações**. 2. ed. São Paulo: Atlas, 2003. (Cap. 1 - O Mecanismo de Coordenação; Cap. 2 - As Cinco Partes da Organização).
+* HALL, Richard H. **Organizações: Estruturas, Processos e Resultados**. 8. ed. São Paulo: Pearson Prentice Hall, 2004. (Cap. 3 e 4 - Estrutura Organizacional e Ambiente Externo).
 
----
 
 ### 7. Questões de Concurso FCC Comentadas
 

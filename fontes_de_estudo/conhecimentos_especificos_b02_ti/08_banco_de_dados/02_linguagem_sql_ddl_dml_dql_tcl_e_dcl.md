@@ -35,6 +35,7 @@
     - [5.1 Visões: View Padrão vs. View Materializada (Materialized View)](#51-visoes-view-padrao-vs-view-materializada-materialized-view)
     - [5.2 Stored Procedures vs. User-Defined Functions (UDF)](#52-stored-procedures-vs-user-defined-functions-udf)
     - [5.3 Gatilhos (Triggers): Eventos, Momentos (BEFORE, AFTER, INSTEAD OF) e Pseudorregistros OLD/NEW](#53-gatilhos-triggers-eventos-momentos-before-after-instead-of-e-pseudorregistros-oldnew)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 - [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
@@ -277,6 +278,18 @@ Gatilhos (*Triggers*) são blocos de código procedurais executados automaticame
 - **`BEFORE`:** Executado antes que a modificação seja persistida no disco. Ideal para **validação de dados**, enriquecimento de campos e integridade de negócio. Permite alterar os valores de `NEW` antes da gravação.
 - **`AFTER`:** Executado após a modificação ser gravada no disco. Ideal para **gravação em tabelas de auditoria** e disparos de notificações assíncronas.
 - **`INSTEAD OF`:** Intercepta a instrução DML e executa a rotina do gatilho no lugar da operação original. É a solução canônica para permitir operações de `INSERT`, `UPDATE` e `DELETE` em **visões (Views) complexas não-atualizáveis**.
+
+---
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [PostgreSQL 17 Official Documentation - DDL Commands](https://www.postgresql.org/docs/current/ddl.html) - Sintaxe formal de CREATE, ALTER, DROP e restrições de integridade referencial.
+* [PostgreSQL 17 Official Documentation - Data Manipulation (DML)](https://www.postgresql.org/docs/current/dml.html) - Comandos INSERT, UPDATE, DELETE e TRUNCATE e suas implicações em transações e triggers.
+* [PostgreSQL 17 Official Documentation - Advanced Queries and Table Expressions](https://www.postgresql.org/docs/current/queries.html) - CTEs recursivas, cláusula WITH, Window Functions (ROW_NUMBER, RANK, DENSE_RANK) e subconsultas.
+* [PostgreSQL 17 Official Documentation - Row Security Policies (RLS)](https://www.postgresql.org/docs/current/ddl-rowsecurity.html) - Controle de acesso e segurança granular em nível de linha com políticas DCL.
+* BEIGHLEY, Lynn. **Use a Cabeça! SQL**. 2. ed. Rio de Janeiro: Alta Books, 2011. (Cap. 6 a 8 - Junções Múltiplas e Subconsultas).
+* SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 3 a 5 - Introdução a SQL, SQL Intermediário e Avançado).
+* ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 6 e 7 - SQL Básico e SQL Complexo).
 
 ---
 

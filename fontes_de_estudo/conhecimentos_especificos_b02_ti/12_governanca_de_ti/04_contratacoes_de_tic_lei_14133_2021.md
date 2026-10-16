@@ -232,19 +232,17 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 
 ---
 
-## 5. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [x] **Lei Federal nº 14.133/2021 - Nova Lei de Licitações e Contratos (Portal do Planalto):**
-    - Link Oficial: [Texto Integral e Compilado da Lei nº 14.133/2021](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm)
-    - *Dispositivos-Chave para TIC:* Art. 6º (Definições de bens e serviços comuns/especiais), Art. 18 (Planejamento e Estudo Técnico Preliminar - ETP), Art. 28 a 32 (Modalidades de Licitação: Pregão, Concorrência e Diálogo Competitivo), Arts. 72 a 75 (Contratação Direta) e Art. 117 (Fiscalização Contratual).
-- [x] **Instrução Normativa SGD/MGI nº 94/2022 (Padrão Nacional de Contratações de TIC):**
-    - Link Oficial: [Instrução Normativa SGD/MGI nº 94/2022 - Portal Gov.br](https://www.gov.br/governodigital/pt-br/contratacoes-de-tic)
-    - *Conteúdo:* Rito completo das contratações de TIC: Documento de Oficialização da Demanda (DOD), Equipe de Planejamento da Contratação, Mapa de Riscos, Termo de Referência e Instrumento de Medição de Resultado (IMR).
-- [x] **Tribunal de Contas da União (TCU) - Jurisprudência e Boas Práticas de TIC:**
-    - Link Oficial: [Portal de Governança de TI do TCU](https://portal.tcu.gov.br/)
-    - *Conteúdo:* Súmula 269 do TCU, acórdãos referenciais sobre métricas de software (APF/UST), vedação ao pagamento por homem-hora puro e fiscalização de contratos de TIC.
+* [Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm) - Texto oficial que disciplina as licitações e contratos administrativos em âmbito nacional.
+* [Governo Digital - Processo de Contratação de TIC na Lei nº 14.133/2021](https://www.gov.br/governodigital/pt-br/contratacoes-de-tic/legislacao/processo-de-contratacao-de-solucoes-de-tic-regido-pela-lei-ndeg-14-133-de-2021) - Rito oficial, fases de planejamento (DFD, ETP, TR) e gestão contratual.
+* [Governo Digital - Modelos e Diretrizes de Contratação de Soluções de TIC](https://www.gov.br/governodigital/pt-br/contratacoes-de-tic/legislacao/todos-os-modelos-diretrizes-e-orientacoes-para-contratacao-de-solucoes-de-tic) - Modelos oficiais padronizados de Estudos Técnicos Preliminares e Termos de Referência.
+* [Governo Digital - Orientações sobre Contratos Baseados em UST](https://www.gov.br/governodigital/pt-br/contratacoes-de-tic/legislacao/orientacoes-contratos-baseados-em-ust) - Regras e limites para dimensionamento e medição por Unidade de Serviço Técnico.
+* [TCU - Governança e Controle de Aquisições de TI](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Orientações institucionais do TCU sobre terceirização, fiscalização e critérios de pagamento por resultados em TI.
+* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Cap. II - Do Planejamento das Contratações; Cap. VII - Dos Serviços de Engenharia e TIC).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Rio de Janeiro: Atlas, 2024. (Cap. 5 - Contratos Administrativos e Licitação).
+* FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 11 - Aquisições e Contratos de TIC no Setor Público).
 
----
 
 ## 6. Questões Comentadas no Padrão FCC
 

@@ -178,22 +178,17 @@ Nos sistemas informatizados de auditoria governamental e processo eletrônico do
 
 ---
 
-## 5. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [x] **Medida Provisória nº 2.200-2/2001 (Portal do Planalto):**
-    - Link Oficial: [Texto Integral da MP nº 2.200-2/2001](http://www.planalto.gov.br/ccivil_03/mpv/2200-2.htm)
-    - *Conteúdo:* Criação da ICP-Brasil, atribuições do ITI e validade jurídica de documentos eletrônicos (Art. 10).
-- [x] **Lei Federal nº 14.063/2020 (Portal do Planalto):**
-    - Link Oficial: [Texto Integral da Lei nº 14.063/2020](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm)
-    - *Conteúdo:* Definições de assinatura simples, avançada e qualificada e regras para serviços públicos.
-- [x] **Instituto Nacional de Tecnologia da Informação (ITI - Gov.br):**
-    - Link Oficial: [Portal Oficial do ITI - AC-Raiz](https://www.gov.br/iti/pt-br)
-    - *Conteúdo:* Normas do Comitê Gestor da ICP-Brasil, especificações dos padrões A1/A3 e carimbo do tempo.
-- [x] **Guia de Contratações de Soluções de TIC (Secretaria de Governo Digital - MGI):**
-    - Link Oficial: [Modelos e Guias de Contratação de TIC](https://www.gov.br/governodigital/pt-br/contratacoes-de-tic)
-    - *Conteúdo:* Diretrizes para elaboração de ETP, TR, acordos de níveis de serviço (SLA) e matriz de riscos.
+* [Medida Provisória nº 2.200-2/2001 (ICP-Brasil no Planalto)](https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm) - Norma oficial permanente que institui a Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
+* [Lei nº 14.063/2020 (Uso de Assinaturas Eletrônicas em Entes Públicos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm) - Regras para aceitação e níveis de exigência de assinaturas simples, avançadas e qualificadas.
+* [Decreto nº 10.543/2020 (Níveis de Assinatura Eletrônica na Administração Pública)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm) - Regulamenta o uso das assinaturas eletrônicas nas interações com o poder público federal.
+* [Governo Digital - Guia de Boas Práticas em Assinaturas Eletrônicas](https://www.gov.br/governodigital/pt-br/assinatura-eletronica) - Orientações práticas e requisitos de validade jurídica das assinaturas eletrônicas governamentais.
+* [Cartilha de Segurança para a Internet (CERT.br) - Certificados Digitais](https://cartilha.cert.br/livro/cartilha-seguranca-internet.pdf) - Conceitos de certificação digital, hierarquia de ACs e integridade documental.
+* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 13 - Assinaturas Digitais e Padrões de Autenticação).
+* FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 11 - Contratações de TIC e Gestão de Riscos Contratuais).
+* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Cap. VII - Cláusulas de Segurança e Execução Contratual).
 
----
 
 ## 6. Questões Comentadas no Padrão FCC
 

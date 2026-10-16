@@ -255,10 +255,13 @@ Para contornar o efeito *Lost in the Middle* e evitar estouros de cotas financei
 
 ## 4. Fontes Recomendadas na Internet
 
-- [Attention Is All You Need (Vaswani et al., 2017 - arXiv)](https://arxiv.org/abs/1706.03762): Artigo seminal que introduziu a arquitetura Transformer baseada no mecanismo de *Self-Attention*.
-- [Lost in the Middle: How Language Models Use Long Contexts (Liu et al., 2023 - arXiv)](https://arxiv.org/abs/2307.03172): Estudo acadêmico de referência demonstrando os vieses posicionais e a perda de acurácia no centro de contextos extensos.
-- [Anthropic Prompt Engineering Interactive Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview): Documentação técnica oficial sobre System Prompts, delimitadores XML, Few-Shot e raciocínio CoT.
-- [OpenAI Prompt Engineering Best Practices](https://platform.openai.com/docs/guides/prompt-engineering): Guia oficial sobre calibração de hiperparâmetros (`temperature`, `top_p`), estratégias de decomposição de tarefas e contexto.
+* [Anthropic Claude Official Guide - Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Estratégias estruturadas, delimitadores XML, Few-Shot Prompting e Chain-of-Thought.
+* [OpenAI Platform - Prompt Engineering Best Practices](https://platform.openai.com/docs/guides/prompt-engineering) - Técnicas de contextualização, tarefas complexas e mitigação de alucinações.
+* [ArXiv - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al.)](https://arxiv.org/abs/2201.11903) - Artigo seminal sobre raciocínio encadeado passo a passo em modelos de linguagem.
+* [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework) - Framework oficial do NIST para governança, validação e mensuração de riscos em IA.
+* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 23 e 24 - Processamento de Linguagem Natural e Modelos Profundos).
+* JURAFSKY, Daniel; MARTIN, James H. **Speech and Language Processing**. 3. ed. Stanford University, 2024. (Cap. 10 e 11 - Large Language Models and Prompting).
+* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 2 - Prompt Engineering and Foundation Models).
 
 ---
 

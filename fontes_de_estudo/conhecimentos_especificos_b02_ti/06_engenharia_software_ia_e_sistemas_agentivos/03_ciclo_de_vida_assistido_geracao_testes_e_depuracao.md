@@ -285,10 +285,13 @@ flowchart LR
 
 ## 6. Fontes Recomendadas na Internet
 
-- [The Impact of AI on Developer Productivity: Evidence from GitHub Copilot (Peng et al., 2023)](https://arxiv.org/abs/2302.06590): Pesquisa experimental de referência acadêmica sobre velocidade de entrega e qualidade de software assistido.
-- [Large Language Models for Software Engineering: Survey and The Road Ahead (Fan et al., 2023)](https://arxiv.org/abs/2308.10620): Levantamento enciclopédico sobre geração de código, testes automatizados e reparo de programas.
-- [PIT Mutation Testing Official Guide](https://pitest.org/): Documentação oficial do framework de testes de mutação para a máquina virtual Java (JVM).
-- [OWASP Secure Coding Practices Guide](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/): Diretrizes para revisão segura de código e mitigação de vulnerabilidades corporativas.
+* [ArXiv - Evaluating Large Language Models Trained on Code / Codex & Pass@k (Chen et al.)](https://arxiv.org/abs/2107.03374) - Criação do benchmark HumanEval, definição formal da métrica pass@k e síntese funcional de código.
+* [ArXiv - SWE-bench: Can Language Models Resolve Real-World GitHub Issues? (Jimenez et al.)](https://arxiv.org/abs/2310.06770) - Avaliação automatizada de agentes de software resolvendo bugs em repositórios reais.
+* [Anthropic Documentation - Code Generation and Test Synthesis](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Melhores práticas para síntese de testes unitários, testes de mutação e análise de cobertura assistida.
+* [Martin Fowler - Self-Testing Code and Continuous Delivery](https://martinfowler.com/bliki/SelfTestingCode.html) - Princípios fundamentais de código auto-testável e automação de testes em engenharia.
+* SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson, 2019. (Cap. 8 - Teste de Software e Automação).
+* PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: Uma Abordagem Profissional**. 9. ed. Porto Alegre: AMGH, 2021. (Cap. 20 - Estratégias de Teste de Software).
+* BECK, Kent. **Desenvolvimento Guiado por Testes (TDD)**. Porto Alegre: Bookman, 2010. (Cap. 1 a 3 - Ciclo Red-Green-Refactor).
 
 ---
 

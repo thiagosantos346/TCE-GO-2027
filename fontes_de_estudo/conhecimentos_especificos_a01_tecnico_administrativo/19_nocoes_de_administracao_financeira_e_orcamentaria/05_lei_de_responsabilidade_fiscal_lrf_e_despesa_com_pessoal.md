@@ -202,16 +202,15 @@ flowchart TD
 
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 
-- [Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm)
-    - Arts. 15 a 24 (Despesa Pública e Pessoal) e Arts. 29 a 42 (Dívida, ARO e Fim de Mandato).
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)
-    - Art. 167, III (Regra de Ouro) e Art. 169 (Limites Constitucionais e Medidas de Redução de Pessoal).
-- [Manual de Demonstrativos Fiscais (MDF) - 14ª Edição (STN)](https://www.tesourotransparente.gov.br)
-    - Metodologia de cálculo da Receita Corrente Líquida e elaboração do RREO e RGF.
-- [Código Penal Brasileiro - Crimes Contra as Finanças Públicas](https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm)
-    - Arts. 359-A a 359-H (inseridos pela Lei Federal nº 10.028/2000).
+* [Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm) - Texto integral da LRF detalhando limites globais e setoriais com despesa total com pessoal (DTP), limites prudenciais e de alerta.
+* [Constituição Federal de 1988 - Art. 169 (Limites de Despesa de Pessoal)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art165) - Medidas constitucionais para redução de despesas com cargos em comissão e servidores estáveis em caso de extrapolação de limites.
+* [Tesouro Transparente - Relatórios de Gestão Fiscal (RGF e RREO)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Manuais e demonstrativos fiscais obrigatórios previstos na LRF.
+* [Lei Estadual nº 16.168/2007 (Fiscalização da LRF pelo TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Competência do Tribunal de Contas para fiscalizar o cumprimento das metas fiscais e limites de gastos de pessoal nos órgãos estaduais.
+* [TCE-GO - Resultados e Pareceres de Contas de Governo](https://portal.tce.go.gov.br/prestacao-de-contas) - Acompanhamento dos demonstrativos da Lei de Responsabilidade Fiscal pelo TCE-GO.
+* PALUDO, Augustinho. **Orçamento Público, AFO e LRF**. 11. ed. Salvador: JusPodivm, 2022. (Cap. 10 - Despesas com Pessoal na LRF; Cap. 14 - Relatórios da LRF: RREO e RGF).
+* MOTA, Francisco Glauber Lima. **Contabilidade Aplicada ao Setor Público**. 2. ed. Brasília: Gestão Pública, 2018. (Cap. 8 - A Lei de Responsabilidade Fiscal e o Equilíbrio Orçamentário).
+* GIACOMONI, James. **Orçamento Público**. 18. ed. São Paulo: Atlas, 2021. (Cap. 11 - A Lei de Responsabilidade Fiscal).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC
 

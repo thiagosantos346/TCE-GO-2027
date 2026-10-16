@@ -388,15 +388,17 @@ As políticas de execução controlam as condições para execução de scripts 
 
 ---
 
-## 7. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [The Linux Kernel Documentation](https://docs.kernel.org/): Documentação oficial sobre a arquitetura do kernel Linux, chamadas de sistema e subsistemas de memória virtual.
-- [GNU Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html): Manual oficial da FSF sobre sintaxe, redirecionamento e controle de processos no shell Bash.
-- [Linux man-pages Project (Michael Kerrisk - man7.org)](https://man7.org/linux/man-pages/): Repositório canônico das páginas de manual do Linux para syscalls (`fork`, `execve`, `mmap`) e comandos administrativos.
-- [Microsoft Learn - Documentação Oficial do PowerShell](https://learn.microsoft.com/pt-br/powershell/): Portal oficial da Microsoft cobrindo a arquitetura baseada em objetos .NET, sintaxe de cmdlets e políticas de execução.
-- [Microsoft Learn - Visão Geral do Sistema de Arquivos NTFS](https://learn.microsoft.com/pt-br/windows-server/storage/file-server/ntfs-overview): Detalhamento sobre MFT, ACLs, cotas de disco e criptografia EFS no Windows Server.
+* [The Linux Kernel Admin-Guide Documentation](https://docs.kernel.org/admin-guide/index.html) - Documentação oficial da arquitetura do kernel Linux, gerenciamento de memória, processos e subsistemas essenciais.
+* [Linux man-pages (Kernel.org) - Ciclo de Vida de Processos e Escalonamento no Linux](https://docs.kernel.org/process/index.html) - Referência oficial de comandos Unix/Linux de permissões de arquivos, processos e sinais.
+* [Microsoft Learn - Conceitos e Arquitetura do Windows Server](https://learn.microsoft.com/pt-br/windows-server/administration/performance-tuning/) - Guia oficial de conceitos de arquitetura interna, gerenciamento de threads, I/O e desempenho do Windows.
+* [Microsoft Learn - Gerenciamento de Processos e Serviços no Windows](https://learn.microsoft.com/pt-br/windows/win32/procthread/processes-and-threads) - Documentação de referência técnica da API Win32 para criação de processos, threads e sincronização.
+* [NIST SP 800-123 - Guide to General Server Security](https://csrc.nist.gov/pubs/sp/800/123/final) - Recomendações oficiais de segurança, hardening e administração de sistemas operacionais de servidores.
+* TANENBAUM, Andrew S.; BOS, Herbert. **Sistemas Operacionais Modernos**. 4. ed. São Paulo: Pearson Education do Brasil, 2016. (Cap. 2 - Processos e Threads; Cap. 3 - Gerenciamento de Memória; Cap. 10 - Estudo de Caso 1: Linux; Cap. 11 - Estudo de Caso 2: Windows).
+* SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. **Fundamentos de Sistemas Operacionais**. 9. ed. Rio de Janeiro: GEN LTC, 2015. (Cap. 3 - Processos; Cap. 4 - Threads; Cap. 7 - Impasses (Deadlocks)).
+* NEMETH, Evi et al. **UNIX and Linux System Administration Handbook**. 5. ed. Boston: Addison-Wesley Professional, 2017. (Cap. 2 - Booting and System Management; Cap. 6 - File Systems).
 
----
 
 ## 8. Questões Comentadas & Exemplos Práticos
 

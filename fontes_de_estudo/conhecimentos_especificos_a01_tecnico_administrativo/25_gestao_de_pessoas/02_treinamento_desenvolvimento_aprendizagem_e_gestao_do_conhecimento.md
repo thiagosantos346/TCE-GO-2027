@@ -251,13 +251,15 @@ No setor público moderno, a visão fragmentada de "cursos isolados" foi substit
 
 ### 6. Fontes Oficiais e Referências Bibliográficas
 
-* [NONAKA, Ikujiro; TAKEUCHI, Hirotaka. Criação de Conhecimento na Empresa: como as empresas japonesas geram a dinâmica da inovação. Rio de Janeiro: Elsevier, 1997](https://www.grupogen.com.br).
-* [SENGE, Peter. A Quinta Disciplina: a arte e a prática da organização que aprende. Rio de Janeiro: Best Seller, 2018](https://www.record.com.br).
-* [KIRKPATRICK, Donald L.; KIRKPATRICK, James D. Como Avaliar Programas de Treinamento de Equipes: os quatro níveis. São Paulo: Senac, 2010](https://www.editorasenacsp.com.br).
-* [CHIAVENATO, Idalberto. Treinamento e Desenvolvimento de Recursos Humanos: como incrementar talentos na empresa. 8ª Edição. São Paulo: Atlas, 2016](https://www.grupogen.com.br).
-* [ARGYRIS, Chris. On Organizational Learning. 2nd Edition. Blackwell Publishing, 1999](https://www.wiley.com).
+* [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas - PNDP)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Diretrizes, instrumentos e regras para ações de desenvolvimento e capacitação contínua de servidores.
+* [Lei Estadual nº 20.756/2020 - Do Aperfeiçoamento e Capacitação dos Servidores](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Disposições sobre afastamento para estudo, cursos de capacitação e incentivos de qualificação no Estado de Goiás.
+* [TCE-GO - Instituto Leopoldo de Bulhões (Escola Superior de Controle Externo)](https://portal.tce.go.gov.br/institucional/instituto-leopoldo-de-bulhoes) - Escola de contas do TCE-GO responsável pelas ações de capacitação, pós-graduação e gestão do conhecimento institucional.
+* [TCU - Governança da Educação Corporativa e Gestão do Conhecimento](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial técnico para gestão do capital intelectual e aprendizagem organizacional no setor público.
+* [Constituição Federal de 1988 - Art. 39, § 2º (Escolas de Governo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Previsão da manutenção de escolas de governo para formação e aperfeiçoamento dos servidores públicos.
+* CHIAVENATO, Idalberto. **Gestão de Pessoas: O Novo Papel dos Recursos Humanos nas Organizações**. 5. ed. São Paulo: Atlas, 2020. (Cap. 11 - Treinamento; Cap. 12 - Desenvolvimento de Pessoas e de Organizações).
+* NONAKA, Ikujiro; TAKEUCHI, Hirotaka. **Criação de Conhecimento na Empresa: Como as Empresas Japonesas Geram a Dinâmica da Inovação**. 23. ed. Rio de Janeiro: Elsevier/Campus, 1997. (Cap. 3 - Teoria da Criação do Conhecimento Organizacional e Modelo SECI).
+* SENGE, Peter M. **A Quinta Disciplina: A Arte e a Prática da Organização que Aprende**. 32. ed. Rio de Janeiro: Best Seller, 2018. (Cap. 1 a 4 - As Cinco Disciplinas da Aprendizagem Organizacional).
 
----
 
 ### 7. Questões de Concurso FCC Comentadas
 

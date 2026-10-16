@@ -226,16 +226,15 @@ flowchart TD
 
 ## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 
-- [Constituição Federal de 1988 - Título III (Da Organização do Estado)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art18)
-    - Dispositivos completos sobre competências dos entes federados e estatuto dos servidores públicos.
-- [Supremo Tribunal Federal - Súmula Vinculante nº 38](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=38)
-    - Competência municipal para fixação de horário de comércio.
-- [Supremo Tribunal Federal - Tema 377 de Repercussão Geral (Teto na Acumulação Lícita)](https://portal.stf.jus.br/)
-    - Fixação de que o teto constitucional incide sobre cada remuneração individualmente considerada.
-- [Supremo Tribunal Federal - Tema 280 (Violação de Domicílio e Tráfico)](https://portal.stf.jus.br/)
-    - Critérios constitucionais de controle da atuação estatal e repartição de poderes.
+* [Constituição Federal de 1988 - Arts. 18 a 36 (Organização Político-Administrativa)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art18) - Estrutura federativa brasileira, autonomia dos entes e regras de intervenção federal e estadual.
+* [Constituição Federal de 1988 - Arts. 21 a 24 (Repartição de Competências)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art21) - Competências exclusivas, privativas da União, comuns e concorrentes dos Estados federados.
+* [Constituição Federal de 1988 - Arts. 37 a 41 (Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Princípios expressos do LIMPE, regras de concurso público, acumulação de cargos e estabilidade dos servidores.
+* [Constituição do Estado de Goiás - Título III (Da Organização do Estado)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Competências do Estado de Goiás, bens estaduais e municípios goianos.
+* [STF Súmula Vinculante 37 (Vedação de Aumento Salarial pelo Judiciário)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=37) - Enunciado vinculante sobre o princípio da legalidade estrita e separação dos poderes na remuneração de servidores.
+* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 8 - A Organização do Estado Federal; Cap. 9 - Repartição de Competências).
+* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 6 - Organização do Estado; Cap. 7 - Administração Pública).
+* MEIRELLES, Hely Lopes. **Direito Administrativo Brasileiro**. 44. ed. São Paulo: Malheiros, 2020. (Cap. 2 - Administração Pública e Servidores Públicos).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
 

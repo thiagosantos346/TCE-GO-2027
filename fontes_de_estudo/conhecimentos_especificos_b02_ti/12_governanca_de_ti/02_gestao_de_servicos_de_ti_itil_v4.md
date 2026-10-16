@@ -319,19 +319,17 @@ Responsável por garantir que a disponibilidade e o desempenho dos serviços de 
 
 ---
 
-## 3. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [x] **PeopleCert / AXELOS - ITIL 4 Foundation Official Guidance:**
-    - Link Oficial: [PeopleCert ITIL 4 Foundation Overview](https://www.peoplecert.org/ways-to-get-certified/itil-4-foundation)
-    - *Conteúdo:* Arquitetura do Sistema de Valor de Serviço (SVS), as 4 Dimensões do Gerenciamento de Serviços e os 7 Princípios Orientadores da ITIL 4.
-- [x] **Atlassian ITSM Resource Center - ITIL 4 Best Practices Guide:**
-    - Link Oficial: [Atlassian ITIL 4 Guide and Practices](https://www.atlassian.com/itsm/itil)
-    - *Conteúdo:* Manuais práticos sobre Incident Management, Problem Management, Change Enablement e Service Configuration Management (CMDB).
-- [x] **BMC Blogs - ITIL 4 Service Management Practice Summaries:**
-    - Link Oficial: [BMC ITIL 4 Practice Guides](https://www.bmc.com/blogs/categories/itil/)
-    - *Conteúdo:* Artigos aprofundados sobre a diferença entre Incidentes e Problemas, Erros Conhecidos (KEDB) e Cadeia de Valor de Serviço (SVC).
+* [AXELOS - ITIL 4 Foundation Overview](https://www.axelos.com/certifications/itil-service-management) - Visão geral do framework ITIL 4, Sistema de Valor de Serviço (SVS) e Quatro Dimensões do Gerenciamento de Serviços.
+* [AXELOS - The Seven Guiding Principles of ITIL 4](https://www.axelos.com/resource-hub/blog/the-seven-guiding-principles-of-itil-4) - Descrição detalhada dos 7 princípios orientadores da ITIL 4 voltados à co-criação de valor.
+* [TCU - Práticas de Governança e Gestão de TI no Setor Público](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial de boas práticas de gestão de operações e catálogo de serviços de TI governamentais.
+* [Governo Digital - Estratégia Federal de Governo Digital (EFGD)](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/EFGD) - Diretrizes estratégicas para sustentação e entrega contínua de serviços digitais centrados no usuário.
+* [Governo Digital - Infraestrutura Nacional de Dados (IND)](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados) - Governança, compartilhamento e segurança de bases de dados do setor público.
+* AXELOS. **ITIL Foundation: ITIL 4 Edition**. London: TSO (The Stationery Office), 2019. (Cap. 2 - Key Concepts of Service Management; Cap. 4 - The ITIL Service Value System; Cap. 5 - ITIL Management Practices).
+* FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 5 - Gerenciamento de Serviços com ITIL).
+* FREITAS, Marcos André dos Santos. **Fundamentos do Gerenciamento de Serviços de TI com Base na ITIL 4**. Rio de Janeiro: Brasport, 2020. (Cap. 1 a 6).
 
----
 
 ## 4. Questões Comentadas no Padrão FCC
 

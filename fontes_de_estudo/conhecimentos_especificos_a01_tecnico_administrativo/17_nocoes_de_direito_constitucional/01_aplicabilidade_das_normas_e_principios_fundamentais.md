@@ -147,15 +147,17 @@ A República Federativa do Brasil rege-se em suas relações internacionais pelo
 
 ---
 
-## 🌐 Fontes Recomendadas na Internet
-- [Constituição da República Federativa do Brasil de 1988 - Arts. 1º a 4º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art1)
-    - Texto oficial e atualizado dos Princípios Fundamentais da República.
-- [Supremo Tribunal Federal - Mandado de Injunção nº 670 (Direito de Greve no Setor Público)](https://portal.stf.jus.br/)
-    - Decisão paradigmática do plenário do STF sobre normas de eficácia limitada e mora inconstitucional.
-- [Lei Federal nº 13.300/2016 - Disciplina o Processo e o Julgamento dos Mandados de Injunção](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13300.htm)
-    - Legislação nacional regulamentadora dos remédios contra a falta de norma integradora.
+## 6. Fontes Recomendadas na Internet
 
----
+* [Constituição Federal de 1988 - Arts. 1º a 4º (Princípios Fundamentais)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art1) - Texto oficial que consagra os fundamentos da República Federativa do Brasil, a separação dos poderes e os objetivos fundamentais.
+* [Constituição do Estado de Goiás - Título I e Título II](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Princípios fundamentais e organização do Estado no âmbito goiano.
+* [STF Súmula Vinculante 13 (Vedação ao Nepotismo)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=13) - Enunciado vinculante do STF sobre aplicação direta dos princípios da moralidade e impessoalidade na nomeação de cargos em comissão.
+* [STF Súmula 473 (Princípio da Autotutela Administrativa)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumula.asp?seq=473) - Jurisprudência histórica que garante à Administração o poder-dever de anular seus próprios atos ilegais e revogar os inconvenientes.
+* [Decreto-Lei nº 4.657/1942 - LINDB Compilada](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm) - Lei de Introdução às Normas do Direito Brasileiro, com as alterações da Lei nº 13.655/2018 sobre segurança jurídica e interpretação de normas públicas.
+* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 1 - Teoria da Constituição; Cap. 2 - Aplicabilidade e Eficácia das Normas Constitucionais).
+* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 1 - Princípios Fundamentais da Constituição Federal).
+* SILVA, José Afonso da. **Aplicabilidade das Normas Constitucionais**. 8. ed. São Paulo: Malheiros, 2012. (Cap. III - Normas Constitucionais de Eficácia Plena, Contida e Limitada).
+
 
 ## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
 

@@ -282,15 +282,17 @@ O problema é neutralizado pelo mecanismo opcional de reserva via quadros de con
 
 ---
 
-## 5. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [IETF RFC 9114 - HTTP/3 Specification](https://datatracker.ietf.org/doc/html/rfc9114): Especificação técnica oficial do protocolo HTTP/3 sobre a camada de transporte QUIC.
-- [IETF RFC 9000 - QUIC: A UDP-Based Multiplexed and Secure Transport](https://datatracker.ietf.org/doc/html/rfc9000): Detalha a arquitetura do QUIC, multiplexação independente, migração de conexão e TLS 1.3 integrado.
-- [IETF RFC 4301 - Security Architecture for the Internet Protocol (IPsec)](https://datatracker.ietf.org/doc/html/rfc4301): Arquitetura oficial de segurança IPsec detalhando o AH, o ESP e a diferença entre o Modo Transporte e o Modo Túnel.
-- [Wi-Fi Alliance - Visão Geral do Padrão WPA3](https://www.wi-fi.org/discover-wi-fi/security): Especificação oficial e diretrizes dos mecanismos de autenticação simultânea de iguais (SAE), criptografia robusta e padrões corporativos 802.1X.
-- [IEEE 802.11 Working Group - IEEE Standard for Wireless LAN MAC and PHY Specifications](https://standards.ieee.org/): Documentação padrão mundial dos protocolos sem fio, mecanismos de controle CSMA/CA e reservas por quadros RTS/CTS.
+* [IETF RFC 9110 - HTTP Semantics](https://datatracker.ietf.org/doc/html/rfc9110) - Norma de referência global da IETF com as semânticas, códigos de status e métodos do protocolo HTTP.
+* [IETF RFC 8446 - The Transport Layer Security (TLS) Protocol Version 1.3](https://datatracker.ietf.org/doc/html/rfc8446) - Especificação oficial do protocolo TLS 1.3 para canal seguro de comunicação na Internet.
+* [IETF RFC 4253 - The Secure Shell (SSH) Transport Layer Protocol](https://datatracker.ietf.org/doc/html/rfc4253) - Especificação oficial da arquitetura de transporte e autenticação criptográfica do protocolo SSH.
+* [Wi-Fi Alliance - Wi-Fi CERTIFIED WPA3 Security Highlights](https://www.wi-fi.org/discover-wi-fi/security) - Visão geral técnica oficial dos mecanismos do WPA3 e protocolo SAE (Simultaneous Authentication of Equals).
+* [NIST SP 800-41 Rev. 1 - Guidelines on Firewalls and Firewall Policy](https://csrc.nist.gov/pubs/sp/800/41/r1/final) - Recomendações oficiais do NIST para arquitetura de firewalls e regras de segurança de rede.
+* KUROSE, James F.; ROSS, Keith W. **Redes de Computadores e a Internet: Uma Abordagem Top-Down**. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 2 - Camada de Aplicação: HTTP, SMTP, DNS; Cap. 6 - Redes Sem Fio e Móveis; Cap. 8 - Segurança em Redes).
+* TANENBAUM, Andrew S.; WETHERALL, David. **Redes de Computadores**. 5. ed. São Paulo: Pearson, 2011. (Cap. 4 - A Subcamada de Controle de Acesso ao Meio: Padrões IEEE 802.11; Cap. 8 - Segurança de Rede).
+* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 17 - Segurança de Camada de Transporte: TLS; Cap. 20 - Firewalls).
 
----
 
 ## 6. Questões Comentadas & Exemplos Práticos
 

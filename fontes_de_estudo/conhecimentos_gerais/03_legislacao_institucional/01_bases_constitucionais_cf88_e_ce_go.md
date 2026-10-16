@@ -316,13 +316,14 @@ Além das atribuições comuns simétricas ao art. 71 da CF, destacam-se prazos 
 
 ## 4. Fontes Oficiais e Referências Bibliográficas
 
-* [Constituição da República Federativa do Brasil de 1988 (Planalto)](http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) - Arts. 37 a 41 (Da Administração Pública) e Arts. 70 a 75 (Da Fiscalização Contábil, Financeira e Orçamentária).
-* [Constituição do Estado de Goiás de 1989 (Legisla Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/83300/constituicao-estadual) - Arts. 26 a 33 (Do Tribunal de Contas do Estado).
-* [Supremo Tribunal Federal - Súmula Vinculante nº 3](https://portal.stf.jus.br) - Contraditório e ampla defesa em processos perante os Tribunais de Contas.
-* [Supremo Tribunal Federal - Tema 161 de Repercussão Geral (RE 598.099)](https://portal.stf.jus.br) - Direito subjetivo à nomeação de candidato aprovado dentro do número de vagas.
-* [Supremo Tribunal Federal - Tema 445 de Repercussão Geral (RE 636.553)](https://portal.stf.jus.br) - Prazo decadencial de 5 anos para registro inicial de aposentadorias perante o Tribunal de Contas.
-* [Supremo Tribunal Federal - Tema 899 de Repercussão Geral (RE 636.886)](https://portal.stf.jus.br) - Prescritibilidade da pretensão de ressarcimento ao erário fundada em decisões de Tribunal de Contas.
-* [Supremo Tribunal Federal - Tema 940 de Repercussão Geral (RE 1.027.633)](https://portal.stf.jus.br) - Responsabilidade civil objetiva do Estado e vedação de ação direta contra agente público.
+* [Constituição Federal de 1988 - Arts. 70 a 75 (Controle Externo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art70) - Competências de fiscalização contábil, financeira, orçamentária e operacional do Tribunal de Contas.
+* [Constituição do Estado de Goiás - Texto Compilado (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Organização dos Poderes Estaduais e fiscalização pelo TCE-GO (Arts. 25 a 33).
+* [Lei Estadual nº 16.168/2007 - Lei Orgânica do TCE-GO (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Estrutura básica, jurisdição e competências institucionais do Tribunal.
+* [Portal Institucional do TCE-GO - Competências e Jurisdição Constitucional](https://portal.tce.go.gov.br/competencias) - Atribuições fiscalizatórias, consultivas, sancionatórias e corretivas do Tribunal de Contas de Goiás.
+* [Portal Institucional do TCE-GO - Regimento Interno (Resolução nº 22/2008 no GNOI)](https://gnoi.tce.go.gov.br/atoNormativo/Publicado?id=9544) - Normas regimentais sobre o Plenário, Câmaras e deliberações.
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 20 - Controle da Administração Pública).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 17 - Controle Administrativo e Controle Legislativo).
+* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2018. (Cap. 4 - O Tribunal de Contas no Modelo Constitucional).
 
 ---
 

@@ -318,15 +318,17 @@ Para impedir que invasores capturem pacotes de autenticação na rede e os reenv
 
 ---
 
-## 5. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [Microsoft Learn - Visão Geral do Active Directory Domain Services (AD DS)](https://learn.microsoft.com/pt-br/windows-server/identity/ad-ds/active-directory-domain-services): Documentação arquitetural oficial cobrindo florestas, domínios, OUs, catálogo global e replicação multimesmo.
-- [IETF RFC 4511 - Lightweight Directory Access Protocol (LDAPv3)](https://datatracker.ietf.org/doc/html/rfc4511): Especificação padrão do IETF que formaliza a sintaxe de buscas, filtros booleanos e operações de protocolo LDAP.
-- [Microsoft Learn - Ordem de Processamento e Precedência de Políticas de Grupo (GPO)](https://learn.microsoft.com/pt-br/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn789197(v=ws.11)): Guia técnico descrevendo a regra LSDOU, resolução de conflitos, herança de diretivas e comportamentos de *Enforced* e *Block Inheritance*.
-- [Microsoft Learn - Funções Mestres de Operação Única (FSMO) no AD](https://learn.microsoft.com/pt-br/troubleshoot/windows-server/active-directory/fsmo-roles): Documentação canônica que detalha as cinco funções FSMO, suas regras de transferência e impactos de indisponibilidade.
-- [IETF RFC 4120 - The Kerberos Network Authentication Service (V5)](https://datatracker.ietf.org/doc/html/rfc4120): Padrão oficial do protocolo Kerberos v5, detalhando as mensagens de troca de bilhetes (AS, TGS, TGT) e criptografia simétrica.
+* [Microsoft Learn - Active Directory Domain Services Overview](https://learn.microsoft.com/pt-br/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) - Visão geral oficial do AD DS, estruturas de florestas, domínios, árvores e unidades organizacionais.
+* [Microsoft Learn - Visão Geral do Kerberos no Windows Server](https://learn.microsoft.com/pt-br/windows-server/security/kerberos/kerberos-authentication-overview) - Funcionamento oficial da autenticação Kerberos, KDC, tickets TGT e autenticação de rede.
+* [IETF RFC 4511 - Lightweight Directory Access Protocol (LDAP): The Protocol](https://datatracker.ietf.org/doc/html/rfc4511) - Especificação oficial do protocolo LDAPv3, operações de busca, bind e modelo de dados.
+* [IETF RFC 4120 - The Kerberos Network Authentication Service (V5)](https://datatracker.ietf.org/doc/html/rfc4120) - Especificação oficial do protocolo de autenticação segura e bilhetagem Kerberos v5.
+* [Microsoft Learn - Objetos de Diretiva de Grupo (GPO)](https://learn.microsoft.com/pt-br/windows-server/identity/ad-fs/deployment/distribute-certificates-to-client-computers-by-using-group-policy) - Documentação oficial sobre criação, herança e aplicação de políticas de grupo (GPO) no Active Directory.
+* NEMETH, Evi et al. **UNIX and Linux System Administration Handbook**. 5. ed. Boston: Addison-Wesley Professional, 2017. (Cap. 22 - Directory Services: LDAP and Active Directory).
+* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 16 - Autenticação Mútua e Serviços Kerberos).
+* TANENBAUM, Andrew S.; WETHERALL, David. **Redes de Computadores**. 5. ed. São Paulo: Pearson, 2011. (Cap. 7 - Camada de Aplicação e Serviços de Diretório).
 
----
 
 ## 6. Questões Comentadas & Exemplos Práticos
 

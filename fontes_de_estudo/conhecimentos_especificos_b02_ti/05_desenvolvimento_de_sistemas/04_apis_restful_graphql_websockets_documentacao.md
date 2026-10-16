@@ -401,10 +401,14 @@ components:
 
 ## 6. Fontes Recomendadas na Internet
 
-- [OpenAPI Specification Oficial (OAS 3.1)](https://spec.openapis.org/oas/latest.html): Especificação formal da OpenAPI Initiative detalhando a sintaxe de schemas, caminhos e segurança.
-- [GraphQL Official Learn & Tutorials](https://graphql.org/learn/): Documentação oficial do GraphQL cobrindo Schema Definition Language (SDL), Queries, Mutations, Subscriptions e Resolvers.
-- [MDN Web Docs - The WebSocket API](https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API): Guia completo sobre conexões bidirecionais WebSocket, eventos `onopen`, `onmessage`, `onerror`, `onclose` e handshake HTTP.
-- [Dissertação de Roy Fielding (Capítulo 5 - REST)](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm): Documento acadêmico seminal que definiu as restrições arquiteturais originais do REST.
+* [IETF - RFC 9110: HTTP Semantics](https://datatracker.ietf.org/doc/html/rfc9110) - Métodos HTTP (GET, POST, PUT, DELETE, PATCH), idempotência, segurança e cabeçalhos.
+* [OpenAPI Specification v3.1.0 (OAS)](https://spec.openapis.org/oas/latest.html) - Estrutura de especificação formal para documentação interoperável de APIs RESTful.
+* [GraphQL Official Documentation - Learn GraphQL](https://graphql.org/learn/) - Schemas, tipos, queries, mutations, resolvers e prevenção de over-fetching e under-fetching.
+* [MDN Web Docs - WebSockets API](https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API) - Comunicação full-duplex bidirecional sobre uma única conexão TCP persistente.
+* [Martin Fowler - Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html) - Os quatro níveis de maturidade de serviços REST (Nível 0 a 3 / HATEOAS).
+* FIELDING, Roy Thomas. **Architectural Styles and the Design of Network-based Software Architectures**. Tese de Doutorado. University of California, Irvine, 2000. (Cap. 5 - Representational State Transfer - REST).
+* ALLAMARAJU, Subbu. **Arquitetura de Web Services RESTful**. Rio de Janeiro: Alta Books, 2011. (Cap. 2 e 3 - O Protocolo HTTP e Recursos REST).
+* PORCELLO, Eve; BANKS, Alex. **Aprendendo GraphQL: Declarativo, Orientado a Dados e Eficiente**. São Paulo: Novatec, 2019. (Cap. 3 e 4 - Esquemas e Resoluções de Consultas).
 
 ---
 

@@ -191,16 +191,15 @@ flowchart TD
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
-- [Lei Federal nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm)
-    - Arts. 9º a 11 (Classificação Econômica da Receita) e Arts. 51 a 57 (Estágios da Receita e Unidade de Caixa).
-- [Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm)
-    - Arts. 11 a 14 (Previsão de Receitas e Renúncia Fiscal) e Art. 44 (Alienação de Ativos).
-- [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição (STN)](https://www.gov.br/tesouronacional/pt-br)
-    - Parte I: Procedimentos Contábeis Orçamentários - Classificações e Natureza da Receita.
-- [Código Tributário Nacional - Lei Federal nº 5.172/1966](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm)
-    - Art. 142 (Do Lançamento Tributário).
+* [Lei Federal nº 4.320/1964 - Dos Títulos I e II (Da Receita Pública)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Classificação por categorias econômicas (receitas correntes e receitas de capital) e estágios da receita.
+* [Lei Complementar nº 101/2000 - Da Previsão e Arrecadação da Receita](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm) - Requisitos de previsão de receitas, renúncia de receita fiscal e compensação.
+* [Tesouro Transparente - MCASP 11ª Edição (Receita Orçamentária)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Classificação por natureza da receita, fontes de recursos e reconhecimento contábil.
+* [Constituição Federal de 1988 - Arts. 165 a 167 (Vedações Orçamentárias)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art165) - Regra de ouro da receita de capital e vinculações constitucionais de receitas de impostos.
+* [Constituição do Estado de Goiás - Normas da Receita e Repartição Tributária](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Regras estaduais de arrecadação e destinação de receitas tributárias.
+* GIACOMONI, James. **Orçamento Público**. 18. ed. São Paulo: Atlas, 2021. (Cap. 8 - A Receita Pública: Classificações e Estágios).
+* PALUDO, Augustinho. **Orçamento Público, AFO e LRF**. 11. ed. Salvador: JusPodivm, 2022. (Cap. 5 - Receita Pública: Estágios e Classificações).
+* PISCITELLI, Roberto Bocaccio; TIMÓTEO, Alfredo. **Contabilidade Pública: Uma Abordagem da Administração Financeira Pública**. 14. ed. São Paulo: Atlas, 2019. (Cap. 3 - Receita Orçamentária).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC
 

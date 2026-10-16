@@ -292,19 +292,15 @@ A edição atualizada (ISO/IEC 27002:2022) simplificou os antigos 14 domínios d
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-### Documentação Oficial e Normas Técnicas na Web
-* **[NIST SP 800-30 Rev. 1 — Guide for Conducting Risk Assessments](https://csrc.nist.gov/pubs/sp/800/30/r1/final):** Guia oficial do NIST para condução de avaliações de risco de segurança da informação, detalhando a tríade Ativo, Ameaça e Vulnerabilidade, modelos qualitativos/quantitativos e matrizes de impacto.
-* **[NIST SP 800-61 Rev. 2 — Computer Security Incident Handling Guide](https://csrc.nist.gov/pubs/sp/800/61/r2/final):** Publicação normativa de referência para estruturação de CSIRTs e execução das 4 fases do ciclo de resposta a incidentes (Preparação, Detecção e Análise, Contenção/Erradicação/Recuperação e Atividades Pós-Incidente).
-* **[NIST Cybersecurity Framework (CSF 2.0)](https://www.nist.gov/cyberframework):** Portal oficial do framework de segurança cibernética do NIST, integrando funções de governança, identificação, proteção, detecção, resposta e recuperação de ativos críticos.
-* **[Governo Digital — Programa de Privacidade e Segurança da Informação (PPSI 2.0)](https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0):** Diretrizes oficiais da Administração Pública Federal para implementação de controles de segurança da informação, gestão de riscos e maturidade alinhados às normas ISO/IEC 27001 e 27002.
-* **[Planalto — Medida Provisória nº 2.200-2/2001 (ICP-Brasil)](https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm):** Base legal brasileira que institui a Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), assegurando os princípios de autenticidade, integridade e não repúdio (irretratabilidade) de documentos eletrônicos.
+* [NIST Cybersecurity Framework (CSF 2.0)](https://www.nist.gov/cyberframework) - Estrutura de referência global do NIST para identificação, proteção, detecção, resposta e recuperação de riscos cibernéticos.
+* [NIST SP 800-30 Rev. 1 - Guide for Conducting Risk Assessments](https://csrc.nist.gov/pubs/sp/800/30/r1/final) - Guia metodológico oficial para condução de processos de avaliação e gestão de riscos em segurança da informação.
+* [NIST SP 800-37 Rev. 2 - Risk Management Framework](https://csrc.nist.gov/pubs/sp/800/37/r2/final) - Diretrizes para aplicação do Risk Management Framework (RMF) aos sistemas e organizações.
+* [Governo Digital - Programa de Privacidade e Segurança da Informação (PPSI 2.0)](https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0) - Diretrizes, requisitos de maturidade e gestão de riscos cibernéticos para a administração pública.
+* [Decreto Federal nº 9.637/2018 (Política Nacional de Segurança da Informação)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9637.htm) - Institui a PNSI, dispondo sobre governança, gestão de riscos e tratamento de incidentes de segurança da informação.
+* ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR ISO/IEC 27001:2022**: Tecnologia da informação — Técnicas de segurança — Sistemas de gestão da segurança da informação — Requisitos. Rio de Janeiro: ABNT, 2022.
+* ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR ISO/IEC 27005:2023**: Segurança da informação, segurança cibernética e proteção da privacidade — Gestão de riscos de segurança da informação. Rio de Janeiro: ABNT, 2023.
+* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 1 - Visão Geral de Segurança da Informação).
 
-### Obras Clássicas e Normas Técnicas (Padrão ABNT)
-* ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR ISO/IEC 27001:2022 — Segurança da informação, segurança cibernética e proteção à privacidade — Sistemas de gestão da segurança da informação — Requisitos**. Rio de Janeiro: ABNT, 2022. (Cláusulas 4 a 10 do Anexo SL, Ciclo PDCA e Declaração de Aplicabilidade - SoA).
-* ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR ISO/IEC 27002:2022 — Segurança da informação, segurança cibernética e proteção à privacidade — Controles de segurança da informação**. Rio de Janeiro: ABNT, 2022. (Seções 5 a 8 — Estrutura de 93 controles divididos nos 4 temas: Organizacionais, Pessoas, Físicos e Tecnológicos).
-* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 6. ed. São Paulo: Pearson Education do Brasil, 2015. (Cap. 1 — Conceitos de Segurança da Informação, Pilares CIDAN e Arquitetura de Segurança OSI).
-
----
 
 ## 6. Questões Comentadas (FCC)
 

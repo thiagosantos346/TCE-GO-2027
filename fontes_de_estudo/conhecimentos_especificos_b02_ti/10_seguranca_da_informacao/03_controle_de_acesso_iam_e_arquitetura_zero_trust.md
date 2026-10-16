@@ -384,23 +384,16 @@ flowchart LR
 
 ---
 
-## 5. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-#### 1. Padrões Internacionais do NIST e Governo Digital
-- [NIST Special Publication 800-207 - Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final): Publicação oficial definitiva que formalizou os princípios norteadores do Zero Trust (*Never Trust, Always Verify* e *Assume Breach*), componentes lógicos de controle (*Policy Engine*, *Policy Administrator* e *Policy Enforcement Point*) e abordagens de microsegmentação.
-- [NIST Special Publication 800-63B - Digital Identity Guidelines](https://pages.nist.gov/800-63-3/sp800-63b.html): Diretrizes de autenticação eletrônica detalhando os três fatores fundamentais (conhecimento, posse e inerência), níveis de garantia de autenticação (AAL) e requisitos de proteção contra ataques de repetição e phishing.
-- [Governo Digital — Programa de Privacidade e Segurança da Informação (PPSI 2.0)](https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0): Diretrizes federais para implementação de controles de gestão de identidades, acessos privilegiados (PAM) e autenticação multifator em órgãos públicos.
+* [NIST SP 800-207 - Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) - Publicação seminal do NIST definindo os princípios e a arquitetura oficial Zero Trust.
+* [NIST SP 800-63B - Digital Identity Guidelines: Authentication and Lifecycle Management](https://pages.nist.gov/800-63-3/sp800-63b.html) - Diretrizes técnicas de autenticação de usuários, políticas de senhas e autenticação multifator (MFA).
+* [IETF RFC 6749 - The OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749) - Especificação oficial do framework de autorização e concessão de tokens OAuth 2.0.
+* [OWASP Access Control Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html) - Guia prático de implementação e validação de controles de acesso RBAC e ABAC.
+* [Decreto nº 10.543/2020 (Níveis de Autenticação e Assinatura Eletrônica)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm) - Dispõe sobre o uso das assinaturas eletrônicas e níveis de confiabilidade (bronze, prata e ouro) no âmbito da administração pública.
+* KUROSE, James F.; ROSS, Keith W. **Redes de Computadores e a Internet: Uma Abordagem Top-Down**. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 8 - Segurança em Redes de Computadores: Autenticação e Controle de Acesso).
+* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 15 - Controle de Acesso de Usuários).
 
-#### 2. Normas e Padrões de Controle de Acesso
-- [OASIS XACML Standard](https://www.oasis-open.org/committees/xacml/): Padrão aberto oficial para definição de políticas granulares de controle de acesso baseado em atributos (ABAC) e arquitetura de pontos de decisão (PDP/PEP).
-- [OWASP Cheat Sheet Series — Authentication & Access Control](https://cheatsheetseries.owasp.org/index.html): Repositório técnico de referência com diretrizes práticas de implementação segura de autenticação multifator, gestão de sessões, SSO e controle de acesso lógico.
-
-#### 3. Referências Bibliográficas Clássicas (Padrão ABNT)
-* STALLINGS, William; BROWN, Lawrie. **Segurança de Computadores: Princípios e Práticas**. 2. ed. Rio de Janeiro: Elsevier, 2014. (Cap. 3 e 4 — Autenticação de Usuários e Controle de Acesso: Modelos DAC, MAC, RBAC e ABAC).
-* SANDHU, Ravi S. et al. **Role-Based Access Control Models**. IEEE Computer, v. 29, n. 2, p. 38-47, 1996. (Artigo seminal que formalizou a família de modelos RBAC0, RBAC1, RBAC2 e RBAC3).
-* ROSE, Scott et al. **Zero Trust Architecture (NIST Special Publication 800-207)**. Gaithersburg: National Institute of Standards and Technology, 2020. (Seções 2 e 3 — Princípios de Confiança Zero e Componentes Lógicos PE, PA e PEP).
-
----
 
 ## 6. Questões Comentadas & Exemplos Práticos
 

@@ -173,13 +173,15 @@ flowchart TD
 
 ### 5. Fontes Oficiais e Referências Bibliográficas
 
-* [MINTZBERG, Henry; AHLSTRAND, Bruce; LAMPEL, Joseph. Safári de Estratégia: um roteiro pela selva do planejamento estratégico. Editora Bookman.](https://www.grupoa.com.br) - As dez escolas do pensamento estratégico.
-* [OLIVEIRA, Djalma de Pinho Rebouças de. Planejamento Estratégico: conceitos, metodologia e práticas. Editora Atlas.](https://www.grupogen.com.br).
-* [Plano Estratégico Institucional do TCE-GO 2021-2030](https://portal.tce.go.gov.br) - Declaração oficial de Missão, Visão e Valores institucionais.
-* [ANSOFF, H. Igor. Estratégia Corporativa. Editora Atlas.](https://www.grupogen.com.br).
-* [PORTER, Michael E. Estratégia Competitiva: técnicas para análise de indústrias e da concorrência. Campus.](https://www.grupogen.com.br).
+* [Decreto nº 9.203/2017 (Mecanismo de Estratégia na Governança Pública)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Define estratégia como conjunto de ações voltadas ao alcance dos objetivos organizacionais e satisfação do cidadão.
+* [Decreto-Lei nº 200/1967 (Princípio Fundamental do Planejamento)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Exigência legal de planejamento plurianual e planos anuais de ação para as entidades públicas.
+* [TCU - Referencial Básico de Governança: Práticas de Estratégia](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Critérios para formulação de missão institucional, visão de futuro e valores organizacionais.
+* [TCE-GO - Plano de Fiscalização e Diretrizes Estratégicas](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Diretrizes estratégicas que orientam as ações de controle do tribunal goiano.
+* [Governo Digital - Estratégia Federal de Governo Digital (EFGD)](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/EFGD) - Planejamento estratégico federal para modernização da prestação de serviços públicos.
+* MINTZBERG, Henry; AHLSTRAND, Bruce; LAMPEL, Joseph. **Safári de Estratégia: Um Roteiro pela Selva do Planejamento Estratégico**. 2. ed. Porto Alegre: Bookman, 2010. (Cap. 2 a 11 - As Dez Escolas do Pensamento Estratégico).
+* OLIVEIRA, Djalma de Pinho Rebouças de. **Planejamento Estratégico: Conceitos, Metodologia e Práticas**. 34. ed. São Paulo: Atlas, 2018. (Cap. 1 a 3 - Missão, Visão e Valores Organizacionais).
+* ANSOFF, H. Igor. **Estratégia Corporativa**. São Paulo: Atlas, 1990. (Cap. 4 - Formulação Estratégica).
 
----
 
 ### 6. Questões de Concurso FCC Comentadas
 

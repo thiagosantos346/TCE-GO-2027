@@ -186,16 +186,15 @@ O advogado é indispensável à administração da justiça, sendo inviolável p
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 
-- [Constituição Federal de 1988 - Título IV (Da Organização dos Poderes)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art76)
-    - Dispositivos completos sobre Poder Executivo, Poder Judiciário e Funções Essenciais à Justiça.
-- [Lei Federal nº 11.417/2006 (Lei da Súmula Vinculante)](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11417.htm)
-    - Disciplina o procedimento de edição, cancelamento e revisão de súmulas vinculantes perante o STF.
-- [Supremo Tribunal Federal - ADI 3.367 (Constitucionalidade da Criação do CNJ)](https://portal.stf.jus.br/)
-    - Acórdão que consolidou a natureza estritamente administrativa e disciplinar do Conselho Nacional de Justiça.
-- [Lei Complementar Estadual nº 58/2006 (Lei Orgânica da Procuradoria-Geral do Estado de Goiás)](https://legisla.casacivil.go.gov.br/)
-    - Estatuto legal e atribuições institucionais da PGE-GO.
+* [Constituição Federal de 1988 - Arts. 76 a 91 (Poder Executivo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art76) - Eleição, posse, atribuições privativas do Presidente da República e responsabilidade política/crime de responsabilidade.
+* [Constituição Federal de 1988 - Arts. 92 a 126 (Poder Judiciário)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art92) - Órgãos do Poder Judiciário, garantias da magistratura, competências do STF, STJ e Tribunais Regionais.
+* [Constituição Federal de 1988 - Arts. 127 a 135 (Funções Essenciais à Justiça)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art127) - Ministério Público (princípios institucionais e garantias), Advocacia Pública e Defensoria Pública.
+* [Constituição do Estado de Goiás - Título IV (Da Organização dos Poderes)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Organização do Poder Executivo, Judiciário e Ministério Público junto ao Tribunal de Contas de Goiás.
+* [STF Súmula Vinculante 13 (Vedação ao Nepotismo nos Poderes da República)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=13) - Aplicação uniforme da proibição de nepotismo nos Poderes Executivo, Legislativo e Judiciário.
+* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 12 - O Poder Executivo; Cap. 13 - O Poder Judiciário; Cap. 14 - As Funções Essenciais à Justiça).
+* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 8 - Poder Executivo; Cap. 9 - Poder Judiciário; Cap. 10 - Funções Essenciais).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 2 - Regime Jurídico-Administrativo e Separação dos Poderes).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
 

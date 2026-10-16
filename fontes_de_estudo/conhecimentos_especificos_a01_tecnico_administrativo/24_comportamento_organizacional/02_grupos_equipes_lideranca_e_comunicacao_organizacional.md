@@ -198,13 +198,15 @@ flowchart LR
 
 ### 6. Fontes Oficiais e Referências Bibliográficas
 
-* [ROBBINS, Stephen P.; JUDGE, Timothy A. Comportamento Organizacional. 18ª Edição. Editora Pearson.](https://www.pearson.com) - Capítulos sobre Grupos, Equipes, Liderança e Comunicação.
-* [HERSEY, Paul; BLANCHARD, Kenneth H. Psicologia para Administradores: a teoria e as técnicas da liderança situacional. EPU.](https://www.grupogen.com.br).
-* [BASS, Bernard M.; AVOLIO, Bruce J. Improving Organizational Effectiveness Through Transformational Leadership. SAGE Publications.](https://us.sagepub.com).
-* [TUCKMAN, Bruce W. Developmental Sequence in Small Groups. Psychological Bulletin.](https://www.apa.org).
-* [CHIAVENATO, Idalberto. Comportamento Organizacional: a dinâmica do sucesso das organizações. Atlas.](https://www.grupogen.com.br).
+* [Decreto Federal nº 9.203/2017 (Mecanismo de Liderança na Governança)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Práticas para desenvolvimento de líderes, comunicação transparente e conduta ética.
+* [TCU - Referencial Básico de Governança: Práticas do Mecanismo de Liderança](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Competências de liderança e papel dos gestores na motivação de equipes públicas.
+* [TCE-GO - Código de Ética e Relações Interpessoais](https://portal.tce.go.gov.br/documents/20181/574123/C%C3%B3digo+de+%C3%89tica/056863be-6768-4c35-a6e8-ccdd40421211) - Normas de respeito interpessoal, cooperação e comunicação interna no tribunal.
+* [Scrum Guide 2020 Oficial (Liderança Servidora e Equipes)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Princípios de liderança servidora, autogestão e dinâmicas de colaboração em equipes.
+* [Decreto Federal nº 11.072/2022 (Gestão de Equipes no Teletrabalho e PGD)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Planejamento e comunicação de equipes que operam em regime presencial e remoto.
+* ROBBINS, Stephen P.; JUDGE, Timothy A.; SOBRAL, Filipe. **Comportamento Organizacional: Teoria e Prática no Contexto Brasileiro**. 14. ed. São Paulo: Pearson Prentice Hall, 2010. (Cap. 9 - Comportamento em Grupo; Cap. 10 - Equipes de Trabalho; Cap. 11 - Comunicação; Cap. 12 - Liderança).
+* CHIAVENATO, Idalberto. **Comportamento Organizacional: A Dinâmica do Sucesso das Organizações**. 4. ed. São Paulo: Atlas, 2021. (Cap. 9 - Equipes de Alto Desempenho; Cap. 11 - Liderança, Poder e Influência).
+* TUCKMAN, Bruce W. **Developmental Sequence in Small Groups**. Psychological Bulletin, v. 63, n. 6, p. 384-399, 1965.
 
----
 
 ### 7. Questões de Concurso FCC Comentadas
 

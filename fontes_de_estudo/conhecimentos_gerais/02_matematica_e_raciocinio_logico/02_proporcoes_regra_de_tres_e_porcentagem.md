@@ -202,9 +202,13 @@ A base de referência percentual corresponde ao valor que ocupa o denominador da
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Khan Academy Brasil - Razões, Proporções e Porcentagem](https://pt.khanacademy.org/math/pre-algebra/pre-algebra-ratios-rates) - Vídeos e listas práticas sobre grandezas proporcionais e cálculo de porcentagens.
-* [Portal da Matemática OBMEP / IMPA - Proporcionalidade e Regra de Três](https://portaldaobmep.impa.br/) - Módulos avançados do IMPA sobre divisão proporcional e propriedades das razões.
-* [Banco Central do Brasil - Cidadania Financeira](https://www.bcb.gov.br/cidadaniafinanceira) - Cálculos de reajustes contratuais, variações percentuais acumuladas e fatores de atualização.
+* [Khan Academy Brasil - Pré-Álgebra: Razões, Proporções e Porcentagens](https://pt.khanacademy.org/math/pre-algebra) - Conceito formal de razões, proporções, grandezas direta e inversamente proporcionais e taxas percentuais.
+* [Khan Academy Brasil - Aritmética: Problemas com Proporções e Porcentagem](https://pt.khanacademy.org/math/arithmetic) - Cálculo prático de porcentagens, acréscimos, descontos sucessivos e regra de três simples.
+* [OBMEP / IMPA - Apostila 2 do PIC: Métodos de Contagem e Razões](https://www.obmep.org.br/docs/apostila2.pdf) - Raciocínio proporcional aplicado a problemas combinatórios e variações relativas (Prof. Paulo Cezar Pinto Carvalho).
+* [Portal da Matemática OBMEP / IMPA - Módulo de Proporcionalidade e Porcentagem](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=77) - Videoaulas e material teórico oficial sobre grandezas proporcionais e regra de três composta.
+* MORGADO, Augusto César; WAGNER, Eduardo; CARVALHO, Paulo Cezar Pinto. **Matemática do Ensino Médio, Volume 1**. 11. ed. Rio de Janeiro: SBM, 2012. (Cap. 4 - Proporcionalidade e Funções Lineares).
+* IEZZI, Gelson; HAZZAN, Samuel; DEGENSZAJN, David. **Fundamentos de Matemática Elementar, Volume 11: Matemática Comercial e Financeira**. 2. ed. São Paulo: Atual, 2013. (Cap. 1 a 3 - Razões, Proporções e Porcentagens).
+* D'AMBRÓSIO, Ubiratan. **Etnomatemática: Elo entre as Tradições e a Modernidade**. Belo Horizonte: Autêntica, 2001. (Cap. 2 - Aritmética Prática e Proporções).
 
 ---
 

@@ -248,17 +248,15 @@ O Artigo 21 constitui a exceção mais importante e cobrada em provas de concurs
 
 ## 6. Fontes Recomendadas na Internet
 
-- [x] **Lei Federal nº 12.965/2014 - Marco Civil da Internet (Portal do Planalto):**
-    - Link Oficial: [Texto Integral e Compilado da Lei nº 12.965/2014](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm)
-    - *Dispositivos de Destaque:* Arts. 9º (Neutralidade), 10 a 12 (Privacidade e Segurança), 13 a 17 (Guarda de Registros) e 18 a 21 (Responsabilidade por Conteúdo).
-- [x] **Decreto Federal nº 8.771/2016 - Regulamentação do Marco Civil (Portal do Planalto):**
-    - Link Oficial: [Texto Integral do Decreto nº 8.771/2016](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8771.htm)
-    - *Conteúdo:* Critérios para exceções à neutralidade de rede, fiscalização pela Anatel/ANPD/Cade e requisitos mínimos de segurança de registros.
-- [x] **Comitê Gestor da Internet no Brasil (CGI.br):**
-    - Link Oficial: [Portal Oficial do CGI.br](https://cgi.br/)
-    - *Conteúdo:* Decálogo de princípios para governança da Internet, relatórios técnicos sobre CGNAT e transição IPv6.
+* [Lei nº 12.965/2014 (Marco Civil da Internet)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm) - Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.
+* [Decreto nº 8.771/2016 (Regulamento do Marco Civil da Internet)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8771.htm) - Regulamenta a neutralidade de rede, a guarda de registros e os padrões de segurança de dados.
+* [Comitê Gestor da Internet no Brasil (CGI.br) - Estrutura e Governança](https://cgi.br/sobre/) - Histórico, competências institucionais e princípios fundamentais de governança da Internet no Brasil.
+* [IETF RFC 8446 - The Transport Layer Security (TLS) Protocol Version 1.3](https://datatracker.ietf.org/doc/html/rfc8446) - Norma técnica que viabiliza a inviolabilidade e o sigilo das comunicações previsto no art. 7º do Marco Civil.
+* [Governo Digital - Infraestrutura Nacional de Dados (IND)](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados) - Governança e compartilhamento de dados governamentais conforme as garantias do Marco Civil.
+* PINHEIRO, Patricia Peck. **Direito Digital**. 7. ed. São Paulo: SaraivaJur, 2021. (Cap. 3 - Marco Civil da Internet: Responsabilidade e Registros).
+* SOUZA, Carlos Affonso; LEMOS, Ronaldo. **Marco Civil da Internet: Construção e Aplicação**. São Paulo: Revista dos Tribunais, 2014. (Cap. 1 - Neutralidade de Rede; Cap. 2 - Guarda de Registros e Privacidade).
+* BLUM, Renato Opice. **Marco Civil da Internet Comentado**. São Paulo: Quartier Latin, 2015. (Arts. 9º a 17 - Responsabilidade Civil dos Provedores).
 
----
 
 ## 7. Questões Comentadas no Padrão FCC
 

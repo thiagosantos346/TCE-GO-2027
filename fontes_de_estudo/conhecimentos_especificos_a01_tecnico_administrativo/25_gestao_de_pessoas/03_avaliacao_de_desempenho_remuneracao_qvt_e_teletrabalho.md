@@ -212,13 +212,15 @@ A consolidação do regime de teletrabalho transformou a dinâmica das institui�
 
 ### 6. Fontes Oficiais e Referências Bibliográficas
 
-* [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) - Art. 37, XI (Teto constitucional) e Art. 39, § 4º (Regime de subsídio).
-* [WALTON, Richard E. Quality of Working Life: What is it? Sloan Management Review, 1973](https://mitsloan.mit.edu).
-* [CHIAVENATO, Idalberto. Desempenho Humano nas Empresas: como desenhar cargos e avaliar o desempenho. Rio de Janeiro: Manole, 2018](https://www.manole.com.br).
-* [Decreto Federal nº 11.072/2022](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Regulamenta o Programa de Gestão e Desempenho (PGD) e o teletrabalho na administração pública federal.
-* [BERNARDIN, H. John; RUSSELL, Joyce E. A. Gestão de Recursos Humanos: uma abordagem experiencial. McGraw-Hill](https://www.mheducation.com).
+* [Decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho - PGD e Teletrabalho)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Disciplina o teletrabalho, planos de trabalho individuais, metas de produtividade e qualidade das entregas.
+* [Constituição Federal de 1988 - Art. 41, § 1º, III (Avaliação Periódica de Desempenho)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Condição constitucional para perda de cargo do servidor estável mediante procedimento de avaliação periódica de desempenho.
+* [Lei Estadual nº 20.756/2020 - Da Avaliação Especial e Periódica de Desempenho](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Critérios de estágio probatório, avaliação periódica e teletrabalho para servidores públicos de Goiás.
+* [Lei Estadual nº 15.122/2005 (Estrutura Remuneratória e Progressão no TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/80023/lei-15122) - Vencimentos, progressões, promoções por mérito e gratificações dos servidores do TCE-GO.
+* [TCU - Governança da Gestão de Pessoas e Teletrabalho](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial de boas práticas para acompanhamento do desempenho individual e institucional.
+* CHIAVENATO, Idalberto. **Gestão de Pessoas: O Novo Papel dos Recursos Humanos nas Organizações**. 5. ed. São Paulo: Atlas, 2020. (Cap. 8 - Avaliação do Desempenho Humano; Cap. 9 - Remuneração; Cap. 13 - Qualidade de Vida no Trabalho).
+* MARRAS, Jean Pierre. **Administração de Recursos Humanos: Do Operacional ao Estratégico**. 15. ed. São Paulo: Saraiva, 2016. (Cap. 7 - Avaliação de Desempenho; Cap. 8 - Remuneração e Benefícios).
+* LIMONGI-FRANÇA, Ana Cristina. **Qualidade de Vida no Trabalho - QVT: Conceitos e Práticas nas Empresas da Sociedade Pós-Industrial**. 2. ed. São Paulo: Atlas, 2012. (Cap. 2 - Modelos de QVT: Walton e Nadler-Lawler).
 
----
 
 ### 7. Questões de Concurso FCC Comentadas
 

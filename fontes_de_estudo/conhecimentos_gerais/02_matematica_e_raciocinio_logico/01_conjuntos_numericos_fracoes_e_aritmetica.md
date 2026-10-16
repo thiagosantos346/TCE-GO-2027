@@ -258,9 +258,14 @@ Em problemas que constroem sequências infinitas repetindo ciclicamente um conju
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Khan Academy Brasil - Aritmética e Pré-Álgebra](https://pt.khanacademy.org/math/arithmetic) - Operações com frações, decimais, potências e propriedades aritméticas.
-* [Portal da Matemática OBMEP / IMPA - Divisibilidade e Teoria dos Números](https://portaldaobmep.impa.br/) - Aulas do IMPA com rigor sobre critérios de divisibilidade, algoritmo euclidiano, MMC e MDC.
-* [Só Matemática - Álgebra e Conjuntos Numéricos](https://www.somatematica.com.br/fundam.php) - Exercícios comentados e regras de frações geratrizes e potências.
+* [Khan Academy Brasil - Aritmética e Operações Fundamentais](https://pt.khanacademy.org/math/arithmetic) - Operações fundamentais com inteiros e números racionais, potenciação e expressões numéricas.
+* [Khan Academy Brasil - Frações e Operações Fracionárias](https://pt.khanacademy.org/math/arithmetic/fraction-arithmetic) - Adição, subtração, multiplicação, divisão e simplificação de frações ordinárias.
+* [Khan Academy Brasil - Pré-Álgebra: Fatores, Primos e Divisibilidade](https://pt.khanacademy.org/math/pre-algebra) - Critérios de divisibilidade, números primos, fatoração e cálculo de MMC e MDC.
+* [OBMEP / IMPA - Apostila 1 do PIC: Iniciação à Aritmética](https://www.obmep.org.br/docs/apostila1.pdf) - Teoria elementar dos números, divisibilidade, algoritmo da divisão de Euclides e propriedades de restos (Prof. Abramo Hefez).
+* [OBMEP / IMPA - Apostila Temática: Aritmética](https://www.obmep.org.br/docs/aritmetica.pdf) - Módulo aprofundado com demonstrações teóricas e problemas clássicos de aritmética e números inteiros.
+* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 1 e 2 - Fundamentos e Operações Básicas).
+* HEFEZ, Abramo. **Elementos de Aritmética**. 2. ed. Rio de Janeiro: SBM, 2011. (Cap. 2 - Divisibilidade e Algoritmo de Euclides).
+* IEZZI, Gelson; MURAKAMI, Carlos. **Fundamentos de Matemática Elementar, Volume 1: Conjuntos e Funções**. 9. ed. São Paulo: Atual, 2013. (Cap. 1 a 3 - Conjuntos Numéricos Fundamentais).
 
 ---
 

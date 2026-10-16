@@ -288,10 +288,13 @@ Em arquiteturas corporativas avançadas, a complexidade de um sistema de softwar
 
 ## 5. Fontes Recomendadas na Internet
 
-- [Model Context Protocol (MCP) Official Specification](https://modelcontextprotocol.io/): Portal oficial com a especificação formal completa da arquitetura cliente-servidor, primitivas e transportes.
-- [Anthropic MCP Announcement & Technical Whitepaper](https://www.anthropic.com/news/model-context-protocol): Artigo conceitual sobre o padrão aberto para integração de modelos de IA e fontes de dados.
-- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al., 2020)](https://arxiv.org/abs/2005.11401): Artigo acadêmico seminal que lançou as bases do RAG na ciência da computação.
-- [pgvector: Open-source Vector Similarity Search for Postgres](https://github.com/pgvector/pgvector): Documentação técnica oficial sobre indexação vetorial HNSW e cálculo de similaridade de cosseno dentro do PostgreSQL.
+* [ArXiv - Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al.)](https://arxiv.org/abs/2005.11401) - Artigo seminal da arquitetura RAG combinando recuperação vetorial densa e modelos neurais geradores.
+* [Model Context Protocol (MCP) - Core Architecture & Specification](https://modelcontextprotocol.io/introduction) - Especificação formal de Resources, Prompts e Tools para sistemas agentivos.
+* [OpenAI Platform - Embeddings Guide and Semantic Search](https://platform.openai.com/docs/guides/prompt-engineering) - Geração de representações vetoriais densas e busca semântica por similaridade de cosseno.
+* [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework) - Validação de fontes de dados e ancoragem factual (*grounding*) contra alucinações.
+* MANNING, Christopher D.; RAGHAVAN, Prabhakar; SCHÜTZE, Hinrich. **Introdução à Recuperação de Informação**. Cambridge: Cambridge University Press, 2008. (Cap. 6 - Pontuação de Similaridade e Espaços Vetoriais).
+* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 4 - Retrieval-Augmented Generation and Vector Databases).
+* JURAFSKY, Daniel; MARTIN, James H. **Speech and Language Processing**. 3. ed. Stanford University, 2024. (Cap. 14 - Vector Semantics and Embeddings).
 
 ---
 

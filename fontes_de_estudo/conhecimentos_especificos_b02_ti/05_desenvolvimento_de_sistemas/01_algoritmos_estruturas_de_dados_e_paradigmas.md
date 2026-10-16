@@ -275,10 +275,13 @@ flowchart LR
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
-* [Introduction to Algorithms (Cormen, Leiserson, Rivest, Stein - CLRS)](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/) - O livro texto canônico de análise de algoritmos e estruturas de dados.
-* [Big-O Algorithm Complexity Cheat Sheet](https://www.bigocheatsheet.com/) - Tabela de referência de complexidades assintóticas de busca, ordenação e estruturas.
-* [Java Language Specification - Polymorphism and Overriding (Oracle)](https://docs.oracle.com/javase/specs/) - Especificações formais de sobrecarga e sobrescrita de métodos.
-* [Structure and Interpretation of Computer Programs (Abelson & Sussman)](https://mitpress.mit.edu/sites/default/files/sicp/index.html) - Fundamentos de abstração e programação funcional.
+* [Python Official Documentation - Data Structures](https://docs.python.org/pt-br/3/tutorial/datastructures.html) - Listas, pilhas, filas, tuplas, dicionários, conjuntos e operações fundamentais de dados.
+* [Oracle Java Documentation - Java Collections Framework](https://docs.oracle.com/javase/tutorial/collections/intro/index.html) - Interfaces List, Set, Queue, Deque, Map e implementações em Java.
+* [Oracle Java Documentation - Object-Oriented Programming Concepts](https://docs.oracle.com/javase/tutorial/java/concepts/index.html) - Fundamentos formais de orientação a objetos: classes, objetos, encapsulamento e polimorfismo.
+* [ArXiv - Algorithm Complexity and Analysis](https://arxiv.org/abs/2107.03374) - Análise assintótica formal de complexidade e benchmarks algorítmicos.
+* CORMEN, Thomas H. et al. **Algoritmos: Teoria e Prática**. 4. ed. Rio de Janeiro: GEN LTC, 2024. (Cap. 1 a 4 - Fundamentos, Notação Assintótica e Divisão e Conquista).
+* SEDGEWICK, Robert; WAYNE, Kevin. **Algorithms**. 4. ed. Boston: Addison-Wesley, 2011. (Cap. 1 e 2 - Estruturas de Dados Elementares e Ordenação).
+* DROZDEK, Adam. **Estrutura de Dados e Algoritmos em C++**. 2. ed. São Paulo: Cengage Learning, 2016. (Cap. 3 a 5 - Pilhas, Filas e Árvores).
 
 ---
 

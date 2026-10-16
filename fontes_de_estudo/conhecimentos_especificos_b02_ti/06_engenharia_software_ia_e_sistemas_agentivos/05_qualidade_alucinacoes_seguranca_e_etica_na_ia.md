@@ -42,6 +42,7 @@
 - [6. Ética no Desenvolvimento Assistido e Responsabilidade Profissional Indelegável](#6-etica-no-desenvolvimento-assistido-e-responsabilidade-profissional-indelegavel)
     - [6.1 O Princípio da Supervisão Humana Significativa (Meaningful Human Control)](#61-o-principio-da-supervisao-humana-significativa-meaningful-human-control)
     - [6.2 Marco Regulatório do TCE-GO (Resolução Administrativa nº 24/2024) e Responsabilidade Funcional](#62-marco-regulatorio-do-tce-go-resolucao-administrativa-no-242024-e-responsabilidade-funcional)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 - [7. Questões Comentadas & Prática Padrão FCC](#7-questoes-comentadas-pratica-padrao-fcc)
 
 ---
@@ -300,6 +301,19 @@ No âmbito do Tribunal de Contas do Estado de Goiás, a **Resolução Administra
 > - O uso de IA **NUNCA** exime ou atenua a responsabilidade pessoal do servidor público pelo código homologado e entregue.
 > - A responsabilidade técnica e civil é **INDELEGÁVEL E HUMANA**.
 > - Provedores de IA não assumem responsabilidade funcional sobre as decisões e sistemas desenvolvidos por órgãos públicos contratantes.
+
+---
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [OWASP Top 10 for Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - Principais vulnerabilidades em aplicações com LLMs (Prompt Injection, Insecure Output Handling, Data Poisoning).
+* [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework) - Diretrizes oficiais para mensuração de alucinações, governança ética e confiabilidade em IA.
+* [ArXiv - Evaluating Large Language Models Trained on Code (Chen et al.)](https://arxiv.org/abs/2107.03374) - Métricas pass@k e avaliação rigorosa da integridade funcional de código gerado por IA.
+* [Lei Federal nº 13.709/2018 - LGPD (Planalto)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) - Princípios da finalidade, necessidade, transparência e revisão humana de decisões automatizadas (Art. 20).
+* [Lei Complementar Estadual de Goiás nº 205/2025 - Política de IA (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/110694/lei-complementar-205) - Diretrizes de fomento, ética, governança e transparência no uso de inteligência artificial em Goiás.
+* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 27 - Filosofia, Ética e Segurança da IA).
+* O'NEIL, Cathy. **Algoritmos de Destruição em Massa: Como o Big Data Aumenta a Desigualdade e Ameaça a Democracia**. Santo André: Editora Rua do Sabão, 2020. (Cap. 1 e 2 - A Anatomia de um Modelo Oculto).
+* BIONI, Bruno Ricardo. **Proteção de Dados Pessoais: A Função e os Limites do Consentimento**. 2. ed. Rio de Janeiro: Forense, 2021. (Cap. 4 - Tratamento Automatizado de Dados e Discriminação Algorítmica).
 
 ---
 

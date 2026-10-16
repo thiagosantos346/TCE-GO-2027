@@ -194,10 +194,14 @@ graph TD
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
-* [Código de Ética dos Servidores do TCE-GO (Resolução Administrativa nº 01/2014, Anexo II)](https://portal.tce.go.gov.br/legislacao) - Normas deontológicas, deveres, proibições e rito processual da Comissão de Ética.
-* [Portal da Ética e Integridade do TCE-GO](https://portal.tce.go.gov.br/etica) - Cartilhas educativas e diretrizes de combate à corrupção.
-* [ISSAI 130 - Código de Ética da INTOSAI](https://irbcontas.org.br/) - Princípios internacionais para auditores do controle externo.
-* [Lei Federal nº 12.813/2013](http://www.planalto.gov.br) - Regime de prevenção ao conflito de interesses na administração pública.
+* [Código de Ética dos Servidores do TCE-GO (Documento Oficial TCE-GO)](https://portal.tce.go.gov.br/documents/20181/574123/C%C3%B3digo+de+%C3%89tica/056863be-6768-4c35-a6e8-ccdd40421211) - Texto oficial com deveres, vedações e funcionamento da Comissão de Ética.
+* [Portal Institucional do TCE-GO - Corregedoria Geral e Ética](https://portal.tce.go.gov.br/corregedoria-geral2) - Atribuições da Corregedoria Geral e atuação da Comissão de Ética do TCE-GO.
+* [Lei Estadual nº 20.756/2020 - Estatuto dos Servidores de Goiás (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Deveres funcionais, proibições e regime disciplinar dos servidores públicos.
+* [Lei Estadual nº 13.800/2001 - Processo Administrativo Estadual (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/81441/lei-13800) - Ritos e garantias da ampla defesa em processos de apuração ética.
+* [Lei Federal nº 8.429/1992 - Lei de Improbidade Administrativa (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm) - Princípios da moralidade administrativa e sanções por enriquecimento ilícito.
+* NOHARA, Irene Patrícia. **Direito Administrativo**. 11. ed. São Paulo: Atlas, 2022. (Cap. 11 - Moralidade Administrativa e Regime Disciplinar).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 12 - Responsabilidade Funcional e Regime Ético).
+* GARCIA, Emerson; ALVES, Rogério Pacheco. **Improbidade Administrativa**. 10. ed. São Paulo: Saraiva, 2021. (Cap. 3 - Violação aos Princípios da Administração Pública).
 
 ---
 

@@ -249,13 +249,15 @@ flowchart LR
 
 ## 6. Fontes Recomendadas na Internet
 
-- [NIST Special Publication 800-145 - The NIST Definition of Cloud Computing](https://csrc.nist.gov/pubs/sp/800/145/final): Publicação canônica e oficial do NIST definindo as 5 características essenciais, 3 modelos de serviço e 4 modelos de implantação de nuvem.
-- [AWS Well-Architected Framework](https://aws.amazon.com/pt/architecture/well-architected/): Guia arquitetural da Amazon Web Services para construção de ecossistemas em nuvem baseados nos pilares de Segurança, Confiabilidade, Eficiência, Custos e Operação.
-- [Microsoft Learn - Azure Architecture Center e Cloud Adoption Framework](https://learn.microsoft.com/pt-br/azure/architecture/): Portal técnico da Microsoft com diretrizes oficiais sobre infraestruturas híbridas (ExpressRoute), padrões de resiliência multi-zona e arquiteturas orientadas a microsserviços.
-- [FinOps Foundation - The FinOps Framework](https://www.finops.org/framework/): Padrão internacional de governança e disciplina operacional de gestão financeira para nuvem pública mantido pela Linux Foundation.
-- [CNCF Serverless Whitepaper](https://www.cncf.io/reports/serverless-whitepaper/): Documentação da Cloud Native Computing Foundation conceituando arquiteturas Serverless, padrões de eventos e ciclo de vida de funções.
+* [NIST SP 800-145 - The NIST Definition of Cloud Computing](https://csrc.nist.gov/pubs/sp/800/145/final) - Definição seminal do NIST contemplando os 5 atributos essenciais, 3 modelos de serviço (IaaS, PaaS, SaaS) e 4 modelos de implantação.
+* [Martin Fowler - Serverless Architectures](https://martinfowler.com/articles/serverless.html) - Artigo seminal e abrangente de Martin Fowler e Mike Roberts sobre arquitetura, padrões e desafios do paradigma Serverless.
+* [Governo Digital - Computação em Nuvem no Setor Público](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/ambiente-tecnologico/nuvem) - Diretrizes e estratégia federal de contratação e adoção de infraestrutura em nuvem.
+* [AWS Official Documentation - O que é Computação Serverless?](https://aws.amazon.com/pt/serverless/) - Conceitos e arquitetura de computação sem servidor, automação orientada a eventos e escalabilidade sob demanda.
+* [NIST SP 800-146 - Cloud Computing Synopsis and Recommendations](https://csrc.nist.gov/pubs/sp/800/146/final) - Recomendações técnicas detalhadas para adoção de nuvens públicas, privadas, híbridas e comunitárias.
+* VERAS, Manoel. **Cloud Computing: Nova Arquitetura de TI**. Rio de Janeiro: Brasport, 2016. (Cap. 1 a 4 - Modelos de Entrega e Implantação em Nuvem).
+* FOWLER, Martin. **Patterns of Enterprise Application Architecture**. Boston: Addison-Wesley, 2002. (Cap. 3 a 5 - Estruturas de Distribuição e Escalabilidade).
+* BUYYA, Rajkumar; VECCHIOLA, Christian; SELVI, S. Thamarai. **Mastering Cloud Computing: Foundations and Applications Programming**. Burlington: Morgan Kaufmann, 2013. (Cap. 4 - Cloud Computing Architecture; Cap. 8 - Virtualization).
 
----
 
 ## 7. Questões Comentadas & Exemplos Práticos
 

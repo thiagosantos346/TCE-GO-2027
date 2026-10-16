@@ -246,23 +246,15 @@ A alteração em qualquer um desses vértices impacta compulsoriamente os outros
 
 ## 🌐 Fontes Oficiais & Referências Bibliográficas
 
-- [Decreto Federal nº 9.094/2017 — Simplificação do Atendimento Prestado aos Usuários dos Serviços Públicos](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9094.htm)
-    - Diretrizes de presunção de boa-fé, dispensa de reconhecimento de firma e autenticação de cópias (art. 9º), CPF como identificador único e Carta de Serviços ao Usuário.
-- [Lei Federal nº 13.460/2017 — Código de Defesa dos Usuários dos Serviços Públicos](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm)
-    - Direitos básicos dos usuários, diretrizes de qualidade no atendimento, manifestações em ouvidorias e avaliação continuada dos serviços públicos.
-- [Lei Federal nº 14.129/2021 — Lei do Governo Digital e Aumento da Eficiência Pública](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm)
-    - Desburocratização, interoperabilidade de bases governamentais, autosserviço digital e transformação de processos públicos (*AS-IS* para *TO-BE*).
-- [Object Management Group (OMG) — Especificação Oficial BPMN 2.0.2 (Business Process Model and Notation)](https://www.omg.org/spec/BPMN/2.0.2/About-BPMN)
-    - Padrão internacional para modelagem, documentação e redesenho de processos organizacionais em BPM.
-- [Tribunal de Contas da União (TCU) — Publicações Institucionais e Manuais de Gestão e Controle](https://portal.tcu.gov.br/publicacoes-institucionais/)
-    - Manuais técnicos e referenciais de auditoria operacional, gestão da qualidade, gerenciamento de projetos e avaliação de processos públicos.
-- DEMING, William Edwards. **Qualidade: a Revolução da Administração**. Rio de Janeiro: Marques-Saraiva, 1990. (Cap. 2 e 3 — Os 14 Princípios de Deming e o Ciclo PDCA de Melhoria Contínua).
-- JURAN, Joseph Moses. **A Qualidade desde o Projeto: novos passos para o planejamento da qualidade em produtos e serviços**. São Paulo: Pioneira, 1992. (Trilogia Juran: Planejamento, Controle e Aperfeiçoamento da Qualidade).
-- ISHIKAWA, Kaoru. **Controle de Qualidade Total à Maneira Japonesa**. Rio de Janeiro: Campus, 1993. (Cap. 6 e 8 — Círculos de Controle da Qualidade e as Sete Ferramentas da Qualidade).
-- PROJECT MANAGEMENT INSTITUTE (PMI). **Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK)**. 6. e 7. ed. Newtown Square: PMI, 2021. (Grupos de Processos, Termo de Abertura do Projeto - TAP e Estrutura Analítica do Projeto - EAP).
-- ASSOCIATION OF BUSINESS PROCESS MANAGEMENT PROFESSIONALS (ABPMP). **Guia para o Gerenciamento de Processos de Negócio: Corpo Comum de Conhecimento (BPM CBOK)**. Versão 4.0. Brasília: ABPMP Brasil, 2019. (Cap. 2 e 3 — Hierarquia e Modelagem de Processos *AS-IS* e *TO-BE*).
+* [Decreto Federal nº 9.094/2017 (Simplificação do Atendimento e Carta de Serviços)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9094.htm) - Regulamenta a simplificação de serviços, dispensa de reconhecimento de firma e Carta de Serviços ao Cidadão.
+* [Lei nº 13.460/2017 (Código de Defesa dos Usuários de Serviços Públicos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm) - Disciplina a participação, proteção e defesa dos direitos dos usuários de serviços da administração pública.
+* [Lei nº 14.129/2021 (Lei do Governo Digital e Modernização de Processos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm) - Estabelece princípios e instrumentos digitais para desburocratização e automação de serviços públicos.
+* [OMG - Business Process Model and Notation (BPMN 2.0.2)](https://www.omg.org/spec/BPMN/2.0.2/About-BPMN) - Especificação padrão global para modelagem de processos de negócio.
+* [Scrum Guide 2020 Oficial (Português-BR)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Guia definitivo das regras e práticas ágeis para gestão colaborativa de projetos.
+* PALADINI, Edson Pacheco. **Gestão da Qualidade: Teoria e Casos**. 3. ed. São Paulo: Atlas, 2019. (Cap. 3 - Ferramentas da Qualidade; Cap. 5 - Ciclo PDCA e Melhoria Contínua).
+* BALDAM, Roquemar et al. **Gerenciamento de Processos de Negócio - BPM: Uma Abordagem Prática**. São Paulo: Érica, 2014. (Cap. 2 a 4 - Notação BPMN e Mapeamento de Processos).
+* KERZNER, Harold. **Gestão de Projetos: As Melhores Práticas**. 3. ed. Porto Alegre: Bookman, 2011. (Cap. 1 - Visão Geral do Gerenciamento de Projetos).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC
 

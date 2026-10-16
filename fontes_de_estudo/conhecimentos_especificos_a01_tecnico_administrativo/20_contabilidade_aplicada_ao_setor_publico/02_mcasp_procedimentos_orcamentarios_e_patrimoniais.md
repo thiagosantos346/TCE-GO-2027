@@ -161,17 +161,15 @@ flowchart TD
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
-- [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição (STN)](https://www.gov.br/tesouronacional/pt-br)
-    - Parte I: Procedimentos Contábeis Orçamentários (PCO).
-    - Parte II: Procedimentos Contábeis Patrimoniais (PCP).
-- [Conselho Federal de Contabilidade - NBC TSP 07 (Ativo Imobilizado)](https://cfc.org.br/)
-    - Critérios de reconhecimento, custos atribuíveis, vida útil e depreciação.
-- [Conselho Federal de Contabilidade - NBC TSP 09 e 10 (Redução ao Valor Recuperável)](https://cfc.org.br/)
-    - Mensuração de perdas por impairment em ativos geradores e não geradores de caixa.
-- [Lei Federal nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm)
-    - Artigo 35 (Regime orçamentário legal de caixa e competência).
+* [Tesouro Transparente - MCASP 11ª Edição (Parte II - Procedimentos Patrimoniais - PCP)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Variações Patrimoniais Aumentativas (VPA), Diminutivas (VPD), mensuração de ativos, reavaliação, depreciação e provisões.
+* [Tesouro Transparente - MCASP 11ª Edição (Parte I - Procedimentos Orçamentários - PCO)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Regime orçamentário (caixa para receitas e competência para despesas) vs. Regime patrimonial (competência plena).
+* [Lei Federal nº 4.320/1964 - Do Patrimônio Público (Arts. 94 a 100)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Inventário, avaliação de bens móveis e imóveis, créditos e valores públicos.
+* [Decreto nº 10.540/2020 (SIAFIC e Contabilidade Patrimonial)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10540.htm) - Requisitos tecnológicos e operacionais para registro de estoques, imobilizado e intangíveis.
+* [TCE-GO - Prestação de Contas e Análise Patrimonial](https://portal.tce.go.gov.br/prestacao-de-contas) - Normas do Tribunal de Contas para prestação de contas com evidenciação patrimonial e depreciação acumulada.
+* BEZERRA FILHO, João Eudes. **Contabilidade Aplicada ao Setor Público: Teoria e Exercícios**. 3. ed. São Paulo: Atlas, 2021. (Cap. 3 - Procedimentos Contábeis Orçamentários; Cap. 4 - Procedimentos Contábeis Patrimoniais: VPA, VPD e Depreciação).
+* FEIJÓ, Paulo Henrique et al. **Curso de Contabilidade Aplicada ao Setor Público**. 8. ed. Brasília: Gestão Pública, 2022. (Cap. 5 - Variações Patrimoniais e Mensuração de Ativos).
+* PISCITELLI, Roberto Bocaccio; TIMÓTEO, Alfredo. **Contabilidade Pública: Uma Abordagem da Administração Financeira Pública**. 14. ed. São Paulo: Atlas, 2019. (Cap. 6 - Procedimentos Patrimoniais).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC
 

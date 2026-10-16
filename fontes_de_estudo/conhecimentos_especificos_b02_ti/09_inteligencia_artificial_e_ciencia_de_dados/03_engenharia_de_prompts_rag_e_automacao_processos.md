@@ -27,6 +27,7 @@
     - [3.1 Da Automação Robótica (RPA) à Automação Inteligente (IPA)](#31-da-automacao-robotica-rpa-a-automacao-inteligente-ipa)
     - [3.2 Mineração de Processos (Process Mining): Logs, Descoberta e Conformidade](#32-mineracao-de-processos-process-mining-logs-descoberta-e-conformidade)
     - [3.3 Casos de Aplicação no Controle Externo (TCE-GO)](#33-casos-de-aplicacao-no-controle-externo-tce-go)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 - [4. Questões Comentadas (FCC)](#4-questoes-comentadas-fcc)
 
 ---
@@ -242,6 +243,18 @@ A Mineração de Processos (*Process Mining*), formulada academicamente pelo Pro
 - **Auditoria Contínua de Licitações:** Robôs cognitivos com IPA cruzam em tempo real os dados dos editais lançados pelos municípios com bases da Receita Federal, Junta Comercial e Portal da Transparência, identificando vínculos de parentesco proibidos entre concorrentes e pregoeiros.
 - **Detecção de Sobrepreço e Cartéis:** Modelos analíticos alimentados por mineração de processos e RAG comparam preços unitários de itens com notas fiscais eletrônicas recentes e tabelas de referência oficial (SINAPI/SICRO), emitindo alertas automatizados antes da homologação dos contratos.
 - **Triagem Inteligente de Processos na Ouvidoria:** Modelos de PLN classificam denúncias cidadãs com base no teor semântico, priorizando matérias de urgência e direcionando-as automaticamente às gerências técnicas competentes.
+
+---
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [ArXiv - Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al.)](https://arxiv.org/abs/2005.11401) - Artigo seminal da técnica RAG combinando recuperação vetorial e geração de respostas contextualizadas.
+* [ArXiv - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al.)](https://arxiv.org/abs/2201.11903) - Formulação do raciocínio encadeado passo a passo para problemas complexos de dedução.
+* [Anthropic Claude - Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Engenharia de prompts estruturada, delimitação com tags XML e automação de fluxos.
+* [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework) - Controle de alucinações e governança de dados recuperados em pipelines de RAG.
+* MANNING, Christopher D.; RAGHAVAN, Prabhakar; SCHÜTZE, Hinrich. **Introdução à Recuperação de Informação**. Cambridge: Cambridge University Press, 2008. (Cap. 6 - Modelos de Espaço Vetorial e Similaridade).
+* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 4 - RAG Systems and Vector Indexing).
+* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 22 - Representação do Conhecimento e Raciocínio Lógico).
 
 ---
 

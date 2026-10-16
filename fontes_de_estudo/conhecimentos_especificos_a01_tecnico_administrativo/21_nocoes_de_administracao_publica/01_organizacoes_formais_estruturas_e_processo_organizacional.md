@@ -271,21 +271,15 @@ flowchart TD
 
 ## 🌐 Fontes Oficiais & Referências Bibliográficas
 
-- [Decreto-Lei nº 200/1967 — Organização da Administração Federal e Princípios Fundamentais (Planejamento, Coordenação, Descentralização, Delegação e Controle)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm)
-    - Base normativa histórica do processo organizacional (art. 6º) e da distinção estrutural na Administração Pública brasileira.
-- [Constituição da República Federativa do Brasil de 1988 — Art. 37 a 41 (Da Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)
-    - Princípios constitucionais da legalidade estrita, impessoalidade, moralidade, publicidade e eficiência, investidura por concurso público e controle externo.
-- [Decreto Federal nº 9.203/2017 — Política de Governança da Administração Pública Federal Direta, Autárquica e Fundacional](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm)
-    - Diretrizes de governança organizacional, mecanismos de liderança, estratégia e controle nas estruturas públicas modernas.
-- [Lei Estadual de Goiás nº 16.168/2007 — Lei Orgânica do Tribunal de Contas do Estado de Goiás (TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168)
-    - Estrutura organizacional, competências de controle externo (prévio, concomitante e posterior) e funcionamento institucional do TCE-GO.
-- [TCE-GO — Diretoria de Planejamento e Gestão Estratégica Institucional](https://www.tce.go.gov.br/diretoria-de-planejamento)
-    - Estrutura de governança e coordenação do processo de planejamento, organização e acompanhamento no âmbito do TCE-GO.
-- CHIAVENATO, Idalberto. **Introdução à Teoria Geral da Administração: uma visão abrangente da moderna administração das organizações**. 10. ed. Rio de Janeiro: Atlas, 2020. (Cap. 7 e 8 — Teoria Neoclássica, Processo Administrativo PODC e Departamentalização).
-- MAXIMIANO, Antonio Cesar Amaru. **Teoria Geral da Administração: da revolução urbana à revolução digital**. 8. ed. São Paulo: Atlas, 2017. (Parte III — Estrutura e Processo Organizacional).
-- MINTZBERG, Henry. **Criando Organizações Eficazes: estruturas em cinco configurações**. 2. ed. São Paulo: Atlas, 2003. (Cap. 1 a 5 — Fundamentos do Design Organizacional, Linha, Staff e Amplitude de Controle).
+* [Decreto-Lei nº 200/1967 (Organização da Administração Federal)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Princípios fundamentais de planejamento, coordenação, descentralização, delegação de competência e controle.
+* [Constituição Federal de 1988 - Arts. 37 a 41 (Da Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Normas constitucionais estruturantes da administração direta, autárquica, fundacional e estatal.
+* [TCU - Governança Pública e Organizacional](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial institucional do TCU para avaliação de estruturas organizacionais e processos de tomada de decisão.
+* [TCE-GO - Competências Institucionais e Estrutura](https://portal.tce.go.gov.br/competencias) - Portal institucional detalhando a organização estrutural e o funcionamento do Tribunal de Contas de Goiás.
+* [Lei Estadual nº 13.800/2001 (Processo Administrativo de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/81441/lei-13800) - Regula os atos, processos e competências decisórias no âmbito da administração estadual goiana.
+* CHIAVENATO, Idalberto. **Introdução à Teoria Geral da Administração**. 10. ed. São Paulo: Atlas, 2020. (Cap. 7 - Tipos de Organização; Cap. 8 - Departamentalização).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 4 - Órgãos e Entidades da Administração Pública).
+* MEIRELLES, Hely Lopes. **Direito Administrativo Brasileiro**. 44. ed. São Paulo: Malheiros, 2020. (Cap. 2 - A Estrutura Administrativa).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC
 

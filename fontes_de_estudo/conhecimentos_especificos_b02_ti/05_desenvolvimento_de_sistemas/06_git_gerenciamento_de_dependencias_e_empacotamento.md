@@ -346,10 +346,13 @@ Em ambientes corporativos como tribunais de contas, o acesso a repositórios pú
 
 ## 4. Fontes Recomendadas na Internet
 
-- [Pro Git Book Oficial (Scott Chacon & Ben Straub)](https://git-scm.com/book/pt-br/v2): Livro oficial de referência completa sobre controle de versão distribuído, modelo de objetos e fluxos avançados de Git.
-- [Semantic Versioning 2.0.0 (SemVer)](https://semver.org/lang/pt-BR/): Documento normativo que estabelece os critérios técnicos de incremento de MAJOR, MINOR e PATCH.
-- [npm CLI Documentation - Lockfiles and CI](https://docs.npmjs.com/cli/v10/configuring-npm/package-lock-json): Manual oficial da npm sobre determinismo de builds, hashes SHA-512 e diretrizes de execução do `npm ci`.
-- [Apache Maven Official Guide - Build Lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html): Documentação da Apache Software Foundation sobre as fases `compile`, `test`, `package`, `install` e `deploy`.
+* [Git Official Documentation - Git Rebase](https://git-scm.com/docs/git-rebase) - Reescrevendo histórico, rebase linear vs. merge commit e resolução de conflitos.
+* [Git Official Documentation - Git Merge](https://git-scm.com/docs/git-merge) - Algoritmos de junção de branches, Fast-Forward e 3-way merge.
+* [Semantic Versioning 2.0.0 Specification](https://semver.org/lang/pt-BR/) - Regras formais para versionamento MAJOR.MINOR.PATCH e compatibilidade de API.
+* [Martin Fowler - Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html) - Padrões de branching, Trunk-Based Development e Feature Branches.
+* CHACON, Scott; STRAUB, Ben. **Pro Git**. 2. ed. Nova York: Apress, 2014. (Cap. 3 - Git Branching e Integração).
+* HUMBLE, Jez; FARLEY, David. **Entrega Contínua: Como Entregar Software de Forma Rápida e Confiável**. Porto Alegre: Bookman, 2014. (Cap. 14 - Gestão Avançada de Versionamento e Dependências).
+* LOELIGER, Jon; MCCULLOUGH, Matthew. **Version Control with Git**. 2. ed. Sebastopol: O'Reilly Media, 2012. (Cap. 8 e 9 - Rebase, Hook Scripts e Gestão de Branches).
 
 ---
 

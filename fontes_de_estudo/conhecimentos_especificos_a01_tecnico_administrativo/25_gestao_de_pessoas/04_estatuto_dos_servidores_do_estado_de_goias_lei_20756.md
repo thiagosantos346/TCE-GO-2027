@@ -463,14 +463,15 @@ flowchart LR
 
 ## 7. Fontes Oficiais e Referências Bibliográficas
 
-* [Lei Estadual de Goiás nº 20.756/2020](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/103195/lei-20756) - Dispõe sobre o regime jurídico dos servidores públicos civis do Estado de Goiás.
-* [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) - Arts. 37 a 41 (Da Administração Pública e Servidores Públicos).
-* [Constituição do Estado de Goiás](https://legisla.casacivil.go.gov.br) - Capítulo VII (Dos Servidores Públicos Civis).
-* [CARVALHO FILHO, José dos Santos. Manual de Direito Administrativo. 36ª Edição. Atlas, 2022](https://www.grupogen.com.br).
-* [MELLO, Celso Antônio Bandeira de. Curso de Direito Administrativo. Malheiros](https://www.editorajuspodivm.com.br).
-* [DI PIETRO, Maria Sylvia Zanella. Direito Administrativo. Forense, 2023](https://www.grupogen.com.br).
+* [Lei Estadual nº 20.756/2020 (Estatuto dos Servidores Públicos Civis de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Texto oficial compilado na Casa Civil/GO com o regime de provimento, vacância, direitos, deveres, PAD e regime disciplinar.
+* [Constituição do Estado de Goiás - Seção III (Dos Servidores Públicos Civis)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Normas constitucionais estaduais sobre direitos funcionais, regime previdenciário e estabilidade dos servidores.
+* [Constituição Federal de 1988 - Arts. 37 a 41 (Regime Constitucional dos Servidores)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Diretrizes gerais da administração pública aplicáveis a todas as esferas federativas.
+* [Lei Estadual nº 15.122/2005 (Carreira e Quadro Permanente dos Servidores do TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/80023/lei-15122) - Plano de carreira dos analistas e técnicos do Tribunal de Contas de Goiás.
+* [TCE-GO - Competências Institucionais e Regime dos Servidores](https://portal.tce.go.gov.br/competencias) - Informações institucionais sobre direitos e prerrogativas funcionais do quadro de pessoal.
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Rio de Janeiro: Atlas, 2024. (Cap. 9 - Servidores Públicos: Provimento, Vacância, Direitos e Regime Disciplinar).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 14 - Servidores Públicos e Processo Administrativo Disciplinar).
+* MEIRELLES, Hely Lopes. **Direito Administrativo Brasileiro**. 44. ed. São Paulo: Malheiros, 2020. (Cap. 8 - O Estatuto dos Servidores e Deveres Funcionais).
 
----
 
 ## 8. Questões de Concurso FCC Comentadas
 

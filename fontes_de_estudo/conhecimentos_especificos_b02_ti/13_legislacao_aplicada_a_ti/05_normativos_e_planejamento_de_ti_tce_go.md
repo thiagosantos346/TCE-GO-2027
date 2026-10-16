@@ -217,17 +217,15 @@ flowchart TD
 
 ## 6. Fontes Recomendadas na Internet
 
-- [x] **Repositório Normativo Oficial do TCE-GO:**
-    - Link Oficial: [Legislação e Atos Normativos do TCE-GO](https://portal.tce.go.gov.br/legislacao)
-    - *Textos Oficiais:* Resolução Normativa nº 13/2016 (CETI), Resolução Administrativa nº 14/2024 (Governança Organizacional), Resolução Administrativa nº 17/2024 (PSI) e Resolução Administrativa nº 14/2025 (Estrutura da DTI).
-- [x] **Portal de Planejamento Estratégico e TIC do TCE-GO:**
-    - Link Oficial: [Planejamento de TIC e Governança Digital TCE-GO](https://portal.tce.go.gov.br/planejamento-estrategico)
-    - *Conteúdo:* Publicação oficial do PDTI 2025–2026 e atos do CETI (Ordem de Serviço nº 001/2025-CETI).
-- [x] **Referencial Básico de Governança de TI do TCU:**
-    - Link Oficial: [Referenciais de Governança de TIC do TCU](https://portal.tcu.gov.br/governanca/gestao-publica/governanca-de-ti/)
-    - *Conteúdo:* Princípios de separação de papéis entre governança (CETI) e gestão técnica (DTI).
+* [TCE-GO - Tecnologia da Informação Institucional](https://portal.tce.go.gov.br/tecnologia-da-informacao2) - Diretrizes, sistemas de processo eletrônico e estrutura de tecnologia da informação do TCE-GO.
+* [TCE-GO - Atos Normativos e Resoluções no TCE-Juris](https://portal.tce.go.gov.br/tce-juris/atos-normativos-do-tce-go) - Repositório oficial com as resoluções e instruções normativas de TI do tribunal.
+* [TCE-GO - Competências Constitucionais e Legais](https://portal.tce.go.gov.br/competencias) - Atribuições finalísticas do Tribunal de Contas do Estado de Goiás.
+* [TCE-GO - Resolução nº 22/2008 (Regimento Interno no GNOI)](https://gnoi.tce.go.gov.br/atoNormativo/Publicado?id=9544) - Regimento Interno do TCE-GO que disciplina a estrutura organizacional e comitês de TI.
+* [TCU - Governança Institucional e Fiscalização de TI](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial de auditoria e governança de tecnologia adotado em colaboração pelos tribunais de contas.
+* FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 1 a 3 - Governança no Setor Público e Comitês Diretivos).
+* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 6 - Instrumentos de Fiscalização dos Tribunais de Contas).
+* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 5 - Fiscalização Operacional e Governança da Administração Pública).
 
----
 
 ## 7. Questões Comentadas no Padrão FCC
 

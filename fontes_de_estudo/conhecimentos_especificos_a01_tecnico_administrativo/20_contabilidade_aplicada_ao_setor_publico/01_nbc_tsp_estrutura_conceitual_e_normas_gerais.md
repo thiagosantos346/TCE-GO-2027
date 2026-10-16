@@ -184,18 +184,15 @@ flowchart TD
 
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 
-- [Conselho Federal de Contabilidade (CFC) - NBC TSP Estrutura Conceitual](https://cfc.org.br/)
-    - Postulados contábeis, características qualitativas e elementos patrimoniais.
-- [NBC TSP 03 - Provisões, Passivos Contingentes e Ativos Contingentes](https://cfc.org.br/)
-    - Disciplina o reconhecimento, mensuração e divulgação de riscos judiciais.
-- [NBC TSP 04 - Estoques](https://cfc.org.br/)
-    - Regras de estoques de consumo e bens para distribuição gratuita no setor público.
-- [NBC TSP 07 - Ativo Imobilizado](https://cfc.org.br/)
-    - Mensuração inicial, custos atribuíveis e depreciação periódica.
-- [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição (STN)](https://www.gov.br/tesouronacional/pt-br)
-    - Parte II: Procedimentos Contábeis Patrimoniais (PCP).
+* [CFC - NBC TSP Estrutura Conceitual](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSPEC) - Norma brasileira do Conselho Federal de Contabilidade alinhada aos padrões internacionais do IPSASB para o setor público.
+* [Tesouro Transparente - MCASP 11ª Edição (Visão Geral e Estrutura Conceitual)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Manual oficial da STN sobre princípios contábeis fundamentais e convergência às normas internacionais.
+* [Lei Federal nº 4.320/1964 - Título IX (Da Contabilidade)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Disposições gerais sobre a contabilidade orçamentária, patrimonial e financeira.
+* [Decreto nº 10.540/2020 (Padrão Mínimo do SIAFIC)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10540.htm) - Define o padrão mínimo de qualidade do Sistema Único e Integrado de Execução Orçamentária, Administração Financeira e Controle.
+* [TCE-GO - Competências Institucionais e Fiscalização Contábil](https://portal.tce.go.gov.br/competencias) - Atuação fiscalizatória da conformidade dos registros contábeis no âmbito do Estado de Goiás.
+* CONSELHO FEDERAL DE CONTABILIDADE. **Normas Brasileiras de Contabilidade: NBC TSP — Estrutura Conceitual para Elaboração e Divulgação de Informação Contábil de Propósito Geral pelas Entidades do Setor Público**. Brasília: CFC, 2016.
+* BEZERRA FILHO, João Eudes. **Contabilidade Aplicada ao Setor Público: Teoria e Exercícios**. 3. ed. São Paulo: Atlas, 2021. (Cap. 1 - Origens e Evolução da Contabilidade Pública; Cap. 2 - A Estrutura Conceitual da NBC TSP).
+* KOHAMA, Heilio. **Contabilidade Pública: Teoria e Prática**. 15. ed. São Paulo: Atlas, 2016. (Cap. 1 e 2 - Fundamentos da CASP).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC
 

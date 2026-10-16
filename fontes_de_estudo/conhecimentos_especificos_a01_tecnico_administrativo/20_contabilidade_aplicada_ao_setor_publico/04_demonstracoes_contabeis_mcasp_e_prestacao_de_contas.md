@@ -222,16 +222,15 @@ Os processos de prestação de contas enviados anualmente ao TCE-GO devem conter
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
-- [Lei Federal nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm)
-    - Arts. 43 (Superávit Financeiro) e Arts. 101 a 106 (Das Demonstrações Contábeis).
-- [Manual de Contabilidade Aplicada ao Setor Público (MCASP) - 11ª Edição (STN)](https://www.gov.br/tesouronacional/pt-br)
-    - Parte V: Demonstrações Contábeis Aplicadas ao Setor Público (DCASP).
-- [Conselho Federal de Contabilidade - NBC TSP 11 e 12](https://cfc.org.br/)
-    - NBC TSP 11 (Apresentação das Demonstrações Contábeis) e NBC TSP 12 (Demonstração dos Fluxos de Caixa).
-- [Lei Complementar Estadual de Goiás nº 161/2020 (Lei Orgânica do TCE-GO)](https://portal.tce.go.gov.br)
-    - Normas sobre processos de contas de governo e de gestão no Estado de Goiás.
+* [Tesouro Transparente - MCASP 11ª Edição (Parte V - Demonstrações Contábeis Aplicadas ao Setor Público - DCASP)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Balanço Orçamentário, Balanço Financeiro, Balanço Patrimonial, DVP, DFC, DMPL e Notas Explicativas.
+* [Lei Federal nº 4.320/1964 - Dos Balanços (Arts. 101 a 106)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Estrutura legal clássica dos Balanços Orçamentário, Financeiro, Patrimonial e Demonstração das Variações Patrimoniais.
+* [Lei Complementar nº 101/2000 - Arts. 48 a 55 (Transparência, RREO e RGF)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm) - Prazos e critérios de publicação das demonstrações fiscais e prestação de contas na LRF.
+* [TCE-GO - Prestação de Contas Anuais e Demonstrativos Contábeis](https://portal.tce.go.gov.br/prestacao-de-contas) - Normas e formulários para encaminhamento das DCASP pelos órgãos e entidades goianas.
+* [Decreto nº 10.540/2020 (SIAFIC e Geração das DCASP)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10540.htm) - Regras para integração de sistemas e geração fidedigna das demonstrações contábeis públicas.
+* BEZERRA FILHO, João Eudes. **Contabilidade Aplicada ao Setor Público: Teoria e Exercícios**. 3. ed. São Paulo: Atlas, 2021. (Cap. 7 - Demonstrações Contábeis Aplicadas ao Setor Público - DCASP).
+* FEIJÓ, Paulo Henrique et al. **Curso de Contabilidade Aplicada ao Setor Público**. 8. ed. Brasília: Gestão Pública, 2022. (Cap. 7 - Balanços e Notas Explicativas).
+* PISCITELLI, Roberto Bocaccio; TIMÓTEO, Alfredo. **Contabilidade Pública: Uma Abordagem da Administração Financeira Pública**. 14. ed. São Paulo: Atlas, 2019. (Cap. 8 - Demonstrações Contábeis).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC
 

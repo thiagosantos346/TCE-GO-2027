@@ -175,16 +175,15 @@ A moderna auditoria governamental dos Tribunais de Contas opera com base em duas
 
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 
-- [Instituto Rui Barbosa (IRB) - Normas Brasileiras de Auditoria do Setor Público (NBASP)](https://irbcontas.org.br/nbasp/)
-    - Textos integrais das NBASP 100, 200, 300 e 400 convergentes com o modelo INTOSAI.
-- [Declaração de Lima sobre Diretrizes para Preceitos de Auditoria (ISSAI 1)](https://www.issai.org/)
-    - Documento fundamental da INTOSAI sobre independência e prerrogativas das Entidades de Fiscalização.
-- [Lei Estadual nº 16.168/2007 (Lei Orgânica do TCE-GO)](https://legisla.casacivil.go.gov.br/)
-    - Definição dos instrumentos de controle externo no âmbito do Estado de Goiás.
-- [Manual de Auditoria Operacional do Tribunal de Contas da União (TCU)](https://portal.tcu.gov.br/)
-    - Metodologia de elaboração de matriz de planejamento e matriz de achados.
+* [TCU - Normas de Auditoria Governamental (NAT)](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial técnico do TCU contendo diretrizes sobre planejamento e execução de auditorias públicas.
+* [Lei Estadual nº 16.168/2007 (Instrumentos de Fiscalização do TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Instrumentos formais de controle: auditorias, inspeções, acompanhamentos, monitoramentos e levantamentos.
+* [TCE-GO - Resolução nº 22/2008 (Regimento Interno no GNOI)](https://gnoi.tce.go.gov.br/atoNormativo/Publicado?id=9544) - Disciplina a atuação técnica das secretarias de controle externo e os procedimentos de auditoria.
+* [TCE-GO - Resultados e Relatórios de Fiscalização](https://portal.tce.go.gov.br/resultados-de-auditoria) - Publicações oficiais dos relatórios conclusivos de auditorias de conformidade e operacionais.
+* [Constituição Federal de 1988 - Art. 71 (Atribuições de Controle do TC)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art71) - Dispositivo constitucional matriz que define o rol de atribuições fiscalizatórias das Cortes de Contas.
+* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 4 - Instrumentos de Fiscalização e Tipos de Auditoria Governamental).
+* INSTITUTO RUI BARBOSA (IRB). **Normas Brasileiras de Auditoria do Setor Público (NBASP/ISSAI)**. Belo Horizonte: Fórum, 2020. (NBASP 100 - Princípios Fundamentais de Auditoria do Setor Público; NBASP 300 - Auditoria Operacional).
+* CASTRO, Domingos Poubel de. **Auditoria e Controle Interno na Administração Pública**. 3. ed. São Paulo: Atlas, 2019. (Cap. 3 a 5 - Auditoria de Conformidade e Operacional).
 
----
 
 ## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
 

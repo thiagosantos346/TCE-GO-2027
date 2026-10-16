@@ -156,13 +156,15 @@ Para romper as barreiras de execução, a governança pública moderna institui 
 
 ### 5. Fontes Oficiais e Referências Bibliográficas
 
-* [PORTER, Michael E. Vantagem Competitiva: criando e sustentando um desempenho superior. Editora Campus.](https://www.grupogen.com.br) - A cadeia de valor original.
-* [KAPLAN, Robert S.; NORTON, David P. Organização Orientada para a Estratégia: como as empresas que adotam o BSC prosperam. Campus.](https://www.grupogen.com.br).
-* [MOORE, Mark H. Criando Valor Público: gestão estratégica no governo. Harvard University Press / ENAP.](https://repositorio.enap.gov.br).
-* [Tribunal de Contas da União (TCU) - Manual de Gestão Estratégica e Alinhamento Institucional](https://portal.tcu.gov.br).
-* [Plano Estratégico Institucional do TCE-GO 2021-2030](https://portal.tce.go.gov.br).
+* [Decreto nº 9.203/2017 (Monitoramento e Alinhamento Estratégico)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Disciplina o acompanhamento contínuo de resultados através de metas e indicadores de desempenho.
+* [TCU - Referencial Básico de Governança: Liderança, Estratégia e Controle](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Recomendações para construção de painéis de indicadores e Balanced Scorecard no setor público.
+* [TCE-GO - Plano de Fiscalização e Monitoramento de Metas](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Desdobramento de objetivos estratégicos e indicadores finalísticos de auditoria.
+* [TCE-GO - Competências Institucionais do Tribunal de Contas](https://portal.tce.go.gov.br/competencias) - Acompanhamento das metas constitucionais de gestão pública.
+* [Governo Digital - Estratégia Nacional de Governo Digital (ENGD)](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/estrategianacional) - Indicadores de impacto e metas do ecossistema de serviços públicos.
+* PORTER, Michael E. **Vantagem Competitiva: Criando e Sustentando um Desempenho Superior**. 34. ed. Rio de Janeiro: Elsevier/Campus, 1989. (Cap. 2 - A Cadeia de Valores e a Vantagem Competitiva).
+* KAPLAN, Robert S.; NORTON, David P. **A Estratégia em Ação: Balanced Scorecard**. 22. ed. Rio de Janeiro: Elsevier/Campus, 1997. (Cap. 1 - Medindo o Desempenho na Era da Informação; Cap. 5 - Estabelecendo Metas e Alinhando Iniciativas).
+* KAPLAN, Robert S.; NORTON, David P. **Mapas Estratégicos: Convertendo Ativos Intangíveis em Resultados Tangíveis**. 7. ed. Rio de Janeiro: Elsevier/Campus, 2004. (Cap. 1 a 3).
 
----
 
 ### 6. Questões de Concurso FCC Comentadas
 

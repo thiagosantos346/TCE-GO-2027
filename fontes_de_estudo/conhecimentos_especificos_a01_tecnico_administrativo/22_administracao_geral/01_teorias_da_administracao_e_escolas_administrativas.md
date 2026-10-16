@@ -244,13 +244,15 @@ flowchart TD
 
 ### 9. Fontes Oficiais e Referências Bibliográficas
 
-* [CHIAVENATO, Idalberto. Introdução à Teoria Geral da Administração: uma visão abrangente da moderna administração das organizações. 10ª Edição. Atlas.](https://www.grupogen.com.br).
-* [FAYOL, Henri. Administração Industrial e Geral. Editora Atlas.](https://www.grupogen.com.br) - Princípios gerais e funções administrativas.
-* [TAYLOR, Frederick Winslow. Princípios de Administração Científica. Editora Atlas.](https://www.grupogen.com.br).
-* [MORGAN, Gareth. Imagens da Organização. Editora Atlas.](https://www.grupogen.com.br) - As metáforas organizacionais.
-* [BERTALANFFY, Ludwig von. Teoria Geral dos Sistemas: Fundamentos, Desenvolvimento e Aplicações. Editora Vozes.](https://www.vozes.com.br).
+* [Decreto-Lei nº 200/1967 (Princípios da Administração e Racionalidade)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Aplicação de princípios clássicos e estruturais na organização da máquina pública.
+* [Constituição Federal de 1988 - Art. 37 (Princípio da Eficiência)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - O princípio constitucional da eficiência e a evolução dos modelos administrativos.
+* [Decreto nº 9.203/2017 (Governança e Estruturas Organizacionais)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Mecanismos modernos de alinhamento, prestação de contas e conformidade burocrática.
+* [TCU - Governança Organizacional no Setor Público](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial conceitual que dialoga com as teorias clássicas e comportamentais de gestão.
+* [TCE-GO - Competências Institucionais e Controle da Eficiência](https://portal.tce.go.gov.br/competencias) - Atuação de controle externo sobre a eficácia e economicidade dos órgãos públicos.
+* CHIAVENATO, Idalberto. **Introdução à Teoria Geral da Administração**. 10. ed. São Paulo: Atlas, 2020. (Cap. 3 e 4 - Teoria Científica e Teoria Clássica; Cap. 5 e 6 - Teoria das Relações Humanas; Cap. 11 e 12 - Teoria Burocrática e Estruturalista).
+* MAXIMIANO, Antonio Cesar Amaru. **Teoria Geral da Administração: Da Revolução Urbana à Revolução Digital**. 8. ed. São Paulo: Atlas, 2017. (Cap. 2 a 8 - Evolução do Pensamento Administrativo).
+* MOTTA, Fernando C. Prestes; VASCONCELOS, Isabella F. Gouveia de. **Teoria Geral da Administração**. 3. ed. São Paulo: Cengage Learning, 2006. (Cap. 1 a 4).
 
----
 
 ### 10. Questões de Concurso FCC Comentadas
 

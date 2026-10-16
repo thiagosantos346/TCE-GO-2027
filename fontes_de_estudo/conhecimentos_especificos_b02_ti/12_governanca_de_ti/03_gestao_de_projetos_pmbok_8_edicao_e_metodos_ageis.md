@@ -257,19 +257,17 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 
 ---
 
-## 7. Fontes Recomendadas na Internet
+## 6. Fontes Recomendadas na Internet
 
-- [x] **Project Management Institute (PMI) - PMBOK Guide & Standards:**
-    - Link Oficial: [PMI Standards and PMBOK Guide Overview](https://www.pmi.org/pmbok-guide-standards)
-    - *Conteúdo:* Os 12 Princípios de Entrega de Projetos, os 8 Domínios de Desempenho do Projeto e o Sistema de Entrega de Valor.
-- [x] **PMI Practice Standards - Earned Value Management (EVM) Basics:**
-    - Link Oficial: [PMI Learning Library - Fundamentos de EVM](https://www.pmi.org/learning/library/earned-value-management-basics-7320)
-    - *Conteúdo:* Fórmulas e aplicação prática de Valor Planejado (VP), Custo Real (CR), Valor Agregado (VA), Índice de Desempenho de Prazos (IDP/SPI) e Custos (IDC/CPI).
-- [x] **PMI Agile Practice Guide & Tailoring Guide:**
-    - Link Oficial: [PMI Agile and Hybrid Approaches](https://www.pmi.org/pmbok-guide-standards/agile)
-    - *Conteúdo:* Diretrizes para combinação de ciclos de vida preditivos e adaptativos, liderança servidora e adaptação contextual (*tailoring*).
+* [Scrum Guide 2020 Oficial (Português-BR)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Guia definitivo e oficial das regras, papéis, eventos e artefatos do framework Scrum.
+* [Kanban Guide Oficial (English)](https://kanbanguides.org/english/) - Guia oficial de definição do Kanban para equipes de desenvolvimento e gestão de fluxo de trabalho.
+* [Manifesto Ágil - Princípios do Desenvolvimento Ágil de Software](https://agilemanifesto.org/iso/ptbr/principles.html) - Valores e 12 princípios fundamentais do manifesto ágil.
+* [TCU - Governança e Boas Práticas em Gestão de Projetos](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Orientações do Tribunal de Contas da União para fiscalização e governança de projetos e contratos de tecnologia.
+* [Governo Digital - Estratégia Federal de Governo Digital (EFGD)](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/EFGD) - Diretrizes e iniciativas para entregas iterativas e governança de projetos no setor público.
+* PROJECT MANAGEMENT INSTITUTE. **Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK)**. 7. ed. Newtown Square: PMI, 2021. (Seção 1 - O Padrão de Gerenciamento de Projetos; Seção 2 - Domínios de Desempenho do Projeto).
+* KERZNER, Harold. **Gestão de Projetos: As Melhores Práticas**. 3. ed. Porto Alegre: Bookman, 2011. (Cap. 1 - Visão Geral do Gerenciamento de Projetos; Cap. 14 - Gestão do Valor Agregado - EVM).
+* SUTHERLAND, Jeff. **Scrum: A Arte de Fazer o Dobro do Trabalho na Metade do Tempo**. São Paulo: Leya, 2014. (Cap. 1 a 5 - Métodos Ágeis e Ciclos de Feedback).
 
----
 
 ## 8. Questões Comentadas no Padrão FCC
 
