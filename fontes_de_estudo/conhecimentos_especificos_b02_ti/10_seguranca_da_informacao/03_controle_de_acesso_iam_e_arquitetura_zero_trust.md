@@ -386,13 +386,19 @@ flowchart LR
 
 ## 5. Fontes Recomendadas na Internet
 
-#### 1. Padrões Internacionais do NIST e CISA
-- [NIST Special Publication 800-207 - Zero Trust Architecture](https://csrc.nist.gov/publications/detail/sp/800-207/final): Publicação oficial definitiva que formalizou os princípios norteadores do Zero Trust (*Never Trust, Always Verify* e *Assume Breach*), componentes lógicos de controle (*Policy Engine*, *Policy Administrator* e *Policy Enforcement Point*) e abordagens de microsegmentação.
-- [CISA Zero Trust Maturity Model (cisa.gov)](https://www.cisa.gov/zero-trust-maturity-model): Roteiro de maturidade da Agência de Segurança Cibernética e de Infraestrutura dos EUA cobrindo os 5 pilares: Identidade, Dispositivos, Redes, Cargas de Trabalho e Dados.
-- [NIST Special Publication 800-63B - Digital Identity Guidelines](https://pages.nist.gov/800-63-3/sp800-63b.html): Diretrizes de autenticação eletrônica detalhando os três fatores fundamentais (conhecimento, posse e inerência) e requisitos de proteção contra ataques de repetição e phishing.
+#### 1. Padrões Internacionais do NIST e Governo Digital
+- [NIST Special Publication 800-207 - Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final): Publicação oficial definitiva que formalizou os princípios norteadores do Zero Trust (*Never Trust, Always Verify* e *Assume Breach*), componentes lógicos de controle (*Policy Engine*, *Policy Administrator* e *Policy Enforcement Point*) e abordagens de microsegmentação.
+- [NIST Special Publication 800-63B - Digital Identity Guidelines](https://pages.nist.gov/800-63-3/sp800-63b.html): Diretrizes de autenticação eletrônica detalhando os três fatores fundamentais (conhecimento, posse e inerência), níveis de garantia de autenticação (AAL) e requisitos de proteção contra ataques de repetição e phishing.
+- [Governo Digital — Programa de Privacidade e Segurança da Informação (PPSI 2.0)](https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0): Diretrizes federais para implementação de controles de gestão de identidades, acessos privilegiados (PAM) e autenticação multifator em órgãos públicos.
 
 #### 2. Normas e Padrões de Controle de Acesso
-- [OASIS XACML Standard](https://www.oasis-open.org/committees/xacml/): Padrão aberto oficial para definição de políticas granulares de controle de acesso baseado em atributos (ABAC).
+- [OASIS XACML Standard](https://www.oasis-open.org/committees/xacml/): Padrão aberto oficial para definição de políticas granulares de controle de acesso baseado em atributos (ABAC) e arquitetura de pontos de decisão (PDP/PEP).
+- [OWASP Cheat Sheet Series — Authentication & Access Control](https://cheatsheetseries.owasp.org/index.html): Repositório técnico de referência com diretrizes práticas de implementação segura de autenticação multifator, gestão de sessões, SSO e controle de acesso lógico.
+
+#### 3. Referências Bibliográficas Clássicas (Padrão ABNT)
+* STALLINGS, William; BROWN, Lawrie. **Segurança de Computadores: Princípios e Práticas**. 2. ed. Rio de Janeiro: Elsevier, 2014. (Cap. 3 e 4 — Autenticação de Usuários e Controle de Acesso: Modelos DAC, MAC, RBAC e ABAC).
+* SANDHU, Ravi S. et al. **Role-Based Access Control Models**. IEEE Computer, v. 29, n. 2, p. 38-47, 1996. (Artigo seminal que formalizou a família de modelos RBAC0, RBAC1, RBAC2 e RBAC3).
+* ROSE, Scott et al. **Zero Trust Architecture (NIST Special Publication 800-207)**. Gaithersburg: National Institute of Standards and Technology, 2020. (Seções 2 e 3 — Princípios de Confiança Zero e Componentes Lógicos PE, PA e PEP).
 
 ---
 

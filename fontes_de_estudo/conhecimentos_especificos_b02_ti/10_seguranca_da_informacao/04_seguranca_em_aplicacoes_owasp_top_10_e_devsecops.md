@@ -266,13 +266,18 @@ flowchart TD
 ## 4. Fontes Recomendadas na Internet
 
 #### 1. Projetos Oficiais da Fundação OWASP
-- [OWASP Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten/): Documentação oficial do projeto de referência mundial classificando as 10 vulnerabilidades mais críticas em aplicações web, encabeçadas por *A01: Broken Access Control*, *A02: Cryptographic Failures* e *A03: Injection*.
-- [OWASP API Security Top 10](https://owasp.org/www-project-api-security/): Padrão específico para segurança de interfaces de programação, destacando a vulnerabilidade *BOLA (Broken Object Level Authorization)* e falhas de autenticação.
-- [OWASP Cheat Sheet Series - SQL Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html): Guia canônico de codificação segura com exemplos práticos de uso de consultas parametrizadas (*Prepared Statements*).
+- [OWASP Top 10:2021 — Web Application Security Risks (Official Release)](https://owasp.org/Top10/): Documentação oficial do projeto de referência mundial classificando as 10 vulnerabilidades mais críticas em aplicações web, encabeçadas por *A01: Broken Access Control*, *A02: Cryptographic Failures* e *A03: Injection*.
+- [OWASP Cheat Sheet Series — Index of Security Guides](https://cheatsheetseries.owasp.org/index.html): Coleção oficial de guias práticos de arquitetura e codificação segura cobrindo segurança em REST APIs (mitigação de BOLA e Mass Assignment), Docker/Kubernetes hardening e CI/CD seguro.
+- [OWASP Cheat Sheet Series - SQL Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html): Guia canônico de codificação segura com exemplos práticos de uso de consultas parametrizadas (*Prepared Statements* com *bind variables*).
 
 #### 2. Normas de Desenvolvimento Seguro
-- [NIST Special Publication 800-218 - Secure Software Development Framework (SSDF)](https://csrc.nist.gov/pubs/sp/800/218/final): Framework oficial do governo americano para integrar práticas seguras em todas as fases do ciclo de vida de desenvolvimento de software (DevSecOps e cultura *Shift-Left*).
-- [Center for Internet Security (CIS) Docker & Kubernetes Benchmarks](https://www.cisecurity.org/cis-benchmarks): Diretrizes de hardening para ambientes de contêineres e orquestradores.
+- [NIST Special Publication 800-218 - Secure Software Development Framework (SSDF)](https://csrc.nist.gov/pubs/sp/800/218/final): Framework oficial para integrar práticas seguras em todas as fases do ciclo de vida de desenvolvimento de software (DevSecOps, testes SAST/DAST/SCA e cultura *Shift-Left*).
+- [Center for Internet Security (CIS) Docker & Kubernetes Benchmarks](https://www.cisecurity.org/cis-benchmarks): Diretrizes técnicas de hardening para ambientes de contêineres, execução não-root, imagens mínimas e orquestradores em nuvem.
+
+#### 3. Referências Bibliográficas Clássicas (Padrão ABNT)
+* SHOSTACK, Adam. **Threat Modeling: Designing for Security**. Indianapolis: Wiley, 2014. (Cap. 3 — Metodologia STRIDE para Modelagem de Ameaças no Ciclo de Desenvolvimento).
+* STUTTARD, Dafydd; PINTO, Marcus. **The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws**. 2. ed. Indianapolis: Wiley, 2011. (Cap. 8, 9 e 12 — Controles de Acesso, Injeções de Código SQLi e Cross-Site Scripting XSS).
+* KIM, Gene et al. **Manual de DevOps: Como Obter Agilidade, Confiabilidade e Segurança em Organizações Tecnológicas**. Rio de Janeiro: Alta Books, 2018. (Parte V — Integração da Segurança da Informação na Esteira de Entrega Contínua e DevSecOps).
 
 ---
 

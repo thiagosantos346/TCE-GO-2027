@@ -167,9 +167,9 @@ A UML 2.5 divide seus diagramas em duas categorias fundamentais cobradas rigoros
     - **Diagrama de Atividades** (fluxos de trabalho procedimentais e concorrência);
     - **Diagrama de Máquina de Estados** (estados e transições de ciclo de vida de objetos);
     - **Diagramas de Interação:**
-    - **Diagrama de Sequência** (mensagens ordenadas cronologicamente ao longo do tempo);
-    - **Diagrama de Comunicação** (interações enfatizando a estrutura dos objetos);
-    - **Diagrama de Visão Geral de Interação** e **Diagrama de Tempo (*Timing*)**.
+        - **Diagrama de Sequência** (mensagens ordenadas cronologicamente ao longo do tempo);
+        - **Diagrama de Comunicação** (interações enfatizando a estrutura dos objetos);
+        - **Diagrama de Visão Geral de Interação** e **Diagrama de Tempo (*Timing*)**.
 
 ---
 
@@ -272,10 +272,14 @@ flowchart TD
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
-* [OMG UML 2.5.1 Specification Official Resource](https://www.omg.org/spec/UML/) - Especificação formal da Unified Modeling Language.
-* [OMG BPMN 2.0.2 Specification Official Resource](https://www.omg.org/spec/BPMN/2.0/) - Especificação normativa do Business Process Model and Notation.
-* [Software Engineering (Ian Sommerville - 10ª Edição)](https://iansommerville.com/software-engineering-book/) - Engenharia de requisitos funcionais e não funcionais.
-* [User Stories Applied: For Agile Software Development (Mike Cohn)](https://www.mountaingoatsoftware.com/agile/user-stories) - Conceitos do padrão INVEST e 3 Cs.
+* [OMG Unified Modeling Language (UML 2.5.1) — Especificação Oficial](https://www.omg.org/spec/UML/2.5.1/About-UML) - Especificação normativa da UML 2.5.1 mantida pelo Object Management Group (diagramas estruturais e comportamentais).
+* [OMG Business Process Model and Notation (BPMN 2.0.2) — Especificação Oficial](https://www.omg.org/spec/BPMN/2.0.2/About-BPMN) - Especificação formal da notação BPMN 2.0 (eventos, atividades, gateways, pools, lanes e conectores).
+* [User Stories and User Story Examples (Mike Cohn — Mountain Goat Software)](https://www.mountaingoatsoftware.com/agile/user-stories) - Guia de referência sobre escrita de Histórias de Usuário, padrão INVEST e os 3 Cs.
+* [Bounded Context — Modelagem de Domínio e Requisitos (Martin Fowler)](https://martinfowler.com/bliki/BoundedContext.html) - Delimitação de contextos e linguagem ubíqua na análise e modelagem de sistemas.
+* [Os 12 Princípios do Manifesto Ágil — Requisitos Evolutivos e Colaboração](https://agilemanifesto.org/iso/ptbr/principles.html) - Princípios ágeis aplicados ao gerenciamento adaptativo de requisitos e entregas de valor.
+* SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson Education do Brasil, 2019. (Cap. 4 - Engenharia de Requisitos; Cap. 5 - Modelagem de Sistemas).
+* PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: Uma Abordagem Profissional**. 9. ed. Porto Alegre: AMGH, 2021. (Cap. 7 - Compreensão dos Requisitos; Cap. 8 - Modelagem de Requisitos).
+* COHN, Mike. **User Stories Applied: For Agile Software Development**. Boston: Addison-Wesley Professional, 2004. (Cap. 2 - Writing Stories; Cap. 6 - Acceptance Testing).
 
 ---
 

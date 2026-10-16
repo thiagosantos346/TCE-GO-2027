@@ -311,11 +311,14 @@ A pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Guia Gramatical do Senado Federal - Pontuação e Período Composto](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo/guia-gramatical/pontuacao) - Regras práticas de pontuação em textos jurídicos e oficiais.
-* [Só Português - Conjunções Coordenativas e Subordinativas Integradas](https://www.soportugues.com.br/secoes/morf/morf84.php) - Catálogo completo de valores semânticos dos conectivos oracionais.
-* [Portal da Escola Virtual de Governo (EV.G / ENAP)](https://www.escolavirtual.gov.br/) - Relações de coesão, coerência e estruturação de orações complexas.
-* BECHARA, Evanildo. *Moderna Gramática Portuguesa*. Rio de Janeiro: Nova Fronteira. (Capítulos de Sintaxe do Período Composto e Pontuação).
-* GARCIA, Othon M. *Comunicação em Prosa Moderna*. Rio de Janeiro: Editora FGV. (Tratado clássico sobre a ordem das orações e coesão conectiva).
+* [Manual de Comunicação do Senado Federal — Emprego da Vírgula](https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula) - Regras de pontuação no período simples e composto, termos intercalados, orações adjetivas e vedações da ordem direta SVC.
+* [Manual de Comunicação do Senado Federal — Ponto e Vírgula](https://www12.senado.leg.br/manualdecomunicacao/estilos/ponto-e-virgula) - Diretrizes sobre coordenação de períodos extensos, enumerações normativas e orações coordenadas conclusivas/adversativas.
+* [Manual de Comunicação do Senado Federal — Redação e Estilo (Conectivos e Período)](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo) - Artigos técnicos sobre coordenação, subordinação, valores semânticos de conjunções e estruturação de períodos.
+* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Orientações sobre articulação sintática, conectivos lógicos e pontuação oficial no serviço público.
+* [Lei Complementar Federal nº 95/1998 — Técnica Legislativa e Articulação Textual (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm) - Normas oficiais de pontuação, coordenação de dispositivos e clareza sintática em textos normativos.
+* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 14 e Cap. 17 - Período Composto por Coordenação e Subordinação, Conectivos e Sinais de Pontuação).
+* GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Primeira Parte - Estrutura da Frase, Coordenação, Subordinação e Valores Semânticos dos Conectivos).
+* CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 16 e Cap. 21 - Conjunções Coordenativas e Subordinativas, Orações Adjetivas e Pontuação).
 
 ---
 

@@ -212,14 +212,19 @@ Os prazos mínimos de divulgação do edital contam-se a partir da data de publi
 
 ## 5. Fontes Recomendadas na Internet
 
-- [Lei Federal nº 14.133/2021 - Arts. 17 a 39 e 55 a 56](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art17)  
-  Dispositivos que disciplinam o rito das fases da licitação, modalidades e prazos de publicação.
-- [Portal Nacional de Contratações Públicas (PNCP)](https://pncp.gov.br/)  
-  Repositório oficial onde são veiculados os editais e lances de todas as modalidades da NLLC.
-- [Instrução Normativa SEGES/ME nº 73/2022 (Modos de Disputa e Critérios)](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-73-de-30-de-setembro-de-2022)  
-  Regulamento federal que disciplina a operacionalização dos modos aberto e fechado.
-- [Enunciados do Instituto Brasileiro de Direito Administrativo (IBDA)](https://ibda.com.br/)  
-  Teses doutrinárias aplicadas sobre a eliminação do convite e tomada de preços e o uso do leilão imobiliário.
+- [Lei Federal nº 14.133/2021 - Arts. 17 a 27 (Fases do Processo Licitatório e Inversão de Fases)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art17)  
+  Dispositivos que disciplinam a sequência ordinária das fases da licitação, habilitação do vencedor e fase recursal única.
+- [Lei Federal nº 14.133/2021 - Arts. 28 a 39 (Modalidades de Licitação e Critérios de Julgamento)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art28)  
+  Regramento do pregão, concorrência, concurso, leilão e diálogo competitivo, bem como dos seis critérios de julgamento.
+- [Lei Federal nº 14.133/2021 - Arts. 55 a 70 (Prazos de Divulgação, Modos de Disputa e Habilitação)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art55)  
+  Tabelas legais de prazos mínimos de apresentação de propostas e regras dos modos de disputa aberto e fechado.
+- [Instrução Normativa SEGES/ME nº 73/2022 (Critérios de Julgamento por Menor Preço ou Maior Desconto)](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-73-de-30-de-setembro-de-2022)  
+  Regulamento federal que disciplina a operacionalização eletrônica dos modos de disputa aberto, fechado e combinados.
+- [Compras.gov.br - Instruções Normativas SEGES sobre Modalidades Licitatórias](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas)  
+  Acervo oficial de normas operacionais da Nova Lei de Licitações e Contratos Administrativos.
+* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 17 a 70 - Rito Procedimental, Modalidades e Critérios de Julgamento).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 - Modalidades Licitatórias, Diálogo Competitivo, Leilão e Procedimento da Lei 14.133/2021).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 5 - Licitação: Fases, Modalidades, Modos de Disputa e Julgamento).
 
 ---
 

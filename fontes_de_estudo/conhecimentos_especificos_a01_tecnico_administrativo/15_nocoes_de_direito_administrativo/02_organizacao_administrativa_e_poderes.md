@@ -280,16 +280,21 @@ O art. 2º da Lei nº 13.869/2019 estabelece que é sujeito ativo de crime de ab
 
 ## 6. Fontes Recomendadas na Internet
 
-- [Constituição Federal de 1988 - Arts. 37, XIX, 84, VI e 109, I](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)  
-  Dispositivos constitucionais reguladores da criação de estatais, competências de decretos autônomos e foros judiciais.
+- [Constituição Federal de 1988 - Art. 37, XIX e Art. 84, VI](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)  
+  Dispositivos constitucionais reguladores da criação de entidades da Administração Indireta, decretos autônomos e foros judiciais.
+- [Decreto-Lei nº 200/1967 (Organização da Administração Federal)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm)  
+  Diploma histórico que estruturou os conceitos de Administração Direta e Indireta, descentralização e supervisão ministerial.
 - [Lei Federal nº 13.303/2016 (Estatuto Jurídico das Empresas Estatais)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm)  
-  Regulamento de governança, conselhos de administração e contratações para empresas públicas e sociedades de economia mista.
-- [Lei Federal nº 13.869/2019 (Nova Lei de Abuso de Autoridade)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869.htm)  
-  Tipificação de crimes de abuso de autoridade, exigência do dolo específico e vedações ao crime de hermenêutica.
-- [STF - Tema 532 de Repercussão Geral (Delegação de Polícia Administrativa)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=532)  
-  Precedente vinculante fixado no RE 633.782 admitindo delegação de sanção de trânsito a estatais de serviços públicos.
-- [Lei Federal nº 9.784/1999 - Artigo 13 (Limites da Delegação)](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm)  
-  Regulamentação das vedações absolutas de delegação de atos normativos, recursos e competências exclusivas.
+  Regulamento de governança corporativa, conselhos de administração e contratações para empresas públicas e sociedades de economia mista.
+- [Lei Federal nº 13.869/2019 (Lei de Abuso de Autoridade)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869.htm)  
+  Tipificação dos crimes de abuso de autoridade, exigência do dolo específico e vedação ao crime de hermenêutica.
+- [STF - Tema 532 de Repercussão Geral (Delegação do Poder de Polícia Administrativa)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=532)  
+  Precedente vinculante fixado no RE 633.782 admitindo delegação das fases de consentimento, fiscalização e sanção a estatais prestadoras de serviço público.
+- [Lei Federal nº 9.784/1999 - Art. 13 (Limites da Delegação de Competência)](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm#art13)  
+  Regulamentação das vedações absolutas de delegação de atos normativos, decisão de recursos administrativos e competências exclusivas.
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 4 e Cap. 10 - Poderes da Administração e Organização Administrativa).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 2 e Cap. 9 - Poderes Administrativos, Administração Indireta e Entidades Paraestatais).
+* OLIVEIRA, Rafael Carvalho Rezende. **Curso de Direito Administrativo**. 12. ed. Rio de Janeiro: Método, 2024. (Cap. 4 e Cap. 11 - Organização Administrativa, Terceiro Setor e Poder de Polícia).
 
 ---
 

@@ -308,11 +308,15 @@ Adaptado do Sistema Toyota de Produção por Mary e Tom Poppendieck, o desenvolv
 
 ## 6. Fontes Oficiais e Referências Bibliográficas
 
-* [Scrum Guide Oficial 2020 (Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/scrum-guide.html) - Definição completa do framework, artefatos, compromissos e eventos.
-* [Manifesto para o Desenvolvimento Ágil de Software (2001)](https://agilemanifesto.org/iso/ptbr/manifesto.html) - 4 valores e 12 princípios fundamentais.
-* [Extreme Programming Explained: Embrace Change (Kent Beck)](http://www.extremeprogramming.org/) - Práticas de engenharia ágil, Pair Programming e TDD.
-* [Kanban: Successful Evolutionary Change for Your Technology Business (David J. Anderson)](https://kanban.university/) - Princípios do Kanban, limitação de WIP e métricas de fluxo.
-* [Lean Software Development: An Agile Toolkit (Mary & Tom Poppendieck)](https://www.poppendieck.com/) - Adaptação dos princípios enxutos à engenharia de software.
+* [Guia do Scrum Oficial 2020 — Edição Online (Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/scrum-guide.html) - Definição normativa do framework Scrum, pilares empíricos, Scrum Team, eventos e artefatos com seus compromissos.
+* [Guia do Scrum 2020 — Documento Oficial em Português do Brasil (PDF)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Tradução oficial completa da versão 2020 do Guia do Scrum.
+* [Manifesto para o Desenvolvimento Ágil de Software (2001)](https://agilemanifesto.org/iso/ptbr/manifesto.html) - Declaração oficial dos quatro valores centrais do desenvolvimento ágil de software.
+* [Os 12 Princípios do Software Ágil — Agile Manifesto Oficial](https://agilemanifesto.org/iso/ptbr/principles.html) - Diretrizes fundamentais de entregas contínuas, adaptação a mudanças e excelência técnica.
+* [O Guia Oficial do Kanban (Kanban Guides — Português do Brasil)](https://kanbanguides.org/portuguese-brazil/) - Definição formal do método Kanban, práticas de limitação de WIP e métricas de fluxo (Lead Time, Cycle Time e Throughput).
+* [Continuous Integration (Martin Fowler — Práticas de Engenharia Ágil e XP)](https://martinfowler.com/articles/continuousIntegration.html) - Fundamentos de integração contínua, automação de builds e práticas técnicas do Extreme Programming (XP).
+* SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson Education do Brasil, 2019. (Cap. 2 - Processos de Software; Cap. 3 - Desenvolvimento Ágil de Software).
+* PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: Uma Abordagem Profissional**. 9. ed. Porto Alegre: AMGH, 2021. (Cap. 2 - Modelos de Processo; Cap. 3 - Agilidade e Processo).
+* BECK, Kent; ANDRES, Cynthia. **Extreme Programming Explained: Embrace Change**. 2. ed. Boston: Addison-Wesley Professional, 2004. (Sec. 1 - Values, Principles, and Practices).
 
 ---
 

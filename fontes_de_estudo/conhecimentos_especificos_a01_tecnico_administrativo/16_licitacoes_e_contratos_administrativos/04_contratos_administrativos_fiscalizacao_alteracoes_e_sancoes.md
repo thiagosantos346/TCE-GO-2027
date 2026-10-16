@@ -207,12 +207,19 @@ A reabilitação perante a Administração exige cumulativamente:
 ---
 
 ## 🌐 Fontes Recomendadas na Internet
-- [Lei Federal nº 14.133/2021 - Artigos 89 a 163 (Contratos e Sanções)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art89)
-    - Normas legais sobre garantias, vigência contratual decenal, alterações e penalidades administrativas.
-- [STF - Tema 246 da Repercussão Geral (ADC 16 e RE 760.931)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=246)
-    - Jurisprudência vinculante do Supremo afastando a responsabilidade objetiva da Administração Pública na terceirização.
-- [Tribunal de Contas da União (TCU) - Jurisprudência sobre Sanções e Retomada de Obras](https://pesquisa.apps.tcu.gov.br/)
-    - Acórdãos sobre limites de alteração contratual unilateral e efetividade dos *step-in rights*.
+- [Lei Federal nº 14.133/2021 - Artigos 89 a 123 (Formalização, Garantias, Vigência e Execução Contratual)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art89)  
+  Normas legais sobre cláusulas exorbitantes, seguro-garantia com cláusula de retomada (art. 102), vigência decenal (arts. 106 e 107) e fiscalização (art. 117).
+- [Lei Federal nº 14.133/2021 - Artigos 124 a 139 (Alterações Contratuais, Equilíbrio e Extinção)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art124)  
+  Regramento dos limites unilaterais de 25% e 50% (art. 125), reajuste, repactuação (art. 135) e suspensão por atraso superior a 2 meses (art. 137).
+- [Lei Federal nº 14.133/2021 - Artigos 155 a 163 (Infrações, Sanções Administrativas e Reabilitação)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art155)  
+  Disciplina da advertência, multa, impedimento de licitar (até 3 anos), declaração de inidoneidade (3 a 6 anos) e requisitos de reabilitação.
+- [STF - Tema 246 da Repercussão Geral (Responsabilidade Subsidiária Trabalhista da Administração)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=246)  
+  Jurisprudência vinculante do Supremo Tribunal Federal (RE 760.931 e ADC 16) que veda a responsabilização automática do Poder Público sem prova de culpa *in vigilando*.
+- [Compras.gov.br - Instruções Normativas SEGES sobre Gestão e Fiscalização de Contratos](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas)  
+  Diretrizes normativas federais sobre atuação de gestores e fiscais técnicos, administrativos e setoriais e procedimentos de repactuação.
+* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 89 a 163 - Contratos Administrativos, Alterações, Equilíbrio e Sanções).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 8 - Contratos da Administração: Cláusulas Exorbitantes, Mutabilidade, Equilíbrio Econômico-Financeiro e Extinção).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 4 - Contratos Administrativos: Formalização, Garantias, Execução, Inexecução e Penalidades).
 
 ---
 

@@ -294,11 +294,15 @@ flowchart TD
 
 ### 8. Fontes Oficiais e Referências Bibliográficas
 
-* [KAPLAN, Robert S.; NORTON, David P. A Estratégia em Ação: Balanced Scorecard. Editora Campus.](https://www.grupogen.com.br) - Mapa estratégico e as quatro perspectivas.
-* [SIMON, Herbert A. Comportamento Administrativo: estudo dos processos decisórios nas organizações administrativas. FGV.](https://www.fgv.br) - Teoria da Racionalidade Limitada.
-* [Decreto Federal nº 9.991/2019](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Política Nacional de Desenvolvimento de Pessoas e Gestão por Competências.
-* [THOMAS, Kenneth W.; KILMANN, Ralph H. Conflict Mode Instrument (TKI)](https://kilmanndiagnostics.com) - Modos de tratamento de conflitos organizacionais.
-* [Tribunal de Contas da União (TCU) - Referencial de Avaliação de Governança e Gestão Estratégica](https://portal.tcu.gov.br).
+* [Decreto Federal nº 9.991/2019 — Política Nacional de Desenvolvimento de Pessoas (PNDP) e Gestão por Competências](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) — Regulamenta o diagnóstico de lacunas (*gaps*) de competências e a elaboração do Plano de Desenvolvimento de Pessoas (PDP).
+* [Decreto Federal nº 9.203/2017 — Política de Governança da Administração Pública Federal](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) — Diretrizes de planejamento estratégico, monitoramento por indicadores de desempenho e avaliação de resultados públicos.
+* [TCE-GO — Planejamento Estratégico Institucional, Missão, Visão, Valores e Mapa Estratégico (BSC)](https://www.tce.go.gov.br/planejamento-estrategico) — Aplicação prática do *Balanced Scorecard* e das perspectivas estratégicas no Tribunal de Contas do Estado de Goiás.
+* [TCE-GO — Desempenho Institucional, Metas e Indicadores de Gestão](https://www.tce.go.gov.br/desempenho-institucional) — Painel oficial de monitoramento de indicadores (Economicidade, Eficiência, Eficácia e Efetividade) no âmbito do TCE-GO.
+* [Lei Federal nº 13.140/2015 — Lei de Mediação e Autocomposição de Conflitos na Administração Pública](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13140.htm) — Marco normativo da resolução consensual, negociação e gestão de conflitos no setor público.
+* KAPLAN, Robert S.; NORTON, David P. **A Estratégia em Ação: Balanced Scorecard**. 24. ed. Rio de Janeiro: Campus/Elsevier, 1997. (Cap. 1, 2 e 7 — As Quatro Perspectivas, Relações de Causa e Efeito e Adaptação às Organizações Públicas).
+* SIMON, Herbert Alexander. **Comportamento Administrativo: estudo dos processos decisórios nas organizações administrativas**. 3. ed. Rio de Janeiro: Editora FGV, 1979. (Cap. IV e V — A Racionalidade no Comportamento Administrativo, *Homem Administrativo* e Decisões Satisfatórias).
+* THOMAS, Kenneth W.; KILMANN, Ralph H. **Thomas-Kilmann Conflict Mode Instrument (TKI)**. Tuxedo, NY: Xicom, 1974. (Matriz bidimensional de assertividade e cooperatividade nos cinco estilos de tratamento de conflitos).
+* ROBBINS, Stephen P.; JUDGE, Timothy A.; SOBRAL, Filipe. **Comportamento Organizacional: teoria e prática no contexto brasileiro**. 14. ed. São Paulo: Pearson Prentice Hall, 2010. (Cap. 6 e 14 — Tomada de Decisão Individual e Conflito e Negociação).
 
 ---
 

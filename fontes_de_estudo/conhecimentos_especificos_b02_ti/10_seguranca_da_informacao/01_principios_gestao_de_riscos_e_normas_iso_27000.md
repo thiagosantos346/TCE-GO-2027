@@ -33,6 +33,7 @@
     - [5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL](#51-a-norma-certificavel-isoiec-27001-e-o-anexo-sl)
     - [5.2 A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)](#52-a-nova-isoiec-27002-edicao-2022-4-temas-e-93-controles)
     - [5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005](#53-a-declaracao-de-aplicabilidade-soa-e-a-isoiec-27005)
+- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 - [6. Questões Comentadas (FCC)](#6-questoes-comentadas-fcc)
 
 ---
@@ -286,6 +287,22 @@ A edição atualizada (ISO/IEC 27002:2022) simplificou os antigos 14 domínios d
     4. A **justificativa formal obrigatória para a exclusão** de qualquer controle que não tenha sido adotado.
 
 - **ISO/IEC 27005:** Norma que fornece diretrizes especializadas para o processo de avaliação e tratamento de riscos de segurança da informação no suporte ao SGSI.
+
+---
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+### Documentação Oficial e Normas Técnicas na Web
+* **[NIST SP 800-30 Rev. 1 — Guide for Conducting Risk Assessments](https://csrc.nist.gov/pubs/sp/800/30/r1/final):** Guia oficial do NIST para condução de avaliações de risco de segurança da informação, detalhando a tríade Ativo, Ameaça e Vulnerabilidade, modelos qualitativos/quantitativos e matrizes de impacto.
+* **[NIST SP 800-61 Rev. 2 — Computer Security Incident Handling Guide](https://csrc.nist.gov/pubs/sp/800/61/r2/final):** Publicação normativa de referência para estruturação de CSIRTs e execução das 4 fases do ciclo de resposta a incidentes (Preparação, Detecção e Análise, Contenção/Erradicação/Recuperação e Atividades Pós-Incidente).
+* **[NIST Cybersecurity Framework (CSF 2.0)](https://www.nist.gov/cyberframework):** Portal oficial do framework de segurança cibernética do NIST, integrando funções de governança, identificação, proteção, detecção, resposta e recuperação de ativos críticos.
+* **[Governo Digital — Programa de Privacidade e Segurança da Informação (PPSI 2.0)](https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0):** Diretrizes oficiais da Administração Pública Federal para implementação de controles de segurança da informação, gestão de riscos e maturidade alinhados às normas ISO/IEC 27001 e 27002.
+* **[Planalto — Medida Provisória nº 2.200-2/2001 (ICP-Brasil)](https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm):** Base legal brasileira que institui a Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), assegurando os princípios de autenticidade, integridade e não repúdio (irretratabilidade) de documentos eletrônicos.
+
+### Obras Clássicas e Normas Técnicas (Padrão ABNT)
+* ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR ISO/IEC 27001:2022 — Segurança da informação, segurança cibernética e proteção à privacidade — Sistemas de gestão da segurança da informação — Requisitos**. Rio de Janeiro: ABNT, 2022. (Cláusulas 4 a 10 do Anexo SL, Ciclo PDCA e Declaração de Aplicabilidade - SoA).
+* ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR ISO/IEC 27002:2022 — Segurança da informação, segurança cibernética e proteção à privacidade — Controles de segurança da informação**. Rio de Janeiro: ABNT, 2022. (Seções 5 a 8 — Estrutura de 93 controles divididos nos 4 temas: Organizacionais, Pessoas, Físicos e Tecnológicos).
+* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 6. ed. São Paulo: Pearson Education do Brasil, 2015. (Cap. 1 — Conceitos de Segurança da Informação, Pilares CIDAN e Arquitetura de Segurança OSI).
 
 ---
 

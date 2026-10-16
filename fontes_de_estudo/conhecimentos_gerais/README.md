@@ -28,21 +28,22 @@
 ### [02. Matemática e Raciocínio Lógico](./02_matematica_e_raciocinio_logico/)
 *Diretório:* [`02_matematica_e_raciocinio_logico/`](./02_matematica_e_raciocinio_logico/)  
 
-1. `01_aritmetica_fracoes_e_conjuntos.md` - Aritmética Básica, Frações, Operações e Teoria dos Conjuntos
-2. `02_proporcionalidade_regra_de_tres_e_porcentagem.md` - Proporcionalidade, Regra de Três, Porcentagens e Variações
-3. `03_estruturas_logicas_e_associacao.md` - Estruturas Lógicas, Associação de Informações e Verdades/Mentiras
-4. `04_raciocinio_sequencial_espacial_e_temporal.md` - Raciocínio Sequencial, Sequências Numéricas e Temporais
-5. `05_logica_de_argumentacao_e_silogismos.md` - Lógica Proposicional, Argumentação e Silogismos Categóricos
+1. `01_conjuntos_numericos_fracoes_e_aritmetica.md` - Aritmética Básica, Frações, Operações e Conjuntos Numéricos
+2. `02_proporcoes_regra_de_tres_e_porcentagem.md` - Grandezas Proporcionais, Regra de Três, Porcentagens e Variações
+3. `03_estruturas_logicas_e_associacao.md` - Estruturas Lógicas, Associação de Informações e Dedução
+4. `04_raciocinio_sequencial_temporal_espacial_e_verbal.md` - Raciocínio Sequencial, Temporal, Espacial e Verbal
+5. `05_logica_de_argumentacao_e_conclusoes_validas.md` - Lógica Proposicional, Argumentação e Conclusões Válidas
 
 ---
 
 ### [03. Legislação Institucional (TCE-GO & Goiás)](./03_legislacao_institucional/)
 *Diretório:* [`03_legislacao_institucional/`](./03_legislacao_institucional/)  
 
-1. `01_constituicao_estadual_controle_externo.md` - CF/88 e Constituição Estadual de Goiás no Controle Externo
-2. `02_lei_organica_tce_go_lei_16168.md` - Lei Orgânica do TCE-GO (Lei Estadual nº 16.168/2008)
-3. `03_regimento_interno_tce_go.md` - Regimento Interno do TCE-GO (Resolução nº 22/2008)
-4. `04_estatuto_servidores_pccr_tce_go.md` - Estatuto dos Servidores (Lei nº 20.756) e PCCR do TCE-GO (Lei nº 15.122)
-5. `05_codigo_de_etica_e_processo_disciplinar.md` - Código de Ética e Processo Administrativo Disciplinar
-6. `06_resolucoes_governanca_ia_e_psi.md` - Normas de Governança, Uso de IA e PSI do TCE-GO
+1. `01_bases_constitucionais_cf88_e_ce_go.md` - CF/88 e Constituição Estadual de Goiás no Controle Externo
+2. `02_lei_organica_tce_go_lei_16168_2007.md` - Lei Orgânica do TCE-GO (Lei Estadual nº 16.168/2007)
+3. `03_regimento_interno_tce_go_resolucao_22_2008.md` - Regimento Interno do TCE-GO (Resolução nº 22/2008)
+4. `04_regime_juridico_servidores_e_pccr_leis_20756_e_15122.md` - Estatuto dos Servidores (Lei nº 20.756/2020) e PCCR do TCE-GO (Lei nº 15.122/2005)
+5. `05_codigo_de_etica_servidores_tce_go.md` - Código de Ética dos Servidores do TCE-GO
+6. `06_politicas_institucionais_e_resolucoes_normativas.md` - Políticas Institucionais e Resoluções Normativas (Governança, IA, LGPD e PSI)
+
 

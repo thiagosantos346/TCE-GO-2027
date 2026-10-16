@@ -320,11 +320,14 @@ Para garantir a perfeição no confronto de frases da FCC:
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Manual de Redação da Presidência da República (3ª Edição Revista e Atualizada)](http://www.planalto.gov.br/ccivil_03/manual/manual.htm) - Princípios oficiais de clareza, concisão, precisão e eliminação de ambiguidades.
-* [Guia Gramatical do Senado Federal - Construção Frasal e Paralelismo](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo/guia-gramatical) - Modelos práticos de paralelismo sintático e correção de frases complexas.
-* [Só Português - Coesão, Coerência e Vícios de Linguagem](https://www.soportugues.com.br/) - Catálogo de ambiguidades, quebra de paralelismo e normas de reescrita.
-* GARCIA, Othon M. *Comunicação em Prosa Moderna*. Rio de Janeiro: Editora FGV. (Referência definitiva sobre paralelismo de ideias, simetria sintática e ordenação de orações).
-* PLATÃO & FIORIN. *Lições de Texto: Leitura e Redação*. São Paulo: Ática.
+* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Princípios oficiais de clareza, concisão, precisão, paralelismo sintático e eliminação de ambiguidades na reescrita.
+* [Manual de Comunicação do Senado Federal — Uso dos Porquês](https://www12.senado.leg.br/manualdecomunicacao/estilos/por-que-por-que-porque-porque) - Distinção normativa e exemplos práticos das quatro formas (*por que, por quê, porque, porquê*).
+* [Manual de Comunicação do Senado Federal — Emprego de Se não e Senão](https://www12.senado.leg.br/manualdecomunicacao/estilos/se-nao-senao) - Regras de distinção léxica e sintática em reescrita e equivalência de períodos.
+* [Manual de Comunicação do Senado Federal — Coesão e Eliminação de Redundâncias](https://www12.senado.leg.br/manualdecomunicacao/estilos/redundancia) - Saneamento de vícios de construção frasal, anfibologias e uso indevido de expressões anafóricas.
+* [Manual de Comunicação do Senado Federal — Redação e Estilo (Índice A-Z)](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo) - Guia completo de construção frasal, simetria sintática e equivalência de estruturas.
+* GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Primeira Parte, Cap. II e III - Frase, Período, Paralelismo Sintático e Semântico e Eliminação de Ambiguidades).
+* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 14 - Transformação de Orações Desenvolvidas em Reduzidas e Equivalência de Conectivos).
+* KOCH, Ingedore Villaça; ELIAS, Vanda Maria. **Ler e Escrever: estratégias de produção textual**. 2. ed. São Paulo: Contexto, 2015. (Cap. 3 e Cap. 5 - Coesão Referencial, Sequencial e Paráfrase).
 
 ---
 
@@ -343,7 +346,7 @@ A frase cuja redação prima pela clareza, pela concisão e pela **estrita corre
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Apresenta quebra frontal de paralelismo sintático: o verbo *dedicar-se* regeu a preposição *a* no primeiro termo coordenado (*a examinar*) e a preposição *em* no segundo termo coordenado (*na verificação*). A construção harmônica exigiria: *dedicou-se a examinar os contratos e a verificar as certidões* (ou *ao exame dos contratos e à verificação das certidões*).
-> - **B)** Correta. A oração reúne três acertos sintáticos exemplares: 1) A expressão *fazer menção* rege a preposição *a* (*quem faz menção, faz menção a algo*), a qual foi adequadamente anteposta ao pronome relativo (*a que o conselheiro fez menção*); 2) O vocábulo *por que* foi grafado separadamente e sem acento de forma perfeita, equivalendo a "pelas quais razões"; 3) A concordância verbal da voz passiva sintética está irrepreensível, com o verbo no plural concordando com o sujeito paciente plural (*foram desaprovadas as contas da autarquia*).
+> - **B)** Correta. A oração reúne três acertos sintáticos exemplares: 1) A expressão *fazer menção* rege a preposição *a* (*quem faz menção, faz menção a algo*), a qual foi adequadamente anteposta ao pronome relativo (*a que o conselheiro fez menção*); 2) O vocábulo *por que* foi grafado separadamente e sem acento de forma perfeita, equivalendo a "pelas quais razões"; 3) A concordância verbal da voz passiva analítica está irrepreensível, com o verbo no plural concordando com o sujeito paciente plural (*foram desaprovadas as contas da autarquia*).
 > - **C)** Incorreta. Apresenta dois erros graves: o verbo impessoal *haver* no sentido de existir foi indevidamente pluralizado (*haveriam reuniões* em vez do correto *haveria reuniões*); e a locução de finalidade foi grafada junta de modo vicioso (*afim de* em vez de *a fim de*).
 > - **D)** Incorreta. O verbo *desobedecer* é Transitivo Indireto e rege a preposição *a* (*desobedecer às normas*); além disso, o emprego do pronome pessoal do caso reto como objeto direto verbal (*evitar elas*) viola a norma-padrão, que exige a forma oblíqua enclítica (*evitá-las*).
 > - **E)** Incorreta. Rompe o paralelismo sintático na estrutura correlativa *não só... mas*: coordenou uma oração preposicionada de infinitivo com valor final (*não só para conferir transparência*) com uma oração reduzida no gerúndio (*mas garantindo*). O correto seria: *não só para conferir transparência, mas também para garantir a legalidade*.

@@ -248,14 +248,20 @@ As informações cuja divulgação possa colocar em risco a segurança da socied
 
 ## 🌐 Fontes Oficiais & Referências Bibliográficas
 
-- [BRESSER-PEREIRA, Luiz Carlos. Plano Diretor da Reforma do Aparelho do Estado (PDRAE)](https://www.bresserpereira.org.br)
-    - Documento histórico fundamental do Ministério da Administração e Reforma do Estado (MARE, 1995).
-- [Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)
-    - Estatuto nacional de transparência ativa, passiva e graus de sigilo.
-- [Lei Estadual de Goiás nº 18.025/2013](https://legisla.casacivil.go.gov.br)
-    - Aplicação e regulamento da Lei de Acesso à Informação no âmbito do Estado de Goiás.
-- [Tribunal de Contas da União (TCU) - Referencial Básico de Governança Aplicável ao Setor Público](https://portal.tcu.gov.br)
-    - Princípios de liderança, estratégia, governança e controle.
+- [Constituição da República Federativa do Brasil de 1988 — Art. 37 a 41 (Administração Pública e Reforma Gerencial EC nº 19/1998)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)
+    - Princípio da eficiência, contrato de gestão (art. 37, § 8º), publicidade e diretrizes constitucionais da Administração Pública.
+- [Lei Federal nº 12.527/2011 — Lei de Acesso à Informação (LAI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)
+    - Regime jurídico nacional da transparência ativa e passiva, prazos de atendimento (20 + 10 dias), desnecessidade de motivação e graus de sigilo documental.
+- [Decreto Federal nº 9.203/2017 — Política de Governança da Administração Pública Federal](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm)
+    - Princípios (capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e transparência) e diretrizes de governança pública.
+- [Tribunal de Contas da União (TCU) — Governança Pública e Referencial Básico de Governança Organizacional](https://portal.tcu.gov.br/governanca/governanca-no-tcu/)
+    - Mecanismos de governança no setor público (Liderança, Estratégia e Controle), distinção entre governança e gestão e práticas de *accountability*.
+- [TCE-GO — Governança, Planejamento, Gestão e Plano de Fiscalização](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao)
+    - Aplicação prática da governança pública, controle externo horizontal e avaliação de políticas públicas sob as dimensões da eficiência, eficácia e efetividade.
+- BRESSER-PEREIRA, Luiz Carlos. **Reforma do Estado para a Cidadania: a Reforma Gerencial Brasileira na Perspectiva Internacional**. São Paulo: Editora 34; Brasília: ENAP, 1998. (Cap. 1 a 4 — Modelos Patrimonialista, Burocrático e Gerencial e o PDRAE de 1995).
+- WEBER, Max. **Economia e Sociedade: fundamentos da sociologia compreensiva**. Vol. 1 e 2. Brasília: Editora Universidade de Brasília, 1999. (Cap. III e IX — Os Tipos de Dominação e a Burocracia Racional-Legal).
+- MERTON, Robert King. **Sociologia: Teoria e Estrutura**. São Paulo: Mestre Jou, 1970. (Cap. VIII — Estrutura Burocrática e Personalidade: as disfunções da burocracia).
+- O'DONNELL, Guillermo. **Accountability horizontal e novas poliarquias**. Lua Nova: Revista de Cultura e Política, São Paulo, n. 44, p. 27-54, 1998. (Conceituação clássica de *accountability* vertical, horizontal e societal).
 
 ---
 
