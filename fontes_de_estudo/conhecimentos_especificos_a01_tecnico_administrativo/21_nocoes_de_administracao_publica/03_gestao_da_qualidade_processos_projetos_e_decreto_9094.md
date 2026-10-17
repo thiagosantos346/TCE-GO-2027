@@ -54,7 +54,6 @@
     - [4.3 Instrumentos Primordiais: TAP e EAP (WBS)](#43-instrumentos-primordiais-tap-e-eap-wbs)
     - [4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)](#44-a-restricao-tripla-classica-escopo-custo-e-tempo)
 - [5. Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
-- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -111,6 +110,30 @@ flowchart TD
     6. *Gráfico de Dispersão:* Avaliação gráfica da correlação estatística entre duas variáveis;
     7. *Cartas de Controle:* Gráficos temporais com limites superior e inferior de controle para verificar a estabilidade do processo.
 
+---
+
+### Questão 01 (FCC – DPE-RS – Analista: Área Administrativa)
+Determinada equipe de modernização administrativa do Tribunal de Contas recebeu a incumbência de identificar as causas fundamentais dos atrasos reiterados na instrução processual de tomadas de contas especiais. Para estruturar a análise, os analistas utilizaram uma ferramenta visual que categoriza as causas potenciais em fatores como procedimentos e rotinas (Método), capacitação dos auditores (Mão de obra), sistemas informatizados utilizados (Máquinas/Tecnologia) e insumos documentais recebidos dos jurisdicionados (Matéria-prima). A ferramenta descrita é o:
+
+* **A)** Diagrama de Ishikawa (Espinha de Peixe).
+* **B)** Gráfico de Pareto baseado na regra 80/20.
+* **C)** Ciclo PDCA na etapa de Checagem.
+* **D)** Histograma de frequências acumuladas.
+* **E)** Gráfico de dispersão linear de Pearson.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O Diagrama de Causa e Efeito (Diagrama de Ishikawa ou Espinha de Peixe) é o instrumento clássico da qualidade estruturado para rastrear e categorizar as causas raízes de um problema operacional, dividindo-as tradicionalmente nos 6Ms (Método, Mão de obra, Máquina, Matéria-prima, Medição e Meio ambiente).
+> - **B)** Incorreta. O Diagrama de Pareto organiza causas por frequência decrescente para priorizar os 20% de causas que respondem por 80% dos problemas.
+> - **C)** Incorreta. O PDCA é um ciclo metodológico de gestão em quatro etapas contínuas, não o gráfico de causas em espinha.
+> - **D)** Incorreta. O histograma é um gráfico de distribuição de frequência estatística.
+> - **E)** Incorreta. O gráfico de dispersão avalia a relação de causa estatística entre duas variáveis contínuas.
+> 
+> **Gabarito: A**
+
+---
+
+
 #### 1.4 Modelos de Excelência: MEG / FNQ e o GesPública
 - **Modelo de Excelência da Gestão (MEG / Fundação Nacional da Qualidade):** Baseado na visão sistêmica e em fundamentos de gestão contemporâneos (liderança transformadora, foco no cidadão, orientação para resultados, governança e responsabilidade socioambiental);
 - **Programa Nacional de Gestão Pública e Desburocratização (GesPública):** Instituído pelo Decreto Federal nº 5.378/2005 para disseminar no setor público brasileiro a autoavaliação continuada e a busca por excelência nos serviços públicos prestados ao cidadão.
@@ -153,6 +176,29 @@ A Carta de Serviços ao Usuário é um instrumento de governança e transparênc
 
 ---
 
+### Questão 02 (FCC – TCE-PI – Auditor de Controle Externo)
+Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para requerer certidão de regularidade funcional, apresentando cópia simples de sua cédula de identidade acompanhada do documento original. O atendente público recusou o recebimento da documentação, exigindo que o requerente providenciasse prévia autenticação da cópia e reconhecimento de firma em cartório de notas. Considerando o disposto no Decreto Federal nº 9.094/2017 e na legislação correlata sobre simplificação de serviços públicos:
+
+* **A)** A conduta do atendente foi correta, pois a fé pública de documentos apresentados ao Estado depende de reconhecimento notarial.
+* **B)** A conduta do atendente foi indevida, pois é vedada a exigência de reconhecimento de firma e de cópia autenticada, cabendo ao próprio servidor público atestar a autenticidade mediante cotejo da cópia com o original apresentado.
+* **C)** O atendente agiu com respaldo legal, desde que o prazo de validade da cédula de identidade apresentada pelo cidadão tenha expirado há mais de cinco anos.
+* **D)** O atendimento só poderia ser recusado se o cidadão não comprovasse residência fixa no Estado por meio de certidão cartorária.
+* **E)** A dispensa de autenticação cartorária somente se aplica a pessoas jurídicas sem fins lucrativos qualificadas como organizações sociais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Decreto nº 9.094/2017 e a Lei Federal nº 13.726/2018 proíbem a transferência de custos e formalidades cartorárias ao cidadão quando o documento original é exibido ao agente público.
+> - **B)** Correta. De acordo com o art. 9º do Decreto Federal nº 9.094/2017 e a Lei nº 13.726/2018, é vedada a exigência de reconhecimento de firma e de autenticação notarial de cópias, cabendo ao próprio servidor público, sob sua fé pública funcional, confrontar a cópia simples com o documento original e atestar a sua conformidade no processo administrativo.
+> - **C)** Incorreta. A lei não admite exceção temporal para documentos oficiais de identificação válidos que individualizem o cidadão.
+> - **D)** Incorreta. A comprovação de endereço pode ser feita mediante simples declaração assinada pelo interessado.
+> - **E)** Incorreta. A simplificação administrativa beneficia indistintamente qualquer cidadão ou pessoa jurídica no trato com o serviço público.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3. Gestão de Processos de Negócio (BPM)
 
 O *Business Process Management* (BPM) é uma abordagem disciplinada para identificar, desenhar, executar, documentar, medir, monitorar e controlar processos de trabalho para alcançar resultados alinhados aos objetivos da organização.
@@ -187,6 +233,30 @@ flowchart TD
     - Asseguram a governança corporativa, o direcionamento estratégico, a medição contínua e a gestão de riscos e integridade da instituição;
     - *Exemplos:* Formulação do plano estratégico institucional, auditoria interna de controle, comitês de governança.
 
+---
+
+### Questão 03 (FCC – SEFAZ-SC – Auditor Fiscal da Receita Estadual)
+No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Business Process Management), os processos organizacionais são classificados em finalísticos, de suporte e de gerenciamento. Assinale a alternativa que apresenta um exemplo legítimo de processo de suporte (secundário) em uma organização pública:
+
+* **A)** Realização de fiscalização tributária e lançamento de ofício do crédito tributário estadual.
+* **B)** Concessão de aposentadorias e pensões aos servidores vinculados ao regime próprio de previdência.
+* **C)** Gestão de compras e contratação de serviços de vigilância e limpeza para as dependências do prédio sede.
+* **D)** Julgamento de autos de infração fiscal pelo Tribunal Administrativo Tributário.
+* **E)** Auditoria de regularidade das despesas públicas municipais efetuada pelo Tribunal de Contas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A fiscalização e o lançamento de tributos constituem a atividade-fim essencial da Secretaria da Fazenda, qualificando-se como processo finalístico (primário).
+> - **B)** Incorreta. No âmbito de um instituto de previdência pública, conceder benefícios é sua atividade-fim direta (processo primário).
+> - **C)** Correta. Processos de suporte (secundários ou de apoio) são aqueles que viabilizam o funcionamento interno da instituição e dos processos finalísticos, fornecendo recursos, logística e infraestrutura para clientes internos. A contratação de vigilância, limpeza predial, almoxarifado e suporte técnico de TI são exemplos clássicos de processos de suporte.
+> - **D)** Incorreta. O julgamento contencioso tributário é atividade finalística essencial de arrecadação e justiça fiscal.
+> - **E)** Incorreta. A fiscalização e auditoria das contas públicas jurisdicionadas é o processo finalístico precípuo do Tribunal de Contas.
+> 
+> **Gabarito: C**
+
+---
+
+
 #### 3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE
 
 ```mermaid
@@ -213,6 +283,30 @@ A doutrina da administração e a jurisprudência da FCC cobram com rigor a dist
 | **Finalidade Estratégica**| Conduzir mudanças, inovações ou implantar novas capacidades. | Manter a regularidade operacional e o funcionamento estável da entidade. |
 | **Grau de Incerteza** | Elevado, devido ao ineditismo das entregas e variáveis externas. | Baixo, pois é regido por procedimentos estáveis e fluxos consolidados. |
 
+---
+
+### Questão 04 (FCC – TCE-RS – Auditor de Controle Externo)
+No âmbito da gestão estratégica e da teoria das organizações, a respeito das distinções essenciais entre a gestão de processos de negócio e a gestão de projetos:
+
+* **A)** Os projetos caracterizam-se por sua natureza contínua e repetitiva, destinando-se a manter estabilizadas as operações de rotina da organização.
+* **B)** A modelagem de processos denominada AS-IS refere-se ao desenho ideal do fluxo futuro após a eliminação de redundâncias e automação tecnológica.
+* **C)** O projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto os processos representam fluxos de trabalho permanentes e padronizados.
+* **D)** A Estrutura Analítica do Projeto (EAP) consiste em um gráfico de barras cronológico destinado a mensurar os custos diários incorridos pela equipe.
+* **E)** Os processos primários ou finalísticos de um órgão público são aqueles voltados exclusivamente para dar suporte administrativo às áreas de informática e compras.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A perenidade, continuidade e repetitividade são traços definidores dos processos de rotina operacional, e não dos projetos.
+> - **B)** Incorreta. A modelagem AS-IS retrata o processo atual como ele funciona hoje (com suas falhas e gargalos); o desenho otimizado futuro é o TO-BE.
+> - **C)** Correta. É a clássica definição do PMI/PMBOK: projeto é um esforço temporário com início e fim delimitados destinado a gerar um produto, serviço ou resultado exclusivo; ao passo que processos de negócio são contínuos, permanentes e padronizados para manter as operações regulares.
+> - **D)** Incorreta. A EAP é a decomposição hierárquica do escopo em entregas gerenciáveis; o gráfico de barras temporal com cronograma é o Gráfico de Gantt.
+> - **E)** Incorreta. Informática e compras internas configuram processos de suporte (secundários); processos finalísticos entregam valor público direto à sociedade e à missão essencial do órgão.
+> 
+> **Gabarito: C**
+
+---
+
+
 #### 4.2 Os Cinco Grupos de Processos do PMBOK
 O ciclo de vida do gerenciamento de projetos organiza-se em cinco grupos fundamentais de processos:
 
@@ -237,91 +331,9 @@ flowchart TD
   > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
   > A EAP **NÃO é um cronograma de atividades**! A EAP é orientada exclusivamente a **entregas (produtos e subprodutos)**. Ela não contém datas de início/fim nem lista de tarefas diárias. O documento que contém datas e dependências temporais é o Cronograma do Projeto (Diagrama de Rede ou Gráfico de Gantt).
 
-#### 4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)
-O sucesso de um projeto decorre do equilíbrio dinâmico entre três variáveis interdependentes, balizadas pelo padrão de **Qualidade**:
-$$\text{Escopo} \iff \text{Tempo / Cronograma} \iff \text{Custo / Orçamento}$$
-A alteração em qualquer um desses vértices impacta compulsoriamente os outros dois (ex.: antecipar o prazo de conclusão exige aumento de custos com horas extras ou redução do escopo entregue).
-
 ---
 
-## 🌐 Fontes Oficiais & Referências Bibliográficas
-
-* [Decreto Federal nº 9.094/2017 (Simplificação do Atendimento e Carta de Serviços)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9094.htm) - Regulamenta a simplificação de serviços, dispensa de reconhecimento de firma e Carta de Serviços ao Cidadão.
-* [Lei nº 13.460/2017 (Código de Defesa dos Usuários de Serviços Públicos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm) - Disciplina a participação, proteção e defesa dos direitos dos usuários de serviços da administração pública.
-* [Lei nº 14.129/2021 (Lei do Governo Digital e Modernização de Processos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm) - Estabelece princípios e instrumentos digitais para desburocratização e automação de serviços públicos.
-* [OMG - Business Process Model and Notation (BPMN 2.0.2)](https://www.omg.org/spec/BPMN/2.0.2/About-BPMN) - Especificação padrão global para modelagem de processos de negócio.
-* [Scrum Guide 2020 Oficial (Português-BR)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Guia definitivo das regras e práticas ágeis para gestão colaborativa de projetos.
-* PALADINI, Edson Pacheco. **Gestão da Qualidade: Teoria e Casos**. 3. ed. São Paulo: Atlas, 2019. (Cap. 3 - Ferramentas da Qualidade; Cap. 5 - Ciclo PDCA e Melhoria Contínua).
-* BALDAM, Roquemar et al. **Gerenciamento de Processos de Negócio - BPM: Uma Abordagem Prática**. São Paulo: Érica, 2014. (Cap. 2 a 4 - Notação BPMN e Mapeamento de Processos).
-* KERZNER, Harold. **Gestão de Projetos: As Melhores Práticas**. 3. ed. Porto Alegre: Bookman, 2011. (Cap. 1 - Visão Geral do Gerenciamento de Projetos).
-
-
-## 📝 Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC – TCE-PI – Auditor de Controle Externo)
-Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para requerer certidão de regularidade funcional, apresentando cópia simples de sua cédula de identidade acompanhada do documento original. O atendente público recusou o recebimento da documentação, exigindo que o requerente providenciasse prévia autenticação da cópia e reconhecimento de firma em cartório de notas. Considerando o disposto no Decreto Federal nº 9.094/2017 e na legislação correlata sobre simplificação de serviços públicos:
-
-* **A)** A conduta do atendente foi correta, pois a fé pública de documentos apresentados ao Estado depende de reconhecimento notarial.
-* **B)** A conduta do atendente foi indevida, pois é vedada a exigência de reconhecimento de firma e de cópia autenticada, cabendo ao próprio servidor público atestar a autenticidade mediante cotejo da cópia com o original apresentado.
-* **C)** O atendente agiu com respaldo legal, desde que o prazo de validade da cédula de identidade apresentada pelo cidadão tenha expirado há mais de cinco anos.
-* **D)** O atendimento só poderia ser recusado se o cidadão não comprovasse residência fixa no Estado por meio de certidão cartorária.
-* **E)** A dispensa de autenticação cartorária somente se aplica a pessoas jurídicas sem fins lucrativos qualificadas como organizações sociais.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O Decreto nº 9.094/2017 e a Lei Federal nº 13.726/2018 proíbem a transferência de custos e formalidades cartorárias ao cidadão quando o documento original é exibido ao agente público.
-> - **B)** Correta. De acordo com o art. 9º do Decreto Federal nº 9.094/2017 e a Lei nº 13.726/2018, é vedada a exigência de reconhecimento de firma e de autenticação notarial de cópias, cabendo ao próprio servidor público, sob sua fé pública funcional, confrontar a cópia simples com o documento original e atestar a sua conformidade no processo administrativo.
-> - **C)** Incorreta. A lei não admite exceção temporal para documentos oficiais de identificação válidos que individualizem o cidadão.
-> - **D)** Incorreta. A comprovação de endereço pode ser feita mediante simples declaração assinada pelo interessado.
-> - **E)** Incorreta. A simplificação administrativa beneficia indistintamente qualquer cidadão ou pessoa jurídica no trato com o serviço público.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC – TCE-RS – Auditor de Controle Externo)
-No âmbito da gestão estratégica e da teoria das organizações, a respeito das distinções essenciais entre a gestão de processos de negócio e a gestão de projetos:
-
-* **A)** Os projetos caracterizam-se por sua natureza contínua e repetitiva, destinando-se a manter estabilizadas as operações de rotina da organização.
-* **B)** A modelagem de processos denominada AS-IS refere-se ao desenho ideal do fluxo futuro após a eliminação de redundâncias e automação tecnológica.
-* **C)** O projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto os processos representam fluxos de trabalho permanentes e padronizados.
-* **D)** A Estrutura Analítica do Projeto (EAP) consiste em um gráfico de barras cronológico destinado a mensurar os custos diários incorridos pela equipe.
-* **E)** Os processos primários ou finalísticos de um órgão público são aqueles voltados exclusivamente para dar suporte administrativo às áreas de informática e compras.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A perenidade, continuidade e repetitividade são traços definidores dos processos de rotina operacional, e não dos projetos.
-> - **B)** Incorreta. A modelagem AS-IS retrata o processo atual como ele funciona hoje (com suas falhas e gargalos); o desenho otimizado futuro é o TO-BE.
-> - **C)** Correta. É a clássica definição do PMI/PMBOK: projeto é um esforço temporário com início e fim delimitados destinado a gerar um produto, serviço ou resultado exclusivo; ao passo que processos de negócio são contínuos, permanentes e padronizados para manter as operações regulares.
-> - **D)** Incorreta. A EAP é a decomposição hierárquica do escopo em entregas gerenciáveis; o gráfico de barras temporal com cronograma é o Gráfico de Gantt.
-> - **E)** Incorreta. Informática e compras internas configuram processos de suporte (secundários); processos finalísticos entregam valor público direto à sociedade e à missão essencial do órgão.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 3 (FCC – DPE-RS – Analista: Área Administrativa)
-Determinada equipe de modernização administrativa do Tribunal de Contas recebeu a incumbência de identificar as causas fundamentais dos atrasos reiterados na instrução processual de tomadas de contas especiais. Para estruturar a análise, os analistas utilizaram uma ferramenta visual que categoriza as causas potenciais em fatores como procedimentos e rotinas (Método), capacitação dos auditores (Mão de obra), sistemas informatizados utilizados (Máquinas/Tecnologia) e insumos documentais recebidos dos jurisdicionados (Matéria-prima). A ferramenta descrita é o:
-
-* **A)** Diagrama de Ishikawa (Espinha de Peixe).
-* **B)** Gráfico de Pareto baseado na regra 80/20.
-* **C)** Ciclo PDCA na etapa de Checagem.
-* **D)** Histograma de frequências acumuladas.
-* **E)** Gráfico de dispersão linear de Pearson.
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. O Diagrama de Causa e Efeito (Diagrama de Ishikawa ou Espinha de Peixe) é o instrumento clássico da qualidade estruturado para rastrear e categorizar as causas raízes de um problema operacional, dividindo-as tradicionalmente nos 6Ms (Método, Mão de obra, Máquina, Matéria-prima, Medição e Meio ambiente).
-> - **B)** Incorreta. O Diagrama de Pareto organiza causas por frequência decrescente para priorizar os 20% de causas que respondem por 80% dos problemas.
-> - **C)** Incorreta. O PDCA é um ciclo metodológico de gestão em quatro etapas contínuas, não o gráfico de causas em espinha.
-> - **D)** Incorreta. O histograma é um gráfico de distribuição de frequência estatística.
-> - **E)** Incorreta. O gráfico de dispersão avalia a relação de causa estatística entre duas variáveis contínuas.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 4 (FCC – ARTESP – Especialista em Regulação de Transportes)
+### Questão 05 (FCC – ARTESP – Especialista em Regulação de Transportes)
 Em relação ao gerenciamento de projetos estruturado segundo as boas práticas do guia PMBOK (Project Management Institute), assinale a opção correta:
 
 * **A)** O Termo de Abertura do Projeto (TAP) é emitido após o término da execução física para consolidar as lições aprendidas pela equipe.
@@ -342,21 +354,21 @@ Em relação ao gerenciamento de projetos estruturado segundo as boas práticas 
 
 ---
 
-### Questão 5 (FCC – SEFAZ-SC – Auditor Fiscal da Receita Estadual)
-No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Business Process Management), os processos organizacionais são classificados em finalísticos, de suporte e de gerenciamento. Assinale a alternativa que apresenta um exemplo legítimo de processo de suporte (secundário) em uma organização pública:
 
-* **A)** Realização de fiscalização tributária e lançamento de ofício do crédito tributário estadual.
-* **B)** Concessão de aposentadorias e pensões aos servidores vinculados ao regime próprio de previdência.
-* **C)** Gestão de compras e contratação de serviços de vigilância e limpeza para as dependências do prédio sede.
-* **D)** Julgamento de autos de infração fiscal pelo Tribunal Administrativo Tributário.
-* **E)** Auditoria de regularidade das despesas públicas municipais efetuada pelo Tribunal de Contas.
+#### 4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)
+O sucesso de um projeto decorre do equilíbrio dinâmico entre três variáveis interdependentes, balizadas pelo padrão de **Qualidade**:
+$$\text{Escopo} \iff \text{Tempo / Cronograma} \iff \text{Custo / Orçamento}$$
+A alteração em qualquer um desses vértices impacta compulsoriamente os outros dois (ex.: antecipar o prazo de conclusão exige aumento de custos com horas extras ou redução do escopo entregue).
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A fiscalização e o lançamento de tributos constituem a atividade-fim essencial da Secretaria da Fazenda, qualificando-se como processo finalístico (primário).
-> - **B)** Incorreta. No âmbito de um instituto de previdência pública, conceder benefícios é sua atividade-fim direta (processo primário).
-> - **C)** Correta. Processos de suporte (secundários ou de apoio) são aqueles que viabilizam o funcionamento interno da instituição e dos processos finalísticos, fornecendo recursos, logística e infraestrutura para clientes internos. A contratação de vigilância, limpeza predial, almoxarifado e suporte técnico de TI são exemplos clássicos de processos de suporte.
-> - **D)** Incorreta. O julgamento contencioso tributário é atividade finalística essencial de arrecadação e justiça fiscal.
-> - **E)** Incorreta. A fiscalização e auditoria das contas públicas jurisdicionadas é o processo finalístico precípuo do Tribunal de Contas.
-> 
-> **Gabarito: C**
+---
+
+## 🌐 Fontes Oficiais & Referências Bibliográficas
+
+* [Decreto Federal nº 9.094/2017 (Simplificação do Atendimento e Carta de Serviços)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9094.htm) - Regulamenta a simplificação de serviços, dispensa de reconhecimento de firma e Carta de Serviços ao Cidadão.
+* [Lei nº 13.460/2017 (Código de Defesa dos Usuários de Serviços Públicos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm) - Disciplina a participação, proteção e defesa dos direitos dos usuários de serviços da administração pública.
+* [Lei nº 14.129/2021 (Lei do Governo Digital e Modernização de Processos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm) - Estabelece princípios e instrumentos digitais para desburocratização e automação de serviços públicos.
+* [OMG - Business Process Model and Notation (BPMN 2.0.2)](https://www.omg.org/spec/BPMN/2.0.2/About-BPMN) - Especificação padrão global para modelagem de processos de negócio.
+* [Scrum Guide 2020 Oficial (Português-BR)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Guia definitivo das regras e práticas ágeis para gestão colaborativa de projetos.
+* PALADINI, Edson Pacheco. **Gestão da Qualidade: Teoria e Casos**. 3. ed. São Paulo: Atlas, 2019. (Cap. 3 - Ferramentas da Qualidade; Cap. 5 - Ciclo PDCA e Melhoria Contínua).
+* BALDAM, Roquemar et al. **Gerenciamento de Processos de Negócio - BPM: Uma Abordagem Prática**. São Paulo: Érica, 2014. (Cap. 2 a 4 - Notação BPMN e Mapeamento de Processos).
+* KERZNER, Harold. **Gestão de Projetos: As Melhores Práticas**. 3. ed. Porto Alegre: Bookman, 2011. (Cap. 1 - Visão Geral do Gerenciamento de Projetos).

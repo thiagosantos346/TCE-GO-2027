@@ -33,7 +33,6 @@
 - [3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)](#3-a-visao-baseada-em-recursos-rbv-e-o-framework-vrio-jay-barney)
 - [4. O Business Model Canvas (Alexander Osterwalder)](#4-o-business-model-canvas-alexander-osterwalder)
 - [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -74,6 +73,30 @@ flowchart TD
 
 ---
 
+### Questão 01
+**(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
+Determinada entidade governamental realizou o diagnóstico de seu ambiente por meio da matriz SWOT cruzada. A equipe constatou a existência concomitante de graves fragilidades operacionais internas (sistemas obsoletos e déficit crônico de servidores) associadas a um ambiente externo marcado por severas restrições orçamentárias impostas por lei e risco iminente de descontinuidade de convênios. Diante desse cenário de predomínio de fraquezas internas e ameaças externas, a postura estratégica recomendada pela teoria da administração é a:
+
+* **A)** Postura de Alavancagem ou Ofensiva.
+* **B)** Postura de Sobrevivência.
+* **C)** Postura de Expansão Acelerada de Mercados.
+* **D)** Postura de Liderança em Diferenciação de Marca.
+* **E)** Postura de Reforço Baseada em Vantagem Sustentável.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A postura ofensiva/alavancagem ocorre no quadrante Forças + Oportunidades.  
+> - **B) CORRETA.** No cruzamento da matriz SWOT, quando uma instituição acumula **Fraquezas internas** diante de **Ameaças externas graves** (quadrante WT), a estratégia mandatória é a **Postura de Sobrevivência**, caracterizada pela contenção drástica de despesas, eliminação de desperdícios, redução de escopo e reestruturação para evitar o colapso operacional da organização.  
+> - **C) Incorreta.** Expansão é postura ofensiva para momentos favoráveis.  
+> - **D) Incorreta.** Diferenciação é estratégia de posicionamento mercadológico de Porter.  
+> - **E) Incorreta.** O momento é de mitigação extrema de riscos, e não de sustentação de vantagem.  
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter
 
 Michael Porter desenvolveu um clássico referencial para explicar como as forças estruturais de uma indústria determinam sua intensidade competitiva e seu nível de atratividade:
@@ -98,6 +121,31 @@ flowchart TD
 4. **Poder de Barganha dos Fornecedores:** Elevado quando os fornecedores operam em mercado concentrado, o insumo fornecido é exclusivo ou crítico e inexistem produtos substitutos no mercado.
 5. **Ameaça de Produtos Substitutos:** Produtos ou serviços oriundos de **outros setores/indústrias** que desempenham a mesma função básica a um custo inferior ou com maior conveniência para o usuário.
 
+---
+
+### Questão 02
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido por Michael Porter, a intensidade com que novas empresas ou organizações ameaçam ingressar em determinado setor de atividade econômica é contida fundamentalmente pela presença de:
+
+* **A)** Barreiras à entrada, tais como economias de escala consolidadas e elevados requisitos de capital inicial.
+* **B)** Alta rivalidade interna e ausência de regulamentação governamental setorial.
+* **C)** Facilidade de acesso aos canais de distribuição tradicionais pelos recém-chegados.
+* **D)** Baixo custo de mudança (*switching costs*) suportado pelos consumidores ao migrarem de fornecedor.
+* **E)** Existência de produtos substitutos com preços significativamente menores no mercado.
+
+> **Comentário Detalhado:**  
+>
+> - **A) CORRETA.** Segundo Michael Porter, a ameaça de novos concorrentes entrantes é diretamente atenuada pela existência de **barreiras à entrada**, que elevam os custos e riscos para quem deseja entrar no setor (ex.: economias de escala dos incumbentes, diferenciação de marcas, altos requisitos de investimento de capital, acesso restrito aos canais de distribuição e regulação pública).  
+> - **B) Incorreta.** Alta rivalidade é outra força competitiva; a ausência de barreiras facilita o ingresso.  
+> - **C) Incorreta.** Se os canais são de fácil acesso, a barreira é baixa, o que estimula a entrada de novos concorrentes.  
+> - **D) Incorreta.** Baixo custo de mudança (*switching costs*) estimula o consumidor a trocar de empresa, fragilizando a barreira.  
+> - **E) Incorreta.** A ameaça de produtos substitutos é a quinta força do modelo de Porter, não se confundindo com as barreiras à entrada de concorrentes no mesmo setor.  
+> 
+> **Gabarito: A**
+
+---
+
+
 #### As Três Estratégias Genéricas de Michael Porter:
 * **Liderança em Custo Total:** A organização estrutura-se para produzir e operar com o menor custo unitário da indústria, valendo-se de economias de escala, rígido controle de despesas e processos padronizados.
 * **Diferenciação:** A organização busca criar produtos ou serviços percebidos no mercado como singulares, únicos e de qualidade superior, conquistando fidelidade à marca e viabilizando a cobrança de um preço superior (*premium price*).
@@ -107,6 +155,30 @@ flowchart TD
 > Cuidado: produtos substitutos na visão de Porter **NÃO SÃO produtos de concorrentes diretos da mesma indústria** (ex.: Pepsi e Coca-Cola são concorrentes diretos no setor de refrigerantes). Produtos substitutos pertencem a **outras indústrias** que atendem à mesma necessidade essencial por meio de solução alternativa (ex.: ônibus interestadual substituindo passagens aéreas em trechos regionais).
 
 ---
+
+### Questão 03
+**(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
+No modelo das Estratégias Genéricas formulado por Michael Porter, a organização que opta por desenvolver serviços ou produtos com atributos peculiares e exclusivos, fortemente reconhecidos pelo público-alvo pela sua excelência técnica, design inovador e credibilidade institucional, cobra preços diferenciados e busca fidelizar seus usuários, adota a estratégia genérica de:
+
+* **A)** Liderança em Custo Total.
+* **B)** Diferenciação.
+* **C)** Desinvestimento Operacional.
+* **D)** Conglomerado Diversificado.
+* **E)** Paridade Tecnológica Compulsória.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Liderança em custos busca operar com o menor custo unitário de produção da indústria com base em economias de escala.  
+> - **B) CORRETA.** A estratégia genérica de **Diferenciação** baseia-se na criação de um produto ou serviço percebido pelo mercado/usuário como exclusivo e singular em suas características, gerando lealdade à marca e permitindo que a organização cobre preços superiores (*preço premium*) ou atinja alto reconhecimento público.  
+> - **C) Incorreta.** Desinvestimento é manobra de redução de ativos, e não estratégia competitiva genérica.  
+> - **D) Incorreta.** Conglomerado é forma societária de diversificação corporativa.  
+> - **E) Incorreta.** Categoria inexistente na taxonomia de Porter.  
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)
 
@@ -150,6 +222,33 @@ flowchart TD
 
 ---
 
+### Questão 04
+**(FCC – TCE-RS – Auditor de Controle Externo)**  
+Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado por Jay Barney, um recurso organizacional que seja considerado valioso pela organização e raro no seu mercado de atuação, porém passível de imitação a baixo custo pelos demais concorrentes, proporciona à entidade:
+
+* **A)** Desvantagem competitiva prolongada.
+* **B)** Vantagem competitiva temporária.
+* **C)** Vantagem competitiva sustentável.
+* **D)** Paridade competitiva definitiva.
+* **E)** Ineficiência operacional estrutural.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Como o recurso é valioso e raro, a empresa obtém diferencial positivo, e não desvantagem.  
+> - **B) CORRETA.** No framework VRIO:  
+>     - Recurso Valioso, mas não Raro $\rightarrow$ Paridade Competitiva;  
+>     - Recurso Valioso e Raro, mas **Imitável (fácil de copiar)** $\rightarrow$ **Vantagem Competitiva Temporária**, visto que logo os rivais conseguirão reproduzi-lo, extinguindo o diferencial inicial.  
+>     - Apenas se for Inimitável e sustentado pela Organização é que se alcança a **Vantagem Competitiva Sustentável**.  
+> - **C) Incorreta.** A sustentabilidade requer obrigatoriamente que o recurso seja inimitável.  
+> - **D) Incorreta.** Paridade ocorre quando o recurso não é raro.  
+> - **E) Incorreta.** Não guarda pertinência com ineficiência estrutural.  
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 4. O Business Model Canvas (Alexander Osterwalder)
 
 Desenvolvido por Alexander Osterwalder e Yves Pigneur, o **Business Model Canvas** é uma ferramenta de gestão estratégica visual que sintetiza a arquitetura de negócios de uma instituição em um único painel composto por **nove blocos interdependentes**:
@@ -185,111 +284,6 @@ flowchart TD
 
 ---
 
-### 5. Fontes Oficiais e Referências Bibliográficas
-
-* [Decreto nº 9.203/2017 (Gestão Estratégica e Avaliação de Riscos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Diagnóstico de riscos ambientais e definição de respostas estratégicas no setor público.
-* [TCU - Guia de Gestão de Riscos e Diagnóstico Organizacional](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Metodologia do TCU para análise de ameaças, oportunidades e capacidade interna.
-* [TCE-GO - Governança Institucional e Diagnóstico Estratégico](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Práticas de diagnóstico institucional e priorização de áreas críticas de fiscalização.
-* [Governo Digital - Modelos de Negócio e Serviços Públicos Digitais](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/estrategianacional) - Uso do Business Model Canvas e ideação ágil para transformação digital.
-* [Constituição Federal de 1988 - Art. 165 (Planejamento Governamental e Orçamento)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art165) - Alinhamento do diagnóstico estratégico ao PPA e metas fiscais da LDO.
-* PORTER, Michael E. **Estratégia Competitiva: Técnicas para Análise de Indústrias e da Concorrência**. 2. ed. Rio de Janeiro: Elsevier/Campus, 2004. (Cap. 1 - As Cinco Forças Competitivas).
-* BARNEY, Jay B.; HESTERLY, William S. **Administração Estratégica e Vantagem Competitiva: Conceitos e Casos**. 3. ed. São Paulo: Pearson Prentice Hall, 2011. (Cap. 3 - A Visão Baseada em Recursos - RBV e Modelo VRIO).
-* OSTERWALDER, Alexander; PIGNEUR, Yves. **Business Model Generation: Inovação em Modelos de Negócios**. Rio de Janeiro: Alta Books, 2011. (Cap. 1 - O Quadro do Modelo de Negócios - Canvas).
-
-
-### 6. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido por Michael Porter, a intensidade com que novas empresas ou organizações ameaçam ingressar em determinado setor de atividade econômica é contida fundamentalmente pela presença de:
-
-* **A)** Barreiras à entrada, tais como economias de escala consolidadas e elevados requisitos de capital inicial.
-* **B)** Alta rivalidade interna e ausência de regulamentação governamental setorial.
-* **C)** Facilidade de acesso aos canais de distribuição tradicionais pelos recém-chegados.
-* **D)** Baixo custo de mudança (*switching costs*) suportado pelos consumidores ao migrarem de fornecedor.
-* **E)** Existência de produtos substitutos com preços significativamente menores no mercado.
-
-> **Comentário Detalhado:**  
->
-> - **A) CORRETA.** Segundo Michael Porter, a ameaça de novos concorrentes entrantes é diretamente atenuada pela existência de **barreiras à entrada**, que elevam os custos e riscos para quem deseja entrar no setor (ex.: economias de escala dos incumbentes, diferenciação de marcas, altos requisitos de investimento de capital, acesso restrito aos canais de distribuição e regulação pública).  
-> - **B) Incorreta.** Alta rivalidade é outra força competitiva; a ausência de barreiras facilita o ingresso.  
-> - **C) Incorreta.** Se os canais são de fácil acesso, a barreira é baixa, o que estimula a entrada de novos concorrentes.  
-> - **D) Incorreta.** Baixo custo de mudança (*switching costs*) estimula o consumidor a trocar de empresa, fragilizando a barreira.  
-> - **E) Incorreta.** A ameaça de produtos substitutos é a quinta força do modelo de Porter, não se confundindo com as barreiras à entrada de concorrentes no mesmo setor.  
-> 
-> **Gabarito: A**
-
----
-
-### Questão 02
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
-Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado por Jay Barney, um recurso organizacional que seja considerado valioso pela organização e raro no seu mercado de atuação, porém passível de imitação a baixo custo pelos demais concorrentes, proporciona à entidade:
-
-* **A)** Desvantagem competitiva prolongada.
-* **B)** Vantagem competitiva temporária.
-* **C)** Vantagem competitiva sustentável.
-* **D)** Paridade competitiva definitiva.
-* **E)** Ineficiência operacional estrutural.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Como o recurso é valioso e raro, a empresa obtém diferencial positivo, e não desvantagem.  
-> - **B) CORRETA.** No framework VRIO:  
->     - Recurso Valioso, mas não Raro $\rightarrow$ Paridade Competitiva;  
->     - Recurso Valioso e Raro, mas **Imitável (fácil de copiar)** $\rightarrow$ **Vantagem Competitiva Temporária**, visto que logo os rivais conseguirão reproduzi-lo, extinguindo o diferencial inicial.  
->     - Apenas se for Inimitável e sustentado pela Organização é que se alcança a **Vantagem Competitiva Sustentável**.  
-> - **C) Incorreta.** A sustentabilidade requer obrigatoriamente que o recurso seja inimitável.  
-> - **D) Incorreta.** Paridade ocorre quando o recurso não é raro.  
-> - **E) Incorreta.** Não guarda pertinência com ineficiência estrutural.  
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
-Determinada entidade governamental realizou o diagnóstico de seu ambiente por meio da matriz SWOT cruzada. A equipe constatou a existência concomitante de graves fragilidades operacionais internas (sistemas obsoletos e déficit crônico de servidores) associadas a um ambiente externo marcado por severas restrições orçamentárias impostas por lei e risco iminente de descontinuidade de convênios. Diante desse cenário de predomínio de fraquezas internas e ameaças externas, a postura estratégica recomendada pela teoria da administração é a:
-
-* **A)** Postura de Alavancagem ou Ofensiva.
-* **B)** Postura de Sobrevivência.
-* **C)** Postura de Expansão Acelerada de Mercados.
-* **D)** Postura de Liderança em Diferenciação de Marca.
-* **E)** Postura de Reforço Baseada em Vantagem Sustentável.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A postura ofensiva/alavancagem ocorre no quadrante Forças + Oportunidades.  
-> - **B) CORRETA.** No cruzamento da matriz SWOT, quando uma instituição acumula **Fraquezas internas** diante de **Ameaças externas graves** (quadrante WT), a estratégia mandatória é a **Postura de Sobrevivência**, caracterizada pela contenção drástica de despesas, eliminação de desperdícios, redução de escopo e reestruturação para evitar o colapso operacional da organização.  
-> - **C) Incorreta.** Expansão é postura ofensiva para momentos favoráveis.  
-> - **D) Incorreta.** Diferenciação é estratégia de posicionamento mercadológico de Porter.  
-> - **E) Incorreta.** O momento é de mitigação extrema de riscos, e não de sustentação de vantagem.  
-> 
-> **Gabarito: B**
-
----
-
-### Questão 04
-**(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
-No modelo das Estratégias Genéricas formulado por Michael Porter, a organização que opta por desenvolver serviços ou produtos com atributos peculiares e exclusivos, fortemente reconhecidos pelo público-alvo pela sua excelência técnica, design inovador e credibilidade institucional, cobra preços diferenciados e busca fidelizar seus usuários, adota a estratégia genérica de:
-
-* **A)** Liderança em Custo Total.
-* **B)** Diferenciação.
-* **C)** Desinvestimento Operacional.
-* **D)** Conglomerado Diversificado.
-* **E)** Paridade Tecnológica Compulsória.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Liderança em custos busca operar com o menor custo unitário de produção da indústria com base em economias de escala.  
-> - **B) CORRETA.** A estratégia genérica de **Diferenciação** baseia-se na criação de um produto ou serviço percebido pelo mercado/usuário como exclusivo e singular em suas características, gerando lealdade à marca e permitindo que a organização cobre preços superiores (*preço premium*) ou atinja alto reconhecimento público.  
-> - **C) Incorreta.** Desinvestimento é manobra de redução de ativos, e não estratégia competitiva genérica.  
-> - **D) Incorreta.** Conglomerado é forma societária de diversificação corporativa.  
-> - **E) Incorreta.** Categoria inexistente na taxonomia de Porter.  
-> 
-> **Gabarito: B**
-
----
-
 ### Questão 05
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterwalder, assinale a opção correta:
@@ -309,3 +303,18 @@ A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterw
 > - **E) Incorreta.** Parcerias Principais mapeia a rede de fornecedores, aliados e parceiros estratégicos que viabilizam o funcionamento da instituição.  
 > 
 > **Gabarito: C**
+
+---
+
+
+
+### 5. Fontes Oficiais e Referências Bibliográficas
+
+* [Decreto nº 9.203/2017 (Gestão Estratégica e Avaliação de Riscos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Diagnóstico de riscos ambientais e definição de respostas estratégicas no setor público.
+* [TCU - Guia de Gestão de Riscos e Diagnóstico Organizacional](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Metodologia do TCU para análise de ameaças, oportunidades e capacidade interna.
+* [TCE-GO - Governança Institucional e Diagnóstico Estratégico](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Práticas de diagnóstico institucional e priorização de áreas críticas de fiscalização.
+* [Governo Digital - Modelos de Negócio e Serviços Públicos Digitais](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/estrategianacional) - Uso do Business Model Canvas e ideação ágil para transformação digital.
+* [Constituição Federal de 1988 - Art. 165 (Planejamento Governamental e Orçamento)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art165) - Alinhamento do diagnóstico estratégico ao PPA e metas fiscais da LDO.
+* PORTER, Michael E. **Estratégia Competitiva: Técnicas para Análise de Indústrias e da Concorrência**. 2. ed. Rio de Janeiro: Elsevier/Campus, 2004. (Cap. 1 - As Cinco Forças Competitivas).
+* BARNEY, Jay B.; HESTERLY, William S. **Administração Estratégica e Vantagem Competitiva: Conceitos e Casos**. 3. ed. São Paulo: Pearson Prentice Hall, 2011. (Cap. 3 - A Visão Baseada em Recursos - RBV e Modelo VRIO).
+* OSTERWALDER, Alexander; PIGNEUR, Yves. **Business Model Generation: Inovação em Modelos de Negócios**. Rio de Janeiro: Alta Books, 2011. (Cap. 1 - O Quadro do Modelo de Negócios - Canvas).

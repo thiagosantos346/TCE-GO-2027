@@ -28,7 +28,6 @@
     - [3.2 Mineração de Processos (Process Mining): Logs, Descoberta e Conformidade](#32-mineracao-de-processos-process-mining-logs-descoberta-e-conformidade)
     - [3.3 Casos de Aplicação no Controle Externo (TCE-GO)](#33-casos-de-aplicacao-no-controle-externo-tce-go)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [4. Questões Comentadas (FCC)](#4-questoes-comentadas-fcc)
 
 ---
 
@@ -99,6 +98,36 @@ Usuário: "A empresa contratada estava regular perante a Receita na data da assi
 > 2. **Ação (*Action*):** Chamada padronizada a uma ferramenta externa (ex.: API, banco vetorial, consulta SQL);
 > 3. **Observação (*Observation*):** Leitura do resultado emitido pela ferramenta e assimilação no contexto para o próximo ciclo de raciocínio.
 
+---
+
+### Questão 01
+**(FCC - SEFAZ-PE - Auditoria Fiscal - Engenharia de Prompts e Padrão ReAct)**
+Para investigar denúncias de fraudes fiscais complexas envolvendo emissão de notas fiscais frias, a fiscalização planeja construir um agente autônomo baseado em LLM capaz de deliberar criticamente e interagir com sistemas fazendários corporativos. A diretoria de inovação optou por estruturar o agente sob a abordagem ReAct (*Reasoning + Acting*).
+A respeito do padrão ReAct e das técnicas avançadas de engenharia de prompts, assinale a afirmativa correta:
+
+* **A)** O padrão ReAct consiste na execução cega de comandos SQL diretos sem permitir que o modelo de linguagem formule qualquer etapa verbal de raciocínio intermediário antes ou depois de chamar a ferramenta externa.
+* **B)** A técnica de *Few-Shot Prompting* baseia-se na ausência deliberada de exemplos no prompt, obrigando a LLM a adivinhar as preferências do usuário sem pistas contextuais.
+* **C)** O padrão ReAct estrutura o fluxo decisório do agente através de uma intercalação contínua entre passos de raciocínio explícito em linguagem natural (*Thought*), execução de ações direcionadas em ferramentas externas (*Action*) e assimilação dos resultados retornados pelo ambiente (*Observation*).
+* **D)** A técnica de *Chain-of-Thought* (CoT) reduz a precisão de tarefas que demandam cálculos e raciocínio lógico formal ao proibir terminantemente o desdobramento do raciocínio em múltiplos passos intermediários.
+* **E)** A estratégia de *Self-Consistency* restringe a amostragem a uma única resposta gerada com temperatura rigidamente nula, descartando votações por consenso majoritário.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A marca registrada do ReAct é a explicitação reflexiva verbalizada pelo modelo antes e depois de interagir com o ambiente externo.
+> - **B)** Incorreta. Quem não possui exemplos é o **Zero-Shot**. O **Few-Shot Prompting** caracteriza-se formalmente pela inclusão de demonstrações exemplares de pares entrada/saída no texto do prompt.
+> - **C)** **Correta.** O padrão **ReAct (Yao et al., 2022)** opera no ciclo sinérgico contínuo entre:
+>     1. **Thought** (reflexão em linguagem natural sobre o plano e o estado atual)
+>     2. **Action** (chamada formal de ferramentas, APIs ou funções externas)
+>     3. **Observation** (leitura do retorno da ferramenta para calibrar o próximo passo de raciocínio).
+>
+> - **D)** Incorreta. O *Chain-of-Thought* (CoT) comprovadamente **eleva** a precisão ao forçar o modelo a expor a cadeia de deduções intermediárias passo a passo.
+> - **E)** Incorreta. O método de *Self-Consistency* gera **múltiplas** saídas diversas com temperatura $T > 0$ e seleciona o resultado mais confiável por voto majoritário ou consenso.
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 1.3 Riscos de Segurança: Injeção de Prompts (Direta e Indireta) e Guardrails
 
 Sistemas baseados em LLMs estão expostos a vulnerabilidades de injeção de contexto:
@@ -159,6 +188,32 @@ A aplicação pura de LLMs na administração pública apresenta gargalos críti
 
 7. **Geração Contextualizada:** O prompt aumentado com os fatos recuperados é enviado à LLM, instruindo-a a redigir a resposta definitiva exclusivamente com base nas evidências apresentadas.
 
+---
+
+### Questão 02
+**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
+Em um projeto para implementar um assistente virtual baseado em Inteligência Artificial para assessoramento jurídico de auditores, a equipe de TI selecionou a arquitetura RAG (*Retrieval-Augmented Generation*). Durante a modelagem do pipeline de ingestão e particionamento dos documentos legais, foi aberto um debate técnico sobre o tamanho dos blocos de texto (*chunks*) e o parâmetro de sobreposição (*overlap*).
+A respeito da fragmentação documental (*chunking*) e do funcionamento do RAG, assinale a afirmativa correta:
+
+* **A)** O uso de sobreposição (*overlap*) entre blocos adjacentes é expressamente condenado em pipelines RAG modernos, pois gera redundância matemática que corrompe o cálculo da similaridade de cosseno nos bancos vetoriais.
+* **B)** O *chunking* estratégico com sobreposição (*overlap*) de cerca de 10% a 20% visa assegurar a integridade do significado semântico, impedindo que cláusulas normativas ou argumentos jurídicos contínuos sejam arbitrariamente truncados na fronteira física entre dois blocos vizinhos.
+* **C)** A principal finalidade do RAG consiste em realizar o fine-tuning diário de todos os pesos e sinapses internas da LLM com a base corporativa para evitar o consumo de memória RAM durante as consultas.
+* **D)** O banco de dados vetorial utilizado no RAG substitui integralmente a LLM gerativa, dispensando a necessidade de envio de prompts de texto na fase de síntese.
+* **E)** A ancoragem factual (*grounding*) no RAG ocorre pela memorização estática dos parâmetros da rede neural durante a etapa de pré-treinamento, sem relação com os trechos textuais anexados em tempo de consulta.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A sobreposição (*overlap*) é uma boa prática consagrada em RAG; ela não corrompe a similaridade de cosseno, garantindo a continuidade do contexto informacional.
+> - **B)** **Correta.** A fragmentação de textos longos por contagem cega de tokens arrisca quebrar artigos ou cláusulas no meio de uma oração. A margem de **sobreposição (overlap)** entre 10% e 20% garante que o contexto nas bordas dos blocos não seja perdido, permitindo que o modelo de embedding capture a integridade semântica dos trechos.
+> - **C)** Incorreta. O RAG é projetado exatamente para **evitar o fine-tuning constante** dos pesos do modelo, injetando conhecimento factual dinamicamente no contexto da consulta (*in-context learning*).
+> - **D)** Incorreta. O banco vetorial atua apenas na fase de **recuperação (*retrieval*)**. A redação da resposta e o raciocínio dependem da LLM na fase de **geração (*generation*)**.
+> - **E)** Incorreta. A ancoragem factual decorre da injeção explícita dos fragmentos documentais recuperados dentro do prompt de consulta em tempo de execução.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 2.3 Padrões Avançados: Busca Híbrida (Dense + BM25 via RRF) e GraphRAG
 
 * **Busca Híbrida (*Hybrid Search*):**
@@ -172,6 +227,31 @@ A aplicação pura de LLMs na administração pública apresenta gargalos críti
     - Permite responder a indagações analíticas transversais complexas de auditoria que demandam síntese de relacionamentos em teia em múltiplos documentos (ex.: *"Qual o padrão de terceirizações e contratações cruzadas no município Y nos últimos 5 anos?"*).
 
 ---
+
+### Questão 03
+**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
+Em sistemas de Recuperação Aumentada por Geração (RAG) voltados à busca em acervos de legislação e jurisprudência, a utilização exclusiva de busca semântica baseada em vetores densos (*embeddings*) pode apresentar deficiências quando a consulta do operador envolve números de leis específicos (ex.: "Lei nº 14.133/2021"), códigos de processos ou siglas exatas.
+Para superar essa limitação e elevar a precisão do pipeline de recuperação, a melhor prática arquitetural recomendada é:
+
+* **A)** Desativar todos os bancos de dados vetoriais e adotar exclusivamente scripts de busca aleatória uniforme sobre os arquivos em texto simples.
+* **B)** Implementar a Busca Híbrida (*Hybrid Search*), que combina a busca semântica densa (baseada em embeddings) com a busca léxica esparsa baseada em termos (como o algoritmo BM25), integrando os resultados por meio de algoritmos de fusão de rankings como o *Reciprocal Rank Fusion* (RRF), seguido de um reclassificador *Cross-Encoder* (*Reranker*).
+* **C)** Aumentar a temperatura do modelo de linguagem para o valor máximo permitido, forçando o decodificador a inventar os números das leis que não forem encontrados no banco de dados.
+* **D)** Aplicar a função de perda MSE sobre o prompt do usuário para eliminar todas as palavras compostas por dígitos numéricos.
+* **E)** Substituir os modelos de linguagem por árvores de decisão simples com profundidade máxima unitária (*decision stumps*).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A busca aleatória destrói qualquer critério de relevância na recuperação de dados.
+> - **B)** **Correta.** A **Busca Híbrida (*Hybrid Search*)** une o melhor dos dois mundos: os vetores densos capturam conceitos e semântica abstrata, enquanto o **BM25** recupera com precisão cirúrgica números literais exatos de leis, artigos e códigos de processos. A fusão das listas via **RRF (*Reciprocal Rank Fusion*)** e o refinamento pelo **Reranker Cross-Encoder** constituem o estado da arte em precisão documental.
+> - **C)** Incorreta. Elevar a temperatura induz alucinações severas, fabricando números inverídicos de leis.
+> - **D)** Incorreta. MSE é função de perda de regressão numérica, sem relação com pré-processamento de prompts.
+> - **E)** Incorreta. Árvores simples unitárias não processam linguagem natural nem geram sínteses textuais.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ## 3. Automação Inteligente de Processos (IPA) e Mineração de Processos
 
@@ -201,6 +281,31 @@ A modernização dos tribunais de contas evolui da automação mecanicista de te
 | **Mecanismo de Decisão** | Lógica determinística linear baseada em regras condicionais estritas e imutáveis. | Decisão probabilística e analítica alicerçada em **Machine Learning, PLN e LLMs**. |
 | **Resiliência a Mudanças** | Baixíssima; qualquer alteração de posição de um botão na tela paralisa o robô. | Alta; compreende semanticamente o conteúdo da tela ou do formulário, adaptando-se a mudanças de leiaute. |
 | **Papel Operacional** | "Mãos da organização": executa tarefas rotineiras e repetitivas de digitação e transferência. | "Cérebro e mãos": analisa documentos, extrai insights, infere riscos e apoia a tomada de decisão de auditores. |
+
+---
+
+### Questão 04
+**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
+A respeito das características operacionais que distinguem a Automação Robótica de Processos tradicional (RPA) da Automação Inteligente de Processos (IPA - *Intelligent Process Automation*) no âmbito das atividades de fiscalização da administração pública, assinale a afirmativa correta:
+
+* **A)** O RPA tradicional é especialmente talhado para lidar com a ambiguidade intrínseca de relatórios contábeis manuscritos e depoimentos em áudio, dispensando regras algorítmicas pré-definidas.
+* **B)** O RPA tradicional atua sobre dados altamente estruturados e regras determinísticas inequívocas em telas e formulários, enquanto a Automação Inteligente (IPA) incorpora componentes cognitivos como Processamento de Linguagem Natural, visão computacional e modelos preditivos, habilitando o processamento de fluxos que envolvem dados não estruturados e tomada de decisão sob incerteza.
+* **C)** A Automação Inteligente de Processos restringe-se à emulação de hardware com microcontroladores em placas de circuito integrado, não tendo relação com softwares de auditoria.
+* **D)** Modelos de IA generativa não podem ser acoplados a rotinas de automação por incompatibilidade de sistemas operacionais.
+* **E)** A adoção de IPA torna desnecessária a utilização de qualquer mecanismo de segurança da informação ou controle de acesso aos bancos de dados de auditoria fiscal.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O RPA tradicional depende estritamente de dados estruturados e regras fixas determinísticas, sendo incapaz de interpretar áudio ou caligrafia manuscrita sem módulos de IA.
+> - **B)** **Correta.** O **RPA tradicional** lida com a emulação de tarefas mecânicas repetitivas sobre dados estruturados via regras fixas (*if-then*). A **Automação Inteligente (IPA / Hiperautomação)** integra componentes cognitivos de IA (PLN, OCR inteligente, Visão Computacional, LLMs e Machine Learning), viabilizando o processamento de dados não estruturados (PDFs, fotos de obras, contratos) e decisões sob incerteza.
+> - **C)** Incorreta. IPA refere-se a camadas de software corporativo e microsserviços analíticos, não a microcontroladores físicos.
+> - **D)** Incorreta. LLMs e robôs de RPA integram-se fluidamente através de APIs web e SDKs de mercado (UiPath, LangChain, etc.).
+> - **E)** Incorreta. O tratamento de dados sensíveis e relatórios fiscais por ferramentas de IPA reforça ainda mais a exigência de estrito controle de acesso e segurança da informação.
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 3.2 Mineração de Processos (Process Mining): Logs, Descoberta e Conformidade
 
@@ -238,79 +343,9 @@ A Mineração de Processos (*Process Mining*), formulada academicamente pelo Pro
     - **Verificação de Conformidade (*Conformance Checking*):** Confronta o modelo normativo prescritivo formal (como o rito da Lei de Licitações) com os eventos reais do log, **identificando violações legais, etapas suprimidas indevidamente ou aprovações emitidas fora da ordem cronológica exigida**.
     - **Aprimoramento (*Enhancement*):** Utiliza as métricas temporais e de alocação de recursos gravadas no log para mapear gargalos (*bottlenecks*), setores com acúmulo de processos e oportunidades de redistribuição de carga de trabalho entre auditores.
 
-### 3.3 Casos de Aplicação no Controle Externo (TCE-GO)
-
-- **Auditoria Contínua de Licitações:** Robôs cognitivos com IPA cruzam em tempo real os dados dos editais lançados pelos municípios com bases da Receita Federal, Junta Comercial e Portal da Transparência, identificando vínculos de parentesco proibidos entre concorrentes e pregoeiros.
-- **Detecção de Sobrepreço e Cartéis:** Modelos analíticos alimentados por mineração de processos e RAG comparam preços unitários de itens com notas fiscais eletrônicas recentes e tabelas de referência oficial (SINAPI/SICRO), emitindo alertas automatizados antes da homologação dos contratos.
-- **Triagem Inteligente de Processos na Ouvidoria:** Modelos de PLN classificam denúncias cidadãs com base no teor semântico, priorizando matérias de urgência e direcionando-as automaticamente às gerências técnicas competentes.
-
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [ArXiv - Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al.)](https://arxiv.org/abs/2005.11401) - Artigo seminal da técnica RAG combinando recuperação vetorial e geração de respostas contextualizadas.
-* [ArXiv - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al.)](https://arxiv.org/abs/2201.11903) - Formulação do raciocínio encadeado passo a passo para problemas complexos de dedução.
-* [Anthropic Claude - Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Engenharia de prompts estruturada, delimitação com tags XML e automação de fluxos.
-* [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework) - Controle de alucinações e governança de dados recuperados em pipelines de RAG.
-* MANNING, Christopher D.; RAGHAVAN, Prabhakar; SCHÜTZE, Hinrich. **Introdução à Recuperação de Informação**. Cambridge: Cambridge University Press, 2008. (Cap. 6 - Modelos de Espaço Vetorial e Similaridade).
-* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 4 - RAG Systems and Vector Indexing).
-* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 22 - Representação do Conhecimento e Raciocínio Lógico).
-
----
-
-## 4. Questões Comentadas (FCC)
-
-### Questão 01
-**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
-Em um projeto para implementar um assistente virtual baseado em Inteligência Artificial para assessoramento jurídico de auditores, a equipe de TI selecionou a arquitetura RAG (*Retrieval-Augmented Generation*). Durante a modelagem do pipeline de ingestão e particionamento dos documentos legais, foi aberto um debate técnico sobre o tamanho dos blocos de texto (*chunks*) e o parâmetro de sobreposição (*overlap*).
-A respeito da fragmentação documental (*chunking*) e do funcionamento do RAG, assinale a afirmativa correta:
-
-* **A)** O uso de sobreposição (*overlap*) entre blocos adjacentes é expressamente condenado em pipelines RAG modernos, pois gera redundância matemática que corrompe o cálculo da similaridade de cosseno nos bancos vetoriais.
-* **B)** O *chunking* estratégico com sobreposição (*overlap*) de cerca de 10% a 20% visa assegurar a integridade do significado semântico, impedindo que cláusulas normativas ou argumentos jurídicos contínuos sejam arbitrariamente truncados na fronteira física entre dois blocos vizinhos.
-* **C)** A principal finalidade do RAG consiste em realizar o fine-tuning diário de todos os pesos e sinapses internas da LLM com a base corporativa para evitar o consumo de memória RAM durante as consultas.
-* **D)** O banco de dados vetorial utilizado no RAG substitui integralmente a LLM gerativa, dispensando a necessidade de envio de prompts de texto na fase de síntese.
-* **E)** A ancoragem factual (*grounding*) no RAG ocorre pela memorização estática dos parâmetros da rede neural durante a etapa de pré-treinamento, sem relação com os trechos textuais anexados em tempo de consulta.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A sobreposição (*overlap*) é uma boa prática consagrada em RAG; ela não corrompe a similaridade de cosseno, garantindo a continuidade do contexto informacional.
-> - **B)** **Correta.** A fragmentação de textos longos por contagem cega de tokens arrisca quebrar artigos ou cláusulas no meio de uma oração. A margem de **sobreposição (overlap)** entre 10% e 20% garante que o contexto nas bordas dos blocos não seja perdido, permitindo que o modelo de embedding capture a integridade semântica dos trechos.
-> - **C)** Incorreta. O RAG é projetado exatamente para **evitar o fine-tuning constante** dos pesos do modelo, injetando conhecimento factual dinamicamente no contexto da consulta (*in-context learning*).
-> - **D)** Incorreta. O banco vetorial atua apenas na fase de **recuperação (*retrieval*)**. A redação da resposta e o raciocínio dependem da LLM na fase de **geração (*generation*)**.
-> - **E)** Incorreta. A ancoragem factual decorre da injeção explícita dos fragmentos documentais recuperados dentro do prompt de consulta em tempo de execução.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC - SEFAZ-PE - Auditoria Fiscal - Engenharia de Prompts e Padrão ReAct)**
-Para investigar denúncias de fraudes fiscais complexas envolvendo emissão de notas fiscais frias, a fiscalização planeja construir um agente autônomo baseado em LLM capaz de deliberar criticamente e interagir com sistemas fazendários corporativos. A diretoria de inovação optou por estruturar o agente sob a abordagem ReAct (*Reasoning + Acting*).
-A respeito do padrão ReAct e das técnicas avançadas de engenharia de prompts, assinale a afirmativa correta:
-
-* **A)** O padrão ReAct consiste na execução cega de comandos SQL diretos sem permitir que o modelo de linguagem formule qualquer etapa verbal de raciocínio intermediário antes ou depois de chamar a ferramenta externa.
-* **B)** A técnica de *Few-Shot Prompting* baseia-se na ausência deliberada de exemplos no prompt, obrigando a LLM a adivinhar as preferências do usuário sem pistas contextuais.
-* **C)** O padrão ReAct estrutura o fluxo decisório do agente através de uma intercalação contínua entre passos de raciocínio explícito em linguagem natural (*Thought*), execução de ações direcionadas em ferramentas externas (*Action*) e assimilação dos resultados retornados pelo ambiente (*Observation*).
-* **D)** A técnica de *Chain-of-Thought* (CoT) reduz a precisão de tarefas que demandam cálculos e raciocínio lógico formal ao proibir terminantemente o desdobramento do raciocínio em múltiplos passos intermediários.
-* **E)** A estratégia de *Self-Consistency* restringe a amostragem a uma única resposta gerada com temperatura rigidamente nula, descartando votações por consenso majoritário.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A marca registrada do ReAct é a explicitação reflexiva verbalizada pelo modelo antes e depois de interagir com o ambiente externo.
-> - **B)** Incorreta. Quem não possui exemplos é o **Zero-Shot**. O **Few-Shot Prompting** caracteriza-se formalmente pela inclusão de demonstrações exemplares de pares entrada/saída no texto do prompt.
-> - **C)** **Correta.** O padrão **ReAct (Yao et al., 2022)** opera no ciclo sinérgico contínuo entre:
->     1. **Thought** (reflexão em linguagem natural sobre o plano e o estado atual)
->     2. **Action** (chamada formal de ferramentas, APIs ou funções externas)
->     3. **Observation** (leitura do retorno da ferramenta para calibrar o próximo passo de raciocínio).
->
-> - **D)** Incorreta. O *Chain-of-Thought* (CoT) comprovadamente **eleva** a precisão ao forçar o modelo a expor a cadeia de deduções intermediárias passo a passo.
-> - **E)** Incorreta. O método de *Self-Consistency* gera **múltiplas** saídas diversas com temperatura $T > 0$ e seleciona o resultado mais confiável por voto majoritário ou consenso.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 03
+### Questão 05
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 Um Tribunal de Contas iniciou um projeto de Mineração de Processos (*Process Mining*) para fiscalizar a conformidade e a eficiência das etapas de tramitação das licitações eletrônicas nos municípios sob sua jurisdição.
 A respeito dos conceitos, tipos e requisitos fundamentais da Mineração de Processos, assinale a afirmativa correta:
@@ -337,45 +372,21 @@ A respeito dos conceitos, tipos e requisitos fundamentais da Mineração de Proc
 
 ---
 
-### Questão 04
-**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
-Em sistemas de Recuperação Aumentada por Geração (RAG) voltados à busca em acervos de legislação e jurisprudência, a utilização exclusiva de busca semântica baseada em vetores densos (*embeddings*) pode apresentar deficiências quando a consulta do operador envolve números de leis específicos (ex.: "Lei nº 14.133/2021"), códigos de processos ou siglas exatas.
-Para superar essa limitação e elevar a precisão do pipeline de recuperação, a melhor prática arquitetural recomendada é:
 
-* **A)** Desativar todos os bancos de dados vetoriais e adotar exclusivamente scripts de busca aleatória uniforme sobre os arquivos em texto simples.
-* **B)** Implementar a Busca Híbrida (*Hybrid Search*), que combina a busca semântica densa (baseada em embeddings) com a busca léxica esparsa baseada em termos (como o algoritmo BM25), integrando os resultados por meio de algoritmos de fusão de rankings como o *Reciprocal Rank Fusion* (RRF), seguido de um reclassificador *Cross-Encoder* (*Reranker*).
-* **C)** Aumentar a temperatura do modelo de linguagem para o valor máximo permitido, forçando o decodificador a inventar os números das leis que não forem encontrados no banco de dados.
-* **D)** Aplicar a função de perda MSE sobre o prompt do usuário para eliminar todas as palavras compostas por dígitos numéricos.
-* **E)** Substituir os modelos de linguagem por árvores de decisão simples com profundidade máxima unitária (*decision stumps*).
+### 3.3 Casos de Aplicação no Controle Externo (TCE-GO)
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A busca aleatória destrói qualquer critério de relevância na recuperação de dados.
-> - **B)** **Correta.** A **Busca Híbrida (*Hybrid Search*)** une o melhor dos dois mundos: os vetores densos capturam conceitos e semântica abstrata, enquanto o **BM25** recupera com precisão cirúrgica números literais exatos de leis, artigos e códigos de processos. A fusão das listas via **RRF (*Reciprocal Rank Fusion*)** e o refinamento pelo **Reranker Cross-Encoder** constituem o estado da arte em precisão documental.
-> - **C)** Incorreta. Elevar a temperatura induz alucinações severas, fabricando números inverídicos de leis.
-> - **D)** Incorreta. MSE é função de perda de regressão numérica, sem relação com pré-processamento de prompts.
-> - **E)** Incorreta. Árvores simples unitárias não processam linguagem natural nem geram sínteses textuais.
-> 
-> **Gabarito: B**
+- **Auditoria Contínua de Licitações:** Robôs cognitivos com IPA cruzam em tempo real os dados dos editais lançados pelos municípios com bases da Receita Federal, Junta Comercial e Portal da Transparência, identificando vínculos de parentesco proibidos entre concorrentes e pregoeiros.
+- **Detecção de Sobrepreço e Cartéis:** Modelos analíticos alimentados por mineração de processos e RAG comparam preços unitários de itens com notas fiscais eletrônicas recentes e tabelas de referência oficial (SINAPI/SICRO), emitindo alertas automatizados antes da homologação dos contratos.
+- **Triagem Inteligente de Processos na Ouvidoria:** Modelos de PLN classificam denúncias cidadãs com base no teor semântico, priorizando matérias de urgência e direcionando-as automaticamente às gerências técnicas competentes.
 
 ---
 
-### Questão 05
-**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
-A respeito das características operacionais que distinguem a Automação Robótica de Processos tradicional (RPA) da Automação Inteligente de Processos (IPA - *Intelligent Process Automation*) no âmbito das atividades de fiscalização da administração pública, assinale a afirmativa correta:
+## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* **A)** O RPA tradicional é especialmente talhado para lidar com a ambiguidade intrínseca de relatórios contábeis manuscritos e depoimentos em áudio, dispensando regras algorítmicas pré-definidas.
-* **B)** O RPA tradicional atua sobre dados altamente estruturados e regras determinísticas inequívocas em telas e formulários, enquanto a Automação Inteligente (IPA) incorpora componentes cognitivos como Processamento de Linguagem Natural, visão computacional e modelos preditivos, habilitando o processamento de fluxos que envolvem dados não estruturados e tomada de decisão sob incerteza.
-* **C)** A Automação Inteligente de Processos restringe-se à emulação de hardware com microcontroladores em placas de circuito integrado, não tendo relação com softwares de auditoria.
-* **D)** Modelos de IA generativa não podem ser acoplados a rotinas de automação por incompatibilidade de sistemas operacionais.
-* **E)** A adoção de IPA torna desnecessária a utilização de qualquer mecanismo de segurança da informação ou controle de acesso aos bancos de dados de auditoria fiscal.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O RPA tradicional depende estritamente de dados estruturados e regras fixas determinísticas, sendo incapaz de interpretar áudio ou caligrafia manuscrita sem módulos de IA.
-> - **B)** **Correta.** O **RPA tradicional** lida com a emulação de tarefas mecânicas repetitivas sobre dados estruturados via regras fixas (*if-then*). A **Automação Inteligente (IPA / Hiperautomação)** integra componentes cognitivos de IA (PLN, OCR inteligente, Visão Computacional, LLMs e Machine Learning), viabilizando o processamento de dados não estruturados (PDFs, fotos de obras, contratos) e decisões sob incerteza.
-> - **C)** Incorreta. IPA refere-se a camadas de software corporativo e microsserviços analíticos, não a microcontroladores físicos.
-> - **D)** Incorreta. LLMs e robôs de RPA integram-se fluidamente através de APIs web e SDKs de mercado (UiPath, LangChain, etc.).
-> - **E)** Incorreta. O tratamento de dados sensíveis e relatórios fiscais por ferramentas de IPA reforça ainda mais a exigência de estrito controle de acesso e segurança da informação.
-> 
-> **Gabarito: B**
+* [ArXiv - Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al.)](https://arxiv.org/abs/2005.11401) - Artigo seminal da técnica RAG combinando recuperação vetorial e geração de respostas contextualizadas.
+* [ArXiv - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al.)](https://arxiv.org/abs/2201.11903) - Formulação do raciocínio encadeado passo a passo para problemas complexos de dedução.
+* [Anthropic Claude - Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Engenharia de prompts estruturada, delimitação com tags XML e automação de fluxos.
+* [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework) - Controle de alucinações e governança de dados recuperados em pipelines de RAG.
+* MANNING, Christopher D.; RAGHAVAN, Prabhakar; SCHÜTZE, Hinrich. **Introdução à Recuperação de Informação**. Cambridge: Cambridge University Press, 2008. (Cap. 6 - Modelos de Espaço Vetorial e Similaridade).
+* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 4 - RAG Systems and Vector Indexing).
+* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 22 - Representação do Conhecimento e Raciocínio Lógico).

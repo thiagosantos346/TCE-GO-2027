@@ -49,7 +49,6 @@
 - [4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge](#4-aprendizagem-organizacional-e-as-cinco-disciplinas-de-peter-senge)
 - [5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)](#5-educacao-corporativa-e-escolas-de-governo-ilbtce-go)
 - [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
-- [7. Questões de Concurso FCC Comentadas](#7-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -81,6 +80,30 @@ flowchart TD
 > Treinamento refere-se ao **presente** e ao cargo **atual** (objetivo imediato e operacional). Desenvolvimento refere-se ao **futuro** e à **carreira** como um todo (objetivo mediato, estratégico e de liderança).
 
 ---
+
+### Questão 01
+**(FCC – Técnico de Controle Externo – Área Administrativa – TCE-AP)**  
+No âmbito da administração de recursos humanos, as ações voltadas para Treinamento e as ações voltadas para Desenvolvimento de Pessoas distinguem-se primordialmente em razão de seus horizontes temporais e de seus objetivos funcionais. Assinale a opção que caracteriza com precisão uma ação clássica de **Desenvolvimento de Pessoas**:
+
+* **A)** Realização de oficina prática de 4 horas para ensinar os servidores recém-lotados a emitir certidões no módulo de protocolo recém-implantado.
+* **B)** Aplicação de curso intensivo para operadores de máquinas de reprografia sanarem problemas mecânicos frequentes em seus aparelhos.
+* **C)** Implementação de um programa corporativo de liderança transformadora e governança pública voltado a preparar analistas para assumirem funções de direção e planejamento estratégico nos próximos anos.
+* **D)** Instrução sumária da equipe de atendimento sobre como cadastrar visitantes no balcão da portaria do edifício-sede.
+* **E)** Treinamento emergencial sobre normas de combate a incêndio promovido pela brigada de segurança predial.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Trata-se de ação típica de **Treinamento**: foco no cargo atual, curto prazo e suprimento de carência operacional pontual.  
+> - **B) Incorreta.** Foco exclusivo na execução de tarefas do posto de trabalho atual com finalidade corretiva imediata (treinamento operacional).  
+> - **C) CORRETA.** O **Desenvolvimento de Pessoas** caracteriza-se pelo foco no **longo prazo**, na expansão de competências abrangentes, no crescimento intelectual contínuo e na preparação dos servidores para **cargos futuros**, desafios estratégicos e planos de sucessão institucional, como demonstrado pelo programa de liderança e governança.  
+> - **D) Incorreta.** Instrução técnica e pontual vinculada estritamente às tarefas rotineiras do cargo presente (treinamento operacional).  
+> - **E) Incorreta.** Capacitação específica de curto prazo para segurança física no local de trabalho (treinamento instrucional).  
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick
 
@@ -137,6 +160,30 @@ flowchart TD
 > Além disso, lembre-se: provas de conhecimentos teóricos ao final do curso medem **Aprendizagem (Nível 2)** e NÃO comportamento no trabalho (Nível 3).
 
 ---
+
+### Questão 02
+**(FCC – Analista de Gestão Pública – DPE-RS)**  
+Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licitações e Contratos (Lei nº 14.133/2021) ofertado aos pregoeiros de uma entidade governamental, a área de Gestão de Pessoas realizou uma pesquisa formal 60 dias após o encerramento do curso, acompanhando a redução do índice de despachos devolvidos por vícios formais e observando se as minutas contratuais elaboradas pelos servidores incorporavam os novos entendimentos ensinados. Consoante a metodologia de avaliação de treinamento em quatro níveis desenvolvida por Donald Kirkpatrick, a medição realizada corresponde ao:
+
+* **A)** Nível 1 – Reação.
+* **B)** Nível 2 – Aprendizagem.
+* **C)** Nível 3 – Comportamento no Cargo (Transferência).
+* **D)** Nível 4 – Retorno Financeiro sobre o Investimento (ROI).
+* **E)** Nível 5 – Clima Institucional e Motivação Relacional.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** O Nível 1 (Reação) afere a satisfação dos alunos com o instrutor e as instalações ao término da aula (pesquisa de opinião imediata).  
+> - **B) Incorreta.** O Nível 2 (Aprendizagem) avalia a retenção de conceitos mediante provas aplicadas imediatamente ao final do treinamento.  
+> - **C) CORRETA.** O **Nível 3 (Comportamento no Cargo ou Transferência do Aprendizado)** avalia a extensão em que os participantes aplicaram e transferiram efetivamente os novos saberes para as suas rotinas diárias no posto de trabalho. Ao verificar, após 60 dias de prática real, se as minutas e condutas dos servidores foram alteradas, a organização está medindo a modificação comportamental funcional.  
+> - **D) Incorreta.** O Nível 4 (Resultados) avalia impactos globais institucionais na estratégia corporativa, e o ROI financeiro foi estruturado como 5º nível por Jack Phillips.  
+> - **E) Incorreta.** O modelo original de Kirkpatrick contempla 4 níveis e não prevê clima institucional como nível autônomo de avaliação.  
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 3. Gestão do Conhecimento Organizacional e o Modelo SECI
 
@@ -201,6 +248,30 @@ flowchart TD
 
 ---
 
+### Questão 03
+**(FCC – Auditor de Controle Externo – TCE-GO)**  
+O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práticas desenvolvidas pelos seus auditores sêniores na detecção de fraudes em licitações públicas informatizadas, organizou oficinas temáticas nas quais esses profissionais veteranos estruturaram conceitos, descreveram rotinas investigativas e redigiram detalhados manuais de procedimentos e fluxogramas operacionais para consulta geral. De acordo com o modelo de criação do conhecimento organizacional proposto por Ikujiro Nonaka e Hirotaka Takeuchi (Modelo SECI), o processo de conversão do conhecimento verificado nessa iniciativa classifica-se como:
+
+* **A)** Socialização.
+* **B)** Externalização.
+* **C)** Combinação.
+* **D)** Internalização.
+* **E)** Aprendizagem em circuito simples.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A socialização ocorre na troca direta de experiências de indivíduo para indivíduo (tácito para tácito), sem formalização por escrito.  
+> - **B) CORRETA.** A **Externalização** é exatamente a conversão do conhecimento **Tácito em Explícito**. Ocorre quando os profissionais conseguem expressar suas vivências intuitivas, julgamentos e saberes práticos sob a forma de conceitos compreensíveis, manuais de procedimentos, roteiros escritos, fluxogramas e documentos formais acessíveis a outros membros.  
+> - **C) Incorreta.** A combinação consiste em juntar e cruzar conhecimentos já codificados (explícito para explícito), como compilar duas leis em um documento unificado.  
+> - **D) Incorreta.** A internalização é a conversão de explícito em tácito, quando os indivíduos leem os manuais e os transformam em rotinas mentais por meio da prática (*aprender fazendo*).  
+> - **E) Incorreta.** A aprendizagem em circuito simples é conceito de Argyris e Schön voltado à correção operacional mecânica de desvios, estranho aos modos de conversão da teoria de Nonaka e Takeuchi.  
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge
 
 A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo é incorporado aos processos, valores, estruturas e cultura permanente da organização.
@@ -214,6 +285,31 @@ A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo 
 >
 > - Circuito simples: corrige a rota sem questionar o destino (mantém os valores vigentes);  
 > - Circuito duplo: questiona se o destino e as normas prévias ainda fazem sentido no contexto atual.
+
+---
+
+### Questão 04
+**(FCC – Analista Judiciário – Área Judiciária – TRT-15ª)**  
+Dois teóricos fundamentais do comportamento organizacional, Chris Argyris e Donald Schön, formularam a distinção seminal entre a aprendizagem em circuito simples (*single-loop*) e a aprendizagem em circuito duplo (*double-loop*). Assinale a afirmativa que define corretamente a **aprendizagem em circuito duplo**:
+
+* **A)** Ocorre quando o gestor, diante de um erro processual, limita-se a punir o servidor faltoso e aumentar a vigilância sobre as planilhas existentes sem alterar fluxos.
+* **B)** Consiste na mera repetição mecânica de rotinas operacionais até que a taxa de erro estatístico atinja níveis próximos de zero.
+* **C)** Verifica-se quando os atores organizacionais identificam uma anomalia e modificam as rotinas imediatas sem qualquer reflexão sobre os valores e objetivos fundantes da instituição.
+* **D)** Caracteriza-se pelo processo em que a organização, ao detectar erros e desvios, confronta e questiona criticamente as premissas subjacentes, as normas vigentes e os valores orientadores das políticas institucionais, reformulando seus padrões estruturais.
+* **E)** Representa a aquisição estritamente individual de novos conhecimentos teóricos pelo colaborador sem qualquer possibilidade de compartilhamento coletivo com seus pares.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Punição burocrática e controle disciplinar não constituem aprendizagem em circuito duplo.  
+> - **B) Incorreta.** A repetição mecânica de rotinas é condicionamento instrumental pavloviano, oposto da aprendizagem reflexiva.  
+> - **C) Incorreta.** Modificar rotinas sem questionar valores e políticas subjacentes é a definição exata de **aprendizagem em circuito simples (*single-loop*)**.  
+> - **D) CORRETA.** A **aprendizagem em circuito duplo (*double-loop*)** ocorre precisamente quando a organização não se contenta em aplicar correções superficiais em procedimentos prévios, mas **questiona criticamente as normas, valores, objetivos e premissas fundamentais** que orientavam a conduta anterior, reestruturando a lógica do próprio sistema organizacional.  
+> - **E) Incorreta.** A aprendizagem individual isolada não reflete a dimensão da aprendizagem em circuito duplo descrita por Argyris e Schön.  
+> 
+> **Gabarito: D**
+
+---
+
 
 #### B) As Cinco Disciplinas de Peter Senge (*A Quinta Disciplina*)
 Para Peter Senge, uma **Organização que Aprende** (*Learning Organization*) baseia-se na prática contínua de cinco disciplinas essenciais:
@@ -240,96 +336,7 @@ flowchart TD
 
 ---
 
-### 5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)
-
-No setor público moderno, a visão fragmentada de "cursos isolados" foi substituída pelo modelo de **Educação Corporativa**:
-
-* **Universidade Corporativa / Escolas de Governo:** Unidades educacionais estratégicas vinculadas diretamente aos órgãos públicos com a missão de desenvolver competências institucionais essenciais alinhadas aos objetivos estratégicos de Estado.
-* **Escola Superior de Controle do TCE-GO (Instituto Leopoldo de Bulhões - ILB):** Unidade de formação e capacitação que promove o contínuo aperfeiçoamento dos servidores do Tribunal de Contas do Estado de Goiás e a orientação pedagógica dos gestores municipais e estaduais jurisdicionados, funcionando como vetor de controle preventivo e pedagógico.
-
----
-
-### 6. Fontes Oficiais e Referências Bibliográficas
-
-* [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas - PNDP)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Diretrizes, instrumentos e regras para ações de desenvolvimento e capacitação contínua de servidores.
-* [Lei Estadual nº 20.756/2020 - Do Aperfeiçoamento e Capacitação dos Servidores](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Disposições sobre afastamento para estudo, cursos de capacitação e incentivos de qualificação no Estado de Goiás.
-* [TCE-GO - Instituto Leopoldo de Bulhões (Escola Superior de Controle Externo)](https://portal.tce.go.gov.br/institucional/instituto-leopoldo-de-bulhoes) - Escola de contas do TCE-GO responsável pelas ações de capacitação, pós-graduação e gestão do conhecimento institucional.
-* [TCU - Governança da Educação Corporativa e Gestão do Conhecimento](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial técnico para gestão do capital intelectual e aprendizagem organizacional no setor público.
-* [Constituição Federal de 1988 - Art. 39, § 2º (Escolas de Governo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Previsão da manutenção de escolas de governo para formação e aperfeiçoamento dos servidores públicos.
-* CHIAVENATO, Idalberto. **Gestão de Pessoas: O Novo Papel dos Recursos Humanos nas Organizações**. 5. ed. São Paulo: Atlas, 2020. (Cap. 11 - Treinamento; Cap. 12 - Desenvolvimento de Pessoas e de Organizações).
-* NONAKA, Ikujiro; TAKEUCHI, Hirotaka. **Criação de Conhecimento na Empresa: Como as Empresas Japonesas Geram a Dinâmica da Inovação**. 23. ed. Rio de Janeiro: Elsevier/Campus, 1997. (Cap. 3 - Teoria da Criação do Conhecimento Organizacional e Modelo SECI).
-* SENGE, Peter M. **A Quinta Disciplina: A Arte e a Prática da Organização que Aprende**. 32. ed. Rio de Janeiro: Best Seller, 2018. (Cap. 1 a 4 - As Cinco Disciplinas da Aprendizagem Organizacional).
-
-
-### 7. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – Auditor de Controle Externo – TCE-GO)**  
-O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práticas desenvolvidas pelos seus auditores sêniores na detecção de fraudes em licitações públicas informatizadas, organizou oficinas temáticas nas quais esses profissionais veteranos estruturaram conceitos, descreveram rotinas investigativas e redigiram detalhados manuais de procedimentos e fluxogramas operacionais para consulta geral. De acordo com o modelo de criação do conhecimento organizacional proposto por Ikujiro Nonaka e Hirotaka Takeuchi (Modelo SECI), o processo de conversão do conhecimento verificado nessa iniciativa classifica-se como:
-
-* **A)** Socialização.
-* **B)** Externalização.
-* **C)** Combinação.
-* **D)** Internalização.
-* **E)** Aprendizagem em circuito simples.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A socialização ocorre na troca direta de experiências de indivíduo para indivíduo (tácito para tácito), sem formalização por escrito.  
-> - **B) CORRETA.** A **Externalização** é exatamente a conversão do conhecimento **Tácito em Explícito**. Ocorre quando os profissionais conseguem expressar suas vivências intuitivas, julgamentos e saberes práticos sob a forma de conceitos compreensíveis, manuais de procedimentos, roteiros escritos, fluxogramas e documentos formais acessíveis a outros membros.  
-> - **C) Incorreta.** A combinação consiste em juntar e cruzar conhecimentos já codificados (explícito para explícito), como compilar duas leis em um documento unificado.  
-> - **D) Incorreta.** A internalização é a conversão de explícito em tácito, quando os indivíduos leem os manuais e os transformam em rotinas mentais por meio da prática (*aprender fazendo*).  
-> - **E) Incorreta.** A aprendizagem em circuito simples é conceito de Argyris e Schön voltado à correção operacional mecânica de desvios, estranho aos modos de conversão da teoria de Nonaka e Takeuchi.  
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC – Analista de Gestão Pública – DPE-RS)**  
-Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licitações e Contratos (Lei nº 14.133/2021) ofertado aos pregoeiros de uma entidade governamental, a área de Gestão de Pessoas realizou uma pesquisa formal 60 dias após o encerramento do curso, acompanhando a redução do índice de despachos devolvidos por vícios formais e observando se as minutas contratuais elaboradas pelos servidores incorporavam os novos entendimentos ensinados. Consoante a metodologia de avaliação de treinamento em quatro níveis desenvolvida por Donald Kirkpatrick, a medição realizada corresponde ao:
-
-* **A)** Nível 1 – Reação.
-* **B)** Nível 2 – Aprendizagem.
-* **C)** Nível 3 – Comportamento no Cargo (Transferência).
-* **D)** Nível 4 – Retorno Financeiro sobre o Investimento (ROI).
-* **E)** Nível 5 – Clima Institucional e Motivação Relacional.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O Nível 1 (Reação) afere a satisfação dos alunos com o instrutor e as instalações ao término da aula (pesquisa de opinião imediata).  
-> - **B) Incorreta.** O Nível 2 (Aprendizagem) avalia a retenção de conceitos mediante provas aplicadas imediatamente ao final do treinamento.  
-> - **C) CORRETA.** O **Nível 3 (Comportamento no Cargo ou Transferência do Aprendizado)** avalia a extensão em que os participantes aplicaram e transferiram efetivamente os novos saberes para as suas rotinas diárias no posto de trabalho. Ao verificar, após 60 dias de prática real, se as minutas e condutas dos servidores foram alteradas, a organização está medindo a modificação comportamental funcional.  
-> - **D) Incorreta.** O Nível 4 (Resultados) avalia impactos globais institucionais na estratégia corporativa, e o ROI financeiro foi estruturado como 5º nível por Jack Phillips.  
-> - **E) Incorreta.** O modelo original de Kirkpatrick contempla 4 níveis e não prevê clima institucional como nível autônomo de avaliação.  
-> 
-> **Gabarito: C**
-
----
-
-### Questão 03
-**(FCC – Técnico de Controle Externo – Área Administrativa – TCE-AP)**  
-No âmbito da administração de recursos humanos, as ações voltadas para Treinamento e as ações voltadas para Desenvolvimento de Pessoas distinguem-se primordialmente em razão de seus horizontes temporais e de seus objetivos funcionais. Assinale a opção que caracteriza com precisão uma ação clássica de **Desenvolvimento de Pessoas**:
-
-* **A)** Realização de oficina prática de 4 horas para ensinar os servidores recém-lotados a emitir certidões no módulo de protocolo recém-implantado.
-* **B)** Aplicação de curso intensivo para operadores de máquinas de reprografia sanarem problemas mecânicos frequentes em seus aparelhos.
-* **C)** Implementação de um programa corporativo de liderança transformadora e governança pública voltado a preparar analistas para assumirem funções de direção e planejamento estratégico nos próximos anos.
-* **D)** Instrução sumária da equipe de atendimento sobre como cadastrar visitantes no balcão da portaria do edifício-sede.
-* **E)** Treinamento emergencial sobre normas de combate a incêndio promovido pela brigada de segurança predial.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Trata-se de ação típica de **Treinamento**: foco no cargo atual, curto prazo e suprimento de carência operacional pontual.  
-> - **B) Incorreta.** Foco exclusivo na execução de tarefas do posto de trabalho atual com finalidade corretiva imediata (treinamento operacional).  
-> - **C) CORRETA.** O **Desenvolvimento de Pessoas** caracteriza-se pelo foco no **longo prazo**, na expansão de competências abrangentes, no crescimento intelectual contínuo e na preparação dos servidores para **cargos futuros**, desafios estratégicos e planos de sucessão institucional, como demonstrado pelo programa de liderança e governança.  
-> - **D) Incorreta.** Instrução técnica e pontual vinculada estritamente às tarefas rotineiras do cargo presente (treinamento operacional).  
-> - **E) Incorreta.** Capacitação específica de curto prazo para segurança física no local de trabalho (treinamento instrucional).  
-> 
-> **Gabarito: C**
-
----
-
-### Questão 04
+### Questão 05
 **(FCC – Analista de Controle Externo – TCE-RO)**  
 Em sua consagrada obra sobre organizações que aprendem (*Learning Organizations*), Peter Senge afirma que uma disciplina específica atua como a pedra angular e a força integradora de todas as demais, permitindo aos líderes e gestores compreenderem que a organização pública é um sistema vivo composto por inter-relações interdependentes, no qual as soluções fáceis que atacam apenas sintomas de curto prazo costumam agravar os problemas estruturais de longo prazo. Essa disciplina integradora é denominada por Senge de:
 
@@ -351,22 +358,24 @@ Em sua consagrada obra sobre organizações que aprendem (*Learning Organization
 
 ---
 
-### Questão 05
-**(FCC – Analista Judiciário – Área Judiciária – TRT-15ª)**  
-Dois teóricos fundamentais do comportamento organizacional, Chris Argyris e Donald Schön, formularam a distinção seminal entre a aprendizagem em circuito simples (*single-loop*) e a aprendizagem em circuito duplo (*double-loop*). Assinale a afirmativa que define corretamente a **aprendizagem em circuito duplo**:
 
-* **A)** Ocorre quando o gestor, diante de um erro processual, limita-se a punir o servidor faltoso e aumentar a vigilância sobre as planilhas existentes sem alterar fluxos.
-* **B)** Consiste na mera repetição mecânica de rotinas operacionais até que a taxa de erro estatístico atinja níveis próximos de zero.
-* **C)** Verifica-se quando os atores organizacionais identificam uma anomalia e modificam as rotinas imediatas sem qualquer reflexão sobre os valores e objetivos fundantes da instituição.
-* **D)** Caracteriza-se pelo processo em que a organização, ao detectar erros e desvios, confronta e questiona criticamente as premissas subjacentes, as normas vigentes e os valores orientadores das políticas institucionais, reformulando seus padrões estruturais.
-* **E)** Representa a aquisição estritamente individual de novos conhecimentos teóricos pelo colaborador sem qualquer possibilidade de compartilhamento coletivo com seus pares.
 
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Punição burocrática e controle disciplinar não constituem aprendizagem em circuito duplo.  
-> - **B) Incorreta.** A repetição mecânica de rotinas é condicionamento instrumental pavloviano, oposto da aprendizagem reflexiva.  
-> - **C) Incorreta.** Modificar rotinas sem questionar valores e políticas subjacentes é a definição exata de **aprendizagem em circuito simples (*single-loop*)**.  
-> - **D) CORRETA.** A **aprendizagem em circuito duplo (*double-loop*)** ocorre precisamente quando a organização não se contenta em aplicar correções superficiais em procedimentos prévios, mas **questiona criticamente as normas, valores, objetivos e premissas fundamentais** que orientavam a conduta anterior, reestruturando a lógica do próprio sistema organizacional.  
-> - **E) Incorreta.** A aprendizagem individual isolada não reflete a dimensão da aprendizagem em circuito duplo descrita por Argyris e Schön.  
-> 
-> **Gabarito: D**
+### 5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)
+
+No setor público moderno, a visão fragmentada de "cursos isolados" foi substituída pelo modelo de **Educação Corporativa**:
+
+* **Universidade Corporativa / Escolas de Governo:** Unidades educacionais estratégicas vinculadas diretamente aos órgãos públicos com a missão de desenvolver competências institucionais essenciais alinhadas aos objetivos estratégicos de Estado.
+* **Escola Superior de Controle do TCE-GO (Instituto Leopoldo de Bulhões - ILB):** Unidade de formação e capacitação que promove o contínuo aperfeiçoamento dos servidores do Tribunal de Contas do Estado de Goiás e a orientação pedagógica dos gestores municipais e estaduais jurisdicionados, funcionando como vetor de controle preventivo e pedagógico.
+
+---
+
+### 6. Fontes Oficiais e Referências Bibliográficas
+
+* [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas - PNDP)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Diretrizes, instrumentos e regras para ações de desenvolvimento e capacitação contínua de servidores.
+* [Lei Estadual nº 20.756/2020 - Do Aperfeiçoamento e Capacitação dos Servidores](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Disposições sobre afastamento para estudo, cursos de capacitação e incentivos de qualificação no Estado de Goiás.
+* [TCE-GO - Instituto Leopoldo de Bulhões (Escola Superior de Controle Externo)](https://portal.tce.go.gov.br/institucional/instituto-leopoldo-de-bulhoes) - Escola de contas do TCE-GO responsável pelas ações de capacitação, pós-graduação e gestão do conhecimento institucional.
+* [TCU - Governança da Educação Corporativa e Gestão do Conhecimento](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial técnico para gestão do capital intelectual e aprendizagem organizacional no setor público.
+* [Constituição Federal de 1988 - Art. 39, § 2º (Escolas de Governo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Previsão da manutenção de escolas de governo para formação e aperfeiçoamento dos servidores públicos.
+* CHIAVENATO, Idalberto. **Gestão de Pessoas: O Novo Papel dos Recursos Humanos nas Organizações**. 5. ed. São Paulo: Atlas, 2020. (Cap. 11 - Treinamento; Cap. 12 - Desenvolvimento de Pessoas e de Organizações).
+* NONAKA, Ikujiro; TAKEUCHI, Hirotaka. **Criação de Conhecimento na Empresa: Como as Empresas Japonesas Geram a Dinâmica da Inovação**. 23. ed. Rio de Janeiro: Elsevier/Campus, 1997. (Cap. 3 - Teoria da Criação do Conhecimento Organizacional e Modelo SECI).
+* SENGE, Peter M. **A Quinta Disciplina: A Arte e a Prática da Organização que Aprende**. 32. ed. Rio de Janeiro: Best Seller, 2018. (Cap. 1 a 4 - As Cinco Disciplinas da Aprendizagem Organizacional).

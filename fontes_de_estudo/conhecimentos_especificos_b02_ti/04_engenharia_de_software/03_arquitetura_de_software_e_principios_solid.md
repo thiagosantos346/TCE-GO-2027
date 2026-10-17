@@ -28,7 +28,6 @@
     - [3.1 Os Princípios SOLID de Robert C. Martin](#31-os-principios-solid-de-robert-c-martin)
     - [3.2 Princípios Práticos de Engenharia: DRY, KISS e YAGNI](#32-principios-praticos-de-engenharia-dry-kiss-e-yagni)
 - [4. Fontes Oficiais e Referências Bibliográficas](#4-fontes-oficiais-e-referencias-bibliograficas)
-- [5. Questões de Concurso FCC Comentadas](#5-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -136,6 +135,30 @@ stateDiagram-v2
 
 ---
 
+### Questão 01
+**(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
+Em uma arquitetura de microsserviços distribuídos, para evitar que a indisponibilidade ou latência excessiva de um serviço secundário externo provoque falhas em cascata e o esgotamento dos recursos de computação do serviço principal chamador, adota-se um padrão de resiliência que monitora as chamadas recentes. Se a taxa de falhas exceder um limiar pré-definido, o padrão interrompe imediatamente as chamadas subsequentes, retornando erro ou resposta de contingência instantânea sem sobrecarregar a rede, testando periodicamente se o serviço remoto se recuperou. Esse padrão é denominado:
+
+* **A)** API Gateway.
+* **B)** Circuit Breaker.
+* **C)** Service Registry.
+* **D)** Event Sourcing.
+* **E)** Command Query Responsibility Segregation (CQRS).
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O API Gateway atua como ponto único de entrada para requisições de clientes externos, concentrando autenticação e roteamento, mas não implementa a máquina de estados de tolerância a falhas do disjuntor em si.
+> - **B) CORRETA.** O padrão de resiliência **Circuit Breaker (Disjuntor)** opera exatamente monitorando o tráfego remoto e chaveando entre três estados: *Fechado* (fluxo normal), *Aberto* (rejeição imediata *fail-fast* ao atingir taxa de erro crítica) e *Semi-Aberto* (envio de requisições piloto de teste após um período de timeout).
+> - **C) Incorreta.** O Service Registry atua como catálogo de registro e localização dinâmica de endereços de rede das instâncias ativas de microsserviços.
+> - **D) Incorreta.** O Event Sourcing armazena todas as mutações de dados como uma trilha histórica imutável de eventos de negócio.
+> - **E) Incorreta.** O CQRS separa modelos computacionais de escrita (*Commands*) e modelos de consulta (*Queries*).
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.4 Arquitetura Orientada a Eventos (EDA - Event-Driven Architecture)
 Estilo arquitetural fundamentado na produção, captura, processamento e reação a **eventos** (mudanças significativas de estado no negócio):
 
@@ -156,6 +179,38 @@ Estilo arquitetural fundamentado na produção, captura, processamento e reaçã
 | **Acoplamento Tecnológico** | Alto (pilha tecnológica única) | Médio (contratos padronizados WSDL) | Nulo (poliglotismo: cada serviço usa a linguagem ideal) |
 
 ---
+
+### Questão 02
+**(FCC – TCE – Auditor de Controle Externo / TI)**  
+Em relação aos estilos arquiteturais para sistemas corporativos, analise as afirmativas a respeito da Arquitetura Orientada a Serviços (SOA) e da Arquitetura de Microsserviços:
+
+I. Em SOA tradicional, é comum a utilização de um Barramento de Serviços Corporativo (ESB) centralizado que concentra regras complexas de roteamento, orquestração e transformação de protocolos.  
+
+II. Na arquitetura de microsserviços, recomenda-se a utilização de um banco de dados relacional único compartilhado entre todos os serviços para garantir transações atômicas ACID globais imediatas.  
+
+III. Os microsserviços enfatizam serviços autônomos com deploys independentes e o conceito de *smart endpoints and dumb pipes*, mantendo a lógica de negócio nas pontas e a comunicação por mecanismos leves.  
+
+Está correto o que se afirma em:
+
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** I e III, apenas.
+* **D)** I, II e III.
+* **E)** III, apenas.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O item II é falso; banco de dados único compartilhado é antipadrão severo em arquitetura de microsserviços (*Database per Service*).
+> - **B) Incorreta.** Inclui o item II falso e desconsidera o item I que descreve fielmente a função do ESB em SOA.
+> - **C) CORRETA.** Estão corretos exclusivamente os itens I (em SOA, o ESB atua como canal inteligente de integração) e III (microsserviços adotam pontos terminais inteligentes e canais de comunicação simples: *smart endpoints and dumb pipes*).
+> - **D) Incorreta.** O item II viola o isolamento dos microsserviços.
+> - **E) Incorreta.** Omissão do item I, cuja definição de SOA está plenamente correta.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ## 3. Princípios de Design e Código Limpo
 
@@ -203,29 +258,7 @@ graph TD
 
 ---
 
-### 3.2 Princípios Práticos de Engenharia: DRY, KISS e YAGNI
-- **DRY (Don't Repeat Yourself - Não se Repita):** Formulado por Andy Hunt e Dave Thomas no livro *The Pragmatic Programmer*. Estabelece que cada porção de conhecimento ou lógica de negócio em um sistema deve possuir uma representação única, não ambígua e autoritativa. Combate a duplicação de regras em múltiplos pontos do código;
-- **KISS (Keep It Simple, Stupid - Mantenha as Coisas Simples):** Princípio de design que preconiza a simplicidade estrutural. A solução mais simples que resolve adequadamente o problema deve sempre prevalecer sobre soluções sofisticadas e excessivamente complexas;
-- **YAGNI (You Aren't Gonna Need It - Você Não Vai Precisar Disso):** Princípio fundamental do Extreme Programming (XP). Determina que os desenvolvedores **não devem implementar funcionalidades antecipadamente com base em suposições futuras**, construindo apenas aquilo que é estritamente exigido pelos requisitos atuais. Evita o desperdício de *Gold Plating* e a sobre-engenharia (*overengineering*).
-
----
-
-## 4. Fontes Oficiais e Referências Bibliográficas
-
-* [Microservices: A Definition of This New Architectural Term (Martin Fowler & James Lewis)](https://martinfowler.com/articles/microservices.html) - Artigo seminal definindo a arquitetura de microsserviços, governança descentralizada, *smart endpoints and dumb pipes* e persistência poliglota.
-* [What do you mean by "Event-Driven"? — Arquitetura Orientada a Eventos e Event Sourcing (Martin Fowler)](https://martinfowler.com/articles/201701-event-driven.html) - Distinção formal entre notificação de eventos, transferência de estado baseada em eventos, Event Sourcing e CQRS.
-* [Strangler Fig Application — Modernização Gradual de Sistemas Legados (Martin Fowler)](https://martinfowler.com/bliki/StranglerFigApplication.html) - Padrão arquitetural para migração incremental de monólitos para arquiteturas distribuídas.
-* [Bounded Context — Contextos Delimitados no Domain-Driven Design (Martin Fowler)](https://martinfowler.com/bliki/BoundedContext.html) - Fundamento de alta coesão e baixo acoplamento no particionamento de domínios e microsserviços.
-* [The Twelve-Factor App (Os Doze Fatores para Aplicações Cloud-Native)](https://12factor.net/pt_br/) - Metodologia arquitetural para construção de softwares-como-serviço escaláveis, portáveis e resilientes.
-* MARTIN, Robert C. **Arquitetura Limpa: O Guia do Artesão para Estrutura e Design de Software**. Rio de Janeiro: Alta Books, 2019. (Parte III - Princípios de Design SOLID; Parte V - Arquitetura).
-* NEWMAN, Sam. **Building Microservices: Designing Fine-Grained Systems**. 2. ed. Sebastopol: O'Reilly Media, 2021. (Cap. 4 - Microservice Communication Styles; Cap. 6 - Workflow and Sagas; Cap. 11 - Resiliency).
-* EVANS, Eric. **Domain-Driven Design: Atacando as Complexidades no Coração do Software**. Rio de Janeiro: Alta Books, 2016. (Parte IV - Design Estratégico).
-
----
-
-## 5. Questões de Concurso FCC Comentadas
-
-### Questão 01
+### Questão 03
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Em um sistema corporativo em Java, uma interface denominada `DispositivoMultifuncional` declara os seguintes métodos: `imprimirDocumento()`, `digitalizarDocumento()`, `enviarFax()` e `grampearFolhas()`. Uma classe denominada `ImpressoraBasicaDomestica` implementa essa interface, mas, por não possuir scanner, fax nem grampeador, é forçada a lançar exceções do tipo `UnsupportedOperationException` no corpo desses três últimos métodos. De acordo com os princípios de orientação a objetos SOLID preconizados por Robert C. Martin, essa estrutura viola diretamente o:
 
@@ -247,29 +280,7 @@ Em um sistema corporativo em Java, uma interface denominada `DispositivoMultifun
 
 ---
 
-### Questão 02
-**(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
-Em uma arquitetura de microsserviços distribuídos, para evitar que a indisponibilidade ou latência excessiva de um serviço secundário externo provoque falhas em cascata e o esgotamento dos recursos de computação do serviço principal chamador, adota-se um padrão de resiliência que monitora as chamadas recentes. Se a taxa de falhas exceder um limiar pré-definido, o padrão interrompe imediatamente as chamadas subsequentes, retornando erro ou resposta de contingência instantânea sem sobrecarregar a rede, testando periodicamente se o serviço remoto se recuperou. Esse padrão é denominado:
-
-* **A)** API Gateway.
-* **B)** Circuit Breaker.
-* **C)** Service Registry.
-* **D)** Event Sourcing.
-* **E)** Command Query Responsibility Segregation (CQRS).
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** O API Gateway atua como ponto único de entrada para requisições de clientes externos, concentrando autenticação e roteamento, mas não implementa a máquina de estados de tolerância a falhas do disjuntor em si.
-> - **B) CORRETA.** O padrão de resiliência **Circuit Breaker (Disjuntor)** opera exatamente monitorando o tráfego remoto e chaveando entre três estados: *Fechado* (fluxo normal), *Aberto* (rejeição imediata *fail-fast* ao atingir taxa de erro crítica) e *Semi-Aberto* (envio de requisições piloto de teste após um período de timeout).
-> - **C) Incorreta.** O Service Registry atua como catálogo de registro e localização dinâmica de endereços de rede das instâncias ativas de microsserviços.
-> - **D) Incorreta.** O Event Sourcing armazena todas as mutações de dados como uma trilha histórica imutável de eventos de negócio.
-> - **E) Incorreta.** O CQRS separa modelos computacionais de escrita (*Commands*) e modelos de consulta (*Queries*).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
+### Questão 04
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Considere uma classe Java que calcula o valor do frete para pedidos de um tribunal. O método `calcularFrete` possui uma estrutura sequencial de instruções `if-else-if` verificando a modalidade de entrega: caso seja "SEDEX", aplica uma fórmula; se for "PAC", aplica outra; se for "TRANSPORTADORA", aplica uma terceira. Sempre que o órgão firma contrato com uma nova transportadora, o desenvolvedor é obrigado a abrir a classe de serviço existente e adicionar uma nova cláusula `else-if`. Essa estrutura arquitetural viola diretamente o princípio SOLID:
 
@@ -291,32 +302,12 @@ Considere uma classe Java que calcula o valor do frete para pedidos de um tribun
 
 ---
 
-### Questão 04
-**(FCC – TCE – Auditor de Controle Externo / TI)**  
-Em relação aos estilos arquiteturais para sistemas corporativos, analise as afirmativas a respeito da Arquitetura Orientada a Serviços (SOA) e da Arquitetura de Microsserviços:
 
-I. Em SOA tradicional, é comum a utilização de um Barramento de Serviços Corporativo (ESB) centralizado que concentra regras complexas de roteamento, orquestração e transformação de protocolos.  
 
-II. Na arquitetura de microsserviços, recomenda-se a utilização de um banco de dados relacional único compartilhado entre todos os serviços para garantir transações atômicas ACID globais imediatas.  
-
-III. Os microsserviços enfatizam serviços autônomos com deploys independentes e o conceito de *smart endpoints and dumb pipes*, mantendo a lógica de negócio nas pontas e a comunicação por mecanismos leves.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** II e III, apenas.
-* **C)** I e III, apenas.
-* **D)** I, II e III.
-* **E)** III, apenas.
-
-> **Comentário Detalhado:**
->
-> - **Item I (Correto):** Na arquitetura SOA clássica, o Barramento Corporativo (**ESB**) centraliza transformações de dados pesadas, roteamento dinâmico e orquestração entre serviços.
-> - **Item II (Incorreto):** O compartilhamento de um banco de dados relacional centralizado é um grave **antipadrão em microsserviços**. A regra basilar é o padrão *Database per Service* (banco de dados exclusivo por serviço) para assegurar autonomia e desacoplamento do esquema de persistência.
-> - **Item III (Correto):** Microsserviços adotam canais de comunicação leves e endpoints inteligentes (*smart endpoints, dumb pipes*), com deploys e ciclos de vida independentes.
-> - Portanto, estão corretos apenas os itens I e III.
-> 
-> **Gabarito: C**
+### 3.2 Princípios Práticos de Engenharia: DRY, KISS e YAGNI
+- **DRY (Don't Repeat Yourself - Não se Repita):** Formulado por Andy Hunt e Dave Thomas no livro *The Pragmatic Programmer*. Estabelece que cada porção de conhecimento ou lógica de negócio em um sistema deve possuir uma representação única, não ambígua e autoritativa. Combate a duplicação de regras em múltiplos pontos do código;
+- **KISS (Keep It Simple, Stupid - Mantenha as Coisas Simples):** Princípio de design que preconiza a simplicidade estrutural. A solução mais simples que resolve adequadamente o problema deve sempre prevalecer sobre soluções sofisticadas e excessivamente complexas;
+- **YAGNI (You Aren't Gonna Need It - Você Não Vai Precisar Disso):** Princípio fundamental do Extreme Programming (XP). Determina que os desenvolvedores **não devem implementar funcionalidades antecipadamente com base em suposições futuras**, construindo apenas aquilo que é estritamente exigido pelos requisitos atuais. Evita o desperdício de *Gold Plating* e a sobre-engenharia (*overengineering*).
 
 ---
 
@@ -339,3 +330,18 @@ No contexto das boas práticas de engenharia e arquitetura de software, os acrô
 > - **E) Incorreta.** DRY e YAGNI são princípios ágeis de código limpo e desenvolvimento pragmático, não oriundos do modelo tradicional CMMI.
 > 
 > **Gabarito: B**
+
+---
+
+
+
+## 4. Fontes Oficiais e Referências Bibliográficas
+
+* [Microservices: A Definition of This New Architectural Term (Martin Fowler & James Lewis)](https://martinfowler.com/articles/microservices.html) - Artigo seminal definindo a arquitetura de microsserviços, governança descentralizada, *smart endpoints and dumb pipes* e persistência poliglota.
+* [What do you mean by "Event-Driven"? — Arquitetura Orientada a Eventos e Event Sourcing (Martin Fowler)](https://martinfowler.com/articles/201701-event-driven.html) - Distinção formal entre notificação de eventos, transferência de estado baseada em eventos, Event Sourcing e CQRS.
+* [Strangler Fig Application — Modernização Gradual de Sistemas Legados (Martin Fowler)](https://martinfowler.com/bliki/StranglerFigApplication.html) - Padrão arquitetural para migração incremental de monólitos para arquiteturas distribuídas.
+* [Bounded Context — Contextos Delimitados no Domain-Driven Design (Martin Fowler)](https://martinfowler.com/bliki/BoundedContext.html) - Fundamento de alta coesão e baixo acoplamento no particionamento de domínios e microsserviços.
+* [The Twelve-Factor App (Os Doze Fatores para Aplicações Cloud-Native)](https://12factor.net/pt_br/) - Metodologia arquitetural para construção de softwares-como-serviço escaláveis, portáveis e resilientes.
+* MARTIN, Robert C. **Arquitetura Limpa: O Guia do Artesão para Estrutura e Design de Software**. Rio de Janeiro: Alta Books, 2019. (Parte III - Princípios de Design SOLID; Parte V - Arquitetura).
+* NEWMAN, Sam. **Building Microservices: Designing Fine-Grained Systems**. 2. ed. Sebastopol: O'Reilly Media, 2021. (Cap. 4 - Microservice Communication Styles; Cap. 6 - Workflow and Sagas; Cap. 11 - Resiliency).
+* EVANS, Eric. **Domain-Driven Design: Atacando as Complexidades no Coração do Software**. Rio de Janeiro: Alta Books, 2016. (Parte IV - Design Estratégico).

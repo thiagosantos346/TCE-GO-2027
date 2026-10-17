@@ -38,7 +38,6 @@
 - [6. Processo Decisório e Teoria da Decisão (Herbert Simon)](#6-processo-decisorio-e-teoria-da-decisao-herbert-simon)
 - [7. Gestão de Conflitos Organizacionais (Thomas-Kilmann)](#7-gestao-de-conflitos-organizacionais-thomas-kilmann)
 - [8. Fontes Oficiais e Referências Bibliográficas](#8-fontes-oficiais-e-referencias-bibliograficas)
-- [9. Questões de Concurso FCC Comentadas](#9-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -119,6 +118,30 @@ flowchart TD
 
 ---
 
+### Questão 01
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Contas utilizou a metodologia do Balanced Scorecard (BSC). Ao elaborar o mapa estratégico, a equipe de planejamento definiu quatro perspectivas de objetivos. Considerando as peculiaridades das organizações públicas em relação às empresas privadas com fins lucrativos, no modelo adotado pelo Tribunal:
+
+* **A)** A perspectiva financeira deve ocupar obrigatoriamente a posição superior do mapa, tendo como meta a geração de lucro operacional e dividendos públicos.
+* **B)** A perspectiva dos cidadãos e da sociedade ocupa o ápice da cadeia de causalidade estratégica, enquanto os recursos orçamentários figuram como viabilizadores das entregas públicas.
+* **C)** O aprendizado e o crescimento funcional são eliminados do mapa por serem exclusivos de indústrias manufatureiras.
+* **D)** As relações de causa e efeito deixam de existir, passando os objetivos a ser medidos de forma isolada e autônoma.
+* **E)** O mapa estratégico dispensa a identificação de indicadores e metas para os processos de fiscalização e controle.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** No setor público inexiste distribuição de lucros ou busca por retorno de capital a acionistas como meta finalística institucional.  
+> - **B) CORRETA.** No setor público, o ápice da cadeia de valor do BSC é ocupado pela perspectiva do **Cidadão / Sociedade**, pois o órgão governamental visa entregar serviços com valor público à sociedade. A perspectiva orçamentária atua como suporte viabilizador da estratégia, e não como fim em si mesma.  
+> - **C) Incorreta.** O aprendizado e crescimento (capital humano, tecnologia, liderança e cultura) é a base indispensável de sustentação de qualquer organização no BSC.  
+> - **D) Incorreta.** O alicerce do BSC é precisamente a construção de hipóteses explícitas de causa e efeito entre os objetivos das quatro perspectivas.  
+> - **E) Incorreta.** A metodologia do BSC exige indicadores e metas para todas as perspectivas estratégicas.  
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3. Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H
 
 #### A) Matriz SWOT (FOFA)
@@ -145,6 +168,38 @@ flowchart TD
 > - **Ambiente Interno (Sob controle do órgão):** Forças (*Strengths*) e Fraquezas (*Weaknesses*).  
 > - **Ambiente Externo (Fora do controle do órgão):** Oportunidades (*Opportunities*) e Ameaças (*Threats*).  
 > Se a questão citar uma crise econômica, uma mudança climática ou uma alteração da lei, isso é **incontrolável**, portanto pertence ao ambiente externo (Ameaça ou Oportunidade)!
+
+---
+
+### Questão 02
+**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
+Durante a realização de um diagnóstico institucional, os analistas de um tribunal identificaram os seguintes fatores:
+
+1. Elevado índice de qualificação acadêmica do quadro próprio de analistas (pós-graduados).
+2. Ausência de padronização nos procedimentos operacionais dos cartórios judiciais.
+3. Disponibilização de novas linhas federais de financiamento para modernização tecnológica dos tribunais.
+4. Redução orçamentária imposta pela alteração da lei estadual de diretrizes orçamentárias.
+
+Sob a ótica da Matriz SWOT (FOFA), os fatores 1, 2, 3 e 4 representam, respectivamente:
+
+* **A)** Força, Fraqueza, Oportunidade e Ameaça.
+* **B)** Oportunidade, Ameaça, Força e Fraqueza.
+* **C)** Força, Ameaça, Oportunidade e Fraqueza.
+* **D)** Oportunidade, Fraqueza, Força e Ameaça.
+* **E)** Força, Fraqueza, Ameaça e Oportunidade.
+
+> **Comentário Detalhado:**
+>
+> - **A) CORRETA.** Corresponde com precisão à classificação da Matriz SWOT/FOFA: o Fator 1 é interno e favorável (**Força**); o Fator 2 é interno e vulnerável (**Fraqueza**); o Fator 3 é externo e positivo (**Oportunidade**); e o Fator 4 é externo e desfavorável (**Ameaça**).
+> - **B) Incorreta.** Inverte as variáveis internas (força e fraqueza) pelas externas (oportunidade e ameaça).
+> - **C) Incorreta.** Classifica erroneamente o Fator 2 como ameaça e o Fator 4 como fraqueza.
+> - **D) Incorreta.** Confunde a qualificação dos servidores com oportunidade externa e as linhas federais com força interna.
+> - **E) Incorreta.** Inverte a ordem dos fatores externos 3 e 4.
+> 
+> **Gabarito: A**
+
+---
+
 
 #### B) Matriz GUT (Gravidade, Urgência e Tendência)
 Instrumento matemático prioritário para ranquear problemas, projetos ou demandas operacionais que concorrem por recursos escassos. Cada variável recebe uma nota de 1 a 5:
@@ -222,6 +277,34 @@ flowchart LR
 2. **Habilidade (Saber Fazer):** Domínio prático e aptidão técnica para operar ferramentas, executar rotinas operacionais e manusear sistemas informatizados (ex.: operacionalizar um pregão eletrônico no sistema de compras públicas).
 3. **Atitude (Querer Fazer):** Dimensão afetiva e comportamental caracterizada pela iniciativa, proatividade, compromisso ético e disposição para resolver impasses de interesse público.
 
+---
+
+### Questão 03
+**(FCC – DPE-RS – Analista: Gestão Pública)**  
+Na gestão de pessoas no setor público, a metodologia de Gestão por Competências estrutura o perfil funcional a partir da tríade CHA (Conhecimentos, Habilidades e Atitudes). Quando um servidor público domina minuciosamente as regras teóricas da Nova Lei de Licitações (Lei nº 14.133/2021), mas demonstra insegurança técnica e não consegue operar o sistema eletrônico de compras públicas para cadastrar o edital, verifica-se que o servidor possui:
+
+* **A)** Atitude e Habilidade, mas carece de Conhecimento.
+* **B)** Conhecimento, mas apresenta déficit no componente de Habilidade.
+* **C)** Conhecimento e Habilidade, faltando-lhe unicamente Atitude proativa.
+* **D)** Habilidade plena, sem domínio de Conhecimento e Atitude.
+* **E)** Ausência simultânea de Conhecimento, Habilidade e Atitude.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** O domínio das leis é o Conhecimento em si.  
+> - **B) CORRETA.** Na tríade CHA:  
+>     - **Conhecimento (Saber):** É o saber teórico, conceitual e cognitivo (domínio das regras da Lei nº 14.133/2021).  
+>     - **Habilidade (Saber Fazer):** É a aplicação prática da teoria, o manejo de ferramentas e a operação de sistemas informatizados.  
+>     - Como o servidor conhece a lei (tem Conhecimento), mas não consegue operar o sistema na prática, seu déficit específico reside na **Habilidade** ("saber fazer").  
+> - **C) Incorreta.** Ele não possui a habilidade técnica de operar o sistema de compras.  
+> - **D) Incorreta.** Ele carece exatamente de habilidade prática.  
+> - **E) Incorreta.** Ele possui inequívoco conhecimento teórico demonstrado.  
+> 
+> **Gabarito: B**
+
+---
+
+
 #### B) Diagnóstico de Lacunas (*Gap Analysis*) e Plano de Desenvolvimento de Pessoas (PDP)
 A gestão por competências opera por meio do confronto analítico entre o perfil exigido pelo órgão e o perfil demonstrado pelo servidor:
 
@@ -259,6 +342,30 @@ flowchart TD
 
 ---
 
+### Questão 04
+**(FCC – TCE-RS – Auditor de Controle Externo)**  
+A respeito do processo decisório nas organizações e das conclusões da Teoria da Racionalidade Limitada proposta por Herbert Simon, é correto afirmar:
+
+* **A)** O tomador de decisão atua sempre como o "homem econômico", processando a totalidade das variáveis e alternativas possíveis para atingir a decisão ótima perfeita.
+* **B)** O comportamento decisório dos gestores é orientado por informações completas, perfeita previsibilidade do futuro e tempo ilimitado para deliberação.
+* **C)** Diante da escassez de tempo, limitações cognitivas e insuficiência de dados completos, o gestor atua como o "homem administrativo", selecionando uma alternativa satisfatória que atenda a padrões mínimos aceitáveis.
+* **D)** A teoria da racionalidade limitada defende que o administrador público deve decidir de forma puramente arbitrária e intuitiva, dispensando critérios analíticos de avaliação.
+* **E)** As decisões operacionais tomadas sob racionalidade limitada prescindem da fixação prévia de objetivos organizacionais pelo planejamento.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** O modelo clássico do "homem econômico" e da decisão ótima pura é uma ficção teórica refutada por Simon.  
+> - **B) Incorreta.** Os gestores atuam sob ambiente de incerteza, com tempo escasso e dados parciais.  
+> - **C) CORRETA.** Segundo Herbert Simon, em virtude da impossibilidade humana de capturar todas as variáveis do ambiente e analisar infinitas alternativas, o tomador de decisão opera como o **homem administrativo**, optando por soluções **satisfatórias** (que atendam a critérios suficientes de eficácia) em vez de soluções ótimas puras.  
+> - **D) Incorreta.** A racionalidade limitada busca a melhor decisão possível dentro das restrições existentes, não se confundindo com irracionalidade ou arbitrariedade.  
+> - **E) Incorreta.** Objetivos estratégicos prévios continuam sendo indispensáveis para orientar a busca da alternativa satisfatória.  
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 7. Gestão de Conflitos Organizacionais (Thomas-Kilmann)
 
 Nas teorias organizacionais modernas, o conflito deixou de ser encarado como uma patologia a ser sumariamente extirpada. O conflito pode ser:
@@ -292,118 +399,6 @@ flowchart TD
 
 ---
 
-### 8. Fontes Oficiais e Referências Bibliográficas
-
-* [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Disciplina a gestão por competências e o Plano de Desenvolvimento de Pessoas (PDP) no setor público.
-* [Decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho - PGD)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Regulamenta o PGD e o teletrabalho com foco na entrega de resultados e indicadores de produtividade.
-* [TCU - Referencial Básico de Governança e Gestão Estratégica](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Orientações para elaboração de mapas estratégicos, definição de metas e alinhamento institucional.
-* [TCE-GO - Plano de Fiscalização e Desempenho Institucional](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Estratégia de atuação e metas institucionais do Tribunal de Contas de Goiás.
-* [Lei Estadual nº 20.756/2020 (Avaliação de Desempenho dos Servidores de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Critérios de avaliação de desempenho, mérito e competências no Estado de Goiás.
-* KAPLAN, Robert S.; NORTON, David P. **A Estratégia em Ação: Balanced Scorecard**. 22. ed. Rio de Janeiro: Elsevier/Campus, 1997. (Cap. 1 a 4 - As Quatro Perspectivas do BSC e Mapa Estratégico).
-* BRANDÃO, Hugo Pena; GUIMARÃES, Tomás de Aquino. **Gestão por Competências e Gestão do Desempenho: Tecnologias Distintas ou Esforços Integrados?**. Revista de Administração de Empresas (RAE), v. 41, n. 1, p. 8-15, 2001.
-* OLIVEIRA, Djalma de Pinho Rebouças de. **Planejamento Estratégico: Conceitos, Metodologia e Práticas**. 34. ed. São Paulo: Atlas, 2018. (Cap. 5 - Indicadores de Desempenho).
-
-
-### 9. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Contas utilizou a metodologia do Balanced Scorecard (BSC). Ao elaborar o mapa estratégico, a equipe de planejamento definiu quatro perspectivas de objetivos. Considerando as peculiaridades das organizações públicas em relação às empresas privadas com fins lucrativos, no modelo adotado pelo Tribunal:
-
-* **A)** A perspectiva financeira deve ocupar obrigatoriamente a posição superior do mapa, tendo como meta a geração de lucro operacional e dividendos públicos.
-* **B)** A perspectiva dos cidadãos e da sociedade ocupa o ápice da cadeia de causalidade estratégica, enquanto os recursos orçamentários figuram como viabilizadores das entregas públicas.
-* **C)** O aprendizado e o crescimento funcional são eliminados do mapa por serem exclusivos de indústrias manufatureiras.
-* **D)** As relações de causa e efeito deixam de existir, passando os objetivos a ser medidos de forma isolada e autônoma.
-* **E)** O mapa estratégico dispensa a identificação de indicadores e metas para os processos de fiscalização e controle.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** No setor público inexiste distribuição de lucros ou busca por retorno de capital a acionistas como meta finalística institucional.  
-> - **B) CORRETA.** No setor público, o ápice da cadeia de valor do BSC é ocupado pela perspectiva do **Cidadão / Sociedade**, pois o órgão governamental visa entregar serviços com valor público à sociedade. A perspectiva orçamentária atua como suporte viabilizador da estratégia, e não como fim em si mesma.  
-> - **C) Incorreta.** O aprendizado e crescimento (capital humano, tecnologia, liderança e cultura) é a base indispensável de sustentação de qualquer organização no BSC.  
-> - **D) Incorreta.** O alicerce do BSC é precisamente a construção de hipóteses explícitas de causa e efeito entre os objetivos das quatro perspectivas.  
-> - **E) Incorreta.** A metodologia do BSC exige indicadores e metas para todas as perspectivas estratégicas.  
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
-A respeito do processo decisório nas organizações e das conclusões da Teoria da Racionalidade Limitada proposta por Herbert Simon, é correto afirmar:
-
-* **A)** O tomador de decisão atua sempre como o "homem econômico", processando a totalidade das variáveis e alternativas possíveis para atingir a decisão ótima perfeita.
-* **B)** O comportamento decisório dos gestores é orientado por informações completas, perfeita previsibilidade do futuro e tempo ilimitado para deliberação.
-* **C)** Diante da escassez de tempo, limitações cognitivas e insuficiência de dados completos, o gestor atua como o "homem administrativo", selecionando uma alternativa satisfatória que atenda a padrões mínimos aceitáveis.
-* **D)** A teoria da racionalidade limitada defende que o administrador público deve decidir de forma puramente arbitrária e intuitiva, dispensando critérios analíticos de avaliação.
-* **E)** As decisões operacionais tomadas sob racionalidade limitada prescindem da fixação prévia de objetivos organizacionais pelo planejamento.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O modelo clássico do "homem econômico" e da decisão ótima pura é uma ficção teórica refutada por Simon.  
-> - **B) Incorreta.** Os gestores atuam sob ambiente de incerteza, com tempo escasso e dados parciais.  
-> - **C) CORRETA.** Segundo Herbert Simon, em virtude da impossibilidade humana de capturar todas as variáveis do ambiente e analisar infinitas alternativas, o tomador de decisão opera como o **homem administrativo**, optando por soluções **satisfatórias** (que atendam a critérios suficientes de eficácia) em vez de soluções ótimas puras.  
-> - **D) Incorreta.** A racionalidade limitada busca a melhor decisão possível dentro das restrições existentes, não se confundindo com irracionalidade ou arbitrariedade.  
-> - **E) Incorreta.** Objetivos estratégicos prévios continuam sendo indispensáveis para orientar a busca da alternativa satisfatória.  
-> 
-> **Gabarito: C**
-
----
-
-### Questão 03
-**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
-Durante a realização de um diagnóstico institucional, os analistas de um tribunal identificaram os seguintes fatores:
-
-1. Elevado índice de qualificação acadêmica do quadro próprio de analistas (pós-graduados).
-2. Ausência de padronização nos procedimentos operacionais dos cartórios judiciais.
-3. Disponibilização de novas linhas federais de financiamento para modernização tecnológica dos tribunais.
-4. Redução orçamentária imposta pela alteração da lei estadual de diretrizes orçamentárias.
-
-Sob a ótica da Matriz SWOT (FOFA), os fatores 1, 2, 3 e 4 representam, respectivamente:
-
-* **A)** Força, Fraqueza, Oportunidade e Ameaça.
-* **B)** Oportunidade, Ameaça, Força e Fraqueza.
-* **C)** Força, Ameaça, Oportunidade e Fraqueza.
-* **D)** Oportunidade, Fraqueza, Força e Ameaça.
-* **E)** Força, Fraqueza, Ameaça e Oportunidade.
-
-> **Comentário Detalhado:**  
->
-> - **Fator 1 (Força):** Qualificação dos servidores do órgão é uma característica interna positiva e controlável pela instituição (**Força / Strengths**).  
-> - **Fator 2 (Fraqueza):** Despadronização interna de rotinas é uma vulnerabilidade interna e controlável pela gestão (**Fraqueza / Weaknesses**).  
-> - **Fator 3 (Oportunidade):** Linhas federais de financiamento são fatores externos favoráveis que a organização não controla, mas pode aproveitar (**Oportunidade / Opportunities**).  
-> - **Fator 4 (Ameaça):** Redução orçamentária decorrente de alteração legislativa é um fator externo desfavorável e incontrolável (**Ameaça / Threats**).  
-> - Logo, a classificação exata é: **Força, Fraqueza, Oportunidade e Ameaça** (Alternativa A).  
-> 
-> **Gabarito: A**
-
----
-
-### Questão 04
-**(FCC – DPE-RS – Analista: Gestão Pública)**  
-Na gestão de pessoas no setor público, a metodologia de Gestão por Competências estrutura o perfil funcional a partir da tríade CHA (Conhecimentos, Habilidades e Atitudes). Quando um servidor público domina minuciosamente as regras teóricas da Nova Lei de Licitações (Lei nº 14.133/2021), mas demonstra insegurança técnica e não consegue operar o sistema eletrônico de compras públicas para cadastrar o edital, verifica-se que o servidor possui:
-
-* **A)** Atitude e Habilidade, mas carece de Conhecimento.
-* **B)** Conhecimento, mas apresenta déficit no componente de Habilidade.
-* **C)** Conhecimento e Habilidade, faltando-lhe unicamente Atitude proativa.
-* **D)** Habilidade plena, sem domínio de Conhecimento e Atitude.
-* **E)** Ausência simultânea de Conhecimento, Habilidade e Atitude.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O domínio das leis é o Conhecimento em si.  
-> - **B) CORRETA.** Na tríade CHA:  
->     - **Conhecimento (Saber):** É o saber teórico, conceitual e cognitivo (domínio das regras da Lei nº 14.133/2021).  
->     - **Habilidade (Saber Fazer):** É a aplicação prática da teoria, o manejo de ferramentas e a operação de sistemas informatizados.  
->     - Como o servidor conhece a lei (tem Conhecimento), mas não consegue operar o sistema na prática, seu déficit específico reside na **Habilidade** ("saber fazer").  
-> - **C) Incorreta.** Ele não possui a habilidade técnica de operar o sistema de compras.  
-> - **D) Incorreta.** Ele carece exatamente de habilidade prática.  
-> - **E) Incorreta.** Ele possui inequívoco conhecimento teórico demonstrado.  
-> 
-> **Gabarito: B**
-
----
-
 ### Questão 05
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 Dois diretores de uma agência reguladora divergem categoricamente a respeito dos critérios de reajuste tarifário do transporte intermunicipal. Ambos demonstram alta preocupação em fazer valer suas teses técnicas individuais (alta assertividade), mas recusam-se terminantemente a ouvir os argumentos da outra parte ou a construir um consenso cooperativo (baixa cooperação). Segundo o modelo de estilos de administração de conflitos de Thomas-Kilmann, o comportamento adotado por esses gestores caracteriza o estilo de:
@@ -423,3 +418,18 @@ Dois diretores de uma agência reguladora divergem categoricamente a respeito do
 > - **E) Incorreta.** O acordo requer nível moderado de cooperação mútua, com ambas as partes cedendo em algum ponto.  
 > 
 > **Gabarito: C**
+
+---
+
+
+
+### 8. Fontes Oficiais e Referências Bibliográficas
+
+* [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Disciplina a gestão por competências e o Plano de Desenvolvimento de Pessoas (PDP) no setor público.
+* [Decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho - PGD)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Regulamenta o PGD e o teletrabalho com foco na entrega de resultados e indicadores de produtividade.
+* [TCU - Referencial Básico de Governança e Gestão Estratégica](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Orientações para elaboração de mapas estratégicos, definição de metas e alinhamento institucional.
+* [TCE-GO - Plano de Fiscalização e Desempenho Institucional](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Estratégia de atuação e metas institucionais do Tribunal de Contas de Goiás.
+* [Lei Estadual nº 20.756/2020 (Avaliação de Desempenho dos Servidores de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Critérios de avaliação de desempenho, mérito e competências no Estado de Goiás.
+* KAPLAN, Robert S.; NORTON, David P. **A Estratégia em Ação: Balanced Scorecard**. 22. ed. Rio de Janeiro: Elsevier/Campus, 1997. (Cap. 1 a 4 - As Quatro Perspectivas do BSC e Mapa Estratégico).
+* BRANDÃO, Hugo Pena; GUIMARÃES, Tomás de Aquino. **Gestão por Competências e Gestão do Desempenho: Tecnologias Distintas ou Esforços Integrados?**. Revista de Administração de Empresas (RAE), v. 41, n. 1, p. 8-15, 2001.
+* OLIVEIRA, Djalma de Pinho Rebouças de. **Planejamento Estratégico: Conceitos, Metodologia e Práticas**. 34. ed. São Paulo: Atlas, 2018. (Cap. 5 - Indicadores de Desempenho).

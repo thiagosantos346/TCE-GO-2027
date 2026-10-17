@@ -32,7 +32,6 @@
     - [3.3 Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"](#33-janela-de-contexto-e-a-mitigacao-do-efeito-lost-in-the-middle)
     - [3.4 Curadoria de Contexto e Minimização de Ruído no Repositório](#34-curadoria-de-contexto-e-minimizacao-de-ruido-no-repositorio)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
-- [5. Questões Comentadas & Prática Padrão FCC](#5-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -68,6 +67,31 @@ $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{Q K^T}{\sqrt{d_k}}\right
 - **Multi-Head Attention (Atenção Multi-Cabeça):** O modelo projeta $Q, K, V$ em múltiplos subespaços de representação simultaneamente (ex.: 32 ou 64 cabeças). Em código-fonte, uma cabeça de atenção pode especializar-se em rastrear o escopo de variáveis, outra na correspondência entre chaves `{}` e outra no rastreamento de tipos de retorno.
 
 ---
+
+### Questão 01 (FCC - Padrão Concursos TI / Fundamentos de Tokenização e Transformers)
+Durante a integração de um modelo de linguagem baseado na arquitetura Transformer com uma esteira de desenvolvimento de software em uma Secretaria da Fazenda, a equipe de arquitetura analisou os aspectos de tokenização de código-fonte e o mecanismo de atenção do modelo.
+
+A respeito desse funcionamento interno, assinale a afirmativa correta:  
+
+* **A)** O mecanismo de *Self-Attention* analisa apenas a palavra imediatamente anterior na sequência, comportando-se exatamente como uma Cadeia de Markov de primeira ordem.
+* **B)** O processo de tokenização baseado em algoritmos como Byte-Pair Encoding (BPE) converte palavras em tokens indivisíveis de no mínimo dez caracteres, impedindo a fragmentação de identificadores em código.
+* **C)** Na arquitetura Transformer do tipo *Decoder-Only*, a máscara causal (*Causal Masking*) impede que a previsão do próximo token tenha acesso aos tokens subsequentes da sequência, viabilizando a geração de código autoregressiva.
+* **D)** A indentação em Python (quatro espaços) consome obrigatoriamente 40 tokens por linha em qualquer tokenizador moderno, inviabilizando o uso de LLMs para desenvolvimento nessa linguagem.
+* **E)** Os vetores de Consulta ($Q$), Chave ($K$) e Valor ($V$) no mecanismo de atenção são constantes numéricas fixas imutáveis, definidas pelos desenvolvedores e independentes do texto de entrada.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O mecanismo de *Self-Attention* calcula correlações dinâmicas de longo alcance entre todos os tokens da sequência simultaneamente, superando as limitações locais das Cadeias de Markov.
+> - **B)** Incorreta. O algoritmo BPE decompõe palavras e identificadores desconhecidos em subpalavras e caracteres individuais quando necessário.
+> - **C)** **CORRETA.** Em modelos decodificadores autoregressivos (como GPT e Claude), a aplicação da máscara causal (*Causal Masking*) no mecanismo de autoatenção impede que a previsão do token na posição $t$ consulte informações de posições futuras ($t+1, t+2, \dots$), assegurando a geração estritamente sequencial da esquerda para a direita.
+> - **D)** Incorreta. Tokenizadores otimizados para código agrupam blocos de 2, 4 e 8 espaços consecutivos em tokens únicos, tornando a geração em Python eficiente.
+> - **E)** Incorreta. As matrizes $Q, K, V$ são geradas dinamicamente multiplicando-se os embeddings da entrada por matrizes de pesos aprendidas pela rede.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder
 
@@ -142,6 +166,31 @@ flowchart TD
 - **Programação Baseada em Intenção:** O engenheiro de software concentra-se na formulação rigorosa da **intenção de negócio e restrições formais** (invariantes lógicas, pré-condições, pós-condições e critérios de tolerância a falhas). A IA generativa sintetiza o código executável, que é imediatamente validado por suítes de testes determinísticos.
 
 ---
+
+### Questão 02 (FCC - Adaptada / TI - Intent-Based Programming e Gestão de Contexto)
+No contexto da evolução da engenharia de software assistida por inteligência artificial, destacam-se os conceitos de Programação Baseada em Intenção (*Intent-Based Programming*) e a gestão criteriosa da janela de contexto (*Context Window*).
+
+Sobre esses conceitos, assinale a afirmativa correta:  
+
+* **A)** A programação baseada em intenção substitui completamente a necessidade de validação humana, testes automatizados e critérios de aceite, transferindo a responsabilidade civil pelo software integralmente ao provedor do modelo de IA.
+* **B)** O efeito conhecido na literatura como *"Lost in the Middle"* demonstra que os modelos LLMs recuperam informações com igual precisão em qualquer ponto de uma janela de contexto extensa, tornando indiferente a ordem em que os arquivos de código são dispostos no prompt.
+* **C)** Na programação baseada em intenção, o desenvolvedor expressa o objetivo de negócio, pré-condições e invariantes em linguagem declarativa/natural, enquanto o sistema de IA infere a estratégia algorítmica e gera as instruções imperativas correspondentes.
+* **D)** A janela de contexto de um LLM armazena exclusivamente os parâmetros pré-treinados estáticos dos pesos neurais, não guardando relação com a quantidade de tokens de código fornecidos como entrada na requisição.
+* **E)** *Few-Shot Prompting* e *Fine-Tuning* são termos sinônimos que descrevem o processo de re-treinamento dos pesos do modelo com retropropagação de gradientes (*backpropagation*) a cada nova instrução de código.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A programação baseada em intenção não suprime a supervisão humana (*Human-in-the-Loop*) nem a exigência de testes formais, sendo a responsabilidade técnica e jurídica intransferível do desenvolvedor e da organização.
+> - **B)** Incorreta. A pesquisa seminal de Liu et al. (2023) comprovou exatamente o oposto: modelos de linguagem apresentam forte degradação de recuperação para informações situadas no meio geométrico da janela de contexto (*Lost in the Middle*).
+> - **C)** **CORRETA.** Na *Intent-Based Programming*, o engenheiro de software foca na declaração da intenção (o "O QUÊ" - requisitos, invariantes, contratos e pós-condições), cabendo ao sistema de IA sintetizar o algoritmo correspondente (o "COMO" imperativo).
+> - **D)** Incorreta. Os pesos do modelo são parâmetros estáticos. A janela de contexto é a memória de trabalho dinâmica que limita a quantidade de tokens de entrada e saída em uma requisição.
+> - **E)** Incorreta. *Few-Shot Prompting* é aprendizado em contexto em tempo de inferência, sem alteração de pesos. *Fine-Tuning* implica o recálculo e modificação permanente dos pesos sinápticos via retropropagação de gradientes.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 2.2 Sintaxe Estrita vs. Semântica Declarativa e Contratos de Interface
 Na programação clássica, o compilador atua como um juiz sintático inflexível: a omissão de uma vírgula ou chave aborta o processo de compilação. Na programação orientada a linguagem natural assistida por IA:
@@ -224,6 +273,54 @@ flowchart TD
 
 ---
 
+### Questão 03 (FCC - Adaptada / TI - Engenharia de Prompts e Hiperparâmetros de Inferência)
+Um desenvolvedor de software de um Tribunal de Contas Estadual está configurando a integração de uma ferramenta de IA generativa para auxiliar na geração automatizada de funções de validação de regras fiscais e cálculos contábeis em Python. Ele precisa garantir que as implementações geradas sejam estritamente determinísticas, fiéis à sintaxe da linguagem e sigam um padrão corporativo pré-estabelecido de tratamento de exceções.
+
+Considerando as técnicas de engenharia de prompts e a calibração de modelos de linguagem (LLMs):  
+
+* **A)** O desenvolvedor deve configurar o hiperparâmetro `temperature` com valor próximo a `1.0` (ou superior), pois valores altos eliminam o risco de alucinações sintáticas e forçam o modelo a seguir rigidamente a documentação oficial.
+* **B)** A técnica de *Zero-Shot Prompting* consiste em fornecer ao modelo múltiplos exemplos comentados de funções de validação no prompt antes de solicitar o código final, garantindo a replicação do padrão corporativo.
+* **C)** O desenvolvedor deve ajustar o hiperparâmetro `temperature` para valores baixos (próximos de `0.0`), conferindo determinismo e reprodutibilidade à resposta, e utilizar a técnica de *Few-Shot Prompting*, fornecendo no contexto alguns exemplos prévios do padrão esperado de entrada, lógica e tratamento de erro.
+* **D)** A técnica de *Chain-of-Thought* (CoT) é desaconselhada para problemas de programação e lógica algorítmica, visto que forçar o modelo a verbalizar o raciocínio intermediário degrada sua precisão na geração da sintaxe final do código.
+* **E)** O *System Prompt* não tem impacto no comportamento global do modelo, servindo apenas para armazenar o histórico efêmero de mensagens trocadas na sessão atual.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Uma temperatura alta ($T \approx 1.0$) achata a distribuição probabilística dos logits, aumentando a entropia e aleatoriedade das previsões. Isso induz alucinações sintáticas, gerando nomes de métodos inexistentes e quebrando o código.
+> - **B)** Incorreta. O fornecimento de múltiplos exemplos de demonstração no prompt é a definição canônica de **Few-Shot Prompting** (In-Context Learning). O *Zero-Shot Prompting* fornece apenas a instrução da tarefa sem nenhum exemplo prévio.
+> - **C)** **CORRETA.** Para geração de código, testes e validações contábeis determinísticas, deve-se adotar temperatura baixa ($0.0 \le T \le 0.2$), assegurando repetibilidade e fidelidade sintática. O uso combinado com *Few-Shot Prompting* (fornecendo 2 a 3 exemplos do padrão institucional) garante a conformidade com a arquitetura desejada.
+> - **D)** Incorreta. A técnica de *Chain-of-Thought* (CoT) é altamente benéfica para código, pois induz o modelo a decompor a lógica algorítmica passo a passo antes de emitir a sintaxe final, reduzindo erros de raciocínio.
+> - **E)** Incorreta. O *System Prompt* define as diretrizes mestras, persona, restrições corporativas e regras comportamentais imutáveis que guiam todo o processamento da sessão.
+> 
+> **Gabarito: C**
+
+---
+
+### Questão 04 (FCC - Padrão Concursos TI / Engenharia de Prompts e Chain-of-Thought)
+Um analista de sistemas da área fiscal precisa refatorar uma rotina crítica de cálculo do ITCMD (Imposto sobre Transmissão Causa Mortis e Doação) que envolve alíquotas progressivas, meação, herança legítima e múltiplas condições de isenção. Para obter da IA generativa uma solução robusta e livre de falhas de lógica contábil, ele decide aplicar técnicas avançadas de engenharia de prompts.
+
+Nesse cenário, a abordagem metodologicamente mais adequada é:  
+
+* **A)** Utilizar a técnica *Zero-Shot* com temperatura ajustada em $1.0$, instruindo o modelo a fornecer apenas o código final em uma única linha compactada sem comentários.
+* **B)** Aplicar a técnica de *Chain-of-Thought* (Cadeia de Pensamento), instruindo explicitamente o modelo a decompor as regras tributárias, detalhar o raciocínio matemático passo a passo e, somente após validar as etapas lógicas, emitir o código Python correspondente com testes unitários cobrindo as faixas de tributação.
+* **C)** Evitar o uso de *System Prompts*, pois estes anulam as diretrizes de segurança da plataforma de IA.
+* **D)** Utilizar a técnica de *Tree-of-Thoughts* apenas para alterar o nome das variáveis para formatos em caixa-alta, pois a lógica fiscal dispensa decomposição passo a passo.
+* **E)** Aumentar a `Frequency Penalty` para seu valor máximo possível, garantindo que palavras reservadas da linguagem como `if` e `return` nunca se repitam no código gerado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A abordagem Zero-Shot com temperatura máxima ($1.0$) produz alta variabilidade estatística e erros grosseiros de cálculo contábil.
+> - **B)** **CORRETA.** A técnica de *Chain-of-Thought* (CoT) compele o modelo a decompor o problema em etapas explícitas de raciocínio lógico. Ao calcular passo a passo a meação, as faixas progressivas e as isenções antes da codificação final, a precisão matemática atinge seu nível máximo.
+> - **C)** Incorreta. O *System Prompt* é mandatório para estabelecer governança, restrições e requisitos de segurança.
+> - **D)** Incorreta. Alteração de nomes de variáveis é tarefa trivial; a complexidade da questão reside na lógica tributária.
+> - **E)** Incorreta. Elevar a `Frequency Penalty` para o valor máximo penaliza palavras repetidas essenciais para o código, destruindo a sintaxe funcional da linguagem de programação.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3.3 Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"
 A **Janela de Contexto (*Context Window*)** é a quantidade máxima de tokens que um modelo de IA consegue manter na memória de trabalho durante uma sessão de inferência.
 
@@ -253,113 +350,7 @@ Para contornar o efeito *Lost in the Middle* e evitar estouros de cotas financei
 
 ---
 
-## 4. Fontes Recomendadas na Internet
-
-* [Anthropic Claude Official Guide - Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Estratégias estruturadas, delimitadores XML, Few-Shot Prompting e Chain-of-Thought.
-* [OpenAI Platform - Prompt Engineering Best Practices](https://platform.openai.com/docs/guides/prompt-engineering) - Técnicas de contextualização, tarefas complexas e mitigação de alucinações.
-* [ArXiv - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al.)](https://arxiv.org/abs/2201.11903) - Artigo seminal sobre raciocínio encadeado passo a passo em modelos de linguagem.
-* [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework) - Framework oficial do NIST para governança, validação e mensuração de riscos em IA.
-* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 23 e 24 - Processamento de Linguagem Natural e Modelos Profundos).
-* JURAFSKY, Daniel; MARTIN, James H. **Speech and Language Processing**. 3. ed. Stanford University, 2024. (Cap. 10 e 11 - Large Language Models and Prompting).
-* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 2 - Prompt Engineering and Foundation Models).
-
----
-
-## 5. Questões Comentadas & Prática Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TI - Engenharia de Prompts e Hiperparâmetros de Inferência)
-Um desenvolvedor de software de um Tribunal de Contas Estadual está configurando a integração de uma ferramenta de IA generativa para auxiliar na geração automatizada de funções de validação de regras fiscais e cálculos contábeis em Python. Ele precisa garantir que as implementações geradas sejam estritamente determinísticas, fiéis à sintaxe da linguagem e sigam um padrão corporativo pré-estabelecido de tratamento de exceções.
-
-Considerando as técnicas de engenharia de prompts e a calibração de modelos de linguagem (LLMs):  
-
-* **A)** O desenvolvedor deve configurar o hiperparâmetro `temperature` com valor próximo a `1.0` (ou superior), pois valores altos eliminam o risco de alucinações sintáticas e forçam o modelo a seguir rigidamente a documentação oficial.
-* **B)** A técnica de *Zero-Shot Prompting* consiste em fornecer ao modelo múltiplos exemplos comentados de funções de validação no prompt antes de solicitar o código final, garantindo a replicação do padrão corporativo.
-* **C)** O desenvolvedor deve ajustar o hiperparâmetro `temperature` para valores baixos (próximos de `0.0`), conferindo determinismo e reprodutibilidade à resposta, e utilizar a técnica de *Few-Shot Prompting*, fornecendo no contexto alguns exemplos prévios do padrão esperado de entrada, lógica e tratamento de erro.
-* **D)** A técnica de *Chain-of-Thought* (CoT) é desaconselhada para problemas de programação e lógica algorítmica, visto que forçar o modelo a verbalizar o raciocínio intermediário degrada sua precisão na geração da sintaxe final do código.
-* **E)** O *System Prompt* não tem impacto no comportamento global do modelo, servindo apenas para armazenar o histórico efêmero de mensagens trocadas na sessão atual.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Uma temperatura alta ($T \approx 1.0$) achata a distribuição probabilística dos logits, aumentando a entropia e aleatoriedade das previsões. Isso induz alucinações sintáticas, gerando nomes de métodos inexistentes e quebrando o código.
-> - **B)** Incorreta. O fornecimento de múltiplos exemplos de demonstração no prompt é a definição canônica de **Few-Shot Prompting** (In-Context Learning). O *Zero-Shot Prompting* fornece apenas a instrução da tarefa sem nenhum exemplo prévio.
-> - **C)** **CORRETA.** Para geração de código, testes e validações contábeis determinísticas, deve-se adotar temperatura baixa ($0.0 \le T \le 0.2$), assegurando repetibilidade e fidelidade sintática. O uso combinado com *Few-Shot Prompting* (fornecendo 2 a 3 exemplos do padrão institucional) garante a conformidade com a arquitetura desejada.
-> - **D)** Incorreta. A técnica de *Chain-of-Thought* (CoT) é altamente benéfica para código, pois induz o modelo a decompor a lógica algorítmica passo a passo antes de emitir a sintaxe final, reduzindo erros de raciocínio.
-> - **E)** Incorreta. O *System Prompt* define as diretrizes mestras, persona, restrições corporativas e regras comportamentais imutáveis que guiam todo o processamento da sessão.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC - Adaptada / TI - Intent-Based Programming e Gestão de Contexto)
-No contexto da evolução da engenharia de software assistida por inteligência artificial, destacam-se os conceitos de Programação Baseada em Intenção (*Intent-Based Programming*) e a gestão criteriosa da janela de contexto (*Context Window*).
-
-Sobre esses conceitos, assinale a afirmativa correta:  
-
-* **A)** A programação baseada em intenção substitui completamente a necessidade de validação humana, testes automatizados e critérios de aceite, transferindo a responsabilidade civil pelo software integralmente ao provedor do modelo de IA.
-* **B)** O efeito conhecido na literatura como *"Lost in the Middle"* demonstra que os modelos LLMs recuperam informações com igual precisão em qualquer ponto de uma janela de contexto extensa, tornando indiferente a ordem em que os arquivos de código são dispostos no prompt.
-* **C)** Na programação baseada em intenção, o desenvolvedor expressa o objetivo de negócio, pré-condições e invariantes em linguagem declarativa/natural, enquanto o sistema de IA infere a estratégia algorítmica e gera as instruções imperativas correspondentes.
-* **D)** A janela de contexto de um LLM armazena exclusivamente os parâmetros pré-treinados estáticos dos pesos neurais, não guardando relação com a quantidade de tokens de código fornecidos como entrada na requisição.
-* **E)** *Few-Shot Prompting* e *Fine-Tuning* são termos sinônimos que descrevem o processo de re-treinamento dos pesos do modelo com retropropagação de gradientes (*backpropagation*) a cada nova instrução de código.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A programação baseada em intenção não suprime a supervisão humana (*Human-in-the-Loop*) nem a exigência de testes formais, sendo a responsabilidade técnica e jurídica intransferível do desenvolvedor e da organização.
-> - **B)** Incorreta. A pesquisa seminal de Liu et al. (2023) comprovou exatamente o oposto: modelos de linguagem apresentam forte degradação de recuperação para informações situadas no meio geométrico da janela de contexto (*Lost in the Middle*).
-> - **C)** **CORRETA.** Na *Intent-Based Programming*, o engenheiro de software foca na declaração da intenção (o "O QUÊ" - requisitos, invariantes, contratos e pós-condições), cabendo ao sistema de IA sintetizar o algoritmo correspondente (o "COMO" imperativo).
-> - **D)** Incorreta. Os pesos do modelo são parâmetros estáticos. A janela de contexto é a memória de trabalho dinâmica que limita a quantidade de tokens de entrada e saída em uma requisição.
-> - **E)** Incorreta. *Few-Shot Prompting* é aprendizado em contexto em tempo de inferência, sem alteração de pesos. *Fine-Tuning* implica o recálculo e modificação permanente dos pesos sinápticos via retropropagação de gradientes.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 3 (FCC - Padrão Concursos TI / Fundamentos de Tokenização e Transformers)
-Durante a integração de um modelo de linguagem baseado na arquitetura Transformer com uma esteira de desenvolvimento de software em uma Secretaria da Fazenda, a equipe de arquitetura analisou os aspectos de tokenização de código-fonte e o mecanismo de atenção do modelo.
-
-A respeito desse funcionamento interno, assinale a afirmativa correta:  
-
-* **A)** O mecanismo de *Self-Attention* analisa apenas a palavra imediatamente anterior na sequência, comportando-se exatamente como uma Cadeia de Markov de primeira ordem.
-* **B)** O processo de tokenização baseado em algoritmos como Byte-Pair Encoding (BPE) converte palavras em tokens indivisíveis de no mínimo dez caracteres, impedindo a fragmentação de identificadores em código.
-* **C)** Na arquitetura Transformer do tipo *Decoder-Only*, a máscara causal (*Causal Masking*) impede que a previsão do próximo token tenha acesso aos tokens subsequentes da sequência, viabilizando a geração de código autoregressiva.
-* **D)** A indentação em Python (quatro espaços) consome obrigatoriamente 40 tokens por linha em qualquer tokenizador moderno, inviabilizando o uso de LLMs para desenvolvimento nessa linguagem.
-* **E)** Os vetores de Consulta ($Q$), Chave ($K$) e Valor ($V$) no mecanismo de atenção são constantes numéricas fixas imutáveis, definidas pelos desenvolvedores e independentes do texto de entrada.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O mecanismo de *Self-Attention* calcula correlações dinâmicas de longo alcance entre todos os tokens da sequência simultaneamente, superando as limitações locais das Cadeias de Markov.
-> - **B)** Incorreta. O algoritmo BPE decompõe palavras e identificadores desconhecidos em subpalavras e caracteres individuais quando necessário.
-> - **C)** **CORRETA.** Em modelos decodificadores autoregressivos (como GPT e Claude), a aplicação da máscara causal (*Causal Masking*) no mecanismo de autoatenção impede que a previsão do token na posição $t$ consulte informações de posições futuras ($t+1, t+2, \dots$), assegurando a geração estritamente sequencial da esquerda para a direita.
-> - **D)** Incorreta. Tokenizadores otimizados para código agrupam blocos de 2, 4 e 8 espaços consecutivos em tokens únicos, tornando a geração em Python eficiente.
-> - **E)** Incorreta. As matrizes $Q, K, V$ são geradas dinamicamente multiplicando-se os embeddings da entrada por matrizes de pesos aprendidas pela rede.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 4 (FCC - Padrão Concursos TI / Engenharia de Prompts e Chain-of-Thought)
-Um analista de sistemas da área fiscal precisa refatorar uma rotina crítica de cálculo do ITCMD (Imposto sobre Transmissão Causa Mortis e Doação) que envolve alíquotas progressivas, meação, herança legítima e múltiplas condições de isenção. Para obter da IA generativa uma solução robusta e livre de falhas de lógica contábil, ele decide aplicar técnicas avançadas de engenharia de prompts.
-
-Nesse cenário, a abordagem metodologicamente mais adequada é:  
-
-* **A)** Utilizar a técnica *Zero-Shot* com temperatura ajustada em $1.0$, instruindo o modelo a fornecer apenas o código final em uma única linha compactada sem comentários.
-* **B)** Aplicar a técnica de *Chain-of-Thought* (Cadeia de Pensamento), instruindo explicitamente o modelo a decompor as regras tributárias, detalhar o raciocínio matemático passo a passo e, somente após validar as etapas lógicas, emitir o código Python correspondente com testes unitários cobrindo as faixas de tributação.
-* **C)** Evitar o uso de *System Prompts*, pois estes anulam as diretrizes de segurança da plataforma de IA.
-* **D)** Utilizar a técnica de *Tree-of-Thoughts* apenas para alterar o nome das variáveis para formatos em caixa-alta, pois a lógica fiscal dispensa decomposição passo a passo.
-* **E)** Aumentar a `Frequency Penalty` para seu valor máximo possível, garantindo que palavras reservadas da linguagem como `if` e `return` nunca se repitam no código gerado.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A abordagem Zero-Shot com temperatura máxima ($1.0$) produz alta variabilidade estatística e erros grosseiros de cálculo contábil.
-> - **B)** **CORRETA.** A técnica de *Chain-of-Thought* (CoT) compele o modelo a decompor o problema em etapas explícitas de raciocínio lógico. Ao calcular passo a passo a meação, as faixas progressivas e as isenções antes da codificação final, a precisão matemática atinge seu nível máximo.
-> - **C)** Incorreta. O *System Prompt* é mandatório para estabelecer governança, restrições e requisitos de segurança.
-> - **D)** Incorreta. Alteração de nomes de variáveis é tarefa trivial; a complexidade da questão reside na lógica tributária.
-> - **E)** Incorreta. Elevar a `Frequency Penalty` para o valor máximo penaliza palavras repetidas essenciais para o código, destruindo a sintaxe funcional da linguagem de programação.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Padrão Concursos TI / Curadoria de Contexto e Estruturação de Prompts)
+### Questão 05 (FCC - Padrão Concursos TI / Curadoria de Contexto e Estruturação de Prompts)
 Na formulação de prompts para agentes de geração de código em larga escala, a equipe técnica deparou-se com a necessidade de submeter múltiplos artefatos: a especificação de uma API REST, esquemas de banco de dados e requisitos de negócio complexos.
 
 Considerando as boas práticas de curadoria de contexto e a mitigação de vieses posicionais em LLMs:  
@@ -379,3 +370,17 @@ Considerando as boas práticas de curadoria de contexto e a mitigação de viese
 > - **E)** Incorreta. A tarifação de modelos comerciais incide diretamente sobre a quantidade de tokens consumidos na entrada e na saída.
 > 
 > **Gabarito: C**
+
+---
+
+
+
+## 4. Fontes Recomendadas na Internet
+
+* [Anthropic Claude Official Guide - Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Estratégias estruturadas, delimitadores XML, Few-Shot Prompting e Chain-of-Thought.
+* [OpenAI Platform - Prompt Engineering Best Practices](https://platform.openai.com/docs/guides/prompt-engineering) - Técnicas de contextualização, tarefas complexas e mitigação de alucinações.
+* [ArXiv - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al.)](https://arxiv.org/abs/2201.11903) - Artigo seminal sobre raciocínio encadeado passo a passo em modelos de linguagem.
+* [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework) - Framework oficial do NIST para governança, validação e mensuração de riscos em IA.
+* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 23 e 24 - Processamento de Linguagem Natural e Modelos Profundos).
+* JURAFSKY, Daniel; MARTIN, James H. **Speech and Language Processing**. 3. ed. Stanford University, 2024. (Cap. 10 e 11 - Large Language Models and Prompting).
+* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 2 - Prompt Engineering and Foundation Models).

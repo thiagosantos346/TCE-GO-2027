@@ -78,7 +78,6 @@
     - [6.3 Prazos de Prescrição da Pretensão Punitiva](#63-prazos-de-prescricao-da-pretensao-punitiva)
     - [6.4 Sindicância e Processo Administrativo Disciplinar (PAD)](#64-sindicancia-e-processo-administrativo-disciplinar-pad)
 - [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
-- [8. Questões de Concurso FCC Comentadas](#8-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -173,6 +172,33 @@ flowchart TD
     - É o efetivo desempenho das atribuições e encargos do cargo público pelo servidor;
     - O prazo para o servidor empossado entrar em exercício é de **15 (quinze) dias**, contados da data da posse;
     - A contagem do tempo de serviço público e do estágio probatório tem início na exata data em que o servidor entra em efetivo exercício.
+
+---
+
+### Questão 01
+**(FCC – Analista de Controle Externo – TCE-GO)**  
+Um cidadão regularmente aprovado em concurso público para o cargo de Técnico de Controle Externo do Tribunal de Contas do Estado de Goiás teve sua nomeação publicada no Diário Oficial do Estado no dia 1º de março. Ele compareceu à Diretoria de Gestão de Pessoas e tomou posse formal no dia 20 de março. De acordo com as disposições expressas da Lei Estadual de Goiás nº 20.756/2020, o prazo legal máximo para que esse servidor entre em efetivo exercício e a consequência administrativa caso ele não o faça dentro do prazo são, respectivamente:
+
+* **A)** 30 dias contados da posse; e a sua demissão administrativa por abandono de cargo.
+* **B)** 15 dias contados da posse; e a anulação preliminar do concurso público.
+* **C)** 15 dias contados da data da posse; e a sua exoneração de ofício do cargo público.
+* **D)** 30 dias contados da posse; e o cancelamento do termo de homologação final.
+* **E)** 10 dias contados da nomeação; e a transformação do ato em disponibilidade remunerada proporcional.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O prazo legal para entrada em efetivo exercício após a posse é de 15 dias (e não 30 dias). Além disso, a demissão é sanção disciplinar punitiva gravíssima que pressupõe infração funcional apurada em PAD para servidor em atividade funcional.
+> - **B)** Incorreta. A inércia de um indivíduo empossado repercute unicamente em sua própria esfera jurídica individual de investidura, não afetando a validade ou a homologação do certame público.
+> - **C)** **CORRETA.** Conforme preceitua a Lei Estadual nº 20.756/2020:
+>     - O exercício é o início do desempenho efetivo das atribuições do cargo e dar-se-á no prazo improrrogável de **15 (quinze) dias**, contados da assinatura do termo de posse;
+>     - Como a posse já consumou a investidura formal no cargo público, se o servidor empossado não entrar em exercício dentro do prazo legal, a administração expedirá ato de **exoneração de ofício** (desprovimento formal sem caráter punitivo).
+> - **D)** Incorreta. O prazo de 30 dias aplica-se à posse (contado da nomeação), e a inobservância não enseja cancelamento de termo homologatório.
+> - **E)** Incorreta. A disponibilidade remunerada é instituto garantido a servidores estáveis quando da extinção de cargo ou declaração de sua desnecessidade.
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 2.2 Consequências Jurídicas do Descumprimento dos Prazos
 
@@ -282,6 +308,33 @@ flowchart TD
 >   2º) É **aproveitado** em outro cargo de atribuições e vencimentos equivalentes;  
 >   3º) Se não houver vaga disponível para recondução ou aproveitamento, é posto em **disponibilidade remunerada proporcional** ao tempo de contribuição.
 
+---
+
+### Questão 02
+**(FCC – Auditor de Controle Externo – TCE-RO)**  
+Rodrigo, servidor público estável do Estado de Goiás, foi demitido da repartição após processo disciplinar sumário. Inconformado, Rodrigo ajuizou ação ordinária e obteve sentença judicial transitada em julgado que declarou a manifesta nulidade do ato demissório por cerceamento do direito de ampla defesa. No momento em que Rodrigo retornou ao órgão público, constatou-se que seu cargo original estava regularmente ocupado por Marcos, outro servidor público estável que havia sido promovido legitimamente. Consoante a disciplina da Lei Estadual nº 20.756/2020, o retorno de Rodrigo ao serviço ativo e a situação jurídica de Marcos configuram, respectivamente:
+
+* **A)** Recondução de Rodrigo com ressarcimento integral; e exoneração compulsória de Marcos sem direito a indenização.
+* **B)** Reversão de Rodrigo com vencimentos proporcionais; e transferência de Marcos para a administração indireta.
+* **C)** Reintegração de Rodrigo com ressarcimento de todos os direitos e vantagens pecuniárias retroativas; e recondução de Marcos ao cargo anterior, sem direito a indenização, ou seu aproveitamento em outro cargo.
+* **D)** Readaptação de Rodrigo com redução de jornada; e colocação imediata de Marcos em demissão administrativa.
+* **E)** Aproveitamento de Rodrigo em cargo em comissão; e manutenção definitiva de Marcos no cargo efetivo em disputa.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O retorno de servidor demitido ilegalmente denomina-se reintegração (e não recondução); ademais, servidor estável que ocupava a vaga em disputa não pode sofrer exoneração compulsória sumária.
+> - **B)** Incorreta. Reversão é a modalidade de retorno do servidor aposentado à ativa funcional.
+> - **C)** **CORRETA.** Consoante o art. 41, § 2º, da Constituição Federal e as normas da Lei Estadual nº 20.756/2020:
+>     - O retorno do servidor estável em decorrência de decisão judicial ou administrativa que anula sua demissão ilegal denomina-se **Reintegração**, com recomposição patrimonial retroativa e ressarcimento de todos os direitos e vantagens que deixou de auferir;
+>     - O eventual ocupante da vaga (Marcos), sendo estável, será **reconduzido ao cargo de origem, sem direito a indenização**, ou **aproveitado em outro cargo** de atribuições e vencimentos equivalentes, ou posto em disponibilidade remunerada proporcional ao tempo de contribuição.
+> - **D)** Incorreta. Readaptação refere-se exclusivamente a limitações de ordem física ou psíquica atestadas em perícia médica oficial, e Marcos não cometeu ilícito apto a demissão.
+> - **E)** Incorreta. A reintegração dá-se compulsoriamente no cargo efetivo de origem titularizado pelo servidor reintegrado.
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 4.2 Hipóteses Legais de Vacância
 
 Vacância é o ato ou fato administrativo que extingue o provimento, tornando desocupado o cargo público. No Estatuto Goiano (Lei nº 20.756/2020), as hipóteses de vacância são:
@@ -346,6 +399,34 @@ flowchart TD
 ```
 
 ---
+
+### Questão 03
+**(FCC – Técnico de Controle Externo – Área Administrativa – TCE-GO)**  
+Nos moldes da Lei Estadual nº 20.756/2020, o servidor público estável poderá obter autorização administrativa para afastar-se de suas funções a fim de tratar de interesses particulares. A respeito dessa licença estatutária, assinale a afirmativa correta:
+
+* **A)** A licença poderá ser concedida pelo prazo de até cinco anos consecutivos, mantido o pagamento integral de seu vencimento básico.
+* **B)** A concessão da licença é direito público subjetivo incondicionado do servidor, não podendo a autoridade administrativa negá-la, ainda que haja manifesto prejuízo ao serviço.
+* **C)** A licença para o trato de interesses particulares dar-se-á sem remuneração e vigorará pelo prazo de até 3 (três) anos consecutivos, permanecendo condicionada à prévia aquisição de estabilidade funcional e ao juízo de conveniência e oportunidade da administração.
+* **D)** O servidor em cumprimento de estágio probatório faz jus à referida licença após completar doze meses de efetivo exercício no cargo.
+* **E)** Durante o período de fruição da licença sem vencimentos, o servidor continuará computando o tempo integralmente para efeitos de promoção por merecimento funcional.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A licença é concedida **sem remuneração** e pelo período de **até 3 (três) anos consecutivos** (e não cinco anos com remuneração).
+> - **B)** Incorreta. Trata-se de ato eminentemente discricionário, cabendo à autoridade competente avaliar a conveniência e oportunidade do afastamento frente às necessidades de serviço do órgão.
+> - **C)** **CORRETA.** De acordo com as disposições literais da Lei Estadual nº 20.756/2020, a **licença para tratar de interesses particulares**:
+>     - É usufruída **sem qualquer remuneração**;
+>     - Tem prazo de **até 3 (três) anos consecutivos**;
+>     - Exige que o servidor já seja titular de **estabilidade funcional**;
+>     - Submete-se ao juízo discricionário de conveniência e oportunidade da administração estadual.
+> - **D)** Incorreta. O estatuto veda terminantemente a outorga da referida licença a servidor que ainda esteja cumprindo período de estágio probatório.
+> - **E)** Incorreta. Durante o afastamento não remunerado para fins particulares, suspende-se o cômputo de tempo para efeitos de evolução funcional, progressão e promoção por merecimento.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ## 6. Regime Disciplinar e Processo Sancionador
 
@@ -426,6 +507,31 @@ flowchart TD
 > - **Inassiduidade habitual:** ausência injustificada por **60 (sessenta) dias interpolados** no período de **12 meses**.  
 > Cuidado com cascas de banana da FCC: 30 dias exatos consecutivos NÃO é abandono (a lei exige expressamente *mais de 30 dias*, ou seja, a partir do 31º dia consecutivo)!
 
+---
+
+### Questão 04
+**(FCC – Analista Jurídico – PGE-GO)**  
+Um servidor público titular de cargo efetivo da administração direta do Estado de Goiás ausentou-se deliberadamente e sem qualquer justificativa legal de seu posto de trabalho por 35 (trinta e cinco) dias consecutivos durante o mês de janeiro. Ciente do fato, a chefia imediata oficiou à autoridade competente. Conforme o Estatuto dos Servidores Públicos Civis de Goiás (Lei nº 20.756/2020), a conduta do servidor caracteriza:
+
+* **A)** Inassiduidade habitual, cominada com penalidade de suspensão pelo prazo improrrogável de trinta dias.
+* **B)** Abandono de cargo público, passível de punição disciplinar com a penalidade de demissão, apurada mediante processo administrativo disciplinar.
+* **C)** Falta justificada ficta, sujeita exclusivamente à conversão dos dias em banco de horas compensatório.
+* **D)** Desobediência hierárquica atenuada, sancionada unicamente com repreensão oral lavrada em ata interna.
+* **E)** Inaptidão probatória superveniente, ensejando a aposentadoria compulsória do agente com proventos integrais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Inassiduidade habitual caracteriza-se pela falta injustificada ao trabalho por 60 dias interpolados no período de 12 meses, conduta igualmente apenada com demissão.
+> - **B)** **CORRETA.** A Lei Estadual nº 20.756/2020 define expressamente o **Abandono de Cargo** como a ausência voluntária e injustificada do servidor ao serviço por **mais de 30 (trinta) dias consecutivos**. Como o servidor permaneceu 35 dias consecutivos ausente, tipificou-se o abandono funcional, conduta gravíssima sancionada obrigatoriamente com a pena de **demissão**, cuja imposição exige prévio Processo Administrativo Disciplinar (PAD) com observância do contraditório e da ampla defesa.
+> - **C)** Incorreta. Ausência imotivada contínua superior a 30 dias constitui ilícito funcional expulsório de extrema gravidade, inadmitindo qualquer compensação em banco de horas.
+> - **D)** Incorreta. O regime estatutário goiano não admite advertência ou repreensão oral, aplicando-se apenas sanções escritas após rito procedimental.
+> - **E)** Incorreta. A aposentadoria compulsória decorre da idade limite constitucional (75 anos) e não de infração funcional dolosa.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 6.3 Prazos de Prescrição da Pretensão Punitiva
 
 A pretensão disciplinar punitiva da administração estadual prescreve nos seguintes prazos legais, contados da data em que a autoridade competente para instaurar o processo toma formalmente conhecimento da infração:
@@ -442,6 +548,34 @@ flowchart LR
 * **180 (cento e oitenta) dias:** para faltas leves puníveis com **advertência**.
 * *Falta funcional tipificada simultaneamente como crime:* o prazo prescricional da ação disciplinar regula-se pelo mesmo prazo prescricional estipulado na lei penal ordinária para o respectivo delito (CP, art. 109).
 * *Interrupção da Prescrição:* a portaria de instauração da sindicância punitiva ou do processo administrativo disciplinar (PAD) **interrompe o curso do prazo de prescrição** até a decisão final proferida pela autoridade competente.
+
+---
+
+### Questão 05
+**(FCC – Analista de Controle Externo – Gestão Governamental – TCE-AP)**  
+Em matéria de poder disciplinar sancionador preconizado na Lei Estadual de Goiás nº 20.756/2020, a pretensão disciplinar da administração pública estadual para punir o servidor prescreve, respectivamente, nos seguintes prazos, a contar da data em que o fato se tornou conhecido pela autoridade competente:
+
+* **A)** Em 5 anos, para faltas puníveis com demissão; em 2 anos, para a penalidade de suspensão; e em 180 dias, para a penalidade de advertência.
+* **B)** Em 10 anos, para a demissão; em 5 anos, para a suspensão; e em 1 ano, para a advertência escrita.
+* **C)** Em 4 anos para quaisquer penalidades disciplinares, tendo em vista o princípio da uniformidade processual do Estado federado.
+* **D)** Em 5 anos, para as infrações puníveis com advertência; e imprescritível para as infrações que cominem demissão e improbidade.
+* **E)** Em 180 dias para a demissão; e em 30 dias para a suspensão funcional de servidores de controle.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Os prazos de prescrição da pretensão punitiva disciplinar na Lei Estadual nº 20.756/2020 são estipulados taxativamente conforme a gravidade da sanção:
+>     - **5 (cinco) anos:** para as infrações cominadas com **demissão**, **cassação de aposentadoria ou de disponibilidade** e destituição de cargo em comissão;
+>     - **2 (dois) anos:** para as infrações puníveis com **suspensão**;
+>     - **180 (cento e oitenta) dias:** para as faltas leves sancionadas com **advertência**.
+> - **B)** Incorreta. Prazos incompatíveis com a sistemática legal goiana.
+> - **C)** Incorreta. A lei estabelece prazos graduados de acordo com a gravidade da pena e não um prazo genérico e uniforme de 4 anos.
+> - **D)** Incorreta. A ação disciplinar prescreve em prazos certos, sendo 180 dias para advertência e 5 anos para demissão.
+> - **E)** Incorreta. Inversão e encurtamento aberrante dos prazos estatutários.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 6.4 Sindicância e Processo Administrativo Disciplinar (PAD)
 
@@ -471,125 +605,3 @@ flowchart LR
 * CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Rio de Janeiro: Atlas, 2024. (Cap. 9 - Servidores Públicos: Provimento, Vacância, Direitos e Regime Disciplinar).
 * DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 14 - Servidores Públicos e Processo Administrativo Disciplinar).
 * MEIRELLES, Hely Lopes. **Direito Administrativo Brasileiro**. 44. ed. São Paulo: Malheiros, 2020. (Cap. 8 - O Estatuto dos Servidores e Deveres Funcionais).
-
-
-## 8. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – Analista de Controle Externo – TCE-GO)**  
-Um cidadão regularmente aprovado em concurso público para o cargo de Técnico de Controle Externo do Tribunal de Contas do Estado de Goiás teve sua nomeação publicada no Diário Oficial do Estado no dia 1º de março. Ele compareceu à Diretoria de Gestão de Pessoas e tomou posse formal no dia 20 de março. De acordo com as disposições expressas da Lei Estadual de Goiás nº 20.756/2020, o prazo legal máximo para que esse servidor entre em efetivo exercício e a consequência administrativa caso ele não o faça dentro do prazo são, respectivamente:
-
-* **A)** 30 dias contados da posse; e a sua demissão administrativa por abandono de cargo.
-* **B)** 15 dias contados da posse; e a anulação preliminar do concurso público.
-* **C)** 15 dias contados da data da posse; e a sua exoneração de ofício do cargo público.
-* **D)** 30 dias contados da posse; e o cancelamento do termo de homologação final.
-* **E)** 10 dias contados da nomeação; e a transformação do ato em disponibilidade remunerada proporcional.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O prazo legal para entrada em efetivo exercício após a posse é de 15 dias (e não 30 dias). Além disso, a demissão é sanção disciplinar punitiva gravíssima que pressupõe infração funcional apurada em PAD para servidor em atividade funcional.
-> - **B)** Incorreta. A inércia de um indivíduo empossado repercute unicamente em sua própria esfera jurídica individual de investidura, não afetando a validade ou a homologação do certame público.
-> - **C)** **CORRETA.** Conforme preceitua a Lei Estadual nº 20.756/2020:
->     - O exercício é o início do desempenho efetivo das atribuições do cargo e dar-se-á no prazo improrrogável de **15 (quinze) dias**, contados da assinatura do termo de posse;
->     - Como a posse já consumou a investidura formal no cargo público, se o servidor empossado não entrar em exercício dentro do prazo legal, a administração expedirá ato de **exoneração de ofício** (desprovimento formal sem caráter punitivo).
-> - **D)** Incorreta. O prazo de 30 dias aplica-se à posse (contado da nomeação), e a inobservância não enseja cancelamento de termo homologatório.
-> - **E)** Incorreta. A disponibilidade remunerada é instituto garantido a servidores estáveis quando da extinção de cargo ou declaração de sua desnecessidade.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 02
-**(FCC – Auditor de Controle Externo – TCE-RO)**  
-Rodrigo, servidor público estável do Estado de Goiás, foi demitido da repartição após processo disciplinar sumário. Inconformado, Rodrigo ajuizou ação ordinária e obteve sentença judicial transitada em julgado que declarou a manifesta nulidade do ato demissório por cerceamento do direito de ampla defesa. No momento em que Rodrigo retornou ao órgão público, constatou-se que seu cargo original estava regularmente ocupado por Marcos, outro servidor público estável que havia sido promovido legitimamente. Consoante a disciplina da Lei Estadual nº 20.756/2020, o retorno de Rodrigo ao serviço ativo e a situação jurídica de Marcos configuram, respectivamente:
-
-* **A)** Recondução de Rodrigo com ressarcimento integral; e exoneração compulsória de Marcos sem direito a indenização.
-* **B)** Reversão de Rodrigo com vencimentos proporcionais; e transferência de Marcos para a administração indireta.
-* **C)** Reintegração de Rodrigo com ressarcimento de todos os direitos e vantagens pecuniárias retroativas; e recondução de Marcos ao cargo anterior, sem direito a indenização, ou seu aproveitamento em outro cargo.
-* **D)** Readaptação de Rodrigo com redução de jornada; e colocação imediata de Marcos em demissão administrativa.
-* **E)** Aproveitamento de Rodrigo em cargo em comissão; e manutenção definitiva de Marcos no cargo efetivo em disputa.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O retorno de servidor demitido ilegalmente denomina-se reintegração (e não recondução); ademais, servidor estável que ocupava a vaga em disputa não pode sofrer exoneração compulsória sumária.
-> - **B)** Incorreta. Reversão é a modalidade de retorno do servidor aposentado à ativa funcional.
-> - **C)** **CORRETA.** Consoante o art. 41, § 2º, da Constituição Federal e as normas da Lei Estadual nº 20.756/2020:
->     - O retorno do servidor estável em decorrência de decisão judicial ou administrativa que anula sua demissão ilegal denomina-se **Reintegração**, com recomposição patrimonial retroativa e ressarcimento de todos os direitos e vantagens que deixou de auferir;
->     - O eventual ocupante da vaga (Marcos), sendo estável, será **reconduzido ao cargo de origem, sem direito a indenização**, ou **aproveitado em outro cargo** de atribuições e vencimentos equivalentes, ou posto em disponibilidade remunerada proporcional ao tempo de contribuição.
-> - **D)** Incorreta. Readaptação refere-se exclusivamente a limitações de ordem física ou psíquica atestadas em perícia médica oficial, e Marcos não cometeu ilícito apto a demissão.
-> - **E)** Incorreta. A reintegração dá-se compulsoriamente no cargo efetivo de origem titularizado pelo servidor reintegrado.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 03
-**(FCC – Analista Jurídico – PGE-GO)**  
-Um servidor público titular de cargo efetivo da administração direta do Estado de Goiás ausentou-se deliberadamente e sem qualquer justificativa legal de seu posto de trabalho por 35 (trinta e cinco) dias consecutivos durante o mês de janeiro. Ciente do fato, a chefia imediata oficiou à autoridade competente. Conforme o Estatuto dos Servidores Públicos Civis de Goiás (Lei nº 20.756/2020), a conduta do servidor caracteriza:
-
-* **A)** Inassiduidade habitual, cominada com penalidade de suspensão pelo prazo improrrogável de trinta dias.
-* **B)** Abandono de cargo público, passível de punição disciplinar com a penalidade de demissão, apurada mediante processo administrativo disciplinar.
-* **C)** Falta justificada ficta, sujeita exclusivamente à conversão dos dias em banco de horas compensatório.
-* **D)** Desobediência hierárquica atenuada, sancionada unicamente com repreensão oral lavrada em ata interna.
-* **E)** Inaptidão probatória superveniente, ensejando a aposentadoria compulsória do agente com proventos integrais.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Inassiduidade habitual caracteriza-se pela falta injustificada ao trabalho por 60 dias interpolados no período de 12 meses, conduta igualmente apenada com demissão.
-> - **B)** **CORRETA.** A Lei Estadual nº 20.756/2020 define expressamente o **Abandono de Cargo** como a ausência voluntária e injustificada do servidor ao serviço por **mais de 30 (trinta) dias consecutivos**. Como o servidor permaneceu 35 dias consecutivos ausente, tipificou-se o abandono funcional, conduta gravíssima sancionada obrigatoriamente com a pena de **demissão**, cuja imposição exige prévio Processo Administrativo Disciplinar (PAD) com observância do contraditório e da ampla defesa.
-> - **C)** Incorreta. Ausência imotivada contínua superior a 30 dias constitui ilícito funcional expulsório de extrema gravidade, inadmitindo qualquer compensação em banco de horas.
-> - **D)** Incorreta. O regime estatutário goiano não admite advertência ou repreensão oral, aplicando-se apenas sanções escritas após rito procedimental.
-> - **E)** Incorreta. A aposentadoria compulsória decorre da idade limite constitucional (75 anos) e não de infração funcional dolosa.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 04
-**(FCC – Técnico de Controle Externo – Área Administrativa – TCE-GO)**  
-Nos moldes da Lei Estadual nº 20.756/2020, o servidor público estável poderá obter autorização administrativa para afastar-se de suas funções a fim de tratar de interesses particulares. A respeito dessa licença estatutária, assinale a afirmativa correta:
-
-* **A)** A licença poderá ser concedida pelo prazo de até cinco anos consecutivos, mantido o pagamento integral de seu vencimento básico.
-* **B)** A concessão da licença é direito público subjetivo incondicionado do servidor, não podendo a autoridade administrativa negá-la, ainda que haja manifesto prejuízo ao serviço.
-* **C)** A licença para o trato de interesses particulares dar-se-á sem remuneração e vigorará pelo prazo de até 3 (três) anos consecutivos, permanecendo condicionada à prévia aquisição de estabilidade funcional e ao juízo de conveniência e oportunidade da administração.
-* **D)** O servidor em cumprimento de estágio probatório faz jus à referida licença após completar doze meses de efetivo exercício no cargo.
-* **E)** Durante o período de fruição da licença sem vencimentos, o servidor continuará computando o tempo integralmente para efeitos de promoção por merecimento funcional.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A licença é concedida **sem remuneração** e pelo período de **até 3 (três) anos consecutivos** (e não cinco anos com remuneração).
-> - **B)** Incorreta. Trata-se de ato eminentemente discricionário, cabendo à autoridade competente avaliar a conveniência e oportunidade do afastamento frente às necessidades de serviço do órgão.
-> - **C)** **CORRETA.** De acordo com as disposições literais da Lei Estadual nº 20.756/2020, a **licença para tratar de interesses particulares**:
->     - É usufruída **sem qualquer remuneração**;
->     - Tem prazo de **até 3 (três) anos consecutivos**;
->     - Exige que o servidor já seja titular de **estabilidade funcional**;
->     - Submete-se ao juízo discricionário de conveniência e oportunidade da administração estadual.
-> - **D)** Incorreta. O estatuto veda terminantemente a outorga da referida licença a servidor que ainda esteja cumprindo período de estágio probatório.
-> - **E)** Incorreta. Durante o afastamento não remunerado para fins particulares, suspende-se o cômputo de tempo para efeitos de evolução funcional, progressão e promoção por merecimento.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 05
-**(FCC – Analista de Controle Externo – Gestão Governamental – TCE-AP)**  
-Em matéria de poder disciplinar sancionador preconizado na Lei Estadual de Goiás nº 20.756/2020, a pretensão disciplinar da administração pública estadual para punir o servidor prescreve, respectivamente, nos seguintes prazos, a contar da data em que o fato se tornou conhecido pela autoridade competente:
-
-* **A)** Em 5 anos, para faltas puníveis com demissão; em 2 anos, para a penalidade de suspensão; e em 180 dias, para a penalidade de advertência.
-* **B)** Em 10 anos, para a demissão; em 5 anos, para a suspensão; e em 1 ano, para a advertência escrita.
-* **C)** Em 4 anos para quaisquer penalidades disciplinares, tendo em vista o princípio da uniformidade processual do Estado federado.
-* **D)** Em 5 anos, para as infrações puníveis com advertência; e imprescritível para as infrações que cominem demissão e improbidade.
-* **E)** Em 180 dias para a demissão; e em 30 dias para a suspensão funcional de servidores de controle.
-
-> **Comentário Detalhado:**
->
-> - **A)** **CORRETA.** Os prazos de prescrição da pretensão punitiva disciplinar na Lei Estadual nº 20.756/2020 são estipulados taxativamente conforme a gravidade da sanção:
->     - **5 (cinco) anos:** para as infrações cominadas com **demissão**, **cassação de aposentadoria ou de disponibilidade** e destituição de cargo em comissão;
->     - **2 (dois) anos:** para as infrações puníveis com **suspensão**;
->     - **180 (cento e oitenta) dias:** para as faltas leves sancionadas com **advertência**.
-> - **B)** Incorreta. Prazos incompatíveis com a sistemática legal goiana.
-> - **C)** Incorreta. A lei estabelece prazos graduados de acordo com a gravidade da pena e não um prazo genérico e uniforme de 4 anos.
-> - **D)** Incorreta. A ação disciplinar prescreve em prazos certos, sendo 180 dias para advertência e 5 anos para demissão.
-> - **E)** Incorreta. Inversão e encurtamento aberrante dos prazos estatutários.
-> 
-> **Gabarito: A**

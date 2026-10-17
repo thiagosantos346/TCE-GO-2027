@@ -55,7 +55,6 @@
 - [4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton](#4-qualidade-de-vida-no-trabalho-qvt-modelo-de-richard-walton)
 - [5. Teletrabalho e Trabalho Híbrido no Setor Público](#5-teletrabalho-e-trabalho-hibrido-no-setor-publico)
 - [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
-- [7. Questões de Concurso FCC Comentadas](#7-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -101,6 +100,30 @@ flowchart TD
 
 ---
 
+### Questão 01
+**(FCC – Técnico de Controle Externo – Gestão Pública – TCE-AP)**  
+Em determinado órgão público estadual, a diretoria de Recursos Humanos decidiu substituir o método tradicional de escalas gráficas pelo método da Escolha Forçada, visando conferir maior neutralidade aos resultados avaliativos. Todavia, após a primeira rodada de avaliação, diversos gestores setoriais queixaram-se publicamente da nova ferramenta. À luz da teoria de Gestão de Pessoas, a principal limitação técnica inerente ao método da **Escolha Forçada** consiste em:
+
+* **A)** exigir pesados custos com a contratação permanente de psicólogos clínicos para entrevistar cada servidor individualmente.
+* **B)** apresentar acentuada vulnerabilidade à subjetividade pessoal do avaliador, facilitando o favorecimento sistemático de protegidos políticos.
+* **C)** impedir que os gestores forneçam um feedback formativo e transparente aos avaliados, visto que os pesos ponderados das frases são apurados estatisticamente pelo RH e não divulgados ao avaliador.
+* **D)** fixar compulsoriamente todas as avaliações no patamar intermediário de notas, provocando uma distorção generalizada por tendência central.
+* **E)** restringir-se exclusivamente à apuração de dados financeiros e orçamentários, sendo inaplicável a cargos de suporte administrativo.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A contratação de especialistas para entrevistas detalhadas é a característica marcante do método da Pesquisa de Campo, não da Escolha Forçada.  
+> - **B) Incorreta.** A maior vantagem da Escolha Forçada é precisamente **eliminar a subjetividade**, o favoritismo e a complacência, obrigando a escolha entre blocos de frases pré-definidas.  
+> - **C) CORRETA.** A crítica clássica e mais cobrada em concursos em relação ao método da **Escolha Forçada** é a sua **incapacidade de gerar feedback construtivo**: como as combinações de frases possuem ponderações estatísticas matemáticas tabuladas privativamente pela área de RH, a chefia imediata preenche o formulário sem saber exatamente como o servidor pontuou em cada quesito, impossibilitando orientá-lo sobre onde e como melhorar seu desempenho no trabalho.  
+> - **D) Incorreta.** A tendência central é a marca do método das Escalas Gráficas.  
+> - **E) Incorreta.** A Escolha Forçada é um método geral de avaliação comportamental, perfeitamente utilizável na área administrativa.  
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 2. Erros, Vieses e Distorções Cognitivas do Avaliador
 
 A subjetividade humana constitui o maior obstáculo à precisão da avaliação de desempenho:
@@ -130,6 +153,30 @@ flowchart LR
 
 ---
 
+### Questão 02
+**(FCC – Analista de Controle Externo – TCE-GO)**  
+Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual de desempenho de um técnico administrativo recém-lotado em sua gerência. Ao analisar a pontualidade impecável e a cortesia no atendimento demonstradas pelo servidor no dia a dia, o diretor atribuiu pontuação máxima em todos os itens da avaliação, inclusive naqueles relativos a domínio técnico avançado de auditoria de obras e redação de relatórios complexos, competências que sequer haviam sido desempenhadas ou verificadas no período. A falha cognitiva que maculou o procedimento avaliativo configura o denominado:
+
+* **A)** Erro de tendência central.
+* **B)** Efeito Halo.
+* **C)** Erro de rigor excessivo.
+* **D)** Viés de recência funcional.
+* **E)** Falso consenso heurístico.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** O erro de tendência central ocorre quando o avaliador evita notas extremas e coloca todos os subordinados na nota média intermediária.  
+> - **B) CORRETA.** O **Efeito Halo (*Halo Effect*)** é a distorção perceptiva na qual o avaliador permite que uma impressão positiva isolada a respeito de uma característica específica (neste caso, a pontualidade e simpatia) irradie e contamine favoravelmente o julgamento de todas as demais dimensões de competência técnica do avaliado, atribuindo-lhe notas excelentes em itens que sequer foram testados.  
+> - **C) Incorreta.** O rigor excessivo é a conduta implacável de conceder notas rebaixadas para praticamente toda a equipe.  
+> - **D) Incorreta.** O viés de recência refere-se à supervalorização de episódios temporais recentes (últimos dias do ciclo), esquecendo o restante do período.  
+> - **E) Incorreta.** O falso consenso é a presunção equivocada de que os outros indivíduos compartilham dos mesmos julgamentos e crenças do avaliador.  
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3. Remuneração e Planos de Carreira no Setor Público
 
 A remuneração no serviço público subordina-se a rígidos parâmetros constitucionais de legalidade e moralidade:
@@ -157,6 +204,30 @@ flowchart LR
 > O subsídio em parcela única (art. 39, § 4º da CF/88) **proíbe gratificações e adicionais de natureza remuneratória**, mas **NÃO impede verbas estritamente indenizatórias** (como diárias de viagem a serviço e ajuda de custo para transporte), visto que verbas indenizatórias apenas ressarcem despesas extraordinárias do agente e não integram a base remuneratória.
 
 ---
+
+### Questão 03
+**(FCC – Auditor de Controle Externo – TCE-RO)**  
+Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas categorias de agentes públicos devem ser remuneradas exclusivamente pelo regime de subsídio. A respeito dessa disciplina constitucional, é correto afirmar:
+
+* **A)** O subsídio é fixado em parcela única, sendo constitucionalmente lícito o pagamento cumulativo de gratificações de produtividade e adicionais de tempo de serviço.
+* **B)** O regime de subsídio veda o acréscimo de qualquer gratificação, adicional, abono, prêmio ou verba de representação, ressalvado o pagamento de parcelas de natureza estritamente indenizatória previstas em lei.
+* **C)** O subsídio mensal dos servidores públicos estaduais não se subordina ao teto remuneratório constitucional, tendo em vista a autonomia federativa ampla dos Estados-membros.
+* **D)** O pagamento de diárias e de ajuda de custo para ressarcir despesas extraordinárias com deslocamento a serviço é terminantemente vedado aos agentes remunerados por subsídio.
+* **E)** O subsídio pode ser instituído discricionariamente mediante portaria interna expedida pelo Presidente do Tribunal de Contas, prescindindo de lei formal específica.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** O subsídio veda terminantemente a inclusão de gratificações por tempo de serviço ou adicionais de produtividade típicos da remuneração composta.  
+> - **B) CORRETA.** Conforme a redação expressa do art. 39, § 4º da CF/88, o subsídio é fixado em **parcela única, vedado o acréscimo de qualquer gratificação, adicional, abono, prêmio, verba de representação** ou outra espécie remuneratória. A jurisprudência consolidada do STF ressalva expressamente que essa vedação **não atinge parcelas de natureza estritamente indenizatória** (como diárias e indenização de transporte), pois elas visam ressarcir despesas suportadas pelo agente público no interesse do serviço e não constituem ganho patrimonial.  
+> - **C) Incorreta.** Todos os subsídios subordinam-se expressamente ao teto remuneratório constitucional previsto no art. 37, XI da CF/88.  
+> - **D) Incorreta.** Diárias e ajuda de custo são parcelas indenizatórias legítimas e plenamente compatíveis com o regime de subsídio.  
+> - **E) Incorreta.** A fixação ou alteração de subsídios exige obrigatoriamente lei formal específica (princípio da reserva legal).  
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton
 
@@ -190,85 +261,7 @@ flowchart TD
 
 ---
 
-### 5. Teletrabalho e Trabalho Híbrido no Setor Público
-
-A consolidação do regime de teletrabalho transformou a dinâmica das instituições de controle externo (como os Tribunais de Contas):
-
-* **Superação do Paradigma Cartorial:** Substituição definitiva da mera fiscalização da presença física e batimento de ponto pelo modelo contemporâneo de **Pacto de Resultados e Metas Mensuráveis**:
-    - O servidor em teletrabalho não se subordina ao controle tradicional de frequência horária;
-    - Deve entregar metas previamente pactuadas com a chefia imediata (frequentemente estipuladas com produtividade superior à exigida no trabalho presencial).
-* **Vantagens para a Administração Pública:**
-    1. Redução expressiva dos custos fixos de manutenção predial (energia elétrica, água, insumos de escritório, mobiliário);
-    2. Aumento comprovado de produtividade na análise minuciosa de processos licitatórios e relatórios de auditoria que demandam concentração prolongada;
-    3. Atração e fixação de quadros técnicos qualificados;
-    4. Redução da pegada de carbono e melhoria na mobilidade urbana das cidades.
-
-* **Desafios e Riscos Gerenciais:**
-    - **Sensação de Isolamento Social e Afastamento Cultural:** Risco de o servidor perder o senso de identidade e comunhão com a missão do órgão;
-    - **Segurança da Informação e Sigilo de Processos:** Necessidade de criptografia avançada, redes privadas virtuais (VPN) e certificação digital;
-    - **Direito à Desconexão e Síndrome de *Burnout*:** Risco de o servidor trabalhar ininterruptamente no espaço doméstico. A administração pública deve estabelecer políticas rígidas de respeito aos períodos de repouso e desconexão digital fora do expediente pactuado.
-
----
-
-### 6. Fontes Oficiais e Referências Bibliográficas
-
-* [Decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho - PGD e Teletrabalho)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Disciplina o teletrabalho, planos de trabalho individuais, metas de produtividade e qualidade das entregas.
-* [Constituição Federal de 1988 - Art. 41, § 1º, III (Avaliação Periódica de Desempenho)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Condição constitucional para perda de cargo do servidor estável mediante procedimento de avaliação periódica de desempenho.
-* [Lei Estadual nº 20.756/2020 - Da Avaliação Especial e Periódica de Desempenho](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Critérios de estágio probatório, avaliação periódica e teletrabalho para servidores públicos de Goiás.
-* [Lei Estadual nº 15.122/2005 (Estrutura Remuneratória e Progressão no TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/80023/lei-15122) - Vencimentos, progressões, promoções por mérito e gratificações dos servidores do TCE-GO.
-* [TCU - Governança da Gestão de Pessoas e Teletrabalho](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial de boas práticas para acompanhamento do desempenho individual e institucional.
-* CHIAVENATO, Idalberto. **Gestão de Pessoas: O Novo Papel dos Recursos Humanos nas Organizações**. 5. ed. São Paulo: Atlas, 2020. (Cap. 8 - Avaliação do Desempenho Humano; Cap. 9 - Remuneração; Cap. 13 - Qualidade de Vida no Trabalho).
-* MARRAS, Jean Pierre. **Administração de Recursos Humanos: Do Operacional ao Estratégico**. 15. ed. São Paulo: Saraiva, 2016. (Cap. 7 - Avaliação de Desempenho; Cap. 8 - Remuneração e Benefícios).
-* LIMONGI-FRANÇA, Ana Cristina. **Qualidade de Vida no Trabalho - QVT: Conceitos e Práticas nas Empresas da Sociedade Pós-Industrial**. 2. ed. São Paulo: Atlas, 2012. (Cap. 2 - Modelos de QVT: Walton e Nadler-Lawler).
-
-
-### 7. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – Analista de Controle Externo – TCE-GO)**  
-Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual de desempenho de um técnico administrativo recém-lotado em sua gerência. Ao analisar a pontualidade impecável e a cortesia no atendimento demonstradas pelo servidor no dia a dia, o diretor atribuiu pontuação máxima em todos os itens da avaliação, inclusive naqueles relativos a domínio técnico avançado de auditoria de obras e redação de relatórios complexos, competências que sequer haviam sido desempenhadas ou verificadas no período. A falha cognitiva que maculou o procedimento avaliativo configura o denominado:
-
-* **A)** Erro de tendência central.
-* **B)** Efeito Halo.
-* **C)** Erro de rigor excessivo.
-* **D)** Viés de recência funcional.
-* **E)** Falso consenso heurístico.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O erro de tendência central ocorre quando o avaliador evita notas extremas e coloca todos os subordinados na nota média intermediária.  
-> - **B) CORRETA.** O **Efeito Halo (*Halo Effect*)** é a distorção perceptiva na qual o avaliador permite que uma impressão positiva isolada a respeito de uma característica específica (neste caso, a pontualidade e simpatia) irradie e contamine favoravelmente o julgamento de todas as demais dimensões de competência técnica do avaliado, atribuindo-lhe notas excelentes em itens que sequer foram testados.  
-> - **C) Incorreta.** O rigor excessivo é a conduta implacável de conceder notas rebaixadas para praticamente toda a equipe.  
-> - **D) Incorreta.** O viés de recência refere-se à supervalorização de episódios temporais recentes (últimos dias do ciclo), esquecendo o restante do período.  
-> - **E) Incorreta.** O falso consenso é a presunção equivocada de que os outros indivíduos compartilham dos mesmos julgamentos e crenças do avaliador.  
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC – Técnico de Controle Externo – Gestão Pública – TCE-AP)**  
-Em determinado órgão público estadual, a diretoria de Recursos Humanos decidiu substituir o método tradicional de escalas gráficas pelo método da Escolha Forçada, visando conferir maior neutralidade aos resultados avaliativos. Todavia, após a primeira rodada de avaliação, diversos gestores setoriais queixaram-se publicamente da nova ferramenta. À luz da teoria de Gestão de Pessoas, a principal limitação técnica inerente ao método da **Escolha Forçada** consiste em:
-
-* **A)** exigir pesados custos com a contratação permanente de psicólogos clínicos para entrevistar cada servidor individualmente.
-* **B)** apresentar acentuada vulnerabilidade à subjetividade pessoal do avaliador, facilitando o favorecimento sistemático de protegidos políticos.
-* **C)** impedir que os gestores forneçam um feedback formativo e transparente aos avaliados, visto que os pesos ponderados das frases são apurados estatisticamente pelo RH e não divulgados ao avaliador.
-* **D)** fixar compulsoriamente todas as avaliações no patamar intermediário de notas, provocando uma distorção generalizada por tendência central.
-* **E)** restringir-se exclusivamente à apuração de dados financeiros e orçamentários, sendo inaplicável a cargos de suporte administrativo.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A contratação de especialistas para entrevistas detalhadas é a característica marcante do método da Pesquisa de Campo, não da Escolha Forçada.  
-> - **B) Incorreta.** A maior vantagem da Escolha Forçada é precisamente **eliminar a subjetividade**, o favoritismo e a complacência, obrigando a escolha entre blocos de frases pré-definidas.  
-> - **C) CORRETA.** A crítica clássica e mais cobrada em concursos em relação ao método da **Escolha Forçada** é a sua **incapacidade de gerar feedback construtivo**: como as combinações de frases possuem ponderações estatísticas matemáticas tabuladas privativamente pela área de RH, a chefia imediata preenche o formulário sem saber exatamente como o servidor pontuou em cada quesito, impossibilitando orientá-lo sobre onde e como melhorar seu desempenho no trabalho.  
-> - **D) Incorreta.** A tendência central é a marca do método das Escalas Gráficas.  
-> - **E) Incorreta.** A Escolha Forçada é um método geral de avaliação comportamental, perfeitamente utilizável na área administrativa.  
-> 
-> **Gabarito: C**
-
----
-
-### Questão 03
+### Questão 04
 **(FCC – Analista Judiciário – TRT-21ª)**  
 O modelo conceitual de Qualidade de Vida no Trabalho (QVT) estruturado por Richard Walton estabelece oito dimensões fundamentais para a criação de um ecossistema laboral saudável e motivador. A dimensão que prevê expressamente o respeito à privacidade dos colaboradores, a vigência de regras claras e transparentes de conduta funcional, a liberdade de expressão responsável e a garantia do devido processo legal e ampla defesa diante de averiguações funcionais é denominada por Walton de:
 
@@ -290,25 +283,25 @@ O modelo conceitual de Qualidade de Vida no Trabalho (QVT) estruturado por Richa
 
 ---
 
-### Questão 04
-**(FCC – Auditor de Controle Externo – TCE-RO)**  
-Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas categorias de agentes públicos devem ser remuneradas exclusivamente pelo regime de subsídio. A respeito dessa disciplina constitucional, é correto afirmar:
 
-* **A)** O subsídio é fixado em parcela única, sendo constitucionalmente lícito o pagamento cumulativo de gratificações de produtividade e adicionais de tempo de serviço.
-* **B)** O regime de subsídio veda o acréscimo de qualquer gratificação, adicional, abono, prêmio ou verba de representação, ressalvado o pagamento de parcelas de natureza estritamente indenizatória previstas em lei.
-* **C)** O subsídio mensal dos servidores públicos estaduais não se subordina ao teto remuneratório constitucional, tendo em vista a autonomia federativa ampla dos Estados-membros.
-* **D)** O pagamento de diárias e de ajuda de custo para ressarcir despesas extraordinárias com deslocamento a serviço é terminantemente vedado aos agentes remunerados por subsídio.
-* **E)** O subsídio pode ser instituído discricionariamente mediante portaria interna expedida pelo Presidente do Tribunal de Contas, prescindindo de lei formal específica.
 
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O subsídio veda terminantemente a inclusão de gratificações por tempo de serviço ou adicionais de produtividade típicos da remuneração composta.  
-> - **B) CORRETA.** Conforme a redação expressa do art. 39, § 4º da CF/88, o subsídio é fixado em **parcela única, vedado o acréscimo de qualquer gratificação, adicional, abono, prêmio, verba de representação** ou outra espécie remuneratória. A jurisprudência consolidada do STF ressalva expressamente que essa vedação **não atinge parcelas de natureza estritamente indenizatória** (como diárias e indenização de transporte), pois elas visam ressarcir despesas suportadas pelo agente público no interesse do serviço e não constituem ganho patrimonial.  
-> - **C) Incorreta.** Todos os subsídios subordinam-se expressamente ao teto remuneratório constitucional previsto no art. 37, XI da CF/88.  
-> - **D) Incorreta.** Diárias e ajuda de custo são parcelas indenizatórias legítimas e plenamente compatíveis com o regime de subsídio.  
-> - **E) Incorreta.** A fixação ou alteração de subsídios exige obrigatoriamente lei formal específica (princípio da reserva legal).  
-> 
-> **Gabarito: B**
+### 5. Teletrabalho e Trabalho Híbrido no Setor Público
+
+A consolidação do regime de teletrabalho transformou a dinâmica das instituições de controle externo (como os Tribunais de Contas):
+
+* **Superação do Paradigma Cartorial:** Substituição definitiva da mera fiscalização da presença física e batimento de ponto pelo modelo contemporâneo de **Pacto de Resultados e Metas Mensuráveis**:
+    - O servidor em teletrabalho não se subordina ao controle tradicional de frequência horária;
+    - Deve entregar metas previamente pactuadas com a chefia imediata (frequentemente estipuladas com produtividade superior à exigida no trabalho presencial).
+* **Vantagens para a Administração Pública:**
+    1. Redução expressiva dos custos fixos de manutenção predial (energia elétrica, água, insumos de escritório, mobiliário);
+    2. Aumento comprovado de produtividade na análise minuciosa de processos licitatórios e relatórios de auditoria que demandam concentração prolongada;
+    3. Atração e fixação de quadros técnicos qualificados;
+    4. Redução da pegada de carbono e melhoria na mobilidade urbana das cidades.
+
+* **Desafios e Riscos Gerenciais:**
+    - **Sensação de Isolamento Social e Afastamento Cultural:** Risco de o servidor perder o senso de identidade e comunhão com a missão do órgão;
+    - **Segurança da Informação e Sigilo de Processos:** Necessidade de criptografia avançada, redes privadas virtuais (VPN) e certificação digital;
+    - **Direito à Desconexão e Síndrome de *Burnout*:** Risco de o servidor trabalhar ininterruptamente no espaço doméstico. A administração pública deve estabelecer políticas rígidas de respeito aos períodos de repouso e desconexão digital fora do expediente pactuado.
 
 ---
 
@@ -331,3 +324,18 @@ Com o avanço da transformação digital na administração pública, o regime d
 > - **E) Incorreta.** A permanência em teletrabalho não constitui direito adquirido; trata-se de regime precário e revogável por necessidade do serviço ou interesse da administração pública a qualquer momento.  
 > 
 > **Gabarito: C**
+
+---
+
+
+
+### 6. Fontes Oficiais e Referências Bibliográficas
+
+* [Decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho - PGD e Teletrabalho)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Disciplina o teletrabalho, planos de trabalho individuais, metas de produtividade e qualidade das entregas.
+* [Constituição Federal de 1988 - Art. 41, § 1º, III (Avaliação Periódica de Desempenho)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Condição constitucional para perda de cargo do servidor estável mediante procedimento de avaliação periódica de desempenho.
+* [Lei Estadual nº 20.756/2020 - Da Avaliação Especial e Periódica de Desempenho](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Critérios de estágio probatório, avaliação periódica e teletrabalho para servidores públicos de Goiás.
+* [Lei Estadual nº 15.122/2005 (Estrutura Remuneratória e Progressão no TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/80023/lei-15122) - Vencimentos, progressões, promoções por mérito e gratificações dos servidores do TCE-GO.
+* [TCU - Governança da Gestão de Pessoas e Teletrabalho](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial de boas práticas para acompanhamento do desempenho individual e institucional.
+* CHIAVENATO, Idalberto. **Gestão de Pessoas: O Novo Papel dos Recursos Humanos nas Organizações**. 5. ed. São Paulo: Atlas, 2020. (Cap. 8 - Avaliação do Desempenho Humano; Cap. 9 - Remuneração; Cap. 13 - Qualidade de Vida no Trabalho).
+* MARRAS, Jean Pierre. **Administração de Recursos Humanos: Do Operacional ao Estratégico**. 15. ed. São Paulo: Saraiva, 2016. (Cap. 7 - Avaliação de Desempenho; Cap. 8 - Remuneração e Benefícios).
+* LIMONGI-FRANÇA, Ana Cristina. **Qualidade de Vida no Trabalho - QVT: Conceitos e Práticas nas Empresas da Sociedade Pós-Industrial**. 2. ed. São Paulo: Atlas, 2012. (Cap. 2 - Modelos de QVT: Walton e Nadler-Lawler).

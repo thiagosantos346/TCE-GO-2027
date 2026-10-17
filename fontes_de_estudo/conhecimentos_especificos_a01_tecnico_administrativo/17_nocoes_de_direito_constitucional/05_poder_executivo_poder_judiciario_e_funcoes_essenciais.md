@@ -44,7 +44,6 @@
     - [3.3 Defensoria Pública (Arts. 134 e 135)](#33-defensoria-publica-arts-134-e-135)
     - [3.4 Advocacia Privada (Art. 133)](#34-advocacia-privada-art-133)
 - [4. Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
-- [5. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -72,6 +71,29 @@ flowchart TD
 
 ---
 
+### Questão 01 (FCC - Adaptada / Analista de Controle Externo)
+Na hipótese de ocorrer a vacância simultânea e definitiva dos cargos de Presidente e de Vice-Presidente da República no terceiro ano do mandato presidencial:
+
+* **A)** Assumirá definitivamente a Presidência o Presidente da Câmara dos Deputados até a conclusão regular do quadriênio.
+* **B)** Serão convocadas eleições diretas no prazo de noventa dias contados da abertura da última vaga para mandato de quatro anos completos.
+* **C)** A eleição para ambos os cargos será realizada trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei, para cumprimento do restante do mandato.
+* **D)** O Presidente do Supremo Tribunal Federal governará o país em comissão até a posse dos novos mandatários eleitos pelo sufrágio universal.
+* **E)** Haverá intervenção militar provisória até que o Colégio Eleitoral estadual convoque novo plebiscito presidencial.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** O Presidente da Câmara figura apenas na linha de substituição temporária (art. 80), não assumindo mandato em caráter definitivo em caso de dupla vacância.  
+> - **B) Incorreta:** Eleições diretas em 90 dias só ocorrem se a dupla vacância acontecer nos **dois primeiros anos** do mandato (art. 81, *caput*).  
+> - **C) CORRETA:** Nos termos do art. 81, § 1º, da CF/88, ocorrendo a vacância nos **últimos dois anos do mandato** (caso do enunciado, que citou o terceiro ano), a eleição para ambos os cargos será feita **trinta dias depois da última vaga, pelo Congresso Nacional (eleição indireta)**, cabendo aos eleitos completar o período dos antecessores (*mandato-tampão* - art. 81, § 2º).  
+> - **D) Incorreta:** O Presidente do STF é apenas o último na linha sucessória temporária de substituição interina do cargo enquanto não se conclui a nova eleição.  
+> - **E) Incorreta:** A solução constitucional para a vacância é integralmente civil e parlamentar, consoante as regras do art. 81.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 #### 1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)
 O art. 84 fixa as competências privativas do Presidente da República. Em regra, são privativas e indelegáveis. Todavia, a Constituição autoriza a **delegação de apenas TRÊS matérias específicas**:
 
@@ -93,6 +115,29 @@ flowchart LR
 > - **Extinção de Cargos Públicos Ocupados:** Depende obrigatoriamente de lei formal. Por decreto autônomo, o Chefe do Executivo só pode extinguir cargos e funções quando estiverem **vagos**!
 
 ---
+
+### Questão 02 (FCC - Adaptada / Analista Judiciário - TRT)
+A respeito das atribuições constitucionais do Presidente da República e da possibilidade de delegação de competências, consoante o disposto expressamente na Constituição Federal de 1988:
+
+* **A)** O Presidente da República pode delegar a competência para a criação ou extinção de Ministérios e órgãos da administração pública ao Ministro de Estado da respectiva pasta.
+* **B)** É delegável ao Procurador-Geral da República e ao Advogado-Geral da União a atribuição privativa de conceder indulto e comutar penas.
+* **C)** A decretação de intervenção federal e a celebração de tratados de paz com nações estrangeiras podem ser delegadas ao Ministro de Estado da Justiça e Segurança Pública.
+* **D)** O provimento e a extinção de cargos públicos federais ocupados podem ser livremente delegados ao Advogado-Geral da União mediante portaria ministerial.
+* **E)** As atribuições privativas do Presidente da República são personalíssimas e indelegáveis sob qualquer hipótese, em observância estrita ao princípio da separação dos poderes.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** A criação e a extinção de Ministérios e órgãos públicos dependem obrigatoriamente de lei formal (art. 88 da CF/88), sendo matéria indelegável.  
+> - **B) CORRETA:** De acordo com o art. 84, parágrafo único, da CF/88, o Presidente da República poderá delegar as atribuições mencionadas nos incisos VI (decreto autônomo), XII (conceder indulto e comutar penas) e XXV, primeira parte (prover cargos públicos federais vagos), aos Ministros de Estado, ao **Procurador-Geral da República** ou ao **Advogado-Geral da União**.  
+> - **C) Incorreta:** Decretar e executar intervenção federal (art. 84, X) e celebrar a paz (art. 84, XX) são competências indelegáveis e exclusivas do Presidente da República.  
+> - **D) Incorreta:** A delegação do inciso XXV é expressamente restrita ao **provimento** de cargos públicos (primeira parte). A extinção de cargos ocupados depende de lei ordinária e jamais pode ser delegada.  
+> - **E) Incorreta:** O parágrafo único do art. 84 admite a delegação taxativa de três incisos aos destinatários indicados na própria Carta Magna.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 #### 1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)
 O Presidente da República responde perante o STF por crimes comuns e perante o Senado Federal por crimes de responsabilidade (*impeachment*).
@@ -138,6 +183,30 @@ flowchart TD
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > O CNJ **NÃO tem competência jurisdicional**! O CNJ não pode anular sentença de juiz, não pode apreciar recursos contra decisões judiciais e não pode revogar liminares concedidas em processos judiciais. Qualquer questão da FCC que afirme que o CNJ "reformou a sentença de primeiro grau por contrariar a lei" está redondamente incorreta! O controle jurisdicional pertence exclusivamente às instâncias recursais (TJ, TRF, STJ, STF).
 
+---
+
+### Questão 03 (FCC - Adaptada / Técnico Judiciário - Área Administrativa)
+Sobre a estrutura e as atribuições do Conselho Nacional de Justiça (CNJ), com esteio nas normas da Constituição Federal de 1988 e na jurisprudência vinculante do Supremo Tribunal Federal, é correto afirmar:
+
+* **A)** É órgão de cúpula recursal do Poder Judiciário, possuindo competência para reformar decisões de mérito proferidas por Tribunais de Justiça que contrariem a jurisprudência pacífica.
+* **B)** É composto por quinze membros, com mandato de dois anos, admitida uma recondução, e presidido pelo Ministro Presidente do Supremo Tribunal Federal.
+* **C)** Detém competência privativa para propor projetos de lei orçamentária e emendas à Constituição que tratem do estatuto da magistratura nacional.
+* **D)** Seus atos e decisões em sede de fiscalização administrativa e disciplinar são imunes ao controle jurisdicional do Supremo Tribunal Federal.
+* **E)** É composto exclusivamente por magistrados togados de carreira, sendo vedada a nomeação de advogados e membros do Ministério Público em seu colegiado.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** O CNJ não exerce qualquer atividade jurisdicional ou recursal típica, não possuindo poder para cassar ou reformar decisões judiciais de mérito (art. 103-B, § 4º).  
+> - **B) CORRETA:** Reproduz a literalidade do art. 103-B da CF/88: o Conselho Nacional de Justiça compõe-se de 15 membros com mandato de dois anos, admitida uma única recondução, sob a presidência do Presidente do STF.  
+> - **C) Incorreta:** O CNJ não possui iniciativa privativa para deflagrar Propostas de Emenda à Constituição (art. 60) nem leis que disciplinem o estatuto da magistratura (atribuição do STF - art. 93).  
+> - **D) Incorreta:** Compete ao STF processar e julgar, originariamente, as ações contra o CNJ (art. 102, I, "r", da CF/88).  
+> - **E) Incorreta:** O CNJ possui composição heterogênea que inclui 2 membros do Ministério Público, 2 advogados indicados pelo Conselho Federal da OAB e 2 cidadãos indicados pelo Congresso Nacional (art. 103-B).
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 2.3 Supremo Tribunal Federal e o Regime da Súmula Vinculante (Art. 103-A)
 - **Composição do STF:** 11 Ministros, escolhidos dentre cidadãos com mais de 35 e menos de 70 anos de idade, de notável saber jurídico e reputação ilibada, nomeados pelo Presidente da República após aprovação pela maioria absoluta do Senado Federal.
 - **Aprovação e Cancelamento de Súmula Vinculante:** O STF pode, de ofício ou por provocação, mediante decisão de **dois terços (2/3) dos seus membros (8 votos)**, aprovar, revisar ou cancelar enunciado de súmula vinculante, após reiteradas decisões sobre matéria constitucional.
@@ -146,6 +215,32 @@ flowchart TD
     - O próprio STF não é vinculado (pode cancelar ou alterar suas súmulas).
     - O **Poder Legislativo em sua atividade legiferante típica NÃO é vinculado**! O Congresso Nacional pode aprovar lei com conteúdo diametralmente oposto ao estabelecido em súmula vinculante (*legiferação reativa*), sem que isso configure desobediência.
 - **Instrumento Processual de Defesa:** Contra ato administrativo ou decisão judicial que contrariar a súmula vinculante ou aplicá-la indevidamente, cabe **Reclamação Constitucional** diretamente ao STF (Art. 103-A, § 3º).
+
+---
+
+### Questão 04 (FCC - Adaptada / Analista de Gestão Pública)
+O Supremo Tribunal Federal aprovou enunciado de Súmula Vinculante versando sobre critérios de nomeação para cargos em comissão na Administração Pública. Meses após a publicação do verbete sumular no Diário Oficial, a Assembleia Legislativa de determinado Estado aprovou lei ordinária cujo texto contraria expressamente o entendimento consolidado na referida Súmula Vinculante.
+
+À luz do artigo 103-A da Constituição Federal de 1988 e da doutrina constitucional brasileira:
+
+* **A)** A lei estadual é nula de pleno direito no próprio ato de votação legislativa, tendo em vista que a Súmula Vinculante vincula diretamente o Poder Legislativo no exercício de sua atividade típica de elaboração das leis.
+* **B)** O Governador do Estado e os órgãos da Administração Pública estadual ficam vinculados à Súmula Vinculante, mas o Poder Legislativo, em sua função legiferante típica, não se submete ao efeito vinculante do enunciado.
+* **C)** O STF deverá determinar a dissolução compulsória da Mesa Diretora da Assembleia Legislativa por crime de desobediência a provimento sumular.
+* **D)** Qualquer Deputado Estadual pode ajuizar Reclamação Constitucional para anular os debates legislativos em plenário com fundamento no efeito vinculante da súmula.
+* **E)** A Súmula Vinculante produz efeitos apenas no âmbito dos órgãos do Poder Judiciário, não gerando obrigações para a administração direta dos Estados.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** A Súmula Vinculante não atinge o Poder Legislativo em sua função legislativa típica (*efeito não fossilizante* do ordenamento). O parlamento é livre para inovar legislativamente mesmo contra súmulas vinculantes.  
+> - **B) CORRETA:** O art. 103-A da CF/88 estabelece que a Súmula Vinculante terá efeito vinculante em relação aos demais órgãos do Poder Judiciário e à **Administração Pública direta e indireta, nas esferas federal, estadual e municipal**. Ela não vincula o Legislativo em sua atividade típica de legislar nem vincula o próprio STF.  
+> - **C) Incorreta:** Não há previsão constitucional de dissolução de mesa legislativa pelo STF por atividade legiferante.  
+> - **D) Incorreta:** Não cabe Reclamação Constitucional contra processo legislativo em trâmite sob alegação de contrariedade a Súmula Vinculante (jurisprudência pacífica do STF).  
+> - **E) Incorreta:** O art. 103-A obriga expressamente toda a Administração Pública de todos os entes federados (União, Estados, DF e Municípios).
+> 
+> **Gabarito: B**
+
+---
+
 
 #### 2.4 Superior Tribunal de Justiça e o Filtro de Relevância (Arts. 104 e 105)
 - **Composição do STJ:** No mínimo 33 Ministros, nomeados pelo Presidente da República após aprovação por maioria absoluta do Senado Federal, entre brasileiros com mais de 35 e menos de 70 anos.
@@ -173,97 +268,9 @@ flowchart TD
     - *Ministério Público dos Estados (PGJ):* Escolhido pelo Governador a partir de lista tríplice formada pelos integrantes da carreira, para mandato de 2 anos, permitida uma única recondução consecutiva.
 - **Conselho Nacional do Ministério Público (CNMP - Art. 130-A):** Órgão de controle administrativo, financeiro e disciplinar do Ministério Público, composto por **14 membros** e presidido pelo Procurador-Geral da República.
 
-#### 3.2 Advocacia Pública (Arts. 131 e 132)
-Incumbe privativamente aos Procuradores do Estado (PGE-GO) e do DF a representação judicial e a consultoria jurídica das respectivas unidades federadas. O ingresso depende de concurso público de provas e títulos, com a **participação obrigatória da Ordem dos Advogados do Brasil em todas as suas fases**.
-
-#### 3.3 Defensoria Pública (Arts. 134 e 135)
-Instituição essencial incumbida da promoção dos direitos humanos e da orientação jurídica e defesa integral e gratuita dos necessitados. Possui **autonomia funcional, administrativa e orçamentária expressa**, não se subordinando a nenhuma Secretaria de Estado ou Ministério.
-
-#### 3.4 Advocacia Privada (Art. 133)
-O advogado é indispensável à administração da justiça, sendo inviolável por seus atos e manifestações no exercício da profissão, nos limites da lei.
-
 ---
 
-## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
-
-* [Constituição Federal de 1988 - Arts. 76 a 91 (Poder Executivo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art76) - Eleição, posse, atribuições privativas do Presidente da República e responsabilidade política/crime de responsabilidade.
-* [Constituição Federal de 1988 - Arts. 92 a 126 (Poder Judiciário)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art92) - Órgãos do Poder Judiciário, garantias da magistratura, competências do STF, STJ e Tribunais Regionais.
-* [Constituição Federal de 1988 - Arts. 127 a 135 (Funções Essenciais à Justiça)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art127) - Ministério Público (princípios institucionais e garantias), Advocacia Pública e Defensoria Pública.
-* [Constituição do Estado de Goiás - Título IV (Da Organização dos Poderes)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Organização do Poder Executivo, Judiciário e Ministério Público junto ao Tribunal de Contas de Goiás.
-* [STF Súmula Vinculante 13 (Vedação ao Nepotismo nos Poderes da República)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=13) - Aplicação uniforme da proibição de nepotismo nos Poderes Executivo, Legislativo e Judiciário.
-* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 12 - O Poder Executivo; Cap. 13 - O Poder Judiciário; Cap. 14 - As Funções Essenciais à Justiça).
-* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 8 - Poder Executivo; Cap. 9 - Poder Judiciário; Cap. 10 - Funções Essenciais).
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 2 - Regime Jurídico-Administrativo e Separação dos Poderes).
-
-
-## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
-
-### Questão 1 (FCC - Adaptada / Analista Judiciário - TRT)
-A respeito das atribuições constitucionais do Presidente da República e da possibilidade de delegação de competências, consoante o disposto expressamente na Constituição Federal de 1988:
-
-* **A)** O Presidente da República pode delegar a competência para a criação ou extinção de Ministérios e órgãos da administração pública ao Ministro de Estado da respectiva pasta.
-* **B)** É delegável ao Procurador-Geral da República e ao Advogado-Geral da União a atribuição privativa de conceder indulto e comutar penas.
-* **C)** A decretação de intervenção federal e a celebração de tratados de paz com nações estrangeiras podem ser delegadas ao Ministro de Estado da Justiça e Segurança Pública.
-* **D)** O provimento e a extinção de cargos públicos federais ocupados podem ser livremente delegados ao Advogado-Geral da União mediante portaria ministerial.
-* **E)** As atribuições privativas do Presidente da República são personalíssimas e indelegáveis sob qualquer hipótese, em observância estrita ao princípio da separação dos poderes.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** A criação e a extinção de Ministérios e órgãos públicos dependem obrigatoriamente de lei formal (art. 88 da CF/88), sendo matéria indelegável.  
-> - **B) CORRETA:** De acordo com o art. 84, parágrafo único, da CF/88, o Presidente da República poderá delegar as atribuições mencionadas nos incisos VI (decreto autônomo), XII (conceder indulto e comutar penas) e XXV, primeira parte (prover cargos públicos federais vagos), aos Ministros de Estado, ao **Procurador-Geral da República** ou ao **Advogado-Geral da União**.  
-> - **C) Incorreta:** Decretar e executar intervenção federal (art. 84, X) e celebrar a paz (art. 84, XX) são competências indelegáveis e exclusivas do Presidente da República.  
-> - **D) Incorreta:** A delegação do inciso XXV é expressamente restrita ao **provimento** de cargos públicos (primeira parte). A extinção de cargos ocupados depende de lei ordinária e jamais pode ser delegada.  
-> - **E) Incorreta:** O parágrafo único do art. 84 admite a delegação taxativa de três incisos aos destinatários indicados na própria Carta Magna.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / Técnico Judiciário - Área Administrativa)
-Sobre a estrutura e as atribuições do Conselho Nacional de Justiça (CNJ), com esteio nas normas da Constituição Federal de 1988 e na jurisprudência vinculante do Supremo Tribunal Federal, é correto afirmar:
-
-* **A)** É órgão de cúpula recursal do Poder Judiciário, possuindo competência para reformar decisões de mérito proferidas por Tribunais de Justiça que contrariem a jurisprudência pacífica.
-* **B)** É composto por quinze membros, com mandato de dois anos, admitida uma recondução, e presidido pelo Ministro Presidente do Supremo Tribunal Federal.
-* **C)** Detém competência privativa para propor projetos de lei orçamentária e emendas à Constituição que tratem do estatuto da magistratura nacional.
-* **D)** Seus atos e decisões em sede de fiscalização administrativa e disciplinar são imunes ao controle jurisdicional do Supremo Tribunal Federal.
-* **E)** É composto exclusivamente por magistrados togados de carreira, sendo vedada a nomeação de advogados e membros do Ministério Público em seu colegiado.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O CNJ não exerce qualquer atividade jurisdicional ou recursal típica, não possuindo poder para cassar ou reformar decisões judiciais de mérito (art. 103-B, § 4º).  
-> - **B) CORRETA:** Reproduz a literalidade do art. 103-B da CF/88: o Conselho Nacional de Justiça compõe-se de 15 membros com mandato de dois anos, admitida uma única recondução, sob a presidência do Presidente do STF.  
-> - **C) Incorreta:** O CNJ não possui iniciativa privativa para deflagrar Propostas de Emenda à Constituição (art. 60) nem leis que disciplinem o estatuto da magistratura (atribuição do STF - art. 93).  
-> - **D) Incorreta:** Compete ao STF processar e julgar, originariamente, as ações contra o CNJ (art. 102, I, "r", da CF/88).  
-> - **E) Incorreta:** O CNJ possui composição heterogênea que inclui 2 membros do Ministério Público, 2 advogados indicados pelo Conselho Federal da OAB e 2 cidadãos indicados pelo Congresso Nacional (art. 103-B).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Adaptada / Analista de Gestão Pública)
-O Supremo Tribunal Federal aprovou enunciado de Súmula Vinculante versando sobre critérios de nomeação para cargos em comissão na Administração Pública. Meses após a publicação do verbete sumular no Diário Oficial, a Assembleia Legislativa de determinado Estado aprovou lei ordinária cujo texto contraria expressamente o entendimento consolidado na referida Súmula Vinculante.
-
-À luz do artigo 103-A da Constituição Federal de 1988 e da doutrina constitucional brasileira:
-
-* **A)** A lei estadual é nula de pleno direito no próprio ato de votação legislativa, tendo em vista que a Súmula Vinculante vincula diretamente o Poder Legislativo no exercício de sua atividade típica de elaboração das leis.
-* **B)** O Governador do Estado e os órgãos da Administração Pública estadual ficam vinculados à Súmula Vinculante, mas o Poder Legislativo, em sua função legiferante típica, não se submete ao efeito vinculante do enunciado.
-* **C)** O STF deverá determinar a dissolução compulsória da Mesa Diretora da Assembleia Legislativa por crime de desobediência a provimento sumular.
-* **D)** Qualquer Deputado Estadual pode ajuizar Reclamação Constitucional para anular os debates legislativos em plenário com fundamento no efeito vinculante da súmula.
-* **E)** A Súmula Vinculante produz efeitos apenas no âmbito dos órgãos do Poder Judiciário, não gerando obrigações para a administração direta dos Estados.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** A Súmula Vinculante não atinge o Poder Legislativo em sua função legislativa típica (*efeito não fossilizante* do ordenamento). O parlamento é livre para inovar legislativamente mesmo contra súmulas vinculantes.  
-> - **B) CORRETA:** O art. 103-A da CF/88 estabelece que a Súmula Vinculante terá efeito vinculante em relação aos demais órgãos do Poder Judiciário e à **Administração Pública direta e indireta, nas esferas federal, estadual e municipal**. Ela não vincula o Legislativo em sua atividade típica de legislar nem vincula o próprio STF.  
-> - **C) Incorreta:** Não há previsão constitucional de dissolução de mesa legislativa pelo STF por atividade legiferante.  
-> - **D) Incorreta:** Não cabe Reclamação Constitucional contra processo legislativo em trâmite sob alegação de contrariedade a Súmula Vinculante (jurisprudência pacífica do STF).  
-> - **E) Incorreta:** O art. 103-A obriga expressamente toda a Administração Pública de todos os entes federados (União, Estados, DF e Municípios).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / Oficial de Defensoria Pública)
+### Questão 05 (FCC - Adaptada / Oficial de Defensoria Pública)
 Acerca do regime constitucional conferido às Funções Essenciais à Justiça na Constituição Federal de 1988, analise as proposições a seguir:
 
 I. São princípios institucionais do Ministério Público a unidade, a indivisibilidade e a independência funcional.  
@@ -295,21 +302,25 @@ Está correto o que se afirma em:
 
 ---
 
-### Questão 5 (FCC - Adaptada / Analista de Controle Externo)
-Na hipótese de ocorrer a vacância simultânea e definitiva dos cargos de Presidente e de Vice-Presidente da República no terceiro ano do mandato presidencial:
 
-* **A)** Assumirá definitivamente a Presidência o Presidente da Câmara dos Deputados até a conclusão regular do quadriênio.
-* **B)** Serão convocadas eleições diretas no prazo de noventa dias contados da abertura da última vaga para mandato de quatro anos completos.
-* **C)** A eleição para ambos os cargos será realizada trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei, para cumprimento do restante do mandato.
-* **D)** O Presidente do Supremo Tribunal Federal governará o país em comissão até a posse dos novos mandatários eleitos pelo sufrágio universal.
-* **E)** Haverá intervenção militar provisória até que o Colégio Eleitoral estadual convoque novo plebiscito presidencial.
+#### 3.2 Advocacia Pública (Arts. 131 e 132)
+Incumbe privativamente aos Procuradores do Estado (PGE-GO) e do DF a representação judicial e a consultoria jurídica das respectivas unidades federadas. O ingresso depende de concurso público de provas e títulos, com a **participação obrigatória da Ordem dos Advogados do Brasil em todas as suas fases**.
 
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O Presidente da Câmara figura apenas na linha de substituição temporária (art. 80), não assumindo mandato em caráter definitivo em caso de dupla vacância.  
-> - **B) Incorreta:** Eleições diretas em 90 dias só ocorrem se a dupla vacância acontecer nos **dois primeiros anos** do mandato (art. 81, *caput*).  
-> - **C) CORRETA:** Nos termos do art. 81, § 1º, da CF/88, ocorrendo a vacância nos **últimos dois anos do mandato** (caso do enunciado, que citou o terceiro ano), a eleição para ambos os cargos será feita **trinta dias depois da última vaga, pelo Congresso Nacional (eleição indireta)**, cabendo aos eleitos completar o período dos antecessores (*mandato-tampão* - art. 81, § 2º).  
-> - **D) Incorreta:** O Presidente do STF é apenas o último na linha sucessória temporária de substituição interina do cargo enquanto não se conclui a nova eleição.  
-> - **E) Incorreta:** A solução constitucional para a vacância é integralmente civil e parlamentar, consoante as regras do art. 81.
-> 
-> **Gabarito: C**
+#### 3.3 Defensoria Pública (Arts. 134 e 135)
+Instituição essencial incumbida da promoção dos direitos humanos e da orientação jurídica e defesa integral e gratuita dos necessitados. Possui **autonomia funcional, administrativa e orçamentária expressa**, não se subordinando a nenhuma Secretaria de Estado ou Ministério.
+
+#### 3.4 Advocacia Privada (Art. 133)
+O advogado é indispensável à administração da justiça, sendo inviolável por seus atos e manifestações no exercício da profissão, nos limites da lei.
+
+---
+
+## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
+
+* [Constituição Federal de 1988 - Arts. 76 a 91 (Poder Executivo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art76) - Eleição, posse, atribuições privativas do Presidente da República e responsabilidade política/crime de responsabilidade.
+* [Constituição Federal de 1988 - Arts. 92 a 126 (Poder Judiciário)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art92) - Órgãos do Poder Judiciário, garantias da magistratura, competências do STF, STJ e Tribunais Regionais.
+* [Constituição Federal de 1988 - Arts. 127 a 135 (Funções Essenciais à Justiça)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art127) - Ministério Público (princípios institucionais e garantias), Advocacia Pública e Defensoria Pública.
+* [Constituição do Estado de Goiás - Título IV (Da Organização dos Poderes)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Organização do Poder Executivo, Judiciário e Ministério Público junto ao Tribunal de Contas de Goiás.
+* [STF Súmula Vinculante 13 (Vedação ao Nepotismo nos Poderes da República)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=13) - Aplicação uniforme da proibição de nepotismo nos Poderes Executivo, Legislativo e Judiciário.
+* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 12 - O Poder Executivo; Cap. 13 - O Poder Judiciário; Cap. 14 - As Funções Essenciais à Justiça).
+* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 8 - Poder Executivo; Cap. 9 - Poder Judiciário; Cap. 10 - Funções Essenciais).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 2 - Regime Jurídico-Administrativo e Separação dos Poderes).

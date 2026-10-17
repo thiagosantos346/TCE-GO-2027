@@ -40,7 +40,6 @@
     - [5.3 Timers de Renovação de Concessão (T1 e T2)](#53-timers-de-renovacao-de-concessao-t1-e-t2)
     - [5.4 Agente de Retransmissão DHCP (DHCP Relay Agent)](#54-agente-de-retransmissao-dhcp-dhcp-relay-agent)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Exemplos Práticos](#7-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -75,6 +74,29 @@ Em contraposição ao modelo teórico OSI, a arquitetura prática dominante da I
 | **1. Física** | **Acesso à Rede** | **Bit** | Cabos de par trançado (Cat6), fibra óptica, conectores RJ-45, Hub |
 
 ---
+
+### Questão 01 (FCC - Adaptada / Analista de Tecnologia da Informação - Suporte de Redes)
+No contexto das camadas do modelo de referência OSI e da arquitetura de protocolos da Internet (pilha TCP/IP), assinale a afirmativa correta:
+
+* **A)** A camada de Transporte do modelo OSI é responsável pelo endereçamento lógico global de pacotes e pela determinação de rotas ao longo dos sistemas autônomos da Internet.
+* **B)** A Unidade de Dados de Protocolo (PDU) associada à camada de Enlace de dados recebe tecnicamente a denominação de Quadro (*Frame*).
+* **C)** O protocolo ARP (*Address Resolution Protocol*) opera no nível da camada de Transporte, sendo o responsável por mapear endereços de portas TCP em números de soquetes da aplicação.
+* **D)** Os endereços IPv4 `10.50.100.1`, `172.35.10.2` e `192.168.1.254` são todos classificados pelas normas da RFC 1918 como endereços estritamente privados e não roteáveis publicamente.
+* **E)** O protocolo TCP é classificado como não orientado à conexão e não provê garantias formais de entrega de dados, características estas que são exclusivas do protocolo UDP.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O endereçamento lógico e o roteamento global constituem funções privativas da **Camada de Rede** (Camada 3).
+> - **B)** Correta. A Unidade de Dados de Protocolo (PDU) da camada de enlace de dados é denominada Quadro (*Frame*).
+> - **C)** Incorreta. O protocolo ARP opera na camada de enlace/rede mapeando endereços IPv4 em endereços físicos MAC, não possuindo vínculo com portas de transporte.
+> - **D)** Incorreta. O endereço `172.35.10.2` é um IP público mundial, pois a faixa privada de Classe B da RFC 1918 estende-se apenas até `172.31.255.255`.
+> - **E)** Incorreta. O protocolo TCP é estritamente orientado à conexão com controle de fluxo e garantia de entrega, ao passo que o UDP opera sob o paradigma de melhor esforço sem conexão.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 1.3 Unidades de Dados de Protocolo (PDU) e Encapsulamento
 
@@ -171,6 +193,31 @@ O cálculo sistemático de qualquer sub-rede IPv4 parte de fórmulas matemática
 | **/30** | `255.255.255.252` | $2$ | $4$ | $2$ | Enlaces ponto a ponto entre roteadores |
 
 ---
+
+### Questão 02 (FCC - Adaptada / Analista de Tecnologia da Informação - Redes)
+Um analista de infraestrutura de redes recebeu a incumbência de particionar o bloco IPv4 privado `192.168.10.0/24` para atender a 4 sub-redes destinadas a diferentes setores de uma secretaria estadual. O setor mais numeroso exige suporte a um máximo de 26 computadores conectados simultaneamente com IPs úteis. O analista deseja utilizar uma máscara de sub-rede idêntica em todas as novas sub-redes, garantindo a menor quantidade possível de endereços desperdiçados e reservando o maior número possível de novas sub-redes para futuras expansões.
+
+Assinale a alternativa que apresenta, correta e respectivamente, a máscara de sub-rede em notação CIDR adotada, o número máximo de sub-redes que podem ser obtidas a partir do bloco original e o número de endereços IP úteis disponíveis em cada sub-rede:
+
+* **A)** `/27`, 8 sub-redes e 30 hosts úteis
+* **B)** `/26`, 4 sub-redes e 62 hosts úteis
+* **C)** `/28`, 16 sub-redes e 14 hosts úteis
+* **D)** `/27`, 4 sub-redes e 32 hosts úteis
+* **E)** `/25`, 2 sub-redes e 126 hosts úteis
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A demanda exige suporte a 26 computadores. Pela fórmula de hosts úteis ($2^h - 2 \ge 26$), encontramos $h = 5$ bits de host ($2^5 - 2 = 30$ hosts úteis). A máscara CIDR resultante é $32 - 5 = /27$. Como o bloco original era `/24`, foram emprestados $27 - 24 = 3$ bits, permitindo criar $2^3 = 8$ sub-redes idênticas.
+> - **B)** Incorreta. A máscara `/26` aloca 6 bits para hosts, fornecendo 62 hosts úteis e gerando o dobro de desperdício em relação ao `/27`, além de disponibilizar apenas 4 sub-redes.
+> - **C)** Incorreta. A máscara `/28` fornece apenas 14 hosts utilizáveis ($2^4 - 2 = 14$), incapaz de atender aos 26 computadores do setor.
+> - **D)** Incorreta. O bloco `/24` dividido em `/27` produz 8 sub-redes (e não 4) e cada uma suporta 30 hosts úteis (pois 2 endereços são reservados para rede e broadcast).
+> - **E)** Incorreta. A máscara `/25` geraria apenas 2 sub-redes, inviabilizando atender às 4 sub-redes demandadas.
+> 
+> **Gabarito: A**
+
+---
+
+
 
 ## 3. Endereçamento IPv6
 
@@ -278,6 +325,60 @@ sequenceDiagram
 
 ---
 
+### Questão 03 (FCC - Adaptada / Analista de Sistemas - Suporte e Infraestrutura)
+Considere as seguintes assertivas a respeito da arquitetura do protocolo IPv6, comparativamente ao legado IPv4:
+
+I. O protocolo IPv6 aboliu o conceito de transmissão em difusão geral (*broadcast*); mensagens destinadas a múltiplos dispositivos utilizam mecanismos e endereços de *multicast*.  
+
+II. O endereço `fe80::/10` pertence à faixa de endereços *Link-Local Unicast*, sendo atribuído compulsoriamente a qualquer interface com IPv6 habilitado e possuindo validade restrita ao enlace local de comunicação.  
+
+III. No protocolo DNS, a resolução de nomes de domínio diretamente para endereços IPv6 é implementada por meio de registros de recursos do tipo `A`, ao passo que registros do tipo `AAAA` são reservados para mapeamento de servidores de e-mail.  
+
+Está correto o que se afirma em:
+
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** I e III, apenas.
+* **D)** I, II e III.
+* **E)** I, apenas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O Item I é verdadeiro porque o broadcast foi formalmente extinto no IPv6, sendo substituído por multicast estruturado e anycast. O Item II é verdadeiro porque `fe80::/10` é a faixa Link-Local gerada automaticamente em qualquer interface IPv6 para operação no enlace local. O Item III é falso porque a resolução de nomes para IPv6 utiliza o registro `AAAA` (*Quad-A*), e servidores de e-mail são mapeados por registros `MX`.
+> - **B)** Incorreta. Omite a veracidade do Item I e inclui o Item III que contém grave incorreção técnica.
+> - **C)** Incorreta. Inclui o Item III que confunde registros `AAAA` com registros `MX`.
+> - **D)** Incorreta. Julga verdadeiros todos os itens, desconsiderando o erro do Item III.
+> - **E)** Incorreta. Omite a correção inequívoca do Item II.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 04 (FCC - Adaptada / Analista de Sistemas - Infraestrutura de Redes)
+Considere os conceitos de resolução de nomes, delegação e estrutura de registros de recursos do protocolo DNS (*Domain Name System*).
+
+Sobre os tipos de registros DNS e a mecânica de funcionamento desse serviço, é correto afirmar:
+
+* **A)** O registro de recurso do tipo `CNAME` (*Canonical Name*) permite que um administrador configure um pseudônimo (alias) apontando diretamente para um endereço IP numérico de destino, acelerando a resolução de páginas web.
+* **B)** O protocolo DNS opera primariamente sobre o protocolo de transporte UDP na porta 53, recorrendo ao protocolo TCP na mesma porta prioritariamente para operações de transferência de zona (*zone transfer*) entre servidores primários e secundários ou quando a resposta ultrapassa os limites dimensionais suportados.
+* **C)** O processo de resolução iterativa exige que o primeiro servidor DNS consultado assuma o encargo de percorrer toda a árvore hierárquica mundial da Internet até devolver a resposta final resolvida ao cliente requisitante.
+* **D)** O registro do tipo `PTR` é utilizado nos servidores DNS autoritativos para definir os nós balanceadores de carga responsáveis por redirecionar requisições HTTP para instâncias de contêineres.
+* **E)** A consulta reversa de DNS para endereços da arquitetura IPv4 utiliza o domínio de topo especial denominado `ip6.arpa`.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O registro `CNAME` vincula um alias estritamente a outro nome de domínio canônico, nunca apontando diretamente para um IP numérico.
+> - **B)** Correta. O DNS utiliza UDP 53 para consultas ágeis de baixa latência e recorre a TCP 53 para transferências completas de zona (AXFR/IXFR) ou respostas que excedam os limites de tamanho do pacote UDP.
+> - **C)** Incorreta. O processo descrito corresponde à consulta **Recursiva**. Na consulta **Iterativa**, o servidor responde fornecendo a indicação do próximo servidor de nomes a ser consultado.
+> - **D)** Incorreta. O registro `PTR` (*Pointer*) destina-se exclusivamente à **resolução reversa** de endereços IP para nomes de domínio.
+> - **E)** Incorreta. A resolução reversa do IPv4 opera sob o domínio especial `in-addr.arpa`, sendo `ip6.arpa` privativo do IPv6.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 5. Protocolo DHCP (Dynamic Host Configuration Protocol)
 
 ### 5.1 Finalidade e Portas de Transporte UDP 67/68
@@ -319,6 +420,31 @@ sequenceDiagram
 
 ---
 
+### Questão 05 (FCC - Adaptada / Analista de Tecnologia da Informação - Suporte Técnico)
+Em uma rede local corporativa onde as estações de trabalho obtêm suas configurações lógicas dinamicamente por meio do protocolo DHCP, um analista observou a troca de pacotes entre um cliente recém-conectado e o servidor de rede. 
+
+A respeito do ciclo operacional de quatro etapas do DHCP (processo DORA), assinale a afirmativa correta:
+
+* **A)** A mensagem `DHCPDISCOVER` é enviada em Unicast pelo cliente diretamente ao endereço IP estático previamente gravado no seu firmware.
+* **B)** A mensagem `DHCPREQUEST` emitida pelo cliente após receber uma ou mais propostas é enviada em Broadcast, permitindo que os demais servidores DHCP que enviaram ofertas concorrentes saibam que suas propostas foram recusadas e liberem os endereços ofertados.
+* **C)** O protocolo DHCP utiliza o protocolo de transporte TCP na porta 67 para garantir a entrega ordenada e retransmissão de todas as mensagens de negociação de endereços.
+* **D)** O tempo de concessão (*lease time*) de um endereço IP atribuído pelo DHCP é perene e imutável, não permitindo renovação até que a máquina cliente seja fisicamente desligada da tomada.
+* **E)** Quando o cliente e o servidor DHCP estão localizados em redes lógicas distintas separadas por um roteador, o ciclo DORA opera naturalmente sem a necessidade de nenhum recurso intermediário de retransmissão.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O cliente em estado inicial não tem IP nem conhece os servidores, emitindo o `DHCPDISCOVER` obrigatoriamente em Broadcast.
+> - **B)** Correta. A mensagem `DHCPREQUEST` é transmitida intencionalmente em Broadcast para notificar formalmente a aceitação da proposta escolhida e, simultaneamente, avisar aos demais servidores DHCP da rede que suas ofertas foram declinadas, permitindo-lhes devolver os endereços aos seus pools livres.
+> - **C)** Incorreta. O DHCP opera sobre o protocolo de transporte UDP (portas 67 no servidor e 68 no cliente), pois uma máquina sem IP configurado não pode negociar conexões TCP.
+> - **D)** Incorreta. O tempo de concessão é dinâmico e renovável por meio dos temporizadores T1 (50% do lease) e T2 (87,5% do lease).
+> - **E)** Incorreta. Como os roteadores bloqueiam transmissões em broadcast, redes separadas exigem compulsoriamente a presença de um Agente de Retransmissão DHCP (*DHCP Relay Agent*).
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 5.3 Timers de Renovação de Concessão (T1 e T2)
 
 A concessão de IP possui prazo de validade determinado (**Lease Time**):
@@ -350,123 +476,3 @@ Para evitar a necessidade de instalar um servidor DHCP físico em cada sala ou f
 * KUROSE, James F.; ROSS, Keith W. **Redes de Computadores e a Internet: Uma Abordagem Top-Down**. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 3 - Camada de Transporte; Cap. 4 - A Camada de Rede: Plano de Dados; Cap. 5 - A Camada de Rede: Plano de Controle).
 * TANENBAUM, Andrew S.; WETHERALL, David. **Redes de Computadores**. 5. ed. São Paulo: Pearson, 2011. (Cap. 5 - Camada de Rede: Roteamento, IPv4 e IPv6; Cap. 6 - Camada de Transporte).
 * STEVENS, W. Richard; FALL, Kevin R. **TCP/IP Illustrated, Volume 1: The Protocols**. 2. ed. Boston: Addison-Wesley, 2011. (Cap. 1 a 6 - Arquitetura TCP/IP, IP, DNS e DHCP).
-
-
-## 7. Questões Comentadas & Exemplos Práticos
-
-### Questão 1 (FCC - Adaptada / Analista de Tecnologia da Informação - Redes)
-Um analista de infraestrutura de redes recebeu a incumbência de particionar o bloco IPv4 privado `192.168.10.0/24` para atender a 4 sub-redes destinadas a diferentes setores de uma secretaria estadual. O setor mais numeroso exige suporte a um máximo de 26 computadores conectados simultaneamente com IPs úteis. O analista deseja utilizar uma máscara de sub-rede idêntica em todas as novas sub-redes, garantindo a menor quantidade possível de endereços desperdiçados e reservando o maior número possível de novas sub-redes para futuras expansões.
-
-Assinale a alternativa que apresenta, correta e respectivamente, a máscara de sub-rede em notação CIDR adotada, o número máximo de sub-redes que podem ser obtidas a partir do bloco original e o número de endereços IP úteis disponíveis em cada sub-rede:
-
-* **A)** `/27`, 8 sub-redes e 30 hosts úteis
-* **B)** `/26`, 4 sub-redes e 62 hosts úteis
-* **C)** `/28`, 16 sub-redes e 14 hosts úteis
-* **D)** `/27`, 4 sub-redes e 32 hosts úteis
-* **E)** `/25`, 2 sub-redes e 126 hosts úteis
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. A demanda exige suporte a 26 computadores. Pela fórmula de hosts úteis ($2^h - 2 \ge 26$), encontramos $h = 5$ bits de host ($2^5 - 2 = 30$ hosts úteis). A máscara CIDR resultante é $32 - 5 = /27$. Como o bloco original era `/24`, foram emprestados $27 - 24 = 3$ bits, permitindo criar $2^3 = 8$ sub-redes idênticas.
-> - **B)** Incorreta. A máscara `/26` aloca 6 bits para hosts, fornecendo 62 hosts úteis e gerando o dobro de desperdício em relação ao `/27`, além de disponibilizar apenas 4 sub-redes.
-> - **C)** Incorreta. A máscara `/28` fornece apenas 14 hosts utilizáveis ($2^4 - 2 = 14$), incapaz de atender aos 26 computadores do setor.
-> - **D)** Incorreta. O bloco `/24` dividido em `/27` produz 8 sub-redes (e não 4) e cada uma suporta 30 hosts úteis (pois 2 endereços são reservados para rede e broadcast).
-> - **E)** Incorreta. A máscara `/25` geraria apenas 2 sub-redes, inviabilizando atender às 4 sub-redes demandadas.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 2 (FCC - Adaptada / Analista de Sistemas - Suporte e Infraestrutura)
-Considere as seguintes assertivas a respeito da arquitetura do protocolo IPv6, comparativamente ao legado IPv4:
-
-I. O protocolo IPv6 aboliu o conceito de transmissão em difusão geral (*broadcast*); mensagens destinadas a múltiplos dispositivos utilizam mecanismos e endereços de *multicast*.  
-
-II. O endereço `fe80::/10` pertence à faixa de endereços *Link-Local Unicast*, sendo atribuído compulsoriamente a qualquer interface com IPv6 habilitado e possuindo validade restrita ao enlace local de comunicação.  
-
-III. No protocolo DNS, a resolução de nomes de domínio diretamente para endereços IPv6 é implementada por meio de registros de recursos do tipo `A`, ao passo que registros do tipo `AAAA` são reservados para mapeamento de servidores de e-mail.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** II e III, apenas.
-* **C)** I e III, apenas.
-* **D)** I, II e III.
-* **E)** I, apenas.
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. O Item I é verdadeiro porque o broadcast foi formalmente extinto no IPv6, sendo substituído por multicast estruturado e anycast. O Item II é verdadeiro porque `fe80::/10` é a faixa Link-Local gerada automaticamente em qualquer interface IPv6 para operação no enlace local. O Item III é falso porque a resolução de nomes para IPv6 utiliza o registro `AAAA` (*Quad-A*), e servidores de e-mail são mapeados por registros `MX`.
-> - **B)** Incorreta. Omite a veracidade do Item I e inclui o Item III que contém grave incorreção técnica.
-> - **C)** Incorreta. Inclui o Item III que confunde registros `AAAA` com registros `MX`.
-> - **D)** Incorreta. Julga verdadeiros todos os itens, desconsiderando o erro do Item III.
-> - **E)** Incorreta. Omite a correção inequívoca do Item II.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 3 (FCC - Adaptada / Analista de Tecnologia da Informação - Suporte Técnico)
-Em uma rede local corporativa onde as estações de trabalho obtêm suas configurações lógicas dinamicamente por meio do protocolo DHCP, um analista observou a troca de pacotes entre um cliente recém-conectado e o servidor de rede. 
-
-A respeito do ciclo operacional de quatro etapas do DHCP (processo DORA), assinale a afirmativa correta:
-
-* **A)** A mensagem `DHCPDISCOVER` é enviada em Unicast pelo cliente diretamente ao endereço IP estático previamente gravado no seu firmware.
-* **B)** A mensagem `DHCPREQUEST` emitida pelo cliente após receber uma ou mais propostas é enviada em Broadcast, permitindo que os demais servidores DHCP que enviaram ofertas concorrentes saibam que suas propostas foram recusadas e liberem os endereços ofertados.
-* **C)** O protocolo DHCP utiliza o protocolo de transporte TCP na porta 67 para garantir a entrega ordenada e retransmissão de todas as mensagens de negociação de endereços.
-* **D)** O tempo de concessão (*lease time*) de um endereço IP atribuído pelo DHCP é perene e imutável, não permitindo renovação até que a máquina cliente seja fisicamente desligada da tomada.
-* **E)** Quando o cliente e o servidor DHCP estão localizados em redes lógicas distintas separadas por um roteador, o ciclo DORA opera naturalmente sem a necessidade de nenhum recurso intermediário de retransmissão.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O cliente em estado inicial não tem IP nem conhece os servidores, emitindo o `DHCPDISCOVER` obrigatoriamente em Broadcast.
-> - **B)** Correta. A mensagem `DHCPREQUEST` é transmitida intencionalmente em Broadcast para notificar formalmente a aceitação da proposta escolhida e, simultaneamente, avisar aos demais servidores DHCP da rede que suas ofertas foram declinadas, permitindo-lhes devolver os endereços aos seus pools livres.
-> - **C)** Incorreta. O DHCP opera sobre o protocolo de transporte UDP (portas 67 no servidor e 68 no cliente), pois uma máquina sem IP configurado não pode negociar conexões TCP.
-> - **D)** Incorreta. O tempo de concessão é dinâmico e renovável por meio dos temporizadores T1 (50% do lease) e T2 (87,5% do lease).
-> - **E)** Incorreta. Como os roteadores bloqueiam transmissões em broadcast, redes separadas exigem compulsoriamente a presença de um Agente de Retransmissão DHCP (*DHCP Relay Agent*).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / Analista de Sistemas - Infraestrutura de Redes)
-Considere os conceitos de resolução de nomes, delegação e estrutura de registros de recursos do protocolo DNS (*Domain Name System*).
-
-Sobre os tipos de registros DNS e a mecânica de funcionamento desse serviço, é correto afirmar:
-
-* **A)** O registro de recurso do tipo `CNAME` (*Canonical Name*) permite que um administrador configure um pseudônimo (alias) apontando diretamente para um endereço IP numérico de destino, acelerando a resolução de páginas web.
-* **B)** O protocolo DNS opera primariamente sobre o protocolo de transporte UDP na porta 53, recorrendo ao protocolo TCP na mesma porta prioritariamente para operações de transferência de zona (*zone transfer*) entre servidores primários e secundários ou quando a resposta ultrapassa os limites dimensionais suportados.
-* **C)** O processo de resolução iterativa exige que o primeiro servidor DNS consultado assuma o encargo de percorrer toda a árvore hierárquica mundial da Internet até devolver a resposta final resolvida ao cliente requisitante.
-* **D)** O registro do tipo `PTR` é utilizado nos servidores DNS autoritativos para definir os nós balanceadores de carga responsáveis por redirecionar requisições HTTP para instâncias de contêineres.
-* **E)** A consulta reversa de DNS para endereços da arquitetura IPv4 utiliza o domínio de topo especial denominado `ip6.arpa`.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O registro `CNAME` vincula um alias estritamente a outro nome de domínio canônico, nunca apontando diretamente para um IP numérico.
-> - **B)** Correta. O DNS utiliza UDP 53 para consultas ágeis de baixa latência e recorre a TCP 53 para transferências completas de zona (AXFR/IXFR) ou respostas que excedam os limites de tamanho do pacote UDP.
-> - **C)** Incorreta. O processo descrito corresponde à consulta **Recursiva**. Na consulta **Iterativa**, o servidor responde fornecendo a indicação do próximo servidor de nomes a ser consultado.
-> - **D)** Incorreta. O registro `PTR` (*Pointer*) destina-se exclusivamente à **resolução reversa** de endereços IP para nomes de domínio.
-> - **E)** Incorreta. A resolução reversa do IPv4 opera sob o domínio especial `in-addr.arpa`, sendo `ip6.arpa` privativo do IPv6.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Adaptada / Analista de Tecnologia da Informação - Suporte de Redes)
-No contexto das camadas do modelo de referência OSI e da arquitetura de protocolos da Internet (pilha TCP/IP), assinale a afirmativa correta:
-
-* **A)** A camada de Transporte do modelo OSI é responsável pelo endereçamento lógico global de pacotes e pela determinação de rotas ao longo dos sistemas autônomos da Internet.
-* **B)** A Unidade de Dados de Protocolo (PDU) associada à camada de Enlace de dados recebe tecnicamente a denominação de Quadro (*Frame*).
-* **C)** O protocolo ARP (*Address Resolution Protocol*) opera no nível da camada de Transporte, sendo o responsável por mapear endereços de portas TCP em números de soquetes da aplicação.
-* **D)** Os endereços IPv4 `10.50.100.1`, `172.35.10.2` e `192.168.1.254` são todos classificados pelas normas da RFC 1918 como endereços estritamente privados e não roteáveis publicamente.
-* **E)** O protocolo TCP é classificado como não orientado à conexão e não provê garantias formais de entrega de dados, características estas que são exclusivas do protocolo UDP.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O endereçamento lógico e o roteamento global constituem funções privativas da **Camada de Rede** (Camada 3).
-> - **B)** Correta. A Unidade de Dados de Protocolo (PDU) da camada de enlace de dados é denominada Quadro (*Frame*).
-> - **C)** Incorreta. O protocolo ARP opera na camada de enlace/rede mapeando endereços IPv4 em endereços físicos MAC, não possuindo vínculo com portas de transporte.
-> - **D)** Incorreta. O endereço `172.35.10.2` é um IP público mundial, pois a faixa privada de Classe B da RFC 1918 estende-se apenas até `172.31.255.255`.
-> - **E)** Incorreta. O protocolo TCP é estritamente orientado à conexão com controle de fluxo e garantia de entrega, ao passo que o UDP opera sob o paradigma de melhor esforço sem conexão.
-> 
-> **Gabarito: B**

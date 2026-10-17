@@ -43,7 +43,6 @@
     - [4.1 Vedação de Aplicação de Receita de Alienação de Bens em Despesa Corrente (Art. 44)](#41-vedacao-de-aplicacao-de-receita-de-alienacao-de-bens-em-despesa-corrente-art-44)
     - [4.2 Disciplina Fiscal da Renúncia de Receitas (Art. 14 da LRF)](#42-disciplina-fiscal-da-renuncia-de-receitas-art-14-da-lrf)
 - [5. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
-- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -73,6 +72,29 @@ Os **ingressos extraorçamentários** não configuram receita orçamentária, n�
 - **Operações de Crédito por Antecipação de Receita Orçamentária (ARO):** Previstas no art. 165, § 8º da CF/88 e art. 38 da LRF, destinam-se exclusivamente a cobrir descompassos temporários de caixa ao longo do ano civil. **Não constituem receita orçamentária**, geram dívida flutuante e devem ser integralmente liquidadas com juros e encargos até o encerramento do exercício financeiro.
 
 ---
+
+### Questão 01 (FCC - Adaptada / Analista de Gestão Pública)
+Na execução orçamentária de determinada entidade autárquica estadual, os valores descontados mensalmente na folha de pagamentos dos seus servidores a título de contribuição previdenciária própria e de pensão alimentícia judicial fixada por sentença constituem:
+
+* **A)** Receitas Correntes Patrimoniais da própria autarquia.
+* **B)** Ingressos Extraorçamentários, haja vista que a entidade é mera depositária temporária dos valores que serão repassados aos seus legítimos destinatários.
+* **C)** Receitas de Capital decorrentes de amortização forçada de encargos de pessoal.
+* **D)** Receitas Tributárias originárias de competência privativa do Poder Executivo.
+* **E)** Recursos vinculados de transferências voluntárias intergovernamentais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Retenções de vencimentos para entrega a terceiros não geram acréscimo patrimonial nem remuneram bens da autarquia.
+> - **B)** Correta. As consignações em folha de pagamento (pensão alimentícia, retenções judiciais e empréstimos consignados) consubstanciam ingressos extraorçamentários. O poder público atua como mero depositário transitório desses valores, surgindo no mesmo instante a obrigação financeira exigível de repasse aos credores legítimos.
+> - **C)** Incorreta. Não existe mutação de ativo permanente nem amortização de empréstimos concedidos pelo Estado.
+> - **D)** Incorreta. As retenções de pensão alimentícia advêm de relações cíveis de família e não possuem natureza tributária.
+> - **E)** Incorreta. Não se tratam de convênios ou acordos federativos voluntários.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 2. Etapas e Estágios da Receita Orçamentária
 
@@ -104,6 +126,30 @@ flowchart LR
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca FCC testa com grande frequência se **todas** as receitas orçamentárias cumprem os quatro estágios. **ATENÇÃO:** Nem toda receita orçamentária passa pelo estágio do lançamento! Receitas de serviços, tarifas, doações, transferências correntes e receitas patrimoniais (como aluguéis) são arrecadadas diretamente sem a necessidade do ato formal de lançamento fiscal. Contudo, **todas** as receitas cumprem impreterivelmente os estágios da previsão, da arrecadação e do recolhimento.
+
+---
+
+### Questão 02 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+A respeito das etapas e estágios da receita orçamentária e dos ingressos nos cofres estaduais, assinale a assertiva correta:
+
+* **A)** As garantias contratuais depositadas em dinheiro por licitantes vencedores configuram receita orçamentária corrente, devendo constar previamente estimadas na Lei Orçamentária Anual.
+* **B)** O estágio do recolhimento ocorre no momento exato em que o contribuinte efetua o pagamento do documento de arrecadação no caixa da instituição financeira credenciada.
+* **C)** As operações de crédito por antecipação de receita orçamentária (ARO) constituem receitas de capital de execução orçamentária obrigatória no primeiro semestre do exercício financeiro.
+* **D)** A transferência dos recursos arrecadados pelos agentes bancários para a Conta Única do Tesouro consubstancia o estágio do recolhimento, em obediência ao princípio da unidade de caixa.
+* **E)** O lançamento é estágio obrigatório prévio e indispensável para a arrecadação de toda e qualquer receita orçamentária no âmbito da administração pública.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Garantias e cauções contratuais são ingressos extraorçamentários (recursos transitórios de terceiros com obrigação de devolução posterior), não constando da LOA.
+> - **B)** Incorreta. O pagamento realizado pelo contribuinte perante o caixa bancário consubstancia o estágio da arrecadação, e não do recolhimento.
+> - **C)** Incorreta. ARO não é receita orçamentária de capital; é mero ingresso extraorçamentário de caixa para cobrir déficits transitórios de tesouraria.
+> - **D)** Correta. Conforme o art. 56 da Lei nº 4.320/1964, o recolhimento é a entrega ou transferência dos recursos da rede bancária arrecadadora para a Conta Única do Tesouro Estadual, operacionalizando o princípio da unidade de caixa.
+> - **E)** Incorreta. Nem toda receita orçamentária cumpre o estágio do lançamento (tarifas, serviços, doações e receitas financeiras são arrecadadas diretamente sem lançamento fiscal prévio).
+> 
+> **Gabarito: D**
+
+---
+
 
 #### 2.3 O Princípio da Unidade de Caixa (Art. 56 da Lei nº 4.320/1964)
 - O art. 56 da Lei nº 4.320/1964 consagra solenemente o **Princípio da Unidade de Caixa** (ou Princípio da Conta Única): *"O recolhimento de todas as receitas far-se-á em estrita observância ao princípio de unidade de tesouraria, vedada qualquer fragmentação de caixas."*
@@ -140,6 +186,38 @@ Um dos temas mais recorrentes em provas da FCC é o tratamento contábil dos fin
 - **Recebimento dos Juros e Encargos da Dívida:**  
   Classifica-se como **Receita Corrente**, sob a origem **Receita Patrimonial**. Remunera o capital emprestado e constitui ganho patrimonial efetivo (VPA).
 
+---
+
+### Questão 03 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+Determinado Estado da Federação recebeu as seguintes quantias financeiras em sua conta única do Tesouro ao longo do mês:
+
+I. R$ 500.000,00 referentes à venda em leilão público de veículos automotores inservíveis de sua frota administrativa.  
+
+II. R$ 200.000,00 a título de juros moratórios incidentes sobre créditos tributários de ICMS pagos em atraso por contribuintes.  
+
+III. R$ 300.000,00 decorrentes da devolução parcelada do principal de financiamento outrora concedido pelo Estado a determinado município goiano para fomento agropecuário.  
+
+Nos termos da Lei Federal nº 4.320/1964 e das normas do MCASP, os itens I, II e III classificam-se, respectivamente, como:
+
+* **A)** Receita Corrente; Receita Corrente; Receita de Capital.
+* **B)** Receita de Capital; Receita Corrente; Receita de Capital.
+* **C)** Receita de Capital; Receita de Capital; Receita Corrente.
+* **D)** Receita Corrente; Receita de Capital; Receita de Capital.
+* **E)** Receita de Capital; Receita Corrente; Receita Corrente.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O item I trata de alienação de ativos públicos, classificado legalmente como Receita de Capital.
+> - **B)** Correta. O item I (venda de veículos da frota) configura Alienação de Bens Móveis, integrando as Receitas de Capital; o item II (juros de mora sobre créditos tributários) integra as Receitas Correntes (receitas de juros/outras receitas correntes); e o item III (devolução do principal de empréstimo concedido) classifica-se como Amortização de Empréstimos, enquadrado como Receita de Capital. Portanto, a ordem correta é Capital, Corrente e Capital.
+> - **C)** Incorreta. O item II (juros moratórios) é receita corrente, e o item III (amortização do principal) é receita de capital.
+> - **D)** Incorreta. O leilão de veículos inservíveis é receita de capital e não corrente.
+> - **E)** Incorreta. A devolução do principal do empréstimo outrora cedido (item III) não é receita corrente, e sim de capital.
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 3.3 Classificação por Esfera Orçamentária e por Fonte/Destinação de Recursos
 - **Por Esfera Orçamentária:** Identifica a qual dos três orçamentos integrados da LOA a receita pertence:
     - Orçamento Fiscal (F);
@@ -171,112 +249,9 @@ A Lei de Responsabilidade Fiscal impõe uma barreira intransponível à dilapida
 - **Fundamento Fiscal:** Evitar que governantes vendam imóveis, empresas estatais ou frotas públicas para pagar despesas ordinárias do dia a dia (folha salarial, água, luz e telefone), o que geraria rápida ruína fiscal do Estado.
 - **Única Exceção Legal:** Destinação autorizada por lei para capitalizar os **regimes de previdência social (RPPS ou RGPS)**, viabilizando o equilíbrio atuarial dos fundos de aposentadoria pública.
 
-#### 4.2 Disciplina Fiscal da Renúncia de Receitas (Art. 14 da LRF)
-Qualquer ato normativo que conceda ou amplie benefício fiscal que resulte em **renúncia de receita** (anistia, remissão, subsídio, crédito presumido, isenção em caráter não geral ou redução de alíquotas) deve obedecer aos rigorosos requisitos do art. 14 da LRF:
-
-```mermaid
-flowchart TD
-    Renuncia["Concessão de Renúncia de Receita (Art. 14 da LRF)"]
-    Renuncia --> Req1["1. Estimativa do impacto orçamentário-financeiro no exercício inicial e nos dois seguintes (triênio)"]
-    Renuncia --> Req2["2. Demonstração de atendimento às diretrizes e metas fixadas na LDO"]
-    Renuncia --> Condicoes{"Atendimento a uma de DUAS condições alternativas:"}
-    Condicoes --> AltA["Condição A:<br/>Demonstrar que a renúncia foi considerada na estimativa da LOA e não afetará as metas fiscais"]
-    Condicoes --> AltB["Condição B:<br/>Acompanhar-se de medidas de compensação concomitantes (elevação de outros tributos)"]
-```
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A banca frequentemente afirma que a renúncia de receitas exige sempre, obrigatoriamente e cumulativamente, aumento de tributos compensatórios. **ERRADO!** O aumento compensatório (Condição B) só é exigido caso a renúncia NÃO tenha sido expressamente prevista na estimativa de receita da Lei Orçamentária Anual. Se já foi contemplada e absorvida na LOA sem risco para as metas fiscais do AMF, a criação/aumento de outros tributos é dispensada.
-
 ---
 
-## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
-
-* [Lei Federal nº 4.320/1964 - Dos Títulos I e II (Da Receita Pública)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Classificação por categorias econômicas (receitas correntes e receitas de capital) e estágios da receita.
-* [Lei Complementar nº 101/2000 - Da Previsão e Arrecadação da Receita](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm) - Requisitos de previsão de receitas, renúncia de receita fiscal e compensação.
-* [Tesouro Transparente - MCASP 11ª Edição (Receita Orçamentária)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Classificação por natureza da receita, fontes de recursos e reconhecimento contábil.
-* [Constituição Federal de 1988 - Arts. 165 a 167 (Vedações Orçamentárias)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art165) - Regra de ouro da receita de capital e vinculações constitucionais de receitas de impostos.
-* [Constituição do Estado de Goiás - Normas da Receita e Repartição Tributária](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Regras estaduais de arrecadação e destinação de receitas tributárias.
-* GIACOMONI, James. **Orçamento Público**. 18. ed. São Paulo: Atlas, 2021. (Cap. 8 - A Receita Pública: Classificações e Estágios).
-* PALUDO, Augustinho. **Orçamento Público, AFO e LRF**. 11. ed. Salvador: JusPodivm, 2022. (Cap. 5 - Receita Pública: Estágios e Classificações).
-* PISCITELLI, Roberto Bocaccio; TIMÓTEO, Alfredo. **Contabilidade Pública: Uma Abordagem da Administração Financeira Pública**. 14. ed. São Paulo: Atlas, 2019. (Cap. 3 - Receita Orçamentária).
-
-
-## 📝 Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
-Determinado Estado da Federação recebeu as seguintes quantias financeiras em sua conta única do Tesouro ao longo do mês:
-
-I. R$ 500.000,00 referentes à venda em leilão público de veículos automotores inservíveis de sua frota administrativa.  
-
-II. R$ 200.000,00 a título de juros moratórios incidentes sobre créditos tributários de ICMS pagos em atraso por contribuintes.  
-
-III. R$ 300.000,00 decorrentes da devolução parcelada do principal de financiamento outrora concedido pelo Estado a determinado município goiano para fomento agropecuário.  
-
-Nos termos da Lei Federal nº 4.320/1964 e das normas do MCASP, os itens I, II e III classificam-se, respectivamente, como:
-
-* **A)** Receita Corrente; Receita Corrente; Receita de Capital.
-* **B)** Receita de Capital; Receita Corrente; Receita de Capital.
-* **C)** Receita de Capital; Receita de Capital; Receita Corrente.
-* **D)** Receita Corrente; Receita de Capital; Receita de Capital.
-* **E)** Receita de Capital; Receita Corrente; Receita Corrente.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O item I trata de alienação de ativos públicos, classificado legalmente como Receita de Capital.
-> - **B)** Correta. O item I (venda de veículos da frota) configura Alienação de Bens Móveis, integrando as Receitas de Capital; o item II (juros de mora sobre créditos tributários) integra as Receitas Correntes (receitas de juros/outras receitas correntes); e o item III (devolução do principal de empréstimo concedido) classifica-se como Amortização de Empréstimos, enquadrado como Receita de Capital. Portanto, a ordem correta é Capital, Corrente e Capital.
-> - **C)** Incorreta. O item II (juros moratórios) é receita corrente, e o item III (amortização do principal) é receita de capital.
-> - **D)** Incorreta. O leilão de veículos inservíveis é receita de capital e não corrente.
-> - **E)** Incorreta. A devolução do principal do empréstimo outrora cedido (item III) não é receita corrente, e sim de capital.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
-A respeito das etapas e estágios da receita orçamentária e dos ingressos nos cofres estaduais, assinale a assertiva correta:
-
-* **A)** As garantias contratuais depositadas em dinheiro por licitantes vencedores configuram receita orçamentária corrente, devendo constar previamente estimadas na Lei Orçamentária Anual.
-* **B)** O estágio do recolhimento ocorre no momento exato em que o contribuinte efetua o pagamento do documento de arrecadação no caixa da instituição financeira credenciada.
-* **C)** As operações de crédito por antecipação de receita orçamentária (ARO) constituem receitas de capital de execução orçamentária obrigatória no primeiro semestre do exercício financeiro.
-* **D)** A transferência dos recursos arrecadados pelos agentes bancários para a Conta Única do Tesouro consubstancia o estágio do recolhimento, em obediência ao princípio da unidade de caixa.
-* **E)** O lançamento é estágio obrigatório prévio e indispensável para a arrecadação de toda e qualquer receita orçamentária no âmbito da administração pública.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Garantias e cauções contratuais são ingressos extraorçamentários (recursos transitórios de terceiros com obrigação de devolução posterior), não constando da LOA.
-> - **B)** Incorreta. O pagamento realizado pelo contribuinte perante o caixa bancário consubstancia o estágio da arrecadação, e não do recolhimento.
-> - **C)** Incorreta. ARO não é receita orçamentária de capital; é mero ingresso extraorçamentário de caixa para cobrir déficits transitórios de tesouraria.
-> - **D)** Correta. Conforme o art. 56 da Lei nº 4.320/1964, o recolhimento é a entrega ou transferência dos recursos da rede bancária arrecadadora para a Conta Única do Tesouro Estadual, operacionalizando o princípio da unidade de caixa.
-> - **E)** Incorreta. Nem toda receita orçamentária cumpre o estágio do lançamento (tarifas, serviços, doações e receitas financeiras são arrecadadas diretamente sem lançamento fiscal prévio).
-> 
-> **Gabarito: D**
-
----
-
-### Questão 3 (FCC - Adaptada / Analista de Planejamento e Orçamento)
-Determinado Secretário de Estado da Fazenda propôs projeto de lei concedendo isenção temporária de IPVA para proprietários de veículos elétricos e híbridos matriculados no Estado. O projeto de lei foi aprovado pela Assembleia Legislativa sem a apresentação de estimativa de impacto orçamentário-financeiro e desacompanhado de medidas de compensação fiscal.
-
-À luz do artigo 14 da Lei de Responsabilidade Fiscal (LC nº 101/2000):
-
-* **A)** A concessão do benefício é válida de pleno direito, visto que o Estado detém soberania para instituir e conceder isenções de seus tributos privativos.
-* **B)** A proposição viola a Lei de Responsabilidade Fiscal, pois a concessão de benefício tributário da qual decorra renúncia de receita exige estimativa de impacto no exercício e nos dois seguintes, além de comprovação de que não afetará as metas fiscais ou de adoção de medidas compensatórias de arrecadação.
-* **C)** A renúncia de receitas somente atinge isenções concedidas a pessoas jurídicas de direito privado, sendo dispensada qualquer formalidade para pessoas físicas adquirentes de veículos.
-* **D)** As medidas compensatórias exigidas pela LRF aplicam-se com exclusividade a impostos federais compartilhados, dispensando-se do IPVA estadual.
-* **E)** A exigência de estimativa trienal restringe-se aos dois últimos anos de mandato do Chefe do Poder Executivo.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A autonomia federativa dos entes para legislar sobre seus tributos submete-se expressamente às normas gerais de finanças públicas veiculadas pela LRF.
-> - **B)** Correta. O art. 14 da LRF prescreve que qualquer benefício ou incentivo que importe em renúncia de receita deve ser acompanhado de estimativa trienal do impacto orçamentário-financeiro e atender à LDO, mediante demonstração de que foi prevista na LOA sem afetar metas ou acompanhada de medidas de compensação fiscal efetivas.
-> - **C)** Incorreta. A disciplina da LRF alcança a concessão de incentivos fiscais indistintamente, quer os beneficiários sejam pessoas físicas ou pessoas jurídicas.
-> - **D)** Incorreta. A Lei de Responsabilidade Fiscal incide com eficácia nacional e obriga União, Estados, Distrito Federal e Municípios em relação a todos os seus tributos.
-> - **E)** Incorreta. A exigência do art. 14 da LRF é permanente e aplica-se durante todo e qualquer período do exercício orçamentário e mandato.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / Técnico de Controle Externo)
+### Questão 04 (FCC - Adaptada / Técnico de Controle Externo)
 O Governo do Estado de Goiás promoveu a alienação, mediante concorrência pública, de um edifício comercial de sua propriedade que estava desocupado, arrecadando R$ 10.000.000,00. O Governador pretende aplicar integralmente essa receita para pagar o reajuste salarial concedido aos servidores públicos da Secretaria da Saúde.
 
 De acordo com o artigo 44 da Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal):
@@ -299,21 +274,57 @@ De acordo com o artigo 44 da Lei Complementar nº 101/2000 (Lei de Responsabilid
 
 ---
 
-### Questão 5 (FCC - Adaptada / Analista de Gestão Pública)
-Na execução orçamentária de determinada entidade autárquica estadual, os valores descontados mensalmente na folha de pagamentos dos seus servidores a título de contribuição previdenciária própria e de pensão alimentícia judicial fixada por sentença constituem:
 
-* **A)** Receitas Correntes Patrimoniais da própria autarquia.
-* **B)** Ingressos Extraorçamentários, haja vista que a entidade é mera depositária temporária dos valores que serão repassados aos seus legítimos destinatários.
-* **C)** Receitas de Capital decorrentes de amortização forçada de encargos de pessoal.
-* **D)** Receitas Tributárias originárias de competência privativa do Poder Executivo.
-* **E)** Recursos vinculados de transferências voluntárias intergovernamentais.
+#### 4.2 Disciplina Fiscal da Renúncia de Receitas (Art. 14 da LRF)
+Qualquer ato normativo que conceda ou amplie benefício fiscal que resulte em **renúncia de receita** (anistia, remissão, subsídio, crédito presumido, isenção em caráter não geral ou redução de alíquotas) deve obedecer aos rigorosos requisitos do art. 14 da LRF:
+
+```mermaid
+flowchart TD
+    Renuncia["Concessão de Renúncia de Receita (Art. 14 da LRF)"]
+    Renuncia --> Req1["1. Estimativa do impacto orçamentário-financeiro no exercício inicial e nos dois seguintes (triênio)"]
+    Renuncia --> Req2["2. Demonstração de atendimento às diretrizes e metas fixadas na LDO"]
+    Renuncia --> Condicoes{"Atendimento a uma de DUAS condições alternativas:"}
+    Condicoes --> AltA["Condição A:<br/>Demonstrar que a renúncia foi considerada na estimativa da LOA e não afetará as metas fiscais"]
+    Condicoes --> AltB["Condição B:<br/>Acompanhar-se de medidas de compensação concomitantes (elevação de outros tributos)"]
+```
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A banca frequentemente afirma que a renúncia de receitas exige sempre, obrigatoriamente e cumulativamente, aumento de tributos compensatórios. **ERRADO!** O aumento compensatório (Condição B) só é exigido caso a renúncia NÃO tenha sido expressamente prevista na estimativa de receita da Lei Orçamentária Anual. Se já foi contemplada e absorvida na LOA sem risco para as metas fiscais do AMF, a criação/aumento de outros tributos é dispensada.
+
+---
+
+### Questão 05 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+Determinado Secretário de Estado da Fazenda propôs projeto de lei concedendo isenção temporária de IPVA para proprietários de veículos elétricos e híbridos matriculados no Estado. O projeto de lei foi aprovado pela Assembleia Legislativa sem a apresentação de estimativa de impacto orçamentário-financeiro e desacompanhado de medidas de compensação fiscal.
+
+À luz do artigo 14 da Lei de Responsabilidade Fiscal (LC nº 101/2000):
+
+* **A)** A concessão do benefício é válida de pleno direito, visto que o Estado detém soberania para instituir e conceder isenções de seus tributos privativos.
+* **B)** A proposição viola a Lei de Responsabilidade Fiscal, pois a concessão de benefício tributário da qual decorra renúncia de receita exige estimativa de impacto no exercício e nos dois seguintes, além de comprovação de que não afetará as metas fiscais ou de adoção de medidas compensatórias de arrecadação.
+* **C)** A renúncia de receitas somente atinge isenções concedidas a pessoas jurídicas de direito privado, sendo dispensada qualquer formalidade para pessoas físicas adquirentes de veículos.
+* **D)** As medidas compensatórias exigidas pela LRF aplicam-se com exclusividade a impostos federais compartilhados, dispensando-se do IPVA estadual.
+* **E)** A exigência de estimativa trienal restringe-se aos dois últimos anos de mandato do Chefe do Poder Executivo.
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Retenções de vencimentos para entrega a terceiros não geram acréscimo patrimonial nem remuneram bens da autarquia.
-> - **B)** Correta. As consignações em folha de pagamento (pensão alimentícia, retenções judiciais e empréstimos consignados) consubstanciam ingressos extraorçamentários. O poder público atua como mero depositário transitório desses valores, surgindo no mesmo instante a obrigação financeira exigível de repasse aos credores legítimos.
-> - **C)** Incorreta. Não existe mutação de ativo permanente nem amortização de empréstimos concedidos pelo Estado.
-> - **D)** Incorreta. As retenções de pensão alimentícia advêm de relações cíveis de família e não possuem natureza tributária.
-> - **E)** Incorreta. Não se tratam de convênios ou acordos federativos voluntários.
+> - **A)** Incorreta. A autonomia federativa dos entes para legislar sobre seus tributos submete-se expressamente às normas gerais de finanças públicas veiculadas pela LRF.
+> - **B)** Correta. O art. 14 da LRF prescreve que qualquer benefício ou incentivo que importe em renúncia de receita deve ser acompanhado de estimativa trienal do impacto orçamentário-financeiro e atender à LDO, mediante demonstração de que foi prevista na LOA sem afetar metas ou acompanhada de medidas de compensação fiscal efetivas.
+> - **C)** Incorreta. A disciplina da LRF alcança a concessão de incentivos fiscais indistintamente, quer os beneficiários sejam pessoas físicas ou pessoas jurídicas.
+> - **D)** Incorreta. A Lei de Responsabilidade Fiscal incide com eficácia nacional e obriga União, Estados, Distrito Federal e Municípios em relação a todos os seus tributos.
+> - **E)** Incorreta. A exigência do art. 14 da LRF é permanente e aplica-se durante todo e qualquer período do exercício orçamentário e mandato.
 > 
 > **Gabarito: B**
+
+---
+
+
+
+## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
+
+* [Lei Federal nº 4.320/1964 - Dos Títulos I e II (Da Receita Pública)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Classificação por categorias econômicas (receitas correntes e receitas de capital) e estágios da receita.
+* [Lei Complementar nº 101/2000 - Da Previsão e Arrecadação da Receita](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm) - Requisitos de previsão de receitas, renúncia de receita fiscal e compensação.
+* [Tesouro Transparente - MCASP 11ª Edição (Receita Orçamentária)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Classificação por natureza da receita, fontes de recursos e reconhecimento contábil.
+* [Constituição Federal de 1988 - Arts. 165 a 167 (Vedações Orçamentárias)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art165) - Regra de ouro da receita de capital e vinculações constitucionais de receitas de impostos.
+* [Constituição do Estado de Goiás - Normas da Receita e Repartição Tributária](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Regras estaduais de arrecadação e destinação de receitas tributárias.
+* GIACOMONI, James. **Orçamento Público**. 18. ed. São Paulo: Atlas, 2021. (Cap. 8 - A Receita Pública: Classificações e Estágios).
+* PALUDO, Augustinho. **Orçamento Público, AFO e LRF**. 11. ed. Salvador: JusPodivm, 2022. (Cap. 5 - Receita Pública: Estágios e Classificações).
+* PISCITELLI, Roberto Bocaccio; TIMÓTEO, Alfredo. **Contabilidade Pública: Uma Abordagem da Administração Financeira Pública**. 14. ed. São Paulo: Atlas, 2019. (Cap. 3 - Receita Orçamentária).

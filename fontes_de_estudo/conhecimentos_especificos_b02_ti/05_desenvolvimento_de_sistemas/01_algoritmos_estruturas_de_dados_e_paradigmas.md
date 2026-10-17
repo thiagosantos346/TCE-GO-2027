@@ -35,7 +35,6 @@
     - [4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)](#42-funcoes-de-primeira-classe-e-funcoes-de-alta-ordem-higher-order-functions)
     - [4.3 Operações Funcionais sobre Coleções: map, filter e reduce](#43-operacoes-funcionais-sobre-colecoes-map-filter-e-reduce)
 - [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -128,6 +127,49 @@ flowchart LR
 
 ---
 
+### Questão 01
+**(FCC – Analista de TI / Sistemas)**  
+Em uma estrutura de dados do tipo Pilha (*Stack*), as operações de manipulação de dados obedecem rigorosamente à disciplina LIFO (*Last In, First Out*). Considere uma pilha inicialmente vazia que é submetida, passo a passo, à seguinte sequência consecutiva de comandos:
+
+```text
+push(15); push(25); pop(); push(35); push(45); pop(); push(55); push(65); pop();
+```
+
+Ao término da execução dessa sequência completa de operações, o elemento posicionado no topo da pilha e a quantidade total de elementos presentes na estrutura são, respectivamente:
+
+* **A)** 45 e 2.
+* **B)** 55 e 3.
+* **C)** 35 e 3.
+* **D)** 65 e 4.
+* **E)** 55 e 2.
+
+> **Comentário Detalhado:**
+>
+> - Rastreando passo a passo o estado da pilha (LIFO):
+>     1. `push(15)`: Pilha = `[15]` (topo = 15).
+>     2. `push(25)`: Pilha = `[15, 25]` (topo = 25).
+>     3. `pop()`: Remove o topo (25). Pilha = `[15]` (topo = 15).
+>     4. `push(35)`: Pilha = `[15, 35]` (topo = 35).
+>     5. `push(45)`: Pilha = `[15, 35, 45]` (topo = 45).
+>     6. `pop()`: Remove o topo (45). Pilha = `[15, 35]` (topo = 35).
+>     7. `push(55)`: Pilha = `[15, 35, 55]` (topo = 55).
+>     8. `push(65)`: Pilha = `[15, 35, 55, 65]` (topo = 65).
+>     9. `pop()`: Remove o topo (65). Pilha = `[15, 35, 55]` (topo = 55).
+>
+> - Ao término das instruções, a pilha contém 3 elementos (`[15, 35, 55]`) e o elemento do topo é o **55**.
+> - Análise das alternativas:
+>     - **A) Incorreta.** O elemento 45 foi desempilhado no passo 6.
+>     - **B) CORRETA.** Topo igual a 55 e quantidade de 3 elementos.
+>     - **C) Incorreta.** 35 é o elemento intermediário, posicionado abaixo de 55.
+>     - **D) Incorreta.** 65 foi desempilhado no passo 9.
+>     - **E) Incorreta.** A quantidade de elementos é 3, não 2.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão
 Uma Tabela Hash associa chaves de busca a índices de um array de tamanho $m$ por meio de uma **função de espalhamento** (*hash function*): $\text{índice} = h(\text{chave}) \pmod m$.
 
@@ -143,6 +185,30 @@ Uma Tabela Hash associa chaves de busca a índices de um array de tamanho $m$ po
 > A complexidade temporal média de busca, inserção e remoção em uma Tabela Hash é $\mathcal{O}(1)$. Todavia, no **pior caso** (quando todas as chaves colidem no mesmo índice devido a uma função hash deficiente ou ataque de negação de serviço), a complexidade **degrada compulsoriamente para $\mathcal{O}(n)$**. A FCC frequentemente tenta enganar o candidato afirmando que a busca em tabela hash é $\mathcal{O}(1)$ em qualquer circunstância!
 
 ---
+
+### Questão 02
+**(FCC – Auditor Fiscal / Tecnologia da Informação)**  
+As Tabelas Hash (*Hash Tables*) são amplamente utilizadas em sistemas de informação pela sua eficiência em operações de busca, inserção e remoção de registros indexados por chaves. A respeito da teoria das tabelas hash e dos métodos de tratamento de colisões, assinale a afirmativa correta:
+
+* **A)** A complexidade temporal assintótica de busca em uma tabela hash é estritamente $\mathcal{O}(1)$ em qualquer circunstância, independentemente da função hash ou da quantidade de colisões.
+* **B)** No método de tratamento de colisões por encadeamento separado (*separate chaining*), cada posição do vetor principal referencia uma lista encadeada, de modo que elementos colidentes são armazenados como nós dessa lista.
+* **C)** O fator de carga (*load factor*) de uma tabela hash corresponde ao tempo em milissegundos gasto pela CPU para calcular a função hash de uma chave string.
+* **D)** No endereçamento aberto com sondagem linear (*linear probing*), elementos que sofrem colisão são sempre descartados da tabela para impedir o agrupamento primário.
+* **E)** As tabelas hash armazenam seus elementos de forma intrinsicamente ordenada pelas suas chaves, facilitando operações de busca por intervalo (*range queries*).
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** $\mathcal{O}(1)$ é a complexidade média esperada; no pior caso (quando ocorrem colisões em massa), a busca degrada para $\mathcal{O}(n)$.
+> - **B) CORRETA.** No encadeamento separado (*separate chaining*), cada slot da tabela hash funciona como o cabeçalho de uma lista encadeada (ou árvore rubro-negra), de forma que múltiplos elementos associados ao mesmo índice hash são armazenados como nós sequenciais nessa lista.
+> - **C) Incorreta.** O fator de carga ($\alpha = n/m$) é a razão entre o número de elementos armazenados e o número de slots disponíveis na tabela, medindo a taxa de ocupação, não tempo de CPU.
+> - **D) Incorreta.** No endereçamento aberto, os elementos colidentes não são descartados, mas alocados na próxima posição desocupada do próprio array.
+> - **E) Incorreta.** As tabelas hash são desordenadas por natureza; para buscas ordenadas por intervalo utilizam-se árvores binárias de busca balanceadas (B-Trees ou AVL).
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos
 Uma **Árvore Binária de Busca (BST - Binary Search Tree)** é uma estrutura hierárquica na qual, para cada nó raiz $X$:
@@ -172,6 +238,50 @@ graph TD
 4. **Percurso em Largura (BFS / Level-Order):** Visita os nós nível por nível, de cima para baixo e da esquerda para a direita, utilizando uma Fila auxiliar: `40, 20, 60, 10, 30, 50, 70`.
 
 ---
+
+### Questão 03
+**(FCC – Analista de TI / Sistemas)**  
+Considere uma Árvore Binária de Busca (BST) construída a partir da inserção sucessiva dos seguintes números inteiros em uma árvore inicialmente vazia, respeitando as regras estritas da estrutura (valores menores à esquerda, maiores à direita):
+
+```text
+Inserções na ordem: 40, 20, 60, 10, 30, 50, 70
+```
+
+Se essa árvore for percorrida utilizando os algoritmos de percurso em **Pré-Ordem** (*Pre-order*) e **Em-Ordem** (*In-order*), as sequências exatas geradas pelas visitas aos nós serão, respectivamente:
+
+* **A)** Pré-Ordem: `40, 20, 10, 30, 60, 50, 70` ; Em-Ordem: `10, 20, 30, 40, 50, 60, 70`.
+* **B)** Pré-Ordem: `10, 20, 30, 40, 50, 60, 70` ; Em-Ordem: `40, 20, 10, 30, 60, 50, 70`.
+* **C)** Pré-Ordem: `10, 30, 20, 50, 70, 60, 40` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
+* **D)** Pré-Ordem: `40, 20, 60, 10, 30, 50, 70` ; Em-Ordem: `40, 20, 30, 10, 60, 50, 70`.
+* **E)** Pré-Ordem: `40, 20, 10, 30, 60, 50, 70` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
+
+> **Comentário Detalhado:**
+>
+> - Desenhando a BST a partir das inserções:
+>     - 40 é a raiz;
+>     - 20 fica à esquerda de 40; 60 fica à direita de 40;
+>     - 10 fica à esquerda de 20; 30 fica à direita de 20;
+>     - 50 fica à esquerda de 60; 70 fica à direita de 60.
+> - **Percurso em Pré-Ordem (Raiz $\rightarrow$ Esquerda $\rightarrow$ Direita):**
+>     - Visita raiz 40;
+>     - Subárvore esquerda de 40: visita 20, depois 10, depois 30;
+>     - Subárvore direita de 40: visita 60, depois 50, depois 70;
+>     - Sequência: `40, 20, 10, 30, 60, 50, 70`.
+> - **Percurso Em-Ordem (Esquerda $\rightarrow$ Raiz $\rightarrow$ Direita):**
+>     - Em qualquer BST, o percurso Em-Ordem visita os elementos em **ordem estritamente crescente**;
+>     - Sequência: `10, 20, 30, 40, 50, 60, 70`.
+> - Análise das alternativas:
+>     - **A) CORRETA.** Exibe perfeitamente a Pré-Ordem e a Em-Ordem calculadas.
+>     - **B) Incorreta.** Inverteu a nomenclatura dos dois percursos.
+>     - **C) Incorreta.** Apresenta percurso em pós-ordem e ordem decrescente.
+>     - **D) Incorreta.** Apresenta percurso em largura (nível por nível) na primeira sequência.
+>     - **E) Incorreta.** Apresenta a ordem decrescente na segunda sequência.
+> 
+> **Gabarito: A**
+
+---
+
+
 
 ### 2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos
 - **Degeneração da BST:** Se inserirmos elementos já ordenados (`10, 20, 30, 40, 50`) em uma BST simples, a árvore degenera em uma lista linear encadeada, e as operações de busca caem de $\mathcal{O}(\log n)$ para $\mathcal{O}(n)$;
@@ -225,6 +335,32 @@ Essa comparação é cobrada com frequência máxima pela banca FCC:
 
 ---
 
+### Questão 04
+**(FCC – Técnico de Controle Externo / TI)**  
+No contexto do paradigma de Programação Orientada a Objetos (POO), analise o mecanismo pelo qual uma subclasse fornece uma definição específica para um método que já foi declarado e implementado por sua superclasse direta ou indireta, preservando integralmente o mesmo nome, a mesma quantidade e os mesmos tipos de parâmetros, permitindo a seleção da implementação adequada durante a execução do programa (*runtime*).
+
+Esse mecanismo e seu momento de amarração (*binding*) correspondem, respectivamente, a:
+
+* **A)** Sobrecarga (*Overloading*) com amarração estática (*early binding*).
+* **B)** Sobrescrita (*Overriding*) com amarração dinâmica (*late binding*).
+* **C)** Encapsulamento reflexivo com resolução de compilação.
+* **D)** Coesão ad-hoc com ligação tardia (*late binding*).
+* **E)** Sobrecarga (*Overloading*) com amarração dinâmica (*late binding*).
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A sobrecarga (*overloading*) ocorre na mesma classe, exige assinaturas diferentes e é decidida estaticamente em tempo de compilação.
+> - **B) CORRETA.** O enunciado traz a definição exata de **Sobrescrita (*Overriding*)**: redefinição de método herdado da superclasse em uma subclasse com **assinatura idêntica**, viabilizando o polimorfismo dinâmico cuja invocação é resolvida em tempo de execução (*runtime*) via **amarração dinâmica (*late binding*)**.
+> - **C) Incorreta.** Encapsulamento é a prática de ocultação de estado interno de objetos com modificadores de acesso, não polimorfismo de métodos.
+> - **D) Incorreta.** Termo pejorativo sem relação com despacho dinâmico de métodos.
+> - **E) Incorreta.** Sobrecarga não utiliza amarração dinâmica em tempo de execução.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento
 - **Classes Abstratas vs. Interfaces:**
     - *Classe Abstrata:* Não pode ser instanciada diretamente (`new`). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte;
@@ -273,149 +409,6 @@ flowchart LR
 
 ---
 
-## 5. Fontes Oficiais e Referências Bibliográficas
-
-* [Python Official Documentation - Data Structures](https://docs.python.org/pt-br/3/tutorial/datastructures.html) - Listas, pilhas, filas, tuplas, dicionários, conjuntos e operações fundamentais de dados.
-* [Oracle Java Documentation - Java Collections Framework](https://docs.oracle.com/javase/tutorial/collections/intro/index.html) - Interfaces List, Set, Queue, Deque, Map e implementações em Java.
-* [Oracle Java Documentation - Object-Oriented Programming Concepts](https://docs.oracle.com/javase/tutorial/java/concepts/index.html) - Fundamentos formais de orientação a objetos: classes, objetos, encapsulamento e polimorfismo.
-* [ArXiv - Algorithm Complexity and Analysis](https://arxiv.org/abs/2107.03374) - Análise assintótica formal de complexidade e benchmarks algorítmicos.
-* CORMEN, Thomas H. et al. **Algoritmos: Teoria e Prática**. 4. ed. Rio de Janeiro: GEN LTC, 2024. (Cap. 1 a 4 - Fundamentos, Notação Assintótica e Divisão e Conquista).
-* SEDGEWICK, Robert; WAYNE, Kevin. **Algorithms**. 4. ed. Boston: Addison-Wesley, 2011. (Cap. 1 e 2 - Estruturas de Dados Elementares e Ordenação).
-* DROZDEK, Adam. **Estrutura de Dados e Algoritmos em C++**. 2. ed. São Paulo: Cengage Learning, 2016. (Cap. 3 a 5 - Pilhas, Filas e Árvores).
-
----
-
-## 6. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – Analista de TI / Sistemas)**  
-Em uma estrutura de dados do tipo Pilha (*Stack*), as operações de manipulação de dados obedecem rigorosamente à disciplina LIFO (*Last In, First Out*). Considere uma pilha inicialmente vazia que é submetida, passo a passo, à seguinte sequência consecutiva de comandos:
-
-```text
-push(15); push(25); pop(); push(35); push(45); pop(); push(55); push(65); pop();
-```
-
-Ao término da execução dessa sequência completa de operações, o elemento posicionado no topo da pilha e a quantidade total de elementos presentes na estrutura são, respectivamente:
-
-* **A)** 45 e 2.
-* **B)** 55 e 3.
-* **C)** 35 e 3.
-* **D)** 65 e 4.
-* **E)** 55 e 2.
-
-> **Comentário Detalhado:**
->
-> - Rastreando passo a passo o estado da pilha (LIFO):
->     1. `push(15)`: Pilha = `[15]` (topo = 15).
->     2. `push(25)`: Pilha = `[15, 25]` (topo = 25).
->     3. `pop()`: Remove o topo (25). Pilha = `[15]` (topo = 15).
->     4. `push(35)`: Pilha = `[15, 35]` (topo = 35).
->     5. `push(45)`: Pilha = `[15, 35, 45]` (topo = 45).
->     6. `pop()`: Remove o topo (45). Pilha = `[15, 35]` (topo = 35).
->     7. `push(55)`: Pilha = `[15, 35, 55]` (topo = 55).
->     8. `push(65)`: Pilha = `[15, 35, 55, 65]` (topo = 65).
->     9. `pop()`: Remove o topo (65). Pilha = `[15, 35, 55]` (topo = 55).
->
-> - Ao término das instruções, a pilha contém 3 elementos (`[15, 35, 55]`) e o elemento do topo é o **55**.
-> - Análise das alternativas:
->     - **A) Incorreta.** O elemento 45 foi desempilhado no passo 6.
->     - **B) CORRETA.** Topo igual a 55 e quantidade de 3 elementos.
->     - **C) Incorreta.** 35 é o elemento intermediário, posicionado abaixo de 55.
->     - **D) Incorreta.** 65 foi desempilhado no passo 9.
->     - **E) Incorreta.** A quantidade de elementos é 3, não 2.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC – Técnico de Controle Externo / TI)**  
-No contexto do paradigma de Programação Orientada a Objetos (POO), analise o mecanismo pelo qual uma subclasse fornece uma definição específica para um método que já foi declarado e implementado por sua superclasse direta ou indireta, preservando integralmente o mesmo nome, a mesma quantidade e os mesmos tipos de parâmetros, permitindo a seleção da implementação adequada durante a execução do programa (*runtime*).
-
-Esse mecanismo e seu momento de amarração (*binding*) correspondem, respectivamente, a:
-
-* **A)** Sobrecarga (*Overloading*) com amarração estática (*early binding*).
-* **B)** Sobrescrita (*Overriding*) com amarração dinâmica (*late binding*).
-* **C)** Encapsulamento reflexivo com resolução de compilação.
-* **D)** Coesão ad-hoc com ligação tardia (*late binding*).
-* **E)** Sobrecarga (*Overloading*) com amarração dinâmica (*late binding*).
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** A sobrecarga (*overloading*) ocorre na mesma classe, exige assinaturas diferentes e é decidida estaticamente em tempo de compilação.
-> - **B) CORRETA.** O enunciado traz a definição exata de **Sobrescrita (*Overriding*)**: redefinição de método herdado da superclasse em uma subclasse com **assinatura idêntica**, viabilizando o polimorfismo dinâmico cuja invocação é resolvida em tempo de execução (*runtime*) via **amarração dinâmica (*late binding*)**.
-> - **C) Incorreta.** Encapsulamento é a prática de ocultação de estado interno de objetos com modificadores de acesso, não polimorfismo de métodos.
-> - **D) Incorreta.** Termo pejorativo sem relação com despacho dinâmico de métodos.
-> - **E) Incorreta.** Sobrecarga não utiliza amarração dinâmica em tempo de execução.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC – Analista de TI / Sistemas)**  
-Considere uma Árvore Binária de Busca (BST) construída a partir da inserção sucessiva dos seguintes números inteiros em uma árvore inicialmente vazia, respeitando as regras estritas da estrutura (valores menores à esquerda, maiores à direita):
-
-```text
-Inserções na ordem: 40, 20, 60, 10, 30, 50, 70
-```
-
-Se essa árvore for percorrida utilizando os algoritmos de percurso em **Pré-Ordem** (*Pre-order*) e **Em-Ordem** (*In-order*), as sequências exatas geradas pelas visitas aos nós serão, respectivamente:
-
-* **A)** Pré-Ordem: `40, 20, 10, 30, 60, 50, 70` ; Em-Ordem: `10, 20, 30, 40, 50, 60, 70`.
-* **B)** Pré-Ordem: `10, 20, 30, 40, 50, 60, 70` ; Em-Ordem: `40, 20, 10, 30, 60, 50, 70`.
-* **C)** Pré-Ordem: `10, 30, 20, 50, 70, 60, 40` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
-* **D)** Pré-Ordem: `40, 20, 60, 10, 30, 50, 70` ; Em-Ordem: `40, 20, 30, 10, 60, 50, 70`.
-* **E)** Pré-Ordem: `40, 20, 10, 30, 60, 50, 70` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
-
-> **Comentário Detalhado:**
->
-> - Desenhando a BST a partir das inserções:
->     - 40 é a raiz;
->     - 20 fica à esquerda de 40; 60 fica à direita de 40;
->     - 10 fica à esquerda de 20; 30 fica à direita de 20;
->     - 50 fica à esquerda de 60; 70 fica à direita de 60.
-> - **Percurso em Pré-Ordem (Raiz $\rightarrow$ Esquerda $\rightarrow$ Direita):**
->     - Visita raiz 40;
->     - Subárvore esquerda de 40: visita 20, depois 10, depois 30;
->     - Subárvore direita de 40: visita 60, depois 50, depois 70;
->     - Sequência: `40, 20, 10, 30, 60, 50, 70`.
-> - **Percurso Em-Ordem (Esquerda $\rightarrow$ Raiz $\rightarrow$ Direita):**
->     - Em qualquer BST, o percurso Em-Ordem visita os elementos em **ordem estritamente crescente**;
->     - Sequência: `10, 20, 30, 40, 50, 60, 70`.
-> - Análise das alternativas:
->     - **A) CORRETA.** Exibe perfeitamente a Pré-Ordem e a Em-Ordem calculadas.
->     - **B) Incorreta.** Inverteu a nomenclatura dos dois percursos.
->     - **C) Incorreta.** Apresenta percurso em pós-ordem e ordem decrescente.
->     - **D) Incorreta.** Apresenta percurso em largura (nível por nível) na primeira sequência.
->     - **E) Incorreta.** Apresenta a ordem decrescente na segunda sequência.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 04
-**(FCC – Auditor Fiscal / Tecnologia da Informação)**  
-As Tabelas Hash (*Hash Tables*) são amplamente utilizadas em sistemas de informação pela sua eficiência em operações de busca, inserção e remoção de registros indexados por chaves. A respeito da teoria das tabelas hash e dos métodos de tratamento de colisões, assinale a afirmativa correta:
-
-* **A)** A complexidade temporal assintótica de busca em uma tabela hash é estritamente $\mathcal{O}(1)$ em qualquer circunstância, independentemente da função hash ou da quantidade de colisões.
-* **B)** No método de tratamento de colisões por encadeamento separado (*separate chaining*), cada posição do vetor principal referencia uma lista encadeada, de modo que elementos colidentes são armazenados como nós dessa lista.
-* **C)** O fator de carga (*load factor*) de uma tabela hash corresponde ao tempo em milissegundos gasto pela CPU para calcular a função hash de uma chave string.
-* **D)** No endereçamento aberto com sondagem linear (*linear probing*), elementos que sofrem colisão são sempre descartados da tabela para impedir o agrupamento primário.
-* **E)** As tabelas hash armazenam seus elementos de forma intrinsicamente ordenada pelas suas chaves, facilitando operações de busca por intervalo (*range queries*).
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** $\mathcal{O}(1)$ é a complexidade média esperada; no pior caso (quando ocorrem colisões em massa), a busca degrada para $\mathcal{O}(n)$.
-> - **B) CORRETA.** No encadeamento separado (*separate chaining*), cada slot da tabela hash funciona como o cabeçalho de uma lista encadeada (ou árvore rubro-negra), de forma que múltiplos elementos associados ao mesmo índice hash são armazenados como nós sequenciais nessa lista.
-> - **C) Incorreta.** O fator de carga ($\alpha = n/m$) é a razão entre o número de elementos armazenados e o número de slots disponíveis na tabela, medindo a taxa de ocupação, não tempo de CPU.
-> - **D) Incorreta.** No endereçamento aberto, os elementos colidentes não são descartados, mas alocados na próxima posição desocupada do próprio array.
-> - **E) Incorreta.** As tabelas hash são desordenadas por natureza; para buscas ordenadas por intervalo utilizam-se árvores binárias de busca balanceadas (B-Trees ou AVL).
-> 
-> **Gabarito: B**
-
----
-
 ### Questão 05
 **(FCC – Analista de Sistemas / Desenvolvimento)**  
 No paradigma de Programação Funcional (PF), a manipulação de coleções é realizada prioritariamente por meio de funções de alta ordem (*higher-order functions*) que operam sobre estruturas imutáveis. Considere o processamento de uma lista contendo os salários de 5 colaboradores: `[2000, 3000, 4000, 5000, 6000]`. Deseja-se realizar, sequencialmente, as seguintes operações:
@@ -448,3 +441,17 @@ Para atingir exatamente esse objetivo seguindo os princípios funcionais, as fun
 >     - **E) Incorreta.** `forEach` destina-se à execução de efeitos colaterais imperativos e retorna `void`.
 > 
 > **Gabarito: C**
+
+---
+
+
+
+## 5. Fontes Oficiais e Referências Bibliográficas
+
+* [Python Official Documentation - Data Structures](https://docs.python.org/pt-br/3/tutorial/datastructures.html) - Listas, pilhas, filas, tuplas, dicionários, conjuntos e operações fundamentais de dados.
+* [Oracle Java Documentation - Java Collections Framework](https://docs.oracle.com/javase/tutorial/collections/intro/index.html) - Interfaces List, Set, Queue, Deque, Map e implementações em Java.
+* [Oracle Java Documentation - Object-Oriented Programming Concepts](https://docs.oracle.com/javase/tutorial/java/concepts/index.html) - Fundamentos formais de orientação a objetos: classes, objetos, encapsulamento e polimorfismo.
+* [ArXiv - Algorithm Complexity and Analysis](https://arxiv.org/abs/2107.03374) - Análise assintótica formal de complexidade e benchmarks algorítmicos.
+* CORMEN, Thomas H. et al. **Algoritmos: Teoria e Prática**. 4. ed. Rio de Janeiro: GEN LTC, 2024. (Cap. 1 a 4 - Fundamentos, Notação Assintótica e Divisão e Conquista).
+* SEDGEWICK, Robert; WAYNE, Kevin. **Algorithms**. 4. ed. Boston: Addison-Wesley, 2011. (Cap. 1 e 2 - Estruturas de Dados Elementares e Ordenação).
+* DROZDEK, Adam. **Estrutura de Dados e Algoritmos em C++**. 2. ed. São Paulo: Cengage Learning, 2016. (Cap. 3 a 5 - Pilhas, Filas e Árvores).

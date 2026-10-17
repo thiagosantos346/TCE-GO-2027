@@ -40,7 +40,6 @@
     - [5.3 Geração de Cenários BDD Executáveis (Gherkin)](#53-geracao-de-cenarios-bdd-executaveis-gherkin)
     - [5.4 Testes de Mutação (Mutation Testing): Avaliando a Real Eficácia dos Testes](#54-testes-de-mutacao-mutation-testing-avaliando-a-real-eficacia-dos-testes)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Prática Padrão FCC](#7-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -88,6 +87,29 @@ flowchart LR
 
 ---
 
+### Questão 01 (FCC - Padrão Concursos TI / Migração de Legado e Riscos Numéricos)
+Ao utilizar um assistente de inteligência artificial para traduzir uma rotina crítica de apuração de tributos escrita em COBOL para a linguagem Java, a equipe de engenharia de software de uma Secretaria de Fazenda deve prestar atenção especial a qual das seguintes armadilhas de código frequentemente induzidas pelo modelo?  
+
+* **A)** O modelo recusar-se a criar métodos públicos por limitações de licença de software livre.
+* **B)** A substituição de variáveis com precisão decimal exata (`COMP-3` do COBOL) por tipos de ponto flutuante primitivos como `double` ou `float` em Java, causando erros cumulativos de arredondamento em cálculos de centavos e multas.
+* **C)** A conversão forçada de todo o código em scripts de inicialização de BIOS de hardware.
+* **D)** A exigência obrigatória de compilar o novo código Java utilizando exclusivamente placas aceleradoras de inteligência artificial na nuvem.
+* **E)** O bloqueio automático de conexões com bancos de dados relacionais padrão SQL.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Modelos de IA não impõem restrições de visibilidade de métodos baseadas em licenças de código aberto.
+> - **B)** **CORRETA.** Sistemas legados em COBOL apoiam-se na representação decimal de ponto fixo exata (`COMP-3`). Linguagens modernas como Java possuem tipos primitivos de ponto flutuante binário (`float` e `double`) que seguem a norma IEEE 754 e introduzem pequenas imprecisões de conversão binária. Em cálculos de tributos e multas fiscais, isso gera erros cumulativos de centavos. A tradução correta exige o uso de classes de precisão arbitrária exata (`java.math.BigDecimal`).
+> - **C)** Incorreta. Migrações de código de sistemas de gestão não interagem com firmware de BIOS.
+> - **D)** Incorreta. Código Java gerado por IA roda em qualquer JVM padrão sobre CPUs convencionais.
+> - **E)** Incorreta. Java integra-se nativamente a bancos SQL por meio de JDBC e JPA.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 1.4 Completamento Inteligente de Código: Ghost Text e AST Local
 Assistentes de desenvolvimento integrados à IDE operam combinando predição estatística de tokens com inspeção estrutural estática:
 
@@ -124,6 +146,31 @@ flowchart TD
 | **Papel na Governança** | Base obrigatória e inegociável de conformidade de estilo, cobertura e padrões de código. | Camada inteligente de triagem, síntese de alterações e detecção de falhas lógicas sutis para apoiar a revisão humana. |
 
 ---
+
+### Questão 02 (FCC - Adaptada / TI - Revisão de Código Assistida por IA em CI/CD)
+Uma equipe de desenvolvimento governamental decidiu integrar um agente de IA generativa ao fluxo de Integração Contínua (CI/CD) para realizar a revisão automática inicial (*automated code review*) de todos os *Pull Requests* antes da avaliação pelos pares técnicos.
+
+Considerando os benefícios e os cuidados dessa prática, é correto afirmar:  
+
+* **A)** A ferramenta de IA deve receber credenciais irrestritas de administrador do repositório para realizar o merge automático em produção sem necessidade de aprovação humana.
+* **B)** A IA atua com alta eficácia na detecção precoce de más práticas de formatação (*code smells*), violações óbvias de princípios SOLID e potenciais credenciais ou chaves expostas (*hardcoded secrets*), mas a análise humana é indispensável para validação arquitetural e conformidade com regras de negócio.
+* **C)** Para submeter os trechos de código do tribunal à API pública de revisão da IA, é dispensável qualquer verificação contratual sobre a política de privacidade e uso dos dados pelo provedor da ferramenta.
+* **D)** A revisão de código por IA torna obsoletos os linters estáticos tradicionais (como SonarQube ou ESLint), pois LLMs executam compilação binária determinística com menor custo computacional.
+* **E)** A IA deve ser configurada para rejeitar sumariamente qualquer *Pull Request* que contenha comentários explicativos ou docstrings, priorizando código não documentado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A concessão de merge automático para IA em produção viola a segregação de funções e os princípios básicos de governança e controle de mudanças.
+> - **B)** **CORRETA.** Agentes de revisão de código por IA oferecem excelente suporte na triagem preliminar de Pull Requests: detectam segredos vazados no código, métodos excessivamente longos, duplicações e violações de SOLID. A avaliação arquitetural de alto nível e a conformidade legal continuam exigindo o julgamento de revisores humanos.
+> - **C)** Incorreta. A transferência de código governamental para serviços em nuvem exige salvaguardas contratuais estritas de sigilo e não retenção de dados (*Zero Data Retention*) em conformidade com as normas de segurança e LGPD.
+> - **D)** Incorreta. Linters determinísticos tradicionais (SonarQube, ESLint) são rápidos, locais e gratuitos, servindo como primeira barreira que a IA complementa, mas não substitui.
+> - **E)** Incorreta. Documentação técnica e docstrings são fundamentais para a manutenibilidade do software e devem ser incentivadas.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 2.2 Identificação de Code Smells, Débito Técnico e Violações de SOLID
 Os modelos de revisão atuam ativamente na prevenção de débito técnico em PRs:
@@ -198,6 +245,31 @@ Ao processar logs em formato estruturado (JSON, Logstash, Log4j), a IA correlaci
 - **Condições de Corrida (*Race Conditions*):** Identifica acessos concorrentes desprotegidos a variáveis compartilhadas em memória entre múltiplas threads.
 
 ---
+
+### Questão 03 (FCC - Padrão Concursos TI / Depuração e Root Cause Analysis com IA)
+Em um incidente de produção no qual um microsserviço de emissão de guias de recolhimento apresenta travamento intermitente por esgotamento de conexões com o banco de dados (*connection pool exhaustion*), a equipe recorreu a um modelo de IA para auxiliar na depuração através da análise dos logs de eventos e do código da aplicação.
+
+A respeito da atuação da IA no processo de depuração (*debugging*), assinale a afirmativa correta:  
+
+* **A)** O modelo é capaz de interpretar o stack trace e identificar que certos blocos de transação de banco de dados não estão liberando conexões em blocos `finally` ou que falta o fechamento automático via blocos `try-with-resources`.
+* **B)** A IA altera os servidores físicos da infraestrutura em tempo real sem emitir registros nos logs de auditoria.
+* **C)** Ferramentas de IA são incapazes de analisar arquivos de log em formato texto estruturado como JSON ou Logstash.
+* **D)** O uso de IA para diagnóstico exime a necessidade de a equipe reproduzir o problema em ambientes de homologação.
+* **E)** Modelos de linguagem conseguem interceptar o fluxo elétrico das fontes de alimentação dos servidores para eliminar deadlocks.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Modelos de linguagem são altamente eficazes no reconhecimento de padrões de vazamento de recursos (*resource leaks*), apontando com exatidão métodos onde objetos de conexão JDBC não foram encapsulados em blocos `try-with-resources` (`AutoCloseable`), provocando a retenção indevida de conexões que esgota o pool sob carga.
+> - **B)** Incorreta. LLMs operam sobre código e textos, não exercendo controle físico sobre hardwares sem auditoria.
+> - **C)** Incorreta. A interpretação de logs estruturados em JSON, Log4j ou Logstash é uma das tarefas mais maduras de assistentes generativos.
+> - **D)** Incorreta. A reprodução da falha e a validação do patch corretivo em ambiente de testes antes da ida para produção permanecem mandatórias.
+> - **E)** Incorreta. Deadlocks são conflitos lógicos de concorrência de software, não tendo qualquer relação com controle elétrico de fontes de alimentação.
+> 
+> **Gabarito: A**
+
+---
+
+
 
 ### 4.3 Análise de Causa-Raiz (Root Cause Analysis - RCA) e Patches Mínimos
 Ao identificar a causa-raiz de um incidente, a boa prática da engenharia de software assistida por IA recomenda a formulação de **Patches Mínimos**:
@@ -283,21 +355,7 @@ flowchart LR
 
 ---
 
-## 6. Fontes Recomendadas na Internet
-
-* [ArXiv - Evaluating Large Language Models Trained on Code / Codex & Pass@k (Chen et al.)](https://arxiv.org/abs/2107.03374) - Criação do benchmark HumanEval, definição formal da métrica pass@k e síntese funcional de código.
-* [ArXiv - SWE-bench: Can Language Models Resolve Real-World GitHub Issues? (Jimenez et al.)](https://arxiv.org/abs/2310.06770) - Avaliação automatizada de agentes de software resolvendo bugs em repositórios reais.
-* [Anthropic Documentation - Code Generation and Test Synthesis](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Melhores práticas para síntese de testes unitários, testes de mutação e análise de cobertura assistida.
-* [Martin Fowler - Self-Testing Code and Continuous Delivery](https://martinfowler.com/bliki/SelfTestingCode.html) - Princípios fundamentais de código auto-testável e automação de testes em engenharia.
-* SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson, 2019. (Cap. 8 - Teste de Software e Automação).
-* PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: Uma Abordagem Profissional**. 9. ed. Porto Alegre: AMGH, 2021. (Cap. 20 - Estratégias de Teste de Software).
-* BECK, Kent. **Desenvolvimento Guiado por Testes (TDD)**. Porto Alegre: Bookman, 2010. (Cap. 1 a 3 - Ciclo Red-Green-Refactor).
-
----
-
-## 7. Questões Comentadas & Prática Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TI - Geração de Testes com IA e Armadilhas)
+### Questão 04 (FCC - Adaptada / TI - Geração de Testes com IA e Armadilhas)
 Durante a fase de homologação de um módulo contábil no TCE-GO, um programador utilizou uma ferramenta de inteligência artificial generativa para gerar automaticamente uma suíte de testes unitários em JUnit a partir do código-fonte recém-escrito de uma classe de cálculo de multas.
 
 Ao analisar as práticas recomendadas e os riscos associados à geração de testes automatizados assistidos por IA, assinale a afirmativa correta:  
@@ -320,74 +378,7 @@ Ao analisar as práticas recomendadas e os riscos associados à geração de tes
 
 ---
 
-### Questão 2 (FCC - Adaptada / TI - Revisão de Código Assistida por IA em CI/CD)
-Uma equipe de desenvolvimento governamental decidiu integrar um agente de IA generativa ao fluxo de Integração Contínua (CI/CD) para realizar a revisão automática inicial (*automated code review*) de todos os *Pull Requests* antes da avaliação pelos pares técnicos.
-
-Considerando os benefícios e os cuidados dessa prática, é correto afirmar:  
-
-* **A)** A ferramenta de IA deve receber credenciais irrestritas de administrador do repositório para realizar o merge automático em produção sem necessidade de aprovação humana.
-* **B)** A IA atua com alta eficácia na detecção precoce de más práticas de formatação (*code smells*), violações óbvias de princípios SOLID e potenciais credenciais ou chaves expostas (*hardcoded secrets*), mas a análise humana é indispensável para validação arquitetural e conformidade com regras de negócio.
-* **C)** Para submeter os trechos de código do tribunal à API pública de revisão da IA, é dispensável qualquer verificação contratual sobre a política de privacidade e uso dos dados pelo provedor da ferramenta.
-* **D)** A revisão de código por IA torna obsoletos os linters estáticos tradicionais (como SonarQube ou ESLint), pois LLMs executam compilação binária determinística com menor custo computacional.
-* **E)** A IA deve ser configurada para rejeitar sumariamente qualquer *Pull Request* que contenha comentários explicativos ou docstrings, priorizando código não documentado.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A concessão de merge automático para IA em produção viola a segregação de funções e os princípios básicos de governança e controle de mudanças.
-> - **B)** **CORRETA.** Agentes de revisão de código por IA oferecem excelente suporte na triagem preliminar de Pull Requests: detectam segredos vazados no código, métodos excessivamente longos, duplicações e violações de SOLID. A avaliação arquitetural de alto nível e a conformidade legal continuam exigindo o julgamento de revisores humanos.
-> - **C)** Incorreta. A transferência de código governamental para serviços em nuvem exige salvaguardas contratuais estritas de sigilo e não retenção de dados (*Zero Data Retention*) em conformidade com as normas de segurança e LGPD.
-> - **D)** Incorreta. Linters determinísticos tradicionais (SonarQube, ESLint) são rápidos, locais e gratuitos, servindo como primeira barreira que a IA complementa, mas não substitui.
-> - **E)** Incorreta. Documentação técnica e docstrings são fundamentais para a manutenibilidade do software e devem ser incentivadas.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Padrão Concursos TI / Migração de Legado e Riscos Numéricos)
-Ao utilizar um assistente de inteligência artificial para traduzir uma rotina crítica de apuração de tributos escrita em COBOL para a linguagem Java, a equipe de engenharia de software de uma Secretaria de Fazenda deve prestar atenção especial a qual das seguintes armadilhas de código frequentemente induzidas pelo modelo?  
-
-* **A)** O modelo recusar-se a criar métodos públicos por limitações de licença de software livre.
-* **B)** A substituição de variáveis com precisão decimal exata (`COMP-3` do COBOL) por tipos de ponto flutuante primitivos como `double` ou `float` em Java, causando erros cumulativos de arredondamento em cálculos de centavos e multas.
-* **C)** A conversão forçada de todo o código em scripts de inicialização de BIOS de hardware.
-* **D)** A exigência obrigatória de compilar o novo código Java utilizando exclusivamente placas aceleradoras de inteligência artificial na nuvem.
-* **E)** O bloqueio automático de conexões com bancos de dados relacionais padrão SQL.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Modelos de IA não impõem restrições de visibilidade de métodos baseadas em licenças de código aberto.
-> - **B)** **CORRETA.** Sistemas legados em COBOL apoiam-se na representação decimal de ponto fixo exata (`COMP-3`). Linguagens modernas como Java possuem tipos primitivos de ponto flutuante binário (`float` e `double`) que seguem a norma IEEE 754 e introduzem pequenas imprecisões de conversão binária. Em cálculos de tributos e multas fiscais, isso gera erros cumulativos de centavos. A tradução correta exige o uso de classes de precisão arbitrária exata (`java.math.BigDecimal`).
-> - **C)** Incorreta. Migrações de código de sistemas de gestão não interagem com firmware de BIOS.
-> - **D)** Incorreta. Código Java gerado por IA roda em qualquer JVM padrão sobre CPUs convencionais.
-> - **E)** Incorreta. Java integra-se nativamente a bancos SQL por meio de JDBC e JPA.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Padrão Concursos TI / Depuração e Root Cause Analysis com IA)
-Em um incidente de produção no qual um microsserviço de emissão de guias de recolhimento apresenta travamento intermitente por esgotamento de conexões com o banco de dados (*connection pool exhaustion*), a equipe recorreu a um modelo de IA para auxiliar na depuração através da análise dos logs de eventos e do código da aplicação.
-
-A respeito da atuação da IA no processo de depuração (*debugging*), assinale a afirmativa correta:  
-
-* **A)** O modelo é capaz de interpretar o stack trace e identificar que certos blocos de transação de banco de dados não estão liberando conexões em blocos `finally` ou que falta o fechamento automático via blocos `try-with-resources`.
-* **B)** A IA altera os servidores físicos da infraestrutura em tempo real sem emitir registros nos logs de auditoria.
-* **C)** Ferramentas de IA são incapazes de analisar arquivos de log em formato texto estruturado como JSON ou Logstash.
-* **D)** O uso de IA para diagnóstico exime a necessidade de a equipe reproduzir o problema em ambientes de homologação.
-* **E)** Modelos de linguagem conseguem interceptar o fluxo elétrico das fontes de alimentação dos servidores para eliminar deadlocks.
-
-> **Comentário Detalhado:**
->
-> - **A)** **CORRETA.** Modelos de linguagem são altamente eficazes no reconhecimento de padrões de vazamento de recursos (*resource leaks*), apontando com exatidão métodos onde objetos de conexão JDBC não foram encapsulados em blocos `try-with-resources` (`AutoCloseable`), provocando a retenção indevida de conexões que esgota o pool sob carga.
-> - **B)** Incorreta. LLMs operam sobre código e textos, não exercendo controle físico sobre hardwares sem auditoria.
-> - **C)** Incorreta. A interpretação de logs estruturados em JSON, Log4j ou Logstash é uma das tarefas mais maduras de assistentes generativos.
-> - **D)** Incorreta. A reprodução da falha e a validação do patch corretivo em ambiente de testes antes da ida para produção permanecem mandatórias.
-> - **E)** Incorreta. Deadlocks são conflitos lógicos de concorrência de software, não tendo qualquer relação com controle elétrico de fontes de alimentação.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 5 (FCC - Padrão Concursos TI / Avaliação de Qualidade com Testes de Mutação)
+### Questão 05 (FCC - Padrão Concursos TI / Avaliação de Qualidade com Testes de Mutação)
 Para aferir a real qualidade de uma suite de testes unitários sintetizada por uma ferramenta de IA generativa, um arquiteto de software sugeriu a aplicação de Testes de Mutação (*Mutation Testing*).
 
 O princípio básico dos Testes de Mutação para validar a eficácia da suíte de testes gerada pela IA consiste em:  
@@ -407,3 +398,17 @@ O princípio básico dos Testes de Mutação para validar a eficácia da suíte 
 > - **E)** Incorreta. Comparação esdrúxula e sem fundamentação na engenharia de testes de software.
 > 
 > **Gabarito: B**
+
+---
+
+
+
+## 6. Fontes Recomendadas na Internet
+
+* [ArXiv - Evaluating Large Language Models Trained on Code / Codex & Pass@k (Chen et al.)](https://arxiv.org/abs/2107.03374) - Criação do benchmark HumanEval, definição formal da métrica pass@k e síntese funcional de código.
+* [ArXiv - SWE-bench: Can Language Models Resolve Real-World GitHub Issues? (Jimenez et al.)](https://arxiv.org/abs/2310.06770) - Avaliação automatizada de agentes de software resolvendo bugs em repositórios reais.
+* [Anthropic Documentation - Code Generation and Test Synthesis](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Melhores práticas para síntese de testes unitários, testes de mutação e análise de cobertura assistida.
+* [Martin Fowler - Self-Testing Code and Continuous Delivery](https://martinfowler.com/bliki/SelfTestingCode.html) - Princípios fundamentais de código auto-testável e automação de testes em engenharia.
+* SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson, 2019. (Cap. 8 - Teste de Software e Automação).
+* PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: Uma Abordagem Profissional**. 9. ed. Porto Alegre: AMGH, 2021. (Cap. 20 - Estratégias de Teste de Software).
+* BECK, Kent. **Desenvolvimento Guiado por Testes (TDD)**. Porto Alegre: Bookman, 2010. (Cap. 1 a 3 - Ciclo Red-Green-Refactor).

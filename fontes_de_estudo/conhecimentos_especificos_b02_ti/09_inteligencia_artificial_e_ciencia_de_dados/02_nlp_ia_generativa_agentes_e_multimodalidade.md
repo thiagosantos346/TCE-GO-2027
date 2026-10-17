@@ -32,7 +32,6 @@
     - [4.1 Alinhamento Semântico Multimodal e a Arquitetura CLIP](#41-alinhamento-semantico-multimodal-e-a-arquitetura-clip)
     - [4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)](#42-aplicacoes-em-auditoria-de-controle-externo-tce-go)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [5. Questões Comentadas (FCC)](#5-questoes-comentadas-fcc)
 
 ---
 
@@ -70,6 +69,32 @@ O pré-processamento transforma textos brutos e não estruturados em representa�
 
 > ⚠️ **Alerta de Prova (FCC):**
 > A banca FCC costuma afirmar que o *Stemming* gera palavras de dicionário perfeitas e que a *Lematização* corta sufixos aleatoriamente. Lembre-se: é o contrário! O **Stemming corta sufixos de forma mecânica/cega gerando radicais inválidos**; a **Lematização utiliza dicionários e morfologia para extrair o lema canônico oficial**.
+
+---
+
+### Questão 01
+**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
+Durante o planejamento de uma esteira analítica de Processamento de Linguagem Natural (PLN) para indexação temática e extração de entidades em acórdãos e peças jurídicas de um tribunal, os analistas debatem os métodos adequados de normalização textual e representação vetorial.
+A respeito das técnicas de processamento de texto, assinale a alternativa correta:
+
+* **A)** O *Stemming* consiste na identificação morfológica e sintática da classe gramatical de cada vocábulo em um dicionário estruturado para retornar unicamente o infinitivo canônico oficial do termo, enquanto a *Lematização* descarta regras gramaticais e aplica supressões de sufixos de forma puramente mecânica.
+* **B)** O algoritmo de tokenização por subpalavras *Byte-Pair Encoding* (BPE) inicia com um vocabulário fixo composto exclusivamente por sentenças inteiras e as divide progressivamente até alcançar letras individuais, gerando matrizes esparsas sem redundância.
+* **C)** Em abordagens estatísticas de recuperação de informação baseadas em TF-IDF, a remoção de *stopwords* é indicada para mitigar a alta dimensionalidade e expurgar palavras frequentes de baixo teor discriminativo; contudo, em modelos contextuais baseados em Transformers (como o BERT), as *stopwords* não devem ser removidas, pois a presença de artigos, pronomes e preposições é indispensável para o cálculo das relações de autoatenção contextual.
+* **D)** O componente IDF (*Inverse Document Frequency*) da matriz TF-IDF atribui peso máximo a termos que ocorrem em cem por cento dos documentos da coleção, visto que termos universais são estatisticamente os melhores descritores da base temática.
+* **E)** O modelo *Word2Vec* gera representações vetoriais dinâmicas que alteram as coordenadas de uma palavra conforme o contexto imediato de cada sentença em que ela se encontra, superando a rigidez estática dos modelos contextuais BERT e GPT.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Houve inversão completa: a **Lematização** é quem consulta dicionários e analisa a morfossintaxe contextual para produzir o lema canônico de dicionário; o **Stemming** é quem aplica cortes brutos e mecânicos de afixos sem respaldo sintático.
+> - **B)** Incorreta. O BPE opera na direção inversa (*bottom-up*): começa no nível de caracteres e funde iterativamente os pares de símbolos mais frequentes observados na base até formar as subpalavras.
+> - **C)** **Correta.** Em modelos estatísticos de frequência (*Bag of Words*, TF-IDF), eliminar *stopwords* reduz a dimensionalidade e descarta ruídos irrelevantes. Por outro lado, em arquiteturas de *Deep Learning* fundamentadas na **Autoatenção de Transformers** (como BERT e GPT), a presença de palavras funcionais (preposições, conectivos, pronomes) é mandatória para que o mecanismo de atenção modele com precisão a estrutura semântica e sintática das sentenças.
+> - **D)** Incorreta. O IDF é formulado como $\log(N / df)$. Se um termo figura em todos os documentos ($df = N$), a fração é $N/N = 1$ e seu $\text{IDF} = \log(1) = 0$, recebendo pontuação **nula**, e não máxima.
+> - **E)** Incorreta. O *Word2Vec* gera embeddings **estáticos** (cada vocábulo recebe um vetor fixo e imutável); quem gera embeddings **contextuais e dinâmicos** são exatamente os modelos baseados em Transformers (BERT, RoBERTa, GPT).
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos
 
@@ -129,6 +154,33 @@ onde $Q$ são as Consultas (*Queries*), $K$ são as Chaves (*Keys*), $V$ são os
 
 ---
 
+### Questão 02
+**(FCC - SEFAZ-PE - Auditoria de Tecnologia da Informação)**
+A publicação da arquitetura *Transformer* impulsionou a criação de modelos de linguagem pré-treinados profundos que hoje alicerçam grande parte do estado da arte em Processamento de Linguagem Natural. A partir desse paradigma, destacaram-se duas famílias arquiteturais com propriedades distintas: os modelos baseados no Codificador (*Encoder*) e os baseados no Decodificador (*Decoder*).
+Sobre as diferenças técnicas entre as famílias BERT e GPT, assinale a afirmativa correta:
+
+* **A)** O modelo BERT baseia-se exclusivamente no Decodificador do Transformer, empregando máscaras causais triangulares para impedir que tokens à direita interfiram na classificação do texto presente.
+* **B)** O modelo GPT fundamenta-se no Codificador do Transformer e processa sentenças em regime estritamente bidirecional, sendo treinado para reconstruir palavras ocultadas aleatoriamente por tokens especiais de preenchimento.
+* **C)** O modelo BERT baseia-se no Codificador e processa as sequências de forma bidirecional no treinamento para aprender representações contextuais profundas, sendo excelente para tarefas de classificação, busca semântica e reconhecimento de entidades; enquanto os modelos da família GPT são decodificadores autoregressivos unidirecionais voltados precipuamente à geração contínua do próximo token.
+* **D)** O mecanismo de autoatenção escalada divide o produto escalar das matrizes de Consulta e Chave pelo cubo da dimensionalidade dos vetores para induzir a explosão intencional dos gradientes na fase de retropropagação.
+* **E)** Os modelos BERT e GPT dispensam etapas de pré-treinamento auto-supervisionado, sendo inicializados e treinados diretamente em conjuntos de dados supervisionados anotados manualmente por auditores.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O BERT utiliza o **Codificador (*Encoder-Only*)** e opera de forma livremente **bidirecional**, sem máscaras causais triangulares restritivas.
+> - **B)** Incorreta. A família GPT baseia-se no **Decodificador (*Decoder-Only*)** e opera de forma autoregressiva unidirecional com a tarefa de previsão do próximo token (*Next Token Prediction*). Quem utiliza palavras mascaradas (*MLM*) é o BERT.
+> - **C)** **Correta.** 
+>     - **BERT (Encoder-Only):** Conecta tokens simultaneamente aos seus contextos à esquerda e à direita (bidirecional). Excelente para tarefas de análise, extração, classificação e busca semântica em bases vetoriais.
+>     - **GPT (Decoder-Only):** Estrutura causal autoregressiva que prevê sequencialmente a probabilidade condicional do próximo token ($P(w_t \mid w_{<t})$), sendo o motor ideal para geração contínua de texto, sumarização e interação conversacional.
+> - **D)** Incorreta. O fator de escalonamento da atenção divide o produto escalar pela **raiz quadrada** da dimensão ($\sqrt{d_k}$) com o objetivo expresso de **evitar a saturação da função softmax**, prevenindo o desvanecimento dos gradientes (*vanishing gradient*).
+> - **E)** Incorreta. Ambos os modelos fundamentam-se no paradigma do pré-treinamento auto-supervisionado maciço em gigabytes/terabytes de textos não rotulados da internet.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ## 2. Inteligência Artificial Generativa
 
 A IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a densidade de probabilidade $P(X)$ subjacente a distribuições empíricas de dados, permitindo a amostragem estocástica para sintetizar novos dados fidedignos e inéditos.
@@ -159,6 +211,32 @@ Introduzidas por Ian Goodfellow em 2014, as **GANs (*Generative Adversarial Netw
 - **Colapso de Modo (*Mode Collapse*):**
     - É a patologia mais célebre no treinamento de GANs.
     - Ocorre quando o Gerador encontra uma única amostra sintética específica (ou uma diversidade insignificante de amostras) altamente eficaz em enganar o Discriminador. O Gerador passa então a **produzir repetidamente e sempre a mesma saída idêntica**, ignorando a riqueza e variedade do restante do espaço amostral.
+
+---
+
+### Questão 03
+**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
+No domínio da Inteligência Artificial Generativa, diferentes famílias de redes neurais profundas foram consolidadas para síntese realista de dados multidimensionais, destacando-se as Redes Adversárias Generativas (GANs) e os Modelos de Difusão (*Diffusion Models*).
+A respeito das características arquiteturais dessas tecnologias generativas, assinale a alternativa correta:
+
+* **A)** As GANs consistem em um jogo de minimax competitivo no qual o Gerador busca mapear vetores de ruído em dados sintéticos fidedignos para enganar o Discriminador, sendo o fenômeno de Colapso de Modo (*Mode Collapse*) uma patologia clássica em que o Gerador passa a emitir saídas repetitivas de variedade extremamente restrita.
+* **B)** Os Modelos de Difusão são treinados por um jogo adversário de soma zero entre duas redes antagônicas que calculam a divergência estocástica de matrizes convolucionais estáticas.
+* **C)** O processo reverso dos Modelos de Difusão consiste na degradação contínua da imagem real mediante a injeção paulatina de ruído branco gaussiano, dispensando o uso de redes neurais para reconstrução de padrões.
+* **D)** As GANs são consagradas pelo meio acadêmico devido à sua garantia inata de estabilidade matemática irrestrita de convergência de gradientes durante o processo de treinamento, sendo imunes a desbalanceamentos de forças entre as redes.
+* **E)** Modelos de Difusão são incapazes de gerar imagens a partir de descrições textuais (*Text-to-Image*), operando exclusivamente sobre tensores tabulares esparsos de bancos relacionais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Nas GANs (Goodfellow et al., 2014), o Gerador e o Discriminador disputam um jogo de minimax. A patologia do **Colapso de Modo (*Mode Collapse*)** é um dos seus maiores riscos operacionais: ocorre quando o Gerador encontra uma saída específica capaz de enganar o Discriminador com facilidade e passa a sintetizar repetidamente sempre aquela mesma imagem (ou poucas variantes), deixando de representar toda a diversidade do espaço amostral de treino.
+> - **B)** Incorreta. Quem disputa jogos adversários em soma zero são as GANs. Modelos de Difusão baseiam-se em processos estocásticos graduais de adição e remoção de ruído via cadeias de Markov.
+> - **C)** Incorreta. A injeção paulatina de ruído até a completa dissolução da imagem compõe o **Processo Direto (*Forward Process*)**. O **Processo Reverso (*Reverse Process*)** é o caminho inverso, onde uma rede neural profunda (geralmente uma U-Net) remove o ruído passo a passo para regenerar a imagem nítida.
+> - **D)** Incorreta. O treino de GANs é notoriamente complexo e instável devido à delicadeza do equilíbrio de Nash entre os gradientes do Gerador e do Discriminador.
+> - **E)** Incorreta. Modelos de difusão são exatamente a tecnologia padrão do estado da arte para geração de imagens a partir de prompts textuais (*Text-to-Image*, como Stable Diffusion e DALL-E 3).
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 2.3 Modelos de Difusão (Diffusion Models)
 
@@ -258,6 +336,31 @@ A arquitetura e os algoritmos do agente são diretamente moldados pelas caracter
 
 ---
 
+### Questão 04
+**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+A teoria canônica de Inteligência Artificial formalizada por Stuart Russell e Peter Norvig organiza o projeto de sistemas computacionais autônomos com base no conceito de Agentes Racionais operando em Ambientes de Tarefas caracterizados pela taxonomia do framework PEAS (*Performance, Environment, Actuators, Sensors*).
+A respeito da classificação e do comportamento dos agentes inteligentes, assinale a alternativa correta:
+
+* **A)** Os Agentes Reativos Simples tomam decisões baseadas no planejamento preditivo de cenários futuros contingenciais e mantêm um histórico analítico de todas as percepções passadas.
+* **B)** Os Agentes Reativos Baseados em Modelos mantêm um estado interno dependente do histórico de percepções, o que lhes permite atuar de forma coerente em ambientes parcialmente observáveis, inferindo variáveis e aspectos do mundo que não estão acessíveis nos sensores no instante da decisão.
+* **C)** Os Agentes Baseados em Objetivos utilizam uma função escalar contínua de utilidade para equilibrar matematicamente a compensação entre objetivos conflitantes quando nenhum resultado perfeito for passível de concretização.
+* **D)** O ambiente de auditoria e fiscalização fiscal de um órgão de controle externo é classificado no framework PEAS como totalmente observável e estático, pois todos os fatos econômicos dos jurisdicionados são imediatamente conhecidos sem latência ou incerteza.
+* **E)** Um agente racional é definido estritamente como aquele que reproduz com total exatidão as falhas cognitivas e o processo emocional do cérebro humano, rejeitando o conceito de maximização de medidas de desempenho esperadas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Agentes Reativos Simples não realizam planejamento nem possuem memória interna; agem mecanicamente por regras condição-ação ($if \dots then \dots$) vinculadas exclusivamente à percepção imediata do instante presente.
+> - **B)** **Correta.** O **Agente Reativo Baseado em Modelos** possui uma estrutura interna de **estado** que encapsula o histórico e o conhecimento sobre a evolução do mundo exterior, permitindo deduzir facetas do ambiente que não estão diretamente ao alcance de seus sensores naquele instante, superando os desafios de ambientes **parcialmente observáveis**.
+> - **C)** Incorreta. A utilização de uma função de utilidade escalar contínua para mediar múltiplos objetivos conflitantes é atribuição do **Agente Baseado na Utilidade** (*Utility-Based Agent*). Agentes Baseados em Objetivos operam com avaliação booleana binária de metas (atingiu ou não atingiu o objetivo).
+> - **D)** Incorreta. Ambientes de controle externo e auditoria tributária são comprovadamente **parcialmente observáveis** (fraudes e sonegações são camufladas) e **dinâmicos** (a economia e os jurisdicionados continuam operando enquanto os relatórios são elaborados).
+> - **E)** Incorreta. O Agente Racional é formalmente conceituado como a entidade computacional que atua para **maximizar a sua medida de desempenho esperada**, apoiando-se em suas percepções e em seu conhecimento acumulado, e não como um simulador de limitações cognitivas humanas.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 4. Modelos Multimodais e Aplicações no Setor Público
 
 A Multimodalidade representa a capacidade dos sistemas modernos de IA de ingerir, alinhar, correlacionar e sintetizar simultaneamente informações provenientes de múltiplas modalidades sensoriais (texto, imagem, áudio e vídeo).
@@ -282,120 +385,6 @@ O marco fundamental que consolidou a visão-linguagem moderna foi o modelo **CLI
 - **Classificação Zero-Shot (*Zero-Shot Classification*):**
     - O CLIP dispensa retreinamento supervisionado para novas classes. Para classificar uma foto inédita, projeta-se o embedding da imagem e compara-se sua similaridade de cosseno contra os embeddings textuais de vários prompts candidatos gerados dinamicamente (ex.: *"uma foto de [obra concluída]"*, *"uma foto de [obra abandonada]"*). A classe com maior proximidade angular é selecionada.
 
-### 4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)
-
-1. **Auditoria de Obras e Engenharia Pública:** Uso de Modelos de Visão-Linguagem (VLMs) para inspecionar fotografias de vistorias técnicas, imagens de satélite multiespectrais e vídeos capturados por drones, cruzando automaticamente evidências visuais com o cronograma físico-financeiro e as planilhas orçamentárias de medição da obra pública.
-2. **OCR Semântico de Documentos Administrativos Legados:** Digitalização e leitura ótica inteligente de contratos históricos, certidões com caligrafia manual e processos digitalizados com baixa resolução, onde o modelo de linguagem contextual auxilia o modelo visual na recomposição de termos degradados pelo tempo.
-3. **Detecção de Fraudes em Notas Fiscais Eletrônicas:** Análise combinada de comprovantes digitalizados, carimbos notariais e fotos de mercadorias entregues, identificando discrepâncias materiais em compras governamentais.
-
----
-
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [ArXiv - BERT: Pre-training of Deep Bidirectional Transformers (Devlin et al.)](https://arxiv.org/abs/1810.04805) - Representações bidirecionais profundas para compreensão textual e processamento de linguagem natural.
-* [ArXiv - Attention Is All You Need (Vaswani et al.)](https://arxiv.org/abs/1706.03762) - Especificação detalhada de camadas de atenção multi-cabeça (*Multi-Head Attention*) e codificação posicional.
-* [OpenAI Platform - Text Generation and Chat Completion Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Modelos autoregressivos de linguagem, amostragem por temperatura e tokenização BPE.
-* [ArXiv - ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al.)](https://arxiv.org/abs/2210.03629) - Integração de modelos generativos com chamadas de função e raciocínio agentivo.
-* JURAFSKY, Daniel; MARTIN, James H. **Speech and Language Processing**. 3. ed. Stanford University, 2024. (Cap. 9 a 11 - Modelos de Linguagem Pré-treinados e Geração Textual).
-* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 24 - Processamento de Linguagem Natural com Aprendizado Profundo).
-* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 3 - Multimodality and Agentic Workflows).
-
----
-
-## 5. Questões Comentadas (FCC)
-
-### Questão 01
-**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
-Durante o planejamento de uma esteira analítica de Processamento de Linguagem Natural (PLN) para indexação temática e extração de entidades em acórdãos e peças jurídicas de um tribunal, os analistas debatem os métodos adequados de normalização textual e representação vetorial.
-A respeito das técnicas de processamento de texto, assinale a alternativa correta:
-
-* **A)** O *Stemming* consiste na identificação morfológica e sintática da classe gramatical de cada vocábulo em um dicionário estruturado para retornar unicamente o infinitivo canônico oficial do termo, enquanto a *Lematização* descarta regras gramaticais e aplica supressões de sufixos de forma puramente mecânica.
-* **B)** O algoritmo de tokenização por subpalavras *Byte-Pair Encoding* (BPE) inicia com um vocabulário fixo composto exclusivamente por sentenças inteiras e as divide progressivamente até alcançar letras individuais, gerando matrizes esparsas sem redundância.
-* **C)** Em abordagens estatísticas de recuperação de informação baseadas em TF-IDF, a remoção de *stopwords* é indicada para mitigar a alta dimensionalidade e expurgar palavras frequentes de baixo teor discriminativo; contudo, em modelos contextuais baseados em Transformers (como o BERT), as *stopwords* não devem ser removidas, pois a presença de artigos, pronomes e preposições é indispensável para o cálculo das relações de autoatenção contextual.
-* **D)** O componente IDF (*Inverse Document Frequency*) da matriz TF-IDF atribui peso máximo a termos que ocorrem em cem por cento dos documentos da coleção, visto que termos universais são estatisticamente os melhores descritores da base temática.
-* **E)** O modelo *Word2Vec* gera representações vetoriais dinâmicas que alteram as coordenadas de uma palavra conforme o contexto imediato de cada sentença em que ela se encontra, superando a rigidez estática dos modelos contextuais BERT e GPT.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Houve inversão completa: a **Lematização** é quem consulta dicionários e analisa a morfossintaxe contextual para produzir o lema canônico de dicionário; o **Stemming** é quem aplica cortes brutos e mecânicos de afixos sem respaldo sintático.
-> - **B)** Incorreta. O BPE opera na direção inversa (*bottom-up*): começa no nível de caracteres e funde iterativamente os pares de símbolos mais frequentes observados na base até formar as subpalavras.
-> - **C)** **Correta.** Em modelos estatísticos de frequência (*Bag of Words*, TF-IDF), eliminar *stopwords* reduz a dimensionalidade e descarta ruídos irrelevantes. Por outro lado, em arquiteturas de *Deep Learning* fundamentadas na **Autoatenção de Transformers** (como BERT e GPT), a presença de palavras funcionais (preposições, conectivos, pronomes) é mandatória para que o mecanismo de atenção modele com precisão a estrutura semântica e sintática das sentenças.
-> - **D)** Incorreta. O IDF é formulado como $\log(N / df)$. Se um termo figura em todos os documentos ($df = N$), a fração é $N/N = 1$ e seu $\text{IDF} = \log(1) = 0$, recebendo pontuação **nula**, e não máxima.
-> - **E)** Incorreta. O *Word2Vec* gera embeddings **estáticos** (cada vocábulo recebe um vetor fixo e imutável); quem gera embeddings **contextuais e dinâmicos** são exatamente os modelos baseados em Transformers (BERT, RoBERTa, GPT).
-> 
-> **Gabarito: C**
-
----
-
-### Questão 02
-**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
-A teoria canônica de Inteligência Artificial formalizada por Stuart Russell e Peter Norvig organiza o projeto de sistemas computacionais autônomos com base no conceito de Agentes Racionais operando em Ambientes de Tarefas caracterizados pela taxonomia do framework PEAS (*Performance, Environment, Actuators, Sensors*).
-A respeito da classificação e do comportamento dos agentes inteligentes, assinale a alternativa correta:
-
-* **A)** Os Agentes Reativos Simples tomam decisões baseadas no planejamento preditivo de cenários futuros contingenciais e mantêm um histórico analítico de todas as percepções passadas.
-* **B)** Os Agentes Reativos Baseados em Modelos mantêm um estado interno dependente do histórico de percepções, o que lhes permite atuar de forma coerente em ambientes parcialmente observáveis, inferindo variáveis e aspectos do mundo que não estão acessíveis nos sensores no instante da decisão.
-* **C)** Os Agentes Baseados em Objetivos utilizam uma função escalar contínua de utilidade para equilibrar matematicamente a compensação entre objetivos conflitantes quando nenhum resultado perfeito for passível de concretização.
-* **D)** O ambiente de auditoria e fiscalização fiscal de um órgão de controle externo é classificado no framework PEAS como totalmente observável e estático, pois todos os fatos econômicos dos jurisdicionados são imediatamente conhecidos sem latência ou incerteza.
-* **E)** Um agente racional é definido estritamente como aquele que reproduz com total exatidão as falhas cognitivas e o processo emocional do cérebro humano, rejeitando o conceito de maximização de medidas de desempenho esperadas.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Agentes Reativos Simples não realizam planejamento nem possuem memória interna; agem mecanicamente por regras condição-ação ($if \dots then \dots$) vinculadas exclusivamente à percepção imediata do instante presente.
-> - **B)** **Correta.** O **Agente Reativo Baseado em Modelos** possui uma estrutura interna de **estado** que encapsula o histórico e o conhecimento sobre a evolução do mundo exterior, permitindo deduzir facetas do ambiente que não estão diretamente ao alcance de seus sensores naquele instante, superando os desafios de ambientes **parcialmente observáveis**.
-> - **C)** Incorreta. A utilização de uma função de utilidade escalar contínua para mediar múltiplos objetivos conflitantes é atribuição do **Agente Baseado na Utilidade** (*Utility-Based Agent*). Agentes Baseados em Objetivos operam com avaliação booleana binária de metas (atingiu ou não atingiu o objetivo).
-> - **D)** Incorreta. Ambientes de controle externo e auditoria tributária são comprovadamente **parcialmente observáveis** (fraudes e sonegações são camufladas) e **dinâmicos** (a economia e os jurisdicionados continuam operando enquanto os relatórios são elaborados).
-> - **E)** Incorreta. O Agente Racional é formalmente conceituado como a entidade computacional que atua para **maximizar a sua medida de desempenho esperada**, apoiando-se em suas percepções e em seu conhecimento acumulado, e não como um simulador de limitações cognitivas humanas.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC - SEFAZ-PE - Auditoria de Tecnologia da Informação)**
-A publicação da arquitetura *Transformer* impulsionou a criação de modelos de linguagem pré-treinados profundos que hoje alicerçam grande parte do estado da arte em Processamento de Linguagem Natural. A partir desse paradigma, destacaram-se duas famílias arquiteturais com propriedades distintas: os modelos baseados no Codificador (*Encoder*) e os baseados no Decodificador (*Decoder*).
-Sobre as diferenças técnicas entre as famílias BERT e GPT, assinale a afirmativa correta:
-
-* **A)** O modelo BERT baseia-se exclusivamente no Decodificador do Transformer, empregando máscaras causais triangulares para impedir que tokens à direita interfiram na classificação do texto presente.
-* **B)** O modelo GPT fundamenta-se no Codificador do Transformer e processa sentenças em regime estritamente bidirecional, sendo treinado para reconstruir palavras ocultadas aleatoriamente por tokens especiais de preenchimento.
-* **C)** O modelo BERT baseia-se no Codificador e processa as sequências de forma bidirecional no treinamento para aprender representações contextuais profundas, sendo excelente para tarefas de classificação, busca semântica e reconhecimento de entidades; enquanto os modelos da família GPT são decodificadores autoregressivos unidirecionais voltados precipuamente à geração contínua do próximo token.
-* **D)** O mecanismo de autoatenção escalada divide o produto escalar das matrizes de Consulta e Chave pelo cubo da dimensionalidade dos vetores para induzir a explosão intencional dos gradientes na fase de retropropagação.
-* **E)** Os modelos BERT e GPT dispensam etapas de pré-treinamento auto-supervisionado, sendo inicializados e treinados diretamente em conjuntos de dados supervisionados anotados manualmente por auditores.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O BERT utiliza o **Codificador (*Encoder-Only*)** e opera de forma livremente **bidirecional**, sem máscaras causais triangulares restritivas.
-> - **B)** Incorreta. A família GPT baseia-se no **Decodificador (*Decoder-Only*)** e opera de forma autoregressiva unidirecional com a tarefa de previsão do próximo token (*Next Token Prediction*). Quem utiliza palavras mascaradas (*MLM*) é o BERT.
-> - **C)** **Correta.** 
->     - **BERT (Encoder-Only):** Conecta tokens simultaneamente aos seus contextos à esquerda e à direita (bidirecional). Excelente para tarefas de análise, extração, classificação e busca semântica em bases vetoriais.
->     - **GPT (Decoder-Only):** Estrutura causal autoregressiva que prevê sequencialmente a probabilidade condicional do próximo token ($P(w_t \mid w_{<t})$), sendo o motor ideal para geração contínua de texto, sumarização e interação conversacional.
-> - **D)** Incorreta. O fator de escalonamento da atenção divide o produto escalar pela **raiz quadrada** da dimensão ($\sqrt{d_k}$) com o objetivo expresso de **evitar a saturação da função softmax**, prevenindo o desvanecimento dos gradientes (*vanishing gradient*).
-> - **E)** Incorreta. Ambos os modelos fundamentam-se no paradigma do pré-treinamento auto-supervisionado maciço em gigabytes/terabytes de textos não rotulados da internet.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 04
-**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
-No domínio da Inteligência Artificial Generativa, diferentes famílias de redes neurais profundas foram consolidadas para síntese realista de dados multidimensionais, destacando-se as Redes Adversárias Generativas (GANs) e os Modelos de Difusão (*Diffusion Models*).
-A respeito das características arquiteturais dessas tecnologias generativas, assinale a alternativa correta:
-
-* **A)** As GANs consistem em um jogo de minimax competitivo no qual o Gerador busca mapear vetores de ruído em dados sintéticos fidedignos para enganar o Discriminador, sendo o fenômeno de Colapso de Modo (*Mode Collapse*) uma patologia clássica em que o Gerador passa a emitir saídas repetitivas de variedade extremamente restrita.
-* **B)** Os Modelos de Difusão são treinados por um jogo adversário de soma zero entre duas redes antagônicas que calculam a divergência estocástica de matrizes convolucionais estáticas.
-* **C)** O processo reverso dos Modelos de Difusão consiste na degradação contínua da imagem real mediante a injeção paulatina de ruído branco gaussiano, dispensando o uso de redes neurais para reconstrução de padrões.
-* **D)** As GANs são consagradas pelo meio acadêmico devido à sua garantia inata de estabilidade matemática irrestrita de convergência de gradientes durante o processo de treinamento, sendo imunes a desbalanceamentos de forças entre as redes.
-* **E)** Modelos de Difusão são incapazes de gerar imagens a partir de descrições textuais (*Text-to-Image*), operando exclusivamente sobre tensores tabulares esparsos de bancos relacionais.
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Nas GANs (Goodfellow et al., 2014), o Gerador e o Discriminador disputam um jogo de minimax. A patologia do **Colapso de Modo (*Mode Collapse*)** é um dos seus maiores riscos operacionais: ocorre quando o Gerador encontra uma saída específica capaz de enganar o Discriminador com facilidade e passa a sintetizar repetidamente sempre aquela mesma imagem (ou poucas variantes), deixando de representar toda a diversidade do espaço amostral de treino.
-> - **B)** Incorreta. Quem disputa jogos adversários em soma zero são as GANs. Modelos de Difusão baseiam-se em processos estocásticos graduais de adição e remoção de ruído via cadeias de Markov.
-> - **C)** Incorreta. A injeção paulatina de ruído até a completa dissolução da imagem compõe o **Processo Direto (*Forward Process*)**. O **Processo Reverso (*Reverse Process*)** é o caminho inverso, onde uma rede neural profunda (geralmente uma U-Net) remove o ruído passo a passo para regenerar a imagem nítida.
-> - **D)** Incorreta. O treino de GANs é notoriamente complexo e instável devido à delicadeza do equilíbrio de Nash entre os gradientes do Gerador e do Discriminador.
-> - **E)** Incorreta. Modelos de difusão são exatamente a tecnologia padrão do estado da arte para geração de imagens a partir de prompts textuais (*Text-to-Image*, como Stable Diffusion e DALL-E 3).
-> 
-> **Gabarito: A**
-
 ---
 
 ### Questão 05
@@ -418,3 +407,24 @@ Sobre os fundamentos operacionais e os benefícios metodológicos da arquitetura
 > - **E)** Incorreta. Sentenças de texto são sequências de tokens discretos e imagens são matrizes contínuas de pixels; a unificação ocorre no nível de projeção matemática abstrata dos embeddings latentes vetoriais (ex.: 512 dimensões), sendo descabida qualquer correspondência de resolução gráfica de pixels entre eles.
 > 
 > **Gabarito: B**
+
+---
+
+
+### 4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)
+
+1. **Auditoria de Obras e Engenharia Pública:** Uso de Modelos de Visão-Linguagem (VLMs) para inspecionar fotografias de vistorias técnicas, imagens de satélite multiespectrais e vídeos capturados por drones, cruzando automaticamente evidências visuais com o cronograma físico-financeiro e as planilhas orçamentárias de medição da obra pública.
+2. **OCR Semântico de Documentos Administrativos Legados:** Digitalização e leitura ótica inteligente de contratos históricos, certidões com caligrafia manual e processos digitalizados com baixa resolução, onde o modelo de linguagem contextual auxilia o modelo visual na recomposição de termos degradados pelo tempo.
+3. **Detecção de Fraudes em Notas Fiscais Eletrônicas:** Análise combinada de comprovantes digitalizados, carimbos notariais e fotos de mercadorias entregues, identificando discrepâncias materiais em compras governamentais.
+
+---
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [ArXiv - BERT: Pre-training of Deep Bidirectional Transformers (Devlin et al.)](https://arxiv.org/abs/1810.04805) - Representações bidirecionais profundas para compreensão textual e processamento de linguagem natural.
+* [ArXiv - Attention Is All You Need (Vaswani et al.)](https://arxiv.org/abs/1706.03762) - Especificação detalhada de camadas de atenção multi-cabeça (*Multi-Head Attention*) e codificação posicional.
+* [OpenAI Platform - Text Generation and Chat Completion Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Modelos autoregressivos de linguagem, amostragem por temperatura e tokenização BPE.
+* [ArXiv - ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al.)](https://arxiv.org/abs/2210.03629) - Integração de modelos generativos com chamadas de função e raciocínio agentivo.
+* JURAFSKY, Daniel; MARTIN, James H. **Speech and Language Processing**. 3. ed. Stanford University, 2024. (Cap. 9 a 11 - Modelos de Linguagem Pré-treinados e Geração Textual).
+* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 24 - Processamento de Linguagem Natural com Aprendizado Profundo).
+* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 3 - Multimodality and Agentic Workflows).

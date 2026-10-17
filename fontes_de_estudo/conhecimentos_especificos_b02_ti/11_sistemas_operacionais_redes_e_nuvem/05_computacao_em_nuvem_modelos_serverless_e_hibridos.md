@@ -38,7 +38,6 @@
     - [5.2 Modelos de Compra em Nuvem: On-Demand, Instâncias Reservadas e Spot](#52-modelos-de-compra-em-nuvem-on-demand-instancias-reservadas-e-spot)
     - [5.3 FinOps: Transição CapEx para OpEx e Dimensionamento Correto (Rightsizing)](#53-finops-transicao-capex-para-opex-e-dimensionamento-correto-rightsizing)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Exemplos Práticos](#7-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -100,6 +99,31 @@ flowchart TD
 
 ---
 
+### Questão 01 (FCC - Adaptada / Analista de Tecnologia da Informação - Infraestrutura em Nuvem)
+O Tribunal de Contas está conduzindo um projeto de modernização de seu ecossistema de TI, migrando sistemas legados para ambientes de computação em nuvem pública e adotando novos serviços modernos. Segundo a publicação NIST SP 800-145 (*The NIST Definition of Cloud Computing*), a definição de responsabilidades entre o cliente e o provedor varia fundamentalmente de acordo com o modelo de serviço contratado.
+
+A respeito dos modelos de serviço e da matriz de responsabilidade compartilhada, é correto afirmar:
+
+* **A)** No modelo IaaS (*Infrastructure as a Service*), o provedor de nuvem é o único responsável pela aplicação de correções de segurança (*patches*) no sistema operacional das máquinas virtuais e pela configuração dos firewalls de software dos sistemas operacionais convidados.
+* **B)** No modelo PaaS (*Platform as a Service*), o cliente gerencia diretamente o hardware físico subjacente e os hipervisores de virtualização, ficando o provedor responsável apenas pela codificação das regras de negócio da aplicação.
+* **C)** No modelo SaaS (*Software as a Service*), o consumidor não gerencia nem controla a infraestrutura de nuvem subjacente (redes, servidores, sistemas operacionais ou armazenamento) e nem mesmo as capacidades individuais da aplicação, com exceção de limitadas configurações específicas de perfil e preferência de uso.
+* **D)** A característica de "Elasticidade Rápida" (*Rapid Elasticity*) prevista pelo NIST exige intervenção manual e aprovação prévia do suporte técnico do provedor de nuvem para alocação temporária de novos nós computacionais.
+* **E)** No modelo IaaS, o provisionamento de recursos físicos é estático e exclusivo, não permitindo o compartilhamento dinâmico de recursos físicos (*Resource Pooling*) entre múltiplos locatários (*multi-tenancy*).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Em soluções IaaS, o provedor cuida exclusivamente da infraestrutura física e da virtualização; a instalação de patches de segurança e a gestão do sistema operacional convidado são encargos estritos do cliente.
+> - **B)** Incorreta. No modelo PaaS, o provedor gerencia a infraestrutura, o sistema operacional e a plataforma de runtime; o cliente foca no código e nos dados.
+> - **C)** Correta. Transcreve com rigor a definição canônica da norma NIST SP 800-145 para o modelo SaaS (*Software as a Service*), onde o usuário consome o software funcional sem gerenciar as camadas técnicas inferiores.
+> - **D)** Incorreta. A Elasticidade Rápida atua de forma automatizada e elástica, sem requerer aprovação manual ou abertura de chamados técnicos.
+> - **E)** Incorreta. O agrupamento de recursos (*Resource Pooling*) sob o modelo multilocatário (*multi-tenancy*) é uma das características essenciais mandatórias de toda arquitetura em nuvem, inclusive no IaaS.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 2.2 Matriz de Responsabilidade Compartilhada (Shared Responsibility Model)
 
 A segurança cibernética em nuvem fundamenta-se na **Responsabilidade Compartilhada**:
@@ -144,6 +168,31 @@ As arquiteturas Serverless destacam-se por duas características econômicas e o
 
 ---
 
+### Questão 02 (FCC - Adaptada / Analista de TI - Arquitetura de Soluções)
+Uma equipe de desenvolvimento concebeu um microsserviço assíncrono para processar notas de auditoria geradas pelos auditores fiscais. O serviço é disparado estritamente quando um novo arquivo PDF é depositado em um repositório de objetos de armazenamento em nuvem. Durante a noite e fins de semana, o volume de arquivos é nulo; durante o expediente forense, ocorrem picos esporádicos de centenas de arquivos por minuto. A equipe optou por uma arquitetura *Serverless* com modelo FaaS (*Function as a Service*).
+
+Considerando as características intrínsecas das arquiteturas *Serverless*, é correto afirmar que essa abordagem:
+
+* **A)** Exige que a equipe administre e dimensione previamente a quantidade de instâncias de máquinas virtuais e reserve portas de escuta no sistema operacional para manter o serviço ativo.
+* **B)** Apresenta o comportamento de redução de escala a zero (*scale-to-zero*), não gerando custos de cobrança computacional nos períodos de ociosidade, embora possa incorrer em latência inicial decorrente de *cold start* na primeira invocação após inatividade.
+* **C)** Impossibilita o escalonamento horizontal automático frente a aumentos repentinos de carga de requisições, dependendo de redimensionamento de memória vertical (*scale-up*).
+* **D)** Mantém os ambientes de execução das funções permanentemente ativos na memória RAM do data center, eliminando por completo qualquer latência de inicialização.
+* **E)** Impede a integração com serviços orientados a eventos, necessitando que o código execute uma rotina em laço infinito (*polling*) para inspecionar novos arquivos no repositório.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O modelo Serverless abstrai inteiramente a administração de sistemas operacionais, máquinas virtuais e gerenciamento de portas de rede.
+> - **B)** Correta. A computação Serverless reduz a escala a zero nos períodos de inatividade (custo zero de processamento), podendo apresentar latência transitória de *cold start* na inicialização inicial do ambiente de execução do contêiner da função.
+> - **C)** Incorreta. As plataformas FaaS escalam horizontalmente de forma massiva e instantânea para absorver centenas de execuções paralelas.
+> - **D)** Incorreta. Se as instâncias ficassem ativas permanentemente na memória RAM, violaria o princípio de escala a zero e geraria custos contínuos de servidor alocado.
+> - **E)** Incorreta. As arquiteturas Serverless são intrinsecamente orientadas a eventos (*event-driven*), sendo acionadas por gatilhos nativos de upload sem necessidade de loops manuais de polling.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3.3 O Desafio do Cold Start e Estratégias de Mitigação
 
 ```mermaid
@@ -186,6 +235,29 @@ A infraestrutura dos grandes provedores de nuvem (AWS, Microsoft Azure, Google C
 - **Pontos de Presença (*Edge Locations / PoPs*):** Data centers distribuídos em centenas de cidades globais responsáveis por aproximar o conteúdo do usuário final por meio de redes de entrega de conteúdo (**CDN**), realizando cache e terminação SSL próxima ao cliente.
 
 ---
+
+### Questão 03 (FCC - Adaptada / Analista de Tecnologia da Informação - Infraestrutura Cloud)
+Com relação aos conceitos de resiliência, topologia física e estratégias de escalabilidade em provedores de computação em nuvem pública (como AWS, Microsoft Azure e Google Cloud), assinale a afirmação correta:
+
+* **A)** Uma Zona de Disponibilidade (*Availability Zone* - AZ) consiste simplesmente em um rack isolado de servidores localizado dentro do mesmo espaço físico de um único data center comercial.
+* **B)** A escalabilidade horizontal (*scale-out*) consiste em aumentar os recursos de hardware, como vCPUs e memória RAM, de uma única máquina virtual existente, sendo a estratégia que oferece a maior elasticidade sem limites de capacidade.
+* **C)** Uma Zona de Disponibilidade (*Availability Zone*) é constituída por um ou mais data centers físicos discretos, dotados de fontes de alimentação elétrica, refrigeração e conectividade de rede independentes e redundantes, interligados a outras zonas da mesma região por meio de conexões de baixa latência.
+* **D)** As Regiões de nuvem compartilham obrigatoriamente a mesma subestação elétrica e a mesma rede física metropolitana, visando baratear o custo operacional da transmissão de dados.
+* **E)** A estratégia de resiliência *Multi-AZ* é ineficaz para mitigar falhas físicas de data center, dependendo compulsoriamente de migração manual de discos rígidos físicos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Zonas de Disponibilidade são data centers completos fisicamente separados por quilômetros de distância, e não simples racks de servidores.
+> - **B)** Incorreta. Adicionar processadores e memória a uma mesma máquina existente é a definição de escalabilidade **vertical** (*scale-up*), a qual possui teto físico de expansão.
+> - **C)** Correta. Expressa a definição técnica de uma Zona de Disponibilidade (AZ): infraestrutura composta por um ou mais data centers independentes, com redundância própria de energia, refrigeração e rede, conectada a outras AZs por fibra óptica de alta velocidade e baixa latência.
+> - **D)** Incorreta. Regiões são geograficamente autônomas e completamente isoladas umas das outras exatamente para que desastres em uma localidade não alcancem outras regiões.
+> - **E)** Incorreta. O modelo Multi-AZ foi concebido para conferir tolerância automática a falhas com comutação transparente entre data centers.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 4.2 Escalabilidade Vertical (Scale-Up) vs. Horizontal (Scale-Out)
 
@@ -230,105 +302,7 @@ flowchart LR
 
 ---
 
-### 5.2 Modelos de Compra em Nuvem: On-Demand, Instâncias Reservadas e Spot
-
-- **Sob Demanda (*On-Demand*):** Paga estritamente pelas horas ou segundos consumidos, sem compromisso de permanência nem custo inicial. Flexibilidade máxima com o preço de tabela unitário mais elevado.
-- **Instâncias Reservadas (*Reserved Instances*) / Savings Plans:** O cliente assume um **compromisso formal de uso contínuo por prazos de 1 ou 3 anos**. Em troca, os provedores concedem descontos expressivos de até **72%** sobre o valor da hora. É a opção ideal para servidores com carga permanente previsível (bancos de dados centrais).
-- **Instâncias Spot / Preemptíveis:** O provedor comercializa a capacidade computacional ociosa de seus data centers com descontos extremos de até **90%**. Contudo, **o provedor tem a prerrogativa de interromper ou desligar a instância a qualquer momento** (com aviso prévio de apenas 2 minutos) quando a capacidade for requisitada por clientes pagantes sob demanda. Deve ser utilizada exclusivamente para tarefas assíncronas tolerantes a falhas (renderização, processamento em lote, pipelines analíticos).
-
----
-
-### 5.3 FinOps: Transição CapEx para OpEx e Dimensionamento Correto (Rightsizing)
-
-- **Transição Financeira: CapEx $\rightarrow$ OpEx:**
-    - *CapEx (Capital Expenditure):* Despesas de capital com aquisição física pesada de hardware, licenças perpétuas, geradores e salas-cofre, depreciados contabilmente ao longo de anos.
-    - *OpEx (Operational Expenditure):* Despesas operacionais recorrentes, pagas conforme o uso real (*Pay-as-you-go*), proporcionando agilidade orçamentária e redução de custos ociosos.
-- **Dimensionamento Correto (*Rightsizing*):** Prática sistemática de inspecionar a telemetria de consumo (percentual real de uso de CPU e memória RAM) e redimensionar instâncias superdimensionadas para tipos menores e mais aderentes à necessidade real, eliminando desperdício orçamentário.
-
----
-
-## 6. Fontes Recomendadas na Internet
-
-* [NIST SP 800-145 - The NIST Definition of Cloud Computing](https://csrc.nist.gov/pubs/sp/800/145/final) - Definição seminal do NIST contemplando os 5 atributos essenciais, 3 modelos de serviço (IaaS, PaaS, SaaS) e 4 modelos de implantação.
-* [Martin Fowler - Serverless Architectures](https://martinfowler.com/articles/serverless.html) - Artigo seminal e abrangente de Martin Fowler e Mike Roberts sobre arquitetura, padrões e desafios do paradigma Serverless.
-* [Governo Digital - Computação em Nuvem no Setor Público](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/ambiente-tecnologico/nuvem) - Diretrizes e estratégia federal de contratação e adoção de infraestrutura em nuvem.
-* [AWS Official Documentation - O que é Computação Serverless?](https://aws.amazon.com/pt/serverless/) - Conceitos e arquitetura de computação sem servidor, automação orientada a eventos e escalabilidade sob demanda.
-* [NIST SP 800-146 - Cloud Computing Synopsis and Recommendations](https://csrc.nist.gov/pubs/sp/800/146/final) - Recomendações técnicas detalhadas para adoção de nuvens públicas, privadas, híbridas e comunitárias.
-* VERAS, Manoel. **Cloud Computing: Nova Arquitetura de TI**. Rio de Janeiro: Brasport, 2016. (Cap. 1 a 4 - Modelos de Entrega e Implantação em Nuvem).
-* FOWLER, Martin. **Patterns of Enterprise Application Architecture**. Boston: Addison-Wesley, 2002. (Cap. 3 a 5 - Estruturas de Distribuição e Escalabilidade).
-* BUYYA, Rajkumar; VECCHIOLA, Christian; SELVI, S. Thamarai. **Mastering Cloud Computing: Foundations and Applications Programming**. Burlington: Morgan Kaufmann, 2013. (Cap. 4 - Cloud Computing Architecture; Cap. 8 - Virtualization).
-
-
-## 7. Questões Comentadas & Exemplos Práticos
-
-### Questão 1 (FCC - Adaptada / Analista de Tecnologia da Informação - Infraestrutura em Nuvem)
-O Tribunal de Contas está conduzindo um projeto de modernização de seu ecossistema de TI, migrando sistemas legados para ambientes de computação em nuvem pública e adotando novos serviços modernos. Segundo a publicação NIST SP 800-145 (*The NIST Definition of Cloud Computing*), a definição de responsabilidades entre o cliente e o provedor varia fundamentalmente de acordo com o modelo de serviço contratado.
-
-A respeito dos modelos de serviço e da matriz de responsabilidade compartilhada, é correto afirmar:
-
-* **A)** No modelo IaaS (*Infrastructure as a Service*), o provedor de nuvem é o único responsável pela aplicação de correções de segurança (*patches*) no sistema operacional das máquinas virtuais e pela configuração dos firewalls de software dos sistemas operacionais convidados.
-* **B)** No modelo PaaS (*Platform as a Service*), o cliente gerencia diretamente o hardware físico subjacente e os hipervisores de virtualização, ficando o provedor responsável apenas pela codificação das regras de negócio da aplicação.
-* **C)** No modelo SaaS (*Software as a Service*), o consumidor não gerencia nem controla a infraestrutura de nuvem subjacente (redes, servidores, sistemas operacionais ou armazenamento) e nem mesmo as capacidades individuais da aplicação, com exceção de limitadas configurações específicas de perfil e preferência de uso.
-* **D)** A característica de "Elasticidade Rápida" (*Rapid Elasticity*) prevista pelo NIST exige intervenção manual e aprovação prévia do suporte técnico do provedor de nuvem para alocação temporária de novos nós computacionais.
-* **E)** No modelo IaaS, o provisionamento de recursos físicos é estático e exclusivo, não permitindo o compartilhamento dinâmico de recursos físicos (*Resource Pooling*) entre múltiplos locatários (*multi-tenancy*).
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Em soluções IaaS, o provedor cuida exclusivamente da infraestrutura física e da virtualização; a instalação de patches de segurança e a gestão do sistema operacional convidado são encargos estritos do cliente.
-> - **B)** Incorreta. No modelo PaaS, o provedor gerencia a infraestrutura, o sistema operacional e a plataforma de runtime; o cliente foca no código e nos dados.
-> - **C)** Correta. Transcreve com rigor a definição canônica da norma NIST SP 800-145 para o modelo SaaS (*Software as a Service*), onde o usuário consome o software funcional sem gerenciar as camadas técnicas inferiores.
-> - **D)** Incorreta. A Elasticidade Rápida atua de forma automatizada e elástica, sem requerer aprovação manual ou abertura de chamados técnicos.
-> - **E)** Incorreta. O agrupamento de recursos (*Resource Pooling*) sob o modelo multilocatário (*multi-tenancy*) é uma das características essenciais mandatórias de toda arquitetura em nuvem, inclusive no IaaS.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC - Adaptada / Analista de TI - Arquitetura de Soluções)
-Uma equipe de desenvolvimento concebeu um microsserviço assíncrono para processar notas de auditoria geradas pelos auditores fiscais. O serviço é disparado estritamente quando um novo arquivo PDF é depositado em um repositório de objetos de armazenamento em nuvem. Durante a noite e fins de semana, o volume de arquivos é nulo; durante o expediente forense, ocorrem picos esporádicos de centenas de arquivos por minuto. A equipe optou por uma arquitetura *Serverless* com modelo FaaS (*Function as a Service*).
-
-Considerando as características intrínsecas das arquiteturas *Serverless*, é correto afirmar que essa abordagem:
-
-* **A)** Exige que a equipe administre e dimensione previamente a quantidade de instâncias de máquinas virtuais e reserve portas de escuta no sistema operacional para manter o serviço ativo.
-* **B)** Apresenta o comportamento de redução de escala a zero (*scale-to-zero*), não gerando custos de cobrança computacional nos períodos de ociosidade, embora possa incorrer em latência inicial decorrente de *cold start* na primeira invocação após inatividade.
-* **C)** Impossibilita o escalonamento horizontal automático frente a aumentos repentinos de carga de requisições, dependendo de redimensionamento de memória vertical (*scale-up*).
-* **D)** Mantém os ambientes de execução das funções permanentemente ativos na memória RAM do data center, eliminando por completo qualquer latência de inicialização.
-* **E)** Impede a integração com serviços orientados a eventos, necessitando que o código execute uma rotina em laço infinito (*polling*) para inspecionar novos arquivos no repositório.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O modelo Serverless abstrai inteiramente a administração de sistemas operacionais, máquinas virtuais e gerenciamento de portas de rede.
-> - **B)** Correta. A computação Serverless reduz a escala a zero nos períodos de inatividade (custo zero de processamento), podendo apresentar latência transitória de *cold start* na inicialização inicial do ambiente de execução do contêiner da função.
-> - **C)** Incorreta. As plataformas FaaS escalam horizontalmente de forma massiva e instantânea para absorver centenas de execuções paralelas.
-> - **D)** Incorreta. Se as instâncias ficassem ativas permanentemente na memória RAM, violaria o princípio de escala a zero e geraria custos contínuos de servidor alocado.
-> - **E)** Incorreta. As arquiteturas Serverless são intrinsecamente orientadas a eventos (*event-driven*), sendo acionadas por gatilhos nativos de upload sem necessidade de loops manuais de polling.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Adaptada / Analista de Tecnologia da Informação - Infraestrutura Cloud)
-Com relação aos conceitos de resiliência, topologia física e estratégias de escalabilidade em provedores de computação em nuvem pública (como AWS, Microsoft Azure e Google Cloud), assinale a afirmação correta:
-
-* **A)** Uma Zona de Disponibilidade (*Availability Zone* - AZ) consiste simplesmente em um rack isolado de servidores localizado dentro do mesmo espaço físico de um único data center comercial.
-* **B)** A escalabilidade horizontal (*scale-out*) consiste em aumentar os recursos de hardware, como vCPUs e memória RAM, de uma única máquina virtual existente, sendo a estratégia que oferece a maior elasticidade sem limites de capacidade.
-* **C)** Uma Zona de Disponibilidade (*Availability Zone*) é constituída por um ou mais data centers físicos discretos, dotados de fontes de alimentação elétrica, refrigeração e conectividade de rede independentes e redundantes, interligados a outras zonas da mesma região por meio de conexões de baixa latência.
-* **D)** As Regiões de nuvem compartilham obrigatoriamente a mesma subestação elétrica e a mesma rede física metropolitana, visando baratear o custo operacional da transmissão de dados.
-* **E)** A estratégia de resiliência *Multi-AZ* é ineficaz para mitigar falhas físicas de data center, dependendo compulsoriamente de migração manual de discos rígidos físicos.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Zonas de Disponibilidade são data centers completos fisicamente separados por quilômetros de distância, e não simples racks de servidores.
-> - **B)** Incorreta. Adicionar processadores e memória a uma mesma máquina existente é a definição de escalabilidade **vertical** (*scale-up*), a qual possui teto físico de expansão.
-> - **C)** Correta. Expressa a definição técnica de uma Zona de Disponibilidade (AZ): infraestrutura composta por um ou mais data centers independentes, com redundância própria de energia, refrigeração e rede, conectada a outras AZs por fibra óptica de alta velocidade e baixa latência.
-> - **D)** Incorreta. Regiões são geograficamente autônomas e completamente isoladas umas das outras exatamente para que desastres em uma localidade não alcancem outras regiões.
-> - **E)** Incorreta. O modelo Multi-AZ foi concebido para conferir tolerância automática a falhas com comutação transparente entre data centers.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 4 (FCC - Adaptada / Tribunal de Contas - Infraestrutura e Redes Híbridas)
+### Questão 04 (FCC - Adaptada / Tribunal de Contas - Infraestrutura e Redes Híbridas)
 Um órgão governamental de controle externo decidiu manter suas bases de dados confidenciais hospedadas em seu data center corporativo local (*on-premises*), integrando-as a aplicações analíticas executadas em um provedor de nuvem pública. A equipe de tecnologia avalia as opções para implementar a conectividade híbrida entre os dois ambientes.
 
 A respeito dos mecanismos de conectividade em arquiteturas de nuvem híbrida, é correto afirmar:
@@ -351,7 +325,17 @@ A respeito dos mecanismos de conectividade em arquiteturas de nuvem híbrida, é
 
 ---
 
-### Questão 5 (FCC - Adaptada / Analista de Tecnologia da Informação - Governança Cloud e FinOps)
+
+
+### 5.2 Modelos de Compra em Nuvem: On-Demand, Instâncias Reservadas e Spot
+
+- **Sob Demanda (*On-Demand*):** Paga estritamente pelas horas ou segundos consumidos, sem compromisso de permanência nem custo inicial. Flexibilidade máxima com o preço de tabela unitário mais elevado.
+- **Instâncias Reservadas (*Reserved Instances*) / Savings Plans:** O cliente assume um **compromisso formal de uso contínuo por prazos de 1 ou 3 anos**. Em troca, os provedores concedem descontos expressivos de até **72%** sobre o valor da hora. É a opção ideal para servidores com carga permanente previsível (bancos de dados centrais).
+- **Instâncias Spot / Preemptíveis:** O provedor comercializa a capacidade computacional ociosa de seus data centers com descontos extremos de até **90%**. Contudo, **o provedor tem a prerrogativa de interromper ou desligar a instância a qualquer momento** (com aviso prévio de apenas 2 minutos) quando a capacidade for requisitada por clientes pagantes sob demanda. Deve ser utilizada exclusivamente para tarefas assíncronas tolerantes a falhas (renderização, processamento em lote, pipelines analíticos).
+
+---
+
+### Questão 05 (FCC - Adaptada / Analista de Tecnologia da Informação - Governança Cloud e FinOps)
 No âmbito da governança orçamentária e gestão de custos em nuvem (práticas de FinOps), a organização busca otimizar os gastos computacionais decorrentes do uso contínuo e transitório de máquinas virtuais na nuvem pública.
 
 A respeito dos modelos de contratação de capacidade computacional disponíveis nos principais provedores de computação em nuvem, assinale a opção correta:
@@ -371,3 +355,27 @@ A respeito dos modelos de contratação de capacidade computacional disponíveis
 > - **E)** Incorreta. O paradigma em nuvem substitui investimentos pesados em ativos de capital imobilizado (**CapEx**) por despesas operacionais recorrentes proporcionais ao consumo (**OpEx**).
 > 
 > **Gabarito: C**
+
+---
+
+
+
+### 5.3 FinOps: Transição CapEx para OpEx e Dimensionamento Correto (Rightsizing)
+
+- **Transição Financeira: CapEx $\rightarrow$ OpEx:**
+    - *CapEx (Capital Expenditure):* Despesas de capital com aquisição física pesada de hardware, licenças perpétuas, geradores e salas-cofre, depreciados contabilmente ao longo de anos.
+    - *OpEx (Operational Expenditure):* Despesas operacionais recorrentes, pagas conforme o uso real (*Pay-as-you-go*), proporcionando agilidade orçamentária e redução de custos ociosos.
+- **Dimensionamento Correto (*Rightsizing*):** Prática sistemática de inspecionar a telemetria de consumo (percentual real de uso de CPU e memória RAM) e redimensionar instâncias superdimensionadas para tipos menores e mais aderentes à necessidade real, eliminando desperdício orçamentário.
+
+---
+
+## 6. Fontes Recomendadas na Internet
+
+* [NIST SP 800-145 - The NIST Definition of Cloud Computing](https://csrc.nist.gov/pubs/sp/800/145/final) - Definição seminal do NIST contemplando os 5 atributos essenciais, 3 modelos de serviço (IaaS, PaaS, SaaS) e 4 modelos de implantação.
+* [Martin Fowler - Serverless Architectures](https://martinfowler.com/articles/serverless.html) - Artigo seminal e abrangente de Martin Fowler e Mike Roberts sobre arquitetura, padrões e desafios do paradigma Serverless.
+* [Governo Digital - Computação em Nuvem no Setor Público](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/ambiente-tecnologico/nuvem) - Diretrizes e estratégia federal de contratação e adoção de infraestrutura em nuvem.
+* [AWS Official Documentation - O que é Computação Serverless?](https://aws.amazon.com/pt/serverless/) - Conceitos e arquitetura de computação sem servidor, automação orientada a eventos e escalabilidade sob demanda.
+* [NIST SP 800-146 - Cloud Computing Synopsis and Recommendations](https://csrc.nist.gov/pubs/sp/800/146/final) - Recomendações técnicas detalhadas para adoção de nuvens públicas, privadas, híbridas e comunitárias.
+* VERAS, Manoel. **Cloud Computing: Nova Arquitetura de TI**. Rio de Janeiro: Brasport, 2016. (Cap. 1 a 4 - Modelos de Entrega e Implantação em Nuvem).
+* FOWLER, Martin. **Patterns of Enterprise Application Architecture**. Boston: Addison-Wesley, 2002. (Cap. 3 a 5 - Estruturas de Distribuição e Escalabilidade).
+* BUYYA, Rajkumar; VECCHIOLA, Christian; SELVI, S. Thamarai. **Mastering Cloud Computing: Foundations and Applications Programming**. Burlington: Morgan Kaufmann, 2013. (Cap. 4 - Cloud Computing Architecture; Cap. 8 - Virtualization).

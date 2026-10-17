@@ -39,7 +39,6 @@
     - [5.2 Dispensa por Emergência ou Calamidade Pública (Inciso VIII)](#52-dispensa-por-emergencia-ou-calamidade-publica-inciso-viii)
     - [5.3 Licitação Deserta, Fracassada e Remanescente de Contrato](#53-licitacao-deserta-fracassada-e-remanescente-de-contrato)
 - [6. Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
-- [7. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -82,6 +81,32 @@ No credenciamento, a Administração **não escolhe um único vencedor**: ela co
 
 > 🚨 **ALERTA DE PROVA / FCC:**  
 > A Lei nº 14.133/2021 tratou o credenciamento sob dupla face: no art. 78, como **procedimento auxiliar**, e no art. 74, inciso IV, como modalidade expressa de **inexigibilidade de licitação**. Como não há disputa concorrencial entre os credenciados (todos que cumprem os requisitos são credenciados sob tabela prefixada), há inviabilidade jurídica de competição, caracterizando a inexigibilidade formal da contratação.
+
+---
+
+### Questão 01 (FCC - Analista Judiciário)
+O Secretário de Saúde do Estado de Goiás necessita contratar serviços médicos ambulatoriais complementares de oftalmologia para zerar a fila de espera do SUS na região metropolitana de Goiânia. Como a demanda é muito superior à capacidade de atendimento de um único hospital privado, a pasta pretende credenciar todas as clínicas oftalmológicas que atendam aos requisitos técnicos estabelecidos em edital público permanente, fixando a remuneração por consulta e cirurgia conforme a tabela unificada do SUS, cabendo ao paciente a escolha do estabelecimento de sua preferência.
+
+A sistemática adotada pela Secretaria de Saúde qualifica-se como:
+
+* **A)** Concorrência Internacional com critério de técnica e preço
+* **B)** Credenciamento, procedimento auxiliar caracterizado pelo chamamento público aberto com remuneração pré-fixada e contratação paralela não excludente a critério de terceiros
+* **C)** Dispensa de licitação por fracionamento contínuo de despesa
+* **D)** Sistema de Registro de Preços para contratação em lote fechado exclusivo
+* **E)** Leilão invertido com disputa de lances decrescentes
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** A concorrência visa selecionar uma proposta vencedora excludente, enquanto no credenciamento todos os que preenchem as condições são contratados.
+> - **B) CORRETA:** Configura fielmente o procedimento auxiliar de Credenciamento previsto nos arts. 78, I, e 79 da Lei nº 14.133/2021. Trata-se de hipótese paralela e não excludente com seleção a critério de terceiros (o usuário final do SUS escolhe o prestador) com remuneração tabelada e uniforme previamente fixada pelo Poder Público.
+> - **C) Incorreta:** O credenciamento é procedimento legal e plenamente legítimo, não se confundindo com burla ou fracionamento indevido de dispensa.
+> - **D) Incorreta:** O SRP destina-se ao registro de preços unitários para aquisições parceladas futuras mediante seleção concorrencial do menor preço, e não credenciamento de todos os interessados sob tabela pública.
+> - **E) Incorreta:** O leilão destina-se à alienação de bens públicos para o maior lance.
+> 
+> **Gabarito: B**
+
+---
+
 
 #### 2.2 Pré-Qualificação Subjetiva e Objetiva (Art. 80)
 A pré-qualificação é o procedimento técnico-administrativo técnico permanente aberto a qualquer interessado para atestar antecipadamente:
@@ -136,6 +161,32 @@ flowchart LR
 > ⚠️ **RESTRIÇÃO FEDERATIVA (Art. 86, § 8º):**  
 > É vedada aos órgãos e entidades da Administração Pública Federal a adesão a ata de registro de preços gerenciada por órgão ou entidade estadual, distrital ou municipal. Em contrapartida, órgãos estaduais e municipais podem aderir a atas federais, desde que obedecidos os limites legais.
 
+---
+
+### Questão 02 (FCC - Técnico de Controle Externo / Administrativa)
+Uma autarquia estadual goiana pretende adquirir medicamentos essenciais para a rede ambulatorial aderindo, na condição de "órgão não participante" (carona), a uma Ata de Registro de Preços gerenciada pela Secretaria de Estado da Saúde de Goiás. Na ata em vigor, consta o quantitativo de 20.000 caixas de determinado antibiótico registrado para o órgão gerenciador.
+
+De acordo com os limites objetivos estipulados pelo art. 86 da Lei Federal nº 14.133/2021 para a adesão de órgãos não participantes:
+
+* **A)** A autarquia pode aderir à ata para adquirir até 100% do quantitativo original do órgão gerenciador.
+* **B)** As aquisições ou contratações adicionais por órgão não participante não poderão exceder, por órgão ou entidade, a 50% dos quantitativos registrados na ata de registro de preços para o órgão gerenciador e participantes.
+* **C)** A NLLC proibiu terminantemente qualquer adesão tardia por órgãos caronas no Sistema de Registro de Preços.
+* **D)** O somatório de todas as caronas concedidas durante a validade da ata não possui teto financeiro ou quantitativo.
+* **E)** O limite individual do carona é de 10% e o limite global é de 30% dos quantitativos registrados.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** O limite individual fixado pela lei é de até 50% do quantitativo do item registrado, e não 100%.
+> - **B) CORRETA:** De acordo com o art. 86, § 4º, da Lei nº 14.133/2021, as aquisições ou as contratações adicionais por órgão não participante não poderão exceder, por órgão ou entidade individual, a 50% (cinquenta por cento) dos quantitativos dos itens do instrumento convocatório e registrados na ata para o gerenciador e participantes.
+> - **C) Incorreta:** A NLLC não proibiu a adesão tardia do carona, mas submeteu o instituto a rígidos limites objetivos (50% individual e 2x global).
+> - **D) Incorreta:** Há teto global imperativo: conforme o art. 86, § 5º, a soma de todas as adesões de caronas não poderá exceder, na totalidade, ao dobro (200% ou 2x) do quantitativo de cada item registrado na ata.
+> - **E) Incorreta:** Os limites estipulados pela Lei 14.133/2021 são de 50% individual e o dobro global, e não 10% e 30%.
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 2.5 Registro Cadastral Unificado (Art. 87)
 A Lei nº 14.133/2021 impõe a criação do sistema de registro cadastral unificado, operacionalizado no Portal Nacional de Contratações Públicas (PNCP), de acesso público e permanente. O registro cadastral simplifica a verificação de regularidade fiscal, trabalhista e qualificação econômico-financeira de licitantes, dispensando os inscritos da apresentação física de certidões válidas já integradas digitalmente ao sistema.
 
@@ -184,6 +235,55 @@ A contratação direta sem licitação para serviços técnicos especializados e
 > 🚫 **VEDAÇÃO ABSOLUTA DA NLLC (Art. 74, § 3º):**  
 > É **vedada a inexigibilidade de licitação para serviços de publicidade e divulgação**. Campanhas publicitárias institucionais e propaganda governamental exigem compulsoriamente licitação com rito regulado pela Lei Federal nº 12.232/2010 (julgamento por melhor técnica ou técnica e preço, com subcomissão técnica imparcial).
 
+---
+
+### Questão 03 (FCC - Analista de Controle Externo / Adaptada TCE-GO)
+O Tribunal de Contas do Estado de Goiás necessita contratar com presteza parecer técnico-jurídico e patrocínio em processo contencioso de controle concentrado perante o Supremo Tribunal Federal, versando sobre as garantias orçamentárias constitucionais dos membros da Corte de Contas. A Presidência do Tribunal deliberou pela contratação direta de renomado jurista de projeção nacional, autor de clássicas obras doutrinárias e titular de cátedra universitária, reconhecido pela comunidade jurídica como expoente máximo na matéria constitucional controvertida.
+
+Em face do regramento das contratações diretas na Lei Federal nº 14.133/2021:
+
+* **A)** A hipótese caracteriza Inexigibilidade de Licitação, visto que envolve serviço técnico especializado de natureza predominantemente intelectual prestado por profissional de notória especialização, caracterizador de inviabilidade de competição.
+* **B)** O caso configura típica hipótese de Dispensa de Licitação por emergência funcional de representação judicial.
+* **C)** É obrigatória a deflagração de Concorrência de Menor Preço, sendo vedada a contratação direta de advogados e pareceristas pela Administração Pública.
+* **D)** A contratação é nula, pois serviços técnicos intelectuais devem ser contratados exclusivamente mediante a modalidade Pregão Eletrônico.
+* **E)** A hipótese deve ser processada obrigatoriamente por Leilão com lances decrescentes de honorários sucumbenciais.
+
+> **Comentário Detalhado:**
+>
+> - **A) CORRETA:** Conforme o art. 74, inciso III, alínea "c", da Lei nº 14.133/2021, é inexigível a licitação para a contratação de serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização, notadamente para o patrocínio ou defesa de causas judiciais ou administrativas, bem como para emissão de pareceres e perícias (alínea "b"). A notória especialização e a natureza singular do debate constitucional inviabilizam a disputa por menor preço, justificando plenamente a inexigibilidade.
+> - **B) Incorreta:** O fundamento não reside em dispensa emergencial (art. 75, VIII), mas na inviabilidade fática de comparação de propostas pelo mérito intelectual do especialista (inexigibilidade, art. 74).
+> - **C) Incorreta:** A contratação direta de serviços técnicos jurídicos intelectuais por inexigibilidade é expressamente autorizada pela NLLC, não se exigindo concorrência.
+> - **D) Incorreta:** O pregão destina-se a bens e serviços comuns com padrões objetivos de desempenho no mercado, não se aplicando a serviços intelectuais singulares de notória especialização.
+> - **E) Incorreta:** O leilão é modalidade destinada à alienação de bens públicos a quem oferecer maior lance, descabendo para contratação de serviços intelectuais.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 04 (FCC - Procurador do Estado / Adaptada)
+O Governador do Estado autorizou a contratação direta, mediante invocação de Inexigibilidade de Licitação por notória especialização, de uma famosa agência de publicidade sediada em São Paulo para criar e veicular em rede nacional uma campanha de divulgação dos atrativos turísticos de Goiás, dispensando a realização de certame licitatório.
+
+Analisando a legalidade da contratação direta com base no regime da Lei Federal nº 14.133/2021:
+
+* **A)** A contratação é válida, pois agências de publicidade premiadas internacionalmente qualificam-se automaticamente como profissionais de notória especialização intelectual.
+* **B)** A contratação padece de ilegalidade manifesta, haja vista que a Lei Federal nº 14.133/2021 veda expressamente a inexigibilidade de licitação para serviços de publicidade e divulgação.
+* **C)** A inexigibilidade é lícita desde que o valor total da campanha não ultrapasse R$ 5 milhões.
+* **D)** A publicidade institucional dispensa qualquer licitação sempre que visar a divulgação de turismo regional.
+* **E)** A contratação direta deveria ter ocorrido sob a modalidade Diálogo Competitivo com chancela do Tribunal de Contas.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** Embora a agência possua reputação e prêmios, a lei veda de forma absoluta a inexigibilidade para publicidade e propaganda.
+> - **B) CORRETA:** O art. 74, § 3º, da Lei nº 14.133/2021 estabelece taxativamente: *"É vedada a inexigibilidade de licitação para serviços de publicidade e divulgação."* Tais serviços exigem compulsoriamente certame licitatório regulado pela Lei Federal nº 12.232/2010.
+> - **C) Incorreta:** A vedação é material e absoluta, não dependendo de teto ou valor da contratação.
+> - **D) Incorreta:** Não existe hipótese de dispensa ou inexigibilidade genérica para publicidade governamental, ainda que de fomento ao turismo.
+> - **E) Incorreta:** Diálogo Competitivo é modalidade licitatória destinada à inovação tecnológica e soluções complexas sem padrão de mercado, não se aplicando à veiculação ordinária de publicidade.
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 4.4 Aquisição ou Locação de Imóvel Singular (Inciso V)
 - Aquisição ou locação de imóvel cujas características de instalações e de localização tornem necessária sua escolha pela Administração.
 - **Requisitos Formais:** Exige avaliação prévia de mercado, certificação da inexistência de imóveis públicos vagos adequados e justificativa técnica detalhada comprovando a singularidade do imóvel para o desempenho das atividades institucionais.
@@ -213,79 +313,9 @@ A dispensa de licitação ocorre em circunstâncias nas quais a competição ent
 > 🚨 **ALERTA DE PROVA / FCC:**  
 > A ocorrência de "emergência fabricada" — isto é, decorrente da desídia, inércia ou omissão de gestores públicos que deixaram de licitar a tempo um contrato continuado — **não impede** a contratação emergencial quando o interesse coletivo exigir a continuidade do serviço ou preservação de vidas. Todavia, a NLLC e a jurisprudência sumulada do TCU determinam que a autoridade deve determinar imediatamente a instauração de processo administrativo para apuração de responsabilidade dos agentes que deram causa à emergência por dolo ou negligência.
 
-#### 5.3 Licitação Deserta, Fracassada e Remanescente de Contrato
-- **Licitação Deserta (Art. 75, III, "a"):** Licitação na qual não compareceu nenhum licitante interessado (ausência de propostas). A dispensa é autorizada se comprovado que nova licitação causaria prejuízo à Administração e desde que sejam mantidas todas as condições preestabelecidas no edital primitivo.
-- **Licitação Fracassada (Art. 75, III, "b"):** Certame em que todas as propostas apresentadas foram desclassificadas (preços abusivos ou desconformidade técnica) ou todos os licitantes foram inabilitados. A dispensa exige a comprovação de prejuízo na repetição do certame e a estrita manutenção das condições do edital.
-- **Remanescente de Obra, Serviço ou Fornecimento (Art. 75, VII):** Ocorre após a rescisão contratual de ajuste anterior. A contratação direta é facultada aos demais licitantes classificados no certame original, atendida a ordem de classificação originária e desde que o convocado aceite celebrar o contrato nas mesmas condições econômicas propostas pelo licitante vencedor original.
-
 ---
 
-## 🌐 Fontes Recomendadas na Internet
-- [Lei Federal nº 14.133/2021 - Artigos 72 a 75 (Processo de Contratação Direta, Inexigibilidade e Dispensa)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art72)  
-  Normas legais completas sobre instrução do processo de contratação direta, hipóteses exemplificativas de inexigibilidade e rol taxativo de dispensa.
-- [Lei Federal nº 14.133/2021 - Artigos 78 a 88 (Procedimentos Auxiliares das Licitações)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art78)  
-  Disciplina legal do credenciamento, pré-qualificação, procedimento de manifestação de interesse (PMI), sistema de registro de preços (SRP) e registro cadastral.
-- [Decreto Federal nº 11.462/2023 (Regulamento do Sistema de Registro de Preços na Lei 14.133/2021)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11462.htm)  
-  Regulamenta os arts. 82 a 86 da NLLC quanto à gestão da Ata de Registro de Preços, vigência prorrogável e limites de 50% e 200% para adesão de caronas.
-- [Compras.gov.br - Instruções Normativas SEGES sobre Dispensa Eletrônica e Procedimentos Auxiliares](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas)  
-  Acervo de atos normativos federais sobre cotação eletrônica de dispensa por pequeno valor, credenciamento e registro cadastral unificado.
-- [Lei Federal nº 12.232/2010 (Vedação de Contratação Direta e Pregão para Publicidade)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)  
-  Regramento especial dos serviços de publicidade governamental em harmonia com a vedação de inexigibilidade do art. 74, § 3º, da Lei 14.133/2021.
-* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 72 a 88 - Contratação Direta e Procedimentos Auxiliares).
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 - Dispensa, Inexigibilidade de Licitação e Instrumentos Auxiliares na Lei 14.133/2021).
-* JACOBY FERNANDES, Jorge Ulisses. **Contratação Direta sem Licitação na Nova Lei de Licitações: Lei nº 14.133/2021**. 11. ed. Belo Horizonte: Fórum, 2022. (Cap. 2 a Cap. 5 - Inexigibilidade e Dispensa de Licitação).
-
----
-
-## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
-
-### Questão 1 (FCC - Analista de Controle Externo / Adaptada TCE-GO)
-O Tribunal de Contas do Estado de Goiás necessita contratar com presteza parecer técnico-jurídico e patrocínio em processo contencioso de controle concentrado perante o Supremo Tribunal Federal, versando sobre as garantias orçamentárias constitucionais dos membros da Corte de Contas. A Presidência do Tribunal deliberou pela contratação direta de renomado jurista de projeção nacional, autor de clássicas obras doutrinárias e titular de cátedra universitária, reconhecido pela comunidade jurídica como expoente máximo na matéria constitucional controvertida.
-
-Em face do regramento das contratações diretas na Lei Federal nº 14.133/2021:
-
-* **A)** A hipótese caracteriza Inexigibilidade de Licitação, visto que envolve serviço técnico especializado de natureza predominantemente intelectual prestado por profissional de notória especialização, caracterizador de inviabilidade de competição.
-* **B)** O caso configura típica hipótese de Dispensa de Licitação por emergência funcional de representação judicial.
-* **C)** É obrigatória a deflagração de Concorrência de Menor Preço, sendo vedada a contratação direta de advogados e pareceristas pela Administração Pública.
-* **D)** A contratação é nula, pois serviços técnicos intelectuais devem ser contratados exclusivamente mediante a modalidade Pregão Eletrônico.
-* **E)** A hipótese deve ser processada obrigatoriamente por Leilão com lances decrescentes de honorários sucumbenciais.
-
-> **Comentário Detalhado:**
->
-> - **A) CORRETA:** Conforme o art. 74, inciso III, alínea "c", da Lei nº 14.133/2021, é inexigível a licitação para a contratação de serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização, notadamente para o patrocínio ou defesa de causas judiciais ou administrativas, bem como para emissão de pareceres e perícias (alínea "b"). A notória especialização e a natureza singular do debate constitucional inviabilizam a disputa por menor preço, justificando plenamente a inexigibilidade.
-> - **B) Incorreta:** O fundamento não reside em dispensa emergencial (art. 75, VIII), mas na inviabilidade fática de comparação de propostas pelo mérito intelectual do especialista (inexigibilidade, art. 74).
-> - **C) Incorreta:** A contratação direta de serviços técnicos jurídicos intelectuais por inexigibilidade é expressamente autorizada pela NLLC, não se exigindo concorrência.
-> - **D) Incorreta:** O pregão destina-se a bens e serviços comuns com padrões objetivos de desempenho no mercado, não se aplicando a serviços intelectuais singulares de notória especialização.
-> - **E) Incorreta:** O leilão é modalidade destinada à alienação de bens públicos a quem oferecer maior lance, descabendo para contratação de serviços intelectuais.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 2 (FCC - Técnico de Controle Externo / Administrativa)
-Uma autarquia estadual goiana pretende adquirir medicamentos essenciais para a rede ambulatorial aderindo, na condição de "órgão não participante" (carona), a uma Ata de Registro de Preços gerenciada pela Secretaria de Estado da Saúde de Goiás. Na ata em vigor, consta o quantitativo de 20.000 caixas de determinado antibiótico registrado para o órgão gerenciador.
-
-De acordo com os limites objetivos estipulados pelo art. 86 da Lei Federal nº 14.133/2021 para a adesão de órgãos não participantes:
-
-* **A)** A autarquia pode aderir à ata para adquirir até 100% do quantitativo original do órgão gerenciador.
-* **B)** As aquisições ou contratações adicionais por órgão não participante não poderão exceder, por órgão ou entidade, a 50% dos quantitativos registrados na ata de registro de preços para o órgão gerenciador e participantes.
-* **C)** A NLLC proibiu terminantemente qualquer adesão tardia por órgãos caronas no Sistema de Registro de Preços.
-* **D)** O somatório de todas as caronas concedidas durante a validade da ata não possui teto financeiro ou quantitativo.
-* **E)** O limite individual do carona é de 10% e o limite global é de 30% dos quantitativos registrados.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O limite individual fixado pela lei é de até 50% do quantitativo do item registrado, e não 100%.
-> - **B) CORRETA:** De acordo com o art. 86, § 4º, da Lei nº 14.133/2021, as aquisições ou as contratações adicionais por órgão não participante não poderão exceder, por órgão ou entidade individual, a 50% (cinquenta por cento) dos quantitativos dos itens do instrumento convocatório e registrados na ata para o gerenciador e participantes.
-> - **C) Incorreta:** A NLLC não proibiu a adesão tardia do carona, mas submeteu o instituto a rígidos limites objetivos (50% individual e 2x global).
-> - **D) Incorreta:** Há teto global imperativo: conforme o art. 86, § 5º, a soma de todas as adesões de caronas não poderá exceder, na totalidade, ao dobro (200% ou 2x) do quantitativo de cada item registrado na ata.
-> - **E) Incorreta:** Os limites estipulados pela Lei 14.133/2021 são de 50% individual e o dobro global, e não 10% e 30%.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Auditor de Controle Externo / Adaptada)
+### Questão 05 (FCC - Auditor de Controle Externo / Adaptada)
 Em razão de chuvas torrenciais atípicas que destruíram a principal ponte de acesso a determinado município goiano, isolando a população local, o Governo do Estado decretou situação de calamidade pública e contratou diretamente, com fundamento no art. 75, VIII, da Lei nº 14.133/2021, uma empreiteira para construir emergencialmente uma estrutura viária provisória e recompor o tráfego de ambulâncias e mantimentos.
 
 Sobre o regime jurídico do contrato administrativo decorrente de **dispensa por emergência ou calamidade pública**, a Lei nº 14.133/2021 determina que:
@@ -308,46 +338,25 @@ Sobre o regime jurídico do contrato administrativo decorrente de **dispensa por
 
 ---
 
-### Questão 4 (FCC - Procurador do Estado / Adaptada)
-O Governador do Estado autorizou a contratação direta, mediante invocação de Inexigibilidade de Licitação por notória especialização, de uma famosa agência de publicidade sediada em São Paulo para criar e veicular em rede nacional uma campanha de divulgação dos atrativos turísticos de Goiás, dispensando a realização de certame licitatório.
 
-Analisando a legalidade da contratação direta com base no regime da Lei Federal nº 14.133/2021:
-
-* **A)** A contratação é válida, pois agências de publicidade premiadas internacionalmente qualificam-se automaticamente como profissionais de notória especialização intelectual.
-* **B)** A contratação padece de ilegalidade manifesta, haja vista que a Lei Federal nº 14.133/2021 veda expressamente a inexigibilidade de licitação para serviços de publicidade e divulgação.
-* **C)** A inexigibilidade é lícita desde que o valor total da campanha não ultrapasse R$ 5 milhões.
-* **D)** A publicidade institucional dispensa qualquer licitação sempre que visar a divulgação de turismo regional.
-* **E)** A contratação direta deveria ter ocorrido sob a modalidade Diálogo Competitivo com chancela do Tribunal de Contas.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** Embora a agência possua reputação e prêmios, a lei veda de forma absoluta a inexigibilidade para publicidade e propaganda.
-> - **B) CORRETA:** O art. 74, § 3º, da Lei nº 14.133/2021 estabelece taxativamente: *"É vedada a inexigibilidade de licitação para serviços de publicidade e divulgação."* Tais serviços exigem compulsoriamente certame licitatório regulado pela Lei Federal nº 12.232/2010.
-> - **C) Incorreta:** A vedação é material e absoluta, não dependendo de teto ou valor da contratação.
-> - **D) Incorreta:** Não existe hipótese de dispensa ou inexigibilidade genérica para publicidade governamental, ainda que de fomento ao turismo.
-> - **E) Incorreta:** Diálogo Competitivo é modalidade licitatória destinada à inovação tecnológica e soluções complexas sem padrão de mercado, não se aplicando à veiculação ordinária de publicidade.
-> 
-> **Gabarito: B**
+#### 5.3 Licitação Deserta, Fracassada e Remanescente de Contrato
+- **Licitação Deserta (Art. 75, III, "a"):** Licitação na qual não compareceu nenhum licitante interessado (ausência de propostas). A dispensa é autorizada se comprovado que nova licitação causaria prejuízo à Administração e desde que sejam mantidas todas as condições preestabelecidas no edital primitivo.
+- **Licitação Fracassada (Art. 75, III, "b"):** Certame em que todas as propostas apresentadas foram desclassificadas (preços abusivos ou desconformidade técnica) ou todos os licitantes foram inabilitados. A dispensa exige a comprovação de prejuízo na repetição do certame e a estrita manutenção das condições do edital.
+- **Remanescente de Obra, Serviço ou Fornecimento (Art. 75, VII):** Ocorre após a rescisão contratual de ajuste anterior. A contratação direta é facultada aos demais licitantes classificados no certame original, atendida a ordem de classificação originária e desde que o convocado aceite celebrar o contrato nas mesmas condições econômicas propostas pelo licitante vencedor original.
 
 ---
 
-### Questão 5 (FCC - Analista Judiciário)
-O Secretário de Saúde do Estado de Goiás necessita contratar serviços médicos ambulatoriais complementares de oftalmologia para zerar a fila de espera do SUS na região metropolitana de Goiânia. Como a demanda é muito superior à capacidade de atendimento de um único hospital privado, a pasta pretende credenciar todas as clínicas oftalmológicas que atendam aos requisitos técnicos estabelecidos em edital público permanente, fixando a remuneração por consulta e cirurgia conforme a tabela unificada do SUS, cabendo ao paciente a escolha do estabelecimento de sua preferência.
-
-A sistemática adotada pela Secretaria de Saúde qualifica-se como:
-
-* **A)** Concorrência Internacional com critério de técnica e preço
-* **B)** Credenciamento, procedimento auxiliar caracterizado pelo chamamento público aberto com remuneração pré-fixada e contratação paralela não excludente a critério de terceiros
-* **C)** Dispensa de licitação por fracionamento contínuo de despesa
-* **D)** Sistema de Registro de Preços para contratação em lote fechado exclusivo
-* **E)** Leilão invertido com disputa de lances decrescentes
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** A concorrência visa selecionar uma proposta vencedora excludente, enquanto no credenciamento todos os que preenchem as condições são contratados.
-> - **B) CORRETA:** Configura fielmente o procedimento auxiliar de Credenciamento previsto nos arts. 78, I, e 79 da Lei nº 14.133/2021. Trata-se de hipótese paralela e não excludente com seleção a critério de terceiros (o usuário final do SUS escolhe o prestador) com remuneração tabelada e uniforme previamente fixada pelo Poder Público.
-> - **C) Incorreta:** O credenciamento é procedimento legal e plenamente legítimo, não se confundindo com burla ou fracionamento indevido de dispensa.
-> - **D) Incorreta:** O SRP destina-se ao registro de preços unitários para aquisições parceladas futuras mediante seleção concorrencial do menor preço, e não credenciamento de todos os interessados sob tabela pública.
-> - **E) Incorreta:** O leilão destina-se à alienação de bens públicos para o maior lance.
-> 
-> **Gabarito: B**
+## 🌐 Fontes Recomendadas na Internet
+- [Lei Federal nº 14.133/2021 - Artigos 72 a 75 (Processo de Contratação Direta, Inexigibilidade e Dispensa)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art72)  
+  Normas legais completas sobre instrução do processo de contratação direta, hipóteses exemplificativas de inexigibilidade e rol taxativo de dispensa.
+- [Lei Federal nº 14.133/2021 - Artigos 78 a 88 (Procedimentos Auxiliares das Licitações)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art78)  
+  Disciplina legal do credenciamento, pré-qualificação, procedimento de manifestação de interesse (PMI), sistema de registro de preços (SRP) e registro cadastral.
+- [Decreto Federal nº 11.462/2023 (Regulamento do Sistema de Registro de Preços na Lei 14.133/2021)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11462.htm)  
+  Regulamenta os arts. 82 a 86 da NLLC quanto à gestão da Ata de Registro de Preços, vigência prorrogável e limites de 50% e 200% para adesão de caronas.
+- [Compras.gov.br - Instruções Normativas SEGES sobre Dispensa Eletrônica e Procedimentos Auxiliares](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas)  
+  Acervo de atos normativos federais sobre cotação eletrônica de dispensa por pequeno valor, credenciamento e registro cadastral unificado.
+- [Lei Federal nº 12.232/2010 (Vedação de Contratação Direta e Pregão para Publicidade)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)  
+  Regramento especial dos serviços de publicidade governamental em harmonia com a vedação de inexigibilidade do art. 74, § 3º, da Lei 14.133/2021.
+* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 72 a 88 - Contratação Direta e Procedimentos Auxiliares).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 - Dispensa, Inexigibilidade de Licitação e Instrumentos Auxiliares na Lei 14.133/2021).
+* JACOBY FERNANDES, Jorge Ulisses. **Contratação Direta sem Licitação na Nova Lei de Licitações: Lei nº 14.133/2021**. 11. ed. Belo Horizonte: Fórum, 2022. (Cap. 2 a Cap. 5 - Inexigibilidade e Dispensa de Licitação).

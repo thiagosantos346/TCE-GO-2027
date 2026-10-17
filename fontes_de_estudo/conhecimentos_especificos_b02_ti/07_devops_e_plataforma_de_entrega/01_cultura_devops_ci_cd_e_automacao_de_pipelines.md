@@ -42,7 +42,6 @@
     - [5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners](#52-gitlab-cicd-stages-jobs-artifacts-cache-rules-e-runners)
     - [5.3 Jenkins: Arquitetura Controller-Agent, Declarative Pipeline e Scripted Pipeline](#53-jenkins-arquitetura-controller-agent-declarative-pipeline-e-scripted-pipeline)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -120,6 +119,29 @@ As métricas DORA resultam de quase uma década de pesquisas empíricas e rigor 
 
 ---
 
+### Questão 01 (FCC - Adaptada / TI - Métricas DORA e Desempenho em Engenharia de Software)
+A equipe de liderança técnica de uma Secretaria de Fazenda Estadual realizou uma avaliação de maturidade de seus processos de entrega contínua com base no framework DORA (*DevOps Research and Assessment*). De acordo com os relatórios consolidados do State of DevOps Report da DORA, as organizações classificadas como de alta performance técnica (*high performers*) são caracterizadas por:  
+
+* **A)** Alto *Lead Time for Changes* (superior a um mês) para assegurar rigorosas revisões manuais por comitês de governança (CAB) antes de qualquer implantação.
+* **B)** Alta frequência de implantação (*Deployment Frequency*) combinada simultaneamente com baixo tempo de recuperação de serviços (*Time to Restore Service*) e baixa taxa de falha em mudanças (*Change Failure Rate*).
+* **C)** Baixa frequência de implantação (deploys semestrais em lotes grandes), priorizando a estabilidade através do congelamento de código (*code freeze*).
+* **D)** Alta taxa de falha em mudanças (*Change Failure Rate* acima de 50%), justificada pela necessidade de aprendizado rápido na Terceira Via do DevOps, desconsiderando a perda de disponibilidade.
+* **E)** Foco exclusivo no custo financeiro da computação em nuvem, ignorando métricas de velocidade de entrega e estabilidade operacional.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Um *Lead Time for Changes* elevado (meses) e a dependência de comitês centralizados manuais (CAB) são marcas registradas de organizações de baixa performance. Times de elite possuem Lead Time inferior a 1 hora.
+> - **B)** Correta. A principal descoberta científica do DORA é que velocidade (*throughput*) e estabilidade não são excludentes: organizações de alta performance possuem altíssima frequência de deploy e ciclo ágil de entrega, acompanhados de baixíssima taxa de falha nas mudanças (0% a 15%) e recuperação de falhas (*Time to Restore*) em menos de 1 hora.
+> - **C)** Incorreta. Deploys semestrais em lotes gigantescos e políticas de congelamento de código geram acúmulo de risco, integração traumática (*merge hell*) e falhas graves de sistema, caracterizando organizações de baixa maturidade.
+> - **D)** Incorreta. A Terceira Via do DevOps estimula experimentação e aprendizado a partir de falhas em ambientes seguros, mas nunca aceita uma taxa de 50% de quebra em produção com prejuízo aos usuários.
+> - **E)** Incorreta. As métricas DORA são estritamente centradas nas quatro dimensões técnicas fundamentais de throughput e estabilidade operacional, e não no custo financeiro da fatura de nuvem.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 2. O Espectro de Automação: CI vs. CD (Delivery vs. Deployment)
 
 A automação da esteira de publicação de software é composta por três patamares progressivos de maturidade. Compreender o limite exato de escopo e responsabilidade entre eles é matéria clássica em provas da FCC.
@@ -191,6 +213,37 @@ A **Implantação Contínua (*Continuous Deployment*)** representa o nível máx
 
 ---
 
+### Questão 02 (FCC - Adaptada / TI - Práticas de CI/CD e Espectro de Automação)
+No contexto da cultura DevOps e das práticas modernas de engenharia de software, considere as seguintes afirmativas sobre Integração Contínua (CI), Entrega Contínua (*Continuous Delivery*) e Implantação Contínua (*Continuous Deployment*):
+
+I. Na Integração Contínua (*Continuous Integration*), desenvolvedores integram código ao ramo principal com alta frequência, disparando compilações e execuções de testes automatizados a cada *commit*, de modo a identificar falhas de integração precocemente.  
+
+II. Na Entrega Contínua (*Continuous Delivery*), todo o pipeline de automação (da compilação até os testes em ambientes similares ao de produção) é executado, deixando a aplicação em estado permanente de prontidão para implantação (*release candidate*), dependendo, contudo, de uma aprovação/gatilho manual por decisão de negócio para o deploy em produção.  
+
+III. Na Implantação Contínua (*Continuous Deployment*), não há intervenção humana no fluxo: toda alteração aprovada em todos os testes e estágios automatizados do pipeline é promovida automaticamente para o ambiente produtivo.  
+
+Está correto o que se afirma em:  
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** II e III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, II e III.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Os itens II e III também são verdadeiros e conceituam com rigor técnico as práticas de automação.
+> - **B)** Incorreta. O item III está correto, pois na Implantação Contínua a passagem para produção ocorre sem intervenção humana.
+> - **C)** Incorreta. O item I também está correto ao definir a Integração Contínua.
+> - **D)** Incorreta. O item II também é verdadeiro ao definir o gate manual de negócio na Entrega Contínua.
+> - **E)** Correta. Todas as três assertivas estão rigorosamente exatas: (I) a Integração Contínua foca na integração frequente ao branch principal com compilação e testes unitários imediatos; (II) a Entrega Contínua (*Continuous Delivery*) mantém o software em estado permanente de liberação (*deployable*), mas aguarda uma aprovação manual de negócio para o deploy em produção; (III) a Implantação Contínua (*Continuous Deployment*) automatiza o ciclo completo, promovendo a versão para produção sem qualquer intervenção humana.
+> 
+> **Gabarito: E**
+
+---
+
+
+
 ## 3. Estratégias Modernas de Publicação (Deployment Strategies)
 
 Em infraestruturas modernas baseadas em contêineres e microsserviços, a substituição de versões deve buscar a eliminação de indisponibilidade (*zero downtime*), a mitigação do raio de impacto (*blast radius*) e a rapidez de reversão (*rollback*).
@@ -235,6 +288,36 @@ flowchart TD
     style BLUE fill:#bbdefb,stroke:#1976d2,stroke-width:2px
     style GREEN fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
 ```
+
+---
+
+### Questão 03 (FCC - Adaptada / TI - Estratégias Modernas de Implantação / Deployment)
+Um Tribunal de Contas está modernizando a infraestrutura do seu sistema de auditoria eletrônica para permitir atualizações frequentes sem causar indisponibilidade aos auditores e aos cidadãos. A equipe de arquitetura necessita adotar uma estratégia de implantação que atenda aos seguintes requisitos:
+
+- Permitir testar a nova versão do sistema em um ambiente produtivo idêntico ao atual antes de liberar o acesso geral;
+- Garantir que a comutação de tráfego seja praticamente instantânea;
+- Proporcionar capacidade de reversão (*rollback*) imediata caso anomalias severas sejam detectadas logo após a liberação.
+
+A estratégia de implantação que atende perfeitamente a esses requisitos é:  
+
+* **A)** *Recreate Deployment*.
+* **B)** *Rolling Update*.
+* **C)** *Blue-Green Deployment*.
+* **D)** *Big Bang Release*.
+* **E)** *In-Place Deployment*.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O modelo *Recreate* desliga todas as instâncias antigas antes de iniciar as novas, gerando período de indisponibilidade obrigatória (*downtime*) e inviabilizando testes em paralelo e rollback imediato.
+> - **B)** Incorreta. O *Rolling Update* atualiza instâncias progressivamente sem downtime, mas durante o processo há convivência temporária de versões antigas e novas atendendo requisições, não há um ambiente idêntico pré-testado na íntegra e o rollback não é instantâneo (exige um novo rollout reverso).
+> - **C)** Correta. No *Blue-Green Deployment*, mantêm-se dois ambientes de produção idênticos. O ambiente inativo (Green) recebe a nova versão e pode ser exaustivamente testado com tráfego simulado. Quando aprovado, comuta-se o balanceador de carga para Green quase instantaneamente. Se surgir uma falha, o balanceador é chaveado de volta para Blue em segundos, realizando o rollback de forma imediata.
+> - **D)** Incorreta. O *Big Bang Release* é a abordagem tradicional monolítica em que o sistema é totalmente paralisado para substituição de arquivos em lote único durante janelas de manutenção, com elevado risco de falha.
+> - **E)** Incorreta. O *In-Place Deployment* sobrescreve os artefatos diretamente nas máquinas em execução, causando indisponibilidade temporária e tornando o rollback lento e complexo caso haja falha de compilação ou compatibilidade.
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 3.4 Canary Deployment (Canário)
 
@@ -365,6 +448,59 @@ jobs:
         run: ./scripts/deploy-prod.sh
 ```
 
+---
+
+### Questão 04 (FCC - Adaptada / TI - Ferramentas de CI/CD: GitHub Actions)
+Considere o seguinte trecho de manifesto de automação do GitHub Actions definido no caminho `.github/workflows/pipeline.yml`:
+
+```yaml
+name: Build and Deploy Service
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm test
+
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm audit
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [test, security-scan]
+    steps:
+      - name: Deploy Step
+        run: ./deploy-prod.sh
+```
+
+A respeito da execução desse pipeline, assinale a afirmativa correta:  
+
+* **A)** Os jobs `test` e `security-scan` serão executados sequencialmente, iniciando `security-scan` apenas após o término bem-sucedido de `test`.
+* **B)** O job `deploy` iniciará imediatamente e executará em paralelo aos jobs `test` e `security-scan`.
+* **C)** O job `deploy` só iniciará sua execução se ambos os jobs `test` e `security-scan` forem concluídos com sucesso. Caso qualquer um deles falhe, o job `deploy` será ignorado (*skipped*).
+* **D)** O atributo `runs-on: ubuntu-latest` faz com que os três jobs compartilhem a mesma memória RAM e o mesmo sistema de arquivos local sem isolamento.
+* **E)** O gatilho `on: push: branches: [ "main" ]` indica que o pipeline será executado apenas quando uma nova *Pull Request* for aberta por qualquer desenvolvedor, mas nunca quando um commit direto for enviado ao branch `main`.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No GitHub Actions, jobs declarados no mesmo nível sem a cláusula `needs:` são disparados **em paralelo**. Como `test` e `security-scan` não dependem um do outro, eles executam concomitantemente em runners independentes.
+> - **B)** Incorreta. O job `deploy` possui a diretiva explícita `needs: [test, security-scan]`, o que cria uma dependência estrita e impede sua execução paralela aos demais.
+> - **C)** Correta. A diretiva `needs: [test, security-scan]` instrui o orquestrador a aguardar a conclusão bem-sucedida (código de saída zero) de **ambos** os jobs anteriores. Caso `test` ou `security-scan` falhem, o job `deploy` é automaticamente ignorado (*skipped*), impedindo que código quebrado ou inseguro seja promovido.
+> - **D)** Incorreta. Cada job no GitHub Actions executa em uma máquina virtual (ou contêiner) limpa, efêmera e totalmente isolada. Não há compartilhamento nativo de memória ou disco local entre jobs distintos.
+> - **E)** Incorreta. O gatilho especificado é `push` no branch `main`. Portanto, ele dispara com commits enviados diretamente ou resultantes de um merge concluído na branch `main`. Para escutar abertura de Pull Requests, o evento exigido seria `pull_request`.
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners
 
 O GitLab CI/CD baseia-se em um único arquivo de manifesto denominado obrigatoriamente `.gitlab-ci.yml`, posicionado na raiz do repositório.
@@ -471,150 +607,7 @@ pipeline {
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [DORA (DevOps Research and Assessment) - The Four Keys Metrics](https://dora.dev/guides/dora-metrics-four-keys/) - Deployment Frequency, Lead Time for Changes, Time to Restore Service e Change Failure Rate.
-* [Martin Fowler - Continuous Integration Guide](https://martinfowler.com/articles/continuousIntegration.html) - Fundamentos da integração frequente, build automatizado e práticas de branch principal.
-* [Martin Fowler - Blue-Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) - Estratégia de publicação com dois ambientes idênticos, comutação de tráfego e rollback instantâneo.
-* [Martin Fowler - Canary Release Pattern](https://martinfowler.com/bliki/CanaryRelease.html) - Redução do raio de explosão (blast radius) através de rollout percentual progressivo.
-* [GitHub Actions Official Documentation - Workflows and Triggers](https://docs.github.com/pt/actions/writing-workflows/about-workflows) - Sintaxe de manifestos YAML, eventos, jobs concorrentes, runners e secrets.
-* [GitLab CI/CD Official Documentation - Keyword Reference](https://docs.gitlab.com/ci/yaml/) - Diretivas de pipeline: stages, jobs paralelos, artifacts e políticas de cache.
-* KIM, Gene et al. **Manual de DevOps: Como Obter Agilidade, Confiabilidade e Segurança em Organizações Tecnológicas**. São Paulo: Alta Books, 2018. (Cap. 4 a 6 - As Três Vias e Práticas de Integração Contínua).
-* HUMBLE, Jez; FARLEY, David. **Entrega Contínua: Como Entregar Software de Forma Rápida e Confiável**. Porto Alegre: Bookman, 2014. (Cap. 3 - Anatomia da Esteira de Implantação; Cap. 10 - Estratégias de Deploy).
-* FORSGREN, Nicole; HUMBLE, Jez; KIM, Gene. **Accelerate: The Science of Lean Software and DevOps**. Portland: IT Revolution Press, 2018. (Cap. 2 - Mensurando Desempenho Organizacional com Métricas DORA).
-
----
-
-## 6. Questões Comentadas & Prática Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TI - Práticas de CI/CD e Espectro de Automação)
-No contexto da cultura DevOps e das práticas modernas de engenharia de software, considere as seguintes afirmativas sobre Integração Contínua (CI), Entrega Contínua (*Continuous Delivery*) e Implantação Contínua (*Continuous Deployment*):
-
-I. Na Integração Contínua (*Continuous Integration*), desenvolvedores integram código ao ramo principal com alta frequência, disparando compilações e execuções de testes automatizados a cada *commit*, de modo a identificar falhas de integração precocemente.  
-
-II. Na Entrega Contínua (*Continuous Delivery*), todo o pipeline de automação (da compilação até os testes em ambientes similares ao de produção) é executado, deixando a aplicação em estado permanente de prontidão para implantação (*release candidate*), dependendo, contudo, de uma aprovação/gatilho manual por decisão de negócio para o deploy em produção.  
-
-III. Na Implantação Contínua (*Continuous Deployment*), não há intervenção humana no fluxo: toda alteração aprovada em todos os testes e estágios automatizados do pipeline é promovida automaticamente para o ambiente produtivo.  
-
-Está correto o que se afirma em:  
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, II e III.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Os itens II e III também são verdadeiros e conceituam com rigor técnico as práticas de automação.
-> - **B)** Incorreta. O item III está correto, pois na Implantação Contínua a passagem para produção ocorre sem intervenção humana.
-> - **C)** Incorreta. O item I também está correto ao definir a Integração Contínua.
-> - **D)** Incorreta. O item II também é verdadeiro ao definir o gate manual de negócio na Entrega Contínua.
-> - **E)** Correta. Todas as três assertivas estão rigorosamente exatas: (I) a Integração Contínua foca na integração frequente ao branch principal com compilação e testes unitários imediatos; (II) a Entrega Contínua (*Continuous Delivery*) mantém o software em estado permanente de liberação (*deployable*), mas aguarda uma aprovação manual de negócio para o deploy em produção; (III) a Implantação Contínua (*Continuous Deployment*) automatiza o ciclo completo, promovendo a versão para produção sem qualquer intervenção humana.
-> 
-> **Gabarito: E**
-
----
-
-### Questão 2 (FCC - Adaptada / TI - Estratégias Modernas de Implantação / Deployment)
-Um Tribunal de Contas está modernizando a infraestrutura do seu sistema de auditoria eletrônica para permitir atualizações frequentes sem causar indisponibilidade aos auditores e aos cidadãos. A equipe de arquitetura necessita adotar uma estratégia de implantação que atenda aos seguintes requisitos:
-
-- Permitir testar a nova versão do sistema em um ambiente produtivo idêntico ao atual antes de liberar o acesso geral;
-- Garantir que a comutação de tráfego seja praticamente instantânea;
-- Proporcionar capacidade de reversão (*rollback*) imediata caso anomalias severas sejam detectadas logo após a liberação.
-
-A estratégia de implantação que atende perfeitamente a esses requisitos é:  
-
-* **A)** *Recreate Deployment*.
-* **B)** *Rolling Update*.
-* **C)** *Blue-Green Deployment*.
-* **D)** *Big Bang Release*.
-* **E)** *In-Place Deployment*.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O modelo *Recreate* desliga todas as instâncias antigas antes de iniciar as novas, gerando período de indisponibilidade obrigatória (*downtime*) e inviabilizando testes em paralelo e rollback imediato.
-> - **B)** Incorreta. O *Rolling Update* atualiza instâncias progressivamente sem downtime, mas durante o processo há convivência temporária de versões antigas e novas atendendo requisições, não há um ambiente idêntico pré-testado na íntegra e o rollback não é instantâneo (exige um novo rollout reverso).
-> - **C)** Correta. No *Blue-Green Deployment*, mantêm-se dois ambientes de produção idênticos. O ambiente inativo (Green) recebe a nova versão e pode ser exaustivamente testado com tráfego simulado. Quando aprovado, comuta-se o balanceador de carga para Green quase instantaneamente. Se surgir uma falha, o balanceador é chaveado de volta para Blue em segundos, realizando o rollback de forma imediata.
-> - **D)** Incorreta. O *Big Bang Release* é a abordagem tradicional monolítica em que o sistema é totalmente paralisado para substituição de arquivos em lote único durante janelas de manutenção, com elevado risco de falha.
-> - **E)** Incorreta. O *In-Place Deployment* sobrescreve os artefatos diretamente nas máquinas em execução, causando indisponibilidade temporária e tornando o rollback lento e complexo caso haja falha de compilação ou compatibilidade.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 3 (FCC - Adaptada / TI - Métricas DORA e Desempenho em Engenharia de Software)
-A equipe de liderança técnica de uma Secretaria de Fazenda Estadual realizou uma avaliação de maturidade de seus processos de entrega contínua com base no framework DORA (*DevOps Research and Assessment*). De acordo com os relatórios consolidados do State of DevOps Report da DORA, as organizações classificadas como de alta performance técnica (*high performers*) são caracterizadas por:  
-
-* **A)** Alto *Lead Time for Changes* (superior a um mês) para assegurar rigorosas revisões manuais por comitês de governança (CAB) antes de qualquer implantação.
-* **B)** Alta frequência de implantação (*Deployment Frequency*) combinada simultaneamente com baixo tempo de recuperação de serviços (*Time to Restore Service*) e baixa taxa de falha em mudanças (*Change Failure Rate*).
-* **C)** Baixa frequência de implantação (deploys semestrais em lotes grandes), priorizando a estabilidade através do congelamento de código (*code freeze*).
-* **D)** Alta taxa de falha em mudanças (*Change Failure Rate* acima de 50%), justificada pela necessidade de aprendizado rápido na Terceira Via do DevOps, desconsiderando a perda de disponibilidade.
-* **E)** Foco exclusivo no custo financeiro da computação em nuvem, ignorando métricas de velocidade de entrega e estabilidade operacional.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Um *Lead Time for Changes* elevado (meses) e a dependência de comitês centralizados manuais (CAB) são marcas registradas de organizações de baixa performance. Times de elite possuem Lead Time inferior a 1 hora.
-> - **B)** Correta. A principal descoberta científica do DORA é que velocidade (*throughput*) e estabilidade não são excludentes: organizações de alta performance possuem altíssima frequência de deploy e ciclo ágil de entrega, acompanhados de baixíssima taxa de falha nas mudanças (0% a 15%) e recuperação de falhas (*Time to Restore*) em menos de 1 hora.
-> - **C)** Incorreta. Deploys semestrais em lotes gigantescos e políticas de congelamento de código geram acúmulo de risco, integração traumática (*merge hell*) e falhas graves de sistema, caracterizando organizações de baixa maturidade.
-> - **D)** Incorreta. A Terceira Via do DevOps estimula experimentação e aprendizado a partir de falhas em ambientes seguros, mas nunca aceita uma taxa de 50% de quebra em produção com prejuízo aos usuários.
-> - **E)** Incorreta. As métricas DORA são estritamente centradas nas quatro dimensões técnicas fundamentais de throughput e estabilidade operacional, e não no custo financeiro da fatura de nuvem.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / TI - Ferramentas de CI/CD: GitHub Actions)
-Considere o seguinte trecho de manifesto de automação do GitHub Actions definido no caminho `.github/workflows/pipeline.yml`:
-
-```yaml
-name: Build and Deploy Service
-on:
-  push:
-    branches: [ "main" ]
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: npm test
-
-  security-scan:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: npm audit
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: [test, security-scan]
-    steps:
-      - name: Deploy Step
-        run: ./deploy-prod.sh
-```
-
-A respeito da execução desse pipeline, assinale a afirmativa correta:  
-
-* **A)** Os jobs `test` e `security-scan` serão executados sequencialmente, iniciando `security-scan` apenas após o término bem-sucedido de `test`.
-* **B)** O job `deploy` iniciará imediatamente e executará em paralelo aos jobs `test` e `security-scan`.
-* **C)** O job `deploy` só iniciará sua execução se ambos os jobs `test` e `security-scan` forem concluídos com sucesso. Caso qualquer um deles falhe, o job `deploy` será ignorado (*skipped*).
-* **D)** O atributo `runs-on: ubuntu-latest` faz com que os três jobs compartilhem a mesma memória RAM e o mesmo sistema de arquivos local sem isolamento.
-* **E)** O gatilho `on: push: branches: [ "main" ]` indica que o pipeline será executado apenas quando uma nova *Pull Request* for aberta por qualquer desenvolvedor, mas nunca quando um commit direto for enviado ao branch `main`.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. No GitHub Actions, jobs declarados no mesmo nível sem a cláusula `needs:` são disparados **em paralelo**. Como `test` e `security-scan` não dependem um do outro, eles executam concomitantemente em runners independentes.
-> - **B)** Incorreta. O job `deploy` possui a diretiva explícita `needs: [test, security-scan]`, o que cria uma dependência estrita e impede sua execução paralela aos demais.
-> - **C)** Correta. A diretiva `needs: [test, security-scan]` instrui o orquestrador a aguardar a conclusão bem-sucedida (código de saída zero) de **ambos** os jobs anteriores. Caso `test` ou `security-scan` falhem, o job `deploy` é automaticamente ignorado (*skipped*), impedindo que código quebrado ou inseguro seja promovido.
-> - **D)** Incorreta. Cada job no GitHub Actions executa em uma máquina virtual (ou contêiner) limpa, efêmera e totalmente isolada. Não há compartilhamento nativo de memória ou disco local entre jobs distintos.
-> - **E)** Incorreta. O gatilho especificado é `push` no branch `main`. Portanto, ele dispara com commits enviados diretamente ou resultantes de um merge concluído na branch `main`. Para escutar abertura de Pull Requests, o evento exigido seria `pull_request`.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 5 (FCC - Adaptada / TI - GitLab CI/CD e Jenkins: Estrutura e Diretivas)
+### Questão 05 (FCC - Adaptada / TI - GitLab CI/CD e Jenkins: Estrutura e Diretivas)
 Em relação aos arquivos de manifesto e à estrutura operacional das ferramentas de integração contínua GitLab CI/CD e Jenkins, assinale a opção correta:  
 
 * **A)** No GitLab CI/CD, a diretiva `artifacts` serve unicamente para reaproveitar arquivos temporários como dependências de compiladores entre pipelines distintos, tendo a mesma função semântica de `cache`.
@@ -632,3 +625,19 @@ Em relação aos arquivos de manifesto e à estrutura operacional das ferramenta
 > - **E)** Incorreta. No GitLab CI/CD, é perfeitamente válido declarar a diretiva `image:` no nível global (raiz) do arquivo `.gitlab-ci.yml`, tornando aquela imagem Docker o padrão compartilhado para todos os jobs que não definirem sua própria imagem específica.
 > 
 > **Gabarito: C**
+
+---
+
+
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [DORA (DevOps Research and Assessment) - The Four Keys Metrics](https://dora.dev/guides/dora-metrics-four-keys/) - Deployment Frequency, Lead Time for Changes, Time to Restore Service e Change Failure Rate.
+* [Martin Fowler - Continuous Integration Guide](https://martinfowler.com/articles/continuousIntegration.html) - Fundamentos da integração frequente, build automatizado e práticas de branch principal.
+* [Martin Fowler - Blue-Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) - Estratégia de publicação com dois ambientes idênticos, comutação de tráfego e rollback instantâneo.
+* [Martin Fowler - Canary Release Pattern](https://martinfowler.com/bliki/CanaryRelease.html) - Redução do raio de explosão (blast radius) através de rollout percentual progressivo.
+* [GitHub Actions Official Documentation - Workflows and Triggers](https://docs.github.com/pt/actions/writing-workflows/about-workflows) - Sintaxe de manifestos YAML, eventos, jobs concorrentes, runners e secrets.
+* [GitLab CI/CD Official Documentation - Keyword Reference](https://docs.gitlab.com/ci/yaml/) - Diretivas de pipeline: stages, jobs paralelos, artifacts e políticas de cache.
+* KIM, Gene et al. **Manual de DevOps: Como Obter Agilidade, Confiabilidade e Segurança em Organizações Tecnológicas**. São Paulo: Alta Books, 2018. (Cap. 4 a 6 - As Três Vias e Práticas de Integração Contínua).
+* HUMBLE, Jez; FARLEY, David. **Entrega Contínua: Como Entregar Software de Forma Rápida e Confiável**. Porto Alegre: Bookman, 2014. (Cap. 3 - Anatomia da Esteira de Implantação; Cap. 10 - Estratégias de Deploy).
+* FORSGREN, Nicole; HUMBLE, Jez; KIM, Gene. **Accelerate: The Science of Lean Software and DevOps**. Portland: IT Revolution Press, 2018. (Cap. 2 - Mensurando Desempenho Organizacional com Métricas DORA).

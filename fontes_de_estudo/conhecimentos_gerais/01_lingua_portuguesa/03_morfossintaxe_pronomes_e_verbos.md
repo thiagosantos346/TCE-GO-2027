@@ -53,12 +53,6 @@
     - [7.2 Estruturas Hipotéticas e Condicionais Padronizadas](#72-estruturas-hipoteticas-e-condicionais-padronizadas)
     - [7.3 Correlações em Orações Subjetivas e Integrantes](#73-correlacoes-em-oracoes-subjetivas-e-integrantes)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
-    - [Questão 01](#questao-01)
-    - [Questão 02](#questao-02)
-    - [Questão 03](#questao-03)
-    - [Questão 04](#questao-04)
-    - [Questão 05](#questao-05)
 
 ---
 
@@ -153,6 +147,30 @@ O pronome relativo *cujo* (e suas flexões *cuja, cujos, cujas*) é um dos ponto
 
 ---
 
+### Questão 01
+**(FCC – METRÔ-SP – Analista de Comunicação)**  
+O pronome relativo antecedido de preposição está empregado em estrita conformidade com a norma-padrão em:
+
+* **A)** *"Este é o gestor cujo o comportamento foi elogiado em sessão plenária."*
+* **B)** *"A diretriz orçamentária a cujas determinações todos os órgãos estaduais devem obedecer foi publicada hoje."*
+* **C)** *"O departamento em cujo os funcionários operam os sistemas de auditoria foi reformado."*
+* **D)** *"A decisão judicial cuja a eficácia dependia de trânsito em julgado foi confirmada."*
+* **E)** *"As metas fiscais de cujas todos duvidavam foram atingidas com sobras."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O pronome relativo *cujo* nunca admite artigo definido antecedente ou consequente (*cujo o* é vício gramatical repudiado pela norma culta).
+> - **B)** Correta. 1) O pronome *cujas* estabelece relação semântica de posse entre *determinações* e *diretriz orçamentária*; 2) Concorda em gênero e número com o consequente (*determinações*, feminino plural); 3) Prescinde totalmente de artigo; 4) O verbo da oração adjetiva (*obedecer*) é Transitivo Indireto e rege a preposição **a** (*quem obedece, obedece a algo*), a qual foi adequadamente anteposta ao pronome relativo (*"a cujas determinações (...) devem obedecer"*).
+> - **C)** Incorreta. Incorre em erro ao acrescentar o artigo definido masculino plural após o pronome (*em cujo os*).
+> - **D)** Incorreta. Incorre em erro ao pospor o artigo definido feminino singular (*cuja a eficácia*).
+> - **E)** Incorreta. O pronome *cujo* exige ligar necessariamente dois substantivos em relação de dependência possessiva. Como não há substantivo após o pronome na oração (*"de cujas todos duvidavam"*), a construção correta deveria utilizar o pronome relativo *que* precedido de preposição (*"de que todos duvidavam"*).
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 3. Pronomes Pessoais e Substituição Pronominal
 
 A substituição de sintagmas nominais por pronomes oblíquos átonos em complementação verbal é uma das marcas registradas da banca FCC. A operação envolve a identificação da transitividade do verbo e o ajuste morfofonético da terminação verbal.
@@ -220,6 +238,32 @@ Ao associar os pronomes diretos *o, a, os, as* à forma verbal enclítica, ocorr
 > 💡 **DICA DE SUBSTITUIÇÃO PRONOMINAL:** Quando se deparar com uma questão de substituição pronominal da FCC, separe a análise em dois passos: 1) determine a regência do verbo (se pede objeto direto ou indireto); 2) observe a terminação da palavra verbal para aplicar a transformação em L, N ou pura. Nunca misture as regras.
 
 ---
+
+### Questão 02
+**(FCC – TRT – Técnico Judiciário)**  
+Considere a oração:  
+*"O diretor da comissão <ins>apresentou as justificativas técnicas</ins> e <ins>remeteu o parecer conclusivo</ins> ao setor de compras."*  
+Substituindo-se adequadamente as expressões sublinhadas pelos respectivos pronomes oblíquos átonos, obtém-se:
+
+* **A)** O diretor da comissão apresentou-as e remeteu-lhe ao setor de compras.
+* **B)** O diretor da comissão apresentou-as e remeteu-o ao setor de compras.
+* **C)** O diretor da comissão apresentou-lhes e remeteu-o ao setor de compras.
+* **D)** O diretor da comissão as apresentou e lhe remeteu ao setor de compras.
+* **E)** O diretor da comissão apresentou-as e remeteu-no ao setor de compras.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Embora acerte a primeira forma (*apresentou-as*), erra grosseiramente no segundo verbo ao empregar *remeteu-lhe*: o pronome *lhe* atua como objeto indireto, ao passo que *o parecer conclusivo* é objeto direto de *remeteu* (além disso, a oração já possui seu objeto indireto preposicionado: *ao setor de compras*).
+> - **B)** Correta. 1) No primeiro segmento (*apresentou as justificativas técnicas*), o verbo *apresentar* é VTD e termina na vogal oral comum *u*; o objeto direto feminino plural é substituído pelo pronome puro *as*, resultando em *apresentou-as*. 2) No segundo segmento (*remeteu o parecer conclusivo*), o verbo *remeter* é VTD e termina na vogal oral comum *u*; o objeto direto masculino singular é substituído pelo pronome puro *o*, gerando *remeteu-o*. Ambas as substituições estão impecáveis.
+> - **C)** Incorreta. Erra ao empregar *apresentou-lhes*, visto que o verbo *apresentar* ali rege objeto direto, descabendo o pronome *lhes*.
+> - **D)** Incorreta. Não há palavra atrativa justificadora da próclise na oração (*as apresentou*), além de reiterar o erro no emprego do pronome *lhe* como objeto direto.
+> - **E)** Incorreta. Erra ao usar a forma *remeteu-no*: a variante com *N* (-no/-na) aplica-se exclusivamente a formas verbais encerradas em som nasal (-m, -ão, -õe), o que não ocorre com *remeteu* (terminado em ditongo oral).
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ## 4. Sintaxe de Colocação Pronominal
 
@@ -315,6 +359,30 @@ flowchart TD
 
 ---
 
+### Questão 03
+**(FCC – DPE-RS – Analista Jurídico)**  
+A frase em que a articulação entre tempos e modos verbais observa a **correlação verbal** adequada é:
+
+* **A)** *"Se o conselheiro propusesse a realização de nova auditoria, o presidente acataria a solicitação de pronto."*
+* **B)** *"Se o conselheiro proporia a realização de nova auditoria, o presidente acatava a solicitação de pronto."*
+* **C)** *"Caso o conselheiro propor nova auditoria, o presidente acatará a solicitação de pronto."*
+* **D)** *"Se o conselheiro propôs nova auditoria, o presidente acataria a solicitação de pronto."*
+* **E)** *"Quando o conselheiro ver as irregularidades do balanço, proporá a anulação do contrato."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Estabelece a correlação hipotética canônica: o **Pretérito Imperfeito do Subjuntivo** (*propusesse*, indicando a condição irreal/hipotética) harmoniza-se perfeitamente com o **Futuro do Pretérito do Indicativo** (*acataria*, expressando o resultado decorrente).
+> - **B)** Incorreta. É vedado empregar o futuro do pretérito do indicativo (*proporia*) na oração subordinada condicional introduzida pela conjunção subordinativa *se*.
+> - **C)** Incorreta. O verbo *pôr* e seus derivados flexionam-se no futuro do subjuntivo sob a forma *propuser* (*"Caso o conselheiro propuser..."*), constituindo vício grosseiro o uso da forma no infinitivo *"propor"*.
+> - **D)** Incorreta. Articula de forma desconexa o pretérito perfeito do indicativo (*propôs*, fato certo consumado) com o futuro do pretérito (*acataria*, possibilidade futura), rompendo a harmonia condicional.
+> - **E)** Incorreta. O verbo irregular *ver* conjuga-se no futuro do subjuntivo como *vir* (*"Quando o conselheiro vir as irregularidades..."*). O emprego de *"quando ver"* é vício gramatical decorrente da confusão com o verbo *vir*.
+> 
+> **Gabarito: A**
+
+---
+
+
+
 ## 6. Vozes Verbais e Regras de Transposição
 
 A voz verbal traduz a relação sintático-semântica entre o verbo e o sujeito da oração, explicitando se o sujeito pratica a ação (sujeito agente), sofre a ação (sujeito paciente) ou desempenha ambos os papéis cumulativamente.
@@ -352,6 +420,31 @@ flowchart TD
     * *O auditor analisará as contas* (Futuro do Presente) $\rightarrow$ *As contas* **serão analisadas**;
     * *O auditor analisaria as contas* (Futuro do Pretérito) $\rightarrow$ *As contas* **seriam analisadas**.
 
+---
+
+### Questão 04
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+A frase que admite transposição para a **voz passiva** de modo inteiramente compatível com a norma-padrão da língua é:
+
+* **A)** *"O plenário do Tribunal anuiu expressamente aos termos da consulta formulada pelo Secretário."*
+* **B)** *"A equipe de fiscalização deparou com graves impropriedades nos contratos de infraestrutura."*
+* **C)** *"Os técnicos de controle externo apuraram todas as inconsistências no cronograma financeiro da obra."*
+* **D)** *"O Ministério Público de Contas interveio no processo com zelo exemplar."*
+* **E)** *"O conselheiro relator presidiu à sessão extraordinária com extrema serenidade."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O verbo *anuir* é Transitivo Indireto (VTI), regendo obrigatoriamente a preposição *a* (*anuiu aos termos*). Verbos transitivos indiretos não possuem objeto direto e, portanto, não admitem transposição para a voz passiva.
+> - **B)** Incorreta. A locução verbal *deparou com* opera como Transitiva Indireta (VTI) com a preposição *com*. Não havendo objeto direto, é inadmissível a construção da voz passiva.
+> - **C)** Correta. O verbo *apurar* é Transitivo Direto (VTD) — quem apura, apura algo. A oração apresenta o objeto direto *"todas as inconsistências no cronograma financeiro da obra"*, o qual se converte perfeitamente em sujeito paciente na voz passiva analítica: *"Todas as inconsistências no cronograma financeiro da obra foram apuradas pelos técnicos de controle externo"*.
+> - **D)** Incorreta. O verbo *intervir* é Transitivo Indireto regido pela preposição *em* (*interveio no processo*), inviabilizando a voz passiva.
+> - **E)** Incorreta. Na construção regencial apresentada, o verbo *presidir* regeu preposição *a* (*presidiu à sessão*), funcionando como VTI e impossibilitando a conversão passiva.
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 6.3 Voz Passiva Sintética ou Pronominal
 
 A voz passiva sintética compõe-se de um verbo Transitivo Direto conjugado na 3ª pessoa (singular ou plural) associado ao pronome apassivador **SE**:
@@ -378,6 +471,30 @@ Essa distinção é um dos temas fundamentais de cobrança da FCC em morfossinta
 > 🚨 **ALERTA DE PROVA / PEGADINHA DO VERBO TRATAR-SE:** A FCC frequentemente introduz a forma verbal pluralizada *"Tratam-se de..."*, *"Precisam-se de..."* ou *"Obedeceram-se aos ditames..."*. Como os verbos *tratar (de)*, *precisar (de)* e *obedecer (a)* são Transitivos Indiretos e regem preposição, a partícula *se* atua como Índice de Indeterminação do Sujeito. É **proibido flexionar o verbo no plural**; o correto é invariavelmente: *"Trata-se de..."*, *"Precisa-se de..."*, *"Obedeceu-se aos ditames..."*.
 
 ---
+
+### Questão 05
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+O emprego da partícula `SE` e a concordância verbal estão plenamente corretos em:
+
+* **A)** *"Tratam-se de apurações preliminares que demandam sigilo documental absoluto."*
+* **B)** *"Identificou-se, durante a inspeção matutina, diversos pagamentos desprovidos de nota fiscal."*
+* **C)** *"Identificaram-se, durante a inspeção matutina, diversos pagamentos desprovidos de nota fiscal."*
+* **D)** *"Precisam-se de novos analistas de controle externo para a instrução de processos."*
+* **E)** *"Atribuiu-se aos peritos contábeis os pareceres definitivos sobre o balanço patrimonial."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O verbo *tratar (de)* é Transitivo Indireto. A partícula *SE* funciona como Índice de Indeterminação do Sujeito (IIS), impondo a flexão obrigatória do verbo na 3ª pessoa do singular: *"Trata-se de apurações preliminares"*.
+> - **B)** Incorreta. O verbo *identificar* é Transitivo Direto. A partícula *SE* atua como Pronome Apassivador. O sintagma nominal *"diversos pagamentos desprovidos de nota fiscal"* exerce a função de sujeito paciente no plural, exigindo a concordância do verbo no plural (*Identificaram-se*).
+> - **C)** Correta. O verbo *identificar* é VTD acompanhado de pronome apassivador *SE*. O sujeito paciente está no plural (*diversos pagamentos*), com o qual o verbo concorda perfeitamente na 3ª pessoa do plural (*Identificaram-se*).
+> - **D)** Incorreta. O verbo *precisar (de)* é Transitivo Indireto. Com o índice de indeterminação *SE*, o verbo deve ficar inalteravelmente no singular: *"Precisa-se de novos analistas"*.
+> - **E)** Incorreta. O verbo *atribuir* é Transitivo Direto e Indireto (VTDI). O termo *"os pareceres definitivos"* atua como sujeito paciente no plural, exigindo a flexão plural do verbo apassivado: *"Atribuíram-se aos peritos contábeis os pareceres definitivos"*.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ## 7. Correlação de Tempos e Modos Verbais
 
@@ -424,117 +541,3 @@ Nas orações subordinadas substantivas integrantes (introduzidas por *que* ou *
 * CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 11 e Cap. 12 - Pronomes Pessoais, Colocação Pronominal, Verbos, Vozes Verbais e Correlação de Tempos).
 * BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 5 e Cap. 13 - Morfossintaxe, Classes de Palavras, Predicação Verbal e Sintaxe de Colocação).
 * CEGALLA, Domingos Paschoal. **Novíssima Gramática da Língua Portuguesa**. 49. ed. São Paulo: Companhia Editora Nacional, 2020. (Morfologia e Sintaxe - Flexão Verbal, Verbos Anômalos e Funções da Partícula SE).
-
----
-
-## 📝 Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo)**  
-A frase que admite transposição para a **voz passiva** de modo inteiramente compatível com a norma-padrão da língua é:
-
-* **A)** *"O plenário do Tribunal anuiu expressamente aos termos da consulta formulada pelo Secretário."*
-* **B)** *"A equipe de fiscalização deparou com graves impropriedades nos contratos de infraestrutura."*
-* **C)** *"Os técnicos de controle externo apuraram todas as inconsistências no cronograma financeiro da obra."*
-* **D)** *"O Ministério Público de Contas interveio no processo com zelo exemplar."*
-* **E)** *"O conselheiro relator presidiu à sessão extraordinária com extrema serenidade."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O verbo *anuir* é Transitivo Indireto (VTI), regendo obrigatoriamente a preposição *a* (*anuiu aos termos*). Verbos transitivos indiretos não possuem objeto direto e, portanto, não admitem transposição para a voz passiva.
-> - **B)** Incorreta. A locução verbal *deparou com* opera como Transitiva Indireta (VTI) com a preposição *com*. Não havendo objeto direto, é inadmissível a construção da voz passiva.
-> - **C)** Correta. O verbo *apurar* é Transitivo Direto (VTD) — quem apura, apura algo. A oração apresenta o objeto direto *"todas as inconsistências no cronograma financeiro da obra"*, o qual se converte perfeitamente em sujeito paciente na voz passiva analítica: *"Todas as inconsistências no cronograma financeiro da obra foram apuradas pelos técnicos de controle externo"*.
-> - **D)** Incorreta. O verbo *intervir* é Transitivo Indireto regido pela preposição *em* (*interveio no processo*), inviabilizando a voz passiva.
-> - **E)** Incorreta. Na construção regencial apresentada, o verbo *presidir* regeu preposição *a* (*presidiu à sessão*), funcionando como VTI e impossibilitando a conversão passiva.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 02
-**(FCC – TRT – Técnico Judiciário)**  
-Considere a oração:  
-*"O diretor da comissão <ins>apresentou as justificativas técnicas</ins> e <ins>remeteu o parecer conclusivo</ins> ao setor de compras."*  
-Substituindo-se adequadamente as expressões sublinhadas pelos respectivos pronomes oblíquos átonos, obtém-se:
-
-* **A)** O diretor da comissão apresentou-as e remeteu-lhe ao setor de compras.
-* **B)** O diretor da comissão apresentou-as e remeteu-o ao setor de compras.
-* **C)** O diretor da comissão apresentou-lhes e remeteu-o ao setor de compras.
-* **D)** O diretor da comissão as apresentou e lhe remeteu ao setor de compras.
-* **E)** O diretor da comissão apresentou-as e remeteu-no ao setor de compras.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Embora acerte a primeira forma (*apresentou-as*), erra grosseiramente no segundo verbo ao empregar *remeteu-lhe*: o pronome *lhe* atua como objeto indireto, ao passo que *o parecer conclusivo* é objeto direto de *remeteu* (além disso, a oração já possui seu objeto indireto preposicionado: *ao setor de compras*).
-> - **B)** Correta. 1) No primeiro segmento (*apresentou as justificativas técnicas*), o verbo *apresentar* é VTD e termina na vogal oral comum *u*; o objeto direto feminino plural é substituído pelo pronome puro *as*, resultando em *apresentou-as*. 2) No segundo segmento (*remeteu o parecer conclusivo*), o verbo *remeter* é VTD e termina na vogal oral comum *u*; o objeto direto masculino singular é substituído pelo pronome puro *o*, gerando *remeteu-o*. Ambas as substituições estão impecáveis.
-> - **C)** Incorreta. Erra ao empregar *apresentou-lhes*, visto que o verbo *apresentar* ali rege objeto direto, descabendo o pronome *lhes*.
-> - **D)** Incorreta. Não há palavra atrativa justificadora da próclise na oração (*as apresentou*), além de reiterar o erro no emprego do pronome *lhe* como objeto direto.
-> - **E)** Incorreta. Erra ao usar a forma *remeteu-no*: a variante com *N* (-no/-na) aplica-se exclusivamente a formas verbais encerradas em som nasal (-m, -ão, -õe), o que não ocorre com *remeteu* (terminado em ditongo oral).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-O emprego da partícula `SE` e a concordância verbal estão plenamente corretos em:
-
-* **A)** *"Tratam-se de apurações preliminares que demandam sigilo documental absoluto."*
-* **B)** *"Identificou-se, durante a inspeção matutina, diversos pagamentos desprovidos de nota fiscal."*
-* **C)** *"Identificaram-se, durante a inspeção matutina, diversos pagamentos desprovidos de nota fiscal."*
-* **D)** *"Precisam-se de novos analistas de controle externo para a instrução de processos."*
-* **E)** *"Atribuiu-se aos peritos contábeis os pareceres definitivos sobre o balanço patrimonial."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O verbo *tratar (de)* é Transitivo Indireto. A partícula *SE* funciona como Índice de Indeterminação do Sujeito (IIS), impondo a flexão obrigatória do verbo na 3ª pessoa do singular: *"Trata-se de apurações preliminares"*.
-> - **B)** Incorreta. O verbo *identificar* é Transitivo Direto. A partícula *SE* atua como Pronome Apassivador. O sintagma nominal *"diversos pagamentos desprovidos de nota fiscal"* exerce a função de sujeito paciente no plural, exigindo a concordância do verbo no plural (*Identificaram-se*).
-> - **C)** Correta. O verbo *identificar* é VTD acompanhado de pronome apassivador *SE*. O sujeito paciente está no plural (*diversos pagamentos*), com o qual o verbo concorda perfeitamente na 3ª pessoa do plural (*Identificaram-se*).
-> - **D)** Incorreta. O verbo *precisar (de)* é Transitivo Indireto. Com o índice de indeterminação *SE*, o verbo deve ficar inalteravelmente no singular: *"Precisa-se de novos analistas"*.
-> - **E)** Incorreta. O verbo *atribuir* é Transitivo Direto e Indireto (VTDI). O termo *"os pareceres definitivos"* atua como sujeito paciente no plural, exigindo a flexão plural do verbo apassivado: *"Atribuíram-se aos peritos contábeis os pareceres definitivos"*.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 04
-**(FCC – DPE-RS – Analista Jurídico)**  
-A frase em que a articulação entre tempos e modos verbais observa a **correlação verbal** adequada é:
-
-* **A)** *"Se o conselheiro propusesse a realização de nova auditoria, o presidente acataria a solicitação de pronto."*
-* **B)** *"Se o conselheiro proporia a realização de nova auditoria, o presidente acatava a solicitação de pronto."*
-* **C)** *"Caso o conselheiro propor nova auditoria, o presidente acatará a solicitação de pronto."*
-* **D)** *"Se o conselheiro propôs nova auditoria, o presidente acataria a solicitação de pronto."*
-* **E)** *"Quando o conselheiro ver as irregularidades do balanço, proporá a anulação do contrato."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Estabelece a correlação hipotética canônica: o **Pretérito Imperfeito do Subjuntivo** (*propusesse*, indicando a condição irreal/hipotética) harmoniza-se perfeitamente com o **Futuro do Pretérito do Indicativo** (*acataria*, expressando o resultado decorrente).
-> - **B)** Incorreta. É vedado empregar o futuro do pretérito do indicativo (*proporia*) na oração subordinada condicional introduzida pela conjunção subordinativa *se*.
-> - **C)** Incorreta. O verbo *pôr* e seus derivados flexionam-se no futuro do subjuntivo sob a forma *propuser* (*"Caso o conselheiro propuser..."*), constituindo vício grosseiro o uso da forma no infinitivo *"propor"*.
-> - **D)** Incorreta. Articula de forma desconexa o pretérito perfeito do indicativo (*propôs*, fato certo consumado) com o futuro do pretérito (*acataria*, possibilidade futura), rompendo a harmonia condicional.
-> - **E)** Incorreta. O verbo irregular *ver* conjuga-se no futuro do subjuntivo como *vir* (*"Quando o conselheiro vir as irregularidades..."*). O emprego de *"quando ver"* é vício gramatical decorrente da confusão com o verbo *vir*.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 05
-**(FCC – METRÔ-SP – Analista de Comunicação)**  
-O pronome relativo antecedido de preposição está empregado em estrita conformidade com a norma-padrão em:
-
-* **A)** *"Este é o gestor cujo o comportamento foi elogiado em sessão plenária."*
-* **B)** *"A diretriz orçamentária a cujas determinações todos os órgãos estaduais devem obedecer foi publicada hoje."*
-* **C)** *"O departamento em cujo os funcionários operam os sistemas de auditoria foi reformado."*
-* **D)** *"A decisão judicial cuja a eficácia dependia de trânsito em julgado foi confirmada."*
-* **E)** *"As metas fiscais de cujas todos duvidavam foram atingidas com sobras."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O pronome relativo *cujo* nunca admite artigo definido antecedente ou consequente (*cujo o* é vício gramatical repudiado pela norma culta).
-> - **B)** Correta. 1) O pronome *cujas* estabelece relação semântica de posse entre *determinações* e *diretriz orçamentária*; 2) Concorda em gênero e número com o consequente (*determinações*, feminino plural); 3) Prescinde totalmente de artigo; 4) O verbo da oração adjetiva (*obedecer*) é Transitivo Indireto e rege a preposição **a** (*quem obedece, obedece a algo*), a qual foi adequadamente anteposta ao pronome relativo (*"a cujas determinações (...) devem obedecer"*).
-> - **C)** Incorreta. Incorre em erro ao acrescentar o artigo definido masculino plural após o pronome (*em cujo os*).
-> - **D)** Incorreta. Incorre em erro ao pospor o artigo definido feminino singular (*cuja a eficácia*).
-> - **E)** Incorreta. O pronome *cujo* exige ligar necessariamente dois substantivos em relação de dependência possessiva. Como não há substantivo após o pronome na oração (*"de cujas todos duvidavam"*), a construção correta deveria utilizar o pronome relativo *que* precedido de preposição (*"de que todos duvidavam"*).
-> 
-> **Gabarito: B**

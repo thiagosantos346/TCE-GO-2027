@@ -33,7 +33,6 @@
     - [4.2 A Metodologia Three-Pass sob Pressão de Tempo de Prova](#42-a-metodologia-three-pass-sob-pressao-de-tempo-de-prova)
     - [4.3 Léxico de Validação Experimental e Evidências Empíricas](#43-lexico-de-validacao-experimental-e-evidencias-empiricas)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas & Exemplos (Padrão FCC)](#6-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -82,6 +81,65 @@ flowchart TD
 > A FCC adora afirmar que o termo **"SHOULD"** impõe um mandamento inegociável sob qualquer pretexto. Trata-se de erro recorrente. A RFC 2119 expressamente ressalva que podem existir cenários peculiares que justifiquem a não observância do *SHOULD*, cabendo ao engenheiro mensurar os impactos (*the full implications must be understood and carefully weighed*).
 
 ---
+
+### Questão 01 (FCC - Adaptada / Analista de Sistemas - Integração de Plataformas)
+*Consider the excerpt below from a technical specification draft for a public auditory API:*
+
+> *"Section 4.2 – Authentication and Message Security  
+>
+> 1. All incoming client requests **MUST** include a cryptographically signed JSON Web Token (JWT) in the `Authorization` header.  
+> 2. The authentication gateway **MUST NOT** accept tokens signed with the deprecated 'none' algorithm.  
+> 3. Implementers **SHOULD** configure an asymmetric RSA-256 signature scheme rather than a shared symmetric secret.  
+> 4. Clients **MAY** compress the payload using gzip when sending audit records exceeding 100 kilobytes."*
+
+According to the normative definitions established by RFC 2119, it is correct to deduce that:
+
+* **A)** Compressing payloads larger than 100 kilobytes with gzip is an absolute requirement for client implementations.
+* **B)** Servers are strictly permitted to validate tokens signed with the 'none' algorithm in development environments.
+* **C)** Asymmetric RSA-256 signature is a recommended practice, meaning that valid reasons may exist to employ an alternative, but the full implications must be weighed.
+* **D)** Including a cryptographic JWT in the `Authorization` header is an optional feature that can be ignored at the client's discretion.
+* **E)** The term **"SHOULD"** in item 3 implies that asymmetric RSA-256 signature is strictly mandatory and cannot be substituted under any circumstances.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O item 4 emprega o modal **"MAY"**, que expressa uma funcionalidade verdadeiramente opcional (*truly optional*), e não uma exigência absoluta.
+> - **B)** Incorreta. O item 2 estabelece uma proibição absoluta: **"MUST NOT"** (*absolute prohibition*). O gateway está terminantemente impedido de aceitar tokens com algoritmo 'none', sem qualquer exceção para ambientes de teste.
+> - **C)** Correta. De acordo com a RFC 2119, o termo **"SHOULD"** (ou *RECOMMENDED*) tipifica uma recomendação forte de boa prática técnica. Podem existir circunstâncias particulares em que a alternativa seja válida (ex.: chaves pré-compartilhadas em canais isolados), contanto que as implicações integrais de segurança sejam formalmente compreendidas e sopesadas.
+> - **D)** Incorreta. O item 1 utiliza a partícula normativa **"MUST"**, determinando que o envio do JWT no cabeçalho `Authorization` é mandatório e indispensável, e não opcional.
+> - **E)** Incorreta. O vocábulo normativo que indica obrigatoriedade incondicional e mandatória sem substituição é *MUST* ou *SHALL*, e não *SHOULD*.
+> 
+> **Gabarito: C**
+
+---
+
+### Questão 02 (FCC - Adaptada / Tribunal de Contas - Infraestrutura e Engenharia de Dados)
+*Read the excerpt extracted from a distributed database configuration guide:*
+
+> *"Section 6: Network Partitioning and Split-Brain Prevention  
+> **Prerequisites:** Before establishing a multi-region cluster, administrators **MUST** synchronize system clocks across all physical hosts using Network Time Protocol (NTP). Clock drift exceeding 250 milliseconds will trigger immediate heartbeat dropouts.  
+> **Caution:** Do not configure an even number of voting nodes. When a network partition divides the cluster, nodes require a strict majority quorum ($N/2 + 1$) to elect a primary leader. An even topology risks a fatal split-brain scenario where isolated partitions simultaneously accept conflicting writes, resulting in irrecoverable data divergence."*
+
+Based on reading technical manuals and understanding operational directives, it is correct to state that:
+
+* **A)** The manual indicates that synchronizing system clocks with NTP is an optional step that can be safely bypassed in multi-region deployments.
+* **B)** A clock drift higher than 250 milliseconds is considered normal and will not impact heartbeat communications between nodes.
+* **C)** The directive labeled **"Caution"** advises configuring an even number of voting nodes to maximize electoral redundancy during partitions.
+* **D)** According to the guide, a strict majority quorum is indispensable to elect a primary leader and prevent the emergence of conflicting writes in distinct partitions.
+* **E)** The text states that irrecoverable data divergence can be automatically repaired by the operating system without manual intervention.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A seção *Prerequisites* expressa um mandamento absoluto com o termo normativo **"MUST"** (*administrators MUST synchronize system clocks*), impedindo que o procedimento seja contornado (*bypassed*).
+> - **B)** Incorreta. O guia afirma expressamente que um desvio de relógio (*clock drift*) além de 250 milissegundos causará quedas imediatas no tráfego de controle e sinalização de heartbeat (*trigger immediate heartbeat dropouts*).
+> - **C)** Incorreta. A advertência técnica (*Caution*) desaconselha formalmente o uso de número par de nós votantes (*"Do not configure an even number of voting nodes"*), visto que topologias simétricas causam impasses eleitorais e risco de *split-brain*.
+> - **D)** Correta. O manual estabelece com precisão que a formação de um quórum de maioria estrita ($N/2 + 1$) é condição indispensável para a eleição do nó líder primário, salvaguardando o cluster contra aceitação de escritas conflitantes em partições desconectadas (*resulting in irrecoverable data divergence*).
+> - **E)** Incorreta. A documentação classifica expressamente a divergência de dados resultante como irrecuperável e definitiva (*irrecoverable data divergence*), inexistindo reparação automática transparente.
+> 
+> **Gabarito: D**
+
+---
+
+
 
 ## 2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)
 
@@ -136,6 +194,81 @@ Nas especificações OpenAPI 3.0 / Swagger, os parâmetros distribuem-se em quat
     - `required: true`: Sinaliza que o bloco ou os campos listados no array `required:` são indispensáveis. A omissão acarreta rejeição da mensagem.
     - `properties`: Mapeia cada atributo com suas restrições de validação (`type: string`, `pattern: '^\d{14}$'`, `minimum: 0.0`).
 
+---
+
+### Questão 03 (FCC - Adaptada / SEFAZ - Auditoria Fiscal da Receita Estadual - Especialidade TI)
+*Examine the following OpenAPI 3.0 specification excerpt describing an electronic fiscal auditing endpoint:*
+
+```yaml
+paths:
+  /v1/audits/tax-returns:
+    post:
+      summary: Submit electronic tax returns for batch validation
+      security:
+        - BearerAuth: [audit:write]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - taxpayer_id
+                - fiscal_year
+                - declared_revenue
+              properties:
+                taxpayer_id:
+                  type: string
+                  pattern: '^\d{14}$'
+                fiscal_year:
+                  type: integer
+                  minimum: 2020
+                declared_revenue:
+                  type: number
+                  minimum: 0.0
+      responses:
+        '201':
+          description: Returns successfully validated and queued
+        '400':
+          description: Malformed JSON syntax or unparseable payload
+        '403':
+          description: Insufficient privileges; client lacks 'audit:write' scope
+        '422':
+          description: Semantic validation failure (e.g., negative revenue or invalid tax ID)
+```
+
+Com base na especificação técnica acima e nos princípios de arquitetura de APIs, analise as afirmativas:
+
+I. O envio do corpo da requisição (*requestBody*) é mandatório (`required: true`), e a ausência do campo `taxpayer_id` causará a rejeição da mensagem.  
+
+II. Caso um cliente apresente um token de autenticação válido, porém desprovido do escopo de segurança `audit:write`, o endpoint retornará o status HTTP 403 Forbidden.  
+
+III. O envio de um valor negativo para o campo `declared_revenue` gerará um status HTTP 400 Bad Request, haja vista que a restrição `minimum: 0.0` constitui erro sintático de transporte HTTP.  
+
+Está correto o que se afirma em:
+
+* **A)** I e II, apenas.
+* **B)** I e III, apenas.
+* **C)** II e III, apenas.
+* **D)** I, apenas.
+* **E)** I, II e III.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Apenas os itens I e II estão alinhados à especificação e às boas práticas de API:
+>     - **Item I (Verdadeiro):** A linha `requestBody: required: true` torna o corpo obrigatório. A chave `taxpayer_id` figura expressamente no bloco `required:`, tornando sua ausência causa mandatória de recusa da submissão.
+>     - **Item II (Verdadeiro):** A seção `security: BearerAuth: [audit:write]` exige que o token possua o escopo `audit:write`. A resposta para credenciais autenticadas porém carentes do privilégio necessário é textualmente documentada como **403 Forbidden** (*client lacks audit:write scope*).
+>     - **Item III (Falso):** O envio de valor negativo para `declared_revenue` configura violação semântica de regra de negócio (`minimum: 0.0`), e não falha sintática de formatação. O schema associa essa falha textualmente ao código **422 Unprocessable Entity** (*Semantic validation failure, e.g., negative revenue*), reservando o status 400 para payloads corrompidos.
+> - **B)** Incorreta. O item III é falso.
+> - **C)** Incorreta. O item I é verdadeiro e o III é falso.
+> - **D)** Incorreta. O item II também é verdadeiro.
+> - **E)** Incorreta. O item III é falso.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta
 
 A compreensão precisa das famílias de códigos de status HTTP é intensamente avaliada em provas:
@@ -162,6 +295,45 @@ A compreensão precisa das famílias de códigos de status HTTP é intensamente 
 >
 > - **401 Unauthorized** $\rightarrow$ *Quem é você?* (Problema de Identidade / Autenticação).  
 > - **403 Forbidden** $\rightarrow$ *Eu sei quem você é, mas você não tem permissão para entrar aqui.* (Problema de Privilégio / Autorização).
+
+---
+
+### Questão 04 (FCC - Adaptada / Tribunal de Contas - Especialidade Tecnologia da Informação)
+*Carefully analyze the API documentation response snippet provided below:*
+
+```http
+HTTP/1.1 429 Too Many Requests
+Date: Wed, 07 Oct 2026 14:30:00 GMT
+Content-Type: application/json; charset=utf-8
+Retry-After: 120
+Warning: 299 - "This endpoint is deprecated and will be decommissioned on 2027-01-01"
+
+{
+  "error": "rate_limit_exceeded",
+  "message": "Quota limit reached. Client is temporarily throttled."
+}
+```
+
+A partir da leitura técnica da documentação e dos cabeçalhos HTTP apresentados, é correto afirmar:
+
+* **A)** A requisição foi processada com êxito pelo servidor, mas o cliente foi alertado de que o formato JSON é inválido.
+* **B)** O cliente excedeu a cota de requisições permitida (*rate limit*) e foi instruído, por meio do cabeçalho `Retry-After`, a aguardar 120 segundos antes de reenviar a chamada.
+* **C)** A mensagem `Warning` adverte que o serviço falhou catastroficamente e seus dados foram corrompidos permanentemente no banco de dados.
+* **D)** O termo *deprecated* indica que o endpoint acabou de ser atualizado para uma versão de maior desempenho recomendada para novas integrações.
+* **E)** O status 429 indica um erro interno de falha de infraestrutura no lado do servidor (*Internal Server Error*).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Respostas com código 429 pertencem à classe de erros de cliente (4xx) e indicam rejeição temporária por estrangulamento de chamadas, e não sucesso de processamento.
+> - **B)** Correta. O código HTTP **429 Too Many Requests** indica que o cliente ultrapassou a taxa máxima de requisições admitida pela política de governança da API (*throttling*). O cabeçalho padronizado **`Retry-After: 120`** estipula expressamente que o cliente deve aguardar um intervalo de 120 segundos antes de emitir novas requisições.
+> - **C)** Incorreta. O cabeçalho `Warning: 299` veicula um aviso de gerenciamento de ciclo de vida de software, alertando sobre a obsolescência da rota, sem nenhuma conexão com corrupção de banco de dados.
+> - **D)** Incorreta. O adjetivo técnico **"deprecated"** (descontinuado / obsoleto) significa que a funcionalidade foi marcada para desativação futura e não deve receber novas implantações, sendo agendado seu descomissionamento definitivo (*decommissioning*) para 01/01/2027.
+> - **E)** Incorreta. A família 4xx sinaliza inconformidades geradas pelo cliente (*Client Error*). Erros de infraestrutura interna do servidor pertencem privativamente à família 5xx (como 500, 502 ou 503).
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)
 
@@ -239,6 +411,34 @@ flowchart TD
 6. **Threats to Validity:** Reconhecimento das premissas e limitações do estudo.
 7. **Conclusion:** Recapitulação das deduções finais.
 
+---
+
+### Questão 05 (FCC - Adaptada / Analista de TI - Avaliação de Arquiteturas de Nuvem)
+*Read the abstract of an IEEE computer systems research paper:*
+
+> *"Abstract—Serverless computing has emerged as a compelling paradigm for event-driven microservices due to its elastic autoscale and pay-per-use billing. **However**, cold-start latency remains a severe impediment for latency-sensitive public services. In this paper, we propose *KubeWarm*, a lightweight proactive container pre-warming framework integrated with Kubernetes. **Unlike** conventional reactive autoscalers that spawn container runtimes only after incoming HTTP requests arrive, *KubeWarm* utilizes an autoregressive machine learning model to predict invocation spikes. Our extensive experimental results on enterprise workloads demonstrate that *KubeWarm* reduces tail latency by 42% and eliminates 87% of cold starts, while incurring less than 3% CPU **overhead**."*
+
+Based on paper reading techniques (*Abstract comprehension*) and technical vocabulary, select the correct alternative:
+
+* **A)** The authors conclude that conventional reactive autoscalers are superior to proactive pre-warming frameworks in handling sudden invocation spikes.
+* **B)** The term **"overhead"** in the last sentence refers to a 3% financial tax imposed by cloud service providers on serverless function invocations.
+* **C)** According to the abstract, *KubeWarm* is designed to wait until HTTP requests arrive before initiating any container runtime provisioning.
+* **D)** The connector **"However"** is used to introduce the primary drawback of serverless computing addressed by the paper: cold-start latency.
+* **E)** The proposed framework proved inefficient, as experimental results demonstrated a 42% increase in latency and higher server costs.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A avaliação empírica do artigo evidencia a superioridade do modelo preditivo e proativo proposto (*KubeWarm*), o qual reduziu a latência de cauda em 42% e expurgou 87% das inicializações a frio frente aos modelos reativos tradicionais.
+> - **B)** Incorreta. Na engenharia de software e computação em nuvem, o vocábulo **"overhead"** traduz o custo computacional marginal de processamento de hardware (neste caso, menos de 3% de consumo extra de ciclos de CPU para operar o algoritmo inteligente), e não tributos monetários.
+> - **C)** Incorreta. O ato de postergar a inicialização do runtime de contêineres até a chegada efetiva do pacote HTTP é a assinatura dos mecanismos tradicionais reativos (*conventional reactive autoscalers*), superada pelo dinamismo proativo do *KubeWarm*.
+> - **D)** Correta. O conectivo adversativo **"However"** (no entanto, todavia) é estrategicamente empregado para contrapor os benefícios atrativos da computação serverless (elasticidade e faturamento sob demanda) ao seu obstáculo estrutural determinante atacado pelo artigo: a latência de inicialização a frio (*cold-start latency*).
+> - **E)** Incorreta. O framework atingiu desempenho exitoso: reduziu (*reduces*) a latência em 42% e eliminou 87% dos cold starts sob sobrecarga computacional desprezível.
+> 
+> **Gabarito: D**
+
+---
+
+
 ### 4.2 A Metodologia Three-Pass sob Pressão de Tempo de Prova
 
 Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de prova deve ser estratificada em camadas:
@@ -268,194 +468,3 @@ Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de p
 * SWALES, John M.; FEAK, Christine B. **Academic Writing for Graduate Students: Essential Tasks and Skills**. 3. ed. Ann Arbor: University of Michigan Press, 2012. (Unit 3 - Reading and Writing Technical Instructions).
 * GLENDINNING, Eric H.; MCEWAN, John. **Oxford English for Information Technology**. 2. ed. Oxford: Oxford University Press, 2006. (Units 20 to 25 - Reading Technical Manuals and System Specifications).
 * HEWINGS, Martin. **Advanced Grammar in Use**. 3. ed. Cambridge: Cambridge University Press, 2013. (Units 80 to 85 - Complex Sentences and Technical Documentation Structures).
-
-
-## 6. Questões Comentadas & Exemplos (Padrão FCC)
-
-### Questão 1 (FCC - Adaptada / Analista de Sistemas - Integração de Plataformas)
-*Consider the excerpt below from a technical specification draft for a public auditory API:*
-
-> *"Section 4.2 – Authentication and Message Security  
->
-> 1. All incoming client requests **MUST** include a cryptographically signed JSON Web Token (JWT) in the `Authorization` header.  
-> 2. The authentication gateway **MUST NOT** accept tokens signed with the deprecated 'none' algorithm.  
-> 3. Implementers **SHOULD** configure an asymmetric RSA-256 signature scheme rather than a shared symmetric secret.  
-> 4. Clients **MAY** compress the payload using gzip when sending audit records exceeding 100 kilobytes."*
-
-According to the normative definitions established by RFC 2119, it is correct to deduce that:
-
-* **A)** Compressing payloads larger than 100 kilobytes with gzip is an absolute requirement for client implementations.
-* **B)** Servers are strictly permitted to validate tokens signed with the 'none' algorithm in development environments.
-* **C)** Asymmetric RSA-256 signature is a recommended practice, meaning that valid reasons may exist to employ an alternative, but the full implications must be weighed.
-* **D)** Including a cryptographic JWT in the `Authorization` header is an optional feature that can be ignored at the client's discretion.
-* **E)** The term **"SHOULD"** in item 3 implies that asymmetric RSA-256 signature is strictly mandatory and cannot be substituted under any circumstances.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O item 4 emprega o modal **"MAY"**, que expressa uma funcionalidade verdadeiramente opcional (*truly optional*), e não uma exigência absoluta.
-> - **B)** Incorreta. O item 2 estabelece uma proibição absoluta: **"MUST NOT"** (*absolute prohibition*). O gateway está terminantemente impedido de aceitar tokens com algoritmo 'none', sem qualquer exceção para ambientes de teste.
-> - **C)** Correta. De acordo com a RFC 2119, o termo **"SHOULD"** (ou *RECOMMENDED*) tipifica uma recomendação forte de boa prática técnica. Podem existir circunstâncias particulares em que a alternativa seja válida (ex.: chaves pré-compartilhadas em canais isolados), contanto que as implicações integrais de segurança sejam formalmente compreendidas e sopesadas.
-> - **D)** Incorreta. O item 1 utiliza a partícula normativa **"MUST"**, determinando que o envio do JWT no cabeçalho `Authorization` é mandatório e indispensável, e não opcional.
-> - **E)** Incorreta. O vocábulo normativo que indica obrigatoriedade incondicional e mandatória sem substituição é *MUST* ou *SHALL*, e não *SHOULD*.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC - Adaptada / Tribunal de Contas - Especialidade Tecnologia da Informação)
-*Carefully analyze the API documentation response snippet provided below:*
-
-```http
-HTTP/1.1 429 Too Many Requests
-Date: Wed, 07 Oct 2026 14:30:00 GMT
-Content-Type: application/json; charset=utf-8
-Retry-After: 120
-Warning: 299 - "This endpoint is deprecated and will be decommissioned on 2027-01-01"
-
-{
-  "error": "rate_limit_exceeded",
-  "message": "Quota limit reached. Client is temporarily throttled."
-}
-```
-
-A partir da leitura técnica da documentação e dos cabeçalhos HTTP apresentados, é correto afirmar:
-
-* **A)** A requisição foi processada com êxito pelo servidor, mas o cliente foi alertado de que o formato JSON é inválido.
-* **B)** O cliente excedeu a cota de requisições permitida (*rate limit*) e foi instruído, por meio do cabeçalho `Retry-After`, a aguardar 120 segundos antes de reenviar a chamada.
-* **C)** A mensagem `Warning` adverte que o serviço falhou catastroficamente e seus dados foram corrompidos permanentemente no banco de dados.
-* **D)** O termo *deprecated* indica que o endpoint acabou de ser atualizado para uma versão de maior desempenho recomendada para novas integrações.
-* **E)** O status 429 indica um erro interno de falha de infraestrutura no lado do servidor (*Internal Server Error*).
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Respostas com código 429 pertencem à classe de erros de cliente (4xx) e indicam rejeição temporária por estrangulamento de chamadas, e não sucesso de processamento.
-> - **B)** Correta. O código HTTP **429 Too Many Requests** indica que o cliente ultrapassou a taxa máxima de requisições admitida pela política de governança da API (*throttling*). O cabeçalho padronizado **`Retry-After: 120`** estipula expressamente que o cliente deve aguardar um intervalo de 120 segundos antes de emitir novas requisições.
-> - **C)** Incorreta. O cabeçalho `Warning: 299` veicula um aviso de gerenciamento de ciclo de vida de software, alertando sobre a obsolescência da rota, sem nenhuma conexão com corrupção de banco de dados.
-> - **D)** Incorreta. O adjetivo técnico **"deprecated"** (descontinuado / obsoleto) significa que a funcionalidade foi marcada para desativação futura e não deve receber novas implantações, sendo agendado seu descomissionamento definitivo (*decommissioning*) para 01/01/2027.
-> - **E)** Incorreta. A família 4xx sinaliza inconformidades geradas pelo cliente (*Client Error*). Erros de infraestrutura interna do servidor pertencem privativamente à família 5xx (como 500, 502 ou 503).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Adaptada / SEFAZ - Auditoria Fiscal da Receita Estadual - Especialidade TI)
-*Examine the following OpenAPI 3.0 specification excerpt describing an electronic fiscal auditing endpoint:*
-
-```yaml
-paths:
-  /v1/audits/tax-returns:
-    post:
-      summary: Submit electronic tax returns for batch validation
-      security:
-        - BearerAuth: [audit:write]
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              type: object
-              required:
-                - taxpayer_id
-                - fiscal_year
-                - declared_revenue
-              properties:
-                taxpayer_id:
-                  type: string
-                  pattern: '^\d{14}$'
-                fiscal_year:
-                  type: integer
-                  minimum: 2020
-                declared_revenue:
-                  type: number
-                  minimum: 0.0
-      responses:
-        '201':
-          description: Returns successfully validated and queued
-        '400':
-          description: Malformed JSON syntax or unparseable payload
-        '403':
-          description: Insufficient privileges; client lacks 'audit:write' scope
-        '422':
-          description: Semantic validation failure (e.g., negative revenue or invalid tax ID)
-```
-
-Com base na especificação técnica acima e nos princípios de arquitetura de APIs, analise as afirmativas:
-
-I. O envio do corpo da requisição (*requestBody*) é mandatório (`required: true`), e a ausência do campo `taxpayer_id` causará a rejeição da mensagem.  
-
-II. Caso um cliente apresente um token de autenticação válido, porém desprovido do escopo de segurança `audit:write`, o endpoint retornará o status HTTP 403 Forbidden.  
-
-III. O envio de um valor negativo para o campo `declared_revenue` gerará um status HTTP 400 Bad Request, haja vista que a restrição `minimum: 0.0` constitui erro sintático de transporte HTTP.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** I e III, apenas.
-* **C)** II e III, apenas.
-* **D)** I, apenas.
-* **E)** I, II e III.
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Apenas os itens I e II estão alinhados à especificação e às boas práticas de API:
->     - **Item I (Verdadeiro):** A linha `requestBody: required: true` torna o corpo obrigatório. A chave `taxpayer_id` figura expressamente no bloco `required:`, tornando sua ausência causa mandatória de recusa da submissão.
->     - **Item II (Verdadeiro):** A seção `security: BearerAuth: [audit:write]` exige que o token possua o escopo `audit:write`. A resposta para credenciais autenticadas porém carentes do privilégio necessário é textualmente documentada como **403 Forbidden** (*client lacks audit:write scope*).
->     - **Item III (Falso):** O envio de valor negativo para `declared_revenue` configura violação semântica de regra de negócio (`minimum: 0.0`), e não falha sintática de formatação. O schema associa essa falha textualmente ao código **422 Unprocessable Entity** (*Semantic validation failure, e.g., negative revenue*), reservando o status 400 para payloads corrompidos.
-> - **B)** Incorreta. O item III é falso.
-> - **C)** Incorreta. O item I é verdadeiro e o III é falso.
-> - **D)** Incorreta. O item II também é verdadeiro.
-> - **E)** Incorreta. O item III é falso.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 4 (FCC - Adaptada / Tribunal de Contas - Infraestrutura e Engenharia de Dados)
-*Read the excerpt extracted from a distributed database configuration guide:*
-
-> *"Section 6: Network Partitioning and Split-Brain Prevention  
-> **Prerequisites:** Before establishing a multi-region cluster, administrators **MUST** synchronize system clocks across all physical hosts using Network Time Protocol (NTP). Clock drift exceeding 250 milliseconds will trigger immediate heartbeat dropouts.  
-> **Caution:** Do not configure an even number of voting nodes. When a network partition divides the cluster, nodes require a strict majority quorum ($N/2 + 1$) to elect a primary leader. An even topology risks a fatal split-brain scenario where isolated partitions simultaneously accept conflicting writes, resulting in irrecoverable data divergence."*
-
-Based on reading technical manuals and understanding operational directives, it is correct to state that:
-
-* **A)** The manual indicates that synchronizing system clocks with NTP is an optional step that can be safely bypassed in multi-region deployments.
-* **B)** A clock drift higher than 250 milliseconds is considered normal and will not impact heartbeat communications between nodes.
-* **C)** The directive labeled **"Caution"** advises configuring an even number of voting nodes to maximize electoral redundancy during partitions.
-* **D)** According to the guide, a strict majority quorum is indispensable to elect a primary leader and prevent the emergence of conflicting writes in distinct partitions.
-* **E)** The text states that irrecoverable data divergence can be automatically repaired by the operating system without manual intervention.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A seção *Prerequisites* expressa um mandamento absoluto com o termo normativo **"MUST"** (*administrators MUST synchronize system clocks*), impedindo que o procedimento seja contornado (*bypassed*).
-> - **B)** Incorreta. O guia afirma expressamente que um desvio de relógio (*clock drift*) além de 250 milissegundos causará quedas imediatas no tráfego de controle e sinalização de heartbeat (*trigger immediate heartbeat dropouts*).
-> - **C)** Incorreta. A advertência técnica (*Caution*) desaconselha formalmente o uso de número par de nós votantes (*"Do not configure an even number of voting nodes"*), visto que topologias simétricas causam impasses eleitorais e risco de *split-brain*.
-> - **D)** Correta. O manual estabelece com precisão que a formação de um quórum de maioria estrita ($N/2 + 1$) é condição indispensável para a eleição do nó líder primário, salvaguardando o cluster contra aceitação de escritas conflitantes em partições desconectadas (*resulting in irrecoverable data divergence*).
-> - **E)** Incorreta. A documentação classifica expressamente a divergência de dados resultante como irrecuperável e definitiva (*irrecoverable data divergence*), inexistindo reparação automática transparente.
-> 
-> **Gabarito: D**
-
----
-
-### Questão 5 (FCC - Adaptada / Analista de TI - Avaliação de Arquiteturas de Nuvem)
-*Read the abstract of an IEEE computer systems research paper:*
-
-> *"Abstract—Serverless computing has emerged as a compelling paradigm for event-driven microservices due to its elastic autoscale and pay-per-use billing. **However**, cold-start latency remains a severe impediment for latency-sensitive public services. In this paper, we propose *KubeWarm*, a lightweight proactive container pre-warming framework integrated with Kubernetes. **Unlike** conventional reactive autoscalers that spawn container runtimes only after incoming HTTP requests arrive, *KubeWarm* utilizes an autoregressive machine learning model to predict invocation spikes. Our extensive experimental results on enterprise workloads demonstrate that *KubeWarm* reduces tail latency by 42% and eliminates 87% of cold starts, while incurring less than 3% CPU **overhead**."*
-
-Based on paper reading techniques (*Abstract comprehension*) and technical vocabulary, select the correct alternative:
-
-* **A)** The authors conclude that conventional reactive autoscalers are superior to proactive pre-warming frameworks in handling sudden invocation spikes.
-* **B)** The term **"overhead"** in the last sentence refers to a 3% financial tax imposed by cloud service providers on serverless function invocations.
-* **C)** According to the abstract, *KubeWarm* is designed to wait until HTTP requests arrive before initiating any container runtime provisioning.
-* **D)** The connector **"However"** is used to introduce the primary drawback of serverless computing addressed by the paper: cold-start latency.
-* **E)** The proposed framework proved inefficient, as experimental results demonstrated a 42% increase in latency and higher server costs.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A avaliação empírica do artigo evidencia a superioridade do modelo preditivo e proativo proposto (*KubeWarm*), o qual reduziu a latência de cauda em 42% e expurgou 87% das inicializações a frio frente aos modelos reativos tradicionais.
-> - **B)** Incorreta. Na engenharia de software e computação em nuvem, o vocábulo **"overhead"** traduz o custo computacional marginal de processamento de hardware (neste caso, menos de 3% de consumo extra de ciclos de CPU para operar o algoritmo inteligente), e não tributos monetários.
-> - **C)** Incorreta. O ato de postergar a inicialização do runtime de contêineres até a chegada efetiva do pacote HTTP é a assinatura dos mecanismos tradicionais reativos (*conventional reactive autoscalers*), superada pelo dinamismo proativo do *KubeWarm*.
-> - **D)** Correta. O conectivo adversativo **"However"** (no entanto, todavia) é estrategicamente empregado para contrapor os benefícios atrativos da computação serverless (elasticidade e faturamento sob demanda) ao seu obstáculo estrutural determinante atacado pelo artigo: a latência de inicialização a frio (*cold-start latency*).
-> - **E)** Incorreta. O framework atingiu desempenho exitoso: reduziu (*reduces*) a latência em 42% e eliminou 87% dos cold starts sob sobrecarga computacional desprezível.
-> 
-> **Gabarito: D**

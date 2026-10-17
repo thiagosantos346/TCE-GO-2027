@@ -29,7 +29,6 @@
     - [3.2 Princípio da Proporcionalidade e Hipóteses de Uso](#32-principio-da-proporcionalidade-e-hipoteses-de-uso)
 - [4. Aplicação Prática da Certificação Digital na Auditoria e Processo Eletrônico](#4-aplicacao-pratica-da-certificacao-digital-na-auditoria-e-processo-eletronico)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas no Padrão FCC](#6-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -79,6 +78,39 @@ flowchart TD
 
 ---
 
+### Questão 01 (FCC - Auditor Estadual de Controle Externo / Tecnologia da Informação)
+**Enunciado:** O Tribunal de Contas de determinado Estado publicou edital de licitação para contratação de desenvolvimento e sustentação de sistemas de auditoria contábil. No termo de referência e na minuta contratual, a comissão de planejamento estipulou as seguintes cláusulas:  
+
+I. O pagamento mensal à contratada dar-se-á estritamente com base na quantidade bruta de horas trabalhadas apontadas pelos funcionários da empresa terceirizada em folha de ponto, sem qualquer vinculação à conclusão de entregáveis ou cumprimento de acordos de nível de serviço (SLA).  
+
+II. A contratada e todos os seus colaboradores alocados no projeto deverão firmar Acordo de Confidencialidade e Não Divulgação (NDA) sob pena de rescisão contratual e penalidades legais.  
+
+III. Todos os códigos-fonte, esquemas de bancos de dados, scripts de infraestrutura e documentação técnica desenvolvidos no âmbito do contrato pertencerão exclusivamente ao Tribunal de Contas, devendo ser versionados continuamente no repositório institucional do órgão.  
+
+IV. Ao término da vigência contratual, a contratada fica obrigada a realizar a transição assistida, exportar e entregar todos os dados em formatos abertos e estruturados, comprovando a destruição segura de quaisquer cópias em seu poder (cláusula de reversibilidade).  
+
+À luz da legislação de licitações, jurisprudência do controle externo e normas de segurança da informação em TIC:  
+
+* **A)** As cláusulas I, II, III e IV estão em perfeita conformidade com as boas práticas administrativas.
+* **B)** Apenas a cláusula I é irregular perante as normas de controle externo, sendo as cláusulas II, III e IV regulares e essenciais para a segurança e governança de TIC.
+* **C)** A cláusula III é ilegal, pois a legislação de propriedade intelectual veda a transferência de direitos autorais de software para órgãos públicos contratantes.
+* **D)** A cláusula IV é prescindível e contraria o princípio da livre iniciativa por impor custos de desmobilização à contratada.
+* **E)** A cláusula II viola a presunção de boa-fé dos prestadores de serviço e não tem eficácia jurídica na esfera administrativa.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A cláusula I é manifestamente irregular e ilegal perante as normas de finanças públicas e licitações.
+> - **B)** **Correta.** A cláusula I é ilegal e contraria frontalmente a Súmula TCU nº 269 (*"Nas contratações para prestação de serviços de TI, a remuneração deve ser vinculada a resultados ou ao alcance de níveis de serviço, sendo vedada a contratação com base exclusivamente em homem-hora"*). As cláusulas II (NDA), III (propriedade intelectual do código-fonte) e IV (cláusula de reversibilidade / *exit strategy*) são obrigatórias para resguardar a soberania e a segurança tecnológica do órgão público.
+> - **C)** Incorreta. A legislação de software e a Lei nº 14.133/2021 estabelecem que os direitos patrimoniais sobre códigos desenvolvidos por encomenda no âmbito de contratos públicos pertencem à Administração contratante.
+> - **D)** Incorreta. A cláusula de reversibilidade é fundamental para impedir o aprisionamento tecnológico (*vendor lock-in*).
+> - **E)** Incorreta. O termo de confidencialidade (NDA) é plenamente válido e mandatório para proteger informações estratégicas.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 2. O Marco Legal da Certificação Digital e a ICP-Brasil (MP nº 2.200-2/2001)
 
 A **Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)** foi instituída pela Medida Provisória nº 2.200-2, de 24 de agosto de 2001, com o propósito de garantir a autenticidade, a integridade e a validade jurídica de documentos em forma eletrônica, das aplicações de suporte e das aplicações habilitadas que utilizem certificados digitais.
@@ -112,6 +144,29 @@ flowchart TD
 - **Certificados Tipo T (Tempo):** Utilizados pelas ACTs para emissão de carimbos do tempo.
 
 ---
+
+### Questão 02 (FCC - Analista Judiciário / Tecnologia da Informação / Segurança da Informação)
+**Enunciado:** A respeito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil) instituída pela Medida Provisória nº 2.200-2/2001 e das características de seus certificados digitais:  
+
+* **A)** O certificado digital do tipo A1 possui sua chave privada armazenada de maneira inviolável em hardware criptográfico padrão FIPS 140-2 Level 3 e validade de 5 anos.
+* **B)** A Autoridade Certificadora Raiz (AC-Raiz) da ICP-Brasil é operada de forma compartilhada por um consórcio de empresas privadas de telefonia sob concessão da Anatel.
+* **C)** O certificado digital do tipo A3 armazena sua chave privada em hardware criptográfico (como cartão inteligente ou token criptográfico), impedindo sua cópia ou exportação, enquanto o certificado do tipo A1 é gerado por software e armazenado diretamente no computador ou dispositivo.
+* **D)** Documentos eletrônicos assinados fora da estrutura da ICP-Brasil são nulos de pleno direito no Brasil, mesmo que as partes envolvidas tenham acordado expressamente sobre sua validade.
+* **E)** A Autoridade de Registro (AR) possui a competência exclusiva de assinar digitalmente as Listas de Certificados Revogados (LCR) de todas as ACs subordinadas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O certificado A1 é gerado por software (arquivo PKCS#12) e possui validade máxima de 1 ano. Quem utiliza hardware inviolável é o certificado A3.
+> - **B)** Incorreta. A AC-Raiz da ICP-Brasil é operada com exclusividade pelo ITI (Instituto Nacional de Tecnologia da Informação), autarquia pública federal.
+> - **C)** **Correta.** Distinção técnica precisa: o certificado A3 gera e armazena a chave privada em dispositivo físico inviolável (smart card, token USB ou HSM) e não permite exportação; o certificado A1 reside em arquivo protegido por senha no computador.
+> - **D)** Incorreta. O Art. 10, § 2º da MP 2.200-2/2001 garante a validade jurídica de outros meios de comprovação de autoria e integridade não vinculados à ICP-Brasil se admitidos pelas partes.
+> - **E)** Incorreta. A Autoridade de Registro (AR) realiza apenas a identificação do titular; a emissão e a assinatura de certificados e LCRs são atribuições da Autoridade Certificadora (AC).
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 2.3 Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP
 
@@ -151,6 +206,29 @@ flowchart TD
 
 ---
 
+### Questão 03 (FCC - Analista em Gestão e TI / Governança)
+**Enunciado:** Nos termos da Lei Federal nº 14.063/2020, assinale a opção que descreve hipóteses em que é **obrigatória** a utilização da **assinatura eletrônica qualificada** (emitida por certificado digital ICP-Brasil):  
+
+* **A)** Requerimentos de agendamento de atendimento presencial em agências do trabalho e consultas cadastrais simples.
+* **B)** Nos atos normativos assinados pelos Chefes de Poder, Ministros de Estado ou titulares de Poder ou de órgão constitucionalmente autônomo de ente federativo, bem como na emissão de notas fiscais eletrônicas (com ressalvas legais para MEI) e em atos de transferência de bens imóveis.
+* **C)** Em todas as petições de esclarecimento em licitações públicas com valor estimado inferior a cinquenta mil reais.
+* **D)** No envio de currículos profissionais para processos seletivos de estágio na administração direta.
+* **E)** Exclusivamente em contratos celebrados entre particulares que versem sobre compra e venda de mercadorias no varejo.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Em interações de baixo risco, a assinatura simples (login/senha) é suficiente.
+> - **B)** **Correta.** O Art. 5º, § 1º da Lei nº 14.063/2020 elenca expressamente as situações em que a assinatura qualificada é indispensável: atos normativos de Chefes de Poder e titulares de órgãos autônomos; emissão de notas fiscais eletrônicas (salvo MEIs); e atos de transferência/registro de bens imóveis.
+> - **C)** Incorreta. Petições administrativas ordinárias admitem amplamente assinatura eletrônica avançada (Gov.br Prata/Ouro).
+> - **D)** Incorreta. Envio de currículos dispensa assinatura qualificada.
+> - **E)** Incorreta. A lei disciplina as interações com entes públicos e estabelece a obrigatoriedade da assinatura qualificada para atos estatais solenes.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3.2 Princípio da Proporcionalidade e Hipóteses de Uso
 
 O Art. 5º, § 2º da Lei nº 14.063/2020 fixou o **Princípio da Vedação ao Excesso de Exigência**:
@@ -163,67 +241,7 @@ A regra visa desonerar o cidadão do custo de adquirir certificados digitais pag
 
 ---
 
-## 4. Aplicação Prática da Certificação Digital na Auditoria e Processo Eletrônico
-
-Nos sistemas informatizados de auditoria governamental e processo eletrônico do Tribunal de Contas do Estado de Goiás (TCE-GO), a certificação digital cumpre funções técnicas fundamentais:
-
-1. **Processo Eletrônico (PAdES e Carimbo do Tempo):**
-    - Assinatura no padrão PAdES (*PDF Advanced Electronic Signatures*) com inserção de **Carimbo do Tempo (Timestamp)** emitido por Autoridade de Carimbo do Tempo (ACT) credenciada. O carimbo garante comprovação incontestável de que o relatório de auditoria ou acórdão foi assinado antes do término do prazo legal ou regimental, mesmo que a chave do certificado expire posteriormente.
-
-2. **Autenticação Mútua Máquina-a-Máquina (mTLS):**
-    - Na interoperabilidade entre os clusters do TCE-GO e da SEFAZ-GO para coleta automatizada de dados fiscais e contábeis, a comunicação utiliza APIs protegidas por mTLS (*mutual TLS*), em que tanto o cliente quanto o servidor apresentam certificados digitais X.509 no handshake criptográfico, prevenindo ataques do tipo *Man-in-the-Middle*.
-
-3. **Módulos de Segurança em Hardware (HSM - *Hardware Security Module*):**
-    - Os certificados digitais institucionais utilizados para emissão de certidões eletrônicas em lote ficam custodiados em hardware inviolável (HSM) certificado FIPS 140-2 Nível 3, impedindo o vazamento da chave privada institucional por invasões cibernéticas.
-
----
-
-## 6. Fontes Recomendadas na Internet
-
-* [Medida Provisória nº 2.200-2/2001 (ICP-Brasil no Planalto)](https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm) - Norma oficial permanente que institui a Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
-* [Lei nº 14.063/2020 (Uso de Assinaturas Eletrônicas em Entes Públicos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm) - Regras para aceitação e níveis de exigência de assinaturas simples, avançadas e qualificadas.
-* [Decreto nº 10.543/2020 (Níveis de Assinatura Eletrônica na Administração Pública)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm) - Regulamenta o uso das assinaturas eletrônicas nas interações com o poder público federal.
-* [Governo Digital - Guia de Boas Práticas em Assinaturas Eletrônicas](https://www.gov.br/governodigital/pt-br/assinatura-eletronica) - Orientações práticas e requisitos de validade jurídica das assinaturas eletrônicas governamentais.
-* [Cartilha de Segurança para a Internet (CERT.br) - Certificados Digitais](https://cartilha.cert.br/livro/cartilha-seguranca-internet.pdf) - Conceitos de certificação digital, hierarquia de ACs e integridade documental.
-* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 13 - Assinaturas Digitais e Padrões de Autenticação).
-* FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 11 - Contratações de TIC e Gestão de Riscos Contratuais).
-* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Cap. VII - Cláusulas de Segurança e Execução Contratual).
-
-
-## 6. Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC - Auditor Estadual de Controle Externo / Tecnologia da Informação)
-**Enunciado:** O Tribunal de Contas de determinado Estado publicou edital de licitação para contratação de desenvolvimento e sustentação de sistemas de auditoria contábil. No termo de referência e na minuta contratual, a comissão de planejamento estipulou as seguintes cláusulas:  
-
-I. O pagamento mensal à contratada dar-se-á estritamente com base na quantidade bruta de horas trabalhadas apontadas pelos funcionários da empresa terceirizada em folha de ponto, sem qualquer vinculação à conclusão de entregáveis ou cumprimento de acordos de nível de serviço (SLA).  
-
-II. A contratada e todos os seus colaboradores alocados no projeto deverão firmar Acordo de Confidencialidade e Não Divulgação (NDA) sob pena de rescisão contratual e penalidades legais.  
-
-III. Todos os códigos-fonte, esquemas de bancos de dados, scripts de infraestrutura e documentação técnica desenvolvidos no âmbito do contrato pertencerão exclusivamente ao Tribunal de Contas, devendo ser versionados continuamente no repositório institucional do órgão.  
-
-IV. Ao término da vigência contratual, a contratada fica obrigada a realizar a transição assistida, exportar e entregar todos os dados em formatos abertos e estruturados, comprovando a destruição segura de quaisquer cópias em seu poder (cláusula de reversibilidade).  
-
-À luz da legislação de licitações, jurisprudência do controle externo e normas de segurança da informação em TIC:  
-
-* **A)** As cláusulas I, II, III e IV estão em perfeita conformidade com as boas práticas administrativas.
-* **B)** Apenas a cláusula I é irregular perante as normas de controle externo, sendo as cláusulas II, III e IV regulares e essenciais para a segurança e governança de TIC.
-* **C)** A cláusula III é ilegal, pois a legislação de propriedade intelectual veda a transferência de direitos autorais de software para órgãos públicos contratantes.
-* **D)** A cláusula IV é prescindível e contraria o princípio da livre iniciativa por impor custos de desmobilização à contratada.
-* **E)** A cláusula II viola a presunção de boa-fé dos prestadores de serviço e não tem eficácia jurídica na esfera administrativa.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A cláusula I é manifestamente irregular e ilegal perante as normas de finanças públicas e licitações.
-> - **B)** **Correta.** A cláusula I é ilegal e contraria frontalmente a Súmula TCU nº 269 (*"Nas contratações para prestação de serviços de TI, a remuneração deve ser vinculada a resultados ou ao alcance de níveis de serviço, sendo vedada a contratação com base exclusivamente em homem-hora"*). As cláusulas II (NDA), III (propriedade intelectual do código-fonte) e IV (cláusula de reversibilidade / *exit strategy*) são obrigatórias para resguardar a soberania e a segurança tecnológica do órgão público.
-> - **C)** Incorreta. A legislação de software e a Lei nº 14.133/2021 estabelecem que os direitos patrimoniais sobre códigos desenvolvidos por encomenda no âmbito de contratos públicos pertencem à Administração contratante.
-> - **D)** Incorreta. A cláusula de reversibilidade é fundamental para impedir o aprisionamento tecnológico (*vendor lock-in*).
-> - **E)** Incorreta. O termo de confidencialidade (NDA) é plenamente válido e mandatório para proteger informações estratégicas.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Técnico de Controle Externo / Tecnologia da Informação)
+### Questão 04 (FCC - Técnico de Controle Externo / Tecnologia da Informação)
 **Enunciado:** Um cidadão interessado em acompanhar as contas públicas de seu município acessa o Portal do Cidadão do Tribunal de Contas para solicitar cópia de relatórios de gestão fiscal já publicados no diário oficial. O sistema informatizado exige, para a conclusão do requerimento de acesso à informação (LAI), que o cidadão assine digitalmente o formulário utilizando obrigatoriamente um certificado digital pessoal no padrão ICP-Brasil (token A3 físico).  
 Considerando as regras sobre níveis de assinaturas eletrônicas previstas na Lei Federal nº 14.063/2020:  
 
@@ -245,49 +263,24 @@ Considerando as regras sobre níveis de assinaturas eletrônicas previstas na Le
 
 ---
 
-### Questão 3 (FCC - Analista Judiciário / Tecnologia da Informação / Segurança da Informação)
-**Enunciado:** A respeito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil) instituída pela Medida Provisória nº 2.200-2/2001 e das características de seus certificados digitais:  
 
-* **A)** O certificado digital do tipo A1 possui sua chave privada armazenada de maneira inviolável em hardware criptográfico padrão FIPS 140-2 Level 3 e validade de 5 anos.
-* **B)** A Autoridade Certificadora Raiz (AC-Raiz) da ICP-Brasil é operada de forma compartilhada por um consórcio de empresas privadas de telefonia sob concessão da Anatel.
-* **C)** O certificado digital do tipo A3 armazena sua chave privada em hardware criptográfico (como cartão inteligente ou token criptográfico), impedindo sua cópia ou exportação, enquanto o certificado do tipo A1 é gerado por software e armazenado diretamente no computador ou dispositivo.
-* **D)** Documentos eletrônicos assinados fora da estrutura da ICP-Brasil são nulos de pleno direito no Brasil, mesmo que as partes envolvidas tenham acordado expressamente sobre sua validade.
-* **E)** A Autoridade de Registro (AR) possui a competência exclusiva de assinar digitalmente as Listas de Certificados Revogados (LCR) de todas as ACs subordinadas.
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O certificado A1 é gerado por software (arquivo PKCS#12) e possui validade máxima de 1 ano. Quem utiliza hardware inviolável é o certificado A3.
-> - **B)** Incorreta. A AC-Raiz da ICP-Brasil é operada com exclusividade pelo ITI (Instituto Nacional de Tecnologia da Informação), autarquia pública federal.
-> - **C)** **Correta.** Distinção técnica precisa: o certificado A3 gera e armazena a chave privada em dispositivo físico inviolável (smart card, token USB ou HSM) e não permite exportação; o certificado A1 reside em arquivo protegido por senha no computador.
-> - **D)** Incorreta. O Art. 10, § 2º da MP 2.200-2/2001 garante a validade jurídica de outros meios de comprovação de autoria e integridade não vinculados à ICP-Brasil se admitidos pelas partes.
-> - **E)** Incorreta. A Autoridade de Registro (AR) realiza apenas a identificação do titular; a emissão e a assinatura de certificados e LCRs são atribuições da Autoridade Certificadora (AC).
-> 
-> **Gabarito: C**
+## 4. Aplicação Prática da Certificação Digital na Auditoria e Processo Eletrônico
+
+Nos sistemas informatizados de auditoria governamental e processo eletrônico do Tribunal de Contas do Estado de Goiás (TCE-GO), a certificação digital cumpre funções técnicas fundamentais:
+
+1. **Processo Eletrônico (PAdES e Carimbo do Tempo):**
+    - Assinatura no padrão PAdES (*PDF Advanced Electronic Signatures*) com inserção de **Carimbo do Tempo (Timestamp)** emitido por Autoridade de Carimbo do Tempo (ACT) credenciada. O carimbo garante comprovação incontestável de que o relatório de auditoria ou acórdão foi assinado antes do término do prazo legal ou regimental, mesmo que a chave do certificado expire posteriormente.
+
+2. **Autenticação Mútua Máquina-a-Máquina (mTLS):**
+    - Na interoperabilidade entre os clusters do TCE-GO e da SEFAZ-GO para coleta automatizada de dados fiscais e contábeis, a comunicação utiliza APIs protegidas por mTLS (*mutual TLS*), em que tanto o cliente quanto o servidor apresentam certificados digitais X.509 no handshake criptográfico, prevenindo ataques do tipo *Man-in-the-Middle*.
+
+3. **Módulos de Segurança em Hardware (HSM - *Hardware Security Module*):**
+    - Os certificados digitais institucionais utilizados para emissão de certidões eletrônicas em lote ficam custodiados em hardware inviolável (HSM) certificado FIPS 140-2 Nível 3, impedindo o vazamento da chave privada institucional por invasões cibernéticas.
 
 ---
 
-### Questão 4 (FCC - Analista em Gestão e TI / Governança)
-**Enunciado:** Nos termos da Lei Federal nº 14.063/2020, assinale a opção que descreve hipóteses em que é **obrigatória** a utilização da **assinatura eletrônica qualificada** (emitida por certificado digital ICP-Brasil):  
-
-* **A)** Requerimentos de agendamento de atendimento presencial em agências do trabalho e consultas cadastrais simples.
-* **B)** Nos atos normativos assinados pelos Chefes de Poder, Ministros de Estado ou titulares de Poder ou de órgão constitucionalmente autônomo de ente federativo, bem como na emissão de notas fiscais eletrônicas (com ressalvas legais para MEI) e em atos de transferência de bens imóveis.
-* **C)** Em todas as petições de esclarecimento em licitações públicas com valor estimado inferior a cinquenta mil reais.
-* **D)** No envio de currículos profissionais para processos seletivos de estágio na administração direta.
-* **E)** Exclusivamente em contratos celebrados entre particulares que versem sobre compra e venda de mercadorias no varejo.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Em interações de baixo risco, a assinatura simples (login/senha) é suficiente.
-> - **B)** **Correta.** O Art. 5º, § 1º da Lei nº 14.063/2020 elenca expressamente as situações em que a assinatura qualificada é indispensável: atos normativos de Chefes de Poder e titulares de órgãos autônomos; emissão de notas fiscais eletrônicas (salvo MEIs); e atos de transferência/registro de bens imóveis.
-> - **C)** Incorreta. Petições administrativas ordinárias admitem amplamente assinatura eletrônica avançada (Gov.br Prata/Ouro).
-> - **D)** Incorreta. Envio de currículos dispensa assinatura qualificada.
-> - **E)** Incorreta. A lei disciplina as interações com entes públicos e estabelece a obrigatoriedade da assinatura qualificada para atos estatais solenes.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Auditor de Controle Externo / Redes e Infraestrutura)
+### Questão 05 (FCC - Auditor de Controle Externo / Redes e Infraestrutura)
 **Enunciado:** O TCE-GO necessita implementar um mecanismo de auditoria contínua em tempo real sobre os sistemas de liquidação de despesa da Secretaria da Fazenda Estadual. Para garantir que a comunicação máquina-a-máquina entre os clusters de microsserviços de ambos os órgãos ocorra com autenticidade mútua, integridade de ponta a ponta e sem risco de ataques do tipo *Man-in-the-Middle*, a melhor prática de engenharia de segurança é:  
 
 * **A)** Implementar o protocolo HTTP plano com envio do token de autorização na URL como parâmetro de consulta (*query parameter*).
@@ -305,3 +298,18 @@ Considerando as regras sobre níveis de assinaturas eletrônicas previstas na Le
 > - **E)** Incorreta. Validação por e-mail é inviável tecnicamente para APIs RESTful de alta velocidade e não provê segurança ao canal de transporte.
 > 
 > **Gabarito: B**
+
+---
+
+
+
+## 6. Fontes Recomendadas na Internet
+
+* [Medida Provisória nº 2.200-2/2001 (ICP-Brasil no Planalto)](https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm) - Norma oficial permanente que institui a Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
+* [Lei nº 14.063/2020 (Uso de Assinaturas Eletrônicas em Entes Públicos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm) - Regras para aceitação e níveis de exigência de assinaturas simples, avançadas e qualificadas.
+* [Decreto nº 10.543/2020 (Níveis de Assinatura Eletrônica na Administração Pública)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm) - Regulamenta o uso das assinaturas eletrônicas nas interações com o poder público federal.
+* [Governo Digital - Guia de Boas Práticas em Assinaturas Eletrônicas](https://www.gov.br/governodigital/pt-br/assinatura-eletronica) - Orientações práticas e requisitos de validade jurídica das assinaturas eletrônicas governamentais.
+* [Cartilha de Segurança para a Internet (CERT.br) - Certificados Digitais](https://cartilha.cert.br/livro/cartilha-seguranca-internet.pdf) - Conceitos de certificação digital, hierarquia de ACs e integridade documental.
+* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 13 - Assinaturas Digitais e Padrões de Autenticação).
+* FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 11 - Contratações de TIC e Gestão de Riscos Contratuais).
+* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Cap. VII - Cláusulas de Segurança e Execução Contratual).

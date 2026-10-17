@@ -53,12 +53,6 @@
     - [6.5 Composição: Justaposição e Aglutinação](#65-composicao-justaposicao-e-aglutinacao)
     - [6.6 Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo](#66-outros-processos-hibridismo-siglonimizacao-abreviacao-e-neologismo)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
-    - [Questão 01](#questao-01)
-    - [Questão 02](#questao-02)
-    - [Questão 03](#questao-03)
-    - [Questão 04](#questao-04)
-    - [Questão 05](#questao-05)
 
 ---
 
@@ -237,6 +231,39 @@ A regra motriz da reforma ortográfica estabelece o **princípio da atração do
 
 > 🚨 **ALERTA DE PROVA / EXCEÇÃO DA PALAVRA SUBUMANO:** Quando o elemento *humano* une-se ao prefixo *des-* ou *in-*, o *h* cai por etimologia histórica (*desumano, inumano*). Com o prefixo *sub-*, o vocabulário oficial registra tanto a forma hifenizada *sub-humano* quanto a forma aglutinada sem H *subumano*. A FCC costuma cobrar preferencialmente a forma geral hifenizada (*sub-humano*).
 
+---
+
+### Questão 01
+**(FCC – TRF – Analista Judiciário)**  
+Quanto ao emprego do hífen em palavras formadas por derivação prefixal em consonância com o Acordo Ortográfico vigente, assinale a opção inteiramente correta:
+
+* **A)** anti-inflamatório, auto-escola, micro-ondas, hiper-resistente.
+* **B)** antiinflamatório, autoescola, microondas, hiperresistente.
+* **C)** anti-inflamatório, autoescola, micro-ondas, hiper-resistente.
+* **D)** anti-inflamatório, autoescola, micro-ondas, hiperresistente.
+* **E)** antiinflamatório, auto-escola, micro-ondas, hiper-resistente.
+
+> **Comentário Detalhado:**
+> Análise de cada vocábulo à luz do Acordo Ortográfico:
+>
+> 1. *anti-inflamatório:* o prefixo *anti-* termina na mesma vogal com que se inicia o segundo elemento (*i*). Letras iguais repelem-se com hífen.
+> 2. *autoescola:* o prefixo *auto-* termina com a vogal *o* e o segundo elemento inicia-se com a vogal *e*. Vogais diferentes atraem-se, unindo-se sem hífen.
+> 3. *micro-ondas:* o prefixo *micro-* termina em *o* e o segundo elemento inicia em *o*. Vogais idênticas exigem hífen.
+> 4. *hiper-resistente:* o prefixo *hiper-* termina na consoante *r* e o segundo elemento inicia pela mesma consoante *r*. Consoantes idênticas separam-se com hífen.
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. Erra ao colocar hífen em *auto-escola* (o correto é *autoescola*, aglutinado).
+> - **B)** Incorreta. Erra ao aglutinar *antiinflamatório*, *microondas* e *hiperresistente* (todos exigem hífen por reunirem letras idênticas).
+> - **C)** Correta. Todos os quatro vocábulos estão impecavelmente grafados de acordo com a norma ortográfica vigente.
+> - **D)** Incorreta. Erra ao aglutinar *hiperresistente* sem hífen (prefixo em consoante R seguido de palavra iniciada por R exige hífen).
+> - **E)** Incorreta. Erra em *antiinflamatório* (falta hífen) e em *auto-escola* (hífen indevido).
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 3.2 Duplicação das Consoantes R e S
 
 Se o prefixo terminar em **vogal** e o segundo elemento principiar pelas consoantes **R** ou **S**, o hífen é eliminado e a consoante correspondente deve ser **duplicada** (*rr* ou *ss*), a fim de manter o valor sonoro original do fonema:
@@ -350,6 +377,48 @@ Os parônimos são palavras muito semelhantes na grafia e na pronúncia, mas que
 
 ---
 
+### Questão 02
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+Considere os vocábulos destacados nas frases abaixo:  
+
+I. *"O plenário do Tribunal encerrou a <ins>sessão</ins> extraordinária às dezoito horas."*  
+
+II. *"A empresa cometeu ato ilícito e foi autuada em <ins>flagrante</ins> delito pela equipe fiscal."*  
+
+III. *"O Governador do Estado cumpriu integralmente os quatro anos de seu <ins>mandato</ins> eletivo."*  
+
+IV. *"O engenheiro responsável promoveu a <ins>retificação</ins> das falhas apontadas no projeto original."*  
+
+A grafia e o emprego semântico dos vocábulos sublinhados estão corretos em:
+
+* **A)** I, II, III e IV.
+* **B)** I e III, apenas.
+* **C)** II e IV, apenas.
+* **D)** I, II e IV, apenas.
+* **E)** II, III e IV, apenas.
+
+> **Comentário Detalhado:**
+> Avaliação individual das proposições:
+>
+> - **Item I: Correto.** *Sessão* (iniciado por S e com dígrafo SS) designa a reunião de um corpo colegiado, o intervalo de tempo em que delibera uma corte de contas ou um parlamento. Não se confunde com *seção* (repartição/divisão) nem com *cessão* (ato de ceder).
+> - **Item II: Correto.** *Flagrante* delito designa o ato ilícito que está sendo presenciado, evidente, manifesto no ato da execução. Não se confunde com *fragrante* (aromático, cheiroso).
+> - **Item III: Correto.** *Mandato* é o poder conferido pelo voto popular ou a procuração para o exercício temporário de cargo diretivo/eletivo. Não se confunde com *mandado* (ordem judicial escrita).
+> - **Item IV: Correto.** *Retificação* é o ato de retificar, consertar, emendar ou corrigir vícios e incorreções. Não se confunde com *ratificação* (ato de confirmar ou validar formalmente).
+>
+> Análise das opções:
+>
+> - **A)** Correta. Todas as quatro ocorrências estão perfeitamente adequadas quanto ao léxico e à ortografia.
+> - **B)** Incorreta. Desconsidera o acerto evidente dos itens II e IV.
+> - **C)** Incorreta. Desconsidera o acerto evidente dos itens I e III.
+> - **D)** Incorreta. Omite o item III, que também está rigorosamente correto.
+> - **E)** Incorreta. Omite o item I, cuja grafia está irrepreensível.
+> 
+> **Gabarito: A**
+
+---
+
+
+
 ## 5. Morfologia: Elementos Estruturais da Palavra
 
 As palavras na língua portuguesa são formadas pela articulação lógica de unidades mínimas portadoras de significado, denominadas **morfemas** ou **elementos mórficos**.
@@ -385,6 +454,31 @@ flowchart LR
 * **Afixos:** São morfemas derivacionais agregados à raiz ou ao tema para produzir novas palavras:
     * **Prefixos:** Morfemas antepostos ao radical, operando predominantemente mudança de sentido lexical sem alterar a classe gramatical primitiva: *<ins>des</ins>-leal, <ins>in</ins>-apto, <ins>re</ins>-fazer, <ins>sub</ins>-chefe*.
     * **Sufixos:** Morfemas pospostos ao radical, possuindo alta capacidade de converter a palavra em outra classe gramatical: *leal $\rightarrow$ leal-<ins>dade</ins>* (adjetivo em substantivo); *atual $\rightarrow$ atual-<ins>izar</ins>* (adjetivo em verbo); *rápido $\rightarrow$ rapida-<ins>mente</ins>* (adjetivo em advérbio).
+
+---
+
+### Questão 03
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+Assinale a alternativa em que ambos os vocábulos sublinhados são acentuados com fundamento na **mesma regra gramatical**:
+
+* **A)** *"O <ins>relatório</ins> do Tribunal contém dados sobre a <ins>renúncia</ins> de receita."*
+* **B)** *"A autoridade <ins>pública</ins> examinou o processo na <ins>sessão</ins> de julgamento."*
+* **C)** *"A atuação do Estado em <ins>saúde</ins> preventiva é imprescindível para o <ins>país</ins>."* (comparando saúde/país com imprescindível)
+* **D)** *"O <ins>órgão</ins> de auditoria apurou o <ins>prejuízo</ins> e aplicou a sanção cabível."*
+* **E)** *"O auditor demonstrou perspicácia ao desvendar o desvio de recursos."* (perspicácia – desvendar)
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Os vocábulos *relatório* (re-la-tó-rio) e *renúncia* (re-nún-cia) são ambos acentuados pela regra das paroxítonas terminadas em ditongo oral crescente (ou proparoxítonas eventuais/aparentes, nomenclatura consagrada pela FCC). Compartilham rigorosamente a mesma regra de justificação ortográfica.
+> - **B)** Incorreta. O vocábulo *pública* é acentuado por ser proparoxítona real (todas são acentuadas), ao passo que *sessão* não recebe acento gráfico (o til não é acento tônico primário, mas marca de nasalidade em outras palavras, e aqui sequer há til).
+> - **C)** Incorreta. Embora *saúde* e *país* compartilhem a regra do hiato tônico (I e U tônicos formando sílaba sozinhos ou com S), a análise comparativa com *imprescindível* (paroxítona terminada na consoante L) desfaz a uniformidade da assertiva.
+> - **D)** Incorreta. *Órgão* é acentuada por ser paroxítona terminada em ditongo nasal *-ão*, enquanto *prejuízo* é acentuada com base na regra especial dos hiatos (I tônico isolado na sílaba sem consoante nasal).
+> - **E)** Incorreta. *Perspicácia* é paroxítona terminada em ditongo oral, ao passo que *desvendar* é oxítona terminada na consoante R e sequer recebe acento gráfico.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 5.3 Desinências Nominais e Desinências Verbais
 
@@ -449,6 +543,31 @@ A derivação parassintética (ou parassíntese) configura-se quando o prefixo e
 
 > 🚨 **ALERTA DE PROVA / DIFERENÇA VITAL (PREFIXAL-SUFIXAL VS. PARASSÍNTESE):** Para a FCC, o teste do desmonte é soberano: retire mentalmente o prefixo da palavra. Se a forma remanescente com o sufixo fizer sentido na língua padrão, trata-se de **derivação prefixal e sufixal** (*deslealdade* $\rightarrow$ *lealdade* existe). Se a forma remanescente for inexistente, o processo é obrigatoriamente **parassintético** (*esfriar* $\rightarrow$ *friar* não existe; logo, é parassíntese).
 
+---
+
+### Questão 04
+**(FCC – AL-SP – Técnico Legislativo)**  
+Em relação aos processos morfológicos de formação das palavras, assinale a alternativa em que a palavra destacada é formada por **derivação parassintética**:
+
+* **A)** *"A leitura do processo revelou a <ins>deslealdade</ins> do administrador perante o erário."*
+* **B)** *"O auditor constatou que era urgente <ins>esfriar</ins> os ânimos acalorados durante a inspeção."*
+* **C)** *"O governo estadual implementou o <ins>resgate</ins> das apólices da dívida pública."*
+* **D)** *"O relatório final foi concluído <ins>infelizmente</ins> fora do prazo regulamentar."*
+* **E)** *"O <ins>passatempo</ins> preferido dos funcionários consistia em desvendar charadas lógicas."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O vocábulo *deslealdade* resulta de derivação prefixal e sufixal independente (*des-* + *leal* + *-dade*). Se subtrairmos o prefixo, subsiste o termo legítimo *lealdade*; se suprimirmos o sufixo, permanece a forma legítima *desleal*.
+> - **B)** Correta. O verbo *esfriar* é formado por derivação parassintética (*e-* + *frio/fri-* + *-ar*). A agregação do prefixo e do sufixo verbal dá-se de modo estritamente simultâneo: não existe no português moderno o vocábulo *"esfrio"* nem o verbo transitivo *"friar"*. A eliminação de qualquer um dos afixos invalida o vocábulo.
+> - **C)** Incorreta. O vocábulo *resgate* origina-se de derivação regressiva (deverbal) a partir do verbo de ação *resgatar*.
+> - **D)** Incorreta. O termo *infelizmente* é originado de derivação prefixal e sufixal (ou sufixal a partir do adjetivo *infeliz*), havendo plena autonomia das bases cognatas *infeliz* e *felizmente*.
+> - **E)** Incorreta. A palavra *passatempo* forma-se pelo processo de composição por justaposição (*passa* + *tempo*), reunindo dois radicais sem perda de substância fonética.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 6.3 Derivação Regressiva ou Deverbal
 
 A derivação regressiva caracteriza-se pela **redução formal** da palavra primitiva. Quase a totalidade das ocorrências na língua consiste na formação de um **substantivo abstrato indicador de ação a partir de um verbo primitivo**, motivo pelo qual a gramática a denomina derivação deverbal:
@@ -475,6 +594,31 @@ Ocorre derivação imprópria quando uma palavra muda de classe gramatical e alt
 * **Adjetivo convertido em Substantivo:** *"Os <ins>maus</ins> serão penalizados pela corte"*;
 * **Substantivo convertido em Adjetivo:** *"Ele deu uma resposta <ins>monstro</ins>"*;
 * **Palavra invariável convertida em Substantivo:** *"Não compreendi o <ins>porquê</ins> de sua relutância"*.
+
+---
+
+### Questão 05
+**(FCC – METRÔ-SP – Analista de Gestão)**  
+O vocábulo formado por **derivação regressiva** (também denominada deverbal) encontra-se presente na frase:
+
+* **A)** *"O <ins>debate</ins> entre os candidatos à vaga de conselheiro prolongou-se pela madrugada."*
+* **B)** *"O <ins>envelhecimento</ins> prematuro das pontes estaduais alarmou o setor de engenharia."*
+* **C)** *"Os técnicos agiram com <ins>rapidez</ins> invejável no reestabelecimento dos servidores de dados."*
+* **D)** *"O <ins>girassol</ins> plantado nos canteiros da corte simbolizava a busca pela transparência."*
+* **E)** *"O <ins>saber</ins> acumulado pelo fiscal garantiu a correta instrução probatória dos autos."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O substantivo abstrato *debate* resulta de derivação regressiva a partir do verbo primitivo de ação *debater* (*debater* $\rightarrow$ *o debate*). O verbo perde sua desinência de infinitivo e forma um substantivo indicador da própria ação.
+> - **B)** Incorreta. A palavra *envelhecimento* resulta de derivação sufixal (*-mento*) aplicada sobre o verbo parassintético prévio *envelhecer*.
+> - **C)** Incorreta. O vocábulo *rapidez* constitui derivação sufixal abstrata gerada a partir do adjetivo primitivo *rápido* (*rápido* + *-ez*).
+> - **D)** Incorreta. A palavra *girassol* constitui exemplo de composição por justaposição de dois radicais (*gira* + *sol*).
+> - **E)** Incorreta. A expressão *o saber* constitui exemplo lídimo de derivação imprópria (conversão funcional), haja vista que o verbo no infinitivo *saber* foi convertido em substantivo pela anteposição do artigo definido *o*.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 6.5 Composição: Justaposição e Aglutinação
 
@@ -514,141 +658,3 @@ Além dos processos clássicos, a língua recorre a outros expedientes formais:
 * BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 2 e Cap. 9 - Fonética, Ortografia Oficial, Estrutura Mórfica e Formação de Palavras).
 * CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 3 e Cap. 5 - Acentuação Gráfica, Morfemas e Processos de Derivação e Composição).
 * CEGALLA, Domingos Paschoal. **Novíssima Gramática da Língua Portuguesa**. 49. ed. São Paulo: Companhia Editora Nacional, 2020. (Parte 1 e Parte 2 - Ortografia, Semântica Lexical, Homônimos e Parônimos).
-
----
-
-## 📝 Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo)**  
-Assinale a alternativa em que ambos os vocábulos sublinhados são acentuados com fundamento na **mesma regra gramatical**:
-
-* **A)** *"O <ins>relatório</ins> do Tribunal contém dados sobre a <ins>renúncia</ins> de receita."*
-* **B)** *"A autoridade <ins>pública</ins> examinou o processo na <ins>sessão</ins> de julgamento."*
-* **C)** *"A atuação do Estado em <ins>saúde</ins> preventiva é imprescindível para o <ins>país</ins>."* (comparando saúde/país com imprescindível)
-* **D)** *"O <ins>órgão</ins> de auditoria apurou o <ins>prejuízo</ins> e aplicou a sanção cabível."*
-* **E)** *"O auditor demonstrou perspicácia ao desvendar o desvio de recursos."* (perspicácia – desvendar)
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Os vocábulos *relatório* (re-la-tó-rio) e *renúncia* (re-nún-cia) são ambos acentuados pela regra das paroxítonas terminadas em ditongo oral crescente (ou proparoxítonas eventuais/aparentes, nomenclatura consagrada pela FCC). Compartilham rigorosamente a mesma regra de justificação ortográfica.
-> - **B)** Incorreta. O vocábulo *pública* é acentuado por ser proparoxítona real (todas são acentuadas), ao passo que *sessão* não recebe acento gráfico (o til não é acento tônico primário, mas marca de nasalidade em outras palavras, e aqui sequer há til).
-> - **C)** Incorreta. Embora *saúde* e *país* compartilhem a regra do hiato tônico (I e U tônicos formando sílaba sozinhos ou com S), a análise comparativa com *imprescindível* (paroxítona terminada na consoante L) desfaz a uniformidade da assertiva.
-> - **D)** Incorreta. *Órgão* é acentuada por ser paroxítona terminada em ditongo nasal *-ão*, enquanto *prejuízo* é acentuada com base na regra especial dos hiatos (I tônico isolado na sílaba sem consoante nasal).
-> - **E)** Incorreta. *Perspicácia* é paroxítona terminada em ditongo oral, ao passo que *desvendar* é oxítona terminada na consoante R e sequer recebe acento gráfico.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 02
-**(FCC – TRF – Analista Judiciário)**  
-Quanto ao emprego do hífen em palavras formadas por derivação prefixal em consonância com o Acordo Ortográfico vigente, assinale a opção inteiramente correta:
-
-* **A)** anti-inflamatório, auto-escola, micro-ondas, hiper-resistente.
-* **B)** antiinflamatório, autoescola, microondas, hiperresistente.
-* **C)** anti-inflamatório, autoescola, micro-ondas, hiper-resistente.
-* **D)** anti-inflamatório, autoescola, micro-ondas, hiperresistente.
-* **E)** antiinflamatório, auto-escola, micro-ondas, hiper-resistente.
-
-> **Comentário Detalhado:**
-> Análise de cada vocábulo à luz do Acordo Ortográfico:
->
-> 1. *anti-inflamatório:* o prefixo *anti-* termina na mesma vogal com que se inicia o segundo elemento (*i*). Letras iguais repelem-se com hífen.
-> 2. *autoescola:* o prefixo *auto-* termina com a vogal *o* e o segundo elemento inicia-se com a vogal *e*. Vogais diferentes atraem-se, unindo-se sem hífen.
-> 3. *micro-ondas:* o prefixo *micro-* termina em *o* e o segundo elemento inicia em *o*. Vogais idênticas exigem hífen.
-> 4. *hiper-resistente:* o prefixo *hiper-* termina na consoante *r* e o segundo elemento inicia pela mesma consoante *r*. Consoantes idênticas separam-se com hífen.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Erra ao colocar hífen em *auto-escola* (o correto é *autoescola*, aglutinado).
-> - **B)** Incorreta. Erra ao aglutinar *antiinflamatório*, *microondas* e *hiperresistente* (todos exigem hífen por reunirem letras idênticas).
-> - **C)** Correta. Todos os quatro vocábulos estão impecavelmente grafados de acordo com a norma ortográfica vigente.
-> - **D)** Incorreta. Erra ao aglutinar *hiperresistente* sem hífen (prefixo em consoante R seguido de palavra iniciada por R exige hífen).
-> - **E)** Incorreta. Erra em *antiinflamatório* (falta hífen) e em *auto-escola* (hífen indevido).
-> 
-> **Gabarito: C**
-
----
-
-### Questão 03
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-Considere os vocábulos destacados nas frases abaixo:  
-
-I. *"O plenário do Tribunal encerrou a <ins>sessão</ins> extraordinária às dezoito horas."*  
-
-II. *"A empresa cometeu ato ilícito e foi autuada em <ins>flagrante</ins> delito pela equipe fiscal."*  
-
-III. *"O Governador do Estado cumpriu integralmente os quatro anos de seu <ins>mandato</ins> eletivo."*  
-
-IV. *"O engenheiro responsável promoveu a <ins>retificação</ins> das falhas apontadas no projeto original."*  
-
-A grafia e o emprego semântico dos vocábulos sublinhados estão corretos em:
-
-* **A)** I, II, III e IV.
-* **B)** I e III, apenas.
-* **C)** II e IV, apenas.
-* **D)** I, II e IV, apenas.
-* **E)** II, III e IV, apenas.
-
-> **Comentário Detalhado:**
-> Avaliação individual das proposições:
->
-> - **Item I: Correto.** *Sessão* (iniciado por S e com dígrafo SS) designa a reunião de um corpo colegiado, o intervalo de tempo em que delibera uma corte de contas ou um parlamento. Não se confunde com *seção* (repartição/divisão) nem com *cessão* (ato de ceder).
-> - **Item II: Correto.** *Flagrante* delito designa o ato ilícito que está sendo presenciado, evidente, manifesto no ato da execução. Não se confunde com *fragrante* (aromático, cheiroso).
-> - **Item III: Correto.** *Mandato* é o poder conferido pelo voto popular ou a procuração para o exercício temporário de cargo diretivo/eletivo. Não se confunde com *mandado* (ordem judicial escrita).
-> - **Item IV: Correto.** *Retificação* é o ato de retificar, consertar, emendar ou corrigir vícios e incorreções. Não se confunde com *ratificação* (ato de confirmar ou validar formalmente).
->
-> Análise das opções:
->
-> - **A)** Correta. Todas as quatro ocorrências estão perfeitamente adequadas quanto ao léxico e à ortografia.
-> - **B)** Incorreta. Desconsidera o acerto evidente dos itens II e IV.
-> - **C)** Incorreta. Desconsidera o acerto evidente dos itens I e III.
-> - **D)** Incorreta. Omite o item III, que também está rigorosamente correto.
-> - **E)** Incorreta. Omite o item I, cuja grafia está irrepreensível.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 04
-**(FCC – AL-SP – Técnico Legislativo)**  
-Em relação aos processos morfológicos de formação das palavras, assinale a alternativa em que a palavra destacada é formada por **derivação parassintética**:
-
-* **A)** *"A leitura do processo revelou a <ins>deslealdade</ins> do administrador perante o erário."*
-* **B)** *"O auditor constatou que era urgente <ins>esfriar</ins> os ânimos acalorados durante a inspeção."*
-* **C)** *"O governo estadual implementou o <ins>resgate</ins> das apólices da dívida pública."*
-* **D)** *"O relatório final foi concluído <ins>infelizmente</ins> fora do prazo regulamentar."*
-* **E)** *"O <ins>passatempo</ins> preferido dos funcionários consistia em desvendar charadas lógicas."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O vocábulo *deslealdade* resulta de derivação prefixal e sufixal independente (*des-* + *leal* + *-dade*). Se subtrairmos o prefixo, subsiste o termo legítimo *lealdade*; se suprimirmos o sufixo, permanece a forma legítima *desleal*.
-> - **B)** Correta. O verbo *esfriar* é formado por derivação parassintética (*e-* + *frio/fri-* + *-ar*). A agregação do prefixo e do sufixo verbal dá-se de modo estritamente simultâneo: não existe no português moderno o vocábulo *"esfrio"* nem o verbo transitivo *"friar"*. A eliminação de qualquer um dos afixos invalida o vocábulo.
-> - **C)** Incorreta. O vocábulo *resgate* origina-se de derivação regressiva (deverbal) a partir do verbo de ação *resgatar*.
-> - **D)** Incorreta. O termo *infelizmente* é originado de derivação prefixal e sufixal (ou sufixal a partir do adjetivo *infeliz*), havendo plena autonomia das bases cognatas *infeliz* e *felizmente*.
-> - **E)** Incorreta. A palavra *passatempo* forma-se pelo processo de composição por justaposição (*passa* + *tempo*), reunindo dois radicais sem perda de substância fonética.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 05
-**(FCC – METRÔ-SP – Analista de Gestão)**  
-O vocábulo formado por **derivação regressiva** (também denominada deverbal) encontra-se presente na frase:
-
-* **A)** *"O <ins>debate</ins> entre os candidatos à vaga de conselheiro prolongou-se pela madrugada."*
-* **B)** *"O <ins>envelhecimento</ins> prematuro das pontes estaduais alarmou o setor de engenharia."*
-* **C)** *"Os técnicos agiram com <ins>rapidez</ins> invejável no reestabelecimento dos servidores de dados."*
-* **D)** *"O <ins>girassol</ins> plantado nos canteiros da corte simbolizava a busca pela transparência."*
-* **E)** *"O <ins>saber</ins> acumulado pelo fiscal garantiu a correta instrução probatória dos autos."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. O substantivo abstrato *debate* resulta de derivação regressiva a partir do verbo primitivo de ação *debater* (*debater* $\rightarrow$ *o debate*). O verbo perde sua desinência de infinitivo e forma um substantivo indicador da própria ação.
-> - **B)** Incorreta. A palavra *envelhecimento* resulta de derivação sufixal (*-mento*) aplicada sobre o verbo parassintético prévio *envelhecer*.
-> - **C)** Incorreta. O vocábulo *rapidez* constitui derivação sufixal abstrata gerada a partir do adjetivo primitivo *rápido* (*rápido* + *-ez*).
-> - **D)** Incorreta. A palavra *girassol* constitui exemplo de composição por justaposição de dois radicais (*gira* + *sol*).
-> - **E)** Incorreta. A expressão *o saber* constitui exemplo lídimo de derivação imprópria (conversão funcional), haja vista que o verbo no infinitivo *saber* foi convertido em substantivo pela anteposição do artigo definido *o*.
-> 
-> **Gabarito: A**

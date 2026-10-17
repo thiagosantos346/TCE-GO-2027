@@ -38,7 +38,6 @@
 - [5. Cultura Organizacional versus Clima Organizacional](#5-cultura-organizacional-versus-clima-organizacional)
 - [6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)](#6-desenvolvimento-organizacional-e-gestao-da-mudanca-kurt-lewin)
 - [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
-- [8. Questões de Concurso FCC Comentadas](#8-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -67,6 +66,30 @@ flowchart LR
 > A visão interacionista afirma que o conflito de tarefas pode ser funcional, mas alerta categoricamente que o **conflito de relacionamento (interpessoal/afetivo) é quase sempre DISFUNCIONAL**, pois desgasta a convivência, destrói a confiança mútua e paralisa as entregas públicas!
 
 ---
+
+### Questão 01
+**(FCC – DPE-RS – Analista: Área Administrativa)**  
+No âmbito da teoria contemporânea de gestão de conflitos, a abordagem Interacionista defende que:
+
+* **A)** Todo conflito em qualquer nível é intrinsicamente danoso e prejudicial à eficácia da instituição, devendo ser erradicado sumariamente pela chefia.
+* **B)** A ausência absoluta de conflitos é o indicador supremo de maturidade e inovação contínua de uma organização.
+* **C)** Um nível controlado de conflito funcional de tarefas deve ser incentivado, pois estimula a autocrítica, desafia ideias acomodadas e fomenta a criatividade e a inovação.
+* **D)** Os conflitos de relacionamento interpessoal devem ser estimulados pela direção para desarticular a coesão de grupos corporativos informais.
+* **E)** As organizações que operam sob a abordagem interacionista eliminam a figura do líder para permitir conflitos ilimitados e irrestritos.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Essa é a Visão Tradicional do conflito (anos 1930/40).  
+> - **B) Incorreta.** A ausência total de conflitos sinaliza apatia, estagnação e pensamento grupal acrítico (*groupthink*).  
+> - **C) CORRETA.** A **Visão Interacionista** preconiza que um nível **mínimo e moderado de conflito funcional** (focado no conteúdo das tarefas) é saudável e indispensável para manter o grupo vivo, criativo e inovador, impedindo que a equipe caia na estagnação e no comodismo.  
+> - **D) Incorreta.** O conflito de relacionamento (choque interpessoal) é quase sempre disfuncional e altamente prejudicial à cooperação.  
+> - **E) Incorreta.** O conflito interacionista deve ser monitorado e gerido por lideranças competentes.  
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 2. Estilos de Administração de Conflitos (Thomas-Kilmann)
 
@@ -110,6 +133,30 @@ flowchart LR
 
 ---
 
+### Questão 02
+**(FCC – ARTESP – Especialista em Regulação de Transportes)**  
+Durante uma negociação contratual complexa entre um órgão público e uma empresa concessionária de serviços, as partes optaram por adotar os preceitos da Negociação Integrativa (*Ganha-Ganha*). Essa modalidade negocial caracteriza-se essencialmente por:
+
+* **A)** Focar exclusivamente na defesa intransigente de posições antagônicas pré-fixadas e na partilha de recursos fixos em regime de soma zero.
+* **B)** Buscar a expansão do valor total disponível e a construção de soluções colaborativas que atendam aos interesses subjacentes de ambas as partes, preservando o relacionamento de longo prazo.
+* **C)** Exigir que uma das partes capitule integralmente em suas pretensões econômicas em favor da outra para viabilizar o acordo.
+* **D)** Eliminar a Zona de Possível Acordo (ZOPA) e desconsiderar o valor de reserva estipulado no termo de referência.
+* **E)** Restringir-se a transações mercantis esporádicas de compra imediata, nas quais a única variável relevante é o menor preço à vista.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Foco em posições fixas e partilha de soma zero caracterizam a negociação **distributiva**.  
+> - **B) CORRETA.** A **Negociação Integrativa (Ganha-Ganha / *Win-Win*)** foca nos **interesses subjacentes** mútuos das partes, buscando "aumentar o bolo" (criar valor conjunto) por meio de opções criativas que satisfaçam as necessidades de ambos os lados e fortaleçam a parceria institucional de longo prazo.  
+> - **C) Incorreta.** Capitulação unilateral corresponde ao estilo de acomodação ou perda forçada, oposto ao ganha-ganha.  
+> - **D) Incorreta.** A negociação bem-sucedida pressupõe a existência e aproveitamento de uma ZOPA positiva.  
+> - **E) Incorreta.** Transações frias baseadas unicamente no preço caracterizam a negociação distributiva transacional.  
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 4. Cultura Organizacional e os Três Níveis de Edgar Schein
 
 A cultura organizacional é o sistema de significados compartilhados, valores, crenças e normas que diferenciam uma instituição de todas as outras. Edgar Schein concebeu a cultura como uma estrutura em camadas, assemelhada a um *iceberg*:
@@ -137,6 +184,30 @@ flowchart TD
 
 ---
 
+### Questão 03
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+Segundo a teoria dos níveis da cultura organizacional desenvolvida por Edgar Schein, os elementos mais profundos, enraizados e invisíveis da cultura, constituídos por crenças e percepções tidas como verdades absolutas e inquestionáveis que orientam o comportamento dos colaboradores sem que eles sequer tomem consciência disso, denominam-se:
+
+* **A)** Artefatos visíveis.
+* **B)** Valores compartilhados adotados.
+* **C)** Símbolos materiais e cerimoniais.
+* **D)** Pressupostos básicos subjacentes.
+* **E)** Códigos formais de ética institucional.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Artefatos são os elementos superficiais e plenamente visíveis da cultura (prédios, vestuário, mobília, slogans).  
+> - **B) Incorreta.** Valores compartilhados são premissas conscientes verbalizadas pela liderança.  
+> - **C) Incorreta.** Símbolos materiais integram o nível dos artefatos.  
+> - **D) CORRETA.** No modelo concebido por Edgar Schein, o nível mais profundo do *iceberg* cultural é composto pelos **Pressupostos Básicos Subjacentes**, que representam crenças inconscientes, valores internalizados e verdades tidas como certas e inquestionáveis, as quais moldam a forma como a organização percebe e reage ao ambiente.  
+> - **E) Incorreta.** Códigos de ética são documentos normativos formais e conscientes (valores/artefatos).  
+> 
+> **Gabarito: D**
+
+---
+
+
+
 ### 5. Cultura Organizacional versus Clima Organizacional
 
 ```mermaid
@@ -162,6 +233,30 @@ flowchart LR
 
 ---
 
+### Questão 04
+**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
+A respeito da diferença essencial entre Cultura Organizacional e Clima Organizacional, assinale a afirmativa correta:
+
+* **A)** O clima organizacional é duradouro e perene, demandando décadas de história para ser alterado, ao passo que a cultura organizacional é efêmera e flutua semanalmente.
+* **B)** A cultura organizacional reflete as percepções momentâneas e o estado de ânimo conjuntural dos colaboradores, ao passo que o clima constitui o DNA estrutural da entidade.
+* **C)** A cultura organizacional é a personalidade e o alicerce antropológico profundo da instituição, enquanto o clima organizacional é a atmosfera psicológica conjuntural e perceptual do momento.
+* **D)** A cultura e o clima são termos estritamente sinônimos na teoria das organizações, distinguindo-se apenas quanto ao nível hierárquico dos avaliados.
+* **E)** O clima organizacional manifesta-se exclusivamente através dos pressupostos básicos subjacentes inconscientes descritos por Edgar Schein.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A cultura é duradoura e perene; o clima é transitório e mutável.  
+> - **B) Incorreta.** A questão inverteu os conceitos de cultura e clima.  
+> - **C) CORRETA.** A **Cultura Organizacional** corresponde ao DNA, à personalidade estável e aos valores históricos da instituição; o **Clima Organizacional** traduz o estado de espírito, o "humor" momentâneo e as percepções transitórias compartilhadas pelos servidores em dado período (como após uma reestruturação ou atraso salarial).  
+> - **D) Incorreta.** Não são sinônimos; possuem fundamentos conceituais e horizontes temporais distintos.  
+> - **E) Incorreta.** Os pressupostos básicos subjacentes pertencem ao núcleo da **cultura organizacional**.  
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)
 
 O Desenvolvimento Organizacional (DO) é uma abordagem planejada de longo prazo voltada para transformar as atitudes, valores, processos e estruturas da organização, assegurando sua adaptabilidade contínua.
@@ -186,43 +281,7 @@ flowchart LR
 
 ---
 
-### 7. Fontes Oficiais e Referências Bibliográficas
-
-* [Lei nº 13.140/2015 (Lei de Mediação e Autocomposição de Conflitos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13140.htm) - Disciplina a autocomposição e negociação consensual de conflitos no âmbito da administração pública.
-* [Decreto Federal nº 1.171/1994 (Conduta Ética e Clima Organizacional)](https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm) - Prevenção de assédio, preservação do clima de trabalho harmonioso e zelo funcional.
-* [TCE-GO - Código de Ética e Ouvidoria Institucional](https://portal.tce.go.gov.br/documents/20181/574123/C%C3%B3digo+de+%C3%89tica/056863be-6768-4c35-a6e8-ccdd40421211) - Canais de denúncia, ouvidoria e mecanismos de mediação interna no TCE-GO.
-* [TCU - Governança Institucional e Gestão do Clima Ético](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial para mitigação de conflitos e fomento à cultura de integridade pública.
-* [Lei Estadual nº 20.756/2020 (Comissões Disciplinares e Soluções Consensuais)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Termos de ajustamento de conduta funcional (TAC) e resolução de pendências disciplinares em Goiás.
-* ROBBINS, Stephen P.; JUDGE, Timothy A.; SOBRAL, Filipe. **Comportamento Organizacional: Teoria e Prática no Contexto Brasileiro**. 14. ed. São Paulo: Pearson Prentice Hall, 2010. (Cap. 14 - Conflito e Negociação; Cap. 16 - Cultura Organizacional; Cap. 18 - Mudança Organizacional).
-* SCHEIN, Edgar H. **Cultura Organizacional e Liderança**. São Paulo: Atlas, 2009. (Cap. 1 e 2 - Os Níveis da Cultura Organizacional: Artefatos, Crenças e Pressupostos Básicos).
-* FISHER, Roger; URY, William; PATTON, Bruce. **Como Chegar ao Sim: A Negociação de Acordos sem Concessões**. 3. ed. Rio de Janeiro: Imago, 2005. (Cap. 1 a 3 - Negociação Baseada em Princípios).
-
-
-### 8. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-Segundo a teoria dos níveis da cultura organizacional desenvolvida por Edgar Schein, os elementos mais profundos, enraizados e invisíveis da cultura, constituídos por crenças e percepções tidas como verdades absolutas e inquestionáveis que orientam o comportamento dos colaboradores sem que eles sequer tomem consciência disso, denominam-se:
-
-* **A)** Artefatos visíveis.
-* **B)** Valores compartilhados adotados.
-* **C)** Símbolos materiais e cerimoniais.
-* **D)** Pressupostos básicos subjacentes.
-* **E)** Códigos formais de ética institucional.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Artefatos são os elementos superficiais e plenamente visíveis da cultura (prédios, vestuário, mobília, slogans).  
-> - **B) Incorreta.** Valores compartilhados são premissas conscientes verbalizadas pela liderança.  
-> - **C) Incorreta.** Símbolos materiais integram o nível dos artefatos.  
-> - **D) CORRETA.** No modelo concebido por Edgar Schein, o nível mais profundo do *iceberg* cultural é composto pelos **Pressupostos Básicos Subjacentes**, que representam crenças inconscientes, valores internalizados e verdades tidas como certas e inquestionáveis, as quais moldam a forma como a organização percebe e reage ao ambiente.  
-> - **E) Incorreta.** Códigos de ética são documentos normativos formais e conscientes (valores/artefatos).  
-> 
-> **Gabarito: D**
-
----
-
-### Questão 02
+### Questão 05
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 No modelo clássico de gestão da mudança organizacional formulado por Kurt Lewin, a fase em que a liderança da instituição cria intencionalmente a necessidade percebida de mudança, desestabilizando o *status quo* vigente e quebrando velhos hábitos arraigados na equipe para prepará-la para o aprendizado de novas práticas operacionais, é denominada:
 
@@ -244,66 +303,15 @@ No modelo clássico de gestão da mudança organizacional formulado por Kurt Lew
 
 ---
 
-### Questão 03
-**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
-A respeito da diferença essencial entre Cultura Organizacional e Clima Organizacional, assinale a afirmativa correta:
 
-* **A)** O clima organizacional é duradouro e perene, demandando décadas de história para ser alterado, ao passo que a cultura organizacional é efêmera e flutua semanalmente.
-* **B)** A cultura organizacional reflete as percepções momentâneas e o estado de ânimo conjuntural dos colaboradores, ao passo que o clima constitui o DNA estrutural da entidade.
-* **C)** A cultura organizacional é a personalidade e o alicerce antropológico profundo da instituição, enquanto o clima organizacional é a atmosfera psicológica conjuntural e perceptual do momento.
-* **D)** A cultura e o clima são termos estritamente sinônimos na teoria das organizações, distinguindo-se apenas quanto ao nível hierárquico dos avaliados.
-* **E)** O clima organizacional manifesta-se exclusivamente através dos pressupostos básicos subjacentes inconscientes descritos por Edgar Schein.
 
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A cultura é duradoura e perene; o clima é transitório e mutável.  
-> - **B) Incorreta.** A questão inverteu os conceitos de cultura e clima.  
-> - **C) CORRETA.** A **Cultura Organizacional** corresponde ao DNA, à personalidade estável e aos valores históricos da instituição; o **Clima Organizacional** traduz o estado de espírito, o "humor" momentâneo e as percepções transitórias compartilhadas pelos servidores em dado período (como após uma reestruturação ou atraso salarial).  
-> - **D) Incorreta.** Não são sinônimos; possuem fundamentos conceituais e horizontes temporais distintos.  
-> - **E) Incorreta.** Os pressupostos básicos subjacentes pertencem ao núcleo da **cultura organizacional**.  
-> 
-> **Gabarito: C**
+### 7. Fontes Oficiais e Referências Bibliográficas
 
----
-
-### Questão 04
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
-No âmbito da teoria contemporânea de gestão de conflitos, a abordagem Interacionista defende que:
-
-* **A)** Todo conflito em qualquer nível é intrinsicamente danoso e prejudicial à eficácia da instituição, devendo ser erradicado sumariamente pela chefia.
-* **B)** A ausência absoluta de conflitos é o indicador supremo de maturidade e inovação contínua de uma organização.
-* **C)** Um nível controlado de conflito funcional de tarefas deve ser incentivado, pois estimula a autocrítica, desafia ideias acomodadas e fomenta a criatividade e a inovação.
-* **D)** Os conflitos de relacionamento interpessoal devem ser estimulados pela direção para desarticular a coesão de grupos corporativos informais.
-* **E)** As organizações que operam sob a abordagem interacionista eliminam a figura do líder para permitir conflitos ilimitados e irrestritos.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Essa é a Visão Tradicional do conflito (anos 1930/40).  
-> - **B) Incorreta.** A ausência total de conflitos sinaliza apatia, estagnação e pensamento grupal acrítico (*groupthink*).  
-> - **C) CORRETA.** A **Visão Interacionista** preconiza que um nível **mínimo e moderado de conflito funcional** (focado no conteúdo das tarefas) é saudável e indispensável para manter o grupo vivo, criativo e inovador, impedindo que a equipe caia na estagnação e no comodismo.  
-> - **D) Incorreta.** O conflito de relacionamento (choque interpessoal) é quase sempre disfuncional e altamente prejudicial à cooperação.  
-> - **E) Incorreta.** O conflito interacionista deve ser monitorado e gerido por lideranças competentes.  
-> 
-> **Gabarito: C**
-
----
-
-### Questão 05
-**(FCC – ARTESP – Especialista em Regulação de Transportes)**  
-Durante uma negociação contratual complexa entre um órgão público e uma empresa concessionária de serviços, as partes optaram por adotar os preceitos da Negociação Integrativa (*Ganha-Ganha*). Essa modalidade negocial caracteriza-se essencialmente por:
-
-* **A)** Focar exclusivamente na defesa intransigente de posições antagônicas pré-fixadas e na partilha de recursos fixos em regime de soma zero.
-* **B)** Buscar a expansão do valor total disponível e a construção de soluções colaborativas que atendam aos interesses subjacentes de ambas as partes, preservando o relacionamento de longo prazo.
-* **C)** Exigir que uma das partes capitule integralmente em suas pretensões econômicas em favor da outra para viabilizar o acordo.
-* **D)** Eliminar a Zona de Possível Acordo (ZOPA) e desconsiderar o valor de reserva estipulado no termo de referência.
-* **E)** Restringir-se a transações mercantis esporádicas de compra imediata, nas quais a única variável relevante é o menor preço à vista.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Foco em posições fixas e partilha de soma zero caracterizam a negociação **distributiva**.  
-> - **B) CORRETA.** A **Negociação Integrativa (Ganha-Ganha / *Win-Win*)** foca nos **interesses subjacentes** mútuos das partes, buscando "aumentar o bolo" (criar valor conjunto) por meio de opções criativas que satisfaçam as necessidades de ambos os lados e fortaleçam a parceria institucional de longo prazo.  
-> - **C) Incorreta.** Capitulação unilateral corresponde ao estilo de acomodação ou perda forçada, oposto ao ganha-ganha.  
-> - **D) Incorreta.** A negociação bem-sucedida pressupõe a existência e aproveitamento de uma ZOPA positiva.  
-> - **E) Incorreta.** Transações frias baseadas unicamente no preço caracterizam a negociação distributiva transacional.  
-> 
-> **Gabarito: B**
+* [Lei nº 13.140/2015 (Lei de Mediação e Autocomposição de Conflitos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13140.htm) - Disciplina a autocomposição e negociação consensual de conflitos no âmbito da administração pública.
+* [Decreto Federal nº 1.171/1994 (Conduta Ética e Clima Organizacional)](https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm) - Prevenção de assédio, preservação do clima de trabalho harmonioso e zelo funcional.
+* [TCE-GO - Código de Ética e Ouvidoria Institucional](https://portal.tce.go.gov.br/documents/20181/574123/C%C3%B3digo+de+%C3%89tica/056863be-6768-4c35-a6e8-ccdd40421211) - Canais de denúncia, ouvidoria e mecanismos de mediação interna no TCE-GO.
+* [TCU - Governança Institucional e Gestão do Clima Ético](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial para mitigação de conflitos e fomento à cultura de integridade pública.
+* [Lei Estadual nº 20.756/2020 (Comissões Disciplinares e Soluções Consensuais)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Termos de ajustamento de conduta funcional (TAC) e resolução de pendências disciplinares em Goiás.
+* ROBBINS, Stephen P.; JUDGE, Timothy A.; SOBRAL, Filipe. **Comportamento Organizacional: Teoria e Prática no Contexto Brasileiro**. 14. ed. São Paulo: Pearson Prentice Hall, 2010. (Cap. 14 - Conflito e Negociação; Cap. 16 - Cultura Organizacional; Cap. 18 - Mudança Organizacional).
+* SCHEIN, Edgar H. **Cultura Organizacional e Liderança**. São Paulo: Atlas, 2009. (Cap. 1 e 2 - Os Níveis da Cultura Organizacional: Artefatos, Crenças e Pressupostos Básicos).
+* FISHER, Roger; URY, William; PATTON, Bruce. **Como Chegar ao Sim: A Negociação de Acordos sem Concessões**. 3. ed. Rio de Janeiro: Imago, 2005. (Cap. 1 a 3 - Negociação Baseada em Princípios).

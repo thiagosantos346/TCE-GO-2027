@@ -45,7 +45,6 @@
     - [4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)](#44-controle-padroes-medicao-e-momentos-de-atuacao-previo-concomitante-e-posterior)
 - [5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças](#5-gestao-publica-vs-gestao-privada-convergencias-e-diferencas)
 - [6. Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
-- [7. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -100,6 +99,30 @@ flowchart TD
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca frequentemente explora o impacto da "desverticalização" (ou *downsizing*) e redução de níveis hierárquicos: quando uma organização extingue cargos intermediários mantendo o mesmo número de servidores operacionais, ocorre **o alargamento da amplitude de controle** e o **achatamento da estrutura** (horizontalização), exigindo maior autonomia e descentralização!
 
+---
+
+### Questão 01 (FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)
+Considere uma organização pública estadual que decida reduzir o número de seus escalões hierárquicos intermediários de sete para apenas três níveis, mantendo o mesmo quantitativo total de servidores em seus quadros operacionais. Sob a ótica da teoria da organização formal, essa reforma provocará:
+
+* **A)** O estreitamento da amplitude de controle e a verticalização da estrutura organizacional.
+* **B)** A eliminação da divisão do trabalho e a conversão automática para a estrutura linear pura.
+* **C)** O alargamento da amplitude de controle dos gestores e o achatamento (horizontalização) da estrutura organizacional.
+* **D)** A centralização absoluta de todas as decisões na cúpula diretiva em razão do aumento do número de chefes.
+* **E)** A transformação imediata do modelo organizacional em departamentalização estritamente geográfica.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Reduzir escalões faz o oposto: alarga a amplitude de controle e horizontaliza a estrutura.
+> - **B)** Incorreta. A divisão do trabalho permanece; ela não depende da quantidade de níveis hierárquicos.
+> - **C)** Correta. Ao reduzir os níveis intermediários sem diminuir o total de subordinados, cada gestor remanescente passará a chefiar um contingente maior de pessoas (**alargamento da amplitude administrativa**). Como consequência direta, a organização torna-se **achatada (plana/horizontalizada)**, reduzindo a distância entre a base e a cúpula.
+> - **D)** Incorreta. Estruturas achatadas com grande amplitude tendem a exigir maior delegação e descentralização, pois um chefe com muitos subordinados não consegue centralizar todas as rotinas.
+> - **E)** Incorreta. A forma da pirâmide hierárquica não define o critério de departamentalização (que pode continuar sendo funcional, por processos etc.).
+> 
+> **Gabarito: C**
+
+---
+
+
 #### 1.3 Centralização vs. Descentralização Decisória
 - **Centralização:** Ocorre quando o poder decisório e a autoridade para emitir deliberações estão concentrados no ápice da pirâmide hierárquica. Proporciona visão global e uniformidade de políticas, mas gera morosidade, sobrecarga na cúpula e desmotivação dos escalões inferiores.
 - **Descentralização:** Ocorre quando a autoridade para tomar decisões é formalmente transferida e delegada aos níveis mais baixos da organização, próximos de onde a ação se desenvolve. Promove agilidade, adaptação às peculiaridades operacionais e valorização dos servidores, mas pode gerar inconsistência e perda de visão sistêmica se não houver mecanismos eficazes de governança e alinhamento.
@@ -152,6 +175,29 @@ flowchart TD
 - **Desvantagens:** Perda de controle direto sobre a operação, fragilidade na cadeia de suprimentos e dependência excessiva de parceiros externos.
 
 ---
+
+### Questão 02 (FCC – TCE-PI – Auditor de Controle Externo)
+Determinada autarquia estadual de regulação de transportes estruturou suas equipes de fiscalização agrupando os servidores em torno de projetos especiais com prazos pré-fixados, mantendo concomitantemente as diretorias técnicas fixas de engenharia, finanças e tecnologia. Nesse modelo, os auditores reportam-se tanto ao coordenador do projeto específico quanto ao diretor da sua respectiva área técnica de origem. Trata-se de típica estrutura organizacional:
+
+* **A)** Linear.
+* **B)** Funcional pura.
+* **C)** Matricial.
+* **D)** Linha-staff.
+* **E)** Colegiada.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A estrutura linear fundamenta-se na unidade de comando irrestrita, com linhas únicas, diretas e verticais de chefia.
+> - **B)** Incorreta. A estrutura funcional fraciona a autoridade de acordo com a especialidade funcional, mas não sobrepõe gerências temporárias de projetos a departamentos fixos.
+> - **C)** Correta. A estrutura matricial caracteriza-se essencialmente pela combinação bidimensional de uma estrutura funcional permanente com gerências de projetos temporárias, resultando na **dupla subordinação** dos colaboradores (ao líder do projeto e ao chefe funcional da sua área técnica).
+> - **D)** Incorreta. Na estrutura linha-staff, os órgãos de staff prestam consultoria técnica aos órgãos de linha, sem haver comando duplo de projetos sobre colaboradores operacionais.
+> - **E)** Incorreta. Estrutura colegiada refere-se à tomada de decisão por órgão consultivo ou deliberativo coletivo (ex.: Tribunal Pleno, Conselhos de Administração).
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 3. Critérios de Departamentalização
 
@@ -223,6 +269,30 @@ A função de **Direção** dinamiza a organização, orientando e influenciando
     - *Semânticas:* Diferenças de vocabulário, termos técnicos ou jurídicos herméticos inacessíveis ao receptor;
     - *Psicológicas:* Preconceitos, desconfiança, filtros seletivos e viés perceptivo do interlocutor.
 
+---
+
+### Questão 03 (FCC – AL-AP – Analista Legislativo: Administração)
+Uma das etapas cruciais da função administrativa de Direção é a comunicação organizacional. A respeito dos fluxos comunicacionais e de suas barreiras nas organizações públicas, assinale a alternativa correta:
+
+* **A)** O fluxo de comunicação descendente transporta prioritariamente relatórios de desempenho, pedidos de esclarecimento e sugestões de melhoria vindos da base operacional.
+* **B)** O fluxo horizontal ou lateral refere-se à troca de informações entre servidores situados no mesmo nível hierárquico, sendo indispensável para a coordenação interdepartamental.
+* **C)** Barreiras semânticas decorrem exclusivamente de falhas mecânicas nos equipamentos de transmissão e instabilidade nas redes de computadores.
+* **D)** A comunicação diagonal ocorre exclusivamente entre a chefia superior de um setor e os estagiários daquele mesmo departamento.
+* **E)** A ampliação de níveis hierárquicos em estruturas verticais favorece a fidelidade da mensagem e elimina qualquer possibilidade de ruído comunicacional.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Relatórios, dúvidas e sugestões vindos da base para a chefia constituem o fluxo **ascendente**. O fluxo descendente transmite diretrizes, metas e normas do topo para a base.
+> - **B)** Correta. A comunicação horizontal (ou lateral) ocorre entre membros de departamentos distintos ou colegas que ocupam o mesmo patamar hierárquico, facilitando a cooperação mútua, integração de processos e resolução ágil de problemas cotidianos.
+> - **C)** Incorreta. Falhas mecânicas e instabilidade de sinal são barreiras **físicas**. Barreiras **semânticas** dizem respeito ao significado das palavras, jargões técnicos incompreendidos ou diferenças de vocabulário.
+> - **D)** Incorreta. A comunicação **diagonal** atravessa diferentes funções e diferentes níveis hierárquicos simultaneamente (ex.: um analista de compras que se comunica diretamente com o Diretor de Tecnologia de outro órgão).
+> - **E)** Incorreta. Quanto maior o número de níveis hierárquicos, maior o risco de distorção ("efeito telefone sem fio") e ruídos na comunicação.
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)
 O controle assegura que o desempenho real esteja em consonância com o que foi previamente planejado:
 
@@ -237,6 +307,29 @@ O controle assegura que o desempenho real esteja em consonância com o que foi p
 - **Controle Posterior (Corretivo / Ex Post):** Incide após a conclusão da ação ou do ciclo de gestão para auditar a conformidade e os resultados alcançados (ex.: prestação anual de contas julgada pelo Tribunal de Contas, processo disciplinar por desvio de conduta).
 
 ---
+
+### Questão 04 (FCC – DPE-RS – Analista: Área Administrativa)
+No âmbito da administração contemporânea, o processo administrativo de controle desdobra-se em três momentos temporais fundamentais: prévio, concomitante e posterior. Constitui exemplo típico de controle prévio (preventivo) no setor público:
+
+* **A)** A análise da prestação de contas do ordenador de despesa efetuada pelo Tribunal de Contas após o encerramento do exercício financeiro.
+* **B)** A aplicação de penalidade contratual de multa a uma empresa fornecedora que entregou bens com defeito de fabricação.
+* **C)** A medição semanal em tempo real do avanço físico de uma rodovia estadual pelo fiscal da administração durante a execução da obra.
+* **D)** A exigência de apresentação prévia de certidões de regularidade fiscal e habilitação jurídica no edital antes da contratação da empresa licitante.
+* **E)** A realização de auditoria de conformidade ex post destinada a quantificar o dano ao erário decorrente de sobrepreço em contrato encerrado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A análise de contas após o encerramento do exercício financeiro é um controle **posterior (ex post)**.
+> - **B)** Incorreta. A aplicação de sanção por entrega defeituosa é uma medida **corretiva/posterior** à constatação da infração contratual.
+> - **C)** Incorreta. A fiscalização presencial durante a realização dos serviços é um controle **concomitante (em tempo real)**.
+> - **D)** Correta. O controle prévio (preventivo ou ex ante) atua antes que a ação administrativa se materialize, estabelecendo barreiras e condições de aptidão com o objetivo de evitar prejuízos futuros. A exigência editalícia de regularidade fiscal e jurídica antes da celebração do vínculo é um exemplo límpido de controle preventivo.
+> - **E)** Incorreta. Auditoria após a conclusão contratual para apuração de dano é controle **posterior**.
+> 
+> **Gabarito: D**
+
+---
+
+
 
 ### 5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças
 
@@ -269,42 +362,7 @@ flowchart TD
 
 ---
 
-## 🌐 Fontes Oficiais & Referências Bibliográficas
-
-* [Decreto-Lei nº 200/1967 (Organização da Administração Federal)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Princípios fundamentais de planejamento, coordenação, descentralização, delegação de competência e controle.
-* [Constituição Federal de 1988 - Arts. 37 a 41 (Da Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Normas constitucionais estruturantes da administração direta, autárquica, fundacional e estatal.
-* [TCU - Governança Pública e Organizacional](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial institucional do TCU para avaliação de estruturas organizacionais e processos de tomada de decisão.
-* [TCE-GO - Competências Institucionais e Estrutura](https://portal.tce.go.gov.br/competencias) - Portal institucional detalhando a organização estrutural e o funcionamento do Tribunal de Contas de Goiás.
-* [Lei Estadual nº 13.800/2001 (Processo Administrativo de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/81441/lei-13800) - Regula os atos, processos e competências decisórias no âmbito da administração estadual goiana.
-* CHIAVENATO, Idalberto. **Introdução à Teoria Geral da Administração**. 10. ed. São Paulo: Atlas, 2020. (Cap. 7 - Tipos de Organização; Cap. 8 - Departamentalização).
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 4 - Órgãos e Entidades da Administração Pública).
-* MEIRELLES, Hely Lopes. **Direito Administrativo Brasileiro**. 44. ed. São Paulo: Malheiros, 2020. (Cap. 2 - A Estrutura Administrativa).
-
-
-## 📝 Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC – TCE-PI – Auditor de Controle Externo)
-Determinada autarquia estadual de regulação de transportes estruturou suas equipes de fiscalização agrupando os servidores em torno de projetos especiais com prazos pré-fixados, mantendo concomitantemente as diretorias técnicas fixas de engenharia, finanças e tecnologia. Nesse modelo, os auditores reportam-se tanto ao coordenador do projeto específico quanto ao diretor da sua respectiva área técnica de origem. Trata-se de típica estrutura organizacional:
-
-* **A)** Linear.
-* **B)** Funcional pura.
-* **C)** Matricial.
-* **D)** Linha-staff.
-* **E)** Colegiada.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A estrutura linear fundamenta-se na unidade de comando irrestrita, com linhas únicas, diretas e verticais de chefia.
-> - **B)** Incorreta. A estrutura funcional fraciona a autoridade de acordo com a especialidade funcional, mas não sobrepõe gerências temporárias de projetos a departamentos fixos.
-> - **C)** Correta. A estrutura matricial caracteriza-se essencialmente pela combinação bidimensional de uma estrutura funcional permanente com gerências de projetos temporárias, resultando na **dupla subordinação** dos colaboradores (ao líder do projeto e ao chefe funcional da sua área técnica).
-> - **D)** Incorreta. Na estrutura linha-staff, os órgãos de staff prestam consultoria técnica aos órgãos de linha, sem haver comando duplo de projetos sobre colaboradores operacionais.
-> - **E)** Incorreta. Estrutura colegiada refere-se à tomada de decisão por órgão consultivo ou deliberativo coletivo (ex.: Tribunal Pleno, Conselhos de Administração).
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC – TCE-RS – Auditor de Controle Externo)
+### Questão 05 (FCC – TCE-RS – Auditor de Controle Externo)
 A respeito das funções do processo administrativo (planejamento, organização, direção e controle) e das diferenças entre a gestão pública e a gestão privada, assinale a opção correta:
 
 * **A)** A função administrativa de planejamento restringe-se ao nível operacional da instituição, cabendo à função de organização a definição das metas estratégicas de longo prazo.
@@ -325,63 +383,15 @@ A respeito das funções do processo administrativo (planejamento, organização
 
 ---
 
-### Questão 3 (FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)
-Considere uma organização pública estadual que decida reduzir o número de seus escalões hierárquicos intermediários de sete para apenas três níveis, mantendo o mesmo quantitativo total de servidores em seus quadros operacionais. Sob a ótica da teoria da organização formal, essa reforma provocará:
 
-* **A)** O estreitamento da amplitude de controle e a verticalização da estrutura organizacional.
-* **B)** A eliminação da divisão do trabalho e a conversão automática para a estrutura linear pura.
-* **C)** O alargamento da amplitude de controle dos gestores e o achatamento (horizontalização) da estrutura organizacional.
-* **D)** A centralização absoluta de todas as decisões na cúpula diretiva em razão do aumento do número de chefes.
-* **E)** A transformação imediata do modelo organizacional em departamentalização estritamente geográfica.
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Reduzir escalões faz o oposto: alarga a amplitude de controle e horizontaliza a estrutura.
-> - **B)** Incorreta. A divisão do trabalho permanece; ela não depende da quantidade de níveis hierárquicos.
-> - **C)** Correta. Ao reduzir os níveis intermediários sem diminuir o total de subordinados, cada gestor remanescente passará a chefiar um contingente maior de pessoas (**alargamento da amplitude administrativa**). Como consequência direta, a organização torna-se **achatada (plana/horizontalizada)**, reduzindo a distância entre a base e a cúpula.
-> - **D)** Incorreta. Estruturas achatadas com grande amplitude tendem a exigir maior delegação e descentralização, pois um chefe com muitos subordinados não consegue centralizar todas as rotinas.
-> - **E)** Incorreta. A forma da pirâmide hierárquica não define o critério de departamentalização (que pode continuar sendo funcional, por processos etc.).
-> 
-> **Gabarito: C**
+## 🌐 Fontes Oficiais & Referências Bibliográficas
 
----
-
-### Questão 4 (FCC – AL-AP – Analista Legislativo: Administração)
-Uma das etapas cruciais da função administrativa de Direção é a comunicação organizacional. A respeito dos fluxos comunicacionais e de suas barreiras nas organizações públicas, assinale a alternativa correta:
-
-* **A)** O fluxo de comunicação descendente transporta prioritariamente relatórios de desempenho, pedidos de esclarecimento e sugestões de melhoria vindos da base operacional.
-* **B)** O fluxo horizontal ou lateral refere-se à troca de informações entre servidores situados no mesmo nível hierárquico, sendo indispensável para a coordenação interdepartamental.
-* **C)** Barreiras semânticas decorrem exclusivamente de falhas mecânicas nos equipamentos de transmissão e instabilidade nas redes de computadores.
-* **D)** A comunicação diagonal ocorre exclusivamente entre a chefia superior de um setor e os estagiários daquele mesmo departamento.
-* **E)** A ampliação de níveis hierárquicos em estruturas verticais favorece a fidelidade da mensagem e elimina qualquer possibilidade de ruído comunicacional.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Relatórios, dúvidas e sugestões vindos da base para a chefia constituem o fluxo **ascendente**. O fluxo descendente transmite diretrizes, metas e normas do topo para a base.
-> - **B)** Correta. A comunicação horizontal (ou lateral) ocorre entre membros de departamentos distintos ou colegas que ocupam o mesmo patamar hierárquico, facilitando a cooperação mútua, integração de processos e resolução ágil de problemas cotidianos.
-> - **C)** Incorreta. Falhas mecânicas e instabilidade de sinal são barreiras **físicas**. Barreiras **semânticas** dizem respeito ao significado das palavras, jargões técnicos incompreendidos ou diferenças de vocabulário.
-> - **D)** Incorreta. A comunicação **diagonal** atravessa diferentes funções e diferentes níveis hierárquicos simultaneamente (ex.: um analista de compras que se comunica diretamente com o Diretor de Tecnologia de outro órgão).
-> - **E)** Incorreta. Quanto maior o número de níveis hierárquicos, maior o risco de distorção ("efeito telefone sem fio") e ruídos na comunicação.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC – DPE-RS – Analista: Área Administrativa)
-No âmbito da administração contemporânea, o processo administrativo de controle desdobra-se em três momentos temporais fundamentais: prévio, concomitante e posterior. Constitui exemplo típico de controle prévio (preventivo) no setor público:
-
-* **A)** A análise da prestação de contas do ordenador de despesa efetuada pelo Tribunal de Contas após o encerramento do exercício financeiro.
-* **B)** A aplicação de penalidade contratual de multa a uma empresa fornecedora que entregou bens com defeito de fabricação.
-* **C)** A medição semanal em tempo real do avanço físico de uma rodovia estadual pelo fiscal da administração durante a execução da obra.
-* **D)** A exigência de apresentação prévia de certidões de regularidade fiscal e habilitação jurídica no edital antes da contratação da empresa licitante.
-* **E)** A realização de auditoria de conformidade ex post destinada a quantificar o dano ao erário decorrente de sobrepreço em contrato encerrado.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A análise de contas após o encerramento do exercício financeiro é um controle **posterior (ex post)**.
-> - **B)** Incorreta. A aplicação de sanção por entrega defeituosa é uma medida **corretiva/posterior** à constatação da infração contratual.
-> - **C)** Incorreta. A fiscalização presencial durante a realização dos serviços é um controle **concomitante (em tempo real)**.
-> - **D)** Correta. O controle prévio (preventivo ou ex ante) atua antes que a ação administrativa se materialize, estabelecendo barreiras e condições de aptidão com o objetivo de evitar prejuízos futuros. A exigência editalícia de regularidade fiscal e jurídica antes da celebração do vínculo é um exemplo límpido de controle preventivo.
-> - **E)** Incorreta. Auditoria após a conclusão contratual para apuração de dano é controle **posterior**.
-> 
-> **Gabarito: D**
+* [Decreto-Lei nº 200/1967 (Organização da Administração Federal)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Princípios fundamentais de planejamento, coordenação, descentralização, delegação de competência e controle.
+* [Constituição Federal de 1988 - Arts. 37 a 41 (Da Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Normas constitucionais estruturantes da administração direta, autárquica, fundacional e estatal.
+* [TCU - Governança Pública e Organizacional](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial institucional do TCU para avaliação de estruturas organizacionais e processos de tomada de decisão.
+* [TCE-GO - Competências Institucionais e Estrutura](https://portal.tce.go.gov.br/competencias) - Portal institucional detalhando a organização estrutural e o funcionamento do Tribunal de Contas de Goiás.
+* [Lei Estadual nº 13.800/2001 (Processo Administrativo de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/81441/lei-13800) - Regula os atos, processos e competências decisórias no âmbito da administração estadual goiana.
+* CHIAVENATO, Idalberto. **Introdução à Teoria Geral da Administração**. 10. ed. São Paulo: Atlas, 2020. (Cap. 7 - Tipos de Organização; Cap. 8 - Departamentalização).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 4 - Órgãos e Entidades da Administração Pública).
+* MEIRELLES, Hely Lopes. **Direito Administrativo Brasileiro**. 44. ed. São Paulo: Malheiros, 2020. (Cap. 2 - A Estrutura Administrativa).

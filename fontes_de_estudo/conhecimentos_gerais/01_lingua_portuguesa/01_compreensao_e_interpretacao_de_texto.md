@@ -58,12 +58,6 @@
     - [9.3 Figuras de Construção ou de Sintaxe](#93-figuras-de-construcao-ou-de-sintaxe)
     - [9.4 Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-foneticas)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
-    - [Questão 01](#questao-01)
-    - [Questão 02](#questao-02)
-    - [Questão 03](#questao-03)
-    - [Questão 04](#questao-04)
-    - [Questão 05](#questao-05)
 
 ---
 
@@ -114,6 +108,34 @@ A maioria das alternativas erradas em questões de leitura da FCC cai em uma de 
 3. **Contradição:** A alternativa inverte as relações lógicas de causa e efeito ou assevera o exato oposto daquilo que o texto defendeu. Um caso muito frequente é tratar como **fato consumado** aquilo que o texto apresentou como mera **promessa, hipótese ou ilusão** (ex.: o texto fala em "promessa de erradicação do erro" e a alternativa diz que "a erradicação do erro já foi alcançada").
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Ao responder questões que indagam o que se *"depreende"* ou *"infere"* do texto, elimine sumariamente alternativas que contenham palavras de valor absoluto e generalizante, tais como **"sempre"**, **"nunca"**, **"exclusivamente"**, **"todos"**, **"necessariamente"**, **"rigorosamente"** e **"somente"**, salvo se o próprio texto original tiver utilizado expressamente essa mesma restrição categórica!
+
+---
+
+### Questão 01
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+*Considere o seguinte excerto:*  
+*"A velocidade vertiginosa com que as novas tecnologias de inteligência artificial são integradas ao cotidiano suscita promessas sedutoras de eficiência administrativa absoluta e erradicação do erro humano. Contudo, essa aparente panaceia obscurece o fato de que os sistemas algorítmicos herdaram os próprios vieses, preconceitos e miopias éticas dos dados históricos que os alimentam. Longe de representarem uma objetividade asséptica, tais instrumentos podem operar como sofisticados espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais"*.
+
+A partir da leitura atenta do texto, depreende-se corretamente que:
+
+* **A)** A tecnologia de inteligência artificial deve ter sua aplicação sumariamente suspensa nas repartições públicas, por constituir ameaça insanável aos direitos fundamentais.
+* **B)** A eficiência operacional proporcionada pelos algoritmos revelou-se ilusória, uma vez que as máquinas cometem rigorosamente a mesma quantidade de falhas que os seres humanos.
+* **C)** O autor adota uma postura crítica ao evidenciar que a pretensa neutralidade da inteligência artificial pode ocultar a perpetuação de distorções e desigualdades preexistentes na sociedade.
+* **D)** A erradicação dos erros administrativos é um objetivo já alcançado nas esferas em que a tecnologia algorítmica substituiu o juízo humano.
+* **E)** Os vieses algorítmicos decorrem da imperícia intencional dos engenheiros de computação que desenvolvem modelos visando discriminar grupos sociais específicos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O texto não defende o banimento ou a suspensão sumária da tecnologia, mas alerta para o perigo de considerá-la neutra ou imune a falhas. A alternativa propõe uma solução que o autor não formulou: erro clássico de **extrapolação**.
+> - **B)** Incorreta. O texto não afirma que as máquinas cometem "rigorosamente a mesma quantidade de falhas" que os humanos; não há comparação quantitativa alguma. O texto diz que os sistemas herdam os vieses e preconceitos dos dados históricos. Há extrapolação, agravada pelo termo absoluto "rigorosamente".
+> - **C)** Correta. O núcleo argumentativo do excerto (introduzido pelo conectivo adversativo *"Contudo"*, reforçado pela expressão retificadora *"Longe de"*) desconstrói a visão ingênua da IA como "objetividade asséptica", demonstrando que os modelos funcionam como "espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais". A alternativa traduz com precisão essa tese crítica, inclusive preservando o grau de possibilidade ("pode ocultar" ↔ "podem operar").
+> - **D)** Incorreta. O autor classifica a erradicação do erro como mera "promessa sedutora" e "aparente panaceia", não como um fato concretizado. Tratar a promessa como fato consumado é erro de **contradição**.
+> - **E)** Incorreta. O texto esclarece que os vieses decorrem dos "dados históricos que os alimentam", e não de má-fé ou dolo intencional dos desenvolvedores. A atribuição de culpa e intenção é extrapolação sem amparo no excerto.
+>
+> **Gabarito: C**
+
+---
+
 
 ### 1.4 Método Prático de Resolução
 
@@ -246,6 +268,31 @@ A **denotação** é o uso da palavra em seu **sentido literal, objetivo e dicio
 
 Exemplos típicos de enunciados denotativos são as frases técnico-jurídicas: "O contrato foi rescindido unilateralmente pela administração", "A receita registrou crescimento de quatro por cento no trimestre", "O Tribunal de Contas é composto por sete Conselheiros", "O prazo prescricional é de cinco anos". Repare que nelas não há imagens, comparações ou juízos emotivos: cada palavra designa exatamente o que diz o dicionário ou a terminologia técnica. A presença de **termos técnicos**, **números** e **referências normativas** é um indício forte de linguagem denotativa — embora não seja uma garantia absoluta, pois um texto técnico pode conter uma metáfora isolada.
 
+---
+
+### Questão 02
+**(FCC – DPE-RS – Analista Jurídico)**  
+Assinale a alternativa em que a relação entre orações do texto expressa valor semântico de conotação e linguagem figurada:
+
+* **A)** *"O contrato administrativo foi rescindido unilateralmente pela administração com base no artigo 137 da legislação vigente."*
+* **B)** *"A receita tributária estadual registrou crescimento nominal de quatro por cento no terceiro trimestre do exercício financeiro."*
+* **C)** *"A burocracia estatal engoliu os anseios da população em um pântano de formulários intermináveis e carimbos inertes."*
+* **D)** *"O Tribunal de Contas é composto por sete Conselheiros nomeados segundo os ditames da Constituição Estadual."*
+* **E)** *"O prazo prescricional para o ajuizamento da execução fiscal de créditos tributários é de cinco anos."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Frase de linguagem estritamente **denotativa**, técnico-jurídica: "rescindido unilateralmente" e a remissão a artigo de lei têm sentido literal e unívoco.
+> - **B)** Incorreta. Linguagem **denotativa** de natureza contábil-financeira: dado numérico ("quatro por cento") e terminologia técnica ("crescimento nominal", "exercício financeiro"), sem qualquer figura.
+> - **C)** Correta. A frase emprega linguagem eminentemente **conotativa (figurada)**: a burocracia não tem boca para *"engolir"* nada (prosopopeia/metáfora), a tramitação documental é metaforizada como um *"pântano"* e os carimbos são qualificados como *"inertes"*, transmitindo expressividade e juízo crítico de valor ao leitor.
+> - **D)** Incorreta. Enunciado **denotativo** e informativo sobre a composição de um órgão, com termos institucionais em sentido literal.
+> - **E)** Incorreta. Enunciado **denotativo** de conteúdo normativo (prazo prescricional), com terminologia jurídica precisa e sem sentido figurado.
+>
+> **Gabarito: C**
+
+---
+
+
 ### 5.2 Linguagem Conotativa
 
 A **conotação** é o uso da palavra em **sentido figurado**, ampliado ou associativo, que depende do contexto e carrega valores afetivos, críticos ou estéticos. A linguagem conotativa é **plurissignificativa** (admite mais de uma leitura) e **expressiva**: ela não apenas informa, mas também emociona, critica, ironiza. Em "A burocracia estatal **engoliu** os anseios da população em um **pântano** de formulários", nenhuma palavra destacada está em sentido literal: a burocracia não tem boca (*engolir* é figurado, atribuindo ação de ser vivo a um ente abstrato) e não há pântano real (a palavra sugere lentidão, atoleiro, imobilidade).
@@ -297,6 +344,33 @@ Exemplo: *"O relator permaneceu em silêncio. **Como solucionar aquele impasse s
 
 ---
 
+### Questão 03
+**(FCC – TRT – Analista Judiciário)**  
+*Observe o fragmento a seguir:*  
+*"O relator permaneceu em silêncio por longos minutos diante dos autos volumosos. Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa? Sabia que os olhares de todos os presentes convergiam para sua bancada. Era preciso decidir, e decidir imediatamente"*.
+
+No fragmento acima, a passagem assinalada pela oração interrogativa (*"Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa?"*) exemplifica o emprego do:
+
+* **A)** Discurso direto pontuado por elipse de aspas.
+* **B)** Discurso indireto clássico subordinado por conectivo causal.
+* **C)** Discurso indireto livre, em que o pensamento íntimo da personagem se mescla diretamente à narração em terceira pessoa.
+* **D)** Recurso estilístico de metonímia personificada.
+* **E)** Discurso dissertativo de autoridade estrita.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Não há discurso direto, pois faltam verbos de elocução introdutórios e a pontuação típica (dois-pontos, travessão ou aspas). "Elipse de aspas" não é categoria gramatical reconhecida; a ausência das marcas é justamente o que afasta o discurso direto.
+> - **B)** Incorreta. O discurso indireto convencional exigiria a mediação formal do narrador mediante verbo de elocução e conjunção integrante ou pronome interrogativo (*"O relator perguntou a si mesmo como solucionaria..."*). Além disso, o discurso indireto não se estrutura por conectivo causal, mas por oração subordinada substantiva.
+> - **C)** Correta. Configura-se tipicamente o **Discurso Indireto Livre**: a voz do narrador (em terceira pessoa) funde-se instantaneamente ao fluxo de consciência e à indagação íntima da personagem (*"Como solucionar aquele impasse...?"*), sem marcas formais de abertura de fala ou conectivos de subordinação.
+> - **D)** Incorreta. Não se trata de figura de linguagem (metonímia é substituição por contiguidade; personificação é atribuição de traços humanos a seres inanimados — nada disso ocorre na pergunta), mas de recurso de estruturação do foco narrativo.
+> - **E)** Incorreta. O fragmento tem natureza narrativa/ficcional e não dissertativa conceitual; tampouco há citação de especialista ou instituição que configure argumento de autoridade.
+>
+> **Gabarito: C**
+
+---
+
+
+
 ## 7. Transposição de Discursos
 
 ### 7.1 Tabela de Transposição do Direto para o Indireto
@@ -332,6 +406,36 @@ A transposição exige **ajuste simultâneo** de todos os elementos: uma alterna
 > Basta um elemento não ajustado para a alternativa ser incorreta.
 
 ---
+
+### Questão 04
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+Transpondo-se a oração em discurso direto:  
+*O auditor afirmou aos gestores: "Concluirei a fiscalização amanhã e entregarei este relatório à presidência"*  
+para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se corretamente em:
+
+* **A)** O auditor afirmou aos gestores que concluiria a fiscalização amanhã e entregaria este relatório à presidência.
+* **B)** O auditor afirmou aos gestores que concluiria a fiscalização no dia seguinte e entregaria aquele relatório à presidência.
+* **C)** O auditor afirmou aos gestores que concluíra a fiscalização na véspera e entregara esse relatório à presidência.
+* **D)** O auditor afirmou aos gestores que concluirá a fiscalização no dia subsequente e entregará aquele relatório à presidência.
+* **E)** O auditor afirmou aos gestores que tenha concluído a fiscalização amanhã e entregue aquele relatório à presidência.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Ajustou corretamente os verbos para o futuro do pretérito, mas errou ao manter os dêiticos temporal e demonstrativo ancorados no momento da fala (*amanhã* e *este*).
+> - **B)** Correta. Na transposição do Discurso Direto para o Indireto, as regras gramaticais exigem três ajustes simultâneos:
+>     1. **Tempos Verbais:** Futuro do Presente (*concluirei*, *entregarei*) transforma-se em **Futuro do Pretérito** (*concluiria*, *entregaria*);
+>     2. **Advérbio de Tempo:** *Amanhã* passa para **no dia seguinte** (ou *no dia subsequente*);
+>     3. **Pronome Demonstrativo:** *Este* passa para **aquele**, marcando o distanciamento temporal e espacial da enunciação.
+>
+> - **C)** Incorreta. O Pretérito Mais-Que-Perfeito (*concluíra*, *entregara*) e a locução *na véspera* corresponderiam a fatos passados, e não ao futuro original; além disso, *esse* não marca o distanciamento exigido.
+> - **D)** Incorreta. Ajustou o advérbio e o demonstrativo, mas manteve o verbo no futuro do presente (*concluirá*, *entregará*), o que fere a correlação com a oração principal no pretérito (*afirmou*).
+> - **E)** Incorreta. Emprega o pretérito perfeito do subjuntivo (*tenha concluído*, *entregue*), alterando o modo (de certeza para hipótese) e desfigurando a ideia de futurição original; também manteve *amanhã*.
+>
+> **Gabarito: B**
+
+---
+
+
 
 ## 8. Intertextualidade
 
@@ -389,6 +493,46 @@ Atuam sobre o **sentido global** do enunciado, combinando ideias de forma expres
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** **Eufemismo × Ironia:** o eufemismo **atenua** uma verdade incômoda sem inverter seu sentido ("não era exatamente sábio" continua dizendo que ele não era sábio, apenas de forma branda); a ironia **inverte** o sentido ("Que gênio!", dito de quem errou). **Metáfora × Catacrese:** se a imagem é criativa e expressiva, é metáfora; se é a forma corriqueira de nomear algo (pé da mesa), é catacrese.
 
+---
+
+### Questão 05
+**(FCC – METRÔ-SP – Analista de Comunicação)**  
+Considere os versos e expressões a seguir:  
+
+I. *"A cidade dormia sob o manto pesado de um silêncio ensurdecedor."*  
+
+II. *"Ele não era exatamente uma fonte de sabedoria; faltava-lhe perspicácia para lidar com o público."*  
+
+III. *"Nas horas de angústia, o coração do fiscal chorava lágrimas de ferro."*  
+
+As figuras de linguagem presentes nos trechos I, II e III são, respectivamente:
+
+* **A)** Paradoxo (Oximoro), Eufemismo e Prosopopeia (Personificação).
+* **B)** Antítese, Hipérbole e Metonímia.
+* **C)** Pleonasmo, Ironia e Catacrese.
+* **D)** Paradoxo (Oximoro), Antítese e Sinestesia.
+* **E)** Metáfora, Eufemismo e Zeugma.
+
+> **Comentário Detalhado:**
+> Análise dos trechos:
+>
+> - **Trecho I:** *"silêncio ensurdecedor"* reúne, no mesmo ser, termos logicamente excludentes (o silêncio não pode ensurdecer), configurando **paradoxo (oximoro)**.
+> - **Trecho II:** *"não era exatamente uma fonte de sabedoria"* suaviza a constatação rude de que a pessoa era pouco sábia ou despreparada, caracterizando **eufemismo** (na modalidade litotes: afirmação pela negação do contrário).
+> - **Trecho III:** *"o coração (...) chorava lágrimas de ferro"* atribui ação humana (chorar) ao órgão, caracterizando **prosopopeia (personificação)**, combinada com metáfora expressiva ("lágrimas de ferro").
+>
+> Análise das alternativas:
+>
+> - **A)** Correta. É a única sequência em que os três trechos estão corretamente classificados: paradoxo, eufemismo e prosopopeia.
+> - **B)** Incorreta. Em I não há antítese, pois os opostos não se referem a aspectos distintos, mas se fundem no mesmo ser (paradoxo); em II não há exagero (hipérbole), mas atenuação; em III não há substituição por contiguidade (metonímia).
+> - **C)** Incorreta. Em I não há pleonasmo (repetição de ideia), mas contradição; em II não há inversão de sentido (ironia) — a frase diz, de modo brando, exatamente o que pensa; em III a imagem é criativa, e não uma metáfora cristalizada pelo uso (catacrese).
+> - **D)** Incorreta. Acerta o trecho I, mas erra em II (não há termos opostos, logo não há antítese) e em III (não há mistura de sensações de órgãos diferentes, logo não há sinestesia).
+> - **E)** Incorreta. Embora o trecho I contenha uma metáfora secundária ("manto pesado") e o II seja de fato eufemismo, a figura central de I é o oximoro "silêncio ensurdecedor" e, sobretudo, em III não há omissão de termo já expresso, o que exclui o zeugma.
+>
+> **Gabarito: A**
+
+---
+
+
 ### 9.3 Figuras de Construção ou de Sintaxe
 
 Atuam sobre a **estrutura da frase**: omissões, repetições e inversões.
@@ -426,142 +570,3 @@ Exploram a **sonoridade** das palavras, sendo frequentes em poesia, publicidade 
 * KOCH, Ingedore Villaça; ELIAS, Vanda Maria. **Ler e Compreender: os sentidos do texto**. 3. ed. São Paulo: Contexto, 2018. (Cap. 2 e 4 -Compreensão, Inferência, Pressupostos, Subentendidos e Intertextualidade).
 * GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Segunda e Quarta Partes - Discurso Direto, Indireto e Indireto Livre, Figuras de Estilo e Argumentação).
 * BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 18 e Apêndice - Estilística, Figuras de Sintaxe, de Palavras e de Pensamento).
-
----
-
-## 📝 Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo)**  
-*Considere o seguinte excerto:*  
-*"A velocidade vertiginosa com que as novas tecnologias de inteligência artificial são integradas ao cotidiano suscita promessas sedutoras de eficiência administrativa absoluta e erradicação do erro humano. Contudo, essa aparente panaceia obscurece o fato de que os sistemas algorítmicos herdaram os próprios vieses, preconceitos e miopias éticas dos dados históricos que os alimentam. Longe de representarem uma objetividade asséptica, tais instrumentos podem operar como sofisticados espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais"*.
-
-A partir da leitura atenta do texto, depreende-se corretamente que:
-
-* **A)** A tecnologia de inteligência artificial deve ter sua aplicação sumariamente suspensa nas repartições públicas, por constituir ameaça insanável aos direitos fundamentais.
-* **B)** A eficiência operacional proporcionada pelos algoritmos revelou-se ilusória, uma vez que as máquinas cometem rigorosamente a mesma quantidade de falhas que os seres humanos.
-* **C)** O autor adota uma postura crítica ao evidenciar que a pretensa neutralidade da inteligência artificial pode ocultar a perpetuação de distorções e desigualdades preexistentes na sociedade.
-* **D)** A erradicação dos erros administrativos é um objetivo já alcançado nas esferas em que a tecnologia algorítmica substituiu o juízo humano.
-* **E)** Os vieses algorítmicos decorrem da imperícia intencional dos engenheiros de computação que desenvolvem modelos visando discriminar grupos sociais específicos.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O texto não defende o banimento ou a suspensão sumária da tecnologia, mas alerta para o perigo de considerá-la neutra ou imune a falhas. A alternativa propõe uma solução que o autor não formulou: erro clássico de **extrapolação**.
-> - **B)** Incorreta. O texto não afirma que as máquinas cometem "rigorosamente a mesma quantidade de falhas" que os humanos; não há comparação quantitativa alguma. O texto diz que os sistemas herdam os vieses e preconceitos dos dados históricos. Há extrapolação, agravada pelo termo absoluto "rigorosamente".
-> - **C)** Correta. O núcleo argumentativo do excerto (introduzido pelo conectivo adversativo *"Contudo"*, reforçado pela expressão retificadora *"Longe de"*) desconstrói a visão ingênua da IA como "objetividade asséptica", demonstrando que os modelos funcionam como "espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais". A alternativa traduz com precisão essa tese crítica, inclusive preservando o grau de possibilidade ("pode ocultar" ↔ "podem operar").
-> - **D)** Incorreta. O autor classifica a erradicação do erro como mera "promessa sedutora" e "aparente panaceia", não como um fato concretizado. Tratar a promessa como fato consumado é erro de **contradição**.
-> - **E)** Incorreta. O texto esclarece que os vieses decorrem dos "dados históricos que os alimentam", e não de má-fé ou dolo intencional dos desenvolvedores. A atribuição de culpa e intenção é extrapolação sem amparo no excerto.
->
-> **Gabarito: C**
-
----
-
-### Questão 02
-**(FCC – TRT – Analista Judiciário)**  
-*Observe o fragmento a seguir:*  
-*"O relator permaneceu em silêncio por longos minutos diante dos autos volumosos. Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa? Sabia que os olhares de todos os presentes convergiam para sua bancada. Era preciso decidir, e decidir imediatamente"*.
-
-No fragmento acima, a passagem assinalada pela oração interrogativa (*"Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa?"*) exemplifica o emprego do:
-
-* **A)** Discurso direto pontuado por elipse de aspas.
-* **B)** Discurso indireto clássico subordinado por conectivo causal.
-* **C)** Discurso indireto livre, em que o pensamento íntimo da personagem se mescla diretamente à narração em terceira pessoa.
-* **D)** Recurso estilístico de metonímia personificada.
-* **E)** Discurso dissertativo de autoridade estrita.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Não há discurso direto, pois faltam verbos de elocução introdutórios e a pontuação típica (dois-pontos, travessão ou aspas). "Elipse de aspas" não é categoria gramatical reconhecida; a ausência das marcas é justamente o que afasta o discurso direto.
-> - **B)** Incorreta. O discurso indireto convencional exigiria a mediação formal do narrador mediante verbo de elocução e conjunção integrante ou pronome interrogativo (*"O relator perguntou a si mesmo como solucionaria..."*). Além disso, o discurso indireto não se estrutura por conectivo causal, mas por oração subordinada substantiva.
-> - **C)** Correta. Configura-se tipicamente o **Discurso Indireto Livre**: a voz do narrador (em terceira pessoa) funde-se instantaneamente ao fluxo de consciência e à indagação íntima da personagem (*"Como solucionar aquele impasse...?"*), sem marcas formais de abertura de fala ou conectivos de subordinação.
-> - **D)** Incorreta. Não se trata de figura de linguagem (metonímia é substituição por contiguidade; personificação é atribuição de traços humanos a seres inanimados — nada disso ocorre na pergunta), mas de recurso de estruturação do foco narrativo.
-> - **E)** Incorreta. O fragmento tem natureza narrativa/ficcional e não dissertativa conceitual; tampouco há citação de especialista ou instituição que configure argumento de autoridade.
->
-> **Gabarito: C**
-
----
-
-### Questão 03
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-Transpondo-se a oração em discurso direto:  
-*O auditor afirmou aos gestores: "Concluirei a fiscalização amanhã e entregarei este relatório à presidência"*  
-para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se corretamente em:
-
-* **A)** O auditor afirmou aos gestores que concluiria a fiscalização amanhã e entregaria este relatório à presidência.
-* **B)** O auditor afirmou aos gestores que concluiria a fiscalização no dia seguinte e entregaria aquele relatório à presidência.
-* **C)** O auditor afirmou aos gestores que concluíra a fiscalização na véspera e entregara esse relatório à presidência.
-* **D)** O auditor afirmou aos gestores que concluirá a fiscalização no dia subsequente e entregará aquele relatório à presidência.
-* **E)** O auditor afirmou aos gestores que tenha concluído a fiscalização amanhã e entregue aquele relatório à presidência.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Ajustou corretamente os verbos para o futuro do pretérito, mas errou ao manter os dêiticos temporal e demonstrativo ancorados no momento da fala (*amanhã* e *este*).
-> - **B)** Correta. Na transposição do Discurso Direto para o Indireto, as regras gramaticais exigem três ajustes simultâneos:
->     1. **Tempos Verbais:** Futuro do Presente (*concluirei*, *entregarei*) transforma-se em **Futuro do Pretérito** (*concluiria*, *entregaria*);
->     2. **Advérbio de Tempo:** *Amanhã* passa para **no dia seguinte** (ou *no dia subsequente*);
->     3. **Pronome Demonstrativo:** *Este* passa para **aquele**, marcando o distanciamento temporal e espacial da enunciação.
->
-> - **C)** Incorreta. O Pretérito Mais-Que-Perfeito (*concluíra*, *entregara*) e a locução *na véspera* corresponderiam a fatos passados, e não ao futuro original; além disso, *esse* não marca o distanciamento exigido.
-> - **D)** Incorreta. Ajustou o advérbio e o demonstrativo, mas manteve o verbo no futuro do presente (*concluirá*, *entregará*), o que fere a correlação com a oração principal no pretérito (*afirmou*).
-> - **E)** Incorreta. Emprega o pretérito perfeito do subjuntivo (*tenha concluído*, *entregue*), alterando o modo (de certeza para hipótese) e desfigurando a ideia de futurição original; também manteve *amanhã*.
->
-> **Gabarito: B**
-
----
-
-### Questão 04
-**(FCC – METRÔ-SP – Analista de Comunicação)**  
-Considere os versos e expressões a seguir:  
-
-I. *"A cidade dormia sob o manto pesado de um silêncio ensurdecedor."*  
-
-II. *"Ele não era exatamente uma fonte de sabedoria; faltava-lhe perspicácia para lidar com o público."*  
-
-III. *"Nas horas de angústia, o coração do fiscal chorava lágrimas de ferro."*  
-
-As figuras de linguagem presentes nos trechos I, II e III são, respectivamente:
-
-* **A)** Paradoxo (Oximoro), Eufemismo e Prosopopeia (Personificação).
-* **B)** Antítese, Hipérbole e Metonímia.
-* **C)** Pleonasmo, Ironia e Catacrese.
-* **D)** Paradoxo (Oximoro), Antítese e Sinestesia.
-* **E)** Metáfora, Eufemismo e Zeugma.
-
-> **Comentário Detalhado:**
-> Análise dos trechos:
->
-> - **Trecho I:** *"silêncio ensurdecedor"* reúne, no mesmo ser, termos logicamente excludentes (o silêncio não pode ensurdecer), configurando **paradoxo (oximoro)**.
-> - **Trecho II:** *"não era exatamente uma fonte de sabedoria"* suaviza a constatação rude de que a pessoa era pouco sábia ou despreparada, caracterizando **eufemismo** (na modalidade litotes: afirmação pela negação do contrário).
-> - **Trecho III:** *"o coração (...) chorava lágrimas de ferro"* atribui ação humana (chorar) ao órgão, caracterizando **prosopopeia (personificação)**, combinada com metáfora expressiva ("lágrimas de ferro").
->
-> Análise das alternativas:
->
-> - **A)** Correta. É a única sequência em que os três trechos estão corretamente classificados: paradoxo, eufemismo e prosopopeia.
-> - **B)** Incorreta. Em I não há antítese, pois os opostos não se referem a aspectos distintos, mas se fundem no mesmo ser (paradoxo); em II não há exagero (hipérbole), mas atenuação; em III não há substituição por contiguidade (metonímia).
-> - **C)** Incorreta. Em I não há pleonasmo (repetição de ideia), mas contradição; em II não há inversão de sentido (ironia) — a frase diz, de modo brando, exatamente o que pensa; em III a imagem é criativa, e não uma metáfora cristalizada pelo uso (catacrese).
-> - **D)** Incorreta. Acerta o trecho I, mas erra em II (não há termos opostos, logo não há antítese) e em III (não há mistura de sensações de órgãos diferentes, logo não há sinestesia).
-> - **E)** Incorreta. Embora o trecho I contenha uma metáfora secundária ("manto pesado") e o II seja de fato eufemismo, a figura central de I é o oximoro "silêncio ensurdecedor" e, sobretudo, em III não há omissão de termo já expresso, o que exclui o zeugma.
->
-> **Gabarito: A**
-
----
-
-### Questão 05
-**(FCC – DPE-RS – Analista Jurídico)**  
-Assinale a alternativa em que a relação entre orações do texto expressa valor semântico de conotação e linguagem figurada:
-
-* **A)** *"O contrato administrativo foi rescindido unilateralmente pela administração com base no artigo 137 da legislação vigente."*
-* **B)** *"A receita tributária estadual registrou crescimento nominal de quatro por cento no terceiro trimestre do exercício financeiro."*
-* **C)** *"A burocracia estatal engoliu os anseios da população em um pântano de formulários intermináveis e carimbos inertes."*
-* **D)** *"O Tribunal de Contas é composto por sete Conselheiros nomeados segundo os ditames da Constituição Estadual."*
-* **E)** *"O prazo prescricional para o ajuizamento da execução fiscal de créditos tributários é de cinco anos."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Frase de linguagem estritamente **denotativa**, técnico-jurídica: "rescindido unilateralmente" e a remissão a artigo de lei têm sentido literal e unívoco.
-> - **B)** Incorreta. Linguagem **denotativa** de natureza contábil-financeira: dado numérico ("quatro por cento") e terminologia técnica ("crescimento nominal", "exercício financeiro"), sem qualquer figura.
-> - **C)** Correta. A frase emprega linguagem eminentemente **conotativa (figurada)**: a burocracia não tem boca para *"engolir"* nada (prosopopeia/metáfora), a tramitação documental é metaforizada como um *"pântano"* e os carimbos são qualificados como *"inertes"*, transmitindo expressividade e juízo crítico de valor ao leitor.
-> - **D)** Incorreta. Enunciado **denotativo** e informativo sobre a composição de um órgão, com termos institucionais em sentido literal.
-> - **E)** Incorreta. Enunciado **denotativo** de conteúdo normativo (prazo prescricional), com terminologia jurídica precisa e sem sentido figurado.
->
-> **Gabarito: C**

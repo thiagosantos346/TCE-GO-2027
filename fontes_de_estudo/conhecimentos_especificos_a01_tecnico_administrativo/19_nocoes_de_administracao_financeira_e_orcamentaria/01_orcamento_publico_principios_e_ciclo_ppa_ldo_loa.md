@@ -49,7 +49,6 @@
     - [5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)](#53-transferencias-especiais-emendas-pix-e-com-finalidade-definida-art-166-a)
     - [5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória](#54-limitacoes-e-impedimentos-tecnicos-na-execucao-obrigatoria)
 - [6. Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
-- [7. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -152,6 +151,32 @@ flowchart TD
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A LOA pode autorizar a abertura de créditos **suplementares**, mas **JAMAIS pode autorizar a abertura de créditos especiais ou extraordinários**! Créditos especiais dependem de projeto de lei específico subsequente, e créditos extraordinários decorrem de ato executivo de urgência (Medida Provisória na União ou Decreto nos entes sem MP).
 
+---
+
+### Questão 01 (FCC - Adaptada / Auditor de Controle Externo)
+Na elaboração do projeto de Lei Orçamentária Anual (LOA) de determinado Estado, o Poder Executivo incluiu um artigo concedendo autorização legislativa para a alteração das alíquotas do Imposto sobre Circulação de Mercadorias e Serviços (ICMS), bem como autorização para a abertura de créditos orçamentários suplementares até o limite de 20% da despesa fixada.
+
+Diante do princípio orçamentário da exclusividade (art. 165, § 8º da CF/88):
+
+* **A)** Ambas as autorizações constantes do projeto são constitucionais, pois a LOA pode veicular quaisquer normas com reflexo financeiro.
+* **B)** Ambas as autorizações são flagrantemente inconstitucionais, haja vista que a LOA não admite qualquer tipo de exceção temática.
+* **C)** A autorização para abertura de créditos suplementares é constitucional por consistir em ressalva expressa ao princípio da exclusividade; todavia, a cláusula alterando alíquotas de ICMS padece de inconstitucionalidade material por se tratar de matéria estranha à LOA.
+* **D)** A autorização para alterar ICMS é válida, mas a previsão de créditos suplementares é proibida pelo texto constitucional.
+* **E)** O projeto é nulo e deve ser arquivado imediatamente sem deliberação pelo plenário da Assembleia Legislativa.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A LOA não pode veicular alterações de alíquotas tributárias de direito substantivo; isso configura típica violação ao princípio da exclusividade ("cauda orçamentária").
+> - **B)** Incorreta. A CF/88 estabelece duas exceções taxativas ao princípio da exclusividade (créditos suplementares e operações de crédito).
+> - **C)** Correta. Conforme o art. 165, § 8º da CF/88, a LOA não conterá matéria estranha à previsão da receita e à fixação da despesa, excetuando-se a autorização para abertura de créditos suplementares e contratação de operações de crédito. Logo, a autorização de créditos suplementares é constitucional, e a norma alteradora de alíquota do ICMS é inconstitucional por constituir matéria estranha à lei de meios orçamentária.
+> - **D)** Incorreta. Inverteu o tratamento constitucional dado aos institutos.
+> - **E)** Incorreta. O vício pontual de inconstitucionalidade em dispositivo do projeto não invalida todo o processo orçamentário, ensejando emenda saneadora ou veto governamental.
+> 
+> **Gabarito: C**
+
+---
+
+
 #### 2.5 Princípio do Orçamento Bruto
 - Estatuído no art. 6º da Lei nº 4.320/1964: todas as receitas e despesas constarão da lei de orçamento pelos seus **valores brutos totais**, vedada qualquer dedução pecuniária preliminar.
 - Não é admitido compensar a receita com as despesas cobradas para sua arrecadação (ex.: registrar no orçamento apenas o valor líquido arrecadado de um imposto após descontar as taxas bancárias de cobrança).
@@ -165,6 +190,38 @@ flowchart TD
     3. Realização de atividades da **administração tributária** (art. 37, XXII);
     4. Repartição constitucional de receitas tributárias (FPE, FPM, repartição de ICMS e IPVA);
     5. Prestação de garantias às operações de crédito por antecipação de receita e garantias prestadas à União.
+
+---
+
+### Questão 02 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+A respeito dos princípios orçamentários consagrados na legislação brasileira e no texto da Constituição Federal de 1988, considere as seguintes assertivas:
+
+I. O princípio da exclusividade impede que a Lei Orçamentária Anual disponha sobre autorização para a contratação de operações de crédito, ainda que por antecipação de receita orçamentária.  
+
+II. O princípio da não afetação veda genericamente a vinculação de qualquer espécie tributária a órgão, fundo ou despesa pública.  
+
+III. O princípio do orçamento bruto estabelece que todas as receitas e despesas constarão da lei de orçamento pelos seus totais, vedadas quaisquer deduções pecuniárias prévias.  
+
+Está correto o que se afirma APENAS em:
+
+* **A)** I.
+* **B)** II.
+* **C)** III.
+* **D)** I e II.
+* **E)** I e III.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O item I é falso, pois a contratação de operações de crédito (inclusive por ARO) é ressalva expressa ao princípio da exclusividade.
+> - **B)** Incorreta. O item II é falso, pois a vedação de afetação alcança restritivamente os impostos, não abrangendo taxas ou contribuições.
+> - **C)** Correta. Apenas a assertiva III é verdadeira. O art. 6º da Lei nº 4.320/1964 dispõe taxativamente que todas as receitas e despesas constarão da Lei de Orçamento pelos seus totais, vedadas quaisquer deduções pecuniárias.
+> - **D)** Incorreta. Ambos os itens I e II contêm erros jurídicos flagrantes.
+> - **E)** Incorreta. O item I é manifestamente contrário ao texto do art. 165, § 8º da CF/88.
+> 
+> **Gabarito: C**
+
+---
+
 
 #### 2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade
 - **Equilíbrio Orçamentário:** Igualdade formal entre receitas estimadas e despesas fixadas na lei orçamentária. No aspecto material moderno, exige gestão fiscal prudente para geração de superávits primários e controle da dívida consolidada líquida (LRF).
@@ -195,6 +252,30 @@ flowchart TD
 - **Vigência Quadrienal Descasada do Mandato:**  
   O PPA vigora por 4 anos: inicia-se no segundo ano do mandato do governante eleito e encerra-se no final do primeiro ano do mandato do sucessor (art. 35, § 2º, I do ADCT). Essa regra assegura a transição republicana e impede descontinuidade administrativa de projetos estratégicos.
 
+---
+
+### Questão 03 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+Acerca da vigência e da dinâmica estrutural do Plano Plurianual (PPA) no modelo orçamentário instituído pela Constituição Federal de 1988, é correto afirmar:
+
+* **A)** O PPA possui vigência de quatro anos, iniciando-se no primeiro ano do mandato do Chefe do Executivo e encerrando-se no término do quarto ano do mesmo mandato.
+* **B)** O PPA possui vigência de quatro anos, tendo início no segundo ano de mandato do governante eleito e término no encerramento do primeiro ano do mandato subsequente.
+* **C)** As diretrizes orçamentárias e metas do PPA vinculam a União e os Estados, mas dispensam adoção obrigatória no âmbito dos Municípios com menos de cinquenta mil habitantes.
+* **D)** O PPA destina-se unicamente a fixar a estimativa de arrecadação tributária anual e a tabela salarial dos servidores públicos da administração direta.
+* **E)** Os projetos de lei de PPA são de iniciativa concorrente entre o Presidente da República e os Presidentes da Câmara dos Deputados e do Senado Federal.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O PPA não coincide com os quatro anos exatos do mandato do chefe eleito, justamente para permitir continuidade gerencial e planejamento de médio prazo.
+> - **B)** Correta. Nos termos do art. 35, § 2º, I do ADCT da CF/88, o PPA vigora por quatro anos, iniciando seus efeitos em 1º de janeiro do segundo ano de mandato do Chefe do Executivo e perdurando até 31 de dezembro do primeiro ano do mandato governamental seguinte.
+> - **C)** Incorreta. O modelo orçamentário tripartite é obrigatório e vinculante para todas as esferas federativas, independentemente do porte populacional do Município.
+> - **D)** Incorreta. A estimativa tributária anual é matéria típica da LOA e as tabelas remuneratórias constam em leis ordinárias específicas; o PPA trata de diretrizes, objetivos e metas para despesas de capital e continuadas.
+> - **E)** Incorreta. A iniciativa legislativa das leis orçamentárias (PPA, LDO e LOA) é de competência privativa do Chefe do Poder Executivo (art. 165, *caput* da CF/88).
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF
 - **Matriz Constitucional (Art. 165, § 2º):**
     - Compreende as **metas e prioridades** da administração pública;
@@ -206,6 +287,30 @@ flowchart TD
     - **Anexo de Metas Fiscais (AMF):** Estabelece metas anuais, em valores correntes e constantes, relativas a receitas, despesas, resultado nominal e primário e montante da dívida pública, para o **exercício a que se referir e para os dois seguintes (triênio fiscal)**.
     - **Anexo de Riscos Fiscais (ARF):** Avalia os passivos contingentes e outros riscos capazes de afetar as contas públicas (ex.: demandas judiciais de grande repercussão, avais concedidos), informando as providências a serem tomadas caso se concretizem.
     - Critérios e formas de limitação de empenho e movimentação financeira (contingenciamento de gastos).
+
+---
+
+### Questão 04 (FCC - Adaptada / Analista de Gestão Pública)
+A Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000) introduziu instrumentos fundamentais para garantir a solvência e a transparência fiscal dos entes públicos. Dentre esses instrumentos, o documento integrante do projeto de Lei de Diretrizes Orçamentárias (LDO) que estabelece as metas anuais de receitas e despesas, o montante da dívida pública e os resultados primário e nominal para o exercício a que se refere e para os dois seguintes denomina-se:
+
+* **A)** Relatório de Gestão Fiscal (RGF).
+* **B)** Anexo de Riscos Fiscais (ARF).
+* **C)** Anexo de Metas Fiscais (AMF).
+* **D)** Balanço Orçamentário Simplificado.
+* **E)** Demonstrativo de Restos a Pagar.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Relatório de Gestão Fiscal (RGF) é documento de controle emitido quadrimestralmente por cada Poder e órgão (arts. 54 e 55 da LRF).
+> - **B)** Incorreta. O Anexo de Riscos Fiscais (ARF) avalia os passivos contingentes e outros riscos capazes de comprometer as finanças públicas (art. 4º, § 3º da LRF).
+> - **C)** Correta. De acordo com o art. 4º, § 1º da LRF, integrará o projeto de LDO o Anexo de Metas Fiscais (AMF), em que serão estabelecidas metas anuais para receitas, despesas, montante da dívida pública e resultados nominal e primário, para o exercício a que se referir e para os dois seguintes.
+> - **D)** Incorreta. Trata-se de demonstrativo contábil integrante da prestação de contas governamentais da Lei nº 4.320/1964.
+> - **E)** Incorreta. Trata-se de demonstrativo contábil de controle operacional da execução da despesa.
+> 
+> **Gabarito: C**
+
+---
+
 
 #### 3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada
 A LOA (art. 165, § 5º da CF/88) materializa o plano anual de receitas e despesas mediante três esferas integradas:
@@ -274,6 +379,30 @@ flowchart TD
 - **Vinculação à Saúde:** A **metade (50%)** desse percentual deve ser destinada obrigatoriamente a **ações e serviços públicos de saúde (ASPS)**.
 - **Vedação de Compensação:** Os recursos de emendas individuais não podem ser utilizados pelo Poder Executivo para abater ou integralizar o piso constitucional mínimo obrigatório que o ente deve aplicar em saúde (art. 166, § 10).
 
+---
+
+### Questão 05 (FCC - Adaptada / TCE-AP - Técnico de Controle Externo)
+Em relação às normas constitucionais vigentes relativas às emendas parlamentares individuais de execução orçamentária e financeira obrigatória (orçamento impositivo), é correto afirmar que:
+
+* **A)** Os recursos transferidos por meio de transferência especial ("emendas PIX") aos Estados e Municípios podem ser utilizados livremente para pagamento de folha de salários de servidores e serviço da dívida pública.
+* **B)** É obrigatória a destinação de, pelo menos, metade (50%) do valor total das emendas parlamentares individuais para ações e serviços públicos de saúde.
+* **C)** A execução das emendas individuais independe da observância de metas fiscais ou da constatação de impedimentos de ordem técnica devidamente justificados pelo Executivo.
+* **D)** O limite global de aprovação das emendas parlamentares individuais ao projeto de lei orçamentária é fixado em 10% da receita tributária líquida da União.
+* **E)** A execução orçamentária das emendas individuais de bancada estadual possui natureza facultativa e estritamente discricionária do Poder Executivo em qualquer hipótese.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O art. 166-A, § 1º da CF/88 proíbe terminantemente a utilização de transferências especiais para custear despesas com pessoal/encargos e para pagamento do serviço da dívida consolidada.
+> - **B)** Correta. Nos exatos termos do art. 166, § 9º da CF/88, as emendas individuais são aprovadas no limite de 2% da receita corrente líquida do exercício anterior, sendo que metade (50%) desse percentual é compulsoriamente destinada a ações e serviços públicos de saúde (ASPS).
+> - **C)** Incorreta. As emendas impositivas subordinam-se a contingenciamento proporcional na hipótese de frustração de receitas fiscais e podem ter execução sobrestada por impedimentos de ordem técnica fundamentados.
+> - **D)** Incorreta. O parâmetro constitucional é de 2% da Receita Corrente Líquida (RCL) do ano anterior, e não 10% da receita tributária.
+> - **E)** Incorreta. As emendas de bancada estadual também foram contempladas com regime impositivo de execução vinculante (art. 166, §§ 12 e 13 da CF/88).
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 5.2 Emendas de Bancada Estadual Impositivas
 - **Percentual Vinculante (Art. 166, § 12):** A aprovação e execução orçamentária e financeira das emendas de bancada de parlamentares de Estado ou do DF são obrigatórias até o limite de **1% da Receita Corrente Líquida** do exercício anterior.
 - Destinam-se precipuamente a investimentos estruturantes e despesas de capital de interesse regional.
@@ -311,119 +440,3 @@ A execução obrigatória do orçamento impositivo não é irrestrita:
 * GIACOMONI, James. **Orçamento Público**. 18. ed. São Paulo: Atlas, 2021. (Cap. 1 - O Papel do Orçamento na Economia Moderna; Cap. 3 - Princípios Orçamentários; Cap. 7 - O Ciclo Orçamentário).
 * PALUDO, Augustinho. **Orçamento Público, AFO e LRF**. 11. ed. Salvador: JusPodivm, 2022. (Cap. 1 a 4 - PPA, LDO, LOA e Princípios Orçamentários).
 * SANCHES, Osvaldo Maldonado. **Dicionário de Orçamento, Planejamento e Áreas Afins**. 2. ed. Brasília: OMS, 2004.
-
-
-## 📝 Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
-A respeito dos princípios orçamentários consagrados na legislação brasileira e no texto da Constituição Federal de 1988, considere as seguintes assertivas:
-
-I. O princípio da exclusividade impede que a Lei Orçamentária Anual disponha sobre autorização para a contratação de operações de crédito, ainda que por antecipação de receita orçamentária.  
-
-II. O princípio da não afetação veda genericamente a vinculação de qualquer espécie tributária a órgão, fundo ou despesa pública.  
-
-III. O princípio do orçamento bruto estabelece que todas as receitas e despesas constarão da lei de orçamento pelos seus totais, vedadas quaisquer deduções pecuniárias prévias.  
-
-Está correto o que se afirma APENAS em:
-
-* **A)** I.
-* **B)** II.
-* **C)** III.
-* **D)** I e II.
-* **E)** I e III.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O item I é falso, pois a contratação de operações de crédito (inclusive por ARO) é ressalva expressa ao princípio da exclusividade.
-> - **B)** Incorreta. O item II é falso, pois a vedação de afetação alcança restritivamente os impostos, não abrangendo taxas ou contribuições.
-> - **C)** Correta. Apenas a assertiva III é verdadeira. O art. 6º da Lei nº 4.320/1964 dispõe taxativamente que todas as receitas e despesas constarão da Lei de Orçamento pelos seus totais, vedadas quaisquer deduções pecuniárias.
-> - **D)** Incorreta. Ambos os itens I e II contêm erros jurídicos flagrantes.
-> - **E)** Incorreta. O item I é manifestamente contrário ao texto do art. 165, § 8º da CF/88.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC - Adaptada / TCE-AP - Técnico de Controle Externo)
-Em relação às normas constitucionais vigentes relativas às emendas parlamentares individuais de execução orçamentária e financeira obrigatória (orçamento impositivo), é correto afirmar que:
-
-* **A)** Os recursos transferidos por meio de transferência especial ("emendas PIX") aos Estados e Municípios podem ser utilizados livremente para pagamento de folha de salários de servidores e serviço da dívida pública.
-* **B)** É obrigatória a destinação de, pelo menos, metade (50%) do valor total das emendas parlamentares individuais para ações e serviços públicos de saúde.
-* **C)** A execução das emendas individuais independe da observância de metas fiscais ou da constatação de impedimentos de ordem técnica devidamente justificados pelo Executivo.
-* **D)** O limite global de aprovação das emendas parlamentares individuais ao projeto de lei orçamentária é fixado em 10% da receita tributária líquida da União.
-* **E)** A execução orçamentária das emendas individuais de bancada estadual possui natureza facultativa e estritamente discricionária do Poder Executivo em qualquer hipótese.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O art. 166-A, § 1º da CF/88 proíbe terminantemente a utilização de transferências especiais para custear despesas com pessoal/encargos e para pagamento do serviço da dívida consolidada.
-> - **B)** Correta. Nos exatos termos do art. 166, § 9º da CF/88, as emendas individuais são aprovadas no limite de 2% da receita corrente líquida do exercício anterior, sendo que metade (50%) desse percentual é compulsoriamente destinada a ações e serviços públicos de saúde (ASPS).
-> - **C)** Incorreta. As emendas impositivas subordinam-se a contingenciamento proporcional na hipótese de frustração de receitas fiscais e podem ter execução sobrestada por impedimentos de ordem técnica fundamentados.
-> - **D)** Incorreta. O parâmetro constitucional é de 2% da Receita Corrente Líquida (RCL) do ano anterior, e não 10% da receita tributária.
-> - **E)** Incorreta. As emendas de bancada estadual também foram contempladas com regime impositivo de execução vinculante (art. 166, §§ 12 e 13 da CF/88).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Adaptada / Analista de Planejamento e Orçamento)
-Acerca da vigência e da dinâmica estrutural do Plano Plurianual (PPA) no modelo orçamentário instituído pela Constituição Federal de 1988, é correto afirmar:
-
-* **A)** O PPA possui vigência de quatro anos, iniciando-se no primeiro ano do mandato do Chefe do Executivo e encerrando-se no término do quarto ano do mesmo mandato.
-* **B)** O PPA possui vigência de quatro anos, tendo início no segundo ano de mandato do governante eleito e término no encerramento do primeiro ano do mandato subsequente.
-* **C)** As diretrizes orçamentárias e metas do PPA vinculam a União e os Estados, mas dispensam adoção obrigatória no âmbito dos Municípios com menos de cinquenta mil habitantes.
-* **D)** O PPA destina-se unicamente a fixar a estimativa de arrecadação tributária anual e a tabela salarial dos servidores públicos da administração direta.
-* **E)** Os projetos de lei de PPA são de iniciativa concorrente entre o Presidente da República e os Presidentes da Câmara dos Deputados e do Senado Federal.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O PPA não coincide com os quatro anos exatos do mandato do chefe eleito, justamente para permitir continuidade gerencial e planejamento de médio prazo.
-> - **B)** Correta. Nos termos do art. 35, § 2º, I do ADCT da CF/88, o PPA vigora por quatro anos, iniciando seus efeitos em 1º de janeiro do segundo ano de mandato do Chefe do Executivo e perdurando até 31 de dezembro do primeiro ano do mandato governamental seguinte.
-> - **C)** Incorreta. O modelo orçamentário tripartite é obrigatório e vinculante para todas as esferas federativas, independentemente do porte populacional do Município.
-> - **D)** Incorreta. A estimativa tributária anual é matéria típica da LOA e as tabelas remuneratórias constam em leis ordinárias específicas; o PPA trata de diretrizes, objetivos e metas para despesas de capital e continuadas.
-> - **E)** Incorreta. A iniciativa legislativa das leis orçamentárias (PPA, LDO e LOA) é de competência privativa do Chefe do Poder Executivo (art. 165, *caput* da CF/88).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / Analista de Gestão Pública)
-A Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000) introduziu instrumentos fundamentais para garantir a solvência e a transparência fiscal dos entes públicos. Dentre esses instrumentos, o documento integrante do projeto de Lei de Diretrizes Orçamentárias (LDO) que estabelece as metas anuais de receitas e despesas, o montante da dívida pública e os resultados primário e nominal para o exercício a que se refere e para os dois seguintes denomina-se:
-
-* **A)** Relatório de Gestão Fiscal (RGF).
-* **B)** Anexo de Riscos Fiscais (ARF).
-* **C)** Anexo de Metas Fiscais (AMF).
-* **D)** Balanço Orçamentário Simplificado.
-* **E)** Demonstrativo de Restos a Pagar.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O Relatório de Gestão Fiscal (RGF) é documento de controle emitido quadrimestralmente por cada Poder e órgão (arts. 54 e 55 da LRF).
-> - **B)** Incorreta. O Anexo de Riscos Fiscais (ARF) avalia os passivos contingentes e outros riscos capazes de comprometer as finanças públicas (art. 4º, § 3º da LRF).
-> - **C)** Correta. De acordo com o art. 4º, § 1º da LRF, integrará o projeto de LDO o Anexo de Metas Fiscais (AMF), em que serão estabelecidas metas anuais para receitas, despesas, montante da dívida pública e resultados nominal e primário, para o exercício a que se referir e para os dois seguintes.
-> - **D)** Incorreta. Trata-se de demonstrativo contábil integrante da prestação de contas governamentais da Lei nº 4.320/1964.
-> - **E)** Incorreta. Trata-se de demonstrativo contábil de controle operacional da execução da despesa.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 5 (FCC - Adaptada / Auditor de Controle Externo)
-Na elaboração do projeto de Lei Orçamentária Anual (LOA) de determinado Estado, o Poder Executivo incluiu um artigo concedendo autorização legislativa para a alteração das alíquotas do Imposto sobre Circulação de Mercadorias e Serviços (ICMS), bem como autorização para a abertura de créditos orçamentários suplementares até o limite de 20% da despesa fixada.
-
-Diante do princípio orçamentário da exclusividade (art. 165, § 8º da CF/88):
-
-* **A)** Ambas as autorizações constantes do projeto são constitucionais, pois a LOA pode veicular quaisquer normas com reflexo financeiro.
-* **B)** Ambas as autorizações são flagrantemente inconstitucionais, haja vista que a LOA não admite qualquer tipo de exceção temática.
-* **C)** A autorização para abertura de créditos suplementares é constitucional por consistir em ressalva expressa ao princípio da exclusividade; todavia, a cláusula alterando alíquotas de ICMS padece de inconstitucionalidade material por se tratar de matéria estranha à LOA.
-* **D)** A autorização para alterar ICMS é válida, mas a previsão de créditos suplementares é proibida pelo texto constitucional.
-* **E)** O projeto é nulo e deve ser arquivado imediatamente sem deliberação pelo plenário da Assembleia Legislativa.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A LOA não pode veicular alterações de alíquotas tributárias de direito substantivo; isso configura típica violação ao princípio da exclusividade ("cauda orçamentária").
-> - **B)** Incorreta. A CF/88 estabelece duas exceções taxativas ao princípio da exclusividade (créditos suplementares e operações de crédito).
-> - **C)** Correta. Conforme o art. 165, § 8º da CF/88, a LOA não conterá matéria estranha à previsão da receita e à fixação da despesa, excetuando-se a autorização para abertura de créditos suplementares e contratação de operações de crédito. Logo, a autorização de créditos suplementares é constitucional, e a norma alteradora de alíquota do ICMS é inconstitucional por constituir matéria estranha à lei de meios orçamentária.
-> - **D)** Incorreta. Inverteu o tratamento constitucional dado aos institutos.
-> - **E)** Incorreta. O vício pontual de inconstitucionalidade em dispositivo do projeto não invalida todo o processo orçamentário, ensejando emenda saneadora ou veto governamental.
-> 
-> **Gabarito: C**

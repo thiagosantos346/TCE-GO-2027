@@ -32,7 +32,6 @@
     - [5.1 Diagnóstico Estratégico SWOT](#51-diagnostico-estrategico-swot)
     - [5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026](#52-os-quatro-eixos-estrategicos-do-pdti-20252026)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas no Padrão FCC](#7-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -72,6 +71,50 @@ flowchart TD
 > A banca FCC costuma perguntar quem é a autoridade competente para aprovar o PDTI no TCE-GO. O PDTI é **aprovado pelo CETI** (por meio de Ordem de Serviço, como a OS nº 001/2025-CETI) e **não** monocraticamente pelo Diretor de TI! A DTI apenas elabora a proposta técnica e executa as metas aprovadas.
 
 ---
+
+### Questão 01 (FCC Inédita - Auditor Estadual de Controle Externo / TI)
+**Enunciado:** No desenho da estrutura de governança e gestão de tecnologia da informação do Tribunal de Contas do Estado de Goiás, a Resolução Normativa nº 13/2016 instituiu o Comitê Estratégico de Tecnologia da Informação (CETI). Considerando os preceitos de segregação de funções entre instâncias de governança superior e órgãos executivos de gestão técnica, assinale a opção que expressa uma competência atribuída ao CETI:  
+
+* **A)** Programar rotinas de banco de dados em linguagem SQL e configurar portas de switches de borda no Data Center.
+* **B)** Aprovar formalmente as diretrizes do Plano Diretor de Tecnologia da Informação (PDTI) e priorizar as iniciativas e investimentos estratégicos de TIC alinhados ao planejamento do Tribunal.
+* **C)** Atender a chamados de primeiro nível de suporte técnico de usuários que esqueceram senhas na intranet institucional.
+* **D)** Homologar individualmente cada commit de código-fonte produzido pelos analistas de desenvolvimento da DTI.
+* **E)** Assinar monocraticamente contratos de compra de computadores sem a instauração de procedimento licitatório regular.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A programação de rotinas de banco de dados e configuração de switches são atribuições estritamente técnicas e operacionais da Diretoria de TI (DTI), e não de um comitê estratégico colegiado de alta direção.
+> - **B)** **Correta.** O CETI (RN nº 13/2016) é o órgão superior colegiado de governança de TIC do TCE-GO. Cabe ao CETI avaliar, direcionar e monitorar a tecnologia, o que compreende privativamente a aprovação formal do PDTI, suas revisões e a priorização do portfólio de projetos e investimentos estratégicos da Corte de Contas.
+> - **C)** Incorreta. O suporte de primeiro nível (Service Desk) compete à Gerência de Atendimento e Suporte da DTI.
+> - **D)** Incorreta. Homologação de commits de código é atividade técnica dos líderes de engenharia de software da Gerência de Sistemas da DTI.
+> - **E)** Incorreta. O CETI delibera estrategicamente de forma colegiada; contratos de compras públicas seguem a Lei 14.133/2021 sob a competência ordenadora da Presidência do Tribunal.
+> 
+> **Gabarito: B**
+
+---
+
+### Questão 02 (FCC Inédita - Analista de Sistemas / Engenharia de Software)
+**Enunciado:** Em conformidade com a Resolução Administrativa nº 14/2025, que reestruturou a Diretoria de Tecnologia da Informação (DTI) do TCE-GO, assinale a opção que descreve atribuições típicas das unidades técnicas subordinadas à DTI:  
+
+* **A)** Julgar as contas prestadas pelos prefeitos municipais goianos com força executiva de título judicial.
+* **B)** Desenvolver, sustentar e testar os softwares corporativos de controle externo, gerenciar a infraestrutura de redes e data centers, administrar bancos de dados corporativos e prestar atendimento de suporte ao usuário (Service Desk).
+* **C)** Elaborar o projeto de lei orçamentária anual do Estado de Goiás para votação na Assembleia Legislativa.
+* **D)** Substituir monocraticamente o Plenário do Tribunal na emissão de pareceres prévios sobre as contas do Governador do Estado.
+* **E)** Fiscalizar presencialmente a regularidade de tráfego de veículos rodoviários nas rodovias estaduais goianas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O julgamento de contas municipais é competência de controle externo dos Tribunais de Contas ou das Câmaras Municipais (conforme o tipo de conta), exercida pelos Conselheiros relatores e órgãos deliberativos do TCE, e não pela área técnica de TI.
+> - **B)** **Correta.** A Resolução Administrativa nº 14/2025 define a DTI como o braço executivo de tecnologia da corte, encarregado da engenharia de software (desenvolvimento e sustentação), infraestrutura (redes, telecomunicações e data centers), governança de bancos de dados/IA e atendimento aos usuários por meio do Service Desk.
+> - **C)** Incorreta. A elaboração da LOA estadual é atribuição do Poder Executivo (Secretaria de Economia / Governador).
+> - **D)** Incorreta. O parecer prévio sobre as contas do Governador é ato político-constitucional privativo do Tribunal Pleno do TCE-GO.
+> - **E)** Incorreta. Fiscalização rodoviária é competência da polícia rodoviária estadual e agências de trânsito (Goinfra/Detran).
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 1.2 Composição e Competências Primordiais do CETI
 
@@ -133,6 +176,29 @@ flowchart LR
 
 ---
 
+### Questão 03 (FCC Inédita - Auditor Estadual de Controle Externo / TI)
+**Enunciado:** Durante uma inspeção extraordinária sobre indícios de fraude em licitação promovida por secretaria de estado, a equipe de auditoria do TCE-GO coletou documentos fiscais sigilosos e relatórios de inteligência financeira. Segundo a Resolução Administrativa nº 17/2024 (Política de Segurança da Informação do TCE-GO), quanto à classificação da informação e tratamento desses ativos:  
+
+* **A)** Esses relatórios preliminares de inspeção sigilosa e dados fiscais devem ser classificados no nível Restrito/Sigiloso, tendo seu acesso restrito unicamente aos auditores legalmente designados e autoridades autorizadas, sendo vedada a disponibilização pública até a formal desclassificação nos termos da lei.
+* **B)** Devem ser imediatamente publicados na página inicial do Portal da Transparência em acesso livre irrestrito, sob a classificação de informação pública ordinária.
+* **C)** Podem ser encaminhados por correio eletrônico comercial gratuito não corporativo para guarda pessoal do auditor.
+* **D)** A classificação de informações no Tribunal de Contas é facultativa, inexistindo diferenciação entre documentos públicos e dados sob segredo fiscal.
+* **E)** Devem ser armazenados em pendrive sem senha e afixados no mural de avisos da recepção do Tribunal.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** De acordo com a RA nº 17/2024 (PSI do TCE-GO) e a legislação arquivística/LAI, informações protegidas por sigilo fiscal, bancário ou referentes a inspeções preliminares de auditoria em curso recebem o nível de classificação Restrita / Sigilosa. Esse nível impõe controles rígidos de acesso exclusivo aos auditores formalmente designados e autoridades competentes, visando não frustrar a eficácia da investigação e preservar garantias legais.
+> - **B)** Incorreta. A publicação precoce de relatórios preliminares sigilosos com dados fiscais causaria nulidade probatória, violação de sigilo fiscal (crime previsto no Código Penal e CTN) e infração à PSI.
+> - **C)** Incorreta. A PSI veda o envio de ativos de informação institucionais sigilosos para contas de correio eletrônico particulares ou serviços de nuvem pública não corporativos.
+> - **D)** Incorreta. A classificação da informação é mandatória e subdivide-se formalmente em quatro níveis (Pública, Interna, Confidencial e Restrita/Sigilosa).
+> - **E)** Incorreta. A conduta viola todos os princípios elementares da segurança da informação, da custódia documental e da integridade probatória do controle externo.
+> 
+> **Gabarito: A**
+
+---
+
+
+
 ### 3.2 Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes
 
 1. **Credenciais e Autenticação:**
@@ -152,6 +218,29 @@ flowchart LR
     - Dever funcional de todo servidor de comunicar imediatamente à DTI qualquer indício de infecção por malware, tentativa de *phishing* ou perda de equipamento funcional.
 
 ---
+
+### Questão 04 (FCC Inédita - Técnico de Controle Externo / Tecnologia da Informação)
+**Enunciado:** Um auditor técnico do TCE-GO, atuando no regime de teletrabalho, necessita acessar a base de dados do sistema de controle de processos administrativos para instruir um relatório de fiscalização. Em conformidade com a Política de Segurança da Informação (PSI) do Tribunal, instituída pela Resolução Administrativa nº 17/2024:  
+
+* **A)** O auditor deve conectar-se obrigatoriamente por meio de Rede Privada Virtual (VPN) corporativa com uso de autenticação de múltiplos fatores (MFA), sendo-lhe vedado armazenar cópias locais desprotegidas de relatórios restritos em computador doméstico compartilhado.
+* **B)** O auditor pode desativar a política de antivírus institucional caso sinta lentidão no processamento de planilhas.
+* **C)** É permitido compartilhar sua senha pessoal de rede com familiares próximos para agilizar a digitação de dados.
+* **D)** O acesso a documentos sigilosos de auditoria pode ser realizado a partir de computadores de uso público em cibercafés ou hotéis sem qualquer proteção criptográfica.
+* **E)** O uso de autenticação de duplo fator é expressamente proibido pela PSI por retardar o trabalho remoto.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** A Resolução Administrativa nº 17/2024 (PSI do TCE-GO) estabelece normas rigorosas para o teletrabalho e segurança da informação: acesso externo somente via túnel VPN corporativo com autenticação multifator (MFA), proteção de credenciais institucionais e proibição categórica de gravação de arquivos de trabalho restritos em mídias particulares não homologadas ou computadores compartilhados.
+> - **B)** Incorreta. A desativação de controles de segurança (como soluções antivírus gerenciadas) é terminantemente proibida e constitui falta funcional.
+> - **C)** Incorreta. O login e a senha são individuais, personalíssimos e intransferíveis; compartilhá-los com terceiros viola a confidencialidade e a integridade da cadeia de custódia da auditoria.
+> - **D)** Incorreta. Equipamentos públicos apresentam alto risco de captura de senhas por keyloggers e malwares, sendo seu uso vedado para tratar dados institucionais restritos.
+> - **E)** Incorreta. O uso de MFA é pilar obrigatório da PSI moderna, exigido categoricamente no Tribunal.
+> 
+> **Gabarito: A**
+
+---
+
+
 
 ## 4. Estrutura e Competências da Diretoria de TI (Resolução Administrativa nº 14/2025)
 
@@ -215,63 +304,7 @@ flowchart TD
 
 ---
 
-## 6. Fontes Recomendadas na Internet
-
-* [TCE-GO - Tecnologia da Informação Institucional](https://portal.tce.go.gov.br/tecnologia-da-informacao2) - Diretrizes, sistemas de processo eletrônico e estrutura de tecnologia da informação do TCE-GO.
-* [TCE-GO - Atos Normativos e Resoluções no TCE-Juris](https://portal.tce.go.gov.br/tce-juris/atos-normativos-do-tce-go) - Repositório oficial com as resoluções e instruções normativas de TI do tribunal.
-* [TCE-GO - Competências Constitucionais e Legais](https://portal.tce.go.gov.br/competencias) - Atribuições finalísticas do Tribunal de Contas do Estado de Goiás.
-* [TCE-GO - Resolução nº 22/2008 (Regimento Interno no GNOI)](https://gnoi.tce.go.gov.br/atoNormativo/Publicado?id=9544) - Regimento Interno do TCE-GO que disciplina a estrutura organizacional e comitês de TI.
-* [TCU - Governança Institucional e Fiscalização de TI](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial de auditoria e governança de tecnologia adotado em colaboração pelos tribunais de contas.
-* FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 1 a 3 - Governança no Setor Público e Comitês Diretivos).
-* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 6 - Instrumentos de Fiscalização dos Tribunais de Contas).
-* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 5 - Fiscalização Operacional e Governança da Administração Pública).
-
-
-## 7. Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC Inédita - Auditor Estadual de Controle Externo / TI)
-**Enunciado:** No desenho da estrutura de governança e gestão de tecnologia da informação do Tribunal de Contas do Estado de Goiás, a Resolução Normativa nº 13/2016 instituiu o Comitê Estratégico de Tecnologia da Informação (CETI). Considerando os preceitos de segregação de funções entre instâncias de governança superior e órgãos executivos de gestão técnica, assinale a opção que expressa uma competência atribuída ao CETI:  
-
-* **A)** Programar rotinas de banco de dados em linguagem SQL e configurar portas de switches de borda no Data Center.
-* **B)** Aprovar formalmente as diretrizes do Plano Diretor de Tecnologia da Informação (PDTI) e priorizar as iniciativas e investimentos estratégicos de TIC alinhados ao planejamento do Tribunal.
-* **C)** Atender a chamados de primeiro nível de suporte técnico de usuários que esqueceram senhas na intranet institucional.
-* **D)** Homologar individualmente cada commit de código-fonte produzido pelos analistas de desenvolvimento da DTI.
-* **E)** Assinar monocraticamente contratos de compra de computadores sem a instauração de procedimento licitatório regular.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A programação de rotinas de banco de dados e configuração de switches são atribuições estritamente técnicas e operacionais da Diretoria de TI (DTI), e não de um comitê estratégico colegiado de alta direção.
-> - **B)** **Correta.** O CETI (RN nº 13/2016) é o órgão superior colegiado de governança de TIC do TCE-GO. Cabe ao CETI avaliar, direcionar e monitorar a tecnologia, o que compreende privativamente a aprovação formal do PDTI, suas revisões e a priorização do portfólio de projetos e investimentos estratégicos da Corte de Contas.
-> - **C)** Incorreta. O suporte de primeiro nível (Service Desk) compete à Gerência de Atendimento e Suporte da DTI.
-> - **D)** Incorreta. Homologação de commits de código é atividade técnica dos líderes de engenharia de software da Gerência de Sistemas da DTI.
-> - **E)** Incorreta. O CETI delibera estrategicamente de forma colegiada; contratos de compras públicas seguem a Lei 14.133/2021 sob a competência ordenadora da Presidência do Tribunal.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC Inédita - Técnico de Controle Externo / Tecnologia da Informação)
-**Enunciado:** Um auditor técnico do TCE-GO, atuando no regime de teletrabalho, necessita acessar a base de dados do sistema de controle de processos administrativos para instruir um relatório de fiscalização. Em conformidade com a Política de Segurança da Informação (PSI) do Tribunal, instituída pela Resolução Administrativa nº 17/2024:  
-
-* **A)** O auditor deve conectar-se obrigatoriamente por meio de Rede Privada Virtual (VPN) corporativa com uso de autenticação de múltiplos fatores (MFA), sendo-lhe vedado armazenar cópias locais desprotegidas de relatórios restritos em computador doméstico compartilhado.
-* **B)** O auditor pode desativar a política de antivírus institucional caso sinta lentidão no processamento de planilhas.
-* **C)** É permitido compartilhar sua senha pessoal de rede com familiares próximos para agilizar a digitação de dados.
-* **D)** O acesso a documentos sigilosos de auditoria pode ser realizado a partir de computadores de uso público em cibercafés ou hotéis sem qualquer proteção criptográfica.
-* **E)** O uso de autenticação de duplo fator é expressamente proibido pela PSI por retardar o trabalho remoto.
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** A Resolução Administrativa nº 17/2024 (PSI do TCE-GO) estabelece normas rigorosas para o teletrabalho e segurança da informação: acesso externo somente via túnel VPN corporativo com autenticação multifator (MFA), proteção de credenciais institucionais e proibição categórica de gravação de arquivos de trabalho restritos em mídias particulares não homologadas ou computadores compartilhados.
-> - **B)** Incorreta. A desativação de controles de segurança (como soluções antivírus gerenciadas) é terminantemente proibida e constitui falta funcional.
-> - **C)** Incorreta. O login e a senha são individuais, personalíssimos e intransferíveis; compartilhá-los com terceiros viola a confidencialidade e a integridade da cadeia de custódia da auditoria.
-> - **D)** Incorreta. Equipamentos públicos apresentam alto risco de captura de senhas por keyloggers e malwares, sendo seu uso vedado para tratar dados institucionais restritos.
-> - **E)** Incorreta. O uso de MFA é pilar obrigatório da PSI moderna, exigido categoricamente no Tribunal.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 3 (FCC Inédita - Analista de TI / Governança e Planejamento)
+### Questão 05 (FCC Inédita - Analista de TI / Governança e Planejamento)
 **Enunciado:** O Plano Diretor de Tecnologia da Informação (PDTI) para o biênio 2025–2026 do Tribunal de Contas do Estado de Goiás foi aprovado pela Ordem de Serviço nº 001/2025-CETI. Em relação ao alinhamento estratégico, à estrutura e aos objetivos do PDTI 2025–2026, é correto afirmar:  
 
 * **A)** O PDTI é um instrumento puramente contábil que apenas lista a depreciação de monitores antigos, sem qualquer conexão com os objetivos finalísticos do Tribunal.
@@ -292,42 +325,15 @@ flowchart TD
 
 ---
 
-### Questão 4 (FCC Inédita - Analista de Sistemas / Engenharia de Software)
-**Enunciado:** Em conformidade com a Resolução Administrativa nº 14/2025, que reestruturou a Diretoria de Tecnologia da Informação (DTI) do TCE-GO, assinale a opção que descreve atribuições típicas das unidades técnicas subordinadas à DTI:  
 
-* **A)** Julgar as contas prestadas pelos prefeitos municipais goianos com força executiva de título judicial.
-* **B)** Desenvolver, sustentar e testar os softwares corporativos de controle externo, gerenciar a infraestrutura de redes e data centers, administrar bancos de dados corporativos e prestar atendimento de suporte ao usuário (Service Desk).
-* **C)** Elaborar o projeto de lei orçamentária anual do Estado de Goiás para votação na Assembleia Legislativa.
-* **D)** Substituir monocraticamente o Plenário do Tribunal na emissão de pareceres prévios sobre as contas do Governador do Estado.
-* **E)** Fiscalizar presencialmente a regularidade de tráfego de veículos rodoviários nas rodovias estaduais goianas.
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O julgamento de contas municipais é competência de controle externo dos Tribunais de Contas ou das Câmaras Municipais (conforme o tipo de conta), exercida pelos Conselheiros relatores e órgãos deliberativos do TCE, e não pela área técnica de TI.
-> - **B)** **Correta.** A Resolução Administrativa nº 14/2025 define a DTI como o braço executivo de tecnologia da corte, encarregado da engenharia de software (desenvolvimento e sustentação), infraestrutura (redes, telecomunicações e data centers), governança de bancos de dados/IA e atendimento aos usuários por meio do Service Desk.
-> - **C)** Incorreta. A elaboração da LOA estadual é atribuição do Poder Executivo (Secretaria de Economia / Governador).
-> - **D)** Incorreta. O parecer prévio sobre as contas do Governador é ato político-constitucional privativo do Tribunal Pleno do TCE-GO.
-> - **E)** Incorreta. Fiscalização rodoviária é competência da polícia rodoviária estadual e agências de trânsito (Goinfra/Detran).
-> 
-> **Gabarito: B**
+## 6. Fontes Recomendadas na Internet
 
----
-
-### Questão 5 (FCC Inédita - Auditor Estadual de Controle Externo / TI)
-**Enunciado:** Durante uma inspeção extraordinária sobre indícios de fraude em licitação promovida por secretaria de estado, a equipe de auditoria do TCE-GO coletou documentos fiscais sigilosos e relatórios de inteligência financeira. Segundo a Resolução Administrativa nº 17/2024 (Política de Segurança da Informação do TCE-GO), quanto à classificação da informação e tratamento desses ativos:  
-
-* **A)** Esses relatórios preliminares de inspeção sigilosa e dados fiscais devem ser classificados no nível Restrito/Sigiloso, tendo seu acesso restrito unicamente aos auditores legalmente designados e autoridades autorizadas, sendo vedada a disponibilização pública até a formal desclassificação nos termos da lei.
-* **B)** Devem ser imediatamente publicados na página inicial do Portal da Transparência em acesso livre irrestrito, sob a classificação de informação pública ordinária.
-* **C)** Podem ser encaminhados por correio eletrônico comercial gratuito não corporativo para guarda pessoal do auditor.
-* **D)** A classificação de informações no Tribunal de Contas é facultativa, inexistindo diferenciação entre documentos públicos e dados sob segredo fiscal.
-* **E)** Devem ser armazenados em pendrive sem senha e afixados no mural de avisos da recepção do Tribunal.
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** De acordo com a RA nº 17/2024 (PSI do TCE-GO) e a legislação arquivística/LAI, informações protegidas por sigilo fiscal, bancário ou referentes a inspeções preliminares de auditoria em curso recebem o nível de classificação Restrita / Sigilosa. Esse nível impõe controles rígidos de acesso exclusivo aos auditores formalmente designados e autoridades competentes, visando não frustrar a eficácia da investigação e preservar garantias legais.
-> - **B)** Incorreta. A publicação precoce de relatórios preliminares sigilosos com dados fiscais causaria nulidade probatória, violação de sigilo fiscal (crime previsto no Código Penal e CTN) e infração à PSI.
-> - **C)** Incorreta. A PSI veda o envio de ativos de informação institucionais sigilosos para contas de correio eletrônico particulares ou serviços de nuvem pública não corporativos.
-> - **D)** Incorreta. A classificação da informação é mandatória e subdivide-se formalmente em quatro níveis (Pública, Interna, Confidencial e Restrita/Sigilosa).
-> - **E)** Incorreta. A conduta viola todos os princípios elementares da segurança da informação, da custódia documental e da integridade probatória do controle externo.
-> 
-> **Gabarito: A**
+* [TCE-GO - Tecnologia da Informação Institucional](https://portal.tce.go.gov.br/tecnologia-da-informacao2) - Diretrizes, sistemas de processo eletrônico e estrutura de tecnologia da informação do TCE-GO.
+* [TCE-GO - Atos Normativos e Resoluções no TCE-Juris](https://portal.tce.go.gov.br/tce-juris/atos-normativos-do-tce-go) - Repositório oficial com as resoluções e instruções normativas de TI do tribunal.
+* [TCE-GO - Competências Constitucionais e Legais](https://portal.tce.go.gov.br/competencias) - Atribuições finalísticas do Tribunal de Contas do Estado de Goiás.
+* [TCE-GO - Resolução nº 22/2008 (Regimento Interno no GNOI)](https://gnoi.tce.go.gov.br/atoNormativo/Publicado?id=9544) - Regimento Interno do TCE-GO que disciplina a estrutura organizacional e comitês de TI.
+* [TCU - Governança Institucional e Fiscalização de TI](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial de auditoria e governança de tecnologia adotado em colaboração pelos tribunais de contas.
+* FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 1 a 3 - Governança no Setor Público e Comitês Diretivos).
+* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 6 - Instrumentos de Fiscalização dos Tribunais de Contas).
+* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 5 - Fiscalização Operacional e Governança da Administração Pública).

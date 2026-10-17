@@ -37,7 +37,6 @@
 - [4. Teorias Motivacionais de Conteúdo (Maslow, Herzberg, Alderfer e McClelland)](#4-teorias-motivacionais-de-conteudo-maslow-herzberg-alderfer-e-mcclelland)
 - [5. Teorias Motivacionais de Processo (Vroom, Adams, Locke e Skinner)](#5-teorias-motivacionais-de-processo-vroom-adams-locke-e-skinner)
 - [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
-- [7. Questões de Concurso FCC Comentadas](#7-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -89,6 +88,30 @@ flowchart LR
 
 ---
 
+### Questão 01
+**(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
+No modelo dos Cinco Grandes Fatores de Personalidade (*Big Five*), amplamente adotado nas pesquisas contemporâneas de comportamento organizacional, o traço que se revelou empiricamente como o preditor mais consistente e fidedigno de alto desempenho profissional na ampla maioria das ocupações é a:
+
+* **A)** Extroversão.
+* **B)** Conscienciosidade.
+* **C)** Agradabilidade.
+* **D)** Abertura a Experiências.
+* **E)** Estabilidade Emocional.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A extroversão prediz desempenho em funções comerciais e de liderança política, mas não de modo universal.  
+> - **B) CORRETA.** Centenas de pesquisas em Comportamento Organizacional comprovam que a **Conscienciosidade** (associada a alto senso de responsabilidade, rigor, organização, persistência, confiabilidade e foco em metas) é o fator do *Big Five* que possui correlação positiva mais forte e consistente com o bom desempenho profissional em quase todas as carreiras.  
+> - **C) Incorreta.** A agradabilidade favorece o trabalho em equipe, mas não é o principal preditor geral.  
+> - **D) Incorreta.** Abertura a experiências correlaciona-se com criatividade e adaptabilidade, mas não com desempenho padronizado contínuo.  
+> - **E) Incorreta.** Estabilidade emocional evita estresse, mas não garante disciplina produtiva.  
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional
 
 Uma **atitude** é um estado mental de prontidão organizado pela experiência, manifestado em juízos avaliativos (favoráveis ou desfavoráveis) sobre objetos, pessoas ou eventos. Estrutura-se em três componentes indissociáveis:
@@ -113,6 +136,30 @@ Fenômeno caracterizado por desconforto e tensão psicológica profunda quando o
 > A dissonância cognitiva (Leon Festinger) ocorre quando um indivíduo tem duas crenças contraditórias ou quando seu comportamento viola sua própria atitude moral. Para aliviar a tensão psicológica, a pessoa tende a mudar seu comportamento, alterar sua atitude ou criar justificativas racionais que acomodem a contradição.
 
 ---
+
+### Questão 02
+**(FCC – DPE-RS – Analista: Área Administrativa)**  
+A respeito das dimensões do comprometimento organizacional formuladas por John Meyer e Natalie Allen, considere a situação em que um servidor público federal recusa uma proposta de trabalho na iniciativa privada porque sente que a organização em que atua cumpriu um papel fundamental na sua formação profissional inicial, experimentando um profundo senso de obrigação moral e lealdade ética de permanecer servindo àquela instituição pública. Trata-se de um exemplo de comprometimento:
+
+* **A)** Instrumental.
+* **B)** De Continuação.
+* **C)** Normativo.
+* **D)** Dissonante.
+* **E)** Reativo.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O comprometimento instrumental decorre da avaliação de perdas econômicas associadas à saída da organização ("permanece porque precisa").
+> - **B) Incorreta.** O comprometimento de continuação é termo equivalente ao instrumental no modelo tridimensional de Meyer e Allen.
+> - **C) CORRETA.** O **Comprometimento Normativo** traduz o sentimento de obrigação moral e lealdade ética de permanecer na instituição por dever de consciência e gratidão ("permanece porque sente que deve").
+> - **D) Incorreta.** Termo dissociado da teoria clássica de comprometimento organizacional.
+> - **E) Incorreta.** Categoria alheia às três dimensões fundamentadas por Meyer e Allen (Afetiva, Normativa e Instrumental).
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 4. Teorias Motivacionais de Conteúdo (Maslow, Herzberg, Alderfer e McClelland)
 
@@ -152,6 +199,31 @@ flowchart TD
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (SALÁRIO MOTIVA SEGUNDO HERZBERG?):**  
 > Pegadinha clássica em provas da FCC: afirmar que na teoria de Herzberg o aumento de remuneração é um fator motivacional primordial. **FALSO!** Salário é um **Fator Higiênico (Extrínseco)**. O salário baixo gera insatisfação, mas o salário alto apenas neutraliza o descontentamento; ele **não possui o poder de produzir motivação duradoura**!
+
+---
+
+### Questão 03
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+Determinado gestor público, objetivando elevar a motivação dos servidores do setor de protocolo, promoveu uma reforma completa no ambiente físico do trabalho, instalando mobiliário ergonômico moderno, ar-condicionado de última geração e ampliando a remuneração com novo benefício de alimentação. Não obstante as medidas adotadas, os índices de proatividade e dedicação às tarefas intelectuais do setor permaneceram inalterados após alguns meses. Sob a perspectiva da Teoria dos Dois Fatores formulada por Frederick Herzberg, a ausência de elevação da motivação explica-se porque:
+
+* **A)** As medidas implementadas atuaram exclusivamente sobre os fatores higiênicos, os quais são capazes de evitar a insatisfação funcional, mas não possuem a propriedade de gerar motivação genuína.
+* **B)** A melhoria das condições físicas viola o princípio da equidade distributiva ao desconsiderar a valência das recompensas pecuniárias.
+* **C)** O gestor ignorou a necessidade de autoafirmação primária prevista na base da pirâmide de Clayton Alderfer.
+* **D)** O ambiente físico e o salário constituem fatores motivacionais de conteúdo que só produzem efeito quando associados a punições disciplinares.
+* **E)** O mobiliário moderno reduz a expectativa de esforço, eliminando a instrumentalidade postulada por Victor Vroom.
+
+> **Comentário Detalhado:**  
+>
+> - **A) CORRETA.** Segundo Frederick Herzberg, aspectos como ergonomia, ar-condicionado, condições de higiene predial e benefícios remuneratórios são **Fatores Higiênicos (Extrínsecos)**. A presença desses fatores em excelente nível é indispensável para evitar a insatisfação e reclamações dos servidores, mas é absolutamente incapaz de gerar motivação ou dedicação espontânea acima da média. A motivação decorre unicamente dos **Fatores Motivacionais (Intrínsecos)**, que dizem respeito ao desafio intelectual, responsabilidade, utilidade da tarefa e reconhecimento.  
+> - **B) Incorreta.** Trata-se da teoria bifatorial de Herzberg, não da equidade de Adams.  
+> - **C) Incorreta.** Alderfer dividiu as necessidades em Existência, Relacionamento e Crescimento.  
+> - **D) Incorreta.** Salário e ambiente são fatores higiênicos, e não motivacionais.  
+> - **E) Incorreta.** Mistura teorias de autores e premissas distintas.  
+> 
+> **Gabarito: A**
+
+---
+
 
 #### C) Teoria ERC de Clayton Alderfer:
 Condensou os níveis de Maslow em três necessidades essenciais:
@@ -195,12 +267,65 @@ flowchart LR
 > 🛑 **ATENÇÃO (PRODUTO MULTIPLICATIVO DE VROOM):**  
 > Na teoria da expectância de Vroom, se um servidor quer muito a promoção (Valência alta) e sabe que consegue bater a meta (Expectativa alta), mas sabe que o chefe vai promover um parente por nepotismo (Instrumentalidade = zero), a força motivacional do servidor será **ZERO**!
 
+---
+
+### Questão 04
+**(FCC – TCE-RS – Auditor de Controle Externo)**  
+Segundo a Teoria da Expectativa desenvolvida por Victor Vroom, a motivação de um indivíduo para se dedicar com afinco a uma atividade profissional resulta da interação cognitiva entre três variáveis fundamentais. A convicção pessoal de um servidor de que o alcance do desempenho esperado e a conclusão da meta pactuada serão efetivamente seguidos pela entrega da recompensa institucional prometida pela organização traduz o conceito de:
+
+* **A)** Valência.
+* **B)** Instrumentalidade.
+* **C)** Expectativa.
+* **D)** Equidade comparativa.
+* **E)** Locus de controle externo.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Valência é o grau de atratividade e valor pessoal que a recompensa possui para o servidor.  
+> - **B) CORRETA.** No modelo de Victor Vroom:  
+>     - *Expectativa:* É a crença de que o **Esforço levará ao Desempenho** (acreditar na própria competência para atingir a meta).  
+>     - **Instrumentalidade:** É a crença de que o **Desempenho alcançado levará à Recompensa prometida** (confiança de que a instituição entregará o benefício prometido se a meta for batida).  
+>     - *Valência:* É a relação entre a **Recompensa e os Objetivos Pessoais** (o apreço subjetivo pelo benefício).  
+> - **C) Incorreta.** Expectativa refere-se à relação esforço-desempenho.  
+> - **D) Incorreta.** Equidade pertence à teoria de J. Stacy Adams.  
+> - **E) Incorreta.** Locus de controle é conceito de traço de personalidade.  
+> 
+> **Gabarito: B**
+
+---
+
+
 #### B) Teoria da Equidade de J. Stacy Adams:
 Sustenta que a motivação decorre da percepção de justiça distributiva. O servidor compara a relação entre suas contribuições/insumos (*inputs* - esforço, formação, tempo) e suas recompensas (*outcomes* - remuneração, elogios, prestígio) com a relação equivalente observada em colegas de referência:
 
 $$\frac{\text{Recompensas Próprias}}{\text{Insumos Próprios}} \quad \text{versus} \quad \frac{\text{Recompensas do Colega}}{\text{Insumos do Colega}}$$
 
 * Constatando **iniquidade desfavorável** (ganha menos do que outros para a mesma carga de esforço), o indivíduo experimenta angústia e revolta, reagindo com queda intencional de produtividade, aumento do absenteísmo ou pedidos de exoneração/remoção.
+
+---
+
+### Questão 05
+**(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
+Um auditor fiscal estadual constatou que um colega recém-empossado na mesma gerência, desempenhando idênticas tarefas de fiscalização tributária e possuindo formação equivalente, foi contemplado com uma gratificação especial de produtividade 50% superior sem justificativa plausível de mérito. O auditor sentiu-se revoltado e passou a reduzir propositalmente seu ritmo diário de autuações e a faltar com frequência aos plantões fiscais. O comportamento adotado pelo auditor é explicado primordialmente pela:
+
+* **A)** Teoria da Dissonância Comportamental de Skinner.
+* **B)** Teoria da Hierarquia das Necessidades de Maslow.
+* **C)** Teoria da Equidade de J. Stacy Adams.
+* **D)** Teoria X de Douglas McGregor.
+* **E)** Teoria da Racionalidade Absoluta dos Processos.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Skinner é o autor da teoria do reforço operante.  
+> - **B) Incorreta.** Maslow trata da hierarquia fisiológica até autorrealização.  
+> - **C) CORRETA.** A **Teoria da Equidade de J. Stacy Adams** postula que os indivíduos comparam sua relação Resultados/Insumos com a relação de outros profissionais comparáveis. Ao constatar que o colega recebe recompensa desproporcionalmente maior para o mesmo esforço (iniquidade negativa sentida), o trabalhador busca restaurar o equilíbrio reduzindo seus insumos de trabalho (diminuindo o ritmo e faltando ao serviço).  
+> - **D) Incorreta.** A Teoria X de McGregor retrata pressupostos gerenciais autoritários sobre trabalhadores preguiçosos.  
+> - **E) Incorreta.** Opção sem respaldo teórico na psicologia motivacional.  
+> 
+> **Gabarito: C**
+
+---
+
 
 #### C) Teoria do Estabelecimento de Metas de Edwin Locke:
 Comprovou empiricamente que:
@@ -229,115 +354,3 @@ Abordagem comportamentalista segundo a qual o comportamento é condicionado por 
 * ROBBINS, Stephen P.; JUDGE, Timothy A.; SOBRAL, Filipe. **Comportamento Organizacional: Teoria e Prática no Contexto Brasileiro**. 14. ed. São Paulo: Pearson Prentice Hall, 2010. (Cap. 3 - Atitudes e Satisfação no Trabalho; Cap. 4 - Personalidade e Valores; Cap. 7 - Conceitos Básicos de Motivação).
 * CHIAVENATO, Idalberto. **Comportamento Organizacional: A Dinâmica do Sucesso das Organizações**. 4. ed. São Paulo: Atlas, 2021. (Cap. 3 - Personalidade e Atitudes; Cap. 5 - Teoria da Motivação: Maslow, Herzberg e McClelland).
 * HERZBERG, Frederick. **One More Time: How Do You Motivate Employees?**. Harvard Business Review, v. 46, n. 1, p. 53-62, 1968.
-
-
-### 7. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-Determinado gestor público, objetivando elevar a motivação dos servidores do setor de protocolo, promoveu uma reforma completa no ambiente físico do trabalho, instalando mobiliário ergonômico moderno, ar-condicionado de última geração e ampliando a remuneração com novo benefício de alimentação. Não obstante as medidas adotadas, os índices de proatividade e dedicação às tarefas intelectuais do setor permaneceram inalterados após alguns meses. Sob a perspectiva da Teoria dos Dois Fatores formulada por Frederick Herzberg, a ausência de elevação da motivação explica-se porque:
-
-* **A)** As medidas implementadas atuaram exclusivamente sobre os fatores higiênicos, os quais são capazes de evitar a insatisfação funcional, mas não possuem a propriedade de gerar motivação genuína.
-* **B)** A melhoria das condições físicas viola o princípio da equidade distributiva ao desconsiderar a valência das recompensas pecuniárias.
-* **C)** O gestor ignorou a necessidade de autoafirmação primária prevista na base da pirâmide de Clayton Alderfer.
-* **D)** O ambiente físico e o salário constituem fatores motivacionais de conteúdo que só produzem efeito quando associados a punições disciplinares.
-* **E)** O mobiliário moderno reduz a expectativa de esforço, eliminando a instrumentalidade postulada por Victor Vroom.
-
-> **Comentário Detalhado:**  
->
-> - **A) CORRETA.** Segundo Frederick Herzberg, aspectos como ergonomia, ar-condicionado, condições de higiene predial e benefícios remuneratórios são **Fatores Higiênicos (Extrínsecos)**. A presença desses fatores em excelente nível é indispensável para evitar a insatisfação e reclamações dos servidores, mas é absolutamente incapaz de gerar motivação ou dedicação espontânea acima da média. A motivação decorre unicamente dos **Fatores Motivacionais (Intrínsecos)**, que dizem respeito ao desafio intelectual, responsabilidade, utilidade da tarefa e reconhecimento.  
-> - **B) Incorreta.** Trata-se da teoria bifatorial de Herzberg, não da equidade de Adams.  
-> - **C) Incorreta.** Alderfer dividiu as necessidades em Existência, Relacionamento e Crescimento.  
-> - **D) Incorreta.** Salário e ambiente são fatores higiênicos, e não motivacionais.  
-> - **E) Incorreta.** Mistura teorias de autores e premissas distintas.  
-> 
-> **Gabarito: A**
-
----
-
-### Questão 02
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
-Segundo a Teoria da Expectativa desenvolvida por Victor Vroom, a motivação de um indivíduo para se dedicar com afinco a uma atividade profissional resulta da interação cognitiva entre três variáveis fundamentais. A convicção pessoal de um servidor de que o alcance do desempenho esperado e a conclusão da meta pactuada serão efetivamente seguidos pela entrega da recompensa institucional prometida pela organização traduz o conceito de:
-
-* **A)** Valência.
-* **B)** Instrumentalidade.
-* **C)** Expectativa.
-* **D)** Equidade comparativa.
-* **E)** Locus de controle externo.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Valência é o grau de atratividade e valor pessoal que a recompensa possui para o servidor.  
-> - **B) CORRETA.** No modelo de Victor Vroom:  
->     - *Expectativa:* É a crença de que o **Esforço levará ao Desempenho** (acreditar na própria competência para atingir a meta).  
->     - **Instrumentalidade:** É a crença de que o **Desempenho alcançado levará à Recompensa prometida** (confiança de que a instituição entregará o benefício prometido se a meta for batida).  
->     - *Valência:* É a relação entre a **Recompensa e os Objetivos Pessoais** (o apreço subjetivo pelo benefício).  
-> - **C) Incorreta.** Expectativa refere-se à relação esforço-desempenho.  
-> - **D) Incorreta.** Equidade pertence à teoria de J. Stacy Adams.  
-> - **E) Incorreta.** Locus de controle é conceito de traço de personalidade.  
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
-No modelo dos Cinco Grandes Fatores de Personalidade (*Big Five*), amplamente adotado nas pesquisas contemporâneas de comportamento organizacional, o traço que se revelou empiricamente como o preditor mais consistente e fidedigno de alto desempenho profissional na ampla maioria das ocupações é a:
-
-* **A)** Extroversão.
-* **B)** Conscienciosidade.
-* **C)** Agradabilidade.
-* **D)** Abertura a Experiências.
-* **E)** Estabilidade Emocional.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A extroversão prediz desempenho em funções comerciais e de liderança política, mas não de modo universal.  
-> - **B) CORRETA.** Centenas de pesquisas em Comportamento Organizacional comprovam que a **Conscienciosidade** (associada a alto senso de responsabilidade, rigor, organização, persistência, confiabilidade e foco em metas) é o fator do *Big Five* que possui correlação positiva mais forte e consistente com o bom desempenho profissional em quase todas as carreiras.  
-> - **C) Incorreta.** A agradabilidade favorece o trabalho em equipe, mas não é o principal preditor geral.  
-> - **D) Incorreta.** Abertura a experiências correlaciona-se com criatividade e adaptabilidade, mas não com desempenho padronizado contínuo.  
-> - **E) Incorreta.** Estabilidade emocional evita estresse, mas não garante disciplina produtiva.  
-> 
-> **Gabarito: B**
-
----
-
-### Questão 04
-**(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
-Um auditor fiscal estadual constatou que um colega recém-empossado na mesma gerência, desempenhando idênticas tarefas de fiscalização tributária e possuindo formação equivalente, foi contemplado com uma gratificação especial de produtividade 50% superior sem justificativa plausível de mérito. O auditor sentiu-se revoltado e passou a reduzir propositalmente seu ritmo diário de autuações e a faltar com frequência aos plantões fiscais. O comportamento adotado pelo auditor é explicado primordialmente pela:
-
-* **A)** Teoria da Dissonância Comportamental de Skinner.
-* **B)** Teoria da Hierarquia das Necessidades de Maslow.
-* **C)** Teoria da Equidade de J. Stacy Adams.
-* **D)** Teoria X de Douglas McGregor.
-* **E)** Teoria da Racionalidade Absoluta dos Processos.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Skinner é o autor da teoria do reforço operante.  
-> - **B) Incorreta.** Maslow trata da hierarquia fisiológica até autorrealização.  
-> - **C) CORRETA.** A **Teoria da Equidade de J. Stacy Adams** postula que os indivíduos comparam sua relação Resultados/Insumos com a relação de outros profissionais comparáveis. Ao constatar que o colega recebe recompensa desproporcionalmente maior para o mesmo esforço (iniquidade negativa sentida), o trabalhador busca restaurar o equilíbrio reduzindo seus insumos de trabalho (diminuindo o ritmo e faltando ao serviço).  
-> - **D) Incorreta.** A Teoria X de McGregor retrata pressupostos gerenciais autoritários sobre trabalhadores preguiçosos.  
-> - **E) Incorreta.** Opção sem respaldo teórico na psicologia motivacional.  
-> 
-> **Gabarito: C**
-
----
-
-### Questão 05
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
-A respeito das dimensões do comprometimento organizacional formuladas por John Meyer e Natalie Allen, considere a situação em que um servidor público federal recusa uma proposta de trabalho na iniciativa privada porque sente que a organização em que atua cumpriu um papel fundamental na sua formação profissional inicial, experimentando um profundo senso de obrigação moral e lealdade ética de permanecer servindo àquela instituição pública. Trata-se de um exemplo de comprometimento:
-
-* **A)** Instrumental.
-* **B)** De Continuação.
-* **C)** Normativo.
-* **D)** Dissonante.
-* **E)** Reativo.
-
-> **Comentário Detalhado:**  
->
-> - **A) e B) Incorretas.** O comprometimento instrumental (ou de continuação) baseia-se na dependência financeira e no receio dos custos de deixar o emprego (permanece porque precisa).  
-> - **C) CORRETA.** O **Comprometimento Normativo** reflete a obrigação moral e o sentimento de dever ético de permanecer na organização (o indivíduo fica porque **sente que deve**, movido por lealdade ou gratidão pela entidade).  
-> - **D) e E) Incorretas.** Termos não contemplados no modelo de três componentes de Meyer e Allen (que são: Afetivo, Instrumental e Normativo).  
-> 
-> **Gabarito: C**

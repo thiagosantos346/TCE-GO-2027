@@ -34,7 +34,6 @@
     - [5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)](#52-regra-geral-dos-provedores-de-aplicacao-art-19-ordem-judicial-previa)
     - [5.3 Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)](#53-excecao-critica-do-artigo-21-nudez-e-sexo-nao-consensual)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas no Padrão FCC](#7-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -114,6 +113,29 @@ A discriminação ou degradação de tráfego somente poderá decorrer de duas h
 
 ---
 
+### Questão 01 (FCC - Técnico Judiciário / Tecnologia da Informação)
+**Enunciado:** Uma empresa operadora de telecomunicações que fornece acesso à Internet em banda larga implementou uma política técnica em seus roteadores de borda para estrangular (*traffic shaping*) o tráfego de aplicações de chamadas telefônicas via Internet (VoIP) e de transmissão de vídeo ao vivo pertencentes a concorrentes, alegando em seus contratos de adesão que "a gestão dinâmica de pacotes visa assegurar a viabilidade comercial dos planos básicos". À luz do princípio da Neutralidade de Rede (Art. 9º da Lei nº 12.965/2014 e Decreto nº 8.771/2016):  
+
+* **A)** A conduta da empresa é plenamente lícita, pois as normas de mercado conferem liberdade irrestrita às operadoras para discriminar pacotes conforme interesses comerciais próprios.
+* **B)** A prática viola frontalmente o princípio da neutralidade de rede, o qual impõe o dever de tratar quaisquer pacotes de dados de forma isonômica, vedando a degradação motivada por interesses comerciais ou anticoncorrenciais.
+* **C)** A degradação de tráfego somente seria considerada ilícita se a velocidade fosse reduzida a zero; reduções parciais de velocidade são expressamente autorizadas pelo Decreto nº 8.771/2016.
+* **D)** A neutralidade de rede é um conceito meramente programático e ético, desprovido de qualquer cogência legal ou sanção administrativa no direito brasileiro.
+* **E)** A discriminação de pacotes só pode ocorrer se houver anuência prévia e expressa do Conselho Administrativo de Defesa Econômica (CADE) para cada conexão individualizada.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Art. 9º, caput, veda expressamente a discriminação ou privilégio de pacotes com base em interesses comerciais. A neutralidade impede que a operadora favoreça serviços próprios ou de parceiros em detrimento de concorrentes.
+> - **B)** **Correta.** O Marco Civil da Internet (Art. 9º) e o Decreto nº 8.771/2016 consagram a neutralidade de rede como dever de tratar quaisquer pacotes de dados com isonomia, sem distinção por conteúdo, origem, destino, terminal ou aplicação. As únicas exceções admitidas são requisitos técnicos indispensáveis à estabilidade/segurança da rede ou priorização de serviços de emergência (Art. 9º, § 1º). Motivação comercial constitui infração grave.
+> - **C)** Incorreta. Qualquer degradação, ainda que parcial, decorrente de motivações anticoncorrenciais ou comerciais é ilícita perante o Art. 9º.
+> - **D)** Incorreta. A neutralidade de rede é norma jurídica vinculante e cogente. Seu descumprimento sujeita o infrator a sanções de advertência, multa de até 10% do faturamento, suspensão temporária e proibição de exercício de atividades (Art. 12).
+> - **E)** Incorreta. A lei não prevê autorização caso a caso pelo CADE para discriminação de pacotes em conexões individuais; a regra geral mandatória é a isonomia.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 3. Regime de Guarda de Registros: Conexão vs. Aplicações de Internet
 
 O Marco Civil da Internet estabeleceu um regime binário de guarda de registros (*logs*), impondo deveres, prazos e proibições distintos para provedores de conexão e provedores de aplicação:
@@ -155,6 +177,56 @@ flowchart LR
 > A FCC adora inverter esses dois prazos em enunciados assertivos!
 
 ---
+
+### Questão 02 (FCC - Auditor de Controle Externo / Tecnologia da Informação)
+**Enunciado:** Em decorrência de fraude eletrônica em sistema de pagamento de tributos estaduais, a Delegacia Fazendária instaurou inquérito policial e emitiu ofício administrativo diretamente ao provedor de acesso à Internet (ISP) do principal suspeito, determinando:  
+
+I. O fornecimento imediato dos logs completos de conexão à Internet do investigado (endereço IP, porta lógica, data e hora de conexão) referentes aos últimos doze meses.  
+
+II. O fornecimento do histórico detalhado de todas as páginas web, endereços URL e serviços em nuvem visitados pelo usuário no mesmo período.  
+
+Recebido o ofício, a assessoria técnica e jurídica do provedor de conexão analisou os pedidos com base estrita na Lei nº 12.965/2014 (Marco Civil da Internet). O provedor deve:  
+
+* **A)** Atender integralmente a ambos os itens, visto que a autoridade policial detém prerrogativa legal incondicionada de requisição direta de quaisquer dados e logs de rede durante inquéritos.
+* **B)** Recusar o fornecimento direto dos logs de conexão do item I por ausência de ordem judicial prévia e declarar a impossibilidade absoluta de cumprimento do item II, haja vista que a legislação veda expressamente aos provedores de conexão a guarda de registros de acesso a aplicações de internet.
+* **C)** Atender ao item II, mantendo sob sigilo o item I por se tratar de segredo de telecomunicações regido unicamente pela Anatel.
+* **D)** Cumprir o item I apenas pelo período de seis meses, prazo máximo de guarda de conexão permitido por lei, e fornecer o histórico do item II mediante pagamento de custas administrativas.
+* **E)** Atender ao item I apenas se o Ministério Público ratificar administrativamente a ordem do Delegado, sendo o item II de fornecimento obrigatório pelo prazo de 5 anos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A autoridade policial não possui prerrogativa de requisição direta sobre logs de conexão e de aplicação. O Marco Civil da Internet consagra a estrita reserva de jurisdição (Art. 10, § 1º): a disponibilização desses dados depende indispensavelmente de ordem judicial fundamentada.
+> - **B)** **Correta.** A conduta correta do provedor de conexão é exatamente recusar o item I até que sobrevenha decisão judicial fundamentada (Art. 10, § 1º e Art. 13, § 1º) e recusar categoricamente o item II com esteio no Art. 14, que estabelece expressamente: *"Na provisão de conexão à internet, é vedada a guarda dos registros de acesso a aplicações de internet"*. Provedores de conexão não podem rastrear nem armazenar o histórico de navegação.
+> - **C)** Incorreta. O item II jamais pode ser atendido pelo ISP, pois a legislação proíbe expressamente a guarda do histórico de sites navegados.
+> - **D)** Incorreta. O prazo de guarda de registros de conexão para ISPs é de 1 ano (Art. 13), e não 6 meses. Além disso, o histórico de navegação (aplicações) não pode ser guardado pelo ISP sob hipótese alguma.
+> - **E)** Incorreta. A ratificação do MP não substitui a ordem judicial emanada pelo magistrado competente. Não existe previsão legal de guarda de histórico por 5 anos pelo ISP.
+> 
+> **Gabarito: B**
+
+---
+
+### Questão 03 (FCC - Analista de Redes e Telecomunicações)
+**Enunciado:** Um portal de notícias e rede social corporativa com sede e operação no Brasil, mantido por pessoa jurídica com fins lucrativos, armazena registros de seus usuários. Sob as regras específicas de guarda de registros de acesso a aplicações de internet contidas no Art. 15 da Lei nº 12.965/2014, o administrador dessa aplicação:  
+
+* **A)** Deve manter os registros de acesso a aplicações sob sigilo, em ambiente controlado e de segurança, pelo prazo mínimo de 6 (seis) meses.
+* **B)** É obrigado a guardar os registros de acesso a aplicações pelo prazo de 1 (um) ano, idêntico ao prazo imposto aos provedores de conexão à internet.
+* **C)** Não tem obrigação legal de guardar registros de acesso, salvo se houver requerimento formal de seus acionistas.
+* **D)** Pode comercializar os registros de acesso a anunciantes publicitários sem necessidade de consentimento dos usuários.
+* **E)** Deve guardar os registros por tempo indeterminado e mantê-los em acesso público aberto em formato JSON.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** O Art. 15 da Lei nº 12.965/2014 preceitua que o provedor de aplicações de internet constituído na forma de pessoa jurídica e que exerça essa atividade de forma organizada, profissionalmente e com fins econômicos deverá manter os respectivos registros de acesso a aplicações de internet, sob sigilo, em ambiente controlado e de segurança, pelo prazo de 6 (seis) meses.
+> - **B)** Incorreta. O prazo de 1 ano aplica-se aos provedores de conexão (Art. 13), e não aos provedores de aplicações (cujo prazo é de 6 meses).
+> - **C)** Incorreta. A guarda por 6 meses é imposição legal cogente para empresas constituídas com fins econômicos, não dependendo de deliberação de acionistas.
+> - **D)** Incorreta. Os registros devem ser guardados sob estrito sigilo. A comercialização sem base legal e consentimento específico viola frontalmente a LGPD e o Marco Civil (Art. 7º, VII).
+> - **E)** Incorreta. A guarda perpétua e pública viola o princípio da segurança e a inviolabilidade da intimidade e privacidade dos usuários (Art. 7º, I).
+> 
+> **Gabarito: A**
+
+---
+
+
 
 ### 3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)
 
@@ -246,90 +318,31 @@ O Artigo 21 constitui a exceção mais importante e cobrada em provas de concurs
 
 ---
 
-## 6. Fontes Recomendadas na Internet
+### Questão 04 (FCC - Auditor Fiscal / Tecnologia da Informação)
+**Enunciado:** Uma usuária de rede social teve fotos íntimas suas, contendo cenas de nudez e atos sexuais de caráter privado, divulgadas sem seu consentimento por um ex-namorado em perfil público de grande alcance. A usuária enviou uma notificação eletrônica fundamentada diretamente aos administradores da rede social, apontando expressamente o endereço eletrônico (URL) das imagens e exigindo a remoção incontinenti do conteúdo íntimo não autorizado. A plataforma recusou a remoção alegando que, nos termos da regra geral do Marco Civil da Internet, só é obrigada a excluir postagens mediante intimação de ordem judicial transitada em julgado.  
+Considerando as disposições específicas do Art. 21 da Lei nº 12.965/2014:  
 
-* [Lei nº 12.965/2014 (Marco Civil da Internet)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm) - Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.
-* [Decreto nº 8.771/2016 (Regulamento do Marco Civil da Internet)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8771.htm) - Regulamenta a neutralidade de rede, a guarda de registros e os padrões de segurança de dados.
-* [Comitê Gestor da Internet no Brasil (CGI.br) - Estrutura e Governança](https://cgi.br/sobre/) - Histórico, competências institucionais e princípios fundamentais de governança da Internet no Brasil.
-* [IETF RFC 8446 - The Transport Layer Security (TLS) Protocol Version 1.3](https://datatracker.ietf.org/doc/html/rfc8446) - Norma técnica que viabiliza a inviolabilidade e o sigilo das comunicações previsto no art. 7º do Marco Civil.
-* [Governo Digital - Infraestrutura Nacional de Dados (IND)](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados) - Governança e compartilhamento de dados governamentais conforme as garantias do Marco Civil.
-* PINHEIRO, Patricia Peck. **Direito Digital**. 7. ed. São Paulo: SaraivaJur, 2021. (Cap. 3 - Marco Civil da Internet: Responsabilidade e Registros).
-* SOUZA, Carlos Affonso; LEMOS, Ronaldo. **Marco Civil da Internet: Construção e Aplicação**. São Paulo: Revista dos Tribunais, 2014. (Cap. 1 - Neutralidade de Rede; Cap. 2 - Guarda de Registros e Privacidade).
-* BLUM, Renato Opice. **Marco Civil da Internet Comentado**. São Paulo: Quartier Latin, 2015. (Arts. 9º a 17 - Responsabilidade Civil dos Provedores).
-
-
-## 7. Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC - Auditor de Controle Externo / Tecnologia da Informação)
-**Enunciado:** Em decorrência de fraude eletrônica em sistema de pagamento de tributos estaduais, a Delegacia Fazendária instaurou inquérito policial e emitiu ofício administrativo diretamente ao provedor de acesso à Internet (ISP) do principal suspeito, determinando:  
-
-I. O fornecimento imediato dos logs completos de conexão à Internet do investigado (endereço IP, porta lógica, data e hora de conexão) referentes aos últimos doze meses.  
-
-II. O fornecimento do histórico detalhado de todas as páginas web, endereços URL e serviços em nuvem visitados pelo usuário no mesmo período.  
-
-Recebido o ofício, a assessoria técnica e jurídica do provedor de conexão analisou os pedidos com base estrita na Lei nº 12.965/2014 (Marco Civil da Internet). O provedor deve:  
-
-* **A)** Atender integralmente a ambos os itens, visto que a autoridade policial detém prerrogativa legal incondicionada de requisição direta de quaisquer dados e logs de rede durante inquéritos.
-* **B)** Recusar o fornecimento direto dos logs de conexão do item I por ausência de ordem judicial prévia e declarar a impossibilidade absoluta de cumprimento do item II, haja vista que a legislação veda expressamente aos provedores de conexão a guarda de registros de acesso a aplicações de internet.
-* **C)** Atender ao item II, mantendo sob sigilo o item I por se tratar de segredo de telecomunicações regido unicamente pela Anatel.
-* **D)** Cumprir o item I apenas pelo período de seis meses, prazo máximo de guarda de conexão permitido por lei, e fornecer o histórico do item II mediante pagamento de custas administrativas.
-* **E)** Atender ao item I apenas se o Ministério Público ratificar administrativamente a ordem do Delegado, sendo o item II de fornecimento obrigatório pelo prazo de 5 anos.
+* **A)** A plataforma agiu corretamente, pois nenhuma exceção à exigência de ordem judicial prévia foi recepcionada pela legislação brasileira.
+* **B)** A recusa da plataforma enseja sua responsabilidade subsidiária pelas perdas e danos sofridos pela vítima, pois a divulgação não autorizada de nudez ou atos sexuais privados gera o dever de remoção imediata após simples notificação pelo ofendido ou seu representante legal, independentemente de ordem judicial.
+* **C)** O conteúdo só poderia ser removido se a vítima registrasse previamente boletim de ocorrência internacional perante a Interpol.
+* **D)** A plataforma responde de forma penal por homicídio qualificado em concurso formal com o autor da publicação.
+* **E)** A responsabilidade da plataforma restringe-se ao pagamento de multa administrativa à Anatel, vedada qualquer reparação de cunho cível à ofendida.
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A autoridade policial não possui prerrogativa de requisição direta sobre logs de conexão e de aplicação. O Marco Civil da Internet consagra a estrita reserva de jurisdição (Art. 10, § 1º): a disponibilização desses dados depende indispensavelmente de ordem judicial fundamentada.
-> - **B)** **Correta.** A conduta correta do provedor de conexão é exatamente recusar o item I até que sobrevenha decisão judicial fundamentada (Art. 10, § 1º e Art. 13, § 1º) e recusar categoricamente o item II com esteio no Art. 14, que estabelece expressamente: *"Na provisão de conexão à internet, é vedada a guarda dos registros de acesso a aplicações de internet"*. Provedores de conexão não podem rastrear nem armazenar o histórico de navegação.
-> - **C)** Incorreta. O item II jamais pode ser atendido pelo ISP, pois a legislação proíbe expressamente a guarda do histórico de sites navegados.
-> - **D)** Incorreta. O prazo de guarda de registros de conexão para ISPs é de 1 ano (Art. 13), e não 6 meses. Além disso, o histórico de navegação (aplicações) não pode ser guardado pelo ISP sob hipótese alguma.
-> - **E)** Incorreta. A ratificação do MP não substitui a ordem judicial emanada pelo magistrado competente. Não existe previsão legal de guarda de histórico por 5 anos pelo ISP.
+> - **A)** Incorreta. O Art. 21 é a exceção expressa à regra do Art. 19. Para os casos de materiais contendo nudez ou atos sexuais de caráter privado divulgados sem autorização ("pornografia de vingança"), dispensa-se a prévia ordem judicial.
+> - **B)** **Correta.** O Art. 21 dispõe: *"O provedor de aplicações de internet que disponibilize conteúdo gerado por terceiros será responsabilizado subsidiariamente pela violação da intimidade decorrente da divulgação, sem autorização de seus participantes, de imagens, vídeos ou outros materiais contendo cenas de nudez ou de atos sexuais de caráter privado quando, após o recebimento de notificação pelo participante ou seu representante legal, deixar de promover, de forma diligente, no âmbito e nos limites técnicos do seu serviço, a indisponibilização desse conteúdo"*. Como a plataforma recusou a remoção após notificação com indicação de URL, ela passa a responder subsidiariamente pelos danos.
+> - **C)** Incorreta. A lei exige apenas a notificação formal pelo participante contendo elementos que permitam a identificação específica do material. Não há exigência de boletim de ocorrência policial.
+> - **D)** Incorreta. O Marco Civil disciplina a responsabilidade civil por danos, e a tipificação de crimes sexuais decorre do Código Penal, inexistindo relação com homicídio no contexto apresentado.
+> - **E)** Incorreta. A lei prevê expressamente a responsabilidade civil (reparação de danos morais e materiais à vítima), não se limitando a sanções administrativas.
 > 
 > **Gabarito: B**
 
 ---
 
-### Questão 2 (FCC - Técnico Judiciário / Tecnologia da Informação)
-**Enunciado:** Uma empresa operadora de telecomunicações que fornece acesso à Internet em banda larga implementou uma política técnica em seus roteadores de borda para estrangular (*traffic shaping*) o tráfego de aplicações de chamadas telefônicas via Internet (VoIP) e de transmissão de vídeo ao vivo pertencentes a concorrentes, alegando em seus contratos de adesão que "a gestão dinâmica de pacotes visa assegurar a viabilidade comercial dos planos básicos". À luz do princípio da Neutralidade de Rede (Art. 9º da Lei nº 12.965/2014 e Decreto nº 8.771/2016):  
 
-* **A)** A conduta da empresa é plenamente lícita, pois as normas de mercado conferem liberdade irrestrita às operadoras para discriminar pacotes conforme interesses comerciais próprios.
-* **B)** A prática viola frontalmente o princípio da neutralidade de rede, o qual impõe o dever de tratar quaisquer pacotes de dados de forma isonômica, vedando a degradação motivada por interesses comerciais ou anticoncorrenciais.
-* **C)** A degradação de tráfego somente seria considerada ilícita se a velocidade fosse reduzida a zero; reduções parciais de velocidade são expressamente autorizadas pelo Decreto nº 8.771/2016.
-* **D)** A neutralidade de rede é um conceito meramente programático e ético, desprovido de qualquer cogência legal ou sanção administrativa no direito brasileiro.
-* **E)** A discriminação de pacotes só pode ocorrer se houver anuência prévia e expressa do Conselho Administrativo de Defesa Econômica (CADE) para cada conexão individualizada.
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O Art. 9º, caput, veda expressamente a discriminação ou privilégio de pacotes com base em interesses comerciais. A neutralidade impede que a operadora favoreça serviços próprios ou de parceiros em detrimento de concorrentes.
-> - **B)** **Correta.** O Marco Civil da Internet (Art. 9º) e o Decreto nº 8.771/2016 consagram a neutralidade de rede como dever de tratar quaisquer pacotes de dados com isonomia, sem distinção por conteúdo, origem, destino, terminal ou aplicação. As únicas exceções admitidas são requisitos técnicos indispensáveis à estabilidade/segurança da rede ou priorização de serviços de emergência (Art. 9º, § 1º). Motivação comercial constitui infração grave.
-> - **C)** Incorreta. Qualquer degradação, ainda que parcial, decorrente de motivações anticoncorrenciais ou comerciais é ilícita perante o Art. 9º.
-> - **D)** Incorreta. A neutralidade de rede é norma jurídica vinculante e cogente. Seu descumprimento sujeita o infrator a sanções de advertência, multa de até 10% do faturamento, suspensão temporária e proibição de exercício de atividades (Art. 12).
-> - **E)** Incorreta. A lei não prevê autorização caso a caso pelo CADE para discriminação de pacotes em conexões individuais; a regra geral mandatória é a isonomia.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Analista de Redes e Telecomunicações)
-**Enunciado:** Um portal de notícias e rede social corporativa com sede e operação no Brasil, mantido por pessoa jurídica com fins lucrativos, armazena registros de seus usuários. Sob as regras específicas de guarda de registros de acesso a aplicações de internet contidas no Art. 15 da Lei nº 12.965/2014, o administrador dessa aplicação:  
-
-* **A)** Deve manter os registros de acesso a aplicações sob sigilo, em ambiente controlado e de segurança, pelo prazo mínimo de 6 (seis) meses.
-* **B)** É obrigado a guardar os registros de acesso a aplicações pelo prazo de 1 (um) ano, idêntico ao prazo imposto aos provedores de conexão à internet.
-* **C)** Não tem obrigação legal de guardar registros de acesso, salvo se houver requerimento formal de seus acionistas.
-* **D)** Pode comercializar os registros de acesso a anunciantes publicitários sem necessidade de consentimento dos usuários.
-* **E)** Deve guardar os registros por tempo indeterminado e mantê-los em acesso público aberto em formato JSON.
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** O Art. 15 da Lei nº 12.965/2014 preceitua que o provedor de aplicações de internet constituído na forma de pessoa jurídica e que exerça essa atividade de forma organizada, profissionalmente e com fins econômicos deverá manter os respectivos registros de acesso a aplicações de internet, sob sigilo, em ambiente controlado e de segurança, pelo prazo de 6 (seis) meses.
-> - **B)** Incorreta. O prazo de 1 ano aplica-se aos provedores de conexão (Art. 13), e não aos provedores de aplicações (cujo prazo é de 6 meses).
-> - **C)** Incorreta. A guarda por 6 meses é imposição legal cogente para empresas constituídas com fins econômicos, não dependendo de deliberação de acionistas.
-> - **D)** Incorreta. Os registros devem ser guardados sob estrito sigilo. A comercialização sem base legal e consentimento específico viola frontalmente a LGPD e o Marco Civil (Art. 7º, VII).
-> - **E)** Incorreta. A guarda perpétua e pública viola o princípio da segurança e a inviolabilidade da intimidade e privacidade dos usuários (Art. 7º, I).
-> 
-> **Gabarito: A**
-
----
-
-### Questão 4 (FCC - Analista Judiciário / Área Apoio Especializado / TI)
+### Questão 05 (FCC - Analista Judiciário / Área Apoio Especializado / TI)
 **Enunciado:** Determinado usuário de uma popular plataforma de compartilhamento de vídeos publicou material ofensivo atribuindo falsamente a prática de crime de improbidade administrativa a um servidor público. O servidor notificou extrajudicialmente a plataforma por meio de carta com aviso de recebimento (AR), exigindo a retirada imediata do vídeo. A plataforma manteve o vídeo no ar. Posteriormente, o servidor ingressou com ação judicial e o juiz deferiu liminar ordenando a remoção do conteúdo em 24 horas sob pena de multa diária. A plataforma removeu o conteúdo 6 horas após ser formalmente intimada da decisão judicial.  
 À luz do regime de responsabilidade civil por danos de terceiros previsto no Art. 19 da Lei nº 12.965/2014:  
 
@@ -351,22 +364,15 @@ Recebido o ofício, a assessoria técnica e jurídica do provedor de conexão an
 
 ---
 
-### Questão 5 (FCC - Auditor Fiscal / Tecnologia da Informação)
-**Enunciado:** Uma usuária de rede social teve fotos íntimas suas, contendo cenas de nudez e atos sexuais de caráter privado, divulgadas sem seu consentimento por um ex-namorado em perfil público de grande alcance. A usuária enviou uma notificação eletrônica fundamentada diretamente aos administradores da rede social, apontando expressamente o endereço eletrônico (URL) das imagens e exigindo a remoção incontinenti do conteúdo íntimo não autorizado. A plataforma recusou a remoção alegando que, nos termos da regra geral do Marco Civil da Internet, só é obrigada a excluir postagens mediante intimação de ordem judicial transitada em julgado.  
-Considerando as disposições específicas do Art. 21 da Lei nº 12.965/2014:  
 
-* **A)** A plataforma agiu corretamente, pois nenhuma exceção à exigência de ordem judicial prévia foi recepcionada pela legislação brasileira.
-* **B)** A recusa da plataforma enseja sua responsabilidade subsidiária pelas perdas e danos sofridos pela vítima, pois a divulgação não autorizada de nudez ou atos sexuais privados gera o dever de remoção imediata após simples notificação pelo ofendido ou seu representante legal, independentemente de ordem judicial.
-* **C)** O conteúdo só poderia ser removido se a vítima registrasse previamente boletim de ocorrência internacional perante a Interpol.
-* **D)** A plataforma responde de forma penal por homicídio qualificado em concurso formal com o autor da publicação.
-* **E)** A responsabilidade da plataforma restringe-se ao pagamento de multa administrativa à Anatel, vedada qualquer reparação de cunho cível à ofendida.
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O Art. 21 é a exceção expressa à regra do Art. 19. Para os casos de materiais contendo nudez ou atos sexuais de caráter privado divulgados sem autorização ("pornografia de vingança"), dispensa-se a prévia ordem judicial.
-> - **B)** **Correta.** O Art. 21 dispõe: *"O provedor de aplicações de internet que disponibilize conteúdo gerado por terceiros será responsabilizado subsidiariamente pela violação da intimidade decorrente da divulgação, sem autorização de seus participantes, de imagens, vídeos ou outros materiais contendo cenas de nudez ou de atos sexuais de caráter privado quando, após o recebimento de notificação pelo participante ou seu representante legal, deixar de promover, de forma diligente, no âmbito e nos limites técnicos do seu serviço, a indisponibilização desse conteúdo"*. Como a plataforma recusou a remoção após notificação com indicação de URL, ela passa a responder subsidiariamente pelos danos.
-> - **C)** Incorreta. A lei exige apenas a notificação formal pelo participante contendo elementos que permitam a identificação específica do material. Não há exigência de boletim de ocorrência policial.
-> - **D)** Incorreta. O Marco Civil disciplina a responsabilidade civil por danos, e a tipificação de crimes sexuais decorre do Código Penal, inexistindo relação com homicídio no contexto apresentado.
-> - **E)** Incorreta. A lei prevê expressamente a responsabilidade civil (reparação de danos morais e materiais à vítima), não se limitando a sanções administrativas.
-> 
-> **Gabarito: B**
+## 6. Fontes Recomendadas na Internet
+
+* [Lei nº 12.965/2014 (Marco Civil da Internet)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm) - Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.
+* [Decreto nº 8.771/2016 (Regulamento do Marco Civil da Internet)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8771.htm) - Regulamenta a neutralidade de rede, a guarda de registros e os padrões de segurança de dados.
+* [Comitê Gestor da Internet no Brasil (CGI.br) - Estrutura e Governança](https://cgi.br/sobre/) - Histórico, competências institucionais e princípios fundamentais de governança da Internet no Brasil.
+* [IETF RFC 8446 - The Transport Layer Security (TLS) Protocol Version 1.3](https://datatracker.ietf.org/doc/html/rfc8446) - Norma técnica que viabiliza a inviolabilidade e o sigilo das comunicações previsto no art. 7º do Marco Civil.
+* [Governo Digital - Infraestrutura Nacional de Dados (IND)](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados) - Governança e compartilhamento de dados governamentais conforme as garantias do Marco Civil.
+* PINHEIRO, Patricia Peck. **Direito Digital**. 7. ed. São Paulo: SaraivaJur, 2021. (Cap. 3 - Marco Civil da Internet: Responsabilidade e Registros).
+* SOUZA, Carlos Affonso; LEMOS, Ronaldo. **Marco Civil da Internet: Construção e Aplicação**. São Paulo: Revista dos Tribunais, 2014. (Cap. 1 - Neutralidade de Rede; Cap. 2 - Guarda de Registros e Privacidade).
+* BLUM, Renato Opice. **Marco Civil da Internet Comentado**. São Paulo: Quartier Latin, 2015. (Arts. 9º a 17 - Responsabilidade Civil dos Provedores).

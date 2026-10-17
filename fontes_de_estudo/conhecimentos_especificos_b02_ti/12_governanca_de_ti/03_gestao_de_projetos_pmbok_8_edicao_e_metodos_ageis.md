@@ -34,7 +34,6 @@
     - [5.2 Variações e Índices de Desempenho (IDP e IDC)](#52-variacoes-e-indices-de-desempenho-idp-e-idc)
 - [6. Gestão de Portfólio de TI e Governança de Programas](#6-gestao-de-portfolio-de-ti-e-governanca-de-programas)
 - [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
-- [8. Questões Comentadas no Padrão FCC](#8-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -82,6 +81,29 @@ flowchart TD
 
 ---
 
+### Questão 01 (FCC - Técnico de Controle Externo / TI - Adaptada)
+**Enunciado:** A respeito da estrutura de governança de projetos, programas e portfólios preconizada pelas boas práticas do Project Management Institute (PMI), assinale a afirmativa correta:  
+
+* **A)** Um portfólio consiste exclusivamente em um conjunto de projetos que possuem dependências técnicas operacionais obrigatórias e sequenciais entre si.
+* **B)** O programa é caracterizado por um grupo de projetos relacionados, subsidiários e atividades correlatas gerenciados de forma coordenada para obter benefícios que não estariam disponíveis se fossem gerenciados individualmente.
+* **C)** Um projeto é uma iniciativa permanente da organização que visa executar rotinas padronizadas e contínuas para manutenção do suporte de TI.
+* **D)** O gerenciamento de portfólio foca exclusivamente no acompanhamento da velocidade diária de codificação dos desenvolvedores de sistemas.
+* **E)** A gestão de programas visa substituir os órgãos colegiados e a alta administração do Tribunal de Contas nas deliberações de planejamento estratégico.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Os projetos e programas agrupados em um portfólio não necessitam de dependências técnicas mútuas; seu elo reside no alinhamento aos mesmos objetivos estratégicos corporativos.
+> - **B)** **Correta.** Definição literal do PMI: Programa é um grupo de projetos relacionados gerenciados de forma coordenada para a obtenção de benefícios e controle que não estariam disponíveis se fossem gerenciados de maneira isolada.
+> - **C)** Incorreta. O projeto é por essência temporário (tem início e término) e único; tarefas contínuas e repetitivas configuram operações.
+> - **D)** Incorreta. O gerenciamento de portfólio foca no nível estratégico (seleção, priorização e retorno agregado), não na velocidade de codificação individual de programadores.
+> - **E)** Incorreta. A gestão de programas é um mecanismo executivo subordinado à governança, jamais substituindo o plenário ou a alta administração do Tribunal.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 1.3 O Sistema de Entrega de Valor (System for Value Delivery)
 
 A partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos).
@@ -116,6 +138,29 @@ Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipe
 
 ---
 
+### Questão 02 (FCC - Analista de TI / Sistemas - Adaptada)
+**Enunciado:** O padrão de gestão de projetos moderno do Guia PMBOK abandonou a estrutura estritamente processual e prescritiva, adotando uma abordagem holística estruturada em 12 Princípios de Entrega de Projetos e 8 Domínios de Desempenho. O princípio que estabelece a necessidade deliberada de ajustar e personalizar a governança, os métodos, as ferramentas e a quantidade de documentação de acordo com as características específicas, o porte e o nível de incerteza de cada projeto denomina-se:  
+
+* **A)** Stewardship (Administração Diligente).
+* **B)** Systems Thinking (Pensamento Sistêmico).
+* **C)** Tailoring (Adaptação Contextual).
+* **D)** Quality (Incorporação de Qualidade).
+* **E)** Complexity (Navegação na Complexidade).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. *Stewardship* trata do zelo ético, integridade, honestidade e responsabilidade socioambiental na condução do projeto.
+> - **B)** Incorreta. *Systems Thinking* refere-se à visão holística das interações e interdependências entre o projeto e a organização como um todo.
+> - **C)** **Correta.** O princípio da Adaptação (*Tailoring*) preconiza que não existe um modelo universal único. A equipe do projeto deve customizar conscientemente os processos, ritos e métodos às necessidades específicas do projeto e ao contexto organizacional.
+> - **D)** Incorreta. Trata da conformidade com os requisitos de qualidade e aptidão para o uso.
+> - **E)** Incorreta. Refere-se à habilidade de lidar com volatilidade e ambiguidades no projeto.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ## 3. Os 8 Domínios de Desempenho do Projeto
 
 Os **Domínios de Desempenho** (*Project Performance Domains*) são grupos de atividades correlatas essenciais para a entrega bem-sucedida de projetos:
@@ -144,6 +189,29 @@ flowchart TD
 8. **Incerteza (*Uncertainty*):** Identificação, avaliação e tratamento de incertezas, ambiguidades, riscos operacionais e contingências imprevistas.
 
 ---
+
+### Questão 03 (FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)
+**Enunciado:** O Guia PMBOK define os 8 Domínios de Desempenho do Projeto (*Project Performance Domains*). O domínio que trata de atividades como o gerenciamento do fluxo de trabalho físico e digital, a alocação eficiente de recursos materiais, a remoção de impedimentos e o gerenciamento contínuo das aquisições e contratos durante o ciclo diário do projeto denomina-se:  
+
+* **A)** Domínio das Partes Interessadas (*Stakeholders*).
+* **B)** Domínio da Entrega (*Delivery*).
+* **C)** Domínio do Trabalho do Projeto (*Project Work*).
+* **D)** Domínio da Medição (*Measurement*).
+* **E)** Domínio da Incerteza (*Uncertainty*).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O domínio de Stakeholders trata de mapear, engajar e comunicar-se com os indivíduos e grupos impactados pelo projeto.
+> - **B)** Incorreta. O domínio da Entrega foca nos requisitos, qualidade e aceitação dos entregáveis finais gerados.
+> - **C)** **Correta.** O Domínio de Desempenho do Trabalho do Projeto (*Project Work*) dedica-se ao estabelecimento dos processos de trabalho, gerenciamento dos recursos materiais, remoção de impedimentos ao fluxo da equipe e administração de aquisições e contratos de suporte.
+> - **D)** Incorreta. O domínio da Medição trata de métricas, indicadores e Análise de Valor Agregado (EVM).
+> - **E)** Incorreta. O domínio da Incerteza gerencia riscos, volatilidade e ambiguidades.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ## 4. Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)
 
@@ -182,6 +250,29 @@ flowchart TD
 - O desenvolvimento, testes de software e validações com usuários ocorrem por meio de sprints quinzenais ágeis, garantindo adaptação rápida a mudanças.
 
 ---
+
+### Questão 04 (FCC - Auditor Federal de Controle Externo / TI - Adaptada)
+**Enunciado:** No âmbito do Domínio de Desempenho da Abordagem de Desenvolvimento e Ciclo de Vida do PMBOK, a escolha do ciclo de vida adequado para um projeto de TI deve equilibrar previsibilidade e agilidade. Ao planejar o desenvolvimento de um grande sistema previdenciário público, a equipe optou por fixar o escopo macro, o limite orçamentário e os marcos regulatórios de conformidade em um plano formal inicial, enquanto os módulos de software são implementados e homologados em sprints quinzenais por times ágeis. Essa configuração caracteriza uma abordagem:  
+
+* **A)** Preditiva pura (Cascata).
+* **B)** Híbrida.
+* **C)** Caótica descontrolada.
+* **D)** Exclusivamente iterativa sem entregas funcionais.
+* **E)** Estritamente linear sem feedback.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Na abordagem preditiva pura (cascata), todas as etapas são sequenciais e a entrega é única ao final de todo o ciclo, sem sprints quinzenais nem entregas iterativas funcionais.
+> - **B)** **Correta.** A Abordagem Híbrida mescla características do ciclo preditivo (planejamento formal de marcos, orçamento teto e requisitos regulatórios) com técnicas adaptativas (iterações curtas, sprints e entregas frequentes por equipes ágeis).
+> - **C)** Incorreta. A abordagem híbrida é disciplinada, planejada e estruturada, não sendo caótica.
+> - **D)** Incorreta. A homologação em sprints quinzenais gera incrementos funcionais utilizáveis.
+> - **E)** Incorreta. As sprints quinzenais incorporam ciclos rápidos de feedback, contradizendo o modelo linear sem feedback.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 4.3 Adaptação Contextual (Tailoring)
 
@@ -236,6 +327,35 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca FCC adora inverter os numeradores e denominadores para induzir ao erro. Grave a regra mnemônica: **O Valor Agregado ($VA$) SEMPRE fica no numerador nas fórmulas dos índices de desempenho** ($IDP = VA / VP$ e $IDC = VA / CR$).
 
+---
+
+### Questão 05 (FCC - Analista de TI / Gestão de Projetos - Adaptada)
+**Enunciado:** Em uma auditoria de acompanhamento de um projeto estratégico de desenvolvimento de software em um Tribunal de Contas, o fiscal técnico de TI apurou os seguintes valores na Análise de Valor Agregado (EVM) ao término do quinto mês:  
+
+- Valor Planejado (VP): R$ 400.000,00  
+- Valor Agregado (VA): R$ 320.000,00  
+- Custo Real (CR): R$ 300.000,00  
+Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e do Índice de Desempenho de Custos (IDC) demonstram que o projeto está:  
+
+* **A)** Adiantado no cronograma (IDP = 1,25) e gastando mais que o previsto (IDC = 0,75).
+* **B)** Atrasado no cronograma (IDP = 0,80) e com desempenho de custos favorável, abaixo do orçamento para o trabalho executado (IDC = 1,067).
+* **C)** Rigorosamente no prazo (IDP = 1,00) e com equilíbrio fiscal absoluto (IDC = 1,00).
+* **D)** Atrasado no cronograma (IDP = 0,80) e com prejuízo financeiro grave, estourando os custos orçados (IDC = 0,937).
+* **E)** Adiantado no cronograma (IDP = 1,33) e com custos favoráveis (IDC = 1,20).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Inverteu os valores dividindo $VP$ por $VA$ para calcular o IDP.
+> - **B)** **Correta.** O cálculo do Índice de Desempenho de Prazos resulta em $IDP = \frac{VA}{VP} = \frac{320.000}{400.000} = 0,80$. Sendo $IDP < 1$, o projeto está atrasado em relação ao previsto. O cálculo do Índice de Desempenho de Custos resulta em $IDC = \frac{VA}{CR} = \frac{320.000}{300.000} \approx 1,067$. Sendo $IDC > 1$, o projeto operou abaixo do orçamento orçado para o volume de trabalho entregue (desempenho favorável).
+> - **C)** Incorreta. Os valores de IDP e IDC não são iguais à unidade.
+> - **D)** Incorreta. O cálculo do IDC resultou em $1,067 > 1$, o que indica economia de gastos e não prejuízo financeiro.
+> - **E)** Incorreta. Os valores numéricos foram calculados erroneamente.
+> 
+> **Gabarito: B**
+
+---
+
+
 #### Tabela Diagnóstica Rápida de EVM
 
 | Índices | Situação de Prazos | Situação de Custos | Diagnóstico Geral |
@@ -267,114 +387,3 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 * PROJECT MANAGEMENT INSTITUTE. **Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK)**. 7. ed. Newtown Square: PMI, 2021. (Seção 1 - O Padrão de Gerenciamento de Projetos; Seção 2 - Domínios de Desempenho do Projeto).
 * KERZNER, Harold. **Gestão de Projetos: As Melhores Práticas**. 3. ed. Porto Alegre: Bookman, 2011. (Cap. 1 - Visão Geral do Gerenciamento de Projetos; Cap. 14 - Gestão do Valor Agregado - EVM).
 * SUTHERLAND, Jeff. **Scrum: A Arte de Fazer o Dobro do Trabalho na Metade do Tempo**. São Paulo: Leya, 2014. (Cap. 1 a 5 - Métodos Ágeis e Ciclos de Feedback).
-
-
-## 8. Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC - Analista de TI / Gestão de Projetos - Adaptada)
-**Enunciado:** Em uma auditoria de acompanhamento de um projeto estratégico de desenvolvimento de software em um Tribunal de Contas, o fiscal técnico de TI apurou os seguintes valores na Análise de Valor Agregado (EVM) ao término do quinto mês:  
-
-- Valor Planejado (VP): R$ 400.000,00  
-- Valor Agregado (VA): R$ 320.000,00  
-- Custo Real (CR): R$ 300.000,00  
-Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e do Índice de Desempenho de Custos (IDC) demonstram que o projeto está:  
-
-* **A)** Adiantado no cronograma (IDP = 1,25) e gastando mais que o previsto (IDC = 0,75).
-* **B)** Atrasado no cronograma (IDP = 0,80) e com desempenho de custos favorável, abaixo do orçamento para o trabalho executado (IDC = 1,067).
-* **C)** Rigorosamente no prazo (IDP = 1,00) e com equilíbrio fiscal absoluto (IDC = 1,00).
-* **D)** Atrasado no cronograma (IDP = 0,80) e com prejuízo financeiro grave, estourando os custos orçados (IDC = 0,937).
-* **E)** Adiantado no cronograma (IDP = 1,33) e com custos favoráveis (IDC = 1,20).
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Inverteu os valores dividindo $VP$ por $VA$ para calcular o IDP.
-> - **B)** **Correta.** O cálculo do Índice de Desempenho de Prazos resulta em $IDP = \frac{VA}{VP} = \frac{320.000}{400.000} = 0,80$. Sendo $IDP < 1$, o projeto está atrasado em relação ao previsto. O cálculo do Índice de Desempenho de Custos resulta em $IDC = \frac{VA}{CR} = \frac{320.000}{300.000} \approx 1,067$. Sendo $IDC > 1$, o projeto operou abaixo do orçamento orçado para o volume de trabalho entregue (desempenho favorável).
-> - **C)** Incorreta. Os valores de IDP e IDC não são iguais à unidade.
-> - **D)** Incorreta. O cálculo do IDC resultou em $1,067 > 1$, o que indica economia de gastos e não prejuízo financeiro.
-> - **E)** Incorreta. Os valores numéricos foram calculados erroneamente.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Técnico de Controle Externo / TI - Adaptada)
-**Enunciado:** A respeito da estrutura de governança de projetos, programas e portfólios preconizada pelas boas práticas do Project Management Institute (PMI), assinale a afirmativa correta:  
-
-* **A)** Um portfólio consiste exclusivamente em um conjunto de projetos que possuem dependências técnicas operacionais obrigatórias e sequenciais entre si.
-* **B)** O programa é caracterizado por um grupo de projetos relacionados, subsidiários e atividades correlatas gerenciados de forma coordenada para obter benefícios que não estariam disponíveis se fossem gerenciados individualmente.
-* **C)** Um projeto é uma iniciativa permanente da organização que visa executar rotinas padronizadas e contínuas para manutenção do suporte de TI.
-* **D)** O gerenciamento de portfólio foca exclusivamente no acompanhamento da velocidade diária de codificação dos desenvolvedores de sistemas.
-* **E)** A gestão de programas visa substituir os órgãos colegiados e a alta administração do Tribunal de Contas nas deliberações de planejamento estratégico.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Os projetos e programas agrupados em um portfólio não necessitam de dependências técnicas mútuas; seu elo reside no alinhamento aos mesmos objetivos estratégicos corporativos.
-> - **B)** **Correta.** Definição literal do PMI: Programa é um grupo de projetos relacionados gerenciados de forma coordenada para a obtenção de benefícios e controle que não estariam disponíveis se fossem gerenciados de maneira isolada.
-> - **C)** Incorreta. O projeto é por essência temporário (tem início e término) e único; tarefas contínuas e repetitivas configuram operações.
-> - **D)** Incorreta. O gerenciamento de portfólio foca no nível estratégico (seleção, priorização e retorno agregado), não na velocidade de codificação individual de programadores.
-> - **E)** Incorreta. A gestão de programas é um mecanismo executivo subordinado à governança, jamais substituindo o plenário ou a alta administração do Tribunal.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Analista de TI / Sistemas - Adaptada)
-**Enunciado:** O padrão de gestão de projetos moderno do Guia PMBOK abandonou a estrutura estritamente processual e prescritiva, adotando uma abordagem holística estruturada em 12 Princípios de Entrega de Projetos e 8 Domínios de Desempenho. O princípio que estabelece a necessidade deliberada de ajustar e personalizar a governança, os métodos, as ferramentas e a quantidade de documentação de acordo com as características específicas, o porte e o nível de incerteza de cada projeto denomina-se:  
-
-* **A)** Stewardship (Administração Diligente).
-* **B)** Systems Thinking (Pensamento Sistêmico).
-* **C)** Tailoring (Adaptação Contextual).
-* **D)** Quality (Incorporação de Qualidade).
-* **E)** Complexity (Navegação na Complexidade).
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. *Stewardship* trata do zelo ético, integridade, honestidade e responsabilidade socioambiental na condução do projeto.
-> - **B)** Incorreta. *Systems Thinking* refere-se à visão holística das interações e interdependências entre o projeto e a organização como um todo.
-> - **C)** **Correta.** O princípio da Adaptação (*Tailoring*) preconiza que não existe um modelo universal único. A equipe do projeto deve customizar conscientemente os processos, ritos e métodos às necessidades específicas do projeto e ao contexto organizacional.
-> - **D)** Incorreta. Trata da conformidade com os requisitos de qualidade e aptidão para o uso.
-> - **E)** Incorreta. Refere-se à habilidade de lidar com volatilidade e ambiguidades no projeto.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 4 (FCC - Auditor Federal de Controle Externo / TI - Adaptada)
-**Enunciado:** No âmbito do Domínio de Desempenho da Abordagem de Desenvolvimento e Ciclo de Vida do PMBOK, a escolha do ciclo de vida adequado para um projeto de TI deve equilibrar previsibilidade e agilidade. Ao planejar o desenvolvimento de um grande sistema previdenciário público, a equipe optou por fixar o escopo macro, o limite orçamentário e os marcos regulatórios de conformidade em um plano formal inicial, enquanto os módulos de software são implementados e homologados em sprints quinzenais por times ágeis. Essa configuração caracteriza uma abordagem:  
-
-* **A)** Preditiva pura (Cascata).
-* **B)** Híbrida.
-* **C)** Caótica descontrolada.
-* **D)** Exclusivamente iterativa sem entregas funcionais.
-* **E)** Estritamente linear sem feedback.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Na abordagem preditiva pura (cascata), todas as etapas são sequenciais e a entrega é única ao final de todo o ciclo, sem sprints quinzenais nem entregas iterativas funcionais.
-> - **B)** **Correta.** A Abordagem Híbrida mescla características do ciclo preditivo (planejamento formal de marcos, orçamento teto e requisitos regulatórios) com técnicas adaptativas (iterações curtas, sprints e entregas frequentes por equipes ágeis).
-> - **C)** Incorreta. A abordagem híbrida é disciplinada, planejada e estruturada, não sendo caótica.
-> - **D)** Incorreta. A homologação em sprints quinzenais gera incrementos funcionais utilizáveis.
-> - **E)** Incorreta. As sprints quinzenais incorporam ciclos rápidos de feedback, contradizendo o modelo linear sem feedback.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)
-**Enunciado:** O Guia PMBOK define os 8 Domínios de Desempenho do Projeto (*Project Performance Domains*). O domínio que trata de atividades como o gerenciamento do fluxo de trabalho físico e digital, a alocação eficiente de recursos materiais, a remoção de impedimentos e o gerenciamento contínuo das aquisições e contratos durante o ciclo diário do projeto denomina-se:  
-
-* **A)** Domínio das Partes Interessadas (*Stakeholders*).
-* **B)** Domínio da Entrega (*Delivery*).
-* **C)** Domínio do Trabalho do Projeto (*Project Work*).
-* **D)** Domínio da Medição (*Measurement*).
-* **E)** Domínio da Incerteza (*Uncertainty*).
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O domínio de Stakeholders trata de mapear, engajar e comunicar-se com os indivíduos e grupos impactados pelo projeto.
-> - **B)** Incorreta. O domínio da Entrega foca nos requisitos, qualidade e aceitação dos entregáveis finais gerados.
-> - **C)** **Correta.** O Domínio de Desempenho do Trabalho do Projeto (*Project Work*) dedica-se ao estabelecimento dos processos de trabalho, gerenciamento dos recursos materiais, remoção de impedimentos ao fluxo da equipe e administração de aquisições e contratos de suporte.
-> - **D)** Incorreta. O domínio da Medição trata de métricas, indicadores e Análise de Valor Agregado (EVM).
-> - **E)** Incorreta. O domínio da Incerteza gerencia riscos, volatilidade e ambiguidades.
-> 
-> **Gabarito: C**

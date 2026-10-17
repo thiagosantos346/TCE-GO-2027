@@ -39,7 +39,6 @@
     - [4.4 Microsegmentação e Contenção do Movimento Lateral](#44-microsegmentacao-e-contencao-do-movimento-lateral)
     - [4.5 Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)](#45-componentes-logicos-policy-engine-pe-policy-administrator-pa-e-policy-enforcement-point-pep)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas & Exemplos Práticos](#6-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -135,6 +134,31 @@ A **Autenticação Multifator (MFA - *Multi-Factor Authentication*)**, que englo
 
 ---
 
+### Questão 01 (FCC - Adaptada / TI - Fatores de Autenticação e MFA)
+Em um projeto de reforço da segurança cibernética dos sistemas internos do Tribunal de Contas, a política de senhas estabeleceu a exigência de Autenticação Multifator (MFA) para todos os servidores com acesso a bases fiscais e contábeis.
+
+A respeito dos fatores clássicos de autenticação e dos princípios de MFA, assinale a afirmativa correta:
+
+* **A)** O fornecimento obrigatório de uma senha alfanumérica de 12 dígitos combinada com uma segunda senha numérica (código PIN) configura formalmente uma Autenticação de Dois Fatores (2FA), pois são duas senhas distintas.
+* **B)** Para que um mecanismo seja tecnicamente categorizado como Autenticação Multifator (MFA), exige-se a apresentação combinada de elementos pertencentes a pelo menos duas categorias conceituais diferentes: Algo que você sabe (conhecimento, ex.: senha/PIN), Algo que você tem (posse, ex.: token OTP físico/aplicativo ou chave FIDO2) e Algo que você é (inerência, ex.: biometria digital/facial).
+* **C)** O fator de posse é caracterizado pela memorização de palavras secretas e respostas a perguntas de segurança sobre fatos da vida do usuário.
+* **D)** A biometria comportamental (como o ritmo de digitação ou dinâmica de assinatura) é classificada formalmente como um fator de conhecimento puro.
+* **E)** O uso de MFA elimina a necessidade de controle de autorização e revoga automaticamente o princípio do menor privilégio.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Exigir uma senha alfanumérica e um código PIN constitui o fornecimento de duas instâncias da mesma classe conceitual: conhecimento ("algo que você sabe"). Trata-se de autenticação de fator único fortalecido, e não MFA.
+> - **B)** Correta. A Autenticação Multifator exige formalmente a combinação de fatores de pelo menos duas categorias conceituais distintas entre conhecimento, posse e inerência.
+> - **C)** Incorreta. Palavras secretas e respostas a perguntas baseiam-se em memória cognitiva, caracterizando o fator de conhecimento, e não de posse.
+> - **D)** Incorreta. Qualquer biometria (seja física ou comportamental) pertence à classe da inerência ("algo que você é/faz").
+> - **E)** Incorreta. Autenticar com MFA não elimina a necessidade da autorização nem do menor privilégio; provar a identidade é apenas a segunda etapa do ciclo AAA.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 1.4 Ameaças e Vetores de Ataque contra Credenciais
 
 Os mecanismos de autenticação enfrentam vetores de ataque específicos no cenário de segurança cibernética:
@@ -220,6 +244,31 @@ Desenvolvido em contraposição ao Bell-LaPadula, com foco estrito na preservaç
 
 ---
 
+### Questão 02 (FCC - Adaptada / TI - Modelos Formais de Controle de Acesso / MAC)
+Os modelos teóricos de controle de acesso obrigatório (MAC) Bell-LaPadula e Biba foram desenvolvidos para garantir formalmente propriedades específicas de segurança em sistemas computacionais multiníveis.
+
+Sobre o funcionamento desses dois modelos, assinale a afirmativa correta:
+
+* **A)** O modelo Bell-LaPadula tem como foco principal garantir a integridade dos dados, aplicando a regra de que nenhum usuário pode ler dados com nível de integridade inferior ao seu.
+* **B)** No modelo Bell-LaPadula, a Propriedade da Segurança Simples (*Simple Security Property*) determina que um usuário não pode ler informações em um nível de sensibilidade superior ao seu (*No Read Up*), enquanto a Propriedade Estrela (*\*-Property*) proíbe que ele grave dados em níveis inferiores (*No Write Down*).
+* **C)** O modelo Biba foi projetado para assegurar confidencialidade, autorizando que usuários leiam documentos ultrassecretos mesmo possuindo credencial pública.
+* **D)** No modelo Biba, a propriedade de integridade simples autoriza que sujeitos leiam dados de níveis de integridade inferiores sem restrições (*Read Down livre*).
+* **E)** Ambos os modelos Bell-LaPadula e Biba operam sob a filosofia de controle discricionário (DAC), na qual o criador do arquivo detém total autonomia para conceder privilégios a terceiros.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O modelo Bell-LaPadula tem como foco primordial a garantia da confidencialidade, e não da integridade (o modelo com foco em integridade é o Biba).
+> - **B)** Correta. O modelo Bell-LaPadula define que para preservar a confidencialidade aplicam-se a Propriedade de Segurança Simples (*No Read Up* - não ler acima) e a Propriedade Estrela (*No Write Down* - não escrever abaixo, impedindo que segredos sejam vazados para níveis públicos).
+> - **C)** Incorreta. Biba foi desenvolvido com foco exclusivo em integridade, e não confidencialidade.
+> - **D)** Incorreta. No modelo Biba, ler dados de integridade inferior é vedado (*No Read Down*), para evitar que sujeitos ou processos de alta integridade sejam contaminados por informações espúrias.
+> - **E)** Incorreta. Bell-LaPadula e Biba são modelos formais clássicos de Controle de Acesso Obrigatório (MAC), e não discricionário (DAC).
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.4 RBAC (Role-Based Access Control) na Governança Corporativa
 
 No modelo **RBAC**, o controle de acesso é desacoplado dos usuários individuais e atribuído a **Papéis (*Roles*)** correspondentes a funções de negócio da organização (ex.: `Auditor`, `Gestor de Contratos`, `DBA`).
@@ -281,6 +330,31 @@ Contas que detêm privilégios administrativos elevados (tais como `root` no Lin
 
 ---
 
+### Questão 03 (FCC - Adaptada / TI - IAM, PAM e Governança de Privilégios)
+Em uma auditoria de governança de TI em um órgão fazendário estadual, verificou-se que servidores transferidos de setor mantinham ativas as permissões de acesso aos sistemas do departamento anterior, e que administradores de banco de dados utilizavam senhas compartilhadas estáticas de superusuário (`sa`) diretamente em suas estações de trabalho.
+
+Considerando os princípios de Governança de Identidades (IAM) e de Gestão de Acessos Privilegiados (PAM), assinale a prática recomendada para sanear essas não conformidades:
+
+* **A)** Adotar o acúmulo irrestrito de permissões (*Privilege Creep*) como política oficial, garantindo que servidores acumulem direitos ao longo da carreira para acelerar o atendimento ao público.
+* **B)** Implementar uma solução de PAM (*Privileged Access Management*) baseada em cofre seguro de senhas com rotação periódica automatizada, sessões administrativas gravadas e elevação de privilégios temporária *Just-In-Time* (JIT); associada a revisões periódicas de acesso no IAM para revogar imediatamente permissões incompatíveis com a nova lotação do servidor.
+* **C)** Desativar os logs de auditoria do sistema IAM para otimizar o espaço em disco do servidor de diretórios LDAP.
+* **D)** Substituir o desprovisionamento automático de contas inativas pela concessão vitalícia de privilégios administrativos a todos os prestadores de serviço terceirizados.
+* **E)** Padronizar o uso de contas genéricas e senhas únicas para todos os membros da equipe de sustentação de infraestrutura.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O acúmulo indevido de permissões (*Privilege Creep*) é uma vulnerabilidade crítica decorrente de falhas no processo de gestão de mudanças de cargo e deve ser estritamente erradicado.
+> - **B)** Correta. Soluções de PAM com cofre de senhas, privilégios temporários JIT e sessões gravadas saneiam o uso indevido de contas privilegiadas compartilhadas, enquanto campanhas periódicas de recertificação de acessos combatem o acúmulo residual de privilégios.
+> - **C)** Incorreta. A desativação de logs de auditoria viola diretamente o princípio da responsabilização (*accountability*) e inviabiliza investigações e auditorias de controle externo.
+> - **D)** Incorreta. A concessão vitalícia e a ausência de desprovisionamento violam os preceitos mandatórios de segurança do ciclo de vida de identidades.
+> - **E)** Incorreta. O uso de contas genéricas compartilhadas destrói o princípio do não repúdio e da rastreabilidade individual das operações de TI.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3.4 Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)
 
 Para mitigar a fadiga de senhas e a dispersão de credenciais entre múltiplos portais, adotam-se soluções de identidade federada:
@@ -336,6 +410,31 @@ Normatizada pelo Instituto Nacional de Padrões e Tecnologia dos EUA através do
 
 ---
 
+### Questão 04 (FCC - Adaptada / TI - Arquitetura Zero Trust / Princípios Norteadores)
+A equipe de infraestrutura e segurança da informação de um tribunal deliberou sobre a substituição do seu antigo modelo de segurança perimetral baseado em VPN ("castelo e fosso") por uma Arquitetura Zero Trust alinhada à norma NIST SP 800-207.
+
+A respeito dos princípios fundamentais que regem o paradigma Zero Trust, assinale a afirmativa correta:
+
+* **A)** O modelo assume como premissa que todas as máquinas conectadas à rede cabeada interna da sede do órgão são seguras e não exigem monitoramento contínuo de tráfego.
+* **B)** O princípio *"Never Trust, Always Verify"* determina que toda tentativa de conexão, originada de dentro ou de fora da rede física da organização, deve ser autenticada, autorizada e criptografada explicitamente e de forma contínua em cada requisição.
+* **C)** O princípio *"Assume Breach"* orienta os gestores a abandonar os mecanismos de microsegmentação de rede, dado que a invasão já é tratada como inevitável.
+* **D)** A arquitetura Zero Trust baseia suas concessões de acesso exclusivamente no endereço IP de origem do usuário, dispensando a avaliação do estado do dispositivo e da identidade.
+* **E)** No Zero Trust, após a primeira autenticação realizada com sucesso no início da jornada de trabalho, o usuário obtém acesso irrestrito a todas as aplicações corporativas pelo período contínuo de 30 dias.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A falha central combatida pelo Zero Trust é justamente tratar redes internas como confiáveis. Nenhuma zona de rede é implicitamente segura.
+> - **B)** Correta. O princípio fundamental do Zero Trust preconiza que não há confiança implícita para nenhuma solicitação; toda requisição deve ser explicitamente autenticada, autorizada e criptografada a cada acesso.
+> - **C)** Incorreta. Assumir a violação (*Assume Breach*) exige a implantação vigorosa de microsegmentação e criptografia para conter o raio de alcance da invasão e deter movimentos laterais.
+> - **D)** Incorreta. O Zero Trust baseia-se na validação contínua da identidade, na integridade do dispositivo e em políticas de contexto adaptativo, tratando endereços IP como parâmetros secundários e de baixa confiança.
+> - **E)** Incorreta. Concessões perenes e irrestritas são antagônicas ao Zero Trust, que prega avaliação dinâmica contínua e concessão pontual de privilégios *Just-In-Time*.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 4.3 Pilares Fundamentais da Confiança Zero
 
 Conforme estabelecido pela CISA (*Cybersecurity and Infrastructure Security Agency*), o Zero Trust estrutura-se sobre cinco pilares técnicos interligados:
@@ -384,89 +483,7 @@ flowchart LR
 
 ---
 
-## 6. Fontes Recomendadas na Internet
-
-* [NIST SP 800-207 - Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) - Publicação seminal do NIST definindo os princípios e a arquitetura oficial Zero Trust.
-* [NIST SP 800-63B - Digital Identity Guidelines: Authentication and Lifecycle Management](https://pages.nist.gov/800-63-3/sp800-63b.html) - Diretrizes técnicas de autenticação de usuários, políticas de senhas e autenticação multifator (MFA).
-* [IETF RFC 6749 - The OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749) - Especificação oficial do framework de autorização e concessão de tokens OAuth 2.0.
-* [OWASP Access Control Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html) - Guia prático de implementação e validação de controles de acesso RBAC e ABAC.
-* [Decreto nº 10.543/2020 (Níveis de Autenticação e Assinatura Eletrônica)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm) - Dispõe sobre o uso das assinaturas eletrônicas e níveis de confiabilidade (bronze, prata e ouro) no âmbito da administração pública.
-* KUROSE, James F.; ROSS, Keith W. **Redes de Computadores e a Internet: Uma Abordagem Top-Down**. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 8 - Segurança em Redes de Computadores: Autenticação e Controle de Acesso).
-* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 15 - Controle de Acesso de Usuários).
-
-
-## 6. Questões Comentadas & Exemplos Práticos
-
-### Questão 1 (FCC - Adaptada / TI - Fatores de Autenticação e MFA)
-Em um projeto de reforço da segurança cibernética dos sistemas internos do Tribunal de Contas, a política de senhas estabeleceu a exigência de Autenticação Multifator (MFA) para todos os servidores com acesso a bases fiscais e contábeis.
-
-A respeito dos fatores clássicos de autenticação e dos princípios de MFA, assinale a afirmativa correta:
-
-* **A)** O fornecimento obrigatório de uma senha alfanumérica de 12 dígitos combinada com uma segunda senha numérica (código PIN) configura formalmente uma Autenticação de Dois Fatores (2FA), pois são duas senhas distintas.
-* **B)** Para que um mecanismo seja tecnicamente categorizado como Autenticação Multifator (MFA), exige-se a apresentação combinada de elementos pertencentes a pelo menos duas categorias conceituais diferentes: Algo que você sabe (conhecimento, ex.: senha/PIN), Algo que você tem (posse, ex.: token OTP físico/aplicativo ou chave FIDO2) e Algo que você é (inerência, ex.: biometria digital/facial).
-* **C)** O fator de posse é caracterizado pela memorização de palavras secretas e respostas a perguntas de segurança sobre fatos da vida do usuário.
-* **D)** A biometria comportamental (como o ritmo de digitação ou dinâmica de assinatura) é classificada formalmente como um fator de conhecimento puro.
-* **E)** O uso de MFA elimina a necessidade de controle de autorização e revoga automaticamente o princípio do menor privilégio.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Exigir uma senha alfanumérica e um código PIN constitui o fornecimento de duas instâncias da mesma classe conceitual: conhecimento ("algo que você sabe"). Trata-se de autenticação de fator único fortalecido, e não MFA.
-> - **B)** Correta. A Autenticação Multifator exige formalmente a combinação de fatores de pelo menos duas categorias conceituais distintas entre conhecimento, posse e inerência.
-> - **C)** Incorreta. Palavras secretas e respostas a perguntas baseiam-se em memória cognitiva, caracterizando o fator de conhecimento, e não de posse.
-> - **D)** Incorreta. Qualquer biometria (seja física ou comportamental) pertence à classe da inerência ("algo que você é/faz").
-> - **E)** Incorreta. Autenticar com MFA não elimina a necessidade da autorização nem do menor privilégio; provar a identidade é apenas a segunda etapa do ciclo AAA.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / TI - Modelos Formais de Controle de Acesso / MAC)
-Os modelos teóricos de controle de acesso obrigatório (MAC) Bell-LaPadula e Biba foram desenvolvidos para garantir formalmente propriedades específicas de segurança em sistemas computacionais multiníveis.
-
-Sobre o funcionamento desses dois modelos, assinale a afirmativa correta:
-
-* **A)** O modelo Bell-LaPadula tem como foco principal garantir a integridade dos dados, aplicando a regra de que nenhum usuário pode ler dados com nível de integridade inferior ao seu.
-* **B)** No modelo Bell-LaPadula, a Propriedade da Segurança Simples (*Simple Security Property*) determina que um usuário não pode ler informações em um nível de sensibilidade superior ao seu (*No Read Up*), enquanto a Propriedade Estrela (*\*-Property*) proíbe que ele grave dados em níveis inferiores (*No Write Down*).
-* **C)** O modelo Biba foi projetado para assegurar confidencialidade, autorizando que usuários leiam documentos ultrassecretos mesmo possuindo credencial pública.
-* **D)** No modelo Biba, a propriedade de integridade simples autoriza que sujeitos leiam dados de níveis de integridade inferiores sem restrições (*Read Down livre*).
-* **E)** Ambos os modelos Bell-LaPadula e Biba operam sob a filosofia de controle discricionário (DAC), na qual o criador do arquivo detém total autonomia para conceder privilégios a terceiros.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O modelo Bell-LaPadula tem como foco primordial a garantia da confidencialidade, e não da integridade (o modelo com foco em integridade é o Biba).
-> - **B)** Correta. O modelo Bell-LaPadula define que para preservar a confidencialidade aplicam-se a Propriedade de Segurança Simples (*No Read Up* - não ler acima) e a Propriedade Estrela (*No Write Down* - não escrever abaixo, impedindo que segredos sejam vazados para níveis públicos).
-> - **C)** Incorreta. Biba foi desenvolvido com foco exclusivo em integridade, e não confidencialidade.
-> - **D)** Incorreta. No modelo Biba, ler dados de integridade inferior é vedado (*No Read Down*), para evitar que sujeitos ou processos de alta integridade sejam contaminados por informações espúrias.
-> - **E)** Incorreta. Bell-LaPadula e Biba são modelos formais clássicos de Controle de Acesso Obrigatório (MAC), e não discricionário (DAC).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Adaptada / TI - Arquitetura Zero Trust / Princípios Norteadores)
-A equipe de infraestrutura e segurança da informação de um tribunal deliberou sobre a substituição do seu antigo modelo de segurança perimetral baseado em VPN ("castelo e fosso") por uma Arquitetura Zero Trust alinhada à norma NIST SP 800-207.
-
-A respeito dos princípios fundamentais que regem o paradigma Zero Trust, assinale a afirmativa correta:
-
-* **A)** O modelo assume como premissa que todas as máquinas conectadas à rede cabeada interna da sede do órgão são seguras e não exigem monitoramento contínuo de tráfego.
-* **B)** O princípio *"Never Trust, Always Verify"* determina que toda tentativa de conexão, originada de dentro ou de fora da rede física da organização, deve ser autenticada, autorizada e criptografada explicitamente e de forma contínua em cada requisição.
-* **C)** O princípio *"Assume Breach"* orienta os gestores a abandonar os mecanismos de microsegmentação de rede, dado que a invasão já é tratada como inevitável.
-* **D)** A arquitetura Zero Trust baseia suas concessões de acesso exclusivamente no endereço IP de origem do usuário, dispensando a avaliação do estado do dispositivo e da identidade.
-* **E)** No Zero Trust, após a primeira autenticação realizada com sucesso no início da jornada de trabalho, o usuário obtém acesso irrestrito a todas as aplicações corporativas pelo período contínuo de 30 dias.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A falha central combatida pelo Zero Trust é justamente tratar redes internas como confiáveis. Nenhuma zona de rede é implicitamente segura.
-> - **B)** Correta. O princípio fundamental do Zero Trust preconiza que não há confiança implícita para nenhuma solicitação; toda requisição deve ser explicitamente autenticada, autorizada e criptografada a cada acesso.
-> - **C)** Incorreta. Assumir a violação (*Assume Breach*) exige a implantação vigorosa de microsegmentação e criptografia para conter o raio de alcance da invasão e deter movimentos laterais.
-> - **D)** Incorreta. O Zero Trust baseia-se na validação contínua da identidade, na integridade do dispositivo e em políticas de contexto adaptativo, tratando endereços IP como parâmetros secundários e de baixa confiança.
-> - **E)** Incorreta. Concessões perenes e irrestritas são antagônicas ao Zero Trust, que prega avaliação dinâmica contínua e concessão pontual de privilégios *Just-In-Time*.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / TI - Componentes Lógicos do Zero Trust / NIST SP 800-207)
+### Questão 05 (FCC - Adaptada / TI - Componentes Lógicos do Zero Trust / NIST SP 800-207)
 A publicação técnica especial NIST SP 800-207 divide a Arquitetura Zero Trust em componentes lógicos fundamentais distribuídos entre o Plano de Controle (*Control Plane*) e o Plano de Dados (*Data Plane*).
 
 Assinale a opção que descreve corretamente o papel e a função desses componentes lógicos:
@@ -489,23 +506,14 @@ Assinale a opção que descreve corretamente o papel e a função desses compone
 
 ---
 
-### Questão 5 (FCC - Adaptada / TI - IAM, PAM e Governança de Privilégios)
-Em uma auditoria de governança de TI em um órgão fazendário estadual, verificou-se que servidores transferidos de setor mantinham ativas as permissões de acesso aos sistemas do departamento anterior, e que administradores de banco de dados utilizavam senhas compartilhadas estáticas de superusuário (`sa`) diretamente em suas estações de trabalho.
 
-Considerando os princípios de Governança de Identidades (IAM) e de Gestão de Acessos Privilegiados (PAM), assinale a prática recomendada para sanear essas não conformidades:
 
-* **A)** Adotar o acúmulo irrestrito de permissões (*Privilege Creep*) como política oficial, garantindo que servidores acumulem direitos ao longo da carreira para acelerar o atendimento ao público.
-* **B)** Implementar uma solução de PAM (*Privileged Access Management*) baseada em cofre seguro de senhas com rotação periódica automatizada, sessões administrativas gravadas e elevação de privilégios temporária *Just-In-Time* (JIT); associada a revisões periódicas de acesso no IAM para revogar imediatamente permissões incompatíveis com a nova lotação do servidor.
-* **C)** Desativar os logs de auditoria do sistema IAM para otimizar o espaço em disco do servidor de diretórios LDAP.
-* **D)** Substituir o desprovisionamento automático de contas inativas pela concessão vitalícia de privilégios administrativos a todos os prestadores de serviço terceirizados.
-* **E)** Padronizar o uso de contas genéricas e senhas únicas para todos os membros da equipe de sustentação de infraestrutura.
+## 6. Fontes Recomendadas na Internet
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O acúmulo indevido de permissões (*Privilege Creep*) é uma vulnerabilidade crítica decorrente de falhas no processo de gestão de mudanças de cargo e deve ser estritamente erradicado.
-> - **B)** Correta. Soluções de PAM com cofre de senhas, privilégios temporários JIT e sessões gravadas saneiam o uso indevido de contas privilegiadas compartilhadas, enquanto campanhas periódicas de recertificação de acessos combatem o acúmulo residual de privilégios.
-> - **C)** Incorreta. A desativação de logs de auditoria viola diretamente o princípio da responsabilização (*accountability*) e inviabiliza investigações e auditorias de controle externo.
-> - **D)** Incorreta. A concessão vitalícia e a ausência de desprovisionamento violam os preceitos mandatórios de segurança do ciclo de vida de identidades.
-> - **E)** Incorreta. O uso de contas genéricas compartilhadas destrói o princípio do não repúdio e da rastreabilidade individual das operações de TI.
-> 
-> **Gabarito: B**
+* [NIST SP 800-207 - Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) - Publicação seminal do NIST definindo os princípios e a arquitetura oficial Zero Trust.
+* [NIST SP 800-63B - Digital Identity Guidelines: Authentication and Lifecycle Management](https://pages.nist.gov/800-63-3/sp800-63b.html) - Diretrizes técnicas de autenticação de usuários, políticas de senhas e autenticação multifator (MFA).
+* [IETF RFC 6749 - The OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749) - Especificação oficial do framework de autorização e concessão de tokens OAuth 2.0.
+* [OWASP Access Control Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html) - Guia prático de implementação e validação de controles de acesso RBAC e ABAC.
+* [Decreto nº 10.543/2020 (Níveis de Autenticação e Assinatura Eletrônica)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm) - Dispõe sobre o uso das assinaturas eletrônicas e níveis de confiabilidade (bronze, prata e ouro) no âmbito da administração pública.
+* KUROSE, James F.; ROSS, Keith W. **Redes de Computadores e a Internet: Uma Abordagem Top-Down**. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 8 - Segurança em Redes de Computadores: Autenticação e Controle de Acesso).
+* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 15 - Controle de Acesso de Usuários).

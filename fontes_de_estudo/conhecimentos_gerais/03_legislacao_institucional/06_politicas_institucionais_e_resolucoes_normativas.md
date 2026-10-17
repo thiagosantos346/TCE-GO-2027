@@ -40,7 +40,6 @@
     - [5.2 Política de Comunicação Institucional e Linguagem Simples (RA nº 19/2024)](#52-politica-de-comunicacao-institucional-e-linguagem-simples-ra-no-192024)
     - [5.3 Planejamento Institucional e o Modelo das Três Linhas do IIA (RA nº 15/2024)](#53-planejamento-institucional-e-o-modelo-das-tres-linhas-do-iia-ra-no-152024)
 - [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
-- [7. Questões de Concurso FCC Comentadas](#7-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -99,6 +98,30 @@ $$\text{CIDA+L} = \text{Confidencialidade} + \text{Integridade} + \text{Disponib
 
 ---
 
+### Questão 01
+**(FCC – DPE-RS – Analista de Tecnologia da Informação)**  
+A respeito da Política de Segurança da Informação (PSI) do Tribunal de Contas do Estado de Goiás, veiculada pela Resolução Administrativa nº 17/2024, assinale a afirmativa correta:
+
+* **A)** Os princípios fundamentais da PSI restringem-se à disponibilidade e agilidade computacional, reputando-se secundária a confidencialidade no setor público.
+* **B)** As normas e diretrizes da PSI vinculam todos os usuários de recursos de tecnologia do TCE-GO, incluindo membros, servidores efetivos e comissionados, residentes, estagiários e colaboradores terceirizados.
+* **C)** É lícito aos servidores de um mesmo setor compartilhar entre si senhas corporativas de acesso para agilizar o atendimento de demandas urgentes na ausência do titular.
+* **D)** A Política de Segurança da Informação aplica-se estritamente aos servidores lotados na Secretaria de Tecnologia da Informação.
+* **E)** A classificação de informações em níveis de confidencialidade é vedada no âmbito do Tribunal em virtude do princípio constitucional da publicidade ampla.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A PSI fundamenta-se nos princípios consolidados da Confidencialidade, Integridade, Disponibilidade, Autenticidade e Legalidade (CIDA+L), não sendo a confidencialidade secundária.
+> - **B) CORRETA.** Conforme preceitua a Resolução Administrativa nº 17/2024, a Política de Segurança da Informação é de **observância compulsória por todos os usuários**, abrangendo os Conselheiros titulares e substitutos, Procuradores de Contas, servidores efetivos e comissionados, servidores cedidos, estagiários, residentes e empregados de empresas terceirizadas que utilizem a rede ou ativos da Casa.
+> - **C) Incorreta.** O compartilhamento de senhas individuais é terminantemente vedado, constituindo falta funcional grave por violar os princípios da rastreabilidade e autenticidade de acessos.
+> - **D) Incorreta.** A PSI tem alcance institucional pleno sobre todos os órgãos, gabinetes e usuários do Tribunal.
+> - **E) Incorreta.** A classificação das informações (Pública, Interna, Confidencial e Secreta/Ultrassecreta) é mandamento legal de conformidade com a Lei de Acesso à Informação.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.2 Classificação da Informação e Controles Operacionais de TI
 A informação produzida ou sob guarda do TCE-GO é categorizada em quatro níveis de confidencialidade:
 
@@ -138,6 +161,30 @@ A **Resolução Normativa nº 5/2024** disciplina o tratamento de dados pessoais
 
 ---
 
+### Questão 02
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+Determinado jurisdicionado ingressou com requerimento administrativo perante o TCE-GO exigindo a imediata exclusão e o expurgo de seus dados cadastrais e financeiros constantes de procedimento de fiscalização de obras, invocando o direito de eliminação assegurado pela Lei Geral de Proteção de Dados (LGPD). De acordo com a Resolução Normativa nº 5/2024 do TCE-GO e com a Lei nº 13.709/2018:
+
+* **A)** O Tribunal deve atender prontamente ao pedido, sob pena de incorrer em infração civil gravíssima sujeita a multa cominada pela ANPD.
+* **B)** O tratamento de dados pessoais no âmbito do controle externo independe do consentimento do titular, estando respaldado nas hipóteses legais de cumprimento de obrigação legal e exercício de competências constitucionais fiscalizatórias.
+* **C)** O controle externo estadual não se submete aos princípios da LGPD, sendo vedado ao Tribunal instituir Comitê de Privacidade ou nomear Encarregado de Dados.
+* **D)** A eliminação dos dados cadastrais é obrigatória, devendo os relatórios de auditoria ser cancelados e arquivados sem decisão de mérito.
+* **E)** O titular de dados possui direito potestativo absoluto de impedir o acesso de auditores aos seus dados bancários, mesmo diante de comprovado desvio de recursos públicos.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O direito de eliminação de dados não ostenta caráter absoluto e cede diante das finalidades públicas imperativas de controle financeiro do Estado.
+> - **B) CORRETA.** Nos termos da Resolução Normativa nº 5/2024 e do artigo 7º, II e III da Lei Federal nº 13.709/2018, as atividades finalísticas do TCE-GO fundam-se no **cumprimento de dever legal e regulatório** e no **exercício regular de competências constitucionais fiscalizatórias**, dispensando-se o consentimento do titular e obstando a exclusão de dados indispensáveis à instrução de processos de controle da despesa pública.
+> - **C) Incorreta.** O Tribunal adota integralmente as normas da LGPD, possuindo Comitê de Privacidade, Encarregado (DPO) e diretrizes rígidas de segurança da informação.
+> - **D) Incorreta.** O interesse público no julgamento e controle das contas coletivas prevalece sobre pretensões de ocultação cadastral do auditado.
+> - **E) Incorreta.** O dever universal de prestar contas e submeter-se à auditoria decorre diretamente do texto constitucional (Art. 70, parágrafo único da CF), sendo vedada a oposição arbitrária de sigilo em desfavor da Corte de Contas.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê
 A governança de dados pessoais no TCE-GO é estruturada com clareza funcional:
 
@@ -174,6 +221,30 @@ A **Resolução Administrativa nº 24/2024** estabelece as diretrizes éticas e 
 - **Vedação de Decisão Automatizada:** É expressamente proibida a prolação de pareceres técnicos, relatórios de auditoria ou votos decisórios gerados de forma puramente automatizada sem a supervisão e validação crítica de um servidor público (*Human-in-the-loop*). O juízo técnico de mérito e discricionariedade é monopólio da inteligência e discernimento humanos.
 
 ---
+
+### Questão 03
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+Em conformidade com a Resolução Administrativa nº 24/2024 do Tribunal de Contas do Estado de Goiás, que disciplina o uso de ferramentas de Inteligência Artificial (IA) no âmbito da Corte, o auditor que utiliza assistente generativo para subsidiar a elaboração de matriz de auditoria governamental:
+
+* **A)** Fica isento de responsabilidade funcional caso a ferramenta produza precedentes jurisprudenciais fictícios ou cite dispositivos revogados.
+* **B)** Deve observar a supervisão humana compulsória (*Human-in-the-loop*), permanecendo como o único e integral responsável pela exatidão, consistência e adequação jurídica de todo o teor elaborado.
+* **C)** Tem autorização para inserir dados fiscais e bancários protegidos por sigilo constitucional em qualquer ferramenta pública de IA disponível na web para agilizar o processamento.
+* **D)** Está dispensado de checar as fontes citadas pelo modelo, haja vista a presunção legal de veracidade das plataformas de inteligência computacional.
+* **E)** Só poderá utilizar modelos de linguagem mediante autorização prévia individual e por escrito expedida pelo Plenário do Tribunal.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O servidor público não goza de isenção funcional; o eventual fenômeno de "alucinação" algorítmica não escusa o profissional por erro técnico em peça oficial.
+> - **B) CORRETA.** A Resolução Administrativa nº 24/2024 do TCE-GO positiva categoricamente a diretriz da **supervisão humana indelegável (*Human-in-the-loop*)**. As ferramentas de inteligência artificial desempenham papel puramente auxiliar e de suporte de produtividade, permanecendo a autoria jurídica, a análise crítica e a **responsabilidade pessoal e disciplinar** pela fidedignidade e precisão do trabalho sob encargo exclusivo e intransferível do servidor que o subscrever.
+> - **C) Incorreta.** É expressamente vedado carregar dados protegidos por sigilo constitucional (fiscal, bancário, judicial) ou dados sensíveis em plataformas abertas de inteligência artificial desprovidas de salvaguardas contratuais corporativas de segurança.
+> - **D) Incorreta.** Inexiste presunção de veracidade em sistemas computacionais; o dever de checagem documental e validação probatória é mandatório.
+> - **E) Incorreta.** As ferramentas de IA autorizadas e homologadas pela STI integram os fluxos ordinários de trabalho, dispensando autorização pontual do Pleno para cada expediente.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 4.2 Proibição Estrita de Dados Sigilosos em Modelos Abertos
 A norma impõe restrições operacionais categóricas à segurança da informação:
@@ -215,129 +286,7 @@ A **Resolução Administrativa nº 19/2024** orienta a comunicação pública do
 
 ---
 
-### 5.3 Planejamento Institucional e o Modelo das Três Linhas do IIA (RA nº 15/2024)
-A **Resolução Administrativa nº 15/2024** organiza o Sistema de Planejamento e Gestão de Riscos do TCE-GO, adotando o internacionalmente consagrado **Modelo das Três Linhas** do *Institute of Internal Auditors* (IIA):
-
-```mermaid
-graph TD
-    Gov["Governança Integrada do TCE-GO (Modelo das Três Linhas)"]
-    
-    Gov --> L1["1ª LINHA: Gestores Operacionais e Secretarias Finalísticas<br/>• Proprietários diretos dos riscos operacionais do dia a dia<br/>• Implementam e executam controles internos primários"]
-    Gov --> L2["2ª LINHA: Funções de Especialistas e Supervisão<br/>• Gestão Estratégica, Riscos, Integridade e Governança<br/>• Fornecem metodologias, monitoram e apoiam a 1ª linha"]
-    Gov --> L3["3ª LINHA: Auditoria Interna Institucional<br/>• Fornece avaliações independentes e objetivas sobre a governança<br/>• Reporta-se diretamente à Alta Administração da Corte"]
-```
-
-- **1ª Linha:** Composta pelos secretários, diretores e chefes de divisões operacionais, que são os verdadeiros proprietários dos riscos em suas rotinas diárias;
-- **2ª Linha:** Composta por órgãos de supervisão, riscos, integridade e governança corporativa, que dão suporte metodológico e monitoram os controles da 1ª linha;
-- **3ª Linha:** Desempenhada pela **Auditoria Interna Institucional**, que possui independência funcional para auditar a eficácia da governança, dos controles internos e do gerenciamento de riscos de todo o Tribunal.
-
----
-
-## 6. Fontes Oficiais e Referências Bibliográficas
-
-* [Portal Institucional do TCE-GO - Tecnologia da Informação e Políticas Digitais](https://portal.tce.go.gov.br/tecnologia-da-informacao2) - Governança de TI, segurança da informação e diretrizes digitais do Tribunal.
-* [Portal Institucional do TCE-GO - Plano de Fiscalização e Governança](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Planejamento institucional e diretrizes de governança pública.
-* [Portal Institucional do TCE-GO - TCE-Juris: Atos Normativos e Resoluções](https://portal.tce.go.gov.br/tce-juris/atos-normativos-do-tce-go) - Resoluções normativas sobre inteligência artificial, segurança e processo eletrônico.
-* [Lei Complementar Estadual de Goiás nº 205/2025 - Política de IA (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/110694/lei-complementar-205) - Política Estadual de Fomento à Inovação em Inteligência Artificial no Estado de Goiás.
-* [Lei Federal nº 13.709/2018 - LGPD (Planalto)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) - Tratamento de dados pessoais pelo Poder Público e princípios de privacidade.
-* MOTTA, Fabrício. **Governança Pública e Tribunais de Contas**. Belo Horizonte: Fórum, 2022. (Cap. 5 - Inovação Tecnológica e Governança de TI no Controle Externo).
-* MARRARA, Thiago. **Processo Administrativo e Inovação Tecnológica**. São Paulo: Almedina, 2021. (Cap. 4 - Inteligência Artificial e Processo Eletrônico no Setor Público).
-* BIONI, Bruno Ricardo. **Proteção de Dados Pessoais: A Função e os Limites do Consentimento**. 2. ed. Rio de Janeiro: Forense, 2021. (Cap. 3 - Dados Pessoais e Administração Pública).
-
----
-
-## 7. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo)**  
-Em conformidade com a Resolução Administrativa nº 24/2024 do Tribunal de Contas do Estado de Goiás, que disciplina o uso de ferramentas de Inteligência Artificial (IA) no âmbito da Corte, o auditor que utiliza assistente generativo para subsidiar a elaboração de matriz de auditoria governamental:
-
-* **A)** Fica isento de responsabilidade funcional caso a ferramenta produza precedentes jurisprudenciais fictícios ou cite dispositivos revogados.
-* **B)** Deve observar a supervisão humana compulsória (*Human-in-the-loop*), permanecendo como o único e integral responsável pela exatidão, consistência e adequação jurídica de todo o teor elaborado.
-* **C)** Tem autorização para inserir dados fiscais e bancários protegidos por sigilo constitucional em qualquer ferramenta pública de IA disponível na web para agilizar o processamento.
-* **D)** Está dispensado de checar as fontes citadas pelo modelo, haja vista a presunção legal de veracidade das plataformas de inteligência computacional.
-* **E)** Só poderá utilizar modelos de linguagem mediante autorização prévia individual e por escrito expedida pelo Plenário do Tribunal.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** O servidor público não goza de isenção funcional; o eventual fenômeno de "alucinação" algorítmica não escusa o profissional por erro técnico em peça oficial.
-> - **B) CORRETA.** A Resolução Administrativa nº 24/2024 do TCE-GO positiva categoricamente a diretriz da **supervisão humana indelegável (*Human-in-the-loop*)**. As ferramentas de inteligência artificial desempenham papel puramente auxiliar e de suporte de produtividade, permanecendo a autoria jurídica, a análise crítica e a **responsabilidade pessoal e disciplinar** pela fidedignidade e precisão do trabalho sob encargo exclusivo e intransferível do servidor que o subscrever.
-> - **C) Incorreta.** É expressamente vedado carregar dados protegidos por sigilo constitucional (fiscal, bancário, judicial) ou dados sensíveis em plataformas abertas de inteligência artificial desprovidas de salvaguardas contratuais corporativas de segurança.
-> - **D) Incorreta.** Inexiste presunção de veracidade em sistemas computacionais; o dever de checagem documental e validação probatória é mandatório.
-> - **E) Incorreta.** As ferramentas de IA autorizadas e homologadas pela STI integram os fluxos ordinários de trabalho, dispensando autorização pontual do Pleno para cada expediente.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-Determinado jurisdicionado ingressou com requerimento administrativo perante o TCE-GO exigindo a imediata exclusão e o expurgo de seus dados cadastrais e financeiros constantes de procedimento de fiscalização de obras, invocando o direito de eliminação assegurado pela Lei Geral de Proteção de Dados (LGPD). De acordo com a Resolução Normativa nº 5/2024 do TCE-GO e com a Lei nº 13.709/2018:
-
-* **A)** O Tribunal deve atender prontamente ao pedido, sob pena de incorrer em infração civil gravíssima sujeita a multa cominada pela ANPD.
-* **B)** O tratamento de dados pessoais no âmbito do controle externo independe do consentimento do titular, estando respaldado nas hipóteses legais de cumprimento de obrigação legal e exercício de competências constitucionais fiscalizatórias.
-* **C)** O controle externo estadual não se submete aos princípios da LGPD, sendo vedado ao Tribunal instituir Comitê de Privacidade ou nomear Encarregado de Dados.
-* **D)** A eliminação dos dados cadastrais é obrigatória, devendo os relatórios de auditoria ser cancelados e arquivados sem decisão de mérito.
-* **E)** O titular de dados possui direito potestativo absoluto de impedir o acesso de auditores aos seus dados bancários, mesmo diante de comprovado desvio de recursos públicos.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** O direito de eliminação de dados não ostenta caráter absoluto e cede diante das finalidades públicas imperativas de controle financeiro do Estado.
-> - **B) CORRETA.** Nos termos da Resolução Normativa nº 5/2024 e do artigo 7º, II e III da Lei Federal nº 13.709/2018, as atividades finalísticas do TCE-GO fundam-se no **cumprimento de dever legal e regulatório** e no **exercício regular de competências constitucionais fiscalizatórias**, dispensando-se o consentimento do titular e obstando a exclusão de dados indispensáveis à instrução de processos de controle da despesa pública.
-> - **C) Incorreta.** O Tribunal adota integralmente as normas da LGPD, possuindo Comitê de Privacidade, Encarregado (DPO) e diretrizes rígidas de segurança da informação.
-> - **D) Incorreta.** O interesse público no julgamento e controle das contas coletivas prevalece sobre pretensões de ocultação cadastral do auditado.
-> - **E) Incorreta.** O dever universal de prestar contas e submeter-se à auditoria decorre diretamente do texto constitucional (Art. 70, parágrafo único da CF), sendo vedada a oposição arbitrária de sigilo em desfavor da Corte de Contas.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC – DPE-RS – Analista de Tecnologia da Informação)**  
-A respeito da Política de Segurança da Informação (PSI) do Tribunal de Contas do Estado de Goiás, veiculada pela Resolução Administrativa nº 17/2024, assinale a afirmativa correta:
-
-* **A)** Os princípios fundamentais da PSI restringem-se à disponibilidade e agilidade computacional, reputando-se secundária a confidencialidade no setor público.
-* **B)** As normas e diretrizes da PSI vinculam todos os usuários de recursos de tecnologia do TCE-GO, incluindo membros, servidores efetivos e comissionados, residentes, estagiários e colaboradores terceirizados.
-* **C)** É lícito aos servidores de um mesmo setor compartilhar entre si senhas corporativas de acesso para agilizar o atendimento de demandas urgentes na ausência do titular.
-* **D)** A Política de Segurança da Informação aplica-se estritamente aos servidores lotados na Secretaria de Tecnologia da Informação.
-* **E)** A classificação de informações em níveis de confidencialidade é vedada no âmbito do Tribunal em virtude do princípio constitucional da publicidade ampla.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** A PSI fundamenta-se nos princípios consolidados da Confidencialidade, Integridade, Disponibilidade, Autenticidade e Legalidade (CIDA+L), não sendo a confidencialidade secundária.
-> - **B) CORRETA.** Conforme preceitua a Resolução Administrativa nº 17/2024, a Política de Segurança da Informação é de **observância compulsória por todos os usuários**, abrangendo os Conselheiros titulares e substitutos, Procuradores de Contas, servidores efetivos e comissionados, servidores cedidos, estagiários, residentes e empregados de empresas terceirizadas que utilizem a rede ou ativos da Casa.
-> - **C) Incorreta.** O compartilhamento de senhas individuais é terminantemente vedado, constituindo falta funcional grave por violar os princípios da rastreabilidade e autenticidade de acessos.
-> - **D) Incorreta.** A PSI tem alcance institucional pleno sobre todos os órgãos, gabinetes e usuários do Tribunal.
-> - **E) Incorreta.** A classificação das informações (Pública, Interna, Confidencial e Secreta/Ultrassecreta) é mandamento legal de conformidade com a Lei de Acesso à Informação.
-> 
-> **Gabarito: B**
-
----
-
 ### Questão 04
-**(FCC – TCE-SE – Analista de Controle Externo)**  
-No âmbito do Sistema de Planejamento e Gestão Institucional do TCE-GO, normatizado pela Resolução Administrativa nº 15/2024, a gestão de riscos e os controles internos da gestão estruturam-se consoante o internacionalmente reconhecido Modelo das Três Linhas (*Three Lines Model* do IIA). Nesse modelo, as atribuições da 1ª Linha, da 2ª Linha e da 3ª Linha correspondem, respectivamente, a:
-
-* **A)** Auditoria interna independente; Ministério Público de Contas; Tribunal Pleno.
-* **B)** Gestores operacionais diretos que gerenciam os riscos nos processos diários; Unidades de supervisão, conformidade e governança de riscos; Auditoria interna independente.
-* **C)** Ouvidoria e cidadãos; Assessoria de Comunicação; Diretoria de Recursos Humanos.
-* **D)** Assembleia Legislativa do Estado; Governador do Estado; Tribunal de Justiça.
-* **E)** Empresas terceirizadas; Conselheiros relatores; Servidores em estágio probatório.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** A auditoria interna atua na 3ª linha do modelo e não na 1ª linha.
-> - **B) CORRETA.** Nos termos do Modelo das Três Linhas do IIA positivado na RA nº 15/2024 do TCE-GO:
->     - **1ª Linha:** É exercida pelas áreas operacionais e de gestão direta que realizam as atividades e gerenciam ativamente os riscos nas rotinas do dia a dia;
->     - **2ª Linha:** É desempenhada por unidades de apoio metodológico, riscos, governança e conformidade (*compliance*), que monitoram e prestam suporte aos controles da 1ª linha;
->     - **3ª Linha:** É exercida pela **Auditoria Interna Institucional**, fornecendo avaliação independente e objetiva à Alta Administração sobre a governança e o gerenciamento de riscos.
-> - **C), D) e E) Incorretas.** Confundem órgãos externos, instâncias políticas de outros Poderes ou papéis pontuais não correspondentes à taxonomia do IIA.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 05
 **(FCC – TCE-GO – Técnico de Controle Externo)**  
 A respeito da Política de Comunicação Institucional (Resolução Administrativa nº 19/2024) e da Política de Gestão de Pessoas (Resolução Administrativa nº 5/2024) do TCE-GO:
 
@@ -356,3 +305,60 @@ A respeito da Política de Comunicação Institucional (Resolução Administrati
 > - **E) Incorreta.** O contato com veículos de comunicação social é institucionalmente centralizado na Assessoria de Comunicação (ASCOM).
 > 
 > **Gabarito: B**
+
+---
+
+
+
+### 5.3 Planejamento Institucional e o Modelo das Três Linhas do IIA (RA nº 15/2024)
+A **Resolução Administrativa nº 15/2024** organiza o Sistema de Planejamento e Gestão de Riscos do TCE-GO, adotando o internacionalmente consagrado **Modelo das Três Linhas** do *Institute of Internal Auditors* (IIA):
+
+```mermaid
+graph TD
+    Gov["Governança Integrada do TCE-GO (Modelo das Três Linhas)"]
+    
+    Gov --> L1["1ª LINHA: Gestores Operacionais e Secretarias Finalísticas<br/>• Proprietários diretos dos riscos operacionais do dia a dia<br/>• Implementam e executam controles internos primários"]
+    Gov --> L2["2ª LINHA: Funções de Especialistas e Supervisão<br/>• Gestão Estratégica, Riscos, Integridade e Governança<br/>• Fornecem metodologias, monitoram e apoiam a 1ª linha"]
+    Gov --> L3["3ª LINHA: Auditoria Interna Institucional<br/>• Fornece avaliações independentes e objetivas sobre a governança<br/>• Reporta-se diretamente à Alta Administração da Corte"]
+```
+
+- **1ª Linha:** Composta pelos secretários, diretores e chefes de divisões operacionais, que são os verdadeiros proprietários dos riscos em suas rotinas diárias;
+- **2ª Linha:** Composta por órgãos de supervisão, riscos, integridade e governança corporativa, que dão suporte metodológico e monitoram os controles da 1ª linha;
+- **3ª Linha:** Desempenhada pela **Auditoria Interna Institucional**, que possui independência funcional para auditar a eficácia da governança, dos controles internos e do gerenciamento de riscos de todo o Tribunal.
+
+---
+
+### Questão 05
+**(FCC – TCE-SE – Analista de Controle Externo)**  
+No âmbito do Sistema de Planejamento e Gestão Institucional do TCE-GO, normatizado pela Resolução Administrativa nº 15/2024, a gestão de riscos e os controles internos da gestão estruturam-se consoante o internacionalmente reconhecido Modelo das Três Linhas (*Three Lines Model* do IIA). Nesse modelo, as atribuições da 1ª Linha, da 2ª Linha e da 3ª Linha correspondem, respectivamente, a:
+
+* **A)** Auditoria interna independente; Ministério Público de Contas; Tribunal Pleno.
+* **B)** Gestores operacionais diretos que gerenciam os riscos nos processos diários; Unidades de supervisão, conformidade e governança de riscos; Auditoria interna independente.
+* **C)** Ouvidoria e cidadãos; Assessoria de Comunicação; Diretoria de Recursos Humanos.
+* **D)** Assembleia Legislativa do Estado; Governador do Estado; Tribunal de Justiça.
+* **E)** Empresas terceirizadas; Conselheiros relatores; Servidores em estágio probatório.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A Auditoria Interna Independente atua na 3ª Linha do modelo, e não na 1ª Linha operacional.
+> - **B) CORRETA.** Conforme a Resolução Administrativa nº 15/2024 do TCE-GO e o padrão IIA: a 1ª Linha compreende os gestores operacionais diretos; a 2ª Linha congrega as unidades de conformidade, riscos e governança; e a 3ª Linha cabe à Auditoria Interna Independente.
+> - **C) Incorreta.** Ouvidoria e assessoria não definem as linhas estruturais do modelo metodológico do IIA.
+> - **D) Incorreta.** Cita instâncias políticas e órgãos externos que transcendem a governança interna do Tribunal.
+> - **E) Incorreta.** Aponta papéis avulsos e sem correspondência conceitual com a taxonomia das Três Linhas.
+> 
+> **Gabarito: B**
+
+---
+
+
+
+## 6. Fontes Oficiais e Referências Bibliográficas
+
+* [Portal Institucional do TCE-GO - Tecnologia da Informação e Políticas Digitais](https://portal.tce.go.gov.br/tecnologia-da-informacao2) - Governança de TI, segurança da informação e diretrizes digitais do Tribunal.
+* [Portal Institucional do TCE-GO - Plano de Fiscalização e Governança](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Planejamento institucional e diretrizes de governança pública.
+* [Portal Institucional do TCE-GO - TCE-Juris: Atos Normativos e Resoluções](https://portal.tce.go.gov.br/tce-juris/atos-normativos-do-tce-go) - Resoluções normativas sobre inteligência artificial, segurança e processo eletrônico.
+* [Lei Complementar Estadual de Goiás nº 205/2025 - Política de IA (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/110694/lei-complementar-205) - Política Estadual de Fomento à Inovação em Inteligência Artificial no Estado de Goiás.
+* [Lei Federal nº 13.709/2018 - LGPD (Planalto)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) - Tratamento de dados pessoais pelo Poder Público e princípios de privacidade.
+* MOTTA, Fabrício. **Governança Pública e Tribunais de Contas**. Belo Horizonte: Fórum, 2022. (Cap. 5 - Inovação Tecnológica e Governança de TI no Controle Externo).
+* MARRARA, Thiago. **Processo Administrativo e Inovação Tecnológica**. São Paulo: Almedina, 2021. (Cap. 4 - Inteligência Artificial e Processo Eletrônico no Setor Público).
+* BIONI, Bruno Ricardo. **Proteção de Dados Pessoais: A Função e os Limites do Consentimento**. 2. ed. Rio de Janeiro: Forense, 2021. (Cap. 3 - Dados Pessoais e Administração Pública).

@@ -31,7 +31,6 @@
     - [2.4 Objetivos Fundamentais da República (Art. 3º)](#24-objetivos-fundamentais-da-republica-art-3o)
     - [2.5 Princípios nas Relações Internacionais e Integração Latino-Americana (Art. 4º)](#25-principios-nas-relacoes-internacionais-e-integracao-latino-americana-art-4o)
 - [3. Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
-- [4. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -63,6 +62,55 @@ flowchart TD
 - **Normas de Eficácia Limitada:** Não produzem seus efeitos fundamentais de imediato, dependendo da interferência do legislador infraconstitucional para conferir densidade e viabilizar o exercício prático da prerrogativa. Subdividem-se em:
     1. *Normas de Princípio Institutivo (ou Organizatório):* Aquelas pelas quais o constituinte traça o esquema geral de criação e organização de órgãos, entidades ou instituições do Estado (ex.: art. 88 da CF/88, que dispõe que a lei disporá sobre a criação e extinção de Ministérios);
     2. *Normas de Princípio Programático:* Aquelas que estabelecem metas, programas sociais, diretrizes socioeconômicas e fins de interesse público a serem alcançados pelos poderes públicos (ex.: saúde, erradicação do analfabetismo, proteção ao meio ambiente).
+
+---
+
+### Questão 01 (FCC - Analista Judiciário / Adaptada)
+O art. 5º, inciso XIII, da Constituição Federal de 1988 dispõe que *"é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer"*.
+
+De acordo com a classificação das normas constitucionais desenvolvida pelo constitucionalista José Afonso da Silva, o preceito citado qualifica-se como norma de eficácia:
+
+* **A)** Plena, pois independe de qualquer intermediação legislativa e seu alcance não pode sofrer nenhum tipo de contenção por lei ordinária.
+* **B)** Contida (ou redutível), uma vez que possui aplicabilidade direta e imediata, assegurando o exercício irrestrito da atividade profissional desde logo, mas permitindo que a lei posterior imponha restrições ou requisitos de qualificação técnica.
+* **C)** Limitada programática, visto que não gera efeitos jurídicos até que o Congresso Nacional aprove o estatuto de cada uma das profissões existentes.
+* **D)** Diferida absoluta, cuja aplicabilidade condiciona-se à prévia autorização administrativa de conselhos corporativos de classe.
+* **E)** Ineficaz, por se tratar de mera exortação moral sem força cogente vinculante.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** Se fosse de eficácia plena, o exercício da profissão não poderia sofrer nenhuma restrição ou condição posterior por lei infraconstitucional.
+> - **B) CORRETA:** Conforme a consagrada classificação de José Afonso da Silva, as normas de eficácia contida (ou redutíveis) possuem aplicabilidade direta e imediata, operando de pronto a proteção ao direito; contudo, o próprio texto constitucional autoriza que lei superveniente venha a conter, limitar ou restringir o seu alcance (ex.: exigência de diploma ou inscrição em conselho de classe para certas profissões). Enquanto a lei não sobrevier, a liberdade é ampla e plena.
+> - **C) Incorreta:** Se a norma fosse de eficácia limitada, o cidadão estaria impedido de trabalhar até que sobreviesse lei regulamentando cada profissão, o que contraria o postulado da liberdade profissional.
+> - **D) Incorreta:** A classificação doutrinária não contempla a categoria "diferida absoluta" como modalidade autônoma nesse contexto.
+> - **E) Incorreta:** As normas constitucionais detêm imperatividade e eficácia jurídica formal e material, não sendo meros conselhos morais.
+> 
+> **Gabarito: B**
+
+---
+
+### Questão 02 (FCC - Procurador do Estado / Adaptada)
+O art. 37, inciso VII, da Constituição Federal prevê que *"o direito de greve será exercido nos termos e nos limites definidos em lei específica"*. Passadas décadas sem que o Congresso Nacional editasse a respectiva lei, servidores públicos impetraram Mandado de Injunção perante o Supremo Tribunal Federal buscando o exercício do direito.
+
+À luz da eficácia das normas constitucionais e da jurisprudência do STF:
+
+* **A)** Trata-se de norma de eficácia plena, prescindindo de lei regulamentadora para qualquer efeito.
+* **B)** Trata-se de norma constitucional de eficácia limitada de princípio institutivo, cuja ausência de lei torna o direito inexistente até que o Legislativo delibere soberanamente.
+* **C)** Trata-se de norma de eficácia limitada, cuja omissão legislativa inconstitucional autoriza o manejo de Mandado de Injunção, tendo o STF decidido aplicar por analogia a lei de greve do setor privado (Lei nº 7.783/1989) aos servidores públicos civis até a edição de lei específica.
+* **D)** Trata-se de norma de eficácia contida, vigorando a proibição absoluta de greve até que venha a lei autorizativa.
+* **E)** A norma é programática e desprovida de qualquer eficácia jurídica, não vinculando o legislador nem o Judiciário.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** A norma subordina o exercício a termos e limites estabelecidos em lei específica, possuindo eficácia mediata e dependente de integração legislativa.
+> - **B) Incorreta:** A ausência de lei não aniquila o direito fundamental nem impede a intervenção concretista do Judiciário para sanar a omissão.
+> - **C) CORRETA:** O art. 37, VII, é norma de eficácia limitada. Diante da inércia do Congresso Nacional, o STF, no julgamento conjunto dos Mandados de Injunção nº 670, 708 e 712, adotou a teoria concretista geral, suprindo a lacuna mediante a aplicação por analogia da Lei Federal nº 7.783/89 (que regula a greve na iniciativa privada) aos servidores civis, ressalvadas as carreiras ligadas diretamente à segurança pública armada.
+> - **D) Incorreta:** Nas normas contidas o exercício do direito é pleno desde a promulgação até que advenha a restrição; no caso da greve do servidor, o exercício dependia da própria lei instituidora.
+> - **E) Incorreta:** As normas constitucionais possuem eficácia normativa vinculante e geram o dever constitucional de legislar, sujeito a controle judicial via mandado de injunção.
+> 
+> **Gabarito: C**
+
+---
+
 
 #### 1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão
 Embora as normas de eficácia limitada não confiram exigibilidade imediata da prestação originária sem integração legislativa, é incorreto afirmar que elas são desprovidas de valor jurídico. A doutrina e a jurisprudência reconhecem a **eficácia jurídica mínima** dessas normas:
@@ -112,6 +160,32 @@ No modelo do constitucionalismo contemporâneo:
     - **Poder Judiciário:** Função típica: jurisdicional (dizer o direito no caso concreto com definitividade); Funções atípicas: administrar (realizar licitações e prover cargos) e legislar (elaborar os regimentos internos de seus tribunais).
 - **Sistema de Freios e Contrapesos (*Checks and Balances*):** Mecanismo de controle recíproco em que um Poder limita e fiscaliza a atuação do outro, prevenindo abusos e garantindo a harmonia institucional (ex.: veto do Presidente a projetos de lei; sabatina e aprovação de ministros pelo Senado; controle de constitucionalidade de leis e atos do Executivo exercido pelo Judiciário).
 
+---
+
+### Questão 03 (FCC - Analista Judiciário)
+O art. 2º da Constituição Federal consagra que *"são Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário"*.
+
+A respeito da **Teoria da Separação dos Poderes** e do sistema de freios e contrapesos (*checks and balances*):
+
+* **A)** A separação de poderes é absoluta, sendo terminantemente vedado a qualquer Poder o exercício de funções atípicas.
+* **B)** O Poder Judiciário exerce unicamente a função de julgar, sendo nulos quaisquer atos administrativos de gestão de seus próprios servidores.
+* **C)** Cada Poder exerce uma função típica preponderante inerente à sua natureza, mas a Constituição atribui a todos eles o exercício de funções atípicas e mecanismos recíprocos de controle e fiscalização.
+* **D)** O sistema de freios e contrapesos autoriza o Poder Executivo a revogar sentenças judiciais transitadas em julgado por motivos de conveniência financeira.
+* **E)** A independência entre os Poderes impede que o Tribunal de Contas fiscalize despesas realizadas pela Assembleia Legislativa.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** A separação dos poderes não é absoluta nem estanque, pois a própria Carta Magna encarrega cada Poder de exercer certas funções atípicas secundárias.
+> - **B) Incorreta:** O Judiciário exerce atipicamente a função administrativa ao organizar seus órgãos, licitar e gerir seus servidores (CF, art. 96).
+> - **C) CORRETA:** O princípio da separação dos poderes organiza o Estado conferindo a cada órgão uma função típica prioritária (legislar, julgar ou administrar), sem prejuízo de desempenharem funções atípicas e mecanismos mútuos de contenção e controle no âmbito do sistema de freios e contrapesos (*checks and balances*).
+> - **D) Incorreta:** Decisões judiciais transitadas em julgado revestem-se da garantia da coisa julgada (art. 5º, XXXVI), sendo insuscetíveis de revogação pelo Executivo.
+> - **E) Incorreta:** Por mandamento do art. 70 da CF/88, o controle financeiro e orçamentário externo exercido com o auxílio do Tribunal de Contas alcança os três Poderes, inclusive o Poder Legislativo.
+> 
+> **Gabarito: C**
+
+---
+
+
 #### 2.4 Objetivos Fundamentais da República (Art. 3º)
 Os objetivos fundamentais consubstanciam as metas de chegada e as finalidades que o Estado brasileiro deve perseguir. Diferenciam-se dos fundamentos porque começam invariavelmente por **VERBOS NO INFINITIVO** (Mnemônico **CON-GA-ERRA-PRO**):
 
@@ -126,65 +200,9 @@ flowchart LR
     ESTADO --> OBJ["OBJETIVOS FUNDAMENTAIS (Art. 3º)<br/>Ações com Verbos no Infinitivo:<br/>• CONstruir<br/>• GArantir<br/>• ERRadicar e Reduzir<br/>• PROmover"]
 ```
 
-#### 2.5 Princípios nas Relações Internacionais e Integração Latino-Americana (Art. 4º)
-A República Federativa do Brasil rege-se em suas relações internacionais pelos seguintes princípios:
-
-1. Independência nacional;
-2. Prevalência dos direitos humanos;
-3. Autodeterminação dos povos;
-4. Não intervenção;
-5. Igualdade entre os Estados;
-6. Defesa da paz;
-7. Solução pacífica dos conflitos;
-8. Repúdio ao terrorismo e ao racismo;
-9. Cooperação entre os povos para o progresso da humanidade;
-10. Concessão de asilo político.
-
-- **Parágrafo Único do Art. 4º:** Estabelece expressamente que o Brasil buscará a **integração econômica, política, social e cultural dos povos da América Latina**, visando à formação de uma **comunidade latino-americana de nações**.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A banca examinadora costuma substituir ardilosamente a expressão constitucional **América Latina** por "América do Sul", "Mercosul" ou "países lusófonos". Atenção máxima: a redação do parágrafo único do art. 4º consagra expressamente a **América Latina**!
-
 ---
 
-## 6. Fontes Recomendadas na Internet
-
-* [Constituição Federal de 1988 - Arts. 1º a 4º (Princípios Fundamentais)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art1) - Texto oficial que consagra os fundamentos da República Federativa do Brasil, a separação dos poderes e os objetivos fundamentais.
-* [Constituição do Estado de Goiás - Título I e Título II](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Princípios fundamentais e organização do Estado no âmbito goiano.
-* [STF Súmula Vinculante 13 (Vedação ao Nepotismo)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=13) - Enunciado vinculante do STF sobre aplicação direta dos princípios da moralidade e impessoalidade na nomeação de cargos em comissão.
-* [STF Súmula 473 (Princípio da Autotutela Administrativa)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumula.asp?seq=473) - Jurisprudência histórica que garante à Administração o poder-dever de anular seus próprios atos ilegais e revogar os inconvenientes.
-* [Decreto-Lei nº 4.657/1942 - LINDB Compilada](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm) - Lei de Introdução às Normas do Direito Brasileiro, com as alterações da Lei nº 13.655/2018 sobre segurança jurídica e interpretação de normas públicas.
-* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 1 - Teoria da Constituição; Cap. 2 - Aplicabilidade e Eficácia das Normas Constitucionais).
-* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 1 - Princípios Fundamentais da Constituição Federal).
-* SILVA, José Afonso da. **Aplicabilidade das Normas Constitucionais**. 8. ed. São Paulo: Malheiros, 2012. (Cap. III - Normas Constitucionais de Eficácia Plena, Contida e Limitada).
-
-
-## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
-
-### Questão 1 (FCC - Analista Judiciário / Adaptada)
-O art. 5º, inciso XIII, da Constituição Federal de 1988 dispõe que *"é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer"*.
-
-De acordo com a classificação das normas constitucionais desenvolvida pelo constitucionalista José Afonso da Silva, o preceito citado qualifica-se como norma de eficácia:
-
-* **A)** Plena, pois independe de qualquer intermediação legislativa e seu alcance não pode sofrer nenhum tipo de contenção por lei ordinária.
-* **B)** Contida (ou redutível), uma vez que possui aplicabilidade direta e imediata, assegurando o exercício irrestrito da atividade profissional desde logo, mas permitindo que a lei posterior imponha restrições ou requisitos de qualificação técnica.
-* **C)** Limitada programática, visto que não gera efeitos jurídicos até que o Congresso Nacional aprove o estatuto de cada uma das profissões existentes.
-* **D)** Diferida absoluta, cuja aplicabilidade condiciona-se à prévia autorização administrativa de conselhos corporativos de classe.
-* **E)** Ineficaz, por se tratar de mera exortação moral sem força cogente vinculante.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** Se fosse de eficácia plena, o exercício da profissão não poderia sofrer nenhuma restrição ou condição posterior por lei infraconstitucional.
-> - **B) CORRETA:** Conforme a consagrada classificação de José Afonso da Silva, as normas de eficácia contida (ou redutíveis) possuem aplicabilidade direta e imediata, operando de pronto a proteção ao direito; contudo, o próprio texto constitucional autoriza que lei superveniente venha a conter, limitar ou restringir o seu alcance (ex.: exigência de diploma ou inscrição em conselho de classe para certas profissões). Enquanto a lei não sobrevier, a liberdade é ampla e plena.
-> - **C) Incorreta:** Se a norma fosse de eficácia limitada, o cidadão estaria impedido de trabalhar até que sobreviesse lei regulamentando cada profissão, o que contraria o postulado da liberdade profissional.
-> - **D) Incorreta:** A classificação doutrinária não contempla a categoria "diferida absoluta" como modalidade autônoma nesse contexto.
-> - **E) Incorreta:** As normas constitucionais detêm imperatividade e eficácia jurídica formal e material, não sendo meros conselhos morais.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Técnico de Controle Externo / TCE-GO)
+### Questão 04 (FCC - Técnico de Controle Externo / TCE-GO)
 Considere as seguintes assertivas a respeito dos Princípios Fundamentais consagrados nos artigos 1º a 4º da Constituição Federal de 1988:
 
 I. O pluralismo político e a dignidade da pessoa humana são fundamentos expressos da República Federativa do Brasil.  
@@ -213,30 +231,29 @@ Está correto o que se afirma em:
 
 ---
 
-### Questão 3 (FCC - Procurador do Estado / Adaptada)
-O art. 37, inciso VII, da Constituição Federal prevê que *"o direito de greve será exercido nos termos e nos limites definidos em lei específica"*. Passadas décadas sem que o Congresso Nacional editasse a respectiva lei, servidores públicos impetraram Mandado de Injunção perante o Supremo Tribunal Federal buscando o exercício do direito.
 
-À luz da eficácia das normas constitucionais e da jurisprudência do STF:
+#### 2.5 Princípios nas Relações Internacionais e Integração Latino-Americana (Art. 4º)
+A República Federativa do Brasil rege-se em suas relações internacionais pelos seguintes princípios:
 
-* **A)** Trata-se de norma de eficácia plena, prescindindo de lei regulamentadora para qualquer efeito.
-* **B)** Trata-se de norma constitucional de eficácia limitada de princípio institutivo, cuja ausência de lei torna o direito inexistente até que o Legislativo delibere soberanamente.
-* **C)** Trata-se de norma de eficácia limitada, cuja omissão legislativa inconstitucional autoriza o manejo de Mandado de Injunção, tendo o STF decidido aplicar por analogia a lei de greve do setor privado (Lei nº 7.783/1989) aos servidores públicos civis até a edição de lei específica.
-* **D)** Trata-se de norma de eficácia contida, vigorando a proibição absoluta de greve até que venha a lei autorizativa.
-* **E)** A norma é programática e desprovida de qualquer eficácia jurídica, não vinculando o legislador nem o Judiciário.
+1. Independência nacional;
+2. Prevalência dos direitos humanos;
+3. Autodeterminação dos povos;
+4. Não intervenção;
+5. Igualdade entre os Estados;
+6. Defesa da paz;
+7. Solução pacífica dos conflitos;
+8. Repúdio ao terrorismo e ao racismo;
+9. Cooperação entre os povos para o progresso da humanidade;
+10. Concessão de asilo político.
 
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** A norma subordina o exercício a termos e limites estabelecidos em lei específica, possuindo eficácia mediata e dependente de integração legislativa.
-> - **B) Incorreta:** A ausência de lei não aniquila o direito fundamental nem impede a intervenção concretista do Judiciário para sanar a omissão.
-> - **C) CORRETA:** O art. 37, VII, é norma de eficácia limitada. Diante da inércia do Congresso Nacional, o STF, no julgamento conjunto dos Mandados de Injunção nº 670, 708 e 712, adotou a teoria concretista geral, suprindo a lacuna mediante a aplicação por analogia da Lei Federal nº 7.783/89 (que regula a greve na iniciativa privada) aos servidores civis, ressalvadas as carreiras ligadas diretamente à segurança pública armada.
-> - **D) Incorreta:** Nas normas contidas o exercício do direito é pleno desde a promulgação até que advenha a restrição; no caso da greve do servidor, o exercício dependia da própria lei instituidora.
-> - **E) Incorreta:** As normas constitucionais possuem eficácia normativa vinculante e geram o dever constitucional de legislar, sujeito a controle judicial via mandado de injunção.
-> 
-> **Gabarito: C**
+- **Parágrafo Único do Art. 4º:** Estabelece expressamente que o Brasil buscará a **integração econômica, política, social e cultural dos povos da América Latina**, visando à formação de uma **comunidade latino-americana de nações**.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A banca examinadora costuma substituir ardilosamente a expressão constitucional **América Latina** por "América do Sul", "Mercosul" ou "países lusófonos". Atenção máxima: a redação do parágrafo único do art. 4º consagra expressamente a **América Latina**!
 
 ---
 
-### Questão 4 (FCC - Analista de Controle Externo)
+### Questão 05 (FCC - Analista de Controle Externo)
 Em conformidade com o parágrafo único do art. 4º da Constituição da República Federativa do Brasil de 1988, o Brasil buscará a integração econômica, política, social e cultural dos povos:
 
 * **A)** Do hemisfério ocidental, visando à formação de uma zona de livre comércio transcontinental.
@@ -257,23 +274,15 @@ Em conformidade com o parágrafo único do art. 4º da Constituição da Repúbl
 
 ---
 
-### Questão 5 (FCC - Analista Judiciário)
-O art. 2º da Constituição Federal consagra que *"são Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário"*.
 
-A respeito da **Teoria da Separação dos Poderes** e do sistema de freios e contrapesos (*checks and balances*):
 
-* **A)** A separação de poderes é absoluta, sendo terminantemente vedado a qualquer Poder o exercício de funções atípicas.
-* **B)** O Poder Judiciário exerce unicamente a função de julgar, sendo nulos quaisquer atos administrativos de gestão de seus próprios servidores.
-* **C)** Cada Poder exerce uma função típica preponderante inerente à sua natureza, mas a Constituição atribui a todos eles o exercício de funções atípicas e mecanismos recíprocos de controle e fiscalização.
-* **D)** O sistema de freios e contrapesos autoriza o Poder Executivo a revogar sentenças judiciais transitadas em julgado por motivos de conveniência financeira.
-* **E)** A independência entre os Poderes impede que o Tribunal de Contas fiscalize despesas realizadas pela Assembleia Legislativa.
+## 6. Fontes Recomendadas na Internet
 
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** A separação dos poderes não é absoluta nem estanque, pois a própria Carta Magna encarrega cada Poder de exercer certas funções atípicas secundárias.
-> - **B) Incorreta:** O Judiciário exerce atipicamente a função administrativa ao organizar seus órgãos, licitar e gerir seus servidores (CF, art. 96).
-> - **C) CORRETA:** O princípio da separação dos poderes organiza o Estado conferindo a cada órgão uma função típica prioritária (legislar, julgar ou administrar), sem prejuízo de desempenharem funções atípicas e mecanismos mútuos de contenção e controle no âmbito do sistema de freios e contrapesos (*checks and balances*).
-> - **D) Incorreta:** Decisões judiciais transitadas em julgado revestem-se da garantia da coisa julgada (art. 5º, XXXVI), sendo insuscetíveis de revogação pelo Executivo.
-> - **E) Incorreta:** Por mandamento do art. 70 da CF/88, o controle financeiro e orçamentário externo exercido com o auxílio do Tribunal de Contas alcança os três Poderes, inclusive o Poder Legislativo.
-> 
-> **Gabarito: C**
+* [Constituição Federal de 1988 - Arts. 1º a 4º (Princípios Fundamentais)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art1) - Texto oficial que consagra os fundamentos da República Federativa do Brasil, a separação dos poderes e os objetivos fundamentais.
+* [Constituição do Estado de Goiás - Título I e Título II](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Princípios fundamentais e organização do Estado no âmbito goiano.
+* [STF Súmula Vinculante 13 (Vedação ao Nepotismo)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=13) - Enunciado vinculante do STF sobre aplicação direta dos princípios da moralidade e impessoalidade na nomeação de cargos em comissão.
+* [STF Súmula 473 (Princípio da Autotutela Administrativa)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumula.asp?seq=473) - Jurisprudência histórica que garante à Administração o poder-dever de anular seus próprios atos ilegais e revogar os inconvenientes.
+* [Decreto-Lei nº 4.657/1942 - LINDB Compilada](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm) - Lei de Introdução às Normas do Direito Brasileiro, com as alterações da Lei nº 13.655/2018 sobre segurança jurídica e interpretação de normas públicas.
+* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 1 - Teoria da Constituição; Cap. 2 - Aplicabilidade e Eficácia das Normas Constitucionais).
+* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 1 - Princípios Fundamentais da Constituição Federal).
+* SILVA, José Afonso da. **Aplicabilidade das Normas Constitucionais**. 8. ed. São Paulo: Malheiros, 2012. (Cap. III - Normas Constitucionais de Eficácia Plena, Contida e Limitada).

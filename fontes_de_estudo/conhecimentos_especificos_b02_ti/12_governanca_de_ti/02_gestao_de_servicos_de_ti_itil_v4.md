@@ -40,7 +40,6 @@
     - [2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)](#25-gerenciamento-de-nivel-de-servico-sla-ola-e-uc)
     - [2.6 Gerenciamento de Continuidade de Serviços de TI (ITSCM: RTO e RPO)](#26-gerenciamento-de-continuidade-de-servicos-de-ti-itscm-rto-e-rpo)
 - [3. Fontes Recomendadas na Internet](#3-fontes-recomendadas-na-internet)
-- [4. Questões Comentadas no Padrão FCC](#4-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -103,6 +102,29 @@ Essas quatro dimensões sofrem pressão contínua de fatores externos incontrol�
 
 ---
 
+### Questão 01 (FCC - Auditor Federal de Controle Externo / TI - Adaptada)
+**Enunciado:** O Sistema de Valor de Serviço (SVS) da ITIL v4 apoia-se em Quatro Dimensões do Gerenciamento de Serviço, fundamentais para assegurar a co-criação equilibrada e sustentável de valor. A dimensão que abrange a cultura da organização, as competências técnicas dos colaboradores, os estilos de liderança e a gestão das linhas de comunicação internas denomina-se:  
+
+* **A)** Informação e Tecnologia.
+* **B)** Parceiros e Fornecedores.
+* **C)** Fluxos de Valor e Processos.
+* **D)** Organizações e Pessoas.
+* **E)** Fatores Externos PESTLE.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A dimensão Informação e Tecnologia trata da gestão dos dados institucionais, sistemas corporativos, ferramentas de software, segurança da informação e infraestrutura física/em nuvem.
+> - **B)** Incorreta. A dimensão Parceiros e Fornecedores foca nos relacionamentos da organização com outras entidades envolvidas no desenho, entrega e suporte dos serviços (contratos, parceiros de terceirização, integradores).
+> - **C)** Incorreta. A dimensão Fluxos de Valor e Processos cuida das atividades, fluxos operacionais e procedimentos coordenados que viabilizam a criação de produtos e serviços.
+> - **D)** **Correta.** A dimensão Organizações e Pessoas concentra-se explicitamente na estrutura organizacional formal, cultura corporativa compartilhada, habilidades e competências das equipes, papeis/responsabilidades e estilos de liderança e comunicação.
+> - **E)** Incorreta. O acrônimo PESTLE descreve as influências macroambientais externas (políticas, econômicas, sociais, tecnológicas, legais e ambientais) que exercem pressão sobre as quatro dimensões, não constituindo uma das quatro dimensões em si.
+> 
+> **Gabarito: D**
+
+---
+
+
+
 ### 1.3 O Sistema de Valor de Serviço (SVS)
 
 O **SVS** (*Service Value System*) descreve como todos os componentes e atividades da organização atuam harmonicamente para transformar oportunidades e demandas em valor real para a sociedade e clientes.
@@ -158,6 +180,29 @@ Os princípios orientadores da ITIL v4 são recomendações perenes, aplicáveis
 > A FCC adora trocar a ordem de "Otimize e Automatize", afirmando que se deve "automatizar para depois descobrir o que precisa ser otimizado". **ERRADO!** Automatizar processos ruins apenas produz erros em maior velocidade. Primeiro otimiza-se e padroniza-se; depois se automatiza!
 
 ---
+
+### Questão 02 (FCC - Analista de Sistemas / Governança de TI - Adaptada)
+**Enunciado:** A ITIL v4 estabelece os 7 Princípios Orientadores (*Guiding Principles*), que representam recomendações que podem orientar uma organização em qualquer circunstância, independentemente de mudanças em suas metas, estratégias ou estrutura de trabalho. Dentre esses princípios, aquele que preconiza que a organização não deve descartar prematuramente soluções e processos existentes sem antes avaliar o que já está disponível e funcionando adequadamente, denomina-se:  
+
+* **A)** Foco no Valor (*Focus on Value*).
+* **B)** Pense e Trabalhe Holisticamente (*Think and Work Holistically*).
+* **C)** Comece de Onde Você Está (*Start Where You Are*).
+* **D)** Otimize e Automatize (*Optimize and Automate*).
+* **E)** Mantenha Simples e Prático (*Keep It Simple and Practical*).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O princípio Foco no Valor estabelece que tudo o que a organização faz deve vincular-se, direta ou indiretamente, à entrega de valor para os stakeholders.
+> - **B)** Incorreta. O princípio Pense e Trabalhe Holisticamente exige que nenhuma parte da organização atue de forma isolada e que a entrega de serviços seja vista como um todo interconectado.
+> - **C)** **Correta.** O princípio Comece de Onde Você Está orienta a nunca começar do zero sem antes analisar o estado atual; processos, ferramentas e habilidades em vigor devem ser mensurados e reaproveitados sempre que viável.
+> - **D)** Incorreta. O princípio Otimize e Automatize orienta a tornar os processos o mais eficientes e úteis possível antes de aplicar ferramentas de automação tecnológica.
+> - **E)** Incorreta. O princípio Mantenha Simples e Prático prega a eliminação de burocracias, formulários e passos desnecessários que não agregam valor ao resultado final.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 1.5 A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)
 
@@ -252,6 +297,35 @@ flowchart LR
 
 ---
 
+### Questão 03 (FCC - Analista de TI / Suporte e Operações - Adaptada)
+**Enunciado:** Em um Tribunal de Contas Estadual, a equipe de infraestrutura e operações de TIC vivenciou os seguintes episódios durante a rotina de sustentação tecnológica:  
+
+I. O sistema de protocolo eletrônico tornou-se subitamente indisponível no início do expediente; o analista plantonista reiniciou imediatamente os serviços de aplicação e executou um script de liberação de conexões residuais, restabelecendo a operação aos usuários em menos de dez minutos.  
+
+II. Durante a semana seguinte, uma equipe de especialistas foi destacada para investigar detalhadamente os logs de transação e os despejos de memória (*heap dumps*), com o objetivo de descobrir por que o subsistema de sessões acumulou conexões órfãs e formular uma solução definitiva, registrando no repositório de conhecimento uma solução de contorno para o caso de nova ocorrência.  
+
+Considerando as práticas preconizadas pela ITIL v4, as condutas descritas nos itens I e II correspondem, respectivamente, às práticas de:  
+
+* **A)** Gerenciamento de Problemas e Habilitação de Mudanças.
+* **B)** Gerenciamento de Incidentes e Gerenciamento de Problemas.
+* **C)** Gerenciamento de Liberação e Central de Serviços.
+* **D)** Gerenciamento de Problemas e Gerenciamento de Incidentes.
+* **E)** Gerenciamento de Capacidade e Gerenciamento de Ativos de TI.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O item I trata de restabelecimento urgente de serviço (Incidentes), e não de Problemas; o item II trata de análise de causa-raiz e documentação de erro (Problemas), e não da prática de Habilitação de Mudanças.
+> - **B)** **Correta.** O item I caracteriza o Gerenciamento de Incidentes, cujo propósito central é restaurar a operação normal do serviço no menor tempo possível, minimizando o impacto negativo no negócio (mesmo usando soluções temporárias como reinicialização). O item II descreve com perfeição o Gerenciamento de Problemas, cuja finalidade é investigar a causa-raiz de incidentes repetidos ou graves, gerando soluções definitivas e alimentando o KEDB (*Known Error Database*) com soluções de contorno.
+> - **C)** Incorreta. Gerenciamento de Liberação cuida de tornar serviços e recursos novos ou modificados disponíveis para uso, enquanto a Central de Serviços é a unidade organizacional de contato com os usuários.
+> - **D)** Incorreta. Houve inversão da ordem cronológica e conceitual entre as condutas I e II.
+> - **E)** Incorreta. A conduta I não tratou de planejamento de capacidade futura de hardware, nem a II tratou de controle patrimonial/financeiro de ativos de TI.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.3 Habilitação de Mudanças (Change Enablement)
 
 A prática de **Habilitação de Mudanças** (denominada *Change Management* na v3) visa maximizar o número de mudanças bem-sucedidas em serviços e produtos, garantindo a adequada avaliação de riscos, a autorização formal pelas autoridades competentes e a execução coordenada.
@@ -287,6 +361,38 @@ stateDiagram-v2
 
 ---
 
+### Questão 04 (FCC - Técnico de Controle Externo / TI - Adaptada)
+**Enunciado:** A respeito da prática de Habilitação de Mudanças (*Change Enablement*) da ITIL v4 e da classificação de tipos de mudança, considere as três situações a seguir em um órgão público:  
+
+1. Criação de login e concessão de perfil de acesso de rede padronizado para um novo servidor público empossado, conforme procedimento documentado e testado.  
+2. Atualização programada de versão do SGBD de produção do sistema fiscal, com planejamento prévio, análise de impacto e agendamento para o fim de semana.  
+3. Aplicação emergencial imediata de pacote de correção para estancar invasão cibernética em andamento no datacenter central.  
+As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:  
+
+* **A)** Emergencial, Normal e Padrão.
+* **B)** Padrão, Normal e de Emergência.
+* **C)** Normal, Padrão e Emergencial.
+* **D)** Padrão, Estratégica e Crítica.
+* **E)** Operacional, Tática e Governamental.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A situação 1 não é emergencial (é uma rotina diária de baixo risco), e a situação 3 não é uma mudança padrão.
+> - **B)** **Correta.** A ITIL v4 classifica as mudanças em três tipos:  
+>     1. **Mudança Padrão (*Standard*):** Mudança rotineira, de baixo risco, pré-autorizada e com procedimento documentado (criação de conta de usuário).  
+>     2. **Mudança Normal (*Normal*):** Mudança que requer avaliação formal de risco, submissão de RFC (*Request for Change*) e aprovação pela Autoridade de Mudança / CAB antes da execução (atualização de SGBD).  
+>     3. **Mudança de Emergência (*Emergency*):** Mudança que precisa ser implementada imediatamente para restaurar um serviço crítico ou tratar uma vulnerabilidade urgente de segurança cibernética, com validação rápida pelo ECAB.
+>
+> - **C)** Incorreta. A situação 1 não é mudança normal; requerer análise e autorização formal do CAB para cada novo servidor admitido geraria burocracia desnecessária para uma rotina de baixo risco.
+> - **D)** Incorreta. "Estratégica" e "Crítica" não correspondem aos tipos formais de mudança da prática de Change Enablement da ITIL v4.
+> - **E)** Incorreta. A ITIL v4 não adota essa divisão de níveis gerenciais para tipificar mudanças no Change Enablement.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.4 Gerenciamento de Configuração de Serviço (CMDB) vs. Ativos de TI (ITAM)
 
 | Dimensão de Comparação | Gerenciamento de Configuração de Serviço | Gerenciamento de Ativos de TI (ITAM) |
@@ -297,6 +403,29 @@ stateDiagram-v2
 | **Pergunta Essencial** | *"Se o switch da sala de servidores queimar, quais bancos de dados, aplicações de fiscalização e servidores web ficarão indisponíveis?"* | *"Quantas licenças de Windows Server adquirimos, qual é o valor residual dos notebooks do Tribunal e quando expira a garantia do servidor?"* |
 
 ---
+
+### Questão 05 (FCC - Analista de TI / Infraestrutura de Redes - Adaptada)
+**Enunciado:** Na gestão operacional de serviços de TI de uma instituição pública, dois repositórios de dados desempenham funções essenciais, porém com finalidades distintas: o repositório de Itens de Configuração (CIs) que mapeia os relacionamentos técnicos entre hardware, software e serviços para suporte operacional e análise de impacto, e o repositório financeiro/patrimonial destinado ao controle de licenças de software, custos de aquisição e ciclo de vida contábil dos equipamentos. Esses dois papéis correspondem, respectivamente, às práticas da ITIL v4 de:  
+
+* **A)** Gerenciamento de Nível de Serviço e Central de Serviços.
+* **B)** Gerenciamento de Configuração de Serviço e Gerenciamento de Ativos de TI (*ITAM*).
+* **C)** Gerenciamento de Problemas e Habilitação de Mudanças.
+* **D)** Gerenciamento de Ativos de TI (*ITAM*) e Gerenciamento de Liberação.
+* **E)** Gerenciamento de Continuidade e Gerenciamento de Disponibilidade.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Gerenciamento de Nível de Serviço trata da negociação e monitoramento de SLAs com clientes; a Central de Serviços é o ponto único de contato (SPOC) para usuários.
+> - **B)** **Correta.** O Gerenciamento de Configuração de Serviço tem como foco manter informações precisas e confiáveis sobre os Itens de Configuração (CIs) e seus relacionamentos técnicos (armazenados tipicamente no CMDB), servindo de base para análises de impacto em incidentes e mudanças. Já o Gerenciamento de Ativos de TI (ITAM) trata do ciclo de vida completo dos ativos de TI sob a ótica financeira, legal e patrimonial, abrangendo aquisição, controle de licenças de software, depreciação contábil e descarte seguro.
+> - **C)** Incorreta. Gerenciamento de Problemas investiga causas-raiz de falhas, e Habilitação de Mudanças autoriza e agenda modificações na infraestrutura.
+> - **D)** Incorreta. Inverteu as funções e misturou com Gerenciamento de Liberação.
+> - **E)** Incorreta. Ambas são práticas de garantia de serviço voltadas à disponibilidade operacional e resiliência diante de desastres, não aos bancos de configuração e patrimônio.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)
 
@@ -329,124 +458,3 @@ Responsável por garantir que a disponibilidade e o desempenho dos serviços de 
 * AXELOS. **ITIL Foundation: ITIL 4 Edition**. London: TSO (The Stationery Office), 2019. (Cap. 2 - Key Concepts of Service Management; Cap. 4 - The ITIL Service Value System; Cap. 5 - ITIL Management Practices).
 * FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 5 - Gerenciamento de Serviços com ITIL).
 * FREITAS, Marcos André dos Santos. **Fundamentos do Gerenciamento de Serviços de TI com Base na ITIL 4**. Rio de Janeiro: Brasport, 2020. (Cap. 1 a 6).
-
-
-## 4. Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC - Analista de TI / Suporte e Operações - Adaptada)
-**Enunciado:** Em um Tribunal de Contas Estadual, a equipe de infraestrutura e operações de TIC vivenciou os seguintes episódios durante a rotina de sustentação tecnológica:  
-
-I. O sistema de protocolo eletrônico tornou-se subitamente indisponível no início do expediente; o analista plantonista reiniciou imediatamente os serviços de aplicação e executou um script de liberação de conexões residuais, restabelecendo a operação aos usuários em menos de dez minutos.  
-
-II. Durante a semana seguinte, uma equipe de especialistas foi destacada para investigar detalhadamente os logs de transação e os despejos de memória (*heap dumps*), com o objetivo de descobrir por que o subsistema de sessões acumulou conexões órfãs e formular uma solução definitiva, registrando no repositório de conhecimento uma solução de contorno para o caso de nova ocorrência.  
-
-Considerando as práticas preconizadas pela ITIL v4, as condutas descritas nos itens I e II correspondem, respectivamente, às práticas de:  
-
-* **A)** Gerenciamento de Problemas e Habilitação de Mudanças.
-* **B)** Gerenciamento de Incidentes e Gerenciamento de Problemas.
-* **C)** Gerenciamento de Liberação e Central de Serviços.
-* **D)** Gerenciamento de Problemas e Gerenciamento de Incidentes.
-* **E)** Gerenciamento de Capacidade e Gerenciamento de Ativos de TI.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O item I trata de restabelecimento urgente de serviço (Incidentes), e não de Problemas; o item II trata de análise de causa-raiz e documentação de erro (Problemas), e não da prática de Habilitação de Mudanças.
-> - **B)** **Correta.** O item I caracteriza o Gerenciamento de Incidentes, cujo propósito central é restaurar a operação normal do serviço no menor tempo possível, minimizando o impacto negativo no negócio (mesmo usando soluções temporárias como reinicialização). O item II descreve com perfeição o Gerenciamento de Problemas, cuja finalidade é investigar a causa-raiz de incidentes repetidos ou graves, gerando soluções definitivas e alimentando o KEDB (*Known Error Database*) com soluções de contorno.
-> - **C)** Incorreta. Gerenciamento de Liberação cuida de tornar serviços e recursos novos ou modificados disponíveis para uso, enquanto a Central de Serviços é a unidade organizacional de contato com os usuários.
-> - **D)** Incorreta. Houve inversão da ordem cronológica e conceitual entre as condutas I e II.
-> - **E)** Incorreta. A conduta I não tratou de planejamento de capacidade futura de hardware, nem a II tratou de controle patrimonial/financeiro de ativos de TI.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Técnico de Controle Externo / TI - Adaptada)
-**Enunciado:** A respeito da prática de Habilitação de Mudanças (*Change Enablement*) da ITIL v4 e da classificação de tipos de mudança, considere as três situações a seguir em um órgão público:  
-
-1. Criação de login e concessão de perfil de acesso de rede padronizado para um novo servidor público empossado, conforme procedimento documentado e testado.  
-2. Atualização programada de versão do SGBD de produção do sistema fiscal, com planejamento prévio, análise de impacto e agendamento para o fim de semana.  
-3. Aplicação emergencial imediata de pacote de correção para estancar invasão cibernética em andamento no datacenter central.  
-As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:  
-
-* **A)** Emergencial, Normal e Padrão.
-* **B)** Padrão, Normal e de Emergência.
-* **C)** Normal, Padrão e Emergencial.
-* **D)** Padrão, Estratégica e Crítica.
-* **E)** Operacional, Tática e Governamental.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A situação 1 não é emergencial (é uma rotina diária de baixo risco), e a situação 3 não é uma mudança padrão.
-> - **B)** **Correta.** A ITIL v4 classifica as mudanças em três tipos:  
->     1. **Mudança Padrão (*Standard*):** Mudança rotineira, de baixo risco, pré-autorizada e com procedimento documentado (criação de conta de usuário).  
->     2. **Mudança Normal (*Normal*):** Mudança que requer avaliação formal de risco, submissão de RFC (*Request for Change*) e aprovação pela Autoridade de Mudança / CAB antes da execução (atualização de SGBD).  
->     3. **Mudança de Emergência (*Emergency*):** Mudança que precisa ser implementada imediatamente para restaurar um serviço crítico ou tratar uma vulnerabilidade urgente de segurança cibernética, com validação rápida pelo ECAB.
->
-> - **C)** Incorreta. A situação 1 não é mudança normal; requerer análise e autorização formal do CAB para cada novo servidor admitido geraria burocracia desnecessária para uma rotina de baixo risco.
-> - **D)** Incorreta. "Estratégica" e "Crítica" não correspondem aos tipos formais de mudança da prática de Change Enablement da ITIL v4.
-> - **E)** Incorreta. A ITIL v4 não adota essa divisão de níveis gerenciais para tipificar mudanças no Change Enablement.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Analista de Sistemas / Governança de TI - Adaptada)
-**Enunciado:** A ITIL v4 estabelece os 7 Princípios Orientadores (*Guiding Principles*), que representam recomendações que podem orientar uma organização em qualquer circunstância, independentemente de mudanças em suas metas, estratégias ou estrutura de trabalho. Dentre esses princípios, aquele que preconiza que a organização não deve descartar prematuramente soluções e processos existentes sem antes avaliar o que já está disponível e funcionando adequadamente, denomina-se:  
-
-* **A)** Foco no Valor (*Focus on Value*).
-* **B)** Pense e Trabalhe Holisticamente (*Think and Work Holistically*).
-* **C)** Comece de Onde Você Está (*Start Where You Are*).
-* **D)** Otimize e Automatize (*Optimize and Automate*).
-* **E)** Mantenha Simples e Prático (*Keep It Simple and Practical*).
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O princípio Foco no Valor estabelece que tudo o que a organização faz deve vincular-se, direta ou indiretamente, à entrega de valor para os stakeholders.
-> - **B)** Incorreta. O princípio Pense e Trabalhe Holisticamente exige que nenhuma parte da organização atue de forma isolada e que a entrega de serviços seja vista como um todo interconectado.
-> - **C)** **Correta.** O princípio Comece de Onde Você Está orienta a nunca começar do zero sem antes analisar o estado atual; processos, ferramentas e habilidades em vigor devem ser mensurados e reaproveitados sempre que viável.
-> - **D)** Incorreta. O princípio Otimize e Automatize orienta a tornar os processos o mais eficientes e úteis possível antes de aplicar ferramentas de automação tecnológica.
-> - **E)** Incorreta. O princípio Mantenha Simples e Prático prega a eliminação de burocracias, formulários e passos desnecessários que não agregam valor ao resultado final.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 4 (FCC - Auditor Federal de Controle Externo / TI - Adaptada)
-**Enunciado:** O Sistema de Valor de Serviço (SVS) da ITIL v4 apoia-se em Quatro Dimensões do Gerenciamento de Serviço, fundamentais para assegurar a co-criação equilibrada e sustentável de valor. A dimensão que abrange a cultura da organização, as competências técnicas dos colaboradores, os estilos de liderança e a gestão das linhas de comunicação internas denomina-se:  
-
-* **A)** Informação e Tecnologia.
-* **B)** Parceiros e Fornecedores.
-* **C)** Fluxos de Valor e Processos.
-* **D)** Organizações e Pessoas.
-* **E)** Fatores Externos PESTLE.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A dimensão Informação e Tecnologia trata da gestão dos dados institucionais, sistemas corporativos, ferramentas de software, segurança da informação e infraestrutura física/em nuvem.
-> - **B)** Incorreta. A dimensão Parceiros e Fornecedores foca nos relacionamentos da organização com outras entidades envolvidas no desenho, entrega e suporte dos serviços (contratos, parceiros de terceirização, integradores).
-> - **C)** Incorreta. A dimensão Fluxos de Valor e Processos cuida das atividades, fluxos operacionais e procedimentos coordenados que viabilizam a criação de produtos e serviços.
-> - **D)** **Correta.** A dimensão Organizações e Pessoas concentra-se explicitamente na estrutura organizacional formal, cultura corporativa compartilhada, habilidades e competências das equipes, papeis/responsabilidades e estilos de liderança e comunicação.
-> - **E)** Incorreta. O acrônimo PESTLE descreve as influências macroambientais externas (políticas, econômicas, sociais, tecnológicas, legais e ambientais) que exercem pressão sobre as quatro dimensões, não constituindo uma das quatro dimensões em si.
-> 
-> **Gabarito: D**
-
----
-
-### Questão 5 (FCC - Analista de TI / Infraestrutura de Redes - Adaptada)
-**Enunciado:** Na gestão operacional de serviços de TI de uma instituição pública, dois repositórios de dados desempenham funções essenciais, porém com finalidades distintas: o repositório de Itens de Configuração (CIs) que mapeia os relacionamentos técnicos entre hardware, software e serviços para suporte operacional e análise de impacto, e o repositório financeiro/patrimonial destinado ao controle de licenças de software, custos de aquisição e ciclo de vida contábil dos equipamentos. Esses dois papéis correspondem, respectivamente, às práticas da ITIL v4 de:  
-
-* **A)** Gerenciamento de Nível de Serviço e Central de Serviços.
-* **B)** Gerenciamento de Configuração de Serviço e Gerenciamento de Ativos de TI (*ITAM*).
-* **C)** Gerenciamento de Problemas e Habilitação de Mudanças.
-* **D)** Gerenciamento de Ativos de TI (*ITAM*) e Gerenciamento de Liberação.
-* **E)** Gerenciamento de Continuidade e Gerenciamento de Disponibilidade.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Gerenciamento de Nível de Serviço trata da negociação e monitoramento de SLAs com clientes; a Central de Serviços é o ponto único de contato (SPOC) para usuários.
-> - **B)** **Correta.** O Gerenciamento de Configuração de Serviço tem como foco manter informações precisas e confiáveis sobre os Itens de Configuração (CIs) e seus relacionamentos técnicos (armazenados tipicamente no CMDB), servindo de base para análises de impacto em incidentes e mudanças. Já o Gerenciamento de Ativos de TI (ITAM) trata do ciclo de vida completo dos ativos de TI sob a ótica financeira, legal e patrimonial, abrangendo aquisição, controle de licenças de software, depreciação contábil e descarte seguro.
-> - **C)** Incorreta. Gerenciamento de Problemas investiga causas-raiz de falhas, e Habilitação de Mudanças autoriza e agenda modificações na infraestrutura.
-> - **D)** Incorreta. Inverteu as funções e misturou com Gerenciamento de Liberação.
-> - **E)** Incorreta. Ambas são práticas de garantia de serviço voltadas à disponibilidade operacional e resiliência diante de desastres, não aos bancos de configuração e patrimônio.
-> 
-> **Gabarito: B**

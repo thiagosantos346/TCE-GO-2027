@@ -35,7 +35,6 @@
     - [4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)](#42-mascaramento-dinamico-de-dados-ddm-e-privacidade-lgpd)
     - [4.3 Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)](#43-trilhas-de-auditoria-e-controle-de-acesso-baseado-em-papeis-rbac)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [5. Questões Comentadas (FCC)](#5-questoes-comentadas-fcc)
 
 ---
 
@@ -146,6 +145,31 @@ Para erradicar a ocorrência de split-brain, os sistemas modernos de HA utilizam
 3. **STONITH (*Shoot The Other Node In The Head* / Fencing):**
     - Mecanismo agressivo de isolamento por hardware. Antes que um nó secundário tome a posse do armazenamento compartilhado e seja promovido a novo primário, ele aciona comandos remotos via interface de gerenciamento de hardware fora de banda (IPMI, iLO, BMC ou tomadas elétricas inteligentes) para **cortar compulsoriamente a energia física do antigo primário**, assegurando que ele jamais voltará a gravar dados simultaneamente.
 
+---
+
+### Questão 01
+**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
+Em clusters de alta disponibilidade operando com réplicas distribuídas em datacenters geograficamente separados, a ruptura física dos canais de comunicação de rede entre os nós pode ocasionar uma partição de rede. A respeito dos mecanismos de consenso utilizados para prevenir a corrupção de dados e a ocorrência de *Split-Brain*, é correto afirmar:
+
+* **A)** O fenômeno de *Split-Brain* é naturalmente impossível em clusters compostos por exatamente 2 nós de pesos idênticos.
+* **B)** Os algoritmos de consenso baseados em quórum de maioria (como Raft e Paxos) exigem que um nó ou subconjunto de nós obtenha a maioria absoluta de votos ($\lfloor N/2 \rfloor + 1$) para prosseguir com operações de escrita, forçando os nós isolados na partição minoritária a suspender gravações.
+* **C)** A técnica de STONITH (*Shoot The Other Node In The Head*) consiste em promover simultaneamente todos os nós isolados a servidores mestres com o objetivo de multiplicar a capacidade de escrita.
+* **D)** A ocorrência de dois nós primários concorrentes não acarreta danos à integridade do banco de dados, pois sistemas relacionais conciliam divergências automaticamente por união natural.
+* **E)** Para garantir a mitigação de falhas em partições de rede, os clusters distribuídos devem ser projetados prioritariamente com um número par de servidores.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Clusters de 2 nós com pesos iguais são os mais suscetíveis ao *Split-Brain*, pois em caso de partição cada nó enxerga 50% dos votos (1 de 2), não atingindo a maioria estrita sem um árbitro externo (*witness*).
+> - **B)** **Correta.** Os algoritmos de consenso e quórum (Raft, Paxos) exigem a conquista da **maioria absoluta estrita** ($\lfloor N/2 \rfloor + 1$). Se um cluster de 3 nós sofrer partição binária dividindo-se em [2 nós] e [1 nó], a partição maior detém o quórum ($2 > 1.5$) e continua processando gravações, enquanto o nó minoritário isolado suspende as alterações para resguardar a integridade global da base.
+> - **C)** Incorreta. O STONITH é uma técnica drástica de isolamento (*fencing*) de hardware que desliga eletricamente pela força o nó suspeito via comandos de gerenciamento de rede (IPMI/iLO).
+> - **D)** Incorreta. O *Split-Brain* é um evento gravíssimo que gera divergência irreparável de dados (*data divergence*), tornando impossível a reconciliação automática.
+> - **E)** Incorreta. Recomenda-se projetar clusters de consenso com número **ímpar** de nós (3, 5, 7) para evitar cenários de empate em partições simétricas.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC
 
 * **Patroni (com etcd ou Consul):**
@@ -173,6 +197,37 @@ O plano de recuperação de desastres (*Disaster Recovery Plan*) constitui a úl
 * **Backup Físico (`pg_basebackup` / Oracle RMAN):**
     - Realiza a cópia binária dos blocos de dados físicos brutos (*Datafiles*), arquivos de controle (*Control Files*) e cabeçalhos em nível de sistema de arquivos ou raw disk.
     - *Vantagens:* Altíssima velocidade de gravação e restauração, baixíssimo consumo de CPU e suporte integral a rotinas contínuas de Point-in-Time Recovery.
+
+---
+
+### Questão 02
+**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
+A equipe de infraestrutura de dados de um tribunal adota a seguinte política semanal de cópias de segurança:
+
+- **Domingo às 01h00:** Backup Físico Completo (*Full*).
+- **Segunda a Sábado às 23h00:** Backups diários.
+
+Na quinta-feira pela manhã, os discos do subsistema de armazenamento sofreram danos irreparáveis, exigindo a reconstrução total da base de dados.
+Sobre os procedimentos técnicos de restauração (*Restore*) na quinta-feira, é correto afirmar:
+
+* **A)** Caso a política utilize backups **diferenciais**, a restauração exigirá o backup *Full* de domingo e exclusivamente o arquivo de backup *Diferencial* de quarta-feira.
+* **B)** Caso a política utilize backups **incrementais**, a restauração exigirá apenas o backup *Full* de domingo e o backup *Incremental* de quarta-feira, descartando os dias intermediários.
+* **C)** O backup diferencial copia apenas os blocos modificados nas últimas 24 horas, exigindo mais passos na restauração do que o backup incremental.
+* **D)** O backup incremental copia todos os dados alterados desde o último backup completo de domingo.
+* **E)** A rotina noturna de backup incremental consome progressivamente mais tempo de execução e espaço em disco a cada dia sucessivo do que a rotina diferencial.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** O backup **Diferencial** armazena cumulativamente todos os blocos de dados alterados **desde o último backup COMPLETO (*Full*)**. Dessa forma, o arquivo diferencial gerado na noite de quarta-feira já consolida todas as modificações de segunda, terça e quarta. Para restaurar o banco na quinta-feira de manhã, são necessários exatamente **dois arquivos**: o *Full* de domingo + o *Diferencial* de quarta-feira.
+> - **B)** Incorreta. O backup **Incremental** grava unicamente o delta ocorrido em relação ao backup anterior (seja full ou incremental). Para restaurar a base na quinta-feira via incremental, é mandatório aplicar **toda a cadeia sequencial**: `Full (Domingo) + Inc (Segunda) + Inc (Terça) + Inc (Quarta)`.
+> - **C)** Incorreta. O backup diferencial consolida desde o último Full; sua restauração é mais ágil porque envolve apenas dois arquivos.
+> - **D)** Incorreta. Quem copia desde o último backup completo de domingo é o backup **diferencial**, e não o incremental.
+> - **E)** Incorreta. O backup incremental é compacto e lida apenas com o delta do último dia; quem cresce sucessivamente a cada dia da semana é o backup diferencial.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 3.2 Tipos de Backup: Completo (Full), Diferencial e Incremental
 
@@ -211,6 +266,32 @@ A execução do PITR articula dois pilares:
 1. **Restauração de um Backup Físico de Base (*Base Backup*):** Uma cópia física íntegra anterior ao evento.
 2. **Reaplicação de Logs Transacionais (*Roll-Forward / Replay*):** O motor de recuperação lê sequencialmente os arquivos arquivados de log (**Archived WALs** no PostgreSQL ou **Archived Redo Logs** no Oracle) e reaplica todas as transações cronologicamente até parar **milissegundos antes** do timestamp ou número de alteração (*SCN*) do comando danoso.
 
+---
+
+### Questão 03
+**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
+Às 14h35 de uma terça-feira, durante a realização de uma rotina emergencial no banco de dados de produção de um tribunal, um operador executou inadvertidamente o comando `DROP TABLE CADASTRO_SERVIDORES`. A organização adota uma política com Backup Físico Completo (*Full*) todos os domingos às 00h00, backups incrementais diários às 23h00 e mantém o arquivamento contínuo ininterrupto de todos os logs de transação (*WAL / Archived Redo Logs*).
+Para reverter o banco de dados exatamente ao estado em que se encontrava às 14h34m59s (um segundo antes do comando destrutivo), minimizando a perda de transações legítimas, a estratégia técnica apropriada é:
+
+* **A)** Restaurar o backup completo de domingo, aceitando a perda das transações confirmadas na segunda e terça-feira.
+* **B)** Utilizar o mecanismo de *Point-in-Time Recovery* (PITR), restaurando a cópia física base e reaplicando sequencialmente os arquivos de log transacional arquivados até o carimbo de data e hora especificado anterior à falha.
+* **C)** Executar uma rotina de Backup Lógico Frio para exportar os metadados da tabela a partir da memória do sistema operacional.
+* **D)** Emitir um comando de `ROLLBACK` na sessão do usuário que executou o comando destrutivo para anular a exclusão dos dados.
+* **E)** Restaurar unicamente o arquivo de backup incremental de segunda-feira, sendo tecnicamente impossível recuperar dados transacionados entre as 23h00 de segunda e as 14h35 de terça.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Restaurar unicamente o backup de domingo descartaria dois dias completos de transações legítimas comitadas, contrariando as boas práticas de recuperação de desastres.
+> - **B)** **Correta.** O **Point-in-Time Recovery (PITR)** é a técnica padrão que combina a restauração de um backup físico de base com o reaproveitamento sequencial (*roll-forward*) dos arquivos arquivados de log de transação (WAL/Redo Logs) até atingir o timestamp exato (`14:34:59`), cessando a recuperação milissegundos antes da execução do comando destrutivo `DROP TABLE`.
+> - **C)** Incorreta. Backups lógicos não interagem com fluxos temporais contínuos de logs transacionais para restauração de segundo em segundo.
+> - **D)** Incorreta. Comandos DDL alteram diretamente os metadados do catálogo de dados e geram commits implícitos na imensa maioria dos SGBDs, não podendo ser revertidos por simples `ROLLBACK` de sessão.
+> - **E)** Incorreta. O arquivamento ininterrupto de logs transacionais preserva todas as transações comitadas da terça-feira até o momento da falha.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 3.4 Métricas Críticas: RPO vs. RTO
 
 A elaboração de acordos de nível de serviço (SLA) para desastres baseia-se em duas métricas temporais consagradas:
@@ -232,6 +313,37 @@ A elaboração de acordos de nível de serviço (SLA) para desastres baseia-se e
 
 ---
 
+### Questão 04
+**(FCC - TCE-PI - Auditor de Controle Externo - Tecnologia da Informação)**
+O Plano de Continuidade de Negócios e Recuperação de Desastres de um Tribunal de Contas estabeleceu duas diretrizes mandatórias para os sistemas corporativos de auditoria:
+
+1. Em caso de desastre físico no datacenter principal, a tolerância para descarte de dados fiscais é de **zero transações confirmadas**.
+2. O tempo máximo aceitável para que a infraestrutura secundária assuma a operação e o sistema esteja plenamente restabelecido aos auditores é de **15 minutos**.
+
+A respeito das métricas de resiliência e dos modelos de replicação envolvidos, é correto afirmar:
+
+* **A)** A primeira diretriz define o RTO, podendo ser atendida exclusivamente por backups em fitas magnéticas semanais.
+* **B)** A primeira diretriz define um RPO igual a zero, exigindo replicação síncrona de dados para o nó secundário; enquanto a segunda diretriz define um RTO de 15 minutos, demandando infraestrutura com detecção ágil e failover automatizado.
+* **C)** O fenômeno de *Split-Brain* é definido formalmente como o estado no qual o RTO de um cluster supera 48 horas ininterruptas.
+* **D)** A replicação puramente assíncrona garante perda zero de dados em caso de destruição repentina do nó primário, pois os dados comitados ficam congelados na rede até a confirmação da réplica.
+* **E)** RPO e RTO são conceitos financeiros atrelados ao custo de licenças de software, sem relação com tempos de contingência operacional.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A primeira diretriz trata de limite de perda de dados no tempo (**RPO**), e não de tempo de restauração do serviço (**RTO**). Ademais, fitas semanais produzem perdas de vários dias.
+> - **B)** **Correta.** 
+>     - O **RPO (*Recovery Point Objective*)** define o volume aceitável de dados perdidos expresso em tempo retroativo. Exigir *zero transações confirmadas* significa **$RPO = 0$**, o que demanda compulsoriamente a **Replicação Síncrona**.
+>     - O **RTO (*Recovery Time Objective*)** define o prazo máximo para colocar o sistema em operação após a ocorrência do desastre. O intervalo de 15 minutos demanda arquitetura de alta disponibilidade com monitoramento de batimento cardíaco (*heartbeat*) e rotinas de **failover** rápidas ou automatizadas.
+> - **C)** Incorreta. *Split-Brain* é a anomalia grave em que dois nós do cluster assumem a função de nó primário simultaneamente em decorrência de quebra no link de comunicação; não se relaciona com uma métrica de 48 horas.
+> - **D)** Incorreta. Na replicação assíncrona, o nó primário confirma o commit antes de transmitir o dado à réplica; em falha abrupta, transações em trânsito são irremediavelmente perdidas ($RPO > 0$).
+> - **E)** Incorreta. RPO e RTO são métricas consagradas de engenharia de software e continuidade de negócios (*Disaster Recovery*).
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 4. Segurança, Criptografia, Privacidade e Governança de Dados
 
 A proteção de ativos de informação em tribunais de controle externo exige mecanismos em camadas (*defense-in-depth*), combinando criptografia, controle de acesso e conformidade legal com a Lei Geral de Proteção de Dados (LGPD).
@@ -243,6 +355,38 @@ O **TDE (*Transparent Data Encryption*)** cifra os arquivos binários em repouso
 - **Transparência Absoluta:** O processo de criptografia e descriptografia ocorre na memória RAM pelo motor do SGBD durante as operações de I/O de blocos. **Aplicações clientes e consultas SQL não exigem nenhuma alteração de código**.
 - **Algoritmos e Chaves:** Utiliza algoritmos robustos da indústria (como AES-256 e 3DES) gerenciados por uma arquitetura hierárquica de chaves (*Master Encryption Key* armazenada externamente em *Oracle Wallet*, HSM ou KMS em nuvem).
 - **Finalidade:** Protege o banco caso os discos físicos, storages ou mídias de backup sejam extraviados ou roubados fisicamente.
+
+---
+
+### Questão 05
+**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+Em conformidade com as exigências de privacidade da Lei Geral de Proteção de Dados (LGPD) e as boas práticas de segurança corporativa em órgãos públicos, a equipe de administração de banco de dados implementou duas medidas técnicas:
+
+1. Criptografia dos blocos de dados físicos em repouso (*data-at-rest*) no disco rígido e nas fitas de backup de maneira imperceptível para as instruções SQL e aplicações conectadas.
+2. Ofuscação de colunas com dados sensíveis (como números de CPF e remunerações) em tempo de execução para operadores sem permissões especiais, mantendo os registros originais intactos e inalterados no subsistema de armazenamento.
+
+As duas abordagens de segurança correspondem, respectivamente, a:
+
+* **A)** *Dynamic Data Masking* (DDM); e *Transparent Data Encryption* (TDE).
+* **B)** *Transparent Data Encryption* (TDE); e *Dynamic Data Masking* (DDM).
+* **C)** *Point-in-Time Recovery* (PITR); e Anonimização definitiva em repouso.
+* **D)** Autenticação multifator por biometria; e exclusão lógica com `DELETE CASCADE`.
+* **E)** *Role-Based Access Control* (RBAC); e cálculo de hash MD5 na cláusula `WHERE`.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Houve inversão da correspondência dos conceitos apresentados.
+> - **B)** **Correta.** 
+>     - O item 1 descreve com precisão o **TDE (*Transparent Data Encryption*)**, funcionalidade que cifra os arquivos de dados físicos (*datafiles*), logs e backups no armazenamento persistente de forma transparente para a aplicação cliente e sem alterações no código SQL.
+>     - O item 2 retrata o **Dynamic Data Masking (DDM)** (Mascaramento Dinâmico de Dados), tecnologia que intercepta a consulta SQL em tempo de execução e ofusca o dado sensível para perfis não autorizados, mantendo o dado físico armazenado na tabela rigorosamente intacto.
+> - **C)** Incorreta. O PITR é uma estratégia de restauração de desastres, e a anonimização definitiva altera permanentemente o registro original no disco.
+> - **D)** Incorreta. Conceitos não guardam relação técnica com a descrição do enunciado.
+> - **E)** Incorreta. RBAC gerencia autorizações por papéis de usuários, e cálculos de hash irreversíveis impediriam consultas de dados originais por usuários privilegiados.
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)
 
@@ -273,136 +417,3 @@ O **Dynamic Data Masking (DDM)** intercepta as consultas SQL no momento de sua e
 * SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 19 - Recuperação de Falhas; Cap. 20 - Arquiteturas de Sistemas de Banco de Dados).
 * ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 23 - Segurança e Autorização em Bancos de Dados).
 * KLEPPMANN, Martin. **Projetando Aplicações Intensivas em Dados**. São Paulo: Novatec, 2018. (Cap. 5 - Replicação Líder-Seguidor e Multi-Líder; Cap. 6 - Particionamento de Dados).
-
----
-
-## 5. Questões Comentadas (FCC)
-
-### Questão 01
-**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
-Às 14h35 de uma terça-feira, durante a realização de uma rotina emergencial no banco de dados de produção de um tribunal, um operador executou inadvertidamente o comando `DROP TABLE CADASTRO_SERVIDORES`. A organização adota uma política com Backup Físico Completo (*Full*) todos os domingos às 00h00, backups incrementais diários às 23h00 e mantém o arquivamento contínuo ininterrupto de todos os logs de transação (*WAL / Archived Redo Logs*).
-Para reverter o banco de dados exatamente ao estado em que se encontrava às 14h34m59s (um segundo antes do comando destrutivo), minimizando a perda de transações legítimas, a estratégia técnica apropriada é:
-
-* **A)** Restaurar o backup completo de domingo, aceitando a perda das transações confirmadas na segunda e terça-feira.
-* **B)** Utilizar o mecanismo de *Point-in-Time Recovery* (PITR), restaurando a cópia física base e reaplicando sequencialmente os arquivos de log transacional arquivados até o carimbo de data e hora especificado anterior à falha.
-* **C)** Executar uma rotina de Backup Lógico Frio para exportar os metadados da tabela a partir da memória do sistema operacional.
-* **D)** Emitir um comando de `ROLLBACK` na sessão do usuário que executou o comando destrutivo para anular a exclusão dos dados.
-* **E)** Restaurar unicamente o arquivo de backup incremental de segunda-feira, sendo tecnicamente impossível recuperar dados transacionados entre as 23h00 de segunda e as 14h35 de terça.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Restaurar unicamente o backup de domingo descartaria dois dias completos de transações legítimas comitadas, contrariando as boas práticas de recuperação de desastres.
-> - **B)** **Correta.** O **Point-in-Time Recovery (PITR)** é a técnica padrão que combina a restauração de um backup físico de base com o reaproveitamento sequencial (*roll-forward*) dos arquivos arquivados de log de transação (WAL/Redo Logs) até atingir o timestamp exato (`14:34:59`), cessando a recuperação milissegundos antes da execução do comando destrutivo `DROP TABLE`.
-> - **C)** Incorreta. Backups lógicos não interagem com fluxos temporais contínuos de logs transacionais para restauração de segundo em segundo.
-> - **D)** Incorreta. Comandos DDL alteram diretamente os metadados do catálogo de dados e geram commits implícitos na imensa maioria dos SGBDs, não podendo ser revertidos por simples `ROLLBACK` de sessão.
-> - **E)** Incorreta. O arquivamento ininterrupto de logs transacionais preserva todas as transações comitadas da terça-feira até o momento da falha.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC - TCE-PI - Auditor de Controle Externo - Tecnologia da Informação)**
-O Plano de Continuidade de Negócios e Recuperação de Desastres de um Tribunal de Contas estabeleceu duas diretrizes mandatórias para os sistemas corporativos de auditoria:
-
-1. Em caso de desastre físico no datacenter principal, a tolerância para descarte de dados fiscais é de **zero transações confirmadas**.
-2. O tempo máximo aceitável para que a infraestrutura secundária assuma a operação e o sistema esteja plenamente restabelecido aos auditores é de **15 minutos**.
-
-A respeito das métricas de resiliência e dos modelos de replicação envolvidos, é correto afirmar:
-
-* **A)** A primeira diretriz define o RTO, podendo ser atendida exclusivamente por backups em fitas magnéticas semanais.
-* **B)** A primeira diretriz define um RPO igual a zero, exigindo replicação síncrona de dados para o nó secundário; enquanto a segunda diretriz define um RTO de 15 minutos, demandando infraestrutura com detecção ágil e failover automatizado.
-* **C)** O fenômeno de *Split-Brain* é definido formalmente como o estado no qual o RTO de um cluster supera 48 horas ininterruptas.
-* **D)** A replicação puramente assíncrona garante perda zero de dados em caso de destruição repentina do nó primário, pois os dados comitados ficam congelados na rede até a confirmação da réplica.
-* **E)** RPO e RTO são conceitos financeiros atrelados ao custo de licenças de software, sem relação com tempos de contingência operacional.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A primeira diretriz trata de limite de perda de dados no tempo (**RPO**), e não de tempo de restauração do serviço (**RTO**). Ademais, fitas semanais produzem perdas de vários dias.
-> - **B)** **Correta.** 
->     - O **RPO (*Recovery Point Objective*)** define o volume aceitável de dados perdidos expresso em tempo retroativo. Exigir *zero transações confirmadas* significa **$RPO = 0$**, o que demanda compulsoriamente a **Replicação Síncrona**.
->     - O **RTO (*Recovery Time Objective*)** define o prazo máximo para colocar o sistema em operação após a ocorrência do desastre. O intervalo de 15 minutos demanda arquitetura de alta disponibilidade com monitoramento de batimento cardíaco (*heartbeat*) e rotinas de **failover** rápidas ou automatizadas.
-> - **C)** Incorreta. *Split-Brain* é a anomalia grave em que dois nós do cluster assumem a função de nó primário simultaneamente em decorrência de quebra no link de comunicação; não se relaciona com uma métrica de 48 horas.
-> - **D)** Incorreta. Na replicação assíncrona, o nó primário confirma o commit antes de transmitir o dado à réplica; em falha abrupta, transações em trânsito são irremediavelmente perdidas ($RPO > 0$).
-> - **E)** Incorreta. RPO e RTO são métricas consagradas de engenharia de software e continuidade de negócios (*Disaster Recovery*).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
-A equipe de infraestrutura de dados de um tribunal adota a seguinte política semanal de cópias de segurança:
-
-- **Domingo às 01h00:** Backup Físico Completo (*Full*).
-- **Segunda a Sábado às 23h00:** Backups diários.
-
-Na quinta-feira pela manhã, os discos do subsistema de armazenamento sofreram danos irreparáveis, exigindo a reconstrução total da base de dados.
-Sobre os procedimentos técnicos de restauração (*Restore*) na quinta-feira, é correto afirmar:
-
-* **A)** Caso a política utilize backups **diferenciais**, a restauração exigirá o backup *Full* de domingo e exclusivamente o arquivo de backup *Diferencial* de quarta-feira.
-* **B)** Caso a política utilize backups **incrementais**, a restauração exigirá apenas o backup *Full* de domingo e o backup *Incremental* de quarta-feira, descartando os dias intermediários.
-* **C)** O backup diferencial copia apenas os blocos modificados nas últimas 24 horas, exigindo mais passos na restauração do que o backup incremental.
-* **D)** O backup incremental copia todos os dados alterados desde o último backup completo de domingo.
-* **E)** A rotina noturna de backup incremental consome progressivamente mais tempo de execução e espaço em disco a cada dia sucessivo do que a rotina diferencial.
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** O backup **Diferencial** armazena cumulativamente todos os blocos de dados alterados **desde o último backup COMPLETO (*Full*)**. Dessa forma, o arquivo diferencial gerado na noite de quarta-feira já consolida todas as modificações de segunda, terça e quarta. Para restaurar o banco na quinta-feira de manhã, são necessários exatamente **dois arquivos**: o *Full* de domingo + o *Diferencial* de quarta-feira.
-> - **B)** Incorreta. O backup **Incremental** grava unicamente o delta ocorrido em relação ao backup anterior (seja full ou incremental). Para restaurar a base na quinta-feira via incremental, é mandatório aplicar **toda a cadeia sequencial**: `Full (Domingo) + Inc (Segunda) + Inc (Terça) + Inc (Quarta)`.
-> - **C)** Incorreta. O backup diferencial consolida desde o último Full; sua restauração é mais ágil porque envolve apenas dois arquivos.
-> - **D)** Incorreta. Quem copia desde o último backup completo de domingo é o backup **diferencial**, e não o incremental.
-> - **E)** Incorreta. O backup incremental é compacto e lida apenas com o delta do último dia; quem cresce sucessivamente a cada dia da semana é o backup diferencial.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 04
-**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
-Em clusters de alta disponibilidade operando com réplicas distribuídas em datacenters geograficamente separados, a ruptura física dos canais de comunicação de rede entre os nós pode ocasionar uma partição de rede. A respeito dos mecanismos de consenso utilizados para prevenir a corrupção de dados e a ocorrência de *Split-Brain*, é correto afirmar:
-
-* **A)** O fenômeno de *Split-Brain* é naturalmente impossível em clusters compostos por exatamente 2 nós de pesos idênticos.
-* **B)** Os algoritmos de consenso baseados em quórum de maioria (como Raft e Paxos) exigem que um nó ou subconjunto de nós obtenha a maioria absoluta de votos ($\lfloor N/2 \rfloor + 1$) para prosseguir com operações de escrita, forçando os nós isolados na partição minoritária a suspender gravações.
-* **C)** A técnica de STONITH (*Shoot The Other Node In The Head*) consiste em promover simultaneamente todos os nós isolados a servidores mestres com o objetivo de multiplicar a capacidade de escrita.
-* **D)** A ocorrência de dois nós primários concorrentes não acarreta danos à integridade do banco de dados, pois sistemas relacionais conciliam divergências automaticamente por união natural.
-* **E)** Para garantir a mitigação de falhas em partições de rede, os clusters distribuídos devem ser projetados prioritariamente com um número par de servidores.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Clusters de 2 nós com pesos iguais são os mais suscetíveis ao *Split-Brain*, pois em caso de partição cada nó enxerga 50% dos votos (1 de 2), não atingindo a maioria estrita sem um árbitro externo (*witness*).
-> - **B)** **Correta.** Os algoritmos de consenso e quórum (Raft, Paxos) exigem a conquista da **maioria absoluta estrita** ($\lfloor N/2 \rfloor + 1$). Se um cluster de 3 nós sofrer partição binária dividindo-se em [2 nós] e [1 nó], a partição maior detém o quórum ($2 > 1.5$) e continua processando gravações, enquanto o nó minoritário isolado suspende as alterações para resguardar a integridade global da base.
-> - **C)** Incorreta. O STONITH é uma técnica drástica de isolamento (*fencing*) de hardware que desliga eletricamente pela força o nó suspeito via comandos de gerenciamento de rede (IPMI/iLO).
-> - **D)** Incorreta. O *Split-Brain* é um evento gravíssimo que gera divergência irreparável de dados (*data divergence*), tornando impossível a reconciliação automática.
-> - **E)** Incorreta. Recomenda-se projetar clusters de consenso com número **ímpar** de nós (3, 5, 7) para evitar cenários de empate em partições simétricas.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 05
-**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
-Em conformidade com as exigências de privacidade da Lei Geral de Proteção de Dados (LGPD) e as boas práticas de segurança corporativa em órgãos públicos, a equipe de administração de banco de dados implementou duas medidas técnicas:
-
-1. Criptografia dos blocos de dados físicos em repouso (*data-at-rest*) no disco rígido e nas fitas de backup de maneira imperceptível para as instruções SQL e aplicações conectadas.
-2. Ofuscação de colunas com dados sensíveis (como números de CPF e remunerações) em tempo de execução para operadores sem permissões especiais, mantendo os registros originais intactos e inalterados no subsistema de armazenamento.
-
-As duas abordagens de segurança correspondem, respectivamente, a:
-
-* **A)** *Dynamic Data Masking* (DDM); e *Transparent Data Encryption* (TDE).
-* **B)** *Transparent Data Encryption* (TDE); e *Dynamic Data Masking* (DDM).
-* **C)** *Point-in-Time Recovery* (PITR); e Anonimização definitiva em repouso.
-* **D)** Autenticação multifator por biometria; e exclusão lógica com `DELETE CASCADE`.
-* **E)** *Role-Based Access Control* (RBAC); e cálculo de hash MD5 na cláusula `WHERE`.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Houve inversão da correspondência dos conceitos apresentados.
-> - **B)** **Correta.** 
->     - O item 1 descreve com precisão o **TDE (*Transparent Data Encryption*)**, funcionalidade que cifra os arquivos de dados físicos (*datafiles*), logs e backups no armazenamento persistente de forma transparente para a aplicação cliente e sem alterações no código SQL.
->     - O item 2 retrata o **Dynamic Data Masking (DDM)** (Mascaramento Dinâmico de Dados), tecnologia que intercepta a consulta SQL em tempo de execução e ofusca o dado sensível para perfis não autorizados, mantendo o dado físico armazenado na tabela rigorosamente intacto.
-> - **C)** Incorreta. O PITR é uma estratégia de restauração de desastres, e a anonimização definitiva altera permanentemente o registro original no disco.
-> - **D)** Incorreta. Conceitos não guardam relação técnica com a descrição do enunciado.
-> - **E)** Incorreta. RBAC gerencia autorizações por papéis de usuários, e cálculos de hash irreversíveis impediriam consultas de dados originais por usuários privilegiados.
-> 
-> **Gabarito: B**

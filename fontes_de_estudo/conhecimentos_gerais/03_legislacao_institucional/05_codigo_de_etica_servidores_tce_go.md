@@ -44,7 +44,6 @@
     - [4.2 Rito Sumário Apuratório e Garantia da Ampla Defesa](#42-rito-sumario-apuratorio-e-garantia-da-ampla-defesa)
     - [4.3 A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria](#43-a-penalidade-exclusiva-de-censura-etica-e-remessa-disciplinar-a-corregedoria)
 - [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -111,6 +110,30 @@ No âmbito do TCE-GO, o manuseio de dados fiscais, bancários, orçamentários e
 
 ---
 
+### Questão 01
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+Flávio, Técnico de Controle Externo do TCE-GO, teve acesso a um relatório preliminar de auditoria ainda sigiloso que apura irregularidades na gestão de saúde pública estadual. Indignado com os achados, Flávio publica trechos dos documentos e fotografias em suas redes sociais pessoais, tecendo críticas severas aos gestores envolvidos antes do julgamento do processo pela Câmara. À luz das normas deontológicas do TCE-GO:
+
+* **A)** A atitude de Flávio é protegida pelo direito constitucional à livre manifestação do pensamento, não configurando infração ética.
+* **B)** Flávio cometeu infração ética grave contra os deveres de sigilo, reserva e confidencialidade, sendo-lhe expressamente vedado antecipar juízos de valor em mídias sociais sobre processos em tramitação.
+* **C)** A divulgação em rede social só seria ilícita se Flávio tivesse recebido remuneração direta de partidos de oposição.
+* **D)** O servidor agiu com estrito cumprimento do princípio da publicidade, sobrepondo-se este ao sigilo institucional dos autos.
+* **E)** A comissão de auditoria deve endossar a postagem para garantir a transparência ativa dos dados da Corte de Contas.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A garantia constitucional da liberdade de expressão encontra limite no dever de fidelidade institucional e de sigilo funcional sobre documentos não homologados a que o agente teve acesso exclusivamente em virtude do cargo público.
+> - **B) CORRETA.** Nos termos do Código de Ética do TCE-GO, incumbe ao servidor o **dever indeclinável de sigilo e discrição** quanto a relatórios e autos processuais em andamento. É vedada categoricamente a antecipação de juízos de valor, a manifestação pública de opiniões parciais ou o vazamento de peças técnicas à imprensa e redes sociais antes da formal deliberação do Tribunal.
+> - **C) Incorreta.** O recebimento de remuneração agravaria o ilícito com contornos de corrupção passiva, mas a divulgação não autorizada por si só já perfaz falta ética autônoma.
+> - **D) Incorreta.** A publicidade republicana é assegurada mediante atos e canais oficiais da Corte nos momentos processuais oportunos, não se confundindo com quebra arbitrária de sigilo por servidor individualmente.
+> - **E) Incorreta.** As equipes de fiscalização submetem-se ao mesmo dever de reserva e neutralidade institucional.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3.2 Política Institucional de Presentes vs. Brindes
 A disciplina de integridade do TCE-GO estabelece fronteira nítida entre o que configura vantagem indevida (presente) e simples cortesia de divulgação institucional (brinde):
 
@@ -138,12 +161,60 @@ flowchart TD
 
 ---
 
+### Questão 02
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+Rodrigo, Técnico de Controle Externo do TCE-GO designado para compor comissão de fiscalização de contratos de serviços de informática, é abordado pelo diretor comercial de uma grande empresa de tecnologia que disputa novo certame estadual. O empresário oferece a Rodrigo o pagamento integral de passagens aéreas, estadia em hotel de luxo e inscrições para um congresso temático no exterior. Paralelamente, envia ao gabinete de Rodrigo uma cesta de vinhos importados de alto valor comercial. Diante das regras deontológicas constantes do Código de Ética dos Servidores do TCE-GO, Rodrigo deverá:
+
+* **A)** Aceitar as passagens e a inscrição no congresso, pois revertem em benefício à qualificação técnica do Tribunal, mas doar os vinhos ao almoxarifado.
+* **B)** Recusar peremptoriamente tanto o convite de viagem quanto os presentes, comunicando formalmente o fato à chefia e à Comissão de Ética, por configurar benefício de pessoa interessada em deliberações da Corte.
+* **C)** Aceitar o convite de viagem desde que formalize compromisso escrito de manter neutralidade no relatório de auditoria.
+* **D)** Aceitar os vinhos na qualidade de brinde institucional, vedada apenas a aceitação de valores em espécie.
+* **E)** Aceitar os benefícios oferecidos, cabendo à Comissão de Ética homologar a doação após a conclusão do certame licitatório.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Custeio de passagens aéreas e hotelaria por empresa fornecedora ou interessada em deliberações da Corte consubstancia benefício indevido, comprometendo de forma irreversível a independência técnica da fiscalização.
+> - **B) CORRETA.** Em observância estrita ao Código de Ética do TCE-GO, o servidor público do controle externo tem o dever de recusar peremptoriamente qualquer presente, viagem, transporte, hospedagem ou vantagem econômica oferecida por particulares ou entes que mantenham interesses em processos fiscalizados pela Corte, comunicando o ocorrido de imediato à sua chefia e à Comissão de Ética.
+> - **C) Incorreta.** Termo de compromisso moral unilateral não elide a nulidade nem a quebra objetiva do dever de neutralidade gerada pelo recebimento de hospitalidades de fornecedores.
+> - **D) Incorreta.** Bebidas finas e itens de elevado valor econômico classificam-se juridicamente como presentes (e não brindes promocionais de valor ínfimo).
+> - **E) Incorreta.** A Comissão de Ética não tem competência para homologar recebimento de benesses financeiras ou vantagens indevidas.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento
 O conflito de interesses ocorre quando o interesse privado do servidor pode influenciar de maneira inadequada o desempenho de suas atribuições públicas no controle externo.
 
 - **Dever de Autodeclaração:** O servidor designado para atuar em auditoria, instrução de processo de contas ou análise de licitação que possuir relação de parentesco (cônjuge, companheiro ou parentes consanguíneos ou afins até o terceiro grau) com dirigentes da entidade auditada, ou com quem mantenha litígio judicial ou interesse financeiro comum, tem a **obrigação ética de autodeclarar imediatamente o impedimento**, solicitando à chefia imediata sua substituição na equipe.
 
 ---
+
+### Questão 03
+**(FCC – TCE-AM – Auditor de Controle Externo)**  
+De acordo com os princípios da INTOSAI (ISSAI 130) e as diretrizes do Código de Ética do Tribunal de Contas do Estado de Goiás, na hipótese de um servidor ser designado para fiscalizar entidade cujo dirigente máximo seja seu cônjuge ou parente colateral até o terceiro grau:
+
+* **A)** O servidor poderá realizar a auditoria normalmente, desde que se limite à análise de demonstrativos numéricos desprovidos de juízo discricionário.
+* **B)** O servidor tem o dever ético de declarar imediatamente seu impedimento ou suspeição, abstendo-se de praticar qualquer ato de instrução ou fiscalização.
+* **C)** Caberá à chefia imediata acompanhar presencialmente todas as entrevistas para garantir a neutralidade da inspeção.
+* **D)** O servidor deverá solicitar autorização prévia por escrito ao Governador do Estado para atuar nos autos.
+* **E)** Não há conflito de interesses quando o parentesco for decorrente de vínculo por afinidade legítima.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A existência de vínculo de parentesco macula objetivamente a presunção de imparcialidade e isenção técnica necessária à auditoria, mesmo em análises matemáticas.
+> - **B) CORRETA.** Em respeito aos princípios da **imparcialidade, moralidade e prevenção de conflito de interesses**, o servidor que constatar situação de parentesco consanguíneo ou por afinidade até o terceiro grau com dirigente ou parte interessada na entidade auditada tem a **obrigação ética de declarar de ofício seu impedimento**, solicitando sua substituição imediata na respectiva comissão de auditoria.
+> - **C) Incorreta.** O acompanhamento pela chefia não sana o impedimento legal do auditor com laços de consanguinidade com a autoridade auditada.
+> - **D) Incorreta.** O Governador do Estado não interfere nas designações de membros de equipes de controle do TCE-GO, órgão titular de autonomia institucional.
+> - **E) Incorreta.** O parentesco por afinidade (cunhados, sogros) submete-se às mesmíssimas restrições de suspeição e impedimento da legislação processual e ética.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ## 4. A Comissão de Ética do TCE-GO e o Processo Ético
 
@@ -157,6 +228,30 @@ A Comissão de Ética do TCE-GO é órgão autônomo colegiado, instituído pela
     3. **Função Investigativa e Judicante:** Processa e julga representações e denúncias sobre condutas antiéticas de servidores da Casa.
 
 ---
+
+### Questão 04
+**(FCC – DPE-SP – Oficial de Defensoria)**  
+Considere que um servidor recém-empossado no TCE-GO possua dúvidas legítimas sobre a possibilidade de exercer, cumulativamente com suas funções públicas, atividade de docência acadêmica em universidade privada e a publicação de artigos científicos na área orçamentária. Nesse cenário, à luz dos mecanismos de governança ética:
+
+* **A)** O servidor deverá consultar previamente a Comissão de Ética do órgão, a qual possui atribuição consultiva para dirimir dúvidas éticas e orientar os servidores.
+* **B)** É vedado à Comissão de Ética responder a qualquer questionamento de servidores que não seja originado de processo punitivo litigioso.
+* **C)** A atividade de magistério é terminantemente proibida aos ocupantes de cargos no controle externo, ensejando demissão sumária.
+* **D)** O servidor deve requerer autorização prévia ao Presidente da Assembleia Legislativa em audiência pública.
+* **E)** O exercício da docência independe de compatibilidade de horários, bastando aviso informal ao colega de setor.
+
+> **Comentário Detalhado:**
+>
+> - **A) CORRETA.** Uma das missões nucleares da **Comissão de Ética** é o exercício de sua **atribuição preventiva, educativa e consultiva**. Os servidores do Tribunal de Contas têm a faculdade e o dever de provocar a Comissão de Ética previamente para dirimir dúvidas a respeito de conflito de interesses, acumulação de docência e condutas funcionais antes da tomada de decisões concretas.
+> - **B) Incorreta.** A atuação da comissão não é exclusivamente litigiosa; seu foco primordial é a orientação proativa da conduta dos servidores.
+> - **C) Incorreta.** O magistério superior é constitucionalmente autorizado em regime de acumulação com cargos públicos (CF, Art. 37, XVI, "b"), desde que haja compatibilidade de horários e não envolva assessoria a entes fiscalizados.
+> - **D) Incorreta.** A gestão da conduta ética interna dos servidores do TCE-GO é disciplinada pela própria Corte de Contas, e não pelo Poder Legislativo.
+> - **E) Incorreta.** A compatibilidade de horários é mandamento constitucional inafastável para qualquer regime de acumulação remunerada lícita.
+> 
+> **Gabarito: A**
+
+---
+
+
 
 ### 4.2 Rito Sumário Apuratório e Garantia da Ampla Defesa
 O procedimento ético adota rito sumário simplificado, com garantia constitucional da ampla defesa:
@@ -192,44 +287,7 @@ graph TD
 
 ---
 
-## 5. Fontes Oficiais e Referências Bibliográficas
-
-* [Código de Ética dos Servidores do TCE-GO (Documento Oficial TCE-GO)](https://portal.tce.go.gov.br/documents/20181/574123/C%C3%B3digo+de+%C3%89tica/056863be-6768-4c35-a6e8-ccdd40421211) - Texto oficial com deveres, vedações e funcionamento da Comissão de Ética.
-* [Portal Institucional do TCE-GO - Corregedoria Geral e Ética](https://portal.tce.go.gov.br/corregedoria-geral2) - Atribuições da Corregedoria Geral e atuação da Comissão de Ética do TCE-GO.
-* [Lei Estadual nº 20.756/2020 - Estatuto dos Servidores de Goiás (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Deveres funcionais, proibições e regime disciplinar dos servidores públicos.
-* [Lei Estadual nº 13.800/2001 - Processo Administrativo Estadual (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/81441/lei-13800) - Ritos e garantias da ampla defesa em processos de apuração ética.
-* [Lei Federal nº 8.429/1992 - Lei de Improbidade Administrativa (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm) - Princípios da moralidade administrativa e sanções por enriquecimento ilícito.
-* NOHARA, Irene Patrícia. **Direito Administrativo**. 11. ed. São Paulo: Atlas, 2022. (Cap. 11 - Moralidade Administrativa e Regime Disciplinar).
-* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 12 - Responsabilidade Funcional e Regime Ético).
-* GARCIA, Emerson; ALVES, Rogério Pacheco. **Improbidade Administrativa**. 10. ed. São Paulo: Saraiva, 2021. (Cap. 3 - Violação aos Princípios da Administração Pública).
-
----
-
-## 6. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo)**  
-Rodrigo, Técnico de Controle Externo do TCE-GO designado para compor comissão de fiscalização de contratos de serviços de informática, é abordado pelo diretor comercial de uma grande empresa de tecnologia que disputa novo certame estadual. O empresário oferece a Rodrigo o pagamento integral de passagens aéreas, estadia em hotel de luxo e inscrições para um congresso temático no exterior. Paralelamente, envia ao gabinete de Rodrigo uma cesta de vinhos importados de alto valor comercial. Diante das regras deontológicas constantes do Código de Ética dos Servidores do TCE-GO, Rodrigo deverá:
-
-* **A)** Aceitar as passagens e a inscrição no congresso, pois revertem em benefício à qualificação técnica do Tribunal, mas doar os vinhos ao almoxarifado.
-* **B)** Recusar peremptoriamente tanto o convite de viagem quanto os presentes, comunicando formalmente o fato à chefia e à Comissão de Ética, por configurar benefício de pessoa interessada em deliberações da Corte.
-* **C)** Aceitar o convite de viagem desde que formalize compromisso escrito de manter neutralidade no relatório de auditoria.
-* **D)** Aceitar os vinhos na qualidade de brinde institucional, vedada apenas a aceitação de valores em espécie.
-* **E)** Aceitar os benefícios oferecidos, cabendo à Comissão de Ética homologar a doação após a conclusão do certame licitatório.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** Custeio de passagens aéreas e hotelaria por empresa fornecedora ou interessada em deliberações da Corte consubstancia benefício indevido, comprometendo de forma irreversível a independência técnica da fiscalização.
-> - **B) CORRETA.** Em observância estrita ao Código de Ética do TCE-GO, o servidor público do controle externo tem o dever de recusar peremptoriamente qualquer presente, viagem, transporte, hospedagem ou vantagem econômica oferecida por particulares ou entes que mantenham interesses em processos fiscalizados pela Corte, comunicando o ocorrido de imediato à sua chefia e à Comissão de Ética.
-> - **C) Incorreta.** Termo de compromisso moral unilateral não elide a nulidade nem a quebra objetiva do dever de neutralidade gerada pelo recebimento de hospitalidades de fornecedores.
-> - **D) Incorreta.** Bebidas finas e itens de elevado valor econômico classificam-se juridicamente como presentes (e não brindes promocionais de valor ínfimo).
-> - **E) Incorreta.** A Comissão de Ética não tem competência para homologar recebimento de benesses financeiras ou vantagens indevidas.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
+### Questão 05
 **(FCC – TCE-RO – Auditor de Controle Externo)**  
 A respeito da Comissão de Ética e do rito de apuração de infrações comportamentais no âmbito dos Tribunais de Contas, assinale a opção correta:
 
@@ -251,66 +309,15 @@ A respeito da Comissão de Ética e do rito de apuração de infrações comport
 
 ---
 
-### Questão 03
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-Flávio, Técnico de Controle Externo do TCE-GO, teve acesso a um relatório preliminar de auditoria ainda sigiloso que apura irregularidades na gestão de saúde pública estadual. Indignado com os achados, Flávio publica trechos dos documentos e fotografias em suas redes sociais pessoais, tecendo críticas severas aos gestores envolvidos antes do julgamento do processo pela Câmara. À luz das normas deontológicas do TCE-GO:
 
-* **A)** A atitude de Flávio é protegida pelo direito constitucional à livre manifestação do pensamento, não configurando infração ética.
-* **B)** Flávio cometeu infração ética grave contra os deveres de sigilo, reserva e confidencialidade, sendo-lhe expressamente vedado antecipar juízos de valor em mídias sociais sobre processos em tramitação.
-* **C)** A divulgação em rede social só seria ilícita se Flávio tivesse recebido remuneração direta de partidos de oposição.
-* **D)** O servidor agiu com estrito cumprimento do princípio da publicidade, sobrepondo-se este ao sigilo institucional dos autos.
-* **E)** A comissão de auditoria deve endossar a postagem para garantir a transparência ativa dos dados da Corte de Contas.
 
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** A garantia constitucional da liberdade de expressão encontra limite no dever de fidelidade institucional e de sigilo funcional sobre documentos não homologados a que o agente teve acesso exclusivamente em virtude do cargo público.
-> - **B) CORRETA.** Nos termos do Código de Ética do TCE-GO, incumbe ao servidor o **dever indeclinável de sigilo e discrição** quanto a relatórios e autos processuais em andamento. É vedada categoricamente a antecipação de juízos de valor, a manifestação pública de opiniões parciais ou o vazamento de peças técnicas à imprensa e redes sociais antes da formal deliberação do Tribunal.
-> - **C) Incorreta.** O recebimento de remuneração agravaria o ilícito com contornos de corrupção passiva, mas a divulgação não autorizada por si só já perfaz falta ética autônoma.
-> - **D) Incorreta.** A publicidade republicana é assegurada mediante atos e canais oficiais da Corte nos momentos processuais oportunos, não se confundindo com quebra arbitrária de sigilo por servidor individualmente.
-> - **E) Incorreta.** As equipes de fiscalização submetem-se ao mesmo dever de reserva e neutralidade institucional.
-> 
-> **Gabarito: B**
+## 5. Fontes Oficiais e Referências Bibliográficas
 
----
-
-### Questão 04
-**(FCC – TCE-AM – Auditor de Controle Externo)**  
-De acordo com os princípios da INTOSAI (ISSAI 130) e as diretrizes do Código de Ética do Tribunal de Contas do Estado de Goiás, na hipótese de um servidor ser designado para fiscalizar entidade cujo dirigente máximo seja seu cônjuge ou parente colateral até o terceiro grau:
-
-* **A)** O servidor poderá realizar a auditoria normalmente, desde que se limite à análise de demonstrativos numéricos desprovidos de juízo discricionário.
-* **B)** O servidor tem o dever ético de declarar imediatamente seu impedimento ou suspeição, abstendo-se de praticar qualquer ato de instrução ou fiscalização.
-* **C)** Caberá à chefia imediata acompanhar presencialmente todas as entrevistas para garantir a neutralidade da inspeção.
-* **D)** O servidor deverá solicitar autorização prévia por escrito ao Governador do Estado para atuar nos autos.
-* **E)** Não há conflito de interesses quando o parentesco for decorrente de vínculo por afinidade legítima.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** A existência de vínculo de parentesco macula objetivamente a presunção de imparcialidade e isenção técnica necessária à auditoria, mesmo em análises matemáticas.
-> - **B) CORRETA.** Em respeito aos princípios da **imparcialidade, moralidade e prevenção de conflito de interesses**, o servidor que constatar situação de parentesco consanguíneo ou por afinidade até o terceiro grau com dirigente ou parte interessada na entidade auditada tem a **obrigação ética de declarar de ofício seu impedimento**, solicitando sua substituição imediata na respectiva comissão de auditoria.
-> - **C) Incorreta.** O acompanhamento pela chefia não sana o impedimento legal do auditor com laços de consanguinidade com a autoridade auditada.
-> - **D) Incorreta.** O Governador do Estado não interfere nas designações de membros de equipes de controle do TCE-GO, órgão titular de autonomia institucional.
-> - **E) Incorreta.** O parentesco por afinidade (cunhados, sogros) submete-se às mesmíssimas restrições de suspeição e impedimento da legislação processual e ética.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 05
-**(FCC – DPE-SP – Oficial de Defensoria)**  
-Considere que um servidor recém-empossado no TCE-GO possua dúvidas legítimas sobre a possibilidade de exercer, cumulativamente com suas funções públicas, atividade de docência acadêmica em universidade privada e a publicação de artigos científicos na área orçamentária. Nesse cenário, à luz dos mecanismos de governança ética:
-
-* **A)** O servidor deverá consultar previamente a Comissão de Ética do órgão, a qual possui atribuição consultiva para dirimir dúvidas éticas e orientar os servidores.
-* **B)** É vedado à Comissão de Ética responder a qualquer questionamento de servidores que não seja originado de processo punitivo litigioso.
-* **C)** A atividade de magistério é terminantemente proibida aos ocupantes de cargos no controle externo, ensejando demissão sumária.
-* **D)** O servidor deve requerer autorização prévia ao Presidente da Assembleia Legislativa em audiência pública.
-* **E)** O exercício da docência independe de compatibilidade de horários, bastando aviso informal ao colega de setor.
-
-> **Comentário Detalhado:**
->
-> - **A) CORRETA.** Uma das missões nucleares da **Comissão de Ética** é o exercício de sua **atribuição preventiva, educativa e consultiva**. Os servidores do Tribunal de Contas têm a faculdade e o dever de provocar a Comissão de Ética previamente para dirimir dúvidas a respeito de conflito de interesses, acumulação de docência e condutas funcionais antes da tomada de decisões concretas.
-> - **B) Incorreta.** A atuação da comissão não é exclusivamente litigiosa; seu foco primordial é a orientação proativa da conduta dos servidores.
-> - **C) Incorreta.** O magistério superior é constitucionalmente autorizado em regime de acumulação com cargos públicos (CF, Art. 37, XVI, "b"), desde que haja compatibilidade de horários e não envolva assessoria a entes fiscalizados.
-> - **D) Incorreta.** A gestão da conduta ética interna dos servidores do TCE-GO é disciplinada pela própria Corte de Contas, e não pelo Poder Legislativo.
-> - **E) Incorreta.** A compatibilidade de horários é mandamento constitucional inafastável para qualquer regime de acumulação remunerada lícita.
-> 
-> **Gabarito: A**
+* [Código de Ética dos Servidores do TCE-GO (Documento Oficial TCE-GO)](https://portal.tce.go.gov.br/documents/20181/574123/C%C3%B3digo+de+%C3%89tica/056863be-6768-4c35-a6e8-ccdd40421211) - Texto oficial com deveres, vedações e funcionamento da Comissão de Ética.
+* [Portal Institucional do TCE-GO - Corregedoria Geral e Ética](https://portal.tce.go.gov.br/corregedoria-geral2) - Atribuições da Corregedoria Geral e atuação da Comissão de Ética do TCE-GO.
+* [Lei Estadual nº 20.756/2020 - Estatuto dos Servidores de Goiás (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Deveres funcionais, proibições e regime disciplinar dos servidores públicos.
+* [Lei Estadual nº 13.800/2001 - Processo Administrativo Estadual (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/81441/lei-13800) - Ritos e garantias da ampla defesa em processos de apuração ética.
+* [Lei Federal nº 8.429/1992 - Lei de Improbidade Administrativa (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm) - Princípios da moralidade administrativa e sanções por enriquecimento ilícito.
+* NOHARA, Irene Patrícia. **Direito Administrativo**. 11. ed. São Paulo: Atlas, 2022. (Cap. 11 - Moralidade Administrativa e Regime Disciplinar).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 12 - Responsabilidade Funcional e Regime Ético).
+* GARCIA, Emerson; ALVES, Rogério Pacheco. **Improbidade Administrativa**. 10. ed. São Paulo: Saraiva, 2021. (Cap. 3 - Violação aos Princípios da Administração Pública).

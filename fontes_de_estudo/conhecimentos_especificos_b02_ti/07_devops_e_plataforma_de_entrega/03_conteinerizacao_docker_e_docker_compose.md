@@ -37,7 +37,6 @@
     - [5.1 Estrutura do Manifesto Compose: Services, Networks, Volumes e depends_on](#51-estrutura-do-manifesto-compose-services-networks-volumes-e-dependson)
     - [5.2 Ciclo de Vida e Comandos Operacionais da CLI](#52-ciclo-de-vida-e-comandos-operacionais-da-cli)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -104,6 +103,30 @@ A distinção basilar assenta-se no **nível de abstração** e na **existência
 | **Tempo de Inicialização** | Dezenas de segundos a minutos (boot de SO completo). | Milissegundos a poucos segundos (inicialização de processo comum). |
 | **Consumo de Recursos** | Alto (gigabytes alocados para o SO convidado). | Mínimo (apenas o espaço estritamente consumido pela aplicação). |
 | **Nível de Isolamento** | Muito alto (isolamento por hardware via instruções de CPU VT-x/AMD-V). | Alto (isolamento em espaço de usuário do Linux via kernel). |
+
+---
+
+### Questão 01 (FCC - Adaptada / TI - Fundamentos e Primitivas de Conteinerização)
+Com relação às diferenças conceituais e arquiteturais entre a virtualização baseada em Máquinas Virtuais (VMs) tradicionais e a conteinerização utilizando a tecnologia Docker, assinale a afirmativa correta:  
+
+* **A)** Contêineres Docker executam um hipervisor (*Hypervisor Type 1*) emulado dentro de cada processo para gerenciar o acesso direto ao processador físico.
+* **B)** Cada contêiner Docker possui e carrega em memória um Sistema Operacional convidado (*Guest OS*) completo e independente, incluindo seus próprios drivers de hardware e kernel proprietário.
+* **C)** Enquanto as máquinas virtuais virtualizam a camada de hardware e exigem um Sistema Operacional convidado (*Guest OS*) completo sobre o hipervisor, os contêineres Docker virtualizam o sistema operacional, compartilhando o mesmo núcleo (*Kernel*) do hospedeiro por meio de primitivas como *namespaces* e *control groups (cgroups)* do Linux.
+* **D)** As máquinas virtuais inicializam em milissegundos devido à ausência de camada de abstração de hardware, ao passo que contêineres Docker demandam longos minutos de inicialização devido ao carregamento de imagens de disco.
+* **E)** O isolamento proporcionado por contêineres Docker impede qualquer comunicação de rede entre dois contêineres hospedados no mesmo computador físico.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O hipervisor é o componente alicerce das Máquinas Virtuais, e não de contêineres Docker. O Docker opera sem hipervisores.
+> - **B)** Incorreta. Contêineres **não possuem kernel próprio nem carregam um Guest OS completo**. Todos os contêineres compartilham diretamente o Kernel do sistema operacional hospedeiro (*host*).
+> - **C)** Correta. Definição arquitetural clássica: as VMs virtualizam o hardware sobre o qual roda um SO convidado completo; os contêineres operam na camada do SO, executando como processos isolados no host viabilizados pelas primitivas nativas do Linux: *namespaces* (isolamento de visibilidade) e *cgroups* (limitação de recursos de CPU, RAM e I/O).
+> - **D)** Incorreta. Contêineres inicializam em frações de segundos (milissegundos) pois são meros processos despachados pelo kernel já carregado, enquanto as VMs exigem o boot completo de todo o SO convidado.
+> - **E)** Incorreta. Contêineres no mesmo host comunicam-se perfeitamente através de pontes de rede virtual (*bridge networks*) gerenciadas pelo Docker.
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 1.2 Primitivas Essenciais do Kernel Linux: Namespaces e Control Groups (cgroups)
 
@@ -174,6 +197,46 @@ A definição de qual processo será executado ao instanciar o contêiner é reg
 - **Exec Form (Recomendado):** Notação em vetor JSON com aspas duplas: `ENTRYPOINT ["nginx", "-g", "daemon off;"]`. Executa o processo diretamente sem passar por interpretadores de terminal, permitindo que o processo receba os sinais de término do sistema operacional (`SIGTERM`, `SIGKILL`) como `PID 1`.
 - **Shell Form (Desaconselhado):** Notação em string simples: `ENTRYPOINT nginx -g "daemon off;"`. O Docker invoca internamente `/bin/sh -c`, tornando o shell o `PID 1` e impedindo o repasse adequado de sinais de encerramento gracioso para a aplicação.
 
+---
+
+### Questão 02 (FCC - Adaptada / TI - Dockerfile: Instruções CMD, ENTRYPOINT e EXPOSE)
+Um analista de infraestrutura da Secretaria da Fazenda elaborou o seguinte `Dockerfile` para conteinerizar uma API REST desenvolvida em Python:
+
+```dockerfile
+FROM python:3.11-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+EXPOSE 5000
+ENTRYPOINT ["python", "app.py"]
+CMD ["--port", "5000"]
+```
+
+Após compilar a imagem com a tag `api-fazenda:1.0`, o analista executou no terminal do servidor o comando:
+`docker run -d -p 8080:5000 api-fazenda:1.0 --port 9000`
+
+A respeito desse cenário e das instruções do Dockerfile, assinale a afirmativa correta:  
+
+* **A)** A instrução `EXPOSE 5000` publicou a porta 5000 diretamente no endereço IP público da máquina física, tornando desnecessária a utilização do parâmetro `-p 8080:5000` no comando de execução.
+* **B)** O comando final executado dentro do contêiner será `python app.py --port 9000`, pois os argumentos passados na linha de comando do `docker run` sobrescrevem os valores definidos na instrução `CMD`, mantendo intacto o `ENTRYPOINT`.
+* **C)** O contêiner falhará ao iniciar, pois a especificação conjunta das diretivas `ENTRYPOINT` e `CMD` no mesmo `Dockerfile` é proibida pela especificação do Docker.
+* **D)** A flag `-p 8080:5000` fará com que as requisições que chegam à porta 5000 da máquina hospedeira sejam redirecionadas para a porta 8080 dentro do contêiner.
+* **E)** A instrução `COPY . .` impede a reutilização do cache de compilação da camada gerada por `RUN pip install`, mesmo que o arquivo `requirements.txt` não tenha sido modificado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A diretiva `EXPOSE` é meramente informativa e documental; ela não abre portas no host nem publica tráfego externo. O mapeamento físico de portas exige obrigatoriamente o uso do parâmetro `-p` no `docker run`.
+> - **B)** Correta. A combinação recomendada de `ENTRYPOINT` e `CMD` fixa o executável permanente no `ENTRYPOINT` (`python app.py`) e fornece parâmetros flexíveis padrão no `CMD` (`--port 5000`). Ao rodar o comando informando `--port 9000` no final, os argumentos passados sobrescrevem o conteúdo do `CMD`, resultando na execução final do comando `python app.py --port 9000`.
+> - **C)** Incorreta. A especificação oficial encoraja explicitamente a combinação de `ENTRYPOINT` e `CMD` para viabilizar comandos parametrizáveis.
+> - **D)** Incorreta. A sintaxe de portas é `-p <porta_host>:<porta_container>`. As requisições que chegam à porta 8080 do host são encaminhadas para a porta 5000 do contêiner.
+> - **E)** Incorreta. A estrutura de colocar `COPY requirements.txt` e `RUN pip install` antes de `COPY . .` é a melhor prática consagrada para aproveitar o cache de camadas do Docker caso apenas o código-fonte tenha mudado.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 2.3 Exposição de Portas e Segurança: EXPOSE vs. Publicação no Host e Diretiva USER
 
 - **`EXPOSE <porta>`:** Instrução **meramente informativa e documental**. Ela sinaliza ao desenvolvedor ou orquestrador em qual porta o serviço interno escuta por padrão, mas **NÃO abre portas no firewall da máquina host nem publica a porta externamente**. Para que o contêiner fique acessível pelo tráfego de fora do host, o operador deve compulsoriamente mapear a porta via `docker run -p <porta_host>:<porta_container>` ou pela diretiva `ports` no Docker Compose.
@@ -206,6 +269,31 @@ A funcionalidade de **Multi-Stage Builds** resolve esse problema declarando múl
 4. **Benefícios:** Redução drástica do tamanho da imagem (de centenas de megabytes para dezenas), agilidade no download pelos nós do Kubernetes e minimização radical da superfície de ataque cibernético.
 
 ---
+
+### Questão 03 (FCC - Adaptada / TI - Multi-Stage Builds e Otimização de Imagens)
+Em auditorias de segurança de aplicações conteinerizadas em órgãos públicos, é comum encontrar vulnerabilidades associadas à inclusão indevida de ferramentas de compilação, compiladores C/C++, gerenciadores de pacotes e código-fonte dentro de imagens que operam no ambiente de produção.
+
+A técnica preconizada pelo Docker para mitigar esse risco e reduzir drasticamente o tamanho final das imagens distribuidíveis em produção é:  
+
+* **A)** Compactar o contêiner em um arquivo executável `.zip` antes de executar o comando `docker push`.
+* **B)** Adoção de *Multi-Stage Builds*, permitindo utilizar imagens pesadas contendo SDKs e compiladores apenas no estágio inicial de compilação e transferir exclusivamente o binário final gerado para uma imagem enxuta e mínima de runtime.
+* **C)** Utilização compulsória da instrução `RUN chmod 777 -R /` no Dockerfile para revogar privilégios administrativos de todos os processos internos.
+* **D)** Desativação do Docker Daemon e execução de contêineres diretamente como scripts de shell no servidor hospedeiro.
+* **E)** Substituição do Dockerfile por um script Bash imperativo gravado no setor de boot da controladora de armazenamento.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O ecossistema Docker opera sob o padrão OCI de camadas e registries em nuvem, não utilizando arquivos zip manuais para distribuição.
+> - **B)** Correta. A técnica de **Multi-Stage Builds** utiliza múltiplas declarações `FROM` no mesmo Dockerfile. O primeiro estágio emprega uma imagem pesada com todos os compiladores e ferramentas para gerar o binário da aplicação. O estágio final utiliza uma imagem mínima de runtime (como Alpine ou Distroless) e copia exclusivamente o binário pronto (`COPY --from=builder ...`). O resultado é uma imagem final levíssima, sem compiladores ou SDKs, minimizando a superfície de ataque a CVEs.
+> - **C)** Incorreta. Conceder permissão 777 para todo o sistema de arquivos amplia drasticamente o risco de segurança e escalada de privilégios.
+> - **D)** Incorreta. Desativar o daemon anularia todo o ecossistema de conteinerização.
+> - **E)** Incorreta. Afirmativa descabida sem respaldo técnico.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ## 3. Persistência de Dados e Gerenciamento de Armazenamento
 
@@ -243,6 +331,31 @@ Todas as modificações, gravações de logs e escritas em tabelas realizadas po
 
 ---
 
+### Questão 04 (FCC - Adaptada / TI - Gestão de Persistência e Volumes no Docker)
+Ao planejar a implantação de um Sistema de Gerenciamento de Banco de Dados relacional (PostgreSQL) em contêineres Docker, um arquiteto de sistemas alertou a equipe que contêineres possuem ciclo de vida efêmero e que os dados armazenados na camada de gravação padrão do contêiner seriam perdidos caso o contêiner fosse removido.
+
+Para garantir a persistência duradoura, alto desempenho de I/O e gerenciamento seguro dos arquivos de dados do banco de dados pelo próprio Docker Engine, a solução tecnicamente recomendada é a utilização de:  
+
+* **A)** *tmpfs mounts*, pois gravam todas as tabelas e índices diretamente na memória volátil RAM do servidor, assegurando persistência permanente mesmo se a máquina física for desligada da tomada.
+* **B)** Camada padrão de leitura e escrita do contêiner (*Container Read-Write Layer*), uma vez que o sistema *UnionFS* garante a recuperação automática de dados após a execução de comandos `docker rm -f`.
+* **C)** *Named Volumes* (Volumes Gerenciados), que são desacoplados do ciclo de vida dos contêineres, alocados em diretórios dedicados gerenciados pelo Docker no host (`/var/lib/docker/volumes/`) e podem ser facilmente compartilhados e reutilizados por outros contêineres.
+* **D)** Links simbólicos do Linux apontando diretamente para o arquivo `/dev/null`.
+* **E)** Arquivos temporários criados dentro da pasta `/tmp` do contêiner, dispensando qualquer configuração adicional no host.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O *tmpfs mount* grava dados na memória RAM volátil, sendo apagado ao desligar o contêiner ou reiniciar a máquina.
+> - **B)** Incorreta. A camada de escrita padrão (*Read-Write Layer*) é completamente destruída ao remover o contêiner (`docker rm`), resultando em perda de dados.
+> - **C)** Correta. Os **Named Volumes** (volumes nomeados gerenciados pelo Docker Engine) são a solução canônica para persistência de dados em produção. Eles residem em `/var/lib/docker/volumes/`, sobrevivem à exclusão de contêineres, são imunes a alterações na estrutura de pastas do host e proporcionam o melhor desempenho de escrita e leitura para bancos de dados.
+> - **D)** Incorreta. O `/dev/null` é um dispositivo virtual de descarte que apaga imediatamente qualquer dado recebido.
+> - **E)** Incorreta. A pasta `/tmp` é volátil e faz parte da camada efêmera do contêiner.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ## 4. Redes no Docker: Drivers e Resolução de Nomes
 
 O Docker abstrai a conectividade de contêineres através de subsistemas de rede modulares controlados por drivers específicos.
@@ -263,6 +376,31 @@ Existe uma diferença crítica cobrada em concursos entre a rede bridge padrão 
 2. **Redes Customizadas pelo Usuário (*User-Defined Networks*):** Ao criar uma rede com `docker network create minha-rede`, o Docker ativa um **servidor DNS interno embutido**. Todos os contêineres vinculados a essa rede conseguem resolver e alcançar seus pares **utilizando diretamente o próprio nome do contêiner como endereço de rede (hostname)**.
 
 ---
+
+### Questão 05 (FCC - Adaptada / TI - Redes e Orquestração com Docker Compose)
+Considere uma aplicação composta por dois microsserviços declarados no arquivo `compose.yaml`: um serviço denominado `frontend` (porta interna 80) e um serviço denominado `backend-api` (porta interna 3000), ambos anexados a uma mesma rede customizada do tipo `bridge` denominada `app-network`.
+
+A respeito da comunicação entre esses serviços e das características de redes no Docker Compose, assinale a opção correta:  
+
+* **A)** O serviço `frontend` não pode se comunicar com o `backend-api` via rede local, sendo mandatório que ambos publiquem suas portas em endereços IP públicos de internet.
+* **B)** O serviço `frontend` é capaz de alcançar o serviço `backend-api` enviando requisições HTTP diretamente para o endereço `http://backend-api:3000`, graças ao mecanismo nativo de resolução de nomes por DNS embutido pelo Docker em redes customizadas.
+* **C)** Para que contêineres em uma mesma rede customizada do Compose conversem entre si, é obrigatório utilizar o driver de rede `none`.
+* **D)** No Docker Compose, a resolução de nomes por DNS entre serviços só funciona se o desenvolvedor codificar manualmente os endereços IP fixos de cada contêiner no arquivo `/etc/hosts` de cada imagem antes de compilar o Dockerfile.
+* **E)** O comando `docker compose down` desliga os contêineres, mas é terminantemente incapaz de remover as redes criadas pelo arquivo Compose.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Contêineres na mesma rede privada do Docker comunicam-se diretamente sem qualquer necessidade de expor ou publicar portas na internet pública ou no host.
+> - **B)** Correta. Em qualquer rede definida pelo usuário (*user-defined network*), o Docker ativa automaticamente um servidor DNS interno embutido. Ele traduz automaticamente o **nome do serviço** (neste caso, `backend-api`) para o IP interno do contêiner correspondente, viabilizando chamadas diretas como `http://backend-api:3000`.
+> - **C)** Incorreta. O driver `none` desativa completamente a conectividade de rede, mantendo apenas o loopback interno isolado.
+> - **D)** Incorreta. A resolução via DNS embutido dispensa completamente alterações manuais em arquivos `/etc/hosts` ou gestão de IPs fixos.
+> - **E)** Incorreta. O comando `docker compose down` desliga e remove tanto os contêineres quanto as redes criadas pelo manifesto Compose.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ## 5. Orquestração Multi-Contêiner com Docker Compose
 
@@ -333,132 +471,3 @@ networks:
 * MOUAT, Adrian. **Usando Docker: Desenvolvendo e Implantando Software com Contêineres**. São Paulo: Novatec, 2016. (Cap. 3 a 5 - Construindo Imagens e Redes com Docker).
 * TURNBULL, James. **The Docker Book: Containerization is the new virtualization**. 2. ed. James Turnbull, 2017. (Cap. 4 - Gerenciando Contêineres e Volumes).
 * MORRIS, Kief. **Infraestrutura como Código: Gerenciamento Dinâmico de Sistemas na Era da Nuvem**. 2. ed. São Paulo: Novatec, 2021. (Cap. 8 - Imutabilidade e Contêineres).
-
----
-
-## 6. Questões Comentadas & Prática Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TI - Fundamentos e Primitivas de Conteinerização)
-Com relação às diferenças conceituais e arquiteturais entre a virtualização baseada em Máquinas Virtuais (VMs) tradicionais e a conteinerização utilizando a tecnologia Docker, assinale a afirmativa correta:  
-
-* **A)** Contêineres Docker executam um hipervisor (*Hypervisor Type 1*) emulado dentro de cada processo para gerenciar o acesso direto ao processador físico.
-* **B)** Cada contêiner Docker possui e carrega em memória um Sistema Operacional convidado (*Guest OS*) completo e independente, incluindo seus próprios drivers de hardware e kernel proprietário.
-* **C)** Enquanto as máquinas virtuais virtualizam a camada de hardware e exigem um Sistema Operacional convidado (*Guest OS*) completo sobre o hipervisor, os contêineres Docker virtualizam o sistema operacional, compartilhando o mesmo núcleo (*Kernel*) do hospedeiro por meio de primitivas como *namespaces* e *control groups (cgroups)* do Linux.
-* **D)** As máquinas virtuais inicializam em milissegundos devido à ausência de camada de abstração de hardware, ao passo que contêineres Docker demandam longos minutos de inicialização devido ao carregamento de imagens de disco.
-* **E)** O isolamento proporcionado por contêineres Docker impede qualquer comunicação de rede entre dois contêineres hospedados no mesmo computador físico.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O hipervisor é o componente alicerce das Máquinas Virtuais, e não de contêineres Docker. O Docker opera sem hipervisores.
-> - **B)** Incorreta. Contêineres **não possuem kernel próprio nem carregam um Guest OS completo**. Todos os contêineres compartilham diretamente o Kernel do sistema operacional hospedeiro (*host*).
-> - **C)** Correta. Definição arquitetural clássica: as VMs virtualizam o hardware sobre o qual roda um SO convidado completo; os contêineres operam na camada do SO, executando como processos isolados no host viabilizados pelas primitivas nativas do Linux: *namespaces* (isolamento de visibilidade) e *cgroups* (limitação de recursos de CPU, RAM e I/O).
-> - **D)** Incorreta. Contêineres inicializam em frações de segundos (milissegundos) pois são meros processos despachados pelo kernel já carregado, enquanto as VMs exigem o boot completo de todo o SO convidado.
-> - **E)** Incorreta. Contêineres no mesmo host comunicam-se perfeitamente através de pontes de rede virtual (*bridge networks*) gerenciadas pelo Docker.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC - Adaptada / TI - Dockerfile: Instruções CMD, ENTRYPOINT e EXPOSE)
-Um analista de infraestrutura da Secretaria da Fazenda elaborou o seguinte `Dockerfile` para conteinerizar uma API REST desenvolvida em Python:
-
-```dockerfile
-FROM python:3.11-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
-EXPOSE 5000
-ENTRYPOINT ["python", "app.py"]
-CMD ["--port", "5000"]
-```
-
-Após compilar a imagem com a tag `api-fazenda:1.0`, o analista executou no terminal do servidor o comando:
-`docker run -d -p 8080:5000 api-fazenda:1.0 --port 9000`
-
-A respeito desse cenário e das instruções do Dockerfile, assinale a afirmativa correta:  
-
-* **A)** A instrução `EXPOSE 5000` publicou a porta 5000 diretamente no endereço IP público da máquina física, tornando desnecessária a utilização do parâmetro `-p 8080:5000` no comando de execução.
-* **B)** O comando final executado dentro do contêiner será `python app.py --port 9000`, pois os argumentos passados na linha de comando do `docker run` sobrescrevem os valores definidos na instrução `CMD`, mantendo intacto o `ENTRYPOINT`.
-* **C)** O contêiner falhará ao iniciar, pois a especificação conjunta das diretivas `ENTRYPOINT` e `CMD` no mesmo `Dockerfile` é proibida pela especificação do Docker.
-* **D)** A flag `-p 8080:5000` fará com que as requisições que chegam à porta 5000 da máquina hospedeira sejam redirecionadas para a porta 8080 dentro do contêiner.
-* **E)** A instrução `COPY . .` impede a reutilização do cache de compilação da camada gerada por `RUN pip install`, mesmo que o arquivo `requirements.txt` não tenha sido modificado.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A diretiva `EXPOSE` é meramente informativa e documental; ela não abre portas no host nem publica tráfego externo. O mapeamento físico de portas exige obrigatoriamente o uso do parâmetro `-p` no `docker run`.
-> - **B)** Correta. A combinação recomendada de `ENTRYPOINT` e `CMD` fixa o executável permanente no `ENTRYPOINT` (`python app.py`) e fornece parâmetros flexíveis padrão no `CMD` (`--port 5000`). Ao rodar o comando informando `--port 9000` no final, os argumentos passados sobrescrevem o conteúdo do `CMD`, resultando na execução final do comando `python app.py --port 9000`.
-> - **C)** Incorreta. A especificação oficial encoraja explicitamente a combinação de `ENTRYPOINT` e `CMD` para viabilizar comandos parametrizáveis.
-> - **D)** Incorreta. A sintaxe de portas é `-p <porta_host>:<porta_container>`. As requisições que chegam à porta 8080 do host são encaminhadas para a porta 5000 do contêiner.
-> - **E)** Incorreta. A estrutura de colocar `COPY requirements.txt` e `RUN pip install` antes de `COPY . .` é a melhor prática consagrada para aproveitar o cache de camadas do Docker caso apenas o código-fonte tenha mudado.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Adaptada / TI - Multi-Stage Builds e Otimização de Imagens)
-Em auditorias de segurança de aplicações conteinerizadas em órgãos públicos, é comum encontrar vulnerabilidades associadas à inclusão indevida de ferramentas de compilação, compiladores C/C++, gerenciadores de pacotes e código-fonte dentro de imagens que operam no ambiente de produção.
-
-A técnica preconizada pelo Docker para mitigar esse risco e reduzir drasticamente o tamanho final das imagens distribuidíveis em produção é:  
-
-* **A)** Compactar o contêiner em um arquivo executável `.zip` antes de executar o comando `docker push`.
-* **B)** Adoção de *Multi-Stage Builds*, permitindo utilizar imagens pesadas contendo SDKs e compiladores apenas no estágio inicial de compilação e transferir exclusivamente o binário final gerado para uma imagem enxuta e mínima de runtime.
-* **C)** Utilização compulsória da instrução `RUN chmod 777 -R /` no Dockerfile para revogar privilégios administrativos de todos os processos internos.
-* **D)** Desativação do Docker Daemon e execução de contêineres diretamente como scripts de shell no servidor hospedeiro.
-* **E)** Substituição do Dockerfile por um script Bash imperativo gravado no setor de boot da controladora de armazenamento.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O ecossistema Docker opera sob o padrão OCI de camadas e registries em nuvem, não utilizando arquivos zip manuais para distribuição.
-> - **B)** Correta. A técnica de **Multi-Stage Builds** utiliza múltiplas declarações `FROM` no mesmo Dockerfile. O primeiro estágio emprega uma imagem pesada com todos os compiladores e ferramentas para gerar o binário da aplicação. O estágio final utiliza uma imagem mínima de runtime (como Alpine ou Distroless) e copia exclusivamente o binário pronto (`COPY --from=builder ...`). O resultado é uma imagem final levíssima, sem compiladores ou SDKs, minimizando a superfície de ataque a CVEs.
-> - **C)** Incorreta. Conceder permissão 777 para todo o sistema de arquivos amplia drasticamente o risco de segurança e escalada de privilégios.
-> - **D)** Incorreta. Desativar o daemon anularia todo o ecossistema de conteinerização.
-> - **E)** Incorreta. Afirmativa descabida sem respaldo técnico.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / TI - Gestão de Persistência e Volumes no Docker)
-Ao planejar a implantação de um Sistema de Gerenciamento de Banco de Dados relacional (PostgreSQL) em contêineres Docker, um arquiteto de sistemas alertou a equipe que contêineres possuem ciclo de vida efêmero e que os dados armazenados na camada de gravação padrão do contêiner seriam perdidos caso o contêiner fosse removido.
-
-Para garantir a persistência duradoura, alto desempenho de I/O e gerenciamento seguro dos arquivos de dados do banco de dados pelo próprio Docker Engine, a solução tecnicamente recomendada é a utilização de:  
-
-* **A)** *tmpfs mounts*, pois gravam todas as tabelas e índices diretamente na memória volátil RAM do servidor, assegurando persistência permanente mesmo se a máquina física for desligada da tomada.
-* **B)** Camada padrão de leitura e escrita do contêiner (*Container Read-Write Layer*), uma vez que o sistema *UnionFS* garante a recuperação automática de dados após a execução de comandos `docker rm -f`.
-* **C)** *Named Volumes* (Volumes Gerenciados), que são desacoplados do ciclo de vida dos contêineres, alocados em diretórios dedicados gerenciados pelo Docker no host (`/var/lib/docker/volumes/`) e podem ser facilmente compartilhados e reutilizados por outros contêineres.
-* **D)** Links simbólicos do Linux apontando diretamente para o arquivo `/dev/null`.
-* **E)** Arquivos temporários criados dentro da pasta `/tmp` do contêiner, dispensando qualquer configuração adicional no host.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O *tmpfs mount* grava dados na memória RAM volátil, sendo apagado ao desligar o contêiner ou reiniciar a máquina.
-> - **B)** Incorreta. A camada de escrita padrão (*Read-Write Layer*) é completamente destruída ao remover o contêiner (`docker rm`), resultando em perda de dados.
-> - **C)** Correta. Os **Named Volumes** (volumes nomeados gerenciados pelo Docker Engine) são a solução canônica para persistência de dados em produção. Eles residem em `/var/lib/docker/volumes/`, sobrevivem à exclusão de contêineres, são imunes a alterações na estrutura de pastas do host e proporcionam o melhor desempenho de escrita e leitura para bancos de dados.
-> - **D)** Incorreta. O `/dev/null` é um dispositivo virtual de descarte que apaga imediatamente qualquer dado recebido.
-> - **E)** Incorreta. A pasta `/tmp` é volátil e faz parte da camada efêmera do contêiner.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 5 (FCC - Adaptada / TI - Redes e Orquestração com Docker Compose)
-Considere uma aplicação composta por dois microsserviços declarados no arquivo `compose.yaml`: um serviço denominado `frontend` (porta interna 80) e um serviço denominado `backend-api` (porta interna 3000), ambos anexados a uma mesma rede customizada do tipo `bridge` denominada `app-network`.
-
-A respeito da comunicação entre esses serviços e das características de redes no Docker Compose, assinale a opção correta:  
-
-* **A)** O serviço `frontend` não pode se comunicar com o `backend-api` via rede local, sendo mandatório que ambos publiquem suas portas em endereços IP públicos de internet.
-* **B)** O serviço `frontend` é capaz de alcançar o serviço `backend-api` enviando requisições HTTP diretamente para o endereço `http://backend-api:3000`, graças ao mecanismo nativo de resolução de nomes por DNS embutido pelo Docker em redes customizadas.
-* **C)** Para que contêineres em uma mesma rede customizada do Compose conversem entre si, é obrigatório utilizar o driver de rede `none`.
-* **D)** No Docker Compose, a resolução de nomes por DNS entre serviços só funciona se o desenvolvedor codificar manualmente os endereços IP fixos de cada contêiner no arquivo `/etc/hosts` de cada imagem antes de compilar o Dockerfile.
-* **E)** O comando `docker compose down` desliga os contêineres, mas é terminantemente incapaz de remover as redes criadas pelo arquivo Compose.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Contêineres na mesma rede privada do Docker comunicam-se diretamente sem qualquer necessidade de expor ou publicar portas na internet pública ou no host.
-> - **B)** Correta. Em qualquer rede definida pelo usuário (*user-defined network*), o Docker ativa automaticamente um servidor DNS interno embutido. Ele traduz automaticamente o **nome do serviço** (neste caso, `backend-api`) para o IP interno do contêiner correspondente, viabilizando chamadas diretas como `http://backend-api:3000`.
-> - **C)** Incorreta. O driver `none` desativa completamente a conectividade de rede, mantendo apenas o loopback interno isolado.
-> - **D)** Incorreta. A resolução via DNS embutido dispensa completamente alterações manuais em arquivos `/etc/hosts` ou gestão de IPs fixos.
-> - **E)** Incorreta. O comando `docker compose down` desliga e remove tanto os contêineres quanto as redes criadas pelo manifesto Compose.
-> 
-> **Gabarito: B**

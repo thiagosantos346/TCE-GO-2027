@@ -42,7 +42,6 @@
     - [4.6 Python no Back-end: Conceitos Fundamentais de Flask e FastAPI](#46-python-no-back-end-conceitos-fundamentais-de-flask-e-fastapi)
 - [5. Tabela Comparativa Sintética entre as Linguagens](#5-tabela-comparativa-sintetica-entre-as-linguagens)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -176,6 +175,29 @@ A palavra-chave `final` é um modificador de não-acesso que restringe alteraç�
 
 ---
 
+### Questão 01 (FCC - Técnico de Controle Externo / TI)
+Na linguagem de programação Java, a respeito das palavras-chave de controle de acesso, modificadores de comportamento e tratamento da orientação a objetos, assinale a afirmativa correta:  
+
+* **A)** Um atributo declarado com o modificador `private` pode ser acessado diretamente por quaisquer subclasses pertencentes ao mesmo pacote da superclasse.
+* **B)** Uma classe declarada com o modificador `final` não pode ser estendida (não permite criação de subclasses), e um método marcado como `final` não pode ser sobrescrito (*overridden*).
+* **C)** Interfaces em Java não podem conter assinaturas de métodos abstratos, permitindo apenas constantes estáticas.
+* **D)** O operador relacional `==` compara o conteúdo semântico e alfanumérico de dois objetos da classe `String`, enquanto o método `.equals()` compara estritamente os endereços de memória.
+* **E)** O bloco `finally` em uma estrutura de tratamento `try-catch-finally` é opcional e nunca é executado quando uma exceção é capturada com sucesso pelo bloco `catch`.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Atributos declarados com `private` são estritamente restritos ao corpo da própria classe declarante. Nem mesmo subclasses dentro do mesmo pacote possuem acesso direto a eles. O modificador que autorizaria o acesso no mesmo pacote e em subclasses de pacotes externos seria o `protected`.
+> - **B)** **CORRETA.** A palavra-chave `final` possui tríplice funcionalidade em Java: em variáveis cria constantes cujo valor/referência não pode ser reatribuído; em métodos impede a sobrescrita por subclasses; em classes proíbe a herança e extensão (como ocorre com a classe `java.lang.String`).
+> - **C)** Incorreta. A finalidade primária das interfaces em Java sempre foi justamente declarar assinaturas de métodos abstratos a serem implementados por classes concretas.
+> - **D)** Incorreta. Pegadinha recorrente da FCC que inverte os papéis: o operador `==` compara a identidade de referências no Heap (se apontam para o mesmo endereço físico), enquanto o método `.equals()` avalia a igualdade semântica de conteúdo.
+> - **E)** Incorreta. O bloco `finally` é executado **sempre**, tenha ou não ocorrido exceção no `try`, tenha ela sido capturada ou não no `catch`.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 1.5 Tratamento de Exceções: Hierarquia de `Throwable`, Checked vs. Unchecked
 Em Java, qualquer condição anômala que interrompa o fluxo normal de execução é representada por um objeto derivado de `java.lang.Throwable`.
 
@@ -217,6 +239,30 @@ São subclasses diretas de `Exception` que **não** derivam de `RuntimeException
 
 - **Regra do Compilador:** O compilador Java **obriga** o desenvolvedor a tratá-las explicitamente através de um bloco `try-catch` ou a propagá-las na assinatura do método por meio da cláusula `throws`. Se não o fizer, o código não compilará.
 - Representam condições externas previsíveis e recuperáveis (ex.: rede indisponível, arquivo inexistente).
+
+---
+
+### Questão 02 (FCC - Auditor Fiscal / Tecnologia da Informação)
+No ecossistema da linguagem Java, o tratamento robusto de erros baseia-se na hierarquia da classe `java.lang.Throwable`. A respeito da distinção entre *Checked Exceptions* (exceções checadas) e *Unchecked Exceptions* (exceções não checadas), assinale a afirmativa correta:  
+
+* **A)** Exceções filhas de `java.lang.RuntimeException`, como `NullPointerException` e `IllegalArgumentException`, são do tipo *Checked Exceptions* e exigem tratamento obrigatório com bloco `try-catch` em tempo de compilação.
+* **B)** A classe `java.lang.Error` e suas subclasses representam condições anormais graves de ambiente (como `OutOfMemoryError`), que são consideradas *Unchecked* e não devem ser capturadas na rotina de negócio da aplicação.
+* **C)** O compilador Java não impõe nenhuma exigência sobre classes derivadas de `java.lang.Exception`, tornando o uso de blocos `try-catch` facultativo para operações de E/S de arquivos (`IOException`).
+* **D)** As palavras-chave `throw` e `throws` são perfeitamente intercambiáveis, podendo ambas ser empregadas para lançar explicitamente uma nova instância de exceção dentro de um bloco de código.
+* **E)** A cláusula `finally` anula a necessidade de declaração de exceções na assinatura do método com `throws`.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Subclasses de `java.lang.RuntimeException` são precisamente o modelo clássico de **Unchecked Exceptions**; o compilador não exige bloco `try-catch` nem declaração formal com `throws`.
+> - **B)** **CORRETA.** Subclasses de `java.lang.Error` sinalizam falhas catastróficas da infraestrutura da JVM das quais a aplicação normalmente não consegue se recuperar (ex.: falta de memória, estouro de pilha). São consideradas não checadas (*Unchecked*) e não devem ser tratadas pelo código de negócio.
+> - **C)** Incorreta. Classes derivadas de `java.lang.Exception` que não herdam de `RuntimeException` (como `IOException` e `SQLException`) são *Checked Exceptions* e o compilador impõe rigorosamente a obrigatoriedade de captura (`try-catch`) ou declaração de repasse na assinatura (`throws`).
+> - **D)** Incorreta. `throw` é uma instrução imperativa para disparar uma instância de exceção (`throw new Exception()`), enquanto `throws` é um modificador de assinatura de método que lista as exceções checadas passíveis de propagação.
+> - **E)** Incorreta. O bloco `finally` garante a execução de rotinas de limpeza, mas não exime o método de declarar com `throws` eventuais exceções checadas não tratadas nos blocos `catch`.
+> 
+> **Gabarito: B**
+
+---
+
 
 #### 3. `java.lang.RuntimeException` e as *Unchecked Exceptions* (Não Checadas)
 Subclasses de `RuntimeException` (ex.: `NullPointerException`, `ArithmeticException`, `ArrayIndexOutOfBoundsException`, `IllegalArgumentException`).
@@ -366,6 +412,50 @@ flowchart TD
 
 ---
 
+### Questão 03 (FCC - Analista de Sistemas / Desenvolvimento)
+Em JavaScript moderno, a utilização de variáveis e a criação de funções de fechamento (*closures*) dentro de laços de repetição assíncronos comportam-se de maneira distinta dependendo de como as variáveis são declaradas. Analise os dois fragmentos de código abaixo:
+
+**Fragmento 1:**
+
+```javascript
+for (var i = 0; i < 3; i++) {
+    setTimeout(() => console.log("F1:", i), 100);
+}
+```
+
+**Fragmento 2:**
+
+```javascript
+for (let j = 0; j < 3; j++) {
+    setTimeout(() => console.log("F2:", j), 100);
+}
+```
+
+Após o término dos temporizadores de 100 milissegundos, as saídas produzidas pelos Fragmentos 1 e 2 serão, respectivamente:  
+
+* **A)** Fragmento 1: `F1: 0`, `F1: 1`, `F1: 2` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
+* **B)** Fragmento 1: `F1: 3`, `F1: 3`, `F1: 3` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
+* **C)** Fragmento 1: `F1: 3`, `F1: 3`, `F1: 3` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
+* **D)** Fragmento 1: `F1: 0`, `F1: 1`, `F1: 2` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
+* **E)** Fragmento 1: `F1: undefined`, `F1: undefined`, `F1: undefined` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Supõe que `var` preservaria o escopo individual de cada iteração, o que não ocorre sem técnicas como IIFE em JavaScript legado.
+> - **B)** **CORRETA.** Explicação do escopo e closures:
+>     1. **No Fragmento 1 (`var i = 0`):** `var` possui escopo de função/global. Existe uma única variável `i` compartilhada por todas as 3 iterações do laço. O laço executa sincronicamente e eleva `i` até 3 (condição de parada). Quando os 3 callbacks do `setTimeout` disparam 100ms depois, todos consultam a mesma variável compartilhada `i`, exibindo: `F1: 3`, `F1: 3`, `F1: 3`.
+>     2. **No Fragmento 2 (`let j = 0`):** `let` possui escopo de bloco. O padrão ECMAScript vincula uma nova variável `j` independente a cada iteração do laço `for`. A closure de cada callback preserva o valor capturado de sua respectiva iteração (0, 1 e 2). Ao executarem, exibem: `F2: 0`, `F2: 1`, `F2: 2`.
+>
+> - **C)** Incorreta. Assume erroneamente que o `let` se comportaria com o mesmo defeito de escopo compartilhado de `var`.
+> - **D)** Incorreta. Inverte o comportamento entre as declarações `var` e `let`.
+> - **E)** Incorreta. A variável `i` foi devidamente incrementada até o valor 3 no escopo circundante, portanto não é avaliada como `undefined`.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.2 Tipos de Dados, Coerção e Operadores de Igualdade (`==` vs. `===`)
 JavaScript possui tipagem dinâmica e fraca. Seus tipos de dados dividem-se em:
 
@@ -417,6 +507,42 @@ const listaOriginal = [1, 2, 3];
 const copiaEstendida = [0, ...listaOriginal, 4]; // [0, 1, 2, 3, 4]
 const configFinal = { ...configPadrao, timeout: 8000 };
 ```
+
+---
+
+### Questão 04 (FCC - Analista de TI / Sistemas)
+Considere o seguinte trecho de código escrito na linguagem Python 3:
+
+```python
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+resultado = [x * 2 for x in numeros if x % 2 != 0 and x > 3]
+print(resultado)
+```
+
+A execução correta desse código gerará no terminal a saída:  
+
+* **A)** `[8, 12, 16, 20]`
+* **B)** `[10, 14, 18]`
+* **C)** `[5, 7, 9]`
+* **D)** `[10, 14, 18, 22]`
+* **E)** `[2, 6, 10, 14]`
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Essa lista decorreria da filtragem de números pares maiores que 3 (`4, 6, 8, 10`) multiplicados por 2.
+> - **B)** **CORRETA.** Analisando a List Comprehension:
+>     1. O laço percorre os inteiros de 1 a 10.
+>     2. O filtro condicional `if x % 2 != 0 and x > 3` seleciona números que sejam simultaneamente ímpares (`1, 3, 5, 7, 9`) e estritamente maiores que 3 (`x > 3`). Os únicos elementos que atendem a ambos os predicados são `5, 7, 9`.
+>     3. A expressão de transformação `x * 2` dobra cada número aprovado: $5 \times 2 = 10$, $7 \times 2 = 14$ e $9 \times 2 = 18$. A lista final impressa é `[10, 14, 18]`.
+>
+> - **C)** Incorreta. Apresenta apenas os valores originais filtrados antes da aplicação da projeção `x * 2`.
+> - **D)** Incorreta. Inclui o elemento 22, mas o valor máximo da lista original é 10 e o maior ímpar é 9 ($9 \times 2 = 18$).
+> - **E)** Incorreta. Dobra os números ímpares menores ou iguais a 3, desrespeitando o predicado `x > 3`.
+> 
+> **Gabarito: B**
+
+---
+
 
 #### Arrow Functions
 Funções anônimas concisas com sintaxe de seta `() => {}`. Possuem duas diferenças semânticas cruciais em relação às funções tradicionais declaradas com `function`:
@@ -508,6 +634,52 @@ flowchart TD
 3. **Macrotask Queue:** Apenas quando a fila de microtarefas estiver completamente vazia, o Event Loop extrai a primeira macrotarefa (`setTimeout`, `setInterval`, `setImmediate`, eventos de I/O) e a carrega na Call Stack.
 
 ---
+
+### Questão 05 (FCC - Analista de TI / Sistemas)
+Em relação ao modelo de execução assíncrona do ambiente Node.js e da linguagem JavaScript, considere o seguinte fragmento de código:
+
+```javascript
+console.log("A");
+
+setTimeout(() => {
+    console.log("B");
+}, 0);
+
+Promise.resolve().then(() => {
+    console.log("C");
+});
+
+console.log("D");
+```
+
+A ordem exata em que os caracteres serão impressos no console do terminal durante a execução desse script é:  
+
+* **A)** A, B, C, D
+* **B)** A, D, B, C
+* **C)** A, D, C, B
+* **D)** C, A, D, B
+* **E)** A, C, D, B
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Supõe uma execução linear tradicional síncrona, desconsiderando que o `setTimeout` e a resolução do método `.then()` de uma `Promise` são despachados para filas assíncronas do Event Loop.
+> - **B)** Incorreta. Supõe erroneamente que a macrotarefa agendada pelo `setTimeout(..., 0)` possui prioridade sobre a microtarefa da Promise. Na especificação do ECMAScript e no motor V8/libuv, a fila de microtarefas (*Microtask Queue*) é sempre completamente drenada antes de qualquer macrotarefa ser processada.
+> - **C)** **CORRETA.** Passo a passo da execução:
+>     1. O código síncrono é carregado e executado na Call Stack: `console.log("A")` imprime **A**.
+>     2. O `setTimeout` registra seu temporizador e despacha seu callback para a fila de macrotarefas (*Macrotask Queue*).
+>     3. `Promise.resolve().then(...)` agenda seu callback na fila de microtarefas prioritárias (*Microtask Queue*).
+>     4. O código síncrono prossegue na Call Stack: `console.log("D")` imprime **D**.
+>     5. A Call Stack fica vazia. O Event Loop drena primeiro todas as microtarefas pendentes: o callback da Promise executa e imprime **C**.
+>     6. Estando a fila de microtarefas limpa, o Event Loop busca a primeira macrotarefa da fila: o callback do `setTimeout` executa e imprime **B**. Ordem final: **A, D, C, B**.
+>
+> - **D)** Incorreta. Afirma que a Promise executaria antes mesmo do código síncrono inicial `console.log("A")`, o que é impossível, pois a Call Stack ainda não havia sido esvaziada.
+> - **E)** Incorreta. Afirma que a microtarefa executaria antes do encerramento do código síncrono `console.log("D")`. O Event Loop apenas inspeciona e drena filas assíncronas após o esvaziamento completo da Call Stack.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 3.3 Promises e a Sintaxe `async` / `await`
 
@@ -767,166 +939,3 @@ def obter_processo(id):
 * BLOCH, Joshua. **Effective Java**. 3. ed. Boston: Addison-Wesley, 2018. (Cap. 4 - Classes and Interfaces; Cap. 7 - Lambdas and Streams).
 * FLANAGAN, David. **JavaScript: O Guia Definitivo**. 7. ed. Porto Alegre: Bookman, 2021. (Cap. 13 - JavaScript Assíncrono; Cap. 14 - Metaprogramação).
 * RAMALHO, Luciano. **Python Fluente: Programação Clara, Concisa e Eficaz**. 2. ed. São Paulo: Novatec, 2023. (Cap. 8 - Dicas de Tipos em Funções; Cap. 14 - Herança e Métodos Especiais).
-
----
-
-## 7. Questões Comentadas & Exemplos (Padrão FCC)
-
-### Questão 1 (FCC - Analista de TI / Sistemas)
-Em relação ao modelo de execução assíncrona do ambiente Node.js e da linguagem JavaScript, considere o seguinte fragmento de código:
-
-```javascript
-console.log("A");
-
-setTimeout(() => {
-    console.log("B");
-}, 0);
-
-Promise.resolve().then(() => {
-    console.log("C");
-});
-
-console.log("D");
-```
-
-A ordem exata em que os caracteres serão impressos no console do terminal durante a execução desse script é:  
-
-* **A)** A, B, C, D
-* **B)** A, D, B, C
-* **C)** A, D, C, B
-* **D)** C, A, D, B
-* **E)** A, C, D, B
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Supõe uma execução linear tradicional síncrona, desconsiderando que o `setTimeout` e a resolução do método `.then()` de uma `Promise` são despachados para filas assíncronas do Event Loop.
-> - **B)** Incorreta. Supõe erroneamente que a macrotarefa agendada pelo `setTimeout(..., 0)` possui prioridade sobre a microtarefa da Promise. Na especificação do ECMAScript e no motor V8/libuv, a fila de microtarefas (*Microtask Queue*) é sempre completamente drenada antes de qualquer macrotarefa ser processada.
-> - **C)** **CORRETA.** Passo a passo da execução:
->     1. O código síncrono é carregado e executado na Call Stack: `console.log("A")` imprime **A**.
->     2. O `setTimeout` registra seu temporizador e despacha seu callback para a fila de macrotarefas (*Macrotask Queue*).
->     3. `Promise.resolve().then(...)` agenda seu callback na fila de microtarefas prioritárias (*Microtask Queue*).
->     4. O código síncrono prossegue na Call Stack: `console.log("D")` imprime **D**.
->     5. A Call Stack fica vazia. O Event Loop drena primeiro todas as microtarefas pendentes: o callback da Promise executa e imprime **C**.
->     6. Estando a fila de microtarefas limpa, o Event Loop busca a primeira macrotarefa da fila: o callback do `setTimeout` executa e imprime **B**. Ordem final: **A, D, C, B**.
->
-> - **D)** Incorreta. Afirma que a Promise executaria antes mesmo do código síncrono inicial `console.log("A")`, o que é impossível, pois a Call Stack ainda não havia sido esvaziada.
-> - **E)** Incorreta. Afirma que a microtarefa executaria antes do encerramento do código síncrono `console.log("D")`. O Event Loop apenas inspeciona e drena filas assíncronas após o esvaziamento completo da Call Stack.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC - Técnico de Controle Externo / TI)
-Na linguagem de programação Java, a respeito das palavras-chave de controle de acesso, modificadores de comportamento e tratamento da orientação a objetos, assinale a afirmativa correta:  
-
-* **A)** Um atributo declarado com o modificador `private` pode ser acessado diretamente por quaisquer subclasses pertencentes ao mesmo pacote da superclasse.
-* **B)** Uma classe declarada com o modificador `final` não pode ser estendida (não permite criação de subclasses), e um método marcado como `final` não pode ser sobrescrito (*overridden*).
-* **C)** Interfaces em Java não podem conter assinaturas de métodos abstratos, permitindo apenas constantes estáticas.
-* **D)** O operador relacional `==` compara o conteúdo semântico e alfanumérico de dois objetos da classe `String`, enquanto o método `.equals()` compara estritamente os endereços de memória.
-* **E)** O bloco `finally` em uma estrutura de tratamento `try-catch-finally` é opcional e nunca é executado quando uma exceção é capturada com sucesso pelo bloco `catch`.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Atributos declarados com `private` são estritamente restritos ao corpo da própria classe declarante. Nem mesmo subclasses dentro do mesmo pacote possuem acesso direto a eles. O modificador que autorizaria o acesso no mesmo pacote e em subclasses de pacotes externos seria o `protected`.
-> - **B)** **CORRETA.** A palavra-chave `final` possui tríplice funcionalidade em Java: em variáveis cria constantes cujo valor/referência não pode ser reatribuído; em métodos impede a sobrescrita por subclasses; em classes proíbe a herança e extensão (como ocorre com a classe `java.lang.String`).
-> - **C)** Incorreta. A finalidade primária das interfaces em Java sempre foi justamente declarar assinaturas de métodos abstratos a serem implementados por classes concretas.
-> - **D)** Incorreta. Pegadinha recorrente da FCC que inverte os papéis: o operador `==` compara a identidade de referências no Heap (se apontam para o mesmo endereço físico), enquanto o método `.equals()` avalia a igualdade semântica de conteúdo.
-> - **E)** Incorreta. O bloco `finally` é executado **sempre**, tenha ou não ocorrido exceção no `try`, tenha ela sido capturada ou não no `catch`.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Analista de TI / Sistemas)
-Considere o seguinte trecho de código escrito na linguagem Python 3:
-
-```python
-numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-resultado = [x * 2 for x in numeros if x % 2 != 0 and x > 3]
-print(resultado)
-```
-
-A execução correta desse código gerará no terminal a saída:  
-
-* **A)** `[8, 12, 16, 20]`
-* **B)** `[10, 14, 18]`
-* **C)** `[5, 7, 9]`
-* **D)** `[10, 14, 18, 22]`
-* **E)** `[2, 6, 10, 14]`
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Essa lista decorreria da filtragem de números pares maiores que 3 (`4, 6, 8, 10`) multiplicados por 2.
-> - **B)** **CORRETA.** Analisando a List Comprehension:
->     1. O laço percorre os inteiros de 1 a 10.
->     2. O filtro condicional `if x % 2 != 0 and x > 3` seleciona números que sejam simultaneamente ímpares (`1, 3, 5, 7, 9`) e estritamente maiores que 3 (`x > 3`). Os únicos elementos que atendem a ambos os predicados são `5, 7, 9`.
->     3. A expressão de transformação `x * 2` dobra cada número aprovado: $5 \times 2 = 10$, $7 \times 2 = 14$ e $9 \times 2 = 18$. A lista final impressa é `[10, 14, 18]`.
->
-> - **C)** Incorreta. Apresenta apenas os valores originais filtrados antes da aplicação da projeção `x * 2`.
-> - **D)** Incorreta. Inclui o elemento 22, mas o valor máximo da lista original é 10 e o maior ímpar é 9 ($9 \times 2 = 18$).
-> - **E)** Incorreta. Dobra os números ímpares menores ou iguais a 3, desrespeitando o predicado `x > 3`.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Auditor Fiscal / Tecnologia da Informação)
-No ecossistema da linguagem Java, o tratamento robusto de erros baseia-se na hierarquia da classe `java.lang.Throwable`. A respeito da distinção entre *Checked Exceptions* (exceções checadas) e *Unchecked Exceptions* (exceções não checadas), assinale a afirmativa correta:  
-
-* **A)** Exceções filhas de `java.lang.RuntimeException`, como `NullPointerException` e `IllegalArgumentException`, são do tipo *Checked Exceptions* e exigem tratamento obrigatório com bloco `try-catch` em tempo de compilação.
-* **B)** A classe `java.lang.Error` e suas subclasses representam condições anormais graves de ambiente (como `OutOfMemoryError`), que são consideradas *Unchecked* e não devem ser capturadas na rotina de negócio da aplicação.
-* **C)** O compilador Java não impõe nenhuma exigência sobre classes derivadas de `java.lang.Exception`, tornando o uso de blocos `try-catch` facultativo para operações de E/S de arquivos (`IOException`).
-* **D)** As palavras-chave `throw` e `throws` são perfeitamente intercambiáveis, podendo ambas ser empregadas para lançar explicitamente uma nova instância de exceção dentro de um bloco de código.
-* **E)** A cláusula `finally` anula a necessidade de declaração de exceções na assinatura do método com `throws`.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Subclasses de `java.lang.RuntimeException` são precisamente o modelo clássico de **Unchecked Exceptions**; o compilador não exige bloco `try-catch` nem declaração formal com `throws`.
-> - **B)** **CORRETA.** Subclasses de `java.lang.Error` sinalizam falhas catastróficas da infraestrutura da JVM das quais a aplicação normalmente não consegue se recuperar (ex.: falta de memória, estouro de pilha). São consideradas não checadas (*Unchecked*) e não devem ser tratadas pelo código de negócio.
-> - **C)** Incorreta. Classes derivadas de `java.lang.Exception` que não herdam de `RuntimeException` (como `IOException` e `SQLException`) são *Checked Exceptions* e o compilador impõe rigorosamente a obrigatoriedade de captura (`try-catch`) ou declaração de repasse na assinatura (`throws`).
-> - **D)** Incorreta. `throw` é uma instrução imperativa para disparar uma instância de exceção (`throw new Exception()`), enquanto `throws` é um modificador de assinatura de método que lista as exceções checadas passíveis de propagação.
-> - **E)** Incorreta. O bloco `finally` garante a execução de rotinas de limpeza, mas não exime o método de declarar com `throws` eventuais exceções checadas não tratadas nos blocos `catch`.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Analista de Sistemas / Desenvolvimento)
-Em JavaScript moderno, a utilização de variáveis e a criação de funções de fechamento (*closures*) dentro de laços de repetição assíncronos comportam-se de maneira distinta dependendo de como as variáveis são declaradas. Analise os dois fragmentos de código abaixo:
-
-**Fragmento 1:**
-
-```javascript
-for (var i = 0; i < 3; i++) {
-    setTimeout(() => console.log("F1:", i), 100);
-}
-```
-
-**Fragmento 2:**
-
-```javascript
-for (let j = 0; j < 3; j++) {
-    setTimeout(() => console.log("F2:", j), 100);
-}
-```
-
-Após o término dos temporizadores de 100 milissegundos, as saídas produzidas pelos Fragmentos 1 e 2 serão, respectivamente:  
-
-* **A)** Fragmento 1: `F1: 0`, `F1: 1`, `F1: 2` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
-* **B)** Fragmento 1: `F1: 3`, `F1: 3`, `F1: 3` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
-* **C)** Fragmento 1: `F1: 3`, `F1: 3`, `F1: 3` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
-* **D)** Fragmento 1: `F1: 0`, `F1: 1`, `F1: 2` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
-* **E)** Fragmento 1: `F1: undefined`, `F1: undefined`, `F1: undefined` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Supõe que `var` preservaria o escopo individual de cada iteração, o que não ocorre sem técnicas como IIFE em JavaScript legado.
-> - **B)** **CORRETA.** Explicação do escopo e closures:
->     1. **No Fragmento 1 (`var i = 0`):** `var` possui escopo de função/global. Existe uma única variável `i` compartilhada por todas as 3 iterações do laço. O laço executa sincronicamente e eleva `i` até 3 (condição de parada). Quando os 3 callbacks do `setTimeout` disparam 100ms depois, todos consultam a mesma variável compartilhada `i`, exibindo: `F1: 3`, `F1: 3`, `F1: 3`.
->     2. **No Fragmento 2 (`let j = 0`):** `let` possui escopo de bloco. O padrão ECMAScript vincula uma nova variável `j` independente a cada iteração do laço `for`. A closure de cada callback preserva o valor capturado de sua respectiva iteração (0, 1 e 2). Ao executarem, exibem: `F2: 0`, `F2: 1`, `F2: 2`.
->
-> - **C)** Incorreta. Assume erroneamente que o `let` se comportaria com o mesmo defeito de escopo compartilhado de `var`.
-> - **D)** Incorreta. Inverte o comportamento entre as declarações `var` e `let`.
-> - **E)** Incorreta. A variável `i` foi devidamente incrementada até o valor 3 no escopo circundante, portanto não é avaliada como `undefined`.
-> 
-> **Gabarito: B**

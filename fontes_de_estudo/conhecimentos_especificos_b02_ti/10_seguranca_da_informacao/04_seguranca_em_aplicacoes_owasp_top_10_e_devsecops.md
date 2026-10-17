@@ -31,7 +31,6 @@
     - [3.2 Boas Práticas e Hardening em Contêineres Docker e Kubernetes](#32-boas-praticas-e-hardening-em-conteineres-docker-e-kubernetes)
     - [3.3 Segurança em Nuvem: Modelo de Responsabilidade Compartilhada e Proteção de Metadados](#33-seguranca-em-nuvem-modelo-de-responsabilidade-compartilhada-e-protecao-de-metadados)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
-- [5. Questões Comentadas & Exemplos Práticos](#5-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -75,6 +74,35 @@ Se o usuário simplesmente alterar o valor na barra de endereços para `id=1051`
   *O `usuario_autenticado` é o proprietário legítimo ou possui autorização formal no RBAC/ABAC para acessar o recurso `id=1051`?* Se não, a requisição deve ser bloqueada com código HTTP `403 Forbidden`.
 
 ---
+
+### Questão 01 (FCC - Adaptada / TI - OWASP Top 10 / Broken Access Control e IDOR)
+Um analista de sistemas realizou um teste de penetração em um portal web fazendário e constatou que, ao autenticar-se como um contribuinte comum e acessar a URL:  
+`https://sefaz.gov.br/api/certidoes?id_requerimento=1050`  
+bastava alterar manualmente o parâmetro da requisição para:  
+`https://sefaz.gov.br/api/certidoes?id_requerimento=1051`  
+para visualizar e baixar a certidão fiscal de outro contribuinte, sem que o sistema realizasse qualquer validação sobre a titularidade do documento solicitado.
+
+No contexto das vulnerabilidades catalogadas pelo **OWASP Top 10**, essa falha é tecnicamente classificada como:
+
+* **A)** Server-Side Request Forgery (SSRF - A10).
+* **B)** Insecure Direct Object References (IDOR), inserida na categoria de Broken Access Control (A01).
+* **C)** Cryptographic Failures (A02), originada pelo uso incorreto do protocolo HTTPS.
+* **D)** Security Logging and Monitoring Failures (A09).
+* **E)** SQL Injection cego (Blind SQLi - A03).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O SSRF envolve induzir o servidor a realizar requisições maliciosas contra alvos da rede interna ou metadados de nuvem.
+> - **B)** Correta. Trata-se da clássica vulnerabilidade **IDOR (*Insecure Direct Object References*)**, pertencente à categoria **Broken Access Control (A01)**, caracterizada pela ausência de verificação no servidor sobre os direitos do usuário de acessar um identificador de registro direto recebido na requisição.
+> - **C)** Incorreta. O problema não tem correlação com protocolos de criptografia em trânsito, mas sim com a falha lógica de verificação de permissões do usuário logado.
+> - **D)** Incorreta. Trata-se de falha de autorização e controle de acesso, e não de deficiência de geração de logs de eventos.
+> - **E)** Incorreta. O cenário retrata uma alteração pontual de parâmetro numérico sem injeção de cláusulas SQL maliciosas.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 1.3 Cryptographic Failures (#2) e Proteção de Dados
 
@@ -123,6 +151,39 @@ cursor.execute(query, (cpf_input,))
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A FCC adora afirmar que funções de substituição manual de caracteres (como trocar aspas por barras) são a solução ideal para injeção de SQL. **ERRADO!** Filtros manuais baseados em listas de bloqueio (*denylists*) são historicamente burláveis por diversas técnicas de codificação. A **única defesa definitiva e prioritária recomendada pela OWASP são as Consultas Parametrizadas (*Prepared Statements* com parâmetros vinculados / *bind variables*)**.
+
+---
+
+### Questão 02 (FCC - Adaptada / TI - OWASP Top 10 e Injeção de SQL)
+Um desenvolvedor de sistemas do Tribunal de Contas implementou a seguinte rotina de autenticação em uma API de consulta processual:
+
+```python
+# Trecho de código implementado
+query = "SELECT id, nome, perfil FROM auditores WHERE login = '" + login_input + "' AND senha = '" + senha_input + "'"
+cursor.execute(query)
+usuario = cursor.fetchone()
+```
+
+Considerando a classificação de vulnerabilidades do **OWASP Top 10** e os princípios de codificação segura, assinale a afirmativa correta:
+
+* **A)** O código é imune a ataques cibernéticos, visto que a linguagem Python trata strings concatenadas como números binários criptografados.
+* **B)** O código apresenta grave vulnerabilidade de Injeção de SQL (*SQL Injection* - A03 do OWASP), pois concatena dados fornecidos pelo usuário diretamente na instrução SQL; para solucionar definitivamente a falha, o desenvolvedor deve utilizar consultas parametrizadas (*Prepared Statements*), delegando a separação entre código e dados ao driver do banco de dados.
+* **C)** A vulnerabilidade apresentada é classificada como *Cross-Site Scripting (XSS)*, e sua única forma de mitigação consiste em desativar o firewall de aplicação web (WAF).
+* **D)** A vulnerabilidade *Broken Access Control* (A01) foi abolida da lista da OWASP, não se aplicando mais ao desenvolvimento de aplicações modernas em nuvem.
+* **E)** O uso de parâmetros vinculados (*bind variables*) em consultas parametrizadas é desaconselhado pela OWASP por provocar vazamento de memória na máquina hospedeira.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O interpretador Python trata a operação como concatenação literal de caracteres, montando uma consulta SQL vulnerável e desprotegida.
+> - **B)** Correta. A concatenação de dados não sanitizados permite que metacaracteres modifiquem a lógica sintática da consulta (Injeção de SQL - A03). O remédio canônico definitivo recomendado pela OWASP consiste na adoção obrigatória de consultas parametrizadas (*Prepared Statements*), onde o banco de dados compila previamente a instrução e trata as variáveis estritamente como literais de dados.
+> - **C)** Incorreta. A vulnerabilidade afeta a base de dados relacional (SQL Injection), ao passo que XSS afeta o navegador do cliente com a execução de scripts maliciosos.
+> - **D)** Incorreta. *Broken Access Control* (A01) não foi abolida; ao contrário, lidera o ranking oficial como a vulnerabilidade número 1 em aplicações web modernas.
+> - **E)** Incorreta. O uso de parâmetros vinculados (*bind variables*) é a melhor prática recomendada internacionalmente para desenvolvimento de software seguro.
+> 
+> **Gabarito: B**
+
+---
+
 
 #### Modalidades de Cross-Site Scripting (XSS):
 O XSS consiste na injeção de scripts maliciosos (geralmente JavaScript) que serão executados dentro da sessão do navegador da vítima:
@@ -193,6 +254,31 @@ flowchart TD
 
 ---
 
+### Questão 03 (FCC - Adaptada / TI - Modelagem de Ameaças / Metodologia STRIDE)
+No planejamento arquitetural de um novo módulo de pagamentos do Tribunal de Contas, os engenheiros de segurança conduziram uma sessão de modelagem de ameaças adotando o framework metodológico **STRIDE**.
+
+A respeito do mapeamento entre as categorias de ameaça do modelo STRIDE e os princípios clássicos de segurança da informação violados, assinale a afirmativa correta:
+
+* **A)** A categoria *Spoofing* (Falsificação de Identidade) viola diretamente o princípio da Disponibilidade.
+* **B)** A categoria *Tampering* (Adulteração de Dados) atenta contra o princípio da Integridade.
+* **C)** A categoria *Repudiation* (Repúdio) atenta contra o princípio da Confidencialidade.
+* **D)** A categoria *Information Disclosure* (Divulgação Indevida) viola o princípio da Legalidade estrita.
+* **E)** A categoria *Denial of Service* (Negação de Serviço) viola o princípio do Não Repúdio.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. *Spoofing* (falsificação de identidade) atenta contra o princípio da Autenticidade.
+> - **B)** Correta. A categoria *Tampering* refere-se à modificação não autorizada de informações e códigos em trânsito ou em repouso, violando frontalmente a Integridade dos dados.
+> - **C)** Incorreta. *Repudiation* consiste em negar falsamente a prática de uma ação, violando o princípio do Não Repúdio (irretratabilidade).
+> - **D)** Incorreta. *Information Disclosure* corresponde à divulgação não autorizada de dados sigilosos, violando o princípio da Confidencialidade.
+> - **E)** Incorreta. *Denial of Service* visa interromper a prestação de serviços computacionais, violando o princípio da Disponibilidade.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.3 Ferramentas Automatizadas de Teste de Segurança (SAST, DAST, IAST, SCA)
 
 A automação do pipeline de CI/CD integra quatro famílias primárias de ferramentas de testes de segurança de software:
@@ -205,6 +291,31 @@ A automação do pipeline de CI/CD integra quatro famílias primárias de ferram
 | **IAST** | *Interactive Application Security Testing* | Híbrido Instrumentado | Durante a execução de testes funcionais automatizados ou manuais em runtime. | Agente instalado dentro da máquina virtual da aplicação (JVM, .NET, Node.js). | **Pró:** Combina a precisão do SAST com a visão contextual do DAST, com baixíssimo índice de falsos positivos.<br>**Contra:** Requer instrumentação específica e consome recursos da aplicação em teste. |
 
 ---
+
+### Questão 04 (FCC - Adaptada / TI - Práticas DevSecOps e Ferramentas de Teste)
+Na esteira de Integração e Entrega Contínua (CI/CD) de uma instituição pública que adota a filosofia DevSecOps e o princípio de *Shift-Left* (deslocar a segurança para o início do ciclo de vida), a equipe de segurança inseriu diferentes tipos de testes automatizados de segurança.
+
+A respeito das ferramentas e abordagens de testes de segurança de software, assinale a afirmativa correta:
+
+* **A)** O teste estático (SAST - *Static Application Security Testing*) exige que a aplicação esteja completamente implantada e em execução em um servidor de homologação para que requisições HTTP maliciosas sejam enviadas contra ela por fora.
+* **B)** O teste dinâmico (DAST - *Dynamic Application Security Testing*) analisa exclusivamente o código-fonte em repouso sem executar o software, mapeando o fluxo de dados em árvores sintáticas para identificar variáveis não inicializadas.
+* **C)** A Análise de Composição de Software (SCA - *Software Composition Analysis*) tem como objetivo primordial mapear a árvore de dependências e bibliotecas de terceiros (código aberto) utilizadas pelo projeto, identificando versões desatualizadas e componentes associados a vulnerabilidades conhecidas (CVEs).
+* **D)** O princípio do *Shift-Left* preceitua que as análises de segurança da informação devem ser adiadas para a última semana anterior à entrada em produção, para evitar atrasos aos desenvolvedores.
+* **E)** Ferramentas de SAST e DAST tornam dispensáveis a modelagem de ameaças e o controle de acesso lógico nas aplicações.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Essa é a definição operacional do teste dinâmico (DAST). O SAST inspeciona o código estático em repouso, sem compilação nem execução da aplicação.
+> - **B)** Incorreta. Essa é a definição do SAST. O DAST necessita da aplicação rodando plenamente para simular ataques externos via protocolo HTTP.
+> - **C)** Correta. As ferramentas de SCA (como Snyk, Dependabot e OWASP Dependency-Check) realizam o inventário contínuo de dependências externas para detectar vulnerabilidades catalogadas (CVEs) e violações de licenças de software livre.
+> - **D)** Incorreta. O princípio *Shift-Left* orienta exatamente o inverso: antecipar a segurança para o início do ciclo de vida do desenvolvimento (planejamento, design e codificação inicial).
+> - **E)** Incorreta. Testes automatizados são ferramentas complementares de apoio e não substituem o design seguro de regras de negócio e a modelagem formal de ameaças.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ## 3. Segurança em APIs, Contêineres e Ambientes de Nuvem
 
@@ -263,123 +374,7 @@ flowchart TD
 
 ---
 
-## 6. Fontes Recomendadas na Internet
-
-* [OWASP Top 10:2021 Official](https://owasp.org/Top10/) - Documentação oficial dos 10 riscos mais críticos em aplicações web.
-* [OWASP API Security Top 10](https://owasp.org/API-Security/) - Classificação oficial de riscos de segurança voltados a interfaces de programação (APIs).
-* [OWASP REST Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html) - Guia oficial de mitigação e análise de vulnerabilidades em serviços RESTful.
-* [OWASP Vulnerable Dependency Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerable_Dependency_Management_Cheat_Sheet.html) - Guia oficial de mitigação e análise de componentes vulneráveis de terceiros (SCA).
-* [NIST SP 800-218 - Secure Software Development Framework (SSDF) Version 1.1](https://csrc.nist.gov/pubs/sp/800/218/final) - Framework oficial do NIST para integração de práticas de segurança no ciclo de desenvolvimento de software (DevSecOps).
-* MCGRAW, Gary. **Software Security: Building Security In**. Boston: Addison-Wesley Professional, 2006. (Cap. 1 a 5 - Práticas de Engenharia de Segurança de Software).
-* KIM, Gene; HUMBLE, Jez; DEBOIS, Patrick; WILLIS, John. **Manual de DevOps: Como Obter Agilidade, Confiabilidade e Segurança em Organizações Tecnológicas**. Rio de Janeiro: Alta Books, 2018. (Parte IV - Integrando Segurança da Informação, Controle de Mudança e Conformidade).
-
-
-## 5. Questões Comentadas & Exemplos Práticos
-
-### Questão 1 (FCC - Adaptada / TI - OWASP Top 10 e Injeção de SQL)
-Um desenvolvedor de sistemas do Tribunal de Contas implementou a seguinte rotina de autenticação em uma API de consulta processual:
-
-```python
-# Trecho de código implementado
-query = "SELECT id, nome, perfil FROM auditores WHERE login = '" + login_input + "' AND senha = '" + senha_input + "'"
-cursor.execute(query)
-usuario = cursor.fetchone()
-```
-
-Considerando a classificação de vulnerabilidades do **OWASP Top 10** e os princípios de codificação segura, assinale a afirmativa correta:
-
-* **A)** O código é imune a ataques cibernéticos, visto que a linguagem Python trata strings concatenadas como números binários criptografados.
-* **B)** O código apresenta grave vulnerabilidade de Injeção de SQL (*SQL Injection* - A03 do OWASP), pois concatena dados fornecidos pelo usuário diretamente na instrução SQL; para solucionar definitivamente a falha, o desenvolvedor deve utilizar consultas parametrizadas (*Prepared Statements*), delegando a separação entre código e dados ao driver do banco de dados.
-* **C)** A vulnerabilidade apresentada é classificada como *Cross-Site Scripting (XSS)*, e sua única forma de mitigação consiste em desativar o firewall de aplicação web (WAF).
-* **D)** A vulnerabilidade *Broken Access Control* (A01) foi abolida da lista da OWASP, não se aplicando mais ao desenvolvimento de aplicações modernas em nuvem.
-* **E)** O uso de parâmetros vinculados (*bind variables*) em consultas parametrizadas é desaconselhado pela OWASP por provocar vazamento de memória na máquina hospedeira.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O interpretador Python trata a operação como concatenação literal de caracteres, montando uma consulta SQL vulnerável e desprotegida.
-> - **B)** Correta. A concatenação de dados não sanitizados permite que metacaracteres modifiquem a lógica sintática da consulta (Injeção de SQL - A03). O remédio canônico definitivo recomendado pela OWASP consiste na adoção obrigatória de consultas parametrizadas (*Prepared Statements*), onde o banco de dados compila previamente a instrução e trata as variáveis estritamente como literais de dados.
-> - **C)** Incorreta. A vulnerabilidade afeta a base de dados relacional (SQL Injection), ao passo que XSS afeta o navegador do cliente com a execução de scripts maliciosos.
-> - **D)** Incorreta. *Broken Access Control* (A01) não foi abolida; ao contrário, lidera o ranking oficial como a vulnerabilidade número 1 em aplicações web modernas.
-> - **E)** Incorreta. O uso de parâmetros vinculados (*bind variables*) é a melhor prática recomendada internacionalmente para desenvolvimento de software seguro.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / TI - Práticas DevSecOps e Ferramentas de Teste)
-Na esteira de Integração e Entrega Contínua (CI/CD) de uma instituição pública que adota a filosofia DevSecOps e o princípio de *Shift-Left* (deslocar a segurança para o início do ciclo de vida), a equipe de segurança inseriu diferentes tipos de testes automatizados de segurança.
-
-A respeito das ferramentas e abordagens de testes de segurança de software, assinale a afirmativa correta:
-
-* **A)** O teste estático (SAST - *Static Application Security Testing*) exige que a aplicação esteja completamente implantada e em execução em um servidor de homologação para que requisições HTTP maliciosas sejam enviadas contra ela por fora.
-* **B)** O teste dinâmico (DAST - *Dynamic Application Security Testing*) analisa exclusivamente o código-fonte em repouso sem executar o software, mapeando o fluxo de dados em árvores sintáticas para identificar variáveis não inicializadas.
-* **C)** A Análise de Composição de Software (SCA - *Software Composition Analysis*) tem como objetivo primordial mapear a árvore de dependências e bibliotecas de terceiros (código aberto) utilizadas pelo projeto, identificando versões desatualizadas e componentes associados a vulnerabilidades conhecidas (CVEs).
-* **D)** O princípio do *Shift-Left* preceitua que as análises de segurança da informação devem ser adiadas para a última semana anterior à entrada em produção, para evitar atrasos aos desenvolvedores.
-* **E)** Ferramentas de SAST e DAST tornam dispensáveis a modelagem de ameaças e o controle de acesso lógico nas aplicações.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Essa é a definição operacional do teste dinâmico (DAST). O SAST inspeciona o código estático em repouso, sem compilação nem execução da aplicação.
-> - **B)** Incorreta. Essa é a definição do SAST. O DAST necessita da aplicação rodando plenamente para simular ataques externos via protocolo HTTP.
-> - **C)** Correta. As ferramentas de SCA (como Snyk, Dependabot e OWASP Dependency-Check) realizam o inventário contínuo de dependências externas para detectar vulnerabilidades catalogadas (CVEs) e violações de licenças de software livre.
-> - **D)** Incorreta. O princípio *Shift-Left* orienta exatamente o inverso: antecipar a segurança para o início do ciclo de vida do desenvolvimento (planejamento, design e codificação inicial).
-> - **E)** Incorreta. Testes automatizados são ferramentas complementares de apoio e não substituem o design seguro de regras de negócio e a modelagem formal de ameaças.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 3 (FCC - Adaptada / TI - OWASP Top 10 / Broken Access Control e IDOR)
-Um analista de sistemas realizou um teste de penetração em um portal web fazendário e constatou que, ao autenticar-se como um contribuinte comum e acessar a URL:  
-`https://sefaz.gov.br/api/certidoes?id_requerimento=1050`  
-bastava alterar manualmente o parâmetro da requisição para:  
-`https://sefaz.gov.br/api/certidoes?id_requerimento=1051`  
-para visualizar e baixar a certidão fiscal de outro contribuinte, sem que o sistema realizasse qualquer validação sobre a titularidade do documento solicitado.
-
-No contexto das vulnerabilidades catalogadas pelo **OWASP Top 10**, essa falha é tecnicamente classificada como:
-
-* **A)** Server-Side Request Forgery (SSRF - A10).
-* **B)** Insecure Direct Object References (IDOR), inserida na categoria de Broken Access Control (A01).
-* **C)** Cryptographic Failures (A02), originada pelo uso incorreto do protocolo HTTPS.
-* **D)** Security Logging and Monitoring Failures (A09).
-* **E)** SQL Injection cego (Blind SQLi - A03).
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O SSRF envolve induzir o servidor a realizar requisições maliciosas contra alvos da rede interna ou metadados de nuvem.
-> - **B)** Correta. Trata-se da clássica vulnerabilidade **IDOR (*Insecure Direct Object References*)**, pertencente à categoria **Broken Access Control (A01)**, caracterizada pela ausência de verificação no servidor sobre os direitos do usuário de acessar um identificador de registro direto recebido na requisição.
-> - **C)** Incorreta. O problema não tem correlação com protocolos de criptografia em trânsito, mas sim com a falha lógica de verificação de permissões do usuário logado.
-> - **D)** Incorreta. Trata-se de falha de autorização e controle de acesso, e não de deficiência de geração de logs de eventos.
-> - **E)** Incorreta. O cenário retrata uma alteração pontual de parâmetro numérico sem injeção de cláusulas SQL maliciosas.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / TI - Modelagem de Ameaças / Metodologia STRIDE)
-No planejamento arquitetural de um novo módulo de pagamentos do Tribunal de Contas, os engenheiros de segurança conduziram uma sessão de modelagem de ameaças adotando o framework metodológico **STRIDE**.
-
-A respeito do mapeamento entre as categorias de ameaça do modelo STRIDE e os princípios clássicos de segurança da informação violados, assinale a afirmativa correta:
-
-* **A)** A categoria *Spoofing* (Falsificação de Identidade) viola diretamente o princípio da Disponibilidade.
-* **B)** A categoria *Tampering* (Adulteração de Dados) atenta contra o princípio da Integridade.
-* **C)** A categoria *Repudiation* (Repúdio) atenta contra o princípio da Confidencialidade.
-* **D)** A categoria *Information Disclosure* (Divulgação Indevida) viola o princípio da Legalidade estrita.
-* **E)** A categoria *Denial of Service* (Negação de Serviço) viola o princípio do Não Repúdio.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. *Spoofing* (falsificação de identidade) atenta contra o princípio da Autenticidade.
-> - **B)** Correta. A categoria *Tampering* refere-se à modificação não autorizada de informações e códigos em trânsito ou em repouso, violando frontalmente a Integridade dos dados.
-> - **C)** Incorreta. *Repudiation* consiste em negar falsamente a prática de uma ação, violando o princípio do Não Repúdio (irretratabilidade).
-> - **D)** Incorreta. *Information Disclosure* corresponde à divulgação não autorizada de dados sigilosos, violando o princípio da Confidencialidade.
-> - **E)** Incorreta. *Denial of Service* visa interromper a prestação de serviços computacionais, violando o princípio da Disponibilidade.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Adaptada / TI - Segurança em Nuvem e Contêineres)
+### Questão 05 (FCC - Adaptada / TI - Segurança em Nuvem e Contêineres)
 Em relação às boas práticas de segurança na execução de contêineres Docker e ao Modelo de Responsabilidade Compartilhada na computação em nuvem, assinale a afirmativa correta:
 
 * **A)** Em soluções de Infraestrutura como Serviço (IaaS), o provedor de nuvem é integralmente responsável pela aplicação periódica de patches de segurança e atualizações do sistema operacional convidado (*guest OS*) das máquinas virtuais do cliente.
@@ -397,3 +392,17 @@ Em relação às boas práticas de segurança na execução de contêineres Dock
 > - **E)** Incorreta. As imagens mínimas (*Distroless*) são explicitamente recomendadas pelas diretrizes do CIS Benchmarks exatamente por diminuírem a superfície de ataque ao eliminar binários e pacotes dispensáveis.
 > 
 > **Gabarito: C**
+
+---
+
+
+
+## 6. Fontes Recomendadas na Internet
+
+* [OWASP Top 10:2021 Official](https://owasp.org/Top10/) - Documentação oficial dos 10 riscos mais críticos em aplicações web.
+* [OWASP API Security Top 10](https://owasp.org/API-Security/) - Classificação oficial de riscos de segurança voltados a interfaces de programação (APIs).
+* [OWASP REST Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html) - Guia oficial de mitigação e análise de vulnerabilidades em serviços RESTful.
+* [OWASP Vulnerable Dependency Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerable_Dependency_Management_Cheat_Sheet.html) - Guia oficial de mitigação e análise de componentes vulneráveis de terceiros (SCA).
+* [NIST SP 800-218 - Secure Software Development Framework (SSDF) Version 1.1](https://csrc.nist.gov/pubs/sp/800/218/final) - Framework oficial do NIST para integração de práticas de segurança no ciclo de desenvolvimento de software (DevSecOps).
+* MCGRAW, Gary. **Software Security: Building Security In**. Boston: Addison-Wesley Professional, 2006. (Cap. 1 a 5 - Práticas de Engenharia de Segurança de Software).
+* KIM, Gene; HUMBLE, Jez; DEBOIS, Patrick; WILLIS, John. **Manual de DevOps: Como Obter Agilidade, Confiabilidade e Segurança em Organizações Tecnológicas**. Rio de Janeiro: Alta Books, 2018. (Parte IV - Integrando Segurança da Informação, Controle de Mudança e Conformidade).

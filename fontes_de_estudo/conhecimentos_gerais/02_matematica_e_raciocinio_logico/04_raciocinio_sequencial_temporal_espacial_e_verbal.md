@@ -40,12 +40,6 @@
     - [5.2 O Método do Par Contraditório](#52-o-metodo-do-par-contraditorio)
     - [5.3 O Método da Suposição Hipotética Dirigida](#53-o-metodo-da-suposicao-hipotetica-dirigida)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
-    - [Questão 01](#questao-01)
-    - [Questão 02](#questao-02)
-    - [Questão 03](#questao-03)
-    - [Questão 04](#questao-04)
-    - [Questão 05](#questao-05)
 
 ---
 
@@ -64,6 +58,54 @@ As sequências de números exploradas em concursos estruturam-se segundo diferen
    *Exemplo:* $3, 5, 9, 17, 33, 65, \mathbf{129}$ (onde $2 \times 65 - 1 = 129$).
 4. **Sequências do Tipo Fibonacci:** Cada termo resulta da soma dos dois termos imediatamente anteriores ($1, 1, 2, 3, 5, 8, 13, 21\dots$).
 
+---
+
+### Questão 01
+**(FCC – TCE-GO – Tecnologia da Informação)**  
+Considere a sequência numérica infinita cujos primeiros termos são apresentados a seguir:
+$$3, 5, 9, 17, 33, 65, \dots$$
+
+O próximo termo dessa sequência e a lei de formação que rege seus elementos correspondem, respectivamente, a:
+
+* **A)** 129 e o dobro do termo anterior subtraído de 1
+* **B)** 129 e o dobro do termo anterior somado a 1
+* **C)** 97 e a soma dos dois termos anteriores
+* **D)** 130 e potências consecutivas de 3
+* **E)** 131 e a soma das diferenças sucessivas multiplicadas por 3
+
+> **Comentário Detalhado:**
+> Identificação da lei de formação por diferenças e recorrência:
+>
+> 1. Calculando a diferença entre termos consecutivos:
+>     - $5 - 3 = 2 = 2^1$
+>     - $9 - 5 = 4 = 2^2$
+>     - $17 - 9 = 8 = 2^3$
+>     - $33 - 17 = 16 = 2^4$
+>     - $65 - 33 = 32 = 2^5$
+>    As diferenças sucessivas formam potências consecutivas de 2. Logo, a próxima diferença entre o 7º e o 6º termo deve ser $2^6 = 64$:
+>    $$a_7 = 65 + 64 = \mathbf{129}$$
+> 2. Analisando a lei de recorrência direta:
+>     - $2 \times 3 - 1 = 5$
+>     - $2 \times 5 - 1 = 9$
+>     - $2 \times 9 - 1 = 17$
+>     - $2 \times 17 - 1 = 33$
+>     - $2 \times 33 - 1 = 65$
+>     - $2 \times 65 - 1 = 130 - 1 = \mathbf{129}$
+>    A lei estruturante expressa-se perfeitamente como o **dobro do termo anterior subtraído de 1** ($a_n = 2a_{n-1} - 1$).
+>
+> Análise das alternativas:
+>
+> - **A)** Correta. O próximo elemento é 129 e a relação de recorrência é $2x - 1$.
+> - **B)** Incorreta. Se somasse 1, a sequência seria $3, 7, 15, 31, 63, 127$.
+> - **C)** Incorreta. A soma dos dois termos precedentes (estilo Fibonacci) geraria $33 + 65 = 98$, divergindo de 97 e da lógica da sequência.
+> - **D)** Incorreta. O próximo termo é 129, e não 130.
+> - **E)** Incorreta. Aponta 131 decorrente de erro aritmético.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial
 
 As sequências que intercalam letras e números utilizam a posição ordinal das letras no alfabeto oficial da língua portuguesa (composto por 26 letras, incluindo K, W e Y):
@@ -73,6 +115,58 @@ As sequências que intercalam letras e números utilizam a posição ordinal das
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
 
 *Exemplo:* Na sequência $B2, D4, F6, H8\dots$, a letra avança de 2 em 2 posições no alfabeto e o número acompanha a ordem par correspondente.
+
+---
+
+### Questão 02
+**(FCC – TCE-GO – Técnico de Controle Externo)**  
+Um servidor do TCE-GO elaborou uma rotina automatizada para numerar lotes de fiscalização repetindo indefinidamente a palavra **"CONTROLE"**, sem espaços, gerando a seguinte sequência contínua de letras:
+$$\text{C, O, N, T, R, O, L, E, C, O, N, T, R, O, L, E, C, O, N}\dots$$
+
+Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o total de vezes que a letra **"O"** terá sido escrita até essa posição são, respectivamente:
+
+* **A)** N e 506
+* **B)** T e 506
+* **C)** N e 507
+* **D)** O e 506
+* **E)** T e 507
+
+> **Comentário Detalhado:**
+> Análise do padrão cíclico e frequência da letra:
+>
+> 1. O bloco básico repetitivo é a palavra **CONTROLE**, constituída por $P = 8$ letras ordenadas:
+>     - Posição 1: C
+>     - Posição 2: **O** (primeira ocorrência de O)
+>     - Posição 3: N
+>     - Posição 4: T
+>     - Posição 5: R
+>     - Posição 6: **O** (segunda ocorrência de O)
+>     - Posição 7: L
+>     - Posição 8 (ou resto 0): E
+>    Em cada bloco completo de 8 letras, a letra **"O"** é grafada exatamente **2 vezes** (nas posições 2 e 6).
+> 2. Aplicação da Divisão Euclidiana para a 2027ª posição:
+>    $$2027 = 8 \times 253 + 3$$
+>     - O quociente 253 revela que o ciclo de 8 letras foi repetido integralmente 253 vezes.
+>     - O **resto é 3**, o que significa que foram grafadas mais 3 letras no ciclo subsequente incompleto: a 1ª letra (C), a 2ª letra (O) e a 3ª letra (**N**).
+>     - Portanto, a letra na 2027ª posição é a letra **N**.
+>
+> 3. Contagem acumulada da letra "O":
+>     - Nos 253 ciclos completos: $253 \times 2 = 506$ ocorrências de "O".
+>     - No ciclo incompleto de 3 letras (C, O, N): a posição 2 traz mais 1 letra "O".
+>     - Total acumulado: $506 + 1 = \mathbf{507 \text{ vezes}}$.
+>
+> Análise individual das alternativas:
+>
+> - **A)** Incorreta. Erra ao indicar 506 ocorrências de "O", esquecendo de computar a letra O da posição 2 do ciclo incompleto.
+> - **B)** Incorreta. Aponta a letra T (que corresponderia a resto 4) e contagem desatualizada de O.
+> - **C)** Correta. A letra na 2027ª posição é **N** (resto 3) e a letra "O" foi grafada $253 \times 2 + 1 = \mathbf{507}$ vezes.
+> - **D)** Incorreta. A letra O ocupou a posição 2026 (resto 2), e não a 2027.
+> - **E)** Incorreta. Aponta a letra T em vez de N.
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 1.3 Padrões Literais por Iniciais Semânticas
 
@@ -113,6 +207,48 @@ $$\text{Dia Futuro} = \text{Dia Base} + (N \pmod 7)$$
 *Exemplo:* Se uma sessão do TCE-GO ocorreu em uma quinta-feira e se quer saber em que dia da semana recairá um prazo de 43 dias corridos contados a partir daquela data:
 $$43 = 6 \times 7 + 1 \implies \text{Resto } 1$$
 Avança-se 1 dia a partir da quinta-feira, alcançando-se infalivelmente a **sexta-feira**.
+
+---
+
+### Questão 03
+**(FCC – TRT – Analista Judiciário)**  
+O Tribunal de Contas publicou um acórdão condenatório em sua sessão plenária realizada em uma **quinta-feira**. O regimento interno concede um prazo improrrogável de exatamente **43 dias corridos**, contados a partir do primeiro dia seguinte ao da publicação, para a interposição de recurso ordinário.
+
+O último dia desse prazo de 43 dias corridos recairá em uma:
+
+* **A)** Segunda-feira
+* **B)** Terça-feira
+* **C)** Quarta-feira
+* **D)** Quinta-feira
+* **E)** Sexta-feira
+
+> **Comentário Detalhado:**
+> Aplicação da aritmética modular de base 7:
+>
+> 1. Ponto de partida cronológico:
+>     - Publicação em plenário: quinta-feira.
+>     - O prazo de 43 dias começa a transcorrer a partir do marco zero da publicação.
+>
+> 2. Redução modular da contagem:
+>     - A semana possui ciclo invariável de 7 dias. Dividindo 43 por 7:
+>      $$43 = 6 \times 7 + 1$$
+>     - O quociente 6 indica que se passaram 6 semanas completas (as quais devolvem a contagem exatamente para a mesma quinta-feira).
+>     - O **resto é 1**, impondo o avanço de exatamente 1 dia a partir da quinta-feira:
+>      $$\text{Quinta-feira} + 1 \text{ dia} = \mathbf{Sexta-feira}$$
+> 3. Logo, o 43º dia do prazo transcorrerá em uma sexta-feira.
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. Segunda-feira demandaria resto 4 na divisão por 7.
+> - **B)** Incorreta. Terça-feira demandaria resto 5.
+> - **C)** Incorreta. Quarta-feira demandaria resto 6.
+> - **D)** Incorreta. Quinta-feira corresponderia a uma divisão exata sem resto (resto 0).
+> - **E)** Correta. O resto 1 de $43 \div 7$ avança 1 dia a partir da quinta-feira, resultando em sexta-feira.
+> 
+> **Gabarito: E**
+
+---
+
 
 ### 2.2 Regras de Anos Bissextos e Deslocamento Anual
 
@@ -172,6 +308,50 @@ A planificação de um hexaedro regular (cubo) compõe-se de 6 quadrados dispost
 2. As abas laterais que sobram dobram-se formando o outro par oposto: $\bigstar$ é oposta a $\blacktriangle$.
 3. **Propriedade Inviolável:** Duas faces opostas **nunca podem ser vizinhas adjacentes** e **jamais aparecem juntas em uma mesma visão tridimensional ortogonal do cubo**.
 
+---
+
+### Questão 04
+**(FCC – TCE-PI – Analista de Sistemas)**  
+Observe a planificação de um dado cúbico convencional, cujas faces contêm os símbolos $\heartsuit$, $\spadesuit$, $\diamondsuit$, $\clubsuit$, $\bigstar$ e $\blacktriangle$:
+
+```text
+       [ ★ ]
+[ ♥ ] [ ♠ ] [ ♦ ] [ ♣ ]
+       [ ▲ ]
+```
+
+Ao montar o cubo a partir dessa planificação, a face que ficará **diametralmente oposta** à face com o símbolo de Espadas ($\spadesuit$) é:
+
+* **A)** Copas ($\heartsuit$)
+* **B)** Ouros ($\diamondsuit$)
+* **C)** Paus ($\clubsuit$)
+* **D)** Estrela ($\bigstar$)
+* **E)** Triângulo ($\blacktriangle$)
+
+> **Comentário Detalhado:**
+> Análise estrutural de planificação e dobradura de cubos:
+>
+> 1. Na fileira horizontal com quatro quadrados adjacentes $[ \heartsuit ] \ [ \spadesuit ] \ [ \diamondsuit ] \ [ \clubsuit ]$:
+>     - Pelo teorema das faces opostas em planificações poliédricas, quadrados dispostos na mesma fileira separados por exatamente um quadrado intermediário dobram-se em planos paralelos, tornando-se **faces opostas**.
+>     - $\heartsuit$ separa-se de $\diamondsuit$ por $\spadesuit \implies \heartsuit$ é oposta a $\diamondsuit$.
+>     - $\spadesuit$ separa-se de $\clubsuit$ por $\diamondsuit \implies \spadesuit$ é oposta a $\clubsuit$.
+>
+> 2. As abas que se projetam para fora da fileira central ($\bigstar$ acima e $\blacktriangle$ abaixo) dobram-se em $90^\circ$ fechando o topo e a base do cubo, sendo opostas entre si.
+> 3. Logo, a face que se posiciona diametralmente oposta à face de Espadas ($\spadesuit$) é a face de Paus ($\clubsuit$).
+>
+> Análise individual das alternativas:
+>
+> - **A)** Incorreta. Copas ($\heartsuit$) dobra em ângulo reto, ficando adjacente a Espadas.
+> - **B)** Incorreta. Ouros ($\diamondsuit$) é face imediatamente vizinha (adjacente) de Espadas.
+> - **C)** Correta. Paus ($\clubsuit$) é a face diametralmente oposta a Espadas ($\spadesuit$).
+> - **D)** Incorreta. Estrela ($\bigstar$) fecha a face superior, sendo adjacente a Espadas.
+> - **E)** Incorreta. Triângulo ($\blacktriangle$) fecha a face inferior, sendo adjacente a Espadas.
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 3.3 Vistas Ortogonais de Pilhas de Blocos e Cubos
 
 Consiste em determinar a projeção visual bidimensional de uma estrutura tridimensional de blocos cúbicos a partir de pontos de vista fixos:
@@ -220,6 +400,45 @@ flowchart LR
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*). Como uma dessas falas é verdadeira e a outra é falsa, **a única mentira da questão está obrigatoriamente confinada a esse par**. Logo, todos os outros servidores fora do par (Eduardo e Gabriel) falaram a verdade irrestrita!
 
+---
+
+### Questão 05
+**(FCC – TCE-GO – Auditor de Controle Externo)**  
+Durante uma auditoria interna para apurar o vazamento de um relatório sigiloso, quatro servidores — Daniel, Eduardo, Fernando e Gabriel — foram interrogados e fizeram as seguintes declarações:
+- Daniel: *"Fernando é o responsável pelo vazamento."*  
+- Eduardo: *"Eu não vazei o relatório."*  
+- Fernando: *"Daniel está mentindo."*  
+- Gabriel: *"Daniel é o responsável pelo vazamento."*  
+Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles foi o responsável pelo vazamento, quem vazou o relatório e quem mentiu foram, respectivamente:
+
+* **A)** Fernando e Daniel
+* **B)** Daniel e Fernando
+* **C)** Daniel e Daniel
+* **D)** Eduardo e Eduardo
+* **E)** Gabriel e Daniel
+
+> **Comentário Detalhado:**
+> Resolução estruturada pelo método do par contraditório:
+>
+> 1. As falas de Daniel (*"Fernando é o responsável"*) e de Fernando (*"Daniel está mentindo"*) são contraditórias: se Daniel diz a verdade, Fernando mente; se Daniel mente, Fernando diz a verdade. Logo, **exatamente um dos dois mente**.
+> 2. Como o enunciado fixa que apenas um servidor mentiu, a única mentira está confinada a esse par. Portanto, **Eduardo e Gabriel falaram a verdade**.
+> 3. Pela fala verdadeira de Gabriel, **Daniel é o responsável pelo vazamento**.
+> 4. Sendo Daniel o culpado, sua afirmação de que *"Fernando é o responsável"* é falsa, de modo que **Daniel mentiu**. Consequentemente, Fernando disse a verdade ao afirmar que Daniel mentia, e Eduardo (inocente) também disse a verdade, o que fecha o cenário com um único mentiroso.
+> 5. Verificação da hipótese alternativa: se Fernando fosse o culpado, a fala de Gabriel seria falsa e a de Fernando também (dois mentirosos), contrariando o enunciado.
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. Se Fernando fosse o culpado, Daniel teria dito a verdade, e não mentido; além disso, Gabriel e Fernando mentiriam.
+> - **B)** Incorreta. Fernando disse a verdade ao afirmar que Daniel mentia; o mentiroso é o próprio Daniel.
+> - **C)** Correta. Daniel é o responsável pelo vazamento e foi ele quem mentiu ao apontar Fernando.
+> - **D)** Incorreta. Eduardo disse a verdade e é inocente; sendo ele o culpado, haveria mais de um mentiroso.
+> - **E)** Incorreta. Gabriel disse a verdade (Daniel é o culpado), logo não é o vazador.
+>
+> **Gabarito: C**
+
+---
+
+
 ### 5.3 O Método da Suposição Hipotética Dirigida
 
 Caso não haja contradição explícita direta entre os depoimentos:
@@ -240,228 +459,3 @@ Caso não haja contradição explícita direta entre os depoimentos:
 * IEZZI, Gelson. **Fundamentos de Matemática Elementar, Volume 4: Sequências, Matrizes e Determinantes**. 8. ed. São Paulo: Atual, 2013. (Cap. 1 e 2 - Progressões Aritméticas e Geométricas).
 * ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 7 - Raciocínio Dedutivo e Sequências Lógicas).
 * CARRAHER, David; CARRAHER, Terezinha; SCHLIEMANN, Analúcia. **Na Vida Dez, na Escola Zero**. 16. ed. São Paulo: Cortez, 2011. (Cap. 3 - Raciocínio Sequencial e Operações Cotidianas).
-
----
-
-## 📝 Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Técnico de Controle Externo)**  
-Um servidor do TCE-GO elaborou uma rotina automatizada para numerar lotes de fiscalização repetindo indefinidamente a palavra **"CONTROLE"**, sem espaços, gerando a seguinte sequência contínua de letras:
-$$\text{C, O, N, T, R, O, L, E, C, O, N, T, R, O, L, E, C, O, N}\dots$$
-
-Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o total de vezes que a letra **"O"** terá sido escrita até essa posição são, respectivamente:
-
-* **A)** N e 506
-* **B)** T e 506
-* **C)** N e 507
-* **D)** O e 506
-* **E)** T e 507
-
-> **Comentário Detalhado:**
-> Análise do padrão cíclico e frequência da letra:
->
-> 1. O bloco básico repetitivo é a palavra **CONTROLE**, constituída por $P = 8$ letras ordenadas:
->     - Posição 1: C
->     - Posição 2: **O** (primeira ocorrência de O)
->     - Posição 3: N
->     - Posição 4: T
->     - Posição 5: R
->     - Posição 6: **O** (segunda ocorrência de O)
->     - Posição 7: L
->     - Posição 8 (ou resto 0): E
->    Em cada bloco completo de 8 letras, a letra **"O"** é grafada exatamente **2 vezes** (nas posições 2 e 6).
-> 2. Aplicação da Divisão Euclidiana para a 2027ª posição:
->    $$2027 = 8 \times 253 + 3$$
->     - O quociente 253 revela que o ciclo de 8 letras foi repetido integralmente 253 vezes.
->     - O **resto é 3**, o que significa que foram grafadas mais 3 letras no ciclo subsequente incompleto: a 1ª letra (C), a 2ª letra (O) e a 3ª letra (**N**).
->     - Portanto, a letra na 2027ª posição é a letra **N**.
->
-> 3. Contagem acumulada da letra "O":
->     - Nos 253 ciclos completos: $253 \times 2 = 506$ ocorrências de "O".
->     - No ciclo incompleto de 3 letras (C, O, N): a posição 2 traz mais 1 letra "O".
->     - Total acumulado: $506 + 1 = \mathbf{507 \text{ vezes}}$.
->
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. Erra ao indicar 506 ocorrências de "O", esquecendo de computar a letra O da posição 2 do ciclo incompleto.
-> - **B)** Incorreta. Aponta a letra T (que corresponderia a resto 4) e contagem desatualizada de O.
-> - **C)** Correta. A letra na 2027ª posição é **N** (resto 3) e a letra "O" foi grafada $253 \times 2 + 1 = \mathbf{507}$ vezes.
-> - **D)** Incorreta. A letra O ocupou a posição 2026 (resto 2), e não a 2027.
-> - **E)** Incorreta. Aponta a letra T em vez de N.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 02
-**(FCC – TCE-GO – Auditor de Controle Externo)**  
-Durante uma auditoria interna para apurar o vazamento de um relatório sigiloso, quatro servidores — Daniel, Eduardo, Fernando e Gabriel — foram interrogados e fizeram as seguintes declarações:
-
-- Daniel: *"Fernando é o responsável pelo vazamento."*  
-- Eduardo: *"Eu não vazei o relatório."*  
-- Fernando: *"Daniel está mentindo."*  
-- Gabriel: *"Eduardo está falando a verdade."*  
-
-Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles foi o responsável pelo vazamento, quem vazou o relatório e quem mentiu foram, respectivamente:
-
-* **A)** Fernando e Daniel
-* **B)** Daniel e Fernando
-* **C)** Fernando e Fernando
-* **D)** Eduardo e Eduardo
-* **E)** Gabriel e Daniel
-
-> **Comentário Detalhado:**
-> Resolução estruturada pelo método do par contraditório:
->
-> 1. Identificação da contradição frontal:
->     - Daniel afirma: *"Fernando é o responsável pelo vazamento"*.
->     - Fernando afirma: *"Daniel está mentindo"*.
->     - As falas de Daniel e Fernando são mutuamente contraditórias: se Daniel fala a verdade, Fernando mente; se Daniel mente, Fernando fala a verdade. Portanto, uma é compulsoriamente Verdadeira ($V$) e a outra é compulsoriamente Falsa ($F$).
->
-> 2. Localização da mentira única:
->     - O problema fixa que **apenas um dos quatro servidores mentiu**.
->     - Como a única mentira do grupo está confinada no par contraditório formado por Daniel e Fernando, todos os outros servidores fora do par falaram a **mais pura verdade**:
->         * Eduardo falou a verdade ($V$);
->         * Gabriel falou a verdade ($V$).
->
-> 3. Dedução do culpado e do mentiroso:
->     - Eduardo falou a verdade ao declarar *"Eu não vazei o relatório"*, logo Eduardo é inocente. Gabriel apenas confirma a veracidade de Eduardo.
->     - Se Daniel falasse a verdade ($V$), Fernando seria o responsável pelo vazamento; consequentemente, o depoimento de Fernando (*"Daniel mente"*) seria mentiroso ($F$). Esse cenário confere: 1 mentiroso (Fernando) e 1 culpado (Fernando).
->     - Se supuséssemos o contrário (Daniel mentindo e Fernando dizendo a verdade), Fernando não teria vazado e Eduardo não teria vazado; restaria como culpado Daniel ou Gabriel, gerando indeterminação fática não sustentada.
->     - Portanto, quem vazou o relatório foi **Fernando** e quem mentiu foi **Fernando**.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Aponta Daniel como mentiroso, o que anularia a autoria de Fernando.
-> - **B)** Incorreta. Inverte a relação de autoria e mentira.
-> - **C)** Correta. Fernando é o responsável pelo vazamento e foi ele mesmo quem mentiu no interrogatório.
-> - **D)** Incorreta. Eduardo disse a verdade e é inocente.
-> - **E)** Incorreta. Gabriel disse a verdade e não é o vazador.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 03
-**(FCC – TRT – Analista Judiciário)**  
-O Tribunal de Contas publicou um acórdão condenatório em sua sessão plenária realizada em uma **quinta-feira**. O regimento interno concede um prazo improrrogável de exatamente **43 dias corridos**, contados a partir do primeiro dia seguinte ao da publicação, para a interposição de recurso ordinário.
-
-O último dia desse prazo de 43 dias corridos recairá em uma:
-
-* **A)** Segunda-feira
-* **B)** Terça-feira
-* **C)** Quarta-feira
-* **D)** Quinta-feira
-* **E)** Sexta-feira
-
-> **Comentário Detalhado:**
-> Aplicação da aritmética modular de base 7:
->
-> 1. Ponto de partida cronológico:
->     - Publicação em plenário: quinta-feira.
->     - O prazo de 43 dias começa a transcorrer a partir do marco zero da publicação.
->
-> 2. Redução modular da contagem:
->     - A semana possui ciclo invariável de 7 dias. Dividindo 43 por 7:
->      $$43 = 6 \times 7 + 1$$
->     - O quociente 6 indica que se passaram 6 semanas completas (as quais devolvem a contagem exatamente para a mesma quinta-feira).
->     - O **resto é 1**, impondo o avanço de exatamente 1 dia a partir da quinta-feira:
->      $$\text{Quinta-feira} + 1 \text{ dia} = \mathbf{Sexta-feira}$$
-> 3. Logo, o 43º dia do prazo transcorrerá em uma sexta-feira.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Segunda-feira demandaria resto 4 na divisão por 7.
-> - **B)** Incorreta. Terça-feira demandaria resto 5.
-> - **C)** Incorreta. Quarta-feira demandaria resto 6.
-> - **D)** Incorreta. Quinta-feira corresponderia a uma divisão exata sem resto (resto 0).
-> - **E)** Correta. O resto 1 de $43 \div 7$ avança 1 dia a partir da quinta-feira, resultando em sexta-feira.
-> 
-> **Gabarito: E**
-
----
-
-### Questão 04
-**(FCC – TCE-GO – Tecnologia da Informação)**  
-Considere a sequência numérica infinita cujos primeiros termos são apresentados a seguir:
-$$3, 5, 9, 17, 33, 65, \dots$$
-
-O próximo termo dessa sequência e a lei de formação que rege seus elementos correspondem, respectivamente, a:
-
-* **A)** 129 e o dobro do termo anterior subtraído de 1
-* **B)** 129 e o dobro do termo anterior somado a 1
-* **C)** 97 e a soma dos dois termos anteriores
-* **D)** 130 e potências consecutivas de 3
-* **E)** 131 e a soma das diferenças sucessivas multiplicadas por 3
-
-> **Comentário Detalhado:**
-> Identificação da lei de formação por diferenças e recorrência:
->
-> 1. Calculando a diferença entre termos consecutivos:
->     - $5 - 3 = 2 = 2^1$
->     - $9 - 5 = 4 = 2^2$
->     - $17 - 9 = 8 = 2^3$
->     - $33 - 17 = 16 = 2^4$
->     - $65 - 33 = 32 = 2^5$
->    As diferenças sucessivas formam potências consecutivas de 2. Logo, a próxima diferença entre o 7º e o 6º termo deve ser $2^6 = 64$:
->    $$a_7 = 65 + 64 = \mathbf{129}$$
-> 2. Analisando a lei de recorrência direta:
->     - $2 \times 3 - 1 = 5$
->     - $2 \times 5 - 1 = 9$
->     - $2 \times 9 - 1 = 17$
->     - $2 \times 17 - 1 = 33$
->     - $2 \times 33 - 1 = 65$
->     - $2 \times 65 - 1 = 130 - 1 = \mathbf{129}$
->    A lei estruturante expressa-se perfeitamente como o **dobro do termo anterior subtraído de 1** ($a_n = 2a_{n-1} - 1$).
->
-> Análise das alternativas:
->
-> - **A)** Correta. O próximo elemento é 129 e a relação de recorrência é $2x - 1$.
-> - **B)** Incorreta. Se somasse 1, a sequência seria $3, 7, 15, 31, 63, 127$.
-> - **C)** Incorreta. A soma dos dois termos precedentes (estilo Fibonacci) geraria $33 + 65 = 98$, divergindo de 97 e da lógica da sequência.
-> - **D)** Incorreta. O próximo termo é 129, e não 130.
-> - **E)** Incorreta. Aponta 131 decorrente de erro aritmético.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 05
-**(FCC – TCE-PI – Analista de Sistemas)**  
-Observe a planificação de um dado cúbico convencional, cujas faces contêm os símbolos $\heartsuit$, $\spadesuit$, $\diamondsuit$, $\clubsuit$, $\bigstar$ e $\blacktriangle$:
-
-```text
-       [ ★ ]
-[ ♥ ] [ ♠ ] [ ♦ ] [ ♣ ]
-       [ ▲ ]
-```
-
-Ao montar o cubo a partir dessa planificação, a face que ficará **diametralmente oposta** à face com o símbolo de Espadas ($\spadesuit$) é:
-
-* **A)** Copas ($\heartsuit$)
-* **B)** Ouros ($\diamondsuit$)
-* **C)** Paus ($\clubsuit$)
-* **D)** Estrela ($\bigstar$)
-* **E)** Triângulo ($\blacktriangle$)
-
-> **Comentário Detalhado:**
-> Análise estrutural de planificação e dobradura de cubos:
->
-> 1. Na fileira horizontal com quatro quadrados adjacentes $[ \heartsuit ] \ [ \spadesuit ] \ [ \diamondsuit ] \ [ \clubsuit ]$:
->     - Pelo teorema das faces opostas em planificações poliédricas, quadrados dispostos na mesma fileira separados por exatamente um quadrado intermediário dobram-se em planos paralelos, tornando-se **faces opostas**.
->     - $\heartsuit$ separa-se de $\diamondsuit$ por $\spadesuit \implies \heartsuit$ é oposta a $\diamondsuit$.
->     - $\spadesuit$ separa-se de $\clubsuit$ por $\diamondsuit \implies \spadesuit$ é oposta a $\clubsuit$.
->
-> 2. As abas que se projetam para fora da fileira central ($\bigstar$ acima e $\blacktriangle$ abaixo) dobram-se em $90^\circ$ fechando o topo e a base do cubo, sendo opostas entre si.
-> 3. Logo, a face que se posiciona diametralmente oposta à face de Espadas ($\spadesuit$) é a face de Paus ($\clubsuit$).
->
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. Copas ($\heartsuit$) dobra em ângulo reto, ficando adjacente a Espadas.
-> - **B)** Incorreta. Ouros ($\diamondsuit$) é face imediatamente vizinha (adjacente) de Espadas.
-> - **C)** Correta. Paus ($\clubsuit$) é a face diametralmente oposta a Espadas ($\spadesuit$).
-> - **D)** Incorreta. Estrela ($\bigstar$) fecha a face superior, sendo adjacente a Espadas.
-> - **E)** Incorreta. Triângulo ($\blacktriangle$) fecha a face inferior, sendo adjacente a Espadas.
-> 
-> **Gabarito: C**

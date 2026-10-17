@@ -45,7 +45,6 @@
     - [5.2 Elemento Subjetivo Especial e Proibição do Crime de Hermenêutica](#52-elemento-subjetivo-especial-e-proibicao-do-crime-de-hermeneutica)
     - [5.3 Sujeitos Ativos no Âmbito dos Tribunais de Contas](#53-sujeitos-ativos-no-ambito-dos-tribunais-de-contas)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -136,6 +135,32 @@ São as empresas estatais, pessoas jurídicas de direito privado instituídas pa
 | **Modo de Criação** | **Autorizada por lei específica** + Registro na Junta/Cartório | **Autorizada por lei específica** + Registro na Junta/Cartório |
 | **Exemplos Nacionais** | Caixa Econômica Federal (CEF), Correios (ECT), BNDES | Banco do Brasil (BB), Petrobras, Sabesp |
 
+---
+
+### Questão 01 (FCC - Analista de Gestão Pública / Adaptada)
+O Governo do Estado de Goiás, com o propósito de aprimorar a prestação de serviços de processamento técnico de dados e segurança cibernética, planeja instituir uma entidade descentralizada com personalidade jurídica de direito privado e patrimônio composto exclusivamente por recursos públicos do tesouro estadual.
+
+Em conformidade com a Constituição Federal e com o regime jurídico administrativo:
+
+* **A)** Trata-se de uma Autarquia de regime especial, cuja existência jurídica formal decorre diretamente da publicação da lei complementar instituidora.
+* **B)** Trata-se de uma Sociedade de Economia Mista, devendo adotar obrigatoriamente a forma de sociedade anônima com capital misto.
+* **C)** Trata-se de uma Empresa Pública, cuja criação depende de autorização em lei específica e cuja personalidade jurídica nasce com a inscrição de seus atos constitutivos no registro competente.
+* **D)** Bastará a edição de decreto autônomo do Governador do Estado para outorgar-lhe personalidade jurídica e patrimônio próprio.
+* **E)** A entidade integrará a Administração Direta estadual, estabelecendo relação de subordinação hierárquica direta com o Governador.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. As autarquias ostentam personalidade jurídica de direito público e são criadas diretamente por lei ordinária específica, não possuindo natureza de direito privado nem patrimônio societário.
+> - **B)** Incorreta. A Sociedade de Economia Mista exige conjugação obrigatória de capital público e privado (capital misto), enquanto a questão delimitou patrimônio composto exclusivamente por recursos públicos.
+> - **C)** Correta. A entidade descentralizada dotada de personalidade jurídica de direito privado cujo capital é 100% público define conceitualmente uma **Empresa Pública**. Pelo art. 37, XIX, da CF/88, as empresas estatais dependem de **lei ordinária específica que autorize sua instituição**. Por serem pessoas de direito privado, a personalidade jurídica civil surge formalmente com a inscrição dos atos constitutivos na Junta Comercial ou Cartório de RCPJ.
+> - **D)** Incorreta. A criação de pessoas jurídicas da Administração Indireta depende de expressa e indelegável autorização em lei formal em sentido estrito (CF, art. 37, XIX), sendo nula a tentativa de instituição por mero decreto.
+> - **E)** Incorreta. Entidades descentralizadas com personalidade jurídica própria integram a Administração Indireta e não mantêm subordinação hierárquica perante o Chefe do Executivo, sujeitando-se apenas ao controle finalístico (tutela/vinculação).
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 2.4 O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)
 
 A Lei Federal nº 13.303/2016 instituiu o estatuto jurídico unificado de governança e contratações para todas as empresas públicas e sociedades de economia mista da União, Estados, DF e Municípios:
@@ -196,6 +221,32 @@ O poder hierárquico distribui e escalona funções entre órgãos e agentes sub
 > 🚨 **ALERTA CRÍTICO DE PROVA FCC:**  
 > A decisão de recursos administrativos é **terminantemente indelegável**! Se o titular de uma pasta delegar a um subordinado o julgamento de um recurso contra sanção proferida pelo órgão, a delegação é nula de pleno direito, pois violaria o duplo grau de julgamento administrativo.
 
+---
+
+### Questão 02 (FCC - Técnico de Controle Externo / Administrativa)
+No âmbito de uma Secretaria de Estado, o Secretário Titular pretende delegar temporariamente a um Diretor de Departamento subordinado a atribuição funcional de julgar recursos administrativos interpostos contra decisões sancionatórias de primeira instância proferidas pela própria pasta.
+
+De acordo com a teoria geral do poder hierárquico e os limites da delegação fixados na legislação do processo administrativo:
+
+* **A)** A delegação pretendida é lícita e válida, haja vista que o poder hierárquico confere ao superior liberdade irrestrita para delegar qualquer de suas atribuições.
+* **B)** A delegação é vedada pelo ordenamento jurídico, pois a decisão de recursos administrativos constitui matéria indelegável.
+* **C)** A delegação somente será válida se for homologada previamente pelo Tribunal de Contas do Estado.
+* **D)** A delegação transfere em definitivo a titularidade da competência recursal ao Diretor subordinado, extinguindo a responsabilidade do Secretário.
+* **E)** A delegação é cabível desde que o recurso trate de matérias fáticas, sendo vedada apenas para matérias de direito estrito.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O poder hierárquico e as prerrogativas de delegação encontram limites intransponíveis expressos na legislação que regula o processo administrativo.
+> - **B)** Correta. O art. 13 da Lei Federal nº 9.784/1999 (e dos diplomas estaduais correlatos) estabelece categoricamente três matérias absolutamente **indelegáveis** (Mnemônico CENORA): I - a edição de atos de caráter normativo; II - **a decisão de recursos administrativos**; III - as matérias de competência exclusiva do órgão ou autoridade. A apreciação recursal pressupõe reexame por autoridade de instância superior; admitir a delegação para órgão subordinado desvirtuaria a essência do duplo grau de jurisdição administrativa.
+> - **C)** Incorreta. Não compete aos Tribunais de Contas homologar ou chancelar previamente a expedição de portarias internas de delegação.
+> - **D)** Incorreta. A delegação transfere unicamente o exercício provisório de certas competências, preservando a titularidade no órgão delegante e admitindo revogação a qualquer tempo.
+> - **E)** Incorreta. A vedação legal de delegação recursal é cogente e genérica, abarcando recursos que debatam matérias fáticas ou de direito.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 4.3 Poder Disciplinar e Sanções Funcionais
 
 É a prerrogativa interna da Administração de apurar infrações e aplicar penalidades funcionais a agentes públicos submetidos à hierarquia estatal ou a **particulares com vínculo jurídico especial com o Estado** (ex.: empresas contratadas que cometem faltas em licitações e contratos).
@@ -213,6 +264,32 @@ Prerrogativa outorgada aos Chefes do Poder Executivo para expedir atos gerais e 
 
 > 💡 **Pegadinha Clássica FCC:**  
 > Decreto autônomo **NUNCA pode criar ou extinguir órgãos públicos**, e **NUNCA pode extinguir cargos públicos se estiverem ocupados**! A criação e extinção de órgãos públicos exige expressamente **lei formal em sentido estrito** (CF, art. 48, XI e art. 61, § 1º, II, "e").
+
+---
+
+### Questão 03 (FCC - Analista de Controle Externo)
+O Governador do Estado de Goiás editou decreto criando cinco novos Departamentos Técnicos dentro da estrutura da Secretaria da Fazenda e remanejando servidores públicos para preencher as novas chefias criadas, sem que houvesse prévia autorização em lei estadual específica.
+
+Analisando a conformidade constitucional do ato com base nos limites do **decreto autônomo** (CF/88, art. 84, VI):
+
+* **A)** O ato do Governador é perfeitamente válido, pois a organização da administração pública é matéria de competência privativa que dispensa lei formal em qualquer hipótese.
+* **B)** O decreto autônomo é cabível para criar ou extinguir órgãos públicos, desde que não implique criação de novos cargos efetivos.
+* **C)** O decreto é inconstitucional, pois o decreto autônomo só pode disciplinar a organização administrativa quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos.
+* **D)** O ato configura exercício regular do poder de polícia administrativa, imune ao controle de legalidade.
+* **E)** Apenas o Poder Judiciário poderia sustar os efeitos do referido decreto, descabendo atuação do Poder Legislativo.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A competência privativa regulamentar do Chefe do Executivo é demarcada com rigidez pela Constituição, que interdita o uso de decretos autônomos para criar ou extinguir órgãos públicos.
+> - **B)** Incorreta. O art. 84, VI, "a", veda categoricamente a criação ou extinção de órgãos públicos via decreto autônomo, admitindo apenas a extinção de cargos e funções públicas quando já se encontrarem vagos (alínea "b").
+> - **C)** Correta. De acordo com o art. 84, VI, "a", da Constituição Federal, o decreto autônomo só pode disciplinar a organização e funcionamento da administração quando **não implicar aumento de despesa** nem **criação ou extinção de órgãos públicos**. Departamentos técnicos possuem a natureza jurídica de órgãos públicos despersonalizados; sua criação exige formalmente lei em sentido estrito (CF, art. 48, XI e art. 61, § 1º, II, "e"). Logo, o decreto padece de inconstitucionalidade formal.
+> - **D)** Incorreta. A estruturação de secretarias e departamentos corporifica poder regulamentar e de organização administrativa, e não poder de polícia.
+> - **E)** Incorreta. O Poder Legislativo detém competência constitucional expressa para sustar diretamente os atos normativos do Poder Executivo que exorbitem do poder regulamentar (CF, art. 49, V).
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 4.5 Poder de Polícia, Ciclo de Polícia e Delegação (Tema 532/STF)
 
@@ -239,6 +316,31 @@ Superando divergências anteriores, o STF pacificou a tese com eficácia vincula
 - É constitucional delegar a estatais as fases de **consentimento, fiscalização e sanção**. Apenas a primeira fase (**legislar / ordem de polícia**) permanece indelegável, privativa do Estado.
 
 ---
+
+### Questão 04 (FCC - Procurador do Estado / Adaptada)
+Determinada empresa pública estadual, constituída sob regime não concorrencial e de capital 100% pertencente ao Estado de Goiás, presta com exclusividade o serviço público de transporte metropolitano e gestão do trânsito viário intermunicipal. Lei estadual delegou à referida empresa atribuições para fiscalizar o tráfego e lavrar autos de infração com imposição de multas aos motoristas infratores.
+
+À luz da jurisprudência firmada pelo Supremo Tribunal Federal em sede de repercussão geral (**Tema 532**):
+
+* **A)** A delegação é inconstitucional, pois todo o poder de polícia estatal é privativo e indelegável a pessoas jurídicas de direito privado.
+* **B)** É constitucional a delegação das fases de consentimento, fiscalização e sanção de trânsito a empresas públicas e sociedades de economia mista que prestem serviço público em regime não concorrencial e com capital social majoritariamente público.
+* **C)** Apenas a aplicação de sanções pode ser delegada à empresa estatal, permanecendo a fiscalização restrita a órgãos da Administração Direta.
+* **D)** A delegação exige que a empresa pública adote previamente a natureza jurídica de autarquia em regime especial.
+* **E)** A delegação é válida apenas se as multas aplicadas forem revertidas integralmente em bônus remuneratório aos agentes celetistas da empresa.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Tese superada pelo julgamento do RE 633.782 pelo Plenário do STF, que validou a delegação em condições estritas de regime não concorrencial.
+> - **B)** Correta. De acordo com o Tema 532 da Repercussão Geral do STF: *"É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial."* O STF assentou que as etapas executivas do ciclo de polícia (**consentimento, fiscalização e sanção**) podem ser validamente exercidas por estatais prestadoras de serviços públicos, ficando reservada privativamente ao Estado apenas a etapa de **ordem de polícia** (legislar).
+> - **C)** Incorreta. As fases de consentimento e fiscalização são tradicionalmente delegáveis, tendo a decisão do STF confirmado também a delegabilidade da fase sancionatória.
+> - **D)** Incorreta. A pessoa jurídica preserva sua natureza de empresa pública (direito privado), sem necessidade de transformação autárquica.
+> - **E)** Incorreta. Destinar o produto das multas para premiação pecuniária direta de agentes feriria frontalmente a impessoalidade e a moralidade administrativa.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ## 5. Uso e Abuso de Poder e a Lei nº 13.869/2019
 
@@ -270,6 +372,32 @@ A **Lei nº 13.869/2019** (Lei de Abuso de Autoridade) disciplina os crimes come
     - *Não se admite modalidade culposa!*
 - **Proibição do Crime de Hermenêutica (Art. 1º, § 2º):** A divergência na interpretação de lei ou na avaliação de fatos e provas **NÃO configura abuso de autoridade**. O magistrado, membro do Ministério Público ou auditor do Tribunal de Contas não comete crime simplesmente por aplicar uma tese jurídica contrária à pretensão do réu.
 
+---
+
+### Questão 05 (FCC - Auditor de Controle Externo / Adaptada TCE-GO)
+Um auditor fiscal do Tribunal de Contas, contrariado com a postura intransigente de um gestor municipal que se recusou a favorecer um parente do auditor em processo seletivo simplificado, instaurou fiscalização sigilosa sem autorização regimental ou sorteio eletrônico e realizou a apreensão arbitrária de computadores da prefeitura para constranger a autoridade local.
+
+Analisando a tipologia dos atos administrativos e as regras da Lei nº 13.869/2019:
+
+* **A)** A conduta do auditor caracteriza uso regular do poder discricionário inerente à função de fiscalização externa.
+* **B)** A conduta configura excesso de poder e desvio de finalidade, tipificando crime de abuso de autoridade diante da presença de elemento subjetivo especial consistente na satisfação de vingança ou interesse pessoal.
+* **C)** Servidores de Tribunais de Contas gozam de imunidade penal material absoluta, não se sujeitando às cominações da Lei de Abuso de Autoridade.
+* **D)** O ato do auditor padece unicamente de irregularidade administrativa sanável por convalidação posterior pelo Plenário do Tribunal.
+* **E)** Para a caracterização de abuso de autoridade, a lei dispensa a análise do elemento anímico ou motivação especial, admitindo modalidade culposa.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O poder discricionário nunca acoberta ações arbitrárias desprovidas de amparo regimental e motivadas por retaliações ou vinganças privadas.
+> - **B)** Correta. A conduta retrata as duas espécies de abuso de poder: **excesso de poder** (o auditor agiu fora e além de sua competência legal e regimental) e **desvio de finalidade** (o ato de fiscalização foi desviado para atingir objetivo ilícito e espúrio de vingança pessoal). Sob a ótica da Lei nº 13.869/2019 (art. 1º, § 1º, c/c art. 2º), membros e servidores de Tribunais de Contas respondem por crime de abuso de autoridade quando praticam o ato com a finalidade específica de prejudicar outrem ou satisfazer sentimento pessoal.
+> - **C)** Incorreta. Não existe imunidade penal funcional contra crimes de abuso de autoridade para agentes de fiscalização de cortes de contas.
+> - **D)** Incorreta. O desvio de finalidade é vício insanável de nulidade absoluta, sendo vedada sua convalidação no plano administrativo.
+> - **E)** Incorreta. A Lei de Abuso de Autoridade não pune condutas culposas (negligência ou imperícia), exigindo taxativamente o dolo específico regulado no art. 1º, § 1º.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 5.3 Sujeitos Ativos no Âmbito dos Tribunais de Contas
 
 O art. 2º da Lei nº 13.869/2019 estabelece que é sujeito ativo de crime de abuso de autoridade qualquer agente público, servidor ou não, da administração direta e indireta de todos os Poderes, incluindo expressamente os **membros e servidores dos Tribunais e Conselhos de Contas**.
@@ -295,120 +423,3 @@ O art. 2º da Lei nº 13.869/2019 estabelece que é sujeito ativo de crime de ab
 * DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 4 e Cap. 10 - Poderes da Administração e Organização Administrativa).
 * CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 2 e Cap. 9 - Poderes Administrativos, Administração Indireta e Entidades Paraestatais).
 * OLIVEIRA, Rafael Carvalho Rezende. **Curso de Direito Administrativo**. 12. ed. Rio de Janeiro: Método, 2024. (Cap. 4 e Cap. 11 - Organização Administrativa, Terceiro Setor e Poder de Polícia).
-
----
-
-## 7. Questões Comentadas & Exemplos (Padrão FCC)
-
-### Questão 1 (FCC - Analista de Gestão Pública / Adaptada)
-O Governo do Estado de Goiás, com o propósito de aprimorar a prestação de serviços de processamento técnico de dados e segurança cibernética, planeja instituir uma entidade descentralizada com personalidade jurídica de direito privado e patrimônio composto exclusivamente por recursos públicos do tesouro estadual.
-
-Em conformidade com a Constituição Federal e com o regime jurídico administrativo:
-
-* **A)** Trata-se de uma Autarquia de regime especial, cuja existência jurídica formal decorre diretamente da publicação da lei complementar instituidora.
-* **B)** Trata-se de uma Sociedade de Economia Mista, devendo adotar obrigatoriamente a forma de sociedade anônima com capital misto.
-* **C)** Trata-se de uma Empresa Pública, cuja criação depende de autorização em lei específica e cuja personalidade jurídica nasce com a inscrição de seus atos constitutivos no registro competente.
-* **D)** Bastará a edição de decreto autônomo do Governador do Estado para outorgar-lhe personalidade jurídica e patrimônio próprio.
-* **E)** A entidade integrará a Administração Direta estadual, estabelecendo relação de subordinação hierárquica direta com o Governador.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. As autarquias ostentam personalidade jurídica de direito público e são criadas diretamente por lei ordinária específica, não possuindo natureza de direito privado nem patrimônio societário.
-> - **B)** Incorreta. A Sociedade de Economia Mista exige conjugação obrigatória de capital público e privado (capital misto), enquanto a questão delimitou patrimônio composto exclusivamente por recursos públicos.
-> - **C)** Correta. A entidade descentralizada dotada de personalidade jurídica de direito privado cujo capital é 100% público define conceitualmente uma **Empresa Pública**. Pelo art. 37, XIX, da CF/88, as empresas estatais dependem de **lei ordinária específica que autorize sua instituição**. Por serem pessoas de direito privado, a personalidade jurídica civil surge formalmente com a inscrição dos atos constitutivos na Junta Comercial ou Cartório de RCPJ.
-> - **D)** Incorreta. A criação de pessoas jurídicas da Administração Indireta depende de expressa e indelegável autorização em lei formal em sentido estrito (CF, art. 37, XIX), sendo nula a tentativa de instituição por mero decreto.
-> - **E)** Incorreta. Entidades descentralizadas com personalidade jurídica própria integram a Administração Indireta e não mantêm subordinação hierárquica perante o Chefe do Executivo, sujeitando-se apenas ao controle finalístico (tutela/vinculação).
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC - Auditor de Controle Externo / Adaptada TCE-GO)
-Um auditor fiscal do Tribunal de Contas, contrariado com a postura intransigente de um gestor municipal que se recusou a favorecer um parente do auditor em processo seletivo simplificado, instaurou fiscalização sigilosa sem autorização regimental ou sorteio eletrônico e realizou a apreensão arbitrária de computadores da prefeitura para constranger a autoridade local.
-
-Analisando a tipologia dos atos administrativos e as regras da Lei nº 13.869/2019:
-
-* **A)** A conduta do auditor caracteriza uso regular do poder discricionário inerente à função de fiscalização externa.
-* **B)** A conduta configura excesso de poder e desvio de finalidade, tipificando crime de abuso de autoridade diante da presença de elemento subjetivo especial consistente na satisfação de vingança ou interesse pessoal.
-* **C)** Servidores de Tribunais de Contas gozam de imunidade penal material absoluta, não se sujeitando às cominações da Lei de Abuso de Autoridade.
-* **D)** O ato do auditor padece unicamente de irregularidade administrativa sanável por convalidação posterior pelo Plenário do Tribunal.
-* **E)** Para a caracterização de abuso de autoridade, a lei dispensa a análise do elemento anímico ou motivação especial, admitindo modalidade culposa.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O poder discricionário nunca acoberta ações arbitrárias desprovidas de amparo regimental e motivadas por retaliações ou vinganças privadas.
-> - **B)** Correta. A conduta retrata as duas espécies de abuso de poder: **excesso de poder** (o auditor agiu fora e além de sua competência legal e regimental) e **desvio de finalidade** (o ato de fiscalização foi desviado para atingir objetivo ilícito e espúrio de vingança pessoal). Sob a ótica da Lei nº 13.869/2019 (art. 1º, § 1º, c/c art. 2º), membros e servidores de Tribunais de Contas respondem por crime de abuso de autoridade quando praticam o ato com a finalidade específica de prejudicar outrem ou satisfazer sentimento pessoal.
-> - **C)** Incorreta. Não existe imunidade penal funcional contra crimes de abuso de autoridade para agentes de fiscalização de cortes de contas.
-> - **D)** Incorreta. O desvio de finalidade é vício insanável de nulidade absoluta, sendo vedada sua convalidação no plano administrativo.
-> - **E)** Incorreta. A Lei de Abuso de Autoridade não pune condutas culposas (negligência ou imperícia), exigindo taxativamente o dolo específico regulado no art. 1º, § 1º.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Procurador do Estado / Adaptada)
-Determinada empresa pública estadual, constituída sob regime não concorrencial e de capital 100% pertencente ao Estado de Goiás, presta com exclusividade o serviço público de transporte metropolitano e gestão do trânsito viário intermunicipal. Lei estadual delegou à referida empresa atribuições para fiscalizar o tráfego e lavrar autos de infração com imposição de multas aos motoristas infratores.
-
-À luz da jurisprudência firmada pelo Supremo Tribunal Federal em sede de repercussão geral (**Tema 532**):
-
-* **A)** A delegação é inconstitucional, pois todo o poder de polícia estatal é privativo e indelegável a pessoas jurídicas de direito privado.
-* **B)** É constitucional a delegação das fases de consentimento, fiscalização e sanção de trânsito a empresas públicas e sociedades de economia mista que prestem serviço público em regime não concorrencial e com capital social majoritariamente público.
-* **C)** Apenas a aplicação de sanções pode ser delegada à empresa estatal, permanecendo a fiscalização restrita a órgãos da Administração Direta.
-* **D)** A delegação exige que a empresa pública adote previamente a natureza jurídica de autarquia em regime especial.
-* **E)** A delegação é válida apenas se as multas aplicadas forem revertidas integralmente em bônus remuneratório aos agentes celetistas da empresa.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Tese superada pelo julgamento do RE 633.782 pelo Plenário do STF, que validou a delegação em condições estritas de regime não concorrencial.
-> - **B)** Correta. De acordo com o Tema 532 da Repercussão Geral do STF: *"É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial."* O STF assentou que as etapas executivas do ciclo de polícia (**consentimento, fiscalização e sanção**) podem ser validamente exercidas por estatais prestadoras de serviços públicos, ficando reservada privativamente ao Estado apenas a etapa de **ordem de polícia** (legislar).
-> - **C)** Incorreta. As fases de consentimento e fiscalização são tradicionalmente delegáveis, tendo a decisão do STF confirmado também a delegabilidade da fase sancionatória.
-> - **D)** Incorreta. A pessoa jurídica preserva sua natureza de empresa pública (direito privado), sem necessidade de transformação autárquica.
-> - **E)** Incorreta. Destinar o produto das multas para premiação pecuniária direta de agentes feriria frontalmente a impessoalidade e a moralidade administrativa.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Técnico de Controle Externo / Administrativa)
-No âmbito de uma Secretaria de Estado, o Secretário Titular pretende delegar temporariamente a um Diretor de Departamento subordinado a atribuição funcional de julgar recursos administrativos interpostos contra decisões sancionatórias de primeira instância proferidas pela própria pasta.
-
-De acordo com a teoria geral do poder hierárquico e os limites da delegação fixados na legislação do processo administrativo:
-
-* **A)** A delegação pretendida é lícita e válida, haja vista que o poder hierárquico confere ao superior liberdade irrestrita para delegar qualquer de suas atribuições.
-* **B)** A delegação é vedada pelo ordenamento jurídico, pois a decisão de recursos administrativos constitui matéria indelegável.
-* **C)** A delegação somente será válida se for homologada previamente pelo Tribunal de Contas do Estado.
-* **D)** A delegação transfere em definitivo a titularidade da competência recursal ao Diretor subordinado, extinguindo a responsabilidade do Secretário.
-* **E)** A delegação é cabível desde que o recurso trate de matérias fáticas, sendo vedada apenas para matérias de direito estrito.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O poder hierárquico e as prerrogativas de delegação encontram limites intransponíveis expressos na legislação que regula o processo administrativo.
-> - **B)** Correta. O art. 13 da Lei Federal nº 9.784/1999 (e dos diplomas estaduais correlatos) estabelece categoricamente três matérias absolutamente **indelegáveis** (Mnemônico CENORA): I - a edição de atos de caráter normativo; II - **a decisão de recursos administrativos**; III - as matérias de competência exclusiva do órgão ou autoridade. A apreciação recursal pressupõe reexame por autoridade de instância superior; admitir a delegação para órgão subordinado desvirtuaria a essência do duplo grau de jurisdição administrativa.
-> - **C)** Incorreta. Não compete aos Tribunais de Contas homologar ou chancelar previamente a expedição de portarias internas de delegação.
-> - **D)** Incorreta. A delegação transfere unicamente o exercício provisório de certas competências, preservando a titularidade no órgão delegante e admitindo revogação a qualquer tempo.
-> - **E)** Incorreta. A vedação legal de delegação recursal é cogente e genérica, abarcando recursos que debatam matérias fáticas ou de direito.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Analista de Controle Externo)
-O Governador do Estado de Goiás editou decreto criando cinco novos Departamentos Técnicos dentro da estrutura da Secretaria da Fazenda e remanejando servidores públicos para preencher as novas chefias criadas, sem que houvesse prévia autorização em lei estadual específica.
-
-Analisando a conformidade constitucional do ato com base nos limites do **decreto autônomo** (CF/88, art. 84, VI):
-
-* **A)** O ato do Governador é perfeitamente válido, pois a organização da administração pública é matéria de competência privativa que dispensa lei formal em qualquer hipótese.
-* **B)** O decreto autônomo é cabível para criar ou extinguir órgãos públicos, desde que não implique criação de novos cargos efetivos.
-* **C)** O decreto é inconstitucional, pois o decreto autônomo só pode disciplinar a organização administrativa quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos.
-* **D)** O ato configura exercício regular do poder de polícia administrativa, imune ao controle de legalidade.
-* **E)** Apenas o Poder Judiciário poderia sustar os efeitos do referido decreto, descabendo atuação do Poder Legislativo.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A competência privativa regulamentar do Chefe do Executivo é demarcada com rigidez pela Constituição, que interdita o uso de decretos autônomos para criar ou extinguir órgãos públicos.
-> - **B)** Incorreta. O art. 84, VI, "a", veda categoricamente a criação ou extinção de órgãos públicos via decreto autônomo, admitindo apenas a extinção de cargos e funções públicas quando já se encontrarem vagos (alínea "b").
-> - **C)** Correta. De acordo com o art. 84, VI, "a", da Constituição Federal, o decreto autônomo só pode disciplinar a organização e funcionamento da administração quando **não implicar aumento de despesa** nem **criação ou extinção de órgãos públicos**. Departamentos técnicos possuem a natureza jurídica de órgãos públicos despersonalizados; sua criação exige formalmente lei em sentido estrito (CF, art. 48, XI e art. 61, § 1º, II, "e"). Logo, o decreto padece de inconstitucionalidade formal.
-> - **D)** Incorreta. A estruturação de secretarias e departamentos corporifica poder regulamentar e de organização administrativa, e não poder de polícia.
-> - **E)** Incorreta. O Poder Legislativo detém competência constitucional expressa para sustar diretamente os atos normativos do Poder Executivo que exorbitem do poder regulamentar (CF, art. 49, V).
-> 
-> **Gabarito: C**

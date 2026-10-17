@@ -34,7 +34,6 @@
     - [3.2 Otimizações de Produção: Tree Shaking, Code Splitting e Minificação](#32-otimizacoes-de-producao-tree-shaking-code-splitting-e-minificacao)
     - [3.3 Empacotamento de Backend: JAR/WAR, Wheels Python e Repositórios Corporativos](#33-empacotamento-de-backend-jarwar-wheels-python-e-repositorios-corporativos)
 - [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
-- [5. Questões Comentadas & Exemplos (Padrão FCC)](#5-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -179,11 +178,68 @@ O comando `git reset <hash>` move o ponteiro HEAD para trás:
 | **`--mixed`** *(padrão)* | Recua para o `<hash>` indicado | **Limpa a Staging Area** (remove do *stage*) | **Preserva todas as mudanças** (arquivos ficam no disco como modificados) | Desfazer um commit para revisar alterações antes de commitar de novo. |
 | **`--hard`** | Recua para o `<hash>` indicado | **Descarta e limpa tudo** | **Destrói e apaga tudo no disco** | Descartar sumariamente código recente com perda total de alterações locais. |
 
+---
+
+### Questão 01 (FCC - Analista de TI / Sistemas)
+No modelo operacional do Git, o comando `git reset` permite retroceder a posição do ponteiro `HEAD` para um determinado commit anterior da árvore histórica. Esse comando aceita diferentes parâmetros que determinam o destino das alterações existentes nos arquivos.
+
+Sobre os efeitos dos parâmetros do comando `git reset`, assinale a afirmativa correta:  
+
+* **A)** O comando `git reset --soft HEAD~1` move o ponteiro HEAD para o commit anterior e descarta permanentemente todas as alterações tanto da Staging Area quanto do Working Directory.
+* **B)** O comando `git reset --mixed HEAD~1` (modo padrão) move o ponteiro HEAD para o commit anterior, desfaz a preparação dos arquivos na Staging Area, mas preserva todas as modificações no Working Directory como arquivos modificados não rastreados para o próximo commit.
+* **C)** O comando `git reset --hard HEAD~1` mantém intactas as modificações no Working Directory e apenas remove os arquivos da Staging Area.
+* **D)** O comando `git reset --hard` é o mecanismo recomendado para branches públicas compartilhadas, pois não afeta o histórico de commits dos demais desenvolvedores.
+* **E)** A opção `--soft` é a única que apaga os arquivos do sistema de arquivos no disco rígido.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A opção `--soft` não descarta nenhuma alteração; ela preserva todas as mudanças na Staging Area.
+> - **B)** **CORRETA.** O modo padrão `--mixed` recua o HEAD para o commit indicado, limpa a Staging Area (desfazendo o preparo), porém **preserva intactas todas as alterações no Working Directory**, mantendo os arquivos no disco como modificações pendentes de novo `git add`.
+> - **C)** Incorreta. A opção `--hard` descarta sumariamente e sobrescreve todas as modificações no Working Directory e na Staging Area.
+> - **D)** Incorreta. O `git reset` não deve ser executado para reescrever branches públicas compartilhadas.
+> - **E)** Incorreta. A opção `--soft` não apaga nenhum arquivo do disco.
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 2. `git revert <hash>` (Desfazendo em Ramos Públicos)
 Em branches públicas compartilhadas, o `git reset` é proibido. Para desfazer alterações com segurança sem quebrar o histórico compartilhado, utiliza-se o **`git revert <hash>`**.
 
 - Ele **não apaga o commit defeituoso**.
 - Em vez disso, o Git analisa as modificações daquele commit e gera automaticamente um **novo commit inverso**, anulando as alterações introduzidas com total transparência e auditabilidade.
+
+---
+
+### Questão 02 (FCC - Analista de TI / Sistemas)
+Um analista de sistemas do Tribunal de Contas estava desenvolvendo uma nova rotina de auditoria financeira no ramo de trabalho `feature-auditoria`. Durante o desenvolvimento, com dezenas de arquivos editados na sua área de trabalho (*working directory*) e na área de preparação (*staging area*), ele recebeu uma ordem prioritária para corrigir imediatamente uma falha crítica de segurança no ramo principal `main`. O analista não deseja realizar um commit parcial de código incompleto, mas necessita que sua árvore de trabalho fique totalmente limpa para permitir alternar de ramo sem erros.
+
+Posteriormente, após solucionar a falha e submeter a correção ao repositório remoto público compartilhado com toda a equipe de engenharia, ele constatou que um commit anterior presente na branch pública compartilhada causou um efeito colateral indesejado. Ele precisa anular e desfazer as alterações introduzidas por aquele commit específico sem reescrever ou apagar a linha histórica já sincronizada pelos demais desenvolvedores.
+
+Para atender a esses dois requisitos com segurança e conformidade com as boas práticas do Git, o analista deve executar, respectivamente, os comandos:  
+
+* **A)** `git stash` para armazenar temporariamente as modificações não consolidadas em uma pilha interna; e `git revert <hash>` para gerar um novo commit que anula exatamente as modificações do commit defeituoso na branch pública.
+* **B)** `git reset --hard` para limpar o diretório de trabalho; e `git reset --soft <hash>` para remover o commit do histórico compartilhado.
+* **C)** `git checkout -b hotfix` para ignorar o trabalho não salvo; e `git rebase -i` para expurgar a linha do commit na branch compartilhada.
+* **D)** `git stash` para guardar as alterações; e `git reset --hard <hash>` acompanhado de `git push --force` para sobrescrever a branch pública.
+* **E)** `git clean -df` para ocultar o código local; e `git commit --amend` para renomear o commit defeituoso no repositório remoto.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Análise minuciosa dos dois cenários operacionais:
+>     1. Para armazenar temporariamente o progresso de trabalho inacabado sem criar commits incompletos e limpar a área de trabalho para permitir troca de branch, o comando padronizado é o **`git stash`**.
+>     2. Em branches públicas compartilhadas por múltiplos desenvolvedores, reescrever ou apagar commits com `reset` quebra os repositórios locais dos demais membros. O comando seguro é o **`git revert <hash>`**, que cria um novo commit que aplica exatamente o efeito inverso das alterações trazidas pelo commit alvo, preservando a transparência e integridade da história.
+>
+> - **B)** Incorreta. O `git reset --hard` destrói e descarta permanentemente todas as alterações em andamento no disco, provocando perda irreparável de código.
+> - **C)** Incorreta. Trocar de ramo com alterações conflitantes no disco gera erro, e executar `rebase` em branch pública viola a regra de ouro do Git.
+> - **D)** Incorreta. O uso de `push --force` em branches compartilhadas corrompe os ponteiros de trabalho dos outros colaboradores da equipe.
+> - **E)** Incorreta. `git clean -df` apaga definitivamente arquivos não rastreados do sistema de arquivos, e `git commit --amend` altera apenas o último commit localmente.
+> 
+> **Gabarito: A**
+
+---
+
 
 #### 3. `git stash` (Armazenamento Temporário de Trabalho Inacabado)
 Permite salvar o estado intermediário do *Working Directory* e da *Staging Area* em uma pilha interna temporária de memória do Git, limpando os arquivos do disco para o estado do último commit:
@@ -249,6 +305,31 @@ flowchart LR
 
 ---
 
+### Questão 03 (FCC - Técnico de Controle Externo / TI)
+Considere uma biblioteca de auditoria governamental que adota rigorosamente a especificação de Versionamento Semântico (*Semantic Versioning* - SemVer 2.0.0), encontrando-se atualmente na versão de distribuição `2.4.1`. A equipe de desenvolvimento realizou intervenções de melhoria e disponibilizou novas versões do pacote.
+
+A respeito das regras formais do SemVer e da gestão de dependências com gerenciadores de pacotes modernos, assinale a afirmativa correta:  
+
+* **A)** Se a equipe corrigir uma falha de segurança interna sem alterar ou descontinuar nenhum método da API pública, a nova versão oficial deve ser rotulada como `3.0.0`.
+* **B)** Se a equipe adicionar uma nova função de cálculo tributário que preserva total compatibilidade reversa com o código existente dos consumidores, a versão deve ser incrementada para `2.5.0`.
+* **C)** Em um arquivo de manifesto `package.json`, a declaração `"modulo": "^2.4.1"` instrui o gerenciador `npm` a autorizar estritamente atualizações de correção (*patch*), congelando a versão menor (*minor*).
+* **D)** O arquivo de manifesto substitui integralmente a necessidade de um arquivo de trava (*lockfile*), pois ambos contêm exatamente as mesmas informações e os mesmos hashes criptográficos de integridade.
+* **E)** A alteração do número de versão `MAJOR` sinaliza aos consumidores que foram adicionadas apenas correções superficiais de documentação, com garantia total de retrocompatibilidade.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Correções de falhas ou correções de segurança que mantêm total compatibilidade da API devem incrementar unicamente o dígito de **PATCH** (passando para `2.4.2`).
+> - **B)** **CORRETA.** A adição de novas funcionalidades preservando integralmente a compatibilidade com versões anteriores (*backwards-compatible*) exige formalmente o incremento do dígito **MINOR** (passando de `2.4.1` para `2.5.0` e zerando o patch).
+> - **C)** Incorreta. O prefixo circunflexo `^2.4.1` autoriza atualizações de **MINOR e PATCH** (qualquer versão menor que `3.0.0`). O prefixo que congela a versão menor e restringe apenas a correções de patch é o til (`~2.4.1`).
+> - **D)** Incorreta. O arquivo de manifesto define faixas de versão flexíveis, enquanto o lockfile registra a árvore completa de dependências com hashes SHA-512 de integridade, sendo indispensável para a reprodutibilidade.
+> - **E)** Incorreta. O incremento de `MAJOR` indica quebras de compatibilidade reversa (*breaking changes*).
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.3 Manifestos vs. Arquivos de Trava (Lockfiles) e o Comando `npm ci`
 - **Arquivo de Manifesto (`package.json`, `pom.xml`, `requirements.txt`):** Descreve os metadados do projeto e declara faixas de tolerância flexíveis para as dependências (ex.: `"express": "^4.18.0"`).
 - **Arquivo de Trava (*Lockfile* - `package-lock.json`, `poetry.lock`, `yarn.lock`):** É gerado automaticamente pelo gerenciador de pacotes para congelar a **árvore completa e exata de dependências transitivas**, gravando a versão exata de cada subdependência instalada e o seu **hash criptográfico de integridade** (`integrity: sha512-...`). Garante compilações 100% determinísticas e reproduzíveis em qualquer máquina.
@@ -294,6 +375,31 @@ flowchart LR
 
 ---
 
+### Questão 04 (FCC - Analista de Sistemas / Integração Contínua e Build)
+No ecossistema de desenvolvimento de sistemas em Java gerenciado pela ferramenta Apache Maven, o ciclo de vida de construção (*build lifecycle*) organiza a execução de objetivos (*goals*) em fases pré-definidas. Simultaneamente, em ambientes de esteiras de Integração Contínua (CI/CD), a garantia de builds reprodutíveis e determinísticos tornou-se um requisito mandatório de conformidade e segurança da cadeia de suprimentos.
+
+A respeito do ciclo de vida do Maven e dos mecanismos que garantem builds reproduzíveis em gerenciadores de dependências modernos, assinale a afirmativa correta:  
+
+* **A)** A fase `package` do Maven precede a fase `compile`, permitindo empacotar o artefato antes da compilação do código Java para acelerar o processo de testes.
+* **B)** O comando `mvn install` compila o código, roda os testes, gera o pacote e copia o artefato resultante para o repositório local do desenvolvedor (`~/.m2/repository`), disponibilizando-o como dependência para outros projetos na mesma máquina.
+* **C)** Em projetos Node.js em esteiras de CI/CD, o comando `npm install` deve sempre substituir o comando `npm ci`, pois o `npm install` impede qualquer modificação no arquivo `package-lock.json`.
+* **D)** As coordenadas de um artefato Maven declaradas no `pom.xml` são definidas unicamente pelo parâmetro `releaseDate`, dispensando a indicação de `groupId` e `artifactId`.
+* **E)** O arquivo de lockfile (`package-lock.json` ou `poetry.lock`) impede a compilação de código caso o repositório remoto contenha novas versões maiores (*MAJOR*) de bibliotecas de terceiros.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A fase `compile` precede obrigatoriamente a fase `package`, pois não é possível empacotar classes antes de sua compilação.
+> - **B)** **CORRETA.** A fase **`install`** do ciclo padrão do Maven compila os arquivos, executa os testes unitários, gera o pacote (`.jar` ou `.war`) e o instala no repositório local (`~/.m2/repository`), permitindo que outros projetos desenvolvidos localmente o consumam como dependência.
+> - **C)** Incorreta. Em esteiras de CI/CD, o comando correto é o **`npm ci`**, pois ele instala estritamente as versões travadas no `package-lock.json` e aborta se houver divergências.
+> - **D)** Incorreta. As coordenadas canônicas que identificam qualquer artefato no Maven são o trio GAV: `groupId`, `artifactId` e `version`.
+> - **E)** Incorreta. O lockfile congela as versões que foram aprovadas e testadas, ignorando silenciosamente versões mais novas disponíveis no repositório remoto para assegurar estabilidade.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 3. Empacotamento Web e Publicação de Aplicações
 
 ### 3.1 Empacotadores Web Modernos (Webpack, Vite, Rollup e esbuild)
@@ -329,6 +435,31 @@ flowchart TD
 
 ---
 
+### Questão 05 (FCC - Auditor Fiscal / Tecnologia da Informação)
+No contexto do desenvolvimento de aplicações web modernas com ferramentas de empacotamento (*module bundlers* como Webpack, Rollup e Vite), o processo que visa reduzir o volume de dados transferido para os navegadores dos usuários finais recorre a técnicas sofisticadas de otimização de código.
+
+A técnica que consiste na análise estática das instruções `import` e `export` dos módulos ECMAScript (ESM) para identificar e eliminar blocos de código, funções e variáveis exportadas que nunca são efetivamente utilizados no restante da aplicação denomina-se:  
+
+* **A)** *Code Splitting*
+* **B)** *Hot Module Replacement (HMR)*
+* **C)** *Tree Shaking*
+* **D)** *Continuous Integration (CI)*
+* **E)** *Source Mapping*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. *Code Splitting* é a técnica de segmentar o bundle em múltiplos arquivos (*chunks*) para carregamento sob demanda (*lazy loading*).
+> - **B)** Incorreta. *Hot Module Replacement (HMR)* atualiza módulos no navegador durante o desenvolvimento sem recarregar a página por completo.
+> - **C)** **CORRETA.** A técnica de **Tree Shaking** (*dead-code elimination*) analisa a estrutura estática dos módulos ESM (`import`/`export`) durante a compilação e remove do pacote final qualquer função ou classe importada que não seja invocada no código da aplicação.
+> - **D)** Incorreta. Integração Contínua (CI) é uma prática DevOps de compilação e testes automatizados.
+> - **E)** Incorreta. *Source Maps* são arquivos de mapeamento que correlacionam o código minificado de produção com o código-fonte original para depuração.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 3.3 Empacotamento de Backend: JAR/WAR, Wheels Python e Repositórios Corporativos
 
 #### Formatos de Distribuição
@@ -353,125 +484,3 @@ Em ambientes corporativos como tribunais de contas, o acesso a repositórios pú
 * CHACON, Scott; STRAUB, Ben. **Pro Git**. 2. ed. Nova York: Apress, 2014. (Cap. 3 - Git Branching e Integração).
 * HUMBLE, Jez; FARLEY, David. **Entrega Contínua: Como Entregar Software de Forma Rápida e Confiável**. Porto Alegre: Bookman, 2014. (Cap. 14 - Gestão Avançada de Versionamento e Dependências).
 * LOELIGER, Jon; MCCULLOUGH, Matthew. **Version Control with Git**. 2. ed. Sebastopol: O'Reilly Media, 2012. (Cap. 8 e 9 - Rebase, Hook Scripts e Gestão de Branches).
-
----
-
-## 5. Questões Comentadas & Exemplos (Padrão FCC)
-
-### Questão 1 (FCC - Analista de TI / Sistemas)
-Um analista de sistemas do Tribunal de Contas estava desenvolvendo uma nova rotina de auditoria financeira no ramo de trabalho `feature-auditoria`. Durante o desenvolvimento, com dezenas de arquivos editados na sua área de trabalho (*working directory*) e na área de preparação (*staging area*), ele recebeu uma ordem prioritária para corrigir imediatamente uma falha crítica de segurança no ramo principal `main`. O analista não deseja realizar um commit parcial de código incompleto, mas necessita que sua árvore de trabalho fique totalmente limpa para permitir alternar de ramo sem erros.
-
-Posteriormente, após solucionar a falha e submeter a correção ao repositório remoto público compartilhado com toda a equipe de engenharia, ele constatou que um commit anterior presente na branch pública compartilhada causou um efeito colateral indesejado. Ele precisa anular e desfazer as alterações introduzidas por aquele commit específico sem reescrever ou apagar a linha histórica já sincronizada pelos demais desenvolvedores.
-
-Para atender a esses dois requisitos com segurança e conformidade com as boas práticas do Git, o analista deve executar, respectivamente, os comandos:  
-
-* **A)** `git stash` para armazenar temporariamente as modificações não consolidadas em uma pilha interna; e `git revert <hash>` para gerar um novo commit que anula exatamente as modificações do commit defeituoso na branch pública.
-* **B)** `git reset --hard` para limpar o diretório de trabalho; e `git reset --soft <hash>` para remover o commit do histórico compartilhado.
-* **C)** `git checkout -b hotfix` para ignorar o trabalho não salvo; e `git rebase -i` para expurgar a linha do commit na branch compartilhada.
-* **D)** `git stash` para guardar as alterações; e `git reset --hard <hash>` acompanhado de `git push --force` para sobrescrever a branch pública.
-* **E)** `git clean -df` para ocultar o código local; e `git commit --amend` para renomear o commit defeituoso no repositório remoto.
-
-> **Comentário Detalhado:**
->
-> - **A)** **CORRETA.** Análise minuciosa dos dois cenários operacionais:
->     1. Para armazenar temporariamente o progresso de trabalho inacabado sem criar commits incompletos e limpar a área de trabalho para permitir troca de branch, o comando padronizado é o **`git stash`**.
->     2. Em branches públicas compartilhadas por múltiplos desenvolvedores, reescrever ou apagar commits com `reset` quebra os repositórios locais dos demais membros. O comando seguro é o **`git revert <hash>`**, que cria um novo commit que aplica exatamente o efeito inverso das alterações trazidas pelo commit alvo, preservando a transparência e integridade da história.
->
-> - **B)** Incorreta. O `git reset --hard` destrói e descarta permanentemente todas as alterações em andamento no disco, provocando perda irreparável de código.
-> - **C)** Incorreta. Trocar de ramo com alterações conflitantes no disco gera erro, e executar `rebase` em branch pública viola a regra de ouro do Git.
-> - **D)** Incorreta. O uso de `push --force` em branches compartilhadas corrompe os ponteiros de trabalho dos outros colaboradores da equipe.
-> - **E)** Incorreta. `git clean -df` apaga definitivamente arquivos não rastreados do sistema de arquivos, e `git commit --amend` altera apenas o último commit localmente.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 2 (FCC - Técnico de Controle Externo / TI)
-Considere uma biblioteca de auditoria governamental que adota rigorosamente a especificação de Versionamento Semântico (*Semantic Versioning* - SemVer 2.0.0), encontrando-se atualmente na versão de distribuição `2.4.1`. A equipe de desenvolvimento realizou intervenções de melhoria e disponibilizou novas versões do pacote.
-
-A respeito das regras formais do SemVer e da gestão de dependências com gerenciadores de pacotes modernos, assinale a afirmativa correta:  
-
-* **A)** Se a equipe corrigir uma falha de segurança interna sem alterar ou descontinuar nenhum método da API pública, a nova versão oficial deve ser rotulada como `3.0.0`.
-* **B)** Se a equipe adicionar uma nova função de cálculo tributário que preserva total compatibilidade reversa com o código existente dos consumidores, a versão deve ser incrementada para `2.5.0`.
-* **C)** Em um arquivo de manifesto `package.json`, a declaração `"modulo": "^2.4.1"` instrui o gerenciador `npm` a autorizar estritamente atualizações de correção (*patch*), congelando a versão menor (*minor*).
-* **D)** O arquivo de manifesto substitui integralmente a necessidade de um arquivo de trava (*lockfile*), pois ambos contêm exatamente as mesmas informações e os mesmos hashes criptográficos de integridade.
-* **E)** A alteração do número de versão `MAJOR` sinaliza aos consumidores que foram adicionadas apenas correções superficiais de documentação, com garantia total de retrocompatibilidade.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Correções de falhas ou correções de segurança que mantêm total compatibilidade da API devem incrementar unicamente o dígito de **PATCH** (passando para `2.4.2`).
-> - **B)** **CORRETA.** A adição de novas funcionalidades preservando integralmente a compatibilidade com versões anteriores (*backwards-compatible*) exige formalmente o incremento do dígito **MINOR** (passando de `2.4.1` para `2.5.0` e zerando o patch).
-> - **C)** Incorreta. O prefixo circunflexo `^2.4.1` autoriza atualizações de **MINOR e PATCH** (qualquer versão menor que `3.0.0`). O prefixo que congela a versão menor e restringe apenas a correções de patch é o til (`~2.4.1`).
-> - **D)** Incorreta. O arquivo de manifesto define faixas de versão flexíveis, enquanto o lockfile registra a árvore completa de dependências com hashes SHA-512 de integridade, sendo indispensável para a reprodutibilidade.
-> - **E)** Incorreta. O incremento de `MAJOR` indica quebras de compatibilidade reversa (*breaking changes*).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Analista de TI / Sistemas)
-No modelo operacional do Git, o comando `git reset` permite retroceder a posição do ponteiro `HEAD` para um determinado commit anterior da árvore histórica. Esse comando aceita diferentes parâmetros que determinam o destino das alterações existentes nos arquivos.
-
-Sobre os efeitos dos parâmetros do comando `git reset`, assinale a afirmativa correta:  
-
-* **A)** O comando `git reset --soft HEAD~1` move o ponteiro HEAD para o commit anterior e descarta permanentemente todas as alterações tanto da Staging Area quanto do Working Directory.
-* **B)** O comando `git reset --mixed HEAD~1` (modo padrão) move o ponteiro HEAD para o commit anterior, desfaz a preparação dos arquivos na Staging Area, mas preserva todas as modificações no Working Directory como arquivos modificados não rastreados para o próximo commit.
-* **C)** O comando `git reset --hard HEAD~1` mantém intactas as modificações no Working Directory e apenas remove os arquivos da Staging Area.
-* **D)** O comando `git reset --hard` é o mecanismo recomendado para branches públicas compartilhadas, pois não afeta o histórico de commits dos demais desenvolvedores.
-* **E)** A opção `--soft` é a única que apaga os arquivos do sistema de arquivos no disco rígido.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A opção `--soft` não descarta nenhuma alteração; ela preserva todas as mudanças na Staging Area.
-> - **B)** **CORRETA.** O modo padrão `--mixed` recua o HEAD para o commit indicado, limpa a Staging Area (desfazendo o preparo), porém **preserva intactas todas as alterações no Working Directory**, mantendo os arquivos no disco como modificações pendentes de novo `git add`.
-> - **C)** Incorreta. A opção `--hard` descarta sumariamente e sobrescreve todas as modificações no Working Directory e na Staging Area.
-> - **D)** Incorreta. O `git reset` não deve ser executado para reescrever branches públicas compartilhadas.
-> - **E)** Incorreta. A opção `--soft` não apaga nenhum arquivo do disco.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Auditor Fiscal / Tecnologia da Informação)
-No contexto do desenvolvimento de aplicações web modernas com ferramentas de empacotamento (*module bundlers* como Webpack, Rollup e Vite), o processo que visa reduzir o volume de dados transferido para os navegadores dos usuários finais recorre a técnicas sofisticadas de otimização de código.
-
-A técnica que consiste na análise estática das instruções `import` e `export` dos módulos ECMAScript (ESM) para identificar e eliminar blocos de código, funções e variáveis exportadas que nunca são efetivamente utilizados no restante da aplicação denomina-se:  
-
-* **A)** *Code Splitting*
-* **B)** *Hot Module Replacement (HMR)*
-* **C)** *Tree Shaking*
-* **D)** *Continuous Integration (CI)*
-* **E)** *Source Mapping*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. *Code Splitting* é a técnica de segmentar o bundle em múltiplos arquivos (*chunks*) para carregamento sob demanda (*lazy loading*).
-> - **B)** Incorreta. *Hot Module Replacement (HMR)* atualiza módulos no navegador durante o desenvolvimento sem recarregar a página por completo.
-> - **C)** **CORRETA.** A técnica de **Tree Shaking** (*dead-code elimination*) analisa a estrutura estática dos módulos ESM (`import`/`export`) durante a compilação e remove do pacote final qualquer função ou classe importada que não seja invocada no código da aplicação.
-> - **D)** Incorreta. Integração Contínua (CI) é uma prática DevOps de compilação e testes automatizados.
-> - **E)** Incorreta. *Source Maps* são arquivos de mapeamento que correlacionam o código minificado de produção com o código-fonte original para depuração.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 5 (FCC - Analista de Sistemas / Integração Contínua e Build)
-No ecossistema de desenvolvimento de sistemas em Java gerenciado pela ferramenta Apache Maven, o ciclo de vida de construção (*build lifecycle*) organiza a execução de objetivos (*goals*) em fases pré-definidas. Simultaneamente, em ambientes de esteiras de Integração Contínua (CI/CD), a garantia de builds reprodutíveis e determinísticos tornou-se um requisito mandatório de conformidade e segurança da cadeia de suprimentos.
-
-A respeito do ciclo de vida do Maven e dos mecanismos que garantem builds reproduzíveis em gerenciadores de dependências modernos, assinale a afirmativa correta:  
-
-* **A)** A fase `package` do Maven precede a fase `compile`, permitindo empacotar o artefato antes da compilação do código Java para acelerar o processo de testes.
-* **B)** O comando `mvn install` compila o código, roda os testes, gera o pacote e copia o artefato resultante para o repositório local do desenvolvedor (`~/.m2/repository`), disponibilizando-o como dependência para outros projetos na mesma máquina.
-* **C)** Em projetos Node.js em esteiras de CI/CD, o comando `npm install` deve sempre substituir o comando `npm ci`, pois o `npm install` impede qualquer modificação no arquivo `package-lock.json`.
-* **D)** As coordenadas de um artefato Maven declaradas no `pom.xml` são definidas unicamente pelo parâmetro `releaseDate`, dispensando a indicação de `groupId` e `artifactId`.
-* **E)** O arquivo de lockfile (`package-lock.json` ou `poetry.lock`) impede a compilação de código caso o repositório remoto contenha novas versões maiores (*MAJOR*) de bibliotecas de terceiros.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A fase `compile` precede obrigatoriamente a fase `package`, pois não é possível empacotar classes antes de sua compilação.
-> - **B)** **CORRETA.** A fase **`install`** do ciclo padrão do Maven compila os arquivos, executa os testes unitários, gera o pacote (`.jar` ou `.war`) e o instala no repositório local (`~/.m2/repository`), permitindo que outros projetos desenvolvidos localmente o consumam como dependência.
-> - **C)** Incorreta. Em esteiras de CI/CD, o comando correto é o **`npm ci`**, pois ele instala estritamente as versões travadas no `package-lock.json` e aborta se houver divergências.
-> - **D)** Incorreta. As coordenadas canônicas que identificam qualquer artefato no Maven são o trio GAV: `groupId`, `artifactId` e `version`.
-> - **E)** Incorreta. O lockfile congela as versões que foram aprovadas e testadas, ignorando silenciosamente versões mais novas disponíveis no repositório remoto para assegurar estabilidade.
-> 
-> **Gabarito: B**
