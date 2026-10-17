@@ -66,6 +66,34 @@ stateDiagram-v2
 - **Falha (*Failed*):** Ocorre quando uma instrução viola uma restrição de integridade ou o sistema sofre interrupção antes da conclusão definitiva.
 - **Abortada (*Aborted*):** O SGBD executa o comando `ROLLBACK`, desfazendo todas as modificações parciais já executadas e restaurando a base de dados ao estado exato anterior ao início da transação.
 
+### Questão 01 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Estados do Ciclo de Vida de uma Transação)
+Segundo a teoria clássica de sistemas de bancos de dados relacionais formulada por Silberschatz, Korth e Sudarshan, uma transação deve atravessar uma máquina de estados finitos bem definida durante a sua execução.
+
+A respeito dos estados possíveis de uma transação e das transições entre eles, assinale a afirmativa correta:
+
+* **A)** Uma transação entra no estado *Committed* (Efetivada) imediatamente após a emissão da primeira instrução DML de escrita no buffer de memória.
+* **B)** O estado *Partially Committed* (Parcialmente Efetivada) ocorre após a execução da última declaração SQL da transação, mas antes que as modificações e seus registros de log correspondentes tenham sido completamente gravados de forma persistente em disco (disco estável).
+* **C)** Uma transação em estado *Failed* (Falha) transita compulsoriamente de volta para o estado *Active* (Ativa) para tentar novamente a operação a partir do ponto onde ocorreu a falha.
+* **D)** O estado *Aborted* (Abortada) indica que a transação concluiu seu processamento com êxito e que seus resultados tornaram-se permanentes no banco de dados.
+* **E)** Toda transação no estado *Active* pode transitar diretamente para o estado *Committed* sem necessidade de passar pelo estado *Partially Committed*.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Uma transação no início de suas instruções está no estado *Active* (Ativa), jamais *Committed*.
+> - **B)** **CORRETA.** No modelo formal de estados de transação:
+>   1. **Active (Ativa):** O estado inicial enquanto as operações da transação estão em execução.
+>   2. **Partially Committed (Parcialmente Efetivada):** Alcançado quando a última instrução da transação foi executada na memória, porém antes da garantia de que o log de transações (WAL) foi descarregado no armazenamento não-volátil (disco estável).
+>   3. **Failed (Falha):** Se uma verificação normal de integridade falhar ou se houver pane de hardware/software durante a execução.
+>   4. **Aborted (Abortada):** Ocorre após a transação em falha sofrer *rollback* e o banco de dados ser restaurado ao estado anterior.
+>   5. **Committed (Efetivada):** Alcançado somente após a conclusão com sucesso de todas as gravações no disco estável.
+> - **C)** Incorreta. Do estado *Failed*, a única transição válida é para o estado *Aborted*, após as operações de desfazimento (*undo*).
+> - **D)** Incorreta. *Aborted* significa que a transação foi revertida e cancelada.
+> - **E)** Incorreta. Pelo diagrama canônico, a transição para *Committed* passa obrigatoriamente por *Partially Committed*.
+> 
+> **Gabarito: B**
+
+---
+
 ### 1.2 As Quatro Propriedades Fundamentais: ACID
 
 Para que a integridade dos dados seja inviolável mesmo diante de falhas de hardware, interrupções de energia elétrica e concorrência massiva de usuários, o SGBD deve garantir integralmente as propriedades do acrônimo **ACID** (Jim Gray e Andreas Reuter):
@@ -101,7 +129,7 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Adaptada / TI - As Quatro Propriedades ACID e Logs)
+### Questão 02 (FCC - Adaptada / TI - As Quatro Propriedades ACID e Logs)
 Em um SGBD corporativo, um desligamento repentino do fornecimento de energia elétrica interrompeu as operações enquanto dezenas de transações eram processadas. Durante a rotina de inicialização automática (Crash Recovery), o SGBD utilizou seus arquivos de log transacional para restaurar a consistência da base.
 
 Sobre os mecanismos que asseguram as propriedades ACID nesse cenário, assinale a afirmativa correta:  
@@ -139,7 +167,7 @@ A linguagem SQL provê comandos dedicados para controlar as fronteiras transacio
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - Controle de Transações: SAVEPOINT e ROLLBACK TO)
+### Questão 03 (FCC - Adaptada / TI - Controle de Transações: SAVEPOINT e ROLLBACK TO)
 Considere a sequência de comandos executada em uma única sessão transacional em um SGBD em conformidade com o padrão ANSI SQL:
 
 ```sql
@@ -197,6 +225,33 @@ Quando múltiplas transações concorrem pelo acesso aos mesmos dados sem contro
 
 ---
 
+### Questão 04 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Anomalias e Fenômenos de Concorrência)
+Em sistemas gerenciadores de bancos de dados com processamento transacional concorrente de alta intensidade, a ausência de mecanismos rigorosos de controle de concorrência expõe a base de dados a múltiplos fenômenos anômalos.
+
+Analise as três situações de concorrência descritas a seguir entre duas transações $T_1$ e $T_2$:
+
+1. $T_1$ lê um saldo bancário de R$ 10.000,00. Simultaneamente, $T_2$ altera esse saldo para R$ 15.000,00 e efetiva a operação com `COMMIT`. Em seguida, $T_1$ relê o mesmo registro na mesma transação e encontra o saldo de R$ 15.000,00.  
+2. $T_1$ executa uma consulta que recupera todos os contratos com valor acima de R$ 1.000.000,00, obtendo 5 registros. Nesse intervalo, $T_2$ insere um novo contrato no valor de R$ 2.000.000,00 e efetiva com `COMMIT`. $T_1$ reexecuta a mesma consulta e agora obtém 6 registros.  
+3. $T_1$ lê o valor de um empenho de R$ 50.000,00 e $T_2$ lê o mesmo valor. $T_1$ atualiza o valor para R$ 55.000,00 e efetiva. Logo depois, $T_2$, baseando-se no valor inicial lido, atualiza o valor para R$ 48.000,00 e efetiva, sobrescrevendo cegamente a alteração de $T_1$.  
+
+Esses três fenômenos caracterizam, rigorosa e respectivamente:
+
+* **A)** Leitura Suja (*Dirty Read*), Leitura Fantasma (*Phantom Read*) e Leitura Não Repetível (*Non-Repeatable Read*).
+* **B)** Leitura Não Repetível (*Non-Repeatable Read*), Leitura Fantasma (*Phantom Read*) e Atualização Perdida (*Lost Update*).
+* **C)** Leitura Fantasma (*Phantom Read*), Leitura Suja (*Dirty Read*) e Desvio de Gravação (*Write Skew*).
+* **D)** Leitura Suja (*Dirty Read*), Atualização Perdida (*Lost Update*) e Leitura Não Repetível (*Non-Repeatable Read*).
+* **E)** Leitura Não Repetível (*Non-Repeatable Read*), Atualização Perdida (*Lost Update*) e Leitura Suja (*Dirty Read*).
+
+> **Comentário Detalhado:**
+>
+> - **Situação 1:** Trata-se de **Leitura Não Repetível (Non-Repeatable Read ou Fuzzy Read)**: ocorre quando uma transação relê a mesma linha e encontra valores de colunas alterados porque outra transação efetuou `UPDATE` e `COMMIT` no intervalo.
+> - **Situação 2:** Trata-se de **Leitura Fantasma (Phantom Read)**: ocorre quando uma transação reexecuta uma consulta baseada em predicado/faixa e o conjunto de linhas resultante se altera devido a `INSERT` ou `DELETE` efetuado e confirmado por outra transação.
+> - **Situação 3:** Trata-se de **Atualização Perdida (Lost Update)**: ocorre quando duas transações leem o mesmo registro e ambas tentam atualizá-lo em paralelo; a última gravação sobrescreve a primeira sem considerar a alteração anterior, perdendo-se os dados da primeira atualização.
+> 
+> **Gabarito: B**
+
+---
+
 ## 4. Níveis de Isolamento ANSI SQL-92
 
 A norma ANSI/ISO SQL-92 estabelece quatro níveis canônicos de isolamento transacional, regulados pela tolerância ou bloqueio formal às anomalias de concorrência:
@@ -218,7 +273,7 @@ A norma ANSI/ISO SQL-92 estabelece quatro níveis canônicos de isolamento trans
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - Níveis de Isolamento Transacional ANSI SQL)
+### Questão 05 (FCC - Adaptada / TI - Níveis de Isolamento Transacional ANSI SQL)
 Em um sistema de arrecadação tributária estadual, duas transações concorrentes ($T_1$ e $T_2$) executam operações sobre a mesma tabela de contribuintes. A transação $T_1$ realiza a leitura de um registro de débitos fiscais. Em seguida, a transação $T_2$ altera o valor desse débito e efetiva a operação com `COMMIT`. Posteriormente, ainda dentro do seu escopo, a transação $T_1$ relê o mesmo registro e encontra o novo valor alterado e comitado por $T_2$.
 
 Considerando os fenômenos de concorrência e os níveis de isolamento padronizados pela norma ANSI SQL:  
@@ -251,6 +306,31 @@ Implementado em motores que utilizam controle de concorrência multiversão (MVC
 
 ---
 
+### Questão 06 (FCC - TRT / Analista Judiciário - TI - Snapshot Isolation e Anomalia de Write Skew)
+O mecanismo de isolamento conhecido como *Snapshot Isolation* (Isolamento por Instantâneo) é amplamente empregado por SGBDs modernos baseados em MVCC (como PostgreSQL e Oracle). Sob esse nível, uma transação visualiza uma fotografia consistente dos dados correspondente ao instante em que iniciou.
+
+Embora o *Snapshot Isolation* impeça Leitura Suja, Leitura Não Repetível e Leituras Fantasmas convencionais, a literatura de banco de dados comprova que ele **não é equivalente** ao nível de isolamento `SERIALIZABLE` clássico por admitir a anomalia denominada:
+
+* **A)** Atualização Cega (*Blind Write*).
+* **B)** Leitura Não Determinística (*Fuzzy Read*).
+* **C)** Desvio de Gravação (*Write Skew*).
+* **D)** Inconsistência de Checkpoint (*Torn Page*).
+* **E)** Interbloqueio em Cascata (*Cascading Abort*).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Blind write é simplesmente uma escrita que não é precedida por uma leitura.
+> - **B)** Incorreta. Fuzzy Read é sinônimo de Leitura Não Repetível, a qual é eliminada no Snapshot Isolation.
+> - **C)** **CORRETA.** O **Write Skew (Desvio de Gravação)** é a principal anomalia admitida pelo *Snapshot Isolation* que impede sua equivalência matemática à Serializabilidade estrita:
+>   - Exemplo clássico: Uma regra de negócio estipula que a soma de duas contas correntes $A + B$ nunca pode ser negativa. Inicialmente, $A = 100$ e $B = 100$. A transação $T_1$ lê $A$ e $B$, deduz R$ 150 de $A$ (verificando que $A+B = 50 \ge 0$). Simultaneamente, $T_2$ lê $A$ e $B$, deduz R$ 150 de $B$ (também verificando que $A+B \ge 0$).
+>   - Como $T_1$ atualiza apenas $A$ e $T_2$ atualiza apenas $B$, não há conflito direto de linha (*first-committer-wins* não detecta colisão de chave primária). Ambas efetuam `COMMIT`. No final, $A = -50$ e $B = -50$, violando a restrição de integridade ($A+B = -100 < 0$). Nenhuma execução serial pura admitiria esse resultado.
+> - **D)** Incorreta. Torn page é um defeito de hardware/IO no qual um bloco é parcialmente gravado em disco.
+> - **E)** Incorreta. Abortos em cascata decorrem de transações que leem dados não confirmados (leitura suja), inexistentes no isolamento por snapshot.
+> 
+> **Gabarito: C**
+
+---
+
 ## 5. Técnicas de Controle de Concorrência
 
 ### 5.1 Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)
@@ -264,6 +344,31 @@ O controle pessimista de concorrência baseia-se na alocação de travas (*locks
 | :---: | :---: | :---: |
 | **Shared (S)** | ✅ **Compatível** (Permitido) | ❌ Conflito (Aguarda liberação) |
 | **Exclusive (X)** | ❌ Conflito (Aguarda liberação) | ❌ Conflito (Aguarda liberação) |
+
+### Questão 07 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Bloqueios Compartilhados vs. Exclusivos)
+Os SGBDs relacionais empregam bloqueios (*locks*) lógicos gerenciados pelo subsistema de Lock Manager para disciplinar o acesso concorrente aos dados. Dois modos fundamentais de bloqueio são o Compartilhado (*Shared Lock - S*) e o Exclusivo (*Exclusive Lock - X*).
+
+A respeito da matriz de compatibilidade entre esses tipos de bloqueios e sua granularidade, assinale a afirmativa correta:
+
+* **A)** Múltiplas transações concorrentes podem obter simultaneamente bloqueios compartilhados (*Shared Locks*) sobre o mesmo recurso de dados para fins de leitura.
+* **B)** Uma transação pode obter com sucesso um bloqueio exclusivo (*Exclusive Lock*) sobre uma tabela mesmo que outra transação já mantenha ativo um bloqueio compartilhado sobre essa mesma tabela.
+* **C)** O bloqueio de granularidade fina (no nível de linha/tupla) consome menos memória do Lock Manager do que o bloqueio de granularidade grossa (no nível de tabela inteira).
+* **D)** Bloqueios de intenção (*Intent Locks*, como IS e IX) são utilizados apenas em operações DDL e não interferem na concorrência de instruções DML como `SELECT` e `UPDATE`.
+* **E)** O bloqueio compartilhado impede que outras transações realizem leituras simultâneas no mesmo objeto, forçando o enfileiramento sequencial de todas as operações de consulta.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Pela matriz de compatibilidade clássica:
+>   - Bloqueio Compartilhado ($S$) com Bloqueio Compartilhado ($S$): **Compatível**. Múltiplas transações de leitura concorrente podem acessar o mesmo recurso simultaneamente sem bloqueio mútuo.
+>   - Bloqueio Exclusivo ($X$) com qualquer outro bloqueio ($S$ ou $X$): **Incompatível**. Uma transação de escrita exige exclusividade total.
+> - **B)** Incorreta. O bloqueio $X$ entra em conflito direto com bloqueios $S$ existentes, forçando a transação solicitante a aguardar a liberação.
+> - **C)** Incorreta. Bloqueio de granularidade fina (linha) oferece maior concorrência, porém consome **muito mais memória** do Lock Manager, pois há milhares de estruturas de *lock* instanciadas (podendo levar à *escalação de bloqueios / lock escalation* para tabela).
+> - **D)** Incorreta. Bloqueios de intenção (IS, IX, SIX) operam na hierarquia de granularidade de dados para indicar que transações detêm ou pretendem obter travas em níveis inferiores (linhas), otimizando a verificação de travas em nível de tabela para comandos DML.
+> - **E)** Incorreta. Bloqueio compartilhado autoriza expressamente leituras simultâneas de outras transações.
+> 
+> **Gabarito: A**
+
+---
 
 ### 5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso
 
@@ -289,7 +394,7 @@ flowchart LR
 
 ---
 
-### Questão 04 (FCC - Adaptada / TI - MVCC, Bloqueios e Deadlocks)
+### Questão 08 (FCC - Adaptada / TI - MVCC, Bloqueios e Deadlocks)
 A respeito dos mecanismos de controle de concorrência, bloqueios (*locks*) e tratamento de impasses (*deadlocks*) em SGBDs relacionais modernos, assinale a afirmativa correta:  
 
 * **A)** O protocolo de Bloqueio em Duas Fases (2PL - *Two-Phase Locking*) determina que uma transação pode intercalar a aquisição e a liberação de bloqueios livremente ao longo de toda a sua execução.
@@ -310,7 +415,7 @@ A respeito dos mecanismos de controle de concorrência, bloqueios (*locks*) e tr
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Protocolo 2PL: Serializabilidade e Variantes)
+### Questão 09 (FCC - Adaptada / TI - Protocolo 2PL: Serializabilidade e Variantes)
 O protocolo de Bloqueio em Duas Fases (*Two-Phase Locking - 2PL*) é um algoritmo de controle de concorrência com ampla aplicação em bancos de dados relacionais.
 
 Acerca do funcionamento e das variantes do protocolo 2PL, é correto afirmar:  
@@ -343,6 +448,29 @@ Adotado nativamente por PostgreSQL e Oracle:
     - No PostgreSQL: `xmin` (ID da transação criadora) e `xmax` (ID da transação que apagou ou gerou versão superior).
     - Leitores consultam versões visíveis compatíveis com o seu instante temporal (*snapshot*), garantindo alto rendimento de leitura e escrita concorrentes.
 
+### Questão 10 (FCC - TRT-6 / Analista Judiciário - TI - Controle Multiversão de Concorrência - MVCC)
+O Controle Multiversão de Concorrência (*Multi-Version Concurrency Control - MVCC*) é o mecanismo arquitetural predominante em motores de banco de dados modernos, tais como o PostgreSQL e o Oracle Database.
+
+A principal vantagem do MVCC sobre os mecanismos tradicionais de bloqueio pessimista bidirecional (2PL estrito) e o seu princípio fundamental de funcionamento residem no fato de que:
+
+* **A)** As transações de leitura realizam bloqueios exclusivos de página, impedindo a escrita de novas tuplas até que a leitura seja confirmada por `COMMIT`.
+* **B)** Leituras nunca bloqueiam escritas, e escritas nunca bloqueiam leituras; quando um registro é atualizado, o SGBD não sobrescreve o dado no local original, mas cria uma nova versão física da tupla com metadados de transação (`xmin` / `xmax`), mantendo a versão anterior visível para transações ativas mais antigas.
+* **C)** O MVCC elimina completamente o uso de memória RAM e de discos rígidos, processando todas as transações em tabelas estritamente temporárias.
+* **D)** O isolamento obtido com MVCC é sempre `READ UNCOMMITTED`, permitindo leituras de dados sujos sem qualquer validação de *snapshots*.
+* **E)** O MVCC dispensa integralmente mecanismos de coleta de lixo (*garbage collection* / `VACUUM`), pois as tuplas obsoletas são destruídas instantaneamente pelo processador na saída do comando `UPDATE`.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No MVCC, leituras não adquirem bloqueios pesados em linhas ou páginas para leitura comum, operando sobre *snapshots*.
+> - **B)** **CORRETA.** O axioma fundamental do MVCC é: **"leitores não bloqueiam escritores, e escritores não bloqueiam leitores"**. Em vez de atualizar um registro no mesmo espaço (*in-place update*) e travar a linha com bloqueio exclusivo prolongado, o motor (ex.: PostgreSQL) insere uma nova versão da tupla (*tuple version*) com identificador de transação criadora (`xmin`), marcando a tupla anterior como expirada pela transação modificadora (`xmax`). Transações de leitura continuam acessando a versão anterior correspondente ao seu respectivo *snapshot*, eliminando contenção de concorrência.
+> - **C)** Incorreta. O MVCC opera em memória e disco como qualquer mecanismo de persistência.
+> - **D)** Incorreta. O MVCC implementa níveis de isolamento elevados (`READ COMMITTED`, `REPEATABLE READ`, `SERIALIZABLE`), impedindo leituras sujas.
+> - **E)** Incorreta. Como as versões antigas de tuplas permanecem no disco até que nenhuma transação ativa precise delas, o MVCC **exige compulsoriamente** rotinas de limpeza periódica (como o processo `VACUUM` no PostgreSQL) para expurgar tuplas mortas (*dead tuples*) e evitar *bloat*.
+> 
+> **Gabarito: B**
+
+---
+
 ### 5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima
 
 Um **deadlock** ocorre quando duas ou mais transações entram em estado de bloqueio mútuo e circular: a transação $T_1$ retém o recurso $A$ e aguarda o recurso $B$, enquanto a transação $T_2$ retém o recurso $B$ e aguarda o recurso $A$. Nenhuma das transações consegue prosseguir.
@@ -358,6 +486,33 @@ flowchart LR
 - **Técnicas de Prevenção por Timestamps:**
     - *Wait-Die (Não-preemptivo):* Se a transação mais antiga solicitar recurso retido pela mais nova, ela espera (*wait*); se a mais nova solicitar recurso retido pela mais antiga, a mais nova morre (*die/rollback*).
     - *Wound-Wait (Preemptivo):* Se a transação mais antiga solicitar recurso retido pela mais nova, ela fere e aborta a mais nova (*wound/preempt*); se a mais nova solicitar da mais antiga, ela espera (*wait*).
+
+---
+
+### Questão 11 (FGV - TRT / Analista Judiciário - TI - Impasses / Deadlocks e Grafo de Espera)
+Em um ambiente de banco de dados de alto volume transacional, duas transações concorrentes entram em uma situação na qual a Transação $T_1$ detém o bloqueio exclusivo da linha $A$ e aguarda a liberação da linha $B$ (bloqueada por $T_2$), enquanto $T_2$ aguarda a liberação da linha $A$ (bloqueada por $T_1$).
+
+A respeito desse cenário de impasse (*Deadlock*) e dos métodos empregados pelos SGBDs para seu tratamento, assinale a afirmativa correta:
+
+* **A)** O impasse é automaticamente resolvido pelo SGBD permitindo que ambas as transações acessem e sobrescrevam simultaneamente as duas linhas em disputa.
+* **B)** A ocorrência de um deadlock é detectada pelo SGBD por meio da construção periódica de um Grafo de Espera (*Wait-For Graph*); a existência de um ciclo direcionado nesse grafo indica formalmente a presença de um deadlock, exigindo que o SGBD selecione uma transação "vítima" para ser abortada e sofrer `ROLLBACK`.
+* **C)** O protocolo 2PL básico garante matematicamente a imunidade total e absoluta contra a ocorrência de deadlocks.
+* **D)** Em caso de deadlock, o SGBD encerra forçosamente todas as conexões ativas no banco de dados e reinicia o processo principal do servidor.
+* **E)** Protocolos baseados em timestamps (como *Wait-Die* e *Wound-Wait*) detectam impasses somente após o bloqueio indefinido de todos os núcleos da CPU.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Permitir acesso simultâneo sem bloqueio violaria o isolamento e corromperia os dados da base.
+> - **B)** **CORRETA.** A teoria de detecção de impasses modela as dependências ativas por um grafo direcionado $G = (V, E)$, denominado **Wait-For Graph (Grafo de Espera)**:
+>   - Os vértices $V$ representam as transações ativas ($T_1, T_2, \dots$).
+>   - As arestas direcionadas $(T_i \rightarrow T_j)$ indicam que a transação $T_i$ está aguardando a liberação de um recurso bloqueado por $T_j$.
+>   - Um impasse (*deadlock*) ocorre **se, e somente se, o grafo contiver um ciclo direcionado** ($T_1 \rightarrow T_2 \rightarrow T_1$).
+>   - Ao detectar o ciclo, o algoritmo de recuperação elege uma transação "vítima" (com base em critérios como tempo de execução, custo de *rollback* ou número de tuplas alteradas), aborta essa transação com `ROLLBACK` e libera seus bloqueios para que as demais transações possam prosseguir.
+> - **C)** Incorreta. O protocolo 2PL garante serializabilidade, mas **não previne** deadlocks.
+> - **D)** Incorreta. O SGBD aborta apenas a transação vítima selecionada, mantendo o restante da instância em operação ininterrupta.
+> - **E)** Incorreta. *Wait-Die* e *Wound-Wait* são esquemas de **prevenção** preventiva de deadlocks baseados na idade/timestamp da transação, não atuando após travamento total da CPU.
+> 
+> **Gabarito: B**
 
 ---
 

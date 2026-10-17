@@ -82,6 +82,38 @@ Todo número racional pode ser transcrito sob representação decimal, dividindo
      Exemplo para $0,1\overline{6}$:
      $$0,1\overline{6} = \frac{16 - 1}{90} = \frac{15}{90} = \frac{1}{6}$$
 
+
+---
+
+### Questão 01
+**(FCC – TRT-23 – Analista Judiciário)**  
+Considere a expressão numérica $E = 0{,}333... + \frac{1}{6} - 0{,}25$. O valor exato de $E$ expresso sob a forma de fração irredutível é igual a:
+
+* **A)** $\frac{1}{4}$
+* **B)** $\frac{1}{3}$
+* **C)** $\frac{1}{2}$
+* **D)** $\frac{5}{12}$
+* **E)** $\frac{7}{12}$
+
+> **Comentário Detalhado:**
+>
+> - **1º Passo:** Converter os números decimais e a dízima periódica em frações ordinárias:  
+>   - A dízima periódica simples $0{,}333...$ tem como fração geratriz $\frac{3}{9} = \frac{1}{3}$.  
+>   - O decimal exato $0{,}25$ corresponde a $\frac{25}{100} = \frac{1}{4}$.  
+> - **2º Passo:** Substituir os valores na expressão:  
+>   $$E = \frac{1}{3} + \frac{1}{6} - \frac{1}{4}$$  
+> - **3º Passo:** Obter o MMC dos denominadores $3, 6, 4$:  
+>   $MMC(3, 6, 4) = 12$.  
+> - **4º Passo:** Reduzir ao mesmo denominador e efetuar as operações:  
+>   $$E = \frac{4}{12} + \frac{2}{12} - \frac{3}{12} = \frac{4 + 2 - 3}{12} = \frac{3}{12}$$  
+> - **5º Passo:** Simplificar a fração obtida:  
+>   $$\frac{3}{12} = \frac{1}{4}$$  
+> - **Conclusão:** O resultado é $\frac{1}{4}$ (Alternativa A).
+>
+> **Gabarito: A**
+
+---
+
 ### 1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos
 
 Para quaisquer dois números inteiros $D$ (dividendo) e $d$ (divisor não nulo), existem inteiros únicos $q$ (quociente) e $r$ (resto) tais que:
@@ -96,7 +128,7 @@ Propriedades críticas da divisão inteira:
 
 ---
 
-### Questão 01
+### Questão 02
 **(FCC – TCE-GO – Auditor de Controle Externo)**  
 Considere a sequência infinita de números formados pela repetição cíclica dos algarismos do número 74582:
 $$7, 4, 5, 8, 2, 7, 4, 5, 8, 2, 7, 4, 5, 8, 2, \dots$$
@@ -169,6 +201,30 @@ A potenciação traduz o produto de fatores idênticos repetidos ($a^n = \underb
 * Expoente negativo: $a^{-n} = \frac{1}{a^n} = \left(\frac{1}{a}\right)^n \quad (a \neq 0)$
 * Expoente fracionário (Radiciação): $a^{\frac{m}{n}} = \sqrt[n]{a^m}$
 
+
+### Questão 03
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+O valor numérico da expressão aritmética $K = \frac{2^{20} + 2^{18}}{2^{19} - 2^{17}}$ é igual a:
+
+* **A)** $\frac{5}{3}$
+* **B)** $\frac{10}{3}$
+* **C)** $2$
+* **D)** $4$
+* **E)** $\frac{5}{6}$
+
+> **Comentário Detalhado:**
+>
+> - **Método de Resolução (Fatoração por Colocação em Evidência):** Em expressões com potências de mesma base com expoentes elevados, a estratégia padrão da FCC consiste em colocar em evidência a potência de menor expoente no numerador e no denominador.  
+> - **No numerador:** $2^{20} + 2^{18} = 2^{18} \cdot (2^2 + 1) = 2^{18} \cdot (4 + 1) = 2^{18} \cdot 5$.  
+> - **No denominador:** $2^{19} - 2^{17} = 2^{17} \cdot (2^2 - 1) = 2^{17} \cdot (4 - 1) = 2^{17} \cdot 3$.  
+> - **Dividindo numerador por denominador:**  
+>   $$K = \frac{2^{18} \cdot 5}{2^{17} \cdot 3} = \frac{2^{18}}{2^{17}} \cdot \frac{5}{3} = 2^{18-17} \cdot \frac{5}{3} = 2^1 \cdot \frac{5}{3} = \frac{10}{3}$$  
+> - **Conclusão:** O valor numérico de $K$ é exatamente $\frac{10}{3}$ (Alternativa B).
+>
+> **Gabarito: B**
+
+---
+
 ---
 
 ## 3. Teoria dos Números: Divisibilidade, Primos, MMC e MDC
@@ -200,6 +256,38 @@ $$Q(N) = (\alpha + 1)(\beta + 1)(\gamma + 1)\cdots(\omega + 1)$$
 *Exemplo:* Para encontrar quantos divisores possui o número 360:
 $$360 = 2^3 \cdot 3^2 \cdot 5^1 \implies Q(360) = (3 + 1)(2 + 1)(1 + 1) = 4 \times 3 \times 2 = 24 \text{ divisores}$$
 
+
+---
+
+### Questão 04
+**(FCC – METRÔ-SP – Analista)**  
+O número de divisores naturais positivos do número inteiro $N = 360$ é igual a:
+
+* **A)** $18$
+* **B)** $24$
+* **C)** $20$
+* **D)** $30$
+* **E)** $12$
+
+> **Comentário Detalhado:**
+>
+> - **Regra da Quantidade de Divisores Positivos:** Para determinar o número de divisores positivos de um inteiro $N$, realiza-se a decomposição canônica em fatores primos:  
+>   $$N = p_1^{\alpha_1} \cdot p_2^{\alpha_2} \cdot ... \cdot p_k^{\alpha_k}$$  
+>   A quantidade total de divisores positivos é dada pelo produto dos expoentes acrescidos de uma unidade:  
+>   $$D(N) = (\alpha_1 + 1) \cdot (\alpha_2 + 1) \cdot ... \cdot (\alpha_k + 1)$$  
+> - **Fatoração de 360:**  
+>   $360 = 36 \times 10 = (2^2 \cdot 3^2) \cdot (2 \cdot 5) = 2^3 \cdot 3^2 \cdot 5^1$.  
+> - **Cálculo dos divisores:**  
+>   - Expoente da base 2: $\alpha_1 = 3 \rightarrow (3 + 1) = 4$  
+>   - Expoente da base 3: $\alpha_2 = 2 \rightarrow (2 + 1) = 3$  
+>   - Expoente da base 5: $\alpha_3 = 1 \rightarrow (1 + 1) = 2$  
+>   $$D(360) = 4 \times 3 \times 2 = 24$$  
+> - **Conclusão:** O número 360 possui exatamente 24 divisores naturais positivos (Alternativa B).
+>
+> **Gabarito: B**
+
+---
+
 ### 3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade
 
 O **Mínimo Múltiplo Comum (MMC)** entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
@@ -217,7 +305,7 @@ flowchart LR
 
 ---
 
-### Questão 02
+### Questão 05
 **(FCC – Auditor Fiscal da Receita – Adaptada)**  
 Três equipes de fiscalização do Tribunal de Contas realizam auditorias periódicas em municípios do interior goiano. A equipe Alfa realiza auditorias a cada 12 dias; a equipe Beta, a cada 18 dias; e a equipe Gama, a cada 20 dias. No dia 1º de março de determinado ano não bissexto, as três equipes iniciaram suas inspeções simultaneamente.
 
@@ -269,7 +357,7 @@ O **Máximo Divisor Comum (MDC)** é o maior número inteiro capaz de dividir ex
 
 ---
 
-### Questão 03
+### Questão 06
 **(FCC – TCE-PI – Técnico de Controle Externo)**  
 Uma coordenadoria administrativa do TCE-GO precisa arquivar 168 pastas de auditoria do tipo A, 216 pastas do tipo B e 264 pastas do tipo C em caixas organizadoras. Todas as caixas devem conter o mesmo número de pastas, sendo que cada caixa conterá pastas de um único tipo, e o número de pastas por caixa deve ser o **maior possível**, sem que sobre nenhuma pasta avulsa.
 
@@ -339,6 +427,35 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
 3. **Divisão:** Conserva-se a primeira fração e multiplica-se pela fração inversa da segunda:
    $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{a \cdot d}{b \cdot c} \quad (c, d \neq 0)$$
 
+
+### Questão 07
+**(FCC – TRT-14 – Analista Judiciário)**  
+Um servidor do tribunal recebeu determinado lote de processos para instruir. No primeiro dia, analisou $\frac{2}{5}$ do total de processos; no segundo dia, analisou $\frac{1}{3}$ do que havia sobrado; e, no terceiro dia, concluiu os últimos $24$ processos restantes. O número total de processos contidos no lote original era igual a:
+
+* **A)** $50$
+* **B)** $60$
+* **C)** $75$
+* **D)** $80$
+* **E)** $90$
+
+> **Comentário Detalhado:**
+>
+> - **Método da Cadeia Regressiva (Fração de Resto):**  
+>   - Seja $P$ o total original de processos.  
+>   - **Dia 1:** O servidor instruiu $\frac{2}{5}P$.  
+>     Restante após o dia 1: $1 - \frac{2}{5} = \frac{3}{5}P$.  
+>   - **Dia 2:** O servidor instruiu $\frac{1}{3}$ do restante:  
+>     $$\frac{1}{3} \times \frac{3}{5}P = \frac{1}{5}P$$  
+>     Fração total instruída nos dois primeiros dias: $\frac{2}{5}P + \frac{1}{5}P = \frac{3}{5}P$.  
+>     Restante final para o dia 3: $1 - \frac{3}{5} = \frac{2}{5}P$.  
+>   - **Dia 3:** Esse restante final corresponde a 24 processos:  
+>     $$\frac{2}{5}P = 24 \implies 2P = 24 \times 5 = 120 \implies P = \frac{120}{2} = 60$$  
+> - **Conferência:** $60 \times \frac{2}{5} = 24$ no 1º dia (sobram 36); $\frac{1}{3} \times 36 = 12$ no 2º dia (sobram 24); $24$ no 3º dia. Perfeito.
+>
+> **Gabarito: B**
+
+---
+
 ---
 
 ## 5. Modelagem e Resolução de Problemas no Padrão FCC
@@ -356,7 +473,7 @@ Problemas clássicos da FCC narram um agente que consome uma fração de um mont
 
 ---
 
-### Questão 04
+### Questão 08
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Um auditor do TCE-GO foi designado para realizar a conferência documental de uma amostra de processos de licitação municipal. No primeiro dia de trabalho, o auditor analisou $\frac{1}{3}$ do total de processos da amostra. No segundo dia, analisou $\frac{3}{5}$ dos processos **restantes**. No terceiro dia, finalizou a conferência analisando os últimos 48 processos.
 
@@ -403,7 +520,7 @@ $$T = \frac{t_1 \cdot t_2}{t_1 + t_2}$$
 
 ---
 
-### Questão 05
+### Questão 09
 **(FCC – TRT – Técnico Judiciário)**  
 Dois técnicos de controle externo, Bruno e Camila, foram encarregados de digitalizar e indexar um acervo de processos arquivados. Trabalhando sozinho, Bruno realiza todo o serviço em 6 horas. Camila, trabalhando sozinha, executa o mesmo serviço em 4 horas. 
 
@@ -450,6 +567,37 @@ Em problemas que constroem sequências infinitas repetindo ciclicamente um conju
 2. Divide-se $P$ pelo tamanho do ciclo $k$, obtendo o quociente $q$ e o resto $r$ ($P = k \cdot q + r$);
 3. **Se o resto $r > 0$:** O termo procurado é exatamente o $r$-ésimo elemento do ciclo padrão;
 4. **Se o resto $r = 0$:** O termo procurado é o último elemento do ciclo (o $k$-ésimo elemento).
+
+
+### Questão 10
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+Considere a sequência infinita de letras:  
+$$T, C, E, G, O, I, A, S, T, C, E, G, O, I, A, S, T, C, E, ...$$  
+formada pela repetição contínua do bloco de palavras *"TCEGOIAS"*. A letra que ocupa a 2027ª posição dessa sequência é:
+
+* **A)** T
+* **B)** C
+* **C)** E
+* **D)** G
+* **E)** S
+
+> **Comentário Detalhado:**
+>
+> - **Método dos Ciclos Periódicos e Aritmética dos Restos:**  
+>   - O bloco padrão repetitivo é *"T, C, E, G, O, I, A, S"*.  
+>   - Contagem do período: O bloco possui exatamente **8 letras**.  
+>   - Para determinar o elemento na posição $N = 2027$, divide-se $2027$ pelo tamanho do ciclo ($8$) e analisa-se o resto:  
+>     $$2027 = 8 \times 253 + 3$$  
+>     (pois $8 \times 253 = 2024$, e $2027 - 2024 = 3$).  
+>   - O quociente $253$ indica que o ciclo de 8 letras completou-se exatamente 253 vezes.  
+>   - O resto $3$ indica que a letra procurada é a **3ª letra** do bloco padrão.  
+> - **Localização no bloco:**  
+>   1ª = T, 2ª = C, **3ª = E**.  
+> - **Conclusão:** A letra na 2027ª posição é a letra **E** (Alternativa C).
+>
+> **Gabarito: C**
+
+---
 
 ---
 

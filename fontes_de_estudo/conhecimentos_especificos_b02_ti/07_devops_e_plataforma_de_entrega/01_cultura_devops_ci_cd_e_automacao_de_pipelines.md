@@ -91,6 +91,34 @@ Sistematizado pioneiramente por Damon Edwards e John Willis (e posteriormente co
 4. **M (Measurement - Medição):** Coleta contínua e visibilidade de telemetria, abrangendo métricas de negócio (conversões, faturamento), métricas técnicas de estabilidade (tempo de resposta, taxa de erros) e métricas de processo de entrega (como o framework DORA).
 5. **S (Sharing - Compartilhamento):** Disseminação aberta de conhecimento, ferramentas, erros, padrões arquiteturais e vitórias entre todos os setores da instituição, prevenindo a criação de novos "feudos" tecnológicos.
 
+### Questão 01
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+O framework C.A.L.M.S., concebido por Damon Edwards e John Willis, resume os cinco pilares fundacionais da cultura DevOps em organizações de alto desempenho. Os cinco pilares representados pelo acrônimo C.A.L.M.S. são:
+
+* **A)** *Control, Architecture, Legacy, Monitoring, Speed*
+* **B)** *Culture, Automation, Lean, Measurement, Sharing*
+* **C)** *Containers, Agility, Linux, Microservices, Security*
+* **D)** *Communication, Accuracy, Leadership, Management, Software*
+* **E)** *Continuous, Alignment, Licensing, Maintenance, Scalability*
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Termos arbitrários não correspondentes ao modelo.
+> - **B) Correta.** O acrônimo C.A.L.M.S. traduz os cinco pilares essenciais de DevOps:
+>   - **Culture (Cultura):** colaboração, empatia e quebra de silos entre Desenvolvimento e Operações;
+>   - **Automation (Automação):** eliminação de tarefas manuais repetitivas via pipelines e IaC;
+>   - **Lean (Pensamento Enxuto):** fluxo contínuo, lotes pequenos e eliminação de desperdícios;
+>   - **Measurement (Mensuração):** telemetria, métricas de negócio e dados orientando decisões;
+>   - **Sharing (Compartilhamento):** disseminação aberta de aprendizados, ferramentas e responsabilidade mútua.
+> - **C) Incorreta.** Mistura ferramentas técnicas com termos ágeis.
+> - **D) Incorreta.** Não reflete a definição oficial de DevOps.
+> - **E) Incorreta.** Definição incorreta.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 1.3 As Três Vias do DevOps
 
 Formalizadas por Gene Kim, Kevin Behr e George Spafford nas obras seminais *The Phoenix Project* e *The DevOps Handbook*, as Três Vias estruturam as práticas dinâmicas da entrega contínua:
@@ -98,6 +126,29 @@ Formalizadas por Gene Kim, Kevin Behr e George Spafford nas obras seminais *The 
 1. **A Primeira Via (O Princípio do Fluxo):** Tem por objetivo acelerar a velocidade com que o valor transita da esquerda (Desenvolvimento e Requisitos) para a direita (Operações e Produção). Exige tornar o fluxo de trabalho visível (via quadros Kanban), limitar o trabalho em andamento (WIP), reduzir o tamanho dos lotes e criar barreiras que impeçam terminantemente a propagação de defeitos para etapas posteriores (*downstream*).
 2. **A Segunda Via (O Princípio do Feedback):** Busca encurtar e amplificar continuamente os ciclos de retorno da direita (Operações e Clientes em Produção) para a esquerda (Desenvolvimento). Isso significa que, se um bug surge em produção ou um teste falha no pipeline, os desenvolvedores recebem alarmes e telemetria em tempo real, permitindo identificar a causa raiz e corrigir o problema imediatamente antes que ele escale.
 3. **A Terceira Via (O Princípio do Aprendizado Contínuo e Experimentação):** Fomenta uma cultura organizacional de alta confiança que estimula a experimentação deliberada, a tomada de riscos calculados e o domínio da resiliência através da repetição e da prática. O conhecimento gerado a partir de sucessos e falhas locais é sistematicamente compartilhado e incorporado às práticas institucionais de toda a organização.
+
+### Questão 02
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na obra de referência *The DevOps Handbook* (Gene Kim, Jez Humble et al.), as práticas e princípios que norteiam a transformação DevOps são organizados nas "Três Vias" (*The Three Ways*). A Segunda Via (*The Second Way*) tem como objetivo primordial:
+
+* **A)** Acelerar o fluxo unidirecional de valor de Desenvolvimento para Operações, aumentando o tamanho dos lotes de entrega.
+* **B)** Amplificar e encurtar os ciclos de feedback da direita para a esquerda (de Operações/Produção de volta para Desenvolvimento), permitindo detectar, resolver e prevenir problemas no menor tempo possível.
+* **C)** Estabelecer uma cultura de culpa (*blame culture*) onde cada incidente gera punição imediata ao engenheiro responsável.
+* **D)** Terceirizar integralmente a responsabilidade da infraestrutura para servidores públicos em regime de comodato.
+* **E)** Impedir a execução de testes automatizados no ambiente de desenvolvimento local.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A Primeira Via (*The First Way*) foca nos Princípios de Fluxo (da esquerda para a direita, com lotes pequenos).
+> - **B) Correta.** A Segunda Via (*The Second Way*) foca nos Princípios de Feedback: criar ciclos de retorno rápidos e contínuos de Operações/Produção para Desenvolvimento (*shift-left* do feedback, telemetria em tempo real), evitando que defeitos se propaguem e permitindo correção imediata.
+> - **C) Incorreta.** A cultura DevOps baseia-se em post-mortems sem culpa (*blameless post-mortems*).
+> - **D) Incorreta.** DevOps prega a colaboração integrada, não terceirização burocrática.
+> - **E) Incorreta.** Testes contínuos são a base da automação DevOps.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 1.4 As Quatro Métricas DORA (DevOps Research and Assessment)
 
@@ -119,7 +170,7 @@ As métricas DORA resultam de quase uma década de pesquisas empíricas e rigor 
 
 ---
 
-### Questão 01 (FCC - Adaptada / TI - Métricas DORA e Desempenho em Engenharia de Software)
+### Questão 03 (FCC - Adaptada / TI - Métricas DORA e Desempenho em Engenharia de Software)
 A equipe de liderança técnica de uma Secretaria de Fazenda Estadual realizou uma avaliação de maturidade de seus processos de entrega contínua com base no framework DORA (*DevOps Research and Assessment*). De acordo com os relatórios consolidados do State of DevOps Report da DORA, as organizações classificadas como de alta performance técnica (*high performers*) são caracterizadas por:  
 
 * **A)** Alto *Lead Time for Changes* (superior a um mês) para assegurar rigorosas revisões manuais por comitês de governança (CAB) antes de qualquer implantação.
@@ -178,6 +229,29 @@ Conforme consagrado por Martin Fowler, a **Integração Contínua (*Continuous I
 4. **Execução Obrigatória de Testes de Unidade e Linting:** A esteira de CI roda linters de código e baterias de testes unitários rápidos. A meta é que a validação de CI execute em menos de 10 minutos para não bloquear o fluxo do desenvolvedor.
 5. **O Princípio *Stop the Line* (Corda de Andon):** Inspirado no modelo de produção enxuta, se um commit quebra o build no branch principal, a equipe inteira deve suspender novas tarefas e priorizar a resolução imediata da quebra antes de efetuar novos merges. Manter o branch principal permanentemente verde (*always green*) é mandatório.
 
+### Questão 04
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na esteira de Integração Contínua (CI), uma prática consagrada originária do Sistema Toyota de Produção (metáfora do *Andon Cord*) é o princípio do *"Stop the Line"* (Parar a Linha de Montagem). No contexto do desenvolvimento de software em equipe, esse princípio determina que:
+
+* **A)** Sempre que o build quebrar ou um teste automatizado falhar no pipeline da branch principal, a equipe deve priorizar imediatamente a correção do problema antes de comitar qualquer novo código, impedindo o acúmulo de erros sobre uma base instável.
+* **B)** Todos os desenvolvedores devem desligar seus computadores e sair do escritório por tempo indeterminado.
+* **C)** O pipeline deve desabilitar os testes que falharam para que o deploy possa prosseguir normalmente para produção.
+* **D)** O código da branch principal deve ser revertido para a versão original do ano anterior.
+* **E)** A gerência deve transferir o projeto para uma consultoria externa sem aviso prévio.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** O princípio "Stop the Line" estabelece disciplina inegociável de qualidade: um build quebrado é um sinal de emergência máxima para a equipe. Enquanto a branch principal estiver vermelha, novas funcionalidades não devem ser mescladas até que o problema seja diagnosticado e reparado.
+> - **B) Incorreta.** A equipe deve agir rapidamente para restabelecer a integridade do build.
+> - **C) Incorreta.** Desativar testes com falha é um anti-padrão gravíssimo que mascara falhas críticas em produção.
+> - **D) Incorreta.** Ação desproporcional e descabida.
+> - **E) Incorreta.** Afirmação absurda.
+>
+> **Gabarito: A**
+
+---
+
+
 ### 2.2 Entrega Contínua (Continuous Delivery): O Release Candidate Permanente
 
 A **Entrega Contínua (*Continuous Delivery*)** expande o escopo da Integração Contínua para além dos testes unitários e da compilação:
@@ -213,7 +287,7 @@ A **Implantação Contínua (*Continuous Deployment*)** representa o nível máx
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - Práticas de CI/CD e Espectro de Automação)
+### Questão 05 (FCC - Adaptada / TI - Práticas de CI/CD e Espectro de Automação)
 No contexto da cultura DevOps e das práticas modernas de engenharia de software, considere as seguintes afirmativas sobre Integração Contínua (CI), Entrega Contínua (*Continuous Delivery*) e Implantação Contínua (*Continuous Deployment*):
 
 I. Na Integração Contínua (*Continuous Integration*), desenvolvedores integram código ao ramo principal com alta frequência, disparando compilações e execuções de testes automatizados a cada *commit*, de modo a identificar falhas de integração precocemente.  
@@ -291,7 +365,7 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - Estratégias Modernas de Implantação / Deployment)
+### Questão 06 (FCC - Adaptada / TI - Estratégias Modernas de Implantação / Deployment)
 Um Tribunal de Contas está modernizando a infraestrutura do seu sistema de auditoria eletrônica para permitir atualizações frequentes sem causar indisponibilidade aos auditores e aos cidadãos. A equipe de arquitetura necessita adotar uma estratégia de implantação que atenda aos seguintes requisitos:
 
 - Permitir testar a nova versão do sistema em um ambiente produtivo idêntico ao atual antes de liberar o acesso geral;
@@ -336,6 +410,29 @@ flowchart TD
     style CANARY fill:#fff9c4,stroke:#fbc02d
 ```
 
+### Questão 07
+**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
+Dentre as estratégias modernas de implantação contínua (*Deployment Strategies*), o *Canary Deployment* (Implantação Canário) diferencia-se da estratégia *Blue-Green* pelo fato de:
+
+* **A)** Exigir a substituição imediata e simultânea de 100% dos servidores em produção em uma fração de segundo.
+* **B)** Encaminhar gradualmente uma pequena fração controlada do tráfego real de usuários (por exemplo, 2% a 5%) para a nova versão da aplicação, monitorando métricas de erro e telemetria antes de expandir progressivamente o tráfego para a totalidade dos usuários.
+* **C)** Manter dois ambientes idênticos em produção alternando o roteador de borda de forma binária de um para o outro.
+* **D)** Impedir que o sistema opere durante os finais de semana.
+* **E)** Funcionar exclusivamente em aplicações desktop monousuário desconectadas da rede.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Essa é a estratégia de *Recreate* com parada de serviço (*downtime*).
+> - **B) Correta.** O *Canary Deployment* (inspirado no canário nas minas de carvão) direciona uma pequena parcela do tráfego para a nova versão. Se a telemetria revelar anomalias (aumento de erros HTTP 500 ou latência), o tráfego é revertido instantaneamente sem afetar a maioria dos usuários; se os sinais forem saudáveis, a versão é expandida progressivamente até 100%.
+> - **C) Incorreta.** Alternância total entre dois ambientes isolados (ativo e inativo) descreve a estratégia *Blue-Green Deployment*.
+> - **D) Incorreta.** Práticas modernas operam com alta disponibilidade ininterrupta (24x7).
+> - **E) Incorreta.** Aplica-se a sistemas web e distribuídos de alta escala.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 3.5 Feature Flags / Feature Toggles e Dark Launching
 
 - **Feature Flags (ou Toggles):** Mecanismo de controle em nível de código-fonte que permite encapsular novas funcionalidades em blocos condicionais (`if (featureManager.isEnabled("NOVO_MODULO_FISCAL")) { ... }`). Permite desacoplar a implantação do código (*deployment*) da ativação comercial do recurso (*release*). Um código pode estar rodando em produção com a funcionalidade desligada no servidor de configuração remota, sendo ativada sob demanda sem a necessidade de novo pipeline de deploy.
@@ -347,6 +444,29 @@ flowchart TD
 > - **Blue-Green:** Comutação total de 100% de uma vez; rollback **instantâneo** via balanceador; exige **duplicação integral de infraestrutura**.
 > - **Canary:** Comutação **fracionada/percentual** (ex.: 5% inicial); focado em **reduzir o blast radius** e validar métricas de saúde com tráfego real.
 > - **Rolling Update:** Substituição progressiva de instâncias/pods; **zero downtime** sem duplicação de infraestrutura, mas exige convivência temporária de versões.
+
+---
+
+
+### Questão 08
+**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+A utilização de *Feature Flags* (ou *Feature Toggles*) é uma técnica de engenharia de software indispensável para viabilizar entregas contínuas com Trunk-Based Development. A principal vantagem arquitetural proporcionada pelo uso de Feature Flags reside em:
+
+* **A)** Acelerar a velocidade de clock do banco de dados relacional.
+* **B)** Desacoplar formalmente a implantação física do código (*deployment*) da ativação comercial da funcionalidade para os usuários (*release*), permitindo que código em desenvolvimento seja mesclado na branch principal e enviado a produção em estado desligado.
+* **C)** Excluir automaticamente o código-fonte da aplicação após 30 dias de uso em produção.
+* **D)** Impedir que desenvolvedores utilizem branches locais no Git.
+* **E)** Substituir os testes de segurança automatizados (SAST/DAST) por questionários manuais.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Flags operam na camada de código/lógica da aplicação.
+> - **B) Correta.** O conceito nuclear de Feature Flags é **Deploy != Release**: o código é implantado continuamente em produção, mas permanece invisível ou inativo para os usuários finais até que uma chave lógica de configuração seja ativada (permitindo testes A/B, liberação por usuário VIP ou *rollback* instantâneo sem necessidade de novo deploy).
+> - **C) Incorreta.** Flags velhas devem ser removidas por manutenção, não deleção cega automática.
+> - **D) Incorreta.** Não restringe branches locais.
+> - **E) Incorreta.** Feature flags não substituem testes de segurança.
+>
+> **Gabarito: B**
 
 ---
 
@@ -374,6 +494,31 @@ flowchart LR
 4. **Testes Automatizados:** Execução encadeada de suítes de testes automatizados organizados conforme a pirâmide de testes.
 5. **Armazenamento em *Registry* de Artefatos:** Publicação segura do artefato aprovado em repositório centralizado de binários (como Docker Hub corporativo, GitHub Container Registry, Harbor ou Nexus).
 6. **Deploy e *Smoke Tests*:** Implantação nos servidores de destino e disparo de testes de fumaça rápidos para verificar a disponibilidade de portas de rede e rotas de saúde (`/healthz`).
+
+### Questão 09
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na cultura DevSecOps, a integração da segurança ao longo de todo o ciclo de vida do software (*Shift-Left Security*) apoia-se em duas ferramentas automatizadas centrais no pipeline: SAST (*Static Application Security Testing*) e SCA (*Software Composition Analysis*). A correta distinção entre SAST e SCA estabelece que:
+
+* **A)** SAST audita o código-fonte proprietário da organização em repouso em busca de vulnerabilidades e falhas de codificação (como injeção SQL e XSS), enquanto SCA analisa as dependências de terceiros e bibliotecas de código aberto para identificar vulnerabilidades conhecidas (CVEs) e riscos de licenciamento.
+* **B)** SCA só pode ser executado em sistemas com servidores de banco de dados Oracle.
+* **C)** SAST testa a aplicação em tempo de execução contra ataques de negação de serviço (DDoS).
+* **D)** Ambos os termos são sinônimos perfeitos de testes manuais de caixa-preta realizados por estagiários.
+* **E)** SAST destina-se exclusivamente a validar o layout gráfico de páginas em CSS3.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** Distinção clássica cobrada em provas:
+>   - **SAST (Static Application Security Testing):** varre o código proprietário da equipe (*white-box*, em repouso), detectando vulnerabilidades como SQL Injection, Buffer Overflow e segredos expostos;
+>   - **SCA (Software Composition Analysis):** inspeciona o grafo de dependências externas (pacotes npm, Maven, pip), apontando CVEs cadastradas no NVD e problemas de licenças (como contaminação por GPLv3).
+> - **B) Incorreta.** SCA é agnóstico ao banco de dados.
+> - **C) Incorreta.** O teste de segurança em tempo de execução é o DAST (*Dynamic Application Security Testing*).
+> - **D) Incorreta.** São ferramentas automatizadas de análise de segurança em pipelines.
+> - **E) Incorreta.** SAST é focado em segurança de código.
+>
+> **Gabarito: A**
+
+---
+
 
 ### 4.2 Pirâmide de Testes Automatizados no Pipeline
 
@@ -450,7 +595,7 @@ jobs:
 
 ---
 
-### Questão 04 (FCC - Adaptada / TI - Ferramentas de CI/CD: GitHub Actions)
+### Questão 10 (FCC - Adaptada / TI - Ferramentas de CI/CD: GitHub Actions)
 Considere o seguinte trecho de manifesto de automação do GitHub Actions definido no caminho `.github/workflows/pipeline.yml`:
 
 ```yaml
@@ -607,7 +752,7 @@ pipeline {
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - GitLab CI/CD e Jenkins: Estrutura e Diretivas)
+### Questão 11 (FCC - Adaptada / TI - GitLab CI/CD e Jenkins: Estrutura e Diretivas)
 Em relação aos arquivos de manifesto e à estrutura operacional das ferramentas de integração contínua GitLab CI/CD e Jenkins, assinale a opção correta:  
 
 * **A)** No GitLab CI/CD, a diretiva `artifacts` serve unicamente para reaproveitar arquivos temporários como dependências de compiladores entre pipelines distintos, tendo a mesma função semântica de `cache`.

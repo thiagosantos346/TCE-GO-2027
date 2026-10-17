@@ -127,6 +127,28 @@ Ao formular seu planejamento plurianual, determinada defensoria pública incluiu
 
 
 
+### Questão 03 (FCC - Adaptada / Analista de Planejamento e Gestão)
+Na definição da identidade corporativa e do referencial estratégico de um órgão de controle externo, a **Visão de Futuro** diferencia-se da **Missão Institucional** por:
+
+* **A)** Descrever a imagem mental do estado futuro desejado que a instituição almeja alcançar em determinado horizonte temporal (onde queremos chegar), enquanto a Missão define a razão de existir fundamental e o propósito perene de atuação presente do órgão (quem somos e para que servimos).
+* **B)** Estabelecer os princípios éticos inegociáveis que regem a conduta disciplinar dos servidores concursados.
+* **C)** Consistir em documento sigiloso e restrito à apreciação do Presidente do Tribunal.
+* **D)** Ter validade perpétua e imutável que não admite revisão nem mesmo em novos ciclos plurianuais de planejamento.
+* **E)** Focar exclusivamente na redução percentual dos gastos de custeio com passagens aéreas e combustíveis.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Conceituação clássica: **Missão** é a razão de ser fundamental da instituição, sua vocação e propósito permanente de existir perante a sociedade; **Visão** é o estado futuro almejado, a aspiração ambiciosa de longo prazo, aquilo que a organização pretende ser e como deseja ser reconhecida no futuro.
+> - **B)** Incorreta. Refere-se aos **Valores** organizacionais.
+> - **C)** Incorreta. A identidade estratégica deve ser amplamente divulgada e compartilhada.
+> - **D)** Incorreta. A Visão tem horizonte temporal determinado (ex.: "ser referência nacional até 2030") e é renovada a cada ciclo.
+> - **E)** Incorreta. Meta operacional pontual, não visão estratégica.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. O Ciclo da Gestão Estratégica Integrada
 
 A gestão estratégica contemporânea não é um evento isolado quadrienal, mas um ciclo administrativo contínuo, dinâmico e retroalimentado composto por quatro etapas estruturadas:
@@ -148,6 +170,30 @@ flowchart TD
 4. **Monitoramento e Controle:** Acompanhamento tempestivo dos indicadores de resultado, identificação precoce de desvios e realização periódica de Reuniões de Avaliação da Estratégia (RAE) para calibragem de rotas.
 
 ---
+
+### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+Henry Mintzberg, ao analisar a formação das estratégias organizacionais, contrapôs o modelo puramente racional e deliberado ao surgimento de estratégias não previstas.
+
+Segundo Mintzberg, a **Estratégia Emergente** caracteriza-se por:
+
+* **A)** Surgir a partir de padrões consistentes de ação que emergem espontaneamente ao longo do tempo, em resposta a contingências, oportunidades e desafios imprevistos do ambiente, sem terem sido formalmente intencionadas no plano estratégico original.
+* **B)** Ser minuciosamente calculada pela alta administração em planos operacionais plurianuais de dez anos.
+* **C)** Exigir autorização prévia em emenda parlamentar na Lei de Diretrizes Orçamentárias.
+* **D)** Representar a parte do plano estratégico formal que foi integralmente abandonada e descartada pela equipe (*estratégia não realizada*).
+* **E)** Constituir violação do princípio da legalidade administrativa suscetível de anulação sumária.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Para Mintzberg, a estratégia realizada é uma combinação de **estratégias deliberadas** (intenções originais que foram formalmente planejadas e executadas) e **estratégias emergentes** (padrões de ação que não foram planejados de antemão, mas surgiram na prática em resposta à dinâmica ambiental e acabaram sendo adotados com sucesso pela organização).
+> - **B)** Incorreta. Isso caracteriza a estratégia puramente planejada/deliberada.
+> - **C)** Incorreta. Conceito de administração estratégica, não de formalismo financeiro.
+> - **D)** Incorreta. O que é descartado chama-se *estratégia não realizada*.
+> - **E)** Incorreta. Estratégias emergentes expressam capacidade de adaptação e resiliência.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)
 
@@ -173,7 +219,7 @@ flowchart LR
 
 ---
 
-### Questão 03
+### Questão 05
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica da formulação e implementação estratégica, as ações e padrões de conduta que emergem espontaneamente na rotina operacional da organização, sem terem sido previamente previstos no plano formal deliberado pela cúpula, são denominadas:
 
@@ -195,6 +241,27 @@ De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica d
 
 ---
 
+
+
+### Questão 06 (FCC - Adaptada / Analista de Planejamento e Controle)
+Na clássica obra *Safári de Estratégia*, Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel classificam o pensamento estratégico em dez escolas, agrupadas em **Prescritivas** e **Descritivas**.
+
+Constitui uma escola de natureza tipicamente **Prescritiva** (normativa), voltada para prescrever *como a estratégia deve ser idealmente formulada*:
+
+* **A)** A Escola do Planejamento (que concebe a formação estratégica como um processo formal, decomposto em etapas sequenciais analíticas e detalhadas).
+* **B)** A Escola do Aprendizado (que vê a estratégia como um processo emergente e contínuo de experimentação).
+* **C)** A Escola do Poder (que compreende a estratégia como um processo de negociação e disputas políticas entre grupos).
+* **D)** A Escola Cultural (que enxerga a formação da estratégia como um processo coletivo enraizado em valores e crenças).
+* **E)** A Escola Ambiental (que trata a estratégia como uma resposta passiva e reativa às pressões ecológicas do contexto externo).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. As três escolas **Prescritivas** (normativas - como deve ser formulada a estratégia) são: **Design** (estratégia como processo de concepção/ajuste SWOT), **Planejamento** (processo formal e sistemático de passos analíticos) e **Posicionamento** (processo analítico focado na indústria e concorrência - Porter). As demais escolas (Empreendedora, Cognitiva, Aprendizado, Poder, Cultural, Ambiental e Configuração) são **Descritivas** ou Integrativas (focam em como a estratégia realmente se desenvolve na prática).
+> - **B), C), D), E)** Incorretas. São todas escolas **Descritivas**.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 4. As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia*)
@@ -230,7 +297,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Questão 07
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de Estratégia*, a Escola do Design destaca-se historicamente por defender que a estratégia deve ser concebida por meio de:
 
@@ -271,7 +338,7 @@ Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári de Estratégia*, Henry Mintzberg e colaboradores classificam as escolas da estratégia em prescritivas e descritivas. Dentre as escolas prescritivas, aquela que concebe a formulação estratégica como um processo analítico formal, decomposto em etapas sequenciais rígidas e operado prioritariamente por técnicos e analistas de planejamento, é a:
 
@@ -293,6 +360,46 @@ Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári 
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Na elaboração do planejamento estratégico, a formulação dos **Valores Organizacionais** representa:
+
+* **A)** O conjunto de princípios, crenças fundamentais e padrões éticos de conduta compartilhados que orientam as decisões institucionais e definem as relações da organização com seus membros, parceiros e com a sociedade.
+* **B)** A estimativa do saldo orçamentário líquido da conta de capital no final de cada quadrimestre fiscal.
+* **C)** O cálculo do retorno econômico sobre os investimentos em obras rodoviárias estaduais.
+* **D)** A lista taxativa das penalidades disciplinares de demissão constantes do estatuto funcional.
+* **E)** O montante financeiro total de multas imputadas aos jurisdicionados pelo Tribunal de Contas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Os **Valores** compõem o núcleo axiológico e ético da cultura organizacional: estabelecem os limites morais, princípios de conduta, responsabilidade socioambiental, transparência e retidão que direcionam o comportamento de todos os integrantes da instituição na busca da missão e visão.
+> - **B), C), D), E)** Incorretas. Distorções que confundem "valores" axiológicos/éticos com conceitos puramente financeiros ou punitivos.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+O ciclo integrado de gestão estratégica nas organizações públicas envolve etapas encadeadas para garantir que as decisões não se restrinjam a documentos formais engavetados.
+
+A etapa do ciclo em que a alta direção e os comitês de governança comparam periodicamente o avanço real dos indicadores frente às metas estipuladas, promovendo os ajustes necessários no plano, denomina-se:
+
+* **A)** Monitoramento e Avaliação Estratégica.
+* **B)** Diagnóstico Ambiental Macro.
+* **C)** Formulação da Missão Corporativa.
+* **D)** Lançamento Tributário Vinculado.
+* **E)** Homologação de Parecer Prévio Orçamentário.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O ciclo da gestão estratégica compreende: (1) Diagnóstico Estratégico; (2) Formulação da Estratégia (missão, visão, objetivos); (3) Implementação/Execução; e (4) **Monitoramento e Avaliação** (acompanhamento contínuo dos indicadores de desempenho, análise de desvios e adoção de ações corretivas tempestivas).
+> - **B), C)** Incorretas. Fases preliminares de diagnóstico e concepção.
+> - **D), E)** Incorretas. Atos de direito financeiro e controle externo que não se confundem com as fases do ciclo de gestão estratégica.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 5. Fontes Oficiais e Referências Bibliográficas

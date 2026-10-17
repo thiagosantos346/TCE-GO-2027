@@ -121,6 +121,29 @@ A respeito das técnicas de processamento de texto, assinale a alternativa corre
     - Essa inovação permite capturar morfologia de palavras derivadas e **gerar embeddings consistentes para termos inéditos ou fora do vocabulário de treino (*OOV*)**.
     - *Limitação Canônica dos Embeddings Estáticos:* Atribuem um único vetor fixo estático para cada grafia de palavra, sendo incapazes de desambiguar sentidos polissêmicos (ex.: a palavra *"manga"* terá exatamente as mesmas coordenadas numéricas quer se refira a uma fruta, quer à manga de uma vestimenta).
 
+### Questão 02 (FGV - TRT / Analista Judiciário - TI - Representação Textual: BoW, TF-IDF e Word2Vec)
+No Processamento de Linguagem Natural (PLN), a representação matemática do texto é uma etapa crítica para o sucesso de modelos de classificação e agrupamento documental.
+
+A respeito das abordagens de vetorização textual clássicas (*Bag-of-Words* e *TF-IDF*) e dos modelos modernos de *Embeddings* estáticos (*Word2Vec*), assinale a afirmativa correta:
+
+* **A)** O modelo *Bag-of-Words* (BoW) preserva integralmente a estrutura sintática, a ordem cronológica dos termos e a gramática complexa da frase.
+* **B)** A métrica TF-IDF (*Term Frequency-Inverse Document Frequency*) atribui pesos mais elevados a palavras extremamente frequentes em todos os documentos do corpus (como artigos e preposições), pois elas carregam maior poder de diferenciação semântica.
+* **C)** O modelo *Word2Vec* (nas arquiteturas CBOW e Skip-Gram) mapeia palavras para vetores densos de baixa dimensionalidade em um espaço contínuo, onde palavras semanticamente similares ou que compartilham contextos afins situam-se geometricamente próximas, permitindo operações de aritmética vetorial (como $vetor(\text{"Rei"}) - vetor(\text{"Homem"}) + vetor(\text{"Mulher"}) \approx vetor(\text{"Rainha"})$).
+* **D)** O TF-IDF gera vetores puramente densos de no máximo 50 posições para qualquer vocabulário, eliminando a esparsidade de matrizes.
+* **E)** O modelo Skip-Gram utiliza as palavras do contexto para prever a palavra central, ao passo que o CBOW (*Continuous Bag-of-Words*) utiliza a palavra central para prever o contexto circunvizinho.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O modelo *Bag-of-Words* desconsidera inteiramente a ordem das palavras e as relações gramaticais, contabilizando apenas a frequência de ocorrência dos termos de modo desordenado.
+> - **B)** Incorreta. O componente IDF (*Inverse Document Frequency*) atua exatamente no sentido inverso: penaliza termos comuns que aparecem em muitos documentos (*stopwords*), atribuindo pesos altos a termos raros e específicos que discriminam documentos.
+> - **C)** **CORRETA.** O **Word2Vec** (Mikolov et al., 2013) revolucionou o PLN ao substituir representações esparsas *one-hot* de altíssima dimensão por **vetores contínuos densos** (ex.: 300 dimensões). As relações semânticas e sintáticas aprendidas a partir do contexto refletem-se em propriedades algébricas no espaço vetorial latente, possibilitando analogias lineares por similaridade cosseno.
+> - **D)** Incorreta. O TF-IDF produz matrizes de termos por documentos altamente **esparsas** (a maioria das células é zero), cuja dimensionalidade equivale ao tamanho total do vocabulário do corpus (frequentemente centenas de milhares de colunas).
+> - **E)** Incorreta. Os papéis foram invertidos: o **CBOW** prevê a palavra central a partir das palavras de contexto, enquanto o **Skip-Gram** prevê as palavras de contexto a partir da palavra central.
+> 
+> **Gabarito: C**
+
+---
+
 ### 1.3 A Revolução dos Transformers em PLN: BERT vs. GPT
 
 A publicação do artigo histórico *"Attention Is All You Need"* (Vaswani et al., 2017) consolidou o mecanismo de **Atenção Escalada por Produto Escalar (*Scaled Dot-Product Attention*)**:
@@ -154,7 +177,7 @@ onde $Q$ são as Consultas (*Queries*), $K$ são as Chaves (*Keys*), $V$ são os
 
 ---
 
-### Questão 02
+### Questão 03
 **(FCC - SEFAZ-PE - Auditoria de Tecnologia da Informação)**
 A publicação da arquitetura *Transformer* impulsionou a criação de modelos de linguagem pré-treinados profundos que hoje alicerçam grande parte do estado da arte em Processamento de Linguagem Natural. A partir desse paradigma, destacaram-se duas famílias arquiteturais com propriedades distintas: os modelos baseados no Codificador (*Encoder*) e os baseados no Decodificador (*Decoder*).
 Sobre as diferenças técnicas entre as famílias BERT e GPT, assinale a afirmativa correta:
@@ -189,6 +212,31 @@ A IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a 
 
 Enquanto a IA Discriminativa calcula $P(y \mid X)$ para separar instâncias em classes, a IA Generativa modela os padrões intrínsecos de formação dos dados. As três principais famílias contemporâneas são: GANs, Modelos de Difusão e LLMs Autoregressivos.
 
+### Questão 04 (FGV - TRT / Analista Judiciário - TI - Modelos Generativos vs. Modelos Discriminativos)
+A Inteligência Artificial Generativa baseia-se na formulação de modelos probabilísticos capazes de sintetizar novos artefatos de dados semelhantes àqueles observados durante o treinamento.
+
+Do ponto de vista da teoria estatística de aprendizado de máquina, a distinção formal entre um **Modelo Generativo** e um **Modelo Discriminativo** consiste em:
+
+* **A)** O modelo generativo aprende a distribuição de probabilidade conjunta $P(X, Y)$ ou a distribuição dos próprios dados $P(X)$, permitindo gerar novos exemplos realistas; ao passo que o modelo discriminativo aprende a probabilidade condicional $P(Y | X)$, focando exclusivamente em distinguir ou prever o rótulo $Y$ dado um vetor de características $X$.
+* **B)** Modelos discriminativos são exclusivos de tarefas não supervisionadas, enquanto modelos generativos só podem ser aplicados em problemas de regressão linear simples.
+* **C)** Modelos generativos avaliam se uma amostra pertence à classe A ou B sem modelar a distribuição dos dados de entrada.
+* **D)** Redes neurais nunca podem ser utilizadas como modelos generativos, sendo essa tarefa restrita a autômatos celulares determinísticos.
+* **E)** O modelo discriminativo tem como objetivo principal gerar imagens e áudios a partir de prompts em linguagem natural.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Classificação estatística canônica:
+>   - **Modelos Discriminativos:** Aprendem a fronteira de decisão entre classes. Estimam diretamente a probabilidade condicional $P(Y | X)$ (ex.: Regressão Logística, SVM, Random Forest, redes classificadoras). Eles respondem: *"dada esta imagem $X$, qual a probabilidade de ser uma fraude $Y$?"*.
+>   - **Modelos Generativos:** Capturam a distribuição subjacente dos dados. Aprendem a distribuição conjunta $P(X, Y)$ ou a distribuição de probabilidade dos atributos $P(X)$ (ex.: GANs, Modelos de Difusão, VAEs, LLMs autoregressivos). Eles respondem: *"como se parece uma amostra representativa de um relatório de auditoria ou imagem $X$?"*, tornando possível amostrar da distribuição para **gerar novas instâncias sintéticas inéditas**.
+> - **B)** Incorreta. Modelos discriminativos são largamente usados no aprendizado supervisionado (classificação e regressão).
+> - **C)** Incorreta. Essa é a função exata dos modelos discriminativos (delimitar fronteiras de separação).
+> - **D)** Incorreta. As principais arquiteturas generativas da atualidade (Transformers, GANs, Difusão) são redes neurais profundas.
+> - **E)** Incorreta. A geração de imagens e áudio a partir de texto é realizada por modelos generativos multimodais, e não discriminativos.
+> 
+> **Gabarito: A**
+
+---
+
 ### 2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo
 
 Introduzidas por Ian Goodfellow em 2014, as **GANs (*Generative Adversarial Networks*)** fundamentam-se em duas redes neurais profundas que competem entre si em um jogo de minimax de soma zero da teoria dos jogos:
@@ -214,7 +262,7 @@ Introduzidas por Ian Goodfellow em 2014, as **GANs (*Generative Adversarial Netw
 
 ---
 
-### Questão 03
+### Questão 05
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 No domínio da Inteligência Artificial Generativa, diferentes famílias de redes neurais profundas foram consolidadas para síntese realista de dados multidimensionais, destacando-se as Redes Adversárias Generativas (GANs) e os Modelos de Difusão (*Diffusion Models*).
 A respeito das características arquiteturais dessas tecnologias generativas, assinale a alternativa correta:
@@ -246,6 +294,32 @@ Tornaram-se o estado da arte na síntese de imagens e mídias de alta fidelidade
 - **Processo Reverso (*Reverse Diffusion Process*):** Uma rede neural profunda especializada (geralmente uma arquitetura U-Net associada a mecanismos de atenção cruzada condicionados por texto) é treinada para predizer e remover iterativamente a fração exata de ruído adicionada em cada passo. Partindo de puro ruído gaussiano aleatório, o modelo desconstrói o ruído passo a passo até reconstituir uma imagem hiper-realista.
 - **Vantagem sobre GANs:** Apresentam treinamento estritamente estável, livre de dinâmicas adversárias em minimax e **completamente imunes ao colapso de modo**, cobrindo com excelência toda a distribuição do espaço latente.
 
+### Questão 06 (FCC - TRT / Analista Judiciário - TI - Modelos de Difusão em IA Generativa)
+Os Modelos de Difusão (*Diffusion Models*, como DALL-E 3, Midjourney e Stable Diffusion) representam o estado da arte na geração de imagens e conteúdos sintéticos de alta fidelidade.
+
+O princípio físico e matemático fundamental que rege o treinamento e a inferência em um Modelo de Difusão consiste em:
+
+* **A)** Treinar duas redes em competição adversarial de soma zero até que o discriminador atinja 100% de acurácia.
+* **B)** Um Processo Direto (*Forward Process*), no qual ruído Gaussiano é gradualmente injetado nos dados ao longo de múltiplos passos de tempo até que a imagem se torne puro ruído aleatório; e um Processo Reverso (*Reverse Process*), no qual uma rede neural (tipicamente uma U-Net) aprende a estimar e remover progressivamente esse ruído, reconstruindo a imagem a partir do ruído puro condicionada a um prompt textual.
+* **C)** Executar uma busca em profundidade numa árvore de sintaxe abstrata para compor matrizes de pixels RGB por interpolação bicúbica.
+* **D)** Comprimir a imagem em um único número inteiro de 8 bits e descompactá-lo usando o algoritmo de Huffman.
+* **E)** Aplicar transformadas de Fourier bidimensionais sem qualquer parâmetro ajustável por gradiente descendente.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Essa é a mecânica das Redes Adversárias Generativas (GANs), formadas por Gerador e Discriminador em jogo minimax, que sofre do problema de colapso de modo (*mode collapse*).
+> - **B)** **CORRETA.** Os **Modelos de Difusão Probabilística** (DDPM / Latent Diffusion) inspiram-se na termodinâmica de difusão:
+>   1. **Forward Process (Difusão Direta):** Uma cadeia de Markov adiciona incrementalmente ruído Gaussiano à imagem original ao longo de $T$ passos, até transformá-la em ruído isotrópico $\mathcal{N}(0, I)$. Esse processo é determinístico e não requer aprendizado.
+>   2. **Reverse Process (Difusão Reversa / Denoising):** Uma rede neural profunda (arquitetura U-Net enriquecida com mecanismos de atenção cruzada / *cross-attention*) é treinada para predizer o ruído adicionado em cada passo temporal.
+>   3. **Inferência:** O modelo inicia com um ruído puramente aleatório e, iterativamente, subtrai o ruído predito guiado pelo condicionamento do texto (*Classifier-Free Guidance*), gerando imagens inéditas de altíssima qualidade com treinamento muito mais estável que as GANs.
+> - **C)** Incorreta. Não se baseia em busca em árvores gramaticais.
+> - **D)** Incorreta. Não se relaciona a algoritmos de compressão estática como Huffman.
+> - **E)** Incorreta. Envolve treinamento intensivo de milhões/bilhões de pesos neurais via otimização de gradientes.
+> 
+> **Gabarito: B**
+
+---
+
 ### 2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem
 
 Os modelos autoregressivos geram textos computando a probabilidade condicional de cada token sucessivo com base em todos os tokens precedentes:
@@ -264,6 +338,33 @@ A conversão do vetor de números reais (*logits*) emitido pela rede em tokens t
 3. **Top-$p$ Sampling (Amostragem por Núcleo / *Nucleus Sampling*):**
     - Em vez de fixar uma contagem estática $k$, seleciona dinamicamente o menor conjunto de tokens cuja soma cumulativa de probabilidades atinja o limiar estipulado $p$ (ex.: $p = 0.90$).
     - Adapta-se fluidamente: em momentos de certeza gramatical, o núcleo pode conter apenas 1 ou 2 tokens; em contextos abertos, o núcleo expande-se dinamicamente para dezenas de opções viáveis.
+
+---
+
+### Questão 07 (FGV - TJ-MT / Analista Judiciário - TI - Modelos Autoregressivos e Parâmetros de Amostragem em LLMs)
+Em Modelos de Linguagem de Grande Porte autoregressivos (como as famílias GPT, LLaMA e Gemini), o processo de geração textual consiste em prever iterativamente a probabilidade da próxima palavra ou pedaço de palavra (*token*) a partir dos tokens anteriores:
+
+$$P(w_t | w_1, w_2, \dots, w_{t-1})$$
+
+Para controlar o grau de aleatoriedade, criatividade e determinismo do texto gerado na inferência, desenvolvedores ajustam hiperparâmetros de decodificação. A respeito dos parâmetros **Temperatura (*Temperature*)** e **Top-$p$ (*Nucleus Sampling*)**, assinale a afirmativa correta:
+
+* **A)** Uma Temperatura configurada em 0,0 torna a amostragem completamente estocástica e caótica, escolhendo palavras com as menores probabilidades possíveis.
+* **B)** Aumentar a Temperatura achata a distribuição de probabilidade dos tokens (distribuição mais uniforme), aumentando a probabilidade de seleção de tokens menos prováveis e tornando o texto mais criativo e diverso; ao passo que reduzir a Temperatura para próximo de zero aproxima o modelo de uma busca gananciosa (*Greedy Search*), tornando a resposta altamente previsível e determinística.
+* **C)** O parâmetro Top-$p$ descarta os $p$ primeiros tokens do vocabulário e sorteia apenas entre os termos restantes.
+* **D)** Em tarefas de auditoria estrita e extração factual de dados tabulares de editais de licitação, recomenda-se configurar a Temperatura em seu valor máximo (ex.: 2.0) para maximizar o número de alucinações inovadoras.
+* **E)** A Temperatura e o Top-$p$ atuam exclusivamente no processo de pré-treinamento com trilhões de tokens, sendo impossível alterá-los durante a chamada de API em tempo de execução.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Temperatura 0,0 (ou limite próximo a zero) escolhe sempre o token de maior probabilidade absoluta (*Argmax / Greedy Decoding*), tornando a saída puramente determinística.
+> - **B)** **CORRETA.** Mecânica de amostragem em LLMs:
+>   - **Temperatura ($T$):** Ajusta os *logits* antes da aplicação da função Softmax ($q_i = \frac{\exp(z_i / T)}{\sum_j \exp(z_j / T)}$). Quando $T > 1$, as probabilidades relativas são suavizadas/achatadas, estimulando diversidade, metáforas e criatividade. Quando $T \to 0$, a curva fica extremamente íngreme, concentrando toda a probabilidade no token mais provável.
+>   - **Top-$p$ (Nucleus Sampling):** Seleciona o menor conjunto de tokens cuja soma de probabilidades acumuladas atinge o valor $p$ (ex.: $p = 0.9$ considera apenas o "núcleo" de 90% mais provável), eliminando a cauda longa de termos descabidos antes de sortear.
+> - **C)** Incorreta. O Top-$p$ retém os tokens que somam $p$ da massa de probabilidade principal (*núcleo*), descartando o restante da cauda.
+> - **D)** Incorreta. Em tarefas factuais de auditoria, cálculo financeiro e classificação de conformidade legal, deve-se usar **baixa temperatura** ($T = 0.0$ a $0.2$) para garantir consistência e reprodutibilidade factual, evitando desvios fantasiosos.
+> - **E)** Incorreta. São parâmetros exclusivos de inferência (*runtime decoding parameters*).
+> 
+> **Gabarito: B**
 
 ---
 
@@ -299,6 +400,33 @@ Para projetar formalmente um agente inteligente, especifica-se o framework **PEA
 - **A (Actuators / Atuadores):** Os canais ou dispositivos pelos quais o agente age sobre o ambiente.
 - **S (Sensors / Sensores):** Os instrumentos de entrada pelos quais o agente recolhe dados do ambiente.
 
+### Questão 08 (FGV - TRT / Analista Judiciário - TI - O Framework PEAS em Agentes Inteligentes)
+Ao projetar um sistema agentivo inteligente baseado em IA para atuar na fiscalização automatizada de folhas de pagamento do Tribunal de Contas, o arquiteto de software utiliza o modelo formal **PEAS** (Performance, Environment, Actuators, Sensors) preconizado por Russell & Norvig.
+
+Assinale a opção que mapeia correta e respectivamente os elementos do framework PEAS para esse agente inteligente de auditoria:
+
+* **A)** Performance: Banco de dados relacional; Environment: Teclado; Actuators: Memória RAM; Sensors: Cabos de fibra óptica.
+* **B)** Performance: Taxa de acerto na identificação de pagamentos indevidos e minimização de falsos positivos; Environment: Base de dados do tribunal, sistemas do e-Social e diários oficiais; Actuators: Emissão de relatórios de alerta, bloqueio cautelar preventivo e envio de notificações formais; Sensors: Conexões de rede, APIs de consulta a folhas de pagamento e leitores de arquivos de remessa bancária.
+* **C)** Performance: Consumo elétrico dos servidores em watts; Environment: Processador Intel Xeon; Actuators: Mouse; Sensors: Monitor LCD.
+* **D)** Performance: Código-fonte em Python; Environment: Sistema operacional Linux; Actuators: Disco SSD; Sensors: Placa de vídeo.
+* **E)** O framework PEAS proíbe a especificação de medidas de desempenho quantitativas para agentes públicos de controle.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Confunde componentes de hardware com os conceitos de ambiente, atuadores e sensores.
+> - **B)** **CORRETA.** Aplicação canônica do framework **PEAS** ao domínio de Controle Externo:
+>   - **P - Performance (Medida de Desempenho):** Critério objetivo de sucesso do agente (ex.: precisão na detecção de indícios de ilegalidade em contracheques, redução de pagamentos duplicados a servidores falecidos e baixa taxa de falsos positivos).
+>   - **E - Environment (Ambiente):** O mundo no qual o agente opera (bases de RH estaduais/municipais, sistemas da Receita Federal, diários oficiais eletrônicos).
+>   - **A - Actuators (Atuadores):** Meios pelos quais o agente age sobre o ambiente (envio de alertas automatizados aos auditores, inserção de anotações no processo eletrônico, geração de minutas de acórdão).
+>   - **S - Sensors (Sensores):** Meios pelos quais o agente percebe o ambiente (parsers de arquivos bancários CNAB, conectores de API RESTful, web scrapers de portais de transparência).
+> - **C)** Incorreta. Limita-se a periféricos genéricos de desktop.
+> - **D)** Incorreta. Enumera componentes de infraestrutura de TI, desconsiderando a semântica da tarefa.
+> - **E)** Incorreta. A medida de desempenho quantitativa é o núcleo mandatório de qualquer agente racional.
+> 
+> **Gabarito: B**
+
+---
+
 ### 3.2 Propriedades dos Ambientes de Tarefa
 
 A arquitetura e os algoritmos do agente são diretamente moldados pelas características de seu ambiente de tarefa:
@@ -309,6 +437,37 @@ A arquitetura e os algoritmos do agente são diretamente moldados pelas caracter
 4. **Estático vs. Dinâmico:** É estático se o ambiente não se altera enquanto o agente delibera; é dinâmico se o mundo continua evoluindo e mudando enquanto o algoritmo processa sua decisão.
 5. **Discreto vs. Contínuo:** Se os estados, ações e percepções são contáveis em passos finitos ou representados por variáveis contínuas no tempo e espaço.
 6. **Agente Único vs. Multiagente:** Se a entidade opera isoladamente no ambiente ou se interage com outros agentes em regimes cooperativos ou competitivos.
+
+### Questão 09 (FCC - TRT / Analista Judiciário - TI - Taxonomia de Ambientes de Tarefa)
+O projeto de agentes inteligentes de software exige a caracterização prévia das propriedades estruturais do seu ambiente de tarefa, as quais determinam a complexidade do algoritmo decisório a ser adotado.
+
+Considere um agente inteligente projetado para navegar e monitorar pregões eletrônicos em tempo real na Bolsa de Licitações Públicas, onde novos lances chegam em frações de segundo, as decisões dos licitantes concorrentes são privadas e imprevisíveis e as regras do edital mudam conforme eventos externos dinâmicos.
+
+Segundo a taxonomia clássica de Russell & Norvig, esse ambiente de tarefa classifica-se formalmente como:
+
+* **A)** Totalmente Observável, Determinístico, Estático, Episódico e Discreto.
+* **B)** Parcialmente Observável, Estocástico, Dinâmico, Sequencial e Contínuo.
+* **C)** Totalmente Observável, Estratégico, Estático, Episódico e Determinístico.
+* **D)** Parcialmente Observável, Determinístico, Estático, Episódico e Individual.
+* **E)** Totalmente Observável, Estocástico, Estático, Não Sequencial e Discreto.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O pregão em tempo real não é determinístico nem estático nem episódico.
+> - **B)** **CORRETA.** Caracterização formal das 6 dimensões do ambiente:
+>   1. **Parcialmente Observável:** O agente não tem acesso ao estado mental interno, estratégias de conluio ocultas ou capacidade financeira real de todos os licitantes.
+>   2. **Estocástico:** O próximo estado do ambiente não é determinado unicamente pelo estado atual e pela ação do agente; há incerteza intrínseca e comportamento estocástico dos participantes.
+>   3. **Dinâmico:** O ambiente continua evoluindo e mudando enquanto o agente está "pensando" (lances ocorrem em tempo real enquanto o algoritmo processa).
+>   4. **Sequencial:** As decisões atuais do agente (ex.: desclassificar uma proposta ou solicitar comprovação) afetam diretamente o desenrolar das etapas futuras do pregão (não episódico).
+>   5. **Contínuo:** O tempo flui de maneira contínua e as variáveis monetárias de lances operam em escalas contínuas de valores.
+>   6. **Multiagente Competitivo:** Múltiplos agentes com interesses antagônicos disputam o mesmo certame.
+> - **C)** Incorreta. Em um ambiente dinâmico e parcialmente observável, é inviável classificá-lo como estático e totalmente observável.
+> - **D)** Incorreta. O ambiente não é estático nem episódico.
+> - **E)** Incorreta. O ambiente não é estático nem totalmente observável.
+> 
+> **Gabarito: B**
+
+---
 
 ### 3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)
 
@@ -336,7 +495,7 @@ A arquitetura e os algoritmos do agente são diretamente moldados pelas caracter
 
 ---
 
-### Questão 04
+### Questão 10
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 A teoria canônica de Inteligência Artificial formalizada por Stuart Russell e Peter Norvig organiza o projeto de sistemas computacionais autônomos com base no conceito de Agentes Racionais operando em Ambientes de Tarefas caracterizados pela taxonomia do framework PEAS (*Performance, Environment, Actuators, Sensors*).
 A respeito da classificação e do comportamento dos agentes inteligentes, assinale a alternativa correta:
@@ -387,7 +546,7 @@ O marco fundamental que consolidou a visão-linguagem moderna foi o modelo **CLI
 
 ---
 
-### Questão 05
+### Questão 11
 **(FCC - TRT-2ª Região - Analista Judiciário - Tecnologia da Informação)**
 Em um projeto de inovação tecnológica do tribunal, a diretoria de TI pretende implementar uma ferramenta de fiscalização capaz de cruzar fotografias de canteiros de obras públicas com os relatórios descritivos de medição de engenharia civil. A equipe técnica optou pela arquitetura multimodal CLIP (*Contrastive Language-Image Pre-training*).
 Sobre os fundamentos operacionais e os benefícios metodológicos da arquitetura CLIP, é correto afirmar:

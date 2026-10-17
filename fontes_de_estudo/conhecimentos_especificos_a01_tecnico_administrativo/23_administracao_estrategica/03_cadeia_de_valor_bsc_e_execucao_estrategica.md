@@ -134,6 +134,27 @@ No setor público, a "Margem de Lucro Privada" é convertida no conceito fundame
 
 ---
 
+### Questão 03 (FCC - Adaptada / Analista de Gestão Pública)
+Na Cadeia de Valor de Michael Porter, as atividades empresariais e organizacionais são rigorosamente classificadas em Atividades Primárias e Atividades de Apoio (ou Suporte).
+
+Constitui típica **Atividade Primária** da Cadeia de Valor:
+
+* **A)** Logística Interna (recebimento, armazenamento e distribuição de insumos e matérias-primas).
+* **B)** Gestão de Recursos Humanos (recrutamento, seleção, treinamento e remuneração).
+* **C)** Desenvolvimento de Tecnologia e Pesquisa (P&D).
+* **D)** Infraestrutura da Empresa (planejamento, contabilidade, finanças e assessoria jurídica).
+* **E)** Aquisição / Compras de suprimentos corporativos gerais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A Cadeia de Valor de Porter divide-se em: **Atividades Primárias** (envolvidas diretamente na criação física, venda e entrega do produto/serviço): Logística Interna, Operações, Logística Externa, Marketing/Vendas e Serviços pós-venda. As **Atividades de Apoio/Suporte** (sustentam as atividades primárias fornecendo insumos, tecnologia e infraestrutura): Infraestrutura da empresa, Gestão de RH, Desenvolvimento de Tecnologia e Aquisição/Compras.
+> - **B), C), D), E)** Incorretas. São todas Atividades de Apoio / Suporte.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. O Desdobramento da Estratégia (*Cascading*) pelo BSC
 
 O Balanced Scorecard (BSC) só se converte em realidade operacional quando o mapa estratégico é desdobrado de forma descendente em iniciativas concretas:
@@ -167,7 +188,7 @@ flowchart TD
 
 ---
 
-### Questão 03
+### Questão 04
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard (BSC), a metodologia exige a articulação harmônica de quatro componentes operacionais para garantir a efetividade da execução. A associação correta entre o componente do BSC e sua respectiva definição é:
 
@@ -189,6 +210,25 @@ No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard 
 
 ---
 
+
+
+### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
+No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard, a técnica denominada **Cascading** (Estratégia em Cascata) tem por objetivo central:
+
+* **A)** Desdobrar e traduzir os objetivos, metas e indicadores corporativos do nível estratégico para os níveis tático e operacional, alinhando as diretorias setoriais, gerências e equipes individuais à estratégia mestre da organização.
+* **B)** Eliminar a remuneração variável e gratificações dos servidores públicos estaduais.
+* **C)** Concentrar todas as decisões de compras na presidência da comissão permanente de licitação.
+* **D)** Impor a demissão periódica de 10% dos servidores com pior produtividade mecânica.
+* **E)** Substituir os sistemas de gestão eletrônica de processos por formulários impressos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O desdobramento da estratégia (*cascading*) promove o alinhamento organizacional vertical: os objetivos macro do mapa estratégico institucional são sucessivamente traduzidos em objetivos departamentais e metas operacionais para equipes e indivíduos, assegurando que o trabalho diário contribua para a estratégia corporativa.
+> - **B), C), D), E)** Incorretas. Distorções que nada têm a ver com a metodologia do BSC.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)
@@ -215,7 +255,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Questão 06
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 No contexto do alinhamento organizacional e desdobramento da estratégia pelo Balanced Scorecard (BSC), Robert Kaplan e David Norton identificaram as principais barreiras que impedem a execução eficaz dos planos estratégicos nas instituições. A constatação empírica de que a imensa maioria dos orçamentos financeiros e dos planos anuais de compras não guarda conexão direta com as prioridades e iniciativas definidas no plano estratégico de longo prazo tipifica a:
 
@@ -239,6 +279,27 @@ No contexto do alinhamento organizacional e desdobramento da estratégia pelo Ba
 
 
 
+### Questão 07 (FCC - Adaptada / Analista de Planejamento e Gestão)
+Kaplan e Norton identificaram as quatro barreiras primordiais que impedem a execução eficaz das estratégias organizacionais nas instituições.
+
+A barreira que ocorre quando a alta direção formula a estratégia, mas não a comunica nem a torna compreensível para os servidores e colaboradores que executam os serviços cotidianos na ponta da linha é denominada:
+
+* **A)** Barreira da Visão.
+* **B)** Barreira das Pessoas.
+* **C)** Barreira da Gestão.
+* **D)** Barreira dos Recursos.
+* **E)** Barreira Orçamentária Externa.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. As **quatro barreiras de Kaplan e Norton**: (1) **Barreira da Visão**: a equipe não compreende a estratégia nem a visão (apenas uma minoria conhece o plano); (2) **Barreira das Pessoas**: metas e incentivos individuais não estão ligados à estratégia; (3) **Barreira da Gestão**: a liderança dedica tempo excessivo a problemas operacionais e pouco à estratégia; (4) **Barreira dos Recursos**: orçamentos e investimentos não são alocados aos projetos estratégicos prioritários.
+> - **B), C), D), E)** Incorretas. Outras barreiras ou terminologias distintas do conceito cobrado.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)
 
 Para romper as barreiras de execução, a governança pública moderna institui estruturas e rotinas permanentes:
@@ -248,7 +309,7 @@ Para romper as barreiras de execução, a governança pública moderna institui 
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 Com o propósito de assegurar a governança e a implementação efetiva de seu plano estratégico, determinado órgão público instituiu uma unidade permanente denominada Escritório de Gestão Estratégica (EGE) e fixou Reuniões de Avaliação da Estratégia (RAE) com periodicidade bimestral. A finalidade precípua das RAEs é:
 
@@ -270,6 +331,47 @@ Com o propósito de assegurar a governança e a implementação efetiva de seu p
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Na governança estratégica moderna dos órgãos públicos (como no TCE-GO), as **Reuniões de Avaliação da Estratégia (RAE)** desempenham papel crucial na governança executiva.
+
+O propósito primordial das RAEs é:
+
+* **A)** Avaliar o andamento das iniciativas e indicadores estratégicos institucionais em periodicidade definida, debatendo causas de desvios e decidindo intervenções saneadoras e alocação de recursos em alto nível.
+* **B)** Realizar a apuração de faltas funcionais disciplinares individuais dos servidores para abertura de PAD.
+* **C)** Fiscalizar a conformidade fiscal das declarações de imposto de renda de pessoas físicas.
+* **D)** Redigir pareceres jurídicos para aprovação de editais de concurso público.
+* **E)** Conceder recesso administrativo remunerado aos membros dos comitês executivos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. As **Reuniões de Avaliação da Estratégia (RAE)** reúnem periodicamente a alta administração e os líderes de projetos para revisar o mapa estratégico, analisar se os indicadores estão atingindo as metas e tomar decisões corretivas para destravar projetos estratégicos prioritários.
+> - **B), C), D), E)** Incorretas. Funções corriqueiras ou disciplinares estranhas ao escopo das RAEs.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+No âmbito dos Tribunais de Contas, o **Escritório de Gestão Estratégica (EGE)** atua como unidade técnica de apoio à governança corporativa.
+
+Dentre as atribuições típicas do EGE em uma corte de contas, destaca-se:
+
+* **A)** Facilitar o processo de planejamento estratégico institucional, apoiar as áreas na definição de indicadores e metas, consolidar relatórios de desempenho e secretariar as Reuniões de Avaliação da Estratégia.
+* **B)** Emitir votos de julgamento de mérito com força jurisdicional nos processos de fiscalização contábil.
+* **C)** Fiscalizar in loco as obras de construção civil e realizar medições de asfalto em rodovias estaduais.
+* **D)** Gerenciar a segurança armada e o policiamento ostensivo das portarias do prédio sede.
+* **E)** Substituir os Conselheiros titulares do Tribunal em caso de vacância definitiva do cargo.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **Escritório de Gestão Estratégica (EGE / PMO Estratégico)** é o guardião metodológico da estratégia do órgão: auxilia a formulação, apoia os gestores setoriais na gestão de projetos e indicadores, padroniza ferramentas (BSC, 5W2H) e alimenta a alta direção com dados consolidados para subsidiar decisões de governança.
+> - **B), C), D), E)** Incorretas. Atribuições institucionais próprias dos Conselheiros, auditores fiscais ou segurança predial.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 5. Fontes Oficiais e Referências Bibliográficas

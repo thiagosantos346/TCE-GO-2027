@@ -100,6 +100,28 @@ Nos moldes dos artigos 1º a 3º da Lei nº 16.168/2007, compete privativamente 
 - Aplicar sanções e fixar prazos para adoção de medidas corretivas em atos ilegais;
 - Emitir pronunciamento em caráter normativo em resposta a **Consultas** formuladas por autoridades legitimadas (sem analisar casos concretos).
 
+
+### Questão 01
+**(FCC – Inédita – Padrão TCE-GO)**  
+De acordo com as disposições da Lei Orgânica do Tribunal de Contas do Estado de Goiás (Lei Estadual nº 16.168/2007, arts. 1º a 4º), estão sujeitos à jurisdição do TCE-GO:
+
+* **A)** Exclusivamente os chefes dos Poderes Executivo, Legislativo e Judiciário, excluindo-se servidores subordinados e dirigentes de entidades privadas.
+* **B)** Qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos estaduais ou pelos quais o Estado responda, bem como aqueles que derem causa a perda, extravio ou outra irregularidade de que resulte dano ao erário.
+* **C)** Apenas os agentes que praticarem atos com dolo comprovado, ficando as condutas culposas isentas da jurisdição fiscalizatória da Corte de Contas.
+* **D)** As empresas públicas e sociedades de economia mista apenas no que tange às suas atividades-meio de contratação de pessoal temporário.
+* **E)** Exclusivamente os órgãos da administração direta estadual, excluídas as fundações e autarquias dotadas de personalidade jurídica própria.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A jurisdição do TCE-GO alcança todos os ordenadores de despesas e administradores públicos em qualquer nível funcional, além de particulares que causem dano aos cofres públicos.
+> - **B)** Correta. Reproduz com precisão o comando do art. 2º da Lei Orgânica do TCE-GO (Lei nº 16.168/2007), que espelha o art. 70, parágrafo único, da CF/88 e art. 26 da CE/GO: a sujeição à jurisdição da Corte abrange todas as pessoas físicas e jurídicas (públicas ou privadas) gestoras de recursos estaduais ou que causem prejuízo patrimonial ao Estado de Goiás.
+> - **C)** Incorreta. A responsabilidade perante o Tribunal de Contas alcança atos omissivos ou comissivos praticados tanto com dolo quanto com culpa estrita (negligência, imprudência ou imperícia).
+> - **D) e E)** Incorretas. Toda a administração indireta estadual (autarquias, fundações, empresas públicas e sociedades de economia mista) submete-se integralmente à fiscalização contábil, financeira, orçamentária, operacional e patrimonial do TCE-GO.
+>
+> **Gabarito: B**
+
+---
+
 ---
 
 ## 2. Instrumentos de Fiscalização Externa (Arts. 5º a 10)
@@ -133,6 +155,34 @@ O Tribunal fiscaliza procedimentos de licitação, editais, atas de registro de 
 - O TCE-GO possui atribuição legal para analisar a minuta de editais de concessões, parcerias público-privadas (PPPs) e grandes contratações públicas, determinando ajustes saneadores quando identificadas cláusulas restritivas da competitividade.
 - Nas parcerias com o Terceiro Setor (Organizações Sociais de Saúde, Educação, etc.), a fiscalização do TCE-GO debruça-se sobre o atingimento de metas pactuadas nos **Contratos de Gestão**, a regularidade dos processos de contratação de terceiros pelas OSs e o cumprimento dos limites de despesas com pessoal e custeio.
 
+
+### Questão 02
+**(FCC – Inédita – Padrão TCE-GO)**  
+A Lei Orgânica do TCE-GO (Lei nº 16.168/2007, arts. 5º a 10) tipifica os instrumentos operacionais de fiscalização a serem utilizados pelo Tribunal. Considere as seguintes definições:  
+
+1. *Instrumento destinado a verificar a legalidade e a legitimidade dos atos e fatos administrativos em andamento ou já praticados, bem como coligir dados preliminares ou esclarecer dúvidas decorrentes de denúncia ou representação.*  
+2. *Instrumento utilizado para verificar a eficácia, eficiência e economicidade da gestão, mediante exame aprofundado dos sistemas de gestão e das operações financeiras e patrimoniais do órgão.*  
+3. *Instrumento voltado a verificar o cumprimento de deliberações do Tribunal e os resultados das recomendações e determinações expedidas em processos anteriores.*  
+
+Os instrumentos operacionais descritos em 1, 2 e 3 correspondem, respectivamente, a:
+
+* **A)** Levantamento – Auditoria – Acompanhamento
+* **B)** Inspeção – Auditoria – Monitoramento
+* **C)** Auditoria – Levantamento – Monitoramento
+* **D)** Inspeção – Levantamento – Acompanhamento
+* **E)** Monitoramento – Inspeção – Auditoria
+
+> **Comentário Detalhado:**
+>
+> - **Item 1:** A **Inspeção** é o instrumento de fiscalização pontual e emergencial utilizado pelo TCE-GO para suprir omissões, esclarecer fatos duvidosos, apurar denúncias/representações ou periciar atos e contratos específicos (art. 7º da Lei 16.168/2007).
+> - **Item 2:** A **Auditoria** é o instrumento estruturado e programado de controle pelo qual o Tribunal avalia a conformidade, economicidade, eficiência e efetividade de órgãos e programas governamentais (art. 8º da Lei 16.168/2007).
+> - **Item 3:** O **Monitoramento** é o instrumento fiscalizatório destinado especificamente a verificar o cumprimento de determinações, acórdãos e recomendações emanados pelo TCE-GO e avaliar seus impactos práticos (art. 10 da Lei 16.168/2007).
+> - **Conclusão:** A sequência exata é *Inspeção – Auditoria – Monitoramento* (Alternativa B).
+>
+> **Gabarito: B**
+
+---
+
 ---
 
 ## 3. Julgamento de Contas e Tomada de Contas Especial (Arts. 11 a 28)
@@ -159,7 +209,7 @@ A **Tomada de Contas Especial (TCE)** é um processo de controle externo extraor
 
 ---
 
-### Questão 01
+### Questão 03
 **(FCC – TCE-AP – Auditor de Controle Externo)**  
 A respeito da Tomada de Contas Especial (TCE) disciplinada nas leis orgânicas dos Tribunais de Contas e na Lei Orgânica do TCE-GO, assinale a opção correta:
 
@@ -212,7 +262,7 @@ graph TD
 
 ---
 
-### Questão 02
+### Questão 04
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Em decorrência de auditoria operacional e contábil realizada no âmbito de determinada Secretaria de Estado, o Tribunal de Contas do Estado de Goiás constatou que o gestor ordenou despesas amparado em documentação formalmente incompleta, mas que as obras foram integralmente executadas, o valor praticado foi condizente com a tabela de referência de preços oficiais e não houve prejuízo financeiro aos cofres públicos. Consoante o regramento expresso da Lei Estadual nº 16.168/2007 (Lei Orgânica do TCE-GO), as contas desse gestor deverão ser julgadas:
 
@@ -267,7 +317,7 @@ O TCE-GO dispõe de competência legal para impor duas espécies de multas:
 
 ---
 
-### Questão 03
+### Questão 05
 **(FCC – TCE-PR – Auditor de Controle Externo)**  
 Sobre o poder sancionatório e a aplicação de medidas punitivas pelo Tribunal de Contas do Estado de Goiás com fundamento na Lei Estadual nº 16.168/2007, assinale a afirmativa correta:
 
@@ -296,6 +346,29 @@ Em casos revestidos de especial gravidade, o Tribunal Pleno do TCE-GO poderá de
 
 - **Inabilitação para o Exercício de Cargo em Comissão ou Função de Confiança (Art. 43, parágrafo único):** Pelo prazo de até **cinco (5) anos**, impedindo a nomeação do apenado para funções de chefia, direção e assessoramento em qualquer órgão ou entidade da administração estadual de Goiás;
 - **Declaração de Inidoneidade para Licitar e Contratar com a Administração Pública Estadual (Art. 44):** Pelo prazo de até **cinco (5) anos**, imposta a empresas, consórcios e pessoas físicas que tenham perpetrado fraude comprovada em certames licitatórios ou contratos públicos perante órgãos sob controle do TCE-GO.
+
+
+### Questão 06
+**(FCC – Inédita – Padrão TCE-GO)**  
+Quanto ao poder cautelar e sancionatório do Tribunal de Contas do Estado de Goiás previsto na Lei Estadual nº 16.168/2007 (arts. 41 a 47):
+
+* **A)** O TCE-GO não possui competência para adotar medidas cautelares sem prévia autorização judicial expedida pelo Tribunal de Justiça do Estado de Goiás.
+* **B)** Havendo fundado receio de dano irreparável ou de grave lesão ao erário, o Tribunal ou o Relator pode, cautelarmente, determinar o afastamento temporário do responsável e a indisponibilidade de seus bens por prazo determinado.
+* **C)** A declaração de inidoneidade para participar de licitações com a administração pública estadual não pode ser aplicada pelo TCE-GO, sendo ato privativo do Governador do Estado.
+* **D)** As multas pecuniárias aplicadas pelo TCE-GO têm natureza meramente administrativa e dependem de processo judicial de conhecimento prévio para adquirirem força de cobrança.
+* **E)** A inabilitação para o exercício de cargo em comissão ou função de confiança no âmbito da administração estadual pode ser decretada pelo prazo perpétuo nos casos de dolo comprovado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O poder geral de cautela dos Tribunais de Contas decorre diretamente de sua competência constitucional implícita e de autorização legal expressa (art. 41 da Lei 16.168/2007 e jurisprudência vinculante do STF - MS 24.510).
+> - **B)** Correta. De acordo com o art. 41 e 42 da Lei Orgânica do TCE-GO, verificada a presença do *fumus boni iuris* e do *periculum in mora*, o Tribunal ou o Relator poderá decretar medidas cautelares, inclusive a suspensão de atos/contratos, o afastamento preventivo de gestor que esteja embaraçando a fiscalização e a indisponibilidade cautelar de bens do responsável suficientes para garantir o ressarcimento do erário.
+> - **C)** Incorreta. O art. 45 da Lei Orgânica confere ao TCE-GO competência expressa para declarar a inidoneidade de licitante fraudador por prazo de até 5 anos.
+> - **D)** Incorreta. Conforme o art. 71, § 3º, da CF/88 e art. 46 da Lei 16.168/2007, o acórdão condenatório que imputa débito ou multa tem **eficácia de título executivo extrajudicial**.
+> - **E)** Incorreta. A inabilitação para cargo em comissão tem prazo máximo de até 5 a 8 anos (conforme o caso na lei), sendo vedada a pena de caráter perpétuo pela Constituição Federal (art. 5º, XLVII, "b").
+>
+> **Gabarito: B**
+
+---
 
 ---
 
@@ -340,7 +413,7 @@ graph TD
 
 ---
 
-### Questão 04
+### Questão 07
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Determinado Secretário de Estado de Goiás foi sancionado pelo Tribunal Pleno do TCE-GO em processo de fiscalização de licitação pública com aplicação de penalidade de multa por grave infração a preceito da Lei de Licitações. Querendo recorrer da decisão colegiada, o gestor deverá utilizar a via recursal cabível segundo a Lei Orgânica do TCE-GO (Lei Estadual nº 16.168/2007), que prevê:
 
@@ -362,7 +435,7 @@ Determinado Secretário de Estado de Goiás foi sancionado pelo Tribunal Pleno d
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – TCE-CE – Técnico de Controle Externo)**  
 Decorridos dois anos da publicação de acórdão definitivo transitado em julgado do TCE-GO que condenou um ex-ordenador de despesas a ressarcir os cofres públicos por suposto desvio de recursos, foram localizadas nos arquivos da Secretaria notas fiscais originais e atestados de recebimento da época que comprovam inequivocamente a efetiva entrega das mercadorias e a regularidade do pagamento. Diante dessa nova situação, o ex-gestor:
 
@@ -382,6 +455,29 @@ Decorridos dois anos da publicação de acórdão definitivo transitado em julga
 > 
 > **Gabarito: C**
 
+
+### Questão 09
+**(FCC – Inédita – Padrão TCE-GO)**  
+Sobre o sistema recursal disciplinado nos artigos 54 a 65 da Lei Orgânica do TCE-GO (Lei nº 16.168/2007), assinale a afirmativa correta:
+
+* **A)** O Pedido de Reconsideração é cabível em face de qualquer acórdão proferido pelo Tribunal Pleno em grau originário de recurso.
+* **B)** O Recurso de Reexame é a modalidade recursal cabível contra decisões definitivas ou terminativas proferidas em processos de prestação ou tomada de contas, possuindo efeito suspensivo.
+* **C)** Os Embargos de Declaração podem ser opostos no prazo improrrogável de 30 dias contados da publicação do acórdão impugnado.
+* **D)** O Pedido de Rescisão (ou Revisão) constitui recurso ordinário com efeito suspensivo automático que impede a execução da decisão condenatória.
+* **E)** Das decisões proferidas pelo Tribunal Pleno não cabe qualquer espécie de recurso, operando-se preclusão imediata.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Pedido de Reconsideração destina-se a impugnar decisões terminativas ou definitivas de processos de fiscalização (não de contas ordinárias), e não cabe contra decisões que já apreciaram recurso anterior.
+> - **B)** Correta. Conforme os arts. 55 e 56 da Lei Orgânica do TCE-GO, o **Recurso de Reexame** é o instrumento recursal próprio para atacar decisões proferidas em processos de tomada ou prestação de contas, dotado de efeito devolutivo e suspensivo, admitindo reexame integral da matéria fática e de direito pelo Tribunal Pleno.
+> - **C)** Incorreta. O prazo regimental para a oposição de Embargos de Declaração no TCE-GO é de **5 dias** (art. 60 da Lei Orgânica), e não 30 dias.
+> - **D)** Incorreta. O Pedido de Revisão é uma ação de impugnação autônoma (análoga à ação rescisória civil), fundada em fatos novos ou documentos falsos supervenientes, e não possui efeito suspensivo automático.
+> - **E)** Incorreta. Das decisões originárias do Pleno cabem recursos expressamente previstos em lei, tais como embargos de declaração, recurso de reexame e pedido de revisão.
+>
+> **Gabarito: B**
+
+---
+
 ---
 
 
@@ -391,6 +487,29 @@ Em consonância com as teses vinculantes fixadas pelo Supremo Tribunal Federal (
 
 - **Prescrição Geral Quinquenal (5 anos):** A pretensão punitiva (aplicação de multas e sanções de inabilitação/inidoneidade) e a pretensão de cobrança de débitos decorrentes de títulos do TCE prescrevem em **cinco (5) anos**, contados da data da ocorrência do fato ou da cessação da conduta irregular.
 - **Prescrição Intercorrente Trienal (3 anos):** Incide a prescrição intercorrente caso o processo administrativo de controle externo permaneça paralisado por mais de **três (3) anos** ininterruptos, pendente de despacho ou deliberação da autoridade instrutória.
+
+
+### Questão 10
+**(FCC – Inédita – Padrão TCE-GO)**  
+Em conformidade com a jurisprudência do Supremo Tribunal Federal (Tema 899 de Repercussão Geral - RE 636.886) e as normas de controle externo do TCE-GO acerca da prescrição:
+
+* **A)** As ações de ressarcimento ao erário fundadas em decisões dos Tribunais de Contas são imprescritíveis em qualquer hipótese, nos termos literais do artigo 37, § 5º, da CF/88.
+* **B)** É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, aplicando-se o prazo prescricional de 5 anos para a cobrança judicial do título executivo, sem prejuízo da incidência da prescrição intercorrente no curso do processo administrativo de controle externo.
+* **C)** A prescrição da pretensão punitiva do Tribunal de Contas ocorre no prazo decadencial de 20 anos previsto no Código Civil.
+* **D)** A citação válida do responsável no processo de tomada de contas especial não interrompe o curso do prazo prescricional.
+* **E)** O TCE-GO não pode reconhecer a prescrição de ofício, dependendo sempre de provocação expressa da defesa técnica do gestor.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A tese fixada pelo STF no Tema 899 é categórica: *"É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas"*. A imprescritibilidade do art. 37, § 5º, restringe-se às ações de improbidade com dolo comprovado ajuizadas perante o Poder Judiciário (Tema 897).
+> - **B)** Correta. As pretensões punitiva (multas) e ressarcitória (débitos) no âmbito do Tribunal de Contas submetem-se ao prazo prescricional geral de **5 anos** (Lei 9.873/1999 e regulamentação do TCE-GO), além da prescrição intercorrente de **3 anos** caso o processo permaneça paralisado injustificadamente em instrução.
+> - **C)** Incorreta. Não se aplica o prazo vintenário do Código Civil, mas a disciplina de direito público quinquenal (5 anos).
+> - **D)** Incorreta. A citação válida ou notificação inicial do responsável é causa clássica de interrupção do prazo prescricional.
+> - **E)** Incorreta. Tratando-se de matéria de ordem pública, a prescrição pode e deve ser reconhecida de ofício pelo relator ou pelo colegiado deliberativo da Corte.
+>
+> **Gabarito: B**
+
+---
 
 ---
 

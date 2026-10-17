@@ -109,6 +109,27 @@ A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Traba
 
 
 
+### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+No Comportamento Organizacional, a distinção entre **Grupo de Trabalho** e **Equipe de Trabalho** é fundamental para a gestão de pessoas.
+
+Constitui característica essencial e distintiva de uma **Equipe de Trabalho** de alto desempenho:
+
+* **A)** A sinergia positiva gerada pelo esforço coordenado dos membros, resultando em um nível de desempenho coletivo maior do que a simples soma das contribuições individuais, com responsabilidade tanto individual quanto mútua.
+* **B)** A independência estrita de objetivos, de tal modo que o sucesso de um membro prescinda do esforço dos demais.
+* **C)** A concentração exclusiva das decisões na figura do chefe hierárquico formal, sem participação da equipe.
+* **D)** A inexistência de complementaridade de habilidades técnicas entre os colaboradores.
+* **E)** O foco exclusivo na produtividade individual isolada sem metas coletivas compartilhadas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Diferença crucial: em um **Grupo de Trabalho**, o objetivo é apenas compartilhar informações e a sinergia é neutra (às vezes negativa), com responsabilidade apenas individual; em uma **Equipe de Trabalho**, há metas coletivas claras, habilidades complementares, responsabilidade mútua/compartilhada e **sinergia positiva** (o todo é superior à soma das partes).
+> - **B), C), D), E)** Incorretas. Descrevem grupos de trabalho tradicionais ou unidades individualizadas.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman
 
 Bruce Tuckman demonstrou que os grupos não nascem prontos e produtivos; eles atravessam **cinco estágios sequenciais de maturação psicossocial**:
@@ -129,7 +150,7 @@ flowchart LR
 
 ---
 
-### Questão 02
+### Questão 03
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce Tuckman, o estágio em que surgem conflitos explícitos entre os participantes, disputas internas pelo controle do grupo e resistências à liderança formal pré-estabelecida é denominado:
 
@@ -151,6 +172,27 @@ De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce
 
 ---
 
+
+
+### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+Bruce Tuckman propôs um modelo seminal que descreve os cinco estágios universais pelos quais passam os grupos e equipes ao longo de seu ciclo de desenvolvimento.
+
+O estágio em que o grupo supera conflitos internos de poder, estabelece coesão, define normas claras de convivência e desenvolve forte sentimento de identidade e camaradagem mútua é denominado:
+
+* **A)** Normatização (Norming).
+* **B)** Formação (Forming).
+* **C)** Conflito / Tempestade (Storming).
+* **D)** Desempenho (Performing).
+* **E)** Desintegração / Dissolução (Adjourning).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Os 5 estágios de Tuckman: (1) **Formação (Forming)**: incerteza e orientação inicial; (2) **Tempestade/Conflito (Storming)**: disputas de liderança e atritos interpessoais; (3) **Normatização (Norming)**: estabelecimento de coesão, normas aceitas, alinhamento e regras de conduta; (4) **Desempenho (Performing)**: energia focada na execução produtiva da tarefa; (5) **Desintegração (Adjourning)**: conclusão e encerramento dos trabalhos.
+> - **B), C), D), E)** Incorretas. Referem-se a outros estágios do ciclo de Tuckman.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 3. Evolução das Teorias de Liderança e a Liderança Situacional
@@ -192,7 +234,7 @@ flowchart TD
 
 ---
 
-### Questão 03
+### Questão 05
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kenneth Blanchard, considere um grupo de servidores recém-aprovados em concurso público que acaba de ser lotado em uma gerência de fiscalização contábil. Os novos servidores apresentam grande entusiasmo e disposição para aprender, todavia desconhecem completamente as normas regimentais específicas e as ferramentas operacionais do sistema informatizado de controle externo (nível de maturidade M2). De acordo com a teoria, o estilo de liderança mais apropriado a ser adotado pelo gestor da unidade é:
 
@@ -216,6 +258,29 @@ A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kennet
 
 
 
+### Questão 06 (FCC - Adaptada / Analista de Planejamento e Controle)
+Na Teoria da Liderança Situacional formulada por Paul Hersey e Kenneth Blanchard, o estilo de liderança mais eficaz não é fixo, mas depende do nível de **prontidão (ou maturidade)** dos liderados para desempenhar uma tarefa específica.
+
+Quando os liderados apresentam **baixa competência e alto comprometimento/motivação** (estágio de maturidade M1), o estilo de liderança mais indicado pelo modelo é:
+
+* **A)** Determinar / Direcionar (E1 - Direção), caracterizado por alto comportamento para a tarefa e baixo comportamento para o relacionamento (instruções claras e supervisão estrita).
+* **B)** Delegar (E4 - Delegação), retirando toda a supervisão e deixando o liderado agir por conta própria.
+* **C)** Apoiar / Participar (E3 - Apoio), com foco exclusivo em suporte afetivo e baixa orientação sobre como executar a tarefa.
+* **D)** Autocracia repressiva punitiva com ameaça de abertura de processo administrativo.
+* **E)** Demissão sumária por insuficiência de capacitação técnica.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. No modelo de Hersey e Blanchard: para subordinados **M1** (iniciantes entusiastas, com baixa competência na tarefa, mas dispostos), o líder deve adotar o estilo **E1 - Direcionar/Determinar** (alto foco na tarefa e baixo em relacionamento): define papéis, ensina o passo a passo, dá instruções detalhadas e monitora o cumprimento.
+> - **B)** Incorreta. Delegação (E4) exige maturidade máxima (M4 - alta competência e alto comprometimento).
+> - **C)** Incorreta. Apoiar (E3) aplica-se a liderados com alta competência, mas segurança/motivação vacilante (M3).
+> - **D), E)** Incorretas. Não fazem parte dos pressupostos teóricos do modelo situacional.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 4. Liderança Transacional vs. Liderança Transformacional
 
 ```mermaid
@@ -233,7 +298,7 @@ flowchart LR
 
 ---
 
-### Questão 04
+### Questão 07
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 No âmbito dos estudos sobre liderança nas organizações contemporâneas, o modelo de Liderança Transformacional diferencia-se da Liderança Transacional fundamentalmente porque:
 
@@ -291,7 +356,7 @@ flowchart LR
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 Durante a elaboração de um relatório de fiscalização, determinado analista deliberadamente omitiu informações cruciais sobre irregularidades graves na conservação da malha rodoviária, selecionando e apresentando apenas dados favoráveis à concessionária, com o objetivo expresso de evitar atritos com seu superior hierárquico e fazer com que o documento parecesse positivo. No processo de comunicação organizacional, a conduta desse servidor materializa a barreira denominada:
 
@@ -313,6 +378,49 @@ Durante a elaboração de um relatório de fiscalização, determinado analista 
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Na moderna literatura sobre liderança, Bernard Bass consagrou a contraposição entre **Liderança Transacional** e **Liderança Transformacional**.
+
+Constitui característica marcante da **Liderança Transformacional**:
+
+* **A)** Inspirar e motivar os liderados a transcender seus interesses individuais em prol da missão coletiva da organização, estimulando a inovação, o questionamento construtivo e o desenvolvimento pessoal por meio da consideração individualizada e do estímulo intelectual.
+* **B)** Basear-se exclusivamente em trocas contratuais de curto prazo, onde o líder apenas concede recompensas financeiras em troca do cumprimento estrito de metas.
+* **C)** Utilizar primordialmente a gestão por exceção passiva, intervindo apenas quando falhas graves já ocorreram.
+* **D)** Concentrar todo o poder e evitar que os servidores desenvolvam pensamento crítico autônomo.
+* **E)** Punir severamente os liderados que apresentarem ideias inovadoras contrárias aos regulamentos tradicionais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **Liderança Transformacional** fundamenta-se nos quatro pilares clássicos ("Os 4 Is" de Bass): Influência Idealizada (carisma e credibilidade), Motivação Inspiracional (visão de futuro compartilhada), Estímulo Intelectual (incentivo à criatividade e solução de problemas) e Consideração Individualizada (atenção personalizada às necessidades de cada liderado).
+> - **B), C)** Incorretas. Características definidoras da **Liderança Transacional** (recompensa contingente e gerência por exceção).
+> - **D), E)** Incorretas. Posturas de chefia autoritária e punitiva.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+No processo de comunicação organizacional, a barreira que ocorre quando o emissor manipula deliberadamente as informações para que sejam vistas de modo mais favorável e lisonjeiro pelo receptor (muito comum em relações verticais ascendentes em que subordinados ocultam más notícias de seus chefes) é denominada:
+
+* **A)** Filtragem.
+* **B)** Percepção Seletiva.
+* **C)** Sobrecarga de Informação.
+* **D)** Ruído Semântico.
+* **E)** Linguagem Não Verbal Involuntária.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **Filtragem** é a manipulação consciente ou inconsciente da informação antes de transmiti-la, de forma a torná-la palatável ao superior hierárquico. Quanto mais vertical e autoritária a organização, maior a tendência de os subordinados filtrarem más notícias para evitar punições ou desagradar a chefia.
+> - **B)** Incorreta. Percepção Seletiva ocorre no receptor, que ouve apenas o que se alinha aos seus interesses.
+> - **C)** Incorreta. Sobrecarga é a incapacidade de processar o excesso de mensagens.
+> - **D)** Incorreta. Ruído semântico decorre de palavras com duplo sentido ou jargões incompreendidos.
+> - **E)** Incorreta. Gestos corporais e expressões faciais.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 6. Fontes Oficiais e Referências Bibliográficas

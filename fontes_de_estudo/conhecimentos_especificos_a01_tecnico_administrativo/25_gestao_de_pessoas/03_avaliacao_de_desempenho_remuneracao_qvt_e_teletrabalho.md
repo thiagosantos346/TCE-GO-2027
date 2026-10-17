@@ -124,6 +124,27 @@ Em determinado órgão público estadual, a diretoria de Recursos Humanos decidi
 
 
 
+### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+Dentre as metodologias clássicas e modernas de Avaliação de Desempenho Humano nas organizações, a **Avaliação 360 Graus (ou Feedback Circular / Multirrequisital)** caracteriza-se por:
+
+* **A)** Coletar avaliações estruturadas sobre o desempenho do colaborador provenientes de todas as direções de relacionamento: do superior hierárquico, dos pares de trabalho (colegas), dos subordinados, dos clientes/usuários externos e da autoavaliação do próprio servidor.
+* **B)** Basear-se exclusivamente no julgamento autocrático e secreto do chefe imediato da repartição.
+* **C)** Classificar os servidores por meio de uma curva forçada em que obrigatoriamente 20% são classificados como insuficientes.
+* **D)** Avaliar apenas aspectos relacionados à pontualidade de registro do ponto biométrico eletrônico.
+* **E)** Limitar-se à medição de força física e aptidão cardiorrespiratória dos novos contratados.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **Avaliação 360 Graus** proporciona visão holística e rica do colaborador, coletando feedback de todos os agentes que interagem com ele: chefe imediato, subordinados diretos, pares de equipe, clientes internos/externos e a própria autoavaliação.
+> - **B)** Incorreta. Refere-se à avaliação tradicional unilateral por superior hierárquico (90 graus).
+> - **C)** Incorreta. Refere-se ao método da distribuição forçada (*forced distribution*).
+> - **D), E)** Incorretas. Distorções que não representam o escopo da avaliação 360 graus.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. Erros, Vieses e Distorções Cognitivas do Avaliador
 
 A subjetividade humana constitui o maior obstáculo à precisão da avaliação de desempenho:
@@ -153,7 +174,7 @@ flowchart LR
 
 ---
 
-### Questão 02
+### Questão 03
 **(FCC – Analista de Controle Externo – TCE-GO)**  
 Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual de desempenho de um técnico administrativo recém-lotado em sua gerência. Ao analisar a pontualidade impecável e a cortesia no atendimento demonstradas pelo servidor no dia a dia, o diretor atribuiu pontuação máxima em todos os itens da avaliação, inclusive naqueles relativos a domínio técnico avançado de auditoria de obras e redação de relatórios complexos, competências que sequer haviam sido desempenhadas ou verificadas no período. A falha cognitiva que maculou o procedimento avaliativo configura o denominado:
 
@@ -175,6 +196,30 @@ Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual 
 
 ---
 
+
+
+### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+No processo de Avaliação de Desempenho, o avaliador está sujeito a vieses cognitivos e distorções perceptivas involuntárias que podem comprometer a fidedignidade dos resultados.
+
+A distorção conhecida como **Efeito de Halo (ou Halo Effect)** ocorre quando:
+
+* **A)** O avaliador generaliza uma única característica marcante (positiva ou negativa) do avaliado para julgar de forma contaminada todos os demais fatores e competências de seu desempenho.
+* **B)** O avaliador atribui notas medianas a todos os avaliados para evitar conflitos interpessoais (*tendência central*).
+* **C)** O avaliador considera apenas os fatos ocorridos na última semana antes da avaliação, esquecendo o restante do ano (*efeito de recência*).
+* **D)** O avaliador avalia melhor os indivíduos que possuem perfil, origens e opiniões semelhantes às suas (*erro de semelhança*).
+* **E)** O avaliador é excessivamente rigoroso com todos os seus subordinados (*severidade excessiva*).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **Efeito de Halo** (ou Efeito Horn, quando negativo) é a contaminação generalizada da avaliação por um único traço saliente: se o servidor é muito simpático ou pontual, o chefe presume precipitadamente que ele é ótimo em todas as demais competências (planejamento, rigor técnico, redação).
+> - **B)** Incorreta. Refere-se ao vício de **Tendência Central**.
+> - **C)** Incorreta. Refere-se ao erro de **Recência**.
+> - **D)** Incorreta. Refere-se ao viés de **Semelhança** (*similar-to-me*).
+> - **E)** Incorreta. Refere-se ao vício de **Severidade/Rigor excessivo**.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 3. Remuneração e Planos de Carreira no Setor Público
@@ -205,7 +250,7 @@ flowchart LR
 
 ---
 
-### Questão 03
+### Questão 05
 **(FCC – Auditor de Controle Externo – TCE-RO)**  
 Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas categorias de agentes públicos devem ser remuneradas exclusivamente pelo regime de subsídio. A respeito dessa disciplina constitucional, é correto afirmar:
 
@@ -227,6 +272,27 @@ Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas ca
 
 ---
 
+
+
+### Questão 06 (FCC - Adaptada / Analista de Planejamento e Controle)
+No estudo da Qualidade de Vida no Trabalho (QVT), o modelo conceitual mais abrangente e citado na literatura administrativa foi proposto por Richard Walton (1973), estruturado em oito dimensões clássicas.
+
+Constitui uma das oito dimensões do modelo de QVT de **Richard Walton**:
+
+* **A)** Constitucionalismo na Organização (respeito aos direitos dos trabalhadores, privacidade, liberdade de expressão e normas de equidade no trabalho).
+* **B)** Remuneração salarial indexada exclusivamente à variação cambial do dólar americano.
+* **C)** Proibição de concessão de férias e licenças no primeiro ano do mandato do governador.
+* **D)** Instauração obrigatória de sindicância sumária em qualquer alteração de rotina.
+* **E)** Exigência de cumprimento de horas extras diárias de forma compulsória sem descanso semanal.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. As 8 dimensões de QVT de Walton: (1) Compensação justa e adequada; (2) Condições de trabalho seguras e saudáveis; (3) Uso e desenvolvimento de capacidades; (4) Oportunidade de crescimento contínuo e segurança; (5) Integração social na organização; (6) **Constitucionalismo na organização** (direitos, privacidade, contraditório); (7) Trabalho e o espaço total de vida (equilíbrio trabalho-família); (8) Relevância social do trabalho na sociedade.
+> - **B), C), D), E)** Incorretas. Distorções que violam os preceitos de bem-estar e dignidade do trabalho.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton
@@ -261,7 +327,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Questão 07
 **(FCC – Analista Judiciário – TRT-21ª)**  
 O modelo conceitual de Qualidade de Vida no Trabalho (QVT) estruturado por Richard Walton estabelece oito dimensões fundamentais para a criação de um ecossistema laboral saudável e motivador. A dimensão que prevê expressamente o respeito à privacidade dos colaboradores, a vigência de regras claras e transparentes de conduta funcional, a liberdade de expressão responsável e a garantia do devido processo legal e ampla defesa diante de averiguações funcionais é denominada por Walton de:
 
@@ -305,7 +371,7 @@ A consolidação do regime de teletrabalho transformou a dinâmica das institui�
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – Analista de Gestão Pública – DPE-RS)**  
 Com o avanço da transformação digital na administração pública, o regime de teletrabalho consolidou-se como instrumento relevante de modernização gerencial. Sob a ótica do planejamento e gestão de pessoas, a correta implementação do teletrabalho no setor público pressupõe:
 
@@ -327,6 +393,46 @@ Com o avanço da transformação digital na administração pública, o regime d
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Com a regulamentação do teletrabalho e do trabalho híbrido no serviço público brasileiro (Decreto Federal nº 11.072/2022 - Programa de Gestão e Desempenho e normativos do TCE-GO), a dinâmica da gestão funcional passou por transformações estruturais.
+
+No regime de teletrabalho regulamentado pelo poder público, a gestão do servidor público fundamenta-se prioritariamente:
+
+* **A)** No acompanhamento de entregas, metas de produtividade pactuadas formalmente em plano de trabalho individual e resultados acordados, em substituição ao controle puramente físico e cronológico de frequência e assiduidade por ponto eletrônico.
+* **B)** No monitoramento contínuo da imagem do servidor por câmera de vigilância durante oito horas ininterruptas.
+* **C)** Na proibição total de comparecimento do servidor às dependências físicas do Tribunal de Contas sob pena de demissão.
+* **D)** Na redução proporcional de 50% de seus vencimentos básicos em virtude da ausência no prédio público.
+* **E)** Na transferência integral da responsabilidade fiscal do órgão para o servidor teletrabalhador.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A transição trazida pelos Programas de Gestão e Desempenho (PGD) e resoluções do setor público: o controle migra da lógica clássica de "presença e controle de horas no ponto" para a **gestão por resultados e cumprimento de metas de entregas mensuráveis**, expressas em Planos de Trabalho com prazos e padrões de qualidade definidos.
+> - **B), C), D), E)** Incorretas. Posturas ilegais ou distorcidas que violam a regulamentação do teletrabalho no setor público.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+No tocante à estrutura do Sistema de Remuneração no Setor Público e aos Planos de Cargos, Carreiras e Vencimentos (PCCV), a contraprestação pecuniária mensal devida ao servidor pelo efetivo exercício do cargo público, fixada em lei, desprovida de quaisquer adicionais ou gratificações, denomina-se:
+
+* **A)** Vencimento básico (ou padrão).
+* **B)** Remuneração integral.
+* **C)** Diária de deslocamento eventual.
+* **D)** Ajuda de custo para transferência de domicílio.
+* **E)** Indenização de transporte funcional.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Distinção essencial estatutária (Lei Estadual nº 20.756/2020 e Lei Federal nº 8.112/1990): **Vencimento básico** é a retribuição pecuniária básica fixada em lei devida pelo exercício do cargo; **Remuneração** é o vencimento básico acrescido das vantagens pecuniárias permanentes (adicionais e gratificações) estabelecidas em lei.
+> - **B)** Incorreta. Remuneração inclui vencimento mais vantagens adicionais.
+> - **C), D), E)** Incorretas. São parcelas de caráter puramente indenizatório, não salarial.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 6. Fontes Oficiais e Referências Bibliográficas

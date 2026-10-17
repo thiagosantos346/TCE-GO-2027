@@ -3,7 +3,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Matéria:** Legislação Aplicada à Tecnologia da Informação  
 > **Banca Referência:** Fundação Carlos Chagas (FCC)  
-> **Status Geral:** 🟡 Em mapeamento de fontes teóricas
+> **Status Geral:** 🟢 Concluído (100% enriquecido e auditado)
 
 ---
 
@@ -19,11 +19,11 @@ A matéria foi dividida em 5 módulos temáticos modulares que cobrem desde a ap
 
 | # | Módulo / Tópico Principal | Arquivo Markdown | Itens Cobertos do Edital | Status |
 |---|---------------------------|------------------|--------------------------|:------:|
-| 01 | [LGPD no Desenvolvimento e Operação de Sistemas](./01_lgpd_aplicada_ao_desenvolvimento_e_sistemas.md) | `01_lgpd_aplicada_ao_desenvolvimento_e_sistemas.md` | Privacy by design/default; Minimização, Anonimização vs. Pseudonimização; Direitos em sistemas | ⚪ Aguardando Fontes |
-| 02 | [Marco Civil da Internet (Lei nº 12.965/2014)](./02_marco_civil_da_internet_lei_12965_2014.md) | `02_marco_civil_da_internet_lei_12965_2014.md` | Neutralidade de rede; Guarda de registros de conexão e acesso a aplicações; Responsabilidades | ⚪ Aguardando Fontes |
-| 03 | [Segurança em Contratações de TIC e Certificação Digital](./03_seguranca_em_contratacoes_e_certificacao_digital.md) | `03_seguranca_em_contratacoes_e_certificacao_digital.md` | Requisitos de segurança em compras de TIC; MP 2.200-2/2001; Lei 14.063/2020 e assinatura digital | ⚪ Aguardando Fontes |
-| 04 | [Lei Complementar Estadual de Goiás nº 205/2025](./04_lei_complementar_estadual_205_2025.md) | `04_lei_complementar_estadual_205_2025.md` | LC Estadual nº 205/2025 e modernização da administração e controle no Estado de Goiás | ⚪ Aguardando Fontes |
-| 05 | [Normativos Internos e PDTI 2025–2026 do TCE-GO](./05_normativos_e_planejamento_de_ti_tce_go.md) | `05_normativos_e_planejamento_de_ti_tce_go.md` | RN 13/2016 (CETI); RA 14/2024; RA 17/2024 (PSI); RA 14/2025 (DTI); PDTI 2025–2026 (OS 001/2025) | ⚪ Aguardando Fontes |
+| 01 | [LGPD no Desenvolvimento e Operação de Sistemas](./01_lgpd_aplicada_ao_desenvolvimento_e_sistemas.md) | `01_lgpd_aplicada_ao_desenvolvimento_e_sistemas.md` | Privacy by design/default; Minimização, Anonimização vs. Pseudonimização; Direitos em sistemas | 🟢 Concluído (10 Qs) |
+| 02 | [Marco Civil da Internet (Lei nº 12.965/2014)](./02_marco_civil_da_internet_lei_12965_2014.md) | `02_marco_civil_da_internet_lei_12965_2014.md` | Neutralidade de rede; Guarda de registros de conexão e acesso a aplicações; Responsabilidades | 🟢 Concluído (10 Qs) |
+| 03 | [Segurança em Contratações de TIC e Certificação Digital](./03_seguranca_em_contratacoes_e_certificacao_digital.md) | `03_seguranca_em_contratacoes_e_certificacao_digital.md` | Requisitos de segurança em compras de TIC; MP 2.200-2/2001; Lei 14.063/2020 e assinatura digital | 🟢 Concluído (10 Qs) |
+| 04 | [Lei Complementar Estadual de Goiás nº 205/2025](./04_lei_complementar_estadual_205_2025.md) | `04_lei_complementar_estadual_205_2025.md` | LC Estadual nº 205/2025 e modernização da administração e controle no Estado de Goiás | 🟢 Concluído (10 Qs) |
+| 05 | [Normativos Internos e PDTI 2025–2026 do TCE-GO](./05_normativos_e_planejamento_de_ti_tce_go.md) | `05_normativos_e_planejamento_de_ti_tce_go.md` | RN 13/2016 (CETI); RA 14/2024; RA 17/2024 (PSI); RA 14/2025 (DTI); PDTI 2025–2026 (OS 001/2025) | 🟢 Concluído (10 Qs) |
 
 ---
 

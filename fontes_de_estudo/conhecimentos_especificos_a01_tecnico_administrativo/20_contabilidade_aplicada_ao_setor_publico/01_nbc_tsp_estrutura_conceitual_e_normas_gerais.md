@@ -108,6 +108,30 @@ Conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito
 
 ---
 
+### Questão 02 (FCC - Adaptada / Analista Contábil)
+De acordo com a NBC TSP Estrutura Conceitual, a informação contábil no setor público destina-se primordialmente a suprir as necessidades de informação dos usuários primários dos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs).
+
+São considerados usuários primários dos RCPGs:
+
+* **A)** Os usuários dos serviços públicos e seus representantes (cidadãos, membros do Poder Legislativo) e os provedores de recursos (contribuintes, doadores, credores por empréstimos).
+* **B)** Exclusivamente os auditores de controle externo dos Tribunais de Contas e os contadores públicos responsáveis pelo fechamento do balanço.
+* **C)** Unicamente as agências internacionais de classificação de risco de crédito soberano (ratings).
+* **D)** Apenas os secretários de fazenda e os dirigentes máximos das entidades do Poder Executivo.
+* **E)** As sociedades empresárias privadas concorrentes que participam de processos licitatórios governamentais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A NBC TSP Estrutura Conceitual define expressamente como **usuários primários dos RCPGs**: (1) os usuários de serviços e seus representantes (cidadãos e parlamentares); e (2) os provedores de recursos e seus representantes (contribuintes, doadores, financiadores e credores).
+> - **B)** Incorreta. Auditores e contadores são usuários institucionais e reguladores, mas os usuários primários são os cidadãos e provedores de recursos para fins de prestação de contas (*accountability*) e tomada de decisão.
+> - **C)** Incorreta. Agências de rating são usuários secundários ou específicos.
+> - **D)** Incorreta. Gestores públicos utilizam relatórios de gestão gerencial interna; os RCPGs destinam-se a usuários externos que não têm poder para exigir relatórios customizados.
+> - **E)** Incorreta. Licitantes não figuram no rol dos usuários primários conceituais dos RCPGs.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)
 
 As características qualitativas são atributos indispensáveis que tornam as informações contidas nos RCPGs úteis para os usuários na tomada de decisão e na prestação de contas:
@@ -134,7 +158,7 @@ flowchart TD
 
 ---
 
-### Questão 02 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Questão 03 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
 A Estrutura Conceitual das Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP EC) estabelece as características qualitativas da informação contábil incluída nos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs).
 
 A característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens e fenômenos econômicos, seja entre diferentes entidades do setor público, seja em relação à mesma entidade ao longo de períodos contábeis consecutivos, denomina-se:
@@ -163,6 +187,32 @@ A característica qualitativa que permite aos usuários identificar semelhanças
 - **Materialidade:** A informação é material se a sua omissão ou distorção puder influenciar o julgamento ou as decisões dos usuários dos RCPGs. A materialidade depende da natureza ou da magnitude do item no contexto orçamentário e patrimonial específico.
 
 ---
+
+### Questão 04 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+Na NBC TSP Estrutura Conceitual, as características qualitativas são atributos que tornam a informação contida nos RCPGs útil para os usuários. Considere as seguintes características:
+
+I. **Relevância:** A informação é relevante se for capaz de influenciar as decisões dos usuários, tendo valor confirmatório, preditivo ou ambos.  
+II. **Representação Fidedigna:** Para ser fidedigna, a informação deve ser completa, neutra e livre de erro material, retratando fielmente a substância econômica da transação e não apenas sua forma jurídica.  
+III. **Compreensibilidade:** Pressupõe que os relatórios contábeis públicos sejam simplificados a ponto de dispensar qualquer conhecimento prévio dos usuários sobre economia e finanças governamentais.
+
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** II e III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, II e III.
+
+> **Comentário Detalhado:**
+>
+> - **I. Correto.** A relevância é característica qualitativa fundamental caracterizada pelo valor confirmatório e/ou preditivo.
+> - **II. Correto.** A representação fidedigna exige que a informação seja completa, neutra e isenta de erro material, com primazia da substância sobre a forma.
+> - **III. Incorreto.** A compreensibilidade permite que a informação seja facilmente compreendida por usuários que tenham conhecimento razoável das atividades do setor público e do ambiente econômico, e que se disponham a estudar a informação com razoável diligência. Não se eliminam informações complexas e relevantes apenas sob o argumento de que seriam difíceis de compreender por leigos absolutos.
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 3. Elementos das Demonstrações Contábeis e Bases de Mensuração
 
@@ -193,6 +243,28 @@ A mensuração consiste no processo de determinar os valores monetários pelos q
 
 ---
 
+### Questão 05 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+No que concerne às bases de mensuração para ativos e passivos segundo a NBC TSP Estrutura Conceitual, assinale a opção correta:
+
+* **A)** O custo histórico é uma base de mensuração a valor de saída que reflete o preço que seria recebido pela venda de um ativo no mercado aberto.
+* **B)** O custo de reposição ou substituição é uma base de mensuração a valor de entrada que reflete o custo mais econômico exigido para a entidade substituir o potencial de serviços de um ativo na data das demonstrações contábeis.
+* **C)** O valor justo é uma medida específica da entidade que independe das condições de transação entre participantes do mercado.
+* **D)** O valor em uso de um ativo reflete o valor presente dos fluxos de caixa futuros descontados, aplicável exclusivamente a ativos geradores de caixa do setor público.
+* **E)** Todos os passivos públicos devem ser obrigatoriamente mensurados pelo custo histórico original, sendo vedada qualquer avaliação pelo preço de liquidação.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O custo histórico é uma base de mensuração a valor de **entrada** (reflete a transação original passada).
+> - **B)** Correta. O **custo de reposição/substituição** (*depreciated replacement cost*) é uma base de mensuração a valor de entrada amplamente utilizada no setor público para ativos não geradores de caixa, correspondendo ao custo mais econômico para substituir o potencial de serviços do ativo.
+> - **C)** Incorreta. O valor justo é mensuração baseada no mercado (preço de saída), e não medida específica da entidade.
+> - **D)** Incorreta. No setor público, o valor em uso também se aplica a ativos não geradores de caixa através da mensuração do valor presente do potencial de serviços remanescente do ativo.
+> - **E)** Incorreta. Passivos podem ser mensurados pelo custo histórico, custo de cumprimento da obrigação (*fulfillment cost*) ou valor de mercado/liquidação.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 4. Normas Específicas Fundamentais no Padrão FCC
 
 #### 4.1 Matriz de Provisões e Passivos Contingentes (NBC TSP 03)
@@ -218,7 +290,7 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Questão 06 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
 A Procuradoria-Geral de determinado Estado foi intimada de ação judicial de grande repercussão econômica proposta por consórcio de empreiteiras cobrando reequilíbrio econômico-financeiro de contrato de obras. O departamento jurídico do Estado avaliou o risco de perda da ação judicial como **provável** e mensurou com segurança razoável o valor do desembolso futuro estimado em R$ 15.000.000,00.
 
 Consoante as disposições da NBC TSP 03 e do Manual de Contabilidade Aplicada ao Setor Público (MCASP):
@@ -241,7 +313,7 @@ Consoante as disposições da NBC TSP 03 e do Manual de Contabilidade Aplicada a
 
 ---
 
-### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+### Questão 07 (FCC - Adaptada / Auditor de Controle Externo)
 Em determinado processo judicial em trâmite na Justiça do Trabalho contra uma autarquia estadual, a assessoria jurídica emitiu parecer formal classificando o risco de condenação e perda patrimonial da entidade como **possível**, sem possibilidade de definição precisa de valores no momento.
 
 Em observância à NBC TSP 03 e ao MCASP, a conduta contábil adequada a ser adotada pela autarquia é:
@@ -273,7 +345,7 @@ Em observância à NBC TSP 03 e ao MCASP, a conduta contábil adequada a ser ado
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Gestão Pública - Contabilidade)
+### Questão 08 (FCC - Adaptada / Analista de Gestão Pública - Contabilidade)
 No âmbito do setor público, a Secretaria de Estado da Saúde de Goiás mantém em seus depósitos centrais vultosos estoques de vacinas e medicamentos essenciais destinados exclusivamente à distribuição gratuita à população nos postos de saúde da rede pública.
 
 De acordo com as regras de mensuração de estoques contidas na NBC TSP 04:
@@ -305,6 +377,53 @@ De acordo com as regras de mensuração de estoques contidas na NBC TSP 04:
     - `C` - Depreciação Acumulada (Conta retificadora do Ativo Imobilizado).
 
 ---
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+A respeito da NBC TSP 07 (Ativo Imobilizado) e do reconhecimento contábil dos elementos patrimoniais, analise a seguinte hipótese:
+
+Determinado Tribunal de Contas realizou despesas no valor de R$ 300.000,00 com obras de reforma e adaptação predial em seu auditório principal. A reforma resultou no aumento comprovado da vida útil do imóvel em 10 anos e na ampliação da capacidade de recepção de público, com instalação de novos sistemas centrais de ar-condicionado.
+
+À luz da NBC TSP 07 e das normas contábeis aplicadas ao setor público, o dispêndio realizado:
+
+* **A)** Deve ser capitalizado ao valor contábil do ativo imobilizado (incorporado ao custo do edifício), pois aumentou a vida útil e o potencial de serviços do bem público.
+* **B)** Deve ser reconhecido integralmente como Variação Patrimonial Diminutiva (VPD) no resultado do exercício, por se tratar de despesa de manutenção rotineira.
+* **C)** Não pode ser registrado no subsistema patrimonial, limitando-se ao subsistema de compensação de atos potenciais.
+* **D)** Deve ser registrado como ativo intangível pelo período em que perdurarem as garantias da construtora.
+* **E)** Constitui inversão financeira na classificação por natureza da despesa, devendo ser baixado imediatamente do patrimônio líquido.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A NBC TSP 07 e o MCASP determinam que os gastos posteriores com ativos imobilizados que aumentem a vida útil econômica, melhorem o potencial de serviços ou ampliem a capacidade produtiva do bem devem ser **capitalizados** (incorporados ao valor contábil do ativo).
+> - **B)** Incorreta. Apenas reparos de conservação e manutenção periódica que visem manter o bem em operação normal sem ampliação de vida útil são reconhecidos diretamente como VPD (despesa de manutenção).
+> - **C)** Incorreta. O fato afeta o patrimônio permanente e é registrado no subsistema patrimonial.
+> - **D)** Incorreta. Auditórios e instalações físicas são ativos tangíveis (imobilizado), não intangíveis.
+> - **E)** Incorreta. Obras de ampliação física constituem investimentos (GND 4) e aumentam o ativo não circulante.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+Segundo a NBC TSP 03 (Provisões, Passivos Contingentes e Ativos Contingentes), assinale a opção que apresenta o correto tratamento contábil para uma ação judicial movida contra um Estado da Federação cuja perda seja avaliada pela Procuradoria-Geral do Estado como **provável** e cujo valor possa ser estimado com confiabilidade:
+
+* **A)** Deve ser reconhecida uma provisão no passivo exigível, com contrapartida em Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
+* **B)** Não deve ser efetuado nenhum registro no passivo, bastando a divulgação em nota explicativa como passivo contingente.
+* **C)** Deve ser registrada apenas no subsistema de controle (atos potenciais passivos), sendo vedado o lançamento contábil no passivo patrimonial.
+* **D)** O registro contábil fica condicionado ao trânsito em julgado da decisão judicial irrecorrível perante os Tribunais Superiores.
+* **E)** Deve ser contabilizado um ativo contingente garantidor em contrapartida ao patrimônio líquido.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Conforme a NBC TSP 03: quando uma obrigação presente resultante de evento passado tiver saída de recursos avaliada como **provável** e puder ser mensurada com confiabilidade, **deve ser reconhecida uma provisão no passivo**, afetando o resultado (VPD).
+> - **B)** Incorreta. Essa conduta aplica-se a passivos contingentes com probabilidade de perda apenas **possível**.
+> - **C)** Incorreta. O fato de ser provável e mensurável exige contabilização patrimonial efetiva no Passivo Circulante ou Não Circulante.
+> - **D)** Incorreta. A provisão existe exatamente para antecipar obrigações prováveis antes da liquidação jurídica definitiva (trânsito em julgado).
+> - **E)** Incorreta. Ativos contingentes não são reconhecidos no balanço patrimonial.
+> 
+> **Gabarito: A**
+
+---
+
 
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 

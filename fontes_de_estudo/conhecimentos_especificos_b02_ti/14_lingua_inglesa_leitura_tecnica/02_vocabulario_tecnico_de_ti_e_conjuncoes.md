@@ -84,6 +84,33 @@ A concessão introduz uma circunstância desfavorável, limitação técnica ou 
 > - Correto: **In spite of** + Substantivo (*in spite of the error*).  
 > - Totalmente incorreto: *Despite of the error*. Descarte de imediato qualquer opção que use "despite of"!
 
+---
+
+### Questão 01 (FCC - Adaptada / TRT - Analista Judiciário - Tecnologia da Informação)
+*Carefully read the technical excerpt below on distributed systems:*
+
+> *"**Despite** the sudden network partition and sporadic hardware failures, the distributed ledger maintained strong data consistency across all active nodes. **Although** write throughput temporarily stalled during leader election, no uncommitted transactions were lost. The engineering team, **however**, scheduled an emergency firmware update to mitigate residual latency spikes."*
+
+Com base no texto técnico e nas regras morfossintáticas e coesivas da língua inglesa, assinale a afirmação correta:
+
+* **A)** A substituição do conectivo **"Despite"** pela locução **"Despite of"** preservaria a correção gramatical e o sentido original do período.
+* **B)** A oração introduzida por **"Although"** expressa uma concessão que poderia ser substituída sem prejuízo sintático ou semântico por **"Even though"**.
+* **C)** O termo **"however"** introduz uma oração subordinada causal explicativa sobre a atualização de firmware.
+* **D)** A expressão **"in spite of"** não poderia substituir **"Despite"** no primeiro período, pois exige oração subordinada com verbo conjugado.
+* **E)** O vocábulo **"Although"** deve ser necessariamente acompanhado de substantivo simples desacompanhado de verbo finito.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A forma **"Despite of" NÃO EXISTE** na língua inglesa padrão. É uma clássica armadilha de bancas de concurso (FCC/FGV). O correto é utilizar **"Despite"** (sem preposição) ou **"In spite of"** (com preposição).
+> - **B)** Correta. As conjunções subordinativas concessivas **"Although"**, **"Even though"** e **"Though"** são semanticamente intercambiáveis e exigem a mesma estrutura sintática (sujeito + verbo finito conjugado: *"write throughput temporarily stalled"*).
+> - **C)** Incorreta. O vocábulo **"however"** é um advérbio conjuntivo adversativo que expressa **contraste, ressalva ou oposição** (no entanto, porém, contudo), e não causa ou explicação.
+> - **D)** Incorreta. A locução prepositiva **"in spite of"** é sinônima exata de **"despite"** e exige sintagma nominal (*noun phrase*): *"In spite of the sudden network partition..."* seria plenamente correto.
+> - **E)** Incorreta. **"Although"** é uma conjunção e exige oração completa com verbo (*"write throughput temporarily stalled"*). Quem exige sintagma nominal é *despite* ou *in spite of*.
+> 
+> **Gabarito: B**
+
+---
+
 ### 1.3 Relações de Causa, Explicação e Motivo
 
 Indicam o fundamento, premissa ou razão determinante para que determinado evento computacional ocorra:
@@ -123,6 +150,33 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 > ⚠️ **Ponto de Atenção FCC:**  
 > A partícula *Unless* já é inerentemente negativa. Construções que associam *unless* a verbos no negativo (*unless you don't comply*) criam dupla negação confusa, explorada pela banca em itens interpretativos capciosos.
 
+---
+
+### Questão 02 (FCC - Adaptada / Tribunal de Contas - Auditoria Governamental de TI)
+*Read the continuous delivery policy statement below:*
+
+> *"The automated deployment pipeline will not release the production artifact into the sovereign cloud cluster **unless** all static code analysis checks report zero critical vulnerabilities **and** the regression suite passes with 100% compliance."*
+
+No contexto da infraestrutura de CI/CD apresentada e da semântica dos conectivos na língua inglesa, a diretriz condicional regida pela conjunção **"unless"** expressa que o artefato só será publicado se:
+
+* **A)** Todos os testes estáticos reportarem zero vulnerabilidades críticas e os testes de regressão obtiverem 100% de conformidade.
+* **B)** Os testes estáticos acusarem vulnerabilidades críticas ou os testes de regressão falharem.
+* **C)** A equipe de auditoria dispensar formalmente a verificação de vulnerabilidades em virtude de prazos urgentes.
+* **D)** O cluster de nuvem registrar latência nula, independentemente do resultado dos analisadores estáticos.
+* **E)** O deploy ocorrer em ambiente de homologação (*staging*) desprovido de regras de integridade.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A conjunção condicional **"unless"** equivale estritamente a **"if... not"** (*a não ser que, a menos que, exceto se*). A frase estabelece: *"O pipeline não fará o release a não ser que (unless) A e B ocorram"*. Portanto, para que haja o release, é mandatório que **ambas** as condições (A e B) sejam plenamente satisfeitas.
+> - **B)** Incorreta. Se houver vulnerabilidades ou se os testes de regressão falharem, o pipeline **bloqueará** a implantação, exatamente o inverso da afirmativa.
+> - **C)** Incorreta. A regra é automatizada e não prevê dispensa por urgência no texto técnico.
+> - **D)** Incorreta. Não há menção a latência ou dispensa de analisadores estáticos.
+> - **E)** Incorreta. O texto restringe o envio para o cluster sovereign de produção.
+> 
+> **Gabarito: A**
+
+---
+
 ### 1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis
 
 | Relação Semântica | Conectivos Canônicos | Estrutura Sintática Requerida | Substitutos Plenamente Equivalentes | Exemplo Prático de TI |
@@ -140,7 +194,7 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 
 ---
 
-### Questão 01 (FCC - Adaptada / Tribunal de Contas - Auditoria de TI)
+### Questão 03 (FCC - Adaptada / Tribunal de Contas - Auditoria de TI)
 Na redação técnica em língua inglesa sobre infraestrutura distribuída e bancos de dados, o enunciado:
 
 > *"Engineers must balance the trade-off between strict consistency and high availability; **in spite of** the replication lag, the distributed database guarantees eventual consistency."*
@@ -165,7 +219,7 @@ apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indic
 
 ---
 
-### Questão 02 (FCC - Adaptada / Auditor de TI - Fiscalização de Contratos de Nuvem)
+### Questão 04 (FCC - Adaptada / Auditor de TI - Fiscalização de Contratos de Nuvem)
 *Consider the analytical report below regarding multi-tenant cloud storage:*
 
 > *"Relational engines enforce strict schema validation; **whereas**, document databases store unstructured documents. **Due to** recent compliance audits, administrators had to verify that cryptographic logs were **tamper-proof**. **Furthermore**, the cloud provider agreed to **mitigate** all critical hypervisor flaws discovered during penetration testing."*
@@ -192,7 +246,7 @@ A respeito das relações semânticas e do vocabulário técnico empregados no p
 
 
 
-### Questão 03 (FCC - Adaptada / Analista de Governança de TI - SEFAZ)
+### Questão 05 (FCC - Adaptada / Analista de Governança de TI - SEFAZ)
 *Consider the sentence extracted from a technical systems architecture evaluation:*
 
 > *"The newly adopted microservices architecture offers superior horizontal scalability; **nevertheless**, it introduces substantial operational **overhead** and network latency. **Therefore**, the development team decided not to migrate the mission-critical core service **unless** rigorous benchmark metrics prove that throughput remains acceptable."*
@@ -261,6 +315,37 @@ flowchart LR
 - **Sufixos Formadores de Advérbios:**
     - *-ly:* Adicionado ao adjetivo para exprimir o modo de execução (*seamlessly* = perfeitamente, sem interrupção perceptível; *concurrently* = simultaneamente; *asynchronously* = de maneira assíncrona).
 
+---
+
+### Questão 06 (FCC - Adaptada / Analista de Sistemas - Desenvolvimento)
+*Analyze the technical sentence below regarding cloud computing architecture:*
+
+> *"The architectural **maintainability** and **scalability** of cloud-native microservices ensure that distributed workloads degrade **gracefully** during unexpected traffic bursts."*
+
+Em relação à morfologia das palavras em destaque e seus sufixos na língua inglesa, assinale a afirmativa correta:
+
+* **A)** Os vocábulos **"maintainability"** e **"scalability"** são substantivos abstratos derivados de adjetivos com sufixo *-able* acrescidos do sufixo nominalizador *-ity*.
+* **B)** A terminação *-ly* em **"gracefully"** caracteriza um adjetivo descritivo invariável que qualifica o substantivo *workloads*.
+* **C)** O sufixo *-ity* transforma substantivos em verbos no infinitivo.
+* **D)** As palavras *maintainability* e *scalability* funcionam sintaticamente como advérbios de modo que indicam tempo de resposta.
+* **E)** A terminação *-able* presente na raiz das palavras traduz uma impossibilidade ou veto técnico categórico.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O processo de formação é claro: *maintain* (verbo) $
+ightarrow$ *maintainable* (adjetivo) $
+ightarrow$ *maintainability* (substantivo que expressa qualidade/capacidade); e *scale* (verbo) $
+ightarrow$ *scalable* (adjetivo) $
+ightarrow$ *scalability* (substantivo). O sufixo derivacional **-ity** forma **substantivos abstratos** indicando condição, estado ou propriedade técnica.
+> - **B)** Incorreta. O sufixo **-ly** em *gracefully* forma um **advérbio de modo** (*de forma graciosa / suavemente / sem colapsar*), que modifica o verbo *degrade*, e não um adjetivo.
+> - **C)** Incorreta. O sufixo *-ity* forma substantivos, nunca verbos.
+> - **D)** Incorreta. *Maintainability* e *scalability* são substantivos nucleares do sujeito oracional, e não advérbios.
+> - **E)** Incorreta. O sufixo *-able / -ible* denota capacidade, passibilidade ou viabilidade técnica (passível de manutenção, passível de escalabilidade).
+> 
+> **Gabarito: A**
+
+---
+
 ### 2.3 Substantivos Compostos e Leitura Reversa (Noun Adjuncts)
 
 Na redação técnica de computação, sequências de três, quatro ou cinco palavras justapostas formam conceitos compostos complexos (*Noun Adjuncts / Compound Nouns*).
@@ -290,7 +375,7 @@ flowchart RL
 
 ---
 
-### Questão 04 (FCC - Adaptada / Analista de Infraestrutura e Redes)
+### Questão 07 (FCC - Adaptada / Analista de Infraestrutura e Redes)
 *Read the excerpt from an infrastructure deployment manual:*
 
 > *"To guarantee zero downtime during datacenter updates, our team configured a **fault-tolerant high-availability cluster provisioning system**. The infrastructure operates **seamlessly** across two distinct availability zones, ensuring that failover occurs automatically without dropping active user sessions."*
@@ -341,6 +426,33 @@ Está correto o que se afirma em:
 - **Deprecate / Deprecated (Descontinuar / Obsoleto):** Recurso que permanece temporariamente disponível para fins de compatibilidade retroativa, mas cuja utilização é desaconselhada devido à descontinuação iminente.
 - **Boilerplate (Código Padronizado / Repetitivo):** Seções de código repetitivo e verboso necessárias para compilação ou configuração inicial, sem valor funcional direto de negócio.
 
+---
+
+### Questão 08 (FCC - Adaptada / TCE-GO - Engenharia de Software)
+*Read the architectural review summary below:*
+
+> *"The audit team observed excessive **boilerplate** code across the data access layer, coupled with high **coupling** and low **cohesion** between payment services. To resolve this technical debt, the lead architect proposed continuous **refactoring**, acknowledging the inevitable **trade-off** between immediate delivery speed and long-term maintainability."*
+
+Com base na terminologia técnica consagrada na engenharia de software e no texto acima:
+
+* **A)** O termo **"refactoring"** designa a reescrita de código com a finalidade exclusiva de alterar as saídas e regras de negócio externas observáveis pelos usuários.
+* **B)** A expressão **"trade-off"** refere-se a uma decisão de engenharia na qual a obtenção de uma vantagem técnica implica forçosamente abrir mão de outro benefício ou aceitar um custo correlato.
+* **C)** O conceito de **"boilerplate"** define módulos de software altamente customizados e exclusivos que encerram algoritmos confidenciais de negócio.
+* **D)** O estado de **"high coupling"** (alto acoplamento) constitui a melhor prática arquitetural recomendada, pois assegura que módulos dependam criticamente uns dos outros para operar.
+* **E)** O vocábulo **"cohesion"** (coesão) indica a quantidade de pacotes de dados perdidos em uma transmissão de rede local.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O termo **"refactoring"** (refatoração) consiste na melhoria da estrutura interna do código fonte **sem alterar seu comportamento observável externo**. Se o comportamento externo é alterado, não é refatoração pura, mas redesign ou nova feature.
+> - **B)** Correta. Na literatura técnica e em provas de concurso, **"trade-off"** define a relação de compromisso ou concessão mútua: escolher uma abordagem arquitetural vantajosa em determinado aspecto (ex.: velocidade de entrega) acarretando desvantagens em outro (ex.: manutenibilidade).
+> - **C)** Incorreta. **"Boilerplate"** refere-se a código repetitivo, verboso e padronizado necessário para suporte ou configuração, desprovido de valor específico de negócio.
+> - **D)** Incorreta. A regra áurea de design arquitetural prega **baixo acoplamento** (*low coupling*) e **alta coesão** (*high cohesion*). Alto acoplamento gera dependências frágeis e propagação de falhas em cascata.
+> - **E)** Incorreta. **"Cohesion"** (coesão) mede o grau de afinidade e foco das responsabilidades de uma classe ou módulo (responsabilidade única), nada tendo a ver com perda de pacotes de rede.
+> 
+> **Gabarito: B**
+
+---
+
 ### 3.2 Concorrência e Sistemas Operacionais
 
 - **Deadlock (Impasse Mútuo / Travamento Recíproco):** Condição anômala em que dois ou mais processos ou threads concorrentes ficam eternamente paralisados aguardando a liberação de recursos bloqueados entre si.
@@ -352,7 +464,7 @@ Está correto o que se afirma em:
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista Judiciário - TRT - Tecnologia da Informação)
+### Questão 09 (FCC - Adaptada / Analista Judiciário - TRT - Tecnologia da Informação)
 *Carefully read the technical paragraph below regarding concurrent programming:*
 
 > *"When multiple threads concurrently access shared memory without proper synchronization, a hazardous **race condition** may emerge. If two threads enter a circular dependency while competing for exclusive locks, the operating system enters a permanent **deadlock**. To avoid these anomalies, developers can employ immutable data structures, **provided that** the garbage collector can efficiently recycle discarded instances **without** triggering disruptive latency spikes."*
@@ -395,6 +507,31 @@ Com base no texto técnico e nas regras gramaticais da língua inglesa, assinale
 - **Spoofing (Falsificação de Identidade / Mascaramento):** Técnica de usurpação de identidade digital (IP spoofing, DNS spoofing, e-mail spoofing).
 - **Bypass (Burlar / Contornar):** Ato de contornar ou neutralizar controles e barreiras de segurança pré-existentes.
 - **Mitigate / Mitigation (Mitigar / Atenuar):** Adoção de salvaguardas técnicas destinadas a minimizar a severidade, o impacto ou a probabilidade de exploração de um risco de segurança.
+
+---
+
+### Questão 10 (FCC - Adaptada / Segurança Cibernética e Auditoria de Sistemas)
+*Read the cybersecurity incident report excerpt below:*
+
+> *"During the external penetration test, the adversary attempted to bypass perimeter firewalls via **IP spoofing** and gain administrative access through targeted **phishing**. However, cryptographic **tamper-proof** event logs maintained on an immutable write-once store allowed forensic auditors to establish **non-repudiation** and swiftly execute threat **mitigation** procedures."*
+
+No âmbito da segurança da informação e auditoria de sistemas, a correta interpretação dos termos destacados indica que:
+
+* **A)** **"IP spoofing"** consiste na criptografia legítima do endereço IP de origem para acelerar o roteamento de pacotes prioritários.
+* **B)** Registros descritos como **"tamper-proof"** são trilhas de auditoria dotadas de salvaguardas que impedem ou evidenciam qualquer adulteração ou manipulação não autorizada de dados.
+* **C)** O princípio de **"non-repudiation"** (não repúdio) confere ao autor da ação a faculdade técnica de negar a autoria de qualquer transação efetuada no sistema.
+* **D)** O termo **"mitigation"** descreve a intensificação intencional de vulnerabilidades operacionais em servidores expostos na internet.
+* **E)** **"Phishing"** caracteriza a exclusão definitiva de logs de eventos mediante ataques de inundação de pacotes syn-flood.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. **"IP spoofing"** (falsificação/mascaramento de IP) é uma técnica de ataque em que o invasor forja o cabeçalho IP para se passar por um endereço de confiança.
+> - **B)** Correta. A expressão **"tamper-proof"** (à prova de adulteração) qualifica repositórios, trilhas ou mecanismos criptográficos imutáveis (como WORM - *Write Once, Read Many*) projetados para impossibilitar a modificação ou exclusão de registros de auditoria por usuários maliciosos ou comprometidos.
+> - **C)** Incorreta. O princípio de **"non-repudiation"** (não repúdio ou irrefutabilidade) **garante a impossibilidade de negar** a autoria ou integridade da transação realizada.
+> - **D)** Incorreta. **"Mitigation"** (mitigação) consiste na redução, contenção e controle de riscos ou danos decorrentes de vulnerabilidades ou incidentes.
+> - **E)** Incorreta. **"Phishing"** é técnica de engenharia social voltada a induzir usuários a fornecer senhas e dados confidenciais, não exclusão de logs.
+> 
+> **Gabarito: B**
 
 ---
 

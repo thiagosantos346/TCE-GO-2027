@@ -175,6 +175,29 @@ Criado pela equipe do GitHub, o **GitHub Flow** é uma abordagem minimalista e c
     4. Após aprovação em revisão por pares e nos testes automatizados, o código é implantado em produção (para validação imediata);
     5. Realiza-se o merge na branch `main` e a branch de trabalho é excluída.
 
+### Questão 03
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+O modelo de ramificação *GitHub Flow* destaca-se por sua simplicidade e alinhamento estreito com práticas de Implantação Contínua. Diferentemente do complexo modelo *Git Flow*, a premissa central de governança do *GitHub Flow* estabelece que:
+
+* **A)** Devem existir permanentemente cinco branches perenes no repositório com releases a cada dois anos.
+* **B)** Há apenas uma branch de vida longa (`main` ou `master`), a qual deve estar permanentemente em estado de produção (testada e estável); novas funcionalidades são criadas a partir dela em branches descritivas de curta duração, integradas rapidamente via *Pull Request* e implantadas imediatamente em produção.
+* **C)** Desenvolvedores são expressamente proibidos de abrir *Pull Requests* para revisão por pares.
+* **D)** O código da branch principal nunca pode ser enviado para servidores de produção.
+* **E)** As mesclagens devem ser realizadas exclusivamente por comando de voz do diretor de TI.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O *Git Flow* possui múltiplas branches perenes (`main`, `develop`); o *GitHub Flow* foca em extrema simplicidade.
+> - **B) Correta.** O *GitHub Flow* apoia-se em 6 regras canônicas: 1) qualquer coisa na branch `main` está pronta para deploy; 2) para trabalhar em algo novo, crie uma branch com nome descritivo a partir da `main`; 3) faça commits nessa branch local e remota; 4) abra um Pull Request para feedback; 5) revise e aprove; 6) faça merge na `main` e implante imediatamente em produção.
+> - **C) Incorreta.** O Pull Request é o coração colaborativo do GitHub Flow.
+> - **D) Incorreta.** A branch `main` é a própria base de produção.
+> - **E) Incorreta.** Afirmação cômica e absurda.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 1.4 O Modelo GitLab Flow (Ambientes e Versões)
 
 O **GitLab Flow** une a simplicidade do GitHub Flow à necessidade corporativa de gerenciar múltiplos ambientes de infraestrutura e suporte a versões legadas:
@@ -188,7 +211,7 @@ O **GitLab Flow** une a simplicidade do GitHub Flow à necessidade corporativa d
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - GitHub Flow e GitLab Flow)
+### Questão 04 (FCC - Adaptada / TI - GitHub Flow e GitLab Flow)
 Em relação aos modelos de ramificação simplificados com foco em ambientes de computação em nuvem, assinale a afirmativa correta sobre o **GitHub Flow** e o **GitLab Flow**:  
 
 * **A)** No GitHub Flow, o código deve ser obrigatoriamente submetido a aprovação de pelo menos quatro ramos intermediários (`develop`, `homolog`, `staging` e `canary`) antes que qualquer branch de tarefa possa ser criada.
@@ -251,6 +274,29 @@ flowchart TD
 - **Vantagens:** Preserva integralmente o histórico original de todos os commits intermediários e a exata demarcação cronológica de que aquele conjunto de linhas foi concebido em uma branch isolada.
 - **Desvantagens:** Pode transformar o grafo visual do repositório em uma "teia de espaguete" de difícil interpretação, repleta de commits triviais como *"wip"*, *"corrigindo typo"* ou *"ajuste de teste"*.
 
+### Questão 05
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No Git, ao integrar duas ramificações cuja branch de destino não sofreu alterações desde o ponto de bifurcação, o comportamento padrão é a execução de um *Fast-Forward* (avanço rápido do ponteiro). Entretanto, quando o desenvolvedor utiliza explicitamente o comando `git merge --no-ff`, o efeito técnico resultante é:
+
+* **A)** A destruição de todos os arquivos modificados na branch de origem.
+* **B)** A criação forçada de um commit de mescla (*merge commit*) com múltiplos pais, preservando formalmente no histórico gráfico a evidência histórica de que aqueles commits pertenceram a uma branch de desenvolvimento independente.
+* **C)** A conversão do repositório Git local em um repositório centralizado Apache Subversion (SVN).
+* **D)** O rebaseamento automático de todos os commits diretamente na memória ROM da placa-mãe.
+* **E)** A execução de uma checagem de tipos estáticos sem criação de novos nós na árvore de commits.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Não há perda de dados.
+> - **B) Correta.** A flag `--no-ff` (*no fast-forward*) força a criação de um nó explícito de *merge commit* mesmo quando o Git poderia simplesmente avançar o ponteiro. Essa prática é valiosa para governança corporativa, pois demarca claramente o ciclo de vida e fechamento de cada funcionalidade no grafo de commits.
+> - **C) Incorreta.** Não altera a natureza distribuída do Git.
+> - **D) Incorreta.** Totalmente descabida.
+> - **E) Incorreta.** A operação gera obrigatoriamente um novo commit no histórico.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 2.2 Squash and Merge (`git merge --squash`)
 
 - **Operação Subjacente:** Coleta todas as modificações introduzidas pelos múltiplos commits da branch de trabalho, une-as em uma única alteração atômica e registra **um único e coeso commit novo** no topo da branch de destino, descartando os commits individuais intermediários.
@@ -259,7 +305,7 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Adaptada / TI - Estratégias de Merge em Pull Requests)
+### Questão 06 (FCC - Adaptada / TI - Estratégias de Merge em Pull Requests)
 Durante a revisão de uma *Pull Request* no GitHub para integração de um microsserviço de arrecadação tributária, um desenvolvedor submeteu 12 commits intermediários contendo mensagens como `"wip"`, `"ajustando indentacao"`, `"corrigindo erro de digitacao"` e `"mais um teste"`. O líder técnico determinou que o merge fosse efetuado utilizando a estratégia **Squash and Merge**.
 
 O principal benefício técnico proporcionado pela estratégia de **Squash and Merge** nessa situação é:  
@@ -290,6 +336,29 @@ O principal benefício técnico proporcionado pela estratégia de **Squash and M
 
 ---
 
+
+### Questão 07
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Em plataformas modernas de desenvolvimento colaborativo (como GitHub e GitLab), uma das opções de fechamento de Pull Requests é o *Rebase and Merge*. A principal consequência dessa estratégia na topologia do histórico da branch principal é:
+
+* **A)** A geração de múltiplos commits de mescla entrelaçados em formato de teia de aranha.
+* **B)** A geração de um histórico de commits estritamente linear e limpo, uma vez que os commits da feature branch são reaplicados um a um sobre a ponta da branch principal com novos hashes SHA, dispensando a criação de um commit de merge adicional.
+* **C)** A descompactação de todos os arquivos em um servidor FTP legado.
+* **D)** A impossibilidade de compilar o software após o merge.
+* **E)** O travamento permanente de todas as demais branches do projeto.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Essa topologia desorganizada ocorre com múltiplos merges bidirecionais sem rebase.
+> - **B) Correta.** O *Rebase and Merge* reescreve os commits da branch individual sobre o topo da branch base (`main`), criando novos identificadores SHA-1/256 e produzindo uma linha do tempo perfeitamente linear e contínua, facilitando auditoria via `git log --oneline` e bissecção de bugs (`git bisect`).
+> - **C) Incorreta.** Não há conexão com FTP.
+> - **D) Incorreta.** A compilação opera normalmente.
+> - **E) Incorreta.** Não trava o repositório.
+>
+> **Gabarito: B**
+
+---
+
 ## 3. Governança, Regras de Proteção de Branches e `CODEOWNERS`
 
 Em instituições governamentais e órgãos de controle externo como o TCE-GO, os repositórios de código constituem ativos estratégicos sujeitos a rígidos requisitos de conformidade, trilhas de auditoria e segregação de funções.
@@ -307,7 +376,7 @@ As configurações de proteção de branch (*Branch Protection Rules* no GitHub 
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Governança de Repositórios e Políticas de Proteção)
+### Questão 08 (FCC - Adaptada / TI - Governança de Repositórios e Políticas de Proteção)
 Para implementar controles rigorosos de segurança e conformidade em um repositório institucional hospedado no GitHub, a administração de TI de um Tribunal de Contas deseja assegurar que:
 
 1. Nenhum desenvolvedor consiga sobrescrever o histórico da branch `main` utilizando o comando `git push --force`.
@@ -358,6 +427,29 @@ O arquivo **`CODEOWNERS`** (alocado na raiz do repositório, dentro da pasta `.g
 
 **Mecânica de Aplicação:** Quando um desenvolvedor abre uma *Pull Request* alterando qualquer arquivo coberto pelas regras do `CODEOWNERS`, a plataforma Git adiciona **automaticamente e de forma obrigatória** as equipes ou usuários especificados como revisores bloqueantes. O merge da PR torna-se tecnicamente impossível até que os proprietários do código tenham revisado e concedido a aprovação.
 
+### Questão 09
+**(FCC – Inédita – Padrão TCE-GO)**  
+No âmbito da governança de código e controle de acesso a repositórios de software corporativos, o arquivo especial `CODEOWNERS` (suportado por GitHub e GitLab) tem como função primordial:
+
+* **A)** Definir senhas de acesso aos servidores de banco de dados de produção.
+* **B)** Mapear padrões de arquivos e diretórios a pessoas ou equipes responsáveis (*owners*), associando-se a regras de proteção de branch para exigir a aprovação formal e obrigatória desses proprietários antes que Pull Requests que alterem esses caminhos específicos possam ser mesclados.
+* **C)** Listar os salários dos funcionários que contribuem com o código-fonte.
+* **D)** Proibir que desenvolvedores júnior leiam arquivos de teste.
+* **E)** Substituir o compilador Java por um compilador de código proprietário.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Segredos nunca devem ser colocados em arquivos de governança do repositório.
+> - **B) Correta.** O arquivo `CODEOWNERS` (posicionado na raiz, em `.github/` ou `.gitlab/`) permite atribuir a custódia técnica de caminhos sensíveis (ex: `/segurança/`, `*.tf`, `/core/`) a especialistas ou times específicos. Quando integrado a regras de branch protection (*Require review from Code Owners*), nenhum PR nessas pastas pode ser mesclado sem o aval formal desses custodiantes.
+> - **C) Incorreta.** Dado pessoal e corporativo alheio ao repositório.
+> - **D) Incorreta.** Não restringe leitura em repositórios abertos à equipe.
+> - **E) Incorreta.** Afirmação absurda.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 3.3 Comparativo Terminológico e Operacional: GitHub vs. GitLab
 
 | Conceito / Recurso | Plataforma GitHub | Plataforma GitLab |
@@ -367,6 +459,29 @@ O arquivo **`CODEOWNERS`** (alocado na raiz do repositório, dentro da pasta `.g
 | **Agente Executor de Tarefas** | **GitHub Runner** (*Hosted* ou *Self-Hosted*) | **GitLab Runner** (Shared ou Specific) |
 | **Regras de Governança de Ramos** | *Branch Protection Rules* | *Protected Branches* |
 | **Arquivo de Donos de Código** | `.github/CODEOWNERS` ou raiz | `.gitlab/CODEOWNERS` ou raiz |
+
+---
+
+
+### Questão 10
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+As duas plataformas de desenvolvimento colaborativo e DevOps mais adotadas na administração pública são o GitHub e o GitLab. A respeito da correspondência terminológica e conceitual entre ambas as plataformas, é correto afirmar:
+
+* **A)** A solicitação formal de revisão e mescla de código denomina-se *Pull Request* no GitHub e *Merge Request* no GitLab.
+* **B)** O GitLab não suporta integração contínua (CI/CD), exigindo a contratação de ferramentas externas proprietárias.
+* **C)** O GitHub proíbe a utilização de contêineres Docker em seus executores de pipeline (*Runners*).
+* **D)** *Issues* existem apenas no GitHub, não havendo mecanismo de acompanhamento de demandas e chamados no GitLab.
+* **E)** O GitLab exige que todo o código seja armazenado em fitas magnéticas analógicas.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** É o clássico mapeamento terminológico: o que o GitHub chama de **Pull Request (PR)**, o GitLab denomina formalmente **Merge Request (MR)**. Da mesma forma, os executores de pipeline são *GitHub Actions Runners* e *GitLab Runners*.
+> - **B) Incorreta.** O GitLab possui o *GitLab CI/CD* nativamente integrado ao repositório (via arquivo `.gitlab-ci.yml`).
+> - **C) Incorreta.** GitHub Actions executa contêineres Docker tanto em steps quanto como ambiente de execução dos jobs.
+> - **D) Incorreta.** Ambas as plataformas possuem módulos robustos de gestão de *Issues* e quadros Kanban.
+> - **E) Incorreta.** Afirmação sem lógica técnica.
+>
+> **Gabarito: A**
 
 ---
 

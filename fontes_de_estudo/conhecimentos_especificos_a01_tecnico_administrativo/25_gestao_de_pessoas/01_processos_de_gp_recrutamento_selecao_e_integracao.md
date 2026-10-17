@@ -145,6 +145,30 @@ No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto
 
 
 
+### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+Idalberto Chiavenato estrutura a moderna Gestão de Pessoas em seis processos básicos interdependentes: Agregar, Aplicar, Recompensar, Desenvolver, Manter e Monitorar pessoas.
+
+O processo de **Aplicar Pessoas** compreende precipuamente as atividades de:
+
+* **A)** Desenho organizacional de cargos, análise e descrição de funções, orientação e socialização das pessoas e avaliação do desempenho humano.
+* **B)** Recrutamento interno, recrutamento externo e seleção de candidatos por provas e títulos.
+* **C)** Concessão de remuneração fixa, incentivos salariais, benefícios e serviços sociais.
+* **D)** Treinamento e desenvolvimento de competências, gestão do conhecimento e programas de mudança.
+* **E)** Higiene, segurança e qualidade de vida no trabalho e relações com sindicatos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Os seis processos de Chiavenato: (1) *Agregar Pessoas*: recrutamento e seleção; (2) **Aplicar Pessoas**: desenho de cargos, descrição de atribuições, orientação (*onboarding*) e avaliação de desempenho; (3) *Recompensar Pessoas*: remuneração, benefícios e incentivos; (4) *Desenvolver Pessoas*: treinamento, capacitação e aprendizagem; (5) *Manter Pessoas*: higiene, segurança, relações sindicais e QVT; (6) *Monitorar Pessoas*: banco de dados e sistemas de informação de RH.
+> - **B)** Incorreta. Refere-se ao processo de *Agregar Pessoas*.
+> - **C)** Incorreta. Refere-se ao processo de *Recompensar Pessoas*.
+> - **D)** Incorreta. Refere-se ao processo de *Desenvolver Pessoas*.
+> - **E)** Incorreta. Refere-se ao processo de *Manter Pessoas*.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 3. Rotinas Administrativas do Departamento de Pessoal no Setor Público
 
 Mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indispensáveis para garantir a estrita legalidade e conformidade dos atos de gestão pública:
@@ -210,7 +234,7 @@ flowchart LR
 
 ---
 
-### Questão 02
+### Questão 03
 **(FCC – Auditor de Controle Externo – TCE-RO)**  
 Uma entidade pública estadual necessita preencher posições funcionais de gestão interna. Ao optar prioritariamente pelo recrutamento interno em detrimento do recrutamento externo, a organização colhe benefícios relevantes, porém sujeita-se a uma vulnerabilidade conceitual frequentemente apontada pela literatura, consubstanciada na:
 
@@ -275,7 +299,7 @@ flowchart TD
 
 ---
 
-### Questão 03
+### Questão 04
 **(FCC – Analista Administrativo – DPE-SP)**  
 Em uma entrevista de seleção baseada na gestão por competências, o examinador formula a seguinte questão ao candidato: *"Descreva uma ocasião em seu trabalho anterior na qual um prazo orçamentário complexo estava na iminência de se esgotar, detalhe qual era o desafio sob sua responsabilidade direta, as ações práticas que você implementou para contornar o obstáculo e quais foram os resultados mensuráveis obtidos"*. A técnica de seleção adotada classifica-se como:
 
@@ -297,6 +321,29 @@ Em uma entrevista de seleção baseada na gestão por competências, o examinado
 
 ---
 
+
+
+### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
+No tocante às rotinas de recrutamento de pessoal, o **Recrutamento Interno** contrapõe-se ao **Recrutamento Externo** ao privilegiar a movimentação de servidores da própria organização.
+
+Constitui uma típica **vantagem** do Recrutamento Interno:
+
+* **A)** Maior rapidez no preenchimento da vaga, menor custo financeiro do processo e estímulo à motivação e à lealdade dos servidores atuais por meio de oportunidades concretas de plano de carreira.
+* **B)** A introdução massiva de novas ideias, talentos externos e inovação de ponta na cultura corporativa.
+* **C)** A renovação completa do quadro de pessoal e oxigenação da estrutura burocrática.
+* **D)** A dispensa absoluta de avaliação de desempenho funcional e conformidade disciplinar.
+* **E)** A eliminação do sentimento de frustração entre os servidores que não foram contemplados na promoção.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **Recrutamento Interno** é mais econômico, mais rápido, apresenta maior índice de validade e segurança (o candidato já é conhecido) e atua como poderoso incentivo à motivação e retenção de talentos da casa.
+> - **B), C)** Incorretas. Vantagens exclusivas do **Recrutamento Externo** (traz "sangue novo" e novas perspectivas).
+> - **D)** Incorreta. A movimentação interna baseia-se exatamente no histórico e avaliação de desempenho.
+> - **E)** Incorreta. O recrutamento interno frequentemente gera frustração nos candidatos não selecionados (efeito Peter e conflito de interesse).
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)
@@ -329,7 +376,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Questão 06
 **(FCC – Analista de Controle Externo – TCE-GO)**  
 De acordo com os preceitos expressos no art. 37 da Constituição Federal de 1988 e a jurisprudência sumulada e vinculante dos Tribunais Superiores acerca do concurso público:
 
@@ -351,6 +398,27 @@ De acordo com os preceitos expressos no art. 37 da Constituição Federal de 198
 
 ---
 
+
+
+### Questão 07 (FCC - Adaptada / Analista de Planejamento e Gestão)
+No processo de socialização organizacional (*onboarding*) dos novos servidores públicos ingressantes, John Van Maanen e Edgar Schein categorizam as táticas institucionais de socialização empregadas pela organização.
+
+A tática de socialização caracterizada por integrar os novatos em grupos que passam pelas mesmas experiências e trilhas formativas conjuntas, com um cronograma predeterminado de etapas de acolhimento e mentoria, é classificada como:
+
+* **A)** Coletiva, Formal e Sequencial.
+* **B)** Individual, Informal e Aleatória.
+* **C)** Desjuntiva, Isolada e Punitiva.
+* **D)** Reativa, Transitória e Descentralizada.
+* **E)** Cartorária, Regressiva e Desestruturada.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Táticas de socialização de Van Maanen e Schein: **Coletiva** (novatos acolhidos em turma/grupo, comum em cursos de formação de concursos públicos); **Formal** (atividades estruturadas de integração fora do posto de trabalho imediato); e **Sequencial** (etapas ordenadas e progressivas de aprendizado até a plena assunção do cargo).
+> - **B), C), D), E)** Incorretas. Representam táticas individualizadas, informais ou termos desconexos da taxonomia clássica.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 6. Processo de Socialização e Integração Organizacional (*Onboarding*)
@@ -380,7 +448,7 @@ flowchart LR
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – Técnico Judiciário – Área Administrativa – TRT-24ª)**  
 O processo de socialização organizacional compreende o conjunto de mecanismos pelos quais a instituição transmite sua cultura, crenças e normas aos novos colaboradores. Segundo a doutrina de comportamento organizacional e gestão de pessoas, o momento em que o servidor recém-empossado ingressa na repartição e depara-se com as rotinas práticas, confrontando suas expectativas prévias com a realidade fática do ambiente de trabalho, denomina-se:
 
@@ -411,6 +479,52 @@ O processo de socialização organizacional compreende o conjunto de mecanismos 
 * **Cursos de Formação Inicial:** Aulas e oficinas práticas promovidas pela Escola de Contas/Governo para instrumentalizar o servidor nos sistemas corporativos e procedimentos processuais de controle externo.
 
 ---
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Na Administração Pública brasileira, o concurso público de provas ou de provas e títulos constitui o instrumento constitucional republicano por excelência para a investidura em cargo ou emprego público (art. 37, II da CF/88).
+
+A respeito das regras constitucionais do concurso público, é correto afirmar:
+
+* **A)** O prazo de validade do concurso público será de até dois anos, prorrogável uma vez, por igual período, e a convocação do aprovado durante a validade obedecerá estritamente à ordem de classificação.
+* **B)** A aprovação em concurso público gera sempre e em qualquer hipótese mera expectativa de direito, não assistindo ao candidato direito à nomeação mesmo quando aprovado dentro do número de vagas do edital.
+* **C)** É lícito ao Poder Público abrir novo concurso público para o mesmo cargo e prover todas as novas vagas antes de convocar os candidatos remanescentes aprovados no concurso anterior com prazo de validade ainda em vigor.
+* **D)** A fixação de limite de idade em edital independe de previsão em lei formal, bastando a conveniência discricionária do órgão.
+* **E)** A realização de concurso público é dispensável para a contratação de pessoal docente permanente em universidades públicas estaduais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Literalidade do art. 37, incisos III e IV da CF/88: prazo de validade de até 2 anos, prorrogável uma vez por igual período; a ordem classificatória é inafastável.
+> - **B)** Incorreta. O STF já fixou tese vinculante (Tema 161 - RE 598.099) de que o candidato aprovado **dentro do número de vagas** do edital possui **direito subjetivo à nomeação** durante o prazo de validade.
+> - **C)** Incorreta. O art. 37, IV veda expressamente a preterição de candidatos de concurso válido.
+> - **D)** Incorreta. Súmula Vinculante nº 44 do STF: exigência de limite de idade só é válida se prevista expressamente em lei e justificada pela natureza das atribuições do cargo.
+> - **E)** Incorreta. Cargos efetivos em universidades exigem compulsoriamente concurso público.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+No processo seletivo de pessoas, as técnicas de seleção devem apresentar dois requisitos psicométricos e metodológicos indispensáveis: **Validade** e **Confiabilidade (Fidedignidade)**.
+
+Diz-se que uma técnica ou teste de seleção possui alta **Validade** quando:
+
+* **A)** Mede com precisão exata aquilo que se propõe a medir e possui alto poder preditivo de prognosticar o desempenho futuro real do candidato no exercício do cargo.
+* **B)** Produz sempre as mesmas notas numéricas quando aplicada repetidas vezes à mesma pessoa em dias consecutivos.
+* **C)** Apresenta o menor custo financeiro de aplicação em relação ao orçamento disponível do departamento de recursos humanos.
+* **D)** É aplicada exclusivamente por meio de questionários digitais anônimos na internet.
+* **E)** Elimina mais de 90% dos candidatos na primeira etapa eliminatória.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Em psicometria e seleção de pessoal: **Validade** é o grau em que o instrumento mede realmente o traço ou competência que pretende medir e a sua capacidade preditiva de antecipar o sucesso do candidato no cargo; já a **Confiabilidade (ou Fidedignidade)** é a consistência e reprodutibilidade dos resultados (aplicado várias vezes à mesma pessoa, gera pontuações semelhantes).
+> - **B)** Incorreta. Conceito referente à **Confiabilidade / Fidedignidade**.
+> - **C)** Incorreta. Refere-se à economicidade do processo seletivo.
+> - **D), E)** Incorretas. Distorções procedimentais sem relação com o conceito psicométrico de validade.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 7. Fontes Oficiais e Referências Bibliográficas
 

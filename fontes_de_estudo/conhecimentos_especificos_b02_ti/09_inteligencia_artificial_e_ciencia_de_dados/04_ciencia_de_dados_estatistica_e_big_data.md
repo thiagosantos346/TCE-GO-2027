@@ -121,6 +121,34 @@ A respeito da metodologia CRISP-DM e dos critérios de pré-processamento de out
     - Qualquer observação que satisfaça $x < \text{LI}$ ou $x > \text{LS}$ é categorizada como **outlier moderado**. Se o fator multiplicador for $3{,}0$, classifica-se como **outlier extremo**.
     - O critério do **Escore Z (*Z-Score*)** ($Z = \frac{x - \mu}{\sigma}$) sinaliza anomalias quando $|Z| > 3$, pressupondo distribuição aproximadamente normal.
 
+### Questão 02 (FGV - TJ-RR / Analista Judiciário - TI - Tratamento de Outliers e Critério IQR)
+Em um projeto de ciência de dados para auditoria de contratos emergenciais de saúde, a equipe técnica precisa identificar desvios grosseiros e valores atípicos (*outliers*) nos preços unitários de medicamentos, utilizando um método estatístico não paramétrico e robusto à presença de distribuições assimétricas.
+
+O método amplamente recomendado pela literatura é o do **Intervalo Interquartil** (*Interquartile Range - IQR*). Considerando o Primeiro Quartil ($Q_1$) e o Terceiro Quartil ($Q_3$) de uma série ordenada de preços, assinale a opção que apresenta os limites inferior e superior que definem formalmente um *outlier* pelo critério de Tukey:
+
+* **A)** Limite Inferior: $Q_1 - 1,5 \cdot IQR$; Limite Superior: $Q_3 + 1,5 \cdot IQR$, onde $IQR = Q_3 - Q_1$.
+* **B)** Limite Inferior: $\mu - 2 \cdot \sigma$; Limite Superior: $\mu + 2 \cdot \sigma$, sendo $\mu$ a média e $\sigma$ a variância.
+* **C)** Limite Inferior: $0$; Limite Superior: $Q_3 \times 100$.
+* **D)** Limite Inferior: $\text{Mediana} / 2$; Limite Superior: $\text{Mediana} \times 2$.
+* **E)** Limite Inferior: $Q_1 + Q_3$; Limite Superior: $Q_1 - Q_3$.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** A regra dos passos de John Tukey (*Boxplot rule*) define o **Intervalo Interquartil (IQR)** como a dispersão da metade central dos dados:
+>   $$IQR = Q_3 - Q_1$$
+>   As "cercas" (*fences*) clássicas para classificação de pontos atípicos (*outliers*) são calculadas por:
+>   - **Limite Inferior:** $LI = Q_1 - 1,5 \cdot IQR$ (qualquer valor abaixo de $LI$ é considerado atípico inferior).
+>   - **Limite Superior:** $LS = Q_3 + 1,5 \cdot IQR$ (qualquer valor acima de $LS$ é considerado atípico superior).
+>   - Para *outliers extremos*, o fator multiplicador sobe para $3,0 \cdot IQR$. Trata-se de uma métrica altamente robusta porque não é influenciada por valores extremos como ocorre com a média e o desvio padrão.
+> - **B)** Incorreta. Essa regra assume distribuição normal estrita e usa desvio padrão ($\sigma$), além de confundir variância com desvio padrão.
+> - **C)** Incorreta. Fórmulas fictícias sem fundamentação estatística.
+> - **D)** Incorreta. A mediana por si só não expressa a dispersão dos quartis intermediários.
+> - **E)** Incorreta. Fórmulas sem sentido algébrico.
+> 
+> **Gabarito: A**
+
+---
+
 ### 1.3 Escalonamento e Codificação de Variáveis Categóricas
 
 1. **Transformações de Escala Numérica:**
@@ -134,6 +162,31 @@ A respeito da metodologia CRISP-DM e dos critérios de pré-processamento de out
 2. **Codificação de Variáveis Categóricas:**
     - **One-Hot Encoding:** Cria uma coluna binária indicadora ($0$ ou $1$) para cada uma das $K$ categorias existentes. Indicado para variáveis nominais sem relação de hierarquia (ex.: Unidades Federativas). Em regressões lineares clássicas, descarta-se uma coluna ($K-1$) para evitar a **armadilha das variáveis dummy** (colinearidade perfeita).
     - **Ordinal / Label Encoding:** Mapeia categorias em números inteiros sequenciais ($0, 1, 2, \dots$). Aplicável estritamente a variáveis que guardam ordem ou gradação natural (ex.: Risco Fiscal: Baixo $=0$, Médio $=1$, Alto $=2$).
+
+---
+
+### Questão 03 (FGV - TRT / Analista Judiciário - TI - Escalonamento de Recursos e Prevenção de Data Leakage)
+Na etapa de pré-processamento de um modelo de Machine Learning preditor de probabilidade de insolvência de fornecedores públicos, o cientista de dados depara-se com variáveis numéricas em escalas de grandezas muito distintas (ex.: `faturamento_anual` na ordem de milhões de reais e `tempo_empresa_anos` variando de 0 a 30).
+
+A respeito das técnicas de escalonamento e dos cuidados mandatórios no fluxo de validação cruzada, assinale a afirmativa correta:
+
+* **A)** Algoritmos baseados em distâncias euclidianas (como KNN e SVM) ou gradiente descendente são imunes à escala dos atributos, dispensando qualquer técnica de escalonamento.
+* **B)** A padronização (*StandardScaler*) transforma a variável de modo que ela passe a ter média igual a zero e desvio padrão unitário ($Z = \frac{X - \mu}{\sigma}$), sendo menos sensível a outliers do que a normalização *MinMaxScaler*, a qual comprime estritamente os dados no intervalo fixo entre 0 e 1.
+* **C)** O ajuste dos parâmetros de escalonamento (como média e desvio padrão) deve ser calculado simultaneamente sobre toda a base unificada (treino + teste) antes da divisão em folds para acelerar o processamento.
+* **D)** O escalonamento de variáveis deve ser aplicado obrigatoriamente também na variável alvo categórica de classificação binária.
+* **E)** Árvores de decisão puras (Decision Trees) e Random Forests sofrem severa perda de acurácia se as variáveis numéricas não forem escalonadas entre 0 e 1.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Algoritmos geométricos baseados em distância (KNN, SVM, K-Means) e métodos baseados em gradiente são **extremamente sensíveis à escala**; sem escalonamento, o atributo com maior valor numérico absoluto domina completamente a métrica de distância.
+> - **B)** **CORRETA.** Fundamentos das duas técnicas de escalonamento mais comuns:
+>   - **StandardScaler (Padronização / Z-Score):** $z = \frac{x - \mu}{\sigma}$. Centraliza os dados na média 0 e escala pela variância unitária. Não possui limites fixos superiores/inferiores e lida muito melhor com dados que contêm outliers.
+>   - **MinMaxScaler (Normalização Min-Max):** $x_{norm} = \frac{x - x_{min}}{x_{max} - x_{min}}$. Comprime os valores no intervalo fechado $[0, 1]$. É vulnerável a outliers, pois um valor extremo espreme todas as instâncias normais em uma faixa minúscula.
+> - **C)** Incorreta. Calcular métricas em toda a base antes da separação de treino e teste configura **vazamento de dados (Data Leakage)**, resultando em métricas de validação enganosamente otimistas. O escalonador deve ser ajustado (`fit`) exclusivamente nos dados de treino e apenas aplicado (`transform`) no conjunto de teste.
+> - **D)** Incorreta. O alvo categórico (rótulo 0 ou 1) não deve ser submetido a *StandardScaler*.
+> - **E)** Incorreta. Modelos baseados em árvores de decisão particionam variáveis independentemente de escalas monotônicas, sendo invariantes ao escalonamento de atributos.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -172,7 +225,7 @@ A respeito da metodologia CRISP-DM e dos critérios de pré-processamento de out
 
 ---
 
-### Questão 02
+### Questão 04
 **(FCC - TRF-3ª Região - Analista Judiciário - Estatística Aplicada)**
 Na análise estatística dos salários praticados por fornecedores contratados pelo setor público, observou-se que a distribuição de rendimentos apresenta uma acentuada **Assimetria Positiva (à direita)**, decorrente da existência de uma minoria de executivos com salários desproporcionalmente vultosos em comparação com o grande contingente de operários.
 Considerando o comportamento das medidas de tendência central e os conceitos de inferência estatística, assinale a alternativa correta:
@@ -212,6 +265,35 @@ Considerando o comportamento das medidas de tendência central e os conceitos de
     - Modela a contagem de ocorrências de eventos raros que acontecem a uma taxa média constante $\lambda$ em um intervalo fixado contínuo de tempo ou espaço.
     - Propriedade elementar cobrada em prova: **$\text{Média} = \text{Variância} = \lambda$**.
 
+### Questão 05 (FGV - TRT / Analista Judiciário - TI - Distribuição Normal e Teorema Central do Limite)
+A Distribuição Normal (Gaussiana) é o modelo probabilístico mais importante da inferência estatística e da ciência de dados, formalmente expressa por sua densidade de probabilidade $X \sim \mathcal{N}(\mu, \sigma^2)$.
+
+A respeito das propriedades geométricas e teóricas da Distribuição Normal, assinale a afirmativa correta:
+
+* **A)** A curva da distribuição normal é assimétrica e bimodal, onde a moda diverge significativamente da média e da mediana.
+* **B)** Na distribuição normal, a média, a mediana e a moda coincidem no centro exato da curva; além disso, pela regra empírica (regra 68-95-99.7), aproximadamente 68,26% das observações situam-se no intervalo de $\mu \pm 1\sigma$, aproximadamente 95,44% em $\mu \pm 2\sigma$ e cerca de 99,73% em $\mu \pm 3\sigma$.
+* **C)** O Teorema Central do Limite estabelece que a soma ou média de variáveis aleatórias independentes e identicamente distribuídas converge para uma distribuição exponencial quando o tamanho da amostra tende ao infinito.
+* **D)** A área total sob a curva de densidade de probabilidade de uma Gaussiana é igual a 100,0.
+* **E)** O desvio padrão ($\sigma$) desloca a curva horizontalmente para a direita ou esquerda sem afetar o seu achatamento ou dispersão.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A distribuição normal é estritamente **simétrica** e **unimodal** em torno de sua média central.
+> - **B)** **CORRETA.** Propriedades geométricas e probabilísticas basilares da Normal:
+>   1. **Coincidência dos Parâmetros Centrais:** $\text{Média} = \text{Mediana} = \text{Moda} = \mu$.
+>   2. **Simetria Perfeita:** Coeficiente de assimetria (*skewness*) igual a 0 e curtose normal de referência (kurtosis excess igual a 0).
+>   3. **Regra Empírica dos Desvios:** 
+>      - $P(\mu - 1\sigma \le X \le \mu + 1\sigma) \approx 68,27\%$
+>      - $P(\mu - 2\sigma \le X \le \mu + 2\sigma) \approx 95,45\%$
+>      - $P(\mu - 3\sigma \le X \le \mu + 3\sigma) \approx 99,73\%$
+> - **C)** Incorreta. O **Teorema Central do Limite (TCL)** garante a convergência para a **Distribuição Normal**, e não para a distribuição exponencial.
+> - **D)** Incorreta. A integral total sob qualquer função densidade de probabilidade contínua é rigorosamente igual a $1$ (representando 100% da probabilidade total).
+> - **E)** Incorreta. Quem desloca a curva horizontalmente é a média ($\mu$); o desvio padrão ($\sigma$) controla a dispersão (largura e achatamento).
+> 
+> **Gabarito: B**
+
+---
+
 ### 2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor
 
 Estrutura formal de tomada de decisão estatística sob incerteza:
@@ -227,6 +309,32 @@ Estrutura formal de tomada de decisão estatística sob incerteza:
 
 ---
 
+### Questão 06 (FGV - TRT / Analista Judiciário - TI - Testes de Hipóteses, Erros Tipo I e II e p-Valor)
+Na auditoria estatística de folha de pagamento, os auditores formulam um teste de hipóteses para avaliar se a média de horas extras de determinado departamento ($H_1$) é estatisticamente superior ao limite legal regulamentado ($H_0$).
+
+A respeito dos conceitos de hipótese nula, erros de decisão e interpretação do $p$-valor, assinale a afirmativa correta:
+
+* **A)** O Erro Tipo I ($lpha$) ocorre quando o teste rejeita a hipótese nula ($H_0$) sendo ela verdadeira (Falso Positivo); ao passo que o Erro Tipo II ($eta$) ocorre quando o teste não rejeita a hipótese nula sendo ela falsa (Falso Negativo).
+* **B)** O nível de significância $\alpha$ deve ser fixado em 99% para garantir que não haja erros de tipo I.
+* **C)** Um $p$-valor menor que o nível de significância estipulado (ex.: $p < 0,05$) indica que a hipótese nula ($H_0$) deve ser aceita e confirmada como verdadeira com certeza absoluta.
+* **D)** O Poder do Teste estatístico é dado algebricamente por $1 - \alpha$.
+* **E)** A hipótese alternativa ($H_1$) representa o estado inicial de conformidade ou ausência de efeito a ser mantido caso faltem evidências probatórias.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Matriz clássica de decisões em inferência estatística:
+>   - **Erro Tipo I (Nível de Significância $\alpha$):** Rejeitar a hipótese nula ($H_0$) quando ela é, na realidade, verdadeira. Na auditoria: apontar uma fraude ou ilegalidade indevidamente (Falso Positivo).
+>   - **Erro Tipo II ($eta$):** Não rejeitar a hipótese nula quando ela é falsa. Na auditoria: deixar passar uma fraude real e concluir que o processo está em conformidade (Falso Negativo).
+>   - **Poder do Teste ($1 - \beta$):** A probabilidade de rejeitar corretamente uma hipótese nula falsa.
+> - **B)** Incorreta. O nível de significância $lpha$ é uma probabilidade de erro (tipicamente fixado em 5% ou 1%, ou seja, 0,05 ou 0,01), e não 99%.
+> - **C)** Incorreta. A regra universal de decisão é: **se $p < \alpha$, rejeita-se $H_0$** em favor da hipótese alternativa ($H_1$). O $p$-valor mede a probabilidade de observar dados tão ou mais extremos sob a premissa de que $H_0$ fosse verdadeira.
+> - **D)** Incorreta. O Poder do Teste é $1 - \beta$ (complementar ao erro tipo II), e não $1 - \alpha$ (que é o nível de confiança).
+> - **E)** Incorreta. Quem representa o status quo ou ausência de diferença/efeito é a **hipótese nula ($H_0$)**.
+> 
+> **Gabarito: A**
+
+---
+
 ## 3. Avaliação de Modelos Preditivos (Classificação e Regressão)
 
 ### 3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)
@@ -237,6 +345,34 @@ $$\text{Erro de Teste} = \text{Viés}^2 + \text{Variância} + \sigma_{\text{ruí
 - **Underfitting (Subajuste / Alto Viés):** O modelo é excessivamente simples (ex.: impor uma reta sobre um fenômeno curvo) e falha em capturar os padrões subjacentes, apresentando alto erro tanto na base de treino quanto no teste.
 - **Overfitting (Sobreajuste / Alta Variância):** O modelo é hipercomplexo (ex.: árvore de decisão profunda sem limites) e decora as particularidades e ruídos estocásticos do treino, apresentando erro mínimo no treino e erro elevado nos dados inéditos de teste.
 - **Validação Cruzada k-Fold Estratificada (*Stratified k-Fold*):** Divide os dados em $k$ partições preservando a mesma proporção percentual das classes em cada dobra, técnica mandatória em problemas desbalanceados.
+
+### Questão 07 (FCC - TRT / Analista Judiciário - TI - O Dilema Viés vs. Variância em Modelos Preditivos)
+Na avaliação do erro de generalização de algoritmos de aprendizado supervisionado, o Erro Médio Quadrático Esperado de predição sobre dados não vistos pode ser decomposto matematicamente em três componentes fundamentais:
+
+$$\mathbb{E}[Erro] = \text{Viés}^2 + \text{Variância} + \sigma_{\epsilon}^2$$
+
+A respeito do comportamento dessas componentes e do fenômeno do **Bias-Variance Tradeoff**, assinale a afirmativa correta:
+
+* **A)** Modelos com alto viés (*high bias*) tendem a superajustar-se aos ruídos aleatórios do conjunto de treinamento, resultando em acurácia de 100% no teste.
+* **B)** O termo $\sigma_{\epsilon}^2$ representa o erro redutível, que pode ser reduzido a zero simplesmente escolhendo o algoritmo de inteligência artificial mais moderno do mercado.
+* **C)** Modelos excessivamente simples e rígidos (como regressão linear em dados curvilíneos) sofrem de **alto viés e baixa variância**, caracterizando o fenômeno do **Subajuste (*Underfitting*)**; enquanto modelos hipercomplexos e flexíveis (como árvores de decisão profundas sem poda) sofrem de **baixo viés e alta variância**, decorando os ruídos do treino e caracterizando o **Sobreajuste (*Overfitting*)**.
+* **D)** Aumentar a quantidade de variáveis irrelevantes e ruídos na base diminui a variância do modelo.
+* **E)** Técnicas de regularização (como penalidades L1/L2) servem para aumentar a variância do modelo a níveis extremos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Alto viés indica simplificação excessiva do modelo (*underfitting*), com desempenho fraco tanto no treino quanto no teste.
+> - **B)** Incorreta. O termo $\sigma_{\epsilon}^2$ é o **erro irredutível** (ruído estocástico inerente aos dados do mundo real), impossível de ser eliminado por qualquer modelo matemático.
+> - **C)** **CORRETA.** Teorema fundamental do aprendizado estatístico:
+>   - **Alto Viés (Underfitting):** O modelo impõe pressupostos excessivamente rígidos sobre a relação funcional entre $X$ e $Y$. Ele erra bastante tanto nos dados de treinamento quanto no conjunto de validação.
+>   - **Alta Variância (Overfitting):** O modelo é extremamente flexível e sensível a pequenas flutuações das amostras de treino. Ele atinge erro quase nulo no treino, mas falha dramaticamente ao generalizar para novos dados de teste.
+>   - **Objetivo da Otimização:** Encontrar o equilíbrio ótimo (*sweet spot*) de complexidade do modelo que minimize a soma de Viés ao quadrado e Variância.
+> - **D)** Incorreta. Variáveis irrelevantes aumentam a variância e estimulam sobreajuste.
+> - **E)** Incorreta. Regularizações (Lasso, Ridge) introduzem uma leve penalidade (aumentam ligeiramente o viés) com o propósito benéfico de **reduzir drasticamente a variância**.
+> 
+> **Gabarito: C**
+
+---
 
 ### 3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas
 
@@ -269,7 +405,7 @@ $$\text{Erro de Teste} = \text{Viés}^2 + \text{Variância} + \sigma_{\text{ruí
 
 ---
 
-### Questão 03
+### Questão 08
 **(FCC - DPE-RS - Analista de Tecnologia da Informação)**
 Um Tribunal de Contas implantou um algoritmo de aprendizado de máquina para triagem de prestações de contas municipais. Em uma amostra de teste com 10.000 processos auditados, sabe-se que 200 processos continham irregularidades graves (positivos) e 9.800 eram processos estritamente regulares (negativos).
 Após a execução do classificador, os resultados observados na matriz de confusão foram:
@@ -316,6 +452,35 @@ Avaliando o desempenho desse modelo para o controle externo, assinale a afirmati
 
 ---
 
+### Questão 09 (FCC - TRT / Analista Judiciário - TI - Avaliação de Modelos: Curva ROC, AUC e Métricas de Erro)
+Para mensurar a eficácia de um classificador probabilístico encarregado de apontar licitações suspeitas de fraude sob diferentes limiares de corte (*thresholds*), a área técnica utiliza a **Curva ROC** (*Receiver Operating Characteristic*) e sua respectiva área sob a curva (**AUC-ROC**).
+
+A respeito dessas métricas de avaliação de desempenho, assinale a afirmativa correta:
+
+* **A)** A Curva ROC plota graficamente a Taxa de Verdadeiros Positivos (Sensibilidade / *Recall*) no eixo $Y$ contra a Taxa de Falsos Positivos ($1 - \text{Especificidade}$) no eixo $X$, para todos os limiares de classificação possíveis.
+* **B)** Um classificador perfeitamente aleatório, equivalente ao lançamento de uma moeda honesta, apresenta um valor de AUC-ROC igual a 1,0.
+* **C)** A métrica MAE (*Mean Absolute Error*) penaliza os grandes erros individuais com mais severidade do que o RMSE (*Root Mean Squared Error*), pois eleva os resíduos ao quadrado.
+* **D)** O valor máximo teórico atingível pela métrica AUC-ROC é de 0,5.
+* **E)** A Curva ROC só pode ser construída se a base de dados tiver exatamente 50% de instâncias de cada classe, sendo inoperante em problemas com classes desbalanceadas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Propriedades fundamentais da **Curva ROC / AUC**:
+>   - **Eixo Y:** Taxa de Verdadeiros Positivos ($TPR = \frac{TP}{TP + FN}$), também denominada Sensibilidade ou *Recall*.
+>   - **Eixo X:** Taxa de Falsos Positivos ($FPR = \frac{FP}{FP + TN} = 1 - \text{Especificidade}$).
+>   - Conforme o limiar de decisão ($	au$) varia de 1 a 0, traça-se a curva de desempenho do modelo.
+>   - **AUC-ROC:** Representa a probabilidade de o modelo atribuir uma pontuação mais alta a uma instância positiva selecionada aleatoriamente do que a uma instância negativa.
+>   - Classificador perfeito: $AUC = 1,0$.
+>   - Classificador puramente aleatório (linha diagonal diagonal): $AUC = 0,5$.
+> - **B)** Incorreta. Um classificador aleatório tem $AUC = 0,5$; quem tem $AUC = 1,0$ é o modelo ideal perfeito.
+> - **C)** Incorreta. Quem eleva os resíduos ao quadrado e penaliza severamente grandes desvios e outliers é o **MSE/RMSE**, e não o MAE (que calcula a média linear das magnitudes absolutas dos erros).
+> - **D)** Incorreta. O valor máximo da AUC-ROC é 1,0.
+> - **E)** Incorreta. A Curva ROC é amplamente utilizada justamente por permitir avaliar o comportamento do modelo em diferentes cenários de corte em dados desbalanceados.
+> 
+> **Gabarito: A**
+
+---
+
 ## 4. Ecossistema Big Data: Hadoop e Apache Spark
 
 ### 4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop
@@ -350,7 +515,7 @@ O **Apache Hadoop** é a infraestrutura de código aberto pioneira para armazena
 
 ---
 
-### Questão 04
+### Questão 10
 **(FCC - TRT-2ª Região - Analista Judiciário - Tecnologia da Informação)**
 No âmbito do armazenamento e processamento distribuído de grandes volumes de dados governamentais com o ecossistema Apache Hadoop, assinale a afirmativa correta a respeito da arquitetura do HDFS (*Hadoop Distributed File System*):
 
@@ -403,7 +568,7 @@ O **Apache Spark** superou as limitações de I/O do Hadoop executando a computa
 
 ---
 
-### Questão 05
+### Questão 11
 **(FCC - SEFAZ-PE - Auditoria Fiscal - Processamento Distribuído com Apache Spark)**
 Durante o processamento em lote de dezenas de milhões de documentos fiscais eletrônicos em um cluster com Apache Spark, um analista escreveu o seguinte trecho de código:
 

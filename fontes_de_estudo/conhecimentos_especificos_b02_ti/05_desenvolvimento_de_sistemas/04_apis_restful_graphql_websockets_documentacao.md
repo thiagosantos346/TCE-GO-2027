@@ -60,6 +60,29 @@ O estilo arquitetural **REST** (*Representational State Transfer*) foi formaliza
 
 ---
 
+### Questão 01
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+O estilo arquitetural REST (*Representational State Transfer*), formulado por Roy Fielding em sua tese de doutorado (2000), baseia-se em um conjunto de restrições arquiteturais fundamentais. Dentre os princípios canônicos obrigatórios do REST, inclui-se a restrição *Stateless* (Comunicação sem Estado), a qual estabelece que:
+
+* **A)** O cliente não precisa armazenar dados confidenciais do servidor em disco local.
+* **B)** Cada requisição enviada pelo cliente ao servidor deve conter todas as informações contextuais necessárias para que o servidor possa compreendê-la e processá-la, não devendo o servidor reter sessões de estado do cliente entre requisições.
+* **C)** O servidor deve registrar o histórico das telas navegadas pelo cliente na memória primária para autenticar as próximas requisições.
+* **D)** O protocolo HTTP deve ser substituído permanentemente por sockets TCP com canais abertos contínuos.
+* **E)** Nenhuma resposta de API pode ser armazenada em cache por intermediários ou clientes.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A restrição *Stateless* diz respeito ao servidor não guardar o estado da sessão do cliente.
+> - **B) Correta.** Na restrição *Stateless*, a requisição é autocontida (*self-contained*): autenticação, parâmetros e dados viajam em cada requisição individual, permitindo alta escalabilidade horizontal do backend sem dependência de memória de sessão compartilhada (*session affinity*).
+> - **C) Incorreta.** Guardar sessão de telas na memória do servidor viola expressamente a restrição *Stateless*.
+> - **D) Incorreta.** REST opera tipicamente sobre o protocolo HTTP.
+> - **E) Incorreta.** *Cacheable* é outro princípio formal do REST, que incentiva o uso de cache para otimizar requisições.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 1.2 O Modelo de Maturidade de Richardson
 Leonard Richardson concebeu um modelo para classificar a aderência de serviços web aos preceitos REST:
 
@@ -81,7 +104,7 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Analista de Sistemas / Arquitetura e Integração)
+### Questão 02 (FCC - Analista de Sistemas / Arquitetura e Integração)
 A respeito da especificação OpenAPI (antigo Swagger) e do Modelo de Maturidade de Richardson para arquiteturas de serviços RESTful, assinale a afirmativa correta:  
 
 * **A)** O Nível 3 do Modelo de Richardson preconiza a implementação de HATEOAS (*Hypermedia As The Engine Of Application State*), fornecendo nas respostas representações que incluem links navegáveis para as próximas transições de estado possíveis.
@@ -129,7 +152,7 @@ A RFC 7231 da IETF define com rigor a semântica e as propriedades dos métodos 
 
 ---
 
-### Questão 02 (FCC - Analista de TI / Arquitetura de Software)
+### Questão 03 (FCC - Analista de TI / Arquitetura de Software)
 No projeto de uma API web RESTful aderente aos padrões da RFC 7231 (HTTP/1.1), considere os métodos `GET`, `POST`, `PUT` e `DELETE`. A respeito dos conceitos fundamentais de segurança (*safety*) e idempotência (*idempotency*) desses métodos, assinale a afirmativa correta:  
 
 * **A)** O método `POST` é seguro e idempotente, razão pela qual deve ser invocado em operações de auditoria que demandem garantia de não repetição.
@@ -187,7 +210,7 @@ flowchart LR
 
 ---
 
-### Questão 03 (FCC - Analista de TI / Sistemas)
+### Questão 04 (FCC - Analista de TI / Sistemas)
 Um cliente web tenta acessar um endpoint restrito de um sistema administrativo enviando um token de autorização devidamente válido e assinado, que identifica o usuário como pertencente ao perfil "Estagiário". O recurso solicitado, entretanto, exige prerrogativas exclusivas do perfil "Auditor Titular".
 
 Nessa situação, de acordo com as especificações do protocolo HTTP/1.1 e as boas práticas de design RESTful, o código de status HTTP que o servidor deve retornar é:  
@@ -228,6 +251,29 @@ Nessa situação, de acordo com as especificações do protocolo HTTP/1.1 e as b
 
 ---
 
+
+### Questão 05
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No design de APIs RESTful orientadas a recursos e em consonância com as melhores práticas da indústria, a identificação dos endpoints de comunicação deve seguir diretrizes semânticas consistentes. A esse respeito, assinale o padrão de URI considerado correto para recuperar a lista de processos de um tribunal filtrada por ano:
+
+* **A)** `GET /api/v1/obterTodosProcessosJudiciaisDoAno?ano=2024`
+* **B)** `POST /api/v1/processos/ano/2024/buscar`
+* **C)** `GET /api/v1/processos?ano=2024`
+* **D)** `DELETE /api/v1/processos/buscar/2024`
+* **E)** `GET /api/v1/processos/acao/listar/ano/2024`
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Utilizar verbos no caminho (`/obterTodosProcessos...`) viola o princípio RESTful de utilizar substantivos para representar recursos e deixar a ação para o método HTTP (`GET`).
+> - **B) Incorreta.** Utilizar `POST` para consultas simples viola a semântica HTTP de leitura e o uso de verbos no caminho (`/buscar`).
+> - **C) Correta.** Padrão idiomático RESTful: recurso substantivo no plural (`/processos`), método semântico de leitura (`GET`), versionamento na URI (`/v1`) e filtros aplicados via *Query Parameters* (`?ano=2024`).
+> - **D) Incorreta.** `DELETE` possui semântica de exclusão de recursos.
+> - **E) Incorreta.** O uso de segmentos de caminho contendo verbos como `/acao/listar` é um anti-padrão comum que degrada o design RESTful.
+>
+> **Gabarito: C**
+
+---
+
 ## 2. GraphQL: Arquitetura e Consultas Declarativas
 
 ### 2.1 Motivação: Resolução de Over-fetching e Under-fetching
@@ -251,7 +297,7 @@ flowchart LR
 
 ---
 
-### Questão 04 (FCC - Técnico de Controle Externo / TI)
+### Questão 06 (FCC - Técnico de Controle Externo / TI)
 Em uma aplicação corporativa de controle de gastos públicos, a equipe de desenvolvimento optou por substituir diversos endpoints de uma API REST tradicional por uma interface em GraphQL. A principal justificativa técnica para essa decisão foi sanar dois problemas típicos do REST conhecidos como:  
 
 * **A)** Deadlock concorrente e estouro de memória física na máquina cliente.
@@ -333,6 +379,29 @@ mutation CriarProcesso($dados: NovoProcessoInput!) {
 
 ---
 
+
+### Questão 07
+**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+Em uma API implementada com tecnologia GraphQL, as três operações centrais previstas no esquema (*schema*) desempenham papéis estritamente definidos. A operação cujo objetivo primordial é criar, atualizar ou excluir dados no servidor, disparando efeitos colaterais de modificação de estado, é a:
+
+* **A)** *Query*
+* **B)** *Subscription*
+* **C)** *Mutation*
+* **D)** *Fragment*
+* **E)** *Directive*
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** *Query* é a operação de consulta somente-leitura em GraphQL (análoga ao `GET` do REST).
+> - **B) Incorreta.** *Subscription* estabelece um canal reativo (via WebSockets) para recebimento de eventos contínuos em tempo real.
+> - **C) Correta.** *Mutation* é a operação formal do GraphQL utilizada para qualquer operação que modifique dados de negócio no backend (análoga aos métodos `POST`, `PUT`, `PATCH` e `DELETE` do HTTP).
+> - **D) Incorreta.** *Fragment* é uma unidade reutilizável de seleção de campos na sintaxe GraphQL.
+> - **E) Incorreta.** *Directive* decora campos ou operações para alterar sua execução condicionalmente (como `@include` e `@skip`).
+>
+> **Gabarito: C**
+
+---
+
 ## 3. Protocolo WebSocket e Comunicação em Tempo Real
 
 ### 3.1 Arquitetura Full-Duplex e a RFC 6455
@@ -372,7 +441,7 @@ sequenceDiagram
 
 ---
 
-### Questão 05 (FCC - Auditor Fiscal / Tecnologia da Informação)
+### Questão 08 (FCC - Auditor Fiscal / Tecnologia da Informação)
 No desenvolvimento de aplicações web modernas que requerem comunicação bidirecional em tempo real e de baixa latência, o protocolo WebSocket (RFC 6455) destaca-se frente ao modelo tradicional de requisições HTTP repetitivas (*polling*).
 
 Sobre o protocolo WebSocket e seu procedimento inicial de conexão (*handshake*), assinale a afirmativa correta:  
@@ -408,6 +477,29 @@ Sobre o protocolo WebSocket e seu procedimento inicial de conexão (*handshake*)
 
 ---
 
+
+### Questão 09
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na escolha de arquiteturas para transmissão de informações entre navegadores e servidores web em tempo real, os Server-Sent Events (SSE) e o protocolo WebSocket apresentam distinções técnicas marcantes. A esse respeito, é correto afirmar:
+
+* **A)** O SSE estabelece comunicação bidirecional de baixa latência em canais binários TCP puros, enquanto o WebSocket só permite envio de mensagens do servidor para o cliente.
+* **B)** O SSE é um protocolo unidirecional (do servidor para o cliente) que opera nativamente sobre conexões HTTP padrão transportando eventos formatados em `text/event-stream`, ao passo que o WebSocket estabelece uma conexão persistente e bidirecional (*full-duplex*) sobre um único socket TCP após o handshake.
+* **C)** O WebSocket exige a reabertura completa de uma nova conexão TCP a cada mensagem transmitida na rede.
+* **D)** O SSE é incompatível com navegadores modernos e requer a instalação de plugins legados no sistema operacional.
+* **E)** O protocolo WebSocket só suporta a transmissão de dados no formato de imagens Bitmap.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O SSE é unidirecional (servidor $\rightarrow$ cliente); quem é bidirecional *full-duplex* é o WebSocket.
+> - **B) Correta.** SSE opera sobre HTTP regular com *MIME type* `text/event-stream` enviando dados unidirecionalmente para o cliente, com reconexão automática nativa. O WebSocket provê comunicação bidirecional simétrica *full-duplex* com cabeçalhos mínimos após o handshake inicial.
+> - **C) Incorreta.** O WebSocket mantém uma conexão TCP contínua e aberta; não abre conexões adicionais a cada mensagem.
+> - **D) Incorreta.** O SSE é suportado nativamente pelos principais navegadores modernos por meio da API `EventSource`.
+> - **E) Incorreta.** O WebSocket trafega tanto texto estruturado (UTF-8) quanto dados binários (*ArrayBuffer*, *Blob*).
+>
+> **Gabarito: B**
+
+---
+
 ## 4. Formatos de Representação de Dados: JSON vs. XML
 
 ### 4.1 JSON: Tipagem, Sintaxe Estrita e Validação com JSON Schema
@@ -423,6 +515,29 @@ O JSON (*JavaScript Object Notation*, padronizado pela RFC 8259) é o formato do
 - **JSON Schema:** Padrão para validar a estrutura, os tipos e os campos obrigatórios em payloads JSON de forma automatizada.
 
 ---
+
+### Questão 10
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+O formato JSON (*JavaScript Object Notation*, padronizado pela RFC 8259) é amplamente utilizado como formato padrão para troca de mensagens estruturadas na web. Quanto às regras estritas de sintaxe do JSON, é correto afirmar:
+
+* **A)** Os nomes das chaves (propriedades) podem ser declarados sem aspas ou utilizando aspas simples (`'chave'`).
+* **B)** O padrão JSON aceita nativamente a inclusão de comentários de código no formato `//` e `/* */`.
+* **C)** Os nomes das chaves devem ser delimitados obrigatoriamente por aspas duplas (`"chave"`), e o formato suporta os tipos de dados básicos: string, número, booleano, nulo (`null`), objeto e array.
+* **D)** O formato JSON permite serializar funções executáveis e métodos de classes sem conversão adicional.
+* **E)** Vírgulas adicionais após o último elemento de um objeto ou array (*trailing commas*) são obrigatórias na especificação JSON.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A especificação RFC 8259 exige que todas as chaves de objetos sejam obrigatoriamente delimitadas por aspas duplas (`"chave"`).
+> - **B) Incorreta.** JSON padrão não suporta comentários de qualquer natureza.
+> - **C) Correta.** No JSON padrão: chaves exigem aspas duplas; tipos primitivos aceitos são apenas texto entre aspas duplas, números (inteiros e decimais), `true`, `false`, `null`, além de estruturas compostas `{}` (objetos) e `[]` (arrays).
+> - **D) Incorreta.** Funções executáveis não são dados suportados pelo formato JSON.
+> - **E) Incorreta.** *Trailing commas* são estritamente proibidas no formato JSON canônico (geram erro de sintaxe de parsing).
+>
+> **Gabarito: C**
+
+---
+
 
 ### 4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath
 O XML (*Extensible Markup Language*) é uma linguagem de marcação baseada em tags hierárquicas personalizáveis.
@@ -455,6 +570,29 @@ O XML (*Extensible Markup Language*) é uma linguagem de marcação baseada em t
 A especificação **OpenAPI** (gerenciada pela *OpenAPI Initiative* sob tutela da Linux Foundation) é uma descrição padronizada, legível por humanos e máquinas, para interfaces de APIs RESTful. Escrita em sintaxe **YAML** ou **JSON**, ela independe da linguagem de programação utilizada no backend.
 
 ---
+
+### Questão 11
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+A especificação OpenAPI (OpenAPI Specification - OAS, originária do ecossistema Swagger) fornece uma descrição padronizada, agnóstica de linguagem de programação, para APIs RESTful. No documento de especificação OpenAPI formatado em YAML ou JSON, a seção de nível superior responsável por descrever os caminhos dos endpoints disponíveis e suas respectivas operações HTTP suportadas é:
+
+* **A)** `servers`
+* **B)** `info`
+* **C)** `paths`
+* **D)** `components`
+* **E)** `security`
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** `servers` define a lista de URLs base de conexão dos ambientes da API (ex: `https://api.tce.go.gov.br/v1`).
+> - **B) Incorreta.** `info` contém metadados gerais da API, como título, versão (`version: 1.0.0`) e descrição textual.
+> - **C) Correta.** O nó `paths` é o coração do documento OpenAPI: mapeia as rotas/endpoints disponíveis (ex: `/processos`) e os métodos HTTP associados (`get`, `post`, `delete`) com seus parâmetros, corpos de requisição e respostas.
+> - **D) Incorreta.** `components` armazena esquemas reutilizáveis (*schemas* de dados, respostas, parâmetros e esquemas de segurança) referenciados por `$ref`.
+> - **E) Incorreta.** `security` declara os requisitos globais de autenticação aplicáveis aos endpoints.
+>
+> **Gabarito: C**
+
+---
+
 
 ### 5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)
 Um documento OpenAPI divide-se nas seguintes seções principais:

@@ -105,6 +105,27 @@ No âmbito da administração de recursos humanos, as ações voltadas para Trei
 
 
 
+### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+Na gestão de pessoas, **Treinamento** e **Desenvolvimento de Pessoas (T&D)** são processos distintos, embora complementares.
+
+A distinção conceitual precisa entre Treinamento e Desenvolvimento reside em:
+
+* **A)** O treinamento tem foco no curto prazo e visa capacitar o indivíduo para o desempenho eficaz de suas funções e tarefas no cargo atual; enquanto o desenvolvimento foca o médio e longo prazo, visando ao crescimento integral do potencial humano e à preparação do servidor para desafios, papéis e cargos futuros.
+* **B)** O treinamento é privativo de cargos comissionados e o desenvolvimento é restrito a servidores estagiários.
+* **C)** O treinamento não pode utilizar tecnologias digitais e o desenvolvimento é sempre presencial em sala de aula.
+* **D)** O treinamento extingue a necessidade de avaliação de desempenho funcional posterior.
+* **E)** O desenvolvimento visa unicamente à redução salarial em situações de limite prudencial da LRF.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Diferenciação clássica: **Treinamento**: curto prazo, focado nas exigências técnicas imediatas do cargo atual, adaptando o servidor às rotinas de hoje; **Desenvolvimento**: longo prazo, visa à ampliação de competências globais, liderança, visão holística e crescimento pessoal para carreiras e posições futuras.
+> - **B), C), D), E)** Incorretas. Distorções sem embasamento na literatura de gestão de pessoas.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick
 
 Segundo Idalberto Chiavenato, o treinamento funciona como um ciclo contínuo composto por quatro fases lógicas e sequenciais:
@@ -161,7 +182,7 @@ flowchart TD
 
 ---
 
-### Questão 02
+### Questão 03
 **(FCC – Analista de Gestão Pública – DPE-RS)**  
 Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licitações e Contratos (Lei nº 14.133/2021) ofertado aos pregoeiros de uma entidade governamental, a área de Gestão de Pessoas realizou uma pesquisa formal 60 dias após o encerramento do curso, acompanhando a redução do índice de despachos devolvidos por vícios formais e observando se as minutas contratuais elaboradas pelos servidores incorporavam os novos entendimentos ensinados. Consoante a metodologia de avaliação de treinamento em quatro níveis desenvolvida por Donald Kirkpatrick, a medição realizada corresponde ao:
 
@@ -183,6 +204,30 @@ Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licita�
 
 ---
 
+
+
+### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+Donald Kirkpatrick concebeu o modelo mais utilizado internacionalmente para avaliação da eficácia de programas de capacitação, estruturado em quatro níveis sucessivos de impacto.
+
+O **Nível 3 (Comportamento no Cargo / Aplicação)** do modelo de Kirkpatrick avalia:
+
+* **A)** O grau em que os participantes efetivamente transferiram e aplicaram os novos conhecimentos, habilidades e atitudes no seu dia a dia profissional real após o retorno ao local de trabalho.
+* **B)** A satisfação imediata dos participantes com as instalações físicas, a pontualidade e o coffee-break do evento.
+* **C)** O aumento formal de retenção de conceitos verificado por meio de prova teórica aplicada ao final da aula.
+* **D)** O cálculo monetário estrito do retorno financeiro sobre o investimento (*ROI*) obtido pelo Tesouro Estadual.
+* **E)** A pontualidade da entrega do diploma de conclusão emitido pelo órgão realizador.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Os 4 níveis de Kirkpatrick: (1) **Reação**: satisfação e percepção imediata dos alunos com o curso; (2) **Aprendizado**: retenção teórica e assimilação de conhecimentos (testes no fim do curso); (3) **Comportamento (Aplicação/Transferência)**: se os novos conhecimentos são efetivamente aplicados na prática do trabalho real; (4) **Resultados**: impacto final produzido nos indicadores e objetivos estratégicos da organização. Jack Phillips adicionou o 5º nível: ROI.
+> - **B)** Incorreta. Refere-se ao Nível 1 (Reação).
+> - **C)** Incorreta. Refere-se ao Nível 2 (Aprendizado).
+> - **D)** Incorreta. Refere-se ao Nível 5 (ROI de Phillips) ou Nível 4 (Resultados).
+> - **E)** Incorreta. Trâmite meramente burocrático de certificação.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 3. Gestão do Conhecimento Organizacional e o Modelo SECI
@@ -248,7 +293,7 @@ flowchart TD
 
 ---
 
-### Questão 03
+### Questão 05
 **(FCC – Auditor de Controle Externo – TCE-GO)**  
 O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práticas desenvolvidas pelos seus auditores sêniores na detecção de fraudes em licitações públicas informatizadas, organizou oficinas temáticas nas quais esses profissionais veteranos estruturaram conceitos, descreveram rotinas investigativas e redigiram detalhados manuais de procedimentos e fluxogramas operacionais para consulta geral. De acordo com o modelo de criação do conhecimento organizacional proposto por Ikujiro Nonaka e Hirotaka Takeuchi (Modelo SECI), o processo de conversão do conhecimento verificado nessa iniciativa classifica-se como:
 
@@ -272,6 +317,28 @@ O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práti
 
 
 
+### Questão 06 (FCC - Adaptada / Analista de Tecnologia e Controle)
+Ikujiro Nonaka e Hirotaka Takeuchi desenvolveram o consagrado modelo **SECI** para explicar a criação e a conversão do conhecimento organizacional através da interação entre o conhecimento tácito e o conhecimento explícito.
+
+A modalidade de conversão do conhecimento que consiste em transformar o **conhecimento tácito em conhecimento explícito** (por exemplo, quando um auditor experiente redige um manual detalhado de auditoria de obras sistematizando seus anos de intuição e prática para toda a equipe) é a:
+
+* **A)** Externalização.
+* **B)** Socialização.
+* **C)** Combinação.
+* **D)** Internalização.
+* **E)** Desintermediação.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. As quatro formas de conversão do modelo SECI: (1) **Socialização** (Tácito para Tácito): compartilhamento de experiências e observação direta; (2) **Externalização** (Tácito para Explícito): articulação do saber tácito em conceitos, modelos, manuais e regras escritas; (3) **Combinação** (Explícito para Explícito): junção, edição e sistematização de diferentes bases de dados e documentos; (4) **Internalização** (Explícito para Tácito): assimilação do conhecimento documentado na rotina mental prática (*learning by doing*).
+> - **B), C), D)** Incorretas. Representam as outras etapas de conversão do modelo SECI.
+> - **E)** Incorreta. Conceito econômico de exclusão de intermediários.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge
 
 A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo é incorporado aos processos, valores, estruturas e cultura permanente da organização.
@@ -288,7 +355,7 @@ A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo 
 
 ---
 
-### Questão 04
+### Questão 07
 **(FCC – Analista Judiciário – Área Judiciária – TRT-15ª)**  
 Dois teóricos fundamentais do comportamento organizacional, Chris Argyris e Donald Schön, formularam a distinção seminal entre a aprendizagem em circuito simples (*single-loop*) e a aprendizagem em circuito duplo (*double-loop*). Assinale a afirmativa que define corretamente a **aprendizagem em circuito duplo**:
 
@@ -336,7 +403,7 @@ flowchart TD
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – Analista de Controle Externo – TCE-RO)**  
 Em sua consagrada obra sobre organizações que aprendem (*Learning Organizations*), Peter Senge afirma que uma disciplina específica atua como a pedra angular e a força integradora de todas as demais, permitindo aos líderes e gestores compreenderem que a organização pública é um sistema vivo composto por inter-relações interdependentes, no qual as soluções fáceis que atacam apenas sintomas de curto prazo costumam agravar os problemas estruturais de longo prazo. Essa disciplina integradora é denominada por Senge de:
 
@@ -368,6 +435,45 @@ No setor público moderno, a visão fragmentada de "cursos isolados" foi substit
 * **Escola Superior de Controle do TCE-GO (Instituto Leopoldo de Bulhões - ILB):** Unidade de formação e capacitação que promove o contínuo aperfeiçoamento dos servidores do Tribunal de Contas do Estado de Goiás e a orientação pedagógica dos gestores municipais e estaduais jurisdicionados, funcionando como vetor de controle preventivo e pedagógico.
 
 ---
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Na obra clássica *A Quinta Disciplina*, Peter Senge apresenta os fundamentos necessários para a construção de organizações que aprendem (*learning organizations*).
+
+A disciplina que Senge considera a "pedra angular" e a mais integradora de todas, por permitir que os gestores enxerguem as inter-relações e os padrões de mudança sistêmicos em vez de eventos estáticos e isolados, é o:
+
+* **A)** Pensamento Sistêmico.
+* **B)** Domínio Pessoal.
+* **C)** Modelos Mentais.
+* **D)** Visão Compartilhada.
+* **E)** Aprendizado em Equipe.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Peter Senge formulou cinco disciplinas: Domínio Pessoal, Modelos Mentais, Visão Compartilhada, Aprendizagem em Equipe e **Pensamento Sistêmico**. O Pensamento Sistêmico é a quinta disciplina que integra todas as outras, permitindo enxergar as causas profundas e as estruturas interdependentes em vez de sintomas superficiais de problemas.
+> - **B), C), D), E)** Incorretas. São as outras quatro disciplinas que são potencializadas pelo pensamento sistêmico.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+No modelo de aprendizagem organizacional de Chris Argyris e Donald Schön, a **Aprendizagem de Circuito Duplo** (*Double-Loop Learning*) ocorre quando a organização:
+
+* **A)** Questiona e modifica os valores, premissas fundamentais, normas e políticas subjacentes que definem as metas da instituição, em vez de apenas corrigir erros superficiais mantendo as regras inalteradas.
+* **B)** Repete as mesmas tarefas rotineiras duas vezes para garantir conformidade contábil.
+* **C)** Exige que dois auditores assinem conjuntamente o mesmo relatório preliminar.
+* **D)** Mantém os procedimentos tradicionais inalterados independentemente de variações no ambiente externo.
+* **E)** Contrata duas consultorias externas concorrentes para emitir pareceres conflitantes.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Distinção essencial: **Circuito Simples (*Single-Loop*)**: a organização detecta o erro e o corrige sem alterar as regras e objetivos vigentes (adaptação mecânica); **Circuito Duplo (*Double-Loop*)**: a instituição vai à raiz do problema e questiona as próprias premissas, normas, valores e paradigmas que balizam o plano de ação, reestruturando a lógica operacional.
+> - **B), C), D), E)** Incorretas. Interpretações literais errôneas da expressão "circuito duplo".
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 6. Fontes Oficiais e Referências Bibliográficas
 

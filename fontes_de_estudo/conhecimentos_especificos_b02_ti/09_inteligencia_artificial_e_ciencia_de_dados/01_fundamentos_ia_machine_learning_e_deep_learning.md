@@ -76,6 +76,29 @@ A taxonomia formal estabelecida por Stuart Russell e Peter Norvig estrutura as a
 > ⚠️ **Alerta de Prova (FCC):**
 > A banca FCC costuma cobrar com frequência a definição canônica de **Agente Racional**. Fixe bem: a racionalidade não significa perfeição, onisciência ou clarividência humana. A racionalidade computacional busca maximizar o resultado esperado em face do conhecimento histórico acumulado pelo agente e das percepções recebidas pelos seus sensores no momento da decisão.
 
+### Questão 01 (FGV - TRT / Analista Judiciário - TI - Agentes Racionais de Russell & Norvig)
+Na obra clássica de Stuart Russell e Peter Norvig (*Artificial Intelligence: A Modern Approach*), a definição canônica de Inteligência Artificial gravita em torno do conceito de **Agente Racional**.
+
+A respeito do conceito formal de racionalidade e da definição de agente racional nessa taxonomia, assinale a afirmativa correta:
+
+* **A)** Um agente racional é aquele que sempre atinge o resultado perfeito com 100% de onisciência, prevendo todos os eventos futuros com absoluta certeza.
+* **B)** A racionalidade depende do sucesso factual retrospectivo; logo, se um agente toma uma decisão logicamente ótima com base nas informações que possuía, mas um evento imprevisível causa um desfecho desfavorável, o agente é classificado como irracional.
+* **C)** Um agente racional é aquele que adota a ação esperada para maximizar sua medida de desempenho, considerando a sequência de percepções acumuladas até o momento e o conhecimento prévio embutido sobre o ambiente.
+* **D)** Agentes reflexos simples sem estado interno superam agentes baseados em metas em qualquer ambiente estocástico e parcialmente observável.
+* **E)** A racionalidade na IA é medida exclusivamente pela capacidade de um sistema em reproduzir emoções humanas em testes de conversação aberta.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Racionalidade **não é onisciência**. Onisciência significa saber o resultado real com antecedência absoluta. A racionalidade maximiza o desempenho *esperado*, não o desempenho factual garantido em face do imprevisível.
+> - **B)** Incorreta. A racionalidade avalia o processo decisório à luz do que era perceptível no momento da decisão, e não pelo resultado final afetado por fatores aleatórios externos.
+> - **C)** **CORRETA.** Segundo Russell & Norvig, um agente é qualquer entidade que percebe seu ambiente por meio de sensores e atua sobre ele por meio de atuadores. Um **agente racional** é aquele que, para cada sequência de percepções possível, seleciona uma ação que maximiza o valor esperado de sua **medida de desempenho**, dadas as evidências fornecidas pela sequência de percepções e o conhecimento que o agente possui a priori.
+> - **D)** Incorreta. Agentes reflexos simples falham redondamente em ambientes parcialmente observáveis por operarem sob regras estritas condição-ação sem reter histórico do estado do mundo.
+> - **E)** Incorreta. A abordagem moderna de IA foca na racionalidade dos atos e metas (*agir racionalmente*), e não na imitação superficial de processos psicológicos ou emocionais humanos.
+> 
+> **Gabarito: C**
+
+---
+
 ### 1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência
 
 * **IA Estreita / Fraca (*Narrow AI* ou *Weak AI*):**
@@ -100,6 +123,31 @@ A trajetória histórica da IA subdivide-se em duas correntes metodológicas cen
     - O conhecimento não reside em regras textuais explícitas, mas sim distribuído nos pesos numéricos aprendidos por otimização estatística direta sobre grandes massas de dados.
     - *Vantagem:* Robustez incomparável a ruídos estatísticos e capacidade superior de extrair padrões latentes de alta dimensionalidade (processamento de linguagem natural e visão computacional).
     - *Desvantagem:* Natureza de "caixa-preta" (*black box*), opacidade decisória e altíssimo custo de processamento computacional em GPUs/TPUs.
+
+---
+
+### Questão 02 (FCC - TRT / Analista Judiciário - TI - Paradigma Simbólico vs. Paradigma Conexionista)
+A evolução histórica da Inteligência Artificial é marcada pela coexistência e competição entre duas correntes epistemológicas e arquiteturais: a **IA Simbólica** (Good Old-Fashioned AI - GOFAI) e a **IA Conexionista** (baseada em Aprendizado de Máquina e Redes Neurais Artificiais).
+
+A respeito das distinções técnicas fundamentais entre esses dois paradigmas, assinale a afirmativa correta:
+
+* **A)** A IA Simbólica baseia-se em manipulação explícita de símbolos, lógica formal e regras determinísticas (*se-então*), caracterizando-se por alta interpretabilidade humana, porém com grande fragilidade para lidar com ruídos, ambiguidade e dados brutos não estruturados.
+* **B)** O paradigma conexionista armazena o conhecimento em bancos de regras ontológicas explícitas escritas manualmente por especialistas de domínio.
+* **C)** As redes neurais profundas pertencem à IA Simbólica, pois seus pesos sinápticos são perfeitamente legíveis como proposições booleanas de primeira ordem.
+* **D)** A IA Conexionista dispensa treinamento com dados e independe de funções de custo diferenciáveis ou otimização matemática.
+* **E)** Sistemas Especialistas baseados em árvores de inferência lógica constituem a principal tecnologia do paradigma conexionista moderno.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Confronto paradigmático clássico da IA:
+>   - **Paradigma Simbólico (Top-Down):** O conhecimento é representado de forma explícita por símbolos, predicados lógicos e bases de regras concebidas por engenheiros do conhecimento. É altamente transparente e auditável (*White-Box*), mas sofre do problema da ancoragem de símbolos (*symbol grounding problem*), tem baixa robustez a ruídos e exige esforço manual proibitivo para modelar o mundo real.
+>   - **Paradigma Conexionista (Bottom-Up):** O conhecimento não reside em regras explícitas, mas está implicitamente disperso nos **pesos sinápticos** de uma rede neural artificial (*representação distribuída*). Aprende a partir de dados brutos por meio de gradiente descendente, apresentando excepcional robustez e generalização em dados não estruturados (áudio, imagem, texto), com o *trade-off* da opacidade de interpretação (*Black-Box*).
+> - **B)** Incorreta. Regras ontológicas manuais são características da IA Simbólica.
+> - **C)** Incorreta. Redes neurais são o coração da IA Conexionista; seus pesos são coeficientes numéricos de ponto flutuante, e não proposições lógicas booleanas diretas.
+> - **D)** Incorreta. O paradigma conexionista depende fundamentalmente de dados empíricos de treinamento e otimização numérica de funções de perda.
+> - **E)** Incorreta. Sistemas especialistas são o ápice histórico da IA Simbólica.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -143,6 +191,33 @@ Quando a variável dependente $y$ é de natureza discreta/categórica (ex.: `0` 
     - Algoritmo não-paramétrico **baseado em instâncias** (*instance-based*) e classificado como **aprendizado preguiçoso (*lazy learning*)**, pois não possui uma fase de treinamento explícita que gere coeficientes ou modelos matemáticos: ele simplesmente memoriza todos os dados de treino na memória.
     - Durante a inferência, calcula a distância (Euclidiana, Manhattan ou Minkowski) entre a nova amostra e todos os pontos históricos da base, atribuindo a classe majoritária entre os $k$ vizinhos mais próximos. Sofre severamente com a **maldição da dimensionalidade** (*curse of dimensionality*).
 
+### Questão 03 (FGV - TRT / Analista Judiciário - TI - Algoritmo Naive Bayes e Independência Condicional)
+O classificador Naive Bayes é um algoritmo de aprendizado de máquina supervisionado amplamente empregado na triagem automatizada de petições judiciais e detecção de fraudes em licitações públicas.
+
+O termo "Naive" (ingênuo) atribuído a esse classificador probabilístico decorre diretamente da seguinte premissa matemática:
+
+* **A)** Supor que todos os atributos de entrada possuem distribuição uniforme contínua com média zero.
+* **B)** Assumir a hipótese simplificadora de que todos os atributos preditores são condicionalmente independentes entre si, dada a classe do objeto.
+* **C)** Exigir que a variável alvo (*target*) seja obrigatoriamente um vetor contínuo de números irracionais.
+* **D)** Ignorar completamente a probabilidade a priori das classes durante o cálculo da probabilidade a posteriori.
+* **E)** Utilizar exclusivamente árvores de decisão binárias com profundidade máxima igual a 1.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Naive Bayes admite distribuições Gaussianas, Multinomial ou Bernoulli, não exigindo distribuição uniforme.
+> - **B)** **CORRETA.** O algoritmo baseia-se no **Teorema de Bayes**:
+>   $$P(C_k | X) = \frac{P(C_k) \cdot P(X | C_k)}{P(X)}$$
+>   Para calcular $P(X | C_k)$ sobre um vetor de características $X = (x_1, x_2, \dots, x_n)$, a computação exata das correlações conjuntas seria intratável. A simplificação "ingênua" (*Naive*) consiste em postular a **independência condicional entre todos os pares de atributos, dada a classe**:
+>   $$P(x_1, x_2, \dots, x_n | C_k) = \prod_{i=1}^n P(x_i | C_k)$$
+>   Embora essa suposição raramente se sustente no mundo real (ex.: em textos, certas palavras coocorrem fortemente), o algoritmo apresenta excelente poder discriminativo, baixo custo computacional e grande robustez com conjuntos de dados moderados.
+> - **C)** Incorreta. O alvo em classificação é categórico/discreto.
+> - **D)** Incorreta. A probabilidade a priori da classe $P(C_k)$ é elemento central da equação de Bayes.
+> - **E)** Incorreta. Naive Bayes é um modelo probabilístico puro, não baseado em árvores.
+> 
+> **Gabarito: B**
+
+---
+
 ### 2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting
 
 A combinação coordenada de múltiplos estimadores fracos (*weak learners*) permite construir comitês com capacidade preditiva muito superior à de qualquer modelo individual isolado:
@@ -176,7 +251,7 @@ A combinação coordenada de múltiplos estimadores fracos (*weak learners*) per
 
 ---
 
-### Questão 01
+### Questão 04
 **(FCC - SEFAZ-PE - Auditoria de Tecnologia da Informação)**
 Uma equipe de auditores de dados está implementando modelos de aprendizado de máquina para classificar notas fiscais e declarações fiscais de contribuintes estaduais em duas classes: "Conforme" ou "Potencialmente Fraudulenta". Durante o desenvolvimento, debateu-se a utilização de algoritmos baseados em Comitês de Modelos (*Ensemble Learning*), especificamente comparando o *Random Forest* (baseado em *Bagging*) com o *XGBoost* e *LightGBM* (baseados em *Boosting*).
 Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
@@ -240,7 +315,7 @@ Para estabilizar o modelo, adiciona-se uma penalidade matemática $\lambda \cdot
 
 ---
 
-### Questão 02
+### Questão 05
 **(FCC - SEFAZ-PE - Auditor Fiscal do Tesouro Estadual)**
 Um cientista de dados está desenvolvendo um modelo preditivo de regressão para projetar a arrecadação tributária estadual a partir de duzentas variáveis macroeconômicas. Sabendo que muitas dessas variáveis apresentam alta correlação entre si e que diversas delas não contribuem relevantemente para o poder explicativo do modelo, o analista deseja aplicar uma técnica de regularização que execute **seleção automática de atributos**, forçando expressamente a zero os coeficientes das variáveis irrelevantes para gerar um modelo final esparso e parcimonioso.
 A técnica de modelagem que atende estritamente ao requisito de zerar coeficientes e sua correspondente penalização matemática é:
@@ -293,7 +368,7 @@ O agrupamento descobre partições ou morfologias naturais em dados não rotulad
 
 ---
 
-### Questão 03
+### Questão 06
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 Em uma auditoria de contratos de obras públicas, um auditor necessita aplicar técnicas de Aprendizado Não Supervisionado (*Clustering*) para segmentar os pagamentos emitidos e detectar desvios operacionais atípicos. O conjunto de dados apresenta geometrias arbitrárias com densidades heterogêneas e a auditoria não possui uma estimativa prévia de quantos grupos naturais existem na base.
 Nesse contexto, o algoritmo mais apropriado para a tarefa e sua fundamentação técnica é o:
@@ -328,6 +403,33 @@ Reduz a quantidade de preditores de um dataset volumoso preservando a maior quan
 - **t-SNE e UMAP:**
     - Métodos **não lineares** dedicados prioritariamente à projeção de espaços de centenas de dimensões em espaços de 2D ou 3D para inspeção visual humana, preservando topologias de vizinhança local.
 
+### Questão 07 (FGV - TRT / Analista Judiciário - TI - Redução de Dimensionalidade com PCA)
+A Análise de Componentes Principais (*Principal Component Analysis - PCA*) é uma técnica estatística e de aprendizado não supervisionado fundamental para mitigar a "maldição da dimensionalidade" em grandes bases de dados de auditoria governamental.
+
+A respeito dos fundamentos matemáticos e operacionais do PCA, assinale a afirmativa correta:
+
+* **A)** O PCA é uma técnica supervisionada que seleciona os atributos com maior correlação linear com a variável alvo de classe.
+* **B)** Os novos eixos ortogonais (componentes principais) são obtidos pelo cálculo dos autovetores e autovalores da matriz de covariância (ou correlação) dos dados, onde o primeiro componente principal aponta na direção de máxima variância dos dados, e os componentes subsequentes são mutuamente ortogonais entre si.
+* **C)** O PCA aumenta o número total de variáveis da base de dados para garantir que não haja nenhuma perda de informação.
+* **D)** O PCA exige que os dados categóricos nominais sejam mantidos em formato textual sem qualquer pré-processamento numérico.
+* **E)** As componentes principais geradas pelo PCA são fortemente correlacionadas entre si, violando a independência linear.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O PCA é uma técnica puramente **não supervisionada**, que ignora rótulos de classe e opera exclusivamente sobre as variáveis explicativas.
+> - **B)** **CORRETA.** O funcionamento do PCA é rigorosamente fundamentado em álgebra linear:
+>   1. Padronizam-se os dados (média 0 e variância 1).
+>   2. Calcula-se a matriz de covariância das variáveis.
+>   3. Extraem-se os **autovetores** (que determinam a direção espacial das novas componentes principais ortogonais) e os **autovalores** (cuja magnitude reflete a quantidade de variância explicada por cada componente).
+>   4. O Primeiro Componente Principal ($PC_1$) captura a maior fração de variância dos dados originais. O $PC_2$ é estritamente ortogonal a $PC_1$ (correlação zero) e captura a máxima variância residual, e assim sucessivamente.
+> - **C)** Incorreta. O objetivo do PCA é justamente a **redução** de dimensionalidade, retendo apenas as $k$ primeiras componentes que acumulam a variância explicada desejada (ex.: 90% ou 95%).
+> - **D)** Incorreta. O PCA opera sobre variáveis numéricas contínuas.
+> - **E)** Incorreta. Uma das maiores virtudes do PCA é que as componentes principais resultantes são perfeitamente **descorrelacionadas** entre si (ortogonais).
+> 
+> **Gabarito: B**
+
+---
+
 ### 3.3 Aprendizado por Reforço (Reinforcement Learning)
 
 Um **Agente** aprende a tomar decisões sequenciais ideais através de tentativa e erro, interagindo iterativamente com um **Ambiente** dinâmico:
@@ -337,6 +439,34 @@ Um **Agente** aprende a tomar decisões sequenciais ideais através de tentativa
 - O objetivo é aprender uma política ótima que maximize o retorno cumulativo descontado no longo prazo ($G_t = \sum_{k=0}^{\infty} \gamma^k R_{t+k+1}$), governado pela **Equação de Bellman**.
 - **Dilema Exploração vs. Explotação (*Exploration vs. Exploitation*):** O agente deve arbitrar entre descobrir ações inéditas (*exploration*) para colher melhores recompensas futuras e executar as ações que já provaram ser eficazes (*exploitation*).
 - **Q-Learning:** Algoritmo clássico de aprendizado por diferença temporal, classificado como *model-free* e *off-policy*, que atualiza recursivamente os valores $Q(s, a)$ da função de valor ação-estado.
+
+---
+
+### Questão 08 (FCC - TRT / Analista Judiciário - TI - Aprendizado por Reforço e Q-Learning)
+O Aprendizado por Reforço (*Reinforcement Learning - RL*) distingue-se do aprendizado supervisionado e não supervisionado pelo fato de o sistema aprender por tentativa e erro através da interação contínua com um ambiente dinâmico.
+
+A respeito dos elementos conceituais do RL e do consagrado algoritmo **Q-Learning**, assinale a afirmativa correta:
+
+* **A)** No Aprendizado por Reforço, o agente recebe um conjunto de dados estático contendo pares prévios de entrada e rótulo correto fornecidos por um supervisor humano.
+* **B)** O algoritmo Q-Learning é um método *model-free* baseado em diferenças temporais que busca aprender uma função de valor de ação $Q(s, a)$, a qual estima a recompensa total acumulada descontada que o agente obterá ao tomar a ação $a$ no estado $s$ e seguir a política ótima a partir de então.
+* **C)** O fator de desconto $\gamma$ (gama) deve ser configurado como zero para que o agente priorize exclusivamente as recompensas distantes no longo prazo.
+* **D)** O dilema *Exploration vs. Exploitation* é irrelevante no Aprendizado por Reforço, devendo o agente sempre executar apenas a ação que forneceu a menor recompensa no passado.
+* **E)** O Q-Learning não converge se o ambiente for modelado como um Processo de Decisão de Markov (MDP).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Essa é a definição do aprendizado supervisionado. No RL, não há gabarito prévio; o agente recebe sinais escalares de **recompensa ou penalidade** (*reward signal*) decorrentes de suas ações.
+> - **B)** **CORRETA.** O **Q-Learning** (Watkins, 1989):
+>   - É um algoritmo *off-policy* e *model-free* (dispensa o conhecimento prévio da dinâmica de transição de probabilidades do ambiente).
+>   - Modela o problema como um Processo de Decisão de Markov (MDP).
+>   - Atualiza a função de valor $Q(s, a)$ por meio da equação de Bellman modificada:
+>     $$Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right]$$
+>   - Estima a utilidade acumulada futura esperada de executar a ação $a$ no estado $s$.
+> - **C)** Incorreta. Se $\gamma = 0$, o agente torna-se completamente míope, considerando apenas a recompensa imediata presente; para valorizar o longo prazo, $\gamma$ deve aproximar-se de 1.
+> - **D)** Incorreta. O dilema *Exploração vs. Explotação* (*Exploration vs Exploitation*) é central no RL (frequentemente controlado por políticas como $\epsilon$-greedy).
+> - **E)** Incorreta. A garantia de convergência do Q-Learning repousa exatamente sobre a formulação em um MDP finito.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -366,7 +496,7 @@ As funções de ativação inserem a não linearidade necessária para que o emp
 
 ---
 
-### Questão 04
+### Questão 09
 **(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
 Em arquiteturas de Redes Neurais Artificiais profundas (*Deep Learning*), as funções de ativação não lineares são elementos indispensáveis para viabilizar o aprendizado de fronteiras complexas. A respeito do comportamento dessas funções de ativação e de suas características computacionais, assinale a alternativa correta:
 
@@ -410,6 +540,32 @@ O ciclo de aprendizado de redes profundas articula quatro etapas fundamentais:
     - *Batch Normalization:* Normaliza as ativações de cada minilote para média zero e variância unitária, estabilizando e acelerando a convergência.
     - *Early Stopping:* Interrompe o treinamento quando o erro no conjunto de validação começa a subir consecutivamente, evitando o *overfitting*.
 
+### Questão 10 (FGV - TRT / Analista Judiciário - TI - Treinamento de Redes Profundas: Backpropagation e Adam)
+No treinamento de Redes Neurais Artificiais profundas (*Deep Learning*), o algoritmo de retropropagação do erro (*Backpropagation*) é utilizado para calcular os gradientes da função de perda em relação a cada peso sináptico da rede.
+
+A respeito do mecanismo de treinamento, do ajuste de gradientes e dos algoritmos otimizadores, assinale a afirmativa correta:
+
+* **A)** O algoritmo Backpropagation baseia-se na aplicação sistemática da Regra da Cadeia do cálculo diferencial para propagar o gradiente do erro da camada de saída em direção às camadas de entrada da rede.
+* **B)** A taxa de aprendizado (*learning rate*) deve ser configurada com o maior valor numérico possível (ex.: 100.00) para garantir convergência instantânea sem perigo de oscilações ou divergência da função de perda.
+* **C)** O otimizador Adam (*Adaptive Moment Estimation*) utiliza uma taxa de aprendizado estática e imutável para todos os parâmetros da rede, desconsiderando momentos de primeira e segunda ordem dos gradientes.
+* **D)** O Gradiente Descendente Estocástico (SGD) calcula o gradiente exato da função de perda utilizando simultaneamente todos os bilhões de exemplos do conjunto de dados de uma só vez a cada iteração.
+* **E)** O fenômeno do desaparecimento do gradiente (*Vanishing Gradient*) ocorre exclusivamente quando a função de ativação utilizada nas camadas intermediárias é a ReLU (*Rectified Linear Unit*).
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** O **Backpropagation** é o alicerce computacional do Deep Learning:
+>   1. **Passo Direto (Forward Pass):** Os dados de entrada atravessam a rede camada por camada até produzir a predição na saída e calcular a perda (*Loss*).
+>   2. **Passo Reverso (Backward Pass):** Aplica recursivamente a **Regra da Cadeia** para derivar a função de perda em relação a cada peso sináptico ($\frac{\partial L}{\partial w_{ij}}$), propagando os gradientes de trás para frente.
+>   3. **Atualização dos Pesos:** O otimizador ajusta os pesos no sentido oposto ao vetor gradiente para minimizar a perda.
+> - **B)** Incorreta. Uma taxa de aprendizado excessivamente alta provoca divergência e oscilações caóticas, impedindo o modelo de convergir para um mínimo da função de perda.
+> - **C)** Incorreta. O **Adam** combina o momento (primeiro momento: média móvel exponencial dos gradientes) com o RMSprop (segundo momento: média móvel dos gradientes ao quadrado), calculando **taxas de aprendizado adaptativas individuais para cada peso da rede**.
+> - **D)** Incorreta. O SGD calcula o gradiente com base em uma única amostra (ou em um pequeno lote / *mini-batch* no Mini-batch SGD). Quem usa o conjunto de dados inteiro a cada passo é o *Batch Gradient Descent*, que é inviável em dados massivos.
+> - **E)** Incorreta. O desaparecimento do gradiente é típico de funções saturantes como Sigmoide e Tangente Hiperbólica; a ReLU foi concebida justamente para mitigar o vanishing gradient nas regiões positivas.
+> 
+> **Gabarito: A**
+
+---
+
 ### 4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers
 
 * **Redes Neurais Convolucionais (CNNs):**
@@ -428,7 +584,7 @@ O ciclo de aprendizado de redes profundas articula quatro etapas fundamentais:
 
 ---
 
-### Questão 05
+### Questão 11
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 No ecossistema de arquiteturas especializadas de Aprendizado Profundo (*Deep Learning*), diversas redes foram desenvolvidas para processar eficientemente imagens, fluxos de áudio e dados textuais sequenciais.
 Sobre as características estruturais dessas arquiteturas, assinale a alternativa correta:

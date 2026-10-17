@@ -77,6 +77,29 @@ Os 23 padrões são classificados de acordo com duas dimensões: o **Propósito*
 
 ---
 
+
+### Questão 01
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+O clássico catálogo de padrões de projeto do Gang of Four (GoF) classifica os 23 padrões canônicos sob duas dimensões fundamentais: o **Propósito** (Criacional, Estrutural ou Comportamental) e o **Escopo** (de Classe ou de Objeto). Quanto ao escopo de Classe (no qual os relacionamentos são estáticos e definidos em tempo de compilação principalmente por meio de herança), assinale o padrão de projeto GoF que pertence genuinamente ao escopo de **Classe**:
+
+* **A)** *Abstract Factory*.
+* **B)** *Singleton*.
+* **C)** *Factory Method*.
+* **D)** *Bridge*.
+* **E)** *Strategy*.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** *Abstract Factory* tem escopo de Objeto (criação baseada em delegação/composição).
+> - **B) Incorreta.** *Singleton* tem escopo de Objeto.
+> - **C) Correta.** Na taxonomia formal do GoF, apenas 4 padrões operam sob escopo de **Classe**: *Factory Method* (Criação), *Adapter de Classe* (Estrutural), *Interpreter* (Comportamental) e *Template Method* (Comportamental). Todos os demais operam sob escopo de Objeto.
+> - **D) Incorreta.** *Bridge* tem escopo de Objeto.
+> - **E) Incorreta.** *Strategy* tem escopo de Objeto.
+>
+> **Gabarito: C**
+
+---
+
 ## 2. Padrões de Criação (Creational Patterns)
 
 Os padrões criacionais abstraem o processo de instanciação, tornando o sistema independente de como seus objetos são criados, compostos e representados.
@@ -102,7 +125,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Questão 02
 **(FCC – SEFAZ – Auditor de Tecnologia da Informação)**  
 Deseja-se criar uma interface gráfica que suporte múltiplos temas visuais (por exemplo: Tema Escuro e Tema Claro). Cada tema é composto por uma família coordenada de botões, caixas de texto e barras de rolagem visualmente harmonizados. Para garantir que a aplicação crie os componentes de um tema específico sem acoplar o código cliente às classes concretas de cada fabricante ou tema, deve-se adotar o padrão GoF:
 
@@ -141,6 +164,29 @@ Deseja-se criar uma interface gráfica que suporte múltiplos temas visuais (por
 
 ---
 
+
+### Questão 03
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Considere uma situação em que um sistema corporativo necessita construir objetos complexos formados por múltiplas partes e configurações opcionais. A equipe deseja separar o algoritmo de montagem do objeto final da representação interna das suas partes constituintes, de modo que o mesmo processo de montagem possa criar representações diferentes com composições variadas. O padrão de projeto criacional do GoF que atende especificamente a esse requisito é o:
+
+* **A)** *Prototype*.
+* **B)** *Singleton*.
+* **C)** *Builder*.
+* **D)** *Decorator*.
+* **E)** *Proxy*.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O *Prototype* cria novos objetos clonando instâncias prototípicas existentes.
+> - **B) Incorreta.** O *Singleton* assegura a unicidade de uma única instância global.
+> - **C) Correta.** O padrão *Builder* tem como intenção explícita "separar a construção de um objeto complexo da sua representação, de modo que o mesmo processo de construção possa criar diferentes representações".
+> - **D) Incorreta.** O *Decorator* é um padrão estrutural que adiciona responsabilidades a objetos dinamicamente.
+> - **E) Incorreta.** O *Proxy* é um padrão estrutural que atua como substituto para controlar acesso a outro objeto.
+>
+> **Gabarito: C**
+
+---
+
 ## 3. Padrões Estruturais (Structural Patterns)
 
 Os padrões estruturais tratam de como classes e objetos são compostos para formar estruturas maiores e mais flexíveis.
@@ -158,7 +204,7 @@ Os padrões estruturais tratam de como classes e objetos são compostos para for
 
 ---
 
-### Questão 02
+### Questão 04
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Um arquiteto de software precisa integrar uma nova aplicação corporativa a um sistema legado de contabilidade existente há mais de vinte anos. O sistema legado possui centenas de classes complexas, chamadas intrincadas e rotinas interdependentes. O objetivo é criar uma camada intermediária que forneça uma interface simples, unificada e de alto nível para os desenvolvedores da nova aplicação, ocultando toda a complexidade interna do subsistema legado sem alterar o código original dele. O padrão de projeto GoF que resolve essa necessidade de design é o:
 
@@ -207,7 +253,7 @@ Um arquiteto de software precisa integrar uma nova aplicação corporativa a um 
 
 ---
 
-### Questão 03
+### Questão 05
 **(FCC – TRT – Analista Judiciário / TI)**  
 Em um sistema de processo eletrônico, deseja-se representar documentos que podem ser tanto peças processuais individuais (como certidões e pareceres em texto) quanto pastas de autos contendo diversos documentos e outras subpastas agregadas. A exigência do projeto é que o cliente da aplicação possa invocar operações como `assinarDigitalmente()` e `calcularTamanhoBytes()` tratando documentos simples e pastas compostas de maneira inteiramente uniforme e transparente. O padrão de projeto GoF que soluciona essa demanda arquitetural é o:
 
@@ -231,6 +277,31 @@ Em um sistema de processo eletrônico, deseja-se representar documentos que pode
 
 
 
+
+### Questão 06
+**(FGV – TJ – Analista de Sistemas)**  
+Analise os seguintes cenários de engenharia de software envolvendo padrões de projeto estruturais do GoF:  
+
+Cenário 1: Um desenvolvedor necessita estender o comportamento de um objeto específico em tempo de execução, adicionando responsabilidades de forma transparente e flexível, como alternativa preferível à criação de subclasses estáticas por herança.  
+Cenário 2: Uma aplicação requer o controle estrito de acesso a um objeto volumoso que demanda alto consumo de memória, instanciando-o apenas no momento exato em que algum cliente invocar sua execução pela primeira vez (*lazy loading*).  
+
+Os padrões de projeto adequados para os Cenários 1 e 2 são, respectivamente:
+
+* **A)** *Facade* e *Bridge*.
+* **B)** *Decorator* e *Proxy* Virtual.
+* **C)** *Composite* e *Adapter*.
+* **D)** *Proxy* e *Decorator*.
+* **E)** *Flyweight* e *Singleton*.
+
+> **Comentário Detalhado:**
+>
+> - **Cenário 1:** O padrão *Decorator* adiciona responsabilidades a um objeto de maneira dinâmica e transparente sem usar herança profunda.
+> - **Cenário 2:** O padrão *Proxy* Virtual atua como intermediário/substituto de um objeto real para adiar sua criação cara até o momento de uso (*lazy initialization*).
+>
+> **Gabarito: B**
+
+---
+
 ## 4. Padrões Comportamentais (Behavioral Patterns)
 
 Os padrões comportamentais concentram-se nos algoritmos, na distribuição de responsabilidades e na dinâmica de comunicação e colaboração entre objetos.
@@ -246,7 +317,7 @@ A diferenciação entre esses três padrões é uma das temáticas mais cobradas
 
 ---
 
-### Questão 04
+### Questão 07
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 Um sistema de fiscalização de contratos necessita calcular o valor final de penalidades financeiras aplicando diferentes fórmulas de cálculo (ex.: multa por mora, multa compensatória e glosa por quebra de SLA), as quais podem ser selecionadas dinamicamente em tempo de execução dependendo da tipificação da infração cometida pela empresa contratada. O analista deseja que novas fórmulas de multa possam ser adicionadas no futuro sem a necessidade de alterar as classes existentes e sem utilizar extensas estruturas de condicionais aninhadas (`switch` ou múltiplos `if-else`). O padrão de projeto GoF recomendado para encapsular cada algoritmo em classes separadas e torná-los intercambiáveis é o:
 
@@ -278,7 +349,7 @@ Um sistema de fiscalização de contratos necessita calcular o valor final de pe
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 O padrão de projeto comportamental Observer é amplamente utilizado em arquiteturas de software para desacoplar objetos que produzem mudanças de estado daqueles que precisam reagir a elas. A esse respeito, é correto afirmar que o padrão Observer:
 
@@ -309,6 +380,52 @@ O padrão de projeto comportamental Observer é amplamente utilizado em arquitet
 - **Mediator (Mediador):** Define um objeto central que encapsula como um conjunto de objetos interage. Promove o baixo acoplamento ao evitar que os objetos se refiram uns aos outros explicitamente, centralizando a lógica de comunicação (ex.: controlador de diálogo de interface gráfica);
 - **Memento (Lembrança):** Sem violar o encapsulamento, captura e **externaliza o estado interno de um objeto**, permitindo que o objeto seja restaurado para esse estado posteriormente (snapshot de recuperação);
 - **Visitor (Visitante):** Representa uma nova operação a ser executada sobre os elementos de uma estrutura de objetos existente. Permite **definir uma nova operação sem mudar as classes** dos elementos sobre os quais ela opera (utiliza o mecanismo de despacho duplo / *double dispatch*).
+
+---
+
+
+### Questão 09
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No catálogo de padrões comportamentais do GoF, o padrão cuja intenção oficial é "evitar o acoplamento do remetente de uma requisição ao seu destinatário, dando a mais de um objeto a oportunidade de tratar a requisição, encadeando os objetos receptores e passando a requisição ao longo da cadeia até que um deles a trate" denomina-se:
+
+* **A)** *Command*.
+* **B)** *Chain of Responsibility*.
+* **C)** *Mediator*.
+* **D)** *Observer*.
+* **E)** *Visitor*.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O *Command* encapsula uma requisição como um objeto para parametrização e suporte a operações reversíveis (*undo*).
+> - **B) Correta.** É a definição canônica e literal do padrão *Chain of Responsibility* do GoF (muito cobrada pela FCC).
+> - **C) Incorreta.** O *Mediator* centraliza as interações complexas entre um conjunto de objetos colegas.
+> - **D) Incorreta.** O *Observer* define dependência 1-para-muitos entre objetos com notificação automática de mudanças.
+> - **E) Incorreta.** O *Visitor* representa uma operação a ser executada nos elementos de uma estrutura de objetos sem alterar suas classes.
+>
+> **Gabarito: B**
+
+---
+
+
+### Questão 10
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+O padrão de projeto comportamental GoF que permite capturar e externalizar o estado interno de um objeto, de modo que este possa ser restaurado a esse estado posteriormente, sem que o princípio fundamental de encapsulamento seja violado, é o:
+
+* **A)** *Memento*.
+* **B)** *State*.
+* **C)** *Template Method*.
+* **D)** *Prototype*.
+* **E)** *Flyweight*.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** O padrão *Memento* (composto pelos papéis *Originator*, *Memento* e *Caretaker*) armazena um snapshot do estado interno do objeto para viabilizar restauração (*undo/checkpoint*) preservando o encapsulamento.
+> - **B) Incorreta.** O *State* permite a um objeto alterar seu comportamento quando seu estado interno muda.
+> - **C) Incorreta.** O *Template Method* define o esqueleto de um algoritmo na superclasse, diferindo passos concretos para subclasses.
+> - **D) Incorreta.** O *Prototype* é criacional e clona instâncias inteiras.
+> - **E) Incorreta.** O *Flyweight* é estrutural e foca em compartilhamento de objetos de granularidade fina para economizar memória.
+>
+> **Gabarito: A**
 
 ---
 

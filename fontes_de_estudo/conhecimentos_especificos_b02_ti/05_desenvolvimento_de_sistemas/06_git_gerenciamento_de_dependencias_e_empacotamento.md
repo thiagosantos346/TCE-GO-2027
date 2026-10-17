@@ -102,6 +102,33 @@ flowchart TD
 
 ---
 
+### Questão 01
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Internamente, o Git armazena todo o histórico e a árvore de arquivos de um projeto em um repositório orientado a objetos (*Content-Addressable Storage*) dentro da pasta `.git/objects`. Os objetos fundamentais desse modelo estruturam-se em:
+
+* **A)** Arquivos `.doc`, planilhas `.xls` e executáveis `.exe`.
+* **B)** *Blobs* (que armazenam o conteúdo dos arquivos), *Trees* (que representam diretórios e mapeiam nomes de arquivos e permissões para blobs ou outras trees) e *Commits* (que apontam para uma tree raiz e armazenam autor, data, mensagem e ponteiros para os commits pais).
+* **C)** Registros relacionais indexados por chaves primárias do tipo auto-incremento.
+* **D)** Tabelas de partição de sistema de arquivos NTFS.
+* **E)** Sockets de rede virtuais com endereçamento IPv6.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O Git opera sobre abstrações internas de objetos universais agnósticos ao tipo de arquivo.
+> - **B) Correta.** O modelo canônico de objetos do Git fundamenta-se em:
+>   - **Blob:** guarda os bytes brutos do conteúdo do arquivo (sem o nome ou permissão);
+>   - **Tree:** atua como diretório, associando permissões, nomes de arquivos e hashes de blobs ou sub-trees;
+>   - **Commit:** captura o snapshot da tree raiz, registrando autor, committer, timestamp, mensagem e hash do(s) commit(s) pai(s);
+>   - **Tag anotada:** objeto de referência imutável apontando para um commit específico.
+> - **C) Incorreta.** O Git não usa banco relacional nem chaves de auto-incremento; indexa tudo por hashes criptográficos SHA-1 / SHA-256.
+> - **D) Incorreta.** O modelo do Git opera em nível de aplicação multiplataforma.
+> - **E) Incorreta.** Sem relação com a estrutura interna do Git.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 1.3 As Três Áreas Locais e o Ciclo de Vida dos Arquivos
 No computador local do desenvolvedor, o Git segmenta os arquivos em três áreas distintas:
 
@@ -122,6 +149,29 @@ flowchart LR
 3. **Repositório Local (.git directory / HEAD):** O banco de dados imutável onde os commits consolidados são gravados permanentemente. O ponteiro especial **HEAD** aponta para o ramo e commit em que o desenvolvedor está atualmente trabalhando.
 
 ---
+
+### Questão 02
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Um repositório Git local organiza o ciclo de vida dos arquivos em três áreas conceituais fundamentais: a Área de Trabalho (*Working Directory*), a Área de Preparação (*Staging Area* ou *Index*) e o Repositório Local (*Commit History* / `.git`). O comando utilizado para mover arquivos modificados do *Working Directory* para a *Staging Area*, preparando-os para o próximo commit, é:
+
+* **A)** `git push`
+* **B)** `git commit`
+* **C)** `git add`
+* **D)** `git fetch`
+* **E)** `git checkout`
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** `git push` envia commits locais para um repositório remoto.
+> - **B) Incorreta.** `git commit` grava as alterações presentes na Staging Area no histórico do repositório local.
+> - **C) Correta.** O comando `git add <arquivo>` adiciona o conteúdo modificado do diretório de trabalho à *Staging Area* (*Index*), registrando o novo blob na base de objetos.
+> - **D) Incorreta.** `git fetch` baixa metadados e objetos de branches remotas sem mesclá-los ao diretório de trabalho.
+> - **E) Incorreta.** `git checkout` alterna entre branches ou restaura arquivos no diretório de trabalho.
+>
+> **Gabarito: C**
+
+---
+
 
 ### 1.4 Comandos Fundamentais de Inspeção, Rastreamento e Histórico
 - **`git init`:** Inicializa um repositório Git vazio criando a pasta oculta `.git`.
@@ -167,6 +217,29 @@ flowchart TD
 
 ---
 
+### Questão 03
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Ao integrar o código de uma branch de desenvolvimento (*feature branch*) à branch principal (*main*), o desenvolvedor pode optar pelo comando `git merge` ou pelo comando `git rebase`. A respeito das consequências dessas duas abordagens no histórico do projeto, é correto afirmar:
+
+* **A)** O `git merge` lineariza o histórico reescrevendo os hashes de todos os commits anteriores, eliminando bifurcações.
+* **B)** O `git merge` (sem fast-forward) preserva o histórico original intacto e cria um novo commit de junção (*merge commit*) com dois pais, ao passo que o `git rebase` reaplica os commits da feature branch um a um no topo da branch de destino, reescrevendo o histórico de commits de forma linear.
+* **C)** O `git rebase` é uma operação estritamente recomendada para branches públicas compartilhadas por múltiplos desenvolvedores remotos.
+* **D)** Ambos os comandos executam exatamente a mesma rotina física sem alterar qualquer ponteiro de commit.
+* **E)** O `git merge` só pode ser executado se o computador estiver conectado à Internet.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Quem lineariza e reescreve commits é o `rebase`, não o `merge`.
+> - **B) Correta.** O `git merge` cria um nó de convergência (*merge commit*) com múltiplos pais, preservando o contexto temporal e a topologia real. O `git rebase` retira os commits da branch local e os reproduz sobre a ponta da branch base, criando novos hashes SHA e gerando um histórico estritamente linear (sem commits de mescla).
+> - **C) Incorreta.** A "Regra de Ouro do Rebase" estabelece que nunca se deve fazer rebase em branches públicas compartilhadas, sob pena de gerar divergência nos históricos de outros desenvolvedores.
+> - **D) Incorreta.** Possuem efeitos topológicos e conceituais completamente distintos.
+> - **E) Incorreta.** Ambas são operações locais do Git.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 1.6 Operações de Recuperação e Desfazer: `reset`, `revert`, `stash` e `cherry-pick`
 
 #### 1. As Três Modalidades de `git reset`
@@ -180,7 +253,7 @@ O comando `git reset <hash>` move o ponteiro HEAD para trás:
 
 ---
 
-### Questão 01 (FCC - Analista de TI / Sistemas)
+### Questão 04 (FCC - Analista de TI / Sistemas)
 No modelo operacional do Git, o comando `git reset` permite retroceder a posição do ponteiro `HEAD` para um determinado commit anterior da árvore histórica. Esse comando aceita diferentes parâmetros que determinam o destino das alterações existentes nos arquivos.
 
 Sobre os efeitos dos parâmetros do comando `git reset`, assinale a afirmativa correta:  
@@ -212,7 +285,7 @@ Em branches públicas compartilhadas, o `git reset` é proibido. Para desfazer a
 
 ---
 
-### Questão 02 (FCC - Analista de TI / Sistemas)
+### Questão 05 (FCC - Analista de TI / Sistemas)
 Um analista de sistemas do Tribunal de Contas estava desenvolvendo uma nova rotina de auditoria financeira no ramo de trabalho `feature-auditoria`. Durante o desenvolvimento, com dezenas de arquivos editados na sua área de trabalho (*working directory*) e na área de preparação (*staging area*), ele recebeu uma ordem prioritária para corrigir imediatamente uma falha crítica de segurança no ramo principal `main`. O analista não deseja realizar um commit parcial de código incompleto, mas necessita que sua árvore de trabalho fique totalmente limpa para permitir alternar de ramo sem erros.
 
 Posteriormente, após solucionar a falha e submeter a correção ao repositório remoto público compartilhado com toda a equipe de engenharia, ele constatou que um commit anterior presente na branch pública compartilhada causou um efeito colateral indesejado. Ele precisa anular e desfazer as alterações introduzidas por aquele commit específico sem reescrever ou apagar a linha histórica já sincronizada pelos demais desenvolvedores.
@@ -281,6 +354,29 @@ flowchart TD
 
 ---
 
+### Questão 06
+**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
+No gerenciamento de dependências de software moderno (como Maven, npm ou Poetry), quando um projeto declara explicitamente a biblioteca A, e esta, por sua vez, requer internamente a biblioteca B para funcionar, a biblioteca B é caracterizada na arquitetura do projeto como uma:
+
+* **A)** Dependência circular primária.
+* **B)** Dependência estática de hardware.
+* **C)** Dependência transitiva.
+* **D)** Dependência depreciada (*deprecated*).
+* **E)** Dependência exclusiva de compilação C++.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Dependência circular ocorre quando A depende de B e B depende de A.
+> - **B) Incorreta.** Trata-se de dependência de software de terceiros.
+> - **C) Correta.** **Dependências transitivas** são bibliotecas das quais as suas dependências diretas dependem para operar. O gerenciador de pacotes constrói um Grafo Acíclico Dirigido (DAG) para resolver e baixar automaticamente todas as dependências transitivas.
+> - **D) Incorreta.** Dependência transitiva é um conceito arquitetural de grafo, independente de estar ou não obsoleta.
+> - **E) Incorreta.** Aplica-se a qualquer ecossistema de dependências de alto nível.
+>
+> **Gabarito: C**
+
+---
+
+
 ### 2.2 Versionamento Semântico (SemVer 2.0.0)
 A especificação universal SemVer define como os softwares devem rotular suas versões públicas através do formato de três inteiros separados por ponto:
 
@@ -305,7 +401,7 @@ flowchart LR
 
 ---
 
-### Questão 03 (FCC - Técnico de Controle Externo / TI)
+### Questão 07 (FCC - Técnico de Controle Externo / TI)
 Considere uma biblioteca de auditoria governamental que adota rigorosamente a especificação de Versionamento Semântico (*Semantic Versioning* - SemVer 2.0.0), encontrando-se atualmente na versão de distribuição `2.4.1`. A equipe de desenvolvimento realizou intervenções de melhoria e disponibilizou novas versões do pacote.
 
 A respeito das regras formais do SemVer e da gestão de dependências com gerenciadores de pacotes modernos, assinale a afirmativa correta:  
@@ -342,6 +438,29 @@ A respeito das regras formais do SemVer e da gestão de dependências com gerenc
 
 ---
 
+### Questão 08
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Em ambientes de Integração Contínua (CI/CD) com Node.js, recomenda-se a utilização do comando `npm ci` em substituição ao clássico `npm install`. Essa recomendação fundamenta-se no fato de que o `npm ci`:
+
+* **A)** Atualiza automaticamente todas as bibliotecas para a última versão disponível no repositório público do npm.
+* **B)** Requer a presença obrigatória do arquivo de trava `package-lock.json` e instala rigorosamente as versões exatas de dependências especificadas no lockfile, deletando previamente a pasta `node_modules` e garantindo builds estritamente reprodutíveis e determinísticos.
+* **C)** Ignora completamente o arquivo `package-lock.json` e compila apenas o código C++.
+* **D)** Permite a instalação de pacotes sem acesso à rede local ou remota, criando o código das bibliotecas via inteligência artificial.
+* **E)** Funciona exclusivamente se o servidor de CI estiver executando sobre o sistema operacional Windows 98.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Atualizar pacotes automaticamente em pipeline quebra o determinismo do build.
+> - **B) Correta.** O comando `npm ci` (*Clean Install*) é otimizado para pipelines de automação: ele valida se `package.json` e `package-lock.json` estão sincronizados, remove a pasta `node_modules` existente e instala estritamente as versões travadas no lockfile com máxima velocidade e integridade.
+> - **C) Incorreta.** O `npm ci` baseia-se primordialmente no `package-lock.json`.
+> - **D) Incorreta.** `npm ci` baixa os artefatos do registro configurado caso não estejam em cache.
+> - **E) Incorreta.** Multiplataforma.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 2.4 Ecossistemas de Dependências: Node.js (npm), Python (pip/Poetry) e Java (Maven)
 
 | Ecossistema | Gerenciador de Pacotes | Arquivo de Manifesto | Arquivo de Trava (*Lockfile*) | Repositório Central Público |
@@ -375,7 +494,7 @@ flowchart LR
 
 ---
 
-### Questão 04 (FCC - Analista de Sistemas / Integração Contínua e Build)
+### Questão 09 (FCC - Analista de Sistemas / Integração Contínua e Build)
 No ecossistema de desenvolvimento de sistemas em Java gerenciado pela ferramenta Apache Maven, o ciclo de vida de construção (*build lifecycle*) organiza a execução de objetivos (*goals*) em fases pré-definidas. Simultaneamente, em ambientes de esteiras de Integração Contínua (CI/CD), a garantia de builds reprodutíveis e determinísticos tornou-se um requisito mandatório de conformidade e segurança da cadeia de suprimentos.
 
 A respeito do ciclo de vida do Maven e dos mecanismos que garantem builds reproduzíveis em gerenciadores de dependências modernos, assinale a afirmativa correta:  
@@ -412,6 +531,29 @@ No desenvolvimento front-end moderno, o código-fonte é decomposto em centenas 
 
 ---
 
+### Questão 10
+**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+As ferramentas de empacotamento web (*bundlers*) evoluíram significativamente com o surgimento do Vite. A principal inovação arquitetural que confere ao Vite velocidade de inicialização do servidor de desenvolvimento ordens de grandeza superior à do Webpack tradicional reside no fato de que o Vite:
+
+* **A)** Não permite o uso de arquivos TypeScript ou JavaScript moderno.
+* **B)** Aproveita a disponibilidade nativa de módulos JavaScript (*Native ES Modules* - ESM) nos navegadores modernos e delega o pré-empacotamento de dependências pesadas a ferramentas escritas em Go de alta performance (*esbuild*), empacotando sob demanda apenas o módulo requisitado pelo navegador.
+* **C)** Exige que todo o código seja convertido em imagens vetoriais SVG antes da visualização na tela.
+* **D)** Elimina a necessidade do navegador web, executando todo o front-end diretamente no prompt de comando do terminal.
+* **E)** Compila todos os arquivos CSS para código binário em linguagem Assembly.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O Vite oferece suporte nativo e instantâneo a TypeScript, JSX, TSX e Vue/Svelte.
+> - **B) Correta.** O Vite revolucionou o desenvolvimento web ao dispensar o empacotamento integral (*bundle*) de todo o código da aplicação antes de subir o servidor: ele serve o código-fonte via ESM nativo do browser (Hot Module Replacement instantâneo) e usa o *esbuild* (escrito em Go, dezenas de vezes mais veloz que transpiladores JS tradicionais) para pré-empacotar dependências.
+> - **C) Incorreta.** Afirmação sem nexo.
+> - **D) Incorreta.** O front-end continua sendo executado no navegador.
+> - **E) Incorreta.** Descrição fantasiosa.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 3.2 Otimizações de Produção: Tree Shaking, Code Splitting e Minificação
 
 ```mermaid
@@ -435,7 +577,7 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Auditor Fiscal / Tecnologia da Informação)
+### Questão 11 (FCC - Auditor Fiscal / Tecnologia da Informação)
 No contexto do desenvolvimento de aplicações web modernas com ferramentas de empacotamento (*module bundlers* como Webpack, Rollup e Vite), o processo que visa reduzir o volume de dados transferido para os navegadores dos usuários finais recorre a técnicas sofisticadas de otimização de código.
 
 A técnica que consiste na análise estática das instruções `import` e `export` dos módulos ECMAScript (ESM) para identificar e eliminar blocos de código, funções e variáveis exportadas que nunca são efetivamente utilizados no restante da aplicação denomina-se:  

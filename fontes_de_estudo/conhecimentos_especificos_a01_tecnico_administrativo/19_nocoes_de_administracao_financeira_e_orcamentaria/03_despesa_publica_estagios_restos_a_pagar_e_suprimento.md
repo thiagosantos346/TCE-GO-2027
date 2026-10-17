@@ -120,6 +120,28 @@ A respeito da classificação e dos estágios da despesa pública orçamentária
 ---
 
 
+### Questão 02 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+No tocante ao estágio da liquidação da despesa pública disciplinado nos arts. 62 e 63 da Lei Federal nº 4.320/1964, é correto afirmar:
+
+* **A)** A liquidação consiste na verificação do direito adquirido pelo credor, tendo por base os títulos e documentos comprobatórios do respectivo crédito, com o objetivo de apurar a origem e o objeto do que se deve pagar, a importância exata a pagar e a quem se deve pagar.
+* **B)** A emissão da ordem de pagamento precede a liquidação da despesa, servindo de autorização para o recebimento definitivo dos bens adquiridos.
+* **C)** É lícito efetuar o pagamento da despesa antes da regular liquidação, desde que haja termo de garantia prestado pelo fornecedor contratado.
+* **D)** A nota de empenho substitui integralmente a fase de liquidação quando se tratar de contratação de serviços contínuos com dedicação exclusiva de mão de obra.
+* **E)** A liquidação é ato discricionário do ordenador de despesas, que pode dispensá-la quando o fornecedor for órgão integrante da Administração Pública direta.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. É a literalidade do art. 63 da Lei nº 4.320/1964: "A liquidação da despesa consiste na verificação do direito adquirido pelo credor tendo por base os títulos e documentos comprobatórios do respectivo crédito". Apura: I - a origem e o objeto do que se deve pagar; II - a importância exata a pagar; III - a quem se deve pagar.
+> - **B)** Incorreta. A ordem de pagamento é posterior à liquidação (art. 64).
+> - **C)** Incorreta. O art. 62 estabelece que a ordem de pagamento só pode ser exarada após regular liquidação da despesa.
+> - **D)** Incorreta. O empenho cria a obrigação orçamentária, mas jamais dispensa a liquidação para atestar o fornecimento.
+> - **E)** Incorreta. A liquidação é ato vinculado e indispensável na execução da despesa pública.
+> 
+> **Gabarito: A**
+
+---
+
+
 #### 1.3 Modalidades de Empenho: Ordinário, Estimativo e Global
 A legislação orçamentária prevê três modalidades formais de empenho, a serem adotadas conforme a natureza da obrigação contratual:
 
@@ -131,7 +153,7 @@ A legislação orçamentária prevê três modalidades formais de empenho, a ser
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Questão 03 (FCC - Adaptada / Analista de Planejamento e Orçamento)
 Para a realização de despesas rotineiras de manutenção das instalações de uma secretaria de estado, o gestor público determinou a emissão de nota de empenho no início do mês de janeiro para cobrir os gastos com fornecimento contínuo de energia elétrica e abastecimento de água ao longo de todo o ano, sem que seja possível conhecer previamente o consumo exato a cada mês.
 
 A modalidade de empenho adequada e legalmente exigida para essa situação é o empenho:
@@ -194,7 +216,7 @@ $$\text{C . G . MM . EE}$$
 
 ---
 
-### Questão 03 (FCC - Adaptada / Técnico de Controle Externo)
+### Questão 04 (FCC - Adaptada / Técnico de Controle Externo)
 Determinada empresa pública estadual adquiriu, mediante procedimento licitatório de compra direta, um terreno urbano desocupado para futura expansão de seu almoxarifado no valor de R$ 2.000.000,00, bem como contratou uma empreiteira para a construção de um novo edifício administrativo no mesmo local pelo montante de R$ 5.000.000,00.
 
 Segundo a estrutura da despesa pública por sua natureza (Portaria Interministerial STN/SOF nº 163/2001 e MCASP), essas despesas classificam-se, respectivamente, nos seguintes Grupos de Natureza da Despesa (GND):
@@ -230,6 +252,30 @@ flowchart TD
 
 ---
 
+### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Na classificação da despesa orçamentária por natureza, as despesas de capital dividem-se em três Grupos de Natureza da Despesa (GND): Investimentos (GND 4), Inversões Financeiras (GND 5) e Amortização da Dívida (GND 6).
+
+Constituem, respectivamente, Investimento (GND 4) e Inversão Financeira (GND 5):
+
+* **A)** A construção de um novo edifício para abrigar a sede do Tribunal de Contas e a aquisição de um imóvel já construído para funcionamento de uma escola pública.
+* **B)** A aquisição de títulos da dívida pública de outros entes e a pavimentação de uma rodovia estadual.
+* **C)** O pagamento do principal da dívida contratual externa e a aquisição de computadores novos para a secretaria de fazenda.
+* **D)** A concessão de empréstimos habitacionais e a realização de obras de reforma que ampliem a vida útil de hospital estadual.
+* **E)** A aquisição de instalações hospitalares novas e a contratação de serviços de consultoria contábil continuada.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Conforme os arts. 12 e 13 da Lei nº 4.320/1964: **Investimentos (GND 4)** englobam obras públicas e aquisições que criam novos bens de capital (aumento líquido do patrimônio público, ex.: construção de novo edifício); **Inversões Financeiras (GND 5)** englobam a aquisição de imóveis ou de bens de capital já em utilização (apenas transferem patrimônio entre agentes sem criar novo ativo na economia, ex.: compra de prédio já construído), além de aquisição de títulos e constituição/aumento de capital de empresas.
+> - **B)** Invertido. Títulos da dívida são inversões financeiras; rodovia é investimento.
+> - **C)** Amortização da dívida é GND 6; computadores novos são GND 4 (investimento).
+> - **D)** Invertido. Empréstimos são GND 5; reforma ampliativa é GND 4.
+> - **E)** Instalações novas são GND 4; serviços continuados são GND 3 (outras despesas correntes).
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 3. Restos a Pagar (RAP) e Despesas de Exercícios Anteriores (DEA)
 
 #### 3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)
@@ -248,7 +294,7 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Adaptada / Analista Jurídico de Controle)
+### Questão 06 (FCC - Adaptada / Analista Jurídico de Controle)
 Ao final do exercício financeiro em 31 de dezembro, a Secretaria de Infraestrutura do Estado possuía dois contratos em execução:
 
 I. Contrato de pavimentação asfáltica, cuja medição final foi regularmente atestada pela fiscalização no dia 20 de dezembro e a nota fiscal devidamente liquidada, mas a ordem bancária de pagamento de R$ 800.000,00 não foi emitida até o encerramento do expediente bancário do ano.  
@@ -289,7 +335,7 @@ As dívidas passadas de exercícios orçamentários já encerrados serão empenh
 
 ---
 
-### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Questão 07 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
 Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de Exercícios Anteriores (DEA), é correto afirmar que:
 
 * **A)** O suprimento de fundos pode ser concedido livremente a qualquer servidor público, inclusive àquele que esteja omisso no dever de prestar contas de adiantamento concedido anteriormente.
@@ -310,6 +356,32 @@ Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de 
 
 ---
 
+
+
+### Questão 08 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+A respeito do reconhecimento e pagamento de Despesas de Exercícios Anteriores (DEA), disciplinadas pelo art. 37 da Lei Federal nº 4.320/1964 e normas correlatas, analise as hipóteses a seguir:
+
+I. Despesas de exercícios encerrados para os quais o orçamento respectivo consignava crédito próprio, com saldo suficiente para atendê-las, que não se tenham processado na época própria.  
+II. Restos a Pagar com prescrição interrompida, a respeito dos quais o credor tenha mantido tempestivamente o direito de cobrança.  
+III. Compromissos decorrentes de obrigação de pagamento criada em virtude de lei e pela mesma promulgada, que não tenham sido previstos no orçamento anterior.
+
+À luz da legislação de finanças públicas, podem ser pagas à conta de dotação orçamentária específica para Despesas de Exercícios Anteriores (DEA):
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** II e III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, II e III.
+
+> **Comentário Detalhado:**
+>
+> - **I. Correto.** É a primeira hipótese do art. 37 da Lei nº 4.320/1964: despesas que tinham dotação orçamentária e saldo suficiente, mas não foram empenhadas na época própria.
+> - **II. Correto.** É a segunda hipótese do art. 37: Restos a Pagar cancelados cuja prescrição tenha sido regularmente interrompida pelo credor.
+> - **III. Correto.** É a terceira hipótese do art. 37: compromissos decorrentes de obrigação legal promulgada após o encerramento do orçamento respectivo.
+> 
+> **Gabarito: E**
+
+---
 
 
 ### 4. Regime Excepcional de Suprimento de Fundos (Adiantamento)
@@ -341,6 +413,55 @@ flowchart TD
 - A prestação de contas é obrigatória e deve ser apresentada pelo suprido no prazo estipulado pelo regulamento, sob pena de instauração imediata de Tomada de Contas Especial (TCE).
 
 ---
+
+### Questão 09 (FCC - Adaptada / Analista Jurídico de Controle)
+O regime de adiantamento ou suprimento de fundos é uma exceção ao princípio geral de que o pagamento de despesas públicas deve ser precedido de regular empenho e liquidação pelo rito ordinário.
+
+A respeito do suprimento de fundos, de acordo com o art. 68 da Lei nº 4.320/1964 e normas gerais de administração financeira, é correto afirmar:
+
+* **A)** O suprimento de fundos dispensa a realização de empenho prévio, formalizando-se diretamente pelo saque financeiro na conta do órgão.
+* **B)** É lícito conceder suprimento de fundos a servidor público que seja responsável por dois adiantamentos anteriores já prestados e aprovados pelo Tribunal de Contas.
+* **C)** O suprimento de fundos é cabível unicamente para despesas eventuais de pronto pagamento, que exijam pronta prestação de serviço ou aquisições miúdas que não possam subordinar-se ao processo normal de aplicação.
+* **D)** O suprido tem prazo indeterminado para prestar contas dos recursos sacados, sujeitando-se apenas ao prazo prescricional decadencial de dez anos.
+* **E)** É permitido efetuar adiantamento de suprimento de fundos a servidor em alcance ou que tenha deixado de prestar contas de suprimento anterior no prazo legal.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O suprimento de fundos **exige prévio empenho** na dotação própria da despesa (art. 60 da Lei nº 4.320/1964).
+> - **B)** Incorreta. O Decreto nº 93.872/1986 veda expressamente a concessão de novo adiantamento a quem já seja responsável por mais de dois suprimentos de fundos pendentes de aplicação ou a servidor em atraso na prestação de contas.
+> - **C)** Correta. O art. 68 da Lei nº 4.320/1964 restringe o regime de suprimento de fundos aos casos excepcionais: despesas miúdas de pronto pagamento, despesas extraordinárias ou urgentes e despesas que exijam sigilo.
+> - **D)** Incorreta. O suprido deve prestar contas em prazo estrito (geralmente até 30 dias após o encerramento do período de aplicação), sob pena de imediata instauração de Tomada de Contas Especial.
+> - **E)** Incorreta. É vedado expressamente conceder suprimento a servidor em alcance (aquele que não prestou contas no prazo legal ou teve contas desaprovadas).
+> 
+> **Gabarito: C**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+Em relação aos Restos a Pagar (RAP), sua classificação e regras de controle fiscal, considere a seguinte situação fática:
+
+Determinado órgão do Estado empenhou, no exercício de 2024, despesa referente à aquisição de equipamentos de tecnologia. Os equipamentos foram formalmente entregues, atestados pela comissão de recebimento e liquidados pela unidade orçamentária em 20 de dezembro de 2024, mas a ordem bancária de pagamento não pôde ser emitida até 31 de dezembro por razões operacionais de fechamento do sistema bancário.
+
+No encerramento do exercício financeiro de 2024, tal despesa deverá ser inscrita como:
+
+* **A)** Restos a Pagar Processados (RPP), pois a despesa foi devidamente liquidada no exercício financeiro de origem, gerando direito creditório líquido e certo para o contratado.
+* **B)** Restos a Pagar Não Processados (RPNP), haja vista que não ocorreu o efetivo desembolso financeiro da quantia devida ao credor.
+* **C)** Despesas de Exercícios Anteriores (DEA), extinguindo-se a nota de empenho emitida e exigindo-se nova dotação no exercício seguinte.
+* **D)** Dívida Flutuante Insubsistente, devendo ser cancelada sumariamente em atendimento ao princípio da anualidade orçamentária.
+* **E)** Encargos Financeiros da Dívida Fundada, visto que sua exigibilidade ultrapassará o término do exercício financeiro.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Os **Restos a Pagar Processados (RPP)** são aqueles cuja despesa cumpriu o estágio da liquidação (o credor entregou o bem ou prestou o serviço, tendo seu direito reconhecido e atestado pela Administração), restando unicamente o pagamento.
+> - **B)** Incorreta. Os RPNP são aqueles que foram apenas empenhados, mas ainda pendentes de liquidação ao término do exercício.
+> - **C)** Incorreta. DEA aplica-se quando não houve empenho ou restos a pagar válidos no exercício respectivo.
+> - **D)** Incorreta. A despesa liquidada não pode ser sumariamente cancelada, sob pena de enriquecimento sem causa do Estado.
+> - **E)** Incorreta. Restos a Pagar integram a dívida flutuante (curto prazo), e não a dívida fundada/consolidada.
+> 
+> **Gabarito: A**
+
+---
+
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 

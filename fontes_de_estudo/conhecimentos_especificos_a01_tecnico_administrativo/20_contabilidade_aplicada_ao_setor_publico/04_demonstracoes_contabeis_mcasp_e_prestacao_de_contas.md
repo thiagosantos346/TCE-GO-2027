@@ -100,6 +100,28 @@ No âmbito da Contabilidade Aplicada ao Setor Público, a demonstração contáb
 
 
 
+### Questão 02 (FCC - Adaptada / Analista Contábil)
+No Balanço Orçamentário elaborado segundo os ditames da Lei Federal nº 4.320/1964 e as diretrizes do MCASP, o confronto entre as receitas arrecadadas e as despesas empenhadas determina o resultado:
+
+* **A)** Orçamentário do exercício (superávit orçamentário se a receita arrecadada superar a despesa empenhada; déficit orçamentário na hipótese inversa).
+* **B)** Financeiro bruto, dispensando-se a consideração das disponibilidades de caixa líquidas do exercício anterior.
+* **C)** Patrimonial do exercício, apurado obrigatoriamente pela diferença entre variações ativas e passivas.
+* **D)** Nominal primário ajustado pelas metas fiscais da Lei de Diretrizes Orçamentárias.
+* **E)** De caixa econômico, desconsiderando-se a existência de créditos suplementares abertos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **Resultado Orçamentário** no Balanço Orçamentário (art. 102 da Lei nº 4.320/1964) decorre do confronto estrito entre a Receita Realizada (arrecadada) e a Despesa Executada (empenhada). Havendo excesso de receitas arrecadadas sobre as despesas empenhadas, constata-se **Superávit Orçamentário**; caso contrário, **Déficit Orçamentário**.
+> - **B)** Incorreta. O resultado financeiro é apurado no Balanço Financeiro ou no confronto do ativo/passivo financeiro do Balanço Patrimonial.
+> - **C)** Incorreta. O resultado patrimonial é apurado na DVP (Demonstração das Variações Patrimoniais).
+> - **D)** Incorreta. Resultados primário e nominal são indicadores fiscais da LRF demonstrados no RREO e no AMF da LDO.
+> - **E)** Incorreta. Créditos orçamentários integram a coluna de dotação autorizada no Balanço Orçamentário.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)
 
 #### 2.1 Estrutura de Ingressos e Dispêndios
@@ -130,7 +152,7 @@ flowchart TD
 
 ---
 
-### Questão 02 (FCC - Adaptada / DPE-RS - Analista: Ciências Contábeis)
+### Questão 03 (FCC - Adaptada / DPE-RS - Analista: Ciências Contábeis)
 Em relação ao Balanço Financeiro disciplinado pela Lei nº 4.320/1964 e pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), é correto afirmar que:
 
 * **A)** Apura em sua última linha o montante do superávit financeiro que servirá de fonte para abertura de créditos suplementares.
@@ -163,6 +185,30 @@ A diferença entre o somatório das entradas e das saídas é exatamente equilib
   Como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos **ingressos extraorçamentários** como artifício contábil compensatório para fechar o balanço financeiro do ano.
 
 ---
+
+### Questão 04 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+O Balanço Financeiro estruturado pelo art. 103 da Lei Federal nº 4.320/1964 demonstra a receita e a despesa orçamentárias, bem como os recebimentos e pagamentos de natureza extraorçamentária, conjugados com os saldos em espécie provenientes do exercício anterior e os que se transferem para o exercício seguinte.
+
+No Balanço Financeiro, a inscrição de despesas em **Restos a Pagar** do exercício figura como:
+
+* **A)** Ingresso extraorçamentário, para compensar a despesa orçamentária total computada no quadro dos dispêndios e viabilizar o equilíbrio formal das disponibilidades financeiras.
+* **B)** Pagamento orçamentário definitivo com redução do saldo de disponibilidades que se transferem para o exercício seguinte.
+* **C)** Receita de capital derivada de operações de crédito por antecipação de receita.
+* **D)** Variação patrimonial aumentativa independente da execução orçamentária no subsistema patrimonial.
+* **E)** Dedução obrigatória das receitas tributárias correntes arrecadadas no exercício.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. No Balanço Financeiro (art. 103), a despesa orçamentária é computada pelo valor empenhado no lado dos dispêndios. Como nem toda despesa empenhada foi efetivamente desembolsada (paga), o montante empenhado e não pago é inscrito em **Restos a Pagar** e registrado no lado dos **Ingressos Extraorçamentários**; dessa forma, anula-se o efeito contábil do gasto não desembolsado e mantém-se a exatidão matemática do saldo final de caixa.
+> - **B)** Incorreta. A inscrição em restos a pagar representa exatamente a ausência do pagamento financeiro no exercício.
+> - **C)** Incorreta. Restos a Pagar não são operações de crédito.
+> - **D)** Incorreta. Trata-se de fluxo financeiro/orçamentário e não de VPA patrimonial.
+> - **E)** Incorreta. Não constitui dedução de tributos.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 3. Balanço Patrimonial (BP - Art. 105 da Lei nº 4.320/1964 e NBC TSP 11)
 
@@ -200,7 +246,7 @@ flowchart LR
 
 ---
 
-### Questão 03 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
 Ao final do exercício financeiro de 2023, determinado órgão público estadual apurou as seguintes informações em seus registros contábeis para fechamento do Balanço Patrimonial:
 
 - Ativo Financeiro: R$ 12.000.000,00
@@ -255,7 +301,7 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Adaptada / SEFAZ-SC - Auditor Fiscal da Receita Estadual)
+### Questão 06 (FCC - Adaptada / SEFAZ-SC - Auditor Fiscal da Receita Estadual)
 No encerramento do exercício financeiro, uma entidade governamental constatou que o reconhecimento da quota anual de depreciação de seus veículos operacionais no montante de R$ 500.000,00 produziu impactos nas Demonstrações Contábeis Aplicadas ao Setor Público. O reflexo desse fato contábil ocorreu:
 
 * **A)** Exclusivamente no Balanço Orçamentário, reduzindo o superávit orçamentário do exercício.
@@ -290,6 +336,28 @@ No encerramento do exercício financeiro, uma entidade governamental constatou q
 
 ---
 
+### Questão 07 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+Na Demonstração dos Fluxos de Caixa (DFC) elaborada pelas entidades do setor público de acordo com a NBC TSP 12 e o MCASP:
+
+* **A)** Os fluxos de caixa devem ser obrigatoriamente segregados em três grandes categorias de atividades: Operacionais, de Investimento e de Financiamento.
+* **B)** O método indireto é de uso compulsório no setor público brasileiro, vedando-se a utilização do método direto para apresentação das atividades operacionais.
+* **C)** As receitas provenientes de alienação de bens do ativo imobilizado são classificadas no fluxo das atividades de financiamento.
+* **D)** O pagamento de juros da dívida pública deve ser classificado compulsoriamente como atividade de investimento.
+* **E)** As transferências correntes recebidas da União integram o fluxo de caixa das atividades de financiamento internacional.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A NBC TSP 12 e o MCASP padronizam a DFC em três fluxos estruturais: (1) **Atividades Operacionais** (atividades cotidianas de arrecadação de tributos, prestação de serviços e pagamento de pessoal/custeio); (2) **Atividades de Investimento** (aquisição e venda de ativos imobilizados e intangíveis); (3) **Atividades de Financiamento** (obtenção e amortização de empréstimos e financiamentos de longo prazo).
+> - **B)** Incorreta. No setor público brasileiro, o MCASP exige a apresentação dos fluxos operacionais pelo **método direto**.
+> - **C)** Incorreta. Venda de ativos imobilizados compõe o fluxo das atividades de **investimento**.
+> - **D)** Incorreta. Juros e encargos da dívida são classificados nas atividades operacionais (ou financiamento em notas, mas não investimento).
+> - **E)** Incorreta. Transferências correntes compõem os fluxos das atividades operacionais.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 5. Prestação de Contas ao Tribunal de Contas (TCE-GO)
 
 No Estado de Goiás e nos termos dos arts. 70 e 71 da CF/88 c/c a Lei Orgânica do TCE-GO (Lei Complementar Estadual nº 161/2020), o controle externo exercido pelo Tribunal de Contas opera sob dois ritos processuais com naturezas jurídicas inteiramente distintas:
@@ -315,7 +383,7 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Questão 08 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
 A respeito da prestação de contas dos administradores públicos perante o Tribunal de Contas do Estado de Goiás (TCE-GO), assinale a afirmativa correta:
 
 * **A)** As contas prestadas pelo Chefe do Poder Executivo são submetidas a julgamento técnico irrecorrível pelo próprio Tribunal de Contas, cabendo à Assembleia Legislativa apenas tomar conhecimento.
@@ -346,6 +414,49 @@ Os processos de prestação de contas enviados anualmente ao TCE-GO devem conter
 - **Relatório e Certificado de Auditoria emitidos pelo Órgão Central do Sistema de Controle Interno estadual**, com parecer conclusivo sobre a regularidade da gestão examinada.
 
 ---
+
+### Questão 09 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+No tocante ao controle externo exercido pelo Tribunal de Contas do Estado de Goiás (TCE-GO) sobre a prestação de contas dos Chefes dos Poderes e gestores públicos, assinale a opção que distingue corretamente Contas de Governo e Contas de Gestão:
+
+* **A)** As Contas de Governo expressam a atuação política e a gestão fiscal macroeconômica do Chefe do Poder Executivo em todo o exercício, sobre as quais o Tribunal de Contas emite Parecer Prévio consultivo para julgamento pelo Poder Legislativo; já as Contas de Gestão referem-se à administração dos recursos pelos ordenadores de despesas e administradores públicos, sendo julgadas técnica e definitivamente pelo próprio Tribunal de Contas.
+* **B)** As Contas de Gestão são julgadas pela Assembleia Legislativa estadual, cabendo ao Tribunal de Contas julgar as Contas de Governo do Governador do Estado.
+* **C)** O parecer prévio emitido pelo Tribunal de Contas sobre as Contas de Governo vincula categoricamente a Assembleia Legislativa, que não pode rejeitá-lo em nenhuma hipótese.
+* **D)** Os ordenadores de despesa de autarquias e fundações estaduais prestam contas diretamente ao Governador do Estado, não se sujeitando à jurisdição do TCE-GO.
+* **E)** As Contas de Governo e de Gestão foram unificadas pela Constituição de 1988, devendo todas ser julgadas exclusivamente pelo Tribunal de Justiça do Estado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A distinção clássica do direito financeiro e controle externo (CF/88, art. 71, I e II, e CE-GO): **Contas de Governo** (do Governador/Prefeito): o Tribunal de Contas atua como órgão auxiliar e emite **Parecer Prévio**, cabendo o julgamento político à Casa Legislativa (Assembleia ou Câmara); **Contas de Gestão** (ordenadores de despesa, secretários, dirigentes): o Tribunal de Contas possui jurisdição constitucional própria e emite **julgamento técnico definitivo** (contas regulares, regulares com ressalva ou irregulares), com poder de aplicar multas e imputar débito com eficácia de título executivo.
+> - **B)** Invertido. Contas de governo são julgadas pelo Legislativo; contas de gestão pelo Tribunal de Contas.
+> - **C)** Incorreta. O parecer prévio do TCE sobre o Governador tem natureza opinativa-técnica, podendo ser acatado ou rejeitado pelo Legislativo.
+> - **D)** Incorreta. Todos os ordenadores de despesas da administração indireta sujeitam-se à jurisdição direta do TCE-GO.
+> - **E)** Incorreta. A dualidade permanece viva e estruturante no controle externo brasileiro.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / Auditor de Controle Externo)
+Na Demonstração das Variações Patrimoniais (DVP) elaborada de acordo com as normas da CASP (NBC TSP e MCASP), o resultado patrimonial do exercício é considerado **deficitário** quando:
+
+* **A)** O total das Variações Patrimoniais Diminutivas (VPD) for superior ao total das Variações Patrimoniais Aumentativas (VPA), reduzindo o patrimônio líquido da entidade.
+* **B)** O montante das despesas orçamentárias pagas superar as receitas orçamentárias arrecadadas na Conta Única.
+* **C)** O saldo do passivo financeiro for maior do que o ativo financeiro apurado no Balanço Patrimonial.
+* **D)** A despesa fixada na Lei Orçamentária Anual não for integralmente liquidada pelos órgãos setoriais.
+* **E)** O superávit financeiro do exercício anterior for totalmente consumido pela abertura de créditos adicionais suplementares.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A DVP evidencia o resultado econômico do exercício pelo regime de competência. O resultado patrimonial decorre do confronto direto entre Variações Patrimoniais Aumentativas (VPA) e Variações Patrimoniais Diminutivas (VPD). Quando as **VPD superam as VPA**, o resultado é deficitário, reduzindo o Patrimônio Líquido governamental.
+> - **B)** Incorreta. Essa comparação traduz resultado financeiro de caixa, não resultado patrimonial de competência.
+> - **C)** Incorreta. Esse confronto expressa déficit financeiro apurado no Balanço Patrimonial (art. 43, § 2º da Lei nº 4.320/1964).
+> - **D)** Incorreta. A economia de dotações não caracteriza déficit patrimonial na DVP.
+> - **E)** Incorreta. Refere-se à utilização de fontes orçamentárias de créditos adicionais.
+> 
+> **Gabarito: A**
+
+---
+
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 

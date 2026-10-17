@@ -129,6 +129,28 @@ Considere uma organização pública estadual que decida reduzir o número de se
 
 ---
 
+### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+No estudo das organizações formais e do processo administrativo clássico (PODC - Planejar, Organizar, Dirigir e Controlar), a função **Organização** compreende precipuamente:
+
+* **A)** A distribuição de tarefas, a alocação criteriosa de recursos humanos e materiais entre os órgãos e a definição da estrutura de autoridade, responsabilidade e linhas de comunicação formal da instituição.
+* **B)** A fixação dos objetivos corporativos de longo prazo e a escolha das estratégias mestras para alcançá-los.
+* **C)** A motivação, orientação, liderança e coordenação interpessoal direta das equipes de trabalho no cotidiano operacional.
+* **D)** A comparação sistemática entre os resultados obtidos e os padrões preestabelecidos, com aplicação de eventuais correções corretivas.
+* **E)** A realização de auditorias financeiras externas de conformidade legal sobre os balanços patrimoniais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A função **Organizar** diz respeito à modelagem da estrutura organizacional: divisão do trabalho, departamentalização, distribuição de recursos, delegação de autoridade e atribuição de responsabilidades.
+> - **B)** Incorreta. Conceito referente à função de **Planejamento**.
+> - **C)** Incorreta. Conceito referente à função de **Direção** (liderança, motivação e comunicação interpessoal).
+> - **D)** Incorreta. Conceito referente à função de **Controle** (monitoramento e correção).
+> - **E)** Incorreta. Procedimento de controle externo, e não da função gerencial interna de organização.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. Modelos de Estrutura Organizacional
 
 As organizações estruturam-se segundo diferentes desenhos formais de autoridade e divisão do trabalho:
@@ -176,7 +198,7 @@ flowchart TD
 
 ---
 
-### Questão 02 (FCC – TCE-PI – Auditor de Controle Externo)
+### Questão 03 (FCC – TCE-PI – Auditor de Controle Externo)
 Determinada autarquia estadual de regulação de transportes estruturou suas equipes de fiscalização agrupando os servidores em torno de projetos especiais com prazos pré-fixados, mantendo concomitantemente as diretorias técnicas fixas de engenharia, finanças e tecnologia. Nesse modelo, os auditores reportam-se tanto ao coordenador do projeto específico quanto ao diretor da sua respectiva área técnica de origem. Trata-se de típica estrutura organizacional:
 
 * **A)** Linear.
@@ -197,6 +219,28 @@ Determinada autarquia estadual de regulação de transportes estruturou suas equ
 
 ---
 
+
+
+### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+A respeito da amplitude administrativa (ou amplitude de controle) e dos níveis hierárquicos nas organizações formais, assinale a afirmativa correta:
+
+* **A)** Uma amplitude de controle estreita (poucos subordinados por chefe) tende a produzir uma estrutura organizacional verticalizada (alongada), com múltiplos níveis hierárquicos e maior custo administrativo de supervisão.
+* **B)** Uma estrutura organizacional achatada (plana) decorre necessariamente de amplitudes de controle muito reduzidas.
+* **C)** Quanto maior o número de níveis hierárquicos em uma repartição pública, mais ágil e desprovida de distorções e ruídos torna-se a comunicação vertical ascendente.
+* **D)** A amplitude de controle refere-se unicamente ao limite territorial de competência jurisdicional de uma corte de contas.
+* **E)** A descentralização administrativa exige compulsoriamente a eliminação de qualquer amplitude de supervisão nos órgãos setoriais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **amplitude de controle** é o número de subordinados que um gestor pode supervisionar diretamente. Amplitude estreita gera estrutura verticalizada (*tall structure*), com mais níveis de comando e comunicação mais lenta.
+> - **B)** Incorreta. Estrutura achatada decorre de amplitude **ampla/larga**.
+> - **C)** Incorreta. Excesso de níveis alonga a cadeia de comando e amplifica ruídos.
+> - **D)** Incorreta. Trata-se de variável da teoria da organização.
+> - **E)** Incorreta. Descentralização delega decisões, mantendo supervisão.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 3. Critérios de Departamentalização
@@ -226,6 +270,28 @@ flowchart TD
 - **Por Projetos:** Agrupamento temporário de recursos e profissionais de diversas especialidades dedicados exclusivamente a entregar um empreendimento único com data de encerramento prefixada (ex.: Comitê de Construção do Novo Prédio do TCE-GO). Ao término do projeto, a equipe é desmobilizada e os membros retornam aos seus órgãos funcionais.
 
 ---
+
+### Questão 05 (FCC - Adaptada / Analista de Planejamento e Gestão)
+Em relação aos modelos de departamentalização das organizações formais, a estrutura **Matricial** diferencia-se dos modelos clássicos por:
+
+* **A)** Sobrepor uma coordenação horizontal orientada a projetos ou produtos a uma estrutura vertical departamentalizada por funções, gerando dupla subordinação hierárquica para os membros das equipes.
+* **B)** Basear-se exclusivamente no critério geográfico ou territorial, alocando todos os servidores em unidades regionais autônomas.
+* **C)** Extinguir totalmente a especialização técnica dos servidores para transformá-los em operadores generalistas.
+* **D)** Proibir a formação de equipes multidisciplinares temporárias em qualquer setor da Administração Pública.
+* **E)** Impor rigidez funcional extrema que impede o compartilhamento de especialistas entre diferentes áreas do órgão.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **estrutura matricial** combina departamentalização funcional com departamentalização por projetos/produtos, gerando a **dupla subordinação** (o servidor responde ao gerente funcional e ao gerente do projeto).
+> - **B)** Incorreta. Refere-se à departamentalização geográfica.
+> - **C)** Incorreta. Preserva especialização funcional com flexibilidade de projetos.
+> - **D)** Incorreta. Essência da matriz é formar equipes multifuncionais.
+> - **E)** Incorreta. Proporciona alto compartilhamento dinâmico de recursos.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 4. O Processo Organizacional e as Funções Administrativas (PODC)
 
@@ -271,7 +337,7 @@ A função de **Direção** dinamiza a organização, orientando e influenciando
 
 ---
 
-### Questão 03 (FCC – AL-AP – Analista Legislativo: Administração)
+### Questão 06 (FCC – AL-AP – Analista Legislativo: Administração)
 Uma das etapas cruciais da função administrativa de Direção é a comunicação organizacional. A respeito dos fluxos comunicacionais e de suas barreiras nas organizações públicas, assinale a alternativa correta:
 
 * **A)** O fluxo de comunicação descendente transporta prioritariamente relatórios de desempenho, pedidos de esclarecimento e sugestões de melhoria vindos da base operacional.
@@ -308,7 +374,7 @@ O controle assegura que o desempenho real esteja em consonância com o que foi p
 
 ---
 
-### Questão 04 (FCC – DPE-RS – Analista: Área Administrativa)
+### Questão 07 (FCC – DPE-RS – Analista: Área Administrativa)
 No âmbito da administração contemporânea, o processo administrativo de controle desdobra-se em três momentos temporais fundamentais: prévio, concomitante e posterior. Constitui exemplo típico de controle prévio (preventivo) no setor público:
 
 * **A)** A análise da prestação de contas do ordenador de despesa efetuada pelo Tribunal de Contas após o encerramento do exercício financeiro.
@@ -362,7 +428,7 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC – TCE-RS – Auditor de Controle Externo)
+### Questão 08 (FCC – TCE-RS – Auditor de Controle Externo)
 A respeito das funções do processo administrativo (planejamento, organização, direção e controle) e das diferenças entre a gestão pública e a gestão privada, assinale a opção correta:
 
 * **A)** A função administrativa de planejamento restringe-se ao nível operacional da instituição, cabendo à função de organização a definição das metas estratégicas de longo prazo.
@@ -383,6 +449,53 @@ A respeito das funções do processo administrativo (planejamento, organização
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+Na Administração Pública contemporânea, a distinção entre **Concentração/Desconcentração** e **Centralização/Descentralização** é basilar para a compreensão da estrutura estatal.
+
+Sobre esses conceitos fundamentais, assinale a alternativa correta:
+
+* **A)** A desconcentração envolve a distribuição interna de competências decisórias dentro de uma mesma pessoa jurídica (órgão público), mantendo-se a relação de subordinação hierárquica; já a descentralização consiste na transferência de competências para outra pessoa jurídica distinta (da Administração Indireta ou particular).
+* **B)** A criação de uma autarquia estadual constitui típico exemplo de desconcentração administrativa sem personalidade jurídica própria.
+* **C)** A criação de delegacias de polícia ou postos de atendimento ao cidadão em municípios do interior configura típica descentralização por outorga legal.
+* **D)** A descentralização preserva a hierarquia direta e a subordinação disciplinar entre o Chefe do Executivo e os dirigentes das entidades privadas contratadas.
+* **E)** A desconcentração enseja a extinção imediata do poder regulamentar do ente estatal matriz.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. **Desconcentração** é interna (mesma pessoa jurídica, com hierarquia); **Descentralização** é externa (outra pessoa jurídica, sem hierarquia, apenas tutela/vinculação).
+> - **B)** Incorreta. Criação de autarquia é descentralização administrativa.
+> - **C)** Incorreta. Postos e delegacias são desconcentração.
+> - **D)** Incorreta. Na descentralização inexiste subordinação hierárquica.
+> - **E)** Incorreta. A desconcentração não afeta poderes estatais.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+No exercício da função administrativa de **Controle**, a literatura e a jurisprudência consagraram a classificação do controle governamental quanto ao momento de sua efetivação em: prévio (preventivo), concomitante e a posteriori (corretivo).
+
+Constitui exemplo de controle governamental **prévio** (ou preventivo):
+
+* **A)** O exame e homologação prévia de editais de licitação de grande vulto ou a concessão de tutela de urgência cautelar para suspender a assinatura de contrato com indícios de sobrepreço.
+* **B)** A auditoria contábil operacional realizada pelo Tribunal de Contas após o encerramento do exercício sobre as despesas de Restos a Pagar.
+* **C)** A instauração de Tomada de Contas Especial cinco anos após a execução irregular de um convênio de repasse.
+* **D)** O julgamento formal das contas dos ordenadores de despesas referente ao ano financeiro pretérito.
+* **E)** A cobrança judicial via execução fiscal dos valores de multas imputadas pelo Tribunal de Contas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **controle prévio/preventivo** atua antes da consumação ou produção de efeitos do ato (ex.: exame cautelar de editais licitatórios, vistorias preliminares, suspensão de assinatura de contratos).
+> - **B)** Incorreta. Auditoria após encerramento do exercício é controle *a posteriori*.
+> - **C)** Incorreta. TCE é procedimento corretivo/repressivo posterior.
+> - **D)** Incorreta. Julgamento de contas é a posteriori.
+> - **E)** Incorreta. Execução fiscal é coercitiva final.
+> 
+> **Gabarito: A**
+
+---
 
 
 ## 🌐 Fontes Oficiais & Referências Bibliográficas

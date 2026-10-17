@@ -62,6 +62,29 @@ flowchart LR
 
 ---
 
+### Questão 01
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na gestão de segurança de aplicações corporativas, a distinção conceitual entre Autenticação (*Authentication* - AuthN) e Autorização (*Authorization* - AuthZ) estabelece que:
+
+* **A)** Autenticação verifica a identidade declarada por um usuário ou sistema ("quem é você?"), ao passo que Autorização determina as permissões de acesso e ações que o usuário autenticado pode executar ("o que você pode fazer?").
+* **B)** Autenticação concede privilégios administrativos no banco de dados, enquanto Autorização verifica a assinatura digital do certificado TLS.
+* **C)** Autenticação e Autorização são termos estritamente sinônimos na norma ISO/IEC 27001, podendo ser implementados indiferentemente pela mesma rotina de hash SHA-256.
+* **D)** A autorização deve ser realizada necessariamente antes da autenticação em qualquer sistema computacional.
+* **E)** A autenticação define o teto salarial de um servidor público no portal da transparência.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** A **Autenticação (AuthN)** responde à pergunta *"Quem é você?"*, validando as credenciais (senhas, biometria, tokens). A **Autorização (AuthZ)** responde à pergunta *"O que você tem permissão para fazer?"*, aplicando políticas de controle de acesso (RBAC, ABAC) sobre os recursos solicitados.
+> - **B) Incorreta.** Concessão de privilégios é tarefa de autorização.
+> - **C) Incorreta.** São conceitos distintos da segurança da informação.
+> - **D) Incorreta.** A autenticação precede cronologicamente a autorização; você só pode autorizar quem você primeiro identificou/autenticou.
+> - **E) Incorreta.** Afirmação sem relação com arquitetura de segurança.
+>
+> **Gabarito: A**
+
+---
+
+
 ### 1.2 Fatores de Autenticação e MFA
 A robustez do processo de autenticação é medida pelo emprego de múltiplos fatores independentes (**MFA - *Multi-Factor Authentication***):
 
@@ -73,6 +96,29 @@ A robustez do processo de autenticação é medida pelo emprego de múltiplos fa
 > A banca costuma colocar pegadinhas afirmando que "utilizar senha e código PIN simultaneamente configura autenticação multifator". Isso é falso! Senha e PIN pertencem à **mesma categoria (conhecimento)**. O MFA exige o uso concorrente de pelo menos **duas categorias distintas de fatores** (ex.: senha + token TOTP ou biometria + certificado digital).
 
 ---
+
+### Questão 02
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+A Autenticação Multifator (*Multi-Factor Authentication* - MFA) eleva substancialmente o nível de segurança do acesso ao exigir a combinação de múltiplos elementos probatórios pertencentes a categorias independentes. Os três fatores de autenticação clássicos são categorizados como:
+
+* **A)** Senha alfanumérica, senha numérica e senha biométrica.
+* **B)** Algo que você sabe (conhecimento), algo que você tem (posse) e algo que você é (biometria/inerência).
+* **C)** Endereço de IP de rede, máscara de sub-rede e porta lógica TCP.
+* **D)** Certificado público, certificado privado e autoridade certificadora intermediária.
+* **E)** Teclado mecânico, monitor de alta definição e leitor óptico.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Duas senhas distintas pertencem à mesma categoria ("algo que você sabe"), configurando autenticação de fator único repetido, e não MFA genuíno.
+> - **B) Correta.** A taxonomia padrão da segurança estabelece a tríade de fatores: **Conhecimento** (algo que você sabe: senhas, PINs), **Posse** (algo que você tem: token físico, aplicativo autenticador TOTP, cartão inteligente) e **Inerência** (algo que você é: impressão digital, reconhecimento facial, íris).
+> - **C) Incorreta.** Parâmetros de rede não configuram fatores humanos de autenticação de usuários.
+> - **D) Incorreta.** Componentes de infraestrutura de chaves públicas (PKI).
+> - **E) Incorreta.** Periféricos de hardware.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 1.3 Modelos de Controle de Acesso: RBAC e ABAC
 Uma vez autenticada a entidade, o subsistema de autorização aplica políticas para liberar ou vetar o acesso aos endpoints e bancos de dados:
@@ -121,6 +167,29 @@ O framework OAuth 2.0 (padronizado pela IETF na **RFC 6749**) foi concebido para
 
 ---
 
+### Questão 03
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+O framework de autorização OAuth 2.0 (RFC 6749) define quatro papéis (*roles*) operacionais no ecossistema de delegação de acesso seguro. A entidade capaz de conceder acesso a um recurso protegido (tipicamente o próprio usuário final proprietário dos dados) é denominada:
+
+* **A)** *Resource Server* (Servidor de Recursos).
+* **B)** *Authorization Server* (Servidor de Autorização).
+* **C)** *Resource Owner* (Proprietário do Recurso).
+* **D)** *Client* (Cliente).
+* **E)** *Token Broker*.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O *Resource Server* hospeda as APIs e recursos protegidos, aceitando e validando tokens de acesso.
+> - **B) Incorreta.** O *Authorization Server* autentica o Resource Owner e emite tokens de acesso após consentimento.
+> - **C) Correta.** O **Resource Owner** (Proprietário do Recurso) é a entidade que possui a custódia dos dados e o poder de autorizar o acesso a eles (usualmente o usuário final).
+> - **D) Incorreta.** O *Client* é a aplicação (web, mobile, backend) que requisita acesso aos recursos em nome do Resource Owner.
+> - **E) Incorreta.** Não é um dos quatro papéis oficiais da RFC 6749.
+>
+> **Gabarito: C**
+
+---
+
+
 ### 2.2 Fluxos de Concessão (Grant Types) e Cenários de Aplicação
 O OAuth 2.0 define fluxos distintos de acordo com a natureza da aplicação cliente e os requisitos de segurança:
 
@@ -146,7 +215,7 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Analista de TI / Segurança e Arquitetura)
+### Questão 04 (FCC - Analista de TI / Segurança e Arquitetura)
 Uma equipe de desenvolvimento do Tribunal de Contas está projetando a integração de uma nova aplicação Web Single Page Application (SPA), construída com React, com a API de auditoria de processos governamentais. A aplicação cliente executa integralmente no navegador do usuário (*public client*) e necessita autenticar a identidade dos auditores para obter acesso aos endpoints protegidos.
 
 Considerando as boas práticas contemporâneas de segurança preconizadas pela IETF e pela OpenID Foundation:  
@@ -169,7 +238,7 @@ Considerando as boas práticas contemporâneas de segurança preconizadas pela I
 
 ---
 
-### Questão 02 (FCC - Analista de TI / Sistemas)
+### Questão 05 (FCC - Analista de TI / Sistemas)
 Em uma arquitetura de microsserviços do Tribunal de Contas, uma rotina de integração em lote (*batch*) executada durante a madrugada no backend precisa consumir dados da API da Secretaria da Fazenda para conciliação contábil. Esse processo é totalmente automatizado e executado sem nenhuma intervenção de usuário humano final.
 
 De acordo com o framework OAuth 2.0 (RFC 6749), o fluxo de concessão (*Grant Type*) mais adequado e recomendado para essa comunicação máquina-a-máquina (M2M) é o:  
@@ -226,6 +295,29 @@ sequenceDiagram
 
 ---
 
+### Questão 06
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Para proteger aplicações clientes públicas (como SPAs executando em navegadores e aplicativos móveis nativos) contra o ataque de interceptação do código de autorização, a especificação OAuth 2.0 define a extensão PKCE (*Proof Key for Code Exchange*, RFC 7636). O funcionamento do fluxo PKCE baseia-se na geração de:
+
+* **A)** Uma senha mestra criptografada com algoritmo DES de 56 bits armazenada no código-fonte do cliente.
+* **B)** Um segredo criptográfico temporário denominado *code_verifier*, cuja versão transformada em hash SHA-256 (*code_challenge*) é enviada na requisição inicial de autorização, sendo o *code_verifier* original revelado apenas no momento da troca do código pelo token de acesso.
+* **C)** Um token estático com validade indeterminada de 10 anos.
+* **D)** Um certificado SSL autoassinado instalado na pasta raiz do aparelho celular do usuário.
+* **E)** Uma chave privada RSA de 4096 bits embutida nos cookies do navegador.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Clientes públicos não podem reter segredos estáticos com segurança (*client_secret* nunca deve ser embutido em SPA/App).
+> - **B) Correta.** No PKCE: o cliente cria dinamicamente um segredo de alta entropia (*code_verifier*) e gera seu hash (*code_challenge = BASE64URL(SHA256(code_verifier))*). Ele envia o *code_challenge* na requisição de autorização; ao receber o código e solicitar o token ao *Authorization Server*, envia o *code_verifier* original em texto claro sobre TLS. O servidor calcula o hash e valida a autenticidade, prevenindo ataques de injeção de código.
+> - **C) Incorreta.** Viola as boas práticas de segurança de curta duração.
+> - **D) Incorreta.** Mecanismo desprovido de relação com o protocolo PKCE.
+> - **E) Incorreta.** PKCE não exige emissão de certificados RSA complexos no cliente.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 2.4 Escopos (Scopes) e Autorização Granular
 Os **escopos (*scopes*)** no OAuth 2.0 são identificadores textuais que expressam o conjunto delimitado de privilégios solicitados pela aplicação cliente ao concedente:
 
@@ -255,6 +347,29 @@ flowchart TD
 ```
 
 ---
+
+### Questão 07
+**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+Na arquitetura de segurança moderna para sistemas distribuídos e Single Sign-On (SSO), o protocolo OpenID Connect (OIDC 1.0) estende as capacidades do framework OAuth 2.0. A principal diferença de propósito entre o OAuth 2.0 e o OpenID Connect reside no fato de que:
+
+* **A)** O OAuth 2.0 foi projetado originalmente como um framework de **Autorização** (delegação de acesso a recursos por meio de Access Tokens), enquanto o OpenID Connect adiciona uma camada padronizada de **Autenticação e Identidade** sobre o OAuth 2.0, introduzindo o *ID Token* (formatado em JWT) para transmitir informações do usuário autenticado.
+* **B)** O OAuth 2.0 não permite a transmissão de dados pela Internet sem cabos de fibra óptica dedicados.
+* **C)** O OpenID Connect substitui todos os bancos de dados por arquivos de texto simples não criptografados.
+* **D)** O OAuth 2.0 serve exclusivamente para autenticação facial, ao passo que o OIDC gerencia exclusivamente senhas biométricas digitais.
+* **E)** O OIDC proíbe a utilização de tokens no padrão JSON Web Token (JWT).
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** É a célebre máxima da segurança moderna: **OAuth 2.0 é sobre Autorização** (dá à aplicação uma "chave de hotel" / *Access Token* com escopos específicos); **OpenID Connect é sobre Autenticação** (fornece uma "carteira de identidade" / *ID Token* padronizado em formato JWT contendo *claims* do perfil do usuário).
+> - **B) Incorreta.** Ambos operam sobre protocolos web padrão (HTTP/TLS).
+> - **C) Incorreta.** Totalmente descabida.
+> - **D) Incorreta.** Afirmação absurda.
+> - **E) Incorreta.** O OIDC define obrigatoriamente o *ID Token* na estrutura formal do padrão JWT.
+>
+> **Gabarito: A**
+
+---
+
 
 ### 3.2 Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token
 
@@ -307,7 +422,7 @@ flowchart LR
 
 ---
 
-### Questão 03 (FCC - Técnico de Controle Externo / TI)
+### Questão 08 (FCC - Técnico de Controle Externo / TI)
 Em relação à arquitetura e estrutura do padrão JSON Web Token (JWT - RFC 7519), analise as seguintes afirmativas:
 
 I. Um JWT serializado no formato compacto JWS é composto por três blocos concatenados por pontos (`.`): Cabeçalho (*Header*), Carga Útil (*Payload*) e Assinatura (*Signature*), codificados em Base64URL.  
@@ -392,7 +507,7 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Auditor Fiscal / Tecnologia da Informação)
+### Questão 09 (FCC - Auditor Fiscal / Tecnologia da Informação)
 No ecossistema corporativo de segurança digital, ao validar um token JWT assinado digitalmente que circula entre múltiplos microsserviços, a escolha entre algoritmos simétricos e assimétricos traz impactos profundos na gestão das chaves.
 
 A respeito dessa validação, assinale a afirmativa correta:  
@@ -426,7 +541,7 @@ A respeito dessa validação, assinale a afirmativa correta:
 
 ---
 
-### Questão 05 (FCC - Analista de Sistemas / Segurança da Informação)
+### Questão 10 (FCC - Analista de Sistemas / Segurança da Informação)
 A respeito do armazenamento seguro de tokens de acesso no navegador web e dos modelos de controle de acesso aos recursos, assinale a afirmativa correta:  
 
 * **A)** Gravar o token de acesso no `localStorage` do navegador é a prática mais segura do mercado para mitigar ataques de Cross-Site Scripting (XSS), pois scripts maliciosos não conseguem ler dados do armazenamento local.

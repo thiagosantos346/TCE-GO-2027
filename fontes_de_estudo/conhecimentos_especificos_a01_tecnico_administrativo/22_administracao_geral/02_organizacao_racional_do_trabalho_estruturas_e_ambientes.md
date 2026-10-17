@@ -104,6 +104,27 @@ A respeito da Organização Racional do Trabalho (ORT) desenvolvida por Frederic
 
 
 
+### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+A Organização Racional do Trabalho (ORT), núcleo da Administração Científica de Frederick W. Taylor, estruturou-se em fundamentos técnicos para combater a "vadiagem sistemática" dos operários e elevar a produtividade.
+
+Dentre os pilares da ORT, o **Estudo dos Tempos e Movimentos** (*Motion and Time Study*) visava essencialmente:
+
+* **A)** Decompor cada tarefa fabril em seus movimentos elementares para eliminar movimentos inúteis, simplificar a execução e fixar o tempo-padrão de realização.
+* **B)** Fixar os prazos de tramitação de processos administrativos no âmbito dos Tribunais de Contas.
+* **C)** Estabelecer o horário fixo de entrada e saída dos servidores com tolerância de dez minutos.
+* **D)** Organizar os intervalos de repouso conforme a vontade individual espontânea de cada trabalhador.
+* **E)** Subordinar a chefia de fábrica à avaliação semestral de clima organizacional pelos empregados.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Taylor e Gilbreth desenvolveram a análise do trabalho mediante decomposição e cronometragem minuciosa dos movimentos: eliminavam-se movimentos desnecessários e ociosos, padronizavam-se ferramentas e fixava-se o tempo médio necessário para um operário médio desempenhar a tarefa (*tempo-padrão*).
+> - **B), C), D), E)** Incorretas. Distorções que não representam o pilar da ORT taylorista.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade
 
 A distinção conceitual entre eficiência e eficácia, magistralmente consolidada por teóricos como Peter Drucker e Chester Barnard, aliada à dimensão moderna da efetividade, figura entre os temas mais cobrados pela FCC:
@@ -136,7 +157,7 @@ flowchart LR
 
 ---
 
-### Questão 02
+### Questão 03
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Determinada unidade de fiscalização governamental realizou uma auditoria utilizando técnicas modernas de amostragem eletrônica, reduzindo o custo operacional em 40% e concluindo os trabalhos na metade do tempo médio histórico previsto. Não obstante a velocidade e economia de recursos empregados, o relatório final omitiu as irregularidades materiais mais graves que assolavam o órgão auditado, inviabilizando a responsabilização dos gestores ímprobos. Sob a ótica das teorias da administração:
 
@@ -184,7 +205,7 @@ flowchart TD
 
 ---
 
-### Questão 03
+### Questão 04
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 A respeito da organização formal e da organização informal no cotidiano das instituições públicas, assinale a opção correta:
 
@@ -206,6 +227,27 @@ A respeito da organização formal e da organização informal no cotidiano das 
 
 ---
 
+
+
+### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
+No estudo da dinâmica organizacional, a **Organização Informal** coexiste paralelamente com a **Organização Formal** em toda repartição pública.
+
+Constitui característica exclusiva da **Organização Informal**:
+
+* **A)** O surgimento espontâneo a partir das interações sociais, simpatias, antipatias e afinidades interpessoais entre os servidores, não figurando nos organogramas e manuais oficiais.
+* **B)** A formalização expressa em decretos de criação e estatutos jurídicos aprovados pelo Poder Legislativo.
+* **C)** A definição prévia de níveis hierárquicos e competências funcionais taxativamente atribuídas por portaria.
+* **D)** A obrigatoriedade de registro dos fluxos de comunicação em livros de ata públicos.
+* **E)** A estabilidade jurídica vitalícia conferida por concurso público formal.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **organização informal** emerge espontaneamente nas relações humanas diárias entre as pessoas: manifesta-se em padrões de liderança informal, canais de comunicação paralelos (a "rádio corredor"), grupos de amizade e normas de conduta tácitas que não constam de nenhum organograma formal.
+> - **B), C), D), E)** Incorretas. Características exclusivas da organização **formal**.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 4. Centralização vs. Descentralização e a Regra Áurea da Delegação
@@ -237,7 +279,7 @@ A delegação é o ato administrativo mediante o qual uma autoridade transfere a
 
 ---
 
-### Questão 04
+### Questão 06
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 No tocante à dinâmica da delegação de competências e à centralização versus descentralização administrativa nas organizações formais, assinale a opção correta:
 
@@ -259,6 +301,30 @@ No tocante à dinâmica da delegação de competências e à centralização ver
 
 ---
 
+
+
+### Questão 07 (FCC - Adaptada / Analista de Planejamento e Controle)
+Na teoria da administração, a delegação de autoridade é instrumento indispensável para a descentralização gerencial e agilização dos processos decisórios.
+
+A respeito da delegação de autoridade, é uma regra fundamental da ciência da administração que:
+
+* **A)** A autoridade pode ser delegada, mas a responsabilidade final pelo resultado alcançado permanece indelegável perante a autoridade superior que realizou a delegação.
+* **B)** Tanto a autoridade quanto a responsabilidade integral são transferidas definitivamente ao subordinado, eximindo o superior de qualquer dever de supervisão.
+* **C)** É obrigatória a delegação de atos normativos de caráter geral e a decisão de recursos administrativos ordinários.
+* **D)** A delegação só é lícita quando envolver poderes irrevogáveis com prazo mínimo de dez anos.
+* **E)** O subordinado que recebe autoridade delegada passa a responder diretamente ao Chefe do Poder Executivo.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Postulado clássico da teoria da delegação (também presente no Direito Administrativo - Lei nº 9.784/1999): a autoridade (o poder de agir e decidir) transfere-se ao subordinado delegado, mas a **responsabilidade final perante a alta administração permanece com o delegante** (*culpa in eligendo* e *culpa in vigilando*). O superior não se exime da responsabilidade final de controle.
+> - **B)** Incorreta. A responsabilidade não se extingue com a delegação.
+> - **C)** Incorreta. Atos normativos e recursos são legalmente indelegáveis (art. 13 da Lei nº 9.784/1999).
+> - **D)** Incorreta. A delegação é ato discricionário e essencialmente revogável a qualquer tempo.
+> - **E)** Incorreta. O delegado responde perante a autoridade que lhe conferiu a delegação.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)
@@ -300,7 +366,7 @@ flowchart TD
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 Em relação ao estudo dos ambientes organizacionais e sua influência sobre o funcionamento das instituições públicas, é correto afirmar que:
 
@@ -322,6 +388,49 @@ Em relação ao estudo dos ambientes organizacionais e sua influência sobre o f
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Na análise do ambiente organizacional, os teóricos contemporâneos distinguem o **Macroambiente (Ambiente Geral)** do **Microambiente (Ambiente de Tarefa ou Operacional)**.
+
+Constitui elemento integrante do **Ambiente de Tarefa (Microambiente)** de uma organização pública:
+
+* **A)** Os fornecedores de bens e serviços licitados, os cidadãos-usuários diretos dos serviços e os órgãos de controle externo fiscalizadores.
+* **B)** As variáveis demográficas de longo prazo da população nacional.
+* **C)** A conjuntura macroeconômica global e a taxa de câmbio internacional.
+* **D)** O sistema jurídico-constitucional abstrato do país e as tendências climáticas planetárias.
+* **E)** O conjunto de inovações científicas mundiais em física quântica.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **Ambiente de Tarefa (Microambiente)** compreende o segmento do ambiente mais próximo e imediato com o qual a organização interage diretamente para atingir seus fins: clientes/usuários, fornecedores, concorrentes/parceiros e agências reguladoras/órgãos de controle. Já variáveis demográficas, econômicas, culturais e tecnológicas globais compõem o **Ambiente Geral (Macroambiente)**.
+> - **B), C), D), E)** Incorretas. Elementos clássicos do Macroambiente geral.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+Em uma organização pública que busca aprimorar sua gestão, o diretor de departamento determinou que suas equipes eliminassem desperdícios de materiais e reduzissem os custos operacionais com papel e suprimentos de impressão em 30%, sem alterar a qualidade do serviço.
+
+A ênfase conferida pelo diretor concentrou-se primordialmente na dimensão da:
+
+* **A)** Eficiência (otimização do uso de insumos e recursos em relação aos produtos entregues / relação insumo-produto).
+* **B)** Efetividade (grau de transformação e impacto social na comunidade de longo prazo).
+* **C)** Eficácia pura (medida estrita do atingimento da meta final de atendimento).
+* **D)** Descentralização operacional desverticalizada.
+* **E)** Resiliência cibernética sistêmica.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **Eficiência** diz respeito a "fazer certo as coisas" (ênfase nos meios, métodos, custos e economia de recursos): busca a melhor relação entre insumos (*inputs*) e resultados (*outputs*), reduzindo desperdícios e custos.
+> - **B)** Incorreta. Efetividade mede impactos externos duradouros na sociedade.
+> - **C)** Incorreta. Eficácia mede alcance do objetivo final independentemente dos custos.
+> - **D), E)** Incorretas. Conceitos estranhos à questão de uso de recursos.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 6. Fontes Oficiais e Referências Bibliográficas

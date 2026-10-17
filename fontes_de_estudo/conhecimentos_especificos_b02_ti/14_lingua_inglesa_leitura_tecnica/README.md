@@ -3,7 +3,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Matéria:** Língua Inglesa (Leitura Técnica)  
 > **Banca Referência:** Fundação Carlos Chagas (FCC)  
-> **Status Geral:** 🟡 Em mapeamento de fontes teóricas
+> **Status Geral:** 🟢 Concluído (100% enriquecido e auditado)
 
 ---
 
@@ -19,9 +19,9 @@ A matéria foi dividida em 3 módulos temáticos modulares que cobrem desde as e
 
 | # | Módulo / Tópico Principal | Arquivo Markdown | Itens Cobertos do Edital | Status |
 |---|---------------------------|------------------|--------------------------|:------:|
-| 01 | [Estratégias de Leitura Instrumental: Skimming, Scanning e Inferência](./01_estrategias_de_leitura_skimming_scanning_e_inferencia.md) | `01_estrategias_de_leitura_skimming_scanning_e_inferencia.md` | Skimming (ideia principal); Scanning (dados pontuais); Falsos cognatos e inferência de sentido | ⚪ Aguardando Fontes |
-| 02 | [Vocabulário Técnico de TI, Coesão e Conectivos](./02_vocabulario_tecnico_de_ti_e_conjuncoes.md) | `02_vocabulario_tecnico_de_ti_e_conjuncoes.md` | Glossário técnico de TI; Conectivos lógicos (Linking Words); Morfologia e afixos em inglês | ⚪ Aguardando Fontes |
-| 03 | [Interpretação de Documentação de APIs, Manuais e Artigos](./03_interpretacao_de_documentacao_de_apis_e_manuais.md) | `03_interpretacao_de_documentacao_de_apis_e_manuais.md` | Leitura de contratos e respostas de APIs; Manuais de configuração e papers/artigos técnicos | ⚪ Aguardando Fontes |
+| 01 | [Estratégias de Leitura Instrumental: Skimming, Scanning e Inferência](./01_estrategias_de_leitura_skimming_scanning_e_inferencia.md) | `01_estrategias_de_leitura_skimming_scanning_e_inferencia.md` | Skimming (ideia principal); Scanning (dados pontuais); Falsos cognatos e inferência de sentido | 🟢 Concluído (10 Qs) |
+| 02 | [Vocabulário Técnico de TI, Coesão e Conectivos](./02_vocabulario_tecnico_de_ti_e_conjuncoes.md) | `02_vocabulario_tecnico_de_ti_e_conjuncoes.md` | Glossário técnico de TI; Conectivos lógicos (Linking Words); Morfologia e afixos em inglês | 🟢 Concluído (10 Qs) |
+| 03 | [Interpretação de Documentação de APIs, Manuais e Artigos](./03_interpretacao_de_documentacao_de_apis_e_manuais.md) | `03_interpretacao_de_documentacao_de_apis_e_manuais.md` | Leitura de contratos e respostas de APIs; Manuais de configuração e papers/artigos técnicos | 🟢 Concluído (10 Qs) |
 
 ---
 

@@ -180,6 +180,29 @@ As diretrizes WCAG (*Web Content Accessibility Guidelines*) da W3C são organiza
 
 ---
 
+
+### Questão 02
+**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
+As diretrizes de acessibilidade para conteúdo web (WCAG 2.1) e a especificação WAI-ARIA definem normas e atributos semânticos para tornar aplicações web acessíveis a pessoas com deficiência. Em relação a essas normas, é correto afirmar:
+
+* **A)** O atributo `alt` em elementos `<img>` deve ser sempre preenchido com textos genéricos como "imagem" ou "foto" para atender ao critério de acessibilidade.
+* **B)** O atributo `aria-label` permite fornecer um rótulo textual acessível a leitores de tela para elementos interativos que não possuem texto visível na interface (como botões representados apenas por ícones).
+* **C)** O atributo `aria-hidden="true"` força o elemento a ser lido prioritariamente em voz alta por leitores de tela.
+* **D)** As WCAG preconizam que o contraste entre texto e fundo deve ser o menor possível para não ofuscar a visão do usuário.
+* **E)** Aplicações web acessíveis são proibidas de permitir navegação por teclado, exigindo uso exclusivo de mouses de alta precisão.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O texto alternativo `alt` deve descrever o significado ou função da imagem; textos genéricos como "imagem" prejudicam a acessibilidade. Imagens puramente decorativas devem usar `alt=""`.
+> - **B) Correta.** O `aria-label` define uma cadeia de texto que rotula o elemento interativo diretamente para tecnologias assistivas (*screen readers*), suprindo a ausência de texto visual direto.
+> - **C) Incorreta.** O `aria-hidden="true"` oculta o elemento e seus descendentes dos leitores de tela.
+> - **D) Incorreta.** A WCAG exige taxa de contraste mínima (ex: 4.5:1 para texto normal no nível AA) para garantir legibilidade.
+> - **E) Incorreta.** O acesso completo a todas as funcionalidades por meio do teclado é um dos princípios basilares de acessibilidade (Operável).
+>
+> **Gabarito: B**
+
+---
+
 ## 2. Estilização com CSS3
 
 ### 2.1 Cascata, Seletores e Cálculo de Especificidade CSS
@@ -216,7 +239,7 @@ flowchart LR
 
 ---
 
-### Questão 02 (FCC - Analista de TI / Sistemas)
+### Questão 03 (FCC - Analista de TI / Sistemas)
 Considere as seguintes regras de estilização declaradas em um arquivo CSS3 externo para formatar um mesmo elemento de título em uma página web:
 
 ```css
@@ -294,6 +317,29 @@ flowchart TD
 
 ---
 
+### Questão 04
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No modelo de caixa do CSS3 (*Box Model*), a propriedade `box-sizing` altera a forma como a largura (*width*) e a altura (*height*) totais de um elemento HTML são calculadas no layout da página. Ao aplicar a regra `box-sizing: border-box;` a um elemento com `width: 300px; padding: 20px; border: 5px solid black;`, tem-se que:
+
+* **A)** A largura total renderizada do elemento será de 350px, somando o conteúdo, os paddings e as bordas.
+* **B)** A largura total renderizada do elemento permanecerá exatamente em 300px, sendo o padding e a borda absorvidos internamente no espaço total especificado.
+* **C)** O navegador ignorará o padding e exibirá o conteúdo com largura de 300px e borda invisível.
+* **D)** A propriedade `border-box` elimina a margem externa (*margin*) do elemento em todas as resoluções.
+* **E)** O elemento será renderizado com largura infinita por colapso do modelo de renderização.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Esse cálculo ($300 + 20 + 20 + 5 + 5 = 350\text{px}$) ocorreria no modelo tradicional `content-box`.
+> - **B) Correta.** Com `box-sizing: border-box`, a largura total do elemento na tela respeita rigorosamente o valor declarado em `width` (300px); o padding (20px de cada lado) e a borda (5px de cada lado) são deduzidos da área interna do conteúdo, que passa a ter $300 - 40 - 10 = 250\text{px}$.
+> - **C) Incorreta.** O padding e a borda são exibidos normalmente.
+> - **D) Incorreta.** O `border-box` afeta conteúdo, padding e borda; as margens (*margins*) continuam externas.
+> - **E) Incorreta.** Afirmação sem fundamento técnico.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 2.3 Layouts Flexíveis com Flexbox (Unidimensional)
 O Flexbox (`display: flex`) é um modelo de layout voltado para a distribuição de espaço e alinhamento de itens ao longo de um **único eixo por vez** (linha ou coluna).
 
@@ -311,6 +357,29 @@ O Flexbox (`display: flex`) é um modelo de layout voltado para a distribuição
     - `flex-basis`: Tamanho inicial padrão do item antes da distribuição de sobras.
 
 ---
+
+### Questão 05
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No módulo CSS Flexible Box Layout (*Flexbox*), para alinhar os itens filhos (*flex items*) ao longo do eixo transversal ou cruzado (*cross axis*) dentro do contêiner flexível, utiliza-se no elemento pai a propriedade:
+
+* **A)** `justify-content`
+* **B)** `align-items`
+* **C)** `flex-direction`
+* **D)** `flex-wrap`
+* **E)** `order`
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** `justify-content` alinha os itens ao longo do eixo principal (*main axis*).
+> - **B) Correta.** `align-items` define o alinhamento padrão dos itens ao longo do eixo transversal (*cross axis*) perpendicular ao eixo principal.
+> - **C) Incorreta.** `flex-direction` define a orientação do eixo principal (`row`, `column`, etc.).
+> - **D) Incorreta.** `flex-wrap` controla se os itens quebram linha ou permanecem em linha única.
+> - **E) Incorreta.** `order` é aplicada nos itens filhos para reordenar a sequência de renderização.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 2.4 Grid Bidimensional (CSS Grid Layout)
 Diferentemente do Flexbox, o CSS Grid (`display: grid`) é um sistema **bidimensional nativo**, permitindo controlar simultaneamente linhas (*rows*) e colunas (*columns*).
@@ -399,6 +468,29 @@ Além dos tipos primitivos comuns (`string`, `number`, `boolean`, `null`, `undef
 
 ---
 
+### Questão 06
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na linguagem TypeScript, os tipos especiais `any` e `unknown` fornecem suporte a valores cujos tipos não são conhecidos a priori. A diferença crucial de segurança de tipos (*type safety*) entre `any` e `unknown` consiste em:
+
+* **A)** `any` força a checagem rigorosa de tipos pelo compilador, enquanto `unknown` desativa todas as regras de tipagem estática.
+* **B)** variáveis tipadas como `unknown` não permitem a invocação direta de métodos ou acesso a propriedades sem que ocorra previamente uma verificação ou refinamento de tipo (*type narrowing*), ao passo que variáveis tipadas como `any` desabilitam completamente a checagem do compilador.
+* **C)** `unknown` só pode armazenar valores booleanos primitivos, enquanto `any` aceita qualquer objeto.
+* **D)** o TypeScript não aceita atribuição de novos valores a variáveis do tipo `unknown`.
+* **E)** variáveis do tipo `any` são convertidas automaticamente para `never` em tempo de execução.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** É exatamente o inverso: `any` desliga a checagem do compilador.
+> - **B) Correta.** `unknown` é o tipo seguro (*type-safe counterpart of any*): qualquer valor pode ser atribuído a `unknown`, mas você não pode chamar métodos nele nem passá-lo a funções tipadas sem antes estreitar o tipo (*type narrowing* via `typeof`, `instanceof` etc.). Já o `any` desabilita todas as checagens do compilador.
+> - **C) Incorreta.** `unknown` aceita qualquer valor.
+> - **D) Incorreta.** Reatribuição é permitida em `unknown`.
+> - **E) Incorreta.** Em tempo de execução, os tipos do TypeScript são apagados (*type erasure*).
+>
+> **Gabarito: B**
+
+---
+
+
 ### 3.3 Union, Intersection Types e Type Narrowing
 - **Union Types (`|`):** Uma variável pode assumir um entre múltiplos tipos permitidos:
 
@@ -443,6 +535,29 @@ type Ponto2D = [number, number];
 
 ---
 
+### Questão 07
+**(FGV – TJ – Analista de Sistemas / Front-end)**  
+No ecossistema TypeScript, desenvolvedores podem declarar formatos estruturais utilizando `interface` ou `type` (*type alias*). Um recurso exclusivo das `interfaces` que não é suportado por `type aliases` é:
+
+* **A)** A declaração de propriedades opcionais com `?`.
+* **B)** A mesclagem automática de declarações (*declaration merging*), permitindo que múltiplas declarações de uma interface com o mesmo identificador sejam unificadas em uma única interface composta.
+* **C)** A criação de uniões de tipos primitivos utilizando o operador `|`.
+* **D)** A compatibilidade com tipagem estática em tempo de compilação.
+* **E)** O suporte a parâmetros genéricos.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Ambos suportam propriedades opcionais (`prop?: string`).
+> - **B) Correta.** Se você declarar duas interfaces com o mesmo nome no mesmo escopo, o TypeScript mescla seus atributos (*declaration merging*). Já tentar redeclarar um `type` com o mesmo nome resulta em erro de compilação (*Duplicate identifier*).
+> - **C) Incorreta.** A união de tipos com `|` é suportada nativamente por `type` (*type alias*), mas não pode ser a base de uma `interface`.
+> - **D) Incorreta.** Ambos oferecem tipagem estática.
+> - **E) Incorreta.** Ambos suportam *Generics*.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 3.5 Generics e Utility Types Fundamentais
 
 #### Generics (`<T>`)
@@ -469,7 +584,7 @@ O TypeScript inclui um conjunto poderoso de utilitários de transformação de t
 
 ---
 
-### Questão 03 (FCC - Técnico de Controle Externo / TI)
+### Questão 08 (FCC - Técnico de Controle Externo / TI)
 Na linguagem TypeScript, suponha que exista a definição do seguinte tipo base:
 
 ```typescript
@@ -558,7 +673,7 @@ Ao utilizar `.map()` para transformar um array de objetos em elementos visuais, 
 
 ---
 
-### Questão 04 (FCC - Analista de Sistemas / Desenvolvimento)
+### Questão 09 (FCC - Analista de Sistemas / Desenvolvimento)
 Na biblioteca React, ao iterar sobre uma lista de dados para renderizar múltiplos componentes utilizando a função `.map()`, os desenvolvedores devem obrigatoriamente fornecer a propriedade especial `key` para cada item retornado.
 
 A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de reconciliação do React, assinale a afirmativa correta:  
@@ -620,7 +735,7 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Analista de TI / Front-end)
+### Questão 10 (FCC - Analista de TI / Front-end)
 Em uma aplicação desenvolvida com a biblioteca React utilizando componentes funcionais e Hooks, um programador implementou a seguinte rotina para sincronizar uma listagem de auditorias fiscais com o servidor backend:
 
 ```jsx
@@ -705,6 +820,29 @@ const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
     - Armazena valores mutáveis que, quando alterados, **não disparam re-renderização** do componente.
 
 ---
+
+### Questão 11
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na biblioteca React (versões 16.8+ baseadas em Hooks), a otimização de performance e a manipulação de instâncias mutáveis utilizam hooks especializados. A correta distinção conceitual entre `useMemo`, `useCallback` e `useRef` estabelece que:
+
+* **A)** `useMemo` memoriza a referência de uma função, `useCallback` memoriza o valor de retorno calculado de uma função, e `useRef` força uma nova renderização imediata do componente sempre que seu atributo `.current` é modificado.
+* **B)** `useMemo` armazena em cache o resultado computacional de uma função cara evitando recálculos desnecessários; `useCallback` memoriza a própria instância da definição de uma função entre renderizações; e `useRef` cria um objeto mutável persistente cuja propriedade `.current` pode ser alterada sem disparar nova renderização do componente.
+* **C)** todos os três hooks são executados exclusivamente após a aplicação ser desinstalada da máquina do cliente.
+* **D)** `useRef` só pode ser utilizado para conectar a aplicação ao banco de dados PostgreSQL.
+* **E)** `useCallback` recalcula o valor sempre que qualquer componente irmão for renderizado no Virtual DOM.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Houve inversão entre `useMemo` (retorna valor calculado) e `useCallback` (retorna função memorizada), e alterar `.current` de `useRef` *não* dispara re-render.
+> - **B) Correta.** Síntese técnica perfeita dos três hooks de performance e estado persistente: `useMemo` memoriza valores calculados; `useCallback` memoriza referências de funções; `useRef` retém referências mutáveis a elementos do DOM ou valores sem desencadear re-renderização.
+> - **C) Incorreta.** Afirmação absurda.
+> - **D) Incorreta.** `useRef` opera no lado cliente do React.
+> - **E) Incorreta.** `useCallback` só recria a função se as variáveis declaradas no seu array de dependências mudarem.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 4.6 Formulários: Componentes Controlados vs. Não Controlados
 - **Componentes Controlados (*Controlled Components*):** O valor do campo de formulário é controlado integralmente pelo estado do React via `value` e evento `onChange`. O estado do React atua como a única fonte da verdade (*single source of truth*).

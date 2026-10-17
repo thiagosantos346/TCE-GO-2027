@@ -136,6 +136,32 @@ Monossílabos tônicos terminados em *-i* ou *-u* (*ti, vi, tu, cru, nus*) não 
 
 > ⭐ **IMPORTANTE / MONOSSÍLABO TÔNICO VS. OXÍTONA:** Jamais justifique o acento de *pá* ou *mês* pela "regra das oxítonas". Para as bancas examinadoras, notadamente a FCC, a regra dos monossílabos tônicos é estruturalmente distinta da regra das oxítonas polissilábicas (*maracujá* e *pé* não compartilham a mesma regra).
 
+
+### Questão 01
+**(FCC – TRT – Analista Judiciário)**  
+Considere as seguintes palavras retiradas de um relatório de fiscalização contábil:  
+*relatório* – *órgão* – *auditoria* – *público* – *responsável*
+
+Quanto às regras de acentuação gráfica previstas no sistema ortográfico vigente e cobradas pela banca FCC, assinale a afirmação correta:
+
+* **A)** O vocábulo *relatório* recebe acento gráfico pela mesma regra que justifica o acento no vocábulo *público*, haja vista serem ambos proparoxítonos clássicos.
+* **B)** A palavra *auditoria* deveria receber acento gráfico na penúltima sílaba, por ser paroxítona terminada em ditongo crescente, constituindo sua grafia sem acento uma exceção arbitrária.
+* **C)** Os vocábulos *relatório* e *órgão* são acentuados por pertencerem à regra geral das paroxítonas (terminada em ditongo crescente e terminada em -ão, respectivamente), ao passo que a FCC também admite classificar *relatório* como proparoxítona aparente ou eventual.
+* **D)** A palavra *responsável* é acentuada por ser oxítona terminada na consoante -l.
+* **E)** Todos os vocábulos citados são acentuados em razão da regra dos hiatos tônicos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. *Público* é proparoxítona real/estrita (antepenúltima sílaba tônica: *pú-bli-co*). *Relatório* é paroxítona terminada em ditongo oral (*re-la-tó-rio*), admitida pela tradição gramatical e pela FCC como proparoxítona eventual/relativa, mas não uma proparoxítona estrita originária.
+> - **B)** Incorreta. Em *auditoria*, a sílaba tônica é *ri* (*au-di-to-ri-a*), tratando-se de hiato átono final, sem acento gráfico; não há ditongo crescente tônico nem qualquer irregularidade na grafia.
+> - **C)** Correta. A regra geral das paroxítonas acentua as palavras com tonicidade na penúltima sílaba terminadas em ditongo oral crescente/decrescente (*re-la-tó-rio*) e terminadas em *-ão* (*ór-gão*). A FCC reconhece a dupla classificação fonética de *relatório* (paroxítona terminada em ditongo ou proparoxítona eventual), o que é tema recorrente da banca.
+> - **D)** Incorreta. *Responsável* é paroxítona (*res-pon-sá-vel*), e não oxítona; acentua-se por terminar na consoante *-l*.
+> - **E)** Incorreta. Nenhum dos vocábulos acentuados recai na regra dos hiatos tônicos (*I* ou *U* tônicos isolados na sílaba).
+>
+> **Gabarito: C**
+
+---
+
 ---
 
 ## 2. Regras Especiais de Acentuação
@@ -198,6 +224,35 @@ O Novo Acordo Ortográfico eliminou a quase totalidade dos acentos diferenciais 
 #### Acentos Diferenciais Facultativos:
 * **Fôrma / Forma:** O emprego do acento circunflexo no substantivo *fôrma* (molde, vasilha) é facultativo, sendo recomendado pelo formulário ortográfico apenas quando houver risco evidente de ambiguidade com o substantivo ou verbo *forma* (aparência exterior, conformação, do verbo formar): *"Cada um tem sua própria forma de usar a fôrma de bolo"*.
 
+
+### Questão 02
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+Avalie os seguintes grupos de vocábulos quanto à aplicação das regras especiais de acentuação gráfica do Acordo Ortográfico vigente:  
+
+I. *juízes*, *saúde*, *baú*, *balaústre*  
+II. *ideia*, *heroico*, *jiboia*, *coreia*  
+III. *eles têm*, *eles vêm*, *ele mantém*, *eles mantêm*  
+
+Está em total conformidade com as regras gramaticais o que se afirma em:
+
+* **A)** No grupo I, as palavras perdem o acento gráfico quando seguidas de consoante na mesma sílaba.
+* **B)** No grupo II, os vocábulos perderam o acento gráfico porque o Novo Acordo extinguiu a acentuação dos ditongos abertos (*éi*, *ói*) nas palavras paroxítonas, mantendo-o apenas nas oxítonas e monossílabos tônicos (*herói*, *pastéis*, *dói*).
+* **C)** No grupo III, as formas verbais *têm* e *vêm* recebem acento circunflexo na 3ª pessoa do singular e perdem o acento no plural.
+* **D)** O acento diferencial foi completamente abolido pelo Acordo Ortográfico em todas as palavras da língua portuguesa, sem nenhuma exceção.
+* **E)** Em *saúde* e *baú*, o acento gráfico justifica-se por serem paroxítonas terminadas em vogal temática.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No grupo I, os hiatos tônicos em *i* e *u* são acentuados quando sozinhos na sílaba ou seguidos de *-s* (*ju-í-zes*, *sa-ú-de*, *ba-ú*, *ba-la-ús-tre*). Se fossem seguidos de outras consoantes (como *-z* em *juiz*), não levariam acento.
+> - **B)** Correta. O Acordo Ortográfico aboliu expressamente o acento nos ditongos abertos *éi* e *ói* das palavras **paroxítonas** (*i-dei-a*, *he-roi-co*, *ji-boi-a*). Todavia, preservou rigorosamente o acento nas oxítonas (*he-rói*, *pa-péis*, *tro-féu*) e nos monossílabos tônicos (*dói*, *céu*, *réis*).
+> - **C)** Incorreta. É o oposto: na 3ª pessoa do singular não há acento (*ele tem*, *ele vem*); na 3ª pessoa do plural o acento circunflexo diferencial é obrigatório (*eles têm*, *eles vêm*). Já nos derivados (*manter*), o singular leva agudo (*ele mantém*) e o plural circunflexo (*eles mantêm*).
+> - **D)** Incorreta. O acento diferencial obrigatório foi expressamente mantido em *pôde* (pretérito) / *pode* (presente) e no verbo *pôr* / preposição *por*, além de facultativo em *fôrma* / *forma*.
+> - **E)** Incorreta. Trata-se da regra especial dos hiatos tônicos (*I* e *U*), e não da regra geral das paroxítonas.
+>
+> **Gabarito: B**
+
+---
+
 ---
 
 ## 3. Emprego do Hífen com Prefixos e Elementos de Composição
@@ -233,7 +288,7 @@ A regra motriz da reforma ortográfica estabelece o **princípio da atração do
 
 ---
 
-### Questão 01
+### Questão 03
 **(FCC – TRF – Analista Judiciário)**  
 Quanto ao emprego do hífen em palavras formadas por derivação prefixal em consonância com o Acordo Ortográfico vigente, assinale a opção inteiramente correta:
 
@@ -308,6 +363,29 @@ Entretanto, o Acordo Ortográfico determinou o **fim do hífen nas locuções de
 * *fim de semana, sala de jantar, cão de guarda, cor de café, dia a dia, à toa, ponto e vírgula, passo a passo*.
 * **Exceções consagradas pela tradição:** Mantêm o hífen as consagradas *cor-de-rosa, água-de-colônia, arco-da-velha, mais-que-perfeito, pé-de-meia*, bem como os nomes botânicos e zoológicos ligados por hífen (*couve-flor, bem-te-vi, erva-doce*).
 
+
+### Questão 04
+**(FCC – DPE-RS – Analista Jurídico)**  
+Assinale a opção em que todas as palavras estão grafadas em perfeita conformidade com as normas de emprego do hífen estabelecidas pelo Acordo Ortográfico:
+
+* **A)** auto-escola, anti-social, micro-ondas, semi-aberto.
+* **B)** autoescola, antissocial, micro-ondas, semiaberto.
+* **C)** autoescola, anti-social, microondas, semi-aberto.
+* **D)** auto-escola, antissocial, microondas, semiaberto.
+* **E)** autoescola, anti-social, micro-ondas, semiaberto.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Diante de vogal diferente, não se usa hífen (*autoescola*, *semiaberto*); diante de *s*, duplica-se a consoante (*antissocial*).
+> - **B)** Correta. Aplicação perfeita das três regras básicas: 1) Vogais diferentes se juntam sem hífen (*autoescola*, *semiaberto*); 2) Prefixo terminado em vogal seguido de *r* ou *s* exige duplicação da consoante (*antissocial*, *minissaia*, *autorretrato*); 3) Letras iguais se repelem com hífen (*micro-ondas*, *anti-inflamatório*).
+> - **C)** Incorreta. Falhou em *anti-social* (o correto é *antissocial*), em *microondas* (o correto é *micro-ondas*) e em *semi-aberto* (*semiaberto*).
+> - **D)** Incorreta. Falhou em *auto-escola* (o correto é *autoescola*) e em *microondas* (o correto é *micro-ondas*).
+> - **E)** Incorreta. Falhou em *anti-social* (deve-se dobrar o 's': *antissocial*).
+>
+> **Gabarito: B**
+
+---
+
 ---
 
 ## 4. Semântica Lexical: Relações de Sentido e Vocabulário
@@ -377,7 +455,7 @@ Os parônimos são palavras muito semelhantes na grafia e na pronúncia, mas que
 
 ---
 
-### Questão 02
+### Questão 05
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Considere os vocábulos destacados nas frases abaixo:  
 
@@ -414,6 +492,31 @@ A grafia e o emprego semântico dos vocábulos sublinhados estão corretos em:
 > - **E)** Incorreta. Omite o item I, cuja grafia está irrepreensível.
 > 
 > **Gabarito: A**
+
+
+### Questão 06
+**(FCC – METRÔ-SP – Advogado)**  
+Considere as lacunas no seguinte texto administrativo:  
+*"O Tribunal Pleno realizou extraordinária __________ para deliberar sobre a __________ de uso de bem público imóvel aos servidores. O parecer técnico apontou risco __________ de desmoronamento estrutural na ala sul do edifício."*
+
+As palavras que preenchem correta e respectivamente as lacunas da frase são:
+
+* **A)** sessão – cessão – iminente
+* **B)** seção – cessão – eminente
+* **C)** cessão – sessão – iminente
+* **D)** sessão – seção – eminente
+* **E)** seção – sessão – iminente
+
+> **Comentário Detalhado:**
+>
+> - **1ª lacuna:** Refere-se à reunião de um colegiado ou intervalo de tempo de trabalho. O termo correto é **sessão** (com dois esses, derivado do latim *sessio*, ato de sentar-se).
+> - **2ª lacuna:** Refere-se ao ato de ceder, transferir posse, uso ou direito. O termo correto é **cessão** (com c inicial e dois esses, derivado do verbo *ceder*). Seção (com ç) significa divisão, subdivisão departamental ou repartição.
+> - **3ª lacuna:** Refere-se a algo prestes a acontecer ou que ameaça ocorrer a qualquer instante. O termo correto é **iminente** (com i). *Eminente* (com e) significa ilustre, notável, elevado ou superior.
+> - **Análise das alternativas:** A alternativa **A** é a única que traz a sequência correta: *sessão – cessão – iminente*.
+>
+> **Gabarito: A**
+
+---
 
 ---
 
@@ -457,7 +560,7 @@ flowchart LR
 
 ---
 
-### Questão 03
+### Questão 07
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Assinale a alternativa em que ambos os vocábulos sublinhados são acentuados com fundamento na **mesma regra gramatical**:
 
@@ -545,7 +648,7 @@ A derivação parassintética (ou parassíntese) configura-se quando o prefixo e
 
 ---
 
-### Questão 04
+### Questão 08
 **(FCC – AL-SP – Técnico Legislativo)**  
 Em relação aos processos morfológicos de formação das palavras, assinale a alternativa em que a palavra destacada é formada por **derivação parassintética**:
 
@@ -597,7 +700,7 @@ Ocorre derivação imprópria quando uma palavra muda de classe gramatical e alt
 
 ---
 
-### Questão 05
+### Questão 09
 **(FCC – METRÔ-SP – Analista de Gestão)**  
 O vocábulo formado por **derivação regressiva** (também denominada deverbal) encontra-se presente na frase:
 
@@ -644,6 +747,37 @@ Além dos processos clássicos, a língua recorre a outros expedientes formais:
 * **Abreviação Vocabular (Redução):** Eliminação de parte da palavra original para produzir uma forma curta comunicativamente eficaz: *foto* (de fotografia); *moto* (de motocicleta); *pneu* (de pneumático); *cine* (de cinematógrafo).
 * **Siglonimização e Acrônimos:** Junção de letras iniciais que passam a se comportar como palavras autônomas: *TCE-GO, TCU, Petrobras, Mercosul*.
 * **Neologismo Lexical:** Criação de novos vocábulos impulsionados pela evolução social ou tecnológica: *deletar, tuitar, escanear, empoderamento*.
+
+
+### Questão 10
+**(FCC – TRT – Técnico Judiciário)**  
+Considere os vocábulos destacados nas frases abaixo:  
+
+I. *"O **desembarque** da equipe de auditoria ocorreu nas primeiras horas da manhã."*  
+II. *"Ouviram-se vários **comentários infundados** durante o almoço."*  
+III. *"O **olhar** atento do relator detectou inconsistências no edital."*  
+
+Quanto aos processos de formação das palavras destacadas, é correto afirmar que:
+
+* **A)** O vocábulo *desembarque* formou-se por derivação parassintética, visto que o prefixo e o sufixo foram anexados simultaneamente ao radical.
+* **B)** A palavra *desembarque* é fruto de derivação regressiva (deverbal), pois provém do verbo *desembarcar*, com perda do sufixo verbal e formação de substantivo abstrato que indica ação.
+* **C)** No vocábulo *infundados*, constata-se processo de composição por aglutinação, com alteração fonética de seus elementos formadores.
+* **D)** A palavra *olhar*, em III, constitui caso de derivação prefixal com acréscimo de desinência de modo-tempo.
+* **E)** O vocábulo *olhar*, em III, exemplifica a derivação parassintética de base nominal.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Derivação parassintética exige acréscimo simultâneo e inseparável de prefixo e sufixo a um radical (ex.: *envernizar*, *esfriar*). *Desembarque* deriva de um verbo pré-existente por regressão.
+> - **B)** Correta. Na derivação regressiva (ou deverbal), forma-se um substantivo abstrato indicador de ação a partir de um verbo, mediante a redução da terminação verbal e inserção de uma vogal temática nominal (*a*, *e*, *o*): *desembarcar* $
+ightarrow$ *desembarque*; *atrasar* $
+ightarrow$ *atraso*; *resgatar* $
+ightarrow$ *resgate*. É um dos tópicos mais cobrados pela FCC.
+> - **C)** Incorreta. *Infundados* forma-se por derivação prefixal e sufixal (prefixo de negação *in-* + radical *fund-* + sufixo *-ado*), e não por composição.
+> - **D) e E)** Incorretas. Em III, a palavra *olhar* (originalmente verbo) é antecedida pelo artigo definido "O", mudando de classe gramatical para substantivo sem qualquer alteração mórfica na sua forma externa. Esse processo chama-se **derivação imprópria (ou conversão)**.
+>
+> **Gabarito: B**
+
+---
 
 ---
 

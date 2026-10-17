@@ -91,6 +91,30 @@ No âmbito da teoria contemporânea de gestão de conflitos, a abordagem Interac
 
 
 
+### Questão 02 (FCC - Adaptada / Analista de Planejamento e Gestão)
+Na evolução teórica a respeito dos conflitos organizacionais, três visões sucederam-se historicamente: a Visão Tradicional, a Visão de Relações Humanas e a Visão Interacionista.
+
+Segundo a **Visão Interacionista** do conflito:
+
+* **A)** O conflito não só é uma força natural inevitável nas organizações, como um nível mínimo de conflito construtivo e funcional é absolutamente necessário para manter o grupo viável, autocrítico, inovador e produtivo.
+* **B)** Todo conflito é prejudicial, disfuncional e destrutivo, devendo ser imediatamente eliminado e reprimido pelas chefias.
+* **C)** O conflito decorre exclusivamente da má contratação de servidores públicos no concurso público.
+* **D)** A harmonia absoluta e a ausência de divergências garantem que a instituição atinja a excelência máxima de inovação.
+* **E)** Os conflitos de relacionamento devem ser estimulados em níveis máximos para criar disputa destrutiva interna.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **Visão Interacionista** postula que um grupo harmonioso, pacífico e cooperativo demais tende a tornar-se estático, apático e resistente à mudança. Por isso, líderes devem incentivar um nível apropriado de **conflito funcional de tarefa** (debate vigoroso sobre ideias, métodos e processos), diferenciando-o do conflito de relacionamento (que é disfuncional).
+> - **B)** Incorreta. Visão Tradicional (décadas de 1930/1940), que via o conflito como anomalia perversa.
+> - **C)** Incorreta. O conflito é inerente à diversidade humana e à escassez de recursos.
+> - **D)** Incorreta. O excesso de conformidade (*pensamento de grupo / groupthink*) sufoca a criatividade.
+> - **E)** Incorreta. Conflitos de relacionamento pessoal geram atrito destrutivo e hostilidade, sendo sempre disfuncionais.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. Estilos de Administração de Conflitos (Thomas-Kilmann)
 
 Kenneth Thomas e Ralph Kilmann estruturaram a resolução de conflitos sobre dois eixos comportamentais fundamentais: **Assertividade** (grau em que o sujeito busca fazer valer seus próprios interesses) e **Cooperatividade** (grau em que busca atender às necessidades da contraparte):
@@ -113,6 +137,27 @@ flowchart TD
 
 ---
 
+### Questão 03 (FCC - Adaptada / Auditor de Controle Externo)
+Kenneth Thomas e Ralph Kilmann desenvolveram um modelo seminal de cinco estilos de administração de conflitos, estruturado em duas dimensões comportamentais: **Assertividade** (grau em que o indivíduo busca satisfazer seus próprios interesses) e **Cooperatividade** (grau em que busca satisfazer os interesses da outra parte).
+
+O estilo de gestão de conflitos caracterizado por **alta assertividade e alta cooperatividade**, no qual as partes buscam uma solução ganha-ganha (*win-win*) que integre plenamente as preocupações de ambos, denomina-se:
+
+* **A)** Colaboração (ou Solução de Problemas / Integração).
+* **B)** Competição (ou Confrontação Forçada).
+* **C)** Acomodação (ou Suavização).
+* **D)** Não Enfrentamento (ou Evitação / Fuga).
+* **E)** Acordo de Compromisso (ou Meio-termo superficial).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O modelo Thomas-Kilmann: (1) **Colaboração** (alta assertividade + alta cooperatividade): solução ganha-ganha que atende plenamente ambos os lados; (2) **Competição** (alta assertividade + baixa cooperatividade): ganha-perde; (3) **Acomodação** (baixa assertividade + alta cooperatividade): perde-ganha; (4) **Evitação/Fuga** (baixa assertividade + baixa cooperatividade): perde-perde; (5) **Compromisso** (médio-termo): concessões mútuas parciais.
+> - **B), C), D), E)** Incorretas. Referem-se aos outros estilos do modelo.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 3. Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)
 
 A negociação é um processo dialógico de tomada de decisão conjunta em que duas ou mais partes interdependentes procuram formular um acordo:
@@ -133,7 +178,7 @@ flowchart LR
 
 ---
 
-### Questão 02
+### Questão 04
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 Durante uma negociação contratual complexa entre um órgão público e uma empresa concessionária de serviços, as partes optaram por adotar os preceitos da Negociação Integrativa (*Ganha-Ganha*). Essa modalidade negocial caracteriza-se essencialmente por:
 
@@ -155,6 +200,26 @@ Durante uma negociação contratual complexa entre um órgão público e uma emp
 
 ---
 
+
+
+### Questão 05 (FCC - Adaptada / Analista de Tecnologia e Controle)
+Na teoria da negociação baseada nos princípios do Projeto de Negociação de Harvard (Fisher, Ury e Patton), a **Negociação Integrativa (ou Baseada em Princípios)** distingue-se da Negociação Distributiva (ou Posicional) por:
+
+* **A)** Concentrar-se nos interesses subjacentes reais das partes e não em posições rígidas assumidas, gerando opções de ganho mútuo e utilizando critérios objetivos justos para a solução das controvérsias.
+* **B)** Tratar a negociação como uma disputa de soma-zero em que o ganho de uma parte equivale necessariamente à perda da outra ("divisão de um bolo fixo").
+* **C)** Empregar táticas de pressão psicológica extrema, blefes e ocultação deliberada de dados essenciais.
+* **D)** Impor a judicialização compulsória de todo conflito de gestão administrativa perante a Justiça Federal.
+* **E)** Condicionar o desfecho da negociação à concessão de reajustes orçamentários automáticos pelo Tesouro.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **Negociação Integrativa (Harvard)** baseia-se em quatro pilares fundamentais: (1) Separar as pessoas do problema; (2) Focar em **interesses** e não em posições; (3) Criar opções de **ganhos mútuos** antes de decidir; (4) Insistir em **critérios objetivos** (leis, precedentes, laudos técnicos).
+> - **B), C)** Incorretas. Características exclusivas da **Negociação Distributiva / Competitiva**.
+> - **D), E)** Incorretas. Distorções que contrariam a autonomia e a metodologia da negociação colaborativa.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 4. Cultura Organizacional e os Três Níveis de Edgar Schein
@@ -184,7 +249,7 @@ flowchart TD
 
 ---
 
-### Questão 03
+### Questão 06
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Segundo a teoria dos níveis da cultura organizacional desenvolvida por Edgar Schein, os elementos mais profundos, enraizados e invisíveis da cultura, constituídos por crenças e percepções tidas como verdades absolutas e inquestionáveis que orientam o comportamento dos colaboradores sem que eles sequer tomem consciência disso, denominam-se:
 
@@ -233,7 +298,7 @@ flowchart LR
 
 ---
 
-### Questão 04
+### Questão 07
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 A respeito da diferença essencial entre Cultura Organizacional e Clima Organizacional, assinale a afirmativa correta:
 
@@ -281,7 +346,7 @@ flowchart LR
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 No modelo clássico de gestão da mudança organizacional formulado por Kurt Lewin, a fase em que a liderança da instituição cria intencionalmente a necessidade percebida de mudança, desestabilizando o *status quo* vigente e quebrando velhos hábitos arraigados na equipe para prepará-la para o aprendizado de novas práticas operacionais, é denominada:
 
@@ -303,6 +368,49 @@ No modelo clássico de gestão da mudança organizacional formulado por Kurt Lew
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Edgar Schein estruturou a Cultura Organizacional em três níveis hierárquicos de visibilidade e profundidade psicológica: **Artefatos**, **Valores Compartilhados** e **Pressupostos Básicos**.
+
+Os **Pressupostos Básicos** caracterizam-se por:
+
+* **A)** Serem crenças, percepções e sentimentos inconscientes, invisíveis e profundamente arraigados, aceitos tacitamente como verdades inquestionáveis que orientam automaticamente a forma como os membros sentem e agem.
+* **B)** Compreenderem a estrutura física dos prédios, o vestuário dos servidores e os manuais de procedimentos impressos.
+* **C)** Consistirem em discursos oficiais gravados em vídeos institucionais divulgados nas redes sociais.
+* **D)** Serem facilmente modificados a cada eleição mediante a edição de portarias administrativas simplificadas.
+* **E)** Limitarem-se ao regimento interno do Tribunal de Contas aprovado em resolução.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O modelo de Schein (o iceberg da cultura): (1) **Artefatos**: nível visível da superfície (prédios, símbolos, vestuário, slogans, jargões); (2) **Valores Compartilhados**: nível intermediário (filosofias, normas de conduta, objetivos justificados conscientemente); (3) **Pressupostos Básicos**: nível mais profundo e submerso, inconsciente, formado por premissas tácitas e inquestionáveis sobre a natureza humana e a realidade, sendo o nível mais difícil de ser alterado em processos de mudança.
+> - **B)** Incorreta. Refere-se aos **Artefatos**.
+> - **C)** Incorreta. Refere-se a Artefatos e Valores declarados.
+> - **D), E)** Incorretas. Pressupostos básicos são invisíveis e profundamente resistentes a mudanças superficiais.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+No modelo clássico de Desenvolvimento Organizacional e Gestão da Mudança proposto por Kurt Lewin, o processo de transformação estruturada de uma instituição desenvolve-se em três etapas sequenciais:
+
+A ordem cronológica correta das três etapas de Kurt Lewin é:
+
+* **A)** Descongelamento (*Unfreezing*), Mudança / Movimento (*Change/Moving*) e Recongelamento (*Refreezing*).
+* **B)** Planejamento, Execução e Fiscalização orçamentária.
+* **C)** Licitação, Homologação e Pagamento financeiro.
+* **D)** Avaliação de Desempenho, Promoção e Aposentadoria.
+* **E)** Centralização, Desconcentração e Extinção funcional.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O modelo das três etapas de Kurt Lewin para mudança organizacional: (1) **Descongelamento**: quebra dos velhos paradigmas, superação das resistências e sensibilização da equipe para a necessidade de mudar; (2) **Mudança (Movimento)**: assimilação de novas práticas, valores, rotinas e atitudes; (3) **Recongelamento**: cristalização e estabilização dos novos padrões de comportamento na cultura do órgão para garantir a sustentabilidade das mudanças.
+> - **B), C), D), E)** Incorretas. Etapas de outros processos administrativos que não se relacionam ao modelo de mudança de Kurt Lewin.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 7. Fontes Oficiais e Referências Bibliográficas

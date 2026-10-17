@@ -97,6 +97,27 @@ Determinada entidade governamental realizou o diagnóstico de seu ambiente por m
 
 
 
+### Questão 02 (FCC - Adaptada / Analista de Planejamento e Gestão)
+Na Análise SWOT Cruzada (Matriz FOFA), o confronto entre o ambiente interno (Forças e Fraquezas) e o ambiente externo (Oportunidades e Ameaças) permite delinear posturas estratégicas fundamentais para a organização.
+
+A postura estratégica recomendada quando a organização diagnostica um cenário caracterizado predominantemente pelo cruzamento entre **Fraquezas Internas** e **Ameaças Externas** é a postura de:
+
+* **A)** Sobrevivência (ou Defensiva), visando reduzir danos, conter prejuízos e desinvestir em áreas críticas inviabilizadas.
+* **B)** Desenvolvimento (ou Alavancagem agressiva), priorizando a expansão maciça de novos serviços e instalações.
+* **C)** Domínio Monopolista irrestrito de mercado.
+* **D)** Crescimento acelerado por meio de fusões estatais corporativas.
+* **E)** Terceirização integral das atividades exclusivas de Estado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. As quatro posturas da matriz SWOT cruzada: (1) **Forças + Oportunidades**: Desenvolvimento / Alavancagem; (2) **Forças + Ameaças**: Manutenção / Proteção; (3) **Fraquezas + Oportunidades**: Crescimento / Mudança de Rumo; (4) **Fraquezas + Ameaças**: **Sobrevivência** (situação de vulnerabilidade extrema, exigindo contenção de despesas, enxugamento de custos, alienação de ativos e redução de danos).
+> - **B), C), D), E)** Incorretas. Incompatíveis com a combinação de fraquezas e ameaças.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter
 
 Michael Porter desenvolveu um clássico referencial para explicar como as forças estruturais de uma indústria determinam sua intensidade competitiva e seu nível de atratividade:
@@ -123,7 +144,7 @@ flowchart TD
 
 ---
 
-### Questão 02
+### Questão 03
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido por Michael Porter, a intensidade com que novas empresas ou organizações ameaçam ingressar em determinado setor de atividade econômica é contida fundamentalmente pela presença de:
 
@@ -156,7 +177,7 @@ De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido p
 
 ---
 
-### Questão 03
+### Questão 04
 **(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
 No modelo das Estratégias Genéricas formulado por Michael Porter, a organização que opta por desenvolver serviços ou produtos com atributos peculiares e exclusivos, fortemente reconhecidos pelo público-alvo pela sua excelência técnica, design inovador e credibilidade institucional, cobra preços diferenciados e busca fidelizar seus usuários, adota a estratégia genérica de:
 
@@ -178,6 +199,30 @@ No modelo das Estratégias Genéricas formulado por Michael Porter, a organizaç
 
 ---
 
+
+
+### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
+Michael Porter formulou o célebre modelo das Cinco Forças Competitivas que determinam a atratividade e o nível de rentabilidade de uma indústria.
+
+São forças competitivas integrantes do modelo original de Porter:
+
+* **A)** Rivalidade entre os concorrentes existentes, Ameaça de novos entrantes, Poder de barganha dos compradores (clientes), Poder de barganha dos fornecedores e Ameaça de produtos ou serviços substitutos.
+* **B)** Poder Judiciário, Poder Executivo, Poder Legislativo, Ministério Público e Tribunal de Contas.
+* **C)** Gravidade, Urgência, Tendência, Capacidade Operacional e Risco Jurídico.
+* **D)** Inflação, Taxa Selic, Produto Interno Bruto, Balança Comercial e Dívida Soberana.
+* **E)** Hardware, Software, Peopleware, Sistemas de Redes e Dados na Nuvem.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. As **Cinco Forças de Porter**: (1) Rivalidade entre concorrentes existentes; (2) Ameaça de novos concorrentes entrantes; (3) Poder de barganha dos clientes/compradores; (4) Poder de barganha dos fornecedores; (5) Ameaça de produtos/serviços substitutos.
+> - **B)** Incorreta. Estrutura institucional dos Poderes estatais.
+> - **C)** Incorreta. Elementos da Matriz GUT.
+> - **D)** Incorreta. Indicadores macroeconômicos do ambiente geral.
+> - **E)** Incorreta. Componentes de tecnologia da informação.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)
@@ -222,7 +267,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Questão 06
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado por Jay Barney, um recurso organizacional que seja considerado valioso pela organização e raro no seu mercado de atuação, porém passível de imitação a baixo custo pelos demais concorrentes, proporciona à entidade:
 
@@ -247,6 +292,25 @@ Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado 
 
 ---
 
+
+
+### Questão 07 (FCC - Adaptada / Analista de Tecnologia e Controle)
+Na Visão Baseada em Recursos (RBV - *Resource-Based View*) e no framework **VRIO** desenvolvido por Jay Barney, para que um recurso interno gere uma **Vantagem Competitiva Sustentável** de longo prazo para a organização, ele deve preencher cumulativamente os quatro requisitos:
+
+* **A)** Ser Valioso (V), Raro (R), Difícil de Imitar/Inimitável (I) e a organização estar Organizada (O) para explorá-lo plenamente.
+* **B)** Ser Volátil, Razoável, Imediato e Onipresente.
+* **C)** Ser Vigoroso, Regular, Inflexível e Oneroso.
+* **D)** Ter Vencimento anual, Restrição orçamentária, Isenção tributária e Opção de resgate.
+* **E)** Ter Valor monetário alto, Rapidez de liquidação, Inscrição em dívida ativa e Ordem bancária emitida.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O modelo **VRIO** de Jay Barney estabelece que um recurso/capacidade gera vantagem sustentável quando é: **Valioso** (permite explorar oportunidades ou neutralizar ameaças); **Raro** (poucos concorrentes o possuem); **Inimitável / Imperfeitamente Imitável** (difícil e custoso de ser copiado ou substituído por concorrentes); e a instituição está **Organizada** (possui estrutura, governança e processos capazes de capturar esse potencial).
+> - **B), C), D), E)** Incorretas. Distorções arbitrárias sem qualquer respaldo na RBV.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 4. O Business Model Canvas (Alexander Osterwalder)
@@ -284,7 +348,7 @@ flowchart TD
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterwalder, assinale a opção correta:
 
@@ -306,6 +370,48 @@ A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterw
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Na modelagem inovadora de serviços e projetos públicos pelo *Business Model Canvas* (Alexander Osterwalder), o bloco que define como a instituição se comunica e entrega a sua proposta de valor aos diferentes segmentos de usuários e cidadãos é denominado:
+
+* **A)** Canais (de Comunicação, Distribuição e Acesso).
+* **B)** Estrutura de Custos.
+* **C)** Fluxo de Receitas.
+* **D)** Recursos Principais.
+* **E)** Parcerias-Chave.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. No **Canvas**: os **Canais** descrevem os pontos de contato e os meios pelos quais a organização se comunica com os usuários e entrega sua proposta de valor (ex.: atendimento presencial, portal eletrônico na internet, aplicativo móvel, ouvidoria, diário oficial).
+> - **B)** Incorreta. Custos reúne as principais despesas de operação.
+> - **C)** Incorreta. Fontes de receita descreve a monetização ou ingressos orçamentários.
+> - **D)** Incorreta. Recursos principais são os ativos humanos, físicos e tecnológicos essenciais.
+> - **E)** Incorreta. Parcerias-chave são a rede de colaboradores e fornecedores externos.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+Segundo as Estratégias Genéricas de Michael Porter, quando uma organização busca se destacar perante os usuários e a sociedade criando produtos ou serviços amplamente percebidos como únicos, de qualidade superior e com atributos exclusivos inigualáveis no setor, ela adota a estratégia de:
+
+* **A)** Diferenciação.
+* **B)** Liderança em Custo Total.
+* **C)** Foco ou Enfoque em Custos Reduzidos.
+* **D)** Desinvestimento em Ativos Intangíveis.
+* **E)** Equalização Regressiva de Preços.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Michael Porter descreve três estratégias genéricas: (1) **Liderança em Custo**: eficiência operacional para produzir ao menor custo da indústria; (2) **Diferenciação**: oferta de serviços/produtos percebidos como únicos e diferenciados pela inovação, marca e qualidade; (3) **Foco/Enfoque**: concentração em um nicho específico de mercado (por custo ou diferenciação).
+> - **B)** Incorreta. Liderança em custo foca no menor custo operacional possível.
+> - **C)** Incorreta. Foco em custos atende um nicho restrito pelo menor preço.
+> - **D), E)** Incorretas. Termos sem relação com o modelo porteriano.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 5. Fontes Oficiais e Referências Bibliográficas

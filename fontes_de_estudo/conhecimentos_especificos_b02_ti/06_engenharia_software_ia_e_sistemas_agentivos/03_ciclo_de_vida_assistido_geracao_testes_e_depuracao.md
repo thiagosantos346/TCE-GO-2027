@@ -118,6 +118,29 @@ Assistentes de desenvolvimento integrados à IDE operam combinando predição es
 
 ---
 
+
+### Questão 02
+**(FCC – Inédita – Padrão TCE-GO)**  
+Os motores modernos de completamento de código em IDEs operam frequentemente por meio de renderização de *Ghost Text* (código semitransparente sugerido à frente do cursor). Para que essas sugestões sejam relevantes e apresentem latência imperceptível ao programador (abaixo de 100ms), a arquitetura do motor deve:
+
+* **A)** Enviar o disco rígido inteiro compactado para a nuvem a cada caractere digitado.
+* **B)** Combinar modelos locais de baixa latência ou modelos em nuvem otimizados com a Árvore Sintática Abstrata (AST) do arquivo corrente, contexto das abas recentemente abertas e importações do projeto.
+* **C)** Exigir que o programador pressione um botão físico externo no gabinete do servidor a cada linha sugerida.
+* **D)** Substituir todas as bibliotecas do projeto por códigoAssembly não comentado.
+* **E)** Limitar o tamanho total do projeto a três funções matemáticas básicas.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Inviável tecnicamente e causaria latência inaceitável além de violação de privacidade.
+> - **B) Correta.** A chave da experiência de completamento inline (*Ghost Text*) é a combinação de modelos especializados de baixíssima latência com heurísticas locais inteligentes (AST, abas abertas, escopo local, histórico de edições recentes).
+> - **C) Incorreta.** A interação ocorre naturalmente via teclas de atalho da IDE (como a tecla `Tab`).
+> - **D) Incorreta.** Não há conversão para Assembly.
+> - **E) Incorreta.** Suporta projetos empresariais de larga escala.
+>
+> **Gabarito: B**
+
+---
+
 ## 2. Revisão Automatizada de Código (AI Code Review)
 
 ### 2.1 Linters Estáticos Tradicionais (AST/SAST) vs. Agentes de AI Code Review
@@ -147,7 +170,7 @@ flowchart TD
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - Revisão de Código Assistida por IA em CI/CD)
+### Questão 03 (FCC - Adaptada / TI - Revisão de Código Assistida por IA em CI/CD)
 Uma equipe de desenvolvimento governamental decidiu integrar um agente de IA generativa ao fluxo de Integração Contínua (CI/CD) para realizar a revisão automática inicial (*automated code review*) de todos os *Pull Requests* antes da avaliação pelos pares técnicos.
 
 Considerando os benefícios e os cuidados dessa prática, é correto afirmar:  
@@ -181,6 +204,29 @@ Os modelos de revisão atuam ativamente na prevenção de débito técnico em PR
 
 ---
 
+### Questão 04
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+Na revisão automatizada de código assistida por IA (*AI Code Review*), agentes inteligentes conseguem identificar anomalias semânticas e arquiteturais de nível superior que extrapolam as capacidades de linters tradicionais baseados em expressões regulares. Dentre essas anomalias de design, inclui-se a identificação de:
+
+* **A)** Violações do Princípio da Responsabilidade Única (SRP) do SOLID, caracterizadas por classes com métodos heterogêneos acumulando múltiplos motivos para mudar (*God Class*).
+* **B)** Falhas na tensão elétrica de alimentação das placas de circuito impresso.
+* **C)** Variações na velocidade da luz nos cabos de fibra óptica da operadora de telecomunicações.
+* **D)** Erros ortográficos em placas de trânsito fotografadas por satélites.
+* **E)** O rompimento físico de lacres de servidores em gabinetes de data center.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** Diferentemente de analisadores estáticos básicos que verificam formatação e sintaxe, LLMs treinados em código compreendem semântica arquitetural, detectando *God Classes*, alto acoplamento, vazamento de abstração e quebras de princípios SOLID (*SRP, OCP, LSP, ISP, DIP*).
+> - **B) Incorreta.** Monitoramento de infraestrutura física/elétrica.
+> - **C) Incorreta.** Física de telecomunicações.
+> - **D) Incorreta.** Visão computacional geoespacial alheia à engenharia de software.
+> - **E) Incorreta.** Segurança física patrimonial.
+>
+> **Gabarito: A**
+
+---
+
+
 ### 2.3 Varredura Automática de Vulnerabilidades e Vazamento de Segredos
 Durante o ciclo de revisão, os agentes aplicam filtros baseados nas diretrizes OWASP Top 10 e CWE:
 
@@ -189,6 +235,29 @@ Durante o ciclo de revisão, os agentes aplicam filtros baseados nas diretrizes 
 - **Cross-Site Scripting (XSS) e Desserialização Insegura:** Alerta sobre a renderização direta de payloads HTML sem sanitização prévia.
 
 ---
+
+### Questão 05
+**(FCC – Inédita – Padrão TCE-GO)**  
+Em pipelines de CI/CD que integram agentes de revisão de código por IA, a detecção de segredos e credenciais codificados diretamente no código (*hardcoded secrets*) é uma exigência inegociável de segurança da informação. Ao identificar uma chave de API ou senha em um Pull Request, a postura correta do agente e do pipeline é:
+
+* **A)** Comitar o segredo na branch principal e criar uma issue pública no GitHub divulgando a senha.
+* **B)** Bloquear imediatamente o merge do Pull Request (*fail the build*), alertar o desenvolvedor para revogar e rotacionar a credencial comprometida e exigir a parametrização do segredo por meio de variáveis de ambiente ou cofre de segredos corporativo (*Secrets Manager*).
+* **C)** Enviar o segredo por e-mail para todos os usuários do sistema.
+* **D)** Desabilitar todos os mecanismos de autenticação do sistema corporativo.
+* **E)** Ocultar o segredo alterando a extensão do arquivo para `.txt`.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Expor segredos publicamente é gravíssima falha de segurança.
+> - **B) Correta.** Uma vez comitada no repositório (mesmo em branch de teste), a credencial deve ser tratada como comprometida: o build é travado, a chave deve ser rotacionada/revogada na origem, e o código deve ser corrigido para consumir o valor a partir de um gestor de segredos (ex: HashiCorp Vault, AWS Secrets Manager, GCP Secret Manager).
+> - **C) Incorreta.** Ampliaria drasticamente o vazamento.
+> - **D) Incorreta.** Destruiria a segurança da aplicação.
+> - **E) Incorreta.** Segurança por obscurantismo ineficaz.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 2.4 Síntese de Pull Requests e Notas de Lançamento (Release Notes)
 A IA lê o conjunto completo de alterações (*diffs*) entre branches e sintetiza automaticamente:
@@ -219,6 +288,29 @@ Ao inspecionar classes controladoras (*controllers*) e modelos de dados DTO, a I
 
 ---
 
+### Questão 06
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+No processo de modernização e documentação de sistemas legados de órgãos públicos que não possuem documentação formal de interface, agentes de IA podem realizar engenharia reversa do código-fonte de controladores (*controllers* e rotas) para gerar automaticamente:
+
+* **A)** Uma especificação OpenAPI 3.0 padronizada em formato YAML/JSON descrevendo rigorosamente endpoints, métodos HTTP, parâmetros de consulta, cabeçalhos, schemas de requisição e códigos de resposta esperados.
+* **B)** Um arquivo executável `.bat` que formata o sistema operacional do servidor de banco de dados.
+* **C)** Um contrato de prestação de serviços civis sem valor jurídico.
+* **D)** Novas licenças de software comercial sem pagamento de royalties.
+* **E)** Um relatório financeiro com as despesas pessoais do gestor de TI.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** Agentes de IA são extraordinariamente eficazes em inspecionar controladores legados (Spring Boot, Express, Django) e produzir contratos padronizados OpenAPI 3.0/3.1 com tipagem completa de payloads e códigos HTTP, viabilizando governança e interoperabilidade.
+> - **B) Incorreta.** Ação destrutiva.
+> - **C) Incorreta.** OpenAPI é um contrato técnico de especificação de software.
+> - **D) Incorreta.** Sem relação com licenciamento comercial.
+> - **E) Incorreta.** Alheio à engenharia de software.
+>
+> **Gabarito: A**
+
+---
+
+
 ### 3.3 Diagramação Arquitetural Declarativa com Mermaid.js e PlantUML
 Em vez de diagramas estáticos desenhados em ferramentas gráficas externas (que ficam rapidamente desatualizados), o agente de IA sintetiza diagramas baseados em texto dentro da própria documentação Markdown:
 
@@ -238,6 +330,29 @@ Frameworks corporativos modernos emitem rastreamentos de pilha (*stack traces*) 
 
 ---
 
+### Questão 07
+**(FCC – Inédita – Padrão TCE-GO)**  
+Durante a depuração de incidentes em produção, a análise de *Stack Traces* por assistentes de IA acelera significativamente a resolução de problemas críticos. Para que o diagnóstico seja assertivo e identifique a causa-raiz com precisão, a análise deve correlacionar a pilha de erro com:
+
+* **A)** O clima meteorológico da cidade onde se localiza o data center.
+* **B)** A linha e o método exatos de lançamento da exceção no código-fonte, os parâmetros de entrada reportados no log e os commits recentes que alteraram aquela lógica de negócio.
+* **C)** A cor de fundo da área de trabalho do usuário que sofreu o erro.
+* **D)** A quantidade de cabos de rede conectados no switch principal do prédio.
+* **E)** O modelo do teclado mecânico utilizado pelo desenvolvedor que escreveu o código original.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Dados irrelevantes.
+> - **B) Correta.** A investigação assistida correlaciona o *stack trace* (ponto de falha e propagação da exceção) com o contexto do repositório (código-fonte na versão exata do deploy, histórico do git blame/diff e dados de telemetria), isolando a causa-raiz (*Root Cause Analysis*).
+> - **C) Incorreta.** Fator sem relevância técnica.
+> - **D) Incorreta.** Infraestrutura de camada física desprovida de conexão com o stack trace de software.
+> - **E) Incorreta.** Irrelevante.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 4.2 Análise Forense de Logs de Produção e Vazamentos de Recursos
 Ao processar logs em formato estruturado (JSON, Logstash, Log4j), a IA correlaciona eventos dispersos temporalmente:
 
@@ -246,7 +361,7 @@ Ao processar logs em formato estruturado (JSON, Logstash, Log4j), a IA correlaci
 
 ---
 
-### Questão 03 (FCC - Padrão Concursos TI / Depuração e Root Cause Analysis com IA)
+### Questão 08 (FCC - Padrão Concursos TI / Depuração e Root Cause Analysis com IA)
 Em um incidente de produção no qual um microsserviço de emissão de guias de recolhimento apresenta travamento intermitente por esgotamento de conexões com o banco de dados (*connection pool exhaustion*), a equipe recorreu a um modelo de IA para auxiliar na depuração através da análise dos logs de eventos e do código da aplicação.
 
 A respeito da atuação da IA no processo de depuração (*debugging*), assinale a afirmativa correta:  
@@ -303,6 +418,29 @@ O risco mais crítico na geração de testes por modelos de IA é o **viés de a
 
 ---
 
+### Questão 09
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+Ao utilizar assistentes de IA generativa para a criação automatizada de testes de software, engenheiros de controle de qualidade identificam com frequência a denominada *"Armadilha da Implementação Defeituosa"*. Essa falha metodológica crítica ocorre quando:
+
+* **A)** O modelo de linguagem recusa-se a gerar qualquer assertiva de teste unitário.
+* **B)** A IA gera casos de teste que apenas confirmam o comportamento atual e defeituoso do código implementado, em vez de validar a regra de negócio correta expressa na especificação de requisitos.
+* **C)** Os testes gerados passam a exigir que o computador execute sob refrigeração criogênica de nitrogênio líquido.
+* **D)** A ferramenta de teste apaga todos os bancos de dados da rede corporativa.
+* **E)** A suíte de testes passa a executar exclusivamente em linguagem Assembly de 8 bits.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A IA gera os testes com facilidade, mas eles podem ser falsamente positivos.
+> - **B) Correta.** É a grande armadilha da geração cega de testes por IA: se a função possui um bug lógico (ex: calcula imposto com alíquota errada de 5% em vez de 15%), e o desenvolvedor pede para a IA "gerar testes para esta função", a IA deduz que a implementação é a verdade e cria asserções como `assertEquals(5, calcularImposto())`, institucionalizando o defeito com 100% de cobertura de código. Os testes devem ser guiados pela especificação do requisito, e não pelo código defeituoso.
+> - **C) Incorreta.** Afirmação absurda.
+> - **D) Incorreta.** Testes unitários operam em memória e não deletam bases externas.
+> - **E) Incorreta.** Testes executam na mesma linguagem do projeto (JUnit, Jest, PyTest etc.).
+>
+> **Gabarito: B**
+
+---
+
+
 ### 5.2 Cobertura Sistemática de Casos de Borda (Edge Cases)
 Enquanto desenvolvedores humanos frequentemente testam apenas o caminho feliz (*happy path*), modelos de linguagem são excelentes na exploração exaustiva de condições limites:
 
@@ -355,7 +493,7 @@ flowchart LR
 
 ---
 
-### Questão 04 (FCC - Adaptada / TI - Geração de Testes com IA e Armadilhas)
+### Questão 10 (FCC - Adaptada / TI - Geração de Testes com IA e Armadilhas)
 Durante a fase de homologação de um módulo contábil no TCE-GO, um programador utilizou uma ferramenta de inteligência artificial generativa para gerar automaticamente uma suíte de testes unitários em JUnit a partir do código-fonte recém-escrito de uma classe de cálculo de multas.
 
 Ao analisar as práticas recomendadas e os riscos associados à geração de testes automatizados assistidos por IA, assinale a afirmativa correta:  
@@ -378,7 +516,7 @@ Ao analisar as práticas recomendadas e os riscos associados à geração de tes
 
 ---
 
-### Questão 05 (FCC - Padrão Concursos TI / Avaliação de Qualidade com Testes de Mutação)
+### Questão 11 (FCC - Padrão Concursos TI / Avaliação de Qualidade com Testes de Mutação)
 Para aferir a real qualidade de uma suite de testes unitários sintetizada por uma ferramenta de IA generativa, um arquiteto de software sugeriu a aplicação de Testes de Mutação (*Mutation Testing*).
 
 O princípio básico dos Testes de Mutação para validar a eficácia da suíte de testes gerada pela IA consiste em:  

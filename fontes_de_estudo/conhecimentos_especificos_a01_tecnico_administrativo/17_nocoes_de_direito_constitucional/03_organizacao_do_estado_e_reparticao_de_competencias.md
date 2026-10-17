@@ -77,6 +77,31 @@ O art. 19 da Carta da República veda à União, aos Estados, ao Distrito Federa
 
 ---
 
+
+
+### Questão 01 (FCC - Analista Judiciário - Área Administrativa)
+A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito (art. 1º, caput, da CF/88).
+
+A respeito da forma de Estado federativa e da organização político-administrativa brasileira, assinale a afirmativa correta.
+
+* **A)** Os Estados-membros da Federação brasileira possuem direito de secessão, sendo-lhes lícito desmembrarem-se unilateralmente da União mediante plebiscito local.
+* **B)** A autonomia dos entes federados (União, Estados, Distrito Federal e Municípios) compreende as capacidades de auto-organização, autogoverno, autolegislação e autoadministração, nos estritos limites delineados pela Constituição Federal.
+* **C)** Os Territórios Federais integram a Federação brasileira como entes autônomos dotados de representação própria no Senado Federal.
+* **D)** A criação de um novo Município prescinde de consulta plebiscitária às populações dos Municípios envolvidos, dependendo apenas de parecer prévio do Tribunal de Contas do Estado.
+* **E)** A soberania é atributo partilhado de forma idêntica entre a União e os Municípios brasileiros.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O princípio republicano federativo brasileiro assenta-se no dogma da **indissolubilidade do vínculo federativo**, sendo terminantemente vedado o direito de secessão (passível de intervenção federal, art. 34, I).
+> - **B)** Correta. A federação brasileira é dotada de entes autônomos que possuem a chamada quádrupla capacidade: auto-organização (elaboração de Constituições Estaduais e Leis Orgânicas), autogoverno (eleição de seus próprios mandatários), autolegislação (edição de leis locais) e autoadministração (prestação de serviços e gestão tributária), tudo sob a supremacia da CF/88.
+> - **C)** Incorreta. Os Territórios Federais não são entes federados autônomos; integram a União como meras descentralizações administrativas territoriais (art. 18, § 2º).
+> - **D)** Incorreta. A criação de municípios exige: lei complementar federal de período, Estudos de Viabilidade Municipal, plebiscito obrigatório e lei ordinária estadual (art. 18, § 4º).
+> - **E)** Incorreta. A **soberania** pertence exclusivamente à República Federativa do Brasil (o Estado brasileiro no plano internacional); os entes federados internos gozam apenas de **autonomia**.
+>
+> **Gabarito: B**
+
+---
+
 ### 2. O Modelo Constitucional de Repartição de Competências
 
 A Constituição Federal de 1988 adotou o **princípio da predominância do interesse**:
@@ -119,7 +144,32 @@ Esta é a distinção mais exigida pela banca FCC. Analise as características d
 
 ---
 
-### Questão 01 (FCC - Adaptada / Analista de Controle Externo)
+
+
+### Questão 02 (FGV - Auditor de Controle Externo / TCE-GO)
+O art. 24 da Constituição Federal estabelece que compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre direito tributário, financeiro, penitenciário, econômico e urbanístico.
+
+A respeito da dinâmica da competência legislativa concorrente, assinale a afirmativa correta.
+
+* **A)** No âmbito da legislação concorrente, a competência da União limita-se a estabelecer normas gerais, cabendo aos Estados e ao DF a competência suplementar.
+* **B)** A inexistência de lei federal sobre normas gerais impede os Estados de exercerem qualquer competência legislativa sobre a matéria até a manifestação do Congresso Nacional.
+* **C)** A superveniência de lei federal sobre normas gerais revoga integralmente a lei estadual anterior que dispôs sobre a mesma matéria.
+* **D)** A competência legislativa concorrente estende-se expressamente aos Municípios para fixação de normas gerais nacionais de direito econômico.
+* **E)** Os Estados possuem competência privativa para editar normas gerais sobre direito financeiro e orçamentos públicos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O art. 24, § 1º e § 2º, da CF/88 determina que, no âmbito da legislação concorrente, a competência da União limitar-se-á a estabelecer **normas gerais**, não excluindo a competência suplementar dos Estados para preencher as lacunas e particularidades regionais.
+> - **B)** Incorreta. Inexistindo lei federal sobre normas gerais, os Estados exercerão a **competência legislativa plena**, para atender a suas peculiaridades (art. 24, § 3º).
+> - **C)** Incorreta. Conforme o art. 24, § 4º, a superveniência de lei federal sobre normas gerais **suspende a eficácia** (e não revoga) da lei estadual, no que lhe for contrário.
+> - **D)** Incorreta. O art. 24 não inclui os Municípios na competência concorrente; a competência municipal é suplementar no que couber (art. 30, II).
+> - **E)** Incorreta. Normas gerais financeiras competem à União (art. 24, I c/c art. 163).
+>
+> **Gabarito: A**
+
+---
+
+### Questão 03 (FCC - Adaptada / Analista de Controle Externo)
 A Assembleia Legislativa do Estado de Goiás aprovou projeto de lei que disciplina matérias relativas ao direito tributário e financeiro estadual, estabelecendo regras inovadoras de arrecadação e fiscalização orçamentária no âmbito de seu território, na ausência de lei federal veiculando normas gerais sobre aquele tema específico. Dois anos depois, o Congresso Nacional promulgou lei federal contendo normas gerais sobre a mesma matéria, cujos dispositivos colidem diretamente com três artigos da referida lei estadual goiana.
 
 Considerando o modelo constitucional brasileiro de repartição de competências legislativas concorrentes (art. 24 da CF/88):
@@ -142,7 +192,7 @@ Considerando o modelo constitucional brasileiro de repartição de competências
 
 ---
 
-### Questão 02 (FCC - Adaptada / Procuradoria Legislativa)
+### Questão 04 (FCC - Adaptada / Procuradoria Legislativa)
 Em tema de repartição constitucional de competências legislativas entre os entes federados, a competência para legislar sobre **Direito do Trabalho**, **Direito Processual** e **Trânsito e Transporte** pertence:
 
 * **A)** Concorrentemente à União, aos Estados e ao Distrito Federal.
@@ -160,6 +210,31 @@ Em tema de repartição constitucional de competências legislativas entre os en
 > - **E) Incorreta:** Municípios sequer participam formalmente das competências concorrentes do art. 24, e tais matérias são privativas federais.
 > 
 > **Gabarito: C**
+
+---
+
+
+
+### Questão 05 (FCC - Procurador do Estado / Adaptada)
+A Câmara Municipal de determinado Município aprovou lei local disciplinando o horário de funcionamento de estabelecimentos bancários situados em seu território, bem como exigindo a instalação de portas de segurança eletrônicas e banheiros para os clientes nas agências.
+
+À luz da jurisprudência consolidada do Supremo Tribunal Federal e do Superior Tribunal de Justiça, a referida lei municipal é:
+
+* **A)** Integralmente inconstitucional, uma vez que o sistema financeiro nacional é de competência legislativa privativa da União (art. 22, VI e VII, CF/88).
+* **B)** Constitucional quanto aos itens de conforto, segurança e tempo de atendimento ao consumidor (como banheiros e portas eletrônicas), mas inconstitucional quanto à fixação do horário de funcionamento bancário, cuja competência é privativa da União (Súmula Vinculante nº 38 do STF).
+* **C)** Válida em sua integralidade, inclusive para fixar o horário de compensação nacional de cheques.
+* **D)** Nula de pleno direito por violar a competência concorrente dos Estados-membros em matéria de direito comercial.
+* **E)** Inconstitucional exclusivamente quanto à exigência de portas de segurança, por configurar matéria de segurança nacional do Exército Brasileiro.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O STF distingue o funcionamento do sistema financeiro (privativo da União) das regras de atendimento, conforto e segurança local do consumidor (competência municipal de interesse local, art. 30, I).
+> - **B)** Correta. Jurisprudência pacificada nas súmulas dos Tribunais Superiores: (1) **Súmula Vinculante nº 38 do STF**: *"É inconstitucional a lei municipal que fixa o horário de funcionamento de estabelecimento bancário"* (competência da União, Súmula 19/STJ); e (2) **Súmula 469 do STJ / Tema 145 do STF**: O Município tem competência para legislar sobre segurança, instalação de sanitários, bebedouros e tempo razoável de espera em filas nas agências bancárias, por se tratar de matéria de interesse local e proteção ao consumidor.
+> - **C)** Incorreta. Fixar horário de abertura e fechamento das agências bancárias é matéria privativa da União.
+> - **D)** Incorreta. Matéria consumerista local insere-se no interesse local municipal.
+> - **E)** Incorreta. Segurança física das agências e porta giratória são temas de competência municipal válidos.
+>
+> **Gabarito: B**
 
 ---
 
@@ -188,6 +263,31 @@ A não-intervenção é a regra geral da federação. A intervenção consubstan
 
 - **Intervenção Federal nos Estados e DF (Art. 34):** Cabível para manter a integridade nacional, repelir invasão estrangeira ou de uma unidade na outra, pôr termo a grave comprometimento da ordem pública, garantir o livre exercício de qualquer dos Poderes, reorganizar as finanças do Estado (se suspender pagamento de dívida por mais de 2 anos consecutivos) ou assegurar a observância dos **princípios constitucionais sensíveis** (forma republicana, direitos da pessoa humana, regime democrático, prestação de contas da administração e aplicação dos mínimos em saúde e educação).
 - **Intervenção Estadual nos Municípios (Art. 35):** Decretada pelo Governador do Estado quando o Município deixar de pagar sua dívida fundada por dois anos consecutivos, não prestar contas devidas, não aplicar o mínimo constitucional em saúde e educação ou quando o Tribunal de Justiça der provimento a representação para garantir a observância de princípios da Constituição Estadual ou prover a execução de lei ou ordem judicial.
+
+---
+
+
+
+### Questão 06 (FGV - Analista de Controle Externo / TCE-GO)
+A intervenção federal nos Estados e no Distrito Federal (art. 34 da CF/88) configura medida excepcional de supressão temporária da autonomia política do ente federado.
+
+A respeito dos pressupostos materiais e procedimentais da intervenção federal, assinale a afirmativa correta.
+
+* **A)** O Presidente da República pode decretar a intervenção federal em qualquer Estado sem controle político do Congresso Nacional se o Governador for filiado a partido de oposição.
+* **B)** A intervenção federal para assegurar a observância dos princípios constitucionais sensíveis (como a forma republicana, o sistema representativo, os direitos humanos e a prestação de contas da administração pública) depende de provimento pelo Supremo Tribunal Federal de representação interventiva ajuizada pelo Procurador-Geral da República (ADI interventiva).
+* **C)** O Tribunal de Contas da União pode decretar diretamente a intervenção em Estado que atrasar o repasse de verbas do SUS aos municípios.
+* **D)** O decreto de intervenção federal dispensa a indicação da amplitude, do prazo e das condições de execução, cabendo ao interventor poderes soberanos ilimitados.
+* **E)** Cessados os motivos da intervenção, as autoridades estaduais afastadas de seus cargos não poderão reassumi-los, devendo ser convocadas novas eleições gerais imediatas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A intervenção é estritamente vinculada às hipóteses taxativas do art. 34 da CF/88 e submete-se ao controle político obrigatório do Congresso Nacional em até 24 horas (art. 36, § 1º).
+> - **B)** Correta. Nos termos do art. 36, III, da CF/88, no caso de desrespeito aos chamados **princípios constitucionais sensíveis** (art. 34, VII: forma republicana, direitos da pessoa humana, prestação de contas, aplicação dos mínimos em saúde/educação), a intervenção federal depende de **provimento pelo STF de representação interventiva ajuizada privativamente pelo Procurador-Geral da República (PGR)**.
+> - **C)** Incorreta. Decretar intervenção é competência privativa e indelegável do Presidente da República (art. 84, X).
+> - **D)** Incorreta. O art. 36, § 1º, exige que o decreto de intervenção especifique a amplitude, o prazo, as condições de execução e a nomeação do interventor.
+> - **E)** Incorreta. O art. 36, § 4º, estabelece que, cessados os motivos da intervenção, as autoridades afastadas reassumirão seus cargos, salvo impedimento legal.
+>
+> **Gabarito: B**
 
 ---
 
@@ -232,7 +332,32 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / Técnico de Controle Externo - TCE-GO)
+
+
+### Questão 07 (FCC - Técnico de Controle Externo / Administrativa)
+No âmbito do regime constitucional da Administração Pública e de seus servidores (arts. 37 a 41 da CF/88), a remuneração e o subsídio dos ocupantes de cargos, funções e empregos públicos submetem-se ao teto remuneratório constitucional.
+
+A esse respeito, assinale a afirmativa correta.
+
+* **A)** O teto remuneratório no âmbito do Poder Executivo dos Estados e do Distrito Federal tem como limite o subsídio mensal dos Desembargadores do Tribunal de Justiça.
+* **B)** O teto remuneratório constitucional no âmbito dos Estados e do DF corresponde: no Poder Executivo, ao subsídio mensal do Governador; no Poder Legislativo, ao subsídio dos Deputados Estaduais; e no Poder Judiciário, ao subsídio dos Desembargadores do Tribunal de Justiça, limitado a 90,25% do subsídio dos Ministros do STF.
+* **C)** As verbas de caráter indenizatório expressamente previstas em lei submetem-se integralmente ao teto remuneratório constitucional.
+* **D)** A acumulação lícita de dois cargos públicos de médico autoriza a Administração a somar os vencimentos para aplicação do teto de forma global unificada.
+* **E)** Servidores públicos ocupantes exclusivamente de cargos em comissão estão imunes ao teto remuneratório constitucional.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No Poder Executivo estadual o teto é o subsídio do **Governador do Estado** (art. 37, XI da CF/88).
+> - **B)** Correta. O art. 37, XI, da CF/88 estabelece o sistema de tetos remuneratórios no plano estadual: (1) no **Poder Executivo**, o subsídio do Governador; (2) no **Poder Legislativo**, o subsídio dos Deputados Estaduais; (3) no **Poder Judiciário**, o subsídio dos Desembargadores do Tribunal de Justiça (limitado a 90,25% do subsídio dos Ministros do STF), limite este aplicável aos membros do Ministério Público, aos Procuradores e aos Defensores Públicos.
+> - **C)** Incorreta. O art. 37, § 11, da CF/88 exclui expressamente do cômputo do teto as **parcelas de caráter indenizatório** previstas em lei (ex.: diárias, ajuda de custo).
+> - **D)** Incorreta. Tese fixada pelo STF no Tema 377 e Tema 384: nos casos de acumulação lícita de cargos (como dois cargos de saúde), o teto remuneratório constitucional deve incidir **isoladamente sobre a remuneração de cada um dos cargos**, e não sobre o somatório de ambos.
+> - **E)** Incorreta. O teto atinge a todos os agentes públicos, efetivos ou comissionados.
+>
+> **Gabarito: B**
+
+---
+
+### Questão 08 (FCC - Adaptada / Técnico de Controle Externo - TCE-GO)
 Um servidor público ocupante do cargo de provimento efetivo de Técnico de Controle Externo do Tribunal de Contas do Estado de Goiás, com formação acadêmica superior em Direito, foi aprovado em regular concurso público municipal para o cargo de Professor de Direito Constitucional na Faculdade Municipal de Ensino Superior de Goiânia.
 
 Considerando as normas constitucionais que regem a acumulação remunerada de cargos públicos (art. 37, XVI da CF/88) e comprovada a plena compatibilidade de horários entre as jornadas de trabalho:
@@ -277,7 +402,7 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Adaptada / Auditor Governamental)
+### Questão 09 (FCC - Adaptada / Auditor Governamental)
 Determinado servidor público efetivo do Tribunal de Contas estadual decidiu concorrer a mandato eletivo político, sagrando-se vitorioso nas eleições municipais para o mandato de Vereador. No caso concreto, os horários das sessões ordinárias e comissões da Câmara Municipal coincidem parcialmente com o expediente de trabalho regular desempenhado no Tribunal de Contas.
 
 De acordo com o regime constitucional do servidor em exercício de mandato eletivo (art. 38 da CF/88):
@@ -322,7 +447,7 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista Judiciário)
+### Questão 10 (FCC - Adaptada / Analista Judiciário)
 Sobre o regime constitucional de estabilidade dos servidores públicos civis e as hipóteses de perda do cargo público efetivo previstas na Constituição da República, analise as proposições a seguir:
 
 I. São estáveis após dois anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.  
@@ -355,6 +480,31 @@ Está correto o que se afirma em:
 ---
 
 
+
+
+
+### Questão 11 (FGV - Analista de Controle Externo / Auditoria)
+A estabilidade no serviço público é direito constitucional assegurado aos servidores nomeados para cargo de provimento efetivo em virtude de concurso público, nos termos do art. 41 da Constituição Federal de 1988.
+
+Sobre as condições e regras da estabilidade funcional, assinale a afirmativa correta.
+
+* **A)** São estáveis após dois anos de efetivo exercício os servidores nomeados para cargo efetivo, independentemente de avaliação especial de desempenho.
+* **B)** Como condição obrigatória para a aquisição da estabilidade, é indispensável a aprovação do servidor em avaliação especial de desempenho por comissão instituída para essa finalidade, após três anos de efetivo exercício.
+* **C)** O servidor público estável não pode perder o cargo em hipótese alguma, gozando de garantia absoluta de permanência no serviço público.
+* **D)** Invalidada por sentença judicial a demissão do servidor estável, ele será reintegrado, e o eventual ocupante da vaga, se estável, será compulsoriamente demitido sem direito a indenização.
+* **E)** Em caso de extinção do cargo ou declaração de sua desnecessidade, o servidor público estável será imediatamente exonerado sem remuneração.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A EC nº 19/1998 ampliou o prazo do estágio probatório para **3 (três) anos** de efetivo exercício e tornou obrigatória a avaliação especial de desempenho.
+> - **B)** Correta. O art. 41, caput e § 4º, da Constituição Federal prescreve que são estáveis após 3 (três) anos de efetivo exercício os servidores concursados, sendo condição obrigatória para aquisição da estabilidade a prévia aprovação em **avaliação especial de desempenho** por comissão constituída para essa finalidade.
+> - **C)** Incorreta. O servidor estável pode perder o cargo em 4 hipóteses constitucionais (art. 41, § 1º c/c art. 169, § 4º): (1) sentença judicial transitada em julgado; (2) processo administrativo com ampla defesa; (3) avaliação periódica de desempenho (lei complementar); (4) excesso de despesas com pessoal.
+> - **D)** Incorreta. O eventual ocupante da vaga reconduzido ao cargo de origem, aproveitado em outro cargo ou posto em disponibilidade com remuneração proporcional, **jamais demitido sem indenização** (art. 41, § 2º).
+> - **E)** Incorreta. Extinto o cargo, o servidor estável ficará em **disponibilidade**, com remuneração proporcional ao tempo de contribuição, até seu adequado aproveitamento em outro cargo (art. 41, § 3º).
+>
+> **Gabarito: B**
+
+---
 
 ## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 

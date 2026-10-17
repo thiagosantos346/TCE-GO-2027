@@ -132,6 +132,30 @@ Está correto o que se afirma em:
 
 
 
+### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+O modelo patrimonialista de Administração Pública prevaleceu no Brasil colonial e imperial, deixando traços na cultura organizacional do Estado.
+
+Constitui traço característico definidor do **Patrimonialismo**:
+
+* **A)** A incapacidade de distinção clara entre a *res publica* (o patrimônio público do Estado) e a *res principis* (o patrimônio pessoal e privado do soberano e dos governantes).
+* **B)** A estrita impessoalidade nos processos de seleção e a instituição compulsória do mérito profissional aferido por concurso público aberto.
+* **C)** O controle formal e rigoroso dos procedimentos operacionais estabelecido em manuais e regulamentos escritos padronizados.
+* **D)** A ênfase na contratualização de resultados e no fornecimento de serviços orientados primordialmente ao cidadão-usuário.
+* **E)** A transparência ativa sistemática proporcionada por portais de dados abertos na internet.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **patrimonialismo** confunde o público e o privado: o soberano trata o Estado como extensão de seu patrimônio pessoal (nepotismo, clientelismo e prebendas).
+> - **B)** Incorreta. Concurso e mérito são da burocracia weberiana.
+> - **C)** Incorreta. Controle formal é o núcleo da burocracia.
+> - **D)** Incorreta. Orientação ao cidadão-usuário é da administração gerencial (NPM).
+> - **E)** Incorreta. Dados abertos são do Governo Digital contemporâneo.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. As Disfunções da Burocracia (Robert Merton)
 
 Embora concebida por Max Weber como o tipo ideal de organização racional e previsível, a aplicação concreta da burocracia gera anomalias conhecidas como **disfunções da burocracia**:
@@ -151,6 +175,30 @@ flowchart TD
 - **Exibição de Sinais de Autoridade:** Uso excessivo de títulos formais, carimbos e hierarquia para distanciar o funcionário do cidadão comum.
 
 ---
+
+### Questão 03 (FCC - Adaptada / Auditor de Controle Externo)
+Na teoria sociológica e administrativa, a Administração Pública Burocrática de Max Weber foi concebida para combater a corrupção e o nepotismo patrimonialista, baseando-se na legalidade, impessoalidade e formalismo. Todavia, a prática organizacional evidenciou as chamadas "disfunções da burocracia" (analisadas por Robert Merton).
+
+Constitui uma típica **disfunção burocrática**:
+
+* **A)** O apego exagerado às regras e aos procedimentos formais, fazendo com que as normas (que deveriam ser meios) se transformem nos próprios fins da ação administrativa (*internalização das regras*).
+* **B)** A flexibilização excessiva de processos com delegação ampla de poderes decisórios aos funcionários da ponta.
+* **C)** A priorização dos interesses estratégicos da sociedade em detrimento dos manuais internos de rotinas.
+* **D)** A avaliação contínua da efetividade social das políticas públicas em substituição ao controle de conformidade legal.
+* **E)** A descentralização territorial das decisões governamentais em prol de cooperativas locais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Robert Merton identificou a **transposição de fins**, na qual regras e regulamentos (meios) tornam-se valores absolutos (fins em si mesmos), gerando lentidão e resistência a mudanças.
+> - **B)** Incorreta. A burocracia clássica veda a flexibilização informal da ponta.
+> - **C)** Incorreta. A disfunção faz esquecer a sociedade para focar só nas normas internas.
+> - **D)** Incorreta. Foco em efetividade social é do gerencialismo.
+> - **E)** Incorreta. A burocracia preza pela padronização centralizada.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 3. A Reforma Gerencial Brasileira de 1995 (PDRAE)
 
@@ -183,7 +231,7 @@ flowchart TD
 
 ---
 
-### Questão 02 (FCC – ARTESP – Especialista em Regulação de Transportes)
+### Questão 04 (FCC – ARTESP – Especialista em Regulação de Transportes)
 O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, propôs a descentralização do Estado e a reorganização de suas atividades em quatro setores. A prestação de serviços de saúde básica em hospitais públicos e a realização de pesquisas científicas em universidades enquadram-se, segundo a tipologia do PDRAE, no setor de:
 
 * **A)** Atividades Exclusivas de Estado, a serem desempenhadas compulsoriamente por agências reguladoras.
@@ -204,6 +252,30 @@ O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, prop�
 
 ---
 
+
+
+### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+A Reforma do Aparelho do Estado de 1995 (Plano Diretor da Reforma do Aparelho do Estado - PDRAE), liderada pelo MARE, estruturou a atuação governamental em quatro setores estratégicos.
+
+O setor do Estado que executa as funções exclusivas que envolvem o uso do poder extroverso e de polícia estatal (legislar, julgar, fiscalizar, arrecadar tributos e exercer o controle externo), sendo vedado à terceirização e à delegação a entidades privadas, é denominado pelo PDRAE:
+
+* **A)** Núcleo Estratégico.
+* **B)** Atividades Exclusivas de Estado.
+* **C)** Serviços Não Exclusivos.
+* **D)** Produção de Bens e Serviços para o Mercado.
+* **E)** Setor Não Lucrativo de Fomento Societário.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Núcleo Estratégico formula leis e políticas públicas (Cúpula).
+> - **B)** Correta. O setor de **Atividades Exclusivas de Estado** engloba polícia, arrecadação, regulação e controle externo (Tribunais de Contas), indelegáveis a entidades particulares.
+> - **C)** Incorreta. Serviços Não Exclusivos (saúde, educação) podem ser compartilhados com Organizações Sociais.
+> - **D)** Incorreta. Produção para o mercado (estatais econômicas) opera sob concorrência.
+> - **E)** Incorreta. Categoria inexistente no PDRAE.
+> 
+> **Gabarito: B**
+
+---
 
 
 ### 4. As Dimensões do Desempenho Público (Os 6Es da Gestão)
@@ -239,7 +311,7 @@ flowchart LR
 
 ---
 
-### Questão 03 (FCC – DPE-RS – Analista: Área Administrativa)
+### Questão 06 (FCC – DPE-RS – Analista: Área Administrativa)
 Considere que determinado município gaúcho implementou um programa de alfabetização de adultos com orçamento de R$ 1.000.000,00. Ao final do projeto, constatou-se que:
 
 1. O custo por aluno atendido foi o menor registrado no Estado, sem desperdício de material pedagógico.
@@ -300,7 +372,7 @@ O termo *accountability* compreende o dever indeclinável de prestar contas, res
 
 ---
 
-### Questão 04 (FCC – TCE-GO – Analista de Controle Externo)
+### Questão 07 (FCC – TCE-GO – Analista de Controle Externo)
 A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas do Estado sobre as contas dos Poderes Executivo, Legislativo e Judiciário materializa uma dimensão específica da *accountability*. Trata-se de um exemplo típico de *accountability*:
 
 * **A)** Vertical, pois o Tribunal de Contas situa-se em escalão hierárquico superior aos órgãos do Poder Executivo estadual.
@@ -359,7 +431,7 @@ As informações cuja divulgação possa colocar em risco a segurança da socied
 
 ---
 
-### Questão 05 (FCC – TCE-RS – Auditor de Controle Externo)
+### Questão 08 (FCC – TCE-RS – Auditor de Controle Externo)
 Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a respeito dos prazos de resposta aos pedidos de acesso à informação formulados por cidadãos e da classificação de sigilo documental, é correto afirmar:
 
 * **A)** O prazo para resposta ao pedido de informação não atendido de imediato é de 30 dias, vedada qualquer prorrogação.
@@ -380,6 +452,50 @@ Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a res
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+No campo da Nova Governança Pública e do combate à corrupção, o conceito de *Accountability* desdobra-se em diferentes dimensões fundamentais na relação entre governantes, sociedade e instituições fiscalizadoras.
+
+Assinale a opção que define corretamente a **Accountability Horizontal**:
+
+* **A)** É a mútua fiscalização e controle exercido entre os Poderes e órgãos públicos autônomos de mesmo patamar ou órgãos de controle especializado (como o controle exercido pelo Tribunal de Contas sobre o Poder Executivo ou pelo Ministério Público).
+* **B)** É o controle direto exercido pelos cidadãos sobre os governantes exclusivamente por meio do voto periódico nas eleições democráticas.
+* **C)** É a fiscalização informal exercida pela imprensa, meios de comunicação e movimentos sociais civis.
+* **D)** É a subordinação hierárquica e disciplinar obrigatória de servidores subalternos perante suas chefias imediatas.
+* **E)** É a transferência contratual de serviços de saúde para Organizações Sociais qualificadas pelo Executivo.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. **Accountability Horizontal** (Guillermo O'Donnell): controle mútuo institucional entre poderes e órgãos de controle (Legislativo, Tribunais de Contas, Judiciário e MP - freios e contrapesos); **Vertical**: cidadãos sobre governantes via voto; **Social**: mídia e ONGs.
+> - **B)** Incorreta. Refere-se à *Accountability Vertical*.
+> - **C)** Incorreta. Refere-se à *Accountability Social*.
+> - **D)** Incorreta. Trata-se de hierarquia administrativa.
+> - **E)** Incorreta. Publicização de serviços públicos.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+O Decreto Federal nº 9.203/2017 dispõe sobre a política de governança da administração pública federal e define conceitos e diretrizes fundamentais também recepcionados pelos órgãos de controle estaduais (TCE-GO).
+
+De acordo com as boas práticas de governança no setor público, a distinção entre **Governança** e **Gestão** reside essencialmente em:
+
+* **A)** A governança compreende os mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, visando à condução de políticas públicas e à prestação de serviços de interesse da sociedade; enquanto a gestão é responsável pelo planejamento, execução, operação e entrega cotidiana das ações e projetos definidos pela governança.
+* **B)** A gestão é prerrogativa exclusiva do Poder Judiciário e a governança é função própria dos órgãos burocráticos municipais.
+* **C)** A governança e a gestão são sinônimos perfeitos na teoria administrativa contemporânea, inexistindo distinção prática ou normativa entre os termos.
+* **D)** A governança atua estritamente na fase de compra e liquidação contábil de bens e a gestão cuida da edição de medidas provisórias pelo Presidente da República.
+* **E)** A governança afasta a necessidade de controles internos e auditorias para permitir total liberdade aos gestores operacionais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Decreto nº 9.203/2017: **Governança** (*Avaliar, Direcionar e Monitorar* - liderança e estratégia da alta direção); **Gestão** (*Planejar, Executar e Controlar* - operação cotidiana dos gerentes e equipes).
+> - **B), C), D), E)** Incorretas. Distorções conceituais dos papéis de governança e gestão.
+> 
+> **Gabarito: A**
+
+---
 
 
 ## 🌐 Fontes Oficiais & Referências Bibliográficas

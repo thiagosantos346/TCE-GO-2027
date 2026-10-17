@@ -118,6 +118,29 @@ flowchart TD
 
 ---
 
+### Questão 01
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na Máquina Virtual Java (JVM), o gerenciamento de memória divide-se principalmente entre a memória *Stack* (Pilha) e a memória *Heap*. A respeito da organização e do ciclo de vida dos dados nessas áreas, é correto afirmar:
+
+* **A)** Todas as instâncias de objetos criadas via operador `new` são alocadas na memória *Heap*, enquanto as variáveis locais de tipos primitivos e as referências aos objetos residem na memória *Stack*.
+* **B)** A memória *Stack* é compartilhada por todas as threads da JVM, sendo limpa exclusivamente pelo *Garbage Collector*.
+* **C)** Os objetos instanciados na *Heap* são desalocados imediatamente no instante exato em que a chave de fechamento do método atual é executada.
+* **D)** O *Garbage Collector* da JVM varre e gerencia a memória *Stack*, mas nunca atua sobre os objetos da *Heap*.
+* **E)** A memória *Heap* opera sob a política de primeiro a entrar, primeiro a sair (FIFO), impedindo o reaproveitamento de blocos liberados.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** Na arquitetura da JVM, a *Stack* armazena frames de métodos, tipos primitivos locais e ponteiros de referência; todos os objetos instanciados residem dinamicamente na *Heap*.
+> - **B) Incorreta.** Cada thread possui sua própria *Stack* privada; a *Heap* é que é compartilhada globalmente por todas as threads.
+> - **C) Incorreta.** Objetos na *Heap* permanecem vivos até que não haja mais referências ativas a eles a partir do grafo de raízes (*GC Roots*), sendo coletados de forma assíncrona pelo *Garbage Collector*.
+> - **D) Incorreta.** O *Garbage Collector* gerencia primordialmente a memória *Heap*; a *Stack* é liberada automaticamente no retorno de cada função.
+> - **E) Incorreta.** A *Heap* é organizada em gerações (*Young*, *Old/Tenured*) e não segue disciplina FIFO de fila.
+>
+> **Gabarito: A**
+
+---
+
+
 ### 1.3 Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos
 Java é uma linguagem de tipagem estática e fortemente tipada que distingue claramente valores primitivos e referências a objetos.
 
@@ -175,7 +198,7 @@ A palavra-chave `final` é um modificador de não-acesso que restringe alteraç�
 
 ---
 
-### Questão 01 (FCC - Técnico de Controle Externo / TI)
+### Questão 02 (FCC - Técnico de Controle Externo / TI)
 Na linguagem de programação Java, a respeito das palavras-chave de controle de acesso, modificadores de comportamento e tratamento da orientação a objetos, assinale a afirmativa correta:  
 
 * **A)** Um atributo declarado com o modificador `private` pode ser acessado diretamente por quaisquer subclasses pertencentes ao mesmo pacote da superclasse.
@@ -242,7 +265,7 @@ São subclasses diretas de `Exception` que **não** derivam de `RuntimeException
 
 ---
 
-### Questão 02 (FCC - Auditor Fiscal / Tecnologia da Informação)
+### Questão 03 (FCC - Auditor Fiscal / Tecnologia da Informação)
 No ecossistema da linguagem Java, o tratamento robusto de erros baseia-se na hierarquia da classe `java.lang.Throwable`. A respeito da distinção entre *Checked Exceptions* (exceções checadas) e *Unchecked Exceptions* (exceções não checadas), assinale a afirmativa correta:  
 
 * **A)** Exceções filhas de `java.lang.RuntimeException`, como `NullPointerException` e `IllegalArgumentException`, são do tipo *Checked Exceptions* e exigem tratamento obrigatório com bloco `try-catch` em tempo de compilação.
@@ -344,6 +367,29 @@ Associa chaves exclusivas a valores correspondentes (pares chave-valor). Não es
 
 ---
 
+### Questão 04
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No *Java Collections Framework*, as três interfaces fundamentais de coleção (`List`, `Set` e `Map`) apresentam características estruturais distintas. A respeito dessas estruturas, é correto afirmar:
+
+* **A)** A interface `Set` permite armazenar elementos duplicados e garante a recuperação estrita na ordem exata de inserção em todas as suas implementações.
+* **B)** A interface `List` representa uma coleção ordenada que admite elementos duplicados e permite o acesso posicional aos elementos por meio de índices inteiros.
+* **C)** A classe `HashMap` proíbe o armazenamento de valores nulos e garante que as chaves fiquem automaticamente ordenadas alfabeticamente.
+* **D)** A classe `TreeSet` não exige que seus elementos implementem a interface `Comparable` ou utilizem um `Comparator`.
+* **E)** As chaves de um `Map` podem conter elementos repetidos, desde que seus valores associados sejam estritamente nulos.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** `Set` não permite elementos duplicados; implementações como `HashSet` não garantem ordem alguma.
+> - **B) Correta.** `List` é uma sequência ordenada (*index-based*) que aceita elementos duplicados e permite consultas diretas via índice (como `get(i)`).
+> - **C) Incorreta.** `HashMap` permite uma chave nula e múltiplos valores nulos, e não garante ordenação (a classe que ordena é `TreeMap`).
+> - **D) Incorreta.** `TreeSet` ordena seus elementos com base na ordem natural (`Comparable`) ou em um `Comparator` explícito.
+> - **E) Incorreta.** As chaves de um `Map` são únicas (comportam-se como um `Set`).
+>
+> **Gabarito: B**
+
+---
+
+
 ### 1.7 Recursos Modernos: Generics, Enums, Lambdas e Stream API
 
 #### Generics (Parametrização de Tipos)
@@ -412,7 +458,7 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Analista de Sistemas / Desenvolvimento)
+### Questão 05 (FCC - Analista de Sistemas / Desenvolvimento)
 Em JavaScript moderno, a utilização de variáveis e a criação de funções de fechamento (*closures*) dentro de laços de repetição assíncronos comportam-se de maneira distinta dependendo de como as variáveis são declaradas. Analise os dois fragmentos de código abaixo:
 
 **Fragmento 1:**
@@ -477,6 +523,33 @@ JavaScript possui tipagem dinâmica e fraca. Seus tipos de dados dividem-se em:
 
 ---
 
+### Questão 06
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Em JavaScript moderno, a comparação de valores pode ser realizada por meio do operador de igualdade abstrata (`==`) ou do operador de igualdade estrita (`===`). Considere as seguintes expressões avaliadas pelo interpretador JavaScript:  
+
+I. `5 == "5"`  
+II. `5 === "5"`  
+III. `null === undefined`  
+
+Os valores booleanos resultantes da avaliação das expressões I, II e III são, respectivamente:
+
+* **A)** `true`, `true` e `true`
+* **B)** `true`, `false` e `false`
+* **C)** `false`, `true` e `false`
+* **D)** `false`, `false` e `true`
+* **E)** `true`, `false` e `true`
+
+> **Comentário Detalhado:**
+>
+> - **I. `5 == "5"`:** Retorna `true` porque o operador de igualdade abstrata (`==`) realiza coerção de tipos (*type coercion*), convertendo a string `"5"` para o número `5`.
+> - **II. `5 === "5"`:** Retorna `false` porque o operador de igualdade estrita (`===`) verifica tipo e valor sem coerção (`number !== string`).
+> - **III. `null === undefined`:** Retorna `false` porque são tipos primitivos distintos (`Null` vs `Undefined`). Nota: sob igualdade abstrata (`null == undefined`), o retorno seria `true`.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 2.3 Recursos Idiomáticos ES6+: Desestruturação, Spread/Rest e Arrow Functions
 
 #### Atribuição por Desestruturação (*Destructuring Assignment*)
@@ -510,7 +583,7 @@ const configFinal = { ...configPadrao, timeout: 8000 };
 
 ---
 
-### Questão 04 (FCC - Analista de TI / Sistemas)
+### Questão 07 (FCC - Analista de TI / Sistemas)
 Considere o seguinte trecho de código escrito na linguagem Python 3:
 
 ```python
@@ -635,7 +708,7 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Analista de TI / Sistemas)
+### Questão 08 (FCC - Analista de TI / Sistemas)
 Em relação ao modelo de execução assíncrona do ambiente Node.js e da linguagem JavaScript, considere o seguinte fragmento de código:
 
 ```javascript
@@ -705,6 +778,29 @@ Introduzida no ES2017, funciona como açúcar sintático sobre Promises:
 
 ---
 
+### Questão 09
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Em relação ao tratamento de operações assíncronas em JavaScript e Node.js utilizando *Promises* e a sintaxe `async/await`, assinale a afirmativa correta:
+
+* **A)** Uma função declarada com o modificador `async` sempre retorna implicitamente uma *Promise*, que resolve com o valor retornado pela função.
+* **B)** A palavra-chave `await` pode ser utilizada no corpo de qualquer função tradicional síncrona sem necessidade de declaração assíncrona.
+* **C)** Uma *Promise* rejeitada só pode ser tratada por meio de blocos de repetição `while(true)`.
+* **D)** O método `Promise.all()` aguarda a resolução de todas as promises do array, mesmo se uma delas for rejeitada imediatamente.
+* **E)** A execução de `await` bloqueia a thread principal do sistema operacional, impedindo a CPU de executar qualquer outro processo.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** Toda função `async` empacota seu retorno automaticamente em uma `Promise.resolve(valor)`. Caso a função lance um erro, ela retorna uma `Promise.reject(erro)`.
+> - **B) Incorreta.** O operador `await` só pode ser usado dentro de funções declaradas como `async` (ou em módulos ES em nível superior - *top-level await*).
+> - **C) Incorreta.** Promises rejeitadas são tratadas com `.catch()` ou blocos `try/catch` ao redor de `await`.
+> - **D) Incorreta.** `Promise.all()` adota comportamento *fail-fast*: se qualquer promise falhar, ele rejeita imediatamente.
+> - **E) Incorreta.** `await` suspende apenas a execução da função assíncrona corrente sem bloquear a thread do Event Loop do Node.js (*non-blocking*).
+>
+> **Gabarito: A**
+
+---
+
+
 ### 3.4 Sistema de Módulos (CommonJS vs. ES Modules) e Módulos Nativos Essenciais
 
 #### CommonJS (CJS) vs. ECMAScript Modules (ESM)
@@ -773,6 +869,29 @@ flowchart TD
 
 ---
 
+### Questão 10
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na linguagem Python 3, duas das estruturas de dados sequenciais mais empregadas são as Listas (`list`) e as Tuplas (`tuple`). A diferença fundamental entre essas duas estruturas reside no fato de que:
+
+* **A)** As listas são imutáveis e delimitadas por parênteses `()`, enquanto as tuplas são mutáveis e delimitadas por colchetes `[]`.
+* **B)** As listas são mutáveis (podem ter elementos adicionados, alterados ou removidos após a criação), enquanto as tuplas são estritamente imutáveis.
+* **C)** As tuplas aceitam apenas dados numéricos inteiros, enquanto as listas aceitam apenas cadeias de texto (*strings*).
+* **D)** As listas não admitem elementos duplicados, enquanto as tuplas permitem duplicações infinitas.
+* **E)** As tuplas são armazenadas em disco rígido, enquanto as listas residem na memória cache do processador.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A relação de delimitadores e mutabilidade está invertida.
+> - **B) Correta.** Listas (`[1, 2, 3]`) são coleções mutáveis; Tuplas (`(1, 2, 3)`) são imutáveis após a instanciação (o que confere segurança, performance e permite que tuplas de elementos imutáveis sejam usadas como chaves em dicionários).
+> - **C) Incorreta.** Ambas são heterogêneas e aceitam qualquer tipo de objeto Python.
+> - **D) Incorreta.** Ambas aceitam elementos duplicados.
+> - **E) Incorreta.** Ambas residem na memória RAM gerenciada pelo interpretador Python.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 4.3 Fatiamento (*Slicing*), Comprehensions e Funções Geradoras (`yield`)
 
 #### Operador de Fatiamento (*Slicing*)
@@ -811,6 +930,38 @@ def gerar_lotes(tamanho_maximo):
 ```
 
 ---
+
+### Questão 11
+**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+Considere o seguinte trecho de código em Python 3:  
+
+```python
+dados = [1, 2, 3, 4, 5, 6]
+resultado = [x * 2 for x in dados if x % 2 == 0]
+```
+
+Após a execução do código acima, o valor da variável `resultado` será:
+
+* **A)** `[2, 4, 6, 8, 10, 12]`
+* **B)** `[4, 8, 12]`
+* **C)** `[2, 6, 10]`
+* **D)** `[1, 2, 3]`
+* **E)** `[8, 12]`
+
+> **Comentário Detalhado:**
+>
+> - A expressão `[x * 2 for x in dados if x % 2 == 0]` utiliza *List Comprehension*:
+>   1. O filtro `if x % 2 == 0` seleciona os números pares de `dados`: $2, 4, 6$.
+>   2. A expressão `x * 2` multiplica cada número selecionado por 2:
+>      - $2 \times 2 = 4$
+>      - $4 \times 2 = 8$
+>      - $6 \times 2 = 12$
+>   3. A lista final resultante é `[4, 8, 12]`.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 4.4 Tratamento de Exceções (`try-except-else-finally`) e Gerenciadores de Contexto (`with`)
 

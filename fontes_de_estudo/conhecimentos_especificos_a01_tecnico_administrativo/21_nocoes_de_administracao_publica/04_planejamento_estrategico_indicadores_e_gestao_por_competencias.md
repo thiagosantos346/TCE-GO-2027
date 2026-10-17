@@ -77,6 +77,30 @@ flowchart TD
 
 ---
 
+### Questão 01 (FCC - Adaptada / Analista de Planejamento e Gestão)
+O planejamento organizacional é estruturado em três níveis hierárquicos interligados: Estratégico, Tático e Operacional.
+
+A respeito desses níveis, é correto afirmar:
+
+* **A)** O planejamento estratégico tem horizonte temporal de longo prazo, abrange a organização como uma totalidade sistêmica e define a missão, visão e objetivos corporativos mestres; já o planejamento operacional foca o curto prazo e detalha tarefas e procedimentos diários de execução.
+* **B)** O planejamento tático é formulado pelos operários da linha de frente para solucionar problemas de atendimento imediato.
+* **C)** O planejamento operacional abrange o macroambiente externo e analisa as forças competitivas da economia internacional.
+* **D)** O planejamento estratégico é privativo de empresas comerciais de mercado, inexistindo aplicação prática no âmbito dos Tribunais de Contas e órgãos públicos.
+* **E)** O planejamento tático foca exclusivamente em investimentos com prazo superior a quinze anos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. **Estratégico** (longo prazo, diretoria/cúpula, visão holística); **Tático** (médio prazo, gerências/departamentos); **Operacional** (curto prazo, métodos e tarefas cotidianas).
+> - **B)** Incorreta. Tático é gerencial intermediário.
+> - **C)** Incorreta. Macroambiente é estratégico.
+> - **D)** Incorreta. Tribunais de Contas utilizam planejamento estratégico sistematicamente.
+> - **E)** Incorreta. Médio prazo (anual/bianual).
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. O Balanced Scorecard (BSC) no Setor Público
 
 Criado pelos professores de Harvard Robert Kaplan e David Norton no início da década de 1990, o **Balanced Scorecard (BSC)** surgiu para suprir as deficiências dos sistemas tradicionais de medição, focados unicamente em indicadores contábeis e financeiros históricos. O BSC integra medidas financeiras com direcionadores de desempenho futuros organizados em quatro perspectivas interligadas por hipóteses de **causa e efeito**.
@@ -118,7 +142,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Questão 02
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Contas utilizou a metodologia do Balanced Scorecard (BSC). Ao elaborar o mapa estratégico, a equipe de planejamento definiu quatro perspectivas de objetivos. Considerando as peculiaridades das organizações públicas em relação às empresas privadas com fins lucrativos, no modelo adotado pelo Tribunal:
 
@@ -140,6 +164,28 @@ Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Co
 
 ---
 
+
+
+### Questão 03 (FCC - Adaptada / Auditor de Controle Externo)
+Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organizações públicas e entidades de controle governamental (como o TCE-GO), a adaptação mais relevante no mapa estratégico consiste em:
+
+* **A)** Deslocar a perspectiva dos "Clientes / Cidadãos-Usuários e Sociedade" para o topo do mapa estratégico como objetivo final supremo, passando a perspectiva financeira a atuar como viabilizadora e restrição orçamentária dos serviços prestados.
+* **B)** Eliminar completamente a perspectiva de Aprendizado e Crescimento, visto que servidores públicos estáveis não necessitam de capacitação continuada.
+* **C)** Substituir os indicadores de eficácia social por índices de lucro líquido financeiro a ser distribuído aos cidadãos como dividendos monetários.
+* **D)** Considerar a perspectiva de Processos Internos como a única relevante, descartando qualquer métrica voltada para a satisfação da sociedade.
+* **E)** Proibir o estabelecimento de relações de causa e efeito entre os objetivos estratégicos institucionais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. No setor público, o ápice do mapa do BSC é a **Sociedade e os Cidadãos** (geração de valor público), atuando a perspectiva financeira como sustentabilidade orçamentária para a prestação de serviços.
+> - **B)** Incorreta. Aprendizado e crescimento continuam sendo a base.
+> - **C)** Incorreta. Órgãos públicos não visam lucro comercial.
+> - **D)** Incorreta. O BSC integra equilibradamente as perspectivas.
+> - **E)** Incorreta. O mapa baseia-se em relações de causa e efeito.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 3. Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H
@@ -171,7 +217,7 @@ flowchart TD
 
 ---
 
-### Questão 02
+### Questão 04
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 Durante a realização de um diagnóstico institucional, os analistas de um tribunal identificaram os seguintes fatores:
 
@@ -257,6 +303,30 @@ Para assegurar a utilidade e fidedignidade dos relatórios de governança, os in
 
 ---
 
+### Questão 05 (FCC - Adaptada / Analista de Controle Externo)
+Na formulação de planos de intervenção operacional decorrentes de achados de auditoria ou do planejamento setorial, a ferramenta **5W2H** é amplamente utilizada para operacionalizar as decisões em planos de ação objetivos.
+
+O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corresponde a responder:
+
+* **A)** Quanto custará a execução da ação (estimativa orçamentária de custos e desembolsos financeiros envolvidos).
+* **B)** Quem será o executor responsável pela atividade.
+* **C)** Quando e em quais datas a ação será iniciada e finalizada.
+* **D)** Por que a ação deve ser realizada e qual a sua justificativa estratégica.
+* **E)** Onde a ação será implementada geograficamente.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. **5W2H**: What (o que), Why (por que), Where (onde), When (quando), Who (quem), How (como) e **How Much (quanto custa)**.
+> - **B)** Incorreta. Refere-se ao *Who*.
+> - **C)** Incorreta. Refere-se ao *When*.
+> - **D)** Incorreta. Refere-se ao *Why*.
+> - **E)** Incorreta. Refere-se ao *Where*.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 5. Gestão por Competências no Setor Público (Decreto 9.991/2019)
 
 A Gestão por Competências consiste no alinhamento contínuo entre os talentos dos servidores e as competências essenciais necessárias para o cumprimento da estratégia institucional.
@@ -279,7 +349,7 @@ flowchart LR
 
 ---
 
-### Questão 03
+### Questão 06
 **(FCC – DPE-RS – Analista: Gestão Pública)**  
 Na gestão de pessoas no setor público, a metodologia de Gestão por Competências estrutura o perfil funcional a partir da tríade CHA (Conhecimentos, Habilidades e Atitudes). Quando um servidor público domina minuciosamente as regras teóricas da Nova Lei de Licitações (Lei nº 14.133/2021), mas demonstra insegurança técnica e não consegue operar o sistema eletrônico de compras públicas para cadastrar o edital, verifica-se que o servidor possui:
 
@@ -342,7 +412,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Questão 07
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 A respeito do processo decisório nas organizações e das conclusões da Teoria da Racionalidade Limitada proposta por Herbert Simon, é correto afirmar:
 
@@ -399,7 +469,7 @@ flowchart TD
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 Dois diretores de uma agência reguladora divergem categoricamente a respeito dos critérios de reajuste tarifário do transporte intermunicipal. Ambos demonstram alta preocupação em fazer valer suas teses técnicas individuais (alta assertividade), mas recusam-se terminantemente a ouvir os argumentos da outra parte ou a construir um consenso cooperativo (baixa cooperação). Segundo o modelo de estilos de administração de conflitos de Thomas-Kilmann, o comportamento adotado por esses gestores caracteriza o estilo de:
 
@@ -421,6 +491,47 @@ Dois diretores de uma agência reguladora divergem categoricamente a respeito do
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+A Gestão por Competências no setor público busca alinhar o desenvolvimento dos servidores aos objetivos estratégicos da organização. De acordo com o modelo amplamente consagrado na doutrina administrativa (Dutra, Zarifian, Fleury), a competência individual fundamenta-se no tripé conceitual **C.H.A.**.
+
+As letras que compõem a sigla **CHA** representam:
+
+* **A)** Conhecimento (o saber teórico), Habilidade (o saber fazer prático) e Atitude (o querer fazer / agir proativo).
+* **B)** Controle fiscal, Hierarquia funcional e Autoridade delegada.
+* **C)** Celeridade operacional, Honestidade profissional e Aptidão física.
+* **D)** Criatividade técnica, Homogeneidade de tarefas e Assertividade comunicacional.
+* **E)** Conformidade regulamentar, Homologação decisória e Atendimento cortês.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. **CHA**: **Conhecimento** (saber teórico), **Habilidade** (saber fazer / capacidade prática) e **Atitude** (querer fazer / postura e proatividade).
+> - **B), C), D), E)** Incorretas. Distorções que não correspondem ao modelo teórico.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+A respeito dos indicadores de desempenho da gestão pública e das dimensões clássicas dos **6 Es** (Eficácia, Eficiência, Efetividade, Economicidade, Excelência e Execução):
+
+Um programa público de vacinação infantil que imunizou 98% do público-alvo planejado, gerando como reflexo a erradicação de determinada doença infectocontagiosa na população infantil do Estado no ano subsequente, demonstrou, com relação ao atingimento da meta quantitativa e ao impacto social transformador duradouro, respectivamente:
+
+* **A)** Alta Eficácia (atingimento da meta física de vacinação de 98%) e Alta Efetividade (impacto real positivo na saúde pública com a erradicação da doença).
+* **B)** Alta Economicidade e Baixa Eficiência orçamentária.
+* **C)** Baixa Eficácia e Ausência de Efetividade social.
+* **D)** Execução financeira passiva e Baixa Excelência de atendimento.
+* **E)** Fato gerador contábil sem reflexo em indicadores de desempenho da gestão.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. **Eficácia** mede o atingimento de metas planejadas (atingiu 98% de imunização); **Efetividade** mede o impacto real e mudança duradoura na sociedade (erradicação da doença infantil).
+> - **B), C), D), E)** Incorretas. Não refletem as definições doutrinárias consagradas.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 8. Fontes Oficiais e Referências Bibliográficas

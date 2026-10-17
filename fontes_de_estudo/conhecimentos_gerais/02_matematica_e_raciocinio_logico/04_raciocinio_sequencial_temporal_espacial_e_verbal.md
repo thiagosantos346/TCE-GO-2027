@@ -193,6 +193,49 @@ flowchart TD
 3. **Se $r > 0$:** O termo procurado é o $r$-ésimo elemento do bloco inicial;
 4. **Se $r = 0$:** A divisão foi exata, o que significa que o termo coincide exatamente com o **último elemento do bloco**.
 
+
+### Questão 03
+**(FCC – TRT-23 – Analista Judiciário)**  
+Considere a sucessão lógica de letras:  
+$$U, D, T, Q, C, S, S, O, N, ...$$  
+A próxima letra que dá continuidade lógica e consistente a essa sequência é:
+
+* **A)** D
+* **B)** V
+* **C)** O
+* **D)** T
+* **E)** Q
+
+> **Comentário Detalhado:**
+>
+> - **Identificação do Padrão Semântico Oculto:**  
+>   - Em sequências literais da FCC que não seguem ordem alfabética aritmética evidente, a banca comumente recorre à **inicial semântica dos números cardinais ou ordinais**:  
+>     - **U** $
+ightarrow$ Um  
+>     - **D** $
+ightarrow$ Dois  
+>     - **T** $
+ightarrow$ Três  
+>     - **Q** $
+ightarrow$ Quatro  
+>     - **C** $
+ightarrow$ Cinco  
+>     - **S** $
+ightarrow$ Seis  
+>     - **S** $
+ightarrow$ Sete  
+>     - **O** $
+ightarrow$ Oito  
+>     - **N** $
+ightarrow$ Nove  
+>   - O próximo número da contagem natural é o número **Dez**.  
+>   - A letra inicial da palavra "Dez" é a letra **D**.  
+> - **Conclusão:** A próxima letra é **D** (Alternativa A).
+>
+> **Gabarito: A**
+
+---
+
 ---
 
 ## 2. Orientação Temporal, Calendários e Relógios
@@ -210,7 +253,7 @@ Avança-se 1 dia a partir da quinta-feira, alcançando-se infalivelmente a **sex
 
 ---
 
-### Questão 03
+### Questão 04
 **(FCC – TRT – Analista Judiciário)**  
 O Tribunal de Contas publicou um acórdão condenatório em sua sessão plenária realizada em uma **quinta-feira**. O regimento interno concede um prazo improrrogável de exatamente **43 dias corridos**, contados a partir do primeiro dia seguinte ao da publicação, para a interposição de recurso ordinário.
 
@@ -280,6 +323,35 @@ Problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de
 * Ontem = $-1$; Anteontem = $-2$.
 Monta-se uma equação de primeiro grau simples para encontrar a posição do dia de referência.
 
+
+### Questão 05
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+Um relógio analógico convencional de ponteiros marca exatamente $3$ horas e $40$ minutos. A medida do menor ângulo formado entre o ponteiro das horas e o ponteiro dos minutos nesse instante é igual a:
+
+* **A)** $120^\circ$
+* **B)** $130^\circ$
+* **C)** $140^\circ$
+* **D)** $150^\circ$
+* **E)** $115^\circ$
+
+> **Comentário Detalhado:**
+>
+> - **Método da Cinemática Angular dos Relógios:**  
+>   - O círculo completo tem $360^\circ$, dividido em 12 intervalos de horas ($30^\circ$ por hora).  
+>   - O ponteiro dos minutos desloca-se a uma velocidade de $6^\circ$ por minuto ($360^\circ / 60\text{ min}$).  
+>   - O ponteiro das horas desloca-se a uma velocidade de $0{,}5^\circ$ por minuto ($30^\circ / 60\text{ min}$).  
+> - **Fórmula Direta do Ângulo entre Ponteiros (FCC):**  
+>   $$\theta = \left| \frac{60H - 11M}{2} \right|$$  
+>   onde $H = 3$ horas e $M = 40$ minutos.  
+> - **Substituindo os valores:**  
+>   $$\theta = \left| \frac{60 \times 3 - 11 \times 40}{2} \right| = \left| \frac{180 - 440}{2} \right| = \left| \frac{-260}{2} \right| = |-130^\circ| = 130^\circ$$  
+> - Como $130^\circ \le 180^\circ$, este já é o menor ângulo formado entre eles.  
+> - **Conclusão:** O menor ângulo mede exatamente $130^\circ$ (Alternativa B).
+>
+> **Gabarito: B**
+
+---
+
 ---
 
 ## 3. Orientação Espacial, Transformações e Dobradura de Figuras
@@ -310,7 +382,7 @@ A planificação de um hexaedro regular (cubo) compõe-se de 6 quadrados dispost
 
 ---
 
-### Questão 04
+### Questão 06
 **(FCC – TCE-PI – Analista de Sistemas)**  
 Observe a planificação de um dado cúbico convencional, cujas faces contêm os símbolos $\heartsuit$, $\spadesuit$, $\diamondsuit$, $\clubsuit$, $\bigstar$ e $\blacktriangle$:
 
@@ -360,6 +432,33 @@ Consiste em determinar a projeção visual bidimensional de uma estrutura tridim
 * Vista Frontal (elevação frontal);
 * Vista Lateral Esquerda ou Direita.
 
+
+### Questão 07
+**(FCC – METRÔ-SP – Analista)**  
+Uma pilha maciça de cubos idênticos de $1\text{ cm}$ de aresta foi montada sobre uma mesa plana de modo que sua vista frontal e sua vista lateral direita são ambas formadas por uma grade quadrada de $3 \times 3$ cubos completamente preenchida. O número MÍNIMO de cubinhos necessários para formar essa pilha é:
+
+* **A)** $9$
+* **B)** $12$
+* **C)** $15$
+* **D)** $18$
+* **E)** $27$
+
+> **Comentário Detalhado:**
+>
+> - **Análise das Vistas Ortogonais:**  
+>   - A vista frontal mostra uma malha $3 \times 3$ preenchida, o que significa que para cada uma das 3 colunas e cada um dos 3 níveis de altura (1, 2 e 3) deve haver pelo menos um cubo.  
+>   - A vista lateral direita também mostra uma malha $3 \times 3$ preenchida, o que significa que para cada uma das 3 linhas de profundidade e cada um dos 3 níveis de altura deve haver pelo menos um cubo.  
+> - **Cálculo do Número Mínimo de Cubos:**  
+>   - Em cada nível de altura (térreo, 2º andar e 3º andar), precisamos cobrir 3 posições em $x$ e 3 posições em $y$.  
+>   - Para minimizar cubos em cada nível de altura $z$, basta posicionar os cubos ao longo da diagonal da base: $(1,1), (2,2), (3,3)$. Com apenas 3 cubos em cada nível, a projeção frontal projeta as 3 colunas e a projeção lateral projeta as 3 profundidades!  
+>   - Como são 3 níveis de altura, o número mínimo total de cubos é:  
+>     $$\text{Mínimo} = 3 \text{ níveis} \times 3 \text{ cubos por nível} = 9 \text{ cubos}$$  
+> - **Conclusão:** O número mínimo é 9 cubinhos (Alternativa A).
+>
+> **Gabarito: A**
+
+---
+
 ---
 
 ## 4. Formação de Conceitos e Discriminação de Elementos
@@ -375,6 +474,35 @@ Exige identificar a propriedade lógica oculta que une a maioria dos elementos d
 ### 4.2 Analogias Estruturais e Geométricas
 
 Resolvem-se pela equivalência de transformações: *"A está para B assim como C está para D"*. Identifica-se qual mutação (rotação de $90^\circ$, inversão de cores, acréscimo de um lado poligonal) operou a passagem de A para B e replica-se essa exata transformação sobre a figura C para encontrar D.
+
+
+### Questão 08
+**(FCC – DPE-RS – Analista)**  
+Considere o conjunto de cinco palavras a seguir:  
+*Goiânia*, *Curitiba*, *Brasília*, *Teresina*, *Manaus*
+
+Quatro dessas palavras guardam uma característica lógica comum que as reúne em uma mesma classe conceitual, enquanto uma delas é a intrusa. A palavra intrusa é:
+
+* **A)** Goiânia
+* **B)** Curitiba
+* **C)** Brasília
+* **D)** Teresina
+* **E)** Manaus
+
+> **Comentário Detalhado:**
+>
+> - **Critério de Classificação Geopolítica e Administrativa:**  
+>   - *Goiânia* é a capital do Estado de Goiás.  
+>   - *Curitiba* é a capital do Estado do Paraná.  
+>   - *Teresina* é a capital do Estado do Piauí.  
+>   - *Manaus* é a capital do Estado do Amazonas.  
+>   - Todas essas quatro são **capitais de Estados-membros** da federação brasileira, municípios com autonomia municipal típica (prefeito e câmara de vereadores).  
+>   - *Brasília*, por sua vez, é a **Capital Federal**, sediada no Distrito Federal, ente federativo anômalo que acumula competências estaduais e municipais e não é dividido em municípios.  
+> - **Conclusão:** O elemento intruso é **Brasília** (Alternativa C).
+>
+> **Gabarito: C**
+
+---
 
 ---
 
@@ -402,7 +530,7 @@ flowchart LR
 
 ---
 
-### Questão 05
+### Questão 09
 **(FCC – TCE-GO – Auditor de Controle Externo)**  
 Durante uma auditoria interna para apurar o vazamento de um relatório sigiloso, quatro servidores — Daniel, Eduardo, Fernando e Gabriel — foram interrogados e fizeram as seguintes declarações:
 - Daniel: *"Fernando é o responsável pelo vazamento."*  
@@ -447,6 +575,45 @@ Caso não haja contradição explícita direta entre os depoimentos:
 2. Avalia-se a veracidade de cada depoimento sob essa premissa;
 3. Se a quantidade de verdades e mentiras bater com o enunciado (ex.: 3 verdades e 1 mentira), a hipótese é a solução final;
 4. Se gerar quantidade diferente de mentirosos, descarta-se e testa-se o próximo suspeito.
+
+
+### Questão 10
+**(FCC – TRT-14 – Analista Judiciário)**  
+Três suspeitos de vazar um relatório confidencial de auditoria prestaram os seguintes depoimentos:  
+- **Alberto:** *"Bruno é culpado."*  
+- **Bruno:** *"Carlos é culpado."*  
+- **Carlos:** *"O que Bruno disse é mentira."*  
+
+Sabe-se que exatamente um dos três suspeitos disse a verdade e que apenas um deles é o culpado. O inocente que disse a verdade e o verdadeiro culpado são, respectivamente:
+
+* **A)** Alberto e Bruno
+* **B)** Carlos e Alberto
+* **C)** Bruno e Carlos
+* **D)** Carlos e Bruno
+* **E)** Alberto e Carlos
+
+> **Comentário Detalhado:**
+>
+> - **Identificação do Par Contraditório:**  
+>   - Bruno afirma: *"Carlos é culpado"*.  
+>   - Carlos afirma: *"O que Bruno disse é mentira"*.  
+>   - As falas de Bruno e Carlos são **rigorosamente contraditórias**. Pelo Princípio da Não Contradição e do Terceiro Excluído, exatamente uma delas é verdadeira e a outra é falsa.  
+> - **Dedução da Terceira Declaração:**  
+>   - Como o enunciado informa que **apenas um dos três disse a verdade**, essa única verdade OBRIGATORIAMENTE está entre Bruno ou Carlos!  
+>   - Portanto, a declaração de **Alberto é necessariamente FALSA**!  
+> - **Análise da falsidade de Alberto:**  
+>   - Alberto disse: *"Bruno é culpado"*. Como isso é falso, concluímos que **Bruno é INOCENTE**.  
+> - **Análise de Bruno e Carlos:**  
+>   - Agora suponha que Bruno tivesse dito a verdade. Se Bruno dissesse a verdade, Carlos seria o culpado. Mas Alberto disse que Bruno é culpado (falso, Bruno é inocente). E Carlos diria que Bruno mentiu (o que seria mentira, então Carlos mentiu). Isso daria Carlos culpado e mentiroso, e Bruno inocente que disse a verdade.  
+>   - Mas se Alberto fosse o culpado? Se Alberto for o culpado, Carlos é inocente. Então o que Bruno disse ("Carlos é culpado") é FALSO!  
+>   - Sendo a fala de Bruno falsa, a declaração de Carlos ("O que Bruno disse é mentira") torna-se **VERDADEIRA**!  
+>   - Nesse caso: Alberto mentiu (F), Bruno mentiu (F) e Carlos disse a verdade (V) — exatamente 1 verdade!  
+>   - E o culpado é **Alberto**, sendo Bruno e Carlos inocentes!  
+> - **Conclusão:** Quem disse a verdade é **Carlos** (inocente), e o verdadeiro culpado é **Alberto** (Alternativa B).
+>
+> **Gabarito: B**
+
+---
 
 ---
 

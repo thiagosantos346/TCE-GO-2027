@@ -53,6 +53,28 @@ Segundo a padronização do Project Management Institute (PMI), um **Projeto** �
 
 ---
 
+### Questão 01 (FCC - Analista Judiciário - Tecnologia da Informação - Adaptada)
+**Enunciado:** O Guia PMBOK estabelece distinções fundamentais entre as características de um projeto e as rotinas de uma operação contínua dentro de uma organização de TI. Acerca dessa comparação, assinale a alternativa correta:  
+
+* **A)** Projetos são contínuos e repetitivos, visando unicamente manter os sistemas legados funcionando sem qualquer alteração de infraestrutura.
+* **B)** As operações são caracterizadas pela temporariedade estrita, tendo data formal de início e término com dissolução imediata da equipe ao término de cada chamado.
+* **C)** Um projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto as operações sustentam a execução contínua do negócio.
+* **D)** A elaboração progressiva é uma característica exclusiva das operações financeiras, sendo expressamente vedada na gestão de projetos de tecnologia da informação.
+* **E)** Projetos de desenvolvimento de software prescindem de objetivos ou escopo delimitado, devendo prolongar-se indefinidamente pela vida útil da instituição.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Atividades contínuas e repetitivas de manutenção definem as Operações, não os projetos.
+> - **B)** Incorreta. Quem possui marco temporal determinado de início e término é o Projeto. Operações são permanentes e contínuas.
+> - **C)** **Correta.** Definição clássica e canônica do PMI: Projetos são iniciativas temporárias que geram entregas exclusivas (únicas); operações são contínuas e mantêm a organização funcionando.
+> - **D)** Incorreta. A elaboração progressiva (desenvolver em etapas, com detalhes refinados à medida que o projeto avança) é característica marcante dos projetos.
+> - **E)** Incorreta. Projetos têm objetivos específicos e encerram-se ao concluir suas entregas ou quando se tornam inviáveis.
+> 
+> **Gabarito: C**
+
+
+---
+
 ### 1.2 Hierarquia PMI: Projetos, Programas e Portfólios de TIC
 
 ```mermaid
@@ -81,7 +103,7 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Técnico de Controle Externo / TI - Adaptada)
+### Questão 02 (FCC - Técnico de Controle Externo / TI - Adaptada)
 **Enunciado:** A respeito da estrutura de governança de projetos, programas e portfólios preconizada pelas boas práticas do Project Management Institute (PMI), assinale a afirmativa correta:  
 
 * **A)** Um portfólio consiste exclusivamente em um conjunto de projetos que possuem dependências técnicas operacionais obrigatórias e sequenciais entre si.
@@ -117,6 +139,28 @@ A gestão de projetos passou a ser compreendida dentro de um **Sistema de Entreg
 
 ---
 
+### Questão 03 (FGV - TRT - Analista Judiciário - Tecnologia da Informação - Adaptada)
+**Enunciado:** Nas diretrizes contemporâneas do Guia PMBOK (7ª e 8ª edições), a gestão de projetos é articulada dentro de um 'Sistema de Entrega de Valor' (*System for Value Delivery*), superando o modelo puramente prescritivo de processos mecânicos. A respeito dos princípios e desse sistema de entrega de valor, assinale a alternativa correta:  
+
+* **A)** O sistema de entrega de valor preconiza que o único objetivo do gestor de projetos é a geração burocrática de documentos e artefatos em papel, desconsiderando se o produto gerou valor ao negócio.
+* **B)** O foco da gestão contemporânea de projetos desloca-se da mera entrega física de produtos (*deliverables*) para a realização efetiva de benefícios e resultados estratégicos (*outcomes and business value*).
+* **C)** O PMBOK estabelece que a liderança em projetos deve ser autoritária e centralizadora, sendo proibida a adoção de posturas de liderança servidora em equipes ágeis.
+* **D)** O sistema de entrega de valor é restrito a empresas privadas com fins lucrativos, sendo inaplicável a órgãos públicos ou tribunais de contas.
+* **E)** O Guia PMBOK aboliu totalmente a gestão de riscos e a preocupação com a qualidade técnica das entregas de software.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O foco em entregáveis documentais burocráticos foi expressamente substituído pelo foco em valor e benefícios reais.
+> - **B)** **Correta.** A evolução do PMBOK foca no Sistema de Entrega de Valor: o valor reside na capacidade do resultado final (*outcome*) resolver problemas reais e viabilizar os objetivos estratégicos da organização.
+> - **C)** Incorreta. Os princípios do PMBOK enfatizam a liderança colaborativa, servidora e a capacitação contínua da equipe.
+> - **D)** Incorreta. O sistema de entrega de valor aplica-se plenamente ao setor público, orientando a geração de valor público, eficiência de gastos e transparência social.
+> - **E)** Incorreta. Riscos (Domínio da Incerteza) e Qualidade continuam sendo pilares centrais de avaliação de projetos.
+> 
+> **Gabarito: B**
+
+
+---
+
 ## 2. Os 12 Princípios de Entrega de Projetos
 
 Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipes, aplicando-se indistintamente a abordagens preditivas, híbridas ou ágeis:
@@ -138,7 +182,7 @@ Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipe
 
 ---
 
-### Questão 02 (FCC - Analista de TI / Sistemas - Adaptada)
+### Questão 04 (FCC - Analista de TI / Sistemas - Adaptada)
 **Enunciado:** O padrão de gestão de projetos moderno do Guia PMBOK abandonou a estrutura estritamente processual e prescritiva, adotando uma abordagem holística estruturada em 12 Princípios de Entrega de Projetos e 8 Domínios de Desempenho. O princípio que estabelece a necessidade deliberada de ajustar e personalizar a governança, os métodos, as ferramentas e a quantidade de documentação de acordo com as características específicas, o porte e o nível de incerteza de cada projeto denomina-se:  
 
 * **A)** Stewardship (Administração Diligente).
@@ -190,7 +234,7 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)
+### Questão 05 (FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)
 **Enunciado:** O Guia PMBOK define os 8 Domínios de Desempenho do Projeto (*Project Performance Domains*). O domínio que trata de atividades como o gerenciamento do fluxo de trabalho físico e digital, a alocação eficiente de recursos materiais, a remoção de impedimentos e o gerenciamento contínuo das aquisições e contratos durante o ciclo diário do projeto denomina-se:  
 
 * **A)** Domínio das Partes Interessadas (*Stakeholders*).
@@ -251,7 +295,7 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Auditor Federal de Controle Externo / TI - Adaptada)
+### Questão 06 (FCC - Auditor Federal de Controle Externo / TI - Adaptada)
 **Enunciado:** No âmbito do Domínio de Desempenho da Abordagem de Desenvolvimento e Ciclo de Vida do PMBOK, a escolha do ciclo de vida adequado para um projeto de TI deve equilibrar previsibilidade e agilidade. Ao planejar o desenvolvimento de um grande sistema previdenciário público, a equipe optou por fixar o escopo macro, o limite orçamentário e os marcos regulatórios de conformidade em um plano formal inicial, enquanto os módulos de software são implementados e homologados em sprints quinzenais por times ágeis. Essa configuração caracteriza uma abordagem:  
 
 * **A)** Preditiva pura (Cascata).
@@ -284,6 +328,28 @@ O princípio do **Tailoring** dita que não existe uma metodologia universal. Ca
 
 ---
 
+### Questão 07 (FCC - TRT-14 - Analista Judiciário - Tecnologia da Informação - Adaptada)
+**Enunciado:** O Guia PMBOK enfatiza o princípio da Adaptação Contextual (*Tailoring*), reconhecendo que abordagens de desenvolvimento (preditivas, ágeis ou híbridas) devem ser moldadas às características exclusivas de cada projeto e organização. Acerca do *Tailoring* e dos ciclos de vida de projetos, assinale a alternativa correta:  
+
+* **A)** Em abordagens puramente preditivas (em cascata), o escopo, prazo e custo são definidos em detalhes nas fases iniciais, visando minimizar alterações ao longo do ciclo.
+* **B)** A adaptação (*tailoring*) prescreve que todo projeto governamental de TI deve obrigatoriamente aplicar 100% de todas as ferramentas e modelos do PMBOK sem qualquer supressão ou customização.
+* **C)** Métodos ágeis recusam qualquer planejamento inicial, proibindo a definição de visões de produto ou marcos de release.
+* **D)** Em projetos com alto grau de incerteza de requisitos e tecnologias inovadoras, a abordagem mais indicada é o ciclo preditivo rígido com proibição de entregas incrementais.
+* **E)** O princípio do *tailoring* impede que organizações públicas combinem elementos de governança preditiva contratual com frameworks ágeis (como Scrum) de desenvolvimento.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** No ciclo de vida preditivo (*waterfall*), a ênfase inicial está no planejamento abrangente antecipado do escopo, cronograma e custo, controlando rigidamente qualquer alteração posterior.
+> - **B)** Incorreta. O próprio conceito de *tailoring* determina a seleção criteriosa e personalização dos processos, métodos e artefatos adequados ao contexto específico de cada projeto.
+> - **C)** Incorreta. Métodos ágeis planejam continuamente em múltiplos horizontes (visão, roadmap, release, sprint e dia a dia).
+> - **D)** Incorreta. Alta incerteza e inovação exigem ciclos adaptativos/ágeis com iterações curtas e entregas frequentes.
+> - **E)** Incorreta. Abordagens híbridas (muito comuns no setor público, unindo governança contratual formal da Lei 14.133/2021 à execução ágil interna) são expressamente incentivadas pelo *tailoring*.
+> 
+> **Gabarito: A**
+> 
+
+---
+
 ## 5. Análise de Valor Agregado (EVM / EVA)
 
 A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cronograma e custo para medir objetivamente o progresso de um projeto. É o cálculo mais cobrado pela FCC em provas de gestão de projetos.
@@ -293,6 +359,28 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 1. **Valor Planejado (VP ou PV - *Planned Value*):** Orçamento aprovado alocado ao trabalho que deveria estar concluído até a data de medição.
 2. **Custo Real (CR ou AC - *Actual Cost*):** Custo efetivamente incorrido e desembolsado para realizar o trabalho entregue até a data de medição.
 3. **Valor Agregado (VA ou EV - *Earned Value*):** A mensuração do trabalho **efetivamente executado**, avaliado em termos do orçamento originalmente aprovado para esse trabalho.
+
+---
+
+### Questão 08 (FCC - Auditor de Controle Externo / TI - Adaptada)
+**Enunciado:** A Análise de Valor Agregado (EVM) fundamenta-se em três grandezas quantitativas centrais para aferir a saúde econômico-temporal de um projeto: Valor Planejado (VP), Custo Real (CR) e Valor Agregado (VA). Sobre essas variáveis, assinale a alternativa correta:  
+
+* **A)** O Valor Agregado (VA) corresponde ao montante de recursos financeiros transferido compulsoriamente aos acionistas da empresa contratada a título de dividendos.
+* **B)** O Custo Real (CR) representa o orçamento estimado ideal que deveria ter sido gasto na hipótese teórica de produtividade máxima.
+* **C)** O Valor Planejado (VP) representa o orçamento autorizado e alocado para o trabalho que estava programado para ser executado até a data da medição.
+* **D)** O Valor Agregado (VA) é calculado somando-se as notas fiscais emitidas pelo fornecedor independentemente de o serviço ter sido homologado ou entregue.
+* **E)** As métricas de EVM podem ser calculadas apenas após o encerramento formal do projeto, sendo vedado seu uso durante a fase de execução.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Valor Agregado é a medida do trabalho fisicamente concluído expresso em termos do orçamento aprovado para esse trabalho.
+> - **B)** Incorreta. O Custo Real (CR) é o total dos custos efetivamente incorridos e contabilizados na realização do trabalho executado até a data base.
+> - **C)** **Correta.** Definição exata de Valor Planejado (VP / PV): parcela do orçamento aprovado que deveria ter sido consumida conforme o cronograma planejado até o momento da aferição.
+> - **D)** Incorreta. O VA só contabiliza o trabalho realmente executado e aceito segundo as regras de medição aprovadas.
+> - **E)** Incorreta. O propósito primordial da EVM é o monitoramento contínuo concomitante durante a execução para permitir ações corretivas tempestivas.
+> 
+> **Gabarito: C**
+
 
 ---
 
@@ -329,7 +417,7 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 
 ---
 
-### Questão 05 (FCC - Analista de TI / Gestão de Projetos - Adaptada)
+### Questão 09 (FCC - Analista de TI / Gestão de Projetos - Adaptada)
 **Enunciado:** Em uma auditoria de acompanhamento de um projeto estratégico de desenvolvimento de software em um Tribunal de Contas, o fiscal técnico de TI apurou os seguintes valores na Análise de Valor Agregado (EVM) ao término do quinto mês:  
 
 - Valor Planejado (VP): R$ 400.000,00  
@@ -374,6 +462,28 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 - **Comitê de Governança Digital / Comitê de TI:** Órgão colegiado que avalia propostas de novos projetos e programas, priorizando-os de acordo com o impacto fiscal e institucional.
 - **Modelos de Pontuação (*Scoring Models*):** Critérios ponderados de priorização (ex.: retorno social, urgência regulatória, complexidade técnica, custo estimado e matriz de riscos).
 - **Balanceamento do Portfólio:** Equilíbrio equilibrado entre projetos de alta inovação (IA para auditoria), modernização de infraestrutura (migração para nuvem) e sustentação de sistemas legados essenciais.
+
+---
+
+### Questão 10 (FCC - Tribunal de Contas - Auditor de TI - Adaptada)
+**Enunciado:** A Gestão de Portfólio de TI é o elo estratégico que alinha as decisões de investimento em tecnologia às prioridades institucionais de um Tribunal de Contas. A respeito das atribuições de governança e práticas de gestão de portfólio, assinale a afirmativa correta:  
+
+* **A)** A gestão de portfólio visa garantir que a organização execute a combinação ideal de projetos e programas que maximize o valor institucional e respeite a capacidade orçamentária e operacional.
+* **B)** O portfólio de TIC deve conter exclusivamente projetos de desenvolvimento de software em linguagem Java, sendo vedada a inclusão de projetos de aquisição de infraestrutura de nuvem.
+* **C)** A priorização de projetos em um portfólio público deve basear-se exclusivamente na ordem cronológica de abertura de chamados no help desk, sem uso de modelos de pontuação estratégica.
+* **D)** A governança de portfólio determina que, uma vez aprovado pelo Comitê Estratégico, um projeto jamais pode ser cancelado ou suspenso, ainda que perca sua viabilidade técnica ou legal.
+* **E)** O gerenciamento de portfólio é atribuição privativa do estagiário de suporte técnico de primeiro nível, dispensando apreciação pelo Comitê de Governança de TI.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** O objetivo primordial da Gestão de Portfólio é selecionar, priorizar, balancear e monitorar programas, projetos e iniciativas contínuas para assegurar o alinhamento com a estratégia corporativa e a otimização dos recursos disponíveis.
+> - **B)** Incorreta. Portfólios de TIC integram iniciativas de diferentes naturezas: infraestrutura, segurança cibernética, sistemas analíticos, IA, modernização de redes, capacitação etc.
+> - **C)** Incorreta. A seleção e priorização utilizam modelos formais de pontuação (*scoring models*) com base em alinhamento estratégico, valor público, riscos e retorno social.
+> - **D)** Incorreta. A governança monitora continuamente o portfólio e tem o dever de cancelar, pausar ou replanejar projetos que deixem de demonstrar alinhamento ou viabilidade.
+> - **E)** Incorreta. Gestão de portfólio é prática de governança estratégica ligada à alta administração e ao Comitê Estratégico de TI.
+> 
+> **Gabarito: A**
+
 
 ---
 

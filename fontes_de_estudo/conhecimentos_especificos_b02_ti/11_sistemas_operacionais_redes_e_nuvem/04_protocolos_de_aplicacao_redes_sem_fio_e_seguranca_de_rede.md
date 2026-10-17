@@ -94,6 +94,33 @@ Embora o HTTP/2 tenha solucionado o bloqueio de início de fila na aplicação, 
 
 ---
 
+### Questão 02 (FGV - TRT / Analista Judiciário - TI - Inovações do Protocolo HTTP/2)
+O protocolo **HTTP/2** (RFC 7540) foi desenvolvido pelo IETF com o objetivo central de mitigar as graves restrições de latência e concorrência inerentes ao protocolo HTTP/1.1 clássico.
+
+A respeito das inovações arquiteturais introduzidas pelo HTTP/2, assinale a afirmativa correta:
+
+* **A)** O HTTP/2 aboliu o uso de cabeçalhos e passou a transferir mensagens exclusivamente em linguagem assembly.
+* **B)** O HTTP/2 substituiu o formato textual do HTTP/1.1 por um **protocolo binário estruturado em quadros (*Frames*) e fluxos (*Streams*)**, permitindo a **Multiplexação Completa** de múltiplas requisições e respostas bidirecionais concorrentes trafegando simultaneamente sobre uma **única conexão TCP**, eliminando o bloqueio de início de fila (*Head-of-Line Blocking*) na camada de aplicação e introduzindo a compressão de cabeçalhos via algoritmo **HPACK**.
+* **C)** O HTTP/2 exige a abertura de 50 conexões TCP paralelas para cada imagem carregada em uma página web.
+* **D)** O HTTP/2 é incompatível com criptografia TLS, funcionando exclusivamente em conexões HTTP não seguras na porta 80.
+* **E)** O algoritmo HPACK do HTTP/2 foi projetado exclusivamente para descompactar arquivos de vídeo em formato AVI.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Os cabeçalhos permanecem essenciais no HTTP/2, porém são comprimidos pelo HPACK.
+> - **B)** **CORRETA.** Avanços técnicos canônicos do **HTTP/2 (RFC 7540)**:
+>   1. **Formato Binário:** Mensagens são estruturadas em quadros binários (*Frames* de dados, cabeçalhos, prioridade, etc.), sendo muito mais fáceis e rápidas de parsear por computadores do que o texto plano do HTTP/1.1.
+>   2. **Multiplexação (Uma Única Conexão TCP):** Múltiplas requisições independentes e assíncronas viajam intercaladas (*interleaved*) em uma única conexão TCP persistente. Resolve o HoL Blocking na aplicação (uma requisição lenta não trava as demais).
+>   3. **Compressão HPACK (RFC 7541):** Comprime cabeçalhos HTTP por codificação de Huffman e tabelas de indexação de cabeçalhos estática e dinâmica, eliminando o envio repetitivo de cookies e user-agents idênticos.
+>   4. **Server Push:** Capacidade de o servidor enviar recursos preventivos ao cache do navegador antes mesmo de serem explicitamente solicitados.
+> - **C)** Incorreta. O objetivo do HTTP/2 é exatamente o inverso: concentrar tudo em **uma única conexão TCP**.
+> - **D)** Incorreta. Na prática dos navegadores modernos, o HTTP/2 exige obrigatoriamente transporte seguro sobre TLS (h2).
+> - **E)** Incorreta. O HPACK é um algoritmo de compressão específico para cabeçalhos HTTP.
+> 
+> **Gabarito: B**
+
+---
+
 ### 1.3 HTTP/3 e o Protocolo QUIC sobre UDP
 
 Para eliminar em definitivo qualquer forma de bloqueio em redes móveis e de alta latência, a IETF padronizou o **HTTP/3** (RFC 9114), substituindo o TCP pelo protocolo de transporte **QUIC (*Quick UDP Internet Connections* - RFC 9000)**, que opera sobre datagramas **UDP (Porta UDP 443)**:
@@ -124,6 +151,33 @@ flowchart TD
 - **Handshake Acelerado (0-RTT e 1-RTT):** Como o controle de transporte e a criptografia TLS 1.3 são integrados no mesmo protocolo, a conexão segura é estabelecida em apenas 1 RTT (ou 0-RTT se o host já for conhecido), contra 2 a 3 RTTs exigidos pelo par TCP + TLS 1.2.
 - **Migração de Conexão Resiliente (*Connection Migration*):** A conexão QUIC não é identificada pela 4-tupla tradicional (IP de origem, IP de destino, porta de origem, porta de destino), mas por um identificador exclusivo de 64 bits chamado **Connection ID**. Se o usuário sair da rede Wi-Fi de casa e entrar na rede móvel 5G (mudando completamente o endereço IP do smartphone), **a sessão de download, streaming ou chamada de vídeo NÃO cai nem reinicia**, migrando de forma totalmente transparente.
 - **Compressão QPACK:** Evolução do algoritmo HPACK adaptada para lidar com pacotes que chegam fora de ordem sobre o transporte UDP.
+
+---
+
+### Questão 03 (FCC - TRT / Analista de Redes - HTTP/3 e o Protocolo QUIC sobre UDP)
+Embora o HTTP/2 tenha solucionado o bloqueio de início de fila (*Head-of-Line Blocking*) na camada de aplicação, ele continuou sofrendo com o *Head-of-Line Blocking* na **Camada de Transporte**, decorrente da garantia de entrega estritamente sequencial e ordenada do protocolo TCP subjacente (onde a perda de um único pacote TCP paralisa todos os fluxos multiplexados).
+
+Para superar definitivamente essa barreira física, a IETF padronizou o **HTTP/3** (RFC 9114), cuja principal inovação reside na substituição do TCP pelo protocolo:
+
+* **A)** ICMP com criptografia DES.
+* **B)** **QUIC** (*Quick UDP Internet Connections*), executado sobre o protocolo de transporte **UDP**, no qual as perdas de pacotes em um fluxo (*stream*) individual não bloqueiam os demais fluxos independentes, incorporando criptografia **TLS 1.3 nativa** em seu núcleo e permitindo o estabelecimento de conexão ultrarrápido com handshake de zero tempo de ida e volta (**0-RTT**).
+* **C)** FTP tradicional com autenticação anônima.
+* **D)** AppleTalk em cabos coaxiais antigos.
+* **E)** SMTP executado diretamente sobre conexões seriais RS-232.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O ICMP é um protocolo utilitário de controle e diagnóstico (ping/traceroute), não servindo para transporte de aplicações web.
+> - **B)** **CORRETA.** Revolução arquitetural do **HTTP/3 e QUIC (RFC 9000 / RFC 9114)**:
+>   - **Fundamento:** O HTTP/3 abandona o TCP e roda no espaço de usuário sobre **UDP (User Datagram Protocol)**.
+>   - **Eliminação do HoL Blocking de Transporte:** No QUIC, os *streams* multiplexados são gerenciados no nível do próprio protocolo de transporte. Se um pacote correspondente ao Stream 2 for perdido na rede, apenas o Stream 2 aguarda a retransmissão; os Streams 1, 3 e 4 continuam sendo entregues imediatamente à aplicação sem qualquer bloqueio.
+>   - **Criptografia Integrada (TLS 1.3):** A segurança não é uma camada sobreposta como no TCP; o handshake do QUIC funde a negociação de transporte com o handshake do TLS 1.3, reduzindo o tempo de estabelecimento de conexão de múltiplos RTTs para **1-RTT** (ou **0-RTT** em conexões recorrentes).
+>   - **Migração de Conexão (*Connection Migration*):** Utiliza um ID de Conexão (*Connection ID*) independente do IP; se o usuário sai do Wi-Fi e entra no 4G/5G, a conexão não cai nem precisa reiniciar o handshake.
+> - **C)** Incorreta. FTP é protocolo de transferência de arquivos.
+> - **D)** Incorreta. Protocolo legado proprietário da Apple da década de 1980.
+> - **E)** Incorreta. Protocolo de envio de e-mails.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -161,6 +215,31 @@ O protocolo **SSH** opera na **porta TCP 22** e provê comunicação criptografa
 
 ---
 
+### Questão 04 (FGV - TRT / Analista Judiciário - TI - Transferência de Arquivos Segura: SFTP vs. FTPS)
+Em auditorias de sistemas governamentais, é frequente a necessidade de transferir arquivos volumosos contendo bases de dados e folhas de pagamento de órgãos fiscalizados para os servidores do tribunal.
+
+A respeito da distinção técnica fundamental entre os protocolos de transferência segura **SFTP** (*SSH File Transfer Protocol*) e **FTPS** (*FTP over SSL/TLS*), assinale a afirmativa correta:
+
+* **A)** O SFTP é uma extensão direta do protocolo FTP tradicional que utiliza duas portas de conexão (portas 20 e 21) com certificados X.509.
+* **B)** O **SFTP** é um protocolo completamente independente do FTP clássico, funcionando como um subsistema executado sobre um canal seguro do protocolo **SSH (*Secure Shell*)**, utilizando uma **única porta de rede (porta padrão TCP 22)** para comandos e transferência de dados com autenticação baseada em chaves públicas ou senhas; ao passo que o **FTPS** é o protocolo FTP tradicional legado encapsulado por uma camada de criptografia SSL/TLS, exigindo múltiplos canais de comunicação (porta de comando TCP 21 e uma faixa dinâmica de portas para os canais de dados em modo passivo), o que gera frequentes conflitos com firewalls corporativos.
+* **C)** O FTPS é proibido em redes IPv4 por ser um protocolo exclusivo de satélites espaciais.
+* **D)** Ambos os protocolos utilizam exclusivamente o protocolo UDP sem criptografia.
+* **E)** O SFTP transmite dados em texto claro e foi decifrado em 1995.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O SFTP não tem nenhuma relação com o protocolo FTP nem com suas portas; ele roda integralmente dentro do protocolo SSH.
+> - **B)** **CORRETA.** Confronto arquitetural canônico:
+>   - **SFTP (SSH File Transfer Protocol):** É uma extensão do SSH (porta TCP 22). Utiliza **uma única conexão TCP** multiplexada para envio de comandos de controle, transferência de arquivos e manipulação remota de diretórios. É extremamente amigável para firewalls corporativos (basta liberar a porta 22) e herda toda a infraestrutura de segurança do SSH (chaves assimétricas RSA/Ed25519, `known_hosts`).
+>   - **FTPS (FTP over TLS/SSL):** É o FTP antigo (RFC 959) envolvido por TLS. Mantém a problemática arquitetura de canal duplo do FTP (um canal de controle na porta TCP 21 e múltiplos canais de dados dinâmicos na faixa efêmera em modo passivo), exigindo regras complexas de *Connection Tracking / Application Layer Gateway (ALG)* nos firewalls para autorizar as portas dinâmicas de dados.
+> - **C)** Incorreta. FTPS é amplamente suportado na internet padrão.
+> - **D)** Incorreta. Ambos usam conexões TCP confiáveis e criptografia de ponta a ponta.
+> - **E)** Incorreta. O SFTP cifra todo o tráfego de ponta a ponta através da criptografia robusta do túnel SSH.
+> 
+> **Gabarito: B**
+
+---
+
 ### 2.3 Correio Eletrônico: SMTP vs. POP3 vs. IMAP
 
 O tráfego de correio eletrônico na Internet divide-se claramente entre envio/retransmissão e acesso/leitura:
@@ -187,7 +266,7 @@ flowchart LR
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista de Sistemas - Suporte a Serviços de Rede)
+### Questão 05 (FCC - Adaptada / Analista de Sistemas - Suporte a Serviços de Rede)
 A respeito dos protocolos da camada de aplicação e seus papéis no ecossistema de infraestrutura de TI, assinale a afirmação correta:
 
 * **A)** O protocolo POP3 opera na porta TCP 110 e caracteriza-se por manter cópias sincronizadas das pastas e mensagens permanentemente no servidor, refletindo instantaneamente as alterações feitas em múltiplos clientes de correio.
@@ -237,7 +316,7 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / Analista de Tecnologia da Informação - Segurança Cibernética)
+### Questão 06 (FCC - Adaptada / Analista de Tecnologia da Informação - Segurança Cibernética)
 Uma entidade governamental necessita interligar a rede local de seu data center sede à rede local de uma unidade regional descentralizada através da Internet pública. O projeto de segurança estipula que a solução deve mascarar integralmente os endereços IP corporativos internos de ambas as localidades e garantir sigilo criptográfico completo e autenticidade para todo o tráfego em trânsito.
 
 Para atender plenamente aos requisitos de interconexão VPN *Site-to-Site*, o analista deve configurar a arquitetura IPsec utilizando:
@@ -276,10 +355,60 @@ Os Balanceadores de Carga (*Load Balancers*) distribuem o fluxo de requisições
 
 ---
 
+### Questão 07 (FCC - TRT / Analista de Infraestrutura - Balanceamento de Carga: Camada 4 vs. Camada 7)
+Na infraestrutura de datacenters de tribunais de contas, o balanceamento de carga (*Load Balancing*) distribui o tráfego dos sistemas de processo eletrônico entre múltiplos servidores de aplicação em cluster, operando tipicamente na **Camada 4 (Transporte)** ou na **Camada 7 (Aplicação)**.
+
+A respeito das características que diferenciam um balanceador **Layer 4 (L4)** de um balanceador **Layer 7 (L7)**, assinale a afirmativa correta:
+
+* **A)** O balanceador L7 é incapaz de ler o conteúdo da requisição HTTP, roteando pacotes apenas pelo endereço IP de destino.
+* **B)** O balanceador **Layer 4 (L4)** toma decisões de roteamento em alta velocidade baseando-se exclusivamente em informações das camadas de rede e transporte (endereço IP de origem/destino e porta TCP/UDP), sem inspecionar a carga útil da aplicação; ao passo que o balanceador **Layer 7 (L7)** atua na camada de aplicação, inspecionando o conteúdo semântico da mensagem (cabeçalhos HTTP, URIs solicitadas, métodos `GET`/`POST`, cookies de sessão e dados de formulário), permitindo roteamento inteligente baseado em caminhos (ex.: direcionar `/api/` para um cluster de microsserviços e `/estaticos/` para outro), além de permitir terminação SSL/TLS e persistência de sessão baseada em cookies (*Sticky Sessions*).
+* **C)** O balanceador L4 é exclusivo de cabos de fibra óptica submarinos.
+* **D)** O balanceador L7 consome menos ciclos de CPU e memória do que o L4 por não analisar o cabeçalho das mensagens.
+* **E)** Ambos os tipos exigem que todos os servidores web de destino possuam o mesmo endereço IP físico.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O balanceador L7 inspeciona minuciosamente todo o tráfego da camada de aplicação HTTP/HTTPS.
+> - **B)** **CORRETA.** Comparativo técnico clássico de **Load Balancers**:
+>   - **Layer 4 (L4 - Transporte):** Roteamento em nível de fluxo TCP/UDP. Olha apenas a tupla de 5 elementos (*IP Origem, Porta Origem, IP Destino, Porta Destino, Protocolo*). Não decifra a mensagem nem conhece HTTP. É extremamente veloz, consome pouca CPU e lida com centenas de milhares de conexões por segundo sem interferir nos dados.
+>   - **Layer 7 (L7 - Aplicação):** Roteamento consciente do conteúdo (*Content-Aware / Application Routing*). Atua como um proxy reverso completo: termina a conexão TCP do cliente, decifra o TLS, analisa o payload HTTP e decide o servidor backend com base na URL (ex.: `/relatorios` $	o$ Servidor A; `/pagamentos` $	o$ Servidor B), cookies ou cabeçalhos. Oferece inteligência máxima e recursos como WAF e *Sticky Sessions*, com maior custo computacional de CPU/RAM.
+> - **C)** Incorreta. Dispositivos lógicos aplicados em qualquer infraestrutura corporativa.
+> - **D)** Incorreta. O L7 consome **muito mais recursos de CPU e memória** do que o L4 justamente porque precisa remontar pacotes TCP, decifrar criptografia SSL e analisar texto HTTP.
+> - **E)** Incorreta. Os servidores do pool de backend possuem endereços IPs privados distintos para os quais o balanceador despacha o tráfego.
+> 
+> **Gabarito: B**
+
+---
+
 ### 3.3 Servidores Proxy: Forward Proxy vs. Reverse Proxy
 
 - **Forward Proxy (Proxy Direto):** Fica posicionado em frente aos **computadores clientes internos** da organização. É utilizado para controlar e registrar a navegação dos funcionários na Internet, aplicar políticas de filtragem de conteúdo corporativo, fazer cache de páginas externas e mascarar os endereços IP das estações de trabalho perante os servidores web do mundo exterior.
 - **Reverse Proxy (Proxy Reverso):** Fica posicionado em frente aos **servidores internos de aplicação e bancos de dados** da instituição (ex.: Nginx, HAProxy, Envoy). Atua como a vitrine pública de entrada: recebe as requisições dos usuários da Internet, faz terminação SSL, aplica balanceamento de carga, acelera a entrega por meio de cache de conteúdo estático e oculta a topologia interna e a quantidade de servidores do datacenter contra invasores externos.
+
+---
+
+### Questão 08 (FGV - TRT / Analista Judiciário - TI - Servidores Proxy: Forward Proxy vs. Reverse Proxy)
+Os servidores proxy são intermediários de rede amplamente empregados para segurança, controle de acesso, anonimização e aceleração de tráfego.
+
+A respeito da distinção funcional entre um **Forward Proxy** e um **Reverse Proxy**, assinale a afirmativa correta:
+
+* **A)** O Forward Proxy fica posicionado na frente dos servidores web do tribunal para protegê-los contra invasões externas vindas da internet.
+* **B)** O **Forward Proxy** é posicionado à frente dos **clientes internos da rede corporativa**, atuando em nome dos colaboradores para intermediar o acesso à internet externa, sendo utilizado para filtragem de conteúdo web indesejado, aplicação de políticas de DLP, cache de navegação e auditoria de acessos de saída; ao passo que o **Reverse Proxy** é posicionado à frente dos **servidores internos da instituição**, interceptando as requisições de clientes externos da internet e repassando-as aos servidores de aplicação backend, atuando para balanceamento de carga, terminação SSL/TLS, aceleração de cache de páginas e proteção contra ataques externos (como DDoS).
+* **C)** O Reverse Proxy impede que os servidores internos recebam energia elétrica da rede predial.
+* **D)** Ambos os proxies realizam rigorosamente a mesma função e não possuem nenhuma diferença de posicionamento ou objetivo arquitetural.
+* **E)** O Forward Proxy é exclusivo de conexões via satélite do padrão DVB-S2.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Quem fica na frente dos servidores para protegê-los é o **Reverse Proxy** (Proxy Reverso).
+> - **B)** **CORRETA.** Distinção arquitetural clássica entre os tipos de proxy:
+>   - **Forward Proxy (Proxy de Saída):** O cliente interno sabe que está usando o proxy (ou é interceptado de modo transparente). O proxy esconde os clientes da internet: o site externo enxerga apenas o IP do proxy. Finalidades: controle de navegação corporativa, bloqueio de sites impróprios, auditoria de compliance e economia de banda por cache.
+>   - **Reverse Proxy (Proxy Reverso / de Entrada):** Os clientes da internet não sabem que estão falando com um proxy; eles pensam que estão acessando diretamente o portal oficial do tribunal. O proxy esconde e protege os servidores internos de aplicação. Finalidades: segurança perimetral, ocultação da topologia de backend, terminação SSL (descarrega a criptografia), compressão gzip e balanceamento de carga entre nós do cluster.
+> - **C)** Incorreta. Trata-se de software/hardware de rede de dados.
+> - **D)** Incorreta. Possuem papéis e direções de tráfego diametralmente opostos.
+> - **E)** Incorreta. São conceitos universais da arquitetura TCP/IP.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -303,6 +432,31 @@ Os Balanceadores de Carga (*Load Balancers*) distribuem o fluxo de requisições
 - **Faixa de 5 GHz:**
     - *Vantagem:* Menor índice de interferência, dezenas de canais não sobrepostos e capacidade para canais largos (80/160 MHz), oferecendo **altíssima vazão de dados**.
     - *Desvantagem:* Menor alcance de cobertura de sinal e maior atenuação ao atravessar obstáculos físicos.
+
+---
+
+### Questão 09 (FCC - TRT / Analista de Telecomunicações - Redes Sem Fio IEEE 802.11 e Frequências 2.4 GHz vs. 5 GHz)
+A implantação de redes locais sem fio corporativas (*WLAN / Wi-Fi*) baseadas na família de padrões IEEE 802.11 requer o planejamento criterioso de frequências e canais para evitar interferências de rádio e degradação de sinal.
+
+A respeito da comparação técnica entre as bandas de frequência de **2.4 GHz** e **5 GHz**, assinale a afirmativa correta:
+
+* **A)** A banda de 2.4 GHz oferece maiores taxas de transmissão de dados e mais canais sem sobreposição do que a banda de 5 GHz.
+* **B)** A frequência de **2.4 GHz** possui maior alcance geográfico e maior capacidade de penetração de obstáculos físicos (paredes e divisórias) devido ao seu comprimento de onda maior, porém sofre de grande congestionamento e dispõe de apenas **3 canais sem sobreposição mútua** no espectro padrão (canais 1, 6 e 11); ao passo que a frequência de **5 GHz** oferece larguras de canal muito maiores, taxas de transmissão significativamente mais elevadas e dezenas de canais descorrelacionados, com o *trade-off* de apresentar menor alcance útil e maior atenuação ao atravessar obstáculos sólidos.
+* **C)** A banda de 5 GHz é totalmente imune a qualquer atenuação provocada por paredes de concreto armado.
+* **D)** O padrão IEEE 802.11b opera exclusivamente na faixa de 60 GHz com velocidade de 10 Gigabits por segundo.
+* **E)** Fornos micro-ondas e telefones sem fio antigos operam exclusivamente na faixa de 5 GHz, deixando a faixa de 2.4 GHz livre de qualquer interferência.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A banda de 5 GHz oferece taxas de transferência ordens de grandeza superiores e muito mais canais não sobrepostos.
+> - **B)** **CORRETA.** Propriedades físicas fundamentais da radiofrequência em redes Wi-Fi:
+>   - **Banda de 2.4 GHz:** Comprimento de onda de cerca de 12,5 cm. **Vantagem:** Alcance mais longo e melhor propagação através de obstáculos sólidos. **Desvantagens:** Banda estreita, extremamente congestionada (Bluetooth, micro-ondas, telefones sem fio) e dispõe de apenas **três canais que não se sobrepõem: 1, 6 e 11** (canais adjacentes sofrem interferência de canal adjacente).
+>   - **Banda de 5 GHz:** Comprimento de onda de cerca de 6 cm. **Vantagens:** Mais de 20 canais sem sobreposição, suporte a canais agregados de 40, 80 e 160 MHz (Wi-Fi 5 e 6), fornecendo taxas de múltiplos Gigabits/s com baixíssima interferência. **Desvantagem:** Maior absorção pelo ar e severa atenuação por obstáculos físicos (paredes grossas atenuam fortemente o sinal).
+> - **C)** Incorreta. Sinais de frequências mais altas sofrem atenuação significativamente mais severa ao atravessar materiais densos.
+> - **D)** Incorreta. O 802.11b é um padrão legado de 1999 que operava em 2.4 GHz com taxa máxima de 11 Mbps.
+> - **E)** Incorreta. Fornos micro-ondas operam exatamente na faixa de **2.4 GHz** (frequência de ressonância da água), sendo a principal fonte de interferência eletromagnética não-Wi-Fi nessa banda.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -336,7 +490,7 @@ O problema é neutralizado pelo mecanismo opcional de reserva via quadros de con
 
 ---
 
-### Questão 04 (FCC - Adaptada / Analista de Infraestrutura de Redes de Comunicação)
+### Questão 10 (FCC - Adaptada / Analista de Infraestrutura de Redes de Comunicação)
 No que tange às redes sem fio fundamentadas no padrão IEEE 802.11 (Wi-Fi) e aos seus mecanismos de controle de acesso ao meio físico e topologia, é correto afirmar:
 
 * **A)** As redes Wi-Fi implementam o protocolo de acesso ao meio CSMA/CD, o qual baseia-se na detecção ativa e instantânea de colisões elétricas na antena transmissora para interromper transmissões conflitantes.
@@ -377,7 +531,7 @@ No que tange às redes sem fio fundamentadas no padrão IEEE 802.11 (Wi-Fi) e ao
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Tecnologia da Informação - Redes e Telecomunicações)
+### Questão 11 (FCC - Adaptada / Analista de Tecnologia da Informação - Redes e Telecomunicações)
 Em uma organização pública que implementou uma infraestrutura de rede corporativa sem fio (Wi-Fi), a equipe de segurança da informação adotou o padrão de segurança WPA3 no modo *Enterprise*.
 
 Em comparação com implementações domésticas baseadas em WPA2-Personal (PSK), a referida arquitetura governamental caracteriza-se por:
