@@ -103,6 +103,29 @@ Determinado setor administrativo de um Tribunal de Contas analisa diariamente de
 
 
 
+### Questão 02 (FCC - Adaptada / Analista de Planejamento e Gestão)
+Herbert Simon, em sua obra clássica *O Comportamento Administrativo* (prêmio Nobel de Economia de 1978), formulou a Teoria da **Racionalidade Limitada** (*Bounded Rationality*) na tomada de decisões.
+
+Segundo a teoria da racionalidade limitada de Simon:
+
+* **A)** O tomador de decisões é incapaz de obter e processar todas as informações disponíveis e prever todas as consequências futuras possíveis; por isso, em vez de buscar a decisão ótima máxima, ele opta por uma decisão **satisfatória** que atenda aos padrões mínimos aceitáveis.
+* **B)** O gestor público possui capacidade cognitiva infinita e recursos ilimitados para identificar a solução perfeita e maximizadora para cada problema.
+* **C)** O processo decisório deve ser guiado exclusivamente pela intuição e pela sorte, visto que a análise racional é impossível na vida pública.
+* **D)** As decisões programadas exigem a realização de assembleias públicas populares para cada ato administrativo rotineiro.
+* **E)** A racionalidade limitada impede que a Administração Pública utilize computadores ou sistemas de dados no auxílio à decisão.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Herbert Simon derrubou o mito do tomador de decisão econômico onisciente e onipotente (*racionalidade absoluta*): o ser humano possui limitações cognitivas, tempo escasso e informações incompletas. Por isso, ele atua no modelo do **homem administrativo**, que busca soluções satisfatórias (*satisficing*), e não maximizadoras.
+> - **B)** Incorreta. Visão do modelo da racionalidade absoluta que Simon refutou.
+> - **C)** Incorreta. Simon defende a racionalidade, reconhecendo apenas seus limites inerentes.
+> - **D), E)** Incorretas. Distorções que não representam o modelo de Simon.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. Condições Ambientais da Tomada de Decisão
 
 O contexto em que a decisão é tomada varia segundo a qualidade e a completude das informações disponíveis:
@@ -127,7 +150,7 @@ flowchart LR
 
 ---
 
-### Questão 02
+### Questão 03
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 A respeito da tomada de decisão em ambientes organizacionais e das condições de certeza, risco, incerteza e ambiguidade, assinale a opção correta:
 
@@ -151,6 +174,28 @@ A respeito da tomada de decisão em ambientes organizacionais e das condições 
 
 
 
+### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+Na tomada de decisão sob diferentes condições ambientais, a situação em que o tomador de decisão conhece os possíveis desfechos alternativos e dispõe de dados históricos ou cálculos matemáticos que lhe permitem atribuir **probabilidades estatísticas objetivas** à ocorrência de cada resultado denomina-se:
+
+* **A)** Tomada de decisão em Condição de Risco.
+* **B)** Tomada de decisão em Condição de Certeza Absoluta.
+* **C)** Tomada de decisão em Condição de Incerteza Completa.
+* **D)** Tomada de decisão por Anarquia Organizada (*Garbage Can*).
+* **E)** Decisão de Consenso Heurístico Irrestrito.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Condições de tomada de decisão: **Certeza**: os resultados futuros de cada alternativa são perfeitamente previsíveis e conhecidos; **Risco**: os desfechos não são certos, mas é possível estimar a **probabilidade matemática/estatística** de cada alternativa ocorrer com base em dados; **Incerteza**: os desfechos são imprevisíveis e não se conhecem probabilidades estatísticas.
+> - **B)** Incorreta. Na certeza, conhece-se com exatidão o resultado, sem risco de desvio.
+> - **C)** Incorreta. Na incerteza, inexistem dados de probabilidade calculável.
+> - **D)** Incorreta. Modelo da "lata de lixo" (Cohen, March e Olsen) para anarquias organizadas.
+> - **E)** Incorreta. Expressão sem respaldo na tipologia ambiental de decisões.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais
 
 A abordagem sistêmica concebe a instituição pública como um **sistema aberto** composto por partes dinamicamente interconectadas e em constante intercâmbio com a sociedade:
@@ -169,7 +214,7 @@ A abordagem sistêmica concebe a instituição pública como um **sistema aberto
 
 ---
 
-### Questão 03
+### Questão 05
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 O modelo de administração contemporâneo valoriza o pensamento holístico e a visão sistêmica em oposição aos tradicionais modelos mecanicistas burocráticos. A respeito da visão sistêmica aplicada às organizações públicas, assinale a afirmativa correta:
 
@@ -191,6 +236,28 @@ O modelo de administração contemporâneo valoriza o pensamento holístico e a 
 
 ---
 
+
+
+### Questão 06 (FCC - Adaptada / Analista de Tecnologia e Controle)
+No Gerenciamento de Projetos e no controle do cronograma de atividades interdependentes, o método do **Caminho Crítico** (*Critical Path Method - CPM*) define-se como:
+
+* **A)** A sequência mais longa de atividades dependentes no diagrama de rede do projeto que determina a duração total mínima necessária para a conclusão do projeto, caracterizando-se por ter folga total igual a zero.
+* **B)** O conjunto de tarefas com menor custo financeiro que podem ser canceladas sem prejuízo do cronograma.
+* **C)** A lista de atividades secundárias executadas simultaneamente por equipes de suporte terceirizadas.
+* **D)** O gráfico de barras que demonstra a distribuição de competências funcionais dos membros da equipe.
+* **E)** O caminho que concentra exclusivamente os riscos jurídicos e trabalhistas do contrato de engenharia.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **Caminho Crítico (CPM)** é a trajetória mais longa através do diagrama de rede (com maior duração total). As atividades que integram o caminho crítico têm **folga zero** (*zero slack*): qualquer atraso em uma atividade crítica provocará automaticamente atraso idêntico na data final de entrega de todo o projeto.
+> - **B)** Incorreta. Atividades críticas não podem ser suprimidas ou atrasadas.
+> - **C)** Incorreta. Descreve tarefas não críticas ou paralelas com folga.
+> - **D)** Incorreta. Gráfico de barras é o Gráfico de Gantt.
+> - **E)** Incorreta. CPM é metodologia de gestão de tempo e sequenciamento de atividades.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT
@@ -241,7 +308,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Questão 07
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A respeito das técnicas de planejamento e cronograma utilizadas no gerenciamento de projetos, o Método do Caminho Crítico (CPM) caracteriza-se fundamentalmente por:
 
@@ -263,7 +330,7 @@ A respeito das técnicas de planejamento e cronograma utilizadas no gerenciament
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 No âmbito da gestão estratégica de projetos governamentais, uma equipe necessita estimar a duração provável de uma atividade inédita de digitalização de acervo histórico. Os especialistas estimaram que, no melhor cenário possível (otimista), a tarefa demandará 10 dias; no cenário mais provável, exigirá 16 dias; e, no pior cenário concebível (pessimista), demandará 28 dias. Utilizando a consagrada técnica probabilística PERT (*Program Evaluation and Review Technique*), a estimativa de tempo esperado (TE) para essa atividade é de:
 
@@ -285,6 +352,48 @@ No âmbito da gestão estratégica de projetos governamentais, uma equipe necess
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Na teoria das organizações e no pensamento sistêmico, o fenômeno patológico no qual departamentos e setores operam de forma isolada, defendendo interesses corporativos paroquiais e fechando canais de comunicação com as demais unidades da instituição é denominado:
+
+* **A)** Silos Organizacionais (Mentalidade de Silo).
+* **B)** Holacracia Sistêmica Integrada.
+* **C)** Sinergia Coletiva Positiva.
+* **D)** Homeostase Dinâmica Adaptativa.
+* **E)** Entropia Negativa Expansiva.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **mentalidade de silo (ou silos organizacionais)** ocorre quando divisões e gerências funcionam como redomas fechadas e impermeáveis ("feudos burocráticos"), bloqueando a troca de dados, gerando retrabalhos, desconfiança e inviabilizando a visão sistêmica e holística da instituição.
+> - **B)** Incorreta. Holacracia é modelo de gestão sem hierarquia tradicional e de alta cooperação.
+> - **C)** Incorreta. Sinergia positiva significa que o todo é maior que a soma das partes (cooperação produtiva).
+> - **D)** Incorreta. Homeostase é a capacidade de autorregulação e equilíbrio do sistema aberto.
+> - **E)** Incorreta. Entropia negativa (negentropia) é a importação de energia para evitar o perecimento do sistema.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+No gerenciamento de projetos, a técnica **PERT** (*Program Evaluation and Review Technique*) é particularmente recomendada quando as durações das atividades são incertas, utilizando uma média ponderada baseada em três estimativas de tempo:
+
+As três estimativas temporais consideradas pelo modelo PERT são:
+
+* **A)** Tempo Otimista (a), Tempo Mais Provável (m) e Tempo Pessimista (b).
+* **B)** Tempo Mínimo legal, Tempo Médio da carreira e Tempo Máximo de estabilidade.
+* **C)** Duração da licitação, Duração do contrato e Duração da garantia.
+* **D)** Horário bancário de abertura, fechamento e compensação.
+* **E)** Prazo prescricional, Prazo decadencial e Prazo preclusivo.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O modelo probabilístico do **PERT** calcula a duração esperada (*Expected Time - TE*) pela fórmula ponderada: \(TE = rac{a + 4m + b}{6}\), onde: **a** = tempo otimista (tudo dá certo); **m** = tempo mais provável (condições normais de operação); **b** = tempo pessimista (cenário em que ocorrem adversidades e problemas).
+> - **B), C), D), E)** Incorretas. Distorções sem respaldo técnico na metodologia PERT.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 5. Fontes Oficiais e Referências Bibliográficas

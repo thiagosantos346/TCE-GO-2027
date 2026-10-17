@@ -140,6 +140,30 @@ Determinada equipe de modernização administrativa do Tribunal de Contas recebe
 
 ---
 
+### Questão 02 (FCC - Adaptada / Analista de Planejamento e Gestão)
+O Ciclo PDCA (desenvolvido por Walter Shewhart e amplamente disseminado por W. Edwards Deming) constitui metodologia clássica de melhoria contínua de processos organizacionais.
+
+A etapa do ciclo em que a organização analisa e avalia sistematicamente as diferenças entre os resultados executados e as metas planejadas, identificando causas de variações para adoção de medidas saneadoras, denomina-se:
+
+* **A)** Check (Verificar / Checar).
+* **B)** Plan (Planejar).
+* **C)** Do (Executar / Fazer).
+* **D)** Act (Agir corretivamente / Padronizar).
+* **E)** Decide (Decidir discricionariamente).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. No ciclo **PDCA**: **Plan** (planejar metas); **Do** (executar); **Check** (checar/verificar resultados frente às metas e identificar desvios); **Act** (agir corretivamente e padronizar).
+> - **B)** Incorreta. Planejar é fixação inicial.
+> - **C)** Incorreta. Executar é implementação.
+> - **D)** Incorreta. Agir é correção definitiva e padronização.
+> - **E)** Incorreta. Fase inexistente no modelo.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 2. Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)
 
 O **Decreto Federal nº 9.094/2017** (regulamentado e reforçado pela Lei Federal nº 13.726/2018 - Lei de Desburocratização) estabeleceu diretrizes expressas de simplificação administrativa e presunção de boa-fé nas relações entre a administração pública e a sociedade:
@@ -176,7 +200,7 @@ A Carta de Serviços ao Usuário é um instrumento de governança e transparênc
 
 ---
 
-### Questão 02 (FCC – TCE-PI – Auditor de Controle Externo)
+### Questão 03 (FCC – TCE-PI – Auditor de Controle Externo)
 Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para requerer certidão de regularidade funcional, apresentando cópia simples de sua cédula de identidade acompanhada do documento original. O atendente público recusou o recebimento da documentação, exigindo que o requerente providenciasse prévia autenticação da cópia e reconhecimento de firma em cartório de notas. Considerando o disposto no Decreto Federal nº 9.094/2017 e na legislação correlata sobre simplificação de serviços públicos:
 
 * **A)** A conduta do atendente foi correta, pois a fé pública de documentos apresentados ao Estado depende de reconhecimento notarial.
@@ -197,6 +221,30 @@ Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para reque
 
 ---
 
+
+
+### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+Na Gestão de Processos de Negócio (BPM), a análise da situação corrente do processo para mapear seus gargalos, ineficiências e retrabalhos existentes é contraposta ao desenho da situação ideal futura pretendida.
+
+Esses dois estágios do ciclo BPM são internacionalmente denominados, respectivamente:
+
+* **A)** Mapeamento *AS-IS* (como o processo é executado atualmente) e Modelagem *TO-BE* (como o processo deverá ser executado no futuro após otimização).
+* **B)** Planejamento *BOTTOM-UP* e Execução *TOP-DOWN*.
+* **C)** Cadeia de Suprimentos *KANBAN* e Manufatura *JUST-IN-TIME*.
+* **D)** Metodologia *SCRUM* e Painel de Controle *BALANCED SCORECARD*.
+* **E)** Matriz *SWOT* e Matriz *BCG*.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Padrão BPM CBOK: **AS-IS** (diagnóstico da situação atual, gargalos e desperdícios); **TO-BE** (modelo do processo futuro otimizado).
+> - **B)** Incorreta. Fluxos direcionais de planejamento.
+> - **C)** Incorreta. Ferramentas de manufatura.
+> - **D)** Incorreta. Scrum é ágil; BSC é estratégico.
+> - **E)** Incorreta. Matrizes de diagnóstico e portfólio.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 3. Gestão de Processos de Negócio (BPM)
@@ -235,7 +283,7 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC – SEFAZ-SC – Auditor Fiscal da Receita Estadual)
+### Questão 05 (FCC – SEFAZ-SC – Auditor Fiscal da Receita Estadual)
 No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Business Process Management), os processos organizacionais são classificados em finalísticos, de suporte e de gerenciamento. Assinale a alternativa que apresenta um exemplo legítimo de processo de suporte (secundário) em uma organização pública:
 
 * **A)** Realização de fiscalização tributária e lançamento de ofício do crédito tributário estadual.
@@ -271,6 +319,30 @@ flowchart LR
 
 ---
 
+### Questão 06 (FCC - Adaptada / Analista de Tecnologia e Controle)
+No Gerenciamento de Projetos, as metodologias ágeis (como o Scrum) ganharam amplo espaço no setor público pela necessidade de entregas parciais e adaptação constante a mudanças.
+
+No framework **Scrum**, a reunião diária, curta e estruturada (de cerca de 15 minutos), na qual a equipe alinha o andamento dos trabalhos e identifica impedimentos imediatos, é denominada:
+
+* **A)** Daily Scrum (ou Daily Stand-up).
+* **B)** Sprint Review.
+* **C)** Sprint Retrospective.
+* **D)** Sprint Planning.
+* **E)** Product Backlog Refinement.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **Daily Scrum** é a reunião diária da equipe (15 minutos) para alinhamento e identificação de impedimentos.
+> - **B)** Incorreta. Sprint Review homologa o incremento da Sprint.
+> - **C)** Incorreta. Sprint Retrospective avalia melhorias internas da equipe.
+> - **D)** Incorreta. Sprint Planning planeja as tarefas da Sprint.
+> - **E)** Incorreta. Refinamento de backlog detalha itens futuros.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 4. Gestão de Projetos segundo o Guia PMBOK (PMI)
 
 #### 4.1 Distinção Conceitual: Projeto versus Processo
@@ -285,7 +357,7 @@ A doutrina da administração e a jurisprudência da FCC cobram com rigor a dist
 
 ---
 
-### Questão 04 (FCC – TCE-RS – Auditor de Controle Externo)
+### Questão 07 (FCC – TCE-RS – Auditor de Controle Externo)
 No âmbito da gestão estratégica e da teoria das organizações, a respeito das distinções essenciais entre a gestão de processos de negócio e a gestão de projetos:
 
 * **A)** Os projetos caracterizam-se por sua natureza contínua e repetitiva, destinando-se a manter estabilizadas as operações de rotina da organização.
@@ -333,7 +405,7 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC – ARTESP – Especialista em Regulação de Transportes)
+### Questão 08 (FCC – ARTESP – Especialista em Regulação de Transportes)
 Em relação ao gerenciamento de projetos estruturado segundo as boas práticas do guia PMBOK (Project Management Institute), assinale a opção correta:
 
 * **A)** O Termo de Abertura do Projeto (TAP) é emitido após o término da execução física para consolidar as lições aprendidas pela equipe.
@@ -361,6 +433,51 @@ $$\text{Escopo} \iff \text{Tempo / Cronograma} \iff \text{Custo / Orçamento}$$
 A alteração em qualquer um desses vértices impacta compulsoriamente os outros dois (ex.: antecipar o prazo de conclusão exige aumento de custos com horas extras ou redução do escopo entregue).
 
 ---
+
+### Questão 09 (FCC - Adaptada / Analista Jurídico de Controle)
+O Decreto Federal nº 9.094/2017 (que simplifica o atendimento aos usuários dos serviços públicos e institui a Carta de Serviços) e a Lei Federal nº 13.460/2017 trazem normas expressas para a desburocratização administrativa.
+
+A respeito das exigências documentais dirigidas aos cidadãos e usuários do serviço público, de acordo com o Decreto nº 9.094/2017:
+
+* **A)** É vedada a exigência de reconhecimento de firma e de cópia autenticada em cartório de documentos expedidos no País, devendo a autenticação ser feita pelo próprio agente público mediante confronto com o original, ressalvada expressa previsão legal em contrário.
+* **B)** É obrigatória a apresentação mensal de certidões negativas de débito cível e criminal em todo requerimento administrativo individual de protocolo.
+* **C)** A Administração Pública não pode admitir a autodeclaração de veracidade sob nenhuma hipótese, exigindo sempre laudos periciais cartorários.
+* **D)** O cidadão tem o ônus exclusivo de obter certidões emitidas por outros órgãos do próprio Poder Executivo, sendo proibido o compartilhamento eletrônico de dados entre repartições estatais.
+* **E)** A Carta de Serviços ao Cidadão possui caráter meramente facultativo e sigiloso, não devendo ser publicada na internet.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Decreto nº 9.094/2017 e Lei nº 13.726/2018 dispensam reconhecimento de firma e autenticação cartorária como regra geral, cabendo ao servidor atestar o confere com o original.
+> - **B)** Incorreta. Vedado exigir certidões que o Estado já possui.
+> - **C)** Incorreta. Admite-se autodeclaração de veracidade.
+> - **D)** Incorreta. Órgãos devem compartilhar bases de dados entre si.
+> - **E)** Incorreta. A Carta de Serviços é obrigatória e pública.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+Na elaboração do Termo de Abertura do Projeto (*Project Charter*) e no planejamento do escopo segundo as boas práticas do Guia PMBOK, a ferramenta estruturada que decompõe hierarquicamente o trabalho total do projeto em entregas menores e pacotes de trabalho gerenciáveis é a:
+
+* **A)** Estrutura Analítica do Projeto (EAP) / *Work Breakdown Structure (WBS)*.
+* **B)** Diagrama de Dispersão de Ishikawa.
+* **C)** Curva ABC de Pareto.
+* **D)** Matriz GUT de Gravidade, Urgência e Tendência.
+* **E)** Análise de Regressão Linear Múltipla.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **Estrutura Analítica do Projeto (EAP)** decompõe hierarquicamente o escopo total em entregas e pacotes de trabalho gerenciáveis.
+> - **B)** Incorreta. Ishikawa analisa causas raízes.
+> - **C)** Incorreta. Curva ABC/Pareto prioriza falhas/itens (80/20).
+> - **D)** Incorreta. Matriz GUT prioriza problemas.
+> - **E)** Incorreta. Ferramenta estatística.
+> 
+> **Gabarito: A**
+
+---
+
 
 ## 🌐 Fontes Oficiais & Referências Bibliográficas
 

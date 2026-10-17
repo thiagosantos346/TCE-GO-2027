@@ -58,6 +58,33 @@ A segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como 
     - *Ameaças clássicas:* Ataques de negação de serviço (DoS e DDoS), falhas físicas de hardware em servidores e storages, interrupção no fornecimento de energia elétrica, panes nos links de internet e desastres ambientais (enchentes, incêndios em datacenters).
     - *Mecanismos técnicos:* Redundância de hardware e fontes de alimentação, clusters de alta disponibilidade (HA ativo-ativo ou ativo-passivo), sistemas anti-DDoS, geradores e nobreaks comutáveis, planos de continuidade de negócios (PCN/DRP) e rotinas estruturadas de backup.
 
+### Questão 01 (FGV - TRT / Analista Judiciário - TI - A Tríade CID e Atributos da Segurança)
+A segurança da informação visa proteger os ativos organizacionais contra riscos cibernéticos, estruturando-se tradicionalmente em torno dos pilares da **Confidencialidade**, **Integridade** e **Disponibilidade** (Tríade CID).
+
+Considere as seguintes situações ocorridas na infraestrutura de TI de um tribunal:
+
+1. Um ataque de negação de serviço distribuído (DDoS) satura a largura de banda do datacenter, impedindo cidadãos e advogados de acessarem o portal do processo eletrônico durante todo o horário de expediente forense.  
+2. Um atacante intercepta a transmissão de um despacho judicial e altera fraudulentamente o valor da condenação antes de retransmitir o pacote à parte credora.  
+3. Um funcionário não autorizado obtém acesso a uma pasta compartilhada na rede interna e visualiza autos de processo que tramitavam em segredo de justiça estrito.  
+
+As situações 1, 2 e 3 caracterizam, rigorosa e respectivamente, violações aos princípios de:
+
+* **A)** Integridade, Confidencialidade e Disponibilidade.
+* **B)** Disponibilidade, Integridade e Confidencialidade.
+* **C)** Confidencialidade, Não Repúdio e Integridade.
+* **D)** Disponibilidade, Autenticidade e Irretratabilidade.
+* **E)** Integridade, Disponibilidade e Legalidade.
+
+> **Comentário Detalhado:**
+>
+> - **Situação 1:** Trata-se de violação direta à **Disponibilidade**: a propriedade de que a informação e os sistemas estejam acessíveis e utilizáveis sob demanda por pessoas ou processos devidamente autorizados. O ataque DDoS torna o serviço inoperante.
+> - **Situação 2:** Trata-se de violação direta à **Integridade**: a salvaguarda da exatidão, precisão e completude da informação e dos métodos de processamento, impedindo modificações, inserções ou exclusões não autorizadas ou acidentais.
+> - **Situação 3:** Trata-se de violação direta à **Confidencialidade**: a garantia de que a informação não seja disponibilizada ou divulgada a indivíduos, entidades ou processos não autorizados.
+> 
+> **Gabarito: B**
+
+---
+
 ### 1.2 Autenticidade, Não Repúdio e Atributos Complementares
 
 * **Autenticidade (*Authenticity*):**
@@ -88,7 +115,7 @@ A segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como 
 
 ---
 
-### Questão 01
+### Questão 02
 **(FCC - DPE-RS - Analista de Tecnologia da Informação)**
 Durante uma auditoria de conformidade em um sistema eletrônico de protocolo processual do Tribunal de Contas, os auditores avaliaram a eficácia de diferentes mecanismos de segurança da informação.
 Relacione as situações práticas descritas a seguir com o princípio fundamental de segurança correspondente (CIDAN):
@@ -150,7 +177,7 @@ No setor público brasileiro, **a publicidade é a regra geral** e o sigilo é a
 
 ---
 
-### Questão 02
+### Questão 03
 **(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
 A Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI) dispõe sobre os procedimentos a serem observados pela União, Estados, DF e Municípios com o fim de garantir o acesso a informações públicas, estabelecendo regras para a classificação e proteção de dados que exijam restrição de acesso por motivos de segurança da sociedade ou do Estado.
 Considere as seguintes assertivas sobre os graus de sigilo e prazos previstos na LAI:
@@ -196,6 +223,33 @@ No âmbito corporativo preconizado pela ISO/IEC 27002:
 
 ---
 
+### Questão 04 (FCC - TRT / Analista Judiciário - TI - Classificação Corporativa de Informações)
+No âmbito da governança de segurança da informação fundamentada nas normas ABNT NBR ISO/IEC 27001 e 27002, a classificação e a rotulagem de ativos informacionais são mandatórias para garantir que a informação receba um nível adequado de proteção de acordo com sua sensibilidade e criticidade.
+
+Em uma estrutura corporativa padrão de 4 níveis, assinale a afirmativa que define corretamente a categoria **Confidencial**:
+
+* **A)** Informação destinada à divulgação ampla para a sociedade civil, sem qualquer restrição de acesso ou direitos autorais.
+* **B)** Informação de uso irrestrito por qualquer colaborador da organização, cuja divulgação não causa nenhum impacto negativo à instituição.
+* **C)** Informação de elevado valor estratégico ou sensibilidade jurídica, cujo acesso é restrito estritamente a indivíduos com necessidade funcional indispensável de conhecê-la (*Need-to-Know*), e cujo vazamento ou divulgação não autorizada provocaria prejuízos financeiros, regulatórios, institucionais ou operacionais graves à organização.
+* **D)** Informação que não precisa de senhas ou criptografia e pode ser postada livremente nas redes sociais corporativas.
+* **E)** Documentos exclusivamente históricos produzidos há mais de 100 anos desprovidos de validade jurídica.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Descreve a categoria **Pública**.
+> - **B)** Incorreta. Descreve a categoria **Uso Interno** (ou Corporativo Geral).
+> - **C)** **CORRETA.** Na taxonomia corporativa de segurança da informação (ISO/IEC 27002, controle 5.12):
+>   - **Pública:** Divulgação irrestrita.
+>   - **Interna:** Acessível por funcionários para atividades rotineiras.
+>   - **Restrita:** Acessível por áreas ou grupos funcionais específicos.
+>   - **Confidencial (ou Estritamente Confidencial):** Mais alto grau de proteção na taxonomia corporativa privada/geral. Exige segregação severa de privilégios baseada na "necessidade de conhecer" (*Need-to-Know*), criptografia em repouso e em trânsito, auditoria minuciosa de acessos e termo de confidencialidade formal, visto que seu comprometimento acarreta danos severos à instituição.
+> - **D)** Incorreta. É a antítese de informação confidencial.
+> - **E)** Incorreta. O critério de confidencialidade é a sensibilidade do dano em caso de vazamento, e não a antiguidade física do papel.
+> 
+> **Gabarito: C**
+
+---
+
 ## 3. Gestão e Análise de Riscos de Segurança da Informação
 
 A gestão de riscos estabelece um processo contínuo e estruturado para identificar incertezas, avaliar a probabilidade de falhas e selecionar salvaguardas economicamente proporcionais.
@@ -228,6 +282,33 @@ A gestão de riscos estabelece um processo contínuo e estruturado para identifi
     - *Risco Inerente:* Risco existente em seu estado natural bruto, antes da implementação de qualquer controle protetivo.
     - *Risco Residual:* Risco que subsiste e permanece após o projeto e a entrada em operação dos controles de segurança mitigadores. Deve situar-se estritamente abaixo do **Apetite ao Risco** fixado pela diretoria do tribunal.
 
+### Questão 05 (FGV - TRT / Analista Judiciário - TI - Gestão de Riscos: Ativo, Ameaça e Vulnerabilidade)
+Segundo as diretrizes para gestão de riscos de segurança da informação da ABNT NBR ISO/IEC 27005, o risco é formalmente concebido como a combinação da probabilidade de ocorrência de um evento com suas consequências/impactos sobre os ativos organizacionais.
+
+A respeito das definições normativas dos componentes do risco, assinale a afirmativa correta:
+
+* **A)** Uma ameaça é uma fraqueza ou falha intrínseca de um ativo ou controle que pode ser explorada por agentes externos.
+* **B)** Uma vulnerabilidade é uma causa potencial de um incidente indesejado, que pode resultar em dano a um sistema ou organização.
+* **C)** O risco manifesta-se quando uma **Ameaça** (agente com potencial de causar dano) explora com sucesso uma **Vulnerabilidade** (fraqueza ou brecha em hardware, software, processos ou pessoas), provocando um impacto adverso sobre um **Ativo** de informação valioso.
+* **D)** Se uma organização possui uma vulnerabilidade grave em um sistema isolado que não possui nenhuma ameaça correspondente nem é exposto a rede, o risco é matematicamente infinito.
+* **E)** Ativo de informação é exclusivamente o gabinete metálico da CPU do computador.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Inverteu o conceito: fraqueza ou brecha intrínseca é uma **Vulnerabilidade**.
+> - **B)** Incorreta. Inverteu o conceito: causa potencial de incidente indesejado é uma **Ameaça**.
+> - **C)** **CORRETA.** Relação ontológica canônica da **ISO/IEC 27005**:
+>   - **Ativo (Asset):** Qualquer coisa que tenha valor para a organização (dados, software, reputação, infraestrutura).
+>   - **Ameaça (Threat):** Evento, ator ou fenômeno com potencial de provocar danos (hackers, malwares, desastres naturais, erros humanos).
+>   - **Vulnerabilidade (Vulnerability):** Fragilidade ou ponto fraco em um ativo ou salvaguarda que pode ser explorado por uma ou mais ameaças.
+>   - **Risco:** O potencial de uma ameaça explorar uma vulnerabilidade para causar impacto negativo nos objetivos de negócio. Sem vulnerabilidade ou sem ameaça, o risco é nulo.
+> - **D)** Incorreta. Sem ameaça presente, a probabilidade de exploração é zero, logo o risco residual é nulo ou negligenciável ($Risco = Ameaça \times Vulnerabilidade \times Impacto$).
+> - **E)** Incorreta. Ativo abrange informações digitais, impressas, conhecimento humano, softwares, bancos de dados e serviços.
+> 
+> **Gabarito: C**
+
+---
+
 ### 3.2 Análise Qualitativa vs. Análise Quantitativa (SLE, ARO e ALE)
 
 * **Análise Qualitativa:**
@@ -248,7 +329,7 @@ A gestão de riscos estabelece um processo contínuo e estruturado para identifi
 
 ---
 
-### Questão 03
+### Questão 06
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 Durante o processo de avaliação quantitativa de riscos de um banco de dados do Tribunal de Contas avaliado em R$ 400.000,00, a equipe de segurança apurou que um ataque cibernético de ransomware causaria uma perda direta de 40% sobre o valor desse ativo. O histórico de segurança do órgão e os relatórios de inteligência de ameaças apontam que a taxa anual estimada de ocorrência desse tipo de incidente para órgãos do mesmo porte é de 0,25 vezes por ano (isto é, 1 incidente a cada 4 anos).
 Com base nas métricas clássicas de análise quantitativa de risco ($\text{SLE}$, $\text{ARO}$ e $\text{ALE}$), assinale a opção que apresenta, respectivamente, o valor da Expectativa de Perda Única ($\text{SLE}$) e da Expectativa de Perda Anual ($\text{ALE}$):
@@ -291,6 +372,35 @@ Concluída a avaliação do risco, a organização deve optar formalmente por um
 
 ---
 
+### Questão 07 (FCC - TRT / Analista Judiciário - TI - Estratégias de Tratamento de Riscos segundo a ISO/IEC 27005)
+Após a conclusão das etapas de identificação e avaliação de riscos de segurança da informação, a organização deve selecionar a resposta apropriada para cada risco avaliado no processo de **Tratamento do Risco** (*Risk Treatment*).
+
+A norma ABNT NBR ISO/IEC 27005 e o framework ISO 31000 prescrevem quatro opções clássicas de tratamento: **Modificação (Mitigação)**, **Retenção (Aceitação)**, **Evitação** e **Compartilhamento (Transferência)**.
+
+Assinale a opção que ilustra corretamente uma estratégia de **Compartilhamento / Transferência do Risco**:
+
+* **A)** A contratação de uma apólice de seguro contra incidentes cibernéticos (*Cyber Insurance*) ou a inclusão de cláusulas contratuais de indenização e responsabilidade financeira em contratos de serviços terceirizados de datacenter em nuvem.
+* **B)** A decisão deliberada da alta administração em não adotar nenhuma salvaguarda e arcar com os prejuízos operacionais caso o incidente venha a ocorrer.
+* **C)** A desativação definitiva de um serviço legado inseguro de FTP e cancelamento total da atividade de transferência externa de arquivos para eliminar a exposição ao perigo.
+* **D)** A instalação de um sistema de firewall de última geração e criptografia de ponta a ponta para reduzir a probabilidade e o impacto de invasões.
+* **E)** A execução de testes de penetração mensais sem qualquer correção de código.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Estratégias canônicas de tratamento do risco (ISO 27005 / ISO 31000):
+>   1. **Compartilhar / Transferir (Risk Sharing/Transfer):** Envolve repassar parte do impacto financeiro ou operacional do risco a um terceiro, comumente via **seguros contra riscos cibernéticos** ou cláusulas contratuais com provedores terceirizados (SLA com multas). *A responsabilidade final pelo negócio continua com a organização, mas o encargo financeiro do risco é transferido.*
+>   2. **Mitigar / Modificar (Risk Mitigation/Modification):** Aplicar controles de segurança (firewalls, criptografia, conscientização) para reduzir a probabilidade e/ou o impacto do risco. (Descrito em D).
+>   3. **Evitar (Risk Avoidance):** Decidir não iniciar ou descontinuar a atividade ou processo que dá origem ao risco. (Descrito em C).
+>   4. **Aceitar / Reter (Risk Retention/Acceptance):** Decisão fundamentada de manter o risco em seu nível atual sem controles adicionais, desde que esteja dentro do apetite a risco da alta gestão. (Descrito em B).
+> - **B)** Incorreta. Exemplifica Aceitação / Retenção do Risco.
+> - **C)** Incorreta. Exemplifica Evitação do Risco (*Avoidance*).
+> - **D)** Incorreta. Exemplifica Modificação / Mitigação do Risco.
+> - **E)** Incorreta. Fazer testes sem agir não constitui tratamento de risco eficaz.
+> 
+> **Gabarito: A**
+
+---
+
 ## 4. Gestão de Vulnerabilidades e Resposta a Incidentes
 
 ### 4.1 Métricas do CVSS v3.1 (Common Vulnerability Scoring System)
@@ -307,6 +417,39 @@ O padrão CVSS (mantido pelo FIRST) quantifica a gravidade técnica de vulnerabi
     - `4.0` a `6.9`: Média (*Medium*)
     - `7.0` a `8.9`: Alta (*High*)
     - `9.0` a `10.0`: Crítica (*Critical*)
+
+### Questão 08 (FGV - TRT / Analista Judiciário - TI - Métricas e Pontuação do CVSS v3.1)
+O *Common Vulnerability Scoring System* (CVSS v3.1) é o padrão aberto internacional gerenciado pelo FIRST para pontuar e mensurar a severidade técnica de vulnerabilidades de segurança de software e hardware.
+
+A respeito da estrutura das métricas e da escala de pontuação do CVSS v3.1, assinale a afirmativa correta:
+
+* **A)** O CVSS gera uma pontuação contínua que varia de 0,0 a 10,0, onde vulnerabilidades com escore entre 9,0 e 10,0 são classificadas no nível de severidade **Crítico** (*Critical*).
+* **B)** O grupo de Métricas Base (*Base Metrics Group*) mede as características que mudam com o passar do tempo e a disponibilidade de código de exploração (*exploit*) na internet.
+* **C)** A métrica Vetor de Ataque (*Attack Vector - AV*) avalia apenas se o hacker possui nacionalidade brasileira.
+* **D)** O escore de severidade do CVSS varia entre -100 e +100 pontos percentuais.
+* **E)** Vulnerabilidades com escore Base igual a 0,0 são classificadas como emergência máxima de segurança nacional.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Estrutura formal do **CVSS v3.1**:
+>   - **Escala de Severidade Qualitativa do FIRST:**
+>     - **Nenhum (None):** $0,0$
+>     - **Baixo (Low):** $0,1 - 3,9$
+>     - **Médio (Medium):** $4,0 - 6,9$
+>     - **Alto (High):** $7,0 - 8,9$
+>     - **Crítico (Critical):** $9,0 - 10,0$
+>   - **Três Grupos de Métricas:**
+>     1. **Métricas Base (Base Metrics):** Qualidades intrínsecas constantes e imutáveis da falha (Explorabilidade: Vetor de Ataque, Complexidade, Privilégios Necessários, Interação do Usuário, Escopo; e Impacto: Confidencialidade, Integridade, Disponibilidade).
+>     2. **Métricas Temporais (Temporal Metrics):** Fatores que variam ao longo do tempo (Maturidade do Código de Exploit, Nível de Remediação / Patches, Confiança no Relato).
+>     3. **Métricas Ambientais (Environmental Metrics):** Características customizadas ao ambiente específico da organização.
+> - **B)** Incorreta. Quem mede aspectos que mudam no tempo é o grupo de **Métricas Temporais**, não as Métricas Base.
+> - **C)** Incorreta. O *Attack Vector (AV)* mede o contexto de rede necessário para explorar a falha: Rede (*Network - N*), Adjacente (*Adjacent - A*), Local (*Local - L*) ou Físico (*Physical - P*).
+> - **D)** Incorreta. A escala é padronizada de $0,0$ a $10,0$.
+> - **E)** Incorreta. Escore $0,0$ é *None* (ausência de severidade).
+> 
+> **Gabarito: A**
+
+---
 
 ### 4.2 As Quatro Fases do Ciclo de Resposta a Incidentes (NIST SP 800-61)
 
@@ -344,7 +487,7 @@ O tratamento de incidentes cibernéticos adota o ciclo formalizado no guia NIST 
 
 ---
 
-### Questão 04
+### Questão 09
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 De acordo com o guia de boas práticas para tratamento de incidentes de segurança cibernética do NIST (NIST SP 800-61 Rev. 2) e as diretrizes da norma ISO/IEC 27035, um incidente cibernético confirmado deve ser processado segundo um ciclo estruturado de fases operacionais.
 Ao detectar a proliferação acelerada de um malware em sua rede corporativa, a equipe de segurança da informação procedeu imediatamente com o isolamento físico dos servidores comprometidos através do desligamento das portas de switch correspondentes, com o intuito de conter a ameaça e evitar que outros nós fossem atingidos.
@@ -389,7 +532,7 @@ A norma **ABNT NBR ISO/IEC 27001** estabelece os requisitos formais para estabel
 
 ---
 
-### Questão 05
+### Questão 10
 **(FCC - SEFAZ-PE - Auditoria Fiscal - Gestão de Riscos e Normas ISO/IEC 27000)**
 A respeito dos conceitos de gestão de riscos e da família de normas ABNT NBR ISO/IEC 27000, assinale a afirmativa correta:
 
@@ -442,6 +585,35 @@ A edição atualizada (ISO/IEC 27002:2022) simplificou os antigos 14 domínios d
     4. A **justificativa formal obrigatória para a exclusão** de qualquer controle que não tenha sido adotado.
 
 - **ISO/IEC 27005:** Norma que fornece diretrizes especializadas para o processo de avaliação e tratamento de riscos de segurança da informação no suporte ao SGSI.
+
+---
+
+### Questão 11 (FGV - TRT / Analista Judiciário - TI - A Nova ISO/IEC 27002:2022: Estrutura de Temas e Controles)
+A norma ABNT NBR ISO/IEC 27002:2022 promoveu uma das mais profundas reestruturações na história do Sistema de Gestão da Segurança da Informação (SGSI), simplificando e modernizando o catálogo de controles de segurança.
+
+A respeito da nova taxonomia e da quantidade de controles previstos na **ISO/IEC 27002:2022**, assinale a afirmativa correta:
+
+* **A)** A edição de 2022 expandiu os controles para 250 itens divididos em 30 seções alfabéticas.
+* **B)** A ISO/IEC 27002:2022 agrupou todos os seus **93 controles de segurança** em apenas **4 temas ou cláusulas principais**: Controles Organizacionais (Cláusula 5 - 37 controles), Controles de Pessoas (Cláusula 6 - 8 controles), Controles Físicos (Cláusula 7 - 14 controles) e Controles Tecnológicos (Cláusula 8 - 34 controles).
+* **C)** A norma ISO/IEC 27002:2022 eliminou os controles tecnológicos para focar exclusivamente em barreiras físicas com cadeados.
+* **D)** A Declaração de Aplicabilidade (SoA - *Statement of Applicability*) foi revogada pela ISO/IEC 27001 e deixou de ser exigida em auditorias de certificação.
+* **E)** Todos os 93 controles da nova edição são de implementação obrigatória para qualquer empresa, sendo vedada a exclusão justificada de controles não aplicáveis.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A versão anterior (2013) tinha 114 controles divididos em 14 seções; a nova edição de 2022 consolidou e reduziu o total para **93 controles**.
+> - **B)** **CORRETA.** Estrutura canônica e moderna da **ISO/IEC 27002:2022**:
+>   - Os 93 controles estão categorizados em **4 grandes temas**:
+>     1. **Controles Organizacionais (Cláusula 5):** 37 controles (políticas, gestão de ativos, classificação, direitos de propriedade intelectual, etc.).
+>     2. **Controles de Pessoas (Cláusula 6):** 8 controles (termos de contratação, conscientização, trabalho remoto).
+>     3. **Controles Físicos (Cláusula 7):** 14 controles (perímetros de segurança, descarte de mídias, cabeamento seguro).
+>     4. **Controles Tecnológicos (Cláusula 8):** 34 controles (autenticação, controle de acesso, criptografia, prevenção de vazamento de dados - DLP, monitoramento, mascaramento de dados).
+>   - Além disso, introduziu o inovador conceito de **atributos de controles** (*Control Attributes* com 5 dimensões: Tipo de Controle, Propriedades da Informação, Conceitos de Cibersegurança, Capacidades Operacionais e Domínios de Segurança).
+> - **C)** Incorreta. Os controles tecnológicos representam 34 controles vitais da norma.
+> - **D)** Incorreta. A Declaração de Aplicabilidade (SoA, cláusula 6.1.3 da ISO/IEC 27001) permanece como documento central mandatório de auditoria de certificação.
+> - **E)** Incorreta. A organização seleciona os controles aplicáveis por meio da análise de risco, documentando na SoA a justificativa de inclusão e as justificativas técnicas para exclusão de controles não pertinentes.
+> 
+> **Gabarito: B**
 
 ---
 

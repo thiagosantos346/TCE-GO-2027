@@ -111,6 +111,32 @@ Formulado pelo professor Daniel Abadi, o Teorema PACELC expande o Teorema CAP pa
 
 Ou seja, para entregar dados estritamente consistentes mesmo em tempos normais, os nós do cluster precisam trocar mensagens de confirmação síncronas entre si, o que eleva a latência percebida pelos clientes. Se o objetivo for latência ultrabaixa, o sistema deve relaxar a consistência imediata de leitura.
 
+### Questão 02 (FGV - TJ-MT / Analista Judiciário - TI - O Teorema PACELC de Daniel Abadi)
+O Teorema CAP (Brewer) postula que um sistema distribuído não pode garantir simultaneamente Consistência (C), Disponibilidade (A) e Tolerância a Particionamentos de Rede (P). No entanto, o Teorema CAP aborda apenas o comportamento do sistema durante partições de rede anormais. Para descrever o comportamento em operação de rede normal, Daniel Abadi formulou o Teorema PACELC.
+
+A respeito dos postulados formais do Teorema PACELC, assinale a afirmativa correta:
+
+* **A)** O Teorema PACELC estabelece que se houver Partição (P), deve-se escolher entre Disponibilidade (A) e Consistência (C); Senão (Else - E), deve-se escolher entre Latência (L) e Consistência (C).
+* **B)** O Teorema PACELC afirma que bancos NoSQL podem garantir Consistência forte e Latência zero em 100% do tempo sem violar leis da física.
+* **C)** No teorema PACELC, a letra 'E' significa Criptografia ponta a ponta (*End-to-end Encryption*) obrigatória em redes sem fio.
+* **D)** Sistemas classificados como PC/EC priorizam sempre a disponibilidade operacional em detrimento de qualquer validação de integridade.
+* **E)** O teorema PACELC aplica-se exclusivamente a bancos de dados centralizados legados em servidores *mainframe*.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** O Teorema PACELC expande o Teorema CAP estruturando o seguinte raciocínio:
+>   - **Se houver Partição de Rede (P):** O sistema deve escolher entre **Disponibilidade (A)** e **Consistência (C)** (como no Teorema CAP original).
+>   - **Senão (Else - E - quando o sistema opera normalmente sem falhas de partição):** O sistema distribuído ainda assim enfrenta um *trade-off* inevitável entre **Latência (L)** e **Consistência (C)**.
+>   - Para obter consistência estrita (leitura de dados sempre sincronizados entre réplicas), o sistema precisa coordenar mensagens e confirmações entre múltiplos nós antes de responder, o que introduz maior latência de resposta ($L$). Se quiser latência ultrabaixa ($L$), ele responde imediatamente com os dados locais do nó mais próximo, tolerando leituras temporariamente inconsistentes ($C$).
+> - **B)** Incorreta. Consistência forte e latência zero em nós geograficamente distribuídos são mutuamente excludentes devido ao limite de propagação da velocidade da luz na rede.
+> - **C)** Incorreta. 'E' significa *Else* (Senão / Operação normal da rede).
+> - **D)** Incorreta. Sistemas PC/EC priorizam Consistência ($C$) tanto durante partições quanto no estado normal.
+> - **E)** Incorreta. Aplica-se especificamente a arquiteturas de armazenamento distribuído (*Distributed Storage*).
+> 
+> **Gabarito: A**
+
+---
+
 ### 1.3 Modelo BASE vs. Propriedades ACID
 
 Enquanto os bancos relacionais transacionais regem-se pelo rigor determinístico do modelo ACID, os sistemas NoSQL distribuídos apoiam-se no paradigma flexível do **modelo BASE**:
@@ -124,7 +150,7 @@ Enquanto os bancos relacionais transacionais regem-se pelo rigor determinístico
 
 ---
 
-### Questão 02
+### Questão 03
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 Em ambientes de computação distribuída e bancos de dados NoSQL projetados para suportar partições de rede com alta disponibilidade, a teoria de sistemas adota com frequência o modelo **BASE** em contraposição ao modelo **ACID** dos SGBDs relacionais clássicos. O pilar fundamental do modelo BASE que estabelece que, se nenhuma nova atualização for enviada ao sistema, ao longo do tempo todas as réplicas convergentes propagarão seus dados e alcançarão o mesmo estado consolidado é denominado:
 
@@ -182,6 +208,29 @@ Armazenam dados na forma de documentos semiestruturados, geralmente serializados
     - *Replica Sets:* Conjuntos de nós configurados para replicação automática com eleição de um nó Primário (*Primary*, que processa todas as escritas) e múltiplos nós Secundários (*Secondary*, que replicam os logs de operação `oplog` de forma assíncrona). Se o nó Primário cair, os Secundários realizam uma eleição baseada no algoritmo Raft/Paxos para eleger um novo líder sem intervenção humana.
     - *Sharding:* Distribuição horizontal física dos documentos entre múltiplos servidores (*shards*) guiada por uma Chave de Partição (*Shard Key*). O balanceamento e roteamento de requisições é transparente, intermediado por roteadores `mongos` e servidores de configuração (*Config Servers*).
 
+### Questão 04 (FGV - TRT / Analista Judiciário - TI - Bancos Orientados a Documentos: MongoDB e Modelagem)
+Em um projeto de modernização de sistemas do tribunal, a equipe de desenvolvimento optou por utilizar o banco de dados orientado a documentos MongoDB para armazenar os autos e pareceres de auditoria.
+
+A respeito das características arquiteturais e das técnicas de modelagem de dados no MongoDB, assinale a afirmativa correta:
+
+* **A)** O MongoDB armazena dados em tabelas rígidas com colunas estáticas definidas em scripts DDL pré-compilados.
+* **B)** Os documentos no MongoDB são serializados internamente no formato BSON (*Binary JSON*), o qual estende o JSON padrão suportando tipos de dados adicionais como datas, inteiros de 64 bits e identificadores binários (`ObjectId`).
+* **C)** No MongoDB é terminantemente proibido embutir documentos dentro de outros documentos (*embedding*), sendo obrigatório o uso de referências via chave estrangeira com junções `INNER JOIN` em todas as coleções.
+* **D)** O MongoDB não suporta nenhum tipo de índice, realizando varreduras completas em coleções para qualquer consulta.
+* **E)** As transações multi-documento são fisicamente impossíveis de serem executadas no MongoDB, mesmo em clusters de réplicas modernas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O MongoDB adota esquema flexível (*schemaless* / *schema-on-read*) organizado em coleções (*collections*) e documentos (*documents*), sem necessidade de DDL rígido prévio.
+> - **B)** **CORRETA.** Os documentos do MongoDB são codificados e persistidos em formato **BSON (Binary JSON)**, uma representação binária do modelo JSON que agrega eficiência de parsing e suporte nativo a tipos primitivos indispensáveis em bancos de dados (como `Date`, `Timestamp`, `Int64`, `Decimal128` de alta precisão monetária e `ObjectId` de 12 bytes).
+> - **C)** Incorreta. A técnica de embutir documentos e subdocumentos (*Embedded Documents*) é o padrão idiomático mais recomendado no MongoDB para dados acessados conjuntamente em uma única operação atômica de I/O, evitando junções.
+> - **D)** Incorreta. O MongoDB suporta índices secundários B-Tree, índices geoespaciais, índices de texto e índices multikey (para vetores e arrays).
+> - **E)** Incorreta. Desde a versão 4.0, o MongoDB implementa transações ACID multi-documento completas em *Replica Sets*.
+> 
+> **Gabarito: B**
+
+---
+
 ### 2.2 Bancos Chave-Valor (Redis)
 
 O modelo mais simples, minimalista e veloz. Armazena pares formados por uma chave única (string) mapeada para um valor (escalar primitivo, objeto binário ou estrutura complexa).
@@ -204,7 +253,7 @@ O modelo mais simples, minimalista e veloz. Armazena pares formados por uma chav
 
 ---
 
-### Questão 03
+### Questão 05
 **(FCC - TRT-2ª Região - Analista Judiciário - Tecnologia da Informação)**
 No banco de dados NoSQL Redis, o gerenciamento eficiente da memória RAM e as opções de salvaguarda dos dados em disco baseiam-se em estruturas e parâmetros bem definidos. Sobre o funcionamento do Redis, é correto afirmar:
 
@@ -239,6 +288,43 @@ Projetados para armazenar volumes gigantescos de dados em clusters massivos com 
     - A persistência no disco utiliza estruturas de **LSM-Tree (*Log-Structured Merge-Tree*)**: as escritas vão primeiro para a memória RAM (*MemTable*) e para um log sequencial (*CommitLog*); quando a MemTable enche, é descarregada no disco em arquivos imutáveis chamados **SSTables (*Sorted String Tables*)**, periodicamente unificados por compactação.
 - **Consultas e Casos de Uso:** O Cassandra adota a linguagem **CQL (*Cassandra Query Language*)**, que lembra a sintaxe do SQL, mas restringe severamente consultas que não utilizem a chave de partição (não há suporte para `JOIN` relacional arbitrário). É a solução perfeita para dados de séries temporais, registros massivos de telemetria IoT, histórico contábil imutável e logs de auditoria contínua.
 
+### Questão 06 (FCC - TRT / Analista Judiciário - TI - Apache Cassandra e Modelo Wide-Column)
+O Apache Cassandra é um banco de dados NoSQL distribuído pertencente à família de colunas largas (*Wide-Column / Column Family*), projetado para suportar volumes massivos de dados com escrita de altíssima velocidade e sem ponto único de falha (*Single Point of Failure*).
+
+Na definição de uma tabela no Cassandra via CQL (*Cassandra Query Language*), a chave primária (*Primary Key*) pode ser composta por dois tipos de componentes com funções operacionais distintas:
+
+```cql
+CREATE TABLE auditoria_acessos (
+    sigla_orgao text,
+    data_acesso timestamp,
+    id_usuario uuid,
+    acao text,
+    PRIMARY KEY (sigla_orgao, data_acesso, id_usuario)
+);
+```
+
+Nessa definição, assinale a afirmativa que expressa corretamente os papéis de `sigla_orgao` e `(data_acesso, id_usuario)`:
+
+* **A)** `sigla_orgao` atua como Chave de Partição (*Partition Key*), determinando em qual nó do cluster os dados residirão via algoritmo de hash consistente; e `(data_acesso, id_usuario)` atuam como Chaves de Agrupamento (*Clustering Columns*), definindo a ordenação física dos registros gravados no disco (SSTables) dentro daquela partição.
+* **B)** `sigla_orgao` é um índice secundário invertido, ao passo que `data_acesso` é uma chave estrangeira que aponta para um banco relacional externo.
+* **C)** Todas as três colunas são Chaves de Partição independentes, distribuindo cada linha aleatoriamente em nós distintos sem qualquer relação entre si.
+* **D)** O Cassandra não suporta ordenação em disco, sendo obrigatório ordenar todas as linhas na aplicação cliente via comandos em Python.
+* **E)** A chave primária no Cassandra serve exclusivamente para exibição gráfica no terminal, sem qualquer influência na distribuição física de rede ou disco.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Na arquitetura do Apache Cassandra:
+>   - **Partition Key (Chave de Partição - `sigla_orgao`):** O Cassandra aplica uma função hash criptográfica (ex.: Murmur3Partitioner) sobre este valor para determinar o token correspondente no anel (*ring*) do cluster e direcionar o registro para o nó responsável e suas réplicas.
+>   - **Clustering Columns (Colunas de Agrupamento - `data_acesso, id_usuario`):** Dentro da partição alocada naquele nó, essas colunas determinam a **ordenação física dos dados nos arquivos SSTables em disco**, permitindo consultas por faixa (*range queries*) extremamente velozes na dimensão temporal.
+> - **B)** Incorreta. Não são índices invertidos e o Cassandra não possui chaves estrangeiras.
+> - **C)** Incorreta. Apenas a primeira coluna (ou as colunas entre parênteses aninhados) compõe a chave de partição; as demais são colunas de clustering.
+> - **D)** Incorreta. A ordenação física em disco via *Clustering Columns* é justamente o grande trunfo do modelo de dados do Cassandra.
+> - **E)** Incorreta. A Primary Key rege toda a topologia de particionamento de rede e armazenamento físico em disco.
+> 
+> **Gabarito: A**
+
+---
+
 ### 2.4 Bancos Orientados a Grafos (Neo4j e Cypher)
 
 Modelam os dados utilizando os conceitos formais da teoria dos grafos: **Vértices (Nós)**, **Arestas (Relacionamentos)** e **Propriedades**:
@@ -264,7 +350,7 @@ RETURN auditor.nome, contrato.numero, empresa.razao_social, socio.nome
 
 ---
 
-### Questão 04
+### Questão 07
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 Ao planejar uma solução tecnológica para identificar fraudes tributárias sofisticadas caracterizadas por blindagem patrimonial em teias complexas de sócios cruzados, empresas coligadas e holdings familiares com 6 a 8 níveis de relacionamento hierárquico, uma equipe técnica optou pelo uso de um banco de dados orientado a grafos nativo (como o Neo4j).
 A decisão técnica justifica-se primariamente porque:
@@ -299,6 +385,34 @@ A decisão técnica justifica-se primariamente porque:
 
 ---
 
+### Questão 08 (FCC - TRT / Analista Judiciário - TI - Escolha Arquitetural: NoSQL vs. RDBMS no Controle Externo)
+Em um projeto de engenharia de dados do Tribunal de Contas, a equipe de TI deve definir a tecnologia de persistência para dois subsistemas com perfis de carga e requisitos funcionais completamente distintos:
+
+- **Subsistema 1:** Módulo de Execução Financeira e Folha de Pagamento dos servidores, exigindo estrita conformidade com ACID, integridade referencial mandatória com chaves estrangeiras, ausência de redundâncias e processamento transacional com isolamento serializável.  
+- **Subsistema 2:** Repositório de Ingestão Contínua de Logs de Auditoria e Telemetria de Redes (SIEM), com taxa de 100.000 eventos semiestruturados por segundo em formato JSON, consultas por chave primária simples e necessidade de escalabilidade horizontal linear (*scale-out*) com alta disponibilidade contínua sem interrupções.
+
+Para atender com máxima aderência técnica a cada subsistema, o arquiteto de TI deve prescrever:
+
+* **A)** Subsistema 1: Banco Orientado a Documentos NoSQL (MongoDB); Subsistema 2: Banco Relacional Tradicional (PostgreSQL centralizado em nó único).
+* **B)** Subsistema 1: Banco Relacional com suporte completo a ACID (PostgreSQL / Oracle); Subsistema 2: Banco NoSQL escalável horizontalmente (Wide-Column Cassandra ou Banco Orientado a Documentos).
+* **C)** Subsistema 1: Banco Chave-Valor puro sem persistência em disco (Redis); Subsistema 2: Banco Orientado a Grafos sem índices (Neo4j).
+* **D)** Ambos os subsistemas devem ser obrigatoriamente implementados em arquivos de planilha eletrônica no formato CSV em disco compartilhado NFS.
+* **E)** Ambos os subsistemas devem utilizar obrigatoriamente um banco de dados NoSQL baseado no Teorema CAP com consistência eventual sem durabilidade.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Inverteu a adequação das tecnologias aos requisitos dos subsistemas.
+> - **B)** **CORRETA.** Aplicação canônica dos critérios arquiteturais de seleção:
+>   - **Subsistema 1:** Requer integridade referencial forte, controle transacional ACID absoluto, isolamento serializável e modelo relacional normalizado para evitar inconsistências em pagamentos. Solução ideal: **RDBMS Relacional (PostgreSQL / Oracle)**.
+>   - **Subsistema 2:** Requer ingestão de dados massivos semiestruturados em altíssima velocidade de escrita contínua, tolerância a falhas de nós e expansão horizontal barata (*scale-out*). Solução ideal: **NoSQL Wide-Column (Cassandra) ou Orientado a Documentos (MongoDB)**.
+> - **C)** Incorreta. Redis sem persistência perderia todos os dados de folha de pagamento em caso de reinicialização.
+> - **D)** Incorreta. Planilhas CSV não atendem requisitos de concorrência, integridade ou alto volume.
+> - **E)** Incorreta. O Subsistema 1 exige garantias ACID estritas e durabilidade permanente.
+> 
+> **Gabarito: B**
+
+---
+
 ## 3. Bancos de Dados Vetoriais e Inteligência Artificial
 
 A revolução dos Modelos de Linguagem Grande (*Large Language Models - LLMs*) baseados na arquitetura *Transformer* impulsionou a necessidade de gerenciar, armazenar e consultar representações semânticas densas em alta dimensionalidade.
@@ -314,6 +428,29 @@ Um **embedding** é a conversão algorítmica de um dado arbitrário não estrut
 Texto Bruto: "Edital com sobrepreço" ──► [Modelo Transformer] ──► Vetor: [0.15, -0.42, 0.88, ..., 0.05]
                                                                         (1.536 dimensões)
 ```
+
+### Questão 09 (FGV - TRT / Analista Judiciário - TI - Embeddings Vetoriais em Inteligência Artificial)
+Com o advento dos Modelos de Linguagem de Grande Porte (LLMs) e das arquiteturas de Geração Aumentada por Recuperação (RAG), o conceito de *Embeddings* tornou-se central para a busca semântica em repositórios de jurisprudência e relatórios de auditoria.
+
+A respeito dos *embeddings* vetoriais e de suas propriedades matemáticas e computacionais, assinale a afirmativa correta:
+
+* **A)** Um embedding vetorial é uma representação numérica contínua em que textos, imagens ou áudios são convertidos em vetores densos de números de ponto flutuante em um espaço euclidiano multidimensional (ex.: 768 ou 1536 dimensões), onde a proximidade geométrica entre vetores reflete sua similaridade semântica.
+* **B)** Embeddings vetoriais utilizam representação *sparse* (esparsa) binária do tipo One-Hot Encoding, na qual o vetor possui o tamanho exato do dicionário e 99,9% dos elementos contêm o valor zero sem capturar contexto.
+* **C)** Dois textos com palavras sinônimas distintas (como *"licitação fraudada"* e *"certame viciado"*) geram vetores ortogonais com similaridade cosseno igual a zero no espaço de embeddings.
+* **D)** A dimensionalidade de um embedding pode ser livremente alterada após a geração do vetor sem necessidade de reprocessar os textos no modelo de aprendizado profundo.
+* **E)** Bancos de dados vetoriais dispensam vetores numéricos, realizando buscas puramente por contagem léxica de caracteres ASCII.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Os **embeddings** são representações numéricas densas (*dense representations*) geradas por redes neurais profundas (como encoders do Transformer, BERT, text-embedding-3). Cada documento ou trecho de texto é mapeado para um vetor de $D$ dimensões reais (ex.: 768, 1536). A geometria desse espaço latente preserva relações semânticas complexas: conceitos com significados análogos ou contextualmente próximos convergem para regiões adjacentes no espaço multidimensional, viabilizando busca por significado (*semantic search*), clustering e classificação.
+> - **B)** Incorreta. Essa é a descrição das representações clássicas esparsas e ingênuas (*Bag-of-Words* e *One-Hot Encoding*), que sofrem da maldição da dimensionalidade e não capturam semântica. Embeddings são densos (*dense*).
+> - **C)** Incorreta. Como capturam o significado latente, sentenças semanticamente correlatas recebem vetores direcionados para quadrantes muito próximos, resultando em alta similaridade cosseno (próxima a 1,0).
+> - **D)** Incorreta. A dimensionalidade é uma propriedade estrutural fixa da arquitetura da rede neural emissora; para mudar a dimensão, os dados devem ser reprocessados pelo novo modelo correspondente.
+> - **E)** Incorreta. A busca vetorial calcula explicitamente distâncias matemáticas entre os vetores de ponto flutuante.
+> 
+> **Gabarito: A**
+
+---
 
 ### 3.2 Métricas Matemáticas de Distância e Similaridade
 
@@ -341,7 +478,7 @@ Para determinar o grau de afinidade entre dois vetores $\mathbf{u}$ e $\mathbf{v
 
 ---
 
-### Questão 05
+### Questão 10
 **(FCC - TCE-PI - Auditor de Controle Externo - Tecnologia da Informação)**
 A implementação de sistemas de Inteligência Artificial Generativa e Arquiteturas de Recuperação Aumentada por Geração (RAG) em órgãos de controle externo demanda a utilização de bancos de dados vetoriais para indexação semântica de peças processuais e relatórios de auditoria. Sobre os conceitos matemáticos e a operação de bancos de dados vetoriais, assinale a alternativa correta:
 
@@ -416,6 +553,31 @@ LIMIT 5;
 2. **Bancos de Dados Vetoriais Nativos Especializados:**
     - Softwares projetados exclusivamente para o ciclo de vida vetorial distribuído: **Pinecone** (SaaS nativo de nuvem), **Milvus** (banco distribuído de alta escala em Go/C++), **Qdrant** (motor em Rust de altíssima eficiência de memória) e **Chroma** (banco leve voltado ao ecossistema Python).
     - Oferecem recursos de particionamento dinâmico em memória e filtragem por metadados pré e pós-busca vetorial (*payload-based filtering*).
+
+---
+
+### Questão 11 (FGV - TRT / Analista Judiciário - TI - Busca Vetorial Aproximada: IVFFlat vs. HNSW no pgvector)
+A extensão `pgvector` viabiliza o armazenamento e a busca vetorial em bancos de dados PostgreSQL. Para acelerar a busca pelos $k$ vizinhos mais próximos ($k$-NN) em bases com milhões de vetores, utilizam-se algoritmos de Busca Aproximada por Vizinhos Mais Próximos (*Approximate Nearest Neighbor - ANN*).
+
+No `pgvector`, os dois principais tipos de índices disponíveis para busca aproximada são o **IVFFlat** e o **HNSW**. A respeito da comparação técnica entre essas duas estruturas de indexação, assinale a afirmativa correta:
+
+* **A)** O índice IVFFlat exige que a tabela já possua dados inseridos antes de sua criação para calcular os centroides via clustering $k$-means, ao passo que o HNSW (*Hierarchical Navigable Small World*) constrói grafos multicamadas que podem ser criados progressivamente com novas inserções, oferecendo desempenho de busca e taxa de recuperação (*recall*) superiores, com o *trade-off* de demandar maior consumo de memória RAM e maior tempo de construção.
+* **B)** O índice HNSW só funciona com vetores de no máximo 3 dimensões, sendo proibido para aplicações de IA generativa.
+* **C)** O índice IVFFlat oferece 100% de garantia matemática de encontrar os vizinhos exatos (*Exact Nearest Neighbor*) sem qualquer aproximação heurística.
+* **D)** O índice HNSW é uma árvore B+Tree simples que ordena vetores apenas pela soma algébrica de suas coordenadas.
+* **E)** Ambos os índices dispensam a definição de métricas de distância, calculando exclusivamente a distância de Manhattan sem suporte a Similaridade Cosseno ou Distância Euclidiana ($L_2$).
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Comparativo arquitetural canônico entre os índices ANN no `pgvector`:
+>   - **IVFFlat (Inverted File Flat):** Baseia-se em clustering $k$-means. Divide o espaço vetorial em $N$ listas (células Voronoi/centroides). **Exige dados já carregados na tabela** para realizar o treinamento e calcular centroides adequados. Possui construção rápida e consumo de memória modesto, porém menor *recall* e menor velocidade de busca em consultas concorrentes.
+>   - **HNSW (Hierarchical Navigable Small World):** Estrutura vetorial de estado da arte baseada em grafos hierárquicos multicamadas (análoga a uma Skip List para grafos). Pode ser criado com a tabela vazia e atualizado incrementalmente. Proporciona excelente velocidade de consulta e elevadíssimo *recall*, mas exige significativamente **mais memória RAM** para reter o grafo e tem construção/atualização mais demorada e intensiva em CPU.
+> - **B)** Incorreta. O HNSW suporta vetores de alta dimensionalidade (como 1536 e 3072 dimensões).
+> - **C)** Incorreta. O IVFFlat é um algoritmo aproximado (*ANN*), não exato (*KNN exato faz busca sequencial / flat scan*).
+> - **D)** Incorreta. HNSW é uma estrutura sofisticada de grafo de mundos pequenos navegáveis, e não uma árvore B+Tree.
+> - **E)** Incorreta. O `pgvector` suporta distância Euclidiana ($L_2$ - `<->`), Similaridade Cosseno (`<=>`) e Produto Escelar / Inner Product (`<#>`).
+> 
+> **Gabarito: A**
 
 ---
 

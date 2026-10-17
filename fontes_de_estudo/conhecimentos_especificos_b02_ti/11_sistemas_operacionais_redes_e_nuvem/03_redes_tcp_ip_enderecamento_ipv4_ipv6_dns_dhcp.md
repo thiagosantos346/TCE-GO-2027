@@ -123,6 +123,34 @@ flowchart LR
 
 ---
 
+### Questão 02 (FGV - TJ-AP / Analista Judiciário - TI - Unidades de Dados de Protocolo e Encapsulamento)
+Na arquitetura em camadas dos modelos de redes de computadores (OSI e TCP/IP), o tráfego de saída sofre o processo progressivo de **Encapsulamento**, no qual cada camada empacota os dados da camada superior e anexa seus próprios cabeçalhos de controle.
+
+A respeito das Unidades de Dados de Protocolo (**PDUs**) manipuladas em cada nível da pilha TCP/IP, assinale a opção que apresenta a correspondência correta de nomenclatura da PDU e seu respectivo dispositivo/protocolo de atuação:
+
+* **A)** Camada de Transporte: Quadro (*Frame*), operado por switches de camada 2.
+* **B)** Camada de Internet (Rede): Pacote ou Datagrama (endereçamento IP), processado por roteadores; e Camada de Enlace (Acesso à Rede): **Quadro ou Trama (*Frame*)**, delimitado por cabeçalhos que contêm endereços físicos MAC e sequências de checagem de erros (CRC/FCS), manipulado por switches Ethernet.
+* **C)** Camada de Aplicação: Bit puro em pulsos elétricos no cabo de par trançado.
+* **D)** Camada de Enlace: Mensagem HTTP em texto puro.
+* **E)** Camada de Transporte: Rota estática em formato JSON.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A PDU da Camada de Transporte é o **Segmento** (no protocolo TCP) ou o **Datagrama de Usuário** (no protocolo UDP). Quadro é a PDU da Camada de Enlace.
+> - **B)** **CORRETA.** Nomenclatura oficial das **PDUs (Protocol Data Units)** no modelo de redes:
+>   1. **Camada de Aplicação:** Mensagem / Dados brutos da aplicação (HTTP, DNS, SSH).
+>   2. **Camada de Transporte:** **Segmento** (TCP) ou **Datagrama** (UDP) — encapsula com portas de origem e destino e números de sequência.
+>   3. **Camada de Rede / Internet:** **Pacote ou Datagrama IP** — adiciona cabeçalho com IP de origem e IP de destino (dispositivos de atuação: Roteadores e Switches L3).
+>   4. **Camada de Enlace de Dados:** **Quadro ou Trama (Frame)** — adiciona cabeçalho com MAC de origem e MAC de destino e trailer de integridade FCS/CRC-32 (dispositivos: Switches L2, placas de rede/NICs).
+>   5. **Camada Física:** **Bits** — sequência serial de bits codificada em pulsos elétricos, ópticos ou ondas de rádio (dispositivos: Hubs, transceivers ópticos, cabos UTP).
+> - **C)** Incorreta. Bits pertencem à Camada Física (Camada 1).
+> - **D)** Incorreta. Mensagens HTTP pertencem à Camada de Aplicação (Camada 7).
+> - **E)** Incorreta. Rotas estáticas pertencem à Camada de Rede (tabelas de roteamento).
+> 
+> **Gabarito: B**
+
+---
+
 ## 2. Endereçamento e Sub-redes IPv4
 
 ### 2.1 Classes Históricas de Endereços (Classes A a E)
@@ -156,6 +184,35 @@ Como os endereços privados da RFC 1918 não navegam na Internet, o roteador de 
 - **NAT Estático:** Mapeamento 1:1 fixo entre um IP privado e um IP público.
 - **NAT Dinâmico:** Mapeamento temporário 1:1 retirado de um pool de IPs públicos disponíveis.
 - **NAPT / PAT (*Port Address Translation* / NAT Overload):** Mapeamento $N:1$, no qual centenas ou milhares de computadores privados da rede interna navegam simultaneamente na Internet utilizando **um único endereço IP público**. O roteador diferencia as conexões mapeando portas TCP/UDP de origem aleatórias.
+
+---
+
+### Questão 03 (FCC - TRT / Analista de Redes - Endereçamento Privado RFC 1918 e NAT/PAT)
+Diante da iminência do esgotamento histórico de endereços IPv4 públicos globais, a IETF padronizou a separação entre blocos de endereços públicos roteáveis e blocos de endereçamento privado reservados para uso interno corporativo (**RFC 1918**), combinados com o mecanismo de **Tradução de Endereços de Rede (NAT/PAT)**.
+
+A respeito das faixas de endereçamento privado da RFC 1918 e do funcionamento do **NAPT/PAT** (*Network Address Port Translation*), assinale a afirmativa correta:
+
+* **A)** A faixa privada de Classe C é `192.168.0.0` com máscara `/16` (abrangendo de `192.168.0.0` até `192.168.255.255`), sendo esses endereços proibidos de serem roteados diretamente na internet pública global; para permitir que milhares de computadores dessa rede interna acessem a internet através de um único IP público contratado, o roteador de borda utiliza o **PAT**, mapeando as conexões internas privadas para diferentes **portas de transporte TCP/UDP** no endereço IP público externo.
+* **B)** A faixa `10.0.0.0/8` é pública e atribuída exclusivamente a sites do governo federal americano.
+* **C)** O NAT proíbe que qualquer pacote saia da rede local para a internet.
+* **D)** O PAT exige que cada computador da rede interna possua seu próprio endereço IP público registrado no Registro.br.
+* **E)** Endereços privados da RFC 1918 são roteados normalmente na internet sem necessidade de qualquer tradução por firewalls ou roteadores.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Fundamentos da **RFC 1918 e NAT/PAT**:
+>   - **Três Faixas Privadas Oficiais (RFC 1918):**
+>     1. `10.0.0.0/8` (`10.0.0.0` a `10.255.255.255` - 16.777.216 endereços).
+>     2. `172.16.0.0/12` (`172.16.0.0` a `172.31.255.255` - 1.048.576 endereços).
+>     3. `192.168.0.0/16` (`192.168.0.0` a `192.168.255.255` - 65.536 endereços).
+>   - Esses blocos são descartados (*dropped*) pelos roteadores da internet pública (*não roteáveis na WAN*).
+>   - **NAPT / PAT (NAT Overload):** Mapeia múltiplos IPs privados internos (muitos para um / $N:1$) para um único endereço IPv4 público válido. O roteador mantém uma tabela de estados de tradução na qual diferencia as conexões ativas variando as **portas de transporte de origem (Port Numbers TCP/UDP)** no cabeçalho externo.
+> - **B)** Incorreta. O bloco `10.0.0.0/8` é a maior faixa privada reservada da RFC 1918.
+> - **C)** Incorreta. O NAT foi concebido justamente para permitir a comunicação externa da rede interna.
+> - **D)** Incorreta. Esse seria o modelo sem NAT; o PAT economiza IPs públicos compartilhando um único IP com toda a organização.
+> - **E)** Incorreta. Provedores de internet (ISPs) bloqueiam e descartam pacotes com origem RFC 1918.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -194,7 +251,7 @@ O cálculo sistemático de qualquer sub-rede IPv4 parte de fórmulas matemática
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista de Tecnologia da Informação - Redes)
+### Questão 04 (FCC - Adaptada / Analista de Tecnologia da Informação - Redes)
 Um analista de infraestrutura de redes recebeu a incumbência de particionar o bloco IPv4 privado `192.168.10.0/24` para atender a 4 sub-redes destinadas a diferentes setores de uma secretaria estadual. O setor mais numeroso exige suporte a um máximo de 26 computadores conectados simultaneamente com IPs úteis. O analista deseja utilizar uma máscara de sub-rede idêntica em todas as novas sub-redes, garantindo a menor quantidade possível de endereços desperdiçados e reservando o maior número possível de novas sub-redes para futuras expansões.
 
 Assinale a alternativa que apresenta, correta e respectivamente, a máscara de sub-rede em notação CIDR adotada, o número máximo de sub-redes que podem ser obtidas a partir do bloco original e o número de endereços IP úteis disponíveis em cada sub-rede:
@@ -250,6 +307,32 @@ No IPv6, os métodos de transmissão de pacotes operam sob três paradigmas form
 
 ---
 
+### Questão 05 (FGV - TRT / Analista Judiciário - TI - Endereçamento IPv6 e Extinção do Broadcast)
+O protocolo IPv6 resolve o esgotamento do IPv4 oferecendo um espaço de endereçamento de 128 bits ($2^{128} \approx 3,4 \times 10^{38}$ endereços), estruturado em 8 grupos de 4 dígitos hexadecimais separados por dois-pontos.
+
+A respeito das regras formais de simplificação/compactação de endereços IPv6 (RFC 5952) e dos tipos de transmissão suportados, assinale a afirmativa correta:
+
+* **A)** O IPv6 manteve o mecanismo de transmissão por *Broadcast*, ampliando a quantidade de pacotes de broadcast na rede para localizar dispositivos.
+* **B)** Na simplificação de um endereço IPv6, pode-se omitir zeros à esquerda em qualquer bloco de 16 bits; e uma sequência contígua de um ou mais blocos formados exclusivamente por zeros pode ser substituída por dois-pontos duplos (`::`), sendo permitido aplicar essa substituição de dois-pontos duplos **uma única vez em todo o endereço**, para evitar ambiguidade na reconstituição dos 128 bits; além disso, o IPv6 **extinguiu completamente o tráfego de Broadcast**, substituindo-o pelo uso otimizado de transmissões **Multicast** e **Anycast**.
+* **C)** O endereço de loopback do IPv6 é `127.0.0.1`.
+* **D)** O símbolo `::` pode ser utilizado 5 vezes no mesmo endereço IPv6 sem qualquer problema de ambiguidade.
+* **E)** Endereços IPv6 são obrigatoriamente convertidos para decimal antes de serem enviados pela placa de rede.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O IPv6 **aboliu expressamente o endereço de Broadcast**, eliminando tempestades de broadcast (*broadcast storms*) na rede local.
+> - **B)** **CORRETA.** Regras oficiais da **RFC 5952 (Formatação e Compactação do IPv6)**:
+>   1. **Omissão de zeros à esquerda:** Em cada hexteto (bloco de 16 bits), zeros à esquerda são descartados (ex.: `:0042:` vira `:42:`, `:0000:` vira `:0:`).
+>   2. **Compressão com `::` (Dois-Pontos Duplos):** Uma única sequência de blocos de zeros contíguos mais longa pode ser colapsada para `::`. **Regra mandatória:** `::` só pode constar **exatamente uma vez** por endereço. Se houvesse dois `::`, seria algebricamente impossível determinar quantos blocos de zeros foram omitidos em cada ponto.
+>   3. **Tipos de Endereçamento:** O IPv6 opera com **Unicast** (um-para-um), **Anycast** (um-para-o-mais-próximo de um grupo) e **Multicast** (um-para-muitos cadastrados). Todo o serviço que antes usava broadcast (como ARP e DHCP) agora opera sobre grupos de Multicast eficientes (como o *Solicited-Node Multicast* no protocolo NDP).
+> - **C)** Incorreta. O endereço de loopback no IPv6 é `::1` (equivalente ao `127.0.0.1` do IPv4).
+> - **D)** Incorreta. Usar `::` mais de uma vez torna a representação inválida e ambígua.
+> - **E)** Incorreta. Os endereços são transmitidos como sequências binárias puras de 128 bits.
+> 
+> **Gabarito: B**
+
+---
+
 ### 3.3 Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)
 
 | Prefixo IPv6 | Classificação Técnica | Abrangência / Escopo | Equivalente no IPv4 |
@@ -270,6 +353,32 @@ No IPv6, os métodos de transmissão de pacotes operam sob três paradigmas form
     1. **Pilha Dupla (*Dual-Stack*):** Roteadores e hosts executam simultaneamente os dois protocolos em suas interfaces, operando com IPv4 e IPv6 nativos em paralelo. É a solução mais recomendada.
     2. **Tunelamento (Tunnels):** Encapsula pacotes IPv6 dentro de pacotes IPv4 para atravessar trechos da Internet que ainda só suportam IPv4 (ex.: protocolos 6to4, Teredo).
     3. **Tradução (NAT64 / DNS64):** Traduz o cabeçalho de pacotes entre nós que operam exclusivamente com IPv6 e servidores legados que operam unicamente em IPv4.
+
+---
+
+### Questão 06 (FCC - TRT / Analista de Redes - Mecanismos de Transição para o IPv6)
+A migração mundial da internet do IPv4 para o IPv6 ocorre de forma gradual e heterogênea. Como os cabeçalhos dos protocolos IPv4 e IPv6 são mutuamente incompatíveis entre si, a engenharia de redes desenvolveu técnicas formais de coexistência e transição.
+
+As três categorias clássicas de mecanismos de transição padronizadas pela IETF são:
+
+* **A)** Pilha Dupla (*Dual-Stack*), Tunelamento (*Tunneling*, como 6in4 e 6to4) e Tradução (*Translation*, como NAT64/DNS64).
+* **B)** Cifragem Simétrica, Hash e Assinatura Digital.
+* **C)** Sub-rede Classe A, Sub-rede Classe B e Sub-rede Classe C.
+* **D)** Backup Full, Backup Incremental e Backup Diferencial.
+* **E)** CSMA/CD, Token Ring e FDDI.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Os Três Mecanismos Canônicos de Transição IPv4/IPv6:
+>   1. **Pilha Dupla (Dual-Stack):** A abordagem preferencial e recomendada. Os dispositivos (roteadores, firewalls e servidores) executam simultaneamente as duas pilhas de protocolos (IPv4 e IPv6) ativas nas mesmas interfaces de rede. Se o destino suporta IPv6 (registro DNS AAAA), conecta via IPv6; senão, conecta via IPv4 (registro DNS A).
+>   2. **Tunelamento (Tunneling):** Permite encapsular pacotes IPv6 dentro de pacotes IPv4 para trafegar através de uma infraestrutura intermediária que só suporta IPv4 (ex.: 6in4, 6to4, GRE, Teredo).
+>   3. **Tradução (Translation):** Permite a comunicação direta entre hosts que só possuem IPv6 e servidores legados que só possuem IPv4, utilizando **NAT64** no roteador de borda complementado por **DNS64** para síntese de registros de endereço sintéticos.
+> - **B)** Incorreta. Primitivas de segurança criptográfica.
+> - **C)** Incorreta. Classes obsoletas de endereçamento IPv4.
+> - **D)** Incorreta. Tipos de cópias de segurança de dados.
+> - **E)** Incorreta. Tecnologias de enlace de rede legadas.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -311,6 +420,35 @@ sequenceDiagram
 
 ---
 
+### Questão 07 (FGV - TRT / Analista Judiciário - TI - Consultas DNS: Recursivas vs. Iterativas)
+O Domain Name System (DNS) é uma base de dados hierárquica e distribuída mundialmente, responsável por converter nomes amigáveis (FQDN, como `www.tce.go.gov.br`) em endereços IP numéricos.
+
+A respeito do fluxo de resolução de nomes e da distinção entre **Consultas Recursivas** e **Consultas Iterativas**, assinale a afirmativa correta:
+
+* **A)** Em uma consulta recursiva, o servidor DNS consultado apenas devolve uma indicação (*referral*) do melhor servidor seguinte que pode ter a resposta, sem se comprometer a buscar o endereço final.
+* **B)** Na **Consulta Recursiva** (enviada tipicamente pela máquina cliente / *Stub Resolver* ao seu servidor DNS configurado localmente), o cliente exige que o servidor DNS faça todo o trabalho de resolução e devolva uma resposta definitiva (o IP resolvido com sucesso ou uma mensagem de erro de domínio inexistente `NXDOMAIN`); ao passo que na **Consulta Iterativa** (executada pelo servidor DNS recursivo aos Servidores Raiz, servidores de TLD `.br` e servidores autoritativos), o servidor consultado responde imediatamente com a melhor resposta que possui ou com uma referência (*referral*) apontando qual o próximo servidor autoritativo na hierarquia que deve ser consultado.
+* **C)** Servidores DNS Raiz (*Root DNS Servers*) realizam obrigatoriamente consultas recursivas para todos os usuários domésticos do planeta.
+* **D)** O protocolo DNS utiliza exclusivamente a porta TCP 8080 para resolver nomes de computadores.
+* **E)** Consultas iterativas são proibidas na internet por violarem direitos autorais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Devolver uma referência (*referral*) apontando outro servidor para o cliente consultar é a definição exata de **Consulta Iterativa**, não recursiva.
+> - **B)** **CORRETA.** Mecânica canônica do **DNS (RFC 1034 / 1035)**:
+>   - **Consulta Recursiva:** O cliente (*Resolver*) delega a responsabilidade total ao servidor DNS local (ex.: DNS do tribunal ou 1.1.1.1): *"Traga-me a resposta final completa, eu aguardo aqui"*.
+>   - **Consulta Iterativa:** O servidor DNS recursivo assume a busca e faz perguntas iterativas pela cadeia de autoridade:
+>     1. Pergunta aos **Servidores Raiz (Root Servers - ponto '.')**: o Root responde com indicação dos servidores do TLD `.br`.
+>     2. Pergunta aos servidores de TLD `.br`: respondem com indicação dos servidores autoritativos de `gov.br`.
+>     3. Pergunta aos servidores autoritativos de `tce.go.gov.br`: respondem com o registro A final (`IP: 200.x.x.x`).
+>     4. O servidor recursivo salva o registro no seu **Cache DNS** local (respeitando o campo TTL) e devolve o IP definitivo ao cliente que fez a consulta recursiva.
+> - **C)** Incorreta. Servidores Raiz e de TLD operam estritamente em modo **Iterativo**, rejeitando consultas recursivas para proteger sua disponibilidade e escalabilidade global.
+> - **D)** Incorreta. O DNS utiliza as portas **UDP 53** (consultas normais rápidas) e **TCP 53** (transferências de zona / AXFR e respostas que excedem 512 bytes).
+> - **E)** Incorreta. Consultas iterativas são o motor técnico da espinha dorsal de resolução de nomes da internet mundial.
+> 
+> **Gabarito: B**
+
+---
+
 ### 4.3 Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)
 
 - **`A`:** Mapeia um nome de domínio para um endereço **IPv4** de 32 bits.
@@ -325,7 +463,7 @@ sequenceDiagram
 
 ---
 
-### Questão 03 (FCC - Adaptada / Analista de Sistemas - Suporte e Infraestrutura)
+### Questão 08 (FCC - Adaptada / Analista de Sistemas - Suporte e Infraestrutura)
 Considere as seguintes assertivas a respeito da arquitetura do protocolo IPv6, comparativamente ao legado IPv4:
 
 I. O protocolo IPv6 aboliu o conceito de transmissão em difusão geral (*broadcast*); mensagens destinadas a múltiplos dispositivos utilizam mecanismos e endereços de *multicast*.  
@@ -354,7 +492,7 @@ Está correto o que se afirma em:
 
 ---
 
-### Questão 04 (FCC - Adaptada / Analista de Sistemas - Infraestrutura de Redes)
+### Questão 09 (FCC - Adaptada / Analista de Sistemas - Infraestrutura de Redes)
 Considere os conceitos de resolução de nomes, delegação e estrutura de registros de recursos do protocolo DNS (*Domain Name System*).
 
 Sobre os tipos de registros DNS e a mecânica de funcionamento desse serviço, é correto afirmar:
@@ -420,7 +558,7 @@ sequenceDiagram
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Tecnologia da Informação - Suporte Técnico)
+### Questão 10 (FCC - Adaptada / Analista de Tecnologia da Informação - Suporte Técnico)
 Em uma rede local corporativa onde as estações de trabalho obtêm suas configurações lógicas dinamicamente por meio do protocolo DHCP, um analista observou a troca de pacotes entre um cliente recém-conectado e o servidor de rede. 
 
 A respeito do ciclo operacional de quatro etapas do DHCP (processo DORA), assinale a afirmativa correta:
@@ -463,6 +601,33 @@ Para evitar a necessidade de instalar um servidor DHCP físico em cada sala ou f
 - O agente intercepta os broadcasts locais dos clientes na porta UDP 67;
 - Converte os pacotes em transmissões **Unicast**;
 - Encaminha-os diretamente ao IP do servidor DHCP centralizado localizado em outro segmento ou datacenter corporativo.
+
+---
+
+### Questão 11 (FCC - TRT / Analista de Tecnologia da Informação - DHCP: Timers T1/T2 e DHCP Relay Agent)
+O protocolo DHCP (*Dynamic Host Configuration Protocol*) automatiza a concessão dinâmica de endereços IP, máscaras de rede, gateway padrão e servidores DNS em redes locais.
+
+A respeito do ciclo de renovação de concessão (*Lease Time*) e do papel do **Agente de Retransmissão DHCP (*DHCP Relay Agent*)**, assinale a afirmativa correta:
+
+* **A)** O cliente DHCP nunca renova seu endereço IP, abandonando a rede e desligando o computador após 1 hora de uso.
+* **B)** A concessão do DHCP possui dois temporizadores fundamentais de renovação: o **Timer T1 (Renovação)**, acionado quando atinge **50% do tempo de concessão**, no qual o cliente envia um pacote `DHCPREQUEST` em Unicast diretamente ao servidor original que concedeu o IP; e o **Timer T2 (Revinculação)**, acionado se o servidor original não responder e a concessão atingir **87,5% (7/8) do tempo**, momento em que o cliente passa a transmitir em Broadcast para qualquer outro servidor DHCP da rede; além disso, como as mensagens iniciais do DHCP utilizam difusão por Broadcast (não roteável), o **DHCP Relay Agent** atua em roteadores para interceptar esses broadcasts locais e reencaminhá-los via Unicast até um servidor DHCP centralizado localizado em outra sub-rede.
+* **C)** O DHCP Relay Agent converte pacotes IPv4 em sinais de rádio analógicos em amplitude modulada (AM).
+* **D)** O Timer T1 é disparado exatamente no instante em que o tempo de concessão expira em 100%.
+* **E)** O protocolo DHCP opera nas portas TCP 20 e 21.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O cliente busca renovar ativamente a concessão para manter o mesmo IP em uso ininterrupto.
+> - **B)** **CORRETA.** Mecânica avançada do **DHCP (RFC 2131)**:
+>   - **Timer T1 (Renewal Timer):** Disparado em $0,5 \times \text{Lease Time}$ (50%). O host envia `DHCPREQUEST` direcionado (Unicast) ao servidor que concedeu a licença. Se receber `DHCPACK`, o timer é resetado.
+>   - **Timer T2 (Rebinding Timer):** Se o servidor original estiver fora do ar e não responder, quando o relógio atingir $0,875 \times \text{Lease Time}$ (87,5%), o host entra em modo de revinculação e envia `DHCPREQUEST` em **Broadcast**, aceitando confirmação de qualquer servidor DHCP ativo.
+>   - Se expirar 100% sem resposta, o cliente abandona o IP e recomeça o ciclo `DHCPDISCOVER` (ou assume um IP APIPA `169.254.x.x`).
+>   - **DHCP Relay Agent (RFC 3046 / IP Helper-Address):** Como o `DHCPDISCOVER` é emitido em broadcast de camada 2/3 (`255.255.255.255`), roteadores comuns descartam o pacote. O Relay Agent intercepta esse broadcast na sub-rede local, anexa as informações da interface de origem e envia o pacote empacotado em **Unicast via UDP porta 67** para o servidor DHCP central no datacenter, permitindo consolidar servidores DHCP corporativos.
+> - **C)** Incorreta. Trata-se de reencaminhamento de pacotes IP entre sub-redes corporativas.
+> - **D)** Incorreta. T1 dispara em 50% da concessão; em 100% ocorre a expiração da concessão (*Lease Expiration*).
+> - **E)** Incorreta. O DHCP opera sobre **UDP portas 67** (servidor) e **68** (cliente). Portas TCP 20/21 são do FTP.
+> 
+> **Gabarito: B**
 
 ---
 

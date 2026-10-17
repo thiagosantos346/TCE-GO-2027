@@ -157,6 +157,28 @@ A respeito das etapas e estágios da receita orçamentária e dos ingressos nos 
 
 ---
 
+### Questão 03 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+No tocante ao estágio da arrecadação e ao princípio da unidade de caixa na execução orçamentária das receitas públicas (art. 56 da Lei nº 4.320/1964), assinale a afirmativa correta:
+
+* **A)** O recolhimento de todas as receitas far-se-á em estrita observância ao princípio de unidade de tesouraria, vedando-se a fragmentação de disponibilidades governamentais em contas bancárias descentralizadas sem autorização legal.
+* **B)** A arrecadação confunde-se juridicamente com o recolhimento, ocorrendo ambos simultaneamente quando o contribuinte entrega o valor à instituição bancária credenciada.
+* **C)** É facultado às autarquias manterem receitas públicas sob a guarda de cofres particulares, dispensando-se a transferência para a Conta Única do Tesouro.
+* **D)** As receitas vinculadas a fundos especiais não se sujeitam à unidade de caixa, devendo seus recursos permanecerem fora do sistema bancário oficial.
+* **E)** O recolhimento consiste no ato pelo qual os agentes arrecadadores entregam os recursos aos agentes fiscais para conferência manual antes do depósito no Tesouro.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O art. 56 da Lei nº 4.320/1964 consagra o princípio da unidade de tesouraria (unidade de caixa): todas as receitas devem ser recolhidas à conta única do Tesouro, vedada a dispersão não autorizada por lei.
+> - **B)** Incorreta. Arrecadação é a entrega dos valores pelo contribuinte aos agentes arrecadadores (bancos); recolhimento é a transferência desses valores arrecadados para a Conta Única do Tesouro.
+> - **C)** Incorreta. É absolutamente vedada a custódia particular de dinheiros públicos.
+> - **D)** Incorreta. Os recursos de fundos especiais sujeitam-se à unidade de caixa, sendo geridos em subcontas vinculadas dentro da Conta Única.
+> - **E)** Incorreta. O recolhimento é a efetiva transferência bancária dos valores arrecadados para a Conta Única do Tesouro.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 3. Classificações da Receita Orçamentária (Lei nº 4.320/1964 e MCASP)
 
 A receita orçamentária é classificada segundo múltiplos critérios para fins de planejamento, controle contábil e divulgação de estatísticas fiscais.
@@ -188,7 +210,7 @@ Um dos temas mais recorrentes em provas da FCC é o tratamento contábil dos fin
 
 ---
 
-### Questão 03 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Questão 04 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
 Determinado Estado da Federação recebeu as seguintes quantias financeiras em sua conta única do Tesouro ao longo do mês:
 
 I. R$ 500.000,00 referentes à venda em leilão público de veículos automotores inservíveis de sua frota administrativa.  
@@ -240,6 +262,52 @@ $$\text{C . O . E . D1 . D2 . D3 . D4 . T}$$
 
 ---
 
+### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Segundo a classificação por categoria econômica estabelecida pela Lei Federal nº 4.320/1964 e pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), constituem, respectivamente, Receita Corrente e Receita de Capital:
+
+* **A)** Receita Patrimonial decorrente de aluguéis de imóveis públicos e Receita decorrente de Alienação de Bens Imóveis.
+* **B)** Amortização de Empréstimos concedidos e Receita Tributária proveniente de impostos sobre patrimônio.
+* **C)** Operações de Crédito de longo prazo e Receita de Serviços prestados pelo ente estatal.
+* **D)** Alienação de Bens Móveis inservíveis e Receita de Contribuições Sociais.
+* **E)** Transferências de Capital recebidas para obras e Receita Agropecuária decorrente de produção própria.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A Receita Patrimonial (aluguéis, dividendos, juros recebidos) é Receita Corrente (art. 11, § 1º); a Alienação de Bens Imóveis/Móveis é típica Receita de Capital (art. 11, § 2º da Lei nº 4.320/1964).
+> - **B)** Invertido. Amortização de empréstimos concedidos é Capital; receita tributária é Corrente.
+> - **C)** Invertido. Operações de crédito são Capital; serviços são Correntes.
+> - **D)** Invertido. Alienação de bens é Capital; contribuições são Correntes.
+> - **E)** Invertido. Transferências de capital são Capital; agropecuária é Corrente.
+> 
+> **Gabarito: A**
+
+---
+
+
+### Questão 06 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+A classificação por natureza da receita orçamentária é estruturada em 8 (oito) dígitos decimais padronizados nacionalmente pela SOF e STN. Considere o código de natureza de receita `1.3.2.1.01.1.1`:
+
+O primeiro dígito "1" e o segundo dígito "3" identificam, na estrutura oficial, respectivamente:
+
+* **A)** Categoria Econômica (Receitas Correntes) e Origem da Receita (Receita Patrimonial).
+* **B)** Origem da Receita (Receitas Tributárias) e Espécie da Receita (Taxas).
+* **C)** Subdivisão de Recursos e Vinculação Constitucional de Impostos.
+* **D)** Categoria Econômica (Receitas de Capital) e Tipo de Receita (Principal).
+* **E)** Esfera Orçamentária e Identificador de Uso (IDUSO).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Na estrutura da natureza da receita (`C.O.E.S.DD.T.P`): o 1º dígito (1) é a **Categoria Econômica** (1 = Receita Corrente; 2 = Receita de Capital); o 2º dígito (3) é a **Origem** (no caso de Correntes: 1-Impostos/Taxas, 2-Contribuições, 3-Patrimonial, 4-Agropecuária, 5-Industrial, 6-Serviços, 7-Transferências Correntes, 9-Outras Receitas Correntes).
+> - **B)** Incorreta. O primeiro nível é a categoria econômica, não origem.
+> - **C)** Incorreta. Misturou com a classificação por fonte de recursos.
+> - **D)** Incorreta. O dígito 1 representa receitas correntes, e não de capital.
+> - **E)** Incorreta. Esfera orçamentária e IDUSO não compõem a codificação de natureza da receita.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 4. Regras Fiscais Restritivas da Receita e a LRF
 
 #### 4.1 Vedação de Aplicação de Receita de Alienação de Bens em Despesa Corrente (Art. 44)
@@ -251,7 +319,7 @@ A Lei de Responsabilidade Fiscal impõe uma barreira intransponível à dilapida
 
 ---
 
-### Questão 04 (FCC - Adaptada / Técnico de Controle Externo)
+### Questão 07 (FCC - Adaptada / Técnico de Controle Externo)
 O Governo do Estado de Goiás promoveu a alienação, mediante concorrência pública, de um edifício comercial de sua propriedade que estava desocupado, arrecadando R$ 10.000.000,00. O Governador pretende aplicar integralmente essa receita para pagar o reajuste salarial concedido aos servidores públicos da Secretaria da Saúde.
 
 De acordo com o artigo 44 da Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal):
@@ -293,7 +361,7 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Questão 08 (FCC - Adaptada / Analista de Planejamento e Orçamento)
 Determinado Secretário de Estado da Fazenda propôs projeto de lei concedendo isenção temporária de IPVA para proprietários de veículos elétricos e híbridos matriculados no Estado. O projeto de lei foi aprovado pela Assembleia Legislativa sem a apresentação de estimativa de impacto orçamentário-financeiro e desacompanhado de medidas de compensação fiscal.
 
 À luz do artigo 14 da Lei de Responsabilidade Fiscal (LC nº 101/2000):
@@ -316,6 +384,51 @@ Determinado Secretário de Estado da Fazenda propôs projeto de lei concedendo i
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / Analista Jurídico de Controle)
+O art. 14 da Lei de Responsabilidade Fiscal (LC nº 101/2000) impõe condicionantes rigorosas para a concessão ou ampliação de incentivo ou benefício de natureza tributária da qual resulte renúncia de receita. Sobre o tema, é INCORRETO afirmar:
+
+* **A)** A renúncia compreende anistia, remissão, subsídio, crédito presumido, isenção em caráter não geral, alteração de alíquota ou modificação de base de cálculo que implique redução discriminada de tributos ou contribuições.
+* **B)** A concessão do benefício deve estar acompanhada de estimativa do impacto orçamentário-financeiro no exercício em que deva iniciar sua vigência e nos dois seguintes.
+* **C)** O proponente deve demonstrar que a renúncia foi considerada na estimativa de receita da lei orçamentária e que não afetará as metas de resultados fiscais previstas no anexo próprio da LDO.
+* **D)** É vedada a concessão de renúncia de receita mesmo quando acompanhada de medidas de compensação fiscal mediante elevação de alíquotas ou criação de outro tributo.
+* **E)** Se o ato de concessão de renúncia de receita for condicionado a medidas de compensação, o benefício só entrará em vigor quando implementadas as referidas medidas de compensação.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Definição expressa constante do art. 14, § 1º da LRF.
+> - **B)** Correta. Exigência do caput do art. 14: estimativa trienal do impacto orçamentário-financeiro.
+> - **C)** Correta. É uma das alternativas do art. 14, I da LRF (ter sido prevista na LOA e compatível com as metas fiscais).
+> - **D)** Incorreta. O art. 14, II admite expressamente a concessão de renúncia se acompanhada de medidas de compensação, no exercício e nos dois seguintes, por meio do aumento de receita proveniente da elevação de alíquotas, ampliação da base de cálculo, majoração ou criação de tributo.
+> - **E)** Correta. O art. 14, § 2º da LRF prevê que o benefício só entra em vigor após a efetiva implementação das medidas compensatórias.
+> 
+> **Gabarito: D**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Auditor de Controle Externo)
+Determinado Município goiano realizou a alienação de diversos imóveis públicos de seu patrimônio disponível, arrecadando R$ 10.000.000,00. Visando equilibrar o caixa municipal no final do mandato, o Prefeito enviou projeto de lei autorizando a utilização de 50% desses recursos para pagamento da folha salarial atrasada dos servidores públicos municipais e 50% para obras de pavimentação asfáltica.
+
+À luz do art. 44 da Lei Complementar nº 101/2000 (LRF):
+
+* **A)** A destinação proposta pelo Prefeito é plenamente lícita, pois os recursos provenientes da venda de bens móveis ou imóveis integram a receita livre do ente e podem ser aplicados em qualquer despesa pública.
+* **B)** A destinação para pagamento de folha de salários é expressamente vedada pela LRF, configurando nulidade do ato e infração fiscal, sendo a aplicação em pavimentação asfáltica perfeitamente regular por se tratar de despesa de capital.
+* **C)** Ambos os gastos propostos são ilícitos, pois a receita de alienação de ativos só pode ser utilizada para aplicação exclusiva no mercado de ações e títulos públicos.
+* **D)** É permitido o pagamento de pessoal com receitas de alienação de bens desde que haja autorização prévia por decreto do Governador do Estado.
+* **E)** O Município pode utilizar o produto da alienação para despesa de pessoal, desde que o montante não ultrapasse o limite prudencial de gastos da LRF.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O art. 44 da LRF proíbe expressamente a aplicação de receita de capital derivada da alienação de bens no financiamento de despesa corrente.
+> - **B)** Correta. O art. 44 da LRF veda terminantemente a aplicação da receita de alienação de ativos em despesas correntes (custeio e pessoal), ressalvadas exclusivamente as destinadas por lei aos regimes de previdência social. As obras de pavimentação constituem investimentos (despesas de capital), destinação perfeitamente legítima.
+> - **C)** Incorreta. As despesas de capital (investimentos) são a destinação natural da receita de capital de alienação de ativos.
+> - **D)** Incorreta. A vedação é legal e absoluta, não podendo ser suplantada por decreto estadual.
+> - **E)** Incorreta. O limite do art. 44 é categórico e independe dos percentuais globais de gasto com pessoal.
+> 
+> **Gabarito: B**
+
+---
 
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados

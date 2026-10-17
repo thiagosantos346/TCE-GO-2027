@@ -67,6 +67,33 @@ flowchart TD
 4. **SHOULD NOT / NOT RECOMMENDED (Fortemente Desaconselhado):** Expressam que determinada conduta técnica deve ser evitada sob condições normais de operação. Desvios somente são tolerados em situações excepcionais de contorno devidamente motivadas.
 5. **MAY / OPTIONAL (Opcional / Facultativo):** Indicam um recurso verdadeiramente opcional (*truly optional*). O implementador detém a faculdade discricionária de incluir ou omitir o atributo sem comprometer a interoperabilidade com outros sistemas que seguem o padrão.
 
+---
+
+### Questão 01 (FCC - Adaptada / Tribunal de Contas - Auditoria de TI)
+*Read the standard specification clause below regarding secure communications:*
+
+> *"The authentication service **MUST NOT** transmit user credentials in plaintext over unencrypted communication channels. Furthermore, client applications **SHOULD** implement exponential backoff upon receiving status 429, and **MAY** include a custom telemetry header for diagnostic monitoring."*
+
+De acordo com as diretrizes formais de interpretação normativa da IETF (RFC 2119 e RFC 8174), é correto afirmar que:
+
+* **A)** A locução **"MUST NOT"** representa mera recomendação estilística de segurança, cuja inobservância pode ser ignorada pelos desenvolvedores sem comprometer a conformidade com a especificação.
+* **B)** O termo **"SHOULD"** impõe uma recomendação técnica enfática que, embora possa admitir exceções motivadas em circunstâncias específicas, não deve ser desprezada sem plena avaliação e justificativa de suas implicações.
+* **C)** O vocábulo **"MAY"** estabelece um requisito obrigatório e estritamente mandatório para todos os clientes compatíveis.
+* **D)** O verbo modal **"MUST NOT"** autoriza o envio de senhas em texto puro desde que a rede interna seja cabeada e protegida por firewall perimetral.
+* **E)** As palavras-chave normativas da RFC 2119 perdem seu caráter prescritivo quando redigidas inteiramente em letras maiúsculas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. **"MUST NOT"** (ou *SHALL NOT*) expressa uma **proibição absoluta** (*absolute prohibition*). Qualquer implementação que desobedeça a esse mandamento é classificada tecnicamente como não-conforme (*non-compliant*).
+> - **B)** Correta. Segundo a RFC 2119, **"SHOULD"** (ou *RECOMMENDED*) indica que existem razões operacionais válidas para que o recurso seja ignorado em cenários muito específicos, mas que todas as implicações de risco devem ser compreendidas e sopesadas antes de adotar conduta diversa. Representa a boa prática preconizada.
+> - **C)** Incorreta. **"MAY"** (ou *OPTIONAL*) define um recurso estritamente **opcional / discricionário**, cuja inclusão ou ausência depende da conveniência do desenvolvedor.
+> - **D)** Incorreta. O veto estipulado por *MUST NOT* é absoluto e incondicional na especificação.
+> - **E)** Incorreta. A regra central da RFC 2119 e RFC 8174 é justamente que essas palavras têm significado prescritivo estrito quando grafadas em **letras maiúsculas** (*UPPERCASE*).
+> 
+> **Gabarito: B**
+
+---
+
 ### 1.2 Matriz de Conformidade Técnica da RFC 2119
 
 | Termo em Maiúsculas | Definição Oficial IETF | Significado Prático em Auditoria e TI | O que NÃO Significa (Pegadinha FCC) |
@@ -82,7 +109,7 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Adaptada / Analista de Sistemas - Integração de Plataformas)
+### Questão 02 (FCC - Adaptada / Analista de Sistemas - Integração de Plataformas)
 *Consider the excerpt below from a technical specification draft for a public auditory API:*
 
 > *"Section 4.2 – Authentication and Message Security  
@@ -112,7 +139,7 @@ According to the normative definitions established by RFC 2119, it is correct to
 
 ---
 
-### Questão 02 (FCC - Adaptada / Tribunal de Contas - Infraestrutura e Engenharia de Dados)
+### Questão 03 (FCC - Adaptada / Tribunal de Contas - Infraestrutura e Engenharia de Dados)
 *Read the excerpt extracted from a distributed database configuration guide:*
 
 > *"Section 6: Network Partitioning and Split-Brain Prevention  
@@ -180,6 +207,35 @@ O design RESTful organiza as interações por meio de URIs de recursos e verbos 
 - **PATCH:** Aplica modificações parciais a atributos pontuais do recurso.
 - **DELETE:** Remove o recurso indicado. Operação **idempotente** (a exclusão de um recurso já excluído mantém o estado de recurso ausente).
 
+---
+
+### Questão 04 (FCC - Adaptada / Analista de Sistemas - Integração e Microsserviços)
+*Read the API reference documentation snippet below:*
+
+> *"The payment gateway exposes the following endpoint:*  
+> `POST /api/v1/settlements`  
+> *Each incoming request instantiates a new settlement ledger entry and triggers bank clearance. Because this operation is **not idempotent**, consumers must supply an `Idempotency-Key` header to prevent duplicate charges in the event of network timeouts."*
+
+Considerando a semântica dos verbos HTTP na arquitetura RESTful e a documentação apresentada, assinale a alternativa correta:
+
+* **A)** As requisições executadas com o verbo **GET** são consideradas operações não-seguras e não-idempotentes, pois invariavelmente alteram o estado do banco de dados no servidor.
+* **B)** A operação via método **POST** descrita é não-idempotente porque requisições sucessivas idênticas com o mesmo corpo podem criar múltiplos lançamentos e cobranças bancárias duplicadas.
+* **C)** O método **PUT** destina-se primordialmente a consultas parciais de dados e possui comportamento inerentemente não-idempotente pelo padrão HTTP.
+* **D)** O verbo **DELETE** é considerado não-idempotente, uma vez que a exclusão repetida de um recurso já removido resulta na restauração automática da entidade.
+* **E)** Todos os métodos do protocolo HTTP tornam-se automaticamente idempotentes quando transportados por conexões TLS/HTTPS.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O método **GET** é categorizado pelo protocolo HTTP (RFC 9110) como **seguro** (*safe* - não causa efeitos colaterais de escrita) e **idempotente** (*idempotent* - repetidas chamadas têm o mesmo efeito de uma única).
+> - **B)** Correta. O método **POST** é tipicamente **não-idempotente** (*non-idempotent*). Se o cliente submeter a mesma requisição três vezes em razão de falhas de timeout, o servidor poderá gerar três registros distintos de liquidação e três débitos, exigindo mecanismos de proteção como chaves de idempotência (*Idempotency-Key*).
+> - **C)** Incorreta. O método **PUT** realiza a substituição total de um recurso em uma URI conhecida e é formalmente **idempotente** (executar 1 ou 10 vezes o mesmo PUT com os mesmos dados deixa o recurso no mesmo estado final).
+> - **D)** Incorreta. O método **DELETE** é **idempotente**: a primeira chamada remove o recurso; as chamadas subsequentes encontram o recurso já ausente (podendo retornar 404), mas o estado final do servidor permanece inalterado (recurso ausente).
+> - **E)** Incorreta. A segurança da camada de transporte (HTTPS/TLS) protege a confidencialidade e integridade dos dados em trânsito, mas em nada altera a semântica operacional de idempotência da camada de aplicação HTTP.
+> 
+> **Gabarito: B**
+
+---
+
 ### 2.2 Parâmetros de Requisição e Schemas de Dados JSON
 
 Nas especificações OpenAPI 3.0 / Swagger, os parâmetros distribuem-se em quatro categorias fundamentais:
@@ -196,7 +252,7 @@ Nas especificações OpenAPI 3.0 / Swagger, os parâmetros distribuem-se em quat
 
 ---
 
-### Questão 03 (FCC - Adaptada / SEFAZ - Auditoria Fiscal da Receita Estadual - Especialidade TI)
+### Questão 05 (FCC - Adaptada / SEFAZ - Auditoria Fiscal da Receita Estadual - Especialidade TI)
 *Examine the following OpenAPI 3.0 specification excerpt describing an electronic fiscal auditing endpoint:*
 
 ```yaml
@@ -298,7 +354,7 @@ A compreensão precisa das famílias de códigos de status HTTP é intensamente 
 
 ---
 
-### Questão 04 (FCC - Adaptada / Tribunal de Contas - Especialidade Tecnologia da Informação)
+### Questão 06 (FCC - Adaptada / Tribunal de Contas - Especialidade Tecnologia da Informação)
 *Carefully analyze the API documentation response snippet provided below:*
 
 ```http
@@ -345,6 +401,46 @@ Diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o p
 
 ---
 
+### Questão 07 (FCC - Adaptada / SEFAZ - Auditoria Fiscal e Sistemas)
+*Read the GraphQL Schema Definition Language (SDL) snippet below:*
+
+```graphql
+type TaxpayerAudit {
+  registrationId: ID!
+  companyName: String!
+  fiscalScore: Float
+  isFlagged: Boolean!
+}
+
+type Query {
+  getAuditRecord(registrationId: ID!): TaxpayerAudit
+}
+
+type Mutation {
+  flagIrregularity(registrationId: ID!, reason: String!): TaxpayerAudit!
+}
+```
+
+Com base nas convenções sintáticas e conceituais do padrão GraphQL e no schema apresentado, assinale a opção correta:
+
+* **A)** O ponto de exclamação `!` associado aos tipos (ex.: `ID!`, `String!`) indica que o campo é puramente opcional e admite valor nulo (*null*).
+* **B)** A operação categorizada sob o tipo **Query** é destinada a realizar mutações de escrita e atualizar trilhas de auditoria no servidor.
+* **C)** O campo `fiscalScore` pode retornar valor nulo (*null*), uma vez que não possui o modificador de obrigatoriedade `!`.
+* **D)** As operações do tipo **Mutation** são consultas de somente-leitura que não aceitam parâmetros de entrada nem alteram dados.
+* **E)** O GraphQL requer a criação de endpoints HTTP distintos (URIs dedicadas) para cada uma das consultas e mutações declaradas no esquema.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No GraphQL SDL, o modificador de exclamação **`!`** indica **não-nulidade** (*Non-Null* / obrigatório). Campos com `!` jamais podem retornar ou receber valores nulos.
+> - **B)** Incorreta. A raiz **Query** destina-se a operações de **consulta e leitura** de dados, sem efeitos colaterais de modificação de estado no servidor.
+> - **C)** Correta. No tipo `TaxpayerAudit`, o campo `fiscalScore: Float` não é seguido pelo caractere `!`, o que significa que é um campo anulável (*nullable*), podendo retornar um número de ponto flutuante ou o valor `null`.
+> - **D)** Incorreta. As **Mutations** são operações que realizam modificações no servidor (criação, edição, exclusão de dados), equivalentes conceituais a POST, PUT ou DELETE em REST.
+> - **E)** Incorreta. Diferentemente do REST, o GraphQL concentra todas as queries e mutations em um **único endpoint HTTP** padronizado (comumente `POST /graphql`).
+> 
+> **Gabarito: C**
+
+---
+
 ## 3. Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas
 
 Manuais operacionais de infraestrutura (Linux manpages, guias do Kubernetes, PostgreSQL, Docker) empregam linguagem estritamente procedimental e estruturada.
@@ -385,6 +481,31 @@ A correta interpretação do ciclo de vida de componentes de software é essenci
 
 ---
 
+### Questão 08 (FCC - Adaptada / Analista de TI - Governança de Software)
+*Read the technical release note excerpt below regarding an enterprise authentication library:*
+
+> *"**Notice:** Version 3.4 marks the endpoint `/v1/auth/legacy-token` as **deprecated**. While the endpoint remains functional throughout the 3.x release series to ensure backward compatibility, security teams are strongly advised to migrate to `/v2/oauth/token`. In version 4.0, this endpoint will be fully **decommissioned**, and any subsequent invocation will immediately return HTTP 410 Gone."*
+
+Com base na terminologia técnica empregada para definir o ciclo de vida de componentes de software e no texto acima:
+
+* **A)** Um componente classificado como **"deprecated"** já foi completamente removido da base de código e não processa nenhuma requisição desde o lançamento da versão 3.4.
+* **B)** A classificação de um recurso como **"deprecated"** adverte que, embora ainda permaneça funcional na versão corrente, seu uso é formalmente desaconselhado e sua remoção definitiva (*decommissioning*) ocorrerá em versão futura.
+* **C)** O termo **"decommissioned"** significa que o recurso continuará recebendo novas funcionalidades e atualizações prioritárias de segurança indefinidamente.
+* **D)** A resposta `HTTP 410 Gone` indica que a requisição ao endpoint `/v1/auth/legacy-token` foi atendida com pleno sucesso e autorização irrestrita.
+* **E)** O conceito de *backward compatibility* traduz a incompatibilidade intencional com versões legadas para forçar a contratação de novos fornecedores.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O texto explicita que o endpoint continua funcional: *"While the endpoint remains functional throughout the 3.x release series to ensure backward compatibility"*.
+> - **B)** Correta. No ciclo de vida de APIs e software, **"deprecated"** (obsoleto / descontinuado) indica que a funcionalidade ainda está presente para não quebrar sistemas existentes (*backward compatibility*), mas seu uso deve ser cessado porque ela será desativada/removida (*decommissioned*) em versões vindouras.
+> - **C)** Incorreta. **"Decommissioned"** (descomissionado / desativado) significa que o serviço foi desligado ou o endpoint foi fisicamente removido do sistema.
+> - **D)** Incorreta. O código de status `410 Gone` é um erro do cliente (*Client Error*) que indica que o recurso solicitado não está mais disponível no servidor e foi intencional e permanentemente removido.
+> - **E)** Incorreta. *Backward compatibility* (retrocompatibilidade) é a capacidade de uma nova versão de software interoperar com sistemas legados sem quebras inesperadas.
+> 
+> **Gabarito: B**
+
+---
+
 ## 4. Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)
 
 Em certames da FCC para cargos de alta remuneração de Tecnologia da Informação, os textos de prova costumam ser extraídos de publicações acadêmicas e anais de conferências de renome mundial (como *IEEE Transactions on Software Engineering, ACM SIGMOD, USENIX OSDI*).
@@ -413,7 +534,7 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de TI - Avaliação de Arquiteturas de Nuvem)
+### Questão 09 (FCC - Adaptada / Analista de TI - Avaliação de Arquiteturas de Nuvem)
 *Read the abstract of an IEEE computer systems research paper:*
 
 > *"Abstract—Serverless computing has emerged as a compelling paradigm for event-driven microservices due to its elastic autoscale and pay-per-use billing. **However**, cold-start latency remains a severe impediment for latency-sensitive public services. In this paper, we propose *KubeWarm*, a lightweight proactive container pre-warming framework integrated with Kubernetes. **Unlike** conventional reactive autoscalers that spawn container runtimes only after incoming HTTP requests arrive, *KubeWarm* utilizes an autoregressive machine learning model to predict invocation spikes. Our extensive experimental results on enterprise workloads demonstrate that *KubeWarm* reduces tail latency by 42% and eliminates 87% of cold starts, while incurring less than 3% CPU **overhead**."*
@@ -455,6 +576,31 @@ Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de p
 - **Tail Latency (Latência de Cauda - P99 / P99.9):** O tempo de resposta experimentado pelos percentis mais lentos das requisições; indicador crítico em sistemas de tempo real.
 - **Overhead:** Custo operacional computacional marginal incorrido em ciclos de CPU, memória RAM ou rede para suportar a nova ferramenta (ex.: menos de 3% de consumo extra de CPU).
 - **Outperform:** Superar o desempenho de uma solução concorrente (*"Our model outperforms traditional heuristics"*).
+
+---
+
+### Questão 10 (FCC - Adaptada / Auditor de Controle Externo - Tecnologia da Informação)
+*Read the research paper excerpt on distributed storage systems:*
+
+> *"In this paper, we evaluate **AuroraKV**, a novel distributed key-value store designed for geo-replicated transactional workloads. In extensive empirical evaluations using the Yahoo! Cloud Serving **Benchmark** (YCSB), AuroraKV **outperforms** state-of-the-art baselines by up to 45% in write throughput while keeping tail latency (P99) under 15ms. Furthermore, our consensus optimizations introduce an operational **overhead** of less than 2.8% on server CPU utilization, demonstrating the feasibility of near-instant multi-region consistency."*
+
+Com base nas convenções léxicas e metodológicas da literatura científica internacional de TI e no trecho acima, assinale a afirmativa correta:
+
+* **A)** O termo **"outperforms"** expressa que a solução proposta apresentou desempenho inferior ao das tecnologias comparadas.
+* **B)** A palavra **"Benchmark"** designa um conjunto padronizado de testes e cargas de trabalho concebido para avaliar e comparar o desempenho de sistemas computacionais de maneira empírica.
+* **C)** A expressão **"overhead"** descreve o ganho patrimonial direto obtido pela equipe de desenvolvedores ao publicar o artigo.
+* **D)** A métrica de **"tail latency (P99)"** expressa o tempo médio de resposta apurado sobre 99% das requisições mais velozes do cluster.
+* **E)** O vocábulo **"baselines"** designa erros de compilação irreparáveis detectados no código-fonte dos servidores.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O verbo transitivo **"outperform"** significa **superar em desempenho, ter rendimento superior** (*"AuroraKV supera as soluções de referência em até 45% na vazão de escrita"*).
+> - **B)** Correta. Em ciência da computação e engenharia de software, um **"benchmark"** é um programa, teste padronizado ou conjunto de cargas (*workloads*) de referência utilizado para avaliar e comparar quantitativamente a performance de hardwares, bancos de dados ou sistemas distribuídos.
+> - **C)** Incorreta. **"Overhead"** é o custo computacional indireto ou marginal adicionado por um mecanismo (ex.: consumo adicional de ciclos de CPU ou memória RAM), e não vantagem financeira.
+> - **D)** Incorreta. A latência de cauda (*tail latency* P99) mede o tempo de resposta do percentil 99, ou seja, o limite superior de lentidão experimentado pelo 1% das requisições mais lentas e críticas do sistema.
+> - **E)** Incorreta. Em metodologia científica de TI, **"baselines"** são os sistemas de referência consagrados ou modelos tradicionais existentes com os quais a nova solução é comparada.
+> 
+> **Gabarito: B**
 
 ---
 

@@ -103,6 +103,29 @@ A respeito desse funcionamento interno, assinale a afirmativa correta:
 
 ---
 
+### Questão 02
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+No desenvolvimento de sistemas assistidos por inteligência artificial, a arquitetura *Transformer* deu origem a três famílias arquiteturais predominantes: *Encoder-Only*, *Decoder-Only* e *Encoder-Decoder*. A respeito das características e dos casos de uso de cada família em tarefas de engenharia de software, é correto afirmar:
+
+* **A)** Modelos *Encoder-Only* (como o BERT) são amplamente empregados para geração autorregressiva contínua de grandes blocos de código-fonte em tempo real.
+* **B)** Modelos *Decoder-Only* (como a família GPT, Claude e LLaMA) operam por geração autorregressiva token a token guiada por máscaras causais de atenção, sendo a arquitetura padrão predominante para síntese, geração e completamento de código.
+* **C)** Modelos *Encoder-Decoder* são incapazes de realizar tradução de código entre linguagens distintas (como COBOL para Java).
+* **D)** A atenção bidirecional irrestrita é uma característica exclusiva dos modelos *Decoder-Only*.
+* **E)** Modelos *Decoder-Only* não utilizam embeddings nem camadas de normalização (*LayerNorm*).
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Modelos *Encoder-Only* usam autoatenção bidirecional, ideais para classificação, busca semântica e análise estática (não para geração autorregressiva de texto/código).
+> - **B) Correta.** Os modelos *Decoder-Only* utilizam máscara causal de atenção (*causal masking*), que impede que a posição atual veja tokens futuros, gerando tokens sequencialmente de forma autorregressiva. Essa arquitetura consolidou-se como o padrão hegemônico para assistentes de programação e LLMs generativos.
+> - **C) Incorreta.** Modelos *Encoder-Decoder* (como T5 e CodeT5) são historicamente muito eficientes em tarefas seq2seq como tradução de código e sumarização.
+> - **D) Incorreta.** A atenção bidirecional é típica do *Encoder*, e não do *Decoder* (que é causal/unidirecional).
+> - **E) Incorreta.** Camadas de embedding e normalização são componentes universais de Transformers.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)
 O desenvolvimento de um modelo fundacional voltado para engenharia de software ocorre em três estágios sucessivos:
 
@@ -120,6 +143,29 @@ flowchart LR
 3. **Alinhamento com Feedback Humano / de IA (*RLHF / RLAIF*):** Utiliza técnicas como *Reinforcement Learning from Human Feedback* (PPO - *Proximal Policy Optimization*) ou *Direct Preference Optimization* (DPO). O alinhamento penaliza código contendo vulnerabilidades comuns (CWE/OWASP Top 10), impede a recomendação de bibliotecas obsoletas e mitiga a geração de scripts maliciosos.
 
 ---
+
+### Questão 03
+**(FCC – Inédita – Padrão TCE-GO)**  
+O pipeline moderno de treinamento de modelos de linguagem para engenharia de software é estruturado em três fases fundamentais: Pré-treinamento (*Pre-training*), Ajuste Fino Supervisionado (*Supervised Fine-Tuning* - SFT) e Alinhamento (*Alignment* via RLHF ou DPO). A esse respeito, assinale a afirmativa tecnicamente correta:
+
+* **A)** O pré-treinamento exige anotação manual linha a linha por engenheiros humanos de cada arquivo de código consumido pelo modelo.
+* **B)** O Ajuste Fino Supervisionado (SFT) utiliza conjuntos de dados de instruções com pares curados de solicitações e respostas ideais (prompts e códigos corretos) para ensinar o modelo a seguir instruções e dialogar com o desenvolvedor.
+* **C)** O alinhamento por Aprendizado por Reforço com Feedback Humano (RLHF) serve exclusivamente para acelerar a velocidade de clock da placa de vídeo GPU durante o treinamento.
+* **D)** O DPO (*Direct Preference Optimization*) exige obrigatoriamente o treinamento de um modelo de recompensa (*reward model*) separado e instável, ao contrário do RLHF clássico.
+* **E)** Após o pré-treinamento, o modelo base já possui capacidade nativa e alinhada para recusar instruções maliciosas de exploração de vulnerabilidades.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O pré-treinamento é auto-supervisionado (*self-supervised*), treinando o modelo para prever o próximo token em terabytes de código público sem anotação manual.
+> - **B) Correta.** No SFT, o modelo base (que aprendeu a completar texto) é treinado com pares de instrução e resposta ideal (*instruction tuning*), tornando-se um assistente conversacional capaz de interpretar tarefas de engenharia de software.
+> - **C) Incorreta.** O RLHF alinha o modelo com valores de utilidade, veracidade e segurança (*helpful, honest, harmless*).
+> - **D) Incorreta.** É o inverso: o DPO simplifica o alinhamento ao otimizar a política diretamente sobre pares de preferências (resposta aceita vs. rejeitada), dispensando o modelo de recompensa explícito do PPO/RLHF.
+> - **E) Incorreta.** Modelos base brutos apenas completam padrões textuais; os mecanismos de recusa e segurança são introduzidos no alinhamento.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 1.4 Tokenização, Vocabulário e Gestão de Custos Computacionais
 Modelos de linguagem não leem palavras inteiras ou caracteres isolados; eles operam sobre **tokens** (números inteiros que mapeiam fragmentos de palavras e símbolos em um vocabulário pré-definido). O algoritmo padrão adotado na indústria é o **Byte-Pair Encoding (BPE)**.
@@ -140,6 +186,29 @@ Durante a fase de inferência (geração da resposta), o modelo projeta logits (
 | **Top-P (*Nucleus Sampling*)** | Seleciona o menor subconjunto cumulativo de tokens cuja soma das probabilidades atinge o valor $P$. | Descarta sumariamente a cauda longa de tokens improváveis. | Permite que tokens improváveis concorram caso o acumulado demore a fechar. | **$0.1$ a $0.5$** para código determinístico. Se $T = 0.0$, a amostragem torna-se puramente gulosa (*Greedy*), tornando o Top-P inócuo. |
 | **Frequency Penalty** | Aplica uma penalização proporcional ao número de vezes que um token já apareceu no texto gerado. | Permite repetições lexicais legítimas. | Inibe repetições, forçando o uso de sinônimos estranhos. | **$0.0$ estrito**. Em programação, palavras reservadas (`if`, `return`, `class`) **precisam se repetir** compulsoriamente. |
 | **Presence Penalty** | Aplica penalização fixa se um token já tiver aparecido ao menos uma vez no texto. | Sem interferência na estrutura sintática. | Força a introdução contínua de novos tópicos, induzindo variáveis inventadas. | **$0.0$ estrito** para código-fonte. |
+
+---
+
+
+### Questão 04
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+Na inferência de modelos de linguagem utilizados para geração de código-fonte de missão crítica, a calibração de hiperparâmetros de amostragem exerce impacto decisivo na corretude e determinismo dos programas gerados. A respeito dos hiperparâmetros *Temperature* e *Top-P* (*Nucleus Sampling*), é correto afirmar:
+
+* **A)** Valores elevados de *Temperature* (próximos a 1.5 ou 2.0) tornam a distribuição de probabilidades mais íngreme, garantindo código determinístico, rigoroso e sem bugs de sintaxe.
+* **B)** Para tarefas de geração de código-fonte, migração de dados e depuração de erros lógicos, recomenda-se configurar a *Temperature* com valores baixos (próximos a 0.0 ou 0.2), pois isso concentra a amostragem nos tokens de maior probabilidade, reduzindo alucinações e variabilidade indesejada.
+* **C)** O *Top-P* seleciona aleatoriamente os tokens mais raros do vocabulário para enriquecer a diversidade léxica dos comandos SQL.
+* **D)** Configurar a *Temperature* em 0.0 impede que o modelo execute inferência em computadores com sistema operacional Windows.
+* **E)** O hiperparâmetro *Top-K* define a quantidade de GPUs necessárias para rodar o modelo no data center.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Temperaturas altas achatam a distribuição de probabilidades (*softmax* mais suave), aumentando a criatividade e o risco de alucinações sintáticas em código.
+> - **B) Correta.** Na engenharia de software, onde a precisão sintática e lógica é indispensável, adota-se *Temperature* baixa ($0.0 \le T \le 0.2$) para promover saídas reprodutíveis, determinísticas e focadas nos caminhos mais prováveis e testados.
+> - **C) Incorreta.** O *Top-P* (amostragem por núcleo) seleciona o menor conjunto de tokens cuja soma cumulativa de probabilidades atinge $P$ (descartando a cauda improvável).
+> - **D) Incorreta.** *Temperature* é uma constante matemática no cálculo da distribuição de probabilidade da inferência.
+> - **E) Incorreta.** *Top-K* limita a amostragem aos $K$ tokens mais prováveis no vocabulário.
+>
+> **Gabarito: B**
 
 ---
 
@@ -167,7 +236,7 @@ flowchart TD
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - Intent-Based Programming e Gestão de Contexto)
+### Questão 05 (FCC - Adaptada / TI - Intent-Based Programming e Gestão de Contexto)
 No contexto da evolução da engenharia de software assistida por inteligência artificial, destacam-se os conceitos de Programação Baseada em Intenção (*Intent-Based Programming*) e a gestão criteriosa da janela de contexto (*Context Window*).
 
 Sobre esses conceitos, assinale a afirmativa correta:  
@@ -199,6 +268,29 @@ Na programação clássica, o compilador atua como um juiz sintático inflexíve
 - A intenção é descrita textualmente, mas ancorada por especificações formais de entrada e saída, eliminando ambiguidade semântica.
 
 ---
+
+### Questão 06
+**(FCC – Inédita – Padrão TCE-GO)**  
+No paradigma de Programação Baseada em Intenção (*Intent-Based Programming*), o desenvolvedor expressa a intenção de negócio em linguagem natural estruturada, cabendo a agentes de IA sintetizar a lógica técnica e a implementação. No entanto, na integração desse código aos pipelines de entrega, a relação entre semântica declarativa e sintaxe estrita exige que:
+
+* **A)** O código gerado pela IA seja enviado para produção imediatamente sem compilação, pois a intenção declarada sobrepõe-se às regras de sintaxe do compilador.
+* **B)** O compilador, o analisador de tipos (como TypeScript) e os linters estáticos atuem como filtros determinísticos inegociáveis, validando rigorosamente contratos de interface e consistência tipológica da solução antes de qualquer execução.
+* **C)** As interfaces de contratos sejam eliminadas do código para permitir que a IA altere tipos de dados livremente em tempo de execução.
+* **D)** A semântica probabilística dos LLMs substitua a necessidade de contratos formais de API (como OpenAPI e Protocol Buffers).
+* **E)** Erros de compilação em código gerado por IA sejam ignorados pelo pipeline de integração contínua.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A intenção precisa obrigatoriamente se materializar em código sintaticamente e semanticamente perfeito perante os validadores formais da linguagem.
+> - **B) Correta.** A chave da engenharia de software assistida por IA é a complementariedade: a IA gera propostas de código no espaço semântico probabilístico, mas essas propostas são imediatamente submetidas a verificadores determinísticos estritos (compiladores, checadores de tipo estático, linters e suítes de testes automatizados).
+> - **C) Incorreta.** Contratos estritos de interface são ainda mais essenciais quando se utiliza código assistido por IA.
+> - **D) Incorreta.** Contratos padronizados (OpenAPI, protobuf) são a âncora que impede a IA de quebrar integrações existentes.
+> - **E) Incorreta.** Viola os princípios mais elementares de CI/CD e confiabilidade.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 2.3 Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis
 A disciplina do BDD (*Behavior-Driven Development*) serve como ponte natural entre intenção em linguagem humana e testes automatizados. Cenários descritos em sintaxe Gherkin (`Dado que... Quando... Então...`) são utilizados como especificações inequívocas:
@@ -273,7 +365,7 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - Engenharia de Prompts e Hiperparâmetros de Inferência)
+### Questão 07 (FCC - Adaptada / TI - Engenharia de Prompts e Hiperparâmetros de Inferência)
 Um desenvolvedor de software de um Tribunal de Contas Estadual está configurando a integração de uma ferramenta de IA generativa para auxiliar na geração automatizada de funções de validação de regras fiscais e cálculos contábeis em Python. Ele precisa garantir que as implementações geradas sejam estritamente determinísticas, fiéis à sintaxe da linguagem e sigam um padrão corporativo pré-estabelecido de tratamento de exceções.
 
 Considerando as técnicas de engenharia de prompts e a calibração de modelos de linguagem (LLMs):  
@@ -296,7 +388,7 @@ Considerando as técnicas de engenharia de prompts e a calibração de modelos d
 
 ---
 
-### Questão 04 (FCC - Padrão Concursos TI / Engenharia de Prompts e Chain-of-Thought)
+### Questão 08 (FCC - Padrão Concursos TI / Engenharia de Prompts e Chain-of-Thought)
 Um analista de sistemas da área fiscal precisa refatorar uma rotina crítica de cálculo do ITCMD (Imposto sobre Transmissão Causa Mortis e Doação) que envolve alíquotas progressivas, meação, herança legítima e múltiplas condições de isenção. Para obter da IA generativa uma solução robusta e livre de falhas de lógica contábil, ele decide aplicar técnicas avançadas de engenharia de prompts.
 
 Nesse cenário, a abordagem metodologicamente mais adequada é:  
@@ -341,6 +433,29 @@ xychart-beta
 
 ---
 
+### Questão 09
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+Em arquiteturas de LLMs com janelas de contexto estendidas (acima de 128k tokens), pesquisadores identificaram o fenômeno empírico denominado *"Lost in the Middle"*. Esse efeito consiste na tendência de o modelo:
+
+* **A)** Esquecer completamente todas as palavras iniciadas pela letra "M" ao longo do texto.
+* **B)** Apresentar atenção e capacidade de recuperação substancialmente superiores para informações situadas no início e no final do prompt de contexto, degradando a precisão na recuperação de fatos e restrições posicionados no meio do contexto volumoso.
+* **C)** Exigir o reinício manual do computador sempre que o prompt ultrapassar 500 caracteres.
+* **D)** Alucinar apenas em tarefas que envolvem operações de banco de dados relacional.
+* **E)** Travar o mecanismo de autocompletar da IDE exclusivamente durante a madrugada.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Não há relação léxica com a letra "M".
+> - **B) Correta.** O estudo canônico sobre o fenômeno *"Lost in the Middle"* (Liu et al., 2023) demonstrou que a atenção dos Transformers degrada em formato de "U": a retenção é máxima no início (efeito primazia) e no fim (efeito recência) do prompt, diminuindo sensivelmente no miolo. Portanto, instruções arquiteturais críticas e regras restritivas devem ser posicionadas nas extremidades do prompt.
+> - **C) Incorreta.** O efeito é puramente matemático da distribuição de autoatenção (*self-attention weights*).
+> - **D) Incorreta.** O efeito ocorre em qualquer domínio de conhecimento textual.
+> - **E) Incorreta.** Afirmação sem fundamento.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 3.4 Curadoria de Contexto e Minimização de Ruído no Repositório
 Para contornar o efeito *Lost in the Middle* e evitar estouros de cotas financeiras e de tokens:
 
@@ -350,7 +465,7 @@ Para contornar o efeito *Lost in the Middle* e evitar estouros de cotas financei
 
 ---
 
-### Questão 05 (FCC - Padrão Concursos TI / Curadoria de Contexto e Estruturação de Prompts)
+### Questão 10 (FCC - Padrão Concursos TI / Curadoria de Contexto e Estruturação de Prompts)
 Na formulação de prompts para agentes de geração de código em larga escala, a equipe técnica deparou-se com a necessidade de submeter múltiplos artefatos: a especificação de uma API REST, esquemas de banco de dados e requisitos de negócio complexos.
 
 Considerando as boas práticas de curadoria de contexto e a mitigação de vieses posicionais em LLMs:  

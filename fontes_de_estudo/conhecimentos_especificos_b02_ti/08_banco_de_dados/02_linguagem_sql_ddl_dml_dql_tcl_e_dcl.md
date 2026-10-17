@@ -63,6 +63,29 @@ flowchart TD
 | **DCL** | *Data Control Language* | `GRANT`, `REVOKE` | Gestão de privilégios de acesso, concessão e revogação de permissões a usuários e papéis (*roles*). |
 | **TCL** | *Transaction Control Language* | `COMMIT`, `ROLLBACK`, `SAVEPOINT` | Gerenciamento de blocos de transações atômicas, garantindo as propriedades ACID. |
 
+### Questão 01 (FGV - TRT / Analista Judiciário - TI - Comandos DCL e Gestão de Privilégios)
+Em um banco de dados corporativo de um órgão público, o Administrador de Banco de Dados (DBA) necessita conceder privilégios de consulta e inserção na tabela `FOLHA_PAGAMENTO` para o usuário `auditor_fiscal`, permitindo adicionalmente que este usuário repasse exclusivamente o privilégio de consulta a outros analistas de sua equipe. Posteriormente, por motivos de conformidade, o DBA revogou o privilégio de consulta do `auditor_fiscal` de forma cascateada.
+
+Considerando os comandos da Data Control Language (DCL) do padrão ANSI SQL, assinale a opção que indica as instruções corretas para conceder os privilégios solicitados e, em seguida, revogá-los com efeito em cascata:
+
+* **A)** `GRANT SELECT, INSERT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH GRANT OPTION;` e `REVOKE ALL PRIVILEGES ON FOLHA_PAGAMENTO FROM auditor_fiscal;`
+* **B)** `GRANT SELECT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH GRANT OPTION;` seguido de `GRANT INSERT ON FOLHA_PAGAMENTO TO auditor_fiscal;` e, para revogação, `REVOKE SELECT ON FOLHA_PAGAMENTO FROM auditor_fiscal CASCADE;`
+* **C)** `PERMIT SELECT, INSERT ON FOLHA_PAGAMENTO FOR auditor_fiscal ADMIN OPTION;` e `DENY SELECT ON FOLHA_PAGAMENTO TO auditor_fiscal;`
+* **D)** `GRANT READ, WRITE ON TABLE FOLHA_PAGAMENTO TO USER auditor_fiscal;` e `REVOKE SELECT CASCADE FROM auditor_fiscal;`
+* **E)** `ALLOW SELECT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH ADMIN OPTION;` e `REVOKE SELECT ON FOLHA_PAGAMENTO FROM auditor_fiscal RESTRICT;`
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Ao conceder `WITH GRANT OPTION` conjuntamente para `SELECT` e `INSERT`, o auditor poderia repassar também o privilégio de inserção, violando a regra de negócio que restringia o repasse exclusivamente à consulta (`SELECT`).
+> - **B)** **CORRETA.** A cláusula `WITH GRANT OPTION` deve ser vinculada unicamente ao privilégio que pode ser repassado (`SELECT`). O privilégio `INSERT` é concedido sem essa cláusula. Para a revogação em cascata (removendo o privilégio de `auditor_fiscal` e simultaneamente de todos os terceiros a quem ele concedeu), a sintaxe padrão ANSI SQL exige `REVOKE SELECT ON FOLHA_PAGAMENTO FROM auditor_fiscal CASCADE;`.
+> - **C)** Incorreta. `PERMIT` e `DENY` não são comandos padrão DCL do ANSI SQL (são dialetos proprietários).
+> - **D)** Incorreta. No padrão SQL, os privilégios primitivos são `SELECT` e `INSERT`, não `READ` e `WRITE`.
+> - **E)** Incorreta. `ALLOW` não é comando SQL; além disso, a cláusula `RESTRICT` abortaria a revogação caso existissem privilégios dependentes, enquanto o comando exigia revogação cascateada (`CASCADE`).
+> 
+> **Gabarito: B**
+
+---
+
 ### 1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE
 
 Um dos tópicos de maior incidência em provas da FCC para cargos de Tecnologia da Informação envolve a comparação detalhada entre as operações de remoção:
@@ -85,7 +108,7 @@ Um dos tópicos de maior incidência em provas da FCC para cargos de Tecnologia 
 
 ---
 
-### Questão 01 (FCC - Adaptada / TI - DDL vs. DML: Comandos TRUNCATE e DELETE)
+### Questão 02 (FCC - Adaptada / TI - DDL vs. DML: Comandos TRUNCATE e DELETE)
 Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com mais de 50 milhões de registros de log transitório em um ambiente de produção. Ao avaliar o uso do comando `TRUNCATE TABLE` em comparação com `DELETE FROM`, conclui-se corretamente que:  
 
 * **A)** O comando `TRUNCATE` é classificado como DML e gera o mesmo volume de logs transacionais no disco que o comando `DELETE`.
@@ -106,6 +129,29 @@ Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com
 
 ---
 
+
+### Questão 03 (FCC - TRT-14 / Analista Judiciário - TI - Comandos DDL vs. DML: DROP, TRUNCATE e DELETE)
+Durante a manutenção emergencial de uma base de dados transacional com milhões de registros de log, o analista de banco de dados precisa esvaziar integralmente o conteúdo da tabela `LOG_ACESSO_TEMPORARIO`, liberando de imediato o espaço de armazenamento em disco e reinicializando os ponteiros de High Water Mark (HWM), com a máxima velocidade operacional possível e sem registrar cada tupla individualmente no log de transações.
+
+Para atender estritamente a esses requisitos técnicos, o comando correto a ser executado é:
+
+* **A)** `DELETE FROM LOG_ACESSO_TEMPORARIO;`
+* **B)** `DROP TABLE LOG_ACESSO_TEMPORARIO;`
+* **C)** `TRUNCATE TABLE LOG_ACESSO_TEMPORARIO;`
+* **D)** `ALTER TABLE LOG_ACESSO_TEMPORARIO CLEAR DATA;`
+* **E)** `REMOVE ALL FROM LOG_ACESSO_TEMPORARIO;`
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O `DELETE` é um comando DML que varre e remove linha por linha, gerando volume colossal de registros no Undo/Redo Log (WAL) para permitir `ROLLBACK`, além de disparar *triggers* do tipo `AFTER DELETE` e não resetar a High Water Mark (HWM), mantendo o espaço alocado.
+> - **B)** Incorreta. O `DROP TABLE` é um comando DDL que destrói a própria definição da tabela no catálogo de metadados, eliminando suas colunas, restrições e índices, exigindo recriação do objeto caso ele continue a ser utilizado.
+> - **C)** **CORRETA.** O `TRUNCATE TABLE` é um comando DDL (Data Definition Language) de desalocação rápida de páginas/extensões de dados. Ele desvincula os blocos de dados de uma só vez, gera registro mínimo no log transacional (apenas a desalocação das páginas), reinicializa a High Water Mark (HWM) e a contagem de sequências/identidades, não dispara *triggers* por linha e é ordens de grandeza mais veloz que o `DELETE`.
+> - **D)** Incorreta. Sintaxe inexistente no padrão ANSI SQL.
+> - **E)** Incorreta. Comando inexistente na sintaxe SQL.
+> 
+> **Gabarito: C**
+
+---
 
 ### 1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira
 
@@ -168,7 +214,7 @@ Compreender essa cronologia lógica resolve duas das questões mais frequentes d
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - Ordem Lógica de Execução e Agrupamento: WHERE vs. HAVING)
+### Questão 04 (FCC - Adaptada / TI - Ordem Lógica de Execução e Agrupamento: WHERE vs. HAVING)
 Considere a seguinte consulta SQL proposta por um desenvolvedor júnior para listar as secretarias cujo valor total de empenhos fiscais ultrapassou R$ 1.000.000 no exercício:
 
 ```sql
@@ -213,6 +259,40 @@ Ao ser submetida ao compilador SQL de um SGBD relacional padrão, a consulta:
 - **`FULL OUTER JOIN`:** Preserva todas as tuplas de ambas as tabelas. Quando não há correspondência mútua, preenche com `NULL` os atributos correspondentes.
 - **`CROSS JOIN`:** Produz o produto cartesiano irrestrito entre as tabelas (cada linha da primeira tabela é combinada com todas as linhas da segunda).
 
+### Questão 05 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Junções SQL e Tratamento de Nulos)
+Considere duas tabelas em um banco de dados relacional: `ORGAO` (com as colunas `id_orgao`, `nome_orgao`) contendo 10 registros, e `CONTRATO` (com as colunas `id_contrato`, `id_orgao`, `valor`) contendo 50 registros. Sabe-se que 2 órgãos da tabela `ORGAO` não possuem nenhum contrato cadastrado e que todos os 50 contratos da tabela `CONTRATO` possuem um `id_orgao` válido associado.
+
+Um auditor executou a seguinte instrução SQL:
+
+```sql
+SELECT O.nome_orgao, C.id_contrato, C.valor
+FROM ORGAO O
+LEFT JOIN CONTRATO C ON O.id_orgao = C.id_orgao;
+```
+
+A quantidade exata de linhas retornadas por essa consulta e o conteúdo dos campos `C.id_contrato` e `C.valor` para os 2 órgãos que não possuem contratos são, respectivamente:
+
+* **A)** 48 linhas, e as linhas dos órgãos sem contratos são omitidas do resultado.
+* **B)** 50 linhas, e as linhas dos órgãos sem contratos exibem valor 0 nos campos numéricos.
+* **C)** 52 linhas, e as linhas dos 2 órgãos sem contratos exibem o valor `NULL` nos campos `id_contrato` e `valor`.
+* **D)** 60 linhas, correspondendo ao produto cartesiano das tabelas.
+* **E)** 10 linhas, retornando apenas uma linha condensada para cada órgão existente.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A junção externa à esquerda (`LEFT JOIN`) preserva compulsoriamente todas as tuplas da relação esquerda (`ORGAO`), mesmo que não haja correspondência na direita.
+> - **B)** Incorreta. O SQL preenche ausência de correspondência com o marcador `NULL`, jamais com o valor escalar 0.
+> - **C)** **CORRETA.** A semântica do `LEFT OUTER JOIN` garante que todas as linhas da tabela à esquerda (`ORGAO`) estejam presentes no resultado:
+>   1. Para os 8 órgãos que possuem contratos, cada contrato gera uma linha correspondente no resultado, totalizando 50 linhas.
+>   2. Para os 2 órgãos que não possuem contratos vinculados, a tabela à esquerda gera exatamente uma linha para cada um deles, e todas as colunas originárias da tabela à direita (`C.id_contrato` e `C.valor`) são preenchidas com o marcador de ausência `NULL`.
+>   3. Total de linhas: $50 + 2 = 52$ linhas.
+> - **D)** Incorreta. O produto cartesiano ($10 \times 50 = 500$ linhas) seria obtido com `CROSS JOIN`.
+> - **E)** Incorreta. Para retornar apenas 10 linhas condensadas, seria necessária a cláusula `GROUP BY O.nome_orgao` com funções de agregação.
+> 
+> **Gabarito: C**
+
+---
+
 ### 3.2 Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)
 
 - **`UNION` vs. `UNION ALL`:**
@@ -220,6 +300,33 @@ Ao ser submetida ao compilador SQL de um SGBD relacional padrão, a consulta:
     - **`UNION ALL`:** Apenas concatena as duas listas de tuplas, **preservando todas as duplicatas intactas**. Possui desempenho computacional dramaticamente superior ao `UNION`.
 - **`INTERSECT`:** Retorna apenas as tuplas que constam simultaneamente em ambas as consultas, eliminando duplicatas.
 - **`EXCEPT` (ou `MINUS` no Oracle):** Retorna as tuplas da primeira consulta que não estão presentes na segunda consulta.
+
+### Questão 06 (FCC - TRT / Analista Judiciário - TI - Operadores de Conjunto: UNION vs. UNION ALL)
+Em procedimentos analíticos de auditoria de dados, um auditor necessita consolidar em uma única lista todos os CPFs de fornecedores que receberam pagamentos no Exercício de 2024 (tabela `PAGAMENTOS_2024`, com 100.000 registros, contendo CPFs repetidos) e no Exercício de 2025 (tabela `PAGAMENTOS_2025`, com 80.000 registros, também com repetições). Sabe-se que 20.000 CPFs distintos aparecem em ambos os exercícios.
+
+Considerando os operadores de conjunto da linguagem SQL padrão ANSI, avalie as afirmativas:
+
+I. O operador `UNION` realiza a união das tuplas e executa uma etapa implícita de ordenação e descarte de duplicatas (`SORT UNIQUE`), retornando apenas CPFs distintos.  
+II. O operador `UNION ALL` simplesmente concatena os resultados das duas consultas sem verificar duplicidades, resultando em menor custo computacional de CPU e memória em relação ao `UNION`.  
+III. O operador `INTERSECT` retornaria apenas os CPFs dos fornecedores que figuram simultaneamente em ambas as tabelas (`PAGAMENTOS_2024` e `PAGAMENTOS_2025`), eliminando repetições.  
+
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+> **Comentário Detalhado:**
+>
+> - **I.** **CORRETA.** O operador `UNION` exige compatibilidade de esquemas e, por padrão formal, elimina tuplas duplicadas do conjunto unificado. Para eliminar duplicatas, o motor do SGBD invoca um operador de ordenação em disco/memória (`Sort Unique`) ou uma tabela hash, aumentando o consumo de recursos.
+> - **II.** **CORRETA.** O operador `UNION ALL` realiza a união multiconjunto (*multiset* ou *bag union*), preservando todas as linhas de ambos os lados sem qualquer deduplicação. Como dispensa a fase de ordenação/hashing, sua execução é ordens de grandeza mais rápida e consome menos memória.
+> - **III.** **CORRETA.** O operador `INTERSECT` calcula a interseção dos dois conjuntos, retornando unicamente as linhas presentes simultaneamente no primeiro e no segundo comando `SELECT`, eliminando valores duplicados.
+> 
+> **Gabarito: E**
+
+---
 
 ### 3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL
 
@@ -236,7 +343,7 @@ Em SQL, qualquer comparação direta com valor nulo (`coluna = NULL` ou `coluna 
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - Subconsultas e a Lógica de Nulos com NOT IN vs. NOT EXISTS)
+### Questão 07 (FCC - Adaptada / TI - Subconsultas e a Lógica de Nulos com NOT IN vs. NOT EXISTS)
 Considere duas tabelas em um banco de dados fazendário:
 
 - `CONTRIBUINTE (id_contribuinte, nome)` com 1.000 registros.
@@ -291,6 +398,32 @@ JOIN AuditoriasRecentes ar ON a.id = ar.auditor_id;
 
 ---
 
+### Questão 08 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Common Table Expressions e CTE Recursiva)
+Em um sistema de auditoria governamental, a estrutura de subordinação hierárquica dos órgãos de controle é modelada na tabela `UNIDADE_ORGANIZACIONAL (id_unidade, nome_unidade, id_unidade_superior)`.
+
+Para percorrer recursivamente todos os níveis descendentes a partir de uma unidade raiz (`id_unidade = 1`), o padrão ANSI SQL:1999 disponibiliza o recurso de Common Table Expressions (CTEs) recursivas. A respeito da construção sintática e do funcionamento operacional de uma `WITH RECURSIVE`, assinale a afirmativa correta:
+
+* **A)** A cláusula `WITH RECURSIVE` é composta obrigatoriamente por dois membros unidos por `UNION` ou `UNION ALL`: o membro-âncora (termo inicial não-recursivo) e o membro recursivo (que faz referência ao próprio nome da CTE), cessando a execução quando o membro recursivo retorna um conjunto vazio.
+* **B)** A consulta recursiva executa um loop infinito no SGBD a menos que seja incluída compulsoriamente uma cláusula `LIMIT 100` na definição da tabela âncora.
+* **C)** Funções de agregação como `SUM()` e `AVG()` podem ser livremente empregadas dentro da subconsulta do membro recursivo sem restrições sintáticas pelo padrão ANSI.
+* **D)** Uma CTE recursiva não pode ser utilizada com o comando `SELECT`, sendo um recurso exclusivo de instruções de modificação de dados (`UPDATE` e `DELETE`).
+* **E)** O operador de junção entre o membro-âncora e o membro recursivo deve ser compulsoriamente um `CROSS JOIN`.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** A arquitetura da CTE recursiva (`WITH RECURSIVE nome_cte AS (...)`) é rigorosamente estruturada em:
+>   1. **Membro-Âncora (Anchor Member):** Executa uma única vez para gerar o conjunto de dados base (ex.: recuperar o órgão com `id_unidade = 1`).
+>   2. **Operador de União:** `UNION ALL` (mais comum por performance) ou `UNION`.
+>   3. **Membro Recursivo (Recursive Member):** Faz referência direta a `nome_cte` unida com a tabela física (`UNIDADE_ORGANIZACIONAL`) para descer/subir na árvore. O motor avalia iterativamente até que uma iteração retorne zero registros (conjunto vazio), momento em que a recursão atinge sua condição natural de parada.
+> - **B)** Incorreta. O encerramento ocorre naturalmente quando a iteração atual não produz nenhuma nova linha.
+> - **C)** Incorreta. O padrão ANSI SQL proíbe expressamente o uso de funções de agregação (`SUM`, `MAX`, `AVG`), cláusulas `GROUP BY` e `ORDER BY` dentro do membro recursivo que referencia a própria CTE recursiva.
+> - **D)** Incorreta. CTEs recursivas são amplamente utilizadas com instruções `SELECT` para consultas em grafos e árvores hierárquicas.
+> - **E)** Incorreta. O membro-âncora e o membro recursivo são unidos por operadores de conjunto (`UNION` ou `UNION ALL`), jamais por `CROSS JOIN`.
+> 
+> **Gabarito: A**
+
+---
+
 ## 4. Funções Analíticas de Janela (Window Functions)
 
 Diferente da cláusula `GROUP BY` (que colapsa múltiplas linhas em um único registro agregado por partição), as **funções de janela (*Window Functions*)** realizam cálculos agregados e analíticos **sem colapsar as tuplas**, preservando a identidade e o detalhe de cada linha individual.
@@ -326,7 +459,7 @@ Considere quatro servidores avaliados por salário dentro de uma partição: Ana
 
 ---
 
-### Questão 04 (FCC - Adaptada / TI - Funções de Janela em SQL)
+### Questão 09 (FCC - Adaptada / TI - Funções de Janela em SQL)
 Considere uma tabela denominada `AUDITORIA_FOLHA` que armazena os vencimentos de servidores, com as colunas `Matricula`, `Orgao` e `Salario`. Um analista precisa gerar um relatório onde os servidores sejam classificados em ordem decrescente de salário dentro de cada órgão (`Orgao`), de modo que servidores com salários idênticos recebam a mesma posição no ranking e a numeração da posição subsequente continue consecutiva, sem deixar lacunas ou "pular" números.
 
 A consulta SQL correta que atende exatamente a essa especificação utiliza a função de janela:  
@@ -356,6 +489,62 @@ Permitem acessar dados de linhas vizinhas na mesma partição sem necessidade de
 
 - **`LAG(coluna, N, valor_padrao)`:** Retorna o valor da coluna correspondente a $N$ linhas **anteriores** à linha corrente.
 - **`LEAD(coluna, N, valor_padrao)`:** Retorna o valor da coluna correspondente a $N$ linhas **posteriores** à linha corrente.
+
+---
+
+### Questão 10 (FGV - TRT-DA 24-REGIÃO / Analista Judiciário - TI - Funções de Deslocamento: LEAD e LAG)
+Em auditorias de contratações públicas, é comum comparar o valor pago a um prestador em um determinado mês com o valor pago no mês imediatamente anterior e no mês imediatamente posterior, a fim de detectar variações abruptas de faturamento.
+
+Considere a tabela `PAGAMENTO_CONTRATO` com as colunas `id_contrato`, `mes_ano` e `valor_pago`. Assinale a instrução SQL que utiliza corretamente funções analíticas de deslocamento de janela para recuperar, em uma mesma linha de saída para cada contrato, o valor do pagamento corrente, o valor do mês imediatamente anterior e o valor do mês imediatamente subsequente:
+
+* **A)**
+```sql
+SELECT id_contrato, mes_ano, valor_pago,
+       LAG(valor_pago, 1) OVER (PARTITION BY id_contrato ORDER BY mes_ano) AS valor_anterior,
+       LEAD(valor_pago, 1) OVER (PARTITION BY id_contrato ORDER BY mes_ano) AS valor_posterior
+FROM PAGAMENTO_CONTRATO;
+```
+* **B)**
+```sql
+SELECT id_contrato, mes_ano, valor_pago,
+       FIRST_VALUE(valor_pago) OVER (ORDER BY mes_ano) AS valor_anterior,
+       LAST_VALUE(valor_pago) OVER (ORDER BY mes_ano) AS valor_posterior
+FROM PAGAMENTO_CONTRATO;
+```
+* **C)**
+```sql
+SELECT id_contrato, mes_ano, valor_pago,
+       PREVIOUS(valor_pago) WITHIN GROUP (ORDER BY mes_ano) AS valor_anterior,
+       NEXT(valor_pago) WITHIN GROUP (ORDER BY mes_ano) AS valor_posterior
+FROM PAGAMENTO_CONTRATO;
+```
+* **D)**
+```sql
+SELECT id_contrato, mes_ano, valor_pago,
+       LEAD(valor_pago, -1) OVER (ORDER BY id_contrato) AS valor_anterior,
+       LAG(valor_pago, +1) OVER (ORDER BY id_contrato) AS valor_posterior
+FROM PAGAMENTO_CONTRATO;
+```
+* **E)**
+```sql
+SELECT id_contrato, mes_ano, valor_pago,
+       OFFSET(valor_pago, -1) OVER (PARTITION BY id_contrato) AS valor_anterior,
+       OFFSET(valor_pago, 1) OVER (PARTITION BY id_contrato) AS valor_posterior
+FROM PAGAMENTO_CONTRATO;
+```
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** As funções de deslocamento do padrão SQL funcionam com as seguintes propriedades:
+>   - `LAG(expressao, offset, [default])`: Acessa dados de uma linha situada $N$ posições **anteriores** à linha corrente dentro da partição da janela.
+>   - `LEAD(expressao, offset, [default])`: Acessa dados de uma linha situada $N$ posições **posteriores** (subsequentes) à linha corrente dentro da partição da janela.
+>   - A cláusula `PARTITION BY id_contrato` garante que o histórico de pagamentos seja particionado isoladamente por contrato, e `ORDER BY mes_ano` define a sequência temporal cronológica mandatória para o cálculo do deslocamento.
+> - **B)** Incorreta. `FIRST_VALUE` e `LAST_VALUE` retornam o primeiro e o último valor de todo o frame da janela, não os valores adjacentes anterior e posterior.
+> - **C)** Incorreta. Funções `PREVIOUS` e `NEXT` não existem no padrão ANSI SQL.
+> - **D)** Incorreta. Os papéis de `LEAD` e `LAG` foram invertidos e o deslocamento com offset negativo gera erro sintático em diversos dialetos.
+> - **E)** Incorreta. Função `OFFSET` não é função analítica de janela no padrão SQL.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -402,7 +591,7 @@ Gatilhos (*Triggers*) são blocos de código procedurais executados automaticame
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Gatilhos / Triggers e Pseudorregistros)
+### Questão 11 (FCC - Adaptada / TI - Gatilhos / Triggers e Pseudorregistros)
 No que concerne aos gatilhos (*Triggers*) em sistemas de gerenciamento de bancos de dados relacionais padrão ANSI/ISO e SGBDs modernos (como Oracle e PostgreSQL), assinale a afirmativa correta:  
 
 * **A)** Em um gatilho acionado por uma instrução `INSERT`, tanto o pseudorregistro `OLD` quanto o pseudorregistro `NEW` contêm os mesmos valores da nova linha inserida.

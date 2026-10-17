@@ -75,6 +75,29 @@ Mede o comportamento do sistema em termos de velocidade de resposta e utilizaç�
 
 ---
 
+### Questão 01
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na avaliação de confiabilidade e disponibilidade de sistemas computacionais em conformidade com as normas de qualidade de software, duas métricas temporais essenciais são o MTBF (*Mean Time Between Failures* - Tempo Médio Entre Falhas) e o MTTR (*Mean Time To Repair* - Tempo Médio Para Reparo). A disponibilidade global do sistema ($D$) é classicamente calculada pela fórmula:
+
+* **A)** $D = \frac{MTTR}{MTBF + MTTR}$
+* **B)** $D = \frac{MTBF}{MTBF + MTTR}$
+* **C)** $D = MTBF - MTTR$
+* **D)** $D = \frac{MTBF \times MTTR}{100}$
+* **E)** $D = \frac{MTTR}{MTBF}$
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Essa razão representaria a taxa de indisponibilidade fracionária (*unavailability*).
+> - **B) Correta.** A Disponibilidade ($A$ ou $D$) é a probabilidade do sistema estar operacional no instante considerado: $D = \frac{MTBF}{MTBF + MTTR}$.
+> - **C) Incorreta.** A disponibilidade é uma razão adimensional (frequentemente expressa em percentual, como 99,99%), não uma subtração temporal.
+> - **D) Incorreta.** Fórmula incorreta.
+> - **E) Incorreta.** Razão que não expressa a disponibilidade.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 1.4 Manutenibilidade e Facilidade de Mudança
 A manutenibilidade reflete a facilidade e a eficiência com que o software pode ser modificado pelos desenvolvedores para corrigir defeitos, melhorar o desempenho ou adaptar o sistema a mudanças no ambiente de negócio. Subdivide-se em:
 
@@ -109,6 +132,29 @@ flowchart TD
 
 ---
 
+### Questão 02
+**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+A Pirâmide de Testes, conceito amplamente difundido por Mike Cohn na engenharia de software moderna, define a proporção ideal entre diferentes categorias de testes automatizados em uma suíte de entrega contínua. Em conformidade com esse modelo, tem-se que:
+
+* **A)** a base da pirâmide deve conter o maior volume de testes e ser constituída por Testes de Unidade, caracterizados por alta velocidade de execução, isolamento e baixo custo de manutenção.
+* **B)** o topo da pirâmide deve concentrar mais de 80% do esforço de testes na forma de testes ponta a ponta manuais na interface com o usuário.
+* **C)** os testes de integração devem ser completamente extintos, visto que os testes de unidade cobrem todas as falhas de comunicação entre microsserviços.
+* **D)** o modelo preconiza que suítes de testes automatizados devem assemelhar-se a um "cone de sorvete", priorizando testes de UI em detrimento de testes de baixo nível.
+* **E)** os testes de unidade são os mais lentos e custosos da pirâmide devido à obrigatoriedade de instanciar contêineres Docker e bancos de dados em nuvem.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** A base larga da pirâmide é formada por Testes de Unidade (rápidos, isolados, determinísticos e baratos). Na camada intermediária situam-se os Testes de Integração/Serviço, e no topo reduzido os Testes de Ponta a Ponta / UI.
+> - **B) Incorreta.** O topo da pirâmide é pequeno e restrito; testes de UI são caros, lentos e frágeis (*flaky*).
+> - **C) Incorreta.** Os testes de integração são indispensáveis para validar contratos, protocolos e comunicação de componentes.
+> - **D) Incorreta.** O "cone de sorvete" (*ice cream cone anti-pattern*) é exatamente a anomalia que a Pirâmide de Testes combate.
+> - **E) Incorreta.** Testes de unidade operam em memória com dublês de teste, sem rede ou banco real, sendo os mais velozes.
+>
+> **Gabarito: A**
+
+---
+
+
 ### 2.2 Dublês de Teste (*Test Doubles* de Gerard Meszaros)
 Nos testes unitários, para isolar a unidade sob teste (*System Under Test - SUT*) de dependências pesadas, instáveis ou lentas (bancos de dados, serviços web externos, sistemas de arquivos), empregam-se **Dublês de Teste**:
 
@@ -131,7 +177,7 @@ graph TD
 
 ---
 
-### Questão 01
+### Questão 03
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 No desenvolvimento guiado por testes (*Test-Driven Development* - TDD) e na criação de suítes de testes unitários isolados, utilizam-se diferentes tipos de dublês de teste (*Test Doubles*). O dublê que é configurado especificamente com expectativas prévias sobre quais métodos devem ser chamados, com quais argumentos e quantas vezes, fazendo com que o teste falhe caso essas interações não ocorram conforme esperado, é denominado:
 
@@ -164,6 +210,29 @@ No desenvolvimento guiado por testes (*Test-Driven Development* - TDD) e na cria
 
 ---
 
+### Questão 04
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No âmbito das técnicas de teste funcional de software (Caixa-Preta), o Particionamento em Classes de Equivalência e a Análise de Valor Limite são métodos consagrados para seleção criteriosa de casos de teste. A respeito dessas técnicas, é correto afirmar:
+
+* **A)** O particionamento em classes de equivalência exige que o desenvolvedor inspecione o código-fonte C++ para verificar o número de desvios condicionais `if-else`.
+* **B)** A análise de valor limite assume que a probabilidade de ocorrência de erros no software é homogênea em todo o espaço de entrada, dispensando testes nas fronteiras.
+* **C)** No particionamento de equivalência, divide-se o domínio de dados de entrada em partições válidas e inválidas, partindo do princípio de que qualquer dado representativo escolhido dentro de uma mesma partição gerará um comportamento análogo pelo sistema.
+* **D)** As técnicas de caixa-preta analisam exclusivamente a complexidade ciclomática e a cobertura de comandos do código compilado.
+* **E)** A análise de valor limite testa exclusivamente o ponto central aritmético de cada partição, ignorando os extremos superior e inferior.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Inspecionar desvios e código-fonte é teste de Caixa-Branca (estrutural), não Caixa-Preta.
+> - **B) Incorreta.** A análise de valor limite fundamenta-se na premissa comprovada de que a maioria dos erros ocorre justamente nas fronteiras e transições das partições.
+> - **C) Correta.** É o princípio exato das classes de equivalência: os valores de uma classe são tratados como equivalentes pelo programa, permitindo testar um único representante por classe.
+> - **D) Incorreta.** Complexidade ciclomática e cobertura de comandos são técnicas de Caixa-Branca.
+> - **E) Incorreta.** A análise de valor limite testa exatamente os extremos (mínimo, logo abaixo do mínimo, máximo, logo acima do máximo).
+>
+> **Gabarito: C**
+
+---
+
+
 ### 2.4 Complexidade Ciclomática de Thomas McCabe e Grafo de Fluxo
 Proposta por Thomas McCabe em 1976, a **Complexidade Ciclomática ($V(G)$)** mede quantitativamente a complexidade lógica de um programa através da contagem do número de caminhos linearmente independentes no seu grafo de fluxo de controle.
 
@@ -179,7 +248,7 @@ Proposta por Thomas McCabe em 1976, a **Complexidade Ciclomática ($V(G)$)** med
 
 ---
 
-### Questão 02
+### Questão 05
 **(FCC – TRF – Analista Judiciário / TI)**  
 Considere um método Java que contém a seguinte estrutura lógica de decisões condicionais: três comandos `if` simples, um laço `while` e uma estrutura `switch-case` com quatro cláusulas `case` e uma cláusula `default`. Aplicando a técnica de teste de caixa-branca fundamentada na Complexidade Ciclomática de Thomas McCabe ($V(G)$), o número de caminhos linearmente independentes e, consequentemente, a quantidade mínima de casos de teste necessários para cobrir todos os fluxos de execução desse método é:
 
@@ -211,7 +280,7 @@ Considere um método Java que contém a seguinte estrutura lógica de decisões 
 
 ---
 
-### Questão 03
+### Questão 06
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Uma equipe de desenvolvimento de software do Tribunal de Contas concluiu a correção de uma vulnerabilidade de segurança e a implementação de uma nova funcionalidade na rotina de cadastro de credores. Antes de disponibilizar a nova versão em produção, o líder técnico determinou a execução imediata de um conjunto de testes automatizados com o objetivo específico de verificar se as alterações recentes introduzidas no código-fonte não afetaram adversamente ou causaram falhas em partes do sistema que funcionavam perfeitamente antes da alteração. O tipo de teste determinado pelo líder é o:
 
@@ -249,7 +318,7 @@ A engenharia de testes de desempenho categoriza os testes de acordo com o padrã
 
 ---
 
-### Questão 04
+### Questão 07
 **(FCC – SEFAZ – Auditor de Tecnologia da Informação)**  
 Uma equipe de testes de software planeja a execução de testes não-funcionais de desempenho em um portal tributário que receberá declarações fiscais. Para verificar o comportamento do sistema quando submetido a uma carga que ultrapassa intencionalmente a capacidade operacional máxima para a qual foi projetado, com o objetivo de observar como o sistema se comporta sob falha, se degrada graciosamente e como se recupera após a remoção da sobrecarga extrema, deve ser planejado um:
 
@@ -283,6 +352,29 @@ Uma equipe de testes de software planeja a execução de testes não-funcionais 
 
 ---
 
+
+### Questão 08
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+O Desenvolvimento Orientado por Testes (*Test-Driven Development* - TDD), preconizado por Kent Beck, estabelece um ciclo disciplinado de desenvolvimento guiado por iterações extremamente curtas, denominado ciclo *Red-Green-Refactor*. A ordem estrita e as ações correspondentes a esse ciclo são:
+
+* **A)** 1. Escrever todo o código de produção funcional (Green); 2. Encontrar erros de compilação (Red); 3. Otimizar o banco de dados (Refactor).
+* **B)** 1. Escrever um teste unitário automatizado que falha porque a funcionalidade ainda não existe (Red); 2. Escrever o código mínimo necessário para fazer o teste passar (Green); 3. Melhorar o design e a estrutura interna do código mantendo os testes passando (Refactor).
+* **C)** 1. Refatorar o código legado sem testes (Refactor); 2. Executar testes de carga em produção (Green); 3. Corrigir bugs reportados pelos usuários (Red).
+* **D)** 1. Gerar relatórios de cobertura SonarQube (Red); 2. Solicitar aprovação gerencial (Green); 3. Comitar na branch master (Refactor).
+* **E)** 1. Escrever código e testes simultaneamente na mesma classe (Green); 2. Desabilitar testes que falharem (Refactor); 3. Marcar o build como concluído (Red).
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** No TDD o teste é escrito *antes* do código de produção.
+> - **B) Correta.** É o mantra oficial do TDD: **Red** (escreva um teste para o novo comportamento e veja-o falhar), **Green** (escreva o código mais simples e rápido que faça o teste passar), e **Refactor** (limpe a duplicação e refine o design com a segurança de que a suíte continua verde).
+> - **C) Incorreta.** Inversão completa da metodologia.
+> - **D) Incorreta.** TDD é prática de engenharia de software em nível de código, não processo burocrático de aprovação.
+> - **E) Incorreta.** Desabilitar testes que falham é um anti-padrão grave.
+>
+> **Gabarito: B**
+
+---
+
 ## 4. Revisão de Código, Refatoração e Dívida Técnica
 
 ### 4.1 Técnicas Modernas de Revisão de Código (Code Review)
@@ -293,6 +385,29 @@ A revisão de código é uma prática colaborativa indispensável de garantia da
 - **Pair Programming:** Revisão contínua em tempo real executada pelo copiloto (*Navigator*) enquanto o piloto (*Driver*) digita o código.
 
 ---
+
+### Questão 09
+**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
+No ciclo de vida de desenvolvimento de software em equipes de alta maturidade, a prática de Revisão de Código (*Code Review*) por meio de *Pull Requests* / *Merge Requests* aliada à Análise Estática Automatizada compõe a primeira linha de defesa da qualidade do software. Em relação a essas práticas, é correto afirmar:
+
+* **A)** A análise estática de código só pode ser executada com o software em pleno funcionamento no ambiente de produção sob tráfego real.
+* **B)** As ferramentas de análise estática (como *linters* e analisadores de qualidade) examinam a estrutura do código-fonte sem executá-lo, detectando violações de estilo, vulnerabilidades de segurança conhecidas, duplicações de código e métricas de complexidade ciclomática.
+* **C)** A revisão por pares de código deve ser reservada exclusivamente para código desenvolvido por estagiários, devendo o código de desenvolvedores seniores ser enviado direto para produção sem inspeção.
+* **D)** O Code Review tem como finalidade primordial medir o tempo gasto por linha de código para fins de aplicação de penalidades trabalhistas.
+* **E)** O uso de ferramentas automatizadas de análise de código elimina integralmente a necessidade da revisão humana em Pull Requests.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A análise estática examina o código sem executá-lo. A análise que roda com a aplicação sob tráfego é a análise dinâmica (DAST / APM).
+> - **B) Correta.** Ferramentas de análise estática (ex: SonarQube, ESLint, Checkstyle) inspecionam o código-fonte em repouso (*at rest*), apontando code smells, vulnerabilidades (SAST), duplicações e métricas de manutenibilidade.
+> - **C) Incorreta.** Todos os membros da equipe submetem código a review (*peer review* universal para garantia de qualidade e disseminação de conhecimento).
+> - **D) Incorreta.** Code review foca na qualidade técnica da solução e na melhoria contínua, jamais em controle punitivo.
+> - **E) Incorreta.** Ferramentas automatizadas e revisões humanas são complementares; humanos avaliam arquitetura, legibilidade e intenção de negócio.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 4.2 Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler
 - **Definição Canônica (Martin Fowler):** Refatoração (*Refactoring*) é o processo de **modificar a estrutura interna de um software sem alterar o seu comportamento observável externo**, visando melhorar a legibilidade, reduzir a complexidade e facilitar futuras manutenções.  
@@ -305,7 +420,7 @@ A revisão de código é uma prática colaborativa indispensável de garantia da
 
 ---
 
-### Questão 05
+### Questão 10
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 A respeito do conceito de refatoração (*refactoring*) de código em engenharia de software e da metáfora de dívida técnica, assinale a afirmativa correta:
 
@@ -349,6 +464,33 @@ flowchart TD
 - **Inadvertida e Prudente:** Decorrente do aprendizado natural do time: após colocar o sistema em produção e observar o uso real, os arquitetos percebem qual deveria ter sido o melhor design;
 - **Deliberada e Imprudente:** A equipe sabe que está gerando código de péssima qualidade e sem testes, mas adota atalhos por puro desleixo e negligência;
 - **Inadvertida e Imprudente:** A equipe desconhece princípios básicos de engenharia de software e padrões de design, gerando código macarrônico por pura incompetência técnica.
+
+---
+
+
+### Questão 11
+**(FCC – Inédita – Padrão TCE-GO)**  
+O conceito de Dívida Técnica (*Technical Debt*), cunhado originariamente por Ward Cunningham e categorizado no célebre "Quadrante da Dívida Técnica" por Martin Fowler, compara decisões apressadas de desenvolvimento a dívidas financeiras. No quadrante de Fowler, quando uma equipe assume deliberadamente uma solução de arquitetura simplificada e incompleta para atingir um prazo de lançamento crucial do negócio, tendo plena consciência técnica do débito e planejando pagá-lo na Sprint seguinte, essa dívida é classificada como:
+
+* **A)** Imprudente e Inadvertida.
+* **B)** Prudente e Deliberada.
+* **C)** Imprudente e Deliberada.
+* **D)** Prudente e Inadvertida.
+* **E)** Acidental e Irreversível.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** "Imprudente e Inadvertida" ocorre quando a equipe não conhece boas práticas de design e escreve código ruim sem saber que o está fazendo.
+> - **B) Correta.** No Quadrante da Dívida Técnica de Fowler:
+>   - **Prudente e Deliberada:** A equipe sabe o que está fazendo e decide assumir o débito conscientemente ("Temos que lançar agora; pagaremos o débito na próxima Sprint").
+>   - **Imprudente e Deliberada:** A equipe decide ignorar boas práticas por pressa negligente ("Não temos tempo para design").
+>   - **Prudente e Inadvertida:** A equipe fez o melhor trabalho possível, mas aprendeu uma abordagem melhor com o tempo ("Agora sabemos como deveríamos ter feito").
+>   - **Imprudente e Inadvertida:** Falta de competência técnica básica ("O que é arquitetura em camadas?").
+> - **C) Incorreta.** "Imprudente e Deliberada" é o atalho negligente.
+> - **D) Incorreta.** "Prudente e Inadvertida" decorre do aprendizado natural pós-entrega.
+> - **E) Incorreta.** Categorias que não fazem parte do quadrante de Fowler.
+>
+> **Gabarito: B**
 
 ---
 

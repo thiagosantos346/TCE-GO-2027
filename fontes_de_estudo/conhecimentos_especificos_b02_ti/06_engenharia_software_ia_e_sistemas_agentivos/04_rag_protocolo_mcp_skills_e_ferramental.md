@@ -49,6 +49,29 @@ A operação contínua de agentes de engenharia de software enfrenta restriçõe
 
 ---
 
+### Questão 01
+**(FCC – Inédita – Padrão TCE-GO)**  
+O mecanismo de autoatenção (*Self-Attention*) canônico da arquitetura Transformer calcula a relação entre todos os pares de tokens da sequência de entrada. Esse mecanismo acarreta, em termos de complexidade computacional teórica de tempo e memória em relação ao comprimento da sequência ($N$), uma taxa de crescimento:
+
+* **A)** Linear: $O(N)$
+* **B)** Logarítmica: $O(\log N)$
+* **C)** Quadrática: $O(N^2)$
+* **D)** Constante: $O(1)$
+* **E)** Exponencial: $O(2^N)$
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A atenção padrão não é linear em relação ao tamanho da sequência.
+> - **B) Incorreta.** A complexidade logarítmica é típica de buscas em árvores balanceadas.
+> - **C) Correta.** A matriz de atenção tradicional $QK^T$ compara cada um dos $N$ tokens contra todos os outros $N$ tokens da sequência, resultando em complexidade de tempo e memória estritamente quadrática $O(N^2)$. Esse crescimento exponencial impõe desafios severos de custo e latência para o processamento de repositórios massivos de código, motivando o uso de RAG e Prompt Caching.
+> - **D) Incorreta.** Atenção não pode ser calculada em tempo constante.
+> - **E) Incorreta.** O crescimento é polinomial de grau 2 ($N^2$), não exponencial.
+>
+> **Gabarito: C**
+
+---
+
+
 ### 1.2 Memória de Curto Prazo (Working Memory) vs. Memória de Longo Prazo
 
 ```mermaid
@@ -82,6 +105,29 @@ Para viabilizar fluxos agentivos em bases de código de milhões de linhas:
 
 ---
 
+
+### Questão 02
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+No desenvolvimento assistido por agentes em repositórios corporativos de grande porte, a técnica de *Prompt Caching* (disponibilizada por provedores de LLMs avançados) proporciona economia expressiva de tempo e custo financeiro. O funcionamento e benefício central do *Prompt Caching* reside no fato de que:
+
+* **A)** O modelo de linguagem armazena em disco o código-fonte gerado em linguagem binária pura.
+* **B)** Prefixos idênticos de prompts longos (como documentações do sistema, esquemas de bancos de dados e instruções de agentes) são mantidos em cache na memória de aceleração das GPUs dos servidores de inferência, permitindo processar requisições subsequentes com até 90% de desconto no custo de tokens e latência drasticamente reduzida.
+* **C)** O agente é proibido de realizar novas consultas de código durante 24 horas consecutivas.
+* **D)** Todos os tokens em cache são permanentemente destruídos caso o usuário feche a IDE.
+* **E)** O sistema passa a funcionar em modo offline sem consumo de memória primária.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O cache de prompt armazena as chaves e valores (*KV Cache*) das camadas de atenção dos tokens previamente processados.
+> - **B) Correta.** O *Prompt Caching* evita o recálculo redundante dos estados de atenção para trechos de contexto fixos compartilhados entre múltiplas interações, barateando custos em até 90% e reduzindo o tempo até o primeiro token (*Time To First Token* - TTFT).
+> - **C) Incorreta.** O cache é revalidado e reutilizado continuamente em tempo real.
+> - **D) Incorreta.** O cache do servidor é mantido por tempo determinado (TTL) independentemente do cliente local.
+> - **E) Incorreta.** Modelos de ponta em nuvem continuam operando online.
+>
+> **Gabarito: B**
+
+---
+
 ## 2. Retrieval-Augmented Generation (RAG) Aplicado a Bases de Código
 
 ### 2.1 Arquitetura e Pipeline de Ingestão de Código
@@ -111,7 +157,7 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Adaptada / TI - RAG e Bancos de Dados Vetoriais)
+### Questão 03 (FCC - Adaptada / TI - RAG e Bancos de Dados Vetoriais)
 Uma instituição pública precisa capacitar um agente de IA para analisar e auditar a conformidade de novos softwares em relação a um gigantesco repositório corporativo que contém milhões de linhas de código e dezenas de manuais técnicos que sofrem atualizações diárias.
 
 Para permitir que a IA consulte essas informações atualizadas com alta precisão e custo sustentável, mantendo a integridade semântica do código, a equipe deve adotar:  
@@ -145,6 +191,29 @@ Dividir código-fonte através de fatiamento ingênuo por contagem fixa de carac
 
 ---
 
+### Questão 04
+**(FCC – Inédita – Padrão TCE-GO)**  
+Na preparação de uma base de código-fonte para indexação e recuperação semântica em pipelines de RAG (*Retrieval-Augmented Generation*), a técnica de divisão de texto (*chunking*) baseada em Árvore Sintática Abstrata (*AST-Based Chunking*) apresenta superioridade técnica sobre a divisão ingênua por quantidade fixa de caracteres porque:
+
+* **A)** Converte todo o código para linguagem natural antes da criação dos vetores de embeddings.
+* **B)** Respeita os limites gramaticais e estruturais da linguagem de programação, garantindo que funções inteiras, métodos de classes e blocos lógicos coesos não sejam truncados arbitrariamente no meio de expressões, preservando o contexto semântico e as assinaturas completas.
+* **C)** Exige que cada arquivo do projeto contenha no máximo 10 linhas de código.
+* **D)** Desconsidera a sintaxe da linguagem para unificar códigos Python e Java na mesma tabela relacional.
+* **E)** Aumenta o tamanho dos arquivos em 1000% para ocupar todo o espaço do banco de dados vetorial.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O código é indexado em sua estrutura de linguagem de programação nativa.
+> - **B) Correta.** O particionamento ingênuo por tamanho fixo (ex: 500 caracteres) costuma cortar métodos ao meio, separando a assinatura dos tipos ou isolando o corpo da função. O chunking baseado em AST usa o parser da linguagem (ex: Tree-sitter) para segmentar o código exatamente nas fronteiras naturais de nós sintáticos (classes, funções, interfaces), preservando integridade semântica para os modelos de embedding.
+> - **C) Incorreta.** Não há imposição de tamanho máximo de arquivo no código original.
+> - **D) Incorreta.** Respeita a sintaxe formal de cada linguagem.
+> - **E) Incorreta.** Afirmação sem lógica técnica.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 2.3 Modelos de Embeddings e Bancos de Dados Vetoriais
 - **Embeddings:** Modelos neurais especializados que convertem fragmentos de texto ou código em vetores densos (arrays unidimensionais de números reais com 768 a 3072 dimensões). Trechos com semântica semelhante ficam espacialmente próximos no hiperplano vetorial.
 - **Bancos de Dados Vetoriais:** Motores de persistência que organizam esses vetores com algoritmos de grafos de vizinhos mais próximos aproximados (**HNSW - *Hierarchical Navigable Small World***). Exemplos proeminentes:
@@ -173,7 +242,7 @@ Bases de código dependem criticamente de nomes literais exatos (como o nome de 
 
 ---
 
-### Questão 02 (FCC - Padrão Concursos TI / Busca Híbrida e Similaridade de Cosseno)
+### Questão 05 (FCC - Padrão Concursos TI / Busca Híbrida e Similaridade de Cosseno)
 Em um sistema de busca semântica de código para auditoria governamental baseado em banco de dados vetorial, um arquiteto implementou uma estratégia de Busca Híbrida (*Hybrid Search*).
 
 A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetorial pura em repositórios de software é:  
@@ -210,7 +279,7 @@ A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetor
 
 ---
 
-### Questão 03 (FCC - Padrão Concursos TI / RAG vs Fine-Tuning em Engenharia de Software)
+### Questão 06 (FCC - Padrão Concursos TI / RAG vs Fine-Tuning em Engenharia de Software)
 Em um projeto de automação fiscal na Secretaria da Fazenda, a equipe técnica precisa decidir entre a adoção de uma arquitetura de RAG (Geração Aumentada por Recuperação) e o processo de Fine-Tuning supervisionado de um modelo de linguagem aberto.
 
 Sobre os critérios comparativos que orientam essa escolha técnica, assinale a afirmativa correta:  
@@ -268,6 +337,32 @@ A especificação MCP é dividida em três papéis complementares:
 
 ---
 
+### Questão 07
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+O Model Context Protocol (MCP), padrão aberto introduzido para estabelecer interoperabilidade universal entre assistentes de IA e fontes de dados/ferramentas externas, estrutura-se em uma arquitetura cliente-servidor clara. Em relação às responsabilidades de cada entidade no ecossistema MCP, é correto afirmar:
+
+* **A)** O MCP Server é a IDE ou interface de chat que exibe a tela para o usuário final.
+* **B)** O MCP Host é a aplicação que coordena a interação (como o Antigravity ou Claude Desktop), que contém clientes MCP (*MCP Clients*) responsáveis por estabelecer conexões 1:1 seguras com múltiplos servidores MCP (*MCP Servers*), os quais expõem recursos de dados (*Resources*), ferramentas executáveis (*Tools*) e instruções (*Prompts*).
+* **C)** O protocolo MCP só permite conexão com um único servidor externo por computador.
+* **D)** O MCP Client executa todo o código-fonte em linguagem COBOL no servidor do provedor da nuvem.
+* **E)** O MCP Server não pode se comunicar com bancos de dados relacionais como PostgreSQL ou MySQL.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A aplicação que interage com o usuário final é o MCP Host.
+> - **B) Correta.** A arquitetura oficial do MCP define:
+>   - **MCP Host:** a aplicação central de IA (IDE, agente, interface de chat);
+>   - **MCP Client:** cliente interno que mantém conexões com os servidores MCP respeitando limites de permissão;
+>   - **MCP Server:** serviço leve que expõe ferramentas (*Tools*), dados contextuais (*Resources*) e modelos de mensagens (*Prompts*).
+> - **C) Incorreta.** Uma das grandes soluções do MCP é justamente resolver o problema $N \times M$, conectando múltiplos servidores simultaneamente.
+> - **D) Incorreta.** Agnosticismo absoluto de linguagens.
+> - **E) Incorreta.** Servidores MCP de bancos de dados relacionais (Postgres, SQLite, BigQuery) são dos mais utilizados.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 3.3 As Três Primitivas Centrais: Resources, Tools e Prompts
 O contrato funcional do MCP estabelece exatamente três entidades padronizadas:
 
@@ -308,7 +403,7 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Adaptada / TI - Model Context Protocol e Interoperabilidade)
+### Questão 08 (FCC - Adaptada / TI - Model Context Protocol e Interoperabilidade)
 No desenvolvimento de ecossistemas corporativos baseados em inteligência artificial, a proliferação de integrações proprietárias ponto-a-ponto entre assistentes inteligentes e sistemas legados motivou a criação do protocolo aberto *Model Context Protocol* (MCP).
 
 A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale a afirmativa correta:  
@@ -335,7 +430,7 @@ A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale
 
 ---
 
-### Questão 05 (FCC - Padrão Concursos TI / Primitivas e Segurança no Model Context Protocol)
+### Questão 09 (FCC - Padrão Concursos TI / Primitivas e Segurança no Model Context Protocol)
 Em uma auditoria de segurança da informação sobre uma solução corporativa que utiliza o *Model Context Protocol* (MCP) para conectar agentes de IA ao banco de dados PostgreSQL e ao repositório Git institucional, foi avaliado o risco de execução indevida de comandos de alteração estrutural.
 
 Considerando o funcionamento das primitivas e a governança do MCP, a equipe de auditoria deve verificar se:  
@@ -368,6 +463,31 @@ A especificação do MCP padroniza dois canais de comunicação utilizando mensa
 
 ---
 
+
+### Questão 10
+**(FCC – Inédita – Padrão TCE-GO)**  
+A especificação oficial do Model Context Protocol (MCP) padroniza dois mecanismos fundamentais de transporte de dados para a troca de mensagens formatadas em JSON-RPC entre clientes e servidores MCP:
+
+* **A)** `FTP` e `Telnet`
+* **B)** `stdio` (entrada e saída padrão do processo local) e `SSE` (*Server-Sent Events* sobre HTTP com requisições POST para mensagens do cliente)
+* **C)** `SMTP` e `POP3`
+* **D)** `Bluetooth` e `NFC`
+* **E)** Cabos coaxiais e sinais de rádio AM/FM
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Protocolos legados sem segurança nem suporte à especificação MCP.
+> - **B) Correta.** Os dois transportes canônicos da especificação MCP são:
+>   1. **`stdio`:** ideal para servidores executando localmente na mesma máquina que o Host, trocando mensagens JSON-RPC através da entrada (`stdin`) e saída (`stdout`) padrão do processo;
+>   2. **`SSE` (Server-Sent Events) sobre HTTP:** ideal para servidores MCP remotos distribuídos na rede corporativa ou em nuvem.
+> - **C) Incorreta.** Protocolos de correio eletrônico.
+> - **D) Incorreta.** Protocolos sem fio de curta distância.
+> - **E) Incorreta.** Meios físicos de transmissão.
+>
+> **Gabarito: B**
+
+---
+
 ## 4. Extensibilidade, Tool Use e Skills Especializadas
 
 ### 4.1 Funcionamento do Tool Use / Function Calling via JSON Schema
@@ -394,6 +514,29 @@ sequenceDiagram
 ```
 
 ---
+
+### Questão 11
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+No mecanismo de *Tool Use* (ou *Function Calling*) utilizado por modelos de linguagem avançados para interagir com o ambiente de desenvolvimento, o papel formal do modelo de linguagem (LLM) e do cliente da aplicação estrutura-se da seguinte maneira:
+
+* **A)** O LLM executa diretamente comandos de baixo nível no processador do servidor de banco de dados sem passar por qualquer software intermediário.
+* **B)** O LLM recebe a descrição das ferramentas disponíveis formatada em JSON Schema; quando decide que uma ferramenta é necessária, o modelo interrompe a geração e emite uma estrutura JSON com o nome da função e os argumentos requeridos; cabe ao cliente local executar o código real da ferramenta e devolver os dados resultantes para que o LLM continue o raciocínio.
+* **C)** O cliente local não tem permissão para auditar ou barrar os comandos emitidos pelo LLM.
+* **D)** A especificação das ferramentas deve ser escrita obrigatoriamente em código binário hexadecimal de 32 bits.
+* **E)** As ferramentas só podem retornar dados no formato de arquivos de áudio MP3.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Modelos de linguagem não executam código nativo diretamente; são motores puramente geradores de texto/tokens.
+> - **B) Correta.** A dinâmica canônica de *Function Calling*: o cliente envia ao LLM as ferramentas descritas em JSON Schema. O LLM decide invocar a ferramenta e emite um JSON estruturado com os parâmetros. O ambiente de execução (cliente/agente) intercepta esse JSON, valida a segurança, executa o comando real (ex: consulta SQL, leitura de arquivo) e devolve a saída no prompt para que o modelo processe a resposta final.
+> - **C) Incorreta.** O cliente retém total controle e autoridade sobre a execução (*Human-in-the-Loop* e políticas de segurança).
+> - **D) Incorreta.** A especificação usa JSON Schema (padrão web legível).
+> - **E) Incorreta.** Retornam texto estruturado, JSON ou dados suportados pela aplicação.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 4.2 Definição e Estrutura de Skills Modulares
 Uma **Skill** é um pacote autocontido de capacidades especializadas composto por:

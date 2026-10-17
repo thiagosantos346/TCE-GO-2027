@@ -84,6 +84,31 @@ A **desconcentração** é uma técnica puramente interna de divisão e distribu
 - Caracteriza-se por uma **relação estrita de hierarquia, subordinação e controle disciplinar** entre a chefia superior e as unidades subordinadas.
 - *Teoria do Órgão (Imputação Volitiva):* Os órgãos não possuem vontade própria autônoma nem patrimônio segregado; as manifestações volitivas de seus agentes são juridicamente imputadas à pessoa jurídica à qual o órgão se vincula.
 
+
+
+### Questão 01 (FCC - Auditor Fiscal da Receita Estadual)
+No que tange às técnicas de organização e estruturação da Administração Pública, a doutrina e a jurisprudência estabelecem distinções fundamentais entre os institutos da centralização, descentralização, concentração e desconcentração.
+
+A respeito desses conceitos, é correto afirmar:
+
+* **A)** A descentralização consiste na distribuição interna de competências decisórias dentro de uma mesma pessoa jurídica, resultando na criação de órgãos públicos desprovidos de personalidade jurídica própria.
+* **B)** A desconcentração pressupõe a transferência da titularidade e/ou da execução de serviços públicos para uma pessoa jurídica distinta, seja ela integrante da Administração Indireta ou um particular colaborador.
+* **C)** Na descentralização por serviços, funcional ou outorga, o Poder Público cria, por meio de lei formal, uma entidade com personalidade jurídica própria (autarquia), transferindo-lhe a titularidade e a execução do serviço.
+* **D)** A criação de ministérios, secretarias estaduais e diretorias setoriais constitui típica hipótese de descentralização política e territorial.
+* **E)** Entre a Administração Direta e os órgãos criados por desconcentração inexiste qualquer vínculo de hierarquia ou subordinação funcional.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A distribuição interna de competências no âmbito da mesma pessoa jurídica com criação de órgãos denomina-se **desconcentração** (mnemônico: desCOncentração = COm criação de Órgãos), e não descentralização.
+> - **B)** Incorreta. A transferência de competências para outra pessoa jurídica (distinta do ente matriz) consubstancia a **descentralização** (mnemônico: desCENtralização = criação de ENtidades), e não desconcentração.
+> - **C)** Correta. A descentralização por serviços, funcional, técnica ou por outorga ocorre quando o Estado transfere, mediante previsão legal expressa, tanto a titularidade quanto a execução de determinado serviço para uma entidade de direito público da Administração Indireta (ex.: autarquias).
+> - **D)** Incorreta. Ministérios e secretarias são órgãos públicos criados por **desconcentração** administrativa interna no âmbito da União e dos Estados, respectivamente.
+> - **E)** Incorreta. Na desconcentração há forte e plena relação de **hierarquia e subordinação** entre o órgão superior e os órgãos inferiores dele derivados.
+>
+> **Gabarito: C**
+
+---
+
 ### 1.3 Quadro Distintivo: Descentralização vs. Desconcentração
 
 | Critério de Comparação | Descentralização Administrativa | Desconcentração Administrativa |
@@ -115,6 +140,29 @@ flowchart LR
 - **Regime Jurídico:** Totalmente público. Seus bens são públicos (impenhoráveis, inalienáveis e imprescritíveis); gozam de **imunidade tributária recíproca** (CF, art. 150, § 2º) sobre patrimônio, renda e serviços vinculados a suas finalidades; seus servidores submetem-se ao regime estatutário do respectivo ente; e suas dívidas judiciais são quitadas mediante precatórios.
 - **Autarquias em Regime Especial (Agências Reguladoras):** Autarquias dotadas de maior autonomia institucional, financeira e decisória. Caracterizam-se por: dirigentes investidos com mandato fixo após sabatina legislativa (estabilidade no mandato, perda do cargo apenas nas hipóteses legais); poder normativo técnico regulatório; e inexistência de recurso hierárquico impróprio para os Ministérios/Secretarias sobre decisões técnicas de mérito.
 
+
+
+### Questão 02 (FGV - Analista de Controle Externo / TCE)
+As autarquias constituem pessoas jurídicas de direito público integrantes da Administração Indireta, criadas por lei específica para o desempenho de atividades típicas de Estado. Sobre o regime jurídico aplicável às autarquias comuns e às autarquias em regime especial (agências reguladoras), assinale a afirmativa correta.
+
+* **A)** As autarquias adquirem personalidade jurídica a partir do registro de seus atos constitutivos no Cartório de Registro Civil de Pessoas Jurídicas ou na Junta Comercial.
+* **B)** Os bens das autarquias ostentam a natureza de bens públicos, gozando de inalienabilidade relativa, impenhorabilidade, imprescritibilidade (não sujeição a usucapião) e não oneração.
+* **C)** Os dirigentes de agências reguladoras podem ser exonerados ad nutum e sem justa causa pelo Chefe do Poder Executivo a qualquer momento de seu mandato.
+* **D)** As decisões técnicas finais proferidas pelas agências reguladoras no exercício de suas competências normativas submetem-se a recurso hierárquico impróprio ordinário perante os Ministérios de Estado supervisores.
+* **E)** As autarquias subordinam-se hierarquicamente aos órgãos centrais do Poder Executivo, cabendo a estes avocar e revogar seus atos a juízo de conveniência política.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. As autarquias são pessoas jurídicas de direito público; sua existência e personalidade jurídica iniciam-se com a vigência da própria **lei específica criadora** (art. 37, XIX, CF/88), independentemente de registro cartorário.
+> - **B)** Correta. Por integrarem o patrimônio de pessoas jurídicas de direito público, os bens autárquicos são legalmente qualificados como bens públicos (art. 98 do Código Civil), sendo impenhoráveis, imprescritíveis (não passíveis de usucapião, Súmula 340/STF) e gravados por inalienabilidade relativa.
+> - **C)** Incorreta. Os dirigentes das agências reguladoras possuem estabilidade durante mandato fixo estabelecido em lei (quarentena e processo de destituição estrito), vedada a exoneração ad nutum para resguardar a autonomia técnica e decisória (Lei nº 13.848/2019).
+> - **D)** Incorreta. Em regra, não cabe recurso hierárquico ao Ministério supervisor contra decisão de mérito técnico da agência (recurso hierárquico impróprio só é cabível em hipóteses excepcionais expressamente previstas em lei ou desvio de finalidade/usurpação de competência).
+> - **E)** Incorreta. Não existe relação de subordinação hierárquica entre a Administração Direta e as autarquias, mas tão somente controle finalístico (tutela administrativa ou supervisão ministerial) nos limites estritos da lei.
+>
+> **Gabarito: B**
+
+---
+
 ### 2.2 Fundações Públicas (Direito Público vs. Direito Privado)
 
 Entidades com patrimônio personalizado voltadas a finalidades sociais, de saúde, educação, cultura ou pesquisa (sem fins lucrativos):
@@ -137,7 +185,7 @@ São as empresas estatais, pessoas jurídicas de direito privado instituídas pa
 
 ---
 
-### Questão 01 (FCC - Analista de Gestão Pública / Adaptada)
+### Questão 03 (FCC - Analista de Gestão Pública / Adaptada)
 O Governo do Estado de Goiás, com o propósito de aprimorar a prestação de serviços de processamento técnico de dados e segurança cibernética, planeja instituir uma entidade descentralizada com personalidade jurídica de direito privado e patrimônio composto exclusivamente por recursos públicos do tesouro estadual.
 
 Em conformidade com a Constituição Federal e com o regime jurídico administrativo:
@@ -168,12 +216,58 @@ A Lei Federal nº 13.303/2016 instituiu o estatuto jurídico unificado de govern
 - **Governança Corporativa e Conformidade:** Exigência de comitês estatutários de auditoria e risco, regras de integridade e requisitos rigorosos de idoneidade técnica e experiência profissional para a indicação de membros do Conselho de Administração e Diretorias Executivas (vedação a ocupantes de cargos políticos e sindicais partidários).
 - **Regime Próprio de Licitações das Estatais:** As estatais possuem regime licitatório próprio disciplinado pelos arts. 28 a 84 da Lei 13.303/2016, com modalidades licitatórias simplificadas e procedimentos de negociação direta, não se sujeitando como regra geral à Lei nº 14.133/2021.
 
+
+
+### Questão 04 (FGV - Analista Jurídico de Controle Externo / TCE-GO)
+A Lei nº 13.303/2016 (Estatuto Jurídico das Empresas Públicas e Sociedades de Economia Mista) estabeleceu regras rigorosas de governança corporativa, compliance e transparência para as estatais. À luz dessa legislação e do regramento constitucional sobre estatais, assinale a afirmativa correta.
+
+* **A)** A sociedade de economia mista pode adotar qualquer forma societária admitida em direito, desde que a totalidade de seu capital pertença a entes públicos.
+* **B)** A empresa pública deve obrigatoriamente constituir-se sob a forma de sociedade anônima (S/A), admitindo-se a participação minoritária de capital privado com direito a voto.
+* **C)** As empresas públicas e sociedades de economia mista exploradoras de atividade econômica em sentido estrito submetem-se ao regime jurídico próprio das empresas privadas, inclusive quanto aos direitos e obrigações civis, comerciais, trabalhistas e tributários.
+* **D)** As empresas estatais prestadoras de serviços públicos próprios do Estado estão sujeitas à falência e insolvência civil de acordo com o regime concursal privado comum.
+* **E)** As causas cíveis em que uma sociedade de economia mista federal for parte ou interveniente tramitam obrigatoriamente perante a Justiça Federal, a teor do art. 109, I, da CF/88.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A sociedade de economia mista deve constituir-se **obrigatoriamente sob a forma de sociedade por ações (S/A)**, com maioria do capital votante pertencente ao Poder Público, nos termos da Lei nº 13.303/2016 e do Decreto-Lei nº 200/1967.
+> - **B)** Incorreta. A empresa pública admite **qualquer forma societária** admitida em direito (ex.: S/A, Ltda., empresa unipessoal) e seu capital deve ser **100% público** (União, Estados, DF, Municípios ou outras entidades da Administração Indireta).
+> - **C)** Correta. O art. 173, § 1º, II, da CF/88 determina que a estatal exploradora de atividade econômica sujeita-se ao regime jurídico próprio das empresas privadas, inclusive quanto aos direitos e obrigações civis, comerciais, trabalhistas e tributários, para assegurar a livre concorrência e evitar vantagens concorrenciais indevidas.
+> - **D)** Incorreta. O art. 2º, I, da Lei nº 11.101/2005 estatui que a lei de recuperação judicial e falência **não se aplica** a empresa pública e sociedade de economia mista.
+> - **E)** Incorreta. A teor da Súmula 556 do STF e do art. 109, I, da CF/88, as ações em que figurem sociedades de economia mista federais (como o Banco do Brasil e a Petrobras) são julgadas na **Justiça Comum Estadual**, ressalvada a Justiça do Trabalho para lides trabalhistas.
+>
+> **Gabarito: C**
+
+---
+
 ### 2.5 Controle Finalístico, Tutela e Supervisão Ministerial
 
 Entre a Administração Direta e as entidades da Administração Indireta **NÃO existe subordinação hierárquica**. O controle exercido pelo ente instituidor denomina-se **controle finalístico, supervisão ministerial ou tutela administrativa**:
 
 - É um controle de conformidade com os fins para os quais a entidade foi criada (*princípio da especialidade*).
 - Não autoriza intervenções abusivas no mérito ou na gestão interna autônoma, limitando-se aos atos expressamente autorizados em lei.
+
+---
+
+
+
+### Questão 05 (FCC - Auditor de Controle Externo)
+O controle finalístico, tutela administrativa ou supervisão ministerial exercido pela Administração Direta sobre as pessoas jurídicas integrantes da Administração Indireta caracteriza-se por:
+
+* **A)** Relação de subordinação hierárquica plena, facultando ao ente criador revogar de ofício atos discricionários da entidade descentralizada por motivos de pura conveniência administrativa.
+* **B)** Vinculação institucional estrita aos limites previstos em lei (princípio da especialidade), não se presumindo competências de controle que não estejam expressamente positivadas.
+* **C)** Inexistência de qualquer poder fiscalizatório ou orçamentário sobre as estatais e autarquias, assegurando-lhes soberania político-administrativa absoluta.
+* **D)** Poder disciplinar automático e direto da autoridade ministerial para demitir empregados celetistas de empresas públicas sem necessidade de procedimento motivado prévio.
+* **E)** Substituição integral da competência fiscalizatória exercida pelo Tribunal de Contas, que fica dispensado de auditar as entidades supervisionadas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Não há subordinação hierárquica entre a Administração Direta e os entes da Indireta, mas sim mera **vinculação legal**. A Administração Direta não pode revogar atos discricionários legítimos das autarquias sob critério de conveniência ou oportunidade própria.
+> - **B)** Correta. A tutela administrativa (controle finalístico ou supervisão ministerial) submete-se ao princípio da especialidade e da legalidade estrita. Por inexistir hierarquia, o controle restringe-se às hipóteses, matérias e instrumentos expressamente autorizados em lei, não podendo ser presumido ou extrapolado.
+> - **C)** Incorreta. A supervisão ministerial impõe acompanhamento orçamentário, metas de desempenho, conformidade com políticas públicas setoriais e prestação de contas, não havendo falar em "soberania absoluta".
+> - **D)** Incorreta. A competência disciplinar sobre os empregados é da própria pessoa jurídica empregadora (a empresa estatal), e não do Ministério supervisor.
+> - **E)** Incorreta. O controle interno/supervisão ministerial jamais substitui nem afasta a jurisdição constitucional e autônoma exercida pelas Cortes de Contas (art. 71, CF/88).
+>
+> **Gabarito: B**
 
 ---
 
@@ -185,6 +279,31 @@ O Terceiro Setor compreende entidades privadas sem fins lucrativos que colaboram
 
 - Pessoas jurídicas de direito privado criadas por autorização legislativa para prestar serviços de interesse social e capacitação profissional a categorias de empregados (SESI, SENAI, SESC, SENAC, SEST, SENAT, SEBRAE).
 - Não integram a Administração Pública; financiam-se mediante contribuições parafiscais arrecadadas compulsoriamente pelo Estado. Submetem-se ao controle externo exercido pelo Tribunal de Contas quanto aos recursos parafiscais, mas possuem regulamentos próprios de licitação e processo seletivo simplificado para pessoal.
+
+
+
+### Questão 06 (FGV - Analista de Controle Externo / Auditoria)
+Determinada entidade privada sem fins lucrativos, criada por iniciativa de setor empresarial e instituída por lei para prestar serviços de assistência social e formação profissional aos trabalhadores da respectiva categoria (Serviço Social Autônomo - integrante do chamado "Sistema S"), foi objeto de representação perante o Tribunal de Contas.
+
+A respeito da natureza jurídica e do controle público sobre as entidades do Sistema S, assinale a afirmativa correta.
+
+* **A)** Integram a Administração Pública Indireta, ostentando natureza jurídica de autarquias corporativas especiais.
+* **B)** Não se submetem à fiscalização do Tribunal de Contas, uma vez que sua personalidade jurídica é de direito privado e seus dirigentes não são servidores públicos.
+* **C)** Submetem-se ao controle finalístico do Tribunal de Contas no que tange à aplicação dos recursos provenientes de contribuições parafiscais, embora não estejam obrigadas a seguir a Lei de Licitações comum, devendo editar e aplicar regulamentos próprios baseados nos princípios da impessoalidade e publicidade.
+* **D)** Seus empregados são regidos pelo estatuto dos servidores públicos civis do Estado, com direito à estabilidade do art. 41 da CF/88.
+* **E)** Estão obrigadas a realizar concurso público rigoroso nos moldes do art. 37, II, da CF/88 para a contratação de seu quadro de empregados.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. As entidades do Sistema S (SESI, SENAI, SESC, SENAC, etc.) são pessoas jurídicas de direito privado, paraestatais e pertencentes ao Terceiro Setor, não integrando a Administração Direta nem a Indireta.
+> - **B)** Incorreta. Por arrecadarem e gerirem contribuições parafiscais (recursos públicos de natureza tributária), estão sujeitas à prestação de contas e à jurisdição fiscalizatória dos Tribunais de Contas (art. 70, parágrafo único, CF/88).
+> - **C)** Correta. Jurisprudência pacífica do STF e do TCU (Súmula TCU nº 230 e ADI 1.864/STF): as entidades do Sistema S gerenciam recursos parafiscais e prestam contas às Cortes de Contas; contudo, não se sujeitam à lei geral de licitações, mas sim aos seus regulamentos próprios de licitações e contratos, balizados pelos princípios do art. 37 da CF/88.
+> - **D)** Incorreta. Seus empregados são regidos pela CLT (Consolidação das Leis do Trabalho) e não possuem direito à estabilidade constitucional do art. 41 da CF/88.
+> - **E)** Incorreta. Conforme jurisprudência consolidada do STF (ADI 3.026 e RE 789.874), o Sistema S não está obrigado a concurso público formal do art. 37, II, mas sim a processo seletivo público objetivo e simplificado.
+>
+> **Gabarito: C**
+
+---
 
 ### 3.2 Organizações Sociais (OS) e Contratos de Gestão
 
@@ -223,7 +342,7 @@ O poder hierárquico distribui e escalona funções entre órgãos e agentes sub
 
 ---
 
-### Questão 02 (FCC - Técnico de Controle Externo / Administrativa)
+### Questão 07 (FCC - Técnico de Controle Externo / Administrativa)
 No âmbito de uma Secretaria de Estado, o Secretário Titular pretende delegar temporariamente a um Diretor de Departamento subordinado a atribuição funcional de julgar recursos administrativos interpostos contra decisões sancionatórias de primeira instância proferidas pela própria pasta.
 
 De acordo com a teoria geral do poder hierárquico e os limites da delegação fixados na legislação do processo administrativo:
@@ -253,6 +372,31 @@ De acordo com a teoria geral do poder hierárquico e os limites da delegação f
 
 - Não se confunde com o poder de polícia (que pune particulares em geral, desprovidos de vínculo jurídico especial prévio).
 
+
+
+### Questão 08 (FCC - Técnico de Controle Externo)
+Sobre o poder disciplinar e a sua articulação com o poder hierárquico na Administração Pública, considere a seguinte hipótese: servidor público estável cometeu falta funcional grave devidamente apurada em processo administrativo disciplinar (PAD) com observância do contraditório e da ampla defesa, cuja tipificação legal comina com exclusividade a penalidade de demissão.
+
+Diante da constatação inequívoca da infração legal grave, a autoridade julgadora competente:
+
+* **A)** Pode, por juízo discricionário de conveniência e oportunidade, deixar de aplicar a penalidade de demissão se considerar o servidor eficiente em suas rotinas de trabalho.
+* **B)** Tem o dever de aplicar a penalidade de demissão prevista em lei, haja vista que o poder disciplinar vincula a autoridade julgadora quanto à aplicação da sanção legalmente estipulada diante de conduta ilícita comprovada.
+* **C)** Deve converter a demissão em advertência verbal, em atenção exclusiva ao princípio da insignificância administrativa.
+* **D)** Exerce poder discricionário absoluto na fixação da sanção, independentemente das hipóteses taxativas cominadas no estatuto funcional aplicável.
+* **E)** Fica impedida de punir o servidor caso o ato ilícito também configure crime comum que ainda não tenha transitado em julgado no juízo penal.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Comprovada a falta funcional punível com demissão, a autoridade competente não possui discricionariedade para perdoar a infração ou deixar de punir com base em mérito de conveniência. Trata-se de poder-dever vinculado.
+> - **B)** Correta. Embora a tipificação de infrações disciplinares muitas vezes envolva termos indeterminados, uma vez tipificada de forma incontroversa a conduta cominada com demissão, o ato de aplicação da sanção torna-se **vinculado**, não restando margem de escolha à autoridade julgadora senão demitir o servidor faltoso (art. 128 e 132 da Lei nº 8.112/1990 e legislação correlata de Goiás).
+> - **C)** Incorreta. A autoridade não pode comutar ou atenuar a pena para advertência fora das hipóteses e limites estritamente traçados em lei.
+> - **D)** Incorreta. As penalidades administrativas sujeitam-se ao princípio da legalidade estrita e da proporcionalidade; a fixação da pena não é arbitrária nem goza de discricionariedade absoluta.
+> - **E)** Incorreta. Vigora a independência das instâncias administrativa e penal, de modo que a Administração Pública pode punir disciplinarmente o servidor antes mesmo de qualquer desfecho do processo criminal, ressalvada a hipótese de absolvição penal categórica fundada em negativa de autoria ou inexistência material do fato.
+>
+> **Gabarito: B**
+
+---
+
 ### 4.4 Poder Regulamentar / Normativo e os Decretos Autônomos
 
 Prerrogativa outorgada aos Chefes do Poder Executivo para expedir atos gerais e abstratos:
@@ -267,7 +411,7 @@ Prerrogativa outorgada aos Chefes do Poder Executivo para expedir atos gerais e 
 
 ---
 
-### Questão 03 (FCC - Analista de Controle Externo)
+### Questão 09 (FCC - Analista de Controle Externo)
 O Governador do Estado de Goiás editou decreto criando cinco novos Departamentos Técnicos dentro da estrutura da Secretaria da Fazenda e remanejando servidores públicos para preencher as novas chefias criadas, sem que houvesse prévia autorização em lei estadual específica.
 
 Analisando a conformidade constitucional do ato com base nos limites do **decreto autônomo** (CF/88, art. 84, VI):
@@ -317,7 +461,7 @@ Superando divergências anteriores, o STF pacificou a tese com eficácia vincula
 
 ---
 
-### Questão 04 (FCC - Procurador do Estado / Adaptada)
+### Questão 10 (FCC - Procurador do Estado / Adaptada)
 Determinada empresa pública estadual, constituída sob regime não concorrencial e de capital 100% pertencente ao Estado de Goiás, presta com exclusividade o serviço público de transporte metropolitano e gestão do trânsito viário intermunicipal. Lei estadual delegou à referida empresa atribuições para fiscalizar o tráfego e lavrar autos de infração com imposição de multas aos motoristas infratores.
 
 À luz da jurisprudência firmada pelo Supremo Tribunal Federal em sede de repercussão geral (**Tema 532**):
@@ -374,7 +518,7 @@ A **Lei nº 13.869/2019** (Lei de Abuso de Autoridade) disciplina os crimes come
 
 ---
 
-### Questão 05 (FCC - Auditor de Controle Externo / Adaptada TCE-GO)
+### Questão 11 (FCC - Auditor de Controle Externo / Adaptada TCE-GO)
 Um auditor fiscal do Tribunal de Contas, contrariado com a postura intransigente de um gestor municipal que se recusou a favorecer um parente do auditor em processo seletivo simplificado, instaurou fiscalização sigilosa sem autorização regimental ou sorteio eletrônico e realizou a apreensão arbitrária de computadores da prefeitura para constranger a autoridade local.
 
 Analisando a tipologia dos atos administrativos e as regras da Lei nº 13.869/2019:

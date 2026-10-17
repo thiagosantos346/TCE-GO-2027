@@ -86,7 +86,32 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Adaptada / Procuradoria Municipal)
+
+
+### Questão 01 (FCC - Analista Judiciário - Área Judiciária)
+A Constituição Federal de 1988 consagra, em seu art. 5º, XI, que 'a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial'.
+
+Sobre a interpretação dada a essa garantia fundamental pelo Supremo Tribunal Federal (Tema 280 de Repercussão Geral), assinale a afirmativa correta.
+
+* **A)** A entrada forçada em domicílio sem mandado judicial é lícita em qualquer horário quando amparada em fundada suspeita, justificada a posteriori mediante a apreensão efetiva de entorpecentes no local.
+* **B)** A entrada forçada em domicílio sem mandado judicial, mesmo em caso de crime permanente, só é lícita quando amparada em fundadas razões, devidamente justificadas pelas circunstâncias do caso concreto que indiquem a ocorrência de flagrante delito no interior da residência.
+* **C)** O conceito constitucional de 'casa' abrange unicamente residências habitadas de forma definitiva por famílias, excluindo quartos de hotel ocupados e escritórios profissionais.
+* **D)** A determinação judicial autoriza a invasão domiciliar por agentes policiais a qualquer hora da noite sem consentimento do morador.
+* **E)** Fiscais tributários e auditores de controle externo podem ingressar em domicílio privado durante o dia com base em seu poder de polícia, independentemente de autorização judicial.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A ilicitude da invasão não é convalidada pelo encontro fortuito posterior de drogas. A justa causa deve existir e ser demonstrável **antes** do ingresso forçado.
+> - **B)** Correta. Tese fixada pelo STF no **Tema 280 de Repercussão Geral** (RE 603.616): *"A entrada forçada em domicílio sem mandado judicial só é lícita, mesmo em período noturno, quando amparada em fundadas razões, devidamente justificadas a posteriori, que indiquem que dentro da casa ocorre situação de flagrante delito, sob pena de responsabilidade disciplinar, civil e penal do agente ou da autoridade e de nulidade dos atos praticados"*.
+> - **C)** Incorreta. O conceito de casa no direito constitucional é amplo: abrange residência, quarto de hotel ocupado, trailers, consultórios e escritórios profissionais fechados ao público (art. 150, § 4º, do Código Penal).
+> - **D)** Incorreta. O mandado judicial autoriza ingresso **estritamente durante o dia** (critério cronológico ou físico-astronômico do nascer ao pôr do sol).
+> - **E)** Incorreta. Fiscais e auditores administrativos não possuem poder para ingressar contra a vontade do morador sem mandado judicial.
+>
+> **Gabarito: B**
+
+---
+
+### Questão 02 (FCC - Adaptada / Procuradoria Municipal)
 Com base na jurisprudência pacificada do Supremo Tribunal Federal e no texto da Constituição Federal de 1988 a respeito dos direitos e garantias individuais, analise as afirmativas a seguir:
 
 I. A dissolução da sociedade conjugal no curso do mandato do Chefe do Poder Executivo cessa imediatamente a inelegibilidade reflexa de seu ex-cônjuge para concorrer a mandato eletivo no mesmo município na eleição seguinte.  
@@ -114,6 +139,31 @@ Está correto o que se afirma em:
 > - **D) Incorreta:** O item I é falso e os itens II e III são verdadeiros.
 > - **E) Incorreta:** O item I é falso.
 > 
+> **Gabarito: B**
+
+---
+
+
+
+### Questão 03 (FGV - Auditor Fiscal da Receita Estadual)
+O art. 5º, XII, da Constituição Federal estabelece que 'é inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal'.
+
+À luz do texto constitucional e da jurisprudência do STF, assinale a afirmativa correta.
+
+* **A)** A interceptação de comunicações telefônicas pode ser decretada pelo juiz competente em processo administrativo disciplinar ou em ação civil pública patrimonial.
+* **B)** A interceptação telefônica depende de ordem judicial fundamentada e destina-se exclusivamente à investigação criminal ou instrução processual penal, não se admitindo em processos de natureza cível ou administrativa originária.
+* **C)** O sigilo fiscal e bancário é absoluto, sendo vedado à Receita Federal e ao Tribunal de Contas ter acesso a dados financeiros mesmo nos termos da Lei Complementar nº 105/2001.
+* **D)** A gravação clandestina realizada por um dos interlocutores sem o conhecimento do outro é considerada prova ilícita em qualquer circunstância.
+* **E)** A interceptação telefônica pode ser autorizada sem prazo fixado, perdurando por tempo indeterminado a critério do delegado de polícia.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A Constituição é taxativa: interceptação telefônica somente é autorizada para fins de **investigação criminal ou instrução processual penal** (art. 5º, XII c/c Lei nº 9.296/1996). O que se admite, após produzida no processo penal, é o empréstimo da prova (prova emprestada) para o PAD.
+> - **B)** Correta. A quebra do sigilo das comunicações telefônicas (interceptação da conversa em tempo real) submete-se à estrita reserva de jurisdição e restringe-se materialmente à seara criminal/penal.
+> - **C)** Incorreta. O sigilo bancário não é absoluto; o STF (ADI 2.390 e RE 601.314/Tema 225) declarou a constitucionalidade do acesso direto da Receita Federal a dados bancários nos termos da LC nº 105/2001.
+> - **D)** Incorreta. Conforme firme jurisprudência do STF (Tema 98 de Repercussão Geral), a gravação ambiental ou telefônica realizada por um dos interlocutores (gravação clandestina) é **lícita**, inclusive sem o conhecimento do outro, em legítima defesa de direitos.
+> - **E)** Incorreta. O prazo legal é de 15 dias, prorrogável justificadamente (art. 5º da Lei nº 9.296/1996).
+>
 > **Gabarito: B**
 
 ---
@@ -199,7 +249,7 @@ flowchart TD
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista Judiciário)
+### Questão 04 (FCC - Adaptada / Analista Judiciário)
 Determinado servidor público estadual lotado no Tribunal de Contas teve ciência de que existem registros funcionais desabonadores a seu respeito nos bancos de dados informatizados de caráter público do órgão, contendo incorreções fáticas quanto à apuração de sua assiduidade e conduta funcional. O servidor formulou requerimento formal solicitando a retificação de seus dados cadastrais, pedido que foi expressamente indeferido pela autoridade administrativa sem qualquer fundamentação jurídica plausível.
 
 Diante da recusa administrativa formal, o instrumento processual constitucional adequado, cabível e gratuito para assegurar a retificação desses dados perante o Poder Judiciário é o:
@@ -224,6 +274,31 @@ Diante da recusa administrativa formal, o instrumento processual constitucional 
 
 
 
+### Questão 05 (FCC - Procurador do Estado / Adaptada)
+A respeito dos remédios constitucionais, compare a disciplina do Mandado de Injunção (art. 5º, LXXI, e Lei nº 13.300/2016) e do Habeas Data (art. 5º, LXXII, e Lei nº 9.507/1997).
+
+Assinale a afirmativa correta.
+
+* **A)** O mandado de injunção é a ação constitucional cabível para obter a retificação de dados pessoais em registros de entidades governamentais.
+* **B)** O habeas data prescinde de prévia recusa da via administrativa, podendo ser impetrado diretamente em juízo mesmo sem consulta ao órgão detentor dos dados.
+* **C)** Conceder-se-á mandado de injunção sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.
+* **D)** A impetração de habeas data está sujeita ao pagamento prévio de custas processuais fixadas pelo regimento interno do tribunal.
+* **E)** O mandado de injunção não admite a modalidade coletiva, sendo ação personalíssima e de titularidade estritamente individual.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A retificação de dados pessoais é objeto precípuo do **Habeas Data** (art. 5º, LXXII, 'b').
+> - **B)** Incorreta. O STJ e o STF pacificaram (Súmula 2 do STJ): *"Não cabe o habeas data (HD) se não houve recusa de informações por parte da autoridade administrativa"*. Exige-se interesse de agir demonstrado pela recusa expressa ou mora administrativa injustificada.
+> - **C)** Correta. O art. 5º, LXXI, da CF/88 estatui literalmente: *"conceder-se-á mandado de injunção sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania"*.
+> - **D)** Incorreta. O art. 5º, LXXIII, da CF/88 prevê a **gratuidade das ações de habeas corpus e habeas data**.
+> - **E)** Incorreta. O mandado de injunção coletivo é expressamente disciplinado nos arts. 12 e 13 da Lei nº 13.300/2016.
+>
+> **Gabarito: C**
+
+---
+
+
+
 ### 3. Direitos Sociais (Arts. 6º a 11)
 
 - **Rol Exemplificativo do Art. 6º:** São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, e a assistência aos desamparados.
@@ -237,6 +312,31 @@ Diante da recusa administrativa formal, o instrumento processual constitucional 
     - *Trabalhadores da iniciativa privada (Art. 9º):* Exercício assegurado, competindo aos trabalhadores definir a oportunidade de exercer e os interesses a defender.
     - *Servidores públicos civis (Art. 37, VII):* Depende de lei ordinária regulamentadora. Por força do Tema 23 e MI 670/STF, aplica-se aos servidores públicos a Lei de Greve da iniciativa privada (Lei nº 7.783/1989), com possibilidade de desconto dos dias parados (salvo se a greve foi deflagrada por conduta ilícita do Poder Público).
     - *Militares (Art. 142, § 3º, IV):* Proibição absoluta de greve e sindicalização. Aplica-se também a policiais civis e guardas municipais que atuam na segurança pública armada (STF, ARE 654.432).
+
+---
+
+
+
+### Questão 06 (FGV - Analista de Controle Externo / TCE-GO)
+Os Direitos Sociais encontram-se insculpidos no art. 6º da Constituição da República de 1988, integrando o núcleo dos direitos fundamentais de segunda dimensão (prestações positivas do Estado).
+
+Sobre a disciplina jurídica dos direitos sociais e a jurisprudência constitucional, assinale a afirmativa correta.
+
+* **A)** O rol dos direitos sociais do art. 6º da CF/88 é taxativo, sendo vedada a inclusão de novos direitos por meio de emendas constitucionais.
+* **B)** São direitos sociais previstos expressamente no art. 6º da CF/88 a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância e a assistência aos desamparados.
+* **C)** O princípio da reserva do possível autoriza o gestor público a descumprir o mínimo existencial de saúde e educação sem qualquer justificativa orçamentária ou técnica.
+* **D)** O direito de greve dos servidores públicos civis (art. 37, VII) é autoaplicável e prescinde de qualquer integração legislativa ou analogia.
+* **E)** Os direitos trabalhistas previstos no art. 7º da CF/88 não admitem qualquer flexibilização por negociação coletiva de trabalho.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O rol é exemplificativo e tem sido ampliado pelo constituinte derivado (foram incluídos moradia pela EC 26/00, alimentação pela EC 64/10 e transporte pela EC 90/15).
+> - **B)** Correta. O art. 6º da CF/88 enumera: *"São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados, na forma desta Constituição"*.
+> - **C)** Incorreta. Conforme jurisprudência do STF (ADPF 45 e Tema 698/STF), a cláusula da reserva do possível não pode ser invocada de modo genérico para esvaziar o núcleo do mínimo existencial (como leitos hospitalares e medicamentos vitais).
+> - **D)** Incorreta. O STF (MI 670, MI 708 e MI 712) determinou a aplicação analógica da lei de greve do setor privado (Lei nº 7.783/1989) aos servidores públicos civis ante a mora legislativa.
+> - **E)** Incorreta. Diversos direitos trabalhistas admitem redução e compensação por convenção ou acordo coletivo (art. 7º, VI, XIII e XIV da CF/88 c/c Tema 1.046/STF).
+>
+> **Gabarito: B**
 
 ---
 
@@ -275,7 +375,7 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / Técnico de Controle Externo - TCE-GO)
+### Questão 07 (FCC - Adaptada / Técnico de Controle Externo - TCE-GO)
 A respeito das condições de elegibilidade e da disciplina constitucional das nacionalidades, considere as seguintes situações hipotéticas:
 
 I. Arthur, brasileiro nato, com 32 anos de idade, pretende concorrer ao cargo de Governador do Estado de Goiás no próximo pleito.  
@@ -326,7 +426,7 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Adaptada / Analista de Gestão Pública)
+### Questão 08 (FCC - Adaptada / Analista de Gestão Pública)
 Com relação ao regime da nacionalidade instituído pela Constituição Federal de 1988 e suas alterações posteriores, considere que Marcos, brasileiro nato, aos trinta anos de idade, mudou-se para a França e, após cumprir os requisitos legais franceses, requereu e obteve voluntariamente a cidadania francesa, sem que houvesse exigência de permanência no país nem reconhecimento de nacionalidade de origem.
 
 Considerando o texto constitucional vigente com as alterações promovidas pela Emenda Constitucional nº 131/2023, Marcos:
@@ -346,6 +446,31 @@ Considerando o texto constitucional vigente com as alterações promovidas pela 
 > - **E) Incorreta:** O cancelamento de nacionalidade por sentença judicial por atividade nociva ao interesse nacional / atentado contra a ordem constitucional aplica-se exclusivamente aos **brasileiros naturalizados** (art. 12, § 4º, I). O brasileiro nato nunca perde a nacionalidade por sentença judicial.
 > 
 > **Gabarito: C**
+
+---
+
+
+
+### Questão 09 (FCC - Analista de Controle Externo / Adaptada)
+A Emenda Constitucional nº 131/2023 alterou substancialmente a disciplina da perda da nacionalidade brasileira constante no art. 12, § 4º, da Constituição Federal.
+
+De acordo com o texto constitucional vigente com a redação dada pela EC nº 131/2023, será declarada a perda da nacionalidade do brasileiro que:
+
+* **A)** Adquirir outra nacionalidade por naturalização voluntária, perdendo automaticamente a nacionalidade brasileira no dia da concessão do passaporte estrangeiro.
+* **B)** Tiver cancelada sua naturalização, por sentença judicial, em virtude de fraude relacionada ao processo de naturalização ou de atentado contra a ordem constitucional e o Estado Democrático; ou fizer pedido expresso de perda da nacionalidade brasileira perante autoridade brasileira competente, ressalvadas situações que acarretem apatridia.
+* **C)** Residir no exterior por mais de cinco anos ininterruptos sem comparecer ao consulado brasileiro.
+* **D)** Casar-se com cidadão estrangeiro em país que não reconheça a dupla cidadania.
+* **E)** Aceitar emprego remunerado em empresa privada sediada em país estrangeiro sem autorização do Presidente da República.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A EC nº 131/2023 **revogou a perda automática** da nacionalidade brasileira pela aquisição voluntária de outra nacionalidade. Hoje o brasileiro pode ter dupla ou múltipla cidadania sem perder a brasileira.
+> - **B)** Correta. O art. 12, § 4º, da CF/88 (redação da EC nº 131/2023) estabelece que será declarada a perda da nacionalidade do brasileiro que: I - tiver cancelada sua naturalização, por sentença judicial, em virtude de fraude relacionada ao processo de naturalização ou de atentado contra a ordem constitucional e o Estado Democrático; II - fizer **pedido expresso de perda da nacionalidade brasileira** perante autoridade brasileira competente, ressalvadas situações que acarretem apatridia (ninguém pode se tornar apátrida). Ademais, a renúncia não impede a readquisição posterior.
+> - **C)** Incorreta. A residência no exterior não acarreta perda da nacionalidade.
+> - **D)** Incorreta. O casamento com estrangeiro jamais gerou perda de nacionalidade brasileira.
+> - **E)** Incorreta. Não existe restrição constitucional para trabalho de brasileiros em empresas privadas no exterior.
+>
+> **Gabarito: B**
 
 ---
 
@@ -394,7 +519,7 @@ A Constituição Federal estabelece: **"É VEDADA a cassação de direitos polí
 
 ---
 
-### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
+### Questão 10 (FCC - Adaptada / Auditor de Controle Externo)
 À luz das disposições constitucionais sobre os direitos políticos, a perda e suspensão de tais prerrogativas e a organização partidária, assinale a opção correta:
 
 * **A)** É permitida a cassação de direitos políticos mediante processo administrativo com contraditório e ampla defesa instaurado pelo Tribunal Superior Eleitoral.
@@ -416,6 +541,29 @@ A Constituição Federal estabelece: **"É VEDADA a cassação de direitos polí
 ---
 
 
+
+
+
+### Questão 11 (FGV - Analista Jurídico de Controle Externo / TCE-GO)
+Sobre os direitos políticos e o regime de inelegibilidades positivado no art. 14 da Constituição Federal de 1988, assinale a afirmativa correta.
+
+* **A)** O alistamento eleitoral e o voto são facultativos para os analfabetos, para os maiores de setenta anos e para os maiores de dezesseis e menores de dezoito anos.
+* **B)** O estrangeiro e os conscritos, durante o período de serviço militar obrigatório, podem alistar-se livremente como eleitores desde que comprovem residência fixa.
+* **C)** A idade mínima de trinta e cinco anos é condição constitucional de elegibilidade para os cargos de Governador e Vice-Governador de Estado e do Distrito Federal.
+* **D)** São inelegíveis, no território de jurisdição do titular, o cônjuge e os parentes consanguíneos ou afins, até o terceiro grau, do Presidente da República, de Governador de Estado ou de Prefeito.
+* **E)** O militar alistável é inelegível se contar com mais de dez anos de serviço na corporação.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O art. 14, § 1º, II, da CF/88 dispõe que o alistamento eleitoral e o voto são **facultativos**: 'a' - para os analfabetos; 'b' - para os maiores de setenta anos; 'c' - para os maiores de dezesseis e menores de dezoito anos. Para os maiores de 18 anos são obrigatórios.
+> - **B)** Incorreta. O art. 14, § 2º, estabelece que os estrangeiros e, durante o período do serviço militar obrigatório, os conscritos **não podem alistar-se como eleitores** (são inalistáveis e, portanto, inelegíveis).
+> - **C)** Incorreta. A idade mínima para Governador e Vice-Governador é de **30 (trinta) anos** (art. 14, § 3º, VI, 'b'); 35 anos aplica-se a Presidente, Vice-Presidente e Senador.
+> - **D)** Incorreta. A inelegibilidade reflexa alcança parentes até o **segundo grau** (consanguíneos ou afins) ou por adoção (art. 14, § 7º da CF/88 e Súmula Vinculante 18), e não até o terceiro grau.
+> - **E)** Incorreta. Se o militar tiver mais de 10 anos de serviço, será agregado pela autoridade e, se eleito, passará automaticamente, no ato da diplomação, para a inatividade (art. 14, § 8º, II).
+>
+> **Gabarito: A**
+
+---
 
 ## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 

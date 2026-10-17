@@ -73,6 +73,29 @@ As deliberações do Tribunal de Contas proferidas no julgamento de relatórios 
 
 ---
 
+
+
+### Questão 01 (FCC - Analista de Controle Externo / TCE-GO)
+A respeito da comunicação dos resultados das fiscalizações e dos instrumentos deliberativos do Tribunal de Contas, assinale a afirmativa correta.
+
+* **A)** O acórdão constitui deliberação monocrática tomada exclusivamente pelo Conselheiro-Presidente em matéria administrativa interna.
+* **B)** O acórdão é a deliberação colegiada do Tribunal de Contas (tomada pelo Plenário ou pelas Câmaras), formalizada por escrito e publicada no Diário Oficial de Contas, que decide o mérito de processos submetidos a julgamento ou apreciação da Corte.
+* **C)** As decisões monocráticas dos Conselheiros-Relatores são irrecorríveis e imunes a qualquer insurgência recursal pelo gestor público.
+* **D)** O relatório de auditoria elaborado pela equipe técnica tem força executiva imediata de título extrajudicial antes de qualquer manifestação do colegiado do Tribunal.
+* **E)** O Ministério Público de Contas tem a prerrogativa de emitir sentenças vinculantes que anulam os acórdãos do Pleno do Tribunal de Contas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Acórdão é ato **colegiado**, resultante da deliberação de órgãos fracionários (Câmaras) ou do Plenário da Corte.
+> - **B)** Correta. O **acórdão** consubstancia a deliberação colegiada formal do Tribunal de Contas (Pleno ou Câmaras), contendo relatório, fundamentação/voto do Relator e dispositivo decisório, com publicação oficial para produzir efeitos erga omnes ou inter partes.
+> - **C)** Incorreta. As decisões monocráticas do Relator admitem recurso de **agravo** para o órgão colegiado respectivo no prazo regimental.
+> - **D)** Incorreta. O relatório técnico é peça instrutória e opinativa; apenas a decisão final colegiada do Tribunal com imputação de débito ou multa tem eficácia de título executivo (art. 71, § 3º, CF).
+> - **E)** Incorreta. O Ministério Público de Contas atua como fiscal da ordem jurídica (custos legis), emitindo pareceres, sem exercer função judicante do Plenário.
+>
+> **Gabarito: B**
+
+---
+
 ### 2. Tomada de Contas Especial (TCE): Rito e Pressupostos
 
 A **Tomada de Contas Especial (TCE)** é um processo administrativo de caráter **excepcional**, instaurado com rito próprio para apurar fatos lesivos, identificar responsáveis, quantificar o prejuízo e obter a recomposição do erário.
@@ -107,7 +130,32 @@ Para a instauração e prosseguimento regular de uma TCE, exige-se o preenchimen
 
 ---
 
-### Questão 01 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+
+
+### Questão 02 (FGV - Auditor de Controle Externo / TCE-SC)
+A Tomada de Contas Especial (TCE) é um processo administrativo de controle de rito próprio instaurado para apurar responsabilidade por dano causado ao erário.
+
+Sobre os pressupostos de instauração e o desenvolvimento da Tomada de Contas Especial, assinale a afirmativa correta.
+
+* **A)** A Tomada de Contas Especial deve ser instaurada de forma compulsória e imediata pela autoridade administrativa competente diante da omissão no dever de prestar contas, de desfalque, desvio de bens ou de prática de qualquer ato ilegal, ilegítimo ou antieconômico de que resulte dano ao erário, após o esgotamento das medidas administrativas internas de cobrança.
+* **B)** A TCE pode ser instaurada para apurar danos ao erário de valor insignificante, independentemente do custo de tramitação do processo de cobrança.
+* **C)** A autoridade administrativa do órgão lesado fica dispensada de instaurar a TCE se o dano tiver sido praticado por servidor efetivo com mais de vinte anos de serviço.
+* **D)** A instauração da Tomada de Contas Especial é prerrogativa exclusiva e originária do Poder Judiciário.
+* **E)** A Tomada de Contas Especial não admite a condenação solidária de pessoas jurídicas de direito privado contratadas pelo órgão público.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O art. 71, II, da CF/88 c/c leis orgânicas dos Tribunais de Contas (art. 8º da Lei nº 8.443/1992 e LOTCE-GO) dispõe que, diante da omissão no dever de prestar contas, da não comprovação da aplicação dos recursos, de desfalque ou de qualquer ato ilegal de que resulte dano ao erário, a autoridade administrativa competente, **sob pena de responsabilidade solidária**, deverá adotar providências para a instauração da **Tomada de Contas Especial (TCE)** para apurar os fatos, identificar os responsáveis e quantificar o dano, após esgotadas as medidas internas.
+> - **B)** Incorreta. Em homenagem ao princípio da economicidade processual, os Tribunais de Contas fixam valor de alçada (teto mínimo de dano); abaixo desse valor, adota-se cobrança administrativa sem deflagração de onerosa TCE.
+> - **C)** Incorreta. O dever de prestar contas e apurar o dano atinge qualquer agente público, independentemente do tempo de carreira.
+> - **D)** Incorreta. A TCE é processo administrativo instaurado pelo próprio órgão lesado (fase interna) e julgado pelo Tribunal de Contas (fase externa).
+> - **E)** Incorreta. O particular e a pessoa jurídica privada que concorrerem para o dano respondem solidariamente com o agente público perante o TC (art. 71, II, CF).
+>
+> **Gabarito: A**
+
+---
+
+### Questão 03 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
 A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional e processual dos Tribunais de Contas, assinale a opção correta:
 
 * **A)** A Tomada de Contas Especial constitui procedimento ordinário de fiscalização anual a que se submetem compulsoriamente todos os dirigentes de autarquias estaduais ao término de cada exercício financeiro.
@@ -146,7 +194,7 @@ flowchart LR
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista de Controle Externo)
+### Questão 04 (FCC - Adaptada / Analista de Controle Externo)
 Em processo de controle externo instaurado no Tribunal de Contas para apurar irregularidades em contrato administrativo estadual, a equipe técnica concluiu que determinada cláusula editalícia violou a Lei de Licitações, porém sem constatação de sobrepreço ou superfaturamento nos pagamentos realizados à empreiteira.
 
 Para oportunizar a manifestação formal do gestor que subscreveu o edital impugnado, o ato de comunicação processual adequado a ser determinado pelo Relator é a:
@@ -171,6 +219,31 @@ Para oportunizar a manifestação formal do gestor que subscreveu o edital impug
 
 
 
+### Questão 05 (FCC - Procurador do Estado / Adaptada)
+Determinada autoridade administrativa, regularmente citada por edital em processo de tomada de contas especial perante o Tribunal de Contas em virtude de superfaturamento em pagamentos de obras, permaneceu inerte e não apresentou alegações de defesa nem recolheu o valor do débito no prazo fixado.
+
+Diante do não comparecimento do responsável ao processo de controle externo, assinale a opção que expressa a consequência jurídica e a atuação correta do Tribunal de Contas.
+
+* **A)** A revelia do responsável induz a presunção absoluta de veracidade de todas as imputações técnicas, ficando o Tribunal dispensado de examinar as provas materiais dos autos.
+* **B)** O Tribunal de Contas deve declarar a revelia do responsável e dar prosseguimento ao processo, não operando a revelia a presunção automática de veracidade dos fatos, devendo a Corte de Contas pautar seu julgamento pelo princípio da verdade material com base nas provas efetivamente constantes nos autos.
+* **C)** A decretação de revelia acarreta a prisão administrativa imediata do responsável pelo prazo de sessenta dias.
+* **D)** O Tribunal deve extinguir o processo sem julgamento de mérito ante a ausência de manifestação voluntária da parte.
+* **E)** A revelia impede que o responsável intervenha posteriormente nos autos ou constitua advogado antes do trânsito em julgado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Ao contrário do processo civil comum onde a revelia pode gerar presunção relativa de veracidade fática dos fatos alegados pelo autor, no processo de controle externo vigora o postulado da **verdade material**: o Tribunal só condena se as provas documentais dos autos demonstrarem cabalmente o ilícito e o dano.
+> - **B)** Correta. Regra processual pacífica nos Tribunais de Contas: o responsável que não atender à citação válida será considerado revel, dando-se prosseguimento ao feito. Todavia, a revelia não implica confissão ficta automática; a condenação exige lastro probatório fático idôneo apurado sob o princípio da **verdade material**. O responsável revel pode intervir no processo na fase em que ele se encontrar.
+> - **C)** Incorreta. A prisão por dívida ou administrativa é vedada pela Constituição e pela Convenção Americana sobre Direitos Humanos (Súmula Vinculante 25/STF).
+> - **D)** Incorreta. O processo prossegue à revelia até o julgamento de mérito com imputação de débito e multa.
+> - **E)** Incorreta. O revel pode intervir em qualquer fase processual ulterior, recebendo o processo no estado em que se encontra.
+>
+> **Gabarito: B**
+
+---
+
+
+
 ### 4. Julgamento das Contas de Gestão dos Administradores Públicos
 
 O Tribunal de Contas, ao julgar em caráter definitivo as contas dos ordenadores de despesas e gestores públicos (Art. 71, II da CF/88), manifestará um dos quatro julgamentos:
@@ -187,7 +260,7 @@ O Tribunal de Contas, ao julgar em caráter definitivo as contas dos ordenadores
 
 ---
 
-### Questão 03 (FCC - Adaptada / TCE-AM - Auditor de Controle Externo)
+### Questão 06 (FCC - Adaptada / TCE-AM - Auditor de Controle Externo)
 Um Tribunal de Contas estadual, ao analisar o processo de prestação de contas de determinado dirigente de fundação pública estadual, constatou a ocorrência de grave infração a normas orçamentárias e regulamentares da Lei nº 4.320/1964 e da Lei de Responsabilidade Fiscal, todavia sem comprovação de desfalque ou locupletamento ilícito com dano patrimonial aos cofres públicos.
 
 Diante de tal quadro, à luz da legislação de regência e da jurisprudência consolidada, o Tribunal de Contas deverá:
@@ -207,6 +280,31 @@ Diante de tal quadro, à luz da legislação de regência e da jurisprudência c
 > - **E) Incorreta:** O julgamento técnico das contas dos administradores de fundações públicas é competência constitucional privativa e irrenunciável do Tribunal de Contas (art. 71, II).
 > 
 > **Gabarito: B**
+
+---
+
+
+
+### Questão 07 (FGV - Analista de Controle Externo / TCE-GO)
+No julgamento das contas dos administradores públicos realizado pelo Tribunal de Contas, as contas podem ser julgadas regulares, regulares com ressalva ou irregulares (art. 71, II, CF/88 c/c LOTCE).
+
+A respeito das consequências jurídicas do julgamento das contas, assinale a afirmativa correta.
+
+* **A)** Quando julgar as contas regulares, o Tribunal dará quitação plena ao responsável, extinguindo sua responsabilidade sobre os atos de gestão examinados.
+* **B)** O julgamento pela regularidade com ressalva acarreta a inabilitação temporária do gestor para o exercício de cargos em comissão pelo prazo de oito anos.
+* **C)** As contas serão julgadas regulares com ressalva quando for comprovado desfalque financeiro ou dano irremediável ao patrimônio público.
+* **D)** As contas julgadas irregulares que não envolvam dano ao erário dispensam a aplicação de qualquer sanção pecuniária pelo Tribunal.
+* **E)** O acórdão que julga as contas regulares pode ser revisto ex officio a qualquer tempo pelo Presidente do Tribunal sem prazo decadencial.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Conforme previsto expressamente na Lei Orgânica do Tribunal de Contas, quando as contas forem julgadas **regulares** (expressando de forma clara e exata a exatidão dos demonstrativos e a legalidade dos atos de gestão), o Tribunal dará **quitação plena** ao responsável.
+> - **B)** Incorreta. A regularidade com ressalva ocorre diante de impropriedades de natureza formal ou falhas sanáveis que não resultem em dano ao erário; o Tribunal emite quitação ao responsável e expede recomendações ou determinações corretivas, sem inabilitação.
+> - **C)** Incorreta. Desfalque e dano impõem obrigatoriamente o julgamento pela **irregularidade das contas**, com condenação em débito e multa.
+> - **D)** Incorreta. O art. 71, VIII, autoriza a aplicação de multa ao gestor por ato praticado com grave infração à norma legal ou regulamentar, mesmo sem dano patrimonial ao erário.
+> - **E)** Incorreta. A revisão de ofício submete-se ao contraditório, aos prazos regimentais e à segurança jurídica.
+>
+> **Gabarito: A**
 
 ---
 
@@ -235,7 +333,7 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Adaptada / Procuradoria Legislativa)
+### Questão 08 (FCC - Adaptada / Procuradoria Legislativa)
 Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgou irregulares as contas de determinado administrador público e imputou-lhe débito em processo de Tomada de Contas Especial, o responsável inconformado poderá interpor, no prazo regulamentar de quinze dias e com efeito suspensivo:
 
 * **A)** Recurso de Revisão.
@@ -258,6 +356,29 @@ Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgou irreg
 
 
 
+### Questão 09 (FCC - Técnico de Controle Externo / TCE-GO)
+Sobre o sistema recursal no processo de controle externo perante o Tribunal de Contas, assinale a afirmativa correta.
+
+* **A)** O recurso de revisão possui efeito suspensivo automático sobre a execução do acórdão condenatório de débito emitido pelo Tribunal.
+* **B)** Das deliberações proferidas pelo Tribunal de Contas em processos de prestação ou tomada de contas cabem embargos de declaração (para sanar obscuridade, omissão ou contradição) e recurso de reconsideração (dotado de efeito suspensivo ordinário).
+* **C)** Os embargos de declaração no processo do Tribunal de Contas têm prazo de quinze dias úteis para interposição.
+* **D)** O recurso de revisão pode ser interposto a qualquer tempo, mesmo após vinte anos do trânsito em julgado administrativo, sem necessidade de documento novo.
+* **E)** É proibida a interposição de recursos administrativos por terceiros juridicamente interessados que comprovem prejuízo direto decorrente da decisão da Corte.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O recurso de revisão (ação rescisória no âmbito das Cortes de Contas) tem efeito **meramente devolutivo**, não suspendendo a eficácia da decisão condenatória nem impedindo a execução fiscal da dívida.
+> - **B)** Correta. Disciplina processual consolidada das Cortes de Contas (Lei nº 8.443/1992 e Regimento Interno do TCE-GO): contra decisão definitiva de mérito em tomada ou prestação de contas cabe o **Recurso de Reconsideração** no prazo de 15 dias, dotado de efeito suspensivo e devolutivo; e cabem **Embargos de Declaração** para corrigir obscuridade, omissão ou contradição na deliberação colegiada.
+> - **C)** Incorreta. O prazo dos embargos de declaração é de **5 (cinco) dias**, e não quinze.
+> - **D)** Incorreta. O recurso de revisão sujeita-se a prazo decadencial estrito (normalmente 5 anos) e exige erro de cálculo, falsidade documental comprovada ou documento novo com eficácia sobre a prova.
+> - **E)** Incorreta. Terceiros interessados e o Ministério Público de Contas detêm plena legitimidade recursal.
+>
+> **Gabarito: B**
+
+---
+
+
+
 ### 6. Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)
 
 As sanções administrativas dos Tribunais de Contas incluem:
@@ -271,7 +392,7 @@ As sanções administrativas dos Tribunais de Contas incluem:
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Gestão Pública)
+### Questão 10 (FCC - Adaptada / Analista de Gestão Pública)
 Acerca dos reflexos eleitorais decorrentes das decisões terminativas proferidas pelos Tribunais de Contas, consoante o disposto na Lei Complementar nº 64/1990 (com as alterações da Lei da Ficha Limpa) e a jurisprudência sumulada do TSE:
 
 * **A)** O julgamento que considera contas regulares com ressalva atrai automaticamente a inelegibilidade do gestor pelo prazo de quatro anos.
@@ -305,6 +426,31 @@ A disciplina da prescrição nas ações perante os Tribunais de Contas é orien
     - A notificação ou citação do responsável para apresentar defesa;
     - Qualquer ato inequívoco de apuração do fato praticado pela autoridade competente;
     - A decisão condenatória recorrível proferida pelo órgão colegiado.
+
+---
+
+
+
+### Questão 11 (FGV - Auditor de Controle Externo / TCE-GO)
+A Lei Complementar nº 64/1990 (Lei das Inelegibilidades, com as alterações da Lei da Ficha Limpa - LC nº 135/2010) estabelece que são inelegíveis os que tiverem suas contas relativas ao exercício de cargos ou funções públicas rejeitadas por irregularidade insanável que configure ato doloso de improbidade administrativa.
+
+Sobre a atuação do Tribunal de Contas na aplicação da Lei da Ficha Limpa e o envio de listagens à Justiça Eleitoral, assinale a afirmativa correta.
+
+* **A)** O Tribunal de Contas declara diretamente e de forma privativa a inelegibilidade dos gestores punidos, cassando seus direitos políticos com efeitos imediatos.
+* **B)** Compete ao Tribunal de Contas encaminhar à Justiça Eleitoral a relação dos responsáveis que tiveram suas contas rejeitadas por irregularidade insanável e por decisão irrecorrível do órgão competente, cabendo exclusivamente à Justiça Eleitoral declarar a inelegibilidade do candidato no processo de registro de candidatura.
+* **C)** A inclusão do nome do gestor na lista do Tribunal de Contas enseja a cassação automática de seu diploma de eleito pela mesa da assembleia legislativa.
+* **D)** Contas rejeitadas por mera culpa ou impropriedade formal leve atraem compulsoriamente a inelegibilidade decenal da Lei da Ficha Limpa.
+* **E)** A obtenção de liminar judicial suspendendo os efeitos do acórdão do Tribunal de Contas é irrelevante para a Justiça Eleitoral, que deve manter o indeferimento da candidatura.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Tribunal de Contas **não declara inelegibilidade nem cassa direitos políticos**; sua competência é administrativa e de julgamento técnico de contas.
+> - **B)** Correta. O art. 11, § 5º, da Lei nº 9.504/1997 c/c art. 1º, I, 'g', da LC nº 64/1990 estatui categoricamente: até 15 de agosto do ano eleitoral, os Tribunais de Contas enviarão à Justiça Eleitoral a **relação dos agentes que tiveram suas contas rejeitadas** por irregularidade insanável e por decisão irrecorrível nos últimos 8 anos. A competência para julgar e declarar a **inelegibilidade** do cidadão é privativa da **Justiça Eleitoral** no momento da impugnação ao registro de candidatura.
+> - **C)** Incorreta. O envio da lista subsidia o julgamento jurisdicional eleitoral, não gerando perda sumária de mandato prévio.
+> - **D)** Incorreta. A inelegibilidade da alínea 'g' exige cumulativamente: irregularidade insanável + ato doloso de improbidade administrativa + decisão irrecorrível do órgão competente. Falhas formais ou culposas não geram inelegibilidade.
+> - **E)** Incorreta. Se houver provimento judicial (tutela provisória ou anulatória) suspendendo o acórdão do TC, a inelegibilidade fica suspensa perante a Justiça Eleitoral (art. 1º, § 2º da LC 64/90).
+>
+> **Gabarito: B**
 
 ---
 

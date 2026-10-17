@@ -77,6 +77,29 @@ Todo algoritmo recursivo exige dois componentes fundamentais:
 
 ---
 
+### Questão 01
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+A recursão é uma técnica algorítmica fundamental na qual uma função invoca a si mesma para resolver subproblemas menores de mesma natureza. A respeito do funcionamento da recursão e de sua pilha de execução (*Call Stack*), é correto afirmar:
+
+* **A)** Toda função recursiva deve possuir pelo menos uma condição de parada (caso base), sob pena de provocar um estouro de pilha (*Stack Overflow*) em virtude de chamadas infinitas.
+* **B)** A execução de uma chamada recursiva não consome espaço na memória RAM, pois todas as variáveis locais utilizam o mesmo endereço físico de registradores da CPU.
+* **C)** Algoritmos recursivos são sempre mais velozes e consomem menos memória do que suas versões iterativas equivalentes.
+* **D)** A pilha de chamadas (*Call Stack*) opera sob o princípio FIFO (*First-In, First-Out*), finalizando primeiro a primeira função chamada.
+* **E)** A recursão em cauda (*tail recursion*) impede que o compilador realize qualquer otimização de espaço na pilha de execução.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** Sem o caso base (condição de parada), a função empilha novos registros de ativação indefinidamente até esgotar o limite da pilha de execução, gerando *Stack Overflow*.
+> - **B) Incorreta.** Cada invocação recursiva aloca um novo quadro (*stack frame*) na pilha com suas variáveis e endereço de retorno.
+> - **C) Incorreta.** Funções recursivas geralmente apresentam *overhead* de empilhamento e desempilhamento de frames, sendo frequentemente mais lentas que laços iterativos simples.
+> - **D) Incorreta.** A pilha opera sob o princípio LIFO (*Last-In, First-Out*); a última função chamada é a primeira a retornar.
+> - **E) Incorreta.** A recursão em cauda (*tail call optimization*) permite que compiladores reutilizem o frame atual sem alocar novos frames na pilha.
+>
+> **Gabarito: A**
+
+---
+
+
 ### 1.3 Análise Assintótica e a Notação Big-O
 A notação **Big-O ($\mathcal{O}$)** mensura o crescimento do tempo de execução ou do consumo de memória de um algoritmo à medida que o tamanho da entrada ($n$) tende ao infinito, descrevendo o limite superior assintótico (*pior caso* ou caso geral).
 
@@ -91,6 +114,29 @@ A notação **Big-O ($\mathcal{O}$)** mensura o crescimento do tempo de execuç�
 | $\mathcal{O}(n!)$ | Fatorial | Pior classe computacional tratável | Caixeiro Viajante por enumeração exaustiva. |
 
 > ⭐ **IMPORTANTE / BUSCA BINÁRIA:** A Busca Binária exige **obrigatoriamente** que a estrutura esteja previamente **ordenada** e suporte acesso aleatório indexado em tempo $\mathcal{O}(1)$ (como arrays e vetores contíguos). Sua complexidade temporal é $\mathcal{O}(\log n)$. Se aplicada em listas encadeadas, mesmo ordenadas, a busca binária perde eficiência porque o acesso ao nó central requer navegação sequencial $\mathcal{O}(n)$.
+
+---
+
+
+### Questão 02
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+A análise assintótica de complexidade de algoritmos permite quantificar o crescimento do consumo de tempo de execução e memória à medida que o tamanho da entrada ($n$) cresce assintoticamente. Em relação aos algoritmos clássicos de ordenação de vetores em memória interna, é correto afirmar que:
+
+* **A)** O algoritmo *Bubble Sort* possui complexidade de tempo de pior caso igual a $O(n \log n)$.
+* **B)** O algoritmo *Merge Sort* baseia-se no paradigma de divisão e conquista e possui complexidade de tempo no pior caso estritamente delimitada por $O(n \log n)$.
+* **C)** O *Quicksort* garante complexidade de tempo $O(n)$ em qualquer cenário de partição de pivôs.
+* **D)** O pior caso de tempo do *Quicksort* ocorre com complexidade de tempo $O(\log n)$.
+* **E)** Todos os algoritmos de ordenação baseados em comparação de chaves conseguem ordenar um vetor em tempo linear $O(n)$ no pior caso.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O *Bubble Sort* tem complexidade de pior caso quadrática: $O(n^2)$.
+> - **B) Correta.** O *Merge Sort* divide recursivamente o vetor ao meio e intercala as metades ordenadas, garantindo complexidade $O(n \log n)$ em todos os cenários (melhor, médio e pior caso).
+> - **C) Incorreta.** O *Quicksort* tem complexidade média $O(n \log n)$, mas pode degradar para $O(n^2)$ no pior caso.
+> - **D) Incorreta.** O pior caso do *Quicksort* é quadrático: $O(n^2)$.
+> - **E) Incorreta.** O limite inferior matemático teórico para ordenação por comparação é $\Omega(n \log n)$.
+>
+> **Gabarito: B**
 
 ---
 
@@ -127,7 +173,7 @@ flowchart LR
 
 ---
 
-### Questão 01
+### Questão 03
 **(FCC – Analista de TI / Sistemas)**  
 Em uma estrutura de dados do tipo Pilha (*Stack*), as operações de manipulação de dados obedecem rigorosamente à disciplina LIFO (*Last In, First Out*). Considere uma pilha inicialmente vazia que é submetida, passo a passo, à seguinte sequência consecutiva de comandos:
 
@@ -186,7 +232,7 @@ Uma Tabela Hash associa chaves de busca a índices de um array de tamanho $m$ po
 
 ---
 
-### Questão 02
+### Questão 04
 **(FCC – Auditor Fiscal / Tecnologia da Informação)**  
 As Tabelas Hash (*Hash Tables*) são amplamente utilizadas em sistemas de informação pela sua eficiência em operações de busca, inserção e remoção de registros indexados por chaves. A respeito da teoria das tabelas hash e dos métodos de tratamento de colisões, assinale a afirmativa correta:
 
@@ -239,7 +285,7 @@ graph TD
 
 ---
 
-### Questão 03
+### Questão 05
 **(FCC – Analista de TI / Sistemas)**  
 Considere uma Árvore Binária de Busca (BST) construída a partir da inserção sucessiva dos seguintes números inteiros em uma árvore inicialmente vazia, respeitando as regras estritas da estrutura (valores menores à esquerda, maiores à direita):
 
@@ -293,6 +339,29 @@ Se essa árvore for percorrida utilizando os algoritmos de percurso em **Pré-Or
 
 ---
 
+### Questão 06
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Uma Árvore AVL é uma Árvore Binária de Busca (BST) estritamente auto-balanceada na qual a diferença de altura entre as subárvores esquerda e direita de qualquer nó (fator de balanceamento $FB = h_{esq} - h_{dir}$) deve pertencer obrigatoriamente ao conjunto:
+
+* **A)** $\{-2, 0, +2\}$
+* **B)** $\{-1, 0, +1\}$
+* **C)** $\{0, 1, 2\}$
+* **D)** $\{-3, 0, +3\}$
+* **E)** $\{1, 2, 3\}$
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Um fator de balanceamento em $\pm 2$ indica que a árvore perdeu o equilíbrio e exige uma rotação imediata de rebalanceamento.
+> - **B) Correta.** Na definição canônica de Adelson-Velsky e Landis (AVL), o fator de balanceamento de cada nó deve ser $-1, 0$ ou $+1$. Se uma inserção ou remoção resultar em $FB = \pm 2$, executam-se rotações (simples ou duplas) para restaurar a invariante de equilíbrio em tempo $O(\log n)$.
+> - **C) Incorreta.** Fatores de balanceamento negativos são válidos e necessários quando a subárvore direita é mais alta.
+> - **D) Incorreta.** Valores acima de 1 violam a propriedade da árvore AVL.
+> - **E) Incorreta.** Viola a definição canônica da AVL.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 2.5 Matriz Geral de Complexidade das Estruturas de Dados
 
 | Estrutura de Dados | Acesso Médio | Acesso Pior | Busca Média | Busca Pior | Inserção Média | Inserção Pior | Remoção Média | Remoção Pior |
@@ -319,6 +388,29 @@ Se essa árvore for percorrida utilizando os algoritmos de percurso em **Pré-Or
 
 ---
 
+### Questão 07
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No paradigma de Programação Orientada a Objetos, o pilar que estabelece a técnica de ocultar os detalhes internos de implementação e o estado de um objeto, restringindo o acesso direto aos seus atributos e expondo apenas uma interface pública controlada de métodos, denomina-se:
+
+* **A)** Herança múltipla.
+* **B)** Polimorfismo paramétrico.
+* **C)** Encapsulamento.
+* **D)** Sobrecarga de operadores.
+* **E)** Coesão temporal.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Herança é o mecanismo pelo qual classes filhas herdam características de classes mães.
+> - **B) Incorreta.** Polimorfismo paramétrico refere-se a tipos genéricos (*generics*).
+> - **C) Correta.** O **Encapsulamento** oculta o estado interno e a representação de dados do objeto (*information hiding*), protegendo a integridade contra manipulação indevida externa.
+> - **D) Incorreta.** Sobrecarga permite redefinir operadores ou métodos com assinaturas distintas.
+> - **E) Incorreta.** Coesão temporal é um nível fraco de coesão procedimental.
+>
+> **Gabarito: C**
+
+---
+
+
 ### 3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)
 Essa comparação é cobrada com frequência máxima pela banca FCC:
 
@@ -335,7 +427,7 @@ Essa comparação é cobrada com frequência máxima pela banca FCC:
 
 ---
 
-### Questão 04
+### Questão 08
 **(FCC – Técnico de Controle Externo / TI)**  
 No contexto do paradigma de Programação Orientada a Objetos (POO), analise o mecanismo pelo qual uma subclasse fornece uma definição específica para um método que já foi declarado e implementado por sua superclasse direta ou indireta, preservando integralmente o mesmo nome, a mesma quantidade e os mesmos tipos de parâmetros, permitindo a seleção da implementação adequada durante a execução do programa (*runtime*).
 
@@ -370,6 +462,29 @@ Esse mecanismo e seu momento de amarração (*binding*) correspondem, respectiva
 
 ---
 
+
+### Questão 09
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+A respeito das distinções conceituais entre Classes Abstratas e Interfaces na modelagem orientada a objetos clássica, é correto afirmar:
+
+* **A)** Interfaces podem ser instanciadas diretamente por meio do operador `new`, ao passo que classes abstratas nunca podem conter código compilado.
+* **B)** Uma classe concreta pode herdar de múltiplas classes abstratas em Java, mas pode implementar apenas uma única interface.
+* **C)** Uma classe abstrata não pode ser instanciada diretamente e pode conter tanto métodos abstratos (sem corpo) quanto métodos concretos com implementação completa e estado (atributos de instância).
+* **D)** Interfaces são obrigadas a implementar todos os métodos de persistência no banco de dados.
+* **E)** Classes abstratas são usadas exclusivamente para definir variáveis de escopo global no sistema operacional.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Nem interfaces nem classes abstratas podem ser instanciadas diretamente com `new`.
+> - **B) Incorreta.** Em linguagens como Java e C#, há herança simples de classes (apenas uma superclasse) e herança múltipla de interfaces (implementação de múltiplas interfaces).
+> - **C) Correta.** Classes abstratas servem como base arquitetural de extensão: não permitem instanciação direta, mas oferecem código reutilizável (métodos concretos e atributos de instância) juntamente com contratos a serem implementados pelas subclasses.
+> - **D) Incorreta.** Interfaces estabelecem contratos de comportamento, sem qualquer obrigatoriedade com persistência.
+> - **E) Incorreta.** Conceito totalmente descabido.
+>
+> **Gabarito: C**
+
+---
+
 ## 4. Paradigma de Programação Funcional (PF)
 
 ### 4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial
@@ -383,6 +498,29 @@ A Programação Funcional é um paradigma declarativo que trata a computação c
 3. **Transparência Referencial:** Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema.
 
 ---
+
+### Questão 10
+**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+No paradigma de Programação Funcional (PF), uma função é considerada **pura** (*pure function*) quando satisfaz a dois critérios rigorosos:
+
+* **A)** Altera variáveis globais do sistema e consome dados de sensores de hardware aleatórios a cada execução.
+* **B)** Produz o mesmo valor de saída para os mesmos argumentos de entrada e não gera efeitos colaterais (*side effects*) observáveis no ambiente externo.
+* **C)** Executa exclusivamente operações de escrita síncrona em bancos de dados relacionais transacionais.
+* **D)** Depende do horário do relógio da CPU e de geradores de números pseudoaleatórios para calcular seu resultado.
+* **E)** Exige que todos os parâmetros sejam passados obrigatoriamente por referência com permissão de escrita.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Funções puras não geram nem dependem de efeitos colaterais como modificação de variáveis globais.
+> - **B) Correta.** A pureza funcional exige determinismo estrito (mesmas entradas $\rightarrow$ mesma saída) e ausência de efeitos colaterais (sem alteração de estado mutável externo ou I/O não controlado), garantindo a **transparência referencial**.
+> - **C) Incorreta.** Operações de escrita em banco são efeitos colaterais clássicos de I/O.
+> - **D) Incorreta.** Consultar relógio ou números aleatórios torna a função impura e não determinística.
+> - **E) Incorreta.** O paradigma funcional baseia-se na **imutabilidade** dos dados.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)
 - **Funções como Cidadãs de Primeira Classe (*First-Class Citizens*):** Funções podem ser atribuídas a variáveis, armazenadas em estruturas de dados, passadas como parâmetros e retornadas como resultado de outras funções;
@@ -409,7 +547,7 @@ flowchart LR
 
 ---
 
-### Questão 05
+### Questão 11
 **(FCC – Analista de Sistemas / Desenvolvimento)**  
 No paradigma de Programação Funcional (PF), a manipulação de coleções é realizada prioritariamente por meio de funções de alta ordem (*higher-order functions*) que operam sobre estruturas imutáveis. Considere o processamento de uma lista contendo os salários de 5 colaboradores: `[2000, 3000, 4000, 5000, 6000]`. Deseja-se realizar, sequencialmente, as seguintes operações:
 

@@ -53,6 +53,29 @@ Para descrever a arquitetura de software sob a ótica de múltiplos públicos (*
 
 ---
 
+### Questão 01
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+O modelo arquitetural "4+1 Visões", concebido por Philippe Kruchten, organiza a descrição de uma arquitetura de software sob diferentes perspectivas de múltiplos *stakeholders*. A visão do modelo que se destina primordialmente aos programadores e gerentes de software, descrevendo a organização estática do código-fonte em módulos, pacotes, camadas e subsistemas, denomina-se Visão:
+
+* **A)** Lógica (*Logical View*).
+* **B)** de Processo (*Process View*).
+* **C)** de Desenvolvimento ou de Implementação (*Development/Implementation View*).
+* **D)** Física ou de Implantação (*Physical/Deployment View*).
+* **E)** de Casos de Uso ou Cenários (*Scenarios / +1 View*).
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A Visão Lógica descreve a modelagem orientada a objetos (classes e entidades de negócio) sob a perspectiva dos analistas e usuários finais.
+> - **B) Incorreta.** A Visão de Processo foca no comportamento dinâmico, concorrência, threads e desempenho.
+> - **C) Correta.** A Visão de Desenvolvimento (ou de Implementação) concentra-se na organização estrutural do código-fonte, módulos, bibliotecas e pacotes de software gerenciados no ambiente de desenvolvimento.
+> - **D) Incorreta.** A Visão Física (ou de Implantação) descreve o mapeamento dos componentes sobre a topologia de hardware e nós de rede.
+> - **E) Incorreta.** Os Cenários (+1) integram e validam as quatro visões anteriores a partir dos casos de uso críticos do negócio.
+>
+> **Gabarito: C**
+
+---
+
+
 ### 1.3 Coesão e Acoplamento: A Busca pela Alta Coesão e Baixo Acoplamento
 A métrica fundamental de qualidade de um design modular reside no equilíbrio entre coesão e acoplamento:
 
@@ -77,6 +100,29 @@ flowchart LR
 
 ---
 
+
+### Questão 02
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na engenharia de software modular e orientada a objetos, dois conceitos fundamentais que determinam a manutenibilidade, testabilidade e elegância do código são a Coesão e o Acoplamento. A respeito desses conceitos, assinale a afirmativa tecnicamente correta:
+
+* **A)** O projeto ideal busca módulos com baixo acoplamento e baixa coesão, para que cada classe compartilhe o maior número possível de variáveis globais.
+* **B)** A alta coesão indica que os elementos e responsabilidades de um mesmo módulo estão intimamente relacionados a um único propósito conceitual claro e bem delimitado.
+* **C)** O acoplamento mede a força de relacionamento interno entre as linhas de código de uma mesma função privada.
+* **D)** O alto acoplamento é altamente recomendável em sistemas críticos, pois assegura que qualquer alteração em um módulo propague seus efeitos diretamente em todos os demais componentes.
+* **E)** Módulos altamente coesos dependem obrigatoriamente de conexões diretas com detalhes de implementação do banco de dados relacional.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A meta de design de software é sempre **Alta Coesão e Baixo Acoplamento**; variáveis globais elevam perigosamente o acoplamento.
+> - **B) Correta.** Alta coesão significa que os métodos e atributos de um componente convergem para uma responsabilidade única e coesa, facilitando manutenção e reuso.
+> - **C) Incorreta.** A força interna dos elementos do mesmo módulo é a *coesão*; o *acoplamento* mede a dependência externa entre módulos distintos.
+> - **D) Incorreta.** O alto acoplamento gera código frágil e rígido (*efeito cascata* de quebras diante de mudanças).
+> - **E) Incorreta.** Módulos coesos seguem a inversão de dependência e devem desacoplar-se de detalhes de infraestrutura e persistência.
+>
+> **Gabarito: B**
+
+---
+
 ## 2. Estilos e Padrões Arquiteturais
 
 ### 2.1 Arquitetura em Camadas (Layered / N-Tier Architecture) e Variações Hexagonais
@@ -92,6 +138,29 @@ flowchart LR
 
 ---
 
+### Questão 03
+**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
+A Arquitetura Hexagonal (*Ports and Adapters*), idealizada por Alistair Cockburn, consolidou-se como um dos padrões arquiteturais fundamentais para sistemas modernos que buscam isolar as regras de negócio de frameworks e detalhes tecnológicos externos. Em relação a essa arquitetura, é correto afirmar que:
+
+* **A)** as regras de negócio residem no centro do hexágono e comunicam-se com o mundo externo exclusivamente por meio de Portas (*Ports* - interfaces abstratas), cujas implementações concretas são fornecidas pelos Adaptadores (*Adapters*).
+* **B)** o banco de dados e a interface gráfica do usuário devem obrigatoriamente ser acoplados diretamente ao domínio central do sistema.
+* **C)** o padrão proíbe o uso de testes unitários automatizados no domínio interno sem a presença de um servidor de aplicação web ativo.
+* **D)** a arquitetura hexagonal exige a utilização de seis camadas físicas de hardware redundantes para operar em produção.
+* **E)** portas e adaptadores só podem ser implementados se a aplicação utilizar banco de dados relacional baseado em linguagem SQL padrão ANSI.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** No padrão Ports and Adapters, a lógica de domínio reside no núcleo isolado; ela define *Portas* (interfaces de entrada/saída) e o mundo externo (REST, filas, bancos, CLI) conecta-se a essas portas através de *Adaptadores*.
+> - **B) Incorreta.** O princípio central da arquitetura hexagonal é justamente desacoplar o banco de dados e a UI da lógica de negócio.
+> - **C) Incorreta.** A maior vantagem da arquitetura hexagonal é permitir testar 100% da lógica de negócio em isolamento absoluto, sem necessidade de banco, web ou infraestrutura externa.
+> - **D) Incorreta.** O nome "hexagonal" é meramente uma metáfora visual gráfica; não se refere a nós de hardware.
+> - **E) Incorreta.** A arquitetura é agnóstica em relação a mecanismos de persistência (relacional, NoSQL, arquivos em memória, etc.).
+>
+> **Gabarito: A**
+
+---
+
+
 ### 2.2 Arquitetura Orientada a Serviços (SOA) e o Papel do Barramento Corporativo (ESB)
 A Arquitetura Orientada a Serviços (SOA) é um estilo arquitetural corporativo que integra aplicações legadas heterogêneas através de serviços fracamente acoplados e reutilizáveis:
 
@@ -100,6 +169,29 @@ A Arquitetura Orientada a Serviços (SOA) é um estilo arquitetural corporativo 
 - **Padrões de Comunicação:** Serviços web baseados em SOAP (*Simple Object Access Protocol*), descritos formalmente em documentos WSDL (*Web Services Description Language*) e registrados em repositórios UDDI.
 
 ---
+
+### Questão 04
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No modelo de Arquitetura Orientada a Serviços (SOA), o Barramento Corporativo de Serviços (*Enterprise Service Bus* - ESB) desempenha um papel de integração centralizada na infraestrutura organizacional. Dentre as responsabilidades e capacidades fundamentais desempenhadas por um ESB clássico, destaca-se:
+
+* **A)** A compilação em tempo de execução de todo o código-fonte Java e Python existente nos clientes web.
+* **B)** O roteamento inteligente de mensagens, a transformação entre formatos e protocolos de comunicação heterogêneos e a mediação de serviços corporativos.
+* **C)** A substituição permanente de qualquer banco de dados relacional pelo armazenamento de dados diretamente no buffer da memória RAM do barramento.
+* **D)** A imposição de que todos os serviços legados da empresa sejam reescritos obrigatoriamente na mesma linguagem de programação.
+* **E)** A execução de algoritmos de inteligência artificial generativa para criação autônoma de novos produtos bancários.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O ESB não é compilador de linguagens.
+> - **B) Correta.** As funções essenciais do ESB são roteamento, mediação, mensageria, segurança e transformação de formatos e protocolos (por exemplo, converter chamadas SOAP/XML em REST/JSON ou conectores JMS).
+> - **C) Incorreta.** O ESB é uma plataforma de transporte e integração de mensagens, não um banco de dados transacional substituto.
+> - **D) Incorreta.** SOA e ESB promovem a interoperabilidade entre linguagens e plataformas heterogêneas, sem exigir reescrita na mesma linguagem.
+> - **E) Incorreta.** Atividade fictícia e alheia ao escopo clássico de integração via ESB.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 2.3 Arquitetura de Microsserviços e seus Padrões de Resiliência e Dados
 A arquitetura de microsserviços decompõe um sistema em um conjunto de serviços autônomos, de granularidade fina, modelados em torno de contextos de negócios delimitados (*Bounded Contexts* do Domain-Driven Design - DDD):
@@ -135,7 +227,7 @@ stateDiagram-v2
 
 ---
 
-### Questão 01
+### Questão 05
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 Em uma arquitetura de microsserviços distribuídos, para evitar que a indisponibilidade ou latência excessiva de um serviço secundário externo provoque falhas em cascata e o esgotamento dos recursos de computação do serviço principal chamador, adota-se um padrão de resiliência que monitora as chamadas recentes. Se a taxa de falhas exceder um limiar pré-definido, o padrão interrompe imediatamente as chamadas subsequentes, retornando erro ou resposta de contingência instantânea sem sobrecarregar a rede, testando periodicamente se o serviço remoto se recuperou. Esse padrão é denominado:
 
@@ -168,6 +260,29 @@ Estilo arquitetural fundamentado na produção, captura, processamento e reaçã
 
 ---
 
+### Questão 06
+**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+A Arquitetura Orientada a Eventos (*Event-Driven Architecture* - EDA) é caracterizada pela comunicação assíncrona desacoplada baseada na produção, detecção e consumo de eventos de negócio. Nesse paradigma, quando associado ao padrão CQRS (*Command Query Responsibility Segregation*), tem-se que:
+
+* **A)** as operações de alteração de estado (*Commands*) e as operações de consulta (*Queries*) utilizam modelos conceituais distintos, permitindo otimizar a escrita e a leitura de forma independente.
+* **B)** toda e qualquer requisição de leitura deve travar o banco de dados em modo monousuário até que as mensagens pendentes na fila sejam totalmente apagadas.
+* **C)** os produtores de eventos precisam conhecer o endereço de rede IP e a tecnologia interna de cada um dos consumidores para que o evento seja entregue.
+* **D)** o padrão exige o descarte de mecanismos de mensageria assíncrona em favor de chamadas HTTP síncronas bloqueantes ponto a ponto.
+* **E)** as consultas nunca podem retornar dados desatualizados, mesmo que o sistema utilize consistência eventual (*eventual consistency*).
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** O CQRS separa formalmente as operações de escrita (*Commands*, que modificam o estado) das operações de leitura (*Queries*, que apenas consultam dados), permitindo que cada lado tenha esquemas de dados e estratégias de escalabilidade customizadas.
+> - **B) Incorreta.** EDA e CQRS promovem concorrência de alto desempenho e assincronismo, jamais travamento monousuário.
+> - **C) Incorreta.** Em EDA, o produtor emite o evento para um broker de mensageria sem conhecer a identidade ou localização dos consumidores (desacoplamento espacial).
+> - **D) Incorreta.** EDA fundamenta-se primordialmente em brokers de mensageria assíncrona (como Kafka e RabbitMQ), e não em HTTP síncrono bloqueante.
+> - **E) Incorreta.** Em sistemas distribuídos com CQRS e projeções assíncronas, o modelo de leitura opera frequentemente sob consistência eventual.
+>
+> **Gabarito: A**
+
+---
+
+
 ### 2.5 Matriz Comparativa: Monólito vs. SOA vs. Microsserviços
 
 | Característica | Arquitetura Monolítica | SOA (Service-Oriented) | Microsserviços |
@@ -180,7 +295,7 @@ Estilo arquitetural fundamentado na produção, captura, processamento e reaçã
 
 ---
 
-### Questão 02
+### Questão 07
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 Em relação aos estilos arquiteturais para sistemas corporativos, analise as afirmativas a respeito da Arquitetura Orientada a Serviços (SOA) e da Arquitetura de Microsserviços:
 
@@ -258,7 +373,7 @@ graph TD
 
 ---
 
-### Questão 03
+### Questão 08
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Em um sistema corporativo em Java, uma interface denominada `DispositivoMultifuncional` declara os seguintes métodos: `imprimirDocumento()`, `digitalizarDocumento()`, `enviarFax()` e `grampearFolhas()`. Uma classe denominada `ImpressoraBasicaDomestica` implementa essa interface, mas, por não possuir scanner, fax nem grampeador, é forçada a lançar exceções do tipo `UnsupportedOperationException` no corpo desses três últimos métodos. De acordo com os princípios de orientação a objetos SOLID preconizados por Robert C. Martin, essa estrutura viola diretamente o:
 
@@ -280,7 +395,7 @@ Em um sistema corporativo em Java, uma interface denominada `DispositivoMultifun
 
 ---
 
-### Questão 04
+### Questão 09
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Considere uma classe Java que calcula o valor do frete para pedidos de um tribunal. O método `calcularFrete` possui uma estrutura sequencial de instruções `if-else-if` verificando a modalidade de entrega: caso seja "SEDEX", aplica uma fórmula; se for "PAC", aplica outra; se for "TRANSPORTADORA", aplica uma terceira. Sempre que o órgão firma contrato com uma nova transportadora, o desenvolvedor é obrigado a abrir a classe de serviço existente e adicionar uma nova cláusula `else-if`. Essa estrutura arquitetural viola diretamente o princípio SOLID:
 
@@ -311,7 +426,7 @@ Considere uma classe Java que calcula o valor do frete para pedidos de um tribun
 
 ---
 
-### Questão 05
+### Questão 10
 **(FCC – SEFAZ – Auditor de Tecnologia da Informação)**  
 No contexto das boas práticas de engenharia e arquitetura de software, os acrônimos DRY e YAGNI orientam a tomada de decisões no projeto de sistemas. A correta definição desses princípios estabelece que:
 

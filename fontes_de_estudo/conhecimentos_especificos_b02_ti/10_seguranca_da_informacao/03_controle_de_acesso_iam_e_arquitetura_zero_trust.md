@@ -64,6 +64,32 @@ flowchart LR
 
 ---
 
+### Questão 01 (FGV - TRT / Analista Judiciário - TI - O Modelo AAA em Segurança da Informação)
+O Modelo AAA (*Authentication, Authorization, Accounting*) é o framework arquitetural clássico utilizado para disciplinar a governança e o controle de acesso de usuários e sistemas em redes corporativas.
+
+A respeito da distinção e das atribuições de cada um dos três pilares do modelo AAA, assinale a afirmativa correta:
+
+* **A)** A Autorização (*Authorization*) ocorre antes da Autenticação e consiste na digitação do login e senha pelo usuário.
+* **B)** A Autenticação (*Authentication*) verifica a veracidade da identidade alegada pelo sujeito; a Autorização (*Authorization*) determina quais recursos específicos e permissões (leitura, escrita, exclusão) esse sujeito autenticado tem direito de acessar; e a Auditoria (*Accounting/Auditing*) rastreia e registra as ações executadas e o consumo de recursos para fins de responsabilização e conformidade.
+* **C)** O pilar de *Accounting* é dispensável em órgãos públicos porque auditorias violam o direito de privacidade funcional dos servidores.
+* **D)** A Autorização garante que a identidade nunca será contestada perante um tribunal judicial.
+* **E)** Todos os três pilares são executados exclusivamente através de cartões magnéticos sem uso de software ou logs de sistema.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A ordem lógica cronológica e mandatória do modelo AAA é: 1º **Identificação**, 2º **Autenticação** (provar que é quem diz ser), 3º **Autorização** (conceder os privilégios específicos) e 4º **Auditoria/Accounting** (monitorar e registrar).
+> - **B)** **CORRETA.** Definição ontológica precisa do **Modelo AAA**:
+>   1. **Authentication (Autenticação):** Processo de validação das credenciais para confirmar que a entidade é realmente quem afirma ser (*"Você é quem diz ser?"*).
+>   2. **Authorization (Autorização):** Definição das políticas e concessão de privilégios com base na identidade validada (*"O que você tem permissão para fazer?"*).
+>   3. **Accounting (Contabilização / Auditoria):** Registro cronológico e detalhado de todas as atividades, conexões, comandos e recursos acessados (*"O que você efetivamente fez e quando?"*), garantindo a responsabilização (*non-repudiation / accountability*).
+> - **C)** Incorreta. A auditoria e prestação de contas (*Accounting*) é dever constitucional basilar da administração pública.
+> - **D)** Incorreta. Essa propriedade refere-se ao Não Repúdio (*Non-Repudiation*), viabilizado por assinaturas e trilhas seguras.
+> - **E)** Incorreta. O modelo AAA é implementado por protocolos modernos como RADIUS, TACACS+, Diameter, LDAP e plataformas de IAM.
+> 
+> **Gabarito: B**
+
+---
+
 ### 1.2 Os Três Fatores Clássicos de Autenticação
 
 Para comprovar a identidade declarada pelo usuário, a ciência da computação agrupa os métodos de prova em três categorias conceituais essenciais:
@@ -134,7 +160,7 @@ A **Autenticação Multifator (MFA - *Multi-Factor Authentication*)**, que englo
 
 ---
 
-### Questão 01 (FCC - Adaptada / TI - Fatores de Autenticação e MFA)
+### Questão 02 (FCC - Adaptada / TI - Fatores de Autenticação e MFA)
 Em um projeto de reforço da segurança cibernética dos sistemas internos do Tribunal de Contas, a política de senhas estabeleceu a exigência de Autenticação Multifator (MFA) para todos os servidores com acesso a bases fiscais e contábeis.
 
 A respeito dos fatores clássicos de autenticação e dos princípios de MFA, assinale a afirmativa correta:
@@ -167,6 +193,32 @@ Os mecanismos de autenticação enfrentam vetores de ataque específicos no cen�
 - **Ataque de Dicionário:** Testes automatizados baseados em listas pré-compiladas com as palavras, nomes e senhas mais comuns utilizadas por usuários.
 - **Preenchimento de Credenciais (*Credential Stuffing*):** Uso automatizado de listas com pares de login e senha vazados em incidentes de segurança de empresas terceiras, explorando o hábito generalizado dos usuários de reutilizar a mesma senha em múltiplos portais e serviços.
 - **Fadiga de MFA (*MFA Bombing* / *Push Fatigue*):** O atacante, tendo obtido a senha do usuário, dispara dezenas de solicitações de notificação *push* para o aplicativo autenticador no smartphone da vítima de forma ininterrupta, até que o usuário, exausto ou confuso, clique em "Autorizar". Mitiga-se com a exigência de correspondência de número (*number matching*), onde o usuário precisa digitar no app o número que aparece na tela do sistema.
+
+---
+
+### Questão 03 (FCC - TRT / Analista Judiciário - TI - Vetores de Ataque contra Credenciais: Spraying vs. Stuffing)
+Ataques cibernéticos direcionados a identidades e mecanismos de autenticação representam o principal vetor de invasão a redes corporativas de tribunais e órgãos governamentais.
+
+Dois ataques comuns e sofisticados que burlam políticas tradicionais de bloqueio de conta por tentativas consecutivas são o **Password Spraying** e o **Credential Stuffing**. A distinção técnica precisa entre essas duas modalidades de ataque consiste em:
+
+* **A)** No *Credential Stuffing*, o atacante testa milhões de senhas em uma única conta até forçar a quebra; ao passo que no *Password Spraying*, ele infecta o roteador com um worm.
+* **B)** No **Password Spraying**, o atacante testa uma única senha comum e fraca (como `Tribunal@2024`) contra milhares de nomes de usuários corporativos distintos em intervalos espaçados para evitar o disparo de regras de bloqueio de conta por excesso de falhas; enquanto no **Credential Stuffing**, o atacante utiliza listas automatizadas de pares de e-mail/senha vazados de outros serviços e violações prévias na internet, explorando o hábito generalizado dos usuários de reutilizarem as mesmas credenciais em múltiplos portais.
+* **C)** Ambos os ataques utilizam exclusivamente redes sem fio Bluetooth a curta distância para interceptar senhas em tempo real.
+* **D)** O *Password Spraying* é um ataque físico que arromba as fechaduras do datacenter.
+* **E)** A autenticação multifator (MFA) é ineficaz contra esses ataques, pois os robôs conseguem clonar biometria física à distância.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Testar milhões de senhas em uma única conta é um ataque tradicional de **Força Bruta (*Brute Force*)**, facilmente contido por bloqueio de conta após 3 a 5 tentativas erradas.
+> - **B)** **CORRETA.** Distinção precisa dos vetores de ataque modernos a credenciais:
+>   - **Password Spraying (Pulverização de Senhas):** Inverte o eixo da força bruta. Em vez de testar muitas senhas em uma conta (o que trava a conta), o atacante testa **uma ou duas senhas prováveis em centenas ou milhares de contas diferentes** com pausas temporais. Como há apenas 1 tentativa por conta por hora, as regras de bloqueio por tentativas falhas não são acionadas.
+>   - **Credential Stuffing (Preenchimento de Credenciais):** Ataque automatizado em massa que consome bases de dados de credenciais vazadas em brechas públicas (*dumps* da Dark Web). O atacante parte do pressuposto estatístico de que muitos usuários reutilizam a mesma senha do e-mail pessoal ou redes sociais no e-mail corporativo.
+>   - **Mitigação Principal:** Adoção obrigatória de **Autenticação Multifator (MFA)** resistente a phishing (FIDO2/WebAuthn), detecção comportamental de anomalias de login e análise contínua de senhas comprometidas.
+> - **C)** Incorreta. São ataques realizados remotamente via protocolos web/API ou serviços de diretório.
+> - **D)** Incorreta. Trata-se de ameaça lógica a credenciais.
+> - **E)** Incorreta. A autenticação multifator (MFA) é precisamente o controle mais eficaz para neutralizar o impacto de ambos os ataques.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -244,7 +296,7 @@ Desenvolvido em contraposição ao Bell-LaPadula, com foco estrito na preservaç
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - Modelos Formais de Controle de Acesso / MAC)
+### Questão 04 (FCC - Adaptada / TI - Modelos Formais de Controle de Acesso / MAC)
 Os modelos teóricos de controle de acesso obrigatório (MAC) Bell-LaPadula e Biba foram desenvolvidos para garantir formalmente propriedades específicas de segurança em sistemas computacionais multiníveis.
 
 Sobre o funcionamento desses dois modelos, assinale a afirmativa correta:
@@ -286,6 +338,33 @@ No modelo **RBAC**, o controle de acesso é desacoplado dos usuários individuai
 
 ---
 
+### Questão 05 (FGV - TRT / Analista Judiciário - TI - Controle de Acesso RBAC e Variações NIST)
+O modelo de Controle de Acesso Baseado em Papéis (*Role-Based Access Control - RBAC*), formalizado pelo NIST (norma ANSI/INCITS 359-2004), é o padrão mais amplamente implementado em sistemas corporativos governamentais.
+
+A respeito das variações normativas da família RBAC do NIST, assinale a afirmativa correta:
+
+* **A)** O RBAC0 é a forma mais complexa do modelo, exigindo inteligência artificial quântica para alocação de usuários.
+* **B)** O **RBAC1** adiciona o conceito de **Hierarquia de Papéis** (*Role Hierarchy*), no qual papéis seniores herdam automaticamente todas as permissões concedidas aos papéis juniores; e o **RBAC2** introduz restrições formais de **Separação de Funções** (*Separation of Duties - SoD*), divididas em SoD Estática (SSD, impedindo que um usuário pertença a papéis conflitantes) e SoD Dinâmica (DSD, permitindo a titularidade dos papéis, mas impedindo que sejam ativados simultaneamente na mesma sessão).
+* **C)** O RBAC2 proíbe que um auditor possua mais de uma função em toda a sua vida profissional.
+* **D)** O RBAC3 é a simplificação mínima que revoga todos os privilégios de todos os usuários corporativos.
+* **E)** O modelo RBAC atribui permissões diretamente aos nomes de pessoas físicas, proibindo a criação de papéis ou perfis intermediários.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O **RBAC0** (*Core RBAC*) é o modelo elementar básico (usuários, papéis, permissões e sessões), sem hierarquia ou restrições.
+> - **B)** **CORRETA.** Taxonomia formal do **NIST RBAC**:
+>   - **RBAC0 (Core):** Conjuntos de Usuários, Papéis (*Roles*) e Permissões. Permissões são associadas a papéis, e usuários são vinculados a papéis.
+>   - **RBAC1 (Hierarchical):** Adiciona herança de papéis ($RBAC0 + \text{Hierarquia}$). Um papel superior (ex.: Diretor de Auditoria) herda todos os privilégios do papel subordinado (Auditor Fiscal).
+>   - **RBAC2 (Constraint):** Adiciona regras de Separação de Funções ($RBAC0 + \text{Restrições SoD}$). A SoD Estática (*SSD*) impede a atribuição de papéis conflitantes (ex.: quem cria empenho não pode ser do papel que aprova pagamento); a SoD Dinâmica (*DSD*) restringe a ativação na mesma sessão.
+>   - **RBAC3 (Unified):** Combina simultaneamente hierarquia e restrições de separação de funções ($RBAC1 + RBAC2$).
+> - **C)** Incorreta. O SoD restringe conflitos de interesse específicos entre papéis críticos, não a carreira do profissional.
+> - **D)** Incorreta. O RBAC3 é o modelo unificado completo.
+> - **E)** Incorreta. A definição basilar do RBAC é justamente **desacoplar** usuários de permissões diretas por meio de papéis.
+> 
+> **Gabarito: B**
+
+---
+
 ### 2.5 ABAC (Attribute-Based Access Control) e a Norma XACML
 
 O **ABAC** é a evolução dinâmica do controle de acesso, projetado para resolver a explosão desordenada de papéis (*role explosion*) do RBAC em organizações gigantescas. Em vez de verificar um cargo fixo, o sistema processa expressões booleanas sobre quatro conjuntos de **atributos**:
@@ -297,6 +376,33 @@ O **ABAC** é a evolução dinâmica do controle de acesso, projetado para resol
 
 #### Norma XACML (eXtensible Access Control Markup Language):
 Padrão internacional aberto formulado pela OASIS que define a linguagem XML/JSON e a arquitetura para processamento de políticas ABAC, servindo de fundação para os componentes lógicos de controle de acesso moderno.
+
+---
+
+### Questão 06 (FCC - TRT / Analista Judiciário - TI - Controle de Acesso ABAC e a Arquitetura XACML)
+Em ambientes corporativos complexos com requisitos dinâmicos de auditoria, o Controle de Acesso Baseado em Atributos (*Attribute-Based Access Control - ABAC*) supera as limitações do RBAC ao avaliar atributos do sujeito, do recurso, da ação e do contexto ambiental (como horário, localização IP e nível de ameaça).
+
+Na implementação padrão do ABAC segundo a norma **XACML** (*eXtensible Access Control Markup Language* da OASIS), o componente de software que atua como o ponto de decisão, avaliando as políticas de acesso e emitindo a decisão autorizativa (*Permit* ou *Deny*), é denominado:
+
+* **A)** Policy Enforcement Point (PEP).
+* **B)** Policy Decision Point (PDP).
+* **C)** Policy Administration Point (PAP).
+* **D)** Policy Information Point (PIP).
+* **E)** Security Assertion Markup Language (SAML).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O **PEP (Policy Enforcement Point)** é o ponto de interceptação e aplicação que intercepta a requisição do usuário, repassa ao PDP e aplica a decisão (*bloqueia ou libera*).
+> - **B)** **CORRETA.** Arquitetura canônica de referência do **XACML / ABAC**:
+>   - **PDP (Policy Decision Point):** O "cérebro" avaliador. Recebe a solicitação do PEP, busca os atributos necessários no PIP, confronta as regras e políticas vindas do PAP e profere a decisão lógica (*Permit*, *Deny*, *NotApplicable* ou *Indeterminate*).
+>   - **PEP (Policy Enforcement Point):** O interceptador e executor no plano de dados.
+>   - **PAP (Policy Administration Point):** O repositório administrativo onde os administradores criam, gerenciam e armazenam as políticas XACML.
+>   - **PIP (Policy Information Point):** A fonte de atributos que fornece dados sobre o sujeito, recurso ou ambiente (ex.: Active Directory, servidores de geolocalização).
+> - **C)** Incorreta. O PAP apenas gerencia e armazena os arquivos de políticas.
+> - **D)** Incorreta. O PIP é a fonte de dados que provê os valores dos atributos.
+> - **E)** Incorreta. SAML é um padrão de asserção de identidade para federação, não o motor de decisão do XACML.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -330,7 +436,7 @@ Contas que detêm privilégios administrativos elevados (tais como `root` no Lin
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - IAM, PAM e Governança de Privilégios)
+### Questão 07 (FCC - Adaptada / TI - IAM, PAM e Governança de Privilégios)
 Em uma auditoria de governança de TI em um órgão fazendário estadual, verificou-se que servidores transferidos de setor mantinham ativas as permissões de acesso aos sistemas do departamento anterior, e que administradores de banco de dados utilizavam senhas compartilhadas estáticas de superusuário (`sa`) diretamente em suas estações de trabalho.
 
 Considerando os princípios de Governança de Identidades (IAM) e de Gestão de Acessos Privilegiados (PAM), assinale a prática recomendada para sanear essas não conformidades:
@@ -362,6 +468,31 @@ Para mitigar a fadiga de senhas e a dispersão de credenciais entre múltiplos p
 - **SSO (*Single Sign-On*):** Mecanismo de autenticação centralizada que permite a um usuário realizar logon uma única vez e obter acesso autorizado a múltiplos sistemas e portais sem redigitar credenciais.
 - **SAML 2.0 (*Security Assertion Markup Language*):** Padrão aberto baseado em asserções XML assinado digitalmente, muito utilizado na comunicação corporativa entre o Provedor de Identidade (**IdP** - *Identity Provider*) e o Provedor de Serviços (**SP** - *Service Provider*).
 - **OpenID Connect (OIDC):** Camada de autenticação moderna de identidade construída sobre a infraestrutura REST/HTTPS do protocolo OAuth 2.0. Emprega tokens de identidade codificados em **JSON Web Token (JWT)**, sendo amplamente adotada em aplicações web móveis e microsserviços em nuvem.
+
+---
+
+### Questão 08 (FGV - TRT / Analista Judiciário - TI - Federação de Identidades e SSO: SAML vs. OpenID Connect)
+A federação de identidades permite que os servidores de um tribunal acessem múltiplos sistemas governamentais integrados utilizando uma única conta corporativa com o mecanismo de *Single Sign-On* (SSO).
+
+A respeito dos protocolos padronizados de autenticação e autorização federada, assinale a afirmativa correta:
+
+* **A)** O protocolo SAML 2.0 utiliza tokens ultraleves em formato JSON, enquanto o OpenID Connect é baseado em mensagens pesadas em XML.
+* **B)** O **OAuth 2.0** é estritamente um framework de **Autorização** (concessão de permissões via tokens de acesso delegados), ao passo que o **OpenID Connect (OIDC)** é uma camada de **Autenticação** construída no topo do OAuth 2.0, que introduz o token de identidade padronizado (*ID Token*) no formato JSON Web Token (JWT) para comprovar quem é o usuário.
+* **C)** No protocolo SAML 2.0, o Provedor de Identidade (IdP) e o Provedor de Serviço (SP) operam sem qualquer chave pública ou certificado X.509.
+* **D)** O OpenID Connect exige compulsoriamente o envio da senha em texto claro do usuário para todas as aplicações de terceiros conectadas.
+* **E)** O mecanismo de Single Sign-On obriga o usuário a digitar sua senha novamente a cada novo clique em uma página do portal.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Inverteu os padrões: o **SAML 2.0** é baseado em asserções estruturadas e pesadas em **XML** assinadas com certificados X.509; o **OpenID Connect** é moderno, baseado em REST/JSON e tokens JWT (*JSON Web Tokens*).
+> - **B)** **CORRETA.** Relação arquitetural fundamental entre **OAuth 2.0 e OIDC**:
+>   - **OAuth 2.0 (RFC 6749):** Framework de autorização delegado (*delegated authorization*). Emite `Access Tokens` que dizem a uma API o que o cliente pode acessar, mas **não é um protocolo de autenticação** (não diz à aplicação cliente quem é o usuário nem como ele se autenticou).
+>   - **OpenID Connect (OIDC):** Estende o OAuth 2.0 para adicionar a camada de autenticação que faltava. Emite um **ID Token** (formato JWT assinado digitalmente contendo asserções de identidade ou *claims*, como `sub`, `iss`, `email`, `auth_time`), permitindo que a aplicação cliente valide a identidade do sujeito com segurança em aplicações web e mobile.
+> - **C)** Incorreta. SAML 2.0 requer certificados X.509 em ambas as pontas para assinar e cifrar as asserções XML.
+> - **D)** Incorreta. Em federação, a aplicação cliente **jamais vê a senha do usuário**; a autenticação ocorre exclusivamente no Provedor de Identidade (IdP).
+> - **E)** Incorreta. O propósito basilar do SSO (*Single Sign-On*) é autenticar o usuário uma única vez e permitir acesso transparente a múltiplos sistemas durante a sessão.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -410,7 +541,7 @@ Normatizada pelo Instituto Nacional de Padrões e Tecnologia dos EUA através do
 
 ---
 
-### Questão 04 (FCC - Adaptada / TI - Arquitetura Zero Trust / Princípios Norteadores)
+### Questão 09 (FCC - Adaptada / TI - Arquitetura Zero Trust / Princípios Norteadores)
 A equipe de infraestrutura e segurança da informação de um tribunal deliberou sobre a substituição do seu antigo modelo de segurança perimetral baseado em VPN ("castelo e fosso") por uma Arquitetura Zero Trust alinhada à norma NIST SP 800-207.
 
 A respeito dos princípios fundamentais que regem o paradigma Zero Trust, assinale a afirmativa correta:
@@ -455,6 +586,32 @@ Diferente dos firewalls tradicionais que filtram apenas tráfego norte-sul (entr
 
 ---
 
+### Questão 10 (FGV - TRT / Analista Judiciário - TI - Arquitetura Zero Trust: Microsegmentação de Rede)
+A publicação especial NIST SP 800-207 consolida a Arquitetura Zero Trust (ZTA), superando o modelo obsoleto de segurança de perímetro baseado em "castelo e fosso", adotando o lema: *"Nunca Confie, Sempre Verifique"*.
+
+Dentre os pilares técnicos fundamentais do Zero Trust, a técnica de **Microsegmentação** de rede tem por finalidade primordial:
+
+* **A)** Unificar todas as redes, estações de trabalho e bancos de dados em uma única VLAN plana sem roteadores.
+* **B)** Dividir o datacenter corporativo em zonas lógicas de segurança altamente granulares e isoladas no nível de carga de trabalho (*workload*), aplicando políticas estritas de comunicação L7 que inspecionam o tráfego leste-oeste (*East-West traffic*), com o propósito específico de conter e impedir a **movimentação lateral** de atacantes em caso de comprometimento de um nó da rede.
+* **C)** Garantir que todos os pacotes de rede sejam transmitidos sem criptografia para facilitar o monitoramento passivo.
+* **D)** Aumentar a área de broadcast da rede para acelerar transmissões de vídeo em alta resolução.
+* **E)** Eliminar completamente o uso de firewalls e sistemas de controle de acesso nos servidores centrais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Uma rede plana (sem segmentação) é a antítese do Zero Trust, permitindo que um atacante que invada uma máquina tenha livre acesso a todos os servidores do tribunal.
+> - **B)** **CORRETA.** Fundamentos da **Microsegmentação no Zero Trust**:
+>   - No modelo tradicional, o firewall de borda protegia o tráfego norte-sul (entrada e saída da internet), mas o interior da rede era considerado confiável (tráfego leste-oeste livre).
+>   - Na ZTA (NIST SP 800-207), assume-se a premissa de comprometimento prévio (*Assume Breach*). A **microsegmentação** cria perímetros de segurança microscópicos e dinâmicos ao redor de cada serviço, contêiner ou máquina virtual.
+>   - Mesmo que um invasor comprometa uma estação de trabalho de um estagiário ou um servidor web na DMZ, ele fica enclausurado naquele microsegmento isolado, **sendo bloqueado em qualquer tentativa de movimento lateral (*lateral movement*)** em direção ao banco de dados ou controladores de domínio.
+> - **C)** Incorreta. O Zero Trust exige criptografia em trânsito ponta a ponta (mTLS) em toda comunicação interna.
+> - **D)** Incorreta. A microsegmentação elimina domínios de broadcast amplos.
+> - **E)** Incorreta. Ela multiplica a aplicação de regras granulares de filtragem lógica em cada nó.
+> 
+> **Gabarito: B**
+
+---
+
 ### 4.5 Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)
 
 O NIST SP 800-207 divide formalmente os componentes lógicos da Arquitetura Zero Trust em dois planos de operação:
@@ -483,7 +640,7 @@ flowchart LR
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Componentes Lógicos do Zero Trust / NIST SP 800-207)
+### Questão 11 (FCC - Adaptada / TI - Componentes Lógicos do Zero Trust / NIST SP 800-207)
 A publicação técnica especial NIST SP 800-207 divide a Arquitetura Zero Trust em componentes lógicos fundamentais distribuídos entre o Plano de Controle (*Control Plane*) e o Plano de Dados (*Data Plane*).
 
 Assinale a opção que descreve corretamente o papel e a função desses componentes lógicos:

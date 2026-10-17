@@ -65,6 +65,29 @@ flowchart TD
 
 ---
 
+### Questão 01
+**(FCC – Inédita – Padrão TCE-GO)**  
+Na evolução da inteligência artificial aplicada ao desenvolvimento de software, a transição de chatbots passivos para sistemas agentivos orientados a objetivos (*Goal-Driven Agents*) representa um salto paradigmático fundamental. A principal distinção operacional entre essas duas abordagens consiste em:
+
+* **A)** Chatbots passivos respondem a prompts isolados com sugestões textuais que exigem intervenção humana para cópia e aplicação manual no projeto, enquanto agentes orientados a objetivos recebem metas de alto nível, planejam passos intermediários, utilizam ferramentas para interagir com o ambiente (leitura de arquivos, execução de comandos, testes) e iteram até atingir o objetivo com verificação de resultados.
+* **B)** Chatbots passivos só funcionam em computadores quânticos, ao passo que agentes autônomos executam em qualquer microcontrolador simples.
+* **C)** Agentes orientados a objetivos dispensam completamente o uso de modelos de linguagem (LLMs).
+* **D)** Chatbots passivos são capazes de depurar pipelines de CI/CD de forma totalmente autônoma.
+* **E)** Agentes orientados a objetivos têm seu uso restrito à criação de interfaces gráficas em HTML puro.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** Um chatbot opera em laço aberto (*open loop*): gera texto e para. Um agente opera em laço fechado (*closed loop*): recebe uma meta ("corrigir bug de concorrência na classe X"), delibera, inspeciona arquivos, formula planos, executa alterações no sistema de arquivos, roda os testes e ajusta a solução se houver falhas.
+> - **B) Incorreta.** Ambos operam na infraestrutura tradicional de IA.
+> - **C) Incorreta.** LLMs atuam exatamente como o "cérebro" de raciocínio (*reasoning engine*) do agente.
+> - **D) Incorreta.** Chatbots passivos não possuem ferramentaria para interagir com o ambiente externo.
+> - **E) Incorreta.** Agentes atuam em toda a esteira de engenharia de software (backend, infra, testes, arquitetura).
+>
+> **Gabarito: A**
+
+---
+
+
 ### 1.2 Os Quatro Componentes Estruturais de um Agente de Software
 Segundo a taxonomia clássica de agentes autônomos baseados em LLMs (formalizada por Lilian Weng, 2023), um agente de engenharia de software estrutura-se em quatro pilares articulados:
 
@@ -113,6 +136,33 @@ flowchart TD
 
 ---
 
+### Questão 02
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+A arquitetura estrutural canônica de um agente de inteligência artificial voltado para a engenharia de software articula-se em quatro componentes fundamentais. Assinale a alternativa que elenca corretamente esses quatro componentes:
+
+* **A)** Monitor de vídeo, placa de rede cabeada, disco rígido SATA e teclado mecânico.
+* **B)** Percepção/Contexto (sensores/leitores), Mecanismo de Raciocínio e Planejamento (LLM), Memória (curto e longo prazo) e Ferramental de Ação (atuadores/tools/APIs).
+* **C)** Compilador C++, interpretador PHP, banco de dados Access e firewall de borda.
+* **D)** Diagrama de casos de uso, diagrama de classes, diagrama de sequência e diagrama de atividades.
+* **E)** Linters estáticos, bibliotecas de terceiros, variáveis de ambiente e licenças GPLv3.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Componentes de hardware físico tradicional.
+> - **B) Correta.** A arquitetura universal de um agente compreende:
+>   1. **Percepção/Contexto:** leitura do estado do ambiente (arquivos, AST, logs, mensagens);
+>   2. **Raciocínio/Planejador:** LLM processando planos e estratégias (decomposição de metas);
+>   3. **Memória:** retenção de curto prazo (histórico da conversa/sessão) e longo prazo (vetores, repositórios de conhecimento);
+>   4. **Ferramental de Ação (*Tools*):** capacidade de invocar ferramentas (editar arquivos, executar comandos no terminal, chamar APIs).
+> - **C) Incorreta.** Ferramentas isoladas de desenvolvimento.
+> - **D) Incorreta.** Diagramas da UML.
+> - **E) Incorreta.** Artefatos de software.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 1.3 Padrões de Interface: Agentes de Linha de Comando (CLI) vs. Agentes Nativos em IDE
 
 | Dimensão Técnica | Agentes de Linha de Comando (CLI) | Agentes Integrados à IDE (IDE Native) |
@@ -125,7 +175,7 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Padrão Concursos TI / Comparação CLI vs IDE Agentiva)
+### Questão 03 (FCC - Padrão Concursos TI / Comparação CLI vs IDE Agentiva)
 Analise as afirmativas abaixo a respeito das diferenças operacionais e arquiteturais entre assistentes agentivos de linha de comando (CLI) e extensões integradas a Ambientes de Desenvolvimento Integrados (IDEs):
 
 I. Agentes em CLI (como Claude Code ou Aider) possuem integração direta com o ambiente de terminal do sistema operacional, permitindo encadear ferramentas nativas de busca textual (como `grep`), comandos de compilação e automação de scripts bash sem a necessidade de uma interface gráfica ativa.  
@@ -197,7 +247,7 @@ stateDiagram-v2
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - Sistemas Agentivos e Ciclo ReAct)
+### Questão 04 (FCC - Adaptada / TI - Sistemas Agentivos e Ciclo ReAct)
 Diferente dos chatbots passivos baseados em LLMs tradicionais, os sistemas agentivos modernos de desenvolvimento de software (como agentes de codificação em terminal e IDEs inteligentes) operam com base em ciclos autônomos orientados a objetivos (*Goal-Driven Agents*).
 
 A respeito da dinâmica de funcionamento e das propriedades de um ciclo agentivo de desenvolvimento, assinale a afirmativa correta:  
@@ -231,6 +281,29 @@ Antes de redigir qualquer instrução de código, o agente inspeciona o ambiente
 
 ---
 
+### Questão 05
+**(FCC – Inédita – Padrão TCE-GO)**  
+Na primeira etapa do ciclo agentivo (*The Agentic Loop*), denominada Fase de Percepção ou Descoberta de Contexto, antes de efetuar qualquer alteração no repositório de software, o agente deve:
+
+* **A)** Deletar todos os arquivos da pasta `.git` para economizar memória do agente.
+* **B)** Explorar a estrutura de diretórios, inspecionar contratos de interfaces, ler arquivos de documentação técnica e mapear o código relevante relacionado à tarefa, evitando modificações cegas no código-fonte.
+* **C)** Executar commits forçados com a flag `--force` na branch `main` de produção.
+* **D)** Solicitar autorização judicial para ler arquivos de texto com extensão `.md`.
+* **E)** Paralisar todos os contêineres Docker do cluster de homologação.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Apagar a pasta `.git` destruiria o histórico de versionamento.
+> - **B) Correta.** A fase de percepção assegura que o agente colete informações vitais e analise as dependências do projeto antes de tomar decisões de implementação (*look before you leap*).
+> - **C) Incorreta.** Ação destrutiva e inaceitável.
+> - **D) Incorreta.** Afirmação absurda.
+> - **E) Incorreta.** O agente deve inspecionar o código de forma controlada e segura.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 2.3 Fase 2: Planejamento, Decomposição e Deliberação (Reasoning & Planning)
 Nesta fase, o modelo formula uma estratégia de execução transparente:
 
@@ -239,6 +312,29 @@ Nesta fase, o modelo formula uma estratégia de execução transparente:
 - **Mecanismo *Human-in-the-Loop* para Ambiguidade:** Caso o requisito de negócio contenha contradições ou indefinições, o agente pausa a execução e questiona o usuário de forma estruturada antes de tomar decisões arbitrárias.
 
 ---
+
+### Questão 06
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+No âmbito dos sistemas agentivos aplicados à engenharia de software, a etapa de Planejamento e Decomposição de Metas (*Task Decomposition*) tem por finalidade técnica:
+
+* **A)** Reduzir uma demanda complexa de negócio a uma sequência estruturada de subtarefas atômicas e verificáveis, permitindo ao agente raciocinar sobre passos intermediários antes de disparar ações com efeitos colaterais no repositório.
+* **B)** Unificar todas as classes do sistema em um único arquivo monolítico de 100.000 linhas de código.
+* **C)** Excluir todas as suítes de testes unitários para evitar reprovação do build.
+* **D)** Impedir que o desenvolvedor humano visualize as etapas planejadas pelo sistema.
+* **E)** Substituir o uso de linguagens de alto nível por cartões perfurados.
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** A decomposição de tarefas divide metas globais complexas em subpassos granulares (ex: 1. localizar arquivos afetados; 2. criar testes de regressão; 3. refatorar método; 4. rodar testes; 5. verificar lint), prevenindo loops caóticos e facilitando o monitoramento.
+> - **B) Incorreta.** Anti-padrão grave.
+> - **C) Incorreta.** Os testes são essenciais para verificação do plano.
+> - **D) Incorreta.** A transparência (*observability/human-in-the-loop*) é um pilar da governança agentiva.
+> - **E) Incorreta.** Afirmação disparatada.
+>
+> **Gabarito: A**
+
+---
+
 
 ### 2.4 Fase 3: Execução de Ações no Ambiente (Action)
 O agente invoca as ferramentas disponibilizadas para alterar o estado do sistema:
@@ -267,7 +363,7 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Padrão Concursos TI / Mecânica do Self-Healing Loop)
+### Questão 07 (FCC - Padrão Concursos TI / Mecânica do Self-Healing Loop)
 Em um fluxo de integração contínua (CI), um agente autônomo foi configurado para resolver chamados de correção de defeitos em microsserviços legados em Java. Durante o processamento de um chamado, o agente realizou a modificação do arquivo `CalculadoraAliquotaService.java`, mas o comando de compilação disparado pelo próprio agente retornou o erro: `error: cannot find symbol: class BigDecimalUtils`.
 
 Diante dessa situação em um ciclo agentivo dotado de *Self-Healing*, a ação esperada do agente é:  
@@ -300,7 +396,7 @@ Para evitar que o agente entre em ciclos infinitos de tentativa e erro que consu
 
 ---
 
-### Questão 04 (FCC - Padrão Concursos TI / Critérios de Parada e Circuit Breakers em Agentes)
+### Questão 08 (FCC - Padrão Concursos TI / Critérios de Parada e Circuit Breakers em Agentes)
 Em arquiteturas de agentes de software autônomos, o conceito de Critério de Parada (*Stop Condition*) ou Disjuntor (*Circuit Breaker*) é essencial para garantir a estabilidade e a viabilidade econômica do sistema.
 
 A função primária desse mecanismo é:  
@@ -343,6 +439,29 @@ O **Antigravity CLI** destaca-se pela sua arquitetura modular voltada para gover
 
 ---
 
+### Questão 09
+**(FCC – Inédita – Padrão TCE-GO)**  
+Na arquitetura multiagente hierárquica utilizada em ferramentas modernas de engenharia de software assistida (como no ecossistema Antigravity), o agente orquestrador principal delega tarefas especializadas para subagentes dedicados. A principal vantagem arquitetural dessa segregação de responsabilidades é:
+
+* **A)** Aumentar a poluição da janela de contexto do agente principal com milhares de linhas de saídas intermediárias de debug e comandos do terminal.
+* **B)** Isolar contextos de raciocínio, permitindo que subagentes especializados executem pesquisas profundas ou tarefas de escrita em workspaces dedicados, retornando apenas os resultados consolidados ao agente pai e mantendo a janela de contexto principal limpa e eficiente.
+* **C)** Eliminar a necessidade de qualquer modelo de linguagem nas tomadas de decisão.
+* **D)** Exigir que todos os subagentes compartilhem obrigatoriamente a mesma thread síncrona bloqueante.
+* **E)** Restringir a quantidade máxima de linhas de código de todo o projeto a no máximo 50 linhas.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O objetivo da arquitetura multiagente é exatamente o oposto: evitar a contaminação da janela de contexto do coordenador.
+> - **B) Correta.** Ao delegar tarefas específicas a subagentes (como pesquisador de documentação, auditor de segurança ou desenvolvedor de testes), cada subagente explora seu domínio com sua própria janela de contexto limpa, reportando apenas a síntese dos resultados ao orquestrador, preservando tokens e capacidade de raciocínio.
+> - **C) Incorreta.** Cada subagente utiliza LLMs para deliberar sobre sua especialidade.
+> - **D) Incorreta.** A comunicação multiagente é tipicamente orientada a mensagens assíncronas reativas.
+> - **E) Incorreta.** Afirmação sem fundamento.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 3.3 Segurança Cibernética, Privilégio Mínimo e Human-in-the-Loop
 A concessão de autonomia para que uma IA execute comandos de terminal exige controles de segurança e governança corporativa:
 
@@ -364,7 +483,7 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Governança e Segurança em Agentes Autônomos)
+### Questão 10 (FCC - Adaptada / TI - Governança e Segurança em Agentes Autônomos)
 Ao adotar ferramentas de engenharia de software assistidas por IA com execução de comandos no terminal (CLI) e no sistema de arquivos, uma organização pública de controle externo deve mitigar riscos cibernéticos decorrentes de ações potencialmente destrutivas ou não autorizadas no ambiente de infraestrutura.
 
 Para equilibrar produtividade e governança corporativa na operação desses agentes autônomos, a melhor prática arquitetural consiste em:  

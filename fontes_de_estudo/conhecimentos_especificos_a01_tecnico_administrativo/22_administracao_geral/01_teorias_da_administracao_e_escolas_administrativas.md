@@ -168,6 +168,28 @@ Desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humana
 
 ---
 
+### Questão 03 (FCC - Adaptada / Analista de Gestão Pública)
+A Teoria das Relações Humanas, impulsionada pelos estudos de Elton Mayo na fábrica de Hawthorne (Western Electric Company, 1927-1932), revolucionou a teoria administrativa ao demonstrar que:
+
+* **A)** O nível de produção e a produtividade no trabalho são determinados primordialmente pela integração social e pelas normas informais do grupo, e não apenas pela capacidade física ou fisiológica do trabalhador.
+* **B)** O operário é motivado exclusivamente por incentivos salariais materiais e materiais financeiros (*Homo economicus*).
+* **C)** A divisão extrema do trabalho em tarefas microscópicas e cronometradas elimina qualquer necessidade de supervisão humana.
+* **D)** A fadiga muscular é a única causa de acidentes e quebras de produtividade no ambiente industrial.
+* **E)** As organizações formais funcionam como engrenagens mecânicas imunes a sentimentos, grupos informais e estados psicológicos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A experiência de Hawthorne revelou que o trabalhador não atua isolado, mas como membro de um grupo social (*Homo socialis*). A produtividade é influenciada por fatores psicossociais, reconhecimento, moral do grupo e liderança informal.
+> - **B)** Incorreta. O conceito de *Homo economicus* pertence à Administração Científica de Taylor.
+> - **C)** Incorreta. Concepção taylorista de estudos de tempos e movimentos.
+> - **D)** Incorreta. Elton Mayo provou que o efeito psicológico do grupo superava a fadiga física nas variações de produção.
+> - **E)** Incorreta. Visão mecanicista da Escola Clássica que foi superada pela abordagem humanística.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)
 
 Para Max Weber, a burocracia é a forma de organização social humana mais eficiente, técnica e racional para administrar grandes instituições e o Estado moderno.
@@ -199,7 +221,7 @@ O sociólogo Robert Merton demonstrou que a tentativa de buscar o máximo de pre
 
 ---
 
-### Questão 03
+### Questão 04
 **(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
 No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de burocracia é fundamentado no tipo de dominação racional-legal. No entanto, autores pós-weberianos como Robert Merton identificaram que a aplicação prática desse modelo suscita desvios conhecidos como disfunções da burocracia. Constitui uma clássica disfunção burocrática descrita por Merton:
 
@@ -238,6 +260,30 @@ A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotand
     - Demonstrou que o gestor atua como o **Homem Administrativo**, tomando decisões **satisfatórias** diante da escassez de tempo, imprecisão de dados e limitações de processamento cognitivo, sepultando o mito do *Homem Econômico* maximizador.
 
 ---
+
+### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
+Na Teoria Comportamental da Administração, Douglas McGregor concebeu duas visões antagônicas a respeito da natureza humana e da atitude dos indivíduos em relação ao trabalho: a **Teoria X** e a **Teoria Y**.
+
+Segundo McGregor, a **Teoria Y** fundamenta-se na premissa de que:
+
+* **A)** O dispêndio de esforço físico e mental no trabalho é tão natural quanto o lazer ou o repouso; o ser humano comum não tem aversão intrínseca ao trabalho e pode aprender não só a aceitar, mas a buscar responsabilidades sob condições favoráveis.
+* **B)** O homem médio é indolente por natureza, evita o trabalho sempre que possível e precisa ser coagido, vigiado e controlado rigorosamente por meio de punições.
+* **C)** As pessoas são desprovidas de ambição, preferem ser dirigidas e buscam prioritariamente a segurança acima de qualquer outro fator.
+* **D)** A criatividade na solução de problemas organizacionais é privilégio raro e exclusivo dos ocupantes da alta direção.
+* **E)** As recompensas financeiras estritas são a única força capaz de mobilizar a dedicação dos empregados.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **Teoria Y** baseia-se em premissas humanistas, democráticas e participativas: o trabalho é visto como fonte de satisfação; os trabalhadores são automotivados, responsáveis e criativos quando engajados em metas organizacionais que atendem às suas necessidades de autorrealização.
+> - **B)** Incorreta. Descrição clássica dos postulados autoritários da **Teoria X**.
+> - **C)** Incorreta. Premissa da **Teoria X**.
+> - **D)** Incorreta. Na Teoria Y, a criatividade e a engenhosidade são amplamente distribuídas na população.
+> - **E)** Incorreta. Visão de incentivos materiais típica da Teoria X e da Administração Científica.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 6. Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto
 
@@ -293,7 +339,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Questão 06
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingencial, demonstraram que o desenho das organizações deve ajustar-se às demandas do ambiente externo, dividindo os sistemas gerenciais em mecanicistas e orgânicos. Em relação a essas duas tipologias, é correto afirmar:
 
@@ -317,6 +363,28 @@ Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingen
 
 
 
+### Questão 07 (FCC - Adaptada / Analista de Planejamento e Gestão)
+A Teoria Contingencial da Administração (desenvolvida a partir de pesquisas de Lawrence & Lorsch, Burns & Stalker e Joan Woodward) estabelece que não existe uma "única melhor maneira" (*the one best way*) de administrar e organizar, pois a estrutura e as práticas organizacionais dependem das variáveis ambientais e tecnológicas.
+
+Segundo a tipologia de Tom Burns e G. M. Stalker, uma **estrutura orgânica** é mais adequada quando a organização opera em um ambiente:
+
+* **A)** Dinâmico, instável e imprevisível, exigindo flexibilidade, descentralização decisória, baixa formalização e comunicações laterais/horizontais.
+* **B)** Totalmente estável, estático e previsível, onde tarefas rotineiras repetitivas e centralização rígida produzem máxima eficiência.
+* **C)** Fechado a qualquer influência externa e focado em controle legalista estrito de ponto eletrônico.
+* **D)** Monopolista estatal sem qualquer interação com os cidadãos e a sociedade civil.
+* **E)** Altamente regulado por normas que proíbam a adaptação a novas tecnologias digitais.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Burns e Stalker demonstraram que os **sistemas orgânicos** (flexíveis, descentralizados, baseados em redes e conhecimento especializado horizontal) ajustam-se a ambientes mutáveis e turbulentos; já os **sistemas mecanicistas** (burocráticos, verticais e rígidos) funcionam bem em ambientes estáveis e previsíveis.
+> - **B)** Incorreta. Ambientes estáveis favorecem estruturas mecanicistas/burocráticas.
+> - **C), D), E)** Incorretas. Distorções que contrariam a abertura e adaptabilidade dos modelos contingenciais.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 8. Metáforas Organizacionais de Gareth Morgan
 
 Em sua clássica obra *Imagens da Organização*, Gareth Morgan demonstra que as organizações podem ser concebidas e gerenciadas sob diferentes lentes metafóricas, cada qual ressaltando uma faceta da realidade institucional:
@@ -335,7 +403,7 @@ flowchart TD
 
 ---
 
-### Questão 05
+### Questão 08
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa as diversas imagens conceituais utilizadas para compreender o funcionamento das instituições. Ao retratar a organização sob a metáfora de uma máquina, o autor alinha-se prioritariamente às ideias sustentadas por:
 
@@ -357,6 +425,48 @@ Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa a
 
 ---
 
+
+
+### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Na obra clássica *Imagens da Organização*, Gareth Morgan analisa as organizações por meio de diferentes metáforas para explicar como gestores percebem e projetam as instituições.
+
+A metáfora que visualiza a organização como um sistema adaptativo que necessita processar informações constantemente, aprender com os erros e reestruturar sua própria base de conhecimento e diretrizes (conceito de circuito duplo de aprendizagem) é a:
+
+* **A)** Organização como Cérebro.
+* **B)** Organização como Máquina.
+* **C)** Organização como Prisão Psíquica.
+* **D)** Organização como Instrumento de Dominação.
+* **E)** Organização como Sistema Político de Coalizões.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A metáfora do **Cérebro** (Gareth Morgan) retrata a organização como um sistema de processamento de informações e aprendizagem contínua (*learning organization*), inspirando-se na cibernética e no holograma, onde as partes contêm o todo e a organização aprende a aprender (aprendizagem de circuito duplo).
+> - **B)** Incorreta. A metáfora da Máquina retrata a burocracia clássica e mecanicista (Taylor e Weber).
+> - **C)** Incorreta. A Prisão Psíquica aborda armadilhas inconscientes e ilusões partilhadas.
+> - **D)** Incorreta. Instrumento de Dominação foca na exploração de empregados e comunidades.
+> - **E)** Incorreta. Sistema Político foca em disputas de poder, interesses e coalizões.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+Em relação aos 14 princípios gerais da administração enunciados por Henri Fayol na Teoria Clássica, assinale a opção que define o princípio da **Unidade de Comando**:
+
+* **A)** Cada colaborador ou servidor deve receber ordens e prestar contas exclusivamente a um único superior hierárquico direto.
+* **B)** Todas as unidades do órgão devem possuir o mesmo quantitativo de servidores em exercício.
+* **C)** O controle orçamentário deve ser unificado na presidência do Tribunal de Justiça.
+* **D)** As decisões estratégicas devem ser tomadas sempre em comissões colegiadas deliberativas.
+* **E)** Os servidores comissionados possuem autoridade irrestrita sobre os servidores estáveis.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O princípio da **Unidade de Comando** de Fayol postula que um subordinado deve reportar-se e receber ordens de apenas um único chefe imediato, evitando conflitos de autoridade, ambiguidade de papéis e instruções contraditórias.
+> - **B), C), D), E)** Incorretas. Não guardam nenhuma relação com o princípio clássico da unidade de comando de Fayol.
+> 
+> **Gabarito: A**
+
+---
 
 
 ### 9. Fontes Oficiais e Referências Bibliográficas

@@ -168,6 +168,32 @@ Nessa situação fática, em conformidade com as normas constitucionais e financ
 
 
 
+### Questão 04 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+No tocante às três modalidades de créditos adicionais previstas no art. 41 da Lei Federal nº 4.320/1964, considere as seguintes assertivas:
+
+I. Os créditos suplementares destinam-se a reforço de dotação orçamentária já existente na Lei Orçamentária Anual.  
+II. Os créditos especiais destinam-se a despesas para as quais não haja dotação orçamentária específica na LOA, criando nova programação de trabalho.  
+III. Os créditos extraordinários destinam-se a despesas imprevisíveis e urgentes, em caso de guerra, comoção intestina ou calamidade pública, abertos por medida provisória na União ou decreto do Executivo onde não houver previsão de MP.
+
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** II e III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, II e III.
+
+> **Comentário Detalhado:**
+>
+> - **I. Correto.** Art. 41, I da Lei nº 4.320/1964: suplementares são os destinados a reforço de dotação orçamentária existente.
+> - **II. Correto.** Art. 41, II da Lei nº 4.320/1964: especiais são os destinados a despesas para as quais não haja dotação orçamentária específica.
+> - **III. Correto.** Art. 41, III da Lei nº 4.320/1964 e art. 167, § 3º da CF/88: extraordinários destinam-se a despesas urgentes e imprevisíveis (guerra, comoção interna ou calamidade pública).
+> 
+> **Gabarito: E**
+
+---
+
+
 ### 2. A Regra Constitucional de Reabertura de Saldos (Art. 167, § 2º da CF/88)
 
 #### 2.1 Princípio da Anualidade e a Reabertura Quadrimestral
@@ -185,7 +211,7 @@ Para que o saldo de um crédito orçamentário possa ser regularmente reaberto n
 
 ---
 
-### Questão 04 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
 A respeito das fontes de recursos para a abertura de créditos adicionais previstas no artigo 43 da Lei nº 4.320/1964 e das normas da Constituição Federal de 1988, considere as seguintes afirmativas:
 
 I. O superávit financeiro utilizado para abertura de créditos adicionais corresponde à diferença positiva entre o ativo financeiro e o passivo financeiro apurados no Balanço Patrimonial do exercício anterior, conjugando-se com os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas.  
@@ -214,7 +240,7 @@ Está correto o que se afirma em:
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Questão 06 (FCC - Adaptada / Analista de Planejamento e Orçamento)
 No encerramento do exercício financeiro de 2025, determinado órgão público estadual possuía os seguintes saldos de créditos adicionais que não foram totalmente utilizados nem pagos:
 
 I. Saldo não utilizado de R$ 400.000,00 referente a um Crédito Suplementar aberto regularmente por decreto executivo em novembro de 2025.  
@@ -285,6 +311,52 @@ $$\text{Superávit Financeiro} = AF - PF - \text{Saldos de Créditos Reabertos} 
 
 ---
 
+### Questão 07 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+O art. 43 da Lei Federal nº 4.320/1964 disciplina as fontes de recursos disponíveis que podem ser utilizadas pelo Poder Público para a abertura de créditos suplementares e especiais.
+
+Considera-se **superávit financeiro**, para fins de abertura de créditos adicionais:
+
+* **A)** A diferença positiva entre o ativo financeiro e o passivo financeiro, conjugando-se, ainda, os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas, apurados no Balanço Patrimonial do exercício anterior.
+* **B)** O excesso de arrecadação acumulado mês a mês no exercício financeiro corrente, sem dedução das parcelas já comprometidas com créditos suplementares.
+* **C)** A economia de despesa decorrente de compras públicas adjudicadas por valores inferiores ao preço de referência do edital licitatório.
+* **D)** O saldo positivo apurado na Demonstração das Variações Patrimoniais (DVP) decorrente de doações de bens imóveis recebidos pelo Estado.
+* **E)** O total das disponibilidades de caixa existentes na Conta Única do Tesouro no último dia útil de cada quadrimestre fiscal.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Nos precisos termos do art. 43, § 2º da Lei nº 4.320/1964: "Entende-se por superávit financeiro a diferença positiva entre o ativo financeiro e o passivo financeiro, conjugando-se, ainda, os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas". É apurado no Balanço Patrimonial do exercício encerrado.
+> - **B)** Incorreta. Conceito referente a excesso de arrecadação (art. 43, § 3º), e não superávit financeiro.
+> - **C)** Incorreta. Economia de despesa em compras não constitui fonte de créditos adicionais na Lei nº 4.320/1964.
+> - **D)** Incorreta. Variação patrimonial aumentativa em bens imóveis afeta o patrimônio permanente, não gerando liquidez financeira no ativo financeiro.
+> - **E)** Incorreta. O superávit financeiro é uma grandeza de balanço patrimonial anual, deduzindo passivos financeiros e saldos de créditos reabertos.
+> 
+> **Gabarito: A**
+
+---
+
+
+### Questão 08 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Na apuração da fonte **excesso de arrecadação** para a abertura de créditos suplementares e especiais (art. 43, § 3º da Lei Federal nº 4.320/1964), a Administração Pública deve obrigatoriamente:
+
+* **A)** Computar a diferença positiva entre a receita arrecadada e a estimada na LOA, considerando a tendência do exercício, deduzindo-se a importância dos créditos extraordinários já abertos no exercício.
+* **B)** Desconsiderar qualquer tendência estatística dos meses vincendos e utilizar apenas a arrecadação histórica do exercício financeiro anterior.
+* **C)** Deduzir do excesso apurado o valor das dotações orçamentárias anuladas na LOA durante a tramitação parlamentar.
+* **D)** Utilizar os recursos exclusivamente se houver prévia autorização judicial proferida em ação direta de inconstitucionalidade.
+* **E)** Reabrir compulsoriamente os saldos de créditos suplementares não utilizados no ano anterior antes de apurar novo excesso.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Conforme o art. 43, § 3º da Lei nº 4.320/1964: "Entende-se por excesso de arrecadação, para os fins deste artigo, o saldo positivo das diferenças acumuladas mês a mês entre a arrecadação prevista e a realizada, considerando-se, ainda, a tendência do exercício". E o § 4º complementa que do montante devem ser deduzidas as importâncias dos créditos extraordinários abertos no exercício.
+> - **B)** Incorreta. A lei exige expressamente considerar a tendência do exercício.
+> - **C)** Incorreta. Anulação de dotação é outra fonte autônoma (art. 43, § 1º, III).
+> - **D)** Incorreta. Trata-se de procedimento estritamente administrativo-orçamentário.
+> - **E)** Incorreta. Créditos suplementares não são passíveis de reabertura no exercício seguinte (apenas especiais e extraordinários com ato nos últimos 4 meses).
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 4. Regime Jurídico da Dívida Pública: Flutuante vs. Fundada (Consolidada)
 
 A disciplina jurídica da dívida pública no Brasil encontra-se fundamentada na Lei Federal nº 4.320/1964 e na Lei de Responsabilidade Fiscal (LC nº 101/2000):
@@ -312,6 +384,53 @@ Conforme o art. 29 da LRF e o art. 98 da Lei nº 4.320/1964, a dívida fundada o
 - *Exceção importante da LRF:* As operações de crédito de prazo inferior a 12 meses **também integrarão a dívida consolidada** caso suas receitas tenham sido expressamente incluídas e computadas como receita orçamentária na Lei Orçamentária Anual.
 
 ---
+
+### Questão 09 (FCC - Adaptada / Analista Jurídico de Controle)
+No que tange à disciplina jurídica da Dívida Pública e à distinção entre Dívida Flutuante e Dívida Fundada (Consolidada), assinale a opção correta:
+
+* **A)** A dívida fundada compreende os compromissos de exigibilidade a longo prazo, cujo prazo de amortização seja superior a doze meses, contraídos mediante emissão de títulos ou contratos de mútuo.
+* **B)** A dívida flutuante é constituída pelas operações de crédito autorizadas na LOA para financiamento de grandes obras de infraestrutura com amortização em dez anos.
+* **C)** Os Restos a Pagar processados e não processados integram a dívida consolidada de longo prazo do ente governamental.
+* **D)** As operações de crédito por antecipação de receita orçamentária (ARO) compõem a dívida fundada e podem ser quitadas em até quatro anos.
+* **E)** Os depósitos judiciais e cauções sob custódia temporária do Estado são classificados como patrimônio líquido governamental, e não como dívida flutuante.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A dívida fundada ou consolidada (art. 29 da LRF e art. 98 da Lei nº 4.320/1964) consiste nas obrigações financeiras assumidas para amortização em prazo superior a 12 meses.
+> - **B)** Incorreta. Empréstimos para obras de longo prazo integram a dívida fundada (consolidada), não a flutuante.
+> - **C)** Incorreta. Os Restos a Pagar integram formalmente a **Dívida Flutuante** (curto prazo - art. 92 da Lei nº 4.320/1964).
+> - **D)** Incorreta. ARO é débito de tesouraria de curto prazo integrante da dívida flutuante, devendo ser liquidada até 10 de dezembro do mesmo exercício.
+> - **E)** Incorreta. Depósitos de terceiros e cauções constituem passivos exigíveis de curto prazo e integram a dívida flutuante.
+> 
+> **Gabarito: A**
+
+---
+
+### Questão 10 (FCC - Adaptada / TCE-GO - Auditor de Controle Externo)
+A respeito da vigência e da reabertura de créditos adicionais, a Constituição Federal de 1988 estabelece regra excepcional ao princípio da anualidade orçamentária (art. 167, § 2º).
+
+Considere que, em 20 de outubro de determinado exercício financeiro, o Governador do Estado Alfa abriu um crédito extraordinário por ato próprio, no valor de R$ 50.000.000,00, para atendimento a vítimas de grave calamidade pública. Em 31 de dezembro, verificou-se que apenas R$ 35.000.000,00 haviam sido liquidados e pagos, remanescendo saldo orçamentário não utilizado de R$ 15.000.000,00.
+
+À luz da Carta Magna, no exercício financeiro imediatamente subsequente, o saldo remanescente de R$ 15.000.000,00:
+
+* **A)** Não poderá ser aproveitado sob nenhuma hipótese, extinguindo-se definitivamente com o término do ano civil em estrita observância à anualidade.
+* **B)** Poderá ser reaberto, até o limite de seu saldo, mediante decreto do Poder Executivo, sendo incorporado ao orçamento do exercício subsequente e vigendo até o término deste novo exercício.
+* **C)** Será convertido automaticamente em Restos a Pagar Processados, independentemente de ter havido empenho ou liquidação.
+* **D)** Poderá ser reaberto exclusivamente se a Assembleia Legislativa aprovar novo projeto de PPA que contemple a mesma obra de socorro.
+* **E)** Exigirá que o ente estatal contraia operação de crédito por ARO para financiar o montante residual reaberto.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O art. 167, § 2º da CF/88 prevê exceção expressa para créditos especiais e extraordinários abertos nos últimos quatro meses do exercício.
+> - **B)** Correta. Conforme o art. 167, § 2º da CF/88, os créditos especiais e extraordinários terão vigência no exercício financeiro em que forem autorizados, salvo se o ato de autorização for promulgado nos **últimos quatro meses do exercício** (setembro a dezembro), caso em que, reabertos nos limites dos seus saldos, serão incorporados ao orçamento do exercício financeiro subsequente.
+> - **C)** Incorreta. Restos a Pagar pressupõem empenho prévio da despesa. O saldo não utilizado da dotação orçamentária é reaberto como crédito orçamentário vigente no novo ano.
+> - **D)** Incorreta. A reabertura decorre de ato do Poder Executivo, respeitado o saldo remanescente, sem necessidade de novo PPA.
+> - **E)** Incorreta. O recurso de cobertura do saldo reaberto decorre do próprio superávit financeiro/disponibilidade do crédito extraordinário de origem.
+> 
+> **Gabarito: B**
+
+---
+
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 

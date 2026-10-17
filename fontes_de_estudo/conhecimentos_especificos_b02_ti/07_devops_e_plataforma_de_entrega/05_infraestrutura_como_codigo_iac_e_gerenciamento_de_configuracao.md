@@ -80,6 +80,29 @@ As linguagens e ferramentas de IaC dividem-se em dois paradigmas fundamentais:
     - A ferramenta executa as instruções cegamente. Se o script falhar na metade, o ambiente fica em estado inconsistente (*partially applied*), exigindo scripts corretivos ou intervenções manuais.
     - **Exemplos Canônicos:** Shell Scripts (Bash/PowerShell), AWS CLI, chamadas via SDK Python (Boto3).
 
+### Questão 01
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na implementação de Infraestrutura como Código (IaC), as ferramentas podem adotar a abordagem declarativa ou a abordagem imperativa. A característica definidora do paradigma **declarativo** (adotado pelo Terraform e pelo Kubernetes) estabelece que o engenheiro:
+
+* **A)** Descreve uma sequência detalhada e linear de comandos com laços e desvios condicionais que o sistema operacional deve executar passo a passo até a conclusão.
+* **B)** Especifica o estado final desejado da infraestrutura ("o quê"), cabendo ao motor da ferramenta calcular automaticamente as diferenças e aplicar as ações necessárias de criação, modificação ou destruição para convergir a infraestrutura real ao estado declarado.
+* **C)** Exige que a infraestrutura seja reconfigurada manualmente pela interface gráfica a cada novo deploy.
+* **D)** Só permite o provisionamento de servidores desprovidos de conexão de rede.
+* **E)** Proíbe o versionamento dos arquivos de código no Git.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Descrever o passo a passo procedimental sequencial ("como") é a essência do paradigma **imperativo** (típico de scripts Bash/Python ou CLI pura).
+> - **B) Correta.** No paradigma **declarativo**, o desenvolvedor declara a meta final (ex: "preciso de uma VPC com 3 sub-redes e 2 instâncias"). O Terraform calcula a diferença (*diff*) entre a realidade e o manifesto e descobre autonomamente a ordem de dependências e os comandos necessários para alcançar o resultado.
+> - **C) Incorreta.** A premissa de IaC é eliminar a configuração manual (*ClickOps*).
+> - **D) Incorreta.** Provisiona redes completas.
+> - **E) Incorreta.** Manifestos declarativos devem ser versionados sob controle estrito no Git.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 1.3 O Princípio da Idempotência e Desvio de Configuração (Configuration Drift)
 
 Dois conceitos são cobrados com rigor terminológico pela FCC:
@@ -98,7 +121,7 @@ O desvio de configuração manifesta-se quando recursos de produção são modif
 
 ---
 
-### Questão 01 (FCC - Adaptada / TI - Fundamentos de IaC, Idempotência e Drift)
+### Questão 02 (FCC - Adaptada / TI - Fundamentos de IaC, Idempotência e Drift)
 Uma equipe de governança de TI de uma Secretaria de Fazenda está auditando a conformidade dos processos de implantação de infraestrutura em nuvem pública. Durante a auditoria, foram avaliados os conceitos de Idempotência, Abordagem Declarativa e Desvio de Configuração (*Configuration Drift*).
 
 A respeito desses conceitos fundamentais de Infraestrutura como Código (IaC), assinale a afirmativa correta:  
@@ -154,7 +177,7 @@ flowchart LR
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - Infraestrutura Mutável vs. Imutável)
+### Questão 03 (FCC - Adaptada / TI - Infraestrutura Mutável vs. Imutável)
 No âmbito das práticas de DevOps e entrega contínua, o debate entre **Infraestrutura Mutável** e **Infraestrutura Imutável** é frequentemente ilustrado pela analogia *"Pets vs. Cattle"* (Animais de Estimação vs. Gado).
 
 A esse respeito, assinale a opção que descreve corretamente a abordagem de **Infraestrutura Imutável**:  
@@ -241,11 +264,57 @@ output "vpc_id" {
 - **`output`:** Valores de retorno exportados após a execução (ex.: IP público de um balanceador, ID de uma VPC).
 - **`module`:** Pacote de configurações HCL autocontidas e parametrizadas que funcionam como funções reutilizáveis em múltiplos ambientes.
 
+### Questão 04
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+O Terraform utiliza a linguagem declarativa HCL (*HashiCorp Configuration Language*). No manifesto HCL, o bloco utilizado especificamente para consultar e extrair informações de recursos que já existem previamente na nuvem (sem gerenciá-los diretamente como novas criações do código corrente) é o bloco:
+
+* **A)** `resource`
+* **B)** `variable`
+* **C)** `output`
+* **D)** `data`
+* **E)** `provider`
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O bloco `resource` declara e gerencia a criação de um novo componente de infraestrutura sob custódia do Terraform.
+> - **B) Incorreta.** `variable` define parâmetros de entrada customizáveis.
+> - **C) Incorreta.** `output` expõe valores de saída calculados para outros módulos ou usuários.
+> - **D) Correta.** O bloco **`data`** (*Data Source*) permite consultar e importar metadados de recursos pré-existentes na nuvem (ex: buscar o ID de uma imagem de VM oficial ou o IP de uma sub-rede corporativa existente) para uso dentro do manifesto Terraform.
+> - **E) Incorreta.** `provider` configura o plugin de conexão com a plataforma alvo (ex: AWS, Google Cloud, Azure).
+>
+> **Gabarito: D**
+
+---
+
+
 ### 2.2 O Arquivo de Estado (terraform.tfstate), Remote Backend e State Locking
 
 - **A Função do `terraform.tfstate`:** É o coração transacional do Terraform. Ele mapeia os identificadores declarados no código HCL com os identificadores reais gerados nas APIs da nuvem (ex.: mapeia o recurso `aws_vpc.rede_tce` ao identificador físico `vpc-0123456789abcdef0`), além de armazenar metadados e dependências.
 - **Remote Backend:** Em times profissionais e órgãos públicos, o arquivo `.tfstate` **nunca deve ser versionado no Git local** (pois pode conter senhas em texto claro e causará conflitos insolúveis). Ele deve ser armazenado em um repositório remoto seguro com criptografia em repouso (ex.: Amazon S3, Google Cloud Storage, Terraform Cloud).
 - **State Locking (Bloqueio de Estado):** Mecanismo de controle de concorrência que impede que dois operadores ou pipelines de CI/CD executem `terraform apply` simultaneamente sobre a mesma infraestrutura, o que provocaria corrupção catastrófica de dados. No AWS S3, o locking é implementado através de tabelas no **Amazon DynamoDB**.
+
+### Questão 05
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Em ambientes corporativos onde múltiplos engenheiros colaboram nos mesmos manifestos de infraestrutura Terraform, a configuração de um *Remote Backend* com suporte a *State Locking* (travamento de estado) é mandatória. A razão técnica precípua do *State Locking* consiste em:
+
+* **A)** Impedir que o código-fonte Terraform seja lido por engenheiros que utilizam o sistema operacional Linux.
+* **B)** Prevenir a corrupção do arquivo de estado (`terraform.tfstate`) decorrente de execuções concorrentes de comandos `terraform apply`, travando o estado com uma chave exclusiva enquanto uma operação de escrita estiver em andamento.
+* **C)** Bloquear todas as portas de firewall da nuvem permanentemente.
+* **D)** Acelerar a velocidade de download de imagens Docker em 500%.
+* **E)** Excluir automaticamente os backups de dados após cada modificação.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O Terraform é amplamente multiplataforma.
+> - **B) Correta.** Se dois engenheiros (ou dois pipelines de CI/CD simultâneos) executarem `terraform apply` ao mesmo tempo sobre o mesmo arquivo de estado sem travamento, ocorreria condição de corrida (*race condition*), corrompendo o mapeamento de recursos do `terraform.tfstate`. Mecanismos como Cloud Storage / S3 com DynamoDB provêm *State Locking*, garantindo atomicidade e segurança transacional.
+> - **C) Incorreta.** Não afeta as regras de firewall da nuvem.
+> - **D) Incorreta.** Sem relação com imagens Docker.
+> - **E) Incorreta.** O estado remoto mantém versionamento de backups.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 2.3 Ciclo Operacional da CLI: init, validate, plan, apply e destroy
 
@@ -257,7 +326,7 @@ output "vpc_id" {
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - Terraform: Ciclo de Vida e Arquivo de Estado)
+### Questão 06 (FCC - Adaptada / TI - Terraform: Ciclo de Vida e Arquivo de Estado)
 Considere o fluxo operacional do Terraform ao gerenciar recursos em um provedor de nuvem pública. Um engenheiro de software concluiu alterações em um arquivo `main.tf` e necessita avaliar o impacto das alterações sem aplicá-las efetivamente na nuvem, além de garantir que nenhum outro colega de equipe corrompa o arquivo de estado executando operações simultâneas.
 
 Os mecanismos e comandos do Terraform relacionados a essas necessidades são, respectivamente:  
@@ -316,7 +385,7 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Adaptada / TI - Gerenciamento de Configuração: Ansible vs. Puppet vs. Chef)
+### Questão 07 (FCC - Adaptada / TI - Gerenciamento de Configuração: Ansible vs. Puppet vs. Chef)
 No que diz respeito à arquitetura operacional e aos modelos de comunicação das ferramentas líderes de gerenciamento automatizado de configuração (Ansible, Puppet e Chef), assinale a afirmativa correta:  
 
 * **A)** O Ansible exige a instalação prévia de um agente residente em segundo plano (*daemon*) em cada nó gerenciado para receber as diretivas via protocolo Telnet desprotegido.
@@ -348,6 +417,29 @@ No que diz respeito à arquitetura operacional e aos modelos de comunicação da
 | **Linguagem de Definição** | **YAML** + Templates Jinja2 | DSL declarativa própria (*Puppet Language*) | **Ruby puro** (*Cookbooks* e *Recipes*) |
 | **Curva de Aprendizado** | Baixa e imediata | Moderada | Alta (exige fluência em Ruby) |
 | **Requisito no Destino** | Python instalado e servidor SSH/WinRM ativo | Agente Puppet instalado e em execução | Agente Chef Client instalado e em execução |
+
+### Questão 08
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Entre as principais ferramentas de gerenciamento de configuração de servidores na cultura DevOps, o Ansible diferencia-se historicamente de ferramentas como Puppet e Chef por adotar uma arquitetura:
+
+* **A)** Baseada em agentes locais pesados instalados em todos os servidores alvos operando em modelo *pull*.
+* **B)** Sem agentes (*Agentless*), operando em modelo *push* no qual o nó de controle conecta-se aos nós gerenciados via protocolo SSH padrão (ou WinRM no Windows) e executa módulos descritos em manifestos YAML (*Playbooks*), dispensando a manutenção de daemons residentes nos nós alvos.
+* **C)** Que só permite o gerenciamento de servidores baseados no sistema operacional MS-DOS.
+* **D)** Totalmente dependente de conexão física com cabos seriais RS-232.
+* **E)** Que exige a compilação do código em linguagem C++ antes de cada comando.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Puppet e Chef tradicionalmente dependem de agentes residentes (*agent-based*) e arquitetura *pull*.
+> - **B) Correta.** O grande diferencial do Ansible é ser **Agentless** e **Push-based**: não requer instalação, atualização ou monitoramento de software agente nos nós gerenciados; utiliza a infraestrutura de comunicação nativa (SSH/WinRM) para empurrar comandos declarativos a partir de playbooks YAML.
+> - **C) Incorreta.** Suporta distribuições Linux corporativas e servidores Windows modernos.
+> - **D) Incorreta.** Opera sobre redes TCP/IP padrão.
+> - **E) Incorreta.** Playbooks são interpretados em tempo de execução via Python/YAML.
+>
+> **Gabarito: B**
+
+---
+
 
 ### 3.3 Anatomia Operacional do Ansible: Inventário, Playbooks, Módulos, Handlers e Roles
 
@@ -394,7 +486,7 @@ No que diz respeito à arquitetura operacional e aos modelos de comunicação da
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Componentes do Ansible: Playbooks, Handlers e Inventário)
+### Questão 09 (FCC - Adaptada / TI - Componentes do Ansible: Playbooks, Handlers e Inventário)
 Considere o seguinte trecho simplificado de automação em Ansible:
 
 ```yaml
@@ -447,6 +539,29 @@ A prática de ponta em engenharia de plataforma e DevOps preconiza a combinaçã
 
 - **Terraform:** Atua na camada de **Infraestrutura**. Cria VPCs, sub-redes, gateways de internet, grupos de segurança, discos e instancia as máquinas virtuais ou clusters Kubernetes.
 - **Ansible:** Atua na camada de **Configuração do Sistema**. Uma vez provisionadas as instâncias, o Ansible conecta-se a elas via SSH para endurecer o sistema operacional (*hardening*), instalar utilitários, configurar usuários e preparar os nós para as cargas de trabalho corporativas.
+
+---
+
+
+### Questão 10
+**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
+Na arquitetura de entrega contínua moderna de infraestrutura, a sinergia entre ferramentas de provisionamento e ferramentas de gerenciamento de configuração é amplamente recomendada pela divisão de papéis:
+
+* **A)** O Ansible deve ser usado para criar switches físicos e o Terraform para formatar pen drives.
+* **B)** O Terraform é a ferramenta ideal para o provisionamento e ciclo de vida da infraestrutura básica (redes VPC, sub-redes, instâncias de VM, clusters Kubernetes e storages gerenciados), ao passo que o Ansible atua na etapa subsequente para gerenciar a configuração interna dos servidores (instalação de pacotes, usuários, arquivos de configuração e serviços do sistema operacional).
+* **C)** O uso combinado de Terraform e Ansible é estritamente proibido pelos padrões de arquitetura de nuvem pública.
+* **D)** O Terraform só pode ser utilizado se todos os servidores forem mantidos em infraestrutura local própria (*on-premise*).
+* **E)** Ambas as ferramentas devem ser substituídas permanentemente pela edição manual de arquivos no bloco de notas.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Descrição fantasiosa.
+> - **B) Correta.** Essa é a arquitetura de referência canônica da indústria DevOps: **Terraform para Provisionamento** (cria o hardware virtual e componentes em nuvem) e **Ansible para Configuração** (configura o sistema operacional e softwares no interior das máquinas instanciadas), aproveitando o melhor de cada ferramenta.
+> - **C) Incorreta.** É uma das combinações mais celebradas do mercado.
+> - **D) Incorreta.** O Terraform nasceu e domina o provisionamento em nuvem pública (AWS, GCP, Azure).
+> - **E) Incorreta.** A edição manual viola todos os preceitos de IaC.
+>
+> **Gabarito: B**
 
 ---
 

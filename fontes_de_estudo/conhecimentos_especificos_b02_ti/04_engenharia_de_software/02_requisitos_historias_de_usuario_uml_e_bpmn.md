@@ -50,6 +50,29 @@ A Engenharia de Requisitos é o processo disciplinado de descobrir, analisar, do
 
 ---
 
+### Questão 01
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+O processo de Engenharia de Requisitos compreende um conjunto de atividades estruturadas destinadas a descobrir, analisar, documentar e manter os requisitos de um sistema de software. A atividade desse processo cuja finalidade precípua é demonstrar formalmente que a especificação de requisitos define com precisão o sistema que os clientes realmente desejam e necessitam, identificando ambiguidades, omissões e inconsistências antes da codificação, denomina-se:
+
+* **A)** Elicitação de requisitos.
+* **B)** Validação de requisitos.
+* **C)** Rastreabilidade de requisitos.
+* **D)** Gerenciamento de mudanças.
+* **E)** Modelagem de domínio.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A Elicitação é a atividade inicial de descoberta e levantamento dos requisitos junto aos stakeholders.
+> - **B) Correta.** A Validação de Requisitos verifica se o documento de especificação reflete as reais necessidades dos clientes e usuários (*construir o sistema certo*), detectando erros, omissões e conflitos antes do desenvolvimento.
+> - **C) Incorreta.** A Rastreabilidade mantém os vínculos históricos entre requisitos, código, testes e artefatos de negócio.
+> - **D) Incorreta.** O Gerenciamento de Mudanças lida com o controle e impacto das solicitações de alteração ao longo do ciclo de vida.
+> - **E) Incorreta.** A Modelagem de Domínio foca na representação das entidades conceituais e regras do negócio.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 1.2 Técnicas de Elicitação de Requisitos
 A escolha das técnicas de elicitação depende da maturidade do domínio de negócio e do perfil dos usuários:
 
@@ -81,6 +104,33 @@ flowchart TD
     - *Requisitos Externos:* Derivam de fatores externos ao sistema e à organização (ex.: aderência à Lei Geral de Proteção de Dados - LGPD, normas de interoperabilidade e regulamentações do Banco Central).
 
 ---
+
+### Questão 02
+**(FCC – SEFAZ – Auditor Fiscal da Receita Estadual)**  
+Na especificação de requisitos de software segundo a taxonomia clássica de Ian Sommerville, os requisitos são categorizados em Requisitos Funcionais (RF) e Requisitos Não Funcionais (RNF). Considere os seguintes requisitos elicitados para um sistema corporativo:  
+
+I. O sistema deve emitir o relatório de arrecadação diária consolidado por região fiscal às 18h de cada dia útil.  
+II. A comunicação entre o cliente web e a API de backend deve utilizar criptografia TLS versão 1.3 com certificados digitais padrão ICP-Brasil.  
+III. O tempo de resposta para a consulta de certidões fiscais não deve exceder 2 segundos para 95% das requisições sob carga de 1.000 usuários simultâneos.  
+
+A correta classificação dos itens I, II e III é, respectivamente:
+
+* **A)** RF, RF e RNF.
+* **B)** RNF, RF e RNF.
+* **C)** RF, RNF e RNF.
+* **D)** RNF, RNF e RF.
+* **E)** RF, RNF e RF.
+
+> **Comentário Detalhado:**
+>
+> - **I. Requisito Funcional (RF):** Descreve uma função/serviço que o sistema deve executar (emitir relatório específico em determinado horário).
+> - **II. Requisito Não Funcional (RNF):** Estabelece uma restrição técnica de segurança e protocolo de comunicação (segurança / conformidade).
+> - **III. Requisito Não Funcional (RNF):** Trata-se de uma restrição e atributo de qualidade relativo ao desempenho/tempo de resposta e escalabilidade sob carga.
+>
+> **Gabarito: C**
+
+---
+
 
 ### 1.4 Gerenciamento, Rastreabilidade e Mudança de Requisitos
 - **Rastreabilidade de Requisitos:** Capacidade de acompanhar o ciclo de vida de um requisito em ambas as direções:
@@ -121,7 +171,7 @@ Um Caso de Uso descreve uma sequência de interações entre um ator externo (hu
 
 ---
 
-### Questão 01
+### Questão 03
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Em um diagrama de casos de uso da UML (versão 2.5), os relacionamentos entre casos de uso podem ser representados por estereótipos como «include» e «extend». A respeito desses relacionamentos, é correto afirmar que:
 
@@ -156,6 +206,29 @@ $$\text{"Como [papel de usuário], eu quero [funcionalidade/ação], para que [b
 
 ---
 
+### Questão 04
+**(FCC – DPE – Analista de Sistemas)**  
+No contexto do desenvolvimento ágil, Ron Jeffries sintetizou os componentes essenciais de uma História de Usuário (*User Story*) por meio da abordagem dos "Três Cs": *Card*, *Conversation* e *Confirmation*. O papel correspondente ao "Confirmation" estabelece que:
+
+* **A)** o gerente de projetos deve assinar formalmente uma ordem de serviço em cartório antes do início do Sprint.
+* **B)** a História de Usuário deve conter critérios de aceite explícitos e verificáveis que permitam ao Product Owner e ao time comprovar que a funcionalidade foi entregue conforme o esperado.
+* **C)** deve ser realizada uma reunião de confirmação diária de 2 horas entre todos os diretores da organização.
+* **D)** a história deve ser impressa em três cartões coloridos fixados no quadro Kanban.
+* **E)** o código-fonte deve ser compilado e confirmado em três ambientes de nuvem distintos antes do commit.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Prática burocrática alheia ao desenvolvimento ágil.
+> - **B) Correta.** O "Confirmation" (Confirmação) representa os critérios de aceite (*acceptance criteria*) que formalizam os testes e condições que devem ser satisfeitos para que a história seja considerada aceita pelo Product Owner.
+> - **C) Incorreta.** Não existe tal reunião de 2 horas na definição dos Três Cs.
+> - **D) Incorreta.** O "Card" (Cartão) é apenas o suporte inicial resumido da história; o "Confirmation" não é a impressão física de três cartões.
+> - **E) Incorreta.** Descrição técnica desprovida de conexão com o framework de histórias de usuário de Jeffries.
+>
+> **Gabarito: B**
+
+---
+
+
 ### 2.3 Critérios de Aceite e o Padrão INVEST
 - **Critérios de Aceite (Formato BDD / Gherkin):** Estruturam-se tipicamente no padrão:  
   *Dado que [contexto inicial], Quando [evento ou ação executada], Então [resultado esperado observável].*
@@ -172,7 +245,7 @@ $$\text{"Como [papel de usuário], eu quero [funcionalidade/ação], para que [b
 
 ---
 
-### Questão 02
+### Questão 05
 **(FCC – SEFAZ – Auditor Fiscal da Receita Estadual)**  
 Ao redigir Histórias de Usuário (*User Stories*) em projetos orientados por metodologias ágeis, os analistas empregam o acrônimo INVEST para avaliar a qualidade técnica das histórias escritas. A letra "N" do referido acrônimo estabelece que a história deve ser:
 
@@ -220,6 +293,29 @@ A UML 2.5 divide seus diagramas em duas categorias fundamentais cobradas rigoros
 
 ---
 
+### Questão 06
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+A linguagem UML (Unified Modeling Language, versão 2.5) define 14 diagramas oficiais divididos em duas grandes categorias: Diagramas Estruturais e Diagramas Comportamentais (com o subgrupo de Interação). Dentre os diagramas listados a seguir, pertencem exclusivamente à categoria dos **Diagramas Estruturais**:
+
+* **A)** Diagrama de Classes, Diagrama de Sequência e Diagrama de Atividades.
+* **B)** Diagrama de Casos de Uso, Diagrama de Máquina de Estados e Diagrama de Comunicação.
+* **C)** Diagrama de Classes, Diagrama de Componentes e Diagrama de Implantação (*Deployment Diagram*).
+* **D)** Diagrama de Objetos, Diagrama de Atividades e Diagrama de Pacotes.
+* **E)** Diagrama de Sequência, Diagrama de Interação Geral e Diagrama de Tempo.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Sequência e Atividades são comportamentais.
+> - **B) Incorreta.** Todos os três listados são comportamentais.
+> - **C) Correta.** Classes, Componentes e Implantação (*Deployment*) são todos diagramas estáticos/estruturais da UML 2.5.
+> - **D) Incorreta.** O Diagrama de Atividades é comportamental.
+> - **E) Incorreta.** São diagramas de interação, que constituem uma subclasse dos comportamentais.
+>
+> **Gabarito: C**
+
+---
+
+
 ### 3.2 Diagrama de Classes: Visibilidade, Multiplicidade, Agregação e Composição
 O Diagrama de Classes é o pilar estrutural da modelagem orientada a objetos:
 
@@ -254,7 +350,7 @@ classDiagram
 
 ---
 
-### Questão 03
+### Questão 07
 **(FCC – TRF – Analista Judiciário / TI)**  
 No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assumir formas especializadas de acoplamento do tipo Todo-Parte conhecidas como Agregação e Composição. Sobre esses conceitos, assinale a afirmação correta:
 
@@ -291,6 +387,31 @@ No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assu
 
 ---
 
+
+### Questão 08
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No Diagrama de Sequência da UML 2.5, utilizado para modelar a dinâmica de interação temporal entre objetos, a notação gráfica para representar uma mensagem assíncrona (na qual o remetente envia o estímulo e prossegue imediatamente com seu processamento sem aguardar a conclusão do receptor) é:
+
+* **A)** Uma linha contínua com uma seta preenchida sólida ($lacktriangleright$).
+* **B)** Uma linha contínua terminada por uma seta aberta em forma de ponta de flecha ($
+ightarrow$).
+* **C)** Uma linha tracejada terminada por um círculo preenchido.
+* **D)** Um losango preenchido na extremidade do emissor.
+* **E)** Uma linha dupla contínua sem extremidades direcionais.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A seta preenchida e sólida com linha contínua representa uma chamada de procedimento síncrona (*synchronous call*).
+> - **B) Correta.** Mensagens assíncronas (*asynchronous signals/messages*) são representadas na UML por uma linha contínua finalizada por uma seta aberta em forma de ponta de flecha ($
+ightarrow$).
+> - **C) Incorreta.** Linha tracejada com seta aberta representa mensagens de retorno (*reply/return messages*).
+> - **D) Incorreta.** O losango preenchido denota composição no Diagrama de Classes.
+> - **E) Incorreta.** Inexiste essa notação para mensagens em diagramas de sequência UML.
+>
+> **Gabarito: B**
+
+---
+
 ## 4. Modelagem de Processos de Negócio com BPMN 2.0
 
 ### 4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas
@@ -307,6 +428,29 @@ A notação **BPMN 2.0** (*Business Process Model and Notation*), mantida pelo c
     - *Subprocessos:* Atividades compostas que podem ser visualizadas de forma colapsada (com marcador de cruz "+") ou expandida.
 
 ---
+
+### Questão 09
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na notação BPMN 2.0 (*Business Process Model and Notation*), as tarefas são atividades atômicas que compõem o fluxo do processo. A tarefa que representa um trabalho executado por um serviço automatizado (como um Web Service, API externa ou rotina de backend) sem qualquer intervenção humana direta é denominada:
+
+* **A)** *User Task* (Tarefa de Usuário).
+* **B)** *Manual Task* (Tarefa Manual).
+* **C)** *Service Task* (Tarefa de Serviço).
+* **D)** *Business Rule Task* (Tarefa de Regra de Negócio).
+* **E)** *Script Task* (Tarefa de Script executada pelo próprio motor BPMN).
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A *User Task* é realizada por um ser humano com o auxílio de uma interface de software.
+> - **B) Incorreta.** A *Manual Task* é executada fisicamente por um ser humano sem assistência de qualquer sistema ou motor de processo.
+> - **C) Correta.** A *Service Task* (representada pelo ícone de engrenagens no canto superior esquerdo da atividade) representa a invocação de um serviço externo automatizado, como uma chamada de API REST ou Web Service SOAP.
+> - **D) Incorreta.** A *Business Rule Task* é específica para execução de regras corporativas via motor de decisão (DMN/BRMS).
+> - **E) Incorreta.** A *Script Task* executa scripts diretamente interpretados pelo próprio motor BPMN, diferindo da invocação de serviços externos via *Service Task*.
+>
+> **Gabarito: C**
+
+---
+
 
 ### 4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)
 Os Gateways são representados por **Losangos** e controlam a convergência e divergência dos fluxos:
@@ -328,7 +472,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Questão 10
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 Na modelagem de processos de negócio com a notação BPMN 2.0, um analista precisa representar uma bifurcação no fluxo em que duas atividades subsequentes devem ser executadas simultaneamente (em paralelo), independentemente de qualquer condição ou teste de dados. Para essa finalidade, deve-se empregar o gateway:
 
@@ -365,7 +509,7 @@ Na modelagem de processos de negócio com a notação BPMN 2.0, um analista prec
 
 ---
 
-### Questão 05
+### Questão 11
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 No que diz respeito à notação BPMN 2.0 e suas regras formais de modelagem de processos corporativos, assinale a afirmativa correta:
 
