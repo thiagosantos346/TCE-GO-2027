@@ -646,8 +646,17 @@ def process_markdown(raw_md, topic_id="topic_1"):
         html = html.replace(f"<p>@@@MERMAID_BLOCK_{i}@@@</p>", svg_html)
         html = html.replace(f"@@@MERMAID_BLOCK_{i}@@@", svg_html)
 
-    # 9. Envelopamento das questões comentadas em .question-card (capturando <h3 id="...">Questão)
-    pattern = r'(<h3[^>]*>(?:<span[^>]*>)?Questão\s+\d+.*?)(?=(?:<h3[^>]*>(?:<span[^>]*>)?Questão\s+\d+|<h2|<h1|\Z))'
+    # 9. Envelopamento das questões comentadas em .question-card.
+    # O cartão começa no <h3>/<h4> "Questão N" e fecha IMEDIATAMENTE após o </blockquote> que contém o
+    # gabarito-badge. Se não houver badge antes do próximo cabeçalho (<h1>-<h4>) ou <hr>, o cartão fecha
+    # antes desse delimitador. Assim, as questões podem ficar intercaladas com a teoria sem engolir os
+    # subtópicos seguintes.
+    stop = r'(?:(?!<h[1-4][\s>]|<hr).)'
+    head = r'<h[34][^>]*>(?:<span[^>]*>)?Questão\s+\d+'
+    pattern = (
+        r'(' + head + stop + r'*?<span class="gabarito-badge">' + stop + r'*?</blockquote>'
+        r'|' + head + stop + r'*)'
+    )
     html = re.sub(pattern, r'<div class="question-card">\n\1\n</div>\n', html, flags=re.DOTALL)
 
     # 10. Pós-processamento determinístico de DOM
