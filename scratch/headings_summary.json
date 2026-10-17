@@ -1,0 +1,533 @@
+[
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/01_regime_juridico_principios_e_lindb.md",
+    "filename": "01_regime_juridico_principios_e_lindb.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 1. Conceito e Sentidos de Administração Pública",
+      "### 1.1 Sentido Subjetivo, Formal ou Orgânico",
+      "### 1.2 Sentido Objetivo, Material ou Funcional",
+      "### 1.3 Critérios Distintivos Adotados pela FCC",
+      "## 2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental",
+      "### 2.1 Princípio da Supremacia do Interesse Público sobre o Privado",
+      "### 2.2 Princípio da Indisponibilidade do Interesse Público",
+      "### 2.3 Interesse Público Primário vs. Secundário",
+      "## 3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)",
+      "### 3.1 Princípio da Legalidade Estrita",
+      "### 3.2 Princípio da Impessoalidade e a Vedação à Promoção Pessoal",
+      "### 3.3 Princípio da Moralidade e a Súmula Vinculante nº 13 (Antinepotismo)",
+      "### 3.4 Princípio da Publicidade e suas Exceções Constitucionais",
+      "### 3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)",
+      "## 4. Princípios Administrativos Implícitos e Regime Sumular",
+      "### 4.1 Razoabilidade e Proporcionalidade",
+      "### 4.2 Segurança Jurídica e Proteção à Confiança Legítima",
+      "### 4.3 Princípio da Autotutela (Súmulas 346 e 473 do STF): Anulação vs. Revogação",
+      "### 4.4 Princípio da Motivação e a Teoria dos Motivos Determinantes",
+      "### 4.5 Princípio da Continuidade dos Serviços Públicos",
+      "## 5. O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo",
+      "### 5.1 Consequencialismo Jurídico e Vedação de Valores Abstratos (Art. 20)",
+      "### 5.2 Obstáculos Reais e Circunstâncias Práticas do Gestor (Art. 22)",
+      "### 5.3 Responsabilização por Dolo ou Erro Grosseiro (Art. 28 da LINDB c/c Dec. 9.830/2019)",
+      "### 5.4 Segurança Jurídica, Transição e Vedação à Retroatividade (Arts. 23 e 24)",
+      "## 6. Fontes Recomendadas na Internet"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/02_organizacao_administrativa_e_poderes.md",
+    "filename": "02_organizacao_administrativa_e_poderes.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 1. Organização Administrativa: Técnicas de Estruturação Estatal",
+      "### 1.1 Centralização e Descentralização",
+      "### 1.2 Desconcentração e a Criação de Órgãos Públicos",
+      "### 1.3 Quadro Distintivo: Descentralização vs. Desconcentração",
+      "## 2. Entidades da Administração Indireta",
+      "### 2.1 Autarquias e Autarquias de Regime Especial",
+      "### 2.2 Fundações Públicas (Direito Público vs. Direito Privado)",
+      "### 2.3 Empresas Públicas e Sociedades de Economia Mista",
+      "### 2.4 O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)",
+      "### 2.5 Controle Finalístico, Tutela e Supervisão Ministerial",
+      "## 3. O Terceiro Setor e Entidades Paraestatais",
+      "### 3.1 Serviços Sociais Autônomos (Sistema S)",
+      "### 3.2 Organizações Sociais (OS) e Contratos de Gestão",
+      "### 3.3 OSCIPs e Termos de Parceria",
+      "## 4. Poderes Administrativos e Prerrogativas Públicas",
+      "### 4.1 Poder Vinculado vs. Poder Discricionário e o Mérito Administrativo",
+      "### 4.2 Poder Hierárquico: Delegação, Avocação e a Regra do CENORA",
+      "### 4.3 Poder Disciplinar e Sanções Funcionais",
+      "### 4.4 Poder Regulamentar / Normativo e os Decretos Autônomos",
+      "### 4.5 Poder de Polícia, Ciclo de Polícia e Delegação (Tema 532/STF)",
+      "## 5. Uso e Abuso de Poder e a Lei nº 13.869/2019",
+      "### 5.1 Excesso de Poder vs. Desvio de Finalidade",
+      "### 5.2 Elemento Subjetivo Especial e Proibição do Crime de Hermenêutica",
+      "### 5.3 Sujeitos Ativos no Âmbito dos Tribunais de Contas",
+      "## 6. Fontes Recomendadas na Internet"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/03_atos_administrativos_e_processo_estadual.md",
+    "filename": "03_atos_administrativos_e_processo_estadual.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 1. Teoria Geral do Ato Administrativo e Distinções Conceituais",
+      "### 1.1 Fato da Administração vs. Fato Administrativo vs. Ato Administrativo",
+      "### 1.2 Perfeição, Validade e Eficácia do Ato",
+      "## 2. Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)",
+      "### 2.1 Competência (Sujeito Competente)",
+      "### 2.2 Finalidade e o Desvio de Poder",
+      "### 2.3 Forma e Princípio da Solenidade",
+      "### 2.4 Motivo e a Teoria dos Motivos Determinantes",
+      "### 2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo",
+      "## 3. Atributos do Ato Administrativo (Mnemônico PATI)",
+      "### 3.1 Presunção de Legitimidade e Veracidade",
+      "### 3.2 Autoexecutoriedade e seus Limites",
+      "### 3.3 Tipicidade Administrativa",
+      "### 3.4 Imperatividade e Poder Extroverso",
+      "## 4. Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos",
+      "### 4.1 Atos Simples, Complexos e Compostos",
+      "### 4.2 O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)",
+      "## 5. Extinção e Convalidação dos Atos Administrativos",
+      "### 5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição",
+      "### 5.2 Convalidação: Requisitos, Limites e Efeitos Temporais",
+      "## 6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)",
+      "### 6.1 Princípios Norteadores e Direitos dos Administrados",
+      "### 6.2 Vedações Absolutas à Delegação (Regra do CENORA - Art. 13)",
+      "### 6.3 Impedimentos e Suspeição de Agentes e Julgadores",
+      "### 6.4 Motivação das Decisões e Regime Recursal",
+      "## 7. Fontes Recomendadas na Internet"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/04_servicos_publicos_bens_e_responsabilidade_civil.md",
+    "filename": "04_servicos_publicos_bens_e_responsabilidade_civil.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 1. Responsabilidade Civil Extracontratual do Estado",
+      "### 1.1 Evolução Histórica da Responsabilidade Estatal",
+      "### 1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva",
+      "### 1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes",
+      "### 1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais",
+      "### 1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica",
+      "### 1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)",
+      "## 2. Regime Jurídico dos Serviços Públicos e sua Delegação",
+      "### 2.1 Princípios do Serviço Público Adequado",
+      "### 2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)",
+      "### 2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade",
+      "### 2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)",
+      "## 3. Bens Públicos: Classificação, Afetação e Prerrogativas",
+      "### 3.1 Classificação Quanto à Destinação (Código Civil, art. 99)",
+      "### 3.2 Fenômeno da Afetação e Desafetação",
+      "### 3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta",
+      "## 4. Fontes Recomendadas na Internet"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/05_controle_da_administracao_e_improbidade_administrativa.md",
+    "filename": "05_controle_da_administracao_e_improbidade_administrativa.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 1. Teoria Geral do Controle da Administração Pública",
+      "### 1.1 Fundamento Republicano e Sistema de Freios e Contrapesos",
+      "### 1.2 Classificação Quanto à Origem: Controle Interno vs. Controle Externo",
+      "### 1.3 Classificação Quanto ao Momento: Prévio, Concomitante e Posterior",
+      "### 1.4 Classificação Quanto ao Aspecto: Controle de Legalidade vs. Mérito",
+      "## 2. O Controle Legislativo e a Atuação dos Tribunais de Contas",
+      "### 2.1 A Função Constitucional do Tribunal de Contas (CF/88, arts. 70 a 75)",
+      "### 2.2 Natureza das Decisões e Título Executivo Extrajudicial",
+      "## 3. O Controle Judicial dos Atos Administrativos",
+      "### 3.1 Limites do Controle Judicial sobre o Mérito Administrativo",
+      "### 3.2 Anulação por Desvio de Finalidade e a Teoria dos Motivos Determinantes",
+      "### 3.3 Ações Constitucionais de Controle: Mandado de Segurança, Ação Popular e ACP",
+      "## 4. A Nova Lei de Improbidade Administrativa (Lei 8.429/1992 e Lei 14.230/2021)",
+      "### 4.1 Sujeitos Ativos e Passivos da Improbidade Administrativa",
+      "### 4.2 O Elemento Subjetivo e a Extinção da Culpa (Tema 1.199 / STF)",
+      "### 4.3 Proibição do Crime de Hermenêutica no Âmbito da LIA",
+      "## 5. Tipologia dos Atos de Improbidade e Quadro Sancionatório",
+      "### 5.1 Enriquecimento Ilícito (Art. 9º da LIA)",
+      "### 5.2 Prejuízo ao Erário (Art. 10 da LIA)",
+      "### 5.3 Atentado aos Princípios da Administração (Art. 11 da LIA - Rol Taxativo)",
+      "### 5.4 Matriz Comparativa de Sanções do Artigo 12 da LIA",
+      "### 5.5 Regime Prescricional Geral e Intercorrente (Art. 23 da LIA)",
+      "## 6. Fontes Recomendadas na Internet"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/06_acesso_a_informacao_e_contratos_publicidade.md",
+    "filename": "06_acesso_a_informacao_e_contratos_publicidade.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 1. Transparência Pública e Regime da Lei de Acesso à Informação",
+      "### 1.1 Diretrizes Fundamentais: A Publicidade como Regra Geral",
+      "### 1.2 Transparência Ativa e a Divulgação de Vencimentos (Tema 483 / STF)",
+      "### 1.3 Transparência Passiva e a Vedação de Justificativa (Art. 10, § 3º)",
+      "### 1.4 Prazos Procedimentais e Regime Recursal",
+      "## 2. Classificação de Informações Sigilosas e Proteção de Dados Pessoais",
+      "### 2.1 Graus de Sigilo e Prazos Máximos de Restrição",
+      "### 2.2 Competência Funcional para Classificação no Estado de Goiás",
+      "### 2.3 Proteção de Informações Pessoais (100 Anos)",
+      "### 2.4 Vedação Absoluta de Sigilo: Violações a Direitos Humanos",
+      "## 3. Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)",
+      "### 3.1 Objeto Específico e a Vedação Categórica ao Pregão",
+      "### 3.2 Tipos Licitatórios Obrigatórios",
+      "### 3.3 A Subcomissão Técnica de Julgamento (Art. 10)",
+      "### 3.4 Julgamento às Cegas e Proposta Técnica Desidentificada",
+      "## 4. Fontes Recomendadas na Internet"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/01_governanca_planejamento_etp_tr_e_matriz_riscos.md",
+    "filename": "01_governanca_planejamento_etp_tr_e_matriz_riscos.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)",
+      "### 1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos",
+      "### 1.2 Os Objetivos Fundamentais do Processo Licitatório (Art. 11)",
+      "### 1.3 Governança das Contratações e Gestão por Competências",
+      "## 2. Agentes Públicos da Contratação e Segregação de Funções",
+      "### 2.1 O Agente de Contratação e o Pregoeiro",
+      "### 2.2 Comissão de Contratação e a Regra do Diálogo Competitivo",
+      "### 2.3 O Princípio da Segregação de Funções e Conflito de Interesses",
+      "### 2.4 Defesa Jurídica Institucional dos Agentes (Art. 10)",
+      "## 3. Planejamento das Contratações e Instrumentos Preparatórios",
+      "### 3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária",
+      "### 3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios",
+      "### 3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo",
+      "### 3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro",
+      "## 4. O Portal Nacional de Contratações Públicas (PNCP)",
+      "### 4.1 Natureza e Atribuições Centrais do Portal",
+      "### 4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)",
+      "## 5. Fontes Recomendadas na Internet"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/02_fases_modalidades_e_criterios_de_julgamento.md",
+    "filename": "02_fases_modalidades_e_criterios_de_julgamento.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 1. Fases e Rito Procedimental na Lei Federal nº 14.133/2021",
+      "### 1.1 Sequência Cronológica Canônica (Art. 17)",
+      "### 1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor",
+      "### 1.3 Fase Recursal Única e Concentrada (Art. 165)",
+      "## 2. As Cinco Modalidades Licitatórias Modernas (Art. 28)",
+      "### 2.1 Pregão: Bens e Serviços Comuns de Engenharia e Consumo",
+      "### 2.2 Concorrência: Bens e Serviços Especiais e Obras",
+      "### 2.3 Concurso: Premiação de Trabalhos Técnicos e Artísticos",
+      "### 2.4 Leilão: A Nova Sistemática para Móveis Inservíveis e Imóveis",
+      "### 2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)",
+      "### 2.6 A Extinção Definitiva da Tomada de Preços e do Convite",
+      "## 3. Critérios de Julgamento das Propostas (Art. 33)",
+      "### 3.1 Menor Preço e Maior Desconto",
+      "### 3.2 Melhor Técnica ou Conteúdo Artístico",
+      "### 3.3 Técnica e Preço e o Limite de Ponderação",
+      "### 3.4 Maior Lance (Privativo do Leilão)",
+      "### 3.5 Maior Retorno Econômico e os Contratos de Eficiência (Art. 39)",
+      "## 4. Modos de Disputa e Prazos Mínimos de Divulgação do Edital",
+      "### 4.1 Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)",
+      "### 4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)",
+      "## 5. Fontes Recomendadas na Internet"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/03_procedimentos_auxiliares_e_contratacao_direta.md",
+    "filename": "03_procedimentos_auxiliares_e_contratacao_direta.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa Oficial do Edital",
+      "## 🧭 Sumário",
+      "## 📖 Teoria Aprofundada e Pontos Críticos",
+      "### 1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação",
+      "### 2. Procedimentos Auxiliares da Lei nº 14.133/2021 (Art. 78)",
+      "### 3. Processo Administrativo de Contratação Direta (Art. 72)",
+      "### 4. Inexigibilidade de Licitação (Art. 74 - Inviabilidade de Competição)",
+      "### 5. Dispensa de Licitação (Art. 75 - Rol Taxativo)",
+      "## 🌐 Fontes Recomendadas na Internet"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/04_contratos_administrativos_fiscalizacao_alteracoes_e_sancoes.md",
+    "filename": "04_contratos_administrativos_fiscalizacao_alteracoes_e_sancoes.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa Oficial do Edital",
+      "## 🧭 Sumário",
+      "## 📖 Teoria Aprofundada e Pontos Críticos",
+      "### 1. Conceito, Características e Cláusulas Exorbitantes dos Contratos Administrativos",
+      "### 2. Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)",
+      "### 3. Duração e Prorrogação dos Contratos Administrativos",
+      "### 4. Gestão, Fiscalização e Responsabilidade Trabalhista do Estado",
+      "### 5. Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro",
+      "### 6. Infrações, Sistema Sancionador e Processo de Reabilitação",
+      "## 🌐 Fontes Recomendadas na Internet"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/01_aplicabilidade_das_normas_e_principios_fundamentais.md",
+    "filename": "01_aplicabilidade_das_normas_e_principios_fundamentais.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa Oficial do Edital",
+      "## 🧭 Sumário",
+      "## 📖 Teoria Aprofundada e Pontos Críticos",
+      "### 1. Eficácia e Aplicabilidade das Normas Constitucionais",
+      "### 2. Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)",
+      "## 6. Fontes Recomendadas na Internet"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/02_direitos_e_garantias_fundamentais_e_politicos.md",
+    "filename": "02_direitos_e_garantias_fundamentais_e_politicos.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 📖 Conteúdo Teórico Aprofundado",
+      "### 1. Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)",
+      "### 2. Remédios Constitucionais (*Writs* de Garantia)",
+      "### 3. Direitos Sociais (Arts. 6º a 11)",
+      "### 4. Teoria da Nacionalidade e a Nova Disciplina da Perda (Arts. 12 e 13)",
+      "### 5. Direitos Políticos e Sistema Partidário (Arts. 14 a 17)",
+      "## 🌐 Fontes Oficiais & Doutrinárias Recomendadas"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/03_organizacao_do_estado_e_reparticao_de_competencias.md",
+    "filename": "03_organizacao_do_estado_e_reparticao_de_competencias.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 📖 Conteúdo Teórico Aprofundado",
+      "### 1. Forma Federativa e Organização Político-Administrativa",
+      "### 2. O Modelo Constitucional de Repartição de Competências",
+      "### 3. Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual",
+      "### 4. Regime Constitucional da Administração Pública e Servidores (Arts. 37 a 41)",
+      "## 🌐 Fontes Oficiais & Doutrinárias Recomendadas"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/04_poder_legislativo_processo_legislativo_e_fiscalizacao_tce.md",
+    "filename": "04_poder_legislativo_processo_legislativo_e_fiscalizacao_tce.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 📖 Conteúdo Teórico Aprofundado",
+      "### 1. Estrutura Bicameral e Atribuições das Casas Legislativas",
+      "### 2. O Processo Legislativo Constitucional",
+      "### 3. Fiscalização e Controle Externo pelos Tribunais de Contas (Arts. 70 a 75)",
+      "## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/05_poder_executivo_poder_judiciario_e_funcoes_essenciais.md",
+    "filename": "05_poder_executivo_poder_judiciario_e_funcoes_essenciais.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 📖 Conteúdo Teórico Aprofundado",
+      "### 1. Poder Executivo: Estrutura, Atribuições e Responsabilidade",
+      "### 2. Poder Judiciário: Estrutura Orgânica, CNJ e Súmula Vinculante",
+      "### 3. Funções Essenciais à Justiça",
+      "## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/01_sistema_constitucional_e_jurisdicao_dos_tcs.md",
+    "filename": "01_sistema_constitucional_e_jurisdicao_dos_tcs.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 📖 Conteúdo Teórico Aprofundado",
+      "### 1. O Modelo Constitucional de Controle e a Responsabilidade Solidária",
+      "### 2. Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)",
+      "### 3. Competências Constitucionais: Julgamento Técnico versus Parecer Prévio",
+      "### 4. Registro de Atos de Admissão e Benefícios Previdenciários (Art. 71, III)",
+      "### 5. Sustação de Atos Ilegais versus Sustação de Contratos Administrativos",
+      "### 6. Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)",
+      "### 7. Jurisdição Ampla e Independência das Instâncias",
+      "## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/02_instrumentos_e_tipos_de_auditoria_governamental_nbasp.md",
+    "filename": "02_instrumentos_e_tipos_de_auditoria_governamental_nbasp.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 📖 Conteúdo Teórico Aprofundado",
+      "### 1. Os Cinco Instrumentos de Fiscalização do Controle Externo",
+      "### 2. Tipologia das Auditorias Governamentais (Normas NBASP / INTOSAI)",
+      "### 3. Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria",
+      "### 4. Postura e Conduta Profissional do Auditor (NBASP 100)",
+      "### 5. Matrizes Metodológicas de Trabalho: Planejamento e Achados",
+      "## 🌐 Fontes Oficiais & Normativas Recomendadas"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/03_planejamento_amostragem_procedimentos_e_achados.md",
+    "filename": "03_planejamento_amostragem_procedimentos_e_achados.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 📖 Conteúdo Teórico Aprofundado",
+      "### 1. Planejamento da Fiscalização e Avaliação de Risco",
+      "### 2. Programas de Auditoria e Documentação (Papéis de Trabalho)",
+      "### 3. Técnicas e Procedimentos de Auditoria Governamental",
+      "### 4. Evidências de Auditoria: Os Três Pilares da Validade",
+      "### 5. A Estrutura Anatômica do Achado de Auditoria",
+      "## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados"
+    ]
+  },
+  {
+    "path": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/04_relatorios_processo_de_controle_externo_e_sancoes.md",
+    "filename": "04_relatorios_processo_de_controle_externo_e_sancoes.md",
+    "existing_questions": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "headings": [
+      "## 📌 Ementa / Itens do Edital",
+      "## 🧭 Sumário",
+      "## 📖 Conteúdo Teórico Aprofundado",
+      "### 1. Comunicação dos Resultados e Deliberações do Tribunal",
+      "### 2. Tomada de Contas Especial (TCE): Rito e Pressupostos",
+      "### 3. Comunicações Processuais: Citação versus Audiência",
+      "### 4. Julgamento das Contas de Gestão dos Administradores Públicos",
+      "### 5. Sistema Recursal no Processo de Controle Externo",
+      "### 6. Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)",
+      "### 7. Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)",
+      "## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas"
+    ]
+  }
+]

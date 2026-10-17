@@ -2,12 +2,13 @@
   "metadata": {
     "total_provas_processadas": 51,
     "total_questoes_extraidas": 3871,
-    "status_geral": "pendente",
+    "status_geral": "integrado_com_sucesso",
     "filtros_aplicados": [
       "Descarte de questoes anuladas no gabarito oficial",
       "Descarte de legislacoes revogadas (ex: Lei 8.666/1993, Lei 10.520/2002, RDC)",
       "Descarte de questoes com imagens ou figuras graficas nao extraiveis em texto"
-    ]
+    ],
+    "total_questoes_injetadas_edital": 1244
   },
   "questoes": [
     {
