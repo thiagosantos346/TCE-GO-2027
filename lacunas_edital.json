@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "criterio_lacuna": "Arquivos do edital com menos de 3 questões adicionais no lote extraído de TI",
+    "total_arquivos_com_lacuna": 19,
+    "total_arquivos_edital": 119
+  },
+  "modulos_com_lacunas": {
+    "15_nocoes_de_direito_administrativo": [
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/06_acesso_a_informacao_e_contratos_publicidade.md",
+        "questoes_extraidas_lote": 2,
+        "situacao": "BAIXA COBERTURA"
+      }
+    ],
+    "18_nocoes_de_controle_externo": [
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/02_instrumentos_e_tipos_de_auditoria_governamental_nbasp.md",
+        "questoes_extraidas_lote": 2,
+        "situacao": "BAIXA COBERTURA"
+      },
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/03_planejamento_amostragem_procedimentos_e_achados.md",
+        "questoes_extraidas_lote": 0,
+        "situacao": "CRÍTICA (0 questões)"
+      }
+    ],
+    "19_nocoes_de_administracao_financeira_e_orcamentaria": [
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/02_receita_publica_estagios_fontes_e_classificacoes.md",
+        "questoes_extraidas_lote": 0,
+        "situacao": "CRÍTICA (0 questões)"
+      },
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/03_despesa_publica_estagios_restos_a_pagar_e_suprimento.md",
+        "questoes_extraidas_lote": 1,
+        "situacao": "BAIXA COBERTURA"
+      },
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/04_creditos_adicionais_e_divida_publica.md",
+        "questoes_extraidas_lote": 2,
+        "situacao": "BAIXA COBERTURA"
+      },
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/05_lei_de_responsabilidade_fiscal_lrf_e_despesa_com_pessoal.md",
+        "questoes_extraidas_lote": 0,
+        "situacao": "CRÍTICA (0 questões)"
+      }
+    ],
+    "20_contabilidade_aplicada_ao_setor_publico": [
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/20_contabilidade_aplicada_ao_setor_publico/01_nbc_tsp_estrutura_conceitual_e_normas_gerais.md",
+        "questoes_extraidas_lote": 2,
+        "situacao": "BAIXA COBERTURA"
+      },
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/20_contabilidade_aplicada_ao_setor_publico/02_mcasp_procedimentos_orcamentarios_e_patrimoniais.md",
+        "questoes_extraidas_lote": 0,
+        "situacao": "CRÍTICA (0 questões)"
+      },
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/20_contabilidade_aplicada_ao_setor_publico/03_pcasp_estrutura_e_lancamentos_contabeis.md",
+        "questoes_extraidas_lote": 0,
+        "situacao": "CRÍTICA (0 questões)"
+      },
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/20_contabilidade_aplicada_ao_setor_publico/04_demonstracoes_contabeis_mcasp_e_prestacao_de_contas.md",
+        "questoes_extraidas_lote": 0,
+        "situacao": "CRÍTICA (0 questões)"
+      }
+    ],
+    "21_nocoes_de_administracao_publica": [
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/21_nocoes_de_administracao_publica/01_organizacoes_formais_estruturas_e_processo_organizacional.md",
+        "questoes_extraidas_lote": 1,
+        "situacao": "BAIXA COBERTURA"
+      }
+    ],
+    "22_administracao_geral": [
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/22_administracao_geral/01_teorias_da_administracao_e_escolas_administrativas.md",
+        "questoes_extraidas_lote": 1,
+        "situacao": "BAIXA COBERTURA"
+      },
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/22_administracao_geral/02_organizacao_racional_do_trabalho_estruturas_e_ambientes.md",
+        "questoes_extraidas_lote": 2,
+        "situacao": "BAIXA COBERTURA"
+      },
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/22_administracao_geral/03_processo_decisorio_visao_sistemica_e_gerenciamento_de_projetos.md",
+        "questoes_extraidas_lote": 2,
+        "situacao": "BAIXA COBERTURA"
+      }
+    ],
+    "23_administracao_estrategica": [
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/23_administracao_estrategica/03_cadeia_de_valor_bsc_e_execucao_estrategica.md",
+        "questoes_extraidas_lote": 2,
+        "situacao": "BAIXA COBERTURA"
+      }
+    ],
+    "24_comportamento_organizacional": [
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/24_comportamento_organizacional/01_individuo_personalidade_valores_atitudes_e_motivacao.md",
+        "questoes_extraidas_lote": 1,
+        "situacao": "BAIXA COBERTURA"
+      },
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/24_comportamento_organizacional/03_conflito_negociacao_cultura_clima_e_desenvolvimento_organizacional.md",
+        "questoes_extraidas_lote": 2,
+        "situacao": "BAIXA COBERTURA"
+      }
+    ],
+    "07_devops_e_plataforma_de_entrega": [
+      {
+        "arquivo": "fontes_de_estudo/conhecimentos_especificos_b02_ti/07_devops_e_plataforma_de_entrega/02_git_estrategias_de_branching_e_plataformas_colaborativas.md",
+        "questoes_extraidas_lote": 2,
+        "situacao": "BAIXA COBERTURA"
+      }
+    ]
+  }
+}
