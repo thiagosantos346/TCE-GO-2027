@@ -40,7 +40,6 @@
     - [5.3 Inelegibilidade Reflexa (Art. 14, § 7º) e Súmula Vinculante 18](#53-inelegibilidade-reflexa-art-14-7o-e-sumula-vinculante-18)
     - [5.4 Perda e Suspensão dos Direitos Políticos (Art. 15 da CF/88)](#54-perda-e-suspensao-dos-direitos-politicos-art-15-da-cf88)
 - [6. Fontes Oficiais & Doutrinárias Recomendadas](#fontes-oficiais-doutrinarias-recomendadas)
-- [7. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -86,6 +85,40 @@ flowchart TD
 > 3. **Flagrante Delito em Tráfico Ilícito de Drogas (Tema 280/STF):** O ingresso forçado em domicílio sem mandado judicial, mesmo em caso de crime permanente como o tráfico de drogas, exige fundadas razões (justa causa) devidamente justificadas *a posteriori*, sob pena de nulidade absoluta das provas.
 
 ---
+
+### Questão 01 (FCC - Adaptada / Procuradoria Municipal)
+Com base na jurisprudência pacificada do Supremo Tribunal Federal e no texto da Constituição Federal de 1988 a respeito dos direitos e garantias individuais, analise as afirmativas a seguir:
+
+I. A dissolução da sociedade conjugal no curso do mandato do Chefe do Poder Executivo cessa imediatamente a inelegibilidade reflexa de seu ex-cônjuge para concorrer a mandato eletivo no mesmo município na eleição seguinte.  
+
+II. A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo durante o dia, por determinação judicial, ou a qualquer hora do dia ou da noite, em caso de flagrante delito, desastre ou para prestar socorro.  
+
+III. A prática do racismo e a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático constituem crimes inafiançáveis e imprescritíveis.  
+
+Está correto o que se afirma em:
+
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** I e III, apenas.
+* **D)** I, apenas.
+* **E)** I, II e III.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** O item I é incorreto nos termos da Súmula Vinculante nº 18 do STF.
+> - **B) CORRETA:**  
+>     - *Item I (Falso):* Conforme o teor da **Súmula Vinculante nº 18 do STF**, a dissolução da sociedade ou do vínculo conjugal no curso do mandato eletivo **não afasta** a inelegibilidade reflexa prevista no art. 14, § 7º, da CF/88.  
+>     - *Item II (Verdadeiro):* Reproduz integralmente o art. 5º, XI, da CF/88. A determinação judicial só autoriza o ingresso durante o dia, enquanto as situações de emergência (flagrante delito, desastre ou prestar socorro) legitimam a entrada tanto de dia quanto de noite.  
+>     - *Item III (Verdadeiro):* De acordo com o art. 5º, incisos XLII e XLIV, da CF/88, o racismo e a ação de grupos armados são os dois únicos grupos de crimes taxados pela Constituição como concomitantemente **inafiançáveis e imprescritíveis**.  
+> - **C) Incorreta:** O item I é falso.
+> - **D) Incorreta:** O item I é falso e os itens II e III são verdadeiros.
+> - **E) Incorreta:** O item I é falso.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 #### 1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)
 > *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*
@@ -166,6 +199,31 @@ flowchart TD
 
 ---
 
+### Questão 02 (FCC - Adaptada / Analista Judiciário)
+Determinado servidor público estadual lotado no Tribunal de Contas teve ciência de que existem registros funcionais desabonadores a seu respeito nos bancos de dados informatizados de caráter público do órgão, contendo incorreções fáticas quanto à apuração de sua assiduidade e conduta funcional. O servidor formulou requerimento formal solicitando a retificação de seus dados cadastrais, pedido que foi expressamente indeferido pela autoridade administrativa sem qualquer fundamentação jurídica plausível.
+
+Diante da recusa administrativa formal, o instrumento processual constitucional adequado, cabível e gratuito para assegurar a retificação desses dados perante o Poder Judiciário é o:
+
+* **A)** Mandado de Segurança, impetrado no prazo improrrogável de cento e vinte dias contados da ciência da decisão denegatória.
+* **B)** Habeas Data, cuja ação é constitucionalmente gratuita e se destina especificamente a assegurar o conhecimento e a retificação de informações relativas à pessoa do impetrante constantes de entidades governamentais ou de caráter público.
+* **C)** Mandado de Injunção, em virtude da omissão do órgão público em editar portaria disciplinadora do assentamento funcional.
+* **D)** Ação Popular, promovida pelo servidor em face da autoridade coatora com pedido de indenização civil por danos morais.
+* **E)** Habeas Corpus, haja vista que a inserção de anotações incorretas tolhe indiretamente a liberdade de locomoção do servidor público.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** O Mandado de Segurança é cabível para proteção de direito líquido e certo não amparado por *Habeas Corpus* ou *Habeas Data* (caráter residual expresso no art. 5º, LXIX). Existindo remédio específico (*Habeas Data* para retificação de dados próprios), o MS não tem cabimento, além de não ser constitucionalmente gratuito.  
+> - **B) CORRETA:** Conforme o art. 5º, LXXII, "b", da CF/88, o *Habeas Data* concede-se para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso. O art. 5º, LXXVII, garante expressamente a gratuidade das ações de *Habeas Data*. Ademais, a Súmula 2 do STJ exige a comprovação da recusa ao requerimento administrativo, requisito plenamente atendido no caso fático.  
+> - **C) Incorreta:** O Mandado de Injunção (art. 5º, LXXI) presta-se exclusivamente a sanar a falta de norma regulamentadora que torne inviável o exercício dos direitos e liberdades constitucionais. Não é instrumento para retificar dados cadastrais existentes.  
+> - **D) Incorreta:** A Ação Popular (art. 5º, LXXIII) visa a anular ato lesivo ao patrimônio público, moralidade administrativa, meio ambiente ou patrimônio histórico/cultural, não possuindo como objeto a tutela individual de dados cadastrais funcionais de servidor nem pretensão indenizatória estritamente privada.  
+> - **E) Incorreta:** O *Habeas Corpus* (art. 5º, LXVIII) tutela tão somente a liberdade de locomoção física (direito de ir, vir e ficar). Problemas de cadastro funcional não afetam a locomoção do cidadão.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3. Direitos Sociais (Arts. 6º a 11)
 
 - **Rol Exemplificativo do Art. 6º:** São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, e a assistência aos desamparados.
@@ -215,6 +273,41 @@ flowchart TD
 > - **Tribunais Superiores e Tribunais de Contas:** Ministros do STJ, Ministros do TST, Ministros do STM e Conselheiros/Ministros de Tribunais de Contas (TCU e TCE-GO) **podem ser brasileiros naturalizados**. Apenas os 11 Ministros do STF devem ser natos!  
 > - **Ministros de Estado:** Apenas o **Ministro da Defesa** precisa ser nato. Todos os demais Ministros de Estado (Fazenda, Justiça, Planejamento etc.) podem ser naturalizados.
 
+---
+
+### Questão 03 (FCC - Adaptada / Técnico de Controle Externo - TCE-GO)
+A respeito das condições de elegibilidade e da disciplina constitucional das nacionalidades, considere as seguintes situações hipotéticas:
+
+I. Arthur, brasileiro nato, com 32 anos de idade, pretende concorrer ao cargo de Governador do Estado de Goiás no próximo pleito.  
+
+II. Beatriz, brasileira naturalizada, com 28 anos de idade e pleno gozo dos direitos políticos, pretende concorrer ao cargo de Deputada Federal.  
+
+III. Cláudio, brasileiro naturalizado, com 50 anos de idade, notável saber jurídico e reputação ilibada, foi indicado e nomeado para o cargo de Ministro do Supremo Tribunal Federal (STF).  
+
+À luz das normas constitucionais em vigor:
+
+* **A)** Apenas as situações I e II são juridicamente viáveis perante a Constituição Federal.
+* **B)** As situações I, II e III são plenamente permitidas pelo texto constitucional.
+* **C)** Apenas a situação II é viável, pois a idade mínima para Governador de Estado é de 35 anos.
+* **D)** Apenas a situação III é admitida, sendo vedado o mandato de Deputado Federal a brasileiros naturalizados.
+* **E)** Todas as três situações são expressamente vedadas pela Carta Magna.
+
+> **Comentário Detalhado:**
+>
+> - **A) CORRETA:**  
+>     - *Situação I é válida:* O art. 14, § 3º, VI, "b", da CF/88 fixa a idade mínima de 30 anos para Governador e Vice-Governador de Estado e do DF. Arthur possui 32 anos e é nato, preenchendo todos os requisitos.  
+>     - *Situação II é válida:* Apenas o cargo de *Presidente da Câmara dos Deputados* é privativo de brasileiro nato (art. 12, § 3º, II). Deputados Federais comuns podem ser brasileiros naturalizados, e a idade mínima exigida é de 21 anos (art. 14, § 3º, VI, "c"), atendida por Beatriz (28 anos).  
+>     - *Situação III é inconstitucional:* Todos os 11 cargos de Ministro do Supremo Tribunal Federal são privativos de **brasileiro nato** (art. 12, § 3º, IV). Cláudio, sendo naturalizado, jamais poderá assumir cadeira no STF.  
+> - **B) Incorreta:** Erra ao incluir a situação III, manifestamente inconstitucional.  
+> - **C) Incorreta:** A idade mínima para Governador é 30 anos, e não 35 anos (35 anos é para Presidente, Vice e Senador).  
+> - **D) Incorreta:** Deputados Federais podem ser naturalizados; apenas a presidência da Casa legislativa exige nacionalidade originária.  
+> - **E) Incorreta:** As situações I e II cumprem perfeitamente os ditames constitucionais.
+> 
+> **Gabarito: A**
+
+---
+
+
 #### 4.4 Perda da Nacionalidade: O Novo Regime da EC nº 131/2023
 A Emenda Constitucional nº 131, promulgada no final de 2023, reformulou integralmente o regime de perda da nacionalidade:
 
@@ -232,6 +325,31 @@ flowchart TD
 > **Com a EC 131/2023, a aquisição voluntária de outra nacionalidade NUNCA MAIS gera perda automática da nacionalidade brasileira!** A perda a pedido depende de ato formal e expresso de renúncia (não sendo aceita a renúncia se tornar a pessoa apátrida). Além disso, o brasileiro nato nunca mais perde sua nacionalidade de forma involuntária!
 
 ---
+
+### Questão 04 (FCC - Adaptada / Analista de Gestão Pública)
+Com relação ao regime da nacionalidade instituído pela Constituição Federal de 1988 e suas alterações posteriores, considere que Marcos, brasileiro nato, aos trinta anos de idade, mudou-se para a França e, após cumprir os requisitos legais franceses, requereu e obteve voluntariamente a cidadania francesa, sem que houvesse exigência de permanência no país nem reconhecimento de nacionalidade de origem.
+
+Considerando o texto constitucional vigente com as alterações promovidas pela Emenda Constitucional nº 131/2023, Marcos:
+
+* **A)** Perdeu automaticamente a nacionalidade brasileira no momento da formalização do deferimento da cidadania francesa.
+* **B)** Poderá perder a nacionalidade brasileira apenas se houver representação formal do Ministério das Relações Exteriores aprovada pelo Congresso Nacional.
+* **C)** Não perde a nacionalidade brasileira pela mera aquisição voluntária da cidadania estrangeira, somente ocorrendo a perda se declarar expressamente por escrito perante autoridade brasileira competente que renuncia à nacionalidade brasileira.
+* **D)** Passará automaticamente à condição de brasileiro naturalizado, perdendo o direito de concorrer a qualquer cargo eletivo no Brasil.
+* **E)** Perderá compulsoriamente a nacionalidade brasileira por sentença do juiz federal competente, por ter adotado fidelidade política a nação estrangeira.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** A regra da perda automática da nacionalidade pela aquisição voluntária de outra foi expressamente revogada pela Emenda Constitucional nº 131/2023. Atualmente, a aquisição voluntária de outra nacionalidade não afeta a condição de brasileiro nato.  
+> - **B) Incorreta:** O Congresso Nacional e o MRE não possuem atribuição constitucional para decretar a perda de nacionalidade por representação política.  
+> - **C) CORRETA:** Com a nova redação dada ao art. 12, § 4º, da Constituição pela EC nº 131/2023, o brasileiro só perde a nacionalidade originária se fizer pedido expresso de renúncia perante autoridade brasileira competente, desde que essa renúncia não o transforme em apátrida. A aquisição de nacionalidade estrangeira não gera mais perda automática!  
+> - **D) Incorreta:** A Constituição não prevê "rebaixamento" de brasileiro nato para naturalizado. Marcos continua sendo brasileiro nato com todos os seus direitos políticos e civis resguardados.  
+> - **E) Incorreta:** O cancelamento de nacionalidade por sentença judicial por atividade nociva ao interesse nacional / atentado contra a ordem constitucional aplica-se exclusivamente aos **brasileiros naturalizados** (art. 12, § 4º, I). O brasileiro nato nunca perde a nacionalidade por sentença judicial.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 5. Direitos Políticos e Sistema Partidário (Arts. 14 a 17)
 
@@ -276,108 +394,7 @@ A Constituição Federal estabelece: **"É VEDADA a cassação de direitos polí
 
 ---
 
-## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
-
-* [Constituição Federal de 1988 - Art. 5º (Direitos e Deveres Individuais e Coletivos)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art5) - Catálogo fundamental de direitos, garantias constitucionais e remédios constitucionais (Habeas Corpus, Mandado de Segurança, etc.).
-* [Constituição Federal de 1988 - Arts. 6º a 11 (Direitos Sociais)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art6) - Direitos à educação, saúde, trabalho, segurança e previdência social.
-* [Constituição Federal de 1988 - Arts. 14 a 17 (Direitos Políticos e Partidos Políticos)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art14) - Soberania popular, sufrágio universal, condições de elegibilidade e inelegibilidades constitucionais.
-* [Lei nº 12.016/2009 (Lei do Mandado de Segurança)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm) - Disciplina o mandado de segurança individual e coletivo para proteção de direito líquido e certo.
-* [Lei nº 12.527/2011 (Lei de Acesso à Informação - LAI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm) - Regulamenta o direito constitucional de acesso a informações públicas previsto no art. 5º, XXXIII da CF/88.
-* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 5 - Direitos Individuais; Cap. 7 - Direitos Políticos).
-* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 2 - Direitos e Garantias Fundamentais; Cap. 3 - Remédios Constitucionais).
-* SARLET, Ingo Wolfgang. **A Eficácia dos Direitos Fundamentais: Uma Teoria Geral dos Direitos Fundamentais na Perspectiva Constitucional**. 13. ed. Porto Alegre: Livraria do Advogado, 2018. (Cap. 4 - As Dimensões dos Direitos Fundamentais).
-
-
-## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
-
-### Questão 1 (FCC - Adaptada / Analista Judiciário)
-Determinado servidor público estadual lotado no Tribunal de Contas teve ciência de que existem registros funcionais desabonadores a seu respeito nos bancos de dados informatizados de caráter público do órgão, contendo incorreções fáticas quanto à apuração de sua assiduidade e conduta funcional. O servidor formulou requerimento formal solicitando a retificação de seus dados cadastrais, pedido que foi expressamente indeferido pela autoridade administrativa sem qualquer fundamentação jurídica plausível.
-
-Diante da recusa administrativa formal, o instrumento processual constitucional adequado, cabível e gratuito para assegurar a retificação desses dados perante o Poder Judiciário é o:
-
-* **A)** Mandado de Segurança, impetrado no prazo improrrogável de cento e vinte dias contados da ciência da decisão denegatória.
-* **B)** Habeas Data, cuja ação é constitucionalmente gratuita e se destina especificamente a assegurar o conhecimento e a retificação de informações relativas à pessoa do impetrante constantes de entidades governamentais ou de caráter público.
-* **C)** Mandado de Injunção, em virtude da omissão do órgão público em editar portaria disciplinadora do assentamento funcional.
-* **D)** Ação Popular, promovida pelo servidor em face da autoridade coatora com pedido de indenização civil por danos morais.
-* **E)** Habeas Corpus, haja vista que a inserção de anotações incorretas tolhe indiretamente a liberdade de locomoção do servidor público.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O Mandado de Segurança é cabível para proteção de direito líquido e certo não amparado por *Habeas Corpus* ou *Habeas Data* (caráter residual expresso no art. 5º, LXIX). Existindo remédio específico (*Habeas Data* para retificação de dados próprios), o MS não tem cabimento, além de não ser constitucionalmente gratuito.  
-> - **B) CORRETA:** Conforme o art. 5º, LXXII, "b", da CF/88, o *Habeas Data* concede-se para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso. O art. 5º, LXXVII, garante expressamente a gratuidade das ações de *Habeas Data*. Ademais, a Súmula 2 do STJ exige a comprovação da recusa ao requerimento administrativo, requisito plenamente atendido no caso fático.  
-> - **C) Incorreta:** O Mandado de Injunção (art. 5º, LXXI) presta-se exclusivamente a sanar a falta de norma regulamentadora que torne inviável o exercício dos direitos e liberdades constitucionais. Não é instrumento para retificar dados cadastrais existentes.  
-> - **D) Incorreta:** A Ação Popular (art. 5º, LXXIII) visa a anular ato lesivo ao patrimônio público, moralidade administrativa, meio ambiente ou patrimônio histórico/cultural, não possuindo como objeto a tutela individual de dados cadastrais funcionais de servidor nem pretensão indenizatória estritamente privada.  
-> - **E) Incorreta:** O *Habeas Corpus* (art. 5º, LXVIII) tutela tão somente a liberdade de locomoção física (direito de ir, vir e ficar). Problemas de cadastro funcional não afetam a locomoção do cidadão.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / Técnico de Controle Externo - TCE-GO)
-A respeito das condições de elegibilidade e da disciplina constitucional das nacionalidades, considere as seguintes situações hipotéticas:
-
-I. Arthur, brasileiro nato, com 32 anos de idade, pretende concorrer ao cargo de Governador do Estado de Goiás no próximo pleito.  
-
-II. Beatriz, brasileira naturalizada, com 28 anos de idade e pleno gozo dos direitos políticos, pretende concorrer ao cargo de Deputada Federal.  
-
-III. Cláudio, brasileiro naturalizado, com 50 anos de idade, notável saber jurídico e reputação ilibada, foi indicado e nomeado para o cargo de Ministro do Supremo Tribunal Federal (STF).  
-
-À luz das normas constitucionais em vigor:
-
-* **A)** Apenas as situações I e II são juridicamente viáveis perante a Constituição Federal.
-* **B)** As situações I, II e III são plenamente permitidas pelo texto constitucional.
-* **C)** Apenas a situação II é viável, pois a idade mínima para Governador de Estado é de 35 anos.
-* **D)** Apenas a situação III é admitida, sendo vedado o mandato de Deputado Federal a brasileiros naturalizados.
-* **E)** Todas as três situações são expressamente vedadas pela Carta Magna.
-
-> **Comentário Detalhado:**
->
-> - **A) CORRETA:**  
->     - *Situação I é válida:* O art. 14, § 3º, VI, "b", da CF/88 fixa a idade mínima de 30 anos para Governador e Vice-Governador de Estado e do DF. Arthur possui 32 anos e é nato, preenchendo todos os requisitos.  
->     - *Situação II é válida:* Apenas o cargo de *Presidente da Câmara dos Deputados* é privativo de brasileiro nato (art. 12, § 3º, II). Deputados Federais comuns podem ser brasileiros naturalizados, e a idade mínima exigida é de 21 anos (art. 14, § 3º, VI, "c"), atendida por Beatriz (28 anos).  
->     - *Situação III é inconstitucional:* Todos os 11 cargos de Ministro do Supremo Tribunal Federal são privativos de **brasileiro nato** (art. 12, § 3º, IV). Cláudio, sendo naturalizado, jamais poderá assumir cadeira no STF.  
-> - **B) Incorreta:** Erra ao incluir a situação III, manifestamente inconstitucional.  
-> - **C) Incorreta:** A idade mínima para Governador é 30 anos, e não 35 anos (35 anos é para Presidente, Vice e Senador).  
-> - **D) Incorreta:** Deputados Federais podem ser naturalizados; apenas a presidência da Casa legislativa exige nacionalidade originária.  
-> - **E) Incorreta:** As situações I e II cumprem perfeitamente os ditames constitucionais.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 3 (FCC - Adaptada / Procuradoria Municipal)
-Com base na jurisprudência pacificada do Supremo Tribunal Federal e no texto da Constituição Federal de 1988 a respeito dos direitos e garantias individuais, analise as afirmativas a seguir:
-
-I. A dissolução da sociedade conjugal no curso do mandato do Chefe do Poder Executivo cessa imediatamente a inelegibilidade reflexa de seu ex-cônjuge para concorrer a mandato eletivo no mesmo município na eleição seguinte.  
-
-II. A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo durante o dia, por determinação judicial, ou a qualquer hora do dia ou da noite, em caso de flagrante delito, desastre ou para prestar socorro.  
-
-III. A prática do racismo e a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático constituem crimes inafiançáveis e imprescritíveis.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** II e III, apenas.
-* **C)** I e III, apenas.
-* **D)** I, apenas.
-* **E)** I, II e III.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O item I é incorreto nos termos da Súmula Vinculante nº 18 do STF.
-> - **B) CORRETA:**  
->     - *Item I (Falso):* Conforme o teor da **Súmula Vinculante nº 18 do STF**, a dissolução da sociedade ou do vínculo conjugal no curso do mandato eletivo **não afasta** a inelegibilidade reflexa prevista no art. 14, § 7º, da CF/88.  
->     - *Item II (Verdadeiro):* Reproduz integralmente o art. 5º, XI, da CF/88. A determinação judicial só autoriza o ingresso durante o dia, enquanto as situações de emergência (flagrante delito, desastre ou prestar socorro) legitimam a entrada tanto de dia quanto de noite.  
->     - *Item III (Verdadeiro):* De acordo com o art. 5º, incisos XLII e XLIV, da CF/88, o racismo e a ação de grupos armados são os dois únicos grupos de crimes taxados pela Constituição como concomitantemente **inafiançáveis e imprescritíveis**.  
-> - **C) Incorreta:** O item I é falso.
-> - **D) Incorreta:** O item I é falso e os itens II e III são verdadeiros.
-> - **E) Incorreta:** O item I é falso.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / Auditor de Controle Externo)
+### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
 À luz das disposições constitucionais sobre os direitos políticos, a perda e suspensão de tais prerrogativas e a organização partidária, assinale a opção correta:
 
 * **A)** É permitida a cassação de direitos políticos mediante processo administrativo com contraditório e ampla defesa instaurado pelo Tribunal Superior Eleitoral.
@@ -398,23 +415,15 @@ Está correto o que se afirma em:
 
 ---
 
-### Questão 5 (FCC - Adaptada / Analista de Gestão Pública)
-Com relação ao regime da nacionalidade instituído pela Constituição Federal de 1988 e suas alterações posteriores, considere que Marcos, brasileiro nato, aos trinta anos de idade, mudou-se para a França e, após cumprir os requisitos legais franceses, requereu e obteve voluntariamente a cidadania francesa, sem que houvesse exigência de permanência no país nem reconhecimento de nacionalidade de origem.
 
-Considerando o texto constitucional vigente com as alterações promovidas pela Emenda Constitucional nº 131/2023, Marcos:
 
-* **A)** Perdeu automaticamente a nacionalidade brasileira no momento da formalização do deferimento da cidadania francesa.
-* **B)** Poderá perder a nacionalidade brasileira apenas se houver representação formal do Ministério das Relações Exteriores aprovada pelo Congresso Nacional.
-* **C)** Não perde a nacionalidade brasileira pela mera aquisição voluntária da cidadania estrangeira, somente ocorrendo a perda se declarar expressamente por escrito perante autoridade brasileira competente que renuncia à nacionalidade brasileira.
-* **D)** Passará automaticamente à condição de brasileiro naturalizado, perdendo o direito de concorrer a qualquer cargo eletivo no Brasil.
-* **E)** Perderá compulsoriamente a nacionalidade brasileira por sentença do juiz federal competente, por ter adotado fidelidade política a nação estrangeira.
+## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** A regra da perda automática da nacionalidade pela aquisição voluntária de outra foi expressamente revogada pela Emenda Constitucional nº 131/2023. Atualmente, a aquisição voluntária de outra nacionalidade não afeta a condição de brasileiro nato.  
-> - **B) Incorreta:** O Congresso Nacional e o MRE não possuem atribuição constitucional para decretar a perda de nacionalidade por representação política.  
-> - **C) CORRETA:** Com a nova redação dada ao art. 12, § 4º, da Constituição pela EC nº 131/2023, o brasileiro só perde a nacionalidade originária se fizer pedido expresso de renúncia perante autoridade brasileira competente, desde que essa renúncia não o transforme em apátrida. A aquisição de nacionalidade estrangeira não gera mais perda automática!  
-> - **D) Incorreta:** A Constituição não prevê "rebaixamento" de brasileiro nato para naturalizado. Marcos continua sendo brasileiro nato com todos os seus direitos políticos e civis resguardados.  
-> - **E) Incorreta:** O cancelamento de nacionalidade por sentença judicial por atividade nociva ao interesse nacional / atentado contra a ordem constitucional aplica-se exclusivamente aos **brasileiros naturalizados** (art. 12, § 4º, I). O brasileiro nato nunca perde a nacionalidade por sentença judicial.
-> 
-> **Gabarito: C**
+* [Constituição Federal de 1988 - Art. 5º (Direitos e Deveres Individuais e Coletivos)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art5) - Catálogo fundamental de direitos, garantias constitucionais e remédios constitucionais (Habeas Corpus, Mandado de Segurança, etc.).
+* [Constituição Federal de 1988 - Arts. 6º a 11 (Direitos Sociais)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art6) - Direitos à educação, saúde, trabalho, segurança e previdência social.
+* [Constituição Federal de 1988 - Arts. 14 a 17 (Direitos Políticos e Partidos Políticos)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art14) - Soberania popular, sufrágio universal, condições de elegibilidade e inelegibilidades constitucionais.
+* [Lei nº 12.016/2009 (Lei do Mandado de Segurança)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm) - Disciplina o mandado de segurança individual e coletivo para proteção de direito líquido e certo.
+* [Lei nº 12.527/2011 (Lei de Acesso à Informação - LAI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm) - Regulamenta o direito constitucional de acesso a informações públicas previsto no art. 5º, XXXIII da CF/88.
+* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 5 - Direitos Individuais; Cap. 7 - Direitos Políticos).
+* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 2 - Direitos e Garantias Fundamentais; Cap. 3 - Remédios Constitucionais).
+* SARLET, Ingo Wolfgang. **A Eficácia dos Direitos Fundamentais: Uma Teoria Geral dos Direitos Fundamentais na Perspectiva Constitucional**. 13. ed. Porto Alegre: Livraria do Advogado, 2018. (Cap. 4 - As Dimensões dos Direitos Fundamentais).

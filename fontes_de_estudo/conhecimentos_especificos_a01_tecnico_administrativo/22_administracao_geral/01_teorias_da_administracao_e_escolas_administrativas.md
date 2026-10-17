@@ -30,7 +30,6 @@
 - [7. Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos](#7-teoria-contingencial-sistemas-mecanicistas-vs-organicos)
 - [8. Metáforas Organizacionais de Gareth Morgan](#8-metaforas-organizacionais-de-gareth-morgan)
 - [9. Fontes Oficiais e Referências Bibliográficas](#9-fontes-oficiais-e-referencias-bibliograficas)
-- [10. Questões de Concurso FCC Comentadas](#10-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -72,6 +71,52 @@ flowchart LR
 > - *Homem Complexo:* Teoria Contingencial (ser mutável cujo comportamento responde a contingências e contextos múltiplos).
 
 ---
+
+### Questão 01
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+A respeito da evolução do pensamento administrativo e das premissas sustentadas pelas diferentes escolas da Teoria Geral da Administração, assinale a opção correta:
+
+* **A)** A Teoria das Relações Humanas concebia o trabalhador como o *Homo Economicus*, sustentando que a produtividade fabril dependia exclusivamente dos estímulos pecuniários e incentivos salariais por peça produzida.
+* **B)** A Teoria Contingencial defende a universalidade dos princípios administrativos, afirmando que existe uma única melhor maneira (*the one best way*) de gerenciar qualquer organização, independentemente do ambiente externo.
+* **C)** A Teoria Geral dos Sistemas postula que as organizações operam como sistemas abertos dotados de entropia negativa, o que lhes permite importar recursos e informações do ambiente externo para conter a tendência natural de degradação e manter sua integridade interna.
+* **D)** A Teoria Clássica preconizada por Henri Fayol refutou a unidade de comando, defendendo a supervisão funcional de múltiplos chefes proposta outrora pela administração científica.
+* **E)** O modelo weberiano de burocracia baseia-se na autoridade carismática como esteio fundamental para a profissionalização e estabilidade do quadro funcional das organizações.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** O conceito de *Homo Economicus* pertence à Administração Científica (Taylor) e Teoria Clássica (Fayol). A Escola de Relações Humanas (Mayo) concebeu o trabalhador como **Homo Socialis** (motivado pelo grupo e integração social).  
+> - **B) Incorreta.** A Teoria Contingencial rejeita a existência de princípios universais ou de uma "melhor maneira" única, afirmando que a estrutura adequada depende da tecnologia e do ambiente.  
+> - **C) CORRETA.** Na Teoria Geral dos Sistemas, as organizações são concebidas como **sistemas abertos** que realizam trocas permanentes com o meio externo e possuem **entropia negativa (negentropia)**, ou seja, a capacidade de importar insumos e energia para deter o colapso e preservar a homeostase interna.  
+> - **D) Incorreta.** Fayol era o defensor categórico da **Unidade de Comando** (um único chefe direto); a supervisão funcional pertencia a Taylor.  
+> - **E) Incorreta.** A burocracia weberiana sustenta-se exclusivamente na **autoridade racional-legal** (leis, normas escritas e impessoalidade), e não na autoridade carismática.  
+> 
+> **Gabarito: C**
+
+---
+
+### Questão 02
+**(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
+Considere que um gestor público de departamento estadual dividiu as rotinas de trabalho em tarefas elementares repetitivas, cronometrou os tempos de digitação de cada processo e estipulou uma premiação pecuniária individual para os servidores que superassem a meta diária de processos autuados, partindo da premissa de que os indivíduos trabalham motivados exclusivamente pelo ganho monetário. Essa postura gerencial reflete diretamente os postulados da:
+
+* **A)** Teoria das Relações Humanas e a busca pela integração grupal informal.
+* **B)** Administração Científica de Taylor e a concepção do *Homo Economicus*.
+* **C)** Teoria Estruturalista e a mediação de conflitos institucionais inevitáveis.
+* **D)** Teoria Geral dos Sistemas e a busca pela homeostase dinâmica.
+* **E)** Teoria Comportamental fundamentada na Teoria Y de Douglas McGregor.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** As Relações Humanas valorizam o reconhecimento social e os grupos informais, rejeitando a primazia do dinheiro como motivador único.  
+> - **B) CORRETA.** A **Administração Científica de Frederick Taylor** baseava-se no estudo sistemático dos tempos e movimentos (ORT), fragmentação máxima das tarefas e estímulo pecuniário através do pagamento por produção individual, alicerçada no postulado antropológico do **Homo Economicus** (o ser humano é preguiçoso e move-se unicamente pela busca do ganho material/financeiro).  
+> - **C) Incorreta.** A abordagem estruturalista foca na interação entre estruturas formais e informais e no papel dos conflitos.  
+> - **D) Incorreta.** A teoria sistêmica foca no equilíbrio com o ambiente externo e fluxo de insumos/produtos.  
+> - **E) Incorreta.** A Teoria Y de McGregor sustenta que as pessoas são naturalmente motivadas, criativas e buscam autorrealização no trabalho.  
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 2. A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)
 
@@ -154,6 +199,30 @@ O sociólogo Robert Merton demonstrou que a tentativa de buscar o máximo de pre
 
 ---
 
+### Questão 03
+**(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
+No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de burocracia é fundamentado no tipo de dominação racional-legal. No entanto, autores pós-weberianos como Robert Merton identificaram que a aplicação prática desse modelo suscita desvios conhecidos como disfunções da burocracia. Constitui uma clássica disfunção burocrática descrita por Merton:
+
+* **A)** A substituição da unidade de comando clássica pela supervisão funcional de múltiplos especialistas.
+* **B)** A flexibilização excessiva das rotinas operacionais em resposta aos apelos emocionais dos cidadãos.
+* **C)** O deslocamento de objetivos, em que a observância estrita das regras e normas procedimentais passa a ser um fim em si mesmo, prejudicando o atendimento dos objetivos reais da organização.
+* **D)** A contratação indiscriminada de pessoal comissionado com base em laços de parentesco e afinidade pessoal.
+* **E)** A proliferação descontrolada de grupos informais que ditam os padrões de produtividade à revelia da administração.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A supervisão funcional é uma proposta da Administração Científica de Taylor, não uma disfunção da burocracia de Merton.  
+> - **B) Incorreta.** A burocracia peca pelo excesso de rigidez e apego às regras, e não por flexibilização emocional.  
+> - **C) CORRETA.** Robert Merton demonstrou que o apego cego e intransigente aos regulamentos provoca o **deslocamento de objetivos**: a regra, que deveria ser um mero instrumento para atingir o fim público, transforma-se no objetivo primordial do funcionário. O cumprimento formal da norma passa a valer mais do que a solução do problema do cidadão.  
+> - **D) Incorreta.** Contratação por compadrio é traço típico do patrimonialismo, e não disfunção da burocracia (que preconiza o concurso público e mérito técnico).  
+> - **E) Incorreta.** A ação de grupos informais foi evidenciada por Elton Mayo na Teoria das Relações Humanas.  
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon
 
 A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotando uma perspectiva realista, empírica e democrática do homem nas organizações:
@@ -224,6 +293,30 @@ flowchart TD
 
 ---
 
+### Questão 04
+**(FCC – DPE-RS – Analista: Área Administrativa)**  
+Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingencial, demonstraram que o desenho das organizações deve ajustar-se às demandas do ambiente externo, dividindo os sistemas gerenciais em mecanicistas e orgânicos. Em relação a essas duas tipologias, é correto afirmar:
+
+* **A)** Organizações que operam sob sistemas mecanicistas caracterizam-se por estruturas descentralizadas, canais de comunicação horizontais e adaptação veloz a ambientes altamente turbulentos.
+* **B)** Os sistemas orgânicos são recomendados prioritariamente para organizações inseridas em ambientes externos estáveis e previsíveis, com tarefas rotineiras e imutáveis.
+* **C)** Os sistemas mecanicistas caracterizam-se por hierarquia rígida, especialização acentuada das tarefas, centralização das decisões e adequação a ambientes externos estáveis.
+* **D)** A teoria contingencial preconiza que as estruturas orgânicas devem ser adotadas universalmente por todas as entidades públicas, independentemente do contexto tecnológico ou ambiental.
+* **E)** As organizações que adotam sistemas orgânicos eliminam integralmente a divisão do trabalho e suprimem as metas institucionais de longo prazo.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Descentralização, comunicação horizontal e adaptabilidade rápida a ambientes dinâmicos são atributos dos sistemas **orgânicos**.  
+> - **B) Incorreta.** Ambientes estáveis e previsíveis ajustam-se melhor aos sistemas **mecanicistas**.  
+> - **C) CORRETA.** Segundo Burns e Stalker, os **sistemas mecanicistas** são marcados por hierarquia vertical estrita, autoridade centralizada na cúpula, tarefas fragmentadas e rotinas padronizadas, sendo ideais para ambientes externos **estáveis e previsíveis**.  
+> - **D) Incorreta.** A Teoria Contingencial rechaça receitas universais; a escolha entre modelo mecanicista ou orgânico é situacional e depende das contingências externas.  
+> - **E) Incorreta.** Os sistemas orgânicos mantêm a divisão de trabalho e os objetivos estratégicos, apenas operando com maior flexibilidade e integração de papéis.  
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 8. Metáforas Organizacionais de Gareth Morgan
 
 Em sua clássica obra *Imagens da Organização*, Gareth Morgan demonstra que as organizações podem ser concebidas e gerenciadas sob diferentes lentes metafóricas, cada qual ressaltando uma faceta da realidade institucional:
@@ -242,43 +335,7 @@ flowchart TD
 
 ---
 
-### 9. Fontes Oficiais e Referências Bibliográficas
-
-* [Decreto-Lei nº 200/1967 (Princípios da Administração e Racionalidade)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Aplicação de princípios clássicos e estruturais na organização da máquina pública.
-* [Constituição Federal de 1988 - Art. 37 (Princípio da Eficiência)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - O princípio constitucional da eficiência e a evolução dos modelos administrativos.
-* [Decreto nº 9.203/2017 (Governança e Estruturas Organizacionais)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Mecanismos modernos de alinhamento, prestação de contas e conformidade burocrática.
-* [TCU - Governança Organizacional no Setor Público](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial conceitual que dialoga com as teorias clássicas e comportamentais de gestão.
-* [TCE-GO - Competências Institucionais e Controle da Eficiência](https://portal.tce.go.gov.br/competencias) - Atuação de controle externo sobre a eficácia e economicidade dos órgãos públicos.
-* CHIAVENATO, Idalberto. **Introdução à Teoria Geral da Administração**. 10. ed. São Paulo: Atlas, 2020. (Cap. 3 e 4 - Teoria Científica e Teoria Clássica; Cap. 5 e 6 - Teoria das Relações Humanas; Cap. 11 e 12 - Teoria Burocrática e Estruturalista).
-* MAXIMIANO, Antonio Cesar Amaru. **Teoria Geral da Administração: Da Revolução Urbana à Revolução Digital**. 8. ed. São Paulo: Atlas, 2017. (Cap. 2 a 8 - Evolução do Pensamento Administrativo).
-* MOTTA, Fernando C. Prestes; VASCONCELOS, Isabella F. Gouveia de. **Teoria Geral da Administração**. 3. ed. São Paulo: Cengage Learning, 2006. (Cap. 1 a 4).
-
-
-### 10. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-A respeito da evolução do pensamento administrativo e das premissas sustentadas pelas diferentes escolas da Teoria Geral da Administração, assinale a opção correta:
-
-* **A)** A Teoria das Relações Humanas concebia o trabalhador como o *Homo Economicus*, sustentando que a produtividade fabril dependia exclusivamente dos estímulos pecuniários e incentivos salariais por peça produzida.
-* **B)** A Teoria Contingencial defende a universalidade dos princípios administrativos, afirmando que existe uma única melhor maneira (*the one best way*) de gerenciar qualquer organização, independentemente do ambiente externo.
-* **C)** A Teoria Geral dos Sistemas postula que as organizações operam como sistemas abertos dotados de entropia negativa, o que lhes permite importar recursos e informações do ambiente externo para conter a tendência natural de degradação e manter sua integridade interna.
-* **D)** A Teoria Clássica preconizada por Henri Fayol refutou a unidade de comando, defendendo a supervisão funcional de múltiplos chefes proposta outrora pela administração científica.
-* **E)** O modelo weberiano de burocracia baseia-se na autoridade carismática como esteio fundamental para a profissionalização e estabilidade do quadro funcional das organizações.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O conceito de *Homo Economicus* pertence à Administração Científica (Taylor) e Teoria Clássica (Fayol). A Escola de Relações Humanas (Mayo) concebeu o trabalhador como **Homo Socialis** (motivado pelo grupo e integração social).  
-> - **B) Incorreta.** A Teoria Contingencial rejeita a existência de princípios universais ou de uma "melhor maneira" única, afirmando que a estrutura adequada depende da tecnologia e do ambiente.  
-> - **C) CORRETA.** Na Teoria Geral dos Sistemas, as organizações são concebidas como **sistemas abertos** que realizam trocas permanentes com o meio externo e possuem **entropia negativa (negentropia)**, ou seja, a capacidade de importar insumos e energia para deter o colapso e preservar a homeostase interna.  
-> - **D) Incorreta.** Fayol era o defensor categórico da **Unidade de Comando** (um único chefe direto); a supervisão funcional pertencia a Taylor.  
-> - **E) Incorreta.** A burocracia weberiana sustenta-se exclusivamente na **autoridade racional-legal** (leis, normas escritas e impessoalidade), e não na autoridade carismática.  
-> 
-> **Gabarito: C**
-
----
-
-### Questão 02
+### Questão 05
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa as diversas imagens conceituais utilizadas para compreender o funcionamento das instituições. Ao retratar a organização sob a metáfora de uma máquina, o autor alinha-se prioritariamente às ideias sustentadas por:
 
@@ -300,66 +357,15 @@ Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa a
 
 ---
 
-### Questão 03
-**(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
-Considere que um gestor público de departamento estadual dividiu as rotinas de trabalho em tarefas elementares repetitivas, cronometrou os tempos de digitação de cada processo e estipulou uma premiação pecuniária individual para os servidores que superassem a meta diária de processos autuados, partindo da premissa de que os indivíduos trabalham motivados exclusivamente pelo ganho monetário. Essa postura gerencial reflete diretamente os postulados da:
 
-* **A)** Teoria das Relações Humanas e a busca pela integração grupal informal.
-* **B)** Administração Científica de Taylor e a concepção do *Homo Economicus*.
-* **C)** Teoria Estruturalista e a mediação de conflitos institucionais inevitáveis.
-* **D)** Teoria Geral dos Sistemas e a busca pela homeostase dinâmica.
-* **E)** Teoria Comportamental fundamentada na Teoria Y de Douglas McGregor.
 
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** As Relações Humanas valorizam o reconhecimento social e os grupos informais, rejeitando a primazia do dinheiro como motivador único.  
-> - **B) CORRETA.** A **Administração Científica de Frederick Taylor** baseava-se no estudo sistemático dos tempos e movimentos (ORT), fragmentação máxima das tarefas e estímulo pecuniário através do pagamento por produção individual, alicerçada no postulado antropológico do **Homo Economicus** (o ser humano é preguiçoso e move-se unicamente pela busca do ganho material/financeiro).  
-> - **C) Incorreta.** A abordagem estruturalista foca na interação entre estruturas formais e informais e no papel dos conflitos.  
-> - **D) Incorreta.** A teoria sistêmica foca no equilíbrio com o ambiente externo e fluxo de insumos/produtos.  
-> - **E) Incorreta.** A Teoria Y de McGregor sustenta que as pessoas são naturalmente motivadas, criativas e buscam autorrealização no trabalho.  
-> 
-> **Gabarito: B**
+### 9. Fontes Oficiais e Referências Bibliográficas
 
----
-
-### Questão 04
-**(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
-No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de burocracia é fundamentado no tipo de dominação racional-legal. No entanto, autores pós-weberianos como Robert Merton identificaram que a aplicação prática desse modelo suscita desvios conhecidos como disfunções da burocracia. Constitui uma clássica disfunção burocrática descrita por Merton:
-
-* **A)** A substituição da unidade de comando clássica pela supervisão funcional de múltiplos especialistas.
-* **B)** A flexibilização excessiva das rotinas operacionais em resposta aos apelos emocionais dos cidadãos.
-* **C)** O deslocamento de objetivos, em que a observância estrita das regras e normas procedimentais passa a ser um fim em si mesmo, prejudicando o atendimento dos objetivos reais da organização.
-* **D)** A contratação indiscriminada de pessoal comissionado com base em laços de parentesco e afinidade pessoal.
-* **E)** A proliferação descontrolada de grupos informais que ditam os padrões de produtividade à revelia da administração.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A supervisão funcional é uma proposta da Administração Científica de Taylor, não uma disfunção da burocracia de Merton.  
-> - **B) Incorreta.** A burocracia peca pelo excesso de rigidez e apego às regras, e não por flexibilização emocional.  
-> - **C) CORRETA.** Robert Merton demonstrou que o apego cego e intransigente aos regulamentos provoca o **deslocamento de objetivos**: a regra, que deveria ser um mero instrumento para atingir o fim público, transforma-se no objetivo primordial do funcionário. O cumprimento formal da norma passa a valer mais do que a solução do problema do cidadão.  
-> - **D) Incorreta.** Contratação por compadrio é traço típico do patrimonialismo, e não disfunção da burocracia (que preconiza o concurso público e mérito técnico).  
-> - **E) Incorreta.** A ação de grupos informais foi evidenciada por Elton Mayo na Teoria das Relações Humanas.  
-> 
-> **Gabarito: C**
-
----
-
-### Questão 05
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
-Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingencial, demonstraram que o desenho das organizações deve ajustar-se às demandas do ambiente externo, dividindo os sistemas gerenciais em mecanicistas e orgânicos. Em relação a essas duas tipologias, é correto afirmar:
-
-* **A)** Organizações que operam sob sistemas mecanicistas caracterizam-se por estruturas descentralizadas, canais de comunicação horizontais e adaptação veloz a ambientes altamente turbulentos.
-* **B)** Os sistemas orgânicos são recomendados prioritariamente para organizações inseridas em ambientes externos estáveis e previsíveis, com tarefas rotineiras e imutáveis.
-* **C)** Os sistemas mecanicistas caracterizam-se por hierarquia rígida, especialização acentuada das tarefas, centralização das decisões e adequação a ambientes externos estáveis.
-* **D)** A teoria contingencial preconiza que as estruturas orgânicas devem ser adotadas universalmente por todas as entidades públicas, independentemente do contexto tecnológico ou ambiental.
-* **E)** As organizações que adotam sistemas orgânicos eliminam integralmente a divisão do trabalho e suprimem as metas institucionais de longo prazo.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Descentralização, comunicação horizontal e adaptabilidade rápida a ambientes dinâmicos são atributos dos sistemas **orgânicos**.  
-> - **B) Incorreta.** Ambientes estáveis e previsíveis ajustam-se melhor aos sistemas **mecanicistas**.  
-> - **C) CORRETA.** Segundo Burns e Stalker, os **sistemas mecanicistas** são marcados por hierarquia vertical estrita, autoridade centralizada na cúpula, tarefas fragmentadas e rotinas padronizadas, sendo ideais para ambientes externos **estáveis e previsíveis**.  
-> - **D) Incorreta.** A Teoria Contingencial rechaça receitas universais; a escolha entre modelo mecanicista ou orgânico é situacional e depende das contingências externas.  
-> - **E) Incorreta.** Os sistemas orgânicos mantêm a divisão de trabalho e os objetivos estratégicos, apenas operando com maior flexibilidade e integração de papéis.  
-> 
-> **Gabarito: C**
+* [Decreto-Lei nº 200/1967 (Princípios da Administração e Racionalidade)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Aplicação de princípios clássicos e estruturais na organização da máquina pública.
+* [Constituição Federal de 1988 - Art. 37 (Princípio da Eficiência)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - O princípio constitucional da eficiência e a evolução dos modelos administrativos.
+* [Decreto nº 9.203/2017 (Governança e Estruturas Organizacionais)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Mecanismos modernos de alinhamento, prestação de contas e conformidade burocrática.
+* [TCU - Governança Organizacional no Setor Público](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial conceitual que dialoga com as teorias clássicas e comportamentais de gestão.
+* [TCE-GO - Competências Institucionais e Controle da Eficiência](https://portal.tce.go.gov.br/competencias) - Atuação de controle externo sobre a eficácia e economicidade dos órgãos públicos.
+* CHIAVENATO, Idalberto. **Introdução à Teoria Geral da Administração**. 10. ed. São Paulo: Atlas, 2020. (Cap. 3 e 4 - Teoria Científica e Teoria Clássica; Cap. 5 e 6 - Teoria das Relações Humanas; Cap. 11 e 12 - Teoria Burocrática e Estruturalista).
+* MAXIMIANO, Antonio Cesar Amaru. **Teoria Geral da Administração: Da Revolução Urbana à Revolução Digital**. 8. ed. São Paulo: Atlas, 2017. (Cap. 2 a 8 - Evolução do Pensamento Administrativo).
+* MOTTA, Fernando C. Prestes; VASCONCELOS, Isabella F. Gouveia de. **Teoria Geral da Administração**. 3. ed. São Paulo: Cengage Learning, 2006. (Cap. 1 a 4).

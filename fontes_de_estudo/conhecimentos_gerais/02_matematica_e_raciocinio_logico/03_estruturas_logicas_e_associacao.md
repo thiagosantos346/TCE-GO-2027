@@ -35,12 +35,6 @@
     - [5.1 Dedução Hipotética e Eliminação de Contradições](#51-deducao-hipotetica-e-eliminacao-de-contradicoes)
     - [5.2 Condições Necessárias, Suficientes e Redundantes](#52-condicoes-necessarias-suficientes-e-redundantes)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
-    - [Questão 01](#questao-01)
-    - [Questão 02](#questao-02)
-    - [Questão 03](#questao-03)
-    - [Questão 04](#questao-04)
-    - [Questão 05](#questao-05)
 
 ---
 
@@ -68,6 +62,52 @@ As informações fornecidas dividem-se em três modalidades lógicas:
 3. **Pistas Condicionais ou Compostas:** Estabelecem vínculos de causa-efeito ou conexões temporais e espaciais simultâneas (*"Se Lucas cuida da Folha, então Mateus cuida do Portal"*; *"O técnico que mora em Anápolis chegou depois de Carlos"*).
 
 ---
+
+### Questão 01
+**(FCC – TRT – Analista Judiciário)**  
+Em uma equipe de suporte da TI do Tribunal de Contas, quatro analistas — Lucas, Mateus, Nivaldo e Otávio — são responsáveis por quatro sistemas corporativos: Folha de Pagamento, Processo Eletrônico, Portal da Transparência e Controle de Bens. Sabe-se que:
+
+1. Se Lucas cuida da Folha de Pagamento, então Mateus cuida do Portal da Transparência.  
+2. Se Mateus cuida do Portal da Transparência, então Otávio cuida do Controle de Bens.  
+3. Nivaldo cuida do Portal da Transparência ou do Processo Eletrônico.  
+4. Otávio não cuida do Controle de Bens.  
+
+A partir dessas premissas, conclui-se necessariamente que:
+
+* **A)** Lucas cuida da Folha de Pagamento.
+* **B)** Mateus cuida do Portal da Transparência.
+* **C)** Nivaldo cuida do Processo Eletrônico.
+* **D)** Lucas não cuida da Folha de Pagamento.
+* **E)** Otávio cuida do Processo Eletrônico.
+
+> **Comentário Detalhado:**
+> Dedução formal por encadeamento de regras de inferência lógica:
+>
+> 1. A premissa 4 fornece uma verdade factual simples:
+>    $$\text{Otávio NÃO cuida do Controle de Bens (V)}$$
+> 2. Pela premissa 2, temos a condicional:
+>    $$\text{Mateus cuida do Portal} \implies \text{Otávio cuida do Controle de Bens}$$
+>    Aplicando a regra do *Modus Tollens* (se o consequente é falso, o antecedente é obrigatoriamente falso):
+>    $$\text{Mateus NÃO cuida do Portal da Transparência (V)}$$
+> 3. Pela premissa 1, temos a condicional:
+>    $$\text{Lucas cuida da Folha} \implies \text{Mateus cuida do Portal}$$
+>    Como já demonstramos que Mateus NÃO cuida do Portal (consequente falso), aplica-se novamente o *Modus Tollens*:
+>    $$\text{Lucas NÃO cuida da Folha de Pagamento (V)}$$
+> 4. Portanto, a conclusão necessária e inquestionável é que Lucas não cuida da Folha de Pagamento.
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. Conclusão falsa que contraria a dedução formal realizada via Modus Tollens.
+> - **B)** Incorreta. Ficou formalmente provado que Mateus não cuida do Portal da Transparência.
+> - **C)** Incorreta. Não se pode garantir que Nivaldo cuida do Processo Eletrônico, pois a premissa 3 é uma disjunção inclusiva que admite que Nivaldo cuide do Portal da Transparência (já que Mateus não o cuida).
+> - **D)** Correta. Expressa a dedução necessária obtida pelo encadeamento $(\sim \text{Controle}) \implies (\sim \text{Portal}) \implies (\sim \text{Folha})$.
+> - **E)** Incorreta. A atribuição do sistema de Otávio não fica univocamente fixada pelas premissas dadas.
+> 
+> **Gabarito: D**
+
+---
+
+
 
 ## 2. Metodologia das Matrizes Cruzadas de Associação
 
@@ -114,6 +154,53 @@ Quando o texto apresenta a pista: *"O servidor formado em Direito reside em Apar
 
 ---
 
+### Questão 02
+**(FCC – TCE-GO – Técnico de Controle Externo)**  
+Três servidores do TCE-GO — Alice, Bruno e Camila — trabalham em gabinetes de três Conselheiros distintos: Conselheiro $X$, Conselheiro $Y$ e Conselheiro $Z$. Cada servidor possui uma formação acadêmica superior diferente: Direito, Ciências Contábeis e Economia. Além disso, cada um reside em uma cidade goiana distinta: Goiânia, Aparecida de Goiânia e Anápolis. Sabe-se que:
+
+1. O servidor lotado no gabinete do Conselheiro $X$ é formado em Economia.  
+2. Bruno reside em Goiânia e não é formado em Ciências Contábeis.  
+3. Alice trabalha no gabinete do Conselheiro $Z$.  
+4. O servidor formado em Direito reside em Aparecida de Goiânia.  
+5. Camila não reside em Anápolis.  
+
+Com base nessas informações, é correto concluir que:
+
+* **A)** Alice reside em Anápolis e é formada em Ciências Contábeis.
+* **B)** Camila reside em Aparecida de Goiânia e trabalha com o Conselheiro $X$.
+* **C)** Bruno trabalha com o Conselheiro $Y$ e é formado em Economia.
+* **D)** Camila trabalha com o Conselheiro $Z$ e é formada em Direito.
+* **E)** Bruno trabalha com o Conselheiro $Y$ e é formado em Direito.
+
+> **Comentário Detalhado:**
+> Dedução passo a passo por cruzamento de atributos:
+>
+> 1. Pela pista 2, Bruno reside em Goiânia. Pela pista 4, quem reside em Aparecida de Goiânia é formado em Direito. Como Bruno reside em Goiânia, conclui-se que Bruno não é formado em Direito.
+> 2. A pista 2 também declara que Bruno não é formado em Ciências Contábeis. Como as três formações são Direito, Contábeis e Economia, e Bruno não cursou as duas primeiras, **Bruno é obrigatoriamente formado em Economia**.
+> 3. Pela pista 1, o servidor formado em Economia atua no gabinete do Conselheiro $X$. Portanto, **Bruno trabalha com o Conselheiro $X$**.
+> 4. Pela pista 3, Alice trabalha com o Conselheiro $Z$. Resta para Camila trabalhar com o **Conselheiro $Y$**.
+> 5. Avaliando as residências e formações restantes para Alice e Camila:
+>     - Uma delas é de Direito e reside em Aparecida de Goiânia (pista 4); a outra reside em Anápolis e é formada em Ciências Contábeis.
+>     - Pela pista 5, Camila não reside em Anápolis; logo, Camila é quem reside em Aparecida de Goiânia e é formada em Direito (pista 4), e Alice reside em Anápolis e é formada em Ciências Contábeis, satisfazendo plenamente todas as premissas sem contradições.
+>     - Estrutura completa única:
+>         * **Bruno:** Conselheiro $X$, Economia, Goiânia.
+>         * **Camila:** Conselheiro $Y$, Direito, Aparecida de Goiânia.
+>         * **Alice:** Conselheiro $Z$, Ciências Contábeis, Anápolis.
+>
+> Análise individual das alternativas:
+>
+> - **A)** Correta. Alice reside em Anápolis e possui graduação em Ciências Contábeis.
+> - **B)** Incorreta. Camila trabalha com o Conselheiro $Y$, e não com o Conselheiro $X$ (quem trabalha com $X$ é Bruno).
+> - **C)** Incorreta. Bruno trabalha com o Conselheiro $X$, e não com o Conselheiro $Y$.
+> - **D)** Incorreta. Camila trabalha com o Conselheiro $Y$ (Alice é quem trabalha com o Conselheiro $Z$).
+> - **E)** Incorreta. Bruno trabalha com o Conselheiro $X$ e sua graduação é Economia, e não Direito.
+> 
+> **Gabarito: A**
+
+---
+
+
+
 ## 3. Problemas de Ordenação Linear e Posicionamento Relativo
 
 Os problemas de ordenação linear lidam com grandezas posicionais dispostas em uma única dimensão orientada (classificação de concurso, andares de um edifício, fila de atendimento, ordem cronológica de chegada).
@@ -146,120 +233,7 @@ Se uma pista estabelece que *"Bernardo ficou em colocação imediatamente anteri
 
 ---
 
-## 4. Problemas de Ordenação Circular e Mesas Redondas
-
-O raciocínio espacial em arranjos circulares é recorrente em questões que simulam reuniões deliberativas de colegiados de Tribunais de Contas.
-
-### 4.1 Ponto de Vista Referencial e Orientação Espacial
-
-A resolução exige que o candidato projete seu olhar a partir da cadeira do ocupante analisado, **voltado para o centro da mesa circular**:
-
-* O braço direito do ocupante aponta para a sua direita na mesa;
-* O braço esquerdo aponta para a sua esquerda;
-* A rotação no sentido horário corresponde à esquerda de quem está no topo e à direita de quem está na base. Convém sempre desenhar o círculo com setas indicativas de "olhando para dentro".
-
-### 4.2 Posições Diametralmente Opostas em Mesas Pares
-
-Em mesas circulares com um número par $N$ de assentos ($N = 6$ ou $N = 8$), diz-se que duas pessoas estão sentadas **em frente** ou **diametralmente opostas** quando a linha reta que as une passa pelo centro da mesa:
-$$\text{Distância de Oposição} = \frac{N}{2} \text{ posições}$$
-
-* Em uma mesa de 6 cadeiras numeradas de 1 a 6 em sentido horário:
-    * O oposto da cadeira 1 é a cadeira $1 + 3 = 4$;
-    * O oposto da cadeira 2 é a cadeira $2 + 3 = 5$;
-    * O oposto da cadeira 3 é a cadeira $3 + 3 = 6$.
-
-### 4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda
-
-Cada ocupante possui exatamente dois vizinhos imediatos (adjacentes):
-
-* O vizinho imediatamente à sua direita;
-* O vizinho imediatamente à sua esquerda.
-Todos os demais ocupantes não são vizinhos imediatos.
-
----
-
-## 5. Dedução Lógica e Avaliação de Suficiência de Condições
-
-A avaliação das condições de contorno de um problema examina a consistência e a suficiência do conjunto de premissas para determinar uma solução única.
-
-### 5.1 Dedução Hipotética e Eliminação de Contradições
-
-Quando as pistas diretas não encerram todas as variáveis, recorre-se ao método da **bifurcação hipotética**:
-
-1. Formula-se uma hipótese arbitrária para uma célula não preenchida (ex.: *"Suponha que Alice more em Anápolis"*);
-2. Desdobram-se as consequências lógicas da hipótese nas demais variáveis;
-3. Se o desdobramento conduzir a uma **contradição lógica** (uma linha sem nenhum elemento verdadeiro, ou duas pessoas com o mesmo cargo), a hipótese é falsa e seu oposto é compulsoriamente verdadeiro;
-4. Se o desdobramento fechar o sistema sem inconsistências e for compatível com as regras de unicidade, a configuração é legítima.
-
-### 5.2 Condições Necessárias, Suficientes e Redundantes
-
-A ementa do edital exige expressamente a *"avaliação das condições usadas para estabelecer a estrutura daquelas relações"*:
-
-* **Condição Suficiente:** Aquela que, por si só, basta para fixar uma conclusão ou determinar o sistema sem necessidade de dados complementares.
-* **Condição Necessária:** Requisito sem o qual o sistema não atinge a determinação unívoca, gerando graus de liberdade ou ambiguidade entre múltiplos cenários válidos.
-* **Condição Redundante:** Informação cuja veracidade já havia sido demonstrada pelo encadeamento das premissas precedentes, nada acrescentando à solução final.
-
----
-
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [Portal da Matemática OBMEP / IMPA - Noções de Lógica e Argumentação](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=1059) - Aulas do IMPA sobre princípios da lógica formal, tabelas-verdade, negações e proposições compostas.
-* [OBMEP / IMPA - Apostila 2 do PIC: Métodos de Contagem e Lógica](https://www.obmep.org.br/docs/apostila2.pdf) - Estratégias estruturadas de dedução, análise combinatória e diagramas de associação lógica.
-* [Khan Academy Brasil - Álgebra I: Lógica e Raciocínio Dedutivo](https://pt.khanacademy.org/math/algebra) - Resolução de quebra-cabeças lógicos, tabelas de contingência e modelagem dedutiva.
-* [OBMEP / IMPA - Apostila 8 do PIC: Raciocínio Geométrico e Estruturas Lógicas](https://www.obmep.org.br/docs/apostila8.pdf) - Modelos formais de pensamento estruturado e deduções axiomáticas em problemas lógicos.
-* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 3 e 4 - Proposições Compostas e Conectivos Lógicos).
-* COPI, Irving M. **Introdução à Lógica**. 2. ed. São Paulo: Mestre Jou, 1978. (Cap. 8 - Lógica Simbólica e Tabelas-Verdade).
-* MORTARI, Cezar A. **Introdução à Lógica**. 2. ed. São Paulo: Editora Unesp, 2016. (Cap. 5 e 6 - Sintaxe e Semântica do Cálculo Proposicional).
-
----
-
-## 📝 Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Técnico de Controle Externo)**  
-Três servidores do TCE-GO — Alice, Bruno e Camila — trabalham em gabinetes de três Conselheiros distintos: Conselheiro $X$, Conselheiro $Y$ e Conselheiro $Z$. Cada servidor possui uma formação acadêmica superior diferente: Direito, Ciências Contábeis e Economia. Além disso, cada um reside em uma cidade goiana distinta: Goiânia, Aparecida de Goiânia e Anápolis. Sabe-se que:
-
-1. O servidor lotado no gabinete do Conselheiro $X$ é formado em Economia.  
-2. Bruno reside em Goiânia e não é formado em Ciências Contábeis.  
-3. Alice trabalha no gabinete do Conselheiro $Z$.  
-4. O servidor formado em Direito reside em Aparecida de Goiânia.  
-
-Com base nessas informações, é correto concluir que:
-
-* **A)** Alice reside em Anápolis e é formada em Ciências Contábeis.
-* **B)** Camila reside em Aparecida de Goiânia e trabalha com o Conselheiro $X$.
-* **C)** Bruno trabalha com o Conselheiro $Y$ e é formado em Economia.
-* **D)** Camila trabalha com o Conselheiro $Z$ e é formada em Direito.
-* **E)** Bruno trabalha com o Conselheiro $Y$ e é formado em Direito.
-
-> **Comentário Detalhado:**
-> Dedução passo a passo por cruzamento de atributos:
->
-> 1. Pela pista 2, Bruno reside em Goiânia. Pela pista 4, quem reside em Aparecida de Goiânia é formado em Direito. Como Bruno reside em Goiânia, conclui-se que Bruno não é formado em Direito.
-> 2. A pista 2 também declara que Bruno não é formado em Ciências Contábeis. Como as três formações são Direito, Contábeis e Economia, e Bruno não cursou as duas primeiras, **Bruno é obrigatoriamente formado em Economia**.
-> 3. Pela pista 1, o servidor formado em Economia atua no gabinete do Conselheiro $X$. Portanto, **Bruno trabalha com o Conselheiro $X$**.
-> 4. Pela pista 3, Alice trabalha com o Conselheiro $Z$. Resta para Camila trabalhar com o **Conselheiro $Y$**.
-> 5. Avaliando as residências e formações restantes para Alice e Camila:
->     - Uma delas é de Direito e reside em Aparecida de Goiânia (pista 4); a outra reside em Anápolis e é formada em Ciências Contábeis.
->     - Se Camila reside em Aparecida e é formada em Direito, Alice reside em Anápolis e é formada em Ciências Contábeis, satisfazendo plenamente todas as premissas sem contradições.
->     - Estrutura completa única:
->         * **Bruno:** Conselheiro $X$, Economia, Goiânia.
->         * **Camila:** Conselheiro $Y$, Direito, Aparecida de Goiânia.
->         * **Alice:** Conselheiro $Z$, Ciências Contábeis, Anápolis.
->
-> Análise individual das alternativas:
->
-> - **A)** Correta. Alice reside em Anápolis e possui graduação em Ciências Contábeis.
-> - **B)** Incorreta. Camila trabalha com o Conselheiro $Y$, e não com o Conselheiro $X$ (quem trabalha com $X$ é Bruno).
-> - **C)** Incorreta. Bruno trabalha com o Conselheiro $X$, e não com o Conselheiro $Y$.
-> - **D)** Incorreta. Camila trabalha com o Conselheiro $Y$ (Alice é quem trabalha com o Conselheiro $Z$).
-> - **E)** Incorreta. Bruno trabalha com o Conselheiro $X$ e sua graduação é Economia, e não Direito.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 02
+### Questão 03
 **(FCC – TCE-GO – Auditor de Controle Externo)**  
 Cinco auditores — André, Bernardo, Caio, Daniel e Eduardo — foram classificados do 1º ao 5º lugar em uma avaliação de desempenho interna do TCE-GO, sem empates. Sabe-se que:
 
@@ -305,16 +279,40 @@ Com base nessas condições, o auditor que obteve o 1º lugar foi:
 
 ---
 
-### Questão 03
-**(FCC – TCE-PI – Analista de Controle Externo)**  
-Seis Conselheiros do Tribunal de Contas — Alberto, Beatriz, Carlos, Diana, Elias e Flávia — sentam-se ao redor de uma mesa de reuniões circular com 6 cadeiras igualmente espaçadas. Sabe-se que:
 
+
+## 4. Problemas de Ordenação Circular e Mesas Redondas
+
+O raciocínio espacial em arranjos circulares é recorrente em questões que simulam reuniões deliberativas de colegiados de Tribunais de Contas.
+
+### 4.1 Ponto de Vista Referencial e Orientação Espacial
+
+A resolução exige que o candidato projete seu olhar a partir da cadeira do ocupante analisado, **voltado para o centro da mesa circular**:
+
+* O braço direito do ocupante aponta para a sua direita na mesa;
+* O braço esquerdo aponta para a sua esquerda;
+* A rotação no sentido horário corresponde à esquerda de quem está no topo e à direita de quem está na base. Convém sempre desenhar o círculo com setas indicativas de "olhando para dentro".
+
+### 4.2 Posições Diametralmente Opostas em Mesas Pares
+
+Em mesas circulares com um número par $N$ de assentos ($N = 6$ ou $N = 8$), diz-se que duas pessoas estão sentadas **em frente** ou **diametralmente opostas** quando a linha reta que as une passa pelo centro da mesa:
+$$\text{Distância de Oposição} = \frac{N}{2} \text{ posições}$$
+
+* Em uma mesa de 6 cadeiras numeradas de 1 a 6 em sentido horário:
+    * O oposto da cadeira 1 é a cadeira $1 + 3 = 4$;
+    * O oposto da cadeira 2 é a cadeira $2 + 3 = 5$;
+    * O oposto da cadeira 3 é a cadeira $3 + 3 = 6$.
+
+---
+
+### Questão 04
+**(FCC – TCE-PI – Analista de Controle Externo)**  
+Seis Conselheiros do Tribunal de Contas — Alberto, Beatriz, Carlos, Diana, Elias e Flávia — sentam-se ao redor de uma mesa de reuniões circular com 6 cadeiras igualmente espaçadas, numeradas de 1 a 6 no sentido horário (vistas de cima). Todos estão voltados para o centro da mesa. Sabe-se que:
 1. Alberto senta-se diametralmente oposto a Diana.  
 2. Beatriz senta-se imediatamente à direita de Alberto.  
-3. Carlos não senta ao lado de Diana.  
+3. Carlos não senta ao lado de Alberto.  
 4. Flávia senta-se em frente a Elias.  
-
-Nessas condições, quem está sentado imediatamente à esquerda de Diana?
+Nessas condições, quem está sentado imediatamente à direita de Diana?
 
 * **A)** Alberto
 * **B)** Beatriz
@@ -323,89 +321,72 @@ Nessas condições, quem está sentado imediatamente à esquerda de Diana?
 * **E)** Flávia
 
 > **Comentário Detalhado:**
-> Análise do arranjo circular de 6 posições (numeradas de 1 a 6 no sentido horário):
+> Análise do arranjo circular de 6 posições (numeradas de 1 a 6 no sentido horário, vistas de cima). Para quem está sentado voltado ao centro da mesa na cadeira $k$, o vizinho da **direita** ocupa a cadeira $k-1$ e o vizinho da **esquerda** ocupa a cadeira $k+1$ (em módulo 6).
 >
 > 1. Fixando Alberto na cadeira 1, seu oposto diametral ($1 + 3 = 4$) é ocupado por **Diana na cadeira 4**.
-> 2. Pela pista 2, Beatriz senta-se imediatamente à direita de Alberto. Adotando a orientação de quem olha para o centro da mesa na cadeira 1, a direita corresponde à cadeira 2 $\implies$ **Beatriz ocupa a cadeira 2**.
+> 2. Pela pista 2, Beatriz senta-se imediatamente à direita de Alberto, isto é, na cadeira $1 - 1 = 6$ $\implies$ **Beatriz ocupa a cadeira 6**.
 > 3. Os pares diametralmente opostos em 6 cadeiras são: $(1, 4)$, $(2, 5)$ e $(3, 6)$.
-> 4. Pela pista 4, Flávia senta-se em frente a Elias. Como a cadeira 2 já está ocupada por Beatriz, o par $(2, 5)$ está inviabilizado para Flávia e Elias. Consequentemente, Flávia e Elias ocupam obrigatoriamente o par oposto formado pelas **cadeiras 3 e 6**.
-> 5. Resta para **Carlos a cadeira 5**.
-> 6. Pela perspectiva de Diana (sentada na cadeira 4 voltada para o centro da mesa):
->     - Olhando para o centro a partir da cadeira 4, seu lado esquerdo aponta para a cadeira 5 e seu lado direito aponta para a cadeira 3.
->     - Logo, a cadeira 5 corresponde exatamente à posição imediatamente à esquerda de Diana.
->     - Quem ocupa a cadeira 5 é **Carlos**.
+> 4. Pela pista 4, Flávia senta-se em frente a Elias. Como a cadeira 6 já está ocupada por Beatriz, o par $(3, 6)$ está inviabilizado; consequentemente, Flávia e Elias ocupam o par $(2, 5)$, em alguma ordem.
+> 5. Resta para **Carlos a cadeira 3**, o que respeita a pista 3 (as cadeiras vizinhas de Alberto são a 2 e a 6).
+> 6. O vizinho imediato à direita de Diana (cadeira 4) é o ocupante da cadeira $4 - 1 = 3$, ou seja, **Carlos**.
 >
 > Análise individual das alternativas:
 >
 > - **A)** Incorreta. Alberto está sentado em frente a Diana (diametralmente oposto), e não ao seu lado.
-> - **B)** Incorreta. Beatriz senta-se na cadeira 2, ao lado de Alberto.
-> - **C)** Correta. Carlos ocupa a cadeira 5, posicionando-se imediatamente à esquerda de Diana na mesa circular.
-> - **D)** Incorreta. Elias ocupa a cadeira 3 ou 6 em oposição a Flávia.
-> - **E)** Incorreta. Flávia ocupa a cadeira 3 ou 6 em oposição a Elias.
-> 
+> - **B)** Incorreta. Beatriz ocupa a cadeira 6, que não é vizinha da cadeira 4 (as vizinhas de Diana são as cadeiras 3 e 5).
+> - **C)** Correta. Carlos ocupa a cadeira 3, imediatamente à direita de Diana na mesa circular.
+> - **D)** Incorreta. Elias ocupa a cadeira 2 ou a 5, e nunca a cadeira 3; a ordem entre Elias e Flávia não é determinada, mas nenhum dos dois está à direita de Diana.
+> - **E)** Incorreta. Flávia ocupa a cadeira 2 ou a 5, e nunca a cadeira 3.
+>
 > **Gabarito: C**
 
 ---
 
-### Questão 04
-**(FCC – TRT – Analista Judiciário)**  
-Em uma equipe de suporte da TI do Tribunal de Contas, quatro analistas — Lucas, Mateus, Nivaldo e Otávio — são responsáveis por quatro sistemas corporativos: Folha de Pagamento, Processo Eletrônico, Portal da Transparência e Controle de Bens. Sabe-se que:
 
-1. Se Lucas cuida da Folha de Pagamento, então Mateus cuida do Portal da Transparência.  
-2. Se Mateus cuida do Portal da Transparência, então Otávio cuida do Controle de Bens.  
-3. Nivaldo cuida do Portal da Transparência ou do Processo Eletrônico.  
-4. Otávio não cuida do Controle de Bens.  
+### 4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda
 
-A partir dessas premissas, conclui-se necessariamente que:
+Cada ocupante possui exatamente dois vizinhos imediatos (adjacentes):
 
-* **A)** Lucas cuida da Folha de Pagamento.
-* **B)** Mateus cuida do Portal da Transparência.
-* **C)** Nivaldo cuida do Processo Eletrônico.
-* **D)** Lucas não cuida da Folha de Pagamento.
-* **E)** Otávio cuida do Processo Eletrônico.
+* O vizinho imediatamente à sua direita;
+* O vizinho imediatamente à sua esquerda.
+Todos os demais ocupantes não são vizinhos imediatos.
 
-> **Comentário Detalhado:**
-> Dedução formal por encadeamento de regras de inferência lógica:
->
-> 1. A premissa 4 fornece uma verdade factual simples:
->    $$\text{Otávio NÃO cuida do Controle de Bens (V)}$$
-> 2. Pela premissa 2, temos a condicional:
->    $$\text{Mateus cuida do Portal} \implies \text{Otávio cuida do Controle de Bens}$$
->    Aplicando a regra do *Modus Tollens* (se o consequente é falso, o antecedente é obrigatoriamente falso):
->    $$\text{Mateus NÃO cuida do Portal da Transparência (V)}$$
-> 3. Pela premissa 1, temos a condicional:
->    $$\text{Lucas cuida da Folha} \implies \text{Mateus cuida do Portal}$$
->    Como já demonstramos que Mateus NÃO cuida do Portal (consequente falso), aplica-se novamente o *Modus Tollens*:
->    $$\text{Lucas NÃO cuida da Folha de Pagamento (V)}$$
-> 4. Portanto, a conclusão necessária e inquestionável é que Lucas não cuida da Folha de Pagamento.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Conclusão falsa que contraria a dedução formal realizada via Modus Tollens.
-> - **B)** Incorreta. Ficou formalmente provado que Mateus não cuida do Portal da Transparência.
-> - **C)** Incorreta. Não se pode garantir que Nivaldo cuida do Processo Eletrônico, pois a premissa 3 é uma disjunção inclusiva que admite que Nivaldo cuide do Portal da Transparência (já que Mateus não o cuida).
-> - **D)** Correta. Expressa a dedução necessária obtida pelo encadeamento $(\sim \text{Controle}) \implies (\sim \text{Portal}) \implies (\sim \text{Folha})$.
-> - **E)** Incorreta. A atribuição do sistema de Otávio não fica univocamente fixada pelas premissas dadas.
-> 
-> **Gabarito: D**
+---
+
+## 5. Dedução Lógica e Avaliação de Suficiência de Condições
+
+A avaliação das condições de contorno de um problema examina a consistência e a suficiência do conjunto de premissas para determinar uma solução única.
+
+### 5.1 Dedução Hipotética e Eliminação de Contradições
+
+Quando as pistas diretas não encerram todas as variáveis, recorre-se ao método da **bifurcação hipotética**:
+
+1. Formula-se uma hipótese arbitrária para uma célula não preenchida (ex.: *"Suponha que Alice more em Anápolis"*);
+2. Desdobram-se as consequências lógicas da hipótese nas demais variáveis;
+3. Se o desdobramento conduzir a uma **contradição lógica** (uma linha sem nenhum elemento verdadeiro, ou duas pessoas com o mesmo cargo), a hipótese é falsa e seu oposto é compulsoriamente verdadeiro;
+4. Se o desdobramento fechar o sistema sem inconsistências e for compatível com as regras de unicidade, a configuração é legítima.
+
+### 5.2 Condições Necessárias, Suficientes e Redundantes
+
+A ementa do edital exige expressamente a *"avaliação das condições usadas para estabelecer a estrutura daquelas relações"*:
+
+* **Condição Suficiente:** Aquela que, por si só, basta para fixar uma conclusão ou determinar o sistema sem necessidade de dados complementares.
+* **Condição Necessária:** Requisito sem o qual o sistema não atinge a determinação unívoca, gerando graus de liberdade ou ambiguidade entre múltiplos cenários válidos.
+* **Condição Redundante:** Informação cuja veracidade já havia sido demonstrada pelo encadeamento das premissas precedentes, nada acrescentando à solução final.
 
 ---
 
 ### Questão 05
 **(FCC – TCE-GO – Auditor de Controle Externo)**  
 Considere quatro auditores — Paulo, Renan, Sérgio e Tiago — que possuem idades distintas: 25, 28, 31 e 35 anos, não necessariamente nessa ordem. Para se determinar com precisão unívoca a idade de cada um deles, foram apresentadas as seguintes três condições:
-
-I. Paulo é mais velho que Sérgio e mais novo que Tiago.  
-
+I. Paulo é mais velho que Sérgio.  
 II. A idade de Renan é um número par.  
-
-III. Sérgio não é o mais jovem de todos.  
-
-Avalie se essas três condições, em conjunto, são suficientes para determinar a idade de cada um dos quatro amigos:
+III. Tiago é mais velho que Paulo.  
+Avalie se essas três condições, em conjunto, são suficientes para determinar a idade de cada um dos quatro auditores:
 
 * **A)** As condições I, II e III, juntas, não são suficientes para determinar a idade de ninguém.
 * **B)** Apenas as condições I e II seriam suficientes, sendo a condição III redundante.
-* **C)** As três condições, juntas, são suficientes para determinar a idade de todos os quatro amigos.
+* **C)** As três condições, juntas, são suficientes para determinar a idade de todos os quatro auditores.
 * **D)** As três condições determinam apenas as idades de Paulo e Renan, restando ambiguidade entre Sérgio e Tiago.
 * **E)** A condição I é contraditória com a condição III.
 
@@ -415,21 +396,30 @@ Avalie se essas três condições, em conjunto, são suficientes para determinar
 > 1. O conjunto de idades é $\{25, 28, 31, 35\}$. O único número par é 28.
 > 2. Pela condição II, a idade de Renan é par $\implies$ **Renan tem compulsoriamente 28 anos**.
 > 3. As idades restantes para Paulo, Sérgio e Tiago são $\{25, 31, 35\}$.
-> 4. Pela condição I, estabelece-se a relação estrita de ordem entre os três:
+> 4. As condições I e III estabelecem a ordem estrita entre os três:
 >    $$\text{Sérgio} < \text{Paulo} < \text{Tiago}$$
-> 5. Em um conjunto de três números distintos com relação de ordem estrita $S < P < T$, há uma única alocação possível sem ambiguidade:
->     * Sérgio = 25 anos
->     * Paulo = 31 anos
->     * Tiago = 35 anos
->
-> 6. A condição III atua como validador de consistência do sistema ou como restrição de contorno em modelos sem a fixação prévia de paridade. Em conjunto, o sistema de premissas amarra integralmente todas as quatro variáveis, determinando sem margem de dúvida a idade de cada um dos quatro auditores.
+> 5. Há uma única alocação possível: **Sérgio = 25**, **Paulo = 31** e **Tiago = 35**. Logo, as três condições, em conjunto, determinam a idade dos quatro auditores.
 >
 > Análise individual das alternativas:
 >
-> - **A)** Incorreta. O sistema de premissas elimina todos os graus de liberdade e determina a idade de todos os membros.
-> - **B)** Incorreta. A avaliação de suficiência considera o conjunto das três condições apresentadas para estabelecer a unicidade da estrutura relacional.
-> - **C)** Correta. O conjunto das três condições é suficiente para fixar com certeza absoluta a idade dos quatro auditores.
-> - **D)** Incorreta. Não resta nenhuma ambiguidade na ordenação linear de Sérgio e Tiago.
-> - **E)** Incorreta. Não há qualquer contradição lógica formal entre as condições enunciadas.
-> 
+> - **A)** Incorreta. O conjunto determina a idade de todos, inclusive a de Renan, que decorre diretamente da condição II.
+> - **B)** Incorreta. Com apenas I e II, Renan teria 28 anos, mas as idades de Paulo, Sérgio e Tiago admitiriam três arranjos distintos que respeitam $P > S$: $(S, P, T) = (25, 31, 35)$, $(25, 35, 31)$ ou $(31, 35, 25)$. A condição III é indispensável para fixar Tiago como o mais velho do trio.
+> - **C)** Correta. As três condições, juntas, fixam univocamente as idades dos quatro auditores.
+> - **D)** Incorreta. Não resta ambiguidade alguma entre Sérgio e Tiago: a ordem $S < P < T$ os determina.
+> - **E)** Incorreta. As condições I e III são compatíveis entre si, pois ambas se encaixam na ordem $S < P < T$.
+>
 > **Gabarito: C**
+
+---
+
+
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [Portal da Matemática OBMEP / IMPA - Noções de Lógica e Argumentação](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=1059) - Aulas do IMPA sobre princípios da lógica formal, tabelas-verdade, negações e proposições compostas.
+* [OBMEP / IMPA - Apostila 2 do PIC: Métodos de Contagem e Lógica](https://www.obmep.org.br/docs/apostila2.pdf) - Estratégias estruturadas de dedução, análise combinatória e diagramas de associação lógica.
+* [Khan Academy Brasil - Álgebra I: Lógica e Raciocínio Dedutivo](https://pt.khanacademy.org/math/algebra) - Resolução de quebra-cabeças lógicos, tabelas de contingência e modelagem dedutiva.
+* [OBMEP / IMPA - Apostila 8 do PIC: Raciocínio Geométrico e Estruturas Lógicas](https://www.obmep.org.br/docs/apostila8.pdf) - Modelos formais de pensamento estruturado e deduções axiomáticas em problemas lógicos.
+* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 3 e 4 - Proposições Compostas e Conectivos Lógicos).
+* COPI, Irving M. **Introdução à Lógica**. 2. ed. São Paulo: Mestre Jou, 1978. (Cap. 8 - Lógica Simbólica e Tabelas-Verdade).
+* MORTARI, Cezar A. **Introdução à Lógica**. 2. ed. São Paulo: Editora Unesp, 2016. (Cap. 5 e 6 - Sintaxe e Semântica do Cálculo Proposicional).

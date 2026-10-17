@@ -34,7 +34,6 @@
     - [2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027](#22-os-5-eixos-estrategicos-da-engd-20242027)
     - [2.3 Serviços Públicos Proativos e Infraestrutura Pública Digital (DPI)](#23-servicos-publicos-proativos-e-infraestrutura-publica-digital-dpi)
 - [3. Fontes Recomendadas na Internet](#3-fontes-recomendadas-na-internet)
-- [4. Questões Comentadas no Padrão FCC](#4-questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -83,6 +82,30 @@ O Art. 5º, inciso VI e o Art. 12 da Lei nº 14.129/2021 consagram expressamente
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A FCC adora cobrar a regra: Se o cidadão solicita um serviço em uma Secretaria Estadual, o órgão **não pode** exigir certidão de regularidade fiscal emitida pela própria Fazenda Estadual ou certidão de nascimento civil emitida pelo Estado; o órgão deve consumir esses dados eletronicamente via barramento de interoperabilidade.
 
+---
+
+### Questão 01 (FCC - Técnico de Controle Externo / TI - Adaptada)
+**Enunciado:** Em uma repartição da Secretaria Estadual de Fazenda, um microempreendedor individual compareceu para solicitar seu credenciamento formal perante o Fisco. O servidor de atendimento recusou o protocolo digital sob o argumento de que o contribuinte não apresentou cópia física autenticada em cartório de sua cédula de identidade civil e nem certidão de quitação expedida por outro órgão do mesmo Poder Executivo Estadual. Considerando as disposições imperativas da Lei do Governo Digital (Lei Federal nº 14.129/2021):  
+
+* **A)** A exigência imposta pelo atendente foi plenamente legítima, visto que a presunção de má-fé do contribuinte impera no direito administrativo digital até comprovação documental cartorária física.
+* **B)** A conduta do atendente violou a Lei nº 14.129/2021, pois é expressamente vedado exigir do cidadão a apresentação de certidões ou documentos expedidos pelo próprio órgão ou por outros órgãos do mesmo ente público, cabendo à Administração Pública a obtenção direta das informações por meio de interoperabilidade de suas bases de dados.
+* **C)** O protocolo eletrônico de requerimentos na administração direta foi revogado pela Lei do Governo Digital, que reintroduziu a obrigatoriedade da tramitação física de pastas suspensas em papel.
+* **D)** A Lei nº 14.129/2021 aplica-se unicamente aos órgãos do Poder Judiciário Federal, não vinculando as Secretarias de Estado de Fazenda.
+* **E)** A obtenção de dados por interoperabilidade de sistemas públicos é ilegal por violar compulsoriamente o princípio da segurança jurídica.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A Lei nº 14.129/2021 consagra expressamente o princípio da presunção de boa-fé do cidadão (Art. 3º, V), dispensando formalidades cartorárias excessivas como autenticações em papel quando a validação puder ser realizada internamente.
+> - **B)** **Correta.** De acordo com o Art. 5º, inciso VI c/c Art. 12 da Lei nº 14.129/2021, é expressamente vedada à Administração a exigência de certidões, declarações ou documentos expedidos por ela própria ou por outros órgãos da administração pública do mesmo ente federativo. Os órgãos estatais têm a obrigação de integrar suas bases tecnológicas para compartilhar tais informações sem sobrecarregar o cidadão.
+> - **C)** Incorreta. A Lei 14.129/2021 promove a digitalização ("Digital por Padrão") e a eliminação de processos em papel.
+> - **D)** Incorreta. A lei possui alcance universal, aplicando-se à União, Estados, DF e Municípios, e a todos os Poderes da República.
+> - **E)** Incorreta. A interoperabilidade de dados é diretriz legal mandatória da transformação digital, devidamente resguardada pela LGPD e normas de segurança.
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 2. Digital por Padrão (*Digital by Default*) com Garantia de Inclusão
 Os serviços públicos devem ser prioritariamente concebidos e ofertados em formato digital. Todavia, para resguardar os cidadãos em situação de vulnerabilidade ou sem letramento digital, a Administração deve manter canais de atendimento presencial humanizados e acessíveis.
 
@@ -96,6 +119,29 @@ Os dados governamentais não sigilosos devem ser abertos ativamente em sítios o
 - É vedado publicar dados abertos exclusivamente em arquivos fechados ou formatos de imagem (como PDF rasterizado ou JPG), que impossibilitam a análise algorítmica.
 
 ---
+
+### Questão 02 (FCC - Auditor Federal de Controle Externo / TI - Adaptada)
+**Enunciado:** A Lei Federal nº 14.129/2021 estabelece diretrizes rigorosas para a publicação de Dados Abertos e transparência ativa pelos órgãos dos Tribunais de Contas e da Administração Pública em geral. Com relação aos padrões técnicos mandatórios para disponibilização de dados abertos governamentais, a norma determina que os dados devem ser:  
+
+* **A)** Disponibilizados prioritariamente em documentos de texto protegidos por senha e em arquivos de imagem rasterizada (JPG ou BMP) com baixa resolução, a fim de impedir cópias por terceiros.
+* **B)** Ofertados em formatos abertos, não proprietários e estruturados (como CSV, JSON ou XML), que permitam a livre reutilização e o processamento automatizado por máquina por qualquer interessado, de forma gratuita.
+* **C)** Comercializados com cobrança de tarifa bancária por megabyte baixado, transferindo-se a receita para associações privadas de tecnologia.
+* **D)** Disponibilizados apenas se o interessado assinar termo de renúncia prévia a qualquer fiscalização contábil ou representação perante o Tribunal de Contas.
+* **E)** Mantidos em sigilo permanente como regra geral, sendo liberados apenas mediante ação judicial transitada em julgado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A publicação de dados em formato de imagens rasterizadas ou PDFs bloqueados impede a leitura automatizada e viola o princípio dos dados abertos legíveis por máquina.
+> - **B)** **Correta.** O Art. 29 da Lei nº 14.129/2021 estabelece que os dados abertos devem ser disponibilizados em formato estruturado, não proprietário e legível por máquina (ex.: CSV, JSON, XML), garantindo a gratuidade de acesso, a interoperabilidade e a livre reutilização pelas organizações civis, pesquisadores e cidadãos para auditoria social.
+> - **C)** Incorreta. O acesso aos dados abertos e informações públicas é gratuito por determinação legal constitucional e infraconstitucional.
+> - **D)** Incorreta. O acesso à informação não pode ser condicionado a renúncias a direitos de fiscalização ou controle social.
+> - **E)** Incorreta. O princípio basilar é a publicidade como preceito geral e o sigilo como exceção estrita fundamentada na lei.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)
 
@@ -140,6 +186,29 @@ flowchart LR
 > A FCC adora afirmar que qualquer manifestação ou processo eletrônico em órgão público "exige compulsoriamente a assinatura qualificada com certificado ICP-Brasil". **FALSO!** A legislação autorizou amplamente o uso da **Assinatura Eletrônica Avançada** (como a provida pelo GOV.BR Prata e Ouro) para a esmagadora maioria dos atos e processos administrativos cotidianos.
 
 ---
+
+### Questão 03 (FCC - Analista de Sistemas / Governança Digital - Adaptada)
+**Enunciado:** A respeito dos tipos de assinatura eletrônica aplicáveis às interações com os órgãos e entidades da Administração Pública, regulamentados pela Lei nº 14.063/2020 e pela Lei do Governo Digital (Lei nº 14.129/2021), assinale a afirmativa correta:  
+
+* **A)** A assinatura eletrônica simples exige obrigatoriamente a utilização de token criptográfico físico com certificado digital ICP-Brasil do tipo A3.
+* **B)** A assinatura eletrônica avançada é aquela que utiliza garantias que asseguram a associação unívoca ao signatário e a detecção de qualquer modificação posterior dos dados, sendo amplamente admitida para a maioria dos processos administrativos e atos ordinários do setor público (como a assinatura viabilizada pelos níveis Prata e Ouro da plataforma GOV.BR).
+* **C)** É terminantemente proibido o uso de qualquer assinatura eletrônica que não seja qualificada (ICP-Brasil) em contratos de prestação de serviços com a Administração Pública.
+* **D)** A assinatura qualificada é o padrão mais frágil e inseguro existente na legislação brasileira, sendo permitida unicamente em redes sociais e canais de lazer.
+* **E)** Os três tipos de assinaturas eletrônicas têm o mesmo nível de segurança técnica e são emitidos sem qualquer controle de credenciamento.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A assinatura eletrônica simples utiliza métodos básicos de conferência de identidade (como código SMS, login por senha ou confirmação de link), não dependendo de certificado ICP-Brasil.
+> - **B)** **Correta.** A Assinatura Eletrônica Avançada (Art. 4º, II da Lei 14.063/2020) está univocamente associada ao signatário, opera sob seu controle exclusivo e permite a detecção de qualquer alteração subsequente no documento. Ela é o padrão dominante nos processos eletrônicos da Administração Pública, operacionalizada de forma prática e gratuita pelos níveis Prata e Ouro do GOV.BR.
+> - **C)** Incorreta. A legislação prevê expressamente que as assinaturas avançadas podem ser utilizadas na celebração de contratos, editais e processos administrativos, não havendo exigência geral de certificado qualificado ICP-Brasil para todas as hipóteses.
+> - **D)** Incorreta. A assinatura qualificada (baseada em certificado ICP-Brasil) é o nível mais rigoroso e de mais alto custo/segurança previsto na legislação.
+> - **E)** Incorreta. As três modalidades possuem níveis progressivos e distintos de garantia de integridade e não repúdio (Simples $\rightarrow$ Avançada $\rightarrow$ Qualificada).
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 1.5 Governo Como Plataforma (GaaP) e Interoperabilidade
 
@@ -188,6 +257,50 @@ flowchart TD
 
 ---
 
+### Questão 04 (FCC Inédita - Analista de TI / Governo Digital - Adaptada)
+**Enunciado:** O Decreto Federal nº 12.069, de 21 de junho de 2024, instituiu a Estratégia Nacional de Governo Digital (ENGD) para o ciclo 2024 a 2027, direcionada a articular a governança e a modernização digital no âmbito da União, dos Estados, do Distrito Federal e dos Municípios. A respeito das diretrizes estratégicas e dos novos paradigmas de atendimento público fixados pela ENGD 2024–2027, assinale a afirmativa correta:  
+
+* **A)** A ENGD estabelece a extinção compulsória de todos os canais de atendimento presencial nos órgãos públicos municipais e estaduais até 2025, tornando o autoatendimento em smartphones o único canal juridicamente aceito no país.
+* **B)** A estratégia consagra o paradigma dos serviços públicos proativos, segundo o qual o Estado deve atuar de forma antecipada, utilizando a integração de bases de dados seguras para identificar o direito do cidadão e prestar serviços ou conceder benefícios de forma automática, dispensando requerimentos prévios sempre que possível.
+* **C)** O Decreto nº 12.069/2024 proíbe a integração de sistemas e o compartilhamento de informações cadastrais entre estados e a União, sob o fundamento de preservar a soberania informática de cada ente da federação.
+* **D)** As diretrizes da ENGD proíbem categoricamente o uso de algoritmos de inteligência artificial em quaisquer plataformas governamentais de suporte ao atendimento.
+* **E)** A adesão aos eixos da ENGD 2024–2027 restringe-se exclusivamente às Forças Armadas e ao Ministério da Defesa.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A ENGD 2024–2027 enfatiza a inclusão digital e a multicanalidade (*omnichannel*), determinando expressamente que o atendimento digital não pode excluir cidadãos sem acesso à internet ou sem habilidades digitais, devendo o Estado manter canais presenciais acolhedores e integrados.
+> - **B)** **Correta.** Um dos maiores avanços conceituais da ENGD 2024–2027 (Decreto nº 12.069/2024) é a consagração dos Serviços Públicos Proativos: por meio do cruzamento automatizado de bases públicas interoperáveis, o Estado identifica que o cidadão atingiu as condições previstas em lei e concede o serviço/benefício ativamente, sem a necessidade de solicitações burocráticas prévias.
+> - **C)** Incorreta. O Eixo 1 da ENGD é o "Governo Integrado e Eficiente", cujo objetivo principal é impulsionar a interoperabilidade federativa entre União, estados e municípios através do ConectaGov e da Rede Gov.br.
+> - **D)** Incorreta. O Eixo 4 da ENGD ("Governo Inteligente e Inovador") estimula explicitamente o uso ético, responsável e transparente de Inteligência Artificial para aprimorar os serviços públicos e a tomada de decisões.
+> - **E)** Incorreta. A ENGD é uma política nacional ampla de transformação digital federativa, orientada a todos os órgãos civis de todos os níveis federativos.
+> 
+> **Gabarito: B**
+
+---
+
+### Questão 05 (FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)
+**Enunciado:** A Estratégia Nacional de Governo Digital (ENGD 2024–2027) estrutura a evolução tecnológica governamental brasileira em cinco Eixos Estratégicos. A iniciativa que prevê a ampliação e consolidação da infraestrutura pública digital de barramentos de serviços (como o ConectaGov), viabilizando o consumo mútuo de dados fiscais, cadastrais e previdenciários entre a União, os 26 Estados, o DF e os Municípios para eliminar duplicidade de cadastros e racionalizar investimentos, insere-se precipuamente no:  
+
+* **A)** Eixo 1 - Governo Integrado e Eficiente.
+* **B)** Eixo de Manutenção de Sistemas Analógicos em Papel.
+* **C)** Eixo de Restrição de Acesso às Bases Tributárias.
+* **D)** Eixo de Cobrança Tarifária por Consulta Federal.
+* **E)** Eixo de Privatização Integral dos Registros Civis.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** O Eixo 1 (Governo Integrado e Eficiente) da ENGD 2024–2027 (Decreto nº 12.069/2024) tem como objetivo primordial a integração federativa de sistemas e bases de dados por meio da interoperabilidade (ConectaGov), conectando os três níveis federativos (União, Estados e Municípios) para eliminar retrabalho, diminuir custos de infraestrutura e viabilizar serviços integrados ponta a ponta.
+> - **B)** Incorreta. A estratégia não preconiza a manutenção de sistemas analógicos em papel, mas a completa transformação digital inclusiva.
+> - **C)** Incorreta. Não existe tal eixo na ENGD; a diretriz é o compartilhamento seguro e eficiente de dados.
+> - **D)** Incorreta. A cooperação interfederativa e a troca de dados entre órgãos governamentais para prestação de serviços não visam tarifação interna restritiva.
+> - **E)** Incorreta. Não há diretriz de privatização dos registros públicos na estrutura dos eixos estratégicos da ENGD.
+> 
+> **Gabarito: A**
+
+---
+
+
+
 ### 2.3 Serviços Públicos Proativos e Infraestrutura Pública Digital (DPI)
 
 #### 1. Serviços Públicos Proativos
@@ -215,109 +328,3 @@ A ENGD 2024–2027 estrutura a evolução digital do país em três pilares fund
 * DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 3 - Princípios da Administração Pública e Eficiência Digital).
 * NOHARA, Irene Patrícia. **Direito Administrativo**. 13. ed. São Paulo: Atlas, 2023. (Cap. 2 - A Transformação Digital da Administração Pública e a Lei 14.129/2021).
 * BRESSER-PEREIRA, Luiz Carlos. **Reforma do Estado para a Cidadania: a Reforma Gerencial Brasileira na Perspectiva Internacional**. São Paulo: Editora 34, 1998. (Cap. 4 - Transparência, Governança e Serviços Públicos).
-
-
-## 4. Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC Inédita - Analista de TI / Governo Digital - Adaptada)
-**Enunciado:** O Decreto Federal nº 12.069, de 21 de junho de 2024, instituiu a Estratégia Nacional de Governo Digital (ENGD) para o ciclo 2024 a 2027, direcionada a articular a governança e a modernização digital no âmbito da União, dos Estados, do Distrito Federal e dos Municípios. A respeito das diretrizes estratégicas e dos novos paradigmas de atendimento público fixados pela ENGD 2024–2027, assinale a afirmativa correta:  
-
-* **A)** A ENGD estabelece a extinção compulsória de todos os canais de atendimento presencial nos órgãos públicos municipais e estaduais até 2025, tornando o autoatendimento em smartphones o único canal juridicamente aceito no país.
-* **B)** A estratégia consagra o paradigma dos serviços públicos proativos, segundo o qual o Estado deve atuar de forma antecipada, utilizando a integração de bases de dados seguras para identificar o direito do cidadão e prestar serviços ou conceder benefícios de forma automática, dispensando requerimentos prévios sempre que possível.
-* **C)** O Decreto nº 12.069/2024 proíbe a integração de sistemas e o compartilhamento de informações cadastrais entre estados e a União, sob o fundamento de preservar a soberania informática de cada ente da federação.
-* **D)** As diretrizes da ENGD proíbem categoricamente o uso de algoritmos de inteligência artificial em quaisquer plataformas governamentais de suporte ao atendimento.
-* **E)** A adesão aos eixos da ENGD 2024–2027 restringe-se exclusivamente às Forças Armadas e ao Ministério da Defesa.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A ENGD 2024–2027 enfatiza a inclusão digital e a multicanalidade (*omnichannel*), determinando expressamente que o atendimento digital não pode excluir cidadãos sem acesso à internet ou sem habilidades digitais, devendo o Estado manter canais presenciais acolhedores e integrados.
-> - **B)** **Correta.** Um dos maiores avanços conceituais da ENGD 2024–2027 (Decreto nº 12.069/2024) é a consagração dos Serviços Públicos Proativos: por meio do cruzamento automatizado de bases públicas interoperáveis, o Estado identifica que o cidadão atingiu as condições previstas em lei e concede o serviço/benefício ativamente, sem a necessidade de solicitações burocráticas prévias.
-> - **C)** Incorreta. O Eixo 1 da ENGD é o "Governo Integrado e Eficiente", cujo objetivo principal é impulsionar a interoperabilidade federativa entre União, estados e municípios através do ConectaGov e da Rede Gov.br.
-> - **D)** Incorreta. O Eixo 4 da ENGD ("Governo Inteligente e Inovador") estimula explicitamente o uso ético, responsável e transparente de Inteligência Artificial para aprimorar os serviços públicos e a tomada de decisões.
-> - **E)** Incorreta. A ENGD é uma política nacional ampla de transformação digital federativa, orientada a todos os órgãos civis de todos os níveis federativos.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Técnico de Controle Externo / TI - Adaptada)
-**Enunciado:** Em uma repartição da Secretaria Estadual de Fazenda, um microempreendedor individual compareceu para solicitar seu credenciamento formal perante o Fisco. O servidor de atendimento recusou o protocolo digital sob o argumento de que o contribuinte não apresentou cópia física autenticada em cartório de sua cédula de identidade civil e nem certidão de quitação expedida por outro órgão do mesmo Poder Executivo Estadual. Considerando as disposições imperativas da Lei do Governo Digital (Lei Federal nº 14.129/2021):  
-
-* **A)** A exigência imposta pelo atendente foi plenamente legítima, visto que a presunção de má-fé do contribuinte impera no direito administrativo digital até comprovação documental cartorária física.
-* **B)** A conduta do atendente violou a Lei nº 14.129/2021, pois é expressamente vedado exigir do cidadão a apresentação de certidões ou documentos expedidos pelo próprio órgão ou por outros órgãos do mesmo ente público, cabendo à Administração Pública a obtenção direta das informações por meio de interoperabilidade de suas bases de dados.
-* **C)** O protocolo eletrônico de requerimentos na administração direta foi revogado pela Lei do Governo Digital, que reintroduziu a obrigatoriedade da tramitação física de pastas suspensas em papel.
-* **D)** A Lei nº 14.129/2021 aplica-se unicamente aos órgãos do Poder Judiciário Federal, não vinculando as Secretarias de Estado de Fazenda.
-* **E)** A obtenção de dados por interoperabilidade de sistemas públicos é ilegal por violar compulsoriamente o princípio da segurança jurídica.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A Lei nº 14.129/2021 consagra expressamente o princípio da presunção de boa-fé do cidadão (Art. 3º, V), dispensando formalidades cartorárias excessivas como autenticações em papel quando a validação puder ser realizada internamente.
-> - **B)** **Correta.** De acordo com o Art. 5º, inciso VI c/c Art. 12 da Lei nº 14.129/2021, é expressamente vedada à Administração a exigência de certidões, declarações ou documentos expedidos por ela própria ou por outros órgãos da administração pública do mesmo ente federativo. Os órgãos estatais têm a obrigação de integrar suas bases tecnológicas para compartilhar tais informações sem sobrecarregar o cidadão.
-> - **C)** Incorreta. A Lei 14.129/2021 promove a digitalização ("Digital por Padrão") e a eliminação de processos em papel.
-> - **D)** Incorreta. A lei possui alcance universal, aplicando-se à União, Estados, DF e Municípios, e a todos os Poderes da República.
-> - **E)** Incorreta. A interoperabilidade de dados é diretriz legal mandatória da transformação digital, devidamente resguardada pela LGPD e normas de segurança.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Analista de Sistemas / Governança Digital - Adaptada)
-**Enunciado:** A respeito dos tipos de assinatura eletrônica aplicáveis às interações com os órgãos e entidades da Administração Pública, regulamentados pela Lei nº 14.063/2020 e pela Lei do Governo Digital (Lei nº 14.129/2021), assinale a afirmativa correta:  
-
-* **A)** A assinatura eletrônica simples exige obrigatoriamente a utilização de token criptográfico físico com certificado digital ICP-Brasil do tipo A3.
-* **B)** A assinatura eletrônica avançada é aquela que utiliza garantias que asseguram a associação unívoca ao signatário e a detecção de qualquer modificação posterior dos dados, sendo amplamente admitida para a maioria dos processos administrativos e atos ordinários do setor público (como a assinatura viabilizada pelos níveis Prata e Ouro da plataforma GOV.BR).
-* **C)** É terminantemente proibido o uso de qualquer assinatura eletrônica que não seja qualificada (ICP-Brasil) em contratos de prestação de serviços com a Administração Pública.
-* **D)** A assinatura qualificada é o padrão mais frágil e inseguro existente na legislação brasileira, sendo permitida unicamente em redes sociais e canais de lazer.
-* **E)** Os três tipos de assinaturas eletrônicas têm o mesmo nível de segurança técnica e são emitidos sem qualquer controle de credenciamento.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A assinatura eletrônica simples utiliza métodos básicos de conferência de identidade (como código SMS, login por senha ou confirmação de link), não dependendo de certificado ICP-Brasil.
-> - **B)** **Correta.** A Assinatura Eletrônica Avançada (Art. 4º, II da Lei 14.063/2020) está univocamente associada ao signatário, opera sob seu controle exclusivo e permite a detecção de qualquer alteração subsequente no documento. Ela é o padrão dominante nos processos eletrônicos da Administração Pública, operacionalizada de forma prática e gratuita pelos níveis Prata e Ouro do GOV.BR.
-> - **C)** Incorreta. A legislação prevê expressamente que as assinaturas avançadas podem ser utilizadas na celebração de contratos, editais e processos administrativos, não havendo exigência geral de certificado qualificado ICP-Brasil para todas as hipóteses.
-> - **D)** Incorreta. A assinatura qualificada (baseada em certificado ICP-Brasil) é o nível mais rigoroso e de mais alto custo/segurança previsto na legislação.
-> - **E)** Incorreta. As três modalidades possuem níveis progressivos e distintos de garantia de integridade e não repúdio (Simples $\rightarrow$ Avançada $\rightarrow$ Qualificada).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Auditor Federal de Controle Externo / TI - Adaptada)
-**Enunciado:** A Lei Federal nº 14.129/2021 estabelece diretrizes rigorosas para a publicação de Dados Abertos e transparência ativa pelos órgãos dos Tribunais de Contas e da Administração Pública em geral. Com relação aos padrões técnicos mandatórios para disponibilização de dados abertos governamentais, a norma determina que os dados devem ser:  
-
-* **A)** Disponibilizados prioritariamente em documentos de texto protegidos por senha e em arquivos de imagem rasterizada (JPG ou BMP) com baixa resolução, a fim de impedir cópias por terceiros.
-* **B)** Ofertados em formatos abertos, não proprietários e estruturados (como CSV, JSON ou XML), que permitam a livre reutilização e o processamento automatizado por máquina por qualquer interessado, de forma gratuita.
-* **C)** Comercializados com cobrança de tarifa bancária por megabyte baixado, transferindo-se a receita para associações privadas de tecnologia.
-* **D)** Disponibilizados apenas se o interessado assinar termo de renúncia prévia a qualquer fiscalização contábil ou representação perante o Tribunal de Contas.
-* **E)** Mantidos em sigilo permanente como regra geral, sendo liberados apenas mediante ação judicial transitada em julgado.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A publicação de dados em formato de imagens rasterizadas ou PDFs bloqueados impede a leitura automatizada e viola o princípio dos dados abertos legíveis por máquina.
-> - **B)** **Correta.** O Art. 29 da Lei nº 14.129/2021 estabelece que os dados abertos devem ser disponibilizados em formato estruturado, não proprietário e legível por máquina (ex.: CSV, JSON, XML), garantindo a gratuidade de acesso, a interoperabilidade e a livre reutilização pelas organizações civis, pesquisadores e cidadãos para auditoria social.
-> - **C)** Incorreta. O acesso aos dados abertos e informações públicas é gratuito por determinação legal constitucional e infraconstitucional.
-> - **D)** Incorreta. O acesso à informação não pode ser condicionado a renúncias a direitos de fiscalização ou controle social.
-> - **E)** Incorreta. O princípio basilar é a publicidade como preceito geral e o sigilo como exceção estrita fundamentada na lei.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)
-**Enunciado:** A Estratégia Nacional de Governo Digital (ENGD 2024–2027) estrutura a evolução tecnológica governamental brasileira em cinco Eixos Estratégicos. A iniciativa que prevê a ampliação e consolidação da infraestrutura pública digital de barramentos de serviços (como o ConectaGov), viabilizando o consumo mútuo de dados fiscais, cadastrais e previdenciários entre a União, os 26 Estados, o DF e os Municípios para eliminar duplicidade de cadastros e racionalizar investimentos, insere-se precipuamente no:  
-
-* **A)** Eixo 1 - Governo Integrado e Eficiente.
-* **B)** Eixo de Manutenção de Sistemas Analógicos em Papel.
-* **C)** Eixo de Restrição de Acesso às Bases Tributárias.
-* **D)** Eixo de Cobrança Tarifária por Consulta Federal.
-* **E)** Eixo de Privatização Integral dos Registros Civis.
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** O Eixo 1 (Governo Integrado e Eficiente) da ENGD 2024–2027 (Decreto nº 12.069/2024) tem como objetivo primordial a integração federativa de sistemas e bases de dados por meio da interoperabilidade (ConectaGov), conectando os três níveis federativos (União, Estados e Municípios) para eliminar retrabalho, diminuir custos de infraestrutura e viabilizar serviços integrados ponta a ponta.
-> - **B)** Incorreta. A estratégia não preconiza a manutenção de sistemas analógicos em papel, mas a completa transformação digital inclusiva.
-> - **C)** Incorreta. Não existe tal eixo na ENGD; a diretriz é o compartilhamento seguro e eficiente de dados.
-> - **D)** Incorreta. A cooperação interfederativa e a troca de dados entre órgãos governamentais para prestação de serviços não visam tarifação interna restritiva.
-> - **E)** Incorreta. Não há diretriz de privatização dos registros públicos na estrutura dos eixos estratégicos da ENGD.
-> 
-> **Gabarito: A**

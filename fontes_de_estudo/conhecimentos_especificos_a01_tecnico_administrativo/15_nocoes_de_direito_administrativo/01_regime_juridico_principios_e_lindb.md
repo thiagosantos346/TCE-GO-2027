@@ -43,7 +43,6 @@
     - [5.3 Responsabilização por Dolo ou Erro Grosseiro (Art. 28 da LINDB c/c Dec. 9.830/2019)](#53-responsabilizacao-por-dolo-ou-erro-grosseiro-art-28-da-lindb-cc-dec-98302019)
     - [5.4 Segurança Jurídica, Transição e Vedação à Retroatividade (Arts. 23 e 24)](#54-seguranca-juridica-transicao-e-vedacao-a-retroatividade-arts-23-e-24)
 - [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
-- [7. Questões Comentadas & Exemplos (Padrão FCC)](#7-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -150,6 +149,32 @@ O princípio da impessoalidade possui triplo desdobramento no âmbito dos concur
 3. **Vedação à Promoção Pessoal (Art. 37, § 1º, CF/88):** A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deve possuir caráter estritamente educativo, informativo ou de orientação social, **dela não podendo constar nomes, símbolos, slogans ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos**.
     - *Teoria do Órgão (Imputação Volitiva):* Os atos praticados pelos agentes públicos são juridicamente imputados ao órgão ou pessoa jurídica estatal a que pertencem, e não à pessoa física do agente. Logo, quem realiza a obra é a "Secretaria de Saúde do Estado de Goiás", e não o "Secretário Fulano".
 
+---
+
+### Questão 01 (FCC - Analista de Controle Externo / TCE-GO)
+O Prefeito de determinado município goiano autorizou a realização de ampla campanha institucional informando a entrega de um novo hospital municipal. Na publicidade veiculada em emissoras de televisão e painéis digitais, foram inseridas a fotografia oficial do Chefe do Executivo, o slogan utilizado em sua campanha partidária e mensagens conclamando a população a reconhecer seu esforço pessoal na entrega da obra.
+
+Diante do regramento constitucional aplicável à Administração Pública, a conduta descrita vulnerou diretamente o princípio da:
+
+* **A)** Publicidade, tendo em vista que é vedada a divulgação aos administrados de obras e serviços já concluídos pelo Poder Público.
+* **B)** Impessoalidade, por caracterizar evidente promoção pessoal de agente político em informe institucional custeado com recursos públicos.
+* **C)** Eficiência, unicamente em virtude de o gestor não ter anexado na peça publicitária a planilha detalhada com a economicidade da obra.
+* **D)** Legalidade estrita, por inexistir autorização legislativa genérica permitindo a veiculação de qualquer informe por municípios.
+* **E)** Autotutela, pois a publicidade de atos municipais depende de chancela prévia obrigatória do Tribunal de Contas competente.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A publicidade institucional de realizações do Poder Público é permitida e salutar para o controle social, desde que preserve rigoroso caráter educativo, informativo ou de orientação social. O erro não está em divulgar a obra concluída, mas em promover a figura pessoal do administrador.
+> - **B)** Correta. O art. 37, § 1º, da Constituição Federal estabelece que a publicidade dos órgãos públicos não pode conter nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos. A aposição de fotografias e slogans eleitorais do Prefeito com dinheiro público fere frontalmente o princípio da impessoalidade e a Teoria do Órgão (segundo a qual as realizações pertencem ao Município e não à pessoa física do gestor), configurando ainda ato de improbidade administrativa.
+> - **C)** Incorreta. O vício primordial e autônomo é a promoção pessoal ilícita, e não a ausência de demonstrativos contábeis na mídia veiculada.
+> - **D)** Incorreta. Os entes federados gozam de autonomia constitucional para veicular campanhas informativas e de utilidade pública no interesse de seus munícipes.
+> - **E)** Incorreta. O controle exercido pelo Tribunal de Contas não é prévio de censura publicitária; opera-se a posteriori ou de forma concomitante no exame das despesas orçamentárias.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 3.3 Princípio da Moralidade e a Súmula Vinculante nº 13 (Antinepotismo)
 
 Exige conduta pautada pela boa-fé objetiva, honestidade, lealdade, decência e probidade. O ato administrativo pode atender rigorosamente à literalidade da lei, mas ser manifestamente nulo se contaminado por torpeza, favorecimento antiético ou imoralidade administrativa.
@@ -163,6 +188,32 @@ A moralidade e a impessoalidade fundamentam o teor da **Súmula Vinculante nº 1
     - *2º Grau:* Avós, netos, **irmãos** (consanguíneos); cunhados (afins).
     - *3º Grau:* Tios, sobrinhos (consanguíneos).
 - **Ressalva Jurisprudencial Consolidada (Cargos Políticos):** O STF firmou tese de que a SV nº 13 **não incide de forma automática e absoluta sobre cargos de natureza política** (ex.: Ministros de Estado, Secretários Estaduais e Secretários Municipais). Contudo, a nomeação de parente para cargo político será considerada inválida pelo Judiciário/Tribunal de Contas se comprovada a manifesta ausência de qualificação técnica para a função ou caracterizado patente desvio de finalidade (fraude à lei).
+
+---
+
+### Questão 02 (FCC - Analista Judiciário)
+O Presidente de determinado órgão público estadual nomeou sua irmã para exercer o cargo em comissão de Diretora de Recursos Humanos do referido órgão. Instada a se manifestar sobre a legalidade da nomeação, a assessoria jurídica emitiu parecer favorável, sustentando que a vedação ao nepotismo atinge apenas parentes em linha reta (pais e filhos).
+
+Conforme a jurisprudência pacificada do Supremo Tribunal Federal consolidada na **Súmula Vinculante nº 13**:
+
+* **A)** O parecer está correto, pois o parentesco colateral de segundo grau (irmãos) não se submete à vedação sumular do nepotismo.
+* **B)** A nomeação é válida, contanto que a irmã possua formação superior em área correlata à gestão de pessoas.
+* **C)** A nomeação é nula por violar a Súmula Vinculante nº 13, que veda expressamente a nomeação de parentes em linha reta, colateral ou por afinidade até o terceiro grau para cargos em comissão.
+* **D)** A proibição do nepotismo limita-se unicamente ao cônjuge e companheiro, sendo permitida a nomeação de parentes consanguíneos de qualquer grau.
+* **E)** A restrição sumular não se aplica aos cargos em comissão de direção e chefia, restringindo-se às funções de assessoramento.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O parentesco colateral até o terceiro grau é expressamente abrangido pela proibição sumular. Irmãos são parentes em linha colateral de segundo grau consanguíneo, caindo sob o veto direto.
+> - **B)** Incorreta. Em cargos em comissão de livre nomeação e exoneração de natureza estritamente administrativa (como a Diretoria de Recursos Humanos), a qualificação acadêmica do parente não afasta a presunção objetiva de nepotismo e a nulidade do provimento.
+> - **C)** Correta. A Súmula Vinculante nº 13 do STF estabelece expressamente a inconstitucionalidade da nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o **terceiro grau**, inclusive, da autoridade nomeante para cargos em comissão ou de confiança (direção, chefia e assessoramento). A nomeação de irmã (2º grau colateral) para cargo de Diretora é flagrantemente nula por vulnerar a moralidade e a impessoalidade.
+> - **D)** Incorreta. O enunciado sumular abarca expressamente cônjuges, companheiros e todo o rol de parentes consanguíneos e afins até o 3º grau (pais, filhos, netos, avós, irmãos, sobrinhos, tios, sogros, cunhados).
+> - **E)** Incorreta. A súmula atinge textualmente qualquer cargo de direção, chefia ou assessoramento, bem como funções gratificadas.
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 3.4 Princípio da Publicidade e suas Exceções Constitucionais
 
@@ -199,6 +250,32 @@ Visa garantir a estabilidade das relações jurídicas constituídas e proteger 
 - *Vedação à Aplicação Retroativa:* O art. 2º, parágrafo único, inciso XIII, da Lei nº 9.784/1999 veda peremptoriamente a aplicação retroativa de nova interpretação jurídica para alcançar atos pretéritos já consolidados sob a orientação anterior.
 - *Prazo Decadencial da Autotutela:* Fixação do prazo decadencial de **5 anos** para que a Administração anule atos administrativos favoráveis aos administrados praticados de boa-fé (art. 54 da Lei 9.784/99 e art. 54 da Lei Estadual/GO 13.800/2001).
 
+---
+
+### Questão 03 (FCC - Auditor de Controle Externo / Adaptada TCE-GO)
+Determinada autarquia estadual concedeu, durante dez anos, com base em parecer normativo da Procuradoria-Geral do Estado, certa vantagem pecuniária a uma categoria de servidores. Posteriormente, a Procuradoria reviu seu entendimento histórico e fixou nova interpretação mais restritiva da lei, passando a considerar a vantagem indevida. A Administração resolveu então cobrar retroativamente de todos os servidores os valores recebidos ao longo dos últimos cinco anos.
+
+Considerando o princípio da segurança jurídica, a disciplina do processo administrativo e o art. 24 da LINDB:
+
+* **A)** A Administração agiu com estrito acerto, pois o princípio da legalidade prevalece sobre qualquer consideração temporal ou de confiança legítima.
+* **B)** É vedada a aplicação retroativa de nova interpretação jurídica para alcançar situações plenamente constituídas sob a vigência da orientação anterior.
+* **C)** A repetição dos valores é plenamente legítima, cabendo aos servidores o ônus de demonstrar prejuízo individual desproporcional.
+* **D)** Nova orientação jurídica retroage automaticamente caso seja mais benéfica aos cofres públicos estaduais.
+* **E)** A segurança jurídica apenas protege os atos administrativos chancelados expressamente por sentença judicial transitada em julgado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No Estado Democrático de Direito, o princípio da legalidade não atua de modo isolado ou absoluto; ele deve ser harmonizado e sopesado com os princípios da segurança jurídica, da proteção à confiança legítima e da boa-fé objetiva.
+> - **B)** Correta. O art. 24 da LINDB proíbe expressamente que, com base em alteração posterior de orientação geral, se declarem inválidas situações plenamente constituídas, devendo a revisão levar em conta as diretrizes gerais vigentes à época em que os atos foram praticados. Em idêntico sentido, o art. 2º, parágrafo único, XIII, da Lei Federal nº 9.784/1999 (e da legislação estadual congênere) veda expressamente a "aplicação retroativa de nova interpretação". As novas orientações só produzem efeitos prospectivos (*ex nunc*).
+> - **C)** Incorreta. A Súmula 249 do TCU e a firme jurisprudência do STJ e do STF pacificaram o entendimento de que é incabível a repetição de indébito de verbas alimentares percebidas de boa-fé com esteio em interpretação jurídica equivocada do próprio poder público.
+> - **D)** Incorreta. O interesse fazendário do erário (interesse público secundário) não tem o condão de justificar a retroatividade de teses prejudiciais contra cidadãos de boa-fé.
+> - **E)** Incorreta. O princípio da segurança jurídica projeta seus efeitos protetivos diretamente sobre os atos da esfera administrativa e os processos de controle externo, dispensando a necessidade de provimento jurisdicional judicial anterior.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 4.3 Princípio da Autotutela (Súmulas 346 e 473 do STF): Anulação vs. Revogação
 
 O princípio da autotutela assegura à Administração Pública o poder-dever de controlar diretamente seus próprios atos, revendo-os quanto à legalidade ou ao mérito, sem necessidade de autorização judicial prévia.
@@ -222,6 +299,32 @@ flowchart TD
 | **Efeitos no Tempo** | **Retroativos (*ex tunc*)**, apagando os efeitos desde a origem | **Prospectivos (*ex nunc*)**, preservando os efeitos já produzidos |
 | **Limites Temporais** | Prazo decadencial de **5 anos** para atos benéficos ao cidadão de boa-fé | Não há prazo pré-fixado, respeitados atos consumados e direito adquirido |
 | **Garantia Processual** | Exige contraditório e ampla defesa prévios se atingir direito de terceiros | Exige contraditório e ampla defesa se atingir direito constituído |
+
+---
+
+### Questão 04 (FCC - Técnico de Controle Externo / Administrativa)
+Determinada autoridade administrativa do Poder Executivo estadual constatou que um ato de concessão de gratificação funcional a um grupo de servidores, praticado há dois anos, padecia de vício insanável de legalidade, por contrariar dispositivo expresso do regime jurídico único. Os servidores beneficiados não concorreram para o vício e agiram de boa-fé.
+
+Considerando o princípio da autotutela e os enunciados das Súmulas 346 e 473 do Supremo Tribunal Federal:
+
+* **A)** A autoridade deve revogar o ato administrativo, produzindo efeitos a partir da decisão (efeitos *ex nunc*), sem necessidade de contraditório prévio.
+* **B)** O ato é nulo e deve ser anulado pela própria Administração, produzindo a anulação efeitos retroativos (*ex tunc*), assegurados o contraditório e a ampla defesa.
+* **C)** Somente o Poder Judiciário dispõe de competência constitucional para anular atos praticados pela Administração Pública estadual.
+* **D)** A Administração decaiu do direito de anular o ato, haja vista ter decorrido o prazo bienal de prescrição administrativa geral.
+* **E)** O ato tornou-se imutável por força do princípio da segurança jurídica, não podendo mais ser anulado nem mesmo pelo Poder Judiciário.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Vício de ilegalidade insanável enseja a **anulação** do ato, e não revogação. A revogação recai exclusivamente sobre atos válidos e perfeitos que se tornaram inconvenientes ou inoportunos, gerando efeitos prospectivos (*ex nunc*).
+> - **B)** Correta. Conforme as Súmulas 346 e 473 do STF, a Administração tem o poder-dever de anular seus próprios atos ilegais, operando a anulação efeitos retroativos (*ex tunc*). Todavia, como o ato produziu efeitos concretos favoráveis na esfera de direitos dos servidores beneficiados de boa-fé, é mandatório instaurar processo administrativo prévio assegurando-lhes o contraditório e a ampla defesa (Súmula Vinculante nº 3). Como transcorreram apenas dois anos, o direito da Administração de anular está plenamente preservado (o prazo decadencial é de 5 anos).
+> - **C)** Incorreta. Pelo princípio da autotutela, a Administração Pública não necessita provocar o Judiciário para extirpar atos ilegais praticados em seus quadros.
+> - **D)** Incorreta. O prazo decadencial da Administração Pública para anular atos favoráveis praticados de boa-fé é de **cinco anos** (art. 54 da Lei 9.784/99 e art. 54 da Lei Estadual/GO 13.800/2001), inexistindo prazo decadencial bienal no regime geral.
+> - **E)** Incorreta. Como o quinquênio decadencial de cinco anos não se consumou, a segurança jurídica não convalidou o vício insanável.
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 4.4 Princípio da Motivação e a Teoria dos Motivos Determinantes
 
@@ -265,6 +368,32 @@ A Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 
 > 🚨 **ALERTA CRÍTICO DE PROVA FCC:**  
 > A divergência interpretativa razoável de lei, jurisprudência ou norma técnica entre o corpo técnico do Tribunal de Contas e o gestor **JAMAIS configura erro grosseiro**. Para impor sanção ao administrador, é indispensável que a acusação comprove desídia grave, negligência crassa ou dolo!
 
+---
+
+### Questão 05 (FCC - Auditor de Controle Externo / Adaptada)
+Em processo de auditoria de conformidade instaurado no Tribunal de Contas, a equipe técnica propôs a aplicação de multa pecuniária e a imputação de débito pessoal a um Secretário de Estado em razão da contratação de serviços mediante interpretação jurídica que gerou dispêndio financeiro. Ficou demonstrado nos autos que, à época da decisão, a interpretação adotada pelo gestor era amplamente respaldada por respeitada doutrina e decisões de outros tribunais, inexistindo jurisprudência vinculante em sentido contrário, má-fé ou qualquer benefício pessoal auferido pelo agente.
+
+À luz da Lei de Introdução às Normas do Direito Brasileiro (LINDB, art. 28) e do Decreto nº 9.830/2019:
+
+* **A)** O agente público responde de forma estritamente objetiva na esfera do controle externo, bastando a constatação de dano orçamentário.
+* **B)** O gestor responde pessoalmente apenas em caso de dolo ou erro grosseiro, não caracterizando erro grosseiro a decisão balizada em interpretação plausível da lei em contexto de controvérsia jurisprudencial.
+* **C)** A divergência interpretativa em relação à posição da unidade técnica de auditoria do Tribunal de Contas qualifica-se ipso facto como erro grosseiro.
+* **D)** Os Tribunais de Contas estão isentos de considerar os obstáculos e as dificuldades reais do gestor previstos no art. 22 da LINDB.
+* **E)** A responsabilidade do agente público somente pode ser afastada caso haja prévia consulta formal respondida pelo Tribunal com efeito vinculante.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A responsabilidade pessoal e sancionatória do agente público perante o Tribunal de Contas é de índole subjetiva, demandando a demonstração inequívoca de dolo ou de erro grosseiro (culpa grave), nos termos do art. 28 da LINDB.
+> - **B)** Correta. O art. 28 da LINDB prescreve que o agente público somente responderá pessoalmente por suas decisões ou pareceres técnicos em caso de dolo ou erro grosseiro. O art. 12 do Decreto Federal nº 9.830/2019 e a jurisprudência do STF consolidam que não se considera erro grosseiro a decisão sustentada em interpretação jurídica plausível, razoável e fundamentada em abalizada doutrina ou jurisprudência, ainda que não seja a tese acolhida pela corte de contas.
+> - **C)** Incorreta. Mera discordância hermenêutica entre o administrador e a unidade de fiscalização do Tribunal de Contas não corporifica erro grosseiro ou conduta reprovável.
+> - **D)** Incorreta. O art. 22 da LINDB impõe mandamento expresso direcionado aos órgãos de controle (como o TCE), determinando que ponderem os obstáculos, as carências estruturais e as dificuldades fáticas reais vivenciadas pelo gestor à época da decisão.
+> - **E)** Incorreta. A consulta formal perante o Tribunal (prevista no art. 30 da LINDB) gera segurança jurídica vinculante, mas sua ausência não cria presunção de dolo ou culpa contra o administrador.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 5.4 Segurança Jurídica, Transição e Vedação à Retroatividade (Arts. 23 e 24)
 
 - **Regime de Transição (Art. 23):** Decisão que estabelece nova interpretação ou novo dever deve prever período de transição quando indispensável para que o novo dever seja cumprido de modo proporcional e sem caos operacional.
@@ -289,120 +418,3 @@ A Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 
 * DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 3 - Regime Jurídico Administrativo e Princípios da Administração Pública).
 * CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 1 - Introdução ao Direito Administrativo e Princípios Administrativos).
 * MELLO, Celso Antônio Bandeira de. **Curso de Direito Administrativo**. 37. ed. Belo Horizonte: Fórum, 2024. (Cap. 2 - O Regime Jurídico-Administrativo: Supremacia e Indisponibilidade do Interesse Público).
-
----
-
-## 7. Questões Comentadas & Exemplos (Padrão FCC)
-
-### Questão 1 (FCC - Analista de Controle Externo / TCE-GO)
-O Prefeito de determinado município goiano autorizou a realização de ampla campanha institucional informando a entrega de um novo hospital municipal. Na publicidade veiculada em emissoras de televisão e painéis digitais, foram inseridas a fotografia oficial do Chefe do Executivo, o slogan utilizado em sua campanha partidária e mensagens conclamando a população a reconhecer seu esforço pessoal na entrega da obra.
-
-Diante do regramento constitucional aplicável à Administração Pública, a conduta descrita vulnerou diretamente o princípio da:
-
-* **A)** Publicidade, tendo em vista que é vedada a divulgação aos administrados de obras e serviços já concluídos pelo Poder Público.
-* **B)** Impessoalidade, por caracterizar evidente promoção pessoal de agente político em informe institucional custeado com recursos públicos.
-* **C)** Eficiência, unicamente em virtude de o gestor não ter anexado na peça publicitária a planilha detalhada com a economicidade da obra.
-* **D)** Legalidade estrita, por inexistir autorização legislativa genérica permitindo a veiculação de qualquer informe por municípios.
-* **E)** Autotutela, pois a publicidade de atos municipais depende de chancela prévia obrigatória do Tribunal de Contas competente.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A publicidade institucional de realizações do Poder Público é permitida e salutar para o controle social, desde que preserve rigoroso caráter educativo, informativo ou de orientação social. O erro não está em divulgar a obra concluída, mas em promover a figura pessoal do administrador.
-> - **B)** Correta. O art. 37, § 1º, da Constituição Federal estabelece que a publicidade dos órgãos públicos não pode conter nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos. A aposição de fotografias e slogans eleitorais do Prefeito com dinheiro público fere frontalmente o princípio da impessoalidade e a Teoria do Órgão (segundo a qual as realizações pertencem ao Município e não à pessoa física do gestor), configurando ainda ato de improbidade administrativa.
-> - **C)** Incorreta. O vício primordial e autônomo é a promoção pessoal ilícita, e não a ausência de demonstrativos contábeis na mídia veiculada.
-> - **D)** Incorreta. Os entes federados gozam de autonomia constitucional para veicular campanhas informativas e de utilidade pública no interesse de seus munícipes.
-> - **E)** Incorreta. O controle exercido pelo Tribunal de Contas não é prévio de censura publicitária; opera-se a posteriori ou de forma concomitante no exame das despesas orçamentárias.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Auditor de Controle Externo / Adaptada)
-Em processo de auditoria de conformidade instaurado no Tribunal de Contas, a equipe técnica propôs a aplicação de multa pecuniária e a imputação de débito pessoal a um Secretário de Estado em razão da contratação de serviços mediante interpretação jurídica que gerou dispêndio financeiro. Ficou demonstrado nos autos que, à época da decisão, a interpretação adotada pelo gestor era amplamente respaldada por respeitada doutrina e decisões de outros tribunais, inexistindo jurisprudência vinculante em sentido contrário, má-fé ou qualquer benefício pessoal auferido pelo agente.
-
-À luz da Lei de Introdução às Normas do Direito Brasileiro (LINDB, art. 28) e do Decreto nº 9.830/2019:
-
-* **A)** O agente público responde de forma estritamente objetiva na esfera do controle externo, bastando a constatação de dano orçamentário.
-* **B)** O gestor responde pessoalmente apenas em caso de dolo ou erro grosseiro, não caracterizando erro grosseiro a decisão balizada em interpretação plausível da lei em contexto de controvérsia jurisprudencial.
-* **C)** A divergência interpretativa em relação à posição da unidade técnica de auditoria do Tribunal de Contas qualifica-se ipso facto como erro grosseiro.
-* **D)** Os Tribunais de Contas estão isentos de considerar os obstáculos e as dificuldades reais do gestor previstos no art. 22 da LINDB.
-* **E)** A responsabilidade do agente público somente pode ser afastada caso haja prévia consulta formal respondida pelo Tribunal com efeito vinculante.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A responsabilidade pessoal e sancionatória do agente público perante o Tribunal de Contas é de índole subjetiva, demandando a demonstração inequívoca de dolo ou de erro grosseiro (culpa grave), nos termos do art. 28 da LINDB.
-> - **B)** Correta. O art. 28 da LINDB prescreve que o agente público somente responderá pessoalmente por suas decisões ou pareceres técnicos em caso de dolo ou erro grosseiro. O art. 12 do Decreto Federal nº 9.830/2019 e a jurisprudência do STF consolidam que não se considera erro grosseiro a decisão sustentada em interpretação jurídica plausível, razoável e fundamentada em abalizada doutrina ou jurisprudência, ainda que não seja a tese acolhida pela corte de contas.
-> - **C)** Incorreta. Mera discordância hermenêutica entre o administrador e a unidade de fiscalização do Tribunal de Contas não corporifica erro grosseiro ou conduta reprovável.
-> - **D)** Incorreta. O art. 22 da LINDB impõe mandamento expresso direcionado aos órgãos de controle (como o TCE), determinando que ponderem os obstáculos, as carências estruturais e as dificuldades fáticas reais vivenciadas pelo gestor à época da decisão.
-> - **E)** Incorreta. A consulta formal perante o Tribunal (prevista no art. 30 da LINDB) gera segurança jurídica vinculante, mas sua ausência não cria presunção de dolo ou culpa contra o administrador.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Técnico de Controle Externo / Administrativa)
-Determinada autoridade administrativa do Poder Executivo estadual constatou que um ato de concessão de gratificação funcional a um grupo de servidores, praticado há dois anos, padecia de vício insanável de legalidade, por contrariar dispositivo expresso do regime jurídico único. Os servidores beneficiados não concorreram para o vício e agiram de boa-fé.
-
-Considerando o princípio da autotutela e os enunciados das Súmulas 346 e 473 do Supremo Tribunal Federal:
-
-* **A)** A autoridade deve revogar o ato administrativo, produzindo efeitos a partir da decisão (efeitos *ex nunc*), sem necessidade de contraditório prévio.
-* **B)** O ato é nulo e deve ser anulado pela própria Administração, produzindo a anulação efeitos retroativos (*ex tunc*), assegurados o contraditório e a ampla defesa.
-* **C)** Somente o Poder Judiciário dispõe de competência constitucional para anular atos praticados pela Administração Pública estadual.
-* **D)** A Administração decaiu do direito de anular o ato, haja vista ter decorrido o prazo bienal de prescrição administrativa geral.
-* **E)** O ato tornou-se imutável por força do princípio da segurança jurídica, não podendo mais ser anulado nem mesmo pelo Poder Judiciário.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Vício de ilegalidade insanável enseja a **anulação** do ato, e não revogação. A revogação recai exclusivamente sobre atos válidos e perfeitos que se tornaram inconvenientes ou inoportunos, gerando efeitos prospectivos (*ex nunc*).
-> - **B)** Correta. Conforme as Súmulas 346 e 473 do STF, a Administração tem o poder-dever de anular seus próprios atos ilegais, operando a anulação efeitos retroativos (*ex tunc*). Todavia, como o ato produziu efeitos concretos favoráveis na esfera de direitos dos servidores beneficiados de boa-fé, é mandatório instaurar processo administrativo prévio assegurando-lhes o contraditório e a ampla defesa (Súmula Vinculante nº 3). Como transcorreram apenas dois anos, o direito da Administração de anular está plenamente preservado (o prazo decadencial é de 5 anos).
-> - **C)** Incorreta. Pelo princípio da autotutela, a Administração Pública não necessita provocar o Judiciário para extirpar atos ilegais praticados em seus quadros.
-> - **D)** Incorreta. O prazo decadencial da Administração Pública para anular atos favoráveis praticados de boa-fé é de **cinco anos** (art. 54 da Lei 9.784/99 e art. 54 da Lei Estadual/GO 13.800/2001), inexistindo prazo decadencial bienal no regime geral.
-> - **E)** Incorreta. Como o quinquênio decadencial de cinco anos não se consumou, a segurança jurídica não convalidou o vício insanável.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Analista Judiciário)
-O Presidente de determinado órgão público estadual nomeou sua irmã para exercer o cargo em comissão de Diretora de Recursos Humanos do referido órgão. Instada a se manifestar sobre a legalidade da nomeação, a assessoria jurídica emitiu parecer favorável, sustentando que a vedação ao nepotismo atinge apenas parentes em linha reta (pais e filhos).
-
-Conforme a jurisprudência pacificada do Supremo Tribunal Federal consolidada na **Súmula Vinculante nº 13**:
-
-* **A)** O parecer está correto, pois o parentesco colateral de segundo grau (irmãos) não se submete à vedação sumular do nepotismo.
-* **B)** A nomeação é válida, contanto que a irmã possua formação superior em área correlata à gestão de pessoas.
-* **C)** A nomeação é nula por violar a Súmula Vinculante nº 13, que veda expressamente a nomeação de parentes em linha reta, colateral ou por afinidade até o terceiro grau para cargos em comissão.
-* **D)** A proibição do nepotismo limita-se unicamente ao cônjuge e companheiro, sendo permitida a nomeação de parentes consanguíneos de qualquer grau.
-* **E)** A restrição sumular não se aplica aos cargos em comissão de direção e chefia, restringindo-se às funções de assessoramento.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O parentesco colateral até o terceiro grau é expressamente abrangido pela proibição sumular. Irmãos são parentes em linha colateral de segundo grau consanguíneo, caindo sob o veto direto.
-> - **B)** Incorreta. Em cargos em comissão de livre nomeação e exoneração de natureza estritamente administrativa (como a Diretoria de Recursos Humanos), a qualificação acadêmica do parente não afasta a presunção objetiva de nepotismo e a nulidade do provimento.
-> - **C)** Correta. A Súmula Vinculante nº 13 do STF estabelece expressamente a inconstitucionalidade da nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o **terceiro grau**, inclusive, da autoridade nomeante para cargos em comissão ou de confiança (direção, chefia e assessoramento). A nomeação de irmã (2º grau colateral) para cargo de Diretora é flagrantemente nula por vulnerar a moralidade e a impessoalidade.
-> - **D)** Incorreta. O enunciado sumular abarca expressamente cônjuges, companheiros e todo o rol de parentes consanguíneos e afins até o 3º grau (pais, filhos, netos, avós, irmãos, sobrinhos, tios, sogros, cunhados).
-> - **E)** Incorreta. A súmula atinge textualmente qualquer cargo de direção, chefia ou assessoramento, bem como funções gratificadas.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 5 (FCC - Auditor de Controle Externo / Adaptada TCE-GO)
-Determinada autarquia estadual concedeu, durante dez anos, com base em parecer normativo da Procuradoria-Geral do Estado, certa vantagem pecuniária a uma categoria de servidores. Posteriormente, a Procuradoria reviu seu entendimento histórico e fixou nova interpretação mais restritiva da lei, passando a considerar a vantagem indevida. A Administração resolveu então cobrar retroativamente de todos os servidores os valores recebidos ao longo dos últimos cinco anos.
-
-Considerando o princípio da segurança jurídica, a disciplina do processo administrativo e o art. 24 da LINDB:
-
-* **A)** A Administração agiu com estrito acerto, pois o princípio da legalidade prevalece sobre qualquer consideração temporal ou de confiança legítima.
-* **B)** É vedada a aplicação retroativa de nova interpretação jurídica para alcançar situações plenamente constituídas sob a vigência da orientação anterior.
-* **C)** A repetição dos valores é plenamente legítima, cabendo aos servidores o ônus de demonstrar prejuízo individual desproporcional.
-* **D)** Nova orientação jurídica retroage automaticamente caso seja mais benéfica aos cofres públicos estaduais.
-* **E)** A segurança jurídica apenas protege os atos administrativos chancelados expressamente por sentença judicial transitada em julgado.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. No Estado Democrático de Direito, o princípio da legalidade não atua de modo isolado ou absoluto; ele deve ser harmonizado e sopesado com os princípios da segurança jurídica, da proteção à confiança legítima e da boa-fé objetiva.
-> - **B)** Correta. O art. 24 da LINDB proíbe expressamente que, com base em alteração posterior de orientação geral, se declarem inválidas situações plenamente constituídas, devendo a revisão levar em conta as diretrizes gerais vigentes à época em que os atos foram praticados. Em idêntico sentido, o art. 2º, parágrafo único, XIII, da Lei Federal nº 9.784/1999 (e da legislação estadual congênere) veda expressamente a "aplicação retroativa de nova interpretação". As novas orientações só produzem efeitos prospectivos (*ex nunc*).
-> - **C)** Incorreta. A Súmula 249 do TCU e a firme jurisprudência do STJ e do STF pacificaram o entendimento de que é incabível a repetição de indébito de verbas alimentares percebidas de boa-fé com esteio em interpretação jurídica equivocada do próprio poder público.
-> - **D)** Incorreta. O interesse fazendário do erário (interesse público secundário) não tem o condão de justificar a retroatividade de teses prejudiciais contra cidadãos de boa-fé.
-> - **E)** Incorreta. O princípio da segurança jurídica projeta seus efeitos protetivos diretamente sobre os atos da esfera administrativa e os processos de controle externo, dispensando a necessidade de provimento jurisdicional judicial anterior.
-> 
-> **Gabarito: B**

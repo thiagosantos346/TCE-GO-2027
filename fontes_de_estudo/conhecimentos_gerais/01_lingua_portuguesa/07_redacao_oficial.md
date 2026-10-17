@@ -50,12 +50,6 @@
     - [5.3 A Exposição de Motivos (EM)](#53-a-exposicao-de-motivos-em)
     - [5.4 Atos Típicos dos Tribunais de Contas: Relatório Técnico, Parecer e Acórdão](#54-atos-tipicos-dos-tribunais-de-contas-relatorio-tecnico-parecer-e-acordao)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
-    - [Questão 01](#questao-01)
-    - [Questão 02](#questao-02)
-    - [Questão 03](#questao-03)
-    - [Questão 04](#questao-04)
-    - [Questão 05](#questao-05)
 
 ---
 
@@ -107,6 +101,31 @@ A concisão consiste em transmitir o máximo de conteúdo informativo útil com 
 * Cortar adjetivações vazias, advérbios redundantes e superlativos artificiais;
 * Eliminar rodeios oratórios e circunlóquios burocráticos (*"Vimos pela presente trazer ao vosso conhecimento o fato de que..."* $\rightarrow$ substitua simplesmente por: *"Comunico que..."*);
 * Suprimir períodos de introdução cerimoniosa que nada acrescentam à matéria de fato.
+
+---
+
+### Questão 01
+**(FCC – DPE-RS – Analista de Comunicação)**  
+Assinale a alternativa que apresenta um trecho de correspondência oficial eivado de **vício de impessoalidade e prolixidade**, em desacordo com as diretrizes do Manual de Redação Oficial:
+
+* **A)** *"Comunico que a fiscalização das obras da rodovia estadual terá início na próxima segunda-feira, às nove horas."*
+* **B)** *"Tenho a imensa honra e o singular privilégio de levar ao vosso excelso conhecimento que meu humilde gabinete concluiu o trabalho."*
+* **C)** *"Encaminho, para ciência e deliberação, o relatório consolidado de auditoria financeira do exercício de 2025."*
+* **D)** *"Solicito a designação de dois servidores técnicos para compor a comissão de recebimento de materiais de tecnologia."*
+* **E)** *"Em cumprimento ao despacho da presidência, restituo os autos para adoção das providências cabíveis."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O trecho utiliza linguagem límpida, impessoal, técnica e concisa, perfeitamente adequada ao padrão oficial.
+> - **B)** Correta (apresenta vício grave). O fragmento transgride frontalmente os atributos da impessoalidade, sobriedade e concisão, recorrendo a rapapés bajuladores e expressões de subserviência (*"imensa honra"*, *"singular privilégio"*, *"vosso excelso conhecimento"*, *"meu humilde gabinete"*), formalmente banidas do serviço público republicano.
+> - **C)** Incorreta. Estrutura padrão límpida de encaminhamento oficial, sem qualquer vício de prolixidade.
+> - **D)** Incorreta. Redação direta e objetiva de solicitação administrativa.
+> - **E)** Incorreta. Frase escorreita e sóbria de movimentação processual.
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 2.4 Formalidade, Padronização e Tipografia
 
@@ -162,6 +181,32 @@ O emprego dos pronomes de tratamento exige o cumprimento rigoroso de três regra
     * Se o Conselheiro for homem: *"Vossa Excelência está **atento** às recomendações."*
     * Se a Conselheira for mulher: *"Vossa Excelência está **atenta** às recomendações."*
 
+---
+
+### Questão 02
+**(FCC – TRT – Técnico Judiciário)**  
+No que concerne ao emprego de pronomes de tratamento e à concordância gramatical em documentos oficiais, assinale a opção que atende integralmente às normas do MRPR:
+
+* **A)** *"Informamos a Vossa Excelência que vossos pedidos foram acolhidos e solicitamos que compareçais à cerimônia de posse."*
+* **B)** *"Vossa Senhoria deveis encaminhar o demonstrativo contábil para que possamos analisar vosso relatório tempestivamente."*
+* **C)** *"Comunico a Vossa Excelência que sua solicitação foi deferida pelo plenário, estando o processo à sua disposição."*
+* **D)** *"Vossa Excelência será recebida pelo Presidente da República, o qual manifestou desejo de conhecer vossos projetos."*
+* **E)** *"Solicitamos a Vossa Excelência que vos digneis autorizar o empenho das despesas em vosso orçamento."*
+
+> **Comentário Detalhado:**
+>
+> - **Regra Geral:** Os pronomes de tratamento referem-se à 2ª pessoa gramatical (com quem se fala), porém exigem que **toda a concordância gramatical de verbos e pronomes seja efetuada compulsoriamente em 3ª pessoa** (*ele/ela, seu, sua, seus, suas*). O uso de verbos ou pronomes em 2ª pessoa do plural (*vós, vosso, compareçais*) é erro gramatical manifesto.
+> - **A)** Incorreta. Incorreu em erro ao empregar o pronome possessivo *vossos* e a forma verbal *compareçais* em 2ª pessoa do plural.
+> - **B)** Incorreta. Cometeu o vício de empregar a forma verbal *deveis* e o possessivo *vosso*.
+> - **C)** Correta. A oração flexiona os verbos (*foi deferida*) e os pronomes possessivos (*sua solicitação*, *à sua disposição*) perfeitamente em 3ª pessoa do singular, em estrita harmonia com o pronome de tratamento *Vossa Excelência*.
+> - **D)** Incorreta. Erra ao empregar o pronome possessivo de 2ª pessoa do plural *vossos projetos*.
+> - **E)** Incorreta. Emprega a flexão arcaica em 2ª pessoa *vos digneis* e *vosso orçamento*.
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 3.3 Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades
 
 A 3ª edição do MRPR simplificou radicalmente os vocativos, reservando a locução *"Excelentíssimo Senhor..."* **exclusivamente aos Chefes dos Três Poderes da República**:
@@ -180,6 +225,31 @@ A 3ª edição do MRPR simplificou radicalmente os vocativos, reservando a locu�
     * *Senhor Diretor-Geral,*
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A Fundação Carlos Chagas reiteradamente tenta induzir o candidato ao erro inserindo o vocativo *"Excelentíssimo Senhor Governador,"* ou *"Excelentíssimo Senhor Ministro de Estado,"*. Trata-se de erro frontal contra a 3ª edição do MRPR. O vocativo cerimonial *Excelentíssimo* é privativo dos **três Chefes de Poder da União** (PR, CN e STF). Para governadores, conselheiros e ministros, usa-se compulsoriamente: *"Senhor Governador,"*, *"Senhor Conselheiro,"*, *"Senhor Ministro,"*.
+
+---
+
+### Questão 03
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+O Presidente do Tribunal de Contas do Estado de Goiás necessita encaminhar expediente oficial ao Governador do Estado e, simultaneamente, outro expediente ao Diretor de Escola Pública Estadual. De acordo com a 3ª edição do Manual de Redação da Presidência da República (MRPR), os vocativos e fechos adequados para cada uma dessas comunicações são, respectivamente:
+
+* **A)** Para o Governador: *"Excelentíssimo Senhor Governador,"* / *"Respeitosamente,"*; Para o Diretor: *"Ilustríssimo Senhor Diretor,"* / *"Cordialmente,"*.
+* **B)** Para o Governador: *"Senhor Governador,"* / *"Atenciosamente,"*; Para o Diretor: *"Senhor Diretor,"* / *"Atenciosamente,"*.
+* **C)** Para o Governador: *"Excelentíssimo Senhor Governador,"* / *"Atenciosamente,"*; Para o Diretor: *"Senhor Diretor,"* / *"Respeitosamente,"*.
+* **D)** Para o Governador: *"Senhor Governador,"* / *"Cordialmente,"*; Para o Diretor: *"Digníssimo Diretor,"* / *"Sem mais para o momento,"*.
+* **E)** Para o Governador: *"Ilustríssimo Senhor Governador,"* / *"Respeitosamente,"*; Para o Diretor: *"Prezado Senhor Diretor,"* / *"Atenciosamente,"*.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Erra ao empregar o vocativo cerimonial *Excelentíssimo Senhor* para Governador de Estado (exclusivo para Chefes dos Poderes da União: PR, CN e STF); além disso, traz termos abolidos no expediente do Diretor (*Ilustríssimo* e *Cordialmente*).
+> - **B)** Correta. De acordo com a 3ª edição do MRPR: 1) O vocativo para Governadores de Estado é **"Senhor Governador,"**; 2) Na relação institucional entre o Presidente de uma Corte de Contas autônoma e o Chefe do Poder Executivo estadual, aplica-se o fecho para autoridades de mesma dignidade institucional/hierarquia: **"Atenciosamente,"**; 3) O vocativo para Diretor é **"Senhor Diretor,"** e o fecho para autoridade hierarquicamente subordinada/inferior é compulsoriamente **"Atenciosamente,"**. A assertiva B é a única plenamente conforme ao manual.
+> - **C)** Incorreta. Erra no vocativo do Governador (*Excelentíssimo*) e inverte os fechos ao utilizar *Respeitosamente* para o Diretor.
+> - **D)** Incorreta. Utiliza fórmulas repudiadas pelo padrão oficial (*Cordialmente* e a expressão arcaica *Sem mais para o momento*).
+> - **E)** Incorreta. Emprega os termos vedados *Ilustríssimo* e *Prezado*.
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 3.4 Endereçamento no Envelope e Regras Dêiticas: Vossa vs. Sua
 
@@ -208,6 +278,41 @@ A 3ª edição do MRPR promoveu uma revolução de simplificação: **aboliu for
 
 > ⭐ **IMPORTANTE / EXTINÇÃO DO MEMORANDO EM PROVA:** Questões que afirmem que a comunicação interna entre diretorias ou secretarias de um mesmo tribunal de contas deve ser expedida sob a forma de *Memorando* estão **desatualizadas e incorretas** perante o MRPR vigente. Essa comunicação formaliza-se hoje mediante **Ofício**.
 
+---
+
+### Questão 04
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+A respeito da padronização de expedientes oficiais segundo a 3ª edição do Manual de Redação da Presidência da República, considere as afirmações:  
+
+I. As comunicações oficiais internas entre diretorias e gerências de um mesmo órgão público devem ser redigidas sob a denominação de *Memorando*.  
+
+II. O *Aviso* é espécie documental privativa utilizada para envio de correspondências por Ministros de Estado a particulares.  
+
+III. Os antigos expedientes denominados *Aviso* e *Memorando* deixaram de existir como tipos autônomos, tendo sido absorvidos pelo *Padrão Ofício*.  
+
+IV. O fecho *"Respeitosamente,"* deve ser empregado em comunicações endereçadas a autoridades de hierarquia superior à do emissor.  
+
+Está correto o que se afirma em:
+
+* **A)** I e II, apenas.
+* **B)** III e IV, apenas.
+* **C)** I, III e IV, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II, III e IV.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Os itens I e II são falsos, pois *Aviso* e *Memorando* deixaram de existir como espécies documentais autônomas no MRPR (3ª edição).
+> - **B) CORRETA.** Estão corretos os itens III (o *Padrão Ofício* unificou aviso, ofício e memorando) e IV (o fecho *Respeitosamente* destina-se a autoridades de hierarquia superior).
+> - **C) Incorreta.** Inclui o item I, que contraria a unificação documental do Manual de Redação.
+> - **D) Incorreta.** Inclui o item II, que prescreve padrão extinto de comunicação ministerial.
+> - **E) Incorreta.** Julga verdadeiros os itens I e II, expressamente revogados.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 4.2 Partes Componentes e Diagramação Oficial do Ofício
 
 O expediente regido pelo Padrão Ofício estrutura-se nos seguintes blocos obrigatórios:
@@ -221,6 +326,31 @@ O expediente regido pelo Padrão Ofício estrutura-se nos seguintes blocos obrig
 7. **Corpo do Texto:** Dividido em introdução, desenvolvimento e conclusão;
 8. **Fecho Regulamentar:** Alinhado à margem esquerda;
 9. **Assinatura e Cargo:** Centralizados na página.
+
+---
+
+### Questão 05
+**(FCC – METRÔ-SP – Analista de Administração)**  
+Quanto à estrutura física e à diagramação padrão do **Ofício** prescritas na 3ª edição do MRPR:
+
+* **A)** A fonte tipográfica padrão recomendada para o texto é Comic Sans ou Arial Black, tamanho 14.
+* **B)** O cabeçalho contendo o Brasão de Armas da República deve ser impresso em todas as páginas do documento, inclusive nas folhas de continuação.
+* **C)** A identificação do signatário deve conter seu nome em negrito e o cargo logo abaixo, sem linha sobreposta para assinatura.
+* **D)** Todos os parágrafos do texto devem ser numerados em algarismos romanos, a começar pelo primeiro.
+* **E)** O local e a data devem ser alinhados à margem esquerda, com o mês grafado de forma numérica abreviada.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. As fontes tipográficas oficiais padronizadas pelo MRPR são **Calibri** ou **Carlito**, corpo 12 para o corpo do texto e corpo 9 para citações destacadas e notas de rodapé.
+> - **B)** Incorreta. O cabeçalho com o Brasão das Armas é impresso **exclusivamente na primeira página** do expediente; as páginas seguintes contêm apenas o número de página no cabeçalho secundário.
+> - **C)** Correta. De acordo com o MRPR (3ª edição), a identificação do signatário compõe-se do **nome da autoridade** (em letras maiúsculas e negrito) e da **designação de seu cargo** logo abaixo. É formalmente **dispensada e proibida a inserção de linha tracejada sobreposta** para aposição da assinatura, assinando-se diretamente sobre o nome digitado.
+> - **D)** Incorreta. A numeração de parágrafos é em **algarismos arábicos** e aplica-se **apenas a partir do segundo parágrafo** (o primeiro parágrafo nunca recebe número).
+> - **E)** Incorreta. O local e a data são alinhados à **margem direita** da página, com o mês obrigatoriamente escrito por extenso e em letras minúsculas (*Goiânia, 10 de maio de 2026.*).
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 4.3 Estrutura do Texto: Introdução, Desenvolvimento e Conclusão
 
@@ -312,126 +442,3 @@ No âmbito do controle externo, a produção textual desdobra-se em espécies es
 * BRASIL. Presidência da República. Casa Civil. **Manual de Redação da Presidência da República**. 3. ed. rev., atual. e ampl. Brasília: Presidência da República, 2018. (Cap. I a III - As Comunicações Oficiais, Pronomes de Tratamento e O Padrão Ofício).
 * CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 11 - Pronomes de Tratamento e Silepse de Gênero).
 * GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Terceira Parte - Clareza, Concisão e Correção na Prosa Administrativa).
-
----
-
-## 📝 Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo)**  
-O Presidente do Tribunal de Contas do Estado de Goiás necessita encaminhar expediente oficial ao Governador do Estado e, simultaneamente, outro expediente ao Diretor de Escola Pública Estadual. De acordo com a 3ª edição do Manual de Redação da Presidência da República (MRPR), os vocativos e fechos adequados para cada uma dessas comunicações são, respectivamente:
-
-* **A)** Para o Governador: *"Excelentíssimo Senhor Governador,"* / *"Respeitosamente,"*; Para o Diretor: *"Ilustríssimo Senhor Diretor,"* / *"Cordialmente,"*.
-* **B)** Para o Governador: *"Senhor Governador,"* / *"Atenciosamente,"*; Para o Diretor: *"Senhor Diretor,"* / *"Atenciosamente,"*.
-* **C)** Para o Governador: *"Excelentíssimo Senhor Governador,"* / *"Atenciosamente,"*; Para o Diretor: *"Senhor Diretor,"* / *"Respeitosamente,"*.
-* **D)** Para o Governador: *"Senhor Governador,"* / *"Cordialmente,"*; Para o Diretor: *"Digníssimo Diretor,"* / *"Sem mais para o momento,"*.
-* **E)** Para o Governador: *"Ilustríssimo Senhor Governador,"* / *"Respeitosamente,"*; Para o Diretor: *"Prezado Senhor Diretor,"* / *"Atenciosamente,"*.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Erra ao empregar o vocativo cerimonial *Excelentíssimo Senhor* para Governador de Estado (exclusivo para Chefes dos Poderes da União: PR, CN e STF); além disso, traz termos abolidos no expediente do Diretor (*Ilustríssimo* e *Cordialmente*).
-> - **B)** Correta. De acordo com a 3ª edição do MRPR: 1) O vocativo para Governadores de Estado é **"Senhor Governador,"**; 2) Na relação institucional entre o Presidente de uma Corte de Contas autônoma e o Chefe do Poder Executivo estadual, aplica-se o fecho para autoridades de mesma dignidade institucional/hierarquia: **"Atenciosamente,"**; 3) O vocativo para Diretor é **"Senhor Diretor,"** e o fecho para autoridade hierarquicamente subordinada/inferior é compulsoriamente **"Atenciosamente,"**. A assertiva B é a única plenamente conforme ao manual.
-> - **C)** Incorreta. Erra no vocativo do Governador (*Excelentíssimo*) e inverte os fechos ao utilizar *Respeitosamente* para o Diretor.
-> - **D)** Incorreta. Utiliza fórmulas repudiadas pelo padrão oficial (*Cordialmente* e a expressão arcaica *Sem mais para o momento*).
-> - **E)** Incorreta. Emprega os termos vedados *Ilustríssimo* e *Prezado*.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC – TRT – Técnico Judiciário)**  
-No que concerne ao emprego de pronomes de tratamento e à concordância gramatical em documentos oficiais, assinale a opção que atende integralmente às normas do MRPR:
-
-* **A)** *"Informamos a Vossa Excelência que vossos pedidos foram acolhidos e solicitamos que compareçais à cerimônia de posse."*
-* **B)** *"Vossa Senhoria deveis encaminhar o demonstrativo contábil para que possamos analisar vosso relatório tempestivamente."*
-* **C)** *"Comunico a Vossa Excelência que sua solicitação foi deferida pelo plenário, estando o processo à sua disposição."*
-* **D)** *"Vossa Excelência será recebida pelo Presidente da República, o qual manifestou desejo de conhecer vossos projetos."*
-* **E)** *"Solicitamos a Vossa Excelência que vos digneis autorizar o empenho das despesas em vosso orçamento."*
-
-> **Comentário Detalhado:**
->
-> - **Regra Geral:** Os pronomes de tratamento referem-se à 2ª pessoa gramatical (com quem se fala), porém exigem que **toda a concordância gramatical de verbos e pronomes seja efetuada compulsoriamente em 3ª pessoa** (*ele/ela, seu, sua, seus, suas*). O uso de verbos ou pronomes em 2ª pessoa do plural (*vós, vosso, compareçais*) é erro gramatical manifesto.
-> - **A)** Incorreta. Incorreu em erro ao empregar o pronome possessivo *vossos* e a forma verbal *compareçais* em 2ª pessoa do plural.
-> - **B)** Incorreta. Cometeu o vício de empregar a forma verbal *deveis* e o possessivo *vosso*.
-> - **C)** Correta. A oração flexiona os verbos (*foi deferida*) e os pronomes possessivos (*sua solicitação*, *à sua disposição*) perfeitamente em 3ª pessoa do singular, em estrita harmonia com o pronome de tratamento *Vossa Excelência*.
-> - **D)** Incorreta. Erra ao empregar o pronome possessivo de 2ª pessoa do plural *vossos projetos*.
-> - **E)** Incorreta. Emprega a flexão arcaica em 2ª pessoa *vos digneis* e *vosso orçamento*.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 03
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-A respeito da padronização de expedientes oficiais segundo a 3ª edição do Manual de Redação da Presidência da República, considere as afirmações:  
-
-I. As comunicações oficiais internas entre diretorias e gerências de um mesmo órgão público devem ser redigidas sob a denominação de *Memorando*.  
-
-II. O *Aviso* é espécie documental privativa utilizada para envio de correspondências por Ministros de Estado a particulares.  
-
-III. Os antigos expedientes denominados *Aviso* e *Memorando* deixaram de existir como tipos autônomos, tendo sido absorvidos pelo *Padrão Ofício*.  
-
-IV. O fecho *"Respeitosamente,"* deve ser empregado em comunicações endereçadas a autoridades de hierarquia superior à do emissor.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** III e IV, apenas.
-* **C)** I, III e IV, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II, III e IV.
-
-> **Comentário Detalhado:**
->
-> - **Item I: Incorreto.** O tipo documental *Memorando* foi formalmente extinto na 3ª edição do MRPR. As comunicações internas no setor público passaram a tramitar unificadamente sob o gênero *Ofício*.
-> - **Item II: Incorreto.** O tipo *Aviso* era expedido exclusivamente por Ministros de Estado para autoridades de idêntica hierarquia, tendo sido igualmente extinto na revisão de 2018.
-> - **Item III: Correto.** O MRPR promoveu a absorção do Aviso e do Memorando pelo **Padrão Ofício**, tornando-o gênero documental único para comunicações internas e externas.
-> - **Item IV: Correto.** O fecho cerimonial **"Respeitosamente,"** é de uso obrigatório quando a autoridade destinatária ocupar nível hierárquico superior ao do signatário.
-> - **A), C), D) e E)** Incorretas por incluírem os itens falsos I e II.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 04
-**(FCC – DPE-RS – Analista de Comunicação)**  
-Assinale a alternativa que apresenta um trecho de correspondência oficial eivado de **vício de impessoalidade e prolixidade**, em desacordo com as diretrizes do Manual de Redação Oficial:
-
-* **A)** *"Comunico que a fiscalização das obras da rodovia estadual terá início na próxima segunda-feira, às nove horas."*
-* **B)** *"Tenho a imensa honra e o singular privilégio de levar ao vosso excelso conhecimento que meu humilde gabinete concluiu o trabalho."*
-* **C)** *"Encaminho, para ciência e deliberação, o relatório consolidado de auditoria financeira do exercício de 2025."*
-* **D)** *"Solicito a designação de dois servidores técnicos para compor a comissão de recebimento de materiais de tecnologia."*
-* **E)** *"Em cumprimento ao despacho da presidência, restituo os autos para adoção das providências cabíveis."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O trecho utiliza linguagem límpida, impessoal, técnica e concisa, perfeitamente adequada ao padrão oficial.
-> - **B)** Correta (apresenta vício grave). O fragmento transgride frontalmente os atributos da impessoalidade, sobriedade e concisão, recorrendo a rapapés bajuladores e expressões de subserviência (*"imensa honra"*, *"singular privilégio"*, *"vosso excelso conhecimento"*, *"meu humilde gabinete"*), formalmente banidas do serviço público republicano.
-> - **C)** Incorreta. Estrutura padrão límpida de encaminhamento oficial, sem qualquer vício de prolixidade.
-> - **D)** Incorreta. Redação direta e objetiva de solicitação administrativa.
-> - **E)** Incorreta. Frase escorreita e sóbria de movimentação processual.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 05
-**(FCC – METRÔ-SP – Analista de Administração)**  
-Quanto à estrutura física e à diagramação padrão do **Ofício** prescritas na 3ª edição do MRPR:
-
-* **A)** A fonte tipográfica padrão recomendada para o texto é Comic Sans ou Arial Black, tamanho 14.
-* **B)** O cabeçalho contendo o Brasão de Armas da República deve ser impresso em todas as páginas do documento, inclusive nas folhas de continuação.
-* **C)** A identificação do signatário deve conter seu nome em negrito e o cargo logo abaixo, sem linha sobreposta para assinatura.
-* **D)** Todos os parágrafos do texto devem ser numerados em algarismos romanos, a começar pelo primeiro.
-* **E)** O local e a data devem ser alinhados à margem esquerda, com o mês grafado de forma numérica abreviada.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. As fontes tipográficas oficiais padronizadas pelo MRPR são **Calibri** ou **Carlito**, corpo 12 para o corpo do texto e corpo 9 para citações destacadas e notas de rodapé.
-> - **B)** Incorreta. O cabeçalho com o Brasão das Armas é impresso **exclusivamente na primeira página** do expediente; as páginas seguintes contêm apenas o número de página no cabeçalho secundário.
-> - **C)** Correta. De acordo com o MRPR (3ª edição), a identificação do signatário compõe-se do **nome da autoridade** (em letras maiúsculas e negrito) e da **designação de seu cargo** logo abaixo. É formalmente **dispensada e proibida a inserção de linha tracejada sobreposta** para aposição da assinatura, assinando-se diretamente sobre o nome digitado.
-> - **D)** Incorreta. A numeração de parágrafos é em **algarismos arábicos** e aplica-se **apenas a partir do segundo parágrafo** (o primeiro parágrafo nunca recebe número).
-> - **E)** Incorreta. O local e a data são alinhados à **margem direita** da página, com o mês obrigatoriamente escrito por extenso e em letras minúsculas (*Goiânia, 10 de maio de 2026.*).
-> 
-> **Gabarito: C**

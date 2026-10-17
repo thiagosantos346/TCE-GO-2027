@@ -36,7 +36,6 @@
     - [4.2 Definição e Estrutura de Skills Modulares](#42-definicao-e-estrutura-de-skills-modulares)
     - [4.3 Orquestração Multiagente e Segregação de Responsabilidades](#43-orquestracao-multiagente-e-segregacao-de-responsabilidades)
 - [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
-- [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -112,6 +111,31 @@ flowchart TD
 
 ---
 
+### Questão 01 (FCC - Adaptada / TI - RAG e Bancos de Dados Vetoriais)
+Uma instituição pública precisa capacitar um agente de IA para analisar e auditar a conformidade de novos softwares em relação a um gigantesco repositório corporativo que contém milhões de linhas de código e dezenas de manuais técnicos que sofrem atualizações diárias.
+
+Para permitir que a IA consulte essas informações atualizadas com alta precisão e custo sustentável, mantendo a integridade semântica do código, a equipe deve adotar:  
+
+* **A)** O retreinamento completo (*Full Pre-training*) dos pesos de um modelo fundacional a cada nova alteração de commit no repositório Git.
+* **B)** Uma arquitetura de RAG (*Retrieval-Augmented Generation*), realizando o fracionamento (*chunking*) do código com base na Árvore de Sintaxe Abstrata (AST) para preservar blocos lógicos inteiros (como classes e funções), gerando embeddings armazenados em um banco vetorial para busca semântica em tempo de inferência.
+* **C)** A conversão de todos os arquivos de código-fonte em um único prompt contínuo de texto sem chunking, submetendo-o a modelos sem janela de contexto delimitada.
+* **D)** O particionamento arbitrário de código em blocos fixos de 10 linhas de texto, ignorando a estrutura sintática de métodos e classes, para maximizar o índice de acerto da busca léxica.
+* **E)** A técnica de *Fine-Tuning* supervisionado com exclusão de qualquer banco de dados vetorial, visto que embeddings numéricos são incapazes de representar proximidade semântica entre termos técnicos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O pré-treinamento completo de um modelo fundacional consome milhões de dólares e semanas de processamento em supercomputadores, sendo totalmente inviável para acomodar atualizações diárias de código.
+> - **B)** **CORRETA.** A arquitetura RAG viabiliza a atualização dinâmica e contínua do conhecimento factual sem retreino de pesos. O fatiamento estruturado com base na Árvore de Sintaxe Abstrata (AST) garante que classes e funções sejam preservadas em blocos lógicos coesos, produzindo embeddings representativos indexados em bancos vetoriais para busca por similaridade de cosseno.
+> - **C)** Incorreta. Submeter milhões de linhas em um único prompt ultrapassa a capacidade prática das janelas de contexto, gera custos financeiros inviáveis e sofre severa degradação posicional de atenção (*Lost in the Middle*).
+> - **D)** Incorreta. O fatiamento arbitrário por contagem de linhas quebra funções ao meio e desassocia assinaturas de parâmetros, destruindo a semântica do código nos embeddings.
+> - **E)** Incorreta. Embeddings numéricos são o fundamento matemático consagrado da representação semântica vetorial, e o Fine-Tuning é inadequado para bases de conhecimento factual em constante atualização.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.2 O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)
 Dividir código-fonte através de fatiamento ingênuo por contagem fixa de caracteres ou linhas é um erro grave na engenharia de software: pode cortar uma função no meio, separar anotações de transação do método ou quebrar laços de repetição.
 
@@ -149,6 +173,31 @@ Bases de código dependem criticamente de nomes literais exatos (como o nome de 
 
 ---
 
+### Questão 02 (FCC - Padrão Concursos TI / Busca Híbrida e Similaridade de Cosseno)
+Em um sistema de busca semântica de código para auditoria governamental baseado em banco de dados vetorial, um arquiteto implementou uma estratégia de Busca Híbrida (*Hybrid Search*).
+
+A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetorial pura em repositórios de software é:  
+
+* **A)** A busca vetorial pura é incapaz de processar vetores com mais de três dimensões matemáticas.
+* **B)** A busca híbrida combina a recuperação semântica densa (baseada em embeddings e similaridade de cosseno) com a busca textual esparsa tradicional (como BM25 ou busca full-text), garantindo tanto a compreensão conceitual quanto o casamento exato de identificadores literais, nomes de tabelas e códigos de erro específicos.
+* **C)** A busca híbrida substitui os bancos de dados vetoriais por fitas magnéticas analógicas para reduzir o consumo de energia.
+* **D)** O uso de busca esparsa impede qualquer tentativa de injeção de prompt por parte de usuários maliciosos.
+* **E)** A similaridade de cosseno mede exclusivamente o número de caracteres coincidentes entre duas strings semânticas em ordem alfabética.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Modelos modernos de embeddings operam em hiperplanos vetoriais com milhares de dimensões (ex.: 768, 1536 ou 3072 floats).
+> - **B)** **CORRETA.** Repositórios de código contêm identificadores literais rígidos (como nomes de classes `ProcessoTceDTO`, constantes e códigos de erro) que podem ter baixa representatividade semântica vetorial pura. A **Busca Híbrida** integra a busca semântica densa (compreensão de conceitos afins via similaridade de cosseno) com a busca esparsa tradicional (BM25 / Full-Text Search para casamento literal exato), fundindo os rankings com máxima precisão.
+> - **C)** Incorreta. Proposição fantasiosa sem respaldo computacional.
+> - **D)** Incorreta. A busca esparsa é um método de indexação e recuperação léxica, não uma ferramenta de segurança contra injeção de prompt.
+> - **E)** Incorreta. A similaridade de cosseno calcula o cosseno do ângulo formado entre dois vetores numéricos multidimensionais, não uma contagem de caracteres alfabéticos.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.6 Matriz de Decisão Arquitetural: RAG vs. Fine-Tuning
 
 | Critério de Decisão | Retrieval-Augmented Generation (RAG) | Fine-Tuning (Ajuste Fino Supervisionado) |
@@ -160,6 +209,31 @@ Bases de código dependem criticamente de nomes literais exatos (como o nome de 
 | **Custo Computacional** | Baixo a moderado (operações de embedding e banco vetorial). | Elevado (horas de treinamento em clusters de GPUs dedicadas). |
 
 ---
+
+### Questão 03 (FCC - Padrão Concursos TI / RAG vs Fine-Tuning em Engenharia de Software)
+Em um projeto de automação fiscal na Secretaria da Fazenda, a equipe técnica precisa decidir entre a adoção de uma arquitetura de RAG (Geração Aumentada por Recuperação) e o processo de Fine-Tuning supervisionado de um modelo de linguagem aberto.
+
+Sobre os critérios comparativos que orientam essa escolha técnica, assinale a afirmativa correta:  
+
+* **A)** O Fine-Tuning é a melhor escolha para dados factuais altamente voláteis, pois a atualização de tabelas de alíquotas diárias no modelo dispensa custos computacionais de treino.
+* **B)** O RAG possui total auditabilidade e rastreabilidade, permitindo indicar com precisão cirúrgica quais arquivos de código e trechos normativos foram recuperados e inseridos no contexto para fundamentar a resposta gerada.
+* **C)** O Fine-Tuning elimina completamente a ocorrência de alucinações, enquanto o RAG necessariamente multiplica as alucinações ao introduzir textos externos.
+* **D)** Modelos submetidos a RAG perdem permanentemente a capacidade de gerar código sintaticamente válido na linguagem Python.
+* **E)** O RAG exige a alteração dos pesos sinápticos do modelo em cada requisição de busca vetorial efetuada pelo usuário.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Fine-Tuning é desaconselhado para dados factuais voláteis, pois exige pipeline custoso de re-treinamento com retropropagação a cada atualização de dado. Dados dinâmicos devem ser mantidos via RAG.
+> - **B)** **CORRETA.** No RAG, a recuperação de evidências é auditável e explícita: os trechos extraídos do banco vetorial são inseridos de forma visível no prompt de contexto, permitindo citar e auditar o arquivo, linha e documento normativo que respaldaram a resposta gerada.
+> - **C)** Incorreta. O Fine-Tuning não impede alucinações e pode sofrer com esquecimento catastrófico; o RAG é a técnica primordial para mitigação de alucinações por ancorar a resposta em contexto factual verificado.
+> - **D)** Incorreta. O RAG opera apenas enriquecendo o contexto, mantendo intactas as capacidades de programação e fluência sintática do modelo fundacional.
+> - **E)** Incorreta. O RAG opera exclusivamente em tempo de inferência (*runtime*), sem alterar nenhum peso neural do modelo.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ## 3. O Protocolo Model Context Protocol (MCP)
 
@@ -234,6 +308,58 @@ flowchart TD
 
 ---
 
+### Questão 04 (FCC - Adaptada / TI - Model Context Protocol e Interoperabilidade)
+No desenvolvimento de ecossistemas corporativos baseados em inteligência artificial, a proliferação de integrações proprietárias ponto-a-ponto entre assistentes inteligentes e sistemas legados motivou a criação do protocolo aberto *Model Context Protocol* (MCP).
+
+A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale a afirmativa correta:  
+
+* **A)** O MCP é um protocolo proprietário e fechado cujo funcionamento restringe-se exclusivamente à execução de scripts Python em ambientes isolados na nuvem.
+* **B)** Na arquitetura do MCP, o *MCP Host* conecta-se a múltiplos *MCP Servers*, que expõem padronizadamente três primitivas essenciais: *Resources* (dados passivos que podem ser lidos), *Tools* (funções executáveis que realizam ações ou consultas) e *Prompts* (templates de mensagens pré-configurados).
+* **C)** As primitivas denominadas *Tools* no MCP servem exclusivamente para exibir documentação estática ao usuário final, sendo vedada a chamada a APIs de backend ou operações com efeitos colaterais.
+* **D)** O transporte padrão para comunicação entre clientes e servidores locais no MCP utiliza exclusivamente websockets não autenticados, sendo proibida a comunicação via `stdio` (entrada/saída padrão de processos).
+* **E)** A utilização do MCP dispensa o modelo de IA de interpretar parâmetros em esquemas JSON Schema, delegando a tipagem de dados integralmente ao sistema operacional hospedeiro.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O MCP é um padrão aberto (*open standard*) multiplataforma e neutro, com SDKs oficiais para TypeScript, Python, Kotlin e suporte comunitário para diversas outras linguagens.
+> - **B)** **CORRETA.** A arquitetura do MCP estrutura-se em Host (aplicação consumidora), Client (camada de transporte) e Server (provedor de dados e serviços). Os servidores expõem formalmente três primitivas canônicas:
+>     1. **Resources** (dados somente-leitura)
+>     2. **Tools** (funções executáveis ativas que produzem efeitos colaterais)
+>     3. **Prompts** (templates de mensagens parametrizáveis).
+>
+> - **C)** Incorreta. *Tools* são precisamente os recursos executáveis com parâmetros validados por esquema que permitem disparar ações ativas (gravar dados, executar comandos no shell, interagir com APIs externas). Dados passivos de leitura são mapeados como *Resources*.
+> - **D)** Incorreta. Para servidores que operam localmente na mesma máquina, o transporte padrão e prioritário do MCP é o **`stdio`** (Standard Input/Output). Para servidores remotos em rede, adota-se **`SSE`** (*Server-Sent Events*) sobre HTTP.
+> - **E)** Incorreta. O MCP depende fundamentalmente da validação rigorosa de tipos e parâmetros estruturados através de contratos em **JSON Schema**.
+> 
+> **Gabarito: B**
+
+---
+
+### Questão 05 (FCC - Padrão Concursos TI / Primitivas e Segurança no Model Context Protocol)
+Em uma auditoria de segurança da informação sobre uma solução corporativa que utiliza o *Model Context Protocol* (MCP) para conectar agentes de IA ao banco de dados PostgreSQL e ao repositório Git institucional, foi avaliado o risco de execução indevida de comandos de alteração estrutural.
+
+Considerando o funcionamento das primitivas e a governança do MCP, a equipe de auditoria deve verificar se:  
+
+* **A)** As operações com potencial de alteração ou exclusão de dados e código foram implementadas exclusivamente através da primitiva *Resources*, sem permissões de rede.
+* **B)** O agente de IA tem autorização para invocar primitivas *Tools* com ações destrutivas (como drops de tabelas ou commits forçados) de maneira autônoma e irrestrita, sem validação de parâmetros ou supervisão humana (*Human-in-the-Loop*).
+* **C)** As operações de leitura de esquemas e documentação utilizam a primitiva *Resources* (somente-leitura), enquanto operações de mutação utilizam primitivas *Tools* com esquemas JSON Schema rígidos e controle de privilégios de acesso que exigem confirmação explícita de operador autorizado.
+* **D)** O protocolo MCP foi configurado para converter todos os dados confidenciais do banco de dados em imagens bitmap públicas antes do envio ao modelo.
+* **E)** As conexões locais via transporte `stdio` foram substituídas por conexões telnet sem criptografia na rede pública.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A primitiva *Resources* do MCP é estritamente passiva e somente-leitura; mutações de dados exigem o uso da primitiva *Tools*.
+> - **B)** Incorreta. Conceder autonomia irrestrita para comandos destrutivos viola frontalmente o princípio do privilégio mínimo e as políticas de segurança corporativa.
+> - **C)** **CORRETA.** A segregação arquitetural recomendada no MCP determina que consultas informativas (esquemas de tabelas, logs, manuais) sejam expostas como *Resources* (idempotentes e somente-leitura). Ações ativas que modificam bancos ou arquivos (*Tools*) devem validar contratos estritos em JSON Schema e implementar barreiras de autorização humana explícita (*Human-in-the-Loop*) para comandos de risco elevado.
+> - **D)** Incorreta. Proposição fictícia; informações sigilosas devem receber controle de acesso e mascaramento de dados, nunca conversão em imagens públicas.
+> - **E)** Incorreta. O transporte `stdio` é local, seguro e eficiente; o uso de telnet não criptografado constituiria uma vulnerabilidade crítica grave.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 3.4 Mecanismos de Transporte Padronizados: `stdio` e `SSE`
 A especificação do MCP padroniza dois canais de comunicação utilizando mensagens serializadas em **JSON-RPC 2.0**:
 
@@ -295,124 +421,3 @@ Em arquiteturas corporativas avançadas, a complexidade de um sistema de softwar
 * MANNING, Christopher D.; RAGHAVAN, Prabhakar; SCHÜTZE, Hinrich. **Introdução à Recuperação de Informação**. Cambridge: Cambridge University Press, 2008. (Cap. 6 - Pontuação de Similaridade e Espaços Vetoriais).
 * HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 4 - Retrieval-Augmented Generation and Vector Databases).
 * JURAFSKY, Daniel; MARTIN, James H. **Speech and Language Processing**. 3. ed. Stanford University, 2024. (Cap. 14 - Vector Semantics and Embeddings).
-
----
-
-## 6. Questões Comentadas & Prática Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TI - Model Context Protocol e Interoperabilidade)
-No desenvolvimento de ecossistemas corporativos baseados em inteligência artificial, a proliferação de integrações proprietárias ponto-a-ponto entre assistentes inteligentes e sistemas legados motivou a criação do protocolo aberto *Model Context Protocol* (MCP).
-
-A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale a afirmativa correta:  
-
-* **A)** O MCP é um protocolo proprietário e fechado cujo funcionamento restringe-se exclusivamente à execução de scripts Python em ambientes isolados na nuvem.
-* **B)** Na arquitetura do MCP, o *MCP Host* conecta-se a múltiplos *MCP Servers*, que expõem padronizadamente três primitivas essenciais: *Resources* (dados passivos que podem ser lidos), *Tools* (funções executáveis que realizam ações ou consultas) e *Prompts* (templates de mensagens pré-configurados).
-* **C)** As primitivas denominadas *Tools* no MCP servem exclusivamente para exibir documentação estática ao usuário final, sendo vedada a chamada a APIs de backend ou operações com efeitos colaterais.
-* **D)** O transporte padrão para comunicação entre clientes e servidores locais no MCP utiliza exclusivamente websockets não autenticados, sendo proibida a comunicação via `stdio` (entrada/saída padrão de processos).
-* **E)** A utilização do MCP dispensa o modelo de IA de interpretar parâmetros em esquemas JSON Schema, delegando a tipagem de dados integralmente ao sistema operacional hospedeiro.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O MCP é um padrão aberto (*open standard*) multiplataforma e neutro, com SDKs oficiais para TypeScript, Python, Kotlin e suporte comunitário para diversas outras linguagens.
-> - **B)** **CORRETA.** A arquitetura do MCP estrutura-se em Host (aplicação consumidora), Client (camada de transporte) e Server (provedor de dados e serviços). Os servidores expõem formalmente três primitivas canônicas:
->     1. **Resources** (dados somente-leitura)
->     2. **Tools** (funções executáveis ativas que produzem efeitos colaterais)
->     3. **Prompts** (templates de mensagens parametrizáveis).
->
-> - **C)** Incorreta. *Tools* são precisamente os recursos executáveis com parâmetros validados por esquema que permitem disparar ações ativas (gravar dados, executar comandos no shell, interagir com APIs externas). Dados passivos de leitura são mapeados como *Resources*.
-> - **D)** Incorreta. Para servidores que operam localmente na mesma máquina, o transporte padrão e prioritário do MCP é o **`stdio`** (Standard Input/Output). Para servidores remotos em rede, adota-se **`SSE`** (*Server-Sent Events*) sobre HTTP.
-> - **E)** Incorreta. O MCP depende fundamentalmente da validação rigorosa de tipos e parâmetros estruturados através de contratos em **JSON Schema**.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / TI - RAG e Bancos de Dados Vetoriais)
-Uma instituição pública precisa capacitar um agente de IA para analisar e auditar a conformidade de novos softwares em relação a um gigantesco repositório corporativo que contém milhões de linhas de código e dezenas de manuais técnicos que sofrem atualizações diárias.
-
-Para permitir que a IA consulte essas informações atualizadas com alta precisão e custo sustentável, mantendo a integridade semântica do código, a equipe deve adotar:  
-
-* **A)** O retreinamento completo (*Full Pre-training*) dos pesos de um modelo fundacional a cada nova alteração de commit no repositório Git.
-* **B)** Uma arquitetura de RAG (*Retrieval-Augmented Generation*), realizando o fracionamento (*chunking*) do código com base na Árvore de Sintaxe Abstrata (AST) para preservar blocos lógicos inteiros (como classes e funções), gerando embeddings armazenados em um banco vetorial para busca semântica em tempo de inferência.
-* **C)** A conversão de todos os arquivos de código-fonte em um único prompt contínuo de texto sem chunking, submetendo-o a modelos sem janela de contexto delimitada.
-* **D)** O particionamento arbitrário de código em blocos fixos de 10 linhas de texto, ignorando a estrutura sintática de métodos e classes, para maximizar o índice de acerto da busca léxica.
-* **E)** A técnica de *Fine-Tuning* supervisionado com exclusão de qualquer banco de dados vetorial, visto que embeddings numéricos são incapazes de representar proximidade semântica entre termos técnicos.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O pré-treinamento completo de um modelo fundacional consome milhões de dólares e semanas de processamento em supercomputadores, sendo totalmente inviável para acomodar atualizações diárias de código.
-> - **B)** **CORRETA.** A arquitetura RAG viabiliza a atualização dinâmica e contínua do conhecimento factual sem retreino de pesos. O fatiamento estruturado com base na Árvore de Sintaxe Abstrata (AST) garante que classes e funções sejam preservadas em blocos lógicos coesos, produzindo embeddings representativos indexados em bancos vetoriais para busca por similaridade de cosseno.
-> - **C)** Incorreta. Submeter milhões de linhas em um único prompt ultrapassa a capacidade prática das janelas de contexto, gera custos financeiros inviáveis e sofre severa degradação posicional de atenção (*Lost in the Middle*).
-> - **D)** Incorreta. O fatiamento arbitrário por contagem de linhas quebra funções ao meio e desassocia assinaturas de parâmetros, destruindo a semântica do código nos embeddings.
-> - **E)** Incorreta. Embeddings numéricos são o fundamento matemático consagrado da representação semântica vetorial, e o Fine-Tuning é inadequado para bases de conhecimento factual em constante atualização.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Padrão Concursos TI / RAG vs Fine-Tuning em Engenharia de Software)
-Em um projeto de automação fiscal na Secretaria da Fazenda, a equipe técnica precisa decidir entre a adoção de uma arquitetura de RAG (Geração Aumentada por Recuperação) e o processo de Fine-Tuning supervisionado de um modelo de linguagem aberto.
-
-Sobre os critérios comparativos que orientam essa escolha técnica, assinale a afirmativa correta:  
-
-* **A)** O Fine-Tuning é a melhor escolha para dados factuais altamente voláteis, pois a atualização de tabelas de alíquotas diárias no modelo dispensa custos computacionais de treino.
-* **B)** O RAG possui total auditabilidade e rastreabilidade, permitindo indicar com precisão cirúrgica quais arquivos de código e trechos normativos foram recuperados e inseridos no contexto para fundamentar a resposta gerada.
-* **C)** O Fine-Tuning elimina completamente a ocorrência de alucinações, enquanto o RAG necessariamente multiplica as alucinações ao introduzir textos externos.
-* **D)** Modelos submetidos a RAG perdem permanentemente a capacidade de gerar código sintaticamente válido na linguagem Python.
-* **E)** O RAG exige a alteração dos pesos sinápticos do modelo em cada requisição de busca vetorial efetuada pelo usuário.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O Fine-Tuning é desaconselhado para dados factuais voláteis, pois exige pipeline custoso de re-treinamento com retropropagação a cada atualização de dado. Dados dinâmicos devem ser mantidos via RAG.
-> - **B)** **CORRETA.** No RAG, a recuperação de evidências é auditável e explícita: os trechos extraídos do banco vetorial são inseridos de forma visível no prompt de contexto, permitindo citar e auditar o arquivo, linha e documento normativo que respaldaram a resposta gerada.
-> - **C)** Incorreta. O Fine-Tuning não impede alucinações e pode sofrer com esquecimento catastrófico; o RAG é a técnica primordial para mitigação de alucinações por ancorar a resposta em contexto factual verificado.
-> - **D)** Incorreta. O RAG opera apenas enriquecendo o contexto, mantendo intactas as capacidades de programação e fluência sintática do modelo fundacional.
-> - **E)** Incorreta. O RAG opera exclusivamente em tempo de inferência (*runtime*), sem alterar nenhum peso neural do modelo.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Padrão Concursos TI / Busca Híbrida e Similaridade de Cosseno)
-Em um sistema de busca semântica de código para auditoria governamental baseado em banco de dados vetorial, um arquiteto implementou uma estratégia de Busca Híbrida (*Hybrid Search*).
-
-A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetorial pura em repositórios de software é:  
-
-* **A)** A busca vetorial pura é incapaz de processar vetores com mais de três dimensões matemáticas.
-* **B)** A busca híbrida combina a recuperação semântica densa (baseada em embeddings e similaridade de cosseno) com a busca textual esparsa tradicional (como BM25 ou busca full-text), garantindo tanto a compreensão conceitual quanto o casamento exato de identificadores literais, nomes de tabelas e códigos de erro específicos.
-* **C)** A busca híbrida substitui os bancos de dados vetoriais por fitas magnéticas analógicas para reduzir o consumo de energia.
-* **D)** O uso de busca esparsa impede qualquer tentativa de injeção de prompt por parte de usuários maliciosos.
-* **E)** A similaridade de cosseno mede exclusivamente o número de caracteres coincidentes entre duas strings semânticas em ordem alfabética.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Modelos modernos de embeddings operam em hiperplanos vetoriais com milhares de dimensões (ex.: 768, 1536 ou 3072 floats).
-> - **B)** **CORRETA.** Repositórios de código contêm identificadores literais rígidos (como nomes de classes `ProcessoTceDTO`, constantes e códigos de erro) que podem ter baixa representatividade semântica vetorial pura. A **Busca Híbrida** integra a busca semântica densa (compreensão de conceitos afins via similaridade de cosseno) com a busca esparsa tradicional (BM25 / Full-Text Search para casamento literal exato), fundindo os rankings com máxima precisão.
-> - **C)** Incorreta. Proposição fantasiosa sem respaldo computacional.
-> - **D)** Incorreta. A busca esparsa é um método de indexação e recuperação léxica, não uma ferramenta de segurança contra injeção de prompt.
-> - **E)** Incorreta. A similaridade de cosseno calcula o cosseno do ângulo formado entre dois vetores numéricos multidimensionais, não uma contagem de caracteres alfabéticos.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Padrão Concursos TI / Primitivas e Segurança no Model Context Protocol)
-Em uma auditoria de segurança da informação sobre uma solução corporativa que utiliza o *Model Context Protocol* (MCP) para conectar agentes de IA ao banco de dados PostgreSQL e ao repositório Git institucional, foi avaliado o risco de execução indevida de comandos de alteração estrutural.
-
-Considerando o funcionamento das primitivas e a governança do MCP, a equipe de auditoria deve verificar se:  
-
-* **A)** As operações com potencial de alteração ou exclusão de dados e código foram implementadas exclusivamente através da primitiva *Resources*, sem permissões de rede.
-* **B)** O agente de IA tem autorização para invocar primitivas *Tools* com ações destrutivas (como drops de tabelas ou commits forçados) de maneira autônoma e irrestrita, sem validação de parâmetros ou supervisão humana (*Human-in-the-Loop*).
-* **C)** As operações de leitura de esquemas e documentação utilizam a primitiva *Resources* (somente-leitura), enquanto operações de mutação utilizam primitivas *Tools* com esquemas JSON Schema rígidos e controle de privilégios de acesso que exigem confirmação explícita de operador autorizado.
-* **D)** O protocolo MCP foi configurado para converter todos os dados confidenciais do banco de dados em imagens bitmap públicas antes do envio ao modelo.
-* **E)** As conexões locais via transporte `stdio` foram substituídas por conexões telnet sem criptografia na rede pública.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A primitiva *Resources* do MCP é estritamente passiva e somente-leitura; mutações de dados exigem o uso da primitiva *Tools*.
-> - **B)** Incorreta. Conceder autonomia irrestrita para comandos destrutivos viola frontalmente o princípio do privilégio mínimo e as políticas de segurança corporativa.
-> - **C)** **CORRETA.** A segregação arquitetural recomendada no MCP determina que consultas informativas (esquemas de tabelas, logs, manuais) sejam expostas como *Resources* (idempotentes e somente-leitura). Ações ativas que modificam bancos ou arquivos (*Tools*) devem validar contratos estritos em JSON Schema e implementar barreiras de autorização humana explícita (*Human-in-the-Loop*) para comandos de risco elevado.
-> - **D)** Incorreta. Proposição fictícia; informações sigilosas devem receber controle de acesso e mascaramento de dados, nunca conversão em imagens públicas.
-> - **E)** Incorreta. O transporte `stdio` é local, seguro e eficiente; o uso de telnet não criptografado constituiria uma vulnerabilidade crítica grave.
-> 
-> **Gabarito: C**

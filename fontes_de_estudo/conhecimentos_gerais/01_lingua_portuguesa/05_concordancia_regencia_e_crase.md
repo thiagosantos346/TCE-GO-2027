@@ -52,12 +52,6 @@
     - [6.5 Casos de Crase Facultativa](#65-casos-de-crase-facultativa)
     - [6.6 Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo](#66-crase-com-pronomes-demonstrativos-aquele-aquela-e-aquilo)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
-    - [Questão 01](#questao-01)
-    - [Questão 02](#questao-02)
-    - [Questão 03](#questao-03)
-    - [Questão 04](#questao-04)
-    - [Questão 05](#questao-05)
 
 ---
 
@@ -178,6 +172,30 @@ A concordância com o pronome *se* depende da transitividade do predicado:
 
 ---
 
+### Questão 01
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+A frase em que a concordância verbal, a regência e o emprego do sinal indicativo de crase atendem plenamente às exigências da norma-padrão é:
+
+* **A)** *"Devem haver razões plausíveis para que o gestor desobedeça os ditames da Lei de Licitações."*
+* **B)** *"Deve haver razões plausíveis para que o gestor desobedeça aos ditames da Lei de Licitações."*
+* **C)** *"Devem existir razões plausíveis para que o gestor desobedeça aos ditames da Lei de Licitações, visando à obtenção de vantagens indevidas."*
+* **D)** *"Fazem muitos anos que a comissão técnica visa à anulação de contratos que implicam em prejuízo ao erário."*
+* **E)** *"Tratam-se de condutas graves que desobedecem as normas orçamentárias e conduzem à severas sanções."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O verbo *haver* com sentido de existir é impessoal e transmite sua impessoalidade ao verbo auxiliar *dever*, que deveria ficar obrigatoriamente no singular (*Deve haver*); além disso, o verbo *desobedecer* é Transitivo Indireto e rege a preposição *a* (*desobedeça aos ditames*, e não *os ditames*).
+> - **B)** Incorreta. Embora apresente correções pontuais nos dois primeiros verbos (*Deve haver* e *desobedeça aos ditames*), a assertiva C é mais completa e traz todos os desdobramentos de regência, crase e concordância de modo cabal e sem qualquer omissão.
+> - **C)** Correta. A oração apresenta três pontos de perfeita adequação normativa: 1) O verbo *existir* é pessoal e possui sujeito próprio (*razões plausíveis*), fazendo com que a locução verbal flexione legitimamente no plural (*Devem existir*); 2) O verbo *desobedecer* é VTI regido pela preposição *a* (*desobedeça aos ditames*); 3) O verbo *visar* no sentido de almejar/pretender rege a preposição *a*, a qual se funde regularmente com o artigo definido feminino do substantivo *obtenção*, resultando no correto sinal indicativo de crase (*visando à obtenção*). Perfeito em todos os planos sintáticos.
+> - **D)** Incorreta. O verbo *fazer* expressando tempo decorrido é impessoal, devendo permanecer no singular (*Faz muitos anos*); além disso, o verbo *implicar* no sentido de acarretar é VTD e não aceita a preposição *em* (*implicam prejuízo*, e nunca *implicam em prejuízo*).
+> - **E)** Incorreta. O verbo *tratar-se de* opera como VTI com partícula indeterminadora do sujeito, devendo permanecer fixado no singular (*Trata-se de condutas*); *desobedecer* exige a preposição *a*; e é proibida a crase com a letra *a* no singular diante de termo substantivo no plural (*a severas sanções*).
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ## 3. Concordância Nominal e Casos Especiais
 
 A concordância nominal é o princípio de ajuste morfológico em gênero (masculino ou feminino) e número (singular ou plural) estabelecido entre o substantivo (ou pronome substantivo) e os termos que a ele se referem: artigos, adjetivos, pronomes adjetivos, numerais e particípios.
@@ -208,6 +226,31 @@ O adjetivo concorda em gênero e número com o único substantivo a que se repor
     * *"As testemunhas **próprias** declararam o ocorrido."*
 * **A Expressão "EM ANEXO":** Trata-se de locução adverbial cristalizada, sendo **sempre invariável**:
     * *"Seguem **em anexo** as cópias das certidões."*
+
+---
+
+### Questão 02
+**(FCC – DPE-RS – Analista de Gestão Pública)**  
+No tocante às normas de **concordância nominal**, assinale a frase inteiramente correta:
+
+* **A)** *"Seguem anexo aos autos as cópias das certidões e os comprovantes de despesa pública."*
+* **B)** *"A servidora estava meia apreensiva diante das perguntas formuladas pela comissão de sindicância."*
+* **C)** *"Remeto a Vossas Excelências inclusas as planilhas financeiras com os cálculos atualizados do débito."*
+* **D)** *"Naquela secretaria estadual, havia menas servidoras lotadas no setor de tecnologia."*
+* **E)** *"É proibida entrada de pessoas sem identificação nas dependências do tribunal."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A palavra *anexo* funciona morfologicamente como adjetivo e deve concordar em gênero e número com o substantivo a que se refere (*Seguem anexas as cópias...*). Apenas a locução adverbial *em anexo* é invariável.
+> - **B)** Incorreta. O vocábulo *meio*, quando utilizado como advérbio de intensidade qualificando um adjetivo (equivalendo a *um pouco*), é estritamente invariável, sendo incorreta a flexão feminina (*"estava meio apreensiva"*).
+> - **C)** Correta. A palavra *inclusas* atua como adjetivo predicativo e concorda perfeitamente em gênero feminino e número plural com o substantivo determinado *as planilhas financeiras* (*inclusas as planilhas financeiras*).
+> - **D)** Incorreta. A palavra *menos* é um advérbio/pronome invariável no idioma; o vocábulo *"menas"* não existe na norma culta da língua portuguesa.
+> - **E)** Incorreta. A locução *é proibido* permanece invariável no masculino quando o substantivo não vem antecedido por artigo ou determinante (*"É proibido entrada"*). Para flexionar no feminino, seria imprescindível a presença do artigo: *"É proibida a entrada"*.
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 3.4 O Funcionamento de Bastante, Meio, Menos e Alerta
 
@@ -272,6 +315,33 @@ A mesma forma verbal pode assumir trânsitos sintáticos e acepções semântica
 > * É proibido usar a locução *"do que"* (*"Prefiro estudar do que trabalhar"* $\rightarrow$ **ERRADO**; o correto é: *"Prefiro estudar **a** trabalhar"*).
 > * É proibido associar advérbios intensificadores (*"Prefiro mais café"*, *"Prefiro antes o silêncio"*, *"Prefiro mil vezes o concurso"* $\rightarrow$ **ERRADO**).
 
+---
+
+### Questão 03
+**(FCC – METRÔ-SP – Analista Jurídico)**  
+A respeito da regência do verbo **PREFERIR**, assinale a opção que atende à norma-padrão:
+
+* **A)** *"O diretor financeiro prefere antes investir em servidores modernos do que renovar contratos antigos."*
+* **B)** *"A equipe técnica prefere muito mais o teletrabalho com metas do que a rotina presencial diária."*
+* **C)** *"O conselheiro relator prefere a cautela procedimental à precipitação decisória."*
+* **D)** *"A bancada preferiu mil vezes rejeitar o relatório parcial do que aprovar com ressalvas."*
+* **E)** *"O auditor prefere analisar os demonstrativos contábeis do que ouvir testemunhas."*
+
+> **Comentário Detalhado:**
+>
+> - O verbo **preferir** é Transitivo Direto e Indireto (VTDI). Ele exige a coisa preferida sob a forma de objeto direto (sem preposição) e a coisa preterida introduzida compulsoriamente pela preposição **A**.
+> - A norma culta rejeita categoricamente o emprego de locuções comparativas do tipo *"do que"*, *"mais que"* ou expressões intensificadoras de primazia (*"antes"*, *"muito mais"*, *"mil vezes"*), visto que a raiz morfológica do próprio verbo já contém a ideia intrínseca de preferência absoluta.
+> - **A)** Incorreta. Emprega indevidamente o advérbio intensificador *antes* e a locução comparativa repudiada *do que*.
+> - **B)** Incorreta. Contém o vício do uso do advérbio *muito mais* e da locução *do que*.
+> - **C)** Correta. A oração constrói-se com pureza regencial: o objeto direto é *a cautela procedimental* (substantivo feminino com artigo) e o objeto indireto é introduzido pela preposição *a*, a qual se funde ao artigo feminino de *a precipitação decisória*, originando o sinal indicativo de crase obrigatório (*à precipitação decisória*).
+> - **D)** Incorreta. Viciada pelo emprego da hipérbole intensificadora *mil vezes* e da conjunção comparativa *do que*.
+> - **E)** Incorreta. Erra ao introduzir o segundo termo oracional pela locução *do que*, quando a norma exige a preposição *a* (*"prefere analisar os demonstrativos contábeis a ouvir testemunhas"*).
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 4.3 Regência Verbal Associada a Pronomes Relativos
 
 Um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para **antes do pronome relativo**:
@@ -281,6 +351,34 @@ Um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação d
 * *"A diretriz orçamentária **a cuja** execução a população aspira..."* (o verbo *aspirar* rege a preposição *a*, a qual se antepõe ao pronome relativo possessivo *cuja*).
 
 ---
+
+### Questão 04
+**(FCC – TRT – Técnico Judiciário)**  
+Considere a frase:  
+*"O projeto de infraestrutura _________ o secretário se referiu com entusiasmo é o mesmo _________ execução a população tanto aspira."*  
+As lacunas da frase acima são correta e respectivamente preenchidas por:
+
+* **A)** que – cuja
+* **B)** a que – a cuja
+* **C)** ao qual – cuja a
+* **D)** de que – que a
+* **E)** a que – cuja a
+
+> **Comentário Detalhado:**
+>
+> - **1ª Lacuna:** O verbo *referir-se* é Transitivo Indireto e rege obrigatoriamente a preposição **a** (*quem se refere, refere-se a algo*). Em se tratando de oração adjetiva introduzida por pronome relativo, a preposição deve ser deslocada para antes do pronome *que*: resulta na forma **a que**.
+> - **2ª Lacuna:** O termo subsequente estabelece uma relação de dependência possessiva com o antecedente (*a execução do projeto*), o que requer o pronome relativo possessivo **cujo/cuja** (concordando em gênero e número com o consequente: *cuja execução*). Por sua vez, o verbo *aspirar* está empregado na acepção de almejar, desejar ou pretender, sendo Transitivo Indireto e regendo a preposição **a** (*quem aspira, aspira a algo*). Essa preposição deve ser anteposta ao pronome relativo: resulta em **a cuja**. Recorde-se que é terminantemente vedado o emprego de artigo após o pronome relativo (*cuja a* é vício gramatical eliminatório).
+> - **A)** Incorreta. Omitiu a preposição *a* exigida por *referiu-se* e a preposição *a* exigida por *aspira*.
+> - **B)** Correta. Ambas as lacunas foram preenchidas em estrita conformidade com a regência dos verbos e a morfologia dos pronomes relativos (*a que* e *a cuja*).
+> - **C)** Incorreta. A segunda lacuna traz o vício do artigo após o pronome possessivo relativo (*cuja a*).
+> - **D)** Incorreta. O verbo *referir-se* não rege a preposição *de*, e a forma *que a* desconsidera o caráter possessivo e a regência de *aspirar*.
+> - **E)** Incorreta. Reincide no erro crasso de empregar artigo definido posterior ao pronome relativo *cuja* (*cuja a*).
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ## 5. Regência Nominal de Substantivos e Adjetivos
 
@@ -358,6 +456,31 @@ O emprego do sinal indicativo de crase é estritamente vedado nos seguintes cont
 
 6. **Antes de Nomes de Cidade que Rejeitam Artigo:** Aplica-se a regra mnemônica clássica: *"Se vou a e volto da, craseio o a; se vou a e volto de, crase pra quê?"*: *"Vou a Goiânia"* (volto de Goiânia $\rightarrow$ sem crase). Se a cidade for qualificada, a crase torna-se obrigatória: *"Vou à bela Goiânia de minha infância"*.
 
+---
+
+### Questão 05
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+Assinale a frase em que o sinal indicativo de crase está empregado em **estrita conformidade** com a norma culta:
+
+* **A)** *"A decisão do Tribunal Pleno foi comunicada à todas as autoridades presentes na assembleia."*
+* **B)** *"O conselheiro começou à redigir o voto conclusivo nas primeiras horas da manhã."*
+* **C)** *"Os auditores permaneceram frente à frente com os gestores investigados durante o depoimento."*
+* **D)** *"O recurso ordinário foi remetido diretamente àquela diretoria responsável pela fiscalização de obras."*
+* **E)** *"O presidente do órgão concedeu audiência à um grupo de manifestantes da área de saúde."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. É terminantemente proibido o emprego de crase diante de pronomes indefinidos como *todas*, haja vista que tais pronomes repelem a anteposição de artigo definido.
+> - **B)** Incorreta. É vedada a ocorrência de crase antes de verbos no infinitivo (*redigir*), pois formas verbais não admitem artigo definido feminino.
+> - **C)** Incorreta. É proibido o uso do acento grave em locuções estruturadas por substantivos simétricos repetidos (*frente a frente*, *face a face*, *dia a dia*).
+> - **D)** Correta. O verbo *remeter* rege a preposição **a** (*quem remete, remete algo a algum lugar/órgão*). Essa preposição contrai-se legitimamente com a vogal inicial do pronome demonstrativo **aquela** ($a + aquela = \mathbf{àquela}$), tornando o emprego da crase irretocável perante a norma padrão.
+> - **E)** Incorreta. É descabida a crase diante de substantivo masculino precedido do artigo indefinido *um* (*à um* é erro crasso).
+> 
+> **Gabarito: D**
+
+---
+
+
 ### 6.4 Casos de Crase Obrigatória
 
 1. **Locuções Adverbiais Femininas:** Expressam circunstâncias de tempo, modo ou lugar estruturadas com palavra feminina:
@@ -412,121 +535,3 @@ Ocorre a fusão da preposição *a* (exigida por regência verbal ou nominal) co
 * BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 15 e Cap. 16 - Sintaxe de Concordância Verbal e Nominal, Sintaxe de Regência e Crase).
 * CEGALLA, Domingos Paschoal. **Novíssima Gramática da Língua Portuguesa**. 49. ed. São Paulo: Companhia Editora Nacional, 2020. (Parte 3 - Concordância, Regência Verbal e Nominal e Emprego do Acento Grave).
 * CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 9 e Cap. 14 - Contração da Preposição A e Regras Especiais de Concordância e Regência).
-
----
-
-## 📝 Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo)**  
-A frase em que a concordância verbal, a regência e o emprego do sinal indicativo de crase atendem plenamente às exigências da norma-padrão é:
-
-* **A)** *"Devem haver razões plausíveis para que o gestor desobedeça os ditames da Lei de Licitações."*
-* **B)** *"Deve haver razões plausíveis para que o gestor desobedeça aos ditames da Lei de Licitações."*
-* **C)** *"Devem existir razões plausíveis para que o gestor desobedeça aos ditames da Lei de Licitações, visando à obtenção de vantagens indevidas."*
-* **D)** *"Fazem muitos anos que a comissão técnica visa à anulação de contratos que implicam em prejuízo ao erário."*
-* **E)** *"Tratam-se de condutas graves que desobedecem as normas orçamentárias e conduzem à severas sanções."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O verbo *haver* com sentido de existir é impessoal e transmite sua impessoalidade ao verbo auxiliar *dever*, que deveria ficar obrigatoriamente no singular (*Deve haver*); além disso, o verbo *desobedecer* é Transitivo Indireto e rege a preposição *a* (*desobedeça aos ditames*, e não *os ditames*).
-> - **B)** Incorreta. Embora apresente correções pontuais nos dois primeiros verbos (*Deve haver* e *desobedeça aos ditames*), a assertiva C é mais completa e traz todos os desdobramentos de regência, crase e concordância de modo cabal e sem qualquer omissão.
-> - **C)** Correta. A oração apresenta três pontos de perfeita adequação normativa: 1) O verbo *existir* é pessoal e possui sujeito próprio (*razões plausíveis*), fazendo com que a locução verbal flexione legitimamente no plural (*Devem existir*); 2) O verbo *desobedecer* é VTI regido pela preposição *a* (*desobedeça aos ditames*); 3) O verbo *visar* no sentido de almejar/pretender rege a preposição *a*, a qual se funde regularmente com o artigo definido feminino do substantivo *obtenção*, resultando no correto sinal indicativo de crase (*visando à obtenção*). Perfeito em todos os planos sintáticos.
-> - **D)** Incorreta. O verbo *fazer* expressando tempo decorrido é impessoal, devendo permanecer no singular (*Faz muitos anos*); além disso, o verbo *implicar* no sentido de acarretar é VTD e não aceita a preposição *em* (*implicam prejuízo*, e nunca *implicam em prejuízo*).
-> - **E)** Incorreta. O verbo *tratar-se de* opera como VTI com partícula indeterminadora do sujeito, devendo permanecer fixado no singular (*Trata-se de condutas*); *desobedecer* exige a preposição *a*; e é proibida a crase com a letra *a* no singular diante de termo substantivo no plural (*a severas sanções*).
-> 
-> **Gabarito: C**
-
----
-
-### Questão 02
-**(FCC – TRT – Técnico Judiciário)**  
-Considere a frase:  
-*"O projeto de infraestrutura _________ o secretário se referiu com entusiasmo é o mesmo _________ execução a população tanto aspira."*  
-As lacunas da frase acima são correta e respectivamente preenchidas por:
-
-* **A)** que – cuja
-* **B)** a que – a cuja
-* **C)** ao qual – cuja a
-* **D)** de que – que a
-* **E)** a que – cuja a
-
-> **Comentário Detalhado:**
->
-> - **1ª Lacuna:** O verbo *referir-se* é Transitivo Indireto e rege obrigatoriamente a preposição **a** (*quem se refere, refere-se a algo*). Em se tratando de oração adjetiva introduzida por pronome relativo, a preposição deve ser deslocada para antes do pronome *que*: resulta na forma **a que**.
-> - **2ª Lacuna:** O termo subsequente estabelece uma relação de dependência possessiva com o antecedente (*a execução do projeto*), o que requer o pronome relativo possessivo **cujo/cuja** (concordando em gênero e número com o consequente: *cuja execução*). Por sua vez, o verbo *aspirar* está empregado na acepção de almejar, desejar ou pretender, sendo Transitivo Indireto e regendo a preposição **a** (*quem aspira, aspira a algo*). Essa preposição deve ser anteposta ao pronome relativo: resulta em **a cuja**. Recorde-se que é terminantemente vedado o emprego de artigo após o pronome relativo (*cuja a* é vício gramatical eliminatório).
-> - **A)** Incorreta. Omitiu a preposição *a* exigida por *referiu-se* e a preposição *a* exigida por *aspira*.
-> - **B)** Correta. Ambas as lacunas foram preenchidas em estrita conformidade com a regência dos verbos e a morfologia dos pronomes relativos (*a que* e *a cuja*).
-> - **C)** Incorreta. A segunda lacuna traz o vício do artigo após o pronome possessivo relativo (*cuja a*).
-> - **D)** Incorreta. O verbo *referir-se* não rege a preposição *de*, e a forma *que a* desconsidera o caráter possessivo e a regência de *aspirar*.
-> - **E)** Incorreta. Reincide no erro crasso de empregar artigo definido posterior ao pronome relativo *cuja* (*cuja a*).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-Assinale a frase em que o sinal indicativo de crase está empregado em **estrita conformidade** com a norma culta:
-
-* **A)** *"A decisão do Tribunal Pleno foi comunicada à todas as autoridades presentes na assembleia."*
-* **B)** *"O conselheiro começou à redigir o voto conclusivo nas primeiras horas da manhã."*
-* **C)** *"Os auditores permaneceram frente à frente com os gestores investigados durante o depoimento."*
-* **D)** *"O recurso ordinário foi remetido diretamente àquela diretoria responsável pela fiscalização de obras."*
-* **E)** *"O presidente do órgão concedeu audiência à um grupo de manifestantes da área de saúde."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. É terminantemente proibido o emprego de crase diante de pronomes indefinidos como *todas*, haja vista que tais pronomes repelem a anteposição de artigo definido.
-> - **B)** Incorreta. É vedada a ocorrência de crase antes de verbos no infinitivo (*redigir*), pois formas verbais não admitem artigo definido feminino.
-> - **C)** Incorreta. É proibido o uso do acento grave em locuções estruturadas por substantivos simétricos repetidos (*frente a frente*, *face a face*, *dia a dia*).
-> - **D)** Correta. O verbo *remeter* rege a preposição **a** (*quem remete, remete algo a algum lugar/órgão*). Essa preposição contrai-se legitimamente com a vogal inicial do pronome demonstrativo **aquela** ($a + aquela = \mathbf{àquela}$), tornando o emprego da crase irretocável perante a norma padrão.
-> - **E)** Incorreta. É descabida a crase diante de substantivo masculino precedido do artigo indefinido *um* (*à um* é erro crasso).
-> 
-> **Gabarito: D**
-
----
-
-### Questão 04
-**(FCC – DPE-RS – Analista de Gestão Pública)**  
-No tocante às normas de **concordância nominal**, assinale a frase inteiramente correta:
-
-* **A)** *"Seguem anexo aos autos as cópias das certidões e os comprovantes de despesa pública."*
-* **B)** *"A servidora estava meia apreensiva diante das perguntas formuladas pela comissão de sindicância."*
-* **C)** *"Remeto a Vossas Excelências inclusas as planilhas financeiras com os cálculos atualizados do débito."*
-* **D)** *"Naquela secretaria estadual, havia menas servidoras lotadas no setor de tecnologia."*
-* **E)** *"É proibida entrada de pessoas sem identificação nas dependências do tribunal."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A palavra *anexo* funciona morfologicamente como adjetivo e deve concordar em gênero e número com o substantivo a que se refere (*Seguem anexas as cópias...*). Apenas a locução adverbial *em anexo* é invariável.
-> - **B)** Incorreta. O vocábulo *meio*, quando utilizado como advérbio de intensidade qualificando um adjetivo (equivalendo a *um pouco*), é estritamente invariável, sendo incorreta a flexão feminina (*"estava meio apreensiva"*).
-> - **C)** Correta. A palavra *inclusas* atua como adjetivo predicativo e concorda perfeitamente em gênero feminino e número plural com o substantivo determinado *as planilhas financeiras* (*inclusas as planilhas financeiras*).
-> - **D)** Incorreta. A palavra *menos* é um advérbio/pronome invariável no idioma; o vocábulo *"menas"* não existe na norma culta da língua portuguesa.
-> - **E)** Incorreta. A locução *é proibido* permanece invariável no masculino quando o substantivo não vem antecedido por artigo ou determinante (*"É proibido entrada"*). Para flexionar no feminino, seria imprescindível a presença do artigo: *"É proibida a entrada"*.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 05
-**(FCC – METRÔ-SP – Analista Jurídico)**  
-A respeito da regência do verbo **PREFERIR**, assinale a opção que atende à norma-padrão:
-
-* **A)** *"O diretor financeiro prefere antes investir em servidores modernos do que renovar contratos antigos."*
-* **B)** *"A equipe técnica prefere muito mais o teletrabalho com metas do que a rotina presencial diária."*
-* **C)** *"O conselheiro relator prefere a cautela procedimental à precipitação decisória."*
-* **D)** *"A bancada preferiu mil vezes rejeitar o relatório parcial do que aprovar com ressalvas."*
-* **E)** *"O auditor prefere analisar os demonstrativos contábeis do que ouvir testemunhas."*
-
-> **Comentário Detalhado:**
->
-> - O verbo **preferir** é Transitivo Direto e Indireto (VTDI). Ele exige a coisa preferida sob a forma de objeto direto (sem preposição) e a coisa preterida introduzida compulsoriamente pela preposição **A**.
-> - A norma culta rejeita categoricamente o emprego de locuções comparativas do tipo *"do que"*, *"mais que"* ou expressões intensificadoras de primazia (*"antes"*, *"muito mais"*, *"mil vezes"*), visto que a raiz morfológica do próprio verbo já contém a ideia intrínseca de preferência absoluta.
-> - **A)** Incorreta. Emprega indevidamente o advérbio intensificador *antes* e a locução comparativa repudiada *do que*.
-> - **B)** Incorreta. Contém o vício do uso do advérbio *muito mais* e da locução *do que*.
-> - **C)** Correta. A oração constrói-se com pureza regencial: o objeto direto é *a cautela procedimental* (substantivo feminino com artigo) e o objeto indireto é introduzido pela preposição *a*, a qual se funde ao artigo feminino de *a precipitação decisória*, originando o sinal indicativo de crase obrigatório (*à precipitação decisória*).
-> - **D)** Incorreta. Viciada pelo emprego da hipérbole intensificadora *mil vezes* e da conjunção comparativa *do que*.
-> - **E)** Incorreta. Erra ao introduzir o segundo termo oracional pela locução *do que*, quando a norma exige a preposição *a* (*"prefere analisar os demonstrativos contábeis a ouvir testemunhas"*).
-> 
-> **Gabarito: C**

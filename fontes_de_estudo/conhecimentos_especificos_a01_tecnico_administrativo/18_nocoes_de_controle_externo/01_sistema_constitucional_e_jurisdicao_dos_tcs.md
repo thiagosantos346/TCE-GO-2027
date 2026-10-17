@@ -42,7 +42,6 @@
 - [6. Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)](#6-eficacia-executiva-e-prescritibilidade-art-71-3o-e-tema-899-do-stf)
 - [7. Jurisdição Ampla e Independência das Instâncias](#7-jurisdicao-ampla-e-independencia-das-instancias)
 - [8. Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
-- [9. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -110,6 +109,29 @@ flowchart TD
 
 ---
 
+### Questão 01 (FCC - Adaptada / Analista de Controle Externo - TCE-GO)
+A Constituição do Estado de Goiás prevê a organização e o funcionamento do Tribunal de Contas do Estado (TCE-GO). Em consonância com o princípio da simetria constitucional federativa insculpido no artigo 75 da Constituição da República de 1988, o plenário do TCE-GO é composto por:
+
+* **A)** Nove Ministros, nomeados pelo Governador do Estado com aprovação do Senado Federal.
+* **B)** Sete Conselheiros, sendo quatro escolhidos pela Assembleia Legislativa e três pelo Governador do Estado com aprovação da Assembleia, cabendo a este indicar um dentre auditores e outro dentre membros do Ministério Público de Contas.
+* **C)** Onze Desembargadores de Contas, eleitos pelo voto secreto dos servidores efetivos do órgão e homologados pelo Poder Judiciário.
+* **D)** Cinco Conselheiros titulares e cinco suplentes, todos de livre nomeação e exoneração do Governador do Estado.
+* **E)** Sete Conselheiros, todos eleitos pelo Tribunal de Justiça a partir de lista sêxtupla de juristas e contadores públicos.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** O TCU compõe-se de nove Ministros (art. 73 da CF), mas os Tribunais de Contas Estaduais possuem sete Conselheiros. Além disso, a aprovação é da Assembleia Legislativa estadual, não do Senado.  
+> - **B) CORRETA:** Em virtude do princípio da simetria constitucional (art. 75 c/c art. 73, § 2º, da CF/88 e art. 27 da CE-GO), os TCEs possuem 7 Conselheiros: 4 indicados pela Assembleia Legislativa e 3 pelo Governador (aprovados pela Assembleia), devendo o Governador escolher alternadamente 1 auditor de controle externo (Conselheiro-Substituto) e 1 membro do Ministério Público de Contas, a partir de listas tríplices de merecimento e antiguidade.  
+> - **C) Incorreta:** Os membros dos TCs denominam-se Conselheiros nos Estados e não são eleitos por voto funcional de servidores.  
+> - **D) Incorreta:** A nomeação segue o modelo constitucional híbrido de 7 membros vitalícios, sendo vedada a livre exoneração pelo Governador.  
+> - **E) Incorreta:** O Tribunal de Justiça não possui assento na escolha do corpo deliberativo dos Tribunais de Contas.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3. Competências Constitucionais: Julgamento Técnico versus Parecer Prévio
 
 #### 3.1 Contas de Governo versus Contas de Gestão
@@ -146,74 +168,7 @@ flowchart LR
 
 ---
 
-### 5. Sustação de Atos Ilegais versus Sustação de Contratos Administrativos
-
-```mermaid
-flowchart TD
-    Ileg["Ilegalidade Grave Detectada pelo Tribunal de Contas"] --> Prazo["Assina prazo para a autoridade adotar medidas corretivas"]
-    Prazo --> NaoCumprido{"Autoridade NÃO cumpriu o prazo?"}
-    NaoCumprido -->|Se for ATO ADMINISTRATIVO| SustaAto["O próprio TRIBUNAL DE CONTAS susta o ato ilegal diretamente"]
-    NaoCumprido -->|Se for CONTRATO ADMINISTRATIVO| SustaCont["Competência originária do PODER LEGISLATIVO para sustar"]
-    SustaCont --> Omisso{"Legislativo foi omisso<br/>por 90 dias?"}
-    Omisso -->|SIM| TCDecide["O TRIBUNAL DE CONTAS assume a competência e decide sobre a sustação"]
-    Omisso -->|NÃO| LegAgiu["Legislativo susta ou pede providências ao Executivo"]
-```
-
-> ⭐ **IMPORTANTE:**  
-> A sustação direta e imediata de **contratos administrativos** é prerrogativa originária do **Poder Legislativo**. O Tribunal de Contas não pode sustar diretamente um contrato na primeira intervenção; ele comunica a Casa Legislativa e apenas decidirá sobre a sustação caso o parlamento e o Executivo permaneçam inertes por **noventa dias** (Art. 71, § 2º da CF/88).
-
----
-
-### 6. Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)
-- **Título Executivo Extrajudicial:** As decisões dos Tribunais de Contas que resultem em imputação de débito ou cominação de multa pecuniária ostentam eficácia de **título executivo extrajudicial**.
-- **Ajuizamento:** O crédito não é cobrado diretamente pelo Tribunal de Contas em juízo, pois o Tribunal não possui personalidade jurídica própria nem capacidade processual para executar créditos da Fazenda Pública. A cobrança é deflagrada pela **Procuradoria-Geral do Estado (PGE)** perante as Varas da Fazenda Pública, por meio de Ação de Execução Fiscal.
-- **Tema 899 do STF:** É **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, incidindo o prazo prescricional de **5 (cinco) anos**.
-
----
-
-### 7. Jurisdição Ampla e Independência das Instâncias
-- **Jurisdição Subjetiva Ampla (Art. 70, parágrafo único):** Prestará contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos ou pelos quais o Estado responda, ou que, em nome deste, assuma obrigações de natureza pecuniária.
-- **Terceiro Setor:** Organizações Sociais (OS), OSCIPs e entidades conveniadas submetem-se plenamente à jurisdição do Tribunal de Contas quanto aos recursos públicos repassados.
-- **Independência das Instâncias:** O processo no Tribunal de Contas é autônomo. A decisão absolutória no Tribunal de Contas não vincula nem impede a propositura de Ação Civil Pública de Improbidade Administrativa ou ação penal, salvo caso haja no juízo criminal sentença definitiva reconhecendo a **inexistência material do fato** ou a **negativa de autoria**.
-
----
-
-## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
-
-* [Constituição Federal de 1988 - Arts. 70 a 75 (Controle Externo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art70) - Fiscalização contábil, financeira, orçamentária, operacional e patrimonial da administração pública direta e indireta.
-* [Constituição do Estado de Goiás - Seção V (Do Tribunal de Contas do Estado)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Competências institucionais privativas do TCE-GO na fiscalização do erário estadual.
-* [Lei Estadual nº 16.168/2007 (Lei Orgânica do TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Estabelece a jurisdição, as competências e a organização do Tribunal de Contas do Estado de Goiás.
-* [TCE-GO - Competências Institucionais e Jurisdição](https://portal.tce.go.gov.br/competencias) - Portal institucional do TCE-GO detalhando sua competência julgadora, opinativa e fiscalizatória.
-* [STF Súmula Vinculante 3 (Contraditório nos Tribunais de Contas)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=3) - Garante ampla defesa e contraditório nos processos de contas perante as Cortes de Contas.
-* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 1 - Teoria Geral do Controle; Cap. 2 - O Controle Externo Constitucional).
-* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 1 e 2 - Competências e Jurisdição das Cortes de Contas).
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 17 - Controle da Administração Pública: Controle Legislativo e Tribunais de Contas).
-
-
-## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
-
-### Questão 1 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
-Em matéria de fiscalização contábil, financeira e orçamentária da Administração Pública, à luz da disciplina traçada na Constituição Federal de 1988 e do princípio da simetria constitucional, é correto afirmar:
-
-* **A)** A sustação de contrato administrativo eivado de ilegalidade grave deve ser determinada de imediato pelo próprio Tribunal de Contas, mediante medida cautelar unilateral, independentemente de prévia provocação ou comunicação ao Poder Legislativo.
-* **B)** A decisão do Tribunal de Contas de que resulte imputação de débito ou penalidade pecuniária de multa possui eficácia de título executivo judicial, cabendo à Secretaria-Geral do próprio Tribunal a sua execução forçada perante a vara cível competente.
-* **C)** No caso de irregularidade insanável em ato administrativo não contratual, verificado o desatendimento do prazo assinado para a adoção das providências cabíveis, o próprio Tribunal de Contas sustará a execução do ato impugnado.
-* **D)** O sistema de controle interno instituído no âmbito do Poder Executivo detém a competência constitucional exclusiva para julgar em caráter definitivo as contas dos ordenadores de despesas públicas.
-* **E)** As pessoas jurídicas de direito privado que recebem recursos públicos estaduais mediante parceria ou termo de colaboração não se submetem à jurisdição do Tribunal de Contas, cabendo a fiscalização unicamente ao órgão repassador originário.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** Conforme o art. 71, § 1º, da CF/88, no caso de contrato administrativo, o ato de sustação deve ser adotado primariamente pelo Poder Legislativo, que solicitará ao Poder Executivo as providências cabíveis. O Tribunal de Contas só ganha competência subsidiária se o Legislativo for omisso por noventa dias.  
-> - **B) Incorreta:** O art. 71, § 3º, confere eficácia de **título executivo extrajudicial** (e não judicial). Além disso, a cobrança dá-se pela Fazenda Pública estadual (PGE) e não pela Secretaria do Tribunal.  
-> - **C) CORRETA:** De acordo com o art. 71, X, da CF/88, compete ao Tribunal de Contas: *"sustar, se não atendido, a execução do ato impugnado, comunicando a decisão à Câmara dos Deputados e ao Senado Federal"* (ou à Assembleia Legislativa estadual).  
-> - **D) Incorreta:** O controle interno auxilia e apoia o controle externo (art. 74, IV), mas não tem atribuição jurisdicional para proferir julgamento definitivo de contas de gestão. O julgamento técnico definitivo é privativo do Tribunal de Contas (art. 71, II).  
-> - **E) Incorreta:** O art. 70, parágrafo único, estabelece que qualquer pessoa física ou jurídica, pública ou privada, que utilize, guarde, arrecade ou gerencie recursos públicos está sujeita à jurisdição do Tribunal de Contas.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC - Adaptada / TCE-AP - Técnico de Controle Externo)
+### Questão 02 (FCC - Adaptada / TCE-AP - Técnico de Controle Externo)
 Sobre a relação entre os sistemas de controle interno e externo e a atuação fiscalizatória dos Tribunais de Contas, assinale a opção correta:
 
 * **A)** Os responsáveis pelo controle interno que tomarem conhecimento de qualquer ilegalidade apurada na gestão e não derem imediata ciência ao Tribunal de Contas competente serão responsabilizados solidariamente pelo fato.
@@ -234,28 +189,89 @@ Sobre a relação entre os sistemas de controle interno e externo e a atuação 
 
 ---
 
-### Questão 3 (FCC - Adaptada / Analista de Controle Externo - TCE-GO)
-A Constituição do Estado de Goiás prevê a organização e o funcionamento do Tribunal de Contas do Estado (TCE-GO). Em consonância com o princípio da simetria constitucional federativa insculpido no artigo 75 da Constituição da República de 1988, o plenário do TCE-GO é composto por:
 
-* **A)** Nove Ministros, nomeados pelo Governador do Estado com aprovação do Senado Federal.
-* **B)** Sete Conselheiros, sendo quatro escolhidos pela Assembleia Legislativa e três pelo Governador do Estado com aprovação da Assembleia, cabendo a este indicar um dentre auditores e outro dentre membros do Ministério Público de Contas.
-* **C)** Onze Desembargadores de Contas, eleitos pelo voto secreto dos servidores efetivos do órgão e homologados pelo Poder Judiciário.
-* **D)** Cinco Conselheiros titulares e cinco suplentes, todos de livre nomeação e exoneração do Governador do Estado.
-* **E)** Sete Conselheiros, todos eleitos pelo Tribunal de Justiça a partir de lista sêxtupla de juristas e contadores públicos.
 
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O TCU compõe-se de nove Ministros (art. 73 da CF), mas os Tribunais de Contas Estaduais possuem sete Conselheiros. Além disso, a aprovação é da Assembleia Legislativa estadual, não do Senado.  
-> - **B) CORRETA:** Em virtude do princípio da simetria constitucional (art. 75 c/c art. 73, § 2º, da CF/88 e art. 27 da CE-GO), os TCEs possuem 7 Conselheiros: 4 indicados pela Assembleia Legislativa e 3 pelo Governador (aprovados pela Assembleia), devendo o Governador escolher alternadamente 1 auditor de controle externo (Conselheiro-Substituto) e 1 membro do Ministério Público de Contas, a partir de listas tríplices de merecimento e antiguidade.  
-> - **C) Incorreta:** Os membros dos TCs denominam-se Conselheiros nos Estados e não são eleitos por voto funcional de servidores.  
-> - **D) Incorreta:** A nomeação segue o modelo constitucional híbrido de 7 membros vitalícios, sendo vedada a livre exoneração pelo Governador.  
-> - **E) Incorreta:** O Tribunal de Justiça não possui assento na escolha do corpo deliberativo dos Tribunais de Contas.
-> 
-> **Gabarito: B**
+### 5. Sustação de Atos Ilegais versus Sustação de Contratos Administrativos
+
+```mermaid
+flowchart TD
+    Ileg["Ilegalidade Grave Detectada pelo Tribunal de Contas"] --> Prazo["Assina prazo para a autoridade adotar medidas corretivas"]
+    Prazo --> NaoCumprido{"Autoridade NÃO cumpriu o prazo?"}
+    NaoCumprido -->|Se for ATO ADMINISTRATIVO| SustaAto["O próprio TRIBUNAL DE CONTAS susta o ato ilegal diretamente"]
+    NaoCumprido -->|Se for CONTRATO ADMINISTRATIVO| SustaCont["Competência originária do PODER LEGISLATIVO para sustar"]
+    SustaCont --> Omisso{"Legislativo foi omisso<br/>por 90 dias?"}
+    Omisso -->|SIM| TCDecide["O TRIBUNAL DE CONTAS assume a competência e decide sobre a sustação"]
+    Omisso -->|NÃO| LegAgiu["Legislativo susta ou pede providências ao Executivo"]
+```
+
+> ⭐ **IMPORTANTE:**  
+> A sustação direta e imediata de **contratos administrativos** é prerrogativa originária do **Poder Legislativo**. O Tribunal de Contas não pode sustar diretamente um contrato na primeira intervenção; ele comunica a Casa Legislativa e apenas decidirá sobre a sustação caso o parlamento e o Executivo permaneçam inertes por **noventa dias** (Art. 71, § 2º da CF/88).
 
 ---
 
-### Questão 4 (FCC - Adaptada / Analista Jurídico de Controle)
+### Questão 03 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+Em matéria de fiscalização contábil, financeira e orçamentária da Administração Pública, à luz da disciplina traçada na Constituição Federal de 1988 e do princípio da simetria constitucional, é correto afirmar:
+
+* **A)** A sustação de contrato administrativo eivado de ilegalidade grave deve ser determinada de imediato pelo próprio Tribunal de Contas, mediante medida cautelar unilateral, independentemente de prévia provocação ou comunicação ao Poder Legislativo.
+* **B)** A decisão do Tribunal de Contas de que resulte imputação de débito ou penalidade pecuniária de multa possui eficácia de título executivo judicial, cabendo à Secretaria-Geral do próprio Tribunal a sua execução forçada perante a vara cível competente.
+* **C)** No caso de irregularidade insanável em ato administrativo não contratual, verificado o desatendimento do prazo assinado para a adoção das providências cabíveis, o próprio Tribunal de Contas sustará a execução do ato impugnado.
+* **D)** O sistema de controle interno instituído no âmbito do Poder Executivo detém a competência constitucional exclusiva para julgar em caráter definitivo as contas dos ordenadores de despesas públicas.
+* **E)** As pessoas jurídicas de direito privado que recebem recursos públicos estaduais mediante parceria ou termo de colaboração não se submetem à jurisdição do Tribunal de Contas, cabendo a fiscalização unicamente ao órgão repassador originário.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** Conforme o art. 71, § 1º, da CF/88, no caso de contrato administrativo, o ato de sustação deve ser adotado primariamente pelo Poder Legislativo, que solicitará ao Poder Executivo as providências cabíveis. O Tribunal de Contas só ganha competência subsidiária se o Legislativo for omisso por noventa dias.  
+> - **B) Incorreta:** O art. 71, § 3º, confere eficácia de **título executivo extrajudicial** (e não judicial). Além disso, a cobrança dá-se pela Fazenda Pública estadual (PGE) e não pela Secretaria do Tribunal.  
+> - **C) CORRETA:** De acordo com o art. 71, X, da CF/88, compete ao Tribunal de Contas: *"sustar, se não atendido, a execução do ato impugnado, comunicando a decisão à Câmara dos Deputados e ao Senado Federal"* (ou à Assembleia Legislativa estadual).  
+> - **D) Incorreta:** O controle interno auxilia e apoia o controle externo (art. 74, IV), mas não tem atribuição jurisdicional para proferir julgamento definitivo de contas de gestão. O julgamento técnico definitivo é privativo do Tribunal de Contas (art. 71, II).  
+> - **E) Incorreta:** O art. 70, parágrafo único, estabelece que qualquer pessoa física ou jurídica, pública ou privada, que utilize, guarde, arrecade ou gerencie recursos públicos está sujeita à jurisdição do Tribunal de Contas.
+> 
+> **Gabarito: C**
+
+---
+
+
+
+### 6. Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)
+- **Título Executivo Extrajudicial:** As decisões dos Tribunais de Contas que resultem em imputação de débito ou cominação de multa pecuniária ostentam eficácia de **título executivo extrajudicial**.
+- **Ajuizamento:** O crédito não é cobrado diretamente pelo Tribunal de Contas em juízo, pois o Tribunal não possui personalidade jurídica própria nem capacidade processual para executar créditos da Fazenda Pública. A cobrança é deflagrada pela **Procuradoria-Geral do Estado (PGE)** perante as Varas da Fazenda Pública, por meio de Ação de Execução Fiscal.
+- **Tema 899 do STF:** É **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, incidindo o prazo prescricional de **5 (cinco) anos**.
+
+---
+
+### Questão 04 (FCC - Adaptada / Auditor Governamental)
+Acórdão condenatório proferido pelo Tribunal de Contas imputou débito de R$ 300.000,00 e cominou multa de R$ 30.000,00 a ex-secretário municipal que desviou verbas do erário. O acórdão transitou em julgado administrativamente no Tribunal de Contas. Passados seis anos da decisão definitiva sem qualquer providência de cobrança por parte dos órgãos públicos, a Procuradoria do Município ajuizou execução fiscal contra o devedor. O executado opôs embargos alegando prescrição da pretensão de ressarcimento.
+
+Com fundamento no Tema 899 da Repercussão Geral fixado pelo Supremo Tribunal Federal:
+
+* **A)** A pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas é imprescritível por força do artigo 37, § 5º da Constituição Federal.
+* **B)** O prazo prescricional para execução do título de Tribunal de Contas é decadencial de vinte anos, conforme o Código Civil de 1916.
+* **C)** É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, aplicando-se o prazo prescricional de cinco anos previsto no Decreto nº 20.910/1932 e na Lei nº 9.873/1999.
+* **D)** As decisões dos Tribunais de Contas não possuem eficácia de título executivo, sendo obrigatório o ajuizamento de ação civil pública prévia.
+* **E)** A prescrição somente se opera se o Tribunal de Contas anular seu próprio acórdão de ofício mediante requerimento do Ministério Público de Contas.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** A tese da imprescritibilidade fixada pelo STF no Tema 897 aplica-se estritamente às ações de ressarcimento decorrentes de **atos dolosos de improbidade administrativa** ajuizadas pelo Ministério Público/Fazenda. No caso específico de execuções de títulos executivos oriundos de **Tribunais de Contas**, o STF fixou tese diversa no Tema 899.  
+> - **B) Incorreta:** O prazo não é vintenário nem disciplinado pelo antigo Código Civil, mas quinquenal (5 anos).  
+> - **C) CORRETA:** Conforme a tese fixada pelo STF no **Tema 899 de Repercussão Geral (RE 636.886)**: *"É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas."* Aplica-se o prazo prescricional de **cinco anos** das dívidas ativas da Fazenda Pública.  
+> - **D) Incorreta:** O art. 71, § 3º, da CF/88 outorga expressamente eficácia de título executivo às decisões do Tribunal de Contas.  
+> - **E) Incorreta:** A prescrição é matéria de ordem pública apreciada judicialmente nos embargos à execução, prescindindo de autotutela anulatória no TC.
+> 
+> **Gabarito: C**
+
+---
+
+
+
+### 7. Jurisdição Ampla e Independência das Instâncias
+- **Jurisdição Subjetiva Ampla (Art. 70, parágrafo único):** Prestará contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos ou pelos quais o Estado responda, ou que, em nome deste, assuma obrigações de natureza pecuniária.
+- **Terceiro Setor:** Organizações Sociais (OS), OSCIPs e entidades conveniadas submetem-se plenamente à jurisdição do Tribunal de Contas quanto aos recursos públicos repassados.
+- **Independência das Instâncias:** O processo no Tribunal de Contas é autônomo. A decisão absolutória no Tribunal de Contas não vincula nem impede a propositura de Ação Civil Pública de Improbidade Administrativa ou ação penal, salvo caso haja no juízo criminal sentença definitiva reconhecendo a **inexistência material do fato** ou a **negativa de autoria**.
+
+---
+
+### Questão 05 (FCC - Adaptada / Analista Jurídico de Controle)
 Determinada organização social (OS) celebrou contrato de gestão com a Secretaria de Saúde do Estado de Goiás para operacionalização de hospital público regional, recebendo expressivo montante de recursos estaduais. Uma auditoria interna identificou pagamentos a fornecedores fantasmas sem a respectiva entrega de insumos farmacêuticos. O Tribunal de Contas do Estado instaurou processo de tomada de contas especial e intimou o diretor da entidade privada para apresentar defesa.
 
 Em sede preliminar, o gestor privado alegou incompetência absoluta do Tribunal de Contas, afirmando que pessoas jurídicas de direito privado não integram a Administração Pública e, por isso, estão imunes ao controle externo exercido pelo órgão fiscalizador.
@@ -280,23 +296,15 @@ Considerando o texto da Constituição Federal de 1988 e a jurisprudência domin
 
 ---
 
-### Questão 5 (FCC - Adaptada / Auditor Governamental)
-Acórdão condenatório proferido pelo Tribunal de Contas imputou débito de R$ 300.000,00 e cominou multa de R$ 30.000,00 a ex-secretário municipal que desviou verbas do erário. O acórdão transitou em julgado administrativamente no Tribunal de Contas. Passados seis anos da decisão definitiva sem qualquer providência de cobrança por parte dos órgãos públicos, a Procuradoria do Município ajuizou execução fiscal contra o devedor. O executado opôs embargos alegando prescrição da pretensão de ressarcimento.
 
-Com fundamento no Tema 899 da Repercussão Geral fixado pelo Supremo Tribunal Federal:
 
-* **A)** A pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas é imprescritível por força do artigo 37, § 5º da Constituição Federal.
-* **B)** O prazo prescricional para execução do título de Tribunal de Contas é decadencial de vinte anos, conforme o Código Civil de 1916.
-* **C)** É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, aplicando-se o prazo prescricional de cinco anos previsto no Decreto nº 20.910/1932 e na Lei nº 9.873/1999.
-* **D)** As decisões dos Tribunais de Contas não possuem eficácia de título executivo, sendo obrigatório o ajuizamento de ação civil pública prévia.
-* **E)** A prescrição somente se opera se o Tribunal de Contas anular seu próprio acórdão de ofício mediante requerimento do Ministério Público de Contas.
+## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** A tese da imprescritibilidade fixada pelo STF no Tema 897 aplica-se estritamente às ações de ressarcimento decorrentes de **atos dolosos de improbidade administrativa** ajuizadas pelo Ministério Público/Fazenda. No caso específico de execuções de títulos executivos oriundos de **Tribunais de Contas**, o STF fixou tese diversa no Tema 899.  
-> - **B) Incorreta:** O prazo não é vintenário nem disciplinado pelo antigo Código Civil, mas quinquenal (5 anos).  
-> - **C) CORRETA:** Conforme a tese fixada pelo STF no **Tema 899 de Repercussão Geral (RE 636.886)**: *"É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas."* Aplica-se o prazo prescricional de **cinco anos** das dívidas ativas da Fazenda Pública.  
-> - **D) Incorreta:** O art. 71, § 3º, da CF/88 outorga expressamente eficácia de título executivo às decisões do Tribunal de Contas.  
-> - **E) Incorreta:** A prescrição é matéria de ordem pública apreciada judicialmente nos embargos à execução, prescindindo de autotutela anulatória no TC.
-> 
-> **Gabarito: C**
+* [Constituição Federal de 1988 - Arts. 70 a 75 (Controle Externo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art70) - Fiscalização contábil, financeira, orçamentária, operacional e patrimonial da administração pública direta e indireta.
+* [Constituição do Estado de Goiás - Seção V (Do Tribunal de Contas do Estado)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Competências institucionais privativas do TCE-GO na fiscalização do erário estadual.
+* [Lei Estadual nº 16.168/2007 (Lei Orgânica do TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Estabelece a jurisdição, as competências e a organização do Tribunal de Contas do Estado de Goiás.
+* [TCE-GO - Competências Institucionais e Jurisdição](https://portal.tce.go.gov.br/competencias) - Portal institucional do TCE-GO detalhando sua competência julgadora, opinativa e fiscalizatória.
+* [STF Súmula Vinculante 3 (Contraditório nos Tribunais de Contas)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=3) - Garante ampla defesa e contraditório nos processos de contas perante as Cortes de Contas.
+* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 1 - Teoria Geral do Controle; Cap. 2 - O Controle Externo Constitucional).
+* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 1 e 2 - Competências e Jurisdição das Cortes de Contas).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 17 - Controle da Administração Pública: Controle Legislativo e Tribunais de Contas).

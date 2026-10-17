@@ -44,7 +44,6 @@
     - [4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)](#42-mensuracao-de-estoques-publicos-para-distribuicao-gratuita-nbc-tsp-04)
     - [4.3 Ativo Imobilizado e Depreciação Sistemática (NBC TSP 07)](#43-ativo-imobilizado-e-depreciacao-sistematica-nbc-tsp-07)
 - [5. Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
-- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -71,6 +70,30 @@ No setor empresarial privado, um item é classificado como ativo porque tem o po
 No setor público, a grande maioria dos ativos controlados pelo Estado (escolas públicas, postos de saúde, pontes, praças, viaturas policiais e sistemas de esgoto) não se destina a gerar lucro financeiro, mas sim a **atender necessidades coletivas e prestar serviços públicos gratuitos ou subsidiados à sociedade**.  
 Por essa razão, a Estrutura Conceitual da NBC TSP introduziu o conceito de **potencial de serviços**:
 > *"Potencial de serviços é a capacidade de gerar serviços que contribuam para alcançar os objetivos da entidade pública, sem necessariamente gerar fluxos de caixa líquidos positivos."*
+
+---
+
+### Questão 01 (FCC - Adaptada / Analista Contábil)
+A respeito do conceito de Ativo no setor público preconizado na NBC TSP Estrutura Conceitual, assinale a opção correta:
+
+* **A)** A capacidade de um bem público gerar fluxos futuros de caixa positivos é requisito indispensável para sua classificação como ativo governamental.
+* **B)** Um recurso pode ser reconhecido como ativo no setor público quando a entidade possui o controle do recurso, decorrente de evento passado, e do qual se espera a geração de benefícios econômicos ou potencial de serviços.
+* **C)** Bens de uso comum do povo, como rodovias e praças públicas, não podem ser classificados como ativos patrimoniais em virtude de sua inalienabilidade civil.
+* **D)** A titularidade da propriedade jurídica formal é elemento obrigatório e insubstituível para o reconhecimento de qualquer ativo no setor público.
+* **E)** Os ativos intangíveis desenvolvidos pelo ente público são vedados na contabilidade governamental por ausência de valor físico tangível.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No setor público, a esmagadora maioria dos bens não gera fluxos de caixa positivos, mas gera potencial de serviços essenciais à coletividade.
+> - **B)** Correta. Reproduz a definição clássica da NBC TSP EC: ativo é um recurso controlado no presente pela entidade em decorrência de eventos passados, do qual se espera a geração de benefícios econômicos futuros ou potencial de serviços.
+> - **C)** Incorreta. Bens de uso comum do povo integram o patrimônio público e compõem o Ativo Não Circulante (Imobilizado de infraestrutura) quando controlados pelo ente.
+> - **D)** Incorreta. O elemento central para o reconhecimento é o controle econômico e não a propriedade jurídica formal, prevalecendo a primazia da essência econômica sobre a forma jurídica (ex.: arrendamento mercantil financeiro).
+> - **E)** Incorreta. Ativos intangíveis (sistemas de TI, softwares, licenças) são plenamente reconhecidos no Ativo Não Circulante (Intangível) conforme a NBC TSP 08.
+> 
+> **Gabarito: B**
+
+---
+
 
 #### 1.3 Usuários Primários e Objetivos Centrais dos RCPGs
 Conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes **usuários primários**:
@@ -108,6 +131,32 @@ flowchart TD
 4. **Tempestividade:** Significa disponibilizar a informação aos tomadores de decisão antes que ela perca sua capacidade de influenciar decisões. Uma informação contábil perfeita, mas disponibilizada com anos de atraso, perde sua utilidade gerencial.
 5. **Comparabilidade:** Permite aos usuários identificar semelhanças e diferenças entre diferentes entidades governamentais no mesmo período (comparabilidade espacial) ou em relação à mesma entidade ao longo de exercícios sucessivos (comparabilidade temporal). Requer consistência na aplicação de políticas e planos de contas.
 6. **Verificabilidade:** Qualidade que assegura aos usuários que a informação representa fidedignamente o que se propõe a representar, possibilitando que diferentes auditores e observadores independentes e capacitados cheguem a um consenso razoável sobre a exatidão das conclusões.
+
+---
+
+### Questão 02 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+A Estrutura Conceitual das Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP EC) estabelece as características qualitativas da informação contábil incluída nos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs).
+
+A característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens e fenômenos econômicos, seja entre diferentes entidades do setor público, seja em relação à mesma entidade ao longo de períodos contábeis consecutivos, denomina-se:
+
+* **A)** Compreensibilidade.
+* **B)** Comparabilidade.
+* **C)** Tempestividade.
+* **D)** Representação fidedigna.
+* **E)** Verificabilidade.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Compreensibilidade é a qualidade que possibilita a rápida compreensão do significado da informação contábil por usuários com conhecimento razoável.
+> - **B)** Correta. A Comparabilidade é definida textualmente na NBC TSP EC como a característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens, cobrindo tanto a comparação temporal (mesma entidade ao longo de exercícios sucessivos) quanto a comparação espacial (entre diferentes órgãos e entidades públicas).
+> - **C)** Incorreta. Tempestividade refere-se à disponibilização da informação em tempo oportuno para influenciar julgamentos e decisões.
+> - **D)** Incorreta. Representação fidedigna significa retratar com completude, neutralidade e ausência de erro material a substância dos eventos econômicos.
+> - **E)** Incorreta. Verificabilidade é a qualidade que assegura que diferentes observadores independentes e capacitados cheguem a um consenso razoável sobre a informação apresentada.
+> 
+> **Gabarito: B**
+
+---
+
 
 #### 2.2 Restrições Inerentes: Custo-Benefício e Materialidade
 - **Custo-Benefício:** Os benefícios derivados da informação devem exceder os custos decorrentes de sua coleta, processamento e divulgação.
@@ -167,59 +216,9 @@ flowchart TD
 > - O risco **possível** é apenas divulgado em Notas Explicativas (**Passivo Contingente**);  
 > - O risco **remoto** é sumariamente ignorado (sem registro e sem nota explicativa).
 
-#### 4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)
-- **Regra Mercantil Comum:** Estoques são avaliados pelo menor valor entre o custo histórico e o valor realizável líquido (preço estimado de venda menos despesas de concretização).
-- **Regra Específica do Setor Público (Distribuição Gratuita):**  
-  Quando os estoques forem mantidos para **distribuição gratuita ou por valor simbólico** (ex.: medicamentos e vacinas do SUS, kits de merenda escolar, livros didáticos), eles devem ser mensurados pelo **menor valor entre o custo histórico de aquisição e o CUSTO CORRENTE DE REPOSIÇÃO**!  
-  *(Fundamento: como esses bens públicos não se destinam à venda comercial, o conceito de "preço de venda/valor realizável líquido" é economicamente inaplicável).*
-
-#### 4.3 Ativo Imobilizado e Depreciação Sistemática (NBC TSP 07)
-- **Mensuração Inicial:** O ativo imobilizado é reconhecido inicialmente pelo seu custo histórico (preço de aquisição somado a todas as despesas diretamente atribuíveis para colocar o bem em condições operacionais de uso).
-- **Depreciação Periódica:** Consiste na alocação sistemática do valor depreciável de um bem ativo ao longo de sua vida útil estimada. Reconhece-se a perda de potencial de serviços por uso, desgaste natural ou obsolescência tecnológica:
-    - **Lançamento Contábil:**
-    - `D` - Variação Patrimonial Diminutiva (VPD - Depreciação);
-    - `C` - Depreciação Acumulada (Conta retificadora do Ativo Imobilizado).
-
 ---
 
-## 🌐 Fontes Oficiais & Normativas Recomendadas
-
-* [CFC - NBC TSP Estrutura Conceitual](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSPEC) - Norma brasileira do Conselho Federal de Contabilidade alinhada aos padrões internacionais do IPSASB para o setor público.
-* [Tesouro Transparente - MCASP 11ª Edição (Visão Geral e Estrutura Conceitual)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Manual oficial da STN sobre princípios contábeis fundamentais e convergência às normas internacionais.
-* [Lei Federal nº 4.320/1964 - Título IX (Da Contabilidade)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Disposições gerais sobre a contabilidade orçamentária, patrimonial e financeira.
-* [Decreto nº 10.540/2020 (Padrão Mínimo do SIAFIC)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10540.htm) - Define o padrão mínimo de qualidade do Sistema Único e Integrado de Execução Orçamentária, Administração Financeira e Controle.
-* [TCE-GO - Competências Institucionais e Fiscalização Contábil](https://portal.tce.go.gov.br/competencias) - Atuação fiscalizatória da conformidade dos registros contábeis no âmbito do Estado de Goiás.
-* CONSELHO FEDERAL DE CONTABILIDADE. **Normas Brasileiras de Contabilidade: NBC TSP — Estrutura Conceitual para Elaboração e Divulgação de Informação Contábil de Propósito Geral pelas Entidades do Setor Público**. Brasília: CFC, 2016.
-* BEZERRA FILHO, João Eudes. **Contabilidade Aplicada ao Setor Público: Teoria e Exercícios**. 3. ed. São Paulo: Atlas, 2021. (Cap. 1 - Origens e Evolução da Contabilidade Pública; Cap. 2 - A Estrutura Conceitual da NBC TSP).
-* KOHAMA, Heilio. **Contabilidade Pública: Teoria e Prática**. 15. ed. São Paulo: Atlas, 2016. (Cap. 1 e 2 - Fundamentos da CASP).
-
-
-## 📝 Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
-A Estrutura Conceitual das Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP EC) estabelece as características qualitativas da informação contábil incluída nos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs).
-
-A característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens e fenômenos econômicos, seja entre diferentes entidades do setor público, seja em relação à mesma entidade ao longo de períodos contábeis consecutivos, denomina-se:
-
-* **A)** Compreensibilidade.
-* **B)** Comparabilidade.
-* **C)** Tempestividade.
-* **D)** Representação fidedigna.
-* **E)** Verificabilidade.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Compreensibilidade é a qualidade que possibilita a rápida compreensão do significado da informação contábil por usuários com conhecimento razoável.
-> - **B)** Correta. A Comparabilidade é definida textualmente na NBC TSP EC como a característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens, cobrindo tanto a comparação temporal (mesma entidade ao longo de exercícios sucessivos) quanto a comparação espacial (entre diferentes órgãos e entidades públicas).
-> - **C)** Incorreta. Tempestividade refere-se à disponibilização da informação em tempo oportuno para influenciar julgamentos e decisões.
-> - **D)** Incorreta. Representação fidedigna significa retratar com completude, neutralidade e ausência de erro material a substância dos eventos econômicos.
-> - **E)** Incorreta. Verificabilidade é a qualidade que assegura que diferentes observadores independentes e capacitados cheguem a um consenso razoável sobre a informação apresentada.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Questão 03 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
 A Procuradoria-Geral de determinado Estado foi intimada de ação judicial de grande repercussão econômica proposta por consórcio de empreiteiras cobrando reequilíbrio econômico-financeiro de contrato de obras. O departamento jurídico do Estado avaliou o risco de perda da ação judicial como **provável** e mensurou com segurança razoável o valor do desembolso futuro estimado em R$ 15.000.000,00.
 
 Consoante as disposições da NBC TSP 03 e do Manual de Contabilidade Aplicada ao Setor Público (MCASP):
@@ -242,7 +241,39 @@ Consoante as disposições da NBC TSP 03 e do Manual de Contabilidade Aplicada a
 
 ---
 
-### Questão 3 (FCC - Adaptada / Analista de Gestão Pública - Contabilidade)
+### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+Em determinado processo judicial em trâmite na Justiça do Trabalho contra uma autarquia estadual, a assessoria jurídica emitiu parecer formal classificando o risco de condenação e perda patrimonial da entidade como **possível**, sem possibilidade de definição precisa de valores no momento.
+
+Em observância à NBC TSP 03 e ao MCASP, a conduta contábil adequada a ser adotada pela autarquia é:
+
+* **A)** Reconhecer imediatamente uma provisão no Passivo Não Circulante pelo valor estimado pelo autor da ação.
+* **B)** Não efetuar lançamento contábil de provisão no Balanço Patrimonial, divulgando as informações relevantes sobre o passivo contingente em Notas Explicativas.
+* **C)** Deixar de efetuar qualquer lançamento contábil e dispensar a divulgação em notas explicativas em virtude do princípio do sigilo processual.
+* **D)** Registrar uma Variação Patrimonial Aumentativa para neutralizar o impacto financeiro futuro.
+* **E)** Solicitar abertura imediata de crédito adicional extraordinário para cobertura judicial.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O reconhecimento de provisão no Balanço Patrimonial é cabível apenas e tão somente quando o risco de saída de recursos for classificado como provável.
+> - **B)** Correta. De acordo com a NBC TSP 03, quando a probabilidade de desembolso futuro for classificada como possível, a obrigação consubstancia um Passivo Contingente: não deve ser reconhecida no Balanço Patrimonial, mas deve ser compulsoriamente divulgada em Notas Explicativas, especificando a natureza da ação e as incertezas existentes.
+> - **C)** Incorreta. A dispensa de notas explicativas ocorre unicamente quando a probabilidade de perda for remota.
+> - **D)** Incorreta. Ação indenizatória contra a entidade jamais configurará VPA (ganho patrimonial).
+> - **E)** Incorreta. Crédito extraordinário destina-se exclusivamente a calamidades, guerra e comoção interna.
+> 
+> **Gabarito: B**
+
+---
+
+
+#### 4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)
+- **Regra Mercantil Comum:** Estoques são avaliados pelo menor valor entre o custo histórico e o valor realizável líquido (preço estimado de venda menos despesas de concretização).
+- **Regra Específica do Setor Público (Distribuição Gratuita):**  
+  Quando os estoques forem mantidos para **distribuição gratuita ou por valor simbólico** (ex.: medicamentos e vacinas do SUS, kits de merenda escolar, livros didáticos), eles devem ser mensurados pelo **menor valor entre o custo histórico de aquisição e o CUSTO CORRENTE DE REPOSIÇÃO**!  
+  *(Fundamento: como esses bens públicos não se destinam à venda comercial, o conceito de "preço de venda/valor realizável líquido" é economicamente inaplicável).*
+
+---
+
+### Questão 05 (FCC - Adaptada / Analista de Gestão Pública - Contabilidade)
 No âmbito do setor público, a Secretaria de Estado da Saúde de Goiás mantém em seus depósitos centrais vultosos estoques de vacinas e medicamentos essenciais destinados exclusivamente à distribuição gratuita à população nos postos de saúde da rede pública.
 
 De acordo com as regras de mensuração de estoques contidas na NBC TSP 04:
@@ -265,44 +296,23 @@ De acordo com as regras de mensuração de estoques contidas na NBC TSP 04:
 
 ---
 
-### Questão 4 (FCC - Adaptada / Analista Contábil)
-A respeito do conceito de Ativo no setor público preconizado na NBC TSP Estrutura Conceitual, assinale a opção correta:
 
-* **A)** A capacidade de um bem público gerar fluxos futuros de caixa positivos é requisito indispensável para sua classificação como ativo governamental.
-* **B)** Um recurso pode ser reconhecido como ativo no setor público quando a entidade possui o controle do recurso, decorrente de evento passado, e do qual se espera a geração de benefícios econômicos ou potencial de serviços.
-* **C)** Bens de uso comum do povo, como rodovias e praças públicas, não podem ser classificados como ativos patrimoniais em virtude de sua inalienabilidade civil.
-* **D)** A titularidade da propriedade jurídica formal é elemento obrigatório e insubstituível para o reconhecimento de qualquer ativo no setor público.
-* **E)** Os ativos intangíveis desenvolvidos pelo ente público são vedados na contabilidade governamental por ausência de valor físico tangível.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. No setor público, a esmagadora maioria dos bens não gera fluxos de caixa positivos, mas gera potencial de serviços essenciais à coletividade.
-> - **B)** Correta. Reproduz a definição clássica da NBC TSP EC: ativo é um recurso controlado no presente pela entidade em decorrência de eventos passados, do qual se espera a geração de benefícios econômicos futuros ou potencial de serviços.
-> - **C)** Incorreta. Bens de uso comum do povo integram o patrimônio público e compõem o Ativo Não Circulante (Imobilizado de infraestrutura) quando controlados pelo ente.
-> - **D)** Incorreta. O elemento central para o reconhecimento é o controle econômico e não a propriedade jurídica formal, prevalecendo a primazia da essência econômica sobre a forma jurídica (ex.: arrendamento mercantil financeiro).
-> - **E)** Incorreta. Ativos intangíveis (sistemas de TI, softwares, licenças) são plenamente reconhecidos no Ativo Não Circulante (Intangível) conforme a NBC TSP 08.
-> 
-> **Gabarito: B**
+#### 4.3 Ativo Imobilizado e Depreciação Sistemática (NBC TSP 07)
+- **Mensuração Inicial:** O ativo imobilizado é reconhecido inicialmente pelo seu custo histórico (preço de aquisição somado a todas as despesas diretamente atribuíveis para colocar o bem em condições operacionais de uso).
+- **Depreciação Periódica:** Consiste na alocação sistemática do valor depreciável de um bem ativo ao longo de sua vida útil estimada. Reconhece-se a perda de potencial de serviços por uso, desgaste natural ou obsolescência tecnológica:
+    - **Lançamento Contábil:**
+    - `D` - Variação Patrimonial Diminutiva (VPD - Depreciação);
+    - `C` - Depreciação Acumulada (Conta retificadora do Ativo Imobilizado).
 
 ---
 
-### Questão 5 (FCC - Adaptada / Auditor de Controle Externo)
-Em determinado processo judicial em trâmite na Justiça do Trabalho contra uma autarquia estadual, a assessoria jurídica emitiu parecer formal classificando o risco de condenação e perda patrimonial da entidade como **possível**, sem possibilidade de definição precisa de valores no momento.
+## 🌐 Fontes Oficiais & Normativas Recomendadas
 
-Em observância à NBC TSP 03 e ao MCASP, a conduta contábil adequada a ser adotada pela autarquia é:
-
-* **A)** Reconhecer imediatamente uma provisão no Passivo Não Circulante pelo valor estimado pelo autor da ação.
-* **B)** Não efetuar lançamento contábil de provisão no Balanço Patrimonial, divulgando as informações relevantes sobre o passivo contingente em Notas Explicativas.
-* **C)** Deixar de efetuar qualquer lançamento contábil e dispensar a divulgação em notas explicativas em virtude do princípio do sigilo processual.
-* **D)** Registrar uma Variação Patrimonial Aumentativa para neutralizar o impacto financeiro futuro.
-* **E)** Solicitar abertura imediata de crédito adicional extraordinário para cobertura judicial.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O reconhecimento de provisão no Balanço Patrimonial é cabível apenas e tão somente quando o risco de saída de recursos for classificado como provável.
-> - **B)** Correta. De acordo com a NBC TSP 03, quando a probabilidade de desembolso futuro for classificada como possível, a obrigação consubstancia um Passivo Contingente: não deve ser reconhecida no Balanço Patrimonial, mas deve ser compulsoriamente divulgada em Notas Explicativas, especificando a natureza da ação e as incertezas existentes.
-> - **C)** Incorreta. A dispensa de notas explicativas ocorre unicamente quando a probabilidade de perda for remota.
-> - **D)** Incorreta. Ação indenizatória contra a entidade jamais configurará VPA (ganho patrimonial).
-> - **E)** Incorreta. Crédito extraordinário destina-se exclusivamente a calamidades, guerra e comoção interna.
-> 
-> **Gabarito: B**
+* [CFC - NBC TSP Estrutura Conceitual](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSPEC) - Norma brasileira do Conselho Federal de Contabilidade alinhada aos padrões internacionais do IPSASB para o setor público.
+* [Tesouro Transparente - MCASP 11ª Edição (Visão Geral e Estrutura Conceitual)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Manual oficial da STN sobre princípios contábeis fundamentais e convergência às normas internacionais.
+* [Lei Federal nº 4.320/1964 - Título IX (Da Contabilidade)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Disposições gerais sobre a contabilidade orçamentária, patrimonial e financeira.
+* [Decreto nº 10.540/2020 (Padrão Mínimo do SIAFIC)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10540.htm) - Define o padrão mínimo de qualidade do Sistema Único e Integrado de Execução Orçamentária, Administração Financeira e Controle.
+* [TCE-GO - Competências Institucionais e Fiscalização Contábil](https://portal.tce.go.gov.br/competencias) - Atuação fiscalizatória da conformidade dos registros contábeis no âmbito do Estado de Goiás.
+* CONSELHO FEDERAL DE CONTABILIDADE. **Normas Brasileiras de Contabilidade: NBC TSP — Estrutura Conceitual para Elaboração e Divulgação de Informação Contábil de Propósito Geral pelas Entidades do Setor Público**. Brasília: CFC, 2016.
+* BEZERRA FILHO, João Eudes. **Contabilidade Aplicada ao Setor Público: Teoria e Exercícios**. 3. ed. São Paulo: Atlas, 2021. (Cap. 1 - Origens e Evolução da Contabilidade Pública; Cap. 2 - A Estrutura Conceitual da NBC TSP).
+* KOHAMA, Heilio. **Contabilidade Pública: Teoria e Prática**. 15. ed. São Paulo: Atlas, 2016. (Cap. 1 e 2 - Fundamentos da CASP).

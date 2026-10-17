@@ -36,7 +36,6 @@
     - [3.3 Algoritmos de Busca Aproximada por Vizinhos Mais Próximos (ANN)](#33-algoritmos-de-busca-aproximada-por-vizinhos-mais-proximos-ann)
     - [3.4 Ecossistema Tecnológico: Extensão pgvector e Bancos Nativos](#34-ecossistema-tecnologico-extensao-pgvector-e-bancos-nativos)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [4. Questões Comentadas (FCC)](#4-questoes-comentadas-fcc)
 
 ---
 
@@ -70,6 +69,39 @@ O Teorema CAP afirma que em qualquer sistema distribuído de armazenamento de da
 > - **Sistemas CP:** Priorizam Consistência. Em caso de quebra de partição, os nós isolados rejeitam requisições para evitar leituras defasadas ou escritas conflitantes (sacrificam a Disponibilidade). Exemplos: MongoDB, Redis Cluster, HBase, CockroachDB.
 > - **Sistemas AP:** Priorizam Disponibilidade. Em caso de quebra de rede, todos os nós continuam respondendo a leituras e escritas, tolerando que réplicas fiquem temporariamente desatualizadas e sincronizem depois via Consistência Eventual (sacrificam a Consistência imediata). Exemplos: Apache Cassandra, CouchDB, DynamoDB (em configuração padrão).
 
+---
+
+### Questão 01
+**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
+Um arquiteto de software de um tribunal público avalia a infraestrutura de dados para dois projetos de modernização institucional:
+
+1. Uma plataforma analítica de combate à corrupção encarregada de mapear redes de parentesco, cruzamento de quadros societários e rastreamento de laranjas em contratações de órgãos jurisdicionados.
+2. Um serviço de autenticação e controle de tráfego de alta concorrência que demanda armazenamento em memória de tokens transitórios de acesso e sessões de usuários com tempo de vida definido (TTL).
+
+Considerando as famílias NoSQL mais eficientes para os casos e as regras de sistemas distribuídos do Teorema CAP, é correto afirmar:
+
+* **A)** O Projeto 1 deve utilizar Banco Chave-Valor; o Projeto 2 deve utilizar Banco de Grafos; e sistemas distribuídos sob partição de rede garantem Consistência e Disponibilidade plenas simultaneamente.
+* **B)** O Projeto 1 deve utilizar Banco de Grafos (ex.: Neo4j); o Projeto 2 deve utilizar Banco Chave-Valor em memória (ex.: Redis); e, em sistemas distribuídos sob partição de rede (P), é compulsório optar entre Consistência estrita (C) ou Disponibilidade (A).
+* **C)** O Projeto 1 deve utilizar Banco de Famílias de Colunas; o Projeto 2 deve utilizar Banco de Documentos; e o Teorema CAP não se aplica a arquiteturas NoSQL com persistência em disco.
+* **D)** O Projeto 1 deve utilizar Banco de Documentos; o Projeto 2 deve utilizar Banco Relacional Monolítico; e o modelo BASE substitui integralmente a necessidade de tolerância a partições físicas.
+* **E)** O Projeto 1 deve utilizar Banco de Séries Temporais; o Projeto 2 deve utilizar Banco Orientado a Objetos; e transações ACID distribuídas mantêm disponibilidade total mesmo com isolamento físico de rede entre datacenters.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Houve inversão completa das soluções tecnológicas indicadas, além da afirmação errônea de que é possível garantir C e A simultaneamente na vigência de partições de rede.
+> - **B)** **Correta.** 
+>     - No Projeto 1, a análise de redes societárias e parentescos exige travessia profunda e multidirecional de arestas; o modelo de **Grafos** (como o Neo4j) é a solução sob medida, viabilizando navegação com custo $\mathcal{O}(1)$ por nó explorado (*Index-free Adjacency*).
+>     - No Projeto 2, o gerenciamento de sessões com expiração automática (TTL) requer armazenamento ultrarrápido em RAM; o modelo **Chave-Valor** (como o Redis) é o padrão da indústria.
+>     - Pelo **Teorema CAP**, como falhas de comunicação em rede física (**P**) são contingências inevitáveis em sistemas distribuídos, o arquiteto é obrigado a arbitrar entre **Consistência (C)** ou **Disponibilidade (A)** durante o evento de partição.
+> - **C)** Incorreta. Bancos de famílias de colunas são otimizados para ingestão massiva e séries temporais, sendo inadequados para travessia de grafos de relacionamentos em teia; ademais, o Teorema CAP aplica-se formalmente a qualquer sistema distribuído em rede.
+> - **D)** Incorreta. O modelo de documentos lida com coleções semiestruturadas em árvore, sendo ineficiente para detectar conexões de grafos em anel ou cíclicas sem múltiplos loops de aplicação.
+> - **E)** Incorreta. Sistemas distribuídos com particionamento de rede não conseguem sustentar ACID clássico pleno sem degradar totalmente a disponibilidade do sistema perante os clientes dos nós isolados.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 1.2 O Teorema PACELC
 
 Formulado pelo professor Daniel Abadi, o Teorema PACELC expande o Teorema CAP para descrever o comportamento do sistema não apenas durante desastres de rede, mas também em condições de operação normal:
@@ -91,6 +123,30 @@ Enquanto os bancos relacionais transacionais regem-se pelo rigor determinístico
 | **D - Durabilidade:** Os dados comitados persistem permanentemente em disco, resistindo a falhas elétricas. | **Propagação de Réplicas:** Replicação assíncrona tolerante a latência, utilizando protocolos como *Gossip Protocol* e algoritmos de quórum configuráveis ($R + W > N$). |
 
 ---
+
+### Questão 02
+**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+Em ambientes de computação distribuída e bancos de dados NoSQL projetados para suportar partições de rede com alta disponibilidade, a teoria de sistemas adota com frequência o modelo **BASE** em contraposição ao modelo **ACID** dos SGBDs relacionais clássicos. O pilar fundamental do modelo BASE que estabelece que, se nenhuma nova atualização for enviada ao sistema, ao longo do tempo todas as réplicas convergentes propagarão seus dados e alcançarão o mesmo estado consolidado é denominado:
+
+* **A)** Soft State.
+* **B)** Basically Available.
+* **C)** Eventual Consistency.
+* **D)** Strict Serializability.
+* **E)** Atomic Broadcast.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. *Soft State* (Estado Maleável) estabelece que o estado dos nós do cluster pode mudar ou oscilar com o tempo por sincronização de réplicas em segundo plano, mesmo que não haja novas entradas externas.
+> - **B)** Incorreta. *Basically Available* (Disponibilidade Básica) determina que o sistema continuará operando e respondendo aos clientes de maneira tolerante a falhas locais, admitindo degradação controlada.
+> - **C)** **Correta.** O conceito de **Eventual Consistency (Consistência Eventual)** postula que, cessadas novas submissões de dados ao cluster, todas as réplicas do sistema distribuído trocarão mensagens de reconciliação (via quóruns, gossip protocol ou anti-entropy) e convergirão eventualmente para um estado idêntico e consistente.
+> - **D)** Incorreta. *Strict Serializability* é a garantia mais rígida de consistência do modelo relacional/linearizável (ACID), sendo exatamente o oposto do modelo flexível BASE.
+> - **E)** Incorreta. *Atomic Broadcast* é uma primitiva de comunicação de consenso distribuído, não um pilar conceituado no acrônimo BASE.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ## 2. As Quatro Famílias de Bancos de Dados NoSQL
 
@@ -146,6 +202,31 @@ O modelo mais simples, minimalista e veloz. Armazena pares formados por uma chav
 > ⚠️ **Alerta de Prova (FCC):**
 > Atenção às questões da FCC sobre persistência no Redis: a banca costuma inverter RDB e AOF! Grave bem: **RDB faz snapshots pontuais de tempos em tempos** (ideal para backups compactos, mas com risco de perda recente); **AOF grava log de comandos de escrita continuamente** (durabilidade superior, análogo ao WAL de bancos relacionais).
 
+---
+
+### Questão 03
+**(FCC - TRT-2ª Região - Analista Judiciário - Tecnologia da Informação)**
+No banco de dados NoSQL Redis, o gerenciamento eficiente da memória RAM e as opções de salvaguarda dos dados em disco baseiam-se em estruturas e parâmetros bem definidos. Sobre o funcionamento do Redis, é correto afirmar:
+
+* **A)** O tipo de dados *Sorted Set (ZSET)* armazena elementos duplicados sequenciados exclusivamente pelo horário de inserção na fila.
+* **B)** O mecanismo de persistência RDB (*Redis Database*) realiza a gravação síncrona de cada instrução individual de escrita em um arquivo sequencial contínuo imediatamente após a execução do comando.
+* **C)** O mecanismo de persistência AOF (*Append Only File*) atua como um log transacional sequencial, registrando em disco os comandos executados que modificam os dados, viabilizando a restauração fiel do estado do banco após falhas.
+* **D)** O comando de expiração temporal TTL (*Time-To-Live*) não existe no Redis, demandando rotinas em scripts externos para varredura e exclusão manual de chaves obsoletas.
+* **E)** A estrutura de dados *Hash* permite o armazenamento de apenas uma chave simples atrelada a uma string escalar, não suportando subcampos internos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O *Sorted Set (ZSET)* armazena exclusivamente elementos **únicos** (sem duplicatas), cada um obrigatoriamente associado a um valor numérico de ponto flutuante denominado **score**, sendo ordenados por esse score (e não pela ordem de inserção cronológica).
+> - **B)** Incorreta. A gravação síncrona de cada instrução em arquivo contínuo de log é responsabilidade do mecanismo **AOF**. O **RDB** gera instantâneos compactos pontuais (*point-in-time snapshots*) em intervalos de tempo configuráveis.
+> - **C)** **Correta.** O mecanismo **AOF (*Append Only File*)** atua de forma contínua registrando cada operação de mutação da base em um arquivo de log, de modo análogo ao Write-Ahead Logging (WAL) dos bancos relacionais, possibilitando a recomposição precisa da base em memória durante o reinício do serviço.
+> - **D)** Incorreta. O Redis fornece suporte nativo completo ao **TTL (*Time-To-Live*)** por meio de comandos consagrados como `EXPIRE`, `PEXPIRE` e `SETEX`.
+> - **E)** Incorreta. A estrutura `Hash` no Redis implementa um mapa associativo que aceita múltiplos pares de campo-valor internos associados a uma mesma chave principal.
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 2.3 Bancos de Famílias de Colunas (Wide-Column / Cassandra / HBase)
 
 Projetados para armazenar volumes gigantescos de dados em clusters massivos com distribuição totalmente horizontal:
@@ -180,6 +261,32 @@ MATCH (socio:Pessoa)-[:SOCIO_DE]->(empresa)
 WHERE contrato.valor > 1000000.00
 RETURN auditor.nome, contrato.numero, empresa.razao_social, socio.nome
 ```
+
+---
+
+### Questão 04
+**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
+Ao planejar uma solução tecnológica para identificar fraudes tributárias sofisticadas caracterizadas por blindagem patrimonial em teias complexas de sócios cruzados, empresas coligadas e holdings familiares com 6 a 8 níveis de relacionamento hierárquico, uma equipe técnica optou pelo uso de um banco de dados orientado a grafos nativo (como o Neo4j).
+A decisão técnica justifica-se primariamente porque:
+
+* **A)** Os bancos de dados orientados a grafos convertem as instruções de consulta em planilhas tabulares CSV, eliminando a dependência de processadores multinúcleo.
+* **B)** Os bancos de grafos nativos utilizam o princípio da Adjacência Livre de Índice (*Index-free Adjacency*), no qual cada nó armazena referências de ponteiros diretos para seus nós vizinhos, tornando o custo de navegação dependente apenas do subgrafo percorrido, evitando a explosão combinatória de múltiplos JOINs relacionais sucessivos.
+* **C)** Os grafos de propriedades proíbem a inclusão de atributos descritivos nas arestas de relacionamento, simplificando os cálculos de álgebra booleana.
+* **D)** Os bancos de dados relacionais tradicionais não admitem a execução de junções entre tabelas que possuam chaves primárias do tipo inteiro.
+* **E)** A linguagem Cypher baseia-se exclusivamente em comandos imperativos procedurais em linguagem C, sendo compilada estaticamente durante a inicialização do cluster.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Bancos de grafos nativos utilizam armazenamento em arquivos binários contíguos estruturados de nós e arestas cacheados agressivamente na memória RAM.
+> - **B)** **Correta.** O recurso técnico chave dos bancos de grafos é a **Adjacência Livre de Índice (*Index-free Adjacency*)**: cada nó armazena ponteiros físicos diretos de memória para os nós vizinhos interligados. Desse modo, o custo para saltar de uma entidade para outra é $\mathcal{O}(1)$ por nó explorado, eliminando os múltiplos `JOINs` sucessivos e pesados que provocam colapso de planos de execução em bancos relacionais em análises profundas.
+> - **C)** Incorreta. No modelo *Labeled Property Graph*, tanto os nós quanto os relacionamentos (arestas) podem livremente armazenar atributos de propriedades (ex.: percentual de cotas, data de entrada na sociedade).
+> - **D)** Incorreta. Bancos relacionais realizam plenamente junções sobre colunas inteiras; o problema reside na complexidade exponencial e no I/O excessivo ao realizar muitos joins em tabelas com milhões de linhas.
+> - **E)** Incorreta. A linguagem **Cypher** é uma linguagem de consulta de alto nível puramente **declarativa** orientada a casamento de padrões visuais em arte ASCII (`MATCH (n)-[r]->(m)`).
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 2.5 Matriz Comparativa e Casos de Uso no Controle Externo
 
@@ -231,6 +338,31 @@ Para determinar o grau de afinidade entre dois vetores $\mathbf{u}$ e $\mathbf{v
     - Soma ponderada dos produtos dos componentes:
      $$\mathbf{u} \cdot \mathbf{v} = \sum_{i=1}^{D} u_i v_i$$
     - Se os vetores estiverem **normalizados** para terem norma unitária ($\|\mathbf{u}\| = \|\mathbf{v}\| = 1$), o produto escalar coincide exatamente com a similaridade de cosseno, sendo computado com máxima aceleração por instruções vetoriais SIMD e tensores de GPUs.
+
+---
+
+### Questão 05
+**(FCC - TCE-PI - Auditor de Controle Externo - Tecnologia da Informação)**
+A implementação de sistemas de Inteligência Artificial Generativa e Arquiteturas de Recuperação Aumentada por Geração (RAG) em órgãos de controle externo demanda a utilização de bancos de dados vetoriais para indexação semântica de peças processuais e relatórios de auditoria. Sobre os conceitos matemáticos e a operação de bancos de dados vetoriais, assinale a alternativa correta:
+
+* **A)** Os embeddings transformam textos em hashes criptográficos MD5, permitindo que a busca vetorial localize documentos exclusivamente quando houver correspondência exata de todos os caracteres alfanuméricos.
+* **B)** A similaridade de cosseno avalia o cosseno do ângulo formado entre dois vetores densos em um hiperespaço multidimensional, medindo a orientação semântica relativa de forma independente da magnitude do comprimento dos textos.
+* **C)** Os algoritmos de busca aproximada por vizinhos mais próximos (ANN), como o HNSW, utilizam exclusivamente a varredura linear exaustiva de força bruta em 100% da base vetorial, garantindo complexidade $\mathcal{O}(N)$.
+* **D)** O PostgreSQL não possui extensões de código aberto para tratamento de dados vetoriais, sendo mandatória a contratação de ferramentas proprietárias externas em nuvem para execução de buscas por similaridade.
+* **E)** Em espaços vetoriais densos, um valor de similaridade de cosseno igual a zero indica que os conceitos representados possuem máxima correlação e equivalência semântica absoluta.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Hashes criptográficos (como MD5 ou SHA-256) possuem o chamado *efeito avalanche*: qualquer alteração mínima gera um hash completamente diferente. Já os embeddings gerados por LLMs realizam mapeamento contínuo onde vetores espacialmente próximos representam textos semanticamente afins.
+> - **B)** **Correta.** A métrica de **Similaridade de Cosseno** calcula $\cos(\theta) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|}$, mensurando a orientação angular dos vetores sem sofrer distorções causadas pela variação no comprimento bruto dos textos analisados, constituindo a métrica padrão para busca textual em RAG.
+> - **C)** Incorreta. A varredura linear completa em todos os vetores é a definição da busca exata por força bruta ($k$-NN exato). Algoritmos **ANN** (como o **HNSW**) utilizam grafos de mundo pequeno navegáveis multicamadas para navegar no espaço vetorial em tempo logarítmico $\mathcal{O}(\log N)$.
+> - **D)** Incorreta. O PostgreSQL possui a consagrada extensão aberta **`pgvector`**, que viabiliza o armazenamento nativo do tipo `vector`, criação de índices `hnsw` e cálculo de distância de cosseno via operador `<=>`.
+> - **E)** Incorreta. Similaridade de cosseno igual a zero denota vetores ortogonais ($\theta = 90^\circ$), o que significa **independência semântica total**, e não máxima equivalência (que seria indicada pelo valor $+1$).
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 3.3 Algoritmos de Busca Aproximada por Vizinhos Mais Próximos (ANN)
 
@@ -296,124 +428,3 @@ LIMIT 5;
 * SADALAGE, Pramod J.; FOWLER, Martin. **NoSQL Essencial: Um Guia Conciso para o Mundo Emergente da Persistência Poliglota**. São Paulo: Novatec, 2013. (Cap. 2 a 5 - Modelos de Dados NoSQL e Teorema CAP).
 * KLEPPMANN, Martin. **Projetando Aplicações Intensivas em Dados**. São Paulo: Novatec, 2018. (Cap. 3 - Mecanismos de Armazenamento e Recuperação; Cap. 5 - Replicação NoSQL).
 * TANIAR, David et al. **Distributed Database Systems**. Nova York: Wiley-IEEE Press, 2008. (Cap. 4 - Fragmentação e Consistência Eventual).
-
----
-
-## 4. Questões Comentadas (FCC)
-
-### Questão 01
-**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
-Um arquiteto de software de um tribunal público avalia a infraestrutura de dados para dois projetos de modernização institucional:
-
-1. Uma plataforma analítica de combate à corrupção encarregada de mapear redes de parentesco, cruzamento de quadros societários e rastreamento de laranjas em contratações de órgãos jurisdicionados.
-2. Um serviço de autenticação e controle de tráfego de alta concorrência que demanda armazenamento em memória de tokens transitórios de acesso e sessões de usuários com tempo de vida definido (TTL).
-
-Considerando as famílias NoSQL mais eficientes para os casos e as regras de sistemas distribuídos do Teorema CAP, é correto afirmar:
-
-* **A)** O Projeto 1 deve utilizar Banco Chave-Valor; o Projeto 2 deve utilizar Banco de Grafos; e sistemas distribuídos sob partição de rede garantem Consistência e Disponibilidade plenas simultaneamente.
-* **B)** O Projeto 1 deve utilizar Banco de Grafos (ex.: Neo4j); o Projeto 2 deve utilizar Banco Chave-Valor em memória (ex.: Redis); e, em sistemas distribuídos sob partição de rede (P), é compulsório optar entre Consistência estrita (C) ou Disponibilidade (A).
-* **C)** O Projeto 1 deve utilizar Banco de Famílias de Colunas; o Projeto 2 deve utilizar Banco de Documentos; e o Teorema CAP não se aplica a arquiteturas NoSQL com persistência em disco.
-* **D)** O Projeto 1 deve utilizar Banco de Documentos; o Projeto 2 deve utilizar Banco Relacional Monolítico; e o modelo BASE substitui integralmente a necessidade de tolerância a partições físicas.
-* **E)** O Projeto 1 deve utilizar Banco de Séries Temporais; o Projeto 2 deve utilizar Banco Orientado a Objetos; e transações ACID distribuídas mantêm disponibilidade total mesmo com isolamento físico de rede entre datacenters.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Houve inversão completa das soluções tecnológicas indicadas, além da afirmação errônea de que é possível garantir C e A simultaneamente na vigência de partições de rede.
-> - **B)** **Correta.** 
->     - No Projeto 1, a análise de redes societárias e parentescos exige travessia profunda e multidirecional de arestas; o modelo de **Grafos** (como o Neo4j) é a solução sob medida, viabilizando navegação com custo $\mathcal{O}(1)$ por nó explorado (*Index-free Adjacency*).
->     - No Projeto 2, o gerenciamento de sessões com expiração automática (TTL) requer armazenamento ultrarrápido em RAM; o modelo **Chave-Valor** (como o Redis) é o padrão da indústria.
->     - Pelo **Teorema CAP**, como falhas de comunicação em rede física (**P**) são contingências inevitáveis em sistemas distribuídos, o arquiteto é obrigado a arbitrar entre **Consistência (C)** ou **Disponibilidade (A)** durante o evento de partição.
-> - **C)** Incorreta. Bancos de famílias de colunas são otimizados para ingestão massiva e séries temporais, sendo inadequados para travessia de grafos de relacionamentos em teia; ademais, o Teorema CAP aplica-se formalmente a qualquer sistema distribuído em rede.
-> - **D)** Incorreta. O modelo de documentos lida com coleções semiestruturadas em árvore, sendo ineficiente para detectar conexões de grafos em anel ou cíclicas sem múltiplos loops de aplicação.
-> - **E)** Incorreta. Sistemas distribuídos com particionamento de rede não conseguem sustentar ACID clássico pleno sem degradar totalmente a disponibilidade do sistema perante os clientes dos nós isolados.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC - TCE-PI - Auditor de Controle Externo - Tecnologia da Informação)**
-A implementação de sistemas de Inteligência Artificial Generativa e Arquiteturas de Recuperação Aumentada por Geração (RAG) em órgãos de controle externo demanda a utilização de bancos de dados vetoriais para indexação semântica de peças processuais e relatórios de auditoria. Sobre os conceitos matemáticos e a operação de bancos de dados vetoriais, assinale a alternativa correta:
-
-* **A)** Os embeddings transformam textos em hashes criptográficos MD5, permitindo que a busca vetorial localize documentos exclusivamente quando houver correspondência exata de todos os caracteres alfanuméricos.
-* **B)** A similaridade de cosseno avalia o cosseno do ângulo formado entre dois vetores densos em um hiperespaço multidimensional, medindo a orientação semântica relativa de forma independente da magnitude do comprimento dos textos.
-* **C)** Os algoritmos de busca aproximada por vizinhos mais próximos (ANN), como o HNSW, utilizam exclusivamente a varredura linear exaustiva de força bruta em 100% da base vetorial, garantindo complexidade $\mathcal{O}(N)$.
-* **D)** O PostgreSQL não possui extensões de código aberto para tratamento de dados vetoriais, sendo mandatória a contratação de ferramentas proprietárias externas em nuvem para execução de buscas por similaridade.
-* **E)** Em espaços vetoriais densos, um valor de similaridade de cosseno igual a zero indica que os conceitos representados possuem máxima correlação e equivalência semântica absoluta.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Hashes criptográficos (como MD5 ou SHA-256) possuem o chamado *efeito avalanche*: qualquer alteração mínima gera um hash completamente diferente. Já os embeddings gerados por LLMs realizam mapeamento contínuo onde vetores espacialmente próximos representam textos semanticamente afins.
-> - **B)** **Correta.** A métrica de **Similaridade de Cosseno** calcula $\cos(\theta) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|}$, mensurando a orientação angular dos vetores sem sofrer distorções causadas pela variação no comprimento bruto dos textos analisados, constituindo a métrica padrão para busca textual em RAG.
-> - **C)** Incorreta. A varredura linear completa em todos os vetores é a definição da busca exata por força bruta ($k$-NN exato). Algoritmos **ANN** (como o **HNSW**) utilizam grafos de mundo pequeno navegáveis multicamadas para navegar no espaço vetorial em tempo logarítmico $\mathcal{O}(\log N)$.
-> - **D)** Incorreta. O PostgreSQL possui a consagrada extensão aberta **`pgvector`**, que viabiliza o armazenamento nativo do tipo `vector`, criação de índices `hnsw` e cálculo de distância de cosseno via operador `<=>`.
-> - **E)** Incorreta. Similaridade de cosseno igual a zero denota vetores ortogonais ($\theta = 90^\circ$), o que significa **independência semântica total**, e não máxima equivalência (que seria indicada pelo valor $+1$).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC - TRT-2ª Região - Analista Judiciário - Tecnologia da Informação)**
-No banco de dados NoSQL Redis, o gerenciamento eficiente da memória RAM e as opções de salvaguarda dos dados em disco baseiam-se em estruturas e parâmetros bem definidos. Sobre o funcionamento do Redis, é correto afirmar:
-
-* **A)** O tipo de dados *Sorted Set (ZSET)* armazena elementos duplicados sequenciados exclusivamente pelo horário de inserção na fila.
-* **B)** O mecanismo de persistência RDB (*Redis Database*) realiza a gravação síncrona de cada instrução individual de escrita em um arquivo sequencial contínuo imediatamente após a execução do comando.
-* **C)** O mecanismo de persistência AOF (*Append Only File*) atua como um log transacional sequencial, registrando em disco os comandos executados que modificam os dados, viabilizando a restauração fiel do estado do banco após falhas.
-* **D)** O comando de expiração temporal TTL (*Time-To-Live*) não existe no Redis, demandando rotinas em scripts externos para varredura e exclusão manual de chaves obsoletas.
-* **E)** A estrutura de dados *Hash* permite o armazenamento de apenas uma chave simples atrelada a uma string escalar, não suportando subcampos internos.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O *Sorted Set (ZSET)* armazena exclusivamente elementos **únicos** (sem duplicatas), cada um obrigatoriamente associado a um valor numérico de ponto flutuante denominado **score**, sendo ordenados por esse score (e não pela ordem de inserção cronológica).
-> - **B)** Incorreta. A gravação síncrona de cada instrução em arquivo contínuo de log é responsabilidade do mecanismo **AOF**. O **RDB** gera instantâneos compactos pontuais (*point-in-time snapshots*) em intervalos de tempo configuráveis.
-> - **C)** **Correta.** O mecanismo **AOF (*Append Only File*)** atua de forma contínua registrando cada operação de mutação da base em um arquivo de log, de modo análogo ao Write-Ahead Logging (WAL) dos bancos relacionais, possibilitando a recomposição precisa da base em memória durante o reinício do serviço.
-> - **D)** Incorreta. O Redis fornece suporte nativo completo ao **TTL (*Time-To-Live*)** por meio de comandos consagrados como `EXPIRE`, `PEXPIRE` e `SETEX`.
-> - **E)** Incorreta. A estrutura `Hash` no Redis implementa um mapa associativo que aceita múltiplos pares de campo-valor internos associados a uma mesma chave principal.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 04
-**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
-Em ambientes de computação distribuída e bancos de dados NoSQL projetados para suportar partições de rede com alta disponibilidade, a teoria de sistemas adota com frequência o modelo **BASE** em contraposição ao modelo **ACID** dos SGBDs relacionais clássicos. O pilar fundamental do modelo BASE que estabelece que, se nenhuma nova atualização for enviada ao sistema, ao longo do tempo todas as réplicas convergentes propagarão seus dados e alcançarão o mesmo estado consolidado é denominado:
-
-* **A)** Soft State.
-* **B)** Basically Available.
-* **C)** Eventual Consistency.
-* **D)** Strict Serializability.
-* **E)** Atomic Broadcast.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. *Soft State* (Estado Maleável) estabelece que o estado dos nós do cluster pode mudar ou oscilar com o tempo por sincronização de réplicas em segundo plano, mesmo que não haja novas entradas externas.
-> - **B)** Incorreta. *Basically Available* (Disponibilidade Básica) determina que o sistema continuará operando e respondendo aos clientes de maneira tolerante a falhas locais, admitindo degradação controlada.
-> - **C)** **Correta.** O conceito de **Eventual Consistency (Consistência Eventual)** postula que, cessadas novas submissões de dados ao cluster, todas as réplicas do sistema distribuído trocarão mensagens de reconciliação (via quóruns, gossip protocol ou anti-entropy) e convergirão eventualmente para um estado idêntico e consistente.
-> - **D)** Incorreta. *Strict Serializability* é a garantia mais rígida de consistência do modelo relacional/linearizável (ACID), sendo exatamente o oposto do modelo flexível BASE.
-> - **E)** Incorreta. *Atomic Broadcast* é uma primitiva de comunicação de consenso distribuído, não um pilar conceituado no acrônimo BASE.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 05
-**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
-Ao planejar uma solução tecnológica para identificar fraudes tributárias sofisticadas caracterizadas por blindagem patrimonial em teias complexas de sócios cruzados, empresas coligadas e holdings familiares com 6 a 8 níveis de relacionamento hierárquico, uma equipe técnica optou pelo uso de um banco de dados orientado a grafos nativo (como o Neo4j).
-A decisão técnica justifica-se primariamente porque:
-
-* **A)** Os bancos de dados orientados a grafos convertem as instruções de consulta em planilhas tabulares CSV, eliminando a dependência de processadores multinúcleo.
-* **B)** Os bancos de grafos nativos utilizam o princípio da Adjacência Livre de Índice (*Index-free Adjacency*), no qual cada nó armazena referências de ponteiros diretos para seus nós vizinhos, tornando o custo de navegação dependente apenas do subgrafo percorrido, evitando a explosão combinatória de múltiplos JOINs relacionais sucessivos.
-* **C)** Os grafos de propriedades proíbem a inclusão de atributos descritivos nas arestas de relacionamento, simplificando os cálculos de álgebra booleana.
-* **D)** Os bancos de dados relacionais tradicionais não admitem a execução de junções entre tabelas que possuam chaves primárias do tipo inteiro.
-* **E)** A linguagem Cypher baseia-se exclusivamente em comandos imperativos procedurais em linguagem C, sendo compilada estaticamente durante a inicialização do cluster.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Bancos de grafos nativos utilizam armazenamento em arquivos binários contíguos estruturados de nós e arestas cacheados agressivamente na memória RAM.
-> - **B)** **Correta.** O recurso técnico chave dos bancos de grafos é a **Adjacência Livre de Índice (*Index-free Adjacency*)**: cada nó armazena ponteiros físicos diretos de memória para os nós vizinhos interligados. Desse modo, o custo para saltar de uma entidade para outra é $\mathcal{O}(1)$ por nó explorado, eliminando os múltiplos `JOINs` sucessivos e pesados que provocam colapso de planos de execução em bancos relacionais em análises profundas.
-> - **C)** Incorreta. No modelo *Labeled Property Graph*, tanto os nós quanto os relacionamentos (arestas) podem livremente armazenar atributos de propriedades (ex.: percentual de cotas, data de entrada na sociedade).
-> - **D)** Incorreta. Bancos relacionais realizam plenamente junções sobre colunas inteiras; o problema reside na complexidade exponencial e no I/O excessivo ao realizar muitos joins em tabelas com milhões de linhas.
-> - **E)** Incorreta. A linguagem **Cypher** é uma linguagem de consulta de alto nível puramente **declarativa** orientada a casamento de padrões visuais em arte ASCII (`MATCH (n)-[r]->(m)`).
-> 
-> **Gabarito: B**

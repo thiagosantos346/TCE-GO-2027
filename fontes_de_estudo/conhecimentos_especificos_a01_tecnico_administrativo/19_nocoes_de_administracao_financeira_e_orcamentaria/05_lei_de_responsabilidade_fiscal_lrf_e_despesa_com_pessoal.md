@@ -45,7 +45,6 @@
     - [4.2 Regime das Operações de Crédito por ARO (Art. 38)](#42-regime-das-operacoes-de-credito-por-aro-art-38)
     - [4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)](#43-as-restricoes-severas-de-final-de-mandato-arts-21-e-42-da-lrf)
 - [5. Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
-- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -100,6 +99,31 @@ flowchart TD
 
 ---
 
+### Questão 01 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+Determinado Secretário de Estado pretende criar um novo programa social continuado de concessão de bolsas financeiras mensais a estudantes do ensino médio da rede pública estadual, com vigência estimada por tempo indeterminado.
+
+Nos termos do artigo 17 da Lei de Responsabilidade Fiscal, por se tratar de Despesa Obrigatória de Caráter Continuado (DOCC), a criação desse programa exige:
+
+* **A)** Mera autorização na Lei Orçamentária Anual vigente, dispensando qualquer compensação financeira.
+* **B)** Estimativa do impacto orçamentário-financeiro no exercício em que deva entrar em vigor e nos dois subsequentes, comprovação de que a despesa não afetará as metas de resultados fiscais e compensação permanente pelo aumento de receita ou redução permanente de despesa.
+* **C)** Aprovação prévia unânime do Tribunal de Contas do Estado em sessão plenária extraordinária.
+* **D)** Demonstração de superávit orçamentário no balanço geral da União dos últimos cinco exercícios.
+* **E)** Declaração de nulidade de todos os contratos temporários em vigor na Secretaria de Educação.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A DOCC impõe condicionantes rigorosas de validade que vão muito além da simples inclusão na LOA.
+> - **B)** Correta. O art. 17 da LRF define que os atos que criarem ou aumentarem Despesa Obrigatória de Caráter Continuado (vigência superior a 2 anos) devem ser instruídos com estimativa de impacto orçamentário-financeiro no exercício de vigência e nos dois seguintes (triênio fiscal), declaração de compatibilidade com PPA/LDO/LOA, demonstração de não afetação de metas e compensação contínua permanente por aumento permanente de receitas ou redução permanente de outras despesas.
+> - **C)** Incorreta. A atuação dos Tribunais de Contas é de controle externo concomitante e a posteriori, não cabendo aprovação unânime prévia de projetos de governo.
+> - **D)** Incorreta. O programa é estadual e sua compensação opera-se dentro das finanças do próprio Estado de Goiás.
+> - **E)** Incorreta. Inexiste qualquer exigência de rescisão arbitrária de contratos temporários regulares.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3. Despesa Total com Pessoal (DTP) e Gatilhos de Controle
 
 #### 3.1 Conceito, Apuração Quadrimestral e Base da RCL
@@ -135,6 +159,32 @@ pie title Repartição dos Limites de Pessoal nos Estados (Teto Global: 60% da R
 > - **1,2%** para o Tribunal de Contas do Estado (TCE-GO).  
 > A banca frequentemente afirma que o Tribunal de Contas integra a cota do Judiciário (falso!) ou altera os percentuais para 1,5% e 1,5% (falso!).
 
+---
+
+### Questão 02 (FCC - Adaptada / Analista de Controle Externo - TCE-GO)
+Consoante as normas da Lei de Responsabilidade Fiscal (LC nº 101/2000), a despesa total com pessoal do Poder Legislativo do Estado de Goiás, incluído o Tribunal de Contas do Estado, não poderá exceder determinado percentual da Receita Corrente Líquida (RCL).
+
+A fatia global reservada pela LRF e sua respectiva repartição entre os órgãos do Legislativo goiano é de:
+
+* **A)** 6,0% da RCL, sendo 3,0% para a Assembleia Legislativa e 3,0% para o Tribunal de Contas.
+* **B)** 3,0% da RCL, sendo 1,8% para a Assembleia Legislativa e 1,2% para o Tribunal de Contas do Estado (TCE-GO).
+* **C)** 2,0% da RCL, sendo 1,0% para a Assembleia Legislativa e 1,0% para o Tribunal de Contas do Estado.
+* **D)** 3,0% da RCL, cabendo 2,0% à Assembleia Legislativa e 1,0% ao Tribunal de Contas do Estado.
+* **E)** 4,0% da RCL, com repartição disciplinada discricionariamente por ato conjunto dos Presidentes dos órgãos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O limite global estadual do Legislativo é de 3% (o limite de 6% é aplicável às Câmaras Municipais).
+> - **B)** Correta. De acordo com o art. 20, inciso II, alínea "a" da Lei de Responsabilidade Fiscal, a cota de 3,0% da Receita Corrente Líquida destinada ao Poder Legislativo Estadual é repartida em 1,8% para a Assembleia Legislativa e 1,2% para o Tribunal de Contas do Estado (TCE-GO).
+> - **C)** Incorreta. O limite de 2,0% pertence ao Ministério Público Estadual.
+> - **D)** Incorreta. A repartição legal correta é exatamente 1,8% para a ALEGO e 1,2% para o TCE-GO.
+> - **E)** Incorreta. A repartição decorre de norma expressa da lei complementar nacional, não de ato discricionário interno.
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações
 A fiscalização do cumprimento dos limites de pessoal processa-se através de três patamares escalonados:
 
@@ -156,6 +206,55 @@ Ao atingir 95% do limite legal máximo, aplicam-se imediatamente ao Poder ou ór
     - **Exceção Constitucional e Legal:** Permite-se a reposição decorrente de **aposentadoria ou falecimento de servidores das áreas de educação, saúde e segurança pública**!
 
 5. Contratação de serviço extraordinário (horas extras), ressalvada situação de emergência e calamidade pública justificada.
+
+---
+
+### Questão 03 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Determinado Estado da Federação, ao apurar o Relatório de Gestão Fiscal (RGF) ao término do segundo quadrimestre, verificou que as despesas com pessoal do Poder Executivo atingiram 96% do limite máximo legalmente fixado pela Lei de Responsabilidade Fiscal.
+
+Diante da constatação da superação do limite prudencial, o Governador do Estado:
+
+* **A)** Deverá ser sumariamente afastado do cargo pelo Tribunal de Contas por crime de responsabilidade contra as finanças públicas.
+* **B)** Poderá nomear novos servidores aprovados em concurso público para cargos administrativos recém-criados, desde que não haja impacto financeiro no exercício.
+* **C)** Ficará impedido de conceder vantagem, aumento, reajuste ou adequação de remuneração a qualquer título aos servidores públicos, ressalvada a revisão geral anual.
+* **D)** Terá o prazo de quatro quadrimestres para reconduzir a despesa ao limite prudencial, devendo demitir compulsoriamente os servidores estáveis no primeiro mês.
+* **E)** Ficará automaticamente autorizado a contrair operações de crédito por antecipação de receita orçamentária para saldar a folha de pagamento.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Tribunal de Contas não tem competência para decretar monocraticamente o afastamento sumário de governadores em virtude do atingimento do limite prudencial.
+> - **B)** Incorreta. O art. 22, parágrafo único, IV da LRF proíbe expressamente o provimento de cargos públicos e contratação de pessoal quando atingido o limite prudencial, abrindo exceção apenas para reposição em saúde, educação e segurança por morte ou aposentadoria.
+> - **C)** Correta. Ao ultrapassar o limite prudencial de 95% do teto máximo de pessoal, disparam-se automaticamente as vedações do art. 22, parágrafo único da LRF, dentre as quais a vedação categórica de concessão de vantagens, aumentos ou reajustes de remuneração, ressalvada tão somente a revisão geral anual do art. 37, X da CF/88.
+> - **D)** Incorreta. O prazo de recondução de dois quadrimestres aplica-se à superação do limite total (100%), e a demissão de estáveis é a última das medidas extremas do art. 169 da CF.
+> - **E)** Incorreta. É vedada a contratação de ARO para financiar despesas de pessoal.
+> 
+> **Gabarito: C**
+
+---
+
+### Questão 04 (FCC - Adaptada / Técnico de Controle Externo)
+Ao término do primeiro quadrimestre do exercício, a unidade técnica do Tribunal de Contas apurou que as despesas com pessoal da Assembleia Legislativa atingiram 92% do seu limite máximo legal.
+
+Nos termos do artigo 59, § 1º, inciso II da Lei Complementar nº 101/2000, diante dessa situação fática, compete ao Tribunal de Contas:
+
+* **A)** Determinar a imediata demissão de servidores comissionados para recomposição das metas fiscais.
+* **B)** Emitir alerta formal ao Poder Legislativo informando que o montante da despesa com pessoal ultrapassou 90% do limite máximo legal.
+* **C)** Declarar a indisponibilidade dos bens do Presidente da Mesa Diretora da Casa Legislativa.
+* **D)** Proibir o Poder Executivo de realizar o repasse do duodécimo orçamentário constitucional.
+* **E)** Decretar intervenção fiscal no parlamento com nomeação de interventor econômico.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A redução de 20% das comissões só é exigível após o transcurso do prazo de descumprimento do limite total (100%).
+> - **B)** Correta. Conforme o art. 59, § 1º, II da LRF, o Tribunal de Contas alertará formalmente o respectivo Poder ou órgão sempre que constatar que o montante da despesa total com pessoal ultrapassou 90% do limite máximo (Limite de Alerta). Tendo atingido 92%, a medida técnica imediata é a expedição de Alerta.
+> - **C)** Incorreta. Medida cautelar patrimonial desproporcional e inexistente para mera situação de alerta.
+> - **D)** Incorreta. O repasse dos duodécimos constitucionais até o dia 20 de cada mês (art. 168 da CF) é imperativo e insuscetível de retenção unilateral.
+> - **E)** Incorreta. Inexiste figura de intervenção fiscal no parlamento pelo órgão de contas.
+> 
+> **Gabarito: B**
+
+---
+
 
 #### 3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)
 - Se a DTP ultrapassar o **Limite Máximo (100%)**, o excedente deverá ser integralmente eliminado nos **dois quadrimestres imediatamente seguintes**, devendo ser eliminado **pelo menos um terço (1/3) no primeiro quadrimestre** (art. 23 da LRF).
@@ -184,6 +283,30 @@ A Antecipação de Receita Orçamentária (ARO) é uma operação de crédito de
     - É proibida nova ARO enquanto existir outra da mesma natureza pendente de liquidação integral;
     - É **terminantemente proibida no último ano de mandato** do governante.
 
+---
+
+### Questão 05 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+A respeito das regras atinentes às Operações de Crédito por Antecipação de Receita Orçamentária (ARO) e às vedações do final de mandato disciplinadas na Lei Complementar nº 101/2000 (LRF), assinale a opção correta:
+
+* **A)** A ARO pode ser contratada a qualquer momento do último ano de mandato do governante, desde que aprovada por dois terços dos membros do Poder Legislativo.
+* **B)** A operação de crédito por ARO destina-se a financiar despesas de capital de longo prazo, devendo ser amortizada no prazo de trinta e seis meses.
+* **C)** É vedado ao titular de Poder contrair obrigação de despesa nos últimos dois quadrimestres do seu mandato sem que haja suficiente disponibilidade de caixa para o seu pagamento.
+* **D)** A liquidação da ARO poderá ser postergada para o exercício seguinte caso a arrecadação tributária no mês de dezembro fique abaixo da média anual.
+* **E)** A realização de ARO dispensa a cobrança de juros bancários por se tratar de operação de curto prazo de assistência mútua federativa.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O art. 38, IV, "b" da LRF proíbe terminantemente a contratação de operações por ARO no último ano de mandato do governante.
+> - **B)** Incorreta. ARO é mecanismo de curto prazo para cobrir insuficiência momentânea de fluxo de caixa, e não para financiar despesas de capital de longo prazo.
+> - **C)** Correta. Trata-se da regra expressa do art. 42 da LRF: é vedado ao governante, nos últimos dois quadrimestres do mandato (últimos 8 meses), assumir obrigação financeira que não possa ser paga dentro dele ou que deixe parcelas para o ano seguinte sem suficiente saldo de caixa disponível.
+> - **D)** Incorreta. A data de resgate final da ARO é improrrogável: deve ser liquidada até o dia 10 de dezembro do mesmo exercício financeiro.
+> - **E)** Incorreta. Operações de crédito bancário de ARO sujeitam-se às taxas de juros contratuais de mercado.
+> 
+> **Gabarito: C**
+
+---
+
+
 #### 4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)
 
 ```mermaid
@@ -210,117 +333,3 @@ flowchart TD
 * PALUDO, Augustinho. **Orçamento Público, AFO e LRF**. 11. ed. Salvador: JusPodivm, 2022. (Cap. 10 - Despesas com Pessoal na LRF; Cap. 14 - Relatórios da LRF: RREO e RGF).
 * MOTA, Francisco Glauber Lima. **Contabilidade Aplicada ao Setor Público**. 2. ed. Brasília: Gestão Pública, 2018. (Cap. 8 - A Lei de Responsabilidade Fiscal e o Equilíbrio Orçamentário).
 * GIACOMONI, James. **Orçamento Público**. 18. ed. São Paulo: Atlas, 2021. (Cap. 11 - A Lei de Responsabilidade Fiscal).
-
-
-## 📝 Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
-Determinado Estado da Federação, ao apurar o Relatório de Gestão Fiscal (RGF) ao término do segundo quadrimestre, verificou que as despesas com pessoal do Poder Executivo atingiram 96% do limite máximo legalmente fixado pela Lei de Responsabilidade Fiscal.
-
-Diante da constatação da superação do limite prudencial, o Governador do Estado:
-
-* **A)** Deverá ser sumariamente afastado do cargo pelo Tribunal de Contas por crime de responsabilidade contra as finanças públicas.
-* **B)** Poderá nomear novos servidores aprovados em concurso público para cargos administrativos recém-criados, desde que não haja impacto financeiro no exercício.
-* **C)** Ficará impedido de conceder vantagem, aumento, reajuste ou adequação de remuneração a qualquer título aos servidores públicos, ressalvada a revisão geral anual.
-* **D)** Terá o prazo de quatro quadrimestres para reconduzir a despesa ao limite prudencial, devendo demitir compulsoriamente os servidores estáveis no primeiro mês.
-* **E)** Ficará automaticamente autorizado a contrair operações de crédito por antecipação de receita orçamentária para saldar a folha de pagamento.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O Tribunal de Contas não tem competência para decretar monocraticamente o afastamento sumário de governadores em virtude do atingimento do limite prudencial.
-> - **B)** Incorreta. O art. 22, parágrafo único, IV da LRF proíbe expressamente o provimento de cargos públicos e contratação de pessoal quando atingido o limite prudencial, abrindo exceção apenas para reposição em saúde, educação e segurança por morte ou aposentadoria.
-> - **C)** Correta. Ao ultrapassar o limite prudencial de 95% do teto máximo de pessoal, disparam-se automaticamente as vedações do art. 22, parágrafo único da LRF, dentre as quais a vedação categórica de concessão de vantagens, aumentos ou reajustes de remuneração, ressalvada tão somente a revisão geral anual do art. 37, X da CF/88.
-> - **D)** Incorreta. O prazo de recondução de dois quadrimestres aplica-se à superação do limite total (100%), e a demissão de estáveis é a última das medidas extremas do art. 169 da CF.
-> - **E)** Incorreta. É vedada a contratação de ARO para financiar despesas de pessoal.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
-A respeito das regras atinentes às Operações de Crédito por Antecipação de Receita Orçamentária (ARO) e às vedações do final de mandato disciplinadas na Lei Complementar nº 101/2000 (LRF), assinale a opção correta:
-
-* **A)** A ARO pode ser contratada a qualquer momento do último ano de mandato do governante, desde que aprovada por dois terços dos membros do Poder Legislativo.
-* **B)** A operação de crédito por ARO destina-se a financiar despesas de capital de longo prazo, devendo ser amortizada no prazo de trinta e seis meses.
-* **C)** É vedado ao titular de Poder contrair obrigação de despesa nos últimos dois quadrimestres do seu mandato sem que haja suficiente disponibilidade de caixa para o seu pagamento.
-* **D)** A liquidação da ARO poderá ser postergada para o exercício seguinte caso a arrecadação tributária no mês de dezembro fique abaixo da média anual.
-* **E)** A realização de ARO dispensa a cobrança de juros bancários por se tratar de operação de curto prazo de assistência mútua federativa.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O art. 38, IV, "b" da LRF proíbe terminantemente a contratação de operações por ARO no último ano de mandato do governante.
-> - **B)** Incorreta. ARO é mecanismo de curto prazo para cobrir insuficiência momentânea de fluxo de caixa, e não para financiar despesas de capital de longo prazo.
-> - **C)** Correta. Trata-se da regra expressa do art. 42 da LRF: é vedado ao governante, nos últimos dois quadrimestres do mandato (últimos 8 meses), assumir obrigação financeira que não possa ser paga dentro dele ou que deixe parcelas para o ano seguinte sem suficiente saldo de caixa disponível.
-> - **D)** Incorreta. A data de resgate final da ARO é improrrogável: deve ser liquidada até o dia 10 de dezembro do mesmo exercício financeiro.
-> - **E)** Incorreta. Operações de crédito bancário de ARO sujeitam-se às taxas de juros contratuais de mercado.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 3 (FCC - Adaptada / Analista de Controle Externo - TCE-GO)
-Consoante as normas da Lei de Responsabilidade Fiscal (LC nº 101/2000), a despesa total com pessoal do Poder Legislativo do Estado de Goiás, incluído o Tribunal de Contas do Estado, não poderá exceder determinado percentual da Receita Corrente Líquida (RCL).
-
-A fatia global reservada pela LRF e sua respectiva repartição entre os órgãos do Legislativo goiano é de:
-
-* **A)** 6,0% da RCL, sendo 3,0% para a Assembleia Legislativa e 3,0% para o Tribunal de Contas.
-* **B)** 3,0% da RCL, sendo 1,8% para a Assembleia Legislativa e 1,2% para o Tribunal de Contas do Estado (TCE-GO).
-* **C)** 2,0% da RCL, sendo 1,0% para a Assembleia Legislativa e 1,0% para o Tribunal de Contas do Estado.
-* **D)** 3,0% da RCL, cabendo 2,0% à Assembleia Legislativa e 1,0% ao Tribunal de Contas do Estado.
-* **E)** 4,0% da RCL, com repartição disciplinada discricionariamente por ato conjunto dos Presidentes dos órgãos.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O limite global estadual do Legislativo é de 3% (o limite de 6% é aplicável às Câmaras Municipais).
-> - **B)** Correta. De acordo com o art. 20, inciso II, alínea "a" da Lei de Responsabilidade Fiscal, a cota de 3,0% da Receita Corrente Líquida destinada ao Poder Legislativo Estadual é repartida em 1,8% para a Assembleia Legislativa e 1,2% para o Tribunal de Contas do Estado (TCE-GO).
-> - **C)** Incorreta. O limite de 2,0% pertence ao Ministério Público Estadual.
-> - **D)** Incorreta. A repartição legal correta é exatamente 1,8% para a ALEGO e 1,2% para o TCE-GO.
-> - **E)** Incorreta. A repartição decorre de norma expressa da lei complementar nacional, não de ato discricionário interno.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / Técnico de Controle Externo)
-Ao término do primeiro quadrimestre do exercício, a unidade técnica do Tribunal de Contas apurou que as despesas com pessoal da Assembleia Legislativa atingiram 92% do seu limite máximo legal.
-
-Nos termos do artigo 59, § 1º, inciso II da Lei Complementar nº 101/2000, diante dessa situação fática, compete ao Tribunal de Contas:
-
-* **A)** Determinar a imediata demissão de servidores comissionados para recomposição das metas fiscais.
-* **B)** Emitir alerta formal ao Poder Legislativo informando que o montante da despesa com pessoal ultrapassou 90% do limite máximo legal.
-* **C)** Declarar a indisponibilidade dos bens do Presidente da Mesa Diretora da Casa Legislativa.
-* **D)** Proibir o Poder Executivo de realizar o repasse do duodécimo orçamentário constitucional.
-* **E)** Decretar intervenção fiscal no parlamento com nomeação de interventor econômico.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A redução de 20% das comissões só é exigível após o transcurso do prazo de descumprimento do limite total (100%).
-> - **B)** Correta. Conforme o art. 59, § 1º, II da LRF, o Tribunal de Contas alertará formalmente o respectivo Poder ou órgão sempre que constatar que o montante da despesa total com pessoal ultrapassou 90% do limite máximo (Limite de Alerta). Tendo atingido 92%, a medida técnica imediata é a expedição de Alerta.
-> - **C)** Incorreta. Medida cautelar patrimonial desproporcional e inexistente para mera situação de alerta.
-> - **D)** Incorreta. O repasse dos duodécimos constitucionais até o dia 20 de cada mês (art. 168 da CF) é imperativo e insuscetível de retenção unilateral.
-> - **E)** Incorreta. Inexiste figura de intervenção fiscal no parlamento pelo órgão de contas.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Adaptada / Analista de Planejamento e Orçamento)
-Determinado Secretário de Estado pretende criar um novo programa social continuado de concessão de bolsas financeiras mensais a estudantes do ensino médio da rede pública estadual, com vigência estimada por tempo indeterminado.
-
-Nos termos do artigo 17 da Lei de Responsabilidade Fiscal, por se tratar de Despesa Obrigatória de Caráter Continuado (DOCC), a criação desse programa exige:
-
-* **A)** Mera autorização na Lei Orçamentária Anual vigente, dispensando qualquer compensação financeira.
-* **B)** Estimativa do impacto orçamentário-financeiro no exercício em que deva entrar em vigor e nos dois subsequentes, comprovação de que a despesa não afetará as metas de resultados fiscais e compensação permanente pelo aumento de receita ou redução permanente de despesa.
-* **C)** Aprovação prévia unânime do Tribunal de Contas do Estado em sessão plenária extraordinária.
-* **D)** Demonstração de superávit orçamentário no balanço geral da União dos últimos cinco exercícios.
-* **E)** Declaração de nulidade de todos os contratos temporários em vigor na Secretaria de Educação.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A DOCC impõe condicionantes rigorosas de validade que vão muito além da simples inclusão na LOA.
-> - **B)** Correta. O art. 17 da LRF define que os atos que criarem ou aumentarem Despesa Obrigatória de Caráter Continuado (vigência superior a 2 anos) devem ser instruídos com estimativa de impacto orçamentário-financeiro no exercício de vigência e nos dois seguintes (triênio fiscal), declaração de compatibilidade com PPA/LDO/LOA, demonstração de não afetação de metas e compensação contínua permanente por aumento permanente de receitas ou redução permanente de outras despesas.
-> - **C)** Incorreta. A atuação dos Tribunais de Contas é de controle externo concomitante e a posteriori, não cabendo aprovação unânime prévia de projetos de governo.
-> - **D)** Incorreta. O programa é estadual e sua compensação opera-se dentro das finanças do próprio Estado de Goiás.
-> - **E)** Incorreta. Inexiste qualquer exigência de rescisão arbitrária de contratos temporários regulares.
-> 
-> **Gabarito: B**

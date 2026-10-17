@@ -45,7 +45,6 @@
     - [4.1 Hipóteses Restritas e Regra do Empenho Prévio](#41-hipoteses-restritas-e-regra-do-empenho-previo)
     - [4.2 Vedações Categóricas e Prestação de Contas](#42-vedacoes-categoricas-e-prestacao-de-contas)
 - [5. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
-- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -97,6 +96,30 @@ flowchart LR
     - Processa-se mediante **Ordem Bancária (OB)** emitida contra a Conta Única do Tesouro Estadual diretamente em favor do credor.
     - **Regra de Interdependência (Art. 62):** A ordem de pagamento só pode ser expedida após a regular liquidação da despesa!
 
+---
+
+### Questão 01 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+A respeito da classificação e dos estágios da despesa pública orçamentária, assinale a opção correta:
+
+* **A)** A emissão de nota de empenho ordinário é admitida para despesas contratuais de prestação contínua de serviços cujo valor total deva ser desembolsado em parcelas mensais ao longo do ano.
+* **B)** A aquisição de imóvel residencial já edificado e em utilização para instalação de repartição pública estadual constitui típica despesa de Investimento (GND 4).
+* **C)** A liquidação da despesa tem por objetivo comprovar o implemento de condição e o direito adquirido pelo credor, mediante verificação documental de que o serviço foi efetivamente prestado ou os bens foram entregues.
+* **D)** O pagamento da despesa pública pode anteceder a liquidação nas hipóteses de aquisição de bens duráveis com cláusula de entrega futura.
+* **E)** As despesas empenhadas e não pagas até o encerramento do exercício financeiro em 31 de dezembro serão obrigatoriamente anuladas pelo controle interno.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Despesas contratuais com pagamentos parcelados mensais de valor determinado exigem a modalidade de empenho global (art. 60, § 3º da Lei nº 4.320/1964).
+> - **B)** Incorreta. A aquisição de imóveis prontos já edificados e em uso no mercado constitui Inversão Financeira (GND 5), pois não gera formação bruta de capital físico novo.
+> - **C)** Correta. De acordo com o art. 63 da Lei nº 4.320/1964, a liquidação consiste na verificação objetiva do direito adquirido pelo credor, mediante a conferência de títulos, documentos e atesto físico de entrega dos bens ou conclusão dos serviços prestados.
+> - **D)** Incorreta. O art. 62 da Lei nº 4.320/1964 prescreve que o pagamento da despesa só pode ser efetuado após a regular liquidação.
+> - **E)** Incorreta. As despesas empenhadas e não pagas até 31 de dezembro são inscritas em Restos a Pagar (art. 36), não sendo automaticamente canceladas.
+> 
+> **Gabarito: C**
+
+---
+
+
 #### 1.3 Modalidades de Empenho: Ordinário, Estimativo e Global
 A legislação orçamentária prevê três modalidades formais de empenho, a serem adotadas conforme a natureza da obrigação contratual:
 
@@ -107,6 +130,31 @@ A legislação orçamentária prevê três modalidades formais de empenho, a ser
 | **Global** | Exato e previamente conhecido em contrato. | **Parcelado / Sucessivo** ao longo do exercício. | Contratos de locação de imóveis (aluguel mensal fixo), contratos continuados de vigilância e medições de obras. |
 
 ---
+
+### Questão 02 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+Para a realização de despesas rotineiras de manutenção das instalações de uma secretaria de estado, o gestor público determinou a emissão de nota de empenho no início do mês de janeiro para cobrir os gastos com fornecimento contínuo de energia elétrica e abastecimento de água ao longo de todo o ano, sem que seja possível conhecer previamente o consumo exato a cada mês.
+
+A modalidade de empenho adequada e legalmente exigida para essa situação é o empenho:
+
+* **A)** Ordinário.
+* **B)** Global.
+* **C)** Estimativo.
+* **D)** Extraorçamentário.
+* **E)** Suplementar por Decreto.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O empenho ordinário é utilizado exclusivamente para despesas de valor exato prefixado e pagamento único.
+> - **B)** Incorreta. O empenho global destina-se a despesas contratuais cujo valor total exato é previamente conhecido, sendo desembolsado em parcelas.
+> - **C)** Correta. Nos termos do art. 60, § 2º da Lei nº 4.320/1964, utiliza-se a modalidade de empenho estimativo para as despesas cujo montante exato não se possa fixar previamente, como é o caso das contas de utilidade pública (energia elétrica, água, telefonia e combustíveis).
+> - **D)** Incorreta. Serviços essenciais de manutenção contínua são despesas orçamentárias correntes obrigatórias.
+> - **E)** Incorreta. Crédito suplementar é espécie de crédito adicional para reforço de dotação, não modalidade de nota de empenho.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 2. Estrutura e Classificações da Despesa Orçamentária
 
@@ -144,6 +192,32 @@ $$\text{C . G . MM . EE}$$
 - **3º e 4º dígitos - Modalidade de Aplicação:** Elimina a dupla contagem nas transferências intergovernamentais e entre órgãos;
 - **5º e 6º dígitos - Elemento de Despesa:** Identifica os objetos pontuais de gasto (ex.: 14 - Diárias, 30 - Material de Consumo, 52 - Equipamentos e Material Permanente).
 
+---
+
+### Questão 03 (FCC - Adaptada / Técnico de Controle Externo)
+Determinada empresa pública estadual adquiriu, mediante procedimento licitatório de compra direta, um terreno urbano desocupado para futura expansão de seu almoxarifado no valor de R$ 2.000.000,00, bem como contratou uma empreiteira para a construção de um novo edifício administrativo no mesmo local pelo montante de R$ 5.000.000,00.
+
+Segundo a estrutura da despesa pública por sua natureza (Portaria Interministerial STN/SOF nº 163/2001 e MCASP), essas despesas classificam-se, respectivamente, nos seguintes Grupos de Natureza da Despesa (GND):
+
+* **A)** Inversões Financeiras (GND 5) e Investimentos (GND 4).
+* **B)** Investimentos (GND 4) e Investimentos (GND 4).
+* **C)** Outras Despesas Correntes (GND 3) e Investimentos (GND 4).
+* **D)** Inversões Financeiras (GND 5) e Inversões Financeiras (GND 5).
+* **E)** Amortização da Dívida (GND 6) e Outras Despesas Correntes (GND 3).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A compra de terrenos ou imóveis prontos preexistentes no mercado configura Inversão Financeira (GND 5), pois transfere a posse sem gerar formação bruta de capital físico novo no país. Em contrapartida, a contratação de obras de construção civil para erguer um novo prédio público gera infraestrutura nova, qualificando-se como Investimento (GND 4).
+> - **B)** Incorreta. Terrenos e imóveis prontos não integram o GND 4.
+> - **C)** Incorreta. Ambas são despesas de capital (código 4) e não de consumo/custeio corrente (GND 3).
+> - **D)** Incorreta. Obra de construção nova de prédio público é investimento.
+> - **E)** Incorreta. Não se referem a amortização do principal da dívida pública fundada.
+> 
+> **Gabarito: A**
+
+---
+
+
 #### 2.4 A Distinção Crítica FCC: Investimentos (GND 4) vs. Inversões Financeiras (GND 5)
 A jurisprudência da banca FCC cobra com rigor a distinção entre os gastos de capital que aumentam a capacidade produtiva da sociedade e os que consistem em meras transferências patrimoniais:
 
@@ -172,6 +246,36 @@ flowchart TD
 1. **Restos a Pagar Processados (RPP):** A despesa percorreu os estágios do empenho e da **liquidação** dentro do exercício financeiro. O credor tem direito subjetivo líquido e certo ao pagamento; a administração pública **não pode cancelar** o respectivo empenho de forma unilateral, sob pena de enriquecimento sem causa do Estado.
 2. **Restos a Pagar Não Processados (RPNP):** Despesas empenhadas cuja **liquidação não ocorreu** até 31 de dezembro (a contraprestação contratual ainda está pendente). Podem ser canceladas administrativamente caso o credor descumpra o cronograma de entrega ou o interesse público deixe de existir.
 
+---
+
+### Questão 04 (FCC - Adaptada / Analista Jurídico de Controle)
+Ao final do exercício financeiro em 31 de dezembro, a Secretaria de Infraestrutura do Estado possuía dois contratos em execução:
+
+I. Contrato de pavimentação asfáltica, cuja medição final foi regularmente atestada pela fiscalização no dia 20 de dezembro e a nota fiscal devidamente liquidada, mas a ordem bancária de pagamento de R$ 800.000,00 não foi emitida até o encerramento do expediente bancário do ano.  
+
+II. Contrato de fornecimento de tubos de concreto, empenhado em novembro pelo valor de R$ 300.000,00, cujos materiais tinham prazo de entrega previsto em contrato para 15 de janeiro do exercício subsequente.  
+
+Em 31 de dezembro, essas duas despesas foram inscritas, respectivamente, como:
+
+* **A)** Restos a Pagar Processados e Restos a Pagar Processados.
+* **B)** Restos a Pagar Não Processados e Restos a Pagar Não Processados.
+* **C)** Restos a Pagar Processados e Restos a Pagar Não Processados.
+* **D)** Despesas de Exercícios Anteriores e Restos a Pagar Processados.
+* **E)** Ingressos Extraorçamentários e Restos a Pagar Não Processados.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Contrato II não foi liquidado até 31 de dezembro, logo não pode constituir restos a pagar processados.
+> - **B)** Incorreta. O Contrato I foi regularmente liquidado antes do encerramento do exercício, qualificando-se compulsoriamente como processado.
+> - **C)** Correta. Conforme o art. 36 da Lei nº 4.320/1964, despesas empenhadas e liquidadas que não foram pagas até 31 de dezembro são inscritas em Restos a Pagar Processados (RPP - Contrato I); enquanto despesas empenhadas e não liquidadas até essa data são inscritas como Restos a Pagar Não Processados (RPNP - Contrato II).
+> - **D)** Incorreta. DEA aplica-se a exercícios anteriores para os quais não há inscrição válida em restos a pagar.
+> - **E)** Incorreta. São despesas orçamentárias de capital e correntes, e não ingressos financeiros.
+> 
+> **Gabarito: C**
+
+---
+
+
 #### 3.2 Cancelamento de RAP e a Prescrição Quinquenal
 - Conforme o Decreto Federal nº 93.872/1986, os Restos a Pagar Não Processados perdem a validade e devem ser cancelados ao final do exercício subsequente caso a liquidação não tenha sido iniciada.
 - O cancelamento contábil de um empenho de RAP **não extingue o direito do credor**, desde que a prestação do serviço seja comprovada e não tenha decorrido a **prescrição quinquenal de 5 anos** (Decreto nº 20.910/1932). Nesses casos, o credor fará jus ao recebimento mediante reconhecimento de dívida por **Despesas de Exercícios Anteriores (DEA)**.
@@ -184,6 +288,29 @@ As dívidas passadas de exercícios orçamentários já encerrados serão empenh
 3. **Compromissos reconhecidos a posteriori:** Despesas contratuais ou legais cujo reconhecimento formal da obrigação pela autoridade competente tenha ocorrido **após o encerramento do exercício financeiro**.
 
 ---
+
+### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de Exercícios Anteriores (DEA), é correto afirmar que:
+
+* **A)** O suprimento de fundos pode ser concedido livremente a qualquer servidor público, inclusive àquele que esteja omisso no dever de prestar contas de adiantamento concedido anteriormente.
+* **B)** As Despesas de Exercícios Anteriores (DEA) correspondem exclusivamente a despesas que foram liquidadas e pagas no exercício anterior sem prévio empenho orçamentário.
+* **C)** O suprimento de fundos dispensa a realização de empenho orçamentário prévio em nome do servidor responsável pelo adiantamento.
+* **D)** As despesas de exercícios encerrados para as quais o orçamento respectivo consignava crédito próprio e com saldo suficiente, mas que não tenham sido empenhadas na época própria, poderão ser pagas à conta de dotação para despesas de exercícios anteriores (DEA).
+* **E)** O cancelamento de Restos a Pagar Processados enseja a imediata extinção irrecorrível do direito creditório do fornecedor perante a Fazenda Pública.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. É categoricamente proibido conceder suprimento de fundos a servidor em alcance (que esteja em mora na prestação de contas de suprimento anterior).
+> - **B)** Incorreta. As DEA referem-se a compromissos pendentes que serão empenhados e quitados na LOA do exercício em curso, nas hipóteses do art. 37 da Lei nº 4.320/1964.
+> - **C)** Incorreta. O adiantamento exige prévio empenho emitido formalmente em nome do servidor suprido.
+> - **D)** Correta. Conforme o art. 37 da Lei nº 4.320/1964, despesas de exercícios findos que contavam com crédito orçamentário com saldo suficiente, mas que não foram empenhadas na época própria por erro ou omissão da administração, são empenhadas e pagas à conta de DEA.
+> - **E)** Incorreta. O direito creditório do fornecedor subsiste e respeita o prazo prescricional quinquenal de 5 anos; se o RPP foi cancelado indevidamente, o débito deve ser reaberto como DEA.
+> 
+> **Gabarito: D**
+
+---
+
+
 
 ### 4. Regime Excepcional de Suprimento de Fundos (Adiantamento)
 
@@ -225,119 +352,3 @@ flowchart TD
 * GIACOMONI, James. **Orçamento Público**. 18. ed. São Paulo: Atlas, 2021. (Cap. 9 - A Despesa Pública: Classificações, Estágios e Restos a Pagar).
 * PALUDO, Augustinho. **Orçamento Público, AFO e LRF**. 11. ed. Salvador: JusPodivm, 2022. (Cap. 6 - Despesa Pública e Suprimento de Fundos).
 * FEIJÓ, Paulo Henrique et al. **Curso de Contabilidade Aplicada ao Setor Público**. 8. ed. Brasília: Gestão Pública, 2022. (Cap. 4 - Execução da Despesa e Regime Contábil).
-
-
-## 📝 Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
-A respeito da classificação e dos estágios da despesa pública orçamentária, assinale a opção correta:
-
-* **A)** A emissão de nota de empenho ordinário é admitida para despesas contratuais de prestação contínua de serviços cujo valor total deva ser desembolsado em parcelas mensais ao longo do ano.
-* **B)** A aquisição de imóvel residencial já edificado e em utilização para instalação de repartição pública estadual constitui típica despesa de Investimento (GND 4).
-* **C)** A liquidação da despesa tem por objetivo comprovar o implemento de condição e o direito adquirido pelo credor, mediante verificação documental de que o serviço foi efetivamente prestado ou os bens foram entregues.
-* **D)** O pagamento da despesa pública pode anteceder a liquidação nas hipóteses de aquisição de bens duráveis com cláusula de entrega futura.
-* **E)** As despesas empenhadas e não pagas até o encerramento do exercício financeiro em 31 de dezembro serão obrigatoriamente anuladas pelo controle interno.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Despesas contratuais com pagamentos parcelados mensais de valor determinado exigem a modalidade de empenho global (art. 60, § 3º da Lei nº 4.320/1964).
-> - **B)** Incorreta. A aquisição de imóveis prontos já edificados e em uso no mercado constitui Inversão Financeira (GND 5), pois não gera formação bruta de capital físico novo.
-> - **C)** Correta. De acordo com o art. 63 da Lei nº 4.320/1964, a liquidação consiste na verificação objetiva do direito adquirido pelo credor, mediante a conferência de títulos, documentos e atesto físico de entrega dos bens ou conclusão dos serviços prestados.
-> - **D)** Incorreta. O art. 62 da Lei nº 4.320/1964 prescreve que o pagamento da despesa só pode ser efetuado após a regular liquidação.
-> - **E)** Incorreta. As despesas empenhadas e não pagas até 31 de dezembro são inscritas em Restos a Pagar (art. 36), não sendo automaticamente canceladas.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
-Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de Exercícios Anteriores (DEA), é correto afirmar que:
-
-* **A)** O suprimento de fundos pode ser concedido livremente a qualquer servidor público, inclusive àquele que esteja omisso no dever de prestar contas de adiantamento concedido anteriormente.
-* **B)** As Despesas de Exercícios Anteriores (DEA) correspondem exclusivamente a despesas que foram liquidadas e pagas no exercício anterior sem prévio empenho orçamentário.
-* **C)** O suprimento de fundos dispensa a realização de empenho orçamentário prévio em nome do servidor responsável pelo adiantamento.
-* **D)** As despesas de exercícios encerrados para as quais o orçamento respectivo consignava crédito próprio e com saldo suficiente, mas que não tenham sido empenhadas na época própria, poderão ser pagas à conta de dotação para despesas de exercícios anteriores (DEA).
-* **E)** O cancelamento de Restos a Pagar Processados enseja a imediata extinção irrecorrível do direito creditório do fornecedor perante a Fazenda Pública.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. É categoricamente proibido conceder suprimento de fundos a servidor em alcance (que esteja em mora na prestação de contas de suprimento anterior).
-> - **B)** Incorreta. As DEA referem-se a compromissos pendentes que serão empenhados e quitados na LOA do exercício em curso, nas hipóteses do art. 37 da Lei nº 4.320/1964.
-> - **C)** Incorreta. O adiantamento exige prévio empenho emitido formalmente em nome do servidor suprido.
-> - **D)** Correta. Conforme o art. 37 da Lei nº 4.320/1964, despesas de exercícios findos que contavam com crédito orçamentário com saldo suficiente, mas que não foram empenhadas na época própria por erro ou omissão da administração, são empenhadas e pagas à conta de DEA.
-> - **E)** Incorreta. O direito creditório do fornecedor subsiste e respeita o prazo prescricional quinquenal de 5 anos; se o RPP foi cancelado indevidamente, o débito deve ser reaberto como DEA.
-> 
-> **Gabarito: D**
-
----
-
-### Questão 3 (FCC - Adaptada / Analista de Planejamento e Orçamento)
-Para a realização de despesas rotineiras de manutenção das instalações de uma secretaria de estado, o gestor público determinou a emissão de nota de empenho no início do mês de janeiro para cobrir os gastos com fornecimento contínuo de energia elétrica e abastecimento de água ao longo de todo o ano, sem que seja possível conhecer previamente o consumo exato a cada mês.
-
-A modalidade de empenho adequada e legalmente exigida para essa situação é o empenho:
-
-* **A)** Ordinário.
-* **B)** Global.
-* **C)** Estimativo.
-* **D)** Extraorçamentário.
-* **E)** Suplementar por Decreto.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O empenho ordinário é utilizado exclusivamente para despesas de valor exato prefixado e pagamento único.
-> - **B)** Incorreta. O empenho global destina-se a despesas contratuais cujo valor total exato é previamente conhecido, sendo desembolsado em parcelas.
-> - **C)** Correta. Nos termos do art. 60, § 2º da Lei nº 4.320/1964, utiliza-se a modalidade de empenho estimativo para as despesas cujo montante exato não se possa fixar previamente, como é o caso das contas de utilidade pública (energia elétrica, água, telefonia e combustíveis).
-> - **D)** Incorreta. Serviços essenciais de manutenção contínua são despesas orçamentárias correntes obrigatórias.
-> - **E)** Incorreta. Crédito suplementar é espécie de crédito adicional para reforço de dotação, não modalidade de nota de empenho.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 4 (FCC - Adaptada / Técnico de Controle Externo)
-Determinada empresa pública estadual adquiriu, mediante procedimento licitatório de compra direta, um terreno urbano desocupado para futura expansão de seu almoxarifado no valor de R$ 2.000.000,00, bem como contratou uma empreiteira para a construção de um novo edifício administrativo no mesmo local pelo montante de R$ 5.000.000,00.
-
-Segundo a estrutura da despesa pública por sua natureza (Portaria Interministerial STN/SOF nº 163/2001 e MCASP), essas despesas classificam-se, respectivamente, nos seguintes Grupos de Natureza da Despesa (GND):
-
-* **A)** Inversões Financeiras (GND 5) e Investimentos (GND 4).
-* **B)** Investimentos (GND 4) e Investimentos (GND 4).
-* **C)** Outras Despesas Correntes (GND 3) e Investimentos (GND 4).
-* **D)** Inversões Financeiras (GND 5) e Inversões Financeiras (GND 5).
-* **E)** Amortização da Dívida (GND 6) e Outras Despesas Correntes (GND 3).
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. A compra de terrenos ou imóveis prontos preexistentes no mercado configura Inversão Financeira (GND 5), pois transfere a posse sem gerar formação bruta de capital físico novo no país. Em contrapartida, a contratação de obras de construção civil para erguer um novo prédio público gera infraestrutura nova, qualificando-se como Investimento (GND 4).
-> - **B)** Incorreta. Terrenos e imóveis prontos não integram o GND 4.
-> - **C)** Incorreta. Ambas são despesas de capital (código 4) e não de consumo/custeio corrente (GND 3).
-> - **D)** Incorreta. Obra de construção nova de prédio público é investimento.
-> - **E)** Incorreta. Não se referem a amortização do principal da dívida pública fundada.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 5 (FCC - Adaptada / Analista Jurídico de Controle)
-Ao final do exercício financeiro em 31 de dezembro, a Secretaria de Infraestrutura do Estado possuía dois contratos em execução:
-
-I. Contrato de pavimentação asfáltica, cuja medição final foi regularmente atestada pela fiscalização no dia 20 de dezembro e a nota fiscal devidamente liquidada, mas a ordem bancária de pagamento de R$ 800.000,00 não foi emitida até o encerramento do expediente bancário do ano.  
-
-II. Contrato de fornecimento de tubos de concreto, empenhado em novembro pelo valor de R$ 300.000,00, cujos materiais tinham prazo de entrega previsto em contrato para 15 de janeiro do exercício subsequente.  
-
-Em 31 de dezembro, essas duas despesas foram inscritas, respectivamente, como:
-
-* **A)** Restos a Pagar Processados e Restos a Pagar Processados.
-* **B)** Restos a Pagar Não Processados e Restos a Pagar Não Processados.
-* **C)** Restos a Pagar Processados e Restos a Pagar Não Processados.
-* **D)** Despesas de Exercícios Anteriores e Restos a Pagar Processados.
-* **E)** Ingressos Extraorçamentários e Restos a Pagar Não Processados.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O Contrato II não foi liquidado até 31 de dezembro, logo não pode constituir restos a pagar processados.
-> - **B)** Incorreta. O Contrato I foi regularmente liquidado antes do encerramento do exercício, qualificando-se compulsoriamente como processado.
-> - **C)** Correta. Conforme o art. 36 da Lei nº 4.320/1964, despesas empenhadas e liquidadas que não foram pagas até 31 de dezembro são inscritas em Restos a Pagar Processados (RPP - Contrato I); enquanto despesas empenhadas e não liquidadas até essa data são inscritas como Restos a Pagar Não Processados (RPNP - Contrato II).
-> - **D)** Incorreta. DEA aplica-se a exercícios anteriores para os quais não há inscrição válida em restos a pagar.
-> - **E)** Incorreta. São despesas orçamentárias de capital e correntes, e não ingressos financeiros.
-> 
-> **Gabarito: C**

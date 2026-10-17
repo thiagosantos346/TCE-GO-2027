@@ -36,7 +36,6 @@
     - [5.1 Motivações e Trade-offs: OLTP vs. OLAP / Data Warehouses](#51-motivacoes-e-trade-offs-oltp-vs-olap-data-warehouses)
     - [5.2 Técnicas Comuns e Riscos de Integridade](#52-tecnicas-comuns-e-riscos-de-integridade)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -112,6 +111,37 @@ flowchart LR
         RelId --- Dep["TERMO_AUDITORIA<br/>(Entidade Fraca - Linha Dupla)"]
     end
 ```
+
+---
+
+### Questão 01 (FCC - Adaptada / TI - Modelo Entidade-Relacionamento de Peter Chen)
+No contexto do Diagrama Entidade-Relacionamento (DER) segundo a notação original proposta por Peter Chen, analise a seguinte situação de negócio:  
+*"Em um órgão de fiscalização fazendária, cada PROCESSO_FISCAL possui um número de processo que o identifica unicamente. Cada processo pode conter múltiplos TERMOS_FISCAIS. Um termo fiscal possui apenas uma numeração sequencial interna (ex.: 1, 2, 3), só faz sentido existir vinculado ao seu respectivo processo fiscal e sua identificação plena depende da chave primária do processo."*
+
+Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração sequencial interna e o relacionamento entre `PROCESSO_FISCAL` e `TERMO_FISCAL` são classificados, respectivamente, como:  
+
+* **A)** Entidade Associativa, Atributo Composto e Auto-relacionamento.
+* **B)** Entidade Fraca, Chave Parcial (discriminador) e Relacionamento Identificador.
+* **C)** Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador.
+* **D)** Entidade Fraca, Atributo Derivado e Agregação.
+* **E)** Superclasse, Atributo Atômico e Relacionamento Ternário.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Entidades associativas resolvem relacionamentos $N:M$ com atributos próprios, e auto-relacionamento ocorre quando uma entidade se relaciona consigo mesma.
+> - **B)** Correta. Classificação impecável segundo a teoria de Chen:
+>     1. `TERMO_FISCAL` depende existencialmente de `PROCESSO_FISCAL` e não possui chave primária global própria; logo, é uma **Entidade Fraca** (representada por retângulo de linha dupla);
+>     2. A numeração sequencial interna (1, 2, 3) identifica o termo apenas dentro de cada processo; logo, é uma **Chave Parcial** ou **Discriminador** (representada por elipse com sublinhado tracejado);
+>     3. O relacionamento que conecta a entidade fraca à sua proprietária é um **Relacionamento Identificador** (representado por losango de linha dupla).
+>
+> - **C)** Incorreta. `TERMO_FISCAL` não é uma entidade regular (forte), pois depende da proprietária para sua identificação plena.
+> - **D)** Incorreta. A numeração sequencial não é atributo derivado (calculado dinamicamente).
+> - **E)** Incorreta. Conceitos de especialização/generalização e relacionamentos ternários não se aplicam ao cenário.
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 2.2 Tipologia e Representação Gráfica dos Atributos
 
@@ -189,6 +219,62 @@ São operações construídas a partir da composição das primitivas fundamenta
 
 ---
 
+### Questão 02 (FCC - Adaptada / TI - Álgebra Relacional e Divisão Relacional)
+Em sistemas de banco de dados relacionais, deseja-se elaborar uma consulta algébrica formal para responder à seguinte demanda de auditoria:  
+*"Recuperar o código de todos os Auditores Fiscais que realizaram inspeções em TODOS os estabelecimentos cadastrados no estado."*
+
+Considere os esquemas das relações:
+
+- `INSPECAO (CodAuditor, CodEstabelecimento)`
+- `ESTABELECIMENTO (CodEstabelecimento)`
+
+A operação da Álgebra Relacional que expressa diretamente essa semântica de quantificação universal ("para todos"), sem a necessidade de aninhamentos complexos de operadores de diferença, é a:  
+
+* **A)** Junção Externa Completa (`INSPECAO` $\mathbin{⟗}$ `ESTABELECIMENTO`)
+* **B)** Equijunção (`INSPECAO` $\bowtie_{\text{CodEstabelecimento} = \text{CodEstabelecimento}}$ `ESTABELECIMENTO`)
+* **C)** Divisão Relacional (`INSPECAO` $\div$ `ESTABELECIMENTO`)
+* **D)** Produto Cartesiano (`INSPECAO` $\times$ `ESTABELECIMENTO`)
+* **E)** Interseção (`INSPECAO` $\cap$ `ESTABELECIMENTO`)
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Full Outer Join preserva tuplas sem correspondência em ambos os lados preenchendo com nulos, sem filtrar por quantificação universal.
+> - **B)** Incorreta. A Equijunção apenas relaciona inspeções a estabelecimentos existentes, retornando auditores que inspecionaram *ao menos um* estabelecimento.
+> - **C)** Correta. A **Divisão Relacional ($R \div S$)** é o operador formal da álgebra relacional projetado para expressar o quantificador universal $\forall$ (*"para todos"*). A operação `INSPECAO` $\div$ `ESTABELECIMENTO` retorna unicamente as tuplas de `CodAuditor` que estão combinadas com **todas** as tuplas presentes na relação `ESTABELECIMENTO`.
+> - **D)** Incorreta. O Produto Cartesiano gera todas as combinações possíveis entre auditores e estabelecimentos, multiplicando o número de tuplas.
+> - **E)** Incorreta. A Interseção exige esquemas compatíveis quanto à união (mesmo número e tipos de atributos), o que não ocorre entre relações com graus diferentes.
+> 
+> **Gabarito: C**
+
+---
+
+
+
+### Questão 03 (FCC - Adaptada / TI - Álgebra Relacional)
+Na Álgebra Relacional, uma consulta sobre duas relações $R(A, B, C)$ e $S(C, D, E)$ tem por objetivo filtrar as tuplas de $R$ onde o atributo $A = 10$, concatenar com as tuplas correspondentes de $S$ onde $R.C = S.C$, e projetar apenas as colunas $B$ e $D$.
+
+A expressão formal algébrica que representa essa operação com precisão é:  
+
+* **A)** $\pi_{B, D} (\sigma_{A = 10} (R \bowtie S))$
+* **B)** $\sigma_{B, D} (\pi_{A = 10} (R \times S))$
+* **C)** $\pi_{B, D} (\sigma_{A = 10} (R) \cup \sigma_{A = 10} (S))$
+* **D)** $\rho_{B, D} (\sigma_{A = 10} (R - S))$
+* **E)** $\pi_{A = 10} (\sigma_{B, D} (R \div S))$
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A junção natural $R \bowtie S$ realiza a equijunção pelo atributo comum $C$ ($R.C = S.C$). Em seguida, a seleção $\sigma_{A=10}$ filtra apenas as tuplas onde $A$ vale $10$. Por fim, a projeção $\pi_{B, D}$ descarta as demais colunas e projeta unicamente os atributos solicitados $B$ e $D$, eliminando eventuais duplicatas.
+> - **B)** Incorreta. Inverte a sintaxe dos operadores: $\sigma$ recebe uma condição booleana (e não uma lista de atributos como $B, D$) e $\pi$ recebe atributos.
+> - **C)** Incorreta. O operador de união ($\cup$) concatena tuplas verticalmente e exige que as relações sejam compatíveis quanto à união (mesmo grau e domínios equivalentes), o que não ocorre entre $R$ e $S$.
+> - **D)** Incorreta. O operador $\rho$ representa a operação de renomeação.
+> - **E)** Incorreta. O operador $\div$ expressa a divisão relacional, inadequada para consultas com junção condicional e projeção.
+> 
+> **Gabarito: A**
+
+---
+
+
+
 ## 4. Teoria da Normalização e Formas Normais (Codd)
 
 A teoria da normalização, concebida por Edgar F. Codd, consiste em uma técnica formal de análise de esquemas relacionais com base em suas **Dependências Funcionais (DF)** e chaves primárias. Seu objetivo é minimizar a redundância de dados e erradicar as anomalias de inserção, exclusão e alteração.
@@ -236,6 +322,70 @@ A **Forma Normal de Boyce-Codd (FNBC)** é uma versão mais estrita da 3ª FN cr
 
 ---
 
+### Questão 04 (FCC - Adaptada / TI - Forma Normal de Boyce-Codd vs. 3ª FN)
+Considere uma relação $R(A, B, C)$ com o seguinte conjunto de dependências funcionais:  
+$F = \{ (A, B) \rightarrow C, \quad C \rightarrow B \}$  
+Sabe-se que as chaves candidatas dessa relação são $(A, B)$ e $(A, C)$.
+
+Com base nas definições formais das Formas Normais, afirma-se corretamente que a relação $R$:  
+
+* **A)** Não está na 1ª FN, pois apresenta dependências funcionais sobrepostas.
+* **B)** Está na 2ª FN, mas viola a 3ª FN porque $C$ determina um atributo não-chave.
+* **C)** Está na 3ª FN, mas não está na Forma Normal de Boyce-Codd (FNBC).
+* **D)** Está na Forma Normal de Boyce-Codd (FNBC), pois todas as dependências funcionais são triviais.
+* **E)** Encontra-se na 4ª FN, pois não possui atributos multivalorados dependentes.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A relação está na 1ª FN (domínios atômicos).
+> - **B)** Incorreta. A relação não viola a 3ª FN.
+> - **C)** Correta. Análise detalhada:
+>     1. Chaves candidatas: $(A, B)$ e $(A, C)$. Todos os atributos ($A, B, C$) são atributos primos (pertencem a ao menos uma chave).
+>     2. 2ª FN: Como não existem atributos não-primos, a relação está na 2ª FN.
+>     3. 3ª FN: Para $(A, B) \rightarrow C$, $(A, B)$ é superchave. Para $C \rightarrow B$, embora $C$ não seja superchave, $B$ é atributo primo. Logo, a relação **atende à 3ª FN**.
+>     4. FNBC: A FNBC exige estritamente que, para toda dependência não-trivial $X \rightarrow Y$, o determinante $X$ seja superchave. Na dependência $C \rightarrow B$, o determinante $C$ **não é superchave**. Portanto, a relação **viola a FNBC**.
+>
+> - **D) Incorreta.** A relação viola expressamente a Forma Normal de Boyce-Codd, pois em  \rightarrow B$ o determinante $ não é superchave.
+> - **E) Incorreta.** A 4ª FN examina dependências multivaloradas, mas a relação sequer atinge a conformidade com a FNBC.
+> 
+> **Gabarito: C**
+
+---
+
+
+
+### Questão 05 (FCC - Adaptada / TI - Teoria da Normalização)
+Considere uma relação não normalizada de um sistema de compras públicas representada pelo esquema:  
+`CONTRATO (NumContrato, NumItem, CodFornecedor, NomeFornecedor, DescricaoItem, Quantidade, ValorUnitario)`  
+Onde a chave primária composta da relação é `(NumContrato, NumItem)`. Sabe-se ainda que existem as seguintes dependências funcionais:
+
+- `(NumContrato, NumItem) -> Quantidade, ValorUnitario`
+- `NumItem -> DescricaoItem`
+- `NumContrato -> CodFornecedor, NomeFornecedor`
+- `CodFornecedor -> NomeFornecedor`
+
+Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve-se:  
+
+* **A)** Eliminar os grupos repetitivos e garantir a atomicidade dos campos, mantendo todos os atributos na mesma tabela.
+* **B)** Eliminar as dependências funcionais parciais, decompondo a relação de modo que nenhum atributo não-chave dependa de apenas parte da chave primária composta.
+* **C)** Eliminar as dependências transitivas, garantindo que o `NomeFornecedor` não dependa de `CodFornecedor`.
+* **D)** Converter todas as chaves primárias em chaves substitutas (*surrogate keys*) UUID geradas pelo SGBD.
+* **E)** Desnormalizar a relação unificando `Quantidade` e `ValorUnitario` em um atributo multivalorado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A atomicidade de domínios e a eliminação de grupos repetitivos constituem a regra da **Primeira Forma Normal (1ª FN)**.
+> - **B)** Correta. A **Segunda Forma Normal (2ª FN)** exige que a relação esteja na 1ª FN e que todo atributo não-chave dependa *totalmente* da chave primária. Como a chave primária é composta por `(NumContrato, NumItem)`, atributos como `DescricaoItem` (que depende apenas de `NumItem`) e `CodFornecedor` (que depende apenas de `NumContrato`) configuram **dependências funcionais parciais**, devendo ser isolados em tabelas próprias para atingir a 2ª FN.
+> - **C)** Incorreta. A eliminação de dependências transitivas (`CodFornecedor -> NomeFornecedor`) é o requisito exclusivo para a **Terceira Forma Normal (3ª FN)**.
+> - **D)** Incorreta. A adoção de chaves substitutas (*surrogate keys*) é escolha de modelagem física, sem relação formal com os postulados de Edgar F. Codd.
+> - **E)** Incorreta. Introduzir atributos multivalorados violaria a 1ª FN, degradando o esquema para o estado não normalizado.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 5. Processo de Desnormalização de Dados
 
 A **desnormalização** consiste na introdução deliberada, planejada e controlada de redundância em um esquema de banco de dados físico previamente normalizado.
@@ -280,144 +430,3 @@ flowchart TD
 * ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 3 - Modelo Entidade-Relacionamento; Cap. 14 - Formas Normais e Dependências Funcionais).
 * SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 2 - Modelo Relacional; Cap. 6 - Projeto de Banco de Dados e Teoria da Normalização).
 * HEUSER, Carlos Alberto. **Projeto de Banco de Dados**. 6. ed. Porto Alegre: Bookman, 2009. (Cap. 2 - Modelo Conceitual DER; Cap. 5 - Normalização de Dados).
-
----
-
-## 6. Questões Comentadas & Prática Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TI - Teoria da Normalização)
-Considere uma relação não normalizada de um sistema de compras públicas representada pelo esquema:  
-`CONTRATO (NumContrato, NumItem, CodFornecedor, NomeFornecedor, DescricaoItem, Quantidade, ValorUnitario)`  
-Onde a chave primária composta da relação é `(NumContrato, NumItem)`. Sabe-se ainda que existem as seguintes dependências funcionais:
-
-- `(NumContrato, NumItem) -> Quantidade, ValorUnitario`
-- `NumItem -> DescricaoItem`
-- `NumContrato -> CodFornecedor, NomeFornecedor`
-- `CodFornecedor -> NomeFornecedor`
-
-Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve-se:  
-
-* **A)** Eliminar os grupos repetitivos e garantir a atomicidade dos campos, mantendo todos os atributos na mesma tabela.
-* **B)** Eliminar as dependências funcionais parciais, decompondo a relação de modo que nenhum atributo não-chave dependa de apenas parte da chave primária composta.
-* **C)** Eliminar as dependências transitivas, garantindo que o `NomeFornecedor` não dependa de `CodFornecedor`.
-* **D)** Converter todas as chaves primárias em chaves substitutas (*surrogate keys*) UUID geradas pelo SGBD.
-* **E)** Desnormalizar a relação unificando `Quantidade` e `ValorUnitario` em um atributo multivalorado.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A atomicidade de domínios e a eliminação de grupos repetitivos constituem a regra da **Primeira Forma Normal (1ª FN)**.
-> - **B)** Correta. A **Segunda Forma Normal (2ª FN)** exige que a relação esteja na 1ª FN e que todo atributo não-chave dependa *totalmente* da chave primária. Como a chave primária é composta por `(NumContrato, NumItem)`, atributos como `DescricaoItem` (que depende apenas de `NumItem`) e `CodFornecedor` (que depende apenas de `NumContrato`) configuram **dependências funcionais parciais**, devendo ser isolados em tabelas próprias para atingir a 2ª FN.
-> - **C)** Incorreta. A eliminação de dependências transitivas (`CodFornecedor -> NomeFornecedor`) é o requisito exclusivo para a **Terceira Forma Normal (3ª FN)**.
-> - **D)** Incorreta. A adoção de chaves substitutas (*surrogate keys*) é escolha de modelagem física, sem relação formal com os postulados de Edgar F. Codd.
-> - **E)** Incorreta. Introduzir atributos multivalorados violaria a 1ª FN, degradando o esquema para o estado não normalizado.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / TI - Álgebra Relacional)
-Na Álgebra Relacional, uma consulta sobre duas relações $R(A, B, C)$ e $S(C, D, E)$ tem por objetivo filtrar as tuplas de $R$ onde o atributo $A = 10$, concatenar com as tuplas correspondentes de $S$ onde $R.C = S.C$, e projetar apenas as colunas $B$ e $D$.
-
-A expressão formal algébrica que representa essa operação com precisão é:  
-
-* **A)** $\pi_{B, D} (\sigma_{A = 10} (R \bowtie S))$
-* **B)** $\sigma_{B, D} (\pi_{A = 10} (R \times S))$
-* **C)** $\pi_{B, D} (\sigma_{A = 10} (R) \cup \sigma_{A = 10} (S))$
-* **D)** $\rho_{B, D} (\sigma_{A = 10} (R - S))$
-* **E)** $\pi_{A = 10} (\sigma_{B, D} (R \div S))$
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. A junção natural $R \bowtie S$ realiza a equijunção pelo atributo comum $C$ ($R.C = S.C$). Em seguida, a seleção $\sigma_{A=10}$ filtra apenas as tuplas onde $A$ vale $10$. Por fim, a projeção $\pi_{B, D}$ descarta as demais colunas e projeta unicamente os atributos solicitados $B$ e $D$, eliminando eventuais duplicatas.
-> - **B)** Incorreta. Inverte a sintaxe dos operadores: $\sigma$ recebe uma condição booleana (e não uma lista de atributos como $B, D$) e $\pi$ recebe atributos.
-> - **C)** Incorreta. O operador de união ($\cup$) concatena tuplas verticalmente e exige que as relações sejam compatíveis quanto à união (mesmo grau e domínios equivalentes), o que não ocorre entre $R$ e $S$.
-> - **D)** Incorreta. O operador $\rho$ representa a operação de renomeação.
-> - **E)** Incorreta. O operador $\div$ expressa a divisão relacional, inadequada para consultas com junção condicional e projeção.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 3 (FCC - Adaptada / TI - Modelo Entidade-Relacionamento de Peter Chen)
-No contexto do Diagrama Entidade-Relacionamento (DER) segundo a notação original proposta por Peter Chen, analise a seguinte situação de negócio:  
-*"Em um órgão de fiscalização fazendária, cada PROCESSO_FISCAL possui um número de processo que o identifica unicamente. Cada processo pode conter múltiplos TERMOS_FISCAIS. Um termo fiscal possui apenas uma numeração sequencial interna (ex.: 1, 2, 3), só faz sentido existir vinculado ao seu respectivo processo fiscal e sua identificação plena depende da chave primária do processo."*
-
-Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração sequencial interna e o relacionamento entre `PROCESSO_FISCAL` e `TERMO_FISCAL` são classificados, respectivamente, como:  
-
-* **A)** Entidade Associativa, Atributo Composto e Auto-relacionamento.
-* **B)** Entidade Fraca, Chave Parcial (discriminador) e Relacionamento Identificador.
-* **C)** Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador.
-* **D)** Entidade Fraca, Atributo Derivado e Agregação.
-* **E)** Superclasse, Atributo Atômico e Relacionamento Ternário.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Entidades associativas resolvem relacionamentos $N:M$ com atributos próprios, e auto-relacionamento ocorre quando uma entidade se relaciona consigo mesma.
-> - **B)** Correta. Classificação impecável segundo a teoria de Chen:
->     1. `TERMO_FISCAL` depende existencialmente de `PROCESSO_FISCAL` e não possui chave primária global própria; logo, é uma **Entidade Fraca** (representada por retângulo de linha dupla);
->     2. A numeração sequencial interna (1, 2, 3) identifica o termo apenas dentro de cada processo; logo, é uma **Chave Parcial** ou **Discriminador** (representada por elipse com sublinhado tracejado);
->     3. O relacionamento que conecta a entidade fraca à sua proprietária é um **Relacionamento Identificador** (representado por losango de linha dupla).
->
-> - **C)** Incorreta. `TERMO_FISCAL` não é uma entidade regular (forte), pois depende da proprietária para sua identificação plena.
-> - **D)** Incorreta. A numeração sequencial não é atributo derivado (calculado dinamicamente).
-> - **E)** Incorreta. Conceitos de especialização/generalização e relacionamentos ternários não se aplicam ao cenário.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / TI - Forma Normal de Boyce-Codd vs. 3ª FN)
-Considere uma relação $R(A, B, C)$ com o seguinte conjunto de dependências funcionais:  
-$F = \{ (A, B) \rightarrow C, \quad C \rightarrow B \}$  
-Sabe-se que as chaves candidatas dessa relação são $(A, B)$ e $(A, C)$.
-
-Com base nas definições formais das Formas Normais, afirma-se corretamente que a relação $R$:  
-
-* **A)** Não está na 1ª FN, pois apresenta dependências funcionais sobrepostas.
-* **B)** Está na 2ª FN, mas viola a 3ª FN porque $C$ determina um atributo não-chave.
-* **C)** Está na 3ª FN, mas não está na Forma Normal de Boyce-Codd (FNBC).
-* **D)** Está na Forma Normal de Boyce-Codd (FNBC), pois todas as dependências funcionais são triviais.
-* **E)** Encontra-se na 4ª FN, pois não possui atributos multivalorados dependentes.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A relação está na 1ª FN (domínios atômicos).
-> - **B)** Incorreta. A relação não viola a 3ª FN.
-> - **C)** Correta. Análise detalhada:
->     1. Chaves candidatas: $(A, B)$ e $(A, C)$. Todos os atributos ($A, B, C$) são atributos primos (pertencem a ao menos uma chave).
->     2. 2ª FN: Como não existem atributos não-primos, a relação está na 2ª FN.
->     3. 3ª FN: Para $(A, B) \rightarrow C$, $(A, B)$ é superchave. Para $C \rightarrow B$, embora $C$ não seja superchave, $B$ é atributo primo. Logo, a relação **atende à 3ª FN**.
->     4. FNBC: A FNBC exige estritamente que, para toda dependência não-trivial $X \rightarrow Y$, o determinante $X$ seja superchave. Na dependência $C \rightarrow B$, o determinante $C$ **não é superchave**. Portanto, a relação **viola a FNBC**.
->
-> - **D e E)** Incorretas. A relação viola a FNBC conforme demonstrado.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 5 (FCC - Adaptada / TI - Álgebra Relacional e Divisão Relacional)
-Em sistemas de banco de dados relacionais, deseja-se elaborar uma consulta algébrica formal para responder à seguinte demanda de auditoria:  
-*"Recuperar o código de todos os Auditores Fiscais que realizaram inspeções em TODOS os estabelecimentos cadastrados no estado."*
-
-Considere os esquemas das relações:
-
-- `INSPECAO (CodAuditor, CodEstabelecimento)`
-- `ESTABELECIMENTO (CodEstabelecimento)`
-
-A operação da Álgebra Relacional que expressa diretamente essa semântica de quantificação universal ("para todos"), sem a necessidade de aninhamentos complexos de operadores de diferença, é a:  
-
-* **A)** Junção Externa Completa (`INSPECAO` $\mathbin{⟗}$ `ESTABELECIMENTO`)
-* **B)** Equijunção (`INSPECAO` $\bowtie_{\text{CodEstabelecimento} = \text{CodEstabelecimento}}$ `ESTABELECIMENTO`)
-* **C)** Divisão Relacional (`INSPECAO` $\div$ `ESTABELECIMENTO`)
-* **D)** Produto Cartesiano (`INSPECAO` $\times$ `ESTABELECIMENTO`)
-* **E)** Interseção (`INSPECAO` $\cap$ `ESTABELECIMENTO`)
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O Full Outer Join preserva tuplas sem correspondência em ambos os lados preenchendo com nulos, sem filtrar por quantificação universal.
-> - **B)** Incorreta. A Equijunção apenas relaciona inspeções a estabelecimentos existentes, retornando auditores que inspecionaram *ao menos um* estabelecimento.
-> - **C)** Correta. A **Divisão Relacional ($R \div S$)** é o operador formal da álgebra relacional projetado para expressar o quantificador universal $\forall$ (*"para todos"*). A operação `INSPECAO` $\div$ `ESTABELECIMENTO` retorna unicamente as tuplas de `CodAuditor` que estão combinadas com **todas** as tuplas presentes na relação `ESTABELECIMENTO`.
-> - **D)** Incorreta. O Produto Cartesiano gera todas as combinações possíveis entre auditores e estabelecimentos, multiplicando o número de tuplas.
-> - **E)** Incorreta. A Interseção exige esquemas compatíveis quanto à união (mesmo número e tipos de atributos), o que não ocorre entre relações com graus diferentes.
-> 
-> **Gabarito: C**

@@ -37,7 +37,6 @@
     - [4.3 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#43-exercicio-de-mandato-eletivo-pelo-servidor-publico-art-38)
     - [4.4 Estabilidade e Perda do Cargo do Servidor Estável (Art. 41)](#44-estabilidade-e-perda-do-cargo-do-servidor-estavel-art-41)
 - [5. Fontes Oficiais & Doutrinárias Recomendadas](#fontes-oficiais-doutrinarias-recomendadas)
-- [6. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -118,6 +117,53 @@ Esta é a distinção mais exigida pela banca FCC. Analise as características d
 > - **Superveniência de Lei Federal sobre Normas Gerais (Art. 24, § 4º):**  
 >   A superveniência de lei federal contendo normas gerais **NÃO REVOGA** a lei estadual anterior contrária; ela apenas **SUSPENDE A SUA EFICÁCIA** naquilo que for incompatível. Se a lei federal for declarada inconstitucional ou revogada, a lei estadual volta a produzir efeitos normalmente!
 
+---
+
+### Questão 01 (FCC - Adaptada / Analista de Controle Externo)
+A Assembleia Legislativa do Estado de Goiás aprovou projeto de lei que disciplina matérias relativas ao direito tributário e financeiro estadual, estabelecendo regras inovadoras de arrecadação e fiscalização orçamentária no âmbito de seu território, na ausência de lei federal veiculando normas gerais sobre aquele tema específico. Dois anos depois, o Congresso Nacional promulgou lei federal contendo normas gerais sobre a mesma matéria, cujos dispositivos colidem diretamente com três artigos da referida lei estadual goiana.
+
+Considerando o modelo constitucional brasileiro de repartição de competências legislativas concorrentes (art. 24 da CF/88):
+
+* **A)** A lei estadual goiana era originariamente inconstitucional, pois aos Estados Federados é terminantemente vedado legislar sobre direito financeiro e tributário sem expressa autorização em lei complementar federal.
+* **B)** O Estado de Goiás exerceu legitimamente competência legislativa plena ante a omissão originária da União; todavia, a superveniência da lei federal sobre normas gerais suspende a eficácia da lei estadual no que lhe for contrário.
+* **C)** A lei federal posterior padece de inconstitucionalidade formal, por invadir competência reservada originariamente ao Estado-membro.
+* **D)** A lei estadual goiana foi formalmente revogada e extinta do ordenamento jurídico, tendo em vista o princípio da hierarquia absoluta da União sobre os Estados Federados.
+* **E)** A antinomia entre as duas leis impõe a anulação simultânea de ambas pelo Tribunal de Justiça, competindo aos Municípios legislar de forma residual.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** O art. 24, I, da CF/88 consagra competência concorrente sobre direito tributário e financeiro. Inexistindo lei federal de normas gerais, o Estado exerce competência legislativa plena (art. 24, § 3º), sem necessidade de lei complementar delegatória.  
+> - **B) CORRETA:** O texto do art. 24, § 3º, confere ao Estado competência legislativa plena perante a inércia da União. O § 4º do mesmo artigo prescreve expressamente: *"A superveniência de lei federal sobre normas gerais suspende a eficácia da lei estadual, no que lhe for contrário."*  
+> - **C) Incorreta:** A União tem competência constitucional originária para editar normas gerais a qualquer tempo no âmbito concorrente.  
+> - **D) Incorreta:** Não existe hierarquia entre leis federais e leis estaduais no federalismo brasileiro. Por essa razão técnica, a lei federal **não revoga** a lei estadual, mas apenas **suspende a sua eficácia**.  
+> - **E) Incorreta:** A Constituição prevê expressamente o mecanismo da suspensão da eficácia, sem declaração de anulação recíproca.
+> 
+> **Gabarito: B**
+
+---
+
+### Questão 02 (FCC - Adaptada / Procuradoria Legislativa)
+Em tema de repartição constitucional de competências legislativas entre os entes federados, a competência para legislar sobre **Direito do Trabalho**, **Direito Processual** e **Trânsito e Transporte** pertence:
+
+* **A)** Concorrentemente à União, aos Estados e ao Distrito Federal.
+* **B)** Privativamente aos Estados Federados, cabendo aos Municípios suplementar as peculiaridades locais.
+* **C)** Privativamente à União, podendo lei complementar federal autorizar os Estados a legislar sobre questões específicas dessas matérias.
+* **D)** Exclusivamente à União, sendo vedada qualquer hipótese de delegação de competência aos Estados-membros.
+* **E)** Concorrentemente à União e aos Municípios, ficando os Estados restritos às normas de interesse regional.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** Essas três matérias não integram o rol da competência concorrente do art. 24 da CF/88.  
+> - **B) Incorreta:** Estados não têm competência privativa originária sobre tais matérias substantivas federais.  
+> - **C) CORRETA:** As matérias Direito do Trabalho e Direito Processual estão arroladas no art. 22, I, da CF/88, e Trânsito e Transporte no art. 22, XI, da CF/88, configurando competências privativas da União. O parágrafo único do art. 22 prescreve expressamente: *"Lei complementar poderá autorizar os Estados a legislar sobre questões específicas das matérias relacionadas neste artigo."*  
+> - **D) Incorreta:** A competência legislativa privativa admite delegação para questões específicas mediante Lei Complementar Federal (art. 22, parágrafo único). A indelegabilidade aplica-se às competências administrativas *exclusivas* do art. 21.  
+> - **E) Incorreta:** Municípios sequer participam formalmente das competências concorrentes do art. 24, e tais matérias são privativas federais.
+> 
+> **Gabarito: C**
+
+---
+
+
 #### 2.2 Competências Administrativas: Exclusivas e Comuns
 - **Exclusivas da União (Art. 21):** São indelegáveis a outros entes políticos. Envolvem a emissão de moeda, administração das reservas cambiais, manutenção das relações diplomáticas, defesa nacional e fiscalização nuclear.
 - **Comuns de Todos os Entes (Art. 23):** Competências materiais que devem ser exercidas de forma cooperativa e solidária por União, Estados, DF e Municípios: zelar pela guarda da Constituição, cuidar da saúde e assistência pública, proteger o meio ambiente, combater a poluição e preservar o patrimônio histórico. Leis complementares fixam normas para a cooperação entre a União e os entes subnacionais (art. 23, parágrafo único).
@@ -184,84 +230,9 @@ flowchart TD
 > - **Teto Remuneratório na Acumulação Lícita (Tema 377/STF):** No caso de acumulação constitucional legítima de cargos, o teto remuneratório constitucional incide **isoladamente sobre cada um dos cargos**, e não sobre o somatório das remunerações!  
 > - **Cargo Técnico:** Para fins de acumulação com professor, considera-se técnico o cargo que exige conhecimentos técnicos específicos ou formação superior determinada, como o cargo de Analista e Técnico de Controle Externo do TCE-GO.
 
-#### 4.3 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)
-Tratamento constitucional aplicável ao servidor público da administração direta, autárquica e fundacional no exercício de mandato político:
-
-```mermaid
-flowchart TD
-    Mandato["Servidor Efetivo Eleito para Mandato"]
-    Mandato --> FedEst["Mandato Federal, Estadual ou Distrital<br/>(Presidente, Deputado, Senador, Governador)"]
-    Mandato --> Pref["Mandato de PREFEITO"]
-    Mandato --> Ver["Mandato de VEREADOR"]
-    FedEst --> R1["Afasta-se OBRIGATORIAMENTE do cargo efetivo"]
-    Pref --> R2["Afasta-se do cargo efetivo com<br/>DIREITO DE OPTAR pela remuneração"]
-    Ver --> R3{"Há compatibilidade<br/>de horários?"}
-    R3 -->|SIM| C1["Percebe as duas remunerações<br/>(Cargo Efetivo + Vereança)"]
-    R3 -->|NÃO| C2["Afasta-se do cargo efetivo com<br/>DIREITO DE OPTAR pela remuneração"]
-```
-
-- Para contagem de tempo de serviço: o tempo de mandato é contado para todos os efeitos legais, **exceto para promoção por merecimento** (computa-se apenas por antiguidade).
-- Previdência Social: os valores são recolhidos como se estivesse no exercício efetivo do cargo.
-
-#### 4.4 Estabilidade e Perda do Cargo do Servidor Estável (Art. 41)
-- **Aquisição da Estabilidade:** São estáveis após **3 (três) anos** de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.
-- **Condição Obrigatória:** É obrigatória a aprovação prévia em **avaliação especial de desempenho** realizada por comissão instituída especificamente para essa finalidade (art. 41, § 4º).
-- **As Quatro Hipóteses Exaustivas de Perda do Cargo do Servidor Estável:**
-    1. Em virtude de **sentença judicial transitada em julgado**;
-    2. Mediante **processo administrativo disciplinar (PAD)** no qual lhe seja assegurada ampla defesa;
-    3. Mediante **procedimento de avaliação periódica de desempenho**, na forma de lei complementar federal, assegurada ampla defesa;
-    4. Para cumprimento dos **limites com despesas de pessoal** (art. 169, § 4º da CF/88), caso as medidas anteriores (corte de cargos em comissão e exoneração de servidores não estáveis) sejam insuficientes.
-
-```mermaid
-flowchart TD
-    subgraph Hipoteses["Perda do Cargo do Servidor Estável (Art. 41)"]
-        H1["1. Sentença Judicial Transitada em Julgado"]
-        H2["2. Processo Administrativo Disciplinar (PAD) com Ampla Defesa"]
-        H3["3. Avaliação Periódica de Desempenho (na forma de Lei Complementar)"]
-        H4["4. Redução de Despesa com Pessoal (Art. 169 da CF/88)"]
-    end
-```
-
 ---
 
-## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
-
-* [Constituição Federal de 1988 - Arts. 18 a 36 (Organização Político-Administrativa)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art18) - Estrutura federativa brasileira, autonomia dos entes e regras de intervenção federal e estadual.
-* [Constituição Federal de 1988 - Arts. 21 a 24 (Repartição de Competências)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art21) - Competências exclusivas, privativas da União, comuns e concorrentes dos Estados federados.
-* [Constituição Federal de 1988 - Arts. 37 a 41 (Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Princípios expressos do LIMPE, regras de concurso público, acumulação de cargos e estabilidade dos servidores.
-* [Constituição do Estado de Goiás - Título III (Da Organização do Estado)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Competências do Estado de Goiás, bens estaduais e municípios goianos.
-* [STF Súmula Vinculante 37 (Vedação de Aumento Salarial pelo Judiciário)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=37) - Enunciado vinculante sobre o princípio da legalidade estrita e separação dos poderes na remuneração de servidores.
-* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 8 - A Organização do Estado Federal; Cap. 9 - Repartição de Competências).
-* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 6 - Organização do Estado; Cap. 7 - Administração Pública).
-* MEIRELLES, Hely Lopes. **Direito Administrativo Brasileiro**. 44. ed. São Paulo: Malheiros, 2020. (Cap. 2 - Administração Pública e Servidores Públicos).
-
-
-## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
-
-### Questão 1 (FCC - Adaptada / Analista de Controle Externo)
-A Assembleia Legislativa do Estado de Goiás aprovou projeto de lei que disciplina matérias relativas ao direito tributário e financeiro estadual, estabelecendo regras inovadoras de arrecadação e fiscalização orçamentária no âmbito de seu território, na ausência de lei federal veiculando normas gerais sobre aquele tema específico. Dois anos depois, o Congresso Nacional promulgou lei federal contendo normas gerais sobre a mesma matéria, cujos dispositivos colidem diretamente com três artigos da referida lei estadual goiana.
-
-Considerando o modelo constitucional brasileiro de repartição de competências legislativas concorrentes (art. 24 da CF/88):
-
-* **A)** A lei estadual goiana era originariamente inconstitucional, pois aos Estados Federados é terminantemente vedado legislar sobre direito financeiro e tributário sem expressa autorização em lei complementar federal.
-* **B)** O Estado de Goiás exerceu legitimamente competência legislativa plena ante a omissão originária da União; todavia, a superveniência da lei federal sobre normas gerais suspende a eficácia da lei estadual no que lhe for contrário.
-* **C)** A lei federal posterior padece de inconstitucionalidade formal, por invadir competência reservada originariamente ao Estado-membro.
-* **D)** A lei estadual goiana foi formalmente revogada e extinta do ordenamento jurídico, tendo em vista o princípio da hierarquia absoluta da União sobre os Estados Federados.
-* **E)** A antinomia entre as duas leis impõe a anulação simultânea de ambas pelo Tribunal de Justiça, competindo aos Municípios legislar de forma residual.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O art. 24, I, da CF/88 consagra competência concorrente sobre direito tributário e financeiro. Inexistindo lei federal de normas gerais, o Estado exerce competência legislativa plena (art. 24, § 3º), sem necessidade de lei complementar delegatória.  
-> - **B) CORRETA:** O texto do art. 24, § 3º, confere ao Estado competência legislativa plena perante a inércia da União. O § 4º do mesmo artigo prescreve expressamente: *"A superveniência de lei federal sobre normas gerais suspende a eficácia da lei estadual, no que lhe for contrário."*  
-> - **C) Incorreta:** A União tem competência constitucional originária para editar normas gerais a qualquer tempo no âmbito concorrente.  
-> - **D) Incorreta:** Não existe hierarquia entre leis federais e leis estaduais no federalismo brasileiro. Por essa razão técnica, a lei federal **não revoga** a lei estadual, mas apenas **suspende a sua eficácia**.  
-> - **E) Incorreta:** A Constituição prevê expressamente o mecanismo da suspensão da eficácia, sem declaração de anulação recíproca.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / Técnico de Controle Externo - TCE-GO)
+### Questão 03 (FCC - Adaptada / Técnico de Controle Externo - TCE-GO)
 Um servidor público ocupante do cargo de provimento efetivo de Técnico de Controle Externo do Tribunal de Contas do Estado de Goiás, com formação acadêmica superior em Direito, foi aprovado em regular concurso público municipal para o cargo de Professor de Direito Constitucional na Faculdade Municipal de Ensino Superior de Goiânia.
 
 Considerando as normas constitucionais que regem a acumulação remunerada de cargos públicos (art. 37, XVI da CF/88) e comprovada a plena compatibilidade de horários entre as jornadas de trabalho:
@@ -284,7 +255,74 @@ Considerando as normas constitucionais que regem a acumulação remunerada de ca
 
 ---
 
-### Questão 3 (FCC - Adaptada / Analista Judiciário)
+
+#### 4.3 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)
+Tratamento constitucional aplicável ao servidor público da administração direta, autárquica e fundacional no exercício de mandato político:
+
+```mermaid
+flowchart TD
+    Mandato["Servidor Efetivo Eleito para Mandato"]
+    Mandato --> FedEst["Mandato Federal, Estadual ou Distrital<br/>(Presidente, Deputado, Senador, Governador)"]
+    Mandato --> Pref["Mandato de PREFEITO"]
+    Mandato --> Ver["Mandato de VEREADOR"]
+    FedEst --> R1["Afasta-se OBRIGATORIAMENTE do cargo efetivo"]
+    Pref --> R2["Afasta-se do cargo efetivo com<br/>DIREITO DE OPTAR pela remuneração"]
+    Ver --> R3{"Há compatibilidade<br/>de horários?"}
+    R3 -->|SIM| C1["Percebe as duas remunerações<br/>(Cargo Efetivo + Vereança)"]
+    R3 -->|NÃO| C2["Afasta-se do cargo efetivo com<br/>DIREITO DE OPTAR pela remuneração"]
+```
+
+- Para contagem de tempo de serviço: o tempo de mandato é contado para todos os efeitos legais, **exceto para promoção por merecimento** (computa-se apenas por antiguidade).
+- Previdência Social: os valores são recolhidos como se estivesse no exercício efetivo do cargo.
+
+---
+
+### Questão 04 (FCC - Adaptada / Auditor Governamental)
+Determinado servidor público efetivo do Tribunal de Contas estadual decidiu concorrer a mandato eletivo político, sagrando-se vitorioso nas eleições municipais para o mandato de Vereador. No caso concreto, os horários das sessões ordinárias e comissões da Câmara Municipal coincidem parcialmente com o expediente de trabalho regular desempenhado no Tribunal de Contas.
+
+De acordo com o regime constitucional do servidor em exercício de mandato eletivo (art. 38 da CF/88):
+
+* **A)** O servidor deverá obrigatoriamente renunciar ao cargo efetivo no Tribunal de Contas no ato da posse, assumindo dedicação exclusiva no parlamento.
+* **B)** O servidor acumulará compulsoriamente os subsídios integrais de ambos os cargos, devendo cumprir sua jornada técnica em regime de plantão no final de semana.
+* **C)** Inexistindo compatibilidade de horários, o servidor será afastado do cargo de Técnico de Controle Externo, sendo-lhe facultado optar pela sua remuneração funcional.
+* **D)** O tempo de exercício do mandato eletivo será computado para todos os efeitos funcionais, inclusive para promoção compulsória por merecimento.
+* **E)** O servidor não pode assumir o mandato de Vereador sob pena de demissão imediata a bem do serviço público.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** Servidor público eleito para qualquer mandato jamais é obrigado a renunciar ou perder o cargo de provimento efetivo; ele apenas se afasta das funções durante a legislatura.  
+> - **B) Incorreta:** A percepção cumulativa das vantagens somente é admitida se houver estrita compatibilidade de horários (art. 38, III). O enunciado frisou que os horários coincidem parcialmente (incompatíveis).  
+> - **C) CORRETA:** De acordo com o art. 38, III, da CF/88, investido no mandato de Vereador, *"havendo compatibilidade de horários, perceberá as vantagens de seu cargo, emprego ou função, sem prejuízo da remuneração do cargo eletivo, e, não havendo compatibilidade, será aplicada a norma do inciso anterior"* (ou seja, afasta-se do cargo público, sendo-lhe facultado optar pela sua remuneração).  
+> - **D) Incorreta:** O art. 38, IV, prescreve que o tempo de serviço será contado para todos os efeitos legais, **exceto para promoção por merecimento**.  
+> - **E) Incorreta:** O exercício de mandato político é um direito político fundamental plenamente assegurado aos servidores públicos.
+> 
+> **Gabarito: C**
+
+---
+
+
+#### 4.4 Estabilidade e Perda do Cargo do Servidor Estável (Art. 41)
+- **Aquisição da Estabilidade:** São estáveis após **3 (três) anos** de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.
+- **Condição Obrigatória:** É obrigatória a aprovação prévia em **avaliação especial de desempenho** realizada por comissão instituída especificamente para essa finalidade (art. 41, § 4º).
+- **As Quatro Hipóteses Exaustivas de Perda do Cargo do Servidor Estável:**
+    1. Em virtude de **sentença judicial transitada em julgado**;
+    2. Mediante **processo administrativo disciplinar (PAD)** no qual lhe seja assegurada ampla defesa;
+    3. Mediante **procedimento de avaliação periódica de desempenho**, na forma de lei complementar federal, assegurada ampla defesa;
+    4. Para cumprimento dos **limites com despesas de pessoal** (art. 169, § 4º da CF/88), caso as medidas anteriores (corte de cargos em comissão e exoneração de servidores não estáveis) sejam insuficientes.
+
+```mermaid
+flowchart TD
+    subgraph Hipoteses["Perda do Cargo do Servidor Estável (Art. 41)"]
+        H1["1. Sentença Judicial Transitada em Julgado"]
+        H2["2. Processo Administrativo Disciplinar (PAD) com Ampla Defesa"]
+        H3["3. Avaliação Periódica de Desempenho (na forma de Lei Complementar)"]
+        H4["4. Redução de Despesa com Pessoal (Art. 169 da CF/88)"]
+    end
+```
+
+---
+
+### Questão 05 (FCC - Adaptada / Analista Judiciário)
 Sobre o regime constitucional de estabilidade dos servidores públicos civis e as hipóteses de perda do cargo público efetivo previstas na Constituição da República, analise as proposições a seguir:
 
 I. São estáveis após dois anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.  
@@ -316,44 +354,15 @@ Está correto o que se afirma em:
 
 ---
 
-### Questão 4 (FCC - Adaptada / Auditor Governamental)
-Determinado servidor público efetivo do Tribunal de Contas estadual decidiu concorrer a mandato eletivo político, sagrando-se vitorioso nas eleições municipais para o mandato de Vereador. No caso concreto, os horários das sessões ordinárias e comissões da Câmara Municipal coincidem parcialmente com o expediente de trabalho regular desempenhado no Tribunal de Contas.
 
-De acordo com o regime constitucional do servidor em exercício de mandato eletivo (art. 38 da CF/88):
 
-* **A)** O servidor deverá obrigatoriamente renunciar ao cargo efetivo no Tribunal de Contas no ato da posse, assumindo dedicação exclusiva no parlamento.
-* **B)** O servidor acumulará compulsoriamente os subsídios integrais de ambos os cargos, devendo cumprir sua jornada técnica em regime de plantão no final de semana.
-* **C)** Inexistindo compatibilidade de horários, o servidor será afastado do cargo de Técnico de Controle Externo, sendo-lhe facultado optar pela sua remuneração funcional.
-* **D)** O tempo de exercício do mandato eletivo será computado para todos os efeitos funcionais, inclusive para promoção compulsória por merecimento.
-* **E)** O servidor não pode assumir o mandato de Vereador sob pena de demissão imediata a bem do serviço público.
+## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** Servidor público eleito para qualquer mandato jamais é obrigado a renunciar ou perder o cargo de provimento efetivo; ele apenas se afasta das funções durante a legislatura.  
-> - **B) Incorreta:** A percepção cumulativa das vantagens somente é admitida se houver estrita compatibilidade de horários (art. 38, III). O enunciado frisou que os horários coincidem parcialmente (incompatíveis).  
-> - **C) CORRETA:** De acordo com o art. 38, III, da CF/88, investido no mandato de Vereador, *"havendo compatibilidade de horários, perceberá as vantagens de seu cargo, emprego ou função, sem prejuízo da remuneração do cargo eletivo, e, não havendo compatibilidade, será aplicada a norma do inciso anterior"* (ou seja, afasta-se do cargo público, sendo-lhe facultado optar pela sua remuneração).  
-> - **D) Incorreta:** O art. 38, IV, prescreve que o tempo de serviço será contado para todos os efeitos legais, **exceto para promoção por merecimento**.  
-> - **E) Incorreta:** O exercício de mandato político é um direito político fundamental plenamente assegurado aos servidores públicos.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 5 (FCC - Adaptada / Procuradoria Legislativa)
-Em tema de repartição constitucional de competências legislativas entre os entes federados, a competência para legislar sobre **Direito do Trabalho**, **Direito Processual** e **Trânsito e Transporte** pertence:
-
-* **A)** Concorrentemente à União, aos Estados e ao Distrito Federal.
-* **B)** Privativamente aos Estados Federados, cabendo aos Municípios suplementar as peculiaridades locais.
-* **C)** Privativamente à União, podendo lei complementar federal autorizar os Estados a legislar sobre questões específicas dessas matérias.
-* **D)** Exclusivamente à União, sendo vedada qualquer hipótese de delegação de competência aos Estados-membros.
-* **E)** Concorrentemente à União e aos Municípios, ficando os Estados restritos às normas de interesse regional.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** Essas três matérias não integram o rol da competência concorrente do art. 24 da CF/88.  
-> - **B) Incorreta:** Estados não têm competência privativa originária sobre tais matérias substantivas federais.  
-> - **C) CORRETA:** As matérias Direito do Trabalho e Direito Processual estão arroladas no art. 22, I, da CF/88, e Trânsito e Transporte no art. 22, XI, da CF/88, configurando competências privativas da União. O parágrafo único do art. 22 prescreve expressamente: *"Lei complementar poderá autorizar os Estados a legislar sobre questões específicas das matérias relacionadas neste artigo."*  
-> - **D) Incorreta:** A competência legislativa privativa admite delegação para questões específicas mediante Lei Complementar Federal (art. 22, parágrafo único). A indelegabilidade aplica-se às competências administrativas *exclusivas* do art. 21.  
-> - **E) Incorreta:** Municípios sequer participam formalmente das competências concorrentes do art. 24, e tais matérias são privativas federais.
-> 
-> **Gabarito: C**
+* [Constituição Federal de 1988 - Arts. 18 a 36 (Organização Político-Administrativa)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art18) - Estrutura federativa brasileira, autonomia dos entes e regras de intervenção federal e estadual.
+* [Constituição Federal de 1988 - Arts. 21 a 24 (Repartição de Competências)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art21) - Competências exclusivas, privativas da União, comuns e concorrentes dos Estados federados.
+* [Constituição Federal de 1988 - Arts. 37 a 41 (Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Princípios expressos do LIMPE, regras de concurso público, acumulação de cargos e estabilidade dos servidores.
+* [Constituição do Estado de Goiás - Título III (Da Organização do Estado)](https://legisla.casacivil.go.gov.br/constituicao-estadual) - Competências do Estado de Goiás, bens estaduais e municípios goianos.
+* [STF Súmula Vinculante 37 (Vedação de Aumento Salarial pelo Judiciário)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=37) - Enunciado vinculante sobre o princípio da legalidade estrita e separação dos poderes na remuneração de servidores.
+* MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional**. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 8 - A Organização do Estado Federal; Cap. 9 - Repartição de Competências).
+* MORAES, Alexandre de. **Direito Constitucional**. 40. ed. São Paulo: Atlas, 2024. (Cap. 6 - Organização do Estado; Cap. 7 - Administração Pública).
+* MEIRELLES, Hely Lopes. **Direito Administrativo Brasileiro**. 44. ed. São Paulo: Malheiros, 2020. (Cap. 2 - Administração Pública e Servidores Públicos).

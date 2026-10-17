@@ -37,12 +37,6 @@
     - [4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO](#42-negacao-de-proposicoes-categoricas-e-a-mnemonica-pea-nao)
     - [4.3 Análise de Silogismos via Diagramas de Euler-Venn](#43-analise-de-silogismos-via-diagramas-de-euler-venn)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
-    - [Questão 01](#questao-01)
-    - [Questão 02](#questao-02)
-    - [Questão 03](#questao-03)
-    - [Questão 04](#questao-04)
-    - [Questão 05](#questao-05)
 
 ---
 
@@ -141,114 +135,7 @@ A FCC explora intensamente duas formas canônicas de reescrever a condicional $p
    $$p \rightarrow q \equiv \neg p \lor q$$
    *Exemplo:* *"Se o servidor observa a moralidade, sua conduta é inatacável"* $\equiv$ *"O servidor **não** observa a moralidade **OU** sua conduta é inatacável"*.
 
-### 2.4 Tautologias, Contradições e Contingências
-
-* **Tautologia:** Proposição composta que é invariavelmente verdadeira em todas as linhas da sua tabela-verdade, independentemente dos valores lógicos das proposições simples (ex.: $p \lor \neg p$, princípio do terceiro excluído).
-* **Contradição:** Proposição composta que é invariavelmente falsa em todas as linhas da sua tabela-verdade (ex.: $p \land \neg p$).
-* **Contingência:** Proposição composta cuja tabela-verdade apresenta pelo menos um valor verdadeiro e pelo menos um valor falso.
-
 ---
-
-## 3. Validade de Argumentos Dedutivos e Regras de Inferência
-
-A argumentação lógica investiga se uma determinada conclusão decorre com necessidade matemática absoluta a partir de um conjunto de premissas assumidas como verdadeiras.
-
-### 3.1 Estrutura do Argumento: Premissas e Conclusão
-
-Um argumento dedutivo é um conjunto ordenado de proposições estruturado em:
-
-* **Premissas ($P_1, P_2, \dots, P_n$):** Proposições que servem de ponto de partida, evidência ou suporte fático.
-* **Conclusão ($C$):** Proposição final deduzida que decorre das premissas.
-Representa-se simbolicamente por: $P_1, P_2, \dots, P_n \vdash C$.
-
-### 3.2 Conceito Formal de Validade vs. Verdade Empírica
-
-* A **validade** é uma propriedade formal e estrutural do argumento; não se confunde com a verdade material dos fatos no mundo físico.
-* Um argumento dedutivo é declarado **VÁLIDO** quando é logicamente impossível que todas as suas premissas sejam simultaneamente verdadeiras e a sua conclusão seja falsa.
-* Se for possível construir um cenário consistente em que todas as premissas sejam verdadeiras e a conclusão seja falsa, o argumento é categorizado como **INVÁLIDO (Falácia ou Sofisma)**.
-
-### 3.3 Principais Regras de Inferência Válidas
-
-1. **Modus Ponens (Afirmação do Antecedente):**
-   $$\frac{p \rightarrow q, \quad p}{\therefore q}$$
-2. **Modus Tollens (Negação do Consequente):**
-   $$\frac{p \rightarrow q, \quad \neg q}{\therefore \neg p}$$
-3. **Silogismo Disjuntivo:**
-   $$\frac{p \lor q, \quad \neg p}{\therefore q}$$
-4. **Silogismo Hipotético (Transitividade da Condicional):**
-   $$\frac{p \rightarrow q, \quad q \rightarrow r}{\therefore p \rightarrow r}$$
-
-### 3.4 O Método do Encadeamento de Premissas Verdadeiras
-
-O método prático para resolver questões com múltiplas premissas condicionais na FCC consiste em:
-
-1. Atribuir o valor lógico **VERDADEIRO ($V$)** a todas as premissas do enunciado;
-2. Localizar o ponto de partida mais restrito: quase sempre uma **proposição simples isolada** ou uma **conjunção ("E")**;
-3. Propagar esse valor veritativo pelas condicionais utilizando *Modus Ponens* ou *Modus Tollens*;
-4. As conclusões verdadeiras necessárias deduzidas correspondem à alternativa correta.
-
----
-
-## 4. Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos
-
-A lógica categórica estuda proposições que expressam relações de inclusão total, inclusão parcial ou exclusão total entre classes e conjuntos.
-
-```mermaid
-flowchart LR
-    A["Todo A é B<br/>(A está contido em B)"] --> NA["Negação:<br/>Algum A NÃO é B<br/>(PEA + NÃO)"]
-    B["Nenhum A é B<br/>(A e B são disjuntos)"] --> NB["Negação:<br/>Algum A é B<br/>(Existe A que é B)"]
-```
-
-### 4.1 Quantificadores Universais e Existenciais: Todo, Nenhum e Algum
-
-* **Universal Afirmativo ("TODO A é B"):** Todo elemento de A pertence a B ($A \subset B$). O conjunto A está totalmente contido no conjunto B.
-* **Universal Negativo ("NENHUM A é B"):** Nenhum elemento de A pertence a B ($A \cap B = \emptyset$). Os conjuntos A e B são mutuamente disjuntos.
-* **Particular / Existencial Afirmativo ("ALGUM A é B"):** Existe pelo menos um elemento pertencente a A que também pertence a B ($A \cap B \neq \emptyset$).
-* **Particular Negativo ("ALGUM A NÃO é B"):** Existe pelo menos um elemento de A que não pertence ao conjunto B.
-
-### 4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO
-
-Para negar uma proposição quantificada, deve-se alternar o tipo de quantificador (universal vira existencial, e existencial vira universal):
-
-1. **Negação de "TODO A é B":**
-    * Não é "Nenhum A é B"! Para quebrar uma afirmação universal afirmativa, basta encontrar **ao menos um contraexemplo**.
-    * Aplica-se a regra mnemônica **PEA + NÃO**:
-    * **P**elo menos um A não é B;
-    * **E**xiste A que não é B;
-    * **A**lgum A não é B.
-
-2. **Negação de "NENHUM A é B":**
-    * Basta provar que existe pelo menos um elemento na interseção: *"Algum A é B"* (ou *"Pelo menos um A é B"*).
-
-3. **Negação de "ALGUM A é B":**
-    * Nega-se pelo quantificador universal negativo: *"Nenhum A é B"*.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA DO "TODO" VS. "NENHUM":** A alternativa mais tentadora e incorreta em provas da FCC para negar *"Todos os servidores são concursados"* é *"Nenhum servidor é concursado"*. Lembre-se: "Todo" e "Nenhum" são proposições contrárias (podem ser ambas falsas ao mesmo tempo se houver 99 concursados e 1 comissionado), mas **não são contraditórias**. A negação legítima é: *"Pelo menos um servidor não é concursado"*.
-
-### 4.3 Análise de Silogismos via Diagramas de Euler-Venn
-
-Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Algum E é P"*:
-
-* Desenhe os círculos de conjuntos de Euler-Venn;
-* O círculo $A$ está totalmente dentro de $E$;
-* O círculo $P$ cruza com $E$, mas **não se pode garantir que encoste em $A$**. Ele pode estar numa região de $E$ totalmente afastada de $A$;
-* Portanto, deduzir que *"Algum A é P"* ou *"Nenhum A é P"* constitui falácia de conclusão contingente. O que é logicamente correto afirmar é que a interseção pode ocorrer, mas **não é uma conclusão necessária**.
-
----
-
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [Portal da Matemática OBMEP / IMPA - Módulo de Noções de Lógica e Argumentação](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=1059) - Validade de argumentos, silogismos, quantificadores (todo, algum, nenhum) e diagramas lógicos.
-* [OBMEP / IMPA - Apostila 2 do PIC: Métodos de Contagem e Lógica Formal](https://www.obmep.org.br/docs/apostila2.pdf) - Diagramas de Euler-Venn, diagramação de conjuntos e análise dedutiva formal.
-* [Khan Academy Brasil - Álgebra: Raciocínio Lógico e Argumentação Dedutiva](https://pt.khanacademy.org/math/algebra) - Construção de demonstrações, equivalências lógicas fundamentais e leis de De Morgan.
-* [Khan Academy Brasil - Pré-Álgebra: Conjuntos e Diagramas de Venn](https://pt.khanacademy.org/math/pre-algebra) - Operações de união, interseção e inclusão aplicadas a silogismos categóricos.
-* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 8 e 9 - Argumentação Lógica, Regras de Inferência e Silogismos).
-* COPI, Irving M. **Introdução à Lógica**. 2. ed. São Paulo: Mestre Jou, 1978. (Cap. 6 e 7 - Silogismos Categóricos e Diagramas de Venn).
-* MORTARI, Cezar A. **Introdução à Lógica**. 2. ed. São Paulo: Editora Unesp, 2016. (Cap. 9 - Teoria da Argumentação e Validade Dedutiva).
-
----
-
-## 📝 Questões de Concurso FCC Comentadas
 
 ### Questão 01
 **(FCC – Auditor Fiscal da Receita – Adaptada TCE-GO)**  
@@ -294,6 +181,83 @@ A negação lógica dessa afirmação é expressa por:
 ---
 
 ### Questão 02
+**(FCC – TCE-GO – Técnico de Controle Externo)**  
+Do ponto de vista da lógica formal, a proposição:  
+*"Se o servidor público observa o princípio da moralidade, então sua conduta administrativa é inatacável"*  
+é logicamente equivalente a:
+
+* **A)** Se a conduta administrativa do servidor público é inatacável, então ele observa o princípio da moralidade.
+* **B)** Se o servidor público não observa o princípio da moralidade, então sua conduta administrativa não é inatacável.
+* **C)** O servidor público não observa o princípio da moralidade ou sua conduta administrativa é inatacável.
+* **D)** O servidor público observa o princípio da moralidade e sua conduta administrativa não é inatacável.
+* **E)** Se a conduta administrativa do servidor não for inatacável, então ele observa o princípio da moralidade.
+
+> **Comentário Detalhado:**
+> Análise das leis de equivalência da condicional $p \rightarrow q$:
+>
+> 1. Identificação das proposições:
+>     - $p$: *"O servidor público observa o princípio da moralidade"*
+>     - $q$: *"Sua conduta administrativa é inatacável"*
+>
+> 2. As duas equivalências lógicas canônicas de $p \rightarrow q$ são:
+>     - Equivalência Contrapositiva: $\neg q \rightarrow \neg p$ (*"Se a conduta não é inatacável, então o servidor não observa a moralidade"*).
+>     - Equivalência Disjuntiva (Regra do NEYA): $\neg p \lor q$ (*"O servidor NÃO observa a moralidade OU sua conduta é inatacável"*).
+>
+> 3. Como a contrapositiva não figura entre as opções, busca-se a forma disjuntiva $\neg p \lor q$, presente de modo límpido na alternativa C.
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. Consiste na recíproca simples ($q \rightarrow p$), o que constitui a falácia da afirmação do consequente.
+> - **B)** Incorreta. É a inversa simples ($\neg p \rightarrow \neg q$), falácia da negação do antecedente.
+> - **C)** Correta. Aplicação perfeita da equivalência disjuntiva NEYA: $\neg p \lor q$.
+> - **D)** Incorreta. Esta é a negação da condicional ($p \land \neg q$), e não sua equivalência.
+> - **E)** Incorreta. Nega o consequente sem negar o antecedente na condicional invertida ($\neg q \rightarrow p$).
+> 
+> **Gabarito: C**
+
+---
+
+
+### 2.4 Tautologias, Contradições e Contingências
+
+* **Tautologia:** Proposição composta que é invariavelmente verdadeira em todas as linhas da sua tabela-verdade, independentemente dos valores lógicos das proposições simples (ex.: $p \lor \neg p$, princípio do terceiro excluído).
+* **Contradição:** Proposição composta que é invariavelmente falsa em todas as linhas da sua tabela-verdade (ex.: $p \land \neg p$).
+* **Contingência:** Proposição composta cuja tabela-verdade apresenta pelo menos um valor verdadeiro e pelo menos um valor falso.
+
+---
+
+## 3. Validade de Argumentos Dedutivos e Regras de Inferência
+
+A argumentação lógica investiga se uma determinada conclusão decorre com necessidade matemática absoluta a partir de um conjunto de premissas assumidas como verdadeiras.
+
+### 3.1 Estrutura do Argumento: Premissas e Conclusão
+
+Um argumento dedutivo é um conjunto ordenado de proposições estruturado em:
+
+* **Premissas ($P_1, P_2, \dots, P_n$):** Proposições que servem de ponto de partida, evidência ou suporte fático.
+* **Conclusão ($C$):** Proposição final deduzida que decorre das premissas.
+Representa-se simbolicamente por: $P_1, P_2, \dots, P_n \vdash C$.
+
+### 3.2 Conceito Formal de Validade vs. Verdade Empírica
+
+* A **validade** é uma propriedade formal e estrutural do argumento; não se confunde com a verdade material dos fatos no mundo físico.
+* Um argumento dedutivo é declarado **VÁLIDO** quando é logicamente impossível que todas as suas premissas sejam simultaneamente verdadeiras e a sua conclusão seja falsa.
+* Se for possível construir um cenário consistente em que todas as premissas sejam verdadeiras e a conclusão seja falsa, o argumento é categorizado como **INVÁLIDO (Falácia ou Sofisma)**.
+
+### 3.3 Principais Regras de Inferência Válidas
+
+1. **Modus Ponens (Afirmação do Antecedente):**
+   $$\frac{p \rightarrow q, \quad p}{\therefore q}$$
+2. **Modus Tollens (Negação do Consequente):**
+   $$\frac{p \rightarrow q, \quad \neg q}{\therefore \neg p}$$
+3. **Silogismo Disjuntivo:**
+   $$\frac{p \lor q, \quad \neg p}{\therefore q}$$
+4. **Silogismo Hipotético (Transitividade da Condicional):**
+   $$\frac{p \rightarrow q, \quad q \rightarrow r}{\therefore p \rightarrow r}$$
+
+---
+
+### Questão 03
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Considere verdadeiras as seguintes quatro premissas a respeito das rotinas de controle do Tribunal:
 
@@ -345,44 +309,104 @@ A partir dessas premissas, é correto concluir de forma necessariamente válida 
 
 ---
 
-### Questão 03
-**(FCC – TCE-GO – Técnico de Controle Externo)**  
-Do ponto de vista da lógica formal, a proposição:  
-*"Se o servidor público observa o princípio da moralidade, então sua conduta administrativa é inatacável"*  
-é logicamente equivalente a:
 
-* **A)** Se a conduta administrativa do servidor público é inatacável, então ele observa o princípio da moralidade.
-* **B)** Se o servidor público não observa o princípio da moralidade, então sua conduta administrativa não é inatacável.
-* **C)** O servidor público não observa o princípio da moralidade ou sua conduta administrativa é inatacável.
-* **D)** O servidor público observa o princípio da moralidade e sua conduta administrativa não é inatacável.
-* **E)** Se a conduta administrativa do servidor não for inatacável, então ele observa o princípio da moralidade.
+### 3.4 O Método do Encadeamento de Premissas Verdadeiras
+
+O método prático para resolver questões com múltiplas premissas condicionais na FCC consiste em:
+
+1. Atribuir o valor lógico **VERDADEIRO ($V$)** a todas as premissas do enunciado;
+2. Localizar o ponto de partida mais restrito: quase sempre uma **proposição simples isolada** ou uma **conjunção ("E")**;
+3. Propagar esse valor veritativo pelas condicionais utilizando *Modus Ponens* ou *Modus Tollens*;
+4. As conclusões verdadeiras necessárias deduzidas correspondem à alternativa correta.
+
+---
+
+## 4. Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos
+
+A lógica categórica estuda proposições que expressam relações de inclusão total, inclusão parcial ou exclusão total entre classes e conjuntos.
+
+```mermaid
+flowchart LR
+    A["Todo A é B<br/>(A está contido em B)"] --> NA["Negação:<br/>Algum A NÃO é B<br/>(PEA + NÃO)"]
+    B["Nenhum A é B<br/>(A e B são disjuntos)"] --> NB["Negação:<br/>Algum A é B<br/>(Existe A que é B)"]
+```
+
+### 4.1 Quantificadores Universais e Existenciais: Todo, Nenhum e Algum
+
+* **Universal Afirmativo ("TODO A é B"):** Todo elemento de A pertence a B ($A \subset B$). O conjunto A está totalmente contido no conjunto B.
+* **Universal Negativo ("NENHUM A é B"):** Nenhum elemento de A pertence a B ($A \cap B = \emptyset$). Os conjuntos A e B são mutuamente disjuntos.
+* **Particular / Existencial Afirmativo ("ALGUM A é B"):** Existe pelo menos um elemento pertencente a A que também pertence a B ($A \cap B \neq \emptyset$).
+* **Particular Negativo ("ALGUM A NÃO é B"):** Existe pelo menos um elemento de A que não pertence ao conjunto B.
+
+### 4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO
+
+Para negar uma proposição quantificada, deve-se alternar o tipo de quantificador (universal vira existencial, e existencial vira universal):
+
+1. **Negação de "TODO A é B":**
+    * Não é "Nenhum A é B"! Para quebrar uma afirmação universal afirmativa, basta encontrar **ao menos um contraexemplo**.
+    * Aplica-se a regra mnemônica **PEA + NÃO**:
+    * **P**elo menos um A não é B;
+    * **E**xiste A que não é B;
+    * **A**lgum A não é B.
+
+2. **Negação de "NENHUM A é B":**
+    * Basta provar que existe pelo menos um elemento na interseção: *"Algum A é B"* (ou *"Pelo menos um A é B"*).
+
+3. **Negação de "ALGUM A é B":**
+    * Nega-se pelo quantificador universal negativo: *"Nenhum A é B"*.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA DO "TODO" VS. "NENHUM":** A alternativa mais tentadora e incorreta em provas da FCC para negar *"Todos os servidores são concursados"* é *"Nenhum servidor é concursado"*. Lembre-se: "Todo" e "Nenhum" são proposições contrárias (podem ser ambas falsas ao mesmo tempo se houver 99 concursados e 1 comissionado), mas **não são contraditórias**. A negação legítima é: *"Pelo menos um servidor não é concursado"*.
+
+---
+
+### Questão 04
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+A afirmação *"Todos os relatórios elaborados pela comissão técnica continham recomendações aos municípios"* tem como **negação lógica** a proposição:
+
+* **A)** Nenhum relatório elaborado pela comissão técnica continha recomendações aos municípios.
+* **B)** Todos os relatórios elaborados pela comissão técnica não continham recomendações aos municípios.
+* **C)** Pelo menos um relatório elaborado pela comissão técnica não continha recomendações aos municípios.
+* **D)** Alguns relatórios elaborados pela comissão técnica continham recomendações aos municípios.
+* **E)** A maioria dos relatórios continha recomendações aos municípios.
 
 > **Comentário Detalhado:**
-> Análise das leis de equivalência da condicional $p \rightarrow q$:
+> Análise da negação de proposições universais afirmativas:
 >
-> 1. Identificação das proposições:
->     - $p$: *"O servidor público observa o princípio da moralidade"*
->     - $q$: *"Sua conduta administrativa é inatacável"*
+> 1. A proposição dada é categórica universal afirmativa: *"Todo A é B"*, onde $A$ representa o conjunto de relatórios da comissão técnica e $B$ a propriedade de conter recomendações.
+> 2. Para negar uma afirmação universal afirmativa, basta exibir a existência de **ao menos uma exceção**:
+>    $$\neg (\forall x, A(x) \rightarrow B(x)) \equiv \exists x, A(x) \land \neg B(x)$$
+> 3. Aplica-se a regra do **PEA + NÃO**:
+>     - **P**elo menos um A não é B;
+>     - **E**xiste A que não é B;
+>     - **A**lgum A não é B.
 >
-> 2. As duas equivalências lógicas canônicas de $p \rightarrow q$ são:
->     - Equivalência Contrapositiva: $\neg q \rightarrow \neg p$ (*"Se a conduta não é inatacável, então o servidor não observa a moralidade"*).
->     - Equivalência Disjuntiva (Regra do NEYA): $\neg p \lor q$ (*"O servidor NÃO observa a moralidade OU sua conduta é inatacável"*).
+> 4. Tradução exata: *"Pelo menos um relatório elaborado pela comissão técnica NÃO continha recomendações aos municípios"*.
 >
-> 3. Como a contrapositiva não figura entre as opções, busca-se a forma disjuntiva $\neg p \lor q$, presente de modo límpido na alternativa C.
+> Análise individual das alternativas:
 >
-> Análise das alternativas:
->
-> - **A)** Incorreta. Consiste na recíproca simples ($q \rightarrow p$), o que constitui a falácia da afirmação do consequente.
-> - **B)** Incorreta. É a inversa simples ($\neg p \rightarrow \neg q$), falácia da negação do antecedente.
-> - **C)** Correta. Aplicação perfeita da equivalência disjuntiva NEYA: $\neg p \lor q$.
-> - **D)** Incorreta. Esta é a negação da condicional ($p \land \neg q$), e não sua equivalência.
-> - **E)** Incorreta. Nega o consequente sem negar o antecedente na condicional invertida ($\neg q \rightarrow p$).
+> - **A)** Incorreta. *"Nenhum A é B"* é a proposição contrária universal, e não a negação contraditória. Se houver 99 relatórios com recomendações e apenas 1 sem recomendações, tanto a proposição original quanto a alternativa A serão simultaneamente falsas.
+> - **B)** Incorreta. Equivalente a "Nenhum", cometendo o mesmo equívoco de A.
+> - **C)** Correta. Traduz com perfeição lógica formal a negação existencial do quantificador universal afirmativo.
+> - **D)** Incorreta. Trata-se de proposição subalterna que seria verdadeira junto com o "Todo".
+> - **E)** Incorreta. Imprecisão quantitativa sem valor de negação lógica.
 > 
 > **Gabarito: C**
 
 ---
 
-### Questão 04
+
+### 4.3 Análise de Silogismos via Diagramas de Euler-Venn
+
+Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Algum E é P"*:
+
+* Desenhe os círculos de conjuntos de Euler-Venn;
+* O círculo $A$ está totalmente dentro de $E$;
+* O círculo $P$ cruza com $E$, mas **não se pode garantir que encoste em $A$**. Ele pode estar numa região de $E$ totalmente afastada de $A$;
+* Portanto, deduzir que *"Algum A é P"* ou *"Nenhum A é P"* constitui falácia de conclusão contingente. O que é logicamente correto afirmar é que a interseção pode ocorrer, mas **não é uma conclusão necessária**.
+
+---
+
+### Questão 05
 **(FCC – TRT – Analista Judiciário)**  
 Considere como verdadeiras as seguintes duas premissas a respeito dos membros de um tribunal:
 
@@ -419,35 +443,14 @@ A partir dessas premissas, é **necessariamente** correto concluir que:
 
 ---
 
-### Questão 05
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-A afirmação *"Todos os relatórios elaborados pela comissão técnica continham recomendações aos municípios"* tem como **negação lógica** a proposição:
 
-* **A)** Nenhum relatório elaborado pela comissão técnica continha recomendações aos municípios.
-* **B)** Todos os relatórios elaborados pela comissão técnica não continham recomendações aos municípios.
-* **C)** Pelo menos um relatório elaborado pela comissão técnica não continha recomendações aos municípios.
-* **D)** Alguns relatórios elaborados pela comissão técnica continham recomendações aos municípios.
-* **E)** A maioria dos relatórios continha recomendações aos municípios.
 
-> **Comentário Detalhado:**
-> Análise da negação de proposições universais afirmativas:
->
-> 1. A proposição dada é categórica universal afirmativa: *"Todo A é B"*, onde $A$ representa o conjunto de relatórios da comissão técnica e $B$ a propriedade de conter recomendações.
-> 2. Para negar uma afirmação universal afirmativa, basta exibir a existência de **ao menos uma exceção**:
->    $$\neg (\forall x, A(x) \rightarrow B(x)) \equiv \exists x, A(x) \land \neg B(x)$$
-> 3. Aplica-se a regra do **PEA + NÃO**:
->     - **P**elo menos um A não é B;
->     - **E**xiste A que não é B;
->     - **A**lgum A não é B.
->
-> 4. Tradução exata: *"Pelo menos um relatório elaborado pela comissão técnica NÃO continha recomendações aos municípios"*.
->
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. *"Nenhum A é B"* é a proposição contrária universal, e não a negação contraditória. Se houver 99 relatórios com recomendações e apenas 1 sem recomendações, tanto a proposição original quanto a alternativa A serão simultaneamente falsas.
-> - **B)** Incorreta. Equivalente a "Nenhum", cometendo o mesmo equívoco de A.
-> - **C)** Correta. Traduz com perfeição lógica formal a negação existencial do quantificador universal afirmativo.
-> - **D)** Incorreta. Trata-se de proposição subalterna que seria verdadeira junto com o "Todo".
-> - **E)** Incorreta. Imprecisão quantitativa sem valor de negação lógica.
-> 
-> **Gabarito: C**
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [Portal da Matemática OBMEP / IMPA - Módulo de Noções de Lógica e Argumentação](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=1059) - Validade de argumentos, silogismos, quantificadores (todo, algum, nenhum) e diagramas lógicos.
+* [OBMEP / IMPA - Apostila 2 do PIC: Métodos de Contagem e Lógica Formal](https://www.obmep.org.br/docs/apostila2.pdf) - Diagramas de Euler-Venn, diagramação de conjuntos e análise dedutiva formal.
+* [Khan Academy Brasil - Álgebra: Raciocínio Lógico e Argumentação Dedutiva](https://pt.khanacademy.org/math/algebra) - Construção de demonstrações, equivalências lógicas fundamentais e leis de De Morgan.
+* [Khan Academy Brasil - Pré-Álgebra: Conjuntos e Diagramas de Venn](https://pt.khanacademy.org/math/pre-algebra) - Operações de união, interseção e inclusão aplicadas a silogismos categóricos.
+* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 8 e 9 - Argumentação Lógica, Regras de Inferência e Silogismos).
+* COPI, Irving M. **Introdução à Lógica**. 2. ed. São Paulo: Mestre Jou, 1978. (Cap. 6 e 7 - Silogismos Categóricos e Diagramas de Venn).
+* MORTARI, Cezar A. **Introdução à Lógica**. 2. ed. São Paulo: Editora Unesp, 2016. (Cap. 9 - Teoria da Argumentação e Validade Dedutiva).

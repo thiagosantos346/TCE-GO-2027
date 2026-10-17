@@ -34,7 +34,6 @@
     - [5.2 A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)](#52-a-nova-isoiec-27002-edicao-2022-4-temas-e-93-controles)
     - [5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005](#53-a-declaracao-de-aplicabilidade-soa-e-a-isoiec-27005)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [6. Questões Comentadas (FCC)](#6-questoes-comentadas-fcc)
 
 ---
 
@@ -89,6 +88,40 @@ A segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como 
 
 ---
 
+### Questão 01
+**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
+Durante uma auditoria de conformidade em um sistema eletrônico de protocolo processual do Tribunal de Contas, os auditores avaliaram a eficácia de diferentes mecanismos de segurança da informação.
+Relacione as situações práticas descritas a seguir com o princípio fundamental de segurança correspondente (CIDAN):
+
+1. Garantir que um documento processual contábil emitido por um conselheiro não tenha seu conteúdo adulterado ou corrompido durante a transmissão na rede.
+2. Garantir que dados fiscais sigilosos de contribuintes sob sigilo legal não sejam visualizados por servidores públicos não autorizados.
+3. Garantir que o remetente de um ofício eletrônico assinado com certificado digital ICP-Brasil não possa negar falsamente, perante a administração e a justiça, a autoria do envio daquele documento.
+
+As situações 1, 2 e 3 correspondem, respectivamente, aos princípios de:
+
+* **A)** Autenticidade; Disponibilidade; e Confidencialidade.
+* **B)** Integridade; Confidencialidade; e Não Repúdio (Irretratabilidade).
+* **C)** Confidencialidade; Integridade; e Autenticidade.
+* **D)** Disponibilidade; Legalidade; e Não Repúdio.
+* **E)** Integridade; Autenticidade; e Disponibilidade.
+
+> **Comentário Detalhado:**
+>
+> - **Situação 1:** Trata da garantia contra adulterações ou corrupções de conteúdo, correspondendo estritamente ao princípio da **Integridade**.
+> - **Situação 2:** Trata do barramento de visualização e leitura por terceiros não autorizados, salvaguardando o sigilo, o que define a **Confidencialidade**.
+> - **Situação 3:** Trata da impossibilidade jurídica de o autor contestar ou negar falsamente ter praticado o ato, o que define formalmente o princípio do **Não Repúdio** (ou Irretratabilidade).
+> - **A)** Incorreta. A situação 1 trata de integridade e a 2 de confidencialidade.
+> - **B)** **Correta.** Mapeia rigorosamente: 1 = Integridade, 2 = Confidencialidade e 3 = Não Repúdio.
+> - **C)** Incorreta. Inverteu as situações 1 e 2.
+> - **D)** Incorreta. Aponta disponibilidade para a situação 1.
+> - **E)** Incorreta. Erra as correspondências dos itens 2 e 3.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 2. Classificação e Rotulagem da Informação
 
 A classificação atribui rótulos de sensibilidade aos ativos de informação da organização, ditando os níveis de proteção lógica e física a serem aplicados de forma proporcional ao dano decorrente de divulgação ou modificação indevida.
@@ -114,6 +147,43 @@ No setor público brasileiro, **a publicidade é a regra geral** e o sigilo é a
 
 > ⚠️ **Alerta de Prova (FCC):**
 > Decore rigorosamente os prazos decrescentes: **25 anos $\rightarrow$ 15 anos $\rightarrow$ 5 anos**. A FCC inventa prazos alternativos inexistentes (como 10 ou 20 anos) ou inverte Secreta e Reservada. Além disso, lembre-se: informações relativas à intimidade, vida privada, honra e imagem das pessoas têm restrição de acesso máxima de **até 100 anos** a contar da data de sua produção (Art. 31 da LAI), não se confundindo com prazos de segurança de Estado!
+
+---
+
+### Questão 02
+**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
+A Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI) dispõe sobre os procedimentos a serem observados pela União, Estados, DF e Municípios com o fim de garantir o acesso a informações públicas, estabelecendo regras para a classificação e proteção de dados que exijam restrição de acesso por motivos de segurança da sociedade ou do Estado.
+Considere as seguintes assertivas sobre os graus de sigilo e prazos previstos na LAI:
+
+I. A classificação de uma informação como reservada impõe restrição de acesso pelo prazo máximo de 5 anos.  
+
+II. A informação classificada como secreta possui prazo máximo de restrição de 15 anos, sendo admitida prorrogação automática e ilimitada por sucessivos períodos de 10 anos.  
+
+III. O prazo máximo de restrição de acesso à informação ultrassecreta é de 25 anos, podendo ser prorrogado uma única vez, por igual período, por decisão privativa da Comissão Mista de Reavaliação de Informações (CMRI).  
+
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+> **Comentário Detalhado:**
+>
+> - **Item I (Correto):** Conforme o Art. 24, § 1º, III da LAI, o prazo de sigilo da informação **reservada** é de no máximo **5 anos**.
+> - **Item II (Incorreto):** O prazo da informação **secreta** é de **15 anos**, mas a LAI **não admite prorrogações sucessivas ou ilimitadas**; o sigilo extingue-se impreterivelmente ao final dos 15 anos.
+> - **Item III (Correto):** Conforme o Art. 24, § 1º, I c/c Art. 35, § 1º da LAI, a informação **ultrassecreta** possui prazo de **25 anos**, admitindo **uma única prorrogação por igual período** por decisão privativa da CMRI.
+> - **A)** Incorreta, pois o item III também é verdadeiro.
+> - **B)** Incorreta, pois o item II é falso.
+> - **C)** **Correta.** Apenas as assertivas I e III estão corretas.
+> - **D)** Incorreta, pois o item II é falso.
+> - **E)** Incorreta, pois o item II está incorreto.
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 2.2 Classificação Corporativa Geral de Ativos
 
@@ -175,6 +245,40 @@ A gestão de riscos estabelece um processo contínuo e estruturado para identifi
         3. **Análise de Custo-Benefício do Controle (CBA):**
            $$\text{Valor do Controle} = (\text{ALE}_{\text{antes}} - \text{ALE}_{\text{depois}}) - \text{ACS}$$
            onde $\text{ACS}$ (*Annualized Cost of Safeguard*) é o custo anual de manutenção do controle. Se o saldo for positivo, o controle de segurança é economicamente viável.
+
+---
+
+### Questão 03
+**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+Durante o processo de avaliação quantitativa de riscos de um banco de dados do Tribunal de Contas avaliado em R$ 400.000,00, a equipe de segurança apurou que um ataque cibernético de ransomware causaria uma perda direta de 40% sobre o valor desse ativo. O histórico de segurança do órgão e os relatórios de inteligência de ameaças apontam que a taxa anual estimada de ocorrência desse tipo de incidente para órgãos do mesmo porte é de 0,25 vezes por ano (isto é, 1 incidente a cada 4 anos).
+Com base nas métricas clássicas de análise quantitativa de risco ($\text{SLE}$, $\text{ARO}$ e $\text{ALE}$), assinale a opção que apresenta, respectivamente, o valor da Expectativa de Perda Única ($\text{SLE}$) e da Expectativa de Perda Anual ($\text{ALE}$):
+
+* **A)** R$ 160.000,00 e R$ 40.000,00.
+* **B)** R$ 40.000,00 e R$ 160.000,00.
+* **C)** R$ 240.000,00 e R$ 60.000,00.
+* **D)** R$ 100.000,00 e R$ 25.000,00.
+* **E)** R$ 160.000,00 e R$ 80.000,00.
+
+> **Comentário Detalhado:**
+>
+> - **1. Dados fornecidos:**
+>     - $\text{AV}$ (*Asset Value*) = R$ 400.000,00
+>     - $\text{EF}$ (*Exposure Factor*) = $40\% = 0{,}40$
+>     - $\text{ARO}$ (*Annualized Rate of Occurrence*) = $0{,}25$
+> - **2. Cálculo da Expectativa de Perda Única (SLE):**
+>   $$\text{SLE} = \text{AV} \times \text{EF} = 400.000 \times 0{,}40 = \text{R\$}~160.000,00$$
+> - **3. Cálculo da Expectativa de Perda Anual (ALE):**
+>   $$\text{ALE} = \text{SLE} \times \text{ARO} = 160.000 \times 0{,}25 = \text{R\$}~40.000,00$$
+> - **A)** **Correta.** Apresenta exatamente $\text{SLE} = \text{R\$}~160.000,00$ e $\text{ALE} = \text{R\$}~40.000,00$.
+> - **B)** Incorreta. Inverteu a posição de SLE e ALE.
+> - **C)** Incorreta. Calculou o valor residual do ativo pós-incidente (60% = R$ 240.000,00).
+> - **D)** Incorreta. Utilizou incorretamente 25% para o cálculo do SLE.
+> - **E)** Incorreta. Errou o cálculo do ALE ao utilizar um ARO fictício de 0,50.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)
 
@@ -240,6 +344,32 @@ O tratamento de incidentes cibernéticos adota o ciclo formalizado no guia NIST 
 
 ---
 
+### Questão 04
+**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
+De acordo com o guia de boas práticas para tratamento de incidentes de segurança cibernética do NIST (NIST SP 800-61 Rev. 2) e as diretrizes da norma ISO/IEC 27035, um incidente cibernético confirmado deve ser processado segundo um ciclo estruturado de fases operacionais.
+Ao detectar a proliferação acelerada de um malware em sua rede corporativa, a equipe de segurança da informação procedeu imediatamente com o isolamento físico dos servidores comprometidos através do desligamento das portas de switch correspondentes, com o intuito de conter a ameaça e evitar que outros nós fossem atingidos.
+A referida ação operacional executada pela equipe insere-se formalmente na fase de:
+
+* **A)** Preparação.
+* **B)** Detecção e Análise.
+* **C)** Contenção.
+* **D)** Atividades Pós-Incidente (Lições Aprendidas).
+* **E)** Classificação de Ativos.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Preparação é a etapa preventiva preliminar (treinamentos, políticas e criação do CSIRT).
+> - **B)** Incorreta. Detecção e análise já ocorreram, pois o malware foi previamente identificado e analisado.
+> - **C)** **Correta.** A ação de desconectar cabos, isolar máquinas da rede ou desativar portas de switch compõe a essência da **Contenção (*Containment*)**, cuja finalidade imediata é frear o avanço do ataque e limitar o dano aos ativos adjacentes.
+> - **D)** Incorreta. Atividades pós-incidente (lições aprendidas) ocorrem após o restabelecimento produtivo dos sistemas.
+> - **E)** Incorreta. Classificação de ativos é processo de governança, não sendo fase operacional de resposta a incidentes do NIST.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ## 5. Família de Normas ISO/IEC 27000 (SGSI)
 
 ### 5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL
@@ -256,6 +386,31 @@ A norma **ABNT NBR ISO/IEC 27001** estabelece os requisitos formais para estabel
     - *Cláusula 9:* Avaliação de Desempenho (Auditorias internas e análise pela direção)
     - *Cláusula 10:* Melhoria (Não conformidades, ações corretivas e ciclo contínuo)
 - **Melhoria Contínua:** Opera tradicionalmente alicerçada no ciclo **PDCA** (*Plan, Do, Check, Act*).
+
+---
+
+### Questão 05
+**(FCC - SEFAZ-PE - Auditoria Fiscal - Gestão de Riscos e Normas ISO/IEC 27000)**
+A respeito dos conceitos de gestão de riscos e da família de normas ABNT NBR ISO/IEC 27000, assinale a afirmativa correta:
+
+* **A)** Uma vulnerabilidade é o agente externo causador do dano (como um invasor ou uma tempestade), enquanto a ameaça é a falha ou brecha interna de um sistema.
+* **B)** A norma ABNT NBR ISO/IEC 27001 é um padrão certificável que define os requisitos para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI), estruturado nas cláusulas de alto nível harmonizadas e no ciclo PDCA.
+* **C)** A edição atualizada da norma ISO/IEC 27002 organiza seus controles em 14 domínios tecnológicos idênticos aos da versão de 2005, proibindo expressamente o tratamento de controles organizacionais e de pessoas.
+* **D)** O cálculo do risco quantitativo Annualized Loss Expectancy (ALE) é obtido somando-se a taxa anual de ocorrência (ARO) com a metade do patrimônio líquido da organização.
+* **E)** A opção de tratamento de risco denominada "Aceitação" consiste em instalar firewalls redundantes e sistemas IPS para zerar o risco residual.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Os conceitos foram invertidos: **Vulnerabilidade** é a fraqueza interna do ativo; **Ameaça** é o agente ou evento externo causador do dano potencial.
+> - **B)** **Correta.** A **ABNT NBR ISO/IEC 27001** prescreve formalmente os **requisitos do SGSI**, sendo a única norma da família 27000 passível de certificação institucional para organizações.
+> - **C)** Incorreta. A ISO/IEC 27002:2022 consolidou os antigos 14 domínios em **4 temas integrados**: Organizacionais, Pessoas, Físicos e Tecnológicos, somando 93 controles.
+> - **D)** Incorreta. A fórmula quantitativa correta é a multiplicação: $\text{ALE} = \text{SLE} \times \text{ARO}$, sem relação com somas de patrimônio líquido.
+> - **E)** Incorreta. A Aceitação do risco (*Risk Acceptance*) não adiciona controles técnicos; consiste em assumir formalmente o risco residual sem novas salvaguardas quando o custo de mitigação não for justificável.
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 5.2 A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)
 
@@ -300,147 +455,3 @@ A edição atualizada (ISO/IEC 27002:2022) simplificou os antigos 14 domínios d
 * ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR ISO/IEC 27001:2022**: Tecnologia da informação — Técnicas de segurança — Sistemas de gestão da segurança da informação — Requisitos. Rio de Janeiro: ABNT, 2022.
 * ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR ISO/IEC 27005:2023**: Segurança da informação, segurança cibernética e proteção da privacidade — Gestão de riscos de segurança da informação. Rio de Janeiro: ABNT, 2023.
 * STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 1 - Visão Geral de Segurança da Informação).
-
-
-## 6. Questões Comentadas (FCC)
-
-### Questão 01
-**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
-Durante uma auditoria de conformidade em um sistema eletrônico de protocolo processual do Tribunal de Contas, os auditores avaliaram a eficácia de diferentes mecanismos de segurança da informação.
-Relacione as situações práticas descritas a seguir com o princípio fundamental de segurança correspondente (CIDAN):
-
-1. Garantir que um documento processual contábil emitido por um conselheiro não tenha seu conteúdo adulterado ou corrompido durante a transmissão na rede.
-2. Garantir que dados fiscais sigilosos de contribuintes sob sigilo legal não sejam visualizados por servidores públicos não autorizados.
-3. Garantir que o remetente de um ofício eletrônico assinado com certificado digital ICP-Brasil não possa negar falsamente, perante a administração e a justiça, a autoria do envio daquele documento.
-
-As situações 1, 2 e 3 correspondem, respectivamente, aos princípios de:
-
-* **A)** Autenticidade; Disponibilidade; e Confidencialidade.
-* **B)** Integridade; Confidencialidade; e Não Repúdio (Irretratabilidade).
-* **C)** Confidencialidade; Integridade; e Autenticidade.
-* **D)** Disponibilidade; Legalidade; e Não Repúdio.
-* **E)** Integridade; Autenticidade; e Disponibilidade.
-
-> **Comentário Detalhado:**
->
-> - **Situação 1:** Trata da garantia contra adulterações ou corrupções de conteúdo, correspondendo estritamente ao princípio da **Integridade**.
-> - **Situação 2:** Trata do barramento de visualização e leitura por terceiros não autorizados, salvaguardando o sigilo, o que define a **Confidencialidade**.
-> - **Situação 3:** Trata da impossibilidade jurídica de o autor contestar ou negar falsamente ter praticado o ato, o que define formalmente o princípio do **Não Repúdio** (ou Irretratabilidade).
-> - **A)** Incorreta. A situação 1 trata de integridade e a 2 de confidencialidade.
-> - **B)** **Correta.** Mapeia rigorosamente: 1 = Integridade, 2 = Confidencialidade e 3 = Não Repúdio.
-> - **C)** Incorreta. Inverteu as situações 1 e 2.
-> - **D)** Incorreta. Aponta disponibilidade para a situação 1.
-> - **E)** Incorreta. Erra as correspondências dos itens 2 e 3.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC - SEFAZ-PE - Auditoria Fiscal - Gestão de Riscos e Normas ISO/IEC 27000)**
-A respeito dos conceitos de gestão de riscos e da família de normas ABNT NBR ISO/IEC 27000, assinale a afirmativa correta:
-
-* **A)** Uma vulnerabilidade é o agente externo causador do dano (como um invasor ou uma tempestade), enquanto a ameaça é a falha ou brecha interna de um sistema.
-* **B)** A norma ABNT NBR ISO/IEC 27001 é um padrão certificável que define os requisitos para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI), estruturado nas cláusulas de alto nível harmonizadas e no ciclo PDCA.
-* **C)** A edição atualizada da norma ISO/IEC 27002 organiza seus controles em 14 domínios tecnológicos idênticos aos da versão de 2005, proibindo expressamente o tratamento de controles organizacionais e de pessoas.
-* **D)** O cálculo do risco quantitativo Annualized Loss Expectancy (ALE) é obtido somando-se a taxa anual de ocorrência (ARO) com a metade do patrimônio líquido da organização.
-* **E)** A opção de tratamento de risco denominada "Aceitação" consiste em instalar firewalls redundantes e sistemas IPS para zerar o risco residual.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Os conceitos foram invertidos: **Vulnerabilidade** é a fraqueza interna do ativo; **Ameaça** é o agente ou evento externo causador do dano potencial.
-> - **B)** **Correta.** A **ABNT NBR ISO/IEC 27001** prescreve formalmente os **requisitos do SGSI**, sendo a única norma da família 27000 passível de certificação institucional para organizações.
-> - **C)** Incorreta. A ISO/IEC 27002:2022 consolidou os antigos 14 domínios em **4 temas integrados**: Organizacionais, Pessoas, Físicos e Tecnológicos, somando 93 controles.
-> - **D)** Incorreta. A fórmula quantitativa correta é a multiplicação: $\text{ALE} = \text{SLE} \times \text{ARO}$, sem relação com somas de patrimônio líquido.
-> - **E)** Incorreta. A Aceitação do risco (*Risk Acceptance*) não adiciona controles técnicos; consiste em assumir formalmente o risco residual sem novas salvaguardas quando o custo de mitigação não for justificável.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
-Durante o processo de avaliação quantitativa de riscos de um banco de dados do Tribunal de Contas avaliado em R$ 400.000,00, a equipe de segurança apurou que um ataque cibernético de ransomware causaria uma perda direta de 40% sobre o valor desse ativo. O histórico de segurança do órgão e os relatórios de inteligência de ameaças apontam que a taxa anual estimada de ocorrência desse tipo de incidente para órgãos do mesmo porte é de 0,25 vezes por ano (isto é, 1 incidente a cada 4 anos).
-Com base nas métricas clássicas de análise quantitativa de risco ($\text{SLE}$, $\text{ARO}$ e $\text{ALE}$), assinale a opção que apresenta, respectivamente, o valor da Expectativa de Perda Única ($\text{SLE}$) e da Expectativa de Perda Anual ($\text{ALE}$):
-
-* **A)** R$ 160.000,00 e R$ 40.000,00.
-* **B)** R$ 40.000,00 e R$ 160.000,00.
-* **C)** R$ 240.000,00 e R$ 60.000,00.
-* **D)** R$ 100.000,00 e R$ 25.000,00.
-* **E)** R$ 160.000,00 e R$ 80.000,00.
-
-> **Comentário Detalhado:**
->
-> - **1. Dados fornecidos:**
->     - $\text{AV}$ (*Asset Value*) = R$ 400.000,00
->     - $\text{EF}$ (*Exposure Factor*) = $40\% = 0{,}40$
->     - $\text{ARO}$ (*Annualized Rate of Occurrence*) = $0{,}25$
-> - **2. Cálculo da Expectativa de Perda Única (SLE):**
->   $$\text{SLE} = \text{AV} \times \text{EF} = 400.000 \times 0{,}40 = \text{R\$}~160.000,00$$
-> - **3. Cálculo da Expectativa de Perda Anual (ALE):**
->   $$\text{ALE} = \text{SLE} \times \text{ARO} = 160.000 \times 0{,}25 = \text{R\$}~40.000,00$$
-> - **A)** **Correta.** Apresenta exatamente $\text{SLE} = \text{R\$}~160.000,00$ e $\text{ALE} = \text{R\$}~40.000,00$.
-> - **B)** Incorreta. Inverteu a posição de SLE e ALE.
-> - **C)** Incorreta. Calculou o valor residual do ativo pós-incidente (60% = R$ 240.000,00).
-> - **D)** Incorreta. Utilizou incorretamente 25% para o cálculo do SLE.
-> - **E)** Incorreta. Errou o cálculo do ALE ao utilizar um ARO fictício de 0,50.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 04
-**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
-A Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI) dispõe sobre os procedimentos a serem observados pela União, Estados, DF e Municípios com o fim de garantir o acesso a informações públicas, estabelecendo regras para a classificação e proteção de dados que exijam restrição de acesso por motivos de segurança da sociedade ou do Estado.
-Considere as seguintes assertivas sobre os graus de sigilo e prazos previstos na LAI:
-
-I. A classificação de uma informação como reservada impõe restrição de acesso pelo prazo máximo de 5 anos.  
-
-II. A informação classificada como secreta possui prazo máximo de restrição de 15 anos, sendo admitida prorrogação automática e ilimitada por sucessivos períodos de 10 anos.  
-
-III. O prazo máximo de restrição de acesso à informação ultrassecreta é de 25 anos, podendo ser prorrogado uma única vez, por igual período, por decisão privativa da Comissão Mista de Reavaliação de Informações (CMRI).  
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
-> **Comentário Detalhado:**
->
-> - **Item I (Correto):** Conforme o Art. 24, § 1º, III da LAI, o prazo de sigilo da informação **reservada** é de no máximo **5 anos**.
-> - **Item II (Incorreto):** O prazo da informação **secreta** é de **15 anos**, mas a LAI **não admite prorrogações sucessivas ou ilimitadas**; o sigilo extingue-se impreterivelmente ao final dos 15 anos.
-> - **Item III (Correto):** Conforme o Art. 24, § 1º, I c/c Art. 35, § 1º da LAI, a informação **ultrassecreta** possui prazo de **25 anos**, admitindo **uma única prorrogação por igual período** por decisão privativa da CMRI.
-> - **A)** Incorreta, pois o item III também é verdadeiro.
-> - **B)** Incorreta, pois o item II é falso.
-> - **C)** **Correta.** Apenas as assertivas I e III estão corretas.
-> - **D)** Incorreta, pois o item II é falso.
-> - **E)** Incorreta, pois o item II está incorreto.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 05
-**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
-De acordo com o guia de boas práticas para tratamento de incidentes de segurança cibernética do NIST (NIST SP 800-61 Rev. 2) e as diretrizes da norma ISO/IEC 27035, um incidente cibernético confirmado deve ser processado segundo um ciclo estruturado de fases operacionais.
-Ao detectar a proliferação acelerada de um malware em sua rede corporativa, a equipe de segurança da informação procedeu imediatamente com o isolamento físico dos servidores comprometidos através do desligamento das portas de switch correspondentes, com o intuito de conter a ameaça e evitar que outros nós fossem atingidos.
-A referida ação operacional executada pela equipe insere-se formalmente na fase de:
-
-* **A)** Preparação.
-* **B)** Detecção e Análise.
-* **C)** Contenção.
-* **D)** Atividades Pós-Incidente (Lições Aprendidas).
-* **E)** Classificação de Ativos.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Preparação é a etapa preventiva preliminar (treinamentos, políticas e criação do CSIRT).
-> - **B)** Incorreta. Detecção e análise já ocorreram, pois o malware foi previamente identificado e analisado.
-> - **C)** **Correta.** A ação de desconectar cabos, isolar máquinas da rede ou desativar portas de switch compõe a essência da **Contenção (*Containment*)**, cuja finalidade imediata é frear o avanço do ataque e limitar o dano aos ativos adjacentes.
-> - **D)** Incorreta. Atividades pós-incidente (lições aprendidas) ocorrem após o restabelecimento produtivo dos sistemas.
-> - **E)** Incorreta. Classificação de ativos é processo de governança, não sendo fase operacional de resposta a incidentes do NIST.
-> 
-> **Gabarito: C**

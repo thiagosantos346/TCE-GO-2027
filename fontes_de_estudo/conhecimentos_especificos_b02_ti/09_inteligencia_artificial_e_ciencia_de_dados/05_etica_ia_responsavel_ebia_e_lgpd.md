@@ -32,7 +32,6 @@
     - [4.2 Os Três Eixos Transversais](#42-os-tres-eixos-transversais)
     - [4.3 Os Seis Eixos Verticais (Temáticos)](#43-os-seis-eixos-verticais-tematicos)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [5. Questões Comentadas (FCC)](#5-questoes-comentadas-fcc)
 
 ---
 
@@ -88,6 +87,31 @@ Para mitigar decisões automatizadas danosas e salvaguardar garantias constituci
 
 ---
 
+### Questão 01
+**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
+Ao implantar um sistema inteligente de triagem automática de processos trabalhistas e recursos judiciais, o Tribunal estabeleceu diretrizes éticas para impedir vieses algorítmicos e assegurar a adequada governança institucional sobre as decisões automatizadas.
+A respeito dos conceitos de equidade (*fairness*) e dos modelos de supervisão humana em sistemas de inteligência artificial, assinale a afirmativa correta:
+
+* **A)** O modelo *Human-in-the-Loop* (HITL) caracteriza-se pela completa ausência de supervisores humanos na esteira operacional, permitindo que a IA tome decisões definitivas de maneira 100% autônoma e irrecorrível.
+* **B)** O viés de representação (*representation bias*) ocorre quando determinadas classes ou grupos sociais estão insuficientemente representados ou ausentes da base amostral de treinamento do modelo, o que pode provocar degradação de desempenho e maior taxa de erros contra esses grupos.
+* **C)** O princípio da Não Discriminação é plenamente atendido pela simples eliminação formal do atributo "gênero" ou "raça" da tabela, sendo impossível que outras variáveis presentes (como CEP ou ocupação) funcionem como variáveis substitutas (*proxies*) indiretas.
+* **D)** O modelo *Human-on-the-Loop* (HOTL) exige que o magistrado humano execute manualmente todos os cálculos matriciais de tensores antes de autorizar o processamento do algoritmo.
+* **E)** A equidade algorítmica é um conceito puramente comercial sem relevância para os órgãos públicos do Poder Judiciário e Tribunais de Contas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O modelo **Human-in-the-Loop (HITL)** exige compulsoriamente a validação e intervenção de um **operador humano na decisão final**.
+> - **B)** **Correta.** O **Viés de Representação (*Representation Bias*)** surge quando certos estratos ou grupos sociais são sub-representados na base amostral de treinamento. O modelo não aprende os padrões particulares desse subgrupo, gerando taxas de erro e classificações incorretas sensivelmente maiores contra essas minorias.
+> - **C)** Incorreta. A falácia da "Equidade por Desconhecimento" comprova que simplesmente remover uma coluna não impede o viés, visto que modelos capturam facilmente variáveis correlacionadas que atuam como **proxies indiretos** (ex.: CEP residencial, faixa de renda, histórico profissional).
+> - **D)** Incorreta. O modelo *Human-on-the-Loop (HOTL)* consiste na supervisão contínua em tempo real com poder de intervir ou acionar botões de emergência (*kill switch*), sem demandar cálculos manuais.
+> - **E)** Incorreta. A equidade algorítmica é princípio cardeal no setor público, decorrente das garantias republicanas e constitucionais de isonomia e não discriminação.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 2. Explicabilidade e Interpretabilidade de IA (XAI)
 
 A disciplina de IA Explicável (*Explainable Artificial Intelligence - XAI*) desenvolve métodos matemáticos para tornar as predições e decisões de modelos preditivos compreensíveis para auditores, magistrados e cidadãos.
@@ -137,6 +161,32 @@ Introduzido por Scott Lundberg e Su-In Lee (2017), o **SHAP** fundamenta-se nos 
 ```
 
 - **Aplicações Visuais:** O SHAP permite gerar gráficos de força locais (*Force Plots* e *Waterfall Plots*) demonstrando como cada parâmetro fiscal empurrou a probabilidade de fraude para cima ou para baixo em relação à média, bem como visões globais de importância (*Summary Plots / Beeswarm*).
+
+---
+
+### Questão 02
+**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+Em auditorias de controle externo com uso intensivo de modelos de aprendizado de máquina supervisionados para detecção de conluio em licitações públicas, a explicabilidade técnica dos algoritmos é pré-requisito indispensável para a sustentação jurídica dos relatórios periciais. Dois dos métodos agósticos de explicação mais consolidados na literatura são o SHAP (*SHapley Additive exPlanations*) e o LIME (*Local Interpretable Model-agnostic Explanations*).
+A respeito dos fundamentos matemáticos e características do SHAP e do LIME, assinale a afirmativa correta:
+
+* **A)** O SHAP baseia-se na Teoria dos Jogos Cooperativos formulada por Lloyd Shapley, garantindo propriedades axiomáticas de consistência, simetria e aditividade local ao mensurar a contribuição marginal de cada variável para a predição.
+* **B)** O LIME é um método estritamente global que só é capaz de explicar o comportamento de modelos lineares de regressão, sendo incapaz de processar redes neurais ou árvores de decisão.
+* **C)** O SHAP descarta as permutações de coalizões de atributos e atribui pesos aleatórios aos dados com base em uma função de densidade de Poisson uniforme.
+* **D)** O método LIME calcula o valor exato de todas as coalizões de atributos em nível populacional global com garantia matemática de aditividade exata, enquanto o SHAP restringe-se a perturbações empíricas pontuais.
+* **E)** Ambos os métodos exigem acesso obrigatório e exclusivo aos códigos-fonte proprietários dos compiladores para operar, sendo proibido seu uso em bibliotecas abertas como Scikit-Learn.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** O **SHAP** fundamenta-se nos **Valores de Shapley** da Teoria dos Jogos Cooperativos (Lundberg & Lee, 2017). O método calcula a contribuição marginal média ponderada de cada variável considerando todas as permutações e subconjuntos de coalizões possíveis, sendo a única técnica com garantia axiomática de **Eficiência/Aditividade Local**, **Simetria**, **Jogador Nulo** e **Consistência**.
+> - **B)** Incorreta. O LIME é um método **agóstico** ao modelo (opera sobre qualquer modelo caixa-preta) e fornece explicações **locais** (ao redor de uma instância).
+> - **C)** Incorreta. O cálculo do SHAP apoia-se formalmente em permutações de coalizões marginais, e não em distribuições aleatórias de Poisson.
+> - **D)** Incorreta. Houve inversão: quem opera com perturbações empíricas locais e regressão substituta é o **LIME**; quem tem base formal de coalizões aditivas exatas é o **SHAP**.
+> - **E)** Incorreta. Ambos os frameworks são ferramentas de código aberto (*open-source*) amplamente difundidas no ecossistema Python.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)
 
@@ -190,6 +240,32 @@ O Artigo 20 da Lei nº 13.709/2018 constitui o epicentro do regime jurídico de 
 > 1. O direito de revisão de decisão automatizada no caput do Art. 20 **não contém expressamente a exigência de ser feita "por pessoa natural"** (esse trecho foi formalmente vetado e o veto mantido pelo Congresso Nacional).
 > 2. A alegação de "segredo comercial e industrial" pelo controlador **não blinda o sistema contra o Estado**: o § 2º faculta formalmente à **ANPD (Autoridade Nacional de Proteção de Dados)** deflagrar **auditoria técnica direta no código e nos dados** para checar se houve discriminação abusiva.
 
+---
+
+### Questão 03
+**(FCC - SEFAZ-PE - Auditoria Fiscal - LGPD e Decisões Automatizadas)**
+Um contribuinte teve sua certidão negativa de débitos fiscais cancelada de forma imediata e sumária por um módulo autônomo de inteligência artificial de uma Secretaria da Fazenda. O sistema tomou a decisão com base em cruzamentos algorítmicos automatizados de notas fiscais eletrônicas de terceiros. Ao solicitar esclarecimentos formais sobre os critérios adotados na autuação, o contribuinte recebeu como resposta de que a decisão era fruto de processamento fechado e protegido por sigilo tecnológico interno, nada havendo a ser esclarecido.
+À luz da Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD), assinale a alternativa correta:
+
+* **A)** O controlador agiu de forma estritamente legal, pois a LGPD não prevê qualquer prerrogativa de revisão para decisões tomadas com base em tratamento automatizado de dados pessoais.
+* **B)** Nos termos do Artigo 20 da LGPD, o titular dos dados tem o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, tendo o controlador a obrigação de prestar informações claras e adequadas a respeito dos critérios e dos procedimentos utilizados.
+* **C)** A alegação de sigilo comercial e industrial por parte do controlador cessa qualquer possibilidade de auditoria pelo Estado, extinguindo as competências da Autoridade Nacional de Proteção de Dados (ANPD).
+* **D)** As decisões tomadas por algoritmos no setor público prescindem de motivação legal, dada a presunção jurídica de infalibilidade dos cálculos matemáticos.
+* **E)** A LGPD autoriza expressamente a discriminação ilícita ou abusiva quando esta for executada por algoritmos de aprendizado profundo (*deep learning*).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Artigo 20 da LGPD consagra formalmente o direito à **revisão de decisões tomadas unicamente com base em tratamento automatizado**.
+> - **B)** **Correta.** O Artigo 20 assegura ao titular o direito de requerer a revisão da decisão unicamente automatizada, bem como o dever vinculado do controlador de fornecer informações transparentes sobre critérios e procedimentos adotados no cálculo.
+> - **C)** Incorreta. Conforme o Art. 20, § 2º, a invocação de segredo comercial/industrial pelo controlador **não extingue a fiscalização pública**: a **ANPD poderá deflagrar auditoria técnica direta** para verificar a ocorrência de discriminações abusivas no código e dados.
+> - **D)** Incorreta. No direito administrativo brasileiro vigora compulsoriamente o princípio da motivação dos atos administrativos (Art. 37 e Art. 93, IX da CF/88), sendo nulo qualquer ato decisório sem motivação fática e jurídica demonstrável.
+> - **E)** Incorreta. O Art. 6º, IX veda peremptoriamente qualquer discriminação ilícita ou abusiva.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 3.3 Relatório de Impacto à Proteção de Dados Pessoais (RIPD)
 
 Nos termos do Art. 38 da LGPD, a ANPD pode exigir a elaboração de um **Relatório de Impacto à Proteção de Dados Pessoais (RIPD / DPIA)** para operações de tratamento que possam gerar elevado risco aos direitos fundamentais e liberdades civis.
@@ -197,6 +273,31 @@ Nos termos do Art. 38 da LGPD, a ANPD pode exigir a elaboração de um **Relató
 - *Projetos de IA de Alto Risco:* Reconhecimento facial em vias públicas, escoragem preditiva automatizada de cidadãos, perfilamento em larga escala e sistemas de concessão ou cancelamento de direitos sociais devem conter obrigatoriamente um RIPD descrevendo a necessidade, a proporcionalidade e as medidas de mitigação de riscos e segurança implementadas.
 
 ---
+
+### Questão 04
+**(FCC - TRF-3ª Região - Analista Judiciário - Governança de TI)**
+Um Tribunal Regional Federal planeja implantar um sistema automatizado de inteligência artificial dotado de visão computacional para reconhecimento facial e perfilamento biométrico em tempo real para controle de acesso físico e segurança em suas dependências judiciárias.
+Considerando as regras da LGPD e as diretrizes internacionais de governança ética em IA, assinale a alternativa correta:
+
+* **A)** O uso de biometria facial e perfilamento em larga escala qualifica-se como tratamento de dados pessoais sensíveis com potencial de elevado risco aos direitos fundamentais, justificando a realização de um Relatório de Impacto à Proteção de Dados Pessoais (RIPD) e a adoção de medidas reforçadas de segurança e mitigação de falsos positivos.
+* **B)** A LGPD isenta expressamente qualquer órgão do Poder Judiciário da elaboração de Relatórios de Impacto à Proteção de Dados Pessoais (RIPD), mesmo quando envolver inteligência artificial e dados sensíveis.
+* **C)** Os princípios da OCDE sobre IA preconizam a exclusão sumária de qualquer mecanismo de auditoria algorítmica para garantir a proteção irrestrita da propriedade intelectual de desenvolvedores privados.
+* **D)** O princípio da Minimização de Dados impõe que o órgão público colete a maior quantidade possível de dados pessoais irrelevantes para alimentar a memória do algoritmo sem finalidade específica.
+* **E)** Sistemas de IA aplicados à segurança pública prescindem de qualquer controle de precisão técnica ou teste de estresse de segurança cibernética.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Dados biométricos faciais são categorizados como **dados pessoais sensíveis** (Art. 11 da LGPD). O seu processamento automatizado com perfilamento em larga escala introduz riscos severos aos direitos civis e liberdades fundamentais (como riscos de constrangimentos ou prisões indevidas por falsos positivos em minorias), demandando compulsoriamente a prévia elaboração de um **Relatório de Impacto à Proteção de Dados Pessoais (RIPD / DPIA)** (Art. 38) com salvaguardas de mitigação.
+> - **B)** Incorreta. O Poder Público submete-se estritamente às obrigações da LGPD (Art. 23 e seguintes), não havendo dispensa genérica de RIPD para o Poder Judiciário em tratamentos de alto risco.
+> - **C)** Incorreta. As diretrizes da OCDE exigem transparência, auditabilidade técnica e prestação de contas (*accountability*).
+> - **D)** Incorreta. O princípio da Minimização (Necessidade, Art. 6º, III) impõe exatamente o inverso: coletar estritamente o mínimo indispensável para a finalidade específica do serviço.
+> - **E)** Incorreta. Sistemas voltados à segurança demandam testes de robustez cibernética e tolerância a falhas ainda mais rigorosos.
+> 
+> **Gabarito: A**
+
+---
+
+
 
 ## 4. Estratégia Brasileira de Inteligência Artificial (EBIA)
 
@@ -223,6 +324,32 @@ A EBIA estrutura-se em uma arquitetura matricial dividida categoricamente entre 
          ├── 5. Aplicação no Poder Público (Governo Digital e Controle)
          └── 6. Segurança Pública (Forense e Combate ao Crime Organizado)
 ```
+
+---
+
+### Questão 05
+**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
+A Estratégia Brasileira de Inteligência Artificial (EBIA), aprovada formalmente por meio da Portaria MCTI nº 4.617/2021, foi instituída com a missão de orientar o desenvolvimento ético, sustentável e inovador da IA no território brasileiro, organizando-se em eixos estruturais complementares.
+A respeito da taxonomia e da divisão temática dos eixos da EBIA, assinale a afirmativa correta:
+
+* **A)** A EBIA divide-se estritamente em 3 Eixos Transversais (Legislação, Regulação e Uso Ético; Governança de IA; e Aspectos Internacionais) e 6 Eixos Verticais (Educação e Capacitação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação nos Setores Produtivos; Aplicação no Poder Público; e Segurança Pública).
+* **B)** O documento proíbe categoricamente qualquer iniciativa de pesquisa em IA no Poder Público para evitar interferências em rotinas burocráticas consolidadas.
+* **C)** Os Eixos Transversais da EBIA são: Finanças Corporativas, Mineração de Criptomoedas e Automação de Jogos Eletrônicos.
+* **D)** A EBIA impõe que todo modelo de inteligência artificial comercializado no Brasil obtenha autorização ministerial prévia com homologação em cartório de títulos e documentos antes de qualquer fase de teste.
+* **E)** A EBIA determina que a substituição de empregos decorrente da automação dispensa programas de capacitação ou requalificação profissional por parte do Estado.
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Enuncia rigorosamente a divisão estrutural canônica formalizada na Portaria MCTI nº 4.617/2021: **3 Eixos Transversais** (Legislação, Regulação e Uso Ético; Governança de IA; Aspectos Internacionais) e **6 Eixos Verticais** (Educação e Capacitação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação nos Setores Produtivos; Aplicação no Poder Público; Segurança Pública).
+> - **B)** Incorreta. A aplicação no Poder Público constitui expressamente um dos eixos temáticos prioritários.
+> - **C)** Incorreta. Criptomoedas e jogos eletrônicos não fazem parte da taxonomia de eixos transversais da política nacional.
+> - **D)** Incorreta. A EBIA desestimula burocracias sufocantes prévias, incentivando ambientes experimentais regulatórios controlados (*sandboxes*).
+> - **E)** Incorreta. A qualificação e requalificação profissional (*reskilling*) do trabalhador é o núcleo do eixo vertical de Força de Trabalho.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 4.2 Os Três Eixos Transversais
 
@@ -257,120 +384,3 @@ A EBIA estrutura-se em uma arquitetura matricial dividida categoricamente entre 
 * O'NEIL, Cathy. **Algoritmos de Destruição em Massa: Como o Big Data Aumenta a Desigualdade e Ameaça a Democracia**. Santo André: Editora Rua do Sabão, 2020. (Cap. 1 a 3 - Modelos Ocultos e Discriminação Estatística).
 * BIONI, Bruno Ricardo. **Proteção de Dados Pessoais: A Função e os Limites do Consentimento**. 2. ed. Rio de Janeiro: Forense, 2021. (Cap. 4 - O Impacto das Decisões Automatizadas e os Direitos dos Titulares).
 * RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 27 - Ética, Segurança e Futuro da IA).
-
----
-
-## 5. Questões Comentadas (FCC)
-
-### Questão 01
-**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
-A Estratégia Brasileira de Inteligência Artificial (EBIA), aprovada formalmente por meio da Portaria MCTI nº 4.617/2021, foi instituída com a missão de orientar o desenvolvimento ético, sustentável e inovador da IA no território brasileiro, organizando-se em eixos estruturais complementares.
-A respeito da taxonomia e da divisão temática dos eixos da EBIA, assinale a afirmativa correta:
-
-* **A)** A EBIA divide-se estritamente em 3 Eixos Transversais (Legislação, Regulação e Uso Ético; Governança de IA; e Aspectos Internacionais) e 6 Eixos Verticais (Educação e Capacitação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação nos Setores Produtivos; Aplicação no Poder Público; e Segurança Pública).
-* **B)** O documento proíbe categoricamente qualquer iniciativa de pesquisa em IA no Poder Público para evitar interferências em rotinas burocráticas consolidadas.
-* **C)** Os Eixos Transversais da EBIA são: Finanças Corporativas, Mineração de Criptomoedas e Automação de Jogos Eletrônicos.
-* **D)** A EBIA impõe que todo modelo de inteligência artificial comercializado no Brasil obtenha autorização ministerial prévia com homologação em cartório de títulos e documentos antes de qualquer fase de teste.
-* **E)** A EBIA determina que a substituição de empregos decorrente da automação dispensa programas de capacitação ou requalificação profissional por parte do Estado.
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Enuncia rigorosamente a divisão estrutural canônica formalizada na Portaria MCTI nº 4.617/2021: **3 Eixos Transversais** (Legislação, Regulação e Uso Ético; Governança de IA; Aspectos Internacionais) e **6 Eixos Verticais** (Educação e Capacitação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação nos Setores Produtivos; Aplicação no Poder Público; Segurança Pública).
-> - **B)** Incorreta. A aplicação no Poder Público constitui expressamente um dos eixos temáticos prioritários.
-> - **C)** Incorreta. Criptomoedas e jogos eletrônicos não fazem parte da taxonomia de eixos transversais da política nacional.
-> - **D)** Incorreta. A EBIA desestimula burocracias sufocantes prévias, incentivando ambientes experimentais regulatórios controlados (*sandboxes*).
-> - **E)** Incorreta. A qualificação e requalificação profissional (*reskilling*) do trabalhador é o núcleo do eixo vertical de Força de Trabalho.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 02
-**(FCC - SEFAZ-PE - Auditoria Fiscal - LGPD e Decisões Automatizadas)**
-Um contribuinte teve sua certidão negativa de débitos fiscais cancelada de forma imediata e sumária por um módulo autônomo de inteligência artificial de uma Secretaria da Fazenda. O sistema tomou a decisão com base em cruzamentos algorítmicos automatizados de notas fiscais eletrônicas de terceiros. Ao solicitar esclarecimentos formais sobre os critérios adotados na autuação, o contribuinte recebeu como resposta de que a decisão era fruto de processamento fechado e protegido por sigilo tecnológico interno, nada havendo a ser esclarecido.
-À luz da Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD), assinale a alternativa correta:
-
-* **A)** O controlador agiu de forma estritamente legal, pois a LGPD não prevê qualquer prerrogativa de revisão para decisões tomadas com base em tratamento automatizado de dados pessoais.
-* **B)** Nos termos do Artigo 20 da LGPD, o titular dos dados tem o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, tendo o controlador a obrigação de prestar informações claras e adequadas a respeito dos critérios e dos procedimentos utilizados.
-* **C)** A alegação de sigilo comercial e industrial por parte do controlador cessa qualquer possibilidade de auditoria pelo Estado, extinguindo as competências da Autoridade Nacional de Proteção de Dados (ANPD).
-* **D)** As decisões tomadas por algoritmos no setor público prescindem de motivação legal, dada a presunção jurídica de infalibilidade dos cálculos matemáticos.
-* **E)** A LGPD autoriza expressamente a discriminação ilícita ou abusiva quando esta for executada por algoritmos de aprendizado profundo (*deep learning*).
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O Artigo 20 da LGPD consagra formalmente o direito à **revisão de decisões tomadas unicamente com base em tratamento automatizado**.
-> - **B)** **Correta.** O Artigo 20 assegura ao titular o direito de requerer a revisão da decisão unicamente automatizada, bem como o dever vinculado do controlador de fornecer informações transparentes sobre critérios e procedimentos adotados no cálculo.
-> - **C)** Incorreta. Conforme o Art. 20, § 2º, a invocação de segredo comercial/industrial pelo controlador **não extingue a fiscalização pública**: a **ANPD poderá deflagrar auditoria técnica direta** para verificar a ocorrência de discriminações abusivas no código e dados.
-> - **D)** Incorreta. No direito administrativo brasileiro vigora compulsoriamente o princípio da motivação dos atos administrativos (Art. 37 e Art. 93, IX da CF/88), sendo nulo qualquer ato decisório sem motivação fática e jurídica demonstrável.
-> - **E)** Incorreta. O Art. 6º, IX veda peremptoriamente qualquer discriminação ilícita ou abusiva.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
-Em auditorias de controle externo com uso intensivo de modelos de aprendizado de máquina supervisionados para detecção de conluio em licitações públicas, a explicabilidade técnica dos algoritmos é pré-requisito indispensável para a sustentação jurídica dos relatórios periciais. Dois dos métodos agósticos de explicação mais consolidados na literatura são o SHAP (*SHapley Additive exPlanations*) e o LIME (*Local Interpretable Model-agnostic Explanations*).
-A respeito dos fundamentos matemáticos e características do SHAP e do LIME, assinale a afirmativa correta:
-
-* **A)** O SHAP baseia-se na Teoria dos Jogos Cooperativos formulada por Lloyd Shapley, garantindo propriedades axiomáticas de consistência, simetria e aditividade local ao mensurar a contribuição marginal de cada variável para a predição.
-* **B)** O LIME é um método estritamente global que só é capaz de explicar o comportamento de modelos lineares de regressão, sendo incapaz de processar redes neurais ou árvores de decisão.
-* **C)** O SHAP descarta as permutações de coalizões de atributos e atribui pesos aleatórios aos dados com base em uma função de densidade de Poisson uniforme.
-* **D)** O método LIME calcula o valor exato de todas as coalizões de atributos em nível populacional global com garantia matemática de aditividade exata, enquanto o SHAP restringe-se a perturbações empíricas pontuais.
-* **E)** Ambos os métodos exigem acesso obrigatório e exclusivo aos códigos-fonte proprietários dos compiladores para operar, sendo proibido seu uso em bibliotecas abertas como Scikit-Learn.
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** O **SHAP** fundamenta-se nos **Valores de Shapley** da Teoria dos Jogos Cooperativos (Lundberg & Lee, 2017). O método calcula a contribuição marginal média ponderada de cada variável considerando todas as permutações e subconjuntos de coalizões possíveis, sendo a única técnica com garantia axiomática de **Eficiência/Aditividade Local**, **Simetria**, **Jogador Nulo** e **Consistência**.
-> - **B)** Incorreta. O LIME é um método **agóstico** ao modelo (opera sobre qualquer modelo caixa-preta) e fornece explicações **locais** (ao redor de uma instância).
-> - **C)** Incorreta. O cálculo do SHAP apoia-se formalmente em permutações de coalizões marginais, e não em distribuições aleatórias de Poisson.
-> - **D)** Incorreta. Houve inversão: quem opera com perturbações empíricas locais e regressão substituta é o **LIME**; quem tem base formal de coalizões aditivas exatas é o **SHAP**.
-> - **E)** Incorreta. Ambos os frameworks são ferramentas de código aberto (*open-source*) amplamente difundidas no ecossistema Python.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 04
-**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
-Ao implantar um sistema inteligente de triagem automática de processos trabalhistas e recursos judiciais, o Tribunal estabeleceu diretrizes éticas para impedir vieses algorítmicos e assegurar a adequada governança institucional sobre as decisões automatizadas.
-A respeito dos conceitos de equidade (*fairness*) e dos modelos de supervisão humana em sistemas de inteligência artificial, assinale a afirmativa correta:
-
-* **A)** O modelo *Human-in-the-Loop* (HITL) caracteriza-se pela completa ausência de supervisores humanos na esteira operacional, permitindo que a IA tome decisões definitivas de maneira 100% autônoma e irrecorrível.
-* **B)** O viés de representação (*representation bias*) ocorre quando determinadas classes ou grupos sociais estão insuficientemente representados ou ausentes da base amostral de treinamento do modelo, o que pode provocar degradação de desempenho e maior taxa de erros contra esses grupos.
-* **C)** O princípio da Não Discriminação é plenamente atendido pela simples eliminação formal do atributo "gênero" ou "raça" da tabela, sendo impossível que outras variáveis presentes (como CEP ou ocupação) funcionem como variáveis substitutas (*proxies*) indiretas.
-* **D)** O modelo *Human-on-the-Loop* (HOTL) exige que o magistrado humano execute manualmente todos os cálculos matriciais de tensores antes de autorizar o processamento do algoritmo.
-* **E)** A equidade algorítmica é um conceito puramente comercial sem relevância para os órgãos públicos do Poder Judiciário e Tribunais de Contas.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O modelo **Human-in-the-Loop (HITL)** exige compulsoriamente a validação e intervenção de um **operador humano na decisão final**.
-> - **B)** **Correta.** O **Viés de Representação (*Representation Bias*)** surge quando certos estratos ou grupos sociais são sub-representados na base amostral de treinamento. O modelo não aprende os padrões particulares desse subgrupo, gerando taxas de erro e classificações incorretas sensivelmente maiores contra essas minorias.
-> - **C)** Incorreta. A falácia da "Equidade por Desconhecimento" comprova que simplesmente remover uma coluna não impede o viés, visto que modelos capturam facilmente variáveis correlacionadas que atuam como **proxies indiretos** (ex.: CEP residencial, faixa de renda, histórico profissional).
-> - **D)** Incorreta. O modelo *Human-on-the-Loop (HOTL)* consiste na supervisão contínua em tempo real com poder de intervir ou acionar botões de emergência (*kill switch*), sem demandar cálculos manuais.
-> - **E)** Incorreta. A equidade algorítmica é princípio cardeal no setor público, decorrente das garantias republicanas e constitucionais de isonomia e não discriminação.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 05
-**(FCC - TRF-3ª Região - Analista Judiciário - Governança de TI)**
-Um Tribunal Regional Federal planeja implantar um sistema automatizado de inteligência artificial dotado de visão computacional para reconhecimento facial e perfilamento biométrico em tempo real para controle de acesso físico e segurança em suas dependências judiciárias.
-Considerando as regras da LGPD e as diretrizes internacionais de governança ética em IA, assinale a alternativa correta:
-
-* **A)** O uso de biometria facial e perfilamento em larga escala qualifica-se como tratamento de dados pessoais sensíveis com potencial de elevado risco aos direitos fundamentais, justificando a realização de um Relatório de Impacto à Proteção de Dados Pessoais (RIPD) e a adoção de medidas reforçadas de segurança e mitigação de falsos positivos.
-* **B)** A LGPD isenta expressamente qualquer órgão do Poder Judiciário da elaboração de Relatórios de Impacto à Proteção de Dados Pessoais (RIPD), mesmo quando envolver inteligência artificial e dados sensíveis.
-* **C)** Os princípios da OCDE sobre IA preconizam a exclusão sumária de qualquer mecanismo de auditoria algorítmica para garantir a proteção irrestrita da propriedade intelectual de desenvolvedores privados.
-* **D)** O princípio da Minimização de Dados impõe que o órgão público colete a maior quantidade possível de dados pessoais irrelevantes para alimentar a memória do algoritmo sem finalidade específica.
-* **E)** Sistemas de IA aplicados à segurança pública prescindem de qualquer controle de precisão técnica ou teste de estresse de segurança cibernética.
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Dados biométricos faciais são categorizados como **dados pessoais sensíveis** (Art. 11 da LGPD). O seu processamento automatizado com perfilamento em larga escala introduz riscos severos aos direitos civis e liberdades fundamentais (como riscos de constrangimentos ou prisões indevidas por falsos positivos em minorias), demandando compulsoriamente a prévia elaboração de um **Relatório de Impacto à Proteção de Dados Pessoais (RIPD / DPIA)** (Art. 38) com salvaguardas de mitigação.
-> - **B)** Incorreta. O Poder Público submete-se estritamente às obrigações da LGPD (Art. 23 e seguintes), não havendo dispensa genérica de RIPD para o Poder Judiciário em tratamentos de alto risco.
-> - **C)** Incorreta. As diretrizes da OCDE exigem transparência, auditabilidade técnica e prestação de contas (*accountability*).
-> - **D)** Incorreta. O princípio da Minimização (Necessidade, Art. 6º, III) impõe exatamente o inverso: coletar estritamente o mínimo indispensável para a finalidade específica do serviço.
-> - **E)** Incorreta. Sistemas voltados à segurança demandam testes de robustez cibernética e tolerância a falhas ainda mais rigorosos.
-> 
-> **Gabarito: A**

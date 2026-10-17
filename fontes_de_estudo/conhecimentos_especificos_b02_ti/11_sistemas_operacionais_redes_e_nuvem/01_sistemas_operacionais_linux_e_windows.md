@@ -46,7 +46,6 @@
     - [6.2 Cmdlets Essenciais de Administração e Filtragem](#62-cmdlets-essenciais-de-administracao-e-filtragem)
     - [6.3 Políticas de Execução de Scripts (ExecutionPolicy)](#63-politicas-de-execucao-de-scripts-executionpolicy)
 - [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
-- [8. Questões Comentadas & Exemplos Práticos](#8-questoes-comentadas-exemplos-praticos)
 
 ---
 
@@ -168,6 +167,29 @@ A **Troca de Contexto (*Context Switch*)** é o procedimento pelo qual a CPU int
 
 ---
 
+### Questão 01 (FCC - Adaptada / Analista de Tecnologia da Informação - Sistemas)
+Em relação aos conceitos de concorrência, processos, threads e algoritmos de escalonamento de processador em sistemas operacionais, assinale a afirmação correta:
+
+* **A)** No algoritmo de escalonamento *Round Robin* (Alternância Circular), caso o tamanho da fatia de tempo (*quantum*) seja definido com um valor excessivamente grande, o comportamento do sistema degenera e aproxima-se do algoritmo FCFS (*First-Come, First-Served*).
+* **B)** O algoritmo de escalonamento SJF (*Shortest Job First*) em sua modalidade preemptiva impede a ocorrência do fenômeno de inanição (*starvation*), garantindo tempo de resposta equitativo para processos intensivos em CPU.
+* **C)** As threads criadas no interior de um mesmo processo possuem espaços de endereçamento de memória virtual completamente isolados e independentes, exigindo o uso de pipes ou sockets para qualquer troca de variáveis.
+* **D)** A troca de contexto (*context switch*) é uma operação puramente lógica que não impõe nenhum custo computacional de sobrecarga (*overhead*) para a CPU nem interfere no conteúdo das memórias cache.
+* **E)** O algoritmo de escalonamento FCFS é classificado como estritamente preemptivo, interrompendo processos de longa duração sempre que um novo processo requisita acesso à CPU.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Se o *quantum* do Round Robin for superior à rajada de qualquer processo ativo, nenhum processo sofrerá preempção antes de concluir sua execução voluntariamente, passando a atender na ordem de chegada exatamente como o FCFS.
+> - **B)** Incorreta. O SJF prioriza rajadas curtas de CPU, causando inanição severa (*starvation*) em processos longos com uso intensivo de CPU.
+> - **C)** Incorreta. Threads pertencentes ao mesmo processo compartilham o mesmo espaço de memória virtual (segmentos de código, dados e heap), comunicando-se diretamente por variáveis compartilhadas.
+> - **D)** Incorreta. A troca de contexto acarreta elevado overhead de processamento devido ao salvamento de registradores, troca de tabelas de páginas e invalidação de entradas nas memórias cache e TLB.
+> - **E)** Incorreta. O algoritmo FCFS é categorizado como não preemptivo (*non-preemptive*), mantendo a CPU ocupada até a finalização do processo ou bloqueio por I/O.
+> 
+> **Gabarito: A**
+
+---
+
+
+
 ### 2.5 Sincronização e Concorrência: Mutex vs. Semáforos
 
 Quando múltiplos processos ou threads acessam variáveis e recursos compartilhados concorrentemente, podem ocorrer condições de corrida (*race conditions*). Para proteger a **Região Crítica**, utilizam-se primitivas de sincronização:
@@ -232,6 +254,31 @@ flowchart TD
 
 ---
 
+### Questão 02 (FCC - Adaptada / Técnico Judiciário - Tecnologia da Informação)
+No gerenciamento de memória virtual por paginação sob demanda em sistemas operacionais modernos, um processo em execução gera uma solicitação de acesso a um determinado endereço lógico. Durante a operação de tradução conduzida pela unidade de gerenciamento de memória (MMU), identifica-se que o bit de validade correspondente na tabela de páginas está marcado como ausente (bit 0).
+
+Nessa situação, o evento gerado pela arquitetura de hardware e a ação imediata subsequente realizada pelo sistema operacional são:
+
+* **A)** Uma interrupção de *Page Fault*, que transfere o controle ao núcleo do sistema operacional para buscar a página solicitada no armazenamento secundário e carregá-la em uma moldura livre da memória principal.
+* **B)** Uma violação de segmento (*Segmentation Fault*), que resulta na terminação imediata e compulsória do processo por invasão de área de memória protegida.
+* **C)** Um *TLB Hit*, no qual o processador busca o endereço diretamente na memória cache L1 sem consultar as tabelas do núcleo.
+* **D)** Um procedimento de *Swapping* compulsório de todos os processos ativos para o disco, paralisando a CPU até que a memória RAM seja totalmente desfragmentada.
+* **E)** Uma chamada de sistema `mmap`, solicitando que o processo usuário reconfigure o seu próprio bloco de controle de processo (PCB).
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Quando o bit de validade é zero, a MMU sinaliza uma interrupção de falta de página (*Page Fault*), acionando a rotina do kernel que localiza a página no disco (área de swap) e a transfere para uma moldura livre na RAM.
+> - **B)** Incorreta. Falta de página é uma ocorrência de rotina da memória virtual sob demanda, e não uma violação de segmento ilegal (*Segmentation Fault*).
+> - **C)** Incorreta. Se o bit de presença não estava ativo, a página não estava mapeada na RAM, caracterizando um miss prévio e acionamento do tratador de faltas.
+> - **D)** Incorreta. A falta de página envolve o carregamento individual da página demandada, e não a parada e swapping compulsório de todos os processos do sistema.
+> - **E)** Incorreta. A resolução do evento é realizada pelo kernel de forma transparente à aplicação, sem requerer intervenção do processo no seu PCB.
+> 
+> **Gabarito: A**
+
+---
+
+
+
 ### 3.4 Swapping e Hiperpaginação (Thrashing)
 
 - **Swapping:** Movimentação de páginas ou de processos inteiros entre a memória RAM física e a partição/arquivo de troca no disco (**Swap**).
@@ -271,6 +318,37 @@ O **Inode (*Index Node*)** é a estrutura central de dados que descreve cada arq
 
 ---
 
+### Questão 03 (FCC - Adaptada / Analista de TI - Infraestrutura)
+A respeito da arquitetura de sistemas de arquivos em ambientes baseados em Linux e da estrutura interna de inodes (*index nodes*), considere as seguintes afirmativas:
+
+I. Cada inode armazena metadados fundamentais do arquivo, tais como tamanho, permissões de acesso, identificadores de usuário e grupo, carimbos temporais e ponteiros para os blocos de dados, mas não contém o nome do arquivo nem seu caminho absoluto.  
+
+II. Um link rígido (*hard link*) cria uma entrada de diretório independente que aponta diretamente para o mesmo número de inode do arquivo de origem, podendo ser criado entre diferentes sistemas de arquivos e partições montadas.  
+
+III. Caso o arquivo de origem de um link simbólico (*soft link*) seja excluído do disco, o link simbólico torna-se órfão (*dangling link*), pois ele armazena em seu próprio bloco de dados apenas o caminho textual para o arquivo de destino.  
+
+Está correto o que se afirma em:
+
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** I e III, apenas.
+* **D)** I, II e III.
+* **E)** III, apenas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Inclui o Item II, que comete grave erro conceitual ao afirmar que hard links podem cruzar partições.
+> - **B)** Incorreta. Omite a veracidade do Item I e inclui o Item II que é falso.
+> - **C)** Correta. O Item I é verdadeiro porque o inode é agnóstico ao nome textual e caminho do arquivo (que residem no bloco de dados do diretório pai). O Item II é falso porque números de inode são válidos estritamente dentro da mesma partição/sistema de arquivos, sendo impossível criar hard links entre sistemas de arquivos diferentes. O Item III é verdadeiro porque links simbólicos contêm apenas a string do caminho textual de destino, tornando-se órfãos se o original for apagado.
+> - **D)** Incorreta. Julga todos os itens verdadeiros, desconsiderando a impossibilidade do Item II.
+> - **E)** Incorreta. Omite a correção inequívoca do Item I.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)
 
 - **Linux ext4:** Sistema de arquivos padrão na maioria das distribuições Linux. Suporta **journaling** (diário de transações que previne corrupção de metadados em quedas de energia) com três modos (`journal`, `ordered`, `writeback`), alocação por extensões (*extents*) e volumes de até 1 Exabyte.
@@ -308,6 +386,37 @@ $$\text{Exemplo: } 750 \implies \text{Dono: } 4+2+1=7\,(rwx); \quad \text{Grupo:
 - `SIGCONT` (Sinal 18): Retoma a execução de um processo previamente pausado.
 
 ---
+
+### Questão 04 (FCC - Adaptada / Analista de TI - Infraestrutura de Sistemas)
+Considere um servidor Linux em ambiente de produção onde um analista precisa configurar os privilégios de acesso de um script administrativo crítico denominado `rotina_backup.sh`. Os requisitos de conformidade determinam que:
+
+- O proprietário do arquivo tenha permissão total de leitura, escrita e execução;
+- Os membros do grupo associado ao arquivo tenham apenas permissão de leitura e execução;
+- Usuários externos e não autorizados (outros) não tenham qualquer privilégio de acesso (nem leitura, nem escrita, nem execução).
+
+Adicionalmente, em uma sessão de monitoramento, o analista identificou um processo zumbi travado em loop fechado consumindo 100% de CPU com o identificador de processo PID 8192. Para mitigar o incidente, ele precisa emitir uma ordem de encerramento forçado que seja processada diretamente pelo núcleo do sistema operacional, sem que a aplicação tenha a faculdade de interceptar, bloquear ou postergar a terminação.
+
+Assinale a alternativa que indica, correta e respectivamente, o comando para atribuir as permissões em notação octal e a linha de comando para a finalização compulsória do processo:
+
+* **A)** `chmod 750 rotina_backup.sh` e `kill -15 8192`
+* **B)** `chmod 750 rotina_backup.sh` e `kill -9 8192`
+* **C)** `chmod 754 rotina_backup.sh` e `kill -9 8192`
+* **D)** `chmod 650 rotina_backup.sh` e `kill -KILL 8192`
+* **E)** `chmod 755 rotina_backup.sh` e `kill -STOP 8192`
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O comando `kill -15` envia o sinal `SIGTERM`, que pode ser interceptado, tratado ou ignorado pela aplicação, violando a exigência de finalização compulsória imediata.
+> - **B)** Correta. A permissão octal `750` concede `rwx` (7) para o Dono, `r-x` (5) para o Grupo e `---` (0) para Outros. O comando `kill -9` (`SIGKILL`) é processado diretamente pelo kernel sem possibilidade de interceptação pelo processo.
+> - **C)** Incorreta. A máscara `754` concede permissão de leitura (4) para a classe Outros.
+> - **D)** Incorreta. A máscara `650` não concede direito de execução (1) para o dono do arquivo ($4+2=6$, resultando em `rw-`).
+> - **E)** Incorreta. Concede leitura e execução para Outros (`755`) e `kill -STOP` apenas congela temporariamente o processo, sem terminá-lo.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 5.2 Comandos Essenciais, Filtros e Redirecionamentos
 
@@ -373,6 +482,31 @@ Get-Service | Select-Object -Property Name, DisplayName
 
 ---
 
+### Questão 05 (FCC - Adaptada / Analista de Sistemas - Suporte e Infraestrutura Windows)
+No contexto de administração e automação de servidores Windows Server utilizando o Windows PowerShell, um administrador recebeu a demanda de auditar todos os serviços instalados cujo status operacional atual seja `Running`, extraindo um relatório contendo estritamente as propriedades relativas ao nome de sistema do serviço (`Name`) e seu nome legível para exibição (`DisplayName`).
+
+Considerando a arquitetura interna do PowerShell, baseada na manipulação de coleções de objetos .NET estruturados ao longo do pipeline, assinale a linha de comando canônica e correta para a execução dessa tarefa:
+
+* **A)** `Get-Service | grep "Running" | cut -d " " -f 1,2`
+* **B)** `Get-Service | Where-Object { $_.Status -eq 'Running' } | Select-Object -Property Name, DisplayName`
+* **C)** `Get-Process | Where-Object { $_.State == 'Running' } | Out-String -Columns Name, DisplayName`
+* **D)** `List-Service -Filter "Running" | Format-Table Name, DisplayName`
+* **E)** `Get-Service | ForEach-Object { if ($_.State -eq 'Running') { Write-Host $_.Name } }`
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Utiliza utilitários de texto puro do ecossistema Unix (`grep` e `cut`), contrariando o pipeline baseado em objetos do PowerShell.
+> - **B)** Correta. O cmdlet `Get-Service` emite objetos .NET; `Where-Object` filtra os objetos com base na propriedade `Status` usando o operador de comparação `-eq`; e `Select-Object` projeta apenas as propriedades solicitadas (`Name`, `DisplayName`).
+> - **C)** Incorreta. Utiliza `Get-Process` (processos e não serviços), operador inválido no PowerShell (`==`) e propriedade inexistente (`State`).
+> - **D)** Incorreta. O cmdlet `List-Service` não existe na biblioteca nativa do PowerShell.
+> - **E)** Incorreta. A propriedade correta da classe é `Status` (e não `State`) e o comando não preserva a saída em pipeline estruturado.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 6.3 Políticas de Execução de Scripts (ExecutionPolicy)
 
 As políticas de execução controlam as condições para execução de scripts `.ps1`:
@@ -398,129 +532,3 @@ As políticas de execução controlam as condições para execução de scripts 
 * TANENBAUM, Andrew S.; BOS, Herbert. **Sistemas Operacionais Modernos**. 4. ed. São Paulo: Pearson Education do Brasil, 2016. (Cap. 2 - Processos e Threads; Cap. 3 - Gerenciamento de Memória; Cap. 10 - Estudo de Caso 1: Linux; Cap. 11 - Estudo de Caso 2: Windows).
 * SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. **Fundamentos de Sistemas Operacionais**. 9. ed. Rio de Janeiro: GEN LTC, 2015. (Cap. 3 - Processos; Cap. 4 - Threads; Cap. 7 - Impasses (Deadlocks)).
 * NEMETH, Evi et al. **UNIX and Linux System Administration Handbook**. 5. ed. Boston: Addison-Wesley Professional, 2017. (Cap. 2 - Booting and System Management; Cap. 6 - File Systems).
-
-
-## 8. Questões Comentadas & Exemplos Práticos
-
-### Questão 1 (FCC - Adaptada / Analista de TI - Infraestrutura de Sistemas)
-Considere um servidor Linux em ambiente de produção onde um analista precisa configurar os privilégios de acesso de um script administrativo crítico denominado `rotina_backup.sh`. Os requisitos de conformidade determinam que:
-
-- O proprietário do arquivo tenha permissão total de leitura, escrita e execução;
-- Os membros do grupo associado ao arquivo tenham apenas permissão de leitura e execução;
-- Usuários externos e não autorizados (outros) não tenham qualquer privilégio de acesso (nem leitura, nem escrita, nem execução).
-
-Adicionalmente, em uma sessão de monitoramento, o analista identificou um processo zumbi travado em loop fechado consumindo 100% de CPU com o identificador de processo PID 8192. Para mitigar o incidente, ele precisa emitir uma ordem de encerramento forçado que seja processada diretamente pelo núcleo do sistema operacional, sem que a aplicação tenha a faculdade de interceptar, bloquear ou postergar a terminação.
-
-Assinale a alternativa que indica, correta e respectivamente, o comando para atribuir as permissões em notação octal e a linha de comando para a finalização compulsória do processo:
-
-* **A)** `chmod 750 rotina_backup.sh` e `kill -15 8192`
-* **B)** `chmod 750 rotina_backup.sh` e `kill -9 8192`
-* **C)** `chmod 754 rotina_backup.sh` e `kill -9 8192`
-* **D)** `chmod 650 rotina_backup.sh` e `kill -KILL 8192`
-* **E)** `chmod 755 rotina_backup.sh` e `kill -STOP 8192`
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O comando `kill -15` envia o sinal `SIGTERM`, que pode ser interceptado, tratado ou ignorado pela aplicação, violando a exigência de finalização compulsória imediata.
-> - **B)** Correta. A permissão octal `750` concede `rwx` (7) para o Dono, `r-x` (5) para o Grupo e `---` (0) para Outros. O comando `kill -9` (`SIGKILL`) é processado diretamente pelo kernel sem possibilidade de interceptação pelo processo.
-> - **C)** Incorreta. A máscara `754` concede permissão de leitura (4) para a classe Outros.
-> - **D)** Incorreta. A máscara `650` não concede direito de execução (1) para o dono do arquivo ($4+2=6$, resultando em `rw-`).
-> - **E)** Incorreta. Concede leitura e execução para Outros (`755`) e `kill -STOP` apenas congela temporariamente o processo, sem terminá-lo.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / Analista de Sistemas - Suporte e Infraestrutura Windows)
-No contexto de administração e automação de servidores Windows Server utilizando o Windows PowerShell, um administrador recebeu a demanda de auditar todos os serviços instalados cujo status operacional atual seja `Running`, extraindo um relatório contendo estritamente as propriedades relativas ao nome de sistema do serviço (`Name`) e seu nome legível para exibição (`DisplayName`).
-
-Considerando a arquitetura interna do PowerShell, baseada na manipulação de coleções de objetos .NET estruturados ao longo do pipeline, assinale a linha de comando canônica e correta para a execução dessa tarefa:
-
-* **A)** `Get-Service | grep "Running" | cut -d " " -f 1,2`
-* **B)** `Get-Service | Where-Object { $_.Status -eq 'Running' } | Select-Object -Property Name, DisplayName`
-* **C)** `Get-Process | Where-Object { $_.State == 'Running' } | Out-String -Columns Name, DisplayName`
-* **D)** `List-Service -Filter "Running" | Format-Table Name, DisplayName`
-* **E)** `Get-Service | ForEach-Object { if ($_.State -eq 'Running') { Write-Host $_.Name } }`
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Utiliza utilitários de texto puro do ecossistema Unix (`grep` e `cut`), contrariando o pipeline baseado em objetos do PowerShell.
-> - **B)** Correta. O cmdlet `Get-Service` emite objetos .NET; `Where-Object` filtra os objetos com base na propriedade `Status` usando o operador de comparação `-eq`; e `Select-Object` projeta apenas as propriedades solicitadas (`Name`, `DisplayName`).
-> - **C)** Incorreta. Utiliza `Get-Process` (processos e não serviços), operador inválido no PowerShell (`==`) e propriedade inexistente (`State`).
-> - **D)** Incorreta. O cmdlet `List-Service` não existe na biblioteca nativa do PowerShell.
-> - **E)** Incorreta. A propriedade correta da classe é `Status` (e não `State`) e o comando não preserva a saída em pipeline estruturado.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 3 (FCC - Adaptada / Analista de TI - Infraestrutura)
-A respeito da arquitetura de sistemas de arquivos em ambientes baseados em Linux e da estrutura interna de inodes (*index nodes*), considere as seguintes afirmativas:
-
-I. Cada inode armazena metadados fundamentais do arquivo, tais como tamanho, permissões de acesso, identificadores de usuário e grupo, carimbos temporais e ponteiros para os blocos de dados, mas não contém o nome do arquivo nem seu caminho absoluto.  
-
-II. Um link rígido (*hard link*) cria uma entrada de diretório independente que aponta diretamente para o mesmo número de inode do arquivo de origem, podendo ser criado entre diferentes sistemas de arquivos e partições montadas.  
-
-III. Caso o arquivo de origem de um link simbólico (*soft link*) seja excluído do disco, o link simbólico torna-se órfão (*dangling link*), pois ele armazena em seu próprio bloco de dados apenas o caminho textual para o arquivo de destino.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** II e III, apenas.
-* **C)** I e III, apenas.
-* **D)** I, II e III.
-* **E)** III, apenas.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Inclui o Item II, que comete grave erro conceitual ao afirmar que hard links podem cruzar partições.
-> - **B)** Incorreta. Omite a veracidade do Item I e inclui o Item II que é falso.
-> - **C)** Correta. O Item I é verdadeiro porque o inode é agnóstico ao nome textual e caminho do arquivo (que residem no bloco de dados do diretório pai). O Item II é falso porque números de inode são válidos estritamente dentro da mesma partição/sistema de arquivos, sendo impossível criar hard links entre sistemas de arquivos diferentes. O Item III é verdadeiro porque links simbólicos contêm apenas a string do caminho textual de destino, tornando-se órfãos se o original for apagado.
-> - **D)** Incorreta. Julga todos os itens verdadeiros, desconsiderando a impossibilidade do Item II.
-> - **E)** Incorreta. Omite a correção inequívoca do Item I.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 4 (FCC - Adaptada / Técnico Judiciário - Tecnologia da Informação)
-No gerenciamento de memória virtual por paginação sob demanda em sistemas operacionais modernos, um processo em execução gera uma solicitação de acesso a um determinado endereço lógico. Durante a operação de tradução conduzida pela unidade de gerenciamento de memória (MMU), identifica-se que o bit de validade correspondente na tabela de páginas está marcado como ausente (bit 0).
-
-Nessa situação, o evento gerado pela arquitetura de hardware e a ação imediata subsequente realizada pelo sistema operacional são:
-
-* **A)** Uma interrupção de *Page Fault*, que transfere o controle ao núcleo do sistema operacional para buscar a página solicitada no armazenamento secundário e carregá-la em uma moldura livre da memória principal.
-* **B)** Uma violação de segmento (*Segmentation Fault*), que resulta na terminação imediata e compulsória do processo por invasão de área de memória protegida.
-* **C)** Um *TLB Hit*, no qual o processador busca o endereço diretamente na memória cache L1 sem consultar as tabelas do núcleo.
-* **D)** Um procedimento de *Swapping* compulsório de todos os processos ativos para o disco, paralisando a CPU até que a memória RAM seja totalmente desfragmentada.
-* **E)** Uma chamada de sistema `mmap`, solicitando que o processo usuário reconfigure o seu próprio bloco de controle de processo (PCB).
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Quando o bit de validade é zero, a MMU sinaliza uma interrupção de falta de página (*Page Fault*), acionando a rotina do kernel que localiza a página no disco (área de swap) e a transfere para uma moldura livre na RAM.
-> - **B)** Incorreta. Falta de página é uma ocorrência de rotina da memória virtual sob demanda, e não uma violação de segmento ilegal (*Segmentation Fault*).
-> - **C)** Incorreta. Se o bit de presença não estava ativo, a página não estava mapeada na RAM, caracterizando um miss prévio e acionamento do tratador de faltas.
-> - **D)** Incorreta. A falta de página envolve o carregamento individual da página demandada, e não a parada e swapping compulsório de todos os processos do sistema.
-> - **E)** Incorreta. A resolução do evento é realizada pelo kernel de forma transparente à aplicação, sem requerer intervenção do processo no seu PCB.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 5 (FCC - Adaptada / Analista de Tecnologia da Informação - Sistemas)
-Em relação aos conceitos de concorrência, processos, threads e algoritmos de escalonamento de processador em sistemas operacionais, assinale a afirmação correta:
-
-* **A)** No algoritmo de escalonamento *Round Robin* (Alternância Circular), caso o tamanho da fatia de tempo (*quantum*) seja definido com um valor excessivamente grande, o comportamento do sistema degenera e aproxima-se do algoritmo FCFS (*First-Come, First-Served*).
-* **B)** O algoritmo de escalonamento SJF (*Shortest Job First*) em sua modalidade preemptiva impede a ocorrência do fenômeno de inanição (*starvation*), garantindo tempo de resposta equitativo para processos intensivos em CPU.
-* **C)** As threads criadas no interior de um mesmo processo possuem espaços de endereçamento de memória virtual completamente isolados e independentes, exigindo o uso de pipes ou sockets para qualquer troca de variáveis.
-* **D)** A troca de contexto (*context switch*) é uma operação puramente lógica que não impõe nenhum custo computacional de sobrecarga (*overhead*) para a CPU nem interfere no conteúdo das memórias cache.
-* **E)** O algoritmo de escalonamento FCFS é classificado como estritamente preemptivo, interrompendo processos de longa duração sempre que um novo processo requisita acesso à CPU.
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Se o *quantum* do Round Robin for superior à rajada de qualquer processo ativo, nenhum processo sofrerá preempção antes de concluir sua execução voluntariamente, passando a atender na ordem de chegada exatamente como o FCFS.
-> - **B)** Incorreta. O SJF prioriza rajadas curtas de CPU, causando inanição severa (*starvation*) em processos longos com uso intensivo de CPU.
-> - **C)** Incorreta. Threads pertencentes ao mesmo processo compartilham o mesmo espaço de memória virtual (segmentos de código, dados e heap), comunicando-se diretamente por variáveis compartilhadas.
-> - **D)** Incorreta. A troca de contexto acarreta elevado overhead de processamento devido ao salvamento de registradores, troca de tabelas de páginas e invalidação de entradas nas memórias cache e TLB.
-> - **E)** Incorreta. O algoritmo FCFS é categorizado como não preemptivo (*non-preemptive*), mantendo a CPU ocupada até a finalização do processo ou bloqueio por I/O.
-> 
-> **Gabarito: A**

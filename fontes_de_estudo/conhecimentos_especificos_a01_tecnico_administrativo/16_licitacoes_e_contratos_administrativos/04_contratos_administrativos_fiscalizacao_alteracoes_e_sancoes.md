@@ -38,7 +38,6 @@
     - [5.2 Instrumentos de Recomposição: Reajuste, Repactuação e Revisão](#52-instrumentos-de-recomposicao-reajuste-repactuacao-e-revisao)
 - [6. Infrações, Sistema Sancionador e Processo de Reabilitação](#6-infracoes-sistema-sancionador-e-processo-de-reabilitacao)
 - [7. Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
-- [8. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -102,6 +101,31 @@ Para combater o problema crônico nacional de paralisação e abandono de obras 
 
 ---
 
+### Questão 01 (FCC - Analista Judiciário)
+Em uma licitação de obra pública de grande vulto (orçada em R$ 300 milhões) para construção de um complexo penitenciário de segurança máxima, o edital estabeleceu a obrigatoriedade de contratação de seguro-garantia com previsão de cláusula de retomada (*step-in rights*).
+
+De acordo com o art. 102 da Lei Federal nº 14.133/2021, a **cláusula de retomada no seguro-garantia**:
+
+* **A)** Limita a garantia a 1% do valor do contrato e proíbe a seguradora de ingressar no canteiro de obras.
+* **B)** Pode prever garantia de até 30% do valor inicial do contrato, ficando a seguradora obrigada, em caso de inadimplemento do contratado, a assumir a execução e concluir o objeto do contrato.
+* **C)** Exige que a seguradora execute a obra diretamente por seus próprios corretores de seguros.
+* **D)** Isenta a seguradora de qualquer responsabilidade caso a construtora entre em recuperação judicial.
+* **E)** Transfere a titularidade da obra para a seguradora em regime de dação em pagamento definitiva.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** O limite de garantia com cláusula de retomada pode atingir até 30% do valor inicial do contrato, e o propósito basilar do dispositivo é autorizar a intervenção direta da seguradora para terminar a obra.
+> - **B) CORRETA:** Conforme o art. 102 da Lei nº 14.133/2021, na contratação de obras e serviços de engenharia de grande vulto, o edital pode prever a obrigatoriedade de seguro-garantia com percentual de até 30% do valor inicial do contrato com previsão de cláusula de retomada (*step-in rights*), pela qual a seguradora, em caso de inadimplemento do contratado, assume a execução e conclui a obra, diretamente ou por meio de terceiros subcontratados.
+> - **C) Incorreta:** A seguradora assume a gestão jurídica da execução, podendo contratar empresas e engenheiros especializados para os serviços práticos de engenharia.
+> - **D) Incorreta:** O descumprimento por inadimplência ou quebra da construtora é precisamente o fato ensejador da execução do seguro e da ativação da retomada.
+> - **E) Incorreta:** Não ocorre dação em pagamento ou alienação do bem público à seguradora; o bem permanece público e a seguradora apenas cumpre a prestação de fazer assumida na apólice.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3. Duração e Prorrogação dos Contratos Administrativos
 
 A regra orçamentária tradicional vinculava a vigência contratual aos créditos orçamentários do respectivo exercício financeiro (regra do ano civil). A Lei nº 14.133/2021 flexibilizou essa sistemática com regras modernas de planejamento (arts. 105 a 114):
@@ -140,6 +164,32 @@ A responsabilidade do Estado perante terceiros na terceirização de serviços �
     - A condenação subsidiária da Administração Pública só é admitida se restar cabalmente demonstrada nos autos processuais a sua **culpa *in vigilando*** — caracterizada pela omissão reiterada e culposa do dever legal de fiscalizar mensalmente o adimplemento dos salários, recolhimento de FGTS e verbas da folha pela contratada.
     - O encargo probatório dessa conduta omissiva recai sobre o trabalhador reclamante, sendo vedada presunção automática de culpa contra a Fazenda Pública.
 
+---
+
+### Questão 02 (FCC - Procurador do Estado / Adaptada)
+Um empregado terceirizado que prestava serviços de vigilância armada no prédio do Tribunal de Contas ajuizou reclamação trabalhista perante a Justiça do Trabalho em face da empresa terceirizada e do Estado de Goiás, postulando o pagamento de horas extras e verbas rescisórias inadimplidas pela empregadora. O magistrado trabalhista condenou o Estado de forma subsidiária automática, fundamentando a decisão apenas no fato objetivo de a Administração ter se beneficiado da força de trabalho do reclamante.
+
+Diante do art. 121, § 1º, da Lei Federal nº 14.133/2021 e da tese de repercussão geral fixada pelo Supremo Tribunal Federal no **Tema 246**:
+
+* **A)** A condenação foi escorreita, visto que a responsabilidade trabalhista do Poder Público tomador de serviços terceirizados é objetiva e prescinde de qualquer prova de culpa.
+* **B)** A condenação subsidiária do ente público é indevida sem a comprovação cabal de sua culpa *in vigilando* na fiscalização do cumprimento das obrigações contratuais e trabalhistas da empresa prestadora de serviços.
+* **C)** O Estado responde de forma solidária primária, equiparando-se o terceirizado a servidor público concursado.
+* **D)** A Lei nº 14.133/2021 extinguiu qualquer possibilidade de condenação da Fazenda Pública na Justiça do Trabalho.
+* **E)** O ônus de provar a regularidade fiscalização das guias de FGTS transfere-se automaticamente para o Ministério Público do Trabalho.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** O STF fixou expressamente no RE 760.931 (Tema 246) que o inadimplemento trabalhista do contratado não transfere responsabilidade objetiva ao Estado.
+> - **B) CORRETA:** Pelo art. 121, § 1º, da Lei 14.133/2021 c/c o Tema 246 da Repercussão Geral do STF, a responsabilidade subsidiária da Administração Pública não opera por transferência automática. É indispensável a comprovação inequívoca nos autos de conduta culposa da Administração no dever de fiscalizar (culpa *in vigilando*), ônus probatório que recai sobre o trabalhador postulante.
+> - **C) Incorreta:** Não há solidariedade em matéria de verbas trabalhistas de terceirizados nem equiparação funcional com servidores efetivos.
+> - **D) Incorreta:** A responsabilidade subsidiária subsiste quando houver prova da omissão culposa da fiscalização pública.
+> - **E) Incorreta:** O MPT não assume o encargo probatório da fiscalização do FGTS em reclamatórias trabalhistas individuais.
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 4.3 Recebimento Provisório e Definitivo do Objeto
 O art. 140 da NLLC disciplina as fases de entrega do objeto contratado:
 
@@ -171,6 +221,32 @@ flowchart LR
 > 2. **Para supressões (reduções quantitativas), o limite legal é sempre de 25%**, inclusive em reformas de edifícios!  
 > 3. É **terminantemente proibida a compensação matemática** entre acréscimos e supressões para efeito de cumprimento dos limites legais (ex.: acrescer 40% em um item e suprimir 40% em outro configura ilegalidade manifesta pelo "jogo de planilhas").
 
+---
+
+### Questão 03 (FCC - Analista de Controle Externo / Adaptada TCE-GO)
+O Tribunal de Contas do Estado de Goiás formalizou contrato administrativo para a reforma predial integral das instalações do edifício de sua sede em Goiânia, pelo valor original de R$ 4.000.000,00. Após o início dos serviços de demolição, os engenheiros detectaram falhas geológicas estruturais nas fundações do subsolo não previstas no projeto original, que exigem obras emergenciais de estaqueamento e contenção, orçadas em R$ 1.600.000,00 adicionais.
+
+Em face dos limites de alteração unilateral estabelecidos no art. 125 da Lei Federal nº 14.133/2021:
+
+* **A)** O acréscimo pretendido é ilegal, visto que a NLLC fixou o teto inflexível de 25% para qualquer alteração contratual no setor público.
+* **B)** O aditivo de valor é juridicamente admitido, tendo em vista que, no caso de reforma de edifício ou de equipamento, o limite legal para os acréscimos unilaterais é de até 50% do valor inicial atualizado do contrato.
+* **C)** As reformas prediais admitem acréscimos unilaterais ilimitados, desde que autorizados pelo Conselho de Engenharia (CREA).
+* **D)** A Administração é obrigada a anular o contrato e instaurar concurso público para contratação de novos operários.
+* **E)** O limite de 50% aplica-se apenas caso a empreiteira comprove que o aço foi importado de país membro do Mercosul.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** Desconsidera a regra específica do art. 125 que autoriza teto de até 50% exclusivamente para acréscimos em reformas de edifícios ou equipamentos.
+> - **B) CORRETA:** Conforme o art. 125 da Lei nº 14.133/2021, o contratado fica obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 25% do valor inicial do contrato, mas, no caso de reforma de edifício ou de equipamento, o limite para os acréscimos será de até 50% (cinquenta por cento). Como o contrato original era de R$ 4 milhões, o teto de 50% equivale a R$ 2 milhões adicionais; logo, o aditivo de R$ 1,6 milhão (40%) é perfeitamente lícito.
+> - **C) Incorreta:** Não existe permissão legal para alterações unilaterais ilimitadas, e o CREA não possui competência para derrogar o teto legal de 50%.
+> - **D) Incorreta:** Havendo previsão expressa na Lei para aditamentos qualitativos e quantitativos, a continuidade do contrato é a via regular, descabendo anulação.
+> - **E) Incorreta:** Condição exótica sem qualquer respaldo legal no regramento licitatório brasileiro.
+> 
+> **Gabarito: B**
+
+---
+
+
 #### 5.2 Instrumentos de Recomposição: Reajuste, Repactuação e Revisão
 A garantia da equação econômico-financeira original é direito fundamental do contratado previsto no art. 37, XXI, da CF/88. A Lei nº 14.133/2021 distingue com clareza três institutos:
 
@@ -181,6 +257,31 @@ A garantia da equação econômico-financeira original é direito fundamental do
 | **Revisão (Reequilíbrio em Sentido Estrito)** | Fatos imprevisíveis, caso fortuito, força maior, fato do príncipe ou fato da administração (**álea extraordinária**) | **A qualquer tempo** (não exige interregno anual) | Teoria da Imprevisão; recomposição integral da margem econômica desequilibrada por evento extraordinário e extracontratual. |
 
 ---
+
+### Questão 04 (FCC - Auditor de Controle Externo / Adaptada)
+Durante a execução de um contrato administrativo de serviços de limpeza e conservação predial com dedicação exclusiva de mão de obra celebrado por determinado órgão estadual, ocorreu a homologação de nova Convenção Coletiva de Trabalho da categoria dos trabalhadores da limpeza, com reajuste salarial de 8% nos pisos da categoria. Paralelamente, em outro contrato de fornecimento de combustíveis para viaturas oficiais, a cotação internacional do barril de petróleo subiu extraordinariamente em virtude de eclosão de conflito armado imprevisível no exterior.
+
+Os institutos jurídicos cabíveis para a recomposição financeira dos contratos de limpeza e de combustíveis são, respectivamente:
+
+* **A)** Reajuste em sentido estrito e repactuação
+* **B)** Repactuação e revisão (reequilíbrio econômico-financeiro)
+* **C)** Revisão e reajuste por índice inflacionário
+* **D)** Supressão unilateral e rescisão consensual
+* **E)** Encampação e caducidade contratual
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** O reajuste em sentido estrito adota índices oficiais de preços prefixados para cobrir a inflação ordinária, não se aplicando à majoração decorrente de CCT nem ao caso de guerra imprevisível.
+> - **B) CORRETA:** Nos contratos com dedicação exclusiva de mão de obra (como o de limpeza), a variação de custos decorrente de Convenção Coletiva de Trabalho (CCT) é recomposta por meio do instituto da **Repactuação** (art. 135 da Lei nº 14.133/2021). Já o aumento extraordinário e imprevisível de combustíveis por guerra externa caracteriza álea extraordinária, ensejando a **Revisão** (Reequilíbrio Econômico-Financeiro em sentido estrito - art. 124, II, "d").
+> - **C) Incorreta:** Inverte a ordem dos institutos aplicáveis aos dois contratos apresentados.
+> - **D) Incorreta:** Supressão unilateral e rescisão consensual são atos de extinção ou diminuição de escopo contratual, e não modalidades de recomposição pecuniária.
+> - **E) Incorreta:** Encampação e caducidade são modalidades de extinção unilateral de concessões de serviços públicos (Lei nº 8.987/95).
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 6. Infrações, Sistema Sancionador e Processo de Reabilitação
 
@@ -206,49 +307,7 @@ A reabilitação perante a Administração exige cumulativamente:
 
 ---
 
-## 🌐 Fontes Recomendadas na Internet
-- [Lei Federal nº 14.133/2021 - Artigos 89 a 123 (Formalização, Garantias, Vigência e Execução Contratual)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art89)  
-  Normas legais sobre cláusulas exorbitantes, seguro-garantia com cláusula de retomada (art. 102), vigência decenal (arts. 106 e 107) e fiscalização (art. 117).
-- [Lei Federal nº 14.133/2021 - Artigos 124 a 139 (Alterações Contratuais, Equilíbrio e Extinção)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art124)  
-  Regramento dos limites unilaterais de 25% e 50% (art. 125), reajuste, repactuação (art. 135) e suspensão por atraso superior a 2 meses (art. 137).
-- [Lei Federal nº 14.133/2021 - Artigos 155 a 163 (Infrações, Sanções Administrativas e Reabilitação)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art155)  
-  Disciplina da advertência, multa, impedimento de licitar (até 3 anos), declaração de inidoneidade (3 a 6 anos) e requisitos de reabilitação.
-- [STF - Tema 246 da Repercussão Geral (Responsabilidade Subsidiária Trabalhista da Administração)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=246)  
-  Jurisprudência vinculante do Supremo Tribunal Federal (RE 760.931 e ADC 16) que veda a responsabilização automática do Poder Público sem prova de culpa *in vigilando*.
-- [Compras.gov.br - Instruções Normativas SEGES sobre Gestão e Fiscalização de Contratos](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas)  
-  Diretrizes normativas federais sobre atuação de gestores e fiscais técnicos, administrativos e setoriais e procedimentos de repactuação.
-* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 89 a 163 - Contratos Administrativos, Alterações, Equilíbrio e Sanções).
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 8 - Contratos da Administração: Cláusulas Exorbitantes, Mutabilidade, Equilíbrio Econômico-Financeiro e Extinção).
-* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 4 - Contratos Administrativos: Formalização, Garantias, Execução, Inexecução e Penalidades).
-
----
-
-## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
-
-### Questão 1 (FCC - Analista de Controle Externo / Adaptada TCE-GO)
-O Tribunal de Contas do Estado de Goiás formalizou contrato administrativo para a reforma predial integral das instalações do edifício de sua sede em Goiânia, pelo valor original de R$ 4.000.000,00. Após o início dos serviços de demolição, os engenheiros detectaram falhas geológicas estruturais nas fundações do subsolo não previstas no projeto original, que exigem obras emergenciais de estaqueamento e contenção, orçadas em R$ 1.600.000,00 adicionais.
-
-Em face dos limites de alteração unilateral estabelecidos no art. 125 da Lei Federal nº 14.133/2021:
-
-* **A)** O acréscimo pretendido é ilegal, visto que a NLLC fixou o teto inflexível de 25% para qualquer alteração contratual no setor público.
-* **B)** O aditivo de valor é juridicamente admitido, tendo em vista que, no caso de reforma de edifício ou de equipamento, o limite legal para os acréscimos unilaterais é de até 50% do valor inicial atualizado do contrato.
-* **C)** As reformas prediais admitem acréscimos unilaterais ilimitados, desde que autorizados pelo Conselho de Engenharia (CREA).
-* **D)** A Administração é obrigada a anular o contrato e instaurar concurso público para contratação de novos operários.
-* **E)** O limite de 50% aplica-se apenas caso a empreiteira comprove que o aço foi importado de país membro do Mercosul.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** Desconsidera a regra específica do art. 125 que autoriza teto de até 50% exclusivamente para acréscimos em reformas de edifícios ou equipamentos.
-> - **B) CORRETA:** Conforme o art. 125 da Lei nº 14.133/2021, o contratado fica obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 25% do valor inicial do contrato, mas, no caso de reforma de edifício ou de equipamento, o limite para os acréscimos será de até 50% (cinquenta por cento). Como o contrato original era de R$ 4 milhões, o teto de 50% equivale a R$ 2 milhões adicionais; logo, o aditivo de R$ 1,6 milhão (40%) é perfeitamente lícito.
-> - **C) Incorreta:** Não existe permissão legal para alterações unilaterais ilimitadas, e o CREA não possui competência para derrogar o teto legal de 50%.
-> - **D) Incorreta:** Havendo previsão expressa na Lei para aditamentos qualitativos e quantitativos, a continuidade do contrato é a via regular, descabendo anulação.
-> - **E) Incorreta:** Condição exótica sem qualquer respaldo legal no regramento licitatório brasileiro.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Técnico de Controle Externo / TCE-GO)
+### Questão 05 (FCC - Técnico de Controle Externo / TCE-GO)
 Durante a execução de um contrato administrativo de fornecimento de sistemas de segurança eletrônica celebrado por uma Secretaria de Estado, apurou-se em processo sancionador que a empresa contratada cometeu fraude dolosa ao apresentar certidões negativas tributárias ideologicamente falsas e tentar subornar o fiscal do contrato. O Secretário de Estado aplicou à infratora a penalidade de **Declaração de Inidoneidade para Licitar ou Contratar**.
 
 À luz do regime sancionatório da Lei Federal nº 14.133/2021, a sanção aplicada:
@@ -271,69 +330,19 @@ Durante a execução de um contrato administrativo de fornecimento de sistemas d
 
 ---
 
-### Questão 3 (FCC - Procurador do Estado / Adaptada)
-Um empregado terceirizado que prestava serviços de vigilância armada no prédio do Tribunal de Contas ajuizou reclamação trabalhista perante a Justiça do Trabalho em face da empresa terceirizada e do Estado de Goiás, postulando o pagamento de horas extras e verbas rescisórias inadimplidas pela empregadora. O magistrado trabalhista condenou o Estado de forma subsidiária automática, fundamentando a decisão apenas no fato objetivo de a Administração ter se beneficiado da força de trabalho do reclamante.
 
-Diante do art. 121, § 1º, da Lei Federal nº 14.133/2021 e da tese de repercussão geral fixada pelo Supremo Tribunal Federal no **Tema 246**:
 
-* **A)** A condenação foi escorreita, visto que a responsabilidade trabalhista do Poder Público tomador de serviços terceirizados é objetiva e prescinde de qualquer prova de culpa.
-* **B)** A condenação subsidiária do ente público é indevida sem a comprovação cabal de sua culpa *in vigilando* na fiscalização do cumprimento das obrigações contratuais e trabalhistas da empresa prestadora de serviços.
-* **C)** O Estado responde de forma solidária primária, equiparando-se o terceirizado a servidor público concursado.
-* **D)** A Lei nº 14.133/2021 extinguiu qualquer possibilidade de condenação da Fazenda Pública na Justiça do Trabalho.
-* **E)** O ônus de provar a regularidade fiscalização das guias de FGTS transfere-se automaticamente para o Ministério Público do Trabalho.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O STF fixou expressamente no RE 760.931 (Tema 246) que o inadimplemento trabalhista do contratado não transfere responsabilidade objetiva ao Estado.
-> - **B) CORRETA:** Pelo art. 121, § 1º, da Lei 14.133/2021 c/c o Tema 246 da Repercussão Geral do STF, a responsabilidade subsidiária da Administração Pública não opera por transferência automática. É indispensável a comprovação inequívoca nos autos de conduta culposa da Administração no dever de fiscalizar (culpa *in vigilando*), ônus probatório que recai sobre o trabalhador postulante.
-> - **C) Incorreta:** Não há solidariedade em matéria de verbas trabalhistas de terceirizados nem equiparação funcional com servidores efetivos.
-> - **D) Incorreta:** A responsabilidade subsidiária subsiste quando houver prova da omissão culposa da fiscalização pública.
-> - **E) Incorreta:** O MPT não assume o encargo probatório da fiscalização do FGTS em reclamatórias trabalhistas individuais.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Auditor de Controle Externo / Adaptada)
-Durante a execução de um contrato administrativo de serviços de limpeza e conservação predial com dedicação exclusiva de mão de obra celebrado por determinado órgão estadual, ocorreu a homologação de nova Convenção Coletiva de Trabalho da categoria dos trabalhadores da limpeza, com reajuste salarial de 8% nos pisos da categoria. Paralelamente, em outro contrato de fornecimento de combustíveis para viaturas oficiais, a cotação internacional do barril de petróleo subiu extraordinariamente em virtude de eclosão de conflito armado imprevisível no exterior.
-
-Os institutos jurídicos cabíveis para a recomposição financeira dos contratos de limpeza e de combustíveis são, respectivamente:
-
-* **A)** Reajuste em sentido estrito e repactuação
-* **B)** Repactuação e revisão (reequilíbrio econômico-financeiro)
-* **C)** Revisão e reajuste por índice inflacionário
-* **D)** Supressão unilateral e rescisão consensual
-* **E)** Encampação e caducidade contratual
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O reajuste em sentido estrito adota índices oficiais de preços prefixados para cobrir a inflação ordinária, não se aplicando à majoração decorrente de CCT nem ao caso de guerra imprevisível.
-> - **B) CORRETA:** Nos contratos com dedicação exclusiva de mão de obra (como o de limpeza), a variação de custos decorrente de Convenção Coletiva de Trabalho (CCT) é recomposta por meio do instituto da **Repactuação** (art. 135 da Lei nº 14.133/2021). Já o aumento extraordinário e imprevisível de combustíveis por guerra externa caracteriza álea extraordinária, ensejando a **Revisão** (Reequilíbrio Econômico-Financeiro em sentido estrito - art. 124, II, "d").
-> - **C) Incorreta:** Inverte a ordem dos institutos aplicáveis aos dois contratos apresentados.
-> - **D) Incorreta:** Supressão unilateral e rescisão consensual são atos de extinção ou diminuição de escopo contratual, e não modalidades de recomposição pecuniária.
-> - **E) Incorreta:** Encampação e caducidade são modalidades de extinção unilateral de concessões de serviços públicos (Lei nº 8.987/95).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Analista Judiciário)
-Em uma licitação de obra pública de grande vulto (orçada em R$ 300 milhões) para construção de um complexo penitenciário de segurança máxima, o edital estabeleceu a obrigatoriedade de contratação de seguro-garantia com previsão de cláusula de retomada (*step-in rights*).
-
-De acordo com o art. 102 da Lei Federal nº 14.133/2021, a **cláusula de retomada no seguro-garantia**:
-
-* **A)** Limita a garantia a 1% do valor do contrato e proíbe a seguradora de ingressar no canteiro de obras.
-* **B)** Pode prever garantia de até 30% do valor inicial do contrato, ficando a seguradora obrigada, em caso de inadimplemento do contratado, a assumir a execução e concluir o objeto do contrato.
-* **C)** Exige que a seguradora execute a obra diretamente por seus próprios corretores de seguros.
-* **D)** Isenta a seguradora de qualquer responsabilidade caso a construtora entre em recuperação judicial.
-* **E)** Transfere a titularidade da obra para a seguradora em regime de dação em pagamento definitiva.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O limite de garantia com cláusula de retomada pode atingir até 30% do valor inicial do contrato, e o propósito basilar do dispositivo é autorizar a intervenção direta da seguradora para terminar a obra.
-> - **B) CORRETA:** Conforme o art. 102 da Lei nº 14.133/2021, na contratação de obras e serviços de engenharia de grande vulto, o edital pode prever a obrigatoriedade de seguro-garantia com percentual de até 30% do valor inicial do contrato com previsão de cláusula de retomada (*step-in rights*), pela qual a seguradora, em caso de inadimplemento do contratado, assume a execução e conclui a obra, diretamente ou por meio de terceiros subcontratados.
-> - **C) Incorreta:** A seguradora assume a gestão jurídica da execução, podendo contratar empresas e engenheiros especializados para os serviços práticos de engenharia.
-> - **D) Incorreta:** O descumprimento por inadimplência ou quebra da construtora é precisamente o fato ensejador da execução do seguro e da ativação da retomada.
-> - **E) Incorreta:** Não ocorre dação em pagamento ou alienação do bem público à seguradora; o bem permanece público e a seguradora apenas cumpre a prestação de fazer assumida na apólice.
-> 
-> **Gabarito: B**
+## 🌐 Fontes Recomendadas na Internet
+- [Lei Federal nº 14.133/2021 - Artigos 89 a 123 (Formalização, Garantias, Vigência e Execução Contratual)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art89)  
+  Normas legais sobre cláusulas exorbitantes, seguro-garantia com cláusula de retomada (art. 102), vigência decenal (arts. 106 e 107) e fiscalização (art. 117).
+- [Lei Federal nº 14.133/2021 - Artigos 124 a 139 (Alterações Contratuais, Equilíbrio e Extinção)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art124)  
+  Regramento dos limites unilaterais de 25% e 50% (art. 125), reajuste, repactuação (art. 135) e suspensão por atraso superior a 2 meses (art. 137).
+- [Lei Federal nº 14.133/2021 - Artigos 155 a 163 (Infrações, Sanções Administrativas e Reabilitação)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art155)  
+  Disciplina da advertência, multa, impedimento de licitar (até 3 anos), declaração de inidoneidade (3 a 6 anos) e requisitos de reabilitação.
+- [STF - Tema 246 da Repercussão Geral (Responsabilidade Subsidiária Trabalhista da Administração)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=246)  
+  Jurisprudência vinculante do Supremo Tribunal Federal (RE 760.931 e ADC 16) que veda a responsabilização automática do Poder Público sem prova de culpa *in vigilando*.
+- [Compras.gov.br - Instruções Normativas SEGES sobre Gestão e Fiscalização de Contratos](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas)  
+  Diretrizes normativas federais sobre atuação de gestores e fiscais técnicos, administrativos e setoriais e procedimentos de repactuação.
+* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 89 a 163 - Contratos Administrativos, Alterações, Equilíbrio e Sanções).
+* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 8 - Contratos da Administração: Cláusulas Exorbitantes, Mutabilidade, Equilíbrio Econômico-Financeiro e Extinção).
+* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 4 - Contratos Administrativos: Formalização, Garantias, Execução, Inexecução e Penalidades).

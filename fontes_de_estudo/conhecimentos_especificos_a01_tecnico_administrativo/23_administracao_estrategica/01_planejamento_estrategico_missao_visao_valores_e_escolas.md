@@ -32,7 +32,6 @@
 - [3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)](#3-estrategias-deliberadas-vs-estrategias-emergentes-henry-mintzberg)
 - [4. As Dez Escolas do Pensamento Estratégico (Safári de Estratégia)](#4-as-dez-escolas-do-pensamento-estrategico-safari-de-estrategia)
 - [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -75,6 +74,58 @@ flowchart TD
 > Os valores institucionais atuam como balizas e limites éticos inderrogáveis. Nenhuma meta estratégica arrojada pode ser legitimamente cumprida se para tanto for violado qualquer valor ético fixado pela instituição.
 
 ---
+
+### Questão 01
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+Determinado Tribunal de Contas publicou seu Plano Estratégico com os seguintes enunciados institucionais:
+
+I. "Garantir a adequada aplicação dos recursos públicos em benefício da sociedade por meio do controle externo tempestivo e orientador."  
+
+II. "Ser reconhecido pela sociedade, até o ano de 2030, como órgão de controle de excelência, moderno e indispensável à integridade governamental."  
+
+Nos termos da teoria do planejamento estratégico, os enunciados I e II correspondem, respectivamente, à:
+
+* **A)** Visão e Missão.
+* **B)** Missão e Valores.
+* **C)** Missão e Visão.
+* **D)** Meta Operacional e Diretriz Tática.
+* **E)** Valores e Visão.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Inverte a ordem das definições essenciais de planejamento estratégico.
+> - **B) Incorreta.** Confunde a imagem de futuro projetada com valores éticos/comportamentais.
+> - **C) CORRETA.** O Enunciado I reflete a razão de ser primordial e a atuação pública no presente (**Missão**), enquanto o Enunciado II projeta a imagem-alvo aspiracional com marco temporal delimitado até 2030 (**Visão**).
+> - **D) Incorreta.** Declarações institucionais de cúpula não constituem metas operacionais ou diretrizes táticas.
+> - **E) Incorreta.** Classifica equivocadamente o propósito do órgão como princípios ou valores.
+> 
+> **Gabarito: C**
+
+---
+
+### Questão 02
+**(FCC – DPE-RS – Analista: Área Administrativa)**  
+Ao formular seu planejamento plurianual, determinada defensoria pública incluiu expressamente em seu documento diretor os seguintes postulados: "Independência funcional, defesa irrestrita dos direitos humanos, transparência e urbanidade no atendimento aos cidadãos vulneráveis". Sob a perspectiva da teoria da administração estratégica, esses postulados representam:
+
+* **A)** A Visão de futuro da defensoria para os próximos dez anos.
+* **B)** As Metas táticas quantitativas dos núcleos regionais.
+* **C)** Os Valores institucionais que norteiam as condutas e estabelecem balizas éticas indeclináveis.
+* **D)** As Estratégias não realizadas do exercício anterior.
+* **E)** As Oportunidades captadas no ambiente externo através da análise PESTEL.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A Visão é uma imagem de futuro onde a instituição quer chegar, com prazo delimitado.  
+> - **B) Incorreta.** Metas táticas são alvos quantitativos mensuráveis (ex.: realizar 5.000 atendimentos).  
+> - **C) CORRETA.** Os princípios éticos, mandamentos morais e diretrizes de conduta que direcionam as atitudes dos membros de uma instituição e expressam o que é inegociável na cultura organizacional constituem os **Valores** da organização.  
+> - **D) Incorreta.** Estratégias não realizadas são planos que foram formalmente descontinuados.  
+> - **E) Incorreta.** Oportunidades são eventos externos favoráveis do mercado/ambiente político.  
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 2. O Ciclo da Gestão Estratégica Integrada
 
@@ -122,6 +173,30 @@ flowchart LR
 
 ---
 
+### Questão 03
+**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
+De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica da formulação e implementação estratégica, as ações e padrões de conduta que emergem espontaneamente na rotina operacional da organização, sem terem sido previamente previstos no plano formal deliberado pela cúpula, são denominadas:
+
+* **A)** Estratégias Pretendidas.
+* **B)** Estratégias Emergentes.
+* **C)** Estratégias Não Realizadas.
+* **D)** Estratégias Deliberadas.
+* **E)** Estratégias Mecanicistas.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A estratégia pretendida é o plano formal inicial traçado pela liderança.  
+> - **B) CORRETA.** Para Mintzberg, as **estratégias emergentes** são aquelas que não foram concebidas no plano formal deliberado, mas surgem espontaneamente da base organizacional a partir da resposta prática dos colaboradores a desafios e oportunidades cotidianas não previstos.  
+> - **C) Incorreta.** A estratégia não realizada é a parcela do plano que foi descartada ou abandonada.  
+> - **D) Incorreta.** A estratégia deliberada é o plano formal que foi executado exatamente conforme o planejado.  
+> - **E) Incorreta.** Categoria inexistente na taxonomia de Mintzberg.  
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 4. As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia*)
 
 Na consagrada obra *Safári de Estratégia*, Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel organizaram a evolução do pensamento estratégico em dez escolas, categorizadas em prescritivas, descritivas e integrativas:
@@ -153,6 +228,31 @@ flowchart TD
 2. **Escola do Planejamento:** Liderada por H. Igor Ansoff. Concebe a formulação como um processo altamente formal, metódico e sequencial, desdobrado em manuais exaustivos, cronogramas e orçamentos operados por analistas de planejamento.
 3. **Escola do Posicionamento:** Liderada por Michael Porter (anos 1980). A estratégia é vista como um processo analítico de escolha de posições competitivas genéricas (Liderança em Custo, Diferenciação ou Enfoque) dentro da estrutura da indústria concorrencial.
 
+---
+
+### Questão 04
+**(FCC – ARTESP – Especialista em Regulação de Transportes)**  
+Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de Estratégia*, a Escola do Design destaca-se historicamente por defender que a estratégia deve ser concebida por meio de:
+
+* **A)** Ensaios laboratoriais e simulações estocásticas operadas por inteligência artificial.
+* **B)** Um processo deliberado de ajuste e adequação mútua entre as capacidades internas da organização (forças e fraquezas) e as condições do ambiente externo (oportunidades e ameaças).
+* **C)** Jogos de barganha política e manobras coercitivas promovidas por sindicatos corporativos.
+* **D)** Respostas puramente passivas e reativas ditadas pelas forças demográficas e climáticas do ambiente ecológico.
+* **E)** Vieses cognitivos inconscientes e restrições biológicas da capacidade de memória dos diretores executivos.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Simulações matemáticas pertencem a abordagens analíticas quantitativas ou de pesquisa operacional.  
+> - **B) CORRETA.** A **Escola do Design** é a escola clássica (pioneira nos anos 1960) que propõe a estratégia como um processo deliberado de concepção mental cujo núcleo é o **ajuste (*fit*)** essencial entre a análise interna da organização (pontos fortes e fracos) e a análise externa do ambiente (oportunidades e ameaças), constituindo a base conceitual da famosa matriz SWOT.  
+> - **C) Incorreta.** Jogos de barganha e política caracterizam a Escola do Poder.  
+> - **D) Incorreta.** Adaptação reativa às forças externas caracteriza a Escola Ambiental.  
+> - **E) Incorreta.** Vieses mentais e processos cerebrais caracterizam a Escola Cognitiva.  
+> 
+> **Gabarito: B**
+
+---
+
+
 #### B) Escolas Descritivas (Foco em descrever como a estratégia ocorre na prática real):
 4. **Escola Empreendedora:** Enxerga a formulação estratégica como um processo visionário personalizado, centrado na intuição, experiência e liderança carismática do governante ou fundador.
 5. **Escola Cognitiva:** Analisa a estratégia como um processo mental no cérebro do tomador de decisão, investigando como os modelos mentais e vieses cognitivos filtram ou distorcem as informações do ambiente.
@@ -171,47 +271,7 @@ flowchart TD
 
 ---
 
-### 5. Fontes Oficiais e Referências Bibliográficas
-
-* [Decreto nº 9.203/2017 (Mecanismo de Estratégia na Governança Pública)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Define estratégia como conjunto de ações voltadas ao alcance dos objetivos organizacionais e satisfação do cidadão.
-* [Decreto-Lei nº 200/1967 (Princípio Fundamental do Planejamento)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Exigência legal de planejamento plurianual e planos anuais de ação para as entidades públicas.
-* [TCU - Referencial Básico de Governança: Práticas de Estratégia](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Critérios para formulação de missão institucional, visão de futuro e valores organizacionais.
-* [TCE-GO - Plano de Fiscalização e Diretrizes Estratégicas](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Diretrizes estratégicas que orientam as ações de controle do tribunal goiano.
-* [Governo Digital - Estratégia Federal de Governo Digital (EFGD)](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/EFGD) - Planejamento estratégico federal para modernização da prestação de serviços públicos.
-* MINTZBERG, Henry; AHLSTRAND, Bruce; LAMPEL, Joseph. **Safári de Estratégia: Um Roteiro pela Selva do Planejamento Estratégico**. 2. ed. Porto Alegre: Bookman, 2010. (Cap. 2 a 11 - As Dez Escolas do Pensamento Estratégico).
-* OLIVEIRA, Djalma de Pinho Rebouças de. **Planejamento Estratégico: Conceitos, Metodologia e Práticas**. 34. ed. São Paulo: Atlas, 2018. (Cap. 1 a 3 - Missão, Visão e Valores Organizacionais).
-* ANSOFF, H. Igor. **Estratégia Corporativa**. São Paulo: Atlas, 1990. (Cap. 4 - Formulação Estratégica).
-
-
-### 6. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-Determinado Tribunal de Contas publicou seu Plano Estratégico com os seguintes enunciados institucionais:
-
-I. "Garantir a adequada aplicação dos recursos públicos em benefício da sociedade por meio do controle externo tempestivo e orientador."  
-
-II. "Ser reconhecido pela sociedade, até o ano de 2030, como órgão de controle de excelência, moderno e indispensável à integridade governamental."  
-
-Nos termos da teoria do planejamento estratégico, os enunciados I e II correspondem, respectivamente, à:
-
-* **A)** Visão e Missão.
-* **B)** Missão e Valores.
-* **C)** Missão e Visão.
-* **D)** Meta Operacional e Diretriz Tática.
-* **E)** Valores e Visão.
-
-> **Comentário Detalhado:**  
->
-> - O **Enunciado I** expressa a razão de ser primordial do órgão no presente, identificando sua atividade-fim e o benefício gerado para a sociedade, configurando formalmente a **Missão** institucional.  
-> - O **Enunciado II** estabelece um horizonte temporal futuro bem delimitado (até 2030) e delineia o estado aspiracional almejado pela instituição, configurando a **Visão** de futuro.  
-> - Portanto, trata-se de Missão e Visão, respectivamente (Alternativa C).  
-> 
-> **Gabarito: C**
-
----
-
-### Questão 02
+### Questão 05
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári de Estratégia*, Henry Mintzberg e colaboradores classificam as escolas da estratégia em prescritivas e descritivas. Dentre as escolas prescritivas, aquela que concebe a formulação estratégica como um processo analítico formal, decomposto em etapas sequenciais rígidas e operado prioritariamente por técnicos e analistas de planejamento, é a:
 
@@ -233,66 +293,15 @@ Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári 
 
 ---
 
-### Questão 03
-**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
-De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica da formulação e implementação estratégica, as ações e padrões de conduta que emergem espontaneamente na rotina operacional da organização, sem terem sido previamente previstos no plano formal deliberado pela cúpula, são denominadas:
 
-* **A)** Estratégias Pretendidas.
-* **B)** Estratégias Emergentes.
-* **C)** Estratégias Não Realizadas.
-* **D)** Estratégias Deliberadas.
-* **E)** Estratégias Mecanicistas.
 
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A estratégia pretendida é o plano formal inicial traçado pela liderança.  
-> - **B) CORRETA.** Para Mintzberg, as **estratégias emergentes** são aquelas que não foram concebidas no plano formal deliberado, mas surgem espontaneamente da base organizacional a partir da resposta prática dos colaboradores a desafios e oportunidades cotidianas não previstos.  
-> - **C) Incorreta.** A estratégia não realizada é a parcela do plano que foi descartada ou abandonada.  
-> - **D) Incorreta.** A estratégia deliberada é o plano formal que foi executado exatamente conforme o planejado.  
-> - **E) Incorreta.** Categoria inexistente na taxonomia de Mintzberg.  
-> 
-> **Gabarito: B**
+### 5. Fontes Oficiais e Referências Bibliográficas
 
----
-
-### Questão 04
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
-Ao formular seu planejamento plurianual, determinada defensoria pública incluiu expressamente em seu documento diretor os seguintes postulados: "Independência funcional, defesa irrestrita dos direitos humanos, transparência e urbanidade no atendimento aos cidadãos vulneráveis". Sob a perspectiva da teoria da administração estratégica, esses postulados representam:
-
-* **A)** A Visão de futuro da defensoria para os próximos dez anos.
-* **B)** As Metas táticas quantitativas dos núcleos regionais.
-* **C)** Os Valores institucionais que norteiam as condutas e estabelecem balizas éticas indeclináveis.
-* **D)** As Estratégias não realizadas do exercício anterior.
-* **E)** As Oportunidades captadas no ambiente externo através da análise PESTEL.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A Visão é uma imagem de futuro onde a instituição quer chegar, com prazo delimitado.  
-> - **B) Incorreta.** Metas táticas são alvos quantitativos mensuráveis (ex.: realizar 5.000 atendimentos).  
-> - **C) CORRETA.** Os princípios éticos, mandamentos morais e diretrizes de conduta que direcionam as atitudes dos membros de uma instituição e expressam o que é inegociável na cultura organizacional constituem os **Valores** da organização.  
-> - **D) Incorreta.** Estratégias não realizadas são planos que foram formalmente descontinuados.  
-> - **E) Incorreta.** Oportunidades são eventos externos favoráveis do mercado/ambiente político.  
-> 
-> **Gabarito: C**
-
----
-
-### Questão 05
-**(FCC – ARTESP – Especialista em Regulação de Transportes)**  
-Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de Estratégia*, a Escola do Design destaca-se historicamente por defender que a estratégia deve ser concebida por meio de:
-
-* **A)** Ensaios laboratoriais e simulações estocásticas operadas por inteligência artificial.
-* **B)** Um processo deliberado de ajuste e adequação mútua entre as capacidades internas da organização (forças e fraquezas) e as condições do ambiente externo (oportunidades e ameaças).
-* **C)** Jogos de barganha política e manobras coercitivas promovidas por sindicatos corporativos.
-* **D)** Respostas puramente passivas e reativas ditadas pelas forças demográficas e climáticas do ambiente ecológico.
-* **E)** Vieses cognitivos inconscientes e restrições biológicas da capacidade de memória dos diretores executivos.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Simulações matemáticas pertencem a abordagens analíticas quantitativas ou de pesquisa operacional.  
-> - **B) CORRETA.** A **Escola do Design** é a escola clássica (pioneira nos anos 1960) que propõe a estratégia como um processo deliberado de concepção mental cujo núcleo é o **ajuste (*fit*)** essencial entre a análise interna da organização (pontos fortes e fracos) e a análise externa do ambiente (oportunidades e ameaças), constituindo a base conceitual da famosa matriz SWOT.  
-> - **C) Incorreta.** Jogos de barganha e política caracterizam a Escola do Poder.  
-> - **D) Incorreta.** Adaptação reativa às forças externas caracteriza a Escola Ambiental.  
-> - **E) Incorreta.** Vieses mentais e processos cerebrais caracterizam a Escola Cognitiva.  
-> 
-> **Gabarito: B**
+* [Decreto nº 9.203/2017 (Mecanismo de Estratégia na Governança Pública)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Define estratégia como conjunto de ações voltadas ao alcance dos objetivos organizacionais e satisfação do cidadão.
+* [Decreto-Lei nº 200/1967 (Princípio Fundamental do Planejamento)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Exigência legal de planejamento plurianual e planos anuais de ação para as entidades públicas.
+* [TCU - Referencial Básico de Governança: Práticas de Estratégia](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Critérios para formulação de missão institucional, visão de futuro e valores organizacionais.
+* [TCE-GO - Plano de Fiscalização e Diretrizes Estratégicas](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Diretrizes estratégicas que orientam as ações de controle do tribunal goiano.
+* [Governo Digital - Estratégia Federal de Governo Digital (EFGD)](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/EFGD) - Planejamento estratégico federal para modernização da prestação de serviços públicos.
+* MINTZBERG, Henry; AHLSTRAND, Bruce; LAMPEL, Joseph. **Safári de Estratégia: Um Roteiro pela Selva do Planejamento Estratégico**. 2. ed. Porto Alegre: Bookman, 2010. (Cap. 2 a 11 - As Dez Escolas do Pensamento Estratégico).
+* OLIVEIRA, Djalma de Pinho Rebouças de. **Planejamento Estratégico: Conceitos, Metodologia e Práticas**. 34. ed. São Paulo: Atlas, 2018. (Cap. 1 a 3 - Missão, Visão e Valores Organizacionais).
+* ANSOFF, H. Igor. **Estratégia Corporativa**. São Paulo: Atlas, 1990. (Cap. 4 - Formulação Estratégica).

@@ -46,12 +46,6 @@
     - [5.4 Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses](#54-emprego-de-ponto-e-virgula-dois-pontos-travessoes-e-parenteses)
     - [5.5 Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação](#55-alteracoes-de-sentido-provocadas-pela-supressao-ou-deslocamento-de-pontuacao)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
-    - [Questão 01](#questao-01)
-    - [Questão 02](#questao-02)
-    - [Questão 03](#questao-03)
-    - [Questão 04](#questao-04)
-    - [Questão 05](#questao-05)
 
 ---
 
@@ -127,6 +121,32 @@ A conjunção *pois* assume comportamentos sintáticos diametralmente opostos em
 
 ---
 
+### Questão 01
+**(FCC – AL-SP – Analista Legislativo)**  
+Considere o período:  
+*"Os pareceres técnicos da controladoria demonstraram cabalmente a regularidade do processo licitatório; o plenário aprovou, <ins>pois</ins>, as contas do ordenador de despesas."*  
+No contexto acima, o termo destacado expressa valor semântico de:
+
+* **A)** Concessão
+* **B)** Causa
+* **C)** Explicação
+* **D)** Conclusão
+* **E)** Proporção
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O conectivo *pois* não possui propriedade semântica de concessão sob nenhuma hipótese na língua portuguesa.
+> - **B)** Incorreta. Para expressar valor causal, o conectivo *pois* deveria obrigatoriamente figurar no início da oração, anteposto ao verbo.
+> - **C)** Incorreta. O valor explicativo do conectivo *pois* somente emerge quando a conjunção encabeça a oração antes do verbo conjugado, justificando uma asserção precedente.
+> - **D)** Correta. A conjunção coordenativa **pois**, ao posicionar-se **deslocada no interior da oração, posposta ao verbo conjugado e cercada por vírgulas** (*"o plenário aprovou, pois, as contas"*), assume rigorosamente o valor semântico de **conclusão**, atuando como sinônimo cabal de *portanto*, *logo* e *por conseguinte*.
+> - **E)** Incorreta. A ideia de proporção é veiculada por locuções proporcionais como *à medida que* e *à proporção que*, descabendo com *pois*.
+> 
+> **Gabarito: D**
+
+---
+
+
+
 ## 3. Orações Subordinadas Substantivas e Adjetivas
 
 As orações subordinadas dividem-se em substantivas, adjetivas e adverbiais, dependendo do valor gramatical que exercem em relação à oração principal.
@@ -173,6 +193,32 @@ flowchart TD
 > 🚨 **ALERTA DE PROVA / SUPRESSÃO DE VÍRGULAS EM ORAÇÃO ADJETIVA:** A FCC explora intensamente assertivas que indagam: *"A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?"*. Resposta técnica obrigatória: a retirada das vírgulas **mantém a correção gramatical**, mas **SEMPRE ALTERA O SENTIDO DO TEXTO**, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
 
 ---
+
+### Questão 02
+**(FCC – TRT – Analista Judiciário)**  
+Considere o segmento:  
+*"Os auditores de controle externo, <ins>que fiscalizam a correta aplicação dos recursos públicos estaduais</ins>, atuam com estrita independência funcional."*  
+A respeito da oração sublinhada e do emprego das vírgulas que a isolam, é correto afirmar:
+
+* **A)** A oração é subordinada adjetiva restritiva, e a eliminação das duas vírgulas manteria inalterado o sentido original do enunciado.
+* **B)** Trata-se de oração subordinada adjetiva explicativa, cuja supressão das vírgulas manteria a correção gramatical, mas alteraria o sentido original do período.
+* **C)** As vírgulas são de emprego facultativo, pois isolam adjunto adverbial de curta extensão.
+* **D)** A oração exerce função de oração coordenada sindética explicativa, sendo obrigatória a substituição do pronome *que* por *porquanto*.
+* **E)** A retirada das vírgulas tornaria a frase agramatical e incorreta perante a norma-padrão.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A oração não é restritiva, mas explicativa, exatamente porque está grafada entre vírgulas. Ademais, a retirada das vírgulas alteraria profundamente a significação semântica do enunciado.
+> - **B)** Correta. A oração subordinada é introduzida pelo pronome relativo *que* e está devidamente isolada por vírgulas, qualificando-se como **Oração Subordinada Adjetiva Explicativa**. Ela atribui uma qualidade inerente à universalidade dos sujeitos citados (todos os auditores de controle externo do órgão fiscalizam a aplicação dos recursos). Caso as vírgulas sejam suprimidas, a oração converte-se em **restritiva**: o período permanece gramaticalmente correto, porém seu sentido é transformado, passando a delimitar que apenas uma parcela restrita de auditores realiza tal mister, enquanto outros não o fariam.
+> - **C)** Incorreta. O segmento não é adjunto adverbial, mas oração subordinada adjetiva explicativa, na qual as vírgulas são obrigatórias para consagrar o sentido explicativo.
+> - **D)** Incorreta. Trata-se de oração subordinada adjetiva encabeçada pelo pronome relativo *que* (o qual retoma *os auditores de controle externo*), não havendo coordenação sindética.
+> - **E)** Incorreta. A supressão das vírgulas não infringe a sintaxe nem torna o período agramatical; produz unicamente a conversão semântica de explicativa para restritiva.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ## 4. Orações Subordinadas Adverbiais e Conectivos Críticos
 
@@ -229,6 +275,33 @@ Poucas pegadinhas são tão reiteradas pela Fundação Carlos Chagas quanto a se
 * **CONQUANTO (Concessivo):** Equivale a *embora*, *ainda que*, *a despeito de que*, *posto que*. Introduz uma ressalva concessiva que não anula a oração principal e **rege o modo subjuntivo**.
     * *"**Conquanto** houvesse fortes pressões políticas, o conselheiro proferiu voto técnico."*
 
+---
+
+### Questão 03
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+Considere o seguinte período:  
+*"<ins>Conquanto</ins> a equipe de auditoria tenha coligido indícios substanciais de superfaturamento na compra de medicamentos, a autoridade julgadora decidiu pela conversão dos autos em diligência saneadora."*  
+O conectivo destacado introduz relação de sentido e pode ser substituído, mantendo-se a correção gramatical e o sentido original do período, por:
+
+* **A)** Porquanto
+* **B)** Visto que
+* **C)** Embora
+* **D)** À proporção que
+* **E)** Contanto que
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A conjunção *porquanto* expressa valor causal ou explicativo (= *porque, já que, dado que*), o que distorceria completamente a lógica de oposição/ressalva presente no período original.
+> - **B)** Incorreta. A locução conjuntiva *visto que* introduz oração subordinada adverbial causal, inconciliável com a relação semântica de concessão.
+> - **C)** Correta. A conjunção subordinativa **conquanto** possui valor semântico estritamente **concessivo** (introduz um fato real de contraste que não impede a concretização do fato da oração principal) e rege o modo subjuntivo (*tenha coligido*). O conectivo **embora** é seu sinônimo clássico perfeito, preservando integralmente o sentido concessivo original e a compatibilidade com o verbo no pretérito perfeito do subjuntivo.
+> - **D)** Incorreta. A locução *à proporção que* expressa valor proporcional, relacionando fatos simultâneos em escala gradativa de variação.
+> - **E)** Incorreta. A locução *contanto que* exprime valor condicional, apresentando uma exigência hipotética para que o fato principal ocorra.
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 4.4 A Polissemia do Conectivo Como
 
 O conectivo *como* assume múltiplos papéis dependendo da sua posição na frase e da intenção discursiva:
@@ -239,6 +312,30 @@ O conectivo *como* assume múltiplos papéis dependendo da sua posição na fras
 4. **Como Aditivo (Correlativo):** Integra a estrutura aditiva correlata *não só... como também*: *"O parecer apontou **não só** desídia administrativa, **como também** dano patrimonial"*.
 
 ---
+
+### Questão 04
+**(FCC – DPE-RS – Analista de Processos)**  
+Assinale a frase em que o conectivo **COMO** expressa relação semântica de **causa**:
+
+* **A)** *"O técnico de suporte agiu rapidamente, como orientava o protocolo de segurança da informação."*
+* **B)** *"O novo sistema operacional era rápido e silencioso como um raio."*
+* **C)** *"Como o prazo de apresentação de defesa havia expirado na véspera, o gestor foi declarado revel."*
+* **D)** *"A comissão convocou não apenas o presidente da fundação, como também o contador-geral."*
+* **E)** *"O conselheiro explicou com detalhes como se operava a fraude nas medições de asfalto."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A oração *como orientava o protocolo* veicula sentido de conformidade, equivalendo a *conforme* ou *segundo* (oração subordinada adverbial conformativa).
+> - **B)** Incorreta. O segmento *como um raio* opera comparação analógica de semelhança, equivalendo a *tal qual* (oração subordinada adverbial comparativa).
+> - **C)** Correta. Posicionado no início do período e encabeçando oração anteposta à principal, o conectivo **como** expressa inequívoco valor de **causa** (= *já que, visto que, dado que, porque*). A circunstância de o prazo haver expirado foi a causa motriz que determinou o efeito de o gestor ser declarado revel.
+> - **D)** Incorreta. A estrutura *não apenas... como também* é uma locução correlativa coordenativa de adição.
+> - **E)** Incorreta. O vocábulo *como* atua como advérbio interrogativo de modo em oração subordinada substantiva objetiva direta, indicando a maneira pela qual a fraude era praticada.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ## 5. Sintaxe da Pontuação e Efeitos Semânticos
 
@@ -258,6 +355,31 @@ $$\text{Sujeito} \not\longleftrightarrow [\text{Vírgula Proibida}] \not\longlef
 > - Incorreto (apenas uma vírgula): *"O pleno do tribunal, após examinar os laudos votou pela anulação"* $\rightarrow$ Erro!
 > - Incorreto (apenas uma vírgula): *"O pleno do tribunal após examinar os laudos, votou pela anulação"* $\rightarrow$ Erro!
 > - **Correto (duas vírgulas):** *"O pleno do tribunal**, após examinar os laudos,** votou pela anulação."*
+
+---
+
+### Questão 05
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+A frase cuja pontuação atende plenamente às normas da norma culta da língua portuguesa é:
+
+* **A)** *"O pleno do Tribunal de Contas, após detido exame dos relatórios de engenharia votou pela anulação da concorrência."*
+* **B)** *"O pleno do Tribunal de Contas após detido exame dos relatórios de engenharia, votou pela anulação da concorrência."*
+* **C)** *"O pleno do Tribunal de Contas, após detido exame dos relatórios de engenharia, votou pela anulação da concorrência."*
+* **D)** *"O pleno do Tribunal de Contas votou, pela anulação da concorrência, após detido exame dos relatórios de engenharia."*
+* **E)** *"O pleno do Tribunal de Contas votou pela anulação da concorrência, que, continha sobrepreço manifesto."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O segmento adverbial intercalado *"após detido exame dos relatórios de engenharia"* foi aberto com uma vírgula após o sujeito, mas não foi fechado antes do verbo *votou*. Isso gerou a proibição inegociável de separar o sujeito do predicado por uma vírgula simples solitária.
+> - **B)** Incorreta. Incorre no mesmo erro da assertiva A sob feição inversa: não abriu a vírgula antes do adjunto adverbial intercalado, deixando uma vírgula solitária antes do verbo *votou*, cindindo indevidamente a oração direta.
+> - **C)** Correta. O adjunto adverbial de tempo de longa extensão encontra-se devidamente intercalado entre o sujeito (*O pleno do Tribunal de Contas*) e o predicado (*votou pela anulação...*), estando perfeitamente isolado por **duas vírgulas simétricas** (uma no início e outra no término do termo intercalado).
+> - **D)** Incorreta. A vírgula empregada após o verbo *votou* separa indevidamente o verbo de seu objeto indireto regido pela preposição *por* (*votou pela anulação*), ferindo a regra estrutural da cadeia SVC.
+> - **E)** Incorreta. A vírgula após o pronome relativo *que* cinde indevidamente o pronome relativo do verbo da oração adjetiva (*continha*).
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 5.2 Regras do Uso da Vírgula no Período Simples
 
@@ -319,121 +441,3 @@ A pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento
 * BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 14 e Cap. 17 - Período Composto por Coordenação e Subordinação, Conectivos e Sinais de Pontuação).
 * GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Primeira Parte - Estrutura da Frase, Coordenação, Subordinação e Valores Semânticos dos Conectivos).
 * CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 16 e Cap. 21 - Conjunções Coordenativas e Subordinativas, Orações Adjetivas e Pontuação).
-
----
-
-## 📝 Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo)**  
-Considere o seguinte período:  
-*"<ins>Conquanto</ins> a equipe de auditoria tenha coligido indícios substanciais de superfaturamento na compra de medicamentos, a autoridade julgadora decidiu pela conversão dos autos em diligência saneadora."*  
-O conectivo destacado introduz relação de sentido e pode ser substituído, mantendo-se a correção gramatical e o sentido original do período, por:
-
-* **A)** Porquanto
-* **B)** Visto que
-* **C)** Embora
-* **D)** À proporção que
-* **E)** Contanto que
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A conjunção *porquanto* expressa valor causal ou explicativo (= *porque, já que, dado que*), o que distorceria completamente a lógica de oposição/ressalva presente no período original.
-> - **B)** Incorreta. A locução conjuntiva *visto que* introduz oração subordinada adverbial causal, inconciliável com a relação semântica de concessão.
-> - **C)** Correta. A conjunção subordinativa **conquanto** possui valor semântico estritamente **concessivo** (introduz um fato real de contraste que não impede a concretização do fato da oração principal) e rege o modo subjuntivo (*tenha coligido*). O conectivo **embora** é seu sinônimo clássico perfeito, preservando integralmente o sentido concessivo original e a compatibilidade com o verbo no pretérito perfeito do subjuntivo.
-> - **D)** Incorreta. A locução *à proporção que* expressa valor proporcional, relacionando fatos simultâneos em escala gradativa de variação.
-> - **E)** Incorreta. A locução *contanto que* exprime valor condicional, apresentando uma exigência hipotética para que o fato principal ocorra.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 02
-**(FCC – TRT – Analista Judiciário)**  
-Considere o segmento:  
-*"Os auditores de controle externo, <ins>que fiscalizam a correta aplicação dos recursos públicos estaduais</ins>, atuam com estrita independência funcional."*  
-A respeito da oração sublinhada e do emprego das vírgulas que a isolam, é correto afirmar:
-
-* **A)** A oração é subordinada adjetiva restritiva, e a eliminação das duas vírgulas manteria inalterado o sentido original do enunciado.
-* **B)** Trata-se de oração subordinada adjetiva explicativa, cuja supressão das vírgulas manteria a correção gramatical, mas alteraria o sentido original do período.
-* **C)** As vírgulas são de emprego facultativo, pois isolam adjunto adverbial de curta extensão.
-* **D)** A oração exerce função de oração coordenada sindética explicativa, sendo obrigatória a substituição do pronome *que* por *porquanto*.
-* **E)** A retirada das vírgulas tornaria a frase agramatical e incorreta perante a norma-padrão.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A oração não é restritiva, mas explicativa, exatamente porque está grafada entre vírgulas. Ademais, a retirada das vírgulas alteraria profundamente a significação semântica do enunciado.
-> - **B)** Correta. A oração subordinada é introduzida pelo pronome relativo *que* e está devidamente isolada por vírgulas, qualificando-se como **Oração Subordinada Adjetiva Explicativa**. Ela atribui uma qualidade inerente à universalidade dos sujeitos citados (todos os auditores de controle externo do órgão fiscalizam a aplicação dos recursos). Caso as vírgulas sejam suprimidas, a oração converte-se em **restritiva**: o período permanece gramaticalmente correto, porém seu sentido é transformado, passando a delimitar que apenas uma parcela restrita de auditores realiza tal mister, enquanto outros não o fariam.
-> - **C)** Incorreta. O segmento não é adjunto adverbial, mas oração subordinada adjetiva explicativa, na qual as vírgulas são obrigatórias para consagrar o sentido explicativo.
-> - **D)** Incorreta. Trata-se de oração subordinada adjetiva encabeçada pelo pronome relativo *que* (o qual retoma *os auditores de controle externo*), não havendo coordenação sindética.
-> - **E)** Incorreta. A supressão das vírgulas não infringe a sintaxe nem torna o período agramatical; produz unicamente a conversão semântica de explicativa para restritiva.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-A frase cuja pontuação atende plenamente às normas da norma culta da língua portuguesa é:
-
-* **A)** *"O pleno do Tribunal de Contas, após detido exame dos relatórios de engenharia votou pela anulação da concorrência."*
-* **B)** *"O pleno do Tribunal de Contas após detido exame dos relatórios de engenharia, votou pela anulação da concorrência."*
-* **C)** *"O pleno do Tribunal de Contas, após detido exame dos relatórios de engenharia, votou pela anulação da concorrência."*
-* **D)** *"O pleno do Tribunal de Contas votou, pela anulação da concorrência, após detido exame dos relatórios de engenharia."*
-* **E)** *"O pleno do Tribunal de Contas votou pela anulação da concorrência, que, continha sobrepreço manifesto."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O segmento adverbial intercalado *"após detido exame dos relatórios de engenharia"* foi aberto com uma vírgula após o sujeito, mas não foi fechado antes do verbo *votou*. Isso gerou a proibição inegociável de separar o sujeito do predicado por uma vírgula simples solitária.
-> - **B)** Incorreta. Incorre no mesmo erro da assertiva A sob feição inversa: não abriu a vírgula antes do adjunto adverbial intercalado, deixando uma vírgula solitária antes do verbo *votou*, cindindo indevidamente a oração direta.
-> - **C)** Correta. O adjunto adverbial de tempo de longa extensão encontra-se devidamente intercalado entre o sujeito (*O pleno do Tribunal de Contas*) e o predicado (*votou pela anulação...*), estando perfeitamente isolado por **duas vírgulas simétricas** (uma no início e outra no término do termo intercalado).
-> - **D)** Incorreta. A vírgula empregada após o verbo *votou* separa indevidamente o verbo de seu objeto indireto regido pela preposição *por* (*votou pela anulação*), ferindo a regra estrutural da cadeia SVC.
-> - **E)** Incorreta. A vírgula após o pronome relativo *que* cinde indevidamente o pronome relativo do verbo da oração adjetiva (*continha*).
-> 
-> **Gabarito: C**
-
----
-
-### Questão 04
-**(FCC – AL-SP – Analista Legislativo)**  
-Considere o período:  
-*"Os pareceres técnicos da controladoria demonstraram cabalmente a regularidade do processo licitatório; o plenário aprovou, <ins>pois</ins>, as contas do ordenador de despesas."*  
-No contexto acima, o termo destacado expressa valor semântico de:
-
-* **A)** Concessão
-* **B)** Causa
-* **C)** Explicação
-* **D)** Conclusão
-* **E)** Proporção
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O conectivo *pois* não possui propriedade semântica de concessão sob nenhuma hipótese na língua portuguesa.
-> - **B)** Incorreta. Para expressar valor causal, o conectivo *pois* deveria obrigatoriamente figurar no início da oração, anteposto ao verbo.
-> - **C)** Incorreta. O valor explicativo do conectivo *pois* somente emerge quando a conjunção encabeça a oração antes do verbo conjugado, justificando uma asserção precedente.
-> - **D)** Correta. A conjunção coordenativa **pois**, ao posicionar-se **deslocada no interior da oração, posposta ao verbo conjugado e cercada por vírgulas** (*"o plenário aprovou, pois, as contas"*), assume rigorosamente o valor semântico de **conclusão**, atuando como sinônimo cabal de *portanto*, *logo* e *por conseguinte*.
-> - **E)** Incorreta. A ideia de proporção é veiculada por locuções proporcionais como *à medida que* e *à proporção que*, descabendo com *pois*.
-> 
-> **Gabarito: D**
-
----
-
-### Questão 05
-**(FCC – DPE-RS – Analista de Processos)**  
-Assinale a frase em que o conectivo **COMO** expressa relação semântica de **causa**:
-
-* **A)** *"O técnico de suporte agiu rapidamente, como orientava o protocolo de segurança da informação."*
-* **B)** *"O novo sistema operacional era rápido e silencioso como um raio."*
-* **C)** *"Como o prazo de apresentação de defesa havia expirado na véspera, o gestor foi declarado revel."*
-* **D)** *"A comissão convocou não apenas o presidente da fundação, como também o contador-geral."*
-* **E)** *"O conselheiro explicou com detalhes como se operava a fraude nas medições de asfalto."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A oração *como orientava o protocolo* veicula sentido de conformidade, equivalendo a *conforme* ou *segundo* (oração subordinada adverbial conformativa).
-> - **B)** Incorreta. O segmento *como um raio* opera comparação analógica de semelhança, equivalendo a *tal qual* (oração subordinada adverbial comparativa).
-> - **C)** Correta. Posicionado no início do período e encabeçando oração anteposta à principal, o conectivo **como** expressa inequívoco valor de **causa** (= *já que, visto que, dado que, porque*). A circunstância de o prazo haver expirado foi a causa motriz que determinou o efeito de o gestor ser declarado revel.
-> - **D)** Incorreta. A estrutura *não apenas... como também* é uma locução correlativa coordenativa de adição.
-> - **E)** Incorreta. O vocábulo *como* atua como advérbio interrogativo de modo em oração subordinada substantiva objetiva direta, indicando a maneira pela qual a fraude era praticada.
-> 
-> **Gabarito: C**

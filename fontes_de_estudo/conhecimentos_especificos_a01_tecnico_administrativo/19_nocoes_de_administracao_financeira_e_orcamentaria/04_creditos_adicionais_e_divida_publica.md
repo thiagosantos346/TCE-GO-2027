@@ -45,7 +45,6 @@
     - [4.1 Dívida Flutuante (Curto Prazo - Art. 92 da Lei nº 4.320/1964)](#41-divida-flutuante-curto-prazo-art-92-da-lei-no-43201964)
     - [4.2 Dívida Fundada ou Consolidada (Longo Prazo - Art. 29 da LRF)](#42-divida-fundada-ou-consolidada-longo-prazo-art-29-da-lrf)
 - [5. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
-- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -68,6 +67,53 @@ flowchart TD
     
     Urg -->|SIM| Extra["CRÉDITO EXTRAORDINÁRIO<br/>• Atende a grave emergência pública<br/>• DISPENSA autorização prévia em lei<br/>• Aberto por Medida Provisória ou Decreto<br/>• Admite reabertura se promulgado nos últimos 4 meses"]
 ```
+
+---
+
+### Questão 01 (FCC - Adaptada / Técnico de Controle Externo)
+Na contabilidade pública e no direito financeiro, as dívidas contraídas pelo Estado classificam-se em dívida flutuante e dívida fundada (consolidada). Assinale a opção que apresenta um componente típico da **dívida flutuante**:
+
+* **A)** Títulos públicos da dívida mobiliária estadual com vencimento para cinco anos.
+* **B)** Contrato de financiamento firmado com o Banco Interamericano de Desenvolvimento (BID) para amortização em dez anos.
+* **C)** Restos a Pagar processados e não processados inscritos ao término do exercício financeiro.
+* **D)** Precatórios judiciais incluídos na proposta orçamentária para quitação ao longo de três exercícios sucessivos.
+* **E)** Debêntures emitidas por sociedade de economia mista não dependente com garantia real imobiliária.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Títulos públicos da dívida mobiliária com prazo superior a 12 meses integram a dívida consolidada (fundada).
+> - **B)** Incorreta. Contratos de empréstimos com organismos internacionais amortizáveis a longo prazo compõem a dívida fundada contratual.
+> - **C)** Correta. Nos termos do art. 92 da Lei Federal nº 4.320/1964, a dívida flutuante compreende os compromissos exigíveis a curto prazo cuja liquidação independe de dotação orçamentária continuada, abrangendo expressamente os Restos a Pagar (processados e não processados), os serviços da dívida a pagar, os depósitos/cauções e os débitos de tesouraria decorrentes de ARO.
+> - **D)** Incorreta. Precatórios com parcelamento em prazo superior a 12 meses são computados na dívida consolidada (art. 30, § 7º da LRF).
+> - **E)** Incorreta. Debêntures privadas emitidas por estatais não dependentes não constituem obrigação direta da Fazenda Pública Estadual.
+> 
+> **Gabarito: C**
+
+---
+
+### Questão 02 (FCC - Adaptada / Analista Jurídico de Controle)
+Ao elaborar o projeto de Lei Orçamentária Anual (LOA), a Secretaria de Economia do Estado de Goiás estimou uma reserva global sem destinação específica a órgão ou programa determinado, vinculada unicamente à cobertura de passivos contingentes e outros riscos fiscais imprevistos.
+
+Nos termos do artigo 5º, inciso III da Lei de Responsabilidade Fiscal (LC nº 101/2000) e da legislação financeira, essa dotação denomina-se:
+
+* **A)** Crédito Adicional Extraordinário Vinculado.
+* **B)** Reserva de Contingência, cuja dotação pode servir como fonte de recursos para abertura de créditos adicionais.
+* **C)** Provisão Judicial para Perdas Trabalhistas.
+* **D)** Fundo de Estabilização Fiscal de Repartição Obrigatória.
+* **E)** Superávit de Liquidez de Tesouraria.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Crédito extraordinário é instrumento de alteração orçamentária para emergências e calamidades, não dotação preventiva originária da LOA.
+> - **B)** Correta. O art. 5º, inciso III da Lei de Responsabilidade Fiscal prescreve que o projeto de LOA conterá reserva de contingência, cuja forma de utilização e montante são definidos na LDO, destinada ao atendimento de passivos contingentes e outros riscos e eventos fiscais imprevistos, servindo perfeitamente como fonte de recursos para anulação e abertura de créditos suplementares e especiais.
+> - **C)** Incorreta. Provisão contábil é instituto de mensuração patrimonial e não rubrica orçamentária da LOA.
+> - **D)** Incorreta. Expressão desconexa do regramento de dotações orçamentárias gerais.
+> - **E)** Incorreta. Refere-se a saldo de caixa de tesouraria, não a dotação autorizativa de despesa pública.
+> 
+> **Gabarito: B**
+
+---
+
 
 #### 1.2 As Três Espécies: Suplementares, Especiais e Extraordinários
 A legislação financeira reparte os créditos adicionais em três espécies bem delineadas:
@@ -97,6 +143,31 @@ A legislação financeira reparte os créditos adicionais em três espécies bem
 
 ---
 
+### Questão 03 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+Em decorrência de fortes chuvas torrenciais que assolaram municípios goianos, o Governador do Estado decretou formalmente estado de calamidade pública. Diante da necessidade imediata de socorro financeiro e humanitário às populações desabrigadas, o Poder Executivo necessita executar despesas emergenciais para as quais não há dotação orçamentária na Lei Orçamentária Anual em vigor.
+
+Nessa situação fática, em conformidade com as normas constitucionais e financeiras vigentes:
+
+* **A)** O Chefe do Executivo deverá encaminhar previamente projeto de lei à Assembleia Legislativa propondo a abertura de crédito suplementar compensado por anulação de dotações.
+* **B)** Poderá ser aberto crédito extraordinário por ato próprio do Poder Executivo, independentemente de prévia autorização legislativa formal, com comunicação imediata ao Poder Legislativo.
+* **C)** É obrigatória a aprovação de Emenda à Lei Orçamentária Anual por quórum qualificado de dois terços dos membros da Assembleia Legislativa.
+* **D)** O crédito adicional especial deverá ser aberto por decreto, desde que haja prévia autorização expressa na Lei de Diretrizes Orçamentárias.
+* **E)** É vedada a realização de qualquer dispêndio em razão da ausência originária de dotação na LOA, devendo o Poder Executivo aguardar a tramitação do orçamento do ano seguinte.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Crédito suplementar serve apenas para reforçar dotação orçamentária preexistente e depende de autorização em lei prévia, o que impediria a resposta rápida à catástrofe humanitária.
+> - **B)** Correta. De acordo com o art. 167, § 3º da CF/88 e o art. 41, III c/c art. 44 da Lei nº 4.320/1964, a abertura de crédito extraordinário destina-se expressamente ao custeio de despesas imprevisíveis e urgentes provocadas por guerra, comoção interna ou calamidade pública. O crédito é aberto por ato privativo do Poder Executivo (Medida Provisória ou Decreto), dispensando prévia autorização legislativa e dando-se ciência imediata ao parlamento.
+> - **C)** Incorreta. Não existe previsão constitucional de emenda à LOA por quórum de dois terços para gestão de calamidade pública.
+> - **D)** Incorreta. O crédito especial exige prévia autorização em lei específica, sendo inviável para resposta emergencial imediata.
+> - **E)** Incorreta. O ordenamento jurídico confere ao Executivo o instrumento ágil do crédito extraordinário exatamente para evitar a paralisação do Estado em situações extremas.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2. A Regra Constitucional de Reabertura de Saldos (Art. 167, § 2º da CF/88)
 
 #### 2.1 Princípio da Anualidade e a Reabertura Quadrimestral
@@ -113,6 +184,64 @@ Para que o saldo de um crédito orçamentário possa ser regularmente reaberto n
 4. **Vigência Final:** O saldo reaberto incorpora-se ao orçamento do ano subsequente, vigorando impreterivelmente até o dia 31 de dezembro do exercício seguinte.
 
 ---
+
+### Questão 04 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+A respeito das fontes de recursos para a abertura de créditos adicionais previstas no artigo 43 da Lei nº 4.320/1964 e das normas da Constituição Federal de 1988, considere as seguintes afirmativas:
+
+I. O superávit financeiro utilizado para abertura de créditos adicionais corresponde à diferença positiva entre o ativo financeiro e o passivo financeiro apurados no Balanço Patrimonial do exercício anterior, conjugando-se com os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas.  
+
+II. O excesso de arrecadação representa o saldo positivo das diferenças acumuladas mês a mês entre a arrecadação prevista e a efetivamente realizada, considerando-se a tendência do exercício e deduzidos os créditos suplementares e especiais já abertos no ano.  
+
+III. Os créditos adicionais especiais abertos no mês de outubro do respectivo exercício financeiro poderão ter seus saldos reabertos no exercício subsequente, caso em que vigorarão até o encerramento deste.  
+
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** II e III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, II e III.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Todos os três itens constantes do enunciado são rigorosamente verdadeiros.
+> - **B)** Incorreta. O item III também está correto, tornando a alternativa incompleta.
+> - **C)** Incorreta. O item I é conceitualmente perfeito e representa a literalidade da Lei nº 4.320/1964.
+> - **D)** Incorreta. O item II é verdadeiro ao expressar a regra de cálculo do excesso de arrecadação.
+> - **E)** Correta. Todas as assertivas são verdadeiras: o item I reproduz o art. 43, § 2º da Lei nº 4.320/1964 (superávit financeiro apurado no Balanço Patrimonial); o item II reflete o art. 43, § 3º da mesma lei (excesso de arrecadação apurado no ano corrente com base na tendência e deduzindo-se créditos abertos); e o item III aplica perfeitamente o art. 167, § 2º da CF/88 (créditos especiais e extraordinários abertos nos últimos quatro meses admitem reabertura no ano seguinte no limite de seus saldos).
+> 
+> **Gabarito: E**
+
+---
+
+### Questão 05 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+No encerramento do exercício financeiro de 2025, determinado órgão público estadual possuía os seguintes saldos de créditos adicionais que não foram totalmente utilizados nem pagos:
+
+I. Saldo não utilizado de R$ 400.000,00 referente a um Crédito Suplementar aberto regularmente por decreto executivo em novembro de 2025.  
+
+II. Saldo não utilizado de R$ 600.000,00 referente a um Crédito Especial autorizado por lei específica e aberto por decreto em outubro de 2025.  
+
+Considerando o princípio da anualidade orçamentária e a disciplina do artigo 167, § 2º da Constituição Federal de 1988, no exercício de 2026:
+
+* **A)** Ambos os saldos de créditos adicionais poderão ser reabertos, visto que foram abertos no último bimestre do ano.
+* **B)** Nenhum dos saldos poderá ser reaberto, tendo em vista a caducidade absoluta de todas as dotações orçamentárias em 31 de dezembro.
+* **C)** Apenas o saldo do Crédito Especial poderá ser reaberto no limite de R$ 600.000,00, vigorando até o término do exercício de 2026; o saldo do Crédito Suplementar será compulsoriamente extinto.
+* **D)** Apenas o saldo do Crédito Suplementar poderá ser reaberto, desde que incorporado ao orçamento das estatais.
+* **E)** Os saldos são convertidos automaticamente em Restos a Pagar Não Processados sem necessidade de ato de reabertura.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Créditos suplementares nunca admitem reabertura no ano seguinte, independentemente do mês em que foram abertos.
+> - **B)** Incorreta. O art. 167, § 2º da CF/88 excepciona a anualidade orçamentária para os créditos especiais e extraordinários abertos no último quadrimestre.
+> - **C)** Correta. De acordo com o art. 167, § 2º da CF/88, apenas os créditos especiais e extraordinários abertos nos últimos quatro meses do exercício financeiro (de 1º de setembro a 31 de dezembro) podem ter seus saldos reabertos no exercício seguinte, vigorando até 31 de dezembro deste. O crédito suplementar extingue-se impreterivelmente ao final do exercício de 2025.
+> - **D)** Incorreta. Inverte as regras de reabertura constitucional e mistura conceitos de orçamento estatal.
+> - **E)** Incorreta. Saldo de dotação orçamentária não empenhada não se converte em restos a pagar; Restos a Pagar exigem que a despesa tenha sido previamente empenhada no exercício.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 3. As Fontes Legais de Cobertura para Abertura de Créditos
 
@@ -194,128 +323,3 @@ Conforme o art. 29 da LRF e o art. 98 da Lei nº 4.320/1964, a dívida fundada o
 * GIACOMONI, James. **Orçamento Público**. 18. ed. São Paulo: Atlas, 2021. (Cap. 10 - Modificações Orçamentárias: Os Créditos Adicionais).
 * PALUDO, Augustinho. **Orçamento Público, AFO e LRF**. 11. ed. Salvador: JusPodivm, 2022. (Cap. 7 - Créditos Adicionais; Cap. 12 - Dívida Pública e Operações de Crédito).
 * PISCITELLI, Roberto Bocaccio; TIMÓTEO, Alfredo. **Contabilidade Pública: Uma Abordagem da Administração Financeira Pública**. 14. ed. São Paulo: Atlas, 2019. (Cap. 5 - Créditos Adicionais e Fontes de Financiamento).
-
----
-
-## 📝 Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
-Em decorrência de fortes chuvas torrenciais que assolaram municípios goianos, o Governador do Estado decretou formalmente estado de calamidade pública. Diante da necessidade imediata de socorro financeiro e humanitário às populações desabrigadas, o Poder Executivo necessita executar despesas emergenciais para as quais não há dotação orçamentária na Lei Orçamentária Anual em vigor.
-
-Nessa situação fática, em conformidade com as normas constitucionais e financeiras vigentes:
-
-* **A)** O Chefe do Executivo deverá encaminhar previamente projeto de lei à Assembleia Legislativa propondo a abertura de crédito suplementar compensado por anulação de dotações.
-* **B)** Poderá ser aberto crédito extraordinário por ato próprio do Poder Executivo, independentemente de prévia autorização legislativa formal, com comunicação imediata ao Poder Legislativo.
-* **C)** É obrigatória a aprovação de Emenda à Lei Orçamentária Anual por quórum qualificado de dois terços dos membros da Assembleia Legislativa.
-* **D)** O crédito adicional especial deverá ser aberto por decreto, desde que haja prévia autorização expressa na Lei de Diretrizes Orçamentárias.
-* **E)** É vedada a realização de qualquer dispêndio em razão da ausência originária de dotação na LOA, devendo o Poder Executivo aguardar a tramitação do orçamento do ano seguinte.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Crédito suplementar serve apenas para reforçar dotação orçamentária preexistente e depende de autorização em lei prévia, o que impediria a resposta rápida à catástrofe humanitária.
-> - **B)** Correta. De acordo com o art. 167, § 3º da CF/88 e o art. 41, III c/c art. 44 da Lei nº 4.320/1964, a abertura de crédito extraordinário destina-se expressamente ao custeio de despesas imprevisíveis e urgentes provocadas por guerra, comoção interna ou calamidade pública. O crédito é aberto por ato privativo do Poder Executivo (Medida Provisória ou Decreto), dispensando prévia autorização legislativa e dando-se ciência imediata ao parlamento.
-> - **C)** Incorreta. Não existe previsão constitucional de emenda à LOA por quórum de dois terços para gestão de calamidade pública.
-> - **D)** Incorreta. O crédito especial exige prévia autorização em lei específica, sendo inviável para resposta emergencial imediata.
-> - **E)** Incorreta. O ordenamento jurídico confere ao Executivo o instrumento ágil do crédito extraordinário exatamente para evitar a paralisação do Estado em situações extremas.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
-A respeito das fontes de recursos para a abertura de créditos adicionais previstas no artigo 43 da Lei nº 4.320/1964 e das normas da Constituição Federal de 1988, considere as seguintes afirmativas:
-
-I. O superávit financeiro utilizado para abertura de créditos adicionais corresponde à diferença positiva entre o ativo financeiro e o passivo financeiro apurados no Balanço Patrimonial do exercício anterior, conjugando-se com os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas.  
-
-II. O excesso de arrecadação representa o saldo positivo das diferenças acumuladas mês a mês entre a arrecadação prevista e a efetivamente realizada, considerando-se a tendência do exercício e deduzidos os créditos suplementares e especiais já abertos no ano.  
-
-III. Os créditos adicionais especiais abertos no mês de outubro do respectivo exercício financeiro poderão ter seus saldos reabertos no exercício subsequente, caso em que vigorarão até o encerramento deste.  
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, II e III.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Todos os três itens constantes do enunciado são rigorosamente verdadeiros.
-> - **B)** Incorreta. O item III também está correto, tornando a alternativa incompleta.
-> - **C)** Incorreta. O item I é conceitualmente perfeito e representa a literalidade da Lei nº 4.320/1964.
-> - **D)** Incorreta. O item II é verdadeiro ao expressar a regra de cálculo do excesso de arrecadação.
-> - **E)** Correta. Todas as assertivas são verdadeiras: o item I reproduz o art. 43, § 2º da Lei nº 4.320/1964 (superávit financeiro apurado no Balanço Patrimonial); o item II reflete o art. 43, § 3º da mesma lei (excesso de arrecadação apurado no ano corrente com base na tendência e deduzindo-se créditos abertos); e o item III aplica perfeitamente o art. 167, § 2º da CF/88 (créditos especiais e extraordinários abertos nos últimos quatro meses admitem reabertura no ano seguinte no limite de seus saldos).
-> 
-> **Gabarito: E**
-
----
-
-### Questão 3 (FCC - Adaptada / Analista de Planejamento e Orçamento)
-No encerramento do exercício financeiro de 2025, determinado órgão público estadual possuía os seguintes saldos de créditos adicionais que não foram totalmente utilizados nem pagos:
-
-I. Saldo não utilizado de R$ 400.000,00 referente a um Crédito Suplementar aberto regularmente por decreto executivo em novembro de 2025.  
-
-II. Saldo não utilizado de R$ 600.000,00 referente a um Crédito Especial autorizado por lei específica e aberto por decreto em outubro de 2025.  
-
-Considerando o princípio da anualidade orçamentária e a disciplina do artigo 167, § 2º da Constituição Federal de 1988, no exercício de 2026:
-
-* **A)** Ambos os saldos de créditos adicionais poderão ser reabertos, visto que foram abertos no último bimestre do ano.
-* **B)** Nenhum dos saldos poderá ser reaberto, tendo em vista a caducidade absoluta de todas as dotações orçamentárias em 31 de dezembro.
-* **C)** Apenas o saldo do Crédito Especial poderá ser reaberto no limite de R$ 600.000,00, vigorando até o término do exercício de 2026; o saldo do Crédito Suplementar será compulsoriamente extinto.
-* **D)** Apenas o saldo do Crédito Suplementar poderá ser reaberto, desde que incorporado ao orçamento das estatais.
-* **E)** Os saldos são convertidos automaticamente em Restos a Pagar Não Processados sem necessidade de ato de reabertura.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Créditos suplementares nunca admitem reabertura no ano seguinte, independentemente do mês em que foram abertos.
-> - **B)** Incorreta. O art. 167, § 2º da CF/88 excepciona a anualidade orçamentária para os créditos especiais e extraordinários abertos no último quadrimestre.
-> - **C)** Correta. De acordo com o art. 167, § 2º da CF/88, apenas os créditos especiais e extraordinários abertos nos últimos quatro meses do exercício financeiro (de 1º de setembro a 31 de dezembro) podem ter seus saldos reabertos no exercício seguinte, vigorando até 31 de dezembro deste. O crédito suplementar extingue-se impreterivelmente ao final do exercício de 2025.
-> - **D)** Incorreta. Inverte as regras de reabertura constitucional e mistura conceitos de orçamento estatal.
-> - **E)** Incorreta. Saldo de dotação orçamentária não empenhada não se converte em restos a pagar; Restos a Pagar exigem que a despesa tenha sido previamente empenhada no exercício.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 4 (FCC - Adaptada / Técnico de Controle Externo)
-Na contabilidade pública e no direito financeiro, as dívidas contraídas pelo Estado classificam-se em dívida flutuante e dívida fundada (consolidada). Assinale a opção que apresenta um componente típico da **dívida flutuante**:
-
-* **A)** Títulos públicos da dívida mobiliária estadual com vencimento para cinco anos.
-* **B)** Contrato de financiamento firmado com o Banco Interamericano de Desenvolvimento (BID) para amortização em dez anos.
-* **C)** Restos a Pagar processados e não processados inscritos ao término do exercício financeiro.
-* **D)** Precatórios judiciais incluídos na proposta orçamentária para quitação ao longo de três exercícios sucessivos.
-* **E)** Debêntures emitidas por sociedade de economia mista não dependente com garantia real imobiliária.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Títulos públicos da dívida mobiliária com prazo superior a 12 meses integram a dívida consolidada (fundada).
-> - **B)** Incorreta. Contratos de empréstimos com organismos internacionais amortizáveis a longo prazo compõem a dívida fundada contratual.
-> - **C)** Correta. Nos termos do art. 92 da Lei Federal nº 4.320/1964, a dívida flutuante compreende os compromissos exigíveis a curto prazo cuja liquidação independe de dotação orçamentária continuada, abrangendo expressamente os Restos a Pagar (processados e não processados), os serviços da dívida a pagar, os depósitos/cauções e os débitos de tesouraria decorrentes de ARO.
-> - **D)** Incorreta. Precatórios com parcelamento em prazo superior a 12 meses são computados na dívida consolidada (art. 30, § 7º da LRF).
-> - **E)** Incorreta. Debêntures privadas emitidas por estatais não dependentes não constituem obrigação direta da Fazenda Pública Estadual.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 5 (FCC - Adaptada / Analista Jurídico de Controle)
-Ao elaborar o projeto de Lei Orçamentária Anual (LOA), a Secretaria de Economia do Estado de Goiás estimou uma reserva global sem destinação específica a órgão ou programa determinado, vinculada unicamente à cobertura de passivos contingentes e outros riscos fiscais imprevistos.
-
-Nos termos do artigo 5º, inciso III da Lei de Responsabilidade Fiscal (LC nº 101/2000) e da legislação financeira, essa dotação denomina-se:
-
-* **A)** Crédito Adicional Extraordinário Vinculado.
-* **B)** Reserva de Contingência, cuja dotação pode servir como fonte de recursos para abertura de créditos adicionais.
-* **C)** Provisão Judicial para Perdas Trabalhistas.
-* **D)** Fundo de Estabilização Fiscal de Repartição Obrigatória.
-* **E)** Superávit de Liquidez de Tesouraria.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Crédito extraordinário é instrumento de alteração orçamentária para emergências e calamidades, não dotação preventiva originária da LOA.
-> - **B)** Correta. O art. 5º, inciso III da Lei de Responsabilidade Fiscal prescreve que o projeto de LOA conterá reserva de contingência, cuja forma de utilização e montante são definidos na LDO, destinada ao atendimento de passivos contingentes e outros riscos e eventos fiscais imprevistos, servindo perfeitamente como fonte de recursos para anulação e abertura de créditos suplementares e especiais.
-> - **C)** Incorreta. Provisão contábil é instituto de mensuração patrimonial e não rubrica orçamentária da LOA.
-> - **D)** Incorreta. Expressão desconexa do regramento de dotações orçamentárias gerais.
-> - **E)** Incorreta. Refere-se a saldo de caixa de tesouraria, não a dotação autorizativa de despesa pública.
-> 
-> **Gabarito: B**

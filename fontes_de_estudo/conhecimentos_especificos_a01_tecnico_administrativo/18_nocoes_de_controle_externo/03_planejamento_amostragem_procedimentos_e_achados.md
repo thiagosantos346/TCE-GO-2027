@@ -39,7 +39,6 @@
     - [5.1 Os Quatro Elementos do Achado](#51-os-quatro-elementos-do-achado)
     - [5.2 Matriz de Responsabilização e a LINDB (Art. 28)](#52-matriz-de-responsabilizacao-e-a-lindb-art-28)
 - [6. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
-- [7. Questões Comentadas no Padrão FCC (Justificadas de A a E)](#questoes-comentadas-no-padrao-fcc-justificadas-de-a-a-e)
 
 ---
 
@@ -95,6 +94,29 @@ flowchart TD
 
 ---
 
+### Questão 01 (FCC - Adaptada / Auditor Governamental)
+Acerca do modelo de avaliação de risco de auditoria e dos fatores de risco considerados no planejamento das ações de controle externo, assinale a opção correta:
+
+* **A)** O risco de detecção é o risco de que os controles internos da entidade auditada não consigam prevenir tempestivamente uma fraude contábil relevante.
+* **B)** O risco inerente decorre exclusivamente de erros cometidos pela própria equipe de auditores durante a aplicação de seus testes substantivos.
+* **C)** O risco de controle e o risco inerente são intrínsecos ao ambiente do órgão auditado, cabendo ao auditor gerenciar e reduzir o risco de detecção para manter o risco global de auditoria em patamar aceitável.
+* **D)** Diante de controles internos eficientes e ausência de risco inerente, o auditor de controle externo pode dispensar a aplicação de quaisquer testes e aprovar as contas sumariamente.
+* **E)** O risco de auditoria independe da extensão dos procedimentos aplicados pelo órgão de controle externo.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** O risco de o controle interno falhar denomina-se **Risco de Controle (RC)**. Risco de detecção é a falha dos procedimentos do próprio auditor.  
+> - **B) Incorreta:** O risco inerente refere-se à suscetibilidade da própria atividade auditada ao erro antes de qualquer controle.  
+> - **C) CORRETA:** O auditor não pode alterar o risco inerente nem o risco de controle do jurisdicionado. Portanto, ao se deparar com um órgão de elevado risco (alto risco inerente e fragilidade de controles internos), o auditor deve **reduzir o risco de detecção (RD)** mediante a aplicação de testes mais profundos, com amostras maiores e maior ceticismo profissional.  
+> - **D) Incorreta:** Testes substantivos nunca podem ser totalmente dispensados pelas normas de auditoria governamental.  
+> - **E) Incorreta:** O risco global de auditoria varia em proporção inversa à extensão e qualidade dos procedimentos executados pela equipe.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 #### 1.3 Amostragem em Auditoria Governamental e Riscos Amostrais
 - **Amostragem Estatística (Probabilística):** Seleção aleatória de itens na qual cada item da população possui chance conhecida e diferente de zero de ser selecionado. Permite a avaliação quantitativa do risco de amostragem mediante intervalos de confiança matemáticos.
     - *Tipos:* Aleatória simples, sistemática (intervalo regular de seleção), estratificada (subdivisão da população em estratos homogêneos) e por unidade monetária (foco em valores financeiros mais expressivos).
@@ -117,6 +139,29 @@ flowchart TD
 
 ---
 
+### Questão 02 (FCC - Adaptada / Técnico de Controle Externo)
+Em relação aos papéis de trabalho (documentação de auditoria) elaborados e custodiados no âmbito dos Tribunais de Contas, é correto afirmar:
+
+* **A)** Pertencem pessoalmente ao auditor que os confeccionou, que detém o direito autoral de levá-los consigo ao se aposentar.
+* **B)** O arquivo permanente é destinado à guarda de documentos específicos de uma única auditoria em exercício financeiro determinado, como notas fiscais daquele mês.
+* **C)** Os papéis de trabalho pertencem ao Tribunal de Contas, destinando-se a fundamentar as conclusões do relatório técnico e a comprovar a observância das normas profissionais de auditoria.
+* **D)** São de livre acesso público irrestrito e devem ser divulgados em tempo real na internet durante a realização dos testes de campo.
+* **E)** Devem ser destruídos imediatamente após a publicação da deliberação plenária terminativa do processo de controle externo.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** Os papéis de trabalho são patrimônio documental oficial e institucional exclusivo do Tribunal de Contas.  
+> - **B) Incorreta:** O arquivo que guarda os dados de uma única auditoria anual é o **arquivo corrente**. O arquivo permanente abriga dados de uso continuado por anos (leis de criação do órgão, organogramas, estatutos).  
+> - **C) CORRETA:** Conforme as normas técnicas da NBASP e Manuais de Auditoria, a documentação de auditoria pertence privativamente ao Tribunal e tem o objetivo primordial de registrar as evidências, fundamentar a opinião expressa e demonstrar a qualidade dos testes executados.  
+> - **D) Incorreta:** Durante a fase de instrução e coleta, os papéis de trabalho mantêm-se sob sigilo e confidencialidade profissional para resguardar a integridade das apurações.  
+> - **E) Incorreta:** Os papéis de trabalho devem ser mantidos sob guarda e custódia arquivística pelo prazo regulamentar para fins de segurança jurídica e eventual reexame.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 3. Técnicas e Procedimentos de Auditoria Governamental
 
 #### 3.1 Quadro Geral dos Procedimentos de Obtenção de Evidências
@@ -129,6 +174,30 @@ flowchart TD
 | **Observação Direta** | Acompanhamento ocular presencial de uma atividade operacional no momento exato em que é realizada. | Observação do procedimento de descarte de resíduos hospitalares pelo pessoal terceirizado. |
 | **Circularização (Confirmação Externa)** | Obtenção de declaração direta por escrito de terceiros independentes alheios ao órgão fiscalizado. | Envio de ofício a banco conveniado solicitando confirmação do saldo e titularidade de conta de convênio. |
 | **Procedimentos Analíticos (Revisão Analítica)** | Estudo e comparação de flutuações, índices e relações plausíveis entre dados operacionais e financeiros. | Confronto mensal entre o total de horas extras pagas e o volume de procedimentos médicos cirúrgicos realizados. |
+
+---
+
+### Questão 03 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+No âmbito dos trabalhos de fiscalização governamental conduzidos por equipe de controle externo do Tribunal de Contas, os auditores compararam o volume mensal de combustível faturado por uma secretaria de estado com a quilometragem média rodada pelos veículos no mesmo período, constatando desvios e picos anômalos de consumo em determinados meses. A técnica de auditoria utilizada pela equipe denomina-se:
+
+* **A)** Circularização ativa.
+* **B)** Revisão analítica (ou procedimentos analíticos).
+* **C)** Inspeção física.
+* **D)** Conciliação contábil.
+* **E)** Conferência de cálculos.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta:** Circularização consiste em obter confirmação externa formal de terceiros alheios à entidade auditada.  
+> - **B) CORRETA:** Os procedimentos analíticos (ou revisão analítica) compreendem a avaliação de informações financeiras e operacionais por meio de estudo e comparação das relações plausíveis entre dados financeiros e não financeiros, permitindo a detecção de flutuações, índices incoerentes ou variações atípicas que exijam investigação direcionada.  
+> - **C) Incorreta:** Inspeção física exige o exame presencial e sensorial da existência palpável de bens, obras ou estoques.  
+> - **D) Incorreta:** Conciliação contábil consiste em confrontar saldos contábeis internos com documentos de suporte (ex.: razão contábil e extrato bancário).  
+> - **E) Incorreta:** Conferência de cálculos consiste na mera repetição aritmética de cálculos prévios efetuados pela administração pública.
+> 
+> **Gabarito: B**
+
+---
+
 
 #### 3.2 Modalidades de Circularização (Confirmação Externa)
 
@@ -178,52 +247,9 @@ O **Achado de Auditoria** é a discrepância relevante identificada entre a situ
 └───────────────────┴────────────────────────────────────────────────────┘
 ```
 
-#### 5.2 Matriz de Responsabilização e a LINDB (Art. 28)
-Ao propor imputação de débito ou cominação de multas sancionatórias a agentes públicos, a equipe de auditoria deve confeccionar obrigatoriamente a **Matriz de Responsabilização**, demonstrando:
-
-- **Identificação Individual:** Nome, CPF e cargo do agente público ou privado;
-- **Conduta:** Ação ou omissão específica imputada ao gestor;
-- **Nexo de Causalidade:** Vínculo fático entre o ato praticado e o resultado lesivo gerado ao erário;
-- **Culpabilidade:** Demonstração expressa de que o agente agiu com **dolo ou erro grosseiro** (culpa manifesta e inescusável), nos exatos termos do **Art. 28 da LINDB**.
-
 ---
 
-## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
-
-* [TCU - Boas Práticas e Padrões de Auditoria Governamental](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Diretrizes institucionais de auditoria, matriz de planejamento, achados e matriz de responsabilização.
-* [Lei Estadual nº 16.168/2007 - Do Planejamento das Fiscalizações](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Regras para inclusão de matérias no plano anual de fiscalização e dever de colaboração dos gestores.
-* [TCE-GO - Plano Institucional de Fiscalização e Governança](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Planejamento anual e plurianual das ações de fiscalização externa no Estado de Goiás.
-* [TCE-GO - Competências e Jurisdição Institucional](https://portal.tce.go.gov.br/competencias) - Bases legais para requisição de documentos, fixação de prazos e fiscalização de convênios e contratos.
-* [Constituição Federal de 1988 - Arts. 70 a 74 (Controle Interno e Externo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art70) - Apoio obrigatório do controle interno ao controle externo e dever de comunicação de irregularidades sob pena de responsabilidade solidária.
-* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 5 - Fases da Auditoria: Planejamento, Execução e Achados).
-* CASTRO, Domingos Poubel de. **Auditoria e Controle Interno na Administração Pública**. 3. ed. São Paulo: Atlas, 2019. (Cap. 6 - Procedimentos de Auditoria, Amostragem e Evidências).
-* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 4 - O Achado de Auditoria e a Matriz de Responsabilização).
-
-
-## 📝 Questões Comentadas no Padrão FCC (Justificadas de A a E)
-
-### Questão 1 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
-No âmbito dos trabalhos de fiscalização governamental conduzidos por equipe de controle externo do Tribunal de Contas, os auditores compararam o volume mensal de combustível faturado por uma secretaria de estado com a quilometragem média rodada pelos veículos no mesmo período, constatando desvios e picos anômalos de consumo em determinados meses. A técnica de auditoria utilizada pela equipe denomina-se:
-
-* **A)** Circularização ativa.
-* **B)** Revisão analítica (ou procedimentos analíticos).
-* **C)** Inspeção física.
-* **D)** Conciliação contábil.
-* **E)** Conferência de cálculos.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** Circularização consiste em obter confirmação externa formal de terceiros alheios à entidade auditada.  
-> - **B) CORRETA:** Os procedimentos analíticos (ou revisão analítica) compreendem a avaliação de informações financeiras e operacionais por meio de estudo e comparação das relações plausíveis entre dados financeiros e não financeiros, permitindo a detecção de flutuações, índices incoerentes ou variações atípicas que exijam investigação direcionada.  
-> - **C) Incorreta:** Inspeção física exige o exame presencial e sensorial da existência palpável de bens, obras ou estoques.  
-> - **D) Incorreta:** Conciliação contábil consiste em confrontar saldos contábeis internos com documentos de suporte (ex.: razão contábil e extrato bancário).  
-> - **E) Incorreta:** Conferência de cálculos consiste na mera repetição aritmética de cálculos prévios efetuados pela administração pública.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / TCE-AM - Auditor de Controle Externo)
+### Questão 04 (FCC - Adaptada / TCE-AM - Auditor de Controle Externo)
 Em relatório de fiscalização de obras rodoviárias, a equipe técnica do Tribunal de Contas registrou a ocorrência de fissuras e afundamentos prematuros no asfalto decorrentes da utilização de ligante betuminoso com espessura inferior à exigida nas especificações do projeto executivo aprovado pela Agência Goiana de Infraestrutura. De acordo com a metodologia de estruturação de achados de auditoria preconizada pelas normas de auditoria do setor público (NBASP), a especificação do projeto executivo e o asfalto com espessura inferior constituem, respectivamente:
 
 * **A)** Condição e Critério.
@@ -246,49 +272,18 @@ Em relatório de fiscalização de obras rodoviárias, a equipe técnica do Trib
 
 ---
 
-### Questão 3 (FCC - Adaptada / Auditor Governamental)
-Acerca do modelo de avaliação de risco de auditoria e dos fatores de risco considerados no planejamento das ações de controle externo, assinale a opção correta:
 
-* **A)** O risco de detecção é o risco de que os controles internos da entidade auditada não consigam prevenir tempestivamente uma fraude contábil relevante.
-* **B)** O risco inerente decorre exclusivamente de erros cometidos pela própria equipe de auditores durante a aplicação de seus testes substantivos.
-* **C)** O risco de controle e o risco inerente são intrínsecos ao ambiente do órgão auditado, cabendo ao auditor gerenciar e reduzir o risco de detecção para manter o risco global de auditoria em patamar aceitável.
-* **D)** Diante de controles internos eficientes e ausência de risco inerente, o auditor de controle externo pode dispensar a aplicação de quaisquer testes e aprovar as contas sumariamente.
-* **E)** O risco de auditoria independe da extensão dos procedimentos aplicados pelo órgão de controle externo.
+#### 5.2 Matriz de Responsabilização e a LINDB (Art. 28)
+Ao propor imputação de débito ou cominação de multas sancionatórias a agentes públicos, a equipe de auditoria deve confeccionar obrigatoriamente a **Matriz de Responsabilização**, demonstrando:
 
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O risco de o controle interno falhar denomina-se **Risco de Controle (RC)**. Risco de detecção é a falha dos procedimentos do próprio auditor.  
-> - **B) Incorreta:** O risco inerente refere-se à suscetibilidade da própria atividade auditada ao erro antes de qualquer controle.  
-> - **C) CORRETA:** O auditor não pode alterar o risco inerente nem o risco de controle do jurisdicionado. Portanto, ao se deparar com um órgão de elevado risco (alto risco inerente e fragilidade de controles internos), o auditor deve **reduzir o risco de detecção (RD)** mediante a aplicação de testes mais profundos, com amostras maiores e maior ceticismo profissional.  
-> - **D) Incorreta:** Testes substantivos nunca podem ser totalmente dispensados pelas normas de auditoria governamental.  
-> - **E) Incorreta:** O risco global de auditoria varia em proporção inversa à extensão e qualidade dos procedimentos executados pela equipe.
-> 
-> **Gabarito: C**
+- **Identificação Individual:** Nome, CPF e cargo do agente público ou privado;
+- **Conduta:** Ação ou omissão específica imputada ao gestor;
+- **Nexo de Causalidade:** Vínculo fático entre o ato praticado e o resultado lesivo gerado ao erário;
+- **Culpabilidade:** Demonstração expressa de que o agente agiu com **dolo ou erro grosseiro** (culpa manifesta e inescusável), nos exatos termos do **Art. 28 da LINDB**.
 
 ---
 
-### Questão 4 (FCC - Adaptada / Técnico de Controle Externo)
-Em relação aos papéis de trabalho (documentação de auditoria) elaborados e custodiados no âmbito dos Tribunais de Contas, é correto afirmar:
-
-* **A)** Pertencem pessoalmente ao auditor que os confeccionou, que detém o direito autoral de levá-los consigo ao se aposentar.
-* **B)** O arquivo permanente é destinado à guarda de documentos específicos de uma única auditoria em exercício financeiro determinado, como notas fiscais daquele mês.
-* **C)** Os papéis de trabalho pertencem ao Tribunal de Contas, destinando-se a fundamentar as conclusões do relatório técnico e a comprovar a observância das normas profissionais de auditoria.
-* **D)** São de livre acesso público irrestrito e devem ser divulgados em tempo real na internet durante a realização dos testes de campo.
-* **E)** Devem ser destruídos imediatamente após a publicação da deliberação plenária terminativa do processo de controle externo.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** Os papéis de trabalho são patrimônio documental oficial e institucional exclusivo do Tribunal de Contas.  
-> - **B) Incorreta:** O arquivo que guarda os dados de uma única auditoria anual é o **arquivo corrente**. O arquivo permanente abriga dados de uso continuado por anos (leis de criação do órgão, organogramas, estatutos).  
-> - **C) CORRETA:** Conforme as normas técnicas da NBASP e Manuais de Auditoria, a documentação de auditoria pertence privativamente ao Tribunal e tem o objetivo primordial de registrar as evidências, fundamentar a opinião expressa e demonstrar a qualidade dos testes executados.  
-> - **D) Incorreta:** Durante a fase de instrução e coleta, os papéis de trabalho mantêm-se sob sigilo e confidencialidade profissional para resguardar a integridade das apurações.  
-> - **E) Incorreta:** Os papéis de trabalho devem ser mantidos sob guarda e custódia arquivística pelo prazo regulamentar para fins de segurança jurídica e eventual reexame.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 5 (FCC - Adaptada / Analista Jurídico de Controle)
+### Questão 05 (FCC - Adaptada / Analista Jurídico de Controle)
 Ao elaborar a Matriz de Responsabilização em processo de tomada de contas especial decorrente de auditoria, a unidade técnica do Tribunal de Contas imputou dever de ressarcir o erário a determinado Secretário de Estado em virtude de pagamento indevido de adicional de periculosidade a servidores administrativos.
 
 Nos termos do artigo 28 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), para que o agente público responda pessoalmente por suas decisões perante o Tribunal de Contas, é necessário demonstrar que ele agiu:
@@ -308,3 +303,18 @@ Nos termos do artigo 28 da Lei de Introdução às Normas do Direito Brasileiro 
 > - **E) Incorreta:** Pareceres informais não vinculantes não constituem critério objetivo para definição da responsabilidade do gestor.
 > 
 > **Gabarito: B**
+
+---
+
+
+
+## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
+
+* [TCU - Boas Práticas e Padrões de Auditoria Governamental](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Diretrizes institucionais de auditoria, matriz de planejamento, achados e matriz de responsabilização.
+* [Lei Estadual nº 16.168/2007 - Do Planejamento das Fiscalizações](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Regras para inclusão de matérias no plano anual de fiscalização e dever de colaboração dos gestores.
+* [TCE-GO - Plano Institucional de Fiscalização e Governança](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Planejamento anual e plurianual das ações de fiscalização externa no Estado de Goiás.
+* [TCE-GO - Competências e Jurisdição Institucional](https://portal.tce.go.gov.br/competencias) - Bases legais para requisição de documentos, fixação de prazos e fiscalização de convênios e contratos.
+* [Constituição Federal de 1988 - Arts. 70 a 74 (Controle Interno e Externo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art70) - Apoio obrigatório do controle interno ao controle externo e dever de comunicação de irregularidades sob pena de responsabilidade solidária.
+* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 5 - Fases da Auditoria: Planejamento, Execução e Achados).
+* CASTRO, Domingos Poubel de. **Auditoria e Controle Interno na Administração Pública**. 3. ed. São Paulo: Atlas, 2019. (Cap. 6 - Procedimentos de Auditoria, Amostragem e Evidências).
+* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 4 - O Achado de Auditoria e a Matriz de Responsabilização).

@@ -46,7 +46,6 @@
     - [6.2 Prazos de Atendimento e Desnecessidade de Motivação](#62-prazos-de-atendimento-e-desnecessidade-de-motivacao)
     - [6.3 Graus e Prazos Máximos de Sigilo Documental](#63-graus-e-prazos-maximos-de-sigilo-documental)
 - [7. Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
-- [8. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -97,6 +96,41 @@ flowchart LR
 | **Disfunções Centrais** | Corrupção sistêmica, nepotismo e ineficiência predatória. | Rigidez burocrática, lentidão, excesso de burocracia documental e desapego às demandas sociais. | Risco de mercantilização de serviços sociais e redução da impessoalidade. |
 
 ---
+
+### Questão 01 (FCC – TCE-PI – Auditor de Controle Externo)
+A respeito da evolução dos modelos de administração pública e das reformas administrativas contemporâneas, considere as afirmativas a seguir:
+
+I. O modelo burocrático weberiano introduziu a impessoalidade e o mérito no serviço público com o objetivo de combater as práticas clientelistas e patrimonialistas da administração tradicional.  
+
+II. A governabilidade traduz a capacidade financeira, operacional e técnica do Estado de implementar políticas públicas planejadas, ao passo que a governança expressa as condições políticas de sustentação parlamentar do governo.  
+
+III. No modelo gerencial de administração pública, o controle estatal privilegia a avaliação dos resultados e o cumprimento de metas contratuais em detrimento do controle prévio e rígido dos processos procedimentais.  
+
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O item III também está correto, tornando a opção incompleta.
+> - **B)** Incorreta. O item II traz um erro conceitual grave ao inverter as definições de governança e governabilidade.
+> - **C)** Correta.  
+>     - O item I é verdadeiro: a burocracia weberiana surgiu historicamente para combater a apropriação privada do Estado pelo patrimonialismo, mediante mérito, concurso público e regras impessoais;  
+>     - O item II é falso: governança é a capacidade técnica e gerencial de execução, enquanto governabilidade refere-se às condições políticas de sustentação no parlamento;  
+>     - O item III é verdadeiro: o gerencialismo foca na avaliação a posteriori dos resultados e cumprimento de metas, flexibilizando os controles prévios processuais.  
+>   Portanto, estão corretos apenas os itens I e III.
+> - **D)** Incorreta. O item II é flagrantemente falso.
+> - **E)** Incorreta. O item II invalida a assertiva geral.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 2. As Disfunções da Burocracia (Robert Merton)
 
@@ -149,6 +183,29 @@ flowchart TD
 
 ---
 
+### Questão 02 (FCC – ARTESP – Especialista em Regulação de Transportes)
+O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, propôs a descentralização do Estado e a reorganização de suas atividades em quatro setores. A prestação de serviços de saúde básica em hospitais públicos e a realização de pesquisas científicas em universidades enquadram-se, segundo a tipologia do PDRAE, no setor de:
+
+* **A)** Atividades Exclusivas de Estado, a serem desempenhadas compulsoriamente por agências reguladoras.
+* **B)** Núcleo Estratégico, com manutenção de propriedade puramente estatal e cargos privativos de livre nomeação política.
+* **C)** Serviços Não Exclusivos do Estado, com orientação para o modelo de publicização mediante parcerias com Organizações Sociais (OS).
+* **D)** Produção de Bens e Serviços para o Mercado, orientados à privatização compulsória em bolsa de valores.
+* **E)** Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcional e dos Tribunais de Contas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Atividades exclusivas abrangem polícia, arrecadação, fiscalização e regulação.
+> - **B)** Incorreta. Núcleo Estratégico é composto pela cúpula dos Poderes (Presidência, Ministérios, Cúpula dos Tribunais).
+> - **C)** Correta. No modelo do PDRAE (1995), a saúde, educação, cultura e pesquisa científica são classificadas como Serviços Não Exclusivos do Estado, uma vez que o setor privado também atua livremente nessas áreas. A diretriz preconizada para esse setor foi a publicização, isto é, a descentralização de sua gestão para entidades do terceiro setor qualificadas como Organizações Sociais (OS), mediante contratos de gestão.
+> - **D)** Incorreta. Produção de bens para o mercado corresponde a empresas estatais industriais e financeiras voltadas ao lucro.
+> - **E)** Incorreta. Categoria desconexa do texto do PDRAE.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 4. As Dimensões do Desempenho Público (Os 6Es da Gestão)
 
 A mensuração de resultados governamentais apoia-se em dimensões analíticas fundamentais:
@@ -182,6 +239,39 @@ flowchart LR
 
 ---
 
+### Questão 03 (FCC – DPE-RS – Analista: Área Administrativa)
+Considere que determinado município gaúcho implementou um programa de alfabetização de adultos com orçamento de R$ 1.000.000,00. Ao final do projeto, constatou-se que:
+
+1. O custo por aluno atendido foi o menor registrado no Estado, sem desperdício de material pedagógico.
+2. A meta quantitativa de matricular e formar 2.000 estudantes foi rigorosamente alcançada.
+3. Decorrido um ano da conclusão, levantamento censitário demonstrou que 95% dos formandos foram inseridos no mercado formal de trabalho e aumentaram sua renda familiar.
+
+As constatações 1, 2 e 3 correspondem, respectivamente, aos conceitos de:
+
+* **A)** Eficácia, Eficiência e Efetividade.
+* **B)** Eficiência, Eficácia e Efetividade.
+* **C)** Efetividade, Eficiência e Eficácia.
+* **D)** Economicidade, Efetividade e Eficiência.
+* **E)** Eficiência, Efetividade e Eficácia.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Inverte a ordem das duas primeiras dimensões.
+> - **B)** Correta.  
+>     - Constatação 1 (Eficiência): Atingir o menor custo por aluno sem desperdícios operacionais expressa a otimização da relação entre insumos e produtos (fazer certo as coisas), traduzindo a Eficiência;  
+>     - Constatação 2 (Eficácia): Cumprir integralmente a meta planejada de matricular e formar 2.000 pessoas expressa o atingimento das saídas quantitativas (fazer a coisa certa), traduzindo a Eficácia;  
+>     - Constatação 3 (Efetividade): Gerar inserção no mercado de trabalho formal e aumento real da renda familiar reflete o impacto social duradouro e a transformação da realidade coletiva, consubstanciando a Efetividade.  
+>   Logo, a ordem precisa é Eficiência, Eficácia e Efetividade.
+> - **C)** Incorreta. Efetividade é a terceira constatação e não a primeira.
+> - **D)** Incorreta. Mistura as categorias e inverte os conceitos de impacto social.
+> - **E)** Incorreta. Inverte eficácia e efetividade no final.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 5. Governança, Governabilidade e Accountability
 
 #### 5.1 Governabilidade vs. Governança (Distinção Crítica FCC)
@@ -209,6 +299,29 @@ O termo *accountability* compreende o dever indeclinável de prestar contas, res
 3. **Accountability Social (ou Societal):** Exercida pela mobilização da sociedade civil organizada, sindicatos, conselhos de políticas públicas e pela imprensa investigativa independente.
 
 ---
+
+### Questão 04 (FCC – TCE-GO – Analista de Controle Externo)
+A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas do Estado sobre as contas dos Poderes Executivo, Legislativo e Judiciário materializa uma dimensão específica da *accountability*. Trata-se de um exemplo típico de *accountability*:
+
+* **A)** Vertical, pois o Tribunal de Contas situa-se em escalão hierárquico superior aos órgãos do Poder Executivo estadual.
+* **B)** Social, uma vez que decorre unicamente de representações apresentadas por organizações não governamentais e pela imprensa.
+* **C)** Horizontal, por consistir em controle mútuo de legalidade e legitimidade exercido por um órgão estatal autônomo sobre outros órgãos estatais no mesmo nível institucional.
+* **D)** Comportamental, pois visa exclusivamente à apuração disciplinar de infrações éticas cometidas por servidores subalternos.
+* **E)** Primária, caracterizada pelo exercício direto do sufrágio universal e do voto popular nas urnas.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Não existe hierarquia entre o Tribunal de Contas e os Poderes; a relação é de equilíbrio e controle constitucional autônomo.
+> - **B)** Incorreta. A atuação de ONGs e imprensa caracteriza accountability social (societal).
+> - **C)** Correta. A accountability horizontal (formulada teoricamente por Guillermo O'Donnell) traduz o controle mútuo exercido entre órgãos públicos independentes dotados de poderes constitucionais de fiscalização e freios e contrapesos (como os Tribunais de Contas, o Ministério Público e o Poder Judiciário) sobre as contas e atos de outros órgãos de Estado.
+> - **D)** Incorreta. Conceito inexistente na tipologia clássica de accountability.
+> - **E)** Incorreta. O voto do cidadão nas eleições consubstancia a manifestação da accountability vertical.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)
 
@@ -246,54 +359,7 @@ As informações cuja divulgação possa colocar em risco a segurança da socied
 
 ---
 
-## 🌐 Fontes Oficiais & Referências Bibliográficas
-
-* [Decreto Federal nº 9.203/2017 (Política de Governança da Administração Pública)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Dispõe sobre a governança pública e os mecanismos de liderança, estratégia e controle.
-* [Decreto-Lei nº 200/1967 (Reforma Administrativa e Descentralização)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Marco histórico de modernização e descentralização da administração pública brasileira.
-* [TCU - Referencial Básico de Governança Aplicável a Órgãos e Entidades Públicas](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Diretrizes para implantação de boas práticas de accountability e transparência.
-* [Constituição Federal de 1988 - Art. 37 (Princípios da Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Previsão dos princípios do LIMPE (Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência).
-* [TCE-GO - Plano de Fiscalização e Governança](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Planejamento institucional do TCE-GO com foco na governança e resultados operacionais.
-* BRESSER-PEREIRA, Luiz Carlos. **Reforma do Estado para a Cidadania: a Reforma Gerencial Brasileira na Perspectiva Internacional**. São Paulo: Editora 34, 1998. (Cap. 1 a 3 - Modelos Patrimonialista, Burocrático e Gerencial).
-* MATIAS-PEREIRA, José. **Manual de Gestão Pública Contemporânea**. 5. ed. São Paulo: Atlas, 2018. (Cap. 2 - Modelos de Administração Pública; Cap. 5 - Governança no Setor Público).
-* OSBORNE, David; GAEBLER, Ted. **Reinventando o Governo: Como o Espírito Empreendedor Está Transformando o Setor Público**. 10. ed. Brasília: MH Comunicação, 1994.
-
-
-## 📝 Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC – TCE-PI – Auditor de Controle Externo)
-A respeito da evolução dos modelos de administração pública e das reformas administrativas contemporâneas, considere as afirmativas a seguir:
-
-I. O modelo burocrático weberiano introduziu a impessoalidade e o mérito no serviço público com o objetivo de combater as práticas clientelistas e patrimonialistas da administração tradicional.  
-
-II. A governabilidade traduz a capacidade financeira, operacional e técnica do Estado de implementar políticas públicas planejadas, ao passo que a governança expressa as condições políticas de sustentação parlamentar do governo.  
-
-III. No modelo gerencial de administração pública, o controle estatal privilegia a avaliação dos resultados e o cumprimento de metas contratuais em detrimento do controle prévio e rígido dos processos procedimentais.  
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O item III também está correto, tornando a opção incompleta.
-> - **B)** Incorreta. O item II traz um erro conceitual grave ao inverter as definições de governança e governabilidade.
-> - **C)** Correta.  
->     - O item I é verdadeiro: a burocracia weberiana surgiu historicamente para combater a apropriação privada do Estado pelo patrimonialismo, mediante mérito, concurso público e regras impessoais;  
->     - O item II é falso: governança é a capacidade técnica e gerencial de execução, enquanto governabilidade refere-se às condições políticas de sustentação no parlamento;  
->     - O item III é verdadeiro: o gerencialismo foca na avaliação a posteriori dos resultados e cumprimento de metas, flexibilizando os controles prévios processuais.  
->   Portanto, estão corretos apenas os itens I e III.
-> - **D)** Incorreta. O item II é flagrantemente falso.
-> - **E)** Incorreta. O item II invalida a assertiva geral.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC – TCE-RS – Auditor de Controle Externo)
+### Questão 05 (FCC – TCE-RS – Auditor de Controle Externo)
 Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a respeito dos prazos de resposta aos pedidos de acesso à informação formulados por cidadãos e da classificação de sigilo documental, é correto afirmar:
 
 * **A)** O prazo para resposta ao pedido de informação não atendido de imediato é de 30 dias, vedada qualquer prorrogação.
@@ -314,73 +380,15 @@ Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a res
 
 ---
 
-### Questão 3 (FCC – TCE-GO – Analista de Controle Externo)
-A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas do Estado sobre as contas dos Poderes Executivo, Legislativo e Judiciário materializa uma dimensão específica da *accountability*. Trata-se de um exemplo típico de *accountability*:
 
-* **A)** Vertical, pois o Tribunal de Contas situa-se em escalão hierárquico superior aos órgãos do Poder Executivo estadual.
-* **B)** Social, uma vez que decorre unicamente de representações apresentadas por organizações não governamentais e pela imprensa.
-* **C)** Horizontal, por consistir em controle mútuo de legalidade e legitimidade exercido por um órgão estatal autônomo sobre outros órgãos estatais no mesmo nível institucional.
-* **D)** Comportamental, pois visa exclusivamente à apuração disciplinar de infrações éticas cometidas por servidores subalternos.
-* **E)** Primária, caracterizada pelo exercício direto do sufrágio universal e do voto popular nas urnas.
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Não existe hierarquia entre o Tribunal de Contas e os Poderes; a relação é de equilíbrio e controle constitucional autônomo.
-> - **B)** Incorreta. A atuação de ONGs e imprensa caracteriza accountability social (societal).
-> - **C)** Correta. A accountability horizontal (formulada teoricamente por Guillermo O'Donnell) traduz o controle mútuo exercido entre órgãos públicos independentes dotados de poderes constitucionais de fiscalização e freios e contrapesos (como os Tribunais de Contas, o Ministério Público e o Poder Judiciário) sobre as contas e atos de outros órgãos de Estado.
-> - **D)** Incorreta. Conceito inexistente na tipologia clássica de accountability.
-> - **E)** Incorreta. O voto do cidadão nas eleições consubstancia a manifestação da accountability vertical.
-> 
-> **Gabarito: C**
+## 🌐 Fontes Oficiais & Referências Bibliográficas
 
----
-
-### Questão 4 (FCC – ARTESP – Especialista em Regulação de Transportes)
-O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, propôs a descentralização do Estado e a reorganização de suas atividades em quatro setores. A prestação de serviços de saúde básica em hospitais públicos e a realização de pesquisas científicas em universidades enquadram-se, segundo a tipologia do PDRAE, no setor de:
-
-* **A)** Atividades Exclusivas de Estado, a serem desempenhadas compulsoriamente por agências reguladoras.
-* **B)** Núcleo Estratégico, com manutenção de propriedade puramente estatal e cargos privativos de livre nomeação política.
-* **C)** Serviços Não Exclusivos do Estado, com orientação para o modelo de publicização mediante parcerias com Organizações Sociais (OS).
-* **D)** Produção de Bens e Serviços para o Mercado, orientados à privatização compulsória em bolsa de valores.
-* **E)** Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcional e dos Tribunais de Contas.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Atividades exclusivas abrangem polícia, arrecadação, fiscalização e regulação.
-> - **B)** Incorreta. Núcleo Estratégico é composto pela cúpula dos Poderes (Presidência, Ministérios, Cúpula dos Tribunais).
-> - **C)** Correta. No modelo do PDRAE (1995), a saúde, educação, cultura e pesquisa científica são classificadas como Serviços Não Exclusivos do Estado, uma vez que o setor privado também atua livremente nessas áreas. A diretriz preconizada para esse setor foi a publicização, isto é, a descentralização de sua gestão para entidades do terceiro setor qualificadas como Organizações Sociais (OS), mediante contratos de gestão.
-> - **D)** Incorreta. Produção de bens para o mercado corresponde a empresas estatais industriais e financeiras voltadas ao lucro.
-> - **E)** Incorreta. Categoria desconexa do texto do PDRAE.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 5 (FCC – DPE-RS – Analista: Área Administrativa)
-Considere que determinado município gaúcho implementou um programa de alfabetização de adultos com orçamento de R$ 1.000.000,00. Ao final do projeto, constatou-se que:
-
-1. O custo por aluno atendido foi o menor registrado no Estado, sem desperdício de material pedagógico.
-2. A meta quantitativa de matricular e formar 2.000 estudantes foi rigorosamente alcançada.
-3. Decorrido um ano da conclusão, levantamento censitário demonstrou que 95% dos formandos foram inseridos no mercado formal de trabalho e aumentaram sua renda familiar.
-
-As constatações 1, 2 e 3 correspondem, respectivamente, aos conceitos de:
-
-* **A)** Eficácia, Eficiência e Efetividade.
-* **B)** Eficiência, Eficácia e Efetividade.
-* **C)** Efetividade, Eficiência e Eficácia.
-* **D)** Economicidade, Efetividade e Eficiência.
-* **E)** Eficiência, Efetividade e Eficácia.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Inverte a ordem das duas primeiras dimensões.
-> - **B)** Correta.  
->     - Constatação 1 (Eficiência): Atingir o menor custo por aluno sem desperdícios operacionais expressa a otimização da relação entre insumos e produtos (fazer certo as coisas), traduzindo a Eficiência;  
->     - Constatação 2 (Eficácia): Cumprir integralmente a meta planejada de matricular e formar 2.000 pessoas expressa o atingimento das saídas quantitativas (fazer a coisa certa), traduzindo a Eficácia;  
->     - Constatação 3 (Efetividade): Gerar inserção no mercado de trabalho formal e aumento real da renda familiar reflete o impacto social duradouro e a transformação da realidade coletiva, consubstanciando a Efetividade.  
->   Logo, a ordem precisa é Eficiência, Eficácia e Efetividade.
-> - **C)** Incorreta. Efetividade é a terceira constatação e não a primeira.
-> - **D)** Incorreta. Mistura as categorias e inverte os conceitos de impacto social.
-> - **E)** Incorreta. Inverte eficácia e efetividade no final.
-> 
-> **Gabarito: B**
+* [Decreto Federal nº 9.203/2017 (Política de Governança da Administração Pública)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Dispõe sobre a governança pública e os mecanismos de liderança, estratégia e controle.
+* [Decreto-Lei nº 200/1967 (Reforma Administrativa e Descentralização)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Marco histórico de modernização e descentralização da administração pública brasileira.
+* [TCU - Referencial Básico de Governança Aplicável a Órgãos e Entidades Públicas](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Diretrizes para implantação de boas práticas de accountability e transparência.
+* [Constituição Federal de 1988 - Art. 37 (Princípios da Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Previsão dos princípios do LIMPE (Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência).
+* [TCE-GO - Plano de Fiscalização e Governança](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Planejamento institucional do TCE-GO com foco na governança e resultados operacionais.
+* BRESSER-PEREIRA, Luiz Carlos. **Reforma do Estado para a Cidadania: a Reforma Gerencial Brasileira na Perspectiva Internacional**. São Paulo: Editora 34, 1998. (Cap. 1 a 3 - Modelos Patrimonialista, Burocrático e Gerencial).
+* MATIAS-PEREIRA, José. **Manual de Gestão Pública Contemporânea**. 5. ed. São Paulo: Atlas, 2018. (Cap. 2 - Modelos de Administração Pública; Cap. 5 - Governança no Setor Público).
+* OSBORNE, David; GAEBLER, Ted. **Reinventando o Governo: Como o Espírito Empreendedor Está Transformando o Setor Público**. 10. ed. Brasília: MH Comunicação, 1994.

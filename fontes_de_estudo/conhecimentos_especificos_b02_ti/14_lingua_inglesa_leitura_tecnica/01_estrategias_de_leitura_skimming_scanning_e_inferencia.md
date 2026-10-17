@@ -37,7 +37,6 @@
     - [6.1 Anáfora e Catáfora em Textos Técnicos](#61-anafora-e-catafora-em-textos-tecnicos)
     - [6.2 Encapsulamento Conceitual com Demonstrativos](#62-encapsulamento-conceitual-com-demonstrativos)
 - [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
-- [8. Questões Comentadas & Exemplos (Padrão FCC)](#8-questoes-comentadas-exemplos-padrao-fcc)
 
 ---
 
@@ -160,6 +159,34 @@ Em certames da FCC para a área de TI, é praxe a inclusão de vocabulário téc
     - *Exemplo:* *"The migration revealed several **ephemeral** storage configurations, **such as temporary in-memory caches and non-persistent container volumes**, that caused data loss upon reboot."*  
     $\rightarrow$ Os exemplos práticos (*temporary, non-persistent*) revelam com precisão que *ephemeral* significa volátil, transitório ou efêmero.
 
+---
+
+### Questão 01 (FCC - Adaptada / Analista de Sistemas - Segurança da Informação)
+*Carefully read the text excerpt below regarding cybersecurity incident handling:*
+
+> *"During the post-incident investigation, forensics analysts discovered that adversaries managed to **compromise** the primary domain controller by exploiting an unpatched remote code execution vulnerability. Once inside, the attackers deployed sophisticated **ransomware** that encrypted critical databases across multiple physical sites. **Unlike** conventional malware campaigns that disrupt operations immediately, this intrusion remained dormant for weeks to exfiltrate proprietary data. To **remediate** the breach, the security operations center had to revoke all privileged credentials and rebuild directory services from verified cold backups."*
+
+Based on reading strategies and vocabulary inference, select the correct statement:
+
+* **A)** In the first sentence, the word **"compromise"** means that the adversaries entered into an amicable agreement or diplomatic settlement with the domain controller.
+* **B)** The connector **"Unlike"** establishes a relation of contrast between the intrusion described and conventional malware campaigns regarding their timing of disruption.
+* **C)** By using scanning techniques on the text, one can determine that the ransomware encrypted databases located within a single physical datacenter.
+* **D)** The verb **"remediate"** indicates that the security operations center decided to accept and tolerate the breach without executing countermeasures.
+* **E)** The pronoun **"this intrusion"** in the third sentence refers specifically to the automated restoration of cold backups.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No léxico técnico de cibersegurança e auditoria de sistemas, **"to compromise"** significa violar a segurança, corromper ou assumir controle indevido de um recurso. A alternativa apoia-se no sentido leigo e diplomático da palavra (acordo/concessão recíproca), descabido no contexto de exploração de vulnerabilidade.
+> - **B)** Correta. A preposição **"Unlike"** (ao contrário de / diferentemente de) atua como um marcador contrastivo inequívoco: confronta as campanhas convencionais de malware, que interrompem operações instantaneamente (*disrupt operations immediately*), com a invasão analisada, que permaneceu dormente durante semanas (*remained dormant for weeks*).
+> - **C)** Incorreta. Por meio de *Scanning* focado na expressão "physical sites", constata-se a menção expressa a *"across **multiple** physical sites"* (múltiplos locais físicos, e não um único).
+> - **D)** Incorreta. O verbo **"remediate"** significa sanar, mitigar, corrigir ou restaurar a higidez do ambiente atacado. O texto demonstra a ação corretiva enérgica: revogação de credenciais e reconstrução dos servidores a partir de backups frios.
+> - **E)** Incorreta. O sintagma anafórico **"this intrusion"** refere-se ao ataque do ransomware e à invasão do controlador de domínio perpetrada pelos cibercriminosos, descrita nas orações anteriores, e não à restauração dos backups (que ocorre na frase posterior).
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 4.2 Pistas de Contraste, Oposição, Causa e Efeito
 
 - **Contraste e Antônimos (*Contrast / Antonym Clues*):** O termo opõe-se a uma ideia conhecida por meio de conectivos adversativos ou concessivos (*unlike, whereas, while, in contrast to, instead of, on the contrary, but, however*).
@@ -168,6 +195,34 @@ Em certames da FCC para a área de TI, é praxe a inclusão de vocabulário téc
 - **Causa e Efeito (*Cause and Effect Clues*):** A relação de causalidade expressa por *because, since, as a result, consequently, thereby, thus, leading to* permite inferir o significado a partir do resultado prático.
     - *Exemplo:* *"Because the automated script lacked input validation, it allowed arbitrary SQL injection, **leading to catastrophic** data corruption."*  
     $\rightarrow$ A consequência danosa clarifica o teor destrutivo de *catastrophic*.
+
+---
+
+### Questão 02 (FCC - Adaptada / Tribunal de Contas - Infraestrutura e Nuvem)
+*Read the technical excerpt concerning cloud architecture evaluation:*
+
+> *"Monolithic systems are often praised for their initial architectural simplicity and straightforward deployment pipelines. However, as organizations scale, maintaining a massive unified codebase introduces a formidable development **bottleneck**. In contrast, a microservices pattern partitions the business domain into autonomous, loosely coupled services that can be scaled independently. **Nonetheless**, adopting microservices entails a non-trivial **trade-off**: while it enhances deployment velocity, it substantially escalates distributed operational complexity, network latency, and the difficulty of enforcing cross-service transactional consistency."*
+
+Through the application of skimming and scanning techniques, it can be concluded that:
+
+* **A)** Skimming the passage reveals that the author unconditionally recommends microservices as a superior solution without any operational drawbacks.
+* **B)** The term **"bottleneck"** is used contextually to describe an acceleration mechanism that improves developer delivery speed.
+* **C)** According to the text, monolithic architectures present higher network latency and more complex cross-service transactions than microservices.
+* **D)** The word **"trade-off"** indicates a compromise where gaining deployment velocity comes at the expense of higher distributed complexity and latency.
+* **E)** The linking word **"Nonetheless"** introduces an addition of arguments in favor of monolithic deployment pipelines.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O *skimming* demonstra que o texto adota uma abordagem equilibrada de engenharia, enfatizando que os microsserviços acarretam complexidade operacional distribuída e custos adicionais consideráveis (*operational complexity, network latency*), refutando a tese de recomendação incondicional sem desvantagens.
+> - **B)** Incorreta. O termo **"bottleneck"** (gargalo) designa um ponto crítico de estrangulamento ou restrição que retarda o fluxo de trabalho e reduz a produtividade, e nunca um acelerador de velocidade.
+> - **C)** Incorreta. O *scanning* localiza que a maior latência de rede (*network latency*) e o desafio de consistência transacional entre serviços (*cross-service transactional consistency*) são ônus inerentes aos **microsserviços**, e não aos sistemas monolíticos.
+> - **D)** Correta. O conceito técnico de **"trade-off"** expressa exatamente a relação de concessão ou compromisso mútuo em engenharia: para usufruir de maior velocidade de entrega (*deployment velocity*), a organização é forçada a suportar maior complexidade de infraestrutura distribuída e latência.
+> - **E)** Incorreta. O conectivo **"Nonetheless"** (contudo, não obstante, todavia) é um marcador discursivo de concessão e oposição/contraste, e não de adição cumulativa (*furthermore, in addition*).
+> 
+> **Gabarito: D**
+
+---
+
 
 ### 4.3 Decomposição Morfológica (Prefixos, Raízes e Sufixos)
 
@@ -227,6 +282,63 @@ Já os **Falsos Cognatos (*False Friends / False Cognates*)** possuem grafia e p
 
 ---
 
+### Questão 03 (FCC - Adaptada / Analista de Tecnologia da Informação - SEFAZ)
+*Carefully read the excerpt below regarding modern enterprise infrastructure security:*
+
+> *"Zero Trust is not a single tool, but rather an overarching security model. Traditional perimeter defenses assume that everything inside an organization's internal network can be trusted. In contrast, Zero Trust operates on the principle of 'never trust, always verify'. Consequently, even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated using granular policies based on identity, endpoint health, and context. Because legacy systems often lack native support for dynamic telemetry, modernizing them can **eventually** require substantial engineering effort."*
+
+Based on reading comprehension strategies and technical lexicon, it is correct to state that:
+
+* **A)** The term **"eventually"** in the last sentence indicates that migrating legacy systems demands engineering effort only on rare, unpredictable occasions.
+* **B)** The main purpose of the paragraph is to demonstrate that legacy perimeter defenses remain technically superior to Zero Trust architectures.
+* **C)** According to the text, once a device achieves initial authentication inside an internal subnet, its authorization privileges remain unconditionally static.
+* **D)** The author highlights that Zero Trust mandates continuous re-evaluation of authorization privileges, even for internal network traffic.
+* **E)** The pronoun **"their"** in the sentence *"their authorization must be continually re-evaluated"* refers syntactically to *"traditional perimeter defenses"*.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Explora a pegadinha clássica do falso cognato (*false friend*). O advérbio **"eventually"** significa "no final das contas", "com o tempo" ou "ao longo do processo" (*in the end / ultimately*). A alternativa tenta induzir o candidato ao erro traduzindo-o por "ocasionalmente / de modo esporádico", o que em inglês seria expresso por *occasionally* ou *sporadically*.
+> - **B)** Incorreta. Mediante *Skimming*, nota-se que o parágrafo apresenta a superioridade conceitual e a necessidade do modelo Zero Trust frente às defesas tradicionais de perímetro, que assumiam presunções ingênuas de confiança interna. O autor não afirma que o modelo tradicional é superior.
+> - **C)** Incorreta. Mediante *Scanning*, verifica-se que o texto assinala expressamente o oposto: *"even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated"* (mesmo após obter acesso inicial, a autorização deve ser continuamente reavaliada, logo não permanece estática).
+> - **D)** Correta. Captura com fidelidade a tese central do modelo Zero Trust expressa no texto: a exigência de reavaliação contínua e dinâmica dos privilégios de autorização (*continually re-evaluated using granular policies*), inclusive para dispositivos e usuários já presentes na rede interna.
+> - **E)** Incorreta. Análise de referência pronominal (*Reference Words*): o pronome possessivo plural **"their"** retoma anaforicamente o sintagma plural antecedente **"users and devices"** (*"even after users and devices obtain initial access to a subnet, their authorization..."*), e não "traditional perimeter defenses".
+> 
+> **Gabarito: D**
+
+---
+
+### Questão 04 (FCC - Adaptada / Tribunal de Contas - Auditoria de TI)
+*Consider the sentence below taken from an official software engineering audit report:*
+
+> *"Although the technical team **pretended** to ignore the severe vulnerabilities discovered during the automated pipeline audit, the directorate implemented a **comprehensive** governance **policy** that **actually** mitigated external threat vectors."*
+
+Na língua portuguesa, as palavras destacadas no trecho (**pretended**, **comprehensive**, **policy**, **actually**) possuem os significados corretos e contextuais expressos em:
+
+* **A)** fingiu – compreensiva – polícia – atualmente
+* **B)** pretendeu – abrangente – diretriz – atualmente
+* **C)** fingiu – abrangente – política/diretriz – na verdade/efetivamente
+* **D)** tentou – tolerante – polícia – realmente
+* **E)** planejou – compacta – apólice – futuramente
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Erra ao traduzir *comprehensive* como "compreensiva" (tolerante é *understanding*), *policy* como "polícia" (*police*) e *actually* como "atualmente" (*currently*).
+> - **B)** Incorreta. Erra ao traduzir *pretended* como "pretendeu" (pretender é *to intend*) e *actually* como "atualmente" (*currently*).
+> - **C)** Correta. Decodifica perfeitamente os quatro termos técnicos:
+>     1. **To pretend:** fingir, simular (não confundir com *to intend*, pretender).
+>     2. **Comprehensive:** abrangente, amplo, exaustivo (não confundir com tolerante/compreensivo).
+>     3. **Policy:** diretriz, norma institucional, política de segurança (não confundir com corporação policial).
+>     4. **Actually:** na verdade, de fato, efetivamente, realmente (não confundir com nos dias atuais).
+>
+> - **D)** Incorreta. Erra ao atribuir "tentou" (*attempted*), "tolerante" (*tolerant*) e "polícia" (*police*).
+> - **E)** Incorreta. Erra em "planejou" (*planned*), "compacta" (*compact*) e "futuramente" (*in the future*).
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ## 6. Coesão Textual e Referência Pronominal (Reference Words)
 
 Um dos tipos de questões favoritos da FCC consiste em destacar um pronome em determinada linha do texto e questionar a qual termo antecedente ou subsequente ele se refere (*referência anafórica ou catafórica*).
@@ -268,126 +380,7 @@ flowchart LR
 
 ---
 
-## 6. Fontes Recomendadas na Internet
-
-* [IETF RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels](https://datatracker.ietf.org/doc/html/rfc2119) - Norma seminal em inglês definindo o significado imperativo de termos como MUST, SHALL, SHOULD e MAY na documentação técnica.
-* [Google Technical Writing Courses - Style Guide and Best Practices](https://developers.google.com/tech-writing/one) - Curso oficial do Google para redação e compreensão precisa de textos técnicos de engenharia de software.
-* [MDN Web Docs - An Overview of HTTP (English)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) - Texto de referência técnica oficial para aplicação prática de estratégias de leitura de skimming e scanning.
-* [Python Official Documentation - Tutorial (English)](https://docs.python.org/3/tutorial/index.html) - Documentação técnica de software amplamente utilizada para treinamento de inferência de significado e leitura estruturada.
-* [MDN Web Docs - Accessibility Guidelines (English)](https://developer.mozilla.org/en-US/docs/Web/Accessibility) - Documentação oficial em inglês para prática de leitura direcionada a diretrizes de acessibilidade e padrões web.
-* SWALES, John M.; FEAK, Christine B. **Academic Writing for Graduate Students: Essential Tasks and Skills**. 3. ed. Ann Arbor: University of Michigan Press, 2012. (Unit 1 - An Approach to Academic Writing; Unit 4 - Data Commentary).
-* MURPHY, Raymond. **English Grammar in Use**. 5. ed. Cambridge: Cambridge University Press, 2019. (Units 26 to 37 - Modals: Must, Should, Can, May).
-* GLENDINNING, Eric H.; MCEWAN, John. **Oxford English for Information Technology**. 2. ed. Oxford: Oxford University Press, 2006. (Units 1 to 5 - Computer Architecture and Technical Reading Skills).
-
-
-## 8. Questões Comentadas & Exemplos (Padrão FCC)
-
-### Questão 1 (FCC - Adaptada / Analista de Tecnologia da Informação - SEFAZ)
-*Carefully read the excerpt below regarding modern enterprise infrastructure security:*
-
-> *"Zero Trust is not a single tool, but rather an overarching security model. Traditional perimeter defenses assume that everything inside an organization's internal network can be trusted. In contrast, Zero Trust operates on the principle of 'never trust, always verify'. Consequently, even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated using granular policies based on identity, endpoint health, and context. Because legacy systems often lack native support for dynamic telemetry, modernizing them can **eventually** require substantial engineering effort."*
-
-Based on reading comprehension strategies and technical lexicon, it is correct to state that:
-
-* **A)** The term **"eventually"** in the last sentence indicates that migrating legacy systems demands engineering effort only on rare, unpredictable occasions.
-* **B)** The main purpose of the paragraph is to demonstrate that legacy perimeter defenses remain technically superior to Zero Trust architectures.
-* **C)** According to the text, once a device achieves initial authentication inside an internal subnet, its authorization privileges remain unconditionally static.
-* **D)** The author highlights that Zero Trust mandates continuous re-evaluation of authorization privileges, even for internal network traffic.
-* **E)** The pronoun **"their"** in the sentence *"their authorization must be continually re-evaluated"* refers syntactically to *"traditional perimeter defenses"*.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Explora a pegadinha clássica do falso cognato (*false friend*). O advérbio **"eventually"** significa "no final das contas", "com o tempo" ou "ao longo do processo" (*in the end / ultimately*). A alternativa tenta induzir o candidato ao erro traduzindo-o por "ocasionalmente / de modo esporádico", o que em inglês seria expresso por *occasionally* ou *sporadically*.
-> - **B)** Incorreta. Mediante *Skimming*, nota-se que o parágrafo apresenta a superioridade conceitual e a necessidade do modelo Zero Trust frente às defesas tradicionais de perímetro, que assumiam presunções ingênuas de confiança interna. O autor não afirma que o modelo tradicional é superior.
-> - **C)** Incorreta. Mediante *Scanning*, verifica-se que o texto assinala expressamente o oposto: *"even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated"* (mesmo após obter acesso inicial, a autorização deve ser continuamente reavaliada, logo não permanece estática).
-> - **D)** Correta. Captura com fidelidade a tese central do modelo Zero Trust expressa no texto: a exigência de reavaliação contínua e dinâmica dos privilégios de autorização (*continually re-evaluated using granular policies*), inclusive para dispositivos e usuários já presentes na rede interna.
-> - **E)** Incorreta. Análise de referência pronominal (*Reference Words*): o pronome possessivo plural **"their"** retoma anaforicamente o sintagma plural antecedente **"users and devices"** (*"even after users and devices obtain initial access to a subnet, their authorization..."*), e não "traditional perimeter defenses".
-> 
-> **Gabarito: D**
-
----
-
-### Questão 2 (FCC - Adaptada / Tribunal de Contas - Auditoria de TI)
-*Consider the sentence below taken from an official software engineering audit report:*
-
-> *"Although the technical team **pretended** to ignore the severe vulnerabilities discovered during the automated pipeline audit, the directorate implemented a **comprehensive** governance **policy** that **actually** mitigated external threat vectors."*
-
-Na língua portuguesa, as palavras destacadas no trecho (**pretended**, **comprehensive**, **policy**, **actually**) possuem os significados corretos e contextuais expressos em:
-
-* **A)** fingiu – compreensiva – polícia – atualmente
-* **B)** pretendeu – abrangente – diretriz – atualmente
-* **C)** fingiu – abrangente – política/diretriz – na verdade/efetivamente
-* **D)** tentou – tolerante – polícia – realmente
-* **E)** planejou – compacta – apólice – futuramente
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Erra ao traduzir *comprehensive* como "compreensiva" (tolerante é *understanding*), *policy* como "polícia" (*police*) e *actually* como "atualmente" (*currently*).
-> - **B)** Incorreta. Erra ao traduzir *pretended* como "pretendeu" (pretender é *to intend*) e *actually* como "atualmente" (*currently*).
-> - **C)** Correta. Decodifica perfeitamente os quatro termos técnicos:
->     1. **To pretend:** fingir, simular (não confundir com *to intend*, pretender).
->     2. **Comprehensive:** abrangente, amplo, exaustivo (não confundir com tolerante/compreensivo).
->     3. **Policy:** diretriz, norma institucional, política de segurança (não confundir com corporação policial).
->     4. **Actually:** na verdade, de fato, efetivamente, realmente (não confundir com nos dias atuais).
->
-> - **D)** Incorreta. Erra ao atribuir "tentou" (*attempted*), "tolerante" (*tolerant*) e "polícia" (*police*).
-> - **E)** Incorreta. Erra em "planejou" (*planned*), "compacta" (*compact*) e "futuramente" (*in the future*).
-> 
-> **Gabarito: C**
-
----
-
-### Questão 3 (FCC - Adaptada / Analista de Sistemas - Segurança da Informação)
-*Carefully read the text excerpt below regarding cybersecurity incident handling:*
-
-> *"During the post-incident investigation, forensics analysts discovered that adversaries managed to **compromise** the primary domain controller by exploiting an unpatched remote code execution vulnerability. Once inside, the attackers deployed sophisticated **ransomware** that encrypted critical databases across multiple physical sites. **Unlike** conventional malware campaigns that disrupt operations immediately, this intrusion remained dormant for weeks to exfiltrate proprietary data. To **remediate** the breach, the security operations center had to revoke all privileged credentials and rebuild directory services from verified cold backups."*
-
-Based on reading strategies and vocabulary inference, select the correct statement:
-
-* **A)** In the first sentence, the word **"compromise"** means that the adversaries entered into an amicable agreement or diplomatic settlement with the domain controller.
-* **B)** The connector **"Unlike"** establishes a relation of contrast between the intrusion described and conventional malware campaigns regarding their timing of disruption.
-* **C)** By using scanning techniques on the text, one can determine that the ransomware encrypted databases located within a single physical datacenter.
-* **D)** The verb **"remediate"** indicates that the security operations center decided to accept and tolerate the breach without executing countermeasures.
-* **E)** The pronoun **"this intrusion"** in the third sentence refers specifically to the automated restoration of cold backups.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. No léxico técnico de cibersegurança e auditoria de sistemas, **"to compromise"** significa violar a segurança, corromper ou assumir controle indevido de um recurso. A alternativa apoia-se no sentido leigo e diplomático da palavra (acordo/concessão recíproca), descabido no contexto de exploração de vulnerabilidade.
-> - **B)** Correta. A preposição **"Unlike"** (ao contrário de / diferentemente de) atua como um marcador contrastivo inequívoco: confronta as campanhas convencionais de malware, que interrompem operações instantaneamente (*disrupt operations immediately*), com a invasão analisada, que permaneceu dormente durante semanas (*remained dormant for weeks*).
-> - **C)** Incorreta. Por meio de *Scanning* focado na expressão "physical sites", constata-se a menção expressa a *"across **multiple** physical sites"* (múltiplos locais físicos, e não um único).
-> - **D)** Incorreta. O verbo **"remediate"** significa sanar, mitigar, corrigir ou restaurar a higidez do ambiente atacado. O texto demonstra a ação corretiva enérgica: revogação de credenciais e reconstrução dos servidores a partir de backups frios.
-> - **E)** Incorreta. O sintagma anafórico **"this intrusion"** refere-se ao ataque do ransomware e à invasão do controlador de domínio perpetrada pelos cibercriminosos, descrita nas orações anteriores, e não à restauração dos backups (que ocorre na frase posterior).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / Tribunal de Contas - Infraestrutura e Nuvem)
-*Read the technical excerpt concerning cloud architecture evaluation:*
-
-> *"Monolithic systems are often praised for their initial architectural simplicity and straightforward deployment pipelines. However, as organizations scale, maintaining a massive unified codebase introduces a formidable development **bottleneck**. In contrast, a microservices pattern partitions the business domain into autonomous, loosely coupled services that can be scaled independently. **Nonetheless**, adopting microservices entails a non-trivial **trade-off**: while it enhances deployment velocity, it substantially escalates distributed operational complexity, network latency, and the difficulty of enforcing cross-service transactional consistency."*
-
-Through the application of skimming and scanning techniques, it can be concluded that:
-
-* **A)** Skimming the passage reveals that the author unconditionally recommends microservices as a superior solution without any operational drawbacks.
-* **B)** The term **"bottleneck"** is used contextually to describe an acceleration mechanism that improves developer delivery speed.
-* **C)** According to the text, monolithic architectures present higher network latency and more complex cross-service transactions than microservices.
-* **D)** The word **"trade-off"** indicates a compromise where gaining deployment velocity comes at the expense of higher distributed complexity and latency.
-* **E)** The linking word **"Nonetheless"** introduces an addition of arguments in favor of monolithic deployment pipelines.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O *skimming* demonstra que o texto adota uma abordagem equilibrada de engenharia, enfatizando que os microsserviços acarretam complexidade operacional distribuída e custos adicionais consideráveis (*operational complexity, network latency*), refutando a tese de recomendação incondicional sem desvantagens.
-> - **B)** Incorreta. O termo **"bottleneck"** (gargalo) designa um ponto crítico de estrangulamento ou restrição que retarda o fluxo de trabalho e reduz a produtividade, e nunca um acelerador de velocidade.
-> - **C)** Incorreta. O *scanning* localiza que a maior latência de rede (*network latency*) e o desafio de consistência transacional entre serviços (*cross-service transactional consistency*) são ônus inerentes aos **microsserviços**, e não aos sistemas monolíticos.
-> - **D)** Correta. O conceito técnico de **"trade-off"** expressa exatamente a relação de concessão ou compromisso mútuo em engenharia: para usufruir de maior velocidade de entrega (*deployment velocity*), a organização é forçada a suportar maior complexidade de infraestrutura distribuída e latência.
-> - **E)** Incorreta. O conectivo **"Nonetheless"** (contudo, não obstante, todavia) é um marcador discursivo de concessão e oposição/contraste, e não de adição cumulativa (*furthermore, in addition*).
-> 
-> **Gabarito: D**
-
----
-
-### Questão 5 (FCC - Adaptada / Auditoria Governamental - Inteligência Artificial)
+### Questão 05 (FCC - Adaptada / Auditoria Governamental - Inteligência Artificial)
 *Consider the text below on algorithmic governance:*
 
 > *"Auditing modern machine learning models presents **novel** challenges for oversight agencies. Deep neural networks function largely as black boxes, making it difficult to extract explainable decision pathways. When public institutions deploy predictive models to grant social benefits or score fiscal risk, undetected algorithmic bias can harm vulnerable citizens. **To prevent this**, regulatory authorities advocate for strict validation protocols. Data scientists must ensure that training datasets are **sensible**, representative, and sanitized against historical disparities. **They** must also provide comprehensive audit trails before any model enters production."*
@@ -409,3 +402,18 @@ Regarding reading comprehension, context clues, and reference words in the text,
 > - **E)** Incorreta. O texto defende expressamente o oposto: os modelos só devem entrar em produção após a garantia de validações rigorosas e trilhas de auditoria abrangentes (*comprehensive audit trails before any model enters production*).
 > 
 > **Gabarito: B**
+
+---
+
+
+
+## 6. Fontes Recomendadas na Internet
+
+* [IETF RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels](https://datatracker.ietf.org/doc/html/rfc2119) - Norma seminal em inglês definindo o significado imperativo de termos como MUST, SHALL, SHOULD e MAY na documentação técnica.
+* [Google Technical Writing Courses - Style Guide and Best Practices](https://developers.google.com/tech-writing/one) - Curso oficial do Google para redação e compreensão precisa de textos técnicos de engenharia de software.
+* [MDN Web Docs - An Overview of HTTP (English)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) - Texto de referência técnica oficial para aplicação prática de estratégias de leitura de skimming e scanning.
+* [Python Official Documentation - Tutorial (English)](https://docs.python.org/3/tutorial/index.html) - Documentação técnica de software amplamente utilizada para treinamento de inferência de significado e leitura estruturada.
+* [MDN Web Docs - Accessibility Guidelines (English)](https://developer.mozilla.org/en-US/docs/Web/Accessibility) - Documentação oficial em inglês para prática de leitura direcionada a diretrizes de acessibilidade e padrões web.
+* SWALES, John M.; FEAK, Christine B. **Academic Writing for Graduate Students: Essential Tasks and Skills**. 3. ed. Ann Arbor: University of Michigan Press, 2012. (Unit 1 - An Approach to Academic Writing; Unit 4 - Data Commentary).
+* MURPHY, Raymond. **English Grammar in Use**. 5. ed. Cambridge: Cambridge University Press, 2019. (Units 26 to 37 - Modals: Must, Should, Can, May).
+* GLENDINNING, Eric H.; MCEWAN, John. **Oxford English for Information Technology**. 2. ed. Oxford: Oxford University Press, 2006. (Units 1 to 5 - Computer Architecture and Technical Reading Skills).

@@ -33,7 +33,6 @@
     - [4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)](#42-gateways-decisorios-no-bpmn-20-xor-and-or-e-event-based)
     - [4.3 Estruturas de Separação (Pools e Lanes) e Conectores de Sequência vs. Mensagem](#43-estruturas-de-separacao-pools-e-lanes-e-conectores-de-sequencia-vs-mensagem)
 - [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
-- [6. Questões de Concurso FCC Comentadas](#6-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -122,6 +121,30 @@ Um Caso de Uso descreve uma sequência de interações entre um ator externo (hu
 
 ---
 
+### Questão 01
+**(FCC – TCE-GO – Analista de Controle Externo / TI)**  
+Em um diagrama de casos de uso da UML (versão 2.5), os relacionamentos entre casos de uso podem ser representados por estereótipos como «include» e «extend». A respeito desses relacionamentos, é correto afirmar que:
+
+* **A)** O relacionamento «extend» representa uma inclusão incondicional e obrigatória de comportamento em todos os fluxos de execução do caso de uso base.
+* **B)** O relacionamento «include» indica que a execução do caso de uso incluído é obrigatória para que o caso de uso base seja completado com sucesso, enquanto o relacionamento «extend» representa um comportamento opcional ou condicional que é disparado a partir de um ponto de extensão.
+* **C)** As setas tracejadas de ambos os relacionamentos apontam sempre do caso de uso estendido/incluído em direção ao ator primário.
+* **D)** O relacionamento «include» só pode ocorrer entre atores do sistema, não entre casos de uso.
+* **E)** O relacionamento «extend» impede a ocorrência de cenários alternativos no caso de uso base.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A inclusão incondicional e obrigatória de comportamento define o relacionamento de inclusão (`«include»`), e não de extensão (`«extend»`).
+> - **B) CORRETA.** Nos termos formais da especificação UML 2.5: o estereótipo `«include»` modela uma dependência obrigatória e incondicional (o caso base não atinge seu objetivo sem a execução do caso incluído); por sua vez, o estereótipo `«extend»` modela um comportamento acessório, opcional ou excepcional, cuja ativação depende da ocorrência de uma condição em um ponto de extensão (*extension point*) pré-definido.
+> - **C) Incorreta.** Os relacionamentos `«include»` e `«extend»` interligam casos de uso entre si, jamais casos de uso a atores primários.
+> - **D) Incorreta.** O relacionamento entre atores dá-se por herança/generalização; o `«include»` é exclusivo entre casos de uso.
+> - **E) Incorreta.** O `«extend»` apenas adiciona funcionalidade complementar opcional, em nada restringindo os caminhos alternativos do caso base.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 2.2 Histórias de Usuário (User Stories) e os 3 Cs de Ron Jeffries
 Em ambientes ágeis, as necessidades de software são expressas através de **Histórias de Usuário**:
 $$\text{"Como [papel de usuário], eu quero [funcionalidade/ação], para que [benefício de negócio percebido]"}$$
@@ -148,6 +171,30 @@ $$\text{"Como [papel de usuário], eu quero [funcionalidade/ação], para que [b
 | **T** | **Testable** (Testável) | A história deve possuir critérios de aceite objetivos e claros que permitam a validação automatizada ou manual de aprovação. |
 
 ---
+
+### Questão 02
+**(FCC – SEFAZ – Auditor Fiscal da Receita Estadual)**  
+Ao redigir Histórias de Usuário (*User Stories*) em projetos orientados por metodologias ágeis, os analistas empregam o acrônimo INVEST para avaliar a qualidade técnica das histórias escritas. A letra "N" do referido acrônimo estabelece que a história deve ser:
+
+* **A)** Notável (*Notable*), ou seja, deve figurar obrigatoriamente entre as três principais prioridades estratégicas da diretoria da organização.
+* **B)** Negociável (*Negotiable*), demonstrando que a história não representa um contrato rígido ou imutável, devendo deixar espaço para debate e refinamento entre o cliente e os desenvolvedores.
+* **C)** Normalizada (*Normalized*), seguindo rigorosamente a terceira forma normal de banco de dados relacional.
+* **D)** Nominal (*Nominal*), contendo a assinatura formal em cartório do patrocinador do projeto antes do início de cada Sprint.
+* **E)** Não-funcional (*Non-functional*), priorizando exclusivamente requisitos de segurança e volumetria de infraestrutura.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O "N" não significa notável na metodologia ágil de escrita de requisitos.
+> - **B) CORRETA.** No modelo mnemônico **INVEST** (proposto por Bill Wake e popularizado por Mike Cohn), a letra **N** representa **Negotiable (Negociável)**. As Histórias de Usuário são concebidas como convites para conversas futuras; elas capturam a intenção do usuário sem engessá-la como um contrato rígido e definitivo, mantendo flexibilidade para negociação técnica durante o planejamento e a execução da iteração.
+> - **C) Incorreta.** Normalização de banco de dados é um conceito puramente relacional de persistência física, alheio à técnica de redação de histórias.
+> - **D) Incorreta.** A exigência de validação cartorial contradiz frontalmente a premissa de colaboração sobre negociação contratual expressa no Manifesto Ágil.
+> - **E) Incorreta.** Histórias de usuário descrevem prioritariamente funcionalidades de negócio voltadas a entregar valor direto aos usuários.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ## 3. Modelagem de Sistemas com UML (versão 2.5)
 
@@ -207,6 +254,30 @@ classDiagram
 
 ---
 
+### Questão 03
+**(FCC – TRF – Analista Judiciário / TI)**  
+No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assumir formas especializadas de acoplamento do tipo Todo-Parte conhecidas como Agregação e Composição. Sobre esses conceitos, assinale a afirmação correta:
+
+* **A)** Na Composição, a destruição do objeto que representa o "Todo" acarreta obrigatoriamente a destruição dos objetos que compõem suas "Partes", caracterizando um ciclo de vida estritamente compartilhado e dependente.
+* **B)** A Agregação é visualmente representada por um losango preenchido em preto conectado ao objeto da "Parte".
+* **C)** Na Composição, as "Partes" podem pertencer simultaneamente a múltiplos objetos "Todo" em tempo de execução.
+* **D)** A Agregação representa um acoplamento mais forte e rígido do que a Composição, exigindo obrigatoriamente multiplicidade de 1..1.
+* **E)** Na UML, a generalização entre classes concretas substitui integralmente a necessidade de composição quando se deseja implementar herança múltipla.
+
+> **Comentário Detalhado:**
+>
+> - **A) CORRETA.** A **Composição** é uma variante forte da relação Todo-Parte caracterizada por forte dependência existencial e ciclo de vida compartilhado: o objeto "Parte" pertence exclusivamente a um único "Todo" e, caso o objeto "Todo" seja destruído ou excluído da memória, todas as suas "Partes" integrantes são destruídas em cascata.
+> - **B) Incorreta.** O losango preenchido em preto (sólido) representa a Composição; a Agregação é graficamente denotada por um losango vazado (branco).
+> - **C) Incorreta.** Na Composição, a Parte só pode estar atrelada a no máximo um Todo de cada vez (multiplicidade máxima 1 do lado do Todo).
+> - **D) Incorreta.** A Composição é que constitui acoplamento forte; a Agregação constitui acoplamento fraco com partes independentes.
+> - **E) Incorreta.** Generalização modela relação de herança funcional ("é um"), ao passo que a composição expressa posse ou contenção estrutural ("tem um").
+> 
+> **Gabarito: A**
+
+---
+
+
+
 ### 3.3 Diagramas de Sequência, Atividades e Máquina de Estados
 - **Diagrama de Sequência:** Representa como os objetos colaboram em uma sequência temporal ordenada. Elementos chave:
     - *Linhas de Vida (*Lifelines*):* Linha vertical tracejada que representa a existência do objeto no tempo;
@@ -257,57 +328,7 @@ flowchart TD
 
 ---
 
-### 4.3 Estruturas de Separação (Pools e Lanes) e Conectores de Sequência vs. Mensagem
-- **Piscina (*Pool*):** Representa um participante independente do processo (um ente externo, fornecedor, organização ou empresa). Cada processo de negócio autocontido executa dentro de uma Pool;
-- **Raia (*Lane*):** Subdivisão interna de uma Pool, utilizada para alocar tarefas e agrupar responsabilidades por departamentos, funções, setores ou sistemas daquela mesma organização.
-
-**Regras Fundamentais dos Conectores de Fluxo (Muito Cobrado em Prova):**
-
-- **Fluxo de Sequência (*Sequence Flow*):** Representado por **linha sólida contínua com seta preenchida**. Conecta a sequência de atividades dentro da mesma Pool.  
-  > 🚨 **REGRA DE OURO DO BPMN:** Um Fluxo de Sequência **NUNCA PODE CRUZAR A BORDA DE UMA POOL PARA OUTRA POOL!** Ele só pode cruzar linhas de Lanes dentro da mesma Pool!
-- **Fluxo de Mensagem (*Message Flow*):** Representado por **linha tracejada com um círculo vazado na origem e uma seta aberta no destino**. Utilizado estritamente para modelar comunicação e troca de mensagens **entre duas Pools distintas**.
-- **Associação:** Linha pontilhada simples, utilizada para associar dados, artefatos ou anotações de texto a objetos de fluxo.
-
----
-
-## 5. Fontes Oficiais e Referências Bibliográficas
-
-* [OMG Unified Modeling Language (UML 2.5.1) — Especificação Oficial](https://www.omg.org/spec/UML/2.5.1/About-UML) - Especificação normativa da UML 2.5.1 mantida pelo Object Management Group (diagramas estruturais e comportamentais).
-* [OMG Business Process Model and Notation (BPMN 2.0.2) — Especificação Oficial](https://www.omg.org/spec/BPMN/2.0.2/About-BPMN) - Especificação formal da notação BPMN 2.0 (eventos, atividades, gateways, pools, lanes e conectores).
-* [User Stories and User Story Examples (Mike Cohn — Mountain Goat Software)](https://www.mountaingoatsoftware.com/agile/user-stories) - Guia de referência sobre escrita de Histórias de Usuário, padrão INVEST e os 3 Cs.
-* [Bounded Context — Modelagem de Domínio e Requisitos (Martin Fowler)](https://martinfowler.com/bliki/BoundedContext.html) - Delimitação de contextos e linguagem ubíqua na análise e modelagem de sistemas.
-* [Os 12 Princípios do Manifesto Ágil — Requisitos Evolutivos e Colaboração](https://agilemanifesto.org/iso/ptbr/principles.html) - Princípios ágeis aplicados ao gerenciamento adaptativo de requisitos e entregas de valor.
-* SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson Education do Brasil, 2019. (Cap. 4 - Engenharia de Requisitos; Cap. 5 - Modelagem de Sistemas).
-* PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: Uma Abordagem Profissional**. 9. ed. Porto Alegre: AMGH, 2021. (Cap. 7 - Compreensão dos Requisitos; Cap. 8 - Modelagem de Requisitos).
-* COHN, Mike. **User Stories Applied: For Agile Software Development**. Boston: Addison-Wesley Professional, 2004. (Cap. 2 - Writing Stories; Cap. 6 - Acceptance Testing).
-
----
-
-## 6. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo / TI)**  
-Em um diagrama de casos de uso da UML (versão 2.5), os relacionamentos entre casos de uso podem ser representados por estereótipos como «include» e «extend». A respeito desses relacionamentos, é correto afirmar que:
-
-* **A)** O relacionamento «extend» representa uma inclusão incondicional e obrigatória de comportamento em todos os fluxos de execução do caso de uso base.
-* **B)** O relacionamento «include» indica que a execução do caso de uso incluído é obrigatória para que o caso de uso base seja completado com sucesso, enquanto o relacionamento «extend» representa um comportamento opcional ou condicional que é disparado a partir de um ponto de extensão.
-* **C)** As setas tracejadas de ambos os relacionamentos apontam sempre do caso de uso estendido/incluído em direção ao ator primário.
-* **D)** O relacionamento «include» só pode ocorrer entre atores do sistema, não entre casos de uso.
-* **E)** O relacionamento «extend» impede a ocorrência de cenários alternativos no caso de uso base.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** A inclusão incondicional e obrigatória de comportamento define o relacionamento de inclusão (`«include»`), e não de extensão (`«extend»`).
-> - **B) CORRETA.** Nos termos formais da especificação UML 2.5: o estereótipo `«include»` modela uma dependência obrigatória e incondicional (o caso base não atinge seu objetivo sem a execução do caso incluído); por sua vez, o estereótipo `«extend»` modela um comportamento acessório, opcional ou excepcional, cuja ativação depende da ocorrência de uma condição em um ponto de extensão (*extension point*) pré-definido.
-> - **C) Incorreta.** Os relacionamentos `«include»` e `«extend»` interligam casos de uso entre si, jamais casos de uso a atores primários.
-> - **D) Incorreta.** O relacionamento entre atores dá-se por herança/generalização; o `«include»` é exclusivo entre casos de uso.
-> - **E) Incorreta.** O `«extend»` apenas adiciona funcionalidade complementar opcional, em nada restringindo os caminhos alternativos do caso base.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
+### Questão 04
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 Na modelagem de processos de negócio com a notação BPMN 2.0, um analista precisa representar uma bifurcação no fluxo em que duas atividades subsequentes devem ser executadas simultaneamente (em paralelo), independentemente de qualquer condição ou teste de dados. Para essa finalidade, deve-se empregar o gateway:
 
@@ -329,29 +350,22 @@ Na modelagem de processos de negócio com a notação BPMN 2.0, um analista prec
 
 ---
 
-### Questão 03
-**(FCC – TRF – Analista Judiciário / TI)**  
-No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assumir formas especializadas de acoplamento do tipo Todo-Parte conhecidas como Agregação e Composição. Sobre esses conceitos, assinale a afirmação correta:
 
-* **A)** Na Composição, a destruição do objeto que representa o "Todo" acarreta obrigatoriamente a destruição dos objetos que compõem suas "Partes", caracterizando um ciclo de vida estritamente compartilhado e dependente.
-* **B)** A Agregação é visualmente representada por um losango preenchido em preto conectado ao objeto da "Parte".
-* **C)** Na Composição, as "Partes" podem pertencer simultaneamente a múltiplos objetos "Todo" em tempo de execução.
-* **D)** A Agregação representa um acoplamento mais forte e rígido do que a Composição, exigindo obrigatoriamente multiplicidade de 1..1.
-* **E)** Na UML, a generalização entre classes concretas substitui integralmente a necessidade de composição quando se deseja implementar herança múltipla.
 
-> **Comentário Detalhado:**
->
-> - **A) CORRETA.** A **Composição** é uma variante forte da relação Todo-Parte caracterizada por forte dependência existencial e ciclo de vida compartilhado: o objeto "Parte" pertence exclusivamente a um único "Todo" e, caso o objeto "Todo" seja destruído ou excluído da memória, todas as suas "Partes" integrantes são destruídas em cascata.
-> - **B) Incorreta.** O losango preenchido em preto (sólido) representa a Composição; a Agregação é graficamente denotada por um losango vazado (branco).
-> - **C) Incorreta.** Na Composição, a Parte só pode estar atrelada a no máximo um Todo de cada vez (multiplicidade máxima 1 do lado do Todo).
-> - **D) Incorreta.** A Composição é que constitui acoplamento forte; a Agregação constitui acoplamento fraco com partes independentes.
-> - **E) Incorreta.** Generalização modela relação de herança funcional ("é um"), ao passo que a composição expressa posse ou contenção estrutural ("tem um").
-> 
-> **Gabarito: A**
+### 4.3 Estruturas de Separação (Pools e Lanes) e Conectores de Sequência vs. Mensagem
+- **Piscina (*Pool*):** Representa um participante independente do processo (um ente externo, fornecedor, organização ou empresa). Cada processo de negócio autocontido executa dentro de uma Pool;
+- **Raia (*Lane*):** Subdivisão interna de uma Pool, utilizada para alocar tarefas e agrupar responsabilidades por departamentos, funções, setores ou sistemas daquela mesma organização.
+
+**Regras Fundamentais dos Conectores de Fluxo (Muito Cobrado em Prova):**
+
+- **Fluxo de Sequência (*Sequence Flow*):** Representado por **linha sólida contínua com seta preenchida**. Conecta a sequência de atividades dentro da mesma Pool.  
+  > 🚨 **REGRA DE OURO DO BPMN:** Um Fluxo de Sequência **NUNCA PODE CRUZAR A BORDA DE UMA POOL PARA OUTRA POOL!** Ele só pode cruzar linhas de Lanes dentro da mesma Pool!
+- **Fluxo de Mensagem (*Message Flow*):** Representado por **linha tracejada com um círculo vazado na origem e uma seta aberta no destino**. Utilizado estritamente para modelar comunicação e troca de mensagens **entre duas Pools distintas**.
+- **Associação:** Linha pontilhada simples, utilizada para associar dados, artefatos ou anotações de texto a objetos de fluxo.
 
 ---
 
-### Questão 04
+### Questão 05
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 No que diz respeito à notação BPMN 2.0 e suas regras formais de modelagem de processos corporativos, assinale a afirmativa correta:
 
@@ -373,22 +387,15 @@ No que diz respeito à notação BPMN 2.0 e suas regras formais de modelagem de 
 
 ---
 
-### Questão 05
-**(FCC – SEFAZ – Auditor Fiscal da Receita Estadual)**  
-Ao redigir Histórias de Usuário (*User Stories*) em projetos orientados por metodologias ágeis, os analistas empregam o acrônimo INVEST para avaliar a qualidade técnica das histórias escritas. A letra "N" do referido acrônimo estabelece que a história deve ser:
 
-* **A)** Notável (*Notable*), ou seja, deve figurar obrigatoriamente entre as três principais prioridades estratégicas da diretoria da organização.
-* **B)** Negociável (*Negotiable*), demonstrando que a história não representa um contrato rígido ou imutável, devendo deixar espaço para debate e refinamento entre o cliente e os desenvolvedores.
-* **C)** Normalizada (*Normalized*), seguindo rigorosamente a terceira forma normal de banco de dados relacional.
-* **D)** Nominal (*Nominal*), contendo a assinatura formal em cartório do patrocinador do projeto antes do início de cada Sprint.
-* **E)** Não-funcional (*Non-functional*), priorizando exclusivamente requisitos de segurança e volumetria de infraestrutura.
 
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** O "N" não significa notável na metodologia ágil de escrita de requisitos.
-> - **B) CORRETA.** No modelo mnemônico **INVEST** (proposto por Bill Wake e popularizado por Mike Cohn), a letra **N** representa **Negotiable (Negociável)**. As Histórias de Usuário são concebidas como convites para conversas futuras; elas capturam a intenção do usuário sem engessá-la como um contrato rígido e definitivo, mantendo flexibilidade para negociação técnica durante o planejamento e a execução da iteração.
-> - **C) Incorreta.** Normalização de banco de dados é um conceito puramente relacional de persistência física, alheio à técnica de redação de histórias.
-> - **D) Incorreta.** A exigência de validação cartorial contradiz frontalmente a premissa de colaboração sobre negociação contratual expressa no Manifesto Ágil.
-> - **E) Incorreta.** Histórias de usuário descrevem prioritariamente funcionalidades de negócio voltadas a entregar valor direto aos usuários.
-> 
-> **Gabarito: B**
+## 5. Fontes Oficiais e Referências Bibliográficas
+
+* [OMG Unified Modeling Language (UML 2.5.1) — Especificação Oficial](https://www.omg.org/spec/UML/2.5.1/About-UML) - Especificação normativa da UML 2.5.1 mantida pelo Object Management Group (diagramas estruturais e comportamentais).
+* [OMG Business Process Model and Notation (BPMN 2.0.2) — Especificação Oficial](https://www.omg.org/spec/BPMN/2.0.2/About-BPMN) - Especificação formal da notação BPMN 2.0 (eventos, atividades, gateways, pools, lanes e conectores).
+* [User Stories and User Story Examples (Mike Cohn — Mountain Goat Software)](https://www.mountaingoatsoftware.com/agile/user-stories) - Guia de referência sobre escrita de Histórias de Usuário, padrão INVEST e os 3 Cs.
+* [Bounded Context — Modelagem de Domínio e Requisitos (Martin Fowler)](https://martinfowler.com/bliki/BoundedContext.html) - Delimitação de contextos e linguagem ubíqua na análise e modelagem de sistemas.
+* [Os 12 Princípios do Manifesto Ágil — Requisitos Evolutivos e Colaboração](https://agilemanifesto.org/iso/ptbr/principles.html) - Princípios ágeis aplicados ao gerenciamento adaptativo de requisitos e entregas de valor.
+* SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson Education do Brasil, 2019. (Cap. 4 - Engenharia de Requisitos; Cap. 5 - Modelagem de Sistemas).
+* PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: Uma Abordagem Profissional**. 9. ed. Porto Alegre: AMGH, 2021. (Cap. 7 - Compreensão dos Requisitos; Cap. 8 - Modelagem de Requisitos).
+* COHN, Mike. **User Stories Applied: For Agile Software Development**. Boston: Addison-Wesley Professional, 2004. (Cap. 2 - Writing Stories; Cap. 6 - Acceptance Testing).

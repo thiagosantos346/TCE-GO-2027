@@ -40,7 +40,6 @@
     - [4.1 Mecanismo de Aferição do Valor Recuperável](#41-mecanismo-de-afericao-do-valor-recuperavel)
     - [4.2 Reconhecimento Contábil da Perda e Reversões](#42-reconhecimento-contabil-da-perda-e-reversoes)
 - [5. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
-- [6. Questões Comentadas no Padrão FCC](#questoes-comentadas-no-padrao-fcc)
 
 ---
 
@@ -65,6 +64,38 @@ O art. 35 da Lei Federal nº 4.320/1964 disciplina a apropriação dos créditos
 - **Receita Orçamentária:** Pertence ao exercício financeiro em que for efetivamente **arrecadada** pelos agentes bancários credenciados (regime de caixa puro na dimensão orçamentária);
 - **Despesa Orçamentária:** Pertence ao exercício financeiro em que for legalmente **empenhada** pela autoridade ordenadora (regime de competência orçamentária, assegurando a reserva do crédito antes da contratação).
 
+---
+
+### Questão 01 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+No tocante ao regime contábil aplicado no setor público, analise as afirmativas a seguir:
+
+I. De acordo com a Lei nº 4.320/1964 (Art. 35), o regime orçamentário é misto, pertencendo ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas.  
+
+II. Segundo as normas NBC TSP e o MCASP, o regime contábil patrimonial é o de competência, exigindo o reconhecimento de receitas e despesas patrimoniais no momento da ocorrência de seus respectivos fatos geradores.  
+
+III. A arrecadação de tributos em dinheiro gera concomitantemente uma receita orçamentária realizada e um fato permutativo no patrimônio líquido da entidade caso o crédito tributário já tenha sido lançado previamente.  
+
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** II e III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, II e III.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Os itens II e III também são verdadeiros, tornando a alternativa incompleta.
+> - **B)** Incorreta. Deixa de incluir o item III, que expressa corretamente a dinâmica da CASP.
+> - **C)** Incorreta. O item I é a previsão literal do art. 35 da Lei nº 4.320/1964.
+> - **D)** Incorreta. O item II reflete o preceito central do MCASP moderno (regime de competência patrimonial).
+> - **E)** Correta. Todas as três assertivas são verdadeiras: o item I reproduz o art. 35 da Lei Federal nº 4.320/1964 (regime orçamentário misto); o item II reflete a consolidação da competência pura para o patrimônio pelas NBC TSP e MCASP; e o item III descreve com rigor a transação de arrecadação de tributos cujo lançamento ocorreu em momento anterior (no lançamento houve VPA; na arrecadação há receita orçamentária realizada e simples permutação patrimonial entre Disponibilidades e Créditos a Receber).
+> 
+> **Gabarito: E**
+
+---
+
+
 #### 1.2 O Regime Patrimonial da Competência Integral (MCASP e NBC TSP)
 No âmbito patrimonial (MCASP e NBC TSP Estrutura Conceitual), vigora o **regime de competência puro e irrestrito**:
 
@@ -82,6 +113,31 @@ No âmbito patrimonial (MCASP e NBC TSP Estrutura Conceitual), vigora o **regime
 | **Ordem Bancária de Pagamento emitida** | Despesa orçamentária paga (extingue dotação e passivo). | Extingue o passivo financeiro com saída de disponibilidades (D: Fornecedores / C: Caixa). | **Fato Permutativo** (não afeta o PL). |
 
 ---
+
+### Questão 02 (FCC - Adaptada / Analista Contábil de Controle)
+Determinada entidade governamental adquiriu, mediante regular processo licitatório, um lote de microcomputadores para suas secretarias no valor total de R$ 100.000,00. A despesa foi devidamente empenhada, liquidada com o recebimento das máquinas e integralmente paga em dinheiro à empresa fornecedora.
+
+Sob a ótica patrimonial e orçamentária, essa transação completa caracteriza-se como:
+
+* **A)** Fato modificativo aumentativo que gera Variação Patrimonial Aumentativa.
+* **B)** Fato contábil qualitativo (permutativo), que não altera o valor do Patrimônio Líquido da entidade.
+* **C)** Fato modificativo diminutivo que reduz o Patrimônio Líquido em R$ 100.000,00 no ato da compra.
+* **D)** Variação patrimonial independente da execução orçamentária.
+* **E)** Transação extraorçamentária que dispensa registro no subsistema patrimonial.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A compra de bens com desembolso financeiro de caixa não gera VPA (receita patrimonial).
+> - **B)** Correta. Trata-se de um típico fato permutativo (qualitativo) entre contas do Ativo: ocorreu a diminuição de R$ 100.000,00 na conta Caixa/Bancos (Ativo Circulante) e o aumento simultâneo de R$ 100.000,00 na conta de Equipamentos e Material Permanente (Ativo Não Circulante - Imobilizado). O total do Ativo e a Situação Patrimonial Líquida permaneceram rigorosamente inalterados.
+> - **C)** Incorreta. A redução do patrimônio líquido ocorrerá de forma paulatina e distribuída nos exercícios seguintes por meio do registro da depreciação mensal.
+> - **D)** Incorreta. A transação resultou diretamente da execução de dotação de capital fixada na LOA (variação resultante da execução orçamentária).
+> - **E)** Incorreta. É despesa orçamentária própria de capital, plenamente escriturada nos subsistemas orçamentário e patrimonial do PCASP.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 2. Variações Patrimoniais: Classificações e Origens
 
@@ -106,6 +162,31 @@ flowchart LR
 
 ---
 
+### Questão 03 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+Determinado órgão público estadual recebeu, em doação incondicional de particular, um terreno avaliado a valor justo de mercado em R$ 800.000,00 para futura construção de um posto fiscal de fronteira.
+
+Sob a ótica do Manual de Contabilidade Aplicada ao Setor Público (MCASP 11ª edição):
+
+* **A)** O recebimento do imóvel deve ser contabilizado como receita orçamentária de capital no estágio do recolhimento bancário.
+* **B)** A transação representa uma Variação Patrimonial Aumentativa (VPA) independente da execução orçamentária, elevando o Patrimônio Líquido da entidade.
+* **C)** O bem não pode ser registrado no ativo imobilizado até que a obra do posto fiscal seja integralmente concluída e aceita pela fiscalização.
+* **D)** A operação constitui um fato meramente qualitativo (permutativo), uma vez que não envolveu fluxo financeiro em moeda corrente.
+* **E)** O terreno recebido deverá sofrer depreciação periódica anual linear à alíquota contábil de 4% ao ano.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Doações de bens materiais não geram influxo de caixa financeiro nem constam na LOA, não constituindo receita orçamentária.
+> - **B)** Correta. A doação de bens recebida amplia o ativo e o patrimônio líquido da entidade sem passar pelos estágios do orçamento (LOA), qualificando-se exatamente como uma Variação Patrimonial Aumentativa (VPA) Independente da Execução Orçamentária. O lançamento debita o Ativo Não Circulante (Imobilizado - Terrenos) e credita VPA no resultado.
+> - **C)** Incorreta. O reconhecimento contábil do terreno ocorre no momento da obtenção de seu controle formal (escritura e posse), e não na futura edificação da obra.
+> - **D)** Incorreta. Trata-se de fato quantitativo modificativo aumentativo, pois houve acréscimo de R$ 800.000,00 na Situação Patrimonial Líquida do ente.
+> - **E)** Incorreta. Terrenos possuem vida útil econômica indefinida e, por expressa determinação contábil, não sofrem depreciação periódica.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3. Procedimentos Patrimoniais Aplicados ao Ativo Imobilizado
 
 #### 3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura
@@ -126,6 +207,56 @@ $$\text{Quota Periódica de Depreciação (Método Linear)} = \frac{\text{Valor 
 - **Lançamento Contábil da Depreciação Periódica:**
     - `D` - Variação Patrimonial Diminutiva (VPD - Depreciação de Bens Móveis/Imóveis);
     - `C` - Depreciação Acumulada (Conta retificadora redutora do Ativo Imobilizado).
+
+---
+
+### Questão 04 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+Em relação aos conceitos de depreciação, amortização e teste de recuperabilidade (*impairment*) aplicados aos ativos do setor público, assinale a opção correta:
+
+* **A)** O valor depreciável de um bem corresponde ao seu custo histórico de aquisição somado ao valor residual estimado ao término de sua vida útil.
+* **B)** As quotas de depreciação mensal apuradas para a frota de ambulâncias públicas exigem a prévia emissão de nota de empenho ordinário no orçamento da Secretaria de Saúde.
+* **C)** O teste de recuperabilidade é dispensável no setor público quando o ativo imobilizado não for utilizado diretamente na geração de receitas comerciais ou de lucro.
+* **D)** A redução ao valor recuperável ocorre quando o valor contábil líquido de um ativo for superior ao seu valor recuperável, devendo a perda ser reconhecida no resultado patrimonial como variação patrimonial diminutiva (VPD).
+* **E)** A amortização aplica-se aos bens corpóreos que sofrem desgaste físico ou perecimento gradual ao longo do tempo.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O valor depreciável é calculado subtraindo-se o valor residual do custo histórico de aquisição ($Custo - Valor\ Residual$).
+> - **B)** Incorreta. A depreciação é um procedimento estritamente patrimonial (VPD independente da execução orçamentária), não dependendo de dotação na LOA nem de emissão de nota de empenho.
+> - **C)** Incorreta. O teste de recuperabilidade aplica-se obrigatoriamente inclusive aos ativos não geradores de caixa, avaliando-se a perda de seu potencial de serviços à sociedade.
+> - **D)** Correta. De acordo com a NBC TSP 09/10 e o MCASP, se o valor contábil líquido de um ativo for maior que o seu valor recuperável, a entidade pública deve reconhecer imediatamente a perda por desvalorização (*impairment*), lançando uma VPD no resultado em contrapartida a uma conta redutora do ativo imobilizado.
+> - **E)** Incorreta. A amortização destina-se a ativos incorpóreos/intangíveis com vida útil definida; o desgaste sistemático de bens corpóreos tangíveis é objeto de depreciação.
+> 
+> **Gabarito: D**
+
+---
+
+### Questão 05 (FCC - Adaptada / Técnico de Controle Externo)
+Uma viatura policial foi adquirida pelo Estado de Goiás por R$ 120.000,00. A vida útil estimada do veículo é de 5 anos (60 meses) e a comissão de avaliação patrimonial fixou um valor residual de R$ 20.000,00 para o final do período.
+
+Utilizando o método das quotas constantes (linear) preconizado pelo MCASP, o valor depreciável do bem e o valor da quota mensal de depreciação a ser lançada como VPD são, respectivamente:
+
+* **A)** R$ 120.000,00 e R$ 2.000,00.
+* **B)** R$ 100.000,00 e R$ 1.666,67.
+* **C)** R$ 100.000,00 e R$ 2.000,00.
+* **D)** R$ 120.000,00 e R$ 1.666,67.
+* **E)** R$ 140.000,00 e R$ 2.333,33.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Erra ao desconsiderar a dedução do valor residual no cálculo do valor depreciável.
+> - **B)** Correta. O cálculo contábil é exato:  
+>     1. **Valor Depreciável:** Custo de Aquisição (R$ 120.000,00) menos Valor Residual (R$ 20.000,00) = **R$ 100.000,00**.  
+>     2. **Quota Mensal de Depreciação:** Valor Depreciável (R$ 100.000,00) dividido por 60 meses de vida útil = **R$ 1.666,67** por mês, lançada como VPD.
+>
+> - **C)** Incorreta. R$ 2.000,00 por mês seria a quota caso o valor residual fosse zero (120.000 / 60).
+> - **D)** Incorreta. O valor depreciável não é o custo bruto (120.000,00), pois há valor residual a ser deduzido.
+> - **E)** Incorreta. Erra ao somar o valor residual ao custo em vez de subtrair.
+> 
+> **Gabarito: B**
+
+---
+
 
 #### 3.3 Ativos que NÃO Sofrem Depreciação Periódica
 O MCASP elenca expressamente os ativos públicos que não estão sujeitos à depreciação:
@@ -169,126 +300,3 @@ flowchart TD
 * BEZERRA FILHO, João Eudes. **Contabilidade Aplicada ao Setor Público: Teoria e Exercícios**. 3. ed. São Paulo: Atlas, 2021. (Cap. 3 - Procedimentos Contábeis Orçamentários; Cap. 4 - Procedimentos Contábeis Patrimoniais: VPA, VPD e Depreciação).
 * FEIJÓ, Paulo Henrique et al. **Curso de Contabilidade Aplicada ao Setor Público**. 8. ed. Brasília: Gestão Pública, 2022. (Cap. 5 - Variações Patrimoniais e Mensuração de Ativos).
 * PISCITELLI, Roberto Bocaccio; TIMÓTEO, Alfredo. **Contabilidade Pública: Uma Abordagem da Administração Financeira Pública**. 14. ed. São Paulo: Atlas, 2019. (Cap. 6 - Procedimentos Patrimoniais).
-
-
-## 📝 Questões Comentadas no Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
-Determinado órgão público estadual recebeu, em doação incondicional de particular, um terreno avaliado a valor justo de mercado em R$ 800.000,00 para futura construção de um posto fiscal de fronteira.
-
-Sob a ótica do Manual de Contabilidade Aplicada ao Setor Público (MCASP 11ª edição):
-
-* **A)** O recebimento do imóvel deve ser contabilizado como receita orçamentária de capital no estágio do recolhimento bancário.
-* **B)** A transação representa uma Variação Patrimonial Aumentativa (VPA) independente da execução orçamentária, elevando o Patrimônio Líquido da entidade.
-* **C)** O bem não pode ser registrado no ativo imobilizado até que a obra do posto fiscal seja integralmente concluída e aceita pela fiscalização.
-* **D)** A operação constitui um fato meramente qualitativo (permutativo), uma vez que não envolveu fluxo financeiro em moeda corrente.
-* **E)** O terreno recebido deverá sofrer depreciação periódica anual linear à alíquota contábil de 4% ao ano.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Doações de bens materiais não geram influxo de caixa financeiro nem constam na LOA, não constituindo receita orçamentária.
-> - **B)** Correta. A doação de bens recebida amplia o ativo e o patrimônio líquido da entidade sem passar pelos estágios do orçamento (LOA), qualificando-se exatamente como uma Variação Patrimonial Aumentativa (VPA) Independente da Execução Orçamentária. O lançamento debita o Ativo Não Circulante (Imobilizado - Terrenos) e credita VPA no resultado.
-> - **C)** Incorreta. O reconhecimento contábil do terreno ocorre no momento da obtenção de seu controle formal (escritura e posse), e não na futura edificação da obra.
-> - **D)** Incorreta. Trata-se de fato quantitativo modificativo aumentativo, pois houve acréscimo de R$ 800.000,00 na Situação Patrimonial Líquida do ente.
-> - **E)** Incorreta. Terrenos possuem vida útil econômica indefinida e, por expressa determinação contábil, não sofrem depreciação periódica.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 2 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
-Em relação aos conceitos de depreciação, amortização e teste de recuperabilidade (*impairment*) aplicados aos ativos do setor público, assinale a opção correta:
-
-* **A)** O valor depreciável de um bem corresponde ao seu custo histórico de aquisição somado ao valor residual estimado ao término de sua vida útil.
-* **B)** As quotas de depreciação mensal apuradas para a frota de ambulâncias públicas exigem a prévia emissão de nota de empenho ordinário no orçamento da Secretaria de Saúde.
-* **C)** O teste de recuperabilidade é dispensável no setor público quando o ativo imobilizado não for utilizado diretamente na geração de receitas comerciais ou de lucro.
-* **D)** A redução ao valor recuperável ocorre quando o valor contábil líquido de um ativo for superior ao seu valor recuperável, devendo a perda ser reconhecida no resultado patrimonial como variação patrimonial diminutiva (VPD).
-* **E)** A amortização aplica-se aos bens corpóreos que sofrem desgaste físico ou perecimento gradual ao longo do tempo.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O valor depreciável é calculado subtraindo-se o valor residual do custo histórico de aquisição ($Custo - Valor\ Residual$).
-> - **B)** Incorreta. A depreciação é um procedimento estritamente patrimonial (VPD independente da execução orçamentária), não dependendo de dotação na LOA nem de emissão de nota de empenho.
-> - **C)** Incorreta. O teste de recuperabilidade aplica-se obrigatoriamente inclusive aos ativos não geradores de caixa, avaliando-se a perda de seu potencial de serviços à sociedade.
-> - **D)** Correta. De acordo com a NBC TSP 09/10 e o MCASP, se o valor contábil líquido de um ativo for maior que o seu valor recuperável, a entidade pública deve reconhecer imediatamente a perda por desvalorização (*impairment*), lançando uma VPD no resultado em contrapartida a uma conta redutora do ativo imobilizado.
-> - **E)** Incorreta. A amortização destina-se a ativos incorpóreos/intangíveis com vida útil definida; o desgaste sistemático de bens corpóreos tangíveis é objeto de depreciação.
-> 
-> **Gabarito: D**
-
----
-
-### Questão 3 (FCC - Adaptada / Analista Contábil de Controle)
-Determinada entidade governamental adquiriu, mediante regular processo licitatório, um lote de microcomputadores para suas secretarias no valor total de R$ 100.000,00. A despesa foi devidamente empenhada, liquidada com o recebimento das máquinas e integralmente paga em dinheiro à empresa fornecedora.
-
-Sob a ótica patrimonial e orçamentária, essa transação completa caracteriza-se como:
-
-* **A)** Fato modificativo aumentativo que gera Variação Patrimonial Aumentativa.
-* **B)** Fato contábil qualitativo (permutativo), que não altera o valor do Patrimônio Líquido da entidade.
-* **C)** Fato modificativo diminutivo que reduz o Patrimônio Líquido em R$ 100.000,00 no ato da compra.
-* **D)** Variação patrimonial independente da execução orçamentária.
-* **E)** Transação extraorçamentária que dispensa registro no subsistema patrimonial.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A compra de bens com desembolso financeiro de caixa não gera VPA (receita patrimonial).
-> - **B)** Correta. Trata-se de um típico fato permutativo (qualitativo) entre contas do Ativo: ocorreu a diminuição de R$ 100.000,00 na conta Caixa/Bancos (Ativo Circulante) e o aumento simultâneo de R$ 100.000,00 na conta de Equipamentos e Material Permanente (Ativo Não Circulante - Imobilizado). O total do Ativo e a Situação Patrimonial Líquida permaneceram rigorosamente inalterados.
-> - **C)** Incorreta. A redução do patrimônio líquido ocorrerá de forma paulatina e distribuída nos exercícios seguintes por meio do registro da depreciação mensal.
-> - **D)** Incorreta. A transação resultou diretamente da execução de dotação de capital fixada na LOA (variação resultante da execução orçamentária).
-> - **E)** Incorreta. É despesa orçamentária própria de capital, plenamente escriturada nos subsistemas orçamentário e patrimonial do PCASP.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 4 (FCC - Adaptada / Técnico de Controle Externo)
-Uma viatura policial foi adquirida pelo Estado de Goiás por R$ 120.000,00. A vida útil estimada do veículo é de 5 anos (60 meses) e a comissão de avaliação patrimonial fixou um valor residual de R$ 20.000,00 para o final do período.
-
-Utilizando o método das quotas constantes (linear) preconizado pelo MCASP, o valor depreciável do bem e o valor da quota mensal de depreciação a ser lançada como VPD são, respectivamente:
-
-* **A)** R$ 120.000,00 e R$ 2.000,00.
-* **B)** R$ 100.000,00 e R$ 1.666,67.
-* **C)** R$ 100.000,00 e R$ 2.000,00.
-* **D)** R$ 120.000,00 e R$ 1.666,67.
-* **E)** R$ 140.000,00 e R$ 2.333,33.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Erra ao desconsiderar a dedução do valor residual no cálculo do valor depreciável.
-> - **B)** Correta. O cálculo contábil é exato:  
->     1. **Valor Depreciável:** Custo de Aquisição (R$ 120.000,00) menos Valor Residual (R$ 20.000,00) = **R$ 100.000,00**.  
->     2. **Quota Mensal de Depreciação:** Valor Depreciável (R$ 100.000,00) dividido por 60 meses de vida útil = **R$ 1.666,67** por mês, lançada como VPD.
->
-> - **C)** Incorreta. R$ 2.000,00 por mês seria a quota caso o valor residual fosse zero (120.000 / 60).
-> - **D)** Incorreta. O valor depreciável não é o custo bruto (120.000,00), pois há valor residual a ser deduzido.
-> - **E)** Incorreta. Erra ao somar o valor residual ao custo em vez de subtrair.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 5 (FCC - Adaptada / Analista de Planejamento e Orçamento)
-No tocante ao regime contábil aplicado no setor público, analise as afirmativas a seguir:
-
-I. De acordo com a Lei nº 4.320/1964 (Art. 35), o regime orçamentário é misto, pertencendo ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas.  
-
-II. Segundo as normas NBC TSP e o MCASP, o regime contábil patrimonial é o de competência, exigindo o reconhecimento de receitas e despesas patrimoniais no momento da ocorrência de seus respectivos fatos geradores.  
-
-III. A arrecadação de tributos em dinheiro gera concomitantemente uma receita orçamentária realizada e um fato permutativo no patrimônio líquido da entidade caso o crédito tributário já tenha sido lançado previamente.  
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, II e III.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Os itens II e III também são verdadeiros, tornando a alternativa incompleta.
-> - **B)** Incorreta. Deixa de incluir o item III, que expressa corretamente a dinâmica da CASP.
-> - **C)** Incorreta. O item I é a previsão literal do art. 35 da Lei nº 4.320/1964.
-> - **D)** Incorreta. O item II reflete o preceito central do MCASP moderno (regime de competência patrimonial).
-> - **E)** Correta. Todas as três assertivas são verdadeiras: o item I reproduz o art. 35 da Lei Federal nº 4.320/1964 (regime orçamentário misto); o item II reflete a consolidação da competência pura para o patrimônio pelas NBC TSP e MCASP; e o item III descreve com rigor a transação de arrecadação de tributos cujo lançamento ocorreu em momento anterior (no lançamento houve VPA; na arrecadação há receita orçamentária realizada e simples permutação patrimonial entre Disponibilidades e Créditos a Receber).
-> 
-> **Gabarito: E**

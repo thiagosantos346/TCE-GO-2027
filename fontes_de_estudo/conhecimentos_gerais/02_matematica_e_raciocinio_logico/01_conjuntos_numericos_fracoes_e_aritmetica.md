@@ -38,12 +38,6 @@
     - [5.2 Problemas de Trabalho Conjunto e Torneiras](#52-problemas-de-trabalho-conjunto-e-torneiras)
     - [5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais](#53-problemas-de-ciclos-periodicos-e-padroes-sequenciais)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
-    - [Questão 01](#questao-01)
-    - [Questão 02](#questao-02)
-    - [Questão 03](#questao-03)
-    - [Questão 04](#questao-04)
-    - [Questão 05](#questao-05)
 
 ---
 
@@ -101,6 +95,50 @@ Propriedades críticas da divisão inteira:
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Em problemas que envolvem ciclos e restos de divisão (dias da semana, rodízio de equipes, posições de algarismos), o divisor corresponde ao tamanho do ciclo. Se o resto for zero, significa que a divisão foi exata e que a posição procurada corresponde rigorosamente ao **último elemento** do ciclo periódico, e não ao primeiro!
 
 ---
+
+### Questão 01
+**(FCC – TCE-GO – Auditor de Controle Externo)**  
+Considere a sequência infinita de números formados pela repetição cíclica dos algarismos do número 74582:
+$$7, 4, 5, 8, 2, 7, 4, 5, 8, 2, 7, 4, 5, 8, 2, \dots$$
+O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão de 2027 por 5 são, respectivamente:
+
+* **A)** 5 e 2
+* **B)** 4 e 2
+* **C)** 7 e 1
+* **D)** 5 e 3
+* **E)** 8 e 4
+
+> **Comentário Detalhado:**
+> Análise do padrão de periodicidade cíclica:
+>
+> 1. O ciclo básico é composto por 5 algarismos ordenados:
+>     - 1º elemento: 7 (posições que deixam resto 1 na divisão por 5)
+>     - 2º elemento: 4 (posições que deixam resto 2 na divisão por 5)
+>     - 3º elemento: 5 (posições que deixam resto 3 na divisão por 5)
+>     - 4º elemento: 8 (posições que deixam resto 4 na divisão por 5)
+>     - 5º elemento: 2 (posições que deixam resto 0 na divisão por 5, múltiplos exatos de 5)
+>
+> 2. Pelo algoritmo da divisão euclidiana, dividimos a posição 2027 pelo comprimento do período (5):
+>    $$2027 = 5 \times 405 + 2$$
+>     - O quociente 405 indica que o ciclo completo de 5 algarismos é repetido integralmente 405 vezes.
+>     - O **resto é 2**.
+>
+> 3. Como o resto da divisão é 2, o algarismo que ocupa a 2027ª posição corresponde ao segundo elemento do bloco cíclico padrão $(7, \mathbf{4}, 5, 8, 2)$, que é o algarismo **4**.
+> 4. Logo, o algarismo é **4** e o resto é **2**.
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. Indica o algarismo 5, que corresponderia a resto 3.
+> - **B)** Correta. O algarismo na posição 2027 é o 2º elemento do ciclo (**4**) e o resto da divisão euclidiana de 2027 por 5 é **2**.
+> - **C)** Incorreta. Aponta resto 1 e algarismo 7.
+> - **D)** Incorreta. Afirma erroneamente que o resto de 2027 por 5 é 3.
+> - **E)** Incorreta. Aponta o algarismo 8 e resto 4.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ## 2. Operações Aritméticas e Expressões Numéricas
 
@@ -177,6 +215,44 @@ flowchart LR
 
 > 💡 **DICA DE IDENTIFICAÇÃO (MMC NA FCC):** O problema exige MMC sempre que veicular ideias de **coincidência temporal futura**, **reencontro de eventos periódicos**, **ciclos de rondas/inspeções** ou questões que indaguem: *"quando voltarão a se encontrar simultaneamente?"*.
 
+---
+
+### Questão 02
+**(FCC – Auditor Fiscal da Receita – Adaptada)**  
+Três equipes de fiscalização do Tribunal de Contas realizam auditorias periódicas em municípios do interior goiano. A equipe Alfa realiza auditorias a cada 12 dias; a equipe Beta, a cada 18 dias; e a equipe Gama, a cada 20 dias. No dia 1º de março de determinado ano não bissexto, as três equipes iniciaram suas inspeções simultaneamente.
+
+O número de dias que decorrerão até que as três equipes voltem a iniciar suas auditorias no mesmo dia é:
+
+* **A)** 60 dias
+* **B)** 120 dias
+* **C)** 180 dias
+* **D)** 240 dias
+* **E)** 360 dias
+
+> **Comentário Detalhado:**
+> O problema demanda o cálculo do menor intervalo de tempo em que eventos com frequências periódicas distintas coincidem simultaneamente no futuro, o que se resolve determinando o **Mínimo Múltiplo Comum (MMC)** entre 12, 18 e 20.
+> Decompondo os números em fatores primos simultâneos:
+>
+> - $12 = 2^2 \times 3$
+> - $18 = 2 \times 3^2$
+> - $20 = 2^2 \times 5$
+> 
+> O MMC reúne todos os fatores primos presentes (2, 3 e 5), elevados aos seus maiores expoentes:
+> $$\text{MMC}(12, 18, 20) = 2^2 \times 3^2 \times 5 = 4 \times 9 \times 5 = 180 \text{ dias}$$
+> 
+> Análise individual das alternativas:
+>
+> - **A)** Incorreta. 60 é múltiplo comum de 12 e 20, mas não é divisível por 18 ($60 \div 18 \approx 3,33$).
+> - **B)** Incorreta. 120 é divisível por 12 e por 20, mas não divide exatamente por 18 ($120 \div 18 \approx 6,66$).
+> - **C)** Correta. 180 é o menor número natural simultaneamente divisível por 12 ($180/12 = 15$), 18 ($180/18 = 10$) e 20 ($180/20 = 9$).
+> - **D)** Incorreta. 240 não é divisível por 18 ($240 \div 18 \approx 13,33$).
+> - **E)** Incorreta. 360 é um múltiplo comum posterior, mas a questão indaga expressamente quando voltarão a coincidir (primeiro reencontro após 1º de março).
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos
 
 O **Máximo Divisor Comum (MDC)** é o maior número inteiro capaz de dividir exatamente todos os números dados, sem deixar resto.
@@ -190,6 +266,48 @@ O **Máximo Divisor Comum (MDC)** é o maior número inteiro capaz de dividir ex
 | **Fatoração em primos** | Fatores comuns e não comuns com os **maiores expoentes** | Apenas fatores **comuns** com os **menores expoentes** |
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA CLÁSSICA DO MDC:** Em problemas de particionamento (como arquivar pastas em caixas de maior tamanho possível), o cálculo do MDC fornece a **capacidade de cada caixa**, e **não a quantidade total de caixas**! Para achar a quantidade de caixas, deve-se somar a divisão de cada lote pelo valor do MDC encontrado.
+
+---
+
+### Questão 03
+**(FCC – TCE-PI – Técnico de Controle Externo)**  
+Uma coordenadoria administrativa do TCE-GO precisa arquivar 168 pastas de auditoria do tipo A, 216 pastas do tipo B e 264 pastas do tipo C em caixas organizadoras. Todas as caixas devem conter o mesmo número de pastas, sendo que cada caixa conterá pastas de um único tipo, e o número de pastas por caixa deve ser o **maior possível**, sem que sobre nenhuma pasta avulsa.
+
+Nessas condições, o **número total de caixas organizadoras** necessárias para arquivar todas as pastas é:
+
+* **A)** 24
+* **B)** 27
+* **C)** 32
+* **D)** 36
+* **E)** 48
+
+> **Comentário Detalhado:**
+> A resolução compõe-se de duas etapas lógicas:
+>
+> 1. Para que as caixas tenham capacidade idêntica, comportem apenas pastas do mesmo tipo e o número de pastas em cada caixa seja o **maior possível**, a capacidade de cada caixa deve corresponder ao **Máximo Divisor Comum (MDC)** entre 168, 216 e 264:
+>     - $168 = 2^3 \times 3 \times 7$
+>     - $216 = 2^3 \times 3^3$
+>     - $264 = 2^3 \times 3 \times 11$
+>     - $\text{MDC}(168, 216, 264) = 2^3 \times 3^1 = 8 \times 3 = 24 \text{ pastas por caixa}$.
+>
+> 2. O enunciado indaga expressamente o **número de caixas** demandado (e não a quantidade de pastas por caixa):
+>     - Caixas para o lote A: $168 \div 24 = 7 \text{ caixas}$
+>     - Caixas para o lote B: $216 \div 24 = 9 \text{ caixas}$
+>     - Caixas para o lote C: $264 \div 24 = 11 \text{ caixas}$
+>     - Total de caixas: $7 + 9 + 11 = 27 \text{ caixas}$.
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. 24 é a capacidade unitária de pastas em cada caixa (o valor do MDC), armadilha clássica da FCC para o candidato desatento ao comando da questão.
+> - **B)** Correta. 27 caixas no total ($7 + 9 + 11$).
+> - **C)** Incorreta. Com 32 caixas, o total de 648 pastas ($168 + 216 + 264$) exigiria $648 \div 32 = 20{,}25$ pastas por caixa (valor não inteiro), o que é inviável.
+> - **D)** Incorreta. Com 36 caixas, haveria $648 \div 36 = 18$ pastas por caixa; porém 18 não divide 168 ($168 \div 18 \approx 9{,}33$), o que deixaria pastas avulsas.
+> - **E)** Incorreta. Com 48 caixas, haveria $648 \div 48 = 13{,}5$ pastas por caixa (valor não inteiro), o que é inviável.
+> 
+> **Gabarito: B**
+
+---
+
 
 ### 3.5 Relação Fundamental entre MMC e MDC
 
@@ -236,42 +354,9 @@ Problemas clássicos da FCC narram um agente que consome uma fração de um mont
   $$\text{Resto Final} = \left(1 - \frac{3}{5}\right) \times \frac{2}{3}T = \frac{2}{5} \times \frac{2}{3}T = \frac{4}{15}T$$
 * Igualando essa fração ao valor numérico remanescente dado no enunciado, descobre-se o total $T$ por equação direta.
 
-### 5.2 Problemas de Trabalho Conjunto e Torneiras
-
-Quando dois agentes executam uma mesma tarefa de forma cooperativa em ritmos constantes, somam-se as suas taxas unitárias horárias de produtividade:
-$$\text{Taxa Conjunta} = \frac{1}{T_{\text{junto}}} = \frac{1}{t_1} + \frac{1}{t_2} + \dots - \frac{1}{t_{\text{ralo}}}$$
-Para o caso específico de dois agentes que levam tempos individuais $t_1$ e $t_2$:
-$$T = \frac{t_1 \cdot t_2}{t_1 + t_2}$$
-
-*Atenção à Conversão de Tempo:* Se o resultado da divisão em horas for decimal, como $2,4\text{ horas}$, a parte inteira corresponde a $2\text{ horas}$ e a parte decimal $0,4$ deve ser multiplicada por $60\text{ minutos}$ ($0,4 \times 60 = 24\text{ minutos}$). Logo, $2,4\text{ h} = 2\text{ horas e } 24\text{ minutos}$ (e nunca 2h40min!).
-
-### 5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais
-
-Em problemas que constroem sequências infinitas repetindo ciclicamente um conjunto finito de $k$ elementos ($x_1, x_2, \dots, x_k$):
-
-1. Toma-se o número da posição requerida $P$;
-2. Divide-se $P$ pelo tamanho do ciclo $k$, obtendo o quociente $q$ e o resto $r$ ($P = k \cdot q + r$);
-3. **Se o resto $r > 0$:** O termo procurado é exatamente o $r$-ésimo elemento do ciclo padrão;
-4. **Se o resto $r = 0$:** O termo procurado é o último elemento do ciclo (o $k$-ésimo elemento).
-
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [Khan Academy Brasil - Aritmética e Operações Fundamentais](https://pt.khanacademy.org/math/arithmetic) - Operações fundamentais com inteiros e números racionais, potenciação e expressões numéricas.
-* [Khan Academy Brasil - Frações e Operações Fracionárias](https://pt.khanacademy.org/math/arithmetic/fraction-arithmetic) - Adição, subtração, multiplicação, divisão e simplificação de frações ordinárias.
-* [Khan Academy Brasil - Pré-Álgebra: Fatores, Primos e Divisibilidade](https://pt.khanacademy.org/math/pre-algebra) - Critérios de divisibilidade, números primos, fatoração e cálculo de MMC e MDC.
-* [OBMEP / IMPA - Apostila 1 do PIC: Iniciação à Aritmética](https://www.obmep.org.br/docs/apostila1.pdf) - Teoria elementar dos números, divisibilidade, algoritmo da divisão de Euclides e propriedades de restos (Prof. Abramo Hefez).
-* [OBMEP / IMPA - Apostila Temática: Aritmética](https://www.obmep.org.br/docs/aritmetica.pdf) - Módulo aprofundado com demonstrações teóricas e problemas clássicos de aritmética e números inteiros.
-* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 1 e 2 - Fundamentos e Operações Básicas).
-* HEFEZ, Abramo. **Elementos de Aritmética**. 2. ed. Rio de Janeiro: SBM, 2011. (Cap. 2 - Divisibilidade e Algoritmo de Euclides).
-* IEZZI, Gelson; MURAKAMI, Carlos. **Fundamentos de Matemática Elementar, Volume 1: Conjuntos e Funções**. 9. ed. São Paulo: Atual, 2013. (Cap. 1 a 3 - Conjuntos Numéricos Fundamentais).
-
----
-
-## 📝 Questões de Concurso FCC Comentadas
-
-### Questão 01
+### Questão 04
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Um auditor do TCE-GO foi designado para realizar a conferência documental de uma amostra de processos de licitação municipal. No primeiro dia de trabalho, o auditor analisou $\frac{1}{3}$ do total de processos da amostra. No segundo dia, analisou $\frac{3}{5}$ dos processos **restantes**. No terceiro dia, finalizou a conferência analisando os últimos 48 processos.
 
@@ -297,90 +382,28 @@ O número total de processos contidos originalmente nessa amostra era:
 > Análise individual das alternativas:
 >
 > - **A)** Incorreta. Se o total fosse 150, o resto final seria $\frac{4}{15} \times 150 = 40$ processos, divergindo dos 48 informados.
-> - **B)** Incorreta. Decorre de equívoco no cálculo das frações parciais.
+> - **B)** Incorreta. Com $T = 160$, o resto final seria $\frac{4}{15} \times 160 \approx 42{,}7$ processos (valor não inteiro), divergindo dos 48 informados.
 > - **C)** Correta. Com $T = 180$: no dia 1 são analisados 60 processos (restando 120); no dia 2 são analisados $\frac{3}{5} \times 120 = 72$ processos (restando $120 - 72 = 48$); no dia 3 são analisados exatamente os 48 processos finais.
-> - **D)** Incorreta. Ocorre se o candidato calcular $\frac{3}{5}$ sobre o total geral em vez de incidir sobre o restante ($1 - \frac{1}{3} - \frac{3}{5} = \frac{1}{15} \implies \frac{1}{15}T = 48 \implies T = 720$).
-> - **E)** Incorreta. Decorre de erro na simplificação de $\frac{720}{4}$ ou na dedução inicial.
+> - **D)** Incorreta. Com $T = 200$, o resto final seria $\frac{4}{15} \times 200 \approx 53{,}3$ processos (valor não inteiro), divergindo dos 48 informados. (Erro típico: aplicar $\frac{3}{5}$ sobre o total geral em vez de sobre o restante, o que daria $1 - \frac{1}{3} - \frac{3}{5} = \frac{1}{15}$ e $T = 720$, valor que nem figura entre as alternativas.)
+> - **E)** Incorreta. Com $T = 240$, o resto final seria $\frac{4}{15} \times 240 = 64$ processos, divergindo dos 48 informados.
 > 
 > **Gabarito: C**
 
 ---
 
-### Questão 02
-**(FCC – Auditor Fiscal da Receita – Adaptada)**  
-Três equipes de fiscalização do Tribunal de Contas realizam auditorias periódicas em municípios do interior goiano. A equipe Alfa realiza auditorias a cada 12 dias; a equipe Beta, a cada 18 dias; e a equipe Gama, a cada 20 dias. No dia 1º de março de determinado ano não bissexto, as três equipes iniciaram suas inspeções simultaneamente.
 
-O número de dias que decorrerão até que as três equipes voltem a iniciar suas auditorias no mesmo dia é:
+### 5.2 Problemas de Trabalho Conjunto e Torneiras
 
-* **A)** 60 dias
-* **B)** 120 dias
-* **C)** 180 dias
-* **D)** 240 dias
-* **E)** 360 dias
+Quando dois agentes executam uma mesma tarefa de forma cooperativa em ritmos constantes, somam-se as suas taxas unitárias horárias de produtividade:
+$$\text{Taxa Conjunta} = \frac{1}{T_{\text{junto}}} = \frac{1}{t_1} + \frac{1}{t_2} + \dots - \frac{1}{t_{\text{ralo}}}$$
+Para o caso específico de dois agentes que levam tempos individuais $t_1$ e $t_2$:
+$$T = \frac{t_1 \cdot t_2}{t_1 + t_2}$$
 
-> **Comentário Detalhado:**
-> O problema demanda o cálculo do menor intervalo de tempo em que eventos com frequências periódicas distintas coincidem simultaneamente no futuro, o que se resolve determinando o **Mínimo Múltiplo Comum (MMC)** entre 12, 18 e 20.
-> Decompondo os números em fatores primos simultâneos:
->
-> - $12 = 2^2 \times 3$
-> - $18 = 2 \times 3^2$
-> - $20 = 2^2 \times 5$
-> 
-> O MMC reúne todos os fatores primos presentes (2, 3 e 5), elevados aos seus maiores expoentes:
-> $$\text{MMC}(12, 18, 20) = 2^2 \times 3^2 \times 5 = 4 \times 9 \times 5 = 180 \text{ dias}$$
-> 
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. 60 é múltiplo comum de 12 e 20, mas não é divisível por 18 ($60 \div 18 \approx 3,33$).
-> - **B)** Incorreta. 120 é divisível por 12 e por 20, mas não divide exatamente por 18 ($120 \div 18 \approx 6,66$).
-> - **C)** Correta. 180 é o menor número natural simultaneamente divisível por 12 ($180/12 = 15$), 18 ($180/18 = 10$) e 20 ($180/20 = 9$).
-> - **D)** Incorreta. 240 não é divisível por 18 ($240 \div 18 \approx 13,33$).
-> - **E)** Incorreta. 360 é um múltiplo comum posterior, mas a questão indaga expressamente quando voltarão a coincidir (primeiro reencontro após 1º de março).
-> 
-> **Gabarito: C**
+*Atenção à Conversão de Tempo:* Se o resultado da divisão em horas for decimal, como $2,4\text{ horas}$, a parte inteira corresponde a $2\text{ horas}$ e a parte decimal $0,4$ deve ser multiplicada por $60\text{ minutos}$ ($0,4 \times 60 = 24\text{ minutos}$). Logo, $2,4\text{ h} = 2\text{ horas e } 24\text{ minutos}$ (e nunca 2h40min!).
 
 ---
 
-### Questão 03
-**(FCC – TCE-PI – Técnico de Controle Externo)**  
-Uma coordenadoria administrativa do TCE-GO precisa arquivar 168 pastas de auditoria do tipo A, 216 pastas do tipo B e 264 pastas do tipo C em caixas organizadoras. Todas as caixas devem conter o mesmo número de pastas, sendo que cada caixa conterá pastas de um único tipo, e o número de pastas por caixa deve ser o **maior possível**, sem que sobre nenhuma pasta avulsa.
-
-Nessas condições, o **número total de caixas organizadoras** necessárias para arquivar todas as pastas é:
-
-* **A)** 24
-* **B)** 27
-* **C)** 32
-* **D)** 36
-* **E)** 48
-
-> **Comentário Detalhado:**
-> A resolução compõe-se de duas etapas lógicas:
->
-> 1. Para que as caixas tenham capacidade idêntica, comportem apenas pastas do mesmo tipo e o número de pastas em cada caixa seja o **maior possível**, a capacidade de cada caixa deve corresponder ao **Máximo Divisor Comum (MDC)** entre 168, 216 e 264:
->     - $168 = 2^3 \times 3 \times 7$
->     - $216 = 2^3 \times 3^3$
->     - $264 = 2^3 \times 3 \times 11$
->     - $\text{MDC}(168, 216, 264) = 2^3 \times 3^1 = 8 \times 3 = 24 \text{ pastas por caixa}$.
->
-> 2. O enunciado indaga expressamente o **número de caixas** demandado (e não a quantidade de pastas por caixa):
->     - Caixas para o lote A: $168 \div 24 = 7 \text{ caixas}$
->     - Caixas para o lote B: $216 \div 24 = 9 \text{ caixas}$
->     - Caixas para o lote C: $264 \div 24 = 11 \text{ caixas}$
->     - Total de caixas: $7 + 9 + 11 = 27 \text{ caixas}$.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. 24 é a capacidade unitária de pastas em cada caixa (o valor do MDC), armadilha clássica da FCC para o candidato desatento ao comando da questão.
-> - **B)** Correta. 27 caixas no total ($7 + 9 + 11$).
-> - **C)** Incorreta. Decorre de soma equivocada dos quocientes de divisão.
-> - **D)** Incorreta. Considerou indevidamente um divisor não ótimo.
-> - **E)** Incorreta. Decorre de erro na soma dos fatores primos ou de divisão simples por 12.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 04
+### Questão 05
 **(FCC – TRT – Técnico Judiciário)**  
 Dois técnicos de controle externo, Bruno e Camila, foram encarregados de digitalizar e indexar um acervo de processos arquivados. Trabalhando sozinho, Bruno realiza todo o serviço em 6 horas. Camila, trabalhando sozinha, executa o mesmo serviço em 4 horas. 
 
@@ -418,42 +441,25 @@ Se Bruno e Camila trabalharem juntos, no mesmo ritmo de produtividade constante,
 
 ---
 
-### Questão 05
-**(FCC – TCE-GO – Auditor de Controle Externo)**  
-Considere a sequência infinita de números formados pela repetição cíclica dos algarismos do número 74582:
-$$7, 4, 5, 8, 2, 7, 4, 5, 8, 2, 7, 4, 5, 8, 2, \dots$$
-O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão de 2027 por 5 são, respectivamente:
 
-* **A)** 5 e 2
-* **B)** 4 e 2
-* **C)** 7 e 1
-* **D)** 5 e 3
-* **E)** 8 e 4
+### 5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais
 
-> **Comentário Detalhado:**
-> Análise do padrão de periodicidade cíclica:
->
-> 1. O ciclo básico é composto por 5 algarismos ordenados:
->     - 1º elemento: 7 (posições que deixam resto 1 na divisão por 5)
->     - 2º elemento: 4 (posições que deixam resto 2 na divisão por 5)
->     - 3º elemento: 5 (posições que deixam resto 3 na divisão por 5)
->     - 4º elemento: 8 (posições que deixam resto 4 na divisão por 5)
->     - 5º elemento: 2 (posições que deixam resto 0 na divisão por 5, múltiplos exatos de 5)
->
-> 2. Pelo algoritmo da divisão euclidiana, dividimos a posição 2027 pelo comprimento do período (5):
->    $$2027 = 5 \times 405 + 2$$
->     - O quociente 405 indica que o ciclo completo de 5 algarismos é repetido integralmente 405 vezes.
->     - O **resto é 2**.
->
-> 3. Como o resto da divisão é 2, o algarismo que ocupa a 2027ª posição corresponde ao segundo elemento do bloco cíclico padrão $(7, \mathbf{4}, 5, 8, 2)$, que é o algarismo **4**.
-> 4. Logo, o algarismo é **4** e o resto é **2**.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Indica o algarismo 5, que corresponderia a resto 3.
-> - **B)** Correta. O algarismo na posição 2027 é o 2º elemento do ciclo (**4**) e o resto da divisão euclidiana de 2027 por 5 é **2**.
-> - **C)** Incorreta. Aponta resto 1 e algarismo 7.
-> - **D)** Incorreta. Afirma erroneamente que o resto de 2027 por 5 é 3.
-> - **E)** Incorreta. Aponta o algarismo 8 e resto 4.
-> 
-> **Gabarito: B**
+Em problemas que constroem sequências infinitas repetindo ciclicamente um conjunto finito de $k$ elementos ($x_1, x_2, \dots, x_k$):
+
+1. Toma-se o número da posição requerida $P$;
+2. Divide-se $P$ pelo tamanho do ciclo $k$, obtendo o quociente $q$ e o resto $r$ ($P = k \cdot q + r$);
+3. **Se o resto $r > 0$:** O termo procurado é exatamente o $r$-ésimo elemento do ciclo padrão;
+4. **Se o resto $r = 0$:** O termo procurado é o último elemento do ciclo (o $k$-ésimo elemento).
+
+---
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [Khan Academy Brasil - Aritmética e Operações Fundamentais](https://pt.khanacademy.org/math/arithmetic) - Operações fundamentais com inteiros e números racionais, potenciação e expressões numéricas.
+* [Khan Academy Brasil - Frações e Operações Fracionárias](https://pt.khanacademy.org/math/arithmetic/fraction-arithmetic) - Adição, subtração, multiplicação, divisão e simplificação de frações ordinárias.
+* [Khan Academy Brasil - Pré-Álgebra: Fatores, Primos e Divisibilidade](https://pt.khanacademy.org/math/pre-algebra) - Critérios de divisibilidade, números primos, fatoração e cálculo de MMC e MDC.
+* [OBMEP / IMPA - Apostila 1 do PIC: Iniciação à Aritmética](https://www.obmep.org.br/docs/apostila1.pdf) - Teoria elementar dos números, divisibilidade, algoritmo da divisão de Euclides e propriedades de restos (Prof. Abramo Hefez).
+* [OBMEP / IMPA - Apostila Temática: Aritmética](https://www.obmep.org.br/docs/aritmetica.pdf) - Módulo aprofundado com demonstrações teóricas e problemas clássicos de aritmética e números inteiros.
+* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 1 e 2 - Fundamentos e Operações Básicas).
+* HEFEZ, Abramo. **Elementos de Aritmética**. 2. ed. Rio de Janeiro: SBM, 2011. (Cap. 2 - Divisibilidade e Algoritmo de Euclides).
+* IEZZI, Gelson; MURAKAMI, Carlos. **Fundamentos de Matemática Elementar, Volume 1: Conjuntos e Funções**. 9. ed. São Paulo: Atual, 2013. (Cap. 1 a 3 - Conjuntos Numéricos Fundamentais).

@@ -50,12 +50,6 @@
     - [6.4 Porquê: Substantivo com Artigo ou Determinante](#64-porque-substantivo-com-artigo-ou-determinante)
     - [6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A](#65-distincoes-lexicas-adicionais-a-fim-de-vs-afim-e-ao-encontro-de-vs-de-encontro-a)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [Questões de Concurso FCC Comentadas](#questoes-de-concurso-fcc-comentadas)
-    - [Questão 01](#questao-01)
-    - [Questão 02](#questao-02)
-    - [Questão 03](#questao-03)
-    - [Questão 04](#questao-04)
-    - [Questão 05](#questao-05)
 
 ---
 
@@ -123,6 +117,31 @@ Nas estruturas formadas por pares de conectivos correlativos (*não só... mas t
 * **Construção Perfeita:** *"O tribunal busca aprimorar os mecanismos de fiscalização **não só para conferir transparência**, **mas também para garantir a legalidade**."* (ambos estruturados por oração subordinada final reduzida de infinitivo: *para conferir* $\leftrightarrow$ *para garantir*).
 * **Construção Defeituosa (Quebra de Paralelismo):** *"O tribunal busca aprimorar os mecanismos **não só para conferir transparência**, **mas garantindo a legalidade**."* (misturou oração com preposição + infinitivo com oração reduzida no gerúndio).
 
+---
+
+### Questão 01
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+A frase cuja redação prima pela clareza, pela concisão e pela **estrita correção gramatical**, sem qualquer vício de paralelismo sintático ou de regência, é:
+
+* **A)** *"A equipe de fiscalização dedicou-se a examinar os contratos de tecnologia e na verificação das certidões fiscais das licitantes."*
+* **B)** *"O relatório a que o conselheiro relator fez menção detalha as razões por que foram desaprovadas as contas da autarquia."*
+* **C)** *"O secretário alertou os diretores de que haveriam reuniões extraordinárias afim de deliberar sobre o plano estratégico."*
+* **D)** *"Não se deve desobedecer as normas regimentais, sob pena de incorrer em penalidades que todos querem evitar elas."*
+* **E)** *"O tribunal busca aprimorar os mecanismos de auditoria não só para conferir transparência aos atos mas garantindo a legalidade."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Apresenta quebra frontal de paralelismo sintático: o verbo *dedicar-se* regeu a preposição *a* no primeiro termo coordenado (*a examinar*) e a preposição *em* no segundo termo coordenado (*na verificação*). A construção harmônica exigiria: *dedicou-se a examinar os contratos e a verificar as certidões* (ou *ao exame dos contratos e à verificação das certidões*).
+> - **B)** Correta. A oração reúne três acertos sintáticos exemplares: 1) A expressão *fazer menção* rege a preposição *a* (*quem faz menção, faz menção a algo*), a qual foi adequadamente anteposta ao pronome relativo (*a que o conselheiro fez menção*); 2) O vocábulo *por que* foi grafado separadamente e sem acento de forma perfeita, equivalendo a "pelas quais razões"; 3) A concordância verbal da voz passiva analítica está irrepreensível, com o verbo no plural concordando com o sujeito paciente plural (*foram desaprovadas as contas da autarquia*).
+> - **C)** Incorreta. Apresenta dois erros graves: o verbo impessoal *haver* no sentido de existir foi indevidamente pluralizado (*haveriam reuniões* em vez do correto *haveria reuniões*); e a locução de finalidade foi grafada junta de modo vicioso (*afim de* em vez de *a fim de*).
+> - **D)** Incorreta. O verbo *desobedecer* é Transitivo Indireto e rege a preposição *a* (*desobedecer às normas*); além disso, o emprego do pronome pessoal do caso reto como objeto direto verbal (*evitar elas*) viola a norma-padrão, que exige a forma oblíqua enclítica (*evitá-las*).
+> - **E)** Incorreta. Rompe o paralelismo sintático na estrutura correlativa *não só... mas*: coordenou uma oração preposicionada de infinitivo com valor final (*não só para conferir transparência*) com uma oração reduzida no gerúndio (*mas garantindo*). O correto seria: *não só para conferir transparência, mas também para garantir a legalidade*.
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção
 
 | Frase com Quebra de Paralelismo (Incorreta) | Causa do Desvio | Frase com Paralelismo Perfeito (Correta) |
@@ -133,6 +152,30 @@ Nas estruturas formadas por pares de conectivos correlativos (*não só... mas t
 | *"A comissão propôs **a revisão** das medições e **que se fizesse** nova perícia."* | Coordenou frase nominal com oração subordinada substantiva. | *"A comissão propôs **a revisão** das medições e **a realização** de nova perícia."* |
 
 ---
+
+### Questão 02
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+A frase que apresenta **quebra de paralelismo sintático** é:
+
+* **A)** *"O tribunal exige dos candidatos idoneidade moral, notório conhecimento e capacidade de liderança."*
+* **B)** *"O parecer recomendava a suspensão cautelar do certame e a anulação de todos os atos subsequentes."*
+* **C)** *"A comissão de auditoria propôs a revisão das medições de asfalto e que se fizesse uma nova perícia técnica."*
+* **D)** *"O servidor público deve agir com probidade, transparência e presteza."*
+* **E)** *"O auditor atuou não apenas no levantamento documental, mas também na instrução probatória dos autos."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Apresenta paralelismo sintático perfeito: todos os três complementos coordenados do verbo *exigir* são sintagmas nominais homogêneos (*idoneidade moral*, *notório conhecimento*, *capacidade de liderança*).
+> - **B)** Incorreta. Paralelismo sintático preservado: os dois complementos verbais são estruturados por sintagmas nominais com substantivos abstratos derivados de ação (*a suspensão cautelar* e *a anulação de todos os atos*).
+> - **C)** Correta (apresenta erro de paralelismo). O verbo *propôs* teve seus complementos coordenados estruturados de forma assimétrica e heterogênea: o primeiro elemento coordenado é um **sintagma nominal** (*a revisão das medições de asfalto*), ao passo que o segundo elemento coordenado é uma **oração subordinada substantiva desenvolvida** (*e que se fizesse uma nova perícia técnica*). A harmonia sintática culta exigiria unificar as estruturas: ou dois sintagmas nominais (*propôs a revisão das medições e a realização de nova perícia*) ou duas orações desenvolvidas (*propôs que se revisassem as medições e que se fizesse nova perícia*).
+> - **D)** Incorreta. Paralelismo mantido com perfeição: enumeração homogênea de substantivos abstratos preposicionados de mesma função (*com probidade, transparência e presteza*).
+> - **E)** Incorreta. Paralelismo mantido com exatidão: a estrutura correlativa *não apenas... mas também* liga dois termos preposicionados equivalentes (*no levantamento documental* $\leftrightarrow$ *na instrução probatória*).
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ## 3. Ambiguidade e Vícios de Construção Frasal
 
@@ -152,6 +195,33 @@ No português moderno, os pronomes possessivos de terceira pessoa (*seu, sua, se
 * **Método de Saneamento Técnico:** Substitui-se o pronome ambíguo pelas locuções possessivas inequívocas **dele / dela / de você / de Vossa Excelência**:
     * *"O presidente comunicou ao conselheiro a transferência da assessoria **dele** [do conselheiro] para o novo gabinete."*
     * *"O presidente comunicou ao conselheiro que a assessoria **deste** seria transferida."*
+
+---
+
+### Questão 03
+**(FCC – AL-SP – Técnico Legislativo)**  
+Assinale a alternativa em que a reescrita da frase entre parênteses elimina a ambiguidade mantendo a clareza e a correção gramatical:  
+*(O presidente comunicou ao conselheiro que sua assessoria seria transferida para o novo gabinete.)*
+
+* **A)** *"O presidente comunicou ao conselheiro a transferência da assessoria dele para o novo gabinete."*
+* **B)** *"O presidente comunicou ao conselheiro que a assessoria de sua pessoa seria transferida para o novo gabinete."*
+* **C)** *"O presidente comunicou que a assessoria sua seria transferida para o conselheiro no novo gabinete."*
+* **D)** *"O presidente comunicou ao conselheiro de que sua própria assessoria transferir-se-ia para o novo gabinete."*
+* **E)** *"O presidente comunicou ao conselheiro que a assessoria do mesmo seria transferida para o novo gabinete."*
+
+> **Comentário Detalhado:**
+>
+> - **Problema da frase original:** O emprego do pronome possessivo de terceira pessoa *sua* gera ambiguidade estrutural manifesta, impedindo o leitor de definir com segurança se a assessoria a ser transferida pertencia ao Presidente (sujeito) ou ao Conselheiro (objeto indireto).
+> - **A)** Correta. Ao substituir o pronome possessivo polissêmico pela locução pós-nominal **"dele"** (*a assessoria dele*), a frase dissipa qualquer dúvida interpretativa, demonstrando cristalinamente que a assessoria subordinava-se ao conselheiro. Ademais, promove uma elegante nominalização (*a transferência da assessoria*), garantindo concisão e estrita observância à norma culta.
+> - **B)** Incorreta. A locução artificial *"assessoria de sua pessoa"* é prolixa, canhestra e rejeitada pela estilística oficial.
+> - **C)** Incorreta. A reorganização dos termos manteve a redação confusa e deselegante.
+> - **D)** Incorreta. O verbo *comunicar* é Transitivo Direto e Indireto (*comunicar algo a alguém*); o acréscimo da preposição *de* (*"comunicou ao conselheiro de que..."*) constitui vício de regência, ao atribuir dois complementos indiretos preposicionados ao mesmo verbo.
+> - **E)** Incorreta. O emprego da expressão *"do mesmo"* como pronome anafórico pessoal para substituir indivíduos constitui vício de linguagem formalmente condenado pelo Manual de Redação da Presidência da República e pela gramática culta.
+> 
+> **Gabarito: A**
+
+---
+
 
 ### 3.3 O Mau Posicionamento de Adjuntos Adverbiais e Orações Reduzidas
 
@@ -235,6 +305,33 @@ Uma das técnicas prediletas de transformação de períodos na banca FCC é a c
     * *"**A despeito das advertências** emitidas pelo órgão, mantiveram as práticas."*
     * $\rightarrow$ *"**Embora o órgão tenha emitido** advertências, mantiveram as práticas."*
 
+---
+
+### Questão 04
+**(FCC – TRT – Técnico Judiciário)**  
+Considere o período:  
+*"<ins>A despeito das inúmeras advertências emitidas pelo órgão fiscalizador</ins>, os gestores mantiveram as práticas ilegítimas, o que ensejou a aplicação de severas multas."*  
+Uma reescrita que preserva a correção gramatical e as **mesmas relações lógicas de sentido** do período original é:
+
+* **A)** *"Visto que o órgão fiscalizador emitiu advertências, os gestores mantiveram as práticas ilegítimas, porquanto aplicaram-se multas severas."*
+* **B)** *"Embora o órgão fiscalizador tenha emitido inúmeras advertências, os gestores mantiveram as práticas ilegítimas, motivo pelo qual severas multas foram aplicadas."*
+* **C)** *"À medida que o órgão fiscalizador advertia os gestores, estes mantinham as práticas ilegítimas, à proporção que foram multados com rigor."*
+* **D)** *"Caso o órgão fiscalizador emitisse advertências, os gestores manteriam as práticas ilegítimas e poderiam aplicar multas."*
+* **E)** *"Conforme o órgão fiscalizador advertiu, os gestores mantiveram as práticas ilegítimas de modo que multaram-se os ordenadores."*
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Desvirtua a relação semântica fundamental do período: substituiu o valor concessivo original (*A despeito de*) por um valor causal (*Visto que*), e transformou a consequência final em causa explicativa com *porquanto*.
+> - **B)** Correta. Transforma impecavelmente a locução prepositiva nominal concessiva (*A despeito de...*) em uma oração subordinada adverbial concessiva desenvolvida introduzida pelo conectivo canônico **"Embora"**, flexionando o verbo de modo harmônico no pretérito perfeito do subjuntivo (**"Embora (...) tenha emitido"**). Ademais, preserva a oração principal intacta e verte o segmento consecutivo final em oração coordenada conclusiva de límpida concisão e correção gramatical (**"motivo pelo qual severas multas foram aplicadas"**).
+> - **C)** Incorreta. Converteu a relação de concessão em uma relação de simultaneidade progressiva proporcional por meio do uso das locuções proporcionais *À medida que* e *à proporção que*.
+> - **D)** Incorreta. Converteu uma asserção factual e pretérita em uma oração hipotético-condicional irrealizada (*Caso o órgão emitisse advertências*).
+> - **E)** Incorreta. Deturpou o sentido para conformidade (*Conforme*), além de empregar uma construção defeituosa no segmento final (*multaram-se os ordenadores* em vez de foram multados).
+> 
+> **Gabarito: B**
+
+---
+
+
 ### 5.3 Matriz de Substituição e Equivalência de Conectivos
 
 A substituição de conectivos somente é legítima se pertencerem à mesma família semântica:
@@ -304,6 +401,41 @@ A grafia **junta e com acento circunflexo** consubstancia um **substantivo mascu
 * *"O conselheiro relator desvendou **o porquê** de tantas notas fiscais emitidas sem atesto de entrega."*
 * *"Gostaria de saber **um porquê** plausível para tamanha discrepância orçamentária."*
 
+---
+
+### Questão 05
+**(FCC – DPE-RS – Analista Jurídico)**  
+Considere as frases e o emprego das quatro formas dos **porquês**:  
+
+I. *"Gostaria de compreender <ins>por que</ins> o cronograma físico-financeiro sofreu sucessivas prorrogações."*  
+
+II. *"A prestação de contas foi reprovada <ins>porque</ins> os gastos não foram devidamente comprovados."*  
+
+III. *"O ordenador de despesas não apresentou recurso no prazo regulamentar, e ninguém sabe <ins>por quê</ins>."*  
+
+IV. *"O conselheiro relator desvendou o <ins>porquê</ins> de tantas notas fiscais emitidas sem atesto de entrega."*  
+
+O emprego das palavras sublinhadas está plenamente correto em:
+
+* **A)** I, II, III e IV.
+* **B)** I e II, apenas.
+* **C)** II e IV, apenas.
+* **D)** I, III e IV, apenas.
+* **E)** II, III e IV, apenas.
+
+> **Comentário Detalhado:**
+>
+> - **A) CORRETA.** Todas as quatro frases empregam com rigor as normas ortográficas: I (*por que* = por qual razão, interrogativa indireta); II (*porque* = conjunção causal); III (*por quê* = fim de período antes de pontuação); e IV (*o porquê* = substantivado com artigo).
+> - **B) Incorreta.** Omite os itens III e IV, que estão plenamente corretos.
+> - **C) Incorreta.** Omite os itens I e III, que não contêm qualquer erro de grafia.
+> - **D) Incorreta.** Omite o item II, que emprega adequadamente a forma causal aglutinada.
+> - **E) Incorreta.** Omite o item I, perfeitamente em harmonia com a norma culta.
+> 
+> **Gabarito: A**
+
+---
+
+
 ### 6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A
 
 Para garantir a perfeição no confronto de frases da FCC:
@@ -328,130 +460,3 @@ Para garantir a perfeição no confronto de frases da FCC:
 * GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Primeira Parte, Cap. II e III - Frase, Período, Paralelismo Sintático e Semântico e Eliminação de Ambiguidades).
 * BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 14 - Transformação de Orações Desenvolvidas em Reduzidas e Equivalência de Conectivos).
 * KOCH, Ingedore Villaça; ELIAS, Vanda Maria. **Ler e Escrever: estratégias de produção textual**. 2. ed. São Paulo: Contexto, 2015. (Cap. 3 e Cap. 5 - Coesão Referencial, Sequencial e Paráfrase).
-
----
-
-## 📝 Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo)**  
-A frase cuja redação prima pela clareza, pela concisão e pela **estrita correção gramatical**, sem qualquer vício de paralelismo sintático ou de regência, é:
-
-* **A)** *"A equipe de fiscalização dedicou-se a examinar os contratos de tecnologia e na verificação das certidões fiscais das licitantes."*
-* **B)** *"O relatório a que o conselheiro relator fez menção detalha as razões por que foram desaprovadas as contas da autarquia."*
-* **C)** *"O secretário alertou os diretores de que haveriam reuniões extraordinárias afim de deliberar sobre o plano estratégico."*
-* **D)** *"Não se deve desobedecer as normas regimentais, sob pena de incorrer em penalidades que todos querem evitar elas."*
-* **E)** *"O tribunal busca aprimorar os mecanismos de auditoria não só para conferir transparência aos atos mas garantindo a legalidade."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Apresenta quebra frontal de paralelismo sintático: o verbo *dedicar-se* regeu a preposição *a* no primeiro termo coordenado (*a examinar*) e a preposição *em* no segundo termo coordenado (*na verificação*). A construção harmônica exigiria: *dedicou-se a examinar os contratos e a verificar as certidões* (ou *ao exame dos contratos e à verificação das certidões*).
-> - **B)** Correta. A oração reúne três acertos sintáticos exemplares: 1) A expressão *fazer menção* rege a preposição *a* (*quem faz menção, faz menção a algo*), a qual foi adequadamente anteposta ao pronome relativo (*a que o conselheiro fez menção*); 2) O vocábulo *por que* foi grafado separadamente e sem acento de forma perfeita, equivalendo a "pelas quais razões"; 3) A concordância verbal da voz passiva analítica está irrepreensível, com o verbo no plural concordando com o sujeito paciente plural (*foram desaprovadas as contas da autarquia*).
-> - **C)** Incorreta. Apresenta dois erros graves: o verbo impessoal *haver* no sentido de existir foi indevidamente pluralizado (*haveriam reuniões* em vez do correto *haveria reuniões*); e a locução de finalidade foi grafada junta de modo vicioso (*afim de* em vez de *a fim de*).
-> - **D)** Incorreta. O verbo *desobedecer* é Transitivo Indireto e rege a preposição *a* (*desobedecer às normas*); além disso, o emprego do pronome pessoal do caso reto como objeto direto verbal (*evitar elas*) viola a norma-padrão, que exige a forma oblíqua enclítica (*evitá-las*).
-> - **E)** Incorreta. Rompe o paralelismo sintático na estrutura correlativa *não só... mas*: coordenou uma oração preposicionada de infinitivo com valor final (*não só para conferir transparência*) com uma oração reduzida no gerúndio (*mas garantindo*). O correto seria: *não só para conferir transparência, mas também para garantir a legalidade*.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC – TRT – Técnico Judiciário)**  
-Considere o período:  
-*"<ins>A despeito das inúmeras advertências emitidas pelo órgão fiscalizador</ins>, os gestores mantiveram as práticas ilegítimas, o que ensejou a aplicação de severas multas."*  
-Uma reescrita que preserva a correção gramatical e as **mesmas relações lógicas de sentido** do período original é:
-
-* **A)** *"Visto que o órgão fiscalizador emitiu advertências, os gestores mantiveram as práticas ilegítimas, porquanto aplicaram-se multas severas."*
-* **B)** *"Embora o órgão fiscalizador tenha emitido inúmeras advertências, os gestores mantiveram as práticas ilegítimas, motivo pelo qual severas multas foram aplicadas."*
-* **C)** *"À medida que o órgão fiscalizador advertia os gestores, estes mantinham as práticas ilegítimas, à proporção que foram multados com rigor."*
-* **D)** *"Caso o órgão fiscalizador emitisse advertências, os gestores manteriam as práticas ilegítimas e poderiam aplicar multas."*
-* **E)** *"Conforme o órgão fiscalizador advertiu, os gestores mantiveram as práticas ilegítimas de modo que multaram-se os ordenadores."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Desvirtua a relação semântica fundamental do período: substituiu o valor concessivo original (*A despeito de*) por um valor causal (*Visto que*), e transformou a consequência final em causa explicativa com *porquanto*.
-> - **B)** Correta. Transforma impecavelmente a locução prepositiva nominal concessiva (*A despeito de...*) em uma oração subordinada adverbial concessiva desenvolvida introduzida pelo conectivo canônico **"Embora"**, flexionando o verbo de modo harmônico no pretérito perfeito do subjuntivo (**"Embora (...) tenha emitido"**). Ademais, preserva a oração principal intacta e verte o segmento consecutivo final em oração coordenada conclusiva de límpida concisão e correção gramatical (**"motivo pelo qual severas multas foram aplicadas"**).
-> - **C)** Incorreta. Converteu a relação de concessão em uma relação de simultaneidade progressiva proporcional por meio do uso das locuções proporcionais *À medida que* e *à proporção que*.
-> - **D)** Incorreta. Converteu uma asserção factual e pretérita em uma oração hipotético-condicional irrealizada (*Caso o órgão emitisse advertências*).
-> - **E)** Incorreta. Deturpou o sentido para conformidade (*Conforme*), além de empregar uma construção defeituosa no segmento final (*multaram-se os ordenadores* em vez de foram multados).
-> 
-> **Gabarito: B**
-
----
-
-### Questão 03
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-A frase que apresenta **quebra de paralelismo sintático** é:
-
-* **A)** *"O tribunal exige dos candidatos idoneidade moral, notório conhecimento e capacidade de liderança."*
-* **B)** *"O parecer recomendava a suspensão cautelar do certame e a anulação de todos os atos subsequentes."*
-* **C)** *"A comissão de auditoria propôs a revisão das medições de asfalto e que se fizesse uma nova perícia técnica."*
-* **D)** *"O servidor público deve agir com probidade, transparência e presteza."*
-* **E)** *"O auditor atuou não apenas no levantamento documental, mas também na instrução probatória dos autos."*
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Apresenta paralelismo sintático perfeito: todos os três complementos coordenados do verbo *exigir* são sintagmas nominais homogêneos (*idoneidade moral*, *notório conhecimento*, *capacidade de liderança*).
-> - **B)** Incorreta. Paralelismo sintático preservado: os dois complementos verbais são estruturados por sintagmas nominais com substantivos abstratos derivados de ação (*a suspensão cautelar* e *a anulação de todos os atos*).
-> - **C)** Correta (apresenta erro de paralelismo). O verbo *propôs* teve seus complementos coordenados estruturados de forma assimétrica e heterogênea: o primeiro elemento coordenado é um **sintagma nominal** (*a revisão das medições de asfalto*), ao passo que o segundo elemento coordenado é uma **oração subordinada substantiva desenvolvida** (*e que se fizesse uma nova perícia técnica*). A harmonia sintática culta exigiria unificar as estruturas: ou dois sintagmas nominais (*propôs a revisão das medições e a realização de nova perícia*) ou duas orações desenvolvidas (*propôs que se revisassem as medições e que se fizesse nova perícia*).
-> - **D)** Incorreta. Paralelismo mantido com perfeição: enumeração homogênea de substantivos abstratos preposicionados de mesma função (*com probidade, transparência e presteza*).
-> - **E)** Incorreta. Paralelismo mantido com exatidão: a estrutura correlativa *não apenas... mas também* liga dois termos preposicionados equivalentes (*no levantamento documental* $\leftrightarrow$ *na instrução probatória*).
-> 
-> **Gabarito: C**
-
----
-
-### Questão 04
-**(FCC – DPE-RS – Analista Jurídico)**  
-Considere as frases e o emprego das quatro formas dos **porquês**:  
-
-I. *"Gostaria de compreender <ins>por que</ins> o cronograma físico-financeiro sofreu sucessivas prorrogações."*  
-
-II. *"A prestação de contas foi reprovada <ins>porque</ins> os gastos não foram devidamente comprovados."*  
-
-III. *"O ordenador de despesas não apresentou recurso no prazo regulamentar, e ninguém sabe <ins>por quê</ins>."*  
-
-IV. *"O conselheiro relator desvendou o <ins>porquê</ins> de tantas notas fiscais emitidas sem atesto de entrega."*  
-
-O emprego das palavras sublinhadas está plenamente correto em:
-
-* **A)** I, II, III e IV.
-* **B)** I e II, apenas.
-* **C)** II e IV, apenas.
-* **D)** I, III e IV, apenas.
-* **E)** II, III e IV, apenas.
-
-> **Comentário Detalhado:**
->
-> - **Item I: Correto.** Trata-se de uma oração interrogativa indireta na qual o vocábulo equivale a "por qual razão / por qual motivo", devendo ser grafado **separadamente e sem acento circunflexo** (*por que*).
-> - **Item II: Correto.** Atua como conjunção subordinativa causal que explicita a causa da reprovação das contas (= *pois, já que, visto que*), exigindo a grafia **junta e sem acento circunflexo** (*porque*).
-> - **Item III: Correto.** O termo encontra-se posicionado imediatamente antes de um sinal de pontuação (ponto final) no término da oração, assumindo tonicidade fonética e exigindo a grafia **separada e com acento circunflexo** (*por quê*).
-> - **Item IV: Correto.** Funciona morfologicamente como um substantivo masculino, antecedido pelo artigo definido *o* e significando "a razão" ou "o motivo", impondo a grafia **junta e com acento circunflexo** (*o porquê*).
-> - **A)** Correta. Todas as quatro proposições empregam com perfeição absoluta as regras do idioma.
-> - **B), C), D) e E)** Incorretas por omitirem assertivas comprovadamente corretas.
-> 
-> **Gabarito: A**
-
----
-
-### Questão 05
-**(FCC – AL-SP – Técnico Legislativo)**  
-Assinale a alternativa em que a reescrita da frase entre parênteses elimina a ambiguidade mantendo a clareza e a correção gramatical:  
-*(O presidente comunicou ao conselheiro que sua assessoria seria transferida para o novo gabinete.)*
-
-* **A)** *"O presidente comunicou ao conselheiro a transferência da assessoria dele para o novo gabinete."*
-* **B)** *"O presidente comunicou ao conselheiro que a assessoria de sua pessoa seria transferida para o novo gabinete."*
-* **C)** *"O presidente comunicou que a assessoria sua seria transferida para o conselheiro no novo gabinete."*
-* **D)** *"O presidente comunicou ao conselheiro de que sua própria assessoria transferir-se-ia para o novo gabinete."*
-* **E)** *"O presidente comunicou ao conselheiro que a assessoria do mesmo seria transferida para o novo gabinete."*
-
-> **Comentário Detalhado:**
->
-> - **Problema da frase original:** O emprego do pronome possessivo de terceira pessoa *sua* gera ambiguidade estrutural manifesta, impedindo o leitor de definir com segurança se a assessoria a ser transferida pertencia ao Presidente (sujeito) ou ao Conselheiro (objeto indireto).
-> - **A)** Correta. Ao substituir o pronome possessivo polissêmico pela locução pós-nominal **"dele"** (*a assessoria dele*), a frase dissipa qualquer dúvida interpretativa, demonstrando cristalinamente que a assessoria subordinava-se ao conselheiro. Ademais, promove uma elegante nominalização (*a transferência da assessoria*), garantindo concisão e estrita observância à norma culta.
-> - **B)** Incorreta. A locução artificial *"assessoria de sua pessoa"* é prolixa, canhestra e rejeitada pela estilística oficial.
-> - **C)** Incorreta. A reorganização dos termos manteve a redação confusa e deselegante.
-> - **D)** Incorreta. O verbo *comunicar* é Transitivo Direto e Indireto (*comunicar algo a alguém*); o acréscimo da preposição *de* (*"comunicou ao conselheiro de que..."*) constitui vício de regência, ao atribuir dois complementos indiretos preposicionados ao mesmo verbo.
-> - **E)** Incorreta. O emprego da expressão *"do mesmo"* como pronome anafórico pessoal para substituir indivíduos constitui vício de linguagem formalmente condenado pelo Manual de Redação da Presidência da República e pela gramática culta.
-> 
-> **Gabarito: A**

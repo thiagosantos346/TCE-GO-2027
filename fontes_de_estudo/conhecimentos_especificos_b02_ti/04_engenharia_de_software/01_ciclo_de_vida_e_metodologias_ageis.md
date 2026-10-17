@@ -38,7 +38,6 @@
     - [5.1 Extreme Programming: Valores e Práticas de Engenharia](#51-extreme-programming-valores-e-praticas-de-engenharia)
     - [5.2 Lean Software Development e Eliminação dos 7 Desperdícios](#52-lean-software-development-e-eliminacao-dos-7-desperdicios)
 - [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
-- [7. Questões de Concurso FCC Comentadas](#7-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -106,6 +105,30 @@ flowchart TD
     - Design Detalhado de Módulos $\longleftrightarrow$ Testes Unitários.
 
 ---
+
+### Questão 01
+**(FCC – TCE – Auditor de Controle Externo / TI)**  
+O modelo de ciclo de vida em Espiral, concebido por Barry Boehm, diferencia-se substancialmente do modelo em Cascata tradicional por incorporar formalmente como seu direcionador central e sistemático:
+
+* **A)** A eliminação de qualquer documentação textual em favor de entregas contínuas em microsserviços.
+* **B)** A análise e a mitigação explícita de riscos em cada ciclo de evolução do software.
+* **C)** O pareamento permanente de programadores em estações de trabalho unificadas.
+* **D)** O congelamento irrevogável dos requisitos do sistema antes de qualquer prototipação.
+* **E)** A substituição de todas as fases de testes por inspeções formais de conformidade jurídica.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O modelo em Espiral não dispensa documentação formal e foi proposto muito antes da era dos microsserviços.
+> - **B) CORRETA.** A marca distintiva fundamental do **Modelo em Espiral de Barry Boehm** é ser um modelo **dirigido a riscos (*risk-driven*)**, em que cada espira do ciclo de desenvolvimento prevê expressamente uma etapa rigorosa de avaliação, modelagem e mitigação de incertezas e riscos técnicos e operacionais antes de avançar para a fase construtiva.
+> - **C) Incorreta.** O pareamento de desenvolvedores é uma prática exclusiva do Extreme Programming (XP).
+> - **D) Incorreta.** O congelamento inicial de requisitos caracteriza o modelo Cascata (*Waterfall*); no modelo Espiral, os requisitos evoluem de forma incremental a cada volta da espiral.
+> - **E) Incorreta.** Testes, protótipos e validações com usuários são atividades essenciais integradas em cada ciclo espiral.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 2.2 Abordagem Iterativa e Incremental: Modelo Espiral e RUP
 - **Conceito de Iteração vs. Incremento:**
@@ -215,6 +238,30 @@ Todos os eventos no Scrum possuem duração máxima pré-fixada (**time-box**):
 
 ---
 
+### Questão 02
+**(FCC – DPE – Analista de Sistemas)**  
+A respeito do evento *Daily Scrum* estabelecido no Guia Scrum (versão 2020), assinale a afirmativa correta:
+
+* **A)** É uma reunião de prestação de contas dos desenvolvedores para o Scrum Master e para o Product Owner, que atuam como avaliadores formais do desempenho diário individual.
+* **B)** Tem duração máxima permitida de 45 minutos para Sprints de um mês, admitindo prorrogação formal caso existam impedimentos complexos a serem debatidos.
+* **C)** Trata-se de um evento de 15 minutos para os Desenvolvedores do Scrum Team inspecionarem o progresso em direção à Meta da Sprint e adaptarem o Sprint Backlog conforme necessário.
+* **D)** É obrigatório que cada desenvolvedor responda exclusivamente a três perguntas padronizadas: o que fez ontem, o que fará hoje e quais são os impedimentos.
+* **E)** Caso o Product Owner ou o Scrum Master não possam comparecer presencialmente ao evento, a Daily Scrum deve ser compulsoriamente cancelada naquele dia.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A Daily Scrum não é uma reunião de *status report* ou avaliação de chefia; o Scrum Team é autogerenciado.
+> - **B) Incorreta.** O time-box da Daily Scrum é fixo em **15 minutos**, independentemente da extensão temporal da Sprint.
+> - **C) CORRETA.** Conforme a versão 2020 do Guia Scrum, a Daily Scrum é um evento de **15 minutos** para os **Desenvolvedores do Scrum Team**, com o objetivo de inspecionar o progresso em direção à Meta da Sprint (*Sprint Goal*) e adaptar o Sprint Backlog conforme necessário, ajustando o plano de trabalho para as próximas 24 horas.
+> - **D) Incorreta.** O Guia Scrum 2020 aboliu a exigência obrigatória das três clássicas perguntas, conferindo total liberdade aos Desenvolvedores para estruturar a reunião da forma mais eficiente para o time.
+> - **E) Incorreta.** O evento é privativo dos Desenvolvedores; se o PO ou o SM não estiverem trabalhando ativamente em tarefas do Sprint Backlog, a sua ausência não impede a realização regular da Daily.
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 3.4 Artefatos Oficiais e seus Três Compromissos Formais
 Cada um dos três artefatos do Scrum contém um **compromisso formal** associado (introduzido formalmente no Guia 2020) para fornecer transparência e foco:
 
@@ -228,6 +275,33 @@ Cada um dos três artefatos do Scrum contém um **compromisso formal** associado
     - O Incremento é um degrau concreto rumo à Meta do Produto. No momento em que um item do Product Backlog atende à Definição de Pronto, um novo Incremento nasce. A DoD é a descrição formal dos critérios de qualidade exigidos para que o item seja considerado pronto para uso.
 
 ---
+
+### Questão 03
+**(FCC – TCE-GO – Analista de Controle Externo / TI)**  
+No framework Scrum (segundo a versão oficial do Guia Scrum de 2020), cada um dos três artefatos possui um compromisso formal associado que fornece informações transparentes e foco para a equipe. Os compromissos associados ao Product Backlog, ao Sprint Backlog e ao Incremento são, respectivamente:
+
+* **A)** Definição de Pronto, Meta da Sprint e Meta do Produto.
+* **B)** Meta do Produto (*Product Goal*), Meta da Sprint (*Sprint Goal*) e Definição de Pronto (*Definition of Done*).
+* **C)** Histórias de Usuário, Tarefas Técnicas e Código em Produção.
+* **D)** Retrospectiva, Planejamento da Sprint e Revisão.
+* **E)** Burndown Chart, Velocidade do Time e Lead Time.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Inverteu a ordem de associação dos artefatos com seus respectivos compromissos formais.
+> - **B) CORRETA.** O Guia Scrum oficial de 2020 introduziu formalmente a vinculação unívoca de um compromisso para cada artefato:
+>     - Para o **Product Backlog**, o compromisso é a **Meta do Produto (*Product Goal*)**;
+>     - Para o **Sprint Backlog**, o compromisso é a **Meta da Sprint (*Sprint Goal*)**;
+>     - Para o **Incremento**, o compromisso é a **Definição de Pronto (*Definition of Done - DoD*)**.
+> - **C) Incorreta.** Histórias de usuário e tarefas constituem técnicas complementares amplamente usadas, mas não são compromissos previstos no Guia Scrum.
+> - **D) Incorreta.** Retrospectiva, Planejamento e Revisão são três dos eventos oficiais do Scrum, e não compromissos de artefatos.
+> - **E) Incorreta.** Burndown chart, velocidade e lead time são gráficos e métricas analíticas de fluxo e produtividade.
+> 
+> **Gabarito: B**
+
+---
+
+
 
 ### 3.5 Métricas e Gráficos de Acompanhamento (Burndown e Burnup)
 - **Sprint Burndown Chart:** Gráfico que exibe a quantidade de **trabalho restante** (geralmente em pontos de história ou horas) em relação ao tempo da Sprint. A inclinação da linha decrescente indica se a equipe concluirá as tarefas no prazo;
@@ -269,6 +343,32 @@ O Kanban opera como um **sistema puxado (*pull system*)**:
 
 ---
 
+### Questão 04
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No método Kanban aplicado à gestão do fluxo de desenvolvimento de software, duas métricas temporais essenciais para avaliar a eficiência do processo são o *Lead Time* e o *Cycle Time*. A correta distinção conceitual entre essas métricas estabelece que:
+
+* **A)** O *Lead Time* mede exclusivamente o tempo em que o item esteve bloqueado por impedimentos técnicos, enquanto o *Cycle Time* mede o tempo de reunião diária da equipe.
+* **B)** O *Lead Time* corresponde ao tempo total transcorrido desde a solicitação/criação do item pelo cliente até a sua entrega final; já o *Cycle Time* corresponde ao tempo em que o trabalho esteve efetivamente em progresso ativo pela equipe de desenvolvimento.
+* **C)** O *Cycle Time* sempre engloba o tempo de espera no backlog do cliente, ao passo que o *Lead Time* tem início apenas quando a primeira linha de código é compilada.
+* **D)** O *Lead Time* e o *Cycle Time* são grandezas idênticas em qualquer quadro Kanban que utilize limites estritos de WIP.
+* **E)** O *Throughput* representa a diferença matemática obtida pela subtração do *Cycle Time* pelo *Lead Time*.
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Confunde métricas de tempo de fluxo com tempos de bloqueio de cartões e cerimônias ágeis.
+> - **B) CORRETA.** No método Kanban:
+>     - **Lead Time:** É a visão sob a ótica do cliente/usuário, correspondendo ao intervalo total desde o registro formal do pedido até a sua entrega concluída em produção;
+>     - **Cycle Time:** É a visão sob a ótica da equipe técnica de desenvolvimento, correspondendo ao intervalo em que o item esteve em andamento ativo (da coluna "Em Progresso" até "Concluído").
+> - **C) Incorreta.** Inverte de forma diametral as definições consagradas das duas métricas.
+> - **D) Incorreta.** Mesmo com WIP delimitado, as grandezas são distintas, pois o item pode aguardar em filas de espera e refinamento antes de ter sua execução iniciada.
+> - **E) Incorreta.** O *Throughput* (vazão) corresponde ao volume quantitativo de itens finalizados por unidade de tempo, não sendo resultado de subtração.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 5. Extreme Programming (XP) e Lean Software Development
 
 ### 5.1 Extreme Programming: Valores e Práticas de Engenharia
@@ -288,6 +388,30 @@ Criado por Kent Beck, o Extreme Programming (XP) é uma metodologia ágil voltad
     6. **Design Simples:** O código atende a todos os testes, expressa com clareza a intenção, não possui duplicações (DRY - *Don't Repeat Yourself*) e contém o menor número possível de classes e métodos (YAGNI - *You Aren't Gonna Need It*).
 
 ---
+
+### Questão 05
+**(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
+Em relação às metodologias e práticas de engenharia de software ágil, a prática de desenvolvimento que consiste em programar com dois desenvolvedores compartilhando a mesma estação de trabalho (um atuando como "piloto" digitando o código e outro como "copiloto" revisando estrategicamente a solução em tempo real), bem como a técnica de escrever o teste automatizado antes do código de produção (ciclo Red-Green-Refactor), são práticas originárias e mandatórias do:
+
+* **A)** Scrum.
+* **B)** Método Cascata.
+* **C)** Extreme Programming (XP).
+* **D)** CMMI Nível 5.
+* **E)** Rational Unified Process (RUP).
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O Scrum é um framework de gestão de trabalho e desenvolvimento de produtos que não dita práticas técnicas específicas de codificação como pareamento ou testes.
+> - **B) Incorreta.** O modelo em Cascata prescreve segregação temporal estrita entre fases de especificação, codificação e testes, incompatível com a simultaneidade do pareamento ou testes antes do código.
+> - **C) CORRETA.** O **Extreme Programming (XP)**, formulado por Kent Beck, estabelece formalmente a **Programação em Par (*Pair Programming*)** (com as funções de Driver e Navigator) e o **Desenvolvimento Guiado por Testes (*TDD*)**, ao lado de refatoração contínua, integração contínua e propriedade coletiva de código.
+> - **D) Incorreta.** O CMMI é um modelo de avaliação de maturidade e capacidade de processos corporativos de engenharia, e não uma metodologia de codificação ágil.
+> - **E) Incorreta.** O RUP é um processo iterativo pesado com 4 fases formais dirigido por arquitetura e casos de uso, sem exigir programação em par ou TDD mandatório.
+> 
+> **Gabarito: C**
+
+---
+
+
 
 ### 5.2 Lean Software Development e Eliminação dos 7 Desperdícios
 Adaptado do Sistema Toyota de Produção por Mary e Tom Poppendieck, o desenvolvimento Lean foca na entrega rápida de valor mediante a **eliminação sistemática de desperdícios (*Muda*)**:
@@ -317,120 +441,3 @@ Adaptado do Sistema Toyota de Produção por Mary e Tom Poppendieck, o desenvolv
 * SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson Education do Brasil, 2019. (Cap. 2 - Processos de Software; Cap. 3 - Desenvolvimento Ágil de Software).
 * PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: Uma Abordagem Profissional**. 9. ed. Porto Alegre: AMGH, 2021. (Cap. 2 - Modelos de Processo; Cap. 3 - Agilidade e Processo).
 * BECK, Kent; ANDRES, Cynthia. **Extreme Programming Explained: Embrace Change**. 2. ed. Boston: Addison-Wesley Professional, 2004. (Sec. 1 - Values, Principles, and Practices).
-
----
-
-## 7. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo / TI)**  
-No framework Scrum (segundo a versão oficial do Guia Scrum de 2020), cada um dos três artefatos possui um compromisso formal associado que fornece informações transparentes e foco para a equipe. Os compromissos associados ao Product Backlog, ao Sprint Backlog e ao Incremento são, respectivamente:
-
-* **A)** Definição de Pronto, Meta da Sprint e Meta do Produto.
-* **B)** Meta do Produto (*Product Goal*), Meta da Sprint (*Sprint Goal*) e Definição de Pronto (*Definition of Done*).
-* **C)** Histórias de Usuário, Tarefas Técnicas e Código em Produção.
-* **D)** Retrospectiva, Planejamento da Sprint e Revisão.
-* **E)** Burndown Chart, Velocidade do Time e Lead Time.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** Inverteu a ordem de associação dos artefatos com seus respectivos compromissos formais.
-> - **B) CORRETA.** O Guia Scrum oficial de 2020 introduziu formalmente a vinculação unívoca de um compromisso para cada artefato:
->     - Para o **Product Backlog**, o compromisso é a **Meta do Produto (*Product Goal*)**;
->     - Para o **Sprint Backlog**, o compromisso é a **Meta da Sprint (*Sprint Goal*)**;
->     - Para o **Incremento**, o compromisso é a **Definição de Pronto (*Definition of Done - DoD*)**.
-> - **C) Incorreta.** Histórias de usuário e tarefas constituem técnicas complementares amplamente usadas, mas não são compromissos previstos no Guia Scrum.
-> - **D) Incorreta.** Retrospectiva, Planejamento e Revisão são três dos eventos oficiais do Scrum, e não compromissos de artefatos.
-> - **E) Incorreta.** Burndown chart, velocidade e lead time são gráficos e métricas analíticas de fluxo e produtividade.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
-Em relação às metodologias e práticas de engenharia de software ágil, a prática de desenvolvimento que consiste em programar com dois desenvolvedores compartilhando a mesma estação de trabalho (um atuando como "piloto" digitando o código e outro como "copiloto" revisando estrategicamente a solução em tempo real), bem como a técnica de escrever o teste automatizado antes do código de produção (ciclo Red-Green-Refactor), são práticas originárias e mandatórias do:
-
-* **A)** Scrum.
-* **B)** Método Cascata.
-* **C)** Extreme Programming (XP).
-* **D)** CMMI Nível 5.
-* **E)** Rational Unified Process (RUP).
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** O Scrum é um framework de gestão de trabalho e desenvolvimento de produtos que não dita práticas técnicas específicas de codificação como pareamento ou testes.
-> - **B) Incorreta.** O modelo em Cascata prescreve segregação temporal estrita entre fases de especificação, codificação e testes, incompatível com a simultaneidade do pareamento ou testes antes do código.
-> - **C) CORRETA.** O **Extreme Programming (XP)**, formulado por Kent Beck, estabelece formalmente a **Programação em Par (*Pair Programming*)** (com as funções de Driver e Navigator) e o **Desenvolvimento Guiado por Testes (*TDD*)**, ao lado de refatoração contínua, integração contínua e propriedade coletiva de código.
-> - **D) Incorreta.** O CMMI é um modelo de avaliação de maturidade e capacidade de processos corporativos de engenharia, e não uma metodologia de codificação ágil.
-> - **E) Incorreta.** O RUP é um processo iterativo pesado com 4 fases formais dirigido por arquitetura e casos de uso, sem exigir programação em par ou TDD mandatório.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 03
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-No método Kanban aplicado à gestão do fluxo de desenvolvimento de software, duas métricas temporais essenciais para avaliar a eficiência do processo são o *Lead Time* e o *Cycle Time*. A correta distinção conceitual entre essas métricas estabelece que:
-
-* **A)** O *Lead Time* mede exclusivamente o tempo em que o item esteve bloqueado por impedimentos técnicos, enquanto o *Cycle Time* mede o tempo de reunião diária da equipe.
-* **B)** O *Lead Time* corresponde ao tempo total transcorrido desde a solicitação/criação do item pelo cliente até a sua entrega final; já o *Cycle Time* corresponde ao tempo em que o trabalho esteve efetivamente em progresso ativo pela equipe de desenvolvimento.
-* **C)** O *Cycle Time* sempre engloba o tempo de espera no backlog do cliente, ao passo que o *Lead Time* tem início apenas quando a primeira linha de código é compilada.
-* **D)** O *Lead Time* e o *Cycle Time* são grandezas idênticas em qualquer quadro Kanban que utilize limites estritos de WIP.
-* **E)** O *Throughput* representa a diferença matemática obtida pela subtração do *Cycle Time* pelo *Lead Time*.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** Confunde métricas de tempo de fluxo com tempos de bloqueio de cartões e cerimônias ágeis.
-> - **B) CORRETA.** No método Kanban:
->     - **Lead Time:** É a visão sob a ótica do cliente/usuário, correspondendo ao intervalo total desde o registro formal do pedido até a sua entrega concluída em produção;
->     - **Cycle Time:** É a visão sob a ótica da equipe técnica de desenvolvimento, correspondendo ao intervalo em que o item esteve em andamento ativo (da coluna "Em Progresso" até "Concluído").
-> - **C) Incorreta.** Inverte de forma diametral as definições consagradas das duas métricas.
-> - **D) Incorreta.** Mesmo com WIP delimitado, as grandezas são distintas, pois o item pode aguardar em filas de espera e refinamento antes de ter sua execução iniciada.
-> - **E) Incorreta.** O *Throughput* (vazão) corresponde ao volume quantitativo de itens finalizados por unidade de tempo, não sendo resultado de subtração.
-> 
-> **Gabarito: B**
-
----
-
-### Questão 04
-**(FCC – DPE – Analista de Sistemas)**  
-A respeito do evento *Daily Scrum* estabelecido no Guia Scrum (versão 2020), assinale a afirmativa correta:
-
-* **A)** É uma reunião de prestação de contas dos desenvolvedores para o Scrum Master e para o Product Owner, que atuam como avaliadores formais do desempenho diário individual.
-* **B)** Tem duração máxima permitida de 45 minutos para Sprints de um mês, admitindo prorrogação formal caso existam impedimentos complexos a serem debatidos.
-* **C)** Trata-se de um evento de 15 minutos para os Desenvolvedores do Scrum Team inspecionarem o progresso em direção à Meta da Sprint e adaptarem o Sprint Backlog conforme necessário.
-* **D)** É obrigatório que cada desenvolvedor responda exclusivamente a três perguntas padronizadas: o que fez ontem, o que fará hoje e quais são os impedimentos.
-* **E)** Caso o Product Owner ou o Scrum Master não possam comparecer presencialmente ao evento, a Daily Scrum deve ser compulsoriamente cancelada naquele dia.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** A Daily Scrum não é uma reunião de *status report* ou avaliação de chefia; o Scrum Team é autogerenciado.
-> - **B) Incorreta.** O time-box da Daily Scrum é fixo em **15 minutos**, independentemente da extensão temporal da Sprint.
-> - **C) CORRETA.** Conforme a versão 2020 do Guia Scrum, a Daily Scrum é um evento de **15 minutos** para os **Desenvolvedores do Scrum Team**, com o objetivo de inspecionar o progresso em direção à Meta da Sprint (*Sprint Goal*) e adaptar o Sprint Backlog conforme necessário, ajustando o plano de trabalho para as próximas 24 horas.
-> - **D) Incorreta.** O Guia Scrum 2020 aboliu a exigência obrigatória das três clássicas perguntas, conferindo total liberdade aos Desenvolvedores para estruturar a reunião da forma mais eficiente para o time.
-> - **E) Incorreta.** O evento é privativo dos Desenvolvedores; se o PO ou o SM não estiverem trabalhando ativamente em tarefas do Sprint Backlog, a sua ausência não impede a realização regular da Daily.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 05
-**(FCC – TCE – Auditor de Controle Externo / TI)**  
-O modelo de ciclo de vida em Espiral, concebido por Barry Boehm, diferencia-se substancialmente do modelo em Cascata tradicional por incorporar formalmente como seu direcionador central e sistemático:
-
-* **A)** A eliminação de qualquer documentação textual em favor de entregas contínuas em microsserviços.
-* **B)** A análise e a mitigação explícita de riscos em cada ciclo de evolução do software.
-* **C)** O pareamento permanente de programadores em estações de trabalho unificadas.
-* **D)** O congelamento irrevogável dos requisitos do sistema antes de qualquer prototipação.
-* **E)** A substituição de todas as fases de testes por inspeções formais de conformidade jurídica.
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** O modelo em Espiral não dispensa documentação formal e foi proposto muito antes da era dos microsserviços.
-> - **B) CORRETA.** A marca distintiva fundamental do **Modelo em Espiral de Barry Boehm** é ser um modelo **dirigido a riscos (*risk-driven*)**, em que cada espira do ciclo de desenvolvimento prevê expressamente uma etapa rigorosa de avaliação, modelagem e mitigação de incertezas e riscos técnicos e operacionais antes de avançar para a fase construtiva.
-> - **C) Incorreta.** O pareamento de desenvolvedores é uma prática exclusiva do Extreme Programming (XP).
-> - **D) Incorreta.** O congelamento inicial de requisitos caracteriza o modelo Cascata (*Waterfall*); no modelo Espiral, os requisitos evoluem de forma incremental a cada volta da espiral.
-> - **E) Incorreta.** Testes, protótipos e validações com usuários são atividades essenciais integradas em cada ciclo espiral.
-> 
-> **Gabarito: B**

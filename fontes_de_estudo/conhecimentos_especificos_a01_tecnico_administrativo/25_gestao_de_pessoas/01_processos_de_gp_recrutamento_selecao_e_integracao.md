@@ -47,7 +47,6 @@
 - [5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)](#5-o-concurso-publico-como-instrumento-republicano-cf88-art-37)
 - [6. Processo de Socialização e Integração Organizacional (Onboarding)](#6-processo-de-socializacao-e-integracao-organizacional-onboarding)
 - [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
-- [8. Questões de Concurso FCC Comentadas](#8-questoes-de-concurso-fcc-comentadas)
 
 ---
 
@@ -122,6 +121,30 @@ flowchart TD
 
 ---
 
+### Questão 01
+**(FCC – Analista de Controle Externo – TCE-GO)**  
+No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto Chiavenato, os macroprocessos organizacionais integram um conjunto articulado de subsistemas interconectados. Ao estruturar os processos de gestão, o desenho de cargos, a socialização organizacional dos novos colaboradores e a sistemática de avaliação de desempenho funcional integram expressamente o macroprocesso de:
+
+* **A)** Agregar Pessoas.
+* **B)** Aplicar Pessoas.
+* **C)** Recompensar Pessoas.
+* **D)** Desenvolver Pessoas.
+* **E)** Monitorar Pessoas.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** O macroprocesso de Agregar Pessoas engloba unicamente as atividades de atração e seleção (planejamento da força de trabalho, recrutamento e seleção/concurso).  
+> - **B) CORRETA.** Os **Processos de Aplicar Pessoas** dizem respeito a como as pessoas operam na organização e o que realizam. Chiavenato engloba expressamente neste macroprocesso: o desenho e especificação de cargos/tarefas, a orientação e socialização organizacional (integração dos admitidos) e a **avaliação periódica de desempenho**.  
+> - **C) Incorreta.** Recompensar Pessoas envolve folha de pagamento, estrutura de vencimentos, adicionais e benefícios sociais.  
+> - **D) Incorreta.** Desenvolver Pessoas compreende treinamento, capacitação contínua, aprendizagem organizacional e planos de carreira.  
+> - **E) Incorreta.** Monitorar Pessoas refere-se aos bancos de dados, cadastros funcionais e sistemas de informação de pessoal (SIRH).  
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ### 3. Rotinas Administrativas do Departamento de Pessoal no Setor Público
 
 Mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indispensáveis para garantir a estrita legalidade e conformidade dos atos de gestão pública:
@@ -185,6 +208,31 @@ flowchart LR
 > ⭐ **IMPORTANTE — CONCEITO DE ENDOGAMIA CULTURAL:**  
 > A FCC adora cobrar o fenômeno da **endogamia organizacional** (ou cultural). Trata-se da tendência de um órgão ou empresa, ao recrutar exclusivamente membros de seus próprios quadros internos, de perpetuar os mesmos padrões de pensamento, cristalizar defeitos e inibir o surgimento de ideias inovadoras. O recrutamento externo atua justamente como antídoto à endogamia.
 
+---
+
+### Questão 02
+**(FCC – Auditor de Controle Externo – TCE-RO)**  
+Uma entidade pública estadual necessita preencher posições funcionais de gestão interna. Ao optar prioritariamente pelo recrutamento interno em detrimento do recrutamento externo, a organização colhe benefícios relevantes, porém sujeita-se a uma vulnerabilidade conceitual frequentemente apontada pela literatura, consubstanciada na:
+
+* **A)** morosidade excessiva para disponibilizar o profissional e elevadíssimo dispêndio orçamentário com editais públicos e bancas examinadoras.
+* **B)** desmotivação crônica dos profissionais da casa, que visualizam o processo como um obstáculo intransponível à sua própria ascensão profissional.
+* **C)** ocorrência do fenômeno da endogamia cultural (*inbreeding*), marcada pela recirculação contínua dos mesmos vícios, soluções e práticas preexistentes, com bloqueio à inovação.
+* **D)** exigência legal obrigatória de reabertura imediata de concurso público para a investidura nas atribuições funcionais correlatas.
+* **E)** incapacidade operacional de avaliar previamente as competências comportamentais dos candidatos que já compõem o quadro institucional.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** O recrutamento interno destaca-se exatamente por ser **ágil e econômico**, não demandando editais caros nem contratação de bancas examinadoras externas.  
+> - **B) Incorreta.** O recrutamento interno **eleva a motivação** dos colaboradores internos, pois oferece perspectivas concretas de carreira e reconhecimento funcional.  
+> - **C) CORRETA.** A clássica desvantagem técnica do recrutamento exclusivamente interno é a **endogamia cultural (*inbreeding*)**: como a organização se alimenta apenas de seus próprios membros, há o risco de reproduzir continuadamente as mesmas ideias, manter velhos vícios e blindar a instituição contra visões renovadas e saberes trazidos pelo ambiente externo.  
+> - **D) Incorreta.** Funções de chefia interna e cargos de confiança privativos de servidores de carreira são preenchidos por designação/ato interno discricionário, sem necessidade de novo concurso público para cada relotação.  
+> - **E) Incorreta.** No recrutamento interno, a organização já conhece o histórico de desempenho e o perfil comportamental dos candidatos, o que constitui uma das principais vantagens do processo.  
+> 
+> **Gabarito: C**
+
+---
+
+
 #### Seleção de Pessoas: O Modelo de Comparação e Decisão
 
 Enquanto o recrutamento visa atrair o maior número possível de candidatos qualificados (processo positivo), a **seleção de pessoas é um processo de triagem, restrição e escolha (processo negativo ou de afunilamento)**.
@@ -227,6 +275,30 @@ flowchart TD
 
 ---
 
+### Questão 03
+**(FCC – Analista Administrativo – DPE-SP)**  
+Em uma entrevista de seleção baseada na gestão por competências, o examinador formula a seguinte questão ao candidato: *"Descreva uma ocasião em seu trabalho anterior na qual um prazo orçamentário complexo estava na iminência de se esgotar, detalhe qual era o desafio sob sua responsabilidade direta, as ações práticas que você implementou para contornar o obstáculo e quais foram os resultados mensuráveis obtidos"*. A técnica de seleção adotada classifica-se como:
+
+* **A)** Entrevista não diretiva e livre de avaliação projetiva.
+* **B)** Técnica de simulação psicodramática por imersão relacional.
+* **C)** Prova situacional de aptidão psicométrica abstrata.
+* **D)** Entrevista comportamental por competências estruturada sob o método STAR.
+* **E)** Teste de personalidade expressiva para verificação de temperamento frouxo.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A entrevista não diretiva é desestruturada e aberta, sem perguntas previamente padronizadas nem foco em dados fáticos estruturados.  
+> - **B) Incorreta.** A simulação psicodramática (*role-playing*) exige encenação de papéis interpessoais em dinâmica de grupo, não sendo uma entrevista individual reflexiva.  
+> - **C) Incorreta.** Provas psicométricas são testes formais de raciocínio lógico, atenção ou inteligência que geram escores quantitativos padronizados.  
+> - **D) CORRETA.** O enunciado retrata perfeitamente a técnica **STAR**: o examinador pede ao candidato que relate uma **Situação** fática do passado, sua **Tarefa** específica, a **Ação** concreta executada e o **Resultado** atingido. Baseia-se na premissa de que o comportamento passado em situações similares é o melhor preditor do desempenho futuro.  
+> - **E) Incorreta.** Testes de personalidade expressivos (como PMK ou Palográfico) utilizam traçados gráficos sob supervisão de psicólogos e não perguntas de entrevista funcional.  
+> 
+> **Gabarito: D**
+
+---
+
+
+
 ### 5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)
 
 No Estado Democrático de Direito, o concurso público é a ferramenta primordial para democratizar o acesso aos cargos públicos e garantir um corpo funcional competente e impessoal.
@@ -257,6 +329,30 @@ flowchart TD
 
 ---
 
+### Questão 04
+**(FCC – Analista de Controle Externo – TCE-GO)**  
+De acordo com os preceitos expressos no art. 37 da Constituição Federal de 1988 e a jurisprudência sumulada e vinculante dos Tribunais Superiores acerca do concurso público:
+
+* **A)** A realização de prova de títulos em concursos públicos pode ostentar caráter classificatório ou eliminatório, a exclusivo critério discricionário do edital regulamentador.
+* **B)** O candidato regularmente aprovado e classificado dentro do número de vagas originariamente previsto no edital possui mera expectativa de direito à nomeação, podendo a administração desconsiderar sua aprovação a qualquer tempo sem motivação extraordinária.
+* **C)** É prescindível a realização de concurso público para a contratação temporária destinada a atender a necessidade de excepcional interesse público, na forma disciplinada em legislação específica.
+* **D)** O prazo de validade do concurso público será de até quatro anos, improrrogável, admitindo-se apenas a celebração de novos editais quando esgotada a vigência.
+* **E)** O provimento originário em cargos públicos efetivos independe de prévia aprovação em concurso, desde que o servidor comprove exercício temporário anterior superior a dez anos.
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A prova de títulos tem caráter **estritamente classificatório**, sendo vedada a eliminação de candidatos com base exclusiva na ausência ou pontuação insuficiente de títulos.  
+> - **B) Incorreta.** Conforme pacificado pelo STF no Tema 161 (RE 598.099), o candidato aprovado dentro do número de vagas possui **direito público subjetivo à nomeação** durante a vigência do certame, salvo situações imprevisíveis, supervenientes e extraordinárias fundamentadamente comprovadas.  
+> - **C) CORRETA.** O art. 37, IX da CF/88 prevê expressamente que a lei estabelecerá os casos de contratação temporária para atender a necessidade de excepcional interesse público, dispensando o concurso público tradicional e viabilizando o Processo Seletivo Simplificado (PSS).  
+> - **D) Incorreta.** Conforme o art. 37, III da CF/88, o prazo de validade é de **até dois anos**, prorrogável uma única vez por igual período.  
+> - **E) Incorreta.** A investidura em cargo ou emprego público efetivo exige obrigatoriamente concurso público prévio (art. 37, II), sendo inconstitucional qualquer tentativa de efetivação sem certame republicano.  
+> 
+> **Gabarito: C**
+
+---
+
+
+
 ### 6. Processo de Socialização e Integração Organizacional (*Onboarding*)
 
 A socialização organizacional é o processo formativo e cultural por meio do qual o novo servidor aprende os valores essenciais, regras informais, jargões, posturas e competências exigidas pelo órgão.
@@ -282,115 +378,6 @@ flowchart LR
     - O novo servidor internaliza as normas, compreende a linguagem corporativa e ajusta seu comportamento aos padrões institucionais;
     - Desenvolve sensação de pertencimento, segurança psicológica e alinhamento com a missão do Tribunal de Contas.
 
-#### Práticas Institucionais de Socialização no Setor Público
-
-* **Programa de Boas-Vindas e Ambientação:** Acolhida institucional pelos gestores e pela área de Gestão de Pessoas no primeiro dia de trabalho.
-* **Manual de Integração do Servidor:** Guia contendo missão institucional, direitos e deveres, canais de ouvidoria, regras de conduta ética e estrutura organizacional.
-* **Tutoria e Mentoria (*Buddy Program*):** Designação de um servidor experiente para acompanhar o novato nas rotinas diárias e sanar dúvidas operacionais.
-* **Cursos de Formação Inicial:** Aulas e oficinas práticas promovidas pela Escola de Contas/Governo para instrumentalizar o servidor nos sistemas corporativos e procedimentos processuais de controle externo.
-
----
-
-### 7. Fontes Oficiais e Referências Bibliográficas
-
-* [Constituição Federal de 1988 - Art. 37, II e IX (Concurso Público e Contratação)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Requisito obrigatório de prévia aprovação em concurso público de provas ou de provas e títulos.
-* [Lei Estadual nº 20.756/2020 - Título II (Do Provimento, Concurso e Posse)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Regras estaduais sobre edital de concurso, prazos de validade, nomeação, posse e exercício dos servidores goianos.
-* [Lei Estadual nº 15.122/2005 (Plano de Cargos e Carreira dos Servidores do TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/80023/lei-15122) - Atribuições, requisitos de ingresso e especialidades dos cargos efetivos do tribunal.
-* [STF Súmula Vinculante 13 (Vedação ao Nepotismo no Provimento)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=13) - Proíbe nomeação de cônjuge, companheiro ou parente até o terceiro grau para cargo em comissão ou função gratificada.
-* [Decreto Federal nº 9.991/2019 (Política de Ingresso e Dimensionamento da Força de Trabalho)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Metodologia de planejamento da força de trabalho e competências necessárias no setor público.
-* CHIAVENATO, Idalberto. **Gestão de Pessoas: O Novo Papel dos Recursos Humanos nas Organizações**. 5. ed. São Paulo: Atlas, 2020. (Cap. 4 - Recrutamento de Pessoas; Cap. 5 - Seleção de Pessoas; Cap. 6 - Socialização Organizacional).
-* MARRAS, Jean Pierre. **Administração de Recursos Humanos: Do Operacional ao Estratégico**. 15. ed. São Paulo: Saraiva, 2016. (Cap. 3 - Recrutamento e Seleção de Pessoal).
-* MEIRELLES, Hely Lopes. **Direito Administrativo Brasileiro**. 44. ed. São Paulo: Malheiros, 2020. (Cap. 8 - Servidores Públicos e Concurso Público).
-
-
-### 8. Questões de Concurso FCC Comentadas
-
-### Questão 01
-**(FCC – Analista de Controle Externo – TCE-GO)**  
-No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto Chiavenato, os macroprocessos organizacionais integram um conjunto articulado de subsistemas interconectados. Ao estruturar os processos de gestão, o desenho de cargos, a socialização organizacional dos novos colaboradores e a sistemática de avaliação de desempenho funcional integram expressamente o macroprocesso de:
-
-* **A)** Agregar Pessoas.
-* **B)** Aplicar Pessoas.
-* **C)** Recompensar Pessoas.
-* **D)** Desenvolver Pessoas.
-* **E)** Monitorar Pessoas.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O macroprocesso de Agregar Pessoas engloba unicamente as atividades de atração e seleção (planejamento da força de trabalho, recrutamento e seleção/concurso).  
-> - **B) CORRETA.** Os **Processos de Aplicar Pessoas** dizem respeito a como as pessoas operam na organização e o que realizam. Chiavenato engloba expressamente neste macroprocesso: o desenho e especificação de cargos/tarefas, a orientação e socialização organizacional (integração dos admitidos) e a **avaliação periódica de desempenho**.  
-> - **C) Incorreta.** Recompensar Pessoas envolve folha de pagamento, estrutura de vencimentos, adicionais e benefícios sociais.  
-> - **D) Incorreta.** Desenvolver Pessoas compreende treinamento, capacitação contínua, aprendizagem organizacional e planos de carreira.  
-> - **E) Incorreta.** Monitorar Pessoas refere-se aos bancos de dados, cadastros funcionais e sistemas de informação de pessoal (SIRH).  
-> 
-> **Gabarito: B**
-
----
-
-### Questão 02
-**(FCC – Auditor de Controle Externo – TCE-RO)**  
-Uma entidade pública estadual necessita preencher posições funcionais de gestão interna. Ao optar prioritariamente pelo recrutamento interno em detrimento do recrutamento externo, a organização colhe benefícios relevantes, porém sujeita-se a uma vulnerabilidade conceitual frequentemente apontada pela literatura, consubstanciada na:
-
-* **A)** morosidade excessiva para disponibilizar o profissional e elevadíssimo dispêndio orçamentário com editais públicos e bancas examinadoras.
-* **B)** desmotivação crônica dos profissionais da casa, que visualizam o processo como um obstáculo intransponível à sua própria ascensão profissional.
-* **C)** ocorrência do fenômeno da endogamia cultural (*inbreeding*), marcada pela recirculação contínua dos mesmos vícios, soluções e práticas preexistentes, com bloqueio à inovação.
-* **D)** exigência legal obrigatória de reabertura imediata de concurso público para a investidura nas atribuições funcionais correlatas.
-* **E)** incapacidade operacional de avaliar previamente as competências comportamentais dos candidatos que já compõem o quadro institucional.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O recrutamento interno destaca-se exatamente por ser **ágil e econômico**, não demandando editais caros nem contratação de bancas examinadoras externas.  
-> - **B) Incorreta.** O recrutamento interno **eleva a motivação** dos colaboradores internos, pois oferece perspectivas concretas de carreira e reconhecimento funcional.  
-> - **C) CORRETA.** A clássica desvantagem técnica do recrutamento exclusivamente interno é a **endogamia cultural (*inbreeding*)**: como a organização se alimenta apenas de seus próprios membros, há o risco de reproduzir continuadamente as mesmas ideias, manter velhos vícios e blindar a instituição contra visões renovadas e saberes trazidos pelo ambiente externo.  
-> - **D) Incorreta.** Funções de chefia interna e cargos de confiança privativos de servidores de carreira são preenchidos por designação/ato interno discricionário, sem necessidade de novo concurso público para cada relotação.  
-> - **E) Incorreta.** No recrutamento interno, a organização já conhece o histórico de desempenho e o perfil comportamental dos candidatos, o que constitui uma das principais vantagens do processo.  
-> 
-> **Gabarito: C**
-
----
-
-### Questão 03
-**(FCC – Analista Administrativo – DPE-SP)**  
-Em uma entrevista de seleção baseada na gestão por competências, o examinador formula a seguinte questão ao candidato: *"Descreva uma ocasião em seu trabalho anterior na qual um prazo orçamentário complexo estava na iminência de se esgotar, detalhe qual era o desafio sob sua responsabilidade direta, as ações práticas que você implementou para contornar o obstáculo e quais foram os resultados mensuráveis obtidos"*. A técnica de seleção adotada classifica-se como:
-
-* **A)** Entrevista não diretiva e livre de avaliação projetiva.
-* **B)** Técnica de simulação psicodramática por imersão relacional.
-* **C)** Prova situacional de aptidão psicométrica abstrata.
-* **D)** Entrevista comportamental por competências estruturada sob o método STAR.
-* **E)** Teste de personalidade expressiva para verificação de temperamento frouxo.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A entrevista não diretiva é desestruturada e aberta, sem perguntas previamente padronizadas nem foco em dados fáticos estruturados.  
-> - **B) Incorreta.** A simulação psicodramática (*role-playing*) exige encenação de papéis interpessoais em dinâmica de grupo, não sendo uma entrevista individual reflexiva.  
-> - **C) Incorreta.** Provas psicométricas são testes formais de raciocínio lógico, atenção ou inteligência que geram escores quantitativos padronizados.  
-> - **D) CORRETA.** O enunciado retrata perfeitamente a técnica **STAR**: o examinador pede ao candidato que relate uma **Situação** fática do passado, sua **Tarefa** específica, a **Ação** concreta executada e o **Resultado** atingido. Baseia-se na premissa de que o comportamento passado em situações similares é o melhor preditor do desempenho futuro.  
-> - **E) Incorreta.** Testes de personalidade expressivos (como PMK ou Palográfico) utilizam traçados gráficos sob supervisão de psicólogos e não perguntas de entrevista funcional.  
-> 
-> **Gabarito: D**
-
----
-
-### Questão 04
-**(FCC – Analista de Controle Externo – TCE-GO)**  
-De acordo com os preceitos expressos no art. 37 da Constituição Federal de 1988 e a jurisprudência sumulada e vinculante dos Tribunais Superiores acerca do concurso público:
-
-* **A)** A realização de prova de títulos em concursos públicos pode ostentar caráter classificatório ou eliminatório, a exclusivo critério discricionário do edital regulamentador.
-* **B)** O candidato regularmente aprovado e classificado dentro do número de vagas originariamente previsto no edital possui mera expectativa de direito à nomeação, podendo a administração desconsiderar sua aprovação a qualquer tempo sem motivação extraordinária.
-* **C)** É prescindível a realização de concurso público para a contratação temporária destinada a atender a necessidade de excepcional interesse público, na forma disciplinada em legislação específica.
-* **D)** O prazo de validade do concurso público será de até quatro anos, improrrogável, admitindo-se apenas a celebração de novos editais quando esgotada a vigência.
-* **E)** O provimento originário em cargos públicos efetivos independe de prévia aprovação em concurso, desde que o servidor comprove exercício temporário anterior superior a dez anos.
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A prova de títulos tem caráter **estritamente classificatório**, sendo vedada a eliminação de candidatos com base exclusiva na ausência ou pontuação insuficiente de títulos.  
-> - **B) Incorreta.** Conforme pacificado pelo STF no Tema 161 (RE 598.099), o candidato aprovado dentro do número de vagas possui **direito público subjetivo à nomeação** durante a vigência do certame, salvo situações imprevisíveis, supervenientes e extraordinárias fundamentadamente comprovadas.  
-> - **C) CORRETA.** O art. 37, IX da CF/88 prevê expressamente que a lei estabelecerá os casos de contratação temporária para atender a necessidade de excepcional interesse público, dispensando o concurso público tradicional e viabilizando o Processo Seletivo Simplificado (PSS).  
-> - **D) Incorreta.** Conforme o art. 37, III da CF/88, o prazo de validade é de **até dois anos**, prorrogável uma única vez por igual período.  
-> - **E) Incorreta.** A investidura em cargo ou emprego público efetivo exige obrigatoriamente concurso público prévio (art. 37, II), sendo inconstitucional qualquer tentativa de efetivação sem certame republicano.  
-> 
-> **Gabarito: C**
-
 ---
 
 ### Questão 05
@@ -412,3 +399,26 @@ O processo de socialização organizacional compreende o conjunto de mecanismos 
 > - **E) Incorreta.** Desinstitucionalização refere-se ao rompimento de laços organizacionais e não ao processo de integração de novos servidores.  
 > 
 > **Gabarito: B**
+
+---
+
+
+#### Práticas Institucionais de Socialização no Setor Público
+
+* **Programa de Boas-Vindas e Ambientação:** Acolhida institucional pelos gestores e pela área de Gestão de Pessoas no primeiro dia de trabalho.
+* **Manual de Integração do Servidor:** Guia contendo missão institucional, direitos e deveres, canais de ouvidoria, regras de conduta ética e estrutura organizacional.
+* **Tutoria e Mentoria (*Buddy Program*):** Designação de um servidor experiente para acompanhar o novato nas rotinas diárias e sanar dúvidas operacionais.
+* **Cursos de Formação Inicial:** Aulas e oficinas práticas promovidas pela Escola de Contas/Governo para instrumentalizar o servidor nos sistemas corporativos e procedimentos processuais de controle externo.
+
+---
+
+### 7. Fontes Oficiais e Referências Bibliográficas
+
+* [Constituição Federal de 1988 - Art. 37, II e IX (Concurso Público e Contratação)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Requisito obrigatório de prévia aprovação em concurso público de provas ou de provas e títulos.
+* [Lei Estadual nº 20.756/2020 - Título II (Do Provimento, Concurso e Posse)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Regras estaduais sobre edital de concurso, prazos de validade, nomeação, posse e exercício dos servidores goianos.
+* [Lei Estadual nº 15.122/2005 (Plano de Cargos e Carreira dos Servidores do TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/80023/lei-15122) - Atribuições, requisitos de ingresso e especialidades dos cargos efetivos do tribunal.
+* [STF Súmula Vinculante 13 (Vedação ao Nepotismo no Provimento)](https://portal.stf.jus.br/jurisprudencia/sumarios/sumulavinculante.asp?seq=13) - Proíbe nomeação de cônjuge, companheiro ou parente até o terceiro grau para cargo em comissão ou função gratificada.
+* [Decreto Federal nº 9.991/2019 (Política de Ingresso e Dimensionamento da Força de Trabalho)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Metodologia de planejamento da força de trabalho e competências necessárias no setor público.
+* CHIAVENATO, Idalberto. **Gestão de Pessoas: O Novo Papel dos Recursos Humanos nas Organizações**. 5. ed. São Paulo: Atlas, 2020. (Cap. 4 - Recrutamento de Pessoas; Cap. 5 - Seleção de Pessoas; Cap. 6 - Socialização Organizacional).
+* MARRAS, Jean Pierre. **Administração de Recursos Humanos: Do Operacional ao Estratégico**. 15. ed. São Paulo: Saraiva, 2016. (Cap. 3 - Recrutamento e Seleção de Pessoal).
+* MEIRELLES, Hely Lopes. **Direito Administrativo Brasileiro**. 44. ed. São Paulo: Malheiros, 2020. (Cap. 8 - Servidores Públicos e Concurso Público).

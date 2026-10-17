@@ -36,7 +36,6 @@
     - [5.2 Stored Procedures vs. User-Defined Functions (UDF)](#52-stored-procedures-vs-user-defined-functions-udf)
     - [5.3 Gatilhos (Triggers): Eventos, Momentos (BEFORE, AFTER, INSTEAD OF) e Pseudorregistros OLD/NEW](#53-gatilhos-triggers-eventos-momentos-before-after-instead-of-e-pseudorregistros-oldnew)
 - [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
-- [6. Questões Comentadas & Prática Padrão FCC](#6-questoes-comentadas-pratica-padrao-fcc)
 
 ---
 
@@ -83,6 +82,30 @@ Um dos tópicos de maior incidência em provas da FCC para cargos de Tecnologia 
 >
 > 1. *"O comando TRUNCATE é uma operação DML porque manipula dados de linhas."* $\rightarrow$ **ERRADO!** O `TRUNCATE` é formalmente classificado como **DDL**, pois opera desalocando páginas físicas de armazenamento no catálogo de dados.
 > 2. *"O comando TRUNCATE aciona gatilhos de auditoria FOR EACH ROW para registrar quem apagou cada linha."* $\rightarrow$ **ERRADO!** O `TRUNCATE` ignora completamente gatilhos de nível de linha!
+
+---
+
+### Questão 01 (FCC - Adaptada / TI - DDL vs. DML: Comandos TRUNCATE e DELETE)
+Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com mais de 50 milhões de registros de log transitório em um ambiente de produção. Ao avaliar o uso do comando `TRUNCATE TABLE` em comparação com `DELETE FROM`, conclui-se corretamente que:  
+
+* **A)** O comando `TRUNCATE` é classificado como DML e gera o mesmo volume de logs transacionais no disco que o comando `DELETE`.
+* **B)** O comando `DELETE` desaloca diretamente as extensões de páginas de disco sem registrar cada exclusão de tupla no log de transações.
+* **C)** O comando `TRUNCATE` dispara todos os gatilhos do tipo `BEFORE DELETE FOR EACH ROW` associados à tabela.
+* **D)** O comando `TRUNCATE` é uma instrução DDL de execução rápida que desaloca as páginas de dados da tabela, operando com consumo mínimo de log de transação.
+* **E)** O comando `DELETE` reinicializa compulsoriamente os geradores automáticos de identidade (*sequences / serial*) para o valor inicial estabelecido na criação da tabela.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O `TRUNCATE` é formalmente uma instrução **DDL** e gera uma quantidade mínima de log em relação ao `DELETE`.
+> - **B)** Incorreta. O `DELETE` varre e remove linha por linha gravando cada exclusão no log de transações (Undo/Redo). Quem desaloca páginas com overhead mínimo é o `TRUNCATE`.
+> - **C)** Incorreta. O comando `TRUNCATE` **não dispara gatilhos de nível de linha** (`FOR EACH ROW`).
+> - **D)** Correta. Por ser um comando DDL, o **`TRUNCATE TABLE`** atua diretamente no nível de catálogo e alocação física, liberando imediatamente as páginas/extensões de dados associadas à tabela com consumo mínimo de log transacional, resultando em altíssima velocidade.
+> - **E)** Incorreta. O `DELETE` não reseta contadores de sequência automática (*identity/sequences*).
+> 
+> **Gabarito: D**
+
+---
+
 
 ### 1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira
 
@@ -145,6 +168,41 @@ Compreender essa cronologia lógica resolve duas das questões mais frequentes d
 
 ---
 
+### Questão 02 (FCC - Adaptada / TI - Ordem Lógica de Execução e Agrupamento: WHERE vs. HAVING)
+Considere a seguinte consulta SQL proposta por um desenvolvedor júnior para listar as secretarias cujo valor total de empenhos fiscais ultrapassou R$ 1.000.000 no exercício:
+
+```sql
+SELECT secretaria_id, SUM(valor_empenho) AS total_empenhado
+FROM empenhos
+WHERE total_empenhado > 1000000
+GROUP BY secretaria_id;
+```
+
+Ao ser submetida ao compilador SQL de um SGBD relacional padrão, a consulta:  
+
+* **A)** Executará com sucesso, pois o compilador SQL resolve primeiro a cláusula `SELECT` para em seguida processar a restrição no `WHERE`.
+* **B)** Falhará na compilação, pois a cláusula `WHERE` é processada antes da cláusula `SELECT` e não reconhece aliases de coluna nem admite filtros sobre valores agregados, os quais devem constar na cláusula `HAVING`.
+* **C)** Executará com sucesso apenas se a tabela `empenhos` possuir um índice agrupado (*clustered*) sobre a coluna `secretaria_id`.
+* **D)** Falhará na execução porque a cláusula `GROUP BY` exige obrigatoriamente a presença da cláusula `ORDER BY` para que o agrupamento seja válido.
+* **E)** Executará perfeitamente, desde que o alias `total_empenhado` seja renomeado para corresponder a um tipo `DECIMAL`.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A cláusula `SELECT` é processada muito após o `WHERE`, de modo que aliases de projeção não existem durante a avaliação do `WHERE`.
+> - **B)** Correta. A consulta falha por dois motivos decorrentes da ordem lógica de execução da SQL:
+>     1. O `WHERE` é processado antes do `SELECT` e, portanto, **não reconhece o alias de coluna `total_empenhado`**;
+>     2. O filtro exige uma condição sobre função de agregação (`SUM()`), a qual não pode constar no `WHERE` (que atua linha a linha), devendo ser posicionada obrigatoriamente na cláusula **`HAVING SUM(valor_empenho) > 1000000`** após o `GROUP BY`.
+>
+> - **C)** Incorreta. A presença de índices não corrige erros sintáticos e semânticos de compilação SQL.
+> - **D)** Incorreta. O uso de `ORDER BY` é opcional com `GROUP BY`.
+> - **E)** Incorreta. Renomear o alias não altera a restrição de que agregações devem ser filtradas no `HAVING`.
+> 
+> **Gabarito: B**
+
+---
+
+
+
 ## 3. Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas
 
 ### 3.1 Junções (INNER, LEFT, RIGHT, FULL OUTER e CROSS JOIN)
@@ -175,6 +233,43 @@ Em SQL, qualquer comparação direta com valor nulo (`coluna = NULL` ou `coluna 
 > - Como o predicado desdobra-se em: `id != 1 AND id != 2 AND id != NULL`, e qualquer comparação com `NULL` resulta em `UNKNOWN`, a expressão inteira avaliará como `UNKNOWN` para todas as linhas!  
 > - **Resultado Catastrófico:** A consulta retornará **ZERO LINHAS (conjunto vazio)**!  
 > - **Solução Recomendada:** Utilizar sempre a construção com **`NOT EXISTS`** correlacionado, imune a valores nulos.
+
+---
+
+### Questão 03 (FCC - Adaptada / TI - Subconsultas e a Lógica de Nulos com NOT IN vs. NOT EXISTS)
+Considere duas tabelas em um banco de dados fazendário:
+
+- `CONTRIBUINTE (id_contribuinte, nome)` com 1.000 registros.
+- `INFRACAO (id_infracao, id_contribuinte, valor)` com 500 registros, sendo que em 5 registros o atributo `id_contribuinte` possui o valor `NULL` (infrações lavradas com autor ainda não identificado).
+
+Um auditor executa a seguinte consulta para listar os contribuintes que nunca cometeram infração:
+
+```sql
+SELECT nome 
+FROM CONTRIBUINTE 
+WHERE id_contribuinte NOT IN (SELECT id_contribuinte FROM INFRACAO);
+```
+
+O resultado obtido por essa consulta será:  
+
+* **A)** Uma relação contendo exatamente os contribuintes sem registros correspondentes na tabela de infração.
+* **B)** Uma relação com todos os 1.000 contribuintes da tabela original.
+* **C)** Um conjunto vazio (zero registros retornados), em virtude da presença de valores nulos na subconsulta avaliada pelo operador `NOT IN`.
+* **D)** Uma mensagem de erro de compilação SQL, visto que o operador `NOT IN` não suporta subconsultas como argumento.
+* **E)** Uma relação com exatamente 495 registros, correspondente à diferença algébrica simples.
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O predicado `NOT IN` não retornará essa lista devido ao colapso provocado pelo valor nulo.
+> - **B)** Incorreta. O retorno não trará todos os registros.
+> - **C)** Correta. De acordo com a **Lógica Ternária (Three-Valued Logic)** da SQL, a expressão `x NOT IN (v1, v2, NULL)` é avaliada como `x != v1 AND x != v2 AND x != NULL`. Como qualquer comparação com `NULL` resulta em `UNKNOWN`, e a conjunção de `TRUE AND UNKNOWN` resulta em `UNKNOWN`, a cláusula `WHERE` descarta todas as linhas (pois ela só preserva linhas cuja condição seja estritamente `TRUE`). Portanto, a consulta retorna **zero registros (conjunto vazio)**. Para evitar essa anomalia, deve-se usar `NOT EXISTS`.
+> - **D)** Incorreta. A consulta é perfeitamente válida na gramática SQL ANSI.
+> - **E)** Incorreta. Valor incorreto decorrente de interpretação sem considerar a lógica ternária de nulos.
+> 
+> **Gabarito: C**
+
+---
+
 
 ### 3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)
 
@@ -229,6 +324,32 @@ Considere quatro servidores avaliados por salário dentro de uma partição: Ana
 - **`RANK()`:** Atribui a mesma posição a valores empatados, porém **pula números na sequência** proporcionalmente ao tamanho do empate (deixa lacunas no ranking).
 - **`DENSE_RANK()`:** Atribui a mesma posição a valores empatados, porém **NÃO pula números na sequência**; a numeração subsequente continua estritamente consecutiva (ranking denso sem lacunas).
 
+---
+
+### Questão 04 (FCC - Adaptada / TI - Funções de Janela em SQL)
+Considere uma tabela denominada `AUDITORIA_FOLHA` que armazena os vencimentos de servidores, com as colunas `Matricula`, `Orgao` e `Salario`. Um analista precisa gerar um relatório onde os servidores sejam classificados em ordem decrescente de salário dentro de cada órgão (`Orgao`), de modo que servidores com salários idênticos recebam a mesma posição no ranking e a numeração da posição subsequente continue consecutiva, sem deixar lacunas ou "pular" números.
+
+A consulta SQL correta que atende exatamente a essa especificação utiliza a função de janela:  
+
+* **A)** `ROW_NUMBER() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
+* **B)** `RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
+* **C)** `DENSE_RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
+* **D)** `COUNT(Salario) OVER (ORDER BY Orgao DESC)`
+* **E)** `LEAD(Salario, 1) OVER (PARTITION BY Orgao)`
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O `ROW_NUMBER()` gera um sequencial estritamente único para cada linha (1, 2, 3...), desconsiderando empates salariais.
+> - **B)** Incorreta. O `RANK()` atribui a mesma posição aos empatados, mas pula posições subsequentes na sequência (ex.: se houver dois primeiros colocados, o próximo recebe a posição 3), deixando lacunas.
+> - **C)** Correta. A função **`DENSE_RANK()`** atribui a mesma posição aos registros com valores empatados e garante que a posição imediatamente seguinte seja a próxima na ordem inteira contígua (1, 1, 2, 3...), preservando o ranqueamento denso sem deixar lacunas na numeração.
+> - **D)** Incorreta. `COUNT()` é uma função de agregação de contagem, não uma função de ranqueamento.
+> - **E)** Incorreta. `LEAD()` é uma função analítica de deslocamento para acessar valores de linhas posteriores na janela, não atribuindo posições de classificação.
+> 
+> **Gabarito: C**
+
+---
+
+
 ### 4.3 Funções de Deslocamento: LEAD() e LAG()
 
 Permitem acessar dados de linhas vizinhas na mesma partição sem necessidade de efetuar auto-junções (*self-joins*) lentas:
@@ -281,44 +402,7 @@ Gatilhos (*Triggers*) são blocos de código procedurais executados automaticame
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [PostgreSQL 17 Official Documentation - DDL Commands](https://www.postgresql.org/docs/current/ddl.html) - Sintaxe formal de CREATE, ALTER, DROP e restrições de integridade referencial.
-* [PostgreSQL 17 Official Documentation - Data Manipulation (DML)](https://www.postgresql.org/docs/current/dml.html) - Comandos INSERT, UPDATE, DELETE e TRUNCATE e suas implicações em transações e triggers.
-* [PostgreSQL 17 Official Documentation - Advanced Queries and Table Expressions](https://www.postgresql.org/docs/current/queries.html) - CTEs recursivas, cláusula WITH, Window Functions (ROW_NUMBER, RANK, DENSE_RANK) e subconsultas.
-* [PostgreSQL 17 Official Documentation - Row Security Policies (RLS)](https://www.postgresql.org/docs/current/ddl-rowsecurity.html) - Controle de acesso e segurança granular em nível de linha com políticas DCL.
-* BEIGHLEY, Lynn. **Use a Cabeça! SQL**. 2. ed. Rio de Janeiro: Alta Books, 2011. (Cap. 6 a 8 - Junções Múltiplas e Subconsultas).
-* SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 3 a 5 - Introdução a SQL, SQL Intermediário e Avançado).
-* ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 6 e 7 - SQL Básico e SQL Complexo).
-
----
-
-## 6. Questões Comentadas & Prática Padrão FCC
-
-### Questão 1 (FCC - Adaptada / TI - Funções de Janela em SQL)
-Considere uma tabela denominada `AUDITORIA_FOLHA` que armazena os vencimentos de servidores, com as colunas `Matricula`, `Orgao` e `Salario`. Um analista precisa gerar um relatório onde os servidores sejam classificados em ordem decrescente de salário dentro de cada órgão (`Orgao`), de modo que servidores com salários idênticos recebam a mesma posição no ranking e a numeração da posição subsequente continue consecutiva, sem deixar lacunas ou "pular" números.
-
-A consulta SQL correta que atende exatamente a essa especificação utiliza a função de janela:  
-
-* **A)** `ROW_NUMBER() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
-* **B)** `RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
-* **C)** `DENSE_RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
-* **D)** `COUNT(Salario) OVER (ORDER BY Orgao DESC)`
-* **E)** `LEAD(Salario, 1) OVER (PARTITION BY Orgao)`
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O `ROW_NUMBER()` gera um sequencial estritamente único para cada linha (1, 2, 3...), desconsiderando empates salariais.
-> - **B)** Incorreta. O `RANK()` atribui a mesma posição aos empatados, mas pula posições subsequentes na sequência (ex.: se houver dois primeiros colocados, o próximo recebe a posição 3), deixando lacunas.
-> - **C)** Correta. A função **`DENSE_RANK()`** atribui a mesma posição aos registros com valores empatados e garante que a posição imediatamente seguinte seja a próxima na ordem inteira contígua (1, 1, 2, 3...), preservando o ranqueamento denso sem deixar lacunas na numeração.
-> - **D)** Incorreta. `COUNT()` é uma função de agregação de contagem, não uma função de ranqueamento.
-> - **E)** Incorreta. `LEAD()` é uma função analítica de deslocamento para acessar valores de linhas posteriores na janela, não atribuindo posições de classificação.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 2 (FCC - Adaptada / TI - Gatilhos / Triggers e Pseudorregistros)
+### Questão 05 (FCC - Adaptada / TI - Gatilhos / Triggers e Pseudorregistros)
 No que concerne aos gatilhos (*Triggers*) em sistemas de gerenciamento de bancos de dados relacionais padrão ANSI/ISO e SGBDs modernos (como Oracle e PostgreSQL), assinale a afirmativa correta:  
 
 * **A)** Em um gatilho acionado por uma instrução `INSERT`, tanto o pseudorregistro `OLD` quanto o pseudorregistro `NEW` contêm os mesmos valores da nova linha inserida.
@@ -339,88 +423,14 @@ No que concerne aos gatilhos (*Triggers*) em sistemas de gerenciamento de bancos
 
 ---
 
-### Questão 3 (FCC - Adaptada / TI - DDL vs. DML: Comandos TRUNCATE e DELETE)
-Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com mais de 50 milhões de registros de log transitório em um ambiente de produção. Ao avaliar o uso do comando `TRUNCATE TABLE` em comparação com `DELETE FROM`, conclui-se corretamente que:  
 
-* **A)** O comando `TRUNCATE` é classificado como DML e gera o mesmo volume de logs transacionais no disco que o comando `DELETE`.
-* **B)** O comando `DELETE` desaloca diretamente as extensões de páginas de disco sem registrar cada exclusão de tupla no log de transações.
-* **C)** O comando `TRUNCATE` dispara todos os gatilhos do tipo `BEFORE DELETE FOR EACH ROW` associados à tabela.
-* **D)** O comando `TRUNCATE` é uma instrução DDL de execução rápida que desaloca as páginas de dados da tabela, operando com consumo mínimo de log de transação.
-* **E)** O comando `DELETE` reinicializa compulsoriamente os geradores automáticos de identidade (*sequences / serial*) para o valor inicial estabelecido na criação da tabela.
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O `TRUNCATE` é formalmente uma instrução **DDL** e gera uma quantidade mínima de log em relação ao `DELETE`.
-> - **B)** Incorreta. O `DELETE` varre e remove linha por linha gravando cada exclusão no log de transações (Undo/Redo). Quem desaloca páginas com overhead mínimo é o `TRUNCATE`.
-> - **C)** Incorreta. O comando `TRUNCATE` **não dispara gatilhos de nível de linha** (`FOR EACH ROW`).
-> - **D)** Correta. Por ser um comando DDL, o **`TRUNCATE TABLE`** atua diretamente no nível de catálogo e alocação física, liberando imediatamente as páginas/extensões de dados associadas à tabela com consumo mínimo de log transacional, resultando em altíssima velocidade.
-> - **E)** Incorreta. O `DELETE` não reseta contadores de sequência automática (*identity/sequences*).
-> 
-> **Gabarito: D**
+## 🌐 Fontes Oficiais e Referências Bibliográficas
 
----
-
-### Questão 4 (FCC - Adaptada / TI - Subconsultas e a Lógica de Nulos com NOT IN vs. NOT EXISTS)
-Considere duas tabelas em um banco de dados fazendário:
-
-- `CONTRIBUINTE (id_contribuinte, nome)` com 1.000 registros.
-- `INFRACAO (id_infracao, id_contribuinte, valor)` com 500 registros, sendo que em 5 registros o atributo `id_contribuinte` possui o valor `NULL` (infrações lavradas com autor ainda não identificado).
-
-Um auditor executa a seguinte consulta para listar os contribuintes que nunca cometeram infração:
-
-```sql
-SELECT nome 
-FROM CONTRIBUINTE 
-WHERE id_contribuinte NOT IN (SELECT id_contribuinte FROM INFRACAO);
-```
-
-O resultado obtido por essa consulta será:  
-
-* **A)** Uma relação contendo exatamente os contribuintes sem registros correspondentes na tabela de infração.
-* **B)** Uma relação com todos os 1.000 contribuintes da tabela original.
-* **C)** Um conjunto vazio (zero registros retornados), em virtude da presença de valores nulos na subconsulta avaliada pelo operador `NOT IN`.
-* **D)** Uma mensagem de erro de compilação SQL, visto que o operador `NOT IN` não suporta subconsultas como argumento.
-* **E)** Uma relação com exatamente 495 registros, correspondente à diferença algébrica simples.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O predicado `NOT IN` não retornará essa lista devido ao colapso provocado pelo valor nulo.
-> - **B)** Incorreta. O retorno não trará todos os registros.
-> - **C)** Correta. De acordo com a **Lógica Ternária (Three-Valued Logic)** da SQL, a expressão `x NOT IN (v1, v2, NULL)` é avaliada como `x != v1 AND x != v2 AND x != NULL`. Como qualquer comparação com `NULL` resulta em `UNKNOWN`, e a conjunção de `TRUE AND UNKNOWN` resulta em `UNKNOWN`, a cláusula `WHERE` descarta todas as linhas (pois ela só preserva linhas cuja condição seja estritamente `TRUE`). Portanto, a consulta retorna **zero registros (conjunto vazio)**. Para evitar essa anomalia, deve-se usar `NOT EXISTS`.
-> - **D)** Incorreta. A consulta é perfeitamente válida na gramática SQL ANSI.
-> - **E)** Incorreta. Valor incorreto decorrente de interpretação sem considerar a lógica ternária de nulos.
-> 
-> **Gabarito: C**
-
----
-
-### Questão 5 (FCC - Adaptada / TI - Ordem Lógica de Execução e Agrupamento: WHERE vs. HAVING)
-Considere a seguinte consulta SQL proposta por um desenvolvedor júnior para listar as secretarias cujo valor total de empenhos fiscais ultrapassou R$ 1.000.000 no exercício:
-
-```sql
-SELECT secretaria_id, SUM(valor_empenho) AS total_empenhado
-FROM empenhos
-WHERE total_empenhado > 1000000
-GROUP BY secretaria_id;
-```
-
-Ao ser submetida ao compilador SQL de um SGBD relacional padrão, a consulta:  
-
-* **A)** Executará com sucesso, pois o compilador SQL resolve primeiro a cláusula `SELECT` para em seguida processar a restrição no `WHERE`.
-* **B)** Falhará na compilação, pois a cláusula `WHERE` é processada antes da cláusula `SELECT` e não reconhece aliases de coluna nem admite filtros sobre valores agregados, os quais devem constar na cláusula `HAVING`.
-* **C)** Executará com sucesso apenas se a tabela `empenhos` possuir um índice agrupado (*clustered*) sobre a coluna `secretaria_id`.
-* **D)** Falhará na execução porque a cláusula `GROUP BY` exige obrigatoriamente a presença da cláusula `ORDER BY` para que o agrupamento seja válido.
-* **E)** Executará perfeitamente, desde que o alias `total_empenhado` seja renomeado para corresponder a um tipo `DECIMAL`.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A cláusula `SELECT` é processada muito após o `WHERE`, de modo que aliases de projeção não existem durante a avaliação do `WHERE`.
-> - **B)** Correta. A consulta falha por dois motivos decorrentes da ordem lógica de execução da SQL:
->     1. O `WHERE` é processado antes do `SELECT` e, portanto, **não reconhece o alias de coluna `total_empenhado`**;
->     2. O filtro exige uma condição sobre função de agregação (`SUM()`), a qual não pode constar no `WHERE` (que atua linha a linha), devendo ser posicionada obrigatoriamente na cláusula **`HAVING SUM(valor_empenho) > 1000000`** após o `GROUP BY`.
->
-> - **C)** Incorreta. A presença de índices não corrige erros sintáticos e semânticos de compilação SQL.
-> - **D)** Incorreta. O uso de `ORDER BY` é opcional com `GROUP BY`.
-> - **E)** Incorreta. Renomear o alias não altera a restrição de que agregações devem ser filtradas no `HAVING`.
-> 
-> **Gabarito: B**
+* [PostgreSQL 17 Official Documentation - DDL Commands](https://www.postgresql.org/docs/current/ddl.html) - Sintaxe formal de CREATE, ALTER, DROP e restrições de integridade referencial.
+* [PostgreSQL 17 Official Documentation - Data Manipulation (DML)](https://www.postgresql.org/docs/current/dml.html) - Comandos INSERT, UPDATE, DELETE e TRUNCATE e suas implicações em transações e triggers.
+* [PostgreSQL 17 Official Documentation - Advanced Queries and Table Expressions](https://www.postgresql.org/docs/current/queries.html) - CTEs recursivas, cláusula WITH, Window Functions (ROW_NUMBER, RANK, DENSE_RANK) e subconsultas.
+* [PostgreSQL 17 Official Documentation - Row Security Policies (RLS)](https://www.postgresql.org/docs/current/ddl-rowsecurity.html) - Controle de acesso e segurança granular em nível de linha com políticas DCL.
+* BEIGHLEY, Lynn. **Use a Cabeça! SQL**. 2. ed. Rio de Janeiro: Alta Books, 2011. (Cap. 6 a 8 - Junções Múltiplas e Subconsultas).
+* SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 3 a 5 - Introdução a SQL, SQL Intermediário e Avançado).
+* ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 6 e 7 - SQL Básico e SQL Complexo).
