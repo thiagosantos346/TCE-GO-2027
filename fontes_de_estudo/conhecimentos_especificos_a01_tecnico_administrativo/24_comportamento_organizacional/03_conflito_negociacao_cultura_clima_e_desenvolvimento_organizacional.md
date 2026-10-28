@@ -31,38 +31,31 @@
     - Análise do Campo de Forças de Lewin: forças propulsoras/impulsoras versus forças restritivas;
     - Fontes de resistência à mudança individuais e organizacionais.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [Evolução Teórica do Conflito e Tipologias por Conteúdo](#1-evolucao-teorica-do-conflito-e-tipologias-por-conteudo)
-    2. [Teste 420](#Teste-420)
-    3. [Teste 421](#Teste-421)
-    4. [Estilos de Administração de Conflitos (Thomas-Kilmann)](#2-estilos-de-administracao-de-conflitos-thomas-kilmann)
-    5. [Teste 422](#Teste-422)
-    6. [Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)](#3-tecnicas-de-negociacao-distributiva-vs-integrativa-modelo-harvard)
-    7. [Teste 423](#Teste-423)
-    8. [Teste 424](#Teste-424)
-    9. [Cultura Organizacional e os Três Níveis de Edgar Schein](#4-cultura-organizacional-e-os-tres-niveis-de-edgar-schein)
-    10. [Teste 425](#Teste-425)
-    11. [Cultura Organizacional versus Clima Organizacional](#5-cultura-organizacional-versus-clima-organizacional)
-    12. [Teste 426](#Teste-426)
-    13. [Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)](#6-desenvolvimento-organizacional-e-gestao-da-mudanca-kurt-lewin)
-    14. [Teste 427](#Teste-427)
-    15. [Teste 428](#Teste-428)
-    16. [Teste 429](#Teste-429)
-    17. [Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
+1. [Evolução Teórica do Conflito e Tipologias por Conteúdo](#1-evolucao-teorica-do-conflito-e-tipologias-por-conteudo)
+    1. [Teste 420](#Teste-420)
+    2. [Teste 421](#Teste-421)
+2. [Estilos de Administração de Conflitos (Thomas-Kilmann)](#2-estilos-de-administracao-de-conflitos-thomas-kilmann)
+    1. [Teste 422](#Teste-422)
+3. [Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)](#3-tecnicas-de-negociacao-distributiva-vs-integrativa-modelo-harvard)
+    1. [Teste 423](#Teste-423)
+    2. [Teste 424](#Teste-424)
+4. [Cultura Organizacional e os Três Níveis de Edgar Schein](#4-cultura-organizacional-e-os-tres-niveis-de-edgar-schein)
+    1. [Teste 425](#Teste-425)
+5. [Cultura Organizacional versus Clima Organizacional](#5-cultura-organizacional-versus-clima-organizacional)
+    1. [Teste 426](#Teste-426)
+6. [Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)](#6-desenvolvimento-organizacional-e-gestao-da-mudanca-kurt-lewin)
+    1. [Teste 427](#Teste-427)
+    2. [Teste 428](#Teste-428)
+    3. [Teste 429](#Teste-429)
+7. [Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. Evolução Teórica do Conflito e Tipologias por Conteúdo
+## 1. Evolução Teórica do Conflito e Tipologias por Conteúdo
 
 O conflito é um processo que se inicia quando uma das partes percebe que a outra afetou ou está prestes a afetar negativamente algo que lhe é importante. A compreensão do conflito evoluiu em três correntes históricas fundamentais:
 
@@ -111,8 +104,6 @@ No âmbito da teoria contemporânea de gestão de conflitos, a abordagem Interac
 
 ---
 
-
-
 ### Teste 421
 **(FCC - Adaptada / Analista de Planejamento e Gestão)**
 Na evolução teórica a respeito dos conflitos organizacionais, três visões sucederam-se historicamente: a Visão Tradicional, a Visão de Relações Humanas e a Visão Interacionista.
@@ -140,8 +131,7 @@ Segundo a **Visão Interacionista** do conflito:
 
 ---
 
-
-### 2. Estilos de Administração de Conflitos (Thomas-Kilmann)
+## 2. Estilos de Administração de Conflitos (Thomas-Kilmann)
 
 Kenneth Thomas e Ralph Kilmann estruturaram a resolução de conflitos sobre dois eixos comportamentais fundamentais: **Assertividade** (grau em que o sujeito busca fazer valer seus próprios interesses) e **Cooperatividade** (grau em que busca atender às necessidades da contraparte):
 
@@ -187,8 +177,7 @@ O estilo de gestão de conflitos caracterizado por **alta assertividade e alta c
 
 ---
 
-
-### 3. Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)
+## 3. Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)
 
 A negociação é um processo dialógico de tomada de decisão conjunta em que duas ou mais partes interdependentes procuram formular um acordo:
 
@@ -233,8 +222,6 @@ Durante uma negociação contratual complexa entre um órgão público e uma emp
 
 ---
 
-
-
 ### Teste 424
 **(FCC - Adaptada / Analista de Tecnologia e Controle)**
 Na teoria da negociação baseada nos princípios do Projeto de Negociação de Harvard (Fisher, Ury e Patton), a **Negociação Integrativa (ou Baseada em Princípios)** distingue-se da Negociação Distributiva (ou Posicional) por:
@@ -258,8 +245,7 @@ Na teoria da negociação baseada nos princípios do Projeto de Negociação de 
 
 ---
 
-
-### 4. Cultura Organizacional e os Três Níveis de Edgar Schein
+## 4. Cultura Organizacional e os Três Níveis de Edgar Schein
 
 A cultura organizacional é o sistema de significados compartilhados, valores, crenças e normas que diferenciam uma instituição de todas as outras. Edgar Schein concebeu a cultura como uma estrutura em camadas, assemelhada a um *iceberg*:
 
@@ -311,9 +297,7 @@ Segundo a teoria dos níveis da cultura organizacional desenvolvida por Edgar Sc
 
 ---
 
-
-
-### 5. Cultura Organizacional versus Clima Organizacional
+## 5. Cultura Organizacional versus Clima Organizacional
 
 ```mermaid
 flowchart LR
@@ -363,9 +347,7 @@ A respeito da diferença essencial entre Cultura Organizacional e Clima Organiza
 
 ---
 
-
-
-### 6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)
+## 6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)
 
 O Desenvolvimento Organizacional (DO) é uma abordagem planejada de longo prazo voltada para transformar as atitudes, valores, processos e estruturas da organização, assegurando sua adaptabilidade contínua.
 
@@ -413,8 +395,6 @@ No modelo clássico de gestão da mudança organizacional formulado por Kurt Lew
 > **Gabarito: A**
 
 ---
-
-
 
 ### Teste 428
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
@@ -466,8 +446,7 @@ A ordem cronológica correta das três etapas de Kurt Lewin é:
 
 ---
 
-
-### 7. Fontes Oficiais e Referências Bibliográficas
+## 7. Fontes Oficiais e Referências Bibliográficas
 
 * [Lei nº 13.140/2015 (Lei de Mediação e Autocomposição de Conflitos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13140.htm) - Disciplina a autocomposição e negociação consensual de conflitos no âmbito da administração pública.
 * [Decreto Federal nº 1.171/1994 (Conduta Ética e Clima Organizacional)](https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm) - Prevenção de assédio, preservação do clima de trabalho harmonioso e zelo funcional.

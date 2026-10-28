@@ -28,36 +28,40 @@
     - Eficácia de título executivo extrajudicial das decisões do Tribunal de Contas (Art. 71, § 3º da CF/88);
     - Princípio da simetria constitucional (Art. 75 da CF/88) e o Ministério Público de Contas (Art. 130 da CF/88).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Estrutura Bicameral e Atribuições das Casas Legislativas](#1-estrutura-bicameral-e-atribuicoes-das-casas-legislativas)
-    2. [Teste 143](#Teste-143)
-    3. [Teste 144](#Teste-144)
-    4. [Teste 145](#Teste-145)
-    5. [O Processo Legislativo Constitucional](#2-o-processo-legislativo-constitucional)
-    6. [Teste 146](#Teste-146)
-    7. [Teste 147](#Teste-147)
-    8. [Teste 148](#Teste-148)
-    9. [Fiscalização e Controle Externo pelos Tribunais de Contas (Arts. 70 a 75)](#3-fiscalizacao-e-controle-externo-pelos-tribunais-de-contas-arts-70-a-75)
-    10. [Teste 149](#Teste-149)
-    11. [Teste 150](#Teste-150)
-    12. [Teste 151](#Teste-151)
-    13. [Teste 152](#Teste-152)
-    14. [Teste 153](#Teste-153)
-2. [Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+1. [Estrutura Bicameral e Atribuições das Casas Legislativas](#1-estrutura-bicameral-e-atribuicoes-das-casas-legislativas)
+    1. [Modelo Bicameral Federal e Unicameral Estadual/Municipal](#11-modelo-bicameral-federal-e-unicameral-estadualmunicipal)
+    2. [Repartição de Competências no Congresso Nacional](#12-reparticao-de-competencias-no-congresso-nacional)
+    3. [Estatuto dos Congressistas e Imunidades Parlamentares](#13-estatuto-dos-congressistas-e-imunidades-parlamentares)
+    4. [Teste 143](#Teste-143)
+    5. [Teste 144](#Teste-144)
+    6. [Teste 145](#Teste-145)
+2. [O Processo Legislativo Constitucional](#2-o-processo-legislativo-constitucional)
+    1. [Emendas à Constituição (Art. 60) e Limitações ao Poder de Reforma](#21-emendas-a-constituicao-art-60-e-limitacoes-ao-poder-de-reforma)
+    2. [Leis Complementares versus Leis Ordinárias](#22-leis-complementares-versus-leis-ordinarias)
+    3. [Medidas Provisórias (Art. 62): Prazos e Vedações Temáticas](#23-medidas-provisorias-art-62-prazos-e-vedacoes-tematicas)
+    4. [Teste 146](#Teste-146)
+    5. [Teste 147](#Teste-147)
+    6. [Teste 148](#Teste-148)
+3. [Fiscalização e Controle Externo pelos Tribunais de Contas (Arts. 70 a 75)](#3-fiscalizacao-e-controle-externo-pelos-tribunais-de-contas-arts-70-a-75)
+    1. [Abrangência e Critérios da Fiscalização Financeira](#31-abrangencia-e-criterios-da-fiscalizacao-financeira)
+    2. [O Julgamento de Contas Públicas: Contas de Governo versus Contas de Gestão](#32-o-julgamento-de-contas-publicas-contas-de-governo-versus-contas-de-gestao)
+    3. [Sustação de Atos Ilegais versus Sustação de Contratos Administrativos](#33-sustacao-de-atos-ilegais-versus-sustacao-de-contratos-administrativos)
+    4. [Eficácia das Decisões Condenatórias e Título Executivo Extrajudicial](#34-eficacia-das-decisoes-condenatorias-e-titulo-executivo-extrajudicial)
+    5. [Simetria Federativa (Art. 75) e o Ministério Público de Contas (Art. 130)](#35-simetria-federativa-art-75-e-o-ministerio-publico-de-contas-art-130)
+    6. [Teste 149](#Teste-149)
+    7. [Teste 150](#Teste-150)
+    8. [Teste 151](#Teste-151)
+    9. [Teste 152](#Teste-152)
+    10. [Teste 153](#Teste-153)
+4. [🌐 Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
 
 ---
 
-
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Estrutura Bicameral e Atribuições das Casas Legislativas
+## 1. Estrutura Bicameral e Atribuições das Casas Legislativas
 
 O Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo):
 
@@ -71,14 +75,14 @@ flowchart TD
     CN --> SF["Senado Federal<br/>(Representantes dos Estados/DF)<br/>Sistema Majoritário<br/>3 por Ente / Mandato: 8 anos"]
 ```
 
-#### 1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal
+### 1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal
 Enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federação o Poder Legislativo adota compulsoriamente a estrutura **unicameral**:
 
 - **Estados-Membros:** Assembleias Legislativas, compostas por Deputados Estaduais (art. 27);
 - **Distrito Federal:** Câmara Legislativa do Distrito Federal, composta por Deputados Distritais (art. 32, § 2º);
 - **Municípios:** Câmaras Municipais, compostas por Vereadores (art. 29, IV).
 
-#### 1.2 Repartição de Competências no Congresso Nacional
+### 1.2 Repartição de Competências no Congresso Nacional
 É fundamental distinguir os três tipos de atribuições legislativas federais:
 
 1. **Competências com Sanção Presidencial (Art. 48):** Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
@@ -87,9 +91,14 @@ Enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federaç�
     - *Câmara dos Deputados (Art. 51, I):* Autorizar, por **dois terços** de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.
     - *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos **crimes de responsabilidade**, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
 
+### 1.3 Estatuto dos Congressistas e Imunidades Parlamentares
+O art. 53 da Constituição consagra o plexo de garantias institucionais dos membros do Congresso Nacional:
+
+- **Imunidade Material (Real ou Substantiva):** Os Deputados e Senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos. Exige conexão (nexo de causalidade) com o desempenho das funções parlamentares, sendo absoluta quando manifestada dentro do recinto do parlamento.
+- **Imunidade Formal (Processual) quanto à Prisão (Art. 53, § 2º):** Desde a expedição do diploma, os membros do Congresso Nacional **não poderão ser presos**, salvo em flagrante de crime inafiançável. Nesse caso, os autos serão remetidos dentro de vinte e quatro horas à Casa respectiva, para que, pelo voto da maioria de seus membros, resolva sobre a prisão.
+- **Foro por Prerrogativa de Função (Art. 53, § 1º):** Os Deputados e Senadores serão submetidos a julgamento perante o STF desde a expedição do diploma. Conforme tese firmada pelo STF na AP 937 e reafirmada pelo plenário, o foro especial aplica-se apenas aos crimes cometidos durante o exercício do mandato e relacionados com as funções parlamentares.
+
 ---
-
-
 
 ### Teste 143
 **(FCC - Analista Legislativo - Área Processo Legislativo)**
@@ -143,8 +152,6 @@ No que tange às competências privativas das Casas Legislativas no âmbito do C
 
 ---
 
-
-
 ### Teste 145
 **(FGV - Auditor de Controle Externo / TCE-GO)**
 O art. 53 da Constituição Federal de 1988 estabelece que os Deputados e Senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos (imunidade material ou substantiva).
@@ -172,19 +179,9 @@ Sobre as imunidades parlamentares formais ou adjetivas (processuais), assinale a
 
 ---
 
+## 2. O Processo Legislativo Constitucional
 
-#### 1.3 Estatuto dos Congressistas e Imunidades Parlamentares
-O art. 53 da Constituição consagra o plexo de garantias institucionais dos membros do Congresso Nacional:
-
-- **Imunidade Material (Real ou Substantiva):** Os Deputados e Senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos. Exige conexão (nexo de causalidade) com o desempenho das funções parlamentares, sendo absoluta quando manifestada dentro do recinto do parlamento.
-- **Imunidade Formal (Processual) quanto à Prisão (Art. 53, § 2º):** Desde a expedição do diploma, os membros do Congresso Nacional **não poderão ser presos**, salvo em flagrante de crime inafiançável. Nesse caso, os autos serão remetidos dentro de vinte e quatro horas à Casa respectiva, para que, pelo voto da maioria de seus membros, resolva sobre a prisão.
-- **Foro por Prerrogativa de Função (Art. 53, § 1º):** Os Deputados e Senadores serão submetidos a julgamento perante o STF desde a expedição do diploma. Conforme tese firmada pelo STF na AP 937 e reafirmada pelo plenário, o foro especial aplica-se apenas aos crimes cometidos durante o exercício do mandato e relacionados com as funções parlamentares.
-
----
-
-### 2. O Processo Legislativo Constitucional
-
-#### 2.1 Emendas à Constituição (Art. 60) e Limitações ao Poder de Reforma
+### 2.1 Emendas à Constituição (Art. 60) e Limitações ao Poder de Reforma
 As Emendas Constitucionais manifestam o exercício do **Poder Constituinte Derivado Reformador**, sujeitando-se a limites formais e materiais rigorosos.
 
 ```mermaid
@@ -208,9 +205,23 @@ flowchart TD
 - **Limitações Circunstanciais (Art. 60, § 1º):** A Constituição não poderá ser emendada na vigência de intervenção federal, de estado de defesa ou de estado de sítio.
 - **Princípio da Irrepetibilidade (Art. 60, § 5º):** A matéria constante de proposta de emenda rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa (ano parlamentar).
 
+### 2.2 Leis Complementares versus Leis Ordinárias
+- **Lei Complementar:** Exige quórum de aprovação de **maioria absoluta** em ambas as Casas Legislativas (metade mais um do total de membros da Casa). Aplica-se às matérias expressa e taxativamente reservadas pela Constituição Federal (ex.: Código Tributário Nacional, LRF, competências da Defensoria Pública).
+- **Lei Ordinária:** Exige quórum de aprovação de **maioria simples (ou relativa)**, isto é, a maioria dos votos dos presentes na sessão, desde que presente a maioria absoluta dos membros. Possui campo de atuação residual (todas as matérias que a Constituição não reservou expressamente a outra espécie normativa).
+- Não há hierarquia formal entre Lei Complementar e Lei Ordinária no direito brasileiro (STF); a distinção reside no quórum qualificado e na reserva material de competência temática.
+
+### 2.3 Medidas Provisórias (Art. 62): Prazos e Vedações Temáticas
+- **Requisitos Constitucionais:** Adotadas pelo Presidente da República em casos de **relevância e urgência**, com força de lei imediata.
+- **Vigência:** Vigoram por **60 dias**, prorrogáveis uma única vez por mais 60 dias (prazo total máximo de **120 dias**). Se não forem apreciadas em até **45 dias** da publicação, entram em regime de urgência, ficando sobrestadas (trancadas) todas as demais deliberações legislativas da Casa.
+- **Vedações Materiais Categóricas (Art. 62, § 1º):** É terminantemente vedada a edição de Medidas Provisórias sobre:
+    - Nacionalidade, cidadania, direitos políticos, partidos políticos e direito eleitoral;
+    - Direito penal, processual penal e processual civil;
+    - Organização do Poder Judiciário e do Ministério Público, a carreira e a garantia de seus membros;
+    - Planos plurianuais (PPA), diretrizes orçamentárias (LDO), orçamento anual (LOA) e créditos adicionais (ressalvada a abertura de **créditos extraordinários** para despesas urgentes e imprevistas decorrentes de guerra, calamidade pública ou comoção interna - Art. 167, § 3º);
+    - Detenção ou sequestro de bens, poupança ou qualquer outro ativo financeiro;
+    - Matéria reservada a **Lei Complementar**.
+
 ---
-
-
 
 ### Teste 146
 **(FCC - Procurador do Estado / Adaptada)**
@@ -279,8 +290,6 @@ Está correto o que se afirma em:
 
 ---
 
-
-
 ### Teste 148
 **(FGV - Analista de Controle Externo / TCE-GO)**
 O art. 62 da Constituição da República de 1988 autoriza o Presidente da República a adotar medidas provisórias, com força de lei, em caso de relevância e urgência.
@@ -308,28 +317,9 @@ Sobre as limitações materiais e temporais expressas aplicáveis às medidas pr
 
 ---
 
+## 3. Fiscalização e Controle Externo pelos Tribunais de Contas (Arts. 70 a 75)
 
-#### 2.2 Leis Complementares versus Leis Ordinárias
-- **Lei Complementar:** Exige quórum de aprovação de **maioria absoluta** em ambas as Casas Legislativas (metade mais um do total de membros da Casa). Aplica-se às matérias expressa e taxativamente reservadas pela Constituição Federal (ex.: Código Tributário Nacional, LRF, competências da Defensoria Pública).
-- **Lei Ordinária:** Exige quórum de aprovação de **maioria simples (ou relativa)**, isto é, a maioria dos votos dos presentes na sessão, desde que presente a maioria absoluta dos membros. Possui campo de atuação residual (todas as matérias que a Constituição não reservou expressamente a outra espécie normativa).
-- Não há hierarquia formal entre Lei Complementar e Lei Ordinária no direito brasileiro (STF); a distinção reside no quórum qualificado e na reserva material de competência temática.
-
-#### 2.3 Medidas Provisórias (Art. 62): Prazos e Vedações Temáticas
-- **Requisitos Constitucionais:** Adotadas pelo Presidente da República em casos de **relevância e urgência**, com força de lei imediata.
-- **Vigência:** Vigoram por **60 dias**, prorrogáveis uma única vez por mais 60 dias (prazo total máximo de **120 dias**). Se não forem apreciadas em até **45 dias** da publicação, entram em regime de urgência, ficando sobrestadas (trancadas) todas as demais deliberações legislativas da Casa.
-- **Vedações Materiais Categóricas (Art. 62, § 1º):** É terminantemente vedada a edição de Medidas Provisórias sobre:
-    - Nacionalidade, cidadania, direitos políticos, partidos políticos e direito eleitoral;
-    - Direito penal, processual penal e processual civil;
-    - Organização do Poder Judiciário e do Ministério Público, a carreira e a garantia de seus membros;
-    - Planos plurianuais (PPA), diretrizes orçamentárias (LDO), orçamento anual (LOA) e créditos adicionais (ressalvada a abertura de **créditos extraordinários** para despesas urgentes e imprevistas decorrentes de guerra, calamidade pública ou comoção interna - Art. 167, § 3º);
-    - Detenção ou sequestro de bens, poupança ou qualquer outro ativo financeiro;
-    - Matéria reservada a **Lei Complementar**.
-
----
-
-### 3. Fiscalização e Controle Externo pelos Tribunais de Contas (Arts. 70 a 75)
-
-#### 3.1 Abrangência e Critérios da Fiscalização Financeira
+### 3.1 Abrangência e Critérios da Fiscalização Financeira
 Conforme o art. 70 da CF/88, a fiscalização contábil, financeira, orçamentária, operacional e patrimonial da Administração Pública e de qualquer entidade que utilize recursos públicos será exercida pelo Congresso Nacional (ou Assembleia Legislativa estadual), mediante **controle externo**, e pelos sistemas de **controle interno** de cada Poder.
 
 - **Aspectos Controlados:**
@@ -355,7 +345,7 @@ flowchart TD
     TC --> FuncoesTC
 ```
 
-#### 3.2 O Julgamento de Contas Públicas: Contas de Governo versus Contas de Gestão
+### 3.2 O Julgamento de Contas Públicas: Contas de Governo versus Contas de Gestão
 
 Esta distinção conceitual é uma das favoritas da FCC para cargos de tribunais de contas:
 
@@ -370,9 +360,34 @@ Esta distinção conceitual é uma das favoritas da FCC para cargos de tribunais
 > *"Para os fins do art. 1º, inciso I, alínea 'g', da Lei Complementar nº 64/1990 (Lei da Ficha Limpa), a apreciação das contas de prefeitos, tanto as de governo quanto as de gestão, será exercida pelas Câmaras Municipais, com o auxílio dos Tribunais de Contas competentes, cujo parecer prévio somente deixará de prevalecer por decisão de 2/3 dos vereadores."*  
 > Portanto, mesmo que o Prefeito tenha agido como ordenador direto de despesas e o Tribunal de Contas tenha emitido parecer pela rejeição das contas, o Prefeito só se torna inelegível se a Câmara Municipal julgar e mantiver a rejeição dessas contas!
 
+### 3.3 Sustação de Atos Ilegais versus Sustação de Contratos Administrativos
+
+A Constituição Federal estabelece uma distinção procedimental nítida entre atos administrativos e contratos administrativos:
+
+```mermaid
+flowchart TD
+    Ilegalidade["Constatação de Ilegalidade Grave pelo Tribunal de Contas"]
+    Ilegalidade --> Prazo["Assina prazo para o órgão adotar providências corretivas"]
+    Prazo --> NaoAtendido{"Providência<br/>NÃO adotada"}
+    NaoAtendido -->|Se for ATO administrativo| SustaAto["O próprio TRIBUNAL DE CONTAS susta a execução do ato ilegal"]
+    NaoAtendido -->|Se for CONTRATO administrativo| SustaCont["Competência primária do PODER LEGISLATIVO para sustar o contrato"]
+    SustaCont --> Delibera{"Legislativo<br/>deliberou em 90 dias?"}
+    Delibera -->|NÃO| TCAtua["Tribunal de Contas assume a competência e DECIDE A RESPEITO da sustação"]
+```
+
+> ⭐ **IMPORTANTE:**  
+> O Tribunal de Contas **tem poder para sustar diretamente atos administrativos ilegais**, mas **NÃO tem competência primária para sustar contratos administrativos**. A sustação originária do contrato compete ao Poder Legislativo. O TC só ganha competência subsidiária caso o Congresso/Assembleia não tome providências no prazo de **90 dias**!
+
+### 3.4 Eficácia das Decisões Condenatórias e Título Executivo Extrajudicial
+- **Natureza Jurídica:** As decisões dos Tribunais de Contas que imputam débito (dever de ressarcir o erário) ou cominam multa possuem **eficácia de título executivo extrajudicial** (art. 71, § 3º).
+- **Cobrança Judicial:** O Tribunal de Contas não executa suas próprias decisões. A certidão de crédito/julgamento é encaminhada à **Procuradoria-Geral do Estado** (ou Procuradoria do Município lesado), que promove o ajuizamento de **Ação de Execução Fiscal** perante as Varas da Fazenda Pública.
+- **Prescritibilidade:** O STF fixou (Tema 899 de Repercussão Geral) que a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas é **prescritível** no prazo quinquenal (5 anos), aplicando-se a Lei nº 9.873/1999 e o Decreto 20.910/1932.
+
+### 3.5 Simetria Federativa (Art. 75) e o Ministério Público de Contas (Art. 130)
+- **Princípio da Simetria Constitucional (Art. 75):** As normas relativas à organização, composição e fiscalização do Tribunal de Contas da União aplicam-se, no que couber, à organização, composição e fiscalização dos Tribunais de Contas dos Estados (TCE-GO) e do Distrito Federal, bem como aos Tribunais e Conselhos de Contas dos Municípios.
+- **Ministério Público de Contas (Art. 130):** Órgão ministerial especializado que atua privativamente perante o respectivo Tribunal de Contas. Seus membros gozam das mesmas garantias de vitaliciedade, inamovibilidade e irredutibilidade de vencimentos conferidas aos membros do Ministério Público comum, integrando a estrutura do Tribunal com autonomia funcional.
+
 ---
-
-
 
 ### Teste 149
 **(FCC - Técnico de Controle Externo / Adaptada TCE-GO)**
@@ -428,27 +443,6 @@ Nos termos do artigo 31, § 2º da Constituição Federal de 1988 e da jurisprud
 
 ---
 
-
-#### 3.3 Sustação de Atos Ilegais versus Sustação de Contratos Administrativos
-
-A Constituição Federal estabelece uma distinção procedimental nítida entre atos administrativos e contratos administrativos:
-
-```mermaid
-flowchart TD
-    Ilegalidade["Constatação de Ilegalidade Grave pelo Tribunal de Contas"]
-    Ilegalidade --> Prazo["Assina prazo para o órgão adotar providências corretivas"]
-    Prazo --> NaoAtendido{"Providência<br/>NÃO adotada"}
-    NaoAtendido -->|Se for ATO administrativo| SustaAto["O próprio TRIBUNAL DE CONTAS susta a execução do ato ilegal"]
-    NaoAtendido -->|Se for CONTRATO administrativo| SustaCont["Competência primária do PODER LEGISLATIVO para sustar o contrato"]
-    SustaCont --> Delibera{"Legislativo<br/>deliberou em 90 dias?"}
-    Delibera -->|NÃO| TCAtua["Tribunal de Contas assume a competência e DECIDE A RESPEITO da sustação"]
-```
-
-> ⭐ **IMPORTANTE:**  
-> O Tribunal de Contas **tem poder para sustar diretamente atos administrativos ilegais**, mas **NÃO tem competência primária para sustar contratos administrativos**. A sustação originária do contrato compete ao Poder Legislativo. O TC só ganha competência subsidiária caso o Congresso/Assembleia não tome providências no prazo de **90 dias**!
-
----
-
 ### Teste 151
 **(FCC - Adaptada / Auditor de Controle Externo)**
 Durante fiscalização de rotina em órgão da administração direta estadual, a equipe de auditoria do Tribunal de Contas constatou irregularidade formal insanável em contrato administrativo de prestação de serviços continuados de vigilância, bem como ilegalidade flagrante em ato administrativo unilateral de designação de servidor comissionado. Diante disso, o Tribunal assinou prazo de trinta dias para que o Secretário de Estado responsável adotasse as providências necessárias ao exato cumprimento da lei, o qual, contudo, permaneceu inerte.
@@ -473,14 +467,6 @@ De acordo com o sistema de competências do controle externo estabelecido no art
 > - **E) Incorreta:** O Tribunal de Contas possui poderes constitucionais sancionatórios e corretivos de alta relevância, e não mera atribuição informativa.
 > 
 > **Gabarito: B**
-
----
-
-
-#### 3.4 Eficácia das Decisões Condenatórias e Título Executivo Extrajudicial
-- **Natureza Jurídica:** As decisões dos Tribunais de Contas que imputam débito (dever de ressarcir o erário) ou cominam multa possuem **eficácia de título executivo extrajudicial** (art. 71, § 3º).
-- **Cobrança Judicial:** O Tribunal de Contas não executa suas próprias decisões. A certidão de crédito/julgamento é encaminhada à **Procuradoria-Geral do Estado** (ou Procuradoria do Município lesado), que promove o ajuizamento de **Ação de Execução Fiscal** perante as Varas da Fazenda Pública.
-- **Prescritibilidade:** O STF fixou (Tema 899 de Repercussão Geral) que a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas é **prescritível** no prazo quinquenal (5 anos), aplicando-se a Lei nº 9.873/1999 e o Decreto 20.910/1932.
 
 ---
 
@@ -511,15 +497,6 @@ Diante do regramento inserto no artigo 71, § 3º da Constituição Federal de 1
 
 ---
 
-
-#### 3.5 Simetria Federativa (Art. 75) e o Ministério Público de Contas (Art. 130)
-- **Princípio da Simetria Constitucional (Art. 75):** As normas relativas à organização, composição e fiscalização do Tribunal de Contas da União aplicam-se, no que couber, à organização, composição e fiscalização dos Tribunais de Contas dos Estados (TCE-GO) e do Distrito Federal, bem como aos Tribunais e Conselhos de Contas dos Municípios.
-- **Ministério Público de Contas (Art. 130):** Órgão ministerial especializado que atua privativamente perante o respectivo Tribunal de Contas. Seus membros gozam das mesmas garantias de vitaliciedade, inamovibilidade e irredutibilidade de vencimentos conferidas aos membros do Ministério Público comum, integrando a estrutura do Tribunal com autonomia funcional.
-
----
-
-
-
 ### Teste 153
 **(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 A fiscalização dos municípios é exercida pelo Poder Legislativo municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo municipal, com o auxílio dos Tribunais de Contas (art. 31 da CF/88).
@@ -545,10 +522,7 @@ A respeito da eficácia do parecer prévio emitido pelo Tribunal de Contas e do 
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 

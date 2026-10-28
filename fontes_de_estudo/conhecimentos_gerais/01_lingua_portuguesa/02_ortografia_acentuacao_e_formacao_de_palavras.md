@@ -20,10 +20,7 @@
 - Elementos mórficos estruturais: radical, vogal temática, tema, afixos (prefixos e sufixos) e desinências nominais/verbais;
 - Processos de formação de palavras: derivação (prefixal, sufixal, parassintética, regressiva e imprópria) e composição (justaposição e aglutinação).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -41,10 +38,10 @@
     5. [Teste 013](#Teste-013)
 3. [Emprego do Hífen com Prefixos e Elementos de Composição](#3-emprego-do-hifen-com-prefixos-e-elementos-de-composicao)
     1. [Regra Geral dos Opostos e Casos com Consoante H](#31-regra-geral-dos-opostos-e-casos-com-consoante-h)
-    2. [Teste 014](#Teste-014)
-    3. [Duplicação das Consoantes R e S](#32-duplicacao-das-consoantes-r-e-s)
-    4. [Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada](#33-prefixos-especiais-acentuados-e-casos-de-aglutinacao-forcada)
-    5. [Hífen em Compostos por Justaposição e Expressões Consagradas](#34-hifen-em-compostos-por-justaposicao-e-expressoes-consagradas)
+    2. [Duplicação das Consoantes R e S](#32-duplicacao-das-consoantes-r-e-s)
+    3. [Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada](#33-prefixos-especiais-acentuados-e-casos-de-aglutinacao-forcada)
+    4. [Hífen em Compostos por Justaposição e Expressões Consagradas](#34-hifen-em-compostos-por-justaposicao-e-expressoes-consagradas)
+    5. [Teste 014](#Teste-014)
     6. [Teste 015](#Teste-015)
 4. [Semântica Lexical: Relações de Sentido e Vocabulário](#4-semantica-lexical-relacoes-de-sentido-e-vocabulario)
     1. [Sinonímia e Antonímia](#41-sinonimia-e-antonimia)
@@ -56,23 +53,22 @@
 5. [Morfologia: Elementos Estruturais da Palavra](#5-morfologia-elementos-estruturais-da-palavra)
     1. [Radical, Alomorfia e Vogal Temática](#51-radical-alomorfia-e-vogal-tematica)
     2. [Tema e Afixos Formadores (Prefixos e Sufixos)](#52-tema-e-afixos-formadores-prefixos-e-sufixos)
-    3. [Teste 018](#Teste-018)
-    4. [Desinências Nominais e Desinências Verbais](#53-desinencias-nominais-e-desinencias-verbais)
-    5. [Vogais e Consoantes de Ligação](#54-vogais-e-consoantes-de-ligacao)
+    3. [Desinências Nominais e Desinências Verbais](#53-desinencias-nominais-e-desinencias-verbais)
+    4. [Vogais e Consoantes de Ligação](#54-vogais-e-consoantes-de-ligacao)
+    5. [Teste 018](#Teste-018)
 6. [Processos de Formação de Palavras](#6-processos-de-formacao-de-palavras)
     1. [Derivação Prefixal, Sufixal e Prefixal-Sufixal](#61-derivacao-prefixal-sufixal-e-prefixal-sufixal)
     2. [Derivação Parassintética](#62-derivacao-parassintetica)
-    3. [Teste 019](#Teste-019)
-    4. [Derivação Regressiva ou Deverbal](#63-derivacao-regressiva-ou-deverbal)
-    5. [Derivação Imprópria ou Conversão](#64-derivacao-impropria-ou-conversao)
-    6. [Teste 020](#Teste-020)
-    7. [Composição: Justaposição e Aglutinação](#65-composicao-justaposicao-e-aglutinacao)
-    8. [Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo](#66-outros-processos-hibridismo-siglonimizacao-abreviacao-e-neologismo)
+    3. [Derivação Regressiva ou Deverbal](#63-derivacao-regressiva-ou-deverbal)
+    4. [Derivação Imprópria ou Conversão](#64-derivacao-impropria-ou-conversao)
+    5. [Composição: Justaposição e Aglutinação](#65-composicao-justaposicao-e-aglutinacao)
+    6. [Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo](#66-outros-processos-hibridismo-siglonimizacao-abreviacao-e-neologismo)
+    7. [Teste 019](#Teste-019)
+    8. [Teste 020](#Teste-020)
     9. [Teste 021](#Teste-021)
-7. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+7. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico
 
@@ -154,6 +150,7 @@ Monossílabos tônicos terminados em *-i* ou *-u* (*ti, vi, tu, cru, nus*) não 
 
 > ⭐ **IMPORTANTE / MONOSSÍLABO TÔNICO VS. OXÍTONA:** Jamais justifique o acento de *pá* ou *mês* pela "regra das oxítonas". Para as bancas examinadoras, notadamente a FCC, a regra dos monossílabos tônicos é estruturalmente distinta da regra das oxítonas polissilábicas (*maracujá* e *pé* não compartilham a mesma regra).
 
+---
 
 ### Teste 012
 **(FCC – TRT – Analista Judiciário)**  
@@ -181,10 +178,7 @@ Quanto às regras de acentuação gráfica previstas no sistema ortográfico vig
 >
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 2. Regras Especiais de Acentuação
 
@@ -246,6 +240,7 @@ O Novo Acordo Ortográfico eliminou a quase totalidade dos acentos diferenciais 
 #### Acentos Diferenciais Facultativos:
 * **Fôrma / Forma:** O emprego do acento circunflexo no substantivo *fôrma* (molde, vasilha) é facultativo, sendo recomendado pelo formulário ortográfico apenas quando houver risco evidente de ambiguidade com o substantivo ou verbo *forma* (aparência exterior, conformação, do verbo formar): *"Cada um tem sua própria forma de usar a fôrma de bolo"*.
 
+---
 
 ### Teste 013
 **(FCC – TCE-GO – Analista de Controle Externo)**  
@@ -276,10 +271,7 @@ Está em total conformidade com as regras gramaticais o que se afirma em:
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Emprego do Hífen com Prefixos e Elementos de Composição
 
@@ -311,42 +303,6 @@ A regra motriz da reforma ortográfica estabelece o **princípio da atração do
     * *anti-higiênico, super-homem, sobre-humano, pan-helênico, macro-história, sub-hepático, geo-história*.
 
 > 🚨 **ALERTA DE PROVA / EXCEÇÃO DA PALAVRA SUBUMANO:** Quando o elemento *humano* une-se ao prefixo *des-* ou *in-*, o *h* cai por etimologia histórica (*desumano, inumano*). Com o prefixo *sub-*, o vocabulário oficial registra tanto a forma hifenizada *sub-humano* quanto a forma aglutinada sem H *subumano*. A FCC costuma cobrar preferencialmente a forma geral hifenizada (*sub-humano*).
-
----
-
-### Teste 014
-**(FCC – TRF – Analista Judiciário)**  
-Quanto ao emprego do hífen em palavras formadas por derivação prefixal em consonância com o Acordo Ortográfico vigente, assinale a opção inteiramente correta:
-
-* **A)** anti-inflamatório, auto-escola, micro-ondas, hiper-resistente.
-* **B)** antiinflamatório, autoescola, microondas, hiperresistente.
-* **C)** anti-inflamatório, autoescola, micro-ondas, hiper-resistente.
-* **D)** anti-inflamatório, autoescola, micro-ondas, hiperresistente.
-* **E)** antiinflamatório, auto-escola, micro-ondas, hiper-resistente.
-
-
----
-
-> **Comentário Detalhado:**
-> Análise de cada vocábulo à luz do Acordo Ortográfico:
->
-> 1. *anti-inflamatório:* o prefixo *anti-* termina na mesma vogal com que se inicia o segundo elemento (*i*). Letras iguais repelem-se com hífen.
-> 2. *autoescola:* o prefixo *auto-* termina com a vogal *o* e o segundo elemento inicia-se com a vogal *e*. Vogais diferentes atraem-se, unindo-se sem hífen.
-> 3. *micro-ondas:* o prefixo *micro-* termina em *o* e o segundo elemento inicia em *o*. Vogais idênticas exigem hífen.
-> 4. *hiper-resistente:* o prefixo *hiper-* termina na consoante *r* e o segundo elemento inicia pela mesma consoante *r*. Consoantes idênticas separam-se com hífen.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Erra ao colocar hífen em *auto-escola* (o correto é *autoescola*, aglutinado).
-> - **B)** Incorreta. Erra ao aglutinar *antiinflamatório*, *microondas* e *hiperresistente* (todos exigem hífen por reunirem letras idênticas).
-> - **C)** Correta. Todos os quatro vocábulos estão impecavelmente grafados de acordo com a norma ortográfica vigente.
-> - **D)** Incorreta. Erra ao aglutinar *hiperresistente* sem hífen (prefixo em consoante R seguido de palavra iniciada por R exige hífen).
-> - **E)** Incorreta. Erra em *antiinflamatório* (falta hífen) e em *auto-escola* (hífen indevido).
-> 
-> **Gabarito: C**
-
----
-
 
 ### 3.2 Duplicação das Consoantes R e S
 
@@ -392,6 +348,40 @@ Entretanto, o Acordo Ortográfico determinou o **fim do hífen nas locuções de
 * *fim de semana, sala de jantar, cão de guarda, cor de café, dia a dia, à toa, ponto e vírgula, passo a passo*.
 * **Exceções consagradas pela tradição:** Mantêm o hífen as consagradas *cor-de-rosa, água-de-colônia, arco-da-velha, mais-que-perfeito, pé-de-meia*, bem como os nomes botânicos e zoológicos ligados por hífen (*couve-flor, bem-te-vi, erva-doce*).
 
+---
+
+### Teste 014
+**(FCC – TRF – Analista Judiciário)**  
+Quanto ao emprego do hífen em palavras formadas por derivação prefixal em consonância com o Acordo Ortográfico vigente, assinale a opção inteiramente correta:
+
+* **A)** anti-inflamatório, auto-escola, micro-ondas, hiper-resistente.
+* **B)** antiinflamatório, autoescola, microondas, hiperresistente.
+* **C)** anti-inflamatório, autoescola, micro-ondas, hiper-resistente.
+* **D)** anti-inflamatório, autoescola, micro-ondas, hiperresistente.
+* **E)** antiinflamatório, auto-escola, micro-ondas, hiper-resistente.
+
+
+---
+
+> **Comentário Detalhado:**
+> Análise de cada vocábulo à luz do Acordo Ortográfico:
+>
+> 1. *anti-inflamatório:* o prefixo *anti-* termina na mesma vogal com que se inicia o segundo elemento (*i*). Letras iguais repelem-se com hífen.
+> 2. *autoescola:* o prefixo *auto-* termina com a vogal *o* e o segundo elemento inicia-se com a vogal *e*. Vogais diferentes atraem-se, unindo-se sem hífen.
+> 3. *micro-ondas:* o prefixo *micro-* termina em *o* e o segundo elemento inicia em *o*. Vogais idênticas exigem hífen.
+> 4. *hiper-resistente:* o prefixo *hiper-* termina na consoante *r* e o segundo elemento inicia pela mesma consoante *r*. Consoantes idênticas separam-se com hífen.
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. Erra ao colocar hífen em *auto-escola* (o correto é *autoescola*, aglutinado).
+> - **B)** Incorreta. Erra ao aglutinar *antiinflamatório*, *microondas* e *hiperresistente* (todos exigem hífen por reunirem letras idênticas).
+> - **C)** Correta. Todos os quatro vocábulos estão impecavelmente grafados de acordo com a norma ortográfica vigente.
+> - **D)** Incorreta. Erra ao aglutinar *hiperresistente* sem hífen (prefixo em consoante R seguido de palavra iniciada por R exige hífen).
+> - **E)** Incorreta. Erra em *antiinflamatório* (falta hífen) e em *auto-escola* (hífen indevido).
+> 
+> **Gabarito: C**
+
+---
 
 ### Teste 015
 **(FCC – DPE-RS – Analista Jurídico)**  
@@ -416,10 +406,7 @@ Assinale a opção em que todas as palavras estão grafadas em perfeita conformi
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Semântica Lexical: Relações de Sentido e Vocabulário
 
@@ -529,6 +516,7 @@ A grafia e o emprego semântico dos vocábulos sublinhados estão corretos em:
 > 
 > **Gabarito: A**
 
+---
 
 ### Teste 017
 **(FCC – METRÔ-SP – Advogado)**  
@@ -555,10 +543,7 @@ As palavras que preenchem correta e respectivamente as lacunas da frase são:
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 5. Morfologia: Elementos Estruturais da Palavra
 
@@ -596,6 +581,26 @@ flowchart LR
     * **Prefixos:** Morfemas antepostos ao radical, operando predominantemente mudança de sentido lexical sem alterar a classe gramatical primitiva: *<ins>des</ins>-leal, <ins>in</ins>-apto, <ins>re</ins>-fazer, <ins>sub</ins>-chefe*.
     * **Sufixos:** Morfemas pospostos ao radical, possuindo alta capacidade de converter a palavra em outra classe gramatical: *leal $\rightarrow$ leal-<ins>dade</ins>* (adjetivo em substantivo); *atual $\rightarrow$ atual-<ins>izar</ins>* (adjetivo em verbo); *rápido $\rightarrow$ rapida-<ins>mente</ins>* (adjetivo em advérbio).
 
+### 5.3 Desinências Nominais e Desinências Verbais
+
+As desinências são morfemas flexionais que se localizam na extremidade da palavra para indicar alterações puramente gramaticais:
+
+1. **Desinências Nominais:**
+    * **De Gênero:** Distinguem o masculino do feminino (*menino / menin-<ins>a</ins>; autor / autor-<ins>a</ins>*);
+    * **De Número:** Indicam a oposição singular versus plural (*casa / casa-<ins>s</ins>; papel / papéi-<ins>s</ins>*).
+
+2. **Desinências Verbais:**
+    * **Modo-Temporais (DMT):** Indicam o tempo cronológico e o modo em que se desenvolve a ação verbal (*cant-<ins>va</ins>-mos* [pretérito imperfeito do indicativo]; *cant-a-<ins>sse</ins>-mos* [pretérito imperfeito do subjuntivo]; *cant-a-<ins>ra</ins>-mos* [pretérito mais-que-perfeito]);
+    * **Número-Pessoais (DNP):** Indicam a pessoa do discurso (1ª, 2ª ou 3ª) e o número gramatical (singular ou plural): *cantava-<ins>mos</ins>* (1ª pessoa do plural); *cantava-<ins>s</ins>* (2ª pessoa do singular); *cantara-<ins>m</ins>* (3ª pessoa do plural).
+
+### 5.4 Vogais e Consoantes de Ligação
+
+São fonemas inseridos unicamente por imperativo de eufonia, isto é, para viabilizar ou facilitar a pronúncia da junção entre radicais ou entre radical e sufixo, evitando a dissonância fonética. **Não possuem qualquer valor significativo ou semântico**:
+
+* *chaleira:* *chá* (radical) + *-eira* (sufixo) + **l** (consoante de ligação);
+* *gasômetro:* *gás* (radical) + *-metro* (radical) + **o** (vogal de ligação);
+* *cafeicultura:* *café* (radical) + *cultura* (radical) + **i** (vogal de ligação).
+
 ---
 
 ### Teste 018
@@ -622,32 +627,6 @@ Assinale a alternativa em que ambos os vocábulos sublinhados são acentuados co
 > **Gabarito: A**
 
 ---
-
-
-### 5.3 Desinências Nominais e Desinências Verbais
-
-As desinências são morfemas flexionais que se localizam na extremidade da palavra para indicar alterações puramente gramaticais:
-
-1. **Desinências Nominais:**
-    * **De Gênero:** Distinguem o masculino do feminino (*menino / menin-<ins>a</ins>; autor / autor-<ins>a</ins>*);
-    * **De Número:** Indicam a oposição singular versus plural (*casa / casa-<ins>s</ins>; papel / papéi-<ins>s</ins>*).
-
-2. **Desinências Verbais:**
-    * **Modo-Temporais (DMT):** Indicam o tempo cronológico e o modo em que se desenvolve a ação verbal (*cant-<ins>va</ins>-mos* [pretérito imperfeito do indicativo]; *cant-a-<ins>sse</ins>-mos* [pretérito imperfeito do subjuntivo]; *cant-a-<ins>ra</ins>-mos* [pretérito mais-que-perfeito]);
-    * **Número-Pessoais (DNP):** Indicam a pessoa do discurso (1ª, 2ª ou 3ª) e o número gramatical (singular ou plural): *cantava-<ins>mos</ins>* (1ª pessoa do plural); *cantava-<ins>s</ins>* (2ª pessoa do singular); *cantara-<ins>m</ins>* (3ª pessoa do plural).
-
-### 5.4 Vogais e Consoantes de Ligação
-
-São fonemas inseridos unicamente por imperativo de eufonia, isto é, para viabilizar ou facilitar a pronúncia da junção entre radicais ou entre radical e sufixo, evitando a dissonância fonética. **Não possuem qualquer valor significativo ou semântico**:
-
-* *chaleira:* *chá* (radical) + *-eira* (sufixo) + **l** (consoante de ligação);
-* *gasômetro:* *gás* (radical) + *-metro* (radical) + **o** (vogal de ligação);
-* *cafeicultura:* *café* (radical) + *cultura* (radical) + **i** (vogal de ligação).
-
-
-
----
-
 
 ## 6. Processos de Formação de Palavras
 
@@ -690,34 +669,6 @@ A derivação parassintética (ou parassíntese) configura-se quando o prefixo e
 
 > 🚨 **ALERTA DE PROVA / DIFERENÇA VITAL (PREFIXAL-SUFIXAL VS. PARASSÍNTESE):** Para a FCC, o teste do desmonte é soberano: retire mentalmente o prefixo da palavra. Se a forma remanescente com o sufixo fizer sentido na língua padrão, trata-se de **derivação prefixal e sufixal** (*deslealdade* $\rightarrow$ *lealdade* existe). Se a forma remanescente for inexistente, o processo é obrigatoriamente **parassintético** (*esfriar* $\rightarrow$ *friar* não existe; logo, é parassíntese).
 
----
-
-### Teste 019
-**(FCC – AL-SP – Técnico Legislativo)**  
-Em relação aos processos morfológicos de formação das palavras, assinale a alternativa em que a palavra destacada é formada por **derivação parassintética**:
-
-* **A)** *"A leitura do processo revelou a <ins>deslealdade</ins> do administrador perante o erário."*
-* **B)** *"O auditor constatou que era urgente <ins>esfriar</ins> os ânimos acalorados durante a inspeção."*
-* **C)** *"O governo estadual implementou o <ins>resgate</ins> das apólices da dívida pública."*
-* **D)** *"O relatório final foi concluído <ins>infelizmente</ins> fora do prazo regulamentar."*
-* **E)** *"O <ins>passatempo</ins> preferido dos funcionários consistia em desvendar charadas lógicas."*
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O vocábulo *deslealdade* resulta de derivação prefixal e sufixal independente (*des-* + *leal* + *-dade*). Se subtrairmos o prefixo, subsiste o termo legítimo *lealdade*; se suprimirmos o sufixo, permanece a forma legítima *desleal*.
-> - **B)** Correta. O verbo *esfriar* é formado por derivação parassintética (*e-* + *frio/fri-* + *-ar*). A agregação do prefixo e do sufixo verbal dá-se de modo estritamente simultâneo: não existe no português moderno o vocábulo *"esfrio"* nem o verbo transitivo *"friar"*. A eliminação de qualquer um dos afixos invalida o vocábulo.
-> - **C)** Incorreta. O vocábulo *resgate* origina-se de derivação regressiva (deverbal) a partir do verbo de ação *resgatar*.
-> - **D)** Incorreta. O termo *infelizmente* é originado de derivação prefixal e sufixal (ou sufixal a partir do adjetivo *infeliz*), havendo plena autonomia das bases cognatas *infeliz* e *felizmente*.
-> - **E)** Incorreta. A palavra *passatempo* forma-se pelo processo de composição por justaposição (*passa* + *tempo*), reunindo dois radicais sem perda de substância fonética.
-> 
-> **Gabarito: B**
-
----
-
-
 ### 6.3 Derivação Regressiva ou Deverbal
 
 A derivação regressiva caracteriza-se pela **redução formal** da palavra primitiva. Quase a totalidade das ocorrências na língua consiste na formação de um **substantivo abstrato indicador de ação a partir de um verbo primitivo**, motivo pelo qual a gramática a denomina derivação deverbal:
@@ -745,6 +696,56 @@ Ocorre derivação imprópria quando uma palavra muda de classe gramatical e alt
 * **Substantivo convertido em Adjetivo:** *"Ele deu uma resposta <ins>monstro</ins>"*;
 * **Palavra invariável convertida em Substantivo:** *"Não compreendi o <ins>porquê</ins> de sua relutância"*.
 
+### 6.5 Composição: Justaposição e Aglutinação
+
+A composição ocorre quando dois ou mais radicais autônomos unem-se para estruturar um vocábulo composto:
+
+1. **Justaposição:** Os radicais constituintes aproximam-se mantendo integralmente sua autonomia fonética, sem perda de fonemas ou modificação acentual de suas bases primitivas (com ou sem hífen):
+    * *passatempo* (*passa* + *tempo*);
+    * *girassol* (*gira* + *sol* — o acréscimo de um 's' é meramente ortográfico para conservar o fonema consonantal sibilante surdo, não havendo perda de matéria sonora);
+    * *guarda-chuva, pontapé, segunda-feira, pé-de-moleque*.
+
+2. **Aglutinação:** Na fusão dos radicais, verifica-se alteração, supressão ou perda de fonemas e deslocamento do centro tônico original das palavras primitivas:
+    * *planalto* (*plano* + *alto* — perda da vogal 'o');
+    * *embora* (*em* + *boa* + *hora*);
+    * *vinagre* (*vinho* + *acre*);
+    * *aguardente* (*água* + *ardente*);
+    * *pernalta* (*perna* + *alta*).
+
+### 6.6 Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo
+
+Além dos processos clássicos, a língua recorre a outros expedientes formais:
+
+* **Hibridismo:** Vocábulos construídos pela justaposição de elementos mórficos originários de línguas distintas: *sociologia* (*latim* sócio + *grego* logia); *televisão* (*grego* tele + *latim* visão); *automóvel* (*grego* auto + *latim* móvel); *burocracia* (*francês* bureau + *grego* cracia).
+* **Abreviação Vocabular (Redução):** Eliminação de parte da palavra original para produzir uma forma curta comunicativamente eficaz: *foto* (de fotografia); *moto* (de motocicleta); *pneu* (de pneumático); *cine* (de cinematógrafo).
+* **Siglonimização e Acrônimos:** Junção de letras iniciais que passam a se comportar como palavras autônomas: *TCE-GO, TCU, Petrobras, Mercosul*.
+* **Neologismo Lexical:** Criação de novos vocábulos impulsionados pela evolução social ou tecnológica: *deletar, tuitar, escanear, empoderamento*.
+
+---
+
+### Teste 019
+**(FCC – AL-SP – Técnico Legislativo)**  
+Em relação aos processos morfológicos de formação das palavras, assinale a alternativa em que a palavra destacada é formada por **derivação parassintética**:
+
+* **A)** *"A leitura do processo revelou a <ins>deslealdade</ins> do administrador perante o erário."*
+* **B)** *"O auditor constatou que era urgente <ins>esfriar</ins> os ânimos acalorados durante a inspeção."*
+* **C)** *"O governo estadual implementou o <ins>resgate</ins> das apólices da dívida pública."*
+* **D)** *"O relatório final foi concluído <ins>infelizmente</ins> fora do prazo regulamentar."*
+* **E)** *"O <ins>passatempo</ins> preferido dos funcionários consistia em desvendar charadas lógicas."*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O vocábulo *deslealdade* resulta de derivação prefixal e sufixal independente (*des-* + *leal* + *-dade*). Se subtrairmos o prefixo, subsiste o termo legítimo *lealdade*; se suprimirmos o sufixo, permanece a forma legítima *desleal*.
+> - **B)** Correta. O verbo *esfriar* é formado por derivação parassintética (*e-* + *frio/fri-* + *-ar*). A agregação do prefixo e do sufixo verbal dá-se de modo estritamente simultâneo: não existe no português moderno o vocábulo *"esfrio"* nem o verbo transitivo *"friar"*. A eliminação de qualquer um dos afixos invalida o vocábulo.
+> - **C)** Incorreta. O vocábulo *resgate* origina-se de derivação regressiva (deverbal) a partir do verbo de ação *resgatar*.
+> - **D)** Incorreta. O termo *infelizmente* é originado de derivação prefixal e sufixal (ou sufixal a partir do adjetivo *infeliz*), havendo plena autonomia das bases cognatas *infeliz* e *felizmente*.
+> - **E)** Incorreta. A palavra *passatempo* forma-se pelo processo de composição por justaposição (*passa* + *tempo*), reunindo dois radicais sem perda de substância fonética.
+> 
+> **Gabarito: B**
+
 ---
 
 ### Teste 020
@@ -771,33 +772,6 @@ O vocábulo formado por **derivação regressiva** (também denominada deverbal)
 > **Gabarito: A**
 
 ---
-
-
-### 6.5 Composição: Justaposição e Aglutinação
-
-A composição ocorre quando dois ou mais radicais autônomos unem-se para estruturar um vocábulo composto:
-
-1. **Justaposição:** Os radicais constituintes aproximam-se mantendo integralmente sua autonomia fonética, sem perda de fonemas ou modificação acentual de suas bases primitivas (com ou sem hífen):
-    * *passatempo* (*passa* + *tempo*);
-    * *girassol* (*gira* + *sol* — o acréscimo de um 's' é meramente ortográfico para conservar o fonema consonantal sibilante surdo, não havendo perda de matéria sonora);
-    * *guarda-chuva, pontapé, segunda-feira, pé-de-moleque*.
-
-2. **Aglutinação:** Na fusão dos radicais, verifica-se alteração, supressão ou perda de fonemas e deslocamento do centro tônico original das palavras primitivas:
-    * *planalto* (*plano* + *alto* — perda da vogal 'o');
-    * *embora* (*em* + *boa* + *hora*);
-    * *vinagre* (*vinho* + *acre*);
-    * *aguardente* (*água* + *ardente*);
-    * *pernalta* (*perna* + *alta*).
-
-### 6.6 Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo
-
-Além dos processos clássicos, a língua recorre a outros expedientes formais:
-
-* **Hibridismo:** Vocábulos construídos pela justaposição de elementos mórficos originários de línguas distintas: *sociologia* (*latim* sócio + *grego* logia); *televisão* (*grego* tele + *latim* visão); *automóvel* (*grego* auto + *latim* móvel); *burocracia* (*francês* bureau + *grego* cracia).
-* **Abreviação Vocabular (Redução):** Eliminação de parte da palavra original para produzir uma forma curta comunicativamente eficaz: *foto* (de fotografia); *moto* (de motocicleta); *pneu* (de pneumático); *cine* (de cinematógrafo).
-* **Siglonimização e Acrônimos:** Junção de letras iniciais que passam a se comportar como palavras autônomas: *TCE-GO, TCU, Petrobras, Mercosul*.
-* **Neologismo Lexical:** Criação de novos vocábulos impulsionados pela evolução social ou tecnológica: *deletar, tuitar, escanear, empoderamento*.
-
 
 ### Teste 021
 **(FCC – TRT – Técnico Judiciário)**  
@@ -830,10 +804,7 @@ ightarrow$ *resgate*. É um dos tópicos mais cobrados pela FCC.
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

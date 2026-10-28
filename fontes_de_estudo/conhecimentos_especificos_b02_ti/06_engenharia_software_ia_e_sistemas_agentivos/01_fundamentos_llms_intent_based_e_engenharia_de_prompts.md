@@ -16,42 +16,38 @@
 - Desenvolvimento orientado a linguagem natural (Natural Language Programming)
 - Engenharia de contexto e engenharia de prompts aplicadas à geração de código
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Modelos de Linguagem de Grande Porte (LLMs) no Desenvolvimento de Software](#1-modelos-de-linguagem-de-grande-porte-llms-no-desenvolvimento-de-software)
     1. [A Arquitetura Transformer e o Mecanismo de Autoatenção (Self-Attention)](#11-a-arquitetura-transformer-e-o-mecanismo-de-autoatencao-self-attention)
-    2. [Teste 119](#Teste-119)
-    3. [Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder](#12-variantes-arquiteturais-encoder-only-decoder-only-e-encoder-decoder)
-    4. [Teste 120](#Teste-120)
-    5. [Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)](#13-ciclo-de-vida-do-treinamento-pre-treinamento-sft-e-alinhamento-rlhfdpo)
-    6. [Teste 121](#Teste-121)
-    7. [Tokenização, Vocabulário e Gestão de Custos Computacionais](#14-tokenizacao-vocabulario-e-gestao-de-custos-computacionais)
-    8. [Hiperparâmetros de Inferência e Amostragem: Temperature, Top-P e Penalidades](#15-hiperparametros-de-inferencia-e-amostragem-temperature-top-p-e-penalidades)
+    2. [Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder](#12-variantes-arquiteturais-encoder-only-decoder-only-e-encoder-decoder)
+    3. [Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)](#13-ciclo-de-vida-do-treinamento-pre-treinamento-sft-e-alinhamento-rlhfdpo)
+    4. [Tokenização, Vocabulário e Gestão de Custos Computacionais](#14-tokenizacao-vocabulario-e-gestao-de-custos-computacionais)
+    5. [Hiperparâmetros de Inferência e Amostragem: Temperature, Top-P e Penalidades](#15-hiperparametros-de-inferencia-e-amostragem-temperature-top-p-e-penalidades)
+    6. [Teste 119](#Teste-119)
+    7. [Teste 120](#Teste-120)
+    8. [Teste 121](#Teste-121)
     9. [Teste 122](#Teste-122)
 2. [Programação Baseada em Intenção e Linguagem Natural](#2-programacao-baseada-em-intencao-e-linguagem-natural)
     1. [Intent-Based Programming: A Transição do "COMO" para o "O QUÊ"](#21-intent-based-programming-a-transicao-do-como-para-o-o-que)
-    2. [Teste 123](#Teste-123)
-    3. [Sintaxe Estrita vs. Semântica Declarativa e Contratos de Interface](#22-sintaxe-estrita-vs-semantica-declarativa-e-contratos-de-interface)
-    4. [Teste 124](#Teste-124)
-    5. [Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis](#23-especificacoes-dirigidas-por-comportamento-bdd-como-prompts-executaveis)
+    2. [Sintaxe Estrita vs. Semântica Declarativa e Contratos de Interface](#22-sintaxe-estrita-vs-semantica-declarativa-e-contratos-de-interface)
+    3. [Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis](#23-especificacoes-dirigidas-por-comportamento-bdd-como-prompts-executaveis)
+    4. [Teste 123](#Teste-123)
+    5. [Teste 124](#Teste-124)
 3. [Engenharia de Prompts e Engenharia de Contexto para Software](#3-engenharia-de-prompts-e-engenharia-de-contexto-para-software)
     1. [Estrutura Canônica de um Prompt de Código Corporativo](#31-estrutura-canonica-de-um-prompt-de-codigo-corporativo)
     2. [Técnicas Centrais de Prompting: Zero-Shot, Few-Shot, CoT e Test-Driven](#32-tecnicas-centrais-de-prompting-zero-shot-few-shot-cot-e-test-driven)
-    3. [Teste 125](#Teste-125)
-    4. [Teste 126](#Teste-126)
-    5. [Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"](#33-janela-de-contexto-e-a-mitigacao-do-efeito-lost-in-the-middle)
-    6. [Teste 127](#Teste-127)
-    7. [Curadoria de Contexto e Minimização de Ruído no Repositório](#34-curadoria-de-contexto-e-minimizacao-de-ruido-no-repositorio)
+    3. [Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"](#33-janela-de-contexto-e-a-mitigacao-do-efeito-lost-in-the-middle)
+    4. [Curadoria de Contexto e Minimização de Ruído no Repositório](#34-curadoria-de-contexto-e-minimizacao-de-ruido-no-repositorio)
+    5. [Teste 125](#Teste-125)
+    6. [Teste 126](#Teste-126)
+    7. [Teste 127](#Teste-127)
     8. [Teste 128](#Teste-128)
 4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Modelos de Linguagem de Grande Porte (LLMs) no Desenvolvimento de Software
 
@@ -84,6 +80,48 @@ $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{Q K^T}{\sqrt{d_k}}\right
 - $\text{softmax}$: Transforma a matriz de afinidade em uma distribuição de probabilidades normalizada entre 0 e 1, atribuindo pesos dinâmicos que ponderam a soma dos vetores de valor $V$.
 - **Multi-Head Attention (Atenção Multi-Cabeça):** O modelo projeta $Q, K, V$ em múltiplos subespaços de representação simultaneamente (ex.: 32 ou 64 cabeças). Em código-fonte, uma cabeça de atenção pode especializar-se em rastrear o escopo de variáveis, outra na correspondência entre chaves `{}` e outra no rastreamento de tipos de retorno.
 
+### 1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder
+
+| Família Arquitetural | Mecânica de Processamento | Casos de Uso Predominantes em Software | Modelos Representativos |
+|---|---|---|---|
+| **Encoder-Only** *(Apenas Codificador)* | **Bidirecional:** O modelo enxerga os tokens à esquerda e à direita simultaneamente em todas as camadas. | Análise estática de código, classificação de vulnerabilidades de segurança, detecção de bugs e busca semântica em repositórios de código. | BERT, CodeBERT, RoBERTa. |
+| **Decoder-Only** *(Apenas Decodificador)* | **Autoregressivo Unidirecional:** Utiliza uma máscara causal (*Causal Masking*) que oculta tokens futuros. Gera a resposta token por token, da esquerda para a direita. | **Geração de código**, autocompletar avançado, refatoração de sistemas, explicação de código e chat interativo de programação. | Famílias GPT (OpenAI), Claude (Anthropic), Llama (Meta), DeepSeek-Coder, StarCoder. |
+| **Encoder-Decoder** *(Codificador-Decodificador)* | O codificador processa a entrada bidirecionalmente e o decodificador sintetiza a saída de forma autoregressiva. | Tradução entre diferentes linguagens de programação (ex.: COBOL para Java), sumarização de pull requests e geração automática de documentação. | T5, CodeT5. |
+
+### 1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)
+O desenvolvimento de um modelo fundacional voltado para engenharia de software ocorre em três estágios sucessivos:
+
+```mermaid
+flowchart LR
+    PT["1. Pré-Treinamento Não Supervisionado
+    (Petabytes de código público e Next Token Prediction)"] --> SFT["2. Fine-Tuning Supervisionado (SFT)
+    (Pares instrução-código de alta qualidade)"]
+    SFT --> ALN["3. Alinhamento (RLHF / DPO)
+    (Otimização de preferências e mitigação de vulnerabilidades)"]
+```
+
+1. **Pré-Treinamento Não Supervisionado (*Pre-training*):** O modelo é exposto a trilhões de tokens de texto puro e código aberto em dezenas de linguagens de programação (GitHub, GitLab, documentações oficiais). Ele aprende a estrutura léxica e sintática prevendo o próximo token (*Next Token Prediction*) e através do preenchimento de lacunas intermediárias (**Fill-in-the-Middle - FIM**), fundamental para autocompletar código dentro de arquivos existentes.
+2. **Ajuste Fino Supervisionado (*Supervised Fine-Tuning - SFT*):** O modelo pré-treinado recebe conjuntos de dados selecionados contendo tarefas explícitas e suas respectivas respostas ideais (`instrução -> código correto em Markdown`). O modelo aprende a dialogar no papel de assistente técnico e seguir convenções de software.
+3. **Alinhamento com Feedback Humano / de IA (*RLHF / RLAIF*):** Utiliza técnicas como *Reinforcement Learning from Human Feedback* (PPO - *Proximal Policy Optimization*) ou *Direct Preference Optimization* (DPO). O alinhamento penaliza código contendo vulnerabilidades comuns (CWE/OWASP Top 10), impede a recomendação de bibliotecas obsoletas e mitiga a geração de scripts maliciosos.
+
+### 1.4 Tokenização, Vocabulário e Gestão de Custos Computacionais
+Modelos de linguagem não leem palavras inteiras ou caracteres isolados; eles operam sobre **tokens** (números inteiros que mapeiam fragmentos de palavras e símbolos em um vocabulário pré-definido). O algoritmo padrão adotado na indústria é o **Byte-Pair Encoding (BPE)**.
+
+#### Impactos Cruciais da Tokenização em Código-Fonte:
+- **Indentação e Espaços:** Em linguagens onde a indentação é sintática (como Python), tokenizadores antigos emitiam um token para cada espaço em branco individual (4 espaços = 4 tokens). Modelos modernos voltados para código possuem tokens agrupados dedicados para 2, 4 e 8 espaços consecutivos, reduzindo drasticamente o consumo de tokens.
+- **Convenções de Identificadores:** Identificadores em *camelCase* (`processarLiquidacaoDespesa`) ou *snake_case* (`processar_liquidacao_despesa`) são decompostos em múltiplos subtokens (`processar`, `liquidacao`, `despesa`). Nomes de variáveis excessivamente prolixos consomem a janela de contexto com maior rapidez.
+- **Economia e Métricas de Custo:** As APIs de modelos de IA tarifam o processamento com base no volume de tokens de entrada (*input tokens*) e saída (*output tokens*). A otimização e a curadoria de arquivos enviados para o contexto impactam diretamente o custo operacional das soluções corporativas.
+
+### 1.5 Hiperparâmetros de Inferência e Amostragem: Temperature, Top-P e Penalidades
+Durante a fase de inferência (geração da resposta), o modelo projeta logits (pontuações não normalizadas) sobre todo o seu vocabulário. A forma como esses logits são convertidos em probabilidades é modulada por hiperparâmetros de amostragem:
+
+| Hiperparâmetro | Mecânica Matemática | Efeito em Baixos Valores | Efeito em Altos Valores | Recomendação em Engenharia de Software |
+|---|---|---|---|---|
+| **Temperature ($T$)** | Fator de divisão no expoente dos logits: $P(w_i) = \frac{\exp(z_i / T)}{\sum \exp(z_j / T)}$. | **Determinismo e Estabilidade:** Acentua a probabilidade dos tokens de maior consenso sintático. | **Aleatoriedade e Dispersão:** Achata a curva de probabilidade, aumentando o risco de alucinações. | **$0.0$ a $0.2$** para código executável, testes unitários e refatoração. $0.7$ a $0.8$ apenas para ideação arquitetural. |
+| **Top-P (*Nucleus Sampling*)** | Seleciona o menor subconjunto cumulativo de tokens cuja soma das probabilidades atinge o valor $P$. | Descarta sumariamente a cauda longa de tokens improváveis. | Permite que tokens improváveis concorram caso o acumulado demore a fechar. | **$0.1$ a $0.5$** para código determinístico. Se $T = 0.0$, a amostragem torna-se puramente gulosa (*Greedy*), tornando o Top-P inócuo. |
+| **Frequency Penalty** | Aplica uma penalização proporcional ao número de vezes que um token já apareceu no texto gerado. | Permite repetições lexicais legítimas. | Inibe repetições, forçando o uso de sinônimos estranhos. | **$0.0$ estrito**. Em programação, palavras reservadas (`if`, `return`, `class`) **precisam se repetir** compulsoriamente. |
+| **Presence Penalty** | Aplica penalização fixa se um token já tiver aparecido ao menos uma vez no texto. | Sem interferência na estrutura sintática. | Força a introdução contínua de novos tópicos, induzindo variáveis inventadas. | **$0.0$ estrito** para código-fonte. |
+
 ---
 
 ### Teste 119
@@ -113,18 +151,6 @@ A respeito desse funcionamento interno, assinale a afirmativa correta:
 
 ---
 
-
-
-### 1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder
-
-| Família Arquitetural | Mecânica de Processamento | Casos de Uso Predominantes em Software | Modelos Representativos |
-|---|---|---|---|
-| **Encoder-Only** *(Apenas Codificador)* | **Bidirecional:** O modelo enxerga os tokens à esquerda e à direita simultaneamente em todas as camadas. | Análise estática de código, classificação de vulnerabilidades de segurança, detecção de bugs e busca semântica em repositórios de código. | BERT, CodeBERT, RoBERTa. |
-| **Decoder-Only** *(Apenas Decodificador)* | **Autoregressivo Unidirecional:** Utiliza uma máscara causal (*Causal Masking*) que oculta tokens futuros. Gera a resposta token por token, da esquerda para a direita. | **Geração de código**, autocompletar avançado, refatoração de sistemas, explicação de código e chat interativo de programação. | Famílias GPT (OpenAI), Claude (Anthropic), Llama (Meta), DeepSeek-Coder, StarCoder. |
-| **Encoder-Decoder** *(Codificador-Decodificador)* | O codificador processa a entrada bidirecionalmente e o decodificador sintetiza a saída de forma autoregressiva. | Tradução entre diferentes linguagens de programação (ex.: COBOL para Java), sumarização de pull requests e geração automática de documentação. | T5, CodeT5. |
-
----
-
 ### Teste 120
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 No desenvolvimento de sistemas assistidos por inteligência artificial, a arquitetura *Transformer* deu origem a três famílias arquiteturais predominantes: *Encoder-Only*, *Decoder-Only* e *Encoder-Decoder*. A respeito das características e dos casos de uso de cada família em tarefas de engenharia de software, é correto afirmar:
@@ -147,25 +173,6 @@ No desenvolvimento de sistemas assistidos por inteligência artificial, a arquit
 > - **E) Incorreta.** Camadas de embedding e normalização são componentes universais de Transformers.
 >
 > **Gabarito: B**
-
----
-
-
-### 1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)
-O desenvolvimento de um modelo fundacional voltado para engenharia de software ocorre em três estágios sucessivos:
-
-```mermaid
-flowchart LR
-    PT["1. Pré-Treinamento Não Supervisionado
-    (Petabytes de código público e Next Token Prediction)"] --> SFT["2. Fine-Tuning Supervisionado (SFT)
-    (Pares instrução-código de alta qualidade)"]
-    SFT --> ALN["3. Alinhamento (RLHF / DPO)
-    (Otimização de preferências e mitigação de vulnerabilidades)"]
-```
-
-1. **Pré-Treinamento Não Supervisionado (*Pre-training*):** O modelo é exposto a trilhões de tokens de texto puro e código aberto em dezenas de linguagens de programação (GitHub, GitLab, documentações oficiais). Ele aprende a estrutura léxica e sintática prevendo o próximo token (*Next Token Prediction*) e através do preenchimento de lacunas intermediárias (**Fill-in-the-Middle - FIM**), fundamental para autocompletar código dentro de arquivos existentes.
-2. **Ajuste Fino Supervisionado (*Supervised Fine-Tuning - SFT*):** O modelo pré-treinado recebe conjuntos de dados selecionados contendo tarefas explícitas e suas respectivas respostas ideais (`instrução -> código correto em Markdown`). O modelo aprende a dialogar no papel de assistente técnico e seguir convenções de software.
-3. **Alinhamento com Feedback Humano / de IA (*RLHF / RLAIF*):** Utiliza técnicas como *Reinforcement Learning from Human Feedback* (PPO - *Proximal Policy Optimization*) ou *Direct Preference Optimization* (DPO). O alinhamento penaliza código contendo vulnerabilidades comuns (CWE/OWASP Top 10), impede a recomendação de bibliotecas obsoletas e mitiga a geração de scripts maliciosos.
 
 ---
 
@@ -194,30 +201,6 @@ O pipeline moderno de treinamento de modelos de linguagem para engenharia de sof
 
 ---
 
-
-### 1.4 Tokenização, Vocabulário e Gestão de Custos Computacionais
-Modelos de linguagem não leem palavras inteiras ou caracteres isolados; eles operam sobre **tokens** (números inteiros que mapeiam fragmentos de palavras e símbolos em um vocabulário pré-definido). O algoritmo padrão adotado na indústria é o **Byte-Pair Encoding (BPE)**.
-
-#### Impactos Cruciais da Tokenização em Código-Fonte:
-- **Indentação e Espaços:** Em linguagens onde a indentação é sintática (como Python), tokenizadores antigos emitiam um token para cada espaço em branco individual (4 espaços = 4 tokens). Modelos modernos voltados para código possuem tokens agrupados dedicados para 2, 4 e 8 espaços consecutivos, reduzindo drasticamente o consumo de tokens.
-- **Convenções de Identificadores:** Identificadores em *camelCase* (`processarLiquidacaoDespesa`) ou *snake_case* (`processar_liquidacao_despesa`) são decompostos em múltiplos subtokens (`processar`, `liquidacao`, `despesa`). Nomes de variáveis excessivamente prolixos consomem a janela de contexto com maior rapidez.
-- **Economia e Métricas de Custo:** As APIs de modelos de IA tarifam o processamento com base no volume de tokens de entrada (*input tokens*) e saída (*output tokens*). A otimização e a curadoria de arquivos enviados para o contexto impactam diretamente o custo operacional das soluções corporativas.
-
----
-
-### 1.5 Hiperparâmetros de Inferência e Amostragem: Temperature, Top-P e Penalidades
-Durante a fase de inferência (geração da resposta), o modelo projeta logits (pontuações não normalizadas) sobre todo o seu vocabulário. A forma como esses logits são convertidos em probabilidades é modulada por hiperparâmetros de amostragem:
-
-| Hiperparâmetro | Mecânica Matemática | Efeito em Baixos Valores | Efeito em Altos Valores | Recomendação em Engenharia de Software |
-|---|---|---|---|---|
-| **Temperature ($T$)** | Fator de divisão no expoente dos logits: $P(w_i) = \frac{\exp(z_i / T)}{\sum \exp(z_j / T)}$. | **Determinismo e Estabilidade:** Acentua a probabilidade dos tokens de maior consenso sintático. | **Aleatoriedade e Dispersão:** Achata a curva de probabilidade, aumentando o risco de alucinações. | **$0.0$ a $0.2$** para código executável, testes unitários e refatoração. $0.7$ a $0.8$ apenas para ideação arquitetural. |
-| **Top-P (*Nucleus Sampling*)** | Seleciona o menor subconjunto cumulativo de tokens cuja soma das probabilidades atinge o valor $P$. | Descarta sumariamente a cauda longa de tokens improváveis. | Permite que tokens improváveis concorram caso o acumulado demore a fechar. | **$0.1$ a $0.5$** para código determinístico. Se $T = 0.0$, a amostragem torna-se puramente gulosa (*Greedy*), tornando o Top-P inócuo. |
-| **Frequency Penalty** | Aplica uma penalização proporcional ao número de vezes que um token já apareceu no texto gerado. | Permite repetições lexicais legítimas. | Inibe repetições, forçando o uso de sinônimos estranhos. | **$0.0$ estrito**. Em programação, palavras reservadas (`if`, `return`, `class`) **precisam se repetir** compulsoriamente. |
-| **Presence Penalty** | Aplica penalização fixa se um token já tiver aparecido ao menos uma vez no texto. | Sem interferência na estrutura sintática. | Força a introdução contínua de novos tópicos, induzindo variáveis inventadas. | **$0.0$ estrito** para código-fonte. |
-
----
-
-
 ### Teste 122
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 Na inferência de modelos de linguagem utilizados para geração de código-fonte de missão crítica, a calibração de hiperparâmetros de amostragem exerce impacto decisivo na corretude e determinismo dos programas gerados. A respeito dos hiperparâmetros *Temperature* e *Top-P* (*Nucleus Sampling*), é correto afirmar:
@@ -241,10 +224,7 @@ Na inferência de modelos de linguagem utilizados para geração de código-font
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Programação Baseada em Intenção e Linguagem Natural
 
@@ -267,6 +247,26 @@ flowchart TD
 
 - **Programação Imperativa:** O programador é responsável por detalhar exaustivamente o algoritmo imperativo: laços, ponteiros, gerência de memória e ramificações condicionais.
 - **Programação Baseada em Intenção:** O engenheiro de software concentra-se na formulação rigorosa da **intenção de negócio e restrições formais** (invariantes lógicas, pré-condições, pós-condições e critérios de tolerância a falhas). A IA generativa sintetiza o código executável, que é imediatamente validado por suítes de testes determinísticos.
+
+### 2.2 Sintaxe Estrita vs. Semântica Declarativa e Contratos de Interface
+Na programação clássica, o compilador atua como um juiz sintático inflexível: a omissão de uma vírgula ou chave aborta o processo de compilação. Na programação orientada a linguagem natural assistida por IA:
+
+- A flexibilidade da linguagem natural é associada à disciplina dos **Contratos de Interface** (como esquemas OpenAPI, JSON Schema, interfaces TypeScript ou Protocol Buffers).
+- A intenção é descrita textualmente, mas ancorada por especificações formais de entrada e saída, eliminando ambiguidade semântica.
+
+### 2.3 Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis
+A disciplina do BDD (*Behavior-Driven Development*) serve como ponte natural entre intenção em linguagem humana e testes automatizados. Cenários descritos em sintaxe Gherkin (`Dado que... Quando... Então...`) são utilizados como especificações inequívocas:
+
+```gherkin
+Cenário: Aplicação de glosa por sobrepreço em auditoria de obras
+  Dado que o valor orçado para o item "Concreto Armado" é de R$ 500.000,00
+  E o preço de referência da tabela SINAPI é de R$ 420.000,00
+  Quando o auditor executar o cálculo de sobrepreço unitário
+  Então o sistema deve registrar uma glosa de R$ 80.000,00
+  E classificar a irregularidade com gravidade "GRAVE_COM_DANO_AO_ERARIO"
+```
+
+O LLM recebe esse contrato comportamental e gera simultaneamente a suíte de testes correspondente e o código de domínio que satisfaz o cenário.
 
 ---
 
@@ -297,16 +297,6 @@ Sobre esses conceitos, assinale a afirmativa correta:
 
 ---
 
-
-
-### 2.2 Sintaxe Estrita vs. Semântica Declarativa e Contratos de Interface
-Na programação clássica, o compilador atua como um juiz sintático inflexível: a omissão de uma vírgula ou chave aborta o processo de compilação. Na programação orientada a linguagem natural assistida por IA:
-
-- A flexibilidade da linguagem natural é associada à disciplina dos **Contratos de Interface** (como esquemas OpenAPI, JSON Schema, interfaces TypeScript ou Protocol Buffers).
-- A intenção é descrita textualmente, mas ancorada por especificações formais de entrada e saída, eliminando ambiguidade semântica.
-
----
-
 ### Teste 124
 **(FCC – Inédita – Padrão TCE-GO)**  
 No paradigma de Programação Baseada em Intenção (*Intent-Based Programming*), o desenvolvedor expressa a intenção de negócio em linguagem natural estruturada, cabendo a agentes de IA sintetizar a lógica técnica e a implementação. No entanto, na integração desse código aos pipelines de entrega, a relação entre semântica declarativa e sintaxe estrita exige que:
@@ -331,26 +321,6 @@ No paradigma de Programação Baseada em Intenção (*Intent-Based Programming*)
 > **Gabarito: B**
 
 ---
-
-
-### 2.3 Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis
-A disciplina do BDD (*Behavior-Driven Development*) serve como ponte natural entre intenção em linguagem humana e testes automatizados. Cenários descritos em sintaxe Gherkin (`Dado que... Quando... Então...`) são utilizados como especificações inequívocas:
-
-```gherkin
-Cenário: Aplicação de glosa por sobrepreço em auditoria de obras
-  Dado que o valor orçado para o item "Concreto Armado" é de R$ 500.000,00
-  E o preço de referência da tabela SINAPI é de R$ 420.000,00
-  Quando o auditor executar o cálculo de sobrepreço unitário
-  Então o sistema deve registrar uma glosa de R$ 80.000,00
-  E classificar a irregularidade com gravidade "GRAVE_COM_DANO_AO_ERARIO"
-```
-
-O LLM recebe esse contrato comportamental e gera simultaneamente a suíte de testes correspondente e o código de domínio que satisfaz o cenário.
-
-
-
----
-
 
 ## 3. Engenharia de Prompts e Engenharia de Contexto para Software
 
@@ -378,8 +348,6 @@ classDiagram
 3. **Entrada de Dados e Contratos:** Código pré-existente, esquemas de tabelas SQL, modelos DTO e payloads esperados.
 4. **Formato e Critérios de Saída:** Exige código em bloco Markdown limpo, sem elipses (`// ... restante do código`), tipagem estrita e inclusão de testes unitários com JUnit 5 e Mockito.
 
----
-
 ### 3.2 Técnicas Centrais de Prompting: Zero-Shot, Few-Shot, CoT e Test-Driven
 
 ```mermaid
@@ -406,6 +374,31 @@ flowchart TD
 > - **Few-Shot Prompting:** NÃO altera os pesos neurais do modelo! Trata-se de um condicionamento efêmero em tempo de inferência (*runtime*), restrito àquela chamada de API.  
 > - **Fine-Tuning:** Altera permanentemente os pesos das conexões sinápticas da rede neural via retropropagação de gradientes (*backpropagation*).  
 > Fornecer exemplos demonstrativos no texto do prompt é **Few-Shot**, jamais Fine-Tuning!
+
+### 3.3 Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"
+A **Janela de Contexto (*Context Window*)** é a quantidade máxima de tokens que um modelo de IA consegue manter na memória de trabalho durante uma sessão de inferência.
+
+Contudo, possuir uma janela de contexto extensa (como 128k ou 1 milhão de tokens) não significa que o modelo preste atenção uniforme em todas as posições do texto.
+
+- **A Pesquisa Seminal (Liu et al., 2023 - *"Lost in the Middle"*):** Demonstrou empiricamente a presença de vieses posicionais acentuados na arquitetura Transformer:
+    - **Viés de Primazia (*Primacy Bias*):** Altíssima retenção das informações posicionadas no **início** do contexto (System Prompt, primeiras instruções).
+    - **Viés de Recência (*Recency Bias*):** Altíssima retenção das informações posicionadas no **final** do contexto (logo antes do comando de geração).
+    - **Degradação Central (*The Middle Dip*):** Trechos de código ou requisitos críticos situados no meio geométrico de um contexto longo sofrem perda drástica de atenção, gerando omissões e alucinações.
+
+```mermaid
+xychart-beta
+    title "Capacidade de Atenção / Recuperação ao Longo da Janela de Contexto"
+    x-axis ["0% (Início)", "25%", "50% (Meio)", "75%", "100% (Final)"]
+    y-axis "Taxa de Retenção de Regras (%)" 0 --> 100
+    line [96, 70, 32, 68, 97]
+```
+
+### 3.4 Curadoria de Contexto e Minimização de Ruído no Repositório
+Para contornar o efeito *Lost in the Middle* e evitar estouros de cotas financeiras e de tokens:
+
+1. **Posicionamento Estratégico:** As diretrizes inegociáveis e regras de segurança devem residir no início (*System Prompt*); o comando operacional imediato e os dados de entrada prioritários devem ficar no final do prompt.
+2. **Expurgo de Ruído (*Context Pruning*):** NUNCA inclua arquivos de build, diretórios de dependências (`node_modules`, `target`, `.git`), arquivos minificados ou lockfiles inteiros no prompt enviado ao LLM.
+3. **Uso de Delimitadores Estruturados:** Separe claramente o código-fonte das instruções utilizando tags XML (`<context>`, `<instructions>`, `<code>`) para evitar ataques de injeção de prompt e prevenir confusão no analisador sintático do modelo.
 
 ---
 
@@ -463,28 +456,6 @@ Nesse cenário, a abordagem metodologicamente mais adequada é:
 
 ---
 
-
-
-### 3.3 Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"
-A **Janela de Contexto (*Context Window*)** é a quantidade máxima de tokens que um modelo de IA consegue manter na memória de trabalho durante uma sessão de inferência.
-
-Contudo, possuir uma janela de contexto extensa (como 128k ou 1 milhão de tokens) não significa que o modelo preste atenção uniforme em todas as posições do texto.
-
-- **A Pesquisa Seminal (Liu et al., 2023 - *"Lost in the Middle"*):** Demonstrou empiricamente a presença de vieses posicionais acentuados na arquitetura Transformer:
-    - **Viés de Primazia (*Primacy Bias*):** Altíssima retenção das informações posicionadas no **início** do contexto (System Prompt, primeiras instruções).
-    - **Viés de Recência (*Recency Bias*):** Altíssima retenção das informações posicionadas no **final** do contexto (logo antes do comando de geração).
-    - **Degradação Central (*The Middle Dip*):** Trechos de código ou requisitos críticos situados no meio geométrico de um contexto longo sofrem perda drástica de atenção, gerando omissões e alucinações.
-
-```mermaid
-xychart-beta
-    title "Capacidade de Atenção / Recuperação ao Longo da Janela de Contexto"
-    x-axis ["0% (Início)", "25%", "50% (Meio)", "75%", "100% (Final)"]
-    y-axis "Taxa de Retenção de Regras (%)" 0 --> 100
-    line [96, 70, 32, 68, 97]
-```
-
----
-
 ### Teste 127
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 Em arquiteturas de LLMs com janelas de contexto estendidas (acima de 128k tokens), pesquisadores identificaram o fenômeno empírico denominado *"Lost in the Middle"*. Esse efeito consiste na tendência de o modelo:
@@ -507,16 +478,6 @@ Em arquiteturas de LLMs com janelas de contexto estendidas (acima de 128k tokens
 > - **E) Incorreta.** Afirmação sem fundamento.
 >
 > **Gabarito: B**
-
----
-
-
-### 3.4 Curadoria de Contexto e Minimização de Ruído no Repositório
-Para contornar o efeito *Lost in the Middle* e evitar estouros de cotas financeiras e de tokens:
-
-1. **Posicionamento Estratégico:** As diretrizes inegociáveis e regras de segurança devem residir no início (*System Prompt*); o comando operacional imediato e os dados de entrada prioritários devem ficar no final do prompt.
-2. **Expurgo de Ruído (*Context Pruning*):** NUNCA inclua arquivos de build, diretórios de dependências (`node_modules`, `target`, `.git`), arquivos minificados ou lockfiles inteiros no prompt enviado ao LLM.
-3. **Uso de Delimitadores Estruturados:** Separe claramente o código-fonte das instruções utilizando tags XML (`<context>`, `<instructions>`, `<code>`) para evitar ataques de injeção de prompt e prevenir confusão no analisador sintático do modelo.
 
 ---
 
@@ -545,10 +506,7 @@ Considerando as boas práticas de curadoria de contexto e a mitigação de viese
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 4. Fontes Recomendadas na Internet
 

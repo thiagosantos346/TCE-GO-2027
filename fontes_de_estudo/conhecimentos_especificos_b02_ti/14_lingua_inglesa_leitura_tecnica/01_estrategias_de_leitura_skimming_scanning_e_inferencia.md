@@ -16,10 +16,7 @@
 - Predição, pistas tipográficas e inferência contextual de vocabulário
 - Falsos amigos / Falsos cognatos (*False Friends / False Cognates*)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -37,11 +34,11 @@
     3. [Teste 567](#Teste-567)
 4. [Predição e Pistas Contextuais de Vocabulário (Context Clues)](#4-predicao-e-pistas-contextuais-de-vocabulario-context-clues)
     1. [Pistas de Definição, Paráfrase e Exemplificação](#41-pistas-de-definicao-parafrase-e-exemplificacao)
-    2. [Teste 568](#Teste-568)
-    3. [Pistas de Contraste, Oposição, Causa e Efeito](#42-pistas-de-contraste-oposicao-causa-e-efeito)
-    4. [Teste 569](#Teste-569)
-    5. [Decomposição Morfológica (Prefixos, Raízes e Sufixos)](#43-decomposicao-morfologica-prefixos-raizes-e-sufixos)
-    6. [Vocabulário Crítico de Engenharia e Arquitetura de Software](#44-vocabulario-critico-de-engenharia-e-arquitetura-de-software)
+    2. [Pistas de Contraste, Oposição, Causa e Efeito](#42-pistas-de-contraste-oposicao-causa-e-efeito)
+    3. [Decomposição Morfológica (Prefixos, Raízes e Sufixos)](#43-decomposicao-morfologica-prefixos-raizes-e-sufixos)
+    4. [Vocabulário Crítico de Engenharia e Arquitetura de Software](#44-vocabulario-critico-de-engenharia-e-arquitetura-de-software)
+    5. [Teste 568](#Teste-568)
+    6. [Teste 569](#Teste-569)
     7. [Teste 570](#Teste-570)
 5. [Falsos Cognatos Críticos em TI (False Friends)](#5-falsos-cognatos-criticos-em-ti-false-friends)
     1. [Cognatos Verdadeiros vs. Falsos Amigos](#51-cognatos-verdadeiros-vs-falsos-amigos)
@@ -50,13 +47,12 @@
     4. [Teste 572](#Teste-572)
 6. [Coesão Textual e Referência Pronominal (Reference Words)](#6-coesao-textual-e-referencia-pronominal-reference-words)
     1. [Anáfora e Catáfora em Textos Técnicos](#61-anafora-e-catafora-em-textos-tecnicos)
-    2. [Teste 573](#Teste-573)
-    3. [Encapsulamento Conceitual com Demonstrativos](#62-encapsulamento-conceitual-com-demonstrativos)
+    2. [Encapsulamento Conceitual com Demonstrativos](#62-encapsulamento-conceitual-com-demonstrativos)
+    3. [Teste 573](#Teste-573)
     4. [Teste 574](#Teste-574)
-7. [Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)
 
@@ -121,11 +117,7 @@ According to the text and instrumental reading fundamentals:
 > 
 > **Gabarito: B**
 
-
-
-
 ---
-
 
 ## 2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)
 
@@ -180,11 +172,7 @@ Applying the **Skimming** strategy to identify the primary argument (*main idea*
 > 
 > **Gabarito: C**
 
-
-
-
 ---
-
 
 ## 3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)
 
@@ -257,11 +245,7 @@ By employing **Scanning** and analyzing the semantic function of the highlighted
 > 
 > **Gabarito: B**
 
-
-
-
 ---
-
 
 ## 4. Predição e Pistas Contextuais de Vocabulário (Context Clues)
 
@@ -275,6 +259,40 @@ Em certames da FCC para a área de TI, é praxe a inclusão de vocabulário téc
 - **Exemplificação (*Example Clues*):** O sentido de uma categoria complexa ou abstrata é revelado pela enumeração de exemplos concretos introduzidos por marcadores como *such as, for instance, for example, e.g., including*.
     - *Exemplo:* *"The migration revealed several **ephemeral** storage configurations, **such as temporary in-memory caches and non-persistent container volumes**, that caused data loss upon reboot."*  
     $\rightarrow$ Os exemplos práticos (*temporary, non-persistent*) revelam com precisão que *ephemeral* significa volátil, transitório ou efêmero.
+
+### 4.2 Pistas de Contraste, Oposição, Causa e Efeito
+
+- **Contraste e Antônimos (*Contrast / Antonym Clues*):** O termo opõe-se a uma ideia conhecida por meio de conectivos adversativos ou concessivos (*unlike, whereas, while, in contrast to, instead of, on the contrary, but, however*).
+    - *Exemplo:* *"**Unlike** legacy monolithic repositories that are completely **intertwined**, modern cloud applications are composed of **loosely coupled**, independent microservices."*  
+    $\rightarrow$ Se os microsserviços são *loosely coupled* (fracamente acoplados / independentes), o conectivo *Unlike* explicita que os monólitos *intertwined* são fortemente entrelaçados ou acoplados.
+- **Causa e Efeito (*Cause and Effect Clues*):** A relação de causalidade expressa por *because, since, as a result, consequently, thereby, thus, leading to* permite inferir o significado a partir do resultado prático.
+    - *Exemplo:* *"Because the automated script lacked input validation, it allowed arbitrary SQL injection, **leading to catastrophic** data corruption."*  
+    $\rightarrow$ A consequência danosa clarifica o teor destrutivo de *catastrophic*.
+
+### 4.3 Decomposição Morfológica (Prefixos, Raízes e Sufixos)
+
+A morfologia vocabular permite dissecar o verbete técnico desconhecido:
+
+- **Prefixos de Negação e Reversão:** *un-* (*unpatched*, não corrigido), *in-/im-* (*immutable*, imutável), *dis-* (*disrupt*, interromper/desestruturar), *mis-* (*misconfiguration*, erro de configuração).
+- **Prefixos de Tempo e Escala:** *pre-* (*pre-computation*), *post-* (*postmortem analysis*), *micro-* (*microsegmentation*), *hyper-* (*hypervisor*).
+- **Sufixos Gramaticais:**
+    - Substantivos: *-tion* (*authentication*), *-ment* (*deployment*), *-ity* (*scalability*), *-ness* (*responsiveness*).
+    - Adjetivos: *-able/-ible* (*scalable*, *accessible*), *-ive* (*predictive*), *-al* (*procedural*).
+    - Advérbios: *-ly* (*continually*, *actually*).
+
+### 4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software
+
+Determinados termos técnicos de língua inglesa possuem acepções altamente especializadas frequentemente cobradas em provas da FCC:
+
+- **Bottleneck (Gargalo):** Ponto de estrangulamento em uma cadeia de processamento ou infraestrutura de rede que limita a vazão (*throughput*) e o desempenho global do sistema.  
+  > ⚠️ **Alerta FCC:** A banca tenta afirmar que *bottleneck* é um facilitador ou acelerador de velocidade. Trata-se de uma restrição/obstáculo de desempenho!
+- **Trade-off (Relação de Compromisso / Perda e Ganho):** Decisão de projeto em que a obtenção de um benefício (ex.: agilidade de entrega, escalabilidade) acarreta necessariamente uma contrapartida desfavorável ou custo operacional adicional (ex.: complexidade distribuída, latência de rede).
+- **Remediate (Sanar / Remediar / Mitigar):** Ato de aplicar contramedidas técnicas, correções e restaurações em um ambiente violado ou defeituoso para devolvê-lo ao estado seguro e operacional. Não significa "tolerar passivamente".
+- **Compromise (Violar a Segurança / Invadir):** Em cibersegurança, *to compromise a system* significa violar sua integridade, confidencialidade ou controle de acesso. Não significa "fazer um acordo amigável" ou "ter um compromisso na agenda".
+- **Novel (Inovador / Inédito / Original):** Quando empregado como adjetivo (*a novel approach*), significa inovador, novo ou original. Não significa "novela" de televisão ou literatura romântica.
+- **Sensible vs. Sensitive:**  
+    - *Sensible:* Sensato, criterioso, razoável, prudente (*a sensible decision*).  
+    - *Sensitive:* Sensível, delicado, confidencial (*sensitive data*, dados sensíveis sob a LGPD).
 
 ---
 
@@ -307,18 +325,6 @@ Based on reading strategies and vocabulary inference, select the correct stateme
 
 ---
 
-
-### 4.2 Pistas de Contraste, Oposição, Causa e Efeito
-
-- **Contraste e Antônimos (*Contrast / Antonym Clues*):** O termo opõe-se a uma ideia conhecida por meio de conectivos adversativos ou concessivos (*unlike, whereas, while, in contrast to, instead of, on the contrary, but, however*).
-    - *Exemplo:* *"**Unlike** legacy monolithic repositories that are completely **intertwined**, modern cloud applications are composed of **loosely coupled**, independent microservices."*  
-    $\rightarrow$ Se os microsserviços são *loosely coupled* (fracamente acoplados / independentes), o conectivo *Unlike* explicita que os monólitos *intertwined* são fortemente entrelaçados ou acoplados.
-- **Causa e Efeito (*Cause and Effect Clues*):** A relação de causalidade expressa por *because, since, as a result, consequently, thereby, thus, leading to* permite inferir o significado a partir do resultado prático.
-    - *Exemplo:* *"Because the automated script lacked input validation, it allowed arbitrary SQL injection, **leading to catastrophic** data corruption."*  
-    $\rightarrow$ A consequência danosa clarifica o teor destrutivo de *catastrophic*.
-
----
-
 ### Teste 569
 **(FCC - Adaptada / Tribunal de Contas - Infraestrutura e Nuvem)**
 *Read the technical excerpt concerning cloud architecture evaluation:*
@@ -345,34 +351,6 @@ Through the application of skimming and scanning techniques, it can be concluded
 > - **E)** Incorreta. O conectivo **"Nonetheless"** (contudo, não obstante, todavia) é um marcador discursivo de concessão e oposição/contraste, e não de adição cumulativa (*furthermore, in addition*).
 > 
 > **Gabarito: D**
-
----
-
-
-### 4.3 Decomposição Morfológica (Prefixos, Raízes e Sufixos)
-
-A morfologia vocabular permite dissecar o verbete técnico desconhecido:
-
-- **Prefixos de Negação e Reversão:** *un-* (*unpatched*, não corrigido), *in-/im-* (*immutable*, imutável), *dis-* (*disrupt*, interromper/desestruturar), *mis-* (*misconfiguration*, erro de configuração).
-- **Prefixos de Tempo e Escala:** *pre-* (*pre-computation*), *post-* (*postmortem analysis*), *micro-* (*microsegmentation*), *hyper-* (*hypervisor*).
-- **Sufixos Gramaticais:**
-    - Substantivos: *-tion* (*authentication*), *-ment* (*deployment*), *-ity* (*scalability*), *-ness* (*responsiveness*).
-    - Adjetivos: *-able/-ible* (*scalable*, *accessible*), *-ive* (*predictive*), *-al* (*procedural*).
-    - Advérbios: *-ly* (*continually*, *actually*).
-
-### 4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software
-
-Determinados termos técnicos de língua inglesa possuem acepções altamente especializadas frequentemente cobradas em provas da FCC:
-
-- **Bottleneck (Gargalo):** Ponto de estrangulamento em uma cadeia de processamento ou infraestrutura de rede que limita a vazão (*throughput*) e o desempenho global do sistema.  
-  > ⚠️ **Alerta FCC:** A banca tenta afirmar que *bottleneck* é um facilitador ou acelerador de velocidade. Trata-se de uma restrição/obstáculo de desempenho!
-- **Trade-off (Relação de Compromisso / Perda e Ganho):** Decisão de projeto em que a obtenção de um benefício (ex.: agilidade de entrega, escalabilidade) acarreta necessariamente uma contrapartida desfavorável ou custo operacional adicional (ex.: complexidade distribuída, latência de rede).
-- **Remediate (Sanar / Remediar / Mitigar):** Ato de aplicar contramedidas técnicas, correções e restaurações em um ambiente violado ou defeituoso para devolvê-lo ao estado seguro e operacional. Não significa "tolerar passivamente".
-- **Compromise (Violar a Segurança / Invadir):** Em cibersegurança, *to compromise a system* significa violar sua integridade, confidencialidade ou controle de acesso. Não significa "fazer um acordo amigável" ou "ter um compromisso na agenda".
-- **Novel (Inovador / Inédito / Original):** Quando empregado como adjetivo (*a novel approach*), significa inovador, novo ou original. Não significa "novela" de televisão ou literatura romântica.
-- **Sensible vs. Sensitive:**  
-    - *Sensible:* Sensato, criterioso, razoável, prudente (*a sensible decision*).  
-    - *Sensitive:* Sensível, delicado, confidencial (*sensitive data*, dados sensíveis sob a LGPD).
 
 ---
 
@@ -403,11 +381,7 @@ Regarding the technical vocabulary utilized in software engineering (*trade-off,
 > 
 > **Gabarito: B**
 
-
-
-
 ---
-
 
 ## 5. Falsos Cognatos Críticos em TI (False Friends)
 
@@ -501,10 +475,7 @@ Na língua portuguesa, as palavras destacadas no trecho (**pretended**, **compre
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 6. Coesão Textual e Referência Pronominal (Reference Words)
 
@@ -518,6 +489,32 @@ Um dos tipos de questões favoritos da FCC consiste em destacar um pronome em de
     - **They / Their / Them:** Retoma substantivos plurais, sejam pessoas (desenvolvedores, peritos) ou entidades neutras (microsserviços, registros, contêineres).
     - **Who / Whom:** Aplica-se exclusivamente a pessoas humanas (*analysts who detected the flaw*).
     - **Which / That:** Aplica-se a coisas, sistemas e conceitos inanimados.
+
+### 6.2 Encapsulamento Conceitual com Demonstrativos
+
+Muitas vezes o pronome demonstrativo neutro singular (**this**, **that**) não retoma uma única palavra isolada, mas atua como um mecanismo de **encapsulamento conceitual**, sintetizando toda a proposição, problema ou processo delineado na oração imediatamente antecedente.
+
+- *Exemplo:* *"Undetected algorithmic bias can unfairly deny social benefits to vulnerable citizens. **To prevent this**, regulators mandated transparent audit logs."*  
+  $\rightarrow$ O demonstrativo *"this"* retoma todo o fato de que "o viés algorítmico não detectado prejudica cidadãos vulneráveis negando-lhes benefícios", e não uma palavra solta.
+
+```mermaid
+flowchart LR
+    subgraph Ant["Antecedente Textual"]
+        SingularNoun["Substantivo Singular Neutro<br/>(ex.: 'The API Gateway')"]
+        PluralNoun["Substantivo Plural<br/>(ex.: 'The container clusters')"]
+        FullClause["Oração / Fato Inteiro<br/>(ex.: 'Latency spiked by 40%')"]
+    end
+    
+    subgraph Pron["Pronome de Referência"]
+        P1["it / its"]
+        P2["they / them / their"]
+        P3["this / which"]
+    end
+    
+    SingularNoun --> P1
+    PluralNoun --> P2
+    FullClause --> P3
+```
 
 ---
 
@@ -548,33 +545,6 @@ In terms of textual cohesion and pronominal reference in technical texts:
 > 
 > **Gabarito: A**
 
-
-### 6.2 Encapsulamento Conceitual com Demonstrativos
-
-Muitas vezes o pronome demonstrativo neutro singular (**this**, **that**) não retoma uma única palavra isolada, mas atua como um mecanismo de **encapsulamento conceitual**, sintetizando toda a proposição, problema ou processo delineado na oração imediatamente antecedente.
-
-- *Exemplo:* *"Undetected algorithmic bias can unfairly deny social benefits to vulnerable citizens. **To prevent this**, regulators mandated transparent audit logs."*  
-  $\rightarrow$ O demonstrativo *"this"* retoma todo o fato de que "o viés algorítmico não detectado prejudica cidadãos vulneráveis negando-lhes benefícios", e não uma palavra solta.
-
-```mermaid
-flowchart LR
-    subgraph Ant["Antecedente Textual"]
-        SingularNoun["Substantivo Singular Neutro<br/>(ex.: 'The API Gateway')"]
-        PluralNoun["Substantivo Plural<br/>(ex.: 'The container clusters')"]
-        FullClause["Oração / Fato Inteiro<br/>(ex.: 'Latency spiked by 40%')"]
-    end
-    
-    subgraph Pron["Pronome de Referência"]
-        P1["it / its"]
-        P2["they / them / their"]
-        P3["this / which"]
-    end
-    
-    SingularNoun --> P1
-    PluralNoun --> P2
-    FullClause --> P3
-```
-
 ---
 
 ### Teste 574
@@ -604,10 +574,7 @@ Regarding reading comprehension, context clues, and reference words in the text,
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

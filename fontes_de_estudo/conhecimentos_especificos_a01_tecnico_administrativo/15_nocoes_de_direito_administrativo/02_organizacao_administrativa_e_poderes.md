@@ -20,52 +20,48 @@
 - Uso e abuso do poder: excesso de poder e desvio de finalidade
 - Lei de Abuso de Autoridade (Lei nº 13.869/2019 e alterações): sujeitos ativos, elemento subjetivo especial e crimes funcionais
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Organização Administrativa: Técnicas de Estruturação Estatal](#1-organizacao-administrativa-tecnicas-de-estruturacao-estatal)
     1. [Centralização e Descentralização](#11-centralizacao-e-descentralizacao)
     2. [Desconcentração e a Criação de Órgãos Públicos](#12-desconcentracao-e-a-criacao-de-orgaos-publicos)
-    3. [Teste 012](#Teste-012)
-    4. [Quadro Distintivo: Descentralização vs. Desconcentração](#13-quadro-distintivo-descentralizacao-vs-desconcentracao)
+    3. [Quadro Distintivo: Descentralização vs. Desconcentração](#13-quadro-distintivo-descentralizacao-vs-desconcentracao)
+    4. [Teste 012](#Teste-012)
 2. [Entidades da Administração Indireta](#2-entidades-da-administracao-indireta)
     1. [Autarquias e Autarquias de Regime Especial](#21-autarquias-e-autarquias-de-regime-especial)
-    2. [Teste 013](#Teste-013)
-    3. [Fundações Públicas (Direito Público vs. Direito Privado)](#22-fundacoes-publicas-direito-publico-vs-direito-privado)
-    4. [Empresas Públicas e Sociedades de Economia Mista](#23-empresas-publicas-e-sociedades-de-economia-mista)
-    5. [Teste 014](#Teste-014)
-    6. [O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)](#24-o-estatuto-juridico-das-estatais-lei-no-133032016)
-    7. [Teste 015](#Teste-015)
-    8. [Controle Finalístico, Tutela e Supervisão Ministerial](#25-controle-finalistico-tutela-e-supervisao-ministerial)
+    2. [Fundações Públicas (Direito Público vs. Direito Privado)](#22-fundacoes-publicas-direito-publico-vs-direito-privado)
+    3. [Empresas Públicas e Sociedades de Economia Mista](#23-empresas-publicas-e-sociedades-de-economia-mista)
+    4. [O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)](#24-o-estatuto-juridico-das-estatais-lei-no-133032016)
+    5. [Controle Finalístico, Tutela e Supervisão Ministerial](#25-controle-finalistico-tutela-e-supervisao-ministerial)
+    6. [Teste 013](#Teste-013)
+    7. [Teste 014](#Teste-014)
+    8. [Teste 015](#Teste-015)
     9. [Teste 016](#Teste-016)
 3. [O Terceiro Setor e Entidades Paraestatais](#3-o-terceiro-setor-e-entidades-paraestatais)
     1. [Serviços Sociais Autônomos (Sistema S)](#31-servicos-sociais-autonomos-sistema-s)
-    2. [Teste 017](#Teste-017)
-    3. [Organizações Sociais (OS) e Contratos de Gestão](#32-organizacoes-sociais-os-e-contratos-de-gestao)
-    4. [OSCIPs e Termos de Parceria](#33-oscips-e-termos-de-parceria)
+    2. [Organizações Sociais (OS) e Contratos de Gestão](#32-organizacoes-sociais-os-e-contratos-de-gestao)
+    3. [OSCIPs e Termos de Parceria](#33-oscips-e-termos-de-parceria)
+    4. [Teste 017](#Teste-017)
 4. [Poderes Administrativos e Prerrogativas Públicas](#4-poderes-administrativos-e-prerrogativas-publicas)
     1. [Poder Vinculado vs. Poder Discricionário e o Mérito Administrativo](#41-poder-vinculado-vs-poder-discricionario-e-o-merito-administrativo)
     2. [Poder Hierárquico: Delegação, Avocação e a Regra do CENORA](#42-poder-hierarquico-delegacao-avocacao-e-a-regra-do-cenora)
-    3. [Teste 018](#Teste-018)
-    4. [Poder Disciplinar e Sanções Funcionais](#43-poder-disciplinar-e-sancoes-funcionais)
-    5. [Teste 019](#Teste-019)
-    6. [Poder Regulamentar / Normativo e os Decretos Autônomos](#44-poder-regulamentar-normativo-e-os-decretos-autonomos)
-    7. [Teste 020](#Teste-020)
-    8. [Poder de Polícia, Ciclo de Polícia e Delegação (Tema 532/STF)](#45-poder-de-policia-ciclo-de-policia-e-delegacao-tema-532stf)
+    3. [Poder Disciplinar e Sanções Funcionais](#43-poder-disciplinar-e-sancoes-funcionais)
+    4. [Poder Regulamentar / Normativo e os Decretos Autônomos](#44-poder-regulamentar-normativo-e-os-decretos-autonomos)
+    5. [Poder de Polícia, Ciclo de Polícia e Delegação (Tema 532/STF)](#45-poder-de-policia-ciclo-de-policia-e-delegacao-tema-532stf)
+    6. [Teste 018](#Teste-018)
+    7. [Teste 019](#Teste-019)
+    8. [Teste 020](#Teste-020)
     9. [Teste 021](#Teste-021)
 5. [Uso e Abuso de Poder e a Lei nº 13.869/2019](#5-uso-e-abuso-de-poder-e-a-lei-no-138692019)
     1. [Excesso de Poder vs. Desvio de Finalidade](#51-excesso-de-poder-vs-desvio-de-finalidade)
     2. [Elemento Subjetivo Especial e Proibição do Crime de Hermenêutica](#52-elemento-subjetivo-especial-e-proibicao-do-crime-de-hermeneutica)
-    3. [Teste 022](#Teste-022)
-    4. [Sujeitos Ativos no Âmbito dos Tribunais de Contas](#53-sujeitos-ativos-no-ambito-dos-tribunais-de-contas)
+    3. [Sujeitos Ativos no Âmbito dos Tribunais de Contas](#53-sujeitos-ativos-no-ambito-dos-tribunais-de-contas)
+    4. [Teste 022](#Teste-022)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Organização Administrativa: Técnicas de Estruturação Estatal
 
@@ -103,7 +99,16 @@ A **desconcentração** é uma técnica puramente interna de divisão e distribu
 - Caracteriza-se por uma **relação estrita de hierarquia, subordinação e controle disciplinar** entre a chefia superior e as unidades subordinadas.
 - *Teoria do Órgão (Imputação Volitiva):* Os órgãos não possuem vontade própria autônoma nem patrimônio segregado; as manifestações volitivas de seus agentes são juridicamente imputadas à pessoa jurídica à qual o órgão se vincula.
 
+### 1.3 Quadro Distintivo: Descentralização vs. Desconcentração
 
+| Critério de Comparação | Descentralização Administrativa | Desconcentração Administrativa |
+| :--- | :--- | :--- |
+| **Pessoas Jurídicas Envolvidas** | Envolve **duas ou mais pessoas jurídicas distintas** | Ocorre **dentro de uma única pessoa jurídica** |
+| **Criação Resultante** | Cria **novas entidades** autônomas da Administração Indireta | Cria **órgãos públicos** despersonalizados |
+| **Vínculo Jurídico** | **Não há hierarquia nem subordinação** (há apenas vinculação / tutela finalística) | **Há relação estrita de hierarquia e subordinação** |
+| **Mnemônico Visual FCC** | Descentrali**Z**ação $\rightarrow$ Gera **E**ntidades externas | Desconcen**T**ração $\rightarrow$ Gera **Ó**rgãos internos |
+
+---
 
 ### Teste 012
 **(FCC - Auditor Fiscal da Receita Estadual)**
@@ -132,20 +137,6 @@ A respeito desses conceitos, é correto afirmar:
 
 ---
 
-### 1.3 Quadro Distintivo: Descentralização vs. Desconcentração
-
-| Critério de Comparação | Descentralização Administrativa | Desconcentração Administrativa |
-| :--- | :--- | :--- |
-| **Pessoas Jurídicas Envolvidas** | Envolve **duas ou mais pessoas jurídicas distintas** | Ocorre **dentro de uma única pessoa jurídica** |
-| **Criação Resultante** | Cria **novas entidades** autônomas da Administração Indireta | Cria **órgãos públicos** despersonalizados |
-| **Vínculo Jurídico** | **Não há hierarquia nem subordinação** (há apenas vinculação / tutela finalística) | **Há relação estrita de hierarquia e subordinação** |
-| **Mnemônico Visual FCC** | Descentrali**Z**ação $\rightarrow$ Gera **E**ntidades externas | Desconcen**T**ração $\rightarrow$ Gera **Ó**rgãos internos |
-
-
-
----
-
-
 ## 2. Entidades da Administração Indireta
 
 A Administração Indireta é o conjunto de entes descentralizados aos quais a lei confere personalidade jurídica própria para desempenhar atividades especializadas de interesse coletivo. Rege-se pelo art. 37, XIX, da CF/88.
@@ -166,7 +157,41 @@ flowchart LR
 - **Regime Jurídico:** Totalmente público. Seus bens são públicos (impenhoráveis, inalienáveis e imprescritíveis); gozam de **imunidade tributária recíproca** (CF, art. 150, § 2º) sobre patrimônio, renda e serviços vinculados a suas finalidades; seus servidores submetem-se ao regime estatutário do respectivo ente; e suas dívidas judiciais são quitadas mediante precatórios.
 - **Autarquias em Regime Especial (Agências Reguladoras):** Autarquias dotadas de maior autonomia institucional, financeira e decisória. Caracterizam-se por: dirigentes investidos com mandato fixo após sabatina legislativa (estabilidade no mandato, perda do cargo apenas nas hipóteses legais); poder normativo técnico regulatório; e inexistência de recurso hierárquico impróprio para os Ministérios/Secretarias sobre decisões técnicas de mérito.
 
+### 2.2 Fundações Públicas (Direito Público vs. Direito Privado)
 
+Entidades com patrimônio personalizado voltadas a finalidades sociais, de saúde, educação, cultura ou pesquisa (sem fins lucrativos):
+
+- **Fundação Pública de Direito Público (Fundação Autárquica / Autarquia Fundacional):** Criada diretamente por lei específica. Equipara-se material e formalmente a uma autarquia em direitos, deveres, prerrogativas e imunidades.
+- **Fundação Pública de Direito Privado:** Tem sua criação **autorizada por lei específica**, nascendo juridicamente com a inscrição de seus atos constitutivos no Cartório de Registro Civil das Pessoas Jurídicas. O art. 37, XIX, da CF exige a edição de **lei complementar para definir as áreas de sua atuação**.
+
+### 2.3 Empresas Públicas e Sociedades de Economia Mista
+
+São as empresas estatais, pessoas jurídicas de direito privado instituídas para exploração de atividade econômica de produção ou comercialização de bens/serviços ou para prestação de serviços públicos:
+
+| Critério Distintivo | Empresa Pública (EP) | Sociedade de Economia Mista (SEM) |
+| :--- | :--- | :--- |
+| **Composição Societária do Capital** | **100% Capital Público** (admitida a copropriedade entre entes estatais diversos) | **Capital Misto** (Público + Privado; o Estado detém a maioria das ações com direito a voto) |
+| **Forma Societária Admitida** | **Qualquer modalidade societária** (Ltda., S.A., etc.) | **Obrigatoriamente Sociedade Anônima (S/A)** |
+| **Foro Competente na Justiça (União)** | **Justiça Federal** (CF, art. 109, I) | **Justiça Estadual** (STF, Súmula 556) |
+| **Foro Competente (Estados/Municípios)** | **Justiça Estadual** comum | **Justiça Estadual** comum |
+| **Modo de Criação** | **Autorizada por lei específica** + Registro na Junta/Cartório | **Autorizada por lei específica** + Registro na Junta/Cartório |
+| **Exemplos Nacionais** | Caixa Econômica Federal (CEF), Correios (ECT), BNDES | Banco do Brasil (BB), Petrobras, Sabesp |
+
+### 2.4 O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)
+
+A Lei Federal nº 13.303/2016 instituiu o estatuto jurídico unificado de governança e contratações para todas as empresas públicas e sociedades de economia mista da União, Estados, DF e Municípios:
+
+- **Governança Corporativa e Conformidade:** Exigência de comitês estatutários de auditoria e risco, regras de integridade e requisitos rigorosos de idoneidade técnica e experiência profissional para a indicação de membros do Conselho de Administração e Diretorias Executivas (vedação a ocupantes de cargos políticos e sindicais partidários).
+- **Regime Próprio de Licitações das Estatais:** As estatais possuem regime licitatório próprio disciplinado pelos arts. 28 a 84 da Lei 13.303/2016, com modalidades licitatórias simplificadas e procedimentos de negociação direta, não se sujeitando como regra geral à Lei nº 14.133/2021.
+
+### 2.5 Controle Finalístico, Tutela e Supervisão Ministerial
+
+Entre a Administração Direta e as entidades da Administração Indireta **NÃO existe subordinação hierárquica**. O controle exercido pelo ente instituidor denomina-se **controle finalístico, supervisão ministerial ou tutela administrativa**:
+
+- É um controle de conformidade com os fins para os quais a entidade foi criada (*princípio da especialidade*).
+- Não autoriza intervenções abusivas no mérito ou na gestão interna autônoma, limitando-se aos atos expressamente autorizados em lei.
+
+---
 
 ### Teste 013
 **(FGV - Analista de Controle Externo / TCE)**
@@ -190,28 +215,6 @@ As autarquias constituem pessoas jurídicas de direito público integrantes da A
 > - **E)** Incorreta. Não existe relação de subordinação hierárquica entre a Administração Direta e as autarquias, mas tão somente controle finalístico (tutela administrativa ou supervisão ministerial) nos limites estritos da lei.
 >
 > **Gabarito: B**
-
----
-
-### 2.2 Fundações Públicas (Direito Público vs. Direito Privado)
-
-Entidades com patrimônio personalizado voltadas a finalidades sociais, de saúde, educação, cultura ou pesquisa (sem fins lucrativos):
-
-- **Fundação Pública de Direito Público (Fundação Autárquica / Autarquia Fundacional):** Criada diretamente por lei específica. Equipara-se material e formalmente a uma autarquia em direitos, deveres, prerrogativas e imunidades.
-- **Fundação Pública de Direito Privado:** Tem sua criação **autorizada por lei específica**, nascendo juridicamente com a inscrição de seus atos constitutivos no Cartório de Registro Civil das Pessoas Jurídicas. O art. 37, XIX, da CF exige a edição de **lei complementar para definir as áreas de sua atuação**.
-
-### 2.3 Empresas Públicas e Sociedades de Economia Mista
-
-São as empresas estatais, pessoas jurídicas de direito privado instituídas para exploração de atividade econômica de produção ou comercialização de bens/serviços ou para prestação de serviços públicos:
-
-| Critério Distintivo | Empresa Pública (EP) | Sociedade de Economia Mista (SEM) |
-| :--- | :--- | :--- |
-| **Composição Societária do Capital** | **100% Capital Público** (admitida a copropriedade entre entes estatais diversos) | **Capital Misto** (Público + Privado; o Estado detém a maioria das ações com direito a voto) |
-| **Forma Societária Admitida** | **Qualquer modalidade societária** (Ltda., S.A., etc.) | **Obrigatoriamente Sociedade Anônima (S/A)** |
-| **Foro Competente na Justiça (União)** | **Justiça Federal** (CF, art. 109, I) | **Justiça Estadual** (STF, Súmula 556) |
-| **Foro Competente (Estados/Municípios)** | **Justiça Estadual** comum | **Justiça Estadual** comum |
-| **Modo de Criação** | **Autorizada por lei específica** + Registro na Junta/Cartório | **Autorizada por lei específica** + Registro na Junta/Cartório |
-| **Exemplos Nacionais** | Caixa Econômica Federal (CEF), Correios (ECT), BNDES | Banco do Brasil (BB), Petrobras, Sabesp |
 
 ---
 
@@ -242,16 +245,6 @@ Em conformidade com a Constituição Federal e com o regime jurídico administra
 
 ---
 
-
-### 2.4 O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)
-
-A Lei Federal nº 13.303/2016 instituiu o estatuto jurídico unificado de governança e contratações para todas as empresas públicas e sociedades de economia mista da União, Estados, DF e Municípios:
-
-- **Governança Corporativa e Conformidade:** Exigência de comitês estatutários de auditoria e risco, regras de integridade e requisitos rigorosos de idoneidade técnica e experiência profissional para a indicação de membros do Conselho de Administração e Diretorias Executivas (vedação a ocupantes de cargos políticos e sindicais partidários).
-- **Regime Próprio de Licitações das Estatais:** As estatais possuem regime licitatório próprio disciplinado pelos arts. 28 a 84 da Lei 13.303/2016, com modalidades licitatórias simplificadas e procedimentos de negociação direta, não se sujeitando como regra geral à Lei nº 14.133/2021.
-
-
-
 ### Teste 015
 **(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 A Lei nº 13.303/2016 (Estatuto Jurídico das Empresas Públicas e Sociedades de Economia Mista) estabeleceu regras rigorosas de governança corporativa, compliance e transparência para as estatais. À luz dessa legislação e do regramento constitucional sobre estatais, assinale a afirmativa correta.
@@ -277,17 +270,6 @@ A Lei nº 13.303/2016 (Estatuto Jurídico das Empresas Públicas e Sociedades de
 
 ---
 
-### 2.5 Controle Finalístico, Tutela e Supervisão Ministerial
-
-Entre a Administração Direta e as entidades da Administração Indireta **NÃO existe subordinação hierárquica**. O controle exercido pelo ente instituidor denomina-se **controle finalístico, supervisão ministerial ou tutela administrativa**:
-
-- É um controle de conformidade com os fins para os quais a entidade foi criada (*princípio da especialidade*).
-- Não autoriza intervenções abusivas no mérito ou na gestão interna autônoma, limitando-se aos atos expressamente autorizados em lei.
-
----
-
-
-
 ### Teste 016
 **(FCC - Auditor de Controle Externo)**
 O controle finalístico, tutela administrativa ou supervisão ministerial exercido pela Administração Direta sobre as pessoas jurídicas integrantes da Administração Indireta caracteriza-se por:
@@ -311,10 +293,7 @@ O controle finalístico, tutela administrativa ou supervisão ministerial exerci
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. O Terceiro Setor e Entidades Paraestatais
 
@@ -325,7 +304,17 @@ O Terceiro Setor compreende entidades privadas sem fins lucrativos que colaboram
 - Pessoas jurídicas de direito privado criadas por autorização legislativa para prestar serviços de interesse social e capacitação profissional a categorias de empregados (SESI, SENAI, SESC, SENAC, SEST, SENAT, SEBRAE).
 - Não integram a Administração Pública; financiam-se mediante contribuições parafiscais arrecadadas compulsoriamente pelo Estado. Submetem-se ao controle externo exercido pelo Tribunal de Contas quanto aos recursos parafiscais, mas possuem regulamentos próprios de licitação e processo seletivo simplificado para pessoal.
 
+### 3.2 Organizações Sociais (OS) e Contratos de Gestão
 
+- Pessoas jurídicas de direito privado sem fins lucrativos que recebem a qualificação jurídica de OS pelo Poder Executivo (Lei nº 9.637/1998 e legislações estaduais congêneres).
+- Atuam na área de saúde, educação, cultura e pesquisa mediante a celebração de **Contrato de Gestão**. Podem receber fomento financeiro direto, dotações orçamentárias e cessão especial de servidores e bens públicos.
+
+### 3.3 OSCIPs e Termos de Parceria
+
+- Organizações da Sociedade Civil de Interesse Público regidas pela Lei nº 9.790/1999.
+- O vínculo de cooperação instrumentaliza-se formalmente por meio de **Termo de Parceria**.
+
+---
 
 ### Teste 017
 **(FGV - Analista de Controle Externo / Auditoria)**
@@ -354,21 +343,6 @@ A respeito da natureza jurídica e do controle público sobre as entidades do Si
 
 ---
 
-### 3.2 Organizações Sociais (OS) e Contratos de Gestão
-
-- Pessoas jurídicas de direito privado sem fins lucrativos que recebem a qualificação jurídica de OS pelo Poder Executivo (Lei nº 9.637/1998 e legislações estaduais congêneres).
-- Atuam na área de saúde, educação, cultura e pesquisa mediante a celebração de **Contrato de Gestão**. Podem receber fomento financeiro direto, dotações orçamentárias e cessão especial de servidores e bens públicos.
-
-### 3.3 OSCIPs e Termos de Parceria
-
-- Organizações da Sociedade Civil de Interesse Público regidas pela Lei nº 9.790/1999.
-- O vínculo de cooperação instrumentaliza-se formalmente por meio de **Termo de Parceria**.
-
-
-
----
-
-
 ## 4. Poderes Administrativos e Prerrogativas Públicas
 
 Os poderes administrativos são prerrogativas instrumentais outorgadas aos agentes do Estado com a finalidade de viabilizar a satisfação do interesse público. Não constituem privilégios pessoais, mas verdadeiros **poderes-deveres** (o dever de agir é indeclinável).
@@ -391,6 +365,48 @@ O poder hierárquico distribui e escalona funções entre órgãos e agentes sub
 
 > 🚨 **ALERTA CRÍTICO DE PROVA FCC:**  
 > A decisão de recursos administrativos é **terminantemente indelegável**! Se o titular de uma pasta delegar a um subordinado o julgamento de um recurso contra sanção proferida pelo órgão, a delegação é nula de pleno direito, pois violaria o duplo grau de julgamento administrativo.
+
+### 4.3 Poder Disciplinar e Sanções Funcionais
+
+É a prerrogativa interna da Administração de apurar infrações e aplicar penalidades funcionais a agentes públicos submetidos à hierarquia estatal ou a **particulares com vínculo jurídico especial com o Estado** (ex.: empresas contratadas que cometem faltas em licitações e contratos).
+
+- Não se confunde com o poder de polícia (que pune particulares em geral, desprovidos de vínculo jurídico especial prévio).
+
+### 4.4 Poder Regulamentar / Normativo e os Decretos Autônomos
+
+Prerrogativa outorgada aos Chefes do Poder Executivo para expedir atos gerais e abstratos:
+
+- **Decretos de Execução / Regulamentares (CF, art. 84, IV):** Editados para a fiel execução de leis já existentes. Não podem inovar originariamente na ordem jurídica nem criar direitos ou obrigações primárias não contempladas na lei.
+- **Decretos Autônomos (CF, art. 84, VI):** Espécie normativa primária excepcional, autorizada diretamente pelo texto constitucional apenas em duas hipóteses taxativas:
+    - *Alínea "a":* **Organização e funcionamento da administração pública**, desde que **não implique aumento de despesa** nem **criação ou extinção de órgãos públicos**;
+    - *Alínea "b":* **Extinção de funções ou cargos públicos, quando vagos**.
+
+> 💡 **Pegadinha Clássica FCC:**  
+> Decreto autônomo **NUNCA pode criar ou extinguir órgãos públicos**, e **NUNCA pode extinguir cargos públicos se estiverem ocupados**! A criação e extinção de órgãos públicos exige expressamente **lei formal em sentido estrito** (CF, art. 48, XI e art. 61, § 1º, II, "e").
+
+### 4.5 Poder de Polícia, Ciclo de Polícia e Delegação (Tema 532/STF)
+
+O art. 78 do Código Tributário Nacional (CTN) conceitua o **poder de polícia** como a atividade da administração pública que, regulando a prática de ato ou a abstenção de fato em razão de interesse público, limita ou disciplina direito, interesse ou liberdade individual.
+
+- **Atributos do Poder de Polícia:** Discricionariedade, Autoexecutoriedade e Coercibilidade.
+- **O Ciclo de Polícia (Quatro Fases):**
+    1. *Ordem de Polícia:* A norma jurídica legal que institui a restrição ou comando abstrato.
+    2. *Consentimento de Polícia:* Ato pelo qual o Estado autoriza ou licencia o exercício da atividade privada condicionada (alvarás, licenças).
+    3. *Fiscalização de Polícia:* Vistorias, inspeções, autuações e blitz.
+    4. *Sanção de Polícia:* Aplicação punitiva da penalidade administrativa (multa, apreensão de mercadoria, interdição de estabelecimento).
+
+```mermaid
+flowchart LR
+    O["1. Ordem de Polícia<br/>(Indelegável - Lei)"] --> C["2. Consentimento<br/>(Delegável a Estatais)"]
+    C --> F["3. Fiscalização<br/>(Delegável a Estatais)"]
+    F --> S["4. Sanção<br/>(Delegável a Estatais - Tema 532)"]
+```
+
+#### O Marco Histórico do Tema 532 da Repercussão Geral do STF:
+Superando divergências anteriores, o STF pacificou a tese com eficácia vinculante:
+> *"É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial."*
+
+- É constitucional delegar a estatais as fases de **consentimento, fiscalização e sanção**. Apenas a primeira fase (**legislar / ordem de polícia**) permanece indelegável, privativa do Estado.
 
 ---
 
@@ -421,15 +437,6 @@ De acordo com a teoria geral do poder hierárquico e os limites da delegação f
 
 ---
 
-
-### 4.3 Poder Disciplinar e Sanções Funcionais
-
-É a prerrogativa interna da Administração de apurar infrações e aplicar penalidades funcionais a agentes públicos submetidos à hierarquia estatal ou a **particulares com vínculo jurídico especial com o Estado** (ex.: empresas contratadas que cometem faltas em licitações e contratos).
-
-- Não se confunde com o poder de polícia (que pune particulares em geral, desprovidos de vínculo jurídico especial prévio).
-
-
-
 ### Teste 019
 **(FCC - Técnico de Controle Externo)**
 Sobre o poder disciplinar e a sua articulação com o poder hierárquico na Administração Pública, considere a seguinte hipótese: servidor público estável cometeu falta funcional grave devidamente apurada em processo administrativo disciplinar (PAD) com observância do contraditório e da ampla defesa, cuja tipificação legal comina com exclusividade a penalidade de demissão.
@@ -454,20 +461,6 @@ Diante da constatação inequívoca da infração legal grave, a autoridade julg
 > - **E)** Incorreta. Vigora a independência das instâncias administrativa e penal, de modo que a Administração Pública pode punir disciplinarmente o servidor antes mesmo de qualquer desfecho do processo criminal, ressalvada a hipótese de absolvição penal categórica fundada em negativa de autoria ou inexistência material do fato.
 >
 > **Gabarito: B**
-
----
-
-### 4.4 Poder Regulamentar / Normativo e os Decretos Autônomos
-
-Prerrogativa outorgada aos Chefes do Poder Executivo para expedir atos gerais e abstratos:
-
-- **Decretos de Execução / Regulamentares (CF, art. 84, IV):** Editados para a fiel execução de leis já existentes. Não podem inovar originariamente na ordem jurídica nem criar direitos ou obrigações primárias não contempladas na lei.
-- **Decretos Autônomos (CF, art. 84, VI):** Espécie normativa primária excepcional, autorizada diretamente pelo texto constitucional apenas em duas hipóteses taxativas:
-    - *Alínea "a":* **Organização e funcionamento da administração pública**, desde que **não implique aumento de despesa** nem **criação ou extinção de órgãos públicos**;
-    - *Alínea "b":* **Extinção de funções ou cargos públicos, quando vagos**.
-
-> 💡 **Pegadinha Clássica FCC:**  
-> Decreto autônomo **NUNCA pode criar ou extinguir órgãos públicos**, e **NUNCA pode extinguir cargos públicos se estiverem ocupados**! A criação e extinção de órgãos públicos exige expressamente **lei formal em sentido estrito** (CF, art. 48, XI e art. 61, § 1º, II, "e").
 
 ---
 
@@ -498,33 +491,6 @@ Analisando a conformidade constitucional do ato com base nos limites do **decret
 
 ---
 
-
-### 4.5 Poder de Polícia, Ciclo de Polícia e Delegação (Tema 532/STF)
-
-O art. 78 do Código Tributário Nacional (CTN) conceitua o **poder de polícia** como a atividade da administração pública que, regulando a prática de ato ou a abstenção de fato em razão de interesse público, limita ou disciplina direito, interesse ou liberdade individual.
-
-- **Atributos do Poder de Polícia:** Discricionariedade, Autoexecutoriedade e Coercibilidade.
-- **O Ciclo de Polícia (Quatro Fases):**
-    1. *Ordem de Polícia:* A norma jurídica legal que institui a restrição ou comando abstrato.
-    2. *Consentimento de Polícia:* Ato pelo qual o Estado autoriza ou licencia o exercício da atividade privada condicionada (alvarás, licenças).
-    3. *Fiscalização de Polícia:* Vistorias, inspeções, autuações e blitz.
-    4. *Sanção de Polícia:* Aplicação punitiva da penalidade administrativa (multa, apreensão de mercadoria, interdição de estabelecimento).
-
-```mermaid
-flowchart LR
-    O["1. Ordem de Polícia<br/>(Indelegável - Lei)"] --> C["2. Consentimento<br/>(Delegável a Estatais)"]
-    C --> F["3. Fiscalização<br/>(Delegável a Estatais)"]
-    F --> S["4. Sanção<br/>(Delegável a Estatais - Tema 532)"]
-```
-
-#### O Marco Histórico do Tema 532 da Repercussão Geral do STF:
-Superando divergências anteriores, o STF pacificou a tese com eficácia vinculante:
-> *"É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial."*
-
-- É constitucional delegar a estatais as fases de **consentimento, fiscalização e sanção**. Apenas a primeira fase (**legislar / ordem de polícia**) permanece indelegável, privativa do Estado.
-
----
-
 ### Teste 021
 **(FCC - Procurador do Estado / Adaptada)**
 Determinada empresa pública estadual, constituída sob regime não concorrencial e de capital 100% pertencente ao Estado de Goiás, presta com exclusividade o serviço público de transporte metropolitano e gestão do trânsito viário intermunicipal. Lei estadual delegou à referida empresa atribuições para fiscalizar o tráfego e lavrar autos de infração com imposição de multas aos motoristas infratores.
@@ -550,10 +516,7 @@ Determinada empresa pública estadual, constituída sob regime não concorrencia
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Uso e Abuso de Poder e a Lei nº 13.869/2019
 
@@ -585,6 +548,12 @@ A **Lei nº 13.869/2019** (Lei de Abuso de Autoridade) disciplina os crimes come
     - *Não se admite modalidade culposa!*
 - **Proibição do Crime de Hermenêutica (Art. 1º, § 2º):** A divergência na interpretação de lei ou na avaliação de fatos e provas **NÃO configura abuso de autoridade**. O magistrado, membro do Ministério Público ou auditor do Tribunal de Contas não comete crime simplesmente por aplicar uma tese jurídica contrária à pretensão do réu.
 
+### 5.3 Sujeitos Ativos no Âmbito dos Tribunais de Contas
+
+O art. 2º da Lei nº 13.869/2019 estabelece que é sujeito ativo de crime de abuso de autoridade qualquer agente público, servidor ou não, da administração direta e indireta de todos os Poderes, incluindo expressamente os **membros e servidores dos Tribunais e Conselhos de Contas**.
+
+- **Efeitos da Condenação (Art. 4º):** A perda do cargo, mandato ou função pública e a inabilitação para o exercício de cargo público por período de 1 a 5 anos **NÃO são efeitos automáticos** da condenação penal. Exigem declaração motivada na sentença e estão condicionados à **reincidência específica** em crime de abuso de autoridade.
+
 ---
 
 ### Teste 022
@@ -613,18 +582,6 @@ Analisando a tipologia dos atos administrativos e as regras da Lei nº 13.869/20
 > **Gabarito: B**
 
 ---
-
-
-### 5.3 Sujeitos Ativos no Âmbito dos Tribunais de Contas
-
-O art. 2º da Lei nº 13.869/2019 estabelece que é sujeito ativo de crime de abuso de autoridade qualquer agente público, servidor ou não, da administração direta e indireta de todos os Poderes, incluindo expressamente os **membros e servidores dos Tribunais e Conselhos de Contas**.
-
-- **Efeitos da Condenação (Art. 4º):** A perda do cargo, mandato ou função pública e a inabilitação para o exercício de cargo público por período de 1 a 5 anos **NÃO são efeitos automáticos** da condenação penal. Exigem declaração motivada na sentença e estão condicionados à **reincidência específica** em crime de abuso de autoridade.
-
-
-
----
-
 
 ## 6. Fontes Recomendadas na Internet
 

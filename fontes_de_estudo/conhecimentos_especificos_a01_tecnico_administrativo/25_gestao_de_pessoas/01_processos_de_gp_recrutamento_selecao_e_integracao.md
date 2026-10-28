@@ -40,38 +40,31 @@
     - As três fases da socialização organizacional (Socialização Antecipatória, Encontro/Confronto e Metamorfose/Adaptação).
     - Práticas de integração: manuais do servidor, programas de boas-vindas, tutoria/mentoria institucional e cursos de formação da Escola de Contas.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [Evolução Histórica dos Paradigmas de Gestão de Pessoas](#1-evolucao-historica-dos-paradigmas-de-gestao-de-pessoas)
-    2. [Os Seis Processos da Gestão de Pessoas (Chiavenato)](#2-os-seis-processos-da-gestao-de-pessoas-chiavenato)
-    3. [Teste 430](#Teste-430)
-    4. [Teste 431](#Teste-431)
-    5. [Rotinas Administrativas do Departamento de Pessoal no Setor Público](#3-rotinas-administrativas-do-departamento-de-pessoal-no-setor-publico)
-    6. [O Processo de Agregar Pessoas: Recrutamento e Seleção](#4-o-processo-de-agregar-pessoas-recrutamento-e-selecao)
-    7. [Teste 432](#Teste-432)
-    8. [Teste 433](#Teste-433)
-    9. [Teste 434](#Teste-434)
-    10. [O Concurso Público como Instrumento Republicano (CF/88, art. 37)](#5-o-concurso-publico-como-instrumento-republicano-cf88-art-37)
-    11. [Teste 435](#Teste-435)
-    12. [Teste 436](#Teste-436)
-    13. [Processo de Socialização e Integração Organizacional (*Onboarding*)](#processo-de-socializacao-e-integracao-organizacional-onboarding)
-    14. [Teste 437](#Teste-437)
-    15. [Teste 438](#Teste-438)
-    16. [Teste 439](#Teste-439)
-    17. [Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
+1. [Evolução Histórica dos Paradigmas de Gestão de Pessoas](#1-evolucao-historica-dos-paradigmas-de-gestao-de-pessoas)
+2. [Os Seis Processos da Gestão de Pessoas (Chiavenato)](#2-os-seis-processos-da-gestao-de-pessoas-chiavenato)
+    1. [Teste 430](#Teste-430)
+    2. [Teste 431](#Teste-431)
+3. [Rotinas Administrativas do Departamento de Pessoal no Setor Público](#3-rotinas-administrativas-do-departamento-de-pessoal-no-setor-publico)
+4. [O Processo de Agregar Pessoas: Recrutamento e Seleção](#4-o-processo-de-agregar-pessoas-recrutamento-e-selecao)
+    1. [Teste 432](#Teste-432)
+    2. [Teste 433](#Teste-433)
+    3. [Teste 434](#Teste-434)
+5. [O Concurso Público como Instrumento Republicano (CF/88, art. 37)](#5-o-concurso-publico-como-instrumento-republicano-cf88-art-37)
+    1. [Teste 435](#Teste-435)
+    2. [Teste 436](#Teste-436)
+6. [Processo de Socialização e Integração Organizacional (*Onboarding*)](#6-processo-de-socializacao-e-integracao-organizacional-onboarding)
+    1. [Teste 437](#Teste-437)
+    2. [Teste 438](#Teste-438)
+    3. [Teste 439](#Teste-439)
+7. [Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. Evolução Histórica dos Paradigmas de Gestão de Pessoas
+## 1. Evolução Histórica dos Paradigmas de Gestão de Pessoas
 
 A administração do trabalho humano passou por profundas transformações ao longo dos séculos XX e XXI, transitando de uma visão puramente mecanicista e punitiva para uma abordagem estratégica voltada ao desenvolvimento de competências.
 
@@ -106,7 +99,9 @@ flowchart LR
 
 ---
 
-### 2. Os Seis Processos da Gestão de Pessoas (Chiavenato)
+---
+
+## 2. Os Seis Processos da Gestão de Pessoas (Chiavenato)
 
 Idalberto Chiavenato estrutura a gestão de pessoas como um sistema integrado composto por seis grandes macroprocessos dinâmicos e interdependentes:
 
@@ -165,8 +160,6 @@ No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto
 
 ---
 
-
-
 ### Teste 431
 **(FCC - Adaptada / Analista de Gestão Pública)**
 Idalberto Chiavenato estrutura a moderna Gestão de Pessoas em seis processos básicos interdependentes: Agregar, Aplicar, Recompensar, Desenvolver, Manter e Monitorar pessoas.
@@ -194,8 +187,7 @@ O processo de **Aplicar Pessoas** compreende precipuamente as atividades de:
 
 ---
 
-
-### 3. Rotinas Administrativas do Departamento de Pessoal no Setor Público
+## 3. Rotinas Administrativas do Departamento de Pessoal no Setor Público
 
 Mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indispensáveis para garantir a estrita legalidade e conformidade dos atos de gestão pública:
 
@@ -227,7 +219,9 @@ Mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indis
 
 ---
 
-### 4. O Processo de Agregar Pessoas: Recrutamento e Seleção
+---
+
+## 4. O Processo de Agregar Pessoas: Recrutamento e Seleção
 
 O processo de agregar pessoas inicia-se com o diagnóstico de necessidades de pessoal e desdobra-se em duas etapas interdependentes: o recrutamento (atração) e a seleção (escolha).
 
@@ -353,8 +347,6 @@ Em uma entrevista de seleção baseada na gestão por competências, o examinado
 
 ---
 
-
-
 ### Teste 434
 **(FCC - Adaptada / Auditor de Controle Externo)**
 No tocante às rotinas de recrutamento de pessoal, o **Recrutamento Interno** contrapõe-se ao **Recrutamento Externo** ao privilegiar a movimentação de servidores da própria organização.
@@ -381,8 +373,7 @@ Constitui uma típica **vantagem** do Recrutamento Interno:
 
 ---
 
-
-### 5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)
+## 5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)
 
 No Estado Democrático de Direito, o concurso público é a ferramenta primordial para democratizar o acesso aos cargos públicos e garantir um corpo funcional competente e impessoal.
 
@@ -437,8 +428,6 @@ De acordo com os preceitos expressos no art. 37 da Constituição Federal de 198
 
 ---
 
-
-
 ### Teste 436
 **(FCC - Adaptada / Analista de Planejamento e Gestão)**
 No processo de socialização organizacional (*onboarding*) dos novos servidores públicos ingressantes, John Van Maanen e Edgar Schein categorizam as táticas institucionais de socialização empregadas pela organização.
@@ -463,8 +452,7 @@ A tática de socialização caracterizada por integrar os novatos em grupos que 
 
 ---
 
-
-### 6. Processo de Socialização e Integração Organizacional (*Onboarding*)
+## 6. Processo de Socialização e Integração Organizacional (*Onboarding*)
 
 A socialização organizacional é o processo formativo e cultural por meio do qual o novo servidor aprende os valores essenciais, regras informais, jargões, posturas e competências exigidas pelo órgão.
 
@@ -579,8 +567,7 @@ Diz-se que uma técnica ou teste de seleção possui alta **Validade** quando:
 
 ---
 
-
-### 7. Fontes Oficiais e Referências Bibliográficas
+## 7. Fontes Oficiais e Referências Bibliográficas
 
 * [Constituição Federal de 1988 - Art. 37, II e IX (Concurso Público e Contratação)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Requisito obrigatório de prévia aprovação em concurso público de provas ou de provas e títulos.
 * [Lei Estadual nº 20.756/2020 - Título II (Do Provimento, Concurso e Posse)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Regras estaduais sobre edital de concurso, prazos de validade, nomeação, posse e exercício dos servidores goianos.

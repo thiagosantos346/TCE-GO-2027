@@ -26,53 +26,44 @@
     - Gerenciamento de Nível de Serviço (SLA, OLA, UC)
     - Gerenciamento de Continuidade de Serviços de TI (ITSCM: RPO e RTO)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada & Conceitos Essenciais](#teoria-aprofundada-conceitos-essenciais)
-2. [O Modelo Central da ITIL v4](#1-o-modelo-central-da-itil-v4)
-    1. [Conceitos de Serviço, Co-criação de Valor, Utilidade e Garantia](#11-conceitos-de-servico-co-criacao-de-valor-utilidade-e-garantia)
-    2. [Teste 475](#Teste-475)
-    3. [As Quatro Dimensões do Gerenciamento de Serviço](#12-as-quatro-dimensoes-do-gerenciamento-de-servico)
-    4. [Teste 476](#Teste-476)
-    5. [O Sistema de Valor de Serviço (SVS)](#13-o-sistema-de-valor-de-servico-svs)
-    6. [Os 7 Princípios Orientadores (Guiding Principles)](#14-os-7-principios-orientadores-guiding-principles)
-    7. [Teste 477](#Teste-477)
-    8. [A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)](#15-a-cadeia-de-valor-de-servico-svc-6-atividades-operacionais)
-    9. [Teste 478](#Teste-478)
-3. [Práticas Essenciais de Gerenciamento de Serviços da ITIL v4](#2-praticas-essenciais-de-gerenciamento-de-servicos-da-itil-v4)
-    1. [Central de Serviços (Service Desk)](#21-central-de-servicos-service-desk)
-    2. [Teste 479](#Teste-479)
-    3. [Gerenciamento de Incidentes vs. Gerenciamento de Problemas](#22-gerenciamento-de-incidentes-vs-gerenciamento-de-problemas)
-    4. [Teste 480](#Teste-480)
-    5. [Habilitação de Mudanças (Change Enablement)](#23-habilitacao-de-mudancas-change-enablement)
-    6. [Teste 481](#Teste-481)
-    7. [Gerenciamento de Configuração de Serviço (CMDB) vs. Ativos de TI (ITAM)](#24-gerenciamento-de-configuracao-de-servico-cmdb-vs-ativos-de-ti-itam)
-    8. [Teste 482](#Teste-482)
-    9. [Gerenciamento de Nível de Serviço (SLA, OLA e UC)](#25-gerenciamento-de-nivel-de-servico-sla-ola-e-uc)
-    10. [Teste 483](#Teste-483)
-    11. [Gerenciamento de Continuidade de Serviços de TI (ITSCM: RTO e RPO)](#26-gerenciamento-de-continuidade-de-servicos-de-ti-itscm-rto-e-rpo)
-    12. [Teste 484](#Teste-484)
-4. [Fontes Recomendadas na Internet](#3-fontes-recomendadas-na-internet)
+1. [O Modelo Central da ITIL v4](#1-o-modelo-central-da-itil-v4)
+1. [Conceitos de Serviço, Co-criação de Valor, Utilidade e Garantia](#1-1-conceitos-de-servico-co-criacao-de-valor-utilidade-e-garantia)
+    1. [Teste 475](#Teste-475)
+1. [As Quatro Dimensões do Gerenciamento de Serviço](#1-2-as-quatro-dimensoes-do-gerenciamento-de-servico)
+    1. [Teste 476](#Teste-476)
+1. [O Sistema de Valor de Serviço (SVS)](#1-3-o-sistema-de-valor-de-servico-svs)
+1. [Os 7 Princípios Orientadores (Guiding Principles)](#1-4-os-7-principios-orientadores-guiding-principles)
+    1. [Teste 477](#Teste-477)
+1. [A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)](#1-5-a-cadeia-de-valor-de-servico-svc-6-atividades-operacionais)
+    1. [Teste 478](#Teste-478)
+2. [Práticas Essenciais de Gerenciamento de Serviços da ITIL v4](#2-praticas-essenciais-de-gerenciamento-de-servicos-da-itil-v4)
+2. [Central de Serviços (Service Desk)](#2-1-central-de-servicos-service-desk)
+    1. [Teste 479](#Teste-479)
+2. [Gerenciamento de Incidentes vs. Gerenciamento de Problemas](#2-2-gerenciamento-de-incidentes-vs-gerenciamento-de-problemas)
+    1. [Teste 480](#Teste-480)
+2. [Habilitação de Mudanças (Change Enablement)](#2-3-habilitacao-de-mudancas-change-enablement)
+    1. [Teste 481](#Teste-481)
+2. [Gerenciamento de Configuração de Serviço (CMDB) vs. Ativos de TI (ITAM)](#2-4-gerenciamento-de-configuracao-de-servico-cmdb-vs-ativos-de-ti-itam)
+    1. [Teste 482](#Teste-482)
+2. [Gerenciamento de Nível de Serviço (SLA, OLA e UC)](#2-5-gerenciamento-de-nivel-de-servico-sla-ola-e-uc)
+    1. [Teste 483](#Teste-483)
+2. [Gerenciamento de Continuidade de Serviços de TI (ITSCM: RTO e RPO)](#2-6-gerenciamento-de-continuidade-de-servicos-de-ti-itscm-rto-e-rpo)
+    1. [Teste 484](#Teste-484)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
-
-## 📖 Teoria Aprofundada & Conceitos Essenciais
-
-
----
-
 
 ## 1. O Modelo Central da ITIL v4
 
 A **ITIL v4** (*Information Technology Infrastructure Library*) representa uma evolução substancial da biblioteca de boas práticas de Gerenciamento de Serviços de TI (ITSM). Em substituição ao modelo puramente linear baseado nos 5 estágios do ciclo de vida da ITIL v3 (Estratégia, Desenho, Transição, Operação e Melhoria Contínua), a ITIL v4 consolida uma abordagem ágil, holística, flexível e orientada à **co-criação mútua de valor**.
 
-### 1.1 Conceitos de Serviço, Co-criação de Valor, Utilidade e Garantia
+---
+
+## 1.1 Conceitos de Serviço, Co-criação de Valor, Utilidade e Garantia
 
 #### Definições Fundamentais da ITIL v4
 
@@ -118,10 +109,9 @@ flowchart TD
 > 
 > **Gabarito: D**
 
-
 ---
 
-### 1.2 As Quatro Dimensões do Gerenciamento de Serviço
+## 1.2 As Quatro Dimensões do Gerenciamento de Serviço
 
 Para viabilizar uma abordagem holística, equilibrada e evitar o isolamento de equipes em silos técnicos, a ITIL v4 exige que qualquer produto ou serviço seja gerenciado considerando **Quatro Dimensões**:
 
@@ -176,9 +166,7 @@ Essas quatro dimensões sofrem pressão contínua de fatores externos incontrol�
 
 ---
 
-
-
-### 1.3 O Sistema de Valor de Serviço (SVS)
+## 1.3 O Sistema de Valor de Serviço (SVS)
 
 O **SVS** (*Service Value System*) descreve como todos os componentes e atividades da organização atuam harmonicamente para transformar oportunidades e demandas em valor real para a sociedade e clientes.
 
@@ -215,7 +203,9 @@ flowchart LR
 
 ---
 
-### 1.4 Os 7 Princípios Orientadores (Guiding Principles)
+---
+
+## 1.4 Os 7 Princípios Orientadores (Guiding Principles)
 
 Os princípios orientadores da ITIL v4 são recomendações perenes, aplicáveis em qualquer organização pública ou privada, guiando desde a rotina de sustentação de TI até programas estratégicos de transformação digital:
 
@@ -259,9 +249,7 @@ Os princípios orientadores da ITIL v4 são recomendações perenes, aplicáveis
 
 ---
 
-
-
-### 1.5 A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)
+## 1.5 A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)
 
 A Cadeia de Valor de Serviço (*Service Value Chain*) é a engrenagem operacional central do SVS. Trata-se de uma rede flexível e não linear de **seis atividades** que podem ser combinadas para criar múltiplos fluxos de valor (*Value Streams*):
 
@@ -320,11 +308,7 @@ flowchart TD
 > 
 > **Gabarito: B**
 
-
-
-
 ---
-
 
 ## 2. Práticas Essenciais de Gerenciamento de Serviços da ITIL v4
 
@@ -338,7 +322,9 @@ Abaixo, detalham-se as práticas com maior recorrência nas bancas de controle e
 
 ---
 
-### 2.1 Central de Serviços (Service Desk)
+---
+
+## 2.1 Central de Serviços (Service Desk)
 
 A **Central de Serviços** atua como o **Ponto Único de Contato (SPOC - *Single Point of Contact*)** entre o provedor de serviços de TI e os usuários corporativos.
 
@@ -375,10 +361,9 @@ A **Central de Serviços** atua como o **Ponto Único de Contato (SPOC - *Single
 > 
 > **Gabarito: A**
 
-
 ---
 
-### 2.2 Gerenciamento de Incidentes vs. Gerenciamento de Problemas
+## 2.2 Gerenciamento de Incidentes vs. Gerenciamento de Problemas
 
 Esta é a distinção mais testada em concursos de Tribunais de Contas:
 
@@ -440,9 +425,7 @@ Considerando as práticas preconizadas pela ITIL v4, as condutas descritas nos i
 
 ---
 
-
-
-### 2.3 Habilitação de Mudanças (Change Enablement)
+## 2.3 Habilitação de Mudanças (Change Enablement)
 
 A prática de **Habilitação de Mudanças** (denominada *Change Management* na v3) visa maximizar o número de mudanças bem-sucedidas em serviços e produtos, garantindo a adequada avaliação de riscos, a autorização formal pelas autoridades competentes e a execução coordenada.
 
@@ -511,9 +494,7 @@ As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:
 
 ---
 
-
-
-### 2.4 Gerenciamento de Configuração de Serviço (CMDB) vs. Ativos de TI (ITAM)
+## 2.4 Gerenciamento de Configuração de Serviço (CMDB) vs. Ativos de TI (ITAM)
 
 | Dimensão de Comparação | Gerenciamento de Configuração de Serviço | Gerenciamento de Ativos de TI (ITAM) |
 | :--- | :--- | :--- |
@@ -549,9 +530,7 @@ As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:
 
 ---
 
-
-
-### 2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)
+## 2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)
 
 O objetivo do Gerenciamento de Nível de Serviço (*Service Level Management - SLM*) é definir metas claras baseadas em negócios para os níveis de serviço e garantir que a entrega de serviços seja avaliada, monitorada e gerenciada em relação a essas metas.
 
@@ -586,10 +565,9 @@ A prática articula três tipos de instrumentos fundamentais:
 > 
 > **Gabarito: E**
 
-
 ---
 
-### 2.6 Gerenciamento de Continuidade de Serviços de TI (ITSCM: RTO e RPO)
+## 2.6 Gerenciamento de Continuidade de Serviços de TI (ITSCM: RTO e RPO)
 
 Responsável por garantir que a disponibilidade e o desempenho dos serviços de TI sejam mantidos em níveis suficientes em caso de desastre operacional grave, alinhando-se ao Plano de Continuidade de Negócios (*Business Continuity Plan - BCP*) do Tribunal:
 
@@ -621,11 +599,7 @@ Responsável por garantir que a disponibilidade e o desempenho dos serviços de 
 > 
 > **Gabarito: C**
 
-
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

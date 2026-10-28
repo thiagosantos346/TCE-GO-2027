@@ -43,37 +43,30 @@
     - As Cinco Disciplinas de Peter Senge (*A Quinta Disciplina*): Domínio Pessoal, Modelos Mentais, Visão Compartilhada, Aprendizagem em Equipe e Pensamento Sistêmico;
     - Educação Corporativa no Setor Público: Escolas de Governo e a atuação da Escola Superior de Controle do TCE-GO (Instituto Leopoldo de Bulhões - ILB).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [Treinamento vs. Desenvolvimento de Pessoas](#1-treinamento-vs-desenvolvimento-de-pessoas)
-    2. [Teste 440](#Teste-440)
-    3. [Teste 441](#Teste-441)
-    4. [O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick](#2-o-ciclo-de-treinamento-em-quatro-etapas-e-a-avaliacao-de-kirkpatrick)
-    5. [Teste 442](#Teste-442)
-    6. [Teste 443](#Teste-443)
-    7. [Gestão do Conhecimento Organizacional e o Modelo SECI](#3-gestao-do-conhecimento-organizacional-e-o-modelo-seci)
-    8. [Teste 444](#Teste-444)
-    9. [Teste 445](#Teste-445)
-    10. [Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge](#4-aprendizagem-organizacional-e-as-cinco-disciplinas-de-peter-senge)
-    11. [Teste 446](#Teste-446)
-    12. [Teste 447](#Teste-447)
-    13. [Educação Corporativa e Escolas de Governo (ILB/TCE-GO)](#5-educacao-corporativa-e-escolas-de-governo-ilbtce-go)
-    14. [Teste 448](#Teste-448)
-    15. [Teste 449](#Teste-449)
-    16. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+1. [Treinamento vs. Desenvolvimento de Pessoas](#1-treinamento-vs-desenvolvimento-de-pessoas)
+    1. [Teste 440](#Teste-440)
+    2. [Teste 441](#Teste-441)
+2. [O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick](#2-o-ciclo-de-treinamento-em-quatro-etapas-e-a-avaliacao-de-kirkpatrick)
+    1. [Teste 442](#Teste-442)
+    2. [Teste 443](#Teste-443)
+3. [Gestão do Conhecimento Organizacional e o Modelo SECI](#3-gestao-do-conhecimento-organizacional-e-o-modelo-seci)
+    1. [Teste 444](#Teste-444)
+    2. [Teste 445](#Teste-445)
+4. [Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge](#4-aprendizagem-organizacional-e-as-cinco-disciplinas-de-peter-senge)
+    1. [Teste 446](#Teste-446)
+    2. [Teste 447](#Teste-447)
+5. [Educação Corporativa e Escolas de Governo (ILB/TCE-GO)](#5-educacao-corporativa-e-escolas-de-governo-ilbtce-go)
+    1. [Teste 448](#Teste-448)
+    2. [Teste 449](#Teste-449)
+6. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. Treinamento vs. Desenvolvimento de Pessoas
+## 1. Treinamento vs. Desenvolvimento de Pessoas
 
 Na moderna gestão de pessoas, capacitação não é evento esporádico, mas processo permanente de agregação de valor. A literatura estabelece uma divisão nítida entre Treinamento e Desenvolvimento:
 
@@ -125,8 +118,6 @@ No âmbito da administração de recursos humanos, as ações voltadas para Trei
 
 ---
 
-
-
 ### Teste 441
 **(FCC - Adaptada / Analista de Gestão Pública)**
 Na gestão de pessoas, **Treinamento** e **Desenvolvimento de Pessoas (T&D)** são processos distintos, embora complementares.
@@ -151,8 +142,7 @@ A distinção conceitual precisa entre Treinamento e Desenvolvimento reside em:
 
 ---
 
-
-### 2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick
+## 2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick
 
 Segundo Idalberto Chiavenato, o treinamento funciona como um ciclo contínuo composto por quatro fases lógicas e sequenciais:
 
@@ -233,8 +223,6 @@ Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licita�
 
 ---
 
-
-
 ### Teste 443
 **(FCC - Adaptada / Auditor de Controle Externo)**
 Donald Kirkpatrick concebeu o modelo mais utilizado internacionalmente para avaliação da eficácia de programas de capacitação, estruturado em quatro níveis sucessivos de impacto.
@@ -262,8 +250,7 @@ O **Nível 3 (Comportamento no Cargo / Aplicação)** do modelo de Kirkpatrick a
 
 ---
 
-
-### 3. Gestão do Conhecimento Organizacional e o Modelo SECI
+## 3. Gestão do Conhecimento Organizacional e o Modelo SECI
 
 A gestão do conhecimento é o conjunto integrado de processos que criam, organizam, disseminam e aplicam saberes para alavancar a eficiência organizacional.
 
@@ -351,8 +338,6 @@ O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práti
 
 ---
 
-
-
 ### Teste 445
 **(FCC - Adaptada / Analista de Tecnologia e Controle)**
 Ikujiro Nonaka e Hirotaka Takeuchi desenvolveram o consagrado modelo **SECI** para explicar a criação e a conversão do conhecimento organizacional através da interação entre o conhecimento tácito e o conhecimento explícito.
@@ -378,8 +363,7 @@ A modalidade de conversão do conhecimento que consiste em transformar o **conhe
 
 ---
 
-
-### 4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge
+## 4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge
 
 A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo é incorporado aos processos, valores, estruturas e cultura permanente da organização.
 
@@ -471,9 +455,7 @@ Em sua consagrada obra sobre organizações que aprendem (*Learning Organization
 
 ---
 
-
-
-### 5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)
+## 5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)
 
 No setor público moderno, a visão fragmentada de "cursos isolados" foi substituída pelo modelo de **Educação Corporativa**:
 
@@ -528,8 +510,7 @@ No modelo de aprendizagem organizacional de Chris Argyris e Donald Schön, a **A
 
 ---
 
-
-### 6. Fontes Oficiais e Referências Bibliográficas
+## 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas - PNDP)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Diretrizes, instrumentos e regras para ações de desenvolvimento e capacitação contínua de servidores.
 * [Lei Estadual nº 20.756/2020 - Do Aperfeiçoamento e Capacitação dos Servidores](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Disposições sobre afastamento para estudo, cursos de capacitação e incentivos de qualificação no Estado de Goiás.

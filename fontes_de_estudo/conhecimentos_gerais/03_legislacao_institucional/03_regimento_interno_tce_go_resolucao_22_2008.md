@@ -27,10 +27,7 @@
     - Denúncias e Representações: legitimidade popular, vedação absoluta ao anonimato, sigilo temporário da identidade do denunciante para proteção funcional e requisitos formais de admissibilidade;
     - Registro de Atos de Admissão de Pessoal e Concessão de Aposentadorias, Reformas e Pensões.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -42,30 +39,29 @@
     5. [Teste 143](#Teste-143)
 2. [Órgãos de Direção Superior e Órgãos Vinculados (Arts. 36 a 70)](#2-orgaos-de-direcao-superior-e-orgaos-vinculados-arts-36-a-70)
     1. [Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição](#21-presidencia-vice-presidencia-e-corregedoria-geral-eleicao-mandatos-e-vedacao-a-reeleicao)
-    2. [Teste 144](#Teste-144)
-    3. [Corregedoria-Geral e Fiscalização Correicional](#22-corregedoria-geral-e-fiscalizacao-correicional)
-    4. [Ouvidoria e Fomento ao Controle Social](#23-ouvidoria-e-fomento-ao-controle-social)
-    5. [Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual](#24-ministerio-publico-de-contas-mpc-go-intervencao-obrigatoria-e-nulidade-processual)
+    2. [Corregedoria-Geral e Fiscalização Correicional](#22-corregedoria-geral-e-fiscalizacao-correicional)
+    3. [Ouvidoria e Fomento ao Controle Social](#23-ouvidoria-e-fomento-ao-controle-social)
+    4. [Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual](#24-ministerio-publico-de-contas-mpc-go-intervencao-obrigatoria-e-nulidade-processual)
+    5. [Teste 144](#Teste-144)
     6. [Teste 145](#Teste-145)
 3. [Dinâmica Processual, Instrução e Sessões de Julgamento (Arts. 71 a 120)](#3-dinamica-processual-instrucao-e-sessoes-de-julgamento-arts-71-a-120)
     1. [Distribuição Eletrônica, Prevenção, Impedimentos e Suspeições](#31-distribuicao-eletronica-prevencao-impedimentos-e-suspeicoes)
     2. [Sessões Ordinárias, Extraordinárias e Plenário Virtual](#32-sessoes-ordinarias-extraordinarias-e-plenario-virtual)
-    3. [Teste 146](#Teste-146)
-    4. [Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)](#33-ordem-das-deliberacoes-pedido-de-vista-e-sustentacao-oral-15-minutos)
+    3. [Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)](#33-ordem-das-deliberacoes-pedido-de-vista-e-sustentacao-oral-15-minutos)
+    4. [Teste 146](#Teste-146)
     5. [Teste 147](#Teste-147)
     6. [Teste 148](#Teste-148)
 4. [Processos Especiais Disciplinados no RITCE-GO (Arts. 121 a 180)](#4-processos-especiais-disciplinados-no-ritce-go-arts-121-a-180)
     1. [Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo](#41-processo-de-consulta-legitimidade-requisitos-rigidos-e-efeito-normativo)
-    2. [Teste 149](#Teste-149)
-    3. [Processo de Denúncia: Legitimidade Ampla, Vedação ao Anonimato e Sigilo](#42-processo-de-denuncia-legitimidade-ampla-vedacao-ao-anonimato-e-sigilo)
-    4. [Teste 150](#Teste-150)
-    5. [Processo de Representação Institucional](#43-processo-de-representacao-institucional)
-    6. [Processo de Registro de Atos de Admissão de Pessoal e Concessões](#44-processo-de-registro-de-atos-de-admissao-de-pessoal-e-concessoes)
+    2. [Processo de Denúncia: Legitimidade Ampla, Vedação ao Anonimato e Sigilo](#42-processo-de-denuncia-legitimidade-ampla-vedacao-ao-anonimato-e-sigilo)
+    3. [Processo de Representação Institucional](#43-processo-de-representacao-institucional)
+    4. [Processo de Registro de Atos de Admissão de Pessoal e Concessões](#44-processo-de-registro-de-atos-de-admissao-de-pessoal-e-concessoes)
+    5. [Teste 149](#Teste-149)
+    6. [Teste 150](#Teste-150)
     7. [Teste 151](#Teste-151)
 5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Organização Institucional e Colegiados Deliberativos (Arts. 1º a 35)
 
@@ -99,8 +95,6 @@ O Tribunal Pleno é o órgão supremo de deliberação do Tribunal de Contas do 
     - Responder a **Consultas** formuladas por autoridades legitimadas sobre dúvidas na aplicação de dispositivos legais em tese;
     - Aplicar as sanções de **declaração de inidoneidade para licitar** (Art. 44 da LOTCE) e **inabilitação para cargo em comissão** (Art. 43 da LOTCE).
 
----
-
 ### 1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias
 O Tribunal divide-se operacionalmente em **duas Câmaras Deliberativas** (Primeira e Segunda Câmaras), destinadas a conferir celeridade à judicância do controle externo ordinário.
 
@@ -110,8 +104,6 @@ O Tribunal divide-se operacionalmente em **duas Câmaras Deliberativas** (Primei
     - Julgar as tomadas e prestações de contas ordinárias e tomadas de contas especiais de administradores e ordenadores de despesas dos órgãos da administração direta, autarquias, fundações e empresas estatais;
     - Apreciar a legalidade, para fins de registro, dos atos de admissão de pessoal e das concessões iniciais de aposentadorias, reformas e pensões civis e militares;
     - Deliberar sobre processos de auditorias e inspeções ordinárias do Plano Anual de Fiscalização.
-
----
 
 ### 1.3 Papel dos Conselheiros Substitutos (Auditores)
 Os Conselheiros Substitutos (Auditores) ingressam na carreira do TCE-GO exclusivamente mediante concurso público de provas e títulos:
@@ -144,6 +136,7 @@ A respeito da distribuição de competências entre os órgãos colegiados delib
 > 
 > **Gabarito: B**
 
+---
 
 ### Teste 143
 **(FCC – Inédita – Padrão TCE-GO)**  
@@ -168,10 +161,7 @@ De acordo com o Regimento Interno do Tribunal de Contas do Estado de Goiás (Res
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Órgãos de Direção Superior e Órgãos Vinculados (Arts. 36 a 70)
 
@@ -182,6 +172,24 @@ A direção superior do TCE-GO é composta pelo **Presidente**, pelo **Vice-Pres
 - **Vedação Peremptória de Reeleição:** É expressamente **proibida a reeleição** de qualquer Conselheiro para o **mesmo cargo diretivo** no período imediatamente subsequente (Art. 38 do RITCE-GO). Essa vedação resguarda o princípio republicano e a salutar alternância na cúpula do controle externo goiano.
 - **Presidência do TCE-GO:** É o órgão de representação política, institucional e legal da Corte perante os demais Poderes. Compete-lhe dirigir a administração, superintender os serviços e quadro técnico, praticar atos de gestão orçamentária, presidir o Plenário e proferir voto ordinário em matérias administrativas ou de quórum qualificado, bem como o **voto de desempate (voto de qualidade)** nos julgamentos de processos de controle externo.
 - **Vice-Presidência:** Substitui o Presidente em suas ausências, faltas, férias ou impedimentos, auxiliando na supervisão dos serviços e exercendo atribuições delegadas por ato formal da Presidência.
+
+### 2.2 Corregedoria-Geral e Fiscalização Correicional
+A Corregedoria-Geral é exercida por Conselheiro titular eleito para mandato bienal:
+
+- **Atribuições Correicionais:** Realiza correições ordinárias (anuais obrigatórias) e extraordinárias nos gabinetes de Conselheiros, Auditores, Secretarias de Câmaras e unidades administrativas do Tribunal;
+- **Fiscalização de Prazos e Conduta:** Fiscaliza o cumprimento rigoroso dos prazos regimentais de instrução, relatoria e julgamento de processos, além de apurar desvios disciplinares funcionais de servidores da Corte, instaurando sindicâncias e comissões de PAD.
+
+### 2.3 Ouvidoria e Fomento ao Controle Social
+A Ouvidoria do TCE-GO atua como canal direto de interlocução entre o cidadão e a Corte de Contas, visando:
+
+- Receber sugestões, reclamações, elogios e manifestações sobre os serviços prestados pelo Tribunal;
+- Orientar o público externo sobre a forma adequada de acessar informações públicas (Lei de Acesso à Informação - LAI) e formular denúncias sobre má aplicação do dinheiro público goiano.
+
+### 2.4 Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual
+O Ministério Público de Contas atua junto ao TCE-GO como fiscal permanente da ordem jurídica:
+
+- **Obrigatoriedade de Parecer Prévio:** Tem vista e intervenção **obrigatória em todos os processos** de controle externo sujeitos a julgamento pelo Pleno ou pelas Câmaras.
+- **Nulidade Absoluta:** O julgamento colegiado realizado sem prévia oportunidade de manifestação formal e parecer do Ministério Público de Contas é portador de vício de nulidade insanável por afronta ao devido processo legal.
 
 ---
 
@@ -210,31 +218,6 @@ No âmbito dos órgãos diretivos do Tribunal de Contas do Estado de Goiás, a e
 
 ---
 
-
-
-### 2.2 Corregedoria-Geral e Fiscalização Correicional
-A Corregedoria-Geral é exercida por Conselheiro titular eleito para mandato bienal:
-
-- **Atribuições Correicionais:** Realiza correições ordinárias (anuais obrigatórias) e extraordinárias nos gabinetes de Conselheiros, Auditores, Secretarias de Câmaras e unidades administrativas do Tribunal;
-- **Fiscalização de Prazos e Conduta:** Fiscaliza o cumprimento rigoroso dos prazos regimentais de instrução, relatoria e julgamento de processos, além de apurar desvios disciplinares funcionais de servidores da Corte, instaurando sindicâncias e comissões de PAD.
-
----
-
-### 2.3 Ouvidoria e Fomento ao Controle Social
-A Ouvidoria do TCE-GO atua como canal direto de interlocução entre o cidadão e a Corte de Contas, visando:
-
-- Receber sugestões, reclamações, elogios e manifestações sobre os serviços prestados pelo Tribunal;
-- Orientar o público externo sobre a forma adequada de acessar informações públicas (Lei de Acesso à Informação - LAI) e formular denúncias sobre má aplicação do dinheiro público goiano.
-
----
-
-### 2.4 Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual
-O Ministério Público de Contas atua junto ao TCE-GO como fiscal permanente da ordem jurídica:
-
-- **Obrigatoriedade de Parecer Prévio:** Tem vista e intervenção **obrigatória em todos os processos** de controle externo sujeitos a julgamento pelo Pleno ou pelas Câmaras.
-- **Nulidade Absoluta:** O julgamento colegiado realizado sem prévia oportunidade de manifestação formal e parecer do Ministério Público de Contas é portador de vício de nulidade insanável por afronta ao devido processo legal.
-
-
 ### Teste 145
 **(FCC – Inédita – Padrão TCE-GO)**  
 No tocante às atribuições da Corregedoria-Geral e da Ouvidoria do TCE-GO, previstas no Regimento Interno (Resolução nº 22/2008):
@@ -258,10 +241,7 @@ No tocante às atribuições da Corregedoria-Geral e da Ouvidoria do TCE-GO, pre
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Dinâmica Processual, Instrução e Sessões de Julgamento (Arts. 71 a 120)
 
@@ -269,8 +249,6 @@ No tocante às atribuições da Corregedoria-Geral e da Ouvidoria do TCE-GO, pre
 - **Distribuição Aleatória:** Os processos são autuados e distribuídos eletronicamente entre Conselheiros e Auditores mediante sistema informatizado, assegurando-se a alternância, o sorteio público e a estrita observância do princípio do **juiz natural**.
 - **Prevenção Regimental:** O conhecimento de medida cautelar preparatória, consulta anterior ou recurso conexo previne a competência do Relator originário para os feitos posteriores que versem sobre o mesmo objeto.
 - **Impedimentos e Suspeições:** Aplicam-se aos membros do TCE-GO e aos Procuradores do MPC-GO as hipóteses legais de impedimento e suspeição previstas na legislação processual civil (Código de Processo Civil - CPC/2015), tais como parentesco até o terceiro grau com interessados, interesse econômico ou inimizade capital.
-
----
 
 ### 3.2 Sessões Ordinárias, Extraordinárias e Plenário Virtual
 As deliberações do Pleno e das Câmaras ocorrem em:
@@ -281,6 +259,22 @@ As deliberações do Pleno e das Câmaras ocorrem em:
 
 ---
 
+### 3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)
+
+1. **Rito de Votação em Sessão:**
+    - O Relator profere o relatório circunstanciado e o seu voto fundamentado;
+    - As partes ou procuradores inscritos realizam a sustentação oral;
+    - Manifesta-se o representante do Ministério Público de Contas;
+    - Votam os Conselheiros na ordem regimental de antiguidade;
+    - Proclamação do resultado pelo Presidente da sessão.
+
+2. **Pedido de Vista Regimental:** Qualquer Conselheiro ou Auditor votante que tenha dúvida sobre a matéria pode pedir vista dos autos. O processo deve ser devolvido impreterivelmente no prazo assinado pelo Regimento (regra geral, até a sessão ordinária subsequente), vedada a retenção indefinida do processo em gabinete.
+3. **Sustentação Oral (Art. 98 do RITCE-GO):**
+    - Garantida ao responsável, ao interessado direto ou ao advogado regularmente munido de instrumento de procuração;
+    - Exige protocolo ou inscrição formal perante a Secretaria das Sessões **antes do início da sessão de julgamento**;
+    - O tempo de manifestação é fixado no prazo **improrrogável de 15 (quinze) minutos** por processo. Não é cabível sustentação oral em matérias de mero expediente, fixação de diligências preliminares ou julgamento de embargos de declaração.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Questões da FCC frequentemente trazem o prazo de sustentação oral como "10 minutos" ou "20 minutos com prorrogação". O prazo do RITCE-GO é de **15 minutos, improrrogável**. Memorize este número exato!
 
 ---
 
@@ -309,25 +303,6 @@ Acerca das regras regimentais de impedimento e suspeição de Conselheiros e da 
 
 ---
 
-### 3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)
-
-1. **Rito de Votação em Sessão:**
-    - O Relator profere o relatório circunstanciado e o seu voto fundamentado;
-    - As partes ou procuradores inscritos realizam a sustentação oral;
-    - Manifesta-se o representante do Ministério Público de Contas;
-    - Votam os Conselheiros na ordem regimental de antiguidade;
-    - Proclamação do resultado pelo Presidente da sessão.
-
-2. **Pedido de Vista Regimental:** Qualquer Conselheiro ou Auditor votante que tenha dúvida sobre a matéria pode pedir vista dos autos. O processo deve ser devolvido impreterivelmente no prazo assinado pelo Regimento (regra geral, até a sessão ordinária subsequente), vedada a retenção indefinida do processo em gabinete.
-3. **Sustentação Oral (Art. 98 do RITCE-GO):**
-    - Garantida ao responsável, ao interessado direto ou ao advogado regularmente munido de instrumento de procuração;
-    - Exige protocolo ou inscrição formal perante a Secretaria das Sessões **antes do início da sessão de julgamento**;
-    - O tempo de manifestação é fixado no prazo **improrrogável de 15 (quinze) minutos** por processo. Não é cabível sustentação oral em matérias de mero expediente, fixação de diligências preliminares ou julgamento de embargos de declaração.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Questões da FCC frequentemente trazem o prazo de sustentação oral como "10 minutos" ou "20 minutos com prorrogação". O prazo do RITCE-GO é de **15 minutos, improrrogável**. Memorize este número exato!
-
----
-
 ### Teste 147
 **(FCC – TCE-SE – Analista de Controle Externo)**  
 Nos processos submetidos a julgamento perante os órgãos colegiados do TCE-GO, no tocante ao direito de manifestação dos procuradores das partes e à ordem dos trabalhos regimentais:
@@ -351,6 +326,7 @@ Nos processos submetidos a julgamento perante os órgãos colegiados do TCE-GO, 
 > 
 > **Gabarito: A**
 
+---
 
 ### Teste 148
 **(FCC – Inédita – Padrão TCE-GO)**  
@@ -375,10 +351,7 @@ Em relação ao direito de sustentação oral e à disciplina do pedido de vista
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Processos Especiais Disciplinados no RITCE-GO (Arts. 121 a 180)
 
@@ -412,6 +385,23 @@ A Consulta é o mecanismo pelo qual as autoridades dirigentes do Estado submetem
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Se a questão da FCC narrar que um Secretário de Estado consultou o Tribunal sobre se pode contratar dispensando licitação a empresa "X" para fornecer ambulâncias no contrato nº 123/2026, a resposta correta é: **A consulta NÃO será conhecida**, por versar sobre caso concreto e contrato individualizado.
 
+### 4.2 Processo de Denúncia: Legitimidade Ampla, Vedação ao Anonimato e Sigilo
+- **Legitimidade Ativa Ampla:** Qualquer cidadão brasileiro no gozo de seus direitos políticos, partido político registrado no TSE, associação legalmente constituída ou sindicato tem legitimidade para representar e denunciar ilegalidades ou irregularidades de gestão perante o TCE-GO.
+- **Vedação Peremptória ao Anonimato:** Em homenagem ao princípio republicano e ao texto expresso da CF/88 (Art. 5º, IV), **o TCE-GO não admite denúncias anônimas**. A petição de denúncia deve conter o nome completo legível, comprovação de qualificação civil, número do CPF/CNPJ, domicílio e indicação clara de indícios materiais e provas do fato alegado.
+- **Sigilo Protetivo da Identidade do Denunciante:** Recebida e admitida a denúncia formal, a Secretaria do Tribunal autuará o processo atribuindo-lhe caráter de **sigilo temporário quanto à qualificação do denunciante**, resguardando sua integridade funcional e prevenindo perseguições políticas até a decisão definitiva do feito.
+
+### 4.3 Processo de Representação Institucional
+A representação é o instrumento de notícia de irregularidade promovido por agentes e órgãos públicos no cumprimento de dever funcional de ofício:
+
+- Pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais;
+- Dispensa as formalidades protetivas de sigilo de identidade típicas da denúncia popular, instaurando-se processo autônomo de fiscalização.
+
+### 4.4 Processo de Registro de Atos de Admissão de Pessoal e Concessões
+Os atos de admissão de concursados e as concessões iniciais de aposentadorias, reformas e pensões são fiscalizados em processo eletrônico próprio remetido ao TCE pelos órgãos de previdência:
+
+- A deliberação compete privativamente às **Câmaras Deliberativas** (1ª e 2ª Câmaras);
+- Sendo verificado vício de legalidade insanável, o Tribunal nega o registro do ato e assina prazo de **30 (trinta) dias** para que o órgão de origem cesse o pagamento e recolha aos cofres públicos as quantias indevidamente pagas de má-fé.
+
 ---
 
 ### Teste 149
@@ -436,15 +426,6 @@ Determinado Presidente de Empresa Pública Estadual de Goiás encaminhou expedie
 > - **E) Incorreta.** O processo de consulta é amplamente previsto no RITCE-GO como instrumento orientador e preventivo de controle externo.
 > 
 > **Gabarito: B**
-
----
-
-
-
-### 4.2 Processo de Denúncia: Legitimidade Ampla, Vedação ao Anonimato e Sigilo
-- **Legitimidade Ativa Ampla:** Qualquer cidadão brasileiro no gozo de seus direitos políticos, partido político registrado no TSE, associação legalmente constituída ou sindicato tem legitimidade para representar e denunciar ilegalidades ou irregularidades de gestão perante o TCE-GO.
-- **Vedação Peremptória ao Anonimato:** Em homenagem ao princípio republicano e ao texto expresso da CF/88 (Art. 5º, IV), **o TCE-GO não admite denúncias anônimas**. A petição de denúncia deve conter o nome completo legível, comprovação de qualificação civil, número do CPF/CNPJ, domicílio e indicação clara de indícios materiais e provas do fato alegado.
-- **Sigilo Protetivo da Identidade do Denunciante:** Recebida e admitida a denúncia formal, a Secretaria do Tribunal autuará o processo atribuindo-lhe caráter de **sigilo temporário quanto à qualificação do denunciante**, resguardando sua integridade funcional e prevenindo perseguições políticas até a decisão definitiva do feito.
 
 ---
 
@@ -473,23 +454,6 @@ Cidadão que teve conhecimento de irregularidades no pagamento de sobrepreço em
 
 ---
 
-
-
-### 4.3 Processo de Representação Institucional
-A representação é o instrumento de notícia de irregularidade promovido por agentes e órgãos públicos no cumprimento de dever funcional de ofício:
-
-- Pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais;
-- Dispensa as formalidades protetivas de sigilo de identidade típicas da denúncia popular, instaurando-se processo autônomo de fiscalização.
-
----
-
-### 4.4 Processo de Registro de Atos de Admissão de Pessoal e Concessões
-Os atos de admissão de concursados e as concessões iniciais de aposentadorias, reformas e pensões são fiscalizados em processo eletrônico próprio remetido ao TCE pelos órgãos de previdência:
-
-- A deliberação compete privativamente às **Câmaras Deliberativas** (1ª e 2ª Câmaras);
-- Sendo verificado vício de legalidade insanável, o Tribunal nega o registro do ato e assina prazo de **30 (trinta) dias** para que o órgão de origem cesse o pagamento e recolha aos cofres públicos as quantias indevidamente pagas de má-fé.
-
-
 ### Teste 151
 **(FCC – Inédita – Padrão TCE-GO)**  
 Quanto ao processo de Representação perante o Tribunal de Contas do Estado de Goiás (arts. 135 a 140 do RITCE-GO):
@@ -513,10 +477,7 @@ Quanto ao processo de Representação perante o Tribunal de Contas do Estado de 
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 

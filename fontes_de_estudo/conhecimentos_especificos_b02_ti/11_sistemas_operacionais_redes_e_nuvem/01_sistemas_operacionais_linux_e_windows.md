@@ -17,56 +17,52 @@
 - Administração de Linux: comandos básicos de shell (Bash), permissões e automação por scripts
 - Administração de Windows e Windows PowerShell: cmdlets e scripts
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Arquitetura de Sistemas Operacionais e Modos de Operação](#1-arquitetura-de-sistemas-operacionais-e-modos-de-operacao)
     1. [Modos de Operação do Processador (User Mode vs. Kernel Mode)](#11-modos-de-operacao-do-processador-user-mode-vs-kernel-mode)
-    2. [Teste 410](#Teste-410)
-    3. [Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)](#12-chamadas-de-sistema-syscalls-fork-execve-mmap-kill)
-    4. [Tipos de Kernel: Monolítico, Microkernel e Híbrido](#13-tipos-de-kernel-monolitico-microkernel-e-hibrido)
+    2. [Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)](#12-chamadas-de-sistema-syscalls-fork-execve-mmap-kill)
+    3. [Tipos de Kernel: Monolítico, Microkernel e Híbrido](#13-tipos-de-kernel-monolitico-microkernel-e-hibrido)
+    4. [Teste 410](#Teste-410)
 2. [Gerenciamento de Processos, Concorrência e Escalonamento](#2-gerenciamento-de-processos-concorrencia-e-escalonamento)
     1. [Processo vs. Thread (Processo Leve e Compartilhamento de Memória)](#21-processo-vs-thread-processo-leve-e-compartilhamento-de-memoria)
-    2. [Teste 411](#Teste-411)
-    3. [Ciclo de Vida e Estados de um Processo](#22-ciclo-de-vida-e-estados-de-um-processo)
-    4. [PCB e o Custo da Troca de Contexto (Context Switch)](#23-pcb-e-o-custo-da-troca-de-contexto-context-switch)
-    5. [Algoritmos de Escalonamento de CPU (FCFS, SJF, SRTF, Round Robin, Prioridades)](#24-algoritmos-de-escalonamento-de-cpu-fcfs-sjf-srtf-round-robin-prioridades)
-    6. [Teste 412](#Teste-412)
-    7. [Sincronização e Concorrência: Mutex vs. Semáforos](#25-sincronizacao-e-concorrencia-mutex-vs-semaforos)
+    2. [Ciclo de Vida e Estados de um Processo](#22-ciclo-de-vida-e-estados-de-um-processo)
+    3. [PCB e o Custo da Troca de Contexto (Context Switch)](#23-pcb-e-o-custo-da-troca-de-contexto-context-switch)
+    4. [Algoritmos de Escalonamento de CPU (FCFS, SJF, SRTF, Round Robin, Prioridades)](#24-algoritmos-de-escalonamento-de-cpu-fcfs-sjf-srtf-round-robin-prioridades)
+    5. [Sincronização e Concorrência: Mutex vs. Semáforos](#25-sincronizacao-e-concorrencia-mutex-vs-semaforos)
+    6. [Teste 411](#Teste-411)
+    7. [Teste 412](#Teste-412)
     8. [Teste 413](#Teste-413)
 3. [Gerenciamento de Memória Virtual, Paginação e Swapping](#3-gerenciamento-de-memoria-virtual-paginacao-e-swapping)
     1. [Endereçamento Lógico vs. Físico e o Papel da MMU](#31-enderecamento-logico-vs-fisico-e-o-papel-da-mmu)
     2. [Paginação: Páginas, Molduras (Frames), Tabela de Páginas e TLB](#32-paginacao-paginas-molduras-frames-tabela-de-paginas-e-tlb)
     3. [Falta de Página (Page Fault) e Algoritmos de Substituição](#33-falta-de-pagina-page-fault-e-algoritmos-de-substituicao)
-    4. [Teste 414](#Teste-414)
-    5. [Swapping e Hiperpaginação (Thrashing)](#34-swapping-e-hiperpaginacao-thrashing)
+    4. [Swapping e Hiperpaginação (Thrashing)](#34-swapping-e-hiperpaginacao-thrashing)
+    5. [Teste 414](#Teste-414)
     6. [Teste 415](#Teste-415)
 4. [Sistemas de Arquivos e Permissões no Linux e Windows](#4-sistemas-de-arquivos-e-permissoes-no-linux-e-windows)
     1. [Estrutura do Inode no Linux: O que armazena e o que NÃO armazena](#41-estrutura-do-inode-no-linux-o-que-armazena-e-o-que-nao-armazena)
     2. [Links no Linux: Hard Link vs. Symbolic Link (Soft Link)](#42-links-no-linux-hard-link-vs-symbolic-link-soft-link)
-    3. [Teste 416](#Teste-416)
-    4. [Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)](#43-sistemas-de-arquivos-linux-ext4-xfs-e-windows-ntfs-fat32)
-    5. [Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)](#44-permissoes-octais-ugo-e-permissoes-especiais-suid-sgid-sticky-bit)
+    3. [Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)](#43-sistemas-de-arquivos-linux-ext4-xfs-e-windows-ntfs-fat32)
+    4. [Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)](#44-permissoes-octais-ugo-e-permissoes-especiais-suid-sgid-sticky-bit)
+    5. [Teste 416](#Teste-416)
     6. [Teste 417](#Teste-417)
 5. [Administração e Shell Scripting no Linux](#5-administracao-e-shell-scripting-no-linux)
     1. [Sinais POSIX (SIGKILL, SIGTERM, SIGHUP, SIGSTOP, SIGCONT)](#51-sinais-posix-sigkill-sigterm-sighup-sigstop-sigcont)
-    2. [Teste 418](#Teste-418)
-    3. [Comandos Essenciais, Filtros e Redirecionamentos](#52-comandos-essenciais-filtros-e-redirecionamentos)
-    4. [Gerenciamento de Serviços com systemd (systemctl e journalctl)](#53-gerenciamento-de-servicos-com-systemd-systemctl-e-journalctl)
+    2. [Comandos Essenciais, Filtros e Redirecionamentos](#52-comandos-essenciais-filtros-e-redirecionamentos)
+    3. [Gerenciamento de Serviços com systemd (systemctl e journalctl)](#53-gerenciamento-de-servicos-com-systemd-systemctl-e-journalctl)
+    4. [Teste 418](#Teste-418)
     5. [Teste 419](#Teste-419)
 6. [Administração de Windows e Windows PowerShell](#6-administracao-de-windows-e-windows-powershell)
     1. [Paradigma do PowerShell: Pipeline Baseado em Objetos .NET](#61-paradigma-do-powershell-pipeline-baseado-em-objetos-net)
     2. [Cmdlets Essenciais de Administração e Filtragem](#62-cmdlets-essenciais-de-administracao-e-filtragem)
-    3. [Teste 420](#Teste-420)
-    4. [Políticas de Execução de Scripts (ExecutionPolicy)](#63-politicas-de-execucao-de-scripts-executionpolicy)
-7. [Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
+    3. [Políticas de Execução de Scripts (ExecutionPolicy)](#63-politicas-de-execucao-de-scripts-executionpolicy)
+    4. [Teste 420](#Teste-420)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Arquitetura de Sistemas Operacionais e Modos de Operação
 
@@ -82,6 +78,42 @@ O Sistema Operacional atua como intermediário entre o hardware físico e os sof
 2. **Modo Núcleo / Kernel (*Kernel Mode* / Supervisor / Ring 0):**
     - O código do núcleo executa com privilégio irrestrito sobre o hardware, tabelas de memória e registradores de controle da CPU.
     - Controla o escalonamento, paginação e drivers de dispositivos.
+
+### 1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)
+
+Para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma **Chamada de Sistema (*System Call* / *Syscall*)**:
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant App as "Aplicação de Usuário (Ring 3)"
+    participant Lib as "Biblioteca C (glibc / Win32 API)"
+    participant Kernel as "Núcleo do SO (Ring 0 / Syscall Handler)"
+    participant HW as "Hardware (Disco / Rede / MMU)"
+
+    App->>Lib: Chama função de biblioteca (ex: fopen, write)
+    Lib->>Kernel: Trap / Syscall (ex: int 0x80 / sysenter / syscall)
+    Note over App,Kernel: Troca de Modo (User Mode -> Kernel Mode)
+    Kernel->>HW: Acessa controlador de disco / memória física
+    HW-->>Kernel: Conclusão do I/O / Interrupção
+    Kernel-->>Lib: Retorna dados e código de status (errno)
+    Note over Kernel,App: Troca de Modo (Kernel Mode -> User Mode)
+    Lib-->>App: Retorna controle à execução do programa
+```
+
+#### Principais Syscalls POSIX:
+- `fork()`: Cria um novo processo filho que é cópia exata do processo pai (com novo PID). Utiliza a técnica **Copy-on-Write (COW)**: páginas de memória são compartilhadas como somente leitura até que haja uma escrita real, momento em que o frame é duplicado.
+- `execve()`: Substitui a imagem atual de memória do processo por um novo programa binário executável.
+- `mmap()`: Mapeia arquivos ou dispositivos diretamente no espaço de memória virtual do processo.
+- `kill()`: Envia sinais para comunicação e controle de processos.
+
+### 1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido
+
+| Modelo de Kernel | Características Arquiteturais | Vantagens | Desvantagens | Exemplos Reais |
+|---|---|---|---|---|
+| **Monolítico** | Todos os serviços essenciais (escalonador, memória, sistemas de arquivos, drivers de dispositivos) rodam no mesmo espaço de memória do Kernel (Ring 0). | Máximo desempenho em chamadas e trocas de mensagens (comunicação direta por ponteiros e funções). | Um bug em um driver de dispositivo ou módulo pode derrubar o sistema inteiro (*Kernel Panic*). | Linux, Unix tradicional, FreeBSD |
+| **Microkernel** | Apenas as funções mínimas rodam no Kernel (IPC, gerenciamento básico de memória e escalonador). Drivers, sistemas de arquivos e rede rodam como servidores no Modo Usuário (Ring 3). | Alta modularidade, isolamento de falhas e segurança robusta (se o driver de rede travar, ele é reiniciado sem derrubar o SO). | Queda de desempenho devido ao overhead constante de troca de contexto e IPC por passagem de mensagens entre processos de usuário. | Mach, Minix, QNX |
+| **Híbrido** | Combina a modularidade do microkernel com o desempenho do monolítico, executando subsistemas críticos e drivers gráficos/I/O no espaço do Kernel. | Equilíbrio entre flexibilidade arquitetural, facilidade de compatibilidade e velocidade de execução. | Complexidade interna elevada e maior superfície de ataque no Kernel. | Windows NT (10, 11, Server), macOS (XNU) |
 
 ---
 
@@ -115,49 +147,6 @@ A respeito dos modos de operação do processador (**User Mode / Modo Usuário**
 
 ---
 
-### 1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)
-
-Para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma **Chamada de Sistema (*System Call* / *Syscall*)**:
-
-```mermaid
-sequenceDiagram
-    autonumber
-    participant App as "Aplicação de Usuário (Ring 3)"
-    participant Lib as "Biblioteca C (glibc / Win32 API)"
-    participant Kernel as "Núcleo do SO (Ring 0 / Syscall Handler)"
-    participant HW as "Hardware (Disco / Rede / MMU)"
-
-    App->>Lib: Chama função de biblioteca (ex: fopen, write)
-    Lib->>Kernel: Trap / Syscall (ex: int 0x80 / sysenter / syscall)
-    Note over App,Kernel: Troca de Modo (User Mode -> Kernel Mode)
-    Kernel->>HW: Acessa controlador de disco / memória física
-    HW-->>Kernel: Conclusão do I/O / Interrupção
-    Kernel-->>Lib: Retorna dados e código de status (errno)
-    Note over Kernel,App: Troca de Modo (Kernel Mode -> User Mode)
-    Lib-->>App: Retorna controle à execução do programa
-```
-
-#### Principais Syscalls POSIX:
-- `fork()`: Cria um novo processo filho que é cópia exata do processo pai (com novo PID). Utiliza a técnica **Copy-on-Write (COW)**: páginas de memória são compartilhadas como somente leitura até que haja uma escrita real, momento em que o frame é duplicado.
-- `execve()`: Substitui a imagem atual de memória do processo por um novo programa binário executável.
-- `mmap()`: Mapeia arquivos ou dispositivos diretamente no espaço de memória virtual do processo.
-- `kill()`: Envia sinais para comunicação e controle de processos.
-
----
-
-### 1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido
-
-| Modelo de Kernel | Características Arquiteturais | Vantagens | Desvantagens | Exemplos Reais |
-|---|---|---|---|---|
-| **Monolítico** | Todos os serviços essenciais (escalonador, memória, sistemas de arquivos, drivers de dispositivos) rodam no mesmo espaço de memória do Kernel (Ring 0). | Máximo desempenho em chamadas e trocas de mensagens (comunicação direta por ponteiros e funções). | Um bug em um driver de dispositivo ou módulo pode derrubar o sistema inteiro (*Kernel Panic*). | Linux, Unix tradicional, FreeBSD |
-| **Microkernel** | Apenas as funções mínimas rodam no Kernel (IPC, gerenciamento básico de memória e escalonador). Drivers, sistemas de arquivos e rede rodam como servidores no Modo Usuário (Ring 3). | Alta modularidade, isolamento de falhas e segurança robusta (se o driver de rede travar, ele é reiniciado sem derrubar o SO). | Queda de desempenho devido ao overhead constante de troca de contexto e IPC por passagem de mensagens entre processos de usuário. | Mach, Minix, QNX |
-| **Híbrido** | Combina a modularidade do microkernel com o desempenho do monolítico, executando subsistemas críticos e drivers gráficos/I/O no espaço do Kernel. | Equilíbrio entre flexibilidade arquitetural, facilidade de compatibilidade e velocidade de execução. | Complexidade interna elevada e maior superfície de ataque no Kernel. | Windows NT (10, 11, Server), macOS (XNU) |
-
-
-
----
-
-
 ## 2. Gerenciamento de Processos, Concorrência e Escalonamento
 
 ### 2.1 Processo vs. Thread (Processo Leve e Compartilhamento de Memória)
@@ -168,6 +157,58 @@ sequenceDiagram
     - Os mesmos arquivos e sockets abertos;
     - Os mesmos sinais e permissões do processo pai.
     - **O que cada thread possui de forma EXCLUSIVA:** seu próprio Program Counter (PC), registradores de CPU e sua própria Pilha de Execução (*Stack* - variáveis locais e fluxo de chamadas).
+
+### 2.2 Ciclo de Vida e Estados de um Processo
+
+```mermaid
+stateDiagram-v2
+    [*] --> Novo: Criação (fork / CreateProcess)
+    Novo --> Pronto: Admitido na fila de execução
+    Pronto --> Executando: Despachante (Dispatcher / Escalonamento)
+    Executando --> Pronto: Preempção (Fim do Quantum de Tempo)
+    Executando --> Bloqueado: Operação de E/S ou Espera por Evento
+    Bloqueado --> Pronto: Conclusão da E/S ou Evento Ocorrido
+    Executando --> Terminado: Instrução exit() ou kill
+    Terminado --> [*]
+```
+
+- **Novo (*New*):** O processo está sendo criado e suas estruturas estão sendo alocadas.
+- **Pronto (*Ready*):** O processo dispõe de todos os recursos necessários e aguarda na fila apenas a atribuição da CPU pelo escalonador.
+- **Executando (*Running*):** As instruções do processo estão sendo ativamente processadas pela CPU.
+- **Bloqueado / Espera (*Waiting* / *Blocked*):** O processo não pode executar porque aguarda a conclusão de uma operação externa de Entrada/Saída (leitura de disco, teclado) ou a liberação de um lock de sincronização.
+- **Terminado (*Terminated*):** O processo encerrou sua execução e aguarda o processo pai recolher seu código de retorno (`wait()`). Se o pai não o recolhe, ele permanece temporariamente como processo *zumbi*.
+
+### 2.3 PCB e o Custo da Troca de Contexto (Context Switch)
+
+O **Bloco de Controle de Processo (PCB - *Process Control Block*)** é a estrutura de dados que armazena todas as informações do processo enquanto ele não está executando na CPU: estado, Program Counter (PC), registradores, informações de escalonamento, ponteiros de memória e descritores de arquivos abertos.
+
+A **Troca de Contexto (*Context Switch*)** é o procedimento pelo qual a CPU interrompe um processo, salva seu contexto no PCB e carrega o contexto do próximo processo a executar. Trata-se de uma operação de **overhead puro** (a CPU não executa trabalho útil de aplicação durante a troca):
+
+- Salva e restaura registradores;
+- Altera tabelas de mapeamento de memória virtual na MMU;
+- Invalida entradas de cache no TLB;
+- Causa perda temporária de localidade nas memórias cache L1/L2/L3 da CPU.
+
+### 2.4 Algoritmos de Escalonamento de CPU (FCFS, SJF, SRTF, Round Robin, Prioridades)
+
+| Algoritmo | Natureza | Mecânica de Funcionamento | Principais Desvantagens / Efeitos Colaterais |
+|---|---|---|---|
+| **FCFS (First-Come, First-Served)** | Não Preemptivo | Atende processos estritamente na ordem cronológica de chegada na fila de prontos. | **Efeito Comboio (*Convoy Effect*):** processos curtos ficam retidos atrás de um processo longo com carga intensiva de CPU. |
+| **SJF (Shortest Job First)** | Não Preemptivo | Seleciona o processo com a menor rajada de CPU (*CPU burst*) estimada. Minimiza o tempo médio de espera. | Provoca **Inanição (*Starvation*)** de processos longos caso cheguem novos processos curtos ininterruptamente. Difícil prever a próxima rajada. |
+| **SRTF (Shortest Remaining Time First)** | Preemptivo | Versão preemptiva do SJF: se um processo chega com tempo restante menor que o em execução, ocorre preempção. | Também sofre de inanição (*starvation*) e gera alto overhead de trocas de contexto. |
+| **Round Robin (Alternância Circular)** | Preemptivo | Cada processo recebe uma fatia fixa de tempo de CPU denominada **Quantum**. Ao esgotar o quantum, sofre preempção e vai para o final da fila de prontos. | Se o quantum for **muito grande**, o algoritmo degenera em FCFS. Se for **muito pequeno**, a CPU perde rendimento útil com excesso de **Trocas de Contexto (*Context Switch*)**. |
+| **Escalonamento por Prioridades** | Preemptivo ou Não | A CPU é alocada ao processo de maior prioridade numérica. | Inanição de processos de baixa prioridade. A solução canônica é o **Envelhecimento (*Aging*)**, que incrementa a prioridade do processo conforme ele espera na fila. |
+| **Filas Multinível com Realimentação (MLFQ)** | Preemptivo | Processos movem-se entre diferentes filas com diferentes fatias de tempo. Processos I/O-bound ganham alta prioridade e quantum curto; CPU-bound caem para filas de menor prioridade com quantum longo. | Algoritmo mais complexo e configurável da engenharia de SO. |
+
+### 2.5 Sincronização e Concorrência: Mutex vs. Semáforos
+
+Quando múltiplos processos ou threads acessam variáveis e recursos compartilhados concorrentemente, podem ocorrer condições de corrida (*race conditions*). Para proteger a **Região Crítica**, utilizam-se primitivas de sincronização:
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A FCC frequentemente cobra a distinção entre **Mutex** e **Semáforo**:  
+>
+> - O **Mutex** (*Mutual Exclusion*) é um mecanismo de travamento binário com **conceito de propriedade (*ownership*)**: estritamente a thread que adquiriu o lock é quem tem o direito de liberá-lo.  
+> - O **Semáforo** é uma variável inteira atômica sem conceito de posse: qualquer processo ou thread pode executar a operação `signal()` / `post()` para incrementar o contador, prestando-se tanto à exclusão mútua (semáforo binário) quanto à sinalização e sincronização de eventos entre processos.
 
 ---
 
@@ -200,54 +241,6 @@ A respeito do compartilhamento de recursos entre múltiplas threads pertencentes
 
 ---
 
-### 2.2 Ciclo de Vida e Estados de um Processo
-
-```mermaid
-stateDiagram-v2
-    [*] --> Novo: Criação (fork / CreateProcess)
-    Novo --> Pronto: Admitido na fila de execução
-    Pronto --> Executando: Despachante (Dispatcher / Escalonamento)
-    Executando --> Pronto: Preempção (Fim do Quantum de Tempo)
-    Executando --> Bloqueado: Operação de E/S ou Espera por Evento
-    Bloqueado --> Pronto: Conclusão da E/S ou Evento Ocorrido
-    Executando --> Terminado: Instrução exit() ou kill
-    Terminado --> [*]
-```
-
-- **Novo (*New*):** O processo está sendo criado e suas estruturas estão sendo alocadas.
-- **Pronto (*Ready*):** O processo dispõe de todos os recursos necessários e aguarda na fila apenas a atribuição da CPU pelo escalonador.
-- **Executando (*Running*):** As instruções do processo estão sendo ativamente processadas pela CPU.
-- **Bloqueado / Espera (*Waiting* / *Blocked*):** O processo não pode executar porque aguarda a conclusão de uma operação externa de Entrada/Saída (leitura de disco, teclado) ou a liberação de um lock de sincronização.
-- **Terminado (*Terminated*):** O processo encerrou sua execução e aguarda o processo pai recolher seu código de retorno (`wait()`). Se o pai não o recolhe, ele permanece temporariamente como processo *zumbi*.
-
----
-
-### 2.3 PCB e o Custo da Troca de Contexto (Context Switch)
-
-O **Bloco de Controle de Processo (PCB - *Process Control Block*)** é a estrutura de dados que armazena todas as informações do processo enquanto ele não está executando na CPU: estado, Program Counter (PC), registradores, informações de escalonamento, ponteiros de memória e descritores de arquivos abertos.
-
-A **Troca de Contexto (*Context Switch*)** é o procedimento pelo qual a CPU interrompe um processo, salva seu contexto no PCB e carrega o contexto do próximo processo a executar. Trata-se de uma operação de **overhead puro** (a CPU não executa trabalho útil de aplicação durante a troca):
-
-- Salva e restaura registradores;
-- Altera tabelas de mapeamento de memória virtual na MMU;
-- Invalida entradas de cache no TLB;
-- Causa perda temporária de localidade nas memórias cache L1/L2/L3 da CPU.
-
----
-
-### 2.4 Algoritmos de Escalonamento de CPU (FCFS, SJF, SRTF, Round Robin, Prioridades)
-
-| Algoritmo | Natureza | Mecânica de Funcionamento | Principais Desvantagens / Efeitos Colaterais |
-|---|---|---|---|
-| **FCFS (First-Come, First-Served)** | Não Preemptivo | Atende processos estritamente na ordem cronológica de chegada na fila de prontos. | **Efeito Comboio (*Convoy Effect*):** processos curtos ficam retidos atrás de um processo longo com carga intensiva de CPU. |
-| **SJF (Shortest Job First)** | Não Preemptivo | Seleciona o processo com a menor rajada de CPU (*CPU burst*) estimada. Minimiza o tempo médio de espera. | Provoca **Inanição (*Starvation*)** de processos longos caso cheguem novos processos curtos ininterruptamente. Difícil prever a próxima rajada. |
-| **SRTF (Shortest Remaining Time First)** | Preemptivo | Versão preemptiva do SJF: se um processo chega com tempo restante menor que o em execução, ocorre preempção. | Também sofre de inanição (*starvation*) e gera alto overhead de trocas de contexto. |
-| **Round Robin (Alternância Circular)** | Preemptivo | Cada processo recebe uma fatia fixa de tempo de CPU denominada **Quantum**. Ao esgotar o quantum, sofre preempção e vai para o final da fila de prontos. | Se o quantum for **muito grande**, o algoritmo degenera em FCFS. Se for **muito pequeno**, a CPU perde rendimento útil com excesso de **Trocas de Contexto (*Context Switch*)**. |
-| **Escalonamento por Prioridades** | Preemptivo ou Não | A CPU é alocada ao processo de maior prioridade numérica. | Inanição de processos de baixa prioridade. A solução canônica é o **Envelhecimento (*Aging*)**, que incrementa a prioridade do processo conforme ele espera na fila. |
-| **Filas Multinível com Realimentação (MLFQ)** | Preemptivo | Processos movem-se entre diferentes filas com diferentes fatias de tempo. Processos I/O-bound ganham alta prioridade e quantum curto; CPU-bound caem para filas de menor prioridade com quantum longo. | Algoritmo mais complexo e configurável da engenharia de SO. |
-
----
-
 ### Teste 412
 **(FCC - Adaptada / Analista de Tecnologia da Informação - Sistemas)**
 Em relação aos conceitos de concorrência, processos, threads e algoritmos de escalonamento de processador em sistemas operacionais, assinale a afirmação correta:
@@ -270,20 +263,6 @@ Em relação aos conceitos de concorrência, processos, threads e algoritmos de 
 > - **E)** Incorreta. O algoritmo FCFS é categorizado como não preemptivo (*non-preemptive*), mantendo a CPU ocupada até a finalização do processo ou bloqueio por I/O.
 > 
 > **Gabarito: A**
-
----
-
-
-
-### 2.5 Sincronização e Concorrência: Mutex vs. Semáforos
-
-Quando múltiplos processos ou threads acessam variáveis e recursos compartilhados concorrentemente, podem ocorrer condições de corrida (*race conditions*). Para proteger a **Região Crítica**, utilizam-se primitivas de sincronização:
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A FCC frequentemente cobra a distinção entre **Mutex** e **Semáforo**:  
->
-> - O **Mutex** (*Mutual Exclusion*) é um mecanismo de travamento binário com **conceito de propriedade (*ownership*)**: estritamente a thread que adquiriu o lock é quem tem o direito de liberá-lo.  
-> - O **Semáforo** é uma variável inteira atômica sem conceito de posse: qualquer processo ou thread pode executar a operação `signal()` / `post()` para incrementar o contador, prestando-se tanto à exclusão mútua (semáforo binário) quanto à sinalização e sincronização de eventos entre processos.
 
 ---
 
@@ -314,10 +293,7 @@ Para garantir a **Exclusão Mútua** na Região Crítica, utilizam-se primitivas
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 3. Gerenciamento de Memória Virtual, Paginação e Swapping
 
@@ -329,8 +305,6 @@ A **Memória Virtual** desvincula o espaço de endereçamento lógico manipulado
 - **Endereço Físico:** Localização real dos bytes nos circuitos integrados dos módulos de memória RAM.
 - **MMU (*Memory Management Unit*):** Chip integrado ao processador que converte endereços virtuais em endereços físicos em tempo de execução consultando a Tabela de Páginas.
 
----
-
 ### 3.2 Paginação: Páginas, Molduras (Frames), Tabela de Páginas e TLB
 
 - **Páginas Lógicas (*Pages*):** Blocos de tamanho fixo em que a memória virtual do processo é dividida.
@@ -339,8 +313,6 @@ A **Memória Virtual** desvincula o espaço de endereçamento lógico manipulado
     - *Bit de Validade/Presença:* `1` indica que a página está carregada na RAM; `0` indica que está no disco (Swap) ou é inválida.
     - *Dirty Bit (Modificado):* `1` indica que a página foi alterada desde que foi lida do disco e precisará ser gravada de volta antes de ser descartada.
 - **TLB (*Translation Lookaside Buffer*):** Cache associativa de hardware de altíssima velocidade que armazena as traduções recentes de página para frame. Evita que a CPU precise consultar a tabela de páginas na memória RAM a cada instrução (*TLB Hit*).
-
----
 
 ### 3.3 Falta de Página (Page Fault) e Algoritmos de Substituição
 
@@ -369,6 +341,11 @@ flowchart TD
 
 4. O frame é carregado do disco e a tabela de páginas é atualizada (bit = 1), reiniciando a instrução original.
 
+### 3.4 Swapping e Hiperpaginação (Thrashing)
+
+- **Swapping:** Movimentação de páginas ou de processos inteiros entre a memória RAM física e a partição/arquivo de troca no disco (**Swap**).
+- **Hiperpaginação (*Thrashing*):** Ocorre quando o sistema passa substancialmente mais tempo realizando operações de I/O de leitura e escrita de páginas no disco do que executando instruções úteis dos programas. Decorre de uma sobrecarga onde a soma dos conjuntos de trabalho (*working sets*) dos processos ativos supera a capacidade física da memória RAM.
+
 ---
 
 ### Teste 414
@@ -395,15 +372,6 @@ Nessa situação, o evento gerado pela arquitetura de hardware e a ação imedia
 > - **E)** Incorreta. A resolução do evento é realizada pelo kernel de forma transparente à aplicação, sem requerer intervenção do processo no seu PCB.
 > 
 > **Gabarito: A**
-
----
-
-
-
-### 3.4 Swapping e Hiperpaginação (Thrashing)
-
-- **Swapping:** Movimentação de páginas ou de processos inteiros entre a memória RAM física e a partição/arquivo de troca no disco (**Swap**).
-- **Hiperpaginação (*Thrashing*):** Ocorre quando o sistema passa substancialmente mais tempo realizando operações de I/O de leitura e escrita de páginas no disco do que executando instruções úteis dos programas. Decorre de uma sobrecarga onde a soma dos conjuntos de trabalho (*working sets*) dos processos ativos supera a capacidade física da memória RAM.
 
 ---
 
@@ -438,10 +406,7 @@ A característica operacional que define formalmente o fenômeno do *Thrashing* 
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Sistemas de Arquivos e Permissões no Linux e Windows
 
@@ -462,8 +427,6 @@ O **Inode (*Index Node*)** é a estrutura central de dados que descreve cada arq
     - **O CAMINHO (path) do arquivo!**  
   > 🚨 **REGRA DE OURO FCC:** O nome do arquivo e o número do seu inode ficam armazenados nos blocos de dados do **diretório pai** (estrutura *dentry*), e não dentro do próprio inode.
 
----
-
 ### 4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)
 
 | Propriedade / Comportamento | Hard Link (`ln origem destino`) | Symbolic Link (`ln -s origem destino`) |
@@ -472,6 +435,28 @@ O **Inode (*Index Node*)** é a estrutura central de dados que descreve cada arq
 | **Cruzamento de Partições** | **NÃO** pode cruzar partições ou sistemas de arquivos diferentes (inodes colidiriam). | **SIM**, pode cruzar discos, partições e pontos de montagem livremente. |
 | **Apontamento para Diretórios** | Não permitido para usuários comuns (evita loops cíclicos). | Permitido apontar para diretórios livremente. |
 | **Exclusão do Arquivo Original** | O conteúdo **permanece íntegro** e acessível até que o contador de links caia para zero. | O link simbólico fica **quebrado / órfão (*dangling link*)**, apontando para um caminho inexistente. |
+
+### 4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)
+
+- **Linux ext4:** Sistema de arquivos padrão na maioria das distribuições Linux. Suporta **journaling** (diário de transações que previne corrupção de metadados em quedas de energia) com três modos (`journal`, `ordered`, `writeback`), alocação por extensões (*extents*) e volumes de até 1 Exabyte.
+- **Linux XFS:** Sistema de arquivos escalável de 64 bits de altíssimo desempenho, padrão no RHEL, otimizado para operações paralelas e manipulação de arquivos gigantescos.
+- **Windows NTFS (*New Technology File System*):** Padrão do Windows corporativo. Suporta listas de controle de acesso (ACLs - DACL e SACL), journaling via Master File Table (**MFT**), cotas de disco, compressão nativa de arquivos e criptografia no nível de arquivo via **EFS** (*Encrypting File System*).
+- **FAT32:** Sistema legado com compatibilidade universal, mas limitado a arquivos individuais de no máximo **4 GB** e sem suporte nativo a permissões de segurança ACL.
+
+### 4.4 Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)
+
+As permissões básicas dividem-se em Usuário Dono (`u`), Grupo (`g`) e Outros (`o`):
+
+- Leitura (`r`) = $4$
+- Escrita (`w`) = $2$
+- Execução (`x`) = $1$
+
+$$\text{Exemplo: } 750 \implies \text{Dono: } 4+2+1=7\,(rwx); \quad \text{Grupo: } 4+0+1=5\,(r-x); \quad \text{Outros: } 0\,(---)$$
+
+#### Permissões Especiais:
+1. **SUID (*Set User ID* - 4000 / `rwsr-xr-x`):** Executa o programa com os privilégios do **proprietário do arquivo**, e não de quem o chamou (ex.: `/usr/bin/passwd`).
+2. **SGID (*Set Group ID* - 2000 / `rwxr-sr-x`):** Em diretórios, faz com que quaisquer novos arquivos ou subdiretórios criados **herdem automaticamente o grupo do diretório pai**.
+3. **Sticky Bit (1000 / `rwxrwxrwt`):** Aplicado a diretórios públicos (como `/tmp`). Impede que um usuário exclua ou renomeie arquivos pertencentes a outros usuários, mesmo com permissão $777$.
 
 ---
 
@@ -508,34 +493,6 @@ Está correto o que se afirma em:
 
 ---
 
-
-
-### 4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)
-
-- **Linux ext4:** Sistema de arquivos padrão na maioria das distribuições Linux. Suporta **journaling** (diário de transações que previne corrupção de metadados em quedas de energia) com três modos (`journal`, `ordered`, `writeback`), alocação por extensões (*extents*) e volumes de até 1 Exabyte.
-- **Linux XFS:** Sistema de arquivos escalável de 64 bits de altíssimo desempenho, padrão no RHEL, otimizado para operações paralelas e manipulação de arquivos gigantescos.
-- **Windows NTFS (*New Technology File System*):** Padrão do Windows corporativo. Suporta listas de controle de acesso (ACLs - DACL e SACL), journaling via Master File Table (**MFT**), cotas de disco, compressão nativa de arquivos e criptografia no nível de arquivo via **EFS** (*Encrypting File System*).
-- **FAT32:** Sistema legado com compatibilidade universal, mas limitado a arquivos individuais de no máximo **4 GB** e sem suporte nativo a permissões de segurança ACL.
-
----
-
-### 4.4 Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)
-
-As permissões básicas dividem-se em Usuário Dono (`u`), Grupo (`g`) e Outros (`o`):
-
-- Leitura (`r`) = $4$
-- Escrita (`w`) = $2$
-- Execução (`x`) = $1$
-
-$$\text{Exemplo: } 750 \implies \text{Dono: } 4+2+1=7\,(rwx); \quad \text{Grupo: } 4+0+1=5\,(r-x); \quad \text{Outros: } 0\,(---)$$
-
-#### Permissões Especiais:
-1. **SUID (*Set User ID* - 4000 / `rwsr-xr-x`):** Executa o programa com os privilégios do **proprietário do arquivo**, e não de quem o chamou (ex.: `/usr/bin/passwd`).
-2. **SGID (*Set Group ID* - 2000 / `rwxr-sr-x`):** Em diretórios, faz com que quaisquer novos arquivos ou subdiretórios criados **herdem automaticamente o grupo do diretório pai**.
-3. **Sticky Bit (1000 / `rwxrwxrwt`):** Aplicado a diretórios públicos (como `/tmp`). Impede que um usuário exclua ou renomeie arquivos pertencentes a outros usuários, mesmo com permissão $777$.
-
----
-
 ### Teste 417
 **(FCC - TRT / Analista Judiciário - TI - Permissões Octais e Especiais no Linux: SUID, SGID e Sticky Bit)**
 Nos sistemas de arquivos de ambientes Linux/POSIX, a segurança de arquivos e diretórios é regida pela matriz de permissões associadas ao Proprietário (*User - u*), Grupo (*Group - g*) e Outros (*Others - o*), acrescida dos três bits de permissões especiais: **SUID**, **SGID** e **Sticky Bit**.
@@ -568,10 +525,7 @@ A respeito do significado do primeiro dígito `1` (Sticky Bit) e dos efeitos pr�
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Administração e Shell Scripting no Linux
 
@@ -582,6 +536,27 @@ A respeito do significado do primeiro dígito `1` (Sticky Bit) e dos efeitos pr�
 - `SIGHUP` (Sinal 1): Desconexão de terminal (*hangup*). Utilizado comumente para forçar *daemons* a recarregar arquivos de configuração sem reiniciar o serviço.
 - `SIGSTOP` (Sinal 19): Pausa a execução do processo. **Não pode ser capturado nem ignorado**.
 - `SIGCONT` (Sinal 18): Retoma a execução de um processo previamente pausado.
+
+### 5.2 Comandos Essenciais, Filtros e Redirecionamentos
+
+- `ps aux`: Lista processos detalhados de todos os usuários (`a`), com usuário associado (`u`) e sem terminal (`x`).
+- `grep -rn "padrao" /caminho`: Busca recursiva (`-r`) exibindo a linha (`-n`).
+- `find /var/log -type f -name "*.log" -mtime -7`: Localiza arquivos regulares modificados nos últimos 7 dias.
+- **Redirecionadores de Fluxo:**
+    - `>`: Sobrescreve a saída padrão (stdout / descritor 1).
+    - `>>`: Anexa à saída padrão.
+    - `2>`: Redireciona a saída de erros (stderr / descritor 2).
+    - `2>&1`: Redireciona os erros para o mesmo destino da saída padrão.
+    - `|` (Pipe): Conecta a saída padrão de um comando à entrada padrão do próximo.
+
+### 5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)
+
+O **systemd** é o sistema de inicialização padrão do Linux moderno:
+
+- `systemctl start <servico>`: Inicia o serviço imediatamente na sessão corrente.
+- `systemctl enable <servico>`: Configura o serviço para iniciar automaticamente no boot do SO.
+- `systemctl status <servico>`: Exibe o estado operacional e os últimos logs do serviço.
+- `journalctl -u <servico> -f`: Monitora os logs do serviço em tempo real.
 
 ---
 
@@ -618,33 +593,6 @@ Assinale a alternativa que indica, correta e respectivamente, o comando para atr
 
 ---
 
-
-
-### 5.2 Comandos Essenciais, Filtros e Redirecionamentos
-
-- `ps aux`: Lista processos detalhados de todos os usuários (`a`), com usuário associado (`u`) e sem terminal (`x`).
-- `grep -rn "padrao" /caminho`: Busca recursiva (`-r`) exibindo a linha (`-n`).
-- `find /var/log -type f -name "*.log" -mtime -7`: Localiza arquivos regulares modificados nos últimos 7 dias.
-- **Redirecionadores de Fluxo:**
-    - `>`: Sobrescreve a saída padrão (stdout / descritor 1).
-    - `>>`: Anexa à saída padrão.
-    - `2>`: Redireciona a saída de erros (stderr / descritor 2).
-    - `2>&1`: Redireciona os erros para o mesmo destino da saída padrão.
-    - `|` (Pipe): Conecta a saída padrão de um comando à entrada padrão do próximo.
-
----
-
-### 5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)
-
-O **systemd** é o sistema de inicialização padrão do Linux moderno:
-
-- `systemctl start <servico>`: Inicia o serviço imediatamente na sessão corrente.
-- `systemctl enable <servico>`: Configura o serviço para iniciar automaticamente no boot do SO.
-- `systemctl status <servico>`: Exibe o estado operacional e os últimos logs do serviço.
-- `journalctl -u <servico> -f`: Monitora os logs do serviço em tempo real.
-
----
-
 ### Teste 419
 **(FGV - TRT / Analista Judiciário - TI - Gerenciamento de Serviços e Logs no Linux com systemd)**
 O `systemd` consolidou-se como o sistema de inicialização (*init system*) e gerenciador de serviços padrão na esmagadora maioria das distribuições Linux empresariais modernas (RHEL, Debian, Ubuntu, Rocky Linux).
@@ -675,10 +623,7 @@ Para administrar serviços de rede (como o servidor web Apache/Nginx ou PostgreS
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Administração de Windows e Windows PowerShell
 
@@ -695,8 +640,6 @@ flowchart LR
         A2["Get-Process"] -- "Coleção de Objetos .NET (System.Diagnostics.Process)" --> B2["Where-Object / Select-Object"] -- "Objetos tipados estruturados" --> C2["Format / Export / Ação"]
     end
 ```
-
----
 
 ### 6.2 Cmdlets Essenciais de Administração e Filtragem
 
@@ -716,6 +659,19 @@ Get-Service | Select-Object -Property Name, DisplayName
 ```
 
 - `Get-Process` e `Stop-Process`: Gestão e encerramento de processos em execução.
+
+### 6.3 Políticas de Execução de Scripts (ExecutionPolicy)
+
+As políticas de execução controlam as condições para execução de scripts `.ps1`:
+
+- `Restricted`: Não executa nenhum script; permite apenas comandos interativos digitados no terminal.
+- `RemoteSigned`: Scripts criados localmente rodam livremente; scripts baixados da Internet exigem assinatura digital confiável.
+- `AllSigned`: Todos os scripts exigem assinatura digital confiável para rodar.
+- `Unrestricted`: Executa todos os scripts, exibindo alerta apenas para arquivos baixados da Internet.
+- `Bypass`: Nada é bloqueado e nenhum aviso é exibido.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A política de execução do PowerShell **NÃO é um mecanismo de segurança perimetral**! Trata-se de uma salvaguarda operacional contra execução acidental de scripts. Um usuário comum pode contorná-la facilmente adicionando o parâmetro `-ExecutionPolicy Bypass` ao invocar o executável do PowerShell.
 
 ---
 
@@ -745,26 +701,6 @@ Considerando a arquitetura interna do PowerShell, baseada na manipulação de co
 > **Gabarito: B**
 
 ---
-
-
-
-### 6.3 Políticas de Execução de Scripts (ExecutionPolicy)
-
-As políticas de execução controlam as condições para execução de scripts `.ps1`:
-
-- `Restricted`: Não executa nenhum script; permite apenas comandos interativos digitados no terminal.
-- `RemoteSigned`: Scripts criados localmente rodam livremente; scripts baixados da Internet exigem assinatura digital confiável.
-- `AllSigned`: Todos os scripts exigem assinatura digital confiável para rodar.
-- `Unrestricted`: Executa todos os scripts, exibindo alerta apenas para arquivos baixados da Internet.
-- `Bypass`: Nada é bloqueado e nenhum aviso é exibido.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A política de execução do PowerShell **NÃO é um mecanismo de segurança perimetral**! Trata-se de uma salvaguarda operacional contra execução acidental de scripts. Um usuário comum pode contorná-la facilmente adicionando o parâmetro `-ExecutionPolicy Bypass` ao invocar o executável do PowerShell.
-
-
-
----
-
 
 ## 6. Fontes Recomendadas na Internet
 

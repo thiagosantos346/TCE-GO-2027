@@ -54,10 +54,7 @@
     - Prazos de prescrição da ação disciplinar: **5 anos** (demissão e cassação), **2 anos** (suspensão) e **180 dias** (advertência);
     - Sindicância e Processo Administrativo Disciplinar (PAD): comissão composta por 3 servidores estáveis, contraditório, ampla defesa e revisão disciplinar.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -67,8 +64,8 @@
     3. [Requisitos Básicos para Investidura](#13-requisitos-basicos-para-investidura)
 2. [Dinâmica de Ingresso: Nomeação, Posse e Exercício](#2-dinamica-de-ingresso-nomeacao-posse-e-exercicio)
     1. [A Trilha Temporal de Investidura](#21-a-trilha-temporal-de-investidura)
-    2. [Teste 460](#Teste-460)
-    3. [Consequências Jurídicas do Descumprimento dos Prazos](#22-consequencias-juridicas-do-descumprimento-dos-prazos)
+    2. [Consequências Jurídicas do Descumprimento dos Prazos](#22-consequencias-juridicas-do-descumprimento-dos-prazos)
+    3. [Teste 460](#Teste-460)
     4. [Teste 461](#Teste-461)
 3. [Estágio Probatório e Estabilidade Constitucional](#3-estagio-probatorio-e-estabilidade-constitucional)
     1. [Requisitos e Fatores de Avaliação Especial](#31-requisitos-e-fatores-de-avaliacao-especial)
@@ -77,8 +74,8 @@
     4. [Teste 462](#Teste-462)
 4. [Provimento Derivado e Vacância de Cargos Públicos](#4-provimento-derivado-e-vacancia-de-cargos-publicos)
     1. [Formas Derivadas de Provimento (Quadro Comparativo)](#41-formas-derivadas-de-provimento-quadro-comparativo)
-    2. [Teste 463](#Teste-463)
-    3. [Hipóteses Legais de Vacância](#42-hipoteses-legais-de-vacancia)
+    2. [Hipóteses Legais de Vacância](#42-hipoteses-legais-de-vacancia)
+    3. [Teste 463](#Teste-463)
     4. [Teste 464](#Teste-464)
 5. [Direitos, Vantagens Pecuniárias e Licenças Estatutárias](#5-direitos-vantagens-pecuniarias-e-licencas-estatutarias)
     1. [Sistema Remuneratório: Vencimento, Remuneração e Indenizações](#51-sistema-remuneratorio-vencimento-remuneracao-e-indenizacoes)
@@ -88,16 +85,15 @@
 6. [Regime Disciplinar e Processo Sancionador](#6-regime-disciplinar-e-processo-sancionador)
     1. [Responsabilidade Funcional e Independência Relativa das Instâncias](#61-responsabilidade-funcional-e-independencia-relativa-das-instancias)
     2. [As Penalidades Disciplinares e Hipóteses de Demissão](#62-as-penalidades-disciplinares-e-hipoteses-de-demissao)
-    3. [Teste 466](#Teste-466)
-    4. [Prazos de Prescrição da Pretensão Punitiva](#63-prazos-de-prescricao-da-pretensao-punitiva)
-    5. [Teste 467](#Teste-467)
-    6. [Sindicância e Processo Administrativo Disciplinar (PAD)](#64-sindicancia-e-processo-administrativo-disciplinar-pad)
+    3. [Prazos de Prescrição da Pretensão Punitiva](#63-prazos-de-prescricao-da-pretensao-punitiva)
+    4. [Sindicância e Processo Administrativo Disciplinar (PAD)](#64-sindicancia-e-processo-administrativo-disciplinar-pad)
+    5. [Teste 466](#Teste-466)
+    6. [Teste 467](#Teste-467)
     7. [Teste 468](#Teste-468)
     8. [Teste 469](#Teste-469)
 7. [Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Disposições Gerais e Conceitos Estruturais
 
@@ -158,10 +154,7 @@ Para a investidura em cargo público civil do Estado de Goiás, exige-se o preen
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A comprovação dos requisitos de investidura (escolaridade, idade, registro em conselho) é exigida no momento da **POSSE** e não da inscrição no concurso público, em estrita consonância com a Súmula nº 266 do STJ (*"O diploma ou habilitação legal para o exercício do cargo deve ser exigido na posse e não na inscrição para o concurso público"*). Exceção única: quando a lei ou edital exigir expressamente a comprovação de tempo de prática forense ou atividade jurídica prévia já no ato da inscrição definitiva em carreiras jurídicas específicas.
 
-
-
 ---
-
 
 ## 2. Dinâmica de Ingresso: Nomeação, Posse e Exercício
 
@@ -194,6 +187,21 @@ flowchart TD
     - O prazo para o servidor empossado entrar em exercício é de **15 (quinze) dias**, contados da data da posse;
     - A contagem do tempo de serviço público e do estágio probatório tem início na exata data em que o servidor entra em efetivo exercício.
 
+### 2.2 Consequências Jurídicas do Descumprimento dos Prazos
+
+O desrespeito aos prazos legais acarreta efeitos administrativos substancialmente distintos, frequentemente cobrados pela banca FCC:
+
+| Situação Administrativa | Prazo Legal Aplicável | Efeito do Descumprimento | Fundamento Jurídico |
+| :--- | :--- | :--- | :--- |
+| **Candidato Nomeado NÃO toma posse** | **30 dias** contados da publicação no DOE | **O ato de nomeação é tornado sem efeito** | O candidato ainda não havia ingressado no serviço público; logo, desconstitui-se o chamamento administrativo primitivo. |
+| **Servidor Empossado NÃO entra em exercício** | **15 dias** contados da assinatura do termo de posse | **Exoneração de ofício do servidor** | A investidura já ocorreu formalmente com a posse. Como o indivíduo já é juridicamente servidor público, exige-se ato de desprovimento/vacância (exoneração de ofício). |
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A banca frequentemente troca as consequências:  
+>
+> - Ela afirma que o candidato nomeado que não toma posse será *exonerado* (**FALSO**, pois a nomeação é tornada sem efeito);  
+> - Ela afirma que o empossado que não entra em exercício terá sua posse *anulada* ou será *demitido* (**FALSO**, a demissão é punição disciplinar que pressupõe PAD, ao passo que a consequência legal é a **exoneração de ofício**).
+
 ---
 
 ### Teste 460
@@ -223,24 +231,6 @@ Um cidadão regularmente aprovado em concurso público para o cargo de Técnico 
 
 ---
 
-
-### 2.2 Consequências Jurídicas do Descumprimento dos Prazos
-
-O desrespeito aos prazos legais acarreta efeitos administrativos substancialmente distintos, frequentemente cobrados pela banca FCC:
-
-| Situação Administrativa | Prazo Legal Aplicável | Efeito do Descumprimento | Fundamento Jurídico |
-| :--- | :--- | :--- | :--- |
-| **Candidato Nomeado NÃO toma posse** | **30 dias** contados da publicação no DOE | **O ato de nomeação é tornado sem efeito** | O candidato ainda não havia ingressado no serviço público; logo, desconstitui-se o chamamento administrativo primitivo. |
-| **Servidor Empossado NÃO entra em exercício** | **15 dias** contados da assinatura do termo de posse | **Exoneração de ofício do servidor** | A investidura já ocorreu formalmente com a posse. Como o indivíduo já é juridicamente servidor público, exige-se ato de desprovimento/vacância (exoneração de ofício). |
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A banca frequentemente troca as consequências:  
->
-> - Ela afirma que o candidato nomeado que não toma posse será *exonerado* (**FALSO**, pois a nomeação é tornada sem efeito);  
-> - Ela afirma que o empossado que não entra em exercício terá sua posse *anulada* ou será *demitido* (**FALSO**, a demissão é punição disciplinar que pressupõe PAD, ao passo que a consequência legal é a **exoneração de ofício**).
-
----
-
 ### Teste 461
 **(FCC – Inédita – Padrão TCE-GO)**
 De acordo com a Lei Estadual nº 20.756/2020 (Regime Jurídico dos Servidores Públicos Civis do Estado de Goiás), a respeito dos prazos legais do ciclo de investidura (posse e exercício), assinale a afirmativa correta:
@@ -264,10 +254,7 @@ De acordo com a Lei Estadual nº 20.756/2020 (Regime Jurídico dos Servidores P�
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 3. Estágio Probatório e Estabilidade Constitucional
 
@@ -351,10 +338,7 @@ No regime estatutário do Estado de Goiás (Lei nº 20.756/2020), o servidor pú
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 4. Provimento Derivado e Vacância de Cargos Públicos
 
@@ -388,6 +372,21 @@ flowchart TD
 >   2º) É **aproveitado** em outro cargo de atribuições e vencimentos equivalentes;  
 >   3º) Se não houver vaga disponível para recondução ou aproveitamento, é posto em **disponibilidade remunerada proporcional** ao tempo de contribuição.
 
+### 4.2 Hipóteses Legais de Vacância
+
+Vacância é o ato ou fato administrativo que extingue o provimento, tornando desocupado o cargo público. No Estatuto Goiano (Lei nº 20.756/2020), as hipóteses de vacância são:
+
+1. **Exoneração:** desprovimento sem conotação sancionatória/punitiva. Dá-se:
+    - *A pedido* do próprio servidor;
+    - *De ofício:* quando não satisfeitas as condições do estágio probatório ou quando o servidor empossado não entrar em exercício no prazo legal de 15 dias; ou ainda para desocupação de cargo em comissão.
+
+2. **Demissão:** sanção disciplinar punitiva expulsória aplicada em razão do cometimento de falta funcional gravíssima apurada em regular PAD.
+3. **Readaptação:** gera vacância do cargo originário no momento em que o servidor é investido no cargo adaptado às suas limitações.
+4. **Aposentadoria:** extingue o provimento ativo, abrindo vaga no quadro funcional.
+5. **Posse em outro cargo inacumulável:** desocupa o cargo originário quando o servidor assume nova titularidade estatutária que veda a cumulação (CF/88, art. 37, XVI).
+6. **Falecimento:** extinção natural decorrente da morte biológica do titular.
+7. **Destituição de cargo em comissão:** desvinculação punitiva ou formal do titular de cargo comissionado sem vínculo efetivo.
+
 ---
 
 ### Teste 463
@@ -417,24 +416,6 @@ Rodrigo, servidor público estável do Estado de Goiás, foi demitido da reparti
 
 ---
 
-
-### 4.2 Hipóteses Legais de Vacância
-
-Vacância é o ato ou fato administrativo que extingue o provimento, tornando desocupado o cargo público. No Estatuto Goiano (Lei nº 20.756/2020), as hipóteses de vacância são:
-
-1. **Exoneração:** desprovimento sem conotação sancionatória/punitiva. Dá-se:
-    - *A pedido* do próprio servidor;
-    - *De ofício:* quando não satisfeitas as condições do estágio probatório ou quando o servidor empossado não entrar em exercício no prazo legal de 15 dias; ou ainda para desocupação de cargo em comissão.
-
-2. **Demissão:** sanção disciplinar punitiva expulsória aplicada em razão do cometimento de falta funcional gravíssima apurada em regular PAD.
-3. **Readaptação:** gera vacância do cargo originário no momento em que o servidor é investido no cargo adaptado às suas limitações.
-4. **Aposentadoria:** extingue o provimento ativo, abrindo vaga no quadro funcional.
-5. **Posse em outro cargo inacumulável:** desocupa o cargo originário quando o servidor assume nova titularidade estatutária que veda a cumulação (CF/88, art. 37, XVI).
-6. **Falecimento:** extinção natural decorrente da morte biológica do titular.
-7. **Destituição de cargo em comissão:** desvinculação punitiva ou formal do titular de cargo comissionado sem vínculo efetivo.
-
----
-
 ### Teste 464
 **(FCC – Inédita – Padrão TCE-GO)**
 Acerca do regime de férias remuneradas disciplinado pela Lei Estadual nº 20.756/2020 dos Servidores Públicos Civis de Goiás, é correto afirmar:
@@ -458,10 +439,7 @@ Acerca do regime de férias remuneradas disciplinado pela Lei Estadual nº 20.75
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 5. Direitos, Vantagens Pecuniárias e Licenças Estatutárias
 
@@ -538,10 +516,7 @@ Nos moldes da Lei Estadual nº 20.756/2020, o servidor público estável poderá
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 6. Regime Disciplinar e Processo Sancionador
 
@@ -622,6 +597,39 @@ flowchart TD
 > - **Inassiduidade habitual:** ausência injustificada por **60 (sessenta) dias interpolados** no período de **12 meses**.  
 > Cuidado com cascas de banana da FCC: 30 dias exatos consecutivos NÃO é abandono (a lei exige expressamente *mais de 30 dias*, ou seja, a partir do 31º dia consecutivo)!
 
+### 6.3 Prazos de Prescrição da Pretensão Punitiva
+
+A pretensão disciplinar punitiva da administração estadual prescreve nos seguintes prazos legais, contados da data em que a autoridade competente para instaurar o processo toma formalmente conhecimento da infração:
+
+```mermaid
+flowchart LR
+    P5["DEMISSÃO / CASSAÇÃO<br/>Prazo: 5 (CINCO) ANOS"]
+    P2["SUSPENSÃO<br/>Prazo: 2 (DOIS) ANOS"]
+    P180["ADVERTÊNCIA<br/>Prazo: 180 (CENTO E OITENTA) DIAS"]
+```
+
+* **5 (cinco) anos:** para infrações capituladas com sanção de **demissão**, **cassação de aposentadoria ou de disponibilidade** e destituição de cargo em comissão;
+* **2 (dois) anos:** para infrações puníveis com **suspensão**;
+* **180 (cento e oitenta) dias:** para faltas leves puníveis com **advertência**.
+* *Falta funcional tipificada simultaneamente como crime:* o prazo prescricional da ação disciplinar regula-se pelo mesmo prazo prescricional estipulado na lei penal ordinária para o respectivo delito (CP, art. 109).
+* *Interrupção da Prescrição:* a portaria de instauração da sindicância punitiva ou do processo administrativo disciplinar (PAD) **interrompe o curso do prazo de prescrição** até a decisão final proferida pela autoridade competente.
+
+### 6.4 Sindicância e Processo Administrativo Disciplinar (PAD)
+
+* **Sindicância Administrativa:**
+    - Procedimento sumário de apuração instaurado quando não houver indícios suficientes de autoria ou materialidade da infração;
+    - Pode resultar em: arquivamento sumário dos autos, aplicação de penalidade de advertência ou suspensão de até 30 dias, ou recomendação de instauração obrigatória de PAD.
+* **Processo Administrativo Disciplinar (PAD):**
+    - Rito obrigatório para aplicação de penalidade de **suspensão superior a 30 dias**, **demissão**, **cassação de aposentadoria/disponibilidade** e **destituição de cargo comissionado**;
+    - **Comissão Processante:** composta obrigatoriamente por **3 (três) servidores públicos estáveis**, designados pela autoridade instauradora, que indicará dentre eles o Presidente (que deve ocupar cargo efetivo de nível igual ou superior ao do indiciado);
+    - **Fases Procedimentais Básicas:**
+        1. *Instauração:* publicação da portaria que designa os membros da comissão;
+        2. *Inquérito Administrativo:* instrução probatória ampla (oitiva de testemunhas, perícias, vistorias e interrogatório do acusado), indiciação formal com descrição detalhada dos fatos imputados, e apresentação de defesa escrita pelo servidor indiciado;
+        3. *Relatório Conclusivo:* elaboração do relatório final pela comissão, apreciando as provas e opinando pela absolvição ou condenação do indiciado;
+        4. *Julgamento:* decisão proferida pela autoridade competente.
+
+* **Garantias Constitucionais:** asseguram-se ao servidor indiciado o contraditório, ampla defesa, acompanhamento por advogado constituído ou defensor dativo, vista aos autos e o direito de requerer novas provas relevantes e pertinentes.
+
 ---
 
 ### Teste 466
@@ -646,26 +654,6 @@ Um servidor público titular de cargo efetivo da administração direta do Estad
 > - **E)** Incorreta. A aposentadoria compulsória decorre da idade limite constitucional (75 anos) e não de infração funcional dolosa.
 > 
 > **Gabarito: B**
-
----
-
-
-### 6.3 Prazos de Prescrição da Pretensão Punitiva
-
-A pretensão disciplinar punitiva da administração estadual prescreve nos seguintes prazos legais, contados da data em que a autoridade competente para instaurar o processo toma formalmente conhecimento da infração:
-
-```mermaid
-flowchart LR
-    P5["DEMISSÃO / CASSAÇÃO<br/>Prazo: 5 (CINCO) ANOS"]
-    P2["SUSPENSÃO<br/>Prazo: 2 (DOIS) ANOS"]
-    P180["ADVERTÊNCIA<br/>Prazo: 180 (CENTO E OITENTA) DIAS"]
-```
-
-* **5 (cinco) anos:** para infrações capituladas com sanção de **demissão**, **cassação de aposentadoria ou de disponibilidade** e destituição de cargo em comissão;
-* **2 (dois) anos:** para infrações puníveis com **suspensão**;
-* **180 (cento e oitenta) dias:** para faltas leves puníveis com **advertência**.
-* *Falta funcional tipificada simultaneamente como crime:* o prazo prescricional da ação disciplinar regula-se pelo mesmo prazo prescricional estipulado na lei penal ordinária para o respectivo delito (CP, art. 109).
-* *Interrupção da Prescrição:* a portaria de instauração da sindicância punitiva ou do processo administrativo disciplinar (PAD) **interrompe o curso do prazo de prescrição** até a decisão final proferida pela autoridade competente.
 
 ---
 
@@ -694,25 +682,6 @@ Em matéria de poder disciplinar sancionador preconizado na Lei Estadual de Goi�
 > - **E)** Incorreta. Inversão e encurtamento aberrante dos prazos estatutários.
 > 
 > **Gabarito: A**
-
----
-
-
-### 6.4 Sindicância e Processo Administrativo Disciplinar (PAD)
-
-* **Sindicância Administrativa:**
-    - Procedimento sumário de apuração instaurado quando não houver indícios suficientes de autoria ou materialidade da infração;
-    - Pode resultar em: arquivamento sumário dos autos, aplicação de penalidade de advertência ou suspensão de até 30 dias, ou recomendação de instauração obrigatória de PAD.
-* **Processo Administrativo Disciplinar (PAD):**
-    - Rito obrigatório para aplicação de penalidade de **suspensão superior a 30 dias**, **demissão**, **cassação de aposentadoria/disponibilidade** e **destituição de cargo comissionado**;
-    - **Comissão Processante:** composta obrigatoriamente por **3 (três) servidores públicos estáveis**, designados pela autoridade instauradora, que indicará dentre eles o Presidente (que deve ocupar cargo efetivo de nível igual ou superior ao do indiciado);
-    - **Fases Procedimentais Básicas:**
-        1. *Instauração:* publicação da portaria que designa os membros da comissão;
-        2. *Inquérito Administrativo:* instrução probatória ampla (oitiva de testemunhas, perícias, vistorias e interrogatório do acusado), indiciação formal com descrição detalhada dos fatos imputados, e apresentação de defesa escrita pelo servidor indiciado;
-        3. *Relatório Conclusivo:* elaboração do relatório final pela comissão, apreciando as provas e opinando pela absolvição ou condenação do indiciado;
-        4. *Julgamento:* decisão proferida pela autoridade competente.
-
-* **Garantias Constitucionais:** asseguram-se ao servidor indiciado o contraditório, ampla defesa, acompanhamento por advogado constituído ou defensor dativo, vista aos autos e o direito de requerer novas provas relevantes e pertinentes.
 
 ---
 
@@ -763,10 +732,7 @@ Quanto aos prazos de prescrição da pretensão punitiva disciplinar da Administ
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 7. Fontes Oficiais e Referências Bibliográficas
 

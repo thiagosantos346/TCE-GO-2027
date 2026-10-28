@@ -28,38 +28,43 @@
 - Despesas de Exercícios Anteriores (DEA): as três hipóteses legais taxativas do Artigo 37 da Lei nº 4.320/1964;
 - Suprimento de Fundos (Regime de Adiantamento): conceito, hipóteses restritas de concessão (pequeno vulto, urgência, viagens e despesas sigilosas), proibições absolutas de concessão e prestação de contas.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Despesa Pública: Conceito e Estágios Legais](#1-despesa-publica-conceito-e-estagios-legais)
-    2. [Teste 230](#Teste-230)
-    3. [Teste 231](#Teste-231)
-    4. [Teste 232](#Teste-232)
-    5. [Estrutura e Classificações da Despesa Orçamentária](#2-estrutura-e-classificacoes-da-despesa-orcamentaria)
-    6. [Teste 233](#Teste-233)
-    7. [Teste 234](#Teste-234)
-    8. [Restos a Pagar (RAP) e Despesas de Exercícios Anteriores (DEA)](#3-restos-a-pagar-rap-e-despesas-de-exercicios-anteriores-dea)
-    9. [Teste 235](#Teste-235)
-    10. [Teste 236](#Teste-236)
-    11. [Teste 237](#Teste-237)
-    12. [Regime Excepcional de Suprimento de Fundos (Adiantamento)](#4-regime-excepcional-de-suprimento-de-fundos-adiantamento)
-    13. [Teste 238](#Teste-238)
-    14. [Teste 239](#Teste-239)
-2. [Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+1. [Despesa Pública: Conceito e Estágios Legais](#1-despesa-publica-conceito-e-estagios-legais)
+    1. [Despesa Orçamentária vs. Dispêndios Extraorçamentários](#11-despesa-orcamentaria-vs-dispendios-extraorcamentarios)
+    2. [Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)](#12-os-quatro-estagios-da-despesa-publica-fixacao-empenho-liquidacao-e-pagamento)
+    3. [Modalidades de Empenho: Ordinário, Estimativo e Global](#13-modalidades-de-empenho-ordinario-estimativo-e-global)
+    4. [Teste 230](#Teste-230)
+    5. [Teste 231](#Teste-231)
+    6. [Teste 232](#Teste-232)
+2. [Estrutura e Classificações da Despesa Orçamentária](#2-estrutura-e-classificacoes-da-despesa-orcamentaria)
+    1. [Classificação Institucional e Funcional (Matricialidade)](#21-classificacao-institucional-e-funcional-matricialidade)
+    2. [Classificação Programática: Projetos, Atividades e Operações Especiais](#22-classificacao-programatica-projetos-atividades-e-operacoes-especiais)
+    3. [Classificação por Natureza da Despesa e GNDs](#23-classificacao-por-natureza-da-despesa-e-gnds)
+    4. [A Distinção Crítica FCC: Investimentos (GND 4) vs. Inversões Financeiras (GND 5)](#24-a-distincao-critica-fcc-investimentos-gnd-4-vs-inversoes-financeiras-gnd-5)
+    5. [Teste 233](#Teste-233)
+    6. [Teste 234](#Teste-234)
+3. [Restos a Pagar (RAP) e Despesas de Exercícios Anteriores (DEA)](#3-restos-a-pagar-rap-e-despesas-de-exercicios-anteriores-dea)
+    1. [Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)](#31-restos-a-pagar-processados-rpp-vs-restos-a-pagar-nao-processados-rpnp)
+    2. [Cancelamento de RAP e a Prescrição Quinquenal](#32-cancelamento-de-rap-e-a-prescricao-quinquenal)
+    3. [As Três Hipóteses Legais de DEA (Art. 37 da Lei nº 4.320/1964)](#33-as-tres-hipoteses-legais-de-dea-art-37-da-lei-no-43201964)
+    4. [Teste 235](#Teste-235)
+    5. [Teste 236](#Teste-236)
+    6. [Teste 237](#Teste-237)
+4. [Regime Excepcional de Suprimento de Fundos (Adiantamento)](#4-regime-excepcional-de-suprimento-de-fundos-adiantamento)
+    1. [Hipóteses Restritas e Regra do Empenho Prévio](#41-hipoteses-restritas-e-regra-do-empenho-previo)
+    2. [Vedações Categóricas e Prestação de Contas](#42-vedacoes-categoricas-e-prestacao-de-contas)
+    3. [Teste 238](#Teste-238)
+    4. [Teste 239](#Teste-239)
+5. [🌐 Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
 
 ---
 
+## 1. Despesa Pública: Conceito e Estágios Legais
 
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Despesa Pública: Conceito e Estágios Legais
-
-#### 1.1 Despesa Orçamentária vs. Dispêndios Extraorçamentários
+### 1.1 Despesa Orçamentária vs. Dispêndios Extraorçamentários
 No direito financeiro e na contabilidade pública, a realização de saídas financeiras dos cofres estatais divide-se em:
 
 - **Despesas Orçamentárias (Sentido Estrito):** São aquelas que necessitam de prévia autorização legislativa fixada na Lei Orçamentária Anual (ou em créditos adicionais) para serem executadas, destinando-se a financiar os serviços públicos, investimentos e transferências governamentais.
@@ -72,7 +77,7 @@ flowchart TD
     Saidas --> DE["Dispêndios Extraorçamentários<br/>• NÃO constam como dotação da LOA<br/>• Extinguem passivo financeiro preexistente<br/>• Ex.: Devolução de cauções, repasse de consignações, pagamento de RAP"]
 ```
 
-#### 1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)
+### 1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)
 A execução formal da despesa pública submete-se a quatro estágios sucessivos e interdependentes (arts. 58 a 65 da Lei Federal nº 4.320/1964):
 
 ```mermaid
@@ -103,6 +108,15 @@ flowchart LR
     - Processa-se mediante **Ordem Bancária (OB)** emitida contra a Conta Única do Tesouro Estadual diretamente em favor do credor.
     - **Regra de Interdependência (Art. 62):** A ordem de pagamento só pode ser expedida após a regular liquidação da despesa!
 
+### 1.3 Modalidades de Empenho: Ordinário, Estimativo e Global
+A legislação orçamentária prevê três modalidades formais de empenho, a serem adotadas conforme a natureza da obrigação contratual:
+
+| Modalidade de Empenho | Montante da Despesa | Forma de Desembolso / Pagamento | Casos Práticos de Aplicação (Padrão FCC) |
+| :--- | :--- | :--- | :--- |
+| **Ordinário (Comum)** | Exato e previamente conhecido. | **Parcela única** (desembolso de uma só vez). | Aquisição de lote de veículos ou computadores faturados e entregues de uma só vez. |
+| **Estimativo** | **Inexato / Impossível** de fixar previamente. | Desembolsos parcelados ou periódicos. | Contas de consumo mensal: energia elétrica, água, telefonia, diárias e combustíveis da frota. |
+| **Global** | Exato e previamente conhecido em contrato. | **Parcelado / Sucessivo** ao longo do exercício. | Contratos de locação de imóveis (aluguel mensal fixo), contratos continuados de vigilância e medições de obras. |
+
 ---
 
 ### Teste 230
@@ -130,7 +144,6 @@ A respeito da classificação e dos estágios da despesa pública orçamentária
 
 ---
 
-
 ### Teste 231
 **(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 No tocante ao estágio da liquidação da despesa pública disciplinado nos arts. 62 e 63 da Lei Federal nº 4.320/1964, é correto afirmar:
@@ -153,18 +166,6 @@ No tocante ao estágio da liquidação da despesa pública disciplinado nos arts
 > - **E)** Incorreta. A liquidação é ato vinculado e indispensável na execução da despesa pública.
 > 
 > **Gabarito: A**
-
----
-
-
-#### 1.3 Modalidades de Empenho: Ordinário, Estimativo e Global
-A legislação orçamentária prevê três modalidades formais de empenho, a serem adotadas conforme a natureza da obrigação contratual:
-
-| Modalidade de Empenho | Montante da Despesa | Forma de Desembolso / Pagamento | Casos Práticos de Aplicação (Padrão FCC) |
-| :--- | :--- | :--- | :--- |
-| **Ordinário (Comum)** | Exato e previamente conhecido. | **Parcela única** (desembolso de uma só vez). | Aquisição de lote de veículos ou computadores faturados e entregues de uma só vez. |
-| **Estimativo** | **Inexato / Impossível** de fixar previamente. | Desembolsos parcelados ou periódicos. | Contas de consumo mensal: energia elétrica, água, telefonia, diárias e combustíveis da frota. |
-| **Global** | Exato e previamente conhecido em contrato. | **Parcelado / Sucessivo** ao longo do exercício. | Contratos de locação de imóveis (aluguel mensal fixo), contratos continuados de vigilância e medições de obras. |
 
 ---
 
@@ -195,11 +196,9 @@ A modalidade de empenho adequada e legalmente exigida para essa situação é o 
 
 ---
 
+## 2. Estrutura e Classificações da Despesa Orçamentária
 
-
-### 2. Estrutura e Classificações da Despesa Orçamentária
-
-#### 2.1 Classificação Institucional e Funcional (Matricialidade)
+### 2.1 Classificação Institucional e Funcional (Matricialidade)
 - **Classificação Institucional:** Responde à indagação: *"Quem gasta o recurso público?"*. Estrutura-se em dois níveis fundamentais:
     - **Órgão Orçamentário:** Maior nível institucional (ex.: Tribunal de Contas do Estado, Secretaria de Estado da Fazenda, Tribunal de Justiça);
     - **Unidade Orçamentária (UO):** Subunidade executora detentora direta de dotação orçamentária (ex.: Fundo de Modernização do TCE-GO, Diretoria-Geral da Polícia Civil).
@@ -208,14 +207,14 @@ A modalidade de empenho adequada e legalmente exigida para essa situação é o 
     - **Subfunção:** Ramo específico e detalhado de uma função (ex.: 122 - Administração Geral, 301 - Atenção Básica, 361 - Ensino Fundamental);
     - **Princípio da Matricialidade Funcional:** Qualquer subfunção pode ser combinada com qualquer função orçamentária, independentemente da vinculação institucional tradicional (ex.: uma escola administrada pelo TCE-GO para capacitação de servidores pode ser classificada na Função 01 - Legislativa e Subfunção 128 - Formação de Recursos Humanos).
 
-#### 2.2 Classificação Programática: Projetos, Atividades e Operações Especiais
+### 2.2 Classificação Programática: Projetos, Atividades e Operações Especiais
 A estrutura programática organiza as ações governamentais orientadas a metas em três tipos:
 
 1. **Projeto:** Instrumento de programação temporário destinado a expandir a infraestrutura pública ou criar novo bem/serviço, resultando em formação bruta de capital (ex.: construção de novo edifício-sede de fórum judicial ou implantação de rodovia);
 2. **Atividade:** Instrumento contínuo e permanente destinado à manutenção e funcionamento regular das ações governamentais preexistentes (ex.: manutenção da frota, pagamento de pessoal, fornecimento de merenda escolar);
 3. **Operação Especial:** Despesas que não resultam na produção de um bem nem na prestação direta de serviços, destinadas a obrigações financeiras do Estado (ex.: pagamento do serviço da dívida pública, sentenças judiciais/precatórios, amortizações financeiras).
 
-#### 2.3 Classificação por Natureza da Despesa e GNDs
+### 2.3 Classificação por Natureza da Despesa e GNDs
 A Portaria Interministerial STN/SOF nº 163/2001 padronizou a codificação da despesa na seguinte estrutura:
 
 $$\text{C . G . MM . EE}$$
@@ -232,6 +231,16 @@ $$\text{C . G . MM . EE}$$
     - **GND 6:** Amortização da Dívida (pagamento do principal da dívida pública fundada).
 - **3º e 4º dígitos - Modalidade de Aplicação:** Elimina a dupla contagem nas transferências intergovernamentais e entre órgãos;
 - **5º e 6º dígitos - Elemento de Despesa:** Identifica os objetos pontuais de gasto (ex.: 14 - Diárias, 30 - Material de Consumo, 52 - Equipamentos e Material Permanente).
+
+### 2.4 A Distinção Crítica FCC: Investimentos (GND 4) vs. Inversões Financeiras (GND 5)
+A jurisprudência da banca FCC cobra com rigor a distinção entre os gastos de capital que aumentam a capacidade produtiva da sociedade e os que consistem em meras transferências patrimoniais:
+
+```mermaid
+flowchart TD
+    Capital["Despesas de Capital (Código 4)"]
+    Capital --> GND4["GND 4: INVESTIMENTOS<br/>• Gera capital fixo novo na economia nacional<br/>• Aumenta a capacidade física produtiva do país<br/>• Ex.: Construção de novas pontes, compra de maquinário novo de fábrica"]
+    Capital --> GND5["GND 5: INVERSÕES FINANCEIRAS<br/>• Mera substituição/transferência de titularidade<br/>• NÃO gera capital físico novo no país<br/>• Ex.: Compra de imóvel PRONTO já em uso, desapropriação de terras, compra de ações de estatais preexistentes"]
+```
 
 ---
 
@@ -262,19 +271,6 @@ Segundo a estrutura da despesa pública por sua natureza (Portaria Interminister
 
 ---
 
-
-#### 2.4 A Distinção Crítica FCC: Investimentos (GND 4) vs. Inversões Financeiras (GND 5)
-A jurisprudência da banca FCC cobra com rigor a distinção entre os gastos de capital que aumentam a capacidade produtiva da sociedade e os que consistem em meras transferências patrimoniais:
-
-```mermaid
-flowchart TD
-    Capital["Despesas de Capital (Código 4)"]
-    Capital --> GND4["GND 4: INVESTIMENTOS<br/>• Gera capital fixo novo na economia nacional<br/>• Aumenta a capacidade física produtiva do país<br/>• Ex.: Construção de novas pontes, compra de maquinário novo de fábrica"]
-    Capital --> GND5["GND 5: INVERSÕES FINANCEIRAS<br/>• Mera substituição/transferência de titularidade<br/>• NÃO gera capital físico novo no país<br/>• Ex.: Compra de imóvel PRONTO já em uso, desapropriação de terras, compra de ações de estatais preexistentes"]
-```
-
----
-
 ### Teste 234
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na classificação da despesa orçamentária por natureza, as despesas de capital dividem-se em três Grupos de Natureza da Despesa (GND): Investimentos (GND 4), Inversões Financeiras (GND 5) e Amortização da Dívida (GND 6).
@@ -302,10 +298,9 @@ Constituem, respectivamente, Investimento (GND 4) e Inversão Financeira (GND 5)
 
 ---
 
+## 3. Restos a Pagar (RAP) e Despesas de Exercícios Anteriores (DEA)
 
-### 3. Restos a Pagar (RAP) e Despesas de Exercícios Anteriores (DEA)
-
-#### 3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)
+### 3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)
 O art. 36 da Lei Federal nº 4.320/1964 prescreve que se consideram **Restos a Pagar** as despesas empenhadas, mas não pagas até o dia 31 de dezembro, distinguindo-se em:
 
 ```mermaid
@@ -318,6 +313,17 @@ flowchart TD
 
 1. **Restos a Pagar Processados (RPP):** A despesa percorreu os estágios do empenho e da **liquidação** dentro do exercício financeiro. O credor tem direito subjetivo líquido e certo ao pagamento; a administração pública **não pode cancelar** o respectivo empenho de forma unilateral, sob pena de enriquecimento sem causa do Estado.
 2. **Restos a Pagar Não Processados (RPNP):** Despesas empenhadas cuja **liquidação não ocorreu** até 31 de dezembro (a contraprestação contratual ainda está pendente). Podem ser canceladas administrativamente caso o credor descumpra o cronograma de entrega ou o interesse público deixe de existir.
+
+### 3.2 Cancelamento de RAP e a Prescrição Quinquenal
+- Conforme o Decreto Federal nº 93.872/1986, os Restos a Pagar Não Processados perdem a validade e devem ser cancelados ao final do exercício subsequente caso a liquidação não tenha sido iniciada.
+- O cancelamento contábil de um empenho de RAP **não extingue o direito do credor**, desde que a prestação do serviço seja comprovada e não tenha decorrido a **prescrição quinquenal de 5 anos** (Decreto nº 20.910/1932). Nesses casos, o credor fará jus ao recebimento mediante reconhecimento de dívida por **Despesas de Exercícios Anteriores (DEA)**.
+
+### 3.3 As Três Hipóteses Legais de DEA (Art. 37 da Lei nº 4.320/1964)
+As dívidas passadas de exercícios orçamentários já encerrados serão empenhadas e pagas à conta das dotações constantes na **LOA do exercício corrente**, exclusivamente quando enquadradas nas seguintes hipóteses taxativas:
+
+1. **Despesas sem empenho na época própria:** Despesas para as quais o orçamento do exercício pretérito consignava crédito orçamentário próprio com **saldo suficiente**, mas que, por erro ou omissão administrativa, não foram empenhadas na época oportuna;
+2. **Restos a Pagar cancelados:** Restos a pagar com **prescrição interrompida** ou cancelados indevidamente, desde que o direito creditório do fornecedor subsista;
+3. **Compromissos reconhecidos a posteriori:** Despesas contratuais ou legais cujo reconhecimento formal da obrigação pela autoridade competente tenha ocorrido **após o encerramento do exercício financeiro**.
 
 ---
 
@@ -352,20 +358,6 @@ Em 31 de dezembro, essas duas despesas foram inscritas, respectivamente, como:
 
 ---
 
-
-#### 3.2 Cancelamento de RAP e a Prescrição Quinquenal
-- Conforme o Decreto Federal nº 93.872/1986, os Restos a Pagar Não Processados perdem a validade e devem ser cancelados ao final do exercício subsequente caso a liquidação não tenha sido iniciada.
-- O cancelamento contábil de um empenho de RAP **não extingue o direito do credor**, desde que a prestação do serviço seja comprovada e não tenha decorrido a **prescrição quinquenal de 5 anos** (Decreto nº 20.910/1932). Nesses casos, o credor fará jus ao recebimento mediante reconhecimento de dívida por **Despesas de Exercícios Anteriores (DEA)**.
-
-#### 3.3 As Três Hipóteses Legais de DEA (Art. 37 da Lei nº 4.320/1964)
-As dívidas passadas de exercícios orçamentários já encerrados serão empenhadas e pagas à conta das dotações constantes na **LOA do exercício corrente**, exclusivamente quando enquadradas nas seguintes hipóteses taxativas:
-
-1. **Despesas sem empenho na época própria:** Despesas para as quais o orçamento do exercício pretérito consignava crédito orçamentário próprio com **saldo suficiente**, mas que, por erro ou omissão administrativa, não foram empenhadas na época oportuna;
-2. **Restos a Pagar cancelados:** Restos a pagar com **prescrição interrompida** ou cancelados indevidamente, desde que o direito creditório do fornecedor subsista;
-3. **Compromissos reconhecidos a posteriori:** Despesas contratuais ou legais cujo reconhecimento formal da obrigação pela autoridade competente tenha ocorrido **após o encerramento do exercício financeiro**.
-
----
-
 ### Teste 236
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de Exercícios Anteriores (DEA), é correto afirmar que:
@@ -390,8 +382,6 @@ Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de 
 > **Gabarito: D**
 
 ---
-
-
 
 ### Teste 237
 **(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
@@ -422,8 +412,7 @@ III. Compromissos decorrentes de obrigação de pagamento criada em virtude de l
 
 ---
 
-
-### 4. Regime Excepcional de Suprimento de Fundos (Adiantamento)
+## 4. Regime Excepcional de Suprimento de Fundos (Adiantamento)
 
 O **Suprimento de Fundos** (regime de adiantamento financeiro previsto no art. 68 da Lei nº 4.320/1964 e no Decreto Federal nº 93.872/1986) consiste na entrega direta de numerário a um servidor público para execução de gastos que não possam subordinar-se ao rito ordinário de empenho -> liquidação -> pagamento:
 
@@ -435,7 +424,7 @@ flowchart TD
     SF --> Vedac["VEDAÇÕES CATEGÓRICAS:<br/>• Servidor em ALCANCE (atraso na prestação de contas anterior)<br/>• Servidor responsável por ALMOXARIFADO / guarda de bens<br/>• Fracionamento indevido para fuga de licitação"]
 ```
 
-#### 4.1 Hipóteses Restritas e Regra do Empenho Prévio
+### 4.1 Hipóteses Restritas e Regra do Empenho Prévio
 - **O empenho prévio é obrigatório:** Embora subverta a ordem cronológica usual do pagamento (o dinheiro vai para o servidor antes da compra), o recurso **deve ser formalmente empenhado** à conta da dotação orçamentária própria em nome do servidor designado (o suprido).
 - **Hipóteses Restritas:**
     1. Despesas de pequeno vulto (despesas miúdas de consumo imediato);
@@ -443,7 +432,7 @@ flowchart TD
     3. Despesas de viagens e estadias fora da sede de trabalho;
     4. Despesas sigilosas de segurança e investigação policial.
 
-#### 4.2 Vedações Categóricas e Prestação de Contas
+### 4.2 Vedações Categóricas e Prestação de Contas
 É terminantemente proibido conceder adiantamento a:
 
 - Servidor **em alcance** (que esteja em atraso no dever de prestar contas de adiantamento anterior ou que tenha tido contas rejeitadas);
@@ -507,10 +496,7 @@ No encerramento do exercício financeiro de 2024, tal despesa deverá ser inscri
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 

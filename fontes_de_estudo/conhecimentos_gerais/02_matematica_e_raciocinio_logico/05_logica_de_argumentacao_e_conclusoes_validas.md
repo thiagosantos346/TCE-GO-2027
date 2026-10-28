@@ -17,10 +17,7 @@
 - Argumentos dedutivos, premissas, conclusão e validade.
 - Silogismos categóricos e diagramas lógicos (Todo, Algum, Nenhum).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -35,28 +32,27 @@
     1. [Leis de De Morgan para Conjunção e Disjunção](#21-leis-de-de-morgan-para-conjuncao-e-disjuncao)
     2. [Negação da Condicional e a Regra do MANÉ](#22-negacao-da-condicional-e-a-regra-do-mane)
     3. [Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)](#23-equivalencias-notaveis-da-condicional-contrapositiva-e-disjuntiva-neya)
-    4. [Teste 114](#Teste-114)
-    5. [Teste 115](#Teste-115)
-    6. [Tautologias, Contradições e Contingências](#24-tautologias-contradicoes-e-contingencias)
+    4. [Tautologias, Contradições e Contingências](#24-tautologias-contradicoes-e-contingencias)
+    5. [Teste 114](#Teste-114)
+    6. [Teste 115](#Teste-115)
     7. [Teste 116](#Teste-116)
 3. [Validade de Argumentos Dedutivos e Regras de Inferência](#3-validade-de-argumentos-dedutivos-e-regras-de-inferencia)
     1. [Estrutura do Argumento: Premissas e Conclusão](#31-estrutura-do-argumento-premissas-e-conclusao)
     2. [Conceito Formal de Validade vs. Verdade Empírica](#32-conceito-formal-de-validade-vs-verdade-empirica)
     3. [Principais Regras de Inferência Válidas](#33-principais-regras-de-inferencia-validas)
-    4. [Teste 117](#Teste-117)
-    5. [O Método do Encadeamento de Premissas Verdadeiras](#34-o-metodo-do-encadeamento-de-premissas-verdadeiras)
+    4. [O Método do Encadeamento de Premissas Verdadeiras](#34-o-metodo-do-encadeamento-de-premissas-verdadeiras)
+    5. [Teste 117](#Teste-117)
     6. [Teste 118](#Teste-118)
 4. [Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos](#4-logica-de-primeira-ordem-quantificadores-e-silogismos-categoricos)
     1. [Quantificadores Universais e Existenciais: Todo, Nenhum e Algum](#41-quantificadores-universais-e-existenciais-todo-nenhum-e-algum)
     2. [Negação de Proposições Categóricas e a Mnemônica PEA + NÃO](#42-negacao-de-proposicoes-categoricas-e-a-mnemonica-pea-nao)
-    3. [Teste 119](#Teste-119)
-    4. [Análise de Silogismos via Diagramas de Euler-Venn](#43-analise-de-silogismos-via-diagramas-de-euler-venn)
+    3. [Análise de Silogismos via Diagramas de Euler-Venn](#43-analise-de-silogismos-via-diagramas-de-euler-venn)
+    4. [Teste 119](#Teste-119)
     5. [Teste 120](#Teste-120)
     6. [Teste 121](#Teste-121)
-5. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+5. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Proposições Lógicas, Princípios e Conectivos Fundamentais
 
@@ -115,6 +111,7 @@ A condicional $p \rightarrow q$ é a estrutura que mais induz candidatos a erro.
 * **A Regra do Falso Único:** A condicional só é avaliada como Falsa se ocorrer a combinação $V \rightarrow F$ (o famoso mnemônico *Vera Fischer é Falsa*).
 * Em qualquer outro caso ($V \rightarrow V$, $F \rightarrow V$, $F \rightarrow F$), **a condicional é necessariamente VERDADEIRA**. Note que, se a primeira parte for falsa, a condicional já é automaticamente verdadeira, independentemente do que venha depois.
 
+---
 
 ### Teste 112
 **(FCC – TRT-23 – Analista Judiciário)**  
@@ -149,7 +146,6 @@ De acordo com os princípios da lógica clássica proposicional, classifica-se c
 > **Gabarito: A**
 
 ---
-
 
 ### Teste 113
 **(FCC – TCE-GO – Analista de Controle Externo)**  
@@ -186,10 +182,7 @@ A negação lógica da proposição composta:
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 2. Álgebra Proposicional: Negações e Equivalências Clássicas
 
@@ -226,6 +219,12 @@ A FCC explora intensamente duas formas canônicas de reescrever a condicional $p
 2. **Equivalência Disjuntiva (Regra do NEYA - NEga a primeira OU mantêm a segunda):**
    $$p \rightarrow q \equiv \neg p \lor q$$
    *Exemplo:* *"Se o servidor observa a moralidade, sua conduta é inatacável"* $\equiv$ *"O servidor **não** observa a moralidade **OU** sua conduta é inatacável"*.
+
+### 2.4 Tautologias, Contradições e Contingências
+
+* **Tautologia:** Proposição composta que é invariavelmente verdadeira em todas as linhas da sua tabela-verdade, independentemente dos valores lógicos das proposições simples (ex.: $p \lor \neg p$, princípio do terceiro excluído).
+* **Contradição:** Proposição composta que é invariavelmente falsa em todas as linhas da sua tabela-verdade (ex.: $p \land \neg p$).
+* **Contingência:** Proposição composta cuja tabela-verdade apresenta pelo menos um valor verdadeiro e pelo menos um valor falso.
 
 ---
 
@@ -315,14 +314,6 @@ Do ponto de vista da lógica formal, a proposição:
 
 ---
 
-
-### 2.4 Tautologias, Contradições e Contingências
-
-* **Tautologia:** Proposição composta que é invariavelmente verdadeira em todas as linhas da sua tabela-verdade, independentemente dos valores lógicos das proposições simples (ex.: $p \lor \neg p$, princípio do terceiro excluído).
-* **Contradição:** Proposição composta que é invariavelmente falsa em todas as linhas da sua tabela-verdade (ex.: $p \land \neg p$).
-* **Contingência:** Proposição composta cuja tabela-verdade apresenta pelo menos um valor verdadeiro e pelo menos um valor falso.
-
-
 ### Teste 116
 **(FCC – DPE-RS – Analista)**  
 Dadas duas proposições simples $p$ e $q$, a proposição composta:  
@@ -353,10 +344,7 @@ classifica-se logicamente como uma:
 >
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 3. Validade de Argumentos Dedutivos e Regras de Inferência
 
@@ -386,6 +374,15 @@ Representa-se simbolicamente por: $P_1, P_2, \dots, P_n \vdash C$.
    $$\frac{p \lor q, \quad \neg p}{\therefore q}$$
 4. **Silogismo Hipotético (Transitividade da Condicional):**
    $$\frac{p \rightarrow q, \quad q \rightarrow r}{\therefore p \rightarrow r}$$
+
+### 3.4 O Método do Encadeamento de Premissas Verdadeiras
+
+O método prático para resolver questões com múltiplas premissas condicionais na FCC consiste em:
+
+1. Atribuir o valor lógico **VERDADEIRO ($V$)** a todas as premissas do enunciado;
+2. Localizar o ponto de partida mais restrito: quase sempre uma **proposição simples isolada** ou uma **conjunção ("E")**;
+3. Propagar esse valor veritativo pelas condicionais utilizando *Modus Ponens* ou *Modus Tollens*;
+4. As conclusões verdadeiras necessárias deduzidas correspondem à alternativa correta.
 
 ---
 
@@ -444,17 +441,6 @@ A partir dessas premissas, é correto concluir de forma necessariamente válida 
 
 ---
 
-
-### 3.4 O Método do Encadeamento de Premissas Verdadeiras
-
-O método prático para resolver questões com múltiplas premissas condicionais na FCC consiste em:
-
-1. Atribuir o valor lógico **VERDADEIRO ($V$)** a todas as premissas do enunciado;
-2. Localizar o ponto de partida mais restrito: quase sempre uma **proposição simples isolada** ou uma **conjunção ("E")**;
-3. Propagar esse valor veritativo pelas condicionais utilizando *Modus Ponens* ou *Modus Tollens*;
-4. As conclusões verdadeiras necessárias deduzidas correspondem à alternativa correta.
-
-
 ### Teste 118
 **(FCC – METRÔ-SP – Analista)**  
 Considere verdadeiras as seguintes premissas:  
@@ -487,10 +473,7 @@ A partir dessas premissas, deduz-se corretamente que:
 >
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 4. Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos
 
@@ -527,6 +510,15 @@ Para negar uma proposição quantificada, deve-se alternar o tipo de quantificad
     * Nega-se pelo quantificador universal negativo: *"Nenhum A é B"*.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA DO "TODO" VS. "NENHUM":** A alternativa mais tentadora e incorreta em provas da FCC para negar *"Todos os servidores são concursados"* é *"Nenhum servidor é concursado"*. Lembre-se: "Todo" e "Nenhum" são proposições contrárias (podem ser ambas falsas ao mesmo tempo se houver 99 concursados e 1 comissionado), mas **não são contraditórias**. A negação legítima é: *"Pelo menos um servidor não é concursado"*.
+
+### 4.3 Análise de Silogismos via Diagramas de Euler-Venn
+
+Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Algum E é P"*:
+
+* Desenhe os círculos de conjuntos de Euler-Venn;
+* O círculo $A$ está totalmente dentro de $E$;
+* O círculo $P$ cruza com $E$, mas **não se pode garantir que encoste em $A$**. Ele pode estar numa região de $E$ totalmente afastada de $A$;
+* Portanto, deduzir que *"Algum A é P"* ou *"Nenhum A é P"* constitui falácia de conclusão contingente. O que é logicamente correto afirmar é que a interseção pode ocorrer, mas **não é uma conclusão necessária**.
 
 ---
 
@@ -568,18 +560,6 @@ A afirmação *"Todos os relatórios elaborados pela comissão técnica continha
 
 ---
 
-
-### 4.3 Análise de Silogismos via Diagramas de Euler-Venn
-
-Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Algum E é P"*:
-
-* Desenhe os círculos de conjuntos de Euler-Venn;
-* O círculo $A$ está totalmente dentro de $E$;
-* O círculo $P$ cruza com $E$, mas **não se pode garantir que encoste em $A$**. Ele pode estar numa região de $E$ totalmente afastada de $A$;
-* Portanto, deduzir que *"Algum A é P"* ou *"Nenhum A é P"* constitui falácia de conclusão contingente. O que é logicamente correto afirmar é que a interseção pode ocorrer, mas **não é uma conclusão necessária**.
-
----
-
 ### Teste 120
 **(FCC – TRT – Analista Judiciário)**  
 Considere como verdadeiras as seguintes duas premissas a respeito dos membros de um tribunal:
@@ -618,6 +598,7 @@ A partir dessas premissas, é **necessariamente** correto concluir que:
 > 
 > **Gabarito: E**
 
+---
 
 ### Teste 121
 **(FCC – TRT-14 – Analista Judiciário)**  
@@ -650,10 +631,7 @@ Com base estritamente nessas duas premissas, é necessariamente correto concluir
 >
 > **Gabarito: D**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

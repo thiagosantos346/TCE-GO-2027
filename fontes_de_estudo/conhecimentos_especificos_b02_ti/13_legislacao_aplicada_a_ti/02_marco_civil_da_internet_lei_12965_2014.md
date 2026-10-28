@@ -18,55 +18,46 @@
 - Requisição judicial de registros e proteção da privacidade
 - Responsabilidade civil por danos decorrentes de conteúdo gerado por terceiros (Arts. 18, 19 e 21)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada & Fundamentos de Infraestrutura e Redes](#teoria-aprofundada-fundamentos-de-infraestrutura-e-redes)
-2. [Princípios, Garantias e Conceituação Técnica (Arts. 2º a 8º)](#1-principios-garantias-e-conceituacao-tecnica-arts-2o-a-8o)
-    1. [Vocabulário Técnico-Jurídico Essencial (Art. 5º)](#11-vocabulario-tecnico-juridico-essencial-art-5o)
-    2. [Teste 525](#Teste-525)
-    3. [Princípios e Direitos Fundamentais dos Usuários](#12-principios-e-direitos-fundamentais-dos-usuarios)
-    4. [Teste 526](#Teste-526)
-3. [O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)](#2-o-principio-da-neutralidade-de-rede-art-9o-e-decreto-no-87712016)
-    1. [Regra Geral de Tratamento Isonômico](#21-regra-geral-de-tratamento-isonomico)
-    2. [As Duas Únicas Exceções Legais à Neutralidade](#22-as-duas-unicas-excecoes-legais-a-neutralidade)
-    3. [Teste 527](#Teste-527)
-4. [Regime de Guarda de Registros: Conexão vs. Aplicações de Internet](#3-regime-de-guarda-de-registros-conexao-vs-aplicacoes-de-internet)
-    1. [Distinção Conceitual e Prazos Obrigatórios de Guarda](#31-distincao-conceitual-e-prazos-obrigatorios-de-guarda)
-    2. [Teste 528](#Teste-528)
-    3. [Teste 529](#Teste-529)
-    4. [A Vedação Absoluta aos Provedores de Conexão (Art. 14)](#32-a-vedacao-absoluta-aos-provedores-de-conexao-art-14)
-    5. [Teste 530](#Teste-530)
-    6. [Padrões de Segurança do Decreto nº 8.771/2016](#33-padroes-de-seguranca-do-decreto-no-87712016)
-5. [Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)](#4-reserva-de-jurisdicao-para-quebra-de-sigilo-arts-10-e-22)
+1. [Princípios, Garantias e Conceituação Técnica (Arts. 2º a 8º)](#1-principios-garantias-e-conceituacao-tecnica-arts-2o-a-8o)
+1. [Vocabulário Técnico-Jurídico Essencial (Art. 5º)](#1-1-vocabulario-tecnico-juridico-essencial-art-5o)
+    1. [Teste 525](#Teste-525)
+1. [Princípios e Direitos Fundamentais dos Usuários](#1-2-principios-e-direitos-fundamentais-dos-usuarios)
+    1. [Teste 526](#Teste-526)
+2. [O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)](#2-o-principio-da-neutralidade-de-rede-art-9o-e-decreto-no-87712016)
+2. [Regra Geral de Tratamento Isonômico](#2-1-regra-geral-de-tratamento-isonomico)
+2. [As Duas Únicas Exceções Legais à Neutralidade](#2-2-as-duas-unicas-excecoes-legais-a-neutralidade)
+    1. [Teste 527](#Teste-527)
+3. [Regime de Guarda de Registros: Conexão vs. Aplicações de Internet](#3-regime-de-guarda-de-registros-conexao-vs-aplicacoes-de-internet)
+3. [Distinção Conceitual e Prazos Obrigatórios de Guarda](#3-1-distincao-conceitual-e-prazos-obrigatorios-de-guarda)
+    1. [Teste 528](#Teste-528)
+    2. [Teste 529](#Teste-529)
+3. [A Vedação Absoluta aos Provedores de Conexão (Art. 14)](#3-2-a-vedacao-absoluta-aos-provedores-de-conexao-art-14)
+    1. [Teste 530](#Teste-530)
+3. [Padrões de Segurança do Decreto nº 8.771/2016](#3-3-padroes-de-seguranca-do-decreto-no-87712016)
+4. [Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)](#4-reserva-de-jurisdicao-para-quebra-de-sigilo-arts-10-e-22)
     1. [Teste 531](#Teste-531)
-6. [Responsabilidade Civil por Conteúdo Gerado por Terceiros (Arts. 18 a 21)](#5-responsabilidade-civil-por-conteudo-gerado-por-terceiros-arts-18-a-21)
-    1. [Imunidade Civil dos Provedores de Conexão (Art. 18)](#51-imunidade-civil-dos-provedores-de-conexao-art-18)
-    2. [Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)](#52-regra-geral-dos-provedores-de-aplicacao-art-19-ordem-judicial-previa)
-    3. [Teste 532](#Teste-532)
-    4. [Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)](#53-excecao-critica-do-artigo-21-nudez-e-sexo-nao-consensual)
-    5. [Teste 533](#Teste-533)
-    6. [Teste 534](#Teste-534)
-7. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+5. [Responsabilidade Civil por Conteúdo Gerado por Terceiros (Arts. 18 a 21)](#5-responsabilidade-civil-por-conteudo-gerado-por-terceiros-arts-18-a-21)
+5. [Imunidade Civil dos Provedores de Conexão (Art. 18)](#5-1-imunidade-civil-dos-provedores-de-conexao-art-18)
+5. [Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)](#5-2-regra-geral-dos-provedores-de-aplicacao-art-19-ordem-judicial-previa)
+    1. [Teste 532](#Teste-532)
+5. [Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)](#5-3-excecao-critica-do-artigo-21-nudez-e-sexo-nao-consensual)
+    1. [Teste 533](#Teste-533)
+    2. [Teste 534](#Teste-534)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
-
-## 📖 Teoria Aprofundada & Fundamentos de Infraestrutura e Redes
-
-
----
-
 
 ## 1. Princípios, Garantias e Conceituação Técnica (Arts. 2º a 8º)
 
 A **Lei nº 12.965/2014 (Marco Civil da Internet)** estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil, determinando as diretrizes para a atuação da União, dos Estados, do Distrito Federal e dos Municípios.
 
-### 1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)
+---
+
+## 1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)
 
 O Marco Civil consolidou definições obrigatórias para os profissionais de TI, especialmente nas áreas de redes de computadores, telecomunicações e desenvolvimento de software:
 
@@ -105,10 +96,9 @@ O Marco Civil consolidou definições obrigatórias para os profissionais de TI,
 > 
 > **Gabarito: D**
 
-
 ---
 
-### 1.2 Princípios e Direitos Fundamentais dos Usuários
+## 1.2 Princípios e Direitos Fundamentais dos Usuários
 
 Os princípios da disciplina do uso da Internet no Brasil incluem a garantia da liberdade de expressão, comunicação e manifestação de pensamento; a proteção da privacidade e dos dados pessoais; a preservação da estabilidade, segurança e funcionalidade da rede por meio de padrões técnicos universais; e a neutralidade da rede.
 
@@ -144,11 +134,7 @@ São direitos fundamentais do usuário da internet (Art. 7º):
 > 
 > **Gabarito: A**
 
-
-
-
 ---
-
 
 ## 2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)
 
@@ -165,7 +151,9 @@ flowchart TD
     CONDICAO -- "Priorização de Serviços de Emergência (Art. 9º, §1º, II)" --> EXC2["PERMITIDO: Socorro, Defesa Civil, Segurança Pública"]
 ```
 
-### 2.1 Regra Geral de Tratamento Isonômico
+---
+
+## 2.1 Regra Geral de Tratamento Isonômico
 
 - O responsável pela transmissão, comutação ou roteamento tem o dever de tratar quaisquer pacotes de dados de forma **isonômica**, sem distinção por conteúdo, origem, destino, terminal ou aplicação.
 - **Proibições Rígidas:**
@@ -175,7 +163,9 @@ flowchart TD
 
 ---
 
-### 2.2 As Duas Únicas Exceções Legais à Neutralidade
+---
+
+## 2.2 As Duas Únicas Exceções Legais à Neutralidade
 
 A discriminação ou degradação de tráfego somente poderá decorrer de duas hipóteses taxativas (Art. 9º, § 1º):
 
@@ -214,10 +204,7 @@ A discriminação ou degradação de tráfego somente poderá decorrer de duas h
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Regime de Guarda de Registros: Conexão vs. Aplicações de Internet
 
@@ -240,7 +227,9 @@ flowchart LR
     end
 ```
 
-### 3.1 Distinção Conceitual e Prazos Obrigatórios de Guarda
+---
+
+## 3.1 Distinção Conceitual e Prazos Obrigatórios de Guarda
 
 | Aspecto | Provedor de Conexão à Internet (ISP) | Provedor de Aplicação de Internet |
 |---|---|---|
@@ -317,9 +306,7 @@ Recebido o ofício, a assessoria técnica e jurídica do provedor de conexão an
 
 ---
 
-
-
-### 3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)
+## 3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)
 
 O Art. 14 da Lei nº 12.965/2014 prevê expressamente:
 > *"Na provisão de conexão à internet, cabe ao administrador de sistema autônomo respectivo a guarda dos registros de conexão, pelo prazo de 1 (um) ano (...). É VEDADA A GUARDA DOS REGISTROS DE ACESSO A APLICAÇÕES DE INTERNET NA PROVISÃO DE CONEXÃO."*
@@ -351,10 +338,9 @@ Isso significa que o provedor de banda larga (como Claro, Vivo, Oi ou provedores
 > 
 > **Gabarito: B**
 
-
 ---
 
-### 3.3 Padrões de Segurança do Decreto nº 8.771/2016
+## 3.3 Padrões de Segurança do Decreto nº 8.771/2016
 
 Os responsáveis pela guarda de registros devem obrigatoriamente seguir padrões mínimos de segurança da informação (Art. 13 do Decreto nº 8.771/2016):
 
@@ -367,6 +353,7 @@ Os responsáveis pela guarda de registros devem obrigatoriamente seguir padrões
 
 ---
 
+---
 
 ## 4. Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)
 
@@ -407,11 +394,7 @@ O fornecimento de registros de conexão e de acesso a aplicações de internet s
 > 
 > **Gabarito: B**
 
-
-
-
 ---
-
 
 ## 5. Responsabilidade Civil por Conteúdo Gerado por Terceiros (Arts. 18 a 21)
 
@@ -444,13 +427,17 @@ sequenceDiagram
     end
 ```
 
-### 5.1 Imunidade Civil dos Provedores de Conexão (Art. 18)
+---
+
+## 5.1 Imunidade Civil dos Provedores de Conexão (Art. 18)
 
 O provedor de conexão à internet **não responderá civilmente** por danos decorrentes de conteúdo gerado por terceiros em nenhuma hipótese. Ele atua como mero conduto de transmissão de pacotes (*mere conduit*), sem poder de gerência sobre o conteúdo transmitido.
 
 ---
 
-### 5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)
+---
+
+## 5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)
 
 - Com o intuito de assegurar a liberdade de expressão e impedir a censura privada pelas empresas de tecnologia, o provedor de aplicações de internet somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros **se, após ordem judicial específica, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente**.
 - Notificações extrajudiciais privadas (cartas de advogados, e-mails de reclamação) **não** geram responsabilidade civil para a plataforma na regra geral!
@@ -480,10 +467,9 @@ O provedor de conexão à internet **não responderá civilmente** por danos dec
 > 
 > **Gabarito: C**
 
-
 ---
 
-### 5.3 Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)
+## 5.3 Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)
 
 O Artigo 21 constitui a exceção mais importante e cobrada em provas de concurso:
 
@@ -519,8 +505,6 @@ Considerando as disposições específicas do Art. 21 da Lei nº 12.965/2014:
 
 ---
 
-
-
 ### Teste 534
 **(FCC - Analista Judiciário / Área Apoio Especializado / TI)**
 **Enunciado:** Determinado usuário de uma popular plataforma de compartilhamento de vídeos publicou material ofensivo atribuindo falsamente a prática de crime de improbidade administrativa a um servidor público. O servidor notificou extrajudicialmente a plataforma por meio de carta com aviso de recebimento (AR), exigindo a retirada imediata do vídeo. A plataforma manteve o vídeo no ar. Posteriormente, o servidor ingressou com ação judicial e o juiz deferiu liminar ordenando a remoção do conteúdo em 24 horas sob pena de multa diária. A plataforma removeu o conteúdo 6 horas após ser formalmente intimada da decisão judicial.  
@@ -545,10 +529,7 @@ Considerando as disposições específicas do Art. 21 da Lei nº 12.965/2014:
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

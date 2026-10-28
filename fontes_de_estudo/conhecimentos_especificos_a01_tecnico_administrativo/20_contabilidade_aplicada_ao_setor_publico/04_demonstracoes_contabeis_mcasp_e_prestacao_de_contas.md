@@ -23,39 +23,43 @@
     - Peças obrigatórias dos processos de contas: DCASP completas, relatórios da LRF (RREO e RGF), relatório do órgão central de controle interno;
     - Fiscalização contábil, financeira, orçamentária e patrimonial exercida pelo TCE-GO.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Balanço Orçamentário (BO - Art. 102 da Lei nº 4.320/1964)](#1-balanco-orcamentario-bo-art-102-da-lei-no-43201964)
-    2. [Teste 290](#Teste-290)
-    3. [Teste 291](#Teste-291)
-    4. [Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)](#2-balanco-financeiro-bf-art-103-da-lei-no-43201964)
-    5. [Teste 292](#Teste-292)
-    6. [Teste 293](#Teste-293)
-    7. [Balanço Patrimonial (BP - Art. 105 da Lei nº 4.320/1964 e NBC TSP 11)](#3-balanco-patrimonial-bp-art-105-da-lei-no-43201964-e-nbc-tsp-11)
-    8. [Teste 294](#Teste-294)
-    9. [Demonstração das Variações Patrimoniais (DVP) e Outras Demonstrações](#4-demonstracao-das-variacoes-patrimoniais-dvp-e-outras-demonstracoes)
-    10. [Teste 295](#Teste-295)
-    11. [Teste 296](#Teste-296)
-    12. [Prestação de Contas ao Tribunal de Contas (TCE-GO)](#5-prestacao-de-contas-ao-tribunal-de-contas-tce-go)
-    13. [Teste 297](#Teste-297)
-    14. [Teste 298](#Teste-298)
-    15. [Teste 299](#Teste-299)
-2. [Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+1. [Balanço Orçamentário (BO - Art. 102 da Lei nº 4.320/1964)](#1-balanco-orcamentario-bo-art-102-da-lei-no-43201964)
+    1. [Estrutura e Quadros Demonstrativos](#11-estrutura-e-quadros-demonstrativos)
+    2. [Apuração do Resultado Orçamentário (Superávit vs. Déficit)](#12-apuracao-do-resultado-orcamentario-superavit-vs-deficit)
+    3. [Teste 290](#Teste-290)
+    4. [Teste 291](#Teste-291)
+2. [Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)](#2-balanco-financeiro-bf-art-103-da-lei-no-43201964)
+    1. [Estrutura de Ingressos e Dispêndios](#21-estrutura-de-ingressos-e-dispendios)
+    2. [O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar](#22-o-fechamento-contabil-obrigatorio-e-a-inscricao-de-restos-a-pagar)
+    3. [Teste 292](#Teste-292)
+    4. [Teste 293](#Teste-293)
+3. [Balanço Patrimonial (BP - Art. 105 da Lei nº 4.320/1964 e NBC TSP 11)](#3-balanco-patrimonial-bp-art-105-da-lei-no-43201964-e-nbc-tsp-11)
+    1. [Estrutura Dual: Lei nº 4.320/1964 vs. Normas Internacionais (NBC TSP)](#31-estrutura-dual-lei-no-43201964-vs-normas-internacionais-nbc-tsp)
+    2. [Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)](#32-apuracao-e-calculo-do-superavit-financeiro-art-43-2o)
+    3. [Teste 294](#Teste-294)
+4. [Demonstração das Variações Patrimoniais (DVP) e Outras Demonstrações](#4-demonstracao-das-variacoes-patrimoniais-dvp-e-outras-demonstracoes)
+    1. [Estrutura da DVP e Resultado Patrimonial por Competência](#41-estrutura-da-dvp-e-resultado-patrimonial-por-competencia)
+    2. [Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto](#42-demonstracao-dos-fluxos-de-caixa-dfc-pelo-metodo-direto)
+    3. [Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas](#43-demonstracao-das-mutacoes-do-patrimonio-liquido-dmpl-e-notas-explicativas)
+    4. [Teste 295](#Teste-295)
+    5. [Teste 296](#Teste-296)
+5. [Prestação de Contas ao Tribunal de Contas (TCE-GO)](#5-prestacao-de-contas-ao-tribunal-de-contas-tce-go)
+    1. [Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)](#51-contas-de-governo-parecer-previo-vs-contas-de-gestao-julgamento-tecnico)
+    2. [Composição Documental Obrigatória e Papel do Controle Interno](#52-composicao-documental-obrigatoria-e-papel-do-controle-interno)
+    3. [Teste 297](#Teste-297)
+    4. [Teste 298](#Teste-298)
+    5. [Teste 299](#Teste-299)
+6. [🌐 Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
 
 ---
 
+## 1. Balanço Orçamentário (BO - Art. 102 da Lei nº 4.320/1964)
 
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Balanço Orçamentário (BO - Art. 102 da Lei nº 4.320/1964)
-
-#### 1.1 Estrutura e Quadros Demonstrativos
+### 1.1 Estrutura e Quadros Demonstrativos
 O **Balanço Orçamentário (BO)** demonstra as receitas e despesas previstas em confronto com as realizadas, consoante determina o art. 102 da Lei Federal nº 4.320/1964 e a Parte V do Manual de Contabilidade Aplicada ao Setor Público (MCASP). É composto por três quadros integrados:
 
 ```mermaid
@@ -72,7 +76,7 @@ flowchart TD
 - **Quadro Principal:** Desagrega receitas e despesas por categorias econômicas (Correntes e de Capital), origens e grupos de natureza da despesa (GND);
 - **Quadros de Restos a Pagar:** Evidenciam a execução dos passivos orçamentários transferidos de exercícios anteriores, separando os processados dos não processados.
 
-#### 1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)
+### 1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)
 O Resultado Orçamentário do exercício financeiro expressa o equilíbrio entre a arrecadação das receitas e a execução das despesas:
 
 $$\text{Resultado Orçamentário} = \text{Receitas Realizadas} - \text{Despesas Executadas (Empenhadas)}$$
@@ -110,8 +114,6 @@ No âmbito da Contabilidade Aplicada ao Setor Público, a demonstração contáb
 
 ---
 
-
-
 ### Teste 291
 **(FCC - Adaptada / Analista Contábil)**
 No Balanço Orçamentário elaborado segundo os ditames da Lei Federal nº 4.320/1964 e as diretrizes do MCASP, o confronto entre as receitas arrecadadas e as despesas empenhadas determina o resultado:
@@ -137,10 +139,9 @@ No Balanço Orçamentário elaborado segundo os ditames da Lei Federal nº 4.320
 
 ---
 
+## 2. Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)
 
-### 2. Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)
-
-#### 2.1 Estrutura de Ingressos e Dispêndios
+### 2.1 Estrutura de Ingressos e Dispêndios
 O **Balanço Financeiro (BF)** demonstra as receitas e despesas orçamentárias bem como os recebimentos e os pagamentos de natureza extraorçamentária, conjugados com os saldos em espécie provenientes do exercício anterior e os que se transferem para o exercício seguinte (art. 103 da Lei nº 4.320/1964):
 
 ```mermaid
@@ -166,6 +167,16 @@ flowchart TD
     Ingressos ==>|"EQUILÍBRIO MATEMÁTICO: TOTAL INGRESSOS = TOTAL DISPÊNDIOS"| Dispendios
 ```
 
+### 2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar
+- **Igualdade Matemática Rigorosa:** No Balanço Financeiro, **não existe resultado de superávit ou déficit** na última linha! Ele sempre fecha em perfeita igualdade:
+
+$$\mathbf{\text{Total dos Ingressos} = \text{Total dos Dispêndios}}$$
+
+A diferença entre o somatório das entradas e das saídas é exatamente equilibrada pelo saldo de disponibilidades financeiras transportado para o exercício seguinte;
+
+- **A Inscrição de Restos a Pagar como Ingresso Extraorçamentário:**  
+  Como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos **ingressos extraorçamentários** como artifício contábil compensatório para fechar o balanço financeiro do ano.
+
 ---
 
 ### Teste 292
@@ -190,19 +201,6 @@ Em relação ao Balanço Financeiro disciplinado pela Lei nº 4.320/1964 e pelo 
 > - **E)** Incorreta. A depreciação não transita pelo Balanço Financeiro, visto que não envolve movimentação física ou bancária de dinheiro.
 > 
 > **Gabarito: B**
-
----
-
-
-#### 2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar
-- **Igualdade Matemática Rigorosa:** No Balanço Financeiro, **não existe resultado de superávit ou déficit** na última linha! Ele sempre fecha em perfeita igualdade:
-
-$$\mathbf{\text{Total dos Ingressos} = \text{Total dos Dispêndios}}$$
-
-A diferença entre o somatório das entradas e das saídas é exatamente equilibrada pelo saldo de disponibilidades financeiras transportado para o exercício seguinte;
-
-- **A Inscrição de Restos a Pagar como Ingresso Extraorçamentário:**  
-  Como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos **ingressos extraorçamentários** como artifício contábil compensatório para fechar o balanço financeiro do ano.
 
 ---
 
@@ -233,10 +231,9 @@ No Balanço Financeiro, a inscrição de despesas em **Restos a Pagar** do exerc
 
 ---
 
+## 3. Balanço Patrimonial (BP - Art. 105 da Lei nº 4.320/1964 e NBC TSP 11)
 
-### 3. Balanço Patrimonial (BP - Art. 105 da Lei nº 4.320/1964 e NBC TSP 11)
-
-#### 3.1 Estrutura Dual: Lei nº 4.320/1964 vs. Normas Internacionais (NBC TSP)
+### 3.1 Estrutura Dual: Lei nº 4.320/1964 vs. Normas Internacionais (NBC TSP)
 O Balanço Patrimonial convive com duas estruturas conceituais distintas e complementares:
 
 ```mermaid
@@ -256,7 +253,7 @@ flowchart TD
     EstruturaInt --> PL["Patrimônio Líquido (PL)"]
 ```
 
-#### 3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)
+### 3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)
 O **Superávit Financeiro** é a principal fonte legal para abertura de créditos suplementares e especiais autorizada pelo art. 43 da Lei Federal nº 4.320/1964. Ele é apurado exclusivamente no **Balanço Patrimonial** do exercício anterior:
 
 $$\mathbf{\text{Superávit Financeiro}} = AF - PF - \text{Créditos Adicionais Reabertos} - \text{Disponibilidades Vinculadas}$$
@@ -305,11 +302,9 @@ Com base estritamente nas regras da Lei Federal nº 4.320/1964 (Art. 43, § 2º)
 
 ---
 
+## 4. Demonstração das Variações Patrimoniais (DVP) e Outras Demonstrações
 
-
-### 4. Demonstração das Variações Patrimoniais (DVP) e Outras Demonstrações
-
-#### 4.1 Estrutura da DVP e Resultado Patrimonial por Competência
+### 4.1 Estrutura da DVP e Resultado Patrimonial por Competência
 A **Demonstração das Variações Patrimoniais (DVP)** evidencia as alterações verificadas no patrimônio público resultantes ou independentes da execução orçamentária, aplicando rigorosamente o **regime de competência pura**:
 
 ```mermaid
@@ -326,6 +321,17 @@ flowchart TD
     Resultado -- "VPA > VPD" --> SupPat["SUPERÁVIT PATRIMONIAL DO EXERCÍCIO"]
     Resultado -- "VPA < VPD" --> DefPat["DÉFICIT PATRIMONIAL DO EXERCÍCIO"]
 ```
+
+### 4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto
+- Normatizada pela **NBC TSP 12** e pelo MCASP, a DFC no setor público deve ser elaborada compulsoriamente pelo **Método Direto** para os fluxos das atividades operacionais;
+- Desagrega os fluxos financeiros de caixa em três categorias operacionais fundamentais:
+    1. **Fluxos das Atividades Operacionais:** Arrecadação tributária, receitas de serviços, pagamento de vencimentos a servidores públicos, compras de material de consumo e transferências intergovernamentais;
+    2. **Fluxos das Atividades de Investimento:** Desembolsos para aquisição de bens do ativo imobilizado (obras, prédios, viaturas) e entradas decorrentes da alienação de ativos públicos;
+    3. **Fluxos das Atividades de Financiamento:** Captação de recursos via emissão de títulos da dívida mobiliária e contratos de empréstimos, bem como pagamentos para amortização do principal da dívida fundada.
+
+### 4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas
+- **DMPL (NBC TSP 11):** Evidencia a movimentação de todas as contas integrantes do Patrimônio Líquido durante o exercício (Patrimônio Social, Reservas de Capital, Ajustes de Avaliação Patrimonial e Resultados Acumulados de exercícios anteriores);
+- **Notas Explicativas:** Peça textual analítica obrigatória e indissociável de todas as DCASP, fornecendo detalhes sobre as premissas e políticas contábeis adotadas, contingências judiciais e critérios de mensuração e depreciação.
 
 ---
 
@@ -354,20 +360,6 @@ No encerramento do exercício financeiro, uma entidade governamental constatou q
 
 ---
 
-
-#### 4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto
-- Normatizada pela **NBC TSP 12** e pelo MCASP, a DFC no setor público deve ser elaborada compulsoriamente pelo **Método Direto** para os fluxos das atividades operacionais;
-- Desagrega os fluxos financeiros de caixa em três categorias operacionais fundamentais:
-    1. **Fluxos das Atividades Operacionais:** Arrecadação tributária, receitas de serviços, pagamento de vencimentos a servidores públicos, compras de material de consumo e transferências intergovernamentais;
-    2. **Fluxos das Atividades de Investimento:** Desembolsos para aquisição de bens do ativo imobilizado (obras, prédios, viaturas) e entradas decorrentes da alienação de ativos públicos;
-    3. **Fluxos das Atividades de Financiamento:** Captação de recursos via emissão de títulos da dívida mobiliária e contratos de empréstimos, bem como pagamentos para amortização do principal da dívida fundada.
-
-#### 4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas
-- **DMPL (NBC TSP 11):** Evidencia a movimentação de todas as contas integrantes do Patrimônio Líquido durante o exercício (Patrimônio Social, Reservas de Capital, Ajustes de Avaliação Patrimonial e Resultados Acumulados de exercícios anteriores);
-- **Notas Explicativas:** Peça textual analítica obrigatória e indissociável de todas as DCASP, fornecendo detalhes sobre as premissas e políticas contábeis adotadas, contingências judiciais e critérios de mensuração e depreciação.
-
----
-
 ### Teste 296
 **(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
 Na Demonstração dos Fluxos de Caixa (DFC) elaborada pelas entidades do setor público de acordo com a NBC TSP 12 e o MCASP:
@@ -393,8 +385,7 @@ Na Demonstração dos Fluxos de Caixa (DFC) elaborada pelas entidades do setor p
 
 ---
 
-
-### 5. Prestação de Contas ao Tribunal de Contas (TCE-GO)
+## 5. Prestação de Contas ao Tribunal de Contas (TCE-GO)
 
 No Estado de Goiás e nos termos dos arts. 70 e 71 da CF/88 c/c a Lei Orgânica do TCE-GO (Lei Complementar Estadual nº 161/2020), o controle externo exercido pelo Tribunal de Contas opera sob dois ritos processuais com naturezas jurídicas inteiramente distintas:
 
@@ -407,7 +398,7 @@ flowchart TD
     PC --> CGEST["2. CONTAS DE GESTÃO (Ordenadores de Despesa)<br/>• Secretários de Estado, Diretores, Presidentes de Autarquias<br/>• JULGAMENTO TÉCNICO DEFINITIVO pelo próprio TCE<br/>• Deliberação: Regulares, Regulares com Ressalva ou Irregulares<br/>• Decisão com débito tem eficácia de TÍTULO EXECUTIVO"]
 ```
 
-#### 5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)
+### 5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)
 1. **Contas de Governo (Governador do Estado):**
     - Consubstanciam o balanço geral anual do Estado e a prestação macroeconômica da execução orçamentária e financeira;
     - O Tribunal de Contas **não julga as contas de governo**; emite **Parecer Prévio** de caráter técnico conclusivo no prazo de sessenta (60) dias;
@@ -416,6 +407,14 @@ flowchart TD
 2. **Contas de Gestão (Ordenadores de Despesas):**
     - Referem-se aos atos de gestão patrimonial, orçamentária e financeira praticados individualmente pelos secretários de Estado, dirigentes de autarquias, fundações e fundos especiais;
     - O Tribunal de Contas **julga diretamente e em definitivo** a regularidade dessas contas, proferindo acórdão que pode imputar débito ou aplicar multas com **eficácia de título executivo extrajudicial** (art. 71, § 3º da CF/88).
+
+### 5.2 Composição Documental Obrigatória e Papel do Controle Interno
+Os processos de prestação de contas enviados anualmente ao TCE-GO devem conter obrigatoriamente:
+
+- O conjunto completo das Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) acompanhadas das respectivas Notas Explicativas;
+- Os relatórios fiscais previstos na LRF: Relatório Resumido da Execução Orçamentária (RREO) e Relatório de Gestão Fiscal (RGF);
+- Demonstrativo do cumprimento dos limites constitucionais mínimos de aplicação em **Saúde (12% para os Estados)** e em **Educação (25%)**;
+- **Relatório e Certificado de Auditoria emitidos pelo Órgão Central do Sistema de Controle Interno estadual**, com parecer conclusivo sobre a regularidade da gestão examinada.
 
 ---
 
@@ -441,17 +440,6 @@ A respeito da prestação de contas dos administradores públicos perante o Trib
 > - **E)** Incorreta. As notas explicativas são parte integrante e obrigatória das Demonstrações Contábeis Aplicadas ao Setor Público (NBC TSP 11 e MCASP), independentemente de existir dívida fundada.
 > 
 > **Gabarito: C**
-
----
-
-
-#### 5.2 Composição Documental Obrigatória e Papel do Controle Interno
-Os processos de prestação de contas enviados anualmente ao TCE-GO devem conter obrigatoriamente:
-
-- O conjunto completo das Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) acompanhadas das respectivas Notas Explicativas;
-- Os relatórios fiscais previstos na LRF: Relatório Resumido da Execução Orçamentária (RREO) e Relatório de Gestão Fiscal (RGF);
-- Demonstrativo do cumprimento dos limites constitucionais mínimos de aplicação em **Saúde (12% para os Estados)** e em **Educação (25%)**;
-- **Relatório e Certificado de Auditoria emitidos pelo Órgão Central do Sistema de Controle Interno estadual**, com parecer conclusivo sobre a regularidade da gestão examinada.
 
 ---
 
@@ -503,10 +491,7 @@ Na Demonstração das Variações Patrimoniais (DVP) elaborada de acordo com as 
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 

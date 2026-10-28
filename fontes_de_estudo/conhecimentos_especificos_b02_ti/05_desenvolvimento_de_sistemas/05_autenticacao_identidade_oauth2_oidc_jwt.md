@@ -16,46 +16,42 @@
 - Tokens, claims e escopos
 - JSON Web Token (JWT - RFC 7519)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Conceitos Fundamentais de Segurança de Acesso](#1-conceitos-fundamentais-de-seguranca-de-acesso)
     1. [Autenticação (AuthN) vs. Autorização (AuthZ)](#11-autenticacao-authn-vs-autorizacao-authz)
-    2. [Teste 098](#Teste-098)
-    3. [Fatores de Autenticação e MFA](#12-fatores-de-autenticacao-e-mfa)
-    4. [Teste 099](#Teste-099)
-    5. [Modelos de Controle de Acesso: RBAC e ABAC](#13-modelos-de-controle-de-acesso-rbac-e-abac)
+    2. [Fatores de Autenticação e MFA](#12-fatores-de-autenticacao-e-mfa)
+    3. [Modelos de Controle de Acesso: RBAC e ABAC](#13-modelos-de-controle-de-acesso-rbac-e-abac)
+    4. [Teste 098](#Teste-098)
+    5. [Teste 099](#Teste-099)
 2. [Framework de Autorização OAuth 2.0 (RFC 6749)](#2-framework-de-autorizacao-oauth-20-rfc-6749)
     1. [Os Quatro Papéis Fundamentais](#21-os-quatro-papeis-fundamentais)
-    2. [Teste 100](#Teste-100)
-    3. [Fluxos de Concessão (Grant Types) e Cenários de Aplicação](#22-fluxos-de-concessao-grant-types-e-cenarios-de-aplicacao)
-    4. [Teste 101](#Teste-101)
-    5. [Teste 102](#Teste-102)
-    6. [A Extensão PKCE (RFC 7636) para Clientes Públicos](#23-a-extensao-pkce-rfc-7636-para-clientes-publicos)
-    7. [Teste 103](#Teste-103)
-    8. [Escopos (Scopes) e Autorização Granular](#24-escopos-scopes-e-autorizacao-granular)
+    2. [Fluxos de Concessão (Grant Types) e Cenários de Aplicação](#22-fluxos-de-concessao-grant-types-e-cenarios-de-aplicacao)
+    3. [A Extensão PKCE (RFC 7636) para Clientes Públicos](#23-a-extensao-pkce-rfc-7636-para-clientes-publicos)
+    4. [Escopos (Scopes) e Autorização Granular](#24-escopos-scopes-e-autorizacao-granular)
+    5. [Teste 100](#Teste-100)
+    6. [Teste 101](#Teste-101)
+    7. [Teste 102](#Teste-102)
+    8. [Teste 103](#Teste-103)
 3. [Camada de Identidade OpenID Connect (OIDC 1.0)](#3-camada-de-identidade-openid-connect-oidc-10)
     1. [Distinção Essencial: OAuth 2.0 vs. OpenID Connect](#31-distincao-essencial-oauth-20-vs-openid-connect)
-    2. [Teste 104](#Teste-104)
-    3. [Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token](#32-triade-de-tokens-no-oidc-id-token-access-token-e-refresh-token)
-    4. [Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo](#33-endpoints-padronizados-oidc-e-single-sign-on-sso-corporativo)
+    2. [Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token](#32-triade-de-tokens-no-oidc-id-token-access-token-e-refresh-token)
+    3. [Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo](#33-endpoints-padronizados-oidc-e-single-sign-on-sso-corporativo)
+    4. [Teste 104](#Teste-104)
 4. [JSON Web Token - JWT (RFC 7519)](#4-json-web-token-jwt-rfc-7519)
     1. [Anatomia Estrutural: Header, Payload e Signature](#41-anatomia-estrutural-header-payload-e-signature)
-    2. [Teste 105](#Teste-105)
-    3. [Claims Registradas, Públicas e Privadas](#42-claims-registradas-publicas-e-privadas)
-    4. [Assinatura Digital: Algoritmos Simétricos (HS256) vs. Assimétricos (RS256)](#43-assinatura-digital-algoritmos-simetricos-hs256-vs-assimetricos-rs256)
-    5. [Teste 106](#Teste-106)
-    6. [Armazenamento Seguro de Tokens no Cliente e Mitigação de Ataques](#44-armazenamento-seguro-de-tokens-no-cliente-e-mitigacao-de-ataques)
+    2. [Claims Registradas, Públicas e Privadas](#42-claims-registradas-publicas-e-privadas)
+    3. [Assinatura Digital: Algoritmos Simétricos (HS256) vs. Assimétricos (RS256)](#43-assinatura-digital-algoritmos-simetricos-hs256-vs-assimetricos-rs256)
+    4. [Armazenamento Seguro de Tokens no Cliente e Mitigação de Ataques](#44-armazenamento-seguro-de-tokens-no-cliente-e-mitigacao-de-ataques)
+    5. [Teste 105](#Teste-105)
+    6. [Teste 106](#Teste-106)
     7. [Teste 107](#Teste-107)
 5. [Quadro Comparativo Consolidado de Segurança de Acesso](#5-quadro-comparativo-consolidado-de-seguranca-de-acesso)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Conceitos Fundamentais de Segurança de Acesso
 
@@ -78,34 +74,6 @@ flowchart LR
 - **Autenticação (AuthN - *Authentication*):** Processo de validação e verificação inequívoca da identidade alegada por uma entidade (seja ela um usuário humano, um dispositivo ou um serviço autônomo). Responde à indagação fundamental: **"Quem é você?"**.
 - **Autorização (AuthZ - *Authorization*):** Processo de determinar quais direitos, permissões e operações uma entidade **previamente autenticada** tem legitimidade para exercer sobre um recurso específico no sistema. Responde à pergunta: **"O que você tem permissão para fazer?"**.
 
----
-
-### Teste 098
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-Na gestão de segurança de aplicações corporativas, a distinção conceitual entre Autenticação (*Authentication* - AuthN) e Autorização (*Authorization* - AuthZ) estabelece que:
-
-* **A)** Autenticação verifica a identidade declarada por um usuário ou sistema ("quem é você?"), ao passo que Autorização determina as permissões de acesso e ações que o usuário autenticado pode executar ("o que você pode fazer?").
-* **B)** Autenticação concede privilégios administrativos no banco de dados, enquanto Autorização verifica a assinatura digital do certificado TLS.
-* **C)** Autenticação e Autorização são termos estritamente sinônimos na norma ISO/IEC 27001, podendo ser implementados indiferentemente pela mesma rotina de hash SHA-256.
-* **D)** A autorização deve ser realizada necessariamente antes da autenticação em qualquer sistema computacional.
-* **E)** A autenticação define o teto salarial de um servidor público no portal da transparência.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) Correta.** A **Autenticação (AuthN)** responde à pergunta *"Quem é você?"*, validando as credenciais (senhas, biometria, tokens). A **Autorização (AuthZ)** responde à pergunta *"O que você tem permissão para fazer?"*, aplicando políticas de controle de acesso (RBAC, ABAC) sobre os recursos solicitados.
-> - **B) Incorreta.** Concessão de privilégios é tarefa de autorização.
-> - **C) Incorreta.** São conceitos distintos da segurança da informação.
-> - **D) Incorreta.** A autenticação precede cronologicamente a autorização; você só pode autorizar quem você primeiro identificou/autenticou.
-> - **E) Incorreta.** Afirmação sem relação com arquitetura de segurança.
->
-> **Gabarito: A**
-
----
-
-
 ### 1.2 Fatores de Autenticação e MFA
 A robustez do processo de autenticação é medida pelo emprego de múltiplos fatores independentes (**MFA - *Multi-Factor Authentication***):
 
@@ -115,34 +83,6 @@ A robustez do processo de autenticação é medida pelo emprego de múltiplos fa
 
 > 🚨 **ALERTA DE PROVA / FCC:**  
 > A banca costuma colocar pegadinhas afirmando que "utilizar senha e código PIN simultaneamente configura autenticação multifator". Isso é falso! Senha e PIN pertencem à **mesma categoria (conhecimento)**. O MFA exige o uso concorrente de pelo menos **duas categorias distintas de fatores** (ex.: senha + token TOTP ou biometria + certificado digital).
-
----
-
-### Teste 099
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-A Autenticação Multifator (*Multi-Factor Authentication* - MFA) eleva substancialmente o nível de segurança do acesso ao exigir a combinação de múltiplos elementos probatórios pertencentes a categorias independentes. Os três fatores de autenticação clássicos são categorizados como:
-
-* **A)** Senha alfanumérica, senha numérica e senha biométrica.
-* **B)** Algo que você sabe (conhecimento), algo que você tem (posse) e algo que você é (biometria/inerência).
-* **C)** Endereço de IP de rede, máscara de sub-rede e porta lógica TCP.
-* **D)** Certificado público, certificado privado e autoridade certificadora intermediária.
-* **E)** Teclado mecânico, monitor de alta definição e leitor óptico.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** Duas senhas distintas pertencem à mesma categoria ("algo que você sabe"), configurando autenticação de fator único repetido, e não MFA genuíno.
-> - **B) Correta.** A taxonomia padrão da segurança estabelece a tríade de fatores: **Conhecimento** (algo que você sabe: senhas, PINs), **Posse** (algo que você tem: token físico, aplicativo autenticador TOTP, cartão inteligente) e **Inerência** (algo que você é: impressão digital, reconhecimento facial, íris).
-> - **C) Incorreta.** Parâmetros de rede não configuram fatores humanos de autenticação de usuários.
-> - **D) Incorreta.** Componentes de infraestrutura de chaves públicas (PKI).
-> - **E) Incorreta.** Periféricos de hardware.
->
-> **Gabarito: B**
-
----
-
 
 ### 1.3 Modelos de Controle de Acesso: RBAC e ABAC
 Uma vez autenticada a entidade, o subsistema de autorização aplica políticas para liberar ou vetar o acesso aos endpoints e bancos de dados:
@@ -174,10 +114,57 @@ flowchart TD
 | **Complexidade de Gestão** | Sofre do problema de **explosão de papéis (*role explosion*)** quando a organização necessita de regras com granularidade muito fina. | Complexidade na escrita e no processamento computacional de políticas dinâmicas (frequentemente expressas em padrões como XACML ou OPA/Rego). |
 | **Aplicação Típica** | Sistemas departamentais convencionais e portais corporativos simples. | Ambientes governamentais críticos, controle fiscal e sistemas orientados a microsserviços. |
 
+---
+
+### Teste 098
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+Na gestão de segurança de aplicações corporativas, a distinção conceitual entre Autenticação (*Authentication* - AuthN) e Autorização (*Authorization* - AuthZ) estabelece que:
+
+* **A)** Autenticação verifica a identidade declarada por um usuário ou sistema ("quem é você?"), ao passo que Autorização determina as permissões de acesso e ações que o usuário autenticado pode executar ("o que você pode fazer?").
+* **B)** Autenticação concede privilégios administrativos no banco de dados, enquanto Autorização verifica a assinatura digital do certificado TLS.
+* **C)** Autenticação e Autorização são termos estritamente sinônimos na norma ISO/IEC 27001, podendo ser implementados indiferentemente pela mesma rotina de hash SHA-256.
+* **D)** A autorização deve ser realizada necessariamente antes da autenticação em qualquer sistema computacional.
+* **E)** A autenticação define o teto salarial de um servidor público no portal da transparência.
 
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** A **Autenticação (AuthN)** responde à pergunta *"Quem é você?"*, validando as credenciais (senhas, biometria, tokens). A **Autorização (AuthZ)** responde à pergunta *"O que você tem permissão para fazer?"*, aplicando políticas de controle de acesso (RBAC, ABAC) sobre os recursos solicitados.
+> - **B) Incorreta.** Concessão de privilégios é tarefa de autorização.
+> - **C) Incorreta.** São conceitos distintos da segurança da informação.
+> - **D) Incorreta.** A autenticação precede cronologicamente a autorização; você só pode autorizar quem você primeiro identificou/autenticou.
+> - **E) Incorreta.** Afirmação sem relação com arquitetura de segurança.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 099
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+A Autenticação Multifator (*Multi-Factor Authentication* - MFA) eleva substancialmente o nível de segurança do acesso ao exigir a combinação de múltiplos elementos probatórios pertencentes a categorias independentes. Os três fatores de autenticação clássicos são categorizados como:
+
+* **A)** Senha alfanumérica, senha numérica e senha biométrica.
+* **B)** Algo que você sabe (conhecimento), algo que você tem (posse) e algo que você é (biometria/inerência).
+* **C)** Endereço de IP de rede, máscara de sub-rede e porta lógica TCP.
+* **D)** Certificado público, certificado privado e autoridade certificadora intermediária.
+* **E)** Teclado mecânico, monitor de alta definição e leitor óptico.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Duas senhas distintas pertencem à mesma categoria ("algo que você sabe"), configurando autenticação de fator único repetido, e não MFA genuíno.
+> - **B) Correta.** A taxonomia padrão da segurança estabelece a tríade de fatores: **Conhecimento** (algo que você sabe: senhas, PINs), **Posse** (algo que você tem: token físico, aplicativo autenticador TOTP, cartão inteligente) e **Inerência** (algo que você é: impressão digital, reconhecimento facial, íris).
+> - **C) Incorreta.** Parâmetros de rede não configuram fatores humanos de autenticação de usuários.
+> - **D) Incorreta.** Componentes de infraestrutura de chaves públicas (PKI).
+> - **E) Incorreta.** Periféricos de hardware.
+>
+> **Gabarito: B**
+
+---
 
 ## 2. Framework de Autorização OAuth 2.0 (RFC 6749)
 
@@ -191,6 +178,66 @@ O framework OAuth 2.0 (padronizado pela IETF na **RFC 6749**) foi concebido para
 
 3. **Authorization Server (Servidor de Autorização):** Servidor responsável por autenticar o *Resource Owner*, colher o seu consentimento expresso e emitir os tokens criptográficos de acesso (*Access Tokens*) após validação das credenciais e escopos.
 4. **Resource Server (Servidor de Recursos):** O servidor que hospeda os recursos e APIs protegidos, capaz de receber, validar os tokens de acesso e responder às requisições do cliente.
+
+### 2.2 Fluxos de Concessão (Grant Types) e Cenários de Aplicação
+O OAuth 2.0 define fluxos distintos de acordo com a natureza da aplicação cliente e os requisitos de segurança:
+
+```mermaid
+flowchart TD
+    subgraph EscolhaGrant["Árvore de Decisão de Fluxos OAuth 2.0 Modernos"]
+        Q1{"Há usuário humano envolvido?"}
+        Q1 -->|Não (Comunicação M2M / Batch)| CC["Client Credentials Grant"]
+        Q1 -->|Sim| Q2{"O cliente consegue proteger um secret no backend?"}
+        Q2 -->|Sim (Web App Tradicional)| AC["Authorization Code Grant"]
+        Q2 -->|Não (SPA React ou App Mobile)| PKCE["Authorization Code Grant com PKCE"]
+    end
+```
+
+| Fluxo (*Grant Type*) | Cenário Operacional | Nível de Segurança | Situação Normativa Atual |
+|---|---|:---:|---|
+| **Authorization Code** | Aplicações Web clássicas baseadas em servidor com backend seguro (*confidential clients*). | **Máximo** | Padrão recomendado pela IETF. |
+| **Authorization Code com PKCE** | Clientes públicos: Single Page Applications (SPAs em React, Angular) e Apps Mobile nativos. | **Máximo** | **Obrigatório** pelas diretrizes contemporâneas (RFC 7636 e OAuth 2.1). |
+| **Client Credentials** | Comunicação direta máquina-a-máquina (M2M), microsserviços internos, scripts batch e daemons sem usuário. | **Alto** | Padrão oficial para comunicação automatizada entre sistemas. |
+| **Refresh Token Grant** | Renovação transparente de *Access Tokens* expirados sem requerer novo login do usuário. | **Alto** | Empregado como mecanismo complementar aos fluxos de código. |
+| **Implicit Grant** | SPAs legadas nos primórdios da web, onde o token vinha diretamente exposto no fragmento da URL (`#access_token=...`). | **Vulnerável** | **DEPRECADO E PROIBIDO** no OAuth 2.1 devido a riscos de interceptação no histórico do navegador. |
+| **Resource Owner Password Credentials (ROPC)** | O usuário digita suas credenciais corporativas diretamente na tela da aplicação cliente. | **Crítico** | **DEPRECADO E PROIBIDO** no OAuth 2.1 (viola a premissa central de não compartilhar senhas com clientes terceiros). |
+
+### 2.3 A Extensão PKCE (RFC 7636) para Clientes Públicos
+Em clientes públicos (como aplicações React ou apps móveis), um atacante pode registrar um esquema customizado de URI ou inspecionar o tráfego do sistema operacional para interceptar o código de autorização (`code`) retornado pelo servidor. Como o cliente público não possui um `client_secret` sigiloso, o atacante poderia trocar esse código interceptado por um *Access Token*.
+
+A extensão **PKCE** (*Proof Key for Code Exchange*, RFC 7636) neutraliza essa ameaça através de segredos criptográficos efêmeros criados dinamicamente para cada autenticação:
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor Usuário
+    participant Client as SPA React (Cliente Público)
+    participant AS as Authorization Server
+    participant API as Resource Server (API)
+
+    Note over Client: 1. Gera code_verifier aleatório<br/>2. Calcula code_challenge = Base64URL(SHA256(verifier))
+    Client->>AS: GET /authorize?response_type=code&code_challenge=...&code_challenge_method=S256
+    Usuário->>AS: Autentica-se e autoriza o acesso
+    AS-->>Client: Redireciona com Código Temporário (?code=AUTH_CODE)
+    Client->>AS: POST /token (code=AUTH_CODE, code_verifier=SEGREDO_ORIGINAL)
+    Note over AS: AS calcula SHA256(code_verifier) e compara com code_challenge registrado
+    AS-->>Client: Retorna Access Token + ID Token (OIDC)
+    Client->>API: GET /api/processos (Authorization: Bearer <Token>)
+    API-->>Client: Dados Fiscais Protegidos
+```
+
+1. O cliente cria uma string secreta criptograficamente aleatória denominada **`code_verifier`**.
+2. O cliente calcula o hash dessa string utilizando SHA-256 e o codifica em Base64URL, obtendo o **`code_challenge`**.
+3. Na solicitação de autorização (`GET /authorize`), o cliente envia apenas o `code_challenge` e o método utilizado (`code_challenge_method=S256`).
+4. Ao receber o código de autorização e solicitar o token (`POST /token`), o cliente envia o `code_verifier` original em texto claro.
+5. O Servidor de Autorização calcula internamente o hash do `code_verifier` recebido e compara com o `code_challenge` guardado previamente. Se coincidirem, emite o token. Se um invasor tiver interceptado o `code`, não conseguirá trocá-lo por tokens porque não conhece o `code_verifier`.
+
+### 2.4 Escopos (Scopes) e Autorização Granular
+Os **escopos (*scopes*)** no OAuth 2.0 são identificadores textuais que expressam o conjunto delimitado de privilégios solicitados pela aplicação cliente ao concedente:
+
+- Exemplos: `scope=read:processos write:processos openid email`.
+- O *Resource Owner* pode consentir apenas com um subconjunto dos escopos solicitados.
+- O Servidor de Recursos (API) analisa as claims de escopo presentes dentro do token de acesso para autorizar ou barrar endpoints específicos.
 
 ---
 
@@ -216,32 +263,6 @@ O framework de autorização OAuth 2.0 (RFC 6749) define quatro papéis (*roles*
 > - **E) Incorreta.** Não é um dos quatro papéis oficiais da RFC 6749.
 >
 > **Gabarito: C**
-
----
-
-
-### 2.2 Fluxos de Concessão (Grant Types) e Cenários de Aplicação
-O OAuth 2.0 define fluxos distintos de acordo com a natureza da aplicação cliente e os requisitos de segurança:
-
-```mermaid
-flowchart TD
-    subgraph EscolhaGrant["Árvore de Decisão de Fluxos OAuth 2.0 Modernos"]
-        Q1{"Há usuário humano envolvido?"}
-        Q1 -->|Não (Comunicação M2M / Batch)| CC["Client Credentials Grant"]
-        Q1 -->|Sim| Q2{"O cliente consegue proteger um secret no backend?"}
-        Q2 -->|Sim (Web App Tradicional)| AC["Authorization Code Grant"]
-        Q2 -->|Não (SPA React ou App Mobile)| PKCE["Authorization Code Grant com PKCE"]
-    end
-```
-
-| Fluxo (*Grant Type*) | Cenário Operacional | Nível de Segurança | Situação Normativa Atual |
-|---|---|:---:|---|
-| **Authorization Code** | Aplicações Web clássicas baseadas em servidor com backend seguro (*confidential clients*). | **Máximo** | Padrão recomendado pela IETF. |
-| **Authorization Code com PKCE** | Clientes públicos: Single Page Applications (SPAs em React, Angular) e Apps Mobile nativos. | **Máximo** | **Obrigatório** pelas diretrizes contemporâneas (RFC 7636 e OAuth 2.1). |
-| **Client Credentials** | Comunicação direta máquina-a-máquina (M2M), microsserviços internos, scripts batch e daemons sem usuário. | **Alto** | Padrão oficial para comunicação automatizada entre sistemas. |
-| **Refresh Token Grant** | Renovação transparente de *Access Tokens* expirados sem requerer novo login do usuário. | **Alto** | Empregado como mecanismo complementar aos fluxos de código. |
-| **Implicit Grant** | SPAs legadas nos primórdios da web, onde o token vinha diretamente exposto no fragmento da URL (`#access_token=...`). | **Vulnerável** | **DEPRECADO E PROIBIDO** no OAuth 2.1 devido a riscos de interceptação no histórico do navegador. |
-| **Resource Owner Password Credentials (ROPC)** | O usuário digita suas credenciais corporativas diretamente na tela da aplicação cliente. | **Crítico** | **DEPRECADO E PROIBIDO** no OAuth 2.1 (viola a premissa central de não compartilhar senhas com clientes terceiros). |
 
 ---
 
@@ -299,40 +320,6 @@ De acordo com o framework OAuth 2.0 (RFC 6749), o fluxo de concessão (*Grant Ty
 
 ---
 
-
-
-### 2.3 A Extensão PKCE (RFC 7636) para Clientes Públicos
-Em clientes públicos (como aplicações React ou apps móveis), um atacante pode registrar um esquema customizado de URI ou inspecionar o tráfego do sistema operacional para interceptar o código de autorização (`code`) retornado pelo servidor. Como o cliente público não possui um `client_secret` sigiloso, o atacante poderia trocar esse código interceptado por um *Access Token*.
-
-A extensão **PKCE** (*Proof Key for Code Exchange*, RFC 7636) neutraliza essa ameaça através de segredos criptográficos efêmeros criados dinamicamente para cada autenticação:
-
-```mermaid
-sequenceDiagram
-    autonumber
-    actor Usuário
-    participant Client as SPA React (Cliente Público)
-    participant AS as Authorization Server
-    participant API as Resource Server (API)
-
-    Note over Client: 1. Gera code_verifier aleatório<br/>2. Calcula code_challenge = Base64URL(SHA256(verifier))
-    Client->>AS: GET /authorize?response_type=code&code_challenge=...&code_challenge_method=S256
-    Usuário->>AS: Autentica-se e autoriza o acesso
-    AS-->>Client: Redireciona com Código Temporário (?code=AUTH_CODE)
-    Client->>AS: POST /token (code=AUTH_CODE, code_verifier=SEGREDO_ORIGINAL)
-    Note over AS: AS calcula SHA256(code_verifier) e compara com code_challenge registrado
-    AS-->>Client: Retorna Access Token + ID Token (OIDC)
-    Client->>API: GET /api/processos (Authorization: Bearer <Token>)
-    API-->>Client: Dados Fiscais Protegidos
-```
-
-1. O cliente cria uma string secreta criptograficamente aleatória denominada **`code_verifier`**.
-2. O cliente calcula o hash dessa string utilizando SHA-256 e o codifica em Base64URL, obtendo o **`code_challenge`**.
-3. Na solicitação de autorização (`GET /authorize`), o cliente envia apenas o `code_challenge` e o método utilizado (`code_challenge_method=S256`).
-4. Ao receber o código de autorização e solicitar o token (`POST /token`), o cliente envia o `code_verifier` original em texto claro.
-5. O Servidor de Autorização calcula internamente o hash do `code_verifier` recebido e compara com o `code_challenge` guardado previamente. Se coincidirem, emite o token. Se um invasor tiver interceptado o `code`, não conseguirá trocá-lo por tokens porque não conhece o `code_verifier`.
-
----
-
 ### Teste 103
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Para proteger aplicações clientes públicas (como SPAs executando em navegadores e aplicativos móveis nativos) contra o ataque de interceptação do código de autorização, a especificação OAuth 2.0 define a extensão PKCE (*Proof Key for Code Exchange*, RFC 7636). O funcionamento do fluxo PKCE baseia-se na geração de:
@@ -358,19 +345,6 @@ Para proteger aplicações clientes públicas (como SPAs executando em navegador
 
 ---
 
-
-### 2.4 Escopos (Scopes) e Autorização Granular
-Os **escopos (*scopes*)** no OAuth 2.0 são identificadores textuais que expressam o conjunto delimitado de privilégios solicitados pela aplicação cliente ao concedente:
-
-- Exemplos: `scope=read:processos write:processos openid email`.
-- O *Resource Owner* pode consentir apenas com um subconjunto dos escopos solicitados.
-- O Servidor de Recursos (API) analisa as claims de escopo presentes dentro do token de acesso para autorizar ou barrar endpoints específicos.
-
-
-
----
-
-
 ## 3. Camada de Identidade OpenID Connect (OIDC 1.0)
 
 ### 3.1 Distinção Essencial: OAuth 2.0 vs. OpenID Connect
@@ -389,6 +363,25 @@ flowchart TD
     end
     OIDC -->|Adiciona perfil, userInfo e ID Token sobre| OAuth
 ```
+
+### 3.2 Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token
+
+| Atributo / Dimensão | ID Token | Access Token | Refresh Token |
+|---|---|---|---|
+| **Norma de Origem** | OpenID Connect Core 1.0 | OAuth 2.0 (RFC 6749) | OAuth 2.0 (RFC 6749) |
+| **Destinatário (*Audience*)** | A **Aplicação Cliente (*Client*)** | O **Servidor de Recursos (*Resource Server* / API)** | O **Servidor de Autorização (*Authorization Server*)** |
+| **Formato Obrigatório** | **JWT (JSON Web Token)** assinado digitalmente | Não normatizado pelo OAuth 2.0 (na prática, JWT ou string opaca) | String opaca criptograficamente aleatória |
+| **Finalidade Primária** | Provar que o usuário se autenticou com sucesso e fornecer seus atributos básicos de perfil (`sub`, `name`, `email`). | Credencial utilizada para autorizar chamadas às APIs e microsserviços nos cabeçalhos `Authorization: Bearer <token>`. | Credencial de longa duração utilizada para obter um novo *Access Token* quando o atual expirar, sem exigir novas credenciais do usuário. |
+| **Tempo de Vida Médio** | Curto (minutos) | Curto (geralmente entre 5 e 60 minutos) | Longo (dias, semanas ou meses, com rotação de tokens) |
+
+### 3.3 Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo
+O OpenID Connect padroniza os endpoints do Provedor de Identidade (*Identity Provider* - IdP):
+
+- **`/.well-known/openid-configuration` (Discovery):** Endpoint público de autodescoberta que lista as capacidades do servidor, algoritmos suportados e as URLs de todos os endpoints.
+- **`/authorize`:** Onde o usuário é redirecionado para realizar o login e conceder consentimento.
+- **`/token`:** Onde o cliente troca o código de autorização pelos tokens de acesso e identidade.
+- **`/userinfo`:** Endpoint protegido onde a aplicação cliente apresenta o *Access Token* para obter dados adicionais e detalhados do perfil do usuário autenticado.
+- **Single Sign-On (SSO):** Arquitetura corporativa federada que permite ao usuário realizar login uma única vez no Provedor de Identidade (ex.: Keycloak, Microsoft Entra ID / Azure AD, Auth0) e acessar de forma transparente todos os sistemas governamentais integrados sem reinserir senhas.
 
 ---
 
@@ -417,33 +410,6 @@ Na arquitetura de segurança moderna para sistemas distribuídos e Single Sign-O
 
 ---
 
-
-### 3.2 Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token
-
-| Atributo / Dimensão | ID Token | Access Token | Refresh Token |
-|---|---|---|---|
-| **Norma de Origem** | OpenID Connect Core 1.0 | OAuth 2.0 (RFC 6749) | OAuth 2.0 (RFC 6749) |
-| **Destinatário (*Audience*)** | A **Aplicação Cliente (*Client*)** | O **Servidor de Recursos (*Resource Server* / API)** | O **Servidor de Autorização (*Authorization Server*)** |
-| **Formato Obrigatório** | **JWT (JSON Web Token)** assinado digitalmente | Não normatizado pelo OAuth 2.0 (na prática, JWT ou string opaca) | String opaca criptograficamente aleatória |
-| **Finalidade Primária** | Provar que o usuário se autenticou com sucesso e fornecer seus atributos básicos de perfil (`sub`, `name`, `email`). | Credencial utilizada para autorizar chamadas às APIs e microsserviços nos cabeçalhos `Authorization: Bearer <token>`. | Credencial de longa duração utilizada para obter um novo *Access Token* quando o atual expirar, sem exigir novas credenciais do usuário. |
-| **Tempo de Vida Médio** | Curto (minutos) | Curto (geralmente entre 5 e 60 minutos) | Longo (dias, semanas ou meses, com rotação de tokens) |
-
----
-
-### 3.3 Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo
-O OpenID Connect padroniza os endpoints do Provedor de Identidade (*Identity Provider* - IdP):
-
-- **`/.well-known/openid-configuration` (Discovery):** Endpoint público de autodescoberta que lista as capacidades do servidor, algoritmos suportados e as URLs de todos os endpoints.
-- **`/authorize`:** Onde o usuário é redirecionado para realizar o login e conceder consentimento.
-- **`/token`:** Onde o cliente troca o código de autorização pelos tokens de acesso e identidade.
-- **`/userinfo`:** Endpoint protegido onde a aplicação cliente apresenta o *Access Token* para obter dados adicionais e detalhados do perfil do usuário autenticado.
-- **Single Sign-On (SSO):** Arquitetura corporativa federada que permite ao usuário realizar login uma única vez no Provedor de Identidade (ex.: Keycloak, Microsoft Entra ID / Azure AD, Auth0) e acessar de forma transparente todos os sistemas governamentais integrados sem reinserir senhas.
-
-
-
----
-
-
 ## 4. JSON Web Token - JWT (RFC 7519)
 
 ### 4.1 Anatomia Estrutural: Header, Payload e Signature
@@ -469,6 +435,60 @@ flowchart LR
 > 🚨 **ALERTA DE PROVA / FCC:**  
 > **Base64URL NÃO É CRIPTOGRAFIA!**  
 > Um token JWS padrão garante **integridade** (o conteúdo não foi adulterado) e **autenticidade** (foi emitido por quem possui a chave), mas **NÃO fornece confidencialidade**. O Payload é meramente codificado em Base64URL; qualquer entidade que capture o token pode decodificá-lo instantaneamente e ler todos os seus campos em texto claro. Para manter o conteúdo em sigilo contra interceptadores, deve-se adotar o padrão **JWE (*JSON Web Encryption*)**.
+
+### 4.2 Claims Registradas, Públicas e Privadas
+As declarações contidas no payload classificam-se em três grupos segundo a RFC 7519:
+
+#### Claims Registradas (*Registered Claims*)
+Conjunto padronizado de chaves reservadas recomendadas para garantir interoperabilidade entre sistemas:
+
+- **`sub` (*Subject*):** Identificador unívoco do sujeito/usuário a quem o token pertence (ex.: `"sub": "usr_9841"`).
+- **`iss` (*Issuer*):** Entidade ou autoridade que emitiu o token (ex.: `"iss": "https://auth.tce.go.gov.br"`).
+- **`aud` (*Audience*):** Destinatário ou aplicação para a qual o token foi emitido. Se o microsserviço receptor não constar no `aud`, deve rejeitar o token.
+- **`exp` (*Expiration Time*):** Carimbo de data/hora no formato Unix Timestamp (segundos decorridos desde 01/01/1970 UTC) indicando o limite de validade do token. **Se `tempoAtual > exp`, o token é sumariamente inválido**.
+- **`nbf` (*Not Before*):** Timestamp antes do qual o token não pode ser aceito para processamento.
+- **`iat` (*Issued At*):** Timestamp indicando o instante exato em que o token foi criado e emitido.
+- **`jti` (*JWT ID*):** Identificador exclusivo do token, frequentemente utilizado para prevenir ataques de repetição (*replay attacks*) e gerenciar revogações em listas negras (*blacklists*).
+
+#### Claims Públicas e Privadas
+- **Claims Públicas:** Nomes definidos e acordados em registros públicos da IANA ou nomes formatados como URIs para prevenir colisões de nomenclatura.
+- **Claims Privadas:** Propriedades customizadas acordadas livremente entre os sistemas para tráfego de dados de negócio (ex.: `"roles": ["Auditor", "Administrador"]`, `"orgao": "TCE-GO"`).
+
+### 4.3 Assinatura Digital: Algoritmos Simétricos (HS256) vs. Assimétricos (RS256)
+
+```mermaid
+flowchart TD
+    subgraph Simetrico["1. Padrão Simétrico: HS256 (HMAC-SHA256)"]
+        AS1["Servidor de Autorização"] -->|"Assina com Segredo K"| T1["JWT"]
+        T1 --> RS1["Resource Server (API 1)"]
+        T1 --> RS2["Resource Server (API 2)"]
+        RS1 -->|"Valida com o MESMO Segredo K"| OK1["Válido"]
+        RS2 -->|"Valida com o MESMO Segredo K"| OK2["Válido"]
+    end
+    subgraph Assimetrico["2. Padrão Assimétrico: RS256 (RSA-SHA256)"]
+        AS2["Servidor de Autorização"] -->|"Assina com CHAVE PRIVADA"| T2["JWT"]
+        T2 --> RS3["Resource Server (API 1)"]
+        T2 --> RS4["Resource Server (API 2)"]
+        AS2 -.->|"Distribui CHAVE PÚBLICA via JWKS"| RS3
+        AS2 -.->|"Distribui CHAVE PÚBLICA via JWKS"| RS4
+        RS3 -->|"Valida usando apenas a CHAVE PÚBLICA"| OK3["Válido"]
+        RS4 -->|"Valida usando apenas a CHAVE PÚBLICA"| OK4["Válido"]
+    end
+```
+
+- **HS256 (HMAC com SHA-256):** Algoritmo **simétrico**. Utiliza a mesmíssima chave secreta (*shared secret*) para assinar e para verificar a assinatura.
+    - *Vulnerabilidade Arquitetural:* Todos os microsserviços que precisam validar tokens devem conhecer a chave secreta. Caso uma API periférica seja violada e a chave vaze, o invasor adquire o poder de **forjar tokens legítimos** para todo o ecossistema corporativo.
+- **RS256 (RSA com SHA-256) / ES256 (ECDSA):** Algoritmo **assimétrico**.
+    - O Servidor de Autorização assina o token com a sua **chave privada** (que nunca deixa seu cofre seguro de chaves).
+    - Todos os servidores de recursos, APIs e clientes validam a assinatura utilizando unicamente a **chave pública**, obtida no endpoint padronizado **JWKS (*JSON Web Key Set* - `/.well-known/jwks.json`)**.
+    - Mesmo que uma API receptora seja comprometida, o atacante jamais conseguirá forjar novos tokens, pois a chave pública apenas valida, não assina.
+
+### 4.4 Armazenamento Seguro de Tokens no Cliente e Mitigação de Ataques
+
+| Mecanismo no Navegador | Vulnerabilidade a XSS (*Cross-Site Scripting*) | Vulnerabilidade a CSRF (*Cross-Site Request Forgery*) | Recomendação de Segurança |
+|---|:---:|:---:|---|
+| **`localStorage` / `sessionStorage`** | **Totalmente Vulnerável**. Qualquer script malicioso injetado via XSS pode ler `localStorage.getItem("token")` e exfiltrá-lo. | Imune a CSRF (o navegador não anexa dados do localStorage automaticamente às requisições). | **Desaconselhado** para armazenamento de tokens com privilégios elevados. |
+| **Cookies HTTP com Flags `HttpOnly` e `Secure`** | **Imune a roubo por XSS**. A flag `HttpOnly` bloqueia expressamente o acesso ao cookie via API JavaScript (`document.cookie`). | Suscetível a ataques de CSRF se não for configurado adequadamente. | **Altamente Recomendado**, desde que acompanhado do atributo **`SameSite=Strict`** (ou `Lax`) e tokens anti-CSRF para mitigar requisições forjadas entre sites. |
 
 ---
 
@@ -508,59 +528,6 @@ Está correto o que se afirma em:
 
 ---
 
-
-
-### 4.2 Claims Registradas, Públicas e Privadas
-As declarações contidas no payload classificam-se em três grupos segundo a RFC 7519:
-
-#### Claims Registradas (*Registered Claims*)
-Conjunto padronizado de chaves reservadas recomendadas para garantir interoperabilidade entre sistemas:
-
-- **`sub` (*Subject*):** Identificador unívoco do sujeito/usuário a quem o token pertence (ex.: `"sub": "usr_9841"`).
-- **`iss` (*Issuer*):** Entidade ou autoridade que emitiu o token (ex.: `"iss": "https://auth.tce.go.gov.br"`).
-- **`aud` (*Audience*):** Destinatário ou aplicação para a qual o token foi emitido. Se o microsserviço receptor não constar no `aud`, deve rejeitar o token.
-- **`exp` (*Expiration Time*):** Carimbo de data/hora no formato Unix Timestamp (segundos decorridos desde 01/01/1970 UTC) indicando o limite de validade do token. **Se `tempoAtual > exp`, o token é sumariamente inválido**.
-- **`nbf` (*Not Before*):** Timestamp antes do qual o token não pode ser aceito para processamento.
-- **`iat` (*Issued At*):** Timestamp indicando o instante exato em que o token foi criado e emitido.
-- **`jti` (*JWT ID*):** Identificador exclusivo do token, frequentemente utilizado para prevenir ataques de repetição (*replay attacks*) e gerenciar revogações em listas negras (*blacklists*).
-
-#### Claims Públicas e Privadas
-- **Claims Públicas:** Nomes definidos e acordados em registros públicos da IANA ou nomes formatados como URIs para prevenir colisões de nomenclatura.
-- **Claims Privadas:** Propriedades customizadas acordadas livremente entre os sistemas para tráfego de dados de negócio (ex.: `"roles": ["Auditor", "Administrador"]`, `"orgao": "TCE-GO"`).
-
----
-
-### 4.3 Assinatura Digital: Algoritmos Simétricos (HS256) vs. Assimétricos (RS256)
-
-```mermaid
-flowchart TD
-    subgraph Simetrico["1. Padrão Simétrico: HS256 (HMAC-SHA256)"]
-        AS1["Servidor de Autorização"] -->|"Assina com Segredo K"| T1["JWT"]
-        T1 --> RS1["Resource Server (API 1)"]
-        T1 --> RS2["Resource Server (API 2)"]
-        RS1 -->|"Valida com o MESMO Segredo K"| OK1["Válido"]
-        RS2 -->|"Valida com o MESMO Segredo K"| OK2["Válido"]
-    end
-    subgraph Assimetrico["2. Padrão Assimétrico: RS256 (RSA-SHA256)"]
-        AS2["Servidor de Autorização"] -->|"Assina com CHAVE PRIVADA"| T2["JWT"]
-        T2 --> RS3["Resource Server (API 1)"]
-        T2 --> RS4["Resource Server (API 2)"]
-        AS2 -.->|"Distribui CHAVE PÚBLICA via JWKS"| RS3
-        AS2 -.->|"Distribui CHAVE PÚBLICA via JWKS"| RS4
-        RS3 -->|"Valida usando apenas a CHAVE PÚBLICA"| OK3["Válido"]
-        RS4 -->|"Valida usando apenas a CHAVE PÚBLICA"| OK4["Válido"]
-    end
-```
-
-- **HS256 (HMAC com SHA-256):** Algoritmo **simétrico**. Utiliza a mesmíssima chave secreta (*shared secret*) para assinar e para verificar a assinatura.
-    - *Vulnerabilidade Arquitetural:* Todos os microsserviços que precisam validar tokens devem conhecer a chave secreta. Caso uma API periférica seja violada e a chave vaze, o invasor adquire o poder de **forjar tokens legítimos** para todo o ecossistema corporativo.
-- **RS256 (RSA com SHA-256) / ES256 (ECDSA):** Algoritmo **assimétrico**.
-    - O Servidor de Autorização assina o token com a sua **chave privada** (que nunca deixa seu cofre seguro de chaves).
-    - Todos os servidores de recursos, APIs e clientes validam a assinatura utilizando unicamente a **chave pública**, obtida no endpoint padronizado **JWKS (*JSON Web Key Set* - `/.well-known/jwks.json`)**.
-    - Mesmo que uma API receptora seja comprometida, o atacante jamais conseguirá forjar novos tokens, pois a chave pública apenas valida, não assina.
-
----
-
 ### Teste 106
 **(FCC - Auditor Fiscal / Tecnologia da Informação)**
 No ecossistema corporativo de segurança digital, ao validar um token JWT assinado digitalmente que circula entre múltiplos microsserviços, a escolha entre algoritmos simétricos e assimétricos traz impactos profundos na gestão das chaves.
@@ -588,17 +555,6 @@ A respeito dessa validação, assinale a afirmativa correta:
 
 ---
 
-
-
-### 4.4 Armazenamento Seguro de Tokens no Cliente e Mitigação de Ataques
-
-| Mecanismo no Navegador | Vulnerabilidade a XSS (*Cross-Site Scripting*) | Vulnerabilidade a CSRF (*Cross-Site Request Forgery*) | Recomendação de Segurança |
-|---|:---:|:---:|---|
-| **`localStorage` / `sessionStorage`** | **Totalmente Vulnerável**. Qualquer script malicioso injetado via XSS pode ler `localStorage.getItem("token")` e exfiltrá-lo. | Imune a CSRF (o navegador não anexa dados do localStorage automaticamente às requisições). | **Desaconselhado** para armazenamento de tokens com privilégios elevados. |
-| **Cookies HTTP com Flags `HttpOnly` e `Secure`** | **Imune a roubo por XSS**. A flag `HttpOnly` bloqueia expressamente o acesso ao cookie via API JavaScript (`document.cookie`). | Suscetível a ataques de CSRF se não for configurado adequadamente. | **Altamente Recomendado**, desde que acompanhado do atributo **`SameSite=Strict`** (ou `Lax`) e tokens anti-CSRF para mitigar requisições forjadas entre sites. |
-
----
-
 ### Teste 107
 **(FCC - Analista de Sistemas / Segurança da Informação)**
 A respeito do armazenamento seguro de tokens de acesso no navegador web e dos modelos de controle de acesso aos recursos, assinale a afirmativa correta:  
@@ -622,10 +578,7 @@ A respeito do armazenamento seguro de tokens de acesso no navegador web e dos mo
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Quadro Comparativo Consolidado de Segurança de Acesso
 
@@ -640,6 +593,7 @@ A respeito do armazenamento seguro de tokens de acesso no navegador web e dos mo
 
 ---
 
+---
 
 ## 6. Fontes Recomendadas na Internet
 

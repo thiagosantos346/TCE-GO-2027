@@ -15,48 +15,44 @@
 - Consultas avançadas: Junções (Joins), Agrupamentos, Subconsultas, CTEs e Funções de Janela
 - Objetos de banco de dados: Views (padrão e materializadas), Procedures, Functions e Triggers
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Subconjuntos da Linguagem SQL](#1-subconjuntos-da-linguagem-sql)
     1. [Classificação ANSI: DDL, DML, DQL, DCL e TCL](#11-classificacao-ansi-ddl-dml-dql-dcl-e-tcl)
-    2. [Teste 245](#Teste-245)
-    3. [O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE](#12-o-duelo-classico-drop-vs-truncate-vs-delete)
-    4. [Teste 246](#Teste-246)
-    5. [Teste 247](#Teste-247)
-    6. [Restrições de Integridade (Constraints) e Ações de Chave Estrangeira](#13-restricoes-de-integridade-constraints-e-acoes-de-chave-estrangeira)
+    2. [O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE](#12-o-duelo-classico-drop-vs-truncate-vs-delete)
+    3. [Restrições de Integridade (Constraints) e Ações de Chave Estrangeira](#13-restricoes-de-integridade-constraints-e-acoes-de-chave-estrangeira)
+    4. [Teste 245](#Teste-245)
+    5. [Teste 246](#Teste-246)
+    6. [Teste 247](#Teste-247)
 2. [Ordem Lógica de Execução da Consulta SQL (DQL)](#2-ordem-logica-de-execucao-da-consulta-sql-dql)
     1. [Ordem Léxica (Escrita) vs. Ordem Lógica (Processamento)](#21-ordem-lexica-escrita-vs-ordem-logica-processamento)
     2. [O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases](#22-o-conflito-where-vs-having-e-a-ilegalidade-de-aliases)
     3. [Teste 248](#Teste-248)
 3. [Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas](#3-consultas-avancadas-juncoes-operadores-de-conjunto-e-subconsultas)
     1. [Junções (INNER, LEFT, RIGHT, FULL OUTER e CROSS JOIN)](#31-juncoes-inner-left-right-full-outer-e-cross-join)
-    2. [Teste 249](#Teste-249)
-    3. [Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)](#32-operadores-de-conjunto-union-vs-union-all-intersect-except)
-    4. [Teste 250](#Teste-250)
-    5. [Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL](#33-logica-ternaria-three-valued-logic-e-a-armadilha-do-not-in-com-null)
-    6. [Teste 251](#Teste-251)
-    7. [Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)](#34-common-table-expressions-ctes-e-recursividade-with-recursive)
+    2. [Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)](#32-operadores-de-conjunto-union-vs-union-all-intersect-except)
+    3. [Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL](#33-logica-ternaria-three-valued-logic-e-a-armadilha-do-not-in-com-null)
+    4. [Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)](#34-common-table-expressions-ctes-e-recursividade-with-recursive)
+    5. [Teste 249](#Teste-249)
+    6. [Teste 250](#Teste-250)
+    7. [Teste 251](#Teste-251)
     8. [Teste 252](#Teste-252)
 4. [Funções Analíticas de Janela (Window Functions)](#4-funcoes-analiticas-de-janela-window-functions)
     1. [Sintaxe Geral e Cláusula OVER (PARTITION BY ... ORDER BY ...)](#41-sintaxe-geral-e-clausula-over-partition-by-order-by)
     2. [Funções de Ranking: ROW_NUMBER(), RANK() e DENSE_RANK()](#42-funcoes-de-ranking-rownumber-rank-e-denserank)
-    3. [Teste 253](#Teste-253)
-    4. [Funções de Deslocamento: LEAD() e LAG()](#43-funcoes-de-deslocamento-lead-e-lag)
+    3. [Funções de Deslocamento: LEAD() e LAG()](#43-funcoes-de-deslocamento-lead-e-lag)
+    4. [Teste 253](#Teste-253)
     5. [Teste 254](#Teste-254)
 5. [Objetos Programáveis de Banco de Dados](#5-objetos-programaveis-de-banco-de-dados)
     1. [Visões: View Padrão vs. View Materializada (Materialized View)](#51-visoes-view-padrao-vs-view-materializada-materialized-view)
     2. [Stored Procedures vs. User-Defined Functions (UDF)](#52-stored-procedures-vs-user-defined-functions-udf)
     3. [Gatilhos (Triggers): Eventos, Momentos (BEFORE, AFTER, INSTEAD OF) e Pseudorregistros OLD/NEW](#53-gatilhos-triggers-eventos-momentos-before-after-instead-of-e-pseudorregistros-oldnew)
     4. [Teste 255](#Teste-255)
-6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+6. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Subconjuntos da Linguagem SQL
 
@@ -81,6 +77,42 @@ flowchart TD
 | **DQL** | *Data Query Language* | `SELECT` | Consulta e recuperação de dados estruturados (frequentemente agrupada como subconjunto da DML). |
 | **DCL** | *Data Control Language* | `GRANT`, `REVOKE` | Gestão de privilégios de acesso, concessão e revogação de permissões a usuários e papéis (*roles*). |
 | **TCL** | *Transaction Control Language* | `COMMIT`, `ROLLBACK`, `SAVEPOINT` | Gerenciamento de blocos de transações atômicas, garantindo as propriedades ACID. |
+
+### 1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE
+
+Um dos tópicos de maior incidência em provas da FCC para cargos de Tecnologia da Informação envolve a comparação detalhada entre as operações de remoção:
+
+| Dimensão de Análise | `DELETE` | `TRUNCATE TABLE` | `DROP TABLE` |
+| :--- | :--- | :--- | :--- |
+| **Classificação Formal** | **DML** (*Manipulação*) | **DDL** (*Definição*) | **DDL** (*Definição*) |
+| **Escopo de Remoção** | Linhas filtradas (`WHERE`) ou todas as linhas da tabela. | **Todas as linhas da tabela** incondicionalmente. | A **tabela inteira** (estrutura, dados e metadados no catálogo). |
+| **Sobrecarga de Log (WAL/Redo)** | **Alto overhead:** Registra cada linha excluída individualmente no log de transações. | **Mínimo overhead:** Registra apenas a desalocação das páginas/extensões no disco. | **Mínimo overhead:** Registra a remoção do objeto do catálogo de dados. |
+| **Velocidade de Execução** | Lento em grandes volumes de dados (milhões de linhas). | **Extremamente rápido** (quase instantâneo). | Instantâneo. |
+| **Disparo de Triggers** | Dispara triggers de `DELETE` (`FOR EACH ROW` e `STATEMENT`). | **NÃO dispara** triggers de linha (`FOR EACH ROW`). | Não dispara triggers DML. |
+| **Comportamento Transacional** | Suporta `ROLLBACK` em qualquer SGBD compatível com ACID. | Reversível no PostgreSQL/SQL Server; no Oracle efetua **COMMIT implícito**. | Reversível no PostgreSQL; no Oracle efetua **COMMIT implícito**. |
+| **Reinício de Sequences (Identity)**| **Não reinicia** contadores de auto-incremento. | **Reinicia** os contadores de identidade para o valor inicial padrão. | A tabela deixa de existir fisicamente. |
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A FCC adora elaborar enunciados afirmando que:
+>
+> 1. *"O comando TRUNCATE é uma operação DML porque manipula dados de linhas."* $\rightarrow$ **ERRADO!** O `TRUNCATE` é formalmente classificado como **DDL**, pois opera desalocando páginas físicas de armazenamento no catálogo de dados.
+> 2. *"O comando TRUNCATE aciona gatilhos de auditoria FOR EACH ROW para registrar quem apagou cada linha."* $\rightarrow$ **ERRADO!** O `TRUNCATE` ignora completamente gatilhos de nível de linha!
+
+### 1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira
+
+As restrições de integridade garantem a consistência lógica dos dados no banco:
+
+- **`PRIMARY KEY`:** Garante unicidade e impede valores nulos (`UNIQUE` + `NOT NULL`). Cada tabela pode conter apenas uma chave primária.
+- **`FOREIGN KEY` (Integridade Referencial):** Impõe que o valor da coluna exista previamente na chave primária da tabela referenciada.
+    - **Ações Referenciais em Deleção/Atualização (`ON DELETE` / `ON UPDATE`):**
+    - `RESTRICT` / `NO ACTION`: Bloqueia e rejeita a operação no pai caso existam registros filhos dependentes (comportamento padrão).
+    - `CASCADE`: Propaga a alteração/exclusão automaticamente aos filhos (se o contrato for apagado, todos os seus aditivos são apagados).
+    - `SET NULL`: Atualiza o campo da chave estrangeira dos filhos para `NULL` quando o pai é excluído (exige que a coluna aceite nulos).
+    - `SET DEFAULT`: Preenche a chave estrangeira dos filhos com o valor padrão configurado.
+- **`UNIQUE`:** Impede valores duplicados, mas permite a inserção de valores nulos (`NULL`), exceto se combinado com `NOT NULL`.
+- **`CHECK`:** Valida predicados booleanos customizados antes de persistir a tupla (ex.: `CHECK (valor_empenho > 0)`).
+
+---
 
 ### Teste 245
 **(FGV - TRT / Analista Judiciário - TI - Comandos DCL e Gestão de Privilégios)**
@@ -109,28 +141,6 @@ Considerando os comandos da Data Control Language (DCL) do padrão ANSI SQL, ass
 
 ---
 
-### 1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE
-
-Um dos tópicos de maior incidência em provas da FCC para cargos de Tecnologia da Informação envolve a comparação detalhada entre as operações de remoção:
-
-| Dimensão de Análise | `DELETE` | `TRUNCATE TABLE` | `DROP TABLE` |
-| :--- | :--- | :--- | :--- |
-| **Classificação Formal** | **DML** (*Manipulação*) | **DDL** (*Definição*) | **DDL** (*Definição*) |
-| **Escopo de Remoção** | Linhas filtradas (`WHERE`) ou todas as linhas da tabela. | **Todas as linhas da tabela** incondicionalmente. | A **tabela inteira** (estrutura, dados e metadados no catálogo). |
-| **Sobrecarga de Log (WAL/Redo)** | **Alto overhead:** Registra cada linha excluída individualmente no log de transações. | **Mínimo overhead:** Registra apenas a desalocação das páginas/extensões no disco. | **Mínimo overhead:** Registra a remoção do objeto do catálogo de dados. |
-| **Velocidade de Execução** | Lento em grandes volumes de dados (milhões de linhas). | **Extremamente rápido** (quase instantâneo). | Instantâneo. |
-| **Disparo de Triggers** | Dispara triggers de `DELETE` (`FOR EACH ROW` e `STATEMENT`). | **NÃO dispara** triggers de linha (`FOR EACH ROW`). | Não dispara triggers DML. |
-| **Comportamento Transacional** | Suporta `ROLLBACK` em qualquer SGBD compatível com ACID. | Reversível no PostgreSQL/SQL Server; no Oracle efetua **COMMIT implícito**. | Reversível no PostgreSQL; no Oracle efetua **COMMIT implícito**. |
-| **Reinício de Sequences (Identity)**| **Não reinicia** contadores de auto-incremento. | **Reinicia** os contadores de identidade para o valor inicial padrão. | A tabela deixa de existir fisicamente. |
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A FCC adora elaborar enunciados afirmando que:
->
-> 1. *"O comando TRUNCATE é uma operação DML porque manipula dados de linhas."* $\rightarrow$ **ERRADO!** O `TRUNCATE` é formalmente classificado como **DDL**, pois opera desalocando páginas físicas de armazenamento no catálogo de dados.
-> 2. *"O comando TRUNCATE aciona gatilhos de auditoria FOR EACH ROW para registrar quem apagou cada linha."* $\rightarrow$ **ERRADO!** O `TRUNCATE` ignora completamente gatilhos de nível de linha!
-
----
-
 ### Teste 246
 **(FCC - Adaptada / TI - DDL vs. DML: Comandos TRUNCATE e DELETE)**
 Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com mais de 50 milhões de registros de log transitório em um ambiente de produção. Ao avaliar o uso do comando `TRUNCATE TABLE` em comparação com `DELETE FROM`, conclui-se corretamente que:  
@@ -155,7 +165,6 @@ Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com
 > **Gabarito: D**
 
 ---
-
 
 ### Teste 247
 **(FCC - TRT-14 / Analista Judiciário - TI - Comandos DDL vs. DML: DROP, TRUNCATE e DELETE)**
@@ -183,25 +192,6 @@ Para atender estritamente a esses requisitos técnicos, o comando correto a ser 
 > **Gabarito: C**
 
 ---
-
-### 1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira
-
-As restrições de integridade garantem a consistência lógica dos dados no banco:
-
-- **`PRIMARY KEY`:** Garante unicidade e impede valores nulos (`UNIQUE` + `NOT NULL`). Cada tabela pode conter apenas uma chave primária.
-- **`FOREIGN KEY` (Integridade Referencial):** Impõe que o valor da coluna exista previamente na chave primária da tabela referenciada.
-    - **Ações Referenciais em Deleção/Atualização (`ON DELETE` / `ON UPDATE`):**
-    - `RESTRICT` / `NO ACTION`: Bloqueia e rejeita a operação no pai caso existam registros filhos dependentes (comportamento padrão).
-    - `CASCADE`: Propaga a alteração/exclusão automaticamente aos filhos (se o contrato for apagado, todos os seus aditivos são apagados).
-    - `SET NULL`: Atualiza o campo da chave estrangeira dos filhos para `NULL` quando o pai é excluído (exige que a coluna aceite nulos).
-    - `SET DEFAULT`: Preenche a chave estrangeira dos filhos com o valor padrão configurado.
-- **`UNIQUE`:** Impede valores duplicados, mas permite a inserção de valores nulos (`NULL`), exceto se combinado com `NOT NULL`.
-- **`CHECK`:** Valida predicados booleanos customizados antes de persistir a tupla (ex.: `CHECK (valor_empenho > 0)`).
-
-
-
----
-
 
 ## 2. Ordem Lógica de Execução da Consulta SQL (DQL)
 
@@ -283,10 +273,7 @@ Ao ser submetida ao compilador SQL de um SGBD relacional padrão, a consulta:
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas
 
@@ -297,6 +284,47 @@ Ao ser submetida ao compilador SQL de um SGBD relacional padrão, a consulta:
 - **`RIGHT OUTER JOIN` (ou `RIGHT JOIN`):** Comportamento inverso do LEFT JOIN: preserva todas as tuplas da tabela da direita, preenchendo com `NULL` as ausências da tabela da esquerda.
 - **`FULL OUTER JOIN`:** Preserva todas as tuplas de ambas as tabelas. Quando não há correspondência mútua, preenche com `NULL` os atributos correspondentes.
 - **`CROSS JOIN`:** Produz o produto cartesiano irrestrito entre as tabelas (cada linha da primeira tabela é combinada com todas as linhas da segunda).
+
+### 3.2 Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)
+
+- **`UNION` vs. `UNION ALL`:**
+    - **`UNION`:** Combina os resultados de duas consultas com compatibilidade de esquema e executa um algoritmo interno de ordenação/hashing para **eliminar compulsoriamente linhas duplicadas**.
+    - **`UNION ALL`:** Apenas concatena as duas listas de tuplas, **preservando todas as duplicatas intactas**. Possui desempenho computacional dramaticamente superior ao `UNION`.
+- **`INTERSECT`:** Retorna apenas as tuplas que constam simultaneamente em ambas as consultas, eliminando duplicatas.
+- **`EXCEPT` (ou `MINUS` no Oracle):** Retorna as tuplas da primeira consulta que não estão presentes na segunda consulta.
+
+### 3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL
+
+Em SQL, qualquer comparação direta com valor nulo (`coluna = NULL` ou `coluna != NULL`) avalia como **`UNKNOWN`** (*Desconhecido*), e não como `TRUE` nem `FALSE`. Para testar nulos, deve-se usar estritamente `IS NULL` ou `IS NOT NULL`.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A armadilha clássica da FCC em subconsultas:  
+> Considere a consulta: `SELECT nome FROM cliente WHERE id NOT IN (SELECT id_cliente FROM divida);`  
+>
+> - Se a tabela `divida` contiver **ao menos UM único registro cujo `id_cliente` seja `NULL`**, a subconsulta retornará o valor `NULL`.  
+> - Como o predicado desdobra-se em: `id != 1 AND id != 2 AND id != NULL`, e qualquer comparação com `NULL` resulta em `UNKNOWN`, a expressão inteira avaliará como `UNKNOWN` para todas as linhas!  
+> - **Resultado Catastrófico:** A consulta retornará **ZERO LINHAS (conjunto vazio)**!  
+> - **Solução Recomendada:** Utilizar sempre a construção com **`NOT EXISTS`** correlacionado, imune a valores nulos.
+
+### 3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)
+
+As Expressões de Tabela Comuns (*CTEs*) são conjuntos de resultados temporários nomeados declarados através da cláusula `WITH`:
+
+```sql
+WITH AuditoriasRecentes AS (
+    SELECT auditor_id, COUNT(*) AS total
+    FROM fiscalizacao
+    WHERE data_inspecao >= '2026-01-01'
+    GROUP BY auditor_id
+)
+SELECT a.nome, ar.total
+FROM auditor a
+JOIN AuditoriasRecentes ar ON a.id = ar.auditor_id;
+```
+
+- **`WITH RECURSIVE`:** Permite que a CTE faça referência a si mesma, viabilizando consultas em estruturas hierárquicas e em grafos (como organogramas empresariais ou árvores de dependência de processos).
+
+---
 
 ### Teste 249
 **(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Junções SQL e Tratamento de Nulos)**
@@ -336,14 +364,6 @@ A quantidade exata de linhas retornadas por essa consulta e o conteúdo dos camp
 
 ---
 
-### 3.2 Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)
-
-- **`UNION` vs. `UNION ALL`:**
-    - **`UNION`:** Combina os resultados de duas consultas com compatibilidade de esquema e executa um algoritmo interno de ordenação/hashing para **eliminar compulsoriamente linhas duplicadas**.
-    - **`UNION ALL`:** Apenas concatena as duas listas de tuplas, **preservando todas as duplicatas intactas**. Possui desempenho computacional dramaticamente superior ao `UNION`.
-- **`INTERSECT`:** Retorna apenas as tuplas que constam simultaneamente em ambas as consultas, eliminando duplicatas.
-- **`EXCEPT` (ou `MINUS` no Oracle):** Retorna as tuplas da primeira consulta que não estão presentes na segunda consulta.
-
 ### Teste 250
 **(FCC - TRT / Analista Judiciário - TI - Operadores de Conjunto: UNION vs. UNION ALL)**
 Em procedimentos analíticos de auditoria de dados, um auditor necessita consolidar em uma única lista todos os CPFs de fornecedores que receberam pagamentos no Exercício de 2024 (tabela `PAGAMENTOS_2024`, com 100.000 registros, contendo CPFs repetidos) e no Exercício de 2025 (tabela `PAGAMENTOS_2025`, com 80.000 registros, também com repetições). Sabe-se que 20.000 CPFs distintos aparecem em ambos os exercícios.
@@ -372,21 +392,6 @@ Está correto o que se afirma em:
 > - **III.** **CORRETA.** O operador `INTERSECT` calcula a interseção dos dois conjuntos, retornando unicamente as linhas presentes simultaneamente no primeiro e no segundo comando `SELECT`, eliminando valores duplicados.
 > 
 > **Gabarito: E**
-
----
-
-### 3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL
-
-Em SQL, qualquer comparação direta com valor nulo (`coluna = NULL` ou `coluna != NULL`) avalia como **`UNKNOWN`** (*Desconhecido*), e não como `TRUE` nem `FALSE`. Para testar nulos, deve-se usar estritamente `IS NULL` ou `IS NOT NULL`.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A armadilha clássica da FCC em subconsultas:  
-> Considere a consulta: `SELECT nome FROM cliente WHERE id NOT IN (SELECT id_cliente FROM divida);`  
->
-> - Se a tabela `divida` contiver **ao menos UM único registro cujo `id_cliente` seja `NULL`**, a subconsulta retornará o valor `NULL`.  
-> - Como o predicado desdobra-se em: `id != 1 AND id != 2 AND id != NULL`, e qualquer comparação com `NULL` resulta em `UNKNOWN`, a expressão inteira avaliará como `UNKNOWN` para todas as linhas!  
-> - **Resultado Catastrófico:** A consulta retornará **ZERO LINHAS (conjunto vazio)**!  
-> - **Solução Recomendada:** Utilizar sempre a construção com **`NOT EXISTS`** correlacionado, imune a valores nulos.
 
 ---
 
@@ -428,27 +433,6 @@ O resultado obtido por essa consulta será:
 
 ---
 
-
-### 3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)
-
-As Expressões de Tabela Comuns (*CTEs*) são conjuntos de resultados temporários nomeados declarados através da cláusula `WITH`:
-
-```sql
-WITH AuditoriasRecentes AS (
-    SELECT auditor_id, COUNT(*) AS total
-    FROM fiscalizacao
-    WHERE data_inspecao >= '2026-01-01'
-    GROUP BY auditor_id
-)
-SELECT a.nome, ar.total
-FROM auditor a
-JOIN AuditoriasRecentes ar ON a.id = ar.auditor_id;
-```
-
-- **`WITH RECURSIVE`:** Permite que a CTE faça referência a si mesma, viabilizando consultas em estruturas hierárquicas e em grafos (como organogramas empresariais ou árvores de dependência de processos).
-
----
-
 ### Teste 252
 **(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Common Table Expressions e CTE Recursiva)**
 Em um sistema de auditoria governamental, a estrutura de subordinação hierárquica dos órgãos de controle é modelada na tabela `UNIDADE_ORGANIZACIONAL (id_unidade, nome_unidade, id_unidade_superior)`.
@@ -477,10 +461,7 @@ Para percorrer recursivamente todos os níveis descendentes a partir de uma unid
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 4. Funções Analíticas de Janela (Window Functions)
 
@@ -515,6 +496,13 @@ Considere quatro servidores avaliados por salário dentro de uma partição: Ana
 - **`RANK()`:** Atribui a mesma posição a valores empatados, porém **pula números na sequência** proporcionalmente ao tamanho do empate (deixa lacunas no ranking).
 - **`DENSE_RANK()`:** Atribui a mesma posição a valores empatados, porém **NÃO pula números na sequência**; a numeração subsequente continua estritamente consecutiva (ranking denso sem lacunas).
 
+### 4.3 Funções de Deslocamento: LEAD() e LAG()
+
+Permitem acessar dados de linhas vizinhas na mesma partição sem necessidade de efetuar auto-junções (*self-joins*) lentas:
+
+- **`LAG(coluna, N, valor_padrao)`:** Retorna o valor da coluna correspondente a $N$ linhas **anteriores** à linha corrente.
+- **`LEAD(coluna, N, valor_padrao)`:** Retorna o valor da coluna correspondente a $N$ linhas **posteriores** à linha corrente.
+
 ---
 
 ### Teste 253
@@ -541,16 +529,6 @@ A consulta SQL correta que atende exatamente a essa especificação utiliza a fu
 > - **E)** Incorreta. `LEAD()` é uma função analítica de deslocamento para acessar valores de linhas posteriores na janela, não atribuindo posições de classificação.
 > 
 > **Gabarito: C**
-
----
-
-
-### 4.3 Funções de Deslocamento: LEAD() e LAG()
-
-Permitem acessar dados de linhas vizinhas na mesma partição sem necessidade de efetuar auto-junções (*self-joins*) lentas:
-
-- **`LAG(coluna, N, valor_padrao)`:** Retorna o valor da coluna correspondente a $N$ linhas **anteriores** à linha corrente.
-- **`LEAD(coluna, N, valor_padrao)`:** Retorna o valor da coluna correspondente a $N$ linhas **posteriores** à linha corrente.
 
 ---
 
@@ -612,10 +590,7 @@ FROM PAGAMENTO_CONTRATO;
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 5. Objetos Programáveis de Banco de Dados
 
@@ -683,10 +658,7 @@ No que concerne aos gatilhos (*Triggers*) em sistemas de gerenciamento de bancos
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

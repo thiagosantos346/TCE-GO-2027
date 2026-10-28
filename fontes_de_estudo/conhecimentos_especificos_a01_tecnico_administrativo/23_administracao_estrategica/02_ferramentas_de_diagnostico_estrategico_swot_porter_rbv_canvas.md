@@ -28,36 +28,29 @@
 - **Business Model Canvas (Alexander Osterwalder):**
     - Os nove blocos de geração de valor organizacional: Proposta de Valor, Segmentos de Clientes, Canais, Relacionamento com Clientes, Fontes de Receita, Recursos Principais, Atividades-Chave, Parcerias Principais e Estrutura de Custos.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas](#1-analise-swot-cruzada-fofa-e-as-quatro-posturas-estrategicas)
-    2. [Teste 380](#Teste-380)
-    3. [Teste 381](#Teste-381)
-    4. [O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter](#2-o-modelo-das-cinco-forcas-e-as-estrategias-genericas-de-michael-porter)
-    5. [Teste 382](#Teste-382)
-    6. [Teste 383](#Teste-383)
-    7. [Teste 384](#Teste-384)
-    8. [A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)](#3-a-visao-baseada-em-recursos-rbv-e-o-framework-vrio-jay-barney)
-    9. [Teste 385](#Teste-385)
-    10. [Teste 386](#Teste-386)
-    11. [O Business Model Canvas (Alexander Osterwalder)](#4-o-business-model-canvas-alexander-osterwalder)
-    12. [Teste 387](#Teste-387)
-    13. [Teste 388](#Teste-388)
-    14. [Teste 389](#Teste-389)
-    15. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+1. [Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas](#1-analise-swot-cruzada-fofa-e-as-quatro-posturas-estrategicas)
+    1. [Teste 380](#Teste-380)
+    2. [Teste 381](#Teste-381)
+2. [O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter](#2-o-modelo-das-cinco-forcas-e-as-estrategias-genericas-de-michael-porter)
+    1. [Teste 382](#Teste-382)
+    2. [Teste 383](#Teste-383)
+    3. [Teste 384](#Teste-384)
+3. [A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)](#3-a-visao-baseada-em-recursos-rbv-e-o-framework-vrio-jay-barney)
+    1. [Teste 385](#Teste-385)
+    2. [Teste 386](#Teste-386)
+4. [O Business Model Canvas (Alexander Osterwalder)](#4-o-business-model-canvas-alexander-osterwalder)
+    1. [Teste 387](#Teste-387)
+    2. [Teste 388](#Teste-388)
+    3. [Teste 389](#Teste-389)
+5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas
+## 1. Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas
 
 A análise SWOT (acrônimo para *Strengths, Weaknesses, Opportunities e Threats* / Matriz FOFA em português) combina as variáveis do ambiente interno e externo para subsidiar a escolha da postura estratégica mais adequada:
 
@@ -117,8 +110,6 @@ Determinada entidade governamental realizou o diagnóstico de seu ambiente por m
 
 ---
 
-
-
 ### Teste 381
 **(FCC - Adaptada / Analista de Planejamento e Gestão)**
 Na Análise SWOT Cruzada (Matriz FOFA), o confronto entre o ambiente interno (Forças e Fraquezas) e o ambiente externo (Oportunidades e Ameaças) permite delinear posturas estratégicas fundamentais para a organização.
@@ -143,8 +134,7 @@ A postura estratégica recomendada quando a organização diagnostica um cenári
 
 ---
 
-
-### 2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter
+## 2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter
 
 Michael Porter desenvolveu um clássico referencial para explicar como as forças estruturais de uma indústria determinam sua intensidade competitiva e seu nível de atratividade:
 
@@ -231,8 +221,6 @@ No modelo das Estratégias Genéricas formulado por Michael Porter, a organizaç
 
 ---
 
-
-
 ### Teste 384
 **(FCC - Adaptada / Auditor de Controle Externo)**
 Michael Porter formulou o célebre modelo das Cinco Forças Competitivas que determinam a atratividade e o nível de rentabilidade de uma indústria.
@@ -260,8 +248,7 @@ São forças competitivas integrantes do modelo original de Porter:
 
 ---
 
-
-### 3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)
+## 3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)
 
 Ao contrário dos modelos que olham prioritariamente para o mercado exterior (como Porter), a **Visão Baseada em Recursos (RBV - *Resource-Based View*)** sustenta que a fonte de vantagem competitiva sustentada e de desempenho superior das organizações reside em seu **ambiente interno**: nos recursos e capacidades que a organização possui e controla.
 
@@ -331,8 +318,6 @@ Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado 
 
 ---
 
-
-
 ### Teste 386
 **(FCC - Adaptada / Analista de Tecnologia e Controle)**
 Na Visão Baseada em Recursos (RBV - *Resource-Based View*) e no framework **VRIO** desenvolvido por Jay Barney, para que um recurso interno gere uma **Vantagem Competitiva Sustentável** de longo prazo para a organização, ele deve preencher cumulativamente os quatro requisitos:
@@ -355,8 +340,7 @@ Na Visão Baseada em Recursos (RBV - *Resource-Based View*) e no framework **VRI
 
 ---
 
-
-### 4. O Business Model Canvas (Alexander Osterwalder)
+## 4. O Business Model Canvas (Alexander Osterwalder)
 
 Desenvolvido por Alexander Osterwalder e Yves Pigneur, o **Business Model Canvas** é uma ferramenta de gestão estratégica visual que sintetiza a arquitetura de negócios de uma instituição em um único painel composto por **nove blocos interdependentes**:
 
@@ -416,8 +400,6 @@ A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterw
 
 ---
 
-
-
 ### Teste 388
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na modelagem inovadora de serviços e projetos públicos pelo *Business Model Canvas* (Alexander Osterwalder), o bloco que define como a instituição se comunica e entrega a sua proposta de valor aos diferentes segmentos de usuários e cidadãos é denominado:
@@ -467,8 +449,7 @@ Segundo as Estratégias Genéricas de Michael Porter, quando uma organização b
 
 ---
 
-
-### 5. Fontes Oficiais e Referências Bibliográficas
+## 5. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto nº 9.203/2017 (Gestão Estratégica e Avaliação de Riscos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Diagnóstico de riscos ambientais e definição de respostas estratégicas no setor público.
 * [TCU - Guia de Gestão de Riscos e Diagnóstico Organizacional](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Metodologia do TCU para análise de ameaças, oportunidades e capacidade interna.

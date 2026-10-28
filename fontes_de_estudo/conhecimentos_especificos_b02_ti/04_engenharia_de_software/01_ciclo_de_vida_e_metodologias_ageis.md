@@ -15,10 +15,7 @@
 - Abordagens de ciclo de vida preditiva, iterativa, incremental e adaptativa/ágil (e abordagens híbridas)
 - Abordagens, métodos e frameworks ágeis: Scrum, Kanban, Lean Software Development e Extreme Programming (XP)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -29,36 +26,35 @@
     4. [Teste 001](#Teste-001)
 2. [Modelos de Ciclo de Vida de Software](#2-modelos-de-ciclo-de-vida-de-software)
     1. [Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V](#21-abordagem-preditiva-modelo-cascata-waterfall-e-modelo-v)
-    2. [Teste 002](#Teste-002)
-    3. [Abordagem Iterativa e Incremental: Modelo Espiral e RUP](#22-abordagem-iterativa-e-incremental-modelo-espiral-e-rup)
-    4. [Teste 003](#Teste-003)
-    5. [Abordagem Adaptativa / Ágil: O Manifesto Ágil de 2001](#23-abordagem-adaptativa-agil-o-manifesto-agil-de-2001)
-    6. [Teste 004](#Teste-004)
-    7. [Abordagens Híbridas de Desenvolvimento](#24-abordagens-hibridas-de-desenvolvimento)
+    2. [Abordagem Iterativa e Incremental: Modelo Espiral e RUP](#22-abordagem-iterativa-e-incremental-modelo-espiral-e-rup)
+    3. [Abordagem Adaptativa / Ágil: O Manifesto Ágil de 2001](#23-abordagem-adaptativa-agil-o-manifesto-agil-de-2001)
+    4. [Abordagens Híbridas de Desenvolvimento](#24-abordagens-hibridas-de-desenvolvimento)
+    5. [Teste 002](#Teste-002)
+    6. [Teste 003](#Teste-003)
+    7. [Teste 004](#Teste-004)
 3. [O Framework Scrum (Guia Scrum 2020)](#3-o-framework-scrum-guia-scrum-2020)
     1. [Pilares do Empirismo e Valores Fundamentais](#31-pilares-do-empirismo-e-valores-fundamentais)
     2. [Estrutura do Scrum Team e Responsabilidades](#32-estrutura-do-scrum-team-e-responsabilidades)
-    3. [Teste 005](#Teste-005)
-    4. [Eventos Formais do Scrum e Regras de Time-box](#33-eventos-formais-do-scrum-e-regras-de-time-box)
-    5. [Teste 006](#Teste-006)
-    6. [Artefatos Oficiais e seus Três Compromissos Formais](#34-artefatos-oficiais-e-seus-tres-compromissos-formais)
-    7. [Teste 007](#Teste-007)
-    8. [Métricas e Gráficos de Acompanhamento (Burndown e Burnup)](#35-metricas-e-graficos-de-acompanhamento-burndown-e-burnup)
+    3. [Eventos Formais do Scrum e Regras de Time-box](#33-eventos-formais-do-scrum-e-regras-de-time-box)
+    4. [Artefatos Oficiais e seus Três Compromissos Formais](#34-artefatos-oficiais-e-seus-tres-compromissos-formais)
+    5. [Métricas e Gráficos de Acompanhamento (Burndown e Burnup)](#35-metricas-e-graficos-de-acompanhamento-burndown-e-burnup)
+    6. [Teste 005](#Teste-005)
+    7. [Teste 006](#Teste-006)
+    8. [Teste 007](#Teste-007)
     9. [Teste 008](#Teste-008)
 4. [Método Kanban e Gestão do Fluxo de Valor](#4-metodo-kanban-e-gestao-do-fluxo-de-valor)
     1. [Princípios e Práticas Gerais do Kanban](#41-principios-e-praticas-gerais-do-kanban)
     2. [Limites de Trabalho em Progresso (WIP) e Gargalos](#42-limites-de-trabalho-em-progresso-wip-e-gargalos)
-    3. [Teste 009](#Teste-009)
-    4. [Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD](#43-metricas-de-fluxo-lead-time-cycle-time-throughput-e-cfd)
+    3. [Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD](#43-metricas-de-fluxo-lead-time-cycle-time-throughput-e-cfd)
+    4. [Teste 009](#Teste-009)
     5. [Teste 010](#Teste-010)
 5. [Extreme Programming (XP) e Lean Software Development](#5-extreme-programming-xp-e-lean-software-development)
     1. [Extreme Programming: Valores e Práticas de Engenharia](#51-extreme-programming-valores-e-praticas-de-engenharia)
-    2. [Teste 011](#Teste-011)
-    3. [Lean Software Development e Eliminação dos 7 Desperdícios](#52-lean-software-development-e-eliminacao-dos-7-desperdicios)
+    2. [Lean Software Development e Eliminação dos 7 Desperdícios](#52-lean-software-development-e-eliminacao-dos-7-desperdicios)
+    3. [Teste 011](#Teste-011)
 6. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Fundamentos de Engenharia de Software e Processos
 
@@ -70,8 +66,6 @@ A Engenharia de Software é a disciplina de engenharia dedicada ao estabelecimen
     - *Complexidade Essencial:* Intrínseca à natureza do software (conformidade legal mutável, invisibilidade, complexidade inerente ao domínio do negócio);
     - *Complexidade Acidental:* Relacionada às limitações transitórias da tecnologia utilizada (compiladores rudimentares, falta de ferramentas de integração ou linguagens de baixo nível). Não há "bala de prata" tecnológica capaz de quadruplicar a produtividade por si só.
 
----
-
 ### 1.2 Atividades Genéricas de Processo de Software
 Independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a literatura clássica de engenharia de software (Pressman e Sommerville) mapeia cinco atividades genéricas de processo:
 
@@ -80,8 +74,6 @@ Independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a li
 3. **Modelagem:** Elaboração de arquitetura de software, diagramação de modelos conceituais, fluxos de dados e especificações detalhadas de design;
 4. **Construção:** Atividades conjugadas de codificação (programação) e testes automatizados/manuais de software;
 5. **Implantação (Deployment):** Disponibilização do software em ambiente operacional, homologação pelo usuário final, suporte técnico e coleta de feedback.
-
----
 
 ### 1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)
 - **CMMI (Capability Maturity Model Integration):** Desenvolvido pelo SEI (Software Engineering Institute), estrutura a capacidade e maturidade de organizações em 5 níveis escalonados:
@@ -93,7 +85,6 @@ Independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a li
 - **MPS.BR (Melhoria de Processo do Software Brasileiro):** Modelo nacional alinhado às normas ISO/IEC 12207 e 15504, subdividido em 7 níveis de maturidade decrescentes em letras (do nível G - Parcialmente Gerenciado até o nível A - Em Otimização).
 
 ---
-
 
 ### Teste 001
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
@@ -118,10 +109,7 @@ No âmbito dos modelos de qualidade e melhoria de processos de software, o CMMI 
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Modelos de Ciclo de Vida de Software
 
@@ -152,6 +140,42 @@ flowchart TD
     - Design Arquitetural $\longleftrightarrow$ Testes de Integração;
     - Design Detalhado de Módulos $\longleftrightarrow$ Testes Unitários.
 
+### 2.2 Abordagem Iterativa e Incremental: Modelo Espiral e RUP
+- **Conceito de Iteração vs. Incremento:**
+    - *Iterativo:* O software é desenvolvido por meio de repetições sucessivas de ciclos de desenvolvimento, refinando progressivamente a solução.
+    - *Incremental:* A cada ciclo concluído, uma porção utilizável e funcional do software é acrescida à versão anterior.
+- **Modelo Espiral (Barry Boehm, 1988):** Modelo orientado a riscos (*risk-driven*), no qual o desenvolvimento progride em ciclos espirais contínuos compostos por quatro quadrantes obrigatórios:
+    1. *Determinação de objetivos, alternativas e restrições;*
+    2. *Identificação e resolução de riscos* (análise de risco, prototipação e simulações);
+    3. *Desenvolvimento e validação do produto do nível atual;*
+    4. *Planejamento da próxima fase.*
+
+- **Processo Unificado (RUP - Rational Unified Process):** Metodologia iterativa e incremental orientada por Casos de Uso e centrada na Arquitetura de Software. Estrutura-se em quatro fases temporais sequenciais:
+    1. *Iniciação (Inception):* Estabelecimento do escopo de negócio e viabilidade;
+    2. *Elaboração (Elaboration):* Mapeamento profundo dos requisitos, mitigação de riscos maiores e estabilização da arquitetura executável básica;
+    3. *Construção (Construction):* Desenvolvimento em larga escala e codificação de todos os componentes;
+    4. *Transição (Transition):* Implantação, homologação, treinamento dos usuários e passagem para operação.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A característica mais cobrada pela FCC a respeito do Modelo Espiral de Boehm é a **gestão explícita e sistemática de riscos** (*risk analysis*) em cada espira. Se a questão mencionar "modelo direcionado pela mitigação contínua de riscos através de prototipação em cada volta do ciclo", marque com segurança o **Modelo Espiral**.
+
+### 2.3 Abordagem Adaptativa / Ágil: O Manifesto Ágil de 2001
+Em fevereiro de 2001, em Snowbird (Utah), dezessete líderes de desenvolvimento de software redigiram o **Manifesto para o Desenvolvimento Ágil de Software**, fundamentado em 4 Valores e 12 Princípios:
+
+| Nós valorizamos mais: | Do que: |
+| :--- | :--- |
+| **Indivíduos e interações** | Processos e ferramentas |
+| **Software em funcionamento** | Documentação abrangente |
+| **Colaboração com o cliente** | Negociação de contratos |
+| **Responder a mudanças** | Seguir um plano pré-estabelecido |
+
+*A premissa não é eliminar processos, documentação, contratos ou planos, mas reconhecer que os itens à esquerda entregam valor direto superior e adaptabilidade num ambiente de incerteza.*
+
+### 2.4 Abordagens Híbridas de Desenvolvimento
+Reconhecem que o mundo corporativo raramente opera em extremos absolutos. Um projeto híbrido pode adotar:
+
+- Abordagem preditiva no planejamento macro de escopo, contratação pública e cronograma de alto nível (governança tradicional);
+- Abordagem adaptativa/ágil na execução das iterações técnicas pelas equipes de desenvolvimento (com Sprints Scrum, gestão visual Kanban e testes contínuos).
+
 ---
 
 ### Teste 002
@@ -176,28 +200,6 @@ O modelo de ciclo de vida em Espiral, concebido por Barry Boehm, diferencia-se s
 > - **E) Incorreta.** Testes, protótipos e validações com usuários são atividades essenciais integradas em cada ciclo espiral.
 > 
 > **Gabarito: B**
-
----
-
-
-
-### 2.2 Abordagem Iterativa e Incremental: Modelo Espiral e RUP
-- **Conceito de Iteração vs. Incremento:**
-    - *Iterativo:* O software é desenvolvido por meio de repetições sucessivas de ciclos de desenvolvimento, refinando progressivamente a solução.
-    - *Incremental:* A cada ciclo concluído, uma porção utilizável e funcional do software é acrescida à versão anterior.
-- **Modelo Espiral (Barry Boehm, 1988):** Modelo orientado a riscos (*risk-driven*), no qual o desenvolvimento progride em ciclos espirais contínuos compostos por quatro quadrantes obrigatórios:
-    1. *Determinação de objetivos, alternativas e restrições;*
-    2. *Identificação e resolução de riscos* (análise de risco, prototipação e simulações);
-    3. *Desenvolvimento e validação do produto do nível atual;*
-    4. *Planejamento da próxima fase.*
-
-- **Processo Unificado (RUP - Rational Unified Process):** Metodologia iterativa e incremental orientada por Casos de Uso e centrada na Arquitetura de Software. Estrutura-se em quatro fases temporais sequenciais:
-    1. *Iniciação (Inception):* Estabelecimento do escopo de negócio e viabilidade;
-    2. *Elaboração (Elaboration):* Mapeamento profundo dos requisitos, mitigação de riscos maiores e estabilização da arquitetura executável básica;
-    3. *Construção (Construction):* Desenvolvimento em larga escala e codificação de todos os componentes;
-    4. *Transição (Transition):* Implantação, homologação, treinamento dos usuários e passagem para operação.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A característica mais cobrada pela FCC a respeito do Modelo Espiral de Boehm é a **gestão explícita e sistemática de riscos** (*risk analysis*) em cada espira. Se a questão mencionar "modelo direcionado pela mitigação contínua de riscos através de prototipação em cada volta do ciclo", marque com segurança o **Modelo Espiral**.
 
 ---
 
@@ -226,21 +228,6 @@ O Processo Unificado (*Rational Unified Process* - RUP) é um modelo de ciclo de
 
 ---
 
-
-### 2.3 Abordagem Adaptativa / Ágil: O Manifesto Ágil de 2001
-Em fevereiro de 2001, em Snowbird (Utah), dezessete líderes de desenvolvimento de software redigiram o **Manifesto para o Desenvolvimento Ágil de Software**, fundamentado em 4 Valores e 12 Princípios:
-
-| Nós valorizamos mais: | Do que: |
-| :--- | :--- |
-| **Indivíduos e interações** | Processos e ferramentas |
-| **Software em funcionamento** | Documentação abrangente |
-| **Colaboração com o cliente** | Negociação de contratos |
-| **Responder a mudanças** | Seguir um plano pré-estabelecido |
-
-*A premissa não é eliminar processos, documentação, contratos ou planos, mas reconhecer que os itens à esquerda entregam valor direto superior e adaptabilidade num ambiente de incerteza.*
-
----
-
 ### Teste 004
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O Manifesto para o Desenvolvimento Ágil de Software, firmado em 2001, estabeleceu 4 valores fundamentais e 12 princípios norteadores. Entre os 12 princípios formais expressos no documento oficial, encontra-se:
@@ -266,18 +253,6 @@ O Manifesto para o Desenvolvimento Ágil de Software, firmado em 2001, estabelec
 
 ---
 
-
-### 2.4 Abordagens Híbridas de Desenvolvimento
-Reconhecem que o mundo corporativo raramente opera em extremos absolutos. Um projeto híbrido pode adotar:
-
-- Abordagem preditiva no planejamento macro de escopo, contratação pública e cronograma de alto nível (governança tradicional);
-- Abordagem adaptativa/ágil na execução das iterações técnicas pelas equipes de desenvolvimento (com Sprints Scrum, gestão visual Kanban e testes contínuos).
-
-
-
----
-
-
 ## 3. O Framework Scrum (Guia Scrum 2020)
 
 ```mermaid
@@ -300,8 +275,6 @@ O Scrum é um framework leve que ajuda pessoas, times e organizações a gerar v
     3. *Adaptação:* Havendo desvios inaceitáveis, os ajustes operacionais devem ser implementados no menor tempo viável.
 
 - **Cinco Valores do Scrum:** Compromisso (*Commitment*), Foco (*Focus*), Abertura (*Openness*), Respeito (*Respect*) e Coragem (*Courage*).
-
----
 
 ### 3.2 Estrutura do Scrum Team e Responsabilidades
 No Guia Scrum oficial de 2020, o **Scrum Team** é a unidade fundamental de trabalho, caracterizado por ser **multifuncional** (possui todas as habilidades necessárias para entregar o incremento) e **autogerenciado** (*self-managing* - a equipe decide internamente *quem*, *o que* e *como* fazer). O time compõe-se de três papéis/responsabilidades:
@@ -326,6 +299,35 @@ No Guia Scrum oficial de 2020, o **Scrum Team** é a unidade fundamental de trab
 >
 > 1. No Guia 2020 **NÃO existe mais o papel "Time de Desenvolvimento" (Development Team)**. Existe apenas o *Scrum Team*, formado por PO, Scrum Master e Desenvolvedores. Não há subtimes nem hierarquias internas!  
 > 2. O Scrum Master **NÃO é um gerente funcional**, não distribui tarefas individualmente e não cobra relatórios de horas.
+
+### 3.3 Eventos Formais do Scrum e Regras de Time-box
+Todos os eventos no Scrum possuem duração máxima pré-fixada (**time-box**):
+
+| Evento Scrum | Finalidade Central e Participantes | Duração Máxima (Sprint de 1 mês) |
+| :--- | :--- | :--- |
+| **A Sprint** | Contêiner maior para todos os demais eventos. É o ciclo no qual o trabalho é executado para criar o incremento. | Até **um (1) mês** de duração fixa. |
+| **Sprint Planning** | Define o plano de trabalho da Sprint abordando: 1) *Por que a Sprint é valiosa?* 2) *O que pode ser feito?* 3) *Como o trabalho será realizado?* | Máximo de **8 horas**. |
+| **Daily Scrum** | Evento de alinhamento diário exclusivo dos **Desenvolvedores** para inspecionar o progresso rumo à Meta da Sprint e adaptar o plano para as próximas 24h. | Exatamente **15 minutos** (fixo, independentemente do tamanho da Sprint). |
+| **Sprint Review** | Inspeção do Incremento produzido com os *stakeholders* para adaptar o Product Backlog com base no feedback real. | Máximo de **4 horas**. |
+| **Sprint Retrospective** | Planejamento de melhorias na eficácia do time (pessoas, processos, ferramentas e Definição de Pronto). | Máximo de **3 horas**. |
+
+> ⭐ **IMPORTANTE / REGRAS DA SPRINT:** Uma Sprint **nunca é prorrogada**. Se os itens planejados não forem concluídos dentro do time-box, a Sprint encerra-se normalmente; os itens não finalizados voltam para o Product Backlog. Uma Sprint só pode ser **cancelada prematuramente pelo Product Owner**, caso a Meta da Sprint (*Sprint Goal*) se torne obsoleta!
+
+### 3.4 Artefatos Oficiais e seus Três Compromissos Formais
+Cada um dos três artefatos do Scrum contém um **compromisso formal** associado (introduzido formalmente no Guia 2020) para fornecer transparência e foco:
+
+1. **Product Backlog** $\longrightarrow$ Compromisso: **Meta do Produto (*Product Goal*)**  
+    - O Product Backlog é a lista ordenada e emergente de tudo o que é necessário para melhorar o produto. A Meta do Produto descreve o estado futuro que serve como alvo de longo prazo para o Scrum Team.
+
+2. **Sprint Backlog** $\longrightarrow$ Compromisso: **Meta da Sprint (*Sprint Goal*)**  
+    - O Sprint Backlog é composto pela Meta da Sprint (o porquê), o conjunto de itens selecionados do Product Backlog (o quê) e o plano de ação detalhado (o como). A Meta da Sprint é o objetivo único acordado para a iteração, que não muda durante a sua execução.
+
+3. **Incremento** $\longrightarrow$ Compromisso: **Definição de Pronto (*Definition of Done - DoD*)**  
+    - O Incremento é um degrau concreto rumo à Meta do Produto. No momento em que um item do Product Backlog atende à Definição de Pronto, um novo Incremento nasce. A DoD é a descrição formal dos critérios de qualidade exigidos para que o item seja considerado pronto para uso.
+
+### 3.5 Métricas e Gráficos de Acompanhamento (Burndown e Burnup)
+- **Sprint Burndown Chart:** Gráfico que exibe a quantidade de **trabalho restante** (geralmente em pontos de história ou horas) em relação ao tempo da Sprint. A inclinação da linha decrescente indica se a equipe concluirá as tarefas no prazo;
+- **Burnup Chart:** Gráfico com duas linhas: uma demonstrando o crescimento do escopo total ao longo do tempo e outra demonstrando o trabalho efetivamente concluído (*done*). Excelente para detectar expansão de escopo (*scope creep*).
 
 ---
 
@@ -358,22 +360,6 @@ Está correto o que se afirma em:
 
 ---
 
-
-### 3.3 Eventos Formais do Scrum e Regras de Time-box
-Todos os eventos no Scrum possuem duração máxima pré-fixada (**time-box**):
-
-| Evento Scrum | Finalidade Central e Participantes | Duração Máxima (Sprint de 1 mês) |
-| :--- | :--- | :--- |
-| **A Sprint** | Contêiner maior para todos os demais eventos. É o ciclo no qual o trabalho é executado para criar o incremento. | Até **um (1) mês** de duração fixa. |
-| **Sprint Planning** | Define o plano de trabalho da Sprint abordando: 1) *Por que a Sprint é valiosa?* 2) *O que pode ser feito?* 3) *Como o trabalho será realizado?* | Máximo de **8 horas**. |
-| **Daily Scrum** | Evento de alinhamento diário exclusivo dos **Desenvolvedores** para inspecionar o progresso rumo à Meta da Sprint e adaptar o plano para as próximas 24h. | Exatamente **15 minutos** (fixo, independentemente do tamanho da Sprint). |
-| **Sprint Review** | Inspeção do Incremento produzido com os *stakeholders* para adaptar o Product Backlog com base no feedback real. | Máximo de **4 horas**. |
-| **Sprint Retrospective** | Planejamento de melhorias na eficácia do time (pessoas, processos, ferramentas e Definição de Pronto). | Máximo de **3 horas**. |
-
-> ⭐ **IMPORTANTE / REGRAS DA SPRINT:** Uma Sprint **nunca é prorrogada**. Se os itens planejados não forem concluídos dentro do time-box, a Sprint encerra-se normalmente; os itens não finalizados voltam para o Product Backlog. Uma Sprint só pode ser **cancelada prematuramente pelo Product Owner**, caso a Meta da Sprint (*Sprint Goal*) se torne obsoleta!
-
----
-
 ### Teste 006
 **(FCC – DPE – Analista de Sistemas)**  
 A respeito do evento *Daily Scrum* estabelecido no Guia Scrum (versão 2020), assinale a afirmativa correta:
@@ -396,22 +382,6 @@ A respeito do evento *Daily Scrum* estabelecido no Guia Scrum (versão 2020), as
 > - **E) Incorreta.** O evento é privativo dos Desenvolvedores; se o PO ou o SM não estiverem trabalhando ativamente em tarefas do Sprint Backlog, a sua ausência não impede a realização regular da Daily.
 > 
 > **Gabarito: C**
-
----
-
-
-
-### 3.4 Artefatos Oficiais e seus Três Compromissos Formais
-Cada um dos três artefatos do Scrum contém um **compromisso formal** associado (introduzido formalmente no Guia 2020) para fornecer transparência e foco:
-
-1. **Product Backlog** $\longrightarrow$ Compromisso: **Meta do Produto (*Product Goal*)**  
-    - O Product Backlog é a lista ordenada e emergente de tudo o que é necessário para melhorar o produto. A Meta do Produto descreve o estado futuro que serve como alvo de longo prazo para o Scrum Team.
-
-2. **Sprint Backlog** $\longrightarrow$ Compromisso: **Meta da Sprint (*Sprint Goal*)**  
-    - O Sprint Backlog é composto pela Meta da Sprint (o porquê), o conjunto de itens selecionados do Product Backlog (o quê) e o plano de ação detalhado (o como). A Meta da Sprint é o objetivo único acordado para a iteração, que não muda durante a sua execução.
-
-3. **Incremento** $\longrightarrow$ Compromisso: **Definição de Pronto (*Definition of Done - DoD*)**  
-    - O Incremento é um degrau concreto rumo à Meta do Produto. No momento em que um item do Product Backlog atende à Definição de Pronto, um novo Incremento nasce. A DoD é a descrição formal dos critérios de qualidade exigidos para que o item seja considerado pronto para uso.
 
 ---
 
@@ -443,15 +413,6 @@ No framework Scrum (segundo a versão oficial do Guia Scrum de 2020), cada um do
 
 ---
 
-
-
-### 3.5 Métricas e Gráficos de Acompanhamento (Burndown e Burnup)
-- **Sprint Burndown Chart:** Gráfico que exibe a quantidade de **trabalho restante** (geralmente em pontos de história ou horas) em relação ao tempo da Sprint. A inclinação da linha decrescente indica se a equipe concluirá as tarefas no prazo;
-- **Burnup Chart:** Gráfico com duas linhas: uma demonstrando o crescimento do escopo total ao longo do tempo e outra demonstrando o trabalho efetivamente concluído (*done*). Excelente para detectar expansão de escopo (*scope creep*).
-
----
-
-
 ### Teste 008
 **(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
 No acompanhamento visual do progresso de equipes ágeis, dois gráficos amplamente utilizados são o *Sprint Burndown* e o *Release Burnup*. A correta caracterização e interpretação desses gráficos estabelece que:
@@ -475,10 +436,7 @@ No acompanhamento visual do progresso de equipes ágeis, dois gráficos amplamen
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Método Kanban e Gestão do Fluxo de Valor
 
@@ -494,13 +452,19 @@ Concebido por David J. Anderson com base no Sistema Toyota de Produção, o mét
     5. *Implementar ciclos de feedback (cadências)*;
     6. *Melhorar colaborativamente e evoluir experimentalmente*.
 
----
-
 ### 4.2 Limites de Trabalho em Progresso (WIP) e Gargalos
 O Kanban opera como um **sistema puxado (*pull system*)**:
 
 - **Limite de WIP (Work In Progress):** Cada coluna do quadro possui um teto máximo de itens permitidos simultaneamente (ex.: a coluna "Testes" com WIP = 3).
 - **Efeito Prático:** Impede a sobrecarga da equipe, reduz o desperdício de troca de contexto (*context switching*) e torna imediatamente visíveis os **gargalos** de produção. Se uma coluna atingir o limite de WIP, a etapa anterior é impedida de empurrar novos itens, forçando os membros da equipe a colaborar para destravar o gargalo (*"Pare de começar e comece a terminar!"*).
+
+### 4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD
+- **Lead Time:** É o tempo total decorrido entre a solicitação inicial da demanda pelo cliente (registro no backlog) até a sua efetiva entrega em ambiente de produção;
+- **Cycle Time:** É o tempo em que a equipe técnica esteve ativamente trabalhando no desenvolvimento do item (desde que o cartão foi puxado para a primeira coluna de execução até a conclusão da tarefa);
+- **Throughput (Vazão):** Quantidade de itens entregues e concluídos por unidade de tempo (ex.: 12 tarefas por semana);
+- **Diagrama de Fluxo Cumulativo (CFD - Cumulative Flow Diagram):** Gráfico de áreas empilhadas que ilustra o número cumulativo de itens em cada fase do processo ao longo do tempo:
+    - *Distância Vertical:* Mostra a quantidade de Trabalho em Progresso (WIP) em um dado instante;
+    - *Distância Horizontal:* Revela o Lead Time aproximado dos itens. Bandas com inclinação constante indicam fluxo estável e previsível.
 
 ---
 
@@ -529,17 +493,6 @@ No método Kanban aplicado ao fluxo de desenvolvimento de software, a imposiçã
 
 ---
 
-
-### 4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD
-- **Lead Time:** É o tempo total decorrido entre a solicitação inicial da demanda pelo cliente (registro no backlog) até a sua efetiva entrega em ambiente de produção;
-- **Cycle Time:** É o tempo em que a equipe técnica esteve ativamente trabalhando no desenvolvimento do item (desde que o cartão foi puxado para a primeira coluna de execução até a conclusão da tarefa);
-- **Throughput (Vazão):** Quantidade de itens entregues e concluídos por unidade de tempo (ex.: 12 tarefas por semana);
-- **Diagrama de Fluxo Cumulativo (CFD - Cumulative Flow Diagram):** Gráfico de áreas empilhadas que ilustra o número cumulativo de itens em cada fase do processo ao longo do tempo:
-    - *Distância Vertical:* Mostra a quantidade de Trabalho em Progresso (WIP) em um dado instante;
-    - *Distância Horizontal:* Revela o Lead Time aproximado dos itens. Bandas com inclinação constante indicam fluxo estável e previsível.
-
----
-
 ### Teste 010
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No método Kanban aplicado à gestão do fluxo de desenvolvimento de software, duas métricas temporais essenciais para avaliar a eficiência do processo são o *Lead Time* e o *Cycle Time*. A correta distinção conceitual entre essas métricas estabelece que:
@@ -565,10 +518,7 @@ No método Kanban aplicado à gestão do fluxo de desenvolvimento de software, d
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Extreme Programming (XP) e Lean Software Development
 
@@ -587,6 +537,21 @@ Criado por Kent Beck, o Extreme Programming (XP) é uma metodologia ágil voltad
     4. **Propriedade Coletiva do Código (*Collective Ownership*):** Qualquer desenvolvedor do time tem liberdade e responsabilidade para alterar qualquer módulo do sistema para corrigir defeitos ou implementar melhorias;
     5. **Integração Contínua (*Continuous Integration*):** Código integrado e testado no repositório compartilhado várias vezes ao dia;
     6. **Design Simples:** O código atende a todos os testes, expressa com clareza a intenção, não possui duplicações (DRY - *Don't Repeat Yourself*) e contém o menor número possível de classes e métodos (YAGNI - *You Aren't Gonna Need It*).
+
+### 5.2 Lean Software Development e Eliminação dos 7 Desperdícios
+Adaptado do Sistema Toyota de Produção por Mary e Tom Poppendieck, o desenvolvimento Lean foca na entrega rápida de valor mediante a **eliminação sistemática de desperdícios (*Muda*)**:
+
+| Desperdício no Lean Software | Manifestação Prática no Desenvolvimento de Sistemas |
+| :--- | :--- |
+| **1. Trabalho Parcialmente Feito** | Código desenvolvido que permanece semanas em branch aguardando testes ou aprovação de deploy. |
+| **2. Recursos Extras (Gold Plating)** | Funcionalidades desenvolvidas que nunca serão utilizadas pelo usuário final (excesso de especificação). |
+| **3. Reaprendizado** | Redescoberta de soluções por falta de testes automatizados ou ausência de documentação de código limpo. |
+| **4. Passagem de Tarefas (Hand-offs)** | Perda de conhecimento e ruídos de comunicação na transição entre silos (analista $\rightarrow$ arquiteto $\rightarrow$ dev $\rightarrow$ tester). |
+| **5. Atrasos / Esperas (Delays)** | Desenvolvedores ociosos aguardando liberação de ambiente, homologação de acessos ou aprovação de comitês. |
+| **6. Troca de Contexto (Task Switching)** | Alocar profissionais em múltiplos projetos paralelos, gerando perda massiva de produtividade cognitiva. |
+| **7. Defeitos e Bugs** | Falhas que chegam a produção e demandam esforço emergencial de correção e retrabalho. |
+
+- **Princípios Fundamentais do Lean:** Eliminar desperdícios; Amplificar o aprendizado; Decidir o mais tarde possível (manter opções em aberto); Entregar o mais rápido possível; Empoderar o time; Construir integridade intrínseca; e Enxergar o todo (*See the whole*).
 
 ---
 
@@ -614,28 +579,6 @@ Em relação às metodologias e práticas de engenharia de software ágil, a pr�
 > **Gabarito: C**
 
 ---
-
-
-
-### 5.2 Lean Software Development e Eliminação dos 7 Desperdícios
-Adaptado do Sistema Toyota de Produção por Mary e Tom Poppendieck, o desenvolvimento Lean foca na entrega rápida de valor mediante a **eliminação sistemática de desperdícios (*Muda*)**:
-
-| Desperdício no Lean Software | Manifestação Prática no Desenvolvimento de Sistemas |
-| :--- | :--- |
-| **1. Trabalho Parcialmente Feito** | Código desenvolvido que permanece semanas em branch aguardando testes ou aprovação de deploy. |
-| **2. Recursos Extras (Gold Plating)** | Funcionalidades desenvolvidas que nunca serão utilizadas pelo usuário final (excesso de especificação). |
-| **3. Reaprendizado** | Redescoberta de soluções por falta de testes automatizados ou ausência de documentação de código limpo. |
-| **4. Passagem de Tarefas (Hand-offs)** | Perda de conhecimento e ruídos de comunicação na transição entre silos (analista $\rightarrow$ arquiteto $\rightarrow$ dev $\rightarrow$ tester). |
-| **5. Atrasos / Esperas (Delays)** | Desenvolvedores ociosos aguardando liberação de ambiente, homologação de acessos ou aprovação de comitês. |
-| **6. Troca de Contexto (Task Switching)** | Alocar profissionais em múltiplos projetos paralelos, gerando perda massiva de produtividade cognitiva. |
-| **7. Defeitos e Bugs** | Falhas que chegam a produção e demandam esforço emergencial de correção e retrabalho. |
-
-- **Princípios Fundamentais do Lean:** Eliminar desperdícios; Amplificar o aprendizado; Decidir o mais tarde possível (manter opções em aberto); Entregar o mais rápido possível; Empoderar o time; Construir integridade intrínseca; e Enxergar o todo (*See the whole*).
-
-
-
----
-
 
 ## 6. Fontes Oficiais e Referências Bibliográficas
 

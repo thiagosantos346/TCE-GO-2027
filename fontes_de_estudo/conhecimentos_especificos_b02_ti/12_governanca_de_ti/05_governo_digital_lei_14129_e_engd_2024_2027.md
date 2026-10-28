@@ -23,50 +23,41 @@
     - Os 5 Eixos Estratégicos e diretrizes para a transformação federativa (União, Estados e Municípios)
     - Serviços Públicos Proativos e Infraestrutura Pública Digital (DPI)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada & Conceitos Essenciais](#teoria-aprofundada-conceitos-essenciais)
-2. [A Lei do Governo Digital (Lei Federal nº 14.129/2021)](#1-a-lei-do-governo-digital-lei-federal-no-141292021)
-    1. [Âmbito de Aplicação Universal](#11-ambito-de-aplicacao-universal)
-    2. [Teste 505](#Teste-505)
-    3. [Princípios e Diretrizes Marcantes](#12-principios-e-diretrizes-marcantes)
-    4. [Teste 506](#Teste-506)
-    5. [Teste 507](#Teste-507)
-    6. [Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)](#13-niveis-de-autenticacao-na-plataforma-govbr-bronze-prata-e-ouro)
-    7. [Teste 508](#Teste-508)
-    8. [Classificação das Assinaturas Eletrônicas no Setor Público (Lei nº 14.063/2020)](#14-classificacao-das-assinaturas-eletronicas-no-setor-publico-lei-no-140632020)
-    9. [Teste 509](#Teste-509)
-    10. [Governo Como Plataforma (GaaP) e Interoperabilidade](#15-governo-como-plataforma-gaap-e-interoperabilidade)
-    11. [Teste 510](#Teste-510)
-3. [A Estratégia Nacional de Governo Digital – ENGD 2024–2027 (Decreto nº 12.069/2024)](#2-a-estrategia-nacional-de-governo-digital-engd-20242027-decreto-no-120692024)
-    1. [Propósito e Abrangência Federativa](#21-proposito-e-abrangencia-federativa)
-    2. [Teste 511](#Teste-511)
-    3. [Os 5 Eixos Estratégicos da ENGD 2024–2027](#22-os-5-eixos-estrategicos-da-engd-20242027)
-    4. [Teste 512](#Teste-512)
-    5. [Teste 513](#Teste-513)
-    6. [Serviços Públicos Proativos e Infraestrutura Pública Digital (DPI)](#23-servicos-publicos-proativos-e-infraestrutura-publica-digital-dpi)
-    7. [Teste 514](#Teste-514)
-4. [Fontes Recomendadas na Internet](#3-fontes-recomendadas-na-internet)
+1. [A Lei do Governo Digital (Lei Federal nº 14.129/2021)](#1-a-lei-do-governo-digital-lei-federal-no-141292021)
+1. [Âmbito de Aplicação Universal](#1-1-ambito-de-aplicacao-universal)
+    1. [Teste 505](#Teste-505)
+1. [Princípios e Diretrizes Marcantes](#1-2-principios-e-diretrizes-marcantes)
+    1. [Teste 506](#Teste-506)
+    2. [Teste 507](#Teste-507)
+1. [Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)](#1-3-niveis-de-autenticacao-na-plataforma-govbr-bronze-prata-e-ouro)
+    1. [Teste 508](#Teste-508)
+1. [Classificação das Assinaturas Eletrônicas no Setor Público (Lei nº 14.063/2020)](#1-4-classificacao-das-assinaturas-eletronicas-no-setor-publico-lei-no-140632020)
+    1. [Teste 509](#Teste-509)
+1. [Governo Como Plataforma (GaaP) e Interoperabilidade](#1-5-governo-como-plataforma-gaap-e-interoperabilidade)
+    1. [Teste 510](#Teste-510)
+2. [A Estratégia Nacional de Governo Digital – ENGD 2024–2027 (Decreto nº 12.069/2024)](#2-a-estrategia-nacional-de-governo-digital-engd-20242027-decreto-no-120692024)
+2. [Propósito e Abrangência Federativa](#2-1-proposito-e-abrangencia-federativa)
+    1. [Teste 511](#Teste-511)
+2. [Os 5 Eixos Estratégicos da ENGD 2024–2027](#2-2-os-5-eixos-estrategicos-da-engd-20242027)
+    1. [Teste 512](#Teste-512)
+    2. [Teste 513](#Teste-513)
+2. [Serviços Públicos Proativos e Infraestrutura Pública Digital (DPI)](#2-3-servicos-publicos-proativos-e-infraestrutura-publica-digital-dpi)
+    1. [Teste 514](#Teste-514)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
-
-## 📖 Teoria Aprofundada & Conceitos Essenciais
-
-
----
-
 
 ## 1. A Lei do Governo Digital (Lei Federal nº 14.129/2021)
 
 A **Lei nº 14.129/2021** instituiu o marco regulatório para a prestação digital dos serviços públicos no Brasil, fixando princípios, regras e instrumentos para o aumento da eficiência pública e a desburocratização das relações entre o Estado e a sociedade.
 
-### 1.1 Âmbito de Aplicação Universal
+---
+
+## 1.1 Âmbito de Aplicação Universal
 
 A Lei do Governo Digital aplica-se obrigatoriamente a todos os entes e Poderes da Federação:
 
@@ -120,7 +111,7 @@ flowchart TD
 
 ---
 
-### 1.2 Princípios e Diretrizes Marcantes
+## 1.2 Princípios e Diretrizes Marcantes
 
 #### 1. Vedação Expressa à Exigência de Documento em Posse do Estado (*Once-Only Principle*)
 O Art. 5º, inciso VI e o Art. 12 da Lei nº 14.129/2021 consagram expressamente a **vedação de exigir do cidadão informações, documentos ou certidões que já constem na posse da própria Administração Pública**:
@@ -198,9 +189,7 @@ Os dados governamentais não sigilosos devem ser abertos ativamente em sítios o
 
 ---
 
-
-
-### 1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)
+## 1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)
 
 O ecossistema GOV.BR classifica as contas de identificação dos cidadãos em **três níveis progressivos de confiabilidade cadastral**:
 
@@ -241,10 +230,9 @@ flowchart TD
 > 
 > **Gabarito: B**
 
-
 ---
 
-### 1.4 Classificação das Assinaturas Eletrônicas no Setor Público (Lei nº 14.063/2020)
+## 1.4 Classificação das Assinaturas Eletrônicas no Setor Público (Lei nº 14.063/2020)
 
 A Lei nº 14.063/2020 padronizou os tipos de assinatura eletrônica no relacionamento com órgãos públicos em três modalidades:
 
@@ -295,9 +283,7 @@ flowchart LR
 
 ---
 
-
-
-### 1.5 Governo Como Plataforma (GaaP) e Interoperabilidade
+## 1.5 Governo Como Plataforma (GaaP) e Interoperabilidade
 
 O paradigma de **Governo Como Plataforma** (*Government as a Platform - GaaP*) redefine o papel da tecnologia pública. Em vez de construir aplicações verticais monolíticas isoladas para cada órgão, o governo desenvolve blocos compartilhados de infraestrutura tecnológica aberta:
 
@@ -330,17 +316,15 @@ O paradigma de **Governo Como Plataforma** (*Government as a Platform - GaaP*) r
 > 
 > **Gabarito: B**
 
-
-
-
 ---
-
 
 ## 2. A Estratégia Nacional de Governo Digital – ENGD 2024–2027 (Decreto nº 12.069/2024)
 
 O **Decreto Federal nº 12.069, de 21 de junho de 2024**, promulgou a nova **Estratégia Nacional de Governo Digital (ENGD)** para o quadriênio **2024 a 2027**.
 
-### 2.1 Propósito e Abrangência Federativa
+---
+
+## 2.1 Propósito e Abrangência Federativa
 
 A ENGD 2024–2027 é uma política pública de **amplitude nacional federativa**, coordenada para articular a transformação digital integrada de todos os entes federativos (União, 26 Estados, DF e Municípios), promovendo a interoperabilidade e reduzindo disparidades regionais de infraestrutura e capacidade de atendimento digital.
 
@@ -369,10 +353,9 @@ A ENGD 2024–2027 é uma política pública de **amplitude nacional federativa*
 > 
 > **Gabarito: B**
 
-
 ---
 
-### 2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027
+## 2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027
 
 ```mermaid
 flowchart TD
@@ -449,9 +432,7 @@ flowchart TD
 
 ---
 
-
-
-### 2.3 Serviços Públicos Proativos e Infraestrutura Pública Digital (DPI)
+## 2.3 Serviços Públicos Proativos e Infraestrutura Pública Digital (DPI)
 
 #### 1. Serviços Públicos Proativos
 Consiste na mudança de paradigma do atendimento público:
@@ -491,11 +472,7 @@ A ENGD 2024–2027 estrutura a evolução digital do país em três pilares fund
 > 
 > **Gabarito: A**
 
-
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

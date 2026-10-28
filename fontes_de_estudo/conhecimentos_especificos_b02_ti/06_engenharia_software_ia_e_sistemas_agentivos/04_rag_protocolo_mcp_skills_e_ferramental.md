@@ -15,48 +15,44 @@
 - Protocolos de interoperabilidade entre agentes e ferramentas: Model Context Protocol (MCP)
 - Extensibilidade e automação de fluxos de trabalho especializados: Skills e Tool Use (Function Calling)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Gestão de Contexto e Memória em Sistemas Agentivos](#1-gestao-de-contexto-e-memoria-em-sistemas-agentivos)
     1. [Desafios da Janela de Contexto e a Degradação de Atenção](#11-desafios-da-janela-de-contexto-e-a-degradacao-de-atencao)
-    2. [Teste 150](#Teste-150)
-    3. [Memória de Curto Prazo (Working Memory) vs. Memória de Longo Prazo](#12-memoria-de-curto-prazo-working-memory-vs-memoria-de-longo-prazo)
-    4. [Estratégias de Gestão: Sumarização Progressiva, Podagem e Prompt Caching](#13-estrategias-de-gestao-sumarizacao-progressiva-podagem-e-prompt-caching)
+    2. [Memória de Curto Prazo (Working Memory) vs. Memória de Longo Prazo](#12-memoria-de-curto-prazo-working-memory-vs-memoria-de-longo-prazo)
+    3. [Estratégias de Gestão: Sumarização Progressiva, Podagem e Prompt Caching](#13-estrategias-de-gestao-sumarizacao-progressiva-podagem-e-prompt-caching)
+    4. [Teste 150](#Teste-150)
     5. [Teste 151](#Teste-151)
 2. [Retrieval-Augmented Generation (RAG) Aplicado a Bases de Código](#2-retrieval-augmented-generation-rag-aplicado-a-bases-de-codigo)
     1. [Arquitetura e Pipeline de Ingestão de Código](#21-arquitetura-e-pipeline-de-ingestao-de-codigo)
-    2. [Teste 152](#Teste-152)
-    3. [O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)](#22-o-desafio-do-chunking-consciente-de-sintaxe-ast-based-chunking)
-    4. [Teste 153](#Teste-153)
-    5. [Modelos de Embeddings e Bancos de Dados Vetoriais](#23-modelos-de-embeddings-e-bancos-de-dados-vetoriais)
-    6. [Métricas de Proximidade Semântica e Similaridade de Cosseno](#24-metricas-de-proximidade-semantica-e-similaridade-de-cosseno)
-    7. [Busca Híbrida (Dense + Sparse) e Técnicas de Reranking](#25-busca-hibrida-dense-sparse-e-tecnicas-de-reranking)
-    8. [Teste 154](#Teste-154)
-    9. [Matriz de Decisão Arquitetural: RAG vs. Fine-Tuning](#26-matriz-de-decisao-arquitetural-rag-vs-fine-tuning)
+    2. [O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)](#22-o-desafio-do-chunking-consciente-de-sintaxe-ast-based-chunking)
+    3. [Modelos de Embeddings e Bancos de Dados Vetoriais](#23-modelos-de-embeddings-e-bancos-de-dados-vetoriais)
+    4. [Métricas de Proximidade Semântica e Similaridade de Cosseno](#24-metricas-de-proximidade-semantica-e-similaridade-de-cosseno)
+    5. [Busca Híbrida (Dense + Sparse) e Técnicas de Reranking](#25-busca-hibrida-dense-sparse-e-tecnicas-de-reranking)
+    6. [Matriz de Decisão Arquitetural: RAG vs. Fine-Tuning](#26-matriz-de-decisao-arquitetural-rag-vs-fine-tuning)
+    7. [Teste 152](#Teste-152)
+    8. [Teste 153](#Teste-153)
+    9. [Teste 154](#Teste-154)
     10. [Teste 155](#Teste-155)
 3. [O Protocolo Model Context Protocol (MCP)](#3-o-protocolo-model-context-protocol-mcp)
     1. [Motivação e Resolução do Problema de Integração N x M](#31-motivacao-e-resolucao-do-problema-de-integracao-n-x-m)
     2. [A Arquitetura Cliente-Servidor do MCP (Host, Client e Server)](#32-a-arquitetura-cliente-servidor-do-mcp-host-client-e-server)
-    3. [Teste 156](#Teste-156)
-    4. [As Três Primitivas Centrais: Resources, Tools e Prompts](#33-as-tres-primitivas-centrais-resources-tools-e-prompts)
-    5. [Teste 157](#Teste-157)
-    6. [Teste 158](#Teste-158)
-    7. [Mecanismos de Transporte Padronizados: `stdio` e `SSE`](#34-mecanismos-de-transporte-padronizados-stdio-e-sse)
+    3. [As Três Primitivas Centrais: Resources, Tools e Prompts](#33-as-tres-primitivas-centrais-resources-tools-e-prompts)
+    4. [Mecanismos de Transporte Padronizados: `stdio` e `SSE`](#34-mecanismos-de-transporte-padronizados-stdio-e-sse)
+    5. [Teste 156](#Teste-156)
+    6. [Teste 157](#Teste-157)
+    7. [Teste 158](#Teste-158)
     8. [Teste 159](#Teste-159)
 4. [Extensibilidade, Tool Use e Skills Especializadas](#4-extensibilidade-tool-use-e-skills-especializadas)
     1. [Funcionamento do Tool Use / Function Calling via JSON Schema](#41-funcionamento-do-tool-use-function-calling-via-json-schema)
-    2. [Teste 160](#Teste-160)
-    3. [Definição e Estrutura de Skills Modulares](#42-definicao-e-estrutura-de-skills-modulares)
-    4. [Orquestração Multiagente e Segregação de Responsabilidades](#43-orquestracao-multiagente-e-segregacao-de-responsabilidades)
+    2. [Definição e Estrutura de Skills Modulares](#42-definicao-e-estrutura-de-skills-modulares)
+    3. [Orquestração Multiagente e Segregação de Responsabilidades](#43-orquestracao-multiagente-e-segregacao-de-responsabilidades)
+    4. [Teste 160](#Teste-160)
 5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Gestão de Contexto e Memória em Sistemas Agentivos
 
@@ -65,6 +61,35 @@ A operação contínua de agentes de engenharia de software enfrenta restriçõe
 
 - **Saturação de Tokens:** A cada comando executado, leitura de arquivo e retorno de teste, a janela de contexto acumula tokens de entrada (*input tokens*), elevando os custos financeiros da inferência e a latência de processamento.
 - **Degradação de Atenção e Ruído:** Contextos excessivamente longos e desordenados dispersam a atenção dos mecanismos de autoatenção (*Self-Attention*), aumentando a probabilidade de esquecimento de restrições arquiteturais e ocorrência de alucinações.
+
+### 1.2 Memória de Curto Prazo (Working Memory) vs. Memória de Longo Prazo
+
+```mermaid
+flowchart TD
+    subgraph MemoriaAgente["Arquitetura de Memória em Sistemas Agentivos"]
+        subgraph CurtoPrazo["Memória de Curto Prazo (Working Memory)"]
+            CP1["Janela de Contexto Ativa da Sessão"]
+            CP2["Histórico de Mensagens do Diálogo"]
+            CP3["Estado Atual do Plano de Execução"]
+            CP4["Saídas Recentes de Comandos de Shell"]
+        end
+        subgraph LongoPrazo["Memória de Longo Prazo (Persistente Externa)"]
+            LP1["Base Semântica: Banco Vetorial / RAG de Código"]
+            LP2["Base Episódica: Histórico de Soluções e Erros Passados"]
+            LP3["Base Factual: Esquemas de Banco de Dados e Manuais"]
+        end
+    end
+```
+
+- **Memória de Curto Prazo (*Working Memory*):** Armazenada diretamente dentro da janela de contexto da chamada do LLM. É ultra-rápida e acessível diretamente pelos pesos de atenção, mas finita e descartada ao término da sessão de execução.
+- **Memória de Longo Prazo (*Episódica e Semântica*):** Armazenada fora do modelo em bancos de dados relacionais, grafos de conhecimento ou bancos vetoriais especializados. Persiste indefinidamente entre diferentes sessões e dias de desenvolvimento, retendo decisões consolidadas de arquitetura e padrões corporativos.
+
+### 1.3 Estratégias de Gestão: Sumarização Progressiva, Podagem e Prompt Caching
+Para viabilizar fluxos agentivos em bases de código de milhões de linhas:
+
+1. **Sumarização Progressiva (*Rolling Summarization*):** Conforme o diálogo avança, um subagente em segundo plano gera uma síntese executiva das decisões já tomadas e substitui dezenas de mensagens históricas anteriores por esse resumo conciso.
+2. **Podagem de Contexto (*Context Pruning*):** Descarte cirúrgico de retornos de ferramentas que já cumpriram seu papel (ex.: expurgar os 500 kilobytes de log de um build bem-sucedido após a confirmação de sucesso).
+3. **Prompt Caching:** Recurso disponibilizado pelos principais provedores de modelos (como Anthropic Claude), permitindo gravar em memória cache os prefixos estáticos da janela de contexto (como a leitura do código-fonte ou diretrizes institucionais). O *Prompt Caching* reduz o tempo de resposta em até 80% e corta em até 90% os custos de tokens de entrada em requisições consecutivas.
 
 ---
 
@@ -93,41 +118,6 @@ O mecanismo de autoatenção (*Self-Attention*) canônico da arquitetura Transfo
 
 ---
 
-
-### 1.2 Memória de Curto Prazo (Working Memory) vs. Memória de Longo Prazo
-
-```mermaid
-flowchart TD
-    subgraph MemoriaAgente["Arquitetura de Memória em Sistemas Agentivos"]
-        subgraph CurtoPrazo["Memória de Curto Prazo (Working Memory)"]
-            CP1["Janela de Contexto Ativa da Sessão"]
-            CP2["Histórico de Mensagens do Diálogo"]
-            CP3["Estado Atual do Plano de Execução"]
-            CP4["Saídas Recentes de Comandos de Shell"]
-        end
-        subgraph LongoPrazo["Memória de Longo Prazo (Persistente Externa)"]
-            LP1["Base Semântica: Banco Vetorial / RAG de Código"]
-            LP2["Base Episódica: Histórico de Soluções e Erros Passados"]
-            LP3["Base Factual: Esquemas de Banco de Dados e Manuais"]
-        end
-    end
-```
-
-- **Memória de Curto Prazo (*Working Memory*):** Armazenada diretamente dentro da janela de contexto da chamada do LLM. É ultra-rápida e acessível diretamente pelos pesos de atenção, mas finita e descartada ao término da sessão de execução.
-- **Memória de Longo Prazo (*Episódica e Semântica*):** Armazenada fora do modelo em bancos de dados relacionais, grafos de conhecimento ou bancos vetoriais especializados. Persiste indefinidamente entre diferentes sessões e dias de desenvolvimento, retendo decisões consolidadas de arquitetura e padrões corporativos.
-
----
-
-### 1.3 Estratégias de Gestão: Sumarização Progressiva, Podagem e Prompt Caching
-Para viabilizar fluxos agentivos em bases de código de milhões de linhas:
-
-1. **Sumarização Progressiva (*Rolling Summarization*):** Conforme o diálogo avança, um subagente em segundo plano gera uma síntese executiva das decisões já tomadas e substitui dezenas de mensagens históricas anteriores por esse resumo conciso.
-2. **Podagem de Contexto (*Context Pruning*):** Descarte cirúrgico de retornos de ferramentas que já cumpriram seu papel (ex.: expurgar os 500 kilobytes de log de um build bem-sucedido após a confirmação de sucesso).
-3. **Prompt Caching:** Recurso disponibilizado pelos principais provedores de modelos (como Anthropic Claude), permitindo gravar em memória cache os prefixos estáticos da janela de contexto (como a leitura do código-fonte ou diretrizes institucionais). O *Prompt Caching* reduz o tempo de resposta em até 80% e corta em até 90% os custos de tokens de entrada em requisições consecutivas.
-
----
-
-
 ### Teste 151
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 No desenvolvimento assistido por agentes em repositórios corporativos de grande porte, a técnica de *Prompt Caching* (disponibilizada por provedores de LLMs avançados) proporciona economia expressiva de tempo e custo financeiro. O funcionamento e benefício central do *Prompt Caching* reside no fato de que:
@@ -151,10 +141,7 @@ No desenvolvimento assistido por agentes em repositórios corporativos de grande
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Retrieval-Augmented Generation (RAG) Aplicado a Bases de Código
 
@@ -182,6 +169,45 @@ flowchart TD
         LLM --> RES["Código / Solução Aderente à Base"]
     end
 ```
+
+### 2.2 O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)
+Dividir código-fonte através de fatiamento ingênuo por contagem fixa de caracteres ou linhas é um erro grave na engenharia de software: pode cortar uma função no meio, separar anotações de transação do método ou quebrar laços de repetição.
+
+- **Chunking Baseado em AST (*Abstract Syntax Tree*):** Utiliza parsers gramaticais (como *Tree-sitter*) para recortar o arquivo respeitando suas fronteiras sintáticas reais:
+    - Cada chunk encapsula um método completo, uma classe autocontida ou um bloco de interface com seus respectivos comentários;
+    - Preserva no topo do chunk o caminho do arquivo, imports e declaração de pacote (*namespace*), assegurando contexto para o modelo de embeddings.
+
+### 2.3 Modelos de Embeddings e Bancos de Dados Vetoriais
+- **Embeddings:** Modelos neurais especializados que convertem fragmentos de texto ou código em vetores densos (arrays unidimensionais de números reais com 768 a 3072 dimensões). Trechos com semântica semelhante ficam espacialmente próximos no hiperplano vetorial.
+- **Bancos de Dados Vetoriais:** Motores de persistência que organizam esses vetores com algoritmos de grafos de vizinhos mais próximos aproximados (**HNSW - *Hierarchical Navigable Small World***). Exemplos proeminentes:
+    - **`pgvector`:** Extensão oficial que habilita busca vetorial nativa dentro do SGBD PostgreSQL relacional;
+    - **Bancos Especializados:** Qdrant, Pinecone, Milvus, Chroma.
+
+### 2.4 Métricas de Proximidade Semântica e Similaridade de Cosseno
+A métrica canônica para avaliar a afinidade entre o vetor da consulta do desenvolvedor ($A$) e o vetor do trecho de código ($B$) é a **Similaridade de Cosseno**, que mede o cosseno do ângulo formado entre os dois vetores no espaço multidimensional:
+
+$$\cos(\theta) = \frac{A \cdot B}{\|A\| \|B\|} = \frac{\sum_{i=1}^n A_i B_i}{\sqrt{\sum_{i=1}^n A_i^2} \sqrt{\sum_{i=1}^n B_i^2}}$$
+
+- Varia entre $-1$ e $1$ (ou entre $0$ e $1$ para vetores não negativos);
+- Avalia estritamente a orientação dos vetores, sendo imune a variações no tamanho do texto original;
+- Se os vetores forem pré-normalizados na ingestão ($\|A\| = \|B\| = 1$), a similaridade equivale diretamente ao **produto escalar (*dot product*)**, reduzindo o custo computacional da consulta.
+
+### 2.5 Busca Híbrida (Dense + Sparse) e Técnicas de Reranking
+Bases de código dependem criticamente de nomes literais exatos (como o nome de uma constante `MAX_RETRY_TIMEOUT` ou a classe `AcordaoAuditoriaService`). A busca puramente semântica pode falhar ao identificar o identificador exato.
+
+- **Busca Híbrida (*Hybrid Search*):** Combina em uma única operação a busca vetorial densa (conceitual) com a busca léxica tradicional baseada em frequência de termos (**BM25** ou Full-Text Search).
+- **Reciprocal Rank Fusion (RRF):** Algoritmo matemático que mescla e equaliza as posições das duas listas de resultados.
+- **Reranker (Cross-Encoder):** Modelo neural especializado que inspeciona detalhadamente os 20 melhores resultados preliminares, reordenando-os para selecionar os 3 a 5 chunks com mais alto grau de relevância antes da injeção no prompt final.
+
+### 2.6 Matriz de Decisão Arquitetural: RAG vs. Fine-Tuning
+
+| Critério de Decisão | Retrieval-Augmented Generation (RAG) | Fine-Tuning (Ajuste Fino Supervisionado) |
+|---|---|---|
+| **Natureza do Conhecimento** | **Factual, Dinâmico e Mutável:** Regras fiscais recentes, APIs internas, documentações de projeto. | **Estilo, Sintaxe e Forma:** Adaptação a DSLs proprietárias da empresa, formatos de resposta fixos. |
+| **Frequência de Atualização** | Instantânea: basta gravar ou apagar o chunk no banco vetorial. | Lenta: requer curadoria de dataset, retreino supervisionado e validação de checkpoints. |
+| **Auditabilidade e Fontes** | **Total:** Permite indicar o arquivo, autor e linha exata de onde a resposta foi extraída. | **Nula:** O conhecimento funde-se nos pesos probabilísticos dos parâmetros neurais (caixa-preta). |
+| **Mitigação de Alucinações** | Altamente eficaz por ancorar a resposta em evidências concretas. | Moderada: pode alucinar se houver conflito entre dados antigos pré-treinados e novos dados. |
+| **Custo Computacional** | Baixo a moderado (operações de embedding e banco vetorial). | Elevado (horas de treinamento em clusters de GPUs dedicadas). |
 
 ---
 
@@ -212,17 +238,6 @@ Para permitir que a IA consulte essas informações atualizadas com alta precis�
 
 ---
 
-
-
-### 2.2 O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)
-Dividir código-fonte através de fatiamento ingênuo por contagem fixa de caracteres ou linhas é um erro grave na engenharia de software: pode cortar uma função no meio, separar anotações de transação do método ou quebrar laços de repetição.
-
-- **Chunking Baseado em AST (*Abstract Syntax Tree*):** Utiliza parsers gramaticais (como *Tree-sitter*) para recortar o arquivo respeitando suas fronteiras sintáticas reais:
-    - Cada chunk encapsula um método completo, uma classe autocontida ou um bloco de interface com seus respectivos comentários;
-    - Preserva no topo do chunk o caminho do arquivo, imports e declaração de pacote (*namespace*), assegurando contexto para o modelo de embeddings.
-
----
-
 ### Teste 153
 **(FCC – Inédita – Padrão TCE-GO)**  
 Na preparação de uma base de código-fonte para indexação e recuperação semântica em pipelines de RAG (*Retrieval-Augmented Generation*), a técnica de divisão de texto (*chunking*) baseada em Árvore Sintática Abstrata (*AST-Based Chunking*) apresenta superioridade técnica sobre a divisão ingênua por quantidade fixa de caracteres porque:
@@ -245,35 +260,6 @@ Na preparação de uma base de código-fonte para indexação e recuperação se
 > - **E) Incorreta.** Afirmação sem lógica técnica.
 >
 > **Gabarito: B**
-
----
-
-
-### 2.3 Modelos de Embeddings e Bancos de Dados Vetoriais
-- **Embeddings:** Modelos neurais especializados que convertem fragmentos de texto ou código em vetores densos (arrays unidimensionais de números reais com 768 a 3072 dimensões). Trechos com semântica semelhante ficam espacialmente próximos no hiperplano vetorial.
-- **Bancos de Dados Vetoriais:** Motores de persistência que organizam esses vetores com algoritmos de grafos de vizinhos mais próximos aproximados (**HNSW - *Hierarchical Navigable Small World***). Exemplos proeminentes:
-    - **`pgvector`:** Extensão oficial que habilita busca vetorial nativa dentro do SGBD PostgreSQL relacional;
-    - **Bancos Especializados:** Qdrant, Pinecone, Milvus, Chroma.
-
----
-
-### 2.4 Métricas de Proximidade Semântica e Similaridade de Cosseno
-A métrica canônica para avaliar a afinidade entre o vetor da consulta do desenvolvedor ($A$) e o vetor do trecho de código ($B$) é a **Similaridade de Cosseno**, que mede o cosseno do ângulo formado entre os dois vetores no espaço multidimensional:
-
-$$\cos(\theta) = \frac{A \cdot B}{\|A\| \|B\|} = \frac{\sum_{i=1}^n A_i B_i}{\sqrt{\sum_{i=1}^n A_i^2} \sqrt{\sum_{i=1}^n B_i^2}}$$
-
-- Varia entre $-1$ e $1$ (ou entre $0$ e $1$ para vetores não negativos);
-- Avalia estritamente a orientação dos vetores, sendo imune a variações no tamanho do texto original;
-- Se os vetores forem pré-normalizados na ingestão ($\|A\| = \|B\| = 1$), a similaridade equivale diretamente ao **produto escalar (*dot product*)**, reduzindo o custo computacional da consulta.
-
----
-
-### 2.5 Busca Híbrida (Dense + Sparse) e Técnicas de Reranking
-Bases de código dependem criticamente de nomes literais exatos (como o nome de uma constante `MAX_RETRY_TIMEOUT` ou a classe `AcordaoAuditoriaService`). A busca puramente semântica pode falhar ao identificar o identificador exato.
-
-- **Busca Híbrida (*Hybrid Search*):** Combina em uma única operação a busca vetorial densa (conceitual) com a busca léxica tradicional baseada em frequência de termos (**BM25** ou Full-Text Search).
-- **Reciprocal Rank Fusion (RRF):** Algoritmo matemático que mescla e equaliza as posições das duas listas de resultados.
-- **Reranker (Cross-Encoder):** Modelo neural especializado que inspeciona detalhadamente os 20 melhores resultados preliminares, reordenando-os para selecionar os 3 a 5 chunks com mais alto grau de relevância antes da injeção no prompt final.
 
 ---
 
@@ -304,20 +290,6 @@ A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetor
 
 ---
 
-
-
-### 2.6 Matriz de Decisão Arquitetural: RAG vs. Fine-Tuning
-
-| Critério de Decisão | Retrieval-Augmented Generation (RAG) | Fine-Tuning (Ajuste Fino Supervisionado) |
-|---|---|---|
-| **Natureza do Conhecimento** | **Factual, Dinâmico e Mutável:** Regras fiscais recentes, APIs internas, documentações de projeto. | **Estilo, Sintaxe e Forma:** Adaptação a DSLs proprietárias da empresa, formatos de resposta fixos. |
-| **Frequência de Atualização** | Instantânea: basta gravar ou apagar o chunk no banco vetorial. | Lenta: requer curadoria de dataset, retreino supervisionado e validação de checkpoints. |
-| **Auditabilidade e Fontes** | **Total:** Permite indicar o arquivo, autor e linha exata de onde a resposta foi extraída. | **Nula:** O conhecimento funde-se nos pesos probabilísticos dos parâmetros neurais (caixa-preta). |
-| **Mitigação de Alucinações** | Altamente eficaz por ancorar a resposta em evidências concretas. | Moderada: pode alucinar se houver conflito entre dados antigos pré-treinados e novos dados. |
-| **Custo Computacional** | Baixo a moderado (operações de embedding e banco vetorial). | Elevado (horas de treinamento em clusters de GPUs dedicadas). |
-
----
-
 ### Teste 155
 **(FCC - Padrão Concursos TI / RAG vs Fine-Tuning em Engenharia de Software)**
 Em um projeto de automação fiscal na Secretaria da Fazenda, a equipe técnica precisa decidir entre a adoção de uma arquitetura de RAG (Geração Aumentada por Recuperação) e o processo de Fine-Tuning supervisionado de um modelo de linguagem aberto.
@@ -343,10 +315,7 @@ Sobre os critérios comparativos que orientam essa escolha técnica, assinale a 
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. O Protocolo Model Context Protocol (MCP)
 
@@ -370,45 +339,12 @@ flowchart TD
     end
 ```
 
----
-
 ### 3.2 A Arquitetura Cliente-Servidor do MCP (Host, Client e Server)
 A especificação MCP é dividida em três papéis complementares:
 
 1. **MCP Host:** A aplicação central que executa a interface e orquestra o LLM (ex.: Claude Desktop, Cursor, Antigravity CLI).
 2. **MCP Client:** Módulo interno do host que estabelece e gerencia conexões 1:1 seguras e isoladas com os servidores.
 3. **MCP Server:** Serviço leve e desacoplado que expõe dados locais ou remotos e encapsula as ferramentas de um domínio específico (ex.: servidor MCP do PostgreSQL, servidor MCP do Git).
-
----
-
-### Teste 156
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
-O Model Context Protocol (MCP), padrão aberto introduzido para estabelecer interoperabilidade universal entre assistentes de IA e fontes de dados/ferramentas externas, estrutura-se em uma arquitetura cliente-servidor clara. Em relação às responsabilidades de cada entidade no ecossistema MCP, é correto afirmar:
-
-* **A)** O MCP Server é a IDE ou interface de chat que exibe a tela para o usuário final.
-* **B)** O MCP Host é a aplicação que coordena a interação (como o Antigravity ou Claude Desktop), que contém clientes MCP (*MCP Clients*) responsáveis por estabelecer conexões 1:1 seguras com múltiplos servidores MCP (*MCP Servers*), os quais expõem recursos de dados (*Resources*), ferramentas executáveis (*Tools*) e instruções (*Prompts*).
-* **C)** O protocolo MCP só permite conexão com um único servidor externo por computador.
-* **D)** O MCP Client executa todo o código-fonte em linguagem COBOL no servidor do provedor da nuvem.
-* **E)** O MCP Server não pode se comunicar com bancos de dados relacionais como PostgreSQL ou MySQL.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** A aplicação que interage com o usuário final é o MCP Host.
-> - **B) Correta.** A arquitetura oficial do MCP define:
->   - **MCP Host:** a aplicação central de IA (IDE, agente, interface de chat);
->   - **MCP Client:** cliente interno que mantém conexões com os servidores MCP respeitando limites de permissão;
->   - **MCP Server:** serviço leve que expõe ferramentas (*Tools*), dados contextuais (*Resources*) e modelos de mensagens (*Prompts*).
-> - **C) Incorreta.** Uma das grandes soluções do MCP é justamente resolver o problema $N \times M$, conectando múltiplos servidores simultaneamente.
-> - **D) Incorreta.** Agnosticismo absoluto de linguagens.
-> - **E) Incorreta.** Servidores MCP de bancos de dados relacionais (Postgres, SQLite, BigQuery) são dos mais utilizados.
->
-> **Gabarito: B**
-
----
-
 
 ### 3.3 As Três Primitivas Centrais: Resources, Tools e Prompts
 O contrato funcional do MCP estabelece exatamente três entidades padronizadas:
@@ -447,6 +383,40 @@ flowchart TD
 >
 > - **Resources NÃO EXECUTAM comandos nem alteram dados**! São exclusivamente fontes passivas de consulta e leitura de contexto.  
 > - Toda e qualquer operação de modificação, exclusão de dados ou execução de comandos é de competência estrita das **Tools**!
+
+### 3.4 Mecanismos de Transporte Padronizados: `stdio` e `SSE`
+A especificação do MCP padroniza dois canais de comunicação utilizando mensagens serializadas em **JSON-RPC 2.0**:
+
+- **`stdio` (Standard Input / Output):** Padrão oficial para servidores locais que rodam na mesma máquina do Host. O Host instancia o processo do servidor MCP como um subprocesso filho e comunica-se pelas vias de entrada e saída padrão do SO. É extremamente seguro, não abre portas de rede e é isolado pelo sistema de processos do computador.
+- **`SSE` (*Server-Sent Events* sobre HTTP):** Padrão adotado para servidores remotos distribuídos em nuvem. Utiliza uma conexão HTTP persistente unidirecional para o streaming de eventos do servidor para o cliente, acompanhada por requisições HTTP POST para o envio de comandos do cliente para o servidor.
+
+---
+
+### Teste 156
+**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+O Model Context Protocol (MCP), padrão aberto introduzido para estabelecer interoperabilidade universal entre assistentes de IA e fontes de dados/ferramentas externas, estrutura-se em uma arquitetura cliente-servidor clara. Em relação às responsabilidades de cada entidade no ecossistema MCP, é correto afirmar:
+
+* **A)** O MCP Server é a IDE ou interface de chat que exibe a tela para o usuário final.
+* **B)** O MCP Host é a aplicação que coordena a interação (como o Antigravity ou Claude Desktop), que contém clientes MCP (*MCP Clients*) responsáveis por estabelecer conexões 1:1 seguras com múltiplos servidores MCP (*MCP Servers*), os quais expõem recursos de dados (*Resources*), ferramentas executáveis (*Tools*) e instruções (*Prompts*).
+* **C)** O protocolo MCP só permite conexão com um único servidor externo por computador.
+* **D)** O MCP Client executa todo o código-fonte em linguagem COBOL no servidor do provedor da nuvem.
+* **E)** O MCP Server não pode se comunicar com bancos de dados relacionais como PostgreSQL ou MySQL.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A aplicação que interage com o usuário final é o MCP Host.
+> - **B) Correta.** A arquitetura oficial do MCP define:
+>   - **MCP Host:** a aplicação central de IA (IDE, agente, interface de chat);
+>   - **MCP Client:** cliente interno que mantém conexões com os servidores MCP respeitando limites de permissão;
+>   - **MCP Server:** serviço leve que expõe ferramentas (*Tools*), dados contextuais (*Resources*) e modelos de mensagens (*Prompts*).
+> - **C) Incorreta.** Uma das grandes soluções do MCP é justamente resolver o problema $N \times M$, conectando múltiplos servidores simultaneamente.
+> - **D) Incorreta.** Agnosticismo absoluto de linguagens.
+> - **E) Incorreta.** Servidores MCP de bancos de dados relacionais (Postgres, SQLite, BigQuery) são dos mais utilizados.
+>
+> **Gabarito: B**
 
 ---
 
@@ -508,17 +478,6 @@ Considerando o funcionamento das primitivas e a governança do MCP, a equipe de 
 
 ---
 
-
-
-### 3.4 Mecanismos de Transporte Padronizados: `stdio` e `SSE`
-A especificação do MCP padroniza dois canais de comunicação utilizando mensagens serializadas em **JSON-RPC 2.0**:
-
-- **`stdio` (Standard Input / Output):** Padrão oficial para servidores locais que rodam na mesma máquina do Host. O Host instancia o processo do servidor MCP como um subprocesso filho e comunica-se pelas vias de entrada e saída padrão do SO. É extremamente seguro, não abre portas de rede e é isolado pelo sistema de processos do computador.
-- **`SSE` (*Server-Sent Events* sobre HTTP):** Padrão adotado para servidores remotos distribuídos em nuvem. Utiliza uma conexão HTTP persistente unidirecional para o streaming de eventos do servidor para o cliente, acompanhada por requisições HTTP POST para o envio de comandos do cliente para o servidor.
-
----
-
-
 ### Teste 159
 **(FCC – Inédita – Padrão TCE-GO)**  
 A especificação oficial do Model Context Protocol (MCP) padroniza dois mecanismos fundamentais de transporte de dados para a troca de mensagens formatadas em JSON-RPC entre clientes e servidores MCP:
@@ -544,10 +503,7 @@ A especificação oficial do Model Context Protocol (MCP) padroniza dois mecanis
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Extensibilidade, Tool Use e Skills Especializadas
 
@@ -573,6 +529,19 @@ sequenceDiagram
     LLM-->>Host: Emite análise fundamentada de irregularidade fiscal
     Host-->>Dev: Apresenta parecer de auditoria concluído
 ```
+
+### 4.2 Definição e Estrutura de Skills Modulares
+Uma **Skill** é um pacote autocontido de capacidades especializadas composto por:
+
+- **Instruções de Domínio:** Diretrizes heurísticas de especialistas que ensinam o agente a pensar naquele contexto (ex.: normas regimentais do TCE-GO, critérios de auditoria contábil);
+- **Ferramentas Dedicadas:** Mapeamento de funções executáveis expostas por servidores MCP ou scripts utilitários;
+- **Recursos e Exemplos:** Manuais técnicos, modelos de documentos e casos de referência que orientam a qualidade final.
+
+### 4.3 Orquestração Multiagente e Segregação de Responsabilidades
+Em arquiteturas corporativas avançadas, a complexidade de um sistema de software não deve ser atribuída a um único agente sobrecarregado:
+
+- **Agente Orquestrador (*Planner*):** Recebe o objetivo, divide o trabalho em etapas e delega subtarefas;
+- **Subagentes Especialistas:** Operam em paralelo com ferramentas e permissões segregadas (ex.: um agente focado em pesquisa e documentação que só tem acesso de leitura via *Resources*, e outro agente de execução que possui permissão de escrita monitorada por *Human-in-the-Loop*).
 
 ---
 
@@ -600,27 +569,6 @@ No mecanismo de *Tool Use* (ou *Function Calling*) utilizado por modelos de ling
 > **Gabarito: B**
 
 ---
-
-
-### 4.2 Definição e Estrutura de Skills Modulares
-Uma **Skill** é um pacote autocontido de capacidades especializadas composto por:
-
-- **Instruções de Domínio:** Diretrizes heurísticas de especialistas que ensinam o agente a pensar naquele contexto (ex.: normas regimentais do TCE-GO, critérios de auditoria contábil);
-- **Ferramentas Dedicadas:** Mapeamento de funções executáveis expostas por servidores MCP ou scripts utilitários;
-- **Recursos e Exemplos:** Manuais técnicos, modelos de documentos e casos de referência que orientam a qualidade final.
-
----
-
-### 4.3 Orquestração Multiagente e Segregação de Responsabilidades
-Em arquiteturas corporativas avançadas, a complexidade de um sistema de software não deve ser atribuída a um único agente sobrecarregado:
-
-- **Agente Orquestrador (*Planner*):** Recebe o objetivo, divide o trabalho em etapas e delega subtarefas;
-- **Subagentes Especialistas:** Operam em paralelo com ferramentas e permissões segregadas (ex.: um agente focado em pesquisa e documentação que só tem acesso de leitura via *Resources*, e outro agente de execução que possui permissão de escrita monitorada por *Human-in-the-Loop*).
-
-
-
----
-
 
 ## 5. Fontes Recomendadas na Internet
 

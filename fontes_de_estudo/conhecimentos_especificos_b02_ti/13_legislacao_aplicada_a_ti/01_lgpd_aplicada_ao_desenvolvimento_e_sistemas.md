@@ -18,53 +18,44 @@
 - Técnicas de desidentificação: Anonimização vs. Pseudonimização
 - Implementação de direitos dos titulares em sistemas de informação e segurança de dados
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada & Fundamentos de Engenharia](#teoria-aprofundada-fundamentos-de-engenharia)
-2. [Taxonomia de Dados e Papéis sob a LGPD](#1-taxonomia-de-dados-e-papeis-sob-a-lgpd)
-    1. [Classificação Legal e Técnica dos Dados](#11-classificacao-legal-e-tecnica-dos-dados)
-    2. [Teste 515](#Teste-515)
-    3. [Agentes de Tratamento e o Encarregado (DPO)](#12-agentes-de-tratamento-e-o-encarregado-dpo)
-    4. [Teste 516](#Teste-516)
-3. [Princípios do Art. 6º sob a Ótica da Arquitetura e Engenharia de Software](#2-principios-do-art-6o-sob-a-otica-da-arquitetura-e-engenharia-de-software)
+1. [Taxonomia de Dados e Papéis sob a LGPD](#1-taxonomia-de-dados-e-papeis-sob-a-lgpd)
+1. [Classificação Legal e Técnica dos Dados](#1-1-classificacao-legal-e-tecnica-dos-dados)
+    1. [Teste 515](#Teste-515)
+1. [Agentes de Tratamento e o Encarregado (DPO)](#1-2-agentes-de-tratamento-e-o-encarregado-dpo)
+    1. [Teste 516](#Teste-516)
+2. [Princípios do Art. 6º sob a Ótica da Arquitetura e Engenharia de Software](#2-principios-do-art-6o-sob-a-otica-da-arquitetura-e-engenharia-de-software)
     1. [Teste 517](#Teste-517)
-4. [Privacy by Design e Privacy by Default (Ann Cavoukian)](#3-privacy-by-design-e-privacy-by-default-ann-cavoukian)
-    1. [Os 7 Princípios Fundamentais do Privacy by Design](#31-os-7-principios-fundamentais-do-privacy-by-design)
-    2. [Teste 518](#Teste-518)
-    3. [Comparativo: Privacy by Design vs. Privacy by Default](#32-comparativo-privacy-by-design-vs-privacy-by-default)
-    4. [Teste 519](#Teste-519)
-5. [Engenharia de Desidentificação: Anonimização vs. Pseudonimização](#4-engenharia-de-desidentificacao-anonimizacao-vs-pseudonimizacao)
-    1. [Técnicas Criptográficas de Pseudonimização](#41-tecnicas-criptograficas-de-pseudonimizacao)
-    2. [Teste 520](#Teste-520)
-    3. [Métricas Formais de Anonimização (k-Anonymity, l-Diversity, t-Closeness e DP)](#42-metricas-formais-de-anonimizacao-k-anonymity-l-diversity-t-closeness-e-dp)
-    4. [Teste 521](#Teste-521)
-6. [Implementação Técnica dos Direitos dos Titulares (Art. 18 da LGPD)](#5-implementacao-tecnica-dos-direitos-dos-titulares-art-18-da-lgpd)
-    1. [Mapeamento dos Direitos e Requisitos Técnicos](#51-mapeamento-dos-direitos-e-requisitos-tecnicos)
-    2. [Teste 522](#Teste-522)
-    3. [Comunicação de Incidentes de Segurança à ANPD e Titulares (Art. 48)](#52-comunicacao-de-incidentes-de-seguranca-a-anpd-e-titulares-art-48)
-    4. [Teste 523](#Teste-523)
-    5. [Teste 524](#Teste-524)
-7. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+3. [Privacy by Design e Privacy by Default (Ann Cavoukian)](#3-privacy-by-design-e-privacy-by-default-ann-cavoukian)
+3. [Os 7 Princípios Fundamentais do Privacy by Design](#3-1-os-7-principios-fundamentais-do-privacy-by-design)
+    1. [Teste 518](#Teste-518)
+3. [Comparativo: Privacy by Design vs. Privacy by Default](#3-2-comparativo-privacy-by-design-vs-privacy-by-default)
+    1. [Teste 519](#Teste-519)
+4. [Engenharia de Desidentificação: Anonimização vs. Pseudonimização](#4-engenharia-de-desidentificacao-anonimizacao-vs-pseudonimizacao)
+4. [Técnicas Criptográficas de Pseudonimização](#4-1-tecnicas-criptograficas-de-pseudonimizacao)
+    1. [Teste 520](#Teste-520)
+4. [Métricas Formais de Anonimização (k-Anonymity, l-Diversity, t-Closeness e DP)](#4-2-metricas-formais-de-anonimizacao-k-anonymity-l-diversity-t-closeness-e-dp)
+    1. [Teste 521](#Teste-521)
+5. [Implementação Técnica dos Direitos dos Titulares (Art. 18 da LGPD)](#5-implementacao-tecnica-dos-direitos-dos-titulares-art-18-da-lgpd)
+5. [Mapeamento dos Direitos e Requisitos Técnicos](#5-1-mapeamento-dos-direitos-e-requisitos-tecnicos)
+    1. [Teste 522](#Teste-522)
+5. [Comunicação de Incidentes de Segurança à ANPD e Titulares (Art. 48)](#5-2-comunicacao-de-incidentes-de-seguranca-a-anpd-e-titulares-art-48)
+    1. [Teste 523](#Teste-523)
+    2. [Teste 524](#Teste-524)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
-
-## 📖 Teoria Aprofundada & Fundamentos de Engenharia
-
-
----
-
 
 ## 1. Taxonomia de Dados e Papéis sob a LGPD
 
 A aplicação da **Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 - LGPD)** na Engenharia de Software, Arquitetura de Sistemas e Operações de TI (DevSecOps) impõe uma reformulação estrutural nos modelos conceituais de dados, esquemas relacionais e NoSQL, esteiras de mensageria, contratos de APIs e controles de acesso.
 
-### 1.1 Classificação Legal e Técnica dos Dados
+---
+
+## 1.1 Classificação Legal e Técnica dos Dados
 
 ```mermaid
 flowchart TD
@@ -126,9 +117,7 @@ III. Ativar, por padrão, em todos os novos formulários públicos web, caixas d
 
 ---
 
-
-
-### 1.2 Agentes de Tratamento e o Encarregado (DPO)
+## 1.2 Agentes de Tratamento e o Encarregado (DPO)
 
 1. **Titular:** A pessoa natural (física) viva a quem se referem os dados pessoais que são objeto de tratamento. Pessoas jurídicas **não** são titulares de dados sob a LGPD.
 2. **Controlador (Art. 5º, VI):** Pessoa natural ou jurídica, de direito público ou privado, a quem competem as **decisões** essenciais referentes ao tratamento de dados pessoais (ex.: Tribunal de Contas, Secretaria de Fazenda, empresa pública).
@@ -165,11 +154,7 @@ III. Ativar, por padrão, em todos os novos formulários públicos web, caixas d
 > 
 > **Gabarito: D**
 
-
-
-
 ---
-
 
 ## 2. Princípios do Art. 6º sob a Ótica da Arquitetura e Engenharia de Software
 
@@ -233,17 +218,15 @@ O Art. 6º da LGPD elenca dez princípios fundamentais que regem as atividades d
 > 
 > **Gabarito: B**
 
-
-
-
 ---
-
 
 ## 3. Privacy by Design e Privacy by Default (Ann Cavoukian)
 
 Concebida no final da década de 1990 pela Comissária de Informação e Privacidade de Ontário (Canadá), Dra. Ann Cavoukian, a metodologia de **Privacy by Design (PbD)** prescreve que a privacidade não pode ser um adendo tardio adicionado ao final do desenvolvimento; ela deve ser o alicerce desde a primeira linha de arquitetura.
 
-### 3.1 Os 7 Princípios Fundamentais do Privacy by Design
+---
+
+## 3.1 Os 7 Princípios Fundamentais do Privacy by Design
 
 ```mermaid
 flowchart LR
@@ -298,9 +281,7 @@ flowchart LR
 
 ---
 
-
-
-### 3.2 Comparativo: Privacy by Design vs. Privacy by Default
+## 3.2 Comparativo: Privacy by Design vs. Privacy by Default
 
 | Dimensão | Privacy by Design (PbD) | Privacy by Default (PbDf) |
 |---|---|---|
@@ -334,15 +315,13 @@ flowchart LR
 > 
 > **Gabarito: A**
 
-
-
-
 ---
-
 
 ## 4. Engenharia de Desidentificação: Anonimização vs. Pseudonimização
 
-### 4.1 Técnicas Criptográficas de Pseudonimização
+---
+
+## 4.1 Técnicas Criptográficas de Pseudonimização
 
 Na pseudonimização (Art. 13, § 4º da LGPD), o dado pessoal tem seu identificador direto substituído por um pseudônimo. O processo é reversível por quem possui a informação adicional mantida em ambiente segregado e seguro.
 
@@ -378,10 +357,9 @@ Na pseudonimização (Art. 13, § 4º da LGPD), o dado pessoal tem seu identific
 > 
 > **Gabarito: B**
 
-
 ---
 
-### 4.2 Métricas Formais de Anonimização (k-Anonymity, l-Diversity, t-Closeness e DP)
+## 4.2 Métricas Formais de Anonimização (k-Anonymity, l-Diversity, t-Closeness e DP)
 
 Para que um conjunto de microdados seja considerado verdadeiramente **anonimizado**, a desidentificação deve resistir a três ataques clássicos:
 
@@ -440,14 +418,13 @@ Com base nos conceitos teóricos de anonimização, esse conjunto de dados:
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 5. Implementação Técnica dos Direitos dos Titulares (Art. 18 da LGPD)
 
-### 5.1 Mapeamento dos Direitos e Requisitos Técnicos
+---
+
+## 5.1 Mapeamento dos Direitos e Requisitos Técnicos
 
 ```mermaid
 sequenceDiagram
@@ -509,9 +486,7 @@ sequenceDiagram
 
 ---
 
-
-
-### 5.2 Comunicação de Incidentes de Segurança à ANPD e Titulares (Art. 48)
+## 5.2 Comunicação de Incidentes de Segurança à ANPD e Titulares (Art. 48)
 
 O Art. 48 da LGPD determina que o **Controlador** deve comunicar à Autoridade Nacional de Proteção de Dados (ANPD) e aos titulares a ocorrência de incidente de segurança que **possa acarretar risco ou dano relevante aos titulares**:
 
@@ -552,8 +527,6 @@ O Art. 48 da LGPD determina que o **Controlador** deve comunicar à Autoridade N
 
 ---
 
-
-
 ---
 
 ### Teste 524
@@ -579,10 +552,7 @@ O Art. 48 da LGPD determina que o **Controlador** deve comunicar à Autoridade N
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

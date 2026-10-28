@@ -16,50 +16,46 @@
 - Gestão de Identidades e Acessos (IAM - Identity and Access Management)
 - Arquitetura de Confiança Zero (Zero Trust: princípios, pilares e microsegmentação)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Controle de Acesso Lógico e Mecanismos de Autenticação](#1-controle-de-acesso-logico-e-mecanismos-de-autenticacao)
     1. [O Modelo AAA (Authentication, Authorization, Accounting)](#11-o-modelo-aaa-authentication-authorization-accounting)
-    2. [Teste 377](#Teste-377)
-    3. [Os Três Fatores Clássicos de Autenticação](#12-os-tres-fatores-classicos-de-autenticacao)
-    4. [Autenticação Multifator (MFA / 2FA) e Regras Mandatórias](#13-autenticacao-multifator-mfa-2fa-e-regras-mandatorias)
-    5. [Teste 378](#Teste-378)
-    6. [Ameaças e Vetores de Ataque contra Credenciais](#14-ameacas-e-vetores-de-ataque-contra-credenciais)
+    2. [Os Três Fatores Clássicos de Autenticação](#12-os-tres-fatores-classicos-de-autenticacao)
+    3. [Autenticação Multifator (MFA / 2FA) e Regras Mandatórias](#13-autenticacao-multifator-mfa-2fa-e-regras-mandatorias)
+    4. [Ameaças e Vetores de Ataque contra Credenciais](#14-ameacas-e-vetores-de-ataque-contra-credenciais)
+    5. [Teste 377](#Teste-377)
+    6. [Teste 378](#Teste-378)
     7. [Teste 379](#Teste-379)
 2. [Modelos Clássicos de Controle de Acesso Lógico](#2-modelos-classicos-de-controle-de-acesso-logico)
     1. [Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)](#21-visao-geral-e-comparativo-dos-modelos-dac-mac-rbac-abac)
     2. [DAC (Discretionary Access Control) e Listas de Controle de Acesso](#22-dac-discretionary-access-control-e-listas-de-controle-de-acesso)
     3. [MAC (Mandatory Access Control) e Modelos Multiníveis Formais: Bell-LaPadula vs. Biba](#23-mac-mandatory-access-control-e-modelos-multiniveis-formais-bell-lapadula-vs-biba)
-    4. [Teste 380](#Teste-380)
-    5. [RBAC (Role-Based Access Control) na Governança Corporativa](#24-rbac-role-based-access-control-na-governanca-corporativa)
-    6. [Teste 381](#Teste-381)
-    7. [ABAC (Attribute-Based Access Control) e a Norma XACML](#25-abac-attribute-based-access-control-e-a-norma-xacml)
+    4. [RBAC (Role-Based Access Control) na Governança Corporativa](#24-rbac-role-based-access-control-na-governanca-corporativa)
+    5. [ABAC (Attribute-Based Access Control) e a Norma XACML](#25-abac-attribute-based-access-control-e-a-norma-xacml)
+    6. [Teste 380](#Teste-380)
+    7. [Teste 381](#Teste-381)
     8. [Teste 382](#Teste-382)
 3. [Gestão de Identidades e Acessos (IAM) e PAM](#3-gestao-de-identidades-e-acessos-iam-e-pam)
     1. [Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)](#31-ciclo-de-vida-da-identidade-onboarding-movimentacao-e-offboarding)
     2. [Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)](#32-menor-privilegio-polp-vs-acumulo-indevido-privilege-creep)
     3. [Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas](#33-gestao-de-acessos-privilegiados-pam-cofre-jit-e-sessoes-gravadas)
-    4. [Teste 383](#Teste-383)
-    5. [Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)](#34-federacao-de-identidades-e-single-sign-on-sso-saml-20-openid-connect)
+    4. [Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)](#34-federacao-de-identidades-e-single-sign-on-sso-saml-20-openid-connect)
+    5. [Teste 383](#Teste-383)
     6. [Teste 384](#Teste-384)
 4. [Arquitetura Zero Trust (Confiança Zero - NIST SP 800-207)](#4-arquitetura-zero-trust-confianca-zero-nist-sp-800-207)
     1. [O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")](#41-o-colapso-da-seguranca-de-borda-tradicional-castelo-e-fosso)
     2. [Os Três Princípios Norteadores Oficiais do Zero Trust](#42-os-tres-principios-norteadores-oficiais-do-zero-trust)
-    3. [Teste 385](#Teste-385)
-    4. [Pilares Fundamentais da Confiança Zero](#43-pilares-fundamentais-da-confianca-zero)
-    5. [Microsegmentação e Contenção do Movimento Lateral](#44-microsegmentacao-e-contencao-do-movimento-lateral)
-    6. [Teste 386](#Teste-386)
-    7. [Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)](#45-componentes-logicos-policy-engine-pe-policy-administrator-pa-e-policy-enforcement-point-pep)
+    3. [Pilares Fundamentais da Confiança Zero](#43-pilares-fundamentais-da-confianca-zero)
+    4. [Microsegmentação e Contenção do Movimento Lateral](#44-microsegmentacao-e-contencao-do-movimento-lateral)
+    5. [Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)](#45-componentes-logicos-policy-engine-pe-policy-administrator-pa-e-policy-enforcement-point-pep)
+    6. [Teste 385](#Teste-385)
+    7. [Teste 386](#Teste-386)
     8. [Teste 387](#Teste-387)
-5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Controle de Acesso Lógico e Mecanismos de Autenticação
 
@@ -80,38 +76,6 @@ flowchart LR
 2. **Autenticação:** O sistema exige e confere elementos probatórios para atestar a veracidade da identidade alegada (como conferência de credenciais criptográficas).
 3. **Autorização:** Uma vez que a autenticidade foi comprovada, o sistema consulta as matrizes de permissão para definir os privilégios exatos e as ações que aquele sujeito específico está legalmente autorizado a executar sobre os recursos.
 4. **Auditoria / Responsabilização (*Accounting / Accountability*):** Registro sistemático, cronológico e imutável de todas as ações, requisições de acesso e alterações realizadas pelo sujeito durante sua sessão, viabilizando rastreabilidade forense integral e atribuição de responsabilidades.
-
----
-
-### Teste 377
-**(FGV - TRT / Analista Judiciário - TI - O Modelo AAA em Segurança da Informação)**
-O Modelo AAA (*Authentication, Authorization, Accounting*) é o framework arquitetural clássico utilizado para disciplinar a governança e o controle de acesso de usuários e sistemas em redes corporativas.
-
-A respeito da distinção e das atribuições de cada um dos três pilares do modelo AAA, assinale a afirmativa correta:
-
-* **A)** A Autorização (*Authorization*) ocorre antes da Autenticação e consiste na digitação do login e senha pelo usuário.
-* **B)** A Autenticação (*Authentication*) verifica a veracidade da identidade alegada pelo sujeito; a Autorização (*Authorization*) determina quais recursos específicos e permissões (leitura, escrita, exclusão) esse sujeito autenticado tem direito de acessar; e a Auditoria (*Accounting/Auditing*) rastreia e registra as ações executadas e o consumo de recursos para fins de responsabilização e conformidade.
-* **C)** O pilar de *Accounting* é dispensável em órgãos públicos porque auditorias violam o direito de privacidade funcional dos servidores.
-* **D)** A Autorização garante que a identidade nunca será contestada perante um tribunal judicial.
-* **E)** Todos os três pilares são executados exclusivamente através de cartões magnéticos sem uso de software ou logs de sistema.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A ordem lógica cronológica e mandatória do modelo AAA é: 1º **Identificação**, 2º **Autenticação** (provar que é quem diz ser), 3º **Autorização** (conceder os privilégios específicos) e 4º **Auditoria/Accounting** (monitorar e registrar).
-> - **B)** **CORRETA.** Definição ontológica precisa do **Modelo AAA**:
->   1. **Authentication (Autenticação):** Processo de validação das credenciais para confirmar que a entidade é realmente quem afirma ser (*"Você é quem diz ser?"*).
->   2. **Authorization (Autorização):** Definição das políticas e concessão de privilégios com base na identidade validada (*"O que você tem permissão para fazer?"*).
->   3. **Accounting (Contabilização / Auditoria):** Registro cronológico e detalhado de todas as atividades, conexões, comandos e recursos acessados (*"O que você efetivamente fez e quando?"*), garantindo a responsabilização (*non-repudiation / accountability*).
-> - **C)** Incorreta. A auditoria e prestação de contas (*Accounting*) é dever constitucional basilar da administração pública.
-> - **D)** Incorreta. Essa propriedade refere-se ao Não Repúdio (*Non-Repudiation*), viabilizado por assinaturas e trilhas seguras.
-> - **E)** Incorreta. O modelo AAA é implementado por protocolos modernos como RADIUS, TACACS+, Diameter, LDAP e plataformas de IAM.
-> 
-> **Gabarito: B**
-
----
 
 ### 1.2 Os Três Fatores Clássicos de Autenticação
 
@@ -162,8 +126,6 @@ classDiagram
     - *Biometria Comportamental:* Cadência e ritmo de digitação no teclado (*keystroke dynamics*), dinâmica da assinatura manual ou modulação vocal.
     - *Vulnerabilidades:* Ocorrência estatística de taxas de Falsa Aceitação (FAR - *False Acceptance Rate*) e Falsa Rejeição (FRR - *False Rejection Rate*). Adicionalmente, dados biométricos vazados não podem ser alterados ou cancelados como uma senha comum.
 
----
-
 ### 1.3 Autenticação Multifator (MFA / 2FA) e Regras Mandatórias
 
 A **Autenticação Multifator (MFA - *Multi-Factor Authentication*)**, que engloba a Autenticação em Dois Fatores (2FA), é a técnica de segurança que condiciona o sucesso do logon à apresentação mandatória de pelo menos dois elementos pertencentes a categorias conceituais **DIFERENTES**.
@@ -180,6 +142,45 @@ A **Autenticação Multifator (MFA - *Multi-Factor Authentication*)**, que englo
 >
 > - Senha (*Conhecimento*) + Token OTP em aplicativo móvel (*Posse*); OU  
 > - Smartcard físico (*Posse*) + Leitura de impressão digital (*Inerência*).
+
+### 1.4 Ameaças e Vetores de Ataque contra Credenciais
+
+Os mecanismos de autenticação enfrentam vetores de ataque específicos no cenário de segurança cibernética:
+
+- **Ataque de Força Bruta (*Brute Force*):** Tentativas exaustivas de todas as combinações alfanuméricas possíveis até encontrar o valor correto. Mitiga-se com políticas de bloqueio temporário de conta após $N$ tentativas incorretas (*account lockout*) e introdução de atrasos progressivos.
+- **Ataque de Dicionário:** Testes automatizados baseados em listas pré-compiladas com as palavras, nomes e senhas mais comuns utilizadas por usuários.
+- **Preenchimento de Credenciais (*Credential Stuffing*):** Uso automatizado de listas com pares de login e senha vazados em incidentes de segurança de empresas terceiras, explorando o hábito generalizado dos usuários de reutilizar a mesma senha em múltiplos portais e serviços.
+- **Fadiga de MFA (*MFA Bombing* / *Push Fatigue*):** O atacante, tendo obtido a senha do usuário, dispara dezenas de solicitações de notificação *push* para o aplicativo autenticador no smartphone da vítima de forma ininterrupta, até que o usuário, exausto ou confuso, clique em "Autorizar". Mitiga-se com a exigência de correspondência de número (*number matching*), onde o usuário precisa digitar no app o número que aparece na tela do sistema.
+
+---
+
+### Teste 377
+**(FGV - TRT / Analista Judiciário - TI - O Modelo AAA em Segurança da Informação)**
+O Modelo AAA (*Authentication, Authorization, Accounting*) é o framework arquitetural clássico utilizado para disciplinar a governança e o controle de acesso de usuários e sistemas em redes corporativas.
+
+A respeito da distinção e das atribuições de cada um dos três pilares do modelo AAA, assinale a afirmativa correta:
+
+* **A)** A Autorização (*Authorization*) ocorre antes da Autenticação e consiste na digitação do login e senha pelo usuário.
+* **B)** A Autenticação (*Authentication*) verifica a veracidade da identidade alegada pelo sujeito; a Autorização (*Authorization*) determina quais recursos específicos e permissões (leitura, escrita, exclusão) esse sujeito autenticado tem direito de acessar; e a Auditoria (*Accounting/Auditing*) rastreia e registra as ações executadas e o consumo de recursos para fins de responsabilização e conformidade.
+* **C)** O pilar de *Accounting* é dispensável em órgãos públicos porque auditorias violam o direito de privacidade funcional dos servidores.
+* **D)** A Autorização garante que a identidade nunca será contestada perante um tribunal judicial.
+* **E)** Todos os três pilares são executados exclusivamente através de cartões magnéticos sem uso de software ou logs de sistema.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A ordem lógica cronológica e mandatória do modelo AAA é: 1º **Identificação**, 2º **Autenticação** (provar que é quem diz ser), 3º **Autorização** (conceder os privilégios específicos) e 4º **Auditoria/Accounting** (monitorar e registrar).
+> - **B)** **CORRETA.** Definição ontológica precisa do **Modelo AAA**:
+>   1. **Authentication (Autenticação):** Processo de validação das credenciais para confirmar que a entidade é realmente quem afirma ser (*"Você é quem diz ser?"*).
+>   2. **Authorization (Autorização):** Definição das políticas e concessão de privilégios com base na identidade validada (*"O que você tem permissão para fazer?"*).
+>   3. **Accounting (Contabilização / Auditoria):** Registro cronológico e detalhado de todas as atividades, conexões, comandos e recursos acessados (*"O que você efetivamente fez e quando?"*), garantindo a responsabilização (*non-repudiation / accountability*).
+> - **C)** Incorreta. A auditoria e prestação de contas (*Accounting*) é dever constitucional basilar da administração pública.
+> - **D)** Incorreta. Essa propriedade refere-se ao Não Repúdio (*Non-Repudiation*), viabilizado por assinaturas e trilhas seguras.
+> - **E)** Incorreta. O modelo AAA é implementado por protocolos modernos como RADIUS, TACACS+, Diameter, LDAP e plataformas de IAM.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -207,19 +208,6 @@ A respeito dos fatores clássicos de autenticação e dos princípios de MFA, as
 > - **E)** Incorreta. Autenticar com MFA não elimina a necessidade da autorização nem do menor privilégio; provar a identidade é apenas a segunda etapa do ciclo AAA.
 > 
 > **Gabarito: B**
-
----
-
-
-
-### 1.4 Ameaças e Vetores de Ataque contra Credenciais
-
-Os mecanismos de autenticação enfrentam vetores de ataque específicos no cenário de segurança cibernética:
-
-- **Ataque de Força Bruta (*Brute Force*):** Tentativas exaustivas de todas as combinações alfanuméricas possíveis até encontrar o valor correto. Mitiga-se com políticas de bloqueio temporário de conta após $N$ tentativas incorretas (*account lockout*) e introdução de atrasos progressivos.
-- **Ataque de Dicionário:** Testes automatizados baseados em listas pré-compiladas com as palavras, nomes e senhas mais comuns utilizadas por usuários.
-- **Preenchimento de Credenciais (*Credential Stuffing*):** Uso automatizado de listas com pares de login e senha vazados em incidentes de segurança de empresas terceiras, explorando o hábito generalizado dos usuários de reutilizar a mesma senha em múltiplos portais e serviços.
-- **Fadiga de MFA (*MFA Bombing* / *Push Fatigue*):** O atacante, tendo obtido a senha do usuário, dispara dezenas de solicitações de notificação *push* para o aplicativo autenticador no smartphone da vítima de forma ininterrupta, até que o usuário, exausto ou confuso, clique em "Autorizar". Mitiga-se com a exigência de correspondência de número (*number matching*), onde o usuário precisa digitar no app o número que aparece na tela do sistema.
 
 ---
 
@@ -251,10 +239,7 @@ Dois ataques comuns e sofisticados que burlam políticas tradicionais de bloquei
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Modelos Clássicos de Controle de Acesso Lógico
 
@@ -267,8 +252,6 @@ Dois ataques comuns e sofisticados que burlam políticas tradicionais de bloquei
 | **RBAC** (*Role-Based Access Control*) | Controle Baseado em Papéis. Os privilégios são vinculados a cargos ou perfis funcionais (ex.: "Auditor Fiscal", "Operador"), e os usuários são associados aos papéis. | Administrador de Segurança Corporativo. | Bancos de dados relacionais (PostgreSQL, Oracle), sistemas ERP, processos eletrônicos de tribunais. | Alinhamento com a estrutura administrativa da organização, simplificação da auditoria e facilidade de escala. |
 | **ABAC** (*Attribute-Based Access Control*) | Controle Baseado em Atributos. Avalia dinamicamente atributos do sujeito, do recurso, da ação solicitada e do ambiente (horário, local, dispositivo, risco) via regras booleanas. | Motor de Políticas Centralizado (ex.: XACML). | Ambientes em nuvem (AWS IAM), microsserviços modernos e arquiteturas Zero Trust. | Concessão granular, dinâmica e sensível ao contexto em tempo real. Desvantagem: maior custo de processamento. |
 
----
-
 ### 2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso
 
 No modelo discricionário, a segurança gira em torno da figura do **proprietário** (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto. O titular possui discricionariedade absoluta para:
@@ -278,8 +261,6 @@ No modelo discricionário, a segurança gira em torno da figura do **proprietár
 
 #### Limitação Crítica do DAC:
 Se um usuário mal-intencionado convencer o proprietário de um arquivo sigiloso a conceder-lhe permissão de leitura, esse segundo usuário poderá copiar os dados para um novo arquivo de sua propriedade e disponibilizá-lo publicamente, sem que o sistema consiga bloquear o vazamento.
-
----
 
 ### 2.3 MAC (Mandatory Access Control) e Modelos Multiníveis Formais: Bell-LaPadula vs. Biba
 
@@ -328,6 +309,33 @@ Desenvolvido em contraposição ao Bell-LaPadula, com foco estrito na preservaç
 > - **Biba:** Foco em **Integridade** $\rightarrow$ *No Read Down* e *No Write Up*.  
 > A FCC adora trocar as propriedades entre os dois modelos ou inverter o foco em Confidencialidade versus Integridade!
 
+### 2.4 RBAC (Role-Based Access Control) na Governança Corporativa
+
+No modelo **RBAC**, o controle de acesso é desacoplado dos usuários individuais e atribuído a **Papéis (*Roles*)** correspondentes a funções de negócio da organização (ex.: `Auditor`, `Gestor de Contratos`, `DBA`).
+
+#### Dinâmica de Funcionamento:
+1. As permissões de leitura, inserção, alteração e exclusão sobre tabelas e sistemas são associadas diretamente aos **Papéis**.
+2. Os **Usuários** são associados a um ou mais papéis.
+3. Quando um colaborador é promovido ou assume nova atribuição, basta alterar sua filiação de papéis, sem necessidade de reconfigurar milhares de tabelas e pastas individualmente.
+
+#### Variações Normatizadas (NIST RBAC):
+- **RBAC0 (Básico):** Mapeamento direto entre usuários, papéis e permissões.
+- **RBAC1 (Hierárquico):** Suporta herança hierárquica entre papéis (ex.: o papel `Auditor-Chefe` herda automaticamente todas as permissões do papel `Auditor-Assistente`).
+- **RBAC2 (Restrições):** Adiciona regras de Separação de Deveres (*Separation of Duties* - SoD), como impedir que o mesmo usuário pertença simultaneamente ao papel de `Solicitante de Pagamento` e `Aprovador de Pagamento`.
+- **RBAC3 (Consolidado):** Combina hierarquia (RBAC1) com restrições de separação de deveres (RBAC2).
+
+### 2.5 ABAC (Attribute-Based Access Control) e a Norma XACML
+
+O **ABAC** é a evolução dinâmica do controle de acesso, projetado para resolver a explosão desordenada de papéis (*role explosion*) do RBAC em organizações gigantescas. Em vez de verificar um cargo fixo, o sistema processa expressões booleanas sobre quatro conjuntos de **atributos**:
+
+1. **Atributos do Sujeito:** Cargo, departamento, autorização de segurança, antiguidade.
+2. **Atributos do Recurso/Objeto:** Classificação da informação, projeto vinculado, proprietário do dado.
+3. **Atributos da Ação:** Leitura, gravação, exclusão, exportação via API.
+4. **Atributos do Ambiente / Contexto:** Horário da solicitação, geolocalização física (país/cidade), se a conexão parte da VPN institucional ou rede aberta, conformidade de segurança do dispositivo (*health status*).
+
+#### Norma XACML (eXtensible Access Control Markup Language):
+Padrão internacional aberto formulado pela OASIS que define a linguagem XML/JSON e a arquitetura para processamento de políticas ABAC, servindo de fundação para os componentes lógicos de controle de acesso moderno.
+
 ---
 
 ### Teste 380
@@ -354,25 +362,6 @@ Sobre o funcionamento desses dois modelos, assinale a afirmativa correta:
 > - **E)** Incorreta. Bell-LaPadula e Biba são modelos formais clássicos de Controle de Acesso Obrigatório (MAC), e não discricionário (DAC).
 > 
 > **Gabarito: B**
-
----
-
-
-
-### 2.4 RBAC (Role-Based Access Control) na Governança Corporativa
-
-No modelo **RBAC**, o controle de acesso é desacoplado dos usuários individuais e atribuído a **Papéis (*Roles*)** correspondentes a funções de negócio da organização (ex.: `Auditor`, `Gestor de Contratos`, `DBA`).
-
-#### Dinâmica de Funcionamento:
-1. As permissões de leitura, inserção, alteração e exclusão sobre tabelas e sistemas são associadas diretamente aos **Papéis**.
-2. Os **Usuários** são associados a um ou mais papéis.
-3. Quando um colaborador é promovido ou assume nova atribuição, basta alterar sua filiação de papéis, sem necessidade de reconfigurar milhares de tabelas e pastas individualmente.
-
-#### Variações Normatizadas (NIST RBAC):
-- **RBAC0 (Básico):** Mapeamento direto entre usuários, papéis e permissões.
-- **RBAC1 (Hierárquico):** Suporta herança hierárquica entre papéis (ex.: o papel `Auditor-Chefe` herda automaticamente todas as permissões do papel `Auditor-Assistente`).
-- **RBAC2 (Restrições):** Adiciona regras de Separação de Deveres (*Separation of Duties* - SoD), como impedir que o mesmo usuário pertença simultaneamente ao papel de `Solicitante de Pagamento` e `Aprovador de Pagamento`.
-- **RBAC3 (Consolidado):** Combina hierarquia (RBAC1) com restrições de separação de deveres (RBAC2).
 
 ---
 
@@ -407,20 +396,6 @@ A respeito das variações normativas da família RBAC do NIST, assinale a afirm
 
 ---
 
-### 2.5 ABAC (Attribute-Based Access Control) e a Norma XACML
-
-O **ABAC** é a evolução dinâmica do controle de acesso, projetado para resolver a explosão desordenada de papéis (*role explosion*) do RBAC em organizações gigantescas. Em vez de verificar um cargo fixo, o sistema processa expressões booleanas sobre quatro conjuntos de **atributos**:
-
-1. **Atributos do Sujeito:** Cargo, departamento, autorização de segurança, antiguidade.
-2. **Atributos do Recurso/Objeto:** Classificação da informação, projeto vinculado, proprietário do dado.
-3. **Atributos da Ação:** Leitura, gravação, exclusão, exportação via API.
-4. **Atributos do Ambiente / Contexto:** Horário da solicitação, geolocalização física (país/cidade), se a conexão parte da VPN institucional ou rede aberta, conformidade de segurança do dispositivo (*health status*).
-
-#### Norma XACML (eXtensible Access Control Markup Language):
-Padrão internacional aberto formulado pela OASIS que define a linguagem XML/JSON e a arquitetura para processamento de políticas ABAC, servindo de fundação para os componentes lógicos de controle de acesso moderno.
-
----
-
 ### Teste 382
 **(FCC - TRT / Analista Judiciário - TI - Controle de Acesso ABAC e a Arquitetura XACML)**
 Em ambientes corporativos complexos com requisitos dinâmicos de auditoria, o Controle de Acesso Baseado em Atributos (*Attribute-Based Access Control - ABAC*) supera as limitações do RBAC ao avaliar atributos do sujeito, do recurso, da ação e do contexto ambiental (como horário, localização IP e nível de ameaça).
@@ -450,10 +425,7 @@ Na implementação padrão do ABAC segundo a norma **XACML** (*eXtensible Access
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Gestão de Identidades e Acessos (IAM) e PAM
 
@@ -465,15 +437,11 @@ O **IAM (*Identity and Access Management*)** gerencia as identidades digitais de
 2. **Movimentação / Transição:** Ajuste imediato e automatizado das permissões quando o servidor é transferido de setor ou assume novas funções de chefia. Privilégios que eram necessários na unidade antiga devem ser revogados imediatamente.
 3. **Desprovisionamento (*Offboarding* / Saída):** Revogação imediata, integral e irrevogável de todos os acessos lógicos (contas de e-mail, VPN, acessos a bancos de dados) e físicos (crachás magnéticos) no exato instante da exoneração, demissão ou término do contrato.
 
----
-
 ### 3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)
 
 - **Princípio do Menor Privilégio (*Principle of Least Privilege* - PoLP):** Diretriz de ouro segundo a qual toda entidade (usuário ou processo) deve receber estritamente o conjunto mínimo de permissões indispensável para a conclusão de suas tarefas regulamentares, pelo menor período de tempo necessário.
 - **Acúmulo Indevido de Privilégios (*Privilege Creep*):** Fenômeno patológico e extremamente comum em órgãos públicos e empresas privadas onde o servidor muda sucessivamente de lotação ao longo dos anos, recebendo novas permissões a cada transferência sem que os acessos dos setores anteriores sejam excluídos. Ao final de uma década, o usuário acumula privilégios desmesurados, transformando-se em um vetor de risco crítico caso sua credencial seja comprometida.  
   *Mitigação:* Realização de campanhas obrigatórias periódicas de **Recertificação de Acessos** (*Access Review*), onde chefias imediatas devem aprovar formalmente a continuidade de cada permissão ativa.
-
----
 
 ### 3.3 Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas
 
@@ -482,6 +450,14 @@ Contas que detêm privilégios administrativos elevados (tais como `root` no Lin
 - **Cofre Seguro de Senhas (*Password Vault*):** As senhas de superusuário ficam guardadas em um cofre criptografado central. Nenhum administrador humano conhece a senha real; o sistema altera as senhas automaticamente após cada utilização (senhas descartáveis de uso único).
 - **Acesso Just-In-Time (JIT):** Princípio em que permissões privilegiadas não permanecem ativas continuamente. O administrador solicita acesso para realizar uma manutenção pré-agendada; o sistema concede os privilégios com prazo de expiração automático estrito (ex.: 2 horas), revogando-os ao final.
 - **Gravação e Auditoria de Sessões Privilegiadas:** Toda conexão administrativa é intermediada por um proxy seguro que grava em vídeo e em texto todos os comandos digitados pelo administrador, garantindo responsabilização irrefutável (*non-repudiation*).
+
+### 3.4 Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)
+
+Para mitigar a fadiga de senhas e a dispersão de credenciais entre múltiplos portais, adotam-se soluções de identidade federada:
+
+- **SSO (*Single Sign-On*):** Mecanismo de autenticação centralizada que permite a um usuário realizar logon uma única vez e obter acesso autorizado a múltiplos sistemas e portais sem redigitar credenciais.
+- **SAML 2.0 (*Security Assertion Markup Language*):** Padrão aberto baseado em asserções XML assinado digitalmente, muito utilizado na comunicação corporativa entre o Provedor de Identidade (**IdP** - *Identity Provider*) e o Provedor de Serviços (**SP** - *Service Provider*).
+- **OpenID Connect (OIDC):** Camada de autenticação moderna de identidade construída sobre a infraestrutura REST/HTTPS do protocolo OAuth 2.0. Emprega tokens de identidade codificados em **JSON Web Token (JWT)**, sendo amplamente adotada em aplicações web móveis e microsserviços em nuvem.
 
 ---
 
@@ -512,18 +488,6 @@ Considerando os princípios de Governança de Identidades (IAM) e de Gestão de 
 
 ---
 
-
-
-### 3.4 Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)
-
-Para mitigar a fadiga de senhas e a dispersão de credenciais entre múltiplos portais, adotam-se soluções de identidade federada:
-
-- **SSO (*Single Sign-On*):** Mecanismo de autenticação centralizada que permite a um usuário realizar logon uma única vez e obter acesso autorizado a múltiplos sistemas e portais sem redigitar credenciais.
-- **SAML 2.0 (*Security Assertion Markup Language*):** Padrão aberto baseado em asserções XML assinado digitalmente, muito utilizado na comunicação corporativa entre o Provedor de Identidade (**IdP** - *Identity Provider*) e o Provedor de Serviços (**SP** - *Service Provider*).
-- **OpenID Connect (OIDC):** Camada de autenticação moderna de identidade construída sobre a infraestrutura REST/HTTPS do protocolo OAuth 2.0. Emprega tokens de identidade codificados em **JSON Web Token (JWT)**, sendo amplamente adotada em aplicações web móveis e microsserviços em nuvem.
-
----
-
 ### Teste 384
 **(FGV - TRT / Analista Judiciário - TI - Federação de Identidades e SSO: SAML vs. OpenID Connect)**
 A federação de identidades permite que os servidores de um tribunal acessem múltiplos sistemas governamentais integrados utilizando uma única conta corporativa com o mecanismo de *Single Sign-On* (SSO).
@@ -551,10 +515,7 @@ A respeito dos protocolos padronizados de autenticação e autorização federad
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Arquitetura Zero Trust (Confiança Zero - NIST SP 800-207)
 
@@ -584,8 +545,6 @@ Esse modelo faliu tecnicamente por três razões contemporâneas:
 2. **Ameaças Internas (*Insider Threats*):** Funcionários descontentes ou credenciais internas legítimas roubadas por phishing.
 3. **Movimento Lateral de Malwares:** Uma vez infectado um único terminal de entrada (ex.: computador da recepção), o ransomware explora a confiança implícita da rede interna para se espalhar horizontalmente até servidores centrais de banco de dados e controladores de domínio.
 
----
-
 ### 4.2 Os Três Princípios Norteadores Oficiais do Zero Trust
 
 Normatizada pelo Instituto Nacional de Padrões e Tecnologia dos EUA através do documento **NIST SP 800-207**, a Arquitetura Zero Trust substitui a confiança baseada em topologia física por verificações dinâmicas contínuas alicerçadas em três princípios centrais:
@@ -598,6 +557,48 @@ Normatizada pelo Instituto Nacional de Padrões e Tecnologia dos EUA através do
 
 3. **Assuma a Violação (*Assume Breach*):**
     - Projete os sistemas partindo da certeza de que o adversário já conseguiu comprometer algum elemento da infraestrutura. Reduza ao máximo o "raio de explosão" (*blast radius*) do ataque por meio de **microsegmentação**, inspeção detalhada de todo o tráfego e criptografia de dados em trânsito e em repouso.
+
+### 4.3 Pilares Fundamentais da Confiança Zero
+
+Conforme estabelecido pela CISA (*Cybersecurity and Infrastructure Security Agency*), o Zero Trust estrutura-se sobre cinco pilares técnicos interligados:
+
+- **Identidade:** Garantia de identificação inequívoca de usuários e contas de serviço com MFA resistente a phishing e análise de risco contextual.
+- **Dispositivos:** Avaliação rigorosa da integridade física e lógica dos endpoints (sistema operacional atualizado, presença de EDR ativo, criptografia de disco ativa).
+- **Redes:** Fim de redes planas; adoção de isolamento estrito e perímetros definidos por software (SDP).
+- **Aplicações e Cargas de Trabalho (*Workloads*):** Proteção direta em nível de aplicação e microsserviços (containers, APIs), com validações contínuas de segurança.
+- **Dados:** Classificação, inventário e cifragem de informações confidenciais onde quer que residam.
+
+### 4.4 Microsegmentação e Contenção do Movimento Lateral
+
+A **microsegmentação** é o componente de rede estrutural do Zero Trust. Consiste em dividir a rede corporativa e os datacenters em pequenas zonas de isolamento de segurança granulares, muitas vezes descendo até o nível de uma máquina virtual ou container individual.
+
+Diferente dos firewalls tradicionais que filtram apenas tráfego norte-sul (entrada e saída da Internet), a microsegmentação aplica regras rigorosas ao **tráfego leste-oeste** (comunicação entre servidores internos). Assim, caso um servidor web seja invadido, o atacante é impedido de realizar movimento lateral para alcançar o banco de dados contábil que reside na mesma rede física.
+
+### 4.5 Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)
+
+O NIST SP 800-207 divide formalmente os componentes lógicos da Arquitetura Zero Trust em dois planos de operação:
+
+```mermaid
+flowchart LR
+    subgraph PLANO_CONTROLE["Plano de Controle (Control Plane)"]
+        PE["Policy Engine (PE)<br>(Motor de Decisão Analítica)"] <--> PA["Policy Administrator (PA)<br>(Gerador de Tokens de Sessão)"]
+        PDP["Policy Decision Point (PDP) = PE + PA"]
+    end
+    subgraph PLANO_DADOS["Plano de Dados (Data Plane)"]
+        SUJ["Sujeito / Dispositivo"] --> PEP["Policy Enforcement Point (PEP)<br>(Gateway / Proxy de Aplicação)"]
+        PEP --> REC["Recurso / Aplicação Corporativa"]
+    end
+    PA -.->|"Comandos de Abertura/Fechamento de Canal"| PEP
+    PEP -.->|"Solicitação de Autorização Contextual"| PA
+```
+
+#### No Plano de Controle (*Control Plane*):
+- **Policy Engine (PE - Motor de Políticas):** É o cérebro decisório central. Avalia as políticas organizacionais, sinais de telemetria de segurança, reputação de risco e integridade do cliente para **tomar a decisão final** de permitir, negar ou revogar o acesso solicitado.
+- **Policy Administrator (PA - Administrador de Políticas):** É o componente executor das decisões do PE. Se o PE aprova a requisição, o PA envia os comandos técnicos ao PEP para que este abra o canal de comunicação seguro, emitindo as credenciais ou tokens de sessão.  
+  *(A união conceitual entre o PE e o PA forma o **Policy Decision Point - PDP**)*.
+
+#### No Plano de Dados (*Data Plane*):
+- **Policy Enforcement Point (PEP - Ponto de Aplicação de Políticas):** É o componente de fronteira posicionado diretamente no fluxo de tráfego (gateway seguro, proxy reverso ou agente instalado no dispositivo). O PEP **intercepta, fiscaliza, permite ou encerra** as conexões diretas entre o usuário e o recurso, acatando cegamente as ordens recebidas do PA.
 
 ---
 
@@ -625,28 +626,6 @@ A respeito dos princípios fundamentais que regem o paradigma Zero Trust, assina
 > - **E)** Incorreta. Concessões perenes e irrestritas são antagônicas ao Zero Trust, que prega avaliação dinâmica contínua e concessão pontual de privilégios *Just-In-Time*.
 > 
 > **Gabarito: B**
-
----
-
-
-
-### 4.3 Pilares Fundamentais da Confiança Zero
-
-Conforme estabelecido pela CISA (*Cybersecurity and Infrastructure Security Agency*), o Zero Trust estrutura-se sobre cinco pilares técnicos interligados:
-
-- **Identidade:** Garantia de identificação inequívoca de usuários e contas de serviço com MFA resistente a phishing e análise de risco contextual.
-- **Dispositivos:** Avaliação rigorosa da integridade física e lógica dos endpoints (sistema operacional atualizado, presença de EDR ativo, criptografia de disco ativa).
-- **Redes:** Fim de redes planas; adoção de isolamento estrito e perímetros definidos por software (SDP).
-- **Aplicações e Cargas de Trabalho (*Workloads*):** Proteção direta em nível de aplicação e microsserviços (containers, APIs), com validações contínuas de segurança.
-- **Dados:** Classificação, inventário e cifragem de informações confidenciais onde quer que residam.
-
----
-
-### 4.4 Microsegmentação e Contenção do Movimento Lateral
-
-A **microsegmentação** é o componente de rede estrutural do Zero Trust. Consiste em dividir a rede corporativa e os datacenters em pequenas zonas de isolamento de segurança granulares, muitas vezes descendo até o nível de uma máquina virtual ou container individual.
-
-Diferente dos firewalls tradicionais que filtram apenas tráfego norte-sul (entrada e saída da Internet), a microsegmentação aplica regras rigorosas ao **tráfego leste-oeste** (comunicação entre servidores internos). Assim, caso um servidor web seja invadido, o atacante é impedido de realizar movimento lateral para alcançar o banco de dados contábil que reside na mesma rede física.
 
 ---
 
@@ -680,34 +659,6 @@ Dentre os pilares técnicos fundamentais do Zero Trust, a técnica de **Microseg
 
 ---
 
-### 4.5 Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)
-
-O NIST SP 800-207 divide formalmente os componentes lógicos da Arquitetura Zero Trust em dois planos de operação:
-
-```mermaid
-flowchart LR
-    subgraph PLANO_CONTROLE["Plano de Controle (Control Plane)"]
-        PE["Policy Engine (PE)<br>(Motor de Decisão Analítica)"] <--> PA["Policy Administrator (PA)<br>(Gerador de Tokens de Sessão)"]
-        PDP["Policy Decision Point (PDP) = PE + PA"]
-    end
-    subgraph PLANO_DADOS["Plano de Dados (Data Plane)"]
-        SUJ["Sujeito / Dispositivo"] --> PEP["Policy Enforcement Point (PEP)<br>(Gateway / Proxy de Aplicação)"]
-        PEP --> REC["Recurso / Aplicação Corporativa"]
-    end
-    PA -.->|"Comandos de Abertura/Fechamento de Canal"| PEP
-    PEP -.->|"Solicitação de Autorização Contextual"| PA
-```
-
-#### No Plano de Controle (*Control Plane*):
-- **Policy Engine (PE - Motor de Políticas):** É o cérebro decisório central. Avalia as políticas organizacionais, sinais de telemetria de segurança, reputação de risco e integridade do cliente para **tomar a decisão final** de permitir, negar ou revogar o acesso solicitado.
-- **Policy Administrator (PA - Administrador de Políticas):** É o componente executor das decisões do PE. Se o PE aprova a requisição, o PA envia os comandos técnicos ao PEP para que este abra o canal de comunicação seguro, emitindo as credenciais ou tokens de sessão.  
-  *(A união conceitual entre o PE e o PA forma o **Policy Decision Point - PDP**)*.
-
-#### No Plano de Dados (*Data Plane*):
-- **Policy Enforcement Point (PEP - Ponto de Aplicação de Políticas):** É o componente de fronteira posicionado diretamente no fluxo de tráfego (gateway seguro, proxy reverso ou agente instalado no dispositivo). O PEP **intercepta, fiscaliza, permite ou encerra** as conexões diretas entre o usuário e o recurso, acatando cegamente as ordens recebidas do PA.
-
----
-
 ### Teste 387
 **(FCC - Adaptada / TI - Componentes Lógicos do Zero Trust / NIST SP 800-207)**
 A publicação técnica especial NIST SP 800-207 divide a Arquitetura Zero Trust em componentes lógicos fundamentais distribuídos entre o Plano de Controle (*Control Plane*) e o Plano de Dados (*Data Plane*).
@@ -733,10 +684,7 @@ Assinale a opção que descreve corretamente o papel e a função desses compone
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

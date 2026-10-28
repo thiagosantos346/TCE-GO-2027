@@ -34,37 +34,30 @@
     - Ambiente Geral (Macroambiente): forças PESTEL (Políticas, Econômicas, Sociais, Tecnológicas, Ecológicas e Legais);
     - Ambiente de Tarefa (Microambiente / Ambiente Operacional): clientes/cidadãos, fornecedores, concorrentes e órgãos reguladores e de fiscalização externa.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [Os Nove Pilares da Organização Racional do Trabalho (ORT)](#1-os-nove-pilares-da-organizacao-racional-do-trabalho-ort)
-    2. [Teste 350](#Teste-350)
-    3. [Teste 351](#Teste-351)
-    4. [Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade](#2-dicotomia-conceitual-eficiencia-vs-eficacia-vs-efetividade)
-    5. [Teste 352](#Teste-352)
-    6. [Dinâmica das Organizações Formais e Informais](#3-dinamica-das-organizacoes-formais-e-informais)
-    7. [Teste 353](#Teste-353)
-    8. [Teste 354](#Teste-354)
-    9. [Centralização vs. Descentralização e a Regra Áurea da Delegação](#4-centralizacao-vs-descentralizacao-e-a-regra-aurea-da-delegacao)
-    10. [Teste 355](#Teste-355)
-    11. [Teste 356](#Teste-356)
-    12. [Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)](#5-ambientes-organizacionais-ambiente-geral-macro-vs-ambiente-de-tarefa-micro)
-    13. [Teste 357](#Teste-357)
-    14. [Teste 358](#Teste-358)
-    15. [Teste 359](#Teste-359)
-    16. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+1. [Os Nove Pilares da Organização Racional do Trabalho (ORT)](#1-os-nove-pilares-da-organizacao-racional-do-trabalho-ort)
+    1. [Teste 350](#Teste-350)
+    2. [Teste 351](#Teste-351)
+2. [Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade](#2-dicotomia-conceitual-eficiencia-vs-eficacia-vs-efetividade)
+    1. [Teste 352](#Teste-352)
+3. [Dinâmica das Organizações Formais e Informais](#3-dinamica-das-organizacoes-formais-e-informais)
+    1. [Teste 353](#Teste-353)
+    2. [Teste 354](#Teste-354)
+4. [Centralização vs. Descentralização e a Regra Áurea da Delegação](#4-centralizacao-vs-descentralizacao-e-a-regra-aurea-da-delegacao)
+    1. [Teste 355](#Teste-355)
+    2. [Teste 356](#Teste-356)
+5. [Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)](#5-ambientes-organizacionais-ambiente-geral-macro-vs-ambiente-de-tarefa-micro)
+    1. [Teste 357](#Teste-357)
+    2. [Teste 358](#Teste-358)
+    3. [Teste 359](#Teste-359)
+6. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. Os Nove Pilares da Organização Racional do Trabalho (ORT)
+## 1. Os Nove Pilares da Organização Racional do Trabalho (ORT)
 
 Frederick W. Taylor desenvolveu a Organização Racional do Trabalho (ORT) no início do século XX com a missão precípua de substituir o empirismo rudimentar e a improvisação dos operários por métodos científicos e matematicamente padronizados:
 
@@ -124,8 +117,6 @@ A respeito da Organização Racional do Trabalho (ORT) desenvolvida por Frederic
 
 ---
 
-
-
 ### Teste 351
 **(FCC - Adaptada / Analista de Gestão Pública)**
 A Organização Racional do Trabalho (ORT), núcleo da Administração Científica de Frederick W. Taylor, estruturou-se em fundamentos técnicos para combater a "vadiagem sistemática" dos operários e elevar a produtividade.
@@ -150,8 +141,7 @@ Dentre os pilares da ORT, o **Estudo dos Tempos e Movimentos** (*Motion and Time
 
 ---
 
-
-### 2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade
+## 2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade
 
 A distinção conceitual entre eficiência e eficácia, magistralmente consolidada por teóricos como Peter Drucker e Chester Barnard, aliada à dimensão moderna da efetividade, figura entre os temas mais cobrados pela FCC:
 
@@ -208,9 +198,7 @@ Determinada unidade de fiscalização governamental realizou uma auditoria utili
 
 ---
 
-
-
-### 3. Dinâmica das Organizações Formais e Informais
+## 3. Dinâmica das Organizações Formais e Informais
 
 Toda instituição humana possui uma dupla dimensão estrutural que convive em interação dialética permanente:
 
@@ -259,8 +247,6 @@ A respeito da organização formal e da organização informal no cotidiano das 
 
 ---
 
-
-
 ### Teste 354
 **(FCC - Adaptada / Auditor de Controle Externo)**
 No estudo da dinâmica organizacional, a **Organização Informal** coexiste paralelamente com a **Organização Formal** em toda repartição pública.
@@ -285,8 +271,7 @@ Constitui característica exclusiva da **Organização Informal**:
 
 ---
 
-
-### 4. Centralização vs. Descentralização e a Regra Áurea da Delegação
+## 4. Centralização vs. Descentralização e a Regra Áurea da Delegação
 
 A distribuição formal do poder de decisão dentro da hierarquia é classificada em dois modelos estruturais:
 
@@ -340,8 +325,6 @@ No tocante à dinâmica da delegação de competências e à centralização ver
 
 ---
 
-
-
 ### Teste 356
 **(FCC - Adaptada / Analista de Planejamento e Controle)**
 Na teoria da administração, a delegação de autoridade é instrumento indispensável para a descentralização gerencial e agilização dos processos decisórios.
@@ -369,8 +352,7 @@ A respeito da delegação de autoridade, é uma regra fundamental da ciência da
 
 ---
 
-
-### 5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)
+## 5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)
 
 Nenhuma organização pública funciona no vácuo; ela opera inserida em camadas ambientais com diferentes graus de proximidade e influência:
 
@@ -434,8 +416,6 @@ Em relação ao estudo dos ambientes organizacionais e sua influência sobre o f
 
 ---
 
-
-
 ### Teste 358
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na análise do ambiente organizacional, os teóricos contemporâneos distinguem o **Macroambiente (Ambiente Geral)** do **Microambiente (Ambiente de Tarefa ou Operacional)**.
@@ -486,8 +466,7 @@ A ênfase conferida pelo diretor concentrou-se primordialmente na dimensão da:
 
 ---
 
-
-### 6. Fontes Oficiais e Referências Bibliográficas
+## 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto-Lei nº 200/1967 (Coordenação, Descentralização e Delegação de Competência)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Normas para evitar duplicidade de órgãos e assegurar a racionalização do trabalho.
 * [Decreto nº 9.094/2017 (Racionalização e Simplificação de Procedimentos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9094.htm) - Regras para simplificação e eliminação de exigências burocráticas redundantes.

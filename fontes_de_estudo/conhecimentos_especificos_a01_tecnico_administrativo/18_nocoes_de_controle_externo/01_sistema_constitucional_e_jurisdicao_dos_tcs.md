@@ -28,40 +28,39 @@
 - Eficácia das decisões dos Tribunais de Contas: imputação de débito e multa com força de título executivo extrajudicial (Artigo 71, § 3º, da CF/88);
 - Limites da jurisdição de contas, prescrição da pretensão punitiva/ressarcitória (Tema 899 do STF) e independência das instâncias civil, penal e administrativa.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [O Modelo Constitucional de Controle e a Responsabilidade Solidária](#1-o-modelo-constitucional-de-controle-e-a-responsabilidade-solidaria)
-    2. [Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)](#2-natureza-juridica-autonomia-e-principio-da-simetria-art-75)
+1. [O Modelo Constitucional de Controle e a Responsabilidade Solidária](#1-o-modelo-constitucional-de-controle-e-a-responsabilidade-solidaria)
+    1. [Sistemas de Controle Externo, Interno e Social](#11-sistemas-de-controle-externo-interno-e-social)
+    2. [O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)](#12-o-dever-de-comunicacao-do-controle-interno-e-sancao-de-solidariedade-art-74-1o)
+2. [Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)](#2-natureza-juridica-autonomia-e-principio-da-simetria-art-75)
+    1. [Natureza Jurídica e Autonomias dos Tribunais de Contas](#21-natureza-juridica-e-autonomias-dos-tribunais-de-contas)
+    2. [O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs](#22-o-principio-da-simetria-constitucional-federativa-e-a-composicao-dos-tces)
     3. [Teste 165](#Teste-165)
     4. [Teste 166](#Teste-166)
-    5. [Competências Constitucionais: Julgamento Técnico versus Parecer Prévio](#3-competencias-constitucionais-julgamento-tecnico-versus-parecer-previo)
-    6. [Teste 167](#Teste-167)
-    7. [Registro de Atos de Admissão e Benefícios Previdenciários (Art. 71, III)](#4-registro-de-atos-de-admissao-e-beneficios-previdenciarios-art-71-iii)
-    8. [Teste 168](#Teste-168)
-    9. [Teste 169](#Teste-169)
-    10. [Sustação de Atos Ilegais versus Sustação de Contratos Administrativos](#5-sustacao-de-atos-ilegais-versus-sustacao-de-contratos-administrativos)
-    11. [Teste 170](#Teste-170)
-    12. [Teste 171](#Teste-171)
-    13. [Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)](#6-eficacia-executiva-e-prescritibilidade-art-71-3o-e-tema-899-do-stf)
-    14. [Teste 172](#Teste-172)
-    15. [Teste 173](#Teste-173)
-    16. [Jurisdição Ampla e Independência das Instâncias](#7-jurisdicao-ampla-e-independencia-das-instancias)
-    17. [Teste 174](#Teste-174)
-    18. [Teste 175](#Teste-175)
-2. [Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+3. [Competências Constitucionais: Julgamento Técnico versus Parecer Prévio](#3-competencias-constitucionais-julgamento-tecnico-versus-parecer-previo)
+    1. [Contas de Governo versus Contas de Gestão](#31-contas-de-governo-versus-contas-de-gestao)
+    2. [O Julgamento das Contas de Prefeito Municipal (Tema 835 do STF)](#32-o-julgamento-das-contas-de-prefeito-municipal-tema-835-do-stf)
+    3. [Teste 167](#Teste-167)
+4. [Registro de Atos de Admissão e Benefícios Previdenciários (Art. 71, III)](#4-registro-de-atos-de-admissao-e-beneficios-previdenciarios-art-71-iii)
+    1. [Teste 168](#Teste-168)
+    2. [Teste 169](#Teste-169)
+5. [Sustação de Atos Ilegais versus Sustação de Contratos Administrativos](#5-sustacao-de-atos-ilegais-versus-sustacao-de-contratos-administrativos)
+    1. [Teste 170](#Teste-170)
+    2. [Teste 171](#Teste-171)
+6. [Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)](#6-eficacia-executiva-e-prescritibilidade-art-71-3o-e-tema-899-do-stf)
+    1. [Teste 172](#Teste-172)
+    2. [Teste 173](#Teste-173)
+7. [Jurisdição Ampla e Independência das Instâncias](#7-jurisdicao-ampla-e-independencia-das-instancias)
+    1. [Teste 174](#Teste-174)
+    2. [Teste 175](#Teste-175)
+8. [🌐 Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
 
 ---
 
-
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. O Modelo Constitucional de Controle e a Responsabilidade Solidária
+## 1. O Modelo Constitucional de Controle e a Responsabilidade Solidária
 
 O controle dos recursos públicos no Brasil é tripartite e integrado:
 
@@ -81,25 +80,25 @@ flowchart TD
     Alerta -->|"Omissão acarreta"| Solid["Responsabilidade Solidária do Dirigente do CI"]
 ```
 
-#### 1.1 Sistemas de Controle Externo, Interno e Social
+### 1.1 Sistemas de Controle Externo, Interno e Social
 - O **Controle Externo** possui titularidade política no Poder Legislativo, sendo operacionalizado na plenitude técnica pelo Tribunal de Contas, órgão constitucional independente de controle da legitimidade, legalidade, economicidade, aplicação de subvenções e renúncia de receitas públicas.
 - O **Controle Interno** atua no seio de cada estrutura orgânica para avaliar o cumprimento das metas do PPA, comprovar a legalidade da gestão orçamentária e apoiar o controle externo no exercício de sua missão institucional (art. 74, I a IV).
 - O **Controle Social** assegura a qualquer cidadão, partido político, associação ou sindicato legitimidade para denunciar irregularidades perante o Tribunal de Contas (art. 74, § 2º).
 
-#### 1.2 O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)
+### 1.2 O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)
 - Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade no órgão, **devem dar ciência imediata ao Tribunal de Contas competente**.
 - **Sanção por Omissão:** Se o titular do controle interno silenciar dolosa ou culposamente, responderá **pessoal e solidariamente** com o gestor ímprobo pelo dano apurado e pelas sanções cominadas pelo Tribunal de Contas.
 
 ---
 
-### 2. Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)
+## 2. Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)
 
-#### 2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas
+### 2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas
 - Os Tribunais de Contas são **órgãos estatais independentes**, de extração estritamente constitucional.
 - **Não integram a estrutura hierárquica do Poder Legislativo**, tampouco do Poder Executivo ou do Judiciário. Exercem magistratura técnica de contas especializada dotada de autogoverno.
 - Possuem **autonomia administrativa, funcional, orçamentária e financeira**, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
 
-#### 2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs
+### 2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs
 O art. 75 da Carta Magna estabelece que as normas constitucionais federais sobre fiscalização financeira e organização do Tribunal de Contas da União aplicam-se compulsoriamente aos Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios:
 
 - **Composição dos Tribunais de Contas Estaduais (TCE-GO):**
@@ -122,8 +121,6 @@ flowchart TD
 ```
 
 ---
-
-
 
 ### Teste 165
 **(FGV - Auditor de Controle Externo / TCE-GO)**
@@ -177,11 +174,9 @@ A Constituição do Estado de Goiás prevê a organização e o funcionamento do
 
 ---
 
+## 3. Competências Constitucionais: Julgamento Técnico versus Parecer Prévio
 
-
-### 3. Competências Constitucionais: Julgamento Técnico versus Parecer Prévio
-
-#### 3.1 Contas de Governo versus Contas de Gestão
+### 3.1 Contas de Governo versus Contas de Gestão
 
 | Aspecto Diferenciador | Contas de Governo (Chefe do Executivo) | Contas de Gestão (Ordenadores de Despesa e Administradores) |
 | :--- | :--- | :--- |
@@ -191,14 +186,12 @@ A Constituição do Estado de Goiás prevê a organização e o funcionamento do
 | **Quem Proferirá o Julgamento?** | O **Poder Legislativo** (Congresso, Assembleia Legislativa ou Câmara de Vereadores) | O próprio **Tribunal de Contas** |
 | **Efeito da Rejeição** | Julgamento político de contas do governante | Condenação pessoal com imputação de débito, multa pecuniária e inabilitação para funções públicas |
 
-#### 3.2 O Julgamento das Contas de Prefeito Municipal (Tema 835 do STF)
+### 3.2 O Julgamento das Contas de Prefeito Municipal (Tema 835 do STF)
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (TEMA 835 DO STF - CONTAS DE PREFEITO):**  
 > *"Para os fins do art. 1º, inciso I, alínea 'g', da LC nº 64/1990 (Lei da Ficha Limpa), a apreciação das contas de prefeitos, tanto as de governo quanto as de gestão (ordenador de despesas), compete exclusivamente às Câmaras Municipais, com o auxílio dos Tribunais de Contas, cujo parecer prévio somente deixará de prevalecer por decisão de dois terços dos vereadores."*  
 > Portanto, mesmo que o Prefeito de um município goiano tenha assinado cheques e efetuado contratações diretas ilegais (ordenador), o Tribunal de Contas **não o julga de forma definitiva**: emite parecer prévio, e o julgamento que gera inelegibilidade pertence com exclusividade à Câmara Municipal!
 
 ---
-
-
 
 ### Teste 167
 **(FCC - Analista de Controle Externo / TCE-GO)**
@@ -227,7 +220,7 @@ Sobre a distinção entre o julgamento das contas dos administradores públicos 
 
 ---
 
-### 4. Registro de Atos de Admissão e Benefícios Previdenciários (Art. 71, III)
+## 4. Registro de Atos de Admissão e Benefícios Previdenciários (Art. 71, III)
 
 - **Ato Administrativo Complexo:** A concessão inicial de aposentadoria, reforma e pensão, bem como a nomeação de servidor em concurso público, constitui ato complexo: só se aperfeiçoa definitivamente no mundo jurídico após o registro de legalidade concedido pelo Tribunal de Contas.
 - **Súmula Vinculante nº 3 do STF:**  
@@ -269,8 +262,6 @@ Sobre a relação entre os sistemas de controle interno e externo e a atuação 
 
 ---
 
-
-
 ### Teste 169
 **(FGV - Auditor de Controle Externo / TCE-SC)**
 O Tribunal de Contas, no exercício de sua competência para apreciar, para fins de registro, a legalidade dos atos de concessão inicial de aposentadoria de servidor público estadual (art. 71, III, c/c art. 75 da CF/88), recebeu o processo administrativo encaminhado pelo órgão de origem.
@@ -298,9 +289,7 @@ Considerando a tese fixada pelo Supremo Tribunal Federal no Tema nº 445 de Repe
 
 ---
 
-
-
-### 5. Sustação de Atos Ilegais versus Sustação de Contratos Administrativos
+## 5. Sustação de Atos Ilegais versus Sustação de Contratos Administrativos
 
 ```mermaid
 flowchart TD
@@ -343,8 +332,6 @@ Em matéria de fiscalização contábil, financeira e orçamentária da Administ
 
 ---
 
-
-
 ### Teste 171
 **(FCC - Procurador do Estado / Adaptada)**
 Durante auditoria em procedimento licitatório de grande vulto deflagrado por empresa pública estadual para a construção de uma usina termoelétrica, a equipe técnica do Tribunal de Contas constatou indícios veementes de direcionamento do certame e risco iminente de dano de difícil reparação ao erário.
@@ -372,9 +359,8 @@ Diante desse cenário e com fulcro no poder cautelar implícito reconhecido pelo
 
 ---
 
+## 6. Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)
 
-
-### 6. Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)
 - **Título Executivo Extrajudicial:** As decisões dos Tribunais de Contas que resultem em imputação de débito ou cominação de multa pecuniária ostentam eficácia de **título executivo extrajudicial**.
 - **Ajuizamento:** O crédito não é cobrado diretamente pelo Tribunal de Contas em juízo, pois o Tribunal não possui personalidade jurídica própria nem capacidade processual para executar créditos da Fazenda Pública. A cobrança é deflagrada pela **Procuradoria-Geral do Estado (PGE)** perante as Varas da Fazenda Pública, por meio de Ação de Execução Fiscal.
 - **Tema 899 do STF:** É **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, incidindo o prazo prescricional de **5 (cinco) anos**.
@@ -408,8 +394,6 @@ Com fundamento no Tema 899 da Repercussão Geral fixado pelo Supremo Tribunal Fe
 
 ---
 
-
-
 ### Teste 173
 **(FGV - Analista de Controle Externo / TCE-GO)**
 O art. 71, § 3º, da Constituição Federal estabelece que as decisões do Tribunal de Contas de que resulte imputação de débito ou multa terão eficácia de título executivo.
@@ -437,9 +421,8 @@ Sobre a prescrição da pretensão de ressarcimento ao erário fundada em decis�
 
 ---
 
+## 7. Jurisdição Ampla e Independência das Instâncias
 
-
-### 7. Jurisdição Ampla e Independência das Instâncias
 - **Jurisdição Subjetiva Ampla (Art. 70, parágrafo único):** Prestará contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos ou pelos quais o Estado responda, ou que, em nome deste, assuma obrigações de natureza pecuniária.
 - **Terceiro Setor:** Organizações Sociais (OS), OSCIPs e entidades conveniadas submetem-se plenamente à jurisdição do Tribunal de Contas quanto aos recursos públicos repassados.
 - **Independência das Instâncias:** O processo no Tribunal de Contas é autônomo. A decisão absolutória no Tribunal de Contas não vincula nem impede a propositura de Ação Civil Pública de Improbidade Administrativa ou ação penal, salvo caso haja no juízo criminal sentença definitiva reconhecendo a **inexistência material do fato** ou a **negativa de autoria**.
@@ -475,10 +458,6 @@ Considerando o texto da Constituição Federal de 1988 e a jurisprudência domin
 
 ---
 
-
-
-
-
 ### Teste 175
 **(FCC - Auditor Governamental / Controle Externo)**
 A respeito da independência das instâncias e da jurisdição ampla dos Tribunais de Contas, considere que determinado gestor público foi absolvido em ação penal instaurada perante a Justiça Estadual pela suposta prática de peculato, sob o fundamento de insuficiência de provas para a condenação (art. 386, VII, do CPP).
@@ -504,10 +483,7 @@ Nessa hipótese, a decisão penal absolutória por falta de provas:
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 

@@ -15,10 +15,7 @@
 - Dedução de novas informações das relações fornecidas.
 - Avaliação das condições usadas para estabelecer a estrutura daquelas relações.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -43,18 +40,17 @@
 4. [Problemas de Ordenação Circular e Mesas Redondas](#4-problemas-de-ordenacao-circular-e-mesas-redondas)
     1. [Ponto de Vista Referencial e Orientação Espacial](#41-ponto-de-vista-referencial-e-orientacao-espacial)
     2. [Posições Diametralmente Opostas em Mesas Pares](#42-posicoes-diametralmente-opostas-em-mesas-pares)
-    3. [Teste 098](#Teste-098)
-    4. [Vizinhos Imediatos e Adjacências Direita e Esquerda](#43-vizinhos-imediatos-e-adjacencias-direita-e-esquerda)
+    3. [Vizinhos Imediatos e Adjacências Direita e Esquerda](#43-vizinhos-imediatos-e-adjacencias-direita-e-esquerda)
+    4. [Teste 098](#Teste-098)
     5. [Teste 099](#Teste-099)
 5. [Dedução Lógica e Avaliação de Suficiência de Condições](#5-deducao-logica-e-avaliacao-de-suficiencia-de-condicoes)
     1. [Dedução Hipotética e Eliminação de Contradições](#51-deducao-hipotetica-e-eliminacao-de-contradicoes)
     2. [Condições Necessárias, Suficientes e Redundantes](#52-condicoes-necessarias-suficientes-e-redundantes)
     3. [Teste 100](#Teste-100)
     4. [Teste 101](#Teste-101)
-6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+6. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Fundamentos da Associação Lógica Biunívoca
 
@@ -126,6 +122,7 @@ A partir dessas premissas, conclui-se necessariamente que:
 > 
 > **Gabarito: D**
 
+---
 
 ### Teste 093
 **(FCC – TRT-23 – Analista Judiciário)**  
@@ -160,10 +157,7 @@ ightarrow$ Ônibus. Como André vai de bicicleta, André **não** está no Proto
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Metodologia das Matrizes Cruzadas de Associação
 
@@ -256,6 +250,7 @@ Com base nessas informações, é correto concluir que:
 > 
 > **Gabarito: A**
 
+---
 
 ### Teste 095
 **(FCC – TCE-GO – Analista de Controle Externo)**  
@@ -298,10 +293,7 @@ ightarrow$ Anápolis e Educação**, resta para Beatriz a cidade restante sem co
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 3. Problemas de Ordenação Linear e Posicionamento Relativo
 
@@ -382,6 +374,7 @@ Com base nessas condições, o auditor que obteve o 1º lugar foi:
 > 
 > **Gabarito: B**
 
+---
 
 ### Teste 097
 **(FCC – DPE-RS – Analista)**  
@@ -421,10 +414,7 @@ O servidor que trabalha no 1º andar desse edifício é:
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Problemas de Ordenação Circular e Mesas Redondas
 
@@ -447,6 +437,14 @@ $$\text{Distância de Oposição} = \frac{N}{2} \text{ posições}$$
     * O oposto da cadeira 1 é a cadeira $1 + 3 = 4$;
     * O oposto da cadeira 2 é a cadeira $2 + 3 = 5$;
     * O oposto da cadeira 3 é a cadeira $3 + 3 = 6$.
+
+### 4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda
+
+Cada ocupante possui exatamente dois vizinhos imediatos (adjacentes):
+
+* O vizinho imediatamente à sua direita;
+* O vizinho imediatamente à sua esquerda.
+Todos os demais ocupantes não são vizinhos imediatos.
 
 ---
 
@@ -490,16 +488,6 @@ Nessas condições, quem está sentado imediatamente à direita de Diana?
 
 ---
 
-
-### 4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda
-
-Cada ocupante possui exatamente dois vizinhos imediatos (adjacentes):
-
-* O vizinho imediatamente à sua direita;
-* O vizinho imediatamente à sua esquerda.
-Todos os demais ocupantes não são vizinhos imediatos.
-
-
 ### Teste 099
 **(FCC – METRÔ-SP – Analista)**  
 Seis membros de uma banca examinadora — A, B, C, D, E e F — sentam-se ao redor de uma mesa circular com seis cadeiras igualmente espaçadas. Sabe-se que:  
@@ -536,10 +524,7 @@ ightarrow$ posição 5.
 >
 > **Gabarito: D**
 
-
-
 ---
-
 
 ## 5. Dedução Lógica e Avaliação de Suficiência de Condições
 
@@ -601,6 +586,7 @@ Avalie se essas três condições, em conjunto, são suficientes para determinar
 >
 > **Gabarito: C**
 
+---
 
 ### Teste 101
 **(FCC – TRT-14 – Analista Judiciário)**  
@@ -636,10 +622,7 @@ Para responder à pergunta formulada:
 >
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

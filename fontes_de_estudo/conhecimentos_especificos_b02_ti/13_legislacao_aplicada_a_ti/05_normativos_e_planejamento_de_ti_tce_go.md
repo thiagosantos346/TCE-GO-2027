@@ -18,53 +18,44 @@
     - **Resolução Administrativa nº 14/2025:** Estrutura e competências privativas da Diretoria de Tecnologia da Informação (DTI) e gerências vinculadas
     - **Plano Diretor de Tecnologia da Informação (PDTI) 2025–2026:** Aprovado pela Ordem de Serviço nº 001/2025-CETI
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada & Governança Institucional do TCE-GO](#teoria-aprofundada-governanca-institucional-do-tce-go)
-2. [O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)](#1-o-comite-estrategico-de-tecnologia-da-informacao-ceti-resolucao-normativa-no-132016)
-    1. [Natureza e Segregação entre Governança e Gestão](#11-natureza-e-segregacao-entre-governanca-e-gestao)
-    2. [Teste 555](#Teste-555)
-    3. [Teste 556](#Teste-556)
-    4. [Composição e Competências Primordiais do CETI](#12-composicao-e-competencias-primordiais-do-ceti)
-    5. [Teste 557](#Teste-557)
-3. [Política de Governança Organizacional (Resolução Administrativa nº 14/2024)](#2-politica-de-governanca-organizacional-resolucao-administrativa-no-142024)
+1. [O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)](#1-o-comite-estrategico-de-tecnologia-da-informacao-ceti-resolucao-normativa-no-132016)
+1. [Natureza e Segregação entre Governança e Gestão](#1-1-natureza-e-segregacao-entre-governanca-e-gestao)
+    1. [Teste 555](#Teste-555)
+    2. [Teste 556](#Teste-556)
+1. [Composição e Competências Primordiais do CETI](#1-2-composicao-e-competencias-primordiais-do-ceti)
+    1. [Teste 557](#Teste-557)
+2. [Política de Governança Organizacional (Resolução Administrativa nº 14/2024)](#2-politica-de-governanca-organizacional-resolucao-administrativa-no-142024)
     1. [Teste 558](#Teste-558)
-4. [Política de Segurança da Informação - PSI (Resolução Administrativa nº 17/2024)](#3-politica-de-seguranca-da-informacao-psi-resolucao-administrativa-no-172024)
-    1. [Classificação Corporativa da Informação no TCE-GO](#31-classificacao-corporativa-da-informacao-no-tce-go)
-    2. [Teste 559](#Teste-559)
-    3. [Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes](#32-diretrizes-de-uso-seguro-teletrabalho-e-resposta-a-incidentes)
-    4. [Teste 560](#Teste-560)
-5. [Estrutura e Competências da Diretoria de TI (Resolução Administrativa nº 14/2025)](#4-estrutura-e-competencias-da-diretoria-de-ti-resolucao-administrativa-no-142025)
-    1. [Competências Executivas Privativas da DTI](#41-competencias-executivas-privativas-da-dti)
-    2. [Teste 561](#Teste-561)
-    3. [Divisão Funcional das Gerências Vinculadas](#42-divisao-funcional-das-gerencias-vinculadas)
-    4. [Teste 562](#Teste-562)
-6. [Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)](#5-plano-diretor-de-ti-pdti-20252026-ordem-de-servico-no-0012025-ceti)
-    1. [Diagnóstico Estratégico SWOT](#51-diagnostico-estrategico-swot)
-    2. [Teste 563](#Teste-563)
-    3. [Os Quatro Eixos Estratégicos do PDTI 2025–2026](#52-os-quatro-eixos-estrategicos-do-pdti-20252026)
-    4. [Teste 564](#Teste-564)
-7. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+3. [Política de Segurança da Informação - PSI (Resolução Administrativa nº 17/2024)](#3-politica-de-seguranca-da-informacao-psi-resolucao-administrativa-no-172024)
+3. [Classificação Corporativa da Informação no TCE-GO](#3-1-classificacao-corporativa-da-informacao-no-tce-go)
+    1. [Teste 559](#Teste-559)
+3. [Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes](#3-2-diretrizes-de-uso-seguro-teletrabalho-e-resposta-a-incidentes)
+    1. [Teste 560](#Teste-560)
+4. [Estrutura e Competências da Diretoria de TI (Resolução Administrativa nº 14/2025)](#4-estrutura-e-competencias-da-diretoria-de-ti-resolucao-administrativa-no-142025)
+4. [Competências Executivas Privativas da DTI](#4-1-competencias-executivas-privativas-da-dti)
+    1. [Teste 561](#Teste-561)
+4. [Divisão Funcional das Gerências Vinculadas](#4-2-divisao-funcional-das-gerencias-vinculadas)
+    1. [Teste 562](#Teste-562)
+5. [Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)](#5-plano-diretor-de-ti-pdti-20252026-ordem-de-servico-no-0012025-ceti)
+5. [Diagnóstico Estratégico SWOT](#5-1-diagnostico-estrategico-swot)
+    1. [Teste 563](#Teste-563)
+5. [Os Quatro Eixos Estratégicos do PDTI 2025–2026](#5-2-os-quatro-eixos-estrategicos-do-pdti-20252026)
+    1. [Teste 564](#Teste-564)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
-
-## 📖 Teoria Aprofundada & Governança Institucional do TCE-GO
-
-
----
-
 
 ## 1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)
 
 O **Comitê Estratégico de Tecnologia da Informação (CETI)** do Tribunal de Contas do Estado de Goiás (TCE-GO) é o órgão colegiado permanente que materializa a instância máxima de **Governança de TIC** no Tribunal, assegurando a necessária segregação entre as decisões estratégicas da alta administração e a gestão operacional da área técnica.
 
-### 1.1 Natureza e Segregação entre Governança e Gestão
+---
+
+## 1.1 Natureza e Segregação entre Governança e Gestão
 
 ```mermaid
 flowchart TD
@@ -145,9 +136,7 @@ flowchart TD
 
 ---
 
-
-
-### 1.2 Composição e Competências Primordiais do CETI
+## 1.2 Composição e Competências Primordiais do CETI
 
 #### Composição Colegiada
 O CETI é composto por membros natos e designados da alta cúpula decisória do Tribunal:
@@ -190,11 +179,7 @@ O CETI é composto por membros natos e designados da alta cúpula decisória do 
 > 
 > **Gabarito: B**
 
-
-
-
 ---
-
 
 ## 2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)
 
@@ -233,17 +218,15 @@ A Resolução Administrativa nº 14/2024 consolidou o modelo de Governança Púb
 > 
 > **Gabarito: C**
 
-
-
-
 ---
-
 
 ## 3. Política de Segurança da Informação - PSI (Resolução Administrativa nº 17/2024)
 
 A PSI do TCE-GO estabelece os padrões e comportamentos mandatórios para assegurar a **Confidencialidade, Integridade, Disponibilidade, Autenticidade e Não-Repúdio (CIDAN)** dos ativos de informação do Tribunal.
 
-### 3.1 Classificação Corporativa da Informação no TCE-GO
+---
+
+## 3.1 Classificação Corporativa da Informação no TCE-GO
 
 ```mermaid
 flowchart LR
@@ -290,9 +273,7 @@ flowchart LR
 
 ---
 
-
-
-### 3.2 Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes
+## 3.2 Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes
 
 1. **Credenciais e Autenticação:**
     - Senhas pessoais, intransferíveis e secretas com política de complexidade mínima (números, caracteres especiais, maiúsculas e minúsculas);
@@ -335,16 +316,15 @@ flowchart LR
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 4. Estrutura e Competências da Diretoria de TI (Resolução Administrativa nº 14/2025)
 
 A Resolução Administrativa nº 14/2025 modernizou a estrutura organizacional da **Diretoria de Tecnologia da Informação (DTI)** do TCE-GO:
 
-### 4.1 Competências Executivas Privativas da DTI
+---
+
+## 4.1 Competências Executivas Privativas da DTI
 
 - Planejar, gerenciar, executar e manter o ecossistema tecnológico do Tribunal;
 - Subsidiar tecnicamente o CETI na elaboração e revisão do PDTI e da PSI;
@@ -377,10 +357,9 @@ A Resolução Administrativa nº 14/2025 modernizou a estrutura organizacional d
 > 
 > **Gabarito: C**
 
-
 ---
 
-### 4.2 Divisão Funcional das Gerências Vinculadas
+## 4.2 Divisão Funcional das Gerências Vinculadas
 
 1. **Gerência de Sistemas de Informação:** Análise, desenvolvimento, sustentação e testes de software, empregando metodologias ágeis (Scrum/Kanban) e práticas de DevSecOps.
 2. **Gerência de Infraestrutura e Redes:** Operação dos data centers primário e secundário, enlaces de fibra óptica, roteadores, switches, virtualização de servidores (VMware/Hyper-V/Kubernetes) e serviços em nuvem híbrida.
@@ -413,11 +392,7 @@ A Resolução Administrativa nº 14/2025 modernizou a estrutura organizacional d
 > 
 > **Gabarito: B**
 
-
-
-
 ---
-
 
 ## 5. Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)
 
@@ -436,7 +411,9 @@ flowchart TD
     PCA --> EXEC["Execução Tática pela DTI e Fiscalização pelo CETI"]
 ```
 
-### 5.1 Diagnóstico Estratégico SWOT
+---
+
+## 5.1 Diagnóstico Estratégico SWOT
 
 - **Forças (Strengths):** Quadro técnico qualificado e especializado; governança institucional madura com o CETI atuante; sistemas de processo eletrônico consolidados.
 - **Fraquezas (Weaknesses):** Legados tecnológicos demandando refatoração para microsserviços; necessidade de ampliação contínua da capacidade de armazenamento para dados de auditoria contínua.
@@ -468,10 +445,9 @@ flowchart TD
 > 
 > **Gabarito: A**
 
-
 ---
 
-### 5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026
+## 5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026
 
 1. **Eixo Estratégico I - Infraestrutura Resiliente e Nuvem Híbrida:** Modernização do Data Center primário e consolidação do site de recuperação de desastres (*Disaster Recovery*) em nuvem; metas de disponibilidade global $\ge 99,5\%$ e tempo máximo de recuperação pós-falha (RTO) inferior a 2 horas.
 2. **Eixo Estratégico II - Inteligência Artificial e Automação no Controle Externo:** Expansão do **Ecossistema IAGO** para leitura e cruzamento automatizado de editais de licitação, folhas de pagamento dos municípios e dados fiscais da SEFAZ, empregando modelos de código aberto nos termos da LC nº 205/2025 e da RA nº 24/2024.
@@ -506,10 +482,7 @@ flowchart TD
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

@@ -17,18 +17,15 @@
 - Problemas envolvendo números inteiros e racionais.
 - Frações e operações com frações.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Conjuntos Numéricos Fundamentais e Propriedades Estruturais](#1-conjuntos-numericos-fundamentais-e-propriedades-estruturais)
     1. [Conjunto dos Números Naturais e Inteiros](#11-conjunto-dos-numeros-naturais-e-inteiros)
     2. [Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas](#12-conjunto-dos-numeros-racionais-decimais-finitos-e-dizimas-periodicas)
-    3. [Teste 072](#Teste-072)
-    4. [Algoritmo da Divisão Euclidiana e Aritmética dos Restos](#13-algoritmo-da-divisao-euclidiana-e-aritmetica-dos-restos)
+    3. [Algoritmo da Divisão Euclidiana e Aritmética dos Restos](#13-algoritmo-da-divisao-euclidiana-e-aritmetica-dos-restos)
+    4. [Teste 072](#Teste-072)
     5. [Teste 073](#Teste-073)
 2. [Operações Aritméticas e Expressões Numéricas](#2-operacoes-aritmeticas-e-expressoes-numericas)
     1. [Ordem de Precedência das Operações e Delimitadores](#21-ordem-de-precedencia-das-operacoes-e-delimitadores)
@@ -37,27 +34,26 @@
 3. [Teoria dos Números: Divisibilidade, Primos, MMC e MDC](#3-teoria-dos-numeros-divisibilidade-primos-mmc-e-mdc)
     1. [Critérios de Divisibilidade Aplicados](#31-criterios-de-divisibilidade-aplicados)
     2. [Decomposição em Fatores Primos e Contagem de Divisores Positivos](#32-decomposicao-em-fatores-primos-e-contagem-de-divisores-positivos)
-    3. [Teste 075](#Teste-075)
-    4. [Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade](#33-minimo-multiplo-comum-ciclos-coincidencias-e-periodicidade)
-    5. [Teste 076](#Teste-076)
-    6. [Máximo Divisor Comum: Partições Equitativas e Lotes Máximos](#34-maximo-divisor-comum-particoes-equitativas-e-lotes-maximos)
-    7. [Teste 077](#Teste-077)
-    8. [Relação Fundamental entre MMC e MDC](#35-relacao-fundamental-entre-mmc-e-mdc)
+    3. [Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade](#33-minimo-multiplo-comum-ciclos-coincidencias-e-periodicidade)
+    4. [Máximo Divisor Comum: Partições Equitativas e Lotes Máximos](#34-maximo-divisor-comum-particoes-equitativas-e-lotes-maximos)
+    5. [Relação Fundamental entre MMC e MDC](#35-relacao-fundamental-entre-mmc-e-mdc)
+    6. [Teste 075](#Teste-075)
+    7. [Teste 076](#Teste-076)
+    8. [Teste 077](#Teste-077)
 4. [Álgebra Fracionária e Operações com Frações](#4-algebra-fracionaria-e-operacoes-com-fracoes)
     1. [Conceito, Tipologias e Equivalência de Frações](#41-conceito-tipologias-e-equivalencia-de-fracoes)
     2. [Operações Aritméticas com Frações](#42-operacoes-aritmeticas-com-fracoes)
     3. [Teste 078](#Teste-078)
 5. [Modelagem e Resolução de Problemas no Padrão FCC](#5-modelagem-e-resolucao-de-problemas-no-padrao-fcc)
     1. [Problemas de Fração de Resto ou Cadeia Regressiva](#51-problemas-de-fracao-de-resto-ou-cadeia-regressiva)
-    2. [Teste 079](#Teste-079)
-    3. [Problemas de Trabalho Conjunto e Torneiras](#52-problemas-de-trabalho-conjunto-e-torneiras)
-    4. [Teste 080](#Teste-080)
-    5. [Problemas de Ciclos Periódicos e Padrões Sequenciais](#53-problemas-de-ciclos-periodicos-e-padroes-sequenciais)
+    2. [Problemas de Trabalho Conjunto e Torneiras](#52-problemas-de-trabalho-conjunto-e-torneiras)
+    3. [Problemas de Ciclos Periódicos e Padrões Sequenciais](#53-problemas-de-ciclos-periodicos-e-padroes-sequenciais)
+    4. [Teste 079](#Teste-079)
+    5. [Teste 080](#Teste-080)
     6. [Teste 081](#Teste-081)
-6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+6. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais
 
@@ -100,6 +96,17 @@ Todo número racional pode ser transcrito sob representação decimal, dividindo
      Exemplo para $0,1\overline{6}$:
      $$0,1\overline{6} = \frac{16 - 1}{90} = \frac{15}{90} = \frac{1}{6}$$
 
+### 1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos
+
+Para quaisquer dois números inteiros $D$ (dividendo) e $d$ (divisor não nulo), existem inteiros únicos $q$ (quociente) e $r$ (resto) tais que:
+$$D = d \cdot q + r, \quad \text{onde } 0 \le r < |d|$$
+
+Propriedades críticas da divisão inteira:
+
+* O resto $r$ é **estritamente não negativo** e **menor que o divisor** ($0 \le r \le d - 1$).
+* O **resto máximo possível** na divisão por um divisor $d$ é sempre igual a $d - 1$. Se um problema indagar o resto máximo obtido na divisão por $15$, esse valor é inequivocamente $15 - 1 = 14$.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Em problemas que envolvem ciclos e restos de divisão (dias da semana, rodízio de equipes, posições de algarismos), o divisor corresponde ao tamanho do ciclo. Se o resto for zero, significa que a divisão foi exata e que a posição procurada corresponde rigorosamente ao **último elemento** do ciclo periódico, e não ao primeiro!
 
 ---
 
@@ -132,20 +139,6 @@ Considere a expressão numérica $E = 0{,}333... + \frac{1}{6} - 0{,}25$. O valo
 > - **Conclusão:** O resultado é $\frac{1}{4}$ (Alternativa A).
 >
 > **Gabarito: A**
-
----
-
-### 1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos
-
-Para quaisquer dois números inteiros $D$ (dividendo) e $d$ (divisor não nulo), existem inteiros únicos $q$ (quociente) e $r$ (resto) tais que:
-$$D = d \cdot q + r, \quad \text{onde } 0 \le r < |d|$$
-
-Propriedades críticas da divisão inteira:
-
-* O resto $r$ é **estritamente não negativo** e **menor que o divisor** ($0 \le r \le d - 1$).
-* O **resto máximo possível** na divisão por um divisor $d$ é sempre igual a $d - 1$. Se um problema indagar o resto máximo obtido na divisão por $15$, esse valor é inequivocamente $15 - 1 = 14$.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Em problemas que envolvem ciclos e restos de divisão (dias da semana, rodízio de equipes, posições de algarismos), o divisor corresponde ao tamanho do ciclo. Se o resto for zero, significa que a divisão foi exata e que a posição procurada corresponde rigorosamente ao **último elemento** do ciclo periódico, e não ao primeiro!
 
 ---
 
@@ -192,10 +185,7 @@ O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão 
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Operações Aritméticas e Expressões Numéricas
 
@@ -226,6 +216,7 @@ A potenciação traduz o produto de fatores idênticos repetidos ($a^n = \underb
 * Expoente negativo: $a^{-n} = \frac{1}{a^n} = \left(\frac{1}{a}\right)^n \quad (a \neq 0)$
 * Expoente fracionário (Radiciação): $a^{\frac{m}{n}} = \sqrt[n]{a^m}$
 
+---
 
 ### Teste 074
 **(FCC – TCE-GO – Analista de Controle Externo)**  
@@ -251,10 +242,7 @@ O valor numérico da expressão aritmética $K = \frac{2^{20} + 2^{18}}{2^{19} -
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Teoria dos Números: Divisibilidade, Primos, MMC e MDC
 
@@ -285,6 +273,39 @@ $$Q(N) = (\alpha + 1)(\beta + 1)(\gamma + 1)\cdots(\omega + 1)$$
 *Exemplo:* Para encontrar quantos divisores possui o número 360:
 $$360 = 2^3 \cdot 3^2 \cdot 5^1 \implies Q(360) = (3 + 1)(2 + 1)(1 + 1) = 4 \times 3 \times 2 = 24 \text{ divisores}$$
 
+### 3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade
+
+O **Mínimo Múltiplo Comum (MMC)** entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
+
+* **Cálculo Prático:** Decompõem-se os números em fatores primos; o MMC é o produto de **todos os fatores primos comuns e não comuns, elevados aos seus maiores expoentes**.
+
+```mermaid
+flowchart LR
+    A["Identificação do Problema"] --> B{"Qual é a ideia do enunciado?"}
+    B -->|"Tempo / Encontro / Ciclos"| C["Calcular MMC<br/>Fatores comuns e não comuns<br/>Maiores expoentes"]
+    B -->|"Repartir / Cortar / Maior lote"| D["Calcular MDC<br/>Fatores comuns<br/>Menores expoentes"]
+```
+
+> 💡 **DICA DE IDENTIFICAÇÃO (MMC NA FCC):** O problema exige MMC sempre que veicular ideias de **coincidência temporal futura**, **reencontro de eventos periódicos**, **ciclos de rondas/inspeções** ou questões que indaguem: *"quando voltarão a se encontrar simultaneamente?"*.
+
+### 3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos
+
+O **Máximo Divisor Comum (MDC)** é o maior número inteiro capaz de dividir exatamente todos os números dados, sem deixar resto.
+
+* **Cálculo Prático:** É o produto **apenas dos fatores primos comuns a todos os números, elevados aos seus menores expoentes**.
+
+| Característica | Mínimo Múltiplo Comum (MMC) | Máximo Divisor Comum (MDC) |
+|---|---|---|
+| **Ideia central** | Coincidência, repetição, sincronia periódica | Divisão, partição equitativa, corte em partes iguais |
+| **Palavras-chave** | "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" | "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas" |
+| **Fatoração em primos** | Fatores comuns e não comuns com os **maiores expoentes** | Apenas fatores **comuns** com os **menores expoentes** |
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA CLÁSSICA DO MDC:** Em problemas de particionamento (como arquivar pastas em caixas de maior tamanho possível), o cálculo do MDC fornece a **capacidade de cada caixa**, e **não a quantidade total de caixas**! Para achar a quantidade de caixas, deve-se somar a divisão de cada lote pelo valor do MDC encontrado.
+
+### 3.5 Relação Fundamental entre MMC e MDC
+
+Para quaisquer dois números inteiros positivos $a$ e $b$, o produto entre o seu MMC e o seu MDC é rigorosamente igual ao produto entre os próprios números:
+$$\text{MMC}(a, b) \times \text{MDC}(a, b) = a \times b$$
 
 ---
 
@@ -317,23 +338,6 @@ O número de divisores naturais positivos do número inteiro $N = 360$ é igual 
 > - **Conclusão:** O número 360 possui exatamente 24 divisores naturais positivos (Alternativa B).
 >
 > **Gabarito: B**
-
----
-
-### 3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade
-
-O **Mínimo Múltiplo Comum (MMC)** entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
-
-* **Cálculo Prático:** Decompõem-se os números em fatores primos; o MMC é o produto de **todos os fatores primos comuns e não comuns, elevados aos seus maiores expoentes**.
-
-```mermaid
-flowchart LR
-    A["Identificação do Problema"] --> B{"Qual é a ideia do enunciado?"}
-    B -->|"Tempo / Encontro / Ciclos"| C["Calcular MMC<br/>Fatores comuns e não comuns<br/>Maiores expoentes"]
-    B -->|"Repartir / Cortar / Maior lote"| D["Calcular MDC<br/>Fatores comuns<br/>Menores expoentes"]
-```
-
-> 💡 **DICA DE IDENTIFICAÇÃO (MMC NA FCC):** O problema exige MMC sempre que veicular ideias de **coincidência temporal futura**, **reencontro de eventos periódicos**, **ciclos de rondas/inspeções** ou questões que indaguem: *"quando voltarão a se encontrar simultaneamente?"*.
 
 ---
 
@@ -372,23 +376,6 @@ O número de dias que decorrerão até que as três equipes voltem a iniciar sua
 > - **E)** Incorreta. 360 é um múltiplo comum posterior, mas a questão indaga expressamente quando voltarão a coincidir (primeiro reencontro após 1º de março).
 > 
 > **Gabarito: C**
-
----
-
-
-### 3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos
-
-O **Máximo Divisor Comum (MDC)** é o maior número inteiro capaz de dividir exatamente todos os números dados, sem deixar resto.
-
-* **Cálculo Prático:** É o produto **apenas dos fatores primos comuns a todos os números, elevados aos seus menores expoentes**.
-
-| Característica | Mínimo Múltiplo Comum (MMC) | Máximo Divisor Comum (MDC) |
-|---|---|---|
-| **Ideia central** | Coincidência, repetição, sincronia periódica | Divisão, partição equitativa, corte em partes iguais |
-| **Palavras-chave** | "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" | "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas" |
-| **Fatoração em primos** | Fatores comuns e não comuns com os **maiores expoentes** | Apenas fatores **comuns** com os **menores expoentes** |
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA CLÁSSICA DO MDC:** Em problemas de particionamento (como arquivar pastas em caixas de maior tamanho possível), o cálculo do MDC fornece a **capacidade de cada caixa**, e **não a quantidade total de caixas**! Para achar a quantidade de caixas, deve-se somar a divisão de cada lote pelo valor do MDC encontrado.
 
 ---
 
@@ -434,17 +421,6 @@ Nessas condições, o **número total de caixas organizadoras** necessárias par
 
 ---
 
-
-### 3.5 Relação Fundamental entre MMC e MDC
-
-Para quaisquer dois números inteiros positivos $a$ e $b$, o produto entre o seu MMC e o seu MDC é rigorosamente igual ao produto entre os próprios números:
-$$\text{MMC}(a, b) \times \text{MDC}(a, b) = a \times b$$
-
-
-
----
-
-
 ## 4. Álgebra Fracionária e Operações com Frações
 
 Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $b$ assinala em quantas partes iguais a unidade inteira foi particionada, e o numerador $a$ indica quantas dessas partes foram tomadas.
@@ -468,6 +444,7 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
 3. **Divisão:** Conserva-se a primeira fração e multiplica-se pela fração inversa da segunda:
    $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{a \cdot d}{b \cdot c} \quad (c, d \neq 0)$$
 
+---
 
 ### Teste 078
 **(FCC – TRT-14 – Analista Judiciário)**  
@@ -498,10 +475,7 @@ Um servidor do tribunal recebeu determinado lote de processos para instruir. No 
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Modelagem e Resolução de Problemas no Padrão FCC
 
@@ -515,6 +489,24 @@ Problemas clássicos da FCC narram um agente que consome uma fração de um mont
 * A parcela que resta ao final é o complementar de $\frac{3}{5}$ sobre o restante prévio:
   $$\text{Resto Final} = \left(1 - \frac{3}{5}\right) \times \frac{2}{3}T = \frac{2}{5} \times \frac{2}{3}T = \frac{4}{15}T$$
 * Igualando essa fração ao valor numérico remanescente dado no enunciado, descobre-se o total $T$ por equação direta.
+
+### 5.2 Problemas de Trabalho Conjunto e Torneiras
+
+Quando dois agentes executam uma mesma tarefa de forma cooperativa em ritmos constantes, somam-se as suas taxas unitárias horárias de produtividade:
+$$\text{Taxa Conjunta} = \frac{1}{T_{\text{junto}}} = \frac{1}{t_1} + \frac{1}{t_2} + \dots - \frac{1}{t_{\text{ralo}}}$$
+Para o caso específico de dois agentes que levam tempos individuais $t_1$ e $t_2$:
+$$T = \frac{t_1 \cdot t_2}{t_1 + t_2}$$
+
+*Atenção à Conversão de Tempo:* Se o resultado da divisão em horas for decimal, como $2,4\text{ horas}$, a parte inteira corresponde a $2\text{ horas}$ e a parte decimal $0,4$ deve ser multiplicada por $60\text{ minutos}$ ($0,4 \times 60 = 24\text{ minutos}$). Logo, $2,4\text{ h} = 2\text{ horas e } 24\text{ minutos}$ (e nunca 2h40min!).
+
+### 5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais
+
+Em problemas que constroem sequências infinitas repetindo ciclicamente um conjunto finito de $k$ elementos ($x_1, x_2, \dots, x_k$):
+
+1. Toma-se o número da posição requerida $P$;
+2. Divide-se $P$ pelo tamanho do ciclo $k$, obtendo o quociente $q$ e o resto $r$ ($P = k \cdot q + r$);
+3. **Se o resto $r > 0$:** O termo procurado é exatamente o $r$-ésimo elemento do ciclo padrão;
+4. **Se o resto $r = 0$:** O termo procurado é o último elemento do ciclo (o $k$-ésimo elemento).
 
 ---
 
@@ -553,18 +545,6 @@ O número total de processos contidos originalmente nessa amostra era:
 > - **E)** Incorreta. Com $T = 240$, o resto final seria $\frac{4}{15} \times 240 = 64$ processos, divergindo dos 48 informados.
 > 
 > **Gabarito: C**
-
----
-
-
-### 5.2 Problemas de Trabalho Conjunto e Torneiras
-
-Quando dois agentes executam uma mesma tarefa de forma cooperativa em ritmos constantes, somam-se as suas taxas unitárias horárias de produtividade:
-$$\text{Taxa Conjunta} = \frac{1}{T_{\text{junto}}} = \frac{1}{t_1} + \frac{1}{t_2} + \dots - \frac{1}{t_{\text{ralo}}}$$
-Para o caso específico de dois agentes que levam tempos individuais $t_1$ e $t_2$:
-$$T = \frac{t_1 \cdot t_2}{t_1 + t_2}$$
-
-*Atenção à Conversão de Tempo:* Se o resultado da divisão em horas for decimal, como $2,4\text{ horas}$, a parte inteira corresponde a $2\text{ horas}$ e a parte decimal $0,4$ deve ser multiplicada por $60\text{ minutos}$ ($0,4 \times 60 = 24\text{ minutos}$). Logo, $2,4\text{ h} = 2\text{ horas e } 24\text{ minutos}$ (e nunca 2h40min!).
 
 ---
 
@@ -609,17 +589,6 @@ Se Bruno e Camila trabalharem juntos, no mesmo ritmo de produtividade constante,
 
 ---
 
-
-### 5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais
-
-Em problemas que constroem sequências infinitas repetindo ciclicamente um conjunto finito de $k$ elementos ($x_1, x_2, \dots, x_k$):
-
-1. Toma-se o número da posição requerida $P$;
-2. Divide-se $P$ pelo tamanho do ciclo $k$, obtendo o quociente $q$ e o resto $r$ ($P = k \cdot q + r$);
-3. **Se o resto $r > 0$:** O termo procurado é exatamente o $r$-ésimo elemento do ciclo padrão;
-4. **Se o resto $r = 0$:** O termo procurado é o último elemento do ciclo (o $k$-ésimo elemento).
-
-
 ### Teste 081
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Considere a sequência infinita de letras:  
@@ -651,10 +620,7 @@ formada pela repetição contínua do bloco de palavras *"TCEGOIAS"*. A letra qu
 >
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

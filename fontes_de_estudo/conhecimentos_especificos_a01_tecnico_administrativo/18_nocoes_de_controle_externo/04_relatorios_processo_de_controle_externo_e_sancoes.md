@@ -36,42 +36,39 @@
     - Reflexos eleitorais do julgamento de contas (inelegibilidade de 8 anos da Lei da Ficha Limpa - LC nº 64/90);
 - Prescrição no âmbito do controle externo: prescrição quinquenal (5 anos) da pretensão punitiva e ressarcitória (Tema 899 do STF e Lei nº 9.873/1999) e prescrição intercorrente trienal (3 anos).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Comunicação dos Resultados e Deliberações do Tribunal](#1-comunicacao-dos-resultados-e-deliberacoes-do-tribunal)
-    2. [Teste 198](#Teste-198)
-    3. [Tomada de Contas Especial (TCE): Rito e Pressupostos](#2-tomada-de-contas-especial-tce-rito-e-pressupostos)
-    4. [Teste 199](#Teste-199)
-    5. [Teste 200](#Teste-200)
-    6. [Comunicações Processuais: Citação versus Audiência](#3-comunicacoes-processuais-citacao-versus-audiencia)
-    7. [Teste 201](#Teste-201)
-    8. [Teste 202](#Teste-202)
-    9. [Julgamento das Contas de Gestão dos Administradores Públicos](#4-julgamento-das-contas-de-gestao-dos-administradores-publicos)
-    10. [Teste 203](#Teste-203)
-    11. [Teste 204](#Teste-204)
-    12. [Sistema Recursal no Processo de Controle Externo](#5-sistema-recursal-no-processo-de-controle-externo)
-    13. [Teste 205](#Teste-205)
-    14. [Teste 206](#Teste-206)
-    15. [Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)](#6-regime-sancionatorio-e-reflexos-eleitorais-lei-da-ficha-limpa)
-    16. [Teste 207](#Teste-207)
-    17. [Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)](#7-prescricao-nos-tribunais-de-contas-o-marco-do-stf-tema-899)
-    18. [Teste 208](#Teste-208)
-2. [Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+1. [Comunicação dos Resultados e Deliberações do Tribunal](#1-comunicacao-dos-resultados-e-deliberacoes-do-tribunal)
+    1. [Atributos do Relatório de Auditoria](#11-atributos-do-relatorio-de-auditoria)
+    2. [Espécies de Deliberações: Determinações versus Recomendações](#12-especies-de-deliberacoes-determinacoes-versus-recomendacoes)
+    3. [Teste 198](#Teste-198)
+2. [Tomada de Contas Especial (TCE): Rito e Pressupostos](#2-tomada-de-contas-especial-tce-rito-e-pressupostos)
+    1. [Natureza Jurídica e Pressupostos de Instauração Obrigatória](#21-natureza-juridica-e-pressupostos-de-instauracao-obrigatoria)
+    2. [Fase Interna versus Fase Externa da TCE](#22-fase-interna-versus-fase-externa-da-tce)
+    3. [Teste 199](#Teste-199)
+    4. [Teste 200](#Teste-200)
+3. [Comunicações Processuais: Citação versus Audiência](#3-comunicacoes-processuais-citacao-versus-audiencia)
+    1. [Teste 201](#Teste-201)
+    2. [Teste 202](#Teste-202)
+4. [Julgamento das Contas de Gestão dos Administradores Públicos](#4-julgamento-das-contas-de-gestao-dos-administradores-publicos)
+    1. [Teste 203](#Teste-203)
+    2. [Teste 204](#Teste-204)
+5. [Sistema Recursal no Processo de Controle Externo](#5-sistema-recursal-no-processo-de-controle-externo)
+    1. [Teste 205](#Teste-205)
+    2. [Teste 206](#Teste-206)
+6. [Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)](#6-regime-sancionatorio-e-reflexos-eleitorais-lei-da-ficha-limpa)
+    1. [Teste 207](#Teste-207)
+7. [Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)](#7-prescricao-nos-tribunais-de-contas-o-marco-do-stf-tema-899)
+    1. [Teste 208](#Teste-208)
+8. [🌐 Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
 
 ---
 
+## 1. Comunicação dos Resultados e Deliberações do Tribunal
 
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Comunicação dos Resultados e Deliberações do Tribunal
-
-#### 1.1 Atributos do Relatório de Auditoria
+### 1.1 Atributos do Relatório de Auditoria
 A comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100:
 
 - **Clareza:** Linguagem acessível, técnica e compreensível para os leitores e cidadãos;
@@ -81,15 +78,13 @@ A comunicação dos resultados dos trabalhos de auditoria e fiscalização deve 
 - **Completude:** Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito;
 - **Tempestividade:** Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
 
-#### 1.2 Espécies de Deliberações: Determinações versus Recomendações
+### 1.2 Espécies de Deliberações: Determinações versus Recomendações
 As deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais:
 
 - **Determinações:** Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
 - **Recomendações:** Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa. Não possuem caráter sancionatório direto imediato.
 
 ---
-
-
 
 ### Teste 198
 **(FCC - Analista de Controle Externo / TCE-GO)**
@@ -116,7 +111,7 @@ A respeito da comunicação dos resultados das fiscalizações e dos instrumento
 
 ---
 
-### 2. Tomada de Contas Especial (TCE): Rito e Pressupostos
+## 2. Tomada de Contas Especial (TCE): Rito e Pressupostos
 
 A **Tomada de Contas Especial (TCE)** é um processo administrativo de caráter **excepcional**, instaurado com rito próprio para apurar fatos lesivos, identificar responsáveis, quantificar o prejuízo e obter a recomposição do erário.
 
@@ -136,7 +131,7 @@ flowchart TD
     FaseExt --> Citacao["Citação dos Responsáveis, Instrução, Parecer do MPC e Julgamento"]
 ```
 
-#### 2.1 Natureza Jurídica e Pressupostos de Instauração Obrigatória
+### 2.1 Natureza Jurídica e Pressupostos de Instauração Obrigatória
 Para a instauração e prosseguimento regular de uma TCE, exige-se o preenchimento cumulativo de quatro pressupostos:
 
 1. **Ocorrência do Dano ou Omissão:** Caracterização de desfalque, desvio, ato de gestão ilegal/ilegítimo ou omissão no dever de prestar contas;
@@ -144,13 +139,11 @@ Para a instauração e prosseguimento regular de uma TCE, exige-se o preenchimen
 3. **Limite de Alçada:** O valor histórico atualizado do dano deve ser **igual ou superior ao limite mínimo de alçada** fixado anualmente pelo Tribunal de Contas (evita que o custo operacional do controle supere o montante a recuperar);
 4. **Tempestividade (Regra dos 10 anos):** Não deve ter decorrido prazo superior a **dez (10) anos** entre a data originária do fato e a primeira notificação válida do responsável pela administração. Se decorridos mais de 10 anos sem notificação, a TCE é arquivada por comprometimento insanável da ampla defesa e do contraditório.
 
-#### 2.2 Fase Interna versus Fase Externa da TCE
+### 2.2 Fase Interna versus Fase Externa da TCE
 - **Fase Interna (no órgão público de origem):** Conduzida por comissão tomadora de contas no órgão lesado; localiza documentos, notifica o gestor para recolhimento amigável, elabora o Relatório do Tomador de Contas, recebe o Certificado de Auditoria do Controle Interno e o pronunciamento do Secretário de Estado supervisor da pasta.
 - **Fase Externa (no Tribunal de Contas):** Tem início com o ingresso formal do processo no Tribunal de Contas; são autuados os autos, realizada a instrução pela unidade técnica de fiscalização, aberta a citação do responsável para recolher o valor ou contestar, emitido parecer conclusivo do Ministério Público de Contas e realizado o julgamento definitivo pelo Plenário ou Câmara.
 
 ---
-
-
 
 ### Teste 199
 **(FGV - Auditor de Controle Externo / TCE-SC)**
@@ -204,9 +197,7 @@ A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional e
 
 ---
 
-
-
-### 3. Comunicações Processuais: Citação versus Audiência
+## 3. Comunicações Processuais: Citação versus Audiência
 
 Nos processos em trâmite nos Tribunais de Contas, a intimação para defesa adota duas formas distintas conforme o conteúdo da imputação:
 
@@ -249,8 +240,6 @@ Para oportunizar a manifestação formal do gestor que subscreveu o edital impug
 
 ---
 
-
-
 ### Teste 202
 **(FCC - Procurador do Estado / Adaptada)**
 Determinada autoridade administrativa, regularmente citada por edital em processo de tomada de contas especial perante o Tribunal de Contas em virtude de superfaturamento em pagamentos de obras, permaneceu inerte e não apresentou alegações de defesa nem recolheu o valor do débito no prazo fixado.
@@ -278,9 +267,7 @@ Diante do não comparecimento do responsável ao processo de controle externo, a
 
 ---
 
-
-
-### 4. Julgamento das Contas de Gestão dos Administradores Públicos
+## 4. Julgamento das Contas de Gestão dos Administradores Públicos
 
 O Tribunal de Contas, ao julgar em caráter definitivo as contas dos ordenadores de despesas e gestores públicos (Art. 71, II da CF/88), manifestará um dos quatro julgamentos:
 
@@ -323,8 +310,6 @@ Diante de tal quadro, à luz da legislação de regência e da jurisprudência c
 
 ---
 
-
-
 ### Teste 204
 **(FGV - Analista de Controle Externo / TCE-GO)**
 No julgamento das contas dos administradores públicos realizado pelo Tribunal de Contas, as contas podem ser julgadas regulares, regulares com ressalva ou irregulares (art. 71, II, CF/88 c/c LOTCE).
@@ -352,9 +337,7 @@ A respeito das consequências jurídicas do julgamento das contas, assinale a af
 
 ---
 
-
-
-### 5. Sistema Recursal no Processo de Controle Externo
+## 5. Sistema Recursal no Processo de Controle Externo
 
 A legislação orgânica dos Tribunais de Contas (Lei nº 16.168/2007 do TCE-GO e Lei 8.443/92) prevê os seguintes recursos:
 
@@ -402,8 +385,6 @@ Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgou irreg
 
 ---
 
-
-
 ### Teste 206
 **(FCC - Técnico de Controle Externo / TCE-GO)**
 Sobre o sistema recursal no processo de controle externo perante o Tribunal de Contas, assinale a afirmativa correta.
@@ -429,9 +410,7 @@ Sobre o sistema recursal no processo de controle externo perante o Tribunal de C
 
 ---
 
-
-
-### 6. Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)
+## 6. Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)
 
 As sanções administrativas dos Tribunais de Contas incluem:
 
@@ -469,9 +448,7 @@ Acerca dos reflexos eleitorais decorrentes das decisões terminativas proferidas
 
 ---
 
-
-
-### 7. Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)
+## 7. Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)
 
 A disciplina da prescrição nas ações perante os Tribunais de Contas é orientada pelas seguintes diretrizes:
 
@@ -484,8 +461,6 @@ A disciplina da prescrição nas ações perante os Tribunais de Contas é orien
     - A decisão condenatória recorrível proferida pelo órgão colegiado.
 
 ---
-
-
 
 ### Teste 208
 **(FGV - Auditor de Controle Externo / TCE-GO)**
@@ -512,10 +487,7 @@ Sobre a atuação do Tribunal de Contas na aplicação da Lei da Ficha Limpa e o
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 

@@ -13,53 +13,49 @@
 - Desenvolvimento web: HTML5, CSS3 e TypeScript
 - Desenvolvimento front-end com biblioteca React
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Fundamentos de HTML5 Semântico e Acessibilidade](#1-fundamentos-de-html5-semantico-e-acessibilidade)
     1. [Estrutura Básica do Documento e Metatags Essenciais](#11-estrutura-basica-do-documento-e-metatags-essenciais)
     2. [Elementos Semânticos e Seccionamento de Conteúdo](#12-elementos-semanticos-e-seccionamento-de-conteudo)
-    3. [Teste 076](#Teste-076)
-    4. [Formulários Modernos e Validação Nativa](#13-formularios-modernos-e-validacao-nativa)
-    5. [Mídia, Gráficos e Acessibilidade Digital (WCAG e WAI-ARIA)](#14-midia-graficos-e-acessibilidade-digital-wcag-e-wai-aria)
+    3. [Formulários Modernos e Validação Nativa](#13-formularios-modernos-e-validacao-nativa)
+    4. [Mídia, Gráficos e Acessibilidade Digital (WCAG e WAI-ARIA)](#14-midia-graficos-e-acessibilidade-digital-wcag-e-wai-aria)
+    5. [Teste 076](#Teste-076)
     6. [Teste 077](#Teste-077)
 2. [Estilização com CSS3](#2-estilizacao-com-css3)
     1. [Cascata, Seletores e Cálculo de Especificidade CSS](#21-cascata-seletores-e-calculo-de-especificidade-css)
-    2. [Teste 078](#Teste-078)
-    3. [Modelo de Caixa (Box Model) e a Propriedade `box-sizing`](#22-modelo-de-caixa-box-model-e-a-propriedade-box-sizing)
-    4. [Teste 079](#Teste-079)
-    5. [Layouts Flexíveis com Flexbox (Unidimensional)](#23-layouts-flexiveis-com-flexbox-unidimensional)
-    6. [Teste 080](#Teste-080)
-    7. [Grid Bidimensional (CSS Grid Layout)](#24-grid-bidimensional-css-grid-layout)
-    8. [Design Responsivo, Mobile-First e Unidades de Medida](#25-design-responsivo-mobile-first-e-unidades-de-medida)
-    9. [Transições, Transformações e Animações CSS](#26-transicoes-transformacoes-e-animacoes-css)
+    2. [Modelo de Caixa (Box Model) e a Propriedade `box-sizing`](#22-modelo-de-caixa-box-model-e-a-propriedade-box-sizing)
+    3. [Layouts Flexíveis com Flexbox (Unidimensional)](#23-layouts-flexiveis-com-flexbox-unidimensional)
+    4. [Grid Bidimensional (CSS Grid Layout)](#24-grid-bidimensional-css-grid-layout)
+    5. [Design Responsivo, Mobile-First e Unidades de Medida](#25-design-responsivo-mobile-first-e-unidades-de-medida)
+    6. [Transições, Transformações e Animações CSS](#26-transicoes-transformacoes-e-animacoes-css)
+    7. [Teste 078](#Teste-078)
+    8. [Teste 079](#Teste-079)
+    9. [Teste 080](#Teste-080)
 3. [TypeScript: Tipagem Estática no Front-end](#3-typescript-tipagem-estatica-no-front-end)
     1. [Arquitetura, Transpilação e o Arquivo `tsconfig.json`](#31-arquitetura-transpilacao-e-o-arquivo-tsconfigjson)
     2. [Sistema de Tipos: Primitivos e Tipos Especiais (`any`, `unknown`, `never`, `void`)](#32-sistema-de-tipos-primitivos-e-tipos-especiais-any-unknown-never-void)
-    3. [Teste 081](#Teste-081)
-    4. [Union, Intersection Types e Type Narrowing](#33-union-intersection-types-e-type-narrowing)
-    5. [Interfaces vs. Type Aliases e Declaration Merging](#34-interfaces-vs-type-aliases-e-declaration-merging)
-    6. [Teste 082](#Teste-082)
-    7. [Generics e Utility Types Fundamentais](#35-generics-e-utility-types-fundamentais)
+    3. [Union, Intersection Types e Type Narrowing](#33-union-intersection-types-e-type-narrowing)
+    4. [Interfaces vs. Type Aliases e Declaration Merging](#34-interfaces-vs-type-aliases-e-declaration-merging)
+    5. [Generics e Utility Types Fundamentais](#35-generics-e-utility-types-fundamentais)
+    6. [Teste 081](#Teste-081)
+    7. [Teste 082](#Teste-082)
     8. [Teste 083](#Teste-083)
 4. [Desenvolvimento Front-end com a Biblioteca React](#4-desenvolvimento-front-end-com-a-biblioteca-react)
     1. [Paradigma Declarativo, Componentização e Sintaxe JSX](#41-paradigma-declarativo-componentizacao-e-sintaxe-jsx)
     2. [Virtual DOM e o Algoritmo de Reconciliação (Fiber)](#42-virtual-dom-e-o-algoritmo-de-reconciliacao-fiber)
     3. [Propriedades (Props), Fluxo Unidirecional e Renderização de Listas com `key`](#43-propriedades-props-fluxo-unidirecional-e-renderizacao-de-listas-com-key)
-    4. [Teste 084](#Teste-084)
-    5. [Gerenciamento de Estado e Ciclo de Vida com Hooks (`useState`, `useEffect`)](#44-gerenciamento-de-estado-e-ciclo-de-vida-com-hooks-usestate-useeffect)
-    6. [Teste 085](#Teste-085)
-    7. [Gerenciamento Global com `useContext` e Hooks de Performance (`useMemo`, `useCallback`, `useRef`)](#45-gerenciamento-global-com-usecontext-e-hooks-de-performance-usememo-usecallback-useref)
-    8. [Teste 086](#Teste-086)
-    9. [Formulários: Componentes Controlados vs. Não Controlados](#46-formularios-componentes-controlados-vs-nao-controlados)
+    4. [Gerenciamento de Estado e Ciclo de Vida com Hooks (`useState`, `useEffect`)](#44-gerenciamento-de-estado-e-ciclo-de-vida-com-hooks-usestate-useeffect)
+    5. [Gerenciamento Global com `useContext` e Hooks de Performance (`useMemo`, `useCallback`, `useRef`)](#45-gerenciamento-global-com-usecontext-e-hooks-de-performance-usememo-usecallback-useref)
+    6. [Formulários: Componentes Controlados vs. Não Controlados](#46-formularios-componentes-controlados-vs-nao-controlados)
+    7. [Teste 084](#Teste-084)
+    8. [Teste 085](#Teste-085)
+    9. [Teste 086](#Teste-086)
 5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Fundamentos de HTML5 Semântico e Acessibilidade
 
@@ -83,8 +79,6 @@ O HTML5 padronizou a especificação dos documentos web com o objetivo de simpli
 - **`<!DOCTYPE html>`:** Declaração de tipo de documento simplificada. Informa aos navegadores que a página deve ser interpretada no modo padrão estrito (*standards mode*), prevenindo a ativação do modo de compatibilidade retrógrada (*quirks mode*).
 - **`<meta charset="UTF-8">`:** Define o conjunto de caracteres universal Unicode UTF-8, garantindo a exibição precisa de caracteres acentuados, cedilhas e símbolos especiais sem problemas de corrupção (*mojibake*).
 - **`<meta name="viewport" content="width=device-width, initial-scale=1.0">`:** Diretiva obrigatória para layouts responsivos em dispositivos móveis. Instruciona o navegador do smartphone a ajustar a largura da janela de exibição (*viewport*) à largura real da tela física do dispositivo (`width=device-width`), estabelecendo a escala inicial de zoom em 100% (`initial-scale=1.0`).
-
----
 
 ### 1.2 Elementos Semânticos e Seccionamento de Conteúdo
 Antes do HTML5, páginas web eram estruturadas genericamente com divisões neutras (`<div class="header">`, `<div class="footer">`), o que dificultava a indexação por motores de busca e impedia tecnologias assistivas de entender a hierarquia do conteúdo. O HTML5 introduziu tags estruturais com significado inerente:
@@ -117,35 +111,6 @@ flowchart TD
 7. **`<footer>`:** Rodapé de uma seção ou do documento inteiro. Costuma conter informações sobre o autor, termos de uso, licenças e links institucionais.
 8. **`<figure>` e `<figcaption>`:** Encapsulam conteúdos ilustrativos (gráficos, fotos, listagens de código) acompanhados de uma legenda textual associada (`<figcaption>`).
 
----
-
-### Teste 076
-**(FCC - Auditor Fiscal / Tecnologia da Informação)**
-No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes de acessibilidade na Web (W3C / WCAG), assinale a afirmativa tecnicamente correta:  
-
-* **A)** O elemento `<article>` deve ser utilizado exclusivamente para criar tabelas de dados financeiros de auditoria, sendo vedado para artigos de texto.
-* **B)** O uso do atributo `tabindex="5"` é a prática recomendada para botões de submissão, pois garante que eles sempre recebam o foco antes de qualquer campo do formulário.
-* **C)** O elemento `<main>` deve encapsular o conteúdo central e específico do documento, não devendo ser duplicado em um mesmo documento exibido, e conteúdos que se repetem entre páginas (como cabeçalhos de topo e rodapés gerais) devem ficar fora dele.
-* **D)** As tags de agrupamento genérico `<div>` e `<span>` possuem semântica rica superior às tags `<section>` e `<nav>`, sendo preferíveis pelos leitores de tela.
-* **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O elemento `<article>` representa conteúdo editorial autônomo, autocontido e reutilizável (artigos, postagens, acórdãos, notícias), não se limitando a tabelas financeiras.
-> - **B)** Incorreta. O uso de valores positivos no atributo `tabindex` é considerado um antipadrão pelo W3C, pois desorganiza a navegação sequencial lógica pelo teclado.
-> - **C)** **CORRETA.** Pela especificação oficial W3C/WHATWG, `<main>` encapsula o conteúdo predominante e exclusivo da página. Deve haver no máximo um elemento `<main>` visível no documento e blocos estruturais repetitivos entre várias páginas (cabeçalhos globais, rodapés institucionais) devem permanecer fora dele.
-> - **D)** Incorreta. `<div>` e `<span>` são tags neutras destituídas de semântica; tags semânticas como `<section>` e `<nav>` estabelecem marcos acessíveis essenciais para leitores de tela.
-> - **E)** Incorreta. `aria-hidden="true"` produz o efeito exatamente inverso: esconde o elemento de tecnologias assistivas e leitores de tela, mantendo sua visibilidade na tela para usuários videntes.
-> 
-> **Gabarito: C**
-
----
-
-
-
 ### 1.3 Formulários Modernos e Validação Nativa
 O HTML5 modernizou a coleta de dados com novos tipos semânticos de `<input>` e atributos de validação integrados no próprio navegador, dispensando scripts JavaScript complexos para validações básicas:
 
@@ -160,8 +125,6 @@ O HTML5 modernizou a coleta de dados com novos tipos semânticos de `<input>` e 
     - `pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"`: Valida o campo contra uma expressão regular (Regex) em tempo de cliente (ex.: máscara de CPF).
     - `placeholder`: Fornece uma dica curta do formato esperado (não substitui o elemento `<label>`).
     - `disabled` vs. `readonly`: Um campo `disabled` é desativado visualmente e **não é enviado** na submissão do formulário (`POST/GET`). Já um campo `readonly` impede a edição pelo usuário, mas **é devidamente transmitido** na submissão.
-
----
 
 ### 1.4 Mídia, Gráficos e Acessibilidade Digital (WCAG e WAI-ARIA)
 
@@ -203,6 +166,30 @@ As diretrizes WCAG (*Web Content Accessibility Guidelines*) da W3C são organiza
 
 ---
 
+### Teste 076
+**(FCC - Auditor Fiscal / Tecnologia da Informação)**
+No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes de acessibilidade na Web (W3C / WCAG), assinale a afirmativa tecnicamente correta:  
+
+* **A)** O elemento `<article>` deve ser utilizado exclusivamente para criar tabelas de dados financeiros de auditoria, sendo vedado para artigos de texto.
+* **B)** O uso do atributo `tabindex="5"` é a prática recomendada para botões de submissão, pois garante que eles sempre recebam o foco antes de qualquer campo do formulário.
+* **C)** O elemento `<main>` deve encapsular o conteúdo central e específico do documento, não devendo ser duplicado em um mesmo documento exibido, e conteúdos que se repetem entre páginas (como cabeçalhos de topo e rodapés gerais) devem ficar fora dele.
+* **D)** As tags de agrupamento genérico `<div>` e `<span>` possuem semântica rica superior às tags `<section>` e `<nav>`, sendo preferíveis pelos leitores de tela.
+* **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O elemento `<article>` representa conteúdo editorial autônomo, autocontido e reutilizável (artigos, postagens, acórdãos, notícias), não se limitando a tabelas financeiras.
+> - **B)** Incorreta. O uso de valores positivos no atributo `tabindex` é considerado um antipadrão pelo W3C, pois desorganiza a navegação sequencial lógica pelo teclado.
+> - **C)** **CORRETA.** Pela especificação oficial W3C/WHATWG, `<main>` encapsula o conteúdo predominante e exclusivo da página. Deve haver no máximo um elemento `<main>` visível no documento e blocos estruturais repetitivos entre várias páginas (cabeçalhos globais, rodapés institucionais) devem permanecer fora dele.
+> - **D)** Incorreta. `<div>` e `<span>` são tags neutras destituídas de semântica; tags semânticas como `<section>` e `<nav>` estabelecem marcos acessíveis essenciais para leitores de tela.
+> - **E)** Incorreta. `aria-hidden="true"` produz o efeito exatamente inverso: esconde o elemento de tecnologias assistivas e leitores de tela, mantendo sua visibilidade na tela para usuários videntes.
+> 
+> **Gabarito: C**
+
+---
 
 ### Teste 077
 **(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
@@ -227,10 +214,7 @@ As diretrizes de acessibilidade para conteúdo web (WCAG 2.1) e a especificaçã
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Estilização com CSS3
 
@@ -265,6 +249,99 @@ flowchart LR
 >
 > - Uma regra com 1 único ID `(0, 1, 0, 0)` tem maior prioridade que uma regra contendo 15 classes combinadas `(0, 0, 15, 0)`.
 > - A declaração `!important` não acrescenta "pontos" à tupla; ela altera a fase da cascata. Havendo duas declarações com `!important`, o desempate volta a ser feito pela pontuação normal de especificidade entre elas.
+
+### 2.2 Modelo de Caixa (Box Model) e a Propriedade `box-sizing`
+No CSS, todo elemento renderizado é estruturado visualmente como uma caixa composta por 4 áreas concêntricas:
+
+```mermaid
+flowchart TD
+    subgraph BoxModel["Box Model do CSS"]
+        M["Margin (Espaçamento Externo - Transparente)"]
+        B["Border (Borda Visível ou Oculta)"]
+        P["Padding (Espaçamento Interno entre Conteúdo e Borda)"]
+        C["Content (Área do Conteúdo Real: Texto, Imagem)"]
+    end
+    M --> B --> P --> C
+```
+
+- **`box-sizing: content-box` (Padrão nativo do navegador):**
+    - A largura definida na propriedade `width` é aplicada **estritamente à área de conteúdo (*Content*)**.
+    - O `padding` e a `border` são adicionados **por fora** dessa largura.
+    - Se definirmos `width: 300px; padding: 20px; border: 5px solid black;`, a largura total ocupada na tela pelo elemento será:
+    $$\text{Largura Total} = 300 + (20 \times 2) + (5 \times 2) = 350\text{ px}$$
+- **`box-sizing: border-box` (Padrão moderno da indústria de software):**
+    - A propriedade `width` define a **largura total da caixa visível**, incluindo a borda e o padding.
+    - A área útil de conteúdo encolhe automaticamente para acomodar o espaçamento interno.
+    - No mesmo exemplo (`width: 300px; padding: 20px; border: 5px solid black;`), a largura final na tela será **exatamente $300\text{ px}$**.
+
+### 2.3 Layouts Flexíveis com Flexbox (Unidimensional)
+O Flexbox (`display: flex`) é um modelo de layout voltado para a distribuição de espaço e alinhamento de itens ao longo de um **único eixo por vez** (linha ou coluna).
+
+- **Eixo Principal (*Main Axis*) vs. Eixo Transversal (*Cross Axis*):**
+    - `flex-direction: row` (padrão): O eixo principal é horizontal (esquerda para a direita); o eixo transversal é vertical.
+    - `flex-direction: column`: O eixo principal é vertical; o transversal torna-se horizontal.
+- **Propriedades do Contêiner Flex (*Flex Container*):**
+    - `justify-content`: Alinha os itens ao longo do **eixo principal** (`flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`).
+    - `align-items`: Alinha os itens ao longo do **eixo transversal** (`stretch`, `flex-start`, `flex-end`, `center`, `baseline`).
+    - `flex-wrap`: Define se os itens que ultrapassam a largura do contêiner devem quebrar para a próxima linha (`nowrap` ou `wrap`).
+    - `gap`: Define o espaçamento entre os itens filhos sem recorrer a margens manuais.
+- **Propriedades dos Filhos (*Flex Items*):**
+    - `flex-grow`: Fator de crescimento relativo do item para preencher o espaço restante disponível.
+    - `flex-shrink`: Fator de encolhimento relativo quando o espaço total for insuficiente.
+    - `flex-basis`: Tamanho inicial padrão do item antes da distribuição de sobras.
+
+### 2.4 Grid Bidimensional (CSS Grid Layout)
+Diferentemente do Flexbox, o CSS Grid (`display: grid`) é um sistema **bidimensional nativo**, permitindo controlar simultaneamente linhas (*rows*) e colunas (*columns*).
+
+- **Criação de Trilhas e Unidade Fracional (`fr`):**
+    - `grid-template-columns: 200px 1fr 2fr`: Define três colunas: a primeira fixa com 200px, e o restante dividido em 3 partes fracionais (1 parte para a segunda coluna e 2 partes para a terceira).
+    - `repeat(3, 1fr)`: Cria 3 colunas de larguras rigorosamente iguais.
+- **Responsividade Automática sem Media Queries:**
+    - `grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));`: Os cards se ajustam dinamicamente na tela; se houver menos espaço que 250px, quebram sozinhos para a próxima linha.
+- **Áreas Nomeadas (`grid-template-areas`):**
+
+```css
+.container {
+  display: grid;
+  grid-template-areas:
+    "cabecalho cabecalho"
+    "lateral principal"
+    "rodape rodape";
+}
+```
+
+### 2.5 Design Responsivo, Mobile-First e Unidades de Medida
+- **Abordagem Mobile-First:** Metodologia onde a folha de estilos base é desenvolvida primeiramente para telas pequenas (smartphones). As adaptações para telas maiores são adicionadas incrementalmente através de **Media Queries com `min-width`**:
+
+```css
+/* Estilo padrão: Mobile */
+.grid-noticias { display: flex; flex-direction: column; }
+
+/* Telas a partir de tablets */
+@media (min-width: 768px) {
+  .grid-noticias { display: grid; grid-template-columns: repeat(2, 1fr); }
+}
+```
+
+- **Unidades de Medida Relativas:**
+    - `rem` (*Root EM*): Relativa ao tamanho da fonte do elemento raiz (`<html>`), tipicamente `1rem = 16px`. Garante acessibilidade quando o usuário altera o tamanho padrão de fonte no navegador.
+    - `em`: Relativa ao tamanho da fonte do próprio elemento pai imediato.
+    - `%`: Relativa à dimensão do elemento contêiner pai direto.
+    - `vw` e `vh`: Porcentagens relativas à largura (*viewport width*) e altura (*viewport height*) da janela de visualização do navegador ($100\text{vw} = 100\%$ da tela).
+
+### 2.6 Transições, Transformações e Animações CSS
+- **Transições (`transition`):** Permite suavizar a mudança de propriedades CSS ao longo do tempo (ex.: `:hover` alterando cores ou opacidade). Sintaxe: `transition: property duration timing-function delay;`.
+- **Transformações 2D/3D (`transform`):** Modifica a geometria visual do elemento sem disparar recálculo de fluxo de página (*reflow*). Funções comuns: `translate(x, y)`, `scale(1.1)`, `rotate(45deg)`.
+- **Animações Complexas (`@keyframes`):** Permitem criar sequências visuais com múltiplos pontos intermediários (*keyframes* de 0% a 100%):
+
+```css
+@keyframes pulsar {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+.alerta { animation: pulsar 2s infinite ease-in-out; }
+```
 
 ---
 
@@ -322,34 +399,6 @@ A cor final com que o texto do título `Relatório de Conformidade` será render
 
 ---
 
-
-
-### 2.2 Modelo de Caixa (Box Model) e a Propriedade `box-sizing`
-No CSS, todo elemento renderizado é estruturado visualmente como uma caixa composta por 4 áreas concêntricas:
-
-```mermaid
-flowchart TD
-    subgraph BoxModel["Box Model do CSS"]
-        M["Margin (Espaçamento Externo - Transparente)"]
-        B["Border (Borda Visível ou Oculta)"]
-        P["Padding (Espaçamento Interno entre Conteúdo e Borda)"]
-        C["Content (Área do Conteúdo Real: Texto, Imagem)"]
-    end
-    M --> B --> P --> C
-```
-
-- **`box-sizing: content-box` (Padrão nativo do navegador):**
-    - A largura definida na propriedade `width` é aplicada **estritamente à área de conteúdo (*Content*)**.
-    - O `padding` e a `border` são adicionados **por fora** dessa largura.
-    - Se definirmos `width: 300px; padding: 20px; border: 5px solid black;`, a largura total ocupada na tela pelo elemento será:
-    $$\text{Largura Total} = 300 + (20 \times 2) + (5 \times 2) = 350\text{ px}$$
-- **`box-sizing: border-box` (Padrão moderno da indústria de software):**
-    - A propriedade `width` define a **largura total da caixa visível**, incluindo a borda e o padding.
-    - A área útil de conteúdo encolhe automaticamente para acomodar o espaçamento interno.
-    - No mesmo exemplo (`width: 300px; padding: 20px; border: 5px solid black;`), a largura final na tela será **exatamente $300\text{ px}$**.
-
----
-
 ### Teste 079
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No modelo de caixa do CSS3 (*Box Model*), a propriedade `box-sizing` altera a forma como a largura (*width*) e a altura (*height*) totais de um elemento HTML são calculadas no layout da página. Ao aplicar a regra `box-sizing: border-box;` a um elemento com `width: 300px; padding: 20px; border: 5px solid black;`, tem-se que:
@@ -372,25 +421,6 @@ No modelo de caixa do CSS3 (*Box Model*), a propriedade `box-sizing` altera a fo
 > - **E) Incorreta.** Afirmação sem fundamento técnico.
 >
 > **Gabarito: B**
-
----
-
-
-### 2.3 Layouts Flexíveis com Flexbox (Unidimensional)
-O Flexbox (`display: flex`) é um modelo de layout voltado para a distribuição de espaço e alinhamento de itens ao longo de um **único eixo por vez** (linha ou coluna).
-
-- **Eixo Principal (*Main Axis*) vs. Eixo Transversal (*Cross Axis*):**
-    - `flex-direction: row` (padrão): O eixo principal é horizontal (esquerda para a direita); o eixo transversal é vertical.
-    - `flex-direction: column`: O eixo principal é vertical; o transversal torna-se horizontal.
-- **Propriedades do Contêiner Flex (*Flex Container*):**
-    - `justify-content`: Alinha os itens ao longo do **eixo principal** (`flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`).
-    - `align-items`: Alinha os itens ao longo do **eixo transversal** (`stretch`, `flex-start`, `flex-end`, `center`, `baseline`).
-    - `flex-wrap`: Define se os itens que ultrapassam a largura do contêiner devem quebrar para a próxima linha (`nowrap` ou `wrap`).
-    - `gap`: Define o espaçamento entre os itens filhos sem recorrer a margens manuais.
-- **Propriedades dos Filhos (*Flex Items*):**
-    - `flex-grow`: Fator de crescimento relativo do item para preencher o espaço restante disponível.
-    - `flex-shrink`: Fator de encolhimento relativo quando o espaço total for insuficiente.
-    - `flex-basis`: Tamanho inicial padrão do item antes da distribuição de sobras.
 
 ---
 
@@ -419,69 +449,6 @@ No módulo CSS Flexible Box Layout (*Flexbox*), para alinhar os itens filhos (*f
 
 ---
 
-
-### 2.4 Grid Bidimensional (CSS Grid Layout)
-Diferentemente do Flexbox, o CSS Grid (`display: grid`) é um sistema **bidimensional nativo**, permitindo controlar simultaneamente linhas (*rows*) e colunas (*columns*).
-
-- **Criação de Trilhas e Unidade Fracional (`fr`):**
-    - `grid-template-columns: 200px 1fr 2fr`: Define três colunas: a primeira fixa com 200px, e o restante dividido em 3 partes fracionais (1 parte para a segunda coluna e 2 partes para a terceira).
-    - `repeat(3, 1fr)`: Cria 3 colunas de larguras rigorosamente iguais.
-- **Responsividade Automática sem Media Queries:**
-    - `grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));`: Os cards se ajustam dinamicamente na tela; se houver menos espaço que 250px, quebram sozinhos para a próxima linha.
-- **Áreas Nomeadas (`grid-template-areas`):**
-
-```css
-.container {
-  display: grid;
-  grid-template-areas:
-    "cabecalho cabecalho"
-    "lateral principal"
-    "rodape rodape";
-}
-```
-
----
-
-### 2.5 Design Responsivo, Mobile-First e Unidades de Medida
-- **Abordagem Mobile-First:** Metodologia onde a folha de estilos base é desenvolvida primeiramente para telas pequenas (smartphones). As adaptações para telas maiores são adicionadas incrementalmente através de **Media Queries com `min-width`**:
-
-```css
-/* Estilo padrão: Mobile */
-.grid-noticias { display: flex; flex-direction: column; }
-
-/* Telas a partir de tablets */
-@media (min-width: 768px) {
-  .grid-noticias { display: grid; grid-template-columns: repeat(2, 1fr); }
-}
-```
-
-- **Unidades de Medida Relativas:**
-    - `rem` (*Root EM*): Relativa ao tamanho da fonte do elemento raiz (`<html>`), tipicamente `1rem = 16px`. Garante acessibilidade quando o usuário altera o tamanho padrão de fonte no navegador.
-    - `em`: Relativa ao tamanho da fonte do próprio elemento pai imediato.
-    - `%`: Relativa à dimensão do elemento contêiner pai direto.
-    - `vw` e `vh`: Porcentagens relativas à largura (*viewport width*) e altura (*viewport height*) da janela de visualização do navegador ($100\text{vw} = 100\%$ da tela).
-
----
-
-### 2.6 Transições, Transformações e Animações CSS
-- **Transições (`transition`):** Permite suavizar a mudança de propriedades CSS ao longo do tempo (ex.: `:hover` alterando cores ou opacidade). Sintaxe: `transition: property duration timing-function delay;`.
-- **Transformações 2D/3D (`transform`):** Modifica a geometria visual do elemento sem disparar recálculo de fluxo de página (*reflow*). Funções comuns: `translate(x, y)`, `scale(1.1)`, `rotate(45deg)`.
-- **Animações Complexas (`@keyframes`):** Permitem criar sequências visuais com múltiplos pontos intermediários (*keyframes* de 0% a 100%):
-
-```css
-@keyframes pulsar {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
-.alerta { animation: pulsar 2s infinite ease-in-out; }
-```
-
-
-
----
-
-
 ## 3. TypeScript: Tipagem Estática no Front-end
 
 ### 3.1 Arquitetura, Transpilação e o Arquivo `tsconfig.json`
@@ -494,8 +461,6 @@ O TypeScript é um **superconjunto tipado de JavaScript** (*typed superset*) des
     - `"strict": true`: Habilita todas as checagens rígidas de tipo (incluindo `strictNullChecks` e `noImplicitAny`).
     - `"jsx"`: Modo de transpilação do JSX no React (ex.: `"react-jsx"`).
 
----
-
 ### 3.2 Sistema de Tipos: Primitivos e Tipos Especiais (`any`, `unknown`, `never`, `void`)
 Além dos tipos primitivos comuns (`string`, `number`, `boolean`, `null`, `undefined`, `symbol`), o TypeScript introduz tipos especiais cruciais para provas:
 
@@ -507,6 +472,70 @@ Além dos tipos primitivos comuns (`string`, `number`, `boolean`, `null`, `undef
 | **`never`** | Representa valores que **nunca podem existir ou ocorrer**. | Sim | Não |
 
 - **`never` em detalhe:** É o tipo retornado por funções que sempre lançam exceção (`throw new Error()`) ou entram em loops sem fim (`while(true)`). Também é empregado para assegurar checagens exaustivas (*exhaustive checks*) em cláusulas `switch/case`.
+
+### 3.3 Union, Intersection Types e Type Narrowing
+- **Union Types (`|`):** Uma variável pode assumir um entre múltiplos tipos permitidos:
+
+```typescript
+type Identificador = string | number;
+```
+
+- **Intersection Types (`&`):** Combina múltiplos tipos em um único tipo que satisfaz todas as restrições simultaneamente:
+
+```typescript
+type Pessoa = { nome: string };
+type Funcionario = Pessoa & { matricula: number };
+```
+
+- **Type Narrowing (Afunilamento de Tipo):** O TypeScript refina dinamicamente o tipo de uma variável dentro de blocos condicionais utilizando guardas de tipo (*type guards*):
+    - `typeof x === "string"`
+    - `x instanceof Date`
+    - `"propriedade" in objeto`
+    - Funções de predicado de tipo customizadas (`pet is Cachorro`).
+
+### 3.4 Interfaces vs. Type Aliases e Declaration Merging
+Tanto `interface` quanto `type` podem ser usados para modelar a forma de objetos, mas possuem diferenças estruturais:
+
+```typescript
+// Interface: Suporta extensão (extends) e junção de declarações (Declaration Merging)
+interface Auditor {
+  nome: string;
+}
+interface Auditor {
+  registroOAB?: string; // Mesclado automaticamente à interface Auditor original!
+}
+
+// Type Alias: Suporta primitivos, uniões literais e tuplas, mas NÃO permite declaração duplicada
+type NivelAcesso = "ADMIN" | "CONSULTOR" | "OPERADOR";
+type Ponto2D = [number, number];
+```
+
+> 🚨 **ALERTA DE PROVA / FCC:**  
+> Duas interfaces com o mesmo nome no mesmo escopo realizam **Declaration Merging** (fusão de declarações), somando seus membros em uma única interface conjunta. Já dois `type` com o mesmo nome geram imediatamente um erro de compilação de identificador duplicado (`Duplicate identifier`).
+
+### 3.5 Generics e Utility Types Fundamentais
+
+#### Generics (`<T>`)
+Permitem que funções, interfaces e classes operem com diferentes tipos preservando a segurança estática:
+
+```typescript
+function obterPrimeiroElemento<T>(lista: T[]): T | undefined {
+  return lista[0];
+}
+```
+
+#### Utility Types Nativos
+O TypeScript inclui um conjunto poderoso de utilitários de transformação de tipos:
+
+| Utility Type | Transformação Efetuada | Exemplo Prático |
+|---|---|---|
+| **`Partial<T>`** | Torna **todas as propriedades de `T` opcionais** (`?`). | `Partial<Processo>` (usado em requisições PATCH) |
+| **`Required<T>`** | Torna **todas as propriedades de `T` estritamente obrigatórias**. | `Required<Processo>` (remove todas as interrogações `?`) |
+| **`Readonly<T>`** | Torna **todas as propriedades de `T` imutáveis** (somente leitura). | Impede reatribuição: `p.status = "NOVO"` dá erro de compilação |
+| **`Pick<T, K>`** | Constrói um tipo contendo apenas o **subconjunto `K` de propriedades** de `T`. | `Pick<Processo, "id" \| "numero">` |
+| **`Omit<T, K>`** | Constrói um tipo contendo todas as propriedades de `T` **exceto `K`**. | `Omit<Usuario, "senhaHash">` |
+| **`Record<K, T>`** | Constrói um tipo de objeto mapeando chaves do tipo `K` para valores `T`. | `Record<string, Auditor>` (dicionários chave-valor) |
+| **`Exclude<T, U>`** | Exclui de uma união `T` todos os tipos que são atribuíveis a `U`. | `Exclude<"a" \| "b" \| "c", "a">` $\rightarrow$ `"b" \| "c"` |
 
 ---
 
@@ -535,51 +564,6 @@ Na linguagem TypeScript, os tipos especiais `any` e `unknown` fornecem suporte a
 
 ---
 
-
-### 3.3 Union, Intersection Types e Type Narrowing
-- **Union Types (`|`):** Uma variável pode assumir um entre múltiplos tipos permitidos:
-
-```typescript
-type Identificador = string | number;
-```
-
-- **Intersection Types (`&`):** Combina múltiplos tipos em um único tipo que satisfaz todas as restrições simultaneamente:
-
-```typescript
-type Pessoa = { nome: string };
-type Funcionario = Pessoa & { matricula: number };
-```
-
-- **Type Narrowing (Afunilamento de Tipo):** O TypeScript refina dinamicamente o tipo de uma variável dentro de blocos condicionais utilizando guardas de tipo (*type guards*):
-    - `typeof x === "string"`
-    - `x instanceof Date`
-    - `"propriedade" in objeto`
-    - Funções de predicado de tipo customizadas (`pet is Cachorro`).
-
----
-
-### 3.4 Interfaces vs. Type Aliases e Declaration Merging
-Tanto `interface` quanto `type` podem ser usados para modelar a forma de objetos, mas possuem diferenças estruturais:
-
-```typescript
-// Interface: Suporta extensão (extends) e junção de declarações (Declaration Merging)
-interface Auditor {
-  nome: string;
-}
-interface Auditor {
-  registroOAB?: string; // Mesclado automaticamente à interface Auditor original!
-}
-
-// Type Alias: Suporta primitivos, uniões literais e tuplas, mas NÃO permite declaração duplicada
-type NivelAcesso = "ADMIN" | "CONSULTOR" | "OPERADOR";
-type Ponto2D = [number, number];
-```
-
-> 🚨 **ALERTA DE PROVA / FCC:**  
-> Duas interfaces com o mesmo nome no mesmo escopo realizam **Declaration Merging** (fusão de declarações), somando seus membros em uma única interface conjunta. Já dois `type` com o mesmo nome geram imediatamente um erro de compilação de identificador duplicado (`Duplicate identifier`).
-
----
-
 ### Teste 082
 **(FGV – TJ – Analista de Sistemas / Front-end)**  
 No ecossistema TypeScript, desenvolvedores podem declarar formatos estruturais utilizando `interface` ou `type` (*type alias*). Um recurso exclusivo das `interfaces` que não é suportado por `type aliases` é:
@@ -602,33 +586,6 @@ No ecossistema TypeScript, desenvolvedores podem declarar formatos estruturais u
 > - **E) Incorreta.** Ambos suportam *Generics*.
 >
 > **Gabarito: B**
-
----
-
-
-### 3.5 Generics e Utility Types Fundamentais
-
-#### Generics (`<T>`)
-Permitem que funções, interfaces e classes operem com diferentes tipos preservando a segurança estática:
-
-```typescript
-function obterPrimeiroElemento<T>(lista: T[]): T | undefined {
-  return lista[0];
-}
-```
-
-#### Utility Types Nativos
-O TypeScript inclui um conjunto poderoso de utilitários de transformação de tipos:
-
-| Utility Type | Transformação Efetuada | Exemplo Prático |
-|---|---|---|
-| **`Partial<T>`** | Torna **todas as propriedades de `T` opcionais** (`?`). | `Partial<Processo>` (usado em requisições PATCH) |
-| **`Required<T>`** | Torna **todas as propriedades de `T` estritamente obrigatórias**. | `Required<Processo>` (remove todas as interrogações `?`) |
-| **`Readonly<T>`** | Torna **todas as propriedades de `T` imutáveis** (somente leitura). | Impede reatribuição: `p.status = "NOVO"` dá erro de compilação |
-| **`Pick<T, K>`** | Constrói um tipo contendo apenas o **subconjunto `K` de propriedades** de `T`. | `Pick<Processo, "id" \| "numero">` |
-| **`Omit<T, K>`** | Constrói um tipo contendo todas as propriedades de `T` **exceto `K`**. | `Omit<Usuario, "senhaHash">` |
-| **`Record<K, T>`** | Constrói um tipo de objeto mapeando chaves do tipo `K` para valores `T`. | `Record<string, Auditor>` (dicionários chave-valor) |
-| **`Exclude<T, U>`** | Exclui de uma união `T` todos os tipos que são atribuíveis a `U`. | `Exclude<"a" \| "b" \| "c", "a">` $\rightarrow$ `"b" \| "c"` |
 
 ---
 
@@ -666,10 +623,7 @@ Para declarar um novo tipo derivado denominado `ProcessoEdicao`, que contenha ri
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 4. Desenvolvimento Front-end com a Biblioteca React
 
@@ -685,8 +639,6 @@ React é uma biblioteca JavaScript declarativa para a construção de interfaces
     - Atributos de evento utilizam convenção camelCase (`onClick`, `onChange`, `onSubmit`).
     - Todos os elementos devem ser fechados explicitamente (`<input />`, `<img />`).
     - Múltiplos elementos na raiz devem ser envelopados por um elemento pai ou por um Fragment (`<> ... </>`).
-
----
 
 ### 4.2 Virtual DOM e o Algoritmo de Reconciliação (Fiber)
 Manipular o DOM real do navegador diretamente é uma operação custosa computacionalmente devido aos ciclos de *Reflow* e *Repaint*. O React resolve isso por meio do **Virtual DOM (VDOM)**:
@@ -705,8 +657,6 @@ flowchart TD
     - Se dois elementos forem de tipos diferentes (ex.: `<div>` mudou para `<span>`), o React destrói a subárvore antiga por completo e monta uma nova do zero.
     - Para listas de elementos irmãos, o React utiliza a propriedade `key` para saber quais nós foram apenas movidos ou reorganizados.
 
----
-
 ### 4.3 Propriedades (Props), Fluxo Unidirecional e Renderização de Listas com `key`
 
 #### Fluxo Unidirecional de Dados (*One-Way Data Binding*)
@@ -723,37 +673,6 @@ Ao utilizar `.map()` para transformar um array de objetos em elementos visuais, 
 > - **Nunca use o índice do array (`key={index}`)** para itens que possam ser reordenados, filtrados, excluídos ou adicionados no início da fila! O uso do índice faz o React reaproveitar instâncias de componentes erradas, provocando bugs visuais e perda de dados em inputs.
 > - **Nunca gere chaves randômicas (`key={Math.random()}`)**, pois isso força a destruição e recriação do nó a cada frame de renderização.
 > - A prop `key` é reservada para o algoritmo interno do React e **NÃO é repassada** para o componente filho (não pode ser lida via `props.key`).
-
----
-
-### Teste 084
-**(FCC - Analista de Sistemas / Desenvolvimento)**
-Na biblioteca React, ao iterar sobre uma lista de dados para renderizar múltiplos componentes utilizando a função `.map()`, os desenvolvedores devem obrigatoriamente fornecer a propriedade especial `key` para cada item retornado.
-
-A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de reconciliação do React, assinale a afirmativa correta:  
-
-* **A)** A `key` serve unicamente para estilização visual via CSS, sendo convertida em uma classe HTML automática no DOM real.
-* **B)** O React utiliza a `key` para identificar de forma estável quais elementos da lista foram alterados, adicionados ou removidos entre renderizações, permitindo atualizar apenas os nós do DOM que sofreram modificação efetiva.
-* **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila.
-* **D)** As chaves `key` devem ser obrigatoriamente números inteiros sequenciais gerados aleatoriamente com `Math.random()` a cada ciclo de renderização.
-* **E)** A propriedade `key` é repassada automaticamente pelo React para o componente filho como uma prop ordinária, podendo ser acessada livremente no código filho via `props.key`.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A `key` é consumida pelo motor de reconciliação do React em memória; ela não é renderizada como atributo CSS nem classe no DOM real.
-> - **B)** **CORRETA.** A propriedade `key` atribui uma identidade estável e unívoca a cada elemento da coleção entre diferentes ciclos de renderização. Isso viabiliza que o algoritmo de reconciliação (*diffing*) identifique com precisão inserções, exclusões e reordenações, reaproveitando nós do DOM real e atualizando apenas o conteúdo estritamente necessário.
-> - **C)** Incorreta. Usar o índice do array como chave em listas sujeitas a filtros, reordenação ou inserções intermediárias constitui uma grave má prática, pois induz o React a reaproveitar estados de instâncias incorretas.
-> - **D)** Incorreta. Chaves randômicas com `Math.random()` alteram-se a cada renderização, provocando a destruição e recriação forçada de toda a árvore DOM da lista a cada instante.
-> - **E)** Incorreta. Trata-se de uma pegadinha clássica: `key` e `ref` são propriedades reservadas do React e não são acessíveis dentro do componente filho através de `props.key`.
-> 
-> **Gabarito: B**
-
----
-
-
 
 ### 4.4 Gerenciamento de Estado e Ciclo de Vida com Hooks (`useState`, `useEffect`)
 
@@ -789,6 +708,80 @@ flowchart TD
     3. `useEffect(fn, [id, filtro])` (com dependências): Executa na montagem e sempre que houver alteração de valor em `id` ou `filtro`.
 
 - **Função de Limpeza (*Cleanup*):** Se o callback do `useEffect` retornar uma função (`return () => { clearInterval(id); };`), essa função será executada pelo React **antes de reexecutar o efeito na próxima renderização** e na **desmontagem final (*unmount*) do componente**, prevenindo vazamento de memória (*memory leaks*).
+
+### 4.5 Gerenciamento Global com `useContext` e Hooks de Performance (`useMemo`, `useCallback`, `useRef`)
+
+#### `useContext` e a Context API
+Evita o problema de **Prop Drilling** (ter que repassar props manualmente por dezenas de componentes intermediários que não usam aquele dado):
+
+```jsx
+// Criação do Contexto
+const TemaContext = React.createContext("light");
+
+// Provedor
+<TemaContext.Provider value="dark">
+  <BarraSuperior />
+</TemaContext.Provider>
+
+// Consumo em qualquer componente descendente
+function Botao() {
+  const tema = useContext(TemaContext);
+  return <button className={tema}>Salvar</button>;
+}
+```
+
+#### Hooks de Otimização e Referências
+- **`useMemo`:** Memoriza o **resultado computado** de um cálculo complexo para evitar reprocessamentos desnecessários em re-renderizações:
+
+```jsx
+const relatorioComplexo = useMemo(() => calcularEstatisticas(dados), [dados]);
+```
+
+- **`useCallback`:** Memoriza a **referência de uma função de callback** entre renderizações, evitando que componentes filhos que a recebem via props sejam re-renderizados desnecessariamente:
+
+```jsx
+const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
+```
+
+- **`useRef`:** Cria um objeto de referência mutável `{ current: valor }` que persiste durante todo o ciclo de vida do componente:
+    - Permite acesso direto ao nó do DOM real (`<input ref={inputRef} />` $\rightarrow$ `inputRef.current.focus()`).
+    - Armazena valores mutáveis que, quando alterados, **não disparam re-renderização** do componente.
+
+### 4.6 Formulários: Componentes Controlados vs. Não Controlados
+- **Componentes Controlados (*Controlled Components*):** O valor do campo de formulário é controlado integralmente pelo estado do React via `value` e evento `onChange`. O estado do React atua como a única fonte da verdade (*single source of truth*).
+
+```jsx
+<input type="text" value={nome} onChange={e => setNome(e.target.value)} />
+```
+
+- **Componentes Não Controlados (*Uncontrolled Components*):** O valor do campo é gerenciado internamente pelo próprio DOM do navegador. O React recupera o valor sob demanda no momento do submit utilizando uma referência (`useRef`).
+
+---
+
+### Teste 084
+**(FCC - Analista de Sistemas / Desenvolvimento)**
+Na biblioteca React, ao iterar sobre uma lista de dados para renderizar múltiplos componentes utilizando a função `.map()`, os desenvolvedores devem obrigatoriamente fornecer a propriedade especial `key` para cada item retornado.
+
+A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de reconciliação do React, assinale a afirmativa correta:  
+
+* **A)** A `key` serve unicamente para estilização visual via CSS, sendo convertida em uma classe HTML automática no DOM real.
+* **B)** O React utiliza a `key` para identificar de forma estável quais elementos da lista foram alterados, adicionados ou removidos entre renderizações, permitindo atualizar apenas os nós do DOM que sofreram modificação efetiva.
+* **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila.
+* **D)** As chaves `key` devem ser obrigatoriamente números inteiros sequenciais gerados aleatoriamente com `Math.random()` a cada ciclo de renderização.
+* **E)** A propriedade `key` é repassada automaticamente pelo React para o componente filho como uma prop ordinária, podendo ser acessada livremente no código filho via `props.key`.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A `key` é consumida pelo motor de reconciliação do React em memória; ela não é renderizada como atributo CSS nem classe no DOM real.
+> - **B)** **CORRETA.** A propriedade `key` atribui uma identidade estável e unívoca a cada elemento da coleção entre diferentes ciclos de renderização. Isso viabiliza que o algoritmo de reconciliação (*diffing*) identifique com precisão inserções, exclusões e reordenações, reaproveitando nós do DOM real e atualizando apenas o conteúdo estritamente necessário.
+> - **C)** Incorreta. Usar o índice do array como chave em listas sujeitas a filtros, reordenação ou inserções intermediárias constitui uma grave má prática, pois induz o React a reaproveitar estados de instâncias incorretas.
+> - **D)** Incorreta. Chaves randômicas com `Math.random()` alteram-se a cada renderização, provocando a destruição e recriação forçada de toda a árvore DOM da lista a cada instante.
+> - **E)** Incorreta. Trata-se de uma pegadinha clássica: `key` e `ref` são propriedades reservadas do React e não são acessíveis dentro do componente filho através de `props.key`.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -840,48 +833,6 @@ Ao executar essa aplicação no navegador, o comportamento verificado pelo desen
 
 ---
 
-
-
-### 4.5 Gerenciamento Global com `useContext` e Hooks de Performance (`useMemo`, `useCallback`, `useRef`)
-
-#### `useContext` e a Context API
-Evita o problema de **Prop Drilling** (ter que repassar props manualmente por dezenas de componentes intermediários que não usam aquele dado):
-
-```jsx
-// Criação do Contexto
-const TemaContext = React.createContext("light");
-
-// Provedor
-<TemaContext.Provider value="dark">
-  <BarraSuperior />
-</TemaContext.Provider>
-
-// Consumo em qualquer componente descendente
-function Botao() {
-  const tema = useContext(TemaContext);
-  return <button className={tema}>Salvar</button>;
-}
-```
-
-#### Hooks de Otimização e Referências
-- **`useMemo`:** Memoriza o **resultado computado** de um cálculo complexo para evitar reprocessamentos desnecessários em re-renderizações:
-
-```jsx
-const relatorioComplexo = useMemo(() => calcularEstatisticas(dados), [dados]);
-```
-
-- **`useCallback`:** Memoriza a **referência de uma função de callback** entre renderizações, evitando que componentes filhos que a recebem via props sejam re-renderizados desnecessariamente:
-
-```jsx
-const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
-```
-
-- **`useRef`:** Cria um objeto de referência mutável `{ current: valor }` que persiste durante todo o ciclo de vida do componente:
-    - Permite acesso direto ao nó do DOM real (`<input ref={inputRef} />` $\rightarrow$ `inputRef.current.focus()`).
-    - Armazena valores mutáveis que, quando alterados, **não disparam re-renderização** do componente.
-
----
-
 ### Teste 086
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na biblioteca React (versões 16.8+ baseadas em Hooks), a otimização de performance e a manipulação de instâncias mutáveis utilizam hooks especializados. A correta distinção conceitual entre `useMemo`, `useCallback` e `useRef` estabelece que:
@@ -906,21 +857,6 @@ Na biblioteca React (versões 16.8+ baseadas em Hooks), a otimização de perfor
 > **Gabarito: B**
 
 ---
-
-
-### 4.6 Formulários: Componentes Controlados vs. Não Controlados
-- **Componentes Controlados (*Controlled Components*):** O valor do campo de formulário é controlado integralmente pelo estado do React via `value` e evento `onChange`. O estado do React atua como a única fonte da verdade (*single source of truth*).
-
-```jsx
-<input type="text" value={nome} onChange={e => setNome(e.target.value)} />
-```
-
-- **Componentes Não Controlados (*Uncontrolled Components*):** O valor do campo é gerenciado internamente pelo próprio DOM do navegador. O React recupera o valor sob demanda no momento do submit utilizando uma referência (`useRef`).
-
-
-
----
-
 
 ## 5. Fontes Recomendadas na Internet
 

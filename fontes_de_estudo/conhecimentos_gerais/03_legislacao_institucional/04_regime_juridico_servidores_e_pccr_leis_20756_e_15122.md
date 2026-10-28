@@ -32,41 +32,37 @@
     - Requisitos de interstício temporal, avaliação periódica de desempenho e capacitação continuada na Escola Superior de Controle Externo do TCE-GO;
     - Estrutura remuneratória: vencimento base, Gratificação de Controle Externo (GCE) e adicional de qualificação.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei nº 20.756/2020)](#1-estatuto-dos-servidores-publicos-civis-do-estado-de-goias-lei-no-207562020)
     1. [Conceito de Servidor, Cargo Público e Formas de Provimento](#11-conceito-de-servidor-cargo-publico-e-formas-de-provimento)
-    2. [Teste 152](#Teste-152)
-    3. [Posse e Exercício: Prazos e Consequências do Descumprimento](#12-posse-e-exercicio-prazos-e-consequencias-do-descumprimento)
-    4. [Teste 153](#Teste-153)
-    5. [Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão](#13-estagio-probatorio-fatores-de-avaliacao-e-hipoteses-de-inaptidao)
-    6. [Teste 154](#Teste-154)
-    7. [Vacância do Cargo Público](#14-vacancia-do-cargo-publico)
-    8. [Teste 155](#Teste-155)
-    9. [Direitos, Vantagens Pecuniárias, Férias e Licenças](#15-direitos-vantagens-pecuniarias-ferias-e-licencas)
-    10. [Teste 156](#Teste-156)
-    11. [Regime Disciplinar: Deveres, Proibições e Penalidades](#16-regime-disciplinar-deveres-proibicoes-e-penalidades)
-    12. [Teste 157](#Teste-157)
-    13. [Prescrição da Pretensão Punitiva Disciplinar](#17-prescricao-da-pretensao-punitiva-disciplinar)
-    14. [Teste 158](#Teste-158)
-    15. [Sindicância e Processo Administrativo Disciplinar (PAD)](#18-sindicancia-e-processo-administrativo-disciplinar-pad)
+    2. [Posse e Exercício: Prazos e Consequências do Descumprimento](#12-posse-e-exercicio-prazos-e-consequencias-do-descumprimento)
+    3. [Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão](#13-estagio-probatorio-fatores-de-avaliacao-e-hipoteses-de-inaptidao)
+    4. [Vacância do Cargo Público](#14-vacancia-do-cargo-publico)
+    5. [Direitos, Vantagens Pecuniárias, Férias e Licenças](#15-direitos-vantagens-pecuniarias-ferias-e-licencas)
+    6. [Regime Disciplinar: Deveres, Proibições e Penalidades](#16-regime-disciplinar-deveres-proibicoes-e-penalidades)
+    7. [Prescrição da Pretensão Punitiva Disciplinar](#17-prescricao-da-pretensao-punitiva-disciplinar)
+    8. [Sindicância e Processo Administrativo Disciplinar (PAD)](#18-sindicancia-e-processo-administrativo-disciplinar-pad)
+    9. [Teste 152](#Teste-152)
+    10. [Teste 153](#Teste-153)
+    11. [Teste 154](#Teste-154)
+    12. [Teste 155](#Teste-155)
+    13. [Teste 156](#Teste-156)
+    14. [Teste 157](#Teste-157)
+    15. [Teste 158](#Teste-158)
     16. [Teste 159](#Teste-159)
 2. [Plano de Cargos, Carreiras e Remuneração do TCE-GO (Lei nº 15.122/2005)](#2-plano-de-cargos-carreiras-e-remuneracao-do-tce-go-lei-no-151222005)
     1. [Estrutura do Quadro Efetivo do TCE-GO](#21-estrutura-do-quadro-efetivo-do-tce-go)
     2. [Atribuições Legais do Técnico de Controle Externo](#22-atribuicoes-legais-do-tecnico-de-controle-externo)
     3. [Desenvolvimento Funcional: Progressão Horizontal vs. Promoção Vertical](#23-desenvolvimento-funcional-progressao-horizontal-vs-promocao-vertical)
-    4. [Teste 160](#Teste-160)
-    5. [Estrutura Remuneratória e Vantagens Específicas do Tribunal](#24-estrutura-remuneratoria-e-vantagens-especificas-do-tribunal)
+    4. [Estrutura Remuneratória e Vantagens Específicas do Tribunal](#24-estrutura-remuneratoria-e-vantagens-especificas-do-tribunal)
+    5. [Teste 160](#Teste-160)
     6. [Teste 161](#Teste-161)
 3. [Fontes Oficiais e Referências Bibliográficas](#3-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei nº 20.756/2020)
 
@@ -85,6 +81,110 @@ A **Lei Estadual nº 20.756, de 28 de janeiro de 2020**, estabelece o regime jur
 | **Reversão** | Retorno à atividade do servidor **aposentado**: a) *De ofício:* quando junta médica oficial declara insubsistentes os motivos da aposentadoria por incapacidade permanente; b) *A pedido:* voluntária, no interesse da administração, desde que haja cargo vago, o servidor seja estável e conte menos de 70 anos. | Volta à atividade na mesma classe e padrão em que se aposentou. |
 | **Readaptação** | Investidura do servidor em cargo de atribuições e responsabilidades compatíveis com a **limitação física ou mental superveniente** sofrida, verificada em perícia médica oficial. | Caso o cargo de readaptação tenha remuneração inferior, o servidor mantém a remuneração do cargo de origem. |
 | **Aproveitamento** | Retorno compulsório à atividade do servidor que se encontrava em **disponibilidade** (em razão de extinção do cargo ou de declaração de sua desnecessidade). | Aproveitado obrigatoriamente em cargo de atribuições e vencimentos compatíveis. |
+
+### 1.2 Posse e Exercício: Prazos e Consequências do Descumprimento
+A investidura no cargo público consuma-se com a **posse**, momento solene no qual o servidor presta compromisso de bem servir e assina o termo formal perante a autoridade competente:
+
+```mermaid
+graph TD
+    Nomeacao["Publicação do Decreto/Ato de Nomeação"]
+    
+    Nomeacao --> Posse["POSSE (Investidura Formal)<br/>• Prazo: 30 dias contados da publicação<br/>• Prorrogável por mais 30 dias a pedido do interessado"]
+    Posse -->|Não tomou posse no prazo?| SemEfeito["Ato de Nomeação é tornado SEM EFEITO"]
+    
+    Posse -->|Tomou posse regularmente| Exercicio["EXERCÍCIO (Início das Funções Efetivas)<br/>• Prazo: 15 dias contados da posse<br/>• O servidor comparece e assume o posto"]
+    Exercicio -->|Não entrou em exercício no prazo?| Exoneracao["Servidor empossado é EXONERADO DE OFÍCIO"]
+```
+
+- **Prazos Oficiais:**
+    - **Posse:** Deve ocorrer no prazo de **trinta (30) dias** contados da data da publicação oficial do ato de provimento (nomeação), prorrogável por igual período a requerimento justificado do interessado.
+    - **Exercício:** É o efetivo desempenho das atribuições do cargo público. O prazo para o servidor empossado entrar em exercício é de **quinze (15) dias**, contados da data da posse.
+- **Distinção Crítica das Consequências:**
+    - Se o nomeado **NÃO tomar posse** no prazo legal de 30 dias: o ato de nomeação será tornado **SEM EFEITO** (a pessoa ainda não é servidora, logo não se pode exonerar quem nunca tomou posse!).
+    - Se o nomeado **tomar posse, mas NÃO entrar em exercício** no prazo legal de 15 dias: o servidor será **EXONERADO DE OFÍCIO**.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A banca FCC rotineiramente inverte as consequências: afirma que quem não toma posse é exonerado, ou que quem não entra em exercício tem o ato tornado sem efeito. Grave esta correlação imediata: **Não tomou posse $\rightarrow$ ato SEM EFEITO**. **Tomou posse mas não entrou em exercício $\rightarrow$ EXONERAÇÃO DE OFÍCIO**.
+
+### 1.3 Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão
+Ao entrar em exercício, o servidor nomeado para cargo de provimento efetivo cumpre **estágio probatório por período de 3 (três) anos** (36 meses) de efetivo exercício, durante o qual sua aptidão e idoneidade serão avaliadas por comissão constituída para essa finalidade.
+
+- **Critérios Legais Avaliados no Estágio (Art. 31 da Lei nº 20.756/2020):**
+    1. **Assiduidade**;
+    2. **Pontualidade**;
+    3. **Disciplina**;
+    4. **Iniciativa**;
+    5. **Produtividade e qualidade** no trabalho;
+    6. **Responsabilidade**.
+
+- **Consequências da Inaptidão / Reprovação no Estágio Probatório:**
+    - Se o servidor era **recém-ingressante** no serviço público (não possuía estabilidade anterior no Estado de Goiás): é **exonerado de ofício** daquele cargo;
+    - Se o servidor **já era estável** em cargo público estadual anterior: é **reconduzido** ao cargo de origem anteriormente ocupado, sem direito a indenização.
+
+### 1.4 Vacância do Cargo Público
+A vacância de cargo público decorre de fatos funcionais taxativos previstos em lei:
+
+1. **Exoneração:** Não tem caráter punitivo. Pode ocorrer a pedido do próprio servidor ou de ofício (quando não satisfeitas as condições do estágio probatório, quando o servidor empossado não entrar em exercício, ou para ajuste fiscal do art. 169 da CF);
+2. **Demissão:** Penalidade disciplinar de caráter punitivo imposta pela prática de falta funcional de natureza grave;
+3. **Readaptação:** Provimento no novo cargo compatível com a limitação e vacância simultânea do cargo originário;
+4. **Aposentadoria:** Voluntária, por incapacidade permanente para o trabalho ou compulsória aos 75 anos de idade;
+5. **Posse em outro cargo público inacumulável;**
+6. **Falecimento.**
+
+### 1.5 Direitos, Vantagens Pecuniárias, Férias e Licenças
+- **Vencimento vs. Remuneração:**
+    - *Vencimento:* É a retribuição pecuniária básica fixada em lei para o padrão ocupado pelo servidor no cargo público efetivo.
+    - *Remuneração:* É o vencimento do cargo efetivo acrescido das vantagens pecuniárias de caráter permanente estabelecidas em lei.
+- **Indenizações (Não incorporam aos proventos nem sofrem incidência de imposto de renda ou previdência):**
+    - **Diárias:** Indenização por despesas extraordinárias de alimentação e pousada quando o servidor se desloca a serviço do seu município de lotação;
+    - **Ajuda de Custo:** Indenização para cobrir despesas de mudança e instalação quando o servidor for transferido de ofício para ter exercício em nova localidade;
+    - **Indenização de Transporte:** Paga ao servidor que realizar despesas com a utilização de meio próprio de locomoção para execução de serviços externos.
+- **Férias:** O servidor faz jus a **30 (trinta) dias de férias anuais** remuneradas, pagas com acréscimo de **1/3 (um terço) constitucional**. É vedada a acumulação de mais de dois períodos de férias por absoluta necessidade do serviço.
+- **Licenças Estatutárias:** Licença para tratamento da própria saúde; por motivo de doença em pessoa da família; maternidade (180 dias); paternidade (20 dias); capacitação profissional (até 3 meses a cada quinquênio trabalhado); e para desempenho de mandato classista.
+
+### 1.6 Regime Disciplinar: Deveres, Proibições e Penalidades
+
+```mermaid
+graph TD
+    Penalidades["Penalidades Disciplinares (Lei nº 20.756/2020)"]
+    
+    Penalidades --> Adv["ADVERTÊNCIA<br/>• Falta leve ou inobservância de dever funcional<br/>• Prazo de prescrição: 180 DIAS"]
+    Penalidades --> Susp["SUSPENSÃO<br/>• Falta média ou reincidência em advertência<br/>• Limite Máximo: 90 DIAS<br/>• Conversão em multa de 50% por dia (se conveniente)<br/>• Prazo de prescrição: 2 ANOS"]
+    Penalidades --> Gravissimas["PENALIDADES EXPULSIVAS<br/>• Demissão<br/>• Cassação de aposentadoria ou disponibilidade<br/>• Destituição de comissão ou confiança<br/>• Prazo de prescrição: 5 ANOS"]
+```
+
+- **Advertência:** Aplicada por escrito em caso de inobservância de dever funcional ou falta leve, para a qual a lei não comine expressamente sanção mais gravosa.
+- **Suspensão:** Aplicada em caso de reincidência em falta punida com advertência ou prática de falta média.
+    - **Limite Temporal Rigoroso:** A suspensão **não pode exceder a noventa (90) dias**.
+    - **Conversão em Multa:** Quando houver conveniência para o serviço público, a penalidade de suspensão poderá ser convertida em multa na base de **50% (cinquenta por cento)** por dia de remuneração, ficando o servidor obrigado a permanecer em serviço.
+- **Demissão:** Penalidade expulsiva aplicável nos casos de infrações disciplinares gravíssimas:
+    - Crime contra a administração pública e improbidade administrativa;
+    - **Abandono de Cargo:** Ausência intencional do servidor ao serviço por mais de **trinta (30) dias consecutivos**;
+    - **Inassiduidade Habitual:** Falta injustificada ao serviço por **sessenta (60) dias interpolados** durante o período de doze meses;
+    - Corrupção passiva, concussão, recebimento de propina, aceitação de vantagem indevida ou revelação de segredo funcional de que tenha conhecimento em razão do cargo.
+- **Cassação de Aposentadoria ou Disponibilidade:** Aplicada ao inativo que tenha praticado, na atividade, falta grave para a qual seja cominada a pena de demissão.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Grave a distinção entre abandono e inassiduidade:
+>
+> - **Abandono de Cargo:** mais de **30 dias consecutivos**.
+> - **Inassiduidade Habitual:** **60 dias interpolados** em 12 meses.
+> Ambas as condutas são faltas graves sancionadas compulsoriamente com **DEMISSÃO** após apuração formal em PAD.
+
+### 1.7 Prescrição da Pretensão Punitiva Disciplinar
+A ação disciplinar para imposição de penalidades aos servidores públicos prescreve nos seguintes prazos legais:
+
+- **Cinco (5) anos:** Para infrações disciplinares puníveis com **demissão**, **cassação de aposentadoria ou disponibilidade** e **destituição de cargo em comissão ou função de confiança**;
+- **Dois (2) anos:** Para infrações puníveis com **suspensão**;
+- **Cento e oitenta (180) dias:** Para infrações puníveis com **advertência**.
+- **Termo Inicial:** O prazo prescricional começa a correr na data em que a autoridade competente para instaurar o processo disciplinar **toma conhecimento formal do fato**.
+- **Interrupção:** A publicação do ato de instauração de sindicância ou do Processo Administrativo Disciplinar (PAD) **interrompe** a contagem do prazo de prescrição da pretensão punitiva.
+
+### 1.8 Sindicância e Processo Administrativo Disciplinar (PAD)
+O PAD é o procedimento contraditório formal destinado a apurar a responsabilidade de servidor público por infração funcional praticada no exercício de suas atribuições:
+
+- Desenvolve-se nas seguintes fases sequenciais:
+    1. **Instauração:** Publicação da portaria designando comissão processante tripartite (composta por três servidores estáveis);
+    2. **Inquérito Administrativo:** Subdivide-se em instrução probatória (oitiva de testemunhas, juntada de perícias e documentos), defesa (citação do acusado para apresentação de defesa escrita) e relatório conclusivo minucioso da comissão;
+    3. **Julgamento:** Decisão fundamentada proferida pela autoridade competente para a aplicação da penalidade.
 
 ---
 
@@ -115,33 +215,6 @@ Lucas, servidor público estável do Estado de Goiás, obteve aprovação em con
 
 ---
 
-
-
-### 1.2 Posse e Exercício: Prazos e Consequências do Descumprimento
-A investidura no cargo público consuma-se com a **posse**, momento solene no qual o servidor presta compromisso de bem servir e assina o termo formal perante a autoridade competente:
-
-```mermaid
-graph TD
-    Nomeacao["Publicação do Decreto/Ato de Nomeação"]
-    
-    Nomeacao --> Posse["POSSE (Investidura Formal)<br/>• Prazo: 30 dias contados da publicação<br/>• Prorrogável por mais 30 dias a pedido do interessado"]
-    Posse -->|Não tomou posse no prazo?| SemEfeito["Ato de Nomeação é tornado SEM EFEITO"]
-    
-    Posse -->|Tomou posse regularmente| Exercicio["EXERCÍCIO (Início das Funções Efetivas)<br/>• Prazo: 15 dias contados da posse<br/>• O servidor comparece e assume o posto"]
-    Exercicio -->|Não entrou em exercício no prazo?| Exoneracao["Servidor empossado é EXONERADO DE OFÍCIO"]
-```
-
-- **Prazos Oficiais:**
-    - **Posse:** Deve ocorrer no prazo de **trinta (30) dias** contados da data da publicação oficial do ato de provimento (nomeação), prorrogável por igual período a requerimento justificado do interessado.
-    - **Exercício:** É o efetivo desempenho das atribuições do cargo público. O prazo para o servidor empossado entrar em exercício é de **quinze (15) dias**, contados da data da posse.
-- **Distinção Crítica das Consequências:**
-    - Se o nomeado **NÃO tomar posse** no prazo legal de 30 dias: o ato de nomeação será tornado **SEM EFEITO** (a pessoa ainda não é servidora, logo não se pode exonerar quem nunca tomou posse!).
-    - Se o nomeado **tomar posse, mas NÃO entrar em exercício** no prazo legal de 15 dias: o servidor será **EXONERADO DE OFÍCIO**.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A banca FCC rotineiramente inverte as consequências: afirma que quem não toma posse é exonerado, ou que quem não entra em exercício tem o ato tornado sem efeito. Grave esta correlação imediata: **Não tomou posse $\rightarrow$ ato SEM EFEITO**. **Tomou posse mas não entrou em exercício $\rightarrow$ EXONERAÇÃO DE OFÍCIO**.
-
----
-
 ### Teste 153
 **(FCC – DPE-RS – Analista de Gestão e Pessoal)**  
 Mariana foi nomeada para cargo de provimento efetivo no serviço público de Goiás e compareceu tempestivamente à repartição, prestando compromisso e assinando o termo de posse. Entretanto, por motivos estritamente particulares, Mariana não compareceu para assumir as atribuições funcionais e não entrou em efetivo exercício no prazo legal fixado pelo estatuto funcional. De acordo com as normas da Lei Estadual nº 20.756/2020:
@@ -164,25 +237,6 @@ Mariana foi nomeada para cargo de provimento efetivo no serviço público de Goi
 > - **E) Incorreta.** O abandono de cargo pressupõe que o servidor esteja no exercício efetivo das atribuições e se ausente por mais de 30 dias consecutivos; para o empossado inerte que nunca entrou em exercício, o estatuto comina a **exoneração de ofício**.
 > 
 > **Gabarito: B**
-
----
-
-
-
-### 1.3 Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão
-Ao entrar em exercício, o servidor nomeado para cargo de provimento efetivo cumpre **estágio probatório por período de 3 (três) anos** (36 meses) de efetivo exercício, durante o qual sua aptidão e idoneidade serão avaliadas por comissão constituída para essa finalidade.
-
-- **Critérios Legais Avaliados no Estágio (Art. 31 da Lei nº 20.756/2020):**
-    1. **Assiduidade**;
-    2. **Pontualidade**;
-    3. **Disciplina**;
-    4. **Iniciativa**;
-    5. **Produtividade e qualidade** no trabalho;
-    6. **Responsabilidade**.
-
-- **Consequências da Inaptidão / Reprovação no Estágio Probatório:**
-    - Se o servidor era **recém-ingressante** no serviço público (não possuía estabilidade anterior no Estado de Goiás): é **exonerado de ofício** daquele cargo;
-    - Se o servidor **já era estável** em cargo público estadual anterior: é **reconduzido** ao cargo de origem anteriormente ocupado, sem direito a indenização.
 
 ---
 
@@ -211,19 +265,6 @@ A respeito da estabilidade e do estágio probatório do servidor público civil,
 
 ---
 
-
-
-### 1.4 Vacância do Cargo Público
-A vacância de cargo público decorre de fatos funcionais taxativos previstos em lei:
-
-1. **Exoneração:** Não tem caráter punitivo. Pode ocorrer a pedido do próprio servidor ou de ofício (quando não satisfeitas as condições do estágio probatório, quando o servidor empossado não entrar em exercício, ou para ajuste fiscal do art. 169 da CF);
-2. **Demissão:** Penalidade disciplinar de caráter punitivo imposta pela prática de falta funcional de natureza grave;
-3. **Readaptação:** Provimento no novo cargo compatível com a limitação e vacância simultânea do cargo originário;
-4. **Aposentadoria:** Voluntária, por incapacidade permanente para o trabalho ou compulsória aos 75 anos de idade;
-5. **Posse em outro cargo público inacumulável;**
-6. **Falecimento.**
-
-
 ### Teste 155
 **(FCC – Inédita – Padrão TCE-GO)**  
 Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei Estadual nº 20.756/2020), a vacância do cargo público decorre taxativamente de:
@@ -251,18 +292,6 @@ Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei E
 
 ---
 
-### 1.5 Direitos, Vantagens Pecuniárias, Férias e Licenças
-- **Vencimento vs. Remuneração:**
-    - *Vencimento:* É a retribuição pecuniária básica fixada em lei para o padrão ocupado pelo servidor no cargo público efetivo.
-    - *Remuneração:* É o vencimento do cargo efetivo acrescido das vantagens pecuniárias de caráter permanente estabelecidas em lei.
-- **Indenizações (Não incorporam aos proventos nem sofrem incidência de imposto de renda ou previdência):**
-    - **Diárias:** Indenização por despesas extraordinárias de alimentação e pousada quando o servidor se desloca a serviço do seu município de lotação;
-    - **Ajuda de Custo:** Indenização para cobrir despesas de mudança e instalação quando o servidor for transferido de ofício para ter exercício em nova localidade;
-    - **Indenização de Transporte:** Paga ao servidor que realizar despesas com a utilização de meio próprio de locomoção para execução de serviços externos.
-- **Férias:** O servidor faz jus a **30 (trinta) dias de férias anuais** remuneradas, pagas com acréscimo de **1/3 (um terço) constitucional**. É vedada a acumulação de mais de dois períodos de férias por absoluta necessidade do serviço.
-- **Licenças Estatutárias:** Licença para tratamento da própria saúde; por motivo de doença em pessoa da família; maternidade (180 dias); paternidade (20 dias); capacitação profissional (até 3 meses a cada quinquênio trabalhado); e para desempenho de mandato classista.
-
-
 ### Teste 156
 **(FCC – Inédita – Padrão TCE-GO)**  
 A respeito das licenças, afastamentos e concessões funcionais reguladas pela Lei Estadual nº 20.756/2020 (Estatuto dos Servidores de Goiás):
@@ -289,35 +318,6 @@ A respeito das licenças, afastamentos e concessões funcionais reguladas pela L
 ---
 
 ---
-
-### 1.6 Regime Disciplinar: Deveres, Proibições e Penalidades
-
-```mermaid
-graph TD
-    Penalidades["Penalidades Disciplinares (Lei nº 20.756/2020)"]
-    
-    Penalidades --> Adv["ADVERTÊNCIA<br/>• Falta leve ou inobservância de dever funcional<br/>• Prazo de prescrição: 180 DIAS"]
-    Penalidades --> Susp["SUSPENSÃO<br/>• Falta média ou reincidência em advertência<br/>• Limite Máximo: 90 DIAS<br/>• Conversão em multa de 50% por dia (se conveniente)<br/>• Prazo de prescrição: 2 ANOS"]
-    Penalidades --> Gravissimas["PENALIDADES EXPULSIVAS<br/>• Demissão<br/>• Cassação de aposentadoria ou disponibilidade<br/>• Destituição de comissão ou confiança<br/>• Prazo de prescrição: 5 ANOS"]
-```
-
-- **Advertência:** Aplicada por escrito em caso de inobservância de dever funcional ou falta leve, para a qual a lei não comine expressamente sanção mais gravosa.
-- **Suspensão:** Aplicada em caso de reincidência em falta punida com advertência ou prática de falta média.
-    - **Limite Temporal Rigoroso:** A suspensão **não pode exceder a noventa (90) dias**.
-    - **Conversão em Multa:** Quando houver conveniência para o serviço público, a penalidade de suspensão poderá ser convertida em multa na base de **50% (cinquenta por cento)** por dia de remuneração, ficando o servidor obrigado a permanecer em serviço.
-- **Demissão:** Penalidade expulsiva aplicável nos casos de infrações disciplinares gravíssimas:
-    - Crime contra a administração pública e improbidade administrativa;
-    - **Abandono de Cargo:** Ausência intencional do servidor ao serviço por mais de **trinta (30) dias consecutivos**;
-    - **Inassiduidade Habitual:** Falta injustificada ao serviço por **sessenta (60) dias interpolados** durante o período de doze meses;
-    - Corrupção passiva, concussão, recebimento de propina, aceitação de vantagem indevida ou revelação de segredo funcional de que tenha conhecimento em razão do cargo.
-- **Cassação de Aposentadoria ou Disponibilidade:** Aplicada ao inativo que tenha praticado, na atividade, falta grave para a qual seja cominada a pena de demissão.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Grave a distinção entre abandono e inassiduidade:
->
-> - **Abandono de Cargo:** mais de **30 dias consecutivos**.
-> - **Inassiduidade Habitual:** **60 dias interpolados** em 12 meses.
-> Ambas as condutas são faltas graves sancionadas compulsoriamente com **DEMISSÃO** após apuração formal em PAD.
-
 
 ### Teste 157
 **(FCC – Inédita – Padrão TCE-GO)**  
@@ -351,17 +351,6 @@ No âmbito do regime disciplinar instituído pela Lei Estadual nº 20.756/2020, 
 
 ---
 
-### 1.7 Prescrição da Pretensão Punitiva Disciplinar
-A ação disciplinar para imposição de penalidades aos servidores públicos prescreve nos seguintes prazos legais:
-
-- **Cinco (5) anos:** Para infrações disciplinares puníveis com **demissão**, **cassação de aposentadoria ou disponibilidade** e **destituição de cargo em comissão ou função de confiança**;
-- **Dois (2) anos:** Para infrações puníveis com **suspensão**;
-- **Cento e oitenta (180) dias:** Para infrações puníveis com **advertência**.
-- **Termo Inicial:** O prazo prescricional começa a correr na data em que a autoridade competente para instaurar o processo disciplinar **toma conhecimento formal do fato**.
-- **Interrupção:** A publicação do ato de instauração de sindicância ou do Processo Administrativo Disciplinar (PAD) **interrompe** a contagem do prazo de prescrição da pretensão punitiva.
-
----
-
 ### Teste 158
 **(FCC – ARTESP – Especialista em Regulação)**  
 A respeito do regime disciplinar e da prescrição da pretensão punitiva administrativa regulados pela Lei Estadual nº 20.756/2020, assinale a opção correta:
@@ -387,17 +376,6 @@ A respeito do regime disciplinar e da prescrição da pretensão punitiva admini
 
 ---
 
-
-
-### 1.8 Sindicância e Processo Administrativo Disciplinar (PAD)
-O PAD é o procedimento contraditório formal destinado a apurar a responsabilidade de servidor público por infração funcional praticada no exercício de suas atribuições:
-
-- Desenvolve-se nas seguintes fases sequenciais:
-    1. **Instauração:** Publicação da portaria designando comissão processante tripartite (composta por três servidores estáveis);
-    2. **Inquérito Administrativo:** Subdivide-se em instrução probatória (oitiva de testemunhas, juntada de perícias e documentos), defesa (citação do acusado para apresentação de defesa escrita) e relatório conclusivo minucioso da comissão;
-    3. **Julgamento:** Decisão fundamentada proferida pela autoridade competente para a aplicação da penalidade.
-
-
 ### Teste 159
 **(FCC – Inédita – Padrão TCE-GO)**  
 De acordo com o rito do Processo Administrativo Disciplinar (PAD) regulado pela Lei Estadual nº 20.756/2020:
@@ -421,10 +399,7 @@ De acordo com o rito do Processo Administrativo Disciplinar (PAD) regulado pela 
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 2. Plano de Cargos, Carreiras e Remuneração do TCE-GO (Lei nº 15.122/2005)
 
@@ -436,8 +411,6 @@ A **Lei Estadual nº 15.122, de 04 de fevereiro de 2005**, organiza o Plano de C
     - **Especialidade Técnico Administrativo (Cargo A01):** Gestão administrativa, apoio ao processamento de autos, gestão de contratos internos, compras, almoxarifado, patrimônio e apoio aos gabinetes de Conselheiros e Secretarias de Câmaras;
     - **Especialidade Tecnologia da Informação (Cargo B02):** Suporte técnico operacional de infraestrutura de TI, atendimento aos usuários de sistemas internos, gerenciamento de redes, segurança da informação, suporte a bancos de dados e desenvolvimento/manutenção de softwares de auditoria eletrônica.
 
----
-
 ### 2.2 Atribuições Legais do Técnico de Controle Externo
 Nos termos da Lei nº 15.122/2005 e regulamentos internos da Corte, incumbe ao Técnico de Controle Externo:
 
@@ -446,8 +419,6 @@ Nos termos da Lei nº 15.122/2005 e regulamentos internos da Corte, incumbe ao T
 - Prestar suporte logístico e administrativo às equipes de fiscalização e inspeção externa;
 - Elaborar expedientes, certidões, intimações, notificações e relatórios de suporte administrativo;
 - Na especialidade de TI (B02): garantir a estabilidade operacional dos sistemas informatizados, segurança de dados corporativos e funcionamento dos recursos tecnológicos utilizados pelos auditores e membros da Corte.
-
----
 
 ### 2.3 Desenvolvimento Funcional: Progressão Horizontal vs. Promoção Vertical
 A evolução dos servidores nas carreiras do TCE-GO dá-se sob duas modalidades distintas:
@@ -470,6 +441,13 @@ graph LR
 | **Promoção Funcional** | Movimentação vertical do servidor do **último padrão de uma classe para o padrão inicial da classe imediatamente superior**. | 1. Cumprimento do interstício mínimo de efetivo exercício no último padrão da classe;<br/>2. Resultado satisfatório na avaliação periódica de desempenho;<br/>3. Participação e aprovação em cursos de **capacitação continuada e aperfeiçoamento profissional** promovidos ou homologados pela **Escola Superior de Controle Externo (Escola de Contas)** do TCE-GO. |
 
 > ⭐ **IMPORTANTE / VEDAÇÃO DE CONCURSO INTERNO:** A evolução funcional entre classes (promoção) ocorre estritamente dentro da mesma carreira para a qual o servidor prestou concurso público originário. É vedada a mudança de Técnico para Analista sem novo concurso público de provas e títulos (Súmula Vinculante nº 43 do STF).
+
+### 2.4 Estrutura Remuneratória e Vantagens Específicas do Tribunal
+A remuneração dos servidores efetivos do TCE-GO é composta por:
+
+- **Vencimento Básico:** Fixado nas tabelas salariais da Lei nº 15.122/2005 de acordo com a classe e padrão de evolução;
+- **Gratificação de Controle Externo (GCE):** Vantagem pecuniária vinculada ao exercício de atividades de fiscalização e suporte técnico no âmbito da Corte de Contas;
+- **Adicional de Qualificação:** Concedido em percentuais legais com base na conclusão de cursos de pós-graduação (*lato sensu*, mestrado ou doutorado) em áreas de interesse do Tribunal de Contas, incentivando o contínuo aprimoramento técnico do corpo de servidores.
 
 ---
 
@@ -498,16 +476,6 @@ No âmbito do Tribunal de Contas do Estado de Goiás, a carreira de Técnico de 
 
 ---
 
-
-
-### 2.4 Estrutura Remuneratória e Vantagens Específicas do Tribunal
-A remuneração dos servidores efetivos do TCE-GO é composta por:
-
-- **Vencimento Básico:** Fixado nas tabelas salariais da Lei nº 15.122/2005 de acordo com a classe e padrão de evolução;
-- **Gratificação de Controle Externo (GCE):** Vantagem pecuniária vinculada ao exercício de atividades de fiscalização e suporte técnico no âmbito da Corte de Contas;
-- **Adicional de Qualificação:** Concedido em percentuais legais com base na conclusão de cursos de pós-graduação (*lato sensu*, mestrado ou doutorado) em áreas de interesse do Tribunal de Contas, incentivando o contínuo aprimoramento técnico do corpo de servidores.
-
-
 ### Teste 161
 **(FCC – Inédita – Padrão TCE-GO)**  
 Em conformidade com a Lei Estadual nº 15.122/2005 (Plano de Cargos, Carreiras e Vencimentos dos Servidores do TCE-GO):
@@ -531,10 +499,7 @@ Em conformidade com a Lei Estadual nº 15.122/2005 (Plano de Cargos, Carreiras e
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Fontes Oficiais e Referências Bibliográficas
 

@@ -19,51 +19,42 @@
     - Os 40 Objetivos de Governança e Gestão (5 Domínios: EDM, APO, BAI, DSS, MEA)
     - Gestão de Desempenho do COBIT (CPM) e Níveis de Capacidade CMMI
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada & Conceitos Essenciais](#teoria-aprofundada-conceitos-essenciais)
-2. [Fundamentos da Governança de TI e Alinhamento Estratégico](#1-fundamentos-da-governanca-de-ti-e-alinhamento-estrategico)
-    1. [Distinção Essencial entre Governança e Gestão](#11-distincao-essencial-entre-governanca-e-gestao)
-    2. [Alinhamento Estratégico e Criação de Valor Público](#12-alinhamento-estrategico-e-criacao-de-valor-publico)
-    3. [Teste 465](#Teste-465)
-3. [Norma ABNT NBR ISO/IEC 38500:2024](#2-norma-abnt-nbr-isoiec-385002024)
-    1. [Escopo e Modelo de Governança (Ciclo EDM)](#21-escopo-e-modelo-de-governanca-ciclo-edm)
-    2. [Teste 466](#Teste-466)
-    3. [Os Seis Princípios da Boa Governança de TI](#22-os-seis-principios-da-boa-governanca-de-ti)
-    4. [Teste 467](#Teste-467)
-4. [Framework COBIT 2019 (ISACA)](#3-framework-cobit-2019-isaca)
-    1. [Princípios do Sistema e do Framework de Governança](#31-principios-do-sistema-e-do-framework-de-governanca)
-    2. [Teste 468](#Teste-468)
-    3. [Componentes do Sistema de Governança (7 Componentes)](#32-componentes-do-sistema-de-governanca-7-componentes)
-    4. [Teste 469](#Teste-469)
-    5. [Fatores de Design (11 Design Factors) e Áreas de Foco (Focus Areas)](#33-fatores-de-design-11-design-factors-e-areas-de-foco-focus-areas)
-    6. [Teste 470](#Teste-470)
-    7. [Cascatamento de Objetivos (Goals Cascade)](#34-cascatamento-de-objetivos-goals-cascade)
-    8. [Teste 471](#Teste-471)
-    9. [Os 40 Objetivos de Governança e Gestão nos 5 Domínios](#35-os-40-objetivos-de-governanca-e-gestao-nos-5-dominios)
-    10. [Teste 472](#Teste-472)
-    11. [Gestão de Desempenho do COBIT (CPM) e Níveis de Capacidade CMMI](#36-gestao-de-desempenho-do-cobit-cpm-e-niveis-de-capacidade-cmmi)
-    12. [Teste 473](#Teste-473)
-    13. [Teste 474](#Teste-474)
-5. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
+1. [Fundamentos da Governança de TI e Alinhamento Estratégico](#1-fundamentos-da-governanca-de-ti-e-alinhamento-estrategico)
+1. [Distinção Essencial entre Governança e Gestão](#1-1-distincao-essencial-entre-governanca-e-gestao)
+1. [Alinhamento Estratégico e Criação de Valor Público](#1-2-alinhamento-estrategico-e-criacao-de-valor-publico)
+    1. [Teste 465](#Teste-465)
+2. [Norma ABNT NBR ISO/IEC 38500:2024](#2-norma-abnt-nbr-isoiec-385002024)
+2. [Escopo e Modelo de Governança (Ciclo EDM)](#2-1-escopo-e-modelo-de-governanca-ciclo-edm)
+    1. [Teste 466](#Teste-466)
+2. [Os Seis Princípios da Boa Governança de TI](#2-2-os-seis-principios-da-boa-governanca-de-ti)
+    1. [Teste 467](#Teste-467)
+3. [Framework COBIT 2019 (ISACA)](#3-framework-cobit-2019-isaca)
+3. [Princípios do Sistema e do Framework de Governança](#3-1-principios-do-sistema-e-do-framework-de-governanca)
+    1. [Teste 468](#Teste-468)
+3. [Componentes do Sistema de Governança (7 Componentes)](#3-2-componentes-do-sistema-de-governanca-7-componentes)
+    1. [Teste 469](#Teste-469)
+3. [Fatores de Design (11 Design Factors) e Áreas de Foco (Focus Areas)](#3-3-fatores-de-design-11-design-factors-e-areas-de-foco-focus-areas)
+    1. [Teste 470](#Teste-470)
+3. [Cascatamento de Objetivos (Goals Cascade)](#3-4-cascatamento-de-objetivos-goals-cascade)
+    1. [Teste 471](#Teste-471)
+3. [Os 40 Objetivos de Governança e Gestão nos 5 Domínios](#3-5-os-40-objetivos-de-governanca-e-gestao-nos-5-dominios)
+    1. [Teste 472](#Teste-472)
+3. [Gestão de Desempenho do COBIT (CPM) e Níveis de Capacidade CMMI](#3-6-gestao-de-desempenho-do-cobit-cpm-e-niveis-de-capacidade-cmmi)
+    1. [Teste 473](#Teste-473)
+    2. [Teste 474](#Teste-474)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
-
-## 📖 Teoria Aprofundada & Conceitos Essenciais
-
-
----
-
 
 ## 1. Fundamentos da Governança de TI e Alinhamento Estratégico
 
-### 1.1 Distinção Essencial entre Governança e Gestão
+---
+
+## 1.1 Distinção Essencial entre Governança e Gestão
 
 A separação entre **Governança** e **Gestão** é o pilar estruturante de maior incidência em provas da Fundação Carlos Chagas (FCC) na disciplina de Governança de TI. Trata-se de responsabilidades, papéis e ciclos operacionais completamente distintos, embora fortemente integrados.
 
@@ -104,7 +95,9 @@ flowchart TD
 
 ---
 
-### 1.2 Alinhamento Estratégico e Criação de Valor Público
+---
+
+## 1.2 Alinhamento Estratégico e Criação de Valor Público
 
 No setor público, e em especial nos órgãos de controle externo como o TCE-GO, o alinhamento estratégico da Tecnologia da Informação não tem como meta o lucro, mas sim a **criação de valor público**. Isso significa garantir que os recursos aplicados em tecnologia resultem em fiscalizações mais ágeis, auditorias digitais baseadas em cruzamento massivo de dados, transparência ativa ao cidadão e prestação jurisdicional de excelência.
 
@@ -142,15 +135,13 @@ A governança assegura a integração bidirecional contínua entre a estratégia
 > 
 > **Gabarito: B**
 
-
-
-
 ---
-
 
 ## 2. Norma ABNT NBR ISO/IEC 38500:2024
 
-### 2.1 Escopo e Modelo de Governança (Ciclo EDM)
+---
+
+## 2.1 Escopo e Modelo de Governança (Ciclo EDM)
 
 A norma **ABNT NBR ISO/IEC 38500:2024** fornece princípios e diretrizes para os órgãos deliberativos e membros da alta administração das organizações (públicas ou privadas, de qualquer porte ou setor) sobre a utilização aceitável, eficaz e eficiente da TI.
 
@@ -201,10 +192,9 @@ sequenceDiagram
 > 
 > **Gabarito: B**
 
-
 ---
 
-### 2.2 Os Seis Princípios da Boa Governança de TI
+## 2.2 Os Seis Princípios da Boa Governança de TI
 
 A ISO/IEC 38500 prescreve **seis princípios** fundamentais que orientam a tomada de decisão da alta administração:
 
@@ -245,16 +235,15 @@ A ISO/IEC 38500 prescreve **seis princípios** fundamentais que orientam a tomad
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 3. Framework COBIT 2019 (ISACA)
 
 O **COBIT 2019** (*Control Objectives for Information and Related Technologies*) é o framework líder mundial de governança e gestão corporativa de informação e tecnologia (I&T), publicado pela ISACA. O COBIT não é prescritivo em nível de codificação ou configuração de servidores; ele funciona como um **framework guarda-chuva** integrador, alinhando padrões técnicos (como ITIL, PMBOK, TOGAF e ISO 27001) às metas institucionais.
 
-### 3.1 Princípios do Sistema e do Framework de Governança
+---
+
+## 3.1 Princípios do Sistema e do Framework de Governança
 
 Uma das maiores inovações do COBIT 2019 foi dividir formalmente os princípios em duas categorias:
 
@@ -320,9 +309,7 @@ flowchart LR
 
 ---
 
-
-
-### 3.2 Componentes do Sistema de Governança (7 Componentes)
+## 3.2 Componentes do Sistema de Governança (7 Componentes)
 
 Para construir, operar e manter um sistema de governança funcional, o COBIT 2019 define **7 categorias de Componentes** (denominados "Habilitadores" no antigo COBIT 5):
 
@@ -359,10 +346,9 @@ Para construir, operar e manter um sistema de governança funcional, o COBIT 201
 > 
 > **Gabarito: B**
 
-
 ---
 
-### 3.3 Fatores de Design (11 Design Factors) e Áreas de Foco (Focus Areas)
+## 3.3 Fatores de Design (11 Design Factors) e Áreas de Foco (Focus Areas)
 
 #### Os 11 Fatores de Design (*Design Factors*)
 O COBIT 2019 não adota o modelo "tamanho único" (*one size fits all*). Para viabilizar a adaptação (*tailoring*) do sistema de governança à realidade de cada órgão ou empresa, são utilizados **11 Fatores de Design**:
@@ -407,10 +393,9 @@ Uma **Área de Foco** descreve um tópico, domínio de governança ou desafio te
 > 
 > **Gabarito: A**
 
-
 ---
 
-### 3.4 Cascatamento de Objetivos (Goals Cascade)
+## 3.4 Cascatamento de Objetivos (Goals Cascade)
 
 O mecanismo do COBIT 2019 traduz as necessidades das partes interessadas em ações e objetivos práticos de TI por meio de quatro níveis em cascata:
 
@@ -453,9 +438,7 @@ flowchart TD
 
 ---
 
-
-
-### 3.5 Os 40 Objetivos de Governança e Gestão nos 5 Domínios
+## 3.5 Os 40 Objetivos de Governança e Gestão nos 5 Domínios
 
 O COBIT 2019 organiza seus 40 objetivos em **5 Domínios**. O primeiro pertence exclusivamente à **Governança**, enquanto os demais quatro integram a **Gestão**:
 
@@ -558,9 +541,7 @@ flowchart TB
 
 ---
 
-
-
-### 3.6 Gestão de Desempenho do COBIT (CPM) e Níveis de Capacidade CMMI
+## 3.6 Gestão de Desempenho do COBIT (CPM) e Níveis de Capacidade CMMI
 
 No COBIT 2019, o modelo de medição de capacidade e maturidade migrou da ISO/IEC 33000 (usada no COBIT 5) para a escala alinhada ao **CMMI** (*Capability Maturity Model Integration*).
 
@@ -645,11 +626,7 @@ Cada atividade é avaliada conforme a escala percentual de alcance:
 > 
 > **Gabarito: A**
 
-
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

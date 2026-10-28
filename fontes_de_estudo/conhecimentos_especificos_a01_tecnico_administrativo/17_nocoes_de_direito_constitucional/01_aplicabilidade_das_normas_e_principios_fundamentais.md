@@ -20,39 +20,40 @@
 - Objetivos fundamentais da República Federativa do Brasil (Artigo 3º).
 - Princípios que regem a República Federativa do Brasil em suas relações internacionais (Artigo 4º).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada e Pontos Críticos](#teoria-aprofundada-e-pontos-criticos)
-    1. [Eficácia e Aplicabilidade das Normas Constitucionais](#1-eficacia-e-aplicabilidade-das-normas-constitucionais)
-    2. [Teste 110](#Teste-110)
-    3. [Teste 111](#Teste-111)
-    4. [Teste 112](#Teste-112)
-    5. [Teste 113](#Teste-113)
-    6. [Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)](#2-principios-fundamentais-da-cf88-titulo-i-arts-1o-a-4o)
-    7. [Teste 114](#Teste-114)
-    8. [Teste 115](#Teste-115)
-    9. [Teste 116](#Teste-116)
-    10. [Teste 117](#Teste-117)
-    11. [Teste 118](#Teste-118)
-    12. [Teste 119](#Teste-119)
-    13. [Teste 120](#Teste-120)
-2. [Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
+1. [Eficácia e Aplicabilidade das Normas Constitucionais](#1-eficacia-e-aplicabilidade-das-normas-constitucionais)
+    1. [Classificação Tripartite de José Afonso da Silva](#11-classificacao-tripartite-de-jose-afonso-da-silva)
+    2. [Eficácia Mínima das Normas Limitadas e Remédios contra Omissão](#12-eficacia-minima-das-normas-limitadas-e-remedios-contra-omissao)
+    3. [Reserva do Possível versus Mínimo Existencial](#13-reserva-do-possivel-versus-minimo-existencial)
+    4. [Teste 110](#Teste-110)
+    5. [Teste 111](#Teste-111)
+    6. [Teste 112](#Teste-112)
+    7. [Teste 113](#Teste-113)
+2. [Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)](#2-principios-fundamentais-da-cf88-titulo-i-arts-1o-a-4o)
+    1. [Forma de Estado, Forma de Governo e Regime Político](#21-forma-de-estado-forma-de-governo-e-regime-politico)
+    2. [Fundamentos da República Federativa do Brasil (Art. 1º)](#22-fundamentos-da-republica-federativa-do-brasil-art-1o)
+    3. [Separação dos Poderes e o Sistema de Freios e Contrapesos (Art. 2º)](#23-separacao-dos-poderes-e-o-sistema-de-freios-e-contrapesos-art-2o)
+    4. [Objetivos Fundamentais da República (Art. 3º)](#24-objetivos-fundamentais-da-republica-art-3o)
+    5. [Princípios nas Relações Internacionais e Integração Latino-Americana (Art. 4º)](#25-principios-nas-relacoes-internacionais-e-integracao-latino-americana-art-4o)
+    6. [Teste 114](#Teste-114)
+    7. [Teste 115](#Teste-115)
+    8. [Teste 116](#Teste-116)
+    9. [Teste 117](#Teste-117)
+    10. [Teste 118](#Teste-118)
+    11. [Teste 119](#Teste-119)
+    12. [Teste 120](#Teste-120)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
 
-
-## 📖 Teoria Aprofundada e Pontos Críticos
-
-### 1. Eficácia e Aplicabilidade das Normas Constitucionais
+## 1. Eficácia e Aplicabilidade das Normas Constitucionais
 
 O estudo da aplicabilidade das normas constitucionais investiga o grau de aptidão que cada preceito da Lei Fundamental possui para produzir efeitos jurídicos no mundo dos fatos desde a sua promulgação. No direito público brasileiro, a doutrina amplamente majoritária e a jurisprudência pacífica do Supremo Tribunal Federal (STF) consagram a classificação tripartite formulada pelo professor José Afonso da Silva.
 
-#### 1.1 Classificação Tripartite de José Afonso da Silva
+### 1.1 Classificação Tripartite de José Afonso da Silva
 
 | Classificação da Norma | Aplicabilidade | Depende de Lei Infraconstitucional? | Pode Ser Restringida por Lei? | Exemplos Canônicos na CF/88 |
 |---|:---:|:---:|:---:|---|
@@ -75,9 +76,21 @@ flowchart TD
     1. *Normas de Princípio Institutivo (ou Organizatório):* Aquelas pelas quais o constituinte traça o esquema geral de criação e organização de órgãos, entidades ou instituições do Estado (ex.: art. 88 da CF/88, que dispõe que a lei disporá sobre a criação e extinção de Ministérios);
     2. *Normas de Princípio Programático:* Aquelas que estabelecem metas, programas sociais, diretrizes socioeconômicas e fins de interesse público a serem alcançados pelos poderes públicos (ex.: saúde, erradicação do analfabetismo, proteção ao meio ambiente).
 
+### 1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão
+Embora as normas de eficácia limitada não confiram exigibilidade imediata da prestação originária sem integração legislativa, é incorreto afirmar que elas são desprovidas de valor jurídico. A doutrina e a jurisprudência reconhecem a **eficácia jurídica mínima** dessas normas:
+
+- **Eficácia Revogatória (ou Negativa):** Revogam automaticamente toda a legislação anterior que com elas seja materialmente incompatível (não recepção).
+- **Eficácia Impeditiva:** Impedem a edição de leis futuras que contrariem seus vetores teleológicos, sob pena de inconstitucionalidade direta.
+- **Eficácia Hermenêutica / Interpretativa:** Servem de vetor interpretativo obrigatório para juízes e administradores públicos.
+- **Remédios Constitucionais contra a Omissão Inconstitucional:** Para combater a mora legislativa que inviabiliza o exercício de direitos previstos em normas de eficácia limitada, a Constituição consagrou o **Mandado de Injunção** (art. 5º, LXXI, e Lei nº 13.300/2016) e a **Ação Direta de Inconstitucionalidade por Omissão (ADO)** (art. 103, § 2º).
+
+### 1.3 Reserva do Possível versus Mínimo Existencial
+No controle judicial de políticas públicas decorrentes de normas programáticas (saúde, fornecimento de medicamentos de alto custo, vagas em creches):
+
+- **Reserva do Possível (*Vorbehalt des Möglichen*):** Tese frequentemente invocada pela Fazenda Pública segundo a qual a efetivação dos direitos sociais condiciona-se à existência de capacidade orçamentária e financeira do Estado, bem como à discricionariedade do administrador na alocação de recursos escassos.
+- **Mínimo Existencial:** Entendimento consolidado pelo STF no sentido de que a reserva do possível encontra limite intransponível no **núcleo essencial dos direitos fundamentais indispensáveis a uma vida digna** (mínimo existencial). Quando estiver em jogo a própria sobrevivência ou a integridade biológica do indivíduo, a alegação de insuficiência de recursos orçamentários torna-se inoponível ao cidadão.
+
 ---
-
-
 
 ### Teste 110
 **(FCC - Analista Judiciário - Área Judiciária)**
@@ -158,8 +171,6 @@ O art. 37, inciso VII, da Constituição Federal prevê que *"o direito de greve
 
 ---
 
-
-
 ### Teste 113
 **(FGV - Auditor Fiscal da Receita Estadual)**
 Determinada norma da Constituição Federal estabelece que 'a lei disporá sobre a criação e extinção de ministérios e órgãos da administração pública'.
@@ -187,33 +198,16 @@ Quanto à aplicabilidade e eficácia das normas constitucionais, esse preceito c
 
 ---
 
-
-#### 1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão
-Embora as normas de eficácia limitada não confiram exigibilidade imediata da prestação originária sem integração legislativa, é incorreto afirmar que elas são desprovidas de valor jurídico. A doutrina e a jurisprudência reconhecem a **eficácia jurídica mínima** dessas normas:
-
-- **Eficácia Revogatória (ou Negativa):** Revogam automaticamente toda a legislação anterior que com elas seja materialmente incompatível (não recepção).
-- **Eficácia Impeditiva:** Impedem a edição de leis futuras que contrariem seus vetores teleológicos, sob pena de inconstitucionalidade direta.
-- **Eficácia Hermenêutica / Interpretativa:** Servem de vetor interpretativo obrigatório para juízes e administradores públicos.
-- **Remédios Constitucionais contra a Omissão Inconstitucional:** Para combater a mora legislativa que inviabiliza o exercício de direitos previstos em normas de eficácia limitada, a Constituição consagrou o **Mandado de Injunção** (art. 5º, LXXI, e Lei nº 13.300/2016) e a **Ação Direta de Inconstitucionalidade por Omissão (ADO)** (art. 103, § 2º).
-
-#### 1.3 Reserva do Possível versus Mínimo Existencial
-No controle judicial de políticas públicas decorrentes de normas programáticas (saúde, fornecimento de medicamentos de alto custo, vagas em creches):
-
-- **Reserva do Possível (*Vorbehalt des Möglichen*):** Tese frequentemente invocada pela Fazenda Pública segundo a qual a efetivação dos direitos sociais condiciona-se à existência de capacidade orçamentária e financeira do Estado, bem como à discricionariedade do administrador na alocação de recursos escassos.
-- **Mínimo Existencial:** Entendimento consolidado pelo STF no sentido de que a reserva do possível encontra limite intransponível no **núcleo essencial dos direitos fundamentais indispensáveis a uma vida digna** (mínimo existencial). Quando estiver em jogo a própria sobrevivência ou a integridade biológica do indivíduo, a alegação de insuficiência de recursos orçamentários torna-se inoponível ao cidadão.
-
----
-
-### 2. Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)
+## 2. Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)
 
 O Título I da Constituição Federal delimita as decisões políticas estruturantes do Estado brasileiro.
 
-#### 2.1 Forma de Estado, Forma de Governo e Regime Político
+### 2.1 Forma de Estado, Forma de Governo e Regime Político
 - **Forma de Estado: Federação.** Caracteriza-se pela descentralização política, coexistência de esferas federativas autônomas (União, Estados, Distrito Federal e Municípios), vedação ao direito de secessão e proteção sob cláusula pétrea explícita (art. 60, § 4º, I).
 - **Forma de Governo: República.** Caracteriza-se pela eletividade e temporariedade dos mandatos dos governantes, pela responsabilidade política e jurídica dos agentes públicos e pelo dever republicano de prestar contas perante a sociedade e as Cortes de Contas.
 - **Regime Político: Democracia Semidireta (ou Participativa).** Conforme o art. 1º, parágrafo único: *"Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição."* O exercício direto manifesta-se por meio do **plebiscito**, do **referendo** e da **iniciativa popular** de leis (art. 14, I, II e III).
 
-#### 2.2 Fundamentos da República Federativa do Brasil (Art. 1º)
+### 2.2 Fundamentos da República Federativa do Brasil (Art. 1º)
 Os fundamentos consubstanciam as bases estruturais sobre as quais se erige o Estado brasileiro. São expressos por substantivos e memorizados pelo consagrado mnemônico **SO-CI-DI-VA-PLU**:
 
 1. **SOberania:** Poder supremo no plano interno e independente na ordem internacional;
@@ -225,7 +219,7 @@ Os fundamentos consubstanciam as bases estruturais sobre as quais se erige o Est
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca FCC frequentemente tenta confundir o candidato trocando **pluralismo político** por **pluripartidarismo**. O pluripartidarismo (liberdade de criação de partidos políticos) é apenas uma das dimensões instrumentais do pluralismo político, que é um conceito infinitamente mais amplo de liberdade de pensamento e de cosmovisão.
 
-#### 2.3 Separação dos Poderes e o Sistema de Freios e Contrapesos (Art. 2º)
+### 2.3 Separação dos Poderes e o Sistema de Freios e Contrapesos (Art. 2º)
 O art. 2º da Carta Magna estabelece: *"São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário."*
 
 No modelo do constitucionalismo contemporâneo:
@@ -236,9 +230,40 @@ No modelo do constitucionalismo contemporâneo:
     - **Poder Judiciário:** Função típica: jurisdicional (dizer o direito no caso concreto com definitividade); Funções atípicas: administrar (realizar licitações e prover cargos) e legislar (elaborar os regimentos internos de seus tribunais).
 - **Sistema de Freios e Contrapesos (*Checks and Balances*):** Mecanismo de controle recíproco em que um Poder limita e fiscaliza a atuação do outro, prevenindo abusos e garantindo a harmonia institucional (ex.: veto do Presidente a projetos de lei; sabatina e aprovação de ministros pelo Senado; controle de constitucionalidade de leis e atos do Executivo exercido pelo Judiciário).
 
+### 2.4 Objetivos Fundamentais da República (Art. 3º)
+Os objetivos fundamentais consubstanciam as metas de chegada e as finalidades que o Estado brasileiro deve perseguir. Diferenciam-se dos fundamentos porque começam invariavelmente por **VERBOS NO INFINITIVO** (Mnemônico **CON-GA-ERRA-PRO**):
+
+1. **CON**struir uma sociedade livre, justa e solidária;
+2. **GA**rantir o desenvolvimento nacional;
+3. **ERRA**dicar a pobreza e a marginalização e **reduzir as desigualdades sociais e regionais**;
+4. **PRO**mover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
+
+```mermaid
+flowchart LR
+    F["FUNDAMENTOS (Art. 1º)<br/>Substantivos de Partida:<br/>• SOberania<br/>• CIdadania<br/>• DIgnidade<br/>• VAlores do trabalho<br/>• PLUralismo político"] --> ESTADO["ESTADO BRASILEIRO"]
+    ESTADO --> OBJ["OBJETIVOS FUNDAMENTAIS (Art. 3º)<br/>Ações com Verbos no Infinitivo:<br/>• CONstruir<br/>• GArantir<br/>• ERRadicar e Reduzir<br/>• PROmover"]
+```
+
+### 2.5 Princípios nas Relações Internacionais e Integração Latino-Americana (Art. 4º)
+A República Federativa do Brasil rege-se em suas relações internacionais pelos seguintes princípios:
+
+1. Independência nacional;
+2. Prevalência dos direitos humanos;
+3. Autodeterminação dos povos;
+4. Não intervenção;
+5. Igualdade entre os Estados;
+6. Defesa da paz;
+7. Solução pacífica dos conflitos;
+8. Repúdio ao terrorismo e ao racismo;
+9. Cooperação entre os povos para o progresso da humanidade;
+10. Concessão de asilo político.
+
+- **Parágrafo Único do Art. 4º:** Estabelece expressamente que o Brasil buscará a **integração econômica, política, social e cultural dos povos da América Latina**, visando à formação de uma **comunidade latino-americana de nações**.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A banca examinadora costuma substituir ardilosamente a expressão constitucional **América Latina** por "América do Sul", "Mercosul" ou "países lusófonos". Atenção máxima: a redação do parágrafo único do art. 4º consagra expressamente a **América Latina**!
+
 ---
-
-
 
 ### Teste 114
 **(FCC - Técnico de Controle Externo / TCE-GO)**
@@ -291,25 +316,6 @@ A respeito da **Teoria da Separação dos Poderes** e do sistema de freios e con
 > **Gabarito: C**
 
 ---
-
-
-#### 2.4 Objetivos Fundamentais da República (Art. 3º)
-Os objetivos fundamentais consubstanciam as metas de chegada e as finalidades que o Estado brasileiro deve perseguir. Diferenciam-se dos fundamentos porque começam invariavelmente por **VERBOS NO INFINITIVO** (Mnemônico **CON-GA-ERRA-PRO**):
-
-1. **CON**struir uma sociedade livre, justa e solidária;
-2. **GA**rantir o desenvolvimento nacional;
-3. **ERRA**dicar a pobreza e a marginalização e **reduzir as desigualdades sociais e regionais**;
-4. **PRO**mover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
-
-```mermaid
-flowchart LR
-    F["FUNDAMENTOS (Art. 1º)<br/>Substantivos de Partida:<br/>• SOberania<br/>• CIdadania<br/>• DIgnidade<br/>• VAlores do trabalho<br/>• PLUralismo político"] --> ESTADO["ESTADO BRASILEIRO"]
-    ESTADO --> OBJ["OBJETIVOS FUNDAMENTAIS (Art. 3º)<br/>Ações com Verbos no Infinitivo:<br/>• CONstruir<br/>• GArantir<br/>• ERRadicar e Reduzir<br/>• PROmover"]
-```
-
----
-
-
 
 ### Teste 116
 **(FGV - Analista de Controle Externo / TCE-GO)**
@@ -371,30 +377,6 @@ Está correto o que se afirma em:
 
 ---
 
-
-#### 2.5 Princípios nas Relações Internacionais e Integração Latino-Americana (Art. 4º)
-A República Federativa do Brasil rege-se em suas relações internacionais pelos seguintes princípios:
-
-1. Independência nacional;
-2. Prevalência dos direitos humanos;
-3. Autodeterminação dos povos;
-4. Não intervenção;
-5. Igualdade entre os Estados;
-6. Defesa da paz;
-7. Solução pacífica dos conflitos;
-8. Repúdio ao terrorismo e ao racismo;
-9. Cooperação entre os povos para o progresso da humanidade;
-10. Concessão de asilo político.
-
-- **Parágrafo Único do Art. 4º:** Estabelece expressamente que o Brasil buscará a **integração econômica, política, social e cultural dos povos da América Latina**, visando à formação de uma **comunidade latino-americana de nações**.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A banca examinadora costuma substituir ardilosamente a expressão constitucional **América Latina** por "América do Sul", "Mercosul" ou "países lusófonos". Atenção máxima: a redação do parágrafo único do art. 4º consagra expressamente a **América Latina**!
-
----
-
-
-
 ### Teste 118
 **(FCC - Procurador do Estado / Adaptada)**
 Nas suas relações internacionais, a República Federativa do Brasil rege-se pelos princípios positivados no art. 4º da Constituição Federal de 1988.
@@ -447,10 +429,6 @@ Em conformidade com o parágrafo único do art. 4º da Constituição da Repúbl
 
 ---
 
-
-
-
-
 ### Teste 120
 **(FGV - Analista de Controle Externo / Auditoria)**
 O art. 2º da Constituição Federal de 1988 consagra que 'são Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário'.
@@ -476,10 +454,7 @@ A respeito do princípio da Separação de Poderes e do sistema de freios e cont
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

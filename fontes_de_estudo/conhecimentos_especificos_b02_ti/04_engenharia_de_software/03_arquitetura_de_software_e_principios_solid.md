@@ -14,40 +14,36 @@
 - Princípios de design: SOLID, DRY, KISS e YAGNI
 - Coesão e Acoplamento
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Fundamentos de Arquitetura de Software](#1-fundamentos-de-arquitetura-de-software)
     1. [Estrutura, Componentes e Conectores Arquiteturais](#11-estrutura-componentes-e-conectores-arquiteturais)
     2. [O Modelo 4+1 Visões de Philippe Kruchten](#12-o-modelo-41-visoes-de-philippe-kruchten)
-    3. [Teste 023](#Teste-023)
-    4. [Coesão e Acoplamento: A Busca pela Alta Coesão e Baixo Acoplamento](#13-coesao-e-acoplamento-a-busca-pela-alta-coesao-e-baixo-acoplamento)
+    3. [Coesão e Acoplamento: A Busca pela Alta Coesão e Baixo Acoplamento](#13-coesao-e-acoplamento-a-busca-pela-alta-coesao-e-baixo-acoplamento)
+    4. [Teste 023](#Teste-023)
     5. [Teste 024](#Teste-024)
 2. [Estilos e Padrões Arquiteturais](#2-estilos-e-padroes-arquiteturais)
     1. [Arquitetura em Camadas (Layered / N-Tier Architecture) e Variações Hexagonais](#21-arquitetura-em-camadas-layered-n-tier-architecture-e-variacoes-hexagonais)
-    2. [Teste 025](#Teste-025)
-    3. [Arquitetura Orientada a Serviços (SOA) e o Papel do Barramento Corporativo (ESB)](#22-arquitetura-orientada-a-servicos-soa-e-o-papel-do-barramento-corporativo-esb)
-    4. [Teste 026](#Teste-026)
-    5. [Arquitetura de Microsserviços e seus Padrões de Resiliência e Dados](#23-arquitetura-de-microsservicos-e-seus-padroes-de-resiliencia-e-dados)
-    6. [Teste 027](#Teste-027)
-    7. [Arquitetura Orientada a Eventos (EDA - Event-Driven Architecture)](#24-arquitetura-orientada-a-eventos-eda-event-driven-architecture)
-    8. [Teste 028](#Teste-028)
-    9. [Matriz Comparativa: Monólito vs. SOA vs. Microsserviços](#25-matriz-comparativa-monolito-vs-soa-vs-microsservicos)
+    2. [Arquitetura Orientada a Serviços (SOA) e o Papel do Barramento Corporativo (ESB)](#22-arquitetura-orientada-a-servicos-soa-e-o-papel-do-barramento-corporativo-esb)
+    3. [Arquitetura de Microsserviços e seus Padrões de Resiliência e Dados](#23-arquitetura-de-microsservicos-e-seus-padroes-de-resiliencia-e-dados)
+    4. [Arquitetura Orientada a Eventos (EDA - Event-Driven Architecture)](#24-arquitetura-orientada-a-eventos-eda-event-driven-architecture)
+    5. [Matriz Comparativa: Monólito vs. SOA vs. Microsserviços](#25-matriz-comparativa-monolito-vs-soa-vs-microsservicos)
+    6. [Teste 025](#Teste-025)
+    7. [Teste 026](#Teste-026)
+    8. [Teste 027](#Teste-027)
+    9. [Teste 028](#Teste-028)
     10. [Teste 029](#Teste-029)
 3. [Princípios de Design e Código Limpo](#3-principios-de-design-e-codigo-limpo)
     1. [Os Princípios SOLID de Robert C. Martin](#31-os-principios-solid-de-robert-c-martin)
-    2. [Teste 030](#Teste-030)
-    3. [Teste 031](#Teste-031)
-    4. [Princípios Práticos de Engenharia: DRY, KISS e YAGNI](#32-principios-praticos-de-engenharia-dry-kiss-e-yagni)
+    2. [Princípios Práticos de Engenharia: DRY, KISS e YAGNI](#32-principios-praticos-de-engenharia-dry-kiss-e-yagni)
+    3. [Teste 030](#Teste-030)
+    4. [Teste 031](#Teste-031)
     5. [Teste 032](#Teste-032)
 4. [Fontes Oficiais e Referências Bibliográficas](#4-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Fundamentos de Arquitetura de Software
 
@@ -58,8 +54,6 @@ A Arquitetura de Software define a organização fundamental de um sistema corpo
 - **Conectores:** Mecanismos que intermedeiam a comunicação, coordenação e transferência de dados entre os componentes (ex.: chamadas de procedimentos remotos RPC, requisições REST/HTTP, pipes, barramentos de mensageria ou filas Kafka/RabbitMQ);
 - **Trade-offs Arquiteturais:** Nenhuma decisão arquitetural é neutra. Uma escolha que maximize desempenho ou escalabilidade horizontal quase invariavelmente introduz maior complexidade operacional e consistência eventual de dados (*Teorema CAP*).
 
----
-
 ### 1.2 O Modelo 4+1 Visões de Philippe Kruchten
 Para descrever a arquitetura de software sob a ótica de múltiplos públicos (*stakeholders*), Philippe Kruchten introduziu o consagrado modelo **4+1 Visões**:
 
@@ -68,6 +62,28 @@ Para descrever a arquitetura de software sob a ótica de múltiplos públicos (*
 3. **Visão de Desenvolvimento (Implementação):** Mostra a organização estática dos módulos de código-fonte, bibliotecas, frameworks, pacotes e ferramentas de compilação;
 4. **Visão Física (Implantação):** Mapeia os artefatos de software sobre os nós de hardware físico, servidores de aplicação, redes, balanceadores de carga e contêineres na nuvem;
 5. **Visão de Casos de Uso (+1):** Centraliza e integra as quatro visões anteriores a partir dos cenários essenciais que os usuários finais demandam do sistema.
+
+### 1.3 Coesão e Acoplamento: A Busca pela Alta Coesão e Baixo Acoplamento
+A métrica fundamental de qualidade de um design modular reside no equilíbrio entre coesão e acoplamento:
+
+```mermaid
+flowchart LR
+    subgraph AltaCoesao["Alta Coesão (Ideal)"]
+        M1["Módulo de Folha de Pagamento"] --- O1["Calcular Proventos"]
+        M1 --- O2["Calcular Descontos Previdenciários"]
+        M1 --- O3["Emitir Contracheque"]
+    end
+    subgraph BaixoAcoplamento["Baixo Acoplamento (Ideal)"]
+        M1 -.->|Contrato / Interface Abstrata| M2["Serviço de Envio Bancário"]
+    end
+```
+
+- **Coesão:** Mede a proximidade semântica e a harmonia das responsabilidades desempenhadas pelos elementos contidos no interior de um mesmo módulo.
+    - *Alta Coesão (Desejável):* O módulo possui um propósito único, focado e bem delineado. Todos os seus métodos e atributos convergem para atender a uma finalidade coesa.
+    - *Baixa Coesão (Indesejável / Antipadrão):* O módulo executa funções heterogêneas e desconexas (ex.: uma classe "Deus" ou "Manager" que conecta ao banco, valida regras fiscais e desenha janelas na tela).
+- **Acoplamento:** Mede a intensidade da interdependência e a força das conexões entre módulos distintos.
+    - *Baixo Acoplamento (Desejável):* Módulos comunicam-se exclusivamente através de contratos abstratos, interfaces ou mensagens padronizadas. Modificações internas em um módulo não propagam efeitos colaterais nos demais.
+    - *Alto Acoplamento (Indesejável):* Módulos dependem de detalhes concretos de implementação interna uns dos outros, tornando qualquer manutenção arriscada e gerando falhas em cascata.
 
 ---
 
@@ -96,32 +112,6 @@ O modelo arquitetural "4+1 Visões", concebido por Philippe Kruchten, organiza a
 
 ---
 
-
-### 1.3 Coesão e Acoplamento: A Busca pela Alta Coesão e Baixo Acoplamento
-A métrica fundamental de qualidade de um design modular reside no equilíbrio entre coesão e acoplamento:
-
-```mermaid
-flowchart LR
-    subgraph AltaCoesao["Alta Coesão (Ideal)"]
-        M1["Módulo de Folha de Pagamento"] --- O1["Calcular Proventos"]
-        M1 --- O2["Calcular Descontos Previdenciários"]
-        M1 --- O3["Emitir Contracheque"]
-    end
-    subgraph BaixoAcoplamento["Baixo Acoplamento (Ideal)"]
-        M1 -.->|Contrato / Interface Abstrata| M2["Serviço de Envio Bancário"]
-    end
-```
-
-- **Coesão:** Mede a proximidade semântica e a harmonia das responsabilidades desempenhadas pelos elementos contidos no interior de um mesmo módulo.
-    - *Alta Coesão (Desejável):* O módulo possui um propósito único, focado e bem delineado. Todos os seus métodos e atributos convergem para atender a uma finalidade coesa.
-    - *Baixa Coesão (Indesejável / Antipadrão):* O módulo executa funções heterogêneas e desconexas (ex.: uma classe "Deus" ou "Manager" que conecta ao banco, valida regras fiscais e desenha janelas na tela).
-- **Acoplamento:** Mede a intensidade da interdependência e a força das conexões entre módulos distintos.
-    - *Baixo Acoplamento (Desejável):* Módulos comunicam-se exclusivamente através de contratos abstratos, interfaces ou mensagens padronizadas. Modificações internas em um módulo não propagam efeitos colaterais nos demais.
-    - *Alto Acoplamento (Indesejável):* Módulos dependem de detalhes concretos de implementação interna uns dos outros, tornando qualquer manutenção arriscada e gerando falhas em cascata.
-
----
-
-
 ### Teste 024
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na engenharia de software modular e orientada a objetos, dois conceitos fundamentais que determinam a manutenibilidade, testabilidade e elegância do código são a Coesão e o Acoplamento. A respeito desses conceitos, assinale a afirmativa tecnicamente correta:
@@ -145,10 +135,7 @@ Na engenharia de software modular e orientada a objetos, dois conceitos fundamen
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Estilos e Padrões Arquiteturais
 
@@ -163,68 +150,12 @@ Na engenharia de software modular e orientada a objetos, dois conceitos fundamen
     - **Ports and Adapters (Alistair Cockburn):** O núcleo de domínio de negócio fica no centro, completamente isolado de frameworks e bancos. Comunica-se com o mundo externo através de **Portas** (interfaces abstratas) e **Adaptadores** (implementações concretas de controllers REST, drivers de banco ou filas).
     - **Clean Architecture (Robert Martin):** Estruturada em círculos concêntricos governados pela **Regra da Dependência**: as dependências de código-fonte devem apontar unicamente para dentro, em direção às entidades e casos de uso de alto nível.
 
----
-
-### Teste 025
-**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
-A Arquitetura Hexagonal (*Ports and Adapters*), idealizada por Alistair Cockburn, consolidou-se como um dos padrões arquiteturais fundamentais para sistemas modernos que buscam isolar as regras de negócio de frameworks e detalhes tecnológicos externos. Em relação a essa arquitetura, é correto afirmar que:
-
-* **A)** as regras de negócio residem no centro do hexágono e comunicam-se com o mundo externo exclusivamente por meio de Portas (*Ports* - interfaces abstratas), cujas implementações concretas são fornecidas pelos Adaptadores (*Adapters*).
-* **B)** o banco de dados e a interface gráfica do usuário devem obrigatoriamente ser acoplados diretamente ao domínio central do sistema.
-* **C)** o padrão proíbe o uso de testes unitários automatizados no domínio interno sem a presença de um servidor de aplicação web ativo.
-* **D)** a arquitetura hexagonal exige a utilização de seis camadas físicas de hardware redundantes para operar em produção.
-* **E)** portas e adaptadores só podem ser implementados se a aplicação utilizar banco de dados relacional baseado em linguagem SQL padrão ANSI.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) Correta.** No padrão Ports and Adapters, a lógica de domínio reside no núcleo isolado; ela define *Portas* (interfaces de entrada/saída) e o mundo externo (REST, filas, bancos, CLI) conecta-se a essas portas através de *Adaptadores*.
-> - **B) Incorreta.** O princípio central da arquitetura hexagonal é justamente desacoplar o banco de dados e a UI da lógica de negócio.
-> - **C) Incorreta.** A maior vantagem da arquitetura hexagonal é permitir testar 100% da lógica de negócio em isolamento absoluto, sem necessidade de banco, web ou infraestrutura externa.
-> - **D) Incorreta.** O nome "hexagonal" é meramente uma metáfora visual gráfica; não se refere a nós de hardware.
-> - **E) Incorreta.** A arquitetura é agnóstica em relação a mecanismos de persistência (relacional, NoSQL, arquivos em memória, etc.).
->
-> **Gabarito: A**
-
----
-
-
 ### 2.2 Arquitetura Orientada a Serviços (SOA) e o Papel do Barramento Corporativo (ESB)
 A Arquitetura Orientada a Serviços (SOA) é um estilo arquitetural corporativo que integra aplicações legadas heterogêneas através de serviços fracamente acoplados e reutilizáveis:
 
 - **Princípios Fundamentais de SOA (Thomas Erl):** Contratos de serviço formais e padronizados, baixo acoplamento, abstração de tecnologia, reusabilidade corporativa, autonomia funcional, composabilidade e descoberta de serviços;
 - **Barramento de Serviços Corporativo (ESB - Enterprise Service Bus):** Infraestrutura de middleware centralizada e pesada que assume a responsabilidade de conectar, mediar, rotear, transformar protocolos (ex.: converter JSON/HTTP para XML/SOAP) e orquestrar fluxos de trabalho entre sistemas legados distintos;
 - **Padrões de Comunicação:** Serviços web baseados em SOAP (*Simple Object Access Protocol*), descritos formalmente em documentos WSDL (*Web Services Description Language*) e registrados em repositórios UDDI.
-
----
-
-### Teste 026
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-No modelo de Arquitetura Orientada a Serviços (SOA), o Barramento Corporativo de Serviços (*Enterprise Service Bus* - ESB) desempenha um papel de integração centralizada na infraestrutura organizacional. Dentre as responsabilidades e capacidades fundamentais desempenhadas por um ESB clássico, destaca-se:
-
-* **A)** A compilação em tempo de execução de todo o código-fonte Java e Python existente nos clientes web.
-* **B)** O roteamento inteligente de mensagens, a transformação entre formatos e protocolos de comunicação heterogêneos e a mediação de serviços corporativos.
-* **C)** A substituição permanente de qualquer banco de dados relacional pelo armazenamento de dados diretamente no buffer da memória RAM do barramento.
-* **D)** A imposição de que todos os serviços legados da empresa sejam reescritos obrigatoriamente na mesma linguagem de programação.
-* **E)** A execução de algoritmos de inteligência artificial generativa para criação autônoma de novos produtos bancários.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** O ESB não é compilador de linguagens.
-> - **B) Correta.** As funções essenciais do ESB são roteamento, mediação, mensageria, segurança e transformação de formatos e protocolos (por exemplo, converter chamadas SOAP/XML em REST/JSON ou conectores JMS).
-> - **C) Incorreta.** O ESB é uma plataforma de transporte e integração de mensagens, não um banco de dados transacional substituto.
-> - **D) Incorreta.** SOA e ESB promovem a interoperabilidade entre linguagens e plataformas heterogêneas, sem exigir reescrita na mesma linguagem.
-> - **E) Incorreta.** Atividade fictícia e alheia ao escopo clássico de integração via ESB.
->
-> **Gabarito: B**
-
----
-
 
 ### 2.3 Arquitetura de Microsserviços e seus Padrões de Resiliência e Dados
 A arquitetura de microsserviços decompõe um sistema em um conjunto de serviços autônomos, de granularidade fina, modelados em torno de contextos de negócios delimitados (*Bounded Contexts* do Domain-Driven Design - DDD):
@@ -258,6 +189,73 @@ stateDiagram-v2
 
 4. **CQRS (Command Query Responsibility Segregation):** Segrega o modelo de escrita/atualização de dados (*Commands*) do modelo de leitura/consulta (*Queries*), permitindo otimizar e escalar separadamente os bancos de escrita (foco em normalização) e de leitura (foco em desnormalização rápida).
 
+### 2.4 Arquitetura Orientada a Eventos (EDA - Event-Driven Architecture)
+Estilo arquitetural fundamentado na produção, captura, processamento e reação a **eventos** (mudanças significativas de estado no negócio):
+
+- **Componentes:** *Produtores de Eventos* (emitem notificações de que algo ocorreu), *Event Brokers* (canais de mensageria assíncrona como Apache Kafka ou RabbitMQ) e *Consumidores de Eventos* (reagem e processam os eventos);
+- **Modelos:** *Publicação/Assinatura (Pub/Sub)* e *Event Streaming* (fluxo contínuo e persistido de eventos ordenados);
+- **Event Sourcing:** Padrão arquitetural em que o estado atual de uma entidade não é armazenado em campos estáticos de uma tabela, mas reconstruído dinamicamente mediante a reprodução sequencial de uma trilha histórica imutável de eventos registrados (*append-only log*).
+
+### 2.5 Matriz Comparativa: Monólito vs. SOA vs. Microsserviços
+
+| Característica | Arquitetura Monolítica | SOA (Service-Oriented) | Microsserviços |
+| :--- | :--- | :--- | :--- |
+| **Composição da Aplicação** | Bloco único de implantação | Serviços corporativos reutilizáveis | Pequenos serviços focados em domínios (*Bounded Contexts*) |
+| **Infraestrutura de Integração** | Chamadas diretas em memória | Barramento Corporativo Inteligente (**ESB**) centralizado | Mecanismos leves (*Smart endpoints, dumb pipes* via REST/gRPC/Kafka) |
+| **Gerenciamento de Dados** | Banco de dados único e centralizado | Banco de dados compartilhado por múltiplos serviços | Banco de dados exclusivo por serviço (**Database per Service**) |
+| **Independência de Deploy** | Nula (deploy tudo-ou-nada) | Moderada a baixa (deploys coordenados) | Totalmente independente para cada microsserviço |
+| **Acoplamento Tecnológico** | Alto (pilha tecnológica única) | Médio (contratos padronizados WSDL) | Nulo (poliglotismo: cada serviço usa a linguagem ideal) |
+
+---
+
+### Teste 025
+**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
+A Arquitetura Hexagonal (*Ports and Adapters*), idealizada por Alistair Cockburn, consolidou-se como um dos padrões arquiteturais fundamentais para sistemas modernos que buscam isolar as regras de negócio de frameworks e detalhes tecnológicos externos. Em relação a essa arquitetura, é correto afirmar que:
+
+* **A)** as regras de negócio residem no centro do hexágono e comunicam-se com o mundo externo exclusivamente por meio de Portas (*Ports* - interfaces abstratas), cujas implementações concretas são fornecidas pelos Adaptadores (*Adapters*).
+* **B)** o banco de dados e a interface gráfica do usuário devem obrigatoriamente ser acoplados diretamente ao domínio central do sistema.
+* **C)** o padrão proíbe o uso de testes unitários automatizados no domínio interno sem a presença de um servidor de aplicação web ativo.
+* **D)** a arquitetura hexagonal exige a utilização de seis camadas físicas de hardware redundantes para operar em produção.
+* **E)** portas e adaptadores só podem ser implementados se a aplicação utilizar banco de dados relacional baseado em linguagem SQL padrão ANSI.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** No padrão Ports and Adapters, a lógica de domínio reside no núcleo isolado; ela define *Portas* (interfaces de entrada/saída) e o mundo externo (REST, filas, bancos, CLI) conecta-se a essas portas através de *Adaptadores*.
+> - **B) Incorreta.** O princípio central da arquitetura hexagonal é justamente desacoplar o banco de dados e a UI da lógica de negócio.
+> - **C) Incorreta.** A maior vantagem da arquitetura hexagonal é permitir testar 100% da lógica de negócio em isolamento absoluto, sem necessidade de banco, web ou infraestrutura externa.
+> - **D) Incorreta.** O nome "hexagonal" é meramente uma metáfora visual gráfica; não se refere a nós de hardware.
+> - **E) Incorreta.** A arquitetura é agnóstica em relação a mecanismos de persistência (relacional, NoSQL, arquivos em memória, etc.).
+>
+> **Gabarito: A**
+
+---
+
+### Teste 026
+**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+No modelo de Arquitetura Orientada a Serviços (SOA), o Barramento Corporativo de Serviços (*Enterprise Service Bus* - ESB) desempenha um papel de integração centralizada na infraestrutura organizacional. Dentre as responsabilidades e capacidades fundamentais desempenhadas por um ESB clássico, destaca-se:
+
+* **A)** A compilação em tempo de execução de todo o código-fonte Java e Python existente nos clientes web.
+* **B)** O roteamento inteligente de mensagens, a transformação entre formatos e protocolos de comunicação heterogêneos e a mediação de serviços corporativos.
+* **C)** A substituição permanente de qualquer banco de dados relacional pelo armazenamento de dados diretamente no buffer da memória RAM do barramento.
+* **D)** A imposição de que todos os serviços legados da empresa sejam reescritos obrigatoriamente na mesma linguagem de programação.
+* **E)** A execução de algoritmos de inteligência artificial generativa para criação autônoma de novos produtos bancários.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O ESB não é compilador de linguagens.
+> - **B) Correta.** As funções essenciais do ESB são roteamento, mediação, mensageria, segurança e transformação de formatos e protocolos (por exemplo, converter chamadas SOAP/XML em REST/JSON ou conectores JMS).
+> - **C) Incorreta.** O ESB é uma plataforma de transporte e integração de mensagens, não um banco de dados transacional substituto.
+> - **D) Incorreta.** SOA e ESB promovem a interoperabilidade entre linguagens e plataformas heterogêneas, sem exigir reescrita na mesma linguagem.
+> - **E) Incorreta.** Atividade fictícia e alheia ao escopo clássico de integração via ESB.
+>
+> **Gabarito: B**
+
 ---
 
 ### Teste 027
@@ -285,17 +283,6 @@ Em uma arquitetura de microsserviços distribuídos, para evitar que a indisponi
 
 ---
 
-
-
-### 2.4 Arquitetura Orientada a Eventos (EDA - Event-Driven Architecture)
-Estilo arquitetural fundamentado na produção, captura, processamento e reação a **eventos** (mudanças significativas de estado no negócio):
-
-- **Componentes:** *Produtores de Eventos* (emitem notificações de que algo ocorreu), *Event Brokers* (canais de mensageria assíncrona como Apache Kafka ou RabbitMQ) e *Consumidores de Eventos* (reagem e processam os eventos);
-- **Modelos:** *Publicação/Assinatura (Pub/Sub)* e *Event Streaming* (fluxo contínuo e persistido de eventos ordenados);
-- **Event Sourcing:** Padrão arquitetural em que o estado atual de uma entidade não é armazenado em campos estáticos de uma tabela, mas reconstruído dinamicamente mediante a reprodução sequencial de uma trilha histórica imutável de eventos registrados (*append-only log*).
-
----
-
 ### Teste 028
 **(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
 A Arquitetura Orientada a Eventos (*Event-Driven Architecture* - EDA) é caracterizada pela comunicação assíncrona desacoplada baseada na produção, detecção e consumo de eventos de negócio. Nesse paradigma, quando associado ao padrão CQRS (*Command Query Responsibility Segregation*), tem-se que:
@@ -318,19 +305,6 @@ A Arquitetura Orientada a Eventos (*Event-Driven Architecture* - EDA) é caracte
 > - **E) Incorreta.** Em sistemas distribuídos com CQRS e projeções assíncronas, o modelo de leitura opera frequentemente sob consistência eventual.
 >
 > **Gabarito: A**
-
----
-
-
-### 2.5 Matriz Comparativa: Monólito vs. SOA vs. Microsserviços
-
-| Característica | Arquitetura Monolítica | SOA (Service-Oriented) | Microsserviços |
-| :--- | :--- | :--- | :--- |
-| **Composição da Aplicação** | Bloco único de implantação | Serviços corporativos reutilizáveis | Pequenos serviços focados em domínios (*Bounded Contexts*) |
-| **Infraestrutura de Integração** | Chamadas diretas em memória | Barramento Corporativo Inteligente (**ESB**) centralizado | Mecanismos leves (*Smart endpoints, dumb pipes* via REST/gRPC/Kafka) |
-| **Gerenciamento de Dados** | Banco de dados único e centralizado | Banco de dados compartilhado por múltiplos serviços | Banco de dados exclusivo por serviço (**Database per Service**) |
-| **Independência de Deploy** | Nula (deploy tudo-ou-nada) | Moderada a baixa (deploys coordenados) | Totalmente independente para cada microsserviço |
-| **Acoplamento Tecnológico** | Alto (pilha tecnológica única) | Médio (contratos padronizados WSDL) | Nulo (poliglotismo: cada serviço usa a linguagem ideal) |
 
 ---
 
@@ -365,10 +339,7 @@ Está correto o que se afirma em:
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 3. Princípios de Design e Código Limpo
 
@@ -413,6 +384,11 @@ graph TD
 > - **Inversão de Dependência (DIP):** É o princípio conceitual abstrato de design (depender de interfaces).
 > - **Inversão de Controle (IoC):** É a estratégia arquitetural genérica onde o fluxo de execução é delegado ao framework.
 > - **Injeção de Dependência (DI):** É o padrão de projeto prático que implementa a IoC/DIP, fornecendo as instâncias concretas das dependências através de construtores ou métodos setter.
+
+### 3.2 Princípios Práticos de Engenharia: DRY, KISS e YAGNI
+- **DRY (Don't Repeat Yourself - Não se Repita):** Formulado por Andy Hunt e Dave Thomas no livro *The Pragmatic Programmer*. Estabelece que cada porção de conhecimento ou lógica de negócio em um sistema deve possuir uma representação única, não ambígua e autoritativa. Combate a duplicação de regras em múltiplos pontos do código;
+- **KISS (Keep It Simple, Stupid - Mantenha as Coisas Simples):** Princípio de design que preconiza a simplicidade estrutural. A solução mais simples que resolve adequadamente o problema deve sempre prevalecer sobre soluções sofisticadas e excessivamente complexas;
+- **YAGNI (You Aren't Gonna Need It - Você Não Vai Precisar Disso):** Princípio fundamental do Extreme Programming (XP). Determina que os desenvolvedores **não devem implementar funcionalidades antecipadamente com base em suposições futuras**, construindo apenas aquilo que é estritamente exigido pelos requisitos atuais. Evita o desperdício de *Gold Plating* e a sobre-engenharia (*overengineering*).
 
 ---
 
@@ -466,15 +442,6 @@ Considere uma classe Java que calcula o valor do frete para pedidos de um tribun
 
 ---
 
-
-
-### 3.2 Princípios Práticos de Engenharia: DRY, KISS e YAGNI
-- **DRY (Don't Repeat Yourself - Não se Repita):** Formulado por Andy Hunt e Dave Thomas no livro *The Pragmatic Programmer*. Estabelece que cada porção de conhecimento ou lógica de negócio em um sistema deve possuir uma representação única, não ambígua e autoritativa. Combate a duplicação de regras em múltiplos pontos do código;
-- **KISS (Keep It Simple, Stupid - Mantenha as Coisas Simples):** Princípio de design que preconiza a simplicidade estrutural. A solução mais simples que resolve adequadamente o problema deve sempre prevalecer sobre soluções sofisticadas e excessivamente complexas;
-- **YAGNI (You Aren't Gonna Need It - Você Não Vai Precisar Disso):** Princípio fundamental do Extreme Programming (XP). Determina que os desenvolvedores **não devem implementar funcionalidades antecipadamente com base em suposições futuras**, construindo apenas aquilo que é estritamente exigido pelos requisitos atuais. Evita o desperdício de *Gold Plating* e a sobre-engenharia (*overengineering*).
-
----
-
 ### Teste 032
 **(FCC – SEFAZ – Auditor de Tecnologia da Informação)**  
 No contexto das boas práticas de engenharia e arquitetura de software, os acrônimos DRY e YAGNI orientam a tomada de decisões no projeto de sistemas. A correta definição desses princípios estabelece que:
@@ -498,10 +465,7 @@ No contexto das boas práticas de engenharia e arquitetura de software, os acrô
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Fontes Oficiais e Referências Bibliográficas
 

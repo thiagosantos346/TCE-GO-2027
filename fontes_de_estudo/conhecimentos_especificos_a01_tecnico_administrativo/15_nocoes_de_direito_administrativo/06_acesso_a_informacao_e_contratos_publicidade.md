@@ -19,42 +19,38 @@
 - Contratação de serviços de publicidade pela Administração Pública: Lei Federal nº 12.232/2010 e alterações
 - Julgamento por subcomissão técnica e vedação da modalidade pregão para serviços de criação publicitária
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Transparência Pública e Regime da Lei de Acesso à Informação](#1-transparencia-publica-e-regime-da-lei-de-acesso-a-informacao)
     1. [Diretrizes Fundamentais: A Publicidade como Regra Geral](#11-diretrizes-fundamentais-a-publicidade-como-regra-geral)
-    2. [Teste 056](#Teste-056)
-    3. [Transparência Ativa e a Divulgação de Vencimentos (Tema 483 / STF)](#12-transparencia-ativa-e-a-divulgacao-de-vencimentos-tema-483-stf)
-    4. [Teste 057](#Teste-057)
-    5. [Transparência Passiva e a Vedação de Justificativa (Art. 10, § 3º)](#13-transparencia-passiva-e-a-vedacao-de-justificativa-art-10-3o)
-    6. [Teste 058](#Teste-058)
-    7. [Prazos Procedimentais e Regime Recursal](#14-prazos-procedimentais-e-regime-recursal)
+    2. [Transparência Ativa e a Divulgação de Vencimentos (Tema 483 / STF)](#12-transparencia-ativa-e-a-divulgacao-de-vencimentos-tema-483-stf)
+    3. [Transparência Passiva e a Vedação de Justificativa (Art. 10, § 3º)](#13-transparencia-passiva-e-a-vedacao-de-justificativa-art-10-3o)
+    4. [Prazos Procedimentais e Regime Recursal](#14-prazos-procedimentais-e-regime-recursal)
+    5. [Teste 056](#Teste-056)
+    6. [Teste 057](#Teste-057)
+    7. [Teste 058](#Teste-058)
     8. [Teste 059](#Teste-059)
 2. [Classificação de Informações Sigilosas e Proteção de Dados Pessoais](#2-classificacao-de-informacoes-sigilosas-e-protecao-de-dados-pessoais)
     1. [Graus de Sigilo e Prazos Máximos de Restrição](#21-graus-de-sigilo-e-prazos-maximos-de-restricao)
-    2. [Teste 060](#Teste-060)
-    3. [Competência Funcional para Classificação no Estado de Goiás](#22-competencia-funcional-para-classificacao-no-estado-de-goias)
-    4. [Teste 061](#Teste-061)
-    5. [Proteção de Informações Pessoais (100 Anos)](#23-protecao-de-informacoes-pessoais-100-anos)
-    6. [Vedação Absoluta de Sigilo: Violações a Direitos Humanos](#24-vedacao-absoluta-de-sigilo-violacoes-a-direitos-humanos)
+    2. [Competência Funcional para Classificação no Estado de Goiás](#22-competencia-funcional-para-classificacao-no-estado-de-goias)
+    3. [Proteção de Informações Pessoais (100 Anos)](#23-protecao-de-informacoes-pessoais-100-anos)
+    4. [Vedação Absoluta de Sigilo: Violações a Direitos Humanos](#24-vedacao-absoluta-de-sigilo-violacoes-a-direitos-humanos)
+    5. [Teste 060](#Teste-060)
+    6. [Teste 061](#Teste-061)
     7. [Teste 062](#Teste-062)
 3. [Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)](#3-licitacoes-e-contratos-de-servicos-de-publicidade-lei-no-122322010)
     1. [Objeto Específico e a Vedação Categórica ao Pregão](#31-objeto-especifico-e-a-vedacao-categorica-ao-pregao)
-    2. [Teste 063](#Teste-063)
-    3. [Tipos Licitatórios Obrigatórios](#32-tipos-licitatorios-obrigatorios)
-    4. [Teste 064](#Teste-064)
-    5. [A Subcomissão Técnica de Julgamento (Art. 10)](#33-a-subcomissao-tecnica-de-julgamento-art-10)
-    6. [Teste 065](#Teste-065)
-    7. [Julgamento às Cegas e Proposta Técnica Desidentificada](#34-julgamento-as-cegas-e-proposta-tecnica-desidentificada)
+    2. [Tipos Licitatórios Obrigatórios](#32-tipos-licitatorios-obrigatorios)
+    3. [A Subcomissão Técnica de Julgamento (Art. 10)](#33-a-subcomissao-tecnica-de-julgamento-art-10)
+    4. [Julgamento às Cegas e Proposta Técnica Desidentificada](#34-julgamento-as-cegas-e-proposta-tecnica-desidentificada)
+    5. [Teste 063](#Teste-063)
+    6. [Teste 064](#Teste-064)
+    7. [Teste 065](#Teste-065)
 4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Transparência Pública e Regime da Lei de Acesso à Informação
 
@@ -78,7 +74,35 @@ flowchart TD
     LAI --> PASSIVA["TRANSPARÊNCIA PASSIVA (e-SIC)<br/>• Fornecimento de informação demandada por cidadão<br/>• VEDADA a exigência de justificar o motivo!<br/>• Prazo: resposta imediata ou 20 dias (+10 dias)"]
 ```
 
+### 1.2 Transparência Ativa e a Divulgação de Vencimentos (Tema 483 / STF)
 
+A **transparência ativa** compreende o dever imposto aos órgãos públicos de veicular, em seus sítios oficiais na internet, independentemente de qualquer requerimento prévio de cidadãos, um rol mínimo de informações administrativas: estrutura organizacional, repasses financeiros, execução orçamentária detalhada, procedimentos licitatórios com editais e contratos na íntegra, relatórios de gestão fiscal e dados de auditoria externa.
+
+#### A Divulgação Nominal de Remuneração e o Tema 483 do STF:
+Uma das controvérsias mais relevantes decididas pelo Pretório Excelso refere-se à publicação dos salários de servidores públicos. No julgamento do **Tema 483 da Repercussão Geral (RE 652.777)**, o STF fixou a seguinte tese vinculante:
+> *"É legítima a publicação, inclusive em sítio eletrônico mantido pela Administração Pública, dos nomes dos seus servidores e do valor dos correspondentes vencimentos e vantagens pecuniárias."*
+
+- **Fundamento Constitucional:** A remuneração do servidor decorre do exercício de função pública remunerada com recursos arrecadados de toda a sociedade. A publicidade nominal e individualizada atende aos princípios republicano e da moralidade administrativa, não configurando invasão ilícita na intimidade ou na vida privada dos agentes públicos.
+
+### 1.3 Transparência Passiva e a Vedação de Justificativa (Art. 10, § 3º)
+
+A **transparência passiva** instrumentaliza o dever do poder público de responder a demandas específicas formuladas por qualquer interessado por meio do **Serviço de Informações ao Cidadão (SIC / e-SIC)**.
+
+> 🚨 **REGRA DE OURO / ALERTA CRÍTICO FCC:**  
+> O art. 10, § 3º, da Lei Federal nº 12.527/2011 (reproduzido textualmente na Lei Estadual/GO nº 18.025/2013) estabelece expressamente:  
+> **"São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público."**  
+> O cidadão não precisa demonstrar interesse pessoal, não precisa de representação por advogado e **não precisa justificar o porquê** de estar solicitando a informação. Qualquer indeferimento administrativo fundado em "falta de legítimo interesse" ou "ausência de justificativa" é flagrantemente ilegal!
+
+### 1.4 Prazos Procedimentais e Regime Recursal
+
+O procedimento de atendimento às solicitações de informação rege-se pelos seguintes parâmetros temporais estritos:
+
+- **Acesso Imediato:** Se a informação solicitada estiver disponível de pronto, o órgão deve franqueá-la de imediato ao requerente.
+- **Prazo Ordinário:** Não sendo possível o acesso imediato, o órgão tem até **20 (vinte) dias** para prestar a informação, indicar que não possui a informação (apontando, se souber, o órgão correto) ou comunicar a recusa fundamentada de sigilo.
+- **Prorrogação Justificada:** O prazo de 20 dias pode ser prorrogado por mais **10 (dez) dias** (totalizando até 30 dias), desde que haja **justificativa expressa prévia** comunicada formalmente ao cidadão antes do vencimento do prazo originário.
+- **Recursos Administrativos:** No caso de indeferimento de acesso ou de omissão de resposta, o interessado pode interpor recurso administrativo no prazo de **10 (dez) dias** a contar da ciência da decisão, dirigido à autoridade hierarquicamente superior à que negou a informação, que terá o prazo de 5 (cinco) dias para deliberar.
+
+---
 
 ### Teste 056
 **(FCC - Auditor de Controle Externo / TCE-GO)**
@@ -104,18 +128,6 @@ A respeito das diretrizes estruturantes da LAI e do regime de publicidade na Adm
 > - **E)** Incorreta. O art. 10 da LAI estabelece que o serviço de busca e fornecimento da informação é **gratuito**, salvo nos casos de reprodução de documentos pelo órgão, situação em que poderá ser cobrado exclusivamente o valor do custo dos serviços e dos materiais utilizados.
 >
 > **Gabarito: B**
-
----
-
-### 1.2 Transparência Ativa e a Divulgação de Vencimentos (Tema 483 / STF)
-
-A **transparência ativa** compreende o dever imposto aos órgãos públicos de veicular, em seus sítios oficiais na internet, independentemente de qualquer requerimento prévio de cidadãos, um rol mínimo de informações administrativas: estrutura organizacional, repasses financeiros, execução orçamentária detalhada, procedimentos licitatórios com editais e contratos na íntegra, relatórios de gestão fiscal e dados de auditoria externa.
-
-#### A Divulgação Nominal de Remuneração e o Tema 483 do STF:
-Uma das controvérsias mais relevantes decididas pelo Pretório Excelso refere-se à publicação dos salários de servidores públicos. No julgamento do **Tema 483 da Repercussão Geral (RE 652.777)**, o STF fixou a seguinte tese vinculante:
-> *"É legítima a publicação, inclusive em sítio eletrônico mantido pela Administração Pública, dos nomes dos seus servidores e do valor dos correspondentes vencimentos e vantagens pecuniárias."*
-
-- **Fundamento Constitucional:** A remuneração do servidor decorre do exercício de função pública remunerada com recursos arrecadados de toda a sociedade. A publicidade nominal e individualizada atende aos princípios republicano e da moralidade administrativa, não configurando invasão ilícita na intimidade ou na vida privada dos agentes públicos.
 
 ---
 
@@ -146,18 +158,6 @@ Em consonância com a jurisprudência vinculante fixada pelo Supremo Tribunal Fe
 
 ---
 
-
-### 1.3 Transparência Passiva e a Vedação de Justificativa (Art. 10, § 3º)
-
-A **transparência passiva** instrumentaliza o dever do poder público de responder a demandas específicas formuladas por qualquer interessado por meio do **Serviço de Informações ao Cidadão (SIC / e-SIC)**.
-
-> 🚨 **REGRA DE OURO / ALERTA CRÍTICO FCC:**  
-> O art. 10, § 3º, da Lei Federal nº 12.527/2011 (reproduzido textualmente na Lei Estadual/GO nº 18.025/2013) estabelece expressamente:  
-> **"São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público."**  
-> O cidadão não precisa demonstrar interesse pessoal, não precisa de representação por advogado e **não precisa justificar o porquê** de estar solicitando a informação. Qualquer indeferimento administrativo fundado em "falta de legítimo interesse" ou "ausência de justificativa" é flagrantemente ilegal!
-
----
-
 ### Teste 058
 **(FCC - Analista de Controle Externo / Adaptada TCE-GO)**
 Um cidadão domiciliado no Município de Goiânia protocolou pedido de acesso à informação no Serviço de Informações ao Cidadão (SIC) do Tribunal de Contas do Estado de Goiás, solicitando cópia integral dos processos licitatórios e contratos de fornecimento de tecnologia celebrados pelo Tribunal no ano anterior. O servidor encarregado do protocolo indeferiu liminarmente a solicitação, justificando que o interessado não havia comprovado legítimo interesse nem declarado os motivos pelos quais desejava consultar a referida documentação.
@@ -185,20 +185,6 @@ Um cidadão domiciliado no Município de Goiânia protocolou pedido de acesso à
 
 ---
 
-
-### 1.4 Prazos Procedimentais e Regime Recursal
-
-O procedimento de atendimento às solicitações de informação rege-se pelos seguintes parâmetros temporais estritos:
-
-- **Acesso Imediato:** Se a informação solicitada estiver disponível de pronto, o órgão deve franqueá-la de imediato ao requerente.
-- **Prazo Ordinário:** Não sendo possível o acesso imediato, o órgão tem até **20 (vinte) dias** para prestar a informação, indicar que não possui a informação (apontando, se souber, o órgão correto) ou comunicar a recusa fundamentada de sigilo.
-- **Prorrogação Justificada:** O prazo de 20 dias pode ser prorrogado por mais **10 (dez) dias** (totalizando até 30 dias), desde que haja **justificativa expressa prévia** comunicada formalmente ao cidadão antes do vencimento do prazo originário.
-- **Recursos Administrativos:** No caso de indeferimento de acesso ou de omissão de resposta, o interessado pode interpor recurso administrativo no prazo de **10 (dez) dias** a contar da ciência da decisão, dirigido à autoridade hierarquicamente superior à que negou a informação, que terá o prazo de 5 (cinco) dias para deliberar.
-
----
-
-
-
 ### Teste 059
 **(FGV - Analista de Controle Externo / Auditoria)**
 Determinado cidadão protocolou requerimento de acesso à informação perante uma autarquia estadual, solicitando cópia integral de notas de empenho e medições de uma obra de pavimentação rodoviária.
@@ -224,10 +210,7 @@ De acordo com o rito procedimental estabelecido pela Lei Federal nº 12.527/2011
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 2. Classificação de Informações Sigilosas e Proteção de Dados Pessoais
 
@@ -253,6 +236,27 @@ flowchart LR
 | **Ultrassecreto** | Até **25 anos** | **SIM** (apenas uma única vez, por igual período) | Governador do Estado e Presidentes dos Poderes / Tribunal de Contas |
 | **Secreto** | Até **15 anos** | **NÃO** (prazo improrrogável) | Governador, Secretários de Estado e dirigentes máximos de autarquias |
 | **Reservado** | Até **5 anos** | **NÃO** (prazo improrrogável) | Autoridades que exerçam funções de direção, chefia ou comando |
+
+### 2.2 Competência Funcional para Classificação no Estado de Goiás
+
+A classificação do sigilo é privativa de autoridades com expressa investidura legal:
+
+- A classificação no grau **ultrassecreto** exige a chancela pessoal do Chefe do Poder Executivo (Governador) ou dos Presidentes da Assembleia Legislativa, do Tribunal de Justiça e do Tribunal de Contas.
+- O grau **secreto** pode ser delegado até o nível de Secretários de Estado e dirigentes máximos de autarquias e fundações.
+- O grau **reservado** pode ser firmado por autoridades que exerçam atribuições de direção, chefia ou assessoria superior.
+
+### 2.3 Proteção de Informações Pessoais (100 Anos)
+
+O art. 31 da LAI estabelece regime especial de proteção para as informações pessoais relativas à **intimidade, vida privada, honra e imagem**:
+
+- Têm acesso restrito a agentes públicos legalmente autorizados e à própria pessoa a que se referem, independentemente de classificação de sigilo;
+- O prazo máximo de restrição de acesso a informações pessoais sensíveis é de **até 100 (cem) anos**, a contar da data de sua produção.
+
+### 2.4 Vedação Absoluta de Sigilo: Violações a Direitos Humanos
+
+> 🚨 **ALERTA CRÍTICO DE PROVA FCC:**  
+> O art. 21, parágrafo único, da LAI consagra uma vedação intransponível:  
+> **Não pode ser objeto de qualquer classificação de sigilo nem ter seu acesso restringido a informação ou documento que verse sobre condutas que impliquem violação a direitos humanos praticadas por agentes públicos ou a mando de autoridades públicas!**
 
 ---
 
@@ -286,17 +290,6 @@ Em relação aos graus de sigilo e aos prazos máximos legais de restrição de 
 
 ---
 
-
-### 2.2 Competência Funcional para Classificação no Estado de Goiás
-
-A classificação do sigilo é privativa de autoridades com expressa investidura legal:
-
-- A classificação no grau **ultrassecreto** exige a chancela pessoal do Chefe do Poder Executivo (Governador) ou dos Presidentes da Assembleia Legislativa, do Tribunal de Justiça e do Tribunal de Contas.
-- O grau **secreto** pode ser delegado até o nível de Secretários de Estado e dirigentes máximos de autarquias e fundações.
-- O grau **reservado** pode ser firmado por autoridades que exerçam atribuições de direção, chefia ou assessoria superior.
-
-
-
 ### Teste 061
 **(FCC - Técnico de Controle Externo / Adaptada TCE-GO)**
 No que concerne à classificação de informações sigilosas e à competência para a atribuição dos graus de sigilo no âmbito da Administração Pública do Estado de Goiás, conforme a Lei nº 12.527/2011 e o Decreto Estadual nº 7.904/2013, assinale a afirmativa correta.
@@ -321,23 +314,6 @@ No que concerne à classificação de informações sigilosas e à competência 
 > **Gabarito: A**
 
 ---
-
-### 2.3 Proteção de Informações Pessoais (100 Anos)
-
-O art. 31 da LAI estabelece regime especial de proteção para as informações pessoais relativas à **intimidade, vida privada, honra e imagem**:
-
-- Têm acesso restrito a agentes públicos legalmente autorizados e à própria pessoa a que se referem, independentemente de classificação de sigilo;
-- O prazo máximo de restrição de acesso a informações pessoais sensíveis é de **até 100 (cem) anos**, a contar da data de sua produção.
-
-### 2.4 Vedação Absoluta de Sigilo: Violações a Direitos Humanos
-
-> 🚨 **ALERTA CRÍTICO DE PROVA FCC:**  
-> O art. 21, parágrafo único, da LAI consagra uma vedação intransponível:  
-> **Não pode ser objeto de qualquer classificação de sigilo nem ter seu acesso restringido a informação ou documento que verse sobre condutas que impliquem violação a direitos humanos praticadas por agentes públicos ou a mando de autoridades públicas!**
-
----
-
-
 
 ### Teste 062
 **(FGV - Analista de Controle Externo / TCE-GO)**
@@ -364,10 +340,7 @@ Determinado cidadão requereu, com fundamento na LAI, acesso aos registros funci
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)
 
@@ -378,6 +351,40 @@ A contratação de serviços de publicidade institucional pela Administração P
 - **Abrangência do Objeto (Art. 2º):** Destina-se exclusivamente à contratação de serviços prestados por intermédio de agências de propaganda, compreendendo o conjunto de atividades integradas de estudo, planejamento, conceituação, concepção, criação, execução interna e distribuição de peças e campanhas publicitárias.
 - **VEDAÇÃO ABSOLUTA AO PREGÃO (Art. 5º da Lei 12.232/2010 c/c Art. 29 da Lei 14.133/2021):**  
   A criação publicitária constitui serviço eminentemente intelectual, subjetivo e artístico, cujos padrões de desempenho e qualidade não podem ser prévia e objetivamente definidos por especificações usuais de mercado. Portanto, **é terminantemente PROIBIDA a utilização da modalidade PREGÃO** para a contratação de serviços de publicidade que envolvam esforço criativo!
+
+### 3.2 Tipos Licitatórios Obrigatórios
+
+Por expressa imposição do art. 5º da Lei nº 12.232/2010, as licitações para serviços de publicidade devem ser processadas e julgadas **obrigatoriamente** por meio de um dos seguintes tipos licitatórios:
+
+1. **Melhor Técnica**; ou
+2. **Técnica e Preço**.
+
+### 3.3 A Subcomissão Técnica de Julgamento (Art. 10)
+
+Para julgar a proposta técnica das agências concorrentes, a lei afasta a comissão permanente genérica e exige a criação de uma **Subcomissão Técnica especializada**, que obedece a requisitos estritos:
+
+```mermaid
+flowchart TD
+    SUB["Subcomissão Técnica de Publicidade (Art. 10, Lei 12.232/10)"]
+    
+    SUB --> COMP["Composição Mínima<br/>Pelo menos 3 (três) membros qualificados<br/>(com formação ou atuação em comunicação/marketing)"]
+    
+    SUB --> SORTEIO["Escolha Obrigatória por SORTEIO PÚBLICO<br/>Sessão aberta convocada com antecedência mínima de 10 dias"]
+    
+    SUB --> INDEP["Garantia de Independência Externa<br/>Pelo menos 1/3 dos membros NÃO PODEM ter vínculo funcional<br/>com o órgão licitante"]
+```
+
+1. **Número de Membros:** Composta por, no mínimo, **3 (três) membros** qualificados (com formação superior ou experiência comprovada na área de publicidade, comunicação social ou marketing);
+2. **Sorteio Público:** A escolha dos membros é realizada obrigatoriamente por **sorteio público**, a partir de uma lista prévia com número de nomes pelo menos três vezes superior ao número de vagas;
+3. **Regra de Desvinculação Funcional (Mínimo de 1/3 Externo):** Para assegurar a idoneidade e evitar favorecimentos políticos, a lei exige que **pelo menos um terço (1/3)** dos integrantes da subcomissão técnica seja composto por profissionais que **não mantenham nenhum vínculo funcional ou contratual com o órgão licitante**.
+
+### 3.4 Julgamento às Cegas e Proposta Técnica Desidentificada
+
+Para garantir o julgamento impessoal e estritamente técnico:
+
+- A proposta técnica deve ser entregue em invólucro opaco e lacrado, **sem qualquer logotipo, marca, slogan, rubrica ou sinal que identifique a agência licitante** (*proposta apócrifa*);
+- A violação da desidentificação acarreta a **desclassificação sumária e imediata** da proposta;
+- A Subcomissão Técnica atribui as notas técnicas em sessão secreta de análise, e somente após a consolidação das notas os invólucros de identificação são abertos perante todos os licitantes.
 
 ---
 
@@ -408,16 +415,6 @@ Considerando as normas especiais da Lei Federal nº 12.232/2010 e a jurisprudên
 
 ---
 
-
-### 3.2 Tipos Licitatórios Obrigatórios
-
-Por expressa imposição do art. 5º da Lei nº 12.232/2010, as licitações para serviços de publicidade devem ser processadas e julgadas **obrigatoriamente** por meio de um dos seguintes tipos licitatórios:
-
-1. **Melhor Técnica**; ou
-2. **Técnica e Preço**.
-
-
-
 ### Teste 064
 **(FCC - Procurador do Estado / Adaptada)**
 A contratação de serviços de publicidade institucional prestados por intermédio de agências de propaganda pela Administração Pública rege-se pelas normas especiais da Lei nº 12.232/2010.
@@ -442,27 +439,6 @@ No que tange aos procedimentos e tipos de licitação admitidos para esses servi
 > - **E)** Incorreta. A proposta técnica deve ser julgada **às cegas (proposta técnica desidentificada)**; a identificação da agência antes do julgamento da pontuação técnica é causa de desclassificação sumária da licitante (art. 6º da Lei nº 12.232/2010).
 >
 > **Gabarito: B**
-
----
-
-### 3.3 A Subcomissão Técnica de Julgamento (Art. 10)
-
-Para julgar a proposta técnica das agências concorrentes, a lei afasta a comissão permanente genérica e exige a criação de uma **Subcomissão Técnica especializada**, que obedece a requisitos estritos:
-
-```mermaid
-flowchart TD
-    SUB["Subcomissão Técnica de Publicidade (Art. 10, Lei 12.232/10)"]
-    
-    SUB --> COMP["Composição Mínima<br/>Pelo menos 3 (três) membros qualificados<br/>(com formação ou atuação em comunicação/marketing)"]
-    
-    SUB --> SORTEIO["Escolha Obrigatória por SORTEIO PÚBLICO<br/>Sessão aberta convocada com antecedência mínima de 10 dias"]
-    
-    SUB --> INDEP["Garantia de Independência Externa<br/>Pelo menos 1/3 dos membros NÃO PODEM ter vínculo funcional<br/>com o órgão licitante"]
-```
-
-1. **Número de Membros:** Composta por, no mínimo, **3 (três) membros** qualificados (com formação superior ou experiência comprovada na área de publicidade, comunicação social ou marketing);
-2. **Sorteio Público:** A escolha dos membros é realizada obrigatoriamente por **sorteio público**, a partir de uma lista prévia com número de nomes pelo menos três vezes superior ao número de vagas;
-3. **Regra de Desvinculação Funcional (Mínimo de 1/3 Externo):** Para assegurar a idoneidade e evitar favorecimentos políticos, a lei exige que **pelo menos um terço (1/3)** dos integrantes da subcomissão técnica seja composto por profissionais que **não mantenham nenhum vínculo funcional ou contratual com o órgão licitante**.
 
 ---
 
@@ -492,20 +468,6 @@ A respeito da composição e das regras aplicáveis à **Subcomissão Técnica**
 > **Gabarito: B**
 
 ---
-
-
-### 3.4 Julgamento às Cegas e Proposta Técnica Desidentificada
-
-Para garantir o julgamento impessoal e estritamente técnico:
-
-- A proposta técnica deve ser entregue em invólucro opaco e lacrado, **sem qualquer logotipo, marca, slogan, rubrica ou sinal que identifique a agência licitante** (*proposta apócrifa*);
-- A violação da desidentificação acarreta a **desclassificação sumária e imediata** da proposta;
-- A Subcomissão Técnica atribui as notas técnicas em sessão secreta de análise, e somente após a consolidação das notas os invólucros de identificação são abertos perante todos os licitantes.
-
-
-
----
-
 
 ## 4. Fontes Recomendadas na Internet
 

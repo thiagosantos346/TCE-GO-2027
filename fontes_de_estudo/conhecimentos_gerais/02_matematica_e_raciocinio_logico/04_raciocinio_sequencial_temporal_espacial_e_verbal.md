@@ -18,33 +18,30 @@
     - Raciocínio verbal e matemático aplicado.
     - Problemas de verdades e mentiras.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Raciocínio Sequencial e Padrões Numéricos e Literais](#1-raciocinio-sequencial-e-padroes-numericos-e-literais)
     1. [Sequências Numéricas e Relações de Recorrência](#11-sequencias-numericas-e-relacoes-de-recorrencia)
-    2. [Teste 102](#Teste-102)
-    3. [Sequências Alfanuméricas e Ordem Alfabética Oficial](#12-sequencias-alfanumericas-e-ordem-alfabetica-oficial)
-    4. [Teste 103](#Teste-103)
-    5. [Padrões Literais por Iniciais Semânticas](#13-padroes-literais-por-iniciais-semanticas)
-    6. [Sequências Cíclicas e Resolução por Aritmética Modular](#14-sequencias-ciclicas-e-resolucao-por-aritmetica-modular)
+    2. [Sequências Alfanuméricas e Ordem Alfabética Oficial](#12-sequencias-alfanumericas-e-ordem-alfabetica-oficial)
+    3. [Padrões Literais por Iniciais Semânticas](#13-padroes-literais-por-iniciais-semanticas)
+    4. [Sequências Cíclicas e Resolução por Aritmética Modular](#14-sequencias-ciclicas-e-resolucao-por-aritmetica-modular)
+    5. [Teste 102](#Teste-102)
+    6. [Teste 103](#Teste-103)
     7. [Teste 104](#Teste-104)
 2. [Orientação Temporal, Calendários e Relógios](#2-orientacao-temporal-calendarios-e-relogios)
     1. [Contagem de Dias e Aritmética Módulo 7](#21-contagem-de-dias-e-aritmetica-modulo-7)
-    2. [Teste 105](#Teste-105)
-    3. [Regras de Anos Bissextos e Deslocamento Anual](#22-regras-de-anos-bissextos-e-deslocamento-anual)
-    4. [Cálculo do Ângulo entre Ponteiros de Relógio](#23-calculo-do-angulo-entre-ponteiros-de-relogio)
-    5. [Relações Temporais Relativas de Ontem e Amanhã](#24-relacoes-temporais-relativas-de-ontem-e-amanha)
+    2. [Regras de Anos Bissextos e Deslocamento Anual](#22-regras-de-anos-bissextos-e-deslocamento-anual)
+    3. [Cálculo do Ângulo entre Ponteiros de Relógio](#23-calculo-do-angulo-entre-ponteiros-de-relogio)
+    4. [Relações Temporais Relativas de Ontem e Amanhã](#24-relacoes-temporais-relativas-de-ontem-e-amanha)
+    5. [Teste 105](#Teste-105)
     6. [Teste 106](#Teste-106)
 3. [Orientação Espacial, Transformações e Dobradura de Figuras](#3-orientacao-espacial-transformacoes-e-dobradura-de-figuras)
     1. [Rotações no Plano Bidimensional e Reflexões Axiais](#31-rotacoes-no-plano-bidimensional-e-reflexoes-axiais)
     2. [Planificação e Montagem de Cubos: A Regra das Faces Opostas](#32-planificacao-e-montagem-de-cubos-a-regra-das-faces-opostas)
-    3. [Teste 107](#Teste-107)
-    4. [Vistas Ortogonais de Pilhas de Blocos e Cubos](#33-vistas-ortogonais-de-pilhas-de-blocos-e-cubos)
+    3. [Vistas Ortogonais de Pilhas de Blocos e Cubos](#33-vistas-ortogonais-de-pilhas-de-blocos-e-cubos)
+    4. [Teste 107](#Teste-107)
     5. [Teste 108](#Teste-108)
 4. [Formação de Conceitos e Discriminação de Elementos](#4-formacao-de-conceitos-e-discriminacao-de-elementos)
     1. [Identificação do Elemento Intruso em Conjuntos](#41-identificacao-do-elemento-intruso-em-conjuntos)
@@ -53,13 +50,12 @@
 5. [Raciocínio Verbal e Problemas de Verdades e Mentiras](#5-raciocinio-verbal-e-problemas-de-verdades-e-mentiras)
     1. [O Princípio do Terceiro Excluído e da Não Contradição](#51-o-principio-do-terceiro-excluido-e-da-nao-contradicao)
     2. [O Método do Par Contraditório](#52-o-metodo-do-par-contraditorio)
-    3. [Teste 110](#Teste-110)
-    4. [O Método da Suposição Hipotética Dirigida](#53-o-metodo-da-suposicao-hipotetica-dirigida)
+    3. [O Método da Suposição Hipotética Dirigida](#53-o-metodo-da-suposicao-hipotetica-dirigida)
+    4. [Teste 110](#Teste-110)
     5. [Teste 111](#Teste-111)
-6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+6. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Raciocínio Sequencial e Padrões Numéricos e Literais
 
@@ -75,6 +71,41 @@ As sequências de números exploradas em concursos estruturam-se segundo diferen
    $$a_n = 2 \cdot a_{n-1} - 1$$
    *Exemplo:* $3, 5, 9, 17, 33, 65, \mathbf{129}$ (onde $2 \times 65 - 1 = 129$).
 4. **Sequências do Tipo Fibonacci:** Cada termo resulta da soma dos dois termos imediatamente anteriores ($1, 1, 2, 3, 5, 8, 13, 21\dots$).
+
+### 1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial
+
+As sequências que intercalam letras e números utilizam a posição ordinal das letras no alfabeto oficial da língua portuguesa (composto por 26 letras, incluindo K, W e Y):
+
+| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
+
+*Exemplo:* Na sequência $B2, D4, F6, H8\dots$, a letra avança de 2 em 2 posições no alfabeto e o número acompanha a ordem par correspondente.
+
+### 1.3 Padrões Literais por Iniciais Semânticas
+
+Pegadinha clássica em provas da FCC consiste em sequências aparentemente caóticas cujas letras representam as iniciais de uma série semântica predeterminada da língua:
+
+* Iniciais dos dias da semana: **D, S, T, Q, Q, S, S** (Domingo, Segunda, Terça, Quarta, Quinta, Sexta, Sábado);
+* Iniciais dos meses do ano: **J, F, M, A, M, J, J, A, S, O, N, D**;
+* Iniciais dos numerais por extenso: **U, D, T, Q, C, S, S, O, N, D** (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez).
+
+### 1.4 Sequências Cíclicas e Resolução por Aritmética Modular
+
+Quando uma palavra, código ou conjunto de símbolos é repetido indefinidamente formando uma fita infinita:
+
+```mermaid
+flowchart TD
+    A["Posição N desejada"] --> B["Dividir N pelo tamanho do bloco P"]
+    B --> C{"Qual é o resto r da divisão?"}
+    C -->|"r > 0"| D["Elemento na posição r dentro do bloco"]
+    C -->|"r = 0 (divisão exata)"| E["Último elemento do bloco básico"]
+```
+
+1. Calcula-se o comprimento do período (tamanho do bloco repetitivo $P$);
+2. Divide-se a posição demandada $N$ por $P$, obtendo $N = P \cdot q + r$;
+3. **Se $r > 0$:** O termo procurado é o $r$-ésimo elemento do bloco inicial;
+4. **Se $r = 0$:** A divisão foi exata, o que significa que o termo coincide exatamente com o **último elemento do bloco**.
 
 ---
 
@@ -123,19 +154,6 @@ O próximo termo dessa sequência e a lei de formação que rege seus elementos 
 > - **E)** Incorreta. Aponta 131 decorrente de erro aritmético.
 > 
 > **Gabarito: A**
-
----
-
-
-### 1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial
-
-As sequências que intercalam letras e números utilizam a posição ordinal das letras no alfabeto oficial da língua portuguesa (composto por 26 letras, incluindo K, W e Y):
-
-| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
-
-*Exemplo:* Na sequência $B2, D4, F6, H8\dots$, a letra avança de 2 em 2 posições no alfabeto e o número acompanha a ordem par correspondente.
 
 ---
 
@@ -191,33 +209,6 @@ Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o
 
 ---
 
-
-### 1.3 Padrões Literais por Iniciais Semânticas
-
-Pegadinha clássica em provas da FCC consiste em sequências aparentemente caóticas cujas letras representam as iniciais de uma série semântica predeterminada da língua:
-
-* Iniciais dos dias da semana: **D, S, T, Q, Q, S, S** (Domingo, Segunda, Terça, Quarta, Quinta, Sexta, Sábado);
-* Iniciais dos meses do ano: **J, F, M, A, M, J, J, A, S, O, N, D**;
-* Iniciais dos numerais por extenso: **U, D, T, Q, C, S, S, O, N, D** (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez).
-
-### 1.4 Sequências Cíclicas e Resolução por Aritmética Modular
-
-Quando uma palavra, código ou conjunto de símbolos é repetido indefinidamente formando uma fita infinita:
-
-```mermaid
-flowchart TD
-    A["Posição N desejada"] --> B["Dividir N pelo tamanho do bloco P"]
-    B --> C{"Qual é o resto r da divisão?"}
-    C -->|"r > 0"| D["Elemento na posição r dentro do bloco"]
-    C -->|"r = 0 (divisão exata)"| E["Último elemento do bloco básico"]
-```
-
-1. Calcula-se o comprimento do período (tamanho do bloco repetitivo $P$);
-2. Divide-se a posição demandada $N$ por $P$, obtendo $N = P \cdot q + r$;
-3. **Se $r > 0$:** O termo procurado é o $r$-ésimo elemento do bloco inicial;
-4. **Se $r = 0$:** A divisão foi exata, o que significa que o termo coincide exatamente com o **último elemento do bloco**.
-
-
 ### Teste 104
 **(FCC – TRT-23 – Analista Judiciário)**  
 Considere a sucessão lógica de letras:  
@@ -261,10 +252,7 @@ ightarrow$ Nove
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 2. Orientação Temporal, Calendários e Relógios
 
@@ -278,6 +266,36 @@ $$\text{Dia Futuro} = \text{Dia Base} + (N \pmod 7)$$
 *Exemplo:* Se uma sessão do TCE-GO ocorreu em uma quinta-feira e se quer saber em que dia da semana recairá um prazo de 43 dias corridos contados a partir daquela data:
 $$43 = 6 \times 7 + 1 \implies \text{Resto } 1$$
 Avança-se 1 dia a partir da quinta-feira, alcançando-se infalivelmente a **sexta-feira**.
+
+### 2.2 Regras de Anos Bissextos e Deslocamento Anual
+
+1. **Deslocamento Anual Comum:** Um ano civil ordinário possui 365 dias:
+   $$365 = 52 \times 7 + 1 \implies \text{Avança 1 dia da semana no ano seguinte}$$
+2. **Deslocamento em Ano Bissexto:** Possui 366 dias (acréscimo do dia 29 de fevereiro):
+   $$366 = 52 \times 7 + 2 \implies \text{Avança 2 dias da semana}$$
+3. **Critério Astronômico de Bissextilidade:**
+    * É bissexto todo ano divisível por 4;
+    * Exceto os anos centenários (terminados em 00), que somente são bissextos se forem divisíveis por 400 (ex.: o ano 2000 foi bissexto; os anos 1900 e 2100 **não** são bissextos).
+
+### 2.3 Cálculo do Ângulo entre Ponteiros de Relógio
+
+Em um mostrador circular analógico tradicional ($360^\circ$ divididos em 12 horas e 60 minutos):
+
+* O ponteiro dos minutos desloca-se a uma velocidade angular de:
+  $$v_M = \frac{360^\circ}{60 \text{ min}} = 6^\circ/\text{min}$$
+* O ponteiro das horas desloca-se a uma velocidade de:
+  $$v_H = \frac{360^\circ}{12 \text{ h} \times 60 \text{ min}} = 0{,}5^\circ/\text{min} \quad (30^\circ \text{ por hora})$$
+* **Fórmula do Menor Ângulo ($\theta$) às $H$ horas e $M$ minutos:**
+  $$|\theta| = |30 \cdot H - 5{,}5 \cdot M|$$
+  Se o resultado modular for superior a $180^\circ$, toma-se o ângulo replementar: $\theta_{\text{menor}} = 360^\circ - \theta$.
+
+### 2.4 Relações Temporais Relativas de Ontem e Amanhã
+
+Problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia **Hoje** é a origem $0$:
+
+* Hoje = $0$; Amanhã = $+1$; Depois de amanhã = $+2$;
+* Ontem = $-1$; Anteontem = $-2$.
+Monta-se uma equação de primeiro grau simples para encontrar a posição do dia de referência.
 
 ---
 
@@ -323,38 +341,6 @@ O último dia desse prazo de 43 dias corridos recairá em uma:
 
 ---
 
-
-### 2.2 Regras de Anos Bissextos e Deslocamento Anual
-
-1. **Deslocamento Anual Comum:** Um ano civil ordinário possui 365 dias:
-   $$365 = 52 \times 7 + 1 \implies \text{Avança 1 dia da semana no ano seguinte}$$
-2. **Deslocamento em Ano Bissexto:** Possui 366 dias (acréscimo do dia 29 de fevereiro):
-   $$366 = 52 \times 7 + 2 \implies \text{Avança 2 dias da semana}$$
-3. **Critério Astronômico de Bissextilidade:**
-    * É bissexto todo ano divisível por 4;
-    * Exceto os anos centenários (terminados em 00), que somente são bissextos se forem divisíveis por 400 (ex.: o ano 2000 foi bissexto; os anos 1900 e 2100 **não** são bissextos).
-
-### 2.3 Cálculo do Ângulo entre Ponteiros de Relógio
-
-Em um mostrador circular analógico tradicional ($360^\circ$ divididos em 12 horas e 60 minutos):
-
-* O ponteiro dos minutos desloca-se a uma velocidade angular de:
-  $$v_M = \frac{360^\circ}{60 \text{ min}} = 6^\circ/\text{min}$$
-* O ponteiro das horas desloca-se a uma velocidade de:
-  $$v_H = \frac{360^\circ}{12 \text{ h} \times 60 \text{ min}} = 0{,}5^\circ/\text{min} \quad (30^\circ \text{ por hora})$$
-* **Fórmula do Menor Ângulo ($\theta$) às $H$ horas e $M$ minutos:**
-  $$|\theta| = |30 \cdot H - 5{,}5 \cdot M|$$
-  Se o resultado modular for superior a $180^\circ$, toma-se o ângulo replementar: $\theta_{\text{menor}} = 360^\circ - \theta$.
-
-### 2.4 Relações Temporais Relativas de Ontem e Amanhã
-
-Problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia **Hoje** é a origem $0$:
-
-* Hoje = $0$; Amanhã = $+1$; Depois de amanhã = $+2$;
-* Ontem = $-1$; Anteontem = $-2$.
-Monta-se uma equação de primeiro grau simples para encontrar a posição do dia de referência.
-
-
 ### Teste 106
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Um relógio analógico convencional de ponteiros marca exatamente $3$ horas e $40$ minutos. A medida do menor ângulo formado entre o ponteiro das horas e o ponteiro dos minutos nesse instante é igual a:
@@ -384,10 +370,7 @@ Um relógio analógico convencional de ponteiros marca exatamente $3$ horas e $4
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Orientação Espacial, Transformações e Dobradura de Figuras
 
@@ -414,6 +397,14 @@ A planificação de um hexaedro regular (cubo) compõe-se de 6 quadrados dispost
 
 2. As abas laterais que sobram dobram-se formando o outro par oposto: $\bigstar$ é oposta a $\blacktriangle$.
 3. **Propriedade Inviolável:** Duas faces opostas **nunca podem ser vizinhas adjacentes** e **jamais aparecem juntas em uma mesma visão tridimensional ortogonal do cubo**.
+
+### 3.3 Vistas Ortogonais de Pilhas de Blocos e Cubos
+
+Consiste em determinar a projeção visual bidimensional de uma estrutura tridimensional de blocos cúbicos a partir de pontos de vista fixos:
+
+* Vista Superior (planta baixa vista de cima);
+* Vista Frontal (elevação frontal);
+* Vista Lateral Esquerda ou Direita.
 
 ---
 
@@ -461,16 +452,6 @@ Ao montar o cubo a partir dessa planificação, a face que ficará **diametralme
 
 ---
 
-
-### 3.3 Vistas Ortogonais de Pilhas de Blocos e Cubos
-
-Consiste em determinar a projeção visual bidimensional de uma estrutura tridimensional de blocos cúbicos a partir de pontos de vista fixos:
-
-* Vista Superior (planta baixa vista de cima);
-* Vista Frontal (elevação frontal);
-* Vista Lateral Esquerda ou Direita.
-
-
 ### Teste 108
 **(FCC – METRÔ-SP – Analista)**  
 Uma pilha maciça de cubos idênticos de $1\text{ cm}$ de aresta foi montada sobre uma mesa plana de modo que sua vista frontal e sua vista lateral direita são ambas formadas por uma grade quadrada de $3 \times 3$ cubos completamente preenchida. O número MÍNIMO de cubinhos necessários para formar essa pilha é:
@@ -498,10 +479,7 @@ Uma pilha maciça de cubos idênticos de $1\text{ cm}$ de aresta foi montada sob
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 4. Formação de Conceitos e Discriminação de Elementos
 
@@ -517,6 +495,7 @@ Exige identificar a propriedade lógica oculta que une a maioria dos elementos d
 
 Resolvem-se pela equivalência de transformações: *"A está para B assim como C está para D"*. Identifica-se qual mutação (rotação de $90^\circ$, inversão de cores, acréscimo de um lado poligonal) operou a passagem de A para B e replica-se essa exata transformação sobre a figura C para encontrar D.
 
+---
 
 ### Teste 109
 **(FCC – DPE-RS – Analista)**  
@@ -547,10 +526,7 @@ Quatro dessas palavras guardam uma característica lógica comum que as reúne e
 >
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 5. Raciocínio Verbal e Problemas de Verdades e Mentiras
 
@@ -573,6 +549,15 @@ flowchart LR
 ```
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*). Como uma dessas falas é verdadeira e a outra é falsa, **a única mentira da questão está obrigatoriamente confinada a esse par**. Logo, todos os outros servidores fora do par (Eduardo e Gabriel) falaram a verdade irrestrita!
+
+### 5.3 O Método da Suposição Hipotética Dirigida
+
+Caso não haja contradição explícita direta entre os depoimentos:
+
+1. Fixa-se a culpa hipotética em um dos suspeitos (ex.: *"Suponha que o culpado seja Fernando"*);
+2. Avalia-se a veracidade de cada depoimento sob essa premissa;
+3. Se a quantidade de verdades e mentiras bater com o enunciado (ex.: 3 verdades e 1 mentira), a hipótese é a solução final;
+4. Se gerar quantidade diferente de mentirosos, descarta-se e testa-se o próximo suspeito.
 
 ---
 
@@ -615,17 +600,6 @@ Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles 
 
 ---
 
-
-### 5.3 O Método da Suposição Hipotética Dirigida
-
-Caso não haja contradição explícita direta entre os depoimentos:
-
-1. Fixa-se a culpa hipotética em um dos suspeitos (ex.: *"Suponha que o culpado seja Fernando"*);
-2. Avalia-se a veracidade de cada depoimento sob essa premissa;
-3. Se a quantidade de verdades e mentiras bater com o enunciado (ex.: 3 verdades e 1 mentira), a hipótese é a solução final;
-4. Se gerar quantidade diferente de mentirosos, descarta-se e testa-se o próximo suspeito.
-
-
 ### Teste 111
 **(FCC – TRT-14 – Analista Judiciário)**  
 Três suspeitos de vazar um relatório confidencial de auditoria prestaram os seguintes depoimentos:  
@@ -665,10 +639,7 @@ Sabe-se que exatamente um dos três suspeitos disse a verdade e que apenas um de
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

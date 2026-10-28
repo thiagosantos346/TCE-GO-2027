@@ -21,40 +21,33 @@
     - **Teoria Contingencial:** abordagem situacional, ausência de princípios universais ("tudo é relativo"), estruturas mecanicistas versus orgânicas (Burns & Stalker) e influência da tecnologia (Woodward) e do ambiente (Lawrence & Lorsch);
 - Metáforas organizacionais (Gareth Morgan): imagens da organização (máquinas, organismos, cérebros, culturas, sistemas políticos e prisões psíquicas).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)](#1-sintese-comparativa-das-escolas-da-teoria-geral-da-administracao-tga)
-    2. [Teste 340](#Teste-340)
-    3. [Teste 341](#Teste-341)
-    4. [A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)](#2-a-divergencia-classica-taylor-cientifica-vs-fayol-classica)
-    5. [Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne](#3-teoria-das-relacoes-humanas-elton-mayo-e-a-experiencia-de-hawthorne)
-    6. [Teste 342](#Teste-342)
-    7. [Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)](#4-teoria-da-burocracia-max-weber-e-as-disfuncoes-burocraticas-robert-merton)
-    8. [Teste 343](#Teste-343)
-    9. [Abordagem Comportamental: McGregor, Barnard e Herbert Simon](#5-abordagem-comportamental-mcgregor-barnard-e-herbert-simon)
-    10. [Teste 344](#Teste-344)
-    11. [Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto](#6-teoria-geral-dos-sistemas-tgs-a-organizacao-como-sistema-aberto)
-    12. [Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos](#7-teoria-contingencial-sistemas-mecanicistas-vs-organicos)
-    13. [Teste 345](#Teste-345)
-    14. [Teste 346](#Teste-346)
-    15. [Metáforas Organizacionais de Gareth Morgan](#8-metaforas-organizacionais-de-gareth-morgan)
-    16. [Teste 347](#Teste-347)
-    17. [Teste 348](#Teste-348)
-    18. [Teste 349](#Teste-349)
-    19. [Fontes Oficiais e Referências Bibliográficas](#9-fontes-oficiais-e-referencias-bibliograficas)
+1. [Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)](#1-sintese-comparativa-das-escolas-da-teoria-geral-da-administracao-tga)
+    1. [Teste 340](#Teste-340)
+    2. [Teste 341](#Teste-341)
+2. [A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)](#2-a-divergencia-classica-taylor-cientifica-vs-fayol-classica)
+3. [Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne](#3-teoria-das-relacoes-humanas-elton-mayo-e-a-experiencia-de-hawthorne)
+    1. [Teste 342](#Teste-342)
+4. [Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)](#4-teoria-da-burocracia-max-weber-e-as-disfuncoes-burocraticas-robert-merton)
+    1. [Teste 343](#Teste-343)
+5. [Abordagem Comportamental: McGregor, Barnard e Herbert Simon](#5-abordagem-comportamental-mcgregor-barnard-e-herbert-simon)
+    1. [Teste 344](#Teste-344)
+6. [Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto](#6-teoria-geral-dos-sistemas-tgs-a-organizacao-como-sistema-aberto)
+7. [Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos](#7-teoria-contingencial-sistemas-mecanicistas-vs-organicos)
+    1. [Teste 345](#Teste-345)
+    2. [Teste 346](#Teste-346)
+8. [Metáforas Organizacionais de Gareth Morgan](#8-metaforas-organizacionais-de-gareth-morgan)
+    1. [Teste 347](#Teste-347)
+    2. [Teste 348](#Teste-348)
+    3. [Teste 349](#Teste-349)
+9. [Fontes Oficiais e Referências Bibliográficas](#9-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)
+## 1. Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)
 
 A evolução do pensamento administrativo desenvolveu-se ao longo do século XX mediante sucessivas teorias que deslocaram gradualmente o foco de análise das tarefas individuais para a estrutura global, as relações humanas, o processo decisório e a interação dinâmica com o ambiente externo:
 
@@ -141,9 +134,7 @@ Considere que um gestor público de departamento estadual dividiu as rotinas de 
 
 ---
 
-
-
-### 2. A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)
+## 2. A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)
 
 Embora ambas pertençam à abordagem clássica e compartilhem a visão mecanicista da organização (tratando-a como um sistema fechado isolado do meio externo), Taylor e Fayol partiram de pontos de vista estruturais diametralmente opostos:
 
@@ -183,7 +174,9 @@ flowchart TD
 
 ---
 
-### 3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne
+---
+
+## 3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne
 
 Desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humanas representou uma profunda reação humanística e psicológica contra o mecanicismo da abordagem clássica. Os estudos foram coordenados por Elton Mayo na fábrica da Western Electric Company em Hawthorne (Chicago):
 
@@ -218,8 +211,7 @@ A Teoria das Relações Humanas, impulsionada pelos estudos de Elton Mayo na fá
 
 ---
 
-
-### 4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)
+## 4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)
 
 Para Max Weber, a burocracia é a forma de organização social humana mais eficiente, técnica e racional para administrar grandes instituições e o Estado moderno.
 
@@ -275,9 +267,7 @@ No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de 
 
 ---
 
-
-
-### 5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon
+## 5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon
 
 A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotando uma perspectiva realista, empírica e democrática do homem nas organizações:
 
@@ -320,8 +310,7 @@ Segundo McGregor, a **Teoria Y** fundamenta-se na premissa de que:
 
 ---
 
-
-### 6. Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto
+## 6. Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto
 
 Formulada pelo biólogo Ludwig von Bertalanffy e aplicada às organizações por Katz e Kahn, a Teoria dos Sistemas concebe a organização não como uma máquina fechada, mas como um **sistema aberto** em constante interação e intercâmbio com seu ecossistema externo:
 
@@ -348,7 +337,9 @@ flowchart LR
 
 ---
 
-### 7. Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos
+---
+
+## 7. Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos
 
 Surgida no final dos anos 1960 a partir das pesquisas de Joan Woodward, Tom Burns, G. M. Stalker, Paul Lawrence e Jay Lorsch, a Teoria Contingencial estabelece o postulado de que **"nada é absoluto nas organizações; tudo é relativo"**. A eficácia gerencial depende (*é contingente*) da adequação entre a estrutura interna e as variáveis do ambiente externo e da tecnologia utilizada:
 
@@ -400,8 +391,6 @@ Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingen
 
 ---
 
-
-
 ### Teste 346
 **(FCC - Adaptada / Analista de Planejamento e Gestão)**
 A Teoria Contingencial da Administração (desenvolvida a partir de pesquisas de Lawrence & Lorsch, Burns & Stalker e Joan Woodward) estabelece que não existe uma "única melhor maneira" (*the one best way*) de administrar e organizar, pois a estrutura e as práticas organizacionais dependem das variáveis ambientais e tecnológicas.
@@ -427,8 +416,7 @@ Segundo a tipologia de Tom Burns e G. M. Stalker, uma **estrutura orgânica** é
 
 ---
 
-
-### 8. Metáforas Organizacionais de Gareth Morgan
+## 8. Metáforas Organizacionais de Gareth Morgan
 
 Em sua clássica obra *Imagens da Organização*, Gareth Morgan demonstra que as organizações podem ser concebidas e gerenciadas sob diferentes lentes metafóricas, cada qual ressaltando uma faceta da realidade institucional:
 
@@ -470,8 +458,6 @@ Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa a
 > **Gabarito: B**
 
 ---
-
-
 
 ### Teste 348
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
@@ -522,8 +508,7 @@ Em relação aos 14 princípios gerais da administração enunciados por Henri F
 
 ---
 
-
-### 9. Fontes Oficiais e Referências Bibliográficas
+## 9. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto-Lei nº 200/1967 (Princípios da Administração e Racionalidade)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Aplicação de princípios clássicos e estruturais na organização da máquina pública.
 * [Constituição Federal de 1988 - Art. 37 (Princípio da Eficiência)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - O princípio constitucional da eficiência e a evolução dos modelos administrativos.

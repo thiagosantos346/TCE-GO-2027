@@ -26,42 +26,42 @@
 - Estruturação anatômica dos achados de auditoria: Critério, Condição, Causa e Efeito;
 - Matriz de Achados e Matriz de Responsabilização (conduta, nexo de causalidade e culpabilidade à luz do Art. 28 da LINDB).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Planejamento da Fiscalização e Avaliação de Risco](#1-planejamento-da-fiscalizacao-e-avaliacao-de-risco)
-    2. [Teste 187](#Teste-187)
-    3. [Teste 188](#Teste-188)
-    4. [Programas de Auditoria e Documentação (Papéis de Trabalho)](#2-programas-de-auditoria-e-documentacao-papeis-de-trabalho)
-    5. [Teste 189](#Teste-189)
-    6. [Teste 190](#Teste-190)
-    7. [Técnicas e Procedimentos de Auditoria Governamental](#3-tecnicas-e-procedimentos-de-auditoria-governamental)
-    8. [Teste 191](#Teste-191)
-    9. [Teste 192](#Teste-192)
-    10. [Teste 193](#Teste-193)
-    11. [Evidências de Auditoria: Os Três Pilares da Validade](#4-evidencias-de-auditoria-os-tres-pilares-da-validade)
-    12. [Teste 194](#Teste-194)
-    13. [A Estrutura Anatômica do Achado de Auditoria](#5-a-estrutura-anatomica-do-achado-de-auditoria)
-    14. [Teste 195](#Teste-195)
-    15. [Teste 196](#Teste-196)
-    16. [Teste 197](#Teste-197)
-2. [Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+1. [Planejamento da Fiscalização e Avaliação de Risco](#1-planejamento-da-fiscalizacao-e-avaliacao-de-risco)
+    1. [Critérios de Seleção de Objetos de Controle (Critérios MRC)](#11-criterios-de-selecao-de-objetos-de-controle-criterios-mrc)
+    2. [O Modelo do Risco de Auditoria (Auditoria Risk - AR)](#12-o-modelo-do-risco-de-auditoria-auditoria-risk-ar)
+    3. [Amostragem em Auditoria Governamental e Riscos Amostrais](#13-amostragem-em-auditoria-governamental-e-riscos-amostrais)
+    4. [Teste 187](#Teste-187)
+    5. [Teste 188](#Teste-188)
+2. [Programas de Auditoria e Documentação (Papéis de Trabalho)](#2-programas-de-auditoria-e-documentacao-papeis-de-trabalho)
+    1. [Teste 189](#Teste-189)
+    2. [Teste 190](#Teste-190)
+3. [Técnicas e Procedimentos de Auditoria Governamental](#3-tecnicas-e-procedimentos-de-auditoria-governamental)
+    1. [Quadro Geral dos Procedimentos de Obtenção de Evidências](#31-quadro-geral-dos-procedimentos-de-obtencao-de-evidencias)
+    2. [Modalidades de Circularização (Confirmação Externa)](#32-modalidades-de-circularizacao-confirmacao-externa)
+    3. [Teste 191](#Teste-191)
+    4. [Teste 192](#Teste-192)
+    5. [Teste 193](#Teste-193)
+4. [Evidências de Auditoria: Os Três Pilares da Validade](#4-evidencias-de-auditoria-os-tres-pilares-da-validade)
+    1. [Teste 194](#Teste-194)
+5. [A Estrutura Anatômica do Achado de Auditoria](#5-a-estrutura-anatomica-do-achado-de-auditoria)
+    1. [Os Quatro Elementos do Achado](#51-os-quatro-elementos-do-achado)
+    2. [Matriz de Responsabilização e a LINDB (Art. 28)](#52-matriz-de-responsabilizacao-e-a-lindb-art-28)
+    3. [Teste 195](#Teste-195)
+    4. [Teste 196](#Teste-196)
+    5. [Teste 197](#Teste-197)
+6. [🌐 Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
 
 ---
 
-
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Planejamento da Fiscalização e Avaliação de Risco
+## 1. Planejamento da Fiscalização e Avaliação de Risco
 
 O Tribunal de Contas atua pautado pelo planejamento estratégico e pela alocação racional e eficiente de seus auditores e recursos técnicos.
 
-#### 1.1 Critérios de Seleção de Objetos de Controle (Critérios MRC)
+### 1.1 Critérios de Seleção de Objetos de Controle (Critérios MRC)
 Os objetos de controle a serem incluídos no Plano Anual de Fiscalização são priorizados com base nos consagrados critérios **MRC**:
 
 - **Materialidade:** Representatividade monetária dos recursos geridos pelo órgão (volume financeiro, orçamentário e patrimonial envolvido).
@@ -80,9 +80,7 @@ flowchart TD
     C --> Prioridade
 ```
 
----
-
-#### 1.2 O Modelo do Risco de Auditoria (Auditoria Risk - AR)
+### 1.2 O Modelo do Risco de Auditoria (Auditoria Risk - AR)
 O **Risco de Auditoria (RA)** é o risco de o auditor expressar uma conclusão inadequada quando as informações objeto de fiscalização contiverem distorções relevantes.
 O modelo decompõe-se na seguinte relação:
 
@@ -105,9 +103,15 @@ flowchart TD
 > - O auditor **NÃO altera nem controla o Risco Inerente (RI) nem o Risco de Controle (RC)**, pois estes pertencem exclusivamente à estrutura do órgão auditado e à eficiência de sua administração.  
 > - O único risco que o auditor pode e deve controlar diretamente é o **Risco de Detecção (RD)**! Se o auditor identifica que o ambiente auditado tem alto risco inerente e péssimo controle interno (alto RDR), ele deve planejar testes mais rigorosos, com amostras maiores e procedimentos aprofundados, diminuindo o seu risco de detecção para manter o risco de auditoria global em nível aceitável.
 
+### 1.3 Amostragem em Auditoria Governamental e Riscos Amostrais
+- **Amostragem Estatística (Probabilística):** Seleção aleatória de itens na qual cada item da população possui chance conhecida e diferente de zero de ser selecionado. Permite a avaliação quantitativa do risco de amostragem mediante intervalos de confiança matemáticos.
+    - *Tipos:* Aleatória simples, sistemática (intervalo regular de seleção), estratificada (subdivisão da população em estratos homogêneos) e por unidade monetária (foco em valores financeiros mais expressivos).
+- **Amostragem Não Estatística (Não Probabilística):** Seleção fundamentada exclusivamente no julgamento profissional, conhecimento prévio ou intuição do auditor.
+- **Riscos de Amostragem na FCC:**
+    - *Risco Alfa (Risco de Rejeição Incorreta):* Concluir que a amostra apresenta falhas graves quando a população total está em conformidade. Afeta a **eficiência** do trabalho (gera retrabalho e testes desnecessários).
+    - *Risco Beta (Risco de Aceitação Incorreta):* Concluir que a amostra está adequada quando a população total contém erros relevantes graves. Afeta a **eficácia** da auditoria e é o mais perigoso, pois o auditor chancela contas viciadas.
+
 ---
-
-
 
 ### Teste 187
 **(FCC - Auditor de Controle Externo / TCE-GO)**
@@ -161,19 +165,7 @@ Acerca do modelo de avaliação de risco de auditoria e dos fatores de risco con
 
 ---
 
-
-
-#### 1.3 Amostragem em Auditoria Governamental e Riscos Amostrais
-- **Amostragem Estatística (Probabilística):** Seleção aleatória de itens na qual cada item da população possui chance conhecida e diferente de zero de ser selecionado. Permite a avaliação quantitativa do risco de amostragem mediante intervalos de confiança matemáticos.
-    - *Tipos:* Aleatória simples, sistemática (intervalo regular de seleção), estratificada (subdivisão da população em estratos homogêneos) e por unidade monetária (foco em valores financeiros mais expressivos).
-- **Amostragem Não Estatística (Não Probabilística):** Seleção fundamentada exclusivamente no julgamento profissional, conhecimento prévio ou intuição do auditor.
-- **Riscos de Amostragem na FCC:**
-    - *Risco Alfa (Risco de Rejeição Incorreta):* Concluir que a amostra apresenta falhas graves quando a população total está em conformidade. Afeta a **eficiência** do trabalho (gera retrabalho e testes desnecessários).
-    - *Risco Beta (Risco de Aceitação Incorreta):* Concluir que a amostra está adequada quando a população total contém erros relevantes graves. Afeta a **eficácia** da auditoria e é o mais perigoso, pois o auditor chancela contas viciadas.
-
----
-
-### 2. Programas de Auditoria e Documentação (Papéis de Trabalho)
+## 2. Programas de Auditoria e Documentação (Papéis de Trabalho)
 
 - **Programa de Auditoria:** Roteiro operacional e detalhado das etapas, procedimentos e testes substantivos e de conformidade que os membros da equipe devem executar no trabalho de campo.
 - **Papéis de Trabalho (Documentação de Auditoria):**
@@ -210,8 +202,6 @@ Em relação aos papéis de trabalho (documentação de auditoria) elaborados e 
 
 ---
 
-
-
 ### Teste 190
 **(FGV - Analista de Controle Externo / TCE-GO)**
 Os papéis de trabalho (documentação de auditoria) constituem o registro físico ou eletrônico de todo o planejamento, dos procedimentos técnicos aplicados, das evidências obtidas e das conclusões alcançadas pela equipe de fiscalização do Tribunal de Contas.
@@ -239,11 +229,9 @@ A respeito dos papéis de trabalho na auditoria do setor público (NBASP 100 e N
 
 ---
 
+## 3. Técnicas e Procedimentos de Auditoria Governamental
 
-
-### 3. Técnicas e Procedimentos de Auditoria Governamental
-
-#### 3.1 Quadro Geral dos Procedimentos de Obtenção de Evidências
+### 3.1 Quadro Geral dos Procedimentos de Obtenção de Evidências
 
 | Procedimento / Técnica | Conceito Operacional | Exemplo Prático de Aplicação |
 | :--- | :--- | :--- |
@@ -254,9 +242,17 @@ A respeito dos papéis de trabalho na auditoria do setor público (NBASP 100 e N
 | **Circularização (Confirmação Externa)** | Obtenção de declaração direta por escrito de terceiros independentes alheios ao órgão fiscalizado. | Envio de ofício a banco conveniado solicitando confirmação do saldo e titularidade de conta de convênio. |
 | **Procedimentos Analíticos (Revisão Analítica)** | Estudo e comparação de flutuações, índices e relações plausíveis entre dados operacionais e financeiros. | Confronto mensal entre o total de horas extras pagas e o volume de procedimentos médicos cirúrgicos realizados. |
 
+### 3.2 Modalidades de Circularização (Confirmação Externa)
+
+```mermaid
+flowchart TD
+    Circ["Modalidades de Circularização (Confirmação Externa)"]
+    Circ --> PosB["Positiva em Branco:<br/>Não informa o valor; terceiro preenche o saldo.<br/>(Altíssima confiabilidade)"]
+    Circ --> PosP["Positiva em Preto:<br/>Informa o saldo e pede confirmação de exatidão.<br/>(Alta confiabilidade)"]
+    Circ --> Neg["Negativa:<br/>Terceiro só responde se DISCORDAR do valor.<br/>(Baixa confiabilidade - silêncio gera dúvida)"]
+```
+
 ---
-
-
 
 ### Teste 191
 **(FCC - Analista Judiciário - Área Administrativa)**
@@ -310,8 +306,6 @@ No âmbito dos trabalhos de fiscalização governamental conduzidos por equipe d
 
 ---
 
-
-
 ### Teste 193
 **(FGV - Auditor de Controle Externo / TCE-SC)**
 Durante auditoria de conformidade em contrato de fornecimento de merenda escolar, a equipe técnica do Tribunal de Contas necessitou confirmar os saldos financeiros e as entregas efetivas de mercadorias declaradas pela empresa contratada em notas fiscais suspeitas.
@@ -341,20 +335,7 @@ O procedimento de auditoria adotado denomina-se:
 
 ---
 
-
-#### 3.2 Modalidades de Circularização (Confirmação Externa)
-
-```mermaid
-flowchart TD
-    Circ["Modalidades de Circularização (Confirmação Externa)"]
-    Circ --> PosB["Positiva em Branco:<br/>Não informa o valor; terceiro preenche o saldo.<br/>(Altíssima confiabilidade)"]
-    Circ --> PosP["Positiva em Preto:<br/>Informa o saldo e pede confirmação de exatidão.<br/>(Alta confiabilidade)"]
-    Circ --> Neg["Negativa:<br/>Terceiro só responde se DISCORDAR do valor.<br/>(Baixa confiabilidade - silêncio gera dúvida)"]
-```
-
----
-
-### 4. Evidências de Auditoria: Os Três Pilares da Validade
+## 4. Evidências de Auditoria: Os Três Pilares da Validade
 
 As conclusões do relatório de auditoria dependem da colheita de evidências que satisfaçam cumulativamente:
 
@@ -366,8 +347,6 @@ As conclusões do relatório de auditoria dependem da colheita de evidências qu
     - Documentos **originais** são mais confiáveis do que fotocópias ou impressões digitalizadas.
 
 ---
-
-
 
 ### Teste 194
 **(FCC - Procurador do Estado / Adaptada)**
@@ -396,9 +375,9 @@ Nos termos da NBASP 100, para que sustentem adequadamente um achado de auditoria
 
 ---
 
-### 5. A Estrutura Anatômica do Achado de Auditoria
+## 5. A Estrutura Anatômica do Achado de Auditoria
 
-#### 5.1 Os Quatro Elementos do Achado
+### 5.1 Os Quatro Elementos do Achado
 O **Achado de Auditoria** é a discrepância relevante identificada entre a situação real constatada e o parâmetro ideal normativo:
 
 ```text
@@ -418,6 +397,14 @@ O **Achado de Auditoria** é a discrepância relevante identificada entre a situ
 │                   │ Ex.: Superfaturamento e contratação superdimensionada.│
 └───────────────────┴────────────────────────────────────────────────────┘
 ```
+
+### 5.2 Matriz de Responsabilização e a LINDB (Art. 28)
+Ao propor imputação de débito ou cominação de multas sancionatórias a agentes públicos, a equipe de auditoria deve confeccionar obrigatoriamente a **Matriz de Responsabilização**, demonstrando:
+
+- **Identificação Individual:** Nome, CPF e cargo do agente público ou privado;
+- **Conduta:** Ação ou omissão específica imputada ao gestor;
+- **Nexo de Causalidade:** Vínculo fático entre o ato praticado e o resultado lesivo gerado ao erário;
+- **Culpabilidade:** Demonstração expressa de que o agente agiu com **dolo ou erro grosseiro** (culpa manifesta e inescusável), nos exatos termos do **Art. 28 da LINDB**.
 
 ---
 
@@ -448,17 +435,6 @@ Em relatório de fiscalização de obras rodoviárias, a equipe técnica do Trib
 
 ---
 
-
-#### 5.2 Matriz de Responsabilização e a LINDB (Art. 28)
-Ao propor imputação de débito ou cominação de multas sancionatórias a agentes públicos, a equipe de auditoria deve confeccionar obrigatoriamente a **Matriz de Responsabilização**, demonstrando:
-
-- **Identificação Individual:** Nome, CPF e cargo do agente público ou privado;
-- **Conduta:** Ação ou omissão específica imputada ao gestor;
-- **Nexo de Causalidade:** Vínculo fático entre o ato praticado e o resultado lesivo gerado ao erário;
-- **Culpabilidade:** Demonstração expressa de que o agente agiu com **dolo ou erro grosseiro** (culpa manifesta e inescusável), nos exatos termos do **Art. 28 da LINDB**.
-
----
-
 ### Teste 196
 **(FCC - Adaptada / Analista Jurídico de Controle)**
 Ao elaborar a Matriz de Responsabilização em processo de tomada de contas especial decorrente de auditoria, a unidade técnica do Tribunal de Contas imputou dever de ressarcir o erário a determinado Secretário de Estado em virtude de pagamento indevido de adicional de periculosidade a servidores administrativos.
@@ -486,10 +462,6 @@ Nos termos do artigo 28 da Lei de Introdução às Normas do Direito Brasileiro 
 
 ---
 
-
-
-
-
 ### Teste 197
 **(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 Ao finalizar os trabalhos de fiscalização, a equipe de auditoria do Tribunal de Contas estruturou a matriz de achados, identificando deficiências materiais na execução de um programa estadual de incentivo à agricultura familiar.
@@ -515,10 +487,7 @@ A respeito dos elementos constitutivos de um achado de auditoria e das delibera�
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 

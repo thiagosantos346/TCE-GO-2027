@@ -22,39 +22,42 @@
 - Regime constitucional da Administração Pública (Artigo 37 da CF/88): princípios fundamentais, concurso público, cargos em comissão e funções de confiança, teto remuneratório e regras de acumulação de cargos.
 - Servidores públicos civis (Artigos 38 a 41 da CF/88): exercício de mandato eletivo, estágio probatório, estabilidade aos 3 anos, avaliação especial de desempenho e hipóteses constitucionais taxativas de perda do cargo público estável.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Forma Federativa e Organização Político-Administrativa](#1-forma-federativa-e-organizacao-politico-administrativa)
-    2. [Teste 132](#Teste-132)
-    3. [O Modelo Constitucional de Repartição de Competências](#2-o-modelo-constitucional-de-reparticao-de-competencias)
+1. [Forma Federativa e Organização Político-Administrativa](#1-forma-federativa-e-organizacao-politico-administrativa)
+    1. [Características da Federação Brasileira e Autonomia dos Entes](#11-caracteristicas-da-federacao-brasileira-e-autonomia-dos-entes)
+    2. [Vedações Constitucionais Federativas (Art. 19)](#12-vedacoes-constitucionais-federativas-art-19)
+    3. [Bens Públicos Constitucionais e Criação de Novos Entes](#13-bens-publicos-constitucionais-e-criacao-de-novos-entes)
+    4. [Teste 132](#Teste-132)
+2. [O Modelo Constitucional de Repartição de Competências](#2-o-modelo-constitucional-de-reparticao-de-competencias)
+    1. [Competências Legislativas: Privativa da União versus Concorrente](#21-competencias-legislativas-privativa-da-uniao-versus-concorrente)
+    2. [Competências Administrativas: Exclusivas e Comuns](#22-competencias-administrativas-exclusivas-e-comuns)
+    3. [Competências dos Estados e Municípios](#23-competencias-dos-estados-e-municipios)
     4. [Teste 133](#Teste-133)
     5. [Teste 134](#Teste-134)
     6. [Teste 135](#Teste-135)
     7. [Teste 136](#Teste-136)
-    8. [Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual](#3-mecanismos-excepcionais-de-equilibrio-intervencao-federal-e-estadual)
-    9. [Teste 137](#Teste-137)
-    10. [Regime Constitucional da Administração Pública e Servidores (Arts. 37 a 41)](#4-regime-constitucional-da-administracao-publica-e-servidores-arts-37-a-41)
-    11. [Teste 138](#Teste-138)
-    12. [Teste 139](#Teste-139)
-    13. [Teste 140](#Teste-140)
-    14. [Teste 141](#Teste-141)
-    15. [Teste 142](#Teste-142)
-2. [Fontes Oficiais & Doutrinárias Recomendadas](#fontes-oficiais-doutrinarias-recomendadas)
+3. [Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual](#3-mecanismos-excepcionais-de-equilibrio-intervencao-federal-e-estadual)
+    1. [Teste 137](#Teste-137)
+4. [Regime Constitucional da Administração Pública e Servidores (Arts. 37 a 41)](#4-regime-constitucional-da-administracao-publica-e-servidores-arts-37-a-41)
+    1. [Concurso Público, Funções de Confiança e Cargos em Comissão](#41-concurso-publico-funcoes-de-confianca-e-cargos-em-comissao)
+    2. [Regra Constitucional da Não-Acumulação e Exceções (Art. 37, XVI)](#42-regra-constitucional-da-nao-acumulacao-e-excecoes-art-37-xvi)
+    3. [Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#43-exercicio-de-mandato-eletivo-pelo-servidor-publico-art-38)
+    4. [Estabilidade e Perda do Cargo do Servidor Estável (Art. 41)](#44-estabilidade-e-perda-do-cargo-do-servidor-estavel-art-41)
+    5. [Teste 138](#Teste-138)
+    6. [Teste 139](#Teste-139)
+    7. [Teste 140](#Teste-140)
+    8. [Teste 141](#Teste-141)
+    9. [Teste 142](#Teste-142)
+5. [🌐 Fontes Oficiais & Doutrinárias Recomendadas](#fontes-oficiais-doutrinarias-recomendadas)
 
 ---
 
+## 1. Forma Federativa e Organização Político-Administrativa
 
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Forma Federativa e Organização Político-Administrativa
-
-#### 1.1 Características da Federação Brasileira e Autonomia dos Entes
+### 1.1 Características da Federação Brasileira e Autonomia dos Entes
 A República Federativa do Brasil é formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal (Art. 18, *caput*).
 
 - **Origem Histórica:** Formou-se por **desagregação** (ou segregação), decorrente de um movimento **centrífugo** (o Estado unitário imperial descentralizou poderes políticos para as províncias que se transformaram em Estados-membros).
@@ -72,22 +75,20 @@ flowchart TD
     RFB --> M["Municípios<br/>(Entes Federados Autônomos)"]
 ```
 
-#### 1.2 Vedações Constitucionais Federativas (Art. 19)
+### 1.2 Vedações Constitucionais Federativas (Art. 19)
 O art. 19 da Carta da República veda à União, aos Estados, ao Distrito Federal e aos Municípios:
 
 1. **Estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança**, ressalvada, na forma da lei, a colaboração de interesse público *(Princípio da Laicidade Estatal)*.
 2. **Recusar fé aos documentos públicos** *(Eficácia probatória nacional dos documentos emitidos por órgãos oficiais)*.
 3. **Criar distinções entre brasileiros ou preferências entre si** *(Proibição de discriminação tributária, previdenciária ou funcional com base na origem regional)*.
 
-#### 1.3 Bens Públicos Constitucionais e Criação de Novos Entes
+### 1.3 Bens Públicos Constitucionais e Criação de Novos Entes
 - **Bens da União (Art. 20):** Terras devolutas indispensáveis à defesa das fronteiras, recursos minerais (inclusive do subsolo), potenciais de energia hidráulica, mar territorial, terrenos de marinha e terras tradicionalmente ocupadas pelos índios.
 - **Bens dos Estados (Art. 26):** Águas superficiais ou subterrâneas fluentes nos seus territórios, ilhas fluviais e lacustres não pertencentes à União e terras devolutas não compreendidas entre as da União.
 - **Criação de Estados (Art. 18, § 3º):** Exige aprovação da população diretamente interessada por meio de **plebiscito** e edição de **Lei Complementar Federal** pelo Congresso Nacional.
 - **Criação de Municípios (Art. 18, § 4º):** Depende de **Lei Complementar Federal** (definindo o período temporal), divulgação prévia dos Estudos de Viabilidade Municipal, consulta prévia por **plebiscito** às populações dos municípios envolvidos e promulgação de **Lei Ordinária Estadual**.
 
 ---
-
-
 
 ### Teste 132
 **(FCC - Analista Judiciário - Área Administrativa)**
@@ -116,7 +117,7 @@ A respeito da forma de Estado federativa e da organização político-administra
 
 ---
 
-### 2. O Modelo Constitucional de Repartição de Competências
+## 2. O Modelo Constitucional de Repartição de Competências
 
 A Constituição Federal de 1988 adotou o **princípio da predominância do interesse**:
 
@@ -139,7 +140,7 @@ flowchart TD
     Leg --> LegLoc["Interesse Local dos Municípios (Art. 30)"]
 ```
 
-#### 2.1 Competências Legislativas: Privativa da União versus Concorrente
+### 2.1 Competências Legislativas: Privativa da União versus Concorrente
 
 Esta é a distinção mais exigida pela banca FCC. Analise as características de cada modalidade:
 
@@ -156,9 +157,23 @@ Esta é a distinção mais exigida pela banca FCC. Analise as características d
 > - **Superveniência de Lei Federal sobre Normas Gerais (Art. 24, § 4º):**  
 >   A superveniência de lei federal contendo normas gerais **NÃO REVOGA** a lei estadual anterior contrária; ela apenas **SUSPENDE A SUA EFICÁCIA** naquilo que for incompatível. Se a lei federal for declarada inconstitucional ou revogada, a lei estadual volta a produzir efeitos normalmente!
 
+### 2.2 Competências Administrativas: Exclusivas e Comuns
+- **Exclusivas da União (Art. 21):** São indelegáveis a outros entes políticos. Envolvem a emissão de moeda, administração das reservas cambiais, manutenção das relações diplomáticas, defesa nacional e fiscalização nuclear.
+- **Comuns de Todos os Entes (Art. 23):** Competências materiais que devem ser exercidas de forma cooperativa e solidária por União, Estados, DF e Municípios: zelar pela guarda da Constituição, cuidar da saúde e assistência pública, proteger o meio ambiente, combater a poluição e preservar o patrimônio histórico. Leis complementares fixam normas para a cooperação entre a União e os entes subnacionais (art. 23, parágrafo único).
+
+### 2.3 Competências dos Estados e Municípios
+- **Estados-Membros (Art. 25, § 1º):** Possuem competência **remanescente (residual)**: são reservadas aos Estados todas as competências que não lhes sejam vedadas pela Constituição e que não pertençam expressamente à União ou aos Municípios. Além disso, cabe aos Estados explorar diretamente ou mediante concessão os serviços locais de gás canalizado (art. 25, § 2º, vedada edição de MP para sua regulamentação).
+- **Municípios (Art. 30):**
+    1. Legislar sobre assuntos de **interesse local**;
+    2. Suplementar a legislação federal e estadual no que couber;
+    3. Instituir e arrecadar os tributos municipais e aplicar suas rendas;
+    4. Organizar e prestar, diretamente ou sob concessão/permissão, os serviços públicos de interesse local, incluído o de **transporte coletivo**, de caráter essencial.
+
+> ⭐ **IMPORTANTE (SÚMULA VINCULANTE 38 DO STF):**  
+> *"É competente o Município para fixar o horário de funcionamento de estabelecimento comercial."*  
+> Em contrapartida, conforme a Súmula Vinculante 49, leis municipais que impedem a instalação de estabelecimentos do mesmo ramo em determinada área violam a liberdade de concorrência.
+
 ---
-
-
 
 ### Teste 133
 **(FGV - Auditor de Controle Externo / TCE-GO)**
@@ -239,8 +254,6 @@ Em tema de repartição constitucional de competências legislativas entre os en
 
 ---
 
-
-
 ### Teste 136
 **(FCC - Procurador do Estado / Adaptada)**
 A Câmara Municipal de determinado Município aprovou lei local disciplinando o horário de funcionamento de estabelecimentos bancários situados em seu território, bem como exigindo a instalação de portas de segurança eletrônicas e banheiros para os clientes nas agências.
@@ -268,26 +281,7 @@ A Câmara Municipal de determinado Município aprovou lei local disciplinando o 
 
 ---
 
-
-#### 2.2 Competências Administrativas: Exclusivas e Comuns
-- **Exclusivas da União (Art. 21):** São indelegáveis a outros entes políticos. Envolvem a emissão de moeda, administração das reservas cambiais, manutenção das relações diplomáticas, defesa nacional e fiscalização nuclear.
-- **Comuns de Todos os Entes (Art. 23):** Competências materiais que devem ser exercidas de forma cooperativa e solidária por União, Estados, DF e Municípios: zelar pela guarda da Constituição, cuidar da saúde e assistência pública, proteger o meio ambiente, combater a poluição e preservar o patrimônio histórico. Leis complementares fixam normas para a cooperação entre a União e os entes subnacionais (art. 23, parágrafo único).
-
-#### 2.3 Competências dos Estados e Municípios
-- **Estados-Membros (Art. 25, § 1º):** Possuem competência **remanescente (residual)**: são reservadas aos Estados todas as competências que não lhes sejam vedadas pela Constituição e que não pertençam expressamente à União ou aos Municípios. Além disso, cabe aos Estados explorar diretamente ou mediante concessão os serviços locais de gás canalizado (art. 25, § 2º, vedada edição de MP para sua regulamentação).
-- **Municípios (Art. 30):**
-    1. Legislar sobre assuntos de **interesse local**;
-    2. Suplementar a legislação federal e estadual no que couber;
-    3. Instituir e arrecadar os tributos municipais e aplicar suas rendas;
-    4. Organizar e prestar, diretamente ou sob concessão/permissão, os serviços públicos de interesse local, incluído o de **transporte coletivo**, de caráter essencial.
-
-> ⭐ **IMPORTANTE (SÚMULA VINCULANTE 38 DO STF):**  
-> *"É competente o Município para fixar o horário de funcionamento de estabelecimento comercial."*  
-> Em contrapartida, conforme a Súmula Vinculante 49, leis municipais que impedem a instalação de estabelecimentos do mesmo ramo em determinada área violam a liberdade de concorrência.
-
----
-
-### 3. Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual
+## 3. Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual
 
 A não-intervenção é a regra geral da federação. A intervenção consubstancia medida drástica e temporária que suspende a autonomia do ente subnacional para resguardar a integridade da ordem federativa.
 
@@ -295,8 +289,6 @@ A não-intervenção é a regra geral da federação. A intervenção consubstan
 - **Intervenção Estadual nos Municípios (Art. 35):** Decretada pelo Governador do Estado quando o Município deixar de pagar sua dívida fundada por dois anos consecutivos, não prestar contas devidas, não aplicar o mínimo constitucional em saúde e educação ou quando o Tribunal de Justiça der provimento a representação para garantir a observância de princípios da Constituição Estadual ou prover a execução de lei ou ordem judicial.
 
 ---
-
-
 
 ### Teste 137
 **(FGV - Analista de Controle Externo / TCE-GO)**
@@ -325,9 +317,9 @@ A respeito dos pressupostos materiais e procedimentais da intervenção federal,
 
 ---
 
-### 4. Regime Constitucional da Administração Pública e Servidores (Arts. 37 a 41)
+## 4. Regime Constitucional da Administração Pública e Servidores (Arts. 37 a 41)
 
-#### 4.1 Concurso Público, Funções de Confiança e Cargos em Comissão
+### 4.1 Concurso Público, Funções de Confiança e Cargos em Comissão
 - **Validade do Concurso (Art. 37, III):** Validade de **até 2 (dois) anos**, prorrogável uma única vez, por igual período. O edital pode fixar validade inferior (ex.: 6 meses prorrogável por mais 6 meses).
 - **Funções de Confiança vs. Cargos em Comissão (Art. 37, V):**
     - *Funções de Confiança:* Exercidas **exclusivamente** por servidores ocupantes de cargo de provimento efetivo.
@@ -345,7 +337,7 @@ flowchart TD
     Atrib --> CC
 ```
 
-#### 4.2 Regra Constitucional da Não-Acumulação e Exceções (Art. 37, XVI)
+### 4.2 Regra Constitucional da Não-Acumulação e Exceções (Art. 37, XVI)
 A regra é a proibição categórica de acumulação remunerada de cargos, empregos e funções públicas no âmbito da administração direta, autárquica, fundacional e empresas estatais.  
 Exigem-se cumulativamente: **compatibilidade de horários** + **observância do teto remuneratório constitucional**. As únicas 3 exceções constitucionais são:
 
@@ -364,9 +356,45 @@ flowchart TD
 > - **Teto Remuneratório na Acumulação Lícita (Tema 377/STF):** No caso de acumulação constitucional legítima de cargos, o teto remuneratório constitucional incide **isoladamente sobre cada um dos cargos**, e não sobre o somatório das remunerações!  
 > - **Cargo Técnico:** Para fins de acumulação com professor, considera-se técnico o cargo que exige conhecimentos técnicos específicos ou formação superior determinada, como o cargo de Analista e Técnico de Controle Externo do TCE-GO.
 
+### 4.3 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)
+Tratamento constitucional aplicável ao servidor público da administração direta, autárquica e fundacional no exercício de mandato político:
+
+```mermaid
+flowchart TD
+    Mandato["Servidor Efetivo Eleito para Mandato"]
+    Mandato --> FedEst["Mandato Federal, Estadual ou Distrital<br/>(Presidente, Deputado, Senador, Governador)"]
+    Mandato --> Pref["Mandato de PREFEITO"]
+    Mandato --> Ver["Mandato de VEREADOR"]
+    FedEst --> R1["Afasta-se OBRIGATORIAMENTE do cargo efetivo"]
+    Pref --> R2["Afasta-se do cargo efetivo com<br/>DIREITO DE OPTAR pela remuneração"]
+    Ver --> R3{"Há compatibilidade<br/>de horários?"}
+    R3 -->|SIM| C1["Percebe as duas remunerações<br/>(Cargo Efetivo + Vereança)"]
+    R3 -->|NÃO| C2["Afasta-se do cargo efetivo com<br/>DIREITO DE OPTAR pela remuneração"]
+```
+
+- Para contagem de tempo de serviço: o tempo de mandato é contado para todos os efeitos legais, **exceto para promoção por merecimento** (computa-se apenas por antiguidade).
+- Previdência Social: os valores são recolhidos como se estivesse no exercício efetivo do cargo.
+
+### 4.4 Estabilidade e Perda do Cargo do Servidor Estável (Art. 41)
+- **Aquisição da Estabilidade:** São estáveis após **3 (três) anos** de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.
+- **Condição Obrigatória:** É obrigatória a aprovação prévia em **avaliação especial de desempenho** realizada por comissão instituída especificamente para essa finalidade (art. 41, § 4º).
+- **As Quatro Hipóteses Exaustivas de Perda do Cargo do Servidor Estável:**
+    1. Em virtude de **sentença judicial transitada em julgado**;
+    2. Mediante **processo administrativo disciplinar (PAD)** no qual lhe seja assegurada ampla defesa;
+    3. Mediante **procedimento de avaliação periódica de desempenho**, na forma de lei complementar federal, assegurada ampla defesa;
+    4. Para cumprimento dos **limites com despesas de pessoal** (art. 169, § 4º da CF/88), caso as medidas anteriores (corte de cargos em comissão e exoneração de servidores não estáveis) sejam insuficientes.
+
+```mermaid
+flowchart TD
+    subgraph Hipoteses["Perda do Cargo do Servidor Estável (Art. 41)"]
+        H1["1. Sentença Judicial Transitada em Julgado"]
+        H2["2. Processo Administrativo Disciplinar (PAD) com Ampla Defesa"]
+        H3["3. Avaliação Periódica de Desempenho (na forma de Lei Complementar)"]
+        H4["4. Redução de Despesa com Pessoal (Art. 169 da CF/88)"]
+    end
+```
+
 ---
-
-
 
 ### Teste 138
 **(FCC - Técnico de Controle Externo / Administrativa)**
@@ -422,28 +450,6 @@ Considerando as normas constitucionais que regem a acumulação remunerada de ca
 
 ---
 
-
-#### 4.3 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)
-Tratamento constitucional aplicável ao servidor público da administração direta, autárquica e fundacional no exercício de mandato político:
-
-```mermaid
-flowchart TD
-    Mandato["Servidor Efetivo Eleito para Mandato"]
-    Mandato --> FedEst["Mandato Federal, Estadual ou Distrital<br/>(Presidente, Deputado, Senador, Governador)"]
-    Mandato --> Pref["Mandato de PREFEITO"]
-    Mandato --> Ver["Mandato de VEREADOR"]
-    FedEst --> R1["Afasta-se OBRIGATORIAMENTE do cargo efetivo"]
-    Pref --> R2["Afasta-se do cargo efetivo com<br/>DIREITO DE OPTAR pela remuneração"]
-    Ver --> R3{"Há compatibilidade<br/>de horários?"}
-    R3 -->|SIM| C1["Percebe as duas remunerações<br/>(Cargo Efetivo + Vereança)"]
-    R3 -->|NÃO| C2["Afasta-se do cargo efetivo com<br/>DIREITO DE OPTAR pela remuneração"]
-```
-
-- Para contagem de tempo de serviço: o tempo de mandato é contado para todos os efeitos legais, **exceto para promoção por merecimento** (computa-se apenas por antiguidade).
-- Previdência Social: os valores são recolhidos como se estivesse no exercício efetivo do cargo.
-
----
-
 ### Teste 140
 **(FCC - Adaptada / Auditor Governamental)**
 Determinado servidor público efetivo do Tribunal de Contas estadual decidiu concorrer a mandato eletivo político, sagrando-se vitorioso nas eleições municipais para o mandato de Vereador. No caso concreto, os horários das sessões ordinárias e comissões da Câmara Municipal coincidem parcialmente com o expediente de trabalho regular desempenhado no Tribunal de Contas.
@@ -468,28 +474,6 @@ De acordo com o regime constitucional do servidor em exercício de mandato eleti
 > - **E) Incorreta:** O exercício de mandato político é um direito político fundamental plenamente assegurado aos servidores públicos.
 > 
 > **Gabarito: C**
-
----
-
-
-#### 4.4 Estabilidade e Perda do Cargo do Servidor Estável (Art. 41)
-- **Aquisição da Estabilidade:** São estáveis após **3 (três) anos** de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.
-- **Condição Obrigatória:** É obrigatória a aprovação prévia em **avaliação especial de desempenho** realizada por comissão instituída especificamente para essa finalidade (art. 41, § 4º).
-- **As Quatro Hipóteses Exaustivas de Perda do Cargo do Servidor Estável:**
-    1. Em virtude de **sentença judicial transitada em julgado**;
-    2. Mediante **processo administrativo disciplinar (PAD)** no qual lhe seja assegurada ampla defesa;
-    3. Mediante **procedimento de avaliação periódica de desempenho**, na forma de lei complementar federal, assegurada ampla defesa;
-    4. Para cumprimento dos **limites com despesas de pessoal** (art. 169, § 4º da CF/88), caso as medidas anteriores (corte de cargos em comissão e exoneração de servidores não estáveis) sejam insuficientes.
-
-```mermaid
-flowchart TD
-    subgraph Hipoteses["Perda do Cargo do Servidor Estável (Art. 41)"]
-        H1["1. Sentença Judicial Transitada em Julgado"]
-        H2["2. Processo Administrativo Disciplinar (PAD) com Ampla Defesa"]
-        H3["3. Avaliação Periódica de Desempenho (na forma de Lei Complementar)"]
-        H4["4. Redução de Despesa com Pessoal (Art. 169 da CF/88)"]
-    end
-```
 
 ---
 
@@ -529,10 +513,6 @@ Está correto o que se afirma em:
 
 ---
 
-
-
-
-
 ### Teste 142
 **(FGV - Analista de Controle Externo / Auditoria)**
 A estabilidade no serviço público é direito constitucional assegurado aos servidores nomeados para cargo de provimento efetivo em virtude de concurso público, nos termos do art. 41 da Constituição Federal de 1988.
@@ -558,10 +538,7 @@ Sobre as condições e regras da estabilidade funcional, assinale a afirmativa c
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 

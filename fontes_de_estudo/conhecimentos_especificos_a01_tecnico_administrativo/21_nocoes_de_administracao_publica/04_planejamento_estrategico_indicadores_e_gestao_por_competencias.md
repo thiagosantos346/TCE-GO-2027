@@ -30,39 +30,32 @@
     - Decisões programadas versus decisões não programadas;
 - Gestão de conflitos organizacionais: conflitos funcionais e disfuncionais; estilos de tratamento de conflitos (Kenneth Thomas e Ralph Kilmann).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [Níveis do Planejamento Organizacional](#1-niveis-do-planejamento-organizacional)
-    2. [Teste 330](#Teste-330)
-    3. [O Balanced Scorecard (BSC) no Setor Público](#2-o-balanced-scorecard-bsc-no-setor-publico)
-    4. [Teste 331](#Teste-331)
-    5. [Teste 332](#Teste-332)
-    6. [Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H](#3-matrizes-swot-fofa-gut-e-plano-de-acao-5w2h)
-    7. [Teste 333](#Teste-333)
-    8. [Indicadores de Desempenho e Métodos de Avaliação Funcional](#4-indicadores-de-desempenho-e-metodos-de-avaliacao-funcional)
-    9. [Teste 334](#Teste-334)
-    10. [Gestão por Competências no Setor Público (Decreto 9.991/2019)](#5-gestao-por-competencias-no-setor-publico-decreto-99912019)
-    11. [Teste 335](#Teste-335)
-    12. [Processo Decisório e Teoria da Decisão (Herbert Simon)](#6-processo-decisorio-e-teoria-da-decisao-herbert-simon)
-    13. [Teste 336](#Teste-336)
-    14. [Gestão de Conflitos Organizacionais (Thomas-Kilmann)](#7-gestao-de-conflitos-organizacionais-thomas-kilmann)
-    15. [Teste 337](#Teste-337)
-    16. [Teste 338](#Teste-338)
-    17. [Teste 339](#Teste-339)
-    18. [Fontes Oficiais e Referências Bibliográficas](#8-fontes-oficiais-e-referencias-bibliograficas)
+1. [Níveis do Planejamento Organizacional](#1-niveis-do-planejamento-organizacional)
+    1. [Teste 330](#Teste-330)
+2. [O Balanced Scorecard (BSC) no Setor Público](#2-o-balanced-scorecard-bsc-no-setor-publico)
+    1. [Teste 331](#Teste-331)
+    2. [Teste 332](#Teste-332)
+3. [Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H](#3-matrizes-swot-fofa-gut-e-plano-de-acao-5w2h)
+    1. [Teste 333](#Teste-333)
+4. [Indicadores de Desempenho e Métodos de Avaliação Funcional](#4-indicadores-de-desempenho-e-metodos-de-avaliacao-funcional)
+    1. [Teste 334](#Teste-334)
+5. [Gestão por Competências no Setor Público (Decreto 9.991/2019)](#5-gestao-por-competencias-no-setor-publico-decreto-99912019)
+    1. [Teste 335](#Teste-335)
+6. [Processo Decisório e Teoria da Decisão (Herbert Simon)](#6-processo-decisorio-e-teoria-da-decisao-herbert-simon)
+    1. [Teste 336](#Teste-336)
+7. [Gestão de Conflitos Organizacionais (Thomas-Kilmann)](#7-gestao-de-conflitos-organizacionais-thomas-kilmann)
+    1. [Teste 337](#Teste-337)
+    2. [Teste 338](#Teste-338)
+    3. [Teste 339](#Teste-339)
+8. [Fontes Oficiais e Referências Bibliográficas](#8-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. Níveis do Planejamento Organizacional
+## 1. Níveis do Planejamento Organizacional
 
 O planejamento administrativo constitui a função basilar da administração que estabelece objetivos futuros e detalha os meios necessários para atingi-los. Estrutura-se em três níveis hierárquicos e temporais complementares:
 
@@ -123,8 +116,7 @@ A respeito desses níveis, é correto afirmar:
 
 ---
 
-
-### 2. O Balanced Scorecard (BSC) no Setor Público
+## 2. O Balanced Scorecard (BSC) no Setor Público
 
 Criado pelos professores de Harvard Robert Kaplan e David Norton no início da década de 1990, o **Balanced Scorecard (BSC)** surgiu para suprir as deficiências dos sistemas tradicionais de medição, focados unicamente em indicadores contábeis e financeiros históricos. O BSC integra medidas financeiras com direcionadores de desempenho futuros organizados em quatro perspectivas interligadas por hipóteses de **causa e efeito**.
 
@@ -190,8 +182,6 @@ Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Co
 
 ---
 
-
-
 ### Teste 332
 **(FCC - Adaptada / Auditor de Controle Externo)**
 Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organizações públicas e entidades de controle governamental (como o TCE-GO), a adaptação mais relevante no mapa estratégico consiste em:
@@ -217,8 +207,7 @@ Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organiza
 
 ---
 
-
-### 3. Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H
+## 3. Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H
 
 #### A) Matriz SWOT (FOFA)
 A análise SWOT (*Strengths, Weaknesses, Opportunities, Threats* / Forças, Oportunidades, Fraquezas e Ameaças) é um clássico modelo de diagnóstico situacional estratégico que correlaciona o diagnóstico interno e externo da organização:
@@ -302,7 +291,7 @@ Metodologia operacional consagrada para estruturação e acompanhamento da execu
 
 ---
 
-### 4. Indicadores de Desempenho e Métodos de Avaliação Funcional
+## 4. Indicadores de Desempenho e Métodos de Avaliação Funcional
 
 #### A) As Dimensões do Desempenho Público (Os 6 Es)
 A gestão pública moderna avalia políticas públicas e entidades governamentais por meio da cadeia de agregação de valor público conhecida como os 6 Es:
@@ -363,8 +352,7 @@ O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corres
 
 ---
 
-
-### 5. Gestão por Competências no Setor Público (Decreto 9.991/2019)
+## 5. Gestão por Competências no Setor Público (Decreto 9.991/2019)
 
 A Gestão por Competências consiste no alinhamento contínuo entre os talentos dos servidores e as competências essenciais necessárias para o cumprimento da estratégia institucional.
 
@@ -424,7 +412,7 @@ $$\mathbf{\text{GAP de Competência} = \text{Competência Requerida pelo Cargo/F
 
 ---
 
-### 6. Processo Decisório e Teoria da Decisão (Herbert Simon)
+## 6. Processo Decisório e Teoria da Decisão (Herbert Simon)
 
 O estudo da tomada de decisão nas organizações ganhou rigor científico com as contribuições seminais de Herbert Simon (Prêmio Nobel de Economia de 1978), que refutou as premissas da teoria microeconômica clássica da escolha racional.
 
@@ -477,9 +465,7 @@ A respeito do processo decisório nas organizações e das conclusões da Teoria
 
 ---
 
-
-
-### 7. Gestão de Conflitos Organizacionais (Thomas-Kilmann)
+## 7. Gestão de Conflitos Organizacionais (Thomas-Kilmann)
 
 Nas teorias organizacionais modernas, o conflito deixou de ser encarado como uma patologia a ser sumariamente extirpada. O conflito pode ser:
 
@@ -537,8 +523,6 @@ Dois diretores de uma agência reguladora divergem categoricamente a respeito do
 
 ---
 
-
-
 ### Teste 338
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 A Gestão por Competências no setor público busca alinhar o desenvolvimento dos servidores aos objetivos estratégicos da organização. De acordo com o modelo amplamente consagrado na doutrina administrativa (Dutra, Zarifian, Fleury), a competência individual fundamenta-se no tripé conceitual **C.H.A.**.
@@ -587,8 +571,7 @@ Um programa público de vacinação infantil que imunizou 98% do público-alvo p
 
 ---
 
-
-### 8. Fontes Oficiais e Referências Bibliográficas
+## 8. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Disciplina a gestão por competências e o Plano de Desenvolvimento de Pessoas (PDP) no setor público.
 * [Decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho - PGD)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Regulamenta o PGD e o teletrabalho com foco na entrega de resultados e indicadores de produtividade.

@@ -20,36 +20,33 @@
 - Matriz de Alocação de Riscos: conceito, finalidade e equilíbrio econômico-financeiro originário
 - Portal Nacional de Contratações Públicas (PNCP): natureza, atribuições e publicidade centralizada
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)](#1-principios-gerais-e-regime-da-lei-federal-no-141332021-nllc)
     1. [Âmbito de Aplicação Subjetivo e Objetos Abrangidos](#11-ambito-de-aplicacao-subjetivo-e-objetos-abrangidos)
     2. [Os Objetivos Fundamentais do Processo Licitatório (Art. 11)](#12-os-objetivos-fundamentais-do-processo-licitatorio-art-11)
-    3. [Teste 066](#Teste-066)
-    4. [Governança das Contratações e Gestão por Competências](#13-governanca-das-contratacoes-e-gestao-por-competencias)
+    3. [Governança das Contratações e Gestão por Competências](#13-governanca-das-contratacoes-e-gestao-por-competencias)
+    4. [Teste 066](#Teste-066)
     5. [Teste 067](#Teste-067)
 2. [Agentes Públicos da Contratação e Segregação de Funções](#2-agentes-publicos-da-contratacao-e-segregacao-de-funcoes)
     1. [O Agente de Contratação e o Pregoeiro](#21-o-agente-de-contratacao-e-o-pregoeiro)
-    2. [Teste 068](#Teste-068)
-    3. [Comissão de Contratação e a Regra do Diálogo Competitivo](#22-comissao-de-contratacao-e-a-regra-do-dialogo-competitivo)
-    4. [Teste 069](#Teste-069)
-    5. [O Princípio da Segregação de Funções e Conflito de Interesses](#23-o-principio-da-segregacao-de-funcoes-e-conflito-de-interesses)
-    6. [Teste 070](#Teste-070)
-    7. [Defesa Jurídica Institucional dos Agentes (Art. 10)](#24-defesa-juridica-institucional-dos-agentes-art-10)
+    2. [Comissão de Contratação e a Regra do Diálogo Competitivo](#22-comissao-de-contratacao-e-a-regra-do-dialogo-competitivo)
+    3. [O Princípio da Segregação de Funções e Conflito de Interesses](#23-o-principio-da-segregacao-de-funcoes-e-conflito-de-interesses)
+    4. [Defesa Jurídica Institucional dos Agentes (Art. 10)](#24-defesa-juridica-institucional-dos-agentes-art-10)
+    5. [Teste 068](#Teste-068)
+    6. [Teste 069](#Teste-069)
+    7. [Teste 070](#Teste-070)
     8. [Teste 071](#Teste-071)
 3. [Planejamento das Contratações e Instrumentos Preparatórios](#3-planejamento-das-contratacoes-e-instrumentos-preparatorios)
     1. [Plano de Contratações Anual (PCA) e Integração Orçamentária](#31-plano-de-contratacoes-anual-pca-e-integracao-orcamentaria)
-    2. [Teste 072](#Teste-072)
-    3. [Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios](#32-estudo-tecnico-preliminar-etp-conceito-e-elementos-obrigatorios)
-    4. [Teste 073](#Teste-073)
-    5. [Termo de Referência vs. Projeto Básico e Projeto Executivo](#33-termo-de-referencia-vs-projeto-basico-e-projeto-executivo)
-    6. [Teste 074](#Teste-074)
-    7. [Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro](#34-matriz-de-alocacao-de-riscos-e-equilibrio-economico-financeiro)
+    2. [Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios](#32-estudo-tecnico-preliminar-etp-conceito-e-elementos-obrigatorios)
+    3. [Termo de Referência vs. Projeto Básico e Projeto Executivo](#33-termo-de-referencia-vs-projeto-basico-e-projeto-executivo)
+    4. [Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro](#34-matriz-de-alocacao-de-riscos-e-equilibrio-economico-financeiro)
+    5. [Teste 072](#Teste-072)
+    6. [Teste 073](#Teste-073)
+    7. [Teste 074](#Teste-074)
     8. [Teste 075](#Teste-075)
 4. [O Portal Nacional de Contratações Públicas (PNCP)](#4-o-portal-nacional-de-contratacoes-publicas-pncp)
     1. [Natureza e Atribuições Centrais do Portal](#41-natureza-e-atribuicoes-centrais-do-portal)
@@ -58,7 +55,6 @@
 5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)
 
@@ -84,7 +80,14 @@ flowchart TD
     OBJ --> O4["4. Incentivar a inovação tecnológica<br/>e o desenvolvimento nacional sustentável"]
 ```
 
+### 1.3 Governança das Contratações e Gestão por Competências
 
+A NLLC elevou a governança ao patamar de exigência legal expressa (art. 11, parágrafo único):
+
+- A alta administração do órgão ou entidade é responsável pela implementação e fiscalização contínua de mecanismos de liderança, estratégia e controle;
+- Exige **gestão por competências**, determinando que os agentes públicos designados para atuar na área de licitações possuam formação compatível ou qualificação atestada por certificação profissional emitida por escola de governo.
+
+---
 
 ### Teste 066
 **(FGV - Auditor de Controle Externo / TCE-GO)**
@@ -113,17 +116,6 @@ A esse respeito, assinale a opção que indica corretamente um dos objetivos exp
 
 ---
 
-### 1.3 Governança das Contratações e Gestão por Competências
-
-A NLLC elevou a governança ao patamar de exigência legal expressa (art. 11, parágrafo único):
-
-- A alta administração do órgão ou entidade é responsável pela implementação e fiscalização contínua de mecanismos de liderança, estratégia e controle;
-- Exige **gestão por competências**, determinando que os agentes públicos designados para atuar na área de licitações possuam formação compatível ou qualificação atestada por certificação profissional emitida por escola de governo.
-
----
-
-
-
 ### Teste 067
 **(FCC - Analista de Gestão Pública / Contratações)**
 Em consonância com as diretrizes de governança pública insculpidas no art. 11, parágrafo único, da Lei nº 14.133/2021, a alta administração do órgão ou entidade é responsável pela implementação de processos e estruturas de governança nas contratações.
@@ -149,10 +141,7 @@ Nesse contexto, assinale a afirmativa que apresenta um instrumento essencial de 
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 2. Agentes Públicos da Contratação e Segregação de Funções
 
@@ -165,35 +154,6 @@ O **Agente de Contratação** (art. 8º) é a pessoa física designada pela auto
 - **Responsabilidade Individual:** Responde **individualmente** pelos atos que praticar na condução do procedimento, salvo quando for induzido a erro pela atuação de sua equipe de apoio ou comissão.
 - **Pregoeiro:** É a denominação atribuída ao agente de contratação quando a licitação for processada na modalidade **Pregão** (art. 8º, § 5º).
 
-
-
-### Teste 068
-**(FGV - Analista de Controle Externo / TCE-SC)**
-A Lei nº 14.133/2021 inovou ao disciplinar a gestão por competências e a atuação do Agente de Contratação e da Comissão de Contratação (arts. 7º e 8º).
-
-Sobre os requisitos legais para a designação do Agente de Contratação, assinale a afirmativa correta.
-
-* **A)** O Agente de Contratação pode ser pessoa estranha aos quadros públicos contratada por empresa terceirizada para prestar consultoria ao órgão.
-* **B)** A designação do Agente de Contratação deve recair, preferencialmente, sobre servidor efetivo ou empregado público dos quadros permanentes da Administração Pública, que possua atribuições relacionadas ou qualificação atestada por certificação profissional.
-* **C)** O Agente de Contratação responde solidariamente por todos os atos praticados pela equipe de apoio, mesmo que tenha manifestado divergência expressa e formal em ata.
-* **D)** O pregoeiro, nas licitações na modalidade pregão, deve ser obrigatoriamente um dirigente político do órgão investido em cargo de direção superior.
-* **E)** É dispensável a observância do princípio da segregação de funções na designação dos agentes que atuam nas fases de planejamento e liquidação de despesa.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O art. 7º, I, da NLLC veda a designação de terceirizados; exige que os agentes sejam preferencialmente servidores públicos efetivos ou empregados públicos dos quadros permanentes da Administração.
-> - **B)** Correta. O art. 7º da Lei nº 14.133/2021 estatui que a autoridade designará agentes públicos preferencialmente servidores efetivos ou empregados públicos permanentes, que tenham atribuições relacionadas a licitações e contratos ou possuam formação compatível ou qualificação atestada por escola de governo. O art. 8º define que o Agente de Contratação conduzirá a licitação e responderá individualmente pelas decisões.
-> - **C)** Incorreta. A responsabilidade é individualizada; o agente que manifestar posição divergente e fundamentada registrada em ata não responde solidariamente pelas decisões do colegiado/equipe.
-> - **D)** Incorreta. O pregoeiro é o próprio agente de contratação responsável pelo pregão, devendo cumprir os mesmos requisitos técnicos e preferência por vínculo efetivo.
-> - **E)** Incorreta. A segregação de funções é vedação expressa à acumulação de atribuições suscetíveis a risco de conflito de interesses (art. 7º, § 1º).
->
-> **Gabarito: B**
-
----
-
 ### 2.2 Comissão de Contratação e a Regra do Diálogo Competitivo
 
 A condução por comissão colegiada constitui exceção à regra geral do agente individual:
@@ -203,36 +163,6 @@ A condução por comissão colegiada constitui exceção à regra geral do agent
 
 > 💡 **Regra Canônica FCC:**  
 > Na modalidade **Diálogo Competitivo**, a condução por **comissão de contratação de no mínimo 3 servidores efetivos** é **OBRIGATÓRIA** por expressa exigência do art. 32, inciso XI, da Lei nº 14.133/2021. Jamais pode ser conduzida por agente monocrático isolado!
-
----
-
-### Teste 069
-**(FCC - Técnico de Controle Externo / Administrativa)**
-No âmbito do Tribunal de Contas, a comissão encarregada de planejar o processo licitatório para a escolha de solução inovadora por meio da modalidade **Diálogo Competitivo** formulou consulta sobre a condução da sessão pública do certame.
-
-Conforme as disposições da Lei Federal nº 14.133/2021 relativas aos agentes da licitação:
-
-* **A)** A modalidade Diálogo Competitivo deve ser conduzida obrigatoriamente por uma comissão de contratação composta de pelo menos 3 servidores efetivos ou empregados públicos dos quadros permanentes.
-* **B)** O Diálogo Competitivo é conduzido por um único agente de contratação monocrático comissionado.
-* **C)** O certame deve ser coordenado diretamente pelo Presidente do Tribunal de Contas, dispensada a equipe de apoio.
-* **D)** As empresas licitantes participantes do diálogo devem indicar dois membros para compor a comissão com direito a voto.
-* **E)** A condução por colegiado é terminantemente proibida na Nova Lei de Licitações, prevalecendo sempre a decisão monocrática.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. De acordo com o art. 32, inciso XI, e art. 8º, § 1º, da Lei Federal nº 14.133/2021: *"o diálogo competitivo será conduzido por comissão de contratação composta de pelo menos 3 (três) servidores efetivos ou empregados públicos pertencentes aos quadros permanentes da Administração, admitida a contratação de profissionais para assessoramento técnico da comissão."* Trata-se de uma das hipóteses legais em que a condução colegiada por comissão de contratação é obrigatória, em razão das sucessivas rodadas de debates técnicos com os licitantes.
-> - **B)** Incorreta. A condução monocrática por agente individual é vedada no Diálogo Competitivo.
-> - **C)** Incorreta. O Presidente da corte atua como autoridade homologadora, descabendo a condução direta da sessão pública sem comissão técnica.
-> - **D)** Incorreta. Representantes de empresas participantes são concorrentes externos e não integram a comissão julgadora.
-> - **E)** Incorreta. A comissão colegiada é amplamente permitida em bens especiais e obrigatória no Diálogo Competitivo.
-> 
-> **Gabarito: A**
-
----
-
 
 ### 2.3 O Princípio da Segregação de Funções e Conflito de Interesses
 
@@ -263,6 +193,64 @@ flowchart LR
     A3 -.-> A4
 ```
 
+### 2.4 Defesa Jurídica Institucional dos Agentes (Art. 10)
+
+Se o agente público for demandado nas esferas judicial ou controladora (perante o Tribunal de Contas) em virtude de atos praticados em estrito cumprimento do dever legal na licitação, **terá direito à representação judicial pela Advocacia Pública** (Procuradoria do Estado), desde que sua conduta tenha sido previamente respaldada por parecer jurídico da assessoria do órgão.
+
+---
+
+### Teste 068
+**(FGV - Analista de Controle Externo / TCE-SC)**
+A Lei nº 14.133/2021 inovou ao disciplinar a gestão por competências e a atuação do Agente de Contratação e da Comissão de Contratação (arts. 7º e 8º).
+
+Sobre os requisitos legais para a designação do Agente de Contratação, assinale a afirmativa correta.
+
+* **A)** O Agente de Contratação pode ser pessoa estranha aos quadros públicos contratada por empresa terceirizada para prestar consultoria ao órgão.
+* **B)** A designação do Agente de Contratação deve recair, preferencialmente, sobre servidor efetivo ou empregado público dos quadros permanentes da Administração Pública, que possua atribuições relacionadas ou qualificação atestada por certificação profissional.
+* **C)** O Agente de Contratação responde solidariamente por todos os atos praticados pela equipe de apoio, mesmo que tenha manifestado divergência expressa e formal em ata.
+* **D)** O pregoeiro, nas licitações na modalidade pregão, deve ser obrigatoriamente um dirigente político do órgão investido em cargo de direção superior.
+* **E)** É dispensável a observância do princípio da segregação de funções na designação dos agentes que atuam nas fases de planejamento e liquidação de despesa.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O art. 7º, I, da NLLC veda a designação de terceirizados; exige que os agentes sejam preferencialmente servidores públicos efetivos ou empregados públicos dos quadros permanentes da Administração.
+> - **B)** Correta. O art. 7º da Lei nº 14.133/2021 estatui que a autoridade designará agentes públicos preferencialmente servidores efetivos ou empregados públicos permanentes, que tenham atribuições relacionadas a licitações e contratos ou possuam formação compatível ou qualificação atestada por escola de governo. O art. 8º define que o Agente de Contratação conduzirá a licitação e responderá individualmente pelas decisões.
+> - **C)** Incorreta. A responsabilidade é individualizada; o agente que manifestar posição divergente e fundamentada registrada em ata não responde solidariamente pelas decisões do colegiado/equipe.
+> - **D)** Incorreta. O pregoeiro é o próprio agente de contratação responsável pelo pregão, devendo cumprir os mesmos requisitos técnicos e preferência por vínculo efetivo.
+> - **E)** Incorreta. A segregação de funções é vedação expressa à acumulação de atribuições suscetíveis a risco de conflito de interesses (art. 7º, § 1º).
+>
+> **Gabarito: B**
+
+---
+
+### Teste 069
+**(FCC - Técnico de Controle Externo / Administrativa)**
+No âmbito do Tribunal de Contas, a comissão encarregada de planejar o processo licitatório para a escolha de solução inovadora por meio da modalidade **Diálogo Competitivo** formulou consulta sobre a condução da sessão pública do certame.
+
+Conforme as disposições da Lei Federal nº 14.133/2021 relativas aos agentes da licitação:
+
+* **A)** A modalidade Diálogo Competitivo deve ser conduzida obrigatoriamente por uma comissão de contratação composta de pelo menos 3 servidores efetivos ou empregados públicos dos quadros permanentes.
+* **B)** O Diálogo Competitivo é conduzido por um único agente de contratação monocrático comissionado.
+* **C)** O certame deve ser coordenado diretamente pelo Presidente do Tribunal de Contas, dispensada a equipe de apoio.
+* **D)** As empresas licitantes participantes do diálogo devem indicar dois membros para compor a comissão com direito a voto.
+* **E)** A condução por colegiado é terminantemente proibida na Nova Lei de Licitações, prevalecendo sempre a decisão monocrática.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. De acordo com o art. 32, inciso XI, e art. 8º, § 1º, da Lei Federal nº 14.133/2021: *"o diálogo competitivo será conduzido por comissão de contratação composta de pelo menos 3 (três) servidores efetivos ou empregados públicos pertencentes aos quadros permanentes da Administração, admitida a contratação de profissionais para assessoramento técnico da comissão."* Trata-se de uma das hipóteses legais em que a condução colegiada por comissão de contratação é obrigatória, em razão das sucessivas rodadas de debates técnicos com os licitantes.
+> - **B)** Incorreta. A condução monocrática por agente individual é vedada no Diálogo Competitivo.
+> - **C)** Incorreta. O Presidente da corte atua como autoridade homologadora, descabendo a condução direta da sessão pública sem comissão técnica.
+> - **D)** Incorreta. Representantes de empresas participantes são concorrentes externos e não integram a comissão julgadora.
+> - **E)** Incorreta. A comissão colegiada é amplamente permitida em bens especiais e obrigatória no Diálogo Competitivo.
+> 
+> **Gabarito: A**
+
 ---
 
 ### Teste 070
@@ -292,15 +280,6 @@ Em face das normas expressas de governança e princípios instituídos pela Lei 
 
 ---
 
-
-### 2.4 Defesa Jurídica Institucional dos Agentes (Art. 10)
-
-Se o agente público for demandado nas esferas judicial ou controladora (perante o Tribunal de Contas) em virtude de atos praticados em estrito cumprimento do dever legal na licitação, **terá direito à representação judicial pela Advocacia Pública** (Procuradoria do Estado), desde que sua conduta tenha sido previamente respaldada por parecer jurídico da assessoria do órgão.
-
----
-
-
-
 ### Teste 071
 **(FCC - Procurador do Estado / Adaptada)**
 O art. 10 da Lei nº 14.133/2021 estabelece importante prerrogativa voltada à segurança jurídica dos agentes públicos que atuam nos processos de contratação.
@@ -326,10 +305,7 @@ Conforme esse dispositivo, se o agente público for demandado judicial ou admini
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Planejamento das Contratações e Instrumentos Preparatórios
 
@@ -340,7 +316,42 @@ A Lei nº 14.133/2021 consagrou a centralidade da **fase preparatória**, supera
 - O art. 12, VII, preconiza a elaboração do **Plano de Contratações Anual (PCA)**, instrumento de governança que consolida todas as compras e contratações que o órgão pretende realizar no exercício financeiro subsequente.
 - Seu objetivo primordial é racionalizar as compras públicas, viabilizar o ganho de escala e garantir a perfeita compatibilização das despesas com as metas do Plano Plurianual (PPA), da Lei de Diretrizes Orçamentárias (LDO) e da Lei Orçamentária Anual (LOA).
 
+### 3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios
 
+O **Estudo Técnico Preliminar (ETP)** é o documento constitutivo da primeira etapa do planejamento de uma contratação. Ele evidencia o problema público a ser resolvido e avalia comparativamente as alternativas viáveis disponíveis no mercado para eleger a solução mais eficiente (art. 18).
+
+#### Os 5 Elementos Obrigatórios do ETP (Art. 18, § 2º):
+Embora o ETP contenha treze itens descritivos em seu roteiro geral, a NLLC fixou **cinco elementos com preenchimento obrigatório indispensável**:
+
+1. Descrição da **necessidade da contratação**;
+2. **Estimativa das quantidades** a serem contratadas, acompanhada de memória de cálculo detalhada;
+3. **Estimativa do valor da contratação**, amparada em pesquisa prévia de preços;
+4. **Justificativa para o parcelamento ou não** da solução de mercado;
+5. **Posicionamento conclusivo** sobre a adequação da contratação para o atendimento da necessidade pública.
+
+### 3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo
+
+- **Termo de Referência (TR - Art. 6º, XXIII):** Documento elaborado para a contratação de **bens e serviços em geral**, contendo os elementos técnicos necessários para caracterizar o objeto de forma clara, o modelo de execução, os critérios de medição e pagamento e os parâmetros de aceitabilidade das propostas.
+- **Projeto Básico (Art. 6º, XXV):** Documento elaborado para **obras e serviços de engenharia**, contendo elementos técnicos precisos e consolidados que permitam a perfeita identificação do empreendimento e a estimativa de custos de cada etapa construtiva.
+- **Projeto Executivo (Art. 6º, XXVI):** Conjunto dos elementos detalhados necessários e suficientes para a execução completa da obra civil.
+
+### 3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro
+
+A **Matriz de Alocação de Riscos** (art. 6º, XXVII e art. 22) é a cláusula contratual que promove a divisão objetiva e contratual de encargos financeiros e riscos supervenientes entre a Administração Pública e o contratado.
+
+```mermaid
+flowchart TD
+    MR["Matriz de Alocação de Riscos (Art. 22)"]
+    
+    MR --> OBRIG["OBRIGATÓRIA em:<br/>1. Contratações de GRANDE VULTO (> R$ 200 milhões)<br/>2. Regimes de Contratação INTEGRADA e SEMI-INTEGRADA"]
+    
+    MR --> EFEITO["EFEITO JURÍDICO DIRETO (Art. 124, § 1º):<br/>Se ocorrer evento superveniente cujo risco foi alocado ao CONTRATADO...<br/>NÃO CABE TERMO ADITIVO DE REEQUILÍBRIO ECONÔMICO-FINANCEIRO!"]
+```
+
+- **Obrigatoriedade:** É obrigatória nas contratações de **grande vulto** (valor que ultrapassa R$ 200.000.000,00) e nos regimes de contratação integrada e semi-integrada.
+- **Vedação ao Reequilíbrio Econômico-Financeiro (Art. 124, § 1º):** Se determinado evento imprevisível ou oscilação de mercado ocorrer, mas sua responsabilidade financeira tiver sido previamente alocada à contratada na matriz de riscos, **a empresa NÃO tem direito a aditivo de reequilíbrio econômico-financeiro**. O risco já foi precificado e assumido pela empresa em sua proposta licitatória originária.
+
+---
 
 ### Teste 072
 **(FGV - Analista Judiciário de Controle Externo / TCE-GO)**
@@ -366,21 +377,6 @@ Dentre os elementos previstos para o ETP, assinale a opção que apresenta um do
 > - **E)** Incorreta. Em regra é vedada a indicação de marca, salvo hipóteses restritas de padronização justificada tecnicamente (art. 41, I).
 >
 > **Gabarito: B**
-
----
-
-### 3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios
-
-O **Estudo Técnico Preliminar (ETP)** é o documento constitutivo da primeira etapa do planejamento de uma contratação. Ele evidencia o problema público a ser resolvido e avalia comparativamente as alternativas viáveis disponíveis no mercado para eleger a solução mais eficiente (art. 18).
-
-#### Os 5 Elementos Obrigatórios do ETP (Art. 18, § 2º):
-Embora o ETP contenha treze itens descritivos em seu roteiro geral, a NLLC fixou **cinco elementos com preenchimento obrigatório indispensável**:
-
-1. Descrição da **necessidade da contratação**;
-2. **Estimativa das quantidades** a serem contratadas, acompanhada de memória de cálculo detalhada;
-3. **Estimativa do valor da contratação**, amparada em pesquisa prévia de preços;
-4. **Justificativa para o parcelamento ou não** da solução de mercado;
-5. **Posicionamento conclusivo** sobre a adequação da contratação para o atendimento da necessidade pública.
 
 ---
 
@@ -417,15 +413,6 @@ Considerando o que prescreve o art. 18 da Lei Federal nº 14.133/2021 sobre o co
 
 ---
 
-
-### 3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo
-
-- **Termo de Referência (TR - Art. 6º, XXIII):** Documento elaborado para a contratação de **bens e serviços em geral**, contendo os elementos técnicos necessários para caracterizar o objeto de forma clara, o modelo de execução, os critérios de medição e pagamento e os parâmetros de aceitabilidade das propostas.
-- **Projeto Básico (Art. 6º, XXV):** Documento elaborado para **obras e serviços de engenharia**, contendo elementos técnicos precisos e consolidados que permitam a perfeita identificação do empreendimento e a estimativa de custos de cada etapa construtiva.
-- **Projeto Executivo (Art. 6º, XXVI):** Conjunto dos elementos detalhados necessários e suficientes para a execução completa da obra civil.
-
-
-
 ### Teste 074
 **(FCC - Auditor de Controle Externo)**
 Na fase preparatória das contratações regidas pela Lei nº 14.133/2021, o Termo de Referência (TR) e o Projeto Básico desempenham papéis definidores do objeto licitado.
@@ -450,24 +437,6 @@ Sobre as diretrizes legais aplicáveis a esses instrumentos, assinale a afirmati
 > - **E)** Incorreta. A matriz de riscos é incentivada em geral e **obrigatória** nas contratações de grande vulto (art. 22, § 3º).
 >
 > **Gabarito: B**
-
----
-
-### 3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro
-
-A **Matriz de Alocação de Riscos** (art. 6º, XXVII e art. 22) é a cláusula contratual que promove a divisão objetiva e contratual de encargos financeiros e riscos supervenientes entre a Administração Pública e o contratado.
-
-```mermaid
-flowchart TD
-    MR["Matriz de Alocação de Riscos (Art. 22)"]
-    
-    MR --> OBRIG["OBRIGATÓRIA em:<br/>1. Contratações de GRANDE VULTO (> R$ 200 milhões)<br/>2. Regimes de Contratação INTEGRADA e SEMI-INTEGRADA"]
-    
-    MR --> EFEITO["EFEITO JURÍDICO DIRETO (Art. 124, § 1º):<br/>Se ocorrer evento superveniente cujo risco foi alocado ao CONTRATADO...<br/>NÃO CABE TERMO ADITIVO DE REEQUILÍBRIO ECONÔMICO-FINANCEIRO!"]
-```
-
-- **Obrigatoriedade:** É obrigatória nas contratações de **grande vulto** (valor que ultrapassa R$ 200.000.000,00) e nos regimes de contratação integrada e semi-integrada.
-- **Vedação ao Reequilíbrio Econômico-Financeiro (Art. 124, § 1º):** Se determinado evento imprevisível ou oscilação de mercado ocorrer, mas sua responsabilidade financeira tiver sido previamente alocada à contratada na matriz de riscos, **a empresa NÃO tem direito a aditivo de reequilíbrio econômico-financeiro**. O risco já foi precificado e assumido pela empresa em sua proposta licitatória originária.
 
 ---
 
@@ -496,10 +465,7 @@ Com base na disciplina da Lei Federal nº 14.133/2021:
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 4. O Portal Nacional de Contratações Públicas (PNCP)
 
@@ -545,10 +511,7 @@ O Estado de Goiás homologou licitação para aquisição de equipamentos hospit
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Fontes Recomendadas na Internet
 

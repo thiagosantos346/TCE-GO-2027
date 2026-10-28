@@ -27,36 +27,29 @@
     - **Escolas Descritivas:** Escola Empreendedora (visão intuitiva do líder), Escola Cognitiva (processamento mental e vieses), Escola do Aprendizado (estratégias emergentes e tentativa e erro), Escola do Poder (negociação, jogos de poder e coalizões), Escola Cultural (crenças coletivas e mitos) e Escola Ambiental (adaptação passiva às pressões externas);
     - **Escola Integrativa:** Escola da Configuração (estabilidade pontuada por transformações estruturais quânticas).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [A Tríade da Identidade Estratégica: Missão, Visão e Valores](#1-a-triade-da-identidade-estrategica-missao-visao-e-valores)
-    2. [Teste 370](#Teste-370)
-    3. [Teste 371](#Teste-371)
-    4. [Teste 372](#Teste-372)
-    5. [O Ciclo da Gestão Estratégica Integrada](#2-o-ciclo-da-gestao-estrategica-integrada)
-    6. [Teste 373](#Teste-373)
-    7. [Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)](#3-estrategias-deliberadas-vs-estrategias-emergentes-henry-mintzberg)
-    8. [Teste 374](#Teste-374)
-    9. [Teste 375](#Teste-375)
-    10. [As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia*)](#as-dez-escolas-do-pensamento-estrategico-safari-de-estrategia)
-    11. [Teste 376](#Teste-376)
-    12. [Teste 377](#Teste-377)
-    13. [Teste 378](#Teste-378)
-    14. [Teste 379](#Teste-379)
-    15. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+1. [A Tríade da Identidade Estratégica: Missão, Visão e Valores](#1-a-triade-da-identidade-estrategica-missao-visao-e-valores)
+    1. [Teste 370](#Teste-370)
+    2. [Teste 371](#Teste-371)
+    3. [Teste 372](#Teste-372)
+2. [O Ciclo da Gestão Estratégica Integrada](#2-o-ciclo-da-gestao-estrategica-integrada)
+    1. [Teste 373](#Teste-373)
+3. [Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)](#3-estrategias-deliberadas-vs-estrategias-emergentes-henry-mintzberg)
+    1. [Teste 374](#Teste-374)
+    2. [Teste 375](#Teste-375)
+4. [As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia*)](#4-as-dez-escolas-do-pensamento-estrategico-safari-de-estrategia)
+    1. [Teste 376](#Teste-376)
+    2. [Teste 377](#Teste-377)
+    3. [Teste 378](#Teste-378)
+    4. [Teste 379](#Teste-379)
+5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. A Tríade da Identidade Estratégica: Missão, Visão e Valores
+## 1. A Tríade da Identidade Estratégica: Missão, Visão e Valores
 
 A construção da identidade organizacional representa o marco fundador do planejamento estratégico, orientando a tomada de decisão da alta cúpula até a base operacional:
 
@@ -150,8 +143,6 @@ Ao formular seu planejamento plurianual, determinada defensoria pública incluiu
 
 ---
 
-
-
 ### Teste 372
 **(FCC - Adaptada / Analista de Planejamento e Gestão)**
 Na definição da identidade corporativa e do referencial estratégico de um órgão de controle externo, a **Visão de Futuro** diferencia-se da **Missão Institucional** por:
@@ -177,8 +168,7 @@ Na definição da identidade corporativa e do referencial estratégico de um ór
 
 ---
 
-
-### 2. O Ciclo da Gestão Estratégica Integrada
+## 2. O Ciclo da Gestão Estratégica Integrada
 
 A gestão estratégica contemporânea não é um evento isolado quadrienal, mas um ciclo administrativo contínuo, dinâmico e retroalimentado composto por quatro etapas estruturadas:
 
@@ -227,8 +217,7 @@ Segundo Mintzberg, a **Estratégia Emergente** caracteriza-se por:
 
 ---
 
-
-### 3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)
+## 3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)
 
 Henry Mintzberg revolucionou os estudos de estratégia organizacional ao demonstrar que a estratégia executada na prática raramente corresponde de forma idêntica àquela planejada nos gabinetes da diretoria:
 
@@ -277,8 +266,6 @@ De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica d
 
 ---
 
-
-
 ### Teste 375
 **(FCC - Adaptada / Analista de Planejamento e Controle)**
 Na clássica obra *Safári de Estratégia*, Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel classificam o pensamento estratégico em dez escolas, agrupadas em **Prescritivas** e **Descritivas**.
@@ -303,8 +290,7 @@ Constitui uma escola de natureza tipicamente **Prescritiva** (normativa), voltad
 
 ---
 
-
-### 4. As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia*)
+## 4. As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia*)
 
 Na consagrada obra *Safári de Estratégia*, Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel organizaram a evolução do pensamento estratégico em dez escolas, categorizadas em prescritivas, descritivas e integrativas:
 
@@ -406,8 +392,6 @@ Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári 
 
 ---
 
-
-
 ### Teste 378
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na elaboração do planejamento estratégico, a formulação dos **Valores Organizacionais** representa:
@@ -455,8 +439,7 @@ A etapa do ciclo em que a alta direção e os comitês de governança comparam p
 
 ---
 
-
-### 5. Fontes Oficiais e Referências Bibliográficas
+## 5. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto nº 9.203/2017 (Mecanismo de Estratégia na Governança Pública)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Define estratégia como conjunto de ações voltadas ao alcance dos objetivos organizacionais e satisfação do cidadão.
 * [Decreto-Lei nº 200/1967 (Princípio Fundamental do Planejamento)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Exigência legal de planejamento plurianual e planos anuais de ação para as entidades públicas.

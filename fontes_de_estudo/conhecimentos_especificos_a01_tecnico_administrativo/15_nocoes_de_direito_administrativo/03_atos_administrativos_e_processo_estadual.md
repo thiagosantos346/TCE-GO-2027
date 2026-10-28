@@ -19,10 +19,7 @@
 - Convalidação (sanamento de vícios de competência e forma)
 - Processo Administrativo no Estado de Goiás: Lei Estadual nº 13.800/2001 e alterações
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -33,39 +30,38 @@
 2. [Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)](#2-elementos-e-requisitos-de-validade-do-ato-mnemonico-cofifom)
     1. [Competência (Sujeito Competente)](#21-competencia-sujeito-competente)
     2. [Finalidade e o Desvio de Poder](#22-finalidade-e-o-desvio-de-poder)
-    3. [Teste 024](#Teste-024)
-    4. [Forma e Princípio da Solenidade](#23-forma-e-principio-da-solenidade)
-    5. [Motivo e a Teoria dos Motivos Determinantes](#24-motivo-e-a-teoria-dos-motivos-determinantes)
-    6. [Teste 025](#Teste-025)
-    7. [Objeto (Conteúdo) e a Delimitação do Mérito Administrativo](#25-objeto-conteudo-e-a-delimitacao-do-merito-administrativo)
+    3. [Forma e Princípio da Solenidade](#23-forma-e-principio-da-solenidade)
+    4. [Motivo e a Teoria dos Motivos Determinantes](#24-motivo-e-a-teoria-dos-motivos-determinantes)
+    5. [Objeto (Conteúdo) e a Delimitação do Mérito Administrativo](#25-objeto-conteudo-e-a-delimitacao-do-merito-administrativo)
+    6. [Teste 024](#Teste-024)
+    7. [Teste 025](#Teste-025)
     8. [Teste 026](#Teste-026)
 3. [Atributos do Ato Administrativo (Mnemônico PATI)](#3-atributos-do-ato-administrativo-mnemonico-pati)
     1. [Presunção de Legitimidade e Veracidade](#31-presuncao-de-legitimidade-e-veracidade)
     2. [Autoexecutoriedade e seus Limites](#32-autoexecutoriedade-e-seus-limites)
-    3. [Teste 027](#Teste-027)
-    4. [Tipicidade Administrativa](#33-tipicidade-administrativa)
-    5. [Imperatividade e Poder Extroverso](#34-imperatividade-e-poder-extroverso)
+    3. [Tipicidade Administrativa](#33-tipicidade-administrativa)
+    4. [Imperatividade e Poder Extroverso](#34-imperatividade-e-poder-extroverso)
+    5. [Teste 027](#Teste-027)
 4. [Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos](#4-classificacoes-relevantes-para-a-fcc-atos-simples-complexos-e-compostos)
     1. [Atos Simples, Complexos e Compostos](#41-atos-simples-complexos-e-compostos)
-    2. [Teste 028](#Teste-028)
-    3. [O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)](#42-o-registro-de-aposentadoria-no-tribunal-de-contas-tema-445-stf)
+    2. [O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)](#42-o-registro-de-aposentadoria-no-tribunal-de-contas-tema-445-stf)
+    3. [Teste 028](#Teste-028)
     4. [Teste 029](#Teste-029)
 5. [Extinção e Convalidação dos Atos Administrativos](#5-extincao-e-convalidacao-dos-atos-administrativos)
     1. [Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição](#51-modos-de-extincao-anulacao-revogacao-cassacao-caducidade-e-contraposicao)
-    2. [Teste 030](#Teste-030)
-    3. [Convalidação: Requisitos, Limites e Efeitos Temporais](#52-convalidacao-requisitos-limites-e-efeitos-temporais)
+    2. [Convalidação: Requisitos, Limites e Efeitos Temporais](#52-convalidacao-requisitos-limites-e-efeitos-temporais)
+    3. [Teste 030](#Teste-030)
     4. [Teste 031](#Teste-031)
 6. [Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)](#6-processo-administrativo-no-estado-de-goias-lei-estadual-no-138002001)
     1. [Princípios Norteadores e Direitos dos Administrados](#61-principios-norteadores-e-direitos-dos-administrados)
     2. [Vedações Absolutas à Delegação (Regra do CENORA - Art. 13)](#62-vedacoes-absolutas-a-delegacao-regra-do-cenora-art-13)
-    3. [Teste 032](#Teste-032)
-    4. [Impedimentos e Suspeição de Agentes e Julgadores](#63-impedimentos-e-suspeicao-de-agentes-e-julgadores)
-    5. [Teste 033](#Teste-033)
-    6. [Motivação das Decisões e Regime Recursal](#64-motivacao-das-decisoes-e-regime-recursal)
+    3. [Impedimentos e Suspeição de Agentes e Julgadores](#63-impedimentos-e-suspeicao-de-agentes-e-julgadores)
+    4. [Motivação das Decisões e Regime Recursal](#64-motivacao-das-decisoes-e-regime-recursal)
+    5. [Teste 032](#Teste-032)
+    6. [Teste 033](#Teste-033)
 7. [Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Teoria Geral do Ato Administrativo e Distinções Conceituais
 
@@ -100,8 +96,6 @@ flowchart TD
 
 ---
 
-
-
 ### Teste 023
 **(FCC - Analista Judiciário - Área Judiciária)**
 No estudo da Teoria Geral do Ato Administrativo, os planos da existência (perfeição), da validade e da eficácia devem ser compreendidos como conceitos analiticamente distintos e autônomos.
@@ -127,10 +121,7 @@ A esse respeito, assinale a afirmativa correta.
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)
 
@@ -166,7 +157,32 @@ A finalidade representa o objetivo mediato de interesse público que o ato deve 
 
 - **Desvio de Finalidade (Desvio de Poder):** Ocorre quando a autoridade competente utiliza poderes legítimos para atingir fins alheios ao interesse público ou fim diverso daquele categorizado pela lei para aquela competência (ex.: remoção compulsória de servidor com o propósito punitivo disfarçado de perseguição pessoal). É vício que acarreta a **nulidade absoluta e insanável** do ato administrativo.
 
+### 2.3 Forma e Princípio da Solenidade
 
+A forma é o modo pelo qual a vontade da Administração se exterioriza e ganha publicidade no mundo jurídico.
+
+- No Direito Administrativo vige o princípio do formalismo moderado, mas como regra geral os atos são solenes e devem ser expedidos por **escrito**, contendo data, identificação do cargo e assinatura.
+- *Defeitos de Forma:* A omissão de formalidades não essenciais que não prejudiquem o direito de defesa dos administrados configura vício sanável, passível de **convalidação**.
+
+### 2.4 Motivo e a Teoria dos Motivos Determinantes
+
+O motivo constitui a situação de fato (o evento do mundo real) e a situação de direito (o enquadramento na norma legal) que autorizam ou determinam a prática do ato administrativo.
+
+- Não se confunde com a **motivação** (a motivação é a declaração escrita dos motivos; o motivo é o próprio fato em si).
+
+#### A Teoria dos Motivos Determinantes:
+Consagrada pela jurisprudência pacífica do STF e do STJ, preceitua que a validade do ato administrativo fica indissoluvelmente vinculada à veracidade, exatidão e subsistência dos motivos alegados pela autoridade:
+
+- Mesmo que o ato seja discricionário e prescindisse originalmente de motivação obrigatória (como a exoneração *ad nutum* de um assessor comissionado), se a autoridade decidir enunciar publicamente um motivo (ex.: afirmar no decreto que exonerou o servidor em razão do corte orçamentário do setor), **o ato ficará vinculado a essa justificativa**.
+- Se for judicialmente ou administrativamente comprovado que o motivo é falso (o órgão tinha recursos abundantes) ou juridicamente inexistente, **o ato de exoneração é nulo de pleno direito**, devendo ser extirpado da ordem jurídica.
+
+### 2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo
+
+O objeto é o efeito jurídico imediato e substantivo que o ato produz no mundo real (é o "o que" o ato decide, cria, extingue ou altera). Deve ser lícito, possível, determinado ou determinável.
+
+- **O Mérito Administrativo:** Nos atos discricionários, o mérito administrativo — consubstanciado no juízo de **conveniência e oportunidade** privativo da autoridade pública — incide **estrita e unicamente sobre o Motivo e o Objeto**. Os elementos Competência, Finalidade e Forma são sempre vinculados.
+
+---
 
 ### Teste 024
 **(FGV - Auditor de Controle Externo / TCE-PA)**
@@ -192,27 +208,6 @@ Nessa situação, o ato expropriatório praticado padece de vício de:
 > - **E)** Incorreta. O desvio de poder é vício de legalidade gravíssimo que atinge a validade do ato e configura ato de improbidade administrativa.
 >
 > **Gabarito: B**
-
----
-
-### 2.3 Forma e Princípio da Solenidade
-
-A forma é o modo pelo qual a vontade da Administração se exterioriza e ganha publicidade no mundo jurídico.
-
-- No Direito Administrativo vige o princípio do formalismo moderado, mas como regra geral os atos são solenes e devem ser expedidos por **escrito**, contendo data, identificação do cargo e assinatura.
-- *Defeitos de Forma:* A omissão de formalidades não essenciais que não prejudiquem o direito de defesa dos administrados configura vício sanável, passível de **convalidação**.
-
-### 2.4 Motivo e a Teoria dos Motivos Determinantes
-
-O motivo constitui a situação de fato (o evento do mundo real) e a situação de direito (o enquadramento na norma legal) que autorizam ou determinam a prática do ato administrativo.
-
-- Não se confunde com a **motivação** (a motivação é a declaração escrita dos motivos; o motivo é o próprio fato em si).
-
-#### A Teoria dos Motivos Determinantes:
-Consagrada pela jurisprudência pacífica do STF e do STJ, preceitua que a validade do ato administrativo fica indissoluvelmente vinculada à veracidade, exatidão e subsistência dos motivos alegados pela autoridade:
-
-- Mesmo que o ato seja discricionário e prescindisse originalmente de motivação obrigatória (como a exoneração *ad nutum* de um assessor comissionado), se a autoridade decidir enunciar publicamente um motivo (ex.: afirmar no decreto que exonerou o servidor em razão do corte orçamentário do setor), **o ato ficará vinculado a essa justificativa**.
-- Se for judicialmente ou administrativamente comprovado que o motivo é falso (o órgão tinha recursos abundantes) ou juridicamente inexistente, **o ato de exoneração é nulo de pleno direito**, devendo ser extirpado da ordem jurídica.
 
 ---
 
@@ -243,17 +238,6 @@ Com base na **Teoria dos Motivos Determinantes**:
 
 ---
 
-
-### 2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo
-
-O objeto é o efeito jurídico imediato e substantivo que o ato produz no mundo real (é o "o que" o ato decide, cria, extingue ou altera). Deve ser lícito, possível, determinado ou determinável.
-
-- **O Mérito Administrativo:** Nos atos discricionários, o mérito administrativo — consubstanciado no juízo de **conveniência e oportunidade** privativo da autoridade pública — incide **estrita e unicamente sobre o Motivo e o Objeto**. Os elementos Competência, Finalidade e Forma são sempre vinculados.
-
----
-
-
-
 ### Teste 026
 **(FCC - Procurador do Estado)**
 No que tange aos elementos e requisitos de validade do ato administrativo, analise as afirmativas a seguir sobre o objeto (conteúdo) e a delimitação do mérito administrativo:
@@ -283,10 +267,7 @@ Está correto o que se afirma em:
 >
 > **Gabarito: D**
 
-
-
 ---
-
 
 ## 3. Atributos do Ato Administrativo (Mnemônico PATI)
 
@@ -317,7 +298,17 @@ Presume-se que o ato administrativo foi expedido em estrita consonância com a l
 > 🚨 **ALERTA CLÁSSICO FCC:**  
 > A cobrança de **multas pecuniárias administrativas NÃO é autoexecutória**! Se o particular se recusar a pagar a multa, a Administração não pode tomar o dinheiro de sua conta bancária diretamente; deve inscrever o débito em Dívida Ativa e ajuizar Ação de Execução Fiscal perante o Poder Judiciário.
 
+### 3.3 Tipicidade Administrativa
 
+Formulada por Maria Sylvia Zanella Di Pietro, preceitua que cada ato administrativo deve corresponder rigorosamente a figuras e modelos abstratos previamente tipificados na legislação. Impede que o Estado crie atos unilaterais inominados ou arbitrários sem desenho legal prévio.
+
+### 3.4 Imperatividade e Poder Extroverso
+
+Consiste na faculdade de impor obrigações coercitivas e restrições unilaterais a terceiros, independentemente de sua concordância prévia.
+
+- Não está presente em atos negociais (licenças, autorizações) e atos meramente enunciativos (pareceres, certidões, atestados).
+
+---
 
 ### Teste 027
 **(FGV - Analista Judiciário - Área Judiciária)**
@@ -346,21 +337,6 @@ A atuação administrativa descrita fundamenta-se precipuamente no atributo do a
 
 ---
 
-### 3.3 Tipicidade Administrativa
-
-Formulada por Maria Sylvia Zanella Di Pietro, preceitua que cada ato administrativo deve corresponder rigorosamente a figuras e modelos abstratos previamente tipificados na legislação. Impede que o Estado crie atos unilaterais inominados ou arbitrários sem desenho legal prévio.
-
-### 3.4 Imperatividade e Poder Extroverso
-
-Consiste na faculdade de impor obrigações coercitivas e restrições unilaterais a terceiros, independentemente de sua concordância prévia.
-
-- Não está presente em atos negociais (licenças, autorizações) e atos meramente enunciativos (pareceres, certidões, atestados).
-
-
-
----
-
-
 ## 4. Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos
 
 ### 4.1 Atos Simples, Complexos e Compostos
@@ -381,7 +357,17 @@ flowchart TD
     end
 ```
 
+### 4.2 O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)
 
+O julgamento da legalidade e a concessão de registro de aposentadoria, pensão ou reforma pelas Cortes de Contas é um dos temas prediletos da FCC:
+
+1. **Natureza Jurídica:** Trata-se categoricamente de um **ato administrativo complexo** (Súmula Vinculante nº 3 e pacífica jurisprudência do STF). O ato inicial expedido pelo órgão de origem é meramente precário e provisório; somente ganha definitividade e perfeição com o julgamento e registro pelo Tribunal de Contas.
+2. **Dispensa de Contraditório Prévio (SV nº 3):** Na apreciação da legalidade do ato de concessão inicial de aposentadoria, é dispensado o contraditório e a ampla defesa no Tribunal de Contas, salvo se transcorrer prazo desarrazoado.
+3. **O Prazo Decadencial de 5 Anos (Tema 445 do STF):** O STF fixou a seguinte tese vinculante:
+   > *"Em atenção aos princípios da segurança jurídica e da confiança legítima, os Tribunais de Contas estão sujeitos ao prazo de 5 anos para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, **a contar da chegada do processo à respectiva Corte de Contas**, após o qual, se não houver decisão, o ato considerar-se-á definitivamente registrado."*
+4. **Impossibilidade de Revogação por Conveniência:** Por se tratar de ato vinculado, a autoridade de origem não pode revogar a aposentadoria com base em razões de conveniência ou oportunidade (mérito).
+
+---
 
 ### Teste 028
 **(FCC - Auditor de Controle Externo)**
@@ -405,18 +391,6 @@ Na classificação dos atos administrativos quanto à formação da vontade, a d
 > - **E)** Incorreta. O ato deliberado por órgão colegiado (como o Pleno do TCE) é **ato simples colegiado**; a pluralidade de membros não altera a singularidade do órgão emissor.
 >
 > **Gabarito: C**
-
----
-
-### 4.2 O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)
-
-O julgamento da legalidade e a concessão de registro de aposentadoria, pensão ou reforma pelas Cortes de Contas é um dos temas prediletos da FCC:
-
-1. **Natureza Jurídica:** Trata-se categoricamente de um **ato administrativo complexo** (Súmula Vinculante nº 3 e pacífica jurisprudência do STF). O ato inicial expedido pelo órgão de origem é meramente precário e provisório; somente ganha definitividade e perfeição com o julgamento e registro pelo Tribunal de Contas.
-2. **Dispensa de Contraditório Prévio (SV nº 3):** Na apreciação da legalidade do ato de concessão inicial de aposentadoria, é dispensado o contraditório e a ampla defesa no Tribunal de Contas, salvo se transcorrer prazo desarrazoado.
-3. **O Prazo Decadencial de 5 Anos (Tema 445 do STF):** O STF fixou a seguinte tese vinculante:
-   > *"Em atenção aos princípios da segurança jurídica e da confiança legítima, os Tribunais de Contas estão sujeitos ao prazo de 5 anos para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, **a contar da chegada do processo à respectiva Corte de Contas**, após o qual, se não houver decisão, o ato considerar-se-á definitivamente registrado."*
-4. **Impossibilidade de Revogação por Conveniência:** Por se tratar de ato vinculado, a autoridade de origem não pode revogar a aposentadoria com base em razões de conveniência ou oportunidade (mérito).
 
 ---
 
@@ -445,10 +419,7 @@ Determinada autarquia estadual goiana publicou ato de concessão de aposentadori
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 5. Extinção e Convalidação dos Atos Administrativos
 
@@ -465,6 +436,25 @@ Determinada autarquia estadual goiana publicou ato de concessão de aposentadori
 
 > ⚠️ **Atenção Máxima FCC:**  
 > O Poder Judiciário **JAMAIS pode revogar atos administrativos do Poder Executivo**. O Judiciário pode anular atos ilegais, mas se pronunciar sobre a conveniência e oportunidade de atos do Executivo configuraria intolerável violação à separação dos Poderes (art. 2º da CF).
+
+### 5.2 Convalidação: Requisitos, Limites e Efeitos Temporais
+
+A convalidação (ou sanatória) é o ato administrativo pelo qual a Administração corrige e supre um vício existente em ato ilegal anterior com efeitos retroativos (**ex tunc**).
+
+- **Dispositivo Normativo:** Art. 55 da Lei Federal nº 9.784/1999 e art. 54 da Lei Estadual/GO nº 13.800/2001.
+- **Requisitos Cumulativos Obrigatórios:**
+    1. O ato **não pode acarretar lesão ao interesse público**;
+    2. O ato **não pode causar prejuízos a terceiros de boa-fé**;
+    3. O vício deve ser **sanável**.
+
+- **Defeitos Sanáveis que Comportam Convalidação:**
+    - **Competência quanto à Pessoa:** Admite convalidação (ratificação pela autoridade competente), desde que a lei **NÃO tenha atribuído competência exclusiva** à autoridade que praticou o ato originário.
+    - **Forma:** Admite convalidação se a forma desrespeitada não foi expressamente exigida por lei como requisito essencial de validade do ato.
+- **Defeitos Insanáveis (NULIDADE ABSOLUTA - Vedada Convalidação):**
+    - Vício de **Finalidade** (desvio de poder);
+    - Vício de **Motivo** (motivo falso ou inexistente);
+    - Vício de **Objeto** (objeto ilícito ou impossível);
+    - Vício de competência privativa/exclusiva ou forma essencial.
 
 ---
 
@@ -497,28 +487,6 @@ As formas de extinção dos atos administrativos aplicáveis, respectivamente, �
 
 ---
 
-
-### 5.2 Convalidação: Requisitos, Limites e Efeitos Temporais
-
-A convalidação (ou sanatória) é o ato administrativo pelo qual a Administração corrige e supre um vício existente em ato ilegal anterior com efeitos retroativos (**ex tunc**).
-
-- **Dispositivo Normativo:** Art. 55 da Lei Federal nº 9.784/1999 e art. 54 da Lei Estadual/GO nº 13.800/2001.
-- **Requisitos Cumulativos Obrigatórios:**
-    1. O ato **não pode acarretar lesão ao interesse público**;
-    2. O ato **não pode causar prejuízos a terceiros de boa-fé**;
-    3. O vício deve ser **sanável**.
-
-- **Defeitos Sanáveis que Comportam Convalidação:**
-    - **Competência quanto à Pessoa:** Admite convalidação (ratificação pela autoridade competente), desde que a lei **NÃO tenha atribuído competência exclusiva** à autoridade que praticou o ato originário.
-    - **Forma:** Admite convalidação se a forma desrespeitada não foi expressamente exigida por lei como requisito essencial de validade do ato.
-- **Defeitos Insanáveis (NULIDADE ABSOLUTA - Vedada Convalidação):**
-    - Vício de **Finalidade** (desvio de poder);
-    - Vício de **Motivo** (motivo falso ou inexistente);
-    - Vício de **Objeto** (objeto ilícito ou impossível);
-    - Vício de competência privativa/exclusiva ou forma essencial.
-
----
-
 ### Teste 031
 **(FCC - Procurador do Estado / Adaptada)**
 Determinada autoridade administrativa estadual proferiu ato administrativo autorizando a ocupação temporária de bem público por particular. Posteriormente, a assessoria jurídica constatou que a competência para emitir o ato pertencia legalmente a um Diretor Setorial distinto, inexistindo competência exclusiva em favor de qualquer deles. Verificou-se que a autorização atendeu plenamente ao interesse público, não causou prejuízo a terceiros e observou todos os demais requisitos de forma, motivo e objeto.
@@ -544,10 +512,7 @@ Diante do vício constatado, a Administração Pública:
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)
 
@@ -565,6 +530,23 @@ Reproduzindo a regra geral do direito público brasileiro, o art. 13 da Lei Goia
 1. **Competência Exclusiva** atribuída por lei a determinado órgão ou autoridade;
 2. Edição de atos de caráter **Normativo**;
 3. Decisão de **Recursos Administrativos**.
+
+### 6.3 Impedimentos e Suspeição de Agentes e Julgadores
+
+Para assegurar a imparcialidade nas decisões administrativas, a lei estadual estabelece distinção crucial entre:
+
+- **Impedimento (Vício Objetivo - Art. 18):** O servidor ou autoridade é legalmente impedido de atuar em processo no qual:
+    - Tenha interesse direto ou indireto na matéria;
+    - Tenha participado ou venha a participar como perito, testemunha ou representante, ou se tais situações ocorrerem quanto ao cônjuge, companheiro ou parentes até o terceiro grau;
+    - Esteja litigando judicial ou administrativamente com o interessado ou respectivo cônjuge/companheiro.
+    - *Omissão do Impedimento:* Constitui falta disciplinar grave.
+- **Suspeição (Vício Subjetivo - Art. 20):** Pode ser arguida a suspeição de autoridade ou servidor que tenha amizade íntima ou inimizade notória com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o terceiro grau.
+
+### 6.4 Motivação das Decisões e Regime Recursal
+
+- **Dever de Motivação (Art. 50):** As decisões que neguem, limitem ou afetem direitos ou interesses, imponham sanções, decidam recursos, dispensem licitações ou anulem/revoguem atos anteriores devem ser expressamente motivadas, com indicação dos fatos e fundamentos jurídicos.
+- **Prazos Recursais (Art. 59):** Salvo disposição legal específica em contrário, o prazo para interposição de recurso administrativo na administração goiana é de **10 (dez) dias**, contados da ciência ou divulgação oficial da decisão.
+- **Efeitos do Recurso e Reformatio in Pejus (Arts. 61 e 64):** O recurso tem como regra geral efeito estritamente devolutivo (efeito suspensivo é excepcional). A autoridade julgadora pode confirmar, modificar, anular ou revogar, total ou parcialmente, a decisão recorrida; se da revisão puder decorrer gravame à situação do recorrente (*reformatio in pejus*), este deverá ser cientificado previamente para formular suas alegações no prazo de 10 dias.
 
 ---
 
@@ -594,20 +576,6 @@ Considerando o regime jurídico de competência e delegação estabelecido na Le
 > **Gabarito: B**
 
 ---
-
-
-### 6.3 Impedimentos e Suspeição de Agentes e Julgadores
-
-Para assegurar a imparcialidade nas decisões administrativas, a lei estadual estabelece distinção crucial entre:
-
-- **Impedimento (Vício Objetivo - Art. 18):** O servidor ou autoridade é legalmente impedido de atuar em processo no qual:
-    - Tenha interesse direto ou indireto na matéria;
-    - Tenha participado ou venha a participar como perito, testemunha ou representante, ou se tais situações ocorrerem quanto ao cônjuge, companheiro ou parentes até o terceiro grau;
-    - Esteja litigando judicial ou administrativamente com o interessado ou respectivo cônjuge/companheiro.
-    - *Omissão do Impedimento:* Constitui falta disciplinar grave.
-- **Suspeição (Vício Subjetivo - Art. 20):** Pode ser arguida a suspeição de autoridade ou servidor que tenha amizade íntima ou inimizade notória com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o terceiro grau.
-
-
 
 ### Teste 033
 **(FGV - Analista Judiciário de Controle Externo / TCE-GO)**
@@ -639,17 +607,6 @@ Está correto o que se afirma em:
 > **Gabarito: E**
 
 ---
-
-### 6.4 Motivação das Decisões e Regime Recursal
-
-- **Dever de Motivação (Art. 50):** As decisões que neguem, limitem ou afetem direitos ou interesses, imponham sanções, decidam recursos, dispensem licitações ou anulem/revoguem atos anteriores devem ser expressamente motivadas, com indicação dos fatos e fundamentos jurídicos.
-- **Prazos Recursais (Art. 59):** Salvo disposição legal específica em contrário, o prazo para interposição de recurso administrativo na administração goiana é de **10 (dez) dias**, contados da ciência ou divulgação oficial da decisão.
-- **Efeitos do Recurso e Reformatio in Pejus (Arts. 61 e 64):** O recurso tem como regra geral efeito estritamente devolutivo (efeito suspensivo é excepcional). A autoridade julgadora pode confirmar, modificar, anular ou revogar, total ou parcialmente, a decisão recorrida; se da revisão puder decorrer gravame à situação do recorrente (*reformatio in pejus*), este deverá ser cientificado previamente para formular suas alegações no prazo de 10 dias.
-
-
-
----
-
 
 ## 7. Fontes Recomendadas na Internet
 

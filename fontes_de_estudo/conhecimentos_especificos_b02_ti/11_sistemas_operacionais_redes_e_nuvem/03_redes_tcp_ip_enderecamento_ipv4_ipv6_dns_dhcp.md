@@ -16,51 +16,47 @@
 - Protocolo de Resolução de Nomes: DNS (Domain Name System)
 - Protocolo de Configuração Dinâmica de Hosts: DHCP (Dynamic Host Configuration Protocol)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Modelos de Referência: OSI vs. TCP/IP](#1-modelos-de-referencia-osi-vs-tcpip)
     1. [Estrutura em Camadas do Modelo OSI (7 Níveis)](#11-estrutura-em-camadas-do-modelo-osi-7-niveis)
     2. [Arquitetura em Camadas da Pilha TCP/IP (4 Níveis)](#12-arquitetura-em-camadas-da-pilha-tcpip-4-niveis)
-    3. [Teste 432](#Teste-432)
-    4. [Unidades de Dados de Protocolo (PDU) e Encapsulamento](#13-unidades-de-dados-de-protocolo-pdu-e-encapsulamento)
+    3. [Unidades de Dados de Protocolo (PDU) e Encapsulamento](#13-unidades-de-dados-de-protocolo-pdu-e-encapsulamento)
+    4. [Teste 432](#Teste-432)
     5. [Teste 433](#Teste-433)
 2. [Endereçamento e Sub-redes IPv4](#2-enderecamento-e-sub-redes-ipv4)
     1. [Classes Históricas de Endereços (Classes A a E)](#21-classes-historicas-de-enderecos-classes-a-a-e)
     2. [Espaço de Endereçamento Privado (RFC 1918) e NAT/PAT](#22-espaco-de-enderecamento-privado-rfc-1918-e-natpat)
-    3. [Teste 434](#Teste-434)
-    4. [Roteamento Interdomínio Sem Classe (CIDR) e VLSM](#23-roteamento-interdominio-sem-classe-cidr-e-vlsm)
-    5. [Mecânica de Cálculo de Sub-redes, Hosts Úteis e Tabela de Conversão](#24-mecanica-de-calculo-de-sub-redes-hosts-uteis-e-tabela-de-conversao)
+    3. [Roteamento Interdomínio Sem Classe (CIDR) e VLSM](#23-roteamento-interdominio-sem-classe-cidr-e-vlsm)
+    4. [Mecânica de Cálculo de Sub-redes, Hosts Úteis e Tabela de Conversão](#24-mecanica-de-calculo-de-sub-redes-hosts-uteis-e-tabela-de-conversao)
+    5. [Teste 434](#Teste-434)
     6. [Teste 435](#Teste-435)
 3. [Endereçamento IPv6](#3-enderecamento-ipv6)
     1. [Estrutura de 128 Bits e Regras de Compactação Oficial (RFC 5952)](#31-estrutura-de-128-bits-e-regras-de-compactacao-oficial-rfc-5952)
     2. [Tipos de Transmissão no IPv6: Unicast, Anycast e Multicast (Extinção do Broadcast)](#32-tipos-de-transmissao-no-ipv6-unicast-anycast-e-multicast-extincao-do-broadcast)
-    3. [Teste 436](#Teste-436)
-    4. [Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)](#33-faixas-notaveis-de-enderecos-ipv6-loopback-link-local-ula-gua)
-    5. [Autoconfiguração (SLAAC) e Mecanismos de Transição (Dual-Stack, Túneis, NAT64)](#34-autoconfiguracao-slaac-e-mecanismos-de-transicao-dual-stack-tuneis-nat64)
+    3. [Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)](#33-faixas-notaveis-de-enderecos-ipv6-loopback-link-local-ula-gua)
+    4. [Autoconfiguração (SLAAC) e Mecanismos de Transição (Dual-Stack, Túneis, NAT64)](#34-autoconfiguracao-slaac-e-mecanismos-de-transicao-dual-stack-tuneis-nat64)
+    5. [Teste 436](#Teste-436)
     6. [Teste 437](#Teste-437)
 4. [Protocolo DNS (Domain Name System)](#4-protocolo-dns-domain-name-system)
     1. [Finalidade, Arquitetura Hierárquica e Portas UDP/TCP 53](#41-finalidade-arquitetura-hierarquica-e-portas-udptcp-53)
     2. [Consultas Recursivas vs. Consultas Iterativas](#42-consultas-recursivas-vs-consultas-iterativas)
-    3. [Teste 438](#Teste-438)
-    4. [Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)](#43-registros-de-recursos-a-aaaa-cname-mx-ns-ptr-soa-txt)
+    3. [Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)](#43-registros-de-recursos-a-aaaa-cname-mx-ns-ptr-soa-txt)
+    4. [Teste 438](#Teste-438)
     5. [Teste 439](#Teste-439)
     6. [Teste 440](#Teste-440)
 5. [Protocolo DHCP (Dynamic Host Configuration Protocol)](#5-protocolo-dhcp-dynamic-host-configuration-protocol)
     1. [Finalidade e Portas de Transporte UDP 67/68](#51-finalidade-e-portas-de-transporte-udp-6768)
     2. [O Ciclo DORA em 4 Etapas (Discover, Offer, Request, Acknowledge)](#52-o-ciclo-dora-em-4-etapas-discover-offer-request-acknowledge)
-    3. [Teste 441](#Teste-441)
-    4. [Timers de Renovação de Concessão (T1 e T2)](#53-timers-de-renovacao-de-concessao-t1-e-t2)
-    5. [Agente de Retransmissão DHCP (DHCP Relay Agent)](#54-agente-de-retransmissao-dhcp-dhcp-relay-agent)
+    3. [Timers de Renovação de Concessão (T1 e T2)](#53-timers-de-renovacao-de-concessao-t1-e-t2)
+    4. [Agente de Retransmissão DHCP (DHCP Relay Agent)](#54-agente-de-retransmissao-dhcp-dhcp-relay-agent)
+    5. [Teste 441](#Teste-441)
     6. [Teste 442](#Teste-442)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Modelos de Referência: OSI vs. TCP/IP
 
@@ -76,8 +72,6 @@ O modelo **OSI (*Open Systems Interconnection*)**, padronizado pela ISO (norma I
 6. **Apresentação (Camada 6):** Cuida da sintaxe, representação e semântica dos dados transmitidos: conversão de conjuntos de caracteres (ASCII/Unicode/EBCDIC), compressão de dados (gzip) e criptografia/descriptografia (TLS/SSL).
 7. **Aplicação (Camada 7):** Interface direta entre os programas finais do usuário e os serviços de rede (HTTP, DNS, SMTP, FTP, SSH).
 
----
-
 ### 1.2 Arquitetura em Camadas da Pilha TCP/IP (4 Níveis)
 
 Em contraposição ao modelo teórico OSI, a arquitetura prática dominante da Internet é a **Pilha TCP/IP** (formalizada em RFCs como RFC 1122), estruturada em 4 camadas funcionais:
@@ -91,6 +85,29 @@ Em contraposição ao modelo teórico OSI, a arquitetura prática dominante da I
 | **3. Rede** | **Internet** | **Pacote** | IPv4, IPv6, ICMP, ICMPv6, IGMP, OSPF, BGP, IPsec |
 | **2. Enlace** | **Acesso à Rede** | **Quadro (*Frame*)** | Ethernet (802.3), Wi-Fi (802.11), PPP, Switch L2, ARP, MAC Address |
 | **1. Física** | **Acesso à Rede** | **Bit** | Cabos de par trançado (Cat6), fibra óptica, conectores RJ-45, Hub |
+
+### 1.3 Unidades de Dados de Protocolo (PDU) e Encapsulamento
+
+O envio de dados por uma rede baseia-se no processo sequencial de **Encapsulamento** (durante a transmissão) e **Desencapsulamento** (na recepção):
+
+```mermaid
+flowchart LR
+    subgraph Encapsulamento["Processo de Encapsulamento (Transmissão de Dados)"]
+        D["Dados"] --> S["Segmento TCP (+ Cabeçalho TCP)"]
+        S --> P["Pacote IP (+ Cabeçalho IP)"]
+        P --> F["Quadro Ethernet (+ Cabeçalho MAC + FCS/Trailer)"]
+        F --> B["Bits (Sinais elétricos / luminosos no meio físico)"]
+    end
+```
+
+> ⭐ **REGRA DE OURO PARA CONCURSOS (FCC):**  
+> A Unidade de Dados de Protocolo (PDU) possui denominações canônicas exclusivas em cada nível:  
+>
+> - Camada de Aplicação: **Dados / Mensagem**  
+> - Camada de Transporte: **Segmento** (no protocolo TCP) ou **Datagrama** (no protocolo UDP)  
+> - Camada de Rede: **Pacote**  
+> - Camada de Enlace: **Quadro (*Frame*)**  
+> - Camada Física: **Bit**
 
 ---
 
@@ -116,33 +133,6 @@ No contexto das camadas do modelo de referência OSI e da arquitetura de protoco
 > - **E)** Incorreta. O protocolo TCP é estritamente orientado à conexão com controle de fluxo e garantia de entrega, ao passo que o UDP opera sob o paradigma de melhor esforço sem conexão.
 > 
 > **Gabarito: B**
-
----
-
-
-
-### 1.3 Unidades de Dados de Protocolo (PDU) e Encapsulamento
-
-O envio de dados por uma rede baseia-se no processo sequencial de **Encapsulamento** (durante a transmissão) e **Desencapsulamento** (na recepção):
-
-```mermaid
-flowchart LR
-    subgraph Encapsulamento["Processo de Encapsulamento (Transmissão de Dados)"]
-        D["Dados"] --> S["Segmento TCP (+ Cabeçalho TCP)"]
-        S --> P["Pacote IP (+ Cabeçalho IP)"]
-        P --> F["Quadro Ethernet (+ Cabeçalho MAC + FCS/Trailer)"]
-        F --> B["Bits (Sinais elétricos / luminosos no meio físico)"]
-    end
-```
-
-> ⭐ **REGRA DE OURO PARA CONCURSOS (FCC):**  
-> A Unidade de Dados de Protocolo (PDU) possui denominações canônicas exclusivas em cada nível:  
->
-> - Camada de Aplicação: **Dados / Mensagem**  
-> - Camada de Transporte: **Segmento** (no protocolo TCP) ou **Datagrama** (no protocolo UDP)  
-> - Camada de Rede: **Pacote**  
-> - Camada de Enlace: **Quadro (*Frame*)**  
-> - Camada Física: **Bit**
 
 ---
 
@@ -176,10 +166,7 @@ A respeito das Unidades de Dados de Protocolo (**PDUs**) manipuladas em cada ní
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Endereçamento e Sub-redes IPv4
 
@@ -194,8 +181,6 @@ O protocolo **IPv4** opera com endereços de **32 bits**, estruturados em 4 octe
 | **Classe C** | `110xxxxx` | $192$ a $223$ | `255.255.255.0` (/24) | Redes locais pequenas: suporta até 254 hosts por rede. |
 | **Classe D** | `1110xxxx` | $224$ a $239$ | Não aplicável | Reservada compulsoriamente para tráfego **Multicast**. |
 | **Classe E** | `1111xxxx` | $240$ a $255$ | Não aplicável | Reservada para pesquisas científicas e experimentos futuros. |
-
----
 
 ### 2.2 Espaço de Endereçamento Privado (RFC 1918) e NAT/PAT
 
@@ -214,6 +199,37 @@ Como os endereços privados da RFC 1918 não navegam na Internet, o roteador de 
 - **NAT Estático:** Mapeamento 1:1 fixo entre um IP privado e um IP público.
 - **NAT Dinâmico:** Mapeamento temporário 1:1 retirado de um pool de IPs públicos disponíveis.
 - **NAPT / PAT (*Port Address Translation* / NAT Overload):** Mapeamento $N:1$, no qual centenas ou milhares de computadores privados da rede interna navegam simultaneamente na Internet utilizando **um único endereço IP público**. O roteador diferencia as conexões mapeando portas TCP/UDP de origem aleatórias.
+
+### 2.3 Roteamento Interdomínio Sem Classe (CIDR) e VLSM
+
+Para eliminar o desperdício colossal do sistema de classes, a IETF introduziu o **CIDR (*Classless Inter-Domain Routing* - RFC 1519)** e o **VLSM (*Variable Length Subnet Mask*)**:
+
+- A divisão entre porção de rede e porção de host deixa de ser fixada nos limites rígidos de 8, 16 ou 24 bits.
+- A máscara é expressa em formato prefixal `/n`, onde $n$ indica a quantidade exata de bits contíguos ligados em "1" que representam a rede (ex.: `/27` indica 27 bits para rede e $32 - 27 = 5$ bits para hosts).
+
+### 2.4 Mecânica de Cálculo de Sub-redes, Hosts Úteis e Tabela de Conversão
+
+O cálculo sistemático de qualquer sub-rede IPv4 parte de fórmulas matemáticas elementares:
+
+1. **Bits de Rede ($n$):** Definidos pelo prefixo CIDR `/$n$`.
+2. **Bits de Host ($h$):** Calculados por:
+   $$h = 32 - n$$
+3. **Total Bruto de Endereços:** $2^h$.
+4. **Total de Hosts Úteis (Utilizáveis por máquinas):**
+   $$\text{Hosts Úteis} = 2^h - 2$$
+   *(Subtraem-se compulsoriamente 2 endereços: o primeiro com todos os bits de host zerados, que representa o **Endereço de Rede**, e o último com todos os bits de host ligados em 1, que representa o **Endereço de Broadcast** daquela sub-rede).*
+
+#### Tabela Rápida de Conversão de Sub-redes (/24 a /30)
+
+| Notação CIDR | Máscara Decimal | Bits de Host ($h$) | Tamanho do Bloco ($2^h$) | Hosts Úteis ($2^h - 2$) | Aplicações Típicas |
+|---|---|---|---|---|---|
+| **/24** | `255.255.255.0` | $8$ | $256$ | $254$ | Redes departamentais convencionais |
+| **/25** | `255.255.255.128` | $7$ | $128$ | $126$ | Divisão de um /24 ao meio |
+| **/26** | `255.255.255.192` | $6$ | $64$ | $62$ | Sub-redes de até 60 computadores |
+| **/27** | `255.255.255.224` | $5$ | $32$ | $30$ | Sub-redes de até 28 a 30 estações |
+| **/28** | `255.255.255.240` | $4$ | $16$ | $14$ | Sub-redes pequenas de servidores |
+| **/29** | `255.255.255.248` | $3$ | $8$ | $6$ | DMZ compacta |
+| **/30** | `255.255.255.252` | $2$ | $4$ | $2$ | Enlaces ponto a ponto entre roteadores |
 
 ---
 
@@ -250,41 +266,6 @@ A respeito das faixas de endereçamento privado da RFC 1918 e do funcionamento d
 
 ---
 
-### 2.3 Roteamento Interdomínio Sem Classe (CIDR) e VLSM
-
-Para eliminar o desperdício colossal do sistema de classes, a IETF introduziu o **CIDR (*Classless Inter-Domain Routing* - RFC 1519)** e o **VLSM (*Variable Length Subnet Mask*)**:
-
-- A divisão entre porção de rede e porção de host deixa de ser fixada nos limites rígidos de 8, 16 ou 24 bits.
-- A máscara é expressa em formato prefixal `/n`, onde $n$ indica a quantidade exata de bits contíguos ligados em "1" que representam a rede (ex.: `/27` indica 27 bits para rede e $32 - 27 = 5$ bits para hosts).
-
----
-
-### 2.4 Mecânica de Cálculo de Sub-redes, Hosts Úteis e Tabela de Conversão
-
-O cálculo sistemático de qualquer sub-rede IPv4 parte de fórmulas matemáticas elementares:
-
-1. **Bits de Rede ($n$):** Definidos pelo prefixo CIDR `/$n$`.
-2. **Bits de Host ($h$):** Calculados por:
-   $$h = 32 - n$$
-3. **Total Bruto de Endereços:** $2^h$.
-4. **Total de Hosts Úteis (Utilizáveis por máquinas):**
-   $$\text{Hosts Úteis} = 2^h - 2$$
-   *(Subtraem-se compulsoriamente 2 endereços: o primeiro com todos os bits de host zerados, que representa o **Endereço de Rede**, e o último com todos os bits de host ligados em 1, que representa o **Endereço de Broadcast** daquela sub-rede).*
-
-#### Tabela Rápida de Conversão de Sub-redes (/24 a /30)
-
-| Notação CIDR | Máscara Decimal | Bits de Host ($h$) | Tamanho do Bloco ($2^h$) | Hosts Úteis ($2^h - 2$) | Aplicações Típicas |
-|---|---|---|---|---|---|
-| **/24** | `255.255.255.0` | $8$ | $256$ | $254$ | Redes departamentais convencionais |
-| **/25** | `255.255.255.128` | $7$ | $128$ | $126$ | Divisão de um /24 ao meio |
-| **/26** | `255.255.255.192` | $6$ | $64$ | $62$ | Sub-redes de até 60 computadores |
-| **/27** | `255.255.255.224` | $5$ | $32$ | $30$ | Sub-redes de até 28 a 30 estações |
-| **/28** | `255.255.255.240` | $4$ | $16$ | $14$ | Sub-redes pequenas de servidores |
-| **/29** | `255.255.255.248` | $3$ | $8$ | $6$ | DMZ compacta |
-| **/30** | `255.255.255.252` | $2$ | $4$ | $2$ | Enlaces ponto a ponto entre roteadores |
-
----
-
 ### Teste 435
 **(FCC - Adaptada / Analista de Tecnologia da Informação - Redes)**
 Um analista de infraestrutura de redes recebeu a incumbência de particionar o bloco IPv4 privado `192.168.10.0/24` para atender a 4 sub-redes destinadas a diferentes setores de uma secretaria estadual. O setor mais numeroso exige suporte a um máximo de 26 computadores conectados simultaneamente com IPs úteis. O analista deseja utilizar uma máscara de sub-rede idêntica em todas as novas sub-redes, garantindo a menor quantidade possível de endereços desperdiçados e reservando o maior número possível de novas sub-redes para futuras expansões.
@@ -310,10 +291,7 @@ Assinale a alternativa que apresenta, correta e respectivamente, a máscara de s
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 3. Endereçamento IPv6
 
@@ -333,8 +311,6 @@ O protocolo **IPv6** (RFC 8200) foi desenhado para sanar de forma definitiva a e
    Endereço resultante: `2001:db8::ff00:42:8329`.  
    > 🚨 **REGRA DE OURO:** O símbolo de compressão `::` só pode ser utilizado **uma única vez** no endereço. Se fosse utilizado duas vezes, seria matematicamente impossível deduzir quantos blocos de zeros foram omitidos em cada lado.
 
----
-
 ### 3.2 Tipos de Transmissão no IPv6: Unicast, Anycast e Multicast (Extinção do Broadcast)
 
 No IPv6, os métodos de transmissão de pacotes operam sob três paradigmas formais:
@@ -343,6 +319,25 @@ No IPv6, os métodos de transmissão de pacotes operam sob três paradigmas form
 - **Anycast:** O mesmo endereço é atribuído a múltiplas interfaces distribuídas pela rede. O pacote é entregue pelos roteadores para a interface que estiver **topologicamente mais próxima** (menor métrica de roteamento).
 - **Multicast:** O pacote é entregue a todas as interfaces que participam de um grupo de difusão seletiva específico (prefixo `ff00::/8`).
 - **NÃO EXISTE TRANSMISSÃO EM BROADCAST NO IPv6!** O broadcast causava tempestades de interrupção desnecessárias na CPU de todos os hosts da LAN no IPv4. No IPv6, tarefas de descoberta e resolução de endereços (antigo ARP) foram migradas para o **NDP (*Neighbor Discovery Protocol*)**, baseado em mensagens Multicast estruturadas.
+
+### 3.3 Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)
+
+| Prefixo IPv6 | Classificação Técnica | Abrangência / Escopo | Equivalente no IPv4 |
+|---|---|---|---|
+| `::1/128` | **Loopback** | Comunicação interna do host consigo mesmo | `127.0.0.1` |
+| `::/128` | **Endereço Não Especificado** | Indica ausência provisória de endereço durante a inicialização | `0.0.0.0` |
+| `fe80::/10` | **Link-Local Unicast** | Válido estritamente no enlace físico local. Não é roteável entre roteadores. Gerado compulsoriamente em toda placa de rede ativa. | `169.254.0.0/16` (APIPA) |
+| `fc00::/7` | **Unique Local (ULA)** | Roteável em toda a rede interna da organização; não roteável na Internet pública. | IPs Privados da RFC 1918 (ex.: `10.0.0.0/8`) |
+| `2000::/3` | **Global Unicast (GUA)** | Endereço público mundial plenamente roteável na Internet. | IPs Públicos IPv4 |
+| `ff00::/8` | **Multicast** | Difusão para grupos específicos de hosts (ex.: `ff02::1` alcança todos os nós locais). | Classe D (`224.0.0.0/4`) |
+
+### 3.4 Autoconfiguração (SLAAC) e Mecanismos de Transição (Dual-Stack, Túneis, NAT64)
+
+- **SLAAC (*Stateless Address Autoconfiguration* - RFC 4862):** Permite que uma estação configure seu endereço IPv6 global automaticamente sem intervenção de servidor DHCP. O roteador anuncia periodicamente o prefixo da rede através de mensagens ICMPv6 *Router Advertisement* (RA). O host combina esse prefixo de 64 bits com os seus 64 bits de interface (obtidos aleatoriamente ou via padrão EUI-64 a partir do endereço MAC).
+- **Mecanismos de Transição IPv4 / IPv6:**
+    1. **Pilha Dupla (*Dual-Stack*):** Roteadores e hosts executam simultaneamente os dois protocolos em suas interfaces, operando com IPv4 e IPv6 nativos em paralelo. É a solução mais recomendada.
+    2. **Tunelamento (Tunnels):** Encapsula pacotes IPv6 dentro de pacotes IPv4 para atravessar trechos da Internet que ainda só suportam IPv4 (ex.: protocolos 6to4, Teredo).
+    3. **Tradução (NAT64 / DNS64):** Traduz o cabeçalho de pacotes entre nós que operam exclusivamente com IPv6 e servidores legados que operam unicamente em IPv4.
 
 ---
 
@@ -376,29 +371,6 @@ A respeito das regras formais de simplificação/compactação de endereços IPv
 
 ---
 
-### 3.3 Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)
-
-| Prefixo IPv6 | Classificação Técnica | Abrangência / Escopo | Equivalente no IPv4 |
-|---|---|---|---|
-| `::1/128` | **Loopback** | Comunicação interna do host consigo mesmo | `127.0.0.1` |
-| `::/128` | **Endereço Não Especificado** | Indica ausência provisória de endereço durante a inicialização | `0.0.0.0` |
-| `fe80::/10` | **Link-Local Unicast** | Válido estritamente no enlace físico local. Não é roteável entre roteadores. Gerado compulsoriamente em toda placa de rede ativa. | `169.254.0.0/16` (APIPA) |
-| `fc00::/7` | **Unique Local (ULA)** | Roteável em toda a rede interna da organização; não roteável na Internet pública. | IPs Privados da RFC 1918 (ex.: `10.0.0.0/8`) |
-| `2000::/3` | **Global Unicast (GUA)** | Endereço público mundial plenamente roteável na Internet. | IPs Públicos IPv4 |
-| `ff00::/8` | **Multicast** | Difusão para grupos específicos de hosts (ex.: `ff02::1` alcança todos os nós locais). | Classe D (`224.0.0.0/4`) |
-
----
-
-### 3.4 Autoconfiguração (SLAAC) e Mecanismos de Transição (Dual-Stack, Túneis, NAT64)
-
-- **SLAAC (*Stateless Address Autoconfiguration* - RFC 4862):** Permite que uma estação configure seu endereço IPv6 global automaticamente sem intervenção de servidor DHCP. O roteador anuncia periodicamente o prefixo da rede através de mensagens ICMPv6 *Router Advertisement* (RA). O host combina esse prefixo de 64 bits com os seus 64 bits de interface (obtidos aleatoriamente ou via padrão EUI-64 a partir do endereço MAC).
-- **Mecanismos de Transição IPv4 / IPv6:**
-    1. **Pilha Dupla (*Dual-Stack*):** Roteadores e hosts executam simultaneamente os dois protocolos em suas interfaces, operando com IPv4 e IPv6 nativos em paralelo. É a solução mais recomendada.
-    2. **Tunelamento (Tunnels):** Encapsula pacotes IPv6 dentro de pacotes IPv4 para atravessar trechos da Internet que ainda só suportam IPv4 (ex.: protocolos 6to4, Teredo).
-    3. **Tradução (NAT64 / DNS64):** Traduz o cabeçalho de pacotes entre nós que operam exclusivamente com IPv6 e servidores legados que operam unicamente em IPv4.
-
----
-
 ### Teste 437
 **(FCC - TRT / Analista de Redes - Mecanismos de Transição para o IPv6)**
 A migração mundial da internet do IPv4 para o IPv6 ocorre de forma gradual e heterogênea. Como os cabeçalhos dos protocolos IPv4 e IPv6 são mutuamente incompatíveis entre si, a engenharia de redes desenvolveu técnicas formais de coexistência e transição.
@@ -427,10 +399,7 @@ As três categorias clássicas de mecanismos de transição padronizadas pela IE
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 4. Protocolo DNS (Domain Name System)
 
@@ -441,8 +410,6 @@ O **DNS** é um sistema distribuído e hierárquico que traduz nomes alfanuméri
 #### Funcionamento das Portas de Transporte:
 - **Porta UDP 53:** Utilizada para consultas ordinárias e respostas ágeis de resolução de nomes entre clientes e resolvedores, onde o payload não excede 512 bytes.
 - **Porta TCP 53:** Utilizada para transferências completas de zona (*Zone Transfer* - AXFR/IXFR) entre servidores autoritativos primários e secundários, e em respostas complexas que excedem os limites dimensionais de datagramas UDP (como respostas volumosas sob **DNSSEC** sem suporte a EDNS0).
-
----
 
 ### 4.2 Consultas Recursivas vs. Consultas Iterativas
 
@@ -467,6 +434,18 @@ sequenceDiagram
 
 1. **Consulta Recursiva:** O cliente solicita a resolução ao seu resolvedor DNS local e delega a ele o encargo integral de percorrer a árvore da Internet e retornar com a resposta final ou com um erro de resolução.
 2. **Consulta Iterativa:** O resolvedor DNS local consulta sucessivamente os servidores hierárquicos. O servidor consultado não resolve a resposta por si só, mas devolve a melhor pista que possui no momento (um encaminhamento para os servidores de nomes autoritativos do próximo nível).
+
+### 4.3 Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)
+
+- **`A`:** Mapeia um nome de domínio para um endereço **IPv4** de 32 bits.
+- **`AAAA` (*Quad-A*):** Mapeia um nome de domínio para um endereço **IPv6** de 128 bits.
+- **`CNAME` (*Canonical Name*):** Cria um **pseudônimo / apelido (alias)** apontando estritamente para outro nome canônico de domínio (ex.: `intranet.tce.go.gov.br CNAME servidor1.tce.go.gov.br`).  
+  > 🚨 **ALERTA DE PROVA FCC:** Um registro CNAME **NUNCA aponta para um endereço IP numérico**! Apontar para IP é função dos registros `A` ou `AAAA`.
+- **`MX` (*Mail Exchange*):** Define os servidores receptores de correio eletrônico associados a uma métrica de prioridade (números menores têm precedência).
+- **`NS` (*Name Server*):** Delega a autoridade da zona para um servidor DNS específico.
+- **`PTR` (*Pointer*):** Implementa a **resolução reversa** (converte um endereço IP numérico de volta para o seu nome FQDN), utilizando os domínios especiais `in-addr.arpa` (no IPv4) e `ip6.arpa` (no IPv6).
+- **`SOA` (*Start of Authority*):** Define parâmetros de governança da zona (servidor autoritativo primário, e-mail do mantenedor, serial de versão para replicação e timers de expiração).
+- **`TXT`:** Armazena texto legível genérico, utilizado fundamentalmente para mecanismos de combate a spam e falsificação de e-mails via **SPF**, **DKIM** e **DMARC**.
 
 ---
 
@@ -500,20 +479,6 @@ A respeito do fluxo de resolução de nomes e da distinção entre **Consultas R
 > - **E)** Incorreta. Consultas iterativas são o motor técnico da espinha dorsal de resolução de nomes da internet mundial.
 > 
 > **Gabarito: B**
-
----
-
-### 4.3 Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)
-
-- **`A`:** Mapeia um nome de domínio para um endereço **IPv4** de 32 bits.
-- **`AAAA` (*Quad-A*):** Mapeia um nome de domínio para um endereço **IPv6** de 128 bits.
-- **`CNAME` (*Canonical Name*):** Cria um **pseudônimo / apelido (alias)** apontando estritamente para outro nome canônico de domínio (ex.: `intranet.tce.go.gov.br CNAME servidor1.tce.go.gov.br`).  
-  > 🚨 **ALERTA DE PROVA FCC:** Um registro CNAME **NUNCA aponta para um endereço IP numérico**! Apontar para IP é função dos registros `A` ou `AAAA`.
-- **`MX` (*Mail Exchange*):** Define os servidores receptores de correio eletrônico associados a uma métrica de prioridade (números menores têm precedência).
-- **`NS` (*Name Server*):** Delega a autoridade da zona para um servidor DNS específico.
-- **`PTR` (*Pointer*):** Implementa a **resolução reversa** (converte um endereço IP numérico de volta para o seu nome FQDN), utilizando os domínios especiais `in-addr.arpa` (no IPv4) e `ip6.arpa` (no IPv6).
-- **`SOA` (*Start of Authority*):** Define parâmetros de governança da zona (servidor autoritativo primário, e-mail do mantenedor, serial de versão para replicação e timers de expiração).
-- **`TXT`:** Armazena texto legível genérico, utilizado fundamentalmente para mecanismos de combate a spam e falsificação de e-mails via **SPF**, **DKIM** e **DMARC**.
 
 ---
 
@@ -575,10 +540,7 @@ Sobre os tipos de registros DNS e a mecânica de funcionamento desse serviço, �
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Protocolo DHCP (Dynamic Host Configuration Protocol)
 
@@ -589,8 +551,6 @@ O **DHCP** (RFC 2131) opera no modelo cliente-servidor para automatizar a distri
 #### Portas UDP:
 - **Porta UDP 67:** Porta de escuta do **Servidor DHCP**;
 - **Porta UDP 68:** Porta de escuta do **Cliente DHCP**.
-
----
 
 ### 5.2 O Ciclo DORA em 4 Etapas (Discover, Offer, Request, Acknowledge)
 
@@ -619,6 +579,23 @@ sequenceDiagram
    *Por que em broadcast?* Para formalizar a aceitação perante o servidor escolhido e, simultaneamente, avisar a todos os outros servidores DHCP da rede local que suas ofertas foram recusadas, permitindo que devolvam os IPs aos seus pools de endereços livres.
 4. **DHCP Acknowledge (DHCPACK):** O servidor escolhido grava a concessão no banco de dados e envia a confirmação final ao cliente.
 
+### 5.3 Timers de Renovação de Concessão (T1 e T2)
+
+A concessão de IP possui prazo de validade determinado (**Lease Time**):
+
+- **Temporizador T1 (50% do Lease):** Ao atingir a metade do tempo de concessão, o cliente envia uma mensagem `DHCPREQUEST` em **Unicast** diretamente ao servidor que concedeu o IP original solicitando a renovação do prazo. Se o servidor responder com `DHCPACK`, o cronômetro é reiniciado para 100%.
+- **Temporizador T2 (87,5% do Lease):** Se o servidor original não responder e o tempo atingir 87,5%, o cliente entra em estado de contingência e dispara um `DHCPREQUEST` em **Broadcast** para qualquer servidor DHCP disponível na rede. Se o tempo chegar a 100% sem resposta, o cliente perde o IP e reinicia o ciclo DORA do zero.
+
+### 5.4 Agente de Retransmissão DHCP (DHCP Relay Agent)
+
+Pacotes em *broadcast* gerados pelos clientes na fase de Discover não atravessam roteadores de rede.
+
+Para evitar a necessidade de instalar um servidor DHCP físico em cada sala ou filial, ativa-se o **DHCP Relay Agent** (habilitado nas interfaces dos roteadores ou switches L3 via comando `ip helper-address`):
+
+- O agente intercepta os broadcasts locais dos clientes na porta UDP 67;
+- Converte os pacotes em transmissões **Unicast**;
+- Encaminha-os diretamente ao IP do servidor DHCP centralizado localizado em outro segmento ou datacenter corporativo.
+
 ---
 
 ### Teste 441
@@ -645,29 +622,6 @@ A respeito do ciclo operacional de quatro etapas do DHCP (processo DORA), assina
 > - **E)** Incorreta. Como os roteadores bloqueiam transmissões em broadcast, redes separadas exigem compulsoriamente a presença de um Agente de Retransmissão DHCP (*DHCP Relay Agent*).
 > 
 > **Gabarito: B**
-
----
-
-
-
-### 5.3 Timers de Renovação de Concessão (T1 e T2)
-
-A concessão de IP possui prazo de validade determinado (**Lease Time**):
-
-- **Temporizador T1 (50% do Lease):** Ao atingir a metade do tempo de concessão, o cliente envia uma mensagem `DHCPREQUEST` em **Unicast** diretamente ao servidor que concedeu o IP original solicitando a renovação do prazo. Se o servidor responder com `DHCPACK`, o cronômetro é reiniciado para 100%.
-- **Temporizador T2 (87,5% do Lease):** Se o servidor original não responder e o tempo atingir 87,5%, o cliente entra em estado de contingência e dispara um `DHCPREQUEST` em **Broadcast** para qualquer servidor DHCP disponível na rede. Se o tempo chegar a 100% sem resposta, o cliente perde o IP e reinicia o ciclo DORA do zero.
-
----
-
-### 5.4 Agente de Retransmissão DHCP (DHCP Relay Agent)
-
-Pacotes em *broadcast* gerados pelos clientes na fase de Discover não atravessam roteadores de rede.
-
-Para evitar a necessidade de instalar um servidor DHCP físico em cada sala ou filial, ativa-se o **DHCP Relay Agent** (habilitado nas interfaces dos roteadores ou switches L3 via comando `ip helper-address`):
-
-- O agente intercepta os broadcasts locais dos clientes na porta UDP 67;
-- Converte os pacotes em transmissões **Unicast**;
-- Encaminha-os diretamente ao IP do servidor DHCP centralizado localizado em outro segmento ou datacenter corporativo.
 
 ---
 
@@ -700,10 +654,7 @@ A respeito do ciclo de renovação de concessão (*Lease Time*) e do papel do **
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

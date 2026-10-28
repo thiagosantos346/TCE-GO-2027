@@ -20,40 +20,47 @@
 - Perda e suspensão dos direitos políticos (Artigo 15 da CF/88): vedação absoluta de cassação e hipóteses constitucionais taxativas.
 - Dos partidos políticos (Artigo 17 da CF/88): preceitos constitucionais, cláusula de barreira, financiamento e autonomia partidária.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)](#1-teoria-geral-e-direitos-individuais-e-coletivos-art-5o-da-cf88)
-    2. [Teste 121](#Teste-121)
-    3. [Teste 122](#Teste-122)
-    4. [Teste 123](#Teste-123)
-    5. [Remédios Constitucionais (*Writs* de Garantia)](#remedios-constitucionais-writs-de-garantia)
-    6. [Teste 124](#Teste-124)
-    7. [Teste 125](#Teste-125)
-    8. [Direitos Sociais (Arts. 6º a 11)](#3-direitos-sociais-arts-6o-a-11)
-    9. [Teste 126](#Teste-126)
-    10. [Teoria da Nacionalidade e a Nova Disciplina da Perda (Arts. 12 e 13)](#4-teoria-da-nacionalidade-e-a-nova-disciplina-da-perda-arts-12-e-13)
-    11. [Teste 127](#Teste-127)
-    12. [Teste 128](#Teste-128)
-    13. [Teste 129](#Teste-129)
-    14. [Direitos Políticos e Sistema Partidário (Arts. 14 a 17)](#5-direitos-politicos-e-sistema-partidario-arts-14-a-17)
-    15. [Teste 130](#Teste-130)
-    16. [Teste 131](#Teste-131)
-2. [Fontes Oficiais & Doutrinárias Recomendadas](#fontes-oficiais-doutrinarias-recomendadas)
+1. [Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)](#1-teoria-geral-e-direitos-individuais-e-coletivos-art-5o-da-cf88)
+    1. [Características Fundamentais e Dimensões de Eficácia](#11-caracteristicas-fundamentais-e-dimensoes-de-eficacia)
+    2. [Inviolabilidade do Domicílio (Art. 5º, XI)](#12-inviolabilidade-do-domicilio-art-5o-xi)
+    3. [Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)](#13-inviolabilidade-das-comunicacoes-e-reserva-de-jurisdicao-art-5o-xii)
+    4. [Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)](#14-liberdade-de-associacao-e-limites-estatais-art-5o-xvii-a-xxi)
+    5. [Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC](#15-tratamento-constitucional-dos-crimes-o-quarteto-penal-da-fcc)
+    6. [Teste 121](#Teste-121)
+    7. [Teste 122](#Teste-122)
+    8. [Teste 123](#Teste-123)
+2. [Remédios Constitucionais (*Writs* de Garantia)](#2-remedios-constitucionais-writs-de-garantia)
+    1. [Análise Comparativa dos Remédios Constitucionais](#21-analise-comparativa-dos-remedios-constitucionais)
+    2. [Teste 124](#Teste-124)
+    3. [Teste 125](#Teste-125)
+3. [Direitos Sociais (Arts. 6º a 11)](#3-direitos-sociais-arts-6o-a-11)
+    1. [Teste 126](#Teste-126)
+4. [Teoria da Nacionalidade e a Nova Disciplina da Perda (Arts. 12 e 13)](#4-teoria-da-nacionalidade-e-a-nova-disciplina-da-perda-arts-12-e-13)
+    1. [Espécies de Nacionalidade Originária (Brasileiro Nato)](#41-especies-de-nacionalidade-originaria-brasileiro-nato)
+    2. [Brasileiro Naturalizado](#42-brasileiro-naturalizado)
+    3. [Cargos Privativos de Brasileiro Nato (Art. 12, § 3º - MP3.COM)](#43-cargos-privativos-de-brasileiro-nato-art-12-3o-mp3com)
+    4. [Perda da Nacionalidade: O Novo Regime da EC nº 131/2023](#44-perda-da-nacionalidade-o-novo-regime-da-ec-no-1312023)
+    5. [Teste 127](#Teste-127)
+    6. [Teste 128](#Teste-128)
+    7. [Teste 129](#Teste-129)
+5. [Direitos Políticos e Sistema Partidário (Arts. 14 a 17)](#5-direitos-politicos-e-sistema-partidario-arts-14-a-17)
+    1. [Alistamento Eleitoral e Voto](#51-alistamento-eleitoral-e-voto)
+    2. [Idades Mínimas de Elegibilidade (Capacidade Eleitoral Passiva)](#52-idades-minimas-de-elegibilidade-capacidade-eleitoral-passiva)
+    3. [Inelegibilidade Reflexa (Art. 14, § 7º) e Súmula Vinculante 18](#53-inelegibilidade-reflexa-art-14-7o-e-sumula-vinculante-18)
+    4. [Perda e Suspensão dos Direitos Políticos (Art. 15 da CF/88)](#54-perda-e-suspensao-dos-direitos-politicos-art-15-da-cf88)
+    5. [Teste 130](#Teste-130)
+    6. [Teste 131](#Teste-131)
+6. [🌐 Fontes Oficiais & Doutrinárias Recomendadas](#fontes-oficiais-doutrinarias-recomendadas)
 
 ---
 
+## 1. Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)
 
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)
-
-#### 1.1 Características Fundamentais e Dimensões de Eficácia
+### 1.1 Características Fundamentais e Dimensões de Eficácia
 - **Inexistência de Direitos Absolutos (Relatividade):** Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional. Nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a").
 - **Eficácia Vertical vs. Eficácia Horizontal (*Drittwirkung*):**
     - *Eficácia Vertical:* Relação tradicional entre o indivíduo e o Estado, funcionando como escudo protetor contra o arbítrio estatal.
@@ -72,7 +79,7 @@ flowchart TD
     ED -->|"Proteção em relações de hipossuficiência"| DF
 ```
 
-#### 1.2 Inviolabilidade do Domicílio (Art. 5º, XI)
+### 1.2 Inviolabilidade do Domicílio (Art. 5º, XI)
 > *"A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial."*
 
 ```mermaid
@@ -90,9 +97,49 @@ flowchart TD
 > 2. **Determinação Judicial:** O cumprimento de mandado de busca e apreensão domiciliar **só pode ocorrer durante o dia**. Não existe hipótese de ingresso com ordem judicial durante a noite sem o consentimento do morador! O critério consagrado pela Lei de Abuso de Autoridade (Lei nº 13.869/2019) veda o cumprimento de mandado domiciliar entre 21h e 5h.  
 > 3. **Flagrante Delito em Tráfico Ilícito de Drogas (Tema 280/STF):** O ingresso forçado em domicílio sem mandado judicial, mesmo em caso de crime permanente como o tráfico de drogas, exige fundadas razões (justa causa) devidamente justificadas *a posteriori*, sob pena de nulidade absoluta das provas.
 
+### 1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)
+> *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*
+
+- **Interceptação Telefônica:** Exige cláusula de **reserva de jurisdição estrita** (apenas o juiz competente pode determinar). É vedada em processos cíveis ou administrativos disciplinares (PAD). Contudo, a prova obtida licitamente no juízo criminal pode ser compartilhada como prova emprestada no PAD disciplinar (STJ/STF).
+- **Sigilo Fiscal e Bancário:** Pode ser quebrado por determinação judicial e também diretamente por Comissões Parlamentares de Inquérito (CPIs federais e estaduais), com base nos poderes de investigação próprios das autoridades judiciais (art. 58, § 3º). O Fisco pode requisitar dados cadastrais e movimentações bancárias diretamente sem prévia autorização judicial (STF, ADI 2.390 e LC 105/2001).
+
+### 1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)
+| Aspecto Constitucional | Regra / Limite | Exigência Processual |
+| :--- | :--- | :--- |
+| **Criação da Associação** | Plena liberdade para fins lícitos | **Independe de autorização** estatal; vedada interferência na administração |
+| **Atividades Paramilitares** | **Vedação absoluta** | Proibição categórica |
+| **Suspensão das Atividades** | Interrupção provisória | Exige **decisão judicial** (mesmo cautelar/liminar) |
+| **Dissolução Compulsória** | Extinção definitiva da pessoa jurídica | Exige **decisão judicial transitada em julgado** |
+| **Representação Processual** | Defesa dos filiados em juízo | Exige **autorização expressa** (individual ou assemblear - Tema 82/STF) |
+
+> ⭐ **IMPORTANTE:**  
+> A FCC adora trocar as exigências para suspensão e dissolução compulsória. Memorize: para **suspender**, basta mera **decisão judicial**; para **dissolver compulsoriamente**, exige-se **trânsito em julgado**. Nenhuma autoridade administrativa tem competência para ordenar a paralisação ou encerramento de associação!
+
+### 1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC
+Para gabaritar qualquer prova da Fundação Carlos Chagas, a tabela a seguir é de memorização compulsória:
+
+| Categoria do Crime | Tipos Penais Abrangidos | Fiança? | Prescrição? | Graça / Anistia / Indulto? |
+| :--- | :--- | :--- | :--- | :--- |
+| **Racismo & Injúria Racial** | Prática de racismo (Lei 7.716/89) e Injúria racial (STF HC 154.248 e Lei 14.532/23) | **Inafiançável** | **Imprescritível** | Admite |
+| **Ação de Grupos Armados** | Civis ou militares contra a ordem constitucional e o Estado Democrático | **Inafiançável** | **Imprescritível** | Admite |
+| **3T + Hediondos** | **T**ortura, **T**ráfico ilícito de drogas, **T**errorismo e Crimes **H**ediondos | **Inafiançável** | Prescritível | **Insuscetíveis de graça ou anistia** |
+
+```mermaid
+flowchart TD
+    subgraph Imprescritiveis["IMPRESCRITÍVEIS E INAFIANÇÁVEIS (Não prescrevem nunca)"]
+        R["Racismo (e Injúria Racial - Tema 1107/STF)"]
+        GA["Ação de Grupos Armados contra o Estado Democrático"]
+    end
+    subgraph Ingraciaveis["INSUSCETÍVEIS DE GRAÇA / ANISTIA E INAFIANÇÁVEIS (3T + H)"]
+        T1["Tortura"]
+        T2["Tráfico Ilícito de Drogas"]
+        T3["Terrorismo"]
+        H["Crimes Hediondos"]
+    end
+    Imprescritiveis ~~~ Ingraciaveis
+```
+
 ---
-
-
 
 ### Teste 121
 **(FCC - Analista Judiciário - Área Judiciária)**
@@ -157,8 +204,6 @@ Está correto o que se afirma em:
 
 ---
 
-
-
 ### Teste 123
 **(FGV - Auditor Fiscal da Receita Estadual)**
 O art. 5º, XII, da Constituição Federal estabelece que 'é inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal'.
@@ -186,57 +231,7 @@ O art. 5º, XII, da Constituição Federal estabelece que 'é inviolável o sigi
 
 ---
 
-
-
-#### 1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)
-> *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*
-
-- **Interceptação Telefônica:** Exige cláusula de **reserva de jurisdição estrita** (apenas o juiz competente pode determinar). É vedada em processos cíveis ou administrativos disciplinares (PAD). Contudo, a prova obtida licitamente no juízo criminal pode ser compartilhada como prova emprestada no PAD disciplinar (STJ/STF).
-- **Sigilo Fiscal e Bancário:** Pode ser quebrado por determinação judicial e também diretamente por Comissões Parlamentares de Inquérito (CPIs federais e estaduais), com base nos poderes de investigação próprios das autoridades judiciais (art. 58, § 3º). O Fisco pode requisitar dados cadastrais e movimentações bancárias diretamente sem prévia autorização judicial (STF, ADI 2.390 e LC 105/2001).
-
----
-
-#### 1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)
-| Aspecto Constitucional | Regra / Limite | Exigência Processual |
-| :--- | :--- | :--- |
-| **Criação da Associação** | Plena liberdade para fins lícitos | **Independe de autorização** estatal; vedada interferência na administração |
-| **Atividades Paramilitares** | **Vedação absoluta** | Proibição categórica |
-| **Suspensão das Atividades** | Interrupção provisória | Exige **decisão judicial** (mesmo cautelar/liminar) |
-| **Dissolução Compulsória** | Extinção definitiva da pessoa jurídica | Exige **decisão judicial transitada em julgado** |
-| **Representação Processual** | Defesa dos filiados em juízo | Exige **autorização expressa** (individual ou assemblear - Tema 82/STF) |
-
-> ⭐ **IMPORTANTE:**  
-> A FCC adora trocar as exigências para suspensão e dissolução compulsória. Memorize: para **suspender**, basta mera **decisão judicial**; para **dissolver compulsoriamente**, exige-se **trânsito em julgado**. Nenhuma autoridade administrativa tem competência para ordenar a paralisação ou encerramento de associação!
-
----
-
-#### 1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC
-Para gabaritar qualquer prova da Fundação Carlos Chagas, a tabela a seguir é de memorização compulsória:
-
-| Categoria do Crime | Tipos Penais Abrangidos | Fiança? | Prescrição? | Graça / Anistia / Indulto? |
-| :--- | :--- | :--- | :--- | :--- |
-| **Racismo & Injúria Racial** | Prática de racismo (Lei 7.716/89) e Injúria racial (STF HC 154.248 e Lei 14.532/23) | **Inafiançável** | **Imprescritível** | Admite |
-| **Ação de Grupos Armados** | Civis ou militares contra a ordem constitucional e o Estado Democrático | **Inafiançável** | **Imprescritível** | Admite |
-| **3T + Hediondos** | **T**ortura, **T**ráfico ilícito de drogas, **T**errorismo e Crimes **H**ediondos | **Inafiançável** | Prescritível | **Insuscetíveis de graça ou anistia** |
-
-```mermaid
-flowchart TD
-    subgraph Imprescritiveis["IMPRESCRITÍVEIS E INAFIANÇÁVEIS (Não prescrevem nunca)"]
-        R["Racismo (e Injúria Racial - Tema 1107/STF)"]
-        GA["Ação de Grupos Armados contra o Estado Democrático"]
-    end
-    subgraph Ingraciaveis["INSUSCETÍVEIS DE GRAÇA / ANISTIA E INAFIANÇÁVEIS (3T + H)"]
-        T1["Tortura"]
-        T2["Tráfico Ilícito de Drogas"]
-        T3["Terrorismo"]
-        H["Crimes Hediondos"]
-    end
-    Imprescritiveis ~~~ Ingraciaveis
-```
-
----
-
-### 2. Remédios Constitucionais (*Writs* de Garantia)
+## 2. Remédios Constitucionais (*Writs* de Garantia)
 
 A Constituição Federal consagra ações constitucionais de rito especial para proteger direitos fundamentais violados ou ameaçados por ilegalidade ou abuso de poder.
 
@@ -250,7 +245,7 @@ flowchart TD
     Remedios -->|"Anulação de ato lesivo ao patrimônio"| AP["Ação Popular<br/>(Exclusivo CIDADÃO eleitor<br/>Gratuito salvo má-fé)"]
 ```
 
-#### 2.1 Análise Comparativa dos Remédios Constitucionais
+### 2.1 Análise Comparativa dos Remédios Constitucionais
 
 | Remédio Constitucional | Objeto Jurídico Tutelado | Legitimidade Ativa | Gratuidade / Custas? | Capacidade Postulatória (Advogado)? | Peculiaridades de Prova FCC |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -294,8 +289,6 @@ Diante da recusa administrativa formal, o instrumento processual constitucional 
 
 ---
 
-
-
 ### Teste 125
 **(FCC - Procurador do Estado / Adaptada)**
 A respeito dos remédios constitucionais, compare a disciplina do Mandado de Injunção (art. 5º, LXXI, e Lei nº 13.300/2016) e do Habeas Data (art. 5º, LXXII, e Lei nº 9.507/1997).
@@ -323,9 +316,7 @@ Assinale a afirmativa correta.
 
 ---
 
-
-
-### 3. Direitos Sociais (Arts. 6º a 11)
+## 3. Direitos Sociais (Arts. 6º a 11)
 
 - **Rol Exemplificativo do Art. 6º:** São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, e a assistência aos desamparados.
 - **Direitos dos Trabalhadores Urbanos e Rurais (Art. 7º):**
@@ -340,8 +331,6 @@ Assinale a afirmativa correta.
     - *Militares (Art. 142, § 3º, IV):* Proibição absoluta de greve e sindicalização. Aplica-se também a policiais civis e guardas municipais que atuam na segurança pública armada (STF, ARE 654.432).
 
 ---
-
-
 
 ### Teste 126
 **(FGV - Analista de Controle Externo / TCE-GO)**
@@ -370,18 +359,18 @@ Sobre a disciplina jurídica dos direitos sociais e a jurisprudência constituci
 
 ---
 
-### 4. Teoria da Nacionalidade e a Nova Disciplina da Perda (Arts. 12 e 13)
+## 4. Teoria da Nacionalidade e a Nova Disciplina da Perda (Arts. 12 e 13)
 
-#### 4.1 Espécies de Nacionalidade Originária (Brasileiro Nato)
+### 4.1 Espécies de Nacionalidade Originária (Brasileiro Nato)
 1. **Critério Territorial (*Jus Soli* - Art. 12, I, "a"):** Nascidos no Brasil, ainda que de pais estrangeiros, desde que estes não estejam a serviço do país de sua nacionalidade.
 2. **Critério Funcional (*Jus Sanguinis* - Art. 12, I, "b"):** Nascidos no estrangeiro, de pai brasileiro ou mãe brasileira, desde que qualquer deles esteja a serviço da República Federativa do Brasil (União, Estados, DF, Municípios ou suas autarquias/fundações).
 3. **Critério Potestativo / Registro Consular (*Jus Sanguinis* - Art. 12, I, "c"):** Nascidos no estrangeiro de pai brasileiro ou de mãe brasileira, desde que sejam registrados em repartição consular brasileira competente ou venham a residir no Brasil e optem, em qualquer tempo, depois de atingida a maioridade, pela nacionalidade brasileira.
 
-#### 4.2 Brasileiro Naturalizado
+### 4.2 Brasileiro Naturalizado
 - **Naturalização Ordinária (Art. 12, II, "a"):** Para originários de países de língua portuguesa: residência por **1 ano ininterrupto** e idoneidade moral. Para os demais estrangeiros: preenchimento dos requisitos da Lei de Migração (Lei nº 13.445/2017).
 - **Naturalização Extraordinária / Quinzenária (Art. 12, II, "b"):** Estrangeiros de qualquer nacionalidade, residentes no Brasil há mais de **15 anos ininterruptos** e sem condenação penal, desde que requeiram a nacionalidade brasileira.
 
-#### 4.3 Cargos Privativos de Brasileiro Nato (Art. 12, § 3º - MP3.COM)
+### 4.3 Cargos Privativos de Brasileiro Nato (Art. 12, § 3º - MP3.COM)
 A Carta Magna proíbe distinções entre brasileiros natos e naturalizados, salvo nos casos expressamente previstos no próprio texto constitucional. A lista taxativa de cargos privativos é resumida pelo mnemônico consagrado **MP3.COM**:
 
 ```mermaid
@@ -402,6 +391,22 @@ flowchart TD
 > - **Deputados e Senadores Comuns:** Podem ser brasileiros naturalizados! Apenas os cargos de **Presidente da Câmara** e **Presidente do Senado** são privativos de natos, pois figuram na linha de substituição presidencial sucessória (art. 80 da CF).  
 > - **Tribunais Superiores e Tribunais de Contas:** Ministros do STJ, Ministros do TST, Ministros do STM e Conselheiros/Ministros de Tribunais de Contas (TCU e TCE-GO) **podem ser brasileiros naturalizados**. Apenas os 11 Ministros do STF devem ser natos!  
 > - **Ministros de Estado:** Apenas o **Ministro da Defesa** precisa ser nato. Todos os demais Ministros de Estado (Fazenda, Justiça, Planejamento etc.) podem ser naturalizados.
+
+### 4.4 Perda da Nacionalidade: O Novo Regime da EC nº 131/2023
+A Emenda Constitucional nº 131, promulgada no final de 2023, reformulou integralmente o regime de perda da nacionalidade:
+
+```mermaid
+flowchart TD
+    Perda["Perda da Nacionalidade Brasileira<br/>(Art. 12, § 4º - Nova Redação EC 131/2023)"]
+    Perda --> Voluntaria["Perda Voluntária<br/>(Pedido Expresso)"]
+    Perda --> Involuntaria["Perda Judicial Involuntária<br/>(Sentença Transitada em Julgado)"]
+    Voluntaria --> Cond1["Requerimento expresso perante<br/>autoridade brasileira competente.<br/>Admitida readquirição posterior."]
+    Involuntaria --> Cond2["Restrita ao NATURALIZADO em caso de:<br/>1. Fraude no processo de naturalização<br/>2. Atentado contra a ordem constitucional"]
+```
+
+> ⭐ **IMPORTANTE (MUDANÇA LEGISLATIVA HISTÓRICA):**  
+> Antes da EC nº 131/2023, o brasileiro que adquirisse outra nacionalidade por vontade própria perdia automaticamente a nacionalidade brasileira, salvo se decorresse de reconhecimento de nacionalidade originária ou de imposição de residência.  
+> **Com a EC 131/2023, a aquisição voluntária de outra nacionalidade NUNCA MAIS gera perda automática da nacionalidade brasileira!** A perda a pedido depende de ato formal e expresso de renúncia (não sendo aceita a renúncia se tornar a pessoa apátrida). Além disso, o brasileiro nato nunca mais perde sua nacionalidade de forma involuntária!
 
 ---
 
@@ -441,25 +446,6 @@ III. Cláudio, brasileiro naturalizado, com 50 anos de idade, notável saber jur
 
 ---
 
-
-#### 4.4 Perda da Nacionalidade: O Novo Regime da EC nº 131/2023
-A Emenda Constitucional nº 131, promulgada no final de 2023, reformulou integralmente o regime de perda da nacionalidade:
-
-```mermaid
-flowchart TD
-    Perda["Perda da Nacionalidade Brasileira<br/>(Art. 12, § 4º - Nova Redação EC 131/2023)"]
-    Perda --> Voluntaria["Perda Voluntária<br/>(Pedido Expresso)"]
-    Perda --> Involuntaria["Perda Judicial Involuntária<br/>(Sentença Transitada em Julgado)"]
-    Voluntaria --> Cond1["Requerimento expresso perante<br/>autoridade brasileira competente.<br/>Admitida readquirição posterior."]
-    Involuntaria --> Cond2["Restrita ao NATURALIZADO em caso de:<br/>1. Fraude no processo de naturalização<br/>2. Atentado contra a ordem constitucional"]
-```
-
-> ⭐ **IMPORTANTE (MUDANÇA LEGISLATIVA HISTÓRICA):**  
-> Antes da EC nº 131/2023, o brasileiro que adquirisse outra nacionalidade por vontade própria perdia automaticamente a nacionalidade brasileira, salvo se decorresse de reconhecimento de nacionalidade originária ou de imposição de residência.  
-> **Com a EC 131/2023, a aquisição voluntária de outra nacionalidade NUNCA MAIS gera perda automática da nacionalidade brasileira!** A perda a pedido depende de ato formal e expresso de renúncia (não sendo aceita a renúncia se tornar a pessoa apátrida). Além disso, o brasileiro nato nunca mais perde sua nacionalidade de forma involuntária!
-
----
-
 ### Teste 128
 **(FCC - Adaptada / Analista de Gestão Pública)**
 Com relação ao regime da nacionalidade instituído pela Constituição Federal de 1988 e suas alterações posteriores, considere que Marcos, brasileiro nato, aos trinta anos de idade, mudou-se para a França e, após cumprir os requisitos legais franceses, requereu e obteve voluntariamente a cidadania francesa, sem que houvesse exigência de permanência no país nem reconhecimento de nacionalidade de origem.
@@ -486,8 +472,6 @@ Considerando o texto constitucional vigente com as alterações promovidas pela 
 > **Gabarito: C**
 
 ---
-
-
 
 ### Teste 129
 **(FCC - Analista de Controle Externo / Adaptada)**
@@ -516,18 +500,16 @@ De acordo com o texto constitucional vigente com a redação dada pela EC nº 13
 
 ---
 
+## 5. Direitos Políticos e Sistema Partidário (Arts. 14 a 17)
 
-
-### 5. Direitos Políticos e Sistema Partidário (Arts. 14 a 17)
-
-#### 5.1 Alistamento Eleitoral e Voto
+### 5.1 Alistamento Eleitoral e Voto
 - **Voto no Brasil:** É direto, secreto, universal e periódico, com igual valor para todos.
 - **Obrigatoriedade:**
     - *Obrigatório:* Maiores de 18 anos e menores de 70 anos alfabetizados.
     - *Facultativo:* Maiores de 70 anos; maiores de 16 e menores de 18 anos; analfabetos.
     - *Inalistáveis (não podem se alistar nem votar):* Estrangeiros e, durante o período de serviço militar obrigatório, os conscritos.
 
-#### 5.2 Idades Mínimas de Elegibilidade (Capacidade Eleitoral Passiva)
+### 5.2 Idades Mínimas de Elegibilidade (Capacidade Eleitoral Passiva)
 As idades mínimas constitucionais devem ser aferidas na data da **posse**, exceto para a idade de 18 anos (vereador), que deve estar preenchida na data-limite do registro de candidatura (Lei nº 9.504/1997 e Súmula 53 do TSE):
 
 ```mermaid
@@ -539,16 +521,14 @@ flowchart LR
     I35 --> I30 --> I21 --> I18
 ```
 
-#### 5.3 Inelegibilidade Reflexa (Art. 14, § 7º) e Súmula Vinculante 18
+### 5.3 Inelegibilidade Reflexa (Art. 14, § 7º) e Súmula Vinculante 18
 > *"São inelegíveis, no território de jurisdição do titular, o cônjuge e os parentes consanguíneos ou afins, até o segundo grau ou por adoção, do Presidente da República, de Governador de Estado ou Território, do Distrito Federal, e de Prefeito, ou de quem os haja substituído dentro dos seis meses anteriores ao pleito, salvo se já titular de mandato eletivo e candidato à reeleição."*
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (SÚMULA VINCULANTE Nº 18 DO STF):**  
 > *"A dissolução da sociedade ou do vínculo conjugal, no curso do mandato eletivo, não afasta a inelegibilidade prevista no § 7º do artigo 14 da Constituição Federal."*  
 > A intenção do constituinte e do STF é impedir fraudes como o divórcio de fachada para contornar a vedação da reeleição perpétua do mesmo clã familiar no município ou estado! A única exceção admitida pela jurisprudência é o falecimento do cônjuge mandatário durante o mandato.
 
----
-
-#### 5.4 Perda e Suspensão dos Direitos Políticos (Art. 15 da CF/88)
+### 5.4 Perda e Suspensão dos Direitos Políticos (Art. 15 da CF/88)
 A Constituição Federal estabelece: **"É VEDADA a cassação de direitos políticos"**, admitindo apenas hipóteses taxativas de perda ou suspensão:
 
 | Hipótese Constitucional | Efeito Jurídico | Momento / Requisito |
@@ -586,10 +566,6 @@ A Constituição Federal estabelece: **"É VEDADA a cassação de direitos polí
 
 ---
 
-
-
-
-
 ### Teste 131
 **(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 Sobre os direitos políticos e o regime de inelegibilidades positivado no art. 14 da Constituição Federal de 1988, assinale a afirmativa correta.
@@ -613,10 +589,7 @@ Sobre os direitos políticos e o regime de inelegibilidades positivado no art. 1
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 

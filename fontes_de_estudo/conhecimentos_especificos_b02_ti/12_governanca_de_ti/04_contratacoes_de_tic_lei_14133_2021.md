@@ -20,53 +20,44 @@
 - Gestão e Fiscalização de Contratos de TIC: Segregação de papéis (Gestor, Fiscal Técnico, Fiscal Requisitante, Fiscal Administrativo)
 - Instrumento de Medição de Resultado (IMR), Acordo de Nível de Serviço (SLA), Glosas e Recebimento do Objeto (Provisório e Definitivo)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada & Conceitos Essenciais](#teoria-aprofundada-conceitos-essenciais)
-2. [Princípios e Diretrizes das Contratações de TIC na Lei nº 14.133/2021](#1-principios-e-diretrizes-das-contratacoes-de-tic-na-lei-no-141332021)
-    1. [Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)](#11-alinhamento-estrategico-e-planejamento-previo-pdti-e-pca)
-    2. [Teste 495](#Teste-495)
-    3. [Vedações Expressas e Jurisprudência dos Tribunais de Contas](#12-vedacoes-expressas-e-jurisprudencia-dos-tribunais-de-contas)
-    4. [Teste 496](#Teste-496)
-3. [O Ciclo de Vida da Contratação e a Fase Preparatória](#2-o-ciclo-de-vida-da-contratacao-e-a-fase-preparatoria)
-    1. [Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)](#21-artefatos-da-fase-de-planejamento-dod-etp-mapa-de-riscos-e-tr)
-    2. [Teste 497](#Teste-497)
-    3. [Custo Total de Propriedade (TCO - Total Cost of Ownership)](#22-custo-total-de-propriedade-tco-total-cost-of-ownership)
-    4. [Teste 498](#Teste-498)
-4. [Fase de Seleção do Fornecedor em TIC](#3-fase-de-selecao-do-fornecedor-em-tic)
-    1. [Modalidades de Licitação (Pregão, Concorrência e Diálogo Competitivo)](#31-modalidades-de-licitacao-pregao-concorrencia-e-dialogo-competitivo)
-    2. [Teste 499](#Teste-499)
-    3. [Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)](#32-hipoteses-de-contratacao-direta-em-tic-inexigibilidade-vs-dispensa)
-    4. [Teste 500](#Teste-500)
-5. [Gestão e Fiscalização de Contratos de TIC](#4-gestao-e-fiscalizacao-de-contratos-de-tic)
-    1. [Segregação de Papéis na Equipe de Fiscalização](#41-segregacao-de-papeis-na-equipe-de-fiscalizacao)
-    2. [Teste 501](#Teste-501)
-    3. [Instrumento de Medição de Resultado (IMR), SLA e Glosas](#42-instrumento-de-medicao-de-resultado-imr-sla-e-glosas)
-    4. [Teste 502](#Teste-502)
-    5. [Recebimento Provisório e Recebimento Definitivo](#43-recebimento-provisorio-e-recebimento-definitivo)
-    6. [Teste 503](#Teste-503)
-    7. [Teste 504](#Teste-504)
-6. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
+1. [Princípios e Diretrizes das Contratações de TIC na Lei nº 14.133/2021](#1-principios-e-diretrizes-das-contratacoes-de-tic-na-lei-no-141332021)
+1. [Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)](#1-1-alinhamento-estrategico-e-planejamento-previo-pdti-e-pca)
+    1. [Teste 495](#Teste-495)
+1. [Vedações Expressas e Jurisprudência dos Tribunais de Contas](#1-2-vedacoes-expressas-e-jurisprudencia-dos-tribunais-de-contas)
+    1. [Teste 496](#Teste-496)
+2. [O Ciclo de Vida da Contratação e a Fase Preparatória](#2-o-ciclo-de-vida-da-contratacao-e-a-fase-preparatoria)
+2. [Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)](#2-1-artefatos-da-fase-de-planejamento-dod-etp-mapa-de-riscos-e-tr)
+    1. [Teste 497](#Teste-497)
+2. [Custo Total de Propriedade (TCO - Total Cost of Ownership)](#2-2-custo-total-de-propriedade-tco-total-cost-of-ownership)
+    1. [Teste 498](#Teste-498)
+3. [Fase de Seleção do Fornecedor em TIC](#3-fase-de-selecao-do-fornecedor-em-tic)
+3. [Modalidades de Licitação (Pregão, Concorrência e Diálogo Competitivo)](#3-1-modalidades-de-licitacao-pregao-concorrencia-e-dialogo-competitivo)
+    1. [Teste 499](#Teste-499)
+3. [Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)](#3-2-hipoteses-de-contratacao-direta-em-tic-inexigibilidade-vs-dispensa)
+    1. [Teste 500](#Teste-500)
+4. [Gestão e Fiscalização de Contratos de TIC](#4-gestao-e-fiscalizacao-de-contratos-de-tic)
+4. [Segregação de Papéis na Equipe de Fiscalização](#4-1-segregacao-de-papeis-na-equipe-de-fiscalizacao)
+    1. [Teste 501](#Teste-501)
+4. [Instrumento de Medição de Resultado (IMR), SLA e Glosas](#4-2-instrumento-de-medicao-de-resultado-imr-sla-e-glosas)
+    1. [Teste 502](#Teste-502)
+4. [Recebimento Provisório e Recebimento Definitivo](#4-3-recebimento-provisorio-e-recebimento-definitivo)
+    1. [Teste 503](#Teste-503)
+    2. [Teste 504](#Teste-504)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
-
-## 📖 Teoria Aprofundada & Conceitos Essenciais
-
-
----
-
 
 ## 1. Princípios e Diretrizes das Contratações de TIC na Lei nº 14.133/2021
 
 A **Lei nº 14.133/2021** (Nova Lei de Licitações e Contratos Administrativos) consolidou e positivou princípios e boas práticas de contratação pública de Soluções de Tecnologia da Informação e Comunicação (TIC), harmonizando a legislação geral com a jurisprudência histórica do Tribunal de Contas da União (TCU) e com as normas infralegais federais (como a Instrução Normativa SGD/MGI nº 94/2022).
 
-### 1.1 Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)
+---
+
+## 1.1 Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)
 
 No setor público, nenhuma aquisição de tecnologia pode ocorrer de forma isolada, episódica ou desconectada das metas institucionais:
 
@@ -108,10 +99,9 @@ flowchart TD
 > 
 > **Gabarito: C**
 
-
 ---
 
-### 1.2 Vedações Expressas e Jurisprudência dos Tribunais de Contas
+## 1.2 Vedações Expressas e Jurisprudência dos Tribunais de Contas
 
 1. **Vedação à Remuneração por Homem-Hora Puro (Súmula nº 269 do TCU):**  
    É terminantemente proibida a remuneração de serviços de desenvolvimento, sustentação ou suporte de software com base unicamente na quantidade de horas trabalhadas ou pela mera presença física de funcionários terceirizados nas dependências do órgão. Os pagamentos devem estar obrigatoriamente vinculados a **resultados mensuráveis**, como Pontos de Função (Análise de Pontos de Função - APF), Unidades de Serviço Técnico (UST) previamente catalogadas em tabela de complexidade ou cumprimento de níveis mínimos de serviço (SLA/IMR).
@@ -145,10 +135,7 @@ flowchart TD
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. O Ciclo de Vida da Contratação e a Fase Preparatória
 
@@ -179,7 +166,9 @@ flowchart LR
     HOM --> OS
 ```
 
-### 2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)
+---
+
+## 2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)
 
 A fase preparatória é o núcleo de conformidade da contratação. Falhas graves apontadas em auditorias de controle externo derivam, em sua grande maioria, de fragilidades no ETP ou no Termo de Referência.
 
@@ -216,10 +205,9 @@ A fase preparatória é o núcleo de conformidade da contratação. Falhas grave
 > 
 > **Gabarito: B**
 
-
 ---
 
-### 2.2 Custo Total de Propriedade (TCO - Total Cost of Ownership)
+## 2.2 Custo Total de Propriedade (TCO - Total Cost of Ownership)
 
 Ao realizar o Estudo Técnico Preliminar de soluções de TIC, a Administração não pode avaliar exclusivamente o custo nominal de aquisição inicial de hardware ou licenças. Deve-se calcular o **Custo Total de Propriedade (TCO)** ao longo de todo o ciclo de vida:
 
@@ -253,14 +241,13 @@ $$\text{TCO} = \text{Aquisição} + \text{Implantação/Customização} + \text{
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Fase de Seleção do Fornecedor em TIC
 
-### 3.1 Modalidades de Licitação (Pregão, Concorrência e Diálogo Competitivo)
+---
+
+## 3.1 Modalidades de Licitação (Pregão, Concorrência e Diálogo Competitivo)
 
 ```mermaid
 flowchart TD
@@ -317,9 +304,7 @@ flowchart TD
 
 ---
 
-
-
-### 3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)
+## 3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)
 
 | Dimensão | Inexigibilidade de Licitação (Art. 74) | Dispensa de Licitação (Art. 75) |
 | :--- | :--- | :--- |
@@ -356,15 +341,13 @@ flowchart TD
 > 
 > **Gabarito: D**
 
-
-
-
 ---
-
 
 ## 4. Gestão e Fiscalização de Contratos de TIC
 
-### 4.1 Segregação de Papéis na Equipe de Fiscalização
+---
+
+## 4.1 Segregação de Papéis na Equipe de Fiscalização
 
 A Lei nº 14.133/2021 exige a separação clara de atribuições entre os agentes públicos responsáveis pelo contrato para prevenir conluios e falhas de controle:
 
@@ -413,10 +396,9 @@ flowchart TD
 > 
 > **Gabarito: B**
 
-
 ---
 
-### 4.2 Instrumento de Medição de Resultado (IMR), SLA e Glosas
+## 4.2 Instrumento de Medição de Resultado (IMR), SLA e Glosas
 
 O **IMR** (*Instrumento de Medição de Resultado*) é o mecanismo formal que vincula o pagamento mensal da fatura ao desempenho e qualidade efetivamente entregues:
 
@@ -455,9 +437,7 @@ O **IMR** (*Instrumento de Medição de Resultado*) é o mecanismo formal que vi
 
 ---
 
-
-
-### 4.3 Recebimento Provisório e Recebimento Definitivo
+## 4.3 Recebimento Provisório e Recebimento Definitivo
 
 A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o aceite do objeto em TIC:
 
@@ -496,8 +476,6 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 
 ---
 
-
-
 ---
 
 ### Teste 504
@@ -523,10 +501,7 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

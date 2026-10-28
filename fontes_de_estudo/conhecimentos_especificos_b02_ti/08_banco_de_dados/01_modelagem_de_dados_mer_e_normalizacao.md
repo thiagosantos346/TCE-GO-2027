@@ -16,10 +16,7 @@
 - Dependências funcionais e Formas Normais (1ª FN, 2ª FN, 3ª FN e BCNF)
 - Processo de Desnormalização de dados
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -31,32 +28,31 @@
     5. [Teste 234](#Teste-234)
 2. [Modelo Entidade-Relacionamento (MER / DER de Peter Chen)](#2-modelo-entidade-relacionamento-mer-der-de-peter-chen)
     1. [Entidades Fortes (Regulares) vs. Entidades Fracas](#21-entidades-fortes-regulares-vs-entidades-fracas)
-    2. [Teste 235](#Teste-235)
-    3. [Tipologia e Representação Gráfica dos Atributos](#22-tipologia-e-representacao-grafica-dos-atributos)
-    4. [Teste 236](#Teste-236)
-    5. [Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)](#23-relacionamentos-cardinalidade-e-participacao-total-vs-parcial)
+    2. [Tipologia e Representação Gráfica dos Atributos](#22-tipologia-e-representacao-grafica-dos-atributos)
+    3. [Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)](#23-relacionamentos-cardinalidade-e-participacao-total-vs-parcial)
+    4. [Teste 235](#Teste-235)
+    5. [Teste 236](#Teste-236)
     6. [Teste 237](#Teste-237)
 3. [Álgebra Relacional: Operações Formais e Consultas](#3-algebra-relacional-operacoes-formais-e-consultas)
-    1. [As Seis Operações Fundamentais](#as-seis-operacoes-fundamentais)
+    1. [As Seis Operações Fundamentais](#31-as-seis-operacoes-fundamentais)
     2. [Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional](#32-operacoes-derivadas-juncao-natural-theta-join-equijuncao-intersecao-e-divisao-relacional)
     3. [Teste 238](#Teste-238)
     4. [Teste 239](#Teste-239)
 4. [Teoria da Normalização e Formas Normais (Codd)](#4-teoria-da-normalizacao-e-formas-normais-codd)
     1. [Dependências Funcionais: Total, Parcial e Transitiva](#41-dependencias-funcionais-total-parcial-e-transitiva)
-    2. [Teste 240](#Teste-240)
-    3. [A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN](#42-a-escada-da-normalizacao-1a-fn-2a-fn-e-3a-fn)
-    4. [Teste 241](#Teste-241)
-    5. [Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN](#43-forma-normal-de-boyce-codd-fnbc-bcnf-vs-3a-fn)
+    2. [A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN](#42-a-escada-da-normalizacao-1a-fn-2a-fn-e-3a-fn)
+    3. [Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN](#43-forma-normal-de-boyce-codd-fnbc-bcnf-vs-3a-fn)
+    4. [Teste 240](#Teste-240)
+    5. [Teste 241](#Teste-241)
     6. [Teste 242](#Teste-242)
     7. [Teste 243](#Teste-243)
 5. [Processo de Desnormalização de Dados](#5-processo-de-desnormalizacao-de-dados)
     1. [Motivações e Trade-offs: OLTP vs. OLAP / Data Warehouses](#51-motivacoes-e-trade-offs-oltp-vs-olap-data-warehouses)
     2. [Técnicas Comuns e Riscos de Integridade](#52-tecnicas-comuns-e-riscos-de-integridade)
     3. [Teste 244](#Teste-244)
-6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+6. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. As Três Fases do Projeto de Banco de Dados
 
@@ -129,10 +125,7 @@ A respeito desses modelos e de suas respectivas características arquiteturais, 
 > 
 > **Gabarito: D**
 
-
-
 ---
-
 
 ## 2. Modelo Entidade-Relacionamento (MER / DER de Peter Chen)
 
@@ -160,6 +153,36 @@ flowchart LR
         RelId --- Dep["TERMO_AUDITORIA<br/>(Entidade Fraca - Linha Dupla)"]
     end
 ```
+
+### 2.2 Tipologia e Representação Gráfica dos Atributos
+
+No modelo clássico de Chen, os atributos são expressos por elipses conectadas às entidades:
+
+| Tipo de Atributo | Definição Teórica Rigorosa | Representação Gráfica (Chen) | Exemplo Prático |
+| :--- | :--- | :--- | :--- |
+| **Simples (Atômico)** | Não divisível em partes menores dotadas de significado próprio. | Elipse com linha simples | `CPF`, `Matrícula`, `Idade` |
+| **Composto** | Pode ser desmembrado em múltiplos subatributos autônomos. | Elipse ramificada em subelipses | `Endereço` (`Logradouro`, `Número`, `CEP`) |
+| **Monovalorado** | Armazena exatamente um valor para cada instância da entidade. | Elipse padrão de linha simples | `Data_Nascimento`, `Data_Emissao` |
+| **Multivalorado** | Pode assumir múltiplos valores simultâneos para a mesma entidade. | Elipse com **linha dupla** | `Telefones`, `E-mails`, `CNAEs_Secundarios` |
+| **Determinante (Identificador)**| Identifica univocamente a instância da entidade forte. | Elipse com texto **sublinhado contínuo** | `<u>NumContrato</u>`, `<u>IdProcesso</u>` |
+| **Discriminador (Chave Parcial)**| Identifica a entidade fraca apenas dentro do escopo da forte. | Elipse com texto **sublinhado tracejado** | `Num_Sequencial_Termo` |
+| **Derivado** | Valor calculado dinamicamente a partir de outros atributos persistidos. | Elipse com **borda tracejada/pontilhada** | `Idade` (calculada de `Data_Nasc`) |
+
+### 2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)
+
+- **Grau do Relacionamento:** Quantidade de entidades participantes (Binário = 2 entidades; Ternário = 3 entidades; Unário / Auto-relacionamento = a mesma entidade se relaciona consigo mesma, como `FUNCIONARIO gerencia FUNCIONARIO`).
+- **Razão de Cardinalidade:** Especifica o número máximo de ocorrências de relacionamento nas quais uma entidade pode participar:
+    - $1:1$ (Um para Um);
+    - $1:N$ (Um para Muitos);
+    - $N:M$ (Muitos para Muitos - na conversão lógica, exige compulsoriamente a criação de uma tabela associativa intermediária).
+- **Participação Total (Dependência de Existência):** Toda entidade do conjunto de entidades **obrigatoriamente deve participar** de ao menos uma instância do relacionamento. É representada graficamente por uma **linha dupla** que liga a entidade ao losango. Na notação $(mín, máx)$, expressa-se com $mín \ge 1$.
+- **Participação Parcial:** A participação é opcional (algumas instâncias podem não participar do relacionamento). Representada por uma **linha simples**. Na notação $(mín, máx)$, expressa-se com $mín = 0$.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> Cuidado com a notação de cardinalidade:
+>
+> - Na notação clássica de Chen com cardinalidade nas pontas ($1$ e $N$), o valor representa a cardinalidade máxima permitida.
+> - Na notação de pares de limites $(mín, máx)$, se $mín = 0$, a participação é **parcial**; se $mín = 1$, a participação é **total**. Além disso, na notação $(min, max)$, os limites ficam posicionados **adjacentes à entidade que possui aquela restrição**!
 
 ---
 
@@ -195,21 +218,6 @@ Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração seq
 
 ---
 
-
-### 2.2 Tipologia e Representação Gráfica dos Atributos
-
-No modelo clássico de Chen, os atributos são expressos por elipses conectadas às entidades:
-
-| Tipo de Atributo | Definição Teórica Rigorosa | Representação Gráfica (Chen) | Exemplo Prático |
-| :--- | :--- | :--- | :--- |
-| **Simples (Atômico)** | Não divisível em partes menores dotadas de significado próprio. | Elipse com linha simples | `CPF`, `Matrícula`, `Idade` |
-| **Composto** | Pode ser desmembrado em múltiplos subatributos autônomos. | Elipse ramificada em subelipses | `Endereço` (`Logradouro`, `Número`, `CEP`) |
-| **Monovalorado** | Armazena exatamente um valor para cada instância da entidade. | Elipse padrão de linha simples | `Data_Nascimento`, `Data_Emissao` |
-| **Multivalorado** | Pode assumir múltiplos valores simultâneos para a mesma entidade. | Elipse com **linha dupla** | `Telefones`, `E-mails`, `CNAEs_Secundarios` |
-| **Determinante (Identificador)**| Identifica univocamente a instância da entidade forte. | Elipse com texto **sublinhado contínuo** | `<u>NumContrato</u>`, `<u>IdProcesso</u>` |
-| **Discriminador (Chave Parcial)**| Identifica a entidade fraca apenas dentro do escopo da forte. | Elipse com texto **sublinhado tracejado** | `Num_Sequencial_Termo` |
-| **Derivado** | Valor calculado dinamicamente a partir de outros atributos persistidos. | Elipse com **borda tracejada/pontilhada** | `Idade` (calculada de `Data_Nasc`) |
-
 ### Teste 236
 **(FCC - TRT-2 / Analista Judiciário - TI - Tipologia dos Atributos no MER)**
 Em alguns casos, dois ou mais valores de atributos em um modelo de Entidade-Relacionamento estão relacionados. Por exemplo, os atributos `Idade` e `Data_Nascimento` de um Auditor de Controle Externo. Para uma entidade `AUDITOR` em particular, o valor de `Idade` pode ser determinado pela data corrente do sistema e pelo valor de `Data_Nascimento` persistido. 
@@ -241,24 +249,6 @@ As lacunas [ I ] e [ II ] são, correta e respectivamente, preenchidas por:
 
 ---
 
-### 2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)
-
-- **Grau do Relacionamento:** Quantidade de entidades participantes (Binário = 2 entidades; Ternário = 3 entidades; Unário / Auto-relacionamento = a mesma entidade se relaciona consigo mesma, como `FUNCIONARIO gerencia FUNCIONARIO`).
-- **Razão de Cardinalidade:** Especifica o número máximo de ocorrências de relacionamento nas quais uma entidade pode participar:
-    - $1:1$ (Um para Um);
-    - $1:N$ (Um para Muitos);
-    - $N:M$ (Muitos para Muitos - na conversão lógica, exige compulsoriamente a criação de uma tabela associativa intermediária).
-- **Participação Total (Dependência de Existência):** Toda entidade do conjunto de entidades **obrigatoriamente deve participar** de ao menos uma instância do relacionamento. É representada graficamente por uma **linha dupla** que liga a entidade ao losango. Na notação $(mín, máx)$, expressa-se com $mín \ge 1$.
-- **Participação Parcial:** A participação é opcional (algumas instâncias podem não participar do relacionamento). Representada por uma **linha simples**. Na notação $(mín, máx)$, expressa-se com $mín = 0$.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> Cuidado com a notação de cardinalidade:
->
-> - Na notação clássica de Chen com cardinalidade nas pontas ($1$ e $N$), o valor representa a cardinalidade máxima permitida.
-> - Na notação de pares de limites $(mín, máx)$, se $mín = 0$, a participação é **parcial**; se $mín = 1$, a participação é **total**. Além disso, na notação $(min, max)$, os limites ficam posicionados **adjacentes à entidade que possui aquela restrição**!
-
----
-
 ### Teste 237
 **(FCC - TRT-1 / Analista Judiciário - TI - Relacionamentos e Mapeamento N:M)**
 No Modelo Entidade-Relacionamento utilizado para projetar bancos de dados relacionais, quando se define que há um conjunto de relacionamentos de cardinalidade muitos para muitos ($N:M$) entre dois conjuntos de entidades $A$ e $B$, essa especificação significa e exige, do ponto de vista conceitual e de conversão lógica, que:
@@ -282,10 +272,7 @@ No Modelo Entidade-Relacionamento utilizado para projetar bancos de dados relaci
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Álgebra Relacional: Operações Formais e Consultas
 
@@ -364,8 +351,6 @@ A operação da Álgebra Relacional que expressa diretamente essa semântica de 
 
 ---
 
-
-
 ### Teste 239
 **(FCC - Adaptada / TI - Álgebra Relacional)**
 Na Álgebra Relacional, uma consulta sobre duas relações $R(A, B, C)$ e $S(C, D, E)$ tem por objetivo filtrar as tuplas de $R$ onde o atributo $A = 10$, concatenar com as tuplas correspondentes de $S$ onde $R.C = S.C$, e projetar apenas as colunas $B$ e $D$.
@@ -391,10 +376,7 @@ A expressão formal algébrica que representa essa operação com precisão é:
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 4. Teoria da Normalização e Formas Normais (Codd)
 
@@ -417,6 +399,31 @@ Dada uma relação $R$, diz-se que o conjunto de atributos $X$ determina funcion
 - **Dependência Funcional Total:** Ocorre quando $Y$ depende funcionalmente de $X$ e não depende de nenhum subconjunto próprio de $X$.
 - **Dependência Funcional Parcial:** Ocorre quando um atributo não-chave depende de apenas uma parte de uma chave primária composta (isto é, existe $A \subset X$ tal que $A \rightarrow Y$).
 - **Dependência Funcional Transitiva:** Ocorre quando $X \rightarrow Y$ e $Y \rightarrow Z$, onde $Y$ não é superchave e $Y \not\rightarrow X$. Consequentemente, $X$ determina $Z$ indiretamente através de $Y$.
+
+### 4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN
+
+1. **Primeira Forma Normal (1ª FN):**
+    - **Regra:** Todos os domínios de atributos devem conter **apenas valores atômicos e indivisíveis**. Proíbe-se a presença de atributos multivalorados, atributos compostos e grupos repetitivos (como campos contendo listas separadas por vírgula ou tabelas aninhadas).
+
+2. **Segunda Forma Normal (2ª FN):**
+    - **Regra:** A relação deve estar na **1ª FN** e todo atributo não-chave deve depender **totalmente da chave primária**, eliminando qualquer dependência funcional parcial.
+    - **Regra de Ouro em Provas:** A violação da 2ª FN só pode ocorrer se a chave primária for **composta** (possuir 2 ou mais atributos). Se a chave primária for simples (apenas 1 atributo), estando na 1ª FN ela estará **automaticamente na 2ª FN**!
+
+3. **Terceira Forma Normal (3ª FN):**
+    - **Regra:** A relação deve estar na **2ª FN** e nenhum atributo não-chave pode depender transitivamente da chave primária.
+    - **Definição Formal de Codd:** Para toda dependência funcional não-trivial $X \rightarrow A$:
+        1. $X$ é uma superchave; **OU**
+        2. $A$ é um atributo primo (faz parte de ao menos uma chave candidata).
+
+### 4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN
+
+A **Forma Normal de Boyce-Codd (FNBC)** é uma versão mais estrita da 3ª FN criada por Raymond F. Boyce e Edgar F. Codd para lidar com anomalias sutis que surgem quando uma tabela possui **múltiplas chaves candidatas compostas que se sobrepõem** (compartilham atributos entre si):
+
+- **Regra Inflexível da FNBC:** Uma relação $R$ está na FNBC se, e somente se, para **toda** dependência funcional não-trivial $X \rightarrow A$, **$X$ for obrigatoriamente uma superchave**.
+- **Diferença Crucial:** Na FNBC, **elimina-se a condição de escape do atributo primo da 3ª FN**. Mesmo que $A$ faça parte de uma chave candidata, se o determinante $X$ não for superchave, a relação viola a FNBC.
+- Toda relação que está na FNBC está automaticamente na 3ª FN. A recíproca não é verdadeira.
+
+---
 
 ### Teste 240
 **(FGV - TJ-BA / Analista Judiciário - TI - Dependências Funcionais e Axiomas de Armstrong)**
@@ -447,21 +454,6 @@ Com base nos Axiomas de Armstrong (Reflexividade, Aumento e Transitividade) e em
 
 ---
 
-### 4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN
-
-1. **Primeira Forma Normal (1ª FN):**
-    - **Regra:** Todos os domínios de atributos devem conter **apenas valores atômicos e indivisíveis**. Proíbe-se a presença de atributos multivalorados, atributos compostos e grupos repetitivos (como campos contendo listas separadas por vírgula ou tabelas aninhadas).
-
-2. **Segunda Forma Normal (2ª FN):**
-    - **Regra:** A relação deve estar na **1ª FN** e todo atributo não-chave deve depender **totalmente da chave primária**, eliminando qualquer dependência funcional parcial.
-    - **Regra de Ouro em Provas:** A violação da 2ª FN só pode ocorrer se a chave primária for **composta** (possuir 2 ou mais atributos). Se a chave primária for simples (apenas 1 atributo), estando na 1ª FN ela estará **automaticamente na 2ª FN**!
-
-3. **Terceira Forma Normal (3ª FN):**
-    - **Regra:** A relação deve estar na **2ª FN** e nenhum atributo não-chave pode depender transitivamente da chave primária.
-    - **Definição Formal de Codd:** Para toda dependência funcional não-trivial $X \rightarrow A$:
-        1. $X$ é uma superchave; **OU**
-        2. $A$ é um atributo primo (faz parte de ao menos uma chave candidata).
-
 ### Teste 241
 **(FGV - TRT / Analista Judiciário - TI - Normalização e Primeira Forma Normal)**
 O modelo de dados conceitual de um sistema de gestão de recursos humanos prevê a entidade `FUNCIONARIO`. Para fins de cálculo de benefícios e assistência médica, é necessário cadastrar os dados dos dependentes de cada funcionário (`NomeDependente`, `DataNascDependente`, `Parentesco`), sem limite superior de quantidade.
@@ -490,16 +482,6 @@ Conforme a teoria da normalização relacional de Codd, está correto apenas o q
 > - **III.** **CORRETA.** A técnica canônica para resolver atributos multivalorados ou grupos repetitivos e atender à 1FN consiste em decompor a estrutura: cria-se uma tabela separada (`DEPENDENTE`) que herda a chave da entidade principal como chave estrangeira (`FK`), garantindo atomicidade estrita em todas as colunas.
 > 
 > **Gabarito: C**
-
----
-
-### 4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN
-
-A **Forma Normal de Boyce-Codd (FNBC)** é uma versão mais estrita da 3ª FN criada por Raymond F. Boyce e Edgar F. Codd para lidar com anomalias sutis que surgem quando uma tabela possui **múltiplas chaves candidatas compostas que se sobrepõem** (compartilham atributos entre si):
-
-- **Regra Inflexível da FNBC:** Uma relação $R$ está na FNBC se, e somente se, para **toda** dependência funcional não-trivial $X \rightarrow A$, **$X$ for obrigatoriamente uma superchave**.
-- **Diferença Crucial:** Na FNBC, **elimina-se a condição de escape do atributo primo da 3ª FN**. Mesmo que $A$ faça parte de uma chave candidata, se o determinante $X$ não for superchave, a relação viola a FNBC.
-- Toda relação que está na FNBC está automaticamente na 3ª FN. A recíproca não é verdadeira.
 
 ---
 
@@ -537,8 +519,6 @@ Com base nas definições formais das Formas Normais, afirma-se corretamente que
 
 ---
 
-
-
 ### Teste 243
 **(FCC - Adaptada / TI - Teoria da Normalização)**
 Considere uma relação não normalizada de um sistema de compras públicas representada pelo esquema:  
@@ -571,10 +551,7 @@ Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Processo de Desnormalização de Dados
 
@@ -636,10 +613,7 @@ A respeito da técnica de modelagem multidimensional e de seus impactos arquitet
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

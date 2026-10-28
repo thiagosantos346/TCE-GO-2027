@@ -27,38 +27,42 @@
 - Regras fiscais restritivas da receita: vedação de aplicação de receitas de alienação de bens em despesas correntes (Art. 44 da LRF);
 - Renúncia de Receitas e exigências da Lei de Responsabilidade Fiscal (Art. 14 da LRF: estimativa trienal de impacto orçamentário-financeiro e medidas de compensação).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Conceito e Distinção: Receita Orçamentária vs. Ingressos Extraorçamentários](#1-conceito-e-distincao-receita-orcamentaria-vs-ingressos-extraorcamentarios)
-    2. [Teste 220](#Teste-220)
-    3. [Etapas e Estágios da Receita Orçamentária](#2-etapas-e-estagios-da-receita-orcamentaria)
+1. [Conceito e Distinção: Receita Orçamentária vs. Ingressos Extraorçamentários](#1-conceito-e-distincao-receita-orcamentaria-vs-ingressos-extraorcamentarios)
+    1. [Sentido Amplo e Sentido Estrito de Receita Pública](#11-sentido-amplo-e-sentido-estrito-de-receita-publica)
+    2. [Regime dos Ingressos Extraorçamentários e Peculiaridades FCC](#12-regime-dos-ingressos-extraorcamentarios-e-peculiaridades-fcc)
+    3. [Teste 220](#Teste-220)
+2. [Etapas e Estágios da Receita Orçamentária](#2-etapas-e-estagios-da-receita-orcamentaria)
+    1. [Etapa de Planejamento: Previsão da Receita (Art. 12 da LRF)](#21-etapa-de-planejamento-previsao-da-receita-art-12-da-lrf)
+    2. [Etapa de Execução: Lançamento, Arrecadação e Recolhimento](#22-etapa-de-execucao-lancamento-arrecadacao-e-recolhimento)
+    3. [O Princípio da Unidade de Caixa (Art. 56 da Lei nº 4.320/1964)](#23-o-principio-da-unidade-de-caixa-art-56-da-lei-no-43201964)
     4. [Teste 221](#Teste-221)
     5. [Teste 222](#Teste-222)
-    6. [Classificações da Receita Orçamentária (Lei nº 4.320/1964 e MCASP)](#3-classificacoes-da-receita-orcamentaria-lei-no-43201964-e-mcasp)
-    7. [Teste 223](#Teste-223)
-    8. [Teste 224](#Teste-224)
-    9. [Teste 225](#Teste-225)
-    10. [Regras Fiscais Restritivas da Receita e a LRF](#4-regras-fiscais-restritivas-da-receita-e-a-lrf)
-    11. [Teste 226](#Teste-226)
-    12. [Teste 227](#Teste-227)
-    13. [Teste 228](#Teste-228)
-    14. [Teste 229](#Teste-229)
-2. [Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+3. [Classificações da Receita Orçamentária (Lei nº 4.320/1964 e MCASP)](#3-classificacoes-da-receita-orcamentaria-lei-no-43201964-e-mcasp)
+    1. [Classificação por Categoria Econômica: Receitas Correntes e de Capital](#31-classificacao-por-categoria-economica-receitas-correntes-e-de-capital)
+    2. [Distinção Crítica: Amortização de Empréstimos vs. Juros Recebidos](#32-distincao-critica-amortizacao-de-emprestimos-vs-juros-recebidos)
+    3. [Classificação por Esfera Orçamentária e por Fonte/Destinação de Recursos](#33-classificacao-por-esfera-orcamentaria-e-por-fontedestinacao-de-recursos)
+    4. [Classificação por Natureza da Receita (Estrutura Codificada de 8 Dígitos)](#34-classificacao-por-natureza-da-receita-estrutura-codificada-de-8-digitos)
+    5. [Teste 223](#Teste-223)
+    6. [Teste 224](#Teste-224)
+    7. [Teste 225](#Teste-225)
+4. [Regras Fiscais Restritivas da Receita e a LRF](#4-regras-fiscais-restritivas-da-receita-e-a-lrf)
+    1. [Vedação de Aplicação de Receita de Alienação de Bens em Despesa Corrente (Art. 44)](#41-vedacao-de-aplicacao-de-receita-de-alienacao-de-bens-em-despesa-corrente-art-44)
+    2. [Disciplina Fiscal da Renúncia de Receitas (Art. 14 da LRF)](#42-disciplina-fiscal-da-renuncia-de-receitas-art-14-da-lrf)
+    3. [Teste 226](#Teste-226)
+    4. [Teste 227](#Teste-227)
+    5. [Teste 228](#Teste-228)
+    6. [Teste 229](#Teste-229)
+5. [🌐 Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
 
 ---
 
+## 1. Conceito e Distinção: Receita Orçamentária vs. Ingressos Extraorçamentários
 
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Conceito e Distinção: Receita Orçamentária vs. Ingressos Extraorçamentários
-
-#### 1.1 Sentido Amplo e Sentido Estrito de Receita Pública
+### 1.1 Sentido Amplo e Sentido Estrito de Receita Pública
 No estudo das finanças públicas, a expressão **receita pública** admite duas acepções fundamentais:
 
 - **Sentido Amplo (Ingressos Públicos em Geral):** Compreende todo e qualquer influxo de recursos financeiros que entra nos cofres públicos, seja ele definitivo ou transitório, seja destinado à execução orçamentária ou a mera custódia fiduciária.
@@ -71,7 +75,7 @@ flowchart TD
     Entrada --> IE["Ingressos Extraorçamentários<br/>• Recursos meramente transitórios de terceiros<br/>• NÃO constam da LOA (independem de autorização)<br/>• Geram passivo financeiro exigível correspondente<br/>• Estado é mero depositário/fiel custodiante"]
 ```
 
-#### 1.2 Regime dos Ingressos Extraorçamentários e Peculiaridades FCC
+### 1.2 Regime dos Ingressos Extraorçamentários e Peculiaridades FCC
 Os **ingressos extraorçamentários** não configuram receita orçamentária, não aumentam o patrimônio líquido do Estado e não podem ser utilizados discricionariamente pelo gestor público para realizar despesas orçamentárias. Caracterizam-se por gerarem, no exato instante de sua entrada de caixa, um passivo exigível (obrigação de devolução ou repasse):
 
 - **Cauções e Fianças em Dinheiro:** Depositadas por licitantes e contratados como garantia de execução de contratos administrativos ou participação em certames licitatórios. Findo o contrato ou o processo, a quantia deve ser restituída;
@@ -106,9 +110,7 @@ Na execução orçamentária de determinada entidade autárquica estadual, os va
 
 ---
 
-
-
-### 2. Etapas e Estágios da Receita Orçamentária
+## 2. Etapas e Estágios da Receita Orçamentária
 
 A Lei Federal nº 4.320/1964 e o Manual de Contabilidade Aplicada ao Setor Público (MCASP) dividem a trajetória da receita pública em duas grandes etapas: a etapa do planejamento e a etapa da execução.
 
@@ -119,11 +121,11 @@ flowchart LR
     Arrec --> Recolh["4. RECOLHIMENTO<br/>(Execução)<br/>Bancos transferem à Conta Única do Tesouro"]
 ```
 
-#### 2.1 Etapa de Planejamento: Previsão da Receita (Art. 12 da LRF)
+### 2.1 Etapa de Planejamento: Previsão da Receita (Art. 12 da LRF)
 - A **previsão** é o estágio inicial no qual o Poder Executivo estima, por meio de modelos estatísticos e econométricos, o volume de recursos a ser arrecadado no exercício financeiro seguinte para fixação na LOA.
 - A Lei de Responsabilidade Fiscal (art. 12 da LRF) determina que as previsões de receita observarão as normas técnicas e legais, considerarão os efeitos das alterações na legislação, da variação do índice de preços (inflação), do crescimento econômico (PIB) e da evolução da receita nos últimos três exercícios.
 
-#### 2.2 Etapa de Execução: Lançamento, Arrecadação e Recolhimento
+### 2.2 Etapa de Execução: Lançamento, Arrecadação e Recolhimento
 1. **Lançamento (Art. 53 da Lei nº 4.320/1964 e Art. 142 do CTN):**
     - Ato privativo da autoridade administrativa que verifica a ocorrência do fato gerador da obrigação correspondente, determina a matéria tributável, calcula o montante do tributo devido, identifica o sujeito passivo e, sendo o caso, propõe a aplicação da penalidade cabível.
     - Aplica-se típica e primordialmente às receitas tributárias diretas (ex.: IPTU, IPVA, taxas de fiscalização) e às rendas com vencimento predeterminado.
@@ -138,6 +140,10 @@ flowchart LR
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca FCC testa com grande frequência se **todas** as receitas orçamentárias cumprem os quatro estágios. **ATENÇÃO:** Nem toda receita orçamentária passa pelo estágio do lançamento! Receitas de serviços, tarifas, doações, transferências correntes e receitas patrimoniais (como aluguéis) são arrecadadas diretamente sem a necessidade do ato formal de lançamento fiscal. Contudo, **todas** as receitas cumprem impreterivelmente os estágios da previsão, da arrecadação e do recolhimento.
+
+### 2.3 O Princípio da Unidade de Caixa (Art. 56 da Lei nº 4.320/1964)
+- O art. 56 da Lei nº 4.320/1964 consagra solenemente o **Princípio da Unidade de Caixa** (ou Princípio da Conta Única): *"O recolhimento de todas as receitas far-se-á em estrita observância ao princípio de unidade de tesouraria, vedada qualquer fragmentação de caixas."*
+- Todos os recursos auferidos pelo Estado de Goiás devem ser centralizados na Conta Única do Tesouro Estadual mantida em instituição financeira oficial, assegurando transparência, controle centralizado do fluxo financeiro e otimização da gestão de liquidez.
 
 ---
 
@@ -166,13 +172,6 @@ A respeito das etapas e estágios da receita orçamentária e dos ingressos nos 
 
 ---
 
-
-#### 2.3 O Princípio da Unidade de Caixa (Art. 56 da Lei nº 4.320/1964)
-- O art. 56 da Lei nº 4.320/1964 consagra solenemente o **Princípio da Unidade de Caixa** (ou Princípio da Conta Única): *"O recolhimento de todas as receitas far-se-á em estrita observância ao princípio de unidade de tesouraria, vedada qualquer fragmentação de caixas."*
-- Todos os recursos auferidos pelo Estado de Goiás devem ser centralizados na Conta Única do Tesouro Estadual mantida em instituição financeira oficial, assegurando transparência, controle centralizado do fluxo financeiro e otimização da gestão de liquidez.
-
----
-
 ### Teste 222
 **(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 No tocante ao estágio da arrecadação e ao princípio da unidade de caixa na execução orçamentária das receitas públicas (art. 56 da Lei nº 4.320/1964), assinale a afirmativa correta:
@@ -198,8 +197,7 @@ No tocante ao estágio da arrecadação e ao princípio da unidade de caixa na e
 
 ---
 
-
-### 3. Classificações da Receita Orçamentária (Lei nº 4.320/1964 e MCASP)
+## 3. Classificações da Receita Orçamentária (Lei nº 4.320/1964 e MCASP)
 
 A receita orçamentária é classificada segundo múltiplos critérios para fins de planejamento, controle contábil e divulgação de estatísticas fiscais.
 
@@ -214,19 +212,39 @@ flowchart TD
     RK --> RK_Orig["Origens das Receitas de Capital:<br/>• Operações de Crédito (Títulos, empréstimos bancários)<br/>• Alienação de Bens (Venda de bens móveis e imóveis)<br/>• Amortização de Empréstimos (Recebimento do PRINCIPAL)<br/>• Transferências de Capital (Convênios para obras e investimentos)<br/>• Outras Receitas de Capital (Integralização de estatais)"]
 ```
 
-#### 3.1 Classificação por Categoria Econômica: Receitas Correntes e de Capital
+### 3.1 Classificação por Categoria Econômica: Receitas Correntes e de Capital
 1. **Receitas Correntes (Código 1):**  
    Recursos financeiros que ingressam regularmente no erário e destinam-se ao custeio da máquina pública e à manutenção dos serviços públicos regulares prestados à sociedade. Em sua grande maioria, são **receitas efetivas** (aumentam a situação líquida patrimonial do Estado por constituírem variações patrimoniais aumentativas - VPA).
 2. **Receitas de Capital (Código 2):**  
    Recursos financeiros provenientes da constituição de dívidas (operações de crédito), da conversão em moeda de bens e direitos (alienação de bens e amortização de empréstimos) ou de transferências de terceiros vinculadas à realização de investimentos. Em sua maioria, são **receitas não efetivas** (ou por mutação patrimonial), pois representam meras trocas compensatórias de elementos patrimoniais (ex.: entra dinheiro em caixa e diminui o valor de um imóvel na alienação, ou entra dinheiro e surge um passivo financeiro na operação de crédito) sem alteração imediata do patrimônio líquido.
 
-#### 3.2 Distinção Crítica: Amortização de Empréstimos vs. Juros Recebidos
+### 3.2 Distinção Crítica: Amortização de Empréstimos vs. Juros Recebidos
 Um dos temas mais recorrentes em provas da FCC é o tratamento contábil dos financiamentos concedidos pelo Estado a outros entes ou agentes econômicos:
 
 - **Recebimento do Principal (Devolução do Capital Emprestado):**  
   Classifica-se como **Receita de Capital**, sob a origem **Amortização de Empréstimos**. O Estado detinha um direito a receber no Ativo Não Circulante que se converte em dinheiro de caixa (mutação ativa compensatória).
 - **Recebimento dos Juros e Encargos da Dívida:**  
   Classifica-se como **Receita Corrente**, sob a origem **Receita Patrimonial**. Remunera o capital emprestado e constitui ganho patrimonial efetivo (VPA).
+
+### 3.3 Classificação por Esfera Orçamentária e por Fonte/Destinação de Recursos
+- **Por Esfera Orçamentária:** Identifica a qual dos três orçamentos integrados da LOA a receita pertence:
+    - Orçamento Fiscal (F);
+    - Orçamento da Seguridade Social (S);
+    - Orçamento de Investimento das Estatais (I).
+- **Por Fonte / Destinação de Recursos:** Mecanismo pelo qual se estabelece a vinculação entre a origem do ingresso e a sua aplicação final:
+    - **Recursos Ordinários (Livres):** Podem ser programados pelo Executivo para qualquer despesa discricionária regular;
+    - **Recursos Vinculados (Carimbados):** Possuem destinação legal ou constitucional obrigatória (ex.: Fundeb, percentuais mínimos de saúde e educação, convênios com repasses federais e emendas parlamentares impositivas). Conforme o art. 8º, parágrafo único da LRF, as disponibilidades de caixa dessas fontes mantêm sua vinculação ao longo dos exercícios, até a efetivação do seu objeto.
+
+### 3.4 Classificação por Natureza da Receita (Estrutura Codificada de 8 Dígitos)
+O MCASP (STN) padronizou a codificação da natureza da receita em nível nacional através de 8 dígitos alfanuméricos:
+
+$$\text{C . O . E . D1 . D2 . D3 . D4 . T}$$
+
+1. **1º dígito - Categoria Econômica:** (1 = Receita Corrente; 2 = Receita de Capital);
+2. **2º dígito - Origem:** Subdivisão das categorias econômicas (ex.: Tributária, Patrimonial, Alienação de Bens, etc.);
+3. **3º dígito - Espécie:** Nível que individualiza a receita (ex.: Impostos, Taxas, Amortizações);
+4. **4º ao 7º dígitos - Desdobramentos para Identificação de Peculiaridades e Alíquotas:** Detalham o fato gerador específico (ex.: ICMS, IPVA, Alienação de Imóveis);
+5. **8º dígito - Tipo da Receita:** Identifica se o valor arrecadado é o Principal (Tipo 1), Multas e Juros de Mora (Tipo 2), Dívida Ativa (Tipo 3), ou Multas e Juros da Dívida Ativa (Tipo 4).
 
 ---
 
@@ -263,29 +281,6 @@ Nos termos da Lei Federal nº 4.320/1964 e das normas do MCASP, os itens I, II e
 
 ---
 
-
-#### 3.3 Classificação por Esfera Orçamentária e por Fonte/Destinação de Recursos
-- **Por Esfera Orçamentária:** Identifica a qual dos três orçamentos integrados da LOA a receita pertence:
-    - Orçamento Fiscal (F);
-    - Orçamento da Seguridade Social (S);
-    - Orçamento de Investimento das Estatais (I).
-- **Por Fonte / Destinação de Recursos:** Mecanismo pelo qual se estabelece a vinculação entre a origem do ingresso e a sua aplicação final:
-    - **Recursos Ordinários (Livres):** Podem ser programados pelo Executivo para qualquer despesa discricionária regular;
-    - **Recursos Vinculados (Carimbados):** Possuem destinação legal ou constitucional obrigatória (ex.: Fundeb, percentuais mínimos de saúde e educação, convênios com repasses federais e emendas parlamentares impositivas). Conforme o art. 8º, parágrafo único da LRF, as disponibilidades de caixa dessas fontes mantêm sua vinculação ao longo dos exercícios, até a efetivação do seu objeto.
-
-#### 3.4 Classificação por Natureza da Receita (Estrutura Codificada de 8 Dígitos)
-O MCASP (STN) padronizou a codificação da natureza da receita em nível nacional através de 8 dígitos alfanuméricos:
-
-$$\text{C . O . E . D1 . D2 . D3 . D4 . T}$$
-
-1. **1º dígito - Categoria Econômica:** (1 = Receita Corrente; 2 = Receita de Capital);
-2. **2º dígito - Origem:** Subdivisão das categorias econômicas (ex.: Tributária, Patrimonial, Alienação de Bens, etc.);
-3. **3º dígito - Espécie:** Nível que individualiza a receita (ex.: Impostos, Taxas, Amortizações);
-4. **4º ao 7º dígitos - Desdobramentos para Identificação de Peculiaridades e Alíquotas:** Detalham o fato gerador específico (ex.: ICMS, IPVA, Alienação de Imóveis);
-5. **8º dígito - Tipo da Receita:** Identifica se o valor arrecadado é o Principal (Tipo 1), Multas e Juros de Mora (Tipo 2), Dívida Ativa (Tipo 3), ou Multas e Juros da Dívida Ativa (Tipo 4).
-
----
-
 ### Teste 224
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Segundo a classificação por categoria econômica estabelecida pela Lei Federal nº 4.320/1964 e pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), constituem, respectivamente, Receita Corrente e Receita de Capital:
@@ -310,7 +305,6 @@ Segundo a classificação por categoria econômica estabelecida pela Lei Federal
 > **Gabarito: A**
 
 ---
-
 
 ### Teste 225
 **(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
@@ -339,15 +333,30 @@ O primeiro dígito "1" e o segundo dígito "3" identificam, na estrutura oficial
 
 ---
 
+## 4. Regras Fiscais Restritivas da Receita e a LRF
 
-### 4. Regras Fiscais Restritivas da Receita e a LRF
-
-#### 4.1 Vedação de Aplicação de Receita de Alienação de Bens em Despesa Corrente (Art. 44)
+### 4.1 Vedação de Aplicação de Receita de Alienação de Bens em Despesa Corrente (Art. 44)
 A Lei de Responsabilidade Fiscal impõe uma barreira intransponível à dilapidação do patrimônio público para custeio operacional:
 > *"É vedada a aplicação da receita de capital derivada da alienação de bens e direitos que integrem o patrimônio público para o financiamento de despesa corrente, salvo se destinada por lei aos regimes de previdência social, geral e próprio dos servidores públicos."* (Art. 44 da LRF)
 
 - **Fundamento Fiscal:** Evitar que governantes vendam imóveis, empresas estatais ou frotas públicas para pagar despesas ordinárias do dia a dia (folha salarial, água, luz e telefone), o que geraria rápida ruína fiscal do Estado.
 - **Única Exceção Legal:** Destinação autorizada por lei para capitalizar os **regimes de previdência social (RPPS ou RGPS)**, viabilizando o equilíbrio atuarial dos fundos de aposentadoria pública.
+
+### 4.2 Disciplina Fiscal da Renúncia de Receitas (Art. 14 da LRF)
+Qualquer ato normativo que conceda ou amplie benefício fiscal que resulte em **renúncia de receita** (anistia, remissão, subsídio, crédito presumido, isenção em caráter não geral ou redução de alíquotas) deve obedecer aos rigorosos requisitos do art. 14 da LRF:
+
+```mermaid
+flowchart TD
+    Renuncia["Concessão de Renúncia de Receita (Art. 14 da LRF)"]
+    Renuncia --> Req1["1. Estimativa do impacto orçamentário-financeiro no exercício inicial e nos dois seguintes (triênio)"]
+    Renuncia --> Req2["2. Demonstração de atendimento às diretrizes e metas fixadas na LDO"]
+    Renuncia --> Condicoes{"Atendimento a uma de DUAS condições alternativas:"}
+    Condicoes --> AltA["Condição A:<br/>Demonstrar que a renúncia foi considerada na estimativa da LOA e não afetará as metas fiscais"]
+    Condicoes --> AltB["Condição B:<br/>Acompanhar-se de medidas de compensação concomitantes (elevação de outros tributos)"]
+```
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A banca frequentemente afirma que a renúncia de receitas exige sempre, obrigatoriamente e cumulativamente, aumento de tributos compensatórios. **ERRADO!** O aumento compensatório (Condição B) só é exigido caso a renúncia NÃO tenha sido expressamente prevista na estimativa de receita da Lei Orçamentária Anual. Se já foi contemplada e absorvida na LOA sem risco para as metas fiscais do AMF, a criação/aumento de outros tributos é dispensada.
 
 ---
 
@@ -378,25 +387,6 @@ De acordo com o artigo 44 da Lei Complementar nº 101/2000 (Lei de Responsabilid
 
 ---
 
-
-#### 4.2 Disciplina Fiscal da Renúncia de Receitas (Art. 14 da LRF)
-Qualquer ato normativo que conceda ou amplie benefício fiscal que resulte em **renúncia de receita** (anistia, remissão, subsídio, crédito presumido, isenção em caráter não geral ou redução de alíquotas) deve obedecer aos rigorosos requisitos do art. 14 da LRF:
-
-```mermaid
-flowchart TD
-    Renuncia["Concessão de Renúncia de Receita (Art. 14 da LRF)"]
-    Renuncia --> Req1["1. Estimativa do impacto orçamentário-financeiro no exercício inicial e nos dois seguintes (triênio)"]
-    Renuncia --> Req2["2. Demonstração de atendimento às diretrizes e metas fixadas na LDO"]
-    Renuncia --> Condicoes{"Atendimento a uma de DUAS condições alternativas:"}
-    Condicoes --> AltA["Condição A:<br/>Demonstrar que a renúncia foi considerada na estimativa da LOA e não afetará as metas fiscais"]
-    Condicoes --> AltB["Condição B:<br/>Acompanhar-se de medidas de compensação concomitantes (elevação de outros tributos)"]
-```
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A banca frequentemente afirma que a renúncia de receitas exige sempre, obrigatoriamente e cumulativamente, aumento de tributos compensatórios. **ERRADO!** O aumento compensatório (Condição B) só é exigido caso a renúncia NÃO tenha sido expressamente prevista na estimativa de receita da Lei Orçamentária Anual. Se já foi contemplada e absorvida na LOA sem risco para as metas fiscais do AMF, a criação/aumento de outros tributos é dispensada.
-
----
-
 ### Teste 227
 **(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 Determinado Secretário de Estado da Fazenda propôs projeto de lei concedendo isenção temporária de IPVA para proprietários de veículos elétricos e híbridos matriculados no Estado. O projeto de lei foi aprovado pela Assembleia Legislativa sem a apresentação de estimativa de impacto orçamentário-financeiro e desacompanhado de medidas de compensação fiscal.
@@ -423,8 +413,6 @@ Determinado Secretário de Estado da Fazenda propôs projeto de lei concedendo i
 > **Gabarito: B**
 
 ---
-
-
 
 ### Teste 228
 **(FCC - Adaptada / Analista Jurídico de Controle)**
@@ -476,10 +464,7 @@ Determinado Município goiano realizou a alienação de diversos imóveis públi
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 

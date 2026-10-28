@@ -27,38 +27,43 @@
     - Prazos de resposta e instâncias de recurso administrativo (regra 20 + 10 dias);
     - Graus de sigilo documental: reservada (5 anos), secreta (15 anos) e ultrassecreta (25 anos); proteção de dados pessoais (100 anos).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Evolução Histórica dos Modelos de Gestão Pública](#1-evolucao-historica-dos-modelos-de-gestao-publica)
-    2. [Teste 310](#Teste-310)
-    3. [Teste 311](#Teste-311)
-    4. [As Disfunções da Burocracia (Robert Merton)](#2-as-disfuncoes-da-burocracia-robert-merton)
-    5. [Teste 312](#Teste-312)
-    6. [A Reforma Gerencial Brasileira de 1995 (PDRAE)](#3-a-reforma-gerencial-brasileira-de-1995-pdrae)
-    7. [Teste 313](#Teste-313)
-    8. [Teste 314](#Teste-314)
-    9. [As Dimensões do Desempenho Público (Os 6Es da Gestão)](#4-as-dimensoes-do-desempenho-publico-os-6es-da-gestao)
-    10. [Teste 315](#Teste-315)
-    11. [Governança, Governabilidade e Accountability](#5-governanca-governabilidade-e-accountability)
-    12. [Teste 316](#Teste-316)
-    13. [Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)](#6-transparencia-publica-e-a-lei-de-acesso-a-informacao-lei-no-125272011)
-    14. [Teste 317](#Teste-317)
-    15. [Teste 318](#Teste-318)
-    16. [Teste 319](#Teste-319)
-2. [Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
+1. [Evolução Histórica dos Modelos de Gestão Pública](#1-evolucao-historica-dos-modelos-de-gestao-publica)
+    1. [Modelo Patrimonialista](#11-modelo-patrimonialista)
+    2. [Modelo Burocrático Weberiano](#12-modelo-burocratico-weberiano)
+    3. [Modelo Gerencial (*New Public Management* - NPM)](#13-modelo-gerencial-new-public-management-npm)
+    4. [Quadro Analítico Comparativo dos Três Modelos](#14-quadro-analitico-comparativo-dos-tres-modelos)
+    5. [Teste 310](#Teste-310)
+    6. [Teste 311](#Teste-311)
+2. [As Disfunções da Burocracia (Robert Merton)](#2-as-disfuncoes-da-burocracia-robert-merton)
+    1. [Teste 312](#Teste-312)
+3. [A Reforma Gerencial Brasileira de 1995 (PDRAE)](#3-a-reforma-gerencial-brasileira-de-1995-pdrae)
+    1. [Os Quatro Setores do Estado](#31-os-quatro-setores-do-estado)
+    2. [O Mecanismo da Publicização e as Organizações Sociais (OS)](#32-o-mecanismo-da-publicizacao-e-as-organizacoes-sociais-os)
+    3. [Teste 313](#Teste-313)
+    4. [Teste 314](#Teste-314)
+4. [As Dimensões do Desempenho Público (Os 6Es da Gestão)](#4-as-dimensoes-do-desempenho-publico-os-6es-da-gestao)
+    1. [Economicidade, Eficiência, Eficácia e Efetividade](#41-economicidade-eficiencia-eficacia-e-efetividade)
+    2. [Teste 315](#Teste-315)
+5. [Governança, Governabilidade e Accountability](#5-governanca-governabilidade-e-accountability)
+    1. [Governabilidade vs. Governança (Distinção Crítica FCC)](#51-governabilidade-vs-governanca-distincao-critica-fcc)
+    2. [Dimensões da Accountability (Vertical, Horizontal e Social)](#52-dimensoes-da-accountability-vertical-horizontal-e-social)
+    3. [Teste 316](#Teste-316)
+6. [Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)](#6-transparencia-publica-e-a-lei-de-acesso-a-informacao-lei-no-125272011)
+    1. [Transparência Ativa vs. Transparência Passiva](#61-transparencia-ativa-vs-transparencia-passiva)
+    2. [Prazos de Atendimento e Desnecessidade de Motivação](#62-prazos-de-atendimento-e-desnecessidade-de-motivacao)
+    3. [Graus e Prazos Máximos de Sigilo Documental](#63-graus-e-prazos-maximos-de-sigilo-documental)
+    4. [Teste 317](#Teste-317)
+    5. [Teste 318](#Teste-318)
+    6. [Teste 319](#Teste-319)
+7. [🌐 Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Evolução Histórica dos Modelos de Gestão Pública
+## 1. Evolução Histórica dos Modelos de Gestão Pública
 
 A trajetória da administração pública no mundo ocidental e no Brasil desdobra-se na sucessão e convivência dialética de três modelos paradigmáticos:
 
@@ -68,12 +73,12 @@ flowchart LR
     Buroc --> Geren["3. Modelo Gerencial (NPM)<br/>Foco em resultados e metas<br/>Controle a posteriori e cidadão"]
 ```
 
-#### 1.1 Modelo Patrimonialista
+### 1.1 Modelo Patrimonialista
 - Vigente no Estado Absolutista e no Brasil Colonial/Imperial até a década de 1930;
 - **Característica Central:** Ausência de separação entre o patrimônio do soberano e a *res publica* (o Estado é tratado como extensão da casa do príncipe);
 - **Práticas Correlatas:** Concessão de cargos públicos como **prebendas** (rendas vitalícias) e **sinecuras** (cargos sem trabalho correspondente), nepotismo, favorecimento pessoal e coronelismo/clientelismo eleitoral.
 
-#### 1.2 Modelo Burocrático Weberiano
+### 1.2 Modelo Burocrático Weberiano
 - Estruturado conceitualmente por Max Weber no início do século XX e introduzido no Brasil pela reforma do DASP (1936-1938);
 - **Objetivo Histórico Primário:** Combater frontalmente a corrupção e o nepotismo patrimonialistas mediante regras rígidas;
 - **Princípios Racionais-Legais:**
@@ -83,7 +88,7 @@ flowchart LR
     - *Hierarquia Funcional:* Cadeia de comando clara, com linhas bem delimitadas de subordinação;
     - *Controle a Priori (Prévio):* Controle minucioso e exaustivo sobre a conformidade dos meios, formulários e ritos processuais antes de qualquer decisão.
 
-#### 1.3 Modelo Gerencial (*New Public Management* - NPM)
+### 1.3 Modelo Gerencial (*New Public Management* - NPM)
 - Emergente nas décadas de 1970/1980 (Reino Unido, Nova Zelândia e EUA) e adotado no Brasil pela Reforma de 1995 (PDRAE);
 - **Objetivo Central:** Superar a rigidez, a lentidão e a ineficiência do modelo burocrático diante da crise fiscal do Estado social;
 - **Princípios Estruturantes:** Descentralização da gestão, autonomia dos gestores, flexibilização das contratações, incentivo à inovação, contratualização de resultados e foco absoluto nas necessidades do **cidadão-usuário/cliente**;
@@ -92,7 +97,7 @@ flowchart LR
     2. *Consumerism:* Introdução do conceito de qualidade total, desregulamentação, competição entre prestadores e tratamento do cidadão como "cliente";
     3. *Public Service Orientation (PSO):* Síntese democrática contemporânea que resgata a cidadania plena, direitos republicanos, equidade, transparência e governança participativa.
 
-#### 1.4 Quadro Analítico Comparativo dos Três Modelos
+### 1.4 Quadro Analítico Comparativo dos Três Modelos
 
 | Critério de Comparação | Administração Patrimonialista | Administração Burocrática (Weber) | Administração Gerencial (NPM) |
 | :--- | :--- | :--- | :--- |
@@ -141,8 +146,6 @@ Está correto o que se afirma em:
 
 ---
 
-
-
 ### Teste 311
 **(FCC - Adaptada / Analista de Gestão Pública)**
 O modelo patrimonialista de Administração Pública prevaleceu no Brasil colonial e imperial, deixando traços na cultura organizacional do Estado.
@@ -170,8 +173,7 @@ Constitui traço característico definidor do **Patrimonialismo**:
 
 ---
 
-
-### 2. As Disfunções da Burocracia (Robert Merton)
+## 2. As Disfunções da Burocracia (Robert Merton)
 
 Embora concebida por Max Weber como o tipo ideal de organização racional e previsível, a aplicação concreta da burocracia gera anomalias conhecidas como **disfunções da burocracia**:
 
@@ -218,8 +220,7 @@ Constitui uma típica **disfunção burocrática**:
 
 ---
 
-
-### 3. A Reforma Gerencial Brasileira de 1995 (PDRAE)
+## 3. A Reforma Gerencial Brasileira de 1995 (PDRAE)
 
 Coordenado pelo Ministro Luiz Carlos Bresser-Pereira durante a presidência de Fernando Henrique Cardoso, o **Plano Diretor da Reforma do Aparelho do Estado (PDRAE)** estabeleceu as bases do gerencialismo no Brasil:
 
@@ -238,13 +239,13 @@ flowchart TD
     PB --> F4["PRIVATIZAÇÃO / Desestatização"]
 ```
 
-#### 3.1 Os Quatro Setores do Estado
+### 3.1 Os Quatro Setores do Estado
 1. **Núcleo Estratégico:** Define as leis, as políticas públicas fundamentais e as diretrizes estratégicas da nação. Propriedade estatal integral, composta pelas carreiras de Estado;
 2. **Atividades Exclusivas de Estado:** Serviços que envolvem o exercício do poder de império e coerção (polícia, diplomacia, fiscalização tributária, regulação e controle externo);
 3. **Serviços Não Exclusivos do Estado:** Serviços sociais de relevância coletiva que o Estado presta, mas nos quais o setor privado também atua livremente (saúde, ensino, cultura e pesquisa científica);
 4. **Produção de Bens e Serviços para o Mercado:** Atividades econômicas industriais e comerciais que devem ser operadas pelo mercado concorrencial (objeto de privatização).
 
-#### 3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)
+### 3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)
 - **Publicização:** É a descentralização de atividades e serviços não exclusivos do Estado para entidades do setor público não estatal (terceiro setor), constituídas como pessoas jurídicas de direito privado sem fins lucrativos qualificadas como **Organizações Sociais (OS)**;
 - **Instrumento Vinculante:** A parceria celebra-se mediante **Contrato de Gestão**, estipulando metas quantitativas e qualitativas de atendimento, com repasse de recursos orçamentários, cessão de servidores públicos e de imóveis estatais, sujeitando-se ao controle externo do Tribunal de Contas.
 
@@ -275,8 +276,6 @@ O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, prop�
 
 ---
 
-
-
 ### Teste 314
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 A Reforma do Aparelho do Estado de 1995 (Plano Diretor da Reforma do Aparelho do Estado - PDRAE), liderada pelo MARE, estruturou a atuação governamental em quatro setores estratégicos.
@@ -304,8 +303,7 @@ O setor do Estado que executa as funções exclusivas que envolvem o uso do pode
 
 ---
 
-
-### 4. As Dimensões do Desempenho Público (Os 6Es da Gestão)
+## 4. As Dimensões do Desempenho Público (Os 6Es da Gestão)
 
 A mensuração de resultados governamentais apoia-se em dimensões analíticas fundamentais:
 
@@ -322,7 +320,7 @@ flowchart LR
     Resultados -.->|Efetividade| Resultados
 ```
 
-#### 4.1 Economicidade, Eficiência, Eficácia e Efetividade
+### 4.1 Economicidade, Eficiência, Eficácia e Efetividade
 - **Economicidade:** Minimização dos custos na aquisição de insumos, sem comprometer os padrões adequados de qualidade (comprar os melhores insumos pelo menor custo financeiro possível);
 - **Eficiência:** Relação otimizada entre os insumos empregados e as saídas produzidas ($\text{Produtos} / \text{Insumos}$). É a competência para fazer certo as coisas, reduzindo perdas e desperdícios operacionais;
 - **Eficácia:** Grau de cumprimento das metas e objetivos formalmente planejados ($\text{Metas Realizadas} / \text{Metas Previstas}$). É a capacidade de fazer a coisa certa e entregar as saídas combinadas;
@@ -373,11 +371,9 @@ As constatações 1, 2 e 3 correspondem, respectivamente, aos conceitos de:
 
 ---
 
+## 5. Governança, Governabilidade e Accountability
 
-
-### 5. Governança, Governabilidade e Accountability
-
-#### 5.1 Governabilidade vs. Governança (Distinção Crítica FCC)
+### 5.1 Governabilidade vs. Governança (Distinção Crítica FCC)
 A banca FCC cobra de forma reiterada a distinção analítica entre governabilidade e governança:
 
 ```mermaid
@@ -394,7 +390,7 @@ flowchart TD
     2. **Estratégia:** Definição de planos claros, metas, diretrizes e prioridades alinhadas à missão;
     3. **Controle:** Gestão de riscos, transparência, integridade (*compliance*) e monitoramento contínuo.
 
-#### 5.2 Dimensões da Accountability (Vertical, Horizontal e Social)
+### 5.2 Dimensões da Accountability (Vertical, Horizontal e Social)
 O termo *accountability* compreende o dever indeclinável de prestar contas, responder pelos atos praticados na gestão da coisa pública e submeter-se a sanções em caso de malversação:
 
 1. **Accountability Vertical:** Opera de baixo para cima, no vínculo entre o cidadão e os governantes, materializada essencialmente pelo **voto livre e secreto nas eleições democráticas**, bem como por plebiscitos e referendos;
@@ -428,9 +424,7 @@ A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas d
 
 ---
 
-
-
-### 6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)
+## 6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)
 
 A Lei Federal nº 12.527/2011 (LAI) e a Lei Estadual de Goiás nº 18.025/2013 consagram a publicidade como preceito geral republicano e o sigilo como exceção rigorosa.
 
@@ -448,15 +442,15 @@ flowchart TD
     Sigilo --> Pessoais["Dados Pessoais (Honra/Intimidade): até 100 anos"]
 ```
 
-#### 6.1 Transparência Ativa vs. Transparência Passiva
+### 6.1 Transparência Ativa vs. Transparência Passiva
 - **Transparência Ativa:** Divulgação oficial espontânea e contínua de informações públicas de interesse coletivo em sítios oficiais da internet (portais de transparência), em dados abertos e de fácil acesso, independentemente de requerimento;
 - **Transparência Passiva:** Resposta formal do Poder Público aos pedidos específicos de acesso a documentos e informações formulados pelos cidadãos perante os Serviços de Informações ao Cidadão (SIC).
 
-#### 6.2 Prazos de Atendimento e Desnecessidade de Motivação
+### 6.2 Prazos de Atendimento e Desnecessidade de Motivação
 - **Prazos:** Se a informação estiver disponível, o acesso deve ser imediato. Caso não seja possível o atendimento imediato, o órgão tem o prazo de **até 20 (vinte) dias**, prorrogável motivadamente por mais **10 (dez) dias** (regra dos 20 + 10 dias);
 - **Desnecessidade de Motivação (Art. 10, § 3º da LAI):** São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público! O cidadão não precisa justificar por que deseja saber os gastos públicos.
 
-#### 6.3 Graus e Prazos Máximos de Sigilo Documental
+### 6.3 Graus e Prazos Máximos de Sigilo Documental
 As informações cuja divulgação possa colocar em risco a segurança da sociedade ou do Estado podem ser classificadas em três graus de sigilo:
 
 1. **Reservada:** Prazo máximo de restrição de **até 5 (cinco) anos**;
@@ -490,8 +484,6 @@ Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a res
 > **Gabarito: B**
 
 ---
-
-
 
 ### Teste 318
 **(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
@@ -542,10 +534,7 @@ De acordo com as boas práticas de governança no setor público, a distinção 
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Referências Bibliográficas
 

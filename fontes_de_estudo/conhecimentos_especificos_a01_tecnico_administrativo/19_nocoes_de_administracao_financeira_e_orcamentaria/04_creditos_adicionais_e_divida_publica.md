@@ -29,38 +29,42 @@
     - Dívida Flutuante (Artigo 92 da Lei nº 4.320/1964): restos a pagar, serviços da dívida a pagar, depósitos/cauções e débitos de tesouraria por ARO;
     - Dívida Fundada ou Consolidada (Artigo 98 da Lei nº 4.320/1964 e Artigo 29 da LRF): obrigações financeiras de longo prazo (superiores a 12 meses) decorrentes de contratos, emissão de títulos públicos e precatórios.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Mecanismos de Retificação do Orçamento: Os Créditos Adicionais](#1-mecanismos-de-retificacao-do-orcamento-os-creditos-adicionais)
-    2. [Teste 240](#Teste-240)
-    3. [Teste 241](#Teste-241)
-    4. [Teste 242](#Teste-242)
-    5. [Teste 243](#Teste-243)
-    6. [A Regra Constitucional de Reabertura de Saldos (Art. 167, § 2º da CF/88)](#2-a-regra-constitucional-de-reabertura-de-saldos-art-167-2o-da-cf88)
-    7. [Teste 244](#Teste-244)
-    8. [Teste 245](#Teste-245)
-    9. [As Fontes Legais de Cobertura para Abertura de Créditos](#3-as-fontes-legais-de-cobertura-para-abertura-de-creditos)
-    10. [Teste 246](#Teste-246)
-    11. [Teste 247](#Teste-247)
-    12. [Regime Jurídico da Dívida Pública: Flutuante vs. Fundada (Consolidada)](#4-regime-juridico-da-divida-publica-flutuante-vs-fundada-consolidada)
-    13. [Teste 248](#Teste-248)
-    14. [Teste 249](#Teste-249)
-2. [Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+1. [Mecanismos de Retificação do Orçamento: Os Créditos Adicionais](#1-mecanismos-de-retificacao-do-orcamento-os-creditos-adicionais)
+    1. [Conceito e Função no Sistema Orçamentário](#11-conceito-e-funcao-no-sistema-orcamentario)
+    2. [As Três Espécies: Suplementares, Especiais e Extraordinários](#12-as-tres-especies-suplementares-especiais-e-extraordinarios)
+    3. [Quadro Comparativo dos Ritos e Vigência](#13-quadro-comparativo-dos-ritos-e-vigencia)
+    4. [Teste 240](#Teste-240)
+    5. [Teste 241](#Teste-241)
+    6. [Teste 242](#Teste-242)
+    7. [Teste 243](#Teste-243)
+2. [A Regra Constitucional de Reabertura de Saldos (Art. 167, § 2º da CF/88)](#2-a-regra-constitucional-de-reabertura-de-saldos-art-167-2o-da-cf88)
+    1. [Princípio da Anualidade e a Reabertura Quadrimestral](#21-principio-da-anualidade-e-a-reabertura-quadrimestral)
+    2. [Requisitos Cumulativos para a Reabertura](#22-requisitos-cumulativos-para-a-reabertura)
+    3. [Teste 244](#Teste-244)
+    4. [Teste 245](#Teste-245)
+3. [As Fontes Legais de Cobertura para Abertura de Créditos](#3-as-fontes-legais-de-cobertura-para-abertura-de-creditos)
+    1. [Superávit Financeiro do Balanço Patrimonial Anterior (Art. 43, § 2º)](#31-superavit-financeiro-do-balanco-patrimonial-anterior-art-43-2o)
+    2. [Excesso de Arrecadação (Art. 43, § 3º)](#32-excesso-de-arrecadacao-art-43-3o)
+    3. [Anulação de Dotações e Operações de Crédito](#33-anulacao-de-dotacoes-e-operacoes-de-credito)
+    4. [Reserva de Contingência e Recursos Decorrentes de Veto/Rejeição](#34-reserva-de-contingencia-e-recursos-decorrentes-de-vetorejeicao)
+    5. [Teste 246](#Teste-246)
+    6. [Teste 247](#Teste-247)
+4. [Regime Jurídico da Dívida Pública: Flutuante vs. Fundada (Consolidada)](#4-regime-juridico-da-divida-publica-flutuante-vs-fundada-consolidada)
+    1. [Dívida Flutuante (Curto Prazo - Art. 92 da Lei nº 4.320/1964)](#41-divida-flutuante-curto-prazo-art-92-da-lei-no-43201964)
+    2. [Dívida Fundada ou Consolidada (Longo Prazo - Art. 29 da LRF)](#42-divida-fundada-ou-consolidada-longo-prazo-art-29-da-lrf)
+    3. [Teste 248](#Teste-248)
+    4. [Teste 249](#Teste-249)
+5. [🌐 Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
 
 ---
 
+## 1. Mecanismos de Retificação do Orçamento: Os Créditos Adicionais
 
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Mecanismos de Retificação do Orçamento: Os Créditos Adicionais
-
-#### 1.1 Conceito e Função no Sistema Orçamentário
+### 1.1 Conceito e Função no Sistema Orçamentário
 Conforme o art. 40 da Lei Federal nº 4.320/1964, os **créditos adicionais** são as autorizações de despesa não computadas ou insuficientemente dotadas na Lei de Orçamento. Atuam como válvulas de flexibilidade indispensáveis para corrigir imperfeições ou desvios na previsão orçamentária original provocados pela dinâmica econômica e social ao longo do exercício financeiro.
 
 ```mermaid
@@ -75,6 +79,32 @@ flowchart TD
     
     Urg -->|SIM| Extra["CRÉDITO EXTRAORDINÁRIO<br/>• Atende a grave emergência pública<br/>• DISPENSA autorização prévia em lei<br/>• Aberto por Medida Provisória ou Decreto<br/>• Admite reabertura se promulgado nos últimos 4 meses"]
 ```
+
+### 1.2 As Três Espécies: Suplementares, Especiais e Extraordinários
+A legislação financeira reparte os créditos adicionais em três espécies bem delineadas:
+
+1. **Créditos Suplementares (Art. 41, I da Lei nº 4.320/1964):**
+    - Destinam-se exclusivamente ao **reforço de dotação orçamentária pré-existente** que se mostrou insuficiente durante a execução do exercício;
+    - Dependem de prévia autorização em lei, que pode ser concedida tanto em **lei especial autônoma quanto no próprio corpo da Lei Orçamentária Anual**, constituindo expressa exceção ao princípio da exclusividade (art. 165, § 8º da CF/88);
+    - São formalmente abertos por **decreto** do Poder Executivo.
+
+2. **Créditos Especiais (Art. 41, II da Lei nº 4.320/1964):**
+    - Destinam-se a despesas públicas para as quais **não haja dotação orçamentária específica na LOA** (criação de um programa de trabalho, projeto ou ação inteiramente novo);
+    - Dependem obrigatoriamente de prévia autorização legislativa veiculada em **lei específica** (não podem ser autorizados no texto da LOA originária);
+    - São abertos por **decreto** do Chefe do Poder Executivo.
+
+3. **Créditos Extraordinários (Art. 41, III da Lei nº 4.320/1964 e Art. 167, § 3º da CF/88):**
+    - Destinam-se ao atendimento de **despesas imprevisíveis e urgentes**, decorrentes exclusivamente de **guerra externa, comoção interna ou calamidade pública** (rol taxativo constitucional);
+    - **Dispensam autorização prévia por lei:** São abertos no âmbito federal por **Medida Provisória** e, nos entes estaduais e municipais cujas Constituições ou Leis Orgânicas não contemplem MP, por **Decreto do Chefe do Executivo**, com ciência e submissão imediata ao Poder Legislativo;
+    - Em caso de extrema emergência, a jurisprudência constitucional (STF - ADI 4.048) reconhece que a indicação formal prévia da fonte compensatória de recursos pode ser postergada.
+
+### 1.3 Quadro Comparativo dos Ritos e Vigência
+
+| Espécie de Crédito | Finalidade precípua | Autorização Legislativa | Instrumento Formal de Abertura | Possibilidade de Reabertura no Exercício Subsequente |
+| :--- | :--- | :--- | :--- | :--- |
+| **Suplementar** | Reforço de dotação orçamentária existente insuficiente. | Prévia em lei (**pode constar no texto da LOA**). | **Decreto** do Chefe do Executivo. | **NUNCA ADMITE REABERTURA**. Caduca impreterivelmente em 31 de dezembro. |
+| **Especial** | Criação de nova dotação para despesas sem rubrica na LOA. | Prévia em **lei específica** (proibida autorização no corpo da LOA). | **Decreto** do Chefe do Executivo. | **Admite reabertura** se o ato for promulgado nos últimos 4 meses do ano. |
+| **Extraordinário** | Custeio de emergências imprevisíveis (guerra, comoção, calamidade). | **Dispensa prévia lei.** Submissão e comunicação imediata ao Legislativo. | **Medida Provisória** ou **Decreto**. | **Admite reabertura** se o ato for promulgado nos últimos 4 meses do ano. |
 
 ---
 
@@ -130,35 +160,6 @@ Nos termos do artigo 5º, inciso III da Lei de Responsabilidade Fiscal (LC nº 1
 
 ---
 
-
-#### 1.2 As Três Espécies: Suplementares, Especiais e Extraordinários
-A legislação financeira reparte os créditos adicionais em três espécies bem delineadas:
-
-1. **Créditos Suplementares (Art. 41, I da Lei nº 4.320/1964):**
-    - Destinam-se exclusivamente ao **reforço de dotação orçamentária pré-existente** que se mostrou insuficiente durante a execução do exercício;
-    - Dependem de prévia autorização em lei, que pode ser concedida tanto em **lei especial autônoma quanto no próprio corpo da Lei Orçamentária Anual**, constituindo expressa exceção ao princípio da exclusividade (art. 165, § 8º da CF/88);
-    - São formalmente abertos por **decreto** do Poder Executivo.
-
-2. **Créditos Especiais (Art. 41, II da Lei nº 4.320/1964):**
-    - Destinam-se a despesas públicas para as quais **não haja dotação orçamentária específica na LOA** (criação de um programa de trabalho, projeto ou ação inteiramente novo);
-    - Dependem obrigatoriamente de prévia autorização legislativa veiculada em **lei específica** (não podem ser autorizados no texto da LOA originária);
-    - São abertos por **decreto** do Chefe do Poder Executivo.
-
-3. **Créditos Extraordinários (Art. 41, III da Lei nº 4.320/1964 e Art. 167, § 3º da CF/88):**
-    - Destinam-se ao atendimento de **despesas imprevisíveis e urgentes**, decorrentes exclusivamente de **guerra externa, comoção interna ou calamidade pública** (rol taxativo constitucional);
-    - **Dispensam autorização prévia por lei:** São abertos no âmbito federal por **Medida Provisória** e, nos entes estaduais e municipais cujas Constituições ou Leis Orgânicas não contemplem MP, por **Decreto do Chefe do Executivo**, com ciência e submissão imediata ao Poder Legislativo;
-    - Em caso de extrema emergência, a jurisprudência constitucional (STF - ADI 4.048) reconhece que a indicação formal prévia da fonte compensatória de recursos pode ser postergada.
-
-#### 1.3 Quadro Comparativo dos Ritos e Vigência
-
-| Espécie de Crédito | Finalidade precípua | Autorização Legislativa | Instrumento Formal de Abertura | Possibilidade de Reabertura no Exercício Subsequente |
-| :--- | :--- | :--- | :--- | :--- |
-| **Suplementar** | Reforço de dotação orçamentária existente insuficiente. | Prévia em lei (**pode constar no texto da LOA**). | **Decreto** do Chefe do Executivo. | **NUNCA ADMITE REABERTURA**. Caduca impreterivelmente em 31 de dezembro. |
-| **Especial** | Criação de nova dotação para despesas sem rubrica na LOA. | Prévia em **lei específica** (proibida autorização no corpo da LOA). | **Decreto** do Chefe do Executivo. | **Admite reabertura** se o ato for promulgado nos últimos 4 meses do ano. |
-| **Extraordinário** | Custeio de emergências imprevisíveis (guerra, comoção, calamidade). | **Dispensa prévia lei.** Submissão e comunicação imediata ao Legislativo. | **Medida Provisória** ou **Decreto**. | **Admite reabertura** se o ato for promulgado nos últimos 4 meses do ano. |
-
----
-
 ### Teste 242
 **(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 Em decorrência de fortes chuvas torrenciais que assolaram municípios goianos, o Governador do Estado decretou formalmente estado de calamidade pública. Diante da necessidade imediata de socorro financeiro e humanitário às populações desabrigadas, o Poder Executivo necessita executar despesas emergenciais para as quais não há dotação orçamentária na Lei Orçamentária Anual em vigor.
@@ -185,8 +186,6 @@ Nessa situação fática, em conformidade com as normas constitucionais e financ
 > **Gabarito: B**
 
 ---
-
-
 
 ### Teste 243
 **(FCC - Adaptada / Analista de Planejamento e Orçamento)**
@@ -217,15 +216,14 @@ Está correto o que se afirma em:
 
 ---
 
+## 2. A Regra Constitucional de Reabertura de Saldos (Art. 167, § 2º da CF/88)
 
-### 2. A Regra Constitucional de Reabertura de Saldos (Art. 167, § 2º da CF/88)
-
-#### 2.1 Princípio da Anualidade e a Reabertura Quadrimestral
+### 2.1 Princípio da Anualidade e a Reabertura Quadrimestral
 O princípio orçamentário da anualidade determina que os créditos orçamentários têm vigência restrita ao exercício financeiro respectivo, extinguindo-se em 31 de dezembro. Todavia, o legislador constituinte originário inseriu no art. 167, § 2º da Carta Magna uma única ressalva temporal:
 
 $$\text{Ato de Abertura} \in [1º \text{ de setembro a } 31 \text{ de dezembro}] \implies \text{Admissível Reabertura no Ano Seguinte}$$
 
-#### 2.2 Requisitos Cumulativos para a Reabertura
+### 2.2 Requisitos Cumulativos para a Reabertura
 Para que o saldo de um crédito orçamentário possa ser regularmente reaberto no exercício subsequente, faz-se mister o atendimento rigoroso e simultâneo dos seguintes requisitos:
 
 1. **Espécies Permitidas:** O crédito deve ser exclusivamente **Especial** ou **Extraordinário** (créditos suplementares jamais podem ser reabertos em hipótese alguma);
@@ -299,9 +297,7 @@ Considerando o princípio da anualidade orçamentária e a disciplina do artigo 
 
 ---
 
-
-
-### 3. As Fontes Legais de Cobertura para Abertura de Créditos
+## 3. As Fontes Legais de Cobertura para Abertura de Créditos
 
 Conforme determina o art. 43 da Lei Federal nº 4.320/1964, a abertura de créditos suplementares e especiais é nula de pleno direito caso não seja precedida de exposição justificativa que comprove a existência de recursos disponíveis para o seu financiamento. O ordenamento jurídico reconhece seis fontes formais:
 
@@ -316,22 +312,22 @@ flowchart TD
     Fontes --> F6["6. Recursos sem Despesas Correspondentes (Art. 166, § 8º da CF)<br/>(Saldos resultantes de veto governamental ou rejeição do PLOA)"]
 ```
 
-#### 3.1 Superávit Financeiro do Balanço Patrimonial Anterior (Art. 43, § 2º)
+### 3.1 Superávit Financeiro do Balanço Patrimonial Anterior (Art. 43, § 2º)
 - É a diferença positiva apurada no **Balanço Patrimonial** do exercício imediatamente anterior entre o Ativo Financeiro ($AF$) e o Passivo Financeiro ($PF$):
 
 $$\text{Superávit Financeiro} = AF - PF - \text{Saldos de Créditos Reabertos} - \text{Vinculações Legais}$$
 
 - O cálculo deve deduzir obrigatoriamente os saldos dos créditos adicionais transferidos/reabertos que ainda demandem cobertura, bem como as disponibilidades financeiras atreladas a receitas legalmente vinculadas (ex.: quotas do Fundeb).
 
-#### 3.2 Excesso de Arrecadação (Art. 43, § 3º)
+### 3.2 Excesso de Arrecadação (Art. 43, § 3º)
 - É o saldo positivo das diferenças acumuladas mês a mês entre a arrecadação realizada e a prevista na LOA, considerada a **tendência do exercício**.
 - Do montante apurado de excesso de arrecadação devem ser deduzidas as importâncias dos créditos adicionais suplementares e especiais já abertos com base nessa mesma fonte ao longo do ano corrente.
 
-#### 3.3 Anulação de Dotações e Operações de Crédito
+### 3.3 Anulação de Dotações e Operações de Crédito
 - **Anulação Total ou Parcial de Dotações:** Consiste na redução do valor fixado para determinada despesa orçamentária da LOA que deixou de ser prioritária para viabilizar o reforço ou criação de outra dotação pública de maior relevância.
 - **Operações de Crédito:** Ingressos de recursos derivados da contratação de empréstimos, financiamentos ou emissão de títulos públicos da dívida fundada devidamente autorizados pelo Poder Legislativo em lei e vinculados ao crédito aberto.
 
-#### 3.4 Reserva de Contingência e Recursos Decorrentes de Veto/Rejeição
+### 3.4 Reserva de Contingência e Recursos Decorrentes de Veto/Rejeição
 - **Reserva de Contingência (Art. 5º, III da LRF):** Dotação orçamentária global sem destinação específica a órgão ou programa, fixada na LOA com base na LDO, destinada a cobrir passivos contingentes e outros riscos fiscais imprevistos. Serve legitimamente como fonte de anulação para abertura de créditos suplementares e especiais.
 - **Recursos Decorrentes de Veto ou Rejeição (Art. 166, § 8º da CF/88):** Recursos que ficaram sem despesas correspondentes em razão de veto parcial do Chefe do Executivo ao projeto de LOA, ou resultantes de emendas e rejeição de dispositivos no parlamento.
 
@@ -370,7 +366,6 @@ Considera-se **superávit financeiro**, para fins de abertura de créditos adici
 
 ---
 
-
 ### Teste 247
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na apuração da fonte **excesso de arrecadação** para a abertura de créditos suplementares e especiais (art. 43, § 3º da Lei Federal nº 4.320/1964), a Administração Pública deve obrigatoriamente:
@@ -396,8 +391,7 @@ Na apuração da fonte **excesso de arrecadação** para a abertura de créditos
 
 ---
 
-
-### 4. Regime Jurídico da Dívida Pública: Flutuante vs. Fundada (Consolidada)
+## 4. Regime Jurídico da Dívida Pública: Flutuante vs. Fundada (Consolidada)
 
 A disciplina jurídica da dívida pública no Brasil encontra-se fundamentada na Lei Federal nº 4.320/1964 e na Lei de Responsabilidade Fiscal (LC nº 101/2000):
 
@@ -408,7 +402,7 @@ flowchart TD
     Divida --> Fundada["DÍVIDA FUNDADA / CONSOLIDADA (Art. 29 da LRF)<br/>• Obrigações financeiras de longo prazo (> 12 meses)<br/>• Exige prévia autorização em lei e dotação na LOA<br/>• Títulos da dívida mobiliária, contratos de empréstimos, precatórios"]
 ```
 
-#### 4.1 Dívida Flutuante (Curto Prazo - Art. 92 da Lei nº 4.320/1964)
+### 4.1 Dívida Flutuante (Curto Prazo - Art. 92 da Lei nº 4.320/1964)
 A dívida flutuante compreende os compromissos exigíveis assumidos pela administração pública para liquidação imediata ou a curto prazo, sem necessidade de autorização orçamentária contínua para sua amortização (opera-se como dispêndio extraorçamentário). Integra-se taxativamente por:
 
 1. **Restos a Pagar:** Despesas empenhadas e não pagas até 31 de dezembro, processadas e não processadas;
@@ -416,7 +410,7 @@ A dívida flutuante compreende os compromissos exigíveis assumidos pela adminis
 3. **Depósitos, fianças e cauções:** Recursos financeiros de terceiros sob custódia temporária da Fazenda Pública restituíveis a curto prazo;
 4. **Débitos de tesouraria decorrentes de ARO:** Saldos pendentes de Operações de Crédito por Antecipação de Receita Orçamentária contraídos para suprir descompassos transitórios de caixa.
 
-#### 4.2 Dívida Fundada ou Consolidada (Longo Prazo - Art. 29 da LRF)
+### 4.2 Dívida Fundada ou Consolidada (Longo Prazo - Art. 29 da LRF)
 Conforme o art. 29 da LRF e o art. 98 da Lei nº 4.320/1964, a dívida fundada ou consolidada consiste no montante total das obrigações financeiras assumidas pelo ente federado para **amortização em prazo superior a 12 (doze) meses**:
 
 - Decorre de emissão de títulos públicos mobiliários, contratos formais de empréstimo e financiamento internos e externos (junto a bancos como BNDES, Caixa, BIRD e BID);
@@ -477,10 +471,7 @@ Considere que, em 20 de outubro de determinado exercício financeiro, o Governad
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 

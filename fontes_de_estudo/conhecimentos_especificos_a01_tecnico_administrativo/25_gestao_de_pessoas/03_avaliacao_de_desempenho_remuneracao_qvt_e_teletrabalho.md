@@ -49,37 +49,30 @@
     - Vantagens institucionais: racionalização de despesas prediais, flexibilidade, retenção de talentos e sustentabilidade ambiental;
     - Riscos e cuidados ergonômicos: isolamento social, segurança cibernética de autos processuais e garantia do **direito à desconexão** contra a Síndrome de *Burnout*.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [Gestão e Métodos de Avaliação de Desempenho](#1-gestao-e-metodos-de-avaliacao-de-desempenho)
-    2. [Teste 450](#Teste-450)
-    3. [Teste 451](#Teste-451)
-    4. [Erros, Vieses e Distorções Cognitivas do Avaliador](#2-erros-vieses-e-distorcoes-cognitivas-do-avaliador)
-    5. [Teste 452](#Teste-452)
-    6. [Teste 453](#Teste-453)
-    7. [Remuneração e Planos de Carreira no Setor Público](#3-remuneracao-e-planos-de-carreira-no-setor-publico)
-    8. [Teste 454](#Teste-454)
-    9. [Teste 455](#Teste-455)
-    10. [Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton](#4-qualidade-de-vida-no-trabalho-qvt-modelo-de-richard-walton)
-    11. [Teste 456](#Teste-456)
-    12. [Teletrabalho e Trabalho Híbrido no Setor Público](#5-teletrabalho-e-trabalho-hibrido-no-setor-publico)
-    13. [Teste 457](#Teste-457)
-    14. [Teste 458](#Teste-458)
-    15. [Teste 459](#Teste-459)
-    16. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+1. [Gestão e Métodos de Avaliação de Desempenho](#1-gestao-e-metodos-de-avaliacao-de-desempenho)
+    1. [Teste 450](#Teste-450)
+    2. [Teste 451](#Teste-451)
+2. [Erros, Vieses e Distorções Cognitivas do Avaliador](#2-erros-vieses-e-distorcoes-cognitivas-do-avaliador)
+    1. [Teste 452](#Teste-452)
+    2. [Teste 453](#Teste-453)
+3. [Remuneração e Planos de Carreira no Setor Público](#3-remuneracao-e-planos-de-carreira-no-setor-publico)
+    1. [Teste 454](#Teste-454)
+    2. [Teste 455](#Teste-455)
+4. [Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton](#4-qualidade-de-vida-no-trabalho-qvt-modelo-de-richard-walton)
+    1. [Teste 456](#Teste-456)
+5. [Teletrabalho e Trabalho Híbrido no Setor Público](#5-teletrabalho-e-trabalho-hibrido-no-setor-publico)
+    1. [Teste 457](#Teste-457)
+    2. [Teste 458](#Teste-458)
+    3. [Teste 459](#Teste-459)
+6. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. Gestão e Métodos de Avaliação de Desempenho
+## 1. Gestão e Métodos de Avaliação de Desempenho
 
 A avaliação de desempenho é uma apreciação sistemática do comportamento e da entrega funcional do servidor no exercício de suas atribuições. Integra o macroprocesso de **Aplicar Pessoas** (Chiavenato).
 
@@ -144,8 +137,6 @@ Em determinado órgão público estadual, a diretoria de Recursos Humanos decidi
 
 ---
 
-
-
 ### Teste 451
 **(FCC - Adaptada / Analista de Gestão Pública)**
 Dentre as metodologias clássicas e modernas de Avaliação de Desempenho Humano nas organizações, a **Avaliação 360 Graus (ou Feedback Circular / Multirrequisital)** caracteriza-se por:
@@ -170,8 +161,7 @@ Dentre as metodologias clássicas e modernas de Avaliação de Desempenho Humano
 
 ---
 
-
-### 2. Erros, Vieses e Distorções Cognitivas do Avaliador
+## 2. Erros, Vieses e Distorções Cognitivas do Avaliador
 
 A subjetividade humana constitui o maior obstáculo à precisão da avaliação de desempenho:
 
@@ -225,8 +215,6 @@ Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual 
 
 ---
 
-
-
 ### Teste 453
 **(FCC - Adaptada / Auditor de Controle Externo)**
 No processo de Avaliação de Desempenho, o avaliador está sujeito a vieses cognitivos e distorções perceptivas involuntárias que podem comprometer a fidedignidade dos resultados.
@@ -254,8 +242,7 @@ A distorção conhecida como **Efeito de Halo (ou Halo Effect)** ocorre quando:
 
 ---
 
-
-### 3. Remuneração e Planos de Carreira no Setor Público
+## 3. Remuneração e Planos de Carreira no Setor Público
 
 A remuneração no serviço público subordina-se a rígidos parâmetros constitucionais de legalidade e moralidade:
 
@@ -308,8 +295,6 @@ Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas ca
 
 ---
 
-
-
 ### Teste 455
 **(FCC - Adaptada / Analista de Planejamento e Controle)**
 No estudo da Qualidade de Vida no Trabalho (QVT), o modelo conceitual mais abrangente e citado na literatura administrativa foi proposto por Richard Walton (1973), estruturado em oito dimensões clássicas.
@@ -334,8 +319,7 @@ Constitui uma das oito dimensões do modelo de QVT de **Richard Walton**:
 
 ---
 
-
-### 4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton
+## 4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton
 
 O modelo formulado por Richard Walton (1973) é a principal referência doutrinária exigida em provas sobre o bem-estar no ambiente corporativo e público. Walton estruturou a QVT em **oito dimensões conceituais**:
 
@@ -392,9 +376,7 @@ O modelo conceitual de Qualidade de Vida no Trabalho (QVT) estruturado por Richa
 
 ---
 
-
-
-### 5. Teletrabalho e Trabalho Híbrido no Setor Público
+## 5. Teletrabalho e Trabalho Híbrido no Setor Público
 
 A consolidação do regime de teletrabalho transformou a dinâmica das instituições de controle externo (como os Tribunais de Contas):
 
@@ -438,8 +420,6 @@ Com o avanço da transformação digital na administração pública, o regime d
 > **Gabarito: C**
 
 ---
-
-
 
 ### Teste 458
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
@@ -488,8 +468,7 @@ No tocante à estrutura do Sistema de Remuneração no Setor Público e aos Plan
 
 ---
 
-
-### 6. Fontes Oficiais e Referências Bibliográficas
+## 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho - PGD e Teletrabalho)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Disciplina o teletrabalho, planos de trabalho individuais, metas de produtividade e qualidade das entregas.
 * [Constituição Federal de 1988 - Art. 41, § 1º, III (Avaliação Periódica de Desempenho)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Condição constitucional para perda de cargo do servidor estável mediante procedimento de avaliação periódica de desempenho.

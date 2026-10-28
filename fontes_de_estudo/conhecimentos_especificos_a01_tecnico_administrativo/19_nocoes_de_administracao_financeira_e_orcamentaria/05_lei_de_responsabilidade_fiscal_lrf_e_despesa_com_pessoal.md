@@ -29,41 +29,45 @@
     - Vedação do Artigo 42 da LRF (assunção de obrigação financeira nos últimos dois quadrimestres sem disponibilidade de caixa);
     - Nulidade de atos que aumentem despesa com pessoal nos últimos 180 dias de mandato (Artigo 21, parágrafo único da LRF).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Fundamentos e Instrumentos de Transparência da LRF](#1-fundamentos-e-instrumentos-de-transparencia-da-lrf)
-    2. [Teste 250](#Teste-250)
-    3. [Despesa Obrigatória de Caráter Continuado (DOCC - Art. 17)](#2-despesa-obrigatoria-de-carater-continuado-docc-art-17)
-    4. [Teste 251](#Teste-251)
-    5. [Despesa Total com Pessoal (DTP) e Gatilhos de Controle](#3-despesa-total-com-pessoal-dtp-e-gatilhos-de-controle)
-    6. [Teste 252](#Teste-252)
-    7. [Teste 253](#Teste-253)
-    8. [Teste 254](#Teste-254)
-    9. [Teste 255](#Teste-255)
-    10. [Teste 256](#Teste-256)
-    11. [Endividamento, Regra de Ouro, ARO e Vedações de Fim de Mandato](#4-endividamento-regra-de-ouro-aro-e-vedacoes-de-fim-de-mandato)
-    12. [Teste 257](#Teste-257)
-    13. [Teste 258](#Teste-258)
-    14. [Teste 259](#Teste-259)
-2. [Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
+1. [Fundamentos e Instrumentos de Transparência da LRF](#1-fundamentos-e-instrumentos-de-transparencia-da-lrf)
+    1. [Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)](#11-premissas-da-gestao-fiscal-responsavel-art-1o-1o)
+    2. [Os Relatórios Fiscais Obrigatórios: RREO e RGF](#12-os-relatorios-fiscais-obrigatorios-rreo-e-rgf)
+    3. [Teste 250](#Teste-250)
+2. [Despesa Obrigatória de Caráter Continuado (DOCC - Art. 17)](#2-despesa-obrigatoria-de-carater-continuado-docc-art-17)
+    1. [Conceito Legal e Requisitos Formais](#21-conceito-legal-e-requisitos-formais)
+    2. [Mecanismos Permanentes de Compensação Fiscal](#22-mecanismos-permanentes-de-compensacao-fiscal)
+    3. [Teste 251](#Teste-251)
+3. [Despesa Total com Pessoal (DTP) e Gatilhos de Controle](#3-despesa-total-com-pessoal-dtp-e-gatilhos-de-controle)
+    1. [Conceito, Apuração Quadrimestral e Base da RCL](#31-conceito-apuracao-quadrimestral-e-base-da-rcl)
+    2. [Repartição dos Limites Globais e a Cota do TCE-GO](#32-reparticao-dos-limites-globais-e-a-cota-do-tce-go)
+    3. [Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações](#33-limite-de-alerta-prudencial-e-maximo-gatilhos-e-vedacoes)
+    4. [Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)](#34-regras-de-reconducao-e-medidas-constitucionais-sucessivas-de-corte-art-169)
+    5. [Teste 252](#Teste-252)
+    6. [Teste 253](#Teste-253)
+    7. [Teste 254](#Teste-254)
+    8. [Teste 255](#Teste-255)
+    9. [Teste 256](#Teste-256)
+4. [Endividamento, Regra de Ouro, ARO e Vedações de Fim de Mandato](#4-endividamento-regra-de-ouro-aro-e-vedacoes-de-fim-de-mandato)
+    1. [A Regra de Ouro Orçamentária (Art. 167, III da CF/88)](#41-a-regra-de-ouro-orcamentaria-art-167-iii-da-cf88)
+    2. [Regime das Operações de Crédito por ARO (Art. 38)](#42-regime-das-operacoes-de-credito-por-aro-art-38)
+    3. [As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)](#43-as-restricoes-severas-de-final-de-mandato-arts-21-e-42-da-lrf)
+    4. [Teste 257](#Teste-257)
+    5. [Teste 258](#Teste-258)
+    6. [Teste 259](#Teste-259)
+5. [🌐 Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
 
 ---
 
+## 1. Fundamentos e Instrumentos de Transparência da LRF
 
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Fundamentos e Instrumentos de Transparência da LRF
-
-#### 1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)
+### 1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)
 A Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal - LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a **ação planejada e transparente**, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar.
 
-#### 1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF
+### 1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF
 Para viabilizar a ampla fiscalização pela sociedade e pelos órgãos de controle externo (TCEs e Ministério Público de Contas), a LRF institui dois relatórios periódicos estruturantes:
 
 ```mermaid
@@ -104,13 +108,12 @@ Sobre a periodicidade de publicação e o alcance desses relatórios, assinale a
 
 ---
 
+## 2. Despesa Obrigatória de Caráter Continuado (DOCC - Art. 17)
 
-### 2. Despesa Obrigatória de Caráter Continuado (DOCC - Art. 17)
-
-#### 2.1 Conceito Legal e Requisitos Formais
+### 2.1 Conceito Legal e Requisitos Formais
 A **Despesa Obrigatória de Caráter Continuado (DOCC)** é a despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente público a obrigação legal de sua execução por um **período superior a dois (2) anos** (art. 17, *caput* da LRF).
 
-#### 2.2 Mecanismos Permanentes de Compensação Fiscal
+### 2.2 Mecanismos Permanentes de Compensação Fiscal
 A criação ou aumento de DOCC submete-se a rígidas condições cumulativas de higidez fiscal, sob pena de nulidade absoluta do ato e caracterização de crime fiscal:
 
 1. **Estimativa Trienal do Impacto Orçamentário-Financeiro:** Aferição do impacto financeiro no exercício em que deva entrar em vigor e nos dois subsequentes;
@@ -162,15 +165,13 @@ Nos termos do artigo 17 da Lei de Responsabilidade Fiscal, por se tratar de Desp
 
 ---
 
+## 3. Despesa Total com Pessoal (DTP) e Gatilhos de Controle
 
-
-### 3. Despesa Total com Pessoal (DTP) e Gatilhos de Controle
-
-#### 3.1 Conceito, Apuração Quadrimestral e Base da RCL
+### 3.1 Conceito, Apuração Quadrimestral e Base da RCL
 - **Definição Ampla (Art. 18):** Entende-se por despesa total com pessoal o somatório dos gastos do ente com os ativos, inativos e pensionistas, relativos a mandatos eletivos, cargos, funções ou empregos, subsídios e vencimentos, vantagens fixas e variáveis, proventos de aposentadoria e pensões, adicionais, gratificações, horas extras, bem como encargos sociais e contribuições recolhidas pelo ente às entidades de previdência, além dos valores decorrentes de contratos de terceirização de mão de obra que substituam servidores de cargos vagos (art. 18, § 1º).
 - **Base de Cálculo:** O somatório da **Receita Corrente Líquida (RCL)** do ente apurada no mês de referência e nos onze meses imediatamente anteriores (período móvel de 12 meses).
 
-#### 3.2 Repartição dos Limites Globais e a Cota do TCE-GO
+### 3.2 Repartição dos Limites Globais e a Cota do TCE-GO
 A DTP de cada ente da Federação não poderá exceder os seguintes percentuais máximos da Receita Corrente Líquida:
 
 - **União:** 50% da RCL;
@@ -199,6 +200,35 @@ pie title Repartição dos Limites de Pessoal nos Estados (Teto Global: 60% da R
 > - **1,2%** para o Tribunal de Contas do Estado (TCE-GO).  
 > A banca frequentemente afirma que o Tribunal de Contas integra a cota do Judiciário (falso!) ou altera os percentuais para 1,5% e 1,5% (falso!).
 
+### 3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações
+A fiscalização do cumprimento dos limites de pessoal processa-se através de três patamares escalonados:
+
+```mermaid
+flowchart TD
+    DTP["Acompanhamento Quadrimestral da DTP"]
+    DTP --> Alerta["1. LIMITE DE ALERTA (90% do teto máximo)<br/>• O Tribunal de Contas emite ALERTA FORMAL ao Poder/órgão<br/>• Função pedagógica e preventiva"]
+    DTP --> Prud["2. LIMITE PRUDENCIAL (95% do teto máximo)<br/>• Incidência imediata das VEDAÇÕES do Art. 22, parágrafo único<br/>• Proibido reajuste, criação de cargos e provimento em geral"]
+    DTP --> Max["3. LIMITE MÁXIMO / TOTAL (100% do teto)<br/>• Prazo de 2 quadrimestres para recondução do excesso<br/>• Aplicação escalonada das medidas do Art. 169 da CF"]
+```
+
+##### Vedações Expressas do Limite Prudencial (Art. 22, Parágrafo Único da LRF)
+Ao atingir 95% do limite legal máximo, aplicam-se imediatamente ao Poder ou órgão as seguintes proibições:
+
+1. Concessão de vantagem, aumento, reajuste ou adequação de remuneração a qualquer título (salvo revisão geral anual do art. 37, X da CF);
+2. Criação de cargos, empregos ou funções públicas;
+3. Alteração de estrutura de carreira que implique aumento de despesa;
+4. Provimento de cargo público, admissão ou contratação de pessoal a qualquer título;
+    - **Exceção Constitucional e Legal:** Permite-se a reposição decorrente de **aposentadoria ou falecimento de servidores das áreas de educação, saúde e segurança pública**!
+
+5. Contratação de serviço extraordinário (horas extras), ressalvada situação de emergência e calamidade pública justificada.
+
+### 3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)
+- Se a DTP ultrapassar o **Limite Máximo (100%)**, o excedente deverá ser integralmente eliminado nos **dois quadrimestres imediatamente seguintes**, devendo ser eliminado **pelo menos um terço (1/3) no primeiro quadrimestre** (art. 23 da LRF).
+- **Medidas Sucessivas Obrigatórias do Art. 169, §§ 3º e 4º da CF/88:**
+    1. **1º Passo:** Redução de pelo menos **20% (vinte por cento)** das despesas com cargos em comissão e funções de confiança;
+    2. **2º Passo:** Exoneração dos servidores públicos **não estáveis** (admitidos sem concurso antes da CF/88 ou em estágio probatório);
+    3. **3º Passo:** Se as duas medidas anteriores forem insuficientes, poderá haver a **demissão de servidores públicos estáveis**, mediante processo administrativo individual fundamentado, cabendo ao servidor indenização pecuniária correspondente a 1 (um) mês de remuneração por ano de serviço prestado.
+
 ---
 
 ### Teste 252
@@ -225,31 +255,6 @@ A fatia global reservada pela LRF e sua respectiva repartição entre os órgão
 > - **E)** Incorreta. A repartição decorre de norma expressa da lei complementar nacional, não de ato discricionário interno.
 > 
 > **Gabarito: B**
-
----
-
-
-#### 3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações
-A fiscalização do cumprimento dos limites de pessoal processa-se através de três patamares escalonados:
-
-```mermaid
-flowchart TD
-    DTP["Acompanhamento Quadrimestral da DTP"]
-    DTP --> Alerta["1. LIMITE DE ALERTA (90% do teto máximo)<br/>• O Tribunal de Contas emite ALERTA FORMAL ao Poder/órgão<br/>• Função pedagógica e preventiva"]
-    DTP --> Prud["2. LIMITE PRUDENCIAL (95% do teto máximo)<br/>• Incidência imediata das VEDAÇÕES do Art. 22, parágrafo único<br/>• Proibido reajuste, criação de cargos e provimento em geral"]
-    DTP --> Max["3. LIMITE MÁXIMO / TOTAL (100% do teto)<br/>• Prazo de 2 quadrimestres para recondução do excesso<br/>• Aplicação escalonada das medidas do Art. 169 da CF"]
-```
-
-##### Vedações Expressas do Limite Prudencial (Art. 22, Parágrafo Único da LRF)
-Ao atingir 95% do limite legal máximo, aplicam-se imediatamente ao Poder ou órgão as seguintes proibições:
-
-1. Concessão de vantagem, aumento, reajuste ou adequação de remuneração a qualquer título (salvo revisão geral anual do art. 37, X da CF);
-2. Criação de cargos, empregos ou funções públicas;
-3. Alteração de estrutura de carreira que implique aumento de despesa;
-4. Provimento de cargo público, admissão ou contratação de pessoal a qualquer título;
-    - **Exceção Constitucional e Legal:** Permite-se a reposição decorrente de **aposentadoria ou falecimento de servidores das áreas de educação, saúde e segurança pública**!
-
-5. Contratação de serviço extraordinário (horas extras), ressalvada situação de emergência e calamidade pública justificada.
 
 ---
 
@@ -307,16 +312,6 @@ Nos termos do artigo 59, § 1º, inciso II da Lei Complementar nº 101/2000, dia
 
 ---
 
-
-#### 3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)
-- Se a DTP ultrapassar o **Limite Máximo (100%)**, o excedente deverá ser integralmente eliminado nos **dois quadrimestres imediatamente seguintes**, devendo ser eliminado **pelo menos um terço (1/3) no primeiro quadrimestre** (art. 23 da LRF).
-- **Medidas Sucessivas Obrigatórias do Art. 169, §§ 3º e 4º da CF/88:**
-    1. **1º Passo:** Redução de pelo menos **20% (vinte por cento)** das despesas com cargos em comissão e funções de confiança;
-    2. **2º Passo:** Exoneração dos servidores públicos **não estáveis** (admitidos sem concurso antes da CF/88 ou em estágio probatório);
-    3. **3º Passo:** Se as duas medidas anteriores forem insuficientes, poderá haver a **demissão de servidores públicos estáveis**, mediante processo administrativo individual fundamentado, cabendo ao servidor indenização pecuniária correspondente a 1 (um) mês de remuneração por ano de serviço prestado.
-
----
-
 ### Teste 255
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na hipótese de a Despesa Total com Pessoal (DTP) de determinado Poder ou órgão autônomo estadual ultrapassar o limite máximo fixado na LRF, a Constituição Federal de 1988 (art. 169, §§ 3º e 4º) e a própria LRF impõem medidas sucessivas e escalonadas para o retorno aos limites.
@@ -343,7 +338,6 @@ A ordem constitucional obrigatória das medidas de corte é:
 > **Gabarito: A**
 
 ---
-
 
 ### Teste 256
 **(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
@@ -372,17 +366,16 @@ Diante dessa situação fática, o Poder Executivo estadual está expressamente 
 
 ---
 
+## 4. Endividamento, Regra de Ouro, ARO e Vedações de Fim de Mandato
 
-### 4. Endividamento, Regra de Ouro, ARO e Vedações de Fim de Mandato
-
-#### 4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)
+### 4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)
 A Constituição Federal consagra a célebre "Regra de Ouro" das finanças públicas:
 $$\text{Operações de Crédito Realizadas no Exercício} \le \text{Despesas de Capital Fixadas na LOA}$$
 
 - **Objetivo Econômico:** Impedir que o governante contraia empréstimos públicos ou emita títulos soberanos para pagar despesas correntes de manutenção (salários e diárias), endividando as gerações futuras sem criar capital ou infraestrutura física durável.
 - **Ressalva Constitucional:** É admitida a realização de operações de crédito em montante superior às despesas de capital caso seja autorizada pelo Poder Legislativo mediante **créditos adicionais suplementares ou especiais com finalidade precisa**, aprovados por **maioria absoluta** dos votos dos membros do parlamento.
 
-#### 4.2 Regime das Operações de Crédito por ARO (Art. 38)
+### 4.2 Regime das Operações de Crédito por ARO (Art. 38)
 A Antecipação de Receita Orçamentária (ARO) é uma operação de crédito de curto prazo autorizada pelo art. 165, § 8º da CF/88 e regulada estritamente pelo art. 38 da LRF:
 
 - **Finalidade Exclusiva:** Suprir insuficiência passageira de caixa ao longo do exercício orçamentário;
@@ -390,6 +383,20 @@ A Antecipação de Receita Orçamentária (ARO) é uma operação de crédito de
 - **Proibições Insuperáveis:**
     - É proibida nova ARO enquanto existir outra da mesma natureza pendente de liquidação integral;
     - É **terminantemente proibida no último ano de mandato** do governante.
+
+### 4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)
+
+```mermaid
+flowchart TD
+    FimMandato["Restrições Fiscais em Final de Mandato"]
+    
+    FimMandato --> Art42["Artigo 42 da LRF (Últimos 2 Quadrimestres - 8 Meses)<br/>• É VEDADO contrair despesa sem disponibilidade de caixa suficiente<br/>• O saldo deve cobrir parcelas a pagar no exercício subsequente<br/>• Infração gera crime contra finanças públicas (Art. 359-C do CP)"]
+    
+    FimMandato --> Art21["Artigo 21, Parágrafo Único (Últimos 180 Dias)<br/>• É NULO DE PLENO DIREITO ato que aumente despesa com pessoal<br/>• Veda reajustes, reestruturações e planos salariais<br/>• Infração gera crime contra finanças públicas (Art. 359-G do CP)"]
+```
+
+1. **Artigo 42 da LRF (Últimos 8 Meses do Mandato):** É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito. O descumprimento sujeita o governante ao crime do art. 359-C do Código Penal (pena de reclusão de 1 a 4 anos).
+2. **Artigo 21, Parágrafo Único da LRF (Últimos 180 Dias):** É nulo de pleno direito o ato que resulte em aumento da despesa com pessoal editado nos cento e oitenta dias anteriores ao final do mandato do titular do respectivo Poder ou órgão. O descumprimento configura o crime do art. 359-G do Código Penal.
 
 ---
 
@@ -415,23 +422,6 @@ A respeito das regras atinentes às Operações de Crédito por Antecipação de
 > - **E)** Incorreta. Operações de crédito bancário de ARO sujeitam-se às taxas de juros contratuais de mercado.
 > 
 > **Gabarito: C**
-
----
-
-
-#### 4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)
-
-```mermaid
-flowchart TD
-    FimMandato["Restrições Fiscais em Final de Mandato"]
-    
-    FimMandato --> Art42["Artigo 42 da LRF (Últimos 2 Quadrimestres - 8 Meses)<br/>• É VEDADO contrair despesa sem disponibilidade de caixa suficiente<br/>• O saldo deve cobrir parcelas a pagar no exercício subsequente<br/>• Infração gera crime contra finanças públicas (Art. 359-C do CP)"]
-    
-    FimMandato --> Art21["Artigo 21, Parágrafo Único (Últimos 180 Dias)<br/>• É NULO DE PLENO DIREITO ato que aumente despesa com pessoal<br/>• Veda reajustes, reestruturações e planos salariais<br/>• Infração gera crime contra finanças públicas (Art. 359-G do CP)"]
-```
-
-1. **Artigo 42 da LRF (Últimos 8 Meses do Mandato):** É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito. O descumprimento sujeita o governante ao crime do art. 359-C do Código Penal (pena de reclusão de 1 a 4 anos).
-2. **Artigo 21, Parágrafo Único da LRF (Últimos 180 Dias):** É nulo de pleno direito o ato que resulte em aumento da despesa com pessoal editado nos cento e oitenta dias anteriores ao final do mandato do titular do respectivo Poder ou órgão. O descumprimento configura o crime do art. 359-G do Código Penal.
 
 ---
 
@@ -485,10 +475,7 @@ Nos termos do art. 42 da Lei de Responsabilidade Fiscal (LC nº 101/2000), aplic
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 

@@ -16,46 +16,42 @@
 4. **Métricas de Continuidade de Negócios:** RPO (*Recovery Point Objective*) e RTO (*Recovery Time Objective*).
 5. **Segurança e Proteção de Dados:** Criptografia em repouso com TDE (*Transparent Data Encryption*); Criptografia em trânsito (TLS/SSL); Mascaramento Dinâmico de Dados (*Dynamic Data Masking - DDM*); Anonimização e Pseudonimização (LGPD); Trilhas de Auditoria (*Auditing*) e Controle de Acesso Baseado em Papéis (RBAC).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Replicação de Dados e Topologias Distribuídas](#1-replicacao-de-dados-e-topologias-distribuidas)
     1. [Replicação Síncrona vs. Assíncrona](#11-replicacao-sincrona-vs-assincrona)
-    2. [Teste 289](#Teste-289)
-    3. [Topologias de Replicação: Leader-Follower vs. Multi-Master](#12-topologias-de-replicacao-leader-follower-vs-multi-master)
-    4. [Replicação Física vs. Replicação Lógica](#13-replicacao-fisica-vs-replicacao-logica)
+    2. [Topologias de Replicação: Leader-Follower vs. Multi-Master](#12-topologias-de-replicacao-leader-follower-vs-multi-master)
+    3. [Replicação Física vs. Replicação Lógica](#13-replicacao-fisica-vs-replicacao-logica)
+    4. [Teste 289](#Teste-289)
     5. [Teste 290](#Teste-290)
 2. [Alta Disponibilidade (HA), Failover e Mitigação de Split-Brain](#2-alta-disponibilidade-ha-failover-e-mitigacao-de-split-brain)
     1. [Switchover vs. Failover: Transições Planejadas e Emergenciais](#21-switchover-vs-failover-transicoes-planejadas-e-emergenciais)
-    2. [Teste 291](#Teste-291)
-    3. [O Fenômeno Crítico do Split-Brain](#22-o-fenomeno-critico-do-split-brain)
-    4. [Estratégias de Quórum Distribuído, Árbitros e STONITH](#23-estrategias-de-quorum-distribuido-arbitros-e-stonith)
-    5. [Teste 292](#Teste-292)
-    6. [Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC](#24-solucoes-de-ha-corporativas-patroni-oracle-data-guard-e-rac)
+    2. [O Fenômeno Crítico do Split-Brain](#22-o-fenomeno-critico-do-split-brain)
+    3. [Estratégias de Quórum Distribuído, Árbitros e STONITH](#23-estrategias-de-quorum-distribuido-arbitros-e-stonith)
+    4. [Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC](#24-solucoes-de-ha-corporativas-patroni-oracle-data-guard-e-rac)
+    5. [Teste 291](#Teste-291)
+    6. [Teste 292](#Teste-292)
 3. [Estratégias de Backup, PITR e Métricas de Continuidade de Negócios](#3-estrategias-de-backup-pitr-e-metricas-de-continuidade-de-negocios)
     1. [Backup Lógico vs. Backup Físico](#31-backup-logico-vs-backup-fisico)
-    2. [Teste 293](#Teste-293)
-    3. [Tipos de Backup: Completo (Full), Diferencial e Incremental](#32-tipos-de-backup-completo-full-diferencial-e-incremental)
-    4. [Teste 294](#Teste-294)
-    5. [Point-in-Time Recovery (PITR)](#33-point-in-time-recovery-pitr)
-    6. [Teste 295](#Teste-295)
-    7. [Métricas Críticas: RPO vs. RTO](#34-metricas-criticas-rpo-vs-rto)
+    2. [Tipos de Backup: Completo (Full), Diferencial e Incremental](#32-tipos-de-backup-completo-full-diferencial-e-incremental)
+    3. [Point-in-Time Recovery (PITR)](#33-point-in-time-recovery-pitr)
+    4. [Métricas Críticas: RPO vs. RTO](#34-metricas-criticas-rpo-vs-rto)
+    5. [Teste 293](#Teste-293)
+    6. [Teste 294](#Teste-294)
+    7. [Teste 295](#Teste-295)
     8. [Teste 296](#Teste-296)
 4. [Segurança, Criptografia, Privacidade e Governança de Dados](#4-seguranca-criptografia-privacidade-e-governanca-de-dados)
     1. [Criptografia em Repouso: Transparent Data Encryption (TDE)](#41-criptografia-em-repouso-transparent-data-encryption-tde)
-    2. [Teste 297](#Teste-297)
-    3. [Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)](#42-mascaramento-dinamico-de-dados-ddm-e-privacidade-lgpd)
-    4. [Teste 298](#Teste-298)
-    5. [Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)](#43-trilhas-de-auditoria-e-controle-de-acesso-baseado-em-papeis-rbac)
+    2. [Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)](#42-mascaramento-dinamico-de-dados-ddm-e-privacidade-lgpd)
+    3. [Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)](#43-trilhas-de-auditoria-e-controle-de-acesso-baseado-em-papeis-rbac)
+    4. [Teste 297](#Teste-297)
+    5. [Teste 298](#Teste-298)
     6. [Teste 299](#Teste-299)
-5. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+5. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Replicação de Dados e Topologias Distribuídas
 
@@ -84,6 +80,29 @@ Cliente ◄──(2. SUCESSO)── Primário
 | **Perda de Dados (RPO)** | **RPO = 0** (Garantia matemática de perda zero de transações confirmadas). | **RPO > 0** (Risco de perda das transações mais recentes caso o primário sofra pane física antes da transmissão). |
 | **Latência e Desempenho** | **Maior latência** por transação de escrita, diretamente dependente do tempo de ida e volta da rede (*Round-Trip Time - RTT*). | **Mínima latência** e máxima vazão de escrita local, idêntica à de um servidor autônomo. |
 | **Impacto de Falhas na Rede** | Se o link de comunicação cair ou a réplica travar, as transações de escrita no nó primário podem ficar suspensas (*blocked*). | O nó primário continua processando escritas normalmente, acumulando logs para entrega posterior. |
+
+### 1.2 Topologias de Replicação: Leader-Follower vs. Multi-Master
+
+1. **Master-Replica / Leader-Follower (Primário-Secundário):**
+    - **Estrutura:** Um único nó designado como **Primário (Líder)** tem autoridade para processar comandos de modificação DML (`INSERT`, `UPDATE`, `DELETE`) e DDL. Múltiplos nós **Secundários (Standbys / Read Replicas)** recebem o fluxo de replicação e atendem exclusivamente a consultas somente-leitura (`SELECT`).
+    - **Vantagens:** Simplicidade de implementação, inexistência de conflitos de escrita concorrente e facilidade de manutenção de integridade referencial.
+    - **Desvantagem:** O nó primário atua como gargalo único para a capacidade total de escrita do sistema.
+
+2. **Multi-Master / Multi-Leader:**
+    - **Estrutura:** Dois ou mais nós no cluster operam simultaneamente como primários, aceitando operações concorrentes de leitura e escrita. As mutações ocorridas em qualquer nó são propagadas bidirecionalmente para os demais parceiros do cluster.
+    - **Desafio Crítico:** **Resolução de Conflitos de Escrita**. Se dois usuários alterarem a mesma coluna da mesma tupla em nós diferentes no mesmo milissegundo, o sistema deve adotar heurísticas determinísticas para desempate, tais como: *Last-Write-Wins (LWW)* baseado em carimbos de tempo sincronizados, tipos de dados livres de conflito (*CRDTs*) ou mediação por regras negociais na camada de aplicação.
+
+### 1.3 Replicação Física vs. Replicação Lógica
+
+* **Replicação Física (*Physical Streaming Replication*):**
+    - Opera no nível mais baixo do subsistema de armazenamento, transmitindo o fluxo contínuo de registros binários dos logs transacionais (**WAL** no PostgreSQL / **Redo Logs** no Oracle).
+    - A réplica secundária aplica esses blocos diretamente, constituindo um **clone exato byte a byte** do nó primário.
+    - *Restrições:* Exige rigorosamente a mesma versão principal do SGBD, mesmo sistema operacional e mesma arquitetura de hardware entre os servidores. Não permite replicar tabelas selecionadas.
+* **Replicação Lógica (*Logical Replication*):**
+    - Utiliza o mecanismo de **decodificação lógica** para interceptar o fluxo transacional e convertê-lo em instruções lógicas discretas de manipulação de dados (eventos de inserção, alteração ou exclusão de tuplas com base na chave primária).
+    - *Flexibilidade:* Permite arquiteturas do tipo *Publish/Subscribe*, replicação granular de tabelas específicas, consolidação de múltiplos bancos departamentais em um *Data Warehouse* central e replicação entre versões heterogêneas do SGBD.
+
+---
 
 ### Teste 289
 **(FCC - TRT / Analista Judiciário - TI - Replicação Síncrona vs. Assíncrona e RPO)**
@@ -114,29 +133,6 @@ A respeito das características operacionais da **Replicação Síncrona**, assi
 
 ---
 
-### 1.2 Topologias de Replicação: Leader-Follower vs. Multi-Master
-
-1. **Master-Replica / Leader-Follower (Primário-Secundário):**
-    - **Estrutura:** Um único nó designado como **Primário (Líder)** tem autoridade para processar comandos de modificação DML (`INSERT`, `UPDATE`, `DELETE`) e DDL. Múltiplos nós **Secundários (Standbys / Read Replicas)** recebem o fluxo de replicação e atendem exclusivamente a consultas somente-leitura (`SELECT`).
-    - **Vantagens:** Simplicidade de implementação, inexistência de conflitos de escrita concorrente e facilidade de manutenção de integridade referencial.
-    - **Desvantagem:** O nó primário atua como gargalo único para a capacidade total de escrita do sistema.
-
-2. **Multi-Master / Multi-Leader:**
-    - **Estrutura:** Dois ou mais nós no cluster operam simultaneamente como primários, aceitando operações concorrentes de leitura e escrita. As mutações ocorridas em qualquer nó são propagadas bidirecionalmente para os demais parceiros do cluster.
-    - **Desafio Crítico:** **Resolução de Conflitos de Escrita**. Se dois usuários alterarem a mesma coluna da mesma tupla em nós diferentes no mesmo milissegundo, o sistema deve adotar heurísticas determinísticas para desempate, tais como: *Last-Write-Wins (LWW)* baseado em carimbos de tempo sincronizados, tipos de dados livres de conflito (*CRDTs*) ou mediação por regras negociais na camada de aplicação.
-
-### 1.3 Replicação Física vs. Replicação Lógica
-
-* **Replicação Física (*Physical Streaming Replication*):**
-    - Opera no nível mais baixo do subsistema de armazenamento, transmitindo o fluxo contínuo de registros binários dos logs transacionais (**WAL** no PostgreSQL / **Redo Logs** no Oracle).
-    - A réplica secundária aplica esses blocos diretamente, constituindo um **clone exato byte a byte** do nó primário.
-    - *Restrições:* Exige rigorosamente a mesma versão principal do SGBD, mesmo sistema operacional e mesma arquitetura de hardware entre os servidores. Não permite replicar tabelas selecionadas.
-* **Replicação Lógica (*Logical Replication*):**
-    - Utiliza o mecanismo de **decodificação lógica** para interceptar o fluxo transacional e convertê-lo em instruções lógicas discretas de manipulação de dados (eventos de inserção, alteração ou exclusão de tuplas com base na chave primária).
-    - *Flexibilidade:* Permite arquiteturas do tipo *Publish/Subscribe*, replicação granular de tabelas específicas, consolidação de múltiplos bancos departamentais em um *Data Warehouse* central e replicação entre versões heterogêneas do SGBD.
-
----
-
 ### Teste 290
 **(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Replicação Física vs. Replicação Lógica)**
 No ecossistema PostgreSQL, administradores de banco de dados podem implementar tanto a Replicação Física por Fluxo (*Physical Streaming Replication*) quanto a Replicação Lógica (*Logical Replication*).
@@ -164,10 +160,7 @@ A respeito das distinções conceituais e operacionais entre essas duas abordage
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Alta Disponibilidade (HA), Failover e Mitigação de Split-Brain
 
@@ -181,35 +174,6 @@ A Alta Disponibilidade (*High Availability - HA*) congrega práticas, redundânc
 * **Failover (Transição Emergencial Não-Planejada):**
     - Evento emergencial disparado de forma automatizada ou sob intervenção humana quando o nó primário colapsa repentinamente (falha de energia, quebra de hardware ou travamento do sistema operacional).
     - Uma das réplicas secundárias é promovida (*promoted*) a nova líder e assume o tráfego de escritas.
-
-### Teste 291
-**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Switchover vs. Failover em Alta Disponibilidade)**
-Em ambientes de missão crítica de tribunais, a gestão de continuidade de serviços de tecnologia da informação diferencia com rigor os procedimentos de **Switchover** e **Failover**.
-
-A respeito dessas duas operações de transição de papéis entre nós de banco de dados, assinale a afirmativa correta:
-
-* **A)** O *Switchover* é uma transição planejada e controlada na qual o nó primário ativo transfere a liderança para uma réplica standby sincronizada sem qualquer perda de dados ($RPO = 0$), sendo utilizado em manutenções programadas de infraestrutura; já o *Failover* é uma promoção emergencial disparada em decorrência da falha não planejada do nó primário.
-* **B)** O *Failover* é realizado exclusivamente em janelas programadas durante os finais de semana e nunca envolve a promoção de réplicas.
-* **C)** O *Switchover* acarreta necessariamente a perda irremediável de 1 hora de transações da base de dados.
-* **D)** O *Failover* exige a aprovação física de três auditores em formulário impresso antes que qualquer software de monitoramento possa atuar.
-* **E)** Ambos os termos são sinônimos perfeitos e referem-se à restauração de backups em fitas magnéticas.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **CORRETA.** Na engenharia de alta disponibilidade (HA):
->   - **Switchover:** É uma transição **planejada e preventiva**. O administrador coloca o nó primário em modo gracioso, garante a descarga de todos os logs para a réplica, inverte as funções (o primário torna-se secundário e a réplica é promovida a primário) com **perda zero de dados ($RPO = 0$)** e mínimo impacto na disponibilidade. É utilizado para aplicação de patches de SO, upgrades de hardware e manutenção periódica.
->   - **Failover:** É uma recuperação **emergencial não-planejada**, provocada por falha catastrófica (queda de energia, falha de hardware, pânico de kernel) no primário. A réplica é promovida para assumir o tráfego. Pode ocorrer de forma automática (via orquestradores como Patroni) ou manual, podendo incorrer em perda de dados caso a replicação fosse assíncrona.
-> - **B)** Incorreta. Failover é uma ação emergencial em resposta a falhas.
-> - **C)** Incorreta. Switchover é gracioso e planejado, garantindo $RPO = 0$.
-> - **D)** Incorreta. Em clusters modernos de alta disponibilidade, o failover pode ser automatizado por consenso distribuído (etcd/Consul).
-> - **E)** Incorreta. São conceitos de transição operacional em tempo de execução, completamente distintos de restauração de fitas.
-> 
-> **Gabarito: A**
-
----
 
 ### 2.2 O Fenômeno Crítico do Split-Brain
 
@@ -254,6 +218,47 @@ Para erradicar a ocorrência de split-brain, os sistemas modernos de HA utilizam
 3. **STONITH (*Shoot The Other Node In The Head* / Fencing):**
     - Mecanismo agressivo de isolamento por hardware. Antes que um nó secundário tome a posse do armazenamento compartilhado e seja promovido a novo primário, ele aciona comandos remotos via interface de gerenciamento de hardware fora de banda (IPMI, iLO, BMC ou tomadas elétricas inteligentes) para **cortar compulsoriamente a energia física do antigo primário**, assegurando que ele jamais voltará a gravar dados simultaneamente.
 
+### 2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC
+
+* **Patroni (com etcd ou Consul):**
+    - Solução de código aberto padrão de fato para gerenciamento de HA em **PostgreSQL**.
+    - Utiliza uma camada de armazenamento de chave-valor distribuída com algoritmo Raft (**etcd**) para armazenar o estado do cluster (*DCS - Distributed Consensus Store*), garantindo eleições transparentes de líder, failover automatizado e proteção matemática estrita contra split-brain.
+* **Oracle Data Guard:**
+    - Solução corporativa de replicação e recuperação de desastres do Oracle Database.
+    - Mantém bancos de dados em espera (*Standby Databases*) sincronizados via transporte e aplicação de *Redo Logs*. Emprega o *Fast-Start Failover (FSFO)* com um processo observador (*Observer*) para automatizar a promoção do standby em falhas.
+* **Oracle RAC (Real Application Clusters):**
+    - Arquitetura de cluster **ativo-ativo com armazenamento compartilhado (*Shared-Disk Architecture*)**.
+    - Múltiplas instâncias Oracle independentes executadas em servidores distintos acessam e modificam simultaneamente a mesma base de dados persistida em uma SAN/Storage unificado via Oracle ASM, sincronizando blocos de dados em memória através do barramento ultrarrápido *Cache Fusion*.
+
+---
+
+### Teste 291
+**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Switchover vs. Failover em Alta Disponibilidade)**
+Em ambientes de missão crítica de tribunais, a gestão de continuidade de serviços de tecnologia da informação diferencia com rigor os procedimentos de **Switchover** e **Failover**.
+
+A respeito dessas duas operações de transição de papéis entre nós de banco de dados, assinale a afirmativa correta:
+
+* **A)** O *Switchover* é uma transição planejada e controlada na qual o nó primário ativo transfere a liderança para uma réplica standby sincronizada sem qualquer perda de dados ($RPO = 0$), sendo utilizado em manutenções programadas de infraestrutura; já o *Failover* é uma promoção emergencial disparada em decorrência da falha não planejada do nó primário.
+* **B)** O *Failover* é realizado exclusivamente em janelas programadas durante os finais de semana e nunca envolve a promoção de réplicas.
+* **C)** O *Switchover* acarreta necessariamente a perda irremediável de 1 hora de transações da base de dados.
+* **D)** O *Failover* exige a aprovação física de três auditores em formulário impresso antes que qualquer software de monitoramento possa atuar.
+* **E)** Ambos os termos são sinônimos perfeitos e referem-se à restauração de backups em fitas magnéticas.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Na engenharia de alta disponibilidade (HA):
+>   - **Switchover:** É uma transição **planejada e preventiva**. O administrador coloca o nó primário em modo gracioso, garante a descarga de todos os logs para a réplica, inverte as funções (o primário torna-se secundário e a réplica é promovida a primário) com **perda zero de dados ($RPO = 0$)** e mínimo impacto na disponibilidade. É utilizado para aplicação de patches de SO, upgrades de hardware e manutenção periódica.
+>   - **Failover:** É uma recuperação **emergencial não-planejada**, provocada por falha catastrófica (queda de energia, falha de hardware, pânico de kernel) no primário. A réplica é promovida para assumir o tráfego. Pode ocorrer de forma automática (via orquestradores como Patroni) ou manual, podendo incorrer em perda de dados caso a replicação fosse assíncrona.
+> - **B)** Incorreta. Failover é uma ação emergencial em resposta a falhas.
+> - **C)** Incorreta. Switchover é gracioso e planejado, garantindo $RPO = 0$.
+> - **D)** Incorreta. Em clusters modernos de alta disponibilidade, o failover pode ser automatizado por consenso distribuído (etcd/Consul).
+> - **E)** Incorreta. São conceitos de transição operacional em tempo de execução, completamente distintos de restauração de fitas.
+> 
+> **Gabarito: A**
+
 ---
 
 ### Teste 292
@@ -281,24 +286,6 @@ Em clusters de alta disponibilidade operando com réplicas distribuídas em data
 
 ---
 
-
-### 2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC
-
-* **Patroni (com etcd ou Consul):**
-    - Solução de código aberto padrão de fato para gerenciamento de HA em **PostgreSQL**.
-    - Utiliza uma camada de armazenamento de chave-valor distribuída com algoritmo Raft (**etcd**) para armazenar o estado do cluster (*DCS - Distributed Consensus Store*), garantindo eleições transparentes de líder, failover automatizado e proteção matemática estrita contra split-brain.
-* **Oracle Data Guard:**
-    - Solução corporativa de replicação e recuperação de desastres do Oracle Database.
-    - Mantém bancos de dados em espera (*Standby Databases*) sincronizados via transporte e aplicação de *Redo Logs*. Emprega o *Fast-Start Failover (FSFO)* com um processo observador (*Observer*) para automatizar a promoção do standby em falhas.
-* **Oracle RAC (Real Application Clusters):**
-    - Arquitetura de cluster **ativo-ativo com armazenamento compartilhado (*Shared-Disk Architecture*)**.
-    - Múltiplas instâncias Oracle independentes executadas em servidores distintos acessam e modificam simultaneamente a mesma base de dados persistida em uma SAN/Storage unificado via Oracle ASM, sincronizando blocos de dados em memória através do barramento ultrarrápido *Cache Fusion*.
-
-
-
----
-
-
 ## 3. Estratégias de Backup, PITR e Métricas de Continuidade de Negócios
 
 O plano de recuperação de desastres (*Disaster Recovery Plan*) constitui a última barreira de proteção do patrimônio informacional do Tribunal de Contas perante ataques de ransomware, corrupção lógica de dados ou danos físicos a datacenters.
@@ -312,6 +299,62 @@ O plano de recuperação de desastres (*Disaster Recovery Plan*) constitui a úl
 * **Backup Físico (`pg_basebackup` / Oracle RMAN):**
     - Realiza a cópia binária dos blocos de dados físicos brutos (*Datafiles*), arquivos de controle (*Control Files*) e cabeçalhos em nível de sistema de arquivos ou raw disk.
     - *Vantagens:* Altíssima velocidade de gravação e restauração, baixíssimo consumo de CPU e suporte integral a rotinas contínuas de Point-in-Time Recovery.
+
+### 3.2 Tipos de Backup: Completo (Full), Diferencial e Incremental
+
+A periodicidade e a combinação de técnicas definem o equilíbrio entre a **janela de execução do backup** e a **complexidade da restauração (*Restore*)**:
+
+```
+Domingo            Segunda             Terça               Quarta              Quinta (Desastre!)
+  [FULL] ─────────► [INC Seg] ────────► [INC Ter] ────────► [INC Qua] ────────► 💥 FALHA!
+    │                  ▲                   ▲                   ▲
+    │                  │                   │                   │
+    └──────────────────┴───────────────────┴───────────────────┴──► Restaurar: Full + Seg + Ter + Qua
+    
+  [FULL] ─────────────────────────────────────────────────────► [DIF Qua] ────► 💥 FALHA!
+    │                                                              ▲
+    └──────────────────────────────────────────────────────────────┴──► Restaurar: Full + DIF Qua
+```
+
+| Tipo de Backup | O que é copiado? | Janela de Backup (Tempo/Espaço) | Procedimento de Restauração (Restore) |
+| :--- | :--- | :--- | :--- |
+| **Completo (*Full*)** | 100% de todos os blocos de dados e estruturas do banco. | Lenta e consome o maior espaço de armazenamento. | Exige **apenas 1 arquivo**: restaura diretamente o arquivo do Full. |
+| **Diferencial (*Differential*)** | Todos os blocos modificados **desde o ÚLTIMO BACKUP COMPLETO (*Full*)**. | Aumenta de tamanho a cada dia sucessivo ao longo da semana. | Exige **apenas 2 arquivos**: `Full (Dom) + Último Diferencial (Qua)`. |
+| **Incremental (*Incremental*)** | Todos os blocos modificados **desde o ÚLTIMO BACKUP DE QUALQUER TIPO** (Full ou Incremental). | Extremamente rápida e consome o menor espaço diário. | Exige **toda a cadeia sequencial ininterrupta**: `Full (Dom) + Inc (Seg) + Inc (Ter) + Inc (Qua)`. |
+
+> ⚠️ **Alerta de Prova (FCC):**
+> A banca FCC explora sistematicamente os seguintes contrastes:
+>
+> 1. O **Backup Incremental** é o mais veloz para *fazer*, porém é o mais demorado e arriscado para *restaurar*, pois se um único arquivo intermediário da cadeia sequencial estiver corrompido, todo o processo a partir daquele dia é inviabilizado.
+> 2. O **Backup Diferencial** simplifica o restore para apenas **dois passos** (`Full + Último Diferencial`), porém consome cada vez mais tempo e espaço de armazenamento à medida que os dias da semana avançam.
+
+### 3.3 Point-in-Time Recovery (PITR)
+
+O **PITR (Recuperação para um Ponto no Tempo)** é a tecnologia que viabiliza reverter o banco de dados para um instante cronológico exato no passado (ex.: 14:35:28), anterior a um erro humano (ex.: `DROP TABLE` ou `DELETE` em lote sem `WHERE`) ou ataque destrutivo.
+
+A execução do PITR articula dois pilares:
+
+1. **Restauração de um Backup Físico de Base (*Base Backup*):** Uma cópia física íntegra anterior ao evento.
+2. **Reaplicação de Logs Transacionais (*Roll-Forward / Replay*):** O motor de recuperação lê sequencialmente os arquivos arquivados de log (**Archived WALs** no PostgreSQL ou **Archived Redo Logs** no Oracle) e reaplica todas as transações cronologicamente até parar **milissegundos antes** do timestamp ou número de alteração (*SCN*) do comando danoso.
+
+### 3.4 Métricas Críticas: RPO vs. RTO
+
+A elaboração de acordos de nível de serviço (SLA) para desastres baseia-se em duas métricas temporais consagradas:
+
+```
+[Último Ponto Válido] ◄────── RPO ──────► [MOMENTO DA FALHA] ◄────── RTO ──────► [SISTEMA RESTAURADO]
+(Backup ou Réplica)                     (Pane / Desastre)                       (Disponível ao Usuário)
+```
+
+1. **RPO (Recovery Point Objective - Objetivo de Ponto de Recuperação):**
+    - Mede a **tolerância máxima aceitável de perda de dados**, expressa em unidades de tempo.
+    - Responde à indagação: *"Até que momento retroativo no tempo a instituição aceita perder transações comitadas?"*.
+    - Exemplo: Uma política com backups diários sem arquivamento contínuo tem $RPO = 24 \text{ horas}$. Para alcançar **$RPO = 0$ (perda zero)**, é mandatório utilizar **replicação síncrona**.
+
+2. **RTO (Recovery Time Objective - Objetivo de Tempo de Recuperação):**
+    - Mede o **tempo máximo aceitável de paralisação** do sistema até que ele retorne à plena operacionalidade.
+    - Responde à indagação: *"Por quanto tempo a instituição aguenta manter o sistema fora do ar até a recuperação?"*.
+    - Exemplo: Um $RTO$ estrito de poucos segundos ou minutos exige infraestruturas de clustering de alta disponibilidade com *failover* automatizado.
 
 ---
 
@@ -346,35 +389,6 @@ Sobre os procedimentos técnicos de restauração (*Restore*) na quinta-feira, �
 
 ---
 
-
-### 3.2 Tipos de Backup: Completo (Full), Diferencial e Incremental
-
-A periodicidade e a combinação de técnicas definem o equilíbrio entre a **janela de execução do backup** e a **complexidade da restauração (*Restore*)**:
-
-```
-Domingo            Segunda             Terça               Quarta              Quinta (Desastre!)
-  [FULL] ─────────► [INC Seg] ────────► [INC Ter] ────────► [INC Qua] ────────► 💥 FALHA!
-    │                  ▲                   ▲                   ▲
-    │                  │                   │                   │
-    └──────────────────┴───────────────────┴───────────────────┴──► Restaurar: Full + Seg + Ter + Qua
-    
-  [FULL] ─────────────────────────────────────────────────────► [DIF Qua] ────► 💥 FALHA!
-    │                                                              ▲
-    └──────────────────────────────────────────────────────────────┴──► Restaurar: Full + DIF Qua
-```
-
-| Tipo de Backup | O que é copiado? | Janela de Backup (Tempo/Espaço) | Procedimento de Restauração (Restore) |
-| :--- | :--- | :--- | :--- |
-| **Completo (*Full*)** | 100% de todos os blocos de dados e estruturas do banco. | Lenta e consome o maior espaço de armazenamento. | Exige **apenas 1 arquivo**: restaura diretamente o arquivo do Full. |
-| **Diferencial (*Differential*)** | Todos os blocos modificados **desde o ÚLTIMO BACKUP COMPLETO (*Full*)**. | Aumenta de tamanho a cada dia sucessivo ao longo da semana. | Exige **apenas 2 arquivos**: `Full (Dom) + Último Diferencial (Qua)`. |
-| **Incremental (*Incremental*)** | Todos os blocos modificados **desde o ÚLTIMO BACKUP DE QUALQUER TIPO** (Full ou Incremental). | Extremamente rápida e consome o menor espaço diário. | Exige **toda a cadeia sequencial ininterrupta**: `Full (Dom) + Inc (Seg) + Inc (Ter) + Inc (Qua)`. |
-
-> ⚠️ **Alerta de Prova (FCC):**
-> A banca FCC explora sistematicamente os seguintes contrastes:
->
-> 1. O **Backup Incremental** é o mais veloz para *fazer*, porém é o mais demorado e arriscado para *restaurar*, pois se um único arquivo intermediário da cadeia sequencial estiver corrompido, todo o processo a partir daquele dia é inviabilizado.
-> 2. O **Backup Diferencial** simplifica o restore para apenas **dois passos** (`Full + Último Diferencial`), porém consome cada vez mais tempo e espaço de armazenamento à medida que os dias da semana avançam.
-
 ### Teste 294
 **(FGV - TRT-16 / Analista Judiciário - TI - Estratégias de Backup: Full, Diferencial e Incremental)**
 Para mitigar o risco de perda de dados e estabelecer janelas eficientes de cópia de segurança em uma instituição pública com 10 Terabytes de dados, a equipe de TI avaliou as estratégias de backup: Completo (*Full*), Diferencial e Incremental.
@@ -407,17 +421,6 @@ A respeito do tempo de execução, consumo de armazenamento e processo de recupe
 
 ---
 
-### 3.3 Point-in-Time Recovery (PITR)
-
-O **PITR (Recuperação para um Ponto no Tempo)** é a tecnologia que viabiliza reverter o banco de dados para um instante cronológico exato no passado (ex.: 14:35:28), anterior a um erro humano (ex.: `DROP TABLE` ou `DELETE` em lote sem `WHERE`) ou ataque destrutivo.
-
-A execução do PITR articula dois pilares:
-
-1. **Restauração de um Backup Físico de Base (*Base Backup*):** Uma cópia física íntegra anterior ao evento.
-2. **Reaplicação de Logs Transacionais (*Roll-Forward / Replay*):** O motor de recuperação lê sequencialmente os arquivos arquivados de log (**Archived WALs** no PostgreSQL ou **Archived Redo Logs** no Oracle) e reaplica todas as transações cronologicamente até parar **milissegundos antes** do timestamp ou número de alteração (*SCN*) do comando danoso.
-
----
-
 ### Teste 295
 **(FCC - DPE-RS - Analista de Tecnologia da Informação)**
 Às 14h35 de uma terça-feira, durante a realização de uma rotina emergencial no banco de dados de produção de um tribunal, um operador executou inadvertidamente o comando `DROP TABLE CADASTRO_SERVIDORES`. A organização adota uma política com Backup Físico Completo (*Full*) todos os domingos às 00h00, backups incrementais diários às 23h00 e mantém o arquivamento contínuo ininterrupto de todos os logs de transação (*WAL / Archived Redo Logs*).
@@ -441,28 +444,6 @@ Para reverter o banco de dados exatamente ao estado em que se encontrava às 14h
 > - **E)** Incorreta. O arquivamento ininterrupto de logs transacionais preserva todas as transações comitadas da terça-feira até o momento da falha.
 > 
 > **Gabarito: B**
-
----
-
-
-### 3.4 Métricas Críticas: RPO vs. RTO
-
-A elaboração de acordos de nível de serviço (SLA) para desastres baseia-se em duas métricas temporais consagradas:
-
-```
-[Último Ponto Válido] ◄────── RPO ──────► [MOMENTO DA FALHA] ◄────── RTO ──────► [SISTEMA RESTAURADO]
-(Backup ou Réplica)                     (Pane / Desastre)                       (Disponível ao Usuário)
-```
-
-1. **RPO (Recovery Point Objective - Objetivo de Ponto de Recuperação):**
-    - Mede a **tolerância máxima aceitável de perda de dados**, expressa em unidades de tempo.
-    - Responde à indagação: *"Até que momento retroativo no tempo a instituição aceita perder transações comitadas?"*.
-    - Exemplo: Uma política com backups diários sem arquivamento contínuo tem $RPO = 24 \text{ horas}$. Para alcançar **$RPO = 0$ (perda zero)**, é mandatório utilizar **replicação síncrona**.
-
-2. **RTO (Recovery Time Objective - Objetivo de Tempo de Recuperação):**
-    - Mede o **tempo máximo aceitável de paralisação** do sistema até que ele retorne à plena operacionalidade.
-    - Responde à indagação: *"Por quanto tempo a instituição aguenta manter o sistema fora do ar até a recuperação?"*.
-    - Exemplo: Um $RTO$ estrito de poucos segundos ou minutos exige infraestruturas de clustering de alta disponibilidade com *failover* automatizado.
 
 ---
 
@@ -496,10 +477,7 @@ A respeito das métricas de resiliência e dos modelos de replicação envolvido
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Segurança, Criptografia, Privacidade e Governança de Dados
 
@@ -512,6 +490,24 @@ O **TDE (*Transparent Data Encryption*)** cifra os arquivos binários em repouso
 - **Transparência Absoluta:** O processo de criptografia e descriptografia ocorre na memória RAM pelo motor do SGBD durante as operações de I/O de blocos. **Aplicações clientes e consultas SQL não exigem nenhuma alteração de código**.
 - **Algoritmos e Chaves:** Utiliza algoritmos robustos da indústria (como AES-256 e 3DES) gerenciados por uma arquitetura hierárquica de chaves (*Master Encryption Key* armazenada externamente em *Oracle Wallet*, HSM ou KMS em nuvem).
 - **Finalidade:** Protege o banco caso os discos físicos, storages ou mídias de backup sejam extraviados ou roubados fisicamente.
+
+### 4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)
+
+O **Dynamic Data Masking (DDM)** intercepta as consultas SQL no momento de sua emissão e ofusca dinamicamente campos sensíveis (CPF, dados bancários, prontuários de saúde):
+
+- **Preservação do Dado Físico:** Os dados gravados fisicamente em disco permanecem **completamente intactos, originais e íntegros**.
+- **Controle por Privilégio:** Um usuário privilegiado (ex.: Auditor Fiscal) executa `SELECT cpf FROM servidor` e visualiza `123.456.789-00`; um atendente ou estagiário sem privilégios emite o mesmo comando e visualiza `***.***.789-**`.
+- **Anonimização vs. Pseudonimização:**
+    - *Anonimização:* Processo irreversível no qual o dado perde a possibilidade de associação com o titular (dados anonimizados não são considerados dados pessoais sob a LGPD).
+    - *Pseudonimização:* O dado só pode ser associado a um titular mediante o uso de informação adicional mantida separadamente em ambiente seguro.
+
+### 4.3 Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)
+
+1. **Role-Based Access Control (RBAC):**
+    - Os privilégios de acesso a tabelas, visões e procedimentos armazenados não são concedidos a usuários individuais, mas sim a **Papéis (*Roles*)** institucionais (ex.: `role_auditor_ti`, `role_consultor_externo`), respeitando o Princípio do Menor Privilégio (*Least Privilege*).
+
+2. **Trilhas de Auditoria (*Database Auditing*):**
+    - Registram de modo irrefutável e imutável os eventos críticos no banco: quem executou (`username`), qual máquina de origem (`ip_address`), quando (`timestamp`) e o comando SQL exato que alterou ou consultou tabelas fiscais confidenciais, viabilizando perícias judiciais e investigações de controle externo.
 
 ---
 
@@ -547,17 +543,6 @@ As duas abordagens de segurança correspondem, respectivamente, a:
 
 ---
 
-
-### 4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)
-
-O **Dynamic Data Masking (DDM)** intercepta as consultas SQL no momento de sua emissão e ofusca dinamicamente campos sensíveis (CPF, dados bancários, prontuários de saúde):
-
-- **Preservação do Dado Físico:** Os dados gravados fisicamente em disco permanecem **completamente intactos, originais e íntegros**.
-- **Controle por Privilégio:** Um usuário privilegiado (ex.: Auditor Fiscal) executa `SELECT cpf FROM servidor` e visualiza `123.456.789-00`; um atendente ou estagiário sem privilégios emite o mesmo comando e visualiza `***.***.789-**`.
-- **Anonimização vs. Pseudonimização:**
-    - *Anonimização:* Processo irreversível no qual o dado perde a possibilidade de associação com o titular (dados anonimizados não são considerados dados pessoais sob a LGPD).
-    - *Pseudonimização:* O dado só pode ser associado a um titular mediante o uso de informação adicional mantida separadamente em ambiente seguro.
-
 ### Teste 298
 **(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Mascaramento Dinâmico de Dados - DDM e LGPD)**
 Com o advento da Lei Geral de Proteção de Dados Pessoais (LGPD), órgãos de auditoria pública implementaram a técnica de Mascaramento Dinâmico de Dados (*Dynamic Data Masking - DDM*) em seus sistemas gerenciadores de banco de dados.
@@ -585,16 +570,6 @@ A respeito dos princípios de funcionamento e dos benefícios de segurança prop
 > - **E)** Incorreta. No mascaramento estático (*Static Data Masking*), cria-se uma cópia duplicada da base com dados alterados (usada para homologação/testes); no dinâmico, os dados não são duplicados.
 > 
 > **Gabarito: B**
-
----
-
-### 4.3 Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)
-
-1. **Role-Based Access Control (RBAC):**
-    - Os privilégios de acesso a tabelas, visões e procedimentos armazenados não são concedidos a usuários individuais, mas sim a **Papéis (*Roles*)** institucionais (ex.: `role_auditor_ti`, `role_consultor_externo`), respeitando o Princípio do Menor Privilégio (*Least Privilege*).
-
-2. **Trilhas de Auditoria (*Database Auditing*):**
-    - Registram de modo irrefutável e imutável os eventos críticos no banco: quem executou (`username`), qual máquina de origem (`ip_address`), quando (`timestamp`) e o comando SQL exato que alterou ou consultou tabelas fiscais confidenciais, viabilizando perícias judiciais e investigações de controle externo.
 
 ---
 
@@ -626,10 +601,7 @@ Em relação às boas práticas de governança e implementação desses controle
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

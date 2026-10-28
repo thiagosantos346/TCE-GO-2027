@@ -31,37 +31,30 @@
     - Teoria do Estabelecimento de Metas de Edwin Locke (metas específicas e desafiadoras com *feedback*);
     - Teoria do Reforço de B.F. Skinner (reforço positivo, negativo, punição e extinção).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [Fundamentos do Comportamento Organizacional (CO)](#1-fundamentos-do-comportamento-organizacional-co)
-    2. [Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos](#2-personalidade-o-modelo-dos-cinco-grandes-fatores-big-five-e-tracos-especificos)
-    3. [Teste 400](#Teste-400)
-    4. [Teste 401](#Teste-401)
-    5. [Atitudes, Dissonância Cognitiva e Comprometimento Organizacional](#3-atitudes-dissonancia-cognitiva-e-comprometimento-organizacional)
-    6. [Teste 402](#Teste-402)
-    7. [Teste 403](#Teste-403)
-    8. [Teorias Motivacionais de Conteúdo (Maslow, Herzberg, Alderfer e McClelland)](#4-teorias-motivacionais-de-conteudo-maslow-herzberg-alderfer-e-mcclelland)
-    9. [Teste 404](#Teste-404)
-    10. [Teste 405](#Teste-405)
-    11. [Teorias Motivacionais de Processo (Vroom, Adams, Locke e Skinner)](#5-teorias-motivacionais-de-processo-vroom-adams-locke-e-skinner)
-    12. [Teste 406](#Teste-406)
-    13. [Teste 407](#Teste-407)
-    14. [Teste 408](#Teste-408)
-    15. [Teste 409](#Teste-409)
-    16. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+1. [Fundamentos do Comportamento Organizacional (CO)](#1-fundamentos-do-comportamento-organizacional-co)
+2. [Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos](#2-personalidade-o-modelo-dos-cinco-grandes-fatores-big-five-e-tracos-especificos)
+    1. [Teste 400](#Teste-400)
+    2. [Teste 401](#Teste-401)
+3. [Atitudes, Dissonância Cognitiva e Comprometimento Organizacional](#3-atitudes-dissonancia-cognitiva-e-comprometimento-organizacional)
+    1. [Teste 402](#Teste-402)
+    2. [Teste 403](#Teste-403)
+4. [Teorias Motivacionais de Conteúdo (Maslow, Herzberg, Alderfer e McClelland)](#4-teorias-motivacionais-de-conteudo-maslow-herzberg-alderfer-e-mcclelland)
+    1. [Teste 404](#Teste-404)
+    2. [Teste 405](#Teste-405)
+5. [Teorias Motivacionais de Processo (Vroom, Adams, Locke e Skinner)](#5-teorias-motivacionais-de-processo-vroom-adams-locke-e-skinner)
+    1. [Teste 406](#Teste-406)
+    2. [Teste 407](#Teste-407)
+    3. [Teste 408](#Teste-408)
+    4. [Teste 409](#Teste-409)
+6. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. Fundamentos do Comportamento Organizacional (CO)
+## 1. Fundamentos do Comportamento Organizacional (CO)
 
 O Comportamento Organizacional (CO) é um campo interdisciplinar que investiga o impacto que indivíduos, grupos e a estrutura exercem sobre o comportamento dentro das instituições, com a finalidade prática de aprimorar a eficácia, a produtividade e a qualidade de vida no trabalho.
 
@@ -81,7 +74,9 @@ flowchart TD
 
 ---
 
-### 2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos
+---
+
+## 2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos
 
 A personalidade é a constelação dinâmica de traços psicológicos que determinam a forma única como cada indivíduo se adapta e reage aos ambientes em que vive. É condicionada tanto pela **hereditariedade** (carga genética) quanto pelo **ambiente** (cultura, educação, experiências de vida).
 
@@ -132,8 +127,6 @@ No modelo dos Cinco Grandes Fatores de Personalidade (*Big Five*), amplamente ad
 
 ---
 
-
-
 ### Teste 401
 **(FCC - Adaptada / Analista de Gestão Pública)**
 No estudo da personalidade humana no Comportamento Organizacional, o **Modelo dos Cinco Grandes Fatores (Big Five)** é amplamente aceito pela literatura científica contemporânea.
@@ -158,8 +151,7 @@ O fator do Big Five que descreve a tendência do indivíduo de ser responsável,
 
 ---
 
-
-### 3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional
+## 3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional
 
 Uma **atitude** é um estado mental de prontidão organizado pela experiência, manifestado em juízos avaliativos (favoráveis ou desfavoráveis) sobre objetos, pessoas ou eventos. Estrutura-se em três componentes indissociáveis:
 
@@ -209,8 +201,6 @@ A respeito das dimensões do comprometimento organizacional formuladas por John 
 
 ---
 
-
-
 ### Teste 403
 **(FCC - Adaptada / Auditor de Controle Externo)**
 Segundo a Teoria da Dissonância Cognitiva formulada por Leon Festinger, quando um indivíduo percebe uma contradição ou inconsistência desconfortável entre duas atitudes ou entre sua atitude e seu comportamento real:
@@ -233,8 +223,7 @@ Segundo a Teoria da Dissonância Cognitiva formulada por Leon Festinger, quando 
 
 ---
 
-
-### 4. Teorias Motivacionais de Conteúdo (Maslow, Herzberg, Alderfer e McClelland)
+## 4. Teorias Motivacionais de Conteúdo (Maslow, Herzberg, Alderfer e McClelland)
 
 As **teorias de conteúdo** buscam identificar e explicar *o que* motiva as pessoas, mapeando as necessidades internas que orientam a conduta humana:
 
@@ -343,8 +332,7 @@ Segundo Herzberg, os **Fatores Higiênicos** (como salário, condições física
 
 ---
 
-
-### 5. Teorias Motivacionais de Processo (Vroom, Adams, Locke e Skinner)
+## 5. Teorias Motivacionais de Processo (Vroom, Adams, Locke e Skinner)
 
 As **teorias de processo** investigam a dinâmica cognitiva e os mecanismos mentais por meio dos quais o comportamento humano é estimulado, direcionado e mantido no tempo:
 
@@ -504,8 +492,7 @@ Quando o servidor público percebe uma situação de **iniquidade negativa** (se
 
 ---
 
-
-### 6. Fontes Oficiais e Referências Bibliográficas
+## 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Constituição Federal de 1988 - Arts. 37 a 41 (Regime dos Servidores e Princípios da Administração)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Direitos, estabilidade e regime de responsabilidade dos servidores públicos.
 * [Decreto Federal nº 1.171/1994 (Código de Ética Profissional do Servidor Público Civil)](https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm) - Padrões éticos, atitudes e valores esperados no exercício da função pública.

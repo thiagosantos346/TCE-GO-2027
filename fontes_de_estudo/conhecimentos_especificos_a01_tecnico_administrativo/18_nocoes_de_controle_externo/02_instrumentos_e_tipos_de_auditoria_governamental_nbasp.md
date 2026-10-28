@@ -26,38 +26,36 @@
 - Postura profissional e conduta ética do auditor de controle externo: independência, integridade, ceticismo profissional, julgamento profissional, devido zelo e sigilo funcional;
 - Matrizes metodológicas: Matriz de Planejamento e Matriz de Achados de Auditoria.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Os Cinco Instrumentos de Fiscalização do Controle Externo](#1-os-cinco-instrumentos-de-fiscalizacao-do-controle-externo)
-    2. [Teste 176](#Teste-176)
-    3. [Teste 177](#Teste-177)
-    4. [Tipologia das Auditorias Governamentais (Normas NBASP / INTOSAI)](#2-tipologia-das-auditorias-governamentais-normas-nbasp-intosai)
-    5. [Teste 178](#Teste-178)
-    6. [Teste 179](#Teste-179)
-    7. [Teste 180](#Teste-180)
-    8. [Teste 181](#Teste-181)
-    9. [Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria](#3-estrutura-normativa-nbasp-intosai-e-as-tres-partes-da-auditoria)
-    10. [Teste 182](#Teste-182)
-    11. [Postura e Conduta Profissional do Auditor (NBASP 100)](#4-postura-e-conduta-profissional-do-auditor-nbasp-100)
-    12. [Teste 183](#Teste-183)
-    13. [Teste 184](#Teste-184)
-    14. [Matrizes Metodológicas de Trabalho: Planejamento e Achados](#5-matrizes-metodologicas-de-trabalho-planejamento-e-achados)
-    15. [Teste 185](#Teste-185)
-    16. [Teste 186](#Teste-186)
-2. [Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
+1. [Os Cinco Instrumentos de Fiscalização do Controle Externo](#1-os-cinco-instrumentos-de-fiscalizacao-do-controle-externo)
+    1. [Conceito e Finalidade Prática de Cada Instrumento](#11-conceito-e-finalidade-pratica-de-cada-instrumento)
+    2. [Diferença Prática entre Inspeção e Monitoramento](#12-diferenca-pratica-entre-inspecao-e-monitoramento)
+    3. [Teste 176](#Teste-176)
+    4. [Teste 177](#Teste-177)
+2. [Tipologia das Auditorias Governamentais (Normas NBASP / INTOSAI)](#2-tipologia-das-auditorias-governamentais-normas-nbasp-intosai)
+    1. [Auditoria de Conformidade (NBASP 400)](#21-auditoria-de-conformidade-nbasp-400)
+    2. [Auditoria Operacional ou de Desempenho e os 4 Es (NBASP 300)](#22-auditoria-operacional-ou-de-desempenho-e-os-4-es-nbasp-300)
+    3. [Auditoria Financeira e os Tipos de Opinião do Auditor (NBASP 200)](#23-auditoria-financeira-e-os-tipos-de-opiniao-do-auditor-nbasp-200)
+    4. [Teste 178](#Teste-178)
+    5. [Teste 179](#Teste-179)
+    6. [Teste 180](#Teste-180)
+    7. [Teste 181](#Teste-181)
+3. [Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria](#3-estrutura-normativa-nbasp-intosai-e-as-tres-partes-da-auditoria)
+    1. [Teste 182](#Teste-182)
+4. [Postura e Conduta Profissional do Auditor (NBASP 100)](#4-postura-e-conduta-profissional-do-auditor-nbasp-100)
+    1. [Teste 183](#Teste-183)
+    2. [Teste 184](#Teste-184)
+5. [Matrizes Metodológicas de Trabalho: Planejamento e Achados](#5-matrizes-metodologicas-de-trabalho-planejamento-e-achados)
+    1. [Teste 185](#Teste-185)
+    2. [Teste 186](#Teste-186)
+6. [🌐 Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
 
 ---
 
-
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Os Cinco Instrumentos de Fiscalização do Controle Externo
+## 1. Os Cinco Instrumentos de Fiscalização do Controle Externo
 
 A Lei Orgânica do Tribunal de Contas do Estado de Goiás (Lei Estadual nº 16.168/2007) e o seu Regimento Interno estruturam a atuação fiscalizatória externa em **cinco instrumentos operacionais fundamentais**:
 
@@ -72,7 +70,7 @@ flowchart TD
     end
 ```
 
-#### 1.1 Conceito e Finalidade Prática de Cada Instrumento
+### 1.1 Conceito e Finalidade Prática de Cada Instrumento
 
 | Instrumento | Conceito & Finalidade | Quando é Utilizado na Prática? |
 | :--- | :--- | :--- |
@@ -82,9 +80,14 @@ flowchart TD
 | **Acompanhamento** | Utilizado para fiscalizar tempestivamente a gestão, de forma **concomitante e periódica**, ao longo de um determinado período. | Grandes obras públicas em execução, repasses contínuos e editais de licitação em andamento. |
 | **Monitoramento** | Destinado especificamente a verificar o **cumprimento das deliberações** (determinações e recomendações) expedidas pelo Tribunal e os resultados gerados. | Etapa pós-auditoria; fiscaliza se o órgão cumpriu os prazos e providências do acórdão. |
 
+### 1.2 Diferença Prática entre Inspeção e Monitoramento
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A banca FCC frequentemente permuta as finalidades da **Inspeção** e do **Monitoramento**:  
+>
+> - Se o enunciado mencionar *"apurar fatos noticiados em representação de vereador ou denúncia popular urgente"*, o instrumento próprio e adequado é a **INSPEÇÃO**!  
+> - Se o enunciado descrever *"verificar se a Secretaria de Educação adotou as providências e determinações exaradas em acórdão anterior do Tribunal"*, o instrumento correto é o **MONITORAMENTO**!
+
 ---
-
-
 
 ### Teste 176
 **(FCC - Auditor de Controle Externo / TCE-GO)**
@@ -138,17 +141,7 @@ De acordo com as Normas Brasileiras de Auditoria do Setor Público (NBASP 100 e 
 
 ---
 
-
-#### 1.2 Diferença Prática entre Inspeção e Monitoramento
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A banca FCC frequentemente permuta as finalidades da **Inspeção** e do **Monitoramento**:  
->
-> - Se o enunciado mencionar *"apurar fatos noticiados em representação de vereador ou denúncia popular urgente"*, o instrumento próprio e adequado é a **INSPEÇÃO**!  
-> - Se o enunciado descrever *"verificar se a Secretaria de Educação adotou as providências e determinações exaradas em acórdão anterior do Tribunal"*, o instrumento correto é o **MONITORAMENTO**!
-
----
-
-### 2. Tipologia das Auditorias Governamentais (Normas NBASP / INTOSAI)
+## 2. Tipologia das Auditorias Governamentais (Normas NBASP / INTOSAI)
 
 Conforme a **NBASP 100** (Princípios Fundamentais de Auditoria do Setor Público), emitida pelo Instituto Rui Barbosa (IRB) em convergência com as normas da INTOSAI, existem três tipos clássicos de auditoria governamental:
 
@@ -164,12 +157,12 @@ flowchart TD
     Fin --> F1["Foco: Demonstrações Contábeis<br/>Critério: Normas NBC TSP/MCASP<br/>Resultado: Opinião do Auditor"]
 ```
 
-#### 2.1 Auditoria de Conformidade (NBASP 400)
+### 2.1 Auditoria de Conformidade (NBASP 400)
 - **Foco:** Avaliar se as atividades, transações financeiras e atos administrativos cumprem a legislação e a regulamentação aplicável.
 - **Critérios:** Normas jurídicas positivadas (Lei nº 14.133/2021, LRF, Constituição, decretos e termos contratuais).
 - **Desfecho:** Identificação de irregularidades, infrações à norma legal e danos ao erário, culminando em relatórios com propostas de imputação de débito e cominação de multas.
 
-#### 2.2 Auditoria Operacional ou de Desempenho e os 4 Es (NBASP 300)
+### 2.2 Auditoria Operacional ou de Desempenho e os 4 Es (NBASP 300)
 - **Foco:** Avaliar o desempenho de programas, projetos e órgãos públicos sob a perspectiva dos **4 Es da Administração Pública**:
     1. **Economicidade:** Minimização dos custos dos recursos empregados na realização de uma atividade, sem comprometer a qualidade (*comprar bem e pelo preço justo*).
     2. **Eficiência:** Relação técnica entre os insumos empregados (*inputs*) e os produtos, obras ou serviços gerados (*outputs*) - maximizar entregas com o menor dispêndio de recursos.
@@ -184,9 +177,27 @@ flowchart TD
 > - Se, apesar de vacinadas, a taxa de internações pela doença permaneceu alta devido à perda de refrigeração do lote de vacinas, o programa **NÃO FOI EFETIVO**!  
 > - A eficácia afere a entrega física da meta; a efetividade afere a alteração concreta da realidade socioeconômica.
 
+### 2.3 Auditoria Financeira e os Tipos de Opinião do Auditor (NBASP 200)
+A auditoria financeira destina-se a emitir uma **opinião independente** sobre se as demonstrações contábeis e financeiras refletem fidedignamente a posição patrimonial e orçamentária do órgão público.
+
+```mermaid
+flowchart TD
+    Opiniao["Tipos de Opinião do Auditor (NBASP 200)"]
+    Opiniao --> NaoMod["Opinião Sem Ressalvas<br/>(Opinião Não Modificada)"]
+    Opiniao --> Mod["Opinião Modificada"]
+    Mod --> Ressalva["1. Com Ressalvas<br/>(Distorções Relevantes, mas NÃO Generalizadas)"]
+    Mod --> Adversa["2. Adversa<br/>(Distorções Relevantes E Generalizadas)"]
+    Mod --> Abstencao["3. Abstenção de Opinião<br/>(Limitação de Escopo Relevante E Generalizada)"]
+```
+
+| Tipo de Opinião | Relevância da Distorção / Incerteza | A Distorção é Generalizada (*Pervasive*)? | Significado Prático |
+| :--- | :--- | :--- | :--- |
+| **Opinião Sem Ressalvas** | Não há distorções relevantes | Não | Demonstrações contábeis estão adequadas e fidedignas. |
+| **Opinião Com Ressalvas** | Relevante | **NÃO** | Há distorções específicas relevantes, mas o conjunto das demonstrações ainda é confiável. |
+| **Opinião Adversa** | Relevante | **SIM** | As demonstrações contábeis contêm erros tão graves e disseminados que não merecem fé pública. |
+| **Abstenção de Opinião** | Relevante (Incerteza) | **SIM** | O auditor não conseguiu obter evidências suficientes por sonegação de dados ou extravio total de registros. |
+
 ---
-
-
 
 ### Teste 178
 **(FGV - Auditor de Controle Externo / TCE-SC)**
@@ -242,29 +253,6 @@ Sob a ótica dos princípios da auditoria de desempenho público consagrados na 
 
 ---
 
-
-#### 2.3 Auditoria Financeira e os Tipos de Opinião do Auditor (NBASP 200)
-A auditoria financeira destina-se a emitir uma **opinião independente** sobre se as demonstrações contábeis e financeiras refletem fidedignamente a posição patrimonial e orçamentária do órgão público.
-
-```mermaid
-flowchart TD
-    Opiniao["Tipos de Opinião do Auditor (NBASP 200)"]
-    Opiniao --> NaoMod["Opinião Sem Ressalvas<br/>(Opinião Não Modificada)"]
-    Opiniao --> Mod["Opinião Modificada"]
-    Mod --> Ressalva["1. Com Ressalvas<br/>(Distorções Relevantes, mas NÃO Generalizadas)"]
-    Mod --> Adversa["2. Adversa<br/>(Distorções Relevantes E Generalizadas)"]
-    Mod --> Abstencao["3. Abstenção de Opinião<br/>(Limitação de Escopo Relevante E Generalizada)"]
-```
-
-| Tipo de Opinião | Relevância da Distorção / Incerteza | A Distorção é Generalizada (*Pervasive*)? | Significado Prático |
-| :--- | :--- | :--- | :--- |
-| **Opinião Sem Ressalvas** | Não há distorções relevantes | Não | Demonstrações contábeis estão adequadas e fidedignas. |
-| **Opinião Com Ressalvas** | Relevante | **NÃO** | Há distorções específicas relevantes, mas o conjunto das demonstrações ainda é confiável. |
-| **Opinião Adversa** | Relevante | **SIM** | As demonstrações contábeis contêm erros tão graves e disseminados que não merecem fé pública. |
-| **Abstenção de Opinião** | Relevante (Incerteza) | **SIM** | O auditor não conseguiu obter evidências suficientes por sonegação de dados ou extravio total de registros. |
-
----
-
 ### Teste 180
 **(FCC - Adaptada / Analista de Controle Externo - Auditoria)**
 Durante os trabalhos de campo de uma auditoria financeira realizada pelo Tribunal de Contas no balanço geral consolidado de uma grande autarquia estadual, os auditores detectaram que os registros patrimoniais e os estoques de medicamentos continham erros contábeis materiais gravíssimos e omissões generalizadas em praticamente todas as contas do ativo circulante e não circulante. Constatou-se que as demonstrações não representavam a posição financeira real da entidade.
@@ -291,8 +279,6 @@ De acordo com as normas da NBASP 200 (Auditoria Financeira), a equipe de auditor
 > **Gabarito: C**
 
 ---
-
-
 
 ### Teste 181
 **(FCC - Analista de Controle Externo / TCE-GO)**
@@ -321,9 +307,7 @@ Assinale a afirmativa que apresenta a correta caracterização da 'auditoria fin
 
 ---
 
-
-
-### 3. Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria
+## 3. Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria
 
 A INTOSAI (*International Organization of Supreme Audit Institutions*) e o Instituto Rui Barbosa (IRB) estruturam as normas em níveis hierárquicos:
 
@@ -336,8 +320,6 @@ A INTOSAI (*International Organization of Supreme Audit Institutions*) e o Insti
     3. Os **Usuários Previstos:** A sociedade civil (cidadãos) e os órgãos de representação política (Poder Legislativo).
 
 ---
-
-
 
 ### Teste 182
 **(FGV - Auditor de Controle Externo / TCE-SC)**
@@ -366,7 +348,7 @@ Essas três partes são:
 
 ---
 
-### 4. Postura e Conduta Profissional do Auditor (NBASP 100)
+## 4. Postura e Conduta Profissional do Auditor (NBASP 100)
 
 1. **Ceticismo Profissional:** Atitude mental que inclui postura permanente de questionamento, alerta a condições que possam indicar possíveis distorções por erro ou fraude, e avaliação crítica da confiabilidade dos documentos apresentados pelo gestor.
 2. **Julgamento Profissional:** Aplicação do conhecimento técnico, treinamento prático e discernimento ético do auditor na interpretação das normas e ponderação das evidências colhidas.
@@ -402,8 +384,6 @@ Essa postura profissional exigida pelas normas NBASP 100 denomina-se:
 
 ---
 
-
-
 ### Teste 184
 **(FCC - Técnico de Controle Externo / TCE-GO)**
 De acordo com os princípios da NBASP 100 e do Código de Ética das Entidades Fiscalizadoras Superiores (NBASP 30), o auditor do Tribunal de Contas deve pautar sua conduta profissional pelo ceticismo profissional e pelo julgamento profissional.
@@ -431,9 +411,7 @@ Sobre esses atributos, assinale a afirmativa correta.
 
 ---
 
-
-
-### 5. Matrizes Metodológicas de Trabalho: Planejamento e Achados
+## 5. Matrizes Metodológicas de Trabalho: Planejamento e Achados
 
 A moderna auditoria governamental dos Tribunais de Contas opera com base em duas matrizes estruturantes:
 
@@ -473,10 +451,6 @@ Na metodologia de auditoria governamental aplicada pelos Tribunais de Contas, a 
 
 ---
 
-
-
-
-
 ### Teste 186
 **(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 A Declaração de Lima, adotada no IX Congresso da Organização Internacional das Entidades Fiscalizadoras Superiores (INTOSAI) em 1977, é reconhecida mundialmente como a 'Carta Magna da Auditoria Governamental'.
@@ -502,10 +476,7 @@ A respeito dos postulados consagrados pela Declaração de Lima, assinale a afir
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 

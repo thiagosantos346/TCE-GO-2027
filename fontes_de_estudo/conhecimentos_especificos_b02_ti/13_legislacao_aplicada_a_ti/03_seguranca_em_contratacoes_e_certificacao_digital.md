@@ -17,51 +17,42 @@
 - Lei Federal nº 14.063/2020 (Assinaturas Eletrônicas em Interações com Entes Públicos)
 - Aplicação prática da certificação digital em sistemas informatizados de processos e auditoria eletrônica
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada & Fundamentos de Governança e Criptografia](#teoria-aprofundada-fundamentos-de-governanca-e-criptografia)
-2. [Requisitos de Segurança em Contratações de TIC no Setor Público](#1-requisitos-de-seguranca-em-contratacoes-de-tic-no-setor-publico)
-    1. [Fases do Planejamento e Segurança da Informação](#11-fases-do-planejamento-e-seguranca-da-informacao)
-    2. [Teste 535](#Teste-535)
-    3. [Cláusulas Contratuais Críticas de Segurança](#12-clausulas-contratuais-criticas-de-seguranca)
-    4. [Teste 536](#Teste-536)
-3. [O Marco Legal da Certificação Digital e a ICP-Brasil (MP nº 2.200-2/2001)](#2-o-marco-legal-da-certificacao-digital-e-a-icp-brasil-mp-no-2200-22001)
-    1. [Estrutura e Atores da ICP-Brasil](#21-estrutura-e-atores-da-icp-brasil)
-    2. [Teste 537](#Teste-537)
-    3. [Tipos de Certificados Digitais ICP-Brasil (A1 vs. A3)](#22-tipos-de-certificados-digitais-icp-brasil-a1-vs-a3)
-    4. [Teste 538](#Teste-538)
-    5. [Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP](#23-presuncao-legal-de-veracidade-e-validade-de-assinaturas-nao-icp)
-    6. [Teste 539](#Teste-539)
-4. [Classificação Tripartite das Assinaturas Eletrônicas (Lei nº 14.063/2020)](#3-classificacao-tripartite-das-assinaturas-eletronicas-lei-no-140632020)
-    1. [Assinaturas Simples, Avançadas e Qualificadas](#31-assinaturas-simples-avancadas-e-qualificadas)
-    2. [Teste 540](#Teste-540)
-    3. [Teste 541](#Teste-541)
-    4. [Princípio da Proporcionalidade e Hipóteses de Uso](#32-principio-da-proporcionalidade-e-hipoteses-de-uso)
-    5. [Teste 542](#Teste-542)
-5. [Aplicação Prática da Certificação Digital na Auditoria e Processo Eletrônico](#4-aplicacao-pratica-da-certificacao-digital-na-auditoria-e-processo-eletronico)
+1. [Requisitos de Segurança em Contratações de TIC no Setor Público](#1-requisitos-de-seguranca-em-contratacoes-de-tic-no-setor-publico)
+1. [Fases do Planejamento e Segurança da Informação](#1-1-fases-do-planejamento-e-seguranca-da-informacao)
+    1. [Teste 535](#Teste-535)
+1. [Cláusulas Contratuais Críticas de Segurança](#1-2-clausulas-contratuais-criticas-de-seguranca)
+    1. [Teste 536](#Teste-536)
+2. [O Marco Legal da Certificação Digital e a ICP-Brasil (MP nº 2.200-2/2001)](#2-o-marco-legal-da-certificacao-digital-e-a-icp-brasil-mp-no-2200-22001)
+2. [Estrutura e Atores da ICP-Brasil](#2-1-estrutura-e-atores-da-icp-brasil)
+    1. [Teste 537](#Teste-537)
+2. [Tipos de Certificados Digitais ICP-Brasil (A1 vs. A3)](#2-2-tipos-de-certificados-digitais-icp-brasil-a1-vs-a3)
+    1. [Teste 538](#Teste-538)
+2. [Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP](#2-3-presuncao-legal-de-veracidade-e-validade-de-assinaturas-nao-icp)
+    1. [Teste 539](#Teste-539)
+3. [Classificação Tripartite das Assinaturas Eletrônicas (Lei nº 14.063/2020)](#3-classificacao-tripartite-das-assinaturas-eletronicas-lei-no-140632020)
+3. [Assinaturas Simples, Avançadas e Qualificadas](#3-1-assinaturas-simples-avancadas-e-qualificadas)
+    1. [Teste 540](#Teste-540)
+    2. [Teste 541](#Teste-541)
+3. [Princípio da Proporcionalidade e Hipóteses de Uso](#3-2-principio-da-proporcionalidade-e-hipoteses-de-uso)
+    1. [Teste 542](#Teste-542)
+4. [Aplicação Prática da Certificação Digital na Auditoria e Processo Eletrônico](#4-aplicacao-pratica-da-certificacao-digital-na-auditoria-e-processo-eletronico)
     1. [Teste 543](#Teste-543)
     2. [Teste 544](#Teste-544)
-6. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
-
-## 📖 Teoria Aprofundada & Fundamentos de Governança e Criptografia
-
-
----
-
 
 ## 1. Requisitos de Segurança em Contratações de TIC no Setor Público
 
 A contratação de soluções de Tecnologia da Informação e Comunicação (TIC) na Administração Pública rege-se pela Lei nº 14.133/2021 (Lei de Licitações e Contratos Administrativos), em conjunto com normativos de governança digital (como a Instrução Normativa SGD/MGI nº 94/2022) e a jurisprudência consolidada do Tribunal de Contas da União (TCU) e dos Tribunais de Contas Estaduais.
 
-### 1.1 Fases do Planejamento e Segurança da Informação
+---
+
+## 1.1 Fases do Planejamento e Segurança da Informação
 
 A segurança da informação não pode ser um apêndice acrescentado após a assinatura do contrato; ela deve ser arquitetada desde o início do planejamento da contratação:
 
@@ -108,10 +99,9 @@ flowchart TD
 > 
 > **Gabarito: B**
 
-
 ---
 
-### 1.2 Cláusulas Contratuais Críticas de Segurança
+## 1.2 Cláusulas Contratuais Críticas de Segurança
 
 | Cláusula Contratual | Justificativa Técnica e Jurídica | Regra de Fiscalização e Controle Externo |
 |---|---|---|
@@ -160,10 +150,7 @@ IV. Ao término da vigência contratual, a contratada fica obrigada a realizar a
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. O Marco Legal da Certificação Digital e a ICP-Brasil (MP nº 2.200-2/2001)
 
@@ -179,7 +166,9 @@ flowchart TD
     AR --> TITULAR["Titular do Certificado Digital<br/>(Pessoa Física - e-CPF / Pessoa Jurídica - e-CNPJ)"]
 ```
 
-### 2.1 Estrutura e Atores da ICP-Brasil
+---
+
+## 2.1 Estrutura e Atores da ICP-Brasil
 
 1. **Comitê Gestor da ICP-Brasil:** Colegiado interministerial vinculado à Casa Civil responsável por formular políticas públicas e normativos técnicos da certificação digital no país.
 2. **Autoridade Certificadora Raiz (AC-Raiz):** Operada privativamente pelo **Instituto Nacional de Tecnologia da Informação (ITI)**, autarquia federal. É a autoridade executiva máxima que emite os certificados das ACs de primeiro nível e credencia/fiscaliza as entidades da infraestrutura.
@@ -212,10 +201,9 @@ flowchart TD
 > 
 > **Gabarito: A**
 
-
 ---
 
-### 2.2 Tipos de Certificados Digitais ICP-Brasil (A1 vs. A3)
+## 2.2 Tipos de Certificados Digitais ICP-Brasil (A1 vs. A3)
 
 - **Certificados Tipo A (Assinatura Digital):** Destinados à comprovação de autoria, integridade e não-repúdio.
     - **A1:** Chave privada gerada por software e armazenada diretamente no computador ou dispositivo móvel (arquivo protegido por senha, padrão PKCS#12 / extensão `.pfx` ou `.p12`). Validade máxima de **1 ano**.
@@ -250,9 +238,7 @@ flowchart TD
 
 ---
 
-
-
-### 2.3 Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP
+## 2.3 Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP
 
 - **Art. 10, § 1º (Regime ICP-Brasil):** Os documentos eletrônicos assinados digitalmente com certificados emitidos no âmbito da ICP-Brasil presumem-se verdadeiros em relação aos signatários na forma do art. 219 do Código Civil. Há **presunção legal relativa (*juris tantum*) de autoria e integridade**.
 - **Art. 10, § 2º (Regime Não-ICP-Brasil):** O dispositivo assegura a validade de **outros meios de comprovação da autoria e integridade** de documentos em forma eletrônica, inclusive os que utilizem certificados não emitidos pela ICP-Brasil, **desde que admitido pelas partes como válido ou aceito pela pessoa a quem for oposto o documento**.
@@ -285,11 +271,7 @@ flowchart TD
 > 
 > **Gabarito: A**
 
-
-
-
 ---
-
 
 ## 3. Classificação Tripartite das Assinaturas Eletrônicas (Lei nº 14.063/2020)
 
@@ -309,7 +291,9 @@ flowchart TD
     AQ -->|"Nível Alto / Crítico de Risco"| USO_Q["Atos de Chefes de Poder, Notas Fiscais Eletrônicas, Transferência de Imóveis (ICP-Brasil)"]
 ```
 
-### 3.1 Assinaturas Simples, Avançadas e Qualificadas
+---
+
+## 3.1 Assinaturas Simples, Avançadas e Qualificadas
 
 | Modalidade de Assinatura | Requisitos Técnicos Legais | Exemplos Práticos no Setor Público | Hipóteses de Uso Típicas e Vedações |
 |---|---|---|---|
@@ -346,7 +330,6 @@ Está correto o que se afirma em:
 > 
 > **Gabarito: C**
 
-
 ---
 
 ### Teste 541
@@ -374,9 +357,7 @@ Está correto o que se afirma em:
 
 ---
 
-
-
-### 3.2 Princípio da Proporcionalidade e Hipóteses de Uso
+## 3.2 Princípio da Proporcionalidade e Hipóteses de Uso
 
 O Art. 5º, § 2º da Lei nº 14.063/2020 fixou o **Princípio da Vedação ao Excesso de Exigência**:
 > *"É VEDADA a exigência de assinatura eletrônica qualificada nas interações com o ente público se a assinatura eletrônica simples ou avançada for suficiente para a mitigação de risco e para o atingimento da finalidade pretendida."*
@@ -412,10 +393,7 @@ Considerando as regras sobre níveis de assinaturas eletrônicas previstas na Le
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Aplicação Prática da Certificação Digital na Auditoria e Processo Eletrônico
 
@@ -457,8 +435,6 @@ Nos sistemas informatizados de auditoria governamental e processo eletrônico do
 
 ---
 
-
-
 ---
 
 ### Teste 544
@@ -484,10 +460,7 @@ Nos sistemas informatizados de auditoria governamental e processo eletrônico do
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

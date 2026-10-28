@@ -24,36 +24,29 @@
     - O Escritório de Gestão Estratégica (EGE / PMO institucional);
     - Reuniões de Avaliação da Estratégia (RAE) e governança do Plano Estratégico do TCE-GO.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [A Cadeia de Valor de Michael Porter](#1-a-cadeia-de-valor-de-michael-porter)
-    2. [Teste 390](#Teste-390)
-    3. [Teste 391](#Teste-391)
-    4. [Teste 392](#Teste-392)
-    5. [O Desdobramento da Estratégia (*Cascading*) pelo BSC](#2-o-desdobramento-da-estrategia-cascading-pelo-bsc)
-    6. [Teste 393](#Teste-393)
-    7. [Teste 394](#Teste-394)
-    8. [As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)](#3-as-quatro-barreiras-a-execucao-da-estrategia-kaplan-e-norton)
-    9. [Teste 395](#Teste-395)
-    10. [Teste 396](#Teste-396)
-    11. [Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)](#4-escritorio-de-gestao-estrategica-ege-e-reunioes-de-avaliacao-rae)
-    12. [Teste 397](#Teste-397)
-    13. [Teste 398](#Teste-398)
-    14. [Teste 399](#Teste-399)
-    15. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+1. [A Cadeia de Valor de Michael Porter](#1-a-cadeia-de-valor-de-michael-porter)
+    1. [Teste 390](#Teste-390)
+    2. [Teste 391](#Teste-391)
+    3. [Teste 392](#Teste-392)
+2. [O Desdobramento da Estratégia (*Cascading*) pelo BSC](#2-o-desdobramento-da-estrategia-cascading-pelo-bsc)
+    1. [Teste 393](#Teste-393)
+    2. [Teste 394](#Teste-394)
+3. [As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)](#3-as-quatro-barreiras-a-execucao-da-estrategia-kaplan-e-norton)
+    1. [Teste 395](#Teste-395)
+    2. [Teste 396](#Teste-396)
+4. [Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)](#4-escritorio-de-gestao-estrategica-ege-e-reunioes-de-avaliacao-rae)
+    1. [Teste 397](#Teste-397)
+    2. [Teste 398](#Teste-398)
+    3. [Teste 399](#Teste-399)
+5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. A Cadeia de Valor de Michael Porter
+## 1. A Cadeia de Valor de Michael Porter
 
 Concebida por Michael Porter em 1985, a **Cadeia de Valor** é um modelo analítico que desagrega a organização em suas atividades estrategicamente relevantes para compreender o comportamento de custos e identificar fontes de diferenciação competitiva:
 
@@ -183,8 +176,7 @@ Constitui típica **Atividade Primária** da Cadeia de Valor:
 
 ---
 
-
-### 2. O Desdobramento da Estratégia (*Cascading*) pelo BSC
+## 2. O Desdobramento da Estratégia (*Cascading*) pelo BSC
 
 O Balanced Scorecard (BSC) só se converte em realidade operacional quando o mapa estratégico é desdobrado de forma descendente em iniciativas concretas:
 
@@ -242,8 +234,6 @@ No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard 
 
 ---
 
-
-
 ### Teste 394
 **(FCC - Adaptada / Auditor de Controle Externo)**
 No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard, a técnica denominada **Cascading** (Estratégia em Cascata) tem por objetivo central:
@@ -266,8 +256,7 @@ No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard,
 
 ---
 
-
-### 3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)
+## 3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)
 
 Estudos clássicos conduzidos por Robert Kaplan e David Norton comprovaram que a maioria dos planos estratégicos fracassa na fase de execução prática em razão de quatro barreiras clássicas:
 
@@ -316,8 +305,6 @@ No contexto do alinhamento organizacional e desdobramento da estratégia pelo Ba
 
 ---
 
-
-
 ### Teste 396
 **(FCC - Adaptada / Analista de Planejamento e Gestão)**
 Kaplan e Norton identificaram as quatro barreiras primordiais que impedem a execução eficaz das estratégias organizacionais nas instituições.
@@ -342,8 +329,7 @@ A barreira que ocorre quando a alta direção formula a estratégia, mas não a 
 
 ---
 
-
-### 4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)
+## 4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)
 
 Para romper as barreiras de execução, a governança pública moderna institui estruturas e rotinas permanentes:
 
@@ -376,8 +362,6 @@ Com o propósito de assegurar a governança e a implementação efetiva de seu p
 > **Gabarito: B**
 
 ---
-
-
 
 ### Teste 398
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
@@ -427,8 +411,7 @@ Dentre as atribuições típicas do EGE em uma corte de contas, destaca-se:
 
 ---
 
-
-### 5. Fontes Oficiais e Referências Bibliográficas
+## 5. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto nº 9.203/2017 (Monitoramento e Alinhamento Estratégico)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Disciplina o acompanhamento contínuo de resultados através de metas e indicadores de desempenho.
 * [TCU - Referencial Básico de Governança: Liderança, Estratégia e Controle](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Recomendações para construção de painéis de indicadores e Balanced Scorecard no setor público.

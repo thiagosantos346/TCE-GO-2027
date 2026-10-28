@@ -16,50 +16,41 @@
 - Disposições relativas à modernização institucional, transparência, inovação e governança de tecnologia
 - Relação com as competências fiscalizatórias e operacionais do Tribunal de Contas do Estado de Goiás (TCE-GO)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada & Governança de IA no Estado de Goiás](#teoria-aprofundada-governanca-de-ia-no-estado-de-goias)
-2. [Contexto e Princípios Fundamentais da LC nº 205/2025](#1-contexto-e-principios-fundamentais-da-lc-no-2052025)
-    1. [Objetivos e Escopo da Política Estadual de IA](#11-objetivos-e-escopo-da-politica-estadual-de-ia)
-    2. [Teste 545](#Teste-545)
-    3. [Princípios Norteadores de IA no Setor Público Goiano](#12-principios-norteadores-de-ia-no-setor-publico-goiano)
-    4. [Teste 546](#Teste-546)
-    5. [Teste 547](#Teste-547)
-3. [Instrumentos Estratégicos Criados pela LC nº 205/2025](#2-instrumentos-estrategicos-criados-pela-lc-no-2052025)
-    1. [Sandbox Estadual Permanente de Inteligência Artificial](#21-sandbox-estadual-permanente-de-inteligencia-artificial)
-    2. [Teste 548](#Teste-548)
-    3. [Teste 549](#Teste-549)
-    4. [Núcleo de Ética e Inovação em Inteligência Artificial (NEI-IA)](#22-nucleo-de-etica-e-inovacao-em-inteligencia-artificial-nei-ia)
-    5. [Teste 550](#Teste-550)
-    6. [A Diretriz Mandatória de IA Aberta (Open Source AI)](#23-a-diretriz-mandatoria-de-ia-aberta-open-source-ai)
-    7. [Teste 551](#Teste-551)
-    8. [Teste 552](#Teste-552)
-4. [O Papel Fiscalizatório do TCE-GO sobre Sistemas de IA](#3-o-papel-fiscalizatorio-do-tce-go-sobre-sistemas-de-ia)
-    1. [As Três Dimensões da Auditoria de IA Governamental](#31-as-tres-dimensoes-da-auditoria-de-ia-governamental)
-    2. [Teste 553](#Teste-553)
-    3. [Uso Interno de IA no TCE-GO: O Ecossistema IAGO e a RA nº 24/2024](#32-uso-interno-de-ia-no-tce-go-o-ecossistema-iago-e-a-ra-no-242024)
-    4. [Teste 554](#Teste-554)
-5. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
+1. [Contexto e Princípios Fundamentais da LC nº 205/2025](#1-contexto-e-principios-fundamentais-da-lc-no-2052025)
+1. [Objetivos e Escopo da Política Estadual de IA](#1-1-objetivos-e-escopo-da-politica-estadual-de-ia)
+    1. [Teste 545](#Teste-545)
+1. [Princípios Norteadores de IA no Setor Público Goiano](#1-2-principios-norteadores-de-ia-no-setor-publico-goiano)
+    1. [Teste 546](#Teste-546)
+    2. [Teste 547](#Teste-547)
+2. [Instrumentos Estratégicos Criados pela LC nº 205/2025](#2-instrumentos-estrategicos-criados-pela-lc-no-2052025)
+2. [Sandbox Estadual Permanente de Inteligência Artificial](#2-1-sandbox-estadual-permanente-de-inteligencia-artificial)
+    1. [Teste 548](#Teste-548)
+    2. [Teste 549](#Teste-549)
+2. [Núcleo de Ética e Inovação em Inteligência Artificial (NEI-IA)](#2-2-nucleo-de-etica-e-inovacao-em-inteligencia-artificial-nei-ia)
+    1. [Teste 550](#Teste-550)
+2. [A Diretriz Mandatória de IA Aberta (Open Source AI)](#2-3-a-diretriz-mandatoria-de-ia-aberta-open-source-ai)
+    1. [Teste 551](#Teste-551)
+    2. [Teste 552](#Teste-552)
+3. [O Papel Fiscalizatório do TCE-GO sobre Sistemas de IA](#3-o-papel-fiscalizatorio-do-tce-go-sobre-sistemas-de-ia)
+3. [As Três Dimensões da Auditoria de IA Governamental](#3-1-as-tres-dimensoes-da-auditoria-de-ia-governamental)
+    1. [Teste 553](#Teste-553)
+3. [Uso Interno de IA no TCE-GO: O Ecossistema IAGO e a RA nº 24/2024](#3-2-uso-interno-de-ia-no-tce-go-o-ecossistema-iago-e-a-ra-no-242024)
+    1. [Teste 554](#Teste-554)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
-
-## 📖 Teoria Aprofundada & Governança de IA no Estado de Goiás
-
-
----
-
 
 ## 1. Contexto e Princípios Fundamentais da LC nº 205/2025
 
 A **Lei Complementar Estadual nº 205, de 19 de maio de 2025**, posicionou o Estado de Goiás na vanguarda legislativa do país ao estabelecer a primeira **Política Estadual de Fomento à Inovação e Governança em Inteligência Artificial** no plano subnacional.
 
-### 1.1 Objetivos e Escopo da Política Estadual de IA
+---
+
+## 1.1 Objetivos e Escopo da Política Estadual de IA
 
 A norma foi concebida para conciliar dois vetores complementares:
 
@@ -115,7 +106,7 @@ flowchart TD
 
 ---
 
-### 1.2 Princípios Norteadores de IA no Setor Público Goiano
+## 1.2 Princípios Norteadores de IA no Setor Público Goiano
 
 | Princípio da LC nº 205/2025 | Conteúdo Teórico | Tradução Prática em Sistemas de TI |
 |---|---|---|
@@ -153,7 +144,6 @@ flowchart TD
 > 
 > **Gabarito: B**
 
-
 ---
 
 ### Teste 547
@@ -179,16 +169,15 @@ flowchart TD
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Instrumentos Estratégicos Criados pela LC nº 205/2025
 
 A Lei Complementar nº 205/2025 estrutura a política pública estadual sobre três grandes pilares institucionais:
 
-### 2.1 Sandbox Estadual Permanente de Inteligência Artificial
+---
+
+## 2.1 Sandbox Estadual Permanente de Inteligência Artificial
 
 - **Conceito:** Ambiente regulatório experimental seguro e controlado onde pessoas jurídicas (startups, empresas de tecnologia, institutos de ciência e tecnologia - ICTs e consórcios) podem testar produtos, serviços e modelos de IA inovadores com dispensa ou flexibilização temporária e monitorada de certas exigências regulatórias estaduais.
 - **Natureza Permanente:** Diferente de sandboxes pontuais que se extinguem em meses, Goiás instituiu um ambiente regulatório experimental **permanente**, com ciclos regulares de chamadas públicas (editais da Secti).
@@ -223,7 +212,6 @@ A Lei Complementar nº 205/2025 estrutura a política pública estadual sobre tr
 > 
 > **Gabarito: B**
 
-
 ---
 
 ### Teste 549
@@ -251,9 +239,7 @@ A Lei Complementar nº 205/2025 estrutura a política pública estadual sobre tr
 
 ---
 
-
-
-### 2.2 Núcleo de Ética e Inovação em Inteligência Artificial (NEI-IA)
+## 2.2 Núcleo de Ética e Inovação em Inteligência Artificial (NEI-IA)
 
 Colegiado de natureza **consultiva e propositiva**, reunindo representantes do Poder Executivo (Secretaria de Ciência, Tecnologia e Inovação - Secti), universidades públicas, comunidade científica, sociedade civil e setor empresarial de tecnologia.
 
@@ -291,9 +277,7 @@ Colegiado de natureza **consultiva e propositiva**, reunindo representantes do P
 
 ---
 
-
-
-### 2.3 A Diretriz Mandatória de IA Aberta (Open Source AI)
+## 2.3 A Diretriz Mandatória de IA Aberta (Open Source AI)
 
 A LC nº 205/2025 prescreve a **preferência pelo uso de soluções, modelos de linguagem e softwares de inteligência artificial de código aberto (*open-source*)** pelos órgãos e entidades da Administração Pública Estadual de Goiás.
 
@@ -338,7 +322,6 @@ flowchart LR
 > 
 > **Gabarito: B**
 
-
 ---
 
 ### Teste 552
@@ -364,10 +347,7 @@ flowchart LR
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. O Papel Fiscalizatório do TCE-GO sobre Sistemas de IA
 
@@ -393,7 +373,9 @@ sequenceDiagram
     end
 ```
 
-### 3.1 As Três Dimensões da Auditoria de IA Governamental
+---
+
+## 3.1 As Três Dimensões da Auditoria de IA Governamental
 
 1. **Auditoria de Dados de Treinamento (*Data-Centric AI Audit*):**
     - Licitude da base de dados perante a LGPD;
@@ -434,10 +416,9 @@ sequenceDiagram
 > 
 > **Gabarito: B**
 
-
 ---
 
-### 3.2 Uso Interno de IA no TCE-GO: O Ecossistema IAGO e a RA nº 24/2024
+## 3.2 Uso Interno de IA no TCE-GO: O Ecossistema IAGO e a RA nº 24/2024
 
 O próprio TCE-GO, alinhado à LC nº 205/2025, implementou regulação interna (Resolução Administrativa nº 24/2024) para o uso ético e seguro de IA generativa e preditiva no controle externo, operacionalizado no **Ecossistema IAGO** (*Inteligência Artificial de Goiás*):
 
@@ -470,10 +451,7 @@ O próprio TCE-GO, alinhado à LC nº 205/2025, implementou regulação interna 
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

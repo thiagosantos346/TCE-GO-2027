@@ -19,44 +19,40 @@
 - Serviços públicos: conceito, princípios, delegação a particulares (Lei nº 8.987/1995 e Lei nº 11.079/2004)
 - Bens públicos: conceito, classificação (Código Civil, art. 99), afetação/desafetação e regime jurídico
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Responsabilidade Civil Extracontratual do Estado](#1-responsabilidade-civil-extracontratual-do-estado)
     1. [Evolução Histórica da Responsabilidade Estatal](#11-evolucao-historica-da-responsabilidade-estatal)
     2. [O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva](#12-o-art-37-6o-da-cf88-e-os-elementos-da-responsabilidade-objetiva)
-    3. [Teste 034](#Teste-034)
-    4. [Teoria do Risco Administrativo: Excludentes e Atenuantes](#13-teoria-do-risco-administrativo-excludentes-e-atenuantes)
-    5. [Teoria do Risco Integral e suas Hipóteses Excepcionais](#14-teoria-do-risco-integral-e-suas-hipoteses-excepcionais)
-    6. [Teste 035](#Teste-035)
-    7. [Responsabilidade por Omissão Estatal: Genérica vs. Específica](#15-responsabilidade-por-omissao-estatal-generica-vs-especifica)
-    8. [Teste 036](#Teste-036)
-    9. [Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)](#16-acao-regressiva-e-a-teoria-da-dupla-garantia-tema-940-stf)
+    3. [Teoria do Risco Administrativo: Excludentes e Atenuantes](#13-teoria-do-risco-administrativo-excludentes-e-atenuantes)
+    4. [Teoria do Risco Integral e suas Hipóteses Excepcionais](#14-teoria-do-risco-integral-e-suas-hipoteses-excepcionais)
+    5. [Responsabilidade por Omissão Estatal: Genérica vs. Específica](#15-responsabilidade-por-omissao-estatal-generica-vs-especifica)
+    6. [Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)](#16-acao-regressiva-e-a-teoria-da-dupla-garantia-tema-940-stf)
+    7. [Teste 034](#Teste-034)
+    8. [Teste 035](#Teste-035)
+    9. [Teste 036](#Teste-036)
     10. [Teste 037](#Teste-037)
 2. [Regime Jurídico dos Serviços Públicos e sua Delegação](#2-regime-juridico-dos-servicos-publicos-e-sua-delegacao)
     1. [Princípios do Serviço Público Adequado](#21-principios-do-servico-publico-adequado)
-    2. [Teste 038](#Teste-038)
-    3. [Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)](#22-concessao-comum-e-permissao-de-servico-publico-lei-no-89871995)
-    4. [Teste 039](#Teste-039)
-    5. [Formas de Extinção das Concessões: Encampação vs. Caducidade](#23-formas-de-extincao-das-concessoes-encampacao-vs-caducidade)
-    6. [Teste 040](#Teste-040)
-    7. [Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)](#24-parcerias-publico-privadas-ppps-lei-no-110792004)
+    2. [Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)](#22-concessao-comum-e-permissao-de-servico-publico-lei-no-89871995)
+    3. [Formas de Extinção das Concessões: Encampação vs. Caducidade](#23-formas-de-extincao-das-concessoes-encampacao-vs-caducidade)
+    4. [Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)](#24-parcerias-publico-privadas-ppps-lei-no-110792004)
+    5. [Teste 038](#Teste-038)
+    6. [Teste 039](#Teste-039)
+    7. [Teste 040](#Teste-040)
     8. [Teste 041](#Teste-041)
 3. [Bens Públicos: Classificação, Afetação e Prerrogativas](#3-bens-publicos-classificacao-afetacao-e-prerrogativas)
     1. [Classificação Quanto à Destinação (Código Civil, art. 99)](#31-classificacao-quanto-a-destinacao-codigo-civil-art-99)
-    2. [Teste 042](#Teste-042)
-    3. [Fenômeno da Afetação e Desafetação](#32-fenomeno-da-afetacao-e-desafetacao)
-    4. [Teste 043](#Teste-043)
-    5. [Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta](#33-prerrogativas-do-regime-juridico-e-a-imprescritibilidade-absoluta)
+    2. [Fenômeno da Afetação e Desafetação](#32-fenomeno-da-afetacao-e-desafetacao)
+    3. [Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta](#33-prerrogativas-do-regime-juridico-e-a-imprescritibilidade-absoluta)
+    4. [Teste 042](#Teste-042)
+    5. [Teste 043](#Teste-043)
     6. [Teste 044](#Teste-044)
 4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Responsabilidade Civil Extracontratual do Estado
 
@@ -90,7 +86,57 @@ flowchart TD
 > ⭐ **IMPORTANTE / REPERCUSSÃO GERAL STF:**  
 > A responsabilidade objetiva do art. 37, § 6º, aplica-se às **empresas prestadoras de serviços públicos** (concessionárias e permissionárias) tanto em relação aos **usuários do serviço** quanto em relação a **terceiros não usuários** (vítimas de acidentes causados pelo serviço público - RE 591.874/STF).
 
+### 1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes
 
+O ordenamento jurídico brasileiro adota como **regra geral a Teoria do Risco Administrativo**. Essa teoria baseia-se na ideia de que a atividade estatal gera riscos inerentes para a coletividade, devendo o poder público arcar com os prejuízos decorrentes. Todavia, **NÃO se trata de responsabilidade absoluta**, admitindo-se a ruptura ou atenuação do nexo causal nas seguintes hipóteses:
+
+- **Causas Excludentes do Nexo de Causalidade (Afastam 100% da Indenização):**
+    1. *Culpa Exclusiva da Vítima:* O evento decorreu inteiramente do comportamento negligente, imprudente ou voluntário do próprio lesado (ex.: pedestre que se atira intencionalmente sob as rodas de um ônibus público em alta velocidade).
+    2. *Caso Fortuito ou Força Maior Absoluta:* Eventos imprevisíveis da natureza com violência desmedida (raios imprevisíveis, terremotos, trombas d'água fora de qualquer série histórica), desde que o Estado não tenha sido omisso em adotar medidas preventivas exigíveis.
+    3. *Fato Exclusivo de Terceiro:* Dano provocado exclusivamente por ação autônoma e imprevisível de outrem sem qualquer concurso da conduta estatal (ex.: assalto à mão armada ocorrido dentro de um ônibus coletivo com disparo de arma de fogo deflagrado pelo criminoso).
+
+- **Causas Atenuantes do Nexo de Causalidade:**
+    - *Culpa Concorrente da Vítima:* A vítima e o agente público concorreram simultaneamente para a eclosão do evento danoso. O Estado continua obrigado a indenizar, mas o montante indenizatório é **reduzido proporcionalmente** ao grau de culpa da vítima.
+
+### 1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais
+
+Na **Teoria do Risco Integral**, a obrigação estatal de indenizar é cega e absoluta. O Estado atua como garantidor universal de riscos, **sendo vedada a invocação de qualquer causa excludente** (o poder público é condenado mesmo diante de caso fortuito, força maior ou culpa exclusiva da vítima).
+
+O ordenamento constitucional e legal brasileiro reconhece a incidência do risco integral em apenas **três hipóteses taxativas**:
+
+1. **Dano Nuclear:** Responsabilidade civil por acidentes radiológicos ou nucleares (CF/88, art. 21, XXIII, "d");
+2. **Atos de Guerra e Terrorismo Aéreo:** Danos a terceiros decorrentes de atentados terroristas contra aeronaves comerciais de matrícula brasileira (Lei Federal nº 10.744/2003);
+3. **Dano Ambiental:** Jurisprudência vinculante consolidada do Superior Tribunal de Justiça (Tema Repetitivo 707/STJ) para degradações ecológicas graves.
+
+### 1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica
+
+Quando o dano decorre de um não-fazer da Administração Pública, a jurisprudência estabelece rígida bifurcação metodológica:
+
+```mermaid
+flowchart TD
+    OM["Dano Decorrente de Omissão do Estado"] --> TIPO{"Qual a natureza do dever descumprido?"}
+    
+    TIPO -- "Dever Geral de Polícia / Segurança Pública" --> GEN["OMISSÃO GENÉRICA<br/>• Responsabilidade SUBJETIVA<br/>• Vítima deve provar a Falta do Serviço (faute du service)<br/>• O serviço não funcionou, funcionou mal ou atrasou"]
+    
+    TIPO -- "Dever Específico de Custódia e Proteção" --> ESP["OMISSÃO ESPECÍFICA<br/>• Responsabilidade OBJETIVA (Tema 592 / STF)<br/>• Estado na posição de GARANTIDOR da incolumidade<br/>• Presos em presídios, alunos em escolas públicas, pacientes"]
+```
+
+- **Omissão Genérica (Responsabilidade Subjetiva):** O Estado descumpre seu dever genérico de proteção da ordem social (ex.: furto de veículo particular estacionado em via pública comum; alagamento pontual em chuva sazonal). A vítima deve provar a ocorrência de culpa anônima do serviço (*faute du service*), demonstrando que o poder público foi negligente diante de um dever exigível.
+- **Omissão Específica (Responsabilidade Objetiva - Tema 592/STF):** Ocorre quando o Estado atua na **posição de garante**, detendo a pessoa ou a coisa sob sua imediata custódia física institucional (ex.: morte ou lesão corporal de detento em estabelecimento penitenciário; acidente com criança no interior de escola pública municipal; suicídio de paciente internado em hospital psiquiátrico público). A responsabilidade é **OBJETIVA**; o Estado só se exonera se comprovar que a morte ou o dano decorreu de causa natural ou que o evento era faticamente inevitável mesmo com o cumprimento de todos os protocolos regulares de vigilância.
+
+### 1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)
+
+O Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da repercussão geral (**Tema 940**), pacificou a controvérsia sobre a legitimidade passiva nas ações indenizatórias fundamentadas no art. 37, § 6º, da CF/88:
+
+> *"A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, **sendo parte ilegítima para figurar no polo passivo o autor do ato**, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*
+
+#### A Teoria da Dupla Garantia:
+1. **Primeira Garantia (Ao Cidadão Vítima):** Assegura que o particular lesionado demandará contra o Estado ou concessionária sob regime de responsabilidade objetiva (sem ter que provar a culpa do servidor) e com a certeza de solvência financeira pública.
+2. **Segunda Garantia (Ao Agente Público):** Protege o servidor contra ações temerárias de administrados inconformados, assegurando-lhe que **jamais poderá ser réu direto** na ação proposta pela vítima, nem compor litisconsórcio passivo originário com o Estado.
+
+- **Regime da Ação Regressiva:** O Estado, após ser definitivamente condenado e efetuar o pagamento da indenização à vítima, tem o **dever de ajuizar ação regressiva** contra o servidor causador do dano. No âmbito da ação de regresso, a responsabilidade do servidor é **SUBJETIVA**, dependendo da comprovação cabal de que ele agiu com **dolo ou culpa** (negligência, imprudência ou imperícia).
+
+---
 
 ### Teste 034
 **(FCC - Analista Judiciário - Área Judiciária)**
@@ -119,30 +165,6 @@ Considerando o regramento constitucional sobre a responsabilidade civil do Estad
 
 ---
 
-### 1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes
-
-O ordenamento jurídico brasileiro adota como **regra geral a Teoria do Risco Administrativo**. Essa teoria baseia-se na ideia de que a atividade estatal gera riscos inerentes para a coletividade, devendo o poder público arcar com os prejuízos decorrentes. Todavia, **NÃO se trata de responsabilidade absoluta**, admitindo-se a ruptura ou atenuação do nexo causal nas seguintes hipóteses:
-
-- **Causas Excludentes do Nexo de Causalidade (Afastam 100% da Indenização):**
-    1. *Culpa Exclusiva da Vítima:* O evento decorreu inteiramente do comportamento negligente, imprudente ou voluntário do próprio lesado (ex.: pedestre que se atira intencionalmente sob as rodas de um ônibus público em alta velocidade).
-    2. *Caso Fortuito ou Força Maior Absoluta:* Eventos imprevisíveis da natureza com violência desmedida (raios imprevisíveis, terremotos, trombas d'água fora de qualquer série histórica), desde que o Estado não tenha sido omisso em adotar medidas preventivas exigíveis.
-    3. *Fato Exclusivo de Terceiro:* Dano provocado exclusivamente por ação autônoma e imprevisível de outrem sem qualquer concurso da conduta estatal (ex.: assalto à mão armada ocorrido dentro de um ônibus coletivo com disparo de arma de fogo deflagrado pelo criminoso).
-
-- **Causas Atenuantes do Nexo de Causalidade:**
-    - *Culpa Concorrente da Vítima:* A vítima e o agente público concorreram simultaneamente para a eclosão do evento danoso. O Estado continua obrigado a indenizar, mas o montante indenizatório é **reduzido proporcionalmente** ao grau de culpa da vítima.
-
-### 1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais
-
-Na **Teoria do Risco Integral**, a obrigação estatal de indenizar é cega e absoluta. O Estado atua como garantidor universal de riscos, **sendo vedada a invocação de qualquer causa excludente** (o poder público é condenado mesmo diante de caso fortuito, força maior ou culpa exclusiva da vítima).
-
-O ordenamento constitucional e legal brasileiro reconhece a incidência do risco integral em apenas **três hipóteses taxativas**:
-
-1. **Dano Nuclear:** Responsabilidade civil por acidentes radiológicos ou nucleares (CF/88, art. 21, XXIII, "d");
-2. **Atos de Guerra e Terrorismo Aéreo:** Danos a terceiros decorrentes de atentados terroristas contra aeronaves comerciais de matrícula brasileira (Lei Federal nº 10.744/2003);
-3. **Dano Ambiental:** Jurisprudência vinculante consolidada do Superior Tribunal de Justiça (Tema Repetitivo 707/STJ) para degradações ecológicas graves.
-
-
-
 ### Teste 035
 **(FGV - Auditor de Controle Externo / TCE-SC)**
 A Teoria do Risco Integral diferencia-se substancialmente da Teoria do Risco Administrativo no que concerne à admissão de excludentes de responsabilidade civil estatal. A respeito das hipóteses excepcionais em que o ordenamento constitucional e legal pátrio adota o Risco Integral, assinale a afirmativa correta.
@@ -165,24 +187,6 @@ A Teoria do Risco Integral diferencia-se substancialmente da Teoria do Risco Adm
 > - **E)** Incorreta. A Lei Federal nº 10.744/2003 estabelece que a União assume a responsabilidade civil por danos a terceiros provocados por atentados terroristas contra aeronaves brasileiras, aplicando-se a teoria do risco integral.
 >
 > **Gabarito: A**
-
----
-
-### 1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica
-
-Quando o dano decorre de um não-fazer da Administração Pública, a jurisprudência estabelece rígida bifurcação metodológica:
-
-```mermaid
-flowchart TD
-    OM["Dano Decorrente de Omissão do Estado"] --> TIPO{"Qual a natureza do dever descumprido?"}
-    
-    TIPO -- "Dever Geral de Polícia / Segurança Pública" --> GEN["OMISSÃO GENÉRICA<br/>• Responsabilidade SUBJETIVA<br/>• Vítima deve provar a Falta do Serviço (faute du service)<br/>• O serviço não funcionou, funcionou mal ou atrasou"]
-    
-    TIPO -- "Dever Específico de Custódia e Proteção" --> ESP["OMISSÃO ESPECÍFICA<br/>• Responsabilidade OBJETIVA (Tema 592 / STF)<br/>• Estado na posição de GARANTIDOR da incolumidade<br/>• Presos em presídios, alunos em escolas públicas, pacientes"]
-```
-
-- **Omissão Genérica (Responsabilidade Subjetiva):** O Estado descumpre seu dever genérico de proteção da ordem social (ex.: furto de veículo particular estacionado em via pública comum; alagamento pontual em chuva sazonal). A vítima deve provar a ocorrência de culpa anônima do serviço (*faute du service*), demonstrando que o poder público foi negligente diante de um dever exigível.
-- **Omissão Específica (Responsabilidade Objetiva - Tema 592/STF):** Ocorre quando o Estado atua na **posição de garante**, detendo a pessoa ou a coisa sob sua imediata custódia física institucional (ex.: morte ou lesão corporal de detento em estabelecimento penitenciário; acidente com criança no interior de escola pública municipal; suicídio de paciente internado em hospital psiquiátrico público). A responsabilidade é **OBJETIVA**; o Estado só se exonera se comprovar que a morte ou o dano decorreu de causa natural ou que o evento era faticamente inevitável mesmo com o cumprimento de todos os protocolos regulares de vigilância.
 
 ---
 
@@ -213,21 +217,6 @@ Em conformidade com a tese firmada pelo Supremo Tribunal Federal em regime de re
 
 ---
 
-
-### 1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)
-
-O Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da repercussão geral (**Tema 940**), pacificou a controvérsia sobre a legitimidade passiva nas ações indenizatórias fundamentadas no art. 37, § 6º, da CF/88:
-
-> *"A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, **sendo parte ilegítima para figurar no polo passivo o autor do ato**, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*
-
-#### A Teoria da Dupla Garantia:
-1. **Primeira Garantia (Ao Cidadão Vítima):** Assegura que o particular lesionado demandará contra o Estado ou concessionária sob regime de responsabilidade objetiva (sem ter que provar a culpa do servidor) e com a certeza de solvência financeira pública.
-2. **Segunda Garantia (Ao Agente Público):** Protege o servidor contra ações temerárias de administrados inconformados, assegurando-lhe que **jamais poderá ser réu direto** na ação proposta pela vítima, nem compor litisconsórcio passivo originário com o Estado.
-
-- **Regime da Ação Regressiva:** O Estado, após ser definitivamente condenado e efetuar o pagamento da indenização à vítima, tem o **dever de ajuizar ação regressiva** contra o servidor causador do dano. No âmbito da ação de regresso, a responsabilidade do servidor é **SUBJETIVA**, dependendo da comprovação cabal de que ele agiu com **dolo ou culpa** (negligência, imprudência ou imperícia).
-
----
-
 ### Teste 037
 **(FCC - Analista de Controle Externo / Adaptada TCE-GO)**
 Uma viatura oficial pertencente ao Tribunal de Contas, conduzida em horário de expediente por um motorista oficial devidamente habilitado, abalroou o automóvel particular de uma cidadã em razão de uma manobra imprudente realizada pelo servidor no trânsito. A proprietária do veículo particular ajuizou ação ordinária de indenização por danos materiais exclusivamente em face do motorista servidor público, requerendo sua condenação direta com fundamento no art. 37, § 6º, da Constituição Federal.
@@ -253,10 +242,7 @@ Uma viatura oficial pertencente ao Tribunal de Contas, conduzida em horário de 
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Regime Jurídico dos Serviços Públicos e sua Delegação
 
@@ -273,66 +259,10 @@ A Lei Federal nº 8.987/1995 (art. 6º) prescreve que toda concessão ou permiss
 - **Cortesia:** Urbanidade no trato com os usuários.
 - **Modicidade das Tarifas:** Fixação de preços públicos acessíveis à população em equilíbrio econômico-financeiro.
 
-
-
-### Teste 038
-**(FCC - Procurador do Estado)**
-Sobre os princípios que regem a prestação de serviços públicos e o regime de corte de fornecimento por inadimplemento do usuário, à luz da Lei nº 8.987/1995 e da jurisprudência consolidada do Superior Tribunal de Justiça (STJ), assinale a afirmativa correta.
-
-* **A)** O princípio da continuidade veda terminantemente a suspensão da prestação do serviço público sob qualquer pretexto, mesmo na hipótese de inadimplemento reiterado do usuário particular.
-* **B)** É legítima a interrupção do fornecimento de serviço público essencial (como energia elétrica ou água) por inadimplemento do consumidor, desde que haja aviso prévio formal e que o débito seja atual, não se admitindo o corte por dívidas pretéritas consolidadas.
-* **C)** O serviço público pode ser interrompido sem aviso prévio em virtude de inadimplemento de fatura vencida há mais de dois anos.
-* **D)** O princípio da modicidade tarifária autoriza a concessionária a aumentar unilateralmente a tarifa básica sempre que julgar insatisfatória a sua margem de lucro operacional.
-* **E)** As concessionárias de serviço público podem suspender o fornecimento de energia a hospitais públicos e unidades de pronto atendimento por inadimplemento de fatura sem qualquer restrição jurídica.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O art. 6º, § 3º, da Lei nº 8.987/1995 prescreve expressamente que **não se caracteriza descontinuidade do serviço** a sua interrupção em situação de emergência ou, após prévio aviso, por razões de ordem técnica/segurança ou por inadimplemento do usuário.
-> - **B)** Correta. Jurisprudência sumulada e vinculante do STJ (Tema Repetitivo 699/STJ): é legítimo o corte no fornecimento de serviços essenciais por inadimplemento, condicionado a aviso prévio e adstrito a **contas atuais** (mês de consumo recente). Débitos pretéritos devem ser cobrados pelas vias ordinárias de cobrança judicial, sendo ilegal o corte coercitivo por dívida antiga.
-> - **C)** Incorreta. É absolutamente obrigatório o prévio aviso e é vedado o corte para recuperação coativa de dívidas pretéritas (antigas).
-> - **D)** Incorreta. O reajuste e a revisão tarifária subordinam-se estritamente aos índices e fórmulas pactuados no contrato de concessão e homologados pela agência reguladora, visando a preservar a modicidade para a população e o equilíbrio econômico-financeiro.
-> - **E)** Incorreta. A interrupção de serviço essencial que atinja serviços públicos vitais e inadiáveis (como UTIs de hospitais públicos) é ilegítima por colocar em risco a vida e a dignidade humana.
->
-> **Gabarito: B**
-
----
-
 ### 2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)
 
 - **Concessão Comum de Serviço Público:** Delegação contratual bilateral formalizada com pessoa jurídica ou consórcio de empresas, mediante prévia licitação obrigatória, para exploração do serviço por prazo determinado, a expensas e risco da concessionária, remunerada unicamente pelas tarifas cobradas dos usuários.
 - **Permissão de Serviço Público:** Delegação formalizada mediante **contrato de adesão**, a título precário, após prévia licitação, admitindo como permitente pessoa física ou jurídica.
-
-
-
-### Teste 039
-**(FGV - Analista de Gestão / Auditoria)**
-A respeito dos regimes de delegação de serviços públicos previstos na Lei nº 8.987/1995, compare a concessão comum de serviço público e a permissão de serviço público.
-
-Assinale a opção que apresenta a distinção jurídica correta entre esses institutos.
-
-* **A)** A concessão comum prescinde de licitação prévia, ao passo que a permissão exige obrigatoriamente licitação na modalidade concurso.
-* **B)** A concessão é celebrada mediante contrato administrativo bilateral, com prazo determinado e outorga a pessoa jurídica ou consórcio de empresas; a permissão formaliza-se mediante contrato de adesão, ostenta caráter precário e revogável unilateralmente pelo poder concedente, podendo ser outorgada a pessoa física ou jurídica.
-* **C)** A permissão de serviço público é conferida por meio de ato administrativo unilateral discricionário imune a qualquer fiscalização do poder público.
-* **D)** Tanto a concessão quanto a permissão admitem a outorga exclusiva a pessoas físicas, sendo vedada a participação de consórcios empresariais em ambas.
-* **E)** Na concessão de serviço público, a extinção antecipada por razões de interesse público denomina-se caducidade, e independe de lei autorizativa específica ou de indenização prévia.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Ambas exigem prévia licitação (art. 175 da CF/88 e arts. 2º e 40 da Lei nº 8.987/1995).
-> - **B)** Correta. Nos termos do art. 2º, II e IV, e art. 40 da Lei nº 8.987/1995: a **concessão** é a delegação contratual bilateral a pessoa jurídica ou consórcio de empresas, com prazo determinado; a **permissão** formaliza-se a título precário mediante **contrato de adesão**, podendo ser deferida tanto a pessoa física quanto a pessoa jurídica, sempre precedida de licitação.
-> - **C)** Incorreta. Embora qualificada pela precariedade, a permissão de serviço público no Brasil formaliza-se sob a natureza de contrato de adesão (art. 40 da Lei nº 8.987/1995), plenamente submetida à fiscalização regulatória.
-> - **D)** Incorreta. A concessão comum não pode ser delegada a pessoas físicas; exige pessoa jurídica ou consórcio de empresas.
-> - **E)** Incorreta. A extinção da concessão por interesse público superveniente é a **encampação** (ou resgate), que exige obrigatoriamente lei autorizativa específica e prévio pagamento de indenização. Caducidade é a extinção por inexecução culposa da concessionária.
->
-> **Gabarito: B**
-
----
 
 ### 2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade
 
@@ -359,6 +289,69 @@ flowchart TD
 | **Culpa da Concessionária?** | **NÃO** (a empresa cumpria rigorosamente o contrato) | **SIM** (prestação defeituosa, paralisações, descumprimento de prazos) |
 | **Exigência de Lei?** | **SIM**, exige **lei autorizativa específica** do ente concedente | **NÃO**, declarada por **decreto** do Chefe do Executivo |
 | **Indenização Prévia?** | **SIM**, o pagamento de indenização deve ser **prévio** à retomada | **NÃO**, indenização é apurada a posteriori descontadas multas contratuais |
+
+### 2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)
+
+As Parcerias Público-Privadas constituem concessões especiais destinadas a viabilizar investimentos vultosos de infraestrutura em colaboração com o capital privado:
+
+1. **Concessão Patrocinada (Art. 2º, § 1º):** É a concessão de serviços públicos ou obras públicas em que a remuneração da concessionária envolve a combinação de **tarifa paga pelos usuários** mais uma **contraprestação pecuniária complementar paga pelo parceiro público**.
+2. **Concessão Administrativa (Art. 2º, § 2º):** É o contrato de prestação de serviços de que a **Administração Pública seja a usuária direta ou indireta**, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é **100% custeada pelo erário**, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
+3. **Vedações Legais Obrigatórias à Celebração de PPPs (Art. 2º, § 4º):**
+    - Contratos cujo valor total seja **inferior a R$ 10.000.000,00 (dez milhões de reais)**;
+    - Período de prestação de serviços **inferior a 5 (cinco) anos** ou superior a 35 (trinta e cinco) anos;
+    - Contratos que tenham por objeto único o fornecimento de mão de obra, a mera locação de equipamentos ou a execução isolada de obra pública sem prestação continuada de serviços.
+
+---
+
+### Teste 038
+**(FCC - Procurador do Estado)**
+Sobre os princípios que regem a prestação de serviços públicos e o regime de corte de fornecimento por inadimplemento do usuário, à luz da Lei nº 8.987/1995 e da jurisprudência consolidada do Superior Tribunal de Justiça (STJ), assinale a afirmativa correta.
+
+* **A)** O princípio da continuidade veda terminantemente a suspensão da prestação do serviço público sob qualquer pretexto, mesmo na hipótese de inadimplemento reiterado do usuário particular.
+* **B)** É legítima a interrupção do fornecimento de serviço público essencial (como energia elétrica ou água) por inadimplemento do consumidor, desde que haja aviso prévio formal e que o débito seja atual, não se admitindo o corte por dívidas pretéritas consolidadas.
+* **C)** O serviço público pode ser interrompido sem aviso prévio em virtude de inadimplemento de fatura vencida há mais de dois anos.
+* **D)** O princípio da modicidade tarifária autoriza a concessionária a aumentar unilateralmente a tarifa básica sempre que julgar insatisfatória a sua margem de lucro operacional.
+* **E)** As concessionárias de serviço público podem suspender o fornecimento de energia a hospitais públicos e unidades de pronto atendimento por inadimplemento de fatura sem qualquer restrição jurídica.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O art. 6º, § 3º, da Lei nº 8.987/1995 prescreve expressamente que **não se caracteriza descontinuidade do serviço** a sua interrupção em situação de emergência ou, após prévio aviso, por razões de ordem técnica/segurança ou por inadimplemento do usuário.
+> - **B)** Correta. Jurisprudência sumulada e vinculante do STJ (Tema Repetitivo 699/STJ): é legítimo o corte no fornecimento de serviços essenciais por inadimplemento, condicionado a aviso prévio e adstrito a **contas atuais** (mês de consumo recente). Débitos pretéritos devem ser cobrados pelas vias ordinárias de cobrança judicial, sendo ilegal o corte coercitivo por dívida antiga.
+> - **C)** Incorreta. É absolutamente obrigatório o prévio aviso e é vedado o corte para recuperação coativa de dívidas pretéritas (antigas).
+> - **D)** Incorreta. O reajuste e a revisão tarifária subordinam-se estritamente aos índices e fórmulas pactuados no contrato de concessão e homologados pela agência reguladora, visando a preservar a modicidade para a população e o equilíbrio econômico-financeiro.
+> - **E)** Incorreta. A interrupção de serviço essencial que atinja serviços públicos vitais e inadiáveis (como UTIs de hospitais públicos) é ilegítima por colocar em risco a vida e a dignidade humana.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 039
+**(FGV - Analista de Gestão / Auditoria)**
+A respeito dos regimes de delegação de serviços públicos previstos na Lei nº 8.987/1995, compare a concessão comum de serviço público e a permissão de serviço público.
+
+Assinale a opção que apresenta a distinção jurídica correta entre esses institutos.
+
+* **A)** A concessão comum prescinde de licitação prévia, ao passo que a permissão exige obrigatoriamente licitação na modalidade concurso.
+* **B)** A concessão é celebrada mediante contrato administrativo bilateral, com prazo determinado e outorga a pessoa jurídica ou consórcio de empresas; a permissão formaliza-se mediante contrato de adesão, ostenta caráter precário e revogável unilateralmente pelo poder concedente, podendo ser outorgada a pessoa física ou jurídica.
+* **C)** A permissão de serviço público é conferida por meio de ato administrativo unilateral discricionário imune a qualquer fiscalização do poder público.
+* **D)** Tanto a concessão quanto a permissão admitem a outorga exclusiva a pessoas físicas, sendo vedada a participação de consórcios empresariais em ambas.
+* **E)** Na concessão de serviço público, a extinção antecipada por razões de interesse público denomina-se caducidade, e independe de lei autorizativa específica ou de indenização prévia.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Ambas exigem prévia licitação (art. 175 da CF/88 e arts. 2º e 40 da Lei nº 8.987/1995).
+> - **B)** Correta. Nos termos do art. 2º, II e IV, e art. 40 da Lei nº 8.987/1995: a **concessão** é a delegação contratual bilateral a pessoa jurídica ou consórcio de empresas, com prazo determinado; a **permissão** formaliza-se a título precário mediante **contrato de adesão**, podendo ser deferida tanto a pessoa física quanto a pessoa jurídica, sempre precedida de licitação.
+> - **C)** Incorreta. Embora qualificada pela precariedade, a permissão de serviço público no Brasil formaliza-se sob a natureza de contrato de adesão (art. 40 da Lei nº 8.987/1995), plenamente submetida à fiscalização regulatória.
+> - **D)** Incorreta. A concessão comum não pode ser delegada a pessoas físicas; exige pessoa jurídica ou consórcio de empresas.
+> - **E)** Incorreta. A extinção da concessão por interesse público superveniente é a **encampação** (ou resgate), que exige obrigatoriamente lei autorizativa específica e prévio pagamento de indenização. Caducidade é a extinção por inexecução culposa da concessionária.
+>
+> **Gabarito: B**
 
 ---
 
@@ -389,20 +382,6 @@ Nessas circunstâncias, a extinção antecipada do contrato de concessão por mo
 
 ---
 
-
-### 2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)
-
-As Parcerias Público-Privadas constituem concessões especiais destinadas a viabilizar investimentos vultosos de infraestrutura em colaboração com o capital privado:
-
-1. **Concessão Patrocinada (Art. 2º, § 1º):** É a concessão de serviços públicos ou obras públicas em que a remuneração da concessionária envolve a combinação de **tarifa paga pelos usuários** mais uma **contraprestação pecuniária complementar paga pelo parceiro público**.
-2. **Concessão Administrativa (Art. 2º, § 2º):** É o contrato de prestação de serviços de que a **Administração Pública seja a usuária direta ou indireta**, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é **100% custeada pelo erário**, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-3. **Vedações Legais Obrigatórias à Celebração de PPPs (Art. 2º, § 4º):**
-    - Contratos cujo valor total seja **inferior a R$ 10.000.000,00 (dez milhões de reais)**;
-    - Período de prestação de serviços **inferior a 5 (cinco) anos** ou superior a 35 (trinta e cinco) anos;
-    - Contratos que tenham por objeto único o fornecimento de mão de obra, a mera locação de equipamentos ou a execução isolada de obra pública sem prestação continuada de serviços.
-
----
-
 ### Teste 041
 **(FCC - Técnico de Controle Externo / Administrativa)**
 O Governo do Estado pretende estruturar um projeto de infraestrutura hospitalar sob o regime de Parceria Público-Privada (PPP), no qual a concessionária privada será responsável pela construção de um complexo médico-hospitalar e pela prestação dos serviços de conservação predial e gestão de equipamentos médicos. O hospital atenderá exclusivamente pelo Sistema Único de Saúde (SUS), sendo 100% dos custos da contraprestação remunerados diretamente pelo Poder Público estadual, sem nenhuma cobrança de tarifa dos usuários atendidos.
@@ -428,10 +407,7 @@ O Governo do Estado pretende estruturar um projeto de infraestrutura hospitalar 
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Bens Públicos: Classificação, Afetação e Prerrogativas
 
@@ -443,7 +419,24 @@ Conforme o art. 98 do Código Civil, são bens públicos todos aqueles pertencen
 - **Bens de Uso Especial (Art. 99, II):** Destinados à execução direta dos serviços públicos e ao funcionamento da máquina administrativa (edifícios de fóruns e tribunais, escolas públicas, hospitais estatais, viaturas policiais, quartéis).
 - **Bens Dominicais ou Dominicais (Art. 99, III):** Bens que constituem o patrimônio disponível do Estado sem destinação pública específica ou aplicação administrativa direta (terras devolutas, prédios públicos desativados, títulos da dívida pública, bens desapropriados e não afetados).
 
+### 3.2 Fenômeno da Afetação e Desafetação
 
+- **Afetação:** É a atribuição formal ou fática de uma destinação pública a determinado bem (o bem passa a ser de uso comum ou de uso especial). Enquanto afetado, o bem é **inalienável**.
+- **Desafetação:** É a retirada da destinação pública do bem, convertendo-o em bem dominical. Somente após a regular desafetação o bem público torna-se passível de alienação, observadas as exigências de autorização legislativa, interesse público justificado, avaliação prévia e procedimento licitatório.
+
+### 3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta
+
+O regime jurídico dos bens públicos é informado por quatro prerrogativas estruturantes:
+
+1. **Inalienabilidade Relativa:** Os bens de uso comum e de uso especial são inalienáveis enquanto conservarem sua qualificação pública. Os bens dominicais podem ser alienados, desde que cumpridos os requisitos da lei de licitações.
+2. **Impenhorabilidade:** Os bens públicos não podem ser objeto de penhora ou constrição judicial para garantia de dívidas. A execução contra a Fazenda Pública opera-se exclusivamente sob o regime constitucional de **precatórios judiciais ou requisições de pequeno valor - RPV** (CF, art. 100).
+3. **Imprescritibilidade Absoluta (Vedação de Usucapião):**  
+   O art. 183, § 3º e o art. 191, parágrafo único, da Constituição Federal, corroborados pela **Súmula 340 do STF**, preceituam que **nenhum bem público, qualquer que seja sua classificação (inclusive os bens dominicais), pode ser adquirido por usucapião**.
+    - *Natureza da Ocupação Irregular:* O particular que ocupa área pública sem título legítimo é considerado **mero detentor clandestino**. Não exerce posse jurídica tutelável, não tem direito a interditos possessórios contra o Estado e não faz jus a retenção ou indenização por benfeitorias realizadas.
+
+4. **Não-Onerabilidade:** Impossibilidade de que bens públicos sejam gravados com direitos reais de garantia em favor de terceiros (hipoteca, penhor, anticrese).
+
+---
 
 ### Teste 042
 **(FCC - Técnico de Controle Externo)**
@@ -472,13 +465,6 @@ Em relação ao regime jurídico de alienação e fruição dessas categorias de
 
 ---
 
-### 3.2 Fenômeno da Afetação e Desafetação
-
-- **Afetação:** É a atribuição formal ou fática de uma destinação pública a determinado bem (o bem passa a ser de uso comum ou de uso especial). Enquanto afetado, o bem é **inalienável**.
-- **Desafetação:** É a retirada da destinação pública do bem, convertendo-o em bem dominical. Somente após a regular desafetação o bem público torna-se passível de alienação, observadas as exigências de autorização legislativa, interesse público justificado, avaliação prévia e procedimento licitatório.
-
-
-
 ### Teste 043
 **(FGV - Analista de Controle Externo / TCE)**
 A afetação e a desafetação de bens públicos expressam a consagração ou a desvinculação de determinado bem a uma finalidade pública concreta. Sobre as formas de ocorrência e os efeitos jurídicos da afetação e desafetação, assinale a afirmativa correta.
@@ -501,20 +487,6 @@ A afetação e a desafetação de bens públicos expressam a consagração ou a 
 > - **E)** Incorreta. Os bens dominicais podem a qualquer momento ser afetados, bastando que a Administração instale neles uma repartição pública ou praça, transmudando-os em bens de uso especial ou comum.
 >
 > **Gabarito: B**
-
----
-
-### 3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta
-
-O regime jurídico dos bens públicos é informado por quatro prerrogativas estruturantes:
-
-1. **Inalienabilidade Relativa:** Os bens de uso comum e de uso especial são inalienáveis enquanto conservarem sua qualificação pública. Os bens dominicais podem ser alienados, desde que cumpridos os requisitos da lei de licitações.
-2. **Impenhorabilidade:** Os bens públicos não podem ser objeto de penhora ou constrição judicial para garantia de dívidas. A execução contra a Fazenda Pública opera-se exclusivamente sob o regime constitucional de **precatórios judiciais ou requisições de pequeno valor - RPV** (CF, art. 100).
-3. **Imprescritibilidade Absoluta (Vedação de Usucapião):**  
-   O art. 183, § 3º e o art. 191, parágrafo único, da Constituição Federal, corroborados pela **Súmula 340 do STF**, preceituam que **nenhum bem público, qualquer que seja sua classificação (inclusive os bens dominicais), pode ser adquirido por usucapião**.
-    - *Natureza da Ocupação Irregular:* O particular que ocupa área pública sem título legítimo é considerado **mero detentor clandestino**. Não exerce posse jurídica tutelável, não tem direito a interditos possessórios contra o Estado e não faz jus a retenção ou indenização por benfeitorias realizadas.
-
-4. **Não-Onerabilidade:** Impossibilidade de que bens públicos sejam gravados com direitos reais de garantia em favor de terceiros (hipoteca, penhor, anticrese).
 
 ---
 
@@ -543,10 +515,7 @@ Com base na disciplina constitucional e do Código Civil sobre bens públicos:
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Fontes Recomendadas na Internet
 

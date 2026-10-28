@@ -30,37 +30,30 @@
     - Fluxos e redes de comunicação: descendente, ascendente, horizontal/lateral e diagonal;
     - Barreiras à comunicação interpessoal: filtragem deliberada, percepção seletiva, sobrecarga informacional, desconfiança e barreiras semânticas.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [Grupos de Trabalho versus Equipes de Trabalho](#1-grupos-de-trabalho-versus-equipes-de-trabalho)
-    2. [Teste 410](#Teste-410)
-    3. [Teste 411](#Teste-411)
-    4. [O Modelo de Desenvolvimento de Grupos de Bruce Tuckman](#2-o-modelo-de-desenvolvimento-de-grupos-de-bruce-tuckman)
-    5. [Teste 412](#Teste-412)
-    6. [Teste 413](#Teste-413)
-    7. [Evolução das Teorias de Liderança e a Liderança Situacional](#3-evolucao-das-teorias-de-lideranca-e-a-lideranca-situacional)
-    8. [Teste 414](#Teste-414)
-    9. [Teste 415](#Teste-415)
-    10. [Liderança Transacional vs. Liderança Transformacional](#4-lideranca-transacional-vs-lideranca-transformacional)
-    11. [Teste 416](#Teste-416)
-    12. [O Processo de Comunicação Organizacional e suas Barreiras](#5-o-processo-de-comunicacao-organizacional-e-suas-barreiras)
-    13. [Teste 417](#Teste-417)
-    14. [Teste 418](#Teste-418)
-    15. [Teste 419](#Teste-419)
-    16. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+1. [Grupos de Trabalho versus Equipes de Trabalho](#1-grupos-de-trabalho-versus-equipes-de-trabalho)
+    1. [Teste 410](#Teste-410)
+    2. [Teste 411](#Teste-411)
+2. [O Modelo de Desenvolvimento de Grupos de Bruce Tuckman](#2-o-modelo-de-desenvolvimento-de-grupos-de-bruce-tuckman)
+    1. [Teste 412](#Teste-412)
+    2. [Teste 413](#Teste-413)
+3. [Evolução das Teorias de Liderança e a Liderança Situacional](#3-evolucao-das-teorias-de-lideranca-e-a-lideranca-situacional)
+    1. [Teste 414](#Teste-414)
+    2. [Teste 415](#Teste-415)
+4. [Liderança Transacional vs. Liderança Transformacional](#4-lideranca-transacional-vs-lideranca-transformacional)
+    1. [Teste 416](#Teste-416)
+5. [O Processo de Comunicação Organizacional e suas Barreiras](#5-o-processo-de-comunicacao-organizacional-e-suas-barreiras)
+    1. [Teste 417](#Teste-417)
+    2. [Teste 418](#Teste-418)
+    3. [Teste 419](#Teste-419)
+6. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. Grupos de Trabalho versus Equipes de Trabalho
+## 1. Grupos de Trabalho versus Equipes de Trabalho
 
 A distinção teórica entre grupo e equipe de trabalho é um dos pilares mais frequentes em provas de Comportamento Organizacional:
 
@@ -129,8 +122,6 @@ A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Traba
 
 ---
 
-
-
 ### Teste 411
 **(FCC - Adaptada / Analista de Gestão Pública)**
 No Comportamento Organizacional, a distinção entre **Grupo de Trabalho** e **Equipe de Trabalho** é fundamental para a gestão de pessoas.
@@ -155,8 +146,7 @@ Constitui característica essencial e distintiva de uma **Equipe de Trabalho** d
 
 ---
 
-
-### 2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman
+## 2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman
 
 Bruce Tuckman demonstrou que os grupos não nascem prontos e produtivos; eles atravessam **cinco estágios sequenciais de maturação psicossocial**:
 
@@ -201,8 +191,6 @@ De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce
 
 ---
 
-
-
 ### Teste 413
 **(FCC - Adaptada / Auditor de Controle Externo)**
 Bruce Tuckman propôs um modelo seminal que descreve os cinco estágios universais pelos quais passam os grupos e equipes ao longo de seu ciclo de desenvolvimento.
@@ -227,8 +215,7 @@ O estágio em que o grupo supera conflitos internos de poder, estabelece coesão
 
 ---
 
-
-### 3. Evolução das Teorias de Liderança e a Liderança Situacional
+## 3. Evolução das Teorias de Liderança e a Liderança Situacional
 
 A liderança é o processo social de exercer influência legítima e voluntária sobre indivíduos e grupos para direcioná-los ao alcance de metas. Difere da chefia formal: o gerente/chefe possui **autoridade formal** outorgada pela hierarquia; o líder possui **influência pessoal** legitimada pelos liderados.
 
@@ -292,8 +279,6 @@ A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kennet
 
 ---
 
-
-
 ### Teste 415
 **(FCC - Adaptada / Analista de Planejamento e Controle)**
 Na Teoria da Liderança Situacional formulada por Paul Hersey e Kenneth Blanchard, o estilo de liderança mais eficaz não é fixo, mas depende do nível de **prontidão (ou maturidade)** dos liderados para desempenhar uma tarefa específica.
@@ -320,8 +305,7 @@ Quando os liderados apresentam **baixa competência e alto comprometimento/motiv
 
 ---
 
-
-### 4. Liderança Transacional vs. Liderança Transformacional
+## 4. Liderança Transacional vs. Liderança Transformacional
 
 ```mermaid
 flowchart LR
@@ -363,9 +347,7 @@ No âmbito dos estudos sobre liderança nas organizações contemporâneas, o mo
 
 ---
 
-
-
-### 5. O Processo de Comunicação Organizacional e suas Barreiras
+## 5. O Processo de Comunicação Organizacional e suas Barreiras
 
 A comunicação é a transferência e compreensão de significados entre um emissor e um receptor. Seu fluxo operacional organiza-se nas seguintes etapas fundamentais:
 
@@ -424,8 +406,6 @@ Durante a elaboração de um relatório de fiscalização, determinado analista 
 
 ---
 
-
-
 ### Teste 418
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na moderna literatura sobre liderança, Bernard Bass consagrou a contraposição entre **Liderança Transacional** e **Liderança Transformacional**.
@@ -476,8 +456,7 @@ No processo de comunicação organizacional, a barreira que ocorre quando o emis
 
 ---
 
-
-### 6. Fontes Oficiais e Referências Bibliográficas
+## 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto Federal nº 9.203/2017 (Mecanismo de Liderança na Governança)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Práticas para desenvolvimento de líderes, comunicação transparente e conduta ética.
 * [TCU - Referencial Básico de Governança: Práticas do Mecanismo de Liderança](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Competências de liderança e papel dos gestores na motivação de equipes públicas.

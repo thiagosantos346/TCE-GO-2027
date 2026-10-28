@@ -20,10 +20,7 @@
 - Mecanismos de nominalização e concisão textual;
 - Emprego correto das quatro formas dos porquês (*por que*, *por quê*, *porque* e *porquê*).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -35,15 +32,15 @@
 2. [Paralelismo Sintático e Semântico](#2-paralelismo-sintatico-e-semantico)
     1. [Princípio da Simetria Estrutural em Termos Coordenados](#21-principio-da-simetria-estrutural-em-termos-coordenados)
     2. [Paralelismo em Estruturas Correlativas](#22-paralelismo-em-estruturas-correlativas)
-    3. [Teste 053](#Teste-053)
-    4. [Casos Típicos de Quebra de Paralelismo e Métodos de Correção](#23-casos-tipicos-de-quebra-de-paralelismo-e-metodos-de-correcao)
+    3. [Casos Típicos de Quebra de Paralelismo e Métodos de Correção](#23-casos-tipicos-de-quebra-de-paralelismo-e-metodos-de-correcao)
+    4. [Teste 053](#Teste-053)
     5. [Teste 054](#Teste-054)
 3. [Ambiguidade e Vícios de Construção Frasal](#3-ambiguidade-e-vicios-de-construcao-frasal)
     1. [Ambiguidade Estrutural vs. Ambiguidade Lexical](#31-ambiguidade-estrutural-vs-ambiguidade-lexical)
     2. [Ambiguidade pelo Mau Emprego de Pronomes Possessivos (Seu/Sua)](#32-ambiguidade-pelo-mau-emprego-de-pronomes-possessivos-seusua)
-    3. [Teste 055](#Teste-055)
-    4. [O Mau Posicionamento de Adjuntos Adverbiais e Orações Reduzidas](#33-o-mau-posicionamento-de-adjuntos-adverbiais-e-oracoes-reduzidas)
-    5. [O Emprego Vicioso do Vocábulo O Mesmo](#34-o-emprego-vicioso-do-vocabulo-o-mesmo)
+    3. [O Mau Posicionamento de Adjuntos Adverbiais e Orações Reduzidas](#33-o-mau-posicionamento-de-adjuntos-adverbiais-e-oracoes-reduzidas)
+    4. [O Emprego Vicioso do Vocábulo O Mesmo](#34-o-emprego-vicioso-do-vocabulo-o-mesmo)
+    5. [Teste 055](#Teste-055)
     6. [Teste 056](#Teste-056)
 4. [Organização e Reorganização de Orações e Períodos](#4-organizacao-e-reorganizacao-de-oracoes-e-periodos)
     1. [Ordem Direta e os Efeitos Comunicativos das Inversões](#41-ordem-direta-e-os-efeitos-comunicativos-das-inversoes)
@@ -53,23 +50,22 @@
 5. [Equivalência, Transformação de Estruturas e Paráfrase](#5-equivalencia-transformacao-de-estruturas-e-parafrase)
     1. [Critérios Cumulativos da Paráfrase Legítima](#51-criterios-cumulativos-da-parafrase-legitima)
     2. [Transposição entre Orações Desenvolvidas e Reduzidas](#52-transposicao-entre-oracoes-desenvolvidas-e-reduzidas)
-    3. [Teste 058](#Teste-058)
-    4. [Matriz de Substituição e Equivalência de Conectivos](#53-matriz-de-substituicao-e-equivalencia-de-conectivos)
-    5. [Teste 059](#Teste-059)
-    6. [Mecanismos de Nominalização e Concisão Textual](#54-mecanismos-de-nominalizacao-e-concisao-textual)
-    7. [Transposição de Vozes Verbais na Reescrita](#55-transposicao-de-vozes-verbais-na-reescrita)
+    3. [Matriz de Substituição e Equivalência de Conectivos](#53-matriz-de-substituicao-e-equivalencia-de-conectivos)
+    4. [Mecanismos de Nominalização e Concisão Textual](#54-mecanismos-de-nominalizacao-e-concisao-textual)
+    5. [Transposição de Vozes Verbais na Reescrita](#55-transposicao-de-vozes-verbais-na-reescrita)
+    6. [Teste 058](#Teste-058)
+    7. [Teste 059](#Teste-059)
 6. [O Emprego Correto das Quatro Formas dos Porquês](#6-o-emprego-correto-das-quatro-formas-dos-porques)
     1. [Por que: Interrogativo e Relativo](#61-por-que-interrogativo-e-relativo)
     2. [Por quê: Isolado ou Imediatamente Antes de Pontuação](#62-por-que-isolado-ou-imediatamente-antes-de-pontuacao)
     3. [Porque: Conjunção Causal ou Explicativa](#63-porque-conjuncao-causal-ou-explicativa)
     4. [Porquê: Substantivo com Artigo ou Determinante](#64-porque-substantivo-com-artigo-ou-determinante)
-    5. [Teste 060](#Teste-060)
-    6. [Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A](#65-distincoes-lexicas-adicionais-a-fim-de-vs-afim-e-ao-encontro-de-vs-de-encontro-a)
+    5. [Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A](#65-distincoes-lexicas-adicionais-a-fim-de-vs-afim-e-ao-encontro-de-vs-de-encontro-a)
+    6. [Teste 060](#Teste-060)
     7. [Teste 061](#Teste-061)
-7. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+7. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC
 
@@ -114,6 +110,7 @@ A língua culta formal não admite o uso de pronomes pessoais do caso reto (*ele
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Ao ler uma alternativa da FCC, desconfie sumariamente de sentenças que terminam com construções do tipo: *"A nova lei orçamentária trouxe regras rígidas e o gestor deve cumprir elas"*. Essa frase está eivada de erro gramatical inadmissível na norma culta! A forma exigida é com pronome oblíquo enclítico ajustado à terminação consonantal: *"deve cumpri-las"*.
 
+---
 
 ### Teste 052
 **(FCC – TRT-23 – Analista Judiciário)**  
@@ -138,10 +135,7 @@ As normas de concordância, regência e colocação pronominal estão plenamente
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Paralelismo Sintático e Semântico
 
@@ -161,6 +155,15 @@ Nas estruturas formadas por pares de conectivos correlativos (*não só... mas t
 
 * **Construção Perfeita:** *"O tribunal busca aprimorar os mecanismos de fiscalização **não só para conferir transparência**, **mas também para garantir a legalidade**."* (ambos estruturados por oração subordinada final reduzida de infinitivo: *para conferir* $\leftrightarrow$ *para garantir*).
 * **Construção Defeituosa (Quebra de Paralelismo):** *"O tribunal busca aprimorar os mecanismos **não só para conferir transparência**, **mas garantindo a legalidade**."* (misturou oração com preposição + infinitivo com oração reduzida no gerúndio).
+
+### 2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção
+
+| Frase com Quebra de Paralelismo (Incorreta) | Causa do Desvio | Frase com Paralelismo Perfeito (Correta) |
+| :--- | :--- | :--- |
+| *"A equipe dedicou-se **a examinar** os contratos e **na verificação** das certidões."* | Misturou verbo no infinitivo regido por *a* com substantivo preposicionado em *em*. | *"A equipe dedicou-se **a examinar** os contratos e **a verificar** as certidões."* |
+| *"A auditoria constatou **o desvio** de verbas e **que faltavam** documentos."* | Coordenou um substantivo simples (*o desvio*) com uma oração desenvolvida (*que faltavam*). | *"A auditoria constatou **o desvio** de verbas e **a falta** de documentos."* |
+| *"O tribunal tem como atribuição **fiscalizar** as contas e **a emissão** de pareceres."* | Coordenou forma verbal no infinitivo (*fiscalizar*) com substantivo abstrato (*a emissão*). | *"O tribunal tem como atribuição **fiscalizar** as contas e **emitir** pareceres."* |
+| *"A comissão propôs **a revisão** das medições e **que se fizesse** nova perícia."* | Coordenou frase nominal com oração subordinada substantiva. | *"A comissão propôs **a revisão** das medições e **a realização** de nova perícia."* |
 
 ---
 
@@ -189,18 +192,6 @@ A frase cuja redação prima pela clareza, pela concisão e pela **estrita corre
 
 ---
 
-
-### 2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção
-
-| Frase com Quebra de Paralelismo (Incorreta) | Causa do Desvio | Frase com Paralelismo Perfeito (Correta) |
-| :--- | :--- | :--- |
-| *"A equipe dedicou-se **a examinar** os contratos e **na verificação** das certidões."* | Misturou verbo no infinitivo regido por *a* com substantivo preposicionado em *em*. | *"A equipe dedicou-se **a examinar** os contratos e **a verificar** as certidões."* |
-| *"A auditoria constatou **o desvio** de verbas e **que faltavam** documentos."* | Coordenou um substantivo simples (*o desvio*) com uma oração desenvolvida (*que faltavam*). | *"A auditoria constatou **o desvio** de verbas e **a falta** de documentos."* |
-| *"O tribunal tem como atribuição **fiscalizar** as contas e **a emissão** de pareceres."* | Coordenou forma verbal no infinitivo (*fiscalizar*) com substantivo abstrato (*a emissão*). | *"O tribunal tem como atribuição **fiscalizar** as contas e **emitir** pareceres."* |
-| *"A comissão propôs **a revisão** das medições e **que se fizesse** nova perícia."* | Coordenou frase nominal com oração subordinada substantiva. | *"A comissão propôs **a revisão** das medições e **a realização** de nova perícia."* |
-
----
-
 ### Teste 054
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A frase que apresenta **quebra de paralelismo sintático** é:
@@ -224,10 +215,7 @@ A frase que apresenta **quebra de paralelismo sintático** é:
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 3. Ambiguidade e Vícios de Construção Frasal
 
@@ -247,6 +235,20 @@ No português moderno, os pronomes possessivos de terceira pessoa (*seu, sua, se
 * **Método de Saneamento Técnico:** Substitui-se o pronome ambíguo pelas locuções possessivas inequívocas **dele / dela / de você / de Vossa Excelência**:
     * *"O presidente comunicou ao conselheiro a transferência da assessoria **dele** [do conselheiro] para o novo gabinete."*
     * *"O presidente comunicou ao conselheiro que a assessoria **deste** seria transferida."*
+
+### 3.3 O Mau Posicionamento de Adjuntos Adverbiais e Orações Reduzidas
+
+O deslocamento impróprio de adjuntos circunstanciais pode fazê-los incidir sobre orações que não lhes correspondem:
+
+* *"O auditor disse que realizaria a vistoria calmamente."* (O auditor falou com calma ou a vistoria é que seria executada com calma?).
+* Saneamento: antecipar o advérbio para junto do verbo que se deseja qualificar: *"O auditor disse calmamente que realizaria a vistoria"* OU *"O auditor disse que, calmamente, realizaria a vistoria"*.
+
+### 3.4 O Emprego Vicioso do Vocábulo O Mesmo
+
+O Manual de Redação da Presidência da República e a boa gramática normativa condenam expressamente o uso das formas *o mesmo, a mesma, os mesmos, as mesmas* como pronomes anafóricos para substituir pessoas ou coisas:
+
+* *"O presidente assinou o parecer e encaminhou o mesmo ao plenário"* $\rightarrow$ **Vício de linguagem**.
+* **Forma escorreita:** Deve-se substituir por pronome oblíquo (*"encaminhou-o ao plenário"*), por pronome demonstrativo (*"encaminhou este ao plenário"*) ou por elipse pura (*"assinou o parecer e encaminhou ao plenário"*).
 
 ---
 
@@ -277,22 +279,6 @@ Assinale a alternativa em que a reescrita da frase entre parênteses elimina a a
 
 ---
 
-
-### 3.3 O Mau Posicionamento de Adjuntos Adverbiais e Orações Reduzidas
-
-O deslocamento impróprio de adjuntos circunstanciais pode fazê-los incidir sobre orações que não lhes correspondem:
-
-* *"O auditor disse que realizaria a vistoria calmamente."* (O auditor falou com calma ou a vistoria é que seria executada com calma?).
-* Saneamento: antecipar o advérbio para junto do verbo que se deseja qualificar: *"O auditor disse calmamente que realizaria a vistoria"* OU *"O auditor disse que, calmamente, realizaria a vistoria"*.
-
-### 3.4 O Emprego Vicioso do Vocábulo O Mesmo
-
-O Manual de Redação da Presidência da República e a boa gramática normativa condenam expressamente o uso das formas *o mesmo, a mesma, os mesmos, as mesmas* como pronomes anafóricos para substituir pessoas ou coisas:
-
-* *"O presidente assinou o parecer e encaminhou o mesmo ao plenário"* $\rightarrow$ **Vício de linguagem**.
-* **Forma escorreita:** Deve-se substituir por pronome oblíquo (*"encaminhou-o ao plenário"*), por pronome demonstrativo (*"encaminhou este ao plenário"*) ou por elipse pura (*"assinou o parecer e encaminhou ao plenário"*).
-
-
 ### Teste 056
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Considere as seguintes frases elaboradas em redação administrativa:  
@@ -321,10 +307,7 @@ Quanto à clareza, ambiguidade e conformidade com a norma-padrão:
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 4. Organização e Reorganização de Orações e Períodos
 
@@ -353,6 +336,7 @@ A reorganização de um período não pode corromper a progressão tópica. Os c
 * Preservar os operadores argumentativos que introduzem argumentos mais fortes (*mas, inclusive, até mesmo*);
 * Evitar parágrafos construídos por acúmulo excessivo de orações adjetivas encaixadas em cadeia (*que... que... que...* — vício do "queísmo"), saneando-as por meio de nominalizações ou transformações em orações reduzidas.
 
+---
 
 ### Teste 057
 **(FCC – DPE-RS – Analista Jurídico)**  
@@ -378,10 +362,7 @@ Assinale a alternativa que propõe uma redação clara, coesa, concisa e inteira
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 5. Equivalência, Transformação de Estruturas e Paráfrase
 
@@ -420,6 +401,32 @@ Uma das técnicas prediletas de transformação de períodos na banca FCC é a c
     * *"**A despeito das advertências** emitidas pelo órgão, mantiveram as práticas."*
     * $\rightarrow$ *"**Embora o órgão tenha emitido** advertências, mantiveram as práticas."*
 
+### 5.3 Matriz de Substituição e Equivalência de Conectivos
+
+A substituição de conectivos somente é legítima se pertencerem à mesma família semântica:
+
+* **Causais equivalentes:** *porque, visto que, já que, uma vez que, porquanto, como* (anteposto);
+* **Concessivos equivalentes:** *embora, conquanto, ainda que, mesmo que, a despeito de, posto que, se bem que*;
+* **Conclusivos equivalentes:** *logo, portanto, por conseguinte, por isso, de modo que, pois* (posposto ao verbo e entre vírgulas);
+* **Proporcionais equivalentes:** *à medida que, à proporção que, ao passo que*. Cuidado: a expressão *"à medida em que"* é considerada híbrida e incorreta pela norma padrão; a forma aceita é *à medida que*.
+
+### 5.4 Mecanismos de Nominalização e Concisão Textual
+
+A nominalização consiste em converter uma oração verbal em um sintagma nominal construído em torno de um substantivo abstrato cognato:
+
+* Oração Verbal: *"Quando os diretores **compareceram** ao tribunal e **apresentaram** a defesa..."*
+* Sintagma Nominalizado: *"Com o **comparecimento** dos diretores ao tribunal e a **apresentação** da defesa..."*
+* Efeito: ganha-se concisão, densidade conceitual e formalidade, características valorizadas pela FCC em relatórios técnicos.
+
+### 5.5 Transposição de Vozes Verbais na Reescrita
+
+A equivalência sintática frequentemente explora a alternância entre voz ativa e passiva analítica ou sintética:
+
+* Ativa: *"Os auditores de controle externo apuraram todas as inconsistências no cronograma."*
+* Passiva Analítica: *"Todas as inconsistências no cronograma foram apuradas pelos auditores de controle externo."*
+* Passiva Sintética: *"Apuraram-se todas as inconsistências no cronograma."*
+* Todas as três formulações são semanticamente equivalentes e mantêm rigorosa correção.
+
 ---
 
 ### Teste 058
@@ -446,19 +453,6 @@ Uma reescrita que preserva a correção gramatical e as **mesmas relações lóg
 > - **E)** Incorreta. Deturpou o sentido para conformidade (*Conforme*), além de empregar uma construção defeituosa no segmento final (*multaram-se os ordenadores* em vez de foram multados).
 > 
 > **Gabarito: B**
-
----
-
-
-### 5.3 Matriz de Substituição e Equivalência de Conectivos
-
-A substituição de conectivos somente é legítima se pertencerem à mesma família semântica:
-
-* **Causais equivalentes:** *porque, visto que, já que, uma vez que, porquanto, como* (anteposto);
-* **Concessivos equivalentes:** *embora, conquanto, ainda que, mesmo que, a despeito de, posto que, se bem que*;
-* **Conclusivos equivalentes:** *logo, portanto, por conseguinte, por isso, de modo que, pois* (posposto ao verbo e entre vírgulas);
-* **Proporcionais equivalentes:** *à medida que, à proporção que, ao passo que*. Cuidado: a expressão *"à medida em que"* é considerada híbrida e incorreta pela norma padrão; a forma aceita é *à medida que*.
-
 
 ---
 
@@ -489,28 +483,6 @@ Mantendo-se estritamente o sentido original e a correção gramatical, o períod
 > **Gabarito: B**
 
 ---
-
-### 5.4 Mecanismos de Nominalização e Concisão Textual
-
-A nominalização consiste em converter uma oração verbal em um sintagma nominal construído em torno de um substantivo abstrato cognato:
-
-* Oração Verbal: *"Quando os diretores **compareceram** ao tribunal e **apresentaram** a defesa..."*
-* Sintagma Nominalizado: *"Com o **comparecimento** dos diretores ao tribunal e a **apresentação** da defesa..."*
-* Efeito: ganha-se concisão, densidade conceitual e formalidade, características valorizadas pela FCC em relatórios técnicos.
-
-### 5.5 Transposição de Vozes Verbais na Reescrita
-
-A equivalência sintática frequentemente explora a alternância entre voz ativa e passiva analítica ou sintética:
-
-* Ativa: *"Os auditores de controle externo apuraram todas as inconsistências no cronograma."*
-* Passiva Analítica: *"Todas as inconsistências no cronograma foram apuradas pelos auditores de controle externo."*
-* Passiva Sintética: *"Apuraram-se todas as inconsistências no cronograma."*
-* Todas as três formulações são semanticamente equivalentes e mantêm rigorosa correção.
-
-
-
----
-
 
 ## 6. O Emprego Correto das Quatro Formas dos Porquês
 
@@ -553,6 +525,18 @@ A grafia **junta e com acento circunflexo** consubstancia um **substantivo mascu
 * *"O conselheiro relator desvendou **o porquê** de tantas notas fiscais emitidas sem atesto de entrega."*
 * *"Gostaria de saber **um porquê** plausível para tamanha discrepância orçamentária."*
 
+### 6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A
+
+Para garantir a perfeição no confronto de frases da FCC:
+
+1. **A Fim De vs. Afim:**
+    * **A fim de (separado):** locução prepositiva de finalidade (= com o objetivo de, com o propósito de): *"Reuniram-se **a fim de** deliberar sobre as diretrizes"*.
+    * **Afim (junto):** adjetivo que expressa parentesco, semelhança ou afinidade de interesses: *"Possuíam ideias **afins** sobre auditoria"*; *"Parentes **afins**"*.
+
+2. **Ao Encontro De vs. De Encontro A:**
+    * **Ao encontro de:** indica concordância, harmonia, aproximação favorável: *"A decisão do pleno foi **ao encontro dos** anseios da sociedade"*.
+    * **De encontro a:** indica colisão, choque, oposição, contrariedade: *"O reajuste salarial sem previsão orçamentária vai **de encontro às** determinações da LRF"*.
+
 ---
 
 ### Teste 060
@@ -590,20 +574,6 @@ O emprego das palavras sublinhadas está plenamente correto em:
 
 ---
 
-
-### 6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A
-
-Para garantir a perfeição no confronto de frases da FCC:
-
-1. **A Fim De vs. Afim:**
-    * **A fim de (separado):** locução prepositiva de finalidade (= com o objetivo de, com o propósito de): *"Reuniram-se **a fim de** deliberar sobre as diretrizes"*.
-    * **Afim (junto):** adjetivo que expressa parentesco, semelhança ou afinidade de interesses: *"Possuíam ideias **afins** sobre auditoria"*; *"Parentes **afins**"*.
-
-2. **Ao Encontro De vs. De Encontro A:**
-    * **Ao encontro de:** indica concordância, harmonia, aproximação favorável: *"A decisão do pleno foi **ao encontro dos** anseios da sociedade"*.
-    * **De encontro a:** indica colisão, choque, oposição, contrariedade: *"O reajuste salarial sem previsão orçamentária vai **de encontro às** determinações da LRF"*.
-
-
 ### Teste 061
 **(FCC – METRÔ-SP – Advogado)**  
 Considere as frases a seguir quanto à precisão vocabular e semântica de suas locuções:  
@@ -634,10 +604,7 @@ Estão redigidas com absoluta propriedade lexical e sintática as frases:
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

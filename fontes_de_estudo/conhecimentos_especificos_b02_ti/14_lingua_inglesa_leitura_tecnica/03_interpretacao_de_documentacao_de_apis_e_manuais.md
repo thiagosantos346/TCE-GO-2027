@@ -15,27 +15,24 @@
 - Leitura crítica de artigos científicos e papers de tecnologia da informação
 - Linguagem prescritiva e advertências técnicas (RFC 2119: MUST, SHOULD, MAY)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)](#1-linguagem-normativa-e-prescritiva-de-engenharia-rfc-2119-rfc-8174)
     1. [Os Níveis Normativos Canônicos](#11-os-niveis-normativos-canonicos)
-    2. [Teste 585](#Teste-585)
-    3. [Matriz de Conformidade Técnica da RFC 2119](#12-matriz-de-conformidade-tecnica-da-rfc-2119)
+    2. [Matriz de Conformidade Técnica da RFC 2119](#12-matriz-de-conformidade-tecnica-da-rfc-2119)
+    3. [Teste 585](#Teste-585)
     4. [Teste 586](#Teste-586)
     5. [Teste 587](#Teste-587)
 2. [Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)](#2-interpretacao-de-documentacao-de-apis-rest-openapi-swagger-e-graphql)
     1. [Estrutura de Rotas, Métodos HTTP e Idempotência](#21-estrutura-de-rotas-metodos-http-e-idempotencia)
-    2. [Teste 588](#Teste-588)
-    3. [Parâmetros de Requisição e Schemas de Dados JSON](#22-parametros-de-requisicao-e-schemas-de-dados-json)
-    4. [Teste 589](#Teste-589)
-    5. [Códigos de Status HTTP Críticos e Cabeçalhos de Resposta](#23-codigos-de-status-http-criticos-e-cabecalhos-de-resposta)
-    6. [Teste 590](#Teste-590)
-    7. [Documentação de APIs GraphQL (Queries, Mutations e Types)](#24-documentacao-de-apis-graphql-queries-mutations-e-types)
+    2. [Parâmetros de Requisição e Schemas de Dados JSON](#22-parametros-de-requisicao-e-schemas-de-dados-json)
+    3. [Códigos de Status HTTP Críticos e Cabeçalhos de Resposta](#23-codigos-de-status-http-criticos-e-cabecalhos-de-resposta)
+    4. [Documentação de APIs GraphQL (Queries, Mutations e Types)](#24-documentacao-de-apis-graphql-queries-mutations-e-types)
+    5. [Teste 588](#Teste-588)
+    6. [Teste 589](#Teste-589)
+    7. [Teste 590](#Teste-590)
     8. [Teste 591](#Teste-591)
 3. [Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas](#3-interpretacao-de-manuais-tecnicos-e-guias-de-configuracao-de-sistemas)
     1. [Verbos Operacionais no Modo Imperativo](#31-verbos-operacionais-no-modo-imperativo)
@@ -45,14 +42,13 @@
     5. [Teste 592](#Teste-592)
 4. [Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)](#4-leitura-critica-de-artigos-cientificos-e-papers-de-ti-ieee-acm-arxiv)
     1. [Anatomia Estrutural de um Artigo de Vanguarda](#41-anatomia-estrutural-de-um-artigo-de-vanguarda)
-    2. [Teste 593](#Teste-593)
-    3. [A Metodologia Three-Pass sob Pressão de Tempo de Prova](#42-a-metodologia-three-pass-sob-pressao-de-tempo-de-prova)
-    4. [Léxico de Validação Experimental e Evidências Empíricas](#43-lexico-de-validacao-experimental-e-evidencias-empiricas)
+    2. [A Metodologia Three-Pass sob Pressão de Tempo de Prova](#42-a-metodologia-three-pass-sob-pressao-de-tempo-de-prova)
+    3. [Léxico de Validação Experimental e Evidências Empíricas](#43-lexico-de-validacao-experimental-e-evidencias-empiricas)
+    4. [Teste 593](#Teste-593)
     5. [Teste 594](#Teste-594)
-5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)
 
@@ -85,6 +81,19 @@ flowchart TD
 4. **SHOULD NOT / NOT RECOMMENDED (Fortemente Desaconselhado):** Expressam que determinada conduta técnica deve ser evitada sob condições normais de operação. Desvios somente são tolerados em situações excepcionais de contorno devidamente motivadas.
 5. **MAY / OPTIONAL (Opcional / Facultativo):** Indicam um recurso verdadeiramente opcional (*truly optional*). O implementador detém a faculdade discricionária de incluir ou omitir o atributo sem comprometer a interoperabilidade com outros sistemas que seguem o padrão.
 
+### 1.2 Matriz de Conformidade Técnica da RFC 2119
+
+| Termo em Maiúsculas | Definição Oficial IETF | Significado Prático em Auditoria e TI | O que NÃO Significa (Pegadinha FCC) |
+| :--- | :--- | :--- | :--- |
+| **MUST** / **SHALL** / **REQUIRED** | Exigência absoluta da especificação. | Mandatório. Ausência implica rejeição e não-conformidade estrita. | NÃO é sugestão, boa prática ou opcionalidade. |
+| **MUST NOT** / **SHALL NOT** | Proibição absoluta da especificação. | Proibição expressa. Qualquer execução viola o padrão. | NÃO é mera ressalva dispensável. |
+| **SHOULD** / **RECOMMENDED** | Fortemente recomendado com abertura para exceções fundamentadas. | Padrão ouro a ser seguido; desvios exigem justificativa técnica formal. | NÃO é uma imposição cega inegociável, e NÃO é uma opção arbitrária sem critérios. |
+| **SHOULD NOT** / **NOT RECOMMENDED** | Desaconselhamento enfático em operação padrão. | Conduta indesejada; implementação aceitável apenas em exceções marginais. | NÃO é um veto absoluto em 100% dos casos marginais. |
+| **MAY** / **OPTIONAL** | Funcionalidade totalmente discricionária. | Facultativo. Não gera penalidades de conformidade. | NÃO é uma recomendação preferencial e NÃO é obrigatório. |
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A FCC adora afirmar que o termo **"SHOULD"** impõe um mandamento inegociável sob qualquer pretexto. Trata-se de erro recorrente. A RFC 2119 expressamente ressalva que podem existir cenários peculiares que justifiquem a não observância do *SHOULD*, cabendo ao engenheiro mensurar os impactos (*the full implications must be understood and carefully weighed*).
+
 ---
 
 ### Teste 585
@@ -113,21 +122,6 @@ De acordo com as diretrizes formais de interpretação normativa da IETF (RFC 21
 > - **E)** Incorreta. A regra central da RFC 2119 e RFC 8174 é justamente que essas palavras têm significado prescritivo estrito quando grafadas em **letras maiúsculas** (*UPPERCASE*).
 > 
 > **Gabarito: B**
-
----
-
-### 1.2 Matriz de Conformidade Técnica da RFC 2119
-
-| Termo em Maiúsculas | Definição Oficial IETF | Significado Prático em Auditoria e TI | O que NÃO Significa (Pegadinha FCC) |
-| :--- | :--- | :--- | :--- |
-| **MUST** / **SHALL** / **REQUIRED** | Exigência absoluta da especificação. | Mandatório. Ausência implica rejeição e não-conformidade estrita. | NÃO é sugestão, boa prática ou opcionalidade. |
-| **MUST NOT** / **SHALL NOT** | Proibição absoluta da especificação. | Proibição expressa. Qualquer execução viola o padrão. | NÃO é mera ressalva dispensável. |
-| **SHOULD** / **RECOMMENDED** | Fortemente recomendado com abertura para exceções fundamentadas. | Padrão ouro a ser seguido; desvios exigem justificativa técnica formal. | NÃO é uma imposição cega inegociável, e NÃO é uma opção arbitrária sem critérios. |
-| **SHOULD NOT** / **NOT RECOMMENDED** | Desaconselhamento enfático em operação padrão. | Conduta indesejada; implementação aceitável apenas em exceções marginais. | NÃO é um veto absoluto em 100% dos casos marginais. |
-| **MAY** / **OPTIONAL** | Funcionalidade totalmente discricionária. | Facultativo. Não gera penalidades de conformidade. | NÃO é uma recomendação preferencial e NÃO é obrigatório. |
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A FCC adora afirmar que o termo **"SHOULD"** impõe um mandamento inegociável sob qualquer pretexto. Trata-se de erro recorrente. A RFC 2119 expressamente ressalva que podem existir cenários peculiares que justifiquem a não observância do *SHOULD*, cabendo ao engenheiro mensurar os impactos (*the full implications must be understood and carefully weighed*).
 
 ---
 
@@ -194,10 +188,7 @@ Based on reading technical manuals and understanding operational directives, it 
 > 
 > **Gabarito: D**
 
-
-
 ---
-
 
 ## 2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)
 
@@ -238,6 +229,55 @@ O design RESTful organiza as interações por meio de URIs de recursos e verbos 
 - **PATCH:** Aplica modificações parciais a atributos pontuais do recurso.
 - **DELETE:** Remove o recurso indicado. Operação **idempotente** (a exclusão de um recurso já excluído mantém o estado de recurso ausente).
 
+### 2.2 Parâmetros de Requisição e Schemas de Dados JSON
+
+Nas especificações OpenAPI 3.0 / Swagger, os parâmetros distribuem-se em quatro categorias fundamentais:
+
+- **Path Parameters (`/taxpayers/{id}`):** Integram a hierarquia da URL e identificam instâncias unívocas de recursos. São invariavelmente obrigatórios.
+- **Query Parameters (`?fiscal_year=2026&status=audited&limit=50&offset=100`):** Utilizados para filtragem, ordenação (*sorting*) e paginação de coleções.
+- **Header Parameters:** Transportam metadados essenciais de rede e segurança:
+    - `Authorization: Bearer <token_jwt>`: Credencial criptográfica de autenticação.
+    - `Content-Type: application/json`: Informa a codificação do payload transmitido.
+    - `Accept: application/json`: Comunica o formato que o cliente está apto a receber.
+- **Request Body (Corpo da Requisição / Payload):** Estrutura hierárquica contendo os campos de dados:
+    - `required: true`: Sinaliza que o bloco ou os campos listados no array `required:` são indispensáveis. A omissão acarreta rejeição da mensagem.
+    - `properties`: Mapeia cada atributo com suas restrições de validação (`type: string`, `pattern: '^\d{14}$'`, `minimum: 0.0`).
+
+### 2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta
+
+A compreensão precisa das famílias de códigos de status HTTP é intensamente avaliada em provas:
+
+- **Família 2xx (Success):**
+    - `200 OK`: Requisição bem-sucedida com retorno de dados.
+    - `201 Created`: Criação bem-sucedida de um novo recurso no servidor (resposta clássica a `POST`).
+    - `204 No Content`: Ação processada com êxito, sem corpo textual de retorno (comum em `DELETE`).
+- **Família 4xx (Client Error - Erros Originados no Cliente):**
+    - `400 Bad Request`: Erro de sintaxe da requisição (JSON malformado, quebra de delimitadores, tipos primitivos ilegíveis).
+    - `401 Unauthorized`: Falha de **autenticação**. O cliente não forneceu credenciais válidas ou o token expirou.
+    - `403 Forbidden`: O cliente está autenticado com sucesso, mas suas permissões/papéis (*roles*) **não autorizam** o acesso à rota solicitada.
+    - `404 Not Found`: A URI solicitada não corresponde a nenhum recurso existente.
+    - `409 Conflict`: Conflito com o estado atual do recurso (ex.: tentativa de cadastrar registro com chave primária já existente).
+    - `422 Unprocessable Entity`: A sintaxe do JSON está impecável, mas os dados contêm **erros semânticos ou violações de regras de negócio** (ex.: valor negativo em receita declarada, CPF com dígitos verificadores inválidos).
+    - `429 Too Many Requests`: Limite de taxa de requisições excedido (*rate limiting / throttling*). Vem associado ao cabeçalho `Retry-After: <segundos>`, que estipula o tempo de espera obrigatório antes de nova tentativa.
+- **Família 5xx (Server Error - Falhas Internas do Provedor):**
+    - `500 Internal Server Error`: Exceção inesperada não tratada pela aplicação.
+    - `502 Bad Gateway`: O proxy reverso ou gateway recebeu resposta corrompida do microsserviço de backend.
+    - `503 Service Unavailable`: Servidor temporariamente incapacitado por sobrecarga ou manutenção programada.
+    - `504 Gateway Timeout`: O gateway expirou aguardando a resposta do serviço interno.
+
+> 💡 **Diferença Crítica FCC (401 vs. 403):**  
+>
+> - **401 Unauthorized** $\rightarrow$ *Quem é você?* (Problema de Identidade / Autenticação).  
+> - **403 Forbidden** $\rightarrow$ *Eu sei quem você é, mas você não tem permissão para entrar aqui.* (Problema de Privilégio / Autorização).
+
+### 2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)
+
+Diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o padrão GraphQL opera via endpoint único (`POST /graphql`). A documentação orienta-se por esquemas de tipagem estrita (*Schema Definition Language - SDL*):
+
+- **Query:** Operação de consulta somente-leitura.
+- **Mutation:** Operação de escrita que gera efeitos colaterais de criação, atualização ou remoção.
+- **Modifiers de Obrigatoriedade:** O caractere de exclamação `!` ao final do tipo indica campo não-nulo e mandatório (ex.: `id: ID!`, `revenue: Float!`).
+
 ---
 
 ### Teste 588
@@ -268,22 +308,6 @@ Considerando a semântica dos verbos HTTP na arquitetura RESTful e a documentaç
 > - **E)** Incorreta. A segurança da camada de transporte (HTTPS/TLS) protege a confidencialidade e integridade dos dados em trânsito, mas em nada altera a semântica operacional de idempotência da camada de aplicação HTTP.
 > 
 > **Gabarito: B**
-
----
-
-### 2.2 Parâmetros de Requisição e Schemas de Dados JSON
-
-Nas especificações OpenAPI 3.0 / Swagger, os parâmetros distribuem-se em quatro categorias fundamentais:
-
-- **Path Parameters (`/taxpayers/{id}`):** Integram a hierarquia da URL e identificam instâncias unívocas de recursos. São invariavelmente obrigatórios.
-- **Query Parameters (`?fiscal_year=2026&status=audited&limit=50&offset=100`):** Utilizados para filtragem, ordenação (*sorting*) e paginação de coleções.
-- **Header Parameters:** Transportam metadados essenciais de rede e segurança:
-    - `Authorization: Bearer <token_jwt>`: Credencial criptográfica de autenticação.
-    - `Content-Type: application/json`: Informa a codificação do payload transmitido.
-    - `Accept: application/json`: Comunica o formato que o cliente está apto a receber.
-- **Request Body (Corpo da Requisição / Payload):** Estrutura hierárquica contendo os campos de dados:
-    - `required: true`: Sinaliza que o bloco ou os campos listados no array `required:` são indispensáveis. A omissão acarreta rejeição da mensagem.
-    - `properties`: Mapeia cada atributo com suas restrições de validação (`type: string`, `pattern: '^\d{14}$'`, `minimum: 0.0`).
 
 ---
 
@@ -363,36 +387,6 @@ Está correto o que se afirma em:
 
 ---
 
-
-### 2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta
-
-A compreensão precisa das famílias de códigos de status HTTP é intensamente avaliada em provas:
-
-- **Família 2xx (Success):**
-    - `200 OK`: Requisição bem-sucedida com retorno de dados.
-    - `201 Created`: Criação bem-sucedida de um novo recurso no servidor (resposta clássica a `POST`).
-    - `204 No Content`: Ação processada com êxito, sem corpo textual de retorno (comum em `DELETE`).
-- **Família 4xx (Client Error - Erros Originados no Cliente):**
-    - `400 Bad Request`: Erro de sintaxe da requisição (JSON malformado, quebra de delimitadores, tipos primitivos ilegíveis).
-    - `401 Unauthorized`: Falha de **autenticação**. O cliente não forneceu credenciais válidas ou o token expirou.
-    - `403 Forbidden`: O cliente está autenticado com sucesso, mas suas permissões/papéis (*roles*) **não autorizam** o acesso à rota solicitada.
-    - `404 Not Found`: A URI solicitada não corresponde a nenhum recurso existente.
-    - `409 Conflict`: Conflito com o estado atual do recurso (ex.: tentativa de cadastrar registro com chave primária já existente).
-    - `422 Unprocessable Entity`: A sintaxe do JSON está impecável, mas os dados contêm **erros semânticos ou violações de regras de negócio** (ex.: valor negativo em receita declarada, CPF com dígitos verificadores inválidos).
-    - `429 Too Many Requests`: Limite de taxa de requisições excedido (*rate limiting / throttling*). Vem associado ao cabeçalho `Retry-After: <segundos>`, que estipula o tempo de espera obrigatório antes de nova tentativa.
-- **Família 5xx (Server Error - Falhas Internas do Provedor):**
-    - `500 Internal Server Error`: Exceção inesperada não tratada pela aplicação.
-    - `502 Bad Gateway`: O proxy reverso ou gateway recebeu resposta corrompida do microsserviço de backend.
-    - `503 Service Unavailable`: Servidor temporariamente incapacitado por sobrecarga ou manutenção programada.
-    - `504 Gateway Timeout`: O gateway expirou aguardando a resposta do serviço interno.
-
-> 💡 **Diferença Crítica FCC (401 vs. 403):**  
->
-> - **401 Unauthorized** $\rightarrow$ *Quem é você?* (Problema de Identidade / Autenticação).  
-> - **403 Forbidden** $\rightarrow$ *Eu sei quem você é, mas você não tem permissão para entrar aqui.* (Problema de Privilégio / Autorização).
-
----
-
 ### Teste 590
 **(FCC - Adaptada / Tribunal de Contas - Especialidade Tecnologia da Informação)**
 *Carefully analyze the API documentation response snippet provided below:*
@@ -430,17 +424,6 @@ A partir da leitura técnica da documentação e dos cabeçalhos HTTP apresentad
 > - **E)** Incorreta. A família 4xx sinaliza inconformidades geradas pelo cliente (*Client Error*). Erros de infraestrutura interna do servidor pertencem privativamente à família 5xx (como 500, 502 ou 503).
 > 
 > **Gabarito: B**
-
----
-
-
-### 2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)
-
-Diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o padrão GraphQL opera via endpoint único (`POST /graphql`). A documentação orienta-se por esquemas de tipagem estrita (*Schema Definition Language - SDL*):
-
-- **Query:** Operação de consulta somente-leitura.
-- **Mutation:** Operação de escrita que gera efeitos colaterais de criação, atualização ou remoção.
-- **Modifiers de Obrigatoriedade:** O caractere de exclamação `!` ao final do tipo indica campo não-nulo e mandatório (ex.: `id: ID!`, `revenue: Float!`).
 
 ---
 
@@ -486,10 +469,7 @@ Com base nas convenções sintáticas e conceituais do padrão GraphQL e no sche
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 3. Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas
 
@@ -558,10 +538,7 @@ Com base na terminologia técnica empregada para definir o ciclo de vida de comp
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)
 
@@ -588,6 +565,23 @@ flowchart TD
 5. **Experimental Evaluation & Discussion:** Apresentação rigorosa das métricas de desempenho sob carga de trabalho corporativa real (*enterprise workloads*).
 6. **Threats to Validity:** Reconhecimento das premissas e limitações do estudo.
 7. **Conclusion:** Recapitulação das deduções finais.
+
+### 4.2 A Metodologia Three-Pass sob Pressão de Tempo de Prova
+
+Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de prova deve ser estratificada em camadas:
+
+- **Passada 1 (Abordagem Panorâmica - 3 a 5 minutos):** Leitura concentrada do título, do *Abstract*, da introdução preliminar e da conclusão final. Essa varredura inicial responde com clareza:
+    - Qual o problema central atacado pelo autor?
+    - A tecnologia proposta substitui ou aprimora os modelos vigentes?
+    - O tom é de refutação ou de proposição de nova técnica?
+- **Passada 2 (Varredura Analítica para Itens Específicos):** Inspeção de figuras de arquitetura, gráficos de desempenho e tabelas comparativas.
+
+### 4.3 Léxico de Validação Experimental e Evidências Empíricas
+
+- **Benchmark / Workload:** Carga de trabalho de teste executada para aferir limites operacionais de um sistema.
+- **Tail Latency (Latência de Cauda - P99 / P99.9):** O tempo de resposta experimentado pelos percentis mais lentos das requisições; indicador crítico em sistemas de tempo real.
+- **Overhead:** Custo operacional computacional marginal incorrido em ciclos de CPU, memória RAM ou rede para suportar a nova ferramenta (ex.: menos de 3% de consumo extra de CPU).
+- **Outperform:** Superar o desempenho de uma solução concorrente (*"Our model outperforms traditional heuristics"*).
 
 ---
 
@@ -620,26 +614,6 @@ Based on paper reading techniques (*Abstract comprehension*) and technical vocab
 
 ---
 
-
-### 4.2 A Metodologia Three-Pass sob Pressão de Tempo de Prova
-
-Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de prova deve ser estratificada em camadas:
-
-- **Passada 1 (Abordagem Panorâmica - 3 a 5 minutos):** Leitura concentrada do título, do *Abstract*, da introdução preliminar e da conclusão final. Essa varredura inicial responde com clareza:
-    - Qual o problema central atacado pelo autor?
-    - A tecnologia proposta substitui ou aprimora os modelos vigentes?
-    - O tom é de refutação ou de proposição de nova técnica?
-- **Passada 2 (Varredura Analítica para Itens Específicos):** Inspeção de figuras de arquitetura, gráficos de desempenho e tabelas comparativas.
-
-### 4.3 Léxico de Validação Experimental e Evidências Empíricas
-
-- **Benchmark / Workload:** Carga de trabalho de teste executada para aferir limites operacionais de um sistema.
-- **Tail Latency (Latência de Cauda - P99 / P99.9):** O tempo de resposta experimentado pelos percentis mais lentos das requisições; indicador crítico em sistemas de tempo real.
-- **Overhead:** Custo operacional computacional marginal incorrido em ciclos de CPU, memória RAM ou rede para suportar a nova ferramenta (ex.: menos de 3% de consumo extra de CPU).
-- **Outperform:** Superar o desempenho de uma solução concorrente (*"Our model outperforms traditional heuristics"*).
-
----
-
 ### Teste 594
 **(FCC - Adaptada / Auditor de Controle Externo - Tecnologia da Informação)**
 *Read the research paper excerpt on distributed storage systems:*
@@ -667,10 +641,7 @@ Com base nas convenções léxicas e metodológicas da literatura científica in
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

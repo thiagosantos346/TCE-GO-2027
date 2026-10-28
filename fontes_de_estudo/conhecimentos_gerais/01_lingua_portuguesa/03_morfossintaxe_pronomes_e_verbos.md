@@ -23,10 +23,7 @@
 - Distinção funcional da partícula `SE`: Pronome Apassivador vs. Índice de Indeterminação do Sujeito;
 - Correlação de tempos e modos verbais (*consecutio temporum*).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -59,20 +56,19 @@
 6. [Vozes Verbais e Regras de Transposição](#6-vozes-verbais-e-regras-de-transposicao)
     1. [Voz Ativa, Voz Passiva, Voz Reflexiva e Recíproca](#61-voz-ativa-voz-passiva-voz-reflexiva-e-reciproca)
     2. [Voz Passiva Analítica e Regras Estritas de Transposição](#62-voz-passiva-analitica-e-regras-estritas-de-transposicao)
-    3. [Teste 028](#Teste-028)
-    4. [Teste 029](#Teste-029)
-    5. [Voz Passiva Sintética ou Pronominal](#63-voz-passiva-sintetica-ou-pronominal)
-    6. [Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito](#64-distincao-entre-pronome-apassivador-e-indice-de-indeterminacao-do-sujeito)
+    3. [Voz Passiva Sintética ou Pronominal](#63-voz-passiva-sintetica-ou-pronominal)
+    4. [Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito](#64-distincao-entre-pronome-apassivador-e-indice-de-indeterminacao-do-sujeito)
+    5. [Teste 028](#Teste-028)
+    6. [Teste 029](#Teste-029)
     7. [Teste 030](#Teste-030)
 7. [Correlação de Tempos e Modos Verbais](#7-correlacao-de-tempos-e-modos-verbais)
     1. [Princípios da Consecutio Temporum no Período Composto](#71-principios-da-consecutio-temporum-no-periodo-composto)
     2. [Estruturas Hipotéticas e Condicionais Padronizadas](#72-estruturas-hipoteticas-e-condicionais-padronizadas)
     3. [Correlações em Orações Subjetivas e Integrantes](#73-correlacoes-em-oracoes-subjetivas-e-integrantes)
     4. [Teste 031](#Teste-031)
-8. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+8. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Fundamentos de Morfossintaxe e Estrutura Oracional
 
@@ -123,6 +119,7 @@ A predicação verbal analisa a exigência de complementos pelos verbos no conte
 * **Verbo Transitivo Direto e Indireto (VTDI ou Bitransitivo):** Reclama dois complementos simultâneos, um direto e outro indireto (*"O presidente remeteu o relatório ao tribunal"*).
 * **Verbo de Ligação (VL):** Não expressa ação, servindo de elo entre o sujeito e seu predicativo (*ser, estar, parecer, permanecer, ficar, continuar, andar* em sentido de estado).
 
+---
 
 ### Teste 022
 **(FCC – TRT-23 – Analista Judiciário)**  
@@ -150,10 +147,7 @@ Em relação à morfossintaxe dos termos que compõem o período acima, assinale
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Teoria dos Pronomes e Relações Discursivas
 
@@ -218,10 +212,7 @@ O pronome relativo antecedido de preposição está empregado em estrita conform
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Pronomes Pessoais e Substituição Pronominal
 
@@ -316,10 +307,7 @@ Substituindo-se adequadamente as expressões sublinhadas pelos respectivos prono
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Sintaxe de Colocação Pronominal
 
@@ -371,6 +359,7 @@ Em locuções compostas por verbo auxiliar mais verbo principal no infinitivo, g
     * O pronome jamais pode vir posposto ao particípio (*"Tinha comunicado-lhe"* é inaceitável).
     * Pode ficar enclítico ao verbo auxiliar (*"Tinha-lhe comunicado"*) ou próclito ao auxiliar se houver palavra atrativa (*"Não lhe tinha comunicado"*).
 
+---
 
 ### Teste 025
 **(FCC – TCE-GO – Analista de Controle Externo)**  
@@ -402,10 +391,7 @@ A colocação dos pronomes oblíquos átonos está inteiramente correta APENAS e
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Sistema Verbal: Paradigmas de Flexão e Formas Críticas
 
@@ -472,6 +458,7 @@ A frase em que a articulação entre tempos e modos verbais observa a **correla�
 > 
 > **Gabarito: A**
 
+---
 
 ### Teste 027
 **(FCC – TRT – Analista Judiciário)**  
@@ -503,10 +490,7 @@ A flexão verbal está em perfeita consonância com a norma-padrão em:
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Vozes Verbais e Regras de Transposição
 
@@ -545,6 +529,31 @@ flowchart TD
     * *O auditor analisará as contas* (Futuro do Presente) $\rightarrow$ *As contas* **serão analisadas**;
     * *O auditor analisaria as contas* (Futuro do Pretérito) $\rightarrow$ *As contas* **seriam analisadas**.
 
+### 6.3 Voz Passiva Sintética ou Pronominal
+
+A voz passiva sintética compõe-se de um verbo Transitivo Direto conjugado na 3ª pessoa (singular ou plural) associado ao pronome apassivador **SE**:
+$$\text{VTD / VTDI} + \text{SE (Pronome Apassivador)} + \text{Sujeito Paciente}$$
+
+* Exemplo no singular: *"Apurou-se a irregularidade"* (= *A irregularidade foi apurada*);
+* Exemplo no plural: *"Apuraram-se as irregularidades"* (= *As irregularidades foram apuradas*).
+
+O elemento nominal sem preposição que acompanha a construção passiva sintética é o **sujeito paciente**, razão pela qual o verbo deve concordar obrigatoriamente com ele em número e pessoa.
+
+### 6.4 Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito
+
+Essa distinção é um dos temas fundamentais de cobrança da FCC em morfossintaxe e concordância:
+
+| Critério | Pronome Apassivador (Partícula Apassivadora) | Índice de Indeterminação do Sujeito (IIS) |
+| :--- | :--- | :--- |
+| **Transitividade do Verbo** | Verbo Transitivo Direto (VTD) ou VTDI | Verbo Transitivo Indireto (VTI), Intransitivo (VI) ou de Ligação (VL) |
+| **Presença de Preposição** | O elemento subsequente **não tem preposição obrigatória** | O elemento subsequente vem **restringido por preposição** |
+| **Existência de Sujeito** | Há Sujeito Paciente expresso na oração | Não há sujeito expresso; o sujeito é indeterminado |
+| **Concordância Verbal** | O verbo **flexiona obrigatoriamente** (vai ao plural se o sujeito for plural) | O verbo fica **obrigatoriamente na 3ª pessoa do singular** |
+| **Exemplo Correto** | *"Identificaram-se novas falhas"* | *"Trata-se de novas falhas"* |
+| **Erro Clássico em Prova** | *"Identificou-se novas falhas"* (verbo não concordou) | *"Tratam-se de novas falhas"* (verbo pluralizou indevidamente com VTI) |
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA DO VERBO TRATAR-SE:** A FCC frequentemente introduz a forma verbal pluralizada *"Tratam-se de..."*, *"Precisam-se de..."* ou *"Obedeceram-se aos ditames..."*. Como os verbos *tratar (de)*, *precisar (de)* e *obedecer (a)* são Transitivos Indiretos e regem preposição, a partícula *se* atua como Índice de Indeterminação do Sujeito. É **proibido flexionar o verbo no plural**; o correto é invariavelmente: *"Trata-se de..."*, *"Precisa-se de..."*, *"Obedeceu-se aos ditames..."*.
+
 ---
 
 ### Teste 028
@@ -571,8 +580,6 @@ A frase que admite transposição para a **voz passiva** de modo inteiramente co
 > **Gabarito: C**
 
 ---
-
-
 
 ---
 
@@ -608,33 +615,6 @@ ightarrow$ **tinham sido elaborados**.
 
 ---
 
-### 6.3 Voz Passiva Sintética ou Pronominal
-
-A voz passiva sintética compõe-se de um verbo Transitivo Direto conjugado na 3ª pessoa (singular ou plural) associado ao pronome apassivador **SE**:
-$$\text{VTD / VTDI} + \text{SE (Pronome Apassivador)} + \text{Sujeito Paciente}$$
-
-* Exemplo no singular: *"Apurou-se a irregularidade"* (= *A irregularidade foi apurada*);
-* Exemplo no plural: *"Apuraram-se as irregularidades"* (= *As irregularidades foram apuradas*).
-
-O elemento nominal sem preposição que acompanha a construção passiva sintética é o **sujeito paciente**, razão pela qual o verbo deve concordar obrigatoriamente com ele em número e pessoa.
-
-### 6.4 Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito
-
-Essa distinção é um dos temas fundamentais de cobrança da FCC em morfossintaxe e concordância:
-
-| Critério | Pronome Apassivador (Partícula Apassivadora) | Índice de Indeterminação do Sujeito (IIS) |
-| :--- | :--- | :--- |
-| **Transitividade do Verbo** | Verbo Transitivo Direto (VTD) ou VTDI | Verbo Transitivo Indireto (VTI), Intransitivo (VI) ou de Ligação (VL) |
-| **Presença de Preposição** | O elemento subsequente **não tem preposição obrigatória** | O elemento subsequente vem **restringido por preposição** |
-| **Existência de Sujeito** | Há Sujeito Paciente expresso na oração | Não há sujeito expresso; o sujeito é indeterminado |
-| **Concordância Verbal** | O verbo **flexiona obrigatoriamente** (vai ao plural se o sujeito for plural) | O verbo fica **obrigatoriamente na 3ª pessoa do singular** |
-| **Exemplo Correto** | *"Identificaram-se novas falhas"* | *"Trata-se de novas falhas"* |
-| **Erro Clássico em Prova** | *"Identificou-se novas falhas"* (verbo não concordou) | *"Tratam-se de novas falhas"* (verbo pluralizou indevidamente com VTI) |
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA DO VERBO TRATAR-SE:** A FCC frequentemente introduz a forma verbal pluralizada *"Tratam-se de..."*, *"Precisam-se de..."* ou *"Obedeceram-se aos ditames..."*. Como os verbos *tratar (de)*, *precisar (de)* e *obedecer (a)* são Transitivos Indiretos e regem preposição, a partícula *se* atua como Índice de Indeterminação do Sujeito. É **proibido flexionar o verbo no plural**; o correto é invariavelmente: *"Trata-se de..."*, *"Precisa-se de..."*, *"Obedeceu-se aos ditames..."*.
-
----
-
 ### Teste 030
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 O emprego da partícula `SE` e a concordância verbal estão plenamente corretos em:
@@ -658,10 +638,7 @@ O emprego da partícula `SE` e a concordância verbal estão plenamente corretos
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 7. Correlação de Tempos e Modos Verbais
 
@@ -696,6 +673,7 @@ Nas orações subordinadas substantivas integrantes (introduzidas por *que* ou *
 * Se a oração principal estiver no **Presente do Indicativo**, a subordinada vai para o **Presente do Subjuntivo**: *"O Ministério Público de Contas exige que o gestor **esclareça** o déficit"*.
 * Se a oração principal estiver no **Pretérito**, a subordinada vai para o **Pretérito Imperfeito do Subjuntivo**: *"O Ministério Público de Contas exigiu que o gestor **esclarecesse** o déficit"*.
 
+---
 
 ### Teste 031
 **(FCC – TRT-14 – Analista Judiciário)**  
@@ -720,10 +698,7 @@ Considere as regras de correlação de tempos e modos verbais (*consecutio tempo
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

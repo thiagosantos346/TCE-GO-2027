@@ -34,38 +34,46 @@
     - O guia PMBOK (*Project Management Institute* - PMI): os 5 grupos de processos (Iniciação, Planejamento, Execução, Monitoramento/Controle e Encerramento);
     - Termo de Abertura do Projeto (TAP / *Project Charter*) e Estrutura Analítica do Projeto (EAP / *WBS*).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Gestão da Qualidade: Eras, Teóricos e Ferramentas](#1-gestao-da-qualidade-eras-teoricos-e-ferramentas)
-    2. [Teste 320](#Teste-320)
-    3. [Teste 321](#Teste-321)
-    4. [Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)](#2-desburocratizacao-e-atendimento-ao-cidadao-decreto-no-90942017)
+1. [Gestão da Qualidade: Eras, Teóricos e Ferramentas](#1-gestao-da-qualidade-eras-teoricos-e-ferramentas)
+    1. [Evolução das Quatro Eras da Qualidade](#11-evolucao-das-quatro-eras-da-qualidade)
+    2. [Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)](#12-os-mestres-da-qualidade-e-suas-contribuicoes-deming-juran-ishikawa-e-crosby)
+    3. [O Ciclo PDCA e as Sete Ferramentas da Qualidade](#13-o-ciclo-pdca-e-as-sete-ferramentas-da-qualidade)
+    4. [Modelos de Excelência: MEG / FNQ e o GesPública](#14-modelos-de-excelencia-meg-fnq-e-o-gespublica)
+    5. [Teste 320](#Teste-320)
+    6. [Teste 321](#Teste-321)
+2. [Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)](#2-desburocratizacao-e-atendimento-ao-cidadao-decreto-no-90942017)
+    1. [Supressão de Custos Cartorários (Reconhecimento de Firma e Autenticação)](#21-supressao-de-custos-cartorarios-reconhecimento-de-firma-e-autenticacao)
+    2. [Proibição de Exigência Documental Redundante e Interoperabilidade](#22-proibicao-de-exigencia-documental-redundante-e-interoperabilidade)
+    3. [O CPF como Chave Unificada de Identificação](#23-o-cpf-como-chave-unificada-de-identificacao)
+    4. [A Carta de Serviços ao Usuário](#24-a-carta-de-servicos-ao-usuario)
     5. [Teste 322](#Teste-322)
     6. [Teste 323](#Teste-323)
-    7. [Gestão de Processos de Negócio (BPM)](#3-gestao-de-processos-de-negocio-bpm)
-    8. [Teste 324](#Teste-324)
-    9. [Teste 325](#Teste-325)
-    10. [Gestão de Projetos segundo o Guia PMBOK (PMI)](#4-gestao-de-projetos-segundo-o-guia-pmbok-pmi)
-    11. [Teste 326](#Teste-326)
-    12. [Teste 327](#Teste-327)
-    13. [Teste 328](#Teste-328)
-    14. [Teste 329](#Teste-329)
-2. [Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
+3. [Gestão de Processos de Negócio (BPM)](#3-gestao-de-processos-de-negocio-bpm)
+    1. [Conceito e Hierarquia Estrutural dos Processos](#31-conceito-e-hierarquia-estrutural-dos-processos)
+    2. [Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento](#32-tipos-de-processos-finalisticos-de-suporte-e-de-gerenciamento)
+    3. [Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE](#33-redesenho-de-processos-diagnostico-as-is-vs-modelagem-to-be)
+    4. [Teste 324](#Teste-324)
+    5. [Teste 325](#Teste-325)
+4. [Gestão de Projetos segundo o Guia PMBOK (PMI)](#4-gestao-de-projetos-segundo-o-guia-pmbok-pmi)
+    1. [Distinção Conceitual: Projeto versus Processo](#41-distincao-conceitual-projeto-versus-processo)
+    2. [Os Cinco Grupos de Processos do PMBOK](#42-os-cinco-grupos-de-processos-do-pmbok)
+    3. [Instrumentos Primordiais: TAP e EAP (WBS)](#43-instrumentos-primordiais-tap-e-eap-wbs)
+    4. [A Restrição Tripla Clássica (Escopo, Custo e Tempo)](#44-a-restricao-tripla-classica-escopo-custo-e-tempo)
+    5. [Teste 326](#Teste-326)
+    6. [Teste 327](#Teste-327)
+    7. [Teste 328](#Teste-328)
+    8. [Teste 329](#Teste-329)
+5. [🌐 Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
 
 ---
 
+## 1. Gestão da Qualidade: Eras, Teóricos e Ferramentas
 
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Gestão da Qualidade: Eras, Teóricos e Ferramentas
-
-#### 1.1 Evolução das Quatro Eras da Qualidade
+### 1.1 Evolução das Quatro Eras da Qualidade
 A gestão da qualidade nas organizações públicas e privadas evoluiu através de quatro grandes eras históricas:
 
 ```mermaid
@@ -80,7 +88,7 @@ flowchart LR
 3. **Era da Garantia da Qualidade:** Foco sistêmico na **prevenção** de defeitos. A qualidade é planejada em todas as etapas de projeto, suprimentos e fabricação, surgindo normas formais de certificação (família ISO 9000);
 4. **Era da Gestão da Qualidade Total (*Total Quality Management* - TQM):** Envolvimento de todos os colaboradores e departamentos da organização, com foco prioritário na satisfação das necessidades do usuário-cidadão e na busca perene pela melhoria contínua (*Kaizen*).
 
-#### 1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)
+### 1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)
 - **W. Edwards Deming:** Conhecido como o pai do gerenciamento moderno da qualidade. Defendeu que mais de 85% dos problemas de qualidade decorrem de falhas no sistema administrativo, e não dos trabalhadores. Formulou os 14 Princípios da Qualidade e disseminou globalmente o **Ciclo PDCA**;
 - **Joseph Juran:** Enfatizou que a qualidade deve ser gerenciada como uma função executiva de negócios. Concebeu a **Trilogia da Qualidade**:
     1. *Planejamento da Qualidade:* Identificar quem são os clientes e desenvolver processos capazes de produzir as características exigidas;
@@ -90,7 +98,7 @@ flowchart LR
 - **Kaoru Ishikawa:** Pai dos **Círculos de Controle de Qualidade (CCQ)** (grupos voluntários de funcionários que se reúnem regularmente para debater e resolver falhas de rotina). Criou o célebre **Diagrama de Causa e Efeito (Diagrama Espinha de Peixe / Diagrama de Ishikawa)**, que organiza as causas de um problema nos tradicionais **6Ms**: Método, Matéria-prima, Mão de obra, Máquinas/Tecnologia, Medição e Meio ambiente;
 - **Philip Crosby:** Criador do conceito de **"Zero Defeito"** (*Zero Defects*). Defendeu que a qualidade significa estrita "conformidade com os requisitos", afirmando que "a qualidade é de graça" (*Quality is Free*), pois os custos de fazer certo da primeira vez são infinitamente menores do que os custos do retrabalho e do desperdício.
 
-#### 1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade
+### 1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade
 O **Ciclo PDCA (Deming/Shewhart)** é um método iterativo de gestão de quatro passos utilizado para o controle e melhoria contínua de processos:
 
 ```mermaid
@@ -113,6 +121,10 @@ flowchart TD
     5. *Histograma:* Gráfico de barras que ilustra a distribuição de frequência de dados quantitativos;
     6. *Gráfico de Dispersão:* Avaliação gráfica da correlação estatística entre duas variáveis;
     7. *Cartas de Controle:* Gráficos temporais com limites superior e inferior de controle para verificar a estabilidade do processo.
+
+### 1.4 Modelos de Excelência: MEG / FNQ e o GesPública
+- **Modelo de Excelência da Gestão (MEG / Fundação Nacional da Qualidade):** Baseado na visão sistêmica e em fundamentos de gestão contemporâneos (liderança transformadora, foco no cidadão, orientação para resultados, governança e responsabilidade socioambiental);
+- **Programa Nacional de Gestão Pública e Desburocratização (GesPública):** Instituído pelo Decreto Federal nº 5.378/2005 para disseminar no setor público brasileiro a autoavaliação continuada e a busca por excelência nos serviços públicos prestados ao cidadão.
 
 ---
 
@@ -138,13 +150,6 @@ Determinada equipe de modernização administrativa do Tribunal de Contas recebe
 > - **E)** Incorreta. O gráfico de dispersão avalia a relação de causa estatística entre duas variáveis contínuas.
 > 
 > **Gabarito: A**
-
----
-
-
-#### 1.4 Modelos de Excelência: MEG / FNQ e o GesPública
-- **Modelo de Excelência da Gestão (MEG / Fundação Nacional da Qualidade):** Baseado na visão sistêmica e em fundamentos de gestão contemporâneos (liderança transformadora, foco no cidadão, orientação para resultados, governança e responsabilidade socioambiental);
-- **Programa Nacional de Gestão Pública e Desburocratização (GesPública):** Instituído pelo Decreto Federal nº 5.378/2005 para disseminar no setor público brasileiro a autoavaliação continuada e a busca por excelência nos serviços públicos prestados ao cidadão.
 
 ---
 
@@ -175,8 +180,7 @@ A etapa do ciclo em que a organização analisa e avalia sistematicamente as dif
 
 ---
 
-
-### 2. Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)
+## 2. Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)
 
 O **Decreto Federal nº 9.094/2017** (regulamentado e reforçado pela Lei Federal nº 13.726/2018 - Lei de Desburocratização) estabeleceu diretrizes expressas de simplificação administrativa e presunção de boa-fé nas relações entre a administração pública e a sociedade:
 
@@ -191,18 +195,18 @@ flowchart TD
     D9094 --> F5["5. Carta de Serviços ao Usuário:<br/>Publicação obrigatória de etapas, prazos e padrões"]
 ```
 
-#### 2.1 Supressão de Custos Cartorários (Reconhecimento de Firma e Autenticação)
+### 2.1 Supressão de Custos Cartorários (Reconhecimento de Firma e Autenticação)
 - **Reconhecimento de Firma:** Fica **vedada a exigência de reconhecimento de firma em cartório** para a prática de atos perante os órgãos e entidades públicas, salvo se houver dúvida fundada de autenticidade ou previsão legal expressa em lei ordinária formal. O servidor público que receber o documento deve comparar a assinatura com a constante no documento de identidade ou colher a assinatura presencial do administrado;
 - **Cópias Autenticadas:** Fica **proibida a exigência de cópia autenticada em cartório**. O servidor público confrontará a cópia simples com o documento original apresentado e atestará sua veracidade ("confere com o original"), sob sua fé pública funcional.
 
-#### 2.2 Proibição de Exigência Documental Redundante e Interoperabilidade
+### 2.2 Proibição de Exigência Documental Redundante e Interoperabilidade
 - É expressamente **vedado ao órgão público exigir do requerente** a apresentação de certidões, certidões negativas de débito ou documentos comprobatórios emitidos pelo próprio órgão ou que constem em bancos de dados oficiais da administração pública;
 - Os órgãos devem integrar seus sistemas e proceder à busca de informações e documentos diretamente nas bases públicas compartilhadas.
 
-#### 2.3 O CPF como Chave Unificada de Identificação
+### 2.3 O CPF como Chave Unificada de Identificação
 Conforme as alterações trazidas pelo Decreto nº 9.723/2019 e Lei nº 14.534/2023, o número de inscrição no Cadastro de Pessoas Físicas (**CPF**) é o dado suficiente e universal para a identificação do cidadão nos bancos de dados de serviços públicos federais, estaduais e municipais, sendo dispensada a exigência de múltiplos números de cadastro (como PIS, Pasep, carteira de trabalho ou RG estadual).
 
-#### 2.4 A Carta de Serviços ao Usuário
+### 2.4 A Carta de Serviços ao Usuário
 A Carta de Serviços ao Usuário é um instrumento de governança e transparência de publicação compulsória nos portais oficiais na internet e em local visível nas repartições públicas. Deve detalhar:
 
 - Os serviços públicos oferecidos pelo órgão e as formas de acesso;
@@ -237,8 +241,6 @@ Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para reque
 
 ---
 
-
-
 ### Teste 323
 **(FCC - Adaptada / Auditor de Controle Externo)**
 Na Gestão de Processos de Negócio (BPM), a análise da situação corrente do processo para mapear seus gargalos, ineficiências e retrabalhos existentes é contraposta ao desenho da situação ideal futura pretendida.
@@ -266,12 +268,11 @@ Esses dois estágios do ciclo BPM são internacionalmente denominados, respectiv
 
 ---
 
-
-### 3. Gestão de Processos de Negócio (BPM)
+## 3. Gestão de Processos de Negócio (BPM)
 
 O *Business Process Management* (BPM) é uma abordagem disciplinada para identificar, desenhar, executar, documentar, medir, monitorar e controlar processos de trabalho para alcançar resultados alinhados aos objetivos da organização.
 
-#### 3.1 Conceito e Hierarquia Estrutural dos Processos
+### 3.1 Conceito e Hierarquia Estrutural dos Processos
 - **Processo:** Conjunto estruturado de atividades logicamente encadeadas que transformam entradas (*inputs*) em saídas (*outputs*) que agregam valor perceptível a um cliente ou cidadão-usuário;
 - **Hierarquia Estrutural:**
 
@@ -288,7 +289,7 @@ flowchart TD
     Ativ --> Tar["5. Tarefa:<br/>Passo elementar e individualizado de execução (ex.: Preenchimento de checklist)"]
 ```
 
-#### 3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento
+### 3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento
 1. **Processos Finalísticos (Primários ou de Ponta a Ponta):**
     - Diretamente relacionados ao cumprimento da **missão essencial** do órgão e à entrega direta de valor público ao cidadão ou usuário externo;
     - *Exemplos:* Emissão de certidões, realização de cirurgias no SUS, fiscalização de contas de prefeituras pelo TCE-GO;
@@ -300,6 +301,18 @@ flowchart TD
 3. **Processos de Gerenciamento (Gestão):**
     - Asseguram a governança corporativa, o direcionamento estratégico, a medição contínua e a gestão de riscos e integridade da instituição;
     - *Exemplos:* Formulação do plano estratégico institucional, auditoria interna de controle, comitês de governança.
+
+### 3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE
+
+```mermaid
+flowchart LR
+    ASIS["Mapeamento AS-IS<br/>(Como o processo funciona hoje)<br/>• Gargalos operacionais<br/>• Retrabalho documental<br/>• Excesso de assinaturas"] 
+    --> Engenharia["Análise Crítica e Redesenho<br/>(Simplificação e Automação)"] 
+    --> TOBE["Modelagem TO-BE<br/>(Como o processo deve ser no futuro)<br/>• Processo digital e integrado<br/>• Eliminação de ritos inúteis<br/>• Foco na entrega ao cidadão"]
+```
+
+- **AS-IS ("Como É"):** Diagnóstico da situação atual do processo, identificando falhas, sobreposições de competências, estrangulamentos (*bottlenecks*) e burocracias inúteis;
+- **TO-BE ("Como Deve Ser"):** Proposta e modelagem do fluxo futuro ideal e otimizado, incorporando ferramentas digitais, eliminando etapas que não agregam valor e encurtando o tempo de ciclo.
 
 ---
 
@@ -325,21 +338,6 @@ No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Busin
 > - **E)** Incorreta. A fiscalização e auditoria das contas públicas jurisdicionadas é o processo finalístico precípuo do Tribunal de Contas.
 > 
 > **Gabarito: C**
-
----
-
-
-#### 3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE
-
-```mermaid
-flowchart LR
-    ASIS["Mapeamento AS-IS<br/>(Como o processo funciona hoje)<br/>• Gargalos operacionais<br/>• Retrabalho documental<br/>• Excesso de assinaturas"] 
-    --> Engenharia["Análise Crítica e Redesenho<br/>(Simplificação e Automação)"] 
-    --> TOBE["Modelagem TO-BE<br/>(Como o processo deve ser no futuro)<br/>• Processo digital e integrado<br/>• Eliminação de ritos inúteis<br/>• Foco na entrega ao cidadão"]
-```
-
-- **AS-IS ("Como É"):** Diagnóstico da situação atual do processo, identificando falhas, sobreposições de competências, estrangulamentos (*bottlenecks*) e burocracias inúteis;
-- **TO-BE ("Como Deve Ser"):** Proposta e modelagem do fluxo futuro ideal e otimizado, incorporando ferramentas digitais, eliminando etapas que não agregam valor e encurtando o tempo de ciclo.
 
 ---
 
@@ -370,10 +368,9 @@ No framework **Scrum**, a reunião diária, curta e estruturada (de cerca de 15 
 
 ---
 
+## 4. Gestão de Projetos segundo o Guia PMBOK (PMI)
 
-### 4. Gestão de Projetos segundo o Guia PMBOK (PMI)
-
-#### 4.1 Distinção Conceitual: Projeto versus Processo
+### 4.1 Distinção Conceitual: Projeto versus Processo
 A doutrina da administração e a jurisprudência da FCC cobram com rigor a distinção ontológica entre projeto e processo:
 
 | Critério de Análise | Projeto (Gestão de Projetos / PMBOK) | Processo (BPM / Rotina Organizacional) |
@@ -382,6 +379,35 @@ A doutrina da administração e a jurisprudência da FCC cobram com rigor a dist
 | **Resultado Produzido** | Gera um produto, serviço ou resultado **único, exclusivo e inédito**. | Gera produtos ou serviços **padronizados, uniformes e repetitivos**. |
 | **Finalidade Estratégica**| Conduzir mudanças, inovações ou implantar novas capacidades. | Manter a regularidade operacional e o funcionamento estável da entidade. |
 | **Grau de Incerteza** | Elevado, devido ao ineditismo das entregas e variáveis externas. | Baixo, pois é regido por procedimentos estáveis e fluxos consolidados. |
+
+### 4.2 Os Cinco Grupos de Processos do PMBOK
+O ciclo de vida do gerenciamento de projetos organiza-se em cinco grupos fundamentais de processos:
+
+```mermaid
+flowchart TD
+    Grupos["Os Cinco Grupos de Processos do Guia PMBOK"]
+    
+    Grupos --> G1["1. Iniciação:<br/>Definição do escopo macro e emissão formal do TAP"]
+    G1 --> G2["2. Planejamento:<br/>Elaboração da EAP, cronograma, custos, riscos e aquisições"]
+    G2 --> G3["3. Execução:<br/>Mobilização de equipes e realização dos pacotes de trabalho"]
+    G3 --> G4["4. Monitoramento e Controle:<br/>Acompanhamento do desempenho, medição e ações corretivas"]
+    G4 --> G5["5. Encerramento:<br/>Formalização do aceite das entregas e registro de lições aprendidas"]
+    
+    G3 <--> G4
+```
+
+### 4.3 Instrumentos Primordiais: TAP e EAP (WBS)
+- **Termo de Abertura do Projeto (TAP / *Project Charter*):**  
+  Documento formal emitido pelo patrocinador (*sponsor*) que autoriza oficialmente a existência do projeto e concede ao gerente do projeto a autoridade para aplicar recursos da instituição nas atividades do projeto;
+- **Estrutura Analítica do Projeto (EAP / *WBS - Work Breakdown Structure*):**  
+  Decomposição hierárquica e visual do escopo total de trabalho do projeto em partes menores e gerenciáveis chamadas de **pacotes de trabalho**.
+  > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+  > A EAP **NÃO é um cronograma de atividades**! A EAP é orientada exclusivamente a **entregas (produtos e subprodutos)**. Ela não contém datas de início/fim nem lista de tarefas diárias. O documento que contém datas e dependências temporais é o Cronograma do Projeto (Diagrama de Rede ou Gráfico de Gantt).
+
+### 4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)
+O sucesso de um projeto decorre do equilíbrio dinâmico entre três variáveis interdependentes, balizadas pelo padrão de **Qualidade**:
+$$\text{Escopo} \iff \text{Tempo / Cronograma} \iff \text{Custo / Orçamento}$$
+A alteração em qualquer um desses vértices impacta compulsoriamente os outros dois (ex.: antecipar o prazo de conclusão exige aumento de custos com horas extras ou redução do escopo entregue).
 
 ---
 
@@ -410,33 +436,6 @@ No âmbito da gestão estratégica e da teoria das organizações, a respeito da
 
 ---
 
-
-#### 4.2 Os Cinco Grupos de Processos do PMBOK
-O ciclo de vida do gerenciamento de projetos organiza-se em cinco grupos fundamentais de processos:
-
-```mermaid
-flowchart TD
-    Grupos["Os Cinco Grupos de Processos do Guia PMBOK"]
-    
-    Grupos --> G1["1. Iniciação:<br/>Definição do escopo macro e emissão formal do TAP"]
-    G1 --> G2["2. Planejamento:<br/>Elaboração da EAP, cronograma, custos, riscos e aquisições"]
-    G2 --> G3["3. Execução:<br/>Mobilização de equipes e realização dos pacotes de trabalho"]
-    G3 --> G4["4. Monitoramento e Controle:<br/>Acompanhamento do desempenho, medição e ações corretivas"]
-    G4 --> G5["5. Encerramento:<br/>Formalização do aceite das entregas e registro de lições aprendidas"]
-    
-    G3 <--> G4
-```
-
-#### 4.3 Instrumentos Primordiais: TAP e EAP (WBS)
-- **Termo de Abertura do Projeto (TAP / *Project Charter*):**  
-  Documento formal emitido pelo patrocinador (*sponsor*) que autoriza oficialmente a existência do projeto e concede ao gerente do projeto a autoridade para aplicar recursos da instituição nas atividades do projeto;
-- **Estrutura Analítica do Projeto (EAP / *WBS - Work Breakdown Structure*):**  
-  Decomposição hierárquica e visual do escopo total de trabalho do projeto em partes menores e gerenciáveis chamadas de **pacotes de trabalho**.
-  > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-  > A EAP **NÃO é um cronograma de atividades**! A EAP é orientada exclusivamente a **entregas (produtos e subprodutos)**. Ela não contém datas de início/fim nem lista de tarefas diárias. O documento que contém datas e dependências temporais é o Cronograma do Projeto (Diagrama de Rede ou Gráfico de Gantt).
-
----
-
 ### Teste 327
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**
 Em relação ao gerenciamento de projetos estruturado segundo as boas práticas do guia PMBOK (Project Management Institute), assinale a opção correta:
@@ -459,14 +458,6 @@ Em relação ao gerenciamento de projetos estruturado segundo as boas práticas 
 > - **E)** Incorreta. A autorização formal para mobilizar servidores e recursos organizacionais é conferida ao gerente logo no início, através da assinatura do TAP.
 > 
 > **Gabarito: B**
-
----
-
-
-#### 4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)
-O sucesso de um projeto decorre do equilíbrio dinâmico entre três variáveis interdependentes, balizadas pelo padrão de **Qualidade**:
-$$\text{Escopo} \iff \text{Tempo / Cronograma} \iff \text{Custo / Orçamento}$$
-A alteração em qualquer um desses vértices impacta compulsoriamente os outros dois (ex.: antecipar o prazo de conclusão exige aumento de custos com horas extras ou redução do escopo entregue).
 
 ---
 
@@ -520,10 +511,7 @@ Na elaboração do Termo de Abertura do Projeto (*Project Charter*) e no planeja
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Referências Bibliográficas
 

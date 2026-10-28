@@ -29,38 +29,42 @@
     - Advocacia Privada (Artigo 133 da CF/88): indispensabilidade e inviolabilidade profissional;
     - Defensoria Pública (Artigos 134 e 135 da CF/88): assistência jurídica aos hipossuficientes e autonomia institucional expressa.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
-    1. [Poder Executivo: Estrutura, Atribuições e Responsabilidade](#1-poder-executivo-estrutura-atribuicoes-e-responsabilidade)
-    2. [Teste 154](#Teste-154)
-    3. [Teste 155](#Teste-155)
-    4. [Teste 156](#Teste-156)
-    5. [Teste 157](#Teste-157)
-    6. [Poder Judiciário: Estrutura Orgânica, CNJ e Súmula Vinculante](#2-poder-judiciario-estrutura-organica-cnj-e-sumula-vinculante)
-    7. [Teste 158](#Teste-158)
-    8. [Teste 159](#Teste-159)
-    9. [Teste 160](#Teste-160)
-    10. [Teste 161](#Teste-161)
-    11. [Funções Essenciais à Justiça](#3-funcoes-essenciais-a-justica)
-    12. [Teste 162](#Teste-162)
-    13. [Teste 163](#Teste-163)
-    14. [Teste 164](#Teste-164)
-2. [Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+1. [Poder Executivo: Estrutura, Atribuições e Responsabilidade](#1-poder-executivo-estrutura-atribuicoes-e-responsabilidade)
+    1. [Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)](#11-dupla-vacancia-dos-cargos-presidenciais-art-81-da-cf88)
+    2. [Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)](#12-atribuicoes-delegaveis-do-presidente-da-republica-art-84-paragrafo-unico)
+    3. [Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)](#13-responsabilidade-do-presidente-da-republica-e-imunidades-arts-85-e-86)
+    4. [Teste 154](#Teste-154)
+    5. [Teste 155](#Teste-155)
+    6. [Teste 156](#Teste-156)
+    7. [Teste 157](#Teste-157)
+2. [Poder Judiciário: Estrutura Orgânica, CNJ e Súmula Vinculante](#2-poder-judiciario-estrutura-organica-cnj-e-sumula-vinculante)
+    1. [Garantias e Vedações dos Magistrados (Art. 95 da CF/88)](#21-garantias-e-vedacoes-dos-magistrados-art-95-da-cf88)
+    2. [Conselho Nacional de Justiça (CNJ - Art. 103-B)](#22-conselho-nacional-de-justica-cnj-art-103-b)
+    3. [Supremo Tribunal Federal e o Regime da Súmula Vinculante (Art. 103-A)](#23-supremo-tribunal-federal-e-o-regime-da-sumula-vinculante-art-103-a)
+    4. [Superior Tribunal de Justiça e o Filtro de Relevância (Arts. 104 e 105)](#24-superior-tribunal-de-justica-e-o-filtro-de-relevancia-arts-104-e-105)
+    5. [Teste 158](#Teste-158)
+    6. [Teste 159](#Teste-159)
+    7. [Teste 160](#Teste-160)
+    8. [Teste 161](#Teste-161)
+3. [Funções Essenciais à Justiça](#3-funcoes-essenciais-a-justica)
+    1. [Ministério Público e o CNMP (Arts. 127 a 130-A)](#31-ministerio-publico-e-o-cnmp-arts-127-a-130-a)
+    2. [Advocacia Pública (Arts. 131 e 132)](#32-advocacia-publica-arts-131-e-132)
+    3. [Defensoria Pública (Arts. 134 e 135)](#33-defensoria-publica-arts-134-e-135)
+    4. [Advocacia Privada (Art. 133)](#34-advocacia-privada-art-133)
+    5. [Teste 162](#Teste-162)
+    6. [Teste 163](#Teste-163)
+    7. [Teste 164](#Teste-164)
+4. [🌐 Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
 
 ---
 
+## 1. Poder Executivo: Estrutura, Atribuições e Responsabilidade
 
-## 📖 Conteúdo Teórico Aprofundado
-
-### 1. Poder Executivo: Estrutura, Atribuições e Responsabilidade
-
-#### 1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)
+### 1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)
 Ocorrendo a vacância definitiva tanto do cargo de Presidente quanto de Vice-Presidente da República, aplicam-se regras distintas a depender do momento do mandato:
 
 ```mermaid
@@ -78,9 +82,40 @@ flowchart TD
 - **Últimos 2 anos do mandato:** Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita **indireta**, trinta dias depois da última vaga, pelo **Congresso Nacional**, na forma da lei.
 - Em qualquer das hipóteses de eleição extraordinária, os eleitos deverão completar o período remanescente de seus antecessores (*mandato-tampão* - art. 81, § 2º).
 
+### 1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)
+O art. 84 fixa as competências privativas do Presidente da República. Em regra, são privativas e indelegáveis. Todavia, a Constituição autoriza a **delegação de apenas TRÊS matérias específicas**:
+
+1. **Art. 84, VI:** Dispor, mediante **decreto autônomo**, sobre:
+    - *a)* Organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;
+    - *b)* Extinção de funções ou cargos públicos, quando vagos;
+
+2. **Art. 84, XII:** Conceder **indulto e comutar penas**, com audiência, se necessário, dos órgãos instituídos em lei;
+3. **Art. 84, XXV, primeira parte:** **Prover** cargos públicos federais, na forma da lei.
+
+```mermaid
+flowchart LR
+    Pres["Presidente da República"] -->|"Pode delegar APENAS:<br/>1. Decreto Autônomo (Art. 84, VI)<br/>2. Indulto e Comutação (Art. 84, XII)<br/>3. Prover Cargos Vagos (Art. 84, XXV, 1ª p.)"| Destinatarios["ROL TAXATIVO DE DESTINATÁRIOS:<br/>- Ministros de Estado<br/>- Procurador-Geral da República (PGR)<br/>- Advogado-Geral da União (AGU)"]
+```
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+>
+> - **Extinção de Órgãos Públicos:** O Presidente NÃO pode criar nem extinguir Ministérios ou órgãos públicos por decreto! A criação e extinção de órgãos públicos exige expressamente **lei formal ordinária** (art. 88 da CF/88). O decreto autônomo serve exclusivamente para organizar órgãos existentes sem gerar custos ou extinguir cargos vagos.  
+> - **Extinção de Cargos Públicos Ocupados:** Depende obrigatoriamente de lei formal. Por decreto autônomo, o Chefe do Executivo só pode extinguir cargos e funções quando estiverem **vagos**!
+
+### 1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)
+O Presidente da República responde perante o STF por crimes comuns e perante o Senado Federal por crimes de responsabilidade (*impeachment*).
+
+| Aspecto Procedimental | Crime Comum (Penal) | Crime de Responsabilidade (*Impeachment*) |
+| :--- | :--- | :--- |
+| **Juízo de Admissibilidade** | **Câmara dos Deputados** (quórum de 2/3 dos membros) | **Câmara dos Deputados** (quórum de 2/3 dos membros) |
+| **Órgão Julgador Competente** | **Supremo Tribunal Federal (STF)** | **Senado Federal** (sob presidência do Presidente do STF) |
+| **Instauração do Processo** | Recebimento da denúncia ou queixa pelo STF | Deliberação do Plenário do Senado Federal por maioria simples |
+| **Afastamento Preventivo** | Fica suspenso de suas funções por até 180 dias | Fica suspenso de suas funções por até 180 dias |
+| **Sanção Constitucional** | Penas privativas de liberdade / multas criminais | **Perda do cargo** + **inabilitação por 8 anos** para qualquer função pública (quórum de 2/3 do Senado) |
+| **Imunidade Prisional (Art. 86, § 3º)** | **Não pode ser preso**, na vigência do mandato, senão após sentença penal condenatória transitada em julgado | Inaplicável medida penal coercitiva |
+| **Irresponsabilidade Relativa (Art. 86, § 4º)** | **Não pode ser responsabilizado por atos estranhos ao exercício de suas funções** na vigência do mandato | Aplicável a atos conexos ao exercício funcional |
+
 ---
-
-
 
 ### Teste 154
 **(FCC - Analista de Controle Externo / TCE-GO)**
@@ -134,30 +169,6 @@ Na hipótese de ocorrer a vacância simultânea e definitiva dos cargos de Presi
 
 ---
 
-
-
-#### 1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)
-O art. 84 fixa as competências privativas do Presidente da República. Em regra, são privativas e indelegáveis. Todavia, a Constituição autoriza a **delegação de apenas TRÊS matérias específicas**:
-
-1. **Art. 84, VI:** Dispor, mediante **decreto autônomo**, sobre:
-    - *a)* Organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;
-    - *b)* Extinção de funções ou cargos públicos, quando vagos;
-
-2. **Art. 84, XII:** Conceder **indulto e comutar penas**, com audiência, se necessário, dos órgãos instituídos em lei;
-3. **Art. 84, XXV, primeira parte:** **Prover** cargos públicos federais, na forma da lei.
-
-```mermaid
-flowchart LR
-    Pres["Presidente da República"] -->|"Pode delegar APENAS:<br/>1. Decreto Autônomo (Art. 84, VI)<br/>2. Indulto e Comutação (Art. 84, XII)<br/>3. Prover Cargos Vagos (Art. 84, XXV, 1ª p.)"| Destinatarios["ROL TAXATIVO DE DESTINATÁRIOS:<br/>- Ministros de Estado<br/>- Procurador-Geral da República (PGR)<br/>- Advogado-Geral da União (AGU)"]
-```
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
->
-> - **Extinção de Órgãos Públicos:** O Presidente NÃO pode criar nem extinguir Ministérios ou órgãos públicos por decreto! A criação e extinção de órgãos públicos exige expressamente **lei formal ordinária** (art. 88 da CF/88). O decreto autônomo serve exclusivamente para organizar órgãos existentes sem gerar custos ou extinguir cargos vagos.  
-> - **Extinção de Cargos Públicos Ocupados:** Depende obrigatoriamente de lei formal. Por decreto autônomo, o Chefe do Executivo só pode extinguir cargos e funções quando estiverem **vagos**!
-
----
-
 ### Teste 156
 **(FCC - Adaptada / Analista Judiciário - TRT)**
 A respeito das atribuições constitucionais do Presidente da República e da possibilidade de delegação de competências, consoante o disposto expressamente na Constituição Federal de 1988:
@@ -182,8 +193,6 @@ A respeito das atribuições constitucionais do Presidente da República e da po
 > **Gabarito: B**
 
 ---
-
-
 
 ### Teste 157
 **(FGV - Auditor de Controle Externo / TCE-SC)**
@@ -212,26 +221,9 @@ Sobre o rito constitucional de responsabilização do Chefe do Poder Executivo, 
 
 ---
 
+## 2. Poder Judiciário: Estrutura Orgânica, CNJ e Súmula Vinculante
 
-
-#### 1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)
-O Presidente da República responde perante o STF por crimes comuns e perante o Senado Federal por crimes de responsabilidade (*impeachment*).
-
-| Aspecto Procedimental | Crime Comum (Penal) | Crime de Responsabilidade (*Impeachment*) |
-| :--- | :--- | :--- |
-| **Juízo de Admissibilidade** | **Câmara dos Deputados** (quórum de 2/3 dos membros) | **Câmara dos Deputados** (quórum de 2/3 dos membros) |
-| **Órgão Julgador Competente** | **Supremo Tribunal Federal (STF)** | **Senado Federal** (sob presidência do Presidente do STF) |
-| **Instauração do Processo** | Recebimento da denúncia ou queixa pelo STF | Deliberação do Plenário do Senado Federal por maioria simples |
-| **Afastamento Preventivo** | Fica suspenso de suas funções por até 180 dias | Fica suspenso de suas funções por até 180 dias |
-| **Sanção Constitucional** | Penas privativas de liberdade / multas criminais | **Perda do cargo** + **inabilitação por 8 anos** para qualquer função pública (quórum de 2/3 do Senado) |
-| **Imunidade Prisional (Art. 86, § 3º)** | **Não pode ser preso**, na vigência do mandato, senão após sentença penal condenatória transitada em julgado | Inaplicável medida penal coercitiva |
-| **Irresponsabilidade Relativa (Art. 86, § 4º)** | **Não pode ser responsabilizado por atos estranhos ao exercício de suas funções** na vigência do mandato | Aplicável a atos conexos ao exercício funcional |
-
----
-
-### 2. Poder Judiciário: Estrutura Orgânica, CNJ e Súmula Vinculante
-
-#### 2.1 Garantias e Vedações dos Magistrados (Art. 95 da CF/88)
+### 2.1 Garantias e Vedações dos Magistrados (Art. 95 da CF/88)
 - **Garantias Constitucionais:**
     - *Vitaliciedade:* Em primeiro grau, só é adquirida após **2 (dois) anos de efetivo exercício** (no período inicial de 2 anos, a perda do cargo dá-se por deliberação do tribunal respectivo; após os 2 anos, exige-se sentença judicial transitada em julgado).
     - *Inamovibilidade:* O juiz não pode ser removido compulsoriamente, salvo por motivo de interesse público, fundamentado em decisão tomada pela maioria absoluta do tribunal ou do Conselho Nacional de Justiça (CNJ).
@@ -243,7 +235,7 @@ O Presidente da República responde perante o STF por crimes comuns e perante o 
     - Receber auxílios ou contribuições de pessoas físicas ou entidades públicas/privadas;
     - Exercer a advocacia no juízo ou tribunal do qual se afastou antes de decorridos **3 (três) anos** do afastamento do cargo por aposentadoria ou exoneração (*quarentena de saída* - Art. 95, parágrafo único, V).
 
-#### 2.2 Conselho Nacional de Justiça (CNJ - Art. 103-B)
+### 2.2 Conselho Nacional de Justiça (CNJ - Art. 103-B)
 O CNJ compõe-se de **15 membros**, com mandato de **2 anos**, admitida **uma única recondução**, presidido pelo Presidente do Supremo Tribunal Federal.
 
 ```mermaid
@@ -258,9 +250,21 @@ flowchart TD
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > O CNJ **NÃO tem competência jurisdicional**! O CNJ não pode anular sentença de juiz, não pode apreciar recursos contra decisões judiciais e não pode revogar liminares concedidas em processos judiciais. Qualquer questão da FCC que afirme que o CNJ "reformou a sentença de primeiro grau por contrariar a lei" está redondamente incorreta! O controle jurisdicional pertence exclusivamente às instâncias recursais (TJ, TRF, STJ, STF).
 
+### 2.3 Supremo Tribunal Federal e o Regime da Súmula Vinculante (Art. 103-A)
+- **Composição do STF:** 11 Ministros, escolhidos dentre cidadãos com mais de 35 e menos de 70 anos de idade, de notável saber jurídico e reputação ilibada, nomeados pelo Presidente da República após aprovação pela maioria absoluta do Senado Federal.
+- **Aprovação e Cancelamento de Súmula Vinculante:** O STF pode, de ofício ou por provocação, mediante decisão de **dois terços (2/3) dos seus membros (8 votos)**, aprovar, revisar ou cancelar enunciado de súmula vinculante, após reiteradas decisões sobre matéria constitucional.
+- **Eficácia Vinculante:** Vincula todos os demais órgãos do Poder Judiciário e a **Administração Pública direta e indireta, nas esferas federal, estadual e municipal**.
+- **Limitações do Efeito Vinculante:**
+    - O próprio STF não é vinculado (pode cancelar ou alterar suas súmulas).
+    - O **Poder Legislativo em sua atividade legiferante típica NÃO é vinculado**! O Congresso Nacional pode aprovar lei com conteúdo diametralmente oposto ao estabelecido em súmula vinculante (*legiferação reativa*), sem que isso configure desobediência.
+- **Instrumento Processual de Defesa:** Contra ato administrativo ou decisão judicial que contrariar a súmula vinculante ou aplicá-la indevidamente, cabe **Reclamação Constitucional** diretamente ao STF (Art. 103-A, § 3º).
+
+### 2.4 Superior Tribunal de Justiça e o Filtro de Relevância (Arts. 104 e 105)
+- **Composição do STJ:** No mínimo 33 Ministros, nomeados pelo Presidente da República após aprovação por maioria absoluta do Senado Federal, entre brasileiros com mais de 35 e menos de 70 anos.
+- **Papel Constitucional:** Guardião da integridade da legislação federal infraconstitucional e uniformizador da interpretação das leis federais.
+- **Filtro de Relevância no Recurso Especial (EC nº 125/2022):** No Recurso Especial (REsp), o recorrente deve demonstrar a relevância das questões de direito federal infraconstitucional discutidas no caso, para que o Tribunal examine a admissão do recurso, somente podendo ser recusado pela manifestação de dois terços dos membros do órgão competente para o julgamento.
+
 ---
-
-
 
 ### Teste 158
 **(FCC - Analista Judiciário - Área Judiciária)**
@@ -314,18 +318,6 @@ Sobre a estrutura e as atribuições do Conselho Nacional de Justiça (CNJ), com
 
 ---
 
-
-#### 2.3 Supremo Tribunal Federal e o Regime da Súmula Vinculante (Art. 103-A)
-- **Composição do STF:** 11 Ministros, escolhidos dentre cidadãos com mais de 35 e menos de 70 anos de idade, de notável saber jurídico e reputação ilibada, nomeados pelo Presidente da República após aprovação pela maioria absoluta do Senado Federal.
-- **Aprovação e Cancelamento de Súmula Vinculante:** O STF pode, de ofício ou por provocação, mediante decisão de **dois terços (2/3) dos seus membros (8 votos)**, aprovar, revisar ou cancelar enunciado de súmula vinculante, após reiteradas decisões sobre matéria constitucional.
-- **Eficácia Vinculante:** Vincula todos os demais órgãos do Poder Judiciário e a **Administração Pública direta e indireta, nas esferas federal, estadual e municipal**.
-- **Limitações do Efeito Vinculante:**
-    - O próprio STF não é vinculado (pode cancelar ou alterar suas súmulas).
-    - O **Poder Legislativo em sua atividade legiferante típica NÃO é vinculado**! O Congresso Nacional pode aprovar lei com conteúdo diametralmente oposto ao estabelecido em súmula vinculante (*legiferação reativa*), sem que isso configure desobediência.
-- **Instrumento Processual de Defesa:** Contra ato administrativo ou decisão judicial que contrariar a súmula vinculante ou aplicá-la indevidamente, cabe **Reclamação Constitucional** diretamente ao STF (Art. 103-A, § 3º).
-
----
-
 ### Teste 160
 **(FCC - Adaptada / Analista de Gestão Pública)**
 O Supremo Tribunal Federal aprovou enunciado de Súmula Vinculante versando sobre critérios de nomeação para cargos em comissão na Administração Pública. Meses após a publicação do verbete sumular no Diário Oficial, a Assembleia Legislativa de determinado Estado aprovou lei ordinária cujo texto contraria expressamente o entendimento consolidado na referida Súmula Vinculante.
@@ -352,8 +344,6 @@ O Supremo Tribunal Federal aprovou enunciado de Súmula Vinculante versando sobr
 > **Gabarito: B**
 
 ---
-
-
 
 ### Teste 161
 **(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
@@ -382,15 +372,7 @@ Sobre os requisitos de aprovação, objeto e efeitos da Súmula Vinculante, assi
 
 ---
 
-
-#### 2.4 Superior Tribunal de Justiça e o Filtro de Relevância (Arts. 104 e 105)
-- **Composição do STJ:** No mínimo 33 Ministros, nomeados pelo Presidente da República após aprovação por maioria absoluta do Senado Federal, entre brasileiros com mais de 35 e menos de 70 anos.
-- **Papel Constitucional:** Guardião da integridade da legislação federal infraconstitucional e uniformizador da interpretação das leis federais.
-- **Filtro de Relevância no Recurso Especial (EC nº 125/2022):** No Recurso Especial (REsp), o recorrente deve demonstrar a relevância das questões de direito federal infraconstitucional discutidas no caso, para que o Tribunal examine a admissão do recurso, somente podendo ser recusado pela manifestação de dois terços dos membros do órgão competente para o julgamento.
-
----
-
-### 3. Funções Essenciais à Justiça
+## 3. Funções Essenciais à Justiça
 
 ```mermaid
 flowchart TD
@@ -401,7 +383,7 @@ flowchart TD
     FE --> DP["Defensoria Pública (Arts. 134 e 135)<br/>Defesa integral dos hipossuficientes;<br/>autonomia funcional, administrativa e orçamentária"]
 ```
 
-#### 3.1 Ministério Público e o CNMP (Arts. 127 a 130-A)
+### 3.1 Ministério Público e o CNMP (Arts. 127 a 130-A)
 - **Princípios Institucionais:** Unidade, indivisibilidade e independência funcional.
 - **Autonomia Constitucional:** O Ministério Público é dotado de autonomia funcional, administrativa e iniciativa de sua proposta orçamentária dentro dos limites da LDO.
 - **Chefia Institucional:**
@@ -409,9 +391,16 @@ flowchart TD
     - *Ministério Público dos Estados (PGJ):* Escolhido pelo Governador a partir de lista tríplice formada pelos integrantes da carreira, para mandato de 2 anos, permitida uma única recondução consecutiva.
 - **Conselho Nacional do Ministério Público (CNMP - Art. 130-A):** Órgão de controle administrativo, financeiro e disciplinar do Ministério Público, composto por **14 membros** e presidido pelo Procurador-Geral da República.
 
+### 3.2 Advocacia Pública (Arts. 131 e 132)
+Incumbe privativamente aos Procuradores do Estado (PGE-GO) e do DF a representação judicial e a consultoria jurídica das respectivas unidades federadas. O ingresso depende de concurso público de provas e títulos, com a **participação obrigatória da Ordem dos Advogados do Brasil em todas as suas fases**.
+
+### 3.3 Defensoria Pública (Arts. 134 e 135)
+Instituição essencial incumbida da promoção dos direitos humanos e da orientação jurídica e defesa integral e gratuita dos necessitados. Possui **autonomia funcional, administrativa e orçamentária expressa**, não se subordinando a nenhuma Secretaria de Estado ou Ministério.
+
+### 3.4 Advocacia Privada (Art. 133)
+O advogado é indispensável à administração da justiça, sendo inviolável por seus atos e manifestações no exercício da profissão, nos limites da lei.
+
 ---
-
-
 
 ### Teste 162
 **(FCC - Procurador do Estado / Adaptada)**
@@ -476,20 +465,6 @@ Está correto o que se afirma em:
 
 ---
 
-
-#### 3.2 Advocacia Pública (Arts. 131 e 132)
-Incumbe privativamente aos Procuradores do Estado (PGE-GO) e do DF a representação judicial e a consultoria jurídica das respectivas unidades federadas. O ingresso depende de concurso público de provas e títulos, com a **participação obrigatória da Ordem dos Advogados do Brasil em todas as suas fases**.
-
-#### 3.3 Defensoria Pública (Arts. 134 e 135)
-Instituição essencial incumbida da promoção dos direitos humanos e da orientação jurídica e defesa integral e gratuita dos necessitados. Possui **autonomia funcional, administrativa e orçamentária expressa**, não se subordinando a nenhuma Secretaria de Estado ou Ministério.
-
-#### 3.4 Advocacia Privada (Art. 133)
-O advogado é indispensável à administração da justiça, sendo inviolável por seus atos e manifestações no exercício da profissão, nos limites da lei.
-
----
-
-
-
 ### Teste 164
 **(FGV - Analista de Controle Externo / Auditoria)**
 A respeito das Funções Essenciais à Justiça disciplinadas nos arts. 131 a 135 da Constituição Federal, compare as atribuições e o regime constitucional da Advocacia Pública e da Defensoria Pública.
@@ -515,10 +490,7 @@ Assinale a afirmativa correta.
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 

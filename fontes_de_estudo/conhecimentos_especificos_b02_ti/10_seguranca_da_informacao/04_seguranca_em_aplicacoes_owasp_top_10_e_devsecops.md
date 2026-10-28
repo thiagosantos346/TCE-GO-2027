@@ -16,42 +16,38 @@
 - Ferramentas de testes de segurança de software: SAST, DAST, IAST e SCA
 - Segurança específica em APIs, em contêineres e em ambientes de nuvem
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [O Projeto OWASP Top 10 e Vulnerabilidades Críticas em Software Web](#1-o-projeto-owasp-top-10-e-vulnerabilidades-criticas-em-software-web)
     1. [Visão Geral e Categorias Oficiais do OWASP Top 10](#11-visao-geral-e-categorias-oficiais-do-owasp-top-10)
     2. [Broken Access Control (#1) e Insecure Direct Object References (IDOR)](#12-broken-access-control-1-e-insecure-direct-object-references-idor)
-    3. [Teste 388](#Teste-388)
-    4. [Cryptographic Failures (#2) e Proteção de Dados](#13-cryptographic-failures-2-e-protecao-de-dados)
-    5. [Teste 389](#Teste-389)
-    6. [Injection (#3): SQL Injection vs. Consultas Parametrizadas e Modalidades de XSS](#14-injection-3-sql-injection-vs-consultas-parametrizadas-e-modalidades-de-xss)
-    7. [Teste 390](#Teste-390)
-    8. [Teste 391](#Teste-391)
-    9. [Demais Categorias Críticas: Insecure Design, Misconfiguration, SSRF e Supply Chain](#15-demais-categorias-criticas-insecure-design-misconfiguration-ssrf-e-supply-chain)
+    3. [Cryptographic Failures (#2) e Proteção de Dados](#13-cryptographic-failures-2-e-protecao-de-dados)
+    4. [Injection (#3): SQL Injection vs. Consultas Parametrizadas e Modalidades de XSS](#14-injection-3-sql-injection-vs-consultas-parametrizadas-e-modalidades-de-xss)
+    5. [Demais Categorias Críticas: Insecure Design, Misconfiguration, SSRF e Supply Chain](#15-demais-categorias-criticas-insecure-design-misconfiguration-ssrf-e-supply-chain)
+    6. [Teste 388](#Teste-388)
+    7. [Teste 389](#Teste-389)
+    8. [Teste 390](#Teste-390)
+    9. [Teste 391](#Teste-391)
     10. [Teste 392](#Teste-392)
 2. [Abordagem DevSecOps e a Cultura Shift-Left](#2-abordagem-devsecops-e-a-cultura-shift-left)
     1. [Princípios do DevSecOps e Economia da Correção Precoce (Shift-Left)](#21-principios-do-devsecops-e-economia-da-correcao-precoce-shift-left)
-    2. [Teste 393](#Teste-393)
-    3. [Modelagem de Ameaças com a Metodologia STRIDE](#22-modelagem-de-ameacas-com-a-metodologia-stride)
-    4. [Teste 394](#Teste-394)
-    5. [Ferramentas Automatizadas de Teste de Segurança (SAST, DAST, IAST, SCA)](#23-ferramentas-automatizadas-de-teste-de-seguranca-sast-dast-iast-sca)
+    2. [Modelagem de Ameaças com a Metodologia STRIDE](#22-modelagem-de-ameacas-com-a-metodologia-stride)
+    3. [Ferramentas Automatizadas de Teste de Segurança (SAST, DAST, IAST, SCA)](#23-ferramentas-automatizadas-de-teste-de-seguranca-sast-dast-iast-sca)
+    4. [Teste 393](#Teste-393)
+    5. [Teste 394](#Teste-394)
     6. [Teste 395](#Teste-395)
 3. [Segurança em APIs, Contêineres e Ambientes de Nuvem](#3-seguranca-em-apis-conteineres-e-ambientes-de-nuvem)
     1. [Segurança em APIs: OWASP API Security Top 10 e BOLA](#31-seguranca-em-apis-owasp-api-security-top-10-e-bola)
-    2. [Teste 396](#Teste-396)
-    3. [Boas Práticas e Hardening em Contêineres Docker e Kubernetes](#32-boas-praticas-e-hardening-em-conteineres-docker-e-kubernetes)
-    4. [Teste 397](#Teste-397)
-    5. [Segurança em Nuvem: Modelo de Responsabilidade Compartilhada e Proteção de Metadados](#33-seguranca-em-nuvem-modelo-de-responsabilidade-compartilhada-e-protecao-de-metadados)
+    2. [Boas Práticas e Hardening em Contêineres Docker e Kubernetes](#32-boas-praticas-e-hardening-em-conteineres-docker-e-kubernetes)
+    3. [Segurança em Nuvem: Modelo de Responsabilidade Compartilhada e Proteção de Metadados](#33-seguranca-em-nuvem-modelo-de-responsabilidade-compartilhada-e-protecao-de-metadados)
+    4. [Teste 396](#Teste-396)
+    5. [Teste 397](#Teste-397)
     6. [Teste 398](#Teste-398)
-4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. O Projeto OWASP Top 10 e Vulnerabilidades Críticas em Software Web
 
@@ -72,8 +68,6 @@ O *Open Web Application Security Project* (**OWASP**) é uma comunidade internac
 | **A09** | **Security Logging and Monitoring Failures** | Falha em registrar, monitorar e alertar tempestivamente sobre eventos suspeitos e incidentes. | Tentativas de login falhas não registradas; logs mantidos apenas localmente permitindo que o invasor os apague; ausência de integração com SIEM. | Centralização de logs imutáveis em SIEM; alertas automatizados em tempo quase real; retenção em conformidade com regulamentos. |
 | **A10** | **Server-Side Request Forgery (SSRF)** | A aplicação web é induzida a realizar requisições HTTP arbitrárias a um destino fornecido pelo usuário. | O servidor vulnerável faz requisição contra serviços de metadados em nuvem (`http://169.254.169.254`) ou sistemas internos atrás do firewall. | Validação estrita de URLs de destino; lista permitida (*allowlist*) de domínios; isolamento de rede do servidor de aplicação. |
 
----
-
 ### 1.2 Broken Access Control (#1) e Insecure Direct Object References (IDOR)
 
 Na edição atual do OWASP Top 10, **Broken Access Control assumiu a 1ª posição absoluta**, sendo identificada em 94% das aplicações testadas.
@@ -92,41 +86,6 @@ Se o usuário simplesmente alterar o valor na barra de endereços para `id=1051`
 - **Mitigação Mandatória:** O servidor deve SEMPRE verificar na camada de aplicação:  
   *O `usuario_autenticado` é o proprietário legítimo ou possui autorização formal no RBAC/ABAC para acessar o recurso `id=1051`?* Se não, a requisição deve ser bloqueada com código HTTP `403 Forbidden`.
 
----
-
-### Teste 388
-**(FCC - Adaptada / TI - OWASP Top 10 / Broken Access Control e IDOR)**
-Um analista de sistemas realizou um teste de penetração em um portal web fazendário e constatou que, ao autenticar-se como um contribuinte comum e acessar a URL:  
-`https://sefaz.gov.br/api/certidoes?id_requerimento=1050`  
-bastava alterar manualmente o parâmetro da requisição para:  
-`https://sefaz.gov.br/api/certidoes?id_requerimento=1051`  
-para visualizar e baixar a certidão fiscal de outro contribuinte, sem que o sistema realizasse qualquer validação sobre a titularidade do documento solicitado.
-
-No contexto das vulnerabilidades catalogadas pelo **OWASP Top 10**, essa falha é tecnicamente classificada como:
-
-* **A)** Server-Side Request Forgery (SSRF - A10).
-* **B)** Insecure Direct Object References (IDOR), inserida na categoria de Broken Access Control (A01).
-* **C)** Cryptographic Failures (A02), originada pelo uso incorreto do protocolo HTTPS.
-* **D)** Security Logging and Monitoring Failures (A09).
-* **E)** SQL Injection cego (Blind SQLi - A03).
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O SSRF envolve induzir o servidor a realizar requisições maliciosas contra alvos da rede interna ou metadados de nuvem.
-> - **B)** Correta. Trata-se da clássica vulnerabilidade **IDOR (*Insecure Direct Object References*)**, pertencente à categoria **Broken Access Control (A01)**, caracterizada pela ausência de verificação no servidor sobre os direitos do usuário de acessar um identificador de registro direto recebido na requisição.
-> - **C)** Incorreta. O problema não tem correlação com protocolos de criptografia em trânsito, mas sim com a falha lógica de verificação de permissões do usuário logado.
-> - **D)** Incorreta. Trata-se de falha de autorização e controle de acesso, e não de deficiência de geração de logs de eventos.
-> - **E)** Incorreta. O cenário retrata uma alteração pontual de parâmetro numérico sem injeção de cláusulas SQL maliciosas.
-> 
-> **Gabarito: B**
-
----
-
-
-
 ### 1.3 Cryptographic Failures (#2) e Proteção de Dados
 
 Anteriormente denominada *Sensitive Data Exposure*, essa categoria concentra-se em deficiências relacionadas ao uso incorreto ou à ausência de criptografia:
@@ -134,37 +93,6 @@ Anteriormente denominada *Sensitive Data Exposure*, essa categoria concentra-se 
 - **Dados em Trânsito:** Omissão do protocolo HTTPS/TLS 1.3, tráfego de dados sensíveis (senhas, CPF, informações de saúde) em texto puro HTTP, ausência do cabeçalho HSTS (*HTTP Strict Transport Security*).
 - **Dados em Repouso:** Armazenamento de dados críticos em bases de dados sem criptografia de ponta a ponta (AES-256-GCM); armazenamento de senhas com funções hash rápidas e vulneráveis (MD5, SHA-1) ou sem a devida adição de valor aleatório de *salt* individualizado.
 - **Mitigação:** Emprego obrigatório de cifras simétricas robustas com modos autenticados (AES-GCM), protocolos seguros de transporte e funções de derivação de chaves projetadas especificamente para senhas com custo de processamento ajustável (Argon2, bcrypt, PBKDF2).
-
----
-
-### Teste 389
-**(FGV - TRT / Analista Judiciário - TI - OWASP #2 Falhas Criptográficas e Armazenamento de Senhas)**
-No ranking OWASP Top 10:2021, a categoria **A02:2021 - Cryptographic Failures** aborda falhas relacionadas à ausência ou fragilidade de criptografia na proteção de dados sensíveis em repouso e em trânsito.
-
-No desenvolvimento de sistemas de processo judicial e administrativo eletrônico, a diretriz recomendada pela OWASP e pelo NIST para armazenar senhas de usuários em bancos de dados de forma estritamente segura consiste em:
-
-* **A)** Cifrar as senhas utilizando o algoritmo simétrico DES em modo ECB sem chave secreta.
-* **B)** Armazenar as senhas aplicando uma função hash rápida simples como MD5 ou SHA-1 pura sem qualquer valor de sal (*salt*).
-* **C)** Utilizar uma função de derivação de chaves adaptativa e deliberadamente lenta com alto consumo de memória (*memory-hard* / *work factor* ajustável), tais como **Argon2id**, **bcrypt** ou **PBKDF2**, combinada com um **Salt** criptograficamente aleatório e exclusivo para cada usuário gerado com no mínimo 128 bits.
-* **D)** Gravar as senhas em texto puro (*plaintext*) protegido apenas por permissão de arquivo no Linux.
-* **E)** Converter a senha em caracteres Base64 invertidos e armazenar em uma coluna pública da tabela de usuários.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Criptografia reversível não deve ser usada para senhas de autenticação; senhas exigem funções unidirecionais não reversíveis. Além disso, DES é um algoritmo quebrado e obsoleto.
-> - **B)** Incorreta. Hashes rápidos comuns (MD5, SHA-1, SHA-256) são catastróficos para senhas: atacantes conseguem testar bilhões de palpites por segundo em GPUs comuns e utilizar tabelas arco-íris (*Rainbow Tables*) pré-computadas na ausência de salt.
-> - **C)** **CORRETA.** Padrão ouro da OWASP e NIST SP 800-63B para armazenamento de senhas:
->   - **Salt (Sal Criptográfico):** Sequência aleatória exclusiva gerada para cada usuário e concatenada à senha antes do hash, tornando tabelas arco-íris totalmente inúteis e garantindo que dois usuários com a mesma senha tenham hashes físicos completamente distintos.
->   - **Funções de Hashing Lentas e Adaptativas (Key Derivation Functions - KDF):** Algoritmos como **Argon2id** (vencedor da *Password Hashing Competition*), **bcrypt** e **PBKDF2** impõem custos massivos de tempo e memória RAM (*memory-hard*), tornando ataques de força bruta com placas de vídeo e ASICs inviáveis economicamente.
-> - **D)** Incorreta. Violação elementar e gravíssima de segurança.
-> - **E)** Incorreta. Base64 é apenas um esquema de codificação reversível, desprovido de qualquer segurança ou segredo criptográfico.
-> 
-> **Gabarito: C**
-
----
 
 ### 1.4 Injection (#3): SQL Injection vs. Consultas Parametrizadas e Modalidades de XSS
 
@@ -203,6 +131,73 @@ cursor.execute(query, (cpf_input,))
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A FCC adora afirmar que funções de substituição manual de caracteres (como trocar aspas por barras) são a solução ideal para injeção de SQL. **ERRADO!** Filtros manuais baseados em listas de bloqueio (*denylists*) são historicamente burláveis por diversas técnicas de codificação. A **única defesa definitiva e prioritária recomendada pela OWASP são as Consultas Parametrizadas (*Prepared Statements* com parâmetros vinculados / *bind variables*)**.
+
+### 1.5 Demais Categorias Críticas: Insecure Design, Misconfiguration, SSRF e Supply Chain
+
+- **A04: Insecure Design (Design Inseguro):** Categoria nova que diferencia falhas de implementação (bugs de código) de **falhas de concepção e arquitetura**. Se o sistema de compras do órgão não possui uma regra arquitetural de limitação de compras por minuto, o código pode estar perfeitamente escrito e livre de falhas de injeção, mas o design é vulnerável a abusos lógicos de negócio.
+- **A05: Security Misconfiguration (Configuração Incorreta de Segurança):** Envolve a manutenção de contas, logins e senhas padrão de fábrica em bancos de dados e servidores web; mensagens de erro detalhadas expondo *stack traces* e versões internas de bibliotecas aos usuários finais; portas de depuração abertas em produção e falta de políticas de segurança HTTP (*Content-Security-Policy*).
+- **A08: Software and Data Integrity Failures:** Foco na segurança da cadeia de suprimentos (*supply chain*). Envolve a ingestão de dependências e pacotes sem verificação de assinatura digital e a **desserialização insegura (*Insecure Deserialization*)**, onde objetos serializados em XML, JSON ou binários recebidos de usuários remotos são recriados na memória sem validação, viabilizando execução remota de código (RCE).
+- **A10: Server-Side Request Forgery (SSRF):** Ocorre quando um atacante consegue induzir o servidor de aplicação a disparar requisições HTTP arbitrárias para recursos internos protegidos pela rede interna. Em ambientes de nuvem pública, o vetor mais crítico de SSRF é forçar o servidor a ler a URL local de metadados (`http://169.254.169.254/latest/meta-data/`), expondo tokens temporários de credenciais administrativas da máquina virtual.
+
+---
+
+### Teste 388
+**(FCC - Adaptada / TI - OWASP Top 10 / Broken Access Control e IDOR)**
+Um analista de sistemas realizou um teste de penetração em um portal web fazendário e constatou que, ao autenticar-se como um contribuinte comum e acessar a URL:  
+`https://sefaz.gov.br/api/certidoes?id_requerimento=1050`  
+bastava alterar manualmente o parâmetro da requisição para:  
+`https://sefaz.gov.br/api/certidoes?id_requerimento=1051`  
+para visualizar e baixar a certidão fiscal de outro contribuinte, sem que o sistema realizasse qualquer validação sobre a titularidade do documento solicitado.
+
+No contexto das vulnerabilidades catalogadas pelo **OWASP Top 10**, essa falha é tecnicamente classificada como:
+
+* **A)** Server-Side Request Forgery (SSRF - A10).
+* **B)** Insecure Direct Object References (IDOR), inserida na categoria de Broken Access Control (A01).
+* **C)** Cryptographic Failures (A02), originada pelo uso incorreto do protocolo HTTPS.
+* **D)** Security Logging and Monitoring Failures (A09).
+* **E)** SQL Injection cego (Blind SQLi - A03).
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O SSRF envolve induzir o servidor a realizar requisições maliciosas contra alvos da rede interna ou metadados de nuvem.
+> - **B)** Correta. Trata-se da clássica vulnerabilidade **IDOR (*Insecure Direct Object References*)**, pertencente à categoria **Broken Access Control (A01)**, caracterizada pela ausência de verificação no servidor sobre os direitos do usuário de acessar um identificador de registro direto recebido na requisição.
+> - **C)** Incorreta. O problema não tem correlação com protocolos de criptografia em trânsito, mas sim com a falha lógica de verificação de permissões do usuário logado.
+> - **D)** Incorreta. Trata-se de falha de autorização e controle de acesso, e não de deficiência de geração de logs de eventos.
+> - **E)** Incorreta. O cenário retrata uma alteração pontual de parâmetro numérico sem injeção de cláusulas SQL maliciosas.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 389
+**(FGV - TRT / Analista Judiciário - TI - OWASP #2 Falhas Criptográficas e Armazenamento de Senhas)**
+No ranking OWASP Top 10:2021, a categoria **A02:2021 - Cryptographic Failures** aborda falhas relacionadas à ausência ou fragilidade de criptografia na proteção de dados sensíveis em repouso e em trânsito.
+
+No desenvolvimento de sistemas de processo judicial e administrativo eletrônico, a diretriz recomendada pela OWASP e pelo NIST para armazenar senhas de usuários em bancos de dados de forma estritamente segura consiste em:
+
+* **A)** Cifrar as senhas utilizando o algoritmo simétrico DES em modo ECB sem chave secreta.
+* **B)** Armazenar as senhas aplicando uma função hash rápida simples como MD5 ou SHA-1 pura sem qualquer valor de sal (*salt*).
+* **C)** Utilizar uma função de derivação de chaves adaptativa e deliberadamente lenta com alto consumo de memória (*memory-hard* / *work factor* ajustável), tais como **Argon2id**, **bcrypt** ou **PBKDF2**, combinada com um **Salt** criptograficamente aleatório e exclusivo para cada usuário gerado com no mínimo 128 bits.
+* **D)** Gravar as senhas em texto puro (*plaintext*) protegido apenas por permissão de arquivo no Linux.
+* **E)** Converter a senha em caracteres Base64 invertidos e armazenar em uma coluna pública da tabela de usuários.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Criptografia reversível não deve ser usada para senhas de autenticação; senhas exigem funções unidirecionais não reversíveis. Além disso, DES é um algoritmo quebrado e obsoleto.
+> - **B)** Incorreta. Hashes rápidos comuns (MD5, SHA-1, SHA-256) são catastróficos para senhas: atacantes conseguem testar bilhões de palpites por segundo em GPUs comuns e utilizar tabelas arco-íris (*Rainbow Tables*) pré-computadas na ausência de salt.
+> - **C)** **CORRETA.** Padrão ouro da OWASP e NIST SP 800-63B para armazenamento de senhas:
+>   - **Salt (Sal Criptográfico):** Sequência aleatória exclusiva gerada para cada usuário e concatenada à senha antes do hash, tornando tabelas arco-íris totalmente inúteis e garantindo que dois usuários com a mesma senha tenham hashes físicos completamente distintos.
+>   - **Funções de Hashing Lentas e Adaptativas (Key Derivation Functions - KDF):** Algoritmos como **Argon2id** (vencedor da *Password Hashing Competition*), **bcrypt** e **PBKDF2** impõem custos massivos de tempo e memória RAM (*memory-hard*), tornando ataques de força bruta com placas de vídeo e ASICs inviáveis economicamente.
+> - **D)** Incorreta. Violação elementar e gravíssima de segurança.
+> - **E)** Incorreta. Base64 é apenas um esquema de codificação reversível, desprovido de qualquer segurança ou segredo criptográfico.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -283,15 +278,6 @@ Assinale a afirmativa que descreve corretamente o **XSS Armazenado (Stored / Per
 
 ---
 
-### 1.5 Demais Categorias Críticas: Insecure Design, Misconfiguration, SSRF e Supply Chain
-
-- **A04: Insecure Design (Design Inseguro):** Categoria nova que diferencia falhas de implementação (bugs de código) de **falhas de concepção e arquitetura**. Se o sistema de compras do órgão não possui uma regra arquitetural de limitação de compras por minuto, o código pode estar perfeitamente escrito e livre de falhas de injeção, mas o design é vulnerável a abusos lógicos de negócio.
-- **A05: Security Misconfiguration (Configuração Incorreta de Segurança):** Envolve a manutenção de contas, logins e senhas padrão de fábrica em bancos de dados e servidores web; mensagens de erro detalhadas expondo *stack traces* e versões internas de bibliotecas aos usuários finais; portas de depuração abertas em produção e falta de políticas de segurança HTTP (*Content-Security-Policy*).
-- **A08: Software and Data Integrity Failures:** Foco na segurança da cadeia de suprimentos (*supply chain*). Envolve a ingestão de dependências e pacotes sem verificação de assinatura digital e a **desserialização insegura (*Insecure Deserialization*)**, onde objetos serializados em XML, JSON ou binários recebidos de usuários remotos são recriados na memória sem validação, viabilizando execução remota de código (RCE).
-- **A10: Server-Side Request Forgery (SSRF):** Ocorre quando um atacante consegue induzir o servidor de aplicação a disparar requisições HTTP arbitrárias para recursos internos protegidos pela rede interna. Em ambientes de nuvem pública, o vetor mais crítico de SSRF é forçar o servidor a ler a URL local de metadados (`http://169.254.169.254/latest/meta-data/`), expondo tokens temporários de credenciais administrativas da máquina virtual.
-
----
-
 ### Teste 392
 **(FGV - TRT / Analista Judiciário - TI - Server-Side Request Forgery: SSRF)**
 A categoria **A10:2021 - Server-Side Request Forgery (SSRF)** foi incluída formalmente no OWASP Top 10 devido à sua alta criticidade em arquiteturas modernas baseadas em nuvem e microsserviços.
@@ -321,10 +307,7 @@ A vulnerabilidade de SSRF caracteriza-se quando:
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Abordagem DevSecOps e a Cultura Shift-Left
 
@@ -349,6 +332,40 @@ Na linha cronológica da esteira de entrega contínua (CI/CD), a extremidade esq
 **Deslocar a segurança para a esquerda (*Shift-Left*)** significa introduzir verificações e controles de segurança o mais cedo possível:
 
 - Identificar e corrigir uma falha arquitetural ou de código durante a modelagem de ameaças ou na digitação na IDE é **dezenas de vezes mais barato** e rápido do que corrigir a mesma falha após a aplicação ter sido implantada em ambiente produtivo.
+
+### 2.2 Modelagem de Ameaças com a Metodologia STRIDE
+
+Criada por pesquisadores da Microsoft, a metodologia **STRIDE** é uma estrutura conceitual de modelagem de ameaças adotada no planejamento de sistemas para identificar potenciais riscos antes de qualquer linha de código ser produzida:
+
+```mermaid
+flowchart TD
+    S["Spoofing (Falsificação de Identidade)"] -->|Viola| A["Autenticidade"]
+    T["Tampering (Adulteração de Dados)"] -->|Viola| I["Integridade"]
+    R["Repudiation (Repúdio / Negação)"] -->|Viola| NR["Não Repúdio"]
+    INF["Information Disclosure (Vazamento)"] -->|Viola| C["Confidencialidade"]
+    D["Denial of Service (Negação de Serviço)"] -->|Viola| DI["Disponibilidade"]
+    E["Elevation of Privilege (Elevação de Privilégio)"] -->|Viola| AUTZ["Autorização"]
+```
+
+| Categoria STRIDE | Significado da Ameaça | Propriedade de Segurança Violada |
+|---|---|---|
+| **S**poofing | Falsificar a identidade de um usuário, processo ou componente legítimo. | **Autenticidade** |
+| **T**ampering | Modificar ou corromper dados em trânsito, em memória ou em repouso. | **Integridade** |
+| **R**epudiation | Negar formalmente a autoria de uma operação ou transação realizada. | **Não Repúdio** |
+| **I**nformation Disclosure | Divulgar dados sigilosos a pessoas ou sistemas não autorizados. | **Confidencialidade** |
+| **D**enial of Service | Esgotar recursos de rede, CPU ou memória para degradar ou derrubar o sistema. | **Disponibilidade** |
+| **E**levation of Privilege | Obter privilégios superiores àqueles originalmente atribuídos à conta. | **Autorização** |
+
+### 2.3 Ferramentas Automatizadas de Teste de Segurança (SAST, DAST, IAST, SCA)
+
+A automação do pipeline de CI/CD integra quatro famílias primárias de ferramentas de testes de segurança de software:
+
+| Categoria | Nome Completo | Tipo de Teste | Momento da Execução | O que inspeciona? | Principais Prós e Contras |
+|---|---|---|---|---|---|
+| **SAST** | *Static Application Security Testing* | Caixa-Branca (*White-Box*) | No início do pipeline (fase de commit/build), **sem executar o código**. | Código-fonte, sintaxe, árvores de sintaxe abstrata (AST) e bytecode interno da aplicação. | **Pró:** Aponta a linha exata e o arquivo com a falha.<br>**Contra:** Gera elevado índice de falsos positivos; não detecta falhas de infraestrutura ou erros de runtime. |
+| **DAST** | *Dynamic Application Security Testing* | Caixa-Preta (*Black-Box*) | No final do pipeline (staging/deploy), **com a aplicação rodando em servidor**. | Comportamento externo da aplicação web através de requisições HTTP simuladas. | **Pró:** Agnóstico de linguagem; testa configurações reais de ambiente de execução.<br>**Contra:** Não aponta a linha do código; não tem visibilidade da lógica interna. |
+| **SCA** | *Software Composition Analysis* | Caixa-Branca / Inventário | Durante o build através de arquivos de manifesto (`package.json`, `pom.xml`, `requirements.txt`). | Dependências de código aberto, bibliotecas de terceiros e frameworks. | **Pró:** Mapeia vulnerabilidades públicas catalogadas (CVEs) e analisa riscos de conformidade de licenças legais de software livre. |
+| **IAST** | *Interactive Application Security Testing* | Híbrido Instrumentado | Durante a execução de testes funcionais automatizados ou manuais em runtime. | Agente instalado dentro da máquina virtual da aplicação (JVM, .NET, Node.js). | **Pró:** Combina a precisão do SAST com a visão contextual do DAST, com baixíssimo índice de falsos positivos.<br>**Contra:** Requer instrumentação específica e consome recursos da aplicação em teste. |
 
 ---
 
@@ -382,31 +399,6 @@ O fundamento econômico e técnico que justifica a adoção do princípio *Shift
 
 ---
 
-### 2.2 Modelagem de Ameaças com a Metodologia STRIDE
-
-Criada por pesquisadores da Microsoft, a metodologia **STRIDE** é uma estrutura conceitual de modelagem de ameaças adotada no planejamento de sistemas para identificar potenciais riscos antes de qualquer linha de código ser produzida:
-
-```mermaid
-flowchart TD
-    S["Spoofing (Falsificação de Identidade)"] -->|Viola| A["Autenticidade"]
-    T["Tampering (Adulteração de Dados)"] -->|Viola| I["Integridade"]
-    R["Repudiation (Repúdio / Negação)"] -->|Viola| NR["Não Repúdio"]
-    INF["Information Disclosure (Vazamento)"] -->|Viola| C["Confidencialidade"]
-    D["Denial of Service (Negação de Serviço)"] -->|Viola| DI["Disponibilidade"]
-    E["Elevation of Privilege (Elevação de Privilégio)"] -->|Viola| AUTZ["Autorização"]
-```
-
-| Categoria STRIDE | Significado da Ameaça | Propriedade de Segurança Violada |
-|---|---|---|
-| **S**poofing | Falsificar a identidade de um usuário, processo ou componente legítimo. | **Autenticidade** |
-| **T**ampering | Modificar ou corromper dados em trânsito, em memória ou em repouso. | **Integridade** |
-| **R**epudiation | Negar formalmente a autoria de uma operação ou transação realizada. | **Não Repúdio** |
-| **I**nformation Disclosure | Divulgar dados sigilosos a pessoas ou sistemas não autorizados. | **Confidencialidade** |
-| **D**enial of Service | Esgotar recursos de rede, CPU ou memória para degradar ou derrubar o sistema. | **Disponibilidade** |
-| **E**levation of Privilege | Obter privilégios superiores àqueles originalmente atribuídos à conta. | **Autorização** |
-
----
-
 ### Teste 394
 **(FCC - Adaptada / TI - Modelagem de Ameaças / Metodologia STRIDE)**
 No planejamento arquitetural de um novo módulo de pagamentos do Tribunal de Contas, os engenheiros de segurança conduziram uma sessão de modelagem de ameaças adotando o framework metodológico **STRIDE**.
@@ -431,21 +423,6 @@ A respeito do mapeamento entre as categorias de ameaça do modelo STRIDE e os pr
 > - **E)** Incorreta. *Denial of Service* visa interromper a prestação de serviços computacionais, violando o princípio da Disponibilidade.
 > 
 > **Gabarito: B**
-
----
-
-
-
-### 2.3 Ferramentas Automatizadas de Teste de Segurança (SAST, DAST, IAST, SCA)
-
-A automação do pipeline de CI/CD integra quatro famílias primárias de ferramentas de testes de segurança de software:
-
-| Categoria | Nome Completo | Tipo de Teste | Momento da Execução | O que inspeciona? | Principais Prós e Contras |
-|---|---|---|---|---|---|
-| **SAST** | *Static Application Security Testing* | Caixa-Branca (*White-Box*) | No início do pipeline (fase de commit/build), **sem executar o código**. | Código-fonte, sintaxe, árvores de sintaxe abstrata (AST) e bytecode interno da aplicação. | **Pró:** Aponta a linha exata e o arquivo com a falha.<br>**Contra:** Gera elevado índice de falsos positivos; não detecta falhas de infraestrutura ou erros de runtime. |
-| **DAST** | *Dynamic Application Security Testing* | Caixa-Preta (*Black-Box*) | No final do pipeline (staging/deploy), **com a aplicação rodando em servidor**. | Comportamento externo da aplicação web através de requisições HTTP simuladas. | **Pró:** Agnóstico de linguagem; testa configurações reais de ambiente de execução.<br>**Contra:** Não aponta a linha do código; não tem visibilidade da lógica interna. |
-| **SCA** | *Software Composition Analysis* | Caixa-Branca / Inventário | Durante o build através de arquivos de manifesto (`package.json`, `pom.xml`, `requirements.txt`). | Dependências de código aberto, bibliotecas de terceiros e frameworks. | **Pró:** Mapeia vulnerabilidades públicas catalogadas (CVEs) e analisa riscos de conformidade de licenças legais de software livre. |
-| **IAST** | *Interactive Application Security Testing* | Híbrido Instrumentado | Durante a execução de testes funcionais automatizados ou manuais em runtime. | Agente instalado dentro da máquina virtual da aplicação (JVM, .NET, Node.js). | **Pró:** Combina a precisão do SAST com a visão contextual do DAST, com baixíssimo índice de falsos positivos.<br>**Contra:** Requer instrumentação específica e consome recursos da aplicação em teste. |
 
 ---
 
@@ -474,10 +451,7 @@ A respeito das ferramentas e abordagens de testes de segurança de software, ass
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 3. Segurança em APIs, Contêineres e Ambientes de Nuvem
 
@@ -489,6 +463,46 @@ Diferente das aplicações web tradicionais baseadas em renderização no servid
 - **Mass Assignment (Atribuição em Massa):** A API aceita o JSON enviado pelo cliente e o vincula diretamente a objetos de banco de dados internos. O atacante envia campos adicionais no payload (ex.: `"is_admin": true` ou `"saldo": 999999`), e o backend salva os valores sem filtragem.
 - **Falta de Limitação de Recursos e Taxa (*Lack of Resources & Rate Limiting*):** Ausência de limites de requisições por segundo ou tamanho de payload, permitindo ataques de exaustão de memória e CPU.
 - **API Gateways:** Componentes perimetrais que centralizam a autenticação, aplicam *rate limiting* e efetuam a validação estrita de esquemas de dados (OpenAPI Specification / JSON Schema) antes de encaminhar o tráfego aos microsserviços internos.
+
+### 3.2 Boas Práticas e Hardening em Contêineres Docker e Kubernetes
+
+A execução de microsserviços em contêineres exige práticas rigorosas de isolamento para evitar fugas para o sistema hospedeiro (*container breakout*):
+
+1. **Não Executar Contêineres como `root`:** Por padrão, o processo dentro de um contêiner Docker roda como usuário com UID 0 (`root`). É mandatória a especificação de um usuário comum sem privilégios no `Dockerfile`:
+
+```dockerfile
+USER 10001:10001
+```
+
+2. **Utilizar Imagens Mínimas (*Distroless* ou *Alpine*):** Imagens base compactas eliminam utilitários desnecessários do sistema operacional (como gerenciadores de pacotes `apt`/`apk`, interpretadores `bash` e ferramentas de rede `curl`), reduzindo drasticamente a superfície de ataque e o número de CVEs presentes na imagem.
+3. **Sistemas de Arquivos Somente Leitura (*Read-Only Root Filesystem*):** Inicializar o contêiner com a flag `--read-only`, impedindo que invasores ou scripts maliciosos gravem arquivos executáveis em diretórios do sistema.
+4. **Descarte de Capacidades do Linux (*Drop Capabilities*):** Configurar o contêiner para descartar todas as capacidades administrativas padrão do kernel Linux (`--cap-drop=ALL`), adicionando estritamente aquelas indispensáveis para a operação do serviço.
+
+### 3.3 Segurança em Nuvem: Modelo de Responsabilidade Compartilhada e Proteção de Metadados
+
+A computação em nuvem opera sob o **Modelo de Responsabilidade Compartilhada (*Shared Responsibility Model*)**, no qual as responsabilidades são distribuídas de acordo com o modelo de serviço contratado:
+
+```mermaid
+flowchart TD
+    subgraph IAAS["IaaS (Infraestrutura como Serviço)"]
+        direction TB
+        C1["Cliente: Aplicações, Dados, S.O., Patches, Firewall local, IAM"]
+        P1["Provedor: Hardware físico, Datacenter, Hipervisor, Rede física"]
+    end
+    subgraph PAAS["PaaS (Plataforma como Serviço)"]
+        direction TB
+        C2["Cliente: Código da Aplicação, Dados de Negócio, Políticas IAM"]
+        P2["Provedor: S.O., Runtime, Patches do S.O., Hardware e Datacenter"]
+    end
+    subgraph SAAS["SaaS (Software como Serviço)"]
+        direction TB
+        C3["Cliente: Configuração do locatário, Gestão de Acessos de Usuários, Dados"]
+        P3["Provedor: Aplicação completa, Código, S.O., Banco de Dados, Datacenter"]
+    end
+```
+
+> 🚨 **ALERTA DE PROVA / REGRA DE OURO FCC:**  
+> Independentemente do modelo adotado (IaaS, PaaS ou SaaS), a **responsabilidade pela classificação, governança e proteção dos DADOS e pelo controle de IDENTIDADES e acessos é SEMPRE e EXCLUSIVAMENTE do cliente**! O provedor nunca assume a responsabilidade pelas autorizações concedidas pelo próprio cliente dentro de suas contas.
 
 ---
 
@@ -519,22 +533,6 @@ A vulnerabilidade categorizada como **API1:2023 - Broken Object Level Authorizat
 > - **E)** Incorreta. Trata-se de negação de serviço ou consulta complexa, não falha de autorização de objetos.
 > 
 > **Gabarito: B**
-
----
-
-### 3.2 Boas Práticas e Hardening em Contêineres Docker e Kubernetes
-
-A execução de microsserviços em contêineres exige práticas rigorosas de isolamento para evitar fugas para o sistema hospedeiro (*container breakout*):
-
-1. **Não Executar Contêineres como `root`:** Por padrão, o processo dentro de um contêiner Docker roda como usuário com UID 0 (`root`). É mandatória a especificação de um usuário comum sem privilégios no `Dockerfile`:
-
-```dockerfile
-USER 10001:10001
-```
-
-2. **Utilizar Imagens Mínimas (*Distroless* ou *Alpine*):** Imagens base compactas eliminam utilitários desnecessários do sistema operacional (como gerenciadores de pacotes `apt`/`apk`, interpretadores `bash` e ferramentas de rede `curl`), reduzindo drasticamente a superfície de ataque e o número de CVEs presentes na imagem.
-3. **Sistemas de Arquivos Somente Leitura (*Read-Only Root Filesystem*):** Inicializar o contêiner com a flag `--read-only`, impedindo que invasores ou scripts maliciosos gravem arquivos executáveis em diretórios do sistema.
-4. **Descarte de Capacidades do Linux (*Drop Capabilities*):** Configurar o contêiner para descartar todas as capacidades administrativas padrão do kernel Linux (`--cap-drop=ALL`), adicionando estritamente aquelas indispensáveis para a operação do serviço.
 
 ---
 
@@ -569,34 +567,6 @@ Dentre as boas práticas consagradas de segurança para imagens e execução de 
 
 ---
 
-### 3.3 Segurança em Nuvem: Modelo de Responsabilidade Compartilhada e Proteção de Metadados
-
-A computação em nuvem opera sob o **Modelo de Responsabilidade Compartilhada (*Shared Responsibility Model*)**, no qual as responsabilidades são distribuídas de acordo com o modelo de serviço contratado:
-
-```mermaid
-flowchart TD
-    subgraph IAAS["IaaS (Infraestrutura como Serviço)"]
-        direction TB
-        C1["Cliente: Aplicações, Dados, S.O., Patches, Firewall local, IAM"]
-        P1["Provedor: Hardware físico, Datacenter, Hipervisor, Rede física"]
-    end
-    subgraph PAAS["PaaS (Plataforma como Serviço)"]
-        direction TB
-        C2["Cliente: Código da Aplicação, Dados de Negócio, Políticas IAM"]
-        P2["Provedor: S.O., Runtime, Patches do S.O., Hardware e Datacenter"]
-    end
-    subgraph SAAS["SaaS (Software como Serviço)"]
-        direction TB
-        C3["Cliente: Configuração do locatário, Gestão de Acessos de Usuários, Dados"]
-        P3["Provedor: Aplicação completa, Código, S.O., Banco de Dados, Datacenter"]
-    end
-```
-
-> 🚨 **ALERTA DE PROVA / REGRA DE OURO FCC:**  
-> Independentemente do modelo adotado (IaaS, PaaS ou SaaS), a **responsabilidade pela classificação, governança e proteção dos DADOS e pelo controle de IDENTIDADES e acessos é SEMPRE e EXCLUSIVAMENTE do cliente**! O provedor nunca assume a responsabilidade pelas autorizações concedidas pelo próprio cliente dentro de suas contas.
-
----
-
 ### Teste 398
 **(FCC - Adaptada / TI - Segurança em Nuvem e Contêineres)**
 Em relação às boas práticas de segurança na execução de contêineres Docker e ao Modelo de Responsabilidade Compartilhada na computação em nuvem, assinale a afirmativa correta:
@@ -620,10 +590,7 @@ Em relação às boas práticas de segurança na execução de contêineres Dock
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

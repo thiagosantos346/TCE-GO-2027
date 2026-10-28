@@ -17,18 +17,15 @@
 - Níveis de Isolamento ANSI SQL
 - Mecanismos de controle de concorrência: Bloqueios (Locks), 2PL, MVCC e Deadlocks
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [O Conceito Formal de Transação e o Modelo ACID](#1-o-conceito-formal-de-transacao-e-o-modelo-acid)
     1. [Ciclo de Vida e Estados de uma Transação](#11-ciclo-de-vida-e-estados-de-uma-transacao)
-    2. [Teste 256](#Teste-256)
-    3. [As Quatro Propriedades Fundamentais: ACID](#12-as-quatro-propriedades-fundamentais-acid)
-    4. [Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)](#13-mecanismos-internos-undo-log-redo-log-e-write-ahead-logging-wal)
+    2. [As Quatro Propriedades Fundamentais: ACID](#12-as-quatro-propriedades-fundamentais-acid)
+    3. [Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)](#13-mecanismos-internos-undo-log-redo-log-e-write-ahead-logging-wal)
+    4. [Teste 256](#Teste-256)
     5. [Teste 257](#Teste-257)
 2. [Comandos de Controle Transacional (TCL)](#2-comandos-de-controle-transacional-tcl)
     1. [COMMIT, ROLLBACK e Gestão de SAVEPOINTs](#21-commit-rollback-e-gestao-de-savepoints)
@@ -41,23 +38,22 @@
     5. [Teste 259](#Teste-259)
 4. [Níveis de Isolamento ANSI SQL-92](#4-niveis-de-isolamento-ansi-sql-92)
     1. [Matriz de Isolamento vs. Fenômenos Admitidos](#41-matriz-de-isolamento-vs-fenomenos-admitidos)
-    2. [Teste 260](#Teste-260)
-    3. [Snapshot Isolation (Isolamento por Instantâneo)](#42-snapshot-isolation-isolamento-por-instantaneo)
+    2. [Snapshot Isolation (Isolamento por Instantâneo)](#42-snapshot-isolation-isolamento-por-instantaneo)
+    3. [Teste 260](#Teste-260)
     4. [Teste 261](#Teste-261)
 5. [Técnicas de Controle de Concorrência](#5-tecnicas-de-controle-de-concorrencia)
     1. [Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)](#51-bloqueios-locks-e-matriz-de-compatibilidade-shared-vs-exclusive)
-    2. [Teste 262](#Teste-262)
-    3. [Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso](#52-protocolo-de-bloqueio-em-duas-fases-2pl-two-phase-locking-basico-estrito-e-rigoroso)
-    4. [Teste 263](#Teste-263)
-    5. [Teste 264](#Teste-264)
-    6. [Controle Multiversão de Concorrência (MVCC)](#53-controle-multiversao-de-concorrencia-mvcc)
-    7. [Teste 265](#Teste-265)
-    8. [Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima](#54-impasses-deadlocks-deteccao-via-wait-for-graph-e-resolucao-por-transacao-vitima)
+    2. [Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso](#52-protocolo-de-bloqueio-em-duas-fases-2pl-two-phase-locking-basico-estrito-e-rigoroso)
+    3. [Controle Multiversão de Concorrência (MVCC)](#53-controle-multiversao-de-concorrencia-mvcc)
+    4. [Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima](#54-impasses-deadlocks-deteccao-via-wait-for-graph-e-resolucao-por-transacao-vitima)
+    5. [Teste 262](#Teste-262)
+    6. [Teste 263](#Teste-263)
+    7. [Teste 264](#Teste-264)
+    8. [Teste 265](#Teste-265)
     9. [Teste 266](#Teste-266)
-6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+6. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. O Conceito Formal de Transação e o Modelo ACID
 
@@ -84,38 +80,6 @@ stateDiagram-v2
 - **Comitada (*Committed*):** Todas as alterações foram confirmadas e gravadas no log transacional em armazenamento persistente (*Write-Ahead Logging*). A transação foi concluída com sucesso.
 - **Falha (*Failed*):** Ocorre quando uma instrução viola uma restrição de integridade ou o sistema sofre interrupção antes da conclusão definitiva.
 - **Abortada (*Aborted*):** O SGBD executa o comando `ROLLBACK`, desfazendo todas as modificações parciais já executadas e restaurando a base de dados ao estado exato anterior ao início da transação.
-
-### Teste 256
-**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Estados do Ciclo de Vida de uma Transação)**
-Segundo a teoria clássica de sistemas de bancos de dados relacionais formulada por Silberschatz, Korth e Sudarshan, uma transação deve atravessar uma máquina de estados finitos bem definida durante a sua execução.
-
-A respeito dos estados possíveis de uma transação e das transições entre eles, assinale a afirmativa correta:
-
-* **A)** Uma transação entra no estado *Committed* (Efetivada) imediatamente após a emissão da primeira instrução DML de escrita no buffer de memória.
-* **B)** O estado *Partially Committed* (Parcialmente Efetivada) ocorre após a execução da última declaração SQL da transação, mas antes que as modificações e seus registros de log correspondentes tenham sido completamente gravados de forma persistente em disco (disco estável).
-* **C)** Uma transação em estado *Failed* (Falha) transita compulsoriamente de volta para o estado *Active* (Ativa) para tentar novamente a operação a partir do ponto onde ocorreu a falha.
-* **D)** O estado *Aborted* (Abortada) indica que a transação concluiu seu processamento com êxito e que seus resultados tornaram-se permanentes no banco de dados.
-* **E)** Toda transação no estado *Active* pode transitar diretamente para o estado *Committed* sem necessidade de passar pelo estado *Partially Committed*.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Uma transação no início de suas instruções está no estado *Active* (Ativa), jamais *Committed*.
-> - **B)** **CORRETA.** No modelo formal de estados de transação:
->   1. **Active (Ativa):** O estado inicial enquanto as operações da transação estão em execução.
->   2. **Partially Committed (Parcialmente Efetivada):** Alcançado quando a última instrução da transação foi executada na memória, porém antes da garantia de que o log de transações (WAL) foi descarregado no armazenamento não-volátil (disco estável).
->   3. **Failed (Falha):** Se uma verificação normal de integridade falhar ou se houver pane de hardware/software durante a execução.
->   4. **Aborted (Abortada):** Ocorre após a transação em falha sofrer *rollback* e o banco de dados ser restaurado ao estado anterior.
->   5. **Committed (Efetivada):** Alcançado somente após a conclusão com sucesso de todas as gravações no disco estável.
-> - **C)** Incorreta. Do estado *Failed*, a única transição válida é para o estado *Aborted*, após as operações de desfazimento (*undo*).
-> - **D)** Incorreta. *Aborted* significa que a transação foi revertida e cancelada.
-> - **E)** Incorreta. Pelo diagrama canônico, a transição para *Committed* passa obrigatoriamente por *Partially Committed*.
-> 
-> **Gabarito: B**
-
----
 
 ### 1.2 As Quatro Propriedades Fundamentais: ACID
 
@@ -152,6 +116,38 @@ flowchart TD
 
 ---
 
+### Teste 256
+**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Estados do Ciclo de Vida de uma Transação)**
+Segundo a teoria clássica de sistemas de bancos de dados relacionais formulada por Silberschatz, Korth e Sudarshan, uma transação deve atravessar uma máquina de estados finitos bem definida durante a sua execução.
+
+A respeito dos estados possíveis de uma transação e das transições entre eles, assinale a afirmativa correta:
+
+* **A)** Uma transação entra no estado *Committed* (Efetivada) imediatamente após a emissão da primeira instrução DML de escrita no buffer de memória.
+* **B)** O estado *Partially Committed* (Parcialmente Efetivada) ocorre após a execução da última declaração SQL da transação, mas antes que as modificações e seus registros de log correspondentes tenham sido completamente gravados de forma persistente em disco (disco estável).
+* **C)** Uma transação em estado *Failed* (Falha) transita compulsoriamente de volta para o estado *Active* (Ativa) para tentar novamente a operação a partir do ponto onde ocorreu a falha.
+* **D)** O estado *Aborted* (Abortada) indica que a transação concluiu seu processamento com êxito e que seus resultados tornaram-se permanentes no banco de dados.
+* **E)** Toda transação no estado *Active* pode transitar diretamente para o estado *Committed* sem necessidade de passar pelo estado *Partially Committed*.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Uma transação no início de suas instruções está no estado *Active* (Ativa), jamais *Committed*.
+> - **B)** **CORRETA.** No modelo formal de estados de transação:
+>   1. **Active (Ativa):** O estado inicial enquanto as operações da transação estão em execução.
+>   2. **Partially Committed (Parcialmente Efetivada):** Alcançado quando a última instrução da transação foi executada na memória, porém antes da garantia de que o log de transações (WAL) foi descarregado no armazenamento não-volátil (disco estável).
+>   3. **Failed (Falha):** Se uma verificação normal de integridade falhar ou se houver pane de hardware/software durante a execução.
+>   4. **Aborted (Abortada):** Ocorre após a transação em falha sofrer *rollback* e o banco de dados ser restaurado ao estado anterior.
+>   5. **Committed (Efetivada):** Alcançado somente após a conclusão com sucesso de todas as gravações no disco estável.
+> - **C)** Incorreta. Do estado *Failed*, a única transição válida é para o estado *Aborted*, após as operações de desfazimento (*undo*).
+> - **D)** Incorreta. *Aborted* significa que a transação foi revertida e cancelada.
+> - **E)** Incorreta. Pelo diagrama canônico, a transição para *Committed* passa obrigatoriamente por *Partially Committed*.
+> 
+> **Gabarito: B**
+
+---
+
 ### Teste 257
 **(FCC - Adaptada / TI - As Quatro Propriedades ACID e Logs)**
 Em um SGBD corporativo, um desligamento repentino do fornecimento de energia elétrica interrompeu as operações enquanto dezenas de transações eram processadas. Durante a rotina de inicialização automática (Crash Recovery), o SGBD utilizou seus arquivos de log transacional para restaurar a consistência da base.
@@ -177,10 +173,7 @@ Sobre os mecanismos que asseguram as propriedades ACID nesse cenário, assinale 
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Comandos de Controle Transacional (TCL)
 
@@ -232,10 +225,7 @@ Considerando que a tabela `fornecedores` encontrava-se vazia antes do início do
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Fenômenos e Anomalias de Concorrência
 
@@ -287,10 +277,7 @@ Esses três fenômenos caracterizam, rigorosa e respectivamente:
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Níveis de Isolamento ANSI SQL-92
 
@@ -310,6 +297,13 @@ A norma ANSI/ISO SQL-92 estabelece quatro níveis canônicos de isolamento trans
 > 1. *"Qual o nível de isolamento MÍNIMO que impede Leitura Não Repetível?"* $\rightarrow$ **`REPEATABLE READ`**.
 > 2. No PostgreSQL, a implementação prática do nível `REPEATABLE READ` via MVCC impede também leituras fantasmas; contudo, nas questões teóricas da FCC baseadas estritamente no **padrão ANSI SQL-92**, o candidato deve assinalar que o `REPEATABLE READ` **admite Leitura Fantasma**!
 > 3. O único nível do padrão ANSI que previne **todos os três fenômenos** é o **`SERIALIZABLE`**.
+
+### 4.2 Snapshot Isolation (Isolamento por Instantâneo)
+
+Implementado em motores que utilizam controle de concorrência multiversão (MVCC):
+
+- No início da transação, o SGBD captura uma "fotografia" lógica (*snapshot*) do banco baseada no número de transação (*Transaction ID - XID*).
+- Todas as consultas daquela transação enxergam estritamente o estado dos dados consolidado no momento do snapshot, impedindo Leituras Não Repetíveis e Leituras Fantasmas sem a necessidade de adquirir bloqueios pesados de leitura.
 
 ---
 
@@ -340,16 +334,6 @@ Considerando os fenômenos de concorrência e os níveis de isolamento padroniza
 
 ---
 
-
-### 4.2 Snapshot Isolation (Isolamento por Instantâneo)
-
-Implementado em motores que utilizam controle de concorrência multiversão (MVCC):
-
-- No início da transação, o SGBD captura uma "fotografia" lógica (*snapshot*) do banco baseada no número de transação (*Transaction ID - XID*).
-- Todas as consultas daquela transação enxergam estritamente o estado dos dados consolidado no momento do snapshot, impedindo Leituras Não Repetíveis e Leituras Fantasmas sem a necessidade de adquirir bloqueios pesados de leitura.
-
----
-
 ### Teste 261
 **(FCC - TRT / Analista Judiciário - TI - Snapshot Isolation e Anomalia de Write Skew)**
 O mecanismo de isolamento conhecido como *Snapshot Isolation* (Isolamento por Instantâneo) é amplamente empregado por SGBDs modernos baseados em MVCC (como PostgreSQL e Oracle). Sob esse nível, uma transação visualiza uma fotografia consistente dos dados correspondente ao instante em que iniciou.
@@ -377,10 +361,7 @@ Embora o *Snapshot Isolation* impeça Leitura Suja, Leitura Não Repetível e Le
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 5. Técnicas de Controle de Concorrência
 
@@ -395,6 +376,55 @@ O controle pessimista de concorrência baseia-se na alocação de travas (*locks
 | :---: | :---: | :---: |
 | **Shared (S)** | ✅ **Compatível** (Permitido) | ❌ Conflito (Aguarda liberação) |
 | **Exclusive (X)** | ❌ Conflito (Aguarda liberação) | ❌ Conflito (Aguarda liberação) |
+
+### 5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso
+
+O protocolo **2PL** é o algoritmo matemático que garante a **serializabilidade** das escalas de execução concorrente:
+
+```mermaid
+flowchart LR
+    subgraph Protocolo_2PL["Protocolo 2PL (Two-Phase Locking)"]
+        F1["Fase 1: Crescimento (Growing)<br/>Transação adquire bloqueios conforme necessário.<br/><b>PROIBIDO LIBERAR BLOQUEIOS!</b>"] --> P["Ponto de Bloqueio<br/>(Lock Point)"]
+        P --> F2["Fase 2: Encolhimento (Shrinking)<br/>Transação libera bloqueios gradualmente.<br/><b>PROIBIDO ADQUIRIR NOVOS BLOQUEIOS!</b>"]
+    end
+```
+
+- **Regra Fundamental do 2PL Básico:** A transação possui duas fases estanques:
+    1. *Fase de Crescimento (*Growing Phase*):* A transação pode adquirir quantos bloqueios precisar, mas **é terminantemente proibida de liberar qualquer bloqueio**.
+    2. *Fase de Encolhimento (*Shrinking Phase*):* A transação pode liberar bloqueios já utilizados, mas **é terminantemente proibida de adquirir novos bloqueios**.
+
+- **Strict 2PL (2PL Estrito):** Todos os bloqueios **exclusivos (X)** devem ser mantidos até o fim definitivo da transação (`COMMIT` ou `ROLLBACK`). Evita abortos em cascata (*cascadeless schedules*).
+- **Rigorous 2PL (2PL Rigoroso):** Todos os bloqueios (tanto **compartilhados - S** quanto **exclusivos - X**) devem ser mantidos até o `COMMIT` ou `ROLLBACK`. É a variante mais utilizada na prática por garantir serializabilidade estrita.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> O protocolo 2PL garante a **serializabilidade**, mas **NÃO evita impasses (*deadlocks*)**! Transações operando sob o 2PL básico podem sofrer deadlocks frequentemente.
+
+### 5.3 Controle Multiversão de Concorrência (MVCC)
+
+Adotado nativamente por PostgreSQL e Oracle:
+
+- **Princípio:** *"Leitores nunca bloqueiam escritores, e escritores nunca bloqueiam leitores."*
+- **Mecanismo:** Ao atualizar uma linha, o SGBD não sobrescreve os dados no mesmo local; ele cria uma **nova versão física da tupla** contendo metadados de cabeçalho:
+    - No PostgreSQL: `xmin` (ID da transação criadora) e `xmax` (ID da transação que apagou ou gerou versão superior).
+    - Leitores consultam versões visíveis compatíveis com o seu instante temporal (*snapshot*), garantindo alto rendimento de leitura e escrita concorrentes.
+
+### 5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima
+
+Um **deadlock** ocorre quando duas ou mais transações entram em estado de bloqueio mútuo e circular: a transação $T_1$ retém o recurso $A$ e aguarda o recurso $B$, enquanto a transação $T_2$ retém o recurso $B$ e aguarda o recurso $A$. Nenhuma das transações consegue prosseguir.
+
+```mermaid
+flowchart LR
+    T1["Transação T1"] -->|Retém recurso A / Aguarda| T2["Transação T2"]
+    T2 -->|Retém recurso B / Aguarda| T1
+```
+
+- **Detecção via Wait-For Graph (Grafo de Espera):** O SGBD constrói dinamicamente um grafo direcionado onde os nós são transações e as arestas indicam dependências de espera. **A detecção de um ciclo no grafo sinaliza formalmente um deadlock**.
+- **Resolução via Transação Vítima:** Ao detectar o ciclo, o SGBD seleciona uma **transação vítima** (com base em critérios de menor custo computacional ou menor volume de dados alterados), aborta sua execução compulsoriamente via `ROLLBACK` forçado e devolve o erro à aplicação cliente.
+- **Técnicas de Prevenção por Timestamps:**
+    - *Wait-Die (Não-preemptivo):* Se a transação mais antiga solicitar recurso retido pela mais nova, ela espera (*wait*); se a mais nova solicitar recurso retido pela mais antiga, a mais nova morre (*die/rollback*).
+    - *Wound-Wait (Preemptivo):* Se a transação mais antiga solicitar recurso retido pela mais nova, ela fere e aborta a mais nova (*wound/preempt*); se a mais nova solicitar da mais antiga, ela espera (*wait*).
+
+---
 
 ### Teste 262
 **(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Bloqueios Compartilhados vs. Exclusivos)**
@@ -422,30 +452,6 @@ A respeito da matriz de compatibilidade entre esses tipos de bloqueios e sua gra
 > - **E)** Incorreta. Bloqueio compartilhado autoriza expressamente leituras simultâneas de outras transações.
 > 
 > **Gabarito: A**
-
----
-
-### 5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso
-
-O protocolo **2PL** é o algoritmo matemático que garante a **serializabilidade** das escalas de execução concorrente:
-
-```mermaid
-flowchart LR
-    subgraph Protocolo_2PL["Protocolo 2PL (Two-Phase Locking)"]
-        F1["Fase 1: Crescimento (Growing)<br/>Transação adquire bloqueios conforme necessário.<br/><b>PROIBIDO LIBERAR BLOQUEIOS!</b>"] --> P["Ponto de Bloqueio<br/>(Lock Point)"]
-        P --> F2["Fase 2: Encolhimento (Shrinking)<br/>Transação libera bloqueios gradualmente.<br/><b>PROIBIDO ADQUIRIR NOVOS BLOQUEIOS!</b>"]
-    end
-```
-
-- **Regra Fundamental do 2PL Básico:** A transação possui duas fases estanques:
-    1. *Fase de Crescimento (*Growing Phase*):* A transação pode adquirir quantos bloqueios precisar, mas **é terminantemente proibida de liberar qualquer bloqueio**.
-    2. *Fase de Encolhimento (*Shrinking Phase*):* A transação pode liberar bloqueios já utilizados, mas **é terminantemente proibida de adquirir novos bloqueios**.
-
-- **Strict 2PL (2PL Estrito):** Todos os bloqueios **exclusivos (X)** devem ser mantidos até o fim definitivo da transação (`COMMIT` ou `ROLLBACK`). Evita abortos em cascata (*cascadeless schedules*).
-- **Rigorous 2PL (2PL Rigoroso):** Todos os bloqueios (tanto **compartilhados - S** quanto **exclusivos - X**) devem ser mantidos até o `COMMIT` ou `ROLLBACK`. É a variante mais utilizada na prática por garantir serializabilidade estrita.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> O protocolo 2PL garante a **serializabilidade**, mas **NÃO evita impasses (*deadlocks*)**! Transações operando sob o 2PL básico podem sofrer deadlocks frequentemente.
 
 ---
 
@@ -501,16 +507,6 @@ Acerca do funcionamento e das variantes do protocolo 2PL, é correto afirmar:
 
 ---
 
-
-### 5.3 Controle Multiversão de Concorrência (MVCC)
-
-Adotado nativamente por PostgreSQL e Oracle:
-
-- **Princípio:** *"Leitores nunca bloqueiam escritores, e escritores nunca bloqueiam leitores."*
-- **Mecanismo:** Ao atualizar uma linha, o SGBD não sobrescreve os dados no mesmo local; ele cria uma **nova versão física da tupla** contendo metadados de cabeçalho:
-    - No PostgreSQL: `xmin` (ID da transação criadora) e `xmax` (ID da transação que apagou ou gerou versão superior).
-    - Leitores consultam versões visíveis compatíveis com o seu instante temporal (*snapshot*), garantindo alto rendimento de leitura e escrita concorrentes.
-
 ### Teste 265
 **(FCC - TRT-6 / Analista Judiciário - TI - Controle Multiversão de Concorrência - MVCC)**
 O Controle Multiversão de Concorrência (*Multi-Version Concurrency Control - MVCC*) é o mecanismo arquitetural predominante em motores de banco de dados modernos, tais como o PostgreSQL e o Oracle Database.
@@ -535,24 +531,6 @@ A principal vantagem do MVCC sobre os mecanismos tradicionais de bloqueio pessim
 > - **E)** Incorreta. Como as versões antigas de tuplas permanecem no disco até que nenhuma transação ativa precise delas, o MVCC **exige compulsoriamente** rotinas de limpeza periódica (como o processo `VACUUM` no PostgreSQL) para expurgar tuplas mortas (*dead tuples*) e evitar *bloat*.
 > 
 > **Gabarito: B**
-
----
-
-### 5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima
-
-Um **deadlock** ocorre quando duas ou mais transações entram em estado de bloqueio mútuo e circular: a transação $T_1$ retém o recurso $A$ e aguarda o recurso $B$, enquanto a transação $T_2$ retém o recurso $B$ e aguarda o recurso $A$. Nenhuma das transações consegue prosseguir.
-
-```mermaid
-flowchart LR
-    T1["Transação T1"] -->|Retém recurso A / Aguarda| T2["Transação T2"]
-    T2 -->|Retém recurso B / Aguarda| T1
-```
-
-- **Detecção via Wait-For Graph (Grafo de Espera):** O SGBD constrói dinamicamente um grafo direcionado onde os nós são transações e as arestas indicam dependências de espera. **A detecção de um ciclo no grafo sinaliza formalmente um deadlock**.
-- **Resolução via Transação Vítima:** Ao detectar o ciclo, o SGBD seleciona uma **transação vítima** (com base em critérios de menor custo computacional ou menor volume de dados alterados), aborta sua execução compulsoriamente via `ROLLBACK` forçado e devolve o erro à aplicação cliente.
-- **Técnicas de Prevenção por Timestamps:**
-    - *Wait-Die (Não-preemptivo):* Se a transação mais antiga solicitar recurso retido pela mais nova, ela espera (*wait*); se a mais nova solicitar recurso retido pela mais antiga, a mais nova morre (*die/rollback*).
-    - *Wound-Wait (Preemptivo):* Se a transação mais antiga solicitar recurso retido pela mais nova, ela fere e aborta a mais nova (*wound/preempt*); se a mais nova solicitar da mais antiga, ela espera (*wait*).
 
 ---
 
@@ -585,10 +563,7 @@ A respeito desse cenário de impasse (*Deadlock*) e dos métodos empregados pelo
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

@@ -15,44 +15,40 @@
 3. **Agentes Inteligentes:** Conceituação formal de Agente Racional (sensores, atuadores, função de agente); Framework PEAS (*Performance, Environment, Actuators, Sensors*); Propriedades taxonômicas dos ambientes de tarefas (observabilidade, determinismo, episodicidade, dinamismo, continuidade e número de agentes); e Classificação clássica de Russell & Norvig (Agentes Reativos Simples, Reativos Baseados em Modelos com estado interno, Baseados em Objetivos, Baseados na Utilidade e Agentes com Aprendizado).
 4. **Modelos Multimodais:** Fundamentos de multimodalidade sensorial (texto, imagem, áudio e vídeo); Alinhamento semântico cross-modal com aprendizado contrastivo (Arquitetura CLIP: codificadores paralelos de visão e texto, espaço latente compartilhado e classificação *Zero-Shot*); e Aplicações no setor público e controle externo (OCR inteligente de processos administrativos, auditoria de notas fiscais digitalizadas e cruzamento de imagens de satélite/drones com relatórios de medição de obras públicas).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Processamento de Linguagem Natural (PLN / NLP)](#1-processamento-de-linguagem-natural-pln-nlp)
     1. [Pipeline de Pré-Processamento Textual Clássico](#11-pipeline-de-pre-processamento-textual-classico)
-    2. [Teste 311](#Teste-311)
-    3. [Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos](#12-representacao-numerica-de-texto-bow-tf-idf-e-embeddings-estaticos)
-    4. [Teste 312](#Teste-312)
-    5. [A Revolução dos Transformers em PLN: BERT vs. GPT](#13-a-revolucao-dos-transformers-em-pln-bert-vs-gpt)
+    2. [Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos](#12-representacao-numerica-de-texto-bow-tf-idf-e-embeddings-estaticos)
+    3. [A Revolução dos Transformers em PLN: BERT vs. GPT](#13-a-revolucao-dos-transformers-em-pln-bert-vs-gpt)
+    4. [Teste 311](#Teste-311)
+    5. [Teste 312](#Teste-312)
     6. [Teste 313](#Teste-313)
 2. [Inteligência Artificial Generativa](#2-inteligencia-artificial-generativa)
     1. [Fundamentos e Arquiteturas Generativas](#21-fundamentos-e-arquiteturas-generativas)
-    2. [Teste 314](#Teste-314)
-    3. [Redes Adversárias Generativas (GANs) e Colapso de Modo](#22-redes-adversarias-generativas-gans-e-colapso-de-modo)
-    4. [Teste 315](#Teste-315)
-    5. [Modelos de Difusão (Diffusion Models)](#23-modelos-de-difusao-diffusion-models)
-    6. [Teste 316](#Teste-316)
-    7. [Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem](#24-modelos-de-linguagem-autoregressivos-llms-e-parametros-de-amostragem)
+    2. [Redes Adversárias Generativas (GANs) e Colapso de Modo](#22-redes-adversarias-generativas-gans-e-colapso-de-modo)
+    3. [Modelos de Difusão (Diffusion Models)](#23-modelos-de-difusao-diffusion-models)
+    4. [Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem](#24-modelos-de-linguagem-autoregressivos-llms-e-parametros-de-amostragem)
+    5. [Teste 314](#Teste-314)
+    6. [Teste 315](#Teste-315)
+    7. [Teste 316](#Teste-316)
     8. [Teste 317](#Teste-317)
 3. [Agentes Inteligentes e Ambientes de Tarefa](#3-agentes-inteligentes-e-ambientes-de-tarefa)
     1. [O Framework PEAS e Definição de Agente Racional](#31-o-framework-peas-e-definicao-de-agente-racional)
-    2. [Teste 318](#Teste-318)
-    3. [Propriedades dos Ambientes de Tarefa](#32-propriedades-dos-ambientes-de-tarefa)
-    4. [Teste 319](#Teste-319)
-    5. [As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)](#33-as-cinco-tipologias-classicas-de-agentes-russell-norvig)
+    2. [Propriedades dos Ambientes de Tarefa](#32-propriedades-dos-ambientes-de-tarefa)
+    3. [As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)](#33-as-cinco-tipologias-classicas-de-agentes-russell-norvig)
+    4. [Teste 318](#Teste-318)
+    5. [Teste 319](#Teste-319)
     6. [Teste 320](#Teste-320)
 4. [Modelos Multimodais e Aplicações no Setor Público](#4-modelos-multimodais-e-aplicacoes-no-setor-publico)
     1. [Alinhamento Semântico Multimodal e a Arquitetura CLIP](#41-alinhamento-semantico-multimodal-e-a-arquitetura-clip)
-    2. [Teste 321](#Teste-321)
-    3. [Aplicações em Auditoria de Controle Externo (TCE-GO)](#42-aplicacoes-em-auditoria-de-controle-externo-tce-go)
-5. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+    2. [Aplicações em Auditoria de Controle Externo (TCE-GO)](#42-aplicacoes-em-auditoria-de-controle-externo-tce-go)
+    3. [Teste 321](#Teste-321)
+5. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Processamento de Linguagem Natural (PLN / NLP)
 
@@ -89,35 +85,6 @@ O pré-processamento transforma textos brutos e não estruturados em representa�
 > ⚠️ **Alerta de Prova (FCC):**
 > A banca FCC costuma afirmar que o *Stemming* gera palavras de dicionário perfeitas e que a *Lematização* corta sufixos aleatoriamente. Lembre-se: é o contrário! O **Stemming corta sufixos de forma mecânica/cega gerando radicais inválidos**; a **Lematização utiliza dicionários e morfologia para extrair o lema canônico oficial**.
 
----
-
-### Teste 311
-**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
-Durante o planejamento de uma esteira analítica de Processamento de Linguagem Natural (PLN) para indexação temática e extração de entidades em acórdãos e peças jurídicas de um tribunal, os analistas debatem os métodos adequados de normalização textual e representação vetorial.
-A respeito das técnicas de processamento de texto, assinale a alternativa correta:
-
-* **A)** O *Stemming* consiste na identificação morfológica e sintática da classe gramatical de cada vocábulo em um dicionário estruturado para retornar unicamente o infinitivo canônico oficial do termo, enquanto a *Lematização* descarta regras gramaticais e aplica supressões de sufixos de forma puramente mecânica.
-* **B)** O algoritmo de tokenização por subpalavras *Byte-Pair Encoding* (BPE) inicia com um vocabulário fixo composto exclusivamente por sentenças inteiras e as divide progressivamente até alcançar letras individuais, gerando matrizes esparsas sem redundância.
-* **C)** Em abordagens estatísticas de recuperação de informação baseadas em TF-IDF, a remoção de *stopwords* é indicada para mitigar a alta dimensionalidade e expurgar palavras frequentes de baixo teor discriminativo; contudo, em modelos contextuais baseados em Transformers (como o BERT), as *stopwords* não devem ser removidas, pois a presença de artigos, pronomes e preposições é indispensável para o cálculo das relações de autoatenção contextual.
-* **D)** O componente IDF (*Inverse Document Frequency*) da matriz TF-IDF atribui peso máximo a termos que ocorrem em cem por cento dos documentos da coleção, visto que termos universais são estatisticamente os melhores descritores da base temática.
-* **E)** O modelo *Word2Vec* gera representações vetoriais dinâmicas que alteram as coordenadas de uma palavra conforme o contexto imediato de cada sentença em que ela se encontra, superando a rigidez estática dos modelos contextuais BERT e GPT.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Houve inversão completa: a **Lematização** é quem consulta dicionários e analisa a morfossintaxe contextual para produzir o lema canônico de dicionário; o **Stemming** é quem aplica cortes brutos e mecânicos de afixos sem respaldo sintático.
-> - **B)** Incorreta. O BPE opera na direção inversa (*bottom-up*): começa no nível de caracteres e funde iterativamente os pares de símbolos mais frequentes observados na base até formar as subpalavras.
-> - **C)** **Correta.** Em modelos estatísticos de frequência (*Bag of Words*, TF-IDF), eliminar *stopwords* reduz a dimensionalidade e descarta ruídos irrelevantes. Por outro lado, em arquiteturas de *Deep Learning* fundamentadas na **Autoatenção de Transformers** (como BERT e GPT), a presença de palavras funcionais (preposições, conectivos, pronomes) é mandatória para que o mecanismo de atenção modele com precisão a estrutura semântica e sintática das sentenças.
-> - **D)** Incorreta. O IDF é formulado como $\log(N / df)$. Se um termo figura em todos os documentos ($df = N$), a fração é $N/N = 1$ e seu $\text{IDF} = \log(1) = 0$, recebendo pontuação **nula**, e não máxima.
-> - **E)** Incorreta. O *Word2Vec* gera embeddings **estáticos** (cada vocábulo recebe um vetor fixo e imutável); quem gera embeddings **contextuais e dinâmicos** são exatamente os modelos baseados em Transformers (BERT, RoBERTa, GPT).
-> 
-> **Gabarito: C**
-
----
-
-
 ### 1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos
 
 1. **Bag of Words (BoW - Saco de Palavras):**
@@ -142,33 +109,6 @@ A respeito das técnicas de processamento de texto, assinale a alternativa corre
     - Estende o Word2Vec ao representar cada palavra como um saco de **n-gramas de caracteres** (ex.: a palavra *"tribunal"* com $n=3$ é decomposta em `<tr`, `tri`, `rib`, `ibu`, `bun`, `una`, `nal`, `al>`).
     - Essa inovação permite capturar morfologia de palavras derivadas e **gerar embeddings consistentes para termos inéditos ou fora do vocabulário de treino (*OOV*)**.
     - *Limitação Canônica dos Embeddings Estáticos:* Atribuem um único vetor fixo estático para cada grafia de palavra, sendo incapazes de desambiguar sentidos polissêmicos (ex.: a palavra *"manga"* terá exatamente as mesmas coordenadas numéricas quer se refira a uma fruta, quer à manga de uma vestimenta).
-
-### Teste 312
-**(FGV - TRT / Analista Judiciário - TI - Representação Textual: BoW, TF-IDF e Word2Vec)**
-No Processamento de Linguagem Natural (PLN), a representação matemática do texto é uma etapa crítica para o sucesso de modelos de classificação e agrupamento documental.
-
-A respeito das abordagens de vetorização textual clássicas (*Bag-of-Words* e *TF-IDF*) e dos modelos modernos de *Embeddings* estáticos (*Word2Vec*), assinale a afirmativa correta:
-
-* **A)** O modelo *Bag-of-Words* (BoW) preserva integralmente a estrutura sintática, a ordem cronológica dos termos e a gramática complexa da frase.
-* **B)** A métrica TF-IDF (*Term Frequency-Inverse Document Frequency*) atribui pesos mais elevados a palavras extremamente frequentes em todos os documentos do corpus (como artigos e preposições), pois elas carregam maior poder de diferenciação semântica.
-* **C)** O modelo *Word2Vec* (nas arquiteturas CBOW e Skip-Gram) mapeia palavras para vetores densos de baixa dimensionalidade em um espaço contínuo, onde palavras semanticamente similares ou que compartilham contextos afins situam-se geometricamente próximas, permitindo operações de aritmética vetorial (como $vetor(\text{"Rei"}) - vetor(\text{"Homem"}) + vetor(\text{"Mulher"}) \approx vetor(\text{"Rainha"})$).
-* **D)** O TF-IDF gera vetores puramente densos de no máximo 50 posições para qualquer vocabulário, eliminando a esparsidade de matrizes.
-* **E)** O modelo Skip-Gram utiliza as palavras do contexto para prever a palavra central, ao passo que o CBOW (*Continuous Bag-of-Words*) utiliza a palavra central para prever o contexto circunvizinho.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O modelo *Bag-of-Words* desconsidera inteiramente a ordem das palavras e as relações gramaticais, contabilizando apenas a frequência de ocorrência dos termos de modo desordenado.
-> - **B)** Incorreta. O componente IDF (*Inverse Document Frequency*) atua exatamente no sentido inverso: penaliza termos comuns que aparecem em muitos documentos (*stopwords*), atribuindo pesos altos a termos raros e específicos que discriminam documentos.
-> - **C)** **CORRETA.** O **Word2Vec** (Mikolov et al., 2013) revolucionou o PLN ao substituir representações esparsas *one-hot* de altíssima dimensão por **vetores contínuos densos** (ex.: 300 dimensões). As relações semânticas e sintáticas aprendidas a partir do contexto refletem-se em propriedades algébricas no espaço vetorial latente, possibilitando analogias lineares por similaridade cosseno.
-> - **D)** Incorreta. O TF-IDF produz matrizes de termos por documentos altamente **esparsas** (a maioria das células é zero), cuja dimensionalidade equivale ao tamanho total do vocabulário do corpus (frequentemente centenas de milhares de colunas).
-> - **E)** Incorreta. Os papéis foram invertidos: o **CBOW** prevê a palavra central a partir das palavras de contexto, enquanto o **Skip-Gram** prevê as palavras de contexto a partir da palavra central.
-> 
-> **Gabarito: C**
-
----
 
 ### 1.3 A Revolução dos Transformers em PLN: BERT vs. GPT
 
@@ -203,6 +143,59 @@ onde $Q$ são as Consultas (*Queries*), $K$ são as Chaves (*Keys*), $V$ são os
 
 ---
 
+### Teste 311
+**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
+Durante o planejamento de uma esteira analítica de Processamento de Linguagem Natural (PLN) para indexação temática e extração de entidades em acórdãos e peças jurídicas de um tribunal, os analistas debatem os métodos adequados de normalização textual e representação vetorial.
+A respeito das técnicas de processamento de texto, assinale a alternativa correta:
+
+* **A)** O *Stemming* consiste na identificação morfológica e sintática da classe gramatical de cada vocábulo em um dicionário estruturado para retornar unicamente o infinitivo canônico oficial do termo, enquanto a *Lematização* descarta regras gramaticais e aplica supressões de sufixos de forma puramente mecânica.
+* **B)** O algoritmo de tokenização por subpalavras *Byte-Pair Encoding* (BPE) inicia com um vocabulário fixo composto exclusivamente por sentenças inteiras e as divide progressivamente até alcançar letras individuais, gerando matrizes esparsas sem redundância.
+* **C)** Em abordagens estatísticas de recuperação de informação baseadas em TF-IDF, a remoção de *stopwords* é indicada para mitigar a alta dimensionalidade e expurgar palavras frequentes de baixo teor discriminativo; contudo, em modelos contextuais baseados em Transformers (como o BERT), as *stopwords* não devem ser removidas, pois a presença de artigos, pronomes e preposições é indispensável para o cálculo das relações de autoatenção contextual.
+* **D)** O componente IDF (*Inverse Document Frequency*) da matriz TF-IDF atribui peso máximo a termos que ocorrem em cem por cento dos documentos da coleção, visto que termos universais são estatisticamente os melhores descritores da base temática.
+* **E)** O modelo *Word2Vec* gera representações vetoriais dinâmicas que alteram as coordenadas de uma palavra conforme o contexto imediato de cada sentença em que ela se encontra, superando a rigidez estática dos modelos contextuais BERT e GPT.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Houve inversão completa: a **Lematização** é quem consulta dicionários e analisa a morfossintaxe contextual para produzir o lema canônico de dicionário; o **Stemming** é quem aplica cortes brutos e mecânicos de afixos sem respaldo sintático.
+> - **B)** Incorreta. O BPE opera na direção inversa (*bottom-up*): começa no nível de caracteres e funde iterativamente os pares de símbolos mais frequentes observados na base até formar as subpalavras.
+> - **C)** **Correta.** Em modelos estatísticos de frequência (*Bag of Words*, TF-IDF), eliminar *stopwords* reduz a dimensionalidade e descarta ruídos irrelevantes. Por outro lado, em arquiteturas de *Deep Learning* fundamentadas na **Autoatenção de Transformers** (como BERT e GPT), a presença de palavras funcionais (preposições, conectivos, pronomes) é mandatória para que o mecanismo de atenção modele com precisão a estrutura semântica e sintática das sentenças.
+> - **D)** Incorreta. O IDF é formulado como $\log(N / df)$. Se um termo figura em todos os documentos ($df = N$), a fração é $N/N = 1$ e seu $\text{IDF} = \log(1) = 0$, recebendo pontuação **nula**, e não máxima.
+> - **E)** Incorreta. O *Word2Vec* gera embeddings **estáticos** (cada vocábulo recebe um vetor fixo e imutável); quem gera embeddings **contextuais e dinâmicos** são exatamente os modelos baseados em Transformers (BERT, RoBERTa, GPT).
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 312
+**(FGV - TRT / Analista Judiciário - TI - Representação Textual: BoW, TF-IDF e Word2Vec)**
+No Processamento de Linguagem Natural (PLN), a representação matemática do texto é uma etapa crítica para o sucesso de modelos de classificação e agrupamento documental.
+
+A respeito das abordagens de vetorização textual clássicas (*Bag-of-Words* e *TF-IDF*) e dos modelos modernos de *Embeddings* estáticos (*Word2Vec*), assinale a afirmativa correta:
+
+* **A)** O modelo *Bag-of-Words* (BoW) preserva integralmente a estrutura sintática, a ordem cronológica dos termos e a gramática complexa da frase.
+* **B)** A métrica TF-IDF (*Term Frequency-Inverse Document Frequency*) atribui pesos mais elevados a palavras extremamente frequentes em todos os documentos do corpus (como artigos e preposições), pois elas carregam maior poder de diferenciação semântica.
+* **C)** O modelo *Word2Vec* (nas arquiteturas CBOW e Skip-Gram) mapeia palavras para vetores densos de baixa dimensionalidade em um espaço contínuo, onde palavras semanticamente similares ou que compartilham contextos afins situam-se geometricamente próximas, permitindo operações de aritmética vetorial (como $vetor(\text{"Rei"}) - vetor(\text{"Homem"}) + vetor(\text{"Mulher"}) \approx vetor(\text{"Rainha"})$).
+* **D)** O TF-IDF gera vetores puramente densos de no máximo 50 posições para qualquer vocabulário, eliminando a esparsidade de matrizes.
+* **E)** O modelo Skip-Gram utiliza as palavras do contexto para prever a palavra central, ao passo que o CBOW (*Continuous Bag-of-Words*) utiliza a palavra central para prever o contexto circunvizinho.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O modelo *Bag-of-Words* desconsidera inteiramente a ordem das palavras e as relações gramaticais, contabilizando apenas a frequência de ocorrência dos termos de modo desordenado.
+> - **B)** Incorreta. O componente IDF (*Inverse Document Frequency*) atua exatamente no sentido inverso: penaliza termos comuns que aparecem em muitos documentos (*stopwords*), atribuindo pesos altos a termos raros e específicos que discriminam documentos.
+> - **C)** **CORRETA.** O **Word2Vec** (Mikolov et al., 2013) revolucionou o PLN ao substituir representações esparsas *one-hot* de altíssima dimensão por **vetores contínuos densos** (ex.: 300 dimensões). As relações semânticas e sintáticas aprendidas a partir do contexto refletem-se em propriedades algébricas no espaço vetorial latente, possibilitando analogias lineares por similaridade cosseno.
+> - **D)** Incorreta. O TF-IDF produz matrizes de termos por documentos altamente **esparsas** (a maioria das células é zero), cuja dimensionalidade equivale ao tamanho total do vocabulário do corpus (frequentemente centenas de milhares de colunas).
+> - **E)** Incorreta. Os papéis foram invertidos: o **CBOW** prevê a palavra central a partir das palavras de contexto, enquanto o **Skip-Gram** prevê as palavras de contexto a partir da palavra central.
+> 
+> **Gabarito: C**
+
+---
+
 ### Teste 313
 **(FCC - SEFAZ-PE - Auditoria de Tecnologia da Informação)**
 A publicação da arquitetura *Transformer* impulsionou a criação de modelos de linguagem pré-treinados profundos que hoje alicerçam grande parte do estado da arte em Processamento de Linguagem Natural. A partir desse paradigma, destacaram-se duas famílias arquiteturais com propriedades distintas: os modelos baseados no Codificador (*Encoder*) e os baseados no Decodificador (*Decoder*).
@@ -229,10 +222,7 @@ Sobre as diferenças técnicas entre as famílias BERT e GPT, assinale a afirmat
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 2. Inteligência Artificial Generativa
 
@@ -241,6 +231,58 @@ A IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a 
 ### 2.1 Fundamentos e Arquiteturas Generativas
 
 Enquanto a IA Discriminativa calcula $P(y \mid X)$ para separar instâncias em classes, a IA Generativa modela os padrões intrínsecos de formação dos dados. As três principais famílias contemporâneas são: GANs, Modelos de Difusão e LLMs Autoregressivos.
+
+### 2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo
+
+Introduzidas por Ian Goodfellow em 2014, as **GANs (*Generative Adversarial Networks*)** fundamentam-se em duas redes neurais profundas que competem entre si em um jogo de minimax de soma zero da teoria dos jogos:
+
+```
+[Ruído Estocástico z] ──► [ GERADOR (G) ] ──► Imagem Sintética ──┐
+                                                                 ▼
+[Dataset Real] ─────────────────────────────► Imagem Real ─────► [ DISCRIMINADOR (D) ]
+                                                                        │
+                                                                        ▼
+                                                         Decisão: Real (1) ou Fake (0)?
+                                                                        │
+               (O erro realimenta D e o gradiente ajusta G) ◄───────────┘
+```
+
+- **Gerador ($G$):** Mapeia um vetor latente de ruído aleatório $z \sim p_z$ em uma amostra sintética que busca reproduzir com fidelidade a distribuição real dos dados $p_{\text{data}}$.
+- **Discriminador ($D$):** Classificador binário que recebe uma amostra (genuína ou sintética) e emite a probabilidade $D(x) \in [0, 1]$ de a imagem ser real.
+- **Função Minimax Objetiva:**
+  $$\min_G \max_D V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}}[\log D(x)] + \mathbb{E}_{z \sim p_z}[\log(1 - D(G(z)))]$$
+- **Colapso de Modo (*Mode Collapse*):**
+    - É a patologia mais célebre no treinamento de GANs.
+    - Ocorre quando o Gerador encontra uma única amostra sintética específica (ou uma diversidade insignificante de amostras) altamente eficaz em enganar o Discriminador. O Gerador passa então a **produzir repetidamente e sempre a mesma saída idêntica**, ignorando a riqueza e variedade do restante do espaço amostral.
+
+### 2.3 Modelos de Difusão (Diffusion Models)
+
+Tornaram-se o estado da arte na síntese de imagens e mídias de alta fidelidade (DALL-E 3, Midjourney, Stable Diffusion):
+
+- **Processo Direto (*Forward Diffusion Process*):** Degrada progressivamente uma imagem real através de uma cadeia de Markov em $T$ etapas temporais discretas, inserindo pequenas frações de ruído branco gaussiano até que a imagem original se converta integralmente em ruído térmico caótico não correlacionado.
+- **Processo Reverso (*Reverse Diffusion Process*):** Uma rede neural profunda especializada (geralmente uma arquitetura U-Net associada a mecanismos de atenção cruzada condicionados por texto) é treinada para predizer e remover iterativamente a fração exata de ruído adicionada em cada passo. Partindo de puro ruído gaussiano aleatório, o modelo desconstrói o ruído passo a passo até reconstituir uma imagem hiper-realista.
+- **Vantagem sobre GANs:** Apresentam treinamento estritamente estável, livre de dinâmicas adversárias em minimax e **completamente imunes ao colapso de modo**, cobrindo com excelência toda a distribuição do espaço latente.
+
+### 2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem
+
+Os modelos autoregressivos geram textos computando a probabilidade condicional de cada token sucessivo com base em todos os tokens precedentes:
+$$P(w_1, w_2, \dots, w_T) = \prod_{t=1}^{T} P(w_t \mid w_{<t})$$
+
+A conversão do vetor de números reais (*logits*) emitido pela rede em tokens textuais finais é governada por parâmetros de amostragem na camada Softmax:
+
+1. **Temperatura ($T$):**
+    - Modula a magnitude dos logits antes da normalização pela função Softmax: $P(w_i) = \frac{e^{z_i / T}}{\sum_j e^{z_j / T}}$.
+    - **Baixa Temperatura ($T \to 0$):** Concentra a probabilidade quase inteiramente no token mais provável, gerando respostas determinísticas, rígidas, concisas e factuais.
+    - **Alta Temperatura ($T > 1$):** Suaviza a curva de probabilidades, elevando as chances de tokens menos frequentes serem sorteados, gerando respostas mais criativas, variadas e diversas (com maior propensão a alucinações se excessivamente alta).
+
+2. **Top-$k$ Sampling:**
+    - Restringe o sorteio do próximo token estritamente aos $k$ tokens que possuem as maiores probabilidades imediatas, truncando a cauda longa de tokens improváveis.
+
+3. **Top-$p$ Sampling (Amostragem por Núcleo / *Nucleus Sampling*):**
+    - Em vez de fixar uma contagem estática $k$, seleciona dinamicamente o menor conjunto de tokens cuja soma cumulativa de probabilidades atinja o limiar estipulado $p$ (ex.: $p = 0.90$).
+    - Adapta-se fluidamente: em momentos de certeza gramatical, o núcleo pode conter apenas 1 ou 2 tokens; em contextos abertos, o núcleo expande-se dinamicamente para dezenas de opções viáveis.
+
+---
 
 ### Teste 314
 **(FGV - TRT / Analista Judiciário - TI - Modelos Generativos vs. Modelos Discriminativos)**
@@ -271,31 +313,6 @@ Do ponto de vista da teoria estatística de aprendizado de máquina, a distinç�
 
 ---
 
-### 2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo
-
-Introduzidas por Ian Goodfellow em 2014, as **GANs (*Generative Adversarial Networks*)** fundamentam-se em duas redes neurais profundas que competem entre si em um jogo de minimax de soma zero da teoria dos jogos:
-
-```
-[Ruído Estocástico z] ──► [ GERADOR (G) ] ──► Imagem Sintética ──┐
-                                                                 ▼
-[Dataset Real] ─────────────────────────────► Imagem Real ─────► [ DISCRIMINADOR (D) ]
-                                                                        │
-                                                                        ▼
-                                                         Decisão: Real (1) ou Fake (0)?
-                                                                        │
-               (O erro realimenta D e o gradiente ajusta G) ◄───────────┘
-```
-
-- **Gerador ($G$):** Mapeia um vetor latente de ruído aleatório $z \sim p_z$ em uma amostra sintética que busca reproduzir com fidelidade a distribuição real dos dados $p_{\text{data}}$.
-- **Discriminador ($D$):** Classificador binário que recebe uma amostra (genuína ou sintética) e emite a probabilidade $D(x) \in [0, 1]$ de a imagem ser real.
-- **Função Minimax Objetiva:**
-  $$\min_G \max_D V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}}[\log D(x)] + \mathbb{E}_{z \sim p_z}[\log(1 - D(G(z)))]$$
-- **Colapso de Modo (*Mode Collapse*):**
-    - É a patologia mais célebre no treinamento de GANs.
-    - Ocorre quando o Gerador encontra uma única amostra sintética específica (ou uma diversidade insignificante de amostras) altamente eficaz em enganar o Discriminador. O Gerador passa então a **produzir repetidamente e sempre a mesma saída idêntica**, ignorando a riqueza e variedade do restante do espaço amostral.
-
----
-
 ### Teste 315
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 No domínio da Inteligência Artificial Generativa, diferentes famílias de redes neurais profundas foram consolidadas para síntese realista de dados multidimensionais, destacando-se as Redes Adversárias Generativas (GANs) e os Modelos de Difusão (*Diffusion Models*).
@@ -321,15 +338,6 @@ A respeito das características arquiteturais dessas tecnologias generativas, as
 > **Gabarito: A**
 
 ---
-
-
-### 2.3 Modelos de Difusão (Diffusion Models)
-
-Tornaram-se o estado da arte na síntese de imagens e mídias de alta fidelidade (DALL-E 3, Midjourney, Stable Diffusion):
-
-- **Processo Direto (*Forward Diffusion Process*):** Degrada progressivamente uma imagem real através de uma cadeia de Markov em $T$ etapas temporais discretas, inserindo pequenas frações de ruído branco gaussiano até que a imagem original se converta integralmente em ruído térmico caótico não correlacionado.
-- **Processo Reverso (*Reverse Diffusion Process*):** Uma rede neural profunda especializada (geralmente uma arquitetura U-Net associada a mecanismos de atenção cruzada condicionados por texto) é treinada para predizer e remover iterativamente a fração exata de ruído adicionada em cada passo. Partindo de puro ruído gaussiano aleatório, o modelo desconstrói o ruído passo a passo até reconstituir uma imagem hiper-realista.
-- **Vantagem sobre GANs:** Apresentam treinamento estritamente estável, livre de dinâmicas adversárias em minimax e **completamente imunes ao colapso de modo**, cobrindo com excelência toda a distribuição do espaço latente.
 
 ### Teste 316
 **(FCC - TRT / Analista Judiciário - TI - Modelos de Difusão em IA Generativa)**
@@ -358,27 +366,6 @@ O princípio físico e matemático fundamental que rege o treinamento e a infer�
 > - **E)** Incorreta. Envolve treinamento intensivo de milhões/bilhões de pesos neurais via otimização de gradientes.
 > 
 > **Gabarito: B**
-
----
-
-### 2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem
-
-Os modelos autoregressivos geram textos computando a probabilidade condicional de cada token sucessivo com base em todos os tokens precedentes:
-$$P(w_1, w_2, \dots, w_T) = \prod_{t=1}^{T} P(w_t \mid w_{<t})$$
-
-A conversão do vetor de números reais (*logits*) emitido pela rede em tokens textuais finais é governada por parâmetros de amostragem na camada Softmax:
-
-1. **Temperatura ($T$):**
-    - Modula a magnitude dos logits antes da normalização pela função Softmax: $P(w_i) = \frac{e^{z_i / T}}{\sum_j e^{z_j / T}}$.
-    - **Baixa Temperatura ($T \to 0$):** Concentra a probabilidade quase inteiramente no token mais provável, gerando respostas determinísticas, rígidas, concisas e factuais.
-    - **Alta Temperatura ($T > 1$):** Suaviza a curva de probabilidades, elevando as chances de tokens menos frequentes serem sorteados, gerando respostas mais criativas, variadas e diversas (com maior propensão a alucinações se excessivamente alta).
-
-2. **Top-$k$ Sampling:**
-    - Restringe o sorteio do próximo token estritamente aos $k$ tokens que possuem as maiores probabilidades imediatas, truncando a cauda longa de tokens improváveis.
-
-3. **Top-$p$ Sampling (Amostragem por Núcleo / *Nucleus Sampling*):**
-    - Em vez de fixar uma contagem estática $k$, seleciona dinamicamente o menor conjunto de tokens cuja soma cumulativa de probabilidades atinja o limiar estipulado $p$ (ex.: $p = 0.90$).
-    - Adapta-se fluidamente: em momentos de certeza gramatical, o núcleo pode conter apenas 1 ou 2 tokens; em contextos abertos, o núcleo expande-se dinamicamente para dezenas de opções viáveis.
 
 ---
 
@@ -411,10 +398,7 @@ Para controlar o grau de aleatoriedade, criatividade e determinismo do texto ger
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 3. Agentes Inteligentes e Ambientes de Tarefa
 
@@ -448,6 +432,43 @@ Para projetar formalmente um agente inteligente, especifica-se o framework **PEA
 - **A (Actuators / Atuadores):** Os canais ou dispositivos pelos quais o agente age sobre o ambiente.
 - **S (Sensors / Sensores):** Os instrumentos de entrada pelos quais o agente recolhe dados do ambiente.
 
+### 3.2 Propriedades dos Ambientes de Tarefa
+
+A arquitetura e os algoritmos do agente são diretamente moldados pelas características de seu ambiente de tarefa:
+
+1. **Totalmente Observável vs. Parcialmente Observável:** O ambiente é totalmente observável se os sensores acessam o estado global completo a cada instante (ex.: Xadrez). Se houver pontos cegos, variáveis ocultas ou incertezas sensoriais, é parcialmente observável (ex.: fiscalização de fraudes fiscais, trânsito).
+2. **Determinístico vs. Estocástico:** É determinístico se o próximo estado do sistema é completamente definido pelo estado atual e pela ação empregada pelo agente. Se houver aleatoriedade, incerteza ou ruído externo, é estocástico.
+3. **Episódico vs. Sequencial:** No ambiente episódico, a experiência divide-se em episódios atômicos isolados onde a ação presente não impacta o futuro (ex.: classificar uma imagem de nota fiscal). No sequencial, a decisão atual dita as oportunidades de todas as etapas seguintes (ex.: partidas de xadrez, direção autônoma).
+4. **Estático vs. Dinâmico:** É estático se o ambiente não se altera enquanto o agente delibera; é dinâmico se o mundo continua evoluindo e mudando enquanto o algoritmo processa sua decisão.
+5. **Discreto vs. Contínuo:** Se os estados, ações e percepções são contáveis em passos finitos ou representados por variáveis contínuas no tempo e espaço.
+6. **Agente Único vs. Multiagente:** Se a entidade opera isoladamente no ambiente ou se interage com outros agentes em regimes cooperativos ou competitivos.
+
+### 3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)
+
+1. **Agente Reativo Simples (*Simple Reflex Agent*):**
+    - Decide sua ação baseando-se estritamente na percepção atual imediata por meio de regras de **Condição-Ação** ($if \text{ condição } then \text{ ação}$).
+    - Não possui histórico nem memória de percepções passadas. Sofre com loops infinitos e falha em ambientes parcialmente observáveis.
+
+2. **Agente Reativo Baseado em Modelos (*Model-Based Reflex Agent*):**
+    - Mantém um **Estado Interno** persistente na memória que reflete o histórico de percepções e o conhecimento sobre "como o mundo evolui de forma independente" e "como as próprias ações do agente afetam o ambiente".
+    - Consegue operar com excelência em **ambientes parcialmente observáveis**, deduzindo informações que não estão diretamente acessíveis nos sensores naquele instante.
+
+3. **Agente Baseado em Objetivos (*Goal-Based Agent*):**
+    - Combina o estado interno do mundo com a descrição explícita de uma ou mais **Metas/Objetivos**. Utiliza algoritmos de busca e planejamento para selecionar trajetórias de ações que conduzam ao estado final desejado.
+
+4. **Agente Baseado na Utilidade (*Utility-Based Agent*):**
+    - Substitui metas binárias por uma **Função de Utilidade** contínua ($U(s) \in \mathbb{R}$) que mensura formalmente o grau numérico de desejabilidade de cada estado do mundo.
+    - Permite tomar decisões ótimas balanceando trade-offs entre múltiplos objetivos conflitantes (ex.: balancear velocidade de fiscalização vs. risco de falsos positivos sob incerteza probabilística).
+
+5. **Agente com Aprendizado (*Learning Agent*):**
+    - Transcende as limitações do projeto inicial programado, evoluindo seu comportamento ao longo do tempo. É dividido formalmente em quatro módulos funcionais:
+    - *Elemento de Desempenho:* Seleciona as ações externas imediatas.
+    - *Elemento de Aprendizado:* Responsável por introduzir melhorias nas regras do agente.
+    - *Crítica:* Avalia o comportamento do agente comparando as percepções a um padrão externo de sucesso.
+    - *Gerador de Problemas:* Propõe ações exploratórias inéditas para adquirir novos conhecimentos.
+
+---
+
 ### Teste 318
 **(FGV - TRT / Analista Judiciário - TI - O Framework PEAS em Agentes Inteligentes)**
 Ao projetar um sistema agentivo inteligente baseado em IA para atuar na fiscalização automatizada de folhas de pagamento do Tribunal de Contas, o arquiteto de software utiliza o modelo formal **PEAS** (Performance, Environment, Actuators, Sensors) preconizado por Russell & Norvig.
@@ -478,17 +499,6 @@ Assinale a opção que mapeia correta e respectivamente os elementos do framewor
 > **Gabarito: B**
 
 ---
-
-### 3.2 Propriedades dos Ambientes de Tarefa
-
-A arquitetura e os algoritmos do agente são diretamente moldados pelas características de seu ambiente de tarefa:
-
-1. **Totalmente Observável vs. Parcialmente Observável:** O ambiente é totalmente observável se os sensores acessam o estado global completo a cada instante (ex.: Xadrez). Se houver pontos cegos, variáveis ocultas ou incertezas sensoriais, é parcialmente observável (ex.: fiscalização de fraudes fiscais, trânsito).
-2. **Determinístico vs. Estocástico:** É determinístico se o próximo estado do sistema é completamente definido pelo estado atual e pela ação empregada pelo agente. Se houver aleatoriedade, incerteza ou ruído externo, é estocástico.
-3. **Episódico vs. Sequencial:** No ambiente episódico, a experiência divide-se em episódios atômicos isolados onde a ação presente não impacta o futuro (ex.: classificar uma imagem de nota fiscal). No sequencial, a decisão atual dita as oportunidades de todas as etapas seguintes (ex.: partidas de xadrez, direção autônoma).
-4. **Estático vs. Dinâmico:** É estático se o ambiente não se altera enquanto o agente delibera; é dinâmico se o mundo continua evoluindo e mudando enquanto o algoritmo processa sua decisão.
-5. **Discreto vs. Contínuo:** Se os estados, ações e percepções são contáveis em passos finitos ou representados por variáveis contínuas no tempo e espaço.
-6. **Agente Único vs. Multiagente:** Se a entidade opera isoladamente no ambiente ou se interage com outros agentes em regimes cooperativos ou competitivos.
 
 ### Teste 319
 **(FCC - TRT / Analista Judiciário - TI - Taxonomia de Ambientes de Tarefa)**
@@ -525,32 +535,6 @@ Segundo a taxonomia clássica de Russell & Norvig, esse ambiente de tarefa class
 
 ---
 
-### 3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)
-
-1. **Agente Reativo Simples (*Simple Reflex Agent*):**
-    - Decide sua ação baseando-se estritamente na percepção atual imediata por meio de regras de **Condição-Ação** ($if \text{ condição } then \text{ ação}$).
-    - Não possui histórico nem memória de percepções passadas. Sofre com loops infinitos e falha em ambientes parcialmente observáveis.
-
-2. **Agente Reativo Baseado em Modelos (*Model-Based Reflex Agent*):**
-    - Mantém um **Estado Interno** persistente na memória que reflete o histórico de percepções e o conhecimento sobre "como o mundo evolui de forma independente" e "como as próprias ações do agente afetam o ambiente".
-    - Consegue operar com excelência em **ambientes parcialmente observáveis**, deduzindo informações que não estão diretamente acessíveis nos sensores naquele instante.
-
-3. **Agente Baseado em Objetivos (*Goal-Based Agent*):**
-    - Combina o estado interno do mundo com a descrição explícita de uma ou mais **Metas/Objetivos**. Utiliza algoritmos de busca e planejamento para selecionar trajetórias de ações que conduzam ao estado final desejado.
-
-4. **Agente Baseado na Utilidade (*Utility-Based Agent*):**
-    - Substitui metas binárias por uma **Função de Utilidade** contínua ($U(s) \in \mathbb{R}$) que mensura formalmente o grau numérico de desejabilidade de cada estado do mundo.
-    - Permite tomar decisões ótimas balanceando trade-offs entre múltiplos objetivos conflitantes (ex.: balancear velocidade de fiscalização vs. risco de falsos positivos sob incerteza probabilística).
-
-5. **Agente com Aprendizado (*Learning Agent*):**
-    - Transcende as limitações do projeto inicial programado, evoluindo seu comportamento ao longo do tempo. É dividido formalmente em quatro módulos funcionais:
-    - *Elemento de Desempenho:* Seleciona as ações externas imediatas.
-    - *Elemento de Aprendizado:* Responsável por introduzir melhorias nas regras do agente.
-    - *Crítica:* Avalia o comportamento do agente comparando as percepções a um padrão externo de sucesso.
-    - *Gerador de Problemas:* Propõe ações exploratórias inéditas para adquirir novos conhecimentos.
-
----
-
 ### Teste 320
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 A teoria canônica de Inteligência Artificial formalizada por Stuart Russell e Peter Norvig organiza o projeto de sistemas computacionais autônomos com base no conceito de Agentes Racionais operando em Ambientes de Tarefas caracterizados pela taxonomia do framework PEAS (*Performance, Environment, Actuators, Sensors*).
@@ -575,10 +559,7 @@ A respeito da classificação e do comportamento dos agentes inteligentes, assin
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Modelos Multimodais e Aplicações no Setor Público
 
@@ -603,6 +584,12 @@ O marco fundamental que consolidou a visão-linguagem moderna foi o modelo **CLI
     - **Minimiza** a similaridade de cosseno entre a imagem $I_i$ e todas as outras legendas incorretas $T_j$ no mesmo minilote (pares negativos).
 - **Classificação Zero-Shot (*Zero-Shot Classification*):**
     - O CLIP dispensa retreinamento supervisionado para novas classes. Para classificar uma foto inédita, projeta-se o embedding da imagem e compara-se sua similaridade de cosseno contra os embeddings textuais de vários prompts candidatos gerados dinamicamente (ex.: *"uma foto de [obra concluída]"*, *"uma foto de [obra abandonada]"*). A classe com maior proximidade angular é selecionada.
+
+### 4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)
+
+1. **Auditoria de Obras e Engenharia Pública:** Uso de Modelos de Visão-Linguagem (VLMs) para inspecionar fotografias de vistorias técnicas, imagens de satélite multiespectrais e vídeos capturados por drones, cruzando automaticamente evidências visuais com o cronograma físico-financeiro e as planilhas orçamentárias de medição da obra pública.
+2. **OCR Semântico de Documentos Administrativos Legados:** Digitalização e leitura ótica inteligente de contratos históricos, certidões com caligrafia manual e processos digitalizados com baixa resolução, onde o modelo de linguagem contextual auxilia o modelo visual na recomposição de termos degradados pelo tempo.
+3. **Detecção de Fraudes em Notas Fiscais Eletrônicas:** Análise combinada de comprovantes digitalizados, carimbos notariais e fotos de mercadorias entregues, identificando discrepâncias materiais em compras governamentais.
 
 ---
 
@@ -631,18 +618,6 @@ Sobre os fundamentos operacionais e os benefícios metodológicos da arquitetura
 > **Gabarito: B**
 
 ---
-
-
-### 4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)
-
-1. **Auditoria de Obras e Engenharia Pública:** Uso de Modelos de Visão-Linguagem (VLMs) para inspecionar fotografias de vistorias técnicas, imagens de satélite multiespectrais e vídeos capturados por drones, cruzando automaticamente evidências visuais com o cronograma físico-financeiro e as planilhas orçamentárias de medição da obra pública.
-2. **OCR Semântico de Documentos Administrativos Legados:** Digitalização e leitura ótica inteligente de contratos históricos, certidões com caligrafia manual e processos digitalizados com baixa resolução, onde o modelo de linguagem contextual auxilia o modelo visual na recomposição de termos degradados pelo tempo.
-3. **Detecção de Fraudes em Notas Fiscais Eletrônicas:** Análise combinada de comprovantes digitalizados, carimbos notariais e fotos de mercadorias entregues, identificando discrepâncias materiais em compras governamentais.
-
-
-
----
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

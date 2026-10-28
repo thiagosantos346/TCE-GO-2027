@@ -22,43 +22,45 @@
 - Sanções administrativas: advertência, multa, impedimento de licitar e declaração de inidoneidade.
 - Processo administrativo sancionador e reabilitação.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada e Pontos Críticos](#teoria-aprofundada-e-pontos-criticos)
-    1. [Conceito, Características e Cláusulas Exorbitantes dos Contratos Administrativos](#1-conceito-caracteristicas-e-clausulas-exorbitantes-dos-contratos-administrativos)
-    2. [Teste 099](#Teste-099)
-    3. [Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)](#2-garantias-contratuais-e-seguro-garantia-com-clausula-de-retomada-step-in-rights)
-    4. [Teste 100](#Teste-100)
-    5. [Duração e Prorrogação dos Contratos Administrativos](#3-duracao-e-prorrogacao-dos-contratos-administrativos)
-    6. [Teste 101](#Teste-101)
-    7. [Gestão, Fiscalização e Responsabilidade Trabalhista do Estado](#4-gestao-fiscalizacao-e-responsabilidade-trabalhista-do-estado)
-    8. [Teste 102](#Teste-102)
-    9. [Teste 103](#Teste-103)
-    10. [Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro](#5-alteracoes-contratuais-e-manutencao-do-equilibrio-economico-financeiro)
-    11. [Teste 104](#Teste-104)
-    12. [Teste 105](#Teste-105)
-    13. [Teste 106](#Teste-106)
-    14. [Infrações, Sistema Sancionador e Processo de Reabilitação](#6-infracoes-sistema-sancionador-e-processo-de-reabilitacao)
-    15. [Teste 107](#Teste-107)
-    16. [Teste 108](#Teste-108)
-    17. [Teste 109](#Teste-109)
-2. [Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
+1. [Conceito, Características e Cláusulas Exorbitantes dos Contratos Administrativos](#1-conceito-caracteristicas-e-clausulas-exorbitantes-dos-contratos-administrativos)
+    1. [Características Fundamentais e Formalização](#11-caracteristicas-fundamentais-e-formalizacao)
+    2. [Cláusulas Exorbitantes e Restrição à Exceção do Contrato Não Cumprido](#12-clausulas-exorbitantes-e-restricao-a-excecao-do-contrato-nao-cumprido)
+    3. [Teste 099](#Teste-099)
+2. [Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)](#2-garantias-contratuais-e-seguro-garantia-com-clausula-de-retomada-step-in-rights)
+    1. [Teste 100](#Teste-100)
+3. [Duração e Prorrogação dos Contratos Administrativos](#3-duracao-e-prorrogacao-dos-contratos-administrativos)
+    1. [Serviços e Fornecimentos Contínuos (Regra 5 + 5 = Até 10 Anos)](#31-servicos-e-fornecimentos-continuos-regra-5-5-ate-10-anos)
+    2. [Contratos por Escopo](#32-contratos-por-escopo)
+    3. [Teste 101](#Teste-101)
+4. [Gestão, Fiscalização e Responsabilidade Trabalhista do Estado](#4-gestao-fiscalizacao-e-responsabilidade-trabalhista-do-estado)
+    1. [Estrutura de Gestão e Fiscalização Contratual](#41-estrutura-de-gestao-e-fiscalizacao-contratual)
+    2. [Responsabilidade Trabalhista e Previdenciária: O Tema 246 do STF](#42-responsabilidade-trabalhista-e-previdenciaria-o-tema-246-do-stf)
+    3. [Recebimento Provisório e Definitivo do Objeto](#43-recebimento-provisorio-e-definitivo-do-objeto)
+    4. [Teste 102](#Teste-102)
+    5. [Teste 103](#Teste-103)
+5. [Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro](#5-alteracoes-contratuais-e-manutencao-do-equilibrio-economico-financeiro)
+    1. [Alterações Unilaterais e Consensuais: Limites de 25% e 50%](#51-alteracoes-unilaterais-e-consensuais-limites-de-25-e-50)
+    2. [Instrumentos de Recomposição: Reajuste, Repactuação e Revisão](#52-instrumentos-de-recomposicao-reajuste-repactuacao-e-revisao)
+    3. [Teste 104](#Teste-104)
+    4. [Teste 105](#Teste-105)
+    5. [Teste 106](#Teste-106)
+6. [Infrações, Sistema Sancionador e Processo de Reabilitação](#6-infracoes-sistema-sancionador-e-processo-de-reabilitacao)
+    1. [Teste 107](#Teste-107)
+    2. [Teste 108](#Teste-108)
+    3. [Teste 109](#Teste-109)
+7. [🌐 Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
 
 ---
 
-
-## 📖 Teoria Aprofundada e Pontos Críticos
-
-### 1. Conceito, Características e Cláusulas Exorbitantes dos Contratos Administrativos
+## 1. Conceito, Características e Cláusulas Exorbitantes dos Contratos Administrativos
 
 O contrato administrativo é o ajuste bilateral de vontades celebrado entre a Administração Pública (atuando nessa qualidade revestida do regime de direito público) e o particular ou outra entidade pública, tendo por objetivo a consecução de uma utilidade de interesse público, sob condições reguladas pela legislação e pelo instrumento convocatório.
 
-#### 1.1 Características Fundamentais e Formalização
+### 1.1 Características Fundamentais e Formalização
 - **Consensual:** Aperfeiçoa-se com o consentimento mútuo manifestado na assinatura do ajuste, não dependendo da entrega física imediata da coisa para sua existência.
 - **Formal:** A forma escrita é solene e obrigatória. O art. 95 da Lei nº 14.133/2021 estabelece que o instrumento de contrato é obrigatório, admitindo sua substituição por outros instrumentos hábeis (carta-contrato, nota de empenho de despesa, autorização de compra ou ordem de execução de serviço) apenas em dispensas de pequeno valor ou compras com entrega imediata e integral sem obrigações futuras. É nulo e de nenhum efeito o contrato verbal com a Administração, ressalvadas pequenas compras de pronto pagamento feitas em regime de adiantamento (suprimento de fundos) de valor irrisório.
 - **Bilateral (ou Sinalagmático):** Gera direitos e obrigações recíprocas e interdependentes para ambas as partes.
@@ -66,7 +68,7 @@ O contrato administrativo é o ajuste bilateral de vontades celebrado entre a Ad
 - **Comutativo:** As prestações das partes são certas, conhecidas e tidas como equivalentes no momento da pactuação original.
 - **Personalíssimo (*intuitu personae*):** Celebrado em função das qualidades subjetivas e habilitações demonstradas pelo licitante vencedor no certame, limitando-se a subcontratação às estritas balizas do edital e com prévia anuência da Administração.
 
-#### 1.2 Cláusulas Exorbitantes e Restrição à Exceção do Contrato Não Cumprido
+### 1.2 Cláusulas Exorbitantes e Restrição à Exceção do Contrato Não Cumprido
 As cláusulas exorbitantes (art. 104 da Lei nº 14.133/2021) conferem prerrogativas extraordinárias que extrapolam o direito privado comum, justificadas pela supremacia do interesse público sobre o privado:
 
 1. **Modificação unilateral do contrato:** A Administração pode alterar qualitativa ou quantitativamente as cláusulas de serviço para melhor adequação técnica ao interesse público;
@@ -88,8 +90,6 @@ flowchart TD
 ```
 
 ---
-
-
 
 ### Teste 099
 **(FCC - Analista de Controle Externo / TCE-GO)**
@@ -118,7 +118,7 @@ A respeito das cláusulas exorbitantes positivadas no art. 104 da Nova Lei de Li
 
 ---
 
-### 2. Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)
+## 2. Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)
 
 A critério da autoridade competente, em cada contratação a Administração pode exigir do contratado a prestação de garantia (art. 96). Caberá ao **contratado optar** por uma das seguintes modalidades:
 
@@ -168,26 +168,22 @@ De acordo com o art. 102 da Lei Federal nº 14.133/2021, a **cláusula de retoma
 
 ---
 
-
-
-### 3. Duração e Prorrogação dos Contratos Administrativos
+## 3. Duração e Prorrogação dos Contratos Administrativos
 
 A regra orçamentária tradicional vinculava a vigência contratual aos créditos orçamentários do respectivo exercício financeiro (regra do ano civil). A Lei nº 14.133/2021 flexibilizou essa sistemática com regras modernas de planejamento (arts. 105 a 114):
 
-#### 3.1 Serviços e Fornecimentos Contínuos (Regra 5 + 5 = Até 10 Anos)
+### 3.1 Serviços e Fornecimentos Contínuos (Regra 5 + 5 = Até 10 Anos)
 O art. 106 da NLLC estabelece uma revolução para os contratos de serviços e fornecimentos contínuos (limpeza, vigilância, suporte de TI, manutenção predial, locação de equipamentos):
 
 - Podem ser celebrados com prazo de vigência inicial de **até 5 (cinco) anos**.
 - A Administração pode prorrogar sucessivamente a contratação até o limite máximo total de **10 (dez) anos**, desde que comprovada documentalmente a vantajosidade econômica das condições e a manutenção da qualidade da execução.
 - Permite amortização mais eficiente de investimentos e redução substantiva dos custos de transação causados por licitações repetitivas anuais.
 
-#### 3.2 Contratos por Escopo
+### 3.2 Contratos por Escopo
 - Nos contratos cujo objeto é a entrega de um produto ou realização de obra certa e predeterminada (contratos por escopo predeterminado), o prazo de vigência original deve corresponder ao cronograma de execução física.
 - Conforme o art. 111, o prazo de vigência será **automaticamente prorrogado** quando o seu objeto não for concluído no período inicialmente firmado por razões imputáveis à Administração ou por fatos supervenientes de caso fortuito/força maior, assegurando-se a conclusão da obra e a apuração de responsabilidades caso o atraso decorra de culpa exclusiva do contratado.
 
 ---
-
-
 
 ### Teste 101
 **(FGV - Auditor de Controle Externo / TCE-SC)**
@@ -216,9 +212,9 @@ Quanto ao prazo de vigência dos contratos de serviços e fornecimentos contínu
 
 ---
 
-### 4. Gestão, Fiscalização e Responsabilidade Trabalhista do Estado
+## 4. Gestão, Fiscalização e Responsabilidade Trabalhista do Estado
 
-#### 4.1 Estrutura de Gestão e Fiscalização Contratual
+### 4.1 Estrutura de Gestão e Fiscalização Contratual
 A execução do contrato deve ser acompanhada e fiscalizada permanentemente por um ou mais fiscais do contrato, auxiliados por gestores, atendendo ao princípio da segregação de funções (art. 117):
 
 - **Gestor do Contrato:** Servidor responsável pela coordenação global dos atos administrativos, prorrogações, reajustes e controle financeiro macro.
@@ -226,7 +222,7 @@ A execução do contrato deve ser acompanhada e fiscalizada permanentemente por 
 - **Fiscal Administrativo:** Servidor responsável pela fiscalização da documentação fiscal, previdenciária e trabalhista da mão de obra terceirizada.
 - **Fiscal Setorial / do Público Usuário:** Servidores designados em unidades descentralizadas ou comissões de usuários para atestar a efetiva entrega dos bens ou serviços.
 
-#### 4.2 Responsabilidade Trabalhista e Previdenciária: O Tema 246 do STF
+### 4.2 Responsabilidade Trabalhista e Previdenciária: O Tema 246 do STF
 A responsabilidade do Estado perante terceiros na terceirização de serviços é tema de alta incidência na jurisprudência e concursos:
 
 - **Encargos Fiscais e Comerciais:** A inadimplência do contratado não transfere em hipótese alguma a responsabilidade ao Poder Público (art. 121, § 1º).
@@ -237,9 +233,14 @@ A responsabilidade do Estado perante terceiros na terceirização de serviços �
     - A condenação subsidiária da Administração Pública só é admitida se restar cabalmente demonstrada nos autos processuais a sua **culpa *in vigilando*** — caracterizada pela omissão reiterada e culposa do dever legal de fiscalizar mensalmente o adimplemento dos salários, recolhimento de FGTS e verbas da folha pela contratada.
     - O encargo probatório dessa conduta omissiva recai sobre o trabalhador reclamante, sendo vedada presunção automática de culpa contra a Fazenda Pública.
 
+### 4.3 Recebimento Provisório e Definitivo do Objeto
+O art. 140 da NLLC disciplina as fases de entrega do objeto contratado:
+
+- **Recebimento Provisório:** Realizado pelo **fiscal do contrato**, mediante termo circunstanciado, para efeito de posterior verificação da conformidade do material ou serviço com as especificações exigidas.
+- **Recebimento Definitivo:** Realizado por **servidor ou comissão designada pela autoridade competente**, mediante termo circunstanciado que comprove a perfeita adequação do objeto aos termos contratuais e técnicos.
+- O recebimento provisório ou definitivo não exclui a responsabilidade civil do contratado pela solidez e segurança da obra ou serviço durante o prazo legal de 5 anos (art. 618 do Código Civil), nem por vícios ocultos.
+
 ---
-
-
 
 ### Teste 102
 **(FCC - Procurador do Estado / Adaptada)**
@@ -295,19 +296,9 @@ Diante do art. 121, § 1º, da Lei Federal nº 14.133/2021 e da tese de repercus
 
 ---
 
+## 5. Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro
 
-#### 4.3 Recebimento Provisório e Definitivo do Objeto
-O art. 140 da NLLC disciplina as fases de entrega do objeto contratado:
-
-- **Recebimento Provisório:** Realizado pelo **fiscal do contrato**, mediante termo circunstanciado, para efeito de posterior verificação da conformidade do material ou serviço com as especificações exigidas.
-- **Recebimento Definitivo:** Realizado por **servidor ou comissão designada pela autoridade competente**, mediante termo circunstanciado que comprove a perfeita adequação do objeto aos termos contratuais e técnicos.
-- O recebimento provisório ou definitivo não exclui a responsabilidade civil do contratado pela solidez e segurança da obra ou serviço durante o prazo legal de 5 anos (art. 618 do Código Civil), nem por vícios ocultos.
-
----
-
-### 5. Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro
-
-#### 5.1 Alterações Unilaterais e Consensuais: Limites de 25% e 50%
+### 5.1 Alterações Unilaterais e Consensuais: Limites de 25% e 50%
 Os contratos administrativos podem ser alterados unilateralmente pela Administração (quando houver modificação de projeto ou adequação quantitativa) ou consensualmente por acordo mútuo entre as partes (para substituição de garantia ou repactuação) — art. 124.
 
 O art. 125 estipula os limites legais obrigatórios que o contratado é obrigado a aceitar nas alterações unilaterais:
@@ -327,9 +318,16 @@ flowchart LR
 > 2. **Para supressões (reduções quantitativas), o limite legal é sempre de 25%**, inclusive em reformas de edifícios!  
 > 3. É **terminantemente proibida a compensação matemática** entre acréscimos e supressões para efeito de cumprimento dos limites legais (ex.: acrescer 40% em um item e suprimir 40% em outro configura ilegalidade manifesta pelo "jogo de planilhas").
 
+### 5.2 Instrumentos de Recomposição: Reajuste, Repactuação e Revisão
+A garantia da equação econômico-financeira original é direito fundamental do contratado previsto no art. 37, XXI, da CF/88. A Lei nº 14.133/2021 distingue com clareza três institutos:
+
+| Instituto Jurídico | Hipótese de Aplicação | Periodicidade Mínima | Base de Cálculo / Fundamento |
+|---|---|:---:|---|
+| **Reajuste em Sentido Estrito** | Variação inflacionária ordinária do custo dos insumos e produtos | **1 ano** (interregno mínimo) | Aplicação automática de índice oficial de correção de preços previsto no edital (ex.: IPCA, INCC, IGP-M). |
+| **Repactuação** | Serviços contínuos com **dedicação exclusiva de mão de obra** | **1 ano** (interregno mínimo) | Demonstração analítica da variação de custos decorrente de nova **Convenção Coletiva de Trabalho (CCT)** ou Dissídio Coletivo. |
+| **Revisão (Reequilíbrio em Sentido Estrito)** | Fatos imprevisíveis, caso fortuito, força maior, fato do príncipe ou fato da administração (**álea extraordinária**) | **A qualquer tempo** (não exige interregno anual) | Teoria da Imprevisão; recomposição integral da margem econômica desequilibrada por evento extraordinário e extracontratual. |
+
 ---
-
-
 
 ### Teste 104
 **(FGV - Analista de Controle Externo / TCE-GO)**
@@ -385,18 +383,6 @@ Em face dos limites de alteração unilateral estabelecidos no art. 125 da Lei F
 
 ---
 
-
-#### 5.2 Instrumentos de Recomposição: Reajuste, Repactuação e Revisão
-A garantia da equação econômico-financeira original é direito fundamental do contratado previsto no art. 37, XXI, da CF/88. A Lei nº 14.133/2021 distingue com clareza três institutos:
-
-| Instituto Jurídico | Hipótese de Aplicação | Periodicidade Mínima | Base de Cálculo / Fundamento |
-|---|---|:---:|---|
-| **Reajuste em Sentido Estrito** | Variação inflacionária ordinária do custo dos insumos e produtos | **1 ano** (interregno mínimo) | Aplicação automática de índice oficial de correção de preços previsto no edital (ex.: IPCA, INCC, IGP-M). |
-| **Repactuação** | Serviços contínuos com **dedicação exclusiva de mão de obra** | **1 ano** (interregno mínimo) | Demonstração analítica da variação de custos decorrente de nova **Convenção Coletiva de Trabalho (CCT)** ou Dissídio Coletivo. |
-| **Revisão (Reequilíbrio em Sentido Estrito)** | Fatos imprevisíveis, caso fortuito, força maior, fato do príncipe ou fato da administração (**álea extraordinária**) | **A qualquer tempo** (não exige interregno anual) | Teoria da Imprevisão; recomposição integral da margem econômica desequilibrada por evento extraordinário e extracontratual. |
-
----
-
 ### Teste 106
 **(FCC - Auditor de Controle Externo / Adaptada)**
 Durante a execução de um contrato administrativo de serviços de limpeza e conservação predial com dedicação exclusiva de mão de obra celebrado por determinado órgão estadual, ocorreu a homologação de nova Convenção Coletiva de Trabalho da categoria dos trabalhadores da limpeza, com reajuste salarial de 8% nos pisos da categoria. Paralelamente, em outro contrato de fornecimento de combustíveis para viaturas oficiais, a cotação internacional do barril de petróleo subiu extraordinariamente em virtude de eclosão de conflito armado imprevisível no exterior.
@@ -424,9 +410,7 @@ Os institutos jurídicos cabíveis para a recomposição financeira dos contrato
 
 ---
 
-
-
-### 6. Infrações, Sistema Sancionador e Processo de Reabilitação
+## 6. Infrações, Sistema Sancionador e Processo de Reabilitação
 
 O cometimento de infrações administrativas elencadas no art. 155 da Lei nº 14.133/2021 (dar causa à inexecução parcial ou total, fraudar a licitação, praticar ato ilícito com vistas a frustrar os objetivos do certame, comportar-se de modo inidôneo) sujeita o licitante ou contratado a quatro sanções administrativas (art. 156):
 
@@ -449,8 +433,6 @@ A reabilitação perante a Administração exige cumulativamente:
 4. Cumprimento das condições de reabilitação e implantação ou aperfeiçoamento de **programa de integridade (*compliance*)**, exigido compulsoriamente nas sanções por atos de corrupção ou fraude da Lei Anticorrupção.
 
 ---
-
-
 
 ### Teste 107
 **(FCC - Auditor de Controle Externo)**
@@ -504,10 +486,6 @@ Durante a execução de um contrato administrativo de fornecimento de sistemas d
 
 ---
 
-
-
-
-
 ### Teste 109
 **(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 O art. 163 da Lei nº 14.133/2021 estabelece os requisitos cumulativos indispensáveis para o processamento do pedido de reabilitação do licitante ou contratado sancionado com impedimento ou declaração de inidoneidade.
@@ -533,12 +511,10 @@ Conforme a legislação em vigor, a reabilitação exige:
 >
 > **Gabarito: B**
 
-
-
 ---
 
-
 ## 🌐 Fontes Recomendadas na Internet
+
 - [Lei Federal nº 14.133/2021 - Artigos 89 a 123 (Formalização, Garantias, Vigência e Execução Contratual)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art89)  
   Normas legais sobre cláusulas exorbitantes, seguro-garantia com cláusula de retomada (art. 102), vigência decenal (arts. 106 e 107) e fiscalização (art. 117).
 - [Lei Federal nº 14.133/2021 - Artigos 124 a 139 (Alterações Contratuais, Equilíbrio e Extinção)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art124)  

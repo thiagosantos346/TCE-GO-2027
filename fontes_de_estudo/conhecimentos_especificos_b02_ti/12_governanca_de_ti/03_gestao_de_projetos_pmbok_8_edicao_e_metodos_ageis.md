@@ -19,54 +19,45 @@
 - Análise de Valor Agregado (EVA / EVM: VP, CR, VA, IDP, IDC)
 - Gestão de Portfólio de TI (alinhamento estratégico, governança de programas e priorização)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Teoria Aprofundada & Conceitos Essenciais](#teoria-aprofundada-conceitos-essenciais)
-2. [Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI](#1-fundamentos-de-gestao-de-projetos-e-mudanca-de-paradigma-do-pmi)
-    1. [Conceito de Projeto vs. Operação](#11-conceito-de-projeto-vs-operacao)
-    2. [Teste 485](#Teste-485)
-    3. [Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#12-hierarquia-pmi-projetos-programas-e-portfolios-de-tic)
-    4. [Teste 486](#Teste-486)
-    5. [O Sistema de Entrega de Valor (System for Value Delivery)](#13-o-sistema-de-entrega-de-valor-system-for-value-delivery)
-    6. [Teste 487](#Teste-487)
-3. [Os 12 Princípios de Entrega de Projetos](#2-os-12-principios-de-entrega-de-projetos)
+1. [Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI](#1-fundamentos-de-gestao-de-projetos-e-mudanca-de-paradigma-do-pmi)
+1. [Conceito de Projeto vs. Operação](#1-1-conceito-de-projeto-vs-operacao)
+    1. [Teste 485](#Teste-485)
+1. [Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#1-2-hierarquia-pmi-projetos-programas-e-portfolios-de-tic)
+    1. [Teste 486](#Teste-486)
+1. [O Sistema de Entrega de Valor (System for Value Delivery)](#1-3-o-sistema-de-entrega-de-valor-system-for-value-delivery)
+    1. [Teste 487](#Teste-487)
+2. [Os 12 Princípios de Entrega de Projetos](#2-os-12-principios-de-entrega-de-projetos)
     1. [Teste 488](#Teste-488)
-4. [Os 8 Domínios de Desempenho do Projeto](#3-os-8-dominios-de-desempenho-do-projeto)
+3. [Os 8 Domínios de Desempenho do Projeto](#3-os-8-dominios-de-desempenho-do-projeto)
     1. [Teste 489](#Teste-489)
-5. [Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)](#4-ciclos-de-vida-metodos-ageis-abordagens-hibridas-e-adaptacao-tailoring)
-    1. [Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)](#41-comparativo-dos-ciclos-de-vida-preditivo-a-adaptativo)
-    2. [Abordagens Híbridas na Administração Pública](#42-abordagens-hibridas-na-administracao-publica)
-    3. [Teste 490](#Teste-490)
-    4. [Adaptação Contextual (Tailoring)](#43-adaptacao-contextual-tailoring)
-    5. [Teste 491](#Teste-491)
-6. [Análise de Valor Agregado (EVM / EVA)](#5-analise-de-valor-agregado-evm-eva)
-    1. [Variáveis Fundamentais (VP, CR e VA)](#51-variaveis-fundamentais-vp-cr-e-va)
-    2. [Teste 492](#Teste-492)
-    3. [Variações e Índices de Desempenho (IDP e IDC)](#52-variacoes-e-indices-de-desempenho-idp-e-idc)
-    4. [Teste 493](#Teste-493)
-7. [Gestão de Portfólio de TI e Governança de Programas](#6-gestao-de-portfolio-de-ti-e-governanca-de-programas)
+4. [Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)](#4-ciclos-de-vida-metodos-ageis-abordagens-hibridas-e-adaptacao-tailoring)
+4. [Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)](#4-1-comparativo-dos-ciclos-de-vida-preditivo-a-adaptativo)
+4. [Abordagens Híbridas na Administração Pública](#4-2-abordagens-hibridas-na-administracao-publica)
+    1. [Teste 490](#Teste-490)
+4. [Adaptação Contextual (Tailoring)](#4-3-adaptacao-contextual-tailoring)
+    1. [Teste 491](#Teste-491)
+5. [Análise de Valor Agregado (EVM / EVA)](#5-analise-de-valor-agregado-evm-eva)
+5. [Variáveis Fundamentais (VP, CR e VA)](#5-1-variaveis-fundamentais-vp-cr-e-va)
+    1. [Teste 492](#Teste-492)
+5. [Variações e Índices de Desempenho (IDP e IDC)](#5-2-variacoes-e-indices-de-desempenho-idp-e-idc)
+    1. [Teste 493](#Teste-493)
+6. [Gestão de Portfólio de TI e Governança de Programas](#6-gestao-de-portfolio-de-ti-e-governanca-de-programas)
     1. [Teste 494](#Teste-494)
-8. [Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
-
-
-## 📖 Teoria Aprofundada & Conceitos Essenciais
-
-
----
-
 
 ## 1. Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI
 
 Segundo a padronização do Project Management Institute (PMI), um **Projeto** é definido como um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo.
 
-### 1.1 Conceito de Projeto vs. Operação
+---
+
+## 1.1 Conceito de Projeto vs. Operação
 
 - **Temporário:** Possui marco temporal de início e término definidos. O fim é alcançado quando os objetivos foram integralmente atingidos, ou quando o projeto é cancelado por inviabilidade técnica, orçamentária ou perda de alinhamento estratégico.
 - **Exclusivo (Único):** O resultado final (sistema desenvolvido, data center modernizado) difere substancialmente de qualquer outro trabalho previamente executado.
@@ -99,10 +90,9 @@ Segundo a padronização do Project Management Institute (PMI), um **Projeto** �
 > 
 > **Gabarito: C**
 
-
 ---
 
-### 1.2 Hierarquia PMI: Projetos, Programas e Portfólios de TIC
+## 1.2 Hierarquia PMI: Projetos, Programas e Portfólios de TIC
 
 ```mermaid
 flowchart TD
@@ -155,9 +145,7 @@ flowchart TD
 
 ---
 
-
-
-### 1.3 O Sistema de Entrega de Valor (System for Value Delivery)
+## 1.3 O Sistema de Entrega de Valor (System for Value Delivery)
 
 A partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos).
 
@@ -193,11 +181,7 @@ A gestão de projetos passou a ser compreendida dentro de um **Sistema de Entreg
 > 
 > **Gabarito: B**
 
-
-
-
 ---
-
 
 ## 2. Os 12 Princípios de Entrega de Projetos
 
@@ -243,10 +227,7 @@ Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipe
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 3. Os 8 Domínios de Desempenho do Projeto
 
@@ -300,14 +281,13 @@ flowchart TD
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 4. Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)
 
-### 4.1 Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)
+---
+
+## 4.1 Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)
 
 ```mermaid
 flowchart LR
@@ -323,7 +303,9 @@ flowchart LR
 
 ---
 
-### 4.2 Abordagens Híbridas na Administração Pública
+---
+
+## 4.2 Abordagens Híbridas na Administração Pública
 
 A **Abordagem Híbrida** combina características do modelo preditivo e do modelo adaptativo. É o padrão predominante em projetos de TIC no setor público brasileiro:
 
@@ -368,9 +350,7 @@ flowchart TD
 
 ---
 
-
-
-### 4.3 Adaptação Contextual (Tailoring)
+## 4.3 Adaptação Contextual (Tailoring)
 
 O princípio do **Tailoring** dita que não existe uma metodologia universal. Cada projeto exige adaptações deliberadas nos processos de gestão:
 
@@ -402,18 +382,17 @@ O princípio do **Tailoring** dita que não existe uma metodologia universal. Ca
 > - **E)** Incorreta. Abordagens híbridas (muito comuns no setor público, unindo governança contratual formal da Lei 14.133/2021 à execução ágil interna) são expressamente incentivadas pelo *tailoring*.
 > 
 > **Gabarito: A**
-> 
-
-
+>
 
 ---
-
 
 ## 5. Análise de Valor Agregado (EVM / EVA)
 
 A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cronograma e custo para medir objetivamente o progresso de um projeto. É o cálculo mais cobrado pela FCC em provas de gestão de projetos.
 
-### 5.1 Variáveis Fundamentais (VP, CR e VA)
+---
+
+## 5.1 Variáveis Fundamentais (VP, CR e VA)
 
 1. **Valor Planejado (VP ou PV - *Planned Value*):** Orçamento aprovado alocado ao trabalho que deveria estar concluído até a data de medição.
 2. **Custo Real (CR ou AC - *Actual Cost*):** Custo efetivamente incorrido e desembolsado para realizar o trabalho entregue até a data de medição.
@@ -444,10 +423,9 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 > 
 > **Gabarito: C**
 
-
 ---
 
-### 5.2 Variações e Índices de Desempenho (IDP e IDC)
+## 5.2 Variações e Índices de Desempenho (IDP e IDC)
 
 #### Variações Absolutas
 - **Variação de Prazos ($VPr$ ou $SV$):**
@@ -520,10 +498,7 @@ Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e
 | **$IDP > 1$ e $IDC < 1$** | **Adiantado** ($VA > VP$) | **Acima do Orçamento** ($VA < CR$) | Projeto acelerado, mas estourando orçamento. |
 | **$IDP < 1$ e $IDC < 1$** | **Atrasado** ($VA < VP$) | **Acima do Orçamento** ($VA < CR$) | **Cenário Crítico:** Atrasado e gastando mais que o previsto. |
 
-
-
 ---
-
 
 ## 6. Gestão de Portfólio de TI e Governança de Programas
 
@@ -558,11 +533,7 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 > 
 > **Gabarito: A**
 
-
-
-
 ---
-
 
 ## 6. Fontes Recomendadas na Internet
 

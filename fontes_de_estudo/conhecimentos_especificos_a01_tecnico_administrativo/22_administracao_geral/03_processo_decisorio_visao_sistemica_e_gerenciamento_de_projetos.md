@@ -24,36 +24,29 @@
     - A restrição tripla do gerenciamento de projetos: Escopo, Tempo e Custo (balizados pelo padrão de Qualidade);
     - Ferramentas clássicas de acompanhamento e controle de projetos: Gráfico de Gantt, Método do Caminho Crítico (CPM - *Critical Path Method*) e técnica PERT (*Program Evaluation and Review Technique* com três estimativas de tempo).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
-    1. [O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)](#1-o-ciclo-do-processo-decisorio-e-a-tipologia-de-decisoes-herbert-simon)
-    2. [Teste 360](#Teste-360)
-    3. [Teste 361](#Teste-361)
-    4. [Condições Ambientais da Tomada de Decisão](#2-condicoes-ambientais-da-tomada-de-decisao)
-    5. [Teste 362](#Teste-362)
-    6. [Teste 363](#Teste-363)
-    7. [Visão Sistêmica, Pensamento Holístico e Silos Organizacionais](#3-visao-sistemica-pensamento-holistico-e-silos-organizacionais)
-    8. [Teste 364](#Teste-364)
-    9. [Teste 365](#Teste-365)
-    10. [Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT](#4-gerenciamento-de-projetos-restricao-tripla-gantt-cpm-e-pert)
-    11. [Teste 366](#Teste-366)
-    12. [Teste 367](#Teste-367)
-    13. [Teste 368](#Teste-368)
-    14. [Teste 369](#Teste-369)
-    15. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+1. [O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)](#1-o-ciclo-do-processo-decisorio-e-a-tipologia-de-decisoes-herbert-simon)
+    1. [Teste 360](#Teste-360)
+    2. [Teste 361](#Teste-361)
+2. [Condições Ambientais da Tomada de Decisão](#2-condicoes-ambientais-da-tomada-de-decisao)
+    1. [Teste 362](#Teste-362)
+    2. [Teste 363](#Teste-363)
+3. [Visão Sistêmica, Pensamento Holístico e Silos Organizacionais](#3-visao-sistemica-pensamento-holistico-e-silos-organizacionais)
+    1. [Teste 364](#Teste-364)
+    2. [Teste 365](#Teste-365)
+4. [Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT](#4-gerenciamento-de-projetos-restricao-tripla-gantt-cpm-e-pert)
+    1. [Teste 366](#Teste-366)
+    2. [Teste 367](#Teste-367)
+    3. [Teste 368](#Teste-368)
+    4. [Teste 369](#Teste-369)
+5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
-
-## 📖 Resumo Teórico Aprofundado & Esquematizado
-
-### 1. O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)
+## 1. O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)
 
 O processo decisório é a sequência lógica e deliberada de passos cognitivos por meio da qual um administrador ou colegiado identifica uma demanda e elege uma linha de ação específica dentre alternativas concorrentes:
 
@@ -123,8 +116,6 @@ Determinado setor administrativo de um Tribunal de Contas analisa diariamente de
 
 ---
 
-
-
 ### Teste 361
 **(FCC - Adaptada / Analista de Planejamento e Gestão)**
 Herbert Simon, em sua obra clássica *O Comportamento Administrativo* (prêmio Nobel de Economia de 1978), formulou a Teoria da **Racionalidade Limitada** (*Bounded Rationality*) na tomada de decisões.
@@ -151,8 +142,7 @@ Segundo a teoria da racionalidade limitada de Simon:
 
 ---
 
-
-### 2. Condições Ambientais da Tomada de Decisão
+## 2. Condições Ambientais da Tomada de Decisão
 
 O contexto em que a decisão é tomada varia segundo a qualidade e a completude das informações disponíveis:
 
@@ -201,8 +191,6 @@ A respeito da tomada de decisão em ambientes organizacionais e das condições 
 
 ---
 
-
-
 ### Teste 363
 **(FCC - Adaptada / Auditor de Controle Externo)**
 Na tomada de decisão sob diferentes condições ambientais, a situação em que o tomador de decisão conhece os possíveis desfechos alternativos e dispõe de dados históricos ou cálculos matemáticos que lhe permitem atribuir **probabilidades estatísticas objetivas** à ocorrência de cada resultado denomina-se:
@@ -228,8 +216,7 @@ Na tomada de decisão sob diferentes condições ambientais, a situação em que
 
 ---
 
-
-### 3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais
+## 3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais
 
 A abordagem sistêmica concebe a instituição pública como um **sistema aberto** composto por partes dinamicamente interconectadas e em constante intercâmbio com a sociedade:
 
@@ -272,8 +259,6 @@ O modelo de administração contemporâneo valoriza o pensamento holístico e a 
 
 ---
 
-
-
 ### Teste 365
 **(FCC - Adaptada / Analista de Tecnologia e Controle)**
 No Gerenciamento de Projetos e no controle do cronograma de atividades interdependentes, o método do **Caminho Crítico** (*Critical Path Method - CPM*) define-se como:
@@ -299,8 +284,7 @@ No Gerenciamento de Projetos e no controle do cronograma de atividades interdepe
 
 ---
 
-
-### 4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT
+## 4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT
 
 Segundo o Project Management Institute (PMI/PMBOK), um **projeto** é um empreendimento temporário (possui início e fim previamente definidos) desenvolvido para criar um produto, serviço ou resultado único e exclusivo. Diferencia-se dos **processos**, que são operações contínuas, rotineiras e padronizadas.
 
@@ -398,8 +382,6 @@ No âmbito da gestão estratégica de projetos governamentais, uma equipe necess
 
 ---
 
-
-
 ### Teste 368
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na teoria das organizações e no pensamento sistêmico, o fenômeno patológico no qual departamentos e setores operam de forma isolada, defendendo interesses corporativos paroquiais e fechando canais de comunicação com as demais unidades da instituição é denominado:
@@ -442,15 +424,15 @@ As três estimativas temporais consideradas pelo modelo PERT são:
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O modelo probabilístico do **PERT** calcula a duração esperada (*Expected Time - TE*) pela fórmula ponderada: \(TE = rac{a + 4m + b}{6}\), onde: **a** = tempo otimista (tudo dá certo); **m** = tempo mais provável (condições normais de operação); **b** = tempo pessimista (cenário em que ocorrem adversidades e problemas).
+> - **A)** Correta. O modelo probabilístico do **PERT** calcula a duração esperada (*Expected Time - TE*) pela fórmula ponderada: \(TE = 
+rac{a + 4m + b}{6}\), onde: **a** = tempo otimista (tudo dá certo); **m** = tempo mais provável (condições normais de operação); **b** = tempo pessimista (cenário em que ocorrem adversidades e problemas).
 > - **B), C), D), E)** Incorretas. Distorções sem respaldo técnico na metodologia PERT.
 > 
 > **Gabarito: A**
 
 ---
 
-
-### 5. Fontes Oficiais e Referências Bibliográficas
+## 5. Fontes Oficiais e Referências Bibliográficas
 
 * [Scrum Guide 2020 Oficial (Português-BR)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Guia definitivo sobre tomada de decisão ágil, sprints e retrospectivas.
 * [Kanban Guide Oficial (English)](https://kanbanguides.org/english/) - Princípios de fluxo contínuo, limitação de trabalho em progresso (WIP) e feedback sistêmico.

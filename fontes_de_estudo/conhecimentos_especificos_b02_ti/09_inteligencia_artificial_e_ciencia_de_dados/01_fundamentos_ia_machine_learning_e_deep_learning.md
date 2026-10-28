@@ -23,45 +23,41 @@
     - **Treinamento e Otimização:** Funções de Perda (MSE, Entropia Cruzada Binária e Categórica), Retropropagação (*Backpropagation* via Regra da Cadeia), Gradiente Descendente e Otimizadores (SGD, Momentum, RMSprop e Adam), Regularização (Dropout, Batch Normalization e Early Stopping).
     - **Arquiteturas Especializadas:** Redes Convolucionais (CNNs: filtros convolucionais, compartilhamento de pesos, pooling e invariância translacional para visão computacional); Redes Recorrentes (RNNs, LSTM com portas de esquecimento/entrada/saída e GRU); e Arquitetura Transformer (mecanismo de autoatenção pura).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Fundamentos e Paradigmas da Inteligência Artificial](#1-fundamentos-e-paradigmas-da-inteligencia-artificial)
     1. [Dimensões de Russell & Norvig e o Conceito de Agente Racional](#11-dimensoes-de-russell-norvig-e-o-conceito-de-agente-racional)
-    2. [Teste 300](#Teste-300)
-    3. [Níveis de IA: Narrow AI vs. AGI vs. Superinteligência](#12-niveis-de-ia-narrow-ai-vs-agi-vs-superinteligencia)
-    4. [Paradigma Simbólico vs. Paradigma Conexionista](#13-paradigma-simbolico-vs-paradigma-conexionista)
+    2. [Níveis de IA: Narrow AI vs. AGI vs. Superinteligência](#12-niveis-de-ia-narrow-ai-vs-agi-vs-superinteligencia)
+    3. [Paradigma Simbólico vs. Paradigma Conexionista](#13-paradigma-simbolico-vs-paradigma-conexionista)
+    4. [Teste 300](#Teste-300)
     5. [Teste 301](#Teste-301)
 2. [Aprendizado de Máquina Supervisionado](#2-aprendizado-de-maquina-supervisionado)
     1. [Modelos e Algoritmos de Classificação](#21-modelos-e-algoritmos-de-classificacao)
-    2. [Teste 302](#Teste-302)
-    3. [Comitês de Modelos (Ensemble): Bagging vs. Boosting](#22-comites-de-modelos-ensemble-bagging-vs-boosting)
-    4. [Teste 303](#Teste-303)
-    5. [Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)](#23-modelos-de-regressao-e-tecnicas-de-regularizacao-ridge-lasso-e-elastic-net)
+    2. [Comitês de Modelos (Ensemble): Bagging vs. Boosting](#22-comites-de-modelos-ensemble-bagging-vs-boosting)
+    3. [Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)](#23-modelos-de-regressao-e-tecnicas-de-regularizacao-ridge-lasso-e-elastic-net)
+    4. [Teste 302](#Teste-302)
+    5. [Teste 303](#Teste-303)
     6. [Teste 304](#Teste-304)
 3. [Aprendizado Não Supervisionado e por Reforço](#3-aprendizado-nao-supervisionado-e-por-reforco)
     1. [Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)](#31-algoritmos-de-agrupamento-clustering-k-means-dbscan-e-hierarquico)
-    2. [Teste 305](#Teste-305)
-    3. [Redução de Dimensionalidade (PCA, t-SNE e UMAP)](#32-reducao-de-dimensionalidade-pca-t-sne-e-umap)
-    4. [Teste 306](#Teste-306)
-    5. [Aprendizado por Reforço (Reinforcement Learning)](#33-aprendizado-por-reforco-reinforcement-learning)
+    2. [Redução de Dimensionalidade (PCA, t-SNE e UMAP)](#32-reducao-de-dimensionalidade-pca-t-sne-e-umap)
+    3. [Aprendizado por Reforço (Reinforcement Learning)](#33-aprendizado-por-reforco-reinforcement-learning)
+    4. [Teste 305](#Teste-305)
+    5. [Teste 306](#Teste-306)
     6. [Teste 307](#Teste-307)
 4. [Redes Neurais Artificiais e Deep Learning](#4-redes-neurais-artificiais-e-deep-learning)
     1. [Perceptron, Limitações Lineares e Redes Multicamadas (MLP)](#41-perceptron-limitacoes-lineares-e-redes-multicamadas-mlp)
     2. [Funções de Ativação Não Lineares e suas Patologias](#42-funcoes-de-ativacao-nao-lineares-e-suas-patologias)
-    3. [Teste 308](#Teste-308)
-    4. [Treinamento: Backpropagation, Gradiente Descendente e Otimizadores](#43-treinamento-backpropagation-gradiente-descendente-e-otimizadores)
-    5. [Teste 309](#Teste-309)
-    6. [Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers](#44-arquiteturas-profundas-cnns-rnnslstm-e-transformers)
+    3. [Treinamento: Backpropagation, Gradiente Descendente e Otimizadores](#43-treinamento-backpropagation-gradiente-descendente-e-otimizadores)
+    4. [Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers](#44-arquiteturas-profundas-cnns-rnnslstm-e-transformers)
+    5. [Teste 308](#Teste-308)
+    6. [Teste 309](#Teste-309)
     7. [Teste 310](#Teste-310)
-5. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+5. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Fundamentos e Paradigmas da Inteligência Artificial
 
@@ -95,33 +91,6 @@ A taxonomia formal estabelecida por Stuart Russell e Peter Norvig estrutura as a
 > ⚠️ **Alerta de Prova (FCC):**
 > A banca FCC costuma cobrar com frequência a definição canônica de **Agente Racional**. Fixe bem: a racionalidade não significa perfeição, onisciência ou clarividência humana. A racionalidade computacional busca maximizar o resultado esperado em face do conhecimento histórico acumulado pelo agente e das percepções recebidas pelos seus sensores no momento da decisão.
 
-### Teste 300
-**(FGV - TRT / Analista Judiciário - TI - Agentes Racionais de Russell & Norvig)**
-Na obra clássica de Stuart Russell e Peter Norvig (*Artificial Intelligence: A Modern Approach*), a definição canônica de Inteligência Artificial gravita em torno do conceito de **Agente Racional**.
-
-A respeito do conceito formal de racionalidade e da definição de agente racional nessa taxonomia, assinale a afirmativa correta:
-
-* **A)** Um agente racional é aquele que sempre atinge o resultado perfeito com 100% de onisciência, prevendo todos os eventos futuros com absoluta certeza.
-* **B)** A racionalidade depende do sucesso factual retrospectivo; logo, se um agente toma uma decisão logicamente ótima com base nas informações que possuía, mas um evento imprevisível causa um desfecho desfavorável, o agente é classificado como irracional.
-* **C)** Um agente racional é aquele que adota a ação esperada para maximizar sua medida de desempenho, considerando a sequência de percepções acumuladas até o momento e o conhecimento prévio embutido sobre o ambiente.
-* **D)** Agentes reflexos simples sem estado interno superam agentes baseados em metas em qualquer ambiente estocástico e parcialmente observável.
-* **E)** A racionalidade na IA é medida exclusivamente pela capacidade de um sistema em reproduzir emoções humanas em testes de conversação aberta.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Racionalidade **não é onisciência**. Onisciência significa saber o resultado real com antecedência absoluta. A racionalidade maximiza o desempenho *esperado*, não o desempenho factual garantido em face do imprevisível.
-> - **B)** Incorreta. A racionalidade avalia o processo decisório à luz do que era perceptível no momento da decisão, e não pelo resultado final afetado por fatores aleatórios externos.
-> - **C)** **CORRETA.** Segundo Russell & Norvig, um agente é qualquer entidade que percebe seu ambiente por meio de sensores e atua sobre ele por meio de atuadores. Um **agente racional** é aquele que, para cada sequência de percepções possível, seleciona uma ação que maximiza o valor esperado de sua **medida de desempenho**, dadas as evidências fornecidas pela sequência de percepções e o conhecimento que o agente possui a priori.
-> - **D)** Incorreta. Agentes reflexos simples falham redondamente em ambientes parcialmente observáveis por operarem sob regras estritas condição-ação sem reter histórico do estado do mundo.
-> - **E)** Incorreta. A abordagem moderna de IA foca na racionalidade dos atos e metas (*agir racionalmente*), e não na imitação superficial de processos psicológicos ou emocionais humanos.
-> 
-> **Gabarito: C**
-
----
-
 ### 1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência
 
 * **IA Estreita / Fraca (*Narrow AI* ou *Weak AI*):**
@@ -146,6 +115,33 @@ A trajetória histórica da IA subdivide-se em duas correntes metodológicas cen
     - O conhecimento não reside em regras textuais explícitas, mas sim distribuído nos pesos numéricos aprendidos por otimização estatística direta sobre grandes massas de dados.
     - *Vantagem:* Robustez incomparável a ruídos estatísticos e capacidade superior de extrair padrões latentes de alta dimensionalidade (processamento de linguagem natural e visão computacional).
     - *Desvantagem:* Natureza de "caixa-preta" (*black box*), opacidade decisória e altíssimo custo de processamento computacional em GPUs/TPUs.
+
+---
+
+### Teste 300
+**(FGV - TRT / Analista Judiciário - TI - Agentes Racionais de Russell & Norvig)**
+Na obra clássica de Stuart Russell e Peter Norvig (*Artificial Intelligence: A Modern Approach*), a definição canônica de Inteligência Artificial gravita em torno do conceito de **Agente Racional**.
+
+A respeito do conceito formal de racionalidade e da definição de agente racional nessa taxonomia, assinale a afirmativa correta:
+
+* **A)** Um agente racional é aquele que sempre atinge o resultado perfeito com 100% de onisciência, prevendo todos os eventos futuros com absoluta certeza.
+* **B)** A racionalidade depende do sucesso factual retrospectivo; logo, se um agente toma uma decisão logicamente ótima com base nas informações que possuía, mas um evento imprevisível causa um desfecho desfavorável, o agente é classificado como irracional.
+* **C)** Um agente racional é aquele que adota a ação esperada para maximizar sua medida de desempenho, considerando a sequência de percepções acumuladas até o momento e o conhecimento prévio embutido sobre o ambiente.
+* **D)** Agentes reflexos simples sem estado interno superam agentes baseados em metas em qualquer ambiente estocástico e parcialmente observável.
+* **E)** A racionalidade na IA é medida exclusivamente pela capacidade de um sistema em reproduzir emoções humanas em testes de conversação aberta.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Racionalidade **não é onisciência**. Onisciência significa saber o resultado real com antecedência absoluta. A racionalidade maximiza o desempenho *esperado*, não o desempenho factual garantido em face do imprevisível.
+> - **B)** Incorreta. A racionalidade avalia o processo decisório à luz do que era perceptível no momento da decisão, e não pelo resultado final afetado por fatores aleatórios externos.
+> - **C)** **CORRETA.** Segundo Russell & Norvig, um agente é qualquer entidade que percebe seu ambiente por meio de sensores e atua sobre ele por meio de atuadores. Um **agente racional** é aquele que, para cada sequência de percepções possível, seleciona uma ação que maximiza o valor esperado de sua **medida de desempenho**, dadas as evidências fornecidas pela sequência de percepções e o conhecimento que o agente possui a priori.
+> - **D)** Incorreta. Agentes reflexos simples falham redondamente em ambientes parcialmente observáveis por operarem sob regras estritas condição-ação sem reter histórico do estado do mundo.
+> - **E)** Incorreta. A abordagem moderna de IA foca na racionalidade dos atos e metas (*agir racionalmente*), e não na imitação superficial de processos psicológicos ou emocionais humanos.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -176,10 +172,7 @@ A respeito das distinções técnicas fundamentais entre esses dois paradigmas, 
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 2. Aprendizado de Máquina Supervisionado
 
@@ -221,37 +214,6 @@ Quando a variável dependente $y$ é de natureza discreta/categórica (ex.: `0` 
     - Algoritmo não-paramétrico **baseado em instâncias** (*instance-based*) e classificado como **aprendizado preguiçoso (*lazy learning*)**, pois não possui uma fase de treinamento explícita que gere coeficientes ou modelos matemáticos: ele simplesmente memoriza todos os dados de treino na memória.
     - Durante a inferência, calcula a distância (Euclidiana, Manhattan ou Minkowski) entre a nova amostra e todos os pontos históricos da base, atribuindo a classe majoritária entre os $k$ vizinhos mais próximos. Sofre severamente com a **maldição da dimensionalidade** (*curse of dimensionality*).
 
-### Teste 302
-**(FGV - TRT / Analista Judiciário - TI - Algoritmo Naive Bayes e Independência Condicional)**
-O classificador Naive Bayes é um algoritmo de aprendizado de máquina supervisionado amplamente empregado na triagem automatizada de petições judiciais e detecção de fraudes em licitações públicas.
-
-O termo "Naive" (ingênuo) atribuído a esse classificador probabilístico decorre diretamente da seguinte premissa matemática:
-
-* **A)** Supor que todos os atributos de entrada possuem distribuição uniforme contínua com média zero.
-* **B)** Assumir a hipótese simplificadora de que todos os atributos preditores são condicionalmente independentes entre si, dada a classe do objeto.
-* **C)** Exigir que a variável alvo (*target*) seja obrigatoriamente um vetor contínuo de números irracionais.
-* **D)** Ignorar completamente a probabilidade a priori das classes durante o cálculo da probabilidade a posteriori.
-* **E)** Utilizar exclusivamente árvores de decisão binárias com profundidade máxima igual a 1.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Naive Bayes admite distribuições Gaussianas, Multinomial ou Bernoulli, não exigindo distribuição uniforme.
-> - **B)** **CORRETA.** O algoritmo baseia-se no **Teorema de Bayes**:
->   $$P(C_k | X) = \frac{P(C_k) \cdot P(X | C_k)}{P(X)}$$
->   Para calcular $P(X | C_k)$ sobre um vetor de características $X = (x_1, x_2, \dots, x_n)$, a computação exata das correlações conjuntas seria intratável. A simplificação "ingênua" (*Naive*) consiste em postular a **independência condicional entre todos os pares de atributos, dada a classe**:
->   $$P(x_1, x_2, \dots, x_n | C_k) = \prod_{i=1}^n P(x_i | C_k)$$
->   Embora essa suposição raramente se sustente no mundo real (ex.: em textos, certas palavras coocorrem fortemente), o algoritmo apresenta excelente poder discriminativo, baixo custo computacional e grande robustez com conjuntos de dados moderados.
-> - **C)** Incorreta. O alvo em classificação é categórico/discreto.
-> - **D)** Incorreta. A probabilidade a priori da classe $P(C_k)$ é elemento central da equação de Bayes.
-> - **E)** Incorreta. Naive Bayes é um modelo probabilístico puro, não baseado em árvores.
-> 
-> **Gabarito: B**
-
----
-
 ### 2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting
 
 A combinação coordenada de múltiplos estimadores fracos (*weak learners*) permite construir comitês com capacidade preditiva muito superior à de qualquer modelo individual isolado:
@@ -282,35 +244,6 @@ A combinação coordenada de múltiplos estimadores fracos (*weak learners*) per
 >
 > 1. No **Random Forest (Bagging)**, as árvores são geradas em **paralelo**. Além do bootstrap nas linhas, o algoritmo sorteia aleatoriamente um subconjunto de variáveis (*feature subsampling*, comumente $\sqrt{p}$) na divisão de cada nó. Isso descorrelaciona as árvores e derruba a **variância**.
 > 2. No **Boosting**, as árvores são geradas em **série sequencial**, onde cada árvore aprende a prever os **resíduos/erros** gerados pelo somatório das anteriores, reduzindo drasticamente o **viés**.
-
----
-
-### Teste 303
-**(FCC - SEFAZ-PE - Auditoria de Tecnologia da Informação)**
-Uma equipe de auditores de dados está implementando modelos de aprendizado de máquina para classificar notas fiscais e declarações fiscais de contribuintes estaduais em duas classes: "Conforme" ou "Potencialmente Fraudulenta". Durante o desenvolvimento, debateu-se a utilização de algoritmos baseados em Comitês de Modelos (*Ensemble Learning*), especificamente comparando o *Random Forest* (baseado em *Bagging*) com o *XGBoost* e *LightGBM* (baseados em *Boosting*).
-Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
-
-* **A)** O *Random Forest* treina seus estimadores base de maneira estritamente sequencial, focando cada árvore sucessiva na redução do viés do modelo anterior.
-* **B)** O método de *Bagging* treina múltiplos estimadores em paralelo a partir de amostras geradas com reposição (*bootstrap*), tendo como foco matemático primordial a redução da variância do ensemble final sem aumentar substancialmente o seu viés.
-* **C)** Os algoritmos de *Boosting* constroem árvores de decisão profundas e complexas de maneira totalmente independente, utilizando a votação por maioria simples para reduzir a variância.
-* **D)** No *Random Forest*, o processo de amostragem aleatória restringe-se exclusivamente às linhas do dataset, sendo vedada a seleção aleatória de subconjuntos de atributos (*features*) na divisão dos nós.
-* **E)** O *AdaBoost* mantém pesos uniformes e imutáveis para todas as instâncias de treino ao longo de todas as iterações, independentemente de os estimadores anteriores terem classificado o registro corretamente ou não.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Quem treina árvores em sequência focando na redução de viés é o **Boosting** (como o AdaBoost ou Gradient Boosting). O *Random Forest* utiliza **Bagging** com treinamento paralelo e independente.
-> - **B)** **Correta.** O **Bagging (*Bootstrap Aggregating*)** gera réplicas de conjuntos de dados via amostragem com reposição (*bootstrap*), ajustando estimadores base em **paralelo**. A agregação das predições de múltiplos modelos descorrelacionados reduz drasticamente a **variância** global do comitê, combatendo o sobreajuste (*overfitting*).
-> - **C)** Incorreta. O *Boosting* opera em **série sequencial** e utiliza estimadores fracos intencionalmente simples (*weak learners / stumps*), atuando precipuamente na redução do **viés**.
-> - **D)** Incorreta. O diferencial determinante do *Random Forest* é a amostragem aleatória de atributos (*feature subsampling*): ao avaliar cada divisão de nó, sorteia-se um subconjunto aleatório de features (tipicamente $\sqrt{p}$), descorrelacionando as árvores.
-> - **E)** Incorreta. O núcleo do *AdaBoost* reside no reponderamento adaptativo: instâncias classificadas com erro na iteração atual recebem **pesos significativamente maiores** no ciclo seguinte.
-> 
-> **Gabarito: B**
-
----
-
 
 ### 2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)
 
@@ -352,6 +285,63 @@ Para estabilizar o modelo, adiciona-se uma penalidade matemática $\lambda \cdot
 
 ---
 
+### Teste 302
+**(FGV - TRT / Analista Judiciário - TI - Algoritmo Naive Bayes e Independência Condicional)**
+O classificador Naive Bayes é um algoritmo de aprendizado de máquina supervisionado amplamente empregado na triagem automatizada de petições judiciais e detecção de fraudes em licitações públicas.
+
+O termo "Naive" (ingênuo) atribuído a esse classificador probabilístico decorre diretamente da seguinte premissa matemática:
+
+* **A)** Supor que todos os atributos de entrada possuem distribuição uniforme contínua com média zero.
+* **B)** Assumir a hipótese simplificadora de que todos os atributos preditores são condicionalmente independentes entre si, dada a classe do objeto.
+* **C)** Exigir que a variável alvo (*target*) seja obrigatoriamente um vetor contínuo de números irracionais.
+* **D)** Ignorar completamente a probabilidade a priori das classes durante o cálculo da probabilidade a posteriori.
+* **E)** Utilizar exclusivamente árvores de decisão binárias com profundidade máxima igual a 1.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Naive Bayes admite distribuições Gaussianas, Multinomial ou Bernoulli, não exigindo distribuição uniforme.
+> - **B)** **CORRETA.** O algoritmo baseia-se no **Teorema de Bayes**:
+>   $$P(C_k | X) = \frac{P(C_k) \cdot P(X | C_k)}{P(X)}$$
+>   Para calcular $P(X | C_k)$ sobre um vetor de características $X = (x_1, x_2, \dots, x_n)$, a computação exata das correlações conjuntas seria intratável. A simplificação "ingênua" (*Naive*) consiste em postular a **independência condicional entre todos os pares de atributos, dada a classe**:
+>   $$P(x_1, x_2, \dots, x_n | C_k) = \prod_{i=1}^n P(x_i | C_k)$$
+>   Embora essa suposição raramente se sustente no mundo real (ex.: em textos, certas palavras coocorrem fortemente), o algoritmo apresenta excelente poder discriminativo, baixo custo computacional e grande robustez com conjuntos de dados moderados.
+> - **C)** Incorreta. O alvo em classificação é categórico/discreto.
+> - **D)** Incorreta. A probabilidade a priori da classe $P(C_k)$ é elemento central da equação de Bayes.
+> - **E)** Incorreta. Naive Bayes é um modelo probabilístico puro, não baseado em árvores.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 303
+**(FCC - SEFAZ-PE - Auditoria de Tecnologia da Informação)**
+Uma equipe de auditores de dados está implementando modelos de aprendizado de máquina para classificar notas fiscais e declarações fiscais de contribuintes estaduais em duas classes: "Conforme" ou "Potencialmente Fraudulenta". Durante o desenvolvimento, debateu-se a utilização de algoritmos baseados em Comitês de Modelos (*Ensemble Learning*), especificamente comparando o *Random Forest* (baseado em *Bagging*) com o *XGBoost* e *LightGBM* (baseados em *Boosting*).
+Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
+
+* **A)** O *Random Forest* treina seus estimadores base de maneira estritamente sequencial, focando cada árvore sucessiva na redução do viés do modelo anterior.
+* **B)** O método de *Bagging* treina múltiplos estimadores em paralelo a partir de amostras geradas com reposição (*bootstrap*), tendo como foco matemático primordial a redução da variância do ensemble final sem aumentar substancialmente o seu viés.
+* **C)** Os algoritmos de *Boosting* constroem árvores de decisão profundas e complexas de maneira totalmente independente, utilizando a votação por maioria simples para reduzir a variância.
+* **D)** No *Random Forest*, o processo de amostragem aleatória restringe-se exclusivamente às linhas do dataset, sendo vedada a seleção aleatória de subconjuntos de atributos (*features*) na divisão dos nós.
+* **E)** O *AdaBoost* mantém pesos uniformes e imutáveis para todas as instâncias de treino ao longo de todas as iterações, independentemente de os estimadores anteriores terem classificado o registro corretamente ou não.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Quem treina árvores em sequência focando na redução de viés é o **Boosting** (como o AdaBoost ou Gradient Boosting). O *Random Forest* utiliza **Bagging** com treinamento paralelo e independente.
+> - **B)** **Correta.** O **Bagging (*Bootstrap Aggregating*)** gera réplicas de conjuntos de dados via amostragem com reposição (*bootstrap*), ajustando estimadores base em **paralelo**. A agregação das predições de múltiplos modelos descorrelacionados reduz drasticamente a **variância** global do comitê, combatendo o sobreajuste (*overfitting*).
+> - **C)** Incorreta. O *Boosting* opera em **série sequencial** e utiliza estimadores fracos intencionalmente simples (*weak learners / stumps*), atuando precipuamente na redução do **viés**.
+> - **D)** Incorreta. O diferencial determinante do *Random Forest* é a amostragem aleatória de atributos (*feature subsampling*): ao avaliar cada divisão de nó, sorteia-se um subconjunto aleatório de features (tipicamente $\sqrt{p}$), descorrelacionando as árvores.
+> - **E)** Incorreta. O núcleo do *AdaBoost* reside no reponderamento adaptativo: instâncias classificadas com erro na iteração atual recebem **pesos significativamente maiores** no ciclo seguinte.
+> 
+> **Gabarito: B**
+
+---
+
 ### Teste 304
 **(FCC - SEFAZ-PE - Auditor Fiscal do Tesouro Estadual)**
 Um cientista de dados está desenvolvendo um modelo preditivo de regressão para projetar a arrecadação tributária estadual a partir de duzentas variáveis macroeconômicas. Sabendo que muitas dessas variáveis apresentam alta correlação entre si e que diversas delas não contribuem relevantemente para o poder explicativo do modelo, o analista deseja aplicar uma técnica de regularização que execute **seleção automática de atributos**, forçando expressamente a zero os coeficientes das variáveis irrelevantes para gerar um modelo final esparso e parcimonioso.
@@ -376,10 +366,7 @@ A técnica de modelagem que atende estritamente ao requisito de zerar coeficient
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 3. Aprendizado Não Supervisionado e por Reforço
 
@@ -406,6 +393,27 @@ O agrupamento descobre partições ou morfologias naturais em dados não rotulad
     - Gera uma representação em árvore taxonômica denominada **Dendrograma**.
     - Abordagem **Aglomerativa (*Bottom-up*)**: Cada ponto inicia como seu próprio cluster e pares mais próximos são progressivamente fundidos.
     - Métodos de Ligação (*Linkage*): *Single* (distância mínima entre membros, suscetível ao efeito de encadeamento /*chaining*), *Complete* (distância máxima), *Average* (distância média) e *Ward* (minimiza o incremento da variância total interna).
+
+### 3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)
+
+Reduz a quantidade de preditores de um dataset volumoso preservando a maior quantidade possível de variância estatística ou vizinhança:
+
+- **PCA (*Principal Component Analysis*):**
+    - Técnica estatística **linear e não supervisionada** que transforma as variáveis originais em um novo conjunto de variáveis não correlacionadas denominadas **Componentes Principais (PCs)**.
+    - O primeiro componente principal captura a direção de **máxima variância** dos dados; o segundo componente captura a segunda maior variância sob a restrição de ser rigorosamente **ortogonal** ao primeiro, e assim por diante.
+    - Obtido computacionalmente através da **decomposição espectral (autovalores e autovetores)** da matriz de covariância dos dados padronizados ou por decomposição em valores singulares (SVD).
+- **t-SNE e UMAP:**
+    - Métodos **não lineares** dedicados prioritariamente à projeção de espaços de centenas de dimensões em espaços de 2D ou 3D para inspeção visual humana, preservando topologias de vizinhança local.
+
+### 3.3 Aprendizado por Reforço (Reinforcement Learning)
+
+Um **Agente** aprende a tomar decisões sequenciais ideais através de tentativa e erro, interagindo iterativamente com um **Ambiente** dinâmico:
+
+- Formalizado matematicamente por um **Processo de Decisão de Markov (MDP)**, representado pela 5-tupla $(S, A, P, R, \gamma)$.
+- A cada instante $t$, o agente observa o estado $S_t$, executa uma ação $A_t$ orientada por sua política $\pi(a|s)$, recebe uma recompensa escalar imediata $R_{t+1}$ e transiciona para o novo estado $S_{t+1}$.
+- O objetivo é aprender uma política ótima que maximize o retorno cumulativo descontado no longo prazo ($G_t = \sum_{k=0}^{\infty} \gamma^k R_{t+k+1}$), governado pela **Equação de Bellman**.
+- **Dilema Exploração vs. Explotação (*Exploration vs. Exploitation*):** O agente deve arbitrar entre descobrir ações inéditas (*exploration*) para colher melhores recompensas futuras e executar as ações que já provaram ser eficazes (*exploitation*).
+- **Q-Learning:** Algoritmo clássico de aprendizado por diferença temporal, classificado como *model-free* e *off-policy*, que atualiza recursivamente os valores $Q(s, a)$ da função de valor ação-estado.
 
 ---
 
@@ -435,18 +443,6 @@ Nesse contexto, o algoritmo mais apropriado para a tarefa e sua fundamentação 
 
 ---
 
-
-### 3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)
-
-Reduz a quantidade de preditores de um dataset volumoso preservando a maior quantidade possível de variância estatística ou vizinhança:
-
-- **PCA (*Principal Component Analysis*):**
-    - Técnica estatística **linear e não supervisionada** que transforma as variáveis originais em um novo conjunto de variáveis não correlacionadas denominadas **Componentes Principais (PCs)**.
-    - O primeiro componente principal captura a direção de **máxima variância** dos dados; o segundo componente captura a segunda maior variância sob a restrição de ser rigorosamente **ortogonal** ao primeiro, e assim por diante.
-    - Obtido computacionalmente através da **decomposição espectral (autovalores e autovetores)** da matriz de covariância dos dados padronizados ou por decomposição em valores singulares (SVD).
-- **t-SNE e UMAP:**
-    - Métodos **não lineares** dedicados prioritariamente à projeção de espaços de centenas de dimensões em espaços de 2D ou 3D para inspeção visual humana, preservando topologias de vizinhança local.
-
 ### Teste 306
 **(FGV - TRT / Analista Judiciário - TI - Redução de Dimensionalidade com PCA)**
 A Análise de Componentes Principais (*Principal Component Analysis - PCA*) é uma técnica estatística e de aprendizado não supervisionado fundamental para mitigar a "maldição da dimensionalidade" em grandes bases de dados de auditoria governamental.
@@ -475,18 +471,6 @@ A respeito dos fundamentos matemáticos e operacionais do PCA, assinale a afirma
 > - **E)** Incorreta. Uma das maiores virtudes do PCA é que as componentes principais resultantes são perfeitamente **descorrelacionadas** entre si (ortogonais).
 > 
 > **Gabarito: B**
-
----
-
-### 3.3 Aprendizado por Reforço (Reinforcement Learning)
-
-Um **Agente** aprende a tomar decisões sequenciais ideais através de tentativa e erro, interagindo iterativamente com um **Ambiente** dinâmico:
-
-- Formalizado matematicamente por um **Processo de Decisão de Markov (MDP)**, representado pela 5-tupla $(S, A, P, R, \gamma)$.
-- A cada instante $t$, o agente observa o estado $S_t$, executa uma ação $A_t$ orientada por sua política $\pi(a|s)$, recebe uma recompensa escalar imediata $R_{t+1}$ e transiciona para o novo estado $S_{t+1}$.
-- O objetivo é aprender uma política ótima que maximize o retorno cumulativo descontado no longo prazo ($G_t = \sum_{k=0}^{\infty} \gamma^k R_{t+k+1}$), governado pela **Equação de Bellman**.
-- **Dilema Exploração vs. Explotação (*Exploration vs. Exploitation*):** O agente deve arbitrar entre descobrir ações inéditas (*exploration*) para colher melhores recompensas futuras e executar as ações que já provaram ser eficazes (*exploitation*).
-- **Q-Learning:** Algoritmo clássico de aprendizado por diferença temporal, classificado como *model-free* e *off-policy*, que atualiza recursivamente os valores $Q(s, a)$ da função de valor ação-estado.
 
 ---
 
@@ -520,10 +504,7 @@ A respeito dos elementos conceituais do RL e do consagrado algoritmo **Q-Learnin
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Redes Neurais Artificiais e Deep Learning
 
@@ -548,6 +529,43 @@ As funções de ativação inserem a não linearidade necessária para que o emp
 | **Tangente Hiperbólica (tanh)** | $\tanh(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}}$ | $(-1, 1)$ | Saída **centrada em zero**, o que acelera a convergência dos gradientes em comparação à sigmoide. | Também satura nas caudas e sofre de desvanecimento de gradientes em redes profundas. |
 | **ReLU (*Rectified Linear Unit*)** | $f(z) = \max(0, z)$ | $[0, +\infty)$ | **Padrão da indústria para camadas ocultas**. Não satura para valores positivos ($z > 0$, onde a derivada é $1$), permitindo treinar redes profundas rapidamente sem vanishing gradient. | **Problema do Neurônio Morto (*Dying ReLU*)**: se uma entrada $z \le 0$, tanto a saída quanto a derivada tornam-se zero. Um neurônio empurrado para essa região inerte pode nunca mais atualizar seus pesos. |
 | **Softmax** | $\sigma(\mathbf{z})_i = \frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}}$ | $(0, 1)$, $\sum \sigma_i = 1$ | Converte o vetor de valores reais brutos (*logits*) em uma **distribuição de probabilidades normalizada**. | **Exclusiva da camada de saída** em problemas de classificação multiclasse mutualmente exclusivos. **Nunca deve ser usada em camadas ocultas intermediárias**. |
+
+### 4.3 Treinamento: Backpropagation, Gradiente Descendente e Otimizadores
+
+O ciclo de aprendizado de redes profundas articula quatro etapas fundamentais:
+
+1. **Propagação Direta (*Forward Pass*):** Os dados avançam pelas camadas da rede até produzir uma saída predita $\hat{y}$, que é comparada ao rótulo real $y$ através de uma **Função de Perda** ($\mathcal{L}$).
+    - Regressão: $\text{MSE} = \frac{1}{n} \sum (y - \hat{y})^2$.
+    - Classificação Binária: Entropia Cruzada Binária ($\text{Log-Loss}$).
+    - Classificação Multiclasse: Entropia Cruzada Categórica ($-\sum y_i \log \hat{y}_i$).
+
+2. **Retropropagação (*Backpropagation*):** Algoritmo que calcula analiticamente o vetor de derivadas parciais da perda em relação a cada peso de cada camada ($\frac{\partial \mathcal{L}}{\partial w}$), partindo da camada final em direção à camada inicial através da aplicação estrita da **Regra da Cadeia (*Chain Rule*)** do cálculo multivariável.
+3. **Otimizadores de Atualização de Pesos:**
+    - *Gradiente Descendente Estocástico (SGD):* Atualiza pesos por amostra ou minilote (*mini-batch*): $w \leftarrow w - \eta \nabla \mathcal{L}$.
+    - *Momentum:* Adiciona uma fração inercial da velocidade anterior, amortecendo oscilações e acelerando o escape de platôs e mínimos locais rasos.
+    - *RMSprop:* Ajusta a taxa de aprendizado dinamicamente com base na raiz da média móvel quadrática dos gradientes recentes.
+    - *Adam (*Adaptive Moment Estimation*):* Combina os benefícios do **Momentum** (primeiro momento dos gradientes) e do **RMSprop** (segundo momento não-centrado dos gradientes). É o otimizador padrão mais utilizado no estado da arte.
+
+4. **Técnicas de Regularização em Deep Learning:**
+    - *Dropout:* Desativa aleatoriamente uma porcentagem fixada de neurônios (ex.: 20% a 50%) a cada iteração do treinamento, impedindo a coadaptação espúria entre nós vizinhos.
+    - *Batch Normalization:* Normaliza as ativações de cada minilote para média zero e variância unitária, estabilizando e acelerando a convergência.
+    - *Early Stopping:* Interrompe o treinamento quando o erro no conjunto de validação começa a subir consecutivamente, evitando o *overfitting*.
+
+### 4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers
+
+* **Redes Neurais Convolucionais (CNNs):**
+    - Projetadas especificamente para processar dados estruturados em grades bidimensionais ou tridimensionais (visão computacional, imagens de satélite para fiscalização de obras pelo TCE-GO).
+    - *Convoluções e Kernels:* Filtros matemáticos deslizantes que operam com **compartilhamento de pesos (*weight sharing*)**, capturando características invariantes à translação espacial e reduzindo drasticamente o número total de parâmetros livres.
+    - *Pooling:* Camadas de subamostragem (*Max Pooling* e *Average Pooling*) que reduzem a resolução espacial dos mapas de características, conferindo tolerância a pequenas rotações e deformações geométricas.
+* **Redes Neurais Recorrentes (RNNs) e Células LSTM / GRU:**
+    - Concebidas para dados sequenciais e temporais (textos e séries temporais). Possuem conexões de realimentação que mantêm um estado oculto de memória.
+    - Como as RNNs simples sofrem de desvanecimento de gradientes em dependências longas, utilizam-se células **LSTM (*Long Short-Term Memory*)**, que utilizam portas lógicas governadas por ativações sigmoides:
+    - *Forget Gate:* Seleciona o que descartar da memória antiga.
+    - *Input Gate:* Seleciona quais informações inéditas gravar na célula de estado.
+    - *Output Gate:* Decide qual porção do estado da célula comporá a saída visível.
+* **Arquitetura Transformer (Vaswani et al., 2017):**
+    - Revolucionou o processamento de linguagem natural ao abandonar totalmente a recorrência sequencial em favor de mecanismos de **Autoatenção (*Self-Attention*) e Atenção Multi-Cabeça (*Multi-Head Attention*)**.
+    - Permite o processamento massivamente paralelo de sequências textuais inteiras e modela dependências contextuais de longuíssimo alcance sem sofrer degradação informacional.
 
 ---
 
@@ -575,28 +593,6 @@ Em arquiteturas de Redes Neurais Artificiais profundas (*Deep Learning*), as fun
 > **Gabarito: A**
 
 ---
-
-
-### 4.3 Treinamento: Backpropagation, Gradiente Descendente e Otimizadores
-
-O ciclo de aprendizado de redes profundas articula quatro etapas fundamentais:
-
-1. **Propagação Direta (*Forward Pass*):** Os dados avançam pelas camadas da rede até produzir uma saída predita $\hat{y}$, que é comparada ao rótulo real $y$ através de uma **Função de Perda** ($\mathcal{L}$).
-    - Regressão: $\text{MSE} = \frac{1}{n} \sum (y - \hat{y})^2$.
-    - Classificação Binária: Entropia Cruzada Binária ($\text{Log-Loss}$).
-    - Classificação Multiclasse: Entropia Cruzada Categórica ($-\sum y_i \log \hat{y}_i$).
-
-2. **Retropropagação (*Backpropagation*):** Algoritmo que calcula analiticamente o vetor de derivadas parciais da perda em relação a cada peso de cada camada ($\frac{\partial \mathcal{L}}{\partial w}$), partindo da camada final em direção à camada inicial através da aplicação estrita da **Regra da Cadeia (*Chain Rule*)** do cálculo multivariável.
-3. **Otimizadores de Atualização de Pesos:**
-    - *Gradiente Descendente Estocástico (SGD):* Atualiza pesos por amostra ou minilote (*mini-batch*): $w \leftarrow w - \eta \nabla \mathcal{L}$.
-    - *Momentum:* Adiciona uma fração inercial da velocidade anterior, amortecendo oscilações e acelerando o escape de platôs e mínimos locais rasos.
-    - *RMSprop:* Ajusta a taxa de aprendizado dinamicamente com base na raiz da média móvel quadrática dos gradientes recentes.
-    - *Adam (*Adaptive Moment Estimation*):* Combina os benefícios do **Momentum** (primeiro momento dos gradientes) e do **RMSprop** (segundo momento não-centrado dos gradientes). É o otimizador padrão mais utilizado no estado da arte.
-
-4. **Técnicas de Regularização em Deep Learning:**
-    - *Dropout:* Desativa aleatoriamente uma porcentagem fixada de neurônios (ex.: 20% a 50%) a cada iteração do treinamento, impedindo a coadaptação espúria entre nós vizinhos.
-    - *Batch Normalization:* Normaliza as ativações de cada minilote para média zero e variância unitária, estabilizando e acelerando a convergência.
-    - *Early Stopping:* Interrompe o treinamento quando o erro no conjunto de validação começa a subir consecutivamente, evitando o *overfitting*.
 
 ### Teste 309
 **(FGV - TRT / Analista Judiciário - TI - Treinamento de Redes Profundas: Backpropagation e Adam)**
@@ -628,24 +624,6 @@ A respeito do mecanismo de treinamento, do ajuste de gradientes e dos algoritmos
 
 ---
 
-### 4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers
-
-* **Redes Neurais Convolucionais (CNNs):**
-    - Projetadas especificamente para processar dados estruturados em grades bidimensionais ou tridimensionais (visão computacional, imagens de satélite para fiscalização de obras pelo TCE-GO).
-    - *Convoluções e Kernels:* Filtros matemáticos deslizantes que operam com **compartilhamento de pesos (*weight sharing*)**, capturando características invariantes à translação espacial e reduzindo drasticamente o número total de parâmetros livres.
-    - *Pooling:* Camadas de subamostragem (*Max Pooling* e *Average Pooling*) que reduzem a resolução espacial dos mapas de características, conferindo tolerância a pequenas rotações e deformações geométricas.
-* **Redes Neurais Recorrentes (RNNs) e Células LSTM / GRU:**
-    - Concebidas para dados sequenciais e temporais (textos e séries temporais). Possuem conexões de realimentação que mantêm um estado oculto de memória.
-    - Como as RNNs simples sofrem de desvanecimento de gradientes em dependências longas, utilizam-se células **LSTM (*Long Short-Term Memory*)**, que utilizam portas lógicas governadas por ativações sigmoides:
-    - *Forget Gate:* Seleciona o que descartar da memória antiga.
-    - *Input Gate:* Seleciona quais informações inéditas gravar na célula de estado.
-    - *Output Gate:* Decide qual porção do estado da célula comporá a saída visível.
-* **Arquitetura Transformer (Vaswani et al., 2017):**
-    - Revolucionou o processamento de linguagem natural ao abandonar totalmente a recorrência sequencial em favor de mecanismos de **Autoatenção (*Self-Attention*) e Atenção Multi-Cabeça (*Multi-Head Attention*)**.
-    - Permite o processamento massivamente paralelo de sequências textuais inteiras e modela dependências contextuais de longuíssimo alcance sem sofrer degradação informacional.
-
----
-
 ### Teste 310
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 No ecossistema de arquiteturas especializadas de Aprendizado Profundo (*Deep Learning*), diversas redes foram desenvolvidas para processar eficientemente imagens, fluxos de áudio e dados textuais sequenciais.
@@ -670,10 +648,7 @@ Sobre as características estruturais dessas arquiteturas, assinale a alternativ
 > 
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

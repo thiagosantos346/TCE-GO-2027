@@ -22,10 +22,7 @@
 - Proibições sintáticas absolutas do emprego da vírgula (quebra da ordem direta Sujeito - Verbo - Complemento);
 - Adjuntos adverbiais e orações adverbiais deslocadas ou intercaladas.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -42,30 +39,29 @@
 3. [Orações Subordinadas Substantivas e Adjetivas](#3-oracoes-subordinadas-substantivas-e-adjetivas)
     1. [Orações Substantivas e o Método do Pronome ISSO](#31-oracoes-substantivas-e-o-metodo-do-pronome-isso)
     2. [Classificação Sintática das Orações Subordinadas Substantivas](#32-classificacao-sintatica-das-oracoes-subordinadas-substantivas)
-    3. [Teste 034](#Teste-034)
-    4. [Orações Subordinadas Adjetivas: Explicativas vs. Restritivas](#33-oracoes-subordinadas-adjetivas-explicativas-vs-restritivas)
+    3. [Orações Subordinadas Adjetivas: Explicativas vs. Restritivas](#33-oracoes-subordinadas-adjetivas-explicativas-vs-restritivas)
+    4. [Teste 034](#Teste-034)
     5. [Teste 035](#Teste-035)
 4. [Orações Subordinadas Adverbiais e Conectivos Críticos](#4-oracoes-subordinadas-adverbiais-e-conectivos-criticos)
     1. [Quadro Completo das Conjunções Subordinativas Adverbiais](#41-quadro-completo-das-conjuncoes-subordinativas-adverbiais)
-    2. [Teste 036](#Teste-036)
-    3. [Adversativas vs. Concessivas: Conflito Sintático, Semântico e Modal](#42-adversativas-vs-concessivas-conflito-sintatico-semantico-e-modal)
-    4. [O Trio Crítico da FCC: Porquanto, Portanto e Conquanto](#43-o-trio-critico-da-fcc-porquanto-portanto-e-conquanto)
-    5. [Teste 037](#Teste-037)
-    6. [A Polissemia do Conectivo Como](#44-a-polissemia-do-conectivo-como)
+    2. [Adversativas vs. Concessivas: Conflito Sintático, Semântico e Modal](#42-adversativas-vs-concessivas-conflito-sintatico-semantico-e-modal)
+    3. [O Trio Crítico da FCC: Porquanto, Portanto e Conquanto](#43-o-trio-critico-da-fcc-porquanto-portanto-e-conquanto)
+    4. [A Polissemia do Conectivo Como](#44-a-polissemia-do-conectivo-como)
+    5. [Teste 036](#Teste-036)
+    6. [Teste 037](#Teste-037)
     7. [Teste 038](#Teste-038)
 5. [Sintaxe da Pontuação e Efeitos Semânticos](#5-sintaxe-da-pontuacao-e-efeitos-semanticos)
     1. [A Proibição Inegociável da Quebra SVC](#51-a-proibicao-inegociavel-da-quebra-svc)
-    2. [Teste 039](#Teste-039)
-    3. [Regras do Uso da Vírgula no Período Simples](#52-regras-do-uso-da-virgula-no-periodo-simples)
-    4. [Regras do Uso da Vírgula no Período Composto](#53-regras-do-uso-da-virgula-no-periodo-composto)
-    5. [Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses](#54-emprego-de-ponto-e-virgula-dois-pontos-travessoes-e-parenteses)
-    6. [Teste 040](#Teste-040)
-    7. [Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação](#55-alteracoes-de-sentido-provocadas-pela-supressao-ou-deslocamento-de-pontuacao)
+    2. [Regras do Uso da Vírgula no Período Simples](#52-regras-do-uso-da-virgula-no-periodo-simples)
+    3. [Regras do Uso da Vírgula no Período Composto](#53-regras-do-uso-da-virgula-no-periodo-composto)
+    4. [Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses](#54-emprego-de-ponto-e-virgula-dois-pontos-travessoes-e-parenteses)
+    5. [Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação](#55-alteracoes-de-sentido-provocadas-pela-supressao-ou-deslocamento-de-pontuacao)
+    6. [Teste 039](#Teste-039)
+    7. [Teste 040](#Teste-040)
     8. [Teste 041](#Teste-041)
-6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+6. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Fundamentos do Período Composto: Coordenação e Subordinação
 
@@ -91,6 +87,7 @@ Na subordinação, verifica-se uma relação de dependência hierárquica e enca
 
 Se a oração subordinada for retirada, a oração principal torna-se sintaticamente mutilada ou incompleta (no exemplo, o verbo *determinou* ficaria desprovido de seu complemento direto).
 
+---
 
 ### Teste 032
 **(FCC – DPE-RS – Analista Jurídico)**  
@@ -118,10 +115,7 @@ Em relação à estrutura sintática do período acima, é correto afirmar que:
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Orações Coordenadas e Conectivos Coordenativos
 
@@ -194,10 +188,7 @@ No contexto acima, o termo destacado expressa valor semântico de:
 > 
 > **Gabarito: D**
 
-
-
 ---
-
 
 ## 3. Orações Subordinadas Substantivas e Adjetivas
 
@@ -223,6 +214,26 @@ Identificada a oração substantiva pelo teste do *ISSO*, classifica-se a sua fu
 5. **Predicativa:** Exerce a função de predicativo do sujeito após verbo de ligação (*"Nosso objetivo é que a administração pública seja eficiente"* $\rightarrow$ *o objetivo é ISSO*).
 6. **Apositiva:** Exerce o papel de aposto explicativo, esclarecendo um termo antecedente, comumente posposta a dois-pontos (*"Desejo apenas uma coisa: que a verdade prevaleça"*).
 
+### 3.3 Orações Subordinadas Adjetivas: Explicativas vs. Restritivas
+
+As orações subordinadas adjetivas desempenham papel equivalente ao de um adjetivo (adjunto adnominal) em relação a um substantivo antecedente, sendo invariavelmente introduzidas por um **pronome relativo** (*que, quem, cujo, o qual, onde*).
+
+```mermaid
+flowchart TD
+    Adjetiva["ORAÇÃO SUBORDINADA ADJETIVA (Iniciada por QUE / O QUAL)"]
+    
+    Adjetiva --> Expl["COM VÍRGULAS: EXPLICATIVA<br/>• Atributo inerente à TOTALIDADE dos seres referidos<br/>• Generaliza / Adiciona informação acessória<br/>• Ex: 'Os auditores do TCE-GO, QUE SÃO SERVIDORES CONCURSADOS, atuam com zelo.'<br/>(Significado: TODOS os auditores do TCE-GO são concursados)"]
+    
+    Adjetiva --> Rest["SEM VÍRGULAS: RESTRITIVA<br/>• Atributo restrito a uma PARTE do conjunto<br/>• Limita / Especifica / Delimita o grupo<br/>• Ex: 'Os auditores do TCE-GO QUE PARTICIPARAM DA OPERAÇÃO foram elogiados.'<br/>(Significado: APENAS aqueles auditores específicos, não todos)"]
+```
+
+#### Distinção Semântica e Sintática Crucial:
+* **Adjetiva Explicativa (com vírgulas):** Vem isolada por vírgulas (ou travessões/parênteses). Atribui uma qualidade própria que abrange a **totalidade** dos elementos do termo antecedente. Não delimita o grupo, operando de forma generalizadora.
+    * *"Os cidadãos brasileiros, que têm direito ao voto, participam das eleições."* (Significado: todos os cidadãos brasileiros têm direito ao voto).
+* **Adjetiva Restritiva (sem vírgulas):** É grafada sem vírgulas. Restringe, individualiza e delimita o sentido do substantivo antecedente a um **subconjunto restrito**, excluindo os demais membros da classe.
+    * *"Os cidadãos brasileiros que têm mais de setenta anos possuem voto facultativo."* (Significado: apenas aquela parcela que tem mais de 70 anos, e não a totalidade dos brasileiros).
+
+> 🚨 **ALERTA DE PROVA / SUPRESSÃO DE VÍRGULAS EM ORAÇÃO ADJETIVA:** A FCC explora intensamente assertivas que indagam: *"A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?"*. Resposta técnica obrigatória: a retirada das vírgulas **mantém a correção gramatical**, mas **SEMPRE ALTERA O SENTIDO DO TEXTO**, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
 
 ---
 
@@ -255,29 +266,6 @@ ightarrow$ *"ISSO é fundamental"*. O termo *"ISSO"* funciona como sujeito da or
 
 ---
 
-### 3.3 Orações Subordinadas Adjetivas: Explicativas vs. Restritivas
-
-As orações subordinadas adjetivas desempenham papel equivalente ao de um adjetivo (adjunto adnominal) em relação a um substantivo antecedente, sendo invariavelmente introduzidas por um **pronome relativo** (*que, quem, cujo, o qual, onde*).
-
-```mermaid
-flowchart TD
-    Adjetiva["ORAÇÃO SUBORDINADA ADJETIVA (Iniciada por QUE / O QUAL)"]
-    
-    Adjetiva --> Expl["COM VÍRGULAS: EXPLICATIVA<br/>• Atributo inerente à TOTALIDADE dos seres referidos<br/>• Generaliza / Adiciona informação acessória<br/>• Ex: 'Os auditores do TCE-GO, QUE SÃO SERVIDORES CONCURSADOS, atuam com zelo.'<br/>(Significado: TODOS os auditores do TCE-GO são concursados)"]
-    
-    Adjetiva --> Rest["SEM VÍRGULAS: RESTRITIVA<br/>• Atributo restrito a uma PARTE do conjunto<br/>• Limita / Especifica / Delimita o grupo<br/>• Ex: 'Os auditores do TCE-GO QUE PARTICIPARAM DA OPERAÇÃO foram elogiados.'<br/>(Significado: APENAS aqueles auditores específicos, não todos)"]
-```
-
-#### Distinção Semântica e Sintática Crucial:
-* **Adjetiva Explicativa (com vírgulas):** Vem isolada por vírgulas (ou travessões/parênteses). Atribui uma qualidade própria que abrange a **totalidade** dos elementos do termo antecedente. Não delimita o grupo, operando de forma generalizadora.
-    * *"Os cidadãos brasileiros, que têm direito ao voto, participam das eleições."* (Significado: todos os cidadãos brasileiros têm direito ao voto).
-* **Adjetiva Restritiva (sem vírgulas):** É grafada sem vírgulas. Restringe, individualiza e delimita o sentido do substantivo antecedente a um **subconjunto restrito**, excluindo os demais membros da classe.
-    * *"Os cidadãos brasileiros que têm mais de setenta anos possuem voto facultativo."* (Significado: apenas aquela parcela que tem mais de 70 anos, e não a totalidade dos brasileiros).
-
-> 🚨 **ALERTA DE PROVA / SUPRESSÃO DE VÍRGULAS EM ORAÇÃO ADJETIVA:** A FCC explora intensamente assertivas que indagam: *"A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?"*. Resposta técnica obrigatória: a retirada das vírgulas **mantém a correção gramatical**, mas **SEMPRE ALTERA O SENTIDO DO TEXTO**, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
-
----
-
 ### Teste 035
 **(FCC – TRT – Analista Judiciário)**  
 Considere o segmento:  
@@ -303,10 +291,7 @@ A respeito da oração sublinhada e do emprego das vírgulas que a isolam, é co
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Orações Subordinadas Adverbiais e Conectivos Críticos
 
@@ -327,35 +312,6 @@ A gramática normativa classifica as orações subordinadas adverbiais em nove c
 | **Final** | Objetivo, desígnio ou finalidade | *a fim de que, para que, com o fito de, com o intuito de* | *"O tribunal aprovou novas resoluções para que haja transparência."* |
 | **Proporcional** | Proporcionalidade ou simultaneidade progressiva | *à medida que, à proporção que, ao passo que, quanto mais... mais* | *"À medida que os autos avançavam, surgiam novas provas."* |
 | **Temporal** | Momento cronológico em que ocorre a ação | *quando, enquanto, logo que, assim que, desde que, todas as vezes que* | *"Assim que a sessão terminou, a ata foi lavrada."* |
-
-
----
-
-### Teste 036
-**(FCC – TRT – Analista Judiciário)**  
-Considere o período:  
-*"À medida que as investigações avançavam, novos indícios de irregularidades vinham à tona, de modo que a comissão decidiu prorrogar os trabalhos por mais trinta dias."*
-
-Os conectivos destacados expressam, correta e respectivamente, as noções circunstanciais de:
-
-* **A)** tempo e causa.
-* **B)** proporção e consequência.
-* **C)** concessão e finalidade.
-* **D)** condição e conformidade.
-* **E)** proporção e explicação.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **1ª locução:** *"À medida que"* é a locução conjuntiva subordinativa por excelência de valor **proporcional** (indica um fenômeno que varia em relação direta e concomitante com outro). Atenção: não confundir com a locução causal "na medida em que".
-> - **2ª locução:** *"de modo que"* introduz fato que decorre do que foi afirmado anteriormente (efeito produzido pelo acúmulo de novos indícios), configurando nexo subordinativo adverbial **consecutivo** (consequência).
-> - **Análise das alternativas:** A alternativa **B** traz exatamente a dupla relação: proporção e consequência.
->
-> **Gabarito: B**
-
----
 
 ### 4.2 Adversativas vs. Concessivas: Conflito Sintático, Semântico e Modal
 
@@ -392,6 +348,41 @@ Poucas pegadinhas são tão reiteradas pela Fundação Carlos Chagas quanto a se
 * **CONQUANTO (Concessivo):** Equivale a *embora*, *ainda que*, *a despeito de que*, *posto que*. Introduz uma ressalva concessiva que não anula a oração principal e **rege o modo subjuntivo**.
     * *"**Conquanto** houvesse fortes pressões políticas, o conselheiro proferiu voto técnico."*
 
+### 4.4 A Polissemia do Conectivo Como
+
+O conectivo *como* assume múltiplos papéis dependendo da sua posição na frase e da intenção discursiva:
+
+1. **Como Causal:** Ocorre tipicamente anteposto ao período (no início da frase), equivalendo a *já que, visto que, dado que*: *"**Como** o prazo de apresentação de defesa havia expirado na véspera, o gestor foi declarado revel"*.
+2. **Como Conformativo:** Equivale a *conforme, segundo, consoante*, indicando adequação a uma norma ou modelo: *"O concurso público realizou-se, **como** determina a Constituição Estadual"*.
+3. **Como Comparativo:** Estabelece confronto de semelhança analógica (= *tal qual, assim como*): *"O fiscal examinou as planilhas **como** um analista forense minucioso"*.
+4. **Como Aditivo (Correlativo):** Integra a estrutura aditiva correlata *não só... como também*: *"O parecer apontou **não só** desídia administrativa, **como também** dano patrimonial"*.
+
+---
+
+### Teste 036
+**(FCC – TRT – Analista Judiciário)**  
+Considere o período:  
+*"À medida que as investigações avançavam, novos indícios de irregularidades vinham à tona, de modo que a comissão decidiu prorrogar os trabalhos por mais trinta dias."*
+
+Os conectivos destacados expressam, correta e respectivamente, as noções circunstanciais de:
+
+* **A)** tempo e causa.
+* **B)** proporção e consequência.
+* **C)** concessão e finalidade.
+* **D)** condição e conformidade.
+* **E)** proporção e explicação.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **1ª locução:** *"À medida que"* é a locução conjuntiva subordinativa por excelência de valor **proporcional** (indica um fenômeno que varia em relação direta e concomitante com outro). Atenção: não confundir com a locução causal "na medida em que".
+> - **2ª locução:** *"de modo que"* introduz fato que decorre do que foi afirmado anteriormente (efeito produzido pelo acúmulo de novos indícios), configurando nexo subordinativo adverbial **consecutivo** (consequência).
+> - **Análise das alternativas:** A alternativa **B** traz exatamente a dupla relação: proporção e consequência.
+>
+> **Gabarito: B**
+
 ---
 
 ### Teste 037
@@ -421,18 +412,6 @@ O conectivo destacado introduz relação de sentido e pode ser substituído, man
 
 ---
 
-
-### 4.4 A Polissemia do Conectivo Como
-
-O conectivo *como* assume múltiplos papéis dependendo da sua posição na frase e da intenção discursiva:
-
-1. **Como Causal:** Ocorre tipicamente anteposto ao período (no início da frase), equivalendo a *já que, visto que, dado que*: *"**Como** o prazo de apresentação de defesa havia expirado na véspera, o gestor foi declarado revel"*.
-2. **Como Conformativo:** Equivale a *conforme, segundo, consoante*, indicando adequação a uma norma ou modelo: *"O concurso público realizou-se, **como** determina a Constituição Estadual"*.
-3. **Como Comparativo:** Estabelece confronto de semelhança analógica (= *tal qual, assim como*): *"O fiscal examinou as planilhas **como** um analista forense minucioso"*.
-4. **Como Aditivo (Correlativo):** Integra a estrutura aditiva correlata *não só... como também*: *"O parecer apontou **não só** desídia administrativa, **como também** dano patrimonial"*.
-
----
-
 ### Teste 038
 **(FCC – DPE-RS – Analista de Processos)**  
 Assinale a frase em que o conectivo **COMO** expressa relação semântica de **causa**:
@@ -456,10 +435,7 @@ Assinale a frase em que o conectivo **COMO** expressa relação semântica de **
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 5. Sintaxe da Pontuação e Efeitos Semânticos
 
@@ -479,34 +455,6 @@ $$\text{Sujeito} \not\longleftrightarrow [\text{Vírgula Proibida}] \not\longlef
 > - Incorreto (apenas uma vírgula): *"O pleno do tribunal, após examinar os laudos votou pela anulação"* $\rightarrow$ Erro!
 > - Incorreto (apenas uma vírgula): *"O pleno do tribunal após examinar os laudos, votou pela anulação"* $\rightarrow$ Erro!
 > - **Correto (duas vírgulas):** *"O pleno do tribunal**, após examinar os laudos,** votou pela anulação."*
-
----
-
-### Teste 039
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-A frase cuja pontuação atende plenamente às normas da norma culta da língua portuguesa é:
-
-* **A)** *"O pleno do Tribunal de Contas, após detido exame dos relatórios de engenharia votou pela anulação da concorrência."*
-* **B)** *"O pleno do Tribunal de Contas após detido exame dos relatórios de engenharia, votou pela anulação da concorrência."*
-* **C)** *"O pleno do Tribunal de Contas, após detido exame dos relatórios de engenharia, votou pela anulação da concorrência."*
-* **D)** *"O pleno do Tribunal de Contas votou, pela anulação da concorrência, após detido exame dos relatórios de engenharia."*
-* **E)** *"O pleno do Tribunal de Contas votou pela anulação da concorrência, que, continha sobrepreço manifesto."*
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O segmento adverbial intercalado *"após detido exame dos relatórios de engenharia"* foi aberto com uma vírgula após o sujeito, mas não foi fechado antes do verbo *votou*. Isso gerou a proibição inegociável de separar o sujeito do predicado por uma vírgula simples solitária.
-> - **B)** Incorreta. Incorre no mesmo erro da assertiva A sob feição inversa: não abriu a vírgula antes do adjunto adverbial intercalado, deixando uma vírgula solitária antes do verbo *votou*, cindindo indevidamente a oração direta.
-> - **C)** Correta. O adjunto adverbial de tempo de longa extensão encontra-se devidamente intercalado entre o sujeito (*O pleno do Tribunal de Contas*) e o predicado (*votou pela anulação...*), estando perfeitamente isolado por **duas vírgulas simétricas** (uma no início e outra no término do termo intercalado).
-> - **D)** Incorreta. A vírgula empregada após o verbo *votou* separa indevidamente o verbo de seu objeto indireto regido pela preposição *por* (*votou pela anulação*), ferindo a regra estrutural da cadeia SVC.
-> - **E)** Incorreta. A vírgula após o pronome relativo *que* cinde indevidamente o pronome relativo do verbo da oração adjetiva (*continha*).
-> 
-> **Gabarito: C**
-
----
-
 
 ### 5.2 Regras do Uso da Vírgula no Período Simples
 
@@ -548,6 +496,38 @@ No período composto por coordenação e subordinação:
 * **Parênteses ( ):**
     * Isolam notas explicativas acessórias, datas, referências bibliográficas ou reflexões secundárias do autor.
 
+### 5.5 Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação
+
+A pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento ou a eliminação de um sinal de pontuação pode transformar completamente o sentido da mensagem:
+
+* *Supressão de vírgulas em orações adjetivas:* Passa de explicativa (generalizadora, afeta todos os indivíduos) para restritiva (limitadora, afeta apenas um grupo).
+* *Deslocamento da vírgula antes ou depois da conjunção:* Muda a regência das orações coordenadas.
+* *Supressão da vírgula de vocativo:* Transforma o chamamento em sujeito da oração (*"Auditor, assine o documento"* [ordem a um interlocutor] vs. *"Auditor assine o documento"* [frase defeituosa ou ambígua]).
+
+---
+
+### Teste 039
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+A frase cuja pontuação atende plenamente às normas da norma culta da língua portuguesa é:
+
+* **A)** *"O pleno do Tribunal de Contas, após detido exame dos relatórios de engenharia votou pela anulação da concorrência."*
+* **B)** *"O pleno do Tribunal de Contas após detido exame dos relatórios de engenharia, votou pela anulação da concorrência."*
+* **C)** *"O pleno do Tribunal de Contas, após detido exame dos relatórios de engenharia, votou pela anulação da concorrência."*
+* **D)** *"O pleno do Tribunal de Contas votou, pela anulação da concorrência, após detido exame dos relatórios de engenharia."*
+* **E)** *"O pleno do Tribunal de Contas votou pela anulação da concorrência, que, continha sobrepreço manifesto."*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O segmento adverbial intercalado *"após detido exame dos relatórios de engenharia"* foi aberto com uma vírgula após o sujeito, mas não foi fechado antes do verbo *votou*. Isso gerou a proibição inegociável de separar o sujeito do predicado por uma vírgula simples solitária.
+> - **B)** Incorreta. Incorre no mesmo erro da assertiva A sob feição inversa: não abriu a vírgula antes do adjunto adverbial intercalado, deixando uma vírgula solitária antes do verbo *votou*, cindindo indevidamente a oração direta.
+> - **C)** Correta. O adjunto adverbial de tempo de longa extensão encontra-se devidamente intercalado entre o sujeito (*O pleno do Tribunal de Contas*) e o predicado (*votou pela anulação...*), estando perfeitamente isolado por **duas vírgulas simétricas** (uma no início e outra no término do termo intercalado).
+> - **D)** Incorreta. A vírgula empregada após o verbo *votou* separa indevidamente o verbo de seu objeto indireto regido pela preposição *por* (*votou pela anulação*), ferindo a regra estrutural da cadeia SVC.
+> - **E)** Incorreta. A vírgula após o pronome relativo *que* cinde indevidamente o pronome relativo do verbo da oração adjetiva (*continha*).
+> 
+> **Gabarito: C**
 
 ---
 
@@ -579,15 +559,6 @@ Sobre o emprego dos sinais de pontuação no trecho, assinale a alternativa corr
 
 ---
 
-### 5.5 Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação
-
-A pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento ou a eliminação de um sinal de pontuação pode transformar completamente o sentido da mensagem:
-
-* *Supressão de vírgulas em orações adjetivas:* Passa de explicativa (generalizadora, afeta todos os indivíduos) para restritiva (limitadora, afeta apenas um grupo).
-* *Deslocamento da vírgula antes ou depois da conjunção:* Muda a regência das orações coordenadas.
-* *Supressão da vírgula de vocativo:* Transforma o chamamento em sujeito da oração (*"Auditor, assine o documento"* [ordem a um interlocutor] vs. *"Auditor assine o documento"* [frase defeituosa ou ambígua]).
-
-
 ### Teste 041
 **(FCC – TRT-23 – Técnico Judiciário)**  
 Considere as seguintes frases:  
@@ -617,10 +588,7 @@ Comparando-se as frases I e II quanto aos efeitos semânticos e sintáticos deco
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

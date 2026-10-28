@@ -16,10 +16,7 @@
 - Regra de três simples (direta e inversa).
 - Porcentagem e problemas envolvendo regra de três simples, cálculos de porcentagem, acréscimos e descontos.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -30,30 +27,29 @@
     4. [Teste 082](#Teste-082)
 2. [Divisão em Partes Proporcionais](#2-divisao-em-partes-proporcionais)
     1. [Divisão Diretamente Proporcional com a Constante k](#21-divisao-diretamente-proporcional-com-a-constante-k)
-    2. [Teste 083](#Teste-083)
-    3. [Divisão Inversamente Proporcional e o Método do MMC](#22-divisao-inversamente-proporcional-e-o-metodo-do-mmc)
-    4. [Teste 084](#Teste-084)
-    5. [Divisão Proporcional Composta ou Mista](#23-divisao-proporcional-composta-ou-mista)
+    2. [Divisão Inversamente Proporcional e o Método do MMC](#22-divisao-inversamente-proporcional-e-o-metodo-do-mmc)
+    3. [Divisão Proporcional Composta ou Mista](#23-divisao-proporcional-composta-ou-mista)
+    4. [Teste 083](#Teste-083)
+    5. [Teste 084](#Teste-084)
     6. [Teste 085](#Teste-085)
 3. [Classificação de Grandezas e Regra de Três Simples](#3-classificacao-de-grandezas-e-regra-de-tres-simples)
     1. [Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicacao-cruzada)
     2. [Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicacao-em-linha-reta)
-    3. [Teste 086](#Teste-086)
-    4. [Método Prático das Setas e Identificação de Armadilhas](#33-metodo-pratico-das-setas-e-identificacao-de-armadilhas)
+    3. [Método Prático das Setas e Identificação de Armadilhas](#33-metodo-pratico-das-setas-e-identificacao-de-armadilhas)
+    4. [Teste 086](#Teste-086)
     5. [Teste 087](#Teste-087)
 4. [Porcentagem, Fatores Multiplicadores e Variações](#4-porcentagem-fatores-multiplicadores-e-variacoes)
     1. [Conceito e Fatores de Aumento e Desconto](#41-conceito-e-fatores-de-aumento-e-desconto)
     2. [Aumentos e Descontos Sucessivos Cumulativos](#42-aumentos-e-descontos-sucessivos-cumulativos)
-    3. [Teste 088](#Teste-088)
-    4. [Teste 089](#Teste-089)
-    5. [Inversão da Base de Referência Percentual](#43-inversao-da-base-de-referencia-percentual)
-    6. [Teste 090](#Teste-090)
-    7. [Diferença entre Pontos Percentuais e Variação Percentual](#44-diferenca-entre-pontos-percentuais-e-variacao-percentual)
+    3. [Inversão da Base de Referência Percentual](#43-inversao-da-base-de-referencia-percentual)
+    4. [Diferença entre Pontos Percentuais e Variação Percentual](#44-diferenca-entre-pontos-percentuais-e-variacao-percentual)
+    5. [Teste 088](#Teste-088)
+    6. [Teste 089](#Teste-089)
+    7. [Teste 090](#Teste-090)
     8. [Teste 091](#Teste-091)
-5. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+5. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Razões, Proporções e Propriedades Fundamentais
 
@@ -89,6 +85,7 @@ Em uma série de razões iguais, a soma dos antecedentes dividida pela soma dos 
 $$\frac{a}{b} = \frac{c}{d} = \frac{e}{f} = k \implies \frac{a + c + e}{b + d + f} = k$$
 Essa propriedade é a base algébrica definitiva para solucionar repartições orçamentárias e partilhas de bens em auditoria sem necessidade de recorrer a sistemas lineares extensos.
 
+---
 
 ### Teste 082
 **(FCC – TRT – Analista Judiciário)**  
@@ -120,10 +117,7 @@ Em um tribunal, a razão entre o número de processos físicos e o número de pr
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Divisão em Partes Proporcionais
 
@@ -139,6 +133,28 @@ Repartir um total $V$ em partes $x, y, z$ diretamente proporcionais aos pesos $a
    $$a \cdot k + b \cdot k + c \cdot k = V \implies k \cdot (a + b + c) = V \implies k = \frac{V}{a + b + c}$$
 3. Cada parte individual é calculada multiplicando $k$ pelo peso do beneficiário.
 
+### 2.2 Divisão Inversamente Proporcional e o Método do MMC
+
+Repartir um montante $V$ em partes $x, y, z$ inversamente proporcionais aos coeficientes $a, b, c$ significa repartir **diretamente aos seus inversos** $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$.
+
+#### O Método Rápido do MMC:
+1. Escrevem-se as frações inversas dos pesos: $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$;
+2. Calcula-se o MMC entre os denominadores $a, b, c$ e reduzem-se todas as frações ao mesmo denominador comum;
+3. **Despreza-se o denominador comum** e utilizam-se os novos numeradores inteiros como os pesos diretos para a constante $k$.
+
+*Exemplo com 2, 3 e 4:*
+
+* Inversos: $\frac{1}{2}, \frac{1}{3}, \frac{1}{4}$. O $\text{MMC}(2, 3, 4) = 12$.
+* Redução: $\frac{6}{12}, \frac{4}{12}, \frac{3}{12}$.
+* Pesos diretos operatórios: $6, 4$ e $3$. A soma das cotas é $6k + 4k + 3k = 13k$.
+
+> 💡 **DICA DE RESOLUÇÃO (Inversamente Proporcional a Dois Valores):** Se a partilha for inversamente proporcional a apenas dois números $a$ e $b$, basta inverter diretamente as posições dos pesos: $x = b \cdot k$ e $y = a \cdot k$. Dividir inversamente a 2 e 3 equivale a dividir diretamente a 3 e 2.
+
+### 2.3 Divisão Proporcional Composta ou Mista
+
+Ocorre quando a partilha obedece simultaneamente a critérios diretos (como tempo de casa, horas trabalhadas) e inversos (como número de faltas, processos pendentes, dias de atraso):
+$$\text{Peso Composto Final}_i = \text{Peso Direto}_i \times \frac{1}{\text{Peso Inverso}_i} = \frac{\text{Peso Direto}_i}{\text{Peso Inverso}_i}$$
+Reduzem-se as frações resultantes a termos inteiros via MMC e aplica-se o método da constante $k$.
 
 ---
 
@@ -168,25 +184,6 @@ Uma gratificação extraordinária no valor de R$ 18.000,00 foi dividida entre t
 > - **Conclusão:** O auditor recebeu R$ 9.000,00 (Alternativa C).
 >
 > **Gabarito: C**
-
----
-
-### 2.2 Divisão Inversamente Proporcional e o Método do MMC
-
-Repartir um montante $V$ em partes $x, y, z$ inversamente proporcionais aos coeficientes $a, b, c$ significa repartir **diretamente aos seus inversos** $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$.
-
-#### O Método Rápido do MMC:
-1. Escrevem-se as frações inversas dos pesos: $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$;
-2. Calcula-se o MMC entre os denominadores $a, b, c$ e reduzem-se todas as frações ao mesmo denominador comum;
-3. **Despreza-se o denominador comum** e utilizam-se os novos numeradores inteiros como os pesos diretos para a constante $k$.
-
-*Exemplo com 2, 3 e 4:*
-
-* Inversos: $\frac{1}{2}, \frac{1}{3}, \frac{1}{4}$. O $\text{MMC}(2, 3, 4) = 12$.
-* Redução: $\frac{6}{12}, \frac{4}{12}, \frac{3}{12}$.
-* Pesos diretos operatórios: $6, 4$ e $3$. A soma das cotas é $6k + 4k + 3k = 13k$.
-
-> 💡 **DICA DE RESOLUÇÃO (Inversamente Proporcional a Dois Valores):** Se a partilha for inversamente proporcional a apenas dois números $a$ e $b$, basta inverter diretamente as posições dos pesos: $x = b \cdot k$ e $y = a \cdot k$. Dividir inversamente a 2 e 3 equivale a dividir diretamente a 3 e 2.
 
 ---
 
@@ -232,15 +229,6 @@ Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pe
 
 ---
 
-
-### 2.3 Divisão Proporcional Composta ou Mista
-
-Ocorre quando a partilha obedece simultaneamente a critérios diretos (como tempo de casa, horas trabalhadas) e inversos (como número de faltas, processos pendentes, dias de atraso):
-$$\text{Peso Composto Final}_i = \text{Peso Direto}_i \times \frac{1}{\text{Peso Inverso}_i} = \frac{\text{Peso Direto}_i}{\text{Peso Inverso}_i}$$
-Reduzem-se as frações resultantes a termos inteiros via MMC e aplica-se o método da constante $k$.
-
----
-
 ### Teste 085
 **(FCC – TCE-GO – Auditor de Controle Externo)**  
 Uma gratificação especial de desempenho no valor de R$ 36.000,00 foi dividida entre dois auditores, Rodrigo e Samuel. O regulamento determinou que a divisão fosse **diretamente proporcional ao tempo de serviço** no Tribunal (Rodrigo tem 6 anos e Samuel tem 4 anos) e, simultaneamente, **inversamente proporcional ao número de processos pendentes** de julgamento em seus gabinetes (Rodrigo tem 3 processos pendentes e Samuel tem 1 processo pendente).
@@ -282,10 +270,7 @@ Com base nessas regras, a quantia recebida por Samuel foi de:
 > 
 > **Gabarito: E**
 
-
-
 ---
-
 
 ## 3. Classificação de Grandezas e Regra de Três Simples
 
@@ -308,6 +293,15 @@ Duas grandezas são **Inversamente Proporcionais (IP)** quando a variação de u
   $$A_1 \cdot B_1 = A_2 \cdot B_2$$
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** O erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Como serão necessários menos dias, a relação é inversamente proporcional e a multiplicação deve ser feita obrigatoriamente **em linha reta** ($6 \times 8 = 8 \times D \implies D = 6$).
+
+### 3.3 Método Prático das Setas e Identificação de Armadilhas
+
+Para não errar na prova:
+
+1. Posicione a primeira seta para cima na coluna que contém a incógnita $X$;
+2. Pergunte à outra grandeza: *"Se ela aumentar, a grandeza da incógnita precisa aumentar ou diminuir?"*;
+3. Se aumentar, coloque a seta no mesmo sentido (para cima $\rightarrow$ DP); se diminuir, coloque a seta em sentido contrário (para baixo $\rightarrow$ IP);
+4. Se a seta for no mesmo sentido, multiplique em cruz; se for em sentido inverso, multiplique em linha.
 
 ---
 
@@ -353,17 +347,6 @@ Se o Tribunal de Contas alocar mais 2 técnicos com a mesma produtividade para e
 
 ---
 
-
-### 3.3 Método Prático das Setas e Identificação de Armadilhas
-
-Para não errar na prova:
-
-1. Posicione a primeira seta para cima na coluna que contém a incógnita $X$;
-2. Pergunte à outra grandeza: *"Se ela aumentar, a grandeza da incógnita precisa aumentar ou diminuir?"*;
-3. Se aumentar, coloque a seta no mesmo sentido (para cima $\rightarrow$ DP); se diminuir, coloque a seta em sentido contrário (para baixo $\rightarrow$ IP);
-4. Se a seta for no mesmo sentido, multiplique em cruz; se for em sentido inverso, multiplique em linha.
-
-
 ### Teste 087
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Em uma unidade técnica de auditoria, $6$ auditores de mesmo rendimento funcional analisam $180$ prestações de contas trabalhando $8$ horas por dia durante $10$ dias. Se a equipe for reforçada por mais $2$ auditores de igual produtividade, quantas prestações de contas eles conseguirão analisar trabalhando $6$ horas por dia durante $15$ dias?
@@ -394,10 +377,7 @@ Em uma unidade técnica de auditoria, $6$ auditores de mesmo rendimento funciona
 >
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 4. Porcentagem, Fatores Multiplicadores e Variações
 
@@ -428,6 +408,23 @@ $$F_{\text{acumulado}} = F_1 \times F_2 \times F_3 \times \dots \times F_n$$
 | Desconto de 10% seguido de Desconto de 10% | $-20\%$ | $0{,}90 \times 0{,}90 = 0{,}81$ | **Desconto real de 19%** |
 
 > ⭐ **IMPORTANTE / AUMENTO E DESCONTO DA MESMA TAXA NUNCA SE ANULAM:** Se um produto sofre aumento de $20\%$ e em seguida desconto de $20\%$, ele **não** volta ao preço original! Ele passa a custar $1{,}20 \times 0{,}80 = 0{,}96$ do preço original, ou seja, sofre uma perda líquida de $4\%$. Em geral, um aumento de $i$ seguido de desconto de $i$ gera sempre uma perda real acumulada de $i^2$ (pois $(1+i)(1-i) = 1 - i^2$).
+
+### 4.3 Inversão da Base de Referência Percentual
+
+A base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa ($\text{Base} = 100\%$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual:
+
+* Se a grandeza $E$ é **$25\%$ maior** que a grandeza $P$:
+    * Adota-se $P = 100 \implies E = 125$.
+    * Para saber quanto $P$ é menor que $E$, o referencial agora é $E$ ($125$):
+    $$\text{Taxa de Redução} = \frac{\text{Diferença}}{\text{Nova Base}} = \frac{125 - 100}{125} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}$$
+    * Conclusão: Se $E$ é $25\%$ maior que $P$, então $P$ é **$20\%$ menor** que $E$ (e nunca 25%!).
+
+### 4.4 Diferença entre Pontos Percentuais e Variação Percentual
+
+* **Pontos Percentuais (p.p.):** É a diferença aritmética simples entre duas taxas percentuais (ex.: uma taxa que sobe de $10\%$ para $12\%$ aumentou $2$ pontos percentuais).
+* **Variação Percentual Relativa ($\Delta\%$):** É a magnitude do crescimento em relação à taxa original de partida:
+  $$\Delta\% = \frac{12 - 10}{10} = \frac{2}{10} = 20\%$$
+  A taxa aumentou 2 pontos percentuais, mas sofreu uma elevação relativa real de $20\%$.
 
 ---
 
@@ -469,6 +466,7 @@ Em relação ao valor original $X$ do contrato no primeiro ano, a aplicação su
 > 
 > **Gabarito: A**
 
+---
 
 ### Teste 089
 **(FCC – DPE-RS – Analista)**  
@@ -499,19 +497,6 @@ O valor de determinada taxa de emolumentos cartorários sofreu um reajuste de $2
 > **Gabarito: C**
 
 ---
-
----
-
-
-### 4.3 Inversão da Base de Referência Percentual
-
-A base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa ($\text{Base} = 100\%$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual:
-
-* Se a grandeza $E$ é **$25\%$ maior** que a grandeza $P$:
-    * Adota-se $P = 100 \implies E = 125$.
-    * Para saber quanto $P$ é menor que $E$, o referencial agora é $E$ ($125$):
-    $$\text{Taxa de Redução} = \frac{\text{Diferença}}{\text{Nova Base}} = \frac{125 - 100}{125} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}$$
-    * Conclusão: Se $E$ é $25\%$ maior que $P$, então $P$ é **$20\%$ menor** que $E$ (e nunca 25%!).
 
 ---
 
@@ -555,15 +540,6 @@ Em relação ao número de processos eletrônicos, o número de processos em pap
 
 ---
 
-
-### 4.4 Diferença entre Pontos Percentuais e Variação Percentual
-
-* **Pontos Percentuais (p.p.):** É a diferença aritmética simples entre duas taxas percentuais (ex.: uma taxa que sobe de $10\%$ para $12\%$ aumentou $2$ pontos percentuais).
-* **Variação Percentual Relativa ($\Delta\%$):** É a magnitude do crescimento em relação à taxa original de partida:
-  $$\Delta\% = \frac{12 - 10}{10} = \frac{2}{10} = 20\%$$
-  A taxa aumentou 2 pontos percentuais, mas sofreu uma elevação relativa real de $20\%$.
-
-
 ### Teste 091
 **(FCC – TRT-14 – Analista Judiciário)**  
 Em determinado município goiano, a alíquota do Imposto Sobre Serviços (ISS) incidente sobre serviços de informática passou de $2\%$ para $3\%$ da receita bruta. Comparando a alíquota final com a inicial, verifica-se que houve um acréscimo de:
@@ -588,10 +564,7 @@ Em determinado município goiano, a alíquota do Imposto Sobre Serviços (ISS) i
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

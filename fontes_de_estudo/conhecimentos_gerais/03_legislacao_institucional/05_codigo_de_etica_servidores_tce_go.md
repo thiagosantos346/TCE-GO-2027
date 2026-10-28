@@ -28,10 +28,7 @@
     - Penalidade ética exclusiva: Censura Ética e anotação nos assentamentos funcionais;
     - Intersecção com o regime disciplinar: remessa de expedientes à Corregedoria-Geral para instauração de Processo Administrativo Disciplinar (PAD).
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -42,28 +39,27 @@
 2. [Deveres Éticos e Postura Funcional do Servidor do TCE-GO](#2-deveres-eticos-e-postura-funcional-do-servidor-do-tce-go)
     1. [Urbanidade, Relações Profissionais e Presteza](#21-urbanidade-relacoes-profissionais-e-presteza)
     2. [Zelo Técnico, Produtividade e Rigor Procedimental](#22-zelo-tecnico-produtividade-e-rigor-procedimental)
-    3. [Teste 163](#Teste-163)
-    4. [Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas](#23-dever-incondicional-de-sigilo-custodia-de-dados-e-vedacao-a-informacoes-privilegiadas)
+    3. [Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas](#23-dever-incondicional-de-sigilo-custodia-de-dados-e-vedacao-a-informacoes-privilegiadas)
+    4. [Teste 163](#Teste-163)
     5. [Teste 164](#Teste-164)
 3. [Proibições Éticas, Vedações e Conflito de Interesses](#3-proibicoes-eticas-vedacoes-e-conflito-de-interesses)
     1. [Vedações Expressas: Advocacia, Consultoria e Redes Sociais](#31-vedacoes-expressas-advocacia-consultoria-e-redes-sociais)
-    2. [Teste 165](#Teste-165)
-    3. [Política Institucional de Presentes vs. Brindes](#32-politica-institucional-de-presentes-vs-brindes)
-    4. [Teste 166](#Teste-166)
-    5. [Prevenção de Conflito de Interesses e Autodeclaração de Impedimento](#33-prevencao-de-conflito-de-interesses-e-autodeclaracao-de-impedimento)
+    2. [Política Institucional de Presentes vs. Brindes](#32-politica-institucional-de-presentes-vs-brindes)
+    3. [Prevenção de Conflito de Interesses e Autodeclaração de Impedimento](#33-prevencao-de-conflito-de-interesses-e-autodeclaracao-de-impedimento)
+    4. [Teste 165](#Teste-165)
+    5. [Teste 166](#Teste-166)
     6. [Teste 167](#Teste-167)
     7. [Teste 168](#Teste-168)
 4. [A Comissão de Ética do TCE-GO e o Processo Ético](#4-a-comissao-de-etica-do-tce-go-e-o-processo-etico)
     1. [Composição e Tríplice Atuação da Comissão de Ética](#41-composicao-e-triplice-atuacao-da-comissao-de-etica)
-    2. [Teste 169](#Teste-169)
-    3. [Rito Sumário Apuratório e Garantia da Ampla Defesa](#42-rito-sumario-apuratorio-e-garantia-da-ampla-defesa)
-    4. [A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria](#43-a-penalidade-exclusiva-de-censura-etica-e-remessa-disciplinar-a-corregedoria)
+    2. [Rito Sumário Apuratório e Garantia da Ampla Defesa](#42-rito-sumario-apuratorio-e-garantia-da-ampla-defesa)
+    3. [A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria](#43-a-penalidade-exclusiva-de-censura-etica-e-remessa-disciplinar-a-corregedoria)
+    4. [Teste 169](#Teste-169)
     5. [Teste 170](#Teste-170)
     6. [Teste 171](#Teste-171)
 5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Fundamentos Deontológicos e Normas Internacionais de Auditoria
 
@@ -75,14 +71,13 @@ O Código de Ética e de Conduta dos Servidores do Tribunal de Contas do Estado 
 - **Independência Profissional e Imparcialidade:** Imunidade absoluta contra pressões de governantes, partidos políticos, grupos econômicos ou sindicatos; as conclusões de auditorias e instruções processuais devem apoiar-se estritamente na Constituição, nas leis e em matrizes probatórias consistentes.
 - **Eficácia e Competência Técnica:** Busca contínua por aprimoramento profissional na Escola Superior de Controle Externo, aplicando os melhores padrões técnicos para elevar o rendimento do controle da despesa pública.
 
----
-
 ### 1.2 Alinhamento com a ISSAI 130 da INTOSAI e Primazia do Interesse Público
 O Código de Ética do TCE-GO encontra-se em total sintonia com a **ISSAI 130 (Código de Ética da Organização Internacional das Entidades Fiscalizadoras Superiores - INTOSAI)** e com as diretrizes da Associação dos Membros dos Tribunais de Contas do Brasil (ATRICON) e do Instituto Rui Barbosa (IRB):
 
 - **Primazia do Interesse Público:** O interesse público coletivo se sobrepõe incondicionalmente a quaisquer conveniências pessoais, partidárias, corporativas ou setoriais.
 - **Cultura de Integridade e Prestação de Contas (*Accountability*):** O controle externo deve constituir modelo de integridade para toda a Administração Pública, não se tolerando complacência com desvios morais ou conflitos de interesses em suas próprias fileiras.
 
+---
 
 ### Teste 162
 **(FCC – Inédita – Padrão TCE-GO)**  
@@ -107,10 +102,7 @@ O Código de Ética dos Servidores do TCE-GO orienta-se pelos padrões éticos i
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Deveres Éticos e Postura Funcional do Servidor do TCE-GO
 
@@ -121,8 +113,6 @@ Constituem deveres inafastáveis dos servidores do TCE-GO:
 - Facilitar o exercício dos direitos de fiscalização social assegurados ao cidadão;
 - Atuar com neutralidade ideológica no trato das informações processuais e nas relações institucionais.
 
----
-
 ### 2.2 Zelo Técnico, Produtividade e Rigor Procedimental
 O servidor do controle externo tem a obrigação de:
 
@@ -130,6 +120,14 @@ O servidor do controle externo tem a obrigação de:
 - Fundamentar com rigor técnico todas as análises de contas, apontando com precisão os dispositivos legais transgredidos e a quantificação fidedigna do dano ao erário quando verificado;
 - Zelar pela conservação dos bens públicos, equipamentos eletrônicos, bases de dados e materiais colocados à disposição para o desempenho do serviço.
 
+### 2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas
+No âmbito do TCE-GO, o manuseio de dados fiscais, bancários, orçamentários e relatórios de auditoria submete-se ao mais rígido **dever de sigilo e confidencialidade**:
+
+- **Custódia Segura das Bases de Dados:** O servidor responde pela integridade e preservação dos arquivos eletrônicos, papéis de trabalho e informações confidenciais a que tiver acesso;
+- **Proibição de Uso de Informação Privilegiada:** É expressamente vedado ao servidor utilizar informação confidencial ou ainda não divulgada formalmente pela Corte de Contas para auferir vantagem pessoal direta ou indireta, para beneficiar parentes, amigos ou terceiros;
+- **Sigilo das Ações de Fiscalização:** As etapas preliminares de inspeções e auditorias mantêm caráter reservado até a notificação formal das partes e liberação pública do relatório pelos órgãos deliberativos, sob pena de responsabilidade ética, disciplinar e criminal por quebra de segredo funcional.
+
+---
 
 ### Teste 163
 **(FCC – Inédita – Padrão TCE-GO)**  
@@ -158,14 +156,6 @@ Nos termos do Código de Ética dos Servidores do TCE-GO, quanto aos deveres fun
 
 ---
 
-### 2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas
-No âmbito do TCE-GO, o manuseio de dados fiscais, bancários, orçamentários e relatórios de auditoria submete-se ao mais rígido **dever de sigilo e confidencialidade**:
-
-- **Custódia Segura das Bases de Dados:** O servidor responde pela integridade e preservação dos arquivos eletrônicos, papéis de trabalho e informações confidenciais a que tiver acesso;
-- **Proibição de Uso de Informação Privilegiada:** É expressamente vedado ao servidor utilizar informação confidencial ou ainda não divulgada formalmente pela Corte de Contas para auferir vantagem pessoal direta ou indireta, para beneficiar parentes, amigos ou terceiros;
-- **Sigilo das Ações de Fiscalização:** As etapas preliminares de inspeções e auditorias mantêm caráter reservado até a notificação formal das partes e liberação pública do relatório pelos órgãos deliberativos, sob pena de responsabilidade ética, disciplinar e criminal por quebra de segredo funcional.
-
-
 ### Teste 164
 **(FCC – Inédita – Padrão TCE-GO)**  
 Sobre o dever de sigilo profissional e a custódia de dados confidenciais regulados no Código de Ética do TCE-GO:
@@ -189,10 +179,7 @@ Sobre o dever de sigilo profissional e a custódia de dados confidenciais regula
 >
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 3. Proibições Éticas, Vedações e Conflito de Interesses
 
@@ -205,6 +192,36 @@ Sobre o dever de sigilo profissional e a custódia de dados confidenciais regula
 4. **Prática de Assédio:** Qualquer atitude que configure assédio moral ou assédio sexual nas relações funcionais de trabalho.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** É frequente a FCC apresentar cenários de servidores do TCE que, indignados com desvios que apuram, publicam desabafos e documentos preliminares em suas redes sociais pessoais, alegando "direito de livre expressão" ou "dever de publicidade". A conduta configura **grave violação ética aos deveres de sigilo e reserva**. A publicidade dos achados de controle ocorre estritamente pelos canais institucionais oficiais e após o contraditório formal!
+
+### 3.2 Política Institucional de Presentes vs. Brindes
+A disciplina de integridade do TCE-GO estabelece fronteira nítida entre o que configura vantagem indevida (presente) e simples cortesia de divulgação institucional (brinde):
+
+```mermaid
+flowchart TD
+    Oferta["Oferta de Item ou Benefício ao Servidor"]
+    
+    Oferta --> Analise{"Qual a classificação da oferta?"}
+    
+    Analise -- "Passagens, hospedagens, almoços executivos ou itens de valor" --> Presente["PRESENTE / VANTAGEM INDEVIDA<br/>• REGRA: PROIBIÇÃO ABSOLUTA!"]
+    Presente --> Recusa["Recusa imediata obrigatória.<br/>Se inviável recusar de imediato:<br/>Entrega à administração para doação social."]
+    
+    Analise -- "Itens promocionais de valor módico e distribuição geral" --> Brinde["BRINDE INSTITUCIONAL<br/>• Canetas, blocos, calendários institucionais"]
+    Brinde --> Aceitacao["PERMITIDO: Uso pessoal e funcional<br/>(Sem valor econômico expressivo)"]
+```
+
+| Parâmetro Comparativo | Presente / Vantagem Financeira | Brinde Institucional |
+| :--- | :--- | :--- |
+| **Definição e Natureza** | Bens, serviços, transporte, passagens aéreas, estadias, jantares ou cortesias que possuam valor comercial individualizado apreciável. | Artigos promocionais de valor econômico módico e sem apelo de comercialização. |
+| **Critério de Distribuição** | Destinado especificamente a um servidor público, equipe de auditoria ou gabinete determinado. | Distribuído em caráter genérico a todos os participantes de evento público, seminário ou feira institucional. |
+| **Tratamento no Código de Ética** | **VEDAÇÃO ABSOLUTA**. A aceitação gera quebra de imparcialidade e enseja sanção ética, sem prejuízo de apuração por improbidade ou crime de corrupção. | **PERMITIDO**, desde que de valor módico estipulado nos normativos da Corte. |
+| **Procedimento em Caso de Impossibilidade de Recusa Imediata** | O servidor tem o dever funcional de entregar o item à Diretoria de Administração para fins de incorporação ao patrimônio ou doação a entidades filantrópicas. | O servidor pode reter o item para utilização nas dependências da repartição. |
+
+> ⭐ **IMPORTANTE / PEGADINHA DE CONCURSO:** Convite de fornecedor de TI para o servidor participar de congresso internacional com "tudo pago pela empresa" **NÃO É BRINDE**! Constitui vantagem indevida expressamente vedada pelo Código de Ética, gerando impedimento e responsabilização funcional imediata.
+
+### 3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento
+O conflito de interesses ocorre quando o interesse privado do servidor pode influenciar de maneira inadequada o desempenho de suas atribuições públicas no controle externo.
+
+- **Dever de Autodeclaração:** O servidor designado para atuar em auditoria, instrução de processo de contas ou análise de licitação que possuir relação de parentesco (cônjuge, companheiro ou parentes consanguíneos ou afins até o terceiro grau) com dirigentes da entidade auditada, ou com quem mantenha litígio judicial ou interesse financeiro comum, tem a **obrigação ética de autodeclarar imediatamente o impedimento**, solicitando à chefia imediata sua substituição na equipe.
 
 ---
 
@@ -233,35 +250,6 @@ Flávio, Técnico de Controle Externo do TCE-GO, teve acesso a um relatório pre
 
 ---
 
-
-
-### 3.2 Política Institucional de Presentes vs. Brindes
-A disciplina de integridade do TCE-GO estabelece fronteira nítida entre o que configura vantagem indevida (presente) e simples cortesia de divulgação institucional (brinde):
-
-```mermaid
-flowchart TD
-    Oferta["Oferta de Item ou Benefício ao Servidor"]
-    
-    Oferta --> Analise{"Qual a classificação da oferta?"}
-    
-    Analise -- "Passagens, hospedagens, almoços executivos ou itens de valor" --> Presente["PRESENTE / VANTAGEM INDEVIDA<br/>• REGRA: PROIBIÇÃO ABSOLUTA!"]
-    Presente --> Recusa["Recusa imediata obrigatória.<br/>Se inviável recusar de imediato:<br/>Entrega à administração para doação social."]
-    
-    Analise -- "Itens promocionais de valor módico e distribuição geral" --> Brinde["BRINDE INSTITUCIONAL<br/>• Canetas, blocos, calendários institucionais"]
-    Brinde --> Aceitacao["PERMITIDO: Uso pessoal e funcional<br/>(Sem valor econômico expressivo)"]
-```
-
-| Parâmetro Comparativo | Presente / Vantagem Financeira | Brinde Institucional |
-| :--- | :--- | :--- |
-| **Definição e Natureza** | Bens, serviços, transporte, passagens aéreas, estadias, jantares ou cortesias que possuam valor comercial individualizado apreciável. | Artigos promocionais de valor econômico módico e sem apelo de comercialização. |
-| **Critério de Distribuição** | Destinado especificamente a um servidor público, equipe de auditoria ou gabinete determinado. | Distribuído em caráter genérico a todos os participantes de evento público, seminário ou feira institucional. |
-| **Tratamento no Código de Ética** | **VEDAÇÃO ABSOLUTA**. A aceitação gera quebra de imparcialidade e enseja sanção ética, sem prejuízo de apuração por improbidade ou crime de corrupção. | **PERMITIDO**, desde que de valor módico estipulado nos normativos da Corte. |
-| **Procedimento em Caso de Impossibilidade de Recusa Imediata** | O servidor tem o dever funcional de entregar o item à Diretoria de Administração para fins de incorporação ao patrimônio ou doação a entidades filantrópicas. | O servidor pode reter o item para utilização nas dependências da repartição. |
-
-> ⭐ **IMPORTANTE / PEGADINHA DE CONCURSO:** Convite de fornecedor de TI para o servidor participar de congresso internacional com "tudo pago pela empresa" **NÃO É BRINDE**! Constitui vantagem indevida expressamente vedada pelo Código de Ética, gerando impedimento e responsabilização funcional imediata.
-
----
-
 ### Teste 166
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Rodrigo, Técnico de Controle Externo do TCE-GO designado para compor comissão de fiscalização de contratos de serviços de informática, é abordado pelo diretor comercial de uma grande empresa de tecnologia que disputa novo certame estadual. O empresário oferece a Rodrigo o pagamento integral de passagens aéreas, estadia em hotel de luxo e inscrições para um congresso temático no exterior. Paralelamente, envia ao gabinete de Rodrigo uma cesta de vinhos importados de alto valor comercial. Diante das regras deontológicas constantes do Código de Ética dos Servidores do TCE-GO, Rodrigo deverá:
@@ -284,15 +272,6 @@ Rodrigo, Técnico de Controle Externo do TCE-GO designado para compor comissão 
 > - **E) Incorreta.** A Comissão de Ética não tem competência para homologar recebimento de benesses financeiras ou vantagens indevidas.
 > 
 > **Gabarito: B**
-
----
-
-
-
-### 3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento
-O conflito de interesses ocorre quando o interesse privado do servidor pode influenciar de maneira inadequada o desempenho de suas atribuições públicas no controle externo.
-
-- **Dever de Autodeclaração:** O servidor designado para atuar em auditoria, instrução de processo de contas ou análise de licitação que possuir relação de parentesco (cônjuge, companheiro ou parentes consanguíneos ou afins até o terceiro grau) com dirigentes da entidade auditada, ou com quem mantenha litígio judicial ou interesse financeiro comum, tem a **obrigação ética de autodeclarar imediatamente o impedimento**, solicitando à chefia imediata sua substituição na equipe.
 
 ---
 
@@ -319,6 +298,7 @@ De acordo com os princípios da INTOSAI (ISSAI 130) e as diretrizes do Código d
 > 
 > **Gabarito: B**
 
+---
 
 ### Teste 168
 **(FCC – Inédita – Padrão TCE-GO)**  
@@ -343,10 +323,7 @@ No que concerne às proibições éticas e conduta pública do servidor do TCE-G
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 4. A Comissão de Ética do TCE-GO e o Processo Ético
 
@@ -358,6 +335,36 @@ A Comissão de Ética do TCE-GO é órgão autônomo colegiado, instituído pela
     1. **Função Consultiva e Preventiva:** Responde a consultas abstratas de servidores sobre conflitos de interesses e dilemas deontológicos, emitindo pareceres orientadores;
     2. **Função Educativa:** Promove campanhas institucionais de integridade, transparência e respeito à ética pública;
     3. **Função Investigativa e Judicante:** Processa e julga representações e denúncias sobre condutas antiéticas de servidores da Casa.
+
+### 4.2 Rito Sumário Apuratório e Garantia da Ampla Defesa
+O procedimento ético adota rito sumário simplificado, com garantia constitucional da ampla defesa:
+
+1. Notificação do servidor investigado para, querendo, prestar esclarecimentos preliminares e apresentar defesa escrita no prazo regimental;
+2. Produção de provas documentais e oitiva de eventuais testemunhas sob a condução da Comissão;
+3. Elaboração de relatório conclusivo motivado reconhecendo a improcedência do fato ou a consumação de desvio ético.
+
+### 4.3 A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria
+A competência punitiva direta da Comissão de Ética restringe-se estritamente ao âmbito moral e ético:
+
+```mermaid
+graph TD
+    ProcEtico["Processo Ético Sumário perante a Comissão de Ética"]
+    
+    ProcEtico --> Decisao{"Comprovada a Infração Ética?"}
+    
+    Decisao -- "Sim" --> PenalidadeUnica["Aplicação da Penalidade Exclusiva de:<br/>CENSURA ÉTICA<br/>(Anotada nos assentamentos funcionais do servidor)"]
+    Decisao -- "Não" --> Arquiva["Arquivamento do Feito"]
+    
+    PenalidadeUnica --> AnaliseDesdobramento{"A conduta também configura falta estatutária?"}
+    AnaliseDesdobramento -- "Sim (Falta média/grave ou improbidade)" --> RemessaCorreg["Remessa dos autos à CORREGEDORIA-GERAL<br/>para instauração de PAD disciplinar (Lei 20.756/2020)"]
+    AnaliseDesdobramento -- "Não (Apenas falta ética)" --> Fim["Procedimento Encerrado"]
+```
+
+- **A Penalidade de Censura Ética:** A única sanção que a Comissão de Ética pode aplicar diretamente ao servidor infrator é a pena de **Censura Ética**, a qual é consignada nos registros cadastrais e funcionais do servidor, gerando reflexos negativos na avaliação de desempenho para fins de promoção e na concessão de elogios.
+- **Incompetência para Sanções Estatutárias:** A Comissão de Ética **NÃO pode aplicar** penas de demissão, suspensão funcional, advertência disciplinar, multa ou cassação de aposentadoria da Lei nº 20.756/2020.
+- **Encaminhamento à Corregedoria-Geral:** Havendo indícios de que o ato praticado pelo servidor ultrapassa o desvio ético e enquadra-se como infração estatutária, ato de improbidade administrativa ou ilícito penal, a Comissão de Ética remeterá cópia integral do processo à **Corregedoria-Geral do TCE-GO** para deflagração de Processo Administrativo Disciplinar (PAD).
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Questões da FCC costumam afirmar que a Comissão de Ética "demitiu o servidor" ou "aplicou suspensão de 30 dias". Essa afirmação está **TOTALMENTE ERRADA**. A única sanção que a Comissão de Ética pode impor diretamente é a **CENSURA ÉTICA**. Suspensão e demissão são matérias privativas da esfera disciplinar processadas pela Corregedoria e julgadas pela autoridade administrativa.
 
 ---
 
@@ -386,42 +393,6 @@ Considere que um servidor recém-empossado no TCE-GO possua dúvidas legítimas 
 
 ---
 
-
-
-### 4.2 Rito Sumário Apuratório e Garantia da Ampla Defesa
-O procedimento ético adota rito sumário simplificado, com garantia constitucional da ampla defesa:
-
-1. Notificação do servidor investigado para, querendo, prestar esclarecimentos preliminares e apresentar defesa escrita no prazo regimental;
-2. Produção de provas documentais e oitiva de eventuais testemunhas sob a condução da Comissão;
-3. Elaboração de relatório conclusivo motivado reconhecendo a improcedência do fato ou a consumação de desvio ético.
-
----
-
-### 4.3 A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria
-A competência punitiva direta da Comissão de Ética restringe-se estritamente ao âmbito moral e ético:
-
-```mermaid
-graph TD
-    ProcEtico["Processo Ético Sumário perante a Comissão de Ética"]
-    
-    ProcEtico --> Decisao{"Comprovada a Infração Ética?"}
-    
-    Decisao -- "Sim" --> PenalidadeUnica["Aplicação da Penalidade Exclusiva de:<br/>CENSURA ÉTICA<br/>(Anotada nos assentamentos funcionais do servidor)"]
-    Decisao -- "Não" --> Arquiva["Arquivamento do Feito"]
-    
-    PenalidadeUnica --> AnaliseDesdobramento{"A conduta também configura falta estatutária?"}
-    AnaliseDesdobramento -- "Sim (Falta média/grave ou improbidade)" --> RemessaCorreg["Remessa dos autos à CORREGEDORIA-GERAL<br/>para instauração de PAD disciplinar (Lei 20.756/2020)"]
-    AnaliseDesdobramento -- "Não (Apenas falta ética)" --> Fim["Procedimento Encerrado"]
-```
-
-- **A Penalidade de Censura Ética:** A única sanção que a Comissão de Ética pode aplicar diretamente ao servidor infrator é a pena de **Censura Ética**, a qual é consignada nos registros cadastrais e funcionais do servidor, gerando reflexos negativos na avaliação de desempenho para fins de promoção e na concessão de elogios.
-- **Incompetência para Sanções Estatutárias:** A Comissão de Ética **NÃO pode aplicar** penas de demissão, suspensão funcional, advertência disciplinar, multa ou cassação de aposentadoria da Lei nº 20.756/2020.
-- **Encaminhamento à Corregedoria-Geral:** Havendo indícios de que o ato praticado pelo servidor ultrapassa o desvio ético e enquadra-se como infração estatutária, ato de improbidade administrativa ou ilícito penal, a Comissão de Ética remeterá cópia integral do processo à **Corregedoria-Geral do TCE-GO** para deflagração de Processo Administrativo Disciplinar (PAD).
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Questões da FCC costumam afirmar que a Comissão de Ética "demitiu o servidor" ou "aplicou suspensão de 30 dias". Essa afirmação está **TOTALMENTE ERRADA**. A única sanção que a Comissão de Ética pode impor diretamente é a **CENSURA ÉTICA**. Suspensão e demissão são matérias privativas da esfera disciplinar processadas pela Corregedoria e julgadas pela autoridade administrativa.
-
----
-
 ### Teste 170
 **(FCC – TCE-RO – Auditor de Controle Externo)**  
 A respeito da Comissão de Ética e do rito de apuração de infrações comportamentais no âmbito dos Tribunais de Contas, assinale a opção correta:
@@ -445,6 +416,7 @@ A respeito da Comissão de Ética e do rito de apuração de infrações comport
 > 
 > **Gabarito: B**
 
+---
 
 ### Teste 171
 **(FCC – Inédita – Padrão TCE-GO)**  
@@ -469,10 +441,7 @@ Sobre as competências da Comissão de Ética do Tribunal de Contas do Estado de
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 

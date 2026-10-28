@@ -20,10 +20,7 @@
 - Regência nominal de substantivos e adjetivos de uso frequente em atos públicos;
 - Emprego do sinal indicativo de crase: fusão preposição + artigo, métodos práticos de substituição, casos proibidos, casos obrigatórios e casos facultativos.
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -44,15 +41,15 @@
     1. [Regra Geral da Concordância Nominal](#31-regra-geral-da-concordancia-nominal)
     2. [Adjetivo Referente a Mais de um Substantivo](#32-adjetivo-referente-a-mais-de-um-substantivo)
     3. [Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo](#33-palavras-e-expressoes-criticas-anexo-incluso-proprio-e-mesmo)
-    4. [Teste 044](#Teste-044)
-    5. [O Funcionamento de Bastante, Meio, Menos e Alerta](#34-o-funcionamento-de-bastante-meio-menos-e-alerta)
-    6. [Expressões do Tipo É Proibido, É Necessário e É Bom](#35-expressoes-do-tipo-e-proibido-e-necessario-e-e-bom)
+    4. [O Funcionamento de Bastante, Meio, Menos e Alerta](#34-o-funcionamento-de-bastante-meio-menos-e-alerta)
+    5. [Expressões do Tipo É Proibido, É Necessário e É Bom](#35-expressoes-do-tipo-e-proibido-e-necessario-e-e-bom)
+    6. [Teste 044](#Teste-044)
     7. [Teste 045](#Teste-045)
 4. [Regência Verbal: Transitividade e Complementação dos Verbos Críticos](#4-regencia-verbal-transitividade-e-complementacao-dos-verbos-criticos)
     1. [Princípios da Regência Verbal na Norma Culta](#41-principios-da-regencia-verbal-na-norma-culta)
     2. [O Cardápio dos Verbos Preferidos da FCC](#42-o-cardapio-dos-verbos-preferidos-da-fcc)
-    3. [Teste 046](#Teste-046)
-    4. [Regência Verbal Associada a Pronomes Relativos](#43-regencia-verbal-associada-a-pronomes-relativos)
+    3. [Regência Verbal Associada a Pronomes Relativos](#43-regencia-verbal-associada-a-pronomes-relativos)
+    4. [Teste 046](#Teste-046)
     5. [Teste 047](#Teste-047)
 5. [Regência Nominal de Substantivos e Adjetivos](#5-regencia-nominal-de-substantivos-e-adjetivos)
     1. [Mecânica do Complemento Nominal](#51-mecanica-do-complemento-nominal)
@@ -62,16 +59,15 @@
     1. [Natureza Fonética e Morfossintática da Crase](#61-natureza-fonetica-e-morfossintatica-da-crase)
     2. [Métodos Práticos de Reconhecimento: A Troca pelo Masculino (Método do AO)](#62-metodos-praticos-de-reconhecimento-a-troca-pelo-masculino-metodo-do-ao)
     3. [Casos de Crase Proibida](#63-casos-de-crase-proibida)
-    4. [Teste 049](#Teste-049)
-    5. [Casos de Crase Obrigatória](#64-casos-de-crase-obrigatoria)
-    6. [Teste 050](#Teste-050)
-    7. [Casos de Crase Facultativa](#65-casos-de-crase-facultativa)
-    8. [Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo](#66-crase-com-pronomes-demonstrativos-aquele-aquela-e-aquilo)
+    4. [Casos de Crase Obrigatória](#64-casos-de-crase-obrigatoria)
+    5. [Casos de Crase Facultativa](#65-casos-de-crase-facultativa)
+    6. [Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo](#66-crase-com-pronomes-demonstrativos-aquele-aquela-e-aquilo)
+    7. [Teste 049](#Teste-049)
+    8. [Teste 050](#Teste-050)
     9. [Teste 051](#Teste-051)
-7. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+7. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Concordância Verbal: Fundamentos e Estruturas Particulares
 
@@ -127,6 +123,7 @@ Quando o sujeito da oração é constituído por pronome relativo:
 3. **Núcleos Resumidos por Aposto Recapitulativo:** Se os núcleos do sujeito composto forem seguidos por pronomes indefinidos resumitivos (*tudo, nada, ninguém, nenhum*), o verbo concorda obrigatoriamente no **singular**:
     * *"Documentos, notas fiscais, contratos, extratos bancários, **nada escapou** à perícia dos auditores."*
 
+---
 
 ### Teste 042
 **(FCC – TRT-23 – Analista Judiciário)**  
@@ -160,10 +157,7 @@ ightarrow$ singular: *foi destinado*). Logo, o plural é plenamente lícito.
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. Verbos Impessoais e a Dinâmica das Locuções Verbais
 
@@ -249,10 +243,7 @@ A frase em que a concordância verbal, a regência e o emprego do sinal indicati
 > 
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 3. Concordância Nominal e Casos Especiais
 
@@ -285,34 +276,6 @@ O adjetivo concorda em gênero e número com o único substantivo a que se repor
 * **A Expressão "EM ANEXO":** Trata-se de locução adverbial cristalizada, sendo **sempre invariável**:
     * *"Seguem **em anexo** as cópias das certidões."*
 
----
-
-### Teste 044
-**(FCC – DPE-RS – Analista de Gestão Pública)**  
-No tocante às normas de **concordância nominal**, assinale a frase inteiramente correta:
-
-* **A)** *"Seguem anexo aos autos as cópias das certidões e os comprovantes de despesa pública."*
-* **B)** *"A servidora estava meia apreensiva diante das perguntas formuladas pela comissão de sindicância."*
-* **C)** *"Remeto a Vossas Excelências inclusas as planilhas financeiras com os cálculos atualizados do débito."*
-* **D)** *"Naquela secretaria estadual, havia menas servidoras lotadas no setor de tecnologia."*
-* **E)** *"É proibida entrada de pessoas sem identificação nas dependências do tribunal."*
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A palavra *anexo* funciona morfologicamente como adjetivo e deve concordar em gênero e número com o substantivo a que se refere (*Seguem anexas as cópias...*). Apenas a locução adverbial *em anexo* é invariável.
-> - **B)** Incorreta. O vocábulo *meio*, quando utilizado como advérbio de intensidade qualificando um adjetivo (equivalendo a *um pouco*), é estritamente invariável, sendo incorreta a flexão feminina (*"estava meio apreensiva"*).
-> - **C)** Correta. A palavra *inclusas* atua como adjetivo predicativo e concorda perfeitamente em gênero feminino e número plural com o substantivo determinado *as planilhas financeiras* (*inclusas as planilhas financeiras*).
-> - **D)** Incorreta. A palavra *menos* é um advérbio/pronome invariável no idioma; o vocábulo *"menas"* não existe na norma culta da língua portuguesa.
-> - **E)** Incorreta. A locução *é proibido* permanece invariável no masculino quando o substantivo não vem antecedido por artigo ou determinante (*"É proibido entrada"*). Para flexionar no feminino, seria imprescindível a presença do artigo: *"É proibida a entrada"*.
-> 
-> **Gabarito: C**
-
----
-
-
 ### 3.4 O Funcionamento de Bastante, Meio, Menos e Alerta
 
 1. **BASTANTE:**
@@ -341,6 +304,32 @@ Expressões formadas pelo verbo *ser* mais adjetivo qualificando um substantivo 
 
 > 💡 **DICA DE CONCORDÂNCIA NOMINAL / "É PROIBIDO":** Observe o substantivo que vem depois: se houver a presença do artigo *a* (*a entrada*), a concordância feminina é impositiva: *"É proibida a entrada"*. Se não houver artigo (*entrada* sem determinante), o adjetivo permanece invariável no masculino: *"É proibido entrada"*.
 
+---
+
+### Teste 044
+**(FCC – DPE-RS – Analista de Gestão Pública)**  
+No tocante às normas de **concordância nominal**, assinale a frase inteiramente correta:
+
+* **A)** *"Seguem anexo aos autos as cópias das certidões e os comprovantes de despesa pública."*
+* **B)** *"A servidora estava meia apreensiva diante das perguntas formuladas pela comissão de sindicância."*
+* **C)** *"Remeto a Vossas Excelências inclusas as planilhas financeiras com os cálculos atualizados do débito."*
+* **D)** *"Naquela secretaria estadual, havia menas servidoras lotadas no setor de tecnologia."*
+* **E)** *"É proibida entrada de pessoas sem identificação nas dependências do tribunal."*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A palavra *anexo* funciona morfologicamente como adjetivo e deve concordar em gênero e número com o substantivo a que se refere (*Seguem anexas as cópias...*). Apenas a locução adverbial *em anexo* é invariável.
+> - **B)** Incorreta. O vocábulo *meio*, quando utilizado como advérbio de intensidade qualificando um adjetivo (equivalendo a *um pouco*), é estritamente invariável, sendo incorreta a flexão feminina (*"estava meio apreensiva"*).
+> - **C)** Correta. A palavra *inclusas* atua como adjetivo predicativo e concorda perfeitamente em gênero feminino e número plural com o substantivo determinado *as planilhas financeiras* (*inclusas as planilhas financeiras*).
+> - **D)** Incorreta. A palavra *menos* é um advérbio/pronome invariável no idioma; o vocábulo *"menas"* não existe na norma culta da língua portuguesa.
+> - **E)** Incorreta. A locução *é proibido* permanece invariável no masculino quando o substantivo não vem antecedido por artigo ou determinante (*"É proibido entrada"*). Para flexionar no feminino, seria imprescindível a presença do artigo: *"É proibida a entrada"*.
+> 
+> **Gabarito: C**
+
+---
 
 ### Teste 045
 **(FCC – TCE-GO – Analista de Controle Externo)**  
@@ -365,10 +354,7 @@ Assinale a alternativa em que a concordância nominal atende integralmente às e
 >
 > **Gabarito: D**
 
-
-
 ---
-
 
 ## 4. Regência Verbal: Transitividade e Complementação dos Verbos Críticos
 
@@ -403,6 +389,14 @@ A mesma forma verbal pode assumir trânsitos sintáticos e acepções semântica
 > * É proibido usar a locução *"do que"* (*"Prefiro estudar do que trabalhar"* $\rightarrow$ **ERRADO**; o correto é: *"Prefiro estudar **a** trabalhar"*).
 > * É proibido associar advérbios intensificadores (*"Prefiro mais café"*, *"Prefiro antes o silêncio"*, *"Prefiro mil vezes o concurso"* $\rightarrow$ **ERRADO**).
 
+### 4.3 Regência Verbal Associada a Pronomes Relativos
+
+Um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para **antes do pronome relativo**:
+
+* *"O projeto de infraestrutura **a que** o secretário se referiu..."* (quem se refere, refere-se **a** algo $\rightarrow$ preposição *a* anteposta ao pronome *que*).
+* *"O cargo público **a que** o candidato aspira..."* (quem aspira no sentido de almejar, aspira **a** algo $\rightarrow$ preposição *a* antes de *que*).
+* *"A diretriz orçamentária **a cuja** execução a população aspira..."* (o verbo *aspirar* rege a preposição *a*, a qual se antepõe ao pronome relativo possessivo *cuja*).
+
 ---
 
 ### Teste 046
@@ -429,17 +423,6 @@ A respeito da regência do verbo **PREFERIR**, assinale a opção que atende à 
 > - **E)** Incorreta. Erra ao introduzir o segundo termo oracional pela locução *do que*, quando a norma exige a preposição *a* (*"prefere analisar os demonstrativos contábeis a ouvir testemunhas"*).
 > 
 > **Gabarito: C**
-
----
-
-
-### 4.3 Regência Verbal Associada a Pronomes Relativos
-
-Um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para **antes do pronome relativo**:
-
-* *"O projeto de infraestrutura **a que** o secretário se referiu..."* (quem se refere, refere-se **a** algo $\rightarrow$ preposição *a* anteposta ao pronome *que*).
-* *"O cargo público **a que** o candidato aspira..."* (quem aspira no sentido de almejar, aspira **a** algo $\rightarrow$ preposição *a* antes de *que*).
-* *"A diretriz orçamentária **a cuja** execução a população aspira..."* (o verbo *aspirar* rege a preposição *a*, a qual se antepõe ao pronome relativo possessivo *cuja*).
 
 ---
 
@@ -470,10 +453,7 @@ As lacunas da frase acima são correta e respectivamente preenchidas por:
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 5. Regência Nominal de Substantivos e Adjetivos
 
@@ -497,6 +477,7 @@ O complemento nominal completa o sentido passivo de uma palavra que, por si só,
 * **Passível de:** *"O ato é passível de anulação por vício de forma."*
 * **Respeito a / por:** *"O respeito à dignidade humana e pelas leis."*
 
+---
 
 ### Teste 048
 **(FCC – METRÔ-SP – Advogado)**  
@@ -523,10 +504,7 @@ As preposições que preenchem correta e respectivamente as lacunas da frase sã
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 6. Teoria Geral e Emprego do Sinal Indicativo de Crase
 
@@ -580,34 +558,6 @@ O emprego do sinal indicativo de crase é estritamente vedado nos seguintes cont
 
 6. **Antes de Nomes de Cidade que Rejeitam Artigo:** Aplica-se a regra mnemônica clássica: *"Se vou a e volto da, craseio o a; se vou a e volto de, crase pra quê?"*: *"Vou a Goiânia"* (volto de Goiânia $\rightarrow$ sem crase). Se a cidade for qualificada, a crase torna-se obrigatória: *"Vou à bela Goiânia de minha infância"*.
 
----
-
-### Teste 049
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
-Assinale a frase em que o sinal indicativo de crase está empregado em **estrita conformidade** com a norma culta:
-
-* **A)** *"A decisão do Tribunal Pleno foi comunicada à todas as autoridades presentes na assembleia."*
-* **B)** *"O conselheiro começou à redigir o voto conclusivo nas primeiras horas da manhã."*
-* **C)** *"Os auditores permaneceram frente à frente com os gestores investigados durante o depoimento."*
-* **D)** *"O recurso ordinário foi remetido diretamente àquela diretoria responsável pela fiscalização de obras."*
-* **E)** *"O presidente do órgão concedeu audiência à um grupo de manifestantes da área de saúde."*
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. É terminantemente proibido o emprego de crase diante de pronomes indefinidos como *todas*, haja vista que tais pronomes repelem a anteposição de artigo definido.
-> - **B)** Incorreta. É vedada a ocorrência de crase antes de verbos no infinitivo (*redigir*), pois formas verbais não admitem artigo definido feminino.
-> - **C)** Incorreta. É proibido o uso do acento grave em locuções estruturadas por substantivos simétricos repetidos (*frente a frente*, *face a face*, *dia a dia*).
-> - **D)** Correta. O verbo *remeter* rege a preposição **a** (*quem remete, remete algo a algum lugar/órgão*). Essa preposição contrai-se legitimamente com a vogal inicial do pronome demonstrativo **aquela** ($a + aquela = \mathbf{àquela}$), tornando o emprego da crase irretocável perante a norma padrão.
-> - **E)** Incorreta. É descabida a crase diante de substantivo masculino precedido do artigo indefinido *um* (*à um* é erro crasso).
-> 
-> **Gabarito: D**
-
----
-
-
 ### 6.4 Casos de Crase Obrigatória
 
 1. **Locuções Adverbiais Femininas:** Expressam circunstâncias de tempo, modo ou lugar estruturadas com palavra feminina:
@@ -622,34 +572,6 @@ Assinale a frase em que o sinal indicativo de crase está empregado em **estrita
     * Nota: se houver preposição antecedente (*para, desde, após, até*), não há crase: *"A reunião foi agendada **para as** 14 horas"*.
 
 4. **Locução Elíptica "À Moda De / À Maneira De":** Ocorre crase mesmo diante de vocábulos masculinos quando estiver subentendida a expressão feminina *à moda de*: *"Pediu um bife **à [moda de]** milanesa"*, *"Escrevia versos **à [maneira de]** Olavo Bilac"*.
-
-
----
-
-### Teste 050
-**(FCC – DPE-RS – Analista Processual)**  
-O sinal indicativo de crase está empregado em estrita observância à norma-padrão em:
-
-* **A)** A comissão de licitação procedeu à abertura dos envelopes perante à uma plateia atenta.
-* **B)** Os auditores compareceram à audiência pública dispostos à colaborar com o esclarecimento dos fatos.
-* **C)** O presidente do tribunal comunicou o resultado à Vossa Excelência durante a reunião do conselho.
-* **D)** À medida que os documentos contábeis eram analisados, as fraudes vinham à tona de forma irrefutável.
-* **E)** O auditor entregou o parecer à um de seus assessores diretos logo após o almoço.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. É proibida a crase diante de artigo indefinido (*"uma plateia"*), pois não há artigo definido a fundir; além disso, a preposição *perante* já rege o termo sem preposição *a*.
-> - **B)** Incorreta. É absolutamente proibido o emprego de crase antes de verbos (*"à colaborar"*), uma vez que verbos não admitem artigo feminino.
-> - **C)** Incorreta. É proibida a crase diante de pronomes de tratamento em geral (*"Vossa Excelência"*), haja vista que não aceitam artigo definido feminino (exceções: *senhora*, *senhorita* e *dona*).
-> - **D)** Correta. Em *"À medida que"*, trata-se de locução conjuntiva proporcional feminina de núcleo substantivo, na qual o acento grave indicativo de crase é rigorosamente **obrigatório**. Em *"à tona"*, temos locução adverbial de modo feminina, que também exige o sinal indicativo de crase na norma culta.
-> - **E)** Incorreta. É proibido o uso de crase diante de palavras masculinas e de pronomes indefinidos (*"à um"*).
->
-> **Gabarito: D**
-
----
 
 ### 6.5 Casos de Crase Facultativa
 
@@ -677,6 +599,57 @@ Ocorre a fusão da preposição *a* (exigida por regência verbal ou nominal) co
 * *obedecer + a + aquela* $\rightarrow$ *"Devemos obediência **àquela** diretriz."*
 * *referir-se + a + aquilo* $\rightarrow$ *"O relator referiu-se **àquilo** que constava nos laudos."*
 
+---
+
+### Teste 049
+**(FCC – TCE-PI – Auditor de Controle Externo)**  
+Assinale a frase em que o sinal indicativo de crase está empregado em **estrita conformidade** com a norma culta:
+
+* **A)** *"A decisão do Tribunal Pleno foi comunicada à todas as autoridades presentes na assembleia."*
+* **B)** *"O conselheiro começou à redigir o voto conclusivo nas primeiras horas da manhã."*
+* **C)** *"Os auditores permaneceram frente à frente com os gestores investigados durante o depoimento."*
+* **D)** *"O recurso ordinário foi remetido diretamente àquela diretoria responsável pela fiscalização de obras."*
+* **E)** *"O presidente do órgão concedeu audiência à um grupo de manifestantes da área de saúde."*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. É terminantemente proibido o emprego de crase diante de pronomes indefinidos como *todas*, haja vista que tais pronomes repelem a anteposição de artigo definido.
+> - **B)** Incorreta. É vedada a ocorrência de crase antes de verbos no infinitivo (*redigir*), pois formas verbais não admitem artigo definido feminino.
+> - **C)** Incorreta. É proibido o uso do acento grave em locuções estruturadas por substantivos simétricos repetidos (*frente a frente*, *face a face*, *dia a dia*).
+> - **D)** Correta. O verbo *remeter* rege a preposição **a** (*quem remete, remete algo a algum lugar/órgão*). Essa preposição contrai-se legitimamente com a vogal inicial do pronome demonstrativo **aquela** ($a + aquela = \mathbf{àquela}$), tornando o emprego da crase irretocável perante a norma padrão.
+> - **E)** Incorreta. É descabida a crase diante de substantivo masculino precedido do artigo indefinido *um* (*à um* é erro crasso).
+> 
+> **Gabarito: D**
+
+---
+
+### Teste 050
+**(FCC – DPE-RS – Analista Processual)**  
+O sinal indicativo de crase está empregado em estrita observância à norma-padrão em:
+
+* **A)** A comissão de licitação procedeu à abertura dos envelopes perante à uma plateia atenta.
+* **B)** Os auditores compareceram à audiência pública dispostos à colaborar com o esclarecimento dos fatos.
+* **C)** O presidente do tribunal comunicou o resultado à Vossa Excelência durante a reunião do conselho.
+* **D)** À medida que os documentos contábeis eram analisados, as fraudes vinham à tona de forma irrefutável.
+* **E)** O auditor entregou o parecer à um de seus assessores diretos logo após o almoço.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. É proibida a crase diante de artigo indefinido (*"uma plateia"*), pois não há artigo definido a fundir; além disso, a preposição *perante* já rege o termo sem preposição *a*.
+> - **B)** Incorreta. É absolutamente proibido o emprego de crase antes de verbos (*"à colaborar"*), uma vez que verbos não admitem artigo feminino.
+> - **C)** Incorreta. É proibida a crase diante de pronomes de tratamento em geral (*"Vossa Excelência"*), haja vista que não aceitam artigo definido feminino (exceções: *senhora*, *senhorita* e *dona*).
+> - **D)** Correta. Em *"À medida que"*, trata-se de locução conjuntiva proporcional feminina de núcleo substantivo, na qual o acento grave indicativo de crase é rigorosamente **obrigatório**. Em *"à tona"*, temos locução adverbial de modo feminina, que também exige o sinal indicativo de crase na norma culta.
+> - **E)** Incorreta. É proibido o uso de crase diante de palavras masculinas e de pronomes indefinidos (*"à um"*).
+>
+> **Gabarito: D**
+
+---
 
 ### Teste 051
 **(FCC – TRT-14 – Analista Judiciário)**  
@@ -708,10 +681,7 @@ O uso do sinal indicativo de crase é FACULTATIVO em:
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

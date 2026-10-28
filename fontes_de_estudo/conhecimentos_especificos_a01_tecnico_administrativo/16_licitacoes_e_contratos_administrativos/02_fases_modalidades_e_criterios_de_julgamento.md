@@ -19,48 +19,44 @@
 - Modos de disputa: aberto, fechado e suas combinações
 - Prazos mínimos para apresentação de propostas e lances
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
 1. [Fases e Rito Procedimental na Lei Federal nº 14.133/2021](#1-fases-e-rito-procedimental-na-lei-federal-no-141332021)
     1. [Sequência Cronológica Canônica (Art. 17)](#11-sequencia-cronologica-canonica-art-17)
-    2. [Teste 077](#Teste-077)
-    3. [A Inversão de Fases e a Habilitação Exclusiva do Vencedor](#12-a-inversao-de-fases-e-a-habilitacao-exclusiva-do-vencedor)
-    4. [Teste 078](#Teste-078)
-    5. [Fase Recursal Única e Concentrada (Art. 165)](#13-fase-recursal-unica-e-concentrada-art-165)
+    2. [A Inversão de Fases e a Habilitação Exclusiva do Vencedor](#12-a-inversao-de-fases-e-a-habilitacao-exclusiva-do-vencedor)
+    3. [Fase Recursal Única e Concentrada (Art. 165)](#13-fase-recursal-unica-e-concentrada-art-165)
+    4. [Teste 077](#Teste-077)
+    5. [Teste 078](#Teste-078)
     6. [Teste 079](#Teste-079)
 2. [As Cinco Modalidades Licitatórias Modernas (Art. 28)](#2-as-cinco-modalidades-licitatorias-modernas-art-28)
     1. [Pregão: Bens e Serviços Comuns de Engenharia e Consumo](#21-pregao-bens-e-servicos-comuns-de-engenharia-e-consumo)
-    2. [Teste 080](#Teste-080)
-    3. [Concorrência: Bens e Serviços Especiais e Obras](#22-concorrencia-bens-e-servicos-especiais-e-obras)
-    4. [Teste 081](#Teste-081)
-    5. [Concurso: Premiação de Trabalhos Técnicos e Artísticos](#23-concurso-premiacao-de-trabalhos-tecnicos-e-artisticos)
-    6. [Teste 082](#Teste-082)
-    7. [Leilão: A Nova Sistemática para Móveis Inservíveis e Imóveis](#24-leilao-a-nova-sistematica-para-moveis-inserviveis-e-imoveis)
-    8. [Teste 083](#Teste-083)
-    9. [Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)](#25-dialogo-competitivo-inovacao-rito-e-comissao-efetiva-art-32)
-    10. [Teste 084](#Teste-084)
-    11. [A Extinção Definitiva da Tomada de Preços e do Convite](#26-a-extincao-definitiva-da-tomada-de-precos-e-do-convite)
+    2. [Concorrência: Bens e Serviços Especiais e Obras](#22-concorrencia-bens-e-servicos-especiais-e-obras)
+    3. [Concurso: Premiação de Trabalhos Técnicos e Artísticos](#23-concurso-premiacao-de-trabalhos-tecnicos-e-artisticos)
+    4. [Leilão: A Nova Sistemática para Móveis Inservíveis e Imóveis](#24-leilao-a-nova-sistematica-para-moveis-inserviveis-e-imoveis)
+    5. [Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)](#25-dialogo-competitivo-inovacao-rito-e-comissao-efetiva-art-32)
+    6. [A Extinção Definitiva da Tomada de Preços e do Convite](#26-a-extincao-definitiva-da-tomada-de-precos-e-do-convite)
+    7. [Teste 080](#Teste-080)
+    8. [Teste 081](#Teste-081)
+    9. [Teste 082](#Teste-082)
+    10. [Teste 083](#Teste-083)
+    11. [Teste 084](#Teste-084)
 3. [Critérios de Julgamento das Propostas (Art. 33)](#3-criterios-de-julgamento-das-propostas-art-33)
     1. [Menor Preço e Maior Desconto](#31-menor-preco-e-maior-desconto)
     2. [Melhor Técnica ou Conteúdo Artístico](#32-melhor-tecnica-ou-conteudo-artistico)
     3. [Técnica e Preço e o Limite de Ponderação](#33-tecnica-e-preco-e-o-limite-de-ponderacao)
-    4. [Teste 085](#Teste-085)
-    5. [Maior Lance (Privativo do Leilão)](#34-maior-lance-privativo-do-leilao)
-    6. [Maior Retorno Econômico e os Contratos de Eficiência (Art. 39)](#35-maior-retorno-economico-e-os-contratos-de-eficiencia-art-39)
+    4. [Maior Lance (Privativo do Leilão)](#34-maior-lance-privativo-do-leilao)
+    5. [Maior Retorno Econômico e os Contratos de Eficiência (Art. 39)](#35-maior-retorno-economico-e-os-contratos-de-eficiencia-art-39)
+    6. [Teste 085](#Teste-085)
     7. [Teste 086](#Teste-086)
 4. [Modos de Disputa e Prazos Mínimos de Divulgação do Edital](#4-modos-de-disputa-e-prazos-minimos-de-divulgacao-do-edital)
     1. [Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)](#41-modos-de-disputa-aberto-fechado-e-combinacoes-art-56)
-    2. [Teste 087](#Teste-087)
-    3. [Prazos Mínimos de Apresentação de Propostas (Art. 55)](#42-prazos-minimos-de-apresentacao-de-propostas-art-55)
+    2. [Prazos Mínimos de Apresentação de Propostas (Art. 55)](#42-prazos-minimos-de-apresentacao-de-propostas-art-55)
+    3. [Teste 087](#Teste-087)
 5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
-
 
 ## 1. Fases e Rito Procedimental na Lei Federal nº 14.133/2021
 
@@ -88,7 +84,22 @@ flowchart LR
 6. **Fase Recursal:** Etapa única concentrada na qual os licitantes manifestam e fundamentam inconformismos contra o julgamento e a habilitação;
 7. **Homologação:** Ato solene da autoridade superior que ratifica a legalidade de todo o certame e adjudica o objeto ao licitante vencedor.
 
+### 1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor
 
+A maior inovação operacional da NLLC é a consagração definitiva da **inversão de fases como regra geral**:
+
+- **Julgamento Antes da Habilitação:** Em vez de abrir os envelopes documentais de dezenas de licitantes antes de conhecer seus preços (modelo da Lei 8.666/93), a Administração Pública **classifica primeiro as propostas de preços/técnica**;
+- **Conferência Exclusiva do 1º Colocado:** O Agente de Contratação abre e confere a documentação de habilitação **exclusivamente do licitante que obteve o primeiro lugar**. Se a documentação estiver regular, ele é declarado vencedor; se for inabilitado, o agente convoca o segundo colocado na ordem de classificação, e assim sucessivamente.
+- **Exceção de Habilitação Prévia (Art. 17, § 1º):** A inversão pode ser excepcionada (realizando-se a habilitação antes do julgamento das propostas), desde que haja **motivação expressa de interesse público** na fase preparatória e prévia previsão no edital.
+
+### 1.3 Fase Recursal Única e Concentrada (Art. 165)
+
+Na sistemática da NLLC, os recursos administrativos não são mais interpostos de forma fracionada ao término de cada etapa:
+
+- Existe uma **Fase Recursal ÚNICA e concentrada ao final do certame**, deflagrada logo após a declaração do vencedor habilitado;
+- O licitante que discordar de qualquer decisão deve manifestar imediatamente sua intenção de recorrer sob pena de preclusão, dispondo do prazo de **3 (três) dias úteis** para apresentação das razões recursais, abrangendo indistintamente matérias de julgamento de propostas e de habilitação.
+
+---
 
 ### Teste 077
 **(FCC - Analista de Controle Externo / TCE-GO)**
@@ -114,16 +125,6 @@ Assinale a opção que indica a ordem cronológica legal das fases da licitaçã
 > - **E)** Incorreta. A fase preparatória é o ponto de partida indispensável de todo o certame.
 >
 > **Gabarito: C**
-
----
-
-### 1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor
-
-A maior inovação operacional da NLLC é a consagração definitiva da **inversão de fases como regra geral**:
-
-- **Julgamento Antes da Habilitação:** Em vez de abrir os envelopes documentais de dezenas de licitantes antes de conhecer seus preços (modelo da Lei 8.666/93), a Administração Pública **classifica primeiro as propostas de preços/técnica**;
-- **Conferência Exclusiva do 1º Colocado:** O Agente de Contratação abre e confere a documentação de habilitação **exclusivamente do licitante que obteve o primeiro lugar**. Se a documentação estiver regular, ele é declarado vencedor; se for inabilitado, o agente convoca o segundo colocado na ordem de classificação, e assim sucessivamente.
-- **Exceção de Habilitação Prévia (Art. 17, § 1º):** A inversão pode ser excepcionada (realizando-se a habilitação antes do julgamento das propostas), desde que haja **motivação expressa de interesse público** na fase preparatória e prévia previsão no edital.
 
 ---
 
@@ -154,18 +155,6 @@ Em conformidade com a sequência de fases prevista no art. 17 da Lei Federal nº
 
 ---
 
-
-### 1.3 Fase Recursal Única e Concentrada (Art. 165)
-
-Na sistemática da NLLC, os recursos administrativos não são mais interpostos de forma fracionada ao término de cada etapa:
-
-- Existe uma **Fase Recursal ÚNICA e concentrada ao final do certame**, deflagrada logo após a declaração do vencedor habilitado;
-- O licitante que discordar de qualquer decisão deve manifestar imediatamente sua intenção de recorrer sob pena de preclusão, dispondo do prazo de **3 (três) dias úteis** para apresentação das razões recursais, abrangendo indistintamente matérias de julgamento de propostas e de habilitação.
-
----
-
-
-
 ### Teste 079
 **(FGV - Auditor de Controle Externo / TCE-PA)**
 A fase recursal na Nova Lei de Licitações e Contratos (art. 165 da Lei nº 14.133/2021) foi desenhada sob a lógica da concentração e celeridade procedimental.
@@ -191,10 +180,7 @@ Sobre as regras que disciplinam os recursos administrativos no processo licitat�
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 2. As Cinco Modalidades Licitatórias Modernas (Art. 28)
 
@@ -216,6 +202,41 @@ flowchart TD
 - **Objeto Mandatório (Art. 29):** Modalidade de contratação obrigatória para **bens e serviços comuns**, incluindo expressamente os **serviços comuns de engenharia** (assim entendidos aqueles cujos padrões de desempenho e qualidade podem ser objetivamente descritos pelo edital por especificações usuais de mercado);
 - **Critérios de Julgamento Permitidos:** Unicamente **Menor Preço** ou **Maior Desconto**;
 - **Condução:** Conduzido pelo Pregoeiro, com auxílio da equipe de apoio.
+
+### 2.2 Concorrência: Bens e Serviços Especiais e Obras
+
+- **Objeto:** Modalidade de licitação destinada à contratação de **bens e serviços especiais**, obras e serviços de engenharia comuns e especiais;
+- **Critérios de Julgamento:** Ampla flexibilidade, admitindo Menor Preço, Maior Desconto, Melhor Técnica, Técnica e Preço e Maior Retorno Econômico.
+
+### 2.3 Concurso: Premiação de Trabalhos Técnicos e Artísticos
+
+- **Objeto:** Escolha de trabalho técnico, científico ou artístico, de arquitetura ou urbanismo;
+- **Contraprestação:** Concessão de prêmio ou remuneração ao vencedor;
+- **Critério de Julgamento:** Melhor Técnica ou Conteúdo Artístico, avaliado por comissão especial qualificada.
+
+### 2.4 Leilão: A Nova Sistemática para Móveis Inservíveis e Imóveis
+
+- **Objeto Unificado (Art. 28, § 2º c/c Art. 31):** Modalidade obrigatória para alienação de **bens móveis inservíveis ou apreendidos** e de **QUAISQUER BENS IMÓVEIS** pertencentes ao Poder Público;
+- **Critério de Julgamento:** Exclusivamente **Maior Lance** (igual ou superior à avaliação prévia);
+- **Condução:** Pode ser conduzido por Leiloeiro Oficial matriculado ou por servidor público designado pela autoridade.
+
+> 🚨 **MUDANÇA RADICAL DA LEI 14.133/2021:**  
+> Sob a revogada Lei 8.666/93, a alienação de bens imóveis exigia Concorrência. Na Nova Lei de Licitações, **TODOS os imóveis públicos são alienados por LEILÃO**! Atenção redobrada às pegadinhas da FCC que afirmam que imóveis dependem de Concorrência.
+
+### 2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)
+
+Modalidade moderna instituída pela NLLC, restrita a contratações de alta complexidade em que a Administração identifica uma necessidade pública, mas **não possui capacidade técnica de definir previamente as especificações do objeto**:
+
+- **Hipóteses de Cabimento:** Inovação tecnológica; complexidade de engenharia ou software; impossibilidade de adaptar soluções de mercado existentes;
+- **Estrutura em Duas Fases:**
+    1. *Fase de Diálogos:* O edital publica os objetivos do órgão; os licitantes pré-selecionados debatem com a comissão técnica em reuniões gravadas para construir alternativas metodológicas;
+    2. *Fase Competitiva Final:* Concluído o diálogo, abre-se a disputa final de propostas comerciais e técnicas com base na solução construída;
+
+- **Condução Obrigatória por Comissão Efetiva:** O Diálogo Competitivo deve ser conduzido **obrigatoriamente por comissão de contratação composta de, no mínimo, 3 (três) servidores efetivos ou empregados permanentes** (art. 32, XI).
+
+### 2.6 A Extinção Definitiva da Tomada de Preços e do Convite
+
+A NLLC **extinguiu formal e definitivamente as modalidades Tomada de Preços e Convite**. Na nova ordem jurídica, as modalidades são delimitadas estritamente pela **natureza do objeto**, e jamais pelo valor econômico da contratação.
 
 ---
 
@@ -246,14 +267,6 @@ Nos termos do art. 29 da Lei Federal nº 14.133/2021, para a contratação de **
 
 ---
 
-
-### 2.2 Concorrência: Bens e Serviços Especiais e Obras
-
-- **Objeto:** Modalidade de licitação destinada à contratação de **bens e serviços especiais**, obras e serviços de engenharia comuns e especiais;
-- **Critérios de Julgamento:** Ampla flexibilidade, admitindo Menor Preço, Maior Desconto, Melhor Técnica, Técnica e Preço e Maior Retorno Econômico.
-
-
-
 ### Teste 081
 **(FCC - Procurador do Estado)**
 Acerca da concorrência e do pregão na Lei nº 14.133/2021, considere que determinado órgão da Administração Pública estadual pretende contratar a construção de um complexo penitenciário de segurança máxima, classificado como obra de grande vulto e engenharia especial.
@@ -281,14 +294,6 @@ Para essa contratação, a Administração Pública:
 
 ---
 
-### 2.3 Concurso: Premiação de Trabalhos Técnicos e Artísticos
-
-- **Objeto:** Escolha de trabalho técnico, científico ou artístico, de arquitetura ou urbanismo;
-- **Contraprestação:** Concessão de prêmio ou remuneração ao vencedor;
-- **Critério de Julgamento:** Melhor Técnica ou Conteúdo Artístico, avaliado por comissão especial qualificada.
-
-
-
 ### Teste 082
 **(FGV - Analista de Controle Externo / Auditoria)**
 A respeito da modalidade licitatória denominada concurso, disciplinada pelo art. 30 da Lei nº 14.133/2021, assinale a afirmativa correta.
@@ -311,17 +316,6 @@ A respeito da modalidade licitatória denominada concurso, disciplinada pelo art
 > - **E)** Incorreta. O prêmio ou remuneração é a contraprestação do concurso; a eventual contratação do projeto executivo constitui etapa futura e condicionada às regras orçamentárias e legais.
 >
 > **Gabarito: B**
-
----
-
-### 2.4 Leilão: A Nova Sistemática para Móveis Inservíveis e Imóveis
-
-- **Objeto Unificado (Art. 28, § 2º c/c Art. 31):** Modalidade obrigatória para alienação de **bens móveis inservíveis ou apreendidos** e de **QUAISQUER BENS IMÓVEIS** pertencentes ao Poder Público;
-- **Critério de Julgamento:** Exclusivamente **Maior Lance** (igual ou superior à avaliação prévia);
-- **Condução:** Pode ser conduzido por Leiloeiro Oficial matriculado ou por servidor público designado pela autoridade.
-
-> 🚨 **MUDANÇA RADICAL DA LEI 14.133/2021:**  
-> Sob a revogada Lei 8.666/93, a alienação de bens imóveis exigia Concorrência. Na Nova Lei de Licitações, **TODOS os imóveis públicos são alienados por LEILÃO**! Atenção redobrada às pegadinhas da FCC que afirmam que imóveis dependem de Concorrência.
 
 ---
 
@@ -352,20 +346,6 @@ Considerando as modalidades de licitação positivadas na Lei Federal nº 14.133
 
 ---
 
-
-### 2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)
-
-Modalidade moderna instituída pela NLLC, restrita a contratações de alta complexidade em que a Administração identifica uma necessidade pública, mas **não possui capacidade técnica de definir previamente as especificações do objeto**:
-
-- **Hipóteses de Cabimento:** Inovação tecnológica; complexidade de engenharia ou software; impossibilidade de adaptar soluções de mercado existentes;
-- **Estrutura em Duas Fases:**
-    1. *Fase de Diálogos:* O edital publica os objetivos do órgão; os licitantes pré-selecionados debatem com a comissão técnica em reuniões gravadas para construir alternativas metodológicas;
-    2. *Fase Competitiva Final:* Concluído o diálogo, abre-se a disputa final de propostas comerciais e técnicas com base na solução construída;
-
-- **Condução Obrigatória por Comissão Efetiva:** O Diálogo Competitivo deve ser conduzido **obrigatoriamente por comissão de contratação composta de, no mínimo, 3 (três) servidores efetivos ou empregados permanentes** (art. 32, XI).
-
----
-
 ### Teste 084
 **(FCC - Auditor de Controle Externo / Adaptada)**
 Determinada pasta do Poder Executivo estadual pretende licitar o desenvolvimento e implantação de uma solução pioneira e inovadora de inteligência artificial aplicada ao cruzamento automatizado de notas fiscais eletrônicas com imagens de satélite. A equipe de planejamento constatou que não dispõe de capacidade técnica para definir de antemão as especificações técnicas objetivas no edital, necessitando dialogar com os fornecedores especializados para identificar as melhores alternativas existentes no mercado.
@@ -393,16 +373,6 @@ Para a hipótese descrita, a modalidade de licitação adequada prevista na Lei 
 
 ---
 
-
-### 2.6 A Extinção Definitiva da Tomada de Preços e do Convite
-
-A NLLC **extinguiu formal e definitivamente as modalidades Tomada de Preços e Convite**. Na nova ordem jurídica, as modalidades são delimitadas estritamente pela **natureza do objeto**, e jamais pelo valor econômico da contratação.
-
-
-
----
-
-
 ## 3. Critérios de Julgamento das Propostas (Art. 33)
 
 O art. 33 da Lei nº 14.133/2021 estabelece os critérios objetivos de julgamento que devem constar obrigatoriamente do edital:
@@ -422,7 +392,22 @@ Pondera a pontuação da proposta técnica combinada com a proposta de preço do
 
 - **Limite Legal de Ponderação (Art. 36, § 1º):** A pontuação atribuída à valoração técnica **não pode ultrapassar o teto máximo de 70% (setenta por cento)** da pontuação total.
 
+### 3.4 Maior Lance (Privativo do Leilão)
 
+Exclusivo da modalidade **Leilão**, declarando vencedor o proponente que oferecer o maior valor financeiro para a aquisição do patrimônio público disponibilizado.
+
+### 3.5 Maior Retorno Econômico e os Contratos de Eficiência (Art. 39)
+
+Critério inovador privativo da celebração de **Contratos de Eficiência**:
+
+- O contratado assume a execução de melhorias estruturais (ex.: retrofit elétrico, modernização hidráulica, inteligência em tecnologia) para gerar economia concreta nos custos operacionais do Poder Público;
+- **Composição da Proposta:** A proposta do licitante traz:
+    1. A estimativa de economia financeira gerada para a Administração; e
+    2. O percentual dessa economia que reterá como remuneração de seus serviços;
+
+- O julgamento apura a **maior vantagem econômica líquida**: maior economia estimada menos a remuneração cobrada. Se a economia real aferida for menor que a proposta pelo licitante, a diferença é glosada e descontada de sua fatura.
+
+---
 
 ### Teste 085
 **(FCC - Técnico de Controle Externo)**
@@ -446,23 +431,6 @@ Na disciplina dos critérios de julgamento da Lei nº 14.133/2021 (art. 33), ass
 > - **E)** Incorreta. A proposta técnica é julgada antes da proposta de preço, em sessões públicas e transparentes.
 >
 > **Gabarito: C**
-
----
-
-### 3.4 Maior Lance (Privativo do Leilão)
-
-Exclusivo da modalidade **Leilão**, declarando vencedor o proponente que oferecer o maior valor financeiro para a aquisição do patrimônio público disponibilizado.
-
-### 3.5 Maior Retorno Econômico e os Contratos de Eficiência (Art. 39)
-
-Critério inovador privativo da celebração de **Contratos de Eficiência**:
-
-- O contratado assume a execução de melhorias estruturais (ex.: retrofit elétrico, modernização hidráulica, inteligência em tecnologia) para gerar economia concreta nos custos operacionais do Poder Público;
-- **Composição da Proposta:** A proposta do licitante traz:
-    1. A estimativa de economia financeira gerada para a Administração; e
-    2. O percentual dessa economia que reterá como remuneração de seus serviços;
-
-- O julgamento apura a **maior vantagem econômica líquida**: maior economia estimada menos a remuneração cobrada. Se a economia real aferida for menor que a proposta pelo licitante, a diferença é glosada e descontada de sua fatura.
 
 ---
 
@@ -491,10 +459,7 @@ Para essa contratação, a Lei Federal nº 14.133/2021 prescreve o critério de 
 > 
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Modos de Disputa e Prazos Mínimos de Divulgação do Edital
 
@@ -507,7 +472,23 @@ Para essa contratação, a Lei Federal nº 14.133/2021 prescreve o critério de 
     - É proibida a utilização isolada do modo de disputa fechado quando o critério de julgamento for **Menor Preço** ou **Maior Desconto**;
     - É vedada a utilização do modo aberto quando o critério de julgamento for **Melhor Técnica ou Conteúdo Artístico**.
 
+### 4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)
 
+Os prazos mínimos de divulgação do edital contam-se a partir da data de publicação no PNCP:
+
+| Objeto da Licitação e Critério | Modalidade Típica | Prazo Mínimo de Edital |
+| :--- | :--- | :---: |
+| **Bens Comuns** (Menor Preço ou Maior Desconto) | Pregão | **8 dias úteis** |
+| **Serviços Comuns e Obras Comuns de Engenharia** | Pregão ou Concorrência | **10 dias úteis** |
+| **Bens Especiais e Serviços Especiais de Engenharia** | Concorrência | **15 dias úteis** |
+| **Obras com Regime de Empreitada por Preço Global** | Concorrência | **25 dias úteis** |
+| **Obras com Regime de Contratação Integrada** | Concorrência | **60 dias úteis** |
+| **Licitações pelo Critério de Maior Retorno Econômico** | Concorrência | **35 dias úteis** |
+| **Licitações pelo Critério de Técnica e Preço** | Concorrência | **35 dias úteis** |
+| **Leilão de Bens Móveis e Imóveis** | Leilão | **15 dias úteis** |
+| **Concurso de Projetos Técnicos/Artísticos** | Concurso | **35 dias úteis** |
+
+---
 
 ### Teste 087
 **(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
@@ -535,27 +516,6 @@ A respeito da utilização dos modos de disputa e dos prazos mínimos de divulga
 > **Gabarito: B**
 
 ---
-
-### 4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)
-
-Os prazos mínimos de divulgação do edital contam-se a partir da data de publicação no PNCP:
-
-| Objeto da Licitação e Critério | Modalidade Típica | Prazo Mínimo de Edital |
-| :--- | :--- | :---: |
-| **Bens Comuns** (Menor Preço ou Maior Desconto) | Pregão | **8 dias úteis** |
-| **Serviços Comuns e Obras Comuns de Engenharia** | Pregão ou Concorrência | **10 dias úteis** |
-| **Bens Especiais e Serviços Especiais de Engenharia** | Concorrência | **15 dias úteis** |
-| **Obras com Regime de Empreitada por Preço Global** | Concorrência | **25 dias úteis** |
-| **Obras com Regime de Contratação Integrada** | Concorrência | **60 dias úteis** |
-| **Licitações pelo Critério de Maior Retorno Econômico** | Concorrência | **35 dias úteis** |
-| **Licitações pelo Critério de Técnica e Preço** | Concorrência | **35 dias úteis** |
-| **Leilão de Bens Móveis e Imóveis** | Leilão | **15 dias úteis** |
-| **Concurso de Projetos Técnicos/Artísticos** | Concurso | **35 dias úteis** |
-
-
-
----
-
 
 ## 5. Fontes Recomendadas na Internet
 

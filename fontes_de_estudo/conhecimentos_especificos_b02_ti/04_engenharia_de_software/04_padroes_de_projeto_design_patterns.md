@@ -16,10 +16,7 @@
 - Padrões Estruturais (Structural Patterns)
 - Padrões Comportamentais (Behavioral Patterns)
 
-
-
 ---
-
 
 ## 🧭 Sumário
 
@@ -30,27 +27,26 @@
     4. [Teste 033](#Teste-033)
 2. [Padrões de Criação (Creational Patterns)](#2-padroes-de-criacao-creational-patterns)
     1. [Factory Method vs. Abstract Factory](#21-factory-method-vs-abstract-factory)
-    2. [Teste 034](#Teste-034)
-    3. [Builder, Prototype e Singleton](#22-builder-prototype-e-singleton)
+    2. [Builder, Prototype e Singleton](#22-builder-prototype-e-singleton)
+    3. [Teste 034](#Teste-034)
     4. [Teste 035](#Teste-035)
 3. [Padrões Estruturais (Structural Patterns)](#3-padroes-estruturais-structural-patterns)
     1. [Adapter vs. Bridge vs. Facade](#31-adapter-vs-bridge-vs-facade)
-    2. [Teste 036](#Teste-036)
-    3. [Composite, Decorator, Flyweight e Proxy](#32-composite-decorator-flyweight-e-proxy)
+    2. [Composite, Decorator, Flyweight e Proxy](#32-composite-decorator-flyweight-e-proxy)
+    3. [Teste 036](#Teste-036)
     4. [Teste 037](#Teste-037)
     5. [Teste 038](#Teste-038)
 4. [Padrões Comportamentais (Behavioral Patterns)](#4-padroes-comportamentais-behavioral-patterns)
     1. [Strategy vs. State vs. Template Method](#41-strategy-vs-state-vs-template-method)
-    2. [Teste 039](#Teste-039)
-    3. [Observer e Arquitetura de Publicação/Assinatura](#42-observer-e-arquitetura-de-publicacaoassinatura)
-    4. [Teste 040](#Teste-040)
-    5. [Command, Chain of Responsibility, Iterator, Mediator, Memento e Visitor](#43-command-chain-of-responsibility-iterator-mediator-memento-e-visitor)
+    2. [Observer e Arquitetura de Publicação/Assinatura](#42-observer-e-arquitetura-de-publicacaoassinatura)
+    3. [Command, Chain of Responsibility, Iterator, Mediator, Memento e Visitor](#43-command-chain-of-responsibility-iterator-mediator-memento-e-visitor)
+    4. [Teste 039](#Teste-039)
+    5. [Teste 040](#Teste-040)
     6. [Teste 041](#Teste-041)
     7. [Teste 042](#Teste-042)
 5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Fundamentos e Princípios dos Padrões de Projeto GoF
 
@@ -65,15 +61,11 @@ Conforme a definição GoF, cada padrão é formalmente caracterizado por quatro
 3. **Solução (*Solution*):** Descreve os elementos que compõem o design, seus relacionamentos, responsabilidades e colaborações (sem vincular a uma implementação específica em linguagem singular);
 4. **Consequências (*Consequences*):** Os resultados, trade-offs, benefícios de flexibilidade e custos em termos de complexidade adicional ou consumo de memória advindos da aplicação do padrão.
 
----
-
 ### 1.2 Os Dois Grandes Princípios de Design do GoF
 Toda a filosofia dos 23 padrões GoF alicerça-se sobre dois princípios basilares do design de software orientado a objetos:
 
 1. **"Programe para uma interface, não para uma implementação":** Os clientes devem permanecer completamente alheios às classes concretas e aos tipos específicos dos objetos que utilizam, conhecendo unicamente a interface ou classe abstrata que define o contrato de operação. Isso viabiliza o polimorfismo puro e a substituição dinâmica de implementações em tempo de execução.
 2. **"Favoreça a composição de objetos sobre a herança de classes":** Enquanto a herança de classes (*white-box reuse*) gera acoplamento estático em tempo de compilação e quebra de encapsulamento da superclasse, a composição de objetos (*black-box reuse*) estabelece associações dinâmicas em tempo de execução, preserva o encapsulamento interno dos objetos e permite alterar comportamentos dinamicamente sem afetar a hierarquia.
-
----
 
 ### 1.3 A Matriz Canônica dos 23 Padrões GoF (Propósito vs. Escopo)
 Os 23 padrões são classificados de acordo com duas dimensões: o **Propósito** (o que o padrão faz: criar, estruturar ou definir comportamento) e o **Escopo** (se o padrão se aplica predominantemente a Classes via herança estática ou a Objetos via composição dinâmica):
@@ -94,7 +86,6 @@ Os 23 padrões são classificados de acordo com duas dimensões: o **Propósito*
 > **Todos os outros 19 padrões GoF operam sob Escopo de Objeto!**
 
 ---
-
 
 ### Teste 033
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
@@ -119,10 +110,7 @@ O clássico catálogo de padrões de projeto do Gang of Four (GoF) classifica os
 >
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 2. Padrões de Criação (Creational Patterns)
 
@@ -146,6 +134,19 @@ flowchart TD
 - **Abstract Factory (Fábrica Abstrata - Escopo de Objeto):**
     - *Intenção:* Fornece uma interface para **criar famílias de objetos relacionados ou dependentes** sem especificar suas classes concretas;
     - *Mecanismo:* Utiliza **composição de objetos**. Uma fábrica abstrata declara múltiplos métodos de criação de produtos (`criarBotao()`, `criarJanela()`), e cada fábrica concreta produz uma família inteira harmonizada (ex.: `FabricaTemaEscuro` cria `BotaoEscuro` e `JanelaEscura`; `FabricaTemaClaro` cria `BotaoClaro` e `JanelaClara`).
+
+### 2.2 Builder, Prototype e Singleton
+- **Builder (Construtor):**
+    - *Intenção:* Separa a construção de um objeto complexo da sua representação final, de modo que o mesmo processo de construção possa criar diferentes representações;
+    - *Mecanismo:* Permite a construção passo a passo (*step-by-step*) do objeto com métodos encadeados (`setNome()`, `setCPF()`, `build()`). Envolve os papéis do **Director** (define a ordem dos passos) e do **Builder Concreto** (executa a montagem física);
+- **Prototype (Protótipo):**
+    - *Intenção:* Especifica os tipos de objetos a serem criados usando uma instância protótipo e cria novos objetos **clonando** esse protótipo existente;
+    - *Mecanismo:* Evita o custo de instanciação pesada ou consultas lentas ao banco de dados chamando o método `clone()` da interface Prototype;
+- **Singleton (Instância Única):**
+    - *Intenção:* Garante que uma classe tenha **uma única instância** em toda a aplicação e fornece um ponto de acesso global a ela;
+    - *Mecanismo:* Construtor privado (`private`), uma variável estática que armazena a instância única e um método público estático de recuperação (`getInstance()`).
+
+> 📌 **NOTA EXPLICATIVA / SINGLETON E CONCORRÊNCIA:** Em ambientes multithread, a inicialização tardia simples (*lazy initialization*) do Singleton pode criar instâncias duplicadas se duas threads acessarem `getInstance()` simultaneamente. A solução em Java corporativo exige o padrão *Double-Checked Locking* com variável `volatile` ou a inicialização estática interna segura (*Bill Pugh Singleton*).
 
 ---
 
@@ -174,24 +175,6 @@ Deseja-se criar uma interface gráfica que suporte múltiplos temas visuais (por
 
 ---
 
-
-
-### 2.2 Builder, Prototype e Singleton
-- **Builder (Construtor):**
-    - *Intenção:* Separa a construção de um objeto complexo da sua representação final, de modo que o mesmo processo de construção possa criar diferentes representações;
-    - *Mecanismo:* Permite a construção passo a passo (*step-by-step*) do objeto com métodos encadeados (`setNome()`, `setCPF()`, `build()`). Envolve os papéis do **Director** (define a ordem dos passos) e do **Builder Concreto** (executa a montagem física);
-- **Prototype (Protótipo):**
-    - *Intenção:* Especifica os tipos de objetos a serem criados usando uma instância protótipo e cria novos objetos **clonando** esse protótipo existente;
-    - *Mecanismo:* Evita o custo de instanciação pesada ou consultas lentas ao banco de dados chamando o método `clone()` da interface Prototype;
-- **Singleton (Instância Única):**
-    - *Intenção:* Garante que uma classe tenha **uma única instância** em toda a aplicação e fornece um ponto de acesso global a ela;
-    - *Mecanismo:* Construtor privado (`private`), uma variável estática que armazena a instância única e um método público estático de recuperação (`getInstance()`).
-
-> 📌 **NOTA EXPLICATIVA / SINGLETON E CONCORRÊNCIA:** Em ambientes multithread, a inicialização tardia simples (*lazy initialization*) do Singleton pode criar instâncias duplicadas se duas threads acessarem `getInstance()` simultaneamente. A solução em Java corporativo exige o padrão *Double-Checked Locking* com variável `volatile` ou a inicialização estática interna segura (*Bill Pugh Singleton*).
-
----
-
-
 ### Teste 035
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Considere uma situação em que um sistema corporativo necessita construir objetos complexos formados por múltiplas partes e configurações opcionais. A equipe deseja separar o algoritmo de montagem do objeto final da representação interna das suas partes constituintes, de modo que o mesmo processo de montagem possa criar representações diferentes com composições variadas. O padrão de projeto criacional do GoF que atende especificamente a esse requisito é o:
@@ -215,10 +198,7 @@ Considere uma situação em que um sistema corporativo necessita construir objet
 >
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 3. Padrões Estruturais (Structural Patterns)
 
@@ -234,6 +214,29 @@ Os padrões estruturais tratam de como classes e objetos são compostos para for
 - **Facade (Fachada):**
     - *Intenção:* Fornece uma **interface unificada e simplificada** para um conjunto complexo de interfaces em um subsistema;
     - *Cenário:* Cria uma camada de alto nível que oculta chamadas intrincadas de centenas de classes de um subsistema legado, tornando o uso elementar para novos clientes sem expor os detalhes internos.
+
+### 3.2 Composite, Decorator, Flyweight e Proxy
+- **Composite (Composição Hierárquica):**
+    - *Intenção:* Compõe objetos em estruturas de **árvore** para representar hierarquias do tipo Todo-Parte. Permite aos clientes **tratar objetos individuais (*folhas*) e composições de objetos (*nós compostos*) de maneira uniforme** por meio de uma interface comum;
+    - *Exemplo Clássico:* Sistema de arquivos (um `Arquivo` simples e um `Diretorio` composto contendo arquivos e outros subdiretórios implementam a mesma interface `ComponenteSistema`, respondendo identicamente a `obterTamanho()`).
+- **Decorator (Decorador / Wrapper Dinâmico):**
+    - *Intenção:* Agrega **responsabilidades adicionais a um objeto dinamicamente** em tempo de execução. Oferece uma alternativa mais flexível do que a herança de classes para estender funcionalidades;
+    - *Exemplo Clássico:* Pacote `java.io` da biblioteca padrão Java:  
+    `new BufferedReader(new InputStreamReader(new FileInputStream(file)));`
+- **Flyweight (Peso-Mosca):**
+    - *Intenção:* Usa compartilhamento para suportar eficientemente grandes quantidades de objetos de granulação fina, minimizando o consumo de memória RAM;
+    - *Mecanismo:* Separa o estado em **Intrínseco** (imutável, compartilhado por todos os objetos, como o caractere 'A') e **Extrínseco** (mutável, dependente do contexto externo, como as coordenadas X e Y onde a letra é desenhada na página);
+- **Proxy (Procurador / Substituto):**
+    - *Intenção:* Fornece um objeto substituto ou intermediário que **controla o acesso** ao objeto real original;
+    - *Tipos Comuns:* *Virtual Proxy* (carregamento tardio / *lazy loading* de imagens pesadas sob demanda), *Protection Proxy* (checagem de permissões de segurança antes de delegar a chamada) e *Remote Proxy* (representante local de um objeto que reside em outro servidor na rede).
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A banca FCC costuma colocar em uma mesma questão **Adapter**, **Decorator**, **Facade** e **Proxy**, pois todos envolvem outros objetos. Memorize a diferença fulcral de intenção:
+>
+> - **Adapter:** Altera a interface para resolver **incompatibilidade**.
+> - **Decorator:** Mantém a interface e **adiciona novas responsabilidades** dinamicamente.
+> - **Facade:** Cria uma **nova interface simplificada** para um subsistema inteiro.
+> - **Proxy:** Mantém a mesma interface e **controla o acesso** ao objeto real.
 
 ---
 
@@ -262,33 +265,6 @@ Um arquiteto de software precisa integrar uma nova aplicação corporativa a um 
 
 ---
 
-
-
-### 3.2 Composite, Decorator, Flyweight e Proxy
-- **Composite (Composição Hierárquica):**
-    - *Intenção:* Compõe objetos em estruturas de **árvore** para representar hierarquias do tipo Todo-Parte. Permite aos clientes **tratar objetos individuais (*folhas*) e composições de objetos (*nós compostos*) de maneira uniforme** por meio de uma interface comum;
-    - *Exemplo Clássico:* Sistema de arquivos (um `Arquivo` simples e um `Diretorio` composto contendo arquivos e outros subdiretórios implementam a mesma interface `ComponenteSistema`, respondendo identicamente a `obterTamanho()`).
-- **Decorator (Decorador / Wrapper Dinâmico):**
-    - *Intenção:* Agrega **responsabilidades adicionais a um objeto dinamicamente** em tempo de execução. Oferece uma alternativa mais flexível do que a herança de classes para estender funcionalidades;
-    - *Exemplo Clássico:* Pacote `java.io` da biblioteca padrão Java:  
-    `new BufferedReader(new InputStreamReader(new FileInputStream(file)));`
-- **Flyweight (Peso-Mosca):**
-    - *Intenção:* Usa compartilhamento para suportar eficientemente grandes quantidades de objetos de granulação fina, minimizando o consumo de memória RAM;
-    - *Mecanismo:* Separa o estado em **Intrínseco** (imutável, compartilhado por todos os objetos, como o caractere 'A') e **Extrínseco** (mutável, dependente do contexto externo, como as coordenadas X e Y onde a letra é desenhada na página);
-- **Proxy (Procurador / Substituto):**
-    - *Intenção:* Fornece um objeto substituto ou intermediário que **controla o acesso** ao objeto real original;
-    - *Tipos Comuns:* *Virtual Proxy* (carregamento tardio / *lazy loading* de imagens pesadas sob demanda), *Protection Proxy* (checagem de permissões de segurança antes de delegar a chamada) e *Remote Proxy* (representante local de um objeto que reside em outro servidor na rede).
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A banca FCC costuma colocar em uma mesma questão **Adapter**, **Decorator**, **Facade** e **Proxy**, pois todos envolvem outros objetos. Memorize a diferença fulcral de intenção:
->
-> - **Adapter:** Altera a interface para resolver **incompatibilidade**.
-> - **Decorator:** Mantém a interface e **adiciona novas responsabilidades** dinamicamente.
-> - **Facade:** Cria uma **nova interface simplificada** para um subsistema inteiro.
-> - **Proxy:** Mantém a mesma interface e **controla o acesso** ao objeto real.
-
----
-
 ### Teste 037
 **(FCC – TRT – Analista Judiciário / TI)**  
 Em um sistema de processo eletrônico, deseja-se representar documentos que podem ser tanto peças processuais individuais (como certidões e pareceres em texto) quanto pastas de autos contendo diversos documentos e outras subpastas agregadas. A exigência do projeto é que o cliente da aplicação possa invocar operações como `assinarDigitalmente()` e `calcularTamanhoBytes()` tratando documentos simples e pastas compostas de maneira inteiramente uniforme e transparente. O padrão de projeto GoF que soluciona essa demanda arquitetural é o:
@@ -313,9 +289,6 @@ Em um sistema de processo eletrônico, deseja-se representar documentos que pode
 > **Gabarito: B**
 
 ---
-
-
-
 
 ### Teste 038
 **(FGV – TJ – Analista de Sistemas)**  
@@ -342,10 +315,7 @@ Os padrões de projeto adequados para os Cenários 1 e 2 são, respectivamente:
 >
 > **Gabarito: B**
 
-
-
 ---
-
 
 ## 4. Padrões Comportamentais (Behavioral Patterns)
 
@@ -359,6 +329,20 @@ A diferenciação entre esses três padrões é uma das temáticas mais cobradas
 | **Intenção Principal** | Encapsular uma família de algoritmos intercambiáveis para que o cliente selecione qual utilizar. | Permitir a um objeto alterar seu comportamento dinamicamente quando seu estado interno mudar. | Definir o esqueleto estrutural de um algoritmo fixo, delegando passos específicos para subclasses. |
 | **Mecanismo de Reúso** | **Composição de Objetos** | **Composição de Objetos** | **Herança de Classes** (Escopo de Classe) |
 | **Quem Altera o Comportamento?** | O **cliente** injeta explicitamente a estratégia desejada no contexto (ex.: cálculo de juros simples ou compostos). | O **próprio contexto transita de estado** autonomamente em resposta a eventos (ex.: processo *Protocolado* $\rightarrow$ *Em Instrução* $\rightarrow$ *Julgado*). | A **superclasse** executa o fluxo; as subclasses sobrescrevem apenas métodos gancho (*hooks*). |
+
+### 4.2 Observer e Arquitetura de Publicação/Assinatura
+- **Observer (Observador / Publicador-Assinante):**
+    - *Intenção:* Define uma **dependência um-para-muitos** entre objetos, de modo que quando um objeto (o *Sujeito* / *Subject*) muda de estado, todos os seus dependentes registrados (*Observadores* / *Observers*) são **automaticamente notificados e atualizados**;
+    - *Mecanismo:* O sujeito mantém uma lista de referências abstratas a instâncias da interface `Observador`. Ao alterar seu estado interno, invoca em loop o método `atualizar()` de cada observador registrado;
+    - *Benefício:* Desacoplamento pleno entre o produtor do evento e os múltiplos consumidores ouvintes.
+
+### 4.3 Command, Chain of Responsibility, Iterator, Mediator, Memento e Visitor
+- **Command (Comando):** Encapsula uma requisição como um **objeto**, permitindo parametrizar clientes com diferentes operações, enfileirar ou registrar requisições em log e suportar **operações reversíveis de desfazer (*undo/redo*)**;
+- **Chain of Responsibility (Cadeia de Responsabilidade):** Evita o acoplamento do remetente de uma requisição ao seu destinatário, dando a mais de um objeto a oportunidade de tratar a solicitação. Encadeia os objetos receptores e passa a requisição ao longo da cadeia até que um deles a processe (ex.: filtros de requisição HTTP em servlets);
+- **Iterator (Iterador):** Fornece uma maneira de **acessar sequencialmente os elementos de um objeto agregado** (lista, árvore, grafo) sem expor sua representação estrutural subjacente;
+- **Mediator (Mediador):** Define um objeto central que encapsula como um conjunto de objetos interage. Promove o baixo acoplamento ao evitar que os objetos se refiram uns aos outros explicitamente, centralizando a lógica de comunicação (ex.: controlador de diálogo de interface gráfica);
+- **Memento (Lembrança):** Sem violar o encapsulamento, captura e **externaliza o estado interno de um objeto**, permitindo que o objeto seja restaurado para esse estado posteriormente (snapshot de recuperação);
+- **Visitor (Visitante):** Representa uma nova operação a ser executada sobre os elementos de uma estrutura de objetos existente. Permite **definir uma nova operação sem mudar as classes** dos elementos sobre os quais ela opera (utiliza o mecanismo de despacho duplo / *double dispatch*).
 
 ---
 
@@ -387,16 +371,6 @@ Um sistema de fiscalização de contratos necessita calcular o valor final de pe
 
 ---
 
-
-
-### 4.2 Observer e Arquitetura de Publicação/Assinatura
-- **Observer (Observador / Publicador-Assinante):**
-    - *Intenção:* Define uma **dependência um-para-muitos** entre objetos, de modo que quando um objeto (o *Sujeito* / *Subject*) muda de estado, todos os seus dependentes registrados (*Observadores* / *Observers*) são **automaticamente notificados e atualizados**;
-    - *Mecanismo:* O sujeito mantém uma lista de referências abstratas a instâncias da interface `Observador`. Ao alterar seu estado interno, invoca em loop o método `atualizar()` de cada observador registrado;
-    - *Benefício:* Desacoplamento pleno entre o produtor do evento e os múltiplos consumidores ouvintes.
-
----
-
 ### Teste 040
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 O padrão de projeto comportamental Observer é amplamente utilizado em arquiteturas de software para desacoplar objetos que produzem mudanças de estado daqueles que precisam reagir a elas. A esse respeito, é correto afirmar que o padrão Observer:
@@ -421,19 +395,6 @@ O padrão de projeto comportamental Observer é amplamente utilizado em arquitet
 > **Gabarito: B**
 
 ---
-
-
-
-### 4.3 Command, Chain of Responsibility, Iterator, Mediator, Memento e Visitor
-- **Command (Comando):** Encapsula uma requisição como um **objeto**, permitindo parametrizar clientes com diferentes operações, enfileirar ou registrar requisições em log e suportar **operações reversíveis de desfazer (*undo/redo*)**;
-- **Chain of Responsibility (Cadeia de Responsabilidade):** Evita o acoplamento do remetente de uma requisição ao seu destinatário, dando a mais de um objeto a oportunidade de tratar a solicitação. Encadeia os objetos receptores e passa a requisição ao longo da cadeia até que um deles a processe (ex.: filtros de requisição HTTP em servlets);
-- **Iterator (Iterador):** Fornece uma maneira de **acessar sequencialmente os elementos de um objeto agregado** (lista, árvore, grafo) sem expor sua representação estrutural subjacente;
-- **Mediator (Mediador):** Define um objeto central que encapsula como um conjunto de objetos interage. Promove o baixo acoplamento ao evitar que os objetos se refiram uns aos outros explicitamente, centralizando a lógica de comunicação (ex.: controlador de diálogo de interface gráfica);
-- **Memento (Lembrança):** Sem violar o encapsulamento, captura e **externaliza o estado interno de um objeto**, permitindo que o objeto seja restaurado para esse estado posteriormente (snapshot de recuperação);
-- **Visitor (Visitante):** Representa uma nova operação a ser executada sobre os elementos de uma estrutura de objetos existente. Permite **definir uma nova operação sem mudar as classes** dos elementos sobre os quais ela opera (utiliza o mecanismo de despacho duplo / *double dispatch*).
-
----
-
 
 ### Teste 041
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
@@ -460,7 +421,6 @@ No catálogo de padrões comportamentais do GoF, o padrão cuja intenção ofici
 
 ---
 
-
 ### Teste 042
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O padrão de projeto comportamental GoF que permite capturar e externalizar o estado interno de um objeto, de modo que este possa ser restaurado a esse estado posteriormente, sem que o princípio fundamental de encapsulamento seja violado, é o:
@@ -484,10 +444,7 @@ O padrão de projeto comportamental GoF que permite capturar e externalizar o es
 >
 > **Gabarito: A**
 
-
-
 ---
-
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
