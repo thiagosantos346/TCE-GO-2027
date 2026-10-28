@@ -6,8 +6,10 @@
 > **Referência Temática:** Teoria do Texto, Tipologias, Discurso Narrativo e Estilística na Banca FCC
 
 ---
+--- 
 
 ## 📌 Ementa / Itens do Edital
+
 - Compreensão e interpretação de textos de gêneros variados (ensaios filosóficos, editoriais, crônicas e artigos de opinião);
 - Relação do texto com seu contexto histórico, cultural e ideológico;
 - Níveis de linguagem: Denotação (sentido literal/dicionarizado) e Conotação (sentido figurado/plurissignificativo);
@@ -18,47 +20,61 @@
 - Identificação de tese, estratégias argumentativas, pressupostos e subentendidos na tipologia dissertativa.
 
 ---
+---
 
 ## 🧭 Sumário
-- [1. Compreensão vs. Interpretação na Tradição da FCC](#1-compreensao-vs-interpretacao-na-tradicao-da-fcc)
-    - [1.1 Compreensão Textual e Informação Explícita](#11-compreensao-textual-e-informacao-explicita)
-    - [1.2 Interpretação Textual e Inferência Autorizada](#12-interpretacao-textual-e-inferencia-autorizada)
-    - [1.3 Os Três Erros Clássicos de Leitura](#13-os-tres-erros-classicos-de-leitura)
-    - [1.4 Método Prático de Resolução](#14-metodo-pratico-de-resolucao)
-- [2. Gêneros Textuais e Contexto de Produção](#2-generos-textuais-e-contexto-de-producao)
-    - [2.1 Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-genero-textual)
-    - [2.2 Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-cronica-e-artigo-de-opiniao)
-    - [2.3 Contexto Histórico, Cultural e Ideológico](#23-contexto-historico-cultural-e-ideologico)
-- [3. Tipologias Textuais](#3-tipologias-textuais)
-    - [3.1 Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
-    - [3.2 Narração e Descrição](#32-narracao-e-descricao)
-    - [3.3 Exposição e Injunção](#33-exposicao-e-injuncao)
-- [4. Argumentação na Tipologia Dissertativa](#4-argumentacao-na-tipologia-dissertativa)
-    - [4.1 Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
-    - [4.2 Estratégias Argumentativas](#42-estrategias-argumentativas)
-    - [4.3 Operadores Argumentativos](#43-operadores-argumentativos)
-    - [4.4 Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
-- [5. Níveis de Linguagem e Denotação e Conotação](#5-niveis-de-linguagem-e-denotacao-e-conotacao)
-    - [5.1 Linguagem Denotativa](#51-linguagem-denotativa)
-    - [5.2 Linguagem Conotativa](#52-linguagem-conotativa)
-- [6. Modalidades de Discurso](#6-modalidades-de-discurso)
-    - [6.1 Discurso Direto](#61-discurso-direto)
-    - [6.2 Discurso Indireto](#62-discurso-indireto)
-    - [6.3 Discurso Indireto Livre](#63-discurso-indireto-livre)
-- [7. Transposição de Discursos](#7-transposicao-de-discursos)
-    - [7.1 Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposicao-do-direto-para-o-indireto)
-    - [7.2 Correlação Verbal e Armadilhas na Transposição](#72-correlacao-verbal-e-armadilhas-na-transposicao)
-- [8. Intertextualidade](#8-intertextualidade)
-    - [8.1 Paráfrase](#81-parafrase)
-    - [8.2 Paródia](#82-parodia)
-    - [8.3 Citação, Epígrafe e Alusão](#83-citacao-epigrafe-e-alusao)
-- [9. Figuras de Linguagem](#9-figuras-de-linguagem)
-    - [9.1 Figuras Semânticas ou de Palavra](#91-figuras-semanticas-ou-de-palavra)
-    - [9.2 Figuras de Pensamento](#92-figuras-de-pensamento)
-    - [9.3 Figuras de Construção ou de Sintaxe](#93-figuras-de-construcao-ou-de-sintaxe)
-    - [9.4 Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-foneticas)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
+1. [Compreensão vs. Interpretação na Tradição da FCC](#1-compreensao-vs-interpretacao-na-tradicao-da-fcc)
+    1. [Compreensão Textual e Informação Explícita](#11-compreensao-textual-e-informacao-explicita)
+    1. [Interpretação Textual e Inferência Autorizada](#12-interpretacao-textual-e-inferencia-autorizada)
+    1. [Os Três Erros Clássicos de Leitura](#13-os-tres-erros-classicos-de-leitura)
+    1. [Método Prático de Resolução](#14-metodo-pratico-de-resolucao)
+    1. [Teste 001](#Teste-001)
+1. [Gêneros Textuais e Contexto de Produção](#2-generos-textuais-e-contexto-de-producao)
+    1. [Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-genero-textual)
+    1. [Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-cronica-e-artigo-de-opiniao)
+    1. [Contexto Histórico, Cultural e Ideológico](#23-contexto-historico-cultural-e-ideologico)
+    1. [Teste 002](#Teste-002)
+1. [Tipologias Textuais](#3-tipologias-textuais)
+    1. [Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
+    1. [Narração e Descrição](#32-narracao-e-descricao)
+    1. [Exposição e Injunção](#33-exposicao-e-injuncao)
+    1. [Teste 003](#Teste-003)
+1. [Argumentação na Tipologia Dissertativa](#4-argumentacao-na-tipologia-dissertativa)
+    1. [Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
+    1. [Estratégias Argumentativas](#42-estrategias-argumentativas)
+    1. [Operadores Argumentativos](#43-operadores-argumentativos)
+    1. [Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
+    1. [Teste 004](#Teste-004)
+    1. [Teste 005](#Teste-005)
+1. [Níveis de Linguagem e Denotação e Conotação](#5-niveis-de-linguagem-e-denotacao-e-conotacao)
+    1. [Linguagem Denotativa](#51-linguagem-denotativa)
+    1. [Linguagem Conotativa](#52-linguagem-conotativa)
+    1. [Teste 006](#Teste-006)
+1. [Modalidades de Discurso](#6-modalidades-de-discurso)
+    1. [Discurso Direto](#61-discurso-direto)
+    1. [Discurso Indireto](#62-discurso-indireto)
+    1. [Discurso Indireto Livre](#63-discurso-indireto-livre)
+    1. [Teste 007](#Teste-007)
+1. [Transposição de Discursos](#7-transposicao-de-discursos)
+    1. [Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposicao-do-direto-para-o-indireto)
+    1. [Correlação Verbal e Armadilhas na Transposição](#72-correlacao-verbal-e-armadilhas-na-transposicao)
+    1. [Teste 008](#Teste-008)
+1. [Intertextualidade](#8-intertextualidade)
+    1. [Paráfrase](#81-parafrase)
+    1. [Paródia](#82-parodia)
+    1. [Citação, Epígrafe e Alusão](#83-citacao-epigrafe-e-alusao)
+    1. [Teste 009](#Teste-009)
+1. [Figuras de Linguagem](#9-figuras-de-linguagem)
+    1. [Figuras Semânticas ou de Palavra](#91-figuras-semanticas-ou-de-palavra)
+    1. [Figuras de Pensamento](#92-figuras-de-pensamento)
+    1. [Figuras de Construção ou de Sintaxe](#93-figuras-de-construcao-ou-de-sintaxe)
+    1. [Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-foneticas)
+    1. [Teste 010](#Teste-010)
+    1. [Teste 011](#Teste-011)
+1. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+---
 ---
 
 ## 1. Compreensão vs. Interpretação na Tradição da FCC
@@ -111,32 +127,6 @@ A maioria das alternativas erradas em questões de leitura da FCC cai em uma de 
 
 ---
 
-### Questão 01
-**(FCC – TCE-GO – Analista de Controle Externo)**  
-*Considere o seguinte excerto:*  
-*"A velocidade vertiginosa com que as novas tecnologias de inteligência artificial são integradas ao cotidiano suscita promessas sedutoras de eficiência administrativa absoluta e erradicação do erro humano. Contudo, essa aparente panaceia obscurece o fato de que os sistemas algorítmicos herdaram os próprios vieses, preconceitos e miopias éticas dos dados históricos que os alimentam. Longe de representarem uma objetividade asséptica, tais instrumentos podem operar como sofisticados espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais"*.
-
-A partir da leitura atenta do texto, depreende-se corretamente que:
-
-* **A)** A tecnologia de inteligência artificial deve ter sua aplicação sumariamente suspensa nas repartições públicas, por constituir ameaça insanável aos direitos fundamentais.
-* **B)** A eficiência operacional proporcionada pelos algoritmos revelou-se ilusória, uma vez que as máquinas cometem rigorosamente a mesma quantidade de falhas que os seres humanos.
-* **C)** O autor adota uma postura crítica ao evidenciar que a pretensa neutralidade da inteligência artificial pode ocultar a perpetuação de distorções e desigualdades preexistentes na sociedade.
-* **D)** A erradicação dos erros administrativos é um objetivo já alcançado nas esferas em que a tecnologia algorítmica substituiu o juízo humano.
-* **E)** Os vieses algorítmicos decorrem da imperícia intencional dos engenheiros de computação que desenvolvem modelos visando discriminar grupos sociais específicos.
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O texto não defende o banimento ou a suspensão sumária da tecnologia, mas alerta para o perigo de considerá-la neutra ou imune a falhas. A alternativa propõe uma solução que o autor não formulou: erro clássico de **extrapolação**.
-> - **B)** Incorreta. O texto não afirma que as máquinas cometem "rigorosamente a mesma quantidade de falhas" que os humanos; não há comparação quantitativa alguma. O texto diz que os sistemas herdam os vieses e preconceitos dos dados históricos. Há extrapolação, agravada pelo termo absoluto "rigorosamente".
-> - **C)** Correta. O núcleo argumentativo do excerto (introduzido pelo conectivo adversativo *"Contudo"*, reforçado pela expressão retificadora *"Longe de"*) desconstrói a visão ingênua da IA como "objetividade asséptica", demonstrando que os modelos funcionam como "espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais". A alternativa traduz com precisão essa tese crítica, inclusive preservando o grau de possibilidade ("pode ocultar" ↔ "podem operar").
-> - **D)** Incorreta. O autor classifica a erradicação do erro como mera "promessa sedutora" e "aparente panaceia", não como um fato concretizado. Tratar a promessa como fato consumado é erro de **contradição**.
-> - **E)** Incorreta. O texto esclarece que os vieses decorrem dos "dados históricos que os alimentam", e não de má-fé ou dolo intencional dos desenvolvedores. A atribuição de culpa e intenção é extrapolação sem amparo no excerto.
->
-> **Gabarito: C**
-
----
-
-
 ### 1.4 Método Prático de Resolução
 
 Um roteiro eficiente para questões de leitura é:
@@ -151,6 +141,37 @@ Outro ponto importante é o **vocabulário em contexto**: a FCC frequentemente p
 
 > 💡 **DICA DE RESOLUÇÃO / RECONHECIMENTO DE TESE:** O primeiro parágrafo de um texto dissertativo da FCC normalmente contextualiza o tema e apresenta a tese. O último parágrafo sintetiza a conclusão. Se a questão indagar a ideia central, releia atentamente o início e o fim do texto antes de analisar as alternativas intermediárias.
 
+---
+---
+
+### Teste 001
+
+**(FCC – TCE-GO – Analista de Controle Externo)**  
+*Considere o seguinte excerto:*  
+*"A velocidade vertiginosa com que as novas tecnologias de inteligência artificial são integradas ao cotidiano suscita promessas sedutoras de eficiência administrativa absoluta e erradicação do erro humano. Contudo, essa aparente panaceia obscurece o fato de que os sistemas algorítmicos herdaram os próprios vieses, preconceitos e miopias éticas dos dados históricos que os alimentam. Longe de representarem uma objetividade asséptica, tais instrumentos podem operar como sofisticados espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais"*.
+
+A partir da leitura atenta do texto, depreende-se corretamente que:
+
+* **A)** A tecnologia de inteligência artificial deve ter sua aplicação sumariamente suspensa nas repartições públicas, por constituir ameaça insanável aos direitos fundamentais.
+* **B)** A eficiência operacional proporcionada pelos algoritmos revelou-se ilusória, uma vez que as máquinas cometem rigorosamente a mesma quantidade de falhas que os seres humanos.
+* **C)** O autor adota uma postura crítica ao evidenciar que a pretensa neutralidade da inteligência artificial pode ocultar a perpetuação de distorções e desigualdades preexistentes na sociedade.
+* **D)** A erradicação dos erros administrativos é um objetivo já alcançado nas esferas em que a tecnologia algorítmica substituiu o juízo humano.
+* **E)** Os vieses algorítmicos decorrem da imperícia intencional dos engenheiros de computação que desenvolvem modelos visando discriminar grupos sociais específicos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O texto não defende o banimento ou a suspensão sumária da tecnologia, mas alerta para o perigo de considerá-la neutra ou imune a falhas. A alternativa propõe uma solução que o autor não formulou: erro clássico de **extrapolação**.
+> - **B)** Incorreta. O texto não afirma que as máquinas cometem "rigorosamente a mesma quantidade de falhas" que os humanos; não há comparação quantitativa alguma. O texto diz que os sistemas herdam os vieses e preconceitos dos dados históricos. Há extrapolação, agravada pelo termo absoluto "rigorosamente".
+> - **C)** Correta. O núcleo argumentativo do excerto (introduzido pelo conectivo adversativo *"Contudo"*, reforçado pela expressão retificadora *"Longe de"*) desconstrói a visão ingênua da IA como "objetividade asséptica", demonstrando que os modelos funcionam como "espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais". A alternativa traduz com precisão essa tese crítica, inclusive preservando o grau de possibilidade ("pode ocultar" ↔ "podem operar").
+> - **D)** Incorreta. O autor classifica a erradicação do erro como mera "promessa sedutora" e "aparente panaceia", não como um fato concretizado. Tratar a promessa como fato consumado é erro de **contradição**.
+> - **E)** Incorreta. O texto esclarece que os vieses decorrem dos "dados históricos que os alimentam", e não de má-fé ou dolo intencional dos desenvolvedores. A atribuição de culpa e intenção é extrapolação sem amparo no excerto.
+>
+> **Gabarito: C**
+
+
+---
 ---
 
 ## 2. Gêneros Textuais e Contexto de Produção
@@ -180,8 +201,9 @@ Na prova, isso aparece em perguntas sobre o **ponto de vista** do autor, sobre o
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Em textos antigos (Machado, Lima Barreto), a banca pode testar se o candidato reconhece a **ironia** do narrador diante dos valores da época. Ler literalmente um elogio irônico à elite do século XIX é um erro de contradição.
 
+--- 
 
-### Questão 02
+### Teste 002
 **(FCC – DPE-RS – Analista – Processual)**  
 Considere o seguinte trecho:  
 *"A recente decisão governamental de rever a concessão de incentivos fiscais para determinados setores produtivos não deve ser encarada sob a ótica simplista do confronto ideológico. Trata-se, em verdade, de imperativo inadiável de responsabilidade fiscal e transparência republicana. Não é concebível que renúncias bilionárias continuem sendo renovadas sem a devida comprovação de contrapartidas sociais e geração efetiva de empregos. A sociedade tem o direito de saber o retorno exato de cada centavo que deixa de ingressar nos cofres públicos."*  
@@ -195,6 +217,8 @@ Quanto ao gênero textual e ao contexto discursivo, é correto afirmar que o tex
 * **D)** Corresponde a um ensaio filosófico subjetivo, centrado na discussão metafísica dos conceitos abstratos de justiça e virtude individual.
 * **E)** Caracteriza-se como texto injuntivo-instrucional, voltado a fornecer um passo a passo para que os cidadãos impugnem incentivos fiscais.
 
+--- 
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. A crônica lírica parte de fatos cotidianos simples para evocar poesia, humor ou sentimentos subjetivos íntimos. O texto em análise aborda finanças públicas, orçamento e responsabilidade fiscal com vocabulário técnico-argumentativo.
@@ -206,7 +230,6 @@ Quanto ao gênero textual e ao contexto discursivo, é correto afirmar que o tex
 > **Gabarito: B**
 
 ---
-
 ---
 
 ## 3. Tipologias Textuais
@@ -237,8 +260,9 @@ A **injunção** orienta o comportamento do leitor: diz o que fazer e como fazer
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A presença de um **trecho** narrativo dentro de um texto não o torna narrativo. Um ensaio que conta uma pequena anedota para ilustrar sua tese continua sendo **predominantemente dissertativo-argumentativo**: a narrativa ali é apenas uma estratégia de argumentação (argumento por exemplificação).
 
+--- 
 
-### Questão 03
+### Teste 003
 **(FCC – TRT-23 – Analista Judiciário)**  
 Considere o seguinte excerto:  
 *"O relator ajeitou os óculos sobre o nariz, respirou fundo e abriu a pasta de capa azul que continha o processo de licitação sob suspeita. O silêncio na sala de sessões era denso, quebrado apenas pelo sussurro intermitente do aparelho de ar-condicionado. Naquelas quatrocentas páginas, repousavam indícios materiais de sobrepreço que desviavam recursos destinados ao transporte escolar. A negligência fiscalizatória da administração pública não é mera desatenção burocrática: traduz-se no abandono de crianças sem acesso às salas de aula e corrói a própria legitimidade das instituições democráticas."*
@@ -251,6 +275,8 @@ Sobre a tipologia textual do excerto, constata-se que:
 * **D)** Constitui texto tipicamente injuntivo, pois determina expressamente a condenação imediata dos gestores responsáveis pela licitação.
 * **E)** Classifica-se como dissertação puramente expositiva, isenta de qualquer posicionamento ético ou juízo de valor do emissor.
 
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Embora o excerto comece narrando ações no tempo ("ajeitou", "respirou", "abriu"), a oração final introduz julgamento moral e político contundente ("não é mera desatenção... corrói a própria legitimidade"), afastando o caráter exclusivamente ficcional.
@@ -262,7 +288,6 @@ Sobre a tipologia textual do excerto, constata-se que:
 > **Gabarito: C**
 
 ---
-
 ---
 
 ## 4. Argumentação na Tipologia Dissertativa
@@ -303,8 +328,21 @@ Os **operadores argumentativos** (conectivos e expressões de articulação) rev
 
 
 ---
+---
 
-### Questão 04
+### 4.4 Pressupostos e Subentendidos
+
+Nem tudo o que o texto comunica está dito diretamente. A linguística distingue dois tipos de informação implícita:
+
+O **pressuposto** é uma informação implícita **marcada linguisticamente** na frase, ou seja, decorre necessariamente de certas palavras ou construções e não pode ser negada sem contradição. Em "O auditor **voltou a** atrasar o relatório", pressupõe-se que ele já atrasou antes (marcador: *voltar a*). Em "O gestor **deixou de** fraudar licitações", pressupõe-se que antes fraudava. Outros marcadores de pressuposição são: verbos que indicam mudança ou permanência (*continuar, passar a, tornar-se, ainda, já*), advérbios (*novamente, ainda, também*), adjetivos ("o **novo** sistema" pressupõe um antigo), orações adjetivas e verbos factivos (*lamentar, saber, perceber* pressupõem a verdade do complemento: "Lamento que o prazo tenha expirado" pressupõe que expirou). Um teste prático: o pressuposto **permanece verdadeiro** mesmo quando a frase é negada ou transformada em pergunta ("O auditor não voltou a atrasar?" — continua pressuposto que atrasou antes).
+
+O **subentendido** é uma insinuação que **depende do contexto** e da interpretação do ouvinte; não está preso a marcas linguísticas e o falante pode negá-lo ("Eu não quis dizer isso"). Se alguém diz, em uma sala abafada, "Está calor aqui, não?", pode estar subentendendo um pedido para abrir a janela. A responsabilidade pelo subentendido é partilhada com o ouvinte.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A FCC pergunta frequentemente "a palavra X pressupõe que..." ou "o emprego de 'ainda' permite inferir que...". Procure o **marcador linguístico** (*ainda, já, voltar a, deixar de, também, até*). Se a alternativa propõe uma insinuação que depende de contexto externo, trata-se de subentendido — ou de extrapolação.
+
+---
+
+### Teste 004
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Considere o seguinte trecho argumentativo:  
 *"Costuma-se argumentar que a imposição de regras rígidas de controle prévio nas contratações públicas paralisa a máquina administrativa e asfixia o dinamismo dos investimentos estatais. No entanto, estudos empíricos desenvolvidos pela OCDE e por centros de pesquisa econômica demonstram que cada real investido em fiscalização tempestiva economiza até quatro vezes mais em custos de reparação de danos e sobrepreços contratuais. Portanto, o controle não constitui entrave burocrático, mas sim salvaguarda indispensável à sustentabilidade fiscal do Estado."*
@@ -316,6 +354,8 @@ Na organização dos argumentos do excerto, o autor:
 * **C)** Defende que o controle prévio deve ser abolido para assegurar a rapidez nas contratações públicas emergenciais.
 * **D)** Conclui que as exigências de controle externo são responsáveis pela lentidão dos investimentos em infraestrutura.
 * **E)** Evita o emprego de conectivos de oposição, optando por justapor argumentos que sustentam uma mesma direção ideológica.
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -329,18 +369,7 @@ Na organização dos argumentos do excerto, o autor:
 
 ---
 
-### 4.4 Pressupostos e Subentendidos
-
-Nem tudo o que o texto comunica está dito diretamente. A linguística distingue dois tipos de informação implícita:
-
-O **pressuposto** é uma informação implícita **marcada linguisticamente** na frase, ou seja, decorre necessariamente de certas palavras ou construções e não pode ser negada sem contradição. Em "O auditor **voltou a** atrasar o relatório", pressupõe-se que ele já atrasou antes (marcador: *voltar a*). Em "O gestor **deixou de** fraudar licitações", pressupõe-se que antes fraudava. Outros marcadores de pressuposição são: verbos que indicam mudança ou permanência (*continuar, passar a, tornar-se, ainda, já*), advérbios (*novamente, ainda, também*), adjetivos ("o **novo** sistema" pressupõe um antigo), orações adjetivas e verbos factivos (*lamentar, saber, perceber* pressupõem a verdade do complemento: "Lamento que o prazo tenha expirado" pressupõe que expirou). Um teste prático: o pressuposto **permanece verdadeiro** mesmo quando a frase é negada ou transformada em pergunta ("O auditor não voltou a atrasar?" — continua pressuposto que atrasou antes).
-
-O **subentendido** é uma insinuação que **depende do contexto** e da interpretação do ouvinte; não está preso a marcas linguísticas e o falante pode negá-lo ("Eu não quis dizer isso"). Se alguém diz, em uma sala abafada, "Está calor aqui, não?", pode estar subentendendo um pedido para abrir a janela. A responsabilidade pelo subentendido é partilhada com o ouvinte.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A FCC pergunta frequentemente "a palavra X pressupõe que..." ou "o emprego de 'ainda' permite inferir que...". Procure o **marcador linguístico** (*ainda, já, voltar a, deixar de, também, até*). Se a alternativa propõe uma insinuação que depende de contexto externo, trata-se de subentendido — ou de extrapolação.
-
-
-### Questão 05
+### Teste 005
 **(FCC – TRT-14 – Analista Judiciário)**  
 Considere a frase a seguir:  
 *"Após a auditoria operacional, o órgão previdenciário **voltou a** publicar mensalmente as planilhas de desembolso financeiro, e os novos gestores **ainda** mantêm os relatórios acessíveis à consulta pública."*
@@ -353,6 +382,8 @@ A análise dos operadores argumentativos e dos implícitos linguísticos da fras
 * **D)** A transparência pública é tratada como mera possibilidade remota, evidenciada pela flexão condicional dos verbos principais.
 * **E)** A locução *"após a auditoria"* pressupõe que as auditorias de controle externo são inócuas para modificar condutas administrativas.
 
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Dizer que o órgão *"voltou a"* publicar pressupõe necessariamente que ele já publicava antes e havia interrompido essa prática. Se nunca tivesse publicado, o verbo seria "passou a" ou "iniciou".
@@ -364,7 +395,6 @@ A análise dos operadores argumentativos e dos implícitos linguísticos da fras
 > **Gabarito: C**
 
 ---
-
 ---
 
 ## 5. Níveis de Linguagem e Denotação e Conotação
@@ -375,9 +405,17 @@ A **denotação** é o uso da palavra em seu **sentido literal, objetivo e dicio
 
 Exemplos típicos de enunciados denotativos são as frases técnico-jurídicas: "O contrato foi rescindido unilateralmente pela administração", "A receita registrou crescimento de quatro por cento no trimestre", "O Tribunal de Contas é composto por sete Conselheiros", "O prazo prescricional é de cinco anos". Repare que nelas não há imagens, comparações ou juízos emotivos: cada palavra designa exatamente o que diz o dicionário ou a terminologia técnica. A presença de **termos técnicos**, **números** e **referências normativas** é um indício forte de linguagem denotativa — embora não seja uma garantia absoluta, pois um texto técnico pode conter uma metáfora isolada.
 
+### 5.2 Linguagem Conotativa
+
+A **conotação** é o uso da palavra em **sentido figurado**, ampliado ou associativo, que depende do contexto e carrega valores afetivos, críticos ou estéticos. A linguagem conotativa é **plurissignificativa** (admite mais de uma leitura) e **expressiva**: ela não apenas informa, mas também emociona, critica, ironiza. Em "A burocracia estatal **engoliu** os anseios da população em um **pântano** de formulários", nenhuma palavra destacada está em sentido literal: a burocracia não tem boca (*engolir* é figurado, atribuindo ação de ser vivo a um ente abstrato) e não há pântano real (a palavra sugere lentidão, atoleiro, imobilidade).
+
+A conotação está na base das **figuras de linguagem** (item 9), especialmente da metáfora e da prosopopeia, e é predominante em textos literários, crônicas, ensaios e publicidade. A mesma palavra pode ser denotativa ou conotativa conforme o contexto: "O pântano fica ao sul da cidade" (denotação) × "O processo afundou num pântano de exigências" (conotação).
+
+> ⭐ **IMPORTANTE:** Para decidir se há conotação, faça o **teste da literalidade**: "isso pode acontecer, ao pé da letra, no mundo real?" Uma burocracia não engole; um coração não chora lágrimas de ferro; dados de planilha não gritam. Se a resposta é "não", há sentido figurado.
+
 ---
 
-### Questão 06
+### Teste 006
 **(FCC – DPE-RS – Analista Jurídico)**  
 Assinale a alternativa em que a relação entre orações do texto expressa valor semântico de conotação e linguagem figurada:
 
@@ -386,6 +424,8 @@ Assinale a alternativa em que a relação entre orações do texto expressa valo
 * **C)** *"A burocracia estatal engoliu os anseios da população em um pântano de formulários intermináveis e carimbos inertes."*
 * **D)** *"O Tribunal de Contas é composto por sete Conselheiros nomeados segundo os ditames da Constituição Estadual."*
 * **E)** *"O prazo prescricional para o ajuizamento da execução fiscal de créditos tributários é de cinco anos."*
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -398,16 +438,6 @@ Assinale a alternativa em que a relação entre orações do texto expressa valo
 > **Gabarito: C**
 
 ---
-
-
-### 5.2 Linguagem Conotativa
-
-A **conotação** é o uso da palavra em **sentido figurado**, ampliado ou associativo, que depende do contexto e carrega valores afetivos, críticos ou estéticos. A linguagem conotativa é **plurissignificativa** (admite mais de uma leitura) e **expressiva**: ela não apenas informa, mas também emociona, critica, ironiza. Em "A burocracia estatal **engoliu** os anseios da população em um **pântano** de formulários", nenhuma palavra destacada está em sentido literal: a burocracia não tem boca (*engolir* é figurado, atribuindo ação de ser vivo a um ente abstrato) e não há pântano real (a palavra sugere lentidão, atoleiro, imobilidade).
-
-A conotação está na base das **figuras de linguagem** (item 9), especialmente da metáfora e da prosopopeia, e é predominante em textos literários, crônicas, ensaios e publicidade. A mesma palavra pode ser denotativa ou conotativa conforme o contexto: "O pântano fica ao sul da cidade" (denotação) × "O processo afundou num pântano de exigências" (conotação).
-
-> ⭐ **IMPORTANTE:** Para decidir se há conotação, faça o **teste da literalidade**: "isso pode acontecer, ao pé da letra, no mundo real?" Uma burocracia não engole; um coração não chora lágrimas de ferro; dados de planilha não gritam. Se a resposta é "não", há sentido figurado.
-
 ---
 
 ## 6. Modalidades de Discurso
@@ -451,7 +481,7 @@ Exemplo: *"O relator permaneceu em silêncio. **Como solucionar aquele impasse s
 
 ---
 
-### Questão 07
+### Teste 007
 **(FCC – TRT – Analista Judiciário)**  
 *Observe o fragmento a seguir:*  
 *"O relator permaneceu em silêncio por longos minutos diante dos autos volumosos. Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa? Sabia que os olhares de todos os presentes convergiam para sua bancada. Era preciso decidir, e decidir imediatamente"*.
@@ -464,6 +494,8 @@ No fragmento acima, a passagem assinalada pela oração interrogativa (*"Como so
 * **D)** Recurso estilístico de metonímia personificada.
 * **E)** Discurso dissertativo de autoridade estrita.
 
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Não há discurso direto, pois faltam verbos de elocução introdutórios e a pontuação típica (dois-pontos, travessão ou aspas). "Elipse de aspas" não é categoria gramatical reconhecida; a ausência das marcas é justamente o que afasta o discurso direto.
@@ -475,8 +507,7 @@ No fragmento acima, a passagem assinalada pela oração interrogativa (*"Como so
 > **Gabarito: C**
 
 ---
-
-
+---
 
 ## 7. Transposição de Discursos
 
@@ -514,7 +545,7 @@ A transposição exige **ajuste simultâneo** de todos os elementos: uma alterna
 
 ---
 
-### Questão 08
+### Teste 008
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Transpondo-se a oração em discurso direto:  
 *O auditor afirmou aos gestores: "Concluirei a fiscalização amanhã e entregarei este relatório à presidência"*  
@@ -525,6 +556,8 @@ para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se cor
 * **C)** O auditor afirmou aos gestores que concluíra a fiscalização na véspera e entregara esse relatório à presidência.
 * **D)** O auditor afirmou aos gestores que concluirá a fiscalização no dia subsequente e entregará aquele relatório à presidência.
 * **E)** O auditor afirmou aos gestores que tenha concluído a fiscalização amanhã e entregue aquele relatório à presidência.
+
+--- 
 
 > **Comentário Detalhado:**
 >
@@ -541,8 +574,7 @@ para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se cor
 > **Gabarito: B**
 
 ---
-
-
+--- 
 
 ## 8. Intertextualidade
 
@@ -567,7 +599,7 @@ A **alusão** é uma **referência indireta**, breve e sem citação literal, a 
 > 📌 **NOTA EXPLICATIVA:** Paráfrase = mesmas ideias, outras palavras (concorda). Paródia = mesma forma, ideias subvertidas (contesta). Citação = palavras do outro com fonte. Epígrafe = citação no início do texto. Alusão = referência indireta que o leitor deve reconhecer.
 
 
-### Questão 09
+### Teste 009
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Considere os dois textos abaixo:  
 
@@ -585,6 +617,8 @@ Comparando os Textos I e II sob a perspectiva das relações intertextuais, veri
 * **D)** Utiliza uma epígrafe formal que se limita a homenagear Gonçalves Dias sem interagir com os conceitos da obra referenciada.
 * **E)** Isola-se de qualquer diálogo com o cânone literário, não permitindo estabelecer paralelo intertextual com o poema de 1843.
 
+--- 
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. A paráfrase reafirma as mesmas ideias do texto-fonte com vocabulário alternativo (relação de adesão). O Texto II altera drasticamente o significado e o tom lírico do original.
@@ -596,7 +630,6 @@ Comparando os Textos I e II sob a perspectiva das relações intertextuais, veri
 > **Gabarito: B**
 
 ---
-
 ---
 
 ## 9. Figuras de Linguagem
@@ -631,46 +664,6 @@ Atuam sobre o **sentido global** do enunciado, combinando ideias de forma expres
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** **Eufemismo × Ironia:** o eufemismo **atenua** uma verdade incômoda sem inverter seu sentido ("não era exatamente sábio" continua dizendo que ele não era sábio, apenas de forma branda); a ironia **inverte** o sentido ("Que gênio!", dito de quem errou). **Metáfora × Catacrese:** se a imagem é criativa e expressiva, é metáfora; se é a forma corriqueira de nomear algo (pé da mesa), é catacrese.
 
----
-
-### Questão 10
-**(FCC – METRÔ-SP – Analista de Comunicação)**  
-Considere os versos e expressões a seguir:  
-
-I. *"A cidade dormia sob o manto pesado de um silêncio ensurdecedor."*  
-
-II. *"Ele não era exatamente uma fonte de sabedoria; faltava-lhe perspicácia para lidar com o público."*  
-
-III. *"Nas horas de angústia, o coração do fiscal chorava lágrimas de ferro."*  
-
-As figuras de linguagem presentes nos trechos I, II e III são, respectivamente:
-
-* **A)** Paradoxo (Oximoro), Eufemismo e Prosopopeia (Personificação).
-* **B)** Antítese, Hipérbole e Metonímia.
-* **C)** Pleonasmo, Ironia e Catacrese.
-* **D)** Paradoxo (Oximoro), Antítese e Sinestesia.
-* **E)** Metáfora, Eufemismo e Zeugma.
-
-> **Comentário Detalhado:**
-> Análise dos trechos:
->
-> - **Trecho I:** *"silêncio ensurdecedor"* reúne, no mesmo ser, termos logicamente excludentes (o silêncio não pode ensurdecer), configurando **paradoxo (oximoro)**.
-> - **Trecho II:** *"não era exatamente uma fonte de sabedoria"* suaviza a constatação rude de que a pessoa era pouco sábia ou despreparada, caracterizando **eufemismo** (na modalidade litotes: afirmação pela negação do contrário).
-> - **Trecho III:** *"o coração (...) chorava lágrimas de ferro"* atribui ação humana (chorar) ao órgão, caracterizando **prosopopeia (personificação)**, combinada com metáfora expressiva ("lágrimas de ferro").
->
-> Análise das alternativas:
->
-> - **A)** Correta. É a única sequência em que os três trechos estão corretamente classificados: paradoxo, eufemismo e prosopopeia.
-> - **B)** Incorreta. Em I não há antítese, pois os opostos não se referem a aspectos distintos, mas se fundem no mesmo ser (paradoxo); em II não há exagero (hipérbole), mas atenuação; em III não há substituição por contiguidade (metonímia).
-> - **C)** Incorreta. Em I não há pleonasmo (repetição de ideia), mas contradição; em II não há inversão de sentido (ironia) — a frase diz, de modo brando, exatamente o que pensa; em III a imagem é criativa, e não uma metáfora cristalizada pelo uso (catacrese).
-> - **D)** Incorreta. Acerta o trecho I, mas erra em II (não há termos opostos, logo não há antítese) e em III (não há mistura de sensações de órgãos diferentes, logo não há sinestesia).
-> - **E)** Incorreta. Embora o trecho I contenha uma metáfora secundária ("manto pesado") e o II seja de fato eufemismo, a figura central de I é o oximoro "silêncio ensurdecedor" e, sobretudo, em III não há omissão de termo já expresso, o que exclui o zeugma.
->
-> **Gabarito: A**
-
----
-
-
 ### 9.3 Figuras de Construção ou de Sintaxe
 
 Atuam sobre a **estrutura da frase**: omissões, repetições e inversões.
@@ -696,8 +689,48 @@ Exploram a **sonoridade** das palavras, sendo frequentes em poesia, publicidade 
 - **Onomatopeia:** palavra que **imita um som** ou ruído (*tique-taque, zum-zum, cocoricó*).
 - **Paronomásia:** aproximação de palavras de **sons semelhantes** e sentidos diferentes, criando jogo sonoro (*"Quem casa quer casa"*; *"tradutor, traidor"*).
 
+---
 
-### Questão 11
+### Teste 010
+**(FCC – METRÔ-SP – Analista de Comunicação)**  
+Considere os versos e expressões a seguir:  
+
+I. *"A cidade dormia sob o manto pesado de um silêncio ensurdecedor."*  
+
+II. *"Ele não era exatamente uma fonte de sabedoria; faltava-lhe perspicácia para lidar com o público."*  
+
+III. *"Nas horas de angústia, o coração do fiscal chorava lágrimas de ferro."*  
+
+As figuras de linguagem presentes nos trechos I, II e III são, respectivamente:
+
+* **A)** Paradoxo (Oximoro), Eufemismo e Prosopopeia (Personificação).
+* **B)** Antítese, Hipérbole e Metonímia.
+* **C)** Pleonasmo, Ironia e Catacrese.
+* **D)** Paradoxo (Oximoro), Antítese e Sinestesia.
+* **E)** Metáfora, Eufemismo e Zeugma.
+
+---
+
+> **Comentário Detalhado:**
+> Análise dos trechos:
+>
+> - **Trecho I:** *"silêncio ensurdecedor"* reúne, no mesmo ser, termos logicamente excludentes (o silêncio não pode ensurdecer), configurando **paradoxo (oximoro)**.
+> - **Trecho II:** *"não era exatamente uma fonte de sabedoria"* suaviza a constatação rude de que a pessoa era pouco sábia ou despreparada, caracterizando **eufemismo** (na modalidade litotes: afirmação pela negação do contrário).
+> - **Trecho III:** *"o coração (...) chorava lágrimas de ferro"* atribui ação humana (chorar) ao órgão, caracterizando **prosopopeia (personificação)**, combinada com metáfora expressiva ("lágrimas de ferro").
+>
+> Análise das alternativas:
+>
+> - **A)** Correta. É a única sequência em que os três trechos estão corretamente classificados: paradoxo, eufemismo e prosopopeia.
+> - **B)** Incorreta. Em I não há antítese, pois os opostos não se referem a aspectos distintos, mas se fundem no mesmo ser (paradoxo); em II não há exagero (hipérbole), mas atenuação; em III não há substituição por contiguidade (metonímia).
+> - **C)** Incorreta. Em I não há pleonasmo (repetição de ideia), mas contradição; em II não há inversão de sentido (ironia) — a frase diz, de modo brando, exatamente o que pensa; em III a imagem é criativa, e não uma metáfora cristalizada pelo uso (catacrese).
+> - **D)** Incorreta. Acerta o trecho I, mas erra em II (não há termos opostos, logo não há antítese) e em III (não há mistura de sensações de órgãos diferentes, logo não há sinestesia).
+> - **E)** Incorreta. Embora o trecho I contenha uma metáfora secundária ("manto pesado") e o II seja de fato eufemismo, a figura central de I é o oximoro "silêncio ensurdecedor" e, sobretudo, em III não há omissão de termo já expresso, o que exclui o zeugma.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 011
 **(FCC – TRT – Analista Judiciário)**  
 Considere o seguinte período:  
 *"O procurador examinava minuciosamente os autos da representação; o auditor, as planilhas financeiras das empreiteiras contratadas."*
@@ -710,6 +743,8 @@ No trecho acima, a vírgula empregada após a palavra *"auditor"* assinala a oco
 * **D)** Hipérbato, que consiste na inversão drástica da ordem direta dos elementos sintáticos.
 * **E)** Polissíndeto, decorrente da multiplicação expressiva de conjunções coordenativas.
 
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Não há quebra gramatical nem sujeito sem predicado no período. A construção é perfeitamente harmônica e canônica.
@@ -721,7 +756,6 @@ No trecho acima, a vírgula empregada após a palavra *"auditor"* assinala a oco
 > **Gabarito: B**
 
 ---
-
 ---
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
