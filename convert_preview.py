@@ -11,7 +11,7 @@ import subprocess
 import markdown
 import pypdf
 
-BASE_DIR = r"c:\Users\thiag\OneDrive\Desktop\Sefaz Go"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FONTES_DIR = os.path.join(BASE_DIR, "fontes_de_estudo")
 EDGE_PATH = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 NODE_RENDERER = os.path.join(BASE_DIR, "render_html_to_pdf.js")

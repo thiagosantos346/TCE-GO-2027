@@ -904,6 +904,52 @@ def generate_a01_html(theme='sepia'):
                         els[i].style.textAlign = "left";
                     }}
                 }}
+
+                // Ajuste universal proporcional e responsivo de SVG para impressão/PDF A4
+                const svgs = document.querySelectorAll('.mermaid svg, pre.mermaid svg, .mermaid-container svg');
+                for (const svg of svgs) {{
+                    let w = 0, h = 0;
+                    const vbAttr = svg.getAttribute('viewBox');
+                    if (vbAttr) {{
+                        const parts = vbAttr.trim().split(/[\s,]+/).map(Number);
+                        if (parts.length === 4) {{
+                            w = parts[2];
+                            h = parts[3];
+                        }}
+                    }} else if (svg.viewBox && svg.viewBox.baseVal) {{
+                        w = svg.viewBox.baseVal.width;
+                        h = svg.viewBox.baseVal.height;
+                    }}
+
+                    if (w > 0 && h > 0) {{
+                        const MAX_PRINT_WIDTH = 680;
+                        const MAX_PRINT_HEIGHT = 480;
+
+                        let targetWidth = w;
+                        let targetHeight = h;
+
+                        if (targetHeight > MAX_PRINT_HEIGHT) {{
+                            const scale = MAX_PRINT_HEIGHT / targetHeight;
+                            targetHeight = MAX_PRINT_HEIGHT;
+                            targetWidth = targetWidth * scale;
+                        }}
+
+                        if (targetWidth > MAX_PRINT_WIDTH) {{
+                            const scale = MAX_PRINT_WIDTH / targetWidth;
+                            targetWidth = MAX_PRINT_WIDTH;
+                            targetHeight = targetHeight * scale;
+                        }}
+
+                        svg.removeAttribute('width');
+                        svg.removeAttribute('height');
+                        svg.style.width = '100%';
+                        svg.style.maxWidth = Math.round(targetWidth) + 'px';
+                        svg.style.maxHeight = Math.round(targetHeight) + 'px';
+                        svg.style.height = 'auto';
+                        svg.style.display = 'block';
+                        svg.style.margin = '0 auto';
+                    }}
+                }}
             }} catch(e) {{
                 console.warn("Aviso global Mermaid:", e);
             }}

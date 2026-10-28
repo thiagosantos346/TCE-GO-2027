@@ -337,7 +337,7 @@ def normalize_slug(text):
 
 
 def adjust_mermaid_svg_size(svg_content):
-    """Ajusta dinamicamente o tamanho do SVG do Mermaid a partir da razão w / h do viewBox."""
+    """Ajusta proporcionalmente o tamanho do SVG do Mermaid para layout A4 preservando o aspect ratio."""
     soup = BeautifulSoup(svg_content, "html.parser")
     svg = soup.find("svg")
     if not svg:
@@ -360,11 +360,22 @@ def adjust_mermaid_svg_size(svg_content):
                 pass
 
     if w > 0 and h > 0:
-        ratio = w / h
-        if ratio > 2.5:
-            svg["style"] = "width: 100%; max-width: 920px; height: auto; min-height: 180px; display: block; margin: 0 auto;"
-        else:
-            svg["style"] = "width: 100%; max-width: 760px; height: auto; min-height: 240px; display: block; margin: 0 auto;"
+        max_print_w = 680.0
+        max_print_h = 480.0
+        target_w = w
+        target_h = h
+
+        if target_h > max_print_h:
+            scale = max_print_h / target_h
+            target_h = max_print_h
+            target_w = target_w * scale
+
+        if target_w > max_print_w:
+            scale = max_print_w / target_w
+            target_w = max_print_w
+            target_h = target_h * scale
+
+        svg["style"] = f"width: 100%; max-width: {round(target_w)}px; max-height: {round(target_h)}px; height: auto; display: block; margin: 0 auto;"
     return str(soup)
 
 
@@ -382,14 +393,22 @@ def render_mermaid_to_svg(code):
     temp_cfg = f"temp_{uid}_cfg.json"
     mermaid_cfg = {
         "theme": "default",
-        "themeVariables": {"fontSize": "15px"},
+        "themeVariables": {
+            "fontSize": "13px",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        },
         "flowchart": {
             "htmlLabels": True,
-            "useMaxWidth": False,
-            "wrappingWidth": 200,
-            "nodeSpacing": 35,
-            "rankSpacing": 45
-        }
+            "useMaxWidth": True,
+            "curve": "basis",
+            "wrappingWidth": 220,
+            "nodeSpacing": 25,
+            "rankSpacing": 30
+        },
+        "sequence": { "useMaxWidth": True },
+        "state": { "useMaxWidth": True },
+        "class": { "useMaxWidth": True },
+        "er": { "useMaxWidth": True }
     }
     try:
         with open(temp_mmd, "w", encoding="utf-8") as f:
