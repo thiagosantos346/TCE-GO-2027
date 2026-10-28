@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `04_planejamento_estrategico_indicadores_e_gestao_por_competencias.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Níveis do planejamento organizacional: Estratégico (institucional e longo prazo), Tático (departamental e médio prazo) e Operacional (tarefas, rotinas e curto prazo);
@@ -27,19 +30,35 @@
     - Decisões programadas versus decisões não programadas;
 - Gestão de conflitos organizacionais: conflitos funcionais e disfuncionais; estilos de tratamento de conflitos (Kenneth Thomas e Ralph Kilmann).
 
----
 
-## 🧭 Sumário Interativo
-- [1. Níveis do Planejamento Organizacional](#1-niveis-do-planejamento-organizacional)
-- [2. O Balanced Scorecard (BSC) no Setor Público](#2-o-balanced-scorecard-bsc-no-setor-publico)
-- [3. Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H](#3-matrizes-swot-fofa-gut-e-plano-de-acao-5w2h)
-- [4. Indicadores de Desempenho e Métodos de Avaliação Funcional](#4-indicadores-de-desempenho-e-metodos-de-avaliacao-funcional)
-- [5. Gestão por Competências no Setor Público (Decreto 9.991/2019)](#5-gestao-por-competencias-no-setor-publico-decreto-99912019)
-- [6. Processo Decisório e Teoria da Decisão (Herbert Simon)](#6-processo-decisorio-e-teoria-da-decisao-herbert-simon)
-- [7. Gestão de Conflitos Organizacionais (Thomas-Kilmann)](#7-gestao-de-conflitos-organizacionais-thomas-kilmann)
-- [8. Fontes Oficiais e Referências Bibliográficas](#8-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [Níveis do Planejamento Organizacional](#1-niveis-do-planejamento-organizacional)
+    2. [Teste 330](#Teste-330)
+    3. [O Balanced Scorecard (BSC) no Setor Público](#2-o-balanced-scorecard-bsc-no-setor-publico)
+    4. [Teste 331](#Teste-331)
+    5. [Teste 332](#Teste-332)
+    6. [Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H](#3-matrizes-swot-fofa-gut-e-plano-de-acao-5w2h)
+    7. [Teste 333](#Teste-333)
+    8. [Indicadores de Desempenho e Métodos de Avaliação Funcional](#4-indicadores-de-desempenho-e-metodos-de-avaliacao-funcional)
+    9. [Teste 334](#Teste-334)
+    10. [Gestão por Competências no Setor Público (Decreto 9.991/2019)](#5-gestao-por-competencias-no-setor-publico-decreto-99912019)
+    11. [Teste 335](#Teste-335)
+    12. [Processo Decisório e Teoria da Decisão (Herbert Simon)](#6-processo-decisorio-e-teoria-da-decisao-herbert-simon)
+    13. [Teste 336](#Teste-336)
+    14. [Gestão de Conflitos Organizacionais (Thomas-Kilmann)](#7-gestao-de-conflitos-organizacionais-thomas-kilmann)
+    15. [Teste 337](#Teste-337)
+    16. [Teste 338](#Teste-338)
+    17. [Teste 339](#Teste-339)
+    18. [Fontes Oficiais e Referências Bibliográficas](#8-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -77,7 +96,8 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Adaptada / Analista de Planejamento e Gestão)
+### Teste 330
+**(FCC - Adaptada / Analista de Planejamento e Gestão)**
 O planejamento organizacional é estruturado em três níveis hierárquicos interligados: Estratégico, Tático e Operacional.
 
 A respeito desses níveis, é correto afirmar:
@@ -87,6 +107,9 @@ A respeito desses níveis, é correto afirmar:
 * **C)** O planejamento operacional abrange o macroambiente externo e analisa as forças competitivas da economia internacional.
 * **D)** O planejamento estratégico é privativo de empresas comerciais de mercado, inexistindo aplicação prática no âmbito dos Tribunais de Contas e órgãos públicos.
 * **E)** O planejamento tático foca exclusivamente em investimentos com prazo superior a quinze anos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -142,7 +165,7 @@ flowchart TD
 
 ---
 
-### Questão 02
+### Teste 331
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Contas utilizou a metodologia do Balanced Scorecard (BSC). Ao elaborar o mapa estratégico, a equipe de planejamento definiu quatro perspectivas de objetivos. Considerando as peculiaridades das organizações públicas em relação às empresas privadas com fins lucrativos, no modelo adotado pelo Tribunal:
 
@@ -151,6 +174,9 @@ Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Co
 * **C)** O aprendizado e o crescimento funcional são eliminados do mapa por serem exclusivos de indústrias manufatureiras.
 * **D)** As relações de causa e efeito deixam de existir, passando os objetivos a ser medidos de forma isolada e autônoma.
 * **E)** O mapa estratégico dispensa a identificação de indicadores e metas para os processos de fiscalização e controle.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -166,7 +192,8 @@ Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Co
 
 
 
-### Questão 03 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 332
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organizações públicas e entidades de controle governamental (como o TCE-GO), a adaptação mais relevante no mapa estratégico consiste em:
 
 * **A)** Deslocar a perspectiva dos "Clientes / Cidadãos-Usuários e Sociedade" para o topo do mapa estratégico como objetivo final supremo, passando a perspectiva financeira a atuar como viabilizadora e restrição orçamentária dos serviços prestados.
@@ -174,6 +201,9 @@ Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organiza
 * **C)** Substituir os indicadores de eficácia social por índices de lucro líquido financeiro a ser distribuído aos cidadãos como dividendos monetários.
 * **D)** Considerar a perspectiva de Processos Internos como a única relevante, descartando qualquer métrica voltada para a satisfação da sociedade.
 * **E)** Proibir o estabelecimento de relações de causa e efeito entre os objetivos estratégicos institucionais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -217,7 +247,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Teste 333
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 Durante a realização de um diagnóstico institucional, os analistas de um tribunal identificaram os seguintes fatores:
 
@@ -233,6 +263,9 @@ Sob a ótica da Matriz SWOT (FOFA), os fatores 1, 2, 3 e 4 representam, respecti
 * **C)** Força, Ameaça, Oportunidade e Fraqueza.
 * **D)** Oportunidade, Fraqueza, Força e Ameaça.
 * **E)** Força, Fraqueza, Ameaça e Oportunidade.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -303,7 +336,8 @@ Para assegurar a utilidade e fidedignidade dos relatórios de governança, os in
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Controle Externo)
+### Teste 334
+**(FCC - Adaptada / Analista de Controle Externo)**
 Na formulação de planos de intervenção operacional decorrentes de achados de auditoria ou do planejamento setorial, a ferramenta **5W2H** é amplamente utilizada para operacionalizar as decisões em planos de ação objetivos.
 
 O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corresponde a responder:
@@ -313,6 +347,9 @@ O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corres
 * **C)** Quando e em quais datas a ação será iniciada e finalizada.
 * **D)** Por que a ação deve ser realizada e qual a sua justificativa estratégica.
 * **E)** Onde a ação será implementada geograficamente.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -349,7 +386,7 @@ flowchart LR
 
 ---
 
-### Questão 06
+### Teste 335
 **(FCC – DPE-RS – Analista: Gestão Pública)**  
 Na gestão de pessoas no setor público, a metodologia de Gestão por Competências estrutura o perfil funcional a partir da tríade CHA (Conhecimentos, Habilidades e Atitudes). Quando um servidor público domina minuciosamente as regras teóricas da Nova Lei de Licitações (Lei nº 14.133/2021), mas demonstra insegurança técnica e não consegue operar o sistema eletrônico de compras públicas para cadastrar o edital, verifica-se que o servidor possui:
 
@@ -358,6 +395,9 @@ Na gestão de pessoas no setor público, a metodologia de Gestão por Competênc
 * **C)** Conhecimento e Habilidade, faltando-lhe unicamente Atitude proativa.
 * **D)** Habilidade plena, sem domínio de Conhecimento e Atitude.
 * **E)** Ausência simultânea de Conhecimento, Habilidade e Atitude.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -412,7 +452,7 @@ flowchart TD
 
 ---
 
-### Questão 07
+### Teste 336
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 A respeito do processo decisório nas organizações e das conclusões da Teoria da Racionalidade Limitada proposta por Herbert Simon, é correto afirmar:
 
@@ -421,6 +461,9 @@ A respeito do processo decisório nas organizações e das conclusões da Teoria
 * **C)** Diante da escassez de tempo, limitações cognitivas e insuficiência de dados completos, o gestor atua como o "homem administrativo", selecionando uma alternativa satisfatória que atenda a padrões mínimos aceitáveis.
 * **D)** A teoria da racionalidade limitada defende que o administrador público deve decidir de forma puramente arbitrária e intuitiva, dispensando critérios analíticos de avaliação.
 * **E)** As decisões operacionais tomadas sob racionalidade limitada prescindem da fixação prévia de objetivos organizacionais pelo planejamento.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -469,7 +512,7 @@ flowchart TD
 
 ---
 
-### Questão 08
+### Teste 337
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 Dois diretores de uma agência reguladora divergem categoricamente a respeito dos critérios de reajuste tarifário do transporte intermunicipal. Ambos demonstram alta preocupação em fazer valer suas teses técnicas individuais (alta assertividade), mas recusam-se terminantemente a ouvir os argumentos da outra parte ou a construir um consenso cooperativo (baixa cooperação). Segundo o modelo de estilos de administração de conflitos de Thomas-Kilmann, o comportamento adotado por esses gestores caracteriza o estilo de:
 
@@ -478,6 +521,9 @@ Dois diretores de uma agência reguladora divergem categoricamente a respeito do
 * **C)** Competição ou Imposição (Ganha-Perde).
 * **D)** Evitação ou Fuga (Perde-Perde).
 * **E)** Acordo ou Concessão Mútua equilibrada.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -493,7 +539,8 @@ Dois diretores de uma agência reguladora divergem categoricamente a respeito do
 
 
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 338
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 A Gestão por Competências no setor público busca alinhar o desenvolvimento dos servidores aos objetivos estratégicos da organização. De acordo com o modelo amplamente consagrado na doutrina administrativa (Dutra, Zarifian, Fleury), a competência individual fundamenta-se no tripé conceitual **C.H.A.**.
 
 As letras que compõem a sigla **CHA** representam:
@@ -504,6 +551,9 @@ As letras que compõem a sigla **CHA** representam:
 * **D)** Criatividade técnica, Homogeneidade de tarefas e Assertividade comunicacional.
 * **E)** Conformidade regulamentar, Homologação decisória e Atendimento cortês.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. **CHA**: **Conhecimento** (saber teórico), **Habilidade** (saber fazer / capacidade prática) e **Atitude** (querer fazer / postura e proatividade).
@@ -513,7 +563,8 @@ As letras que compõem a sigla **CHA** representam:
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 339
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 A respeito dos indicadores de desempenho da gestão pública e das dimensões clássicas dos **6 Es** (Eficácia, Eficiência, Efetividade, Economicidade, Excelência e Execução):
 
 Um programa público de vacinação infantil que imunizou 98% do público-alvo planejado, gerando como reflexo a erradicação de determinada doença infectocontagiosa na população infantil do Estado no ano subsequente, demonstrou, com relação ao atingimento da meta quantitativa e ao impacto social transformador duradouro, respectivamente:
@@ -523,6 +574,9 @@ Um programa público de vacinação infantil que imunizou 98% do público-alvo p
 * **C)** Baixa Eficácia e Ausência de Efetividade social.
 * **D)** Execução financeira passiva e Baixa Excelência de atendimento.
 * **E)** Fato gerador contábil sem reflexo em indicadores de desempenho da gestão.
+
+
+---
 
 > **Comentário Detalhado:**
 >

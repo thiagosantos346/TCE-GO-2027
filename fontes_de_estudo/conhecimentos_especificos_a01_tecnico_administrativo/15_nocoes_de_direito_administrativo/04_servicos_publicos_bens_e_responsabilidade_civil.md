@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `04_servicos_publicos_bens_e_responsabilidade_civil.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Responsabilidade civil do Estado: evolução histórica, fundamentos e modalidades
@@ -16,28 +19,44 @@
 - Serviços públicos: conceito, princípios, delegação a particulares (Lei nº 8.987/1995 e Lei nº 11.079/2004)
 - Bens públicos: conceito, classificação (Código Civil, art. 99), afetação/desafetação e regime jurídico
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Responsabilidade Civil Extracontratual do Estado](#1-responsabilidade-civil-extracontratual-do-estado)
-    - [1.1 Evolução Histórica da Responsabilidade Estatal](#11-evolucao-historica-da-responsabilidade-estatal)
-    - [1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva](#12-o-art-37-6o-da-cf88-e-os-elementos-da-responsabilidade-objetiva)
-    - [1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes](#13-teoria-do-risco-administrativo-excludentes-e-atenuantes)
-    - [1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais](#14-teoria-do-risco-integral-e-suas-hipoteses-excepcionais)
-    - [1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica](#15-responsabilidade-por-omissao-estatal-generica-vs-especifica)
-    - [1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)](#16-acao-regressiva-e-a-teoria-da-dupla-garantia-tema-940-stf)
-- [2. Regime Jurídico dos Serviços Públicos e sua Delegação](#2-regime-juridico-dos-servicos-publicos-e-sua-delegacao)
-    - [2.1 Princípios do Serviço Público Adequado](#21-principios-do-servico-publico-adequado)
-    - [2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)](#22-concessao-comum-e-permissao-de-servico-publico-lei-no-89871995)
-    - [2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade](#23-formas-de-extincao-das-concessoes-encampacao-vs-caducidade)
-    - [2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)](#24-parcerias-publico-privadas-ppps-lei-no-110792004)
-- [3. Bens Públicos: Classificação, Afetação e Prerrogativas](#3-bens-publicos-classificacao-afetacao-e-prerrogativas)
-    - [3.1 Classificação Quanto à Destinação (Código Civil, art. 99)](#31-classificacao-quanto-a-destinacao-codigo-civil-art-99)
-    - [3.2 Fenômeno da Afetação e Desafetação](#32-fenomeno-da-afetacao-e-desafetacao)
-    - [3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta](#33-prerrogativas-do-regime-juridico-e-a-imprescritibilidade-absoluta)
-- [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
+
+1. [Responsabilidade Civil Extracontratual do Estado](#1-responsabilidade-civil-extracontratual-do-estado)
+    1. [Evolução Histórica da Responsabilidade Estatal](#11-evolucao-historica-da-responsabilidade-estatal)
+    2. [O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva](#12-o-art-37-6o-da-cf88-e-os-elementos-da-responsabilidade-objetiva)
+    3. [Teste 034](#Teste-034)
+    4. [Teoria do Risco Administrativo: Excludentes e Atenuantes](#13-teoria-do-risco-administrativo-excludentes-e-atenuantes)
+    5. [Teoria do Risco Integral e suas Hipóteses Excepcionais](#14-teoria-do-risco-integral-e-suas-hipoteses-excepcionais)
+    6. [Teste 035](#Teste-035)
+    7. [Responsabilidade por Omissão Estatal: Genérica vs. Específica](#15-responsabilidade-por-omissao-estatal-generica-vs-especifica)
+    8. [Teste 036](#Teste-036)
+    9. [Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)](#16-acao-regressiva-e-a-teoria-da-dupla-garantia-tema-940-stf)
+    10. [Teste 037](#Teste-037)
+2. [Regime Jurídico dos Serviços Públicos e sua Delegação](#2-regime-juridico-dos-servicos-publicos-e-sua-delegacao)
+    1. [Princípios do Serviço Público Adequado](#21-principios-do-servico-publico-adequado)
+    2. [Teste 038](#Teste-038)
+    3. [Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)](#22-concessao-comum-e-permissao-de-servico-publico-lei-no-89871995)
+    4. [Teste 039](#Teste-039)
+    5. [Formas de Extinção das Concessões: Encampação vs. Caducidade](#23-formas-de-extincao-das-concessoes-encampacao-vs-caducidade)
+    6. [Teste 040](#Teste-040)
+    7. [Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)](#24-parcerias-publico-privadas-ppps-lei-no-110792004)
+    8. [Teste 041](#Teste-041)
+3. [Bens Públicos: Classificação, Afetação e Prerrogativas](#3-bens-publicos-classificacao-afetacao-e-prerrogativas)
+    1. [Classificação Quanto à Destinação (Código Civil, art. 99)](#31-classificacao-quanto-a-destinacao-codigo-civil-art-99)
+    2. [Teste 042](#Teste-042)
+    3. [Fenômeno da Afetação e Desafetação](#32-fenomeno-da-afetacao-e-desafetacao)
+    4. [Teste 043](#Teste-043)
+    5. [Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta](#33-prerrogativas-do-regime-juridico-e-a-imprescritibilidade-absoluta)
+    6. [Teste 044](#Teste-044)
+4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Responsabilidade Civil Extracontratual do Estado
 
@@ -73,7 +92,8 @@ flowchart TD
 
 
 
-### Questão 01 (FCC - Analista Judiciário - Área Judiciária)
+### Teste 034
+**(FCC - Analista Judiciário - Área Judiciária)**
 Motorista de ambulância pertencente à Secretaria de Saúde de determinado Estado da Federação, ao conduzir o veículo oficial em velocidade excessiva e com a sirene desligada durante o retorno de uma oficina mecânica, colidiu com veículo particular parado regularmente no semáforo, causando graves danos materiais ao proprietário.
 
 Considerando o regramento constitucional sobre a responsabilidade civil do Estado (art. 37, § 6º, da CF/88) e a jurisprudência dominante, o proprietário do veículo lesado:
@@ -83,6 +103,9 @@ Considerando o regramento constitucional sobre a responsabilidade civil do Estad
 * **C)** Só poderá obter indenização do Estado se comprovar dolo ou desvio de poder por parte da Secretaria de Saúde.
 * **D)** Terá seu pleito sumariamente indeferido caso o Estado demonstre que o motorista agiu em estrito desvio de suas funções institucionais no momento do abalroamento.
 * **E)** Submete-se à teoria da responsabilidade civil subjetiva comum do Código Civil, incumbindo-lhe o ônus de provar a culpa do motorista e a falha de manutenção da via.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -120,7 +143,8 @@ O ordenamento constitucional e legal brasileiro reconhece a incidência do risco
 
 
 
-### Questão 02 (FGV - Auditor de Controle Externo / TCE-SC)
+### Teste 035
+**(FGV - Auditor de Controle Externo / TCE-SC)**
 A Teoria do Risco Integral diferencia-se substancialmente da Teoria do Risco Administrativo no que concerne à admissão de excludentes de responsabilidade civil estatal. A respeito das hipóteses excepcionais em que o ordenamento constitucional e legal pátrio adota o Risco Integral, assinale a afirmativa correta.
 
 * **A)** Na Teoria do Risco Integral, o Estado responde pelo dano mesmo que haja culpa exclusiva da vítima, fato de terceiro ou caso fortuito/força maior, sendo vedada a alegação de qualquer causa excludente do nexo causal.
@@ -128,6 +152,9 @@ A Teoria do Risco Integral diferencia-se substancialmente da Teoria do Risco Adm
 * **C)** A responsabilidade civil do Estado por danos nucleares admite expressamente a excludente de caso fortuito e de culpa concorrente da vítima para mitigar o dever estatal de indenizar.
 * **D)** Em caso de assalto à mão armada ocorrido dentro de agência bancária privada, incide a Teoria do Risco Integral contra a Fazenda Pública Estadual por deficiência de segurança pública.
 * **E)** Danos decorrentes de atos de terrorismo contra aeronaves de matrícula brasileira operando no exterior são regidos pela Teoria da Falta do Serviço (faute du service), não cabendo assunção integral de risco pela União.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -159,7 +186,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Auditor de Controle Externo / Adaptada)
+### Teste 036
+**(FCC - Auditor de Controle Externo / Adaptada)**
 Durante o período noturno de custódia em estabelecimento prisional estadual sob controle da Secretaria de Administração Penitenciária, um detento provisório foi assassinado por asfixia por companheiros de cela. A família do falecido ingressou com ação de indenização contra o Estado alegando responsabilidade civil estatal. Em contestação, o Estado sustentou ausência de responsabilidade, sob o fundamento de que a morte decorreu de ato exclusivo de terceiros (homicídio entre presos).
 
 Em conformidade com a tese firmada pelo Supremo Tribunal Federal em regime de repercussão geral (**Tema 592**):
@@ -169,6 +197,9 @@ Em conformidade com a tese firmada pelo Supremo Tribunal Federal em regime de re
 * **C)** A morte de preso no interior de estabelecimento prisional é hipótese automática de caso fortuito absoluto que rompe em definitivo o nexo de causalidade.
 * **D)** A responsabilidade estatal somente incide caso o estabelecimento penitenciário seja administrado sob regime de parceria público-privada.
 * **E)** O Estado responde com base na Teoria do Risco Integral, não admitindo qualquer prova pericial contrária em juízo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -197,7 +228,8 @@ O Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da reper
 
 ---
 
-### Questão 04 (FCC - Analista de Controle Externo / Adaptada TCE-GO)
+### Teste 037
+**(FCC - Analista de Controle Externo / Adaptada TCE-GO)**
 Uma viatura oficial pertencente ao Tribunal de Contas, conduzida em horário de expediente por um motorista oficial devidamente habilitado, abalroou o automóvel particular de uma cidadã em razão de uma manobra imprudente realizada pelo servidor no trânsito. A proprietária do veículo particular ajuizou ação ordinária de indenização por danos materiais exclusivamente em face do motorista servidor público, requerendo sua condenação direta com fundamento no art. 37, § 6º, da Constituição Federal.
 
 À luz da jurisprudência firmada pelo Supremo Tribunal Federal em regime de repercussão geral (**Tema 940**):
@@ -207,6 +239,9 @@ Uma viatura oficial pertencente ao Tribunal de Contas, conduzida em horário de 
 * **C)** O Estado responde de forma puramente subsidiária, devendo a execução incidir primeiramente sobre os bens particulares do servidor condutor da viatura.
 * **D)** A responsabilidade do Estado resta excluída pelo simples fato de o servidor não ter agido com dolo de causar o dano patrimonial.
 * **E)** A ilegitimidade do servidor cessa caso a vítima comprove perante o juízo que o Tribunal de Contas não dispõe de dotação orçamentária para precatórios.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -218,8 +253,9 @@ Uma viatura oficial pertencente ao Tribunal de Contas, conduzida em horário de 
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 2. Regime Jurídico dos Serviços Públicos e sua Delegação
@@ -239,7 +275,8 @@ A Lei Federal nº 8.987/1995 (art. 6º) prescreve que toda concessão ou permiss
 
 
 
-### Questão 05 (FCC - Procurador do Estado)
+### Teste 038
+**(FCC - Procurador do Estado)**
 Sobre os princípios que regem a prestação de serviços públicos e o regime de corte de fornecimento por inadimplemento do usuário, à luz da Lei nº 8.987/1995 e da jurisprudência consolidada do Superior Tribunal de Justiça (STJ), assinale a afirmativa correta.
 
 * **A)** O princípio da continuidade veda terminantemente a suspensão da prestação do serviço público sob qualquer pretexto, mesmo na hipótese de inadimplemento reiterado do usuário particular.
@@ -247,6 +284,9 @@ Sobre os princípios que regem a prestação de serviços públicos e o regime d
 * **C)** O serviço público pode ser interrompido sem aviso prévio em virtude de inadimplemento de fatura vencida há mais de dois anos.
 * **D)** O princípio da modicidade tarifária autoriza a concessionária a aumentar unilateralmente a tarifa básica sempre que julgar insatisfatória a sua margem de lucro operacional.
 * **E)** As concessionárias de serviço público podem suspender o fornecimento de energia a hospitais públicos e unidades de pronto atendimento por inadimplemento de fatura sem qualquer restrição jurídica.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -267,7 +307,8 @@ Sobre os princípios que regem a prestação de serviços públicos e o regime d
 
 
 
-### Questão 06 (FGV - Analista de Gestão / Auditoria)
+### Teste 039
+**(FGV - Analista de Gestão / Auditoria)**
 A respeito dos regimes de delegação de serviços públicos previstos na Lei nº 8.987/1995, compare a concessão comum de serviço público e a permissão de serviço público.
 
 Assinale a opção que apresenta a distinção jurídica correta entre esses institutos.
@@ -277,6 +318,9 @@ Assinale a opção que apresenta a distinção jurídica correta entre esses ins
 * **C)** A permissão de serviço público é conferida por meio de ato administrativo unilateral discricionário imune a qualquer fiscalização do poder público.
 * **D)** Tanto a concessão quanto a permissão admitem a outorga exclusiva a pessoas físicas, sendo vedada a participação de consórcios empresariais em ambas.
 * **E)** Na concessão de serviço público, a extinção antecipada por razões de interesse público denomina-se caducidade, e independe de lei autorizativa específica ou de indenização prévia.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -318,7 +362,8 @@ flowchart TD
 
 ---
 
-### Questão 07 (FCC - Procurador do Estado / Adaptada)
+### Teste 040
+**(FCC - Procurador do Estado / Adaptada)**
 O Estado de Goiás celebrou contrato de concessão de serviço público rodoviário com determinado consórcio de empresas de engenharia pelo prazo de 25 anos. Transcorridos sete anos de execução regular, o Poder Concedente estadual verificou que, por conveniência estratégica de interesse público, seria mais vantajoso reassumir a administração direta da rodovia estadual, não existindo qualquer falta, infração ou atraso por parte do consórcio concessionário.
 
 Nessas circunstâncias, a extinção antecipada do contrato de concessão por motivos de conveniência e interesse público operou-se por meio de:
@@ -328,6 +373,9 @@ Nessas circunstâncias, a extinção antecipada do contrato de concessão por mo
 * **C)** Encampação, dependente de edição de lei autorizativa específica e do pagamento de prévia indenização à concessionária.
 * **D)** Anulação, com desfazimento retroativo de todos os atos da concessão rodoviária.
 * **E)** Caducidade, que dispensa autorização legislativa ou pagamento de indenização prévia.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -355,7 +403,8 @@ As Parcerias Público-Privadas constituem concessões especiais destinadas a via
 
 ---
 
-### Questão 08 (FCC - Técnico de Controle Externo / Administrativa)
+### Teste 041
+**(FCC - Técnico de Controle Externo / Administrativa)**
 O Governo do Estado pretende estruturar um projeto de infraestrutura hospitalar sob o regime de Parceria Público-Privada (PPP), no qual a concessionária privada será responsável pela construção de um complexo médico-hospitalar e pela prestação dos serviços de conservação predial e gestão de equipamentos médicos. O hospital atenderá exclusivamente pelo Sistema Único de Saúde (SUS), sendo 100% dos custos da contraprestação remunerados diretamente pelo Poder Público estadual, sem nenhuma cobrança de tarifa dos usuários atendidos.
 
 À luz da Lei Federal nº 11.079/2004 (Lei das PPPs), a contratação descrita qualifica-se como:
@@ -365,6 +414,9 @@ O Governo do Estado pretende estruturar um projeto de infraestrutura hospitalar 
 * **C)** Concessão comum de serviço público regida estritamente pela Lei nº 8.987/1995.
 * **D)** Contrato de gestão de Organização Social dispensado de prévia licitação pública.
 * **E)** Empreitada por preço unitário regida exclusivamente pelas regras gerais da Lei de Licitações.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -376,8 +428,9 @@ O Governo do Estado pretende estruturar um projeto de infraestrutura hospitalar 
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 3. Bens Públicos: Classificação, Afetação e Prerrogativas
@@ -392,7 +445,8 @@ Conforme o art. 98 do Código Civil, são bens públicos todos aqueles pertencen
 
 
 
-### Questão 09 (FCC - Técnico de Controle Externo)
+### Teste 042
+**(FCC - Técnico de Controle Externo)**
 O Código Civil brasileiro, em seu art. 99, classifica os bens públicos em três categorias fundamentais: bens de uso comum do povo, bens de uso especial e bens dominicais.
 
 Em relação ao regime jurídico de alienação e fruição dessas categorias de bens, é correto afirmar:
@@ -402,6 +456,9 @@ Em relação ao regime jurídico de alienação e fruição dessas categorias de
 * **C)** Os bens públicos dominicais podem ser adquiridos por particulares mediante usucapião ordinária após posse mansa e pacífica por mais de vinte anos.
 * **D)** A utilização de bens de uso comum do povo é sempre gratuita, sendo inconstitucional a instituição de cobrança de pedágio em rodovias públicas.
 * **E)** Os bens de uso especial desafetados passam automaticamente a pertencer à categoria de bens de uso comum do povo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -422,7 +479,8 @@ Em relação ao regime jurídico de alienação e fruição dessas categorias de
 
 
 
-### Questão 10 (FGV - Analista de Controle Externo / TCE)
+### Teste 043
+**(FGV - Analista de Controle Externo / TCE)**
 A afetação e a desafetação de bens públicos expressam a consagração ou a desvinculação de determinado bem a uma finalidade pública concreta. Sobre as formas de ocorrência e os efeitos jurídicos da afetação e desafetação, assinale a afirmativa correta.
 
 * **A)** A afetação de um bem público somente pode ocorrer de forma tácita, sendo nula a afetação realizada por meio de lei formal.
@@ -430,6 +488,9 @@ A afetação e a desafetação de bens públicos expressam a consagração ou a 
 * **C)** A simples elaboração de projeto arquitetônico sem qualquer início de obra ou uso efetivo é suficiente para consumar a afetação fática material de um terreno público.
 * **D)** O Poder Judiciário pode determinar de ofício a desafetação de um hospital público para fins de penhora judicial e pagamento de precatórios atrasados.
 * **E)** Bens dominicais não admitem afetação superveniente, conservando para sempre seu caráter patrimonial disponível.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -457,7 +518,8 @@ O regime jurídico dos bens públicos é informado por quatro prerrogativas estr
 
 ---
 
-### Questão 11 (FCC - Analista Judiciário)
+### Teste 044
+**(FCC - Analista Judiciário)**
 Determinada área de terras devolutas pertencente ao patrimônio do Estado de Goiás encontra-se sem destinação pública específica há várias décadas. Um particular invadiu o imóvel em 2005, construiu moradia residencial e exerceu posse mansa, pacífica e contínua sobre a gleba por mais de quinze anos ininterruptos. Em 2024, o particular ajuizou ação de usucapião extraordinária contra o Estado pleiteando a declaração de aquisição da propriedade do bem.
 
 Com base na disciplina constitucional e do Código Civil sobre bens públicos:
@@ -467,6 +529,9 @@ Com base na disciplina constitucional e do Código Civil sobre bens públicos:
 * **C)** O imóvel converteu-se tacitamente em bem privado em virtude do abandono imobiliário prolongado pela Administração.
 * **D)** A usucapião é cabível desde que o particular comprove a realização de benfeitorias úteis e o pagamento de tributos municipais.
 * **E)** Caberá ao particular a manutenção da posse direta em desfavor da Fazenda Pública, impedindo a reintegração de posse pelo Estado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -478,8 +543,9 @@ Com base na disciplina constitucional e do Código Civil sobre bens públicos:
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 4. Fontes Recomendadas na Internet

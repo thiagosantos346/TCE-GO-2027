@@ -5,7 +5,10 @@
 > **Arquivo:** `07_redacao_oficial.md`  
 > **Documento Base:** Manual de Redação da Presidência da República (MRPR - 3ª Edição, revista e atualizada) e Decreto Federal nº 9.758/2019
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Redação Oficial: definição, finalidade e fundamentos constitucionais (Art. 37 da CF/88);
@@ -18,40 +21,55 @@
 - Fechos regulamentares obrigatórios: *"Respeitosamente,"* (para autoridades superiores) vs. *"Atenciosamente,"* (para mesma hierarquia ou inferior e particulares);
 - Correio eletrônico (e-mail institucional) no serviço público e outros atos administrativos (Exposição de Motivos, Mensagem, Parecer e Relatório Técnico).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos Constitucionais e Conceito de Redação Oficial](#1-fundamentos-constitucionais-e-conceito-de-redacao-oficial)
-    - [1.1 Definição e Finalidade da Comunicação Pública](#11-definicao-e-finalidade-da-comunicacao-publica)
-    - [1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração](#12-fundamentos-constitucionais-o-artigo-37-da-cf88-e-os-principios-da-administracao)
-    - [1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019](#13-evolucao-normativa-o-mrpr-3a-edicao-e-o-decreto-federal-no-97582019)
-- [2. Atributos Fundamentais da Redação Oficial](#2-atributos-fundamentais-da-redacao-oficial)
-    - [2.1 Princípio da Impessoalidade e Seus Três Desdobramentos](#21-principio-da-impessoalidade-e-seus-tres-desdobramentos)
-    - [2.2 Clareza e Precisão Linguística](#22-clareza-e-precisao-linguistica)
-    - [2.3 Concisão Textual e Eliminação da Prolixidade](#23-concisao-textual-e-eliminacao-da-prolixidade)
-    - [2.4 Formalidade, Padronização e Tipografia](#24-formalidade-padronizacao-e-tipografia)
-    - [2.5 O Uso do Padrão Culto da Língua](#25-o-uso-do-padrao-culto-da-lingua)
-- [3. Pronomes de Tratamento, Vocativos e Endereçamento](#3-pronomes-de-tratamento-vocativos-e-enderecamento)
-    - [3.1 Vossa Excelência vs. Vossa Senhoria: Tabela Completa de Aplicação](#31-vossa-excelencia-vs-vossa-senhoria-tabela-completa-de-aplicacao)
-    - [3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento](#32-regras-rigidas-de-concordancia-gramatical-com-pronomes-de-tratamento)
-    - [3.3 Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades](#33-sistema-de-vocativos-a-distincao-entre-chefes-de-poder-e-demais-autoridades)
-    - [3.4 Endereçamento no Envelope e Regras Dêiticas: Vossa vs. Sua](#34-enderecamento-no-envelope-e-regras-deiticas-vossa-vs-sua)
-    - [3.5 Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos](#35-abolicao-de-formulas-laudatorias-adulacoes-e-arcaismos)
-- [4. O Padrão Ofício Unificado na 3ª Edição do MRPR](#4-o-padrao-oficio-unificado-na-3a-edicao-do-mrpr)
-    - [4.1 Unificação Formal: Extinção do Aviso e do Memorando](#41-unificacao-formal-extincao-do-aviso-e-do-memorando)
-    - [4.2 Partes Componentes e Diagramação Oficial do Ofício](#42-partes-componentes-e-diagramacao-oficial-do-oficio)
-    - [4.3 Estrutura do Texto: Introdução, Desenvolvimento e Conclusão](#43-estrutura-do-texto-introducao-desenvolvimento-e-conclusao)
-    - [4.4 Regras de Numeração de Parágrafos](#44-regras-de-numeracao-de-paragrafos)
-    - [4.5 Identificação do Signatário e Vedação à Linha de Assinatura](#45-identificacao-do-signatario-e-vedacao-a-linha-de-assinatura)
-    - [4.6 O Sistema Binário de Fechos Regulamentares](#46-o-sistema-binario-de-fechos-regulamentares)
-- [5. Espécies Documentais e Comunicação Digital](#5-especies-documentais-e-comunicacao-digital)
-    - [5.1 O Correio Eletrônico Institucional (E-mail Público)](#51-o-correio-eletronico-institucional-e-mail-publico)
-    - [5.2 A Mensagem entre Chefes de Poder](#52-a-mensagem-entre-chefes-de-poder)
-    - [5.3 A Exposição de Motivos (EM)](#53-a-exposicao-de-motivos-em)
-    - [5.4 Atos Típicos dos Tribunais de Contas: Relatório Técnico, Parecer e Acórdão](#54-atos-tipicos-dos-tribunais-de-contas-relatorio-tecnico-parecer-e-acordao)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Fundamentos Constitucionais e Conceito de Redação Oficial](#1-fundamentos-constitucionais-e-conceito-de-redacao-oficial)
+    1. [Definição e Finalidade da Comunicação Pública](#11-definicao-e-finalidade-da-comunicacao-publica)
+    2. [Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração](#12-fundamentos-constitucionais-o-artigo-37-da-cf88-e-os-principios-da-administracao)
+    3. [Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019](#13-evolucao-normativa-o-mrpr-3a-edicao-e-o-decreto-federal-no-97582019)
+    4. [Teste 062](#Teste-062)
+2. [Atributos Fundamentais da Redação Oficial](#2-atributos-fundamentais-da-redacao-oficial)
+    1. [Princípio da Impessoalidade e Seus Três Desdobramentos](#21-principio-da-impessoalidade-e-seus-tres-desdobramentos)
+    2. [Clareza e Precisão Linguística](#22-clareza-e-precisao-linguistica)
+    3. [Concisão Textual e Eliminação da Prolixidade](#23-concisao-textual-e-eliminacao-da-prolixidade)
+    4. [Teste 063](#Teste-063)
+    5. [Formalidade, Padronização e Tipografia](#24-formalidade-padronizacao-e-tipografia)
+    6. [O Uso do Padrão Culto da Língua](#25-o-uso-do-padrao-culto-da-lingua)
+    7. [Teste 064](#Teste-064)
+3. [Pronomes de Tratamento, Vocativos e Endereçamento](#3-pronomes-de-tratamento-vocativos-e-enderecamento)
+    1. [Vossa Excelência vs. Vossa Senhoria: Tabela Completa de Aplicação](#31-vossa-excelencia-vs-vossa-senhoria-tabela-completa-de-aplicacao)
+    2. [Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento](#32-regras-rigidas-de-concordancia-gramatical-com-pronomes-de-tratamento)
+    3. [Teste 065](#Teste-065)
+    4. [Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades](#33-sistema-de-vocativos-a-distincao-entre-chefes-de-poder-e-demais-autoridades)
+    5. [Teste 066](#Teste-066)
+    6. [Endereçamento no Envelope e Regras Dêiticas: Vossa vs. Sua](#34-enderecamento-no-envelope-e-regras-deiticas-vossa-vs-sua)
+    7. [Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos](#35-abolicao-de-formulas-laudatorias-adulacoes-e-arcaismos)
+4. [O Padrão Ofício Unificado na 3ª Edição do MRPR](#4-o-padrao-oficio-unificado-na-3a-edicao-do-mrpr)
+    1. [Unificação Formal: Extinção do Aviso e do Memorando](#41-unificacao-formal-extincao-do-aviso-e-do-memorando)
+    2. [Teste 067](#Teste-067)
+    3. [Partes Componentes e Diagramação Oficial do Ofício](#42-partes-componentes-e-diagramacao-oficial-do-oficio)
+    4. [Teste 068](#Teste-068)
+    5. [Estrutura do Texto: Introdução, Desenvolvimento e Conclusão](#43-estrutura-do-texto-introducao-desenvolvimento-e-conclusao)
+    6. [Regras de Numeração de Parágrafos](#44-regras-de-numeracao-de-paragrafos)
+    7. [Identificação do Signatário e Vedação à Linha de Assinatura](#45-identificacao-do-signatario-e-vedacao-a-linha-de-assinatura)
+    8. [O Sistema Binário de Fechos Regulamentares](#46-o-sistema-binario-de-fechos-regulamentares)
+    9. [Teste 069](#Teste-069)
+5. [Espécies Documentais e Comunicação Digital](#5-especies-documentais-e-comunicacao-digital)
+    1. [O Correio Eletrônico Institucional (E-mail Público)](#51-o-correio-eletronico-institucional-e-mail-publico)
+    2. [A Mensagem entre Chefes de Poder](#52-a-mensagem-entre-chefes-de-poder)
+    3. [Teste 070](#Teste-070)
+    4. [A Exposição de Motivos (EM)](#53-a-exposicao-de-motivos-em)
+    5. [Atos Típicos dos Tribunais de Contas: Relatório Técnico, Parecer e Acórdão](#54-atos-tipicos-dos-tribunais-de-contas-relatorio-tecnico-parecer-e-acordao)
+    6. [Teste 071](#Teste-071)
+6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Fundamentos Constitucionais e Conceito de Redação Oficial
 
@@ -76,7 +94,7 @@ A redação de expedientes oficiais decorre imediatamente dos princípios basila
 O documento de referência primária no Brasil é o **Manual de Redação da Presidência da República (MRPR)**, cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis. Complementarmente, o **Decreto Federal nº 9.758/2019** consolidou o princípio da simplicidade e da moderação no tratamento dispensado aos agentes públicos, vedando o uso de pronomes honoríficos desproporcionais e simplificando o diálogo entre o Estado e a sociedade.
 
 
-### Questão 01
+### Teste 062
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Segundo as diretrizes consagradas pelo Manual de Redação da Presidência da República (3ª edição) e pelo ordenamento constitucional vigente (art. 37 da CF/88):
 
@@ -85,6 +103,9 @@ Segundo as diretrizes consagradas pelo Manual de Redação da Presidência da Re
 * **C)** O Decreto Federal nº 9.758/2019 instituiu o uso obrigatório dos pronomes *Vossa Excelência* e *Ilustríssimo* em toda e qualquer comunicação direta com os cidadãos comuns.
 * **D)** A publicidade dos atos administrativos autoriza a utilização de gírias e jargões regionais nos expedientes oficiais visando aproximar o Estado das massas populares.
 * **E)** O princípio da eficiência desobriga os órgãos de controle externo de observar o padrão culto da língua portuguesa na elaboração de seus relatórios.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -95,9 +116,10 @@ Segundo as diretrizes consagradas pelo Manual de Redação da Presidência da Re
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 2. Atributos Fundamentais da Redação Oficial
 
@@ -126,7 +148,7 @@ A concisão consiste em transmitir o máximo de conteúdo informativo útil com 
 
 ---
 
-### Questão 02
+### Teste 063
 **(FCC – DPE-RS – Analista de Comunicação)**  
 Assinale a alternativa que apresenta um trecho de correspondência oficial eivado de **vício de impessoalidade e prolixidade**, em desacordo com as diretrizes do Manual de Redação Oficial:
 
@@ -135,6 +157,9 @@ Assinale a alternativa que apresenta um trecho de correspondência oficial eivad
 * **C)** *"Encaminho, para ciência e deliberação, o relatório consolidado de auditoria financeira do exercício de 2025."*
 * **D)** *"Solicito a designação de dois servidores técnicos para compor a comissão de recebimento de materiais de tecnologia."*
 * **E)** *"Em cumprimento ao despacho da presidência, restituo os autos para adoção das providências cabíveis."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -162,7 +187,7 @@ Assinale a alternativa que apresenta um trecho de correspondência oficial eivad
 O emprego da norma-padrão da língua portuguesa decorre do fato de que a língua culta é a única variante linguística que desfruta de uniformidade nacional codificada pelas gramáticas e dicionários, estando imune às flutuações passageiras de gírias e regionalismos orais.
 
 
-### Questão 03
+### Teste 064
 **(FCC – TRT-23 – Analista Judiciário)**  
 Quanto à diagramação, tipografia e padrão gráfico dos expedientes oficiais prescritos na 3ª edição do Manual de Redação da Presidência da República:
 
@@ -171,6 +196,9 @@ Quanto à diagramação, tipografia e padrão gráfico dos expedientes oficiais 
 * **C)** O recuo de parágrafo deve ser de 5 centímetros a partir da margem esquerda da página.
 * **D)** A datação do expediente deve constar de forma centralizada e sem a indicação do local de emissão.
 * **E)** As margens do documento oficial são livres, permitindo-se a impressão rente às bordas da folha de papel.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -182,9 +210,10 @@ Quanto à diagramação, tipografia e padrão gráfico dos expedientes oficiais 
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 3. Pronomes de Tratamento, Vocativos e Endereçamento
 
@@ -228,7 +257,7 @@ O emprego dos pronomes de tratamento exige o cumprimento rigoroso de três regra
 
 ---
 
-### Questão 04
+### Teste 065
 **(FCC – TRT – Técnico Judiciário)**  
 No que concerne ao emprego de pronomes de tratamento e à concordância gramatical em documentos oficiais, assinale a opção que atende integralmente às normas do MRPR:
 
@@ -237,6 +266,9 @@ No que concerne ao emprego de pronomes de tratamento e à concordância gramatic
 * **C)** *"Comunico a Vossa Excelência que sua solicitação foi deferida pelo plenário, estando o processo à sua disposição."*
 * **D)** *"Vossa Excelência será recebida pelo Presidente da República, o qual manifestou desejo de conhecer vossos projetos."*
 * **E)** *"Solicitamos a Vossa Excelência que vos digneis autorizar o empenho das despesas em vosso orçamento."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -273,7 +305,7 @@ A 3ª edição do MRPR simplificou radicalmente os vocativos, reservando a locu�
 
 ---
 
-### Questão 05
+### Teste 066
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 O Presidente do Tribunal de Contas do Estado de Goiás necessita encaminhar expediente oficial ao Governador do Estado e, simultaneamente, outro expediente ao Diretor de Escola Pública Estadual. De acordo com a 3ª edição do Manual de Redação da Presidência da República (MRPR), os vocativos e fechos adequados para cada uma dessas comunicações são, respectivamente:
 
@@ -282,6 +314,9 @@ O Presidente do Tribunal de Contas do Estado de Goiás necessita encaminhar expe
 * **C)** Para o Governador: *"Excelentíssimo Senhor Governador,"* / *"Atenciosamente,"*; Para o Diretor: *"Senhor Diretor,"* / *"Respeitosamente,"*.
 * **D)** Para o Governador: *"Senhor Governador,"* / *"Cordialmente,"*; Para o Diretor: *"Digníssimo Diretor,"* / *"Sem mais para o momento,"*.
 * **E)** Para o Governador: *"Ilustríssimo Senhor Governador,"* / *"Respeitosamente,"*; Para o Diretor: *"Prezado Senhor Diretor,"* / *"Atenciosamente,"*.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -311,7 +346,10 @@ O Manual de Redação da Presidência da República e o Decreto nº 9.758/2019 b
 * A dignidade e a honradez são predicados inerentes ao próprio cargo público, sendo redundante e despropositado explicitá-las em correspondências oficiais;
 * É vedado o uso de fórmulas de encerramento vazias ou servientes (*"Com votos de elevado apreço e distinta consideração"*, *"Aproveito o ensejo para renovar protestos de estima"* ou *"Sem mais para o momento"*).
 
+
+
 ---
+
 
 ## 4. O Padrão Ofício Unificado na 3ª Edição do MRPR
 
@@ -325,7 +363,7 @@ A 3ª edição do MRPR promoveu uma revolução de simplificação: **aboliu for
 
 ---
 
-### Questão 06
+### Teste 067
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A respeito da padronização de expedientes oficiais segundo a 3ª edição do Manual de Redação da Presidência da República, considere as afirmações:  
 
@@ -344,6 +382,9 @@ Está correto o que se afirma em:
 * **C)** I, III e IV, apenas.
 * **D)** II e III, apenas.
 * **E)** I, II, III e IV.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -374,7 +415,7 @@ O expediente regido pelo Padrão Ofício estrutura-se nos seguintes blocos obrig
 
 ---
 
-### Questão 07
+### Teste 068
 **(FCC – METRÔ-SP – Analista de Administração)**  
 Quanto à estrutura física e à diagramação padrão do **Ofício** prescritas na 3ª edição do MRPR:
 
@@ -383,6 +424,9 @@ Quanto à estrutura física e à diagramação padrão do **Ofício** prescritas
 * **C)** A identificação do signatário deve conter seu nome em negrito e o cargo logo abaixo, sem linha sobreposta para assinatura.
 * **D)** Todos os parágrafos do texto devem ser numerados em algarismos romanos, a começar pelo primeiro.
 * **E)** O local e a data devem ser alinhados à margem esquerda, com o mês grafado de forma numérica abreviada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -439,7 +483,7 @@ flowchart TD
 * **Atenciosamente,** $\rightarrow$ Utilizado para autoridades de **mesma hierarquia**, de hierarquia **subordinada/inferior** e para particulares em geral.
 
 
-### Questão 08
+### Teste 069
 **(FCC – DPE-RS – Analista Processual)**  
 Considere as seguintes afirmações sobre a assinatura e os fechos nos expedientes oficiais segundo o Manual de Redação da Presidência da República:  
 
@@ -455,6 +499,9 @@ Está correto o que se afirma em:
 * **D)** II e III, apenas.
 * **E)** I, II e III.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **Item I:** Correto. A 3ª Edição do MRPR consagrou expressamente a simplificação binária dos fechos regulamentares: apenas dois fechos são admitidos em toda a correspondência oficial da administração pública:  
@@ -466,9 +513,10 @@ Está correto o que se afirma em:
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 5. Espécies Documentais e Comunicação Digital
 
@@ -492,7 +540,7 @@ A Mensagem é o instrumento formal e privativo utilizado pelo Chefe do Poder Exe
 
 ---
 
-### Questão 09
+### Teste 070
 **(FCC – TRT-14 – Analista Judiciário)**  
 Acerca do correio eletrônico institucional (*e-mail*) no âmbito da administração pública, de acordo com o Manual de Redação da Presidência da República:
 
@@ -501,6 +549,9 @@ Acerca do correio eletrônico institucional (*e-mail*) no âmbito da administra�
 * **C)** O envio de mensagens eletrônicas institucionais com cópia oculta (Cco) para superiores hierárquicos é prática recomendada pelo MRPR para fiscalização sigilosa.
 * **D)** O e-mail público não possui validade legal ou administrativa para fins de instrução processual ou transmissão de documentos públicos.
 * **E)** Recomenda-se a inserção de imagens emotivas, frases religiosas ou pensamentos filosóficos pessoais na assinatura institucional automática de e-mail do servidor.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -531,7 +582,7 @@ No âmbito do controle externo, a produção textual desdobra-se em espécies es
 * **Acórdão:** Decisão colegiada formal deliberada pelo Tribunal Pleno ou pelas Câmaras julgadoras do Tribunal de Contas, dotada de força vinculante e eficácia de título executivo extrajudicial para cobrança de débitos e multas.
 
 
-### Questão 10
+### Teste 071
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Considere as seguintes definições sobre espécies documentais da administração pública:  
 
@@ -547,6 +598,9 @@ As espécies documentais descritas em 1, 2 e 3 correspondem, respectivamente, a:
 * **D)** Acórdão – Parecer Jurídico – Memorando
 * **E)** Nota Técnica – Exposição de Motivos – Decreto
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **Item 1:** A decisão colegiada deliberativa de um Tribunal de Contas reunido em Plenário ou em Câmara que julga em definitivo processos de controle externo e prestação de contas denomina-se **Acórdão** (art. 71 da CF/88 e leis orgânicas dos TCs).
@@ -556,9 +610,10 @@ As espécies documentais descritas em 1, 2 e 3 correspondem, respectivamente, a:
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

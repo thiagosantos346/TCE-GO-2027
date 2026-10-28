@@ -5,38 +5,56 @@
 > **Arquivo:** `03_estruturas_logicas_e_associacao.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios.
 - Dedução de novas informações das relações fornecidas.
 - Avaliação das condições usadas para estabelecer a estrutura daquelas relações.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos da Associação Lógica Biunívoca](#1-fundamentos-da-associacao-logica-biunivoca)
-    - [1.1 Natureza das Relações Arbitrárias e Conjuntos Finitos](#11-natureza-das-relacoes-arbitrarias-e-conjuntos-finitos)
-    - [1.2 O Princípio da Correspondência Biunívoca](#12-o-principio-da-correspondencia-biunivoca)
-    - [1.3 Tipologia de Pistas e Classificação de Premissas](#13-tipologia-de-pistas-e-classificacao-de-premissas)
-- [2. Metodologia das Matrizes Cruzadas de Associação](#2-metodologia-das-matrizes-cruzadas-de-associacao)
-    - [2.1 Estruturação da Tabela Bidimensional e Tridimensional](#21-estruturacao-da-tabela-bidimensional-e-tridimensional)
-    - [2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão](#22-o-principio-de-propagacao-do-sim-e-fechamento-por-exclusao)
-    - [2.3 Tratamento de Pistas Compostas e Vínculos Indiretos](#23-tratamento-de-pistas-compostas-e-vinculos-indiretos)
-- [3. Problemas de Ordenação Linear e Posicionamento Relativo](#3-problemas-de-ordenacao-linear-e-posicionamento-relativo)
-    - [3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico](#31-semantica-de-ordenacao-imediatamente-antes-vs-antes-generico)
-    - [3.2 Filas, Andares e Classificações em Concurso](#32-filas-andares-e-classificacoes-em-concurso)
-    - [3.3 O Método das Caixas e Blocos Contíguos](#33-o-metodo-das-caixas-e-blocos-contiguos)
-- [4. Problemas de Ordenação Circular e Mesas Redondas](#4-problemas-de-ordenacao-circular-e-mesas-redondas)
-    - [4.1 Ponto de Vista Referencial e Orientação Espacial](#41-ponto-de-vista-referencial-e-orientacao-espacial)
-    - [4.2 Posições Diametralmente Opostas em Mesas Pares](#42-posicoes-diametralmente-opostas-em-mesas-pares)
-    - [4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda](#43-vizinhos-imediatos-e-adjacencias-direita-e-esquerda)
-- [5. Dedução Lógica e Avaliação de Suficiência de Condições](#5-deducao-logica-e-avaliacao-de-suficiencia-de-condicoes)
-    - [5.1 Dedução Hipotética e Eliminação de Contradições](#51-deducao-hipotetica-e-eliminacao-de-contradicoes)
-    - [5.2 Condições Necessárias, Suficientes e Redundantes](#52-condicoes-necessarias-suficientes-e-redundantes)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Fundamentos da Associação Lógica Biunívoca](#1-fundamentos-da-associacao-logica-biunivoca)
+    1. [Natureza das Relações Arbitrárias e Conjuntos Finitos](#11-natureza-das-relacoes-arbitrarias-e-conjuntos-finitos)
+    2. [O Princípio da Correspondência Biunívoca](#12-o-principio-da-correspondencia-biunivoca)
+    3. [Tipologia de Pistas e Classificação de Premissas](#13-tipologia-de-pistas-e-classificacao-de-premissas)
+    4. [Teste 092](#Teste-092)
+    5. [Teste 093](#Teste-093)
+2. [Metodologia das Matrizes Cruzadas de Associação](#2-metodologia-das-matrizes-cruzadas-de-associacao)
+    1. [Estruturação da Tabela Bidimensional e Tridimensional](#21-estruturacao-da-tabela-bidimensional-e-tridimensional)
+    2. [O Princípio de Propagação do SIM e Fechamento por Exclusão](#22-o-principio-de-propagacao-do-sim-e-fechamento-por-exclusao)
+    3. [Tratamento de Pistas Compostas e Vínculos Indiretos](#23-tratamento-de-pistas-compostas-e-vinculos-indiretos)
+    4. [Teste 094](#Teste-094)
+    5. [Teste 095](#Teste-095)
+3. [Problemas de Ordenação Linear e Posicionamento Relativo](#3-problemas-de-ordenacao-linear-e-posicionamento-relativo)
+    1. [Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico](#31-semantica-de-ordenacao-imediatamente-antes-vs-antes-generico)
+    2. [Filas, Andares e Classificações em Concurso](#32-filas-andares-e-classificacoes-em-concurso)
+    3. [O Método das Caixas e Blocos Contíguos](#33-o-metodo-das-caixas-e-blocos-contiguos)
+    4. [Teste 096](#Teste-096)
+    5. [Teste 097](#Teste-097)
+4. [Problemas de Ordenação Circular e Mesas Redondas](#4-problemas-de-ordenacao-circular-e-mesas-redondas)
+    1. [Ponto de Vista Referencial e Orientação Espacial](#41-ponto-de-vista-referencial-e-orientacao-espacial)
+    2. [Posições Diametralmente Opostas em Mesas Pares](#42-posicoes-diametralmente-opostas-em-mesas-pares)
+    3. [Teste 098](#Teste-098)
+    4. [Vizinhos Imediatos e Adjacências Direita e Esquerda](#43-vizinhos-imediatos-e-adjacencias-direita-e-esquerda)
+    5. [Teste 099](#Teste-099)
+5. [Dedução Lógica e Avaliação de Suficiência de Condições](#5-deducao-logica-e-avaliacao-de-suficiencia-de-condicoes)
+    1. [Dedução Hipotética e Eliminação de Contradições](#51-deducao-hipotetica-e-eliminacao-de-contradicoes)
+    2. [Condições Necessárias, Suficientes e Redundantes](#52-condicoes-necessarias-suficientes-e-redundantes)
+    3. [Teste 100](#Teste-100)
+    4. [Teste 101](#Teste-101)
+6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Fundamentos da Associação Lógica Biunívoca
 
@@ -63,7 +81,7 @@ As informações fornecidas dividem-se em três modalidades lógicas:
 
 ---
 
-### Questão 01
+### Teste 092
 **(FCC – TRT – Analista Judiciário)**  
 Em uma equipe de suporte da TI do Tribunal de Contas, quatro analistas — Lucas, Mateus, Nivaldo e Otávio — são responsáveis por quatro sistemas corporativos: Folha de Pagamento, Processo Eletrônico, Portal da Transparência e Controle de Bens. Sabe-se que:
 
@@ -79,6 +97,9 @@ A partir dessas premissas, conclui-se necessariamente que:
 * **C)** Nivaldo cuida do Processo Eletrônico.
 * **D)** Lucas não cuida da Folha de Pagamento.
 * **E)** Otávio cuida do Processo Eletrônico.
+
+
+---
 
 > **Comentário Detalhado:**
 > Dedução formal por encadeamento de regras de inferência lógica:
@@ -106,7 +127,7 @@ A partir dessas premissas, conclui-se necessariamente que:
 > **Gabarito: D**
 
 
-### Questão 02
+### Teste 093
 **(FCC – TRT-23 – Analista Judiciário)**  
 Três analistas judiciários — André, Bernardo e Carlos — atuam em três setores diferentes de um tribunal: Protocolo, Recursos Humanos e Licitações, não necessariamente nessa ordem. Cada um deles utiliza um meio de transporte distinto para ir ao trabalho: carro, ônibus ou bicicleta. Sabe-se que:  
 1. André vai de bicicleta para o trabalho.  
@@ -120,6 +141,9 @@ Com base nessas informações, é correto concluir que:
 * **C)** Bernardo atua no Protocolo e vai de carro.
 * **D)** Carlos atua no Protocolo e vai de bicicleta.
 * **E)** André atua em Licitações e vai de ônibus.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -136,10 +160,9 @@ ightarrow$ Ônibus. Como André vai de bicicleta, André **não** está no Proto
 >
 > **Gabarito: B**
 
----
+
 
 ---
-
 
 
 ## 2. Metodologia das Matrizes Cruzadas de Associação
@@ -187,7 +210,7 @@ Quando o texto apresenta a pista: *"O servidor formado em Direito reside em Apar
 
 ---
 
-### Questão 03
+### Teste 094
 **(FCC – TCE-GO – Técnico de Controle Externo)**  
 Três servidores do TCE-GO — Alice, Bruno e Camila — trabalham em gabinetes de três Conselheiros distintos: Conselheiro $X$, Conselheiro $Y$ e Conselheiro $Z$. Cada servidor possui uma formação acadêmica superior diferente: Direito, Ciências Contábeis e Economia. Além disso, cada um reside em uma cidade goiana distinta: Goiânia, Aparecida de Goiânia e Anápolis. Sabe-se que:
 
@@ -204,6 +227,9 @@ Com base nessas informações, é correto concluir que:
 * **C)** Bruno trabalha com o Conselheiro $Y$ e é formado em Economia.
 * **D)** Camila trabalha com o Conselheiro $Z$ e é formada em Direito.
 * **E)** Bruno trabalha com o Conselheiro $Y$ e é formado em Direito.
+
+
+---
 
 > **Comentário Detalhado:**
 > Dedução passo a passo por cruzamento de atributos:
@@ -231,7 +257,7 @@ Com base nessas informações, é correto concluir que:
 > **Gabarito: A**
 
 
-### Questão 04
+### Teste 095
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Quatro conselheiros de um Tribunal de Contas — Afonso, Beatriz, Celso e Daniel — residem em quatro cidades goianas diferentes: Goiânia, Anápolis, Rio Verde e Itumbiara. Cada um deles é relator de uma área técnica distinta: Obras Públicas, Saúde, Educação e Previdência. Sabe-se que:  
 1. O conselheiro que mora em Anápolis é o relator da área de Educação.  
@@ -246,6 +272,9 @@ A partir dessas premissas, é correto afirmar que:
 * **C)** Beatriz mora em Goiânia e relata Previdência.
 * **D)** Afonso é o relator da área de Obras Públicas.
 * **E)** Daniel reside em Rio Verde e relata Saúde.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -269,10 +298,9 @@ ightarrow$ Anápolis e Educação**, resta para Beatriz a cidade restante sem co
 >
 > **Gabarito: A**
 
----
+
 
 ---
-
 
 
 ## 3. Problemas de Ordenação Linear e Posicionamento Relativo
@@ -307,7 +335,7 @@ Se uma pista estabelece que *"Bernardo ficou em colocação imediatamente anteri
 
 ---
 
-### Questão 05
+### Teste 096
 **(FCC – TCE-GO – Auditor de Controle Externo)**  
 Cinco auditores — André, Bernardo, Caio, Daniel e Eduardo — foram classificados do 1º ao 5º lugar em uma avaliação de desempenho interna do TCE-GO, sem empates. Sabe-se que:
 
@@ -323,6 +351,9 @@ Com base nessas condições, o auditor que obteve o 1º lugar foi:
 * **C)** Caio
 * **D)** Daniel
 * **E)** Eduardo
+
+
+---
 
 > **Comentário Detalhado:**
 > Resolução por ordenação linear de posições $(1º, 2º, 3º, 4º, 5º)$:
@@ -352,7 +383,7 @@ Com base nessas condições, o auditor que obteve o 1º lugar foi:
 > **Gabarito: B**
 
 
-### Questão 06
+### Teste 097
 **(FCC – DPE-RS – Analista)**  
 Cinco servidores — Paulo, Quéfren, Rodrigo, Sérgio e Tiago — trabalham em um edifício administrativo de 5 andares, cada um em um andar diferente (do 1º ao 5º andar). Sabe-se que:  
 1. Rodrigo trabalha em um andar mais alto do que Paulo.  
@@ -367,6 +398,9 @@ O servidor que trabalha no 1º andar desse edifício é:
 * **C)** Rodrigo
 * **D)** Tiago
 * **E)** Sérgio
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -387,10 +421,9 @@ O servidor que trabalha no 1º andar desse edifício é:
 >
 > **Gabarito: B**
 
----
+
 
 ---
-
 
 
 ## 4. Problemas de Ordenação Circular e Mesas Redondas
@@ -417,7 +450,7 @@ $$\text{Distância de Oposição} = \frac{N}{2} \text{ posições}$$
 
 ---
 
-### Questão 07
+### Teste 098
 **(FCC – TCE-PI – Analista de Controle Externo)**  
 Seis Conselheiros do Tribunal de Contas — Alberto, Beatriz, Carlos, Diana, Elias e Flávia — sentam-se ao redor de uma mesa de reuniões circular com 6 cadeiras igualmente espaçadas, numeradas de 1 a 6 no sentido horário (vistas de cima). Todos estão voltados para o centro da mesa. Sabe-se que:
 1. Alberto senta-se diametralmente oposto a Diana.  
@@ -431,6 +464,9 @@ Nessas condições, quem está sentado imediatamente à direita de Diana?
 * **C)** Carlos
 * **D)** Elias
 * **E)** Flávia
+
+
+---
 
 > **Comentário Detalhado:**
 > Análise do arranjo circular de 6 posições (numeradas de 1 a 6 no sentido horário, vistas de cima). Para quem está sentado voltado ao centro da mesa na cadeira $k$, o vizinho da **direita** ocupa a cadeira $k-1$ e o vizinho da **esquerda** ocupa a cadeira $k+1$ (em módulo 6).
@@ -464,7 +500,7 @@ Cada ocupante possui exatamente dois vizinhos imediatos (adjacentes):
 Todos os demais ocupantes não são vizinhos imediatos.
 
 
-### Questão 08
+### Teste 099
 **(FCC – METRÔ-SP – Analista)**  
 Seis membros de uma banca examinadora — A, B, C, D, E e F — sentam-se ao redor de uma mesa circular com seis cadeiras igualmente espaçadas. Sabe-se que:  
 1. A senta-se exatamente em frente a D (diametralmente oposto).  
@@ -479,6 +515,9 @@ Nessas condições, quem senta imediatamente à esquerda de A é:
 * **C)** E
 * **D)** F
 * **E)** D
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -497,9 +536,10 @@ ightarrow$ posição 5.
 >
 > **Gabarito: D**
 
----
+
 
 ---
+
 
 ## 5. Dedução Lógica e Avaliação de Suficiência de Condições
 
@@ -524,7 +564,7 @@ A ementa do edital exige expressamente a *"avaliação das condições usadas pa
 
 ---
 
-### Questão 09
+### Teste 100
 **(FCC – TCE-GO – Auditor de Controle Externo)**  
 Considere quatro auditores — Paulo, Renan, Sérgio e Tiago — que possuem idades distintas: 25, 28, 31 e 35 anos, não necessariamente nessa ordem. Para se determinar com precisão unívoca a idade de cada um deles, foram apresentadas as seguintes três condições:
 I. Paulo é mais velho que Sérgio.  
@@ -537,6 +577,9 @@ Avalie se essas três condições, em conjunto, são suficientes para determinar
 * **C)** As três condições, juntas, são suficientes para determinar a idade de todos os quatro auditores.
 * **D)** As três condições determinam apenas as idades de Paulo e Renan, restando ambiguidade entre Sérgio e Tiago.
 * **E)** A condição I é contraditória com a condição III.
+
+
+---
 
 > **Comentário Detalhado:**
 > Avaliação sistemática de suficiência de dados:
@@ -559,7 +602,7 @@ Avalie se essas três condições, em conjunto, são suficientes para determinar
 > **Gabarito: C**
 
 
-### Questão 10
+### Teste 101
 **(FCC – TRT-14 – Analista Judiciário)**  
 Considere o problema de suficiência de dados a seguir para determinar o salário mensal de um auditor:  
 *Pergunta: Qual é o valor exato do salário de Marcelo?*  
@@ -573,6 +616,9 @@ Para responder à pergunta formulada:
 * **C)** As duas afirmações, (1) e (2), juntas, são suficientes para responder à pergunta, mas nenhuma das afirmações sozinha é suficiente.
 * **D)** Cada afirmação, por si só, é suficiente para responder à pergunta.
 * **E)** As afirmações (1) e (2), mesmo juntas, não são suficientes para responder à pergunta.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -590,10 +636,9 @@ Para responder à pergunta formulada:
 >
 > **Gabarito: C**
 
----
+
 
 ---
-
 
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas

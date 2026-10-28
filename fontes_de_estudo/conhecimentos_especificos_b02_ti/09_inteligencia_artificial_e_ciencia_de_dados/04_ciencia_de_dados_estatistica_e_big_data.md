@@ -4,7 +4,10 @@
 **Cargo:** Auditor de Controle Externo - Tecnologia da Informação  
 **Status do Mapeamento:** 100% aderente ao edital TCE-GO
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 1. **Fundamentos de Ciência de Dados e Metodologia CRISP-DM:** As seis fases iterativas do CRISP-DM (*Business Understanding*, *Data Understanding*, *Data Preparation*, *Modeling*, *Evaluation*, *Deployment*).
@@ -13,28 +16,44 @@
 4. **Métricas e Avaliação de Modelos Preditivos:** Trade-off Viés vs. Variância (*Underfitting* vs. *Overfitting*); Técnicas de validação (Hold-out e Validação Cruzada k-Fold estratificada); Métricas de Classificação sobre Matriz de Confusão (Acurácia e suas armadilhas em dados desbalanceados, Precisão, Sensibilidade/Recall, F1-Score como média harmônica, Curva ROC e AUC-ROC); e Métricas de Regressão (MAE, MSE, RMSE e $R^2$).
 5. **Fundamentos de Big Data e Processamento Distribuído:** As dimensões dos Vs do Big Data (Volume, Velocidade, Variedade, Veracidade e Valor); Ecossistema Apache Hadoop (arquitetura HDFS com NameNode em RAM e DataNodes em disco, blocos de 128 MB, replicação $3\times$ com rack awareness, YARN e paradigma MapReduce com etapas de Map, Shuffle & Sort e Reduce); e Apache Spark (computação em memória RAM, RDDs com Grafo de Linhagem, DataFrames com otimizador Catalyst, Avaliação Preguiçosa/*Lazy Evaluation* de Transformações vs. Ações imediatas, e operações Narrow vs. Wide com shuffle).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Metodologia CRISP-DM e Pipeline de Engenharia de Dados](#1-metodologia-crisp-dm-e-pipeline-de-engenharia-de-dados)
-    - [1.1 As Seis Fases do Framework CRISP-DM](#11-as-seis-fases-do-framework-crisp-dm)
-    - [1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)](#12-tratamento-de-valores-ausentes-e-outliers-criterio-iqr)
-    - [1.3 Escalonamento e Codificação de Variáveis Categóricas](#13-escalonamento-e-codificacao-de-variaveis-categoricas)
-- [2. Estatística Aplicada, Probabilidades e Testes de Hipóteses](#2-estatistica-aplicada-probabilidades-e-testes-de-hipoteses)
-    - [2.1 Medidas de Tendência Central, Dispersão e Assimetria](#21-medidas-de-tendencia-central-dispersao-e-assimetria)
-    - [2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson](#22-distribuicoes-de-probabilidade-normal-binomial-e-poisson)
-    - [2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor](#23-testes-de-hipoteses-erros-tipo-i-e-ii-e-criterio-do-p-valor)
-- [3. Avaliação de Modelos Preditivos (Classificação e Regressão)](#3-avaliacao-de-modelos-preditivos-classificacao-e-regressao)
-    - [3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)](#31-o-trade-off-vies-vs-variancia-bias-variance-tradeoff)
-    - [3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas](#32-matriz-de-confusao-e-metricas-para-classes-desbalanceadas)
-    - [3.3 Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)](#33-curva-roc-auc-roc-e-metricas-de-regressao-mae-mse-rmse-r2)
-- [4. Ecossistema Big Data: Hadoop e Apache Spark](#4-ecossistema-big-data-hadoop-e-apache-spark)
-    - [4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop](#41-os-vs-do-big-data-e-a-arquitetura-hdfsyarn-do-hadoop)
-    - [4.2 Paradigma MapReduce e suas Limitações de I/O em Disco](#42-paradigma-mapreduce-e-suas-limitacoes-de-io-em-disco)
-    - [4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs](#43-apache-spark-processamento-em-memoria-lazy-evaluation-e-rdds)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Metodologia CRISP-DM e Pipeline de Engenharia de Dados](#1-metodologia-crisp-dm-e-pipeline-de-engenharia-de-dados)
+    1. [As Seis Fases do Framework CRISP-DM](#11-as-seis-fases-do-framework-crisp-dm)
+    2. [Teste 333](#Teste-333)
+    3. [Tratamento de Valores Ausentes e Outliers (Critério IQR)](#12-tratamento-de-valores-ausentes-e-outliers-criterio-iqr)
+    4. [Teste 334](#Teste-334)
+    5. [Escalonamento e Codificação de Variáveis Categóricas](#13-escalonamento-e-codificacao-de-variaveis-categoricas)
+    6. [Teste 335](#Teste-335)
+2. [Estatística Aplicada, Probabilidades e Testes de Hipóteses](#2-estatistica-aplicada-probabilidades-e-testes-de-hipoteses)
+    1. [Medidas de Tendência Central, Dispersão e Assimetria](#21-medidas-de-tendencia-central-dispersao-e-assimetria)
+    2. [Teste 336](#Teste-336)
+    3. [Distribuições de Probabilidade: Normal, Binomial e Poisson](#22-distribuicoes-de-probabilidade-normal-binomial-e-poisson)
+    4. [Teste 337](#Teste-337)
+    5. [Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor](#23-testes-de-hipoteses-erros-tipo-i-e-ii-e-criterio-do-p-valor)
+    6. [Teste 338](#Teste-338)
+3. [Avaliação de Modelos Preditivos (Classificação e Regressão)](#3-avaliacao-de-modelos-preditivos-classificacao-e-regressao)
+    1. [O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)](#31-o-trade-off-vies-vs-variancia-bias-variance-tradeoff)
+    2. [Teste 339](#Teste-339)
+    3. [Matriz de Confusão e Métricas para Classes Desbalanceadas](#32-matriz-de-confusao-e-metricas-para-classes-desbalanceadas)
+    4. [Teste 340](#Teste-340)
+    5. [Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)](#33-curva-roc-auc-roc-e-metricas-de-regressao-mae-mse-rmse-r2)
+    6. [Teste 341](#Teste-341)
+4. [Ecossistema Big Data: Hadoop e Apache Spark](#4-ecossistema-big-data-hadoop-e-apache-spark)
+    1. [Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop](#41-os-vs-do-big-data-e-a-arquitetura-hdfsyarn-do-hadoop)
+    2. [Teste 342](#Teste-342)
+    3. [Paradigma MapReduce e suas Limitações de I/O em Disco](#42-paradigma-mapreduce-e-suas-limitacoes-de-io-em-disco)
+    4. [Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs](#43-apache-spark-processamento-em-memoria-lazy-evaluation-e-rdds)
+    5. [Teste 343](#Teste-343)
+5. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Metodologia CRISP-DM e Pipeline de Engenharia de Dados
 
@@ -72,7 +91,7 @@ O **CRISP-DM (*Cross-Industry Standard Process for Data Mining*)** é o padrão 
 
 ---
 
-### Questão 01
+### Teste 333
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 No desenvolvimento de um projeto de ciência de dados estruturado sob a metodologia CRISP-DM para análise de superfaturamento em contratos de obras públicas, os analistas estão executando a etapa de *Data Preparation*. Durante a identificação de valores discrepantes no custo unitário do metro quadrado de asfalto, a equipe optou pela técnica do Intervalo Interquartil (IQR).
 A base de dados indicou que o primeiro quartil ($Q_1$) foi apurado em R$ 200,00 e o terceiro quartil ($Q_3$) foi apurado em R$ 350,00.
@@ -83,6 +102,9 @@ A respeito da metodologia CRISP-DM e dos critérios de pré-processamento de out
 * **C)** Na metodologia CRISP-DM, a fase de *Business Understanding* sucede a fase de *Deployment*, visto que o entendimento dos objetivos de negócio só pode ocorrer após a solução estar em produção.
 * **D)** A técnica de Padronização (*Z-Score*) deve ser evitada em modelos baseados em gradiente descendente, sendo imperativo o uso exclusivo do One-Hot Encoding para variáveis puramente numéricas.
 * **E)** A metodologia CRISP-DM proíbe expressamente qualquer retorno ou iteração entre a fase de Modelagem (*Modeling*) e a fase de Preparação de Dados (*Data Preparation*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -121,7 +143,8 @@ A respeito da metodologia CRISP-DM e dos critérios de pré-processamento de out
     - Qualquer observação que satisfaça $x < \text{LI}$ ou $x > \text{LS}$ é categorizada como **outlier moderado**. Se o fator multiplicador for $3{,}0$, classifica-se como **outlier extremo**.
     - O critério do **Escore Z (*Z-Score*)** ($Z = \frac{x - \mu}{\sigma}$) sinaliza anomalias quando $|Z| > 3$, pressupondo distribuição aproximadamente normal.
 
-### Questão 02 (FGV - TJ-RR / Analista Judiciário - TI - Tratamento de Outliers e Critério IQR)
+### Teste 334
+**(FGV - TJ-RR / Analista Judiciário - TI - Tratamento de Outliers e Critério IQR)**
 Em um projeto de ciência de dados para auditoria de contratos emergenciais de saúde, a equipe técnica precisa identificar desvios grosseiros e valores atípicos (*outliers*) nos preços unitários de medicamentos, utilizando um método estatístico não paramétrico e robusto à presença de distribuições assimétricas.
 
 O método amplamente recomendado pela literatura é o do **Intervalo Interquartil** (*Interquartile Range - IQR*). Considerando o Primeiro Quartil ($Q_1$) e o Terceiro Quartil ($Q_3$) de uma série ordenada de preços, assinale a opção que apresenta os limites inferior e superior que definem formalmente um *outlier* pelo critério de Tukey:
@@ -131,6 +154,9 @@ O método amplamente recomendado pela literatura é o do **Intervalo Interquarti
 * **C)** Limite Inferior: $0$; Limite Superior: $Q_3 \times 100$.
 * **D)** Limite Inferior: $\text{Mediana} / 2$; Limite Superior: $\text{Mediana} \times 2$.
 * **E)** Limite Inferior: $Q_1 + Q_3$; Limite Superior: $Q_1 - Q_3$.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -165,7 +191,8 @@ O método amplamente recomendado pela literatura é o do **Intervalo Interquarti
 
 ---
 
-### Questão 03 (FGV - TRT / Analista Judiciário - TI - Escalonamento de Recursos e Prevenção de Data Leakage)
+### Teste 335
+**(FGV - TRT / Analista Judiciário - TI - Escalonamento de Recursos e Prevenção de Data Leakage)**
 Na etapa de pré-processamento de um modelo de Machine Learning preditor de probabilidade de insolvência de fornecedores públicos, o cientista de dados depara-se com variáveis numéricas em escalas de grandezas muito distintas (ex.: `faturamento_anual` na ordem de milhões de reais e `tempo_empresa_anos` variando de 0 a 30).
 
 A respeito das técnicas de escalonamento e dos cuidados mandatórios no fluxo de validação cruzada, assinale a afirmativa correta:
@@ -175,6 +202,9 @@ A respeito das técnicas de escalonamento e dos cuidados mandatórios no fluxo d
 * **C)** O ajuste dos parâmetros de escalonamento (como média e desvio padrão) deve ser calculado simultaneamente sobre toda a base unificada (treino + teste) antes da divisão em folds para acelerar o processamento.
 * **D)** O escalonamento de variáveis deve ser aplicado obrigatoriamente também na variável alvo categórica de classificação binária.
 * **E)** Árvores de decisão puras (Decision Trees) e Random Forests sofrem severa perda de acurácia se as variáveis numéricas não forem escalonadas entre 0 e 1.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -188,7 +218,10 @@ A respeito das técnicas de escalonamento e dos cuidados mandatórios no fluxo d
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 2. Estatística Aplicada, Probabilidades e Testes de Hipóteses
 
@@ -225,7 +258,7 @@ A respeito das técnicas de escalonamento e dos cuidados mandatórios no fluxo d
 
 ---
 
-### Questão 04
+### Teste 336
 **(FCC - TRF-3ª Região - Analista Judiciário - Estatística Aplicada)**
 Na análise estatística dos salários praticados por fornecedores contratados pelo setor público, observou-se que a distribuição de rendimentos apresenta uma acentuada **Assimetria Positiva (à direita)**, decorrente da existência de uma minoria de executivos com salários desproporcionalmente vultosos em comparação com o grande contingente de operários.
 Considerando o comportamento das medidas de tendência central e os conceitos de inferência estatística, assinale a alternativa correta:
@@ -235,6 +268,9 @@ Considerando o comportamento das medidas de tendência central e os conceitos de
 * **C)** O Erro Tipo I em um teste de hipóteses ocorre quando o auditor decide não rejeitar a hipótese nula $H_0$, mesmo sendo ela flagrantemente falsa.
 * **D)** Um $p$-valor de $0{,}001$ obtido em um teste estatístico indica que se deve aceitar a hipótese nula $H_0$ sob o nível de significância padrão de $\alpha = 0{,}05$.
 * **E)** O desvio padrão amostral de uma variável não se altera quando todos os valores observados na amostra são multiplicados por uma constante real não nula.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -265,7 +301,8 @@ Considerando o comportamento das medidas de tendência central e os conceitos de
     - Modela a contagem de ocorrências de eventos raros que acontecem a uma taxa média constante $\lambda$ em um intervalo fixado contínuo de tempo ou espaço.
     - Propriedade elementar cobrada em prova: **$\text{Média} = \text{Variância} = \lambda$**.
 
-### Questão 05 (FGV - TRT / Analista Judiciário - TI - Distribuição Normal e Teorema Central do Limite)
+### Teste 337
+**(FGV - TRT / Analista Judiciário - TI - Distribuição Normal e Teorema Central do Limite)**
 A Distribuição Normal (Gaussiana) é o modelo probabilístico mais importante da inferência estatística e da ciência de dados, formalmente expressa por sua densidade de probabilidade $X \sim \mathcal{N}(\mu, \sigma^2)$.
 
 A respeito das propriedades geométricas e teóricas da Distribuição Normal, assinale a afirmativa correta:
@@ -275,6 +312,9 @@ A respeito das propriedades geométricas e teóricas da Distribuição Normal, a
 * **C)** O Teorema Central do Limite estabelece que a soma ou média de variáveis aleatórias independentes e identicamente distribuídas converge para uma distribuição exponencial quando o tamanho da amostra tende ao infinito.
 * **D)** A área total sob a curva de densidade de probabilidade de uma Gaussiana é igual a 100,0.
 * **E)** O desvio padrão ($\sigma$) desloca a curva horizontalmente para a direita ou esquerda sem afetar o seu achatamento ou dispersão.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -309,7 +349,8 @@ Estrutura formal de tomada de decisão estatística sob incerteza:
 
 ---
 
-### Questão 06 (FGV - TRT / Analista Judiciário - TI - Testes de Hipóteses, Erros Tipo I e II e p-Valor)
+### Teste 338
+**(FGV - TRT / Analista Judiciário - TI - Testes de Hipóteses, Erros Tipo I e II e p-Valor)**
 Na auditoria estatística de folha de pagamento, os auditores formulam um teste de hipóteses para avaliar se a média de horas extras de determinado departamento ($H_1$) é estatisticamente superior ao limite legal regulamentado ($H_0$).
 
 A respeito dos conceitos de hipótese nula, erros de decisão e interpretação do $p$-valor, assinale a afirmativa correta:
@@ -319,6 +360,9 @@ A respeito dos conceitos de hipótese nula, erros de decisão e interpretação 
 * **C)** Um $p$-valor menor que o nível de significância estipulado (ex.: $p < 0,05$) indica que a hipótese nula ($H_0$) deve ser aceita e confirmada como verdadeira com certeza absoluta.
 * **D)** O Poder do Teste estatístico é dado algebricamente por $1 - \alpha$.
 * **E)** A hipótese alternativa ($H_1$) representa o estado inicial de conformidade ou ausência de efeito a ser mantido caso faltem evidências probatórias.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -333,7 +377,10 @@ A respeito dos conceitos de hipótese nula, erros de decisão e interpretação 
 > 
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 3. Avaliação de Modelos Preditivos (Classificação e Regressão)
 
@@ -346,7 +393,8 @@ $$\text{Erro de Teste} = \text{Viés}^2 + \text{Variância} + \sigma_{\text{ruí
 - **Overfitting (Sobreajuste / Alta Variância):** O modelo é hipercomplexo (ex.: árvore de decisão profunda sem limites) e decora as particularidades e ruídos estocásticos do treino, apresentando erro mínimo no treino e erro elevado nos dados inéditos de teste.
 - **Validação Cruzada k-Fold Estratificada (*Stratified k-Fold*):** Divide os dados em $k$ partições preservando a mesma proporção percentual das classes em cada dobra, técnica mandatória em problemas desbalanceados.
 
-### Questão 07 (FCC - TRT / Analista Judiciário - TI - O Dilema Viés vs. Variância em Modelos Preditivos)
+### Teste 339
+**(FCC - TRT / Analista Judiciário - TI - O Dilema Viés vs. Variância em Modelos Preditivos)**
 Na avaliação do erro de generalização de algoritmos de aprendizado supervisionado, o Erro Médio Quadrático Esperado de predição sobre dados não vistos pode ser decomposto matematicamente em três componentes fundamentais:
 
 $$\mathbb{E}[Erro] = \text{Viés}^2 + \text{Variância} + \sigma_{\epsilon}^2$$
@@ -358,6 +406,9 @@ A respeito do comportamento dessas componentes e do fenômeno do **Bias-Variance
 * **C)** Modelos excessivamente simples e rígidos (como regressão linear em dados curvilíneos) sofrem de **alto viés e baixa variância**, caracterizando o fenômeno do **Subajuste (*Underfitting*)**; enquanto modelos hipercomplexos e flexíveis (como árvores de decisão profundas sem poda) sofrem de **baixo viés e alta variância**, decorando os ruídos do treino e caracterizando o **Sobreajuste (*Overfitting*)**.
 * **D)** Aumentar a quantidade de variáveis irrelevantes e ruídos na base diminui a variância do modelo.
 * **E)** Técnicas de regularização (como penalidades L1/L2) servem para aumentar a variância do modelo a níveis extremos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -405,7 +456,7 @@ A respeito do comportamento dessas componentes e do fenômeno do **Bias-Variance
 
 ---
 
-### Questão 08
+### Teste 340
 **(FCC - DPE-RS - Analista de Tecnologia da Informação)**
 Um Tribunal de Contas implantou um algoritmo de aprendizado de máquina para triagem de prestações de contas municipais. Em uma amostra de teste com 10.000 processos auditados, sabe-se que 200 processos continham irregularidades graves (positivos) e 9.800 eram processos estritamente regulares (negativos).
 Após a execução do classificador, os resultados observados na matriz de confusão foram:
@@ -422,6 +473,9 @@ Avaliando o desempenho desse modelo para o controle externo, assinale a afirmati
 * **C)** O classificador apresenta uma Sensibilidade de 99,2%, calculada pela divisão dos Verdadeiros Negativos pela soma dos casos regulares.
 * **D)** Em problemas de detecção de fraudes em compras governamentais, deve-se buscar a redução do Recall e o aumento deliberado de Falsos Negativos para reduzir a carga de trabalho dos auditores.
 * **E)** Um modelo fictício ingênuo que classificasse todas as 10.000 prestações de contas como regulares apresentaria uma Acurácia de 0%, revelando a sensibilidade dessa métrica ao desbalanceamento.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -452,7 +506,8 @@ Avaliando o desempenho desse modelo para o controle externo, assinale a afirmati
 
 ---
 
-### Questão 09 (FCC - TRT / Analista Judiciário - TI - Avaliação de Modelos: Curva ROC, AUC e Métricas de Erro)
+### Teste 341
+**(FCC - TRT / Analista Judiciário - TI - Avaliação de Modelos: Curva ROC, AUC e Métricas de Erro)**
 Para mensurar a eficácia de um classificador probabilístico encarregado de apontar licitações suspeitas de fraude sob diferentes limiares de corte (*thresholds*), a área técnica utiliza a **Curva ROC** (*Receiver Operating Characteristic*) e sua respectiva área sob a curva (**AUC-ROC**).
 
 A respeito dessas métricas de avaliação de desempenho, assinale a afirmativa correta:
@@ -462,6 +517,9 @@ A respeito dessas métricas de avaliação de desempenho, assinale a afirmativa 
 * **C)** A métrica MAE (*Mean Absolute Error*) penaliza os grandes erros individuais com mais severidade do que o RMSE (*Root Mean Squared Error*), pois eleva os resíduos ao quadrado.
 * **D)** O valor máximo teórico atingível pela métrica AUC-ROC é de 0,5.
 * **E)** A Curva ROC só pode ser construída se a base de dados tiver exatamente 50% de instâncias de cada classe, sendo inoperante em problemas com classes desbalanceadas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -479,7 +537,10 @@ A respeito dessas métricas de avaliação de desempenho, assinale a afirmativa 
 > 
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 4. Ecossistema Big Data: Hadoop e Apache Spark
 
@@ -515,7 +576,7 @@ O **Apache Hadoop** é a infraestrutura de código aberto pioneira para armazena
 
 ---
 
-### Questão 10
+### Teste 342
 **(FCC - TRT-2ª Região - Analista Judiciário - Tecnologia da Informação)**
 No âmbito do armazenamento e processamento distribuído de grandes volumes de dados governamentais com o ecossistema Apache Hadoop, assinale a afirmativa correta a respeito da arquitetura do HDFS (*Hadoop Distributed File System*):
 
@@ -524,6 +585,9 @@ No âmbito do armazenamento e processamento distribuído de grandes volumes de d
 * **C)** A perda de qualquer *DataNode* no HDFS acarreta a destruição imediata e irrecuperável de todo o cluster, visto que o Hadoop não contempla mecanismos de replicação de blocos.
 * **D)** O componente *YARN* foi inteiramente descontinuado na versão Hadoop 2.x por ser incompatível com sistemas operacionais corporativos de código aberto.
 * **E)** O paradigma MapReduce realiza todo o processamento analítico estritamente na memória volátil dos nós, dispensando por completo gravações intermediárias em disco rígido entre as fases de Map e Reduce.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -568,7 +632,7 @@ O **Apache Spark** superou as limitações de I/O do Hadoop executando a computa
 
 ---
 
-### Questão 11
+### Teste 343
 **(FCC - SEFAZ-PE - Auditoria Fiscal - Processamento Distribuído com Apache Spark)**
 Durante o processamento em lote de dezenas de milhões de documentos fiscais eletrônicos em um cluster com Apache Spark, um analista escreveu o seguinte trecho de código:
 
@@ -586,6 +650,9 @@ Considerando a arquitetura interna e o paradigma computacional do Apache Spark, 
 * **D)** O Spark armazena obrigatoriamente todas as partições intermediárias em arquivos físicos de texto no disco rígido do nó mestre, impedindo o reaproveitamento de dados em memória RAM.
 * **E)** A tolerância a falhas no Spark é garantida pela gravação redundante de sete cópias de cada partição em fitas magnéticas secundárias.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. `filter()` e `select()` são **Transformações**, e não Ações; sob a avaliação preguiçosa, nenhuma computação física ocorre nessas linhas.
@@ -596,8 +663,9 @@ Considerando a arquitetura interna e o paradigma computacional do Apache Spark, 
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas

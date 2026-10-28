@@ -5,7 +5,10 @@
 > **Arquivo:** `03_organizacao_do_estado_e_reparticao_de_competencias.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -19,26 +22,33 @@
 - Regime constitucional da Administração Pública (Artigo 37 da CF/88): princípios fundamentais, concurso público, cargos em comissão e funções de confiança, teto remuneratório e regras de acumulação de cargos.
 - Servidores públicos civis (Artigos 38 a 41 da CF/88): exercício de mandato eletivo, estágio probatório, estabilidade aos 3 anos, avaliação especial de desempenho e hipóteses constitucionais taxativas de perda do cargo público estável.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Forma Federativa e Organização Político-Administrativa](#1-forma-federativa-e-organizacao-politico-administrativa)
-    - [1.1 Características da Federação Brasileira e Autonomia dos Entes](#11-caracteristicas-da-federacao-brasileira-e-autonomia-dos-entes)
-    - [1.2 Vedações Constitucionais Federativas (Art. 19)](#12-vedacoes-constitucionais-federativas-art-19)
-    - [1.3 Bens Públicos Constitucionais e Criação de Novos Entes](#13-bens-publicos-constitucionais-e-criacao-de-novos-entes)
-- [2. O Modelo Constitucional de Repartição de Competências](#2-o-modelo-constitucional-de-reparticao-de-competencias)
-    - [2.1 Competências Legislativas: Privativa da União versus Concorrente](#21-competencias-legislativas-privativa-da-uniao-versus-concorrente)
-    - [2.2 Competências Administrativas: Exclusivas e Comuns](#22-competencias-administrativas-exclusivas-e-comuns)
-    - [2.3 Competências dos Estados e Municípios](#23-competencias-dos-estados-e-municipios)
-- [3. Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual](#3-mecanismos-excepcionais-de-equilibrio-intervencao-federal-e-estadual)
-- [4. Regime Constitucional da Administração Pública e Servidores (Arts. 37 a 41)](#4-regime-constitucional-da-administracao-publica-e-servidores-arts-37-a-41)
-    - [4.1 Concurso Público, Funções de Confiança e Cargos em Comissão](#41-concurso-publico-funcoes-de-confianca-e-cargos-em-comissao)
-    - [4.2 Regra Constitucional da Não-Acumulação e Exceções (Art. 37, XVI)](#42-regra-constitucional-da-nao-acumulacao-e-excecoes-art-37-xvi)
-    - [4.3 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#43-exercicio-de-mandato-eletivo-pelo-servidor-publico-art-38)
-    - [4.4 Estabilidade e Perda do Cargo do Servidor Estável (Art. 41)](#44-estabilidade-e-perda-do-cargo-do-servidor-estavel-art-41)
-- [5. Fontes Oficiais & Doutrinárias Recomendadas](#fontes-oficiais-doutrinarias-recomendadas)
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Forma Federativa e Organização Político-Administrativa](#1-forma-federativa-e-organizacao-politico-administrativa)
+    2. [Teste 132](#Teste-132)
+    3. [O Modelo Constitucional de Repartição de Competências](#2-o-modelo-constitucional-de-reparticao-de-competencias)
+    4. [Teste 133](#Teste-133)
+    5. [Teste 134](#Teste-134)
+    6. [Teste 135](#Teste-135)
+    7. [Teste 136](#Teste-136)
+    8. [Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual](#3-mecanismos-excepcionais-de-equilibrio-intervencao-federal-e-estadual)
+    9. [Teste 137](#Teste-137)
+    10. [Regime Constitucional da Administração Pública e Servidores (Arts. 37 a 41)](#4-regime-constitucional-da-administracao-publica-e-servidores-arts-37-a-41)
+    11. [Teste 138](#Teste-138)
+    12. [Teste 139](#Teste-139)
+    13. [Teste 140](#Teste-140)
+    14. [Teste 141](#Teste-141)
+    15. [Teste 142](#Teste-142)
+2. [Fontes Oficiais & Doutrinárias Recomendadas](#fontes-oficiais-doutrinarias-recomendadas)
 
 ---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -79,7 +89,8 @@ O art. 19 da Carta da República veda à União, aos Estados, ao Distrito Federa
 
 
 
-### Questão 01 (FCC - Analista Judiciário - Área Administrativa)
+### Teste 132
+**(FCC - Analista Judiciário - Área Administrativa)**
 A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito (art. 1º, caput, da CF/88).
 
 A respeito da forma de Estado federativa e da organização político-administrativa brasileira, assinale a afirmativa correta.
@@ -89,6 +100,9 @@ A respeito da forma de Estado federativa e da organização político-administra
 * **C)** Os Territórios Federais integram a Federação brasileira como entes autônomos dotados de representação própria no Senado Federal.
 * **D)** A criação de um novo Município prescinde de consulta plebiscitária às populações dos Municípios envolvidos, dependendo apenas de parecer prévio do Tribunal de Contas do Estado.
 * **E)** A soberania é atributo partilhado de forma idêntica entre a União e os Municípios brasileiros.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -146,7 +160,8 @@ Esta é a distinção mais exigida pela banca FCC. Analise as características d
 
 
 
-### Questão 02 (FGV - Auditor de Controle Externo / TCE-GO)
+### Teste 133
+**(FGV - Auditor de Controle Externo / TCE-GO)**
 O art. 24 da Constituição Federal estabelece que compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre direito tributário, financeiro, penitenciário, econômico e urbanístico.
 
 A respeito da dinâmica da competência legislativa concorrente, assinale a afirmativa correta.
@@ -156,6 +171,9 @@ A respeito da dinâmica da competência legislativa concorrente, assinale a afir
 * **C)** A superveniência de lei federal sobre normas gerais revoga integralmente a lei estadual anterior que dispôs sobre a mesma matéria.
 * **D)** A competência legislativa concorrente estende-se expressamente aos Municípios para fixação de normas gerais nacionais de direito econômico.
 * **E)** Os Estados possuem competência privativa para editar normas gerais sobre direito financeiro e orçamentos públicos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -169,7 +187,8 @@ A respeito da dinâmica da competência legislativa concorrente, assinale a afir
 
 ---
 
-### Questão 03 (FCC - Adaptada / Analista de Controle Externo)
+### Teste 134
+**(FCC - Adaptada / Analista de Controle Externo)**
 A Assembleia Legislativa do Estado de Goiás aprovou projeto de lei que disciplina matérias relativas ao direito tributário e financeiro estadual, estabelecendo regras inovadoras de arrecadação e fiscalização orçamentária no âmbito de seu território, na ausência de lei federal veiculando normas gerais sobre aquele tema específico. Dois anos depois, o Congresso Nacional promulgou lei federal contendo normas gerais sobre a mesma matéria, cujos dispositivos colidem diretamente com três artigos da referida lei estadual goiana.
 
 Considerando o modelo constitucional brasileiro de repartição de competências legislativas concorrentes (art. 24 da CF/88):
@@ -179,6 +198,9 @@ Considerando o modelo constitucional brasileiro de repartição de competências
 * **C)** A lei federal posterior padece de inconstitucionalidade formal, por invadir competência reservada originariamente ao Estado-membro.
 * **D)** A lei estadual goiana foi formalmente revogada e extinta do ordenamento jurídico, tendo em vista o princípio da hierarquia absoluta da União sobre os Estados Federados.
 * **E)** A antinomia entre as duas leis impõe a anulação simultânea de ambas pelo Tribunal de Justiça, competindo aos Municípios legislar de forma residual.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -192,7 +214,8 @@ Considerando o modelo constitucional brasileiro de repartição de competências
 
 ---
 
-### Questão 04 (FCC - Adaptada / Procuradoria Legislativa)
+### Teste 135
+**(FCC - Adaptada / Procuradoria Legislativa)**
 Em tema de repartição constitucional de competências legislativas entre os entes federados, a competência para legislar sobre **Direito do Trabalho**, **Direito Processual** e **Trânsito e Transporte** pertence:
 
 * **A)** Concorrentemente à União, aos Estados e ao Distrito Federal.
@@ -200,6 +223,9 @@ Em tema de repartição constitucional de competências legislativas entre os en
 * **C)** Privativamente à União, podendo lei complementar federal autorizar os Estados a legislar sobre questões específicas dessas matérias.
 * **D)** Exclusivamente à União, sendo vedada qualquer hipótese de delegação de competência aos Estados-membros.
 * **E)** Concorrentemente à União e aos Municípios, ficando os Estados restritos às normas de interesse regional.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -215,7 +241,8 @@ Em tema de repartição constitucional de competências legislativas entre os en
 
 
 
-### Questão 05 (FCC - Procurador do Estado / Adaptada)
+### Teste 136
+**(FCC - Procurador do Estado / Adaptada)**
 A Câmara Municipal de determinado Município aprovou lei local disciplinando o horário de funcionamento de estabelecimentos bancários situados em seu território, bem como exigindo a instalação de portas de segurança eletrônicas e banheiros para os clientes nas agências.
 
 À luz da jurisprudência consolidada do Supremo Tribunal Federal e do Superior Tribunal de Justiça, a referida lei municipal é:
@@ -225,6 +252,9 @@ A Câmara Municipal de determinado Município aprovou lei local disciplinando o 
 * **C)** Válida em sua integralidade, inclusive para fixar o horário de compensação nacional de cheques.
 * **D)** Nula de pleno direito por violar a competência concorrente dos Estados-membros em matéria de direito comercial.
 * **E)** Inconstitucional exclusivamente quanto à exigência de portas de segurança, por configurar matéria de segurança nacional do Exército Brasileiro.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -268,7 +298,8 @@ A não-intervenção é a regra geral da federação. A intervenção consubstan
 
 
 
-### Questão 06 (FGV - Analista de Controle Externo / TCE-GO)
+### Teste 137
+**(FGV - Analista de Controle Externo / TCE-GO)**
 A intervenção federal nos Estados e no Distrito Federal (art. 34 da CF/88) configura medida excepcional de supressão temporária da autonomia política do ente federado.
 
 A respeito dos pressupostos materiais e procedimentais da intervenção federal, assinale a afirmativa correta.
@@ -278,6 +309,9 @@ A respeito dos pressupostos materiais e procedimentais da intervenção federal,
 * **C)** O Tribunal de Contas da União pode decretar diretamente a intervenção em Estado que atrasar o repasse de verbas do SUS aos municípios.
 * **D)** O decreto de intervenção federal dispensa a indicação da amplitude, do prazo e das condições de execução, cabendo ao interventor poderes soberanos ilimitados.
 * **E)** Cessados os motivos da intervenção, as autoridades estaduais afastadas de seus cargos não poderão reassumi-los, devendo ser convocadas novas eleições gerais imediatas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -334,7 +368,8 @@ flowchart TD
 
 
 
-### Questão 07 (FCC - Técnico de Controle Externo / Administrativa)
+### Teste 138
+**(FCC - Técnico de Controle Externo / Administrativa)**
 No âmbito do regime constitucional da Administração Pública e de seus servidores (arts. 37 a 41 da CF/88), a remuneração e o subsídio dos ocupantes de cargos, funções e empregos públicos submetem-se ao teto remuneratório constitucional.
 
 A esse respeito, assinale a afirmativa correta.
@@ -344,6 +379,9 @@ A esse respeito, assinale a afirmativa correta.
 * **C)** As verbas de caráter indenizatório expressamente previstas em lei submetem-se integralmente ao teto remuneratório constitucional.
 * **D)** A acumulação lícita de dois cargos públicos de médico autoriza a Administração a somar os vencimentos para aplicação do teto de forma global unificada.
 * **E)** Servidores públicos ocupantes exclusivamente de cargos em comissão estão imunes ao teto remuneratório constitucional.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -357,7 +395,8 @@ A esse respeito, assinale a afirmativa correta.
 
 ---
 
-### Questão 08 (FCC - Adaptada / Técnico de Controle Externo - TCE-GO)
+### Teste 139
+**(FCC - Adaptada / Técnico de Controle Externo - TCE-GO)**
 Um servidor público ocupante do cargo de provimento efetivo de Técnico de Controle Externo do Tribunal de Contas do Estado de Goiás, com formação acadêmica superior em Direito, foi aprovado em regular concurso público municipal para o cargo de Professor de Direito Constitucional na Faculdade Municipal de Ensino Superior de Goiânia.
 
 Considerando as normas constitucionais que regem a acumulação remunerada de cargos públicos (art. 37, XVI da CF/88) e comprovada a plena compatibilidade de horários entre as jornadas de trabalho:
@@ -367,6 +406,9 @@ Considerando as normas constitucionais que regem a acumulação remunerada de ca
 * **C)** O servidor deve obrigatoriamente optar pela remuneração de apenas um dos cargos, prestando serviços de docência de maneira voluntária.
 * **D)** Apenas servidores estáveis com mais de dez anos de serviço podem exercer a prerrogativa excepcional de acumulação remunerada.
 * **E)** A acumulação é permitida exclusivamente para dois cargos privativos de profissionais de saúde, sendo vedada a docência por técnicos de controle externo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -402,7 +444,8 @@ flowchart TD
 
 ---
 
-### Questão 09 (FCC - Adaptada / Auditor Governamental)
+### Teste 140
+**(FCC - Adaptada / Auditor Governamental)**
 Determinado servidor público efetivo do Tribunal de Contas estadual decidiu concorrer a mandato eletivo político, sagrando-se vitorioso nas eleições municipais para o mandato de Vereador. No caso concreto, os horários das sessões ordinárias e comissões da Câmara Municipal coincidem parcialmente com o expediente de trabalho regular desempenhado no Tribunal de Contas.
 
 De acordo com o regime constitucional do servidor em exercício de mandato eletivo (art. 38 da CF/88):
@@ -412,6 +455,9 @@ De acordo com o regime constitucional do servidor em exercício de mandato eleti
 * **C)** Inexistindo compatibilidade de horários, o servidor será afastado do cargo de Técnico de Controle Externo, sendo-lhe facultado optar pela sua remuneração funcional.
 * **D)** O tempo de exercício do mandato eletivo será computado para todos os efeitos funcionais, inclusive para promoção compulsória por merecimento.
 * **E)** O servidor não pode assumir o mandato de Vereador sob pena de demissão imediata a bem do serviço público.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -447,7 +493,8 @@ flowchart TD
 
 ---
 
-### Questão 10 (FCC - Adaptada / Analista Judiciário)
+### Teste 141
+**(FCC - Adaptada / Analista Judiciário)**
 Sobre o regime constitucional de estabilidade dos servidores públicos civis e as hipóteses de perda do cargo público efetivo previstas na Constituição da República, analise as proposições a seguir:
 
 I. São estáveis após dois anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.  
@@ -463,6 +510,9 @@ Está correto o que se afirma em:
 * **C)** I e III, apenas.
 * **D)** I, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -483,7 +533,8 @@ Está correto o que se afirma em:
 
 
 
-### Questão 11 (FGV - Analista de Controle Externo / Auditoria)
+### Teste 142
+**(FGV - Analista de Controle Externo / Auditoria)**
 A estabilidade no serviço público é direito constitucional assegurado aos servidores nomeados para cargo de provimento efetivo em virtude de concurso público, nos termos do art. 41 da Constituição Federal de 1988.
 
 Sobre as condições e regras da estabilidade funcional, assinale a afirmativa correta.
@@ -493,6 +544,9 @@ Sobre as condições e regras da estabilidade funcional, assinale a afirmativa c
 * **C)** O servidor público estável não pode perder o cargo em hipótese alguma, gozando de garantia absoluta de permanência no serviço público.
 * **D)** Invalidada por sentença judicial a demissão do servidor estável, ele será reintegrado, e o eventual ocupante da vaga, se estável, será compulsoriamente demitido sem direito a indenização.
 * **E)** Em caso de extinção do cargo ou declaração de sua desnecessidade, o servidor público estável será imediatamente exonerado sem remuneração.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -504,7 +558,10 @@ Sobre as condições e regras da estabilidade funcional, assinale a afirmativa c
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 

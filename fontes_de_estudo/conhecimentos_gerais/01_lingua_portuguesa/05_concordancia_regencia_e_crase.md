@@ -5,7 +5,10 @@
 > **Arquivo:** `05_concordancia_regencia_e_crase.md`  
 > **Referência Temática:** Concordância Verbal e Nominal, Regência dos Verbos Críticos e Emprego da Crase na FCC
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Concordância verbal: regra geral, sujeito simples partitivo, coletivo, percentuais, frações e sujeito composto anteposto/posposto;
@@ -17,43 +20,58 @@
 - Regência nominal de substantivos e adjetivos de uso frequente em atos públicos;
 - Emprego do sinal indicativo de crase: fusão preposição + artigo, métodos práticos de substituição, casos proibidos, casos obrigatórios e casos facultativos.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Concordância Verbal: Fundamentos e Estruturas Particulares](#1-concordancia-verbal-fundamentos-e-estruturas-particulares)
-    - [1.1 Regra Geral da Concordância Verbal e Identificação do Núcleo](#11-regra-geral-da-concordancia-verbal-e-identificacao-do-nucleo)
-    - [1.2 Sujeito Simples com Expressões Partitivas e Coletivos](#12-sujeito-simples-com-expressoes-partitivas-e-coletivos)
-    - [1.3 Concordância com Expressões Numéricas, Frações e Percentuais](#13-concordancia-com-expressoes-numericas-fracoes-e-percentuais)
-    - [1.4 Concordância com Pronomes Relativos Que e Quem](#14-concordancia-com-pronomes-relativos-que-e-quem)
-    - [1.5 Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo](#15-sujeito-composto-posicao-anteposta-posposta-e-aposto-recapitulativo)
-- [2. Verbos Impessoais e a Dinâmica das Locuções Verbais](#2-verbos-impessoais-e-a-dinamica-das-locucoes-verbais)
-    - [2.1 O Verbo Haver Impessoal e a Comparação com o Verbo Existir](#21-o-verbo-haver-impessoal-e-a-comparacao-com-o-verbo-existir)
-    - [2.2 O Verbo Fazer Indicando Tempo Decorrido ou Fenômenos Climáticos](#22-o-verbo-fazer-indicando-tempo-decorrido-ou-fenomenos-climaticos)
-    - [2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções](#23-transmissao-de-impessoalidade-ao-verbo-auxiliar-nas-locucoes)
-    - [2.4 Concordância Verbal com a Partícula SE](#24-concordancia-verbal-com-a-particula-se)
-- [3. Concordância Nominal e Casos Especiais](#3-concordancia-nominal-e-casos-especiais)
-    - [3.1 Regra Geral da Concordância Nominal](#31-regra-geral-da-concordancia-nominal)
-    - [3.2 Adjetivo Referente a Mais de um Substantivo](#32-adjetivo-referente-a-mais-de-um-substantivo)
-    - [3.3 Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo](#33-palavras-e-expressoes-criticas-anexo-incluso-proprio-e-mesmo)
-    - [3.4 O Funcionamento de Bastante, Meio, Menos e Alerta](#34-o-funcionamento-de-bastante-meio-menos-e-alerta)
-    - [3.5 Expressões do Tipo É Proibido, É Necessário e É Bom](#35-expressoes-do-tipo-e-proibido-e-necessario-e-e-bom)
-- [4. Regência Verbal: Transitividade e Complementação dos Verbos Críticos](#4-regencia-verbal-transitividade-e-complementacao-dos-verbos-criticos)
-    - [4.1 Princípios da Regência Verbal na Norma Culta](#41-principios-da-regencia-verbal-na-norma-culta)
-    - [4.2 O Cardápio dos Verbos Preferidos da FCC](#42-o-cardapio-dos-verbos-preferidos-da-fcc)
-    - [4.3 Regência Verbal Associada a Pronomes Relativos](#43-regencia-verbal-associada-a-pronomes-relativos)
-- [5. Regência Nominal de Substantivos e Adjetivos](#5-regencia-nominal-de-substantivos-e-adjetivos)
-    - [5.1 Mecânica do Complemento Nominal](#51-mecanica-do-complemento-nominal)
-    - [5.2 Nomes de Alta Frequência em Atos de Controle e Direito Público](#52-nomes-de-alta-frequencia-em-atos-de-controle-e-direito-publico)
-- [6. Teoria Geral e Emprego do Sinal Indicativo de Crase](#6-teoria-geral-e-emprego-do-sinal-indicativo-de-crase)
-    - [6.1 Natureza Fonética e Morfossintática da Crase](#61-natureza-fonetica-e-morfossintatica-da-crase)
-    - [6.2 Métodos Práticos de Reconhecimento: A Troca pelo Masculino (Método do AO)](#62-metodos-praticos-de-reconhecimento-a-troca-pelo-masculino-metodo-do-ao)
-    - [6.3 Casos de Crase Proibida](#63-casos-de-crase-proibida)
-    - [6.4 Casos de Crase Obrigatória](#64-casos-de-crase-obrigatoria)
-    - [6.5 Casos de Crase Facultativa](#65-casos-de-crase-facultativa)
-    - [6.6 Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo](#66-crase-com-pronomes-demonstrativos-aquele-aquela-e-aquilo)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Concordância Verbal: Fundamentos e Estruturas Particulares](#1-concordancia-verbal-fundamentos-e-estruturas-particulares)
+    1. [Regra Geral da Concordância Verbal e Identificação do Núcleo](#11-regra-geral-da-concordancia-verbal-e-identificacao-do-nucleo)
+    2. [Sujeito Simples com Expressões Partitivas e Coletivos](#12-sujeito-simples-com-expressoes-partitivas-e-coletivos)
+    3. [Concordância com Expressões Numéricas, Frações e Percentuais](#13-concordancia-com-expressoes-numericas-fracoes-e-percentuais)
+    4. [Concordância com Pronomes Relativos Que e Quem](#14-concordancia-com-pronomes-relativos-que-e-quem)
+    5. [Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo](#15-sujeito-composto-posicao-anteposta-posposta-e-aposto-recapitulativo)
+    6. [Teste 042](#Teste-042)
+2. [Verbos Impessoais e a Dinâmica das Locuções Verbais](#2-verbos-impessoais-e-a-dinamica-das-locucoes-verbais)
+    1. [O Verbo Haver Impessoal e a Comparação com o Verbo Existir](#21-o-verbo-haver-impessoal-e-a-comparacao-com-o-verbo-existir)
+    2. [O Verbo Fazer Indicando Tempo Decorrido ou Fenômenos Climáticos](#22-o-verbo-fazer-indicando-tempo-decorrido-ou-fenomenos-climaticos)
+    3. [Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções](#23-transmissao-de-impessoalidade-ao-verbo-auxiliar-nas-locucoes)
+    4. [Concordância Verbal com a Partícula SE](#24-concordancia-verbal-com-a-particula-se)
+    5. [Teste 043](#Teste-043)
+3. [Concordância Nominal e Casos Especiais](#3-concordancia-nominal-e-casos-especiais)
+    1. [Regra Geral da Concordância Nominal](#31-regra-geral-da-concordancia-nominal)
+    2. [Adjetivo Referente a Mais de um Substantivo](#32-adjetivo-referente-a-mais-de-um-substantivo)
+    3. [Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo](#33-palavras-e-expressoes-criticas-anexo-incluso-proprio-e-mesmo)
+    4. [Teste 044](#Teste-044)
+    5. [O Funcionamento de Bastante, Meio, Menos e Alerta](#34-o-funcionamento-de-bastante-meio-menos-e-alerta)
+    6. [Expressões do Tipo É Proibido, É Necessário e É Bom](#35-expressoes-do-tipo-e-proibido-e-necessario-e-e-bom)
+    7. [Teste 045](#Teste-045)
+4. [Regência Verbal: Transitividade e Complementação dos Verbos Críticos](#4-regencia-verbal-transitividade-e-complementacao-dos-verbos-criticos)
+    1. [Princípios da Regência Verbal na Norma Culta](#41-principios-da-regencia-verbal-na-norma-culta)
+    2. [O Cardápio dos Verbos Preferidos da FCC](#42-o-cardapio-dos-verbos-preferidos-da-fcc)
+    3. [Teste 046](#Teste-046)
+    4. [Regência Verbal Associada a Pronomes Relativos](#43-regencia-verbal-associada-a-pronomes-relativos)
+    5. [Teste 047](#Teste-047)
+5. [Regência Nominal de Substantivos e Adjetivos](#5-regencia-nominal-de-substantivos-e-adjetivos)
+    1. [Mecânica do Complemento Nominal](#51-mecanica-do-complemento-nominal)
+    2. [Nomes de Alta Frequência em Atos de Controle e Direito Público](#52-nomes-de-alta-frequencia-em-atos-de-controle-e-direito-publico)
+    3. [Teste 048](#Teste-048)
+6. [Teoria Geral e Emprego do Sinal Indicativo de Crase](#6-teoria-geral-e-emprego-do-sinal-indicativo-de-crase)
+    1. [Natureza Fonética e Morfossintática da Crase](#61-natureza-fonetica-e-morfossintatica-da-crase)
+    2. [Métodos Práticos de Reconhecimento: A Troca pelo Masculino (Método do AO)](#62-metodos-praticos-de-reconhecimento-a-troca-pelo-masculino-metodo-do-ao)
+    3. [Casos de Crase Proibida](#63-casos-de-crase-proibida)
+    4. [Teste 049](#Teste-049)
+    5. [Casos de Crase Obrigatória](#64-casos-de-crase-obrigatoria)
+    6. [Teste 050](#Teste-050)
+    7. [Casos de Crase Facultativa](#65-casos-de-crase-facultativa)
+    8. [Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo](#66-crase-com-pronomes-demonstrativos-aquele-aquela-e-aquilo)
+    9. [Teste 051](#Teste-051)
+7. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Concordância Verbal: Fundamentos e Estruturas Particulares
 
@@ -110,7 +128,7 @@ Quando o sujeito da oração é constituído por pronome relativo:
     * *"Documentos, notas fiscais, contratos, extratos bancários, **nada escapou** à perícia dos auditores."*
 
 
-### Questão 01
+### Teste 042
 **(FCC – TRT-23 – Analista Judiciário)**  
 Considere as frases a seguir quanto à concordância verbal segundo a norma culta:  
 
@@ -127,6 +145,9 @@ A concordância verbal está inteiramente correta em:
 * **D)** I, III e IV, apenas.
 * **E)** III e IV, apenas.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **Item I:** Correto. Diante de sujeito formado por expressão partitiva (*A maioria de*) seguida de adjunto no plural (*dos auditores*), a concordância é facultativa: o verbo pode concordar no singular com o núcleo partitivo (*rejeitou*) ou ir para o plural concordando com o especificador (*rejeitaram*).
@@ -139,9 +160,10 @@ ightarrow$ singular: *foi destinado*). Logo, o plural é plenamente lícito.
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 2. Verbos Impessoais e a Dinâmica das Locuções Verbais
 
@@ -204,7 +226,7 @@ A concordância com o pronome *se* depende da transitividade do predicado:
 
 ---
 
-### Questão 02
+### Teste 043
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 A frase em que a concordância verbal, a regência e o emprego do sinal indicativo de crase atendem plenamente às exigências da norma-padrão é:
 
@@ -213,6 +235,9 @@ A frase em que a concordância verbal, a regência e o emprego do sinal indicati
 * **C)** *"Devem existir razões plausíveis para que o gestor desobedeça aos ditames da Lei de Licitações, visando à obtenção de vantagens indevidas."*
 * **D)** *"Fazem muitos anos que a comissão técnica visa à anulação de contratos que implicam em prejuízo ao erário."*
 * **E)** *"Tratam-se de condutas graves que desobedecem as normas orçamentárias e conduzem à severas sanções."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -224,8 +249,9 @@ A frase em que a concordância verbal, a regência e o emprego do sinal indicati
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 3. Concordância Nominal e Casos Especiais
@@ -261,7 +287,7 @@ O adjetivo concorda em gênero e número com o único substantivo a que se repor
 
 ---
 
-### Questão 03
+### Teste 044
 **(FCC – DPE-RS – Analista de Gestão Pública)**  
 No tocante às normas de **concordância nominal**, assinale a frase inteiramente correta:
 
@@ -270,6 +296,9 @@ No tocante às normas de **concordância nominal**, assinale a frase inteirament
 * **C)** *"Remeto a Vossas Excelências inclusas as planilhas financeiras com os cálculos atualizados do débito."*
 * **D)** *"Naquela secretaria estadual, havia menas servidoras lotadas no setor de tecnologia."*
 * **E)** *"É proibida entrada de pessoas sem identificação nas dependências do tribunal."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -313,7 +342,7 @@ Expressões formadas pelo verbo *ser* mais adjetivo qualificando um substantivo 
 > 💡 **DICA DE CONCORDÂNCIA NOMINAL / "É PROIBIDO":** Observe o substantivo que vem depois: se houver a presença do artigo *a* (*a entrada*), a concordância feminina é impositiva: *"É proibida a entrada"*. Se não houver artigo (*entrada* sem determinante), o adjetivo permanece invariável no masculino: *"É proibido entrada"*.
 
 
-### Questão 04
+### Teste 045
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Assinale a alternativa em que a concordância nominal atende integralmente às exigências da norma culta:
 
@@ -322,6 +351,9 @@ Assinale a alternativa em que a concordância nominal atende integralmente às e
 * **C)** É proibido a entrada de pessoas não autorizadas na sala de deliberações secretas dos conselheiros.
 * **D)** As auditoras mesmas elaboraram os relatórios circunstanciados, demonstrando que haviam bastantes motivos para impugnar o edital.
 * **E)** Havia menas divergências entre os membros da corte técnica durante a última sessão plenária.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -333,9 +365,10 @@ Assinale a alternativa em que a concordância nominal atende integralmente às e
 >
 > **Gabarito: D**
 
----
+
 
 ---
+
 
 ## 4. Regência Verbal: Transitividade e Complementação dos Verbos Críticos
 
@@ -372,7 +405,7 @@ A mesma forma verbal pode assumir trânsitos sintáticos e acepções semântica
 
 ---
 
-### Questão 05
+### Teste 046
 **(FCC – METRÔ-SP – Analista Jurídico)**  
 A respeito da regência do verbo **PREFERIR**, assinale a opção que atende à norma-padrão:
 
@@ -381,6 +414,9 @@ A respeito da regência do verbo **PREFERIR**, assinale a opção que atende à 
 * **C)** *"O conselheiro relator prefere a cautela procedimental à precipitação decisória."*
 * **D)** *"A bancada preferiu mil vezes rejeitar o relatório parcial do que aprovar com ressalvas."*
 * **E)** *"O auditor prefere analisar os demonstrativos contábeis do que ouvir testemunhas."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -407,7 +443,7 @@ Um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação d
 
 ---
 
-### Questão 06
+### Teste 047
 **(FCC – TRT – Técnico Judiciário)**  
 Considere a frase:  
 *"O projeto de infraestrutura _________ o secretário se referiu com entusiasmo é o mesmo _________ execução a população tanto aspira."*  
@@ -418,6 +454,9 @@ As lacunas da frase acima são correta e respectivamente preenchidas por:
 * **C)** ao qual – cuja a
 * **D)** de que – que a
 * **E)** a que – cuja a
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -431,8 +470,9 @@ As lacunas da frase acima são correta e respectivamente preenchidas por:
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 5. Regência Nominal de Substantivos e Adjetivos
@@ -458,7 +498,7 @@ O complemento nominal completa o sentido passivo de uma palavra que, por si só,
 * **Respeito a / por:** *"O respeito à dignidade humana e pelas leis."*
 
 
-### Questão 07
+### Teste 048
 **(FCC – METRÔ-SP – Advogado)**  
 Considere as lacunas no período seguinte:  
 *"A conduta do servidor público deve ser sempre compatível __________ a dignidade da função; suas manifestações técnicas não podem ser alheias __________ preceitos constitucionais, devendo o parecer mostrar-se atinente __________ matérias estritamente submetidas à sua apreciação."*
@@ -471,6 +511,9 @@ As preposições que preenchem correta e respectivamente as lacunas da frase sã
 * **D)** por – para os – nas
 * **E)** com – dos – pelas
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **1ª lacuna:** O adjetivo *compatível* rege legitimamente a preposição **com** (*compatível com a dignidade*).
@@ -480,9 +523,10 @@ As preposições que preenchem correta e respectivamente as lacunas da frase sã
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 6. Teoria Geral e Emprego do Sinal Indicativo de Crase
 
@@ -538,7 +582,7 @@ O emprego do sinal indicativo de crase é estritamente vedado nos seguintes cont
 
 ---
 
-### Questão 08
+### Teste 049
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Assinale a frase em que o sinal indicativo de crase está empregado em **estrita conformidade** com a norma culta:
 
@@ -547,6 +591,9 @@ Assinale a frase em que o sinal indicativo de crase está empregado em **estrita
 * **C)** *"Os auditores permaneceram frente à frente com os gestores investigados durante o depoimento."*
 * **D)** *"O recurso ordinário foi remetido diretamente àquela diretoria responsável pela fiscalização de obras."*
 * **E)** *"O presidente do órgão concedeu audiência à um grupo de manifestantes da área de saúde."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -579,7 +626,7 @@ Assinale a frase em que o sinal indicativo de crase está empregado em **estrita
 
 ---
 
-### Questão 09
+### Teste 050
 **(FCC – DPE-RS – Analista Processual)**  
 O sinal indicativo de crase está empregado em estrita observância à norma-padrão em:
 
@@ -588,6 +635,9 @@ O sinal indicativo de crase está empregado em estrita observância à norma-pad
 * **C)** O presidente do tribunal comunicou o resultado à Vossa Excelência durante a reunião do conselho.
 * **D)** À medida que os documentos contábeis eram analisados, as fraudes vinham à tona de forma irrefutável.
 * **E)** O auditor entregou o parecer à um de seus assessores diretos logo após o almoço.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -628,7 +678,7 @@ Ocorre a fusão da preposição *a* (exigida por regência verbal ou nominal) co
 * *referir-se + a + aquilo* $\rightarrow$ *"O relator referiu-se **àquilo** que constava nos laudos."*
 
 
-### Questão 10
+### Teste 051
 **(FCC – TRT-14 – Analista Judiciário)**  
 Considere as frases a seguir no tocante ao emprego do acento indicativo de crase:  
 
@@ -645,6 +695,9 @@ O uso do sinal indicativo de crase é FACULTATIVO em:
 * **D)** II, apenas.
 * **E)** III e IV, apenas.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **Item I:** Incorreto para o enunciado. Quem faz menção, faz menção *a* algo (preposição obrigatória). O pronome demonstrativo *aquela* inicia-se pela letra *a*. A fusão da preposição com o *a* inicial de *aquela* resulta em crase **obrigatória** (*àquela*), e não facultativa.
@@ -655,9 +708,10 @@ O uso do sinal indicativo de crase é FACULTATIVO em:
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

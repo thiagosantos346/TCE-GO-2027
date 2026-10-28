@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `03_cadeia_de_valor_bsc_e_execucao_estrategica.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - A Cadeia de Valor de Michael Porter:
@@ -21,16 +24,32 @@
     - O Escritório de Gestão Estratégica (EGE / PMO institucional);
     - Reuniões de Avaliação da Estratégia (RAE) e governança do Plano Estratégico do TCE-GO.
 
----
 
-## 🧭 Sumário Interativo
-- [1. A Cadeia de Valor de Michael Porter](#1-a-cadeia-de-valor-de-michael-porter)
-- [2. O Desdobramento da Estratégia (*Cascading*) pelo BSC](#2-o-desdobramento-da-estrategia-cascading-pelo-bsc)
-- [3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)](#3-as-quatro-barreiras-a-execucao-da-estrategia-kaplan-e-norton)
-- [4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)](#4-escritorio-de-gestao-estrategica-ege-e-reunioes-de-avaliacao-rae)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [A Cadeia de Valor de Michael Porter](#1-a-cadeia-de-valor-de-michael-porter)
+    2. [Teste 390](#Teste-390)
+    3. [Teste 391](#Teste-391)
+    4. [Teste 392](#Teste-392)
+    5. [O Desdobramento da Estratégia (*Cascading*) pelo BSC](#2-o-desdobramento-da-estrategia-cascading-pelo-bsc)
+    6. [Teste 393](#Teste-393)
+    7. [Teste 394](#Teste-394)
+    8. [As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)](#3-as-quatro-barreiras-a-execucao-da-estrategia-kaplan-e-norton)
+    9. [Teste 395](#Teste-395)
+    10. [Teste 396](#Teste-396)
+    11. [Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)](#4-escritorio-de-gestao-estrategica-ege-e-reunioes-de-avaliacao-rae)
+    12. [Teste 397](#Teste-397)
+    13. [Teste 398](#Teste-398)
+    14. [Teste 399](#Teste-399)
+    15. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -75,7 +94,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Teste 390
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Segundo a teoria da Cadeia de Valor concebida por Michael Porter, as atividades organizacionais dividem-se em atividades primárias e atividades de apoio (suporte). Dentre as alternativas a seguir, assinale a que apresenta unicamente Atividades de Apoio:
 
@@ -84,6 +103,9 @@ Segundo a teoria da Cadeia de Valor concebida por Michael Porter, as atividades 
 * **C)** Gestão de recursos humanos, desenvolvimento tecnológico e aquisições (compras).
 * **D)** Operações fabris, compras de matéria-prima e distribuição comercial.
 * **E)** Logística interna, assistência técnica a clientes e recursos humanos.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -97,7 +119,7 @@ Segundo a teoria da Cadeia de Valor concebida por Michael Porter, as atividades 
 
 ---
 
-### Questão 02
+### Teste 391
 **(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
 No âmbito da administração pública gerencial, a aplicação da teoria da Cadeia de Valor exige a transposição dos conceitos originalmente desenhados para empresas mercantis privadas. Em um Tribunal de Contas estadual, a atividade primária correspondente ao processamento interno das fiscalizações, análise documental de contratos e elaboração de relatórios técnicos de auditoria é categorizada como:
 
@@ -106,6 +128,9 @@ No âmbito da administração pública gerencial, a aplicação da teoria da Cad
 * **C)** Operações (Transformação).
 * **D)** Aquisições e Suprimentos.
 * **E)** Logística Externa de Distribuição.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -134,7 +159,8 @@ No setor público, a "Margem de Lucro Privada" é convertida no conceito fundame
 
 ---
 
-### Questão 03 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 392
+**(FCC - Adaptada / Analista de Gestão Pública)**
 Na Cadeia de Valor de Michael Porter, as atividades empresariais e organizacionais são rigorosamente classificadas em Atividades Primárias e Atividades de Apoio (ou Suporte).
 
 Constitui típica **Atividade Primária** da Cadeia de Valor:
@@ -144,6 +170,9 @@ Constitui típica **Atividade Primária** da Cadeia de Valor:
 * **C)** Desenvolvimento de Tecnologia e Pesquisa (P&D).
 * **D)** Infraestrutura da Empresa (planejamento, contabilidade, finanças e assessoria jurídica).
 * **E)** Aquisição / Compras de suprimentos corporativos gerais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -188,7 +217,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Teste 393
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard (BSC), a metodologia exige a articulação harmônica de quatro componentes operacionais para garantir a efetividade da execução. A associação correta entre o componente do BSC e sua respectiva definição é:
 
@@ -197,6 +226,9 @@ No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard 
 * **C)** Meta: o projeto inovador financiado pela alta direção para criar novas unidades físicas.
 * **D)** Iniciativa Estratégica: o valor numérico fixo que expressa o grau de incerteza do ambiente externo.
 * **E)** Mapa Estratégico: o documento contábil que consolida a execução orçamentária do exercício anterior.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -212,7 +244,8 @@ No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard 
 
 
 
-### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 394
+**(FCC - Adaptada / Auditor de Controle Externo)**
 No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard, a técnica denominada **Cascading** (Estratégia em Cascata) tem por objetivo central:
 
 * **A)** Desdobrar e traduzir os objetivos, metas e indicadores corporativos do nível estratégico para os níveis tático e operacional, alinhando as diretorias setoriais, gerências e equipes individuais à estratégia mestre da organização.
@@ -220,6 +253,9 @@ No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard,
 * **C)** Concentrar todas as decisões de compras na presidência da comissão permanente de licitação.
 * **D)** Impor a demissão periódica de 10% dos servidores com pior produtividade mecânica.
 * **E)** Substituir os sistemas de gestão eletrônica de processos por formulários impressos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -255,7 +291,7 @@ flowchart TD
 
 ---
 
-### Questão 06
+### Teste 395
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 No contexto do alinhamento organizacional e desdobramento da estratégia pelo Balanced Scorecard (BSC), Robert Kaplan e David Norton identificaram as principais barreiras que impedem a execução eficaz dos planos estratégicos nas instituições. A constatação empírica de que a imensa maioria dos orçamentos financeiros e dos planos anuais de compras não guarda conexão direta com as prioridades e iniciativas definidas no plano estratégico de longo prazo tipifica a:
 
@@ -264,6 +300,9 @@ No contexto do alinhamento organizacional e desdobramento da estratégia pelo Ba
 * **C)** Barreira dos recursos.
 * **D)** Barreira da gestão.
 * **E)** Barreira cultural mecanicista.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -279,7 +318,8 @@ No contexto do alinhamento organizacional e desdobramento da estratégia pelo Ba
 
 
 
-### Questão 07 (FCC - Adaptada / Analista de Planejamento e Gestão)
+### Teste 396
+**(FCC - Adaptada / Analista de Planejamento e Gestão)**
 Kaplan e Norton identificaram as quatro barreiras primordiais que impedem a execução eficaz das estratégias organizacionais nas instituições.
 
 A barreira que ocorre quando a alta direção formula a estratégia, mas não a comunica nem a torna compreensível para os servidores e colaboradores que executam os serviços cotidianos na ponta da linha é denominada:
@@ -289,6 +329,9 @@ A barreira que ocorre quando a alta direção formula a estratégia, mas não a 
 * **C)** Barreira da Gestão.
 * **D)** Barreira dos Recursos.
 * **E)** Barreira Orçamentária Externa.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -309,7 +352,7 @@ Para romper as barreiras de execução, a governança pública moderna institui 
 
 ---
 
-### Questão 08
+### Teste 397
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 Com o propósito de assegurar a governança e a implementação efetiva de seu plano estratégico, determinado órgão público instituiu uma unidade permanente denominada Escritório de Gestão Estratégica (EGE) e fixou Reuniões de Avaliação da Estratégia (RAE) com periodicidade bimestral. A finalidade precípua das RAEs é:
 
@@ -318,6 +361,9 @@ Com o propósito de assegurar a governança e a implementação efetiva de seu p
 * **C)** Redigir pareceres jurídicos conclusivos sobre recursos administrativos de servidores subalternos.
 * **D)** Proceder ao inventário físico anual de bens móveis e equipamentos de informática do almoxarifado.
 * **E)** Julgar as contas anuais de governo encaminhadas pelos prefeitos municipais ao parlamento.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -333,7 +379,8 @@ Com o propósito de assegurar a governança e a implementação efetiva de seu p
 
 
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 398
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na governança estratégica moderna dos órgãos públicos (como no TCE-GO), as **Reuniões de Avaliação da Estratégia (RAE)** desempenham papel crucial na governança executiva.
 
 O propósito primordial das RAEs é:
@@ -344,6 +391,9 @@ O propósito primordial das RAEs é:
 * **D)** Redigir pareceres jurídicos para aprovação de editais de concurso público.
 * **E)** Conceder recesso administrativo remunerado aos membros dos comitês executivos.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. As **Reuniões de Avaliação da Estratégia (RAE)** reúnem periodicamente a alta administração e os líderes de projetos para revisar o mapa estratégico, analisar se os indicadores estão atingindo as metas e tomar decisões corretivas para destravar projetos estratégicos prioritários.
@@ -353,7 +403,8 @@ O propósito primordial das RAEs é:
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 399
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 No âmbito dos Tribunais de Contas, o **Escritório de Gestão Estratégica (EGE)** atua como unidade técnica de apoio à governança corporativa.
 
 Dentre as atribuições típicas do EGE em uma corte de contas, destaca-se:
@@ -363,6 +414,9 @@ Dentre as atribuições típicas do EGE em uma corte de contas, destaca-se:
 * **C)** Fiscalizar in loco as obras de construção civil e realizar medições de asfalto em rodovias estaduais.
 * **D)** Gerenciar a segurança armada e o policiamento ostensivo das portarias do prédio sede.
 * **E)** Substituir os Conselheiros titulares do Tribunal em caso de vacância definitiva do cargo.
+
+
+---
 
 > **Comentário Detalhado:**
 >

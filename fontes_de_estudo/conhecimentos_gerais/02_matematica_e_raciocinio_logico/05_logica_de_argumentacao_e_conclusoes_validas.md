@@ -5,7 +5,10 @@
 > **Arquivo:** `05_logica_de_argumentacao_e_conclusoes_validas.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas.
@@ -14,31 +17,46 @@
 - Argumentos dedutivos, premissas, conclusão e validade.
 - Silogismos categóricos e diagramas lógicos (Todo, Algum, Nenhum).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Proposições Lógicas, Princípios e Conectivos Fundamentais](#1-proposicoes-logicas-principios-e-conectivos-fundamentais)
-    - [1.1 Definição de Proposição e Sentenças Não Proposicionais](#11-definicao-de-proposicao-e-sentencas-nao-proposicionais)
-    - [1.2 Os Três Princípios Fundamentais da Lógica Clássica](#12-os-tres-principios-fundamentais-da-logica-classica)
-    - [1.3 Conectivos Lógicos e Regras da Tabela-Verdade](#13-conectivos-logicos-e-regras-da-tabela-verdade)
-    - [1.4 A Condicional: Peculiaridades e o Caso Falso Único](#14-a-condicional-peculiaridades-e-o-caso-falso-unico)
-- [2. Álgebra Proposicional: Negações e Equivalências Clássicas](#2-algebra-proposicional-negacoes-e-equivalencias-classicas)
-    - [2.1 Leis de De Morgan para Conjunção e Disjunção](#21-leis-de-de-morgan-para-conjuncao-e-disjuncao)
-    - [2.2 Negação da Condicional e a Regra do MANÉ](#22-negacao-da-condicional-e-a-regra-do-mane)
-    - [2.3 Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)](#23-equivalencias-notaveis-da-condicional-contrapositiva-e-disjuntiva-neya)
-    - [2.4 Tautologias, Contradições e Contingências](#24-tautologias-contradicoes-e-contingencias)
-- [3. Validade de Argumentos Dedutivos e Regras de Inferência](#3-validade-de-argumentos-dedutivos-e-regras-de-inferencia)
-    - [3.1 Estrutura do Argumento: Premissas e Conclusão](#31-estrutura-do-argumento-premissas-e-conclusao)
-    - [3.2 Conceito Formal de Validade vs. Verdade Empírica](#32-conceito-formal-de-validade-vs-verdade-empirica)
-    - [3.3 Principais Regras de Inferência Válidas](#33-principais-regras-de-inferencia-validas)
-    - [3.4 O Método do Encadeamento de Premissas Verdadeiras](#34-o-metodo-do-encadeamento-de-premissas-verdadeiras)
-- [4. Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos](#4-logica-de-primeira-ordem-quantificadores-e-silogismos-categoricos)
-    - [4.1 Quantificadores Universais e Existenciais: Todo, Nenhum e Algum](#41-quantificadores-universais-e-existenciais-todo-nenhum-e-algum)
-    - [4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO](#42-negacao-de-proposicoes-categoricas-e-a-mnemonica-pea-nao)
-    - [4.3 Análise de Silogismos via Diagramas de Euler-Venn](#43-analise-de-silogismos-via-diagramas-de-euler-venn)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Proposições Lógicas, Princípios e Conectivos Fundamentais](#1-proposicoes-logicas-principios-e-conectivos-fundamentais)
+    1. [Definição de Proposição e Sentenças Não Proposicionais](#11-definicao-de-proposicao-e-sentencas-nao-proposicionais)
+    2. [Os Três Princípios Fundamentais da Lógica Clássica](#12-os-tres-principios-fundamentais-da-logica-classica)
+    3. [Conectivos Lógicos e Regras da Tabela-Verdade](#13-conectivos-logicos-e-regras-da-tabela-verdade)
+    4. [A Condicional: Peculiaridades e o Caso Falso Único](#14-a-condicional-peculiaridades-e-o-caso-falso-unico)
+    5. [Teste 112](#Teste-112)
+    6. [Teste 113](#Teste-113)
+2. [Álgebra Proposicional: Negações e Equivalências Clássicas](#2-algebra-proposicional-negacoes-e-equivalencias-classicas)
+    1. [Leis de De Morgan para Conjunção e Disjunção](#21-leis-de-de-morgan-para-conjuncao-e-disjuncao)
+    2. [Negação da Condicional e a Regra do MANÉ](#22-negacao-da-condicional-e-a-regra-do-mane)
+    3. [Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)](#23-equivalencias-notaveis-da-condicional-contrapositiva-e-disjuntiva-neya)
+    4. [Teste 114](#Teste-114)
+    5. [Teste 115](#Teste-115)
+    6. [Tautologias, Contradições e Contingências](#24-tautologias-contradicoes-e-contingencias)
+    7. [Teste 116](#Teste-116)
+3. [Validade de Argumentos Dedutivos e Regras de Inferência](#3-validade-de-argumentos-dedutivos-e-regras-de-inferencia)
+    1. [Estrutura do Argumento: Premissas e Conclusão](#31-estrutura-do-argumento-premissas-e-conclusao)
+    2. [Conceito Formal de Validade vs. Verdade Empírica](#32-conceito-formal-de-validade-vs-verdade-empirica)
+    3. [Principais Regras de Inferência Válidas](#33-principais-regras-de-inferencia-validas)
+    4. [Teste 117](#Teste-117)
+    5. [O Método do Encadeamento de Premissas Verdadeiras](#34-o-metodo-do-encadeamento-de-premissas-verdadeiras)
+    6. [Teste 118](#Teste-118)
+4. [Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos](#4-logica-de-primeira-ordem-quantificadores-e-silogismos-categoricos)
+    1. [Quantificadores Universais e Existenciais: Todo, Nenhum e Algum](#41-quantificadores-universais-e-existenciais-todo-nenhum-e-algum)
+    2. [Negação de Proposições Categóricas e a Mnemônica PEA + NÃO](#42-negacao-de-proposicoes-categoricas-e-a-mnemonica-pea-nao)
+    3. [Teste 119](#Teste-119)
+    4. [Análise de Silogismos via Diagramas de Euler-Venn](#43-analise-de-silogismos-via-diagramas-de-euler-venn)
+    5. [Teste 120](#Teste-120)
+    6. [Teste 121](#Teste-121)
+5. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Proposições Lógicas, Princípios e Conectivos Fundamentais
 
@@ -98,7 +116,7 @@ A condicional $p \rightarrow q$ é a estrutura que mais induz candidatos a erro.
 * Em qualquer outro caso ($V \rightarrow V$, $F \rightarrow V$, $F \rightarrow F$), **a condicional é necessariamente VERDADEIRA**. Note que, se a primeira parte for falsa, a condicional já é automaticamente verdadeira, independentemente do que venha depois.
 
 
-### Questão 01
+### Teste 112
 **(FCC – TRT-23 – Analista Judiciário)**  
 Considere as seguintes frases:  
 
@@ -115,6 +133,9 @@ De acordo com os princípios da lógica clássica proposicional, classifica-se c
 * **D)** I e III.
 * **E)** II e IV.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **Conceito de Proposição Lógica:** É toda sentença declarativa que exprime um pensamento de sentido completo e à qual se pode atribuir com certeza, e de forma exclusiva, um valor de verdade (Verdadeiro ou Falso), respeitando os princípios da Identidade, Não Contradição e Terceiro Excluído.  
@@ -130,7 +151,7 @@ De acordo com os princípios da lógica clássica proposicional, classifica-se c
 ---
 
 
-### Questão 02
+### Teste 113
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 A negação lógica da proposição composta:  
 *"Se o auditor encontra irregularidades nas contas, então o gestor público é multado e a prestação de contas é reprovada"*  
@@ -141,6 +162,9 @@ A negação lógica da proposição composta:
 * **C)** O auditor não encontra irregularidades nas contas e o gestor público não é multado e a prestação de contas não é reprovada.
 * **D)** Se o gestor público não é multado e a prestação de contas não é reprovada, então o auditor não encontrou irregularidades.
 * **E)** O auditor encontra irregularidades nas contas e o gestor público não é multado e a prestação de contas é reprovada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -162,9 +186,10 @@ A negação lógica da proposição composta:
 >
 > **Gabarito: A**
 
----
+
 
 ---
+
 
 ## 2. Álgebra Proposicional: Negações e Equivalências Clássicas
 
@@ -204,7 +229,7 @@ A FCC explora intensamente duas formas canônicas de reescrever a condicional $p
 
 ---
 
-### Questão 03
+### Teste 114
 **(FCC – Auditor Fiscal da Receita – Adaptada TCE-GO)**  
 Considere a seguinte afirmação feita por um auditor durante a sessão do Tribunal de Contas:
 
@@ -217,6 +242,9 @@ A negação lógica dessa afirmação é expressa por:
 * **C)** A prestação de contas não foi apresentada tempestivamente, ou a documentação comprobatória é idônea e o parecer técnico é favorável.
 * **D)** Se a documentação comprobatória não é idônea ou o parecer técnico não é favorável, então a prestação de contas não foi apresentada tempestivamente.
 * **E)** A prestação de contas foi apresentada tempestivamente, e a documentação comprobatória não é idônea e o parecer técnico não é favorável.
+
+
+---
 
 > **Comentário Detalhado:**
 > Formalização simbólica e aplicação das leis lógicas:
@@ -247,7 +275,7 @@ A negação lógica dessa afirmação é expressa por:
 
 ---
 
-### Questão 04
+### Teste 115
 **(FCC – TCE-GO – Técnico de Controle Externo)**  
 Do ponto de vista da lógica formal, a proposição:  
 *"Se o servidor público observa o princípio da moralidade, então sua conduta administrativa é inatacável"*  
@@ -258,6 +286,9 @@ Do ponto de vista da lógica formal, a proposição:
 * **C)** O servidor público não observa o princípio da moralidade ou sua conduta administrativa é inatacável.
 * **D)** O servidor público observa o princípio da moralidade e sua conduta administrativa não é inatacável.
 * **E)** Se a conduta administrativa do servidor não for inatacável, então ele observa o princípio da moralidade.
+
+
+---
 
 > **Comentário Detalhado:**
 > Análise das leis de equivalência da condicional $p \rightarrow q$:
@@ -292,7 +323,7 @@ Do ponto de vista da lógica formal, a proposição:
 * **Contingência:** Proposição composta cuja tabela-verdade apresenta pelo menos um valor verdadeiro e pelo menos um valor falso.
 
 
-### Questão 05
+### Teste 116
 **(FCC – DPE-RS – Analista)**  
 Dadas duas proposições simples $p$ e $q$, a proposição composta:  
 $$[(p \rightarrow q) \land p] \rightarrow q$$  
@@ -303,6 +334,9 @@ classifica-se logicamente como uma:
 * **C)** Tautologia, pois assume invariavelmente o valor verdadeiro para todas as combinações de valores lógicos de suas proposições componentes.
 * **D)** Falácia da afirmação do consequente.
 * **E)** Equivalência lógica bidirecional contingente.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -319,9 +353,10 @@ classifica-se logicamente como uma:
 >
 > **Gabarito: C**
 
----
+
 
 ---
+
 
 ## 3. Validade de Argumentos Dedutivos e Regras de Inferência
 
@@ -354,7 +389,7 @@ Representa-se simbolicamente por: $P_1, P_2, \dots, P_n \vdash C$.
 
 ---
 
-### Questão 06
+### Teste 117
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Considere verdadeiras as seguintes quatro premissas a respeito das rotinas de controle do Tribunal:
 
@@ -373,6 +408,9 @@ A partir dessas premissas, é correto concluir de forma necessariamente válida 
 * **C)** O contrato administrativo não possui cláusula de reajuste abusiva e a auditoria não emitiu notificação prévia.
 * **D)** A empresa contratada apresentou recurso extemporâneo ao plenário.
 * **E)** Se o contrato não possui cláusula abusiva, então o ordenador suspendeu o pagamento.
+
+
+---
 
 > **Comentário Detalhado:**
 > Dedução formal por encadeamento retroativo (*Modus Tollens*):
@@ -417,7 +455,7 @@ O método prático para resolver questões com múltiplas premissas condicionais
 4. As conclusões verdadeiras necessárias deduzidas correspondem à alternativa correta.
 
 
-### Questão 07
+### Teste 118
 **(FCC – METRÔ-SP – Analista)**  
 Considere verdadeiras as seguintes premissas:  
 1. *Se o certame é homologado, então os concursados são nomeados.*  
@@ -431,6 +469,9 @@ A partir dessas premissas, deduz-se corretamente que:
 * **C)** O certame não foi homologado e os concursados não foram nomeados.
 * **D)** O certame foi homologado, mas novas vagas não foram preenchidas.
 * **E)** Nenhuma conclusão válida pode ser extraída a partir dessas premissas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -446,9 +487,10 @@ A partir dessas premissas, deduz-se corretamente que:
 >
 > **Gabarito: C**
 
----
+
 
 ---
+
 
 ## 4. Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos
 
@@ -488,7 +530,7 @@ Para negar uma proposição quantificada, deve-se alternar o tipo de quantificad
 
 ---
 
-### Questão 08
+### Teste 119
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A afirmação *"Todos os relatórios elaborados pela comissão técnica continham recomendações aos municípios"* tem como **negação lógica** a proposição:
 
@@ -497,6 +539,9 @@ A afirmação *"Todos os relatórios elaborados pela comissão técnica continha
 * **C)** Pelo menos um relatório elaborado pela comissão técnica não continha recomendações aos municípios.
 * **D)** Alguns relatórios elaborados pela comissão técnica continham recomendações aos municípios.
 * **E)** A maioria dos relatórios continha recomendações aos municípios.
+
+
+---
 
 > **Comentário Detalhado:**
 > Análise da negação de proposições universais afirmativas:
@@ -535,7 +580,7 @@ Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Alg
 
 ---
 
-### Questão 09
+### Teste 120
 **(FCC – TRT – Analista Judiciário)**  
 Considere como verdadeiras as seguintes duas premissas a respeito dos membros de um tribunal:
 
@@ -549,6 +594,9 @@ A partir dessas premissas, é **necessariamente** correto concluir que:
 * **C)** Nenhum auditor de controle externo é professor universitário.
 * **D)** Pelo menos um auditor de controle externo não é especialista em finanças públicas.
 * **E)** Pode haver auditor de controle externo que seja professor universitário, mas não é uma conclusão necessária.
+
+
+---
 
 > **Comentário Detalhado:**
 > Modelagem geométrica por Diagramas de Euler-Venn:
@@ -571,7 +619,7 @@ A partir dessas premissas, é **necessariamente** correto concluir que:
 > **Gabarito: E**
 
 
-### Questão 10
+### Teste 121
 **(FCC – TRT-14 – Analista Judiciário)**  
 Considere que as seguintes premissas são verdadeiras:  
 1. *Todos os auditores de controle externo são servidores dedicados.*  
@@ -584,6 +632,9 @@ Com base estritamente nessas duas premissas, é necessariamente correto concluir
 * **C)** Pelo menos um auditor de controle externo é especialista em tecnologia da informação.
 * **D)** É possível que nenhum auditor de controle externo seja especialista em tecnologia da informação.
 * **E)** Todos os especialistas em tecnologia da informação são auditores de controle externo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -599,10 +650,9 @@ Com base estritamente nessas duas premissas, é necessariamente correto concluir
 >
 > **Gabarito: D**
 
----
+
 
 ---
-
 
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas

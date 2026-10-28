@@ -5,7 +5,10 @@
 > **Arquivo:** `02_direitos_e_garantias_fundamentais_e_politicos.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -17,31 +20,34 @@
 - Perda e suspensão dos direitos políticos (Artigo 15 da CF/88): vedação absoluta de cassação e hipóteses constitucionais taxativas.
 - Dos partidos políticos (Artigo 17 da CF/88): preceitos constitucionais, cláusula de barreira, financiamento e autonomia partidária.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)](#1-teoria-geral-e-direitos-individuais-e-coletivos-art-5o-da-cf88)
-    - [1.1 Características Fundamentais e Dimensões de Eficácia](#11-caracteristicas-fundamentais-e-dimensoes-de-eficacia)
-    - [1.2 Inviolabilidade do Domicílio (Art. 5º, XI)](#12-inviolabilidade-do-domicilio-art-5o-xi)
-    - [1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)](#13-inviolabilidade-das-comunicacoes-e-reserva-de-jurisdicao-art-5o-xii)
-    - [1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)](#14-liberdade-de-associacao-e-limites-estatais-art-5o-xvii-a-xxi)
-    - [1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC](#15-tratamento-constitucional-dos-crimes-o-quarteto-penal-da-fcc)
-- [2. Remédios Constitucionais (Writs de Garantia)](#2-remedios-constitucionais-writs-de-garantia)
-    - [2.1 Análise Comparativa dos Remédios Constitucionais](#21-analise-comparativa-dos-remedios-constitucionais)
-- [3. Direitos Sociais (Arts. 6º a 11)](#3-direitos-sociais-arts-6o-a-11)
-- [4. Teoria da Nacionalidade e a Nova Disciplina da Perda (Arts. 12 e 13)](#4-teoria-da-nacionalidade-e-a-nova-disciplina-da-perda-arts-12-e-13)
-    - [4.1 Espécies de Nacionalidade Originária (Brasileiro Nato)](#41-especies-de-nacionalidade-originaria-brasileiro-nato)
-    - [4.2 Brasileiro Naturalizado](#42-brasileiro-naturalizado)
-    - [4.3 Cargos Privativos de Brasileiro Nato (Art. 12, § 3º - MP3.COM)](#43-cargos-privativos-de-brasileiro-nato-art-12-3o-mp3com)
-    - [4.4 Perda da Nacionalidade: O Novo Regime da EC nº 131/2023](#44-perda-da-nacionalidade-o-novo-regime-da-ec-no-1312023)
-- [5. Direitos Políticos e Sistema Partidário (Arts. 14 a 17)](#5-direitos-politicos-e-sistema-partidario-arts-14-a-17)
-    - [5.1 Alistamento Eleitoral e Voto](#51-alistamento-eleitoral-e-voto)
-    - [5.2 Idades Mínimas de Elegibilidade (Capacidade Eleitoral Passiva)](#52-idades-minimas-de-elegibilidade-capacidade-eleitoral-passiva)
-    - [5.3 Inelegibilidade Reflexa (Art. 14, § 7º) e Súmula Vinculante 18](#53-inelegibilidade-reflexa-art-14-7o-e-sumula-vinculante-18)
-    - [5.4 Perda e Suspensão dos Direitos Políticos (Art. 15 da CF/88)](#54-perda-e-suspensao-dos-direitos-politicos-art-15-da-cf88)
-- [6. Fontes Oficiais & Doutrinárias Recomendadas](#fontes-oficiais-doutrinarias-recomendadas)
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)](#1-teoria-geral-e-direitos-individuais-e-coletivos-art-5o-da-cf88)
+    2. [Teste 121](#Teste-121)
+    3. [Teste 122](#Teste-122)
+    4. [Teste 123](#Teste-123)
+    5. [Remédios Constitucionais (*Writs* de Garantia)](#remedios-constitucionais-writs-de-garantia)
+    6. [Teste 124](#Teste-124)
+    7. [Teste 125](#Teste-125)
+    8. [Direitos Sociais (Arts. 6º a 11)](#3-direitos-sociais-arts-6o-a-11)
+    9. [Teste 126](#Teste-126)
+    10. [Teoria da Nacionalidade e a Nova Disciplina da Perda (Arts. 12 e 13)](#4-teoria-da-nacionalidade-e-a-nova-disciplina-da-perda-arts-12-e-13)
+    11. [Teste 127](#Teste-127)
+    12. [Teste 128](#Teste-128)
+    13. [Teste 129](#Teste-129)
+    14. [Direitos Políticos e Sistema Partidário (Arts. 14 a 17)](#5-direitos-politicos-e-sistema-partidario-arts-14-a-17)
+    15. [Teste 130](#Teste-130)
+    16. [Teste 131](#Teste-131)
+2. [Fontes Oficiais & Doutrinárias Recomendadas](#fontes-oficiais-doutrinarias-recomendadas)
 
 ---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -88,7 +94,8 @@ flowchart TD
 
 
 
-### Questão 01 (FCC - Analista Judiciário - Área Judiciária)
+### Teste 121
+**(FCC - Analista Judiciário - Área Judiciária)**
 A Constituição Federal de 1988 consagra, em seu art. 5º, XI, que 'a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial'.
 
 Sobre a interpretação dada a essa garantia fundamental pelo Supremo Tribunal Federal (Tema 280 de Repercussão Geral), assinale a afirmativa correta.
@@ -98,6 +105,9 @@ Sobre a interpretação dada a essa garantia fundamental pelo Supremo Tribunal F
 * **C)** O conceito constitucional de 'casa' abrange unicamente residências habitadas de forma definitiva por famílias, excluindo quartos de hotel ocupados e escritórios profissionais.
 * **D)** A determinação judicial autoriza a invasão domiciliar por agentes policiais a qualquer hora da noite sem consentimento do morador.
 * **E)** Fiscais tributários e auditores de controle externo podem ingressar em domicílio privado durante o dia com base em seu poder de polícia, independentemente de autorização judicial.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -111,7 +121,8 @@ Sobre a interpretação dada a essa garantia fundamental pelo Supremo Tribunal F
 
 ---
 
-### Questão 02 (FCC - Adaptada / Procuradoria Municipal)
+### Teste 122
+**(FCC - Adaptada / Procuradoria Municipal)**
 Com base na jurisprudência pacificada do Supremo Tribunal Federal e no texto da Constituição Federal de 1988 a respeito dos direitos e garantias individuais, analise as afirmativas a seguir:
 
 I. A dissolução da sociedade conjugal no curso do mandato do Chefe do Poder Executivo cessa imediatamente a inelegibilidade reflexa de seu ex-cônjuge para concorrer a mandato eletivo no mesmo município na eleição seguinte.  
@@ -127,6 +138,9 @@ Está correto o que se afirma em:
 * **C)** I e III, apenas.
 * **D)** I, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -145,7 +159,8 @@ Está correto o que se afirma em:
 
 
 
-### Questão 03 (FGV - Auditor Fiscal da Receita Estadual)
+### Teste 123
+**(FGV - Auditor Fiscal da Receita Estadual)**
 O art. 5º, XII, da Constituição Federal estabelece que 'é inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal'.
 
 À luz do texto constitucional e da jurisprudência do STF, assinale a afirmativa correta.
@@ -155,6 +170,9 @@ O art. 5º, XII, da Constituição Federal estabelece que 'é inviolável o sigi
 * **C)** O sigilo fiscal e bancário é absoluto, sendo vedado à Receita Federal e ao Tribunal de Contas ter acesso a dados financeiros mesmo nos termos da Lei Complementar nº 105/2001.
 * **D)** A gravação clandestina realizada por um dos interlocutores sem o conhecimento do outro é considerada prova ilícita em qualquer circunstância.
 * **E)** A interceptação telefônica pode ser autorizada sem prazo fixado, perdurando por tempo indeterminado a critério do delegado de polícia.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -249,7 +267,8 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Adaptada / Analista Judiciário)
+### Teste 124
+**(FCC - Adaptada / Analista Judiciário)**
 Determinado servidor público estadual lotado no Tribunal de Contas teve ciência de que existem registros funcionais desabonadores a seu respeito nos bancos de dados informatizados de caráter público do órgão, contendo incorreções fáticas quanto à apuração de sua assiduidade e conduta funcional. O servidor formulou requerimento formal solicitando a retificação de seus dados cadastrais, pedido que foi expressamente indeferido pela autoridade administrativa sem qualquer fundamentação jurídica plausível.
 
 Diante da recusa administrativa formal, o instrumento processual constitucional adequado, cabível e gratuito para assegurar a retificação desses dados perante o Poder Judiciário é o:
@@ -259,6 +278,9 @@ Diante da recusa administrativa formal, o instrumento processual constitucional 
 * **C)** Mandado de Injunção, em virtude da omissão do órgão público em editar portaria disciplinadora do assentamento funcional.
 * **D)** Ação Popular, promovida pelo servidor em face da autoridade coatora com pedido de indenização civil por danos morais.
 * **E)** Habeas Corpus, haja vista que a inserção de anotações incorretas tolhe indiretamente a liberdade de locomoção do servidor público.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -274,7 +296,8 @@ Diante da recusa administrativa formal, o instrumento processual constitucional 
 
 
 
-### Questão 05 (FCC - Procurador do Estado / Adaptada)
+### Teste 125
+**(FCC - Procurador do Estado / Adaptada)**
 A respeito dos remédios constitucionais, compare a disciplina do Mandado de Injunção (art. 5º, LXXI, e Lei nº 13.300/2016) e do Habeas Data (art. 5º, LXXII, e Lei nº 9.507/1997).
 
 Assinale a afirmativa correta.
@@ -284,6 +307,9 @@ Assinale a afirmativa correta.
 * **C)** Conceder-se-á mandado de injunção sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.
 * **D)** A impetração de habeas data está sujeita ao pagamento prévio de custas processuais fixadas pelo regimento interno do tribunal.
 * **E)** O mandado de injunção não admite a modalidade coletiva, sendo ação personalíssima e de titularidade estritamente individual.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -317,7 +343,8 @@ Assinale a afirmativa correta.
 
 
 
-### Questão 06 (FGV - Analista de Controle Externo / TCE-GO)
+### Teste 126
+**(FGV - Analista de Controle Externo / TCE-GO)**
 Os Direitos Sociais encontram-se insculpidos no art. 6º da Constituição da República de 1988, integrando o núcleo dos direitos fundamentais de segunda dimensão (prestações positivas do Estado).
 
 Sobre a disciplina jurídica dos direitos sociais e a jurisprudência constitucional, assinale a afirmativa correta.
@@ -327,6 +354,9 @@ Sobre a disciplina jurídica dos direitos sociais e a jurisprudência constituci
 * **C)** O princípio da reserva do possível autoriza o gestor público a descumprir o mínimo existencial de saúde e educação sem qualquer justificativa orçamentária ou técnica.
 * **D)** O direito de greve dos servidores públicos civis (art. 37, VII) é autoaplicável e prescinde de qualquer integração legislativa ou analogia.
 * **E)** Os direitos trabalhistas previstos no art. 7º da CF/88 não admitem qualquer flexibilização por negociação coletiva de trabalho.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -375,7 +405,8 @@ flowchart TD
 
 ---
 
-### Questão 07 (FCC - Adaptada / Técnico de Controle Externo - TCE-GO)
+### Teste 127
+**(FCC - Adaptada / Técnico de Controle Externo - TCE-GO)**
 A respeito das condições de elegibilidade e da disciplina constitucional das nacionalidades, considere as seguintes situações hipotéticas:
 
 I. Arthur, brasileiro nato, com 32 anos de idade, pretende concorrer ao cargo de Governador do Estado de Goiás no próximo pleito.  
@@ -391,6 +422,9 @@ III. Cláudio, brasileiro naturalizado, com 50 anos de idade, notável saber jur
 * **C)** Apenas a situação II é viável, pois a idade mínima para Governador de Estado é de 35 anos.
 * **D)** Apenas a situação III é admitida, sendo vedado o mandato de Deputado Federal a brasileiros naturalizados.
 * **E)** Todas as três situações são expressamente vedadas pela Carta Magna.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -426,7 +460,8 @@ flowchart TD
 
 ---
 
-### Questão 08 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 128
+**(FCC - Adaptada / Analista de Gestão Pública)**
 Com relação ao regime da nacionalidade instituído pela Constituição Federal de 1988 e suas alterações posteriores, considere que Marcos, brasileiro nato, aos trinta anos de idade, mudou-se para a França e, após cumprir os requisitos legais franceses, requereu e obteve voluntariamente a cidadania francesa, sem que houvesse exigência de permanência no país nem reconhecimento de nacionalidade de origem.
 
 Considerando o texto constitucional vigente com as alterações promovidas pela Emenda Constitucional nº 131/2023, Marcos:
@@ -436,6 +471,9 @@ Considerando o texto constitucional vigente com as alterações promovidas pela 
 * **C)** Não perde a nacionalidade brasileira pela mera aquisição voluntária da cidadania estrangeira, somente ocorrendo a perda se declarar expressamente por escrito perante autoridade brasileira competente que renuncia à nacionalidade brasileira.
 * **D)** Passará automaticamente à condição de brasileiro naturalizado, perdendo o direito de concorrer a qualquer cargo eletivo no Brasil.
 * **E)** Perderá compulsoriamente a nacionalidade brasileira por sentença do juiz federal competente, por ter adotado fidelidade política a nação estrangeira.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -451,7 +489,8 @@ Considerando o texto constitucional vigente com as alterações promovidas pela 
 
 
 
-### Questão 09 (FCC - Analista de Controle Externo / Adaptada)
+### Teste 129
+**(FCC - Analista de Controle Externo / Adaptada)**
 A Emenda Constitucional nº 131/2023 alterou substancialmente a disciplina da perda da nacionalidade brasileira constante no art. 12, § 4º, da Constituição Federal.
 
 De acordo com o texto constitucional vigente com a redação dada pela EC nº 131/2023, será declarada a perda da nacionalidade do brasileiro que:
@@ -461,6 +500,9 @@ De acordo com o texto constitucional vigente com a redação dada pela EC nº 13
 * **C)** Residir no exterior por mais de cinco anos ininterruptos sem comparecer ao consulado brasileiro.
 * **D)** Casar-se com cidadão estrangeiro em país que não reconheça a dupla cidadania.
 * **E)** Aceitar emprego remunerado em empresa privada sediada em país estrangeiro sem autorização do Presidente da República.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -519,7 +561,8 @@ A Constituição Federal estabelece: **"É VEDADA a cassação de direitos polí
 
 ---
 
-### Questão 10 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 130
+**(FCC - Adaptada / Auditor de Controle Externo)**
 À luz das disposições constitucionais sobre os direitos políticos, a perda e suspensão de tais prerrogativas e a organização partidária, assinale a opção correta:
 
 * **A)** É permitida a cassação de direitos políticos mediante processo administrativo com contraditório e ampla defesa instaurado pelo Tribunal Superior Eleitoral.
@@ -527,6 +570,9 @@ A Constituição Federal estabelece: **"É VEDADA a cassação de direitos polí
 * **C)** A condenação criminal transitada em julgado acarreta a suspensão dos direitos políticos do condenado enquanto durarem seus efeitos, mesmo nos casos em que ocorra a concessão de livramento condicional ou sursis.
 * **D)** A criação de associação de moradores independe de autorização do Poder Público, mas suas atividades podem ser compulsoriamente dissolvidas por ato motivado do Secretário de Segurança Pública.
 * **E)** São condições de elegibilidade para o cargo de Vereador a nacionalidade brasileira, o alistamento eleitoral, o domicílio eleitoral na circunscrição e a idade mínima de vinte e um anos completos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -544,7 +590,8 @@ A Constituição Federal estabelece: **"É VEDADA a cassação de direitos polí
 
 
 
-### Questão 11 (FGV - Analista Jurídico de Controle Externo / TCE-GO)
+### Teste 131
+**(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 Sobre os direitos políticos e o regime de inelegibilidades positivado no art. 14 da Constituição Federal de 1988, assinale a afirmativa correta.
 
 * **A)** O alistamento eleitoral e o voto são facultativos para os analfabetos, para os maiores de setenta anos e para os maiores de dezesseis e menores de dezoito anos.
@@ -552,6 +599,9 @@ Sobre os direitos políticos e o regime de inelegibilidades positivado no art. 1
 * **C)** A idade mínima de trinta e cinco anos é condição constitucional de elegibilidade para os cargos de Governador e Vice-Governador de Estado e do Distrito Federal.
 * **D)** São inelegíveis, no território de jurisdição do titular, o cônjuge e os parentes consanguíneos ou afins, até o terceiro grau, do Presidente da República, de Governador de Estado ou de Prefeito.
 * **E)** O militar alistável é inelegível se contar com mais de dez anos de serviço na corporação.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -563,7 +613,10 @@ Sobre os direitos políticos e o regime de inelegibilidades positivado no art. 1
 >
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais & Doutrinárias Recomendadas
 

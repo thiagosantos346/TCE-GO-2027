@@ -4,7 +4,10 @@
 **Cargo:** Auditor de Controle Externo - Tecnologia da Informação  
 **Status do Mapeamento:** 100% aderente ao edital TCE-GO
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 1. **Replicação de Dados:** Replicação síncrona vs. assíncrona (trade-offs de latência, vazão e consistência); Topologias Master-Replica (*Leader-Follower*) e Multi-Master; Replicação Física (*Streaming de WAL/Redo Logs*) vs. Replicação Lógica.
@@ -13,30 +16,46 @@
 4. **Métricas de Continuidade de Negócios:** RPO (*Recovery Point Objective*) e RTO (*Recovery Time Objective*).
 5. **Segurança e Proteção de Dados:** Criptografia em repouso com TDE (*Transparent Data Encryption*); Criptografia em trânsito (TLS/SSL); Mascaramento Dinâmico de Dados (*Dynamic Data Masking - DDM*); Anonimização e Pseudonimização (LGPD); Trilhas de Auditoria (*Auditing*) e Controle de Acesso Baseado em Papéis (RBAC).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Replicação de Dados e Topologias Distribuídas](#1-replicacao-de-dados-e-topologias-distribuidas)
-    - [1.1 Replicação Síncrona vs. Assíncrona](#11-replicacao-sincrona-vs-assincrona)
-    - [1.2 Topologias de Replicação: Leader-Follower vs. Multi-Master](#12-topologias-de-replicacao-leader-follower-vs-multi-master)
-    - [1.3 Replicação Física vs. Replicação Lógica](#13-replicacao-fisica-vs-replicacao-logica)
-- [2. Alta Disponibilidade (HA), Failover e Mitigação de Split-Brain](#2-alta-disponibilidade-ha-failover-e-mitigacao-de-split-brain)
-    - [2.1 Switchover vs. Failover: Transições Planejadas e Emergenciais](#21-switchover-vs-failover-transicoes-planejadas-e-emergenciais)
-    - [2.2 O Fenômeno Crítico do Split-Brain](#22-o-fenomeno-critico-do-split-brain)
-    - [2.3 Estratégias de Quórum Distribuído, Árbitros e STONITH](#23-estrategias-de-quorum-distribuido-arbitros-e-stonith)
-    - [2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC](#24-solucoes-de-ha-corporativas-patroni-oracle-data-guard-e-rac)
-- [3. Estratégias de Backup, PITR e Métricas de Continuidade de Negócios](#3-estrategias-de-backup-pitr-e-metricas-de-continuidade-de-negocios)
-    - [3.1 Backup Lógico vs. Backup Físico](#31-backup-logico-vs-backup-fisico)
-    - [3.2 Tipos de Backup: Completo (Full), Diferencial e Incremental](#32-tipos-de-backup-completo-full-diferencial-e-incremental)
-    - [3.3 Point-in-Time Recovery (PITR)](#33-point-in-time-recovery-pitr)
-    - [3.4 Métricas Críticas: RPO vs. RTO](#34-metricas-criticas-rpo-vs-rto)
-- [4. Segurança, Criptografia, Privacidade e Governança de Dados](#4-seguranca-criptografia-privacidade-e-governanca-de-dados)
-    - [4.1 Criptografia em Repouso: Transparent Data Encryption (TDE)](#41-criptografia-em-repouso-transparent-data-encryption-tde)
-    - [4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)](#42-mascaramento-dinamico-de-dados-ddm-e-privacidade-lgpd)
-    - [4.3 Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)](#43-trilhas-de-auditoria-e-controle-de-acesso-baseado-em-papeis-rbac)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Replicação de Dados e Topologias Distribuídas](#1-replicacao-de-dados-e-topologias-distribuidas)
+    1. [Replicação Síncrona vs. Assíncrona](#11-replicacao-sincrona-vs-assincrona)
+    2. [Teste 289](#Teste-289)
+    3. [Topologias de Replicação: Leader-Follower vs. Multi-Master](#12-topologias-de-replicacao-leader-follower-vs-multi-master)
+    4. [Replicação Física vs. Replicação Lógica](#13-replicacao-fisica-vs-replicacao-logica)
+    5. [Teste 290](#Teste-290)
+2. [Alta Disponibilidade (HA), Failover e Mitigação de Split-Brain](#2-alta-disponibilidade-ha-failover-e-mitigacao-de-split-brain)
+    1. [Switchover vs. Failover: Transições Planejadas e Emergenciais](#21-switchover-vs-failover-transicoes-planejadas-e-emergenciais)
+    2. [Teste 291](#Teste-291)
+    3. [O Fenômeno Crítico do Split-Brain](#22-o-fenomeno-critico-do-split-brain)
+    4. [Estratégias de Quórum Distribuído, Árbitros e STONITH](#23-estrategias-de-quorum-distribuido-arbitros-e-stonith)
+    5. [Teste 292](#Teste-292)
+    6. [Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC](#24-solucoes-de-ha-corporativas-patroni-oracle-data-guard-e-rac)
+3. [Estratégias de Backup, PITR e Métricas de Continuidade de Negócios](#3-estrategias-de-backup-pitr-e-metricas-de-continuidade-de-negocios)
+    1. [Backup Lógico vs. Backup Físico](#31-backup-logico-vs-backup-fisico)
+    2. [Teste 293](#Teste-293)
+    3. [Tipos de Backup: Completo (Full), Diferencial e Incremental](#32-tipos-de-backup-completo-full-diferencial-e-incremental)
+    4. [Teste 294](#Teste-294)
+    5. [Point-in-Time Recovery (PITR)](#33-point-in-time-recovery-pitr)
+    6. [Teste 295](#Teste-295)
+    7. [Métricas Críticas: RPO vs. RTO](#34-metricas-criticas-rpo-vs-rto)
+    8. [Teste 296](#Teste-296)
+4. [Segurança, Criptografia, Privacidade e Governança de Dados](#4-seguranca-criptografia-privacidade-e-governanca-de-dados)
+    1. [Criptografia em Repouso: Transparent Data Encryption (TDE)](#41-criptografia-em-repouso-transparent-data-encryption-tde)
+    2. [Teste 297](#Teste-297)
+    3. [Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)](#42-mascaramento-dinamico-de-dados-ddm-e-privacidade-lgpd)
+    4. [Teste 298](#Teste-298)
+    5. [Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)](#43-trilhas-de-auditoria-e-controle-de-acesso-baseado-em-papeis-rbac)
+    6. [Teste 299](#Teste-299)
+5. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Replicação de Dados e Topologias Distribuídas
 
@@ -66,7 +85,8 @@ Cliente ◄──(2. SUCESSO)── Primário
 | **Latência e Desempenho** | **Maior latência** por transação de escrita, diretamente dependente do tempo de ida e volta da rede (*Round-Trip Time - RTT*). | **Mínima latência** e máxima vazão de escrita local, idêntica à de um servidor autônomo. |
 | **Impacto de Falhas na Rede** | Se o link de comunicação cair ou a réplica travar, as transações de escrita no nó primário podem ficar suspensas (*blocked*). | O nó primário continua processando escritas normalmente, acumulando logs para entrega posterior. |
 
-### Questão 01 (FCC - TRT / Analista Judiciário - TI - Replicação Síncrona vs. Assíncrona e RPO)
+### Teste 289
+**(FCC - TRT / Analista Judiciário - TI - Replicação Síncrona vs. Assíncrona e RPO)**
 Em projetos de alta disponibilidade de bancos de dados para órgãos de controle externo, a escolha entre replicação síncrona e assíncrona impacta diretamente os indicadores de continuidade de negócios e o desempenho das transações.
 
 A respeito das características operacionais da **Replicação Síncrona**, assinale a afirmativa correta:
@@ -76,6 +96,9 @@ A respeito das características operacionais da **Replicação Síncrona**, assi
 * **C)** Em caso de lentidão severa na rede entre o nó primário e a réplica síncrona, a replicação síncrona aborta o cluster inteiro e converte o banco para somente-leitura.
 * **D)** A replicação assíncrona é a única que consegue atingir matematicamente um Recovery Point Objective igual a zero ($RPO = 0$).
 * **E)** O PostgreSQL não suporta replicação síncrona, operando exclusivamente em modo assíncrono não-transacional.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -114,7 +137,8 @@ A respeito das características operacionais da **Replicação Síncrona**, assi
 
 ---
 
-### Questão 02 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Replicação Física vs. Replicação Lógica)
+### Teste 290
+**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Replicação Física vs. Replicação Lógica)**
 No ecossistema PostgreSQL, administradores de banco de dados podem implementar tanto a Replicação Física por Fluxo (*Physical Streaming Replication*) quanto a Replicação Lógica (*Logical Replication*).
 
 A respeito das distinções conceituais e operacionais entre essas duas abordagens de replicação, assinale a afirmativa correta:
@@ -124,6 +148,9 @@ A respeito das distinções conceituais e operacionais entre essas duas abordage
 * **C)** A replicação física permite que as réplicas em modo *Standby* recebam operações concorrentes de escrita (`INSERT` e `UPDATE`) em tabelas de produção.
 * **D)** A replicação lógica dispensa a existência de chaves primárias ou identificadores únicos nas tabelas replicadas.
 * **E)** A replicação física é executada exclusivamente através de comandos DDL enviados em formato texto via protocolo HTTP.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -137,7 +164,10 @@ A respeito das distinções conceituais e operacionais entre essas duas abordage
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 2. Alta Disponibilidade (HA), Failover e Mitigação de Split-Brain
 
@@ -152,7 +182,8 @@ A Alta Disponibilidade (*High Availability - HA*) congrega práticas, redundânc
     - Evento emergencial disparado de forma automatizada ou sob intervenção humana quando o nó primário colapsa repentinamente (falha de energia, quebra de hardware ou travamento do sistema operacional).
     - Uma das réplicas secundárias é promovida (*promoted*) a nova líder e assume o tráfego de escritas.
 
-### Questão 03 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Switchover vs. Failover em Alta Disponibilidade)
+### Teste 291
+**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Switchover vs. Failover em Alta Disponibilidade)**
 Em ambientes de missão crítica de tribunais, a gestão de continuidade de serviços de tecnologia da informação diferencia com rigor os procedimentos de **Switchover** e **Failover**.
 
 A respeito dessas duas operações de transição de papéis entre nós de banco de dados, assinale a afirmativa correta:
@@ -162,6 +193,9 @@ A respeito dessas duas operações de transição de papéis entre nós de banco
 * **C)** O *Switchover* acarreta necessariamente a perda irremediável de 1 hora de transações da base de dados.
 * **D)** O *Failover* exige a aprovação física de três auditores em formulário impresso antes que qualquer software de monitoramento possa atuar.
 * **E)** Ambos os termos são sinônimos perfeitos e referem-se à restauração de backups em fitas magnéticas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -222,7 +256,7 @@ Para erradicar a ocorrência de split-brain, os sistemas modernos de HA utilizam
 
 ---
 
-### Questão 04
+### Teste 292
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 Em clusters de alta disponibilidade operando com réplicas distribuídas em datacenters geograficamente separados, a ruptura física dos canais de comunicação de rede entre os nós pode ocasionar uma partição de rede. A respeito dos mecanismos de consenso utilizados para prevenir a corrupção de dados e a ocorrência de *Split-Brain*, é correto afirmar:
 
@@ -231,6 +265,9 @@ Em clusters de alta disponibilidade operando com réplicas distribuídas em data
 * **C)** A técnica de STONITH (*Shoot The Other Node In The Head*) consiste em promover simultaneamente todos os nós isolados a servidores mestres com o objetivo de multiplicar a capacidade de escrita.
 * **D)** A ocorrência de dois nós primários concorrentes não acarreta danos à integridade do banco de dados, pois sistemas relacionais conciliam divergências automaticamente por união natural.
 * **E)** Para garantir a mitigação de falhas em partições de rede, os clusters distribuídos devem ser projetados prioritariamente com um número par de servidores.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -257,7 +294,10 @@ Em clusters de alta disponibilidade operando com réplicas distribuídas em data
     - Arquitetura de cluster **ativo-ativo com armazenamento compartilhado (*Shared-Disk Architecture*)**.
     - Múltiplas instâncias Oracle independentes executadas em servidores distintos acessam e modificam simultaneamente a mesma base de dados persistida em uma SAN/Storage unificado via Oracle ASM, sincronizando blocos de dados em memória através do barramento ultrarrápido *Cache Fusion*.
 
+
+
 ---
+
 
 ## 3. Estratégias de Backup, PITR e Métricas de Continuidade de Negócios
 
@@ -275,7 +315,7 @@ O plano de recuperação de desastres (*Disaster Recovery Plan*) constitui a úl
 
 ---
 
-### Questão 05
+### Teste 293
 **(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
 A equipe de infraestrutura de dados de um tribunal adota a seguinte política semanal de cópias de segurança:
 
@@ -290,6 +330,9 @@ Sobre os procedimentos técnicos de restauração (*Restore*) na quinta-feira, �
 * **C)** O backup diferencial copia apenas os blocos modificados nas últimas 24 horas, exigindo mais passos na restauração do que o backup incremental.
 * **D)** O backup incremental copia todos os dados alterados desde o último backup completo de domingo.
 * **E)** A rotina noturna de backup incremental consome progressivamente mais tempo de execução e espaço em disco a cada dia sucessivo do que a rotina diferencial.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -332,7 +375,8 @@ Domingo            Segunda             Terça               Quarta              
 > 1. O **Backup Incremental** é o mais veloz para *fazer*, porém é o mais demorado e arriscado para *restaurar*, pois se um único arquivo intermediário da cadeia sequencial estiver corrompido, todo o processo a partir daquele dia é inviabilizado.
 > 2. O **Backup Diferencial** simplifica o restore para apenas **dois passos** (`Full + Último Diferencial`), porém consome cada vez mais tempo e espaço de armazenamento à medida que os dias da semana avançam.
 
-### Questão 06 (FGV - TRT-16 / Analista Judiciário - TI - Estratégias de Backup: Full, Diferencial e Incremental)
+### Teste 294
+**(FGV - TRT-16 / Analista Judiciário - TI - Estratégias de Backup: Full, Diferencial e Incremental)**
 Para mitigar o risco de perda de dados e estabelecer janelas eficientes de cópia de segurança em uma instituição pública com 10 Terabytes de dados, a equipe de TI avaliou as estratégias de backup: Completo (*Full*), Diferencial e Incremental.
 
 Considere a seguinte política semanal: no domingo à meia-noite é executado um Backup Full. De segunda a sábado à meia-noite, são executadas cópias auxiliares. Na quinta-feira às 10h da manhã ocorreu uma quebra física irreversível no subsistema de armazenamento primário.
@@ -344,6 +388,9 @@ A respeito do tempo de execução, consumo de armazenamento e processo de recupe
 * **C)** O Backup Incremental copia todas as modificações ocorridas desde o último Backup Full, tornando o seu tamanho crescente a cada dia da semana.
 * **D)** O Backup Full é o mais rápido de todos para ser gerado diariamente, consumindo menos espaço em disco do que backups incrementais.
 * **E)** O Backup Diferencial copia apenas as alterações ocorridas desde o último backup diferencial, exigindo a restauração de todos os arquivos diários da semana.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -371,7 +418,7 @@ A execução do PITR articula dois pilares:
 
 ---
 
-### Questão 07
+### Teste 295
 **(FCC - DPE-RS - Analista de Tecnologia da Informação)**
 Às 14h35 de uma terça-feira, durante a realização de uma rotina emergencial no banco de dados de produção de um tribunal, um operador executou inadvertidamente o comando `DROP TABLE CADASTRO_SERVIDORES`. A organização adota uma política com Backup Físico Completo (*Full*) todos os domingos às 00h00, backups incrementais diários às 23h00 e mantém o arquivamento contínuo ininterrupto de todos os logs de transação (*WAL / Archived Redo Logs*).
 Para reverter o banco de dados exatamente ao estado em que se encontrava às 14h34m59s (um segundo antes do comando destrutivo), minimizando a perda de transações legítimas, a estratégia técnica apropriada é:
@@ -381,6 +428,9 @@ Para reverter o banco de dados exatamente ao estado em que se encontrava às 14h
 * **C)** Executar uma rotina de Backup Lógico Frio para exportar os metadados da tabela a partir da memória do sistema operacional.
 * **D)** Emitir um comando de `ROLLBACK` na sessão do usuário que executou o comando destrutivo para anular a exclusão dos dados.
 * **E)** Restaurar unicamente o arquivo de backup incremental de segunda-feira, sendo tecnicamente impossível recuperar dados transacionados entre as 23h00 de segunda e as 14h35 de terça.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -416,7 +466,7 @@ A elaboração de acordos de nível de serviço (SLA) para desastres baseia-se e
 
 ---
 
-### Questão 08
+### Teste 296
 **(FCC - TCE-PI - Auditor de Controle Externo - Tecnologia da Informação)**
 O Plano de Continuidade de Negócios e Recuperação de Desastres de um Tribunal de Contas estabeleceu duas diretrizes mandatórias para os sistemas corporativos de auditoria:
 
@@ -431,6 +481,9 @@ A respeito das métricas de resiliência e dos modelos de replicação envolvido
 * **D)** A replicação puramente assíncrona garante perda zero de dados em caso de destruição repentina do nó primário, pois os dados comitados ficam congelados na rede até a confirmação da réplica.
 * **E)** RPO e RTO são conceitos financeiros atrelados ao custo de licenças de software, sem relação com tempos de contingência operacional.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. A primeira diretriz trata de limite de perda de dados no tempo (**RPO**), e não de tempo de restauração do serviço (**RTO**). Ademais, fitas semanais produzem perdas de vários dias.
@@ -443,8 +496,9 @@ A respeito das métricas de resiliência e dos modelos de replicação envolvido
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 4. Segurança, Criptografia, Privacidade e Governança de Dados
@@ -461,7 +515,7 @@ O **TDE (*Transparent Data Encryption*)** cifra os arquivos binários em repouso
 
 ---
 
-### Questão 09
+### Teste 297
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 Em conformidade com as exigências de privacidade da Lei Geral de Proteção de Dados (LGPD) e as boas práticas de segurança corporativa em órgãos públicos, a equipe de administração de banco de dados implementou duas medidas técnicas:
 
@@ -475,6 +529,9 @@ As duas abordagens de segurança correspondem, respectivamente, a:
 * **C)** *Point-in-Time Recovery* (PITR); e Anonimização definitiva em repouso.
 * **D)** Autenticação multifator por biometria; e exclusão lógica com `DELETE CASCADE`.
 * **E)** *Role-Based Access Control* (RBAC); e cálculo de hash MD5 na cláusula `WHERE`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -501,7 +558,8 @@ O **Dynamic Data Masking (DDM)** intercepta as consultas SQL no momento de sua e
     - *Anonimização:* Processo irreversível no qual o dado perde a possibilidade de associação com o titular (dados anonimizados não são considerados dados pessoais sob a LGPD).
     - *Pseudonimização:* O dado só pode ser associado a um titular mediante o uso de informação adicional mantida separadamente em ambiente seguro.
 
-### Questão 10 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Mascaramento Dinâmico de Dados - DDM e LGPD)
+### Teste 298
+**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Mascaramento Dinâmico de Dados - DDM e LGPD)**
 Com o advento da Lei Geral de Proteção de Dados Pessoais (LGPD), órgãos de auditoria pública implementaram a técnica de Mascaramento Dinâmico de Dados (*Dynamic Data Masking - DDM*) em seus sistemas gerenciadores de banco de dados.
 
 A respeito dos princípios de funcionamento e dos benefícios de segurança proporcionados pelo DDM, assinale a afirmativa correta:
@@ -511,6 +569,9 @@ A respeito dos princípios de funcionamento e dos benefícios de segurança prop
 * **C)** O DDM é uma tecnologia exclusiva de criptografia assimétrica de chaves públicas do padrão RSA de 4096 bits.
 * **D)** O DDM impede que auditores realizem comandos `SELECT` nas tabelas mascaradas, retornando sempre uma mensagem de erro de compilação SQL.
 * **E)** O mascaramento estático e o mascaramento dinâmico são sinônimos que dependem da exclusão física da tabela via comando `DROP TABLE`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -537,7 +598,8 @@ A respeito dos princípios de funcionamento e dos benefícios de segurança prop
 
 ---
 
-### Questão 11 (FGV - TJ-RR / Analista Judiciário - Governança de TI - Controle de Acesso RBAC e Trilhas de Auditoria)
+### Teste 299
+**(FGV - TJ-RR / Analista Judiciário - Governança de TI - Controle de Acesso RBAC e Trilhas de Auditoria)**
 A segurança da informação em bancos de dados corporativos baseia-se em princípios de defesa em profundidade, destacando-se o Controle de Acesso Baseado em Papéis (*Role-Based Access Control - RBAC*) e a geração de Trilhas de Auditoria (*Audit Trails*).
 
 Em relação às boas práticas de governança e implementação desses controles em SGBDs, assinale a afirmativa correta:
@@ -547,6 +609,9 @@ Em relação às boas práticas de governança e implementação desses controle
 * **C)** Trilhas de auditoria de banco de dados devem registrar exclusivamente operações de `SELECT`, sendo proibido registrar comandos DDL como `DROP` e `ALTER TABLE` por restrições constitucionais.
 * **D)** O controle de acesso discricionário (DAC) impede que o proprietário de uma tabela conceda permissões de leitura a outros usuários.
 * **E)** As trilhas de auditoria devem ser salvas na mesma tabela que sofreu auditoria com acesso de exclusão irrestrito para qualquer estagiário da organização.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -561,7 +626,10 @@ Em relação às boas práticas de governança e implementação desses controle
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `06_acesso_a_informacao_e_contratos_publicidade.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Direito de acesso à informação e transparência pública
@@ -16,27 +19,42 @@
 - Contratação de serviços de publicidade pela Administração Pública: Lei Federal nº 12.232/2010 e alterações
 - Julgamento por subcomissão técnica e vedação da modalidade pregão para serviços de criação publicitária
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Transparência Pública e Regime da Lei de Acesso à Informação](#1-transparencia-publica-e-regime-da-lei-de-acesso-a-informacao)
-    - [1.1 Diretrizes Fundamentais: A Publicidade como Regra Geral](#11-diretrizes-fundamentais-a-publicidade-como-regra-geral)
-    - [1.2 Transparência Ativa e a Divulgação de Vencimentos (Tema 483 / STF)](#12-transparencia-ativa-e-a-divulgacao-de-vencimentos-tema-483-stf)
-    - [1.3 Transparência Passiva e a Vedação de Justificativa (Art. 10, § 3º)](#13-transparencia-passiva-e-a-vedacao-de-justificativa-art-10-3o)
-    - [1.4 Prazos Procedimentais e Regime Recursal](#14-prazos-procedimentais-e-regime-recursal)
-- [2. Classificação de Informações Sigilosas e Proteção de Dados Pessoais](#2-classificacao-de-informacoes-sigilosas-e-protecao-de-dados-pessoais)
-    - [2.1 Graus de Sigilo e Prazos Máximos de Restrição](#21-graus-de-sigilo-e-prazos-maximos-de-restricao)
-    - [2.2 Competência Funcional para Classificação no Estado de Goiás](#22-competencia-funcional-para-classificacao-no-estado-de-goias)
-    - [2.3 Proteção de Informações Pessoais (100 Anos)](#23-protecao-de-informacoes-pessoais-100-anos)
-    - [2.4 Vedação Absoluta de Sigilo: Violações a Direitos Humanos](#24-vedacao-absoluta-de-sigilo-violacoes-a-direitos-humanos)
-- [3. Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)](#3-licitacoes-e-contratos-de-servicos-de-publicidade-lei-no-122322010)
-    - [3.1 Objeto Específico e a Vedação Categórica ao Pregão](#31-objeto-especifico-e-a-vedacao-categorica-ao-pregao)
-    - [3.2 Tipos Licitatórios Obrigatórios](#32-tipos-licitatorios-obrigatorios)
-    - [3.3 A Subcomissão Técnica de Julgamento (Art. 10)](#33-a-subcomissao-tecnica-de-julgamento-art-10)
-    - [3.4 Julgamento às Cegas e Proposta Técnica Desidentificada](#34-julgamento-as-cegas-e-proposta-tecnica-desidentificada)
-- [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
+
+1. [Transparência Pública e Regime da Lei de Acesso à Informação](#1-transparencia-publica-e-regime-da-lei-de-acesso-a-informacao)
+    1. [Diretrizes Fundamentais: A Publicidade como Regra Geral](#11-diretrizes-fundamentais-a-publicidade-como-regra-geral)
+    2. [Teste 056](#Teste-056)
+    3. [Transparência Ativa e a Divulgação de Vencimentos (Tema 483 / STF)](#12-transparencia-ativa-e-a-divulgacao-de-vencimentos-tema-483-stf)
+    4. [Teste 057](#Teste-057)
+    5. [Transparência Passiva e a Vedação de Justificativa (Art. 10, § 3º)](#13-transparencia-passiva-e-a-vedacao-de-justificativa-art-10-3o)
+    6. [Teste 058](#Teste-058)
+    7. [Prazos Procedimentais e Regime Recursal](#14-prazos-procedimentais-e-regime-recursal)
+    8. [Teste 059](#Teste-059)
+2. [Classificação de Informações Sigilosas e Proteção de Dados Pessoais](#2-classificacao-de-informacoes-sigilosas-e-protecao-de-dados-pessoais)
+    1. [Graus de Sigilo e Prazos Máximos de Restrição](#21-graus-de-sigilo-e-prazos-maximos-de-restricao)
+    2. [Teste 060](#Teste-060)
+    3. [Competência Funcional para Classificação no Estado de Goiás](#22-competencia-funcional-para-classificacao-no-estado-de-goias)
+    4. [Teste 061](#Teste-061)
+    5. [Proteção de Informações Pessoais (100 Anos)](#23-protecao-de-informacoes-pessoais-100-anos)
+    6. [Vedação Absoluta de Sigilo: Violações a Direitos Humanos](#24-vedacao-absoluta-de-sigilo-violacoes-a-direitos-humanos)
+    7. [Teste 062](#Teste-062)
+3. [Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)](#3-licitacoes-e-contratos-de-servicos-de-publicidade-lei-no-122322010)
+    1. [Objeto Específico e a Vedação Categórica ao Pregão](#31-objeto-especifico-e-a-vedacao-categorica-ao-pregao)
+    2. [Teste 063](#Teste-063)
+    3. [Tipos Licitatórios Obrigatórios](#32-tipos-licitatorios-obrigatorios)
+    4. [Teste 064](#Teste-064)
+    5. [A Subcomissão Técnica de Julgamento (Art. 10)](#33-a-subcomissao-tecnica-de-julgamento-art-10)
+    6. [Teste 065](#Teste-065)
+    7. [Julgamento às Cegas e Proposta Técnica Desidentificada](#34-julgamento-as-cegas-e-proposta-tecnica-desidentificada)
+4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Transparência Pública e Regime da Lei de Acesso à Informação
 
@@ -62,7 +80,8 @@ flowchart TD
 
 
 
-### Questão 01 (FCC - Auditor de Controle Externo / TCE-GO)
+### Teste 056
+**(FCC - Auditor de Controle Externo / TCE-GO)**
 A Lei de Acesso à Informação (Lei Federal nº 12.527/2011) regulamenta o direito constitucional fundamental de obter informações dos órgãos públicos (art. 5º, XXXIII, CF/88).
 
 A respeito das diretrizes estruturantes da LAI e do regime de publicidade na Administração Pública, assinale a afirmativa correta.
@@ -72,6 +91,9 @@ A respeito das diretrizes estruturantes da LAI e do regime de publicidade na Adm
 * **C)** A divulgação em sítios eletrônicos oficiais de dados orçamentários, repasses financeiros e contratos administrativos configura transparência passiva.
 * **D)** As entidades privadas sem fins lucrativos que recebam recursos públicos para realização de ações de interesse público estão totalmente dispensadas de prestar contas ou conferir publicidade a esses recursos.
 * **E)** O fornecimento de informação pública está condicionado ao prévio pagamento de taxa remuneratória correspondente ao custo da busca e do trabalho intelectual do servidor público.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -97,7 +119,8 @@ Uma das controvérsias mais relevantes decididas pelo Pretório Excelso refere-s
 
 ---
 
-### Questão 02 (FCC - Auditor de Controle Externo / Adaptada)
+### Teste 057
+**(FCC - Auditor de Controle Externo / Adaptada)**
 Determinada associação de servidores públicos ajuizou ação civil pretendendo que o Tribunal de Contas retirasse de seu Portal da Transparência a divulgação nominal individualizada da remuneração e vantagens pecuniárias recebidas pelos servidores do Tribunal, alegando que tal publicidade vulnerava a garantia constitucional da privacidade e intimidade.
 
 Em consonância com a jurisprudência vinculante fixada pelo Supremo Tribunal Federal no julgamento do **Tema 483** da Repercussão Geral:
@@ -107,6 +130,9 @@ Em consonância com a jurisprudência vinculante fixada pelo Supremo Tribunal Fe
 * **C)** A divulgação de remunerações é permitida apenas quanto aos cargos comissionados, permanecendo sob sigilo absoluto a remuneração dos concursados efetivos.
 * **D)** A publicidade dos salários de servidores atenta contra a moralidade pública, configurando dano moral presumido (*in re ipsa*).
 * **E)** Os vencimentos de agentes públicos podem ser divulgados apenas mediante solicitação individual fundamentada protocolada presencialmente no protocolo físico.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -132,7 +158,8 @@ A **transparência passiva** instrumentaliza o dever do poder público de respon
 
 ---
 
-### Questão 03 (FCC - Analista de Controle Externo / Adaptada TCE-GO)
+### Teste 058
+**(FCC - Analista de Controle Externo / Adaptada TCE-GO)**
 Um cidadão domiciliado no Município de Goiânia protocolou pedido de acesso à informação no Serviço de Informações ao Cidadão (SIC) do Tribunal de Contas do Estado de Goiás, solicitando cópia integral dos processos licitatórios e contratos de fornecimento de tecnologia celebrados pelo Tribunal no ano anterior. O servidor encarregado do protocolo indeferiu liminarmente a solicitação, justificando que o interessado não havia comprovado legítimo interesse nem declarado os motivos pelos quais desejava consultar a referida documentação.
 
 À luz da Lei Federal nº 12.527/2011 (LAI) e da Lei Estadual de Goiás nº 18.025/2013:
@@ -142,6 +169,9 @@ Um cidadão domiciliado no Município de Goiânia protocolou pedido de acesso à
 * **C)** Caberia ao cidadão obter autorização judicial prévia por meio de Habeas Data para ter acesso aos autos de contratações públicas.
 * **D)** O cidadão somente poderia obter acesso às informações caso comprovasse vínculo funcional com a Administração Pública estadual.
 * **E)** A negativa é legítima porque contratos de tecnologia da informação possuem sigilo ultrassecreto automático por 25 anos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -169,7 +199,8 @@ O procedimento de atendimento às solicitações de informação rege-se pelos s
 
 
 
-### Questão 04 (FGV - Analista de Controle Externo / Auditoria)
+### Teste 059
+**(FGV - Analista de Controle Externo / Auditoria)**
 Determinado cidadão protocolou requerimento de acesso à informação perante uma autarquia estadual, solicitando cópia integral de notas de empenho e medições de uma obra de pavimentação rodoviária.
 
 De acordo com o rito procedimental estabelecido pela Lei Federal nº 12.527/2011 para a transparência passiva, a Administração Pública:
@@ -179,6 +210,9 @@ De acordo com o rito procedimental estabelecido pela Lei Federal nº 12.527/2011
 * **C)** Pode condicionar a tramitação do pedido à declaração das razões determinantes da solicitação pelo cidadão interessado.
 * **D)** Em caso de indeferimento de acesso a informações, não precisa fundamentar a negativa, haja vista a discricionariedade inerente à segurança dos arquivos públicos.
 * **E)** Fica dispensada de prever instância recursal contra a decisão denegatória, sendo o Mandado de Segurança a única via admissível de insurgência.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -190,7 +224,10 @@ De acordo com o rito procedimental estabelecido pela Lei Federal nº 12.527/2011
 >
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 2. Classificação de Informações Sigilosas e Proteção de Dados Pessoais
 
@@ -219,7 +256,8 @@ flowchart LR
 
 ---
 
-### Questão 05 (FCC - Analista de Controle Externo / Tecnologia da Informação)
+### Teste 060
+**(FCC - Analista de Controle Externo / Tecnologia da Informação)**
 Determinada informação produzida pela Secretaria de Segurança Pública de Goiás teve seu acesso restrito por conter dados de inteligência cuja revelação poria em risco a integridade de operações em andamento. A autoridade competente pretende classificar o documento em grau de sigilo nos termos da Lei Federal nº 12.527/2011 (LAI).
 
 Em relação aos graus de sigilo e aos prazos máximos legais de restrição de acesso previstos na LAI:
@@ -229,6 +267,9 @@ Em relação aos graus de sigilo e aos prazos máximos legais de restrição de 
 * **C)** Todas as informações sigilosas ficam sob restrição definitiva e perpétua, não admitindo desclassificação temporal.
 * **D)** Informações relativas à vida privada e intimidade pessoal de cidadãos ficam sob sigilo pelo prazo máximo de 15 anos.
 * **E)** Qualquer servidor público efetivo dispõe de competência originária para classificar documentos no grau ultrassecreto.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -256,7 +297,8 @@ A classificação do sigilo é privativa de autoridades com expressa investidura
 
 
 
-### Questão 06 (FCC - Técnico de Controle Externo / Adaptada TCE-GO)
+### Teste 061
+**(FCC - Técnico de Controle Externo / Adaptada TCE-GO)**
 No que concerne à classificação de informações sigilosas e à competência para a atribuição dos graus de sigilo no âmbito da Administração Pública do Estado de Goiás, conforme a Lei nº 12.527/2011 e o Decreto Estadual nº 7.904/2013, assinale a afirmativa correta.
 
 * **A)** A competência para classificar informação no grau ultrassecreto (prazo máximo de restrição de 25 anos) é privativa do Governador e do Vice-Governador do Estado, no âmbito do Poder Executivo estadual.
@@ -264,6 +306,9 @@ No que concerne à classificação de informações sigilosas e à competência 
 * **C)** A autoridade que classifica um documento como secreto pode fixar discricionariamente prazo de sigilo de trinta anos, ante a soberania da gestão documental estadual.
 * **D)** As informações de grau reservado possuem prazo de proteção sigilosa de até quinze anos, vedada a sua desclassificação antes do decurso do prazo.
 * **E)** A classificação de sigilo não exige termo formal fundamentado de classificação, bastando o carimbo de confidencialidade aposto na capa dos autos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -294,7 +339,8 @@ O art. 31 da LAI estabelece regime especial de proteção para as informações 
 
 
 
-### Questão 07 (FGV - Analista de Controle Externo / TCE-GO)
+### Teste 062
+**(FGV - Analista de Controle Externo / TCE-GO)**
 Determinado cidadão requereu, com fundamento na LAI, acesso aos registros funcionais de servidores públicos estaduais que participaram, na condição de testemunhas e sindicantes, de apuração de graves violações a direitos humanos e atos de tortura ocorridos durante período de exceção política. O órgão responsável indeferiu o pedido, sob o argumento de que as informações envolveriam intimidade e vida privada, sujeitando-se ao sigilo legal de cem anos do art. 31 da LAI.
 
 À luz da Lei Federal nº 12.527/2011 e da jurisprudência dos Tribunais Superiores, a decisão administrativa denegatória:
@@ -304,6 +350,9 @@ Determinado cidadão requereu, com fundamento na LAI, acesso aos registros funci
 * **C)** Deveria ter condicionado a liberação dos documentos à autorização prévia e expressa de todos os servidores citados no relatório.
 * **D)** Poderia conceder o acesso exclusivamente se o requerente firmasse termo de confidencialidade comprometendo-se a não divulgar os dados à imprensa.
 * **E)** Ampara-se no princípio da supremacia do interesse público secundário de preservação da imagem funcional dos órgãos estatais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -315,7 +364,10 @@ Determinado cidadão requereu, com fundamento na LAI, acesso aos registros funci
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 3. Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)
 
@@ -329,7 +381,8 @@ A contratação de serviços de publicidade institucional pela Administração P
 
 ---
 
-### Questão 08 (FCC - Técnico de Controle Externo / Administrativa)
+### Teste 063
+**(FCC - Técnico de Controle Externo / Administrativa)**
 Uma autarquia estadual pretende deflagrar procedimento licitatório para contratação de agência de propaganda com o objetivo de criar planos anuais de comunicação, peças publicitárias impressas e digitais, e campanhas educativas de conscientização no trânsito. A comissão de licitação cogitou a adoção da modalidade **Pregão Eletrônico** com julgamento pelo critério de **Menor Preço**, sob a premissa de que a modalidade garante maior economia e agilidade ao procedimento.
 
 Considerando as normas especiais da Lei Federal nº 12.232/2010 e a jurisprudência dominante sobre o tema:
@@ -339,6 +392,9 @@ Considerando as normas especiais da Lei Federal nº 12.232/2010 e a jurisprudên
 * **C)** A autarquia deveria optar pela modalidade Leilão, realizando a disputa por lances sucessivos presenciais.
 * **D)** É obrigatória a contratação direta mediante inexigibilidade de licitação, por se tratar de serviço de natureza criativa singular.
 * **E)** A autarquia pode utilizar pregão desde que fixe como tipo o maior lance comercial de patrocínio.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -362,7 +418,8 @@ Por expressa imposição do art. 5º da Lei nº 12.232/2010, as licitações par
 
 
 
-### Questão 09 (FCC - Procurador do Estado / Adaptada)
+### Teste 064
+**(FCC - Procurador do Estado / Adaptada)**
 A contratação de serviços de publicidade institucional prestados por intermédio de agências de propaganda pela Administração Pública rege-se pelas normas especiais da Lei nº 12.232/2010.
 
 No que tange aos procedimentos e tipos de licitação admitidos para esses serviços, assinale a afirmativa correta.
@@ -372,6 +429,9 @@ No que tange aos procedimentos e tipos de licitação admitidos para esses servi
 * **C)** O julgamento das propostas técnicas é realizado privativamente pelo chefe da assessoria de comunicação do órgão, dispensada a criação de subcomissão técnica.
 * **D)** Os membros da subcomissão técnica de julgamento devem ser todos servidores ocupantes de cargos de provimento efetivo do próprio órgão licitante.
 * **E)** As propostas técnicas devem ser apresentadas com a ostensiva identificação da agência de publicidade em todas as páginas para conferir maior transparência à comissão avaliadora.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -406,7 +466,8 @@ flowchart TD
 
 ---
 
-### Questão 10 (FCC - Analista Jurídico)
+### Teste 065
+**(FCC - Analista Jurídico)**
 No âmbito de procedimento licitatório processado sob o regime da Lei Federal nº 12.232/2010 para a contratação de agência de propaganda, a comissão de contratação realizou sessão para constituição da Subcomissão Técnica encarregada de julgar as propostas técnicas.
 
 A respeito da composição e das regras aplicáveis à **Subcomissão Técnica**, a lei exige que:
@@ -416,6 +477,9 @@ A respeito da composição e das regras aplicáveis à **Subcomissão Técnica**
 * **C)** Os membros sejam indicados livre e diretamente pelo Presidente do Tribunal sem necessidade de sorteio ou publicidade.
 * **D)** As agências participantes do certame indiquem a metade dos avaliadores técnicos da subcomissão.
 * **E)** A proposta técnica apresentada pelas agências contenha logotipo e marcas de identificação destacadas para facilitar a atribuição de notas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -438,7 +502,10 @@ Para garantir o julgamento impessoal e estritamente técnico:
 - A violação da desidentificação acarreta a **desclassificação sumária e imediata** da proposta;
 - A Subcomissão Técnica atribui as notas técnicas em sessão secreta de análise, e somente após a consolidação das notas os invólucros de identificação são abertos perante todos os licitantes.
 
+
+
 ---
+
 
 ## 4. Fontes Recomendadas na Internet
 

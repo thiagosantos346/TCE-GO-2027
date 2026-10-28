@@ -5,7 +5,10 @@
 > **Arquivo:** `01_conjuntos_numericos_fracoes_e_aritmetica.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Números inteiros e racionais: operações (adição, subtração, multiplicação, divisão, potenciação).
@@ -14,32 +17,47 @@
 - Problemas envolvendo números inteiros e racionais.
 - Frações e operações com frações.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais](#1-conjuntos-numericos-fundamentais-e-propriedades-estruturais)
-    - [1.1 Conjunto dos Números Naturais e Inteiros](#11-conjunto-dos-numeros-naturais-e-inteiros)
-    - [1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas](#12-conjunto-dos-numeros-racionais-decimais-finitos-e-dizimas-periodicas)
-    - [1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos](#13-algoritmo-da-divisao-euclidiana-e-aritmetica-dos-restos)
-- [2. Operações Aritméticas e Expressões Numéricas](#2-operacoes-aritmeticas-e-expressoes-numericas)
-    - [2.1 Ordem de Precedência das Operações e Delimitadores](#21-ordem-de-precedencia-das-operacoes-e-delimitadores)
-    - [2.2 Potenciação: Propriedades Operatórias e Notação Científica](#22-potenciacao-propriedades-operatorias-e-notacao-cientifica)
-- [3. Teoria dos Números: Divisibilidade, Primos, MMC e MDC](#3-teoria-dos-numeros-divisibilidade-primos-mmc-e-mdc)
-    - [3.1 Critérios de Divisibilidade Aplicados](#31-criterios-de-divisibilidade-aplicados)
-    - [3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos](#32-decomposicao-em-fatores-primos-e-contagem-de-divisores-positivos)
-    - [3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade](#33-minimo-multiplo-comum-ciclos-coincidencias-e-periodicidade)
-    - [3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos](#34-maximo-divisor-comum-particoes-equitativas-e-lotes-maximos)
-    - [3.5 Relação Fundamental entre MMC e MDC](#35-relacao-fundamental-entre-mmc-e-mdc)
-- [4. Álgebra Fracionária e Operações com Frações](#4-algebra-fracionaria-e-operacoes-com-fracoes)
-    - [4.1 Conceito, Tipologias e Equivalência de Frações](#41-conceito-tipologias-e-equivalencia-de-fracoes)
-    - [4.2 Operações Aritméticas com Frações](#42-operacoes-aritmeticas-com-fracoes)
-- [5. Modelagem e Resolução de Problemas no Padrão FCC](#5-modelagem-e-resolucao-de-problemas-no-padrao-fcc)
-    - [5.1 Problemas de Fração de Resto ou Cadeia Regressiva](#51-problemas-de-fracao-de-resto-ou-cadeia-regressiva)
-    - [5.2 Problemas de Trabalho Conjunto e Torneiras](#52-problemas-de-trabalho-conjunto-e-torneiras)
-    - [5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais](#53-problemas-de-ciclos-periodicos-e-padroes-sequenciais)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Conjuntos Numéricos Fundamentais e Propriedades Estruturais](#1-conjuntos-numericos-fundamentais-e-propriedades-estruturais)
+    1. [Conjunto dos Números Naturais e Inteiros](#11-conjunto-dos-numeros-naturais-e-inteiros)
+    2. [Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas](#12-conjunto-dos-numeros-racionais-decimais-finitos-e-dizimas-periodicas)
+    3. [Teste 072](#Teste-072)
+    4. [Algoritmo da Divisão Euclidiana e Aritmética dos Restos](#13-algoritmo-da-divisao-euclidiana-e-aritmetica-dos-restos)
+    5. [Teste 073](#Teste-073)
+2. [Operações Aritméticas e Expressões Numéricas](#2-operacoes-aritmeticas-e-expressoes-numericas)
+    1. [Ordem de Precedência das Operações e Delimitadores](#21-ordem-de-precedencia-das-operacoes-e-delimitadores)
+    2. [Potenciação: Propriedades Operatórias e Notação Científica](#22-potenciacao-propriedades-operatorias-e-notacao-cientifica)
+    3. [Teste 074](#Teste-074)
+3. [Teoria dos Números: Divisibilidade, Primos, MMC e MDC](#3-teoria-dos-numeros-divisibilidade-primos-mmc-e-mdc)
+    1. [Critérios de Divisibilidade Aplicados](#31-criterios-de-divisibilidade-aplicados)
+    2. [Decomposição em Fatores Primos e Contagem de Divisores Positivos](#32-decomposicao-em-fatores-primos-e-contagem-de-divisores-positivos)
+    3. [Teste 075](#Teste-075)
+    4. [Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade](#33-minimo-multiplo-comum-ciclos-coincidencias-e-periodicidade)
+    5. [Teste 076](#Teste-076)
+    6. [Máximo Divisor Comum: Partições Equitativas e Lotes Máximos](#34-maximo-divisor-comum-particoes-equitativas-e-lotes-maximos)
+    7. [Teste 077](#Teste-077)
+    8. [Relação Fundamental entre MMC e MDC](#35-relacao-fundamental-entre-mmc-e-mdc)
+4. [Álgebra Fracionária e Operações com Frações](#4-algebra-fracionaria-e-operacoes-com-fracoes)
+    1. [Conceito, Tipologias e Equivalência de Frações](#41-conceito-tipologias-e-equivalencia-de-fracoes)
+    2. [Operações Aritméticas com Frações](#42-operacoes-aritmeticas-com-fracoes)
+    3. [Teste 078](#Teste-078)
+5. [Modelagem e Resolução de Problemas no Padrão FCC](#5-modelagem-e-resolucao-de-problemas-no-padrao-fcc)
+    1. [Problemas de Fração de Resto ou Cadeia Regressiva](#51-problemas-de-fracao-de-resto-ou-cadeia-regressiva)
+    2. [Teste 079](#Teste-079)
+    3. [Problemas de Trabalho Conjunto e Torneiras](#52-problemas-de-trabalho-conjunto-e-torneiras)
+    4. [Teste 080](#Teste-080)
+    5. [Problemas de Ciclos Periódicos e Padrões Sequenciais](#53-problemas-de-ciclos-periodicos-e-padroes-sequenciais)
+    6. [Teste 081](#Teste-081)
+6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais
 
@@ -85,7 +103,7 @@ Todo número racional pode ser transcrito sob representação decimal, dividindo
 
 ---
 
-### Questão 01
+### Teste 072
 **(FCC – TRT-23 – Analista Judiciário)**  
 Considere a expressão numérica $E = 0{,}333... + \frac{1}{6} - 0{,}25$. O valor exato de $E$ expresso sob a forma de fração irredutível é igual a:
 
@@ -94,6 +112,9 @@ Considere a expressão numérica $E = 0{,}333... + \frac{1}{6} - 0{,}25$. O valo
 * **C)** $\frac{1}{2}$
 * **D)** $\frac{5}{12}$
 * **E)** $\frac{7}{12}$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -128,7 +149,7 @@ Propriedades críticas da divisão inteira:
 
 ---
 
-### Questão 02
+### Teste 073
 **(FCC – TCE-GO – Auditor de Controle Externo)**  
 Considere a sequência infinita de números formados pela repetição cíclica dos algarismos do número 74582:
 $$7, 4, 5, 8, 2, 7, 4, 5, 8, 2, 7, 4, 5, 8, 2, \dots$$
@@ -139,6 +160,9 @@ O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão 
 * **C)** 7 e 1
 * **D)** 5 e 3
 * **E)** 8 e 4
+
+
+---
 
 > **Comentário Detalhado:**
 > Análise do padrão de periodicidade cíclica:
@@ -168,8 +192,9 @@ O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão 
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 2. Operações Aritméticas e Expressões Numéricas
@@ -202,7 +227,7 @@ A potenciação traduz o produto de fatores idênticos repetidos ($a^n = \underb
 * Expoente fracionário (Radiciação): $a^{\frac{m}{n}} = \sqrt[n]{a^m}$
 
 
-### Questão 03
+### Teste 074
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 O valor numérico da expressão aritmética $K = \frac{2^{20} + 2^{18}}{2^{19} - 2^{17}}$ é igual a:
 
@@ -211,6 +236,9 @@ O valor numérico da expressão aritmética $K = \frac{2^{20} + 2^{18}}{2^{19} -
 * **C)** $2$
 * **D)** $4$
 * **E)** $\frac{5}{6}$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -223,9 +251,10 @@ O valor numérico da expressão aritmética $K = \frac{2^{20} + 2^{18}}{2^{19} -
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 3. Teoria dos Números: Divisibilidade, Primos, MMC e MDC
 
@@ -259,7 +288,7 @@ $$360 = 2^3 \cdot 3^2 \cdot 5^1 \implies Q(360) = (3 + 1)(2 + 1)(1 + 1) = 4 \tim
 
 ---
 
-### Questão 04
+### Teste 075
 **(FCC – METRÔ-SP – Analista)**  
 O número de divisores naturais positivos do número inteiro $N = 360$ é igual a:
 
@@ -268,6 +297,9 @@ O número de divisores naturais positivos do número inteiro $N = 360$ é igual 
 * **C)** $20$
 * **D)** $30$
 * **E)** $12$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -305,7 +337,7 @@ flowchart LR
 
 ---
 
-### Questão 05
+### Teste 076
 **(FCC – Auditor Fiscal da Receita – Adaptada)**  
 Três equipes de fiscalização do Tribunal de Contas realizam auditorias periódicas em municípios do interior goiano. A equipe Alfa realiza auditorias a cada 12 dias; a equipe Beta, a cada 18 dias; e a equipe Gama, a cada 20 dias. No dia 1º de março de determinado ano não bissexto, as três equipes iniciaram suas inspeções simultaneamente.
 
@@ -316,6 +348,9 @@ O número de dias que decorrerão até que as três equipes voltem a iniciar sua
 * **C)** 180 dias
 * **D)** 240 dias
 * **E)** 360 dias
+
+
+---
 
 > **Comentário Detalhado:**
 > O problema demanda o cálculo do menor intervalo de tempo em que eventos com frequências periódicas distintas coincidem simultaneamente no futuro, o que se resolve determinando o **Mínimo Múltiplo Comum (MMC)** entre 12, 18 e 20.
@@ -357,7 +392,7 @@ O **Máximo Divisor Comum (MDC)** é o maior número inteiro capaz de dividir ex
 
 ---
 
-### Questão 06
+### Teste 077
 **(FCC – TCE-PI – Técnico de Controle Externo)**  
 Uma coordenadoria administrativa do TCE-GO precisa arquivar 168 pastas de auditoria do tipo A, 216 pastas do tipo B e 264 pastas do tipo C em caixas organizadoras. Todas as caixas devem conter o mesmo número de pastas, sendo que cada caixa conterá pastas de um único tipo, e o número de pastas por caixa deve ser o **maior possível**, sem que sobre nenhuma pasta avulsa.
 
@@ -368,6 +403,9 @@ Nessas condições, o **número total de caixas organizadoras** necessárias par
 * **C)** 32
 * **D)** 36
 * **E)** 48
+
+
+---
 
 > **Comentário Detalhado:**
 > A resolução compõe-se de duas etapas lógicas:
@@ -402,7 +440,10 @@ Nessas condições, o **número total de caixas organizadoras** necessárias par
 Para quaisquer dois números inteiros positivos $a$ e $b$, o produto entre o seu MMC e o seu MDC é rigorosamente igual ao produto entre os próprios números:
 $$\text{MMC}(a, b) \times \text{MDC}(a, b) = a \times b$$
 
+
+
 ---
+
 
 ## 4. Álgebra Fracionária e Operações com Frações
 
@@ -428,7 +469,7 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
    $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{a \cdot d}{b \cdot c} \quad (c, d \neq 0)$$
 
 
-### Questão 07
+### Teste 078
 **(FCC – TRT-14 – Analista Judiciário)**  
 Um servidor do tribunal recebeu determinado lote de processos para instruir. No primeiro dia, analisou $\frac{2}{5}$ do total de processos; no segundo dia, analisou $\frac{1}{3}$ do que havia sobrado; e, no terceiro dia, concluiu os últimos $24$ processos restantes. O número total de processos contidos no lote original era igual a:
 
@@ -437,6 +478,9 @@ Um servidor do tribunal recebeu determinado lote de processos para instruir. No 
 * **C)** $75$
 * **D)** $80$
 * **E)** $90$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -454,9 +498,10 @@ Um servidor do tribunal recebeu determinado lote de processos para instruir. No 
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 5. Modelagem e Resolução de Problemas no Padrão FCC
 
@@ -473,7 +518,7 @@ Problemas clássicos da FCC narram um agente que consome uma fração de um mont
 
 ---
 
-### Questão 08
+### Teste 079
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Um auditor do TCE-GO foi designado para realizar a conferência documental de uma amostra de processos de licitação municipal. No primeiro dia de trabalho, o auditor analisou $\frac{1}{3}$ do total de processos da amostra. No segundo dia, analisou $\frac{3}{5}$ dos processos **restantes**. No terceiro dia, finalizou a conferência analisando os últimos 48 processos.
 
@@ -484,6 +529,9 @@ O número total de processos contidos originalmente nessa amostra era:
 * **C)** 180
 * **D)** 200
 * **E)** 240
+
+
+---
 
 > **Comentário Detalhado:**
 > Modelando o problema algebricamente:
@@ -520,7 +568,7 @@ $$T = \frac{t_1 \cdot t_2}{t_1 + t_2}$$
 
 ---
 
-### Questão 09
+### Teste 080
 **(FCC – TRT – Técnico Judiciário)**  
 Dois técnicos de controle externo, Bruno e Camila, foram encarregados de digitalizar e indexar um acervo de processos arquivados. Trabalhando sozinho, Bruno realiza todo o serviço em 6 horas. Camila, trabalhando sozinha, executa o mesmo serviço em 4 horas. 
 
@@ -531,6 +579,9 @@ Se Bruno e Camila trabalharem juntos, no mesmo ritmo de produtividade constante,
 * **C)** 2 horas e 30 minutos
 * **D)** 2 horas e 40 minutos
 * **E)** 5 horas
+
+
+---
 
 > **Comentário Detalhado:**
 > Problema clássico de trabalho cooperativo e soma de taxas operatórias:
@@ -569,7 +620,7 @@ Em problemas que constroem sequências infinitas repetindo ciclicamente um conju
 4. **Se o resto $r = 0$:** O termo procurado é o último elemento do ciclo (o $k$-ésimo elemento).
 
 
-### Questão 10
+### Teste 081
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Considere a sequência infinita de letras:  
 $$T, C, E, G, O, I, A, S, T, C, E, G, O, I, A, S, T, C, E, ...$$  
@@ -580,6 +631,9 @@ formada pela repetição contínua do bloco de palavras *"TCEGOIAS"*. A letra qu
 * **C)** E
 * **D)** G
 * **E)** S
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -597,9 +651,10 @@ formada pela repetição contínua do bloco de palavras *"TCEGOIAS"*. A letra qu
 >
 > **Gabarito: C**
 
----
+
 
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

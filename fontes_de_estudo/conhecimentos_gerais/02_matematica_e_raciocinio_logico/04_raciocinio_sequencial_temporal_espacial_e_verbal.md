@@ -5,7 +5,10 @@
 > **Arquivo:** `04_raciocinio_sequencial_temporal_espacial_e_verbal.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Compreensão e elaboração da lógica das situações por meio de:
@@ -15,33 +18,48 @@
     - Raciocínio verbal e matemático aplicado.
     - Problemas de verdades e mentiras.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Raciocínio Sequencial e Padrões Numéricos e Literais](#1-raciocinio-sequencial-e-padroes-numericos-e-literais)
-    - [1.1 Sequências Numéricas e Relações de Recorrência](#11-sequencias-numericas-e-relacoes-de-recorrencia)
-    - [1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial](#12-sequencias-alfanumericas-e-ordem-alfabetica-oficial)
-    - [1.3 Padrões Literais por Iniciais Semânticas](#13-padroes-literais-por-iniciais-semanticas)
-    - [1.4 Sequências Cíclicas e Resolução por Aritmética Modular](#14-sequencias-ciclicas-e-resolucao-por-aritmetica-modular)
-- [2. Orientação Temporal, Calendários e Relógios](#2-orientacao-temporal-calendarios-e-relogios)
-    - [2.1 Contagem de Dias e Aritmética Módulo 7](#21-contagem-de-dias-e-aritmetica-modulo-7)
-    - [2.2 Regras de Anos Bissextos e Deslocamento Anual](#22-regras-de-anos-bissextos-e-deslocamento-anual)
-    - [2.3 Cálculo do Ângulo entre Ponteiros de Relógio](#23-calculo-do-angulo-entre-ponteiros-de-relogio)
-    - [2.4 Relações Temporais Relativas de Ontem e Amanhã](#24-relacoes-temporais-relativas-de-ontem-e-amanha)
-- [3. Orientação Espacial, Transformações e Dobradura de Figuras](#3-orientacao-espacial-transformacoes-e-dobradura-de-figuras)
-    - [3.1 Rotações no Plano Bidimensional e Reflexões Axiais](#31-rotacoes-no-plano-bidimensional-e-reflexoes-axiais)
-    - [3.2 Planificação e Montagem de Cubos: A Regra das Faces Opostas](#32-planificacao-e-montagem-de-cubos-a-regra-das-faces-opostas)
-    - [3.3 Vistas Ortogonais de Pilhas de Blocos e Cubos](#33-vistas-ortogonais-de-pilhas-de-blocos-e-cubos)
-- [4. Formação de Conceitos e Discriminação de Elementos](#4-formacao-de-conceitos-e-discriminacao-de-elementos)
-    - [4.1 Identificação do Elemento Intruso em Conjuntos](#41-identificacao-do-elemento-intruso-em-conjuntos)
-    - [4.2 Analogias Estruturais e Geométricas](#42-analogias-estruturais-e-geometricas)
-- [5. Raciocínio Verbal e Problemas de Verdades e Mentiras](#5-raciocinio-verbal-e-problemas-de-verdades-e-mentiras)
-    - [5.1 O Princípio do Terceiro Excluído e da Não Contradição](#51-o-principio-do-terceiro-excluido-e-da-nao-contradicao)
-    - [5.2 O Método do Par Contraditório](#52-o-metodo-do-par-contraditorio)
-    - [5.3 O Método da Suposição Hipotética Dirigida](#53-o-metodo-da-suposicao-hipotetica-dirigida)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Raciocínio Sequencial e Padrões Numéricos e Literais](#1-raciocinio-sequencial-e-padroes-numericos-e-literais)
+    1. [Sequências Numéricas e Relações de Recorrência](#11-sequencias-numericas-e-relacoes-de-recorrencia)
+    2. [Teste 102](#Teste-102)
+    3. [Sequências Alfanuméricas e Ordem Alfabética Oficial](#12-sequencias-alfanumericas-e-ordem-alfabetica-oficial)
+    4. [Teste 103](#Teste-103)
+    5. [Padrões Literais por Iniciais Semânticas](#13-padroes-literais-por-iniciais-semanticas)
+    6. [Sequências Cíclicas e Resolução por Aritmética Modular](#14-sequencias-ciclicas-e-resolucao-por-aritmetica-modular)
+    7. [Teste 104](#Teste-104)
+2. [Orientação Temporal, Calendários e Relógios](#2-orientacao-temporal-calendarios-e-relogios)
+    1. [Contagem de Dias e Aritmética Módulo 7](#21-contagem-de-dias-e-aritmetica-modulo-7)
+    2. [Teste 105](#Teste-105)
+    3. [Regras de Anos Bissextos e Deslocamento Anual](#22-regras-de-anos-bissextos-e-deslocamento-anual)
+    4. [Cálculo do Ângulo entre Ponteiros de Relógio](#23-calculo-do-angulo-entre-ponteiros-de-relogio)
+    5. [Relações Temporais Relativas de Ontem e Amanhã](#24-relacoes-temporais-relativas-de-ontem-e-amanha)
+    6. [Teste 106](#Teste-106)
+3. [Orientação Espacial, Transformações e Dobradura de Figuras](#3-orientacao-espacial-transformacoes-e-dobradura-de-figuras)
+    1. [Rotações no Plano Bidimensional e Reflexões Axiais](#31-rotacoes-no-plano-bidimensional-e-reflexoes-axiais)
+    2. [Planificação e Montagem de Cubos: A Regra das Faces Opostas](#32-planificacao-e-montagem-de-cubos-a-regra-das-faces-opostas)
+    3. [Teste 107](#Teste-107)
+    4. [Vistas Ortogonais de Pilhas de Blocos e Cubos](#33-vistas-ortogonais-de-pilhas-de-blocos-e-cubos)
+    5. [Teste 108](#Teste-108)
+4. [Formação de Conceitos e Discriminação de Elementos](#4-formacao-de-conceitos-e-discriminacao-de-elementos)
+    1. [Identificação do Elemento Intruso em Conjuntos](#41-identificacao-do-elemento-intruso-em-conjuntos)
+    2. [Analogias Estruturais e Geométricas](#42-analogias-estruturais-e-geometricas)
+    3. [Teste 109](#Teste-109)
+5. [Raciocínio Verbal e Problemas de Verdades e Mentiras](#5-raciocinio-verbal-e-problemas-de-verdades-e-mentiras)
+    1. [O Princípio do Terceiro Excluído e da Não Contradição](#51-o-principio-do-terceiro-excluido-e-da-nao-contradicao)
+    2. [O Método do Par Contraditório](#52-o-metodo-do-par-contraditorio)
+    3. [Teste 110](#Teste-110)
+    4. [O Método da Suposição Hipotética Dirigida](#53-o-metodo-da-suposicao-hipotetica-dirigida)
+    5. [Teste 111](#Teste-111)
+6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Raciocínio Sequencial e Padrões Numéricos e Literais
 
@@ -60,7 +78,7 @@ As sequências de números exploradas em concursos estruturam-se segundo diferen
 
 ---
 
-### Questão 01
+### Teste 102
 **(FCC – TCE-GO – Tecnologia da Informação)**  
 Considere a sequência numérica infinita cujos primeiros termos são apresentados a seguir:
 $$3, 5, 9, 17, 33, 65, \dots$$
@@ -72,6 +90,9 @@ O próximo termo dessa sequência e a lei de formação que rege seus elementos 
 * **C)** 97 e a soma dos dois termos anteriores
 * **D)** 130 e potências consecutivas de 3
 * **E)** 131 e a soma das diferenças sucessivas multiplicadas por 3
+
+
+---
 
 > **Comentário Detalhado:**
 > Identificação da lei de formação por diferenças e recorrência:
@@ -118,7 +139,7 @@ As sequências que intercalam letras e números utilizam a posição ordinal das
 
 ---
 
-### Questão 02
+### Teste 103
 **(FCC – TCE-GO – Técnico de Controle Externo)**  
 Um servidor do TCE-GO elaborou uma rotina automatizada para numerar lotes de fiscalização repetindo indefinidamente a palavra **"CONTROLE"**, sem espaços, gerando a seguinte sequência contínua de letras:
 $$\text{C, O, N, T, R, O, L, E, C, O, N, T, R, O, L, E, C, O, N}\dots$$
@@ -130,6 +151,9 @@ Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o
 * **C)** N e 507
 * **D)** O e 506
 * **E)** T e 507
+
+
+---
 
 > **Comentário Detalhado:**
 > Análise do padrão cíclico e frequência da letra:
@@ -194,7 +218,7 @@ flowchart TD
 4. **Se $r = 0$:** A divisão foi exata, o que significa que o termo coincide exatamente com o **último elemento do bloco**.
 
 
-### Questão 03
+### Teste 104
 **(FCC – TRT-23 – Analista Judiciário)**  
 Considere a sucessão lógica de letras:  
 $$U, D, T, Q, C, S, S, O, N, ...$$  
@@ -205,6 +229,9 @@ A próxima letra que dá continuidade lógica e consistente a essa sequência é
 * **C)** O
 * **D)** T
 * **E)** Q
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -234,9 +261,10 @@ ightarrow$ Nove
 >
 > **Gabarito: A**
 
----
+
 
 ---
+
 
 ## 2. Orientação Temporal, Calendários e Relógios
 
@@ -253,7 +281,7 @@ Avança-se 1 dia a partir da quinta-feira, alcançando-se infalivelmente a **sex
 
 ---
 
-### Questão 04
+### Teste 105
 **(FCC – TRT – Analista Judiciário)**  
 O Tribunal de Contas publicou um acórdão condenatório em sua sessão plenária realizada em uma **quinta-feira**. O regimento interno concede um prazo improrrogável de exatamente **43 dias corridos**, contados a partir do primeiro dia seguinte ao da publicação, para a interposição de recurso ordinário.
 
@@ -264,6 +292,9 @@ O último dia desse prazo de 43 dias corridos recairá em uma:
 * **C)** Quarta-feira
 * **D)** Quinta-feira
 * **E)** Sexta-feira
+
+
+---
 
 > **Comentário Detalhado:**
 > Aplicação da aritmética modular de base 7:
@@ -324,7 +355,7 @@ Problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de
 Monta-se uma equação de primeiro grau simples para encontrar a posição do dia de referência.
 
 
-### Questão 05
+### Teste 106
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Um relógio analógico convencional de ponteiros marca exatamente $3$ horas e $40$ minutos. A medida do menor ângulo formado entre o ponteiro das horas e o ponteiro dos minutos nesse instante é igual a:
 
@@ -333,6 +364,9 @@ Um relógio analógico convencional de ponteiros marca exatamente $3$ horas e $4
 * **C)** $140^\circ$
 * **D)** $150^\circ$
 * **E)** $115^\circ$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -350,9 +384,10 @@ Um relógio analógico convencional de ponteiros marca exatamente $3$ horas e $4
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 3. Orientação Espacial, Transformações e Dobradura de Figuras
 
@@ -382,7 +417,7 @@ A planificação de um hexaedro regular (cubo) compõe-se de 6 quadrados dispost
 
 ---
 
-### Questão 06
+### Teste 107
 **(FCC – TCE-PI – Analista de Sistemas)**  
 Observe a planificação de um dado cúbico convencional, cujas faces contêm os símbolos $\heartsuit$, $\spadesuit$, $\diamondsuit$, $\clubsuit$, $\bigstar$ e $\blacktriangle$:
 
@@ -399,6 +434,9 @@ Ao montar o cubo a partir dessa planificação, a face que ficará **diametralme
 * **C)** Paus ($\clubsuit$)
 * **D)** Estrela ($\bigstar$)
 * **E)** Triângulo ($\blacktriangle$)
+
+
+---
 
 > **Comentário Detalhado:**
 > Análise estrutural de planificação e dobradura de cubos:
@@ -433,7 +471,7 @@ Consiste em determinar a projeção visual bidimensional de uma estrutura tridim
 * Vista Lateral Esquerda ou Direita.
 
 
-### Questão 07
+### Teste 108
 **(FCC – METRÔ-SP – Analista)**  
 Uma pilha maciça de cubos idênticos de $1\text{ cm}$ de aresta foi montada sobre uma mesa plana de modo que sua vista frontal e sua vista lateral direita são ambas formadas por uma grade quadrada de $3 \times 3$ cubos completamente preenchida. O número MÍNIMO de cubinhos necessários para formar essa pilha é:
 
@@ -442,6 +480,9 @@ Uma pilha maciça de cubos idênticos de $1\text{ cm}$ de aresta foi montada sob
 * **C)** $15$
 * **D)** $18$
 * **E)** $27$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -457,9 +498,10 @@ Uma pilha maciça de cubos idênticos de $1\text{ cm}$ de aresta foi montada sob
 >
 > **Gabarito: A**
 
----
+
 
 ---
+
 
 ## 4. Formação de Conceitos e Discriminação de Elementos
 
@@ -476,7 +518,7 @@ Exige identificar a propriedade lógica oculta que une a maioria dos elementos d
 Resolvem-se pela equivalência de transformações: *"A está para B assim como C está para D"*. Identifica-se qual mutação (rotação de $90^\circ$, inversão de cores, acréscimo de um lado poligonal) operou a passagem de A para B e replica-se essa exata transformação sobre a figura C para encontrar D.
 
 
-### Questão 08
+### Teste 109
 **(FCC – DPE-RS – Analista)**  
 Considere o conjunto de cinco palavras a seguir:  
 *Goiânia*, *Curitiba*, *Brasília*, *Teresina*, *Manaus*
@@ -488,6 +530,9 @@ Quatro dessas palavras guardam uma característica lógica comum que as reúne e
 * **C)** Brasília
 * **D)** Teresina
 * **E)** Manaus
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -502,9 +547,10 @@ Quatro dessas palavras guardam uma característica lógica comum que as reúne e
 >
 > **Gabarito: C**
 
----
+
 
 ---
+
 
 ## 5. Raciocínio Verbal e Problemas de Verdades e Mentiras
 
@@ -530,7 +576,7 @@ flowchart LR
 
 ---
 
-### Questão 09
+### Teste 110
 **(FCC – TCE-GO – Auditor de Controle Externo)**  
 Durante uma auditoria interna para apurar o vazamento de um relatório sigiloso, quatro servidores — Daniel, Eduardo, Fernando e Gabriel — foram interrogados e fizeram as seguintes declarações:
 - Daniel: *"Fernando é o responsável pelo vazamento."*  
@@ -544,6 +590,9 @@ Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles 
 * **C)** Daniel e Daniel
 * **D)** Eduardo e Eduardo
 * **E)** Gabriel e Daniel
+
+
+---
 
 > **Comentário Detalhado:**
 > Resolução estruturada pelo método do par contraditório:
@@ -577,7 +626,7 @@ Caso não haja contradição explícita direta entre os depoimentos:
 4. Se gerar quantidade diferente de mentirosos, descarta-se e testa-se o próximo suspeito.
 
 
-### Questão 10
+### Teste 111
 **(FCC – TRT-14 – Analista Judiciário)**  
 Três suspeitos de vazar um relatório confidencial de auditoria prestaram os seguintes depoimentos:  
 - **Alberto:** *"Bruno é culpado."*  
@@ -591,6 +640,9 @@ Sabe-se que exatamente um dos três suspeitos disse a verdade e que apenas um de
 * **C)** Bruno e Carlos
 * **D)** Carlos e Bruno
 * **E)** Alberto e Carlos
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -613,9 +665,10 @@ Sabe-se que exatamente um dos três suspeitos disse a verdade e que apenas um de
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

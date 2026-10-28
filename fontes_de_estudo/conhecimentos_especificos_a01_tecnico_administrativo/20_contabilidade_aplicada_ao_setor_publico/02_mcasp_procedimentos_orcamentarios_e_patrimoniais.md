@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `02_mcasp_procedimentos_orcamentarios_e_patrimoniais.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -22,26 +25,32 @@
     - Teste de Redução ao Valor Recuperável de Ativos (*Impairment Test*): conceitos e aplicação a ativos geradores e não geradores de caixa;
     - Provisões e desreconhecimento de ativos.
 
----
 
-## 🧭 Sumário Interativo
-- [1. O Dualismo de Regimes na Contabilidade Pública (Orçamentário vs. Patrimonial)](#1-o-dualismo-de-regimes-na-contabilidade-publica-orcamentario-vs-patrimonial)
-    - [1.1 O Regime Orçamentário da Lei nº 4.320/1964 (Art. 35)](#11-o-regime-orcamentario-da-lei-no-43201964-art-35)
-    - [1.2 O Regime Patrimonial da Competência Integral (MCASP e NBC TSP)](#12-o-regime-patrimonial-da-competencia-integral-mcasp-e-nbc-tsp)
-    - [1.3 Quadro Sinótico de Confronto e Fatos Contábeis](#13-quadro-sinotico-de-confronto-e-fatos-contabeis)
-- [2. Variações Patrimoniais: Classificações e Origens](#2-variacoes-patrimoniais-classificacoes-e-origens)
-    - [2.1 Variações Qualitativas (Permutativas) vs. Quantitativas (Modificativas)](#21-variacoes-qualitativas-permutativas-vs-quantitativas-modificativas)
-    - [2.2 Variações Resultantes vs. Independentes da Execução Orçamentária](#22-variacoes-resultantes-vs-independentes-da-execucao-orcamentaria)
-- [3. Procedimentos Patrimoniais Aplicados ao Ativo Imobilizado](#3-procedimentos-patrimoniais-aplicados-ao-ativo-imobilizado)
-    - [3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura](#31-mensuracao-inicial-custos-atribuiveis-e-bens-de-infraestrutura)
-    - [3.2 Depreciação, Amortização e Exaustão: Conceitos e Fórmulas](#32-depreciacao-amortizacao-e-exaustao-conceitos-e-formulas)
-    - [3.3 Ativos que NÃO Sofrem Depreciação Periódica](#33-ativos-que-nao-sofrem-depreciacao-periodica)
-- [4. Teste de Redução ao Valor Recuperável de Ativos (*Impairment Test*)](#4-teste-de-reducao-ao-valor-recuperavel-de-ativos-impairment-test)
-    - [4.1 Mecanismo de Aferição do Valor Recuperável](#41-mecanismo-de-afericao-do-valor-recuperavel)
-    - [4.2 Reconhecimento Contábil da Perda e Reversões](#42-reconhecimento-contabil-da-perda-e-reversoes)
-- [5. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [O Dualismo de Regimes na Contabilidade Pública (Orçamentário vs. Patrimonial)](#1-o-dualismo-de-regimes-na-contabilidade-publica-orcamentario-vs-patrimonial)
+    2. [Teste 270](#Teste-270)
+    3. [Teste 271](#Teste-271)
+    4. [Teste 272](#Teste-272)
+    5. [Variações Patrimoniais: Classificações e Origens](#2-variacoes-patrimoniais-classificacoes-e-origens)
+    6. [Teste 273](#Teste-273)
+    7. [Teste 274](#Teste-274)
+    8. [Procedimentos Patrimoniais Aplicados ao Ativo Imobilizado](#3-procedimentos-patrimoniais-aplicados-ao-ativo-imobilizado)
+    9. [Teste 275](#Teste-275)
+    10. [Teste 276](#Teste-276)
+    11. [Teste 277](#Teste-277)
+    12. [Teste de Redução ao Valor Recuperável de Ativos (*Impairment Test*)](#4-teste-de-reducao-ao-valor-recuperavel-de-ativos-impairment-test)
+    13. [Teste 278](#Teste-278)
+    14. [Teste 279](#Teste-279)
+2. [Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+
+---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -66,7 +75,8 @@ O art. 35 da Lei Federal nº 4.320/1964 disciplina a apropriação dos créditos
 
 ---
 
-### Questão 01 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Teste 270
+**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 No tocante ao regime contábil aplicado no setor público, analise as afirmativas a seguir:
 
 I. De acordo com a Lei nº 4.320/1964 (Art. 35), o regime orçamentário é misto, pertencendo ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas.  
@@ -82,6 +92,9 @@ Está correto o que se afirma em:
 * **C)** II e III, apenas.
 * **D)** I e III, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -114,7 +127,8 @@ No âmbito patrimonial (MCASP e NBC TSP Estrutura Conceitual), vigora o **regime
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista Contábil de Controle)
+### Teste 271
+**(FCC - Adaptada / Analista Contábil de Controle)**
 Determinada entidade governamental adquiriu, mediante regular processo licitatório, um lote de microcomputadores para suas secretarias no valor total de R$ 100.000,00. A despesa foi devidamente empenhada, liquidada com o recebimento das máquinas e integralmente paga em dinheiro à empresa fornecedora.
 
 Sob a ótica patrimonial e orçamentária, essa transação completa caracteriza-se como:
@@ -124,6 +138,9 @@ Sob a ótica patrimonial e orçamentária, essa transação completa caracteriza
 * **C)** Fato modificativo diminutivo que reduz o Patrimônio Líquido em R$ 100.000,00 no ato da compra.
 * **D)** Variação patrimonial independente da execução orçamentária.
 * **E)** Transação extraorçamentária que dispensa registro no subsistema patrimonial.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -139,7 +156,8 @@ Sob a ótica patrimonial e orçamentária, essa transação completa caracteriza
 
 
 
-### Questão 03 (FCC - Adaptada / Analista Contábil)
+### Teste 272
+**(FCC - Adaptada / Analista Contábil)**
 No âmbito da Contabilidade Aplicada ao Setor Público (CASP), a coexistência dos regimes orçamentário e patrimonial decorre da aplicação simultânea da Lei Federal nº 4.320/1964 e das normas internacionais de contabilidade (NBC TSP / MCASP).
 
 A respeito da aplicação dos regimes contábeis, assinale a afirmativa correta:
@@ -149,6 +167,9 @@ A respeito da aplicação dos regimes contábeis, assinale a afirmativa correta:
 * **C)** O regime orçamentário adota a competência integral para as receitas públicas e a caixa estrita para as despesas públicas.
 * **D)** O reconhecimento patrimonial de uma obrigação pública subordina-se à emissão prévia de autorização de saque pelo Tesouro Estadual.
 * **E)** O fato gerador da despesa coincide obrigatoriamente com o ato administrativo da fixação orçamentária anual constante da LOA.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -186,7 +207,8 @@ flowchart LR
 
 ---
 
-### Questão 04 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 273
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Determinado órgão público estadual recebeu, em doação incondicional de particular, um terreno avaliado a valor justo de mercado em R$ 800.000,00 para futura construção de um posto fiscal de fronteira.
 
 Sob a ótica do Manual de Contabilidade Aplicada ao Setor Público (MCASP 11ª edição):
@@ -196,6 +218,9 @@ Sob a ótica do Manual de Contabilidade Aplicada ao Setor Público (MCASP 11ª e
 * **C)** O bem não pode ser registrado no ativo imobilizado até que a obra do posto fiscal seja integralmente concluída e aceita pela fiscalização.
 * **D)** A operação constitui um fato meramente qualitativo (permutativo), uma vez que não envolveu fluxo financeiro em moeda corrente.
 * **E)** O terreno recebido deverá sofrer depreciação periódica anual linear à alíquota contábil de 4% ao ano.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -211,7 +236,8 @@ Sob a ótica do Manual de Contabilidade Aplicada ao Setor Público (MCASP 11ª e
 
 
 
-### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 274
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na Contabilidade Pública, as Variações Patrimoniais classificam-se quanto ao impacto sobre a situação líquida (qualitativas vs. quantitativas) e quanto à vinculação ao orçamento (resultantes vs. independentes da execução orçamentária).
 
 Constitui uma Variação Patrimonial Diminutiva (VPD) **independente da execução orçamentária**:
@@ -221,6 +247,9 @@ Constitui uma Variação Patrimonial Diminutiva (VPD) **independente da execuç�
 * **C)** A aquisição de veículos novos mediante licitação e pagamento com recursos correntes.
 * **D)** A contratação de serviços de consultoria técnica especializada com nota de empenho global.
 * **E)** A amortização do principal da dívida pública contratual de longo prazo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -258,7 +287,8 @@ $$\text{Quota Periódica de Depreciação (Método Linear)} = \frac{\text{Valor 
 
 ---
 
-### Questão 06 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Teste 275
+**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 Em relação aos conceitos de depreciação, amortização e teste de recuperabilidade (*impairment*) aplicados aos ativos do setor público, assinale a opção correta:
 
 * **A)** O valor depreciável de um bem corresponde ao seu custo histórico de aquisição somado ao valor residual estimado ao término de sua vida útil.
@@ -266,6 +296,9 @@ Em relação aos conceitos de depreciação, amortização e teste de recuperabi
 * **C)** O teste de recuperabilidade é dispensável no setor público quando o ativo imobilizado não for utilizado diretamente na geração de receitas comerciais ou de lucro.
 * **D)** A redução ao valor recuperável ocorre quando o valor contábil líquido de um ativo for superior ao seu valor recuperável, devendo a perda ser reconhecida no resultado patrimonial como variação patrimonial diminutiva (VPD).
 * **E)** A amortização aplica-se aos bens corpóreos que sofrem desgaste físico ou perecimento gradual ao longo do tempo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -279,7 +312,8 @@ Em relação aos conceitos de depreciação, amortização e teste de recuperabi
 
 ---
 
-### Questão 07 (FCC - Adaptada / Técnico de Controle Externo)
+### Teste 276
+**(FCC - Adaptada / Técnico de Controle Externo)**
 Uma viatura policial foi adquirida pelo Estado de Goiás por R$ 120.000,00. A vida útil estimada do veículo é de 5 anos (60 meses) e a comissão de avaliação patrimonial fixou um valor residual de R$ 20.000,00 para o final do período.
 
 Utilizando o método das quotas constantes (linear) preconizado pelo MCASP, o valor depreciável do bem e o valor da quota mensal de depreciação a ser lançada como VPD são, respectivamente:
@@ -289,6 +323,9 @@ Utilizando o método das quotas constantes (linear) preconizado pelo MCASP, o va
 * **C)** R$ 100.000,00 e R$ 2.000,00.
 * **D)** R$ 120.000,00 e R$ 1.666,67.
 * **E)** R$ 140.000,00 e R$ 2.333,33.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -315,7 +352,8 @@ O MCASP elenca expressamente os ativos públicos que não estão sujeitos à dep
 
 ---
 
-### Questão 08 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+### Teste 277
+**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
 Segundo as disposições do MCASP e da NBC TSP 07 (Ativo Imobilizado), a depreciação de um bem público:
 
 * **A)** Deve iniciar-se no momento em que o ativo estiver disponível para uso, no local e nas condições necessárias para operar da forma pretendida pela administração, e não cessa quando o ativo se torna ocioso.
@@ -323,6 +361,9 @@ Segundo as disposições do MCASP e da NBC TSP 07 (Ativo Imobilizado), a depreci
 * **C)** É calculada sobre o valor original total do bem, sendo expressamente proibida a dedução de qualquer valor residual na fórmula de cálculo.
 * **D)** Aplica-se compulsoriamente a todos os terrenos e obras de arte de acervos públicos históricos.
 * **E)** Interrompe-se temporariamente sempre que o órgão público entrar em recesso administrativo parlamentar ou judiciário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -360,7 +401,8 @@ flowchart TD
 
 ---
 
-### Questão 09 (FCC - Adaptada / SEFAZ-PE - Auditor Fiscal do Tesouro Estadual)
+### Teste 278
+**(FCC - Adaptada / SEFAZ-PE - Auditor Fiscal do Tesouro Estadual)**
 Em relação ao Teste de Redução ao Valor Recuperável (*Impairment Test*), disciplinado pela NBC TSP 09 (Ativos Não Geradores de Caixa) e NBC TSP 10 (Ativos Geradores de Caixa), é correto afirmar:
 
 * **A)** Se o valor recuperável de um ativo for inferior ao seu valor contábil líquido, o valor contábil do ativo deve ser reduzido ao seu valor recuperável, reconhecendo-se essa redução imediatamente como Variação Patrimonial Diminutiva (VPD).
@@ -368,6 +410,9 @@ Em relação ao Teste de Redução ao Valor Recuperável (*Impairment Test*), di
 * **C)** Uma perda por redução ao valor recuperável reconhecida em períodos anteriores para um ativo jamais poderá ser revertida em exercícios futuros.
 * **D)** O valor recuperável de um ativo não gerador de caixa corresponde unicamente ao valor líquido de venda no mercado de leilões públicos.
 * **E)** A constatação de obsolescência tecnológica relevante de um equipamento de TI não constitui indício para realização do teste de redução ao valor recuperável.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -381,7 +426,8 @@ Em relação ao Teste de Redução ao Valor Recuperável (*Impairment Test*), di
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 279
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 Determinado órgão público estadual efetuou a aquisição de um imóvel no valor de R$ 5.000.000,00 mediante regular processo licitatório, efetuando o pagamento à vista através de ordem bancária vinculada a dotação de despesa de capital (GND 4 - Investimentos).
 
 Sob o enfoque estritamente patrimonial da Contabilidade Pública, essa transação corresponde a:
@@ -392,6 +438,9 @@ Sob o enfoque estritamente patrimonial da Contabilidade Pública, essa transaç�
 * **D)** Um fato contábil misto aumentativo, pois os imóveis públicos não se desvalorizam economicamente.
 * **E)** Um ato potencial ativo a ser escriturado apenas nas classes 7 e 8 do PCASP.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. A aquisição de bens do ativo imobilizado (bens de capital) com recursos do ativo circulante (disponibilidades) constitui **fato contábil permutativo (variação qualitativa)**: altera a composição qualitativa do patrimônio (sai dinheiro do banco e entra imóvel no imobilizado), mantendo inalterado o valor do Patrimônio Líquido.
@@ -401,6 +450,8 @@ Sob o enfoque estritamente patrimonial da Contabilidade Pública, essa transaç�
 > - **E)** Incorreta. É fato contábil patrimonial efetivo, registrado nas classes 1 (Ativo).
 > 
 > **Gabarito: A**
+
+
 
 ---
 

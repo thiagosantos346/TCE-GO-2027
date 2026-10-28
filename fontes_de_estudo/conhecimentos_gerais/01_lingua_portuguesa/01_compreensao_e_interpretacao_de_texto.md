@@ -5,8 +5,9 @@
 > **Arquivo:** `01_compreensao_e_interpretacao_de_texto.md`  
 > **Referência Temática:** Teoria do Texto, Tipologias, Discurso Narrativo e Estilística na Banca FCC
 
+
 ---
---- 
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -19,63 +20,64 @@
 - Figuras de linguagem e recursos expressivos (Semânticas, Sintáticas/de Construção e Fonéticas);
 - Identificação de tese, estratégias argumentativas, pressupostos e subentendidos na tipologia dissertativa.
 
+
 ---
----
+
 
 ## 🧭 Sumário
 
 1. [Compreensão vs. Interpretação na Tradição da FCC](#1-compreensao-vs-interpretacao-na-tradicao-da-fcc)
     1. [Compreensão Textual e Informação Explícita](#11-compreensao-textual-e-informacao-explicita)
-    1. [Interpretação Textual e Inferência Autorizada](#12-interpretacao-textual-e-inferencia-autorizada)
-    1. [Os Três Erros Clássicos de Leitura](#13-os-tres-erros-classicos-de-leitura)
-    1. [Método Prático de Resolução](#14-metodo-pratico-de-resolucao)
-    1. [Teste 001](#Teste-001)
-1. [Gêneros Textuais e Contexto de Produção](#2-generos-textuais-e-contexto-de-producao)
+    2. [Interpretação Textual e Inferência Autorizada](#12-interpretacao-textual-e-inferencia-autorizada)
+    3. [Os Três Erros Clássicos de Leitura](#13-os-tres-erros-classicos-de-leitura)
+    4. [Método Prático de Resolução](#14-metodo-pratico-de-resolucao)
+    5. [Teste 001](#Teste-001)
+2. [Gêneros Textuais e Contexto de Produção](#2-generos-textuais-e-contexto-de-producao)
     1. [Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-genero-textual)
-    1. [Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-cronica-e-artigo-de-opiniao)
-    1. [Contexto Histórico, Cultural e Ideológico](#23-contexto-historico-cultural-e-ideologico)
-    1. [Teste 002](#Teste-002)
-1. [Tipologias Textuais](#3-tipologias-textuais)
+    2. [Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-cronica-e-artigo-de-opiniao)
+    3. [Contexto Histórico, Cultural e Ideológico](#23-contexto-historico-cultural-e-ideologico)
+    4. [Teste 002](#Teste-002)
+3. [Tipologias Textuais](#3-tipologias-textuais)
     1. [Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
-    1. [Narração e Descrição](#32-narracao-e-descricao)
-    1. [Exposição e Injunção](#33-exposicao-e-injuncao)
-    1. [Teste 003](#Teste-003)
-1. [Argumentação na Tipologia Dissertativa](#4-argumentacao-na-tipologia-dissertativa)
+    2. [Narração e Descrição](#32-narracao-e-descricao)
+    3. [Exposição e Injunção](#33-exposicao-e-injuncao)
+    4. [Teste 003](#Teste-003)
+4. [Argumentação na Tipologia Dissertativa](#4-argumentacao-na-tipologia-dissertativa)
     1. [Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
-    1. [Estratégias Argumentativas](#42-estrategias-argumentativas)
-    1. [Operadores Argumentativos](#43-operadores-argumentativos)
-    1. [Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
-    1. [Teste 004](#Teste-004)
-    1. [Teste 005](#Teste-005)
-1. [Níveis de Linguagem e Denotação e Conotação](#5-niveis-de-linguagem-e-denotacao-e-conotacao)
+    2. [Estratégias Argumentativas](#42-estrategias-argumentativas)
+    3. [Operadores Argumentativos](#43-operadores-argumentativos)
+    4. [Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
+    5. [Teste 004](#Teste-004)
+    6. [Teste 005](#Teste-005)
+5. [Níveis de Linguagem e Denotação e Conotação](#5-niveis-de-linguagem-e-denotacao-e-conotacao)
     1. [Linguagem Denotativa](#51-linguagem-denotativa)
-    1. [Linguagem Conotativa](#52-linguagem-conotativa)
-    1. [Teste 006](#Teste-006)
-1. [Modalidades de Discurso](#6-modalidades-de-discurso)
+    2. [Linguagem Conotativa](#52-linguagem-conotativa)
+    3. [Teste 006](#Teste-006)
+6. [Modalidades de Discurso](#6-modalidades-de-discurso)
     1. [Discurso Direto](#61-discurso-direto)
-    1. [Discurso Indireto](#62-discurso-indireto)
-    1. [Discurso Indireto Livre](#63-discurso-indireto-livre)
-    1. [Teste 007](#Teste-007)
-1. [Transposição de Discursos](#7-transposicao-de-discursos)
+    2. [Discurso Indireto](#62-discurso-indireto)
+    3. [Discurso Indireto Livre](#63-discurso-indireto-livre)
+    4. [Teste 007](#Teste-007)
+7. [Transposição de Discursos](#7-transposicao-de-discursos)
     1. [Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposicao-do-direto-para-o-indireto)
-    1. [Correlação Verbal e Armadilhas na Transposição](#72-correlacao-verbal-e-armadilhas-na-transposicao)
-    1. [Teste 008](#Teste-008)
-1. [Intertextualidade](#8-intertextualidade)
+    2. [Correlação Verbal e Armadilhas na Transposição](#72-correlacao-verbal-e-armadilhas-na-transposicao)
+    3. [Teste 008](#Teste-008)
+8. [Intertextualidade](#8-intertextualidade)
     1. [Paráfrase](#81-parafrase)
-    1. [Paródia](#82-parodia)
-    1. [Citação, Epígrafe e Alusão](#83-citacao-epigrafe-e-alusao)
-    1. [Teste 009](#Teste-009)
-1. [Figuras de Linguagem](#9-figuras-de-linguagem)
+    2. [Paródia](#82-parodia)
+    3. [Citação, Epígrafe e Alusão](#83-citacao-epigrafe-e-alusao)
+    4. [Teste 009](#Teste-009)
+9. [Figuras de Linguagem](#9-figuras-de-linguagem)
     1. [Figuras Semânticas ou de Palavra](#91-figuras-semanticas-ou-de-palavra)
-    1. [Figuras de Pensamento](#92-figuras-de-pensamento)
-    1. [Figuras de Construção ou de Sintaxe](#93-figuras-de-construcao-ou-de-sintaxe)
-    1. [Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-foneticas)
-    1. [Teste 010](#Teste-010)
-    1. [Teste 011](#Teste-011)
-1. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+    2. [Figuras de Pensamento](#92-figuras-de-pensamento)
+    3. [Figuras de Construção ou de Sintaxe](#93-figuras-de-construcao-ou-de-sintaxe)
+    4. [Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-foneticas)
+    5. [Teste 010](#Teste-010)
+    6. [Teste 011](#Teste-011)
+10. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
----
+
 
 ## 1. Compreensão vs. Interpretação na Tradição da FCC
 
@@ -141,8 +143,9 @@ Outro ponto importante é o **vocabulário em contexto**: a FCC frequentemente p
 
 > 💡 **DICA DE RESOLUÇÃO / RECONHECIMENTO DE TESE:** O primeiro parágrafo de um texto dissertativo da FCC normalmente contextualiza o tema e apresenta a tese. O último parágrafo sintetiza a conclusão. Se a questão indagar a ideia central, releia atentamente o início e o fim do texto antes de analisar as alternativas intermediárias.
 
+
 ---
----
+
 
 ### Teste 001
 
@@ -171,8 +174,9 @@ A partir da leitura atenta do texto, depreende-se corretamente que:
 > **Gabarito: C**
 
 
+
 ---
----
+
 
 ## 2. Gêneros Textuais e Contexto de Produção
 
@@ -229,8 +233,9 @@ Quanto ao gênero textual e ao contexto discursivo, é correto afirmar que o tex
 >
 > **Gabarito: B**
 
+
 ---
----
+
 
 ## 3. Tipologias Textuais
 
@@ -287,8 +292,9 @@ Sobre a tipologia textual do excerto, constata-se que:
 >
 > **Gabarito: C**
 
+
 ---
----
+
 
 ## 4. Argumentação na Tipologia Dissertativa
 
@@ -327,8 +333,9 @@ Os **operadores argumentativos** (conectivos e expressões de articulação) rev
 | **Restrição / Retificação** | *longe de, ao contrário, em vez de, aliás, ou melhor* | Nega uma visão para afirmar outra ("Longe de serem neutros, os algoritmos..."). |
 
 
+
 ---
----
+
 
 ### 4.4 Pressupostos e Subentendidos
 
@@ -394,8 +401,9 @@ A análise dos operadores argumentativos e dos implícitos linguísticos da fras
 >
 > **Gabarito: C**
 
+
 ---
----
+
 
 ## 5. Níveis de Linguagem e Denotação e Conotação
 
@@ -437,8 +445,9 @@ Assinale a alternativa em que a relação entre orações do texto expressa valo
 >
 > **Gabarito: C**
 
+
 ---
----
+
 
 ## 6. Modalidades de Discurso
 
@@ -506,8 +515,9 @@ No fragmento acima, a passagem assinalada pela oração interrogativa (*"Como so
 >
 > **Gabarito: C**
 
+
 ---
----
+
 
 ## 7. Transposição de Discursos
 
@@ -573,8 +583,9 @@ para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se cor
 >
 > **Gabarito: B**
 
+
 ---
---- 
+
 
 ## 8. Intertextualidade
 
@@ -629,8 +640,9 @@ Comparando os Textos I e II sob a perspectiva das relações intertextuais, veri
 >
 > **Gabarito: B**
 
+
 ---
----
+
 
 ## 9. Figuras de Linguagem
 
@@ -755,8 +767,9 @@ No trecho acima, a vírgula empregada após a palavra *"auditor"* assinala a oco
 >
 > **Gabarito: B**
 
+
 ---
----
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

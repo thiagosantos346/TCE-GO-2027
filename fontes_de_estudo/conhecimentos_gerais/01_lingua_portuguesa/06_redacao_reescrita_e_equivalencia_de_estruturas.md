@@ -5,7 +5,10 @@
 > **Arquivo:** `06_redacao_reescrita_e_equivalencia_de_estruturas.md`  
 > **Referência Temática:** Confronto de Frases, Paralelismo Sintático, Paráfrase e Reorganização Textual na FCC
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Redação: confronto e reconhecimento de frases corretas e incorretas segundo a norma culta;
@@ -17,41 +20,56 @@
 - Mecanismos de nominalização e concisão textual;
 - Emprego correto das quatro formas dos porquês (*por que*, *por quê*, *porque* e *porquê*).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC](#1-confronto-e-julgamento-de-frases-o-checklist-caca-erros-da-fcc)
-    - [1.1 Estratégia de Varredura e Identificação de Vícios Gramaticais](#11-estrategia-de-varredura-e-identificacao-de-vicios-gramaticais)
-    - [1.2 Vícios Recorrentes em Provas de Tribunais](#12-vicios-recorrentes-em-provas-de-tribunais)
-    - [1.3 Pronomes Retos Usados Indevidamente como Objetos](#13-pronomes-retos-usados-indevidamente-como-objetos)
-- [2. Paralelismo Sintático e Semântico](#2-paralelismo-sintatico-e-semantico)
-    - [2.1 Princípio da Simetria Estrutural em Termos Coordenados](#21-principio-da-simetria-estrutural-em-termos-coordenados)
-    - [2.2 Paralelismo em Estruturas Correlativas](#22-paralelismo-em-estruturas-correlativas)
-    - [2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção](#23-casos-tipicos-de-quebra-de-paralelismo-e-metodos-de-correcao)
-- [3. Ambiguidade e Vícios de Construção Frasal](#3-ambiguidade-e-vicios-de-construcao-frasal)
-    - [3.1 Ambiguidade Estrutural vs. Ambiguidade Lexical](#31-ambiguidade-estrutural-vs-ambiguidade-lexical)
-    - [3.2 Ambiguidade pelo Mau Emprego de Pronomes Possessivos (Seu/Sua)](#32-ambiguidade-pelo-mau-emprego-de-pronomes-possessivos-seusua)
-    - [3.3 O Mau Posicionamento de Adjuntos Adverbiais e Orações Reduzidas](#33-o-mau-posicionamento-de-adjuntos-adverbiais-e-oracoes-reduzidas)
-    - [3.4 O Emprego Vicioso do Vocábulo O Mesmo](#34-o-emprego-vicioso-do-vocabulo-o-mesmo)
-- [4. Organização e Reorganização de Orações e Períodos](#4-organizacao-e-reorganizacao-de-oracoes-e-periodos)
-    - [4.1 Ordem Direta e os Efeitos Comunicativos das Inversões](#41-ordem-direta-e-os-efeitos-comunicativos-das-inversoes)
-    - [4.2 Posicionamento Estratégico de Termos Intercalados e Pontuação](#42-posicionamento-estrategico-de-termos-intercalados-e-pontuacao)
-    - [4.3 Coesão Sequencial e Encadeamento Lógico de Argumentos](#43-coesao-sequencial-e-encadeamento-logico-de-argumentos)
-- [5. Equivalência, Transformação de Estruturas e Paráfrase](#5-equivalencia-transformacao-de-estruturas-e-parafrase)
-    - [5.1 Critérios Cumulativos da Paráfrase Legítima](#51-criterios-cumulativos-da-parafrase-legitima)
-    - [5.2 Transposição entre Orações Desenvolvidas e Reduzidas](#52-transposicao-entre-oracoes-desenvolvidas-e-reduzidas)
-    - [5.3 Matriz de Substituição e Equivalência de Conectivos](#53-matriz-de-substituicao-e-equivalencia-de-conectivos)
-    - [5.4 Mecanismos de Nominalização e Concisão Textual](#54-mecanismos-de-nominalizacao-e-concisao-textual)
-    - [5.5 Transposição de Vozes Verbais na Reescrita](#55-transposicao-de-vozes-verbais-na-reescrita)
-- [6. O Emprego Correto das Quatro Formas dos Porquês](#6-o-emprego-correto-das-quatro-formas-dos-porques)
-    - [6.1 Por que: Interrogativo e Relativo](#61-por-que-interrogativo-e-relativo)
-    - [6.2 Por quê: Isolado ou Imediatamente Antes de Pontuação](#62-por-que-isolado-ou-imediatamente-antes-de-pontuacao)
-    - [6.3 Porque: Conjunção Causal ou Explicativa](#63-porque-conjuncao-causal-ou-explicativa)
-    - [6.4 Porquê: Substantivo com Artigo ou Determinante](#64-porque-substantivo-com-artigo-ou-determinante)
-    - [6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A](#65-distincoes-lexicas-adicionais-a-fim-de-vs-afim-e-ao-encontro-de-vs-de-encontro-a)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC](#1-confronto-e-julgamento-de-frases-o-checklist-caca-erros-da-fcc)
+    1. [Estratégia de Varredura e Identificação de Vícios Gramaticais](#11-estrategia-de-varredura-e-identificacao-de-vicios-gramaticais)
+    2. [Vícios Recorrentes em Provas de Tribunais](#12-vicios-recorrentes-em-provas-de-tribunais)
+    3. [Pronomes Retos Usados Indevidamente como Objetos](#13-pronomes-retos-usados-indevidamente-como-objetos)
+    4. [Teste 052](#Teste-052)
+2. [Paralelismo Sintático e Semântico](#2-paralelismo-sintatico-e-semantico)
+    1. [Princípio da Simetria Estrutural em Termos Coordenados](#21-principio-da-simetria-estrutural-em-termos-coordenados)
+    2. [Paralelismo em Estruturas Correlativas](#22-paralelismo-em-estruturas-correlativas)
+    3. [Teste 053](#Teste-053)
+    4. [Casos Típicos de Quebra de Paralelismo e Métodos de Correção](#23-casos-tipicos-de-quebra-de-paralelismo-e-metodos-de-correcao)
+    5. [Teste 054](#Teste-054)
+3. [Ambiguidade e Vícios de Construção Frasal](#3-ambiguidade-e-vicios-de-construcao-frasal)
+    1. [Ambiguidade Estrutural vs. Ambiguidade Lexical](#31-ambiguidade-estrutural-vs-ambiguidade-lexical)
+    2. [Ambiguidade pelo Mau Emprego de Pronomes Possessivos (Seu/Sua)](#32-ambiguidade-pelo-mau-emprego-de-pronomes-possessivos-seusua)
+    3. [Teste 055](#Teste-055)
+    4. [O Mau Posicionamento de Adjuntos Adverbiais e Orações Reduzidas](#33-o-mau-posicionamento-de-adjuntos-adverbiais-e-oracoes-reduzidas)
+    5. [O Emprego Vicioso do Vocábulo O Mesmo](#34-o-emprego-vicioso-do-vocabulo-o-mesmo)
+    6. [Teste 056](#Teste-056)
+4. [Organização e Reorganização de Orações e Períodos](#4-organizacao-e-reorganizacao-de-oracoes-e-periodos)
+    1. [Ordem Direta e os Efeitos Comunicativos das Inversões](#41-ordem-direta-e-os-efeitos-comunicativos-das-inversoes)
+    2. [Posicionamento Estratégico de Termos Intercalados e Pontuação](#42-posicionamento-estrategico-de-termos-intercalados-e-pontuacao)
+    3. [Coesão Sequencial e Encadeamento Lógico de Argumentos](#43-coesao-sequencial-e-encadeamento-logico-de-argumentos)
+    4. [Teste 057](#Teste-057)
+5. [Equivalência, Transformação de Estruturas e Paráfrase](#5-equivalencia-transformacao-de-estruturas-e-parafrase)
+    1. [Critérios Cumulativos da Paráfrase Legítima](#51-criterios-cumulativos-da-parafrase-legitima)
+    2. [Transposição entre Orações Desenvolvidas e Reduzidas](#52-transposicao-entre-oracoes-desenvolvidas-e-reduzidas)
+    3. [Teste 058](#Teste-058)
+    4. [Matriz de Substituição e Equivalência de Conectivos](#53-matriz-de-substituicao-e-equivalencia-de-conectivos)
+    5. [Teste 059](#Teste-059)
+    6. [Mecanismos de Nominalização e Concisão Textual](#54-mecanismos-de-nominalizacao-e-concisao-textual)
+    7. [Transposição de Vozes Verbais na Reescrita](#55-transposicao-de-vozes-verbais-na-reescrita)
+6. [O Emprego Correto das Quatro Formas dos Porquês](#6-o-emprego-correto-das-quatro-formas-dos-porques)
+    1. [Por que: Interrogativo e Relativo](#61-por-que-interrogativo-e-relativo)
+    2. [Por quê: Isolado ou Imediatamente Antes de Pontuação](#62-por-que-isolado-ou-imediatamente-antes-de-pontuacao)
+    3. [Porque: Conjunção Causal ou Explicativa](#63-porque-conjuncao-causal-ou-explicativa)
+    4. [Porquê: Substantivo com Artigo ou Determinante](#64-porque-substantivo-com-artigo-ou-determinante)
+    5. [Teste 060](#Teste-060)
+    6. [Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A](#65-distincoes-lexicas-adicionais-a-fim-de-vs-afim-e-ao-encontro-de-vs-de-encontro-a)
+    7. [Teste 061](#Teste-061)
+7. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC
 
@@ -97,7 +115,7 @@ A língua culta formal não admite o uso de pronomes pessoais do caso reto (*ele
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Ao ler uma alternativa da FCC, desconfie sumariamente de sentenças que terminam com construções do tipo: *"A nova lei orçamentária trouxe regras rígidas e o gestor deve cumprir elas"*. Essa frase está eivada de erro gramatical inadmissível na norma culta! A forma exigida é com pronome oblíquo enclítico ajustado à terminação consonantal: *"deve cumpri-las"*.
 
 
-### Questão 01
+### Teste 052
 **(FCC – TRT-23 – Analista Judiciário)**  
 As normas de concordância, regência e colocação pronominal estão plenamente respeitadas na frase:
 
@@ -106,6 +124,9 @@ As normas de concordância, regência e colocação pronominal estão plenamente
 * **C)** Devem existir outros motivos para que os conselheiros tenham recusado a prestação de contas que enviou-se pelo prefeito.
 * **D)** Deve existir outros motivos para que os conselheiros hajam recusado a prestação de contas que o prefeito lhes enviou.
 * **E)** Deve haver outros motivos para que os conselheiros tinham recusado a prestação de contas que lhes enviou o prefeito.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -117,9 +138,10 @@ As normas de concordância, regência e colocação pronominal estão plenamente
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 2. Paralelismo Sintático e Semântico
 
@@ -142,7 +164,7 @@ Nas estruturas formadas por pares de conectivos correlativos (*não só... mas t
 
 ---
 
-### Questão 02
+### Teste 053
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 A frase cuja redação prima pela clareza, pela concisão e pela **estrita correção gramatical**, sem qualquer vício de paralelismo sintático ou de regência, é:
 
@@ -151,6 +173,9 @@ A frase cuja redação prima pela clareza, pela concisão e pela **estrita corre
 * **C)** *"O secretário alertou os diretores de que haveriam reuniões extraordinárias afim de deliberar sobre o plano estratégico."*
 * **D)** *"Não se deve desobedecer as normas regimentais, sob pena de incorrer em penalidades que todos querem evitar elas."*
 * **E)** *"O tribunal busca aprimorar os mecanismos de auditoria não só para conferir transparência aos atos mas garantindo a legalidade."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -176,7 +201,7 @@ A frase cuja redação prima pela clareza, pela concisão e pela **estrita corre
 
 ---
 
-### Questão 03
+### Teste 054
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A frase que apresenta **quebra de paralelismo sintático** é:
 
@@ -185,6 +210,9 @@ A frase que apresenta **quebra de paralelismo sintático** é:
 * **C)** *"A comissão de auditoria propôs a revisão das medições de asfalto e que se fizesse uma nova perícia técnica."*
 * **D)** *"O servidor público deve agir com probidade, transparência e presteza."*
 * **E)** *"O auditor atuou não apenas no levantamento documental, mas também na instrução probatória dos autos."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -196,8 +224,9 @@ A frase que apresenta **quebra de paralelismo sintático** é:
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 3. Ambiguidade e Vícios de Construção Frasal
@@ -221,7 +250,7 @@ No português moderno, os pronomes possessivos de terceira pessoa (*seu, sua, se
 
 ---
 
-### Questão 04
+### Teste 055
 **(FCC – AL-SP – Técnico Legislativo)**  
 Assinale a alternativa em que a reescrita da frase entre parênteses elimina a ambiguidade mantendo a clareza e a correção gramatical:  
 *(O presidente comunicou ao conselheiro que sua assessoria seria transferida para o novo gabinete.)*
@@ -231,6 +260,9 @@ Assinale a alternativa em que a reescrita da frase entre parênteses elimina a a
 * **C)** *"O presidente comunicou que a assessoria sua seria transferida para o conselheiro no novo gabinete."*
 * **D)** *"O presidente comunicou ao conselheiro de que sua própria assessoria transferir-se-ia para o novo gabinete."*
 * **E)** *"O presidente comunicou ao conselheiro que a assessoria do mesmo seria transferida para o novo gabinete."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -261,7 +293,7 @@ O Manual de Redação da Presidência da República e a boa gramática normativa
 * **Forma escorreita:** Deve-se substituir por pronome oblíquo (*"encaminhou-o ao plenário"*), por pronome demonstrativo (*"encaminhou este ao plenário"*) ou por elipse pura (*"assinou o parecer e encaminhou ao plenário"*).
 
 
-### Questão 05
+### Teste 056
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Considere as seguintes frases elaboradas em redação administrativa:  
 
@@ -277,6 +309,9 @@ Quanto à clareza, ambiguidade e conformidade com a norma-padrão:
 * **D)** Todas as frases estão redigidas com clareza exemplar e isentas de vícios sintáticos.
 * **E)** Apenas a frase I apresenta problema de coesão referencial.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. O emprego do pronome possessivo de terceira pessoa (*seu*) em contextos com dois referentes masculinos de 3ª pessoa cria **ambiguidade referencial viciosa**. Para dirimi-la no padrão culto, a FCC prescreve reformulações como *"no gabinete deste"*, *"no gabinete daquele"* ou *"no próprio gabinete"*.
@@ -286,9 +321,10 @@ Quanto à clareza, ambiguidade e conformidade com a norma-padrão:
 >
 > **Gabarito: A**
 
----
+
 
 ---
+
 
 ## 4. Organização e Reorganização de Orações e Períodos
 
@@ -318,7 +354,7 @@ A reorganização de um período não pode corromper a progressão tópica. Os c
 * Evitar parágrafos construídos por acúmulo excessivo de orações adjetivas encaixadas em cadeia (*que... que... que...* — vício do "queísmo"), saneando-as por meio de nominalizações ou transformações em orações reduzidas.
 
 
-### Questão 06
+### Teste 057
 **(FCC – DPE-RS – Analista Jurídico)**  
 Assinale a alternativa que propõe uma redação clara, coesa, concisa e inteiramente correta para as seguintes informações:  
 *"O Tribunal de Contas julgou as contas do gestor. O julgamento ocorreu em sessão extraordinária. O Tribunal considerou as contas irregulares. O Tribunal aplicou ao gestor uma multa pecuniária proporcional ao dano."*
@@ -328,6 +364,9 @@ Assinale a alternativa que propõe uma redação clara, coesa, concisa e inteira
 * **C)** Julgou-se as contas do gestor pelo Tribunal de Contas em sessão extraordinária, onde considerou-as irregulares e lhe multou proporcionalmente ao dano.
 * **D)** O Tribunal de Contas julgou irregular as contas do gestor cuja sessão extraordinária aplicou uma multa pecuniária e proporcional contra ele.
 * **E)** Tendo sido julgadas as contas em sessão extraordinária, o Tribunal de Contas julgou elas irregulares, aplicando no gestor multa pecuniária.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -339,9 +378,10 @@ Assinale a alternativa que propõe uma redação clara, coesa, concisa e inteira
 >
 > **Gabarito: A**
 
----
+
 
 ---
+
 
 ## 5. Equivalência, Transformação de Estruturas e Paráfrase
 
@@ -382,7 +422,7 @@ Uma das técnicas prediletas de transformação de períodos na banca FCC é a c
 
 ---
 
-### Questão 07
+### Teste 058
 **(FCC – TRT – Técnico Judiciário)**  
 Considere o período:  
 *"<ins>A despeito das inúmeras advertências emitidas pelo órgão fiscalizador</ins>, os gestores mantiveram as práticas ilegítimas, o que ensejou a aplicação de severas multas."*  
@@ -393,6 +433,9 @@ Uma reescrita que preserva a correção gramatical e as **mesmas relações lóg
 * **C)** *"À medida que o órgão fiscalizador advertia os gestores, estes mantinham as práticas ilegítimas, à proporção que foram multados com rigor."*
 * **D)** *"Caso o órgão fiscalizador emitisse advertências, os gestores manteriam as práticas ilegítimas e poderiam aplicar multas."*
 * **E)** *"Conforme o órgão fiscalizador advertiu, os gestores mantiveram as práticas ilegítimas de modo que multaram-se os ordenadores."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -419,7 +462,7 @@ A substituição de conectivos somente é legítima se pertencerem à mesma fam�
 
 ---
 
-### Questão 08
+### Teste 059
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Considere o seguinte período:  
 *"Embora o relatório da comissão tenha apontado inconsistências formais nos procedimentos licitatórios, o pleno do tribunal optou por aprovar as contas com ressalvas."*
@@ -431,6 +474,9 @@ Mantendo-se estritamente o sentido original e a correção gramatical, o períod
 * **C)** Porquanto o relatório da comissão tenha apontado inconsistências formais nos procedimentos licitatórios, o pleno do tribunal optou por aprovar as contas com ressalvas.
 * **D)** À medida que o relatório da comissão apontava inconsistências formais nos procedimentos licitatórios, o pleno do tribunal optou por aprovar as contas com ressalvas.
 * **E)** Desde que o relatório da comissão apontasse inconsistências formais nos procedimentos licitatórios, o pleno do tribunal optaria por aprovar as contas com ressalvas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -461,7 +507,10 @@ A equivalência sintática frequentemente explora a alternância entre voz ativa
 * Passiva Sintética: *"Apuraram-se todas as inconsistências no cronograma."*
 * Todas as três formulações são semanticamente equivalentes e mantêm rigorosa correção.
 
+
+
 ---
+
 
 ## 6. O Emprego Correto das Quatro Formas dos Porquês
 
@@ -506,7 +555,7 @@ A grafia **junta e com acento circunflexo** consubstancia um **substantivo mascu
 
 ---
 
-### Questão 09
+### Teste 060
 **(FCC – DPE-RS – Analista Jurídico)**  
 Considere as frases e o emprego das quatro formas dos **porquês**:  
 
@@ -525,6 +574,9 @@ O emprego das palavras sublinhadas está plenamente correto em:
 * **C)** II e IV, apenas.
 * **D)** I, III e IV, apenas.
 * **E)** II, III e IV, apenas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -552,7 +604,7 @@ Para garantir a perfeição no confronto de frases da FCC:
     * **De encontro a:** indica colisão, choque, oposição, contrariedade: *"O reajuste salarial sem previsão orçamentária vai **de encontro às** determinações da LRF"*.
 
 
-### Questão 10
+### Teste 061
 **(FCC – METRÔ-SP – Advogado)**  
 Considere as frases a seguir quanto à precisão vocabular e semântica de suas locuções:  
 
@@ -569,6 +621,9 @@ Estão redigidas com absoluta propriedade lexical e sintática as frases:
 * **D)** I, II e III, apenas.
 * **E)** III e IV, apenas.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **Item I:** Correto. A locução *"ao encontro de"* exprime conformidade, concordância, harmonia ou convergência de vontades (*veio ao encontro dos anseios* = atendeu aos anseios).
@@ -579,9 +634,10 @@ Estão redigidas com absoluta propriedade lexical e sintática as frases:
 >
 > **Gabarito: A**
 
----
+
 
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

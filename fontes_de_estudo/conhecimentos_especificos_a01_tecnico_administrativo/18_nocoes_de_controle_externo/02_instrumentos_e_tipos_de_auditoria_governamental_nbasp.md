@@ -5,7 +5,10 @@
 > **Arquivo:** `02_instrumentos_e_tipos_de_auditoria_governamental_nbasp.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -23,22 +26,34 @@
 - Postura profissional e conduta ética do auditor de controle externo: independência, integridade, ceticismo profissional, julgamento profissional, devido zelo e sigilo funcional;
 - Matrizes metodológicas: Matriz de Planejamento e Matriz de Achados de Auditoria.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Os Cinco Instrumentos de Fiscalização do Controle Externo](#1-os-cinco-instrumentos-de-fiscalizacao-do-controle-externo)
-    - [1.1 Conceito e Finalidade Prática de Cada Instrumento](#11-conceito-e-finalidade-pratica-de-cada-instrumento)
-    - [1.2 Diferença Prática entre Inspeção e Monitoramento](#12-diferenca-pratica-entre-inspecao-e-monitoramento)
-- [2. Tipologia das Auditorias Governamentais (Normas NBASP / INTOSAI)](#2-tipologia-das-auditorias-governamentais-normas-nbasp-intosai)
-    - [2.1 Auditoria de Conformidade (NBASP 400)](#21-auditoria-de-conformidade-nbasp-400)
-    - [2.2 Auditoria Operacional ou de Desempenho e os 4 Es (NBASP 300)](#22-auditoria-operacional-ou-de-desempenho-e-os-4-es-nbasp-300)
-    - [2.3 Auditoria Financeira e os Tipos de Opinião do Auditor (NBASP 200)](#23-auditoria-financeira-e-os-tipos-de-opiniao-do-auditor-nbasp-200)
-- [3. Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria](#3-estrutura-normativa-nbasp-intosai-e-as-tres-partes-da-auditoria)
-- [4. Postura e Conduta Profissional do Auditor (NBASP 100)](#4-postura-e-conduta-profissional-do-auditor-nbasp-100)
-- [5. Matrizes Metodológicas de Trabalho: Planejamento e Achados](#5-matrizes-metodologicas-de-trabalho-planejamento-e-achados)
-- [6. Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Os Cinco Instrumentos de Fiscalização do Controle Externo](#1-os-cinco-instrumentos-de-fiscalizacao-do-controle-externo)
+    2. [Teste 176](#Teste-176)
+    3. [Teste 177](#Teste-177)
+    4. [Tipologia das Auditorias Governamentais (Normas NBASP / INTOSAI)](#2-tipologia-das-auditorias-governamentais-normas-nbasp-intosai)
+    5. [Teste 178](#Teste-178)
+    6. [Teste 179](#Teste-179)
+    7. [Teste 180](#Teste-180)
+    8. [Teste 181](#Teste-181)
+    9. [Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria](#3-estrutura-normativa-nbasp-intosai-e-as-tres-partes-da-auditoria)
+    10. [Teste 182](#Teste-182)
+    11. [Postura e Conduta Profissional do Auditor (NBASP 100)](#4-postura-e-conduta-profissional-do-auditor-nbasp-100)
+    12. [Teste 183](#Teste-183)
+    13. [Teste 184](#Teste-184)
+    14. [Matrizes Metodológicas de Trabalho: Planejamento e Achados](#5-matrizes-metodologicas-de-trabalho-planejamento-e-achados)
+    15. [Teste 185](#Teste-185)
+    16. [Teste 186](#Teste-186)
+2. [Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
 
 ---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -71,7 +86,8 @@ flowchart TD
 
 
 
-### Questão 01 (FCC - Auditor de Controle Externo / TCE-GO)
+### Teste 176
+**(FCC - Auditor de Controle Externo / TCE-GO)**
 Os regimentos internos dos Tribunais de Contas e as normas de fiscalização tipificam diferentes instrumentos de fiscalização para a consecução do controle externo: auditoria, levantamento, acompanhamento, monitoramento e inspeção.
 
 A respeito das finalidades específicas do 'monitoramento' e do 'levantamento', assinale a afirmativa correta.
@@ -81,6 +97,9 @@ A respeito das finalidades específicas do 'monitoramento' e do 'levantamento', 
 * **C)** O levantamento destina-se a aplicar multas diárias imediatas aos gestores faltosos sem oportunizar o contraditório.
 * **D)** A inspeção substitui a tomada de contas especial nos casos de desfalque comprovado de recursos financeiros.
 * **E)** O acompanhamento destina-se exclusivamente a fiscalizar contratos já liquidados e pagos há mais de dez anos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -94,7 +113,8 @@ A respeito das finalidades específicas do 'monitoramento' e do 'levantamento', 
 
 ---
 
-### Questão 02 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 177
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 De acordo com as Normas Brasileiras de Auditoria do Setor Público (NBASP 100 e 300) e as disposições que regem a fiscalização dos Tribunais de Contas, o instrumento formal destinado especificamente a verificar o cumprimento de deliberações anteriores do Tribunal e os resultados práticos delas decorrentes denomina-se:
 
 * **A)** Levantamento.
@@ -102,6 +122,9 @@ De acordo com as Normas Brasileiras de Auditoria do Setor Público (NBASP 100 e 
 * **C)** Inspeção.
 * **D)** Monitoramento.
 * **E)** Acompanhamento.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -165,7 +188,8 @@ flowchart TD
 
 
 
-### Questão 03 (FGV - Auditor de Controle Externo / TCE-SC)
+### Teste 178
+**(FGV - Auditor de Controle Externo / TCE-SC)**
 A NBASP 300 (Norma Brasileira de Auditoria do Setor Público equivalente à ISSAI 300) estabelece os princípios e as diretrizes fundamentais da auditoria operacional (ou de desempenho).
 
 Sobre os objetivos e as dimensões avaliadas na auditoria operacional (princípios dos 4 Es), assinale a afirmativa correta.
@@ -175,6 +199,9 @@ Sobre os objetivos e as dimensões avaliadas na auditoria operacional (princípi
 * **C)** Na auditoria operacional, o auditor emite uma opinião formal com certificação padronizada sobre as demonstrações financeiras nos moldes de parecer de auditoria contábil independente.
 * **D)** A dimensão da efetividade na auditoria operacional preocupa-se exclusivamente com a rapidez na assinatura dos contratos administrativos de compras públicas.
 * **E)** A auditoria operacional é terminantemente proibida de emitir recomendações aos gestores públicos sobre melhorias procedimentais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -188,7 +215,8 @@ Sobre os objetivos e as dimensões avaliadas na auditoria operacional (princípi
 
 ---
 
-### Questão 04 (FCC - Adaptada / TCE-RO - Auditor de Controle Externo)
+### Teste 179
+**(FCC - Adaptada / TCE-RO - Auditor de Controle Externo)**
 Em auditoria operacional realizada sobre programa estadual de saneamento básico, a equipe de auditoria do Tribunal de Contas constatou que as obras da rede de esgoto sanitário foram concluídas integralmente dentro do cronograma físico e orçamentário, cobrindo cem por cento da população-alvo prevista no edital. Todavia, a taxa de internações hospitalares infantis por doenças de veiculação hídrica na comunidade beneficiada permaneceu inalterada devido à contaminação prévia dos mananciais de captação de água domiciliar.
 
 Sob a ótica dos princípios da auditoria de desempenho público consagrados na NBASP 300:
@@ -198,6 +226,9 @@ Sob a ótica dos princípios da auditoria de desempenho público consagrados na 
 * **C)** Restou violado o princípio da economicidade, configurando crime tipificado contra as finanças públicas estaduais.
 * **D)** O programa governamental foi manifestamente ineficaz, na medida em que falhou na entrega física das redes de saneamento.
 * **E)** O achado de auditoria configura distorção relevante em auditoria financeira, impondo emissão de parecer com abstenção de opinião.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -234,7 +265,8 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Controle Externo - Auditoria)
+### Teste 180
+**(FCC - Adaptada / Analista de Controle Externo - Auditoria)**
 Durante os trabalhos de campo de uma auditoria financeira realizada pelo Tribunal de Contas no balanço geral consolidado de uma grande autarquia estadual, os auditores detectaram que os registros patrimoniais e os estoques de medicamentos continham erros contábeis materiais gravíssimos e omissões generalizadas em praticamente todas as contas do ativo circulante e não circulante. Constatou-se que as demonstrações não representavam a posição financeira real da entidade.
 
 De acordo com as normas da NBASP 200 (Auditoria Financeira), a equipe de auditoria deve propor a emissão de:
@@ -244,6 +276,9 @@ De acordo com as normas da NBASP 200 (Auditoria Financeira), a equipe de auditor
 * **C)** Opinião Adversa.
 * **D)** Abstenção de Opinião.
 * **E)** Recomendações operacionais, arquivando-se o processo por falta de interesse de agir.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -259,7 +294,8 @@ De acordo com as normas da NBASP 200 (Auditoria Financeira), a equipe de auditor
 
 
 
-### Questão 06 (FCC - Analista de Controle Externo / TCE-GO)
+### Teste 181
+**(FCC - Analista de Controle Externo / TCE-GO)**
 De acordo com a estrutura normativa da NBASP / INTOSAI, a auditoria do setor público divide-se em três tipos principais: auditoria financeira, auditoria de conformidade e auditoria operacional.
 
 Assinale a afirmativa que apresenta a correta caracterização da 'auditoria financeira':
@@ -269,6 +305,9 @@ Assinale a afirmativa que apresenta a correta caracterização da 'auditoria fin
 * **C)** Destina-se com exclusividade a punir disciplinarmente os chefes de tesouraria de municípios com menos de dez mil habitantes.
 * **D)** Tem como objeto unicamente a legalidade dos processos licitatórios de obras rodoviárias.
 * **E)** Prescinde do conceito de materialidade e relevância, exigindo a checagem individualizada de 100% dos lançamentos contábeis do órgão.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -300,7 +339,8 @@ A INTOSAI (*International Organization of Supreme Audit Institutions*) e o Insti
 
 
 
-### Questão 07 (FGV - Auditor de Controle Externo / TCE-SC)
+### Teste 182
+**(FGV - Auditor de Controle Externo / TCE-SC)**
 A NBASP 100 (Princípios Fundamentais de Auditoria do Setor Público) estabelece que uma auditoria do setor público envolve tipicamente três partes distintas que se relacionam no processo fiscalizatório.
 
 Essas três partes são:
@@ -310,6 +350,9 @@ Essas três partes são:
 * **C)** O autor da representação, o réu e a testemunha de acusação.
 * **D)** A empresa contratada, o banco financiador e o engenheiro fiscal de obras.
 * **E)** O Ministério Público de Contas, a Controladoria-Geral da União e a Polícia Federal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -332,7 +375,8 @@ Essas três partes são:
 
 ---
 
-### Questão 08 (FCC - Adaptada / Técnico de Controle Externo)
+### Teste 183
+**(FCC - Adaptada / Técnico de Controle Externo)**
 Ao desempenhar suas atividades de fiscalização in loco em órgão público jurisdicionado, o auditor de controle externo mantém atitude constante de questionamento sobre a autenticidade e validade das evidências fornecidas pelos servidores locais, mantendo-se alerta para situações que possam indicar fraude ou erro deliberado na emissão de certidões.
 
 Essa postura profissional exigida pelas normas NBASP 100 denomina-se:
@@ -342,6 +386,9 @@ Essa postura profissional exigida pelas normas NBASP 100 denomina-se:
 * **C)** Imparcialidade Política.
 * **D)** Desconfiança Presuntiva Vinculada.
 * **E)** Reserva Mental Processual.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -357,7 +404,8 @@ Essa postura profissional exigida pelas normas NBASP 100 denomina-se:
 
 
 
-### Questão 09 (FCC - Técnico de Controle Externo / TCE-GO)
+### Teste 184
+**(FCC - Técnico de Controle Externo / TCE-GO)**
 De acordo com os princípios da NBASP 100 e do Código de Ética das Entidades Fiscalizadoras Superiores (NBASP 30), o auditor do Tribunal de Contas deve pautar sua conduta profissional pelo ceticismo profissional e pelo julgamento profissional.
 
 Sobre esses atributos, assinale a afirmativa correta.
@@ -367,6 +415,9 @@ Sobre esses atributos, assinale a afirmativa correta.
 * **C)** O julgamento profissional autoriza o auditor a ignorar normas técnicas e determinar sanções com base em impressões subjetivas pessoais.
 * **D)** A independência do auditor é irrelevante quando a auditoria envolver órgãos de seu próprio círculo de amizade íntima.
 * **E)** O auditor do Tribunal de Contas fica desobrigado de manter sigilo profissional sobre informações reservadas obtidas durante os trabalhos de campo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -397,7 +448,8 @@ A moderna auditoria governamental dos Tribunais de Contas opera com base em duas
 
 ---
 
-### Questão 10 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 185
+**(FCC - Adaptada / Analista de Gestão Pública)**
 Na metodologia de auditoria governamental aplicada pelos Tribunais de Contas, a ferramenta estruturada que consolida as conclusões do auditor mediante a descrição do fato relevante apurado, o confronto entre a situação encontrada e o critério normativo, a identificação da causa, o apontamento dos efeitos gerados e a formulação da proposta de encaminhamento é denominada:
 
 * **A)** Matriz de Riscos Pré-Contratual.
@@ -405,6 +457,9 @@ Na metodologia de auditoria governamental aplicada pelos Tribunais de Contas, a 
 * **C)** Matriz de Achados.
 * **D)** Termo Circunstanciado de Ocorrência.
 * **E)** Nota de Empenho Ordinário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -422,7 +477,8 @@ Na metodologia de auditoria governamental aplicada pelos Tribunais de Contas, a 
 
 
 
-### Questão 11 (FGV - Analista Jurídico de Controle Externo / TCE-GO)
+### Teste 186
+**(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 A Declaração de Lima, adotada no IX Congresso da Organização Internacional das Entidades Fiscalizadoras Superiores (INTOSAI) em 1977, é reconhecida mundialmente como a 'Carta Magna da Auditoria Governamental'.
 
 A respeito dos postulados consagrados pela Declaração de Lima, assinale a afirmativa correta.
@@ -432,6 +488,9 @@ A respeito dos postulados consagrados pela Declaração de Lima, assinale a afir
 * **C)** O controle financeiro externo deve ser exclusivamente a posteriori, sendo vedado qualquer exame prévio ou concomitante de operações públicas.
 * **D)** A fiscalização do uso dos recursos públicos deve ser sigilosa e inacessível aos cidadãos, para não constranger os gestores governamentais.
 * **E)** As decisões dos órgãos de controle externo submetem-se à homologação prévia da chefia do Poder Executivo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -443,7 +502,10 @@ A respeito dos postulados consagrados pela Declaração de Lima, assinale a afir
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 

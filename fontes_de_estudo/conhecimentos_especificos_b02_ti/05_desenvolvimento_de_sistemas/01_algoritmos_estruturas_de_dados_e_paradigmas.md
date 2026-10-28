@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_algoritmos_estruturas_de_dados_e_paradigmas.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Algoritmos e lógica de programação
@@ -13,30 +16,46 @@
 - Programação Orientada a Objetos (POO)
 - Programação Funcional (PF)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Algoritmos, Lógica de Execução e Complexidade Assintótica](#1-algoritmos-logica-de-execucao-e-complexidade-assintotica)
-    - [1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)](#11-variaveis-escopo-e-passagem-de-parametros-valor-vs-referencia)
-    - [1.2 Recursão e Pilha de Execução (Call Stack)](#12-recursao-e-pilha-de-execucao-call-stack)
-    - [1.3 Análise Assintótica e a Notação Big-O](#13-analise-assintotica-e-a-notacao-big-o)
-- [2. Estruturas de Dados Fundamentais](#2-estruturas-de-dados-fundamentais)
-    - [2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas](#21-estruturas-lineares-vetores-listas-encadeadas-pilhas-e-filas)
-    - [2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão](#22-tabelas-hash-hash-tables-e-metodos-de-tratamento-de-colisao)
-    - [2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos](#23-estruturas-nao-lineares-arvores-binarias-de-busca-bst-e-percursos)
-    - [2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos](#24-arvores-auto-balanceadas-avl-e-rubro-negra-e-grafos)
-    - [2.5 Matriz Geral de Complexidade das Estruturas de Dados](#25-matriz-geral-de-complexidade-das-estruturas-de-dados)
-- [3. Paradigma de Programação Orientada a Objetos (POO)](#3-paradigma-de-programacao-orientada-a-objetos-poo)
-    - [3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo](#31-os-quatro-pilares-da-poo-abstracao-encapsulamento-heranca-e-polimorfismo)
-    - [3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)](#32-polimorfismo-estatico-sobrecarga-vs-polimorfismo-dinamico-sobrescrita)
-    - [3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento](#33-relacoes-estruturais-classes-abstratas-interfaces-coesao-e-acoplamento)
-- [4. Paradigma de Programação Funcional (PF)](#4-paradigma-de-programacao-funcional-pf)
-    - [4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial](#41-principios-fundamentais-funcoes-puras-imutabilidade-e-transparencia-referencial)
-    - [4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)](#42-funcoes-de-primeira-classe-e-funcoes-de-alta-ordem-higher-order-functions)
-    - [4.3 Operações Funcionais sobre Coleções: map, filter e reduce](#43-operacoes-funcionais-sobre-colecoes-map-filter-e-reduce)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Algoritmos, Lógica de Execução e Complexidade Assintótica](#1-algoritmos-logica-de-execucao-e-complexidade-assintotica)
+    1. [Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)](#11-variaveis-escopo-e-passagem-de-parametros-valor-vs-referencia)
+    2. [Recursão e Pilha de Execução (Call Stack)](#12-recursao-e-pilha-de-execucao-call-stack)
+    3. [Teste 054](#Teste-054)
+    4. [Análise Assintótica e a Notação Big-O](#13-analise-assintotica-e-a-notacao-big-o)
+    5. [Teste 055](#Teste-055)
+2. [Estruturas de Dados Fundamentais](#2-estruturas-de-dados-fundamentais)
+    1. [Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas](#21-estruturas-lineares-vetores-listas-encadeadas-pilhas-e-filas)
+    2. [Teste 056](#Teste-056)
+    3. [Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão](#22-tabelas-hash-hash-tables-e-metodos-de-tratamento-de-colisao)
+    4. [Teste 057](#Teste-057)
+    5. [Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos](#23-estruturas-nao-lineares-arvores-binarias-de-busca-bst-e-percursos)
+    6. [Teste 058](#Teste-058)
+    7. [Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos](#24-arvores-auto-balanceadas-avl-e-rubro-negra-e-grafos)
+    8. [Teste 059](#Teste-059)
+    9. [Matriz Geral de Complexidade das Estruturas de Dados](#25-matriz-geral-de-complexidade-das-estruturas-de-dados)
+3. [Paradigma de Programação Orientada a Objetos (POO)](#3-paradigma-de-programacao-orientada-a-objetos-poo)
+    1. [Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo](#31-os-quatro-pilares-da-poo-abstracao-encapsulamento-heranca-e-polimorfismo)
+    2. [Teste 060](#Teste-060)
+    3. [Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)](#32-polimorfismo-estatico-sobrecarga-vs-polimorfismo-dinamico-sobrescrita)
+    4. [Teste 061](#Teste-061)
+    5. [Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento](#33-relacoes-estruturais-classes-abstratas-interfaces-coesao-e-acoplamento)
+    6. [Teste 062](#Teste-062)
+4. [Paradigma de Programação Funcional (PF)](#4-paradigma-de-programacao-funcional-pf)
+    1. [Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial](#41-principios-fundamentais-funcoes-puras-imutabilidade-e-transparencia-referencial)
+    2. [Teste 063](#Teste-063)
+    3. [Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)](#42-funcoes-de-primeira-classe-e-funcoes-de-alta-ordem-higher-order-functions)
+    4. [Operações Funcionais sobre Coleções: map, filter e reduce](#43-operacoes-funcionais-sobre-colecoes-map-filter-e-reduce)
+    5. [Teste 064](#Teste-064)
+5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Algoritmos, Lógica de Execução e Complexidade Assintótica
 
@@ -77,7 +96,7 @@ Todo algoritmo recursivo exige dois componentes fundamentais:
 
 ---
 
-### Questão 01
+### Teste 054
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 A recursão é uma técnica algorítmica fundamental na qual uma função invoca a si mesma para resolver subproblemas menores de mesma natureza. A respeito do funcionamento da recursão e de sua pilha de execução (*Call Stack*), é correto afirmar:
 
@@ -86,6 +105,9 @@ A recursão é uma técnica algorítmica fundamental na qual uma função invoca
 * **C)** Algoritmos recursivos são sempre mais velozes e consomem menos memória do que suas versões iterativas equivalentes.
 * **D)** A pilha de chamadas (*Call Stack*) opera sob o princípio FIFO (*First-In, First-Out*), finalizando primeiro a primeira função chamada.
 * **E)** A recursão em cauda (*tail recursion*) impede que o compilador realize qualquer otimização de espaço na pilha de execução.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -118,7 +140,7 @@ A notação **Big-O ($\mathcal{O}$)** mensura o crescimento do tempo de execuç�
 ---
 
 
-### Questão 02
+### Teste 055
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 A análise assintótica de complexidade de algoritmos permite quantificar o crescimento do consumo de tempo de execução e memória à medida que o tamanho da entrada ($n$) cresce assintoticamente. Em relação aos algoritmos clássicos de ordenação de vetores em memória interna, é correto afirmar que:
 
@@ -127,6 +149,9 @@ A análise assintótica de complexidade de algoritmos permite quantificar o cres
 * **C)** O *Quicksort* garante complexidade de tempo $O(n)$ em qualquer cenário de partição de pivôs.
 * **D)** O pior caso de tempo do *Quicksort* ocorre com complexidade de tempo $O(\log n)$.
 * **E)** Todos os algoritmos de ordenação baseados em comparação de chaves conseguem ordenar um vetor em tempo linear $O(n)$ no pior caso.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -138,7 +163,10 @@ A análise assintótica de complexidade de algoritmos permite quantificar o cres
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 2. Estruturas de Dados Fundamentais
 
@@ -173,7 +201,7 @@ flowchart LR
 
 ---
 
-### Questão 03
+### Teste 056
 **(FCC – Analista de TI / Sistemas)**  
 Em uma estrutura de dados do tipo Pilha (*Stack*), as operações de manipulação de dados obedecem rigorosamente à disciplina LIFO (*Last In, First Out*). Considere uma pilha inicialmente vazia que é submetida, passo a passo, à seguinte sequência consecutiva de comandos:
 
@@ -188,6 +216,9 @@ Ao término da execução dessa sequência completa de operações, o elemento p
 * **C)** 35 e 3.
 * **D)** 65 e 4.
 * **E)** 55 e 2.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -232,7 +263,7 @@ Uma Tabela Hash associa chaves de busca a índices de um array de tamanho $m$ po
 
 ---
 
-### Questão 04
+### Teste 057
 **(FCC – Auditor Fiscal / Tecnologia da Informação)**  
 As Tabelas Hash (*Hash Tables*) são amplamente utilizadas em sistemas de informação pela sua eficiência em operações de busca, inserção e remoção de registros indexados por chaves. A respeito da teoria das tabelas hash e dos métodos de tratamento de colisões, assinale a afirmativa correta:
 
@@ -241,6 +272,9 @@ As Tabelas Hash (*Hash Tables*) são amplamente utilizadas em sistemas de inform
 * **C)** O fator de carga (*load factor*) de uma tabela hash corresponde ao tempo em milissegundos gasto pela CPU para calcular a função hash de uma chave string.
 * **D)** No endereçamento aberto com sondagem linear (*linear probing*), elementos que sofrem colisão são sempre descartados da tabela para impedir o agrupamento primário.
 * **E)** As tabelas hash armazenam seus elementos de forma intrinsicamente ordenada pelas suas chaves, facilitando operações de busca por intervalo (*range queries*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -285,7 +319,7 @@ graph TD
 
 ---
 
-### Questão 05
+### Teste 058
 **(FCC – Analista de TI / Sistemas)**  
 Considere uma Árvore Binária de Busca (BST) construída a partir da inserção sucessiva dos seguintes números inteiros em uma árvore inicialmente vazia, respeitando as regras estritas da estrutura (valores menores à esquerda, maiores à direita):
 
@@ -300,6 +334,9 @@ Se essa árvore for percorrida utilizando os algoritmos de percurso em **Pré-Or
 * **C)** Pré-Ordem: `10, 30, 20, 50, 70, 60, 40` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
 * **D)** Pré-Ordem: `40, 20, 60, 10, 30, 50, 70` ; Em-Ordem: `40, 20, 30, 10, 60, 50, 70`.
 * **E)** Pré-Ordem: `40, 20, 10, 30, 60, 50, 70` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -339,7 +376,7 @@ Se essa árvore for percorrida utilizando os algoritmos de percurso em **Pré-Or
 
 ---
 
-### Questão 06
+### Teste 059
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Uma Árvore AVL é uma Árvore Binária de Busca (BST) estritamente auto-balanceada na qual a diferença de altura entre as subárvores esquerda e direita de qualquer nó (fator de balanceamento $FB = h_{esq} - h_{dir}$) deve pertencer obrigatoriamente ao conjunto:
 
@@ -348,6 +385,9 @@ Uma Árvore AVL é uma Árvore Binária de Busca (BST) estritamente auto-balance
 * **C)** $\{0, 1, 2\}$
 * **D)** $\{-3, 0, +3\}$
 * **E)** $\{1, 2, 3\}$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -376,7 +416,10 @@ Uma Árvore AVL é uma Árvore Binária de Busca (BST) estritamente auto-balance
 
 *\*Inserção e remoção em lista encadeada são $\mathcal{O}(1)$ se a referência direta ao nó alvo for previamente conhecida.*
 
+
+
 ---
+
 
 ## 3. Paradigma de Programação Orientada a Objetos (POO)
 
@@ -388,7 +431,7 @@ Uma Árvore AVL é uma Árvore Binária de Busca (BST) estritamente auto-balance
 
 ---
 
-### Questão 07
+### Teste 060
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No paradigma de Programação Orientada a Objetos, o pilar que estabelece a técnica de ocultar os detalhes internos de implementação e o estado de um objeto, restringindo o acesso direto aos seus atributos e expondo apenas uma interface pública controlada de métodos, denomina-se:
 
@@ -397,6 +440,9 @@ No paradigma de Programação Orientada a Objetos, o pilar que estabelece a téc
 * **C)** Encapsulamento.
 * **D)** Sobrecarga de operadores.
 * **E)** Coesão temporal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -427,7 +473,7 @@ Essa comparação é cobrada com frequência máxima pela banca FCC:
 
 ---
 
-### Questão 08
+### Teste 061
 **(FCC – Técnico de Controle Externo / TI)**  
 No contexto do paradigma de Programação Orientada a Objetos (POO), analise o mecanismo pelo qual uma subclasse fornece uma definição específica para um método que já foi declarado e implementado por sua superclasse direta ou indireta, preservando integralmente o mesmo nome, a mesma quantidade e os mesmos tipos de parâmetros, permitindo a seleção da implementação adequada durante a execução do programa (*runtime*).
 
@@ -438,6 +484,9 @@ Esse mecanismo e seu momento de amarração (*binding*) correspondem, respectiva
 * **C)** Encapsulamento reflexivo com resolução de compilação.
 * **D)** Coesão ad-hoc com ligação tardia (*late binding*).
 * **E)** Sobrecarga (*Overloading*) com amarração dinâmica (*late binding*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -463,7 +512,7 @@ Esse mecanismo e seu momento de amarração (*binding*) correspondem, respectiva
 ---
 
 
-### Questão 09
+### Teste 062
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 A respeito das distinções conceituais entre Classes Abstratas e Interfaces na modelagem orientada a objetos clássica, é correto afirmar:
 
@@ -472,6 +521,9 @@ A respeito das distinções conceituais entre Classes Abstratas e Interfaces na 
 * **C)** Uma classe abstrata não pode ser instanciada diretamente e pode conter tanto métodos abstratos (sem corpo) quanto métodos concretos com implementação completa e estado (atributos de instância).
 * **D)** Interfaces são obrigadas a implementar todos os métodos de persistência no banco de dados.
 * **E)** Classes abstratas são usadas exclusivamente para definir variáveis de escopo global no sistema operacional.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -483,7 +535,10 @@ A respeito das distinções conceituais entre Classes Abstratas e Interfaces na 
 >
 > **Gabarito: C**
 
+
+
 ---
+
 
 ## 4. Paradigma de Programação Funcional (PF)
 
@@ -499,7 +554,7 @@ A Programação Funcional é um paradigma declarativo que trata a computação c
 
 ---
 
-### Questão 10
+### Teste 063
 **(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
 No paradigma de Programação Funcional (PF), uma função é considerada **pura** (*pure function*) quando satisfaz a dois critérios rigorosos:
 
@@ -508,6 +563,9 @@ No paradigma de Programação Funcional (PF), uma função é considerada **pura
 * **C)** Executa exclusivamente operações de escrita síncrona em bancos de dados relacionais transacionais.
 * **D)** Depende do horário do relógio da CPU e de geradores de números pseudoaleatórios para calcular seu resultado.
 * **E)** Exige que todos os parâmetros sejam passados obrigatoriamente por referência com permissão de escrita.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -547,7 +605,7 @@ flowchart LR
 
 ---
 
-### Questão 11
+### Teste 064
 **(FCC – Analista de Sistemas / Desenvolvimento)**  
 No paradigma de Programação Funcional (PF), a manipulação de coleções é realizada prioritariamente por meio de funções de alta ordem (*higher-order functions*) que operam sobre estruturas imutáveis. Considere o processamento de uma lista contendo os salários de 5 colaboradores: `[2000, 3000, 4000, 5000, 6000]`. Deseja-se realizar, sequencialmente, as seguintes operações:
 
@@ -562,6 +620,9 @@ Para atingir exatamente esse objetivo seguindo os princípios funcionais, as fun
 * **C)** `filter`, `map` e `reduce`.
 * **D)** `reduce`, `map` e `filter`.
 * **E)** `map`, `map` e `forEach`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -580,8 +641,9 @@ Para atingir exatamente esse objetivo seguindo os princípios funcionais, as fun
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 5. Fontes Oficiais e Referências Bibliográficas

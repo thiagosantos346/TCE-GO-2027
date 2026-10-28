@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `02_organizacao_racional_do_trabalho_estruturas_e_ambientes.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Organização Racional do Trabalho (ORT): fundamentos da abordagem de Frederick Taylor:
@@ -31,17 +34,33 @@
     - Ambiente Geral (Macroambiente): forças PESTEL (Políticas, Econômicas, Sociais, Tecnológicas, Ecológicas e Legais);
     - Ambiente de Tarefa (Microambiente / Ambiente Operacional): clientes/cidadãos, fornecedores, concorrentes e órgãos reguladores e de fiscalização externa.
 
----
 
-## 🧭 Sumário Interativo
-- [1. Os Nove Pilares da Organização Racional do Trabalho (ORT)](#1-os-nove-pilares-da-organizacao-racional-do-trabalho-ort)
-- [2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade](#2-dicotomia-conceitual-eficiencia-vs-eficacia-vs-efetividade)
-- [3. Dinâmica das Organizações Formais e Informais](#3-dinamica-das-organizacoes-formais-e-informais)
-- [4. Centralização vs. Descentralização e a Regra Áurea da Delegação](#4-centralizacao-vs-descentralizacao-e-a-regra-aurea-da-delegacao)
-- [5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)](#5-ambientes-organizacionais-ambiente-geral-macro-vs-ambiente-de-tarefa-micro)
-- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [Os Nove Pilares da Organização Racional do Trabalho (ORT)](#1-os-nove-pilares-da-organizacao-racional-do-trabalho-ort)
+    2. [Teste 350](#Teste-350)
+    3. [Teste 351](#Teste-351)
+    4. [Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade](#2-dicotomia-conceitual-eficiencia-vs-eficacia-vs-efetividade)
+    5. [Teste 352](#Teste-352)
+    6. [Dinâmica das Organizações Formais e Informais](#3-dinamica-das-organizacoes-formais-e-informais)
+    7. [Teste 353](#Teste-353)
+    8. [Teste 354](#Teste-354)
+    9. [Centralização vs. Descentralização e a Regra Áurea da Delegação](#4-centralizacao-vs-descentralizacao-e-a-regra-aurea-da-delegacao)
+    10. [Teste 355](#Teste-355)
+    11. [Teste 356](#Teste-356)
+    12. [Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)](#5-ambientes-organizacionais-ambiente-geral-macro-vs-ambiente-de-tarefa-micro)
+    13. [Teste 357](#Teste-357)
+    14. [Teste 358](#Teste-358)
+    15. [Teste 359](#Teste-359)
+    16. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -80,7 +99,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Teste 350
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A respeito da Organização Racional do Trabalho (ORT) desenvolvida por Frederick Winslow Taylor e das características da abordagem clássica da administração, assinale a assertiva correta:
 
@@ -89,6 +108,9 @@ A respeito da Organização Racional do Trabalho (ORT) desenvolvida por Frederic
 * **C)** O estudo dos tempos e movimentos objetivava decompor as tarefas fabris em operações elementares para eliminar movimentos desnecessários e determinar o tempo-padrão de execução.
 * **D)** Taylor defendia a preservação estrita do capataz geral de fábrica com comando único, condenando a divisão da supervisão em funções especializadas.
 * **E)** A fadiga humana era ignorada pela ORT por ser considerada um fenômeno psicológico irrelevante para a produtividade fabril.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -104,7 +126,8 @@ A respeito da Organização Racional do Trabalho (ORT) desenvolvida por Frederic
 
 
 
-### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 351
+**(FCC - Adaptada / Analista de Gestão Pública)**
 A Organização Racional do Trabalho (ORT), núcleo da Administração Científica de Frederick W. Taylor, estruturou-se em fundamentos técnicos para combater a "vadiagem sistemática" dos operários e elevar a produtividade.
 
 Dentre os pilares da ORT, o **Estudo dos Tempos e Movimentos** (*Motion and Time Study*) visava essencialmente:
@@ -114,6 +137,9 @@ Dentre os pilares da ORT, o **Estudo dos Tempos e Movimentos** (*Motion and Time
 * **C)** Estabelecer o horário fixo de entrada e saída dos servidores com tolerância de dez minutos.
 * **D)** Organizar os intervalos de repouso conforme a vontade individual espontânea de cada trabalhador.
 * **E)** Subordinar a chefia de fábrica à avaliação semestral de clima organizacional pelos empregados.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -157,7 +183,7 @@ flowchart LR
 
 ---
 
-### Questão 03
+### Teste 352
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Determinada unidade de fiscalização governamental realizou uma auditoria utilizando técnicas modernas de amostragem eletrônica, reduzindo o custo operacional em 40% e concluindo os trabalhos na metade do tempo médio histórico previsto. Não obstante a velocidade e economia de recursos empregados, o relatório final omitiu as irregularidades materiais mais graves que assolavam o órgão auditado, inviabilizando a responsabilização dos gestores ímprobos. Sob a ótica das teorias da administração:
 
@@ -166,6 +192,9 @@ Determinada unidade de fiscalização governamental realizou uma auditoria utili
 * **C)** A equipe demonstrou alta eficácia operacional aliada à total ineficiência metodológica.
 * **D)** A omissão decorreu exclusivamente da atuação autônoma da organização informal da equipe técnica.
 * **E)** O resultado comprova a inadequação da departamentalização funcional nos órgãos de controle público.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -205,7 +234,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Teste 353
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 A respeito da organização formal e da organização informal no cotidiano das instituições públicas, assinale a opção correta:
 
@@ -214,6 +243,9 @@ A respeito da organização formal e da organização informal no cotidiano das 
 * **C)** A liderança informal coincide compulsoriamente com a autoridade formal atribuída aos servidores nomeados para cargos de direção e chefia.
 * **D)** Os canais informais de comunicação (rádio-peão) transmitem informações de forma mais lenta e burocrática do que os canais hierárquicos regimentais.
 * **E)** O organograma regimental de uma instituição representa graficamente tanto as linhas de comando formal quanto as redes de solidariedade da organização informal.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -229,7 +261,8 @@ A respeito da organização formal e da organização informal no cotidiano das 
 
 
 
-### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 354
+**(FCC - Adaptada / Auditor de Controle Externo)**
 No estudo da dinâmica organizacional, a **Organização Informal** coexiste paralelamente com a **Organização Formal** em toda repartição pública.
 
 Constitui característica exclusiva da **Organização Informal**:
@@ -239,6 +272,9 @@ Constitui característica exclusiva da **Organização Informal**:
 * **C)** A definição prévia de níveis hierárquicos e competências funcionais taxativamente atribuídas por portaria.
 * **D)** A obrigatoriedade de registro dos fluxos de comunicação em livros de ata públicos.
 * **E)** A estabilidade jurídica vitalícia conferida por concurso público formal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -279,7 +315,7 @@ A delegação é o ato administrativo mediante o qual uma autoridade transfere a
 
 ---
 
-### Questão 06
+### Teste 355
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 No tocante à dinâmica da delegação de competências e à centralização versus descentralização administrativa nas organizações formais, assinale a opção correta:
 
@@ -288,6 +324,9 @@ No tocante à dinâmica da delegação de competências e à centralização ver
 * **C)** A descentralização proporciona maior rapidez na tomada de decisões no ponto de atendimento ao cidadão e eleva a motivação das equipes operacionais.
 * **D)** A centralização tem como principal desvantagem a duplicação generalizada de custos operacionais e a proliferação descontrolada de órgãos descentralizados.
 * **E)** A delegação de autoridade no serviço público é vedada pelo princípio da hierarquia institucional previsto na Constituição Federal.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -303,7 +342,8 @@ No tocante à dinâmica da delegação de competências e à centralização ver
 
 
 
-### Questão 07 (FCC - Adaptada / Analista de Planejamento e Controle)
+### Teste 356
+**(FCC - Adaptada / Analista de Planejamento e Controle)**
 Na teoria da administração, a delegação de autoridade é instrumento indispensável para a descentralização gerencial e agilização dos processos decisórios.
 
 A respeito da delegação de autoridade, é uma regra fundamental da ciência da administração que:
@@ -313,6 +353,9 @@ A respeito da delegação de autoridade, é uma regra fundamental da ciência da
 * **C)** É obrigatória a delegação de atos normativos de caráter geral e a decisão de recursos administrativos ordinários.
 * **D)** A delegação só é lícita quando envolver poderes irrevogáveis com prazo mínimo de dez anos.
 * **E)** O subordinado que recebe autoridade delegada passa a responder diretamente ao Chefe do Poder Executivo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -366,7 +409,7 @@ flowchart TD
 
 ---
 
-### Questão 08
+### Teste 357
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 Em relação ao estudo dos ambientes organizacionais e sua influência sobre o funcionamento das instituições públicas, é correto afirmar que:
 
@@ -375,6 +418,9 @@ Em relação ao estudo dos ambientes organizacionais e sua influência sobre o f
 * **C)** Os fornecedores de tecnologia da informação contratados pelo tribunal e os cidadãos jurisdicionados compõem o ambiente de tarefa (microambiente) do órgão público.
 * **D)** A análise PESTEL destina-se a mensurar exclusivamente as variáveis psicológicas e comportamentais da organização informal no ambiente interno.
 * **E)** As organizações que atuam em ambientes de tarefa dinâmicos e imprevisíveis devem adotar estruturas estritamente burocráticas e centralizadas para mitigar riscos operacionais.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -390,7 +436,8 @@ Em relação ao estudo dos ambientes organizacionais e sua influência sobre o f
 
 
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 358
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na análise do ambiente organizacional, os teóricos contemporâneos distinguem o **Macroambiente (Ambiente Geral)** do **Microambiente (Ambiente de Tarefa ou Operacional)**.
 
 Constitui elemento integrante do **Ambiente de Tarefa (Microambiente)** de uma organização pública:
@@ -401,6 +448,9 @@ Constitui elemento integrante do **Ambiente de Tarefa (Microambiente)** de uma o
 * **D)** O sistema jurídico-constitucional abstrato do país e as tendências climáticas planetárias.
 * **E)** O conjunto de inovações científicas mundiais em física quântica.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. O **Ambiente de Tarefa (Microambiente)** compreende o segmento do ambiente mais próximo e imediato com o qual a organização interage diretamente para atingir seus fins: clientes/usuários, fornecedores, concorrentes/parceiros e agências reguladoras/órgãos de controle. Já variáveis demográficas, econômicas, culturais e tecnológicas globais compõem o **Ambiente Geral (Macroambiente)**.
@@ -410,7 +460,8 @@ Constitui elemento integrante do **Ambiente de Tarefa (Microambiente)** de uma o
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 359
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 Em uma organização pública que busca aprimorar sua gestão, o diretor de departamento determinou que suas equipes eliminassem desperdícios de materiais e reduzissem os custos operacionais com papel e suprimentos de impressão em 30%, sem alterar a qualidade do serviço.
 
 A ênfase conferida pelo diretor concentrou-se primordialmente na dimensão da:
@@ -420,6 +471,9 @@ A ênfase conferida pelo diretor concentrou-se primordialmente na dimensão da:
 * **C)** Eficácia pura (medida estrita do atingimento da meta final de atendimento).
 * **D)** Descentralização operacional desverticalizada.
 * **E)** Resiliência cibernética sistêmica.
+
+
+---
 
 > **Comentário Detalhado:**
 >

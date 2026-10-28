@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_ciclo_de_vida_e_metodologias_ageis.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Fundamentos da engenharia de software
@@ -12,34 +15,50 @@
 - Abordagens de ciclo de vida preditiva, iterativa, incremental e adaptativa/ágil (e abordagens híbridas)
 - Abordagens, métodos e frameworks ágeis: Scrum, Kanban, Lean Software Development e Extreme Programming (XP)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos de Engenharia de Software e Processos](#1-fundamentos-de-engenharia-de-software-e-processos)
-    - [1.1 Escopo da Engenharia de Software e a Crise do Software](#11-escopo-da-engenharia-de-software-e-a-crise-do-software)
-    - [1.2 Atividades Genéricas de Processo de Software](#12-atividades-genericas-de-processo-de-software)
-    - [1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)](#13-modelos-de-maturidade-de-processo-cmmi-e-mpsbr)
-- [2. Modelos de Ciclo de Vida de Software](#2-modelos-de-ciclo-de-vida-de-software)
-    - [2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V](#21-abordagem-preditiva-modelo-cascata-waterfall-e-modelo-v)
-    - [2.2 Abordagem Iterativa e Incremental: Modelo Espiral e RUP](#22-abordagem-iterativa-e-incremental-modelo-espiral-e-rup)
-    - [2.3 Abordagem Adaptativa / Ágil: O Manifesto Ágil de 2001](#23-abordagem-adaptativa-agil-o-manifesto-agil-de-2001)
-    - [2.4 Abordagens Híbridas de Desenvolvimento](#24-abordagens-hibridas-de-desenvolvimento)
-- [3. O Framework Scrum (Guia Scrum 2020)](#3-o-framework-scrum-guia-scrum-2020)
-    - [3.1 Pilares do Empirismo e Valores Fundamentais](#31-pilares-do-empirismo-e-valores-fundamentais)
-    - [3.2 Estrutura do Scrum Team e Responsabilidades](#32-estrutura-do-scrum-team-e-responsabilidades)
-    - [3.3 Eventos Formais do Scrum e Regras de Time-box](#33-eventos-formais-do-scrum-e-regras-de-time-box)
-    - [3.4 Artefatos Oficiais e seus Três Compromissos Formais](#34-artefatos-oficiais-e-seus-tres-compromissos-formais)
-    - [3.5 Métricas e Gráficos de Acompanhamento (Burndown e Burnup)](#35-metricas-e-graficos-de-acompanhamento-burndown-e-burnup)
-- [4. Método Kanban e Gestão do Fluxo de Valor](#4-metodo-kanban-e-gestao-do-fluxo-de-valor)
-    - [4.1 Princípios e Práticas Gerais do Kanban](#41-principios-e-praticas-gerais-do-kanban)
-    - [4.2 Limites de Trabalho em Progresso (WIP) e Gargalos](#42-limites-de-trabalho-em-progresso-wip-e-gargalos)
-    - [4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD](#43-metricas-de-fluxo-lead-time-cycle-time-throughput-e-cfd)
-- [5. Extreme Programming (XP) e Lean Software Development](#5-extreme-programming-xp-e-lean-software-development)
-    - [5.1 Extreme Programming: Valores e Práticas de Engenharia](#51-extreme-programming-valores-e-praticas-de-engenharia)
-    - [5.2 Lean Software Development e Eliminação dos 7 Desperdícios](#52-lean-software-development-e-eliminacao-dos-7-desperdicios)
-- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Fundamentos de Engenharia de Software e Processos](#1-fundamentos-de-engenharia-de-software-e-processos)
+    1. [Escopo da Engenharia de Software e a Crise do Software](#11-escopo-da-engenharia-de-software-e-a-crise-do-software)
+    2. [Atividades Genéricas de Processo de Software](#12-atividades-genericas-de-processo-de-software)
+    3. [Modelos de Maturidade de Processo (CMMI e MPS.BR)](#13-modelos-de-maturidade-de-processo-cmmi-e-mpsbr)
+    4. [Teste 001](#Teste-001)
+2. [Modelos de Ciclo de Vida de Software](#2-modelos-de-ciclo-de-vida-de-software)
+    1. [Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V](#21-abordagem-preditiva-modelo-cascata-waterfall-e-modelo-v)
+    2. [Teste 002](#Teste-002)
+    3. [Abordagem Iterativa e Incremental: Modelo Espiral e RUP](#22-abordagem-iterativa-e-incremental-modelo-espiral-e-rup)
+    4. [Teste 003](#Teste-003)
+    5. [Abordagem Adaptativa / Ágil: O Manifesto Ágil de 2001](#23-abordagem-adaptativa-agil-o-manifesto-agil-de-2001)
+    6. [Teste 004](#Teste-004)
+    7. [Abordagens Híbridas de Desenvolvimento](#24-abordagens-hibridas-de-desenvolvimento)
+3. [O Framework Scrum (Guia Scrum 2020)](#3-o-framework-scrum-guia-scrum-2020)
+    1. [Pilares do Empirismo e Valores Fundamentais](#31-pilares-do-empirismo-e-valores-fundamentais)
+    2. [Estrutura do Scrum Team e Responsabilidades](#32-estrutura-do-scrum-team-e-responsabilidades)
+    3. [Teste 005](#Teste-005)
+    4. [Eventos Formais do Scrum e Regras de Time-box](#33-eventos-formais-do-scrum-e-regras-de-time-box)
+    5. [Teste 006](#Teste-006)
+    6. [Artefatos Oficiais e seus Três Compromissos Formais](#34-artefatos-oficiais-e-seus-tres-compromissos-formais)
+    7. [Teste 007](#Teste-007)
+    8. [Métricas e Gráficos de Acompanhamento (Burndown e Burnup)](#35-metricas-e-graficos-de-acompanhamento-burndown-e-burnup)
+    9. [Teste 008](#Teste-008)
+4. [Método Kanban e Gestão do Fluxo de Valor](#4-metodo-kanban-e-gestao-do-fluxo-de-valor)
+    1. [Princípios e Práticas Gerais do Kanban](#41-principios-e-praticas-gerais-do-kanban)
+    2. [Limites de Trabalho em Progresso (WIP) e Gargalos](#42-limites-de-trabalho-em-progresso-wip-e-gargalos)
+    3. [Teste 009](#Teste-009)
+    4. [Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD](#43-metricas-de-fluxo-lead-time-cycle-time-throughput-e-cfd)
+    5. [Teste 010](#Teste-010)
+5. [Extreme Programming (XP) e Lean Software Development](#5-extreme-programming-xp-e-lean-software-development)
+    1. [Extreme Programming: Valores e Práticas de Engenharia](#51-extreme-programming-valores-e-praticas-de-engenharia)
+    2. [Teste 011](#Teste-011)
+    3. [Lean Software Development e Eliminação dos 7 Desperdícios](#52-lean-software-development-e-eliminacao-dos-7-desperdicios)
+6. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Fundamentos de Engenharia de Software e Processos
 
@@ -76,7 +95,7 @@ Independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a li
 ---
 
 
-### Questão 01
+### Teste 001
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No âmbito dos modelos de qualidade e melhoria de processos de software, o CMMI (Capability Maturity Model Integration) e o MPS.BR (Melhoria de Processo do Software Brasileiro) apresentam estruturas formais de avaliação. A respeito das características comparativas entre ambos, é correto afirmar que:
 
@@ -85,6 +104,9 @@ No âmbito dos modelos de qualidade e melhoria de processos de software, o CMMI 
 * **C)** o CMMI não contempla representação contínua por níveis de capacidade, restringindo-se estritamente à avaliação por estágios organizacionais.
 * **D)** o MPS.BR é incompatível com as normas internacionais ISO/IEC 12207 e ISO/IEC 15504, tendo sido criado para substituir integralmente esses referenciais no Brasil.
 * **E)** ambos os modelos exigem que a organização abandone práticas ágeis como Scrum e XP para obter a certificação no nível mais alto de maturidade.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -96,7 +118,10 @@ No âmbito dos modelos de qualidade e melhoria de processos de software, o CMMI 
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 2. Modelos de Ciclo de Vida de Software
 
@@ -129,7 +154,7 @@ flowchart TD
 
 ---
 
-### Questão 02
+### Teste 002
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 O modelo de ciclo de vida em Espiral, concebido por Barry Boehm, diferencia-se substancialmente do modelo em Cascata tradicional por incorporar formalmente como seu direcionador central e sistemático:
 
@@ -138,6 +163,9 @@ O modelo de ciclo de vida em Espiral, concebido por Barry Boehm, diferencia-se s
 * **C)** O pareamento permanente de programadores em estações de trabalho unificadas.
 * **D)** O congelamento irrevogável dos requisitos do sistema antes de qualquer prototipação.
 * **E)** A substituição de todas as fases de testes por inspeções formais de conformidade jurídica.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -173,7 +201,7 @@ O modelo de ciclo de vida em Espiral, concebido por Barry Boehm, diferencia-se s
 
 ---
 
-### Questão 03
+### Teste 003
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O Processo Unificado (*Rational Unified Process* - RUP) é um modelo de ciclo de vida de software iterativo e incremental estruturado em quatro fases sequenciais ao longo do tempo. A fase do RUP cuja meta precípua é estabelecer uma arquitetura executável estável, mitigar os riscos técnicos mais severos e validar a viabilidade da solução técnica é a fase de:
 
@@ -182,6 +210,9 @@ O Processo Unificado (*Rational Unified Process* - RUP) é um modelo de ciclo de
 * **C)** Construção (*Construction*).
 * **D)** Transição (*Transition*).
 * **E)** Homologação (*Acceptance*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -210,7 +241,7 @@ Em fevereiro de 2001, em Snowbird (Utah), dezessete líderes de desenvolvimento 
 
 ---
 
-### Questão 04
+### Teste 004
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O Manifesto para o Desenvolvimento Ágil de Software, firmado em 2001, estabeleceu 4 valores fundamentais e 12 princípios norteadores. Entre os 12 princípios formais expressos no documento oficial, encontra-se:
 
@@ -219,6 +250,9 @@ O Manifesto para o Desenvolvimento Ágil de Software, firmado em 2001, estabelec
 * **C)** Realizar entregas de software funcional apenas ao final do contrato, assegurando que o produto seja entregue sem pendências aos usuários.
 * **D)** Proibir a alteração de requisitos após a homologação da arquitetura básica pelo cliente.
 * **E)** Concentrar a comunicação exclusivamente por meio de relatórios formais de status report escritos pela gerência.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -239,7 +273,10 @@ Reconhecem que o mundo corporativo raramente opera em extremos absolutos. Um pro
 - Abordagem preditiva no planejamento macro de escopo, contratação pública e cronograma de alto nível (governança tradicional);
 - Abordagem adaptativa/ágil na execução das iterações técnicas pelas equipes de desenvolvimento (com Sprints Scrum, gestão visual Kanban e testes contínuos).
 
+
+
 ---
+
 
 ## 3. O Framework Scrum (Guia Scrum 2020)
 
@@ -292,7 +329,7 @@ No Guia Scrum oficial de 2020, o **Scrum Team** é a unidade fundamental de trab
 
 ---
 
-### Questão 05
+### Teste 005
 **(FGV – TJ-RR – Analista Judiciário / Tecnologia da Informação)**  
 Em relação às características do Scrum Team estabelecidas no Guia Scrum (versão 2020), analise as afirmativas a seguir:  
 
@@ -307,6 +344,9 @@ Está correto o que se afirma em:
 * **C)** I e II, apenas.
 * **D)** II e III, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -334,7 +374,7 @@ Todos os eventos no Scrum possuem duração máxima pré-fixada (**time-box**):
 
 ---
 
-### Questão 06
+### Teste 006
 **(FCC – DPE – Analista de Sistemas)**  
 A respeito do evento *Daily Scrum* estabelecido no Guia Scrum (versão 2020), assinale a afirmativa correta:
 
@@ -343,6 +383,9 @@ A respeito do evento *Daily Scrum* estabelecido no Guia Scrum (versão 2020), as
 * **C)** Trata-se de um evento de 15 minutos para os Desenvolvedores do Scrum Team inspecionarem o progresso em direção à Meta da Sprint e adaptarem o Sprint Backlog conforme necessário.
 * **D)** É obrigatório que cada desenvolvedor responda exclusivamente a três perguntas padronizadas: o que fez ontem, o que fará hoje e quais são os impedimentos.
 * **E)** Caso o Product Owner ou o Scrum Master não possam comparecer presencialmente ao evento, a Daily Scrum deve ser compulsoriamente cancelada naquele dia.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -372,7 +415,7 @@ Cada um dos três artefatos do Scrum contém um **compromisso formal** associado
 
 ---
 
-### Questão 07
+### Teste 007
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 No framework Scrum (segundo a versão oficial do Guia Scrum de 2020), cada um dos três artefatos possui um compromisso formal associado que fornece informações transparentes e foco para a equipe. Os compromissos associados ao Product Backlog, ao Sprint Backlog e ao Incremento são, respectivamente:
 
@@ -381,6 +424,9 @@ No framework Scrum (segundo a versão oficial do Guia Scrum de 2020), cada um do
 * **C)** Histórias de Usuário, Tarefas Técnicas e Código em Produção.
 * **D)** Retrospectiva, Planejamento da Sprint e Revisão.
 * **E)** Burndown Chart, Velocidade do Time e Lead Time.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -406,7 +452,7 @@ No framework Scrum (segundo a versão oficial do Guia Scrum de 2020), cada um do
 ---
 
 
-### Questão 08
+### Teste 008
 **(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
 No acompanhamento visual do progresso de equipes ágeis, dois gráficos amplamente utilizados são o *Sprint Burndown* e o *Release Burnup*. A correta caracterização e interpretação desses gráficos estabelece que:
 
@@ -415,6 +461,9 @@ No acompanhamento visual do progresso de equipes ágeis, dois gráficos amplamen
 * **C)** o gráfico de *Burnup* mede exclusivamente os impedimentos técnicos do time, não tendo relação com escopo ou entregas de software.
 * **D)** no gráfico de Burndown, uma linha real ascendente ou situada acima da linha ideal indica que a equipe está entregando o trabalho mais rapidamente do que o estimado originalmente.
 * **E)** o gráfico de Burnup é incapaz de demonstrar alterações de escopo ocorridas durante o projeto, revelando apenas as tarefas finalizadas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -426,7 +475,10 @@ No acompanhamento visual do progresso de equipes ágeis, dois gráficos amplamen
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Método Kanban e Gestão do Fluxo de Valor
 
@@ -452,7 +504,7 @@ O Kanban opera como um **sistema puxado (*pull system*)**:
 
 ---
 
-### Questão 09
+### Teste 009
 **(FGV – TJ-MT – Analista Judiciário / Tecnologia da Informação)**  
 No método Kanban aplicado ao fluxo de desenvolvimento de software, a imposição de limites explícitos de Trabalho em Progresso (*Work in Progress* - WIP) nas colunas do quadro de tarefas tem como objetivo primordial e fundamentação técnica:
 
@@ -461,6 +513,9 @@ No método Kanban aplicado ao fluxo de desenvolvimento de software, a imposiçã
 * **C)** evidenciar gargalos e bloqueios no fluxo, reduzindo o tempo de ciclo (*Cycle Time*) e prevenindo o desperdício decorrente da troca constante de contexto, em consonância com a Lei de Little.
 * **D)** eliminar a necessidade de testes de integração, transferindo a validação diretamente para o usuário final.
 * **E)** nivelar a capacidade produtiva fixando rigidamente o tamanho de todas as tarefas em exatamente um dia de trabalho.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -485,7 +540,7 @@ No método Kanban aplicado ao fluxo de desenvolvimento de software, a imposiçã
 
 ---
 
-### Questão 10
+### Teste 010
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No método Kanban aplicado à gestão do fluxo de desenvolvimento de software, duas métricas temporais essenciais para avaliar a eficiência do processo são o *Lead Time* e o *Cycle Time*. A correta distinção conceitual entre essas métricas estabelece que:
 
@@ -494,6 +549,9 @@ No método Kanban aplicado à gestão do fluxo de desenvolvimento de software, d
 * **C)** O *Cycle Time* sempre engloba o tempo de espera no backlog do cliente, ao passo que o *Lead Time* tem início apenas quando a primeira linha de código é compilada.
 * **D)** O *Lead Time* e o *Cycle Time* são grandezas idênticas em qualquer quadro Kanban que utilize limites estritos de WIP.
 * **E)** O *Throughput* representa a diferença matemática obtida pela subtração do *Cycle Time* pelo *Lead Time*.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -507,8 +565,9 @@ No método Kanban aplicado à gestão do fluxo de desenvolvimento de software, d
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 5. Extreme Programming (XP) e Lean Software Development
@@ -531,7 +590,7 @@ Criado por Kent Beck, o Extreme Programming (XP) é uma metodologia ágil voltad
 
 ---
 
-### Questão 11
+### Teste 011
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 Em relação às metodologias e práticas de engenharia de software ágil, a prática de desenvolvimento que consiste em programar com dois desenvolvedores compartilhando a mesma estação de trabalho (um atuando como "piloto" digitando o código e outro como "copiloto" revisando estrategicamente a solução em tempo real), bem como a técnica de escrever o teste automatizado antes do código de produção (ciclo Red-Green-Refactor), são práticas originárias e mandatórias do:
 
@@ -540,6 +599,9 @@ Em relação às metodologias e práticas de engenharia de software ágil, a pr�
 * **C)** Extreme Programming (XP).
 * **D)** CMMI Nível 5.
 * **E)** Rational Unified Process (RUP).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -570,7 +632,10 @@ Adaptado do Sistema Toyota de Produção por Mary e Tom Poppendieck, o desenvolv
 
 - **Princípios Fundamentais do Lean:** Eliminar desperdícios; Amplificar o aprendizado; Decidir o mais tarde possível (manter opções em aberto); Entregar o mais rápido possível; Empoderar o time; Construir integridade intrínseca; e Enxergar o todo (*See the whole*).
 
+
+
 ---
+
 
 ## 6. Fontes Oficiais e Referências Bibliográficas
 

@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_vocabulario_tecnico_de_ti_e_conjuncoes.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Vocabulário técnico especializado da área de Tecnologia da Informação
@@ -12,29 +15,44 @@
 - Marcadores discursivos e conectivos lógicos (Linking Words / Transition Words)
 - Relações semânticas de causa, consequência, contraste, concessão, condição e adição
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)](#1-conectivos-logicos-e-marcadores-discursivos-linking-words)
-    - [1.1 Relações de Contraste e Adversidade](#11-relacoes-de-contraste-e-adversidade)
-    - [1.2 Relações de Concessão e a Regra do Despite](#12-relacoes-de-concessao-e-a-regra-do-despite)
-    - [1.3 Relações de Causa, Explicação e Motivo](#13-relacoes-de-causa-explicacao-e-motivo)
-    - [1.4 Relações de Consequência, Efeito e Conclusão](#14-relacoes-de-consequencia-efeito-e-conclusao)
-    - [1.5 Relações de Adição, Continuidade e Ênfase](#15-relacoes-de-adicao-continuidade-e-enfase)
-    - [1.6 Relações de Condição e a Lógica do Unless](#16-relacoes-de-condicao-e-a-logica-do-unless)
-    - [1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis](#17-tabela-canonica-de-conectivos-e-substituicoes-intercambiaveis)
-- [2. Morfologia e Formação de Palavras Técnicas (Word Formation)](#2-morfologia-e-formacao-de-palavras-tecnicas-word-formation)
-    - [2.1 Prefixos Técnicos Recorrentes em Computação](#21-prefixos-tecnicos-recorrentes-em-computacao)
-    - [2.2 Famílias de Palavras e Sufixos Gramaticais](#22-familias-de-palavras-e-sufixos-gramaticais)
-    - [2.3 Substantivos Compostos e Leitura Reversa (Noun Adjuncts)](#23-substantivos-compostos-e-leitura-reversa-noun-adjuncts)
-- [3. Glossário Técnico Essencial por Domínio de TI](#3-glossario-tecnico-essencial-por-dominio-de-ti)
-    - [3.1 Arquitetura e Engenharia de Software](#31-arquitetura-e-engenharia-de-software)
-    - [3.2 Concorrência e Sistemas Operacionais](#32-concorrencia-e-sistemas-operacionais)
-    - [3.3 Computação em Nuvem e Infraestrutura](#33-computacao-em-nuvem-e-infraestrutura)
-    - [3.4 Segurança Cibernética e Auditoria de Sistemas](#34-seguranca-cibernetica-e-auditoria-de-sistemas)
-- [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
+
+1. [Conectivos Lógicos e Marcadores Discursivos (Linking Words)](#1-conectivos-logicos-e-marcadores-discursivos-linking-words)
+    1. [Relações de Contraste e Adversidade](#11-relacoes-de-contraste-e-adversidade)
+    2. [Relações de Concessão e a Regra do Despite](#12-relacoes-de-concessao-e-a-regra-do-despite)
+    3. [Teste 575](#Teste-575)
+    4. [Relações de Causa, Explicação e Motivo](#13-relacoes-de-causa-explicacao-e-motivo)
+    5. [Relações de Consequência, Efeito e Conclusão](#14-relacoes-de-consequencia-efeito-e-conclusao)
+    6. [Relações de Adição, Continuidade e Ênfase](#15-relacoes-de-adicao-continuidade-e-enfase)
+    7. [Relações de Condição e a Lógica do Unless](#16-relacoes-de-condicao-e-a-logica-do-unless)
+    8. [Teste 576](#Teste-576)
+    9. [Tabela Canônica de Conectivos e Substituições Intercambiáveis](#17-tabela-canonica-de-conectivos-e-substituicoes-intercambiaveis)
+    10. [Teste 577](#Teste-577)
+    11. [Teste 578](#Teste-578)
+    12. [Teste 579](#Teste-579)
+2. [Morfologia e Formação de Palavras Técnicas (Word Formation)](#2-morfologia-e-formacao-de-palavras-tecnicas-word-formation)
+    1. [Prefixos Técnicos Recorrentes em Computação](#21-prefixos-tecnicos-recorrentes-em-computacao)
+    2. [Famílias de Palavras e Sufixos Gramaticais](#22-familias-de-palavras-e-sufixos-gramaticais)
+    3. [Teste 580](#Teste-580)
+    4. [Substantivos Compostos e Leitura Reversa (Noun Adjuncts)](#23-substantivos-compostos-e-leitura-reversa-noun-adjuncts)
+    5. [Teste 581](#Teste-581)
+3. [Glossário Técnico Essencial por Domínio de TI](#3-glossario-tecnico-essencial-por-dominio-de-ti)
+    1. [Arquitetura e Engenharia de Software](#31-arquitetura-e-engenharia-de-software)
+    2. [Teste 582](#Teste-582)
+    3. [Concorrência e Sistemas Operacionais](#32-concorrencia-e-sistemas-operacionais)
+    4. [Teste 583](#Teste-583)
+    5. [Computação em Nuvem e Infraestrutura](#33-computacao-em-nuvem-e-infraestrutura)
+    6. [Segurança Cibernética e Auditoria de Sistemas](#34-seguranca-cibernetica-e-auditoria-de-sistemas)
+    7. [Teste 584](#Teste-584)
+4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)
 
@@ -86,7 +104,8 @@ A concessão introduz uma circunstância desfavorável, limitação técnica ou 
 
 ---
 
-### Questão 01 (FCC - Adaptada / TRT - Analista Judiciário - Tecnologia da Informação)
+### Teste 575
+**(FCC - Adaptada / TRT - Analista Judiciário - Tecnologia da Informação)**
 *Carefully read the technical excerpt below on distributed systems:*
 
 > *"**Despite** the sudden network partition and sporadic hardware failures, the distributed ledger maintained strong data consistency across all active nodes. **Although** write throughput temporarily stalled during leader election, no uncommitted transactions were lost. The engineering team, **however**, scheduled an emergency firmware update to mitigate residual latency spikes."*
@@ -98,6 +117,9 @@ Com base no texto técnico e nas regras morfossintáticas e coesivas da língua 
 * **C)** O termo **"however"** introduz uma oração subordinada causal explicativa sobre a atualização de firmware.
 * **D)** A expressão **"in spite of"** não poderia substituir **"Despite"** no primeiro período, pois exige oração subordinada com verbo conjugado.
 * **E)** O vocábulo **"Although"** deve ser necessariamente acompanhado de substantivo simples desacompanhado de verbo finito.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -152,7 +174,8 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 
 ---
 
-### Questão 02 (FCC - Adaptada / Tribunal de Contas - Auditoria Governamental de TI)
+### Teste 576
+**(FCC - Adaptada / Tribunal de Contas - Auditoria Governamental de TI)**
 *Read the continuous delivery policy statement below:*
 
 > *"The automated deployment pipeline will not release the production artifact into the sovereign cloud cluster **unless** all static code analysis checks report zero critical vulnerabilities **and** the regression suite passes with 100% compliance."*
@@ -164,6 +187,9 @@ No contexto da infraestrutura de CI/CD apresentada e da semântica dos conectivo
 * **C)** A equipe de auditoria dispensar formalmente a verificação de vulnerabilidades em virtude de prazos urgentes.
 * **D)** O cluster de nuvem registrar latência nula, independentemente do resultado dos analisadores estáticos.
 * **E)** O deploy ocorrer em ambiente de homologação (*staging*) desprovido de regras de integridade.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -194,7 +220,8 @@ No contexto da infraestrutura de CI/CD apresentada e da semântica dos conectivo
 
 ---
 
-### Questão 03 (FCC - Adaptada / Tribunal de Contas - Auditoria de TI)
+### Teste 577
+**(FCC - Adaptada / Tribunal de Contas - Auditoria de TI)**
 Na redação técnica em língua inglesa sobre infraestrutura distribuída e bancos de dados, o enunciado:
 
 > *"Engineers must balance the trade-off between strict consistency and high availability; **in spite of** the replication lag, the distributed database guarantees eventual consistency."*
@@ -206,6 +233,9 @@ apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indic
 * **C)** Finalidade ou propósito; substituível por *"in order to"*.
 * **D)** Causa direta; substituível por *"due to"*.
 * **E)** Condição restritiva; substituível por *"as long as"*.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -219,7 +249,8 @@ apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indic
 
 ---
 
-### Questão 04 (FCC - Adaptada / Auditor de TI - Fiscalização de Contratos de Nuvem)
+### Teste 578
+**(FCC - Adaptada / Auditor de TI - Fiscalização de Contratos de Nuvem)**
 *Consider the analytical report below regarding multi-tenant cloud storage:*
 
 > *"Relational engines enforce strict schema validation; **whereas**, document databases store unstructured documents. **Due to** recent compliance audits, administrators had to verify that cryptographic logs were **tamper-proof**. **Furthermore**, the cloud provider agreed to **mitigate** all critical hypervisor flaws discovered during penetration testing."*
@@ -231,6 +262,9 @@ A respeito das relações semânticas e do vocabulário técnico empregados no p
 * **C)** O termo **"tamper-proof"** indica registros protegidos contra alterações ou adulterações não autorizadas.
 * **D)** O conectivo **"Furthermore"** introduz uma oposição direta à frase antecedente.
 * **E)** O verbo **"mitigate"** significa potencializar e agravar as vulnerabilidades do hipervisor para testes de estresse.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -246,7 +280,8 @@ A respeito das relações semânticas e do vocabulário técnico empregados no p
 
 
 
-### Questão 05 (FCC - Adaptada / Analista de Governança de TI - SEFAZ)
+### Teste 579
+**(FCC - Adaptada / Analista de Governança de TI - SEFAZ)**
 *Consider the sentence extracted from a technical systems architecture evaluation:*
 
 > *"The newly adopted microservices architecture offers superior horizontal scalability; **nevertheless**, it introduces substantial operational **overhead** and network latency. **Therefore**, the development team decided not to migrate the mission-critical core service **unless** rigorous benchmark metrics prove that throughput remains acceptable."*
@@ -259,6 +294,9 @@ A respeito dos marcadores discursivos e do vocabulário técnico empregados no t
 * **D)** A conjunção **"unless"** introduz uma concessão incondicional, com o mesmo valor sintático e semântico de *"although"*.
 * **E)** A oração iniciada por *"unless rigorous benchmark metrics prove..."* indica que o serviço central será migrado de imediato, independentemente dos testes de vazão.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O conectivo **"Nevertheless"** (contudo, todavia, no entanto, não obstante) é um marcador discursivo coordenativo de **contraste/adversidade**. Ele pontua uma ressalva ou restrição à proposição anterior, e não uma relação explicativa de causa (*because*).
@@ -269,8 +307,9 @@ A respeito dos marcadores discursivos e do vocabulário técnico empregados no t
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 2. Morfologia e Formação de Palavras Técnicas (Word Formation)
@@ -317,7 +356,8 @@ flowchart LR
 
 ---
 
-### Questão 06 (FCC - Adaptada / Analista de Sistemas - Desenvolvimento)
+### Teste 580
+**(FCC - Adaptada / Analista de Sistemas - Desenvolvimento)**
 *Analyze the technical sentence below regarding cloud computing architecture:*
 
 > *"The architectural **maintainability** and **scalability** of cloud-native microservices ensure that distributed workloads degrade **gracefully** during unexpected traffic bursts."*
@@ -329,6 +369,9 @@ Em relação à morfologia das palavras em destaque e seus sufixos na língua in
 * **C)** O sufixo *-ity* transforma substantivos em verbos no infinitivo.
 * **D)** As palavras *maintainability* e *scalability* funcionam sintaticamente como advérbios de modo que indicam tempo de resposta.
 * **E)** A terminação *-able* presente na raiz das palavras traduz uma impossibilidade ou veto técnico categórico.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -375,7 +418,8 @@ flowchart RL
 
 ---
 
-### Questão 07 (FCC - Adaptada / Analista de Infraestrutura e Redes)
+### Teste 581
+**(FCC - Adaptada / Analista de Infraestrutura e Redes)**
 *Read the excerpt from an infrastructure deployment manual:*
 
 > *"To guarantee zero downtime during datacenter updates, our team configured a **fault-tolerant high-availability cluster provisioning system**. The infrastructure operates **seamlessly** across two distinct availability zones, ensuring that failover occurs automatically without dropping active user sessions."*
@@ -396,6 +440,9 @@ Está correto o que se afirma em:
 * **D)** III, apenas.
 * **E)** I, II e III.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. Apenas as proposições I e II estão alinhadas com a gramática instrumental e os conceitos de TI:
@@ -409,8 +456,9 @@ Está correto o que se afirma em:
 > 
 > **Gabarito: A**
 
----
 
+
+---
 
 
 ## 3. Glossário Técnico Essencial por Domínio de TI
@@ -428,7 +476,8 @@ Está correto o que se afirma em:
 
 ---
 
-### Questão 08 (FCC - Adaptada / TCE-GO - Engenharia de Software)
+### Teste 582
+**(FCC - Adaptada / TCE-GO - Engenharia de Software)**
 *Read the architectural review summary below:*
 
 > *"The audit team observed excessive **boilerplate** code across the data access layer, coupled with high **coupling** and low **cohesion** between payment services. To resolve this technical debt, the lead architect proposed continuous **refactoring**, acknowledging the inevitable **trade-off** between immediate delivery speed and long-term maintainability."*
@@ -440,6 +489,9 @@ Com base na terminologia técnica consagrada na engenharia de software e no text
 * **C)** O conceito de **"boilerplate"** define módulos de software altamente customizados e exclusivos que encerram algoritmos confidenciais de negócio.
 * **D)** O estado de **"high coupling"** (alto acoplamento) constitui a melhor prática arquitetural recomendada, pois assegura que módulos dependam criticamente uns dos outros para operar.
 * **E)** O vocábulo **"cohesion"** (coesão) indica a quantidade de pacotes de dados perdidos em uma transmissão de rede local.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -464,7 +516,8 @@ Com base na terminologia técnica consagrada na engenharia de software e no text
 
 ---
 
-### Questão 09 (FCC - Adaptada / Analista Judiciário - TRT - Tecnologia da Informação)
+### Teste 583
+**(FCC - Adaptada / Analista Judiciário - TRT - Tecnologia da Informação)**
 *Carefully read the technical paragraph below regarding concurrent programming:*
 
 > *"When multiple threads concurrently access shared memory without proper synchronization, a hazardous **race condition** may emerge. If two threads enter a circular dependency while competing for exclusive locks, the operating system enters a permanent **deadlock**. To avoid these anomalies, developers can employ immutable data structures, **provided that** the garbage collector can efficiently recycle discarded instances **without** triggering disruptive latency spikes."*
@@ -476,6 +529,9 @@ Com base no texto técnico e nas regras gramaticais da língua inglesa, assinale
 * **C)** A locução conjuntiva **"provided that"** estabelece uma relação semântica de condição (contanto que / desde que).
 * **D)** No trecho *"without triggering disruptive latency spikes"*, a palavra *"without"* introduz uma finalidade deliberada de elevar a latência.
 * **E)** O termo **"immutable"** é um adjetivo que caracteriza dados que podem ser modificados livremente por qualquer thread concorrente sem restrições.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -510,7 +566,8 @@ Com base no texto técnico e nas regras gramaticais da língua inglesa, assinale
 
 ---
 
-### Questão 10 (FCC - Adaptada / Segurança Cibernética e Auditoria de Sistemas)
+### Teste 584
+**(FCC - Adaptada / Segurança Cibernética e Auditoria de Sistemas)**
 *Read the cybersecurity incident report excerpt below:*
 
 > *"During the external penetration test, the adversary attempted to bypass perimeter firewalls via **IP spoofing** and gain administrative access through targeted **phishing**. However, cryptographic **tamper-proof** event logs maintained on an immutable write-once store allowed forensic auditors to establish **non-repudiation** and swiftly execute threat **mitigation** procedures."*
@@ -523,6 +580,9 @@ No âmbito da segurança da informação e auditoria de sistemas, a correta inte
 * **D)** O termo **"mitigation"** descreve a intensificação intencional de vulnerabilidades operacionais em servidores expostos na internet.
 * **E)** **"Phishing"** caracteriza a exclusão definitiva de logs de eventos mediante ataques de inundação de pacotes syn-flood.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. **"IP spoofing"** (falsificação/mascaramento de IP) é uma técnica de ataque em que o invasor forja o cabeçalho IP para se passar por um endereço de confiança.
@@ -533,7 +593,10 @@ No âmbito da segurança da informação e auditoria de sistemas, a correta inte
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 6. Fontes Recomendadas na Internet
 

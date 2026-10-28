@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `01_orcamento_publico_principios_e_ciclo_ppa_ldo_loa.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -21,36 +24,34 @@
     - As modalidades do Artigo 166-A da CF/88: Transferências especiais ("emendas PIX") vs. transferências com finalidade definida;
     - Impedimentos de ordem técnica e contingenciamento proporcional na execução impositiva.
 
----
 
-## 🧭 Sumário Interativo
-- [1. Conceito, Natureza Jurídica e Evolução dos Modelos Orçamentários](#1-conceito-natureza-juridica-e-evolucao-dos-modelos-orcamentarios)
-    - [1.1 Conceito e Natureza Jurídica do Orçamento Público](#11-conceito-e-natureza-juridica-do-orcamento-publico)
-    - [1.2 Modelos Orçamentários e Comparativo Evolutivo](#12-modelos-orcamentarios-e-comparativo-evolutivo)
-- [2. Princípios Orçamentários: O Núcleo Normativo e Doutrinário](#2-principios-orcamentarios-o-nucleo-normativo-e-doutrinario)
-    - [2.1 Princípio da Unidade ou Totalidade](#21-principio-da-unidade-ou-totalidade)
-    - [2.2 Princípio da Universalidade](#22-principio-da-universalidade)
-    - [2.3 Princípio da Anualidade ou Periodicidade](#23-principio-da-anualidade-ou-periodicidade)
-    - [2.4 Princípio da Exclusividade Orçamentária](#24-principio-da-exclusividade-orcamentaria)
-    - [2.5 Princípio do Orçamento Bruto](#25-principio-do-orcamento-bruto)
-    - [2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos](#26-principio-da-nao-afetacao-nao-vinculacao-da-receita-de-impostos)
-    - [2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade](#27-principios-do-equilibrio-legalidade-clareza-e-publicidade)
-- [3. O Sistema Orçamentário Constitucional: PPA, LDO e LOA](#3-o-sistema-orcamentario-constitucional-ppa-ldo-e-loa)
-    - [3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo](#31-plano-plurianual-ppa-planejamento-estrategico-de-medio-prazo)
-    - [3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF](#32-lei-de-diretrizes-orcamentarias-ldo-o-elo-tatico-e-as-exigencias-da-lrf)
-    - [3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada](#33-lei-orcamentaria-anual-loa-a-estrutura-triplice-integrada)
-- [4. Ciclo Orçamentário e Processo Legislativo Orçamentário](#4-ciclo-orcamentario-e-processo-legislativo-orcamentario)
-    - [4.1 As Quatro Etapas do Ciclo Orçamentário](#41-as-quatro-etapas-do-ciclo-orcamentario)
-    - [4.2 Processo Legislativo e a Tramitação na CMO](#42-processo-legislativo-e-a-tramitacao-na-cmo)
-    - [4.3 Prazos Constitucionais de Envio e Devolução (ADCT)](#43-prazos-constitucionais-de-envio-e-devolucao-adct)
-- [5. Emendas Parlamentares e o Regime do Orçamento Impositivo](#5-emendas-parlamentares-e-o-regime-do-orcamento-impositivo)
-    - [5.1 Emendas Individuais Impositivas](#51-emendas-individuais-impositivas)
-    - [5.2 Emendas de Bancada Estadual Impositivas](#52-emendas-de-bancada-estadual-impositivas)
-    - [5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)](#53-transferencias-especiais-emendas-pix-e-com-finalidade-definida-art-166-a)
-    - [5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória](#54-limitacoes-e-impedimentos-tecnicos-na-execucao-obrigatoria)
-- [6. Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Conceito, Natureza Jurídica e Evolução dos Modelos Orçamentários](#1-conceito-natureza-juridica-e-evolucao-dos-modelos-orcamentarios)
+    2. [Teste 209](#Teste-209)
+    3. [Princípios Orçamentários: O Núcleo Normativo e Doutrinário](#2-principios-orcamentarios-o-nucleo-normativo-e-doutrinario)
+    4. [Teste 210](#Teste-210)
+    5. [Teste 211](#Teste-211)
+    6. [Teste 212](#Teste-212)
+    7. [O Sistema Orçamentário Constitucional: PPA, LDO e LOA](#3-o-sistema-orcamentario-constitucional-ppa-ldo-e-loa)
+    8. [Teste 213](#Teste-213)
+    9. [Teste 214](#Teste-214)
+    10. [Teste 215](#Teste-215)
+    11. [Ciclo Orçamentário e Processo Legislativo Orçamentário](#4-ciclo-orcamentario-e-processo-legislativo-orcamentario)
+    12. [Teste 216](#Teste-216)
+    13. [Emendas Parlamentares e o Regime do Orçamento Impositivo](#5-emendas-parlamentares-e-o-regime-do-orcamento-impositivo)
+    14. [Teste 217](#Teste-217)
+    15. [Teste 218](#Teste-218)
+    16. [Teste 219](#Teste-219)
+2. [Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
+
+---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -111,7 +112,8 @@ flowchart LR
 
 ---
 
-### Questão 01 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Teste 209
+**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 No processo evolutivo da gestão pública e das finanças governamentais, diferentes técnicas orçamentárias foram desenvolvidas para responder às demandas do Estado. Sobre os modelos e técnicas orçamentárias, assinale a afirmativa INCORRETA:
 
 * **A)** O Orçamento Tradicional ou Clássico caracteriza-se pela ênfase primordial no objeto do gasto e no controle contábil das despesas, prescindindo de um planejamento estruturado de objetivos finalísticos.
@@ -119,6 +121,9 @@ No processo evolutivo da gestão pública e das finanças governamentais, difere
 * **C)** O Orçamento Base-Zero (OBZ) adota como premissa a análise e a justificação individualizada de todos os programas a cada ciclo orçamentário, não havendo direitos adquiridos a dotações fixadas no exercício pretérito.
 * **D)** O Orçamento-Programa vincula as dotações orçamentárias diretamente a objetivos e metas preestabelecidas, utilizando indicadores sistemáticos para aferição da eficácia e da efetividade das políticas públicas.
 * **E)** O Orçamento Incremental fundamenta-se na revisão integral da base orçamentária existente, recusando terminantemente a aplicação de índices marginais ou percentuais de reajuste automático sobre os gastos anteriores.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -175,7 +180,8 @@ flowchart TD
 
 ---
 
-### Questão 02 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 210
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Na elaboração do projeto de Lei Orçamentária Anual (LOA) de determinado Estado, o Poder Executivo incluiu um artigo concedendo autorização legislativa para a alteração das alíquotas do Imposto sobre Circulação de Mercadorias e Serviços (ICMS), bem como autorização para a abertura de créditos orçamentários suplementares até o limite de 20% da despesa fixada.
 
 Diante do princípio orçamentário da exclusividade (art. 165, § 8º da CF/88):
@@ -185,6 +191,9 @@ Diante do princípio orçamentário da exclusividade (art. 165, § 8º da CF/88)
 * **C)** A autorização para abertura de créditos suplementares é constitucional por consistir em ressalva expressa ao princípio da exclusividade; todavia, a cláusula alterando alíquotas de ICMS padece de inconstitucionalidade material por se tratar de matéria estranha à LOA.
 * **D)** A autorização para alterar ICMS é válida, mas a previsão de créditos suplementares é proibida pelo texto constitucional.
 * **E)** O projeto é nulo e deve ser arquivado imediatamente sem deliberação pelo plenário da Assembleia Legislativa.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -215,7 +224,8 @@ Diante do princípio orçamentário da exclusividade (art. 165, § 8º da CF/88)
 
 ---
 
-### Questão 03 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 211
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 A respeito dos princípios orçamentários consagrados na legislação brasileira e no texto da Constituição Federal de 1988, considere as seguintes assertivas:
 
 I. O princípio da exclusividade impede que a Lei Orçamentária Anual disponha sobre autorização para a contratação de operações de crédito, ainda que por antecipação de receita orçamentária.  
@@ -231,6 +241,9 @@ Está correto o que se afirma APENAS em:
 * **C)** III.
 * **D)** I e II.
 * **E)** I e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -252,7 +265,8 @@ Está correto o que se afirma APENAS em:
 
 ---
 
-### Questão 04 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+### Teste 212
+**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
 A respeito dos princípios orçamentários consagrados na legislação de finanças públicas brasileira (Lei nº 4.320/1964 e CF/88), analise as proposições a seguir:
 
 I. O princípio da universalidade preceitua que a Lei Orçamentária Anual deve conter todas as receitas e todas as despesas de todos os Poderes, órgãos, entidades, fundos e fundações instituídas e mantidas pelo Poder Público.  
@@ -266,6 +280,9 @@ Está correto o que se afirma em:
 * **C)** II e III, apenas.
 * **D)** I e III, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -302,7 +319,8 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Teste 213
+**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 Acerca da vigência e da dinâmica estrutural do Plano Plurianual (PPA) no modelo orçamentário instituído pela Constituição Federal de 1988, é correto afirmar:
 
 * **A)** O PPA possui vigência de quatro anos, iniciando-se no primeiro ano do mandato do Chefe do Executivo e encerrando-se no término do quarto ano do mesmo mandato.
@@ -310,6 +328,9 @@ Acerca da vigência e da dinâmica estrutural do Plano Plurianual (PPA) no model
 * **C)** As diretrizes orçamentárias e metas do PPA vinculam a União e os Estados, mas dispensam adoção obrigatória no âmbito dos Municípios com menos de cinquenta mil habitantes.
 * **D)** O PPA destina-se unicamente a fixar a estimativa de arrecadação tributária anual e a tabela salarial dos servidores públicos da administração direta.
 * **E)** Os projetos de lei de PPA são de iniciativa concorrente entre o Presidente da República e os Presidentes da Câmara dos Deputados e do Senado Federal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -338,7 +359,8 @@ Acerca da vigência e da dinâmica estrutural do Plano Plurianual (PPA) no model
 
 ---
 
-### Questão 06 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 214
+**(FCC - Adaptada / Analista de Gestão Pública)**
 A Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000) introduziu instrumentos fundamentais para garantir a solvência e a transparência fiscal dos entes públicos. Dentre esses instrumentos, o documento integrante do projeto de Lei de Diretrizes Orçamentárias (LDO) que estabelece as metas anuais de receitas e despesas, o montante da dívida pública e os resultados primário e nominal para o exercício a que se refere e para os dois seguintes denomina-se:
 
 * **A)** Relatório de Gestão Fiscal (RGF).
@@ -346,6 +368,9 @@ A Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000) introduziu inst
 * **C)** Anexo de Metas Fiscais (AMF).
 * **D)** Balanço Orçamentário Simplificado.
 * **E)** Demonstrativo de Restos a Pagar.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -369,7 +394,8 @@ A LOA (art. 165, § 5º da CF/88) materializa o plano anual de receitas e despes
 
 ---
 
-### Questão 07 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 215
+**(FCC - Adaptada / Analista de Gestão Pública)**
 A Lei de Diretrizes Orçamentárias (LDO), concebida pela Carta Magna de 1988 e substancialmente fortalecida pela Lei de Responsabilidade Fiscal (LC nº 101/2000), desempenha papel fundamental no equilíbrio fiscal da Administração Pública. Sobre os anexos obrigatórios que integram o projeto da LDO, é correto afirmar:
 
 * **A)** O Anexo de Metas Fiscais define metas anuais para receitas, despesas, montante da dívida pública, resultado nominal e resultado primário para o exercício a que se referir e para os dois seguintes.
@@ -377,6 +403,9 @@ A Lei de Diretrizes Orçamentárias (LDO), concebida pela Carta Magna de 1988 e 
 * **C)** As metas fiscais fixadas na LDO possuem caráter meramente enunciativo e acadêmico, não vinculando as dotações a serem consignadas no projeto de LOA.
 * **D)** A reserva de contingência constante da LOA deve ser fixada em percentual livremente escolhido pelo ordenador de despesas, sem parâmetros definidos na LDO.
 * **E)** O Anexo de Metas Fiscais contempla unicamente o demonstrativo das despesas com pessoal ativo e inativo de todos os Poderes.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -432,7 +461,8 @@ Enquanto não editada a Lei Complementar prevista no art. 165, § 9º da CF/88, 
 
 ---
 
-### Questão 08 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 216
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Acerca do ciclo orçamentário e das competências constitucionais dos Poderes na tramitação da Lei Orçamentária Anual (LOA), assinale a afirmativa correta:
 
 * **A)** O Poder Executivo possui a prerrogativa privativa de iniciativa dos projetos do PPA, da LDO e da LOA, cabendo ao Poder Legislativo a deliberação, apreciação e eventual aprovação ou rejeição de emendas.
@@ -440,6 +470,9 @@ Acerca do ciclo orçamentário e das competências constitucionais dos Poderes n
 * **C)** É admitida a aprovação de emendas parlamentares individuais ao projeto de LOA que acarretem aumento de despesa global sem indicação dos recursos compensatórios mediante anulação de dotações.
 * **D)** As emendas parlamentares impositivas individuais destinadas à saúde podem ser executadas discricionariamente pelo Executivo quando houver superávit primário.
 * **E)** A Comissão Mista Permanente de Senadores e Deputados (CMO) examina e emite parecer unicamente sobre o PPA, não tendo competência formal sobre a LOA nem sobre os créditos adicionais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -473,7 +506,8 @@ flowchart TD
 
 ---
 
-### Questão 09 (FCC - Adaptada / TCE-AP - Técnico de Controle Externo)
+### Teste 217
+**(FCC - Adaptada / TCE-AP - Técnico de Controle Externo)**
 Em relação às normas constitucionais vigentes relativas às emendas parlamentares individuais de execução orçamentária e financeira obrigatória (orçamento impositivo), é correto afirmar que:
 
 * **A)** Os recursos transferidos por meio de transferência especial ("emendas PIX") aos Estados e Municípios podem ser utilizados livremente para pagamento de folha de salários de servidores e serviço da dívida pública.
@@ -481,6 +515,9 @@ Em relação às normas constitucionais vigentes relativas às emendas parlament
 * **C)** A execução das emendas individuais independe da observância de metas fiscais ou da constatação de impedimentos de ordem técnica devidamente justificados pelo Executivo.
 * **D)** O limite global de aprovação das emendas parlamentares individuais ao projeto de lei orçamentária é fixado em 10% da receita tributária líquida da União.
 * **E)** A execução orçamentária das emendas individuais de bancada estadual possui natureza facultativa e estritamente discricionária do Poder Executivo em qualquer hipótese.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -522,7 +559,8 @@ A execução obrigatória do orçamento impositivo não é irrestrita:
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 218
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 A respeito do regime constitucional das emendas parlamentares impositivas instituído pelas Emendas Constitucionais nº 86/2015, nº 100/2019 e nº 105/2019, considere a seguinte hipótese fática:
 
 Determinada Assembleia Legislativa estadual aprovou a Lei Orçamentária Anual consignando emendas parlamentares individuais no patamar correspondente a 2% da receita corrente líquida apurada no exercício anterior. Dos recursos destinados por um dos parlamentares mediante a modalidade de Transferência Especial ("Emenda PIX") ao Município Gama, o Chefe do Poder Executivo municipal determinou a aplicação de 40% para pagamento da folha salarial dos servidores da saúde e 60% para aquisição de ambulâncias e pavimentação urbana.
@@ -534,6 +572,9 @@ Determinada Assembleia Legislativa estadual aprovou a Lei Orçamentária Anual c
 * **C)** É irregular no tocante às despesas de capital (ambulâncias e pavimentação), visto que a Constituição exige a aplicação de 100% dos recursos em despesas de custeio corrente.
 * **D)** É válida, desde que o Tribunal de Contas do Estado autorize previamente a utilização da transferência especial para fins salariais em regime de urgência.
 * **E)** Depende obrigatoriamente de prévia celebração de convênio com o Estado para que a transferência especial possa ser executada validamente pelo Município.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -547,7 +588,8 @@ Determinada Assembleia Legislativa estadual aprovou a Lei Orçamentária Anual c
 
 ---
 
-### Questão 11 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Teste 219
+**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 Considere que, na elaboração do projeto de Lei Orçamentária Anual para o exercício subsequente, verificou-se a necessidade de inclusão de ações para atendimento de despesas decorrentes de um programa continuado de fomento regional com duração estimada de 3 (três) anos.
 
 De acordo com o art. 167, § 1º da Constituição Federal de 1988:
@@ -558,6 +600,9 @@ De acordo com o art. 167, § 1º da Constituição Federal de 1988:
 * **D)** Os investimentos plurianuais subordinam-se unicamente ao limite da capacidade de endividamento da Lei de Responsabilidade Fiscal, sendo prescindível a programação orçamentária.
 * **E)** Apenas as obras públicas financiadas por empréstimos externos exigem compatibilidade obrigatória com o Plano Plurianual.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. É a dicção literal do art. 167, § 1º da CF/88: "Nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no plano plurianual, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade".
@@ -567,6 +612,8 @@ De acordo com o art. 167, § 1º da Constituição Federal de 1988:
 > - **E)** Incorreta. Aplica-se a todo e qualquer investimento cuja execução ultrapasse um exercício financeiro, independentemente da fonte de recursos.
 > 
 > **Gabarito: A**
+
+
 
 ---
 

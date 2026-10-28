@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `02_modelos_de_administracao_publica_e_governanca.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -24,30 +27,34 @@
     - Prazos de resposta e instâncias de recurso administrativo (regra 20 + 10 dias);
     - Graus de sigilo documental: reservada (5 anos), secreta (15 anos) e ultrassecreta (25 anos); proteção de dados pessoais (100 anos).
 
----
 
-## 🧭 Sumário Interativo
-- [1. Evolução Histórica dos Modelos de Gestão Pública](#1-evolucao-historica-dos-modelos-de-gestao-publica)
-    - [1.1 Modelo Patrimonialista](#11-modelo-patrimonialista)
-    - [1.2 Modelo Burocrático Weberiano](#12-modelo-burocratico-weberiano)
-    - [1.3 Modelo Gerencial (*New Public Management* - NPM)](#13-modelo-gerencial-new-public-management-npm)
-    - [1.4 Quadro Analítico Comparativo dos Três Modelos](#14-quadro-analitico-comparativo-dos-tres-modelos)
-- [2. As Disfunções da Burocracia (Robert Merton)](#2-as-disfuncoes-da-burocracia-robert-merton)
-- [3. A Reforma Gerencial Brasileira de 1995 (PDRAE)](#3-a-reforma-gerencial-brasileira-de-1995-pdrae)
-    - [3.1 Os Quatro Setores do Estado](#31-os-quatro-setores-do-estado)
-    - [3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)](#32-o-mecanismo-da-publicizacao-e-as-organizacoes-sociais-os)
-- [4. As Dimensões do Desempenho Público (Os 6Es da Gestão)](#4-as-dimensoes-do-desempenho-publico-os-6es-da-gestao)
-    - [4.1 Economicidade, Eficiência, Eficácia e Efetividade](#41-economicidade-eficiencia-eficacia-e-efetividade)
-- [5. Governança, Governabilidade e Accountability](#5-governanca-governabilidade-e-accountability)
-    - [5.1 Governabilidade vs. Governança (Distinção Crítica FCC)](#51-governabilidade-vs-governanca-distincao-critica-fcc)
-    - [5.2 Dimensões da Accountability (Vertical, Horizontal e Social)](#52-dimensoes-da-accountability-vertical-horizontal-e-social)
-- [6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)](#6-transparencia-publica-e-a-lei-de-acesso-a-informacao-lei-no-125272011)
-    - [6.1 Transparência Ativa vs. Transparência Passiva](#61-transparencia-ativa-vs-transparencia-passiva)
-    - [6.2 Prazos de Atendimento e Desnecessidade de Motivação](#62-prazos-de-atendimento-e-desnecessidade-de-motivacao)
-    - [6.3 Graus e Prazos Máximos de Sigilo Documental](#63-graus-e-prazos-maximos-de-sigilo-documental)
-- [7. Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Evolução Histórica dos Modelos de Gestão Pública](#1-evolucao-historica-dos-modelos-de-gestao-publica)
+    2. [Teste 310](#Teste-310)
+    3. [Teste 311](#Teste-311)
+    4. [As Disfunções da Burocracia (Robert Merton)](#2-as-disfuncoes-da-burocracia-robert-merton)
+    5. [Teste 312](#Teste-312)
+    6. [A Reforma Gerencial Brasileira de 1995 (PDRAE)](#3-a-reforma-gerencial-brasileira-de-1995-pdrae)
+    7. [Teste 313](#Teste-313)
+    8. [Teste 314](#Teste-314)
+    9. [As Dimensões do Desempenho Público (Os 6Es da Gestão)](#4-as-dimensoes-do-desempenho-publico-os-6es-da-gestao)
+    10. [Teste 315](#Teste-315)
+    11. [Governança, Governabilidade e Accountability](#5-governanca-governabilidade-e-accountability)
+    12. [Teste 316](#Teste-316)
+    13. [Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)](#6-transparencia-publica-e-a-lei-de-acesso-a-informacao-lei-no-125272011)
+    14. [Teste 317](#Teste-317)
+    15. [Teste 318](#Teste-318)
+    16. [Teste 319](#Teste-319)
+2. [Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -97,7 +104,8 @@ flowchart LR
 
 ---
 
-### Questão 01 (FCC – TCE-PI – Auditor de Controle Externo)
+### Teste 310
+**(FCC – TCE-PI – Auditor de Controle Externo)**
 A respeito da evolução dos modelos de administração pública e das reformas administrativas contemporâneas, considere as afirmativas a seguir:
 
 I. O modelo burocrático weberiano introduziu a impessoalidade e o mérito no serviço público com o objetivo de combater as práticas clientelistas e patrimonialistas da administração tradicional.  
@@ -113,6 +121,9 @@ Está correto o que se afirma em:
 * **C)** I e III, apenas.
 * **D)** II e III, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -132,7 +143,8 @@ Está correto o que se afirma em:
 
 
 
-### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 311
+**(FCC - Adaptada / Analista de Gestão Pública)**
 O modelo patrimonialista de Administração Pública prevaleceu no Brasil colonial e imperial, deixando traços na cultura organizacional do Estado.
 
 Constitui traço característico definidor do **Patrimonialismo**:
@@ -142,6 +154,9 @@ Constitui traço característico definidor do **Patrimonialismo**:
 * **C)** O controle formal e rigoroso dos procedimentos operacionais estabelecido em manuais e regulamentos escritos padronizados.
 * **D)** A ênfase na contratualização de resultados e no fornecimento de serviços orientados primordialmente ao cidadão-usuário.
 * **E)** A transparência ativa sistemática proporcionada por portais de dados abertos na internet.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -176,7 +191,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 312
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Na teoria sociológica e administrativa, a Administração Pública Burocrática de Max Weber foi concebida para combater a corrupção e o nepotismo patrimonialista, baseando-se na legalidade, impessoalidade e formalismo. Todavia, a prática organizacional evidenciou as chamadas "disfunções da burocracia" (analisadas por Robert Merton).
 
 Constitui uma típica **disfunção burocrática**:
@@ -186,6 +202,9 @@ Constitui uma típica **disfunção burocrática**:
 * **C)** A priorização dos interesses estratégicos da sociedade em detrimento dos manuais internos de rotinas.
 * **D)** A avaliação contínua da efetividade social das políticas públicas em substituição ao controle de conformidade legal.
 * **E)** A descentralização territorial das decisões governamentais em prol de cooperativas locais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -231,7 +250,8 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC – ARTESP – Especialista em Regulação de Transportes)
+### Teste 313
+**(FCC – ARTESP – Especialista em Regulação de Transportes)**
 O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, propôs a descentralização do Estado e a reorganização de suas atividades em quatro setores. A prestação de serviços de saúde básica em hospitais públicos e a realização de pesquisas científicas em universidades enquadram-se, segundo a tipologia do PDRAE, no setor de:
 
 * **A)** Atividades Exclusivas de Estado, a serem desempenhadas compulsoriamente por agências reguladoras.
@@ -239,6 +259,9 @@ O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, prop�
 * **C)** Serviços Não Exclusivos do Estado, com orientação para o modelo de publicização mediante parcerias com Organizações Sociais (OS).
 * **D)** Produção de Bens e Serviços para o Mercado, orientados à privatização compulsória em bolsa de valores.
 * **E)** Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcional e dos Tribunais de Contas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -254,7 +277,8 @@ O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, prop�
 
 
 
-### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 314
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 A Reforma do Aparelho do Estado de 1995 (Plano Diretor da Reforma do Aparelho do Estado - PDRAE), liderada pelo MARE, estruturou a atuação governamental em quatro setores estratégicos.
 
 O setor do Estado que executa as funções exclusivas que envolvem o uso do poder extroverso e de polícia estatal (legislar, julgar, fiscalizar, arrecadar tributos e exercer o controle externo), sendo vedado à terceirização e à delegação a entidades privadas, é denominado pelo PDRAE:
@@ -264,6 +288,9 @@ O setor do Estado que executa as funções exclusivas que envolvem o uso do pode
 * **C)** Serviços Não Exclusivos.
 * **D)** Produção de Bens e Serviços para o Mercado.
 * **E)** Setor Não Lucrativo de Fomento Societário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -311,7 +338,8 @@ flowchart LR
 
 ---
 
-### Questão 06 (FCC – DPE-RS – Analista: Área Administrativa)
+### Teste 315
+**(FCC – DPE-RS – Analista: Área Administrativa)**
 Considere que determinado município gaúcho implementou um programa de alfabetização de adultos com orçamento de R$ 1.000.000,00. Ao final do projeto, constatou-se que:
 
 1. O custo por aluno atendido foi o menor registrado no Estado, sem desperdício de material pedagógico.
@@ -325,6 +353,9 @@ As constatações 1, 2 e 3 correspondem, respectivamente, aos conceitos de:
 * **C)** Efetividade, Eficiência e Eficácia.
 * **D)** Economicidade, Efetividade e Eficiência.
 * **E)** Eficiência, Efetividade e Eficácia.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -372,7 +403,8 @@ O termo *accountability* compreende o dever indeclinável de prestar contas, res
 
 ---
 
-### Questão 07 (FCC – TCE-GO – Analista de Controle Externo)
+### Teste 316
+**(FCC – TCE-GO – Analista de Controle Externo)**
 A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas do Estado sobre as contas dos Poderes Executivo, Legislativo e Judiciário materializa uma dimensão específica da *accountability*. Trata-se de um exemplo típico de *accountability*:
 
 * **A)** Vertical, pois o Tribunal de Contas situa-se em escalão hierárquico superior aos órgãos do Poder Executivo estadual.
@@ -380,6 +412,9 @@ A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas d
 * **C)** Horizontal, por consistir em controle mútuo de legalidade e legitimidade exercido por um órgão estatal autônomo sobre outros órgãos estatais no mesmo nível institucional.
 * **D)** Comportamental, pois visa exclusivamente à apuração disciplinar de infrações éticas cometidas por servidores subalternos.
 * **E)** Primária, caracterizada pelo exercício direto do sufrágio universal e do voto popular nas urnas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -431,7 +466,8 @@ As informações cuja divulgação possa colocar em risco a segurança da socied
 
 ---
 
-### Questão 08 (FCC – TCE-RS – Auditor de Controle Externo)
+### Teste 317
+**(FCC – TCE-RS – Auditor de Controle Externo)**
 Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a respeito dos prazos de resposta aos pedidos de acesso à informação formulados por cidadãos e da classificação de sigilo documental, é correto afirmar:
 
 * **A)** O prazo para resposta ao pedido de informação não atendido de imediato é de 30 dias, vedada qualquer prorrogação.
@@ -439,6 +475,9 @@ Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a res
 * **C)** O acesso à informação pública subordina-se à demonstração de legítimo interesse jurídico e comprovação dos motivos determinantes da solicitação pelo requerente.
 * **D)** A classificação de informação como ultrassecreta é atribuição passível de delegação a qualquer servidor ocupante de cargo comissionado de chefia.
 * **E)** A transparência ativa refere-se exclusivamente às informações fornecidas pelo poder público em resposta a pedidos protocolados via ouvidoria geral.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -454,7 +493,8 @@ Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a res
 
 
 
-### Questão 09 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+### Teste 318
+**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
 No campo da Nova Governança Pública e do combate à corrupção, o conceito de *Accountability* desdobra-se em diferentes dimensões fundamentais na relação entre governantes, sociedade e instituições fiscalizadoras.
 
 Assinale a opção que define corretamente a **Accountability Horizontal**:
@@ -464,6 +504,9 @@ Assinale a opção que define corretamente a **Accountability Horizontal**:
 * **C)** É a fiscalização informal exercida pela imprensa, meios de comunicação e movimentos sociais civis.
 * **D)** É a subordinação hierárquica e disciplinar obrigatória de servidores subalternos perante suas chefias imediatas.
 * **E)** É a transferência contratual de serviços de saúde para Organizações Sociais qualificadas pelo Executivo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -477,7 +520,8 @@ Assinale a opção que define corretamente a **Accountability Horizontal**:
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 319
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 O Decreto Federal nº 9.203/2017 dispõe sobre a política de governança da administração pública federal e define conceitos e diretrizes fundamentais também recepcionados pelos órgãos de controle estaduais (TCE-GO).
 
 De acordo com as boas práticas de governança no setor público, a distinção entre **Governança** e **Gestão** reside essencialmente em:
@@ -488,12 +532,17 @@ De acordo com as boas práticas de governança no setor público, a distinção 
 * **D)** A governança atua estritamente na fase de compra e liquidação contábil de bens e a gestão cuida da edição de medidas provisórias pelo Presidente da República.
 * **E)** A governança afasta a necessidade de controles internos e auditorias para permitir total liberdade aos gestores operacionais.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. Decreto nº 9.203/2017: **Governança** (*Avaliar, Direcionar e Monitorar* - liderança e estratégia da alta direção); **Gestão** (*Planejar, Executar e Controlar* - operação cotidiana dos gerentes e equipes).
 > - **B), C), D), E)** Incorretas. Distorções conceituais dos papéis de governança e gestão.
 > 
 > **Gabarito: A**
+
+
 
 ---
 

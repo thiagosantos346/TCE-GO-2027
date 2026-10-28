@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `03_gestao_da_qualidade_processos_projetos_e_decreto_9094.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -31,31 +34,32 @@
     - O guia PMBOK (*Project Management Institute* - PMI): os 5 grupos de processos (Iniciação, Planejamento, Execução, Monitoramento/Controle e Encerramento);
     - Termo de Abertura do Projeto (TAP / *Project Charter*) e Estrutura Analítica do Projeto (EAP / *WBS*).
 
----
 
-## 🧭 Sumário Interativo
-- [1. Gestão da Qualidade: Eras, Teóricos e Ferramentas](#1-gestao-da-qualidade-eras-teoricos-e-ferramentas)
-    - [1.1 Evolução das Quatro Eras da Qualidade](#11-evolucao-das-quatro-eras-da-qualidade)
-    - [1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)](#12-os-mestres-da-qualidade-e-suas-contribuicoes-deming-juran-ishikawa-e-crosby)
-    - [1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade](#13-o-ciclo-pdca-e-as-sete-ferramentas-da-qualidade)
-    - [1.4 Modelos de Excelência: MEG / FNQ e o GesPública](#14-modelos-de-excelencia-meg-fnq-e-o-gespublica)
-- [2. Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)](#2-desburocratizacao-e-atendimento-ao-cidadao-decreto-no-90942017)
-    - [2.1 Supressão de Custos Cartorários (Reconhecimento de Firma e Autenticação)](#21-supressao-de-custos-cartorarios-reconhecimento-de-firma-e-autenticacao)
-    - [2.2 Proibição de Exigência Documental Redundante e Interoperabilidade](#22-proibicao-de-exigencia-documental-redundante-e-interoperabilidade)
-    - [2.3 O CPF como Chave Unificada de Identificação](#23-o-cpf-como-chave-unificada-de-identificacao)
-    - [2.4 A Carta de Serviços ao Usuário](#24-a-carta-de-servicos-ao-usuario)
-- [3. Gestão de Processos de Negócio (BPM)](#3-gestao-de-processos-de-negocio-bpm)
-    - [3.1 Conceito e Hierarquia Estrutural dos Processos](#31-conceito-e-hierarquia-estrutural-dos-processos)
-    - [3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento](#32-tipos-de-processos-finalisticos-de-suporte-e-de-gerenciamento)
-    - [3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE](#33-redesenho-de-processos-diagnostico-as-is-vs-modelagem-to-be)
-- [4. Gestão de Projetos segundo o Guia PMBOK (PMI)](#4-gestao-de-projetos-segundo-o-guia-pmbok-pmi)
-    - [4.1 Distinção Conceitual: Projeto versus Processo](#41-distincao-conceitual-projeto-versus-processo)
-    - [4.2 Os Cinco Grupos de Processos do PMBOK](#42-os-cinco-grupos-de-processos-do-pmbok)
-    - [4.3 Instrumentos Primordiais: TAP e EAP (WBS)](#43-instrumentos-primordiais-tap-e-eap-wbs)
-    - [4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)](#44-a-restricao-tripla-classica-escopo-custo-e-tempo)
-- [5. Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Gestão da Qualidade: Eras, Teóricos e Ferramentas](#1-gestao-da-qualidade-eras-teoricos-e-ferramentas)
+    2. [Teste 320](#Teste-320)
+    3. [Teste 321](#Teste-321)
+    4. [Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)](#2-desburocratizacao-e-atendimento-ao-cidadao-decreto-no-90942017)
+    5. [Teste 322](#Teste-322)
+    6. [Teste 323](#Teste-323)
+    7. [Gestão de Processos de Negócio (BPM)](#3-gestao-de-processos-de-negocio-bpm)
+    8. [Teste 324](#Teste-324)
+    9. [Teste 325](#Teste-325)
+    10. [Gestão de Projetos segundo o Guia PMBOK (PMI)](#4-gestao-de-projetos-segundo-o-guia-pmbok-pmi)
+    11. [Teste 326](#Teste-326)
+    12. [Teste 327](#Teste-327)
+    13. [Teste 328](#Teste-328)
+    14. [Teste 329](#Teste-329)
+2. [Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -112,7 +116,8 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC – DPE-RS – Analista: Área Administrativa)
+### Teste 320
+**(FCC – DPE-RS – Analista: Área Administrativa)**
 Determinada equipe de modernização administrativa do Tribunal de Contas recebeu a incumbência de identificar as causas fundamentais dos atrasos reiterados na instrução processual de tomadas de contas especiais. Para estruturar a análise, os analistas utilizaram uma ferramenta visual que categoriza as causas potenciais em fatores como procedimentos e rotinas (Método), capacitação dos auditores (Mão de obra), sistemas informatizados utilizados (Máquinas/Tecnologia) e insumos documentais recebidos dos jurisdicionados (Matéria-prima). A ferramenta descrita é o:
 
 * **A)** Diagrama de Ishikawa (Espinha de Peixe).
@@ -120,6 +125,9 @@ Determinada equipe de modernização administrativa do Tribunal de Contas recebe
 * **C)** Ciclo PDCA na etapa de Checagem.
 * **D)** Histograma de frequências acumuladas.
 * **E)** Gráfico de dispersão linear de Pearson.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -140,7 +148,8 @@ Determinada equipe de modernização administrativa do Tribunal de Contas recebe
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista de Planejamento e Gestão)
+### Teste 321
+**(FCC - Adaptada / Analista de Planejamento e Gestão)**
 O Ciclo PDCA (desenvolvido por Walter Shewhart e amplamente disseminado por W. Edwards Deming) constitui metodologia clássica de melhoria contínua de processos organizacionais.
 
 A etapa do ciclo em que a organização analisa e avalia sistematicamente as diferenças entre os resultados executados e as metas planejadas, identificando causas de variações para adoção de medidas saneadoras, denomina-se:
@@ -150,6 +159,9 @@ A etapa do ciclo em que a organização analisa e avalia sistematicamente as dif
 * **C)** Do (Executar / Fazer).
 * **D)** Act (Agir corretivamente / Padronizar).
 * **E)** Decide (Decidir discricionariamente).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -200,7 +212,8 @@ A Carta de Serviços ao Usuário é um instrumento de governança e transparênc
 
 ---
 
-### Questão 03 (FCC – TCE-PI – Auditor de Controle Externo)
+### Teste 322
+**(FCC – TCE-PI – Auditor de Controle Externo)**
 Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para requerer certidão de regularidade funcional, apresentando cópia simples de sua cédula de identidade acompanhada do documento original. O atendente público recusou o recebimento da documentação, exigindo que o requerente providenciasse prévia autenticação da cópia e reconhecimento de firma em cartório de notas. Considerando o disposto no Decreto Federal nº 9.094/2017 e na legislação correlata sobre simplificação de serviços públicos:
 
 * **A)** A conduta do atendente foi correta, pois a fé pública de documentos apresentados ao Estado depende de reconhecimento notarial.
@@ -208,6 +221,9 @@ Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para reque
 * **C)** O atendente agiu com respaldo legal, desde que o prazo de validade da cédula de identidade apresentada pelo cidadão tenha expirado há mais de cinco anos.
 * **D)** O atendimento só poderia ser recusado se o cidadão não comprovasse residência fixa no Estado por meio de certidão cartorária.
 * **E)** A dispensa de autenticação cartorária somente se aplica a pessoas jurídicas sem fins lucrativos qualificadas como organizações sociais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -223,7 +239,8 @@ Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para reque
 
 
 
-### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 323
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Na Gestão de Processos de Negócio (BPM), a análise da situação corrente do processo para mapear seus gargalos, ineficiências e retrabalhos existentes é contraposta ao desenho da situação ideal futura pretendida.
 
 Esses dois estágios do ciclo BPM são internacionalmente denominados, respectivamente:
@@ -233,6 +250,9 @@ Esses dois estágios do ciclo BPM são internacionalmente denominados, respectiv
 * **C)** Cadeia de Suprimentos *KANBAN* e Manufatura *JUST-IN-TIME*.
 * **D)** Metodologia *SCRUM* e Painel de Controle *BALANCED SCORECARD*.
 * **E)** Matriz *SWOT* e Matriz *BCG*.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -283,7 +303,8 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC – SEFAZ-SC – Auditor Fiscal da Receita Estadual)
+### Teste 324
+**(FCC – SEFAZ-SC – Auditor Fiscal da Receita Estadual)**
 No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Business Process Management), os processos organizacionais são classificados em finalísticos, de suporte e de gerenciamento. Assinale a alternativa que apresenta um exemplo legítimo de processo de suporte (secundário) em uma organização pública:
 
 * **A)** Realização de fiscalização tributária e lançamento de ofício do crédito tributário estadual.
@@ -291,6 +312,9 @@ No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Busin
 * **C)** Gestão de compras e contratação de serviços de vigilância e limpeza para as dependências do prédio sede.
 * **D)** Julgamento de autos de infração fiscal pelo Tribunal Administrativo Tributário.
 * **E)** Auditoria de regularidade das despesas públicas municipais efetuada pelo Tribunal de Contas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -319,7 +343,8 @@ flowchart LR
 
 ---
 
-### Questão 06 (FCC - Adaptada / Analista de Tecnologia e Controle)
+### Teste 325
+**(FCC - Adaptada / Analista de Tecnologia e Controle)**
 No Gerenciamento de Projetos, as metodologias ágeis (como o Scrum) ganharam amplo espaço no setor público pela necessidade de entregas parciais e adaptação constante a mudanças.
 
 No framework **Scrum**, a reunião diária, curta e estruturada (de cerca de 15 minutos), na qual a equipe alinha o andamento dos trabalhos e identifica impedimentos imediatos, é denominada:
@@ -329,6 +354,9 @@ No framework **Scrum**, a reunião diária, curta e estruturada (de cerca de 15 
 * **C)** Sprint Retrospective.
 * **D)** Sprint Planning.
 * **E)** Product Backlog Refinement.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -357,7 +385,8 @@ A doutrina da administração e a jurisprudência da FCC cobram com rigor a dist
 
 ---
 
-### Questão 07 (FCC – TCE-RS – Auditor de Controle Externo)
+### Teste 326
+**(FCC – TCE-RS – Auditor de Controle Externo)**
 No âmbito da gestão estratégica e da teoria das organizações, a respeito das distinções essenciais entre a gestão de processos de negócio e a gestão de projetos:
 
 * **A)** Os projetos caracterizam-se por sua natureza contínua e repetitiva, destinando-se a manter estabilizadas as operações de rotina da organização.
@@ -365,6 +394,9 @@ No âmbito da gestão estratégica e da teoria das organizações, a respeito da
 * **C)** O projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto os processos representam fluxos de trabalho permanentes e padronizados.
 * **D)** A Estrutura Analítica do Projeto (EAP) consiste em um gráfico de barras cronológico destinado a mensurar os custos diários incorridos pela equipe.
 * **E)** Os processos primários ou finalísticos de um órgão público são aqueles voltados exclusivamente para dar suporte administrativo às áreas de informática e compras.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -405,7 +437,8 @@ flowchart TD
 
 ---
 
-### Questão 08 (FCC – ARTESP – Especialista em Regulação de Transportes)
+### Teste 327
+**(FCC – ARTESP – Especialista em Regulação de Transportes)**
 Em relação ao gerenciamento de projetos estruturado segundo as boas práticas do guia PMBOK (Project Management Institute), assinale a opção correta:
 
 * **A)** O Termo de Abertura do Projeto (TAP) é emitido após o término da execução física para consolidar as lições aprendidas pela equipe.
@@ -413,6 +446,9 @@ Em relação ao gerenciamento de projetos estruturado segundo as boas práticas 
 * **C)** O grupo de processos de encerramento do projeto dispensa a aceitação formal das entregas pelo cliente quando o cronograma for cumprido no prazo previsto.
 * **D)** A restrição tripla do gerenciamento de projetos é composta exclusivamente por variáveis comportamentais: motivação, liderança e clima institucional.
 * **E)** O gerente de projeto adquire autoridade formal para aplicar recursos da organização apenas no momento em que a equipe conclui a fase de encerramento contratual.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -434,7 +470,8 @@ A alteração em qualquer um desses vértices impacta compulsoriamente os outros
 
 ---
 
-### Questão 09 (FCC - Adaptada / Analista Jurídico de Controle)
+### Teste 328
+**(FCC - Adaptada / Analista Jurídico de Controle)**
 O Decreto Federal nº 9.094/2017 (que simplifica o atendimento aos usuários dos serviços públicos e institui a Carta de Serviços) e a Lei Federal nº 13.460/2017 trazem normas expressas para a desburocratização administrativa.
 
 A respeito das exigências documentais dirigidas aos cidadãos e usuários do serviço público, de acordo com o Decreto nº 9.094/2017:
@@ -444,6 +481,9 @@ A respeito das exigências documentais dirigidas aos cidadãos e usuários do se
 * **C)** A Administração Pública não pode admitir a autodeclaração de veracidade sob nenhuma hipótese, exigindo sempre laudos periciais cartorários.
 * **D)** O cidadão tem o ônus exclusivo de obter certidões emitidas por outros órgãos do próprio Poder Executivo, sendo proibido o compartilhamento eletrônico de dados entre repartições estatais.
 * **E)** A Carta de Serviços ao Cidadão possui caráter meramente facultativo e sigiloso, não devendo ser publicada na internet.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -457,7 +497,8 @@ A respeito das exigências documentais dirigidas aos cidadãos e usuários do se
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 329
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 Na elaboração do Termo de Abertura do Projeto (*Project Charter*) e no planejamento do escopo segundo as boas práticas do Guia PMBOK, a ferramenta estruturada que decompõe hierarquicamente o trabalho total do projeto em entregas menores e pacotes de trabalho gerenciáveis é a:
 
 * **A)** Estrutura Analítica do Projeto (EAP) / *Work Breakdown Structure (WBS)*.
@@ -465,6 +506,9 @@ Na elaboração do Termo de Abertura do Projeto (*Project Charter*) e no planeja
 * **C)** Curva ABC de Pareto.
 * **D)** Matriz GUT de Gravidade, Urgência e Tendência.
 * **E)** Análise de Regressão Linear Múltipla.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -475,6 +519,8 @@ Na elaboração do Termo de Abertura do Projeto (*Project Charter*) e no planeja
 > - **E)** Incorreta. Ferramenta estatística.
 > 
 > **Gabarito: A**
+
+
 
 ---
 

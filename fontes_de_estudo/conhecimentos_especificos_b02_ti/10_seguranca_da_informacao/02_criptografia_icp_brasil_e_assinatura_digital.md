@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_criptografia_icp_brasil_e_assinatura_digital.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Criptografia Simétrica (algoritmos e modos de operação)
@@ -14,32 +17,48 @@
 - Certificados Digitais padrão X.509
 - Mecanismo, validade jurídica e padrões de Assinatura Digital
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Criptografia Simétrica (Chave Secreta Compartilhada)](#1-criptografia-simetrica-chave-secreta-compartilhada)
-    - [1.1 Fundamentos, Vantagens e o Problema da Distribuição de Chaves](#11-fundamentos-vantagens-e-o-problema-da-distribuicao-de-chaves)
-    - [1.2 Cifras de Bloco vs. Cifras de Fluxo (AES, DES, 3DES, ChaCha20)](#12-cifras-de-bloco-vs-cifras-de-fluxo-aes-des-3des-chacha20)
-    - [1.3 Modos de Operação de Bloco (ECB, CBC, CTR, GCM e AEAD)](#13-modos-de-operacao-de-bloco-ecb-cbc-ctr-gcm-e-aead)
-- [2. Criptografia Assimétrica (Chaves Públicas)](#2-criptografia-assimetrica-chaves-publicas)
-    - [2.1 Princípios Matemáticos e as Duas Operações Fundamentais](#21-principios-matematicos-e-as-duas-operacoes-fundamentais)
-    - [2.2 Algoritmos Assimétricos Principais (RSA, ECC, Diffie-Hellman)](#22-algoritmos-assimetricos-principais-rsa-ecc-diffie-hellman)
-    - [2.3 Criptografia Híbrida na Prática](#23-criptografia-hibrida-na-pratica)
-- [3. Funções de Resumo Criptográfico (Hash)](#3-funcoes-de-resumo-criptografico-hash)
-    - [3.1 Propriedades Matemáticas Essenciais e Princípio do Pombal](#31-propriedades-matematicas-essenciais-e-principio-do-pombal)
-    - [3.2 Algoritmos Seguros vs. Vulneráveis (SHA-2, SHA-3, MD5, SHA-1)](#32-algoritmos-seguros-vs-vulneraveis-sha-2-sha-3-md5-sha-1)
-- [4. Infraestrutura de Chaves Públicas e a ICP-Brasil](#4-infraestrutura-de-chaves-publicas-e-a-icp-brasil)
-    - [4.1 Estrutura Organizacional e Hierarquia Legal (MP nº 2.200-2/2001)](#41-estrutura-organizacional-e-hierarquia-legal-mp-no-2200-22001)
-    - [4.2 Certificados Digitais Padrão X.509 v3 e Ciclo de Vida](#42-certificados-digitais-padrao-x509-v3-e-ciclo-de-vida)
-    - [4.3 Mecanismos de Revogação: LCR / CRL vs. OCSP](#43-mecanismos-de-revogacao-lcr-crl-vs-ocsp)
-    - [4.4 Tipos de Certificados na ICP-Brasil (A1 vs. A3, Séries S e T)](#44-tipos-de-certificados-na-icp-brasil-a1-vs-a3-series-s-e-t)
-- [5. Assinatura Digital e Validade Jurídica](#5-assinatura-digital-e-validade-juridica)
-    - [5.1 Mecânica Operacional Passo a Passo (Geração e Verificação)](#51-mecanica-operacional-passo-a-passo-geracao-e-verificacao)
-    - [5.2 Propriedades Garantidas vs. Ausência de Confidencialidade](#52-propriedades-garantidas-vs-ausencia-de-confidencialidade)
-    - [5.3 Padrões de Assinatura Avançada (CAdES, XAdES, PAdES) e Carimbo do Tempo](#53-padroes-de-assinatura-avancada-cades-xades-pades-e-carimbo-do-tempo)
-- [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+
+1. [Criptografia Simétrica (Chave Secreta Compartilhada)](#1-criptografia-simetrica-chave-secreta-compartilhada)
+    1. [Fundamentos, Vantagens e o Problema da Distribuição de Chaves](#11-fundamentos-vantagens-e-o-problema-da-distribuicao-de-chaves)
+    2. [Teste 366](#Teste-366)
+    3. [Cifras de Bloco vs. Cifras de Fluxo (AES, DES, 3DES, ChaCha20)](#12-cifras-de-bloco-vs-cifras-de-fluxo-aes-des-3des-chacha20)
+    4. [Teste 367](#Teste-367)
+    5. [Modos de Operação de Bloco (ECB, CBC, CTR, GCM e AEAD)](#13-modos-de-operacao-de-bloco-ecb-cbc-ctr-gcm-e-aead)
+    6. [Teste 368](#Teste-368)
+2. [Criptografia Assimétrica (Chaves Públicas)](#2-criptografia-assimetrica-chaves-publicas)
+    1. [Princípios Matemáticos e as Duas Operações Fundamentais](#21-principios-matematicos-e-as-duas-operacoes-fundamentais)
+    2. [Algoritmos Assimétricos Principais (RSA, ECC, Diffie-Hellman)](#22-algoritmos-assimetricos-principais-rsa-ecc-diffie-hellman)
+    3. [Criptografia Híbrida na Prática](#23-criptografia-hibrida-na-pratica)
+    4. [Teste 369](#Teste-369)
+3. [Funções de Resumo Criptográfico (Hash)](#3-funcoes-de-resumo-criptografico-hash)
+    1. [Propriedades Matemáticas Essenciais e Princípio do Pombal](#31-propriedades-matematicas-essenciais-e-principio-do-pombal)
+    2. [Teste 370](#Teste-370)
+    3. [Algoritmos Seguros vs. Vulneráveis (SHA-2, SHA-3, MD5, SHA-1)](#32-algoritmos-seguros-vs-vulneraveis-sha-2-sha-3-md5-sha-1)
+    4. [Teste 371](#Teste-371)
+4. [Infraestrutura de Chaves Públicas e a ICP-Brasil](#4-infraestrutura-de-chaves-publicas-e-a-icp-brasil)
+    1. [Estrutura Organizacional e Hierarquia Legal (MP nº 2.200-2/2001)](#41-estrutura-organizacional-e-hierarquia-legal-mp-no-2200-22001)
+    2. [Teste 372](#Teste-372)
+    3. [Certificados Digitais Padrão X.509 v3 e Ciclo de Vida](#42-certificados-digitais-padrao-x509-v3-e-ciclo-de-vida)
+    4. [Mecanismos de Revogação: LCR / CRL vs. OCSP](#43-mecanismos-de-revogacao-lcr-crl-vs-ocsp)
+    5. [Teste 373](#Teste-373)
+    6. [Tipos de Certificados na ICP-Brasil (A1 vs. A3, Séries S e T)](#44-tipos-de-certificados-na-icp-brasil-a1-vs-a3-series-s-e-t)
+    7. [Teste 374](#Teste-374)
+5. [Assinatura Digital e Validade Jurídica](#5-assinatura-digital-e-validade-juridica)
+    1. [Mecânica Operacional Passo a Passo (Geração e Verificação)](#51-mecanica-operacional-passo-a-passo-geracao-e-verificacao)
+    2. [Propriedades Garantidas vs. Ausência de Confidencialidade](#52-propriedades-garantidas-vs-ausencia-de-confidencialidade)
+    3. [Teste 375](#Teste-375)
+    4. [Padrões de Assinatura Avançada (CAdES, XAdES, PAdES) e Carimbo do Tempo](#53-padroes-de-assinatura-avancada-cades-xades-pades-e-carimbo-do-tempo)
+    5. [Teste 376](#Teste-376)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Criptografia Simétrica (Chave Secreta Compartilhada)
 
@@ -59,7 +78,8 @@ A criptografia simétrica fundamenta-se no princípio de que uma **única chave 
 
 ---
 
-### Questão 01 (FCC - TRT / Analista Judiciário - TI - Criptografia Simétrica e Gestão de Chaves)
+### Teste 366
+**(FCC - TRT / Analista Judiciário - TI - Criptografia Simétrica e Gestão de Chaves)**
 A criptografia simétrica (ou de chave secreta) fundamenta-se no emprego de uma mesma chave compartilhada para as operações de cifragem e decifragem de mensagens.
 
 A respeito das características operacionais e dos desafios arquiteturais da criptografia simétrica, assinale a afirmativa correta:
@@ -70,6 +90,9 @@ $$\frac{N(N - 1)}{2}$$
 * **C)** A criptografia simétrica garante nativamente o princípio do Não Repúdio (irretratabilidade), visto que apenas o emissor detém a chave secreta.
 * **D)** O algoritmo RSA é o padrão simétrico mais adotado pelo governo federal para proteção de discos rígidos em repouso.
 * **E)** Chaves simétricas dispensam qualquer canal seguro prévio de compartilhamento, podendo ser transmitidas em texto claro e aberto pela internet sem riscos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -109,7 +132,8 @@ Processam o texto claro de maneira contínua, **bit a bit** ou **byte a byte**. 
 
 ---
 
-### Questão 02 (FCC - TRT-23 / Analista Judiciário - TI - Cifras de Bloco vs. Cifras de Fluxo: AES e ChaCha20)
+### Teste 367
+**(FCC - TRT-23 / Analista Judiciário - TI - Cifras de Bloco vs. Cifras de Fluxo: AES e ChaCha20)**
 O *Advanced Encryption Standard* (AES) é o padrão criptográfico simétrico mais adotado globalmente por governos e instituições financeiras para proteção de dados confidenciais.
 
 A respeito da arquitetura interna do AES e da distinção entre cifras de bloco e cifras de fluxo, assinale a afirmativa correta:
@@ -119,6 +143,9 @@ A respeito da arquitetura interna do AES e da distinção entre cifras de bloco 
 * **C)** O AES opera exclusivamente com blocos de dados de 512 bits e foi decifrado por força bruta em 2010.
 * **D)** Cifras de fluxo (como ChaCha20 e RC4) exigem compulsoriamente o preenchimento (*padding*) PKCS#7 para completar blocos múltiplos de 64 bits.
 * **E)** O DES (Data Encryption Standard) possui chave efetiva de 256 bits e oferece maior segurança do que o AES-256.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -174,7 +201,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - Criptografia Simétrica e Modos de Operação)
+### Teste 368
+**(FCC - Adaptada / TI - Criptografia Simétrica e Modos de Operação)**
 Em relação aos algoritmos e modos de operação da criptografia simétrica, considere o cenário em que uma organização pública necessita proteger o armazenamento e a transmissão de grandes volumes de informações sigilosas.
 
 Assinale a afirmativa correta sobre o tema:
@@ -184,6 +212,9 @@ Assinale a afirmativa correta sobre o tema:
 * **C)** Para que um grupo de 20 analistas se comunique de forma sigilosa utilizando criptografia puramente simétrica, de modo que cada par de analistas possua uma chave exclusiva e compartilhada apenas entre si, são necessárias 190 chaves secretas distintas.
 * **D)** As cifras de fluxo (*stream ciphers*) dividem a mensagem em blocos de 256 bits e processam cada bloco individualmente através de 14 rodadas de substituição.
 * **E)** O modo de operação GCM (*Galois/Counter Mode*) foi descontinuado pelos padrões modernos da IETF por não suportar criptografia autenticada com dados associados (AEAD).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -195,8 +226,9 @@ Assinale a afirmativa correta sobre o tema:
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 2. Criptografia Assimétrica (Chaves Públicas)
@@ -255,7 +287,8 @@ Para contornar esse gargalo, protocolos de segurança como HTTPS (TLS), SSH, PGP
 
 ---
 
-### Questão 04 (FGV - TRT-16 / Analista Judiciário - TI - Criptografia Assimétrica e Sistemas Híbridos)
+### Teste 369
+**(FGV - TRT-16 / Analista Judiciário - TI - Criptografia Assimétrica e Sistemas Híbridos)**
 Os sistemas de chave pública fundamentam-se em problemas matemáticos complexos de "funções alçapão de sentido único" (*one-way trapdoor functions*), viabilizando a comunicação sigilosa entre partes que nunca trocaram informações previamente.
 
 A respeito dos algoritmos assimétricos e da mecânica dos sistemas de **Criptografia Híbrida** adotados na internet (como o protocolo TLS/HTTPS), assinale a afirmativa correta:
@@ -265,6 +298,9 @@ A respeito dos algoritmos assimétricos e da mecânica dos sistemas de **Criptog
 * **C)** Na criptografia híbrida, o remetente gera uma chave simétrica temporária e aleatória (chave de sessão, ex.: AES-256) para cifrar a mensagem com altíssima performance, e, em seguida, cifra apenas essa chave de sessão utilizando a chave pública assimétrica do destinatário, transmitindo ambos os elementos em conjunto.
 * **D)** O algoritmo de troca de chaves Diffie-Hellman foi projetado exclusivamente para assinar e cifrar e-mails em formato PDF.
 * **E)** Para que Bob decifre uma mensagem cifrada assimetricamente por Alice, ele deve obrigatoriamente utilizar a chave pública de Alice.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -280,7 +316,10 @@ A respeito dos algoritmos assimétricos e da mecânica dos sistemas de **Criptog
 > 
 > **Gabarito: C**
 
+
+
 ---
+
 
 ## 3. Funções de Resumo Criptográfico (Hash)
 
@@ -301,7 +340,8 @@ Uma função de dispersão criptográfica (função hash) $h = H(M)$ é um algor
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Funções de Resumo Criptográfico / Hash)
+### Teste 370
+**(FCC - Adaptada / TI - Funções de Resumo Criptográfico / Hash)**
 Funções de resumo criptográfico (*hashes*) desempenham um papel central em protocolos de segurança, integridade de arquivos e assinaturas digitais.
 
 A respeito das propriedades matemáticas e características das funções hash, assinale a afirmativa correta:
@@ -311,6 +351,9 @@ A respeito das propriedades matemáticas e características das funções hash, 
 * **C)** A propriedade da unidirecionalidade (*pre-image resistance*) assegura que, dado um resumo hash $h$, seja computacionalmente inviável recuperar ou deduzir a mensagem de entrada $M$ que o gerou.
 * **D)** As funções hash geram resumos criptográficos cujo tamanho em bytes é diretamente proporcional e idêntico ao tamanho do arquivo de entrada processado.
 * **E)** A resistência a colisões forte significa que é impossível que duas mensagens distintas venham a ter o mesmo hash em qualquer cenário matemático teórico.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -337,7 +380,8 @@ A respeito das propriedades matemáticas e características das funções hash, 
 
 ---
 
-### Questão 06 (FCC - TRT-6 / Analista Judiciário - TI - Funções de Resumo Criptográfico e Resistência a Colisões)
+### Teste 371
+**(FCC - TRT-6 / Analista Judiciário - TI - Funções de Resumo Criptográfico e Resistência a Colisões)**
 As funções de resumo criptográfico (*Cryptographic Hash Functions*) são primitivas matemáticas essenciais para verificação de integridade de dados e construção de assinaturas digitais.
 
 A respeito das propriedades de segurança exigidas de uma função hash criptográfica moderna (como as famílias SHA-2 e SHA-3) e da obsolescência dos algoritmos MD5 e SHA-1, assinale a afirmativa correta:
@@ -347,6 +391,9 @@ A respeito das propriedades de segurança exigidas de uma função hash criptogr
 * **C)** O algoritmo SHA-256 produz resumos de tamanho variável dependendo do número de linhas do texto de entrada.
 * **D)** O Princípio da Casa dos Pombos garante matematicamente que é impossível haver colisões em funções hash de 128 bits.
 * **E)** O MD5 permanece como o padrão oficial e exclusivo recomendado pelo ITI para certificação de documentos na ICP-Brasil.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -362,7 +409,10 @@ A respeito das propriedades de segurança exigidas de uma função hash criptogr
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Infraestrutura de Chaves Públicas e a ICP-Brasil
 
@@ -399,7 +449,8 @@ flowchart TD
 
 ---
 
-### Questão 07 (FCC - Adaptada / TI - Infraestrutura de Chaves Públicas e ICP-Brasil)
+### Teste 372
+**(FCC - Adaptada / TI - Infraestrutura de Chaves Públicas e ICP-Brasil)**
 No que tange à arquitetura hierárquica da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), instituída pela MP nº 2.200-2/2001, e aos tipos de certificados digitais X.509, analise as seguintes afirmativas:
 
 I. O Instituto Nacional de Tecnologia da Informação (ITI) desempenha as funções operacionais de Autoridade Certificadora Raiz (AC-Raiz) da ICP-Brasil, sendo a entidade máxima encarregada de emitir os certificados das Autoridades Certificadoras de primeiro nível.  
@@ -415,6 +466,9 @@ Está correto o que se afirma em:
 * **C)** II e III, apenas.
 * **D)** I e III, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -472,7 +526,8 @@ flowchart LR
 
 ---
 
-### Questão 08 (FCC - Adaptada / TI - Certificados Digitais X.509 e Revogação)
+### Teste 373
+**(FCC - Adaptada / TI - Certificados Digitais X.509 e Revogação)**
 Na gestão de uma infraestrutura PKI corporativa baseada no padrão X.509 v3, a verificação do ciclo de vida e validade dos certificados digitais apresentados por clientes e servidores é indispensável para impedir acessos não autorizados.
 
 Sobre os campos do certificado X.509 v3 e os mecanismos de revogação de certificados, assinale a afirmativa correta:
@@ -482,6 +537,9 @@ Sobre os campos do certificado X.509 v3 e os mecanismos de revogação de certif
 * **C)** O certificado X.509 v3 armazena a chave privada do titular no campo *Subject Public Key Info* para permitir a conferência pública de assinaturas por terceiros.
 * **D)** A data de expiração de um certificado digital é perpétua no padrão X.509, dependendo exclusivamente da solicitação manual de revogação pelo titular para deixar de operar.
 * **E)** Caso um certificado digital esteja presente na LCR da autoridade emissora, o sistema de controle de acesso deve considerá-lo plenamente confiável e válido até o término do ano corrente.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -519,7 +577,8 @@ A ICP-Brasil organiza os certificados em diferentes categorias segundo o uso e o
 
 ---
 
-### Questão 09 (FGV - TRT / Analista Judiciário - TI - Certificados ICP-Brasil: Padrão X.509 e Tipos A1 vs. A3)
+### Teste 374
+**(FGV - TRT / Analista Judiciário - TI - Certificados ICP-Brasil: Padrão X.509 e Tipos A1 vs. A3)**
 A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), regulamentada pela Medida Provisória nº 2.200-2/2001, emite certificados digitais no padrão internacional ITU-T X.509 v3.
 
 A respeito das características dos certificados digitais de assinatura (Série A) nas modalidades **A1** e **A3**, assinale a afirmativa correta:
@@ -529,6 +588,9 @@ A respeito das características dos certificados digitais de assinatura (Série 
 * **C)** O certificado do tipo **A1** tem sua chave privada gerada e armazenada em software (no próprio computador ou servidor), com validade máxima de **1 ano**; ao passo que o certificado do tipo **A3** tem sua chave privada gerada e protegida exclusivamente no interior de um dispositivo de hardware criptográfico seguro (smartcard, token USB criptográfico ou Módulo de Segurança de Hardware - HSM com certificação FIPS 140-2 Nível 2 ou superior), com validade típica de até **3 a 5 anos**, sendo a chave privada intransferível e impossível de ser exportada.
 * **D)** A ICP-Brasil não emite certificados do tipo A3 por considerá-los inseguros contra ameaças cibernéticas.
 * **E)** Ambos os tipos utilizam certificados sem qualquer vínculo com a Autoridade Certificadora Raiz da ICP-Brasil (ITI).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -542,7 +604,10 @@ A respeito das características dos certificados digitais de assinatura (Série 
 > 
 > **Gabarito: C**
 
+
+
 ---
+
 
 ## 5. Assinatura Digital e Validade Jurídica
 
@@ -591,7 +656,8 @@ A assinatura digital provê formalmente as seguintes propriedades:
 
 ---
 
-### Questão 10 (FCC - Adaptada / TI - Mecânica e Propriedades da Assinatura Digital)
+### Teste 375
+**(FCC - Adaptada / TI - Mecânica e Propriedades da Assinatura Digital)**
 Em um sistema de processo eletrônico do Tribunal de Contas, um auditor emite e assina digitalmente um relatório de inspeção contábil utilizando seu par de chaves criptográficas assimétricas.
 
 A respeito do processo técnico de assinatura digital e das garantias proporcionadas, assinale a afirmativa correta:
@@ -601,6 +667,9 @@ A respeito do processo técnico de assinatura digital e das garantias proporcion
 * **C)** A assinatura digital garante isoladamente o princípio da confidencialidade, tornando impossível que qualquer pessoa não autorizada leia o teor do documento assinado.
 * **D)** A chave privada do remetente deve ser anexada ao documento em texto claro para que o destinatário possa decifrar a assinatura digital sem intermediários.
 * **E)** A alteração de um único caractere no documento original após a assinatura não afeta o resultado da verificação, permanecendo a assinatura perfeitamente válida.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -627,7 +696,8 @@ Para uniformizar a aplicação de assinaturas digitais em formatos padronizados,
 
 ---
 
-### Questão 11 (FGV - TRT / Analista Judiciário - TI - Padrões de Assinatura Avançada e Carimbo do Tempo)
+### Teste 376
+**(FGV - TRT / Analista Judiciário - TI - Padrões de Assinatura Avançada e Carimbo do Tempo)**
 Em processos de fiscalização e auditoria eletrônica de longo prazo, documentos digitais assinados devem manter sua auditabilidade e validade probatória ao longo de décadas, superando a eventual expiração de certificados ou descontinuação de algoritmos criptográficos.
 
 Para atender a esses requisitos de preservação de longo prazo no ecossistema da ICP-Brasil, a tecnologia que atesta a data e hora oficiais brasileiras fornecidas pelo Observatório Nacional e os formatos de assinatura avançada recomendados para preservação temporal são:
@@ -637,6 +707,9 @@ Para atender a esses requisitos de preservação de longo prazo no ecossistema d
 * **C)** A gravação do relógio local do sistema operacional do computador do auditor no rodapé do documento em fonte Arial.
 * **D)** O formato DOC sem criptografia assinado via botão de macro do Microsoft Word 97.
 * **E)** O carimbo do tempo é emitido exclusivamente pela operadora local de telefonia móvel sem uso de criptografia assimétrica.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -654,7 +727,10 @@ Para atender a esses requisitos de preservação de longo prazo no ecossistema d
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 6. Fontes Recomendadas na Internet
 

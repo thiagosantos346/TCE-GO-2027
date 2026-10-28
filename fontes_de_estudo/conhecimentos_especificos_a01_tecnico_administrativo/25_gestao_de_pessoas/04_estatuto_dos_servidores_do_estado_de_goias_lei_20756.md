@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo (TCE-GO)  
 > **Conteúdo Oficial:** Lei Estadual de Goiás nº 20.756/2020 (Estatuto dos Servidores Públicos Civis do Estado de Goiás); Formas de Provimento (Nomeação, Posse e Exercício); Estágio Probatório e Estabilidade; Formas Derivadas de Provimento; Vacância; Direitos, Vantagens e Licenças; Regime Disciplinar, Sanções e Prazos de Prescrição; Sindicância e PAD.
 
+
+
 ---
+
 
 ## 📌 Ementa & Delimitação do Conteúdo
 
@@ -51,35 +54,50 @@
     - Prazos de prescrição da ação disciplinar: **5 anos** (demissão e cassação), **2 anos** (suspensão) e **180 dias** (advertência);
     - Sindicância e Processo Administrativo Disciplinar (PAD): comissão composta por 3 servidores estáveis, contraditório, ampla defesa e revisão disciplinar.
 
----
 
-## 🧭 Sumário Interativo
-- [1. Disposições Gerais e Conceitos Estruturais](#1-disposicoes-gerais-e-conceitos-estruturais)
-    - [1.1 Servidor Público e Cargo Público](#11-servidor-publico-e-cargo-publico)
-    - [1.2 Cargos de Provimento Efetivo, em Comissão e Funções de Confiança](#12-cargos-de-provimento-efetivo-em-comissao-e-funcoes-de-confianca)
-    - [1.3 Requisitos Básicos para Investidura](#13-requisitos-basicos-para-investidura)
-- [2. Dinâmica de Ingresso: Nomeação, Posse e Exercício](#2-dinamica-de-ingresso-nomeacao-posse-e-exercicio)
-    - [2.1 A Trilha Temporal de Investidura](#21-a-trilha-temporal-de-investidura)
-    - [2.2 Consequências Jurídicas do Descumprimento dos Prazos](#22-consequencias-juridicas-do-descumprimento-dos-prazos)
-- [3. Estágio Probatório e Estabilidade Constitucional](#3-estagio-probatorio-e-estabilidade-constitucional)
-    - [3.1 Requisitos e Fatores de Avaliação Especial](#31-requisitos-e-fatores-de-avaliacao-especial)
-    - [3.2 Desfechos da Avaliação Especial: Exoneração vs. Recondução](#32-desfechos-da-avaliacao-especial-exoneracao-vs-reconducao)
-    - [3.3 Hipóteses Constitucionais de Perda do Cargo do Servidor Estável](#33-hipoteses-constitucionais-de-perda-do-cargo-do-servidor-estavel)
-- [4. Provimento Derivado e Vacância de Cargos Públicos](#4-provimento-derivado-e-vacancia-de-cargos-publicos)
-    - [4.1 Formas Derivadas de Provimento (Quadro Comparativo)](#41-formas-derivadas-de-provimento-quadro-comparativo)
-    - [4.2 Hipóteses Legais de Vacância](#42-hipoteses-legais-de-vacancia)
-- [5. Direitos, Vantagens Pecuniárias e Licenças Estatutárias](#5-direitos-vantagens-pecuniarias-e-licencas-estatutarias)
-    - [5.1 Sistema Remuneratório: Vencimento, Remuneração e Indenizações](#51-sistema-remuneratorio-vencimento-remuneracao-e-indenizacoes)
-    - [5.2 Regime de Férias](#52-regime-de-ferias)
-    - [5.3 Licenças Estatutárias: Capacitação vs. Interesses Particulares](#53-licencas-estatutarias-capacitacao-vs-interesses-particulares)
-- [6. Regime Disciplinar e Processo Sancionador](#6-regime-disciplinar-e-processo-sancionador)
-    - [6.1 Responsabilidade Funcional e Independência Relativa das Instâncias](#61-responsabilidade-funcional-e-independencia-relativa-das-instancias)
-    - [6.2 As Penalidades Disciplinares e Hipóteses de Demissão](#62-as-penalidades-disciplinares-e-hipoteses-de-demissao)
-    - [6.3 Prazos de Prescrição da Pretensão Punitiva](#63-prazos-de-prescricao-da-pretensao-punitiva)
-    - [6.4 Sindicância e Processo Administrativo Disciplinar (PAD)](#64-sindicancia-e-processo-administrativo-disciplinar-pad)
-- [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Disposições Gerais e Conceitos Estruturais](#1-disposicoes-gerais-e-conceitos-estruturais)
+    1. [Servidor Público e Cargo Público](#11-servidor-publico-e-cargo-publico)
+    2. [Cargos de Provimento Efetivo, em Comissão e Funções de Confiança](#12-cargos-de-provimento-efetivo-em-comissao-e-funcoes-de-confianca)
+    3. [Requisitos Básicos para Investidura](#13-requisitos-basicos-para-investidura)
+2. [Dinâmica de Ingresso: Nomeação, Posse e Exercício](#2-dinamica-de-ingresso-nomeacao-posse-e-exercicio)
+    1. [A Trilha Temporal de Investidura](#21-a-trilha-temporal-de-investidura)
+    2. [Teste 460](#Teste-460)
+    3. [Consequências Jurídicas do Descumprimento dos Prazos](#22-consequencias-juridicas-do-descumprimento-dos-prazos)
+    4. [Teste 461](#Teste-461)
+3. [Estágio Probatório e Estabilidade Constitucional](#3-estagio-probatorio-e-estabilidade-constitucional)
+    1. [Requisitos e Fatores de Avaliação Especial](#31-requisitos-e-fatores-de-avaliacao-especial)
+    2. [Desfechos da Avaliação Especial: Exoneração vs. Recondução](#32-desfechos-da-avaliacao-especial-exoneracao-vs-reconducao)
+    3. [Hipóteses Constitucionais de Perda do Cargo do Servidor Estável](#33-hipoteses-constitucionais-de-perda-do-cargo-do-servidor-estavel)
+    4. [Teste 462](#Teste-462)
+4. [Provimento Derivado e Vacância de Cargos Públicos](#4-provimento-derivado-e-vacancia-de-cargos-publicos)
+    1. [Formas Derivadas de Provimento (Quadro Comparativo)](#41-formas-derivadas-de-provimento-quadro-comparativo)
+    2. [Teste 463](#Teste-463)
+    3. [Hipóteses Legais de Vacância](#42-hipoteses-legais-de-vacancia)
+    4. [Teste 464](#Teste-464)
+5. [Direitos, Vantagens Pecuniárias e Licenças Estatutárias](#5-direitos-vantagens-pecuniarias-e-licencas-estatutarias)
+    1. [Sistema Remuneratório: Vencimento, Remuneração e Indenizações](#51-sistema-remuneratorio-vencimento-remuneracao-e-indenizacoes)
+    2. [Regime de Férias](#52-regime-de-ferias)
+    3. [Licenças Estatutárias: Capacitação vs. Interesses Particulares](#53-licencas-estatutarias-capacitacao-vs-interesses-particulares)
+    4. [Teste 465](#Teste-465)
+6. [Regime Disciplinar e Processo Sancionador](#6-regime-disciplinar-e-processo-sancionador)
+    1. [Responsabilidade Funcional e Independência Relativa das Instâncias](#61-responsabilidade-funcional-e-independencia-relativa-das-instancias)
+    2. [As Penalidades Disciplinares e Hipóteses de Demissão](#62-as-penalidades-disciplinares-e-hipoteses-de-demissao)
+    3. [Teste 466](#Teste-466)
+    4. [Prazos de Prescrição da Pretensão Punitiva](#63-prazos-de-prescricao-da-pretensao-punitiva)
+    5. [Teste 467](#Teste-467)
+    6. [Sindicância e Processo Administrativo Disciplinar (PAD)](#64-sindicancia-e-processo-administrativo-disciplinar-pad)
+    7. [Teste 468](#Teste-468)
+    8. [Teste 469](#Teste-469)
+7. [Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 1. Disposições Gerais e Conceitos Estruturais
 
@@ -140,7 +158,10 @@ Para a investidura em cargo público civil do Estado de Goiás, exige-se o preen
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A comprovação dos requisitos de investidura (escolaridade, idade, registro em conselho) é exigida no momento da **POSSE** e não da inscrição no concurso público, em estrita consonância com a Súmula nº 266 do STJ (*"O diploma ou habilitação legal para o exercício do cargo deve ser exigido na posse e não na inscrição para o concurso público"*). Exceção única: quando a lei ou edital exigir expressamente a comprovação de tempo de prática forense ou atividade jurídica prévia já no ato da inscrição definitiva em carreiras jurídicas específicas.
 
+
+
 ---
+
 
 ## 2. Dinâmica de Ingresso: Nomeação, Posse e Exercício
 
@@ -175,7 +196,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Teste 460
 **(FCC – Analista de Controle Externo – TCE-GO)**  
 Um cidadão regularmente aprovado em concurso público para o cargo de Técnico de Controle Externo do Tribunal de Contas do Estado de Goiás teve sua nomeação publicada no Diário Oficial do Estado no dia 1º de março. Ele compareceu à Diretoria de Gestão de Pessoas e tomou posse formal no dia 20 de março. De acordo com as disposições expressas da Lei Estadual de Goiás nº 20.756/2020, o prazo legal máximo para que esse servidor entre em efetivo exercício e a consequência administrativa caso ele não o faça dentro do prazo são, respectivamente:
 
@@ -184,6 +205,9 @@ Um cidadão regularmente aprovado em concurso público para o cargo de Técnico 
 * **C)** 15 dias contados da data da posse; e a sua exoneração de ofício do cargo público.
 * **D)** 30 dias contados da posse; e o cancelamento do termo de homologação final.
 * **E)** 10 dias contados da nomeação; e a transformação do ato em disponibilidade remunerada proporcional.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -217,7 +241,8 @@ O desrespeito aos prazos legais acarreta efeitos administrativos substancialment
 
 ---
 
-### Questão 02 (FCC – Inédita – Padrão TCE-GO)
+### Teste 461
+**(FCC – Inédita – Padrão TCE-GO)**
 De acordo com a Lei Estadual nº 20.756/2020 (Regime Jurídico dos Servidores Públicos Civis do Estado de Goiás), a respeito dos prazos legais do ciclo de investidura (posse e exercício), assinale a afirmativa correta:
 
 * **A)** A posse dar-se-á no prazo improrrogável de 30 (trinta) dias contados da publicação oficial do ato de provimento (nomeação), e o servidor terá o prazo de 15 (quinze) dias, contados da data da posse, para entrar em efetivo exercício.
@@ -225,6 +250,9 @@ De acordo com a Lei Estadual nº 20.756/2020 (Regime Jurídico dos Servidores P�
 * **C)** Caso o nomeado não tome posse no prazo legal, ser-lhe-á concedida licença não remunerada automática de três meses.
 * **D)** O servidor empossado que não entrar em exercício no prazo legal será sumariamente demitido a bem do serviço público mediante processo disciplinar.
 * **E)** A posse é exigida para cargos efetivos, mas é expressamente dispensada para cargos em comissão e funções de confiança.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -235,6 +263,8 @@ De acordo com a Lei Estadual nº 20.756/2020 (Regime Jurídico dos Servidores P�
 > - **E)** Incorreta. Cargos em comissão também exigem formalização do termo de posse.
 > 
 > **Gabarito: A**
+
+
 
 ---
 
@@ -298,7 +328,8 @@ Conforme o art. 41, § 1º, e o art. 169, § 4º, da Constituição Federal de 1
 
 ---
 
-### Questão 03 (FCC – Inédita – Padrão TCE-GO)
+### Teste 462
+**(FCC – Inédita – Padrão TCE-GO)**
 No regime estatutário do Estado de Goiás (Lei nº 20.756/2020), o servidor público estável que tiver sua demissão invalidada por decisão judicial ou administrativa irrecorrível terá direito ao instituto da:
 
 * **A)** Reintegração, com o ressarcimento integral de todos os vencimentos, direitos e vantagens funcionais que deixou de auferir durante o período do afastamento ilegal.
@@ -306,6 +337,9 @@ No regime estatutário do Estado de Goiás (Lei nº 20.756/2020), o servidor pú
 * **C)** Readaptação em cargo compatível com sua nova limitação física ou psíquica atestada em junta médica.
 * **D)** Reversão compulsória no interesse exclusivo do serviço público da entidade autárquica.
 * **E)** Aproveitamento prioritário em cargo de atribuições e remuneração inferiores.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -316,6 +350,8 @@ No regime estatutário do Estado de Goiás (Lei nº 20.756/2020), o servidor pú
 > - **E)** Incorreta. O aproveitamento deve ser em cargo de atribuições e vencimentos compatíveis.
 > 
 > **Gabarito: A**
+
+
 
 ---
 
@@ -354,7 +390,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Teste 463
 **(FCC – Auditor de Controle Externo – TCE-RO)**  
 Rodrigo, servidor público estável do Estado de Goiás, foi demitido da repartição após processo disciplinar sumário. Inconformado, Rodrigo ajuizou ação ordinária e obteve sentença judicial transitada em julgado que declarou a manifesta nulidade do ato demissório por cerceamento do direito de ampla defesa. No momento em que Rodrigo retornou ao órgão público, constatou-se que seu cargo original estava regularmente ocupado por Marcos, outro servidor público estável que havia sido promovido legitimamente. Consoante a disciplina da Lei Estadual nº 20.756/2020, o retorno de Rodrigo ao serviço ativo e a situação jurídica de Marcos configuram, respectivamente:
 
@@ -363,6 +399,9 @@ Rodrigo, servidor público estável do Estado de Goiás, foi demitido da reparti
 * **C)** Reintegração de Rodrigo com ressarcimento de todos os direitos e vantagens pecuniárias retroativas; e recondução de Marcos ao cargo anterior, sem direito a indenização, ou seu aproveitamento em outro cargo.
 * **D)** Readaptação de Rodrigo com redução de jornada; e colocação imediata de Marcos em demissão administrativa.
 * **E)** Aproveitamento de Rodrigo em cargo em comissão; e manutenção definitiva de Marcos no cargo efetivo em disputa.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -396,7 +435,8 @@ Vacância é o ato ou fato administrativo que extingue o provimento, tornando de
 
 ---
 
-### Questão 05 (FCC – Inédita – Padrão TCE-GO)
+### Teste 464
+**(FCC – Inédita – Padrão TCE-GO)**
 Acerca do regime de férias remuneradas disciplinado pela Lei Estadual nº 20.756/2020 dos Servidores Públicos Civis de Goiás, é correto afirmar:
 
 * **A)** As férias anuais de 30 (trinta) dias poderão ser parceladas em até 3 (três) períodos, por solicitação do servidor e interesse da administração, desde que nenhum deles seja inferior a 10 (dez) dias corridos.
@@ -404,6 +444,9 @@ Acerca do regime de férias remuneradas disciplinado pela Lei Estadual nº 20.75
 * **C)** O servidor tem direito a férias no seu primeiro ano de serviço sem a necessidade de cumprimento de qualquer período aquisitivo inicial.
 * **D)** O adicional constitucional de férias no Estado de Goiás é pago à razão de metade (50%) da remuneração do mês de gozo.
 * **E)** É proibida a acumulação de férias sob qualquer pretexto, extinguindo-se o direito caso o servidor não usufrua o descanso até o fim do ano civil.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -414,6 +457,8 @@ Acerca do regime de férias remuneradas disciplinado pela Lei Estadual nº 20.75
 > - **E)** Incorreta. É permitida a acumulação de até no máximo 2 períodos de férias no caso de imperiosa necessidade do serviço.
 > 
 > **Gabarito: A**
+
+
 
 ---
 
@@ -466,7 +511,7 @@ flowchart TD
 
 ---
 
-### Questão 06
+### Teste 465
 **(FCC – Técnico de Controle Externo – Área Administrativa – TCE-GO)**  
 Nos moldes da Lei Estadual nº 20.756/2020, o servidor público estável poderá obter autorização administrativa para afastar-se de suas funções a fim de tratar de interesses particulares. A respeito dessa licença estatutária, assinale a afirmativa correta:
 
@@ -475,6 +520,9 @@ Nos moldes da Lei Estadual nº 20.756/2020, o servidor público estável poderá
 * **C)** A licença para o trato de interesses particulares dar-se-á sem remuneração e vigorará pelo prazo de até 3 (três) anos consecutivos, permanecendo condicionada à prévia aquisição de estabilidade funcional e ao juízo de conveniência e oportunidade da administração.
 * **D)** O servidor em cumprimento de estágio probatório faz jus à referida licença após completar doze meses de efetivo exercício no cargo.
 * **E)** Durante o período de fruição da licença sem vencimentos, o servidor continuará computando o tempo integralmente para efeitos de promoção por merecimento funcional.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -490,8 +538,9 @@ Nos moldes da Lei Estadual nº 20.756/2020, o servidor público estável poderá
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 6. Regime Disciplinar e Processo Sancionador
@@ -575,7 +624,7 @@ flowchart TD
 
 ---
 
-### Questão 07
+### Teste 466
 **(FCC – Analista Jurídico – PGE-GO)**  
 Um servidor público titular de cargo efetivo da administração direta do Estado de Goiás ausentou-se deliberadamente e sem qualquer justificativa legal de seu posto de trabalho por 35 (trinta e cinco) dias consecutivos durante o mês de janeiro. Ciente do fato, a chefia imediata oficiou à autoridade competente. Conforme o Estatuto dos Servidores Públicos Civis de Goiás (Lei nº 20.756/2020), a conduta do servidor caracteriza:
 
@@ -584,6 +633,9 @@ Um servidor público titular de cargo efetivo da administração direta do Estad
 * **C)** Falta justificada ficta, sujeita exclusivamente à conversão dos dias em banco de horas compensatório.
 * **D)** Desobediência hierárquica atenuada, sancionada unicamente com repreensão oral lavrada em ata interna.
 * **E)** Inaptidão probatória superveniente, ensejando a aposentadoria compulsória do agente com proventos integrais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -617,7 +669,7 @@ flowchart LR
 
 ---
 
-### Questão 08
+### Teste 467
 **(FCC – Analista de Controle Externo – Gestão Governamental – TCE-AP)**  
 Em matéria de poder disciplinar sancionador preconizado na Lei Estadual de Goiás nº 20.756/2020, a pretensão disciplinar da administração pública estadual para punir o servidor prescreve, respectivamente, nos seguintes prazos, a contar da data em que o fato se tornou conhecido pela autoridade competente:
 
@@ -626,6 +678,9 @@ Em matéria de poder disciplinar sancionador preconizado na Lei Estadual de Goi�
 * **C)** Em 4 anos para quaisquer penalidades disciplinares, tendo em vista o princípio da uniformidade processual do Estado federado.
 * **D)** Em 5 anos, para as infrações puníveis com advertência; e imprescritível para as infrações que cominem demissão e improbidade.
 * **E)** Em 180 dias para a demissão; e em 30 dias para a suspensão funcional de servidores de controle.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -661,7 +716,8 @@ Em matéria de poder disciplinar sancionador preconizado na Lei Estadual de Goi�
 
 ---
 
-### Questão 09 (FCC – Inédita – Padrão TCE-GO)
+### Teste 468
+**(FCC – Inédita – Padrão TCE-GO)**
 Em matéria de responsabilidade funcional e penalidades disciplinares no Estatuto dos Servidores Públicos Civis de Goiás (Lei nº 20.756/2020), considere a seguinte infração:
 
 Determinado servidor efetivo do Estado de Goiás cometeu ato de incontinência pública ou conduta escandalosa na repartição que perturbou a ordem dos serviços e causou grave dano moral à imagem da instituição.
@@ -674,6 +730,9 @@ Determinado servidor efetivo do Estado de Goiás cometeu ato de incontinência p
 * **D)** Perda definitiva dos direitos políticos por decisão da comissão processante de sindicância.
 * **E)** Prisão administrativa em cela especial da polícia judiciária estadual.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. Na disciplina dos arts. 192 e seguintes da Lei nº 20.756/2020: faltas mais graves que reincidência de advertência, incontinência pública ou conduta escandalosa no ambiente de trabalho sujeitam o servidor à pena de **Suspensão** por até 90 dias, cancelando a remuneração durante o afastamento.
@@ -684,7 +743,8 @@ Determinado servidor efetivo do Estado de Goiás cometeu ato de incontinência p
 
 ---
 
-### Questão 10 (FCC – Inédita – Padrão TCE-GO)
+### Teste 469
+**(FCC – Inédita – Padrão TCE-GO)**
 Quanto aos prazos de prescrição da pretensão punitiva disciplinar da Administração Pública estadual previstos na Lei Estadual nº 20.756/2020, a ação disciplinar prescreve em:
 
 * **A)** 5 (cinco) anos, quanto às infrações puníveis com demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão; 2 (dois) anos, quanto às puníveis com suspensão; e 180 (cento e oitenta) dias, quanto às puníveis com advertência.
@@ -693,12 +753,17 @@ Quanto aos prazos de prescrição da pretensão punitiva disciplinar da Administ
 * **D)** Prazo imprescritível em se tratando de infrações disciplinares cometidas por servidores de controle externo.
 * **E)** 1 ano para demissão e 5 anos para advertência escrita.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. É a disciplina clássica dos prazos prescricionais estatutários consolidados no art. 202 da Lei Estadual nº 20.756/2020: **5 anos**: faltas puníveis com demissão, cassação de aposentadoria/disponibilidade e destituição de cargo comissionado; **2 anos**: faltas puníveis com suspensão; **180 dias**: faltas puníveis com advertência. O prazo inicia-se na data em que o fato se tornou conhecido pela autoridade competente.
 > - **B), C), D), E)** Incorretas. Prazos em total desconformidade com o regime legal dos servidores do Estado de Goiás.
 > 
 > **Gabarito: A**
+
+
 
 ---
 

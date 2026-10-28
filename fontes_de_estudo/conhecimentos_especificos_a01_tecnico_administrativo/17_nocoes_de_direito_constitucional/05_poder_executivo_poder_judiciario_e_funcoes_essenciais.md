@@ -5,7 +5,10 @@
 > **Arquivo:** `05_poder_executivo_poder_judiciario_e_funcoes_essenciais.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -26,26 +29,32 @@
     - Advocacia Privada (Artigo 133 da CF/88): indispensabilidade e inviolabilidade profissional;
     - Defensoria Pública (Artigos 134 e 135 da CF/88): assistência jurídica aos hipossuficientes e autonomia institucional expressa.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Poder Executivo: Estrutura, Atribuições e Responsabilidade](#1-poder-executivo-estrutura-atribuicoes-e-responsabilidade)
-    - [1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)](#11-dupla-vacancia-dos-cargos-presidenciais-art-81-da-cf88)
-    - [1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)](#12-atribuicoes-delegaveis-do-presidente-da-republica-art-84-paragrafo-unico)
-    - [1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)](#13-responsabilidade-do-presidente-da-republica-e-imunidades-arts-85-e-86)
-- [2. Poder Judiciário: Estrutura Orgânica, CNJ e Súmula Vinculante](#2-poder-judiciario-estrutura-organica-cnj-e-sumula-vinculante)
-    - [2.1 Garantias e Vedações dos Magistrados (Art. 95 da CF/88)](#21-garantias-e-vedacoes-dos-magistrados-art-95-da-cf88)
-    - [2.2 Conselho Nacional de Justiça (CNJ - Art. 103-B)](#22-conselho-nacional-de-justica-cnj-art-103-b)
-    - [2.3 Supremo Tribunal Federal e o Regime da Súmula Vinculante (Art. 103-A)](#23-supremo-tribunal-federal-e-o-regime-da-sumula-vinculante-art-103-a)
-    - [2.4 Superior Tribunal de Justiça e o Filtro de Relevância (Arts. 104 e 105)](#24-superior-tribunal-de-justica-e-o-filtro-de-relevancia-arts-104-e-105)
-- [3. Funções Essenciais à Justiça](#3-funcoes-essenciais-a-justica)
-    - [3.1 Ministério Público e o CNMP (Arts. 127 a 130-A)](#31-ministerio-publico-e-o-cnmp-arts-127-a-130-a)
-    - [3.2 Advocacia Pública (Arts. 131 e 132)](#32-advocacia-publica-arts-131-e-132)
-    - [3.3 Defensoria Pública (Arts. 134 e 135)](#33-defensoria-publica-arts-134-e-135)
-    - [3.4 Advocacia Privada (Art. 133)](#34-advocacia-privada-art-133)
-- [4. Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Poder Executivo: Estrutura, Atribuições e Responsabilidade](#1-poder-executivo-estrutura-atribuicoes-e-responsabilidade)
+    2. [Teste 154](#Teste-154)
+    3. [Teste 155](#Teste-155)
+    4. [Teste 156](#Teste-156)
+    5. [Teste 157](#Teste-157)
+    6. [Poder Judiciário: Estrutura Orgânica, CNJ e Súmula Vinculante](#2-poder-judiciario-estrutura-organica-cnj-e-sumula-vinculante)
+    7. [Teste 158](#Teste-158)
+    8. [Teste 159](#Teste-159)
+    9. [Teste 160](#Teste-160)
+    10. [Teste 161](#Teste-161)
+    11. [Funções Essenciais à Justiça](#3-funcoes-essenciais-a-justica)
+    12. [Teste 162](#Teste-162)
+    13. [Teste 163](#Teste-163)
+    14. [Teste 164](#Teste-164)
+2. [Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
 
 ---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -73,7 +82,8 @@ flowchart TD
 
 
 
-### Questão 01 (FCC - Analista de Controle Externo / TCE-GO)
+### Teste 154
+**(FCC - Analista de Controle Externo / TCE-GO)**
 O art. 84, VI, da Constituição Federal, com a redação dada pela Emenda Constitucional nº 32/2001, introduziu no direito constitucional brasileiro a figura do decreto autônomo presidencial.
 
 Conforme a disciplina constitucional vigente, o Chefe do Poder Executivo pode dispor mediante decreto sobre:
@@ -83,6 +93,9 @@ Conforme a disciplina constitucional vigente, o Chefe do Poder Executivo pode di
 * **C)** Definição de novos crimes e cominação de penas disciplinares privativas de liberdade.
 * **D)** Concessão de anistia e indulto para infrações funcionais apuradas em processos de contas pelo Tribunal de Contas.
 * **E)** Instituição e majoração discricionária de tributos sem autorização legislativa formal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -96,7 +109,8 @@ Conforme a disciplina constitucional vigente, o Chefe do Poder Executivo pode di
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista de Controle Externo)
+### Teste 155
+**(FCC - Adaptada / Analista de Controle Externo)**
 Na hipótese de ocorrer a vacância simultânea e definitiva dos cargos de Presidente e de Vice-Presidente da República no terceiro ano do mandato presidencial:
 
 * **A)** Assumirá definitivamente a Presidência o Presidente da Câmara dos Deputados até a conclusão regular do quadriênio.
@@ -104,6 +118,9 @@ Na hipótese de ocorrer a vacância simultânea e definitiva dos cargos de Presi
 * **C)** A eleição para ambos os cargos será realizada trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei, para cumprimento do restante do mandato.
 * **D)** O Presidente do Supremo Tribunal Federal governará o país em comissão até a posse dos novos mandatários eleitos pelo sufrágio universal.
 * **E)** Haverá intervenção militar provisória até que o Colégio Eleitoral estadual convoque novo plebiscito presidencial.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -141,7 +158,8 @@ flowchart LR
 
 ---
 
-### Questão 03 (FCC - Adaptada / Analista Judiciário - TRT)
+### Teste 156
+**(FCC - Adaptada / Analista Judiciário - TRT)**
 A respeito das atribuições constitucionais do Presidente da República e da possibilidade de delegação de competências, consoante o disposto expressamente na Constituição Federal de 1988:
 
 * **A)** O Presidente da República pode delegar a competência para a criação ou extinção de Ministérios e órgãos da administração pública ao Ministro de Estado da respectiva pasta.
@@ -149,6 +167,9 @@ A respeito das atribuições constitucionais do Presidente da República e da po
 * **C)** A decretação de intervenção federal e a celebração de tratados de paz com nações estrangeiras podem ser delegadas ao Ministro de Estado da Justiça e Segurança Pública.
 * **D)** O provimento e a extinção de cargos públicos federais ocupados podem ser livremente delegados ao Advogado-Geral da União mediante portaria ministerial.
 * **E)** As atribuições privativas do Presidente da República são personalíssimas e indelegáveis sob qualquer hipótese, em observância estrita ao princípio da separação dos poderes.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -164,7 +185,8 @@ A respeito das atribuições constitucionais do Presidente da República e da po
 
 
 
-### Questão 04 (FGV - Auditor de Controle Externo / TCE-SC)
+### Teste 157
+**(FGV - Auditor de Controle Externo / TCE-SC)**
 A responsabilidade do Presidente da República é disciplinada nos arts. 85 e 86 da Constituição Federal de 1988, diferenciando os crimes comuns dos crimes de responsabilidade.
 
 Sobre o rito constitucional de responsabilização do Chefe do Poder Executivo, assinale a afirmativa correta.
@@ -174,6 +196,9 @@ Sobre o rito constitucional de responsabilização do Chefe do Poder Executivo, 
 * **C)** No julgamento por crime de responsabilidade, a condenação pelo Senado Federal exige voto da maioria simples dos senadores presentes à sessão.
 * **D)** O Presidente da República, na vigência de seu mandato, pode ser responsabilizado por atos estranhos ao exercício de suas funções na esfera criminal.
 * **E)** A admissão da acusação pela Câmara dos Deputados suspende o Presidente da República de suas funções imediatamente, antes mesmo da instauração formal do processo pelo órgão julgador competente.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -237,7 +262,8 @@ flowchart TD
 
 
 
-### Questão 05 (FCC - Analista Judiciário - Área Judiciária)
+### Teste 158
+**(FCC - Analista Judiciário - Área Judiciária)**
 A Constituição Federal de 1988 assegura garantias institucionais e funcionais indispensáveis à independência dos membros do Poder Judiciário (art. 95).
 
 A respeito das garantias dos magistrados, assinale a afirmativa correta.
@@ -247,6 +273,9 @@ A respeito das garantias dos magistrados, assinale a afirmativa correta.
 * **C)** A inamovibilidade dos magistrados é absoluta, sendo vedada a remoção compulsória por motivo de interesse público fundamentado.
 * **D)** Os magistrados podem exercer livremente a atividade político-partidária e a advocacia privada durante as férias e licenças funcionais.
 * **E)** A irredutibilidade de subsídio autoriza o magistrado a receber remuneração superior ao teto constitucional dos Ministros do STF.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -260,7 +289,8 @@ A respeito das garantias dos magistrados, assinale a afirmativa correta.
 
 ---
 
-### Questão 06 (FCC - Adaptada / Técnico Judiciário - Área Administrativa)
+### Teste 159
+**(FCC - Adaptada / Técnico Judiciário - Área Administrativa)**
 Sobre a estrutura e as atribuições do Conselho Nacional de Justiça (CNJ), com esteio nas normas da Constituição Federal de 1988 e na jurisprudência vinculante do Supremo Tribunal Federal, é correto afirmar:
 
 * **A)** É órgão de cúpula recursal do Poder Judiciário, possuindo competência para reformar decisões de mérito proferidas por Tribunais de Justiça que contrariem a jurisprudência pacífica.
@@ -268,6 +298,9 @@ Sobre a estrutura e as atribuições do Conselho Nacional de Justiça (CNJ), com
 * **C)** Detém competência privativa para propor projetos de lei orçamentária e emendas à Constituição que tratem do estatuto da magistratura nacional.
 * **D)** Seus atos e decisões em sede de fiscalização administrativa e disciplinar são imunes ao controle jurisdicional do Supremo Tribunal Federal.
 * **E)** É composto exclusivamente por magistrados togados de carreira, sendo vedada a nomeação de advogados e membros do Ministério Público em seu colegiado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -293,7 +326,8 @@ Sobre a estrutura e as atribuições do Conselho Nacional de Justiça (CNJ), com
 
 ---
 
-### Questão 07 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 160
+**(FCC - Adaptada / Analista de Gestão Pública)**
 O Supremo Tribunal Federal aprovou enunciado de Súmula Vinculante versando sobre critérios de nomeação para cargos em comissão na Administração Pública. Meses após a publicação do verbete sumular no Diário Oficial, a Assembleia Legislativa de determinado Estado aprovou lei ordinária cujo texto contraria expressamente o entendimento consolidado na referida Súmula Vinculante.
 
 À luz do artigo 103-A da Constituição Federal de 1988 e da doutrina constitucional brasileira:
@@ -303,6 +337,9 @@ O Supremo Tribunal Federal aprovou enunciado de Súmula Vinculante versando sobr
 * **C)** O STF deverá determinar a dissolução compulsória da Mesa Diretora da Assembleia Legislativa por crime de desobediência a provimento sumular.
 * **D)** Qualquer Deputado Estadual pode ajuizar Reclamação Constitucional para anular os debates legislativos em plenário com fundamento no efeito vinculante da súmula.
 * **E)** A Súmula Vinculante produz efeitos apenas no âmbito dos órgãos do Poder Judiciário, não gerando obrigações para a administração direta dos Estados.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -318,7 +355,8 @@ O Supremo Tribunal Federal aprovou enunciado de Súmula Vinculante versando sobr
 
 
 
-### Questão 08 (FGV - Analista Jurídico de Controle Externo / TCE-GO)
+### Teste 161
+**(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 O art. 103-A da Constituição Federal, inserido pela Emenda Constitucional nº 45/2004, autoriza o Supremo Tribunal Federal a editar súmulas vinculantes.
 
 Sobre os requisitos de aprovação, objeto e efeitos da Súmula Vinculante, assinale a afirmativa correta.
@@ -328,6 +366,9 @@ Sobre os requisitos de aprovação, objeto e efeitos da Súmula Vinculante, assi
 * **C)** A Súmula Vinculante vincula o próprio Supremo Tribunal Federal, impedindo que a Corte altere ou cancele seus enunciados em julgamentos futuros.
 * **D)** Do ato administrativo ou decisão judicial que contrariar a súmula vinculante aplicável caberá recurso ordinário ao Tribunal de Justiça local.
 * **E)** É dispensada a existência de reiteradas decisões anteriores para a edição de enunciado de súmula vinculante.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -372,7 +413,8 @@ flowchart TD
 
 
 
-### Questão 09 (FCC - Procurador do Estado / Adaptada)
+### Teste 162
+**(FCC - Procurador do Estado / Adaptada)**
 O Ministério Público é instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe a defesa da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis (art. 127, caput, da CF/88).
 
 São princípios institucionais expressos do Ministério Público positivados no art. 127, § 1º, da Constituição Federal:
@@ -382,6 +424,9 @@ São princípios institucionais expressos do Ministério Público positivados no
 * **C)** A subordinação administrativa ao Ministério da Justiça e a solidariedade orçamentária.
 * **D)** A presunção de legalidade, a tipicidade e a subsidiariedade penal.
 * **E)** A intranscendência, a colegialidade estrita e a rotatividade partidária.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -395,7 +440,8 @@ São princípios institucionais expressos do Ministério Público positivados no
 
 ---
 
-### Questão 10 (FCC - Adaptada / Oficial de Defensoria Pública)
+### Teste 163
+**(FCC - Adaptada / Oficial de Defensoria Pública)**
 Acerca do regime constitucional conferido às Funções Essenciais à Justiça na Constituição Federal de 1988, analise as proposições a seguir:
 
 I. São princípios institucionais do Ministério Público a unidade, a indivisibilidade e a independência funcional.  
@@ -411,6 +457,9 @@ Está correto o que se afirma em:
 * **C)** I e III, apenas.
 * **D)** I, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -441,7 +490,8 @@ O advogado é indispensável à administração da justiça, sendo inviolável p
 
 
 
-### Questão 11 (FGV - Analista de Controle Externo / Auditoria)
+### Teste 164
+**(FGV - Analista de Controle Externo / Auditoria)**
 A respeito das Funções Essenciais à Justiça disciplinadas nos arts. 131 a 135 da Constituição Federal, compare as atribuições e o regime constitucional da Advocacia Pública e da Defensoria Pública.
 
 Assinale a afirmativa correta.
@@ -451,6 +501,9 @@ Assinale a afirmativa correta.
 * **C)** Os Procuradores do Estado e os Defensores Públicos podem ser nomeados pelo Chefe do Poder Executivo em comissão, sem necessidade de concurso público de provas e títulos.
 * **D)** A Advocacia Pública não possui competência para exercer atividades de consultoria e assessoramento jurídico ao Poder Executivo, limitando-se à representação em juízo.
 * **E)** A Defensoria Pública é administrativamente subordinada à Secretaria Estadual de Segurança Pública.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -462,7 +515,10 @@ Assinale a afirmativa correta.
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 

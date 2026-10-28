@@ -455,7 +455,6 @@ def postprocess_topic_html(html, topic_id):
         while nxt and nxt.name not in ("ul", "ol", "h1", "h2", "h3", "hr"):
             nxt = nxt.find_next_sibling()
         if nxt and nxt.name in ("ul", "ol"):
-            nxt.name = "ul"
             classes = nxt.get("class", [])
             if "sumario-list" not in classes:
                 classes.append("sumario-list")
@@ -502,6 +501,8 @@ def postprocess_topic_html(html, topic_id):
     fallback_toc_id = sumario_heading["id"] if sumario_heading else f"{topic_id}"
     for h, slug, htext, _ in headings_info:
         if h.name in ("h2", "h3", "h4"):
+            if not htext or re.match(r"^[\s\-_=]+$", htext):
+                continue
             back_id = toc_slug_to_id.get(slug, fallback_toc_id)
             back_a = soup.new_tag("a", href=f"#{back_id}", **{"class": "heading-backlink", "title": "Voltar ao Sumário"})
             for child in list(h.contents):
@@ -548,6 +549,10 @@ def postprocess_topic_html(html, topic_id):
 
 def process_markdown(raw_md, topic_id="topic_1"):
     """Compila Markdown preservando emojis, blocos Mermaid, LaTeX matemático e estrutura DOM."""
+    # Sanitizacao de divisorias para evitar h2 acidental
+    raw_md = re.sub(r'(?:\n[ \t]*---[ \t]*){2,}', r'\n\n---\n', raw_md)
+    raw_md = re.sub(r'([^\n])\n[ \t]*---[ \t]*\n', r'\1\n\n---\n', raw_md)
+    raw_md = re.sub(r'\n[ \t]*---[ \t]*\n([^\n])', r'\n---\n\n\1', raw_md)
     text = remove_emojis_for_pdf(raw_md)
 
     # 1. Renderizar blocos Mermaid via CLI (mmdc) com fallback para <pre>
@@ -652,7 +657,7 @@ def process_markdown(raw_md, topic_id="topic_1"):
     # antes desse delimitador. Assim, as questões podem ficar intercaladas com a teoria sem engolir os
     # subtópicos seguintes.
     stop = r'(?:(?!<h[1-4][\s>]|<hr).)'
-    head = r'<h[34][^>]*>(?:<span[^>]*>)?Questão\s+\d+'
+    head = r'<h[34][^>]*>(?:<span[^>]*>)?(?:Questão|Questao|Teste)\s+\d+'
     pattern = (
         r'(' + head + stop + r'*?<span class="gabarito-badge">' + stop + r'*?</blockquote>'
         r'|' + head + stop + r'*)'
@@ -712,7 +717,7 @@ def build_target_html(target_key):
             with open(filepath, 'r', encoding='utf-8') as fh:
                 raw_md = fh.read()
 
-            q_matches = len(re.findall(r'### Questão\s+\d+', raw_md, re.IGNORECASE))
+            q_matches = len(re.findall(r'###\s+(?:Questão|Questao|Teste)\s+\d+', raw_md, re.IGNORECASE))
             total_questions += q_matches
 
             first_line = raw_md.split('\n')[0].replace('#', '').strip()

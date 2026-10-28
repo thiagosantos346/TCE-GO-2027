@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `01_governanca_planejamento_etp_tr_e_matriz_riscos.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Princípios gerais e regime da Lei Federal nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos - NLLC)
@@ -17,29 +20,45 @@
 - Matriz de Alocação de Riscos: conceito, finalidade e equilíbrio econômico-financeiro originário
 - Portal Nacional de Contratações Públicas (PNCP): natureza, atribuições e publicidade centralizada
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)](#1-principios-gerais-e-regime-da-lei-federal-no-141332021-nllc)
-    - [1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos](#11-ambito-de-aplicacao-subjetivo-e-objetos-abrangidos)
-    - [1.2 Os Objetivos Fundamentais do Processo Licitatório (Art. 11)](#12-os-objetivos-fundamentais-do-processo-licitatorio-art-11)
-    - [1.3 Governança das Contratações e Gestão por Competências](#13-governanca-das-contratacoes-e-gestao-por-competencias)
-- [2. Agentes Públicos da Contratação e Segregação de Funções](#2-agentes-publicos-da-contratacao-e-segregacao-de-funcoes)
-    - [2.1 O Agente de Contratação e o Pregoeiro](#21-o-agente-de-contratacao-e-o-pregoeiro)
-    - [2.2 Comissão de Contratação e a Regra do Diálogo Competitivo](#22-comissao-de-contratacao-e-a-regra-do-dialogo-competitivo)
-    - [2.3 O Princípio da Segregação de Funções e Conflito de Interesses](#23-o-principio-da-segregacao-de-funcoes-e-conflito-de-interesses)
-    - [2.4 Defesa Jurídica Institucional dos Agentes (Art. 10)](#24-defesa-juridica-institucional-dos-agentes-art-10)
-- [3. Planejamento das Contratações e Instrumentos Preparatórios](#3-planejamento-das-contratacoes-e-instrumentos-preparatorios)
-    - [3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária](#31-plano-de-contratacoes-anual-pca-e-integracao-orcamentaria)
-    - [3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios](#32-estudo-tecnico-preliminar-etp-conceito-e-elementos-obrigatorios)
-    - [3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo](#33-termo-de-referencia-vs-projeto-basico-e-projeto-executivo)
-    - [3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro](#34-matriz-de-alocacao-de-riscos-e-equilibrio-economico-financeiro)
-- [4. O Portal Nacional de Contratações Públicas (PNCP)](#4-o-portal-nacional-de-contratacoes-publicas-pncp)
-    - [4.1 Natureza e Atribuições Centrais do Portal](#41-natureza-e-atribuicoes-centrais-do-portal)
-    - [4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)](#42-a-divulgacao-no-pncp-como-requisito-indispensavel-de-eficacia-art-94)
-- [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
+
+1. [Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)](#1-principios-gerais-e-regime-da-lei-federal-no-141332021-nllc)
+    1. [Âmbito de Aplicação Subjetivo e Objetos Abrangidos](#11-ambito-de-aplicacao-subjetivo-e-objetos-abrangidos)
+    2. [Os Objetivos Fundamentais do Processo Licitatório (Art. 11)](#12-os-objetivos-fundamentais-do-processo-licitatorio-art-11)
+    3. [Teste 066](#Teste-066)
+    4. [Governança das Contratações e Gestão por Competências](#13-governanca-das-contratacoes-e-gestao-por-competencias)
+    5. [Teste 067](#Teste-067)
+2. [Agentes Públicos da Contratação e Segregação de Funções](#2-agentes-publicos-da-contratacao-e-segregacao-de-funcoes)
+    1. [O Agente de Contratação e o Pregoeiro](#21-o-agente-de-contratacao-e-o-pregoeiro)
+    2. [Teste 068](#Teste-068)
+    3. [Comissão de Contratação e a Regra do Diálogo Competitivo](#22-comissao-de-contratacao-e-a-regra-do-dialogo-competitivo)
+    4. [Teste 069](#Teste-069)
+    5. [O Princípio da Segregação de Funções e Conflito de Interesses](#23-o-principio-da-segregacao-de-funcoes-e-conflito-de-interesses)
+    6. [Teste 070](#Teste-070)
+    7. [Defesa Jurídica Institucional dos Agentes (Art. 10)](#24-defesa-juridica-institucional-dos-agentes-art-10)
+    8. [Teste 071](#Teste-071)
+3. [Planejamento das Contratações e Instrumentos Preparatórios](#3-planejamento-das-contratacoes-e-instrumentos-preparatorios)
+    1. [Plano de Contratações Anual (PCA) e Integração Orçamentária](#31-plano-de-contratacoes-anual-pca-e-integracao-orcamentaria)
+    2. [Teste 072](#Teste-072)
+    3. [Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios](#32-estudo-tecnico-preliminar-etp-conceito-e-elementos-obrigatorios)
+    4. [Teste 073](#Teste-073)
+    5. [Termo de Referência vs. Projeto Básico e Projeto Executivo](#33-termo-de-referencia-vs-projeto-basico-e-projeto-executivo)
+    6. [Teste 074](#Teste-074)
+    7. [Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro](#34-matriz-de-alocacao-de-riscos-e-equilibrio-economico-financeiro)
+    8. [Teste 075](#Teste-075)
+4. [O Portal Nacional de Contratações Públicas (PNCP)](#4-o-portal-nacional-de-contratacoes-publicas-pncp)
+    1. [Natureza e Atribuições Centrais do Portal](#41-natureza-e-atribuicoes-centrais-do-portal)
+    2. [A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)](#42-a-divulgacao-no-pncp-como-requisito-indispensavel-de-eficacia-art-94)
+    3. [Teste 076](#Teste-076)
+5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)
 
@@ -67,7 +86,8 @@ flowchart TD
 
 
 
-### Questão 01 (FGV - Auditor de Controle Externo / TCE-GO)
+### Teste 066
+**(FGV - Auditor de Controle Externo / TCE-GO)**
 A Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos) estabeleceu em seu art. 11 os objetivos precípuos do processo licitatório.
 
 A esse respeito, assinale a opção que indica corretamente um dos objetivos expressamente positivados no referido dispositivo legal.
@@ -77,6 +97,9 @@ A esse respeito, assinale a opção que indica corretamente um dos objetivos exp
 * **C)** Priorizar a escolha da proposta de menor valor nominal imediato de aquisição, desconsiderando custos futuros de manutenção e descarte do bem.
 * **D)** Assegurar que a disputa ocorra sob absoluto sigilo até o término da fase recursal para evitar conluio entre os licitantes.
 * **E)** Fomentar exclusivamente a contratação de empresas com sede no mesmo município onde o serviço público for executado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -101,7 +124,8 @@ A NLLC elevou a governança ao patamar de exigência legal expressa (art. 11, pa
 
 
 
-### Questão 02 (FCC - Analista de Gestão Pública / Contratações)
+### Teste 067
+**(FCC - Analista de Gestão Pública / Contratações)**
 Em consonância com as diretrizes de governança pública insculpidas no art. 11, parágrafo único, da Lei nº 14.133/2021, a alta administração do órgão ou entidade é responsável pela implementação de processos e estruturas de governança nas contratações.
 
 Nesse contexto, assinale a afirmativa que apresenta um instrumento essencial de governança e planejamento das contratações públicas.
@@ -111,6 +135,9 @@ Nesse contexto, assinale a afirmativa que apresenta um instrumento essencial de 
 * **C)** A concentração de todas as fases da contratação (planejamento, julgamento, fiscalização e pagamento) na pessoa de um único servidor de confiança da chefia.
 * **D)** A criação de comissões secretas para seleção prévia de fornecedores antes da publicação do edital no Portal Nacional de Contratações Públicas.
 * **E)** A delegação integral da competência de fiscalização orçamentária para a própria empresa contratada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -122,7 +149,10 @@ Nesse contexto, assinale a afirmativa que apresenta um instrumento essencial de 
 >
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 2. Agentes Públicos da Contratação e Segregação de Funções
 
@@ -137,7 +167,8 @@ O **Agente de Contratação** (art. 8º) é a pessoa física designada pela auto
 
 
 
-### Questão 03 (FGV - Analista de Controle Externo / TCE-SC)
+### Teste 068
+**(FGV - Analista de Controle Externo / TCE-SC)**
 A Lei nº 14.133/2021 inovou ao disciplinar a gestão por competências e a atuação do Agente de Contratação e da Comissão de Contratação (arts. 7º e 8º).
 
 Sobre os requisitos legais para a designação do Agente de Contratação, assinale a afirmativa correta.
@@ -147,6 +178,9 @@ Sobre os requisitos legais para a designação do Agente de Contratação, assin
 * **C)** O Agente de Contratação responde solidariamente por todos os atos praticados pela equipe de apoio, mesmo que tenha manifestado divergência expressa e formal em ata.
 * **D)** O pregoeiro, nas licitações na modalidade pregão, deve ser obrigatoriamente um dirigente político do órgão investido em cargo de direção superior.
 * **E)** É dispensável a observância do princípio da segregação de funções na designação dos agentes que atuam nas fases de planejamento e liquidação de despesa.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -172,7 +206,8 @@ A condução por comissão colegiada constitui exceção à regra geral do agent
 
 ---
 
-### Questão 04 (FCC - Técnico de Controle Externo / Administrativa)
+### Teste 069
+**(FCC - Técnico de Controle Externo / Administrativa)**
 No âmbito do Tribunal de Contas, a comissão encarregada de planejar o processo licitatório para a escolha de solução inovadora por meio da modalidade **Diálogo Competitivo** formulou consulta sobre a condução da sessão pública do certame.
 
 Conforme as disposições da Lei Federal nº 14.133/2021 relativas aos agentes da licitação:
@@ -182,6 +217,9 @@ Conforme as disposições da Lei Federal nº 14.133/2021 relativas aos agentes d
 * **C)** O certame deve ser coordenado diretamente pelo Presidente do Tribunal de Contas, dispensada a equipe de apoio.
 * **D)** As empresas licitantes participantes do diálogo devem indicar dois membros para compor a comissão com direito a voto.
 * **E)** A condução por colegiado é terminantemente proibida na Nova Lei de Licitações, prevalecendo sempre a decisão monocrática.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -227,7 +265,8 @@ flowchart LR
 
 ---
 
-### Questão 05 (FCC - Analista de Controle Externo / Adaptada TCE-GO)
+### Teste 070
+**(FCC - Analista de Controle Externo / Adaptada TCE-GO)**
 O Diretor-Geral de uma autarquia estadual designou um mesmo servidor público ocupante de cargo em comissão sem vínculo efetivo com o Estado para elaborar o Estudo Técnico Preliminar e o Termo de Referência de uma licitação, conduzir a sessão pública do certame como Agente de Contratação e, após a homologação, atuar como gestor e fiscal único da execução do contrato administrativo.
 
 Em face das normas expressas de governança e princípios instituídos pela Lei Federal nº 14.133/2021:
@@ -237,6 +276,9 @@ Em face das normas expressas de governança e princípios instituídos pela Lei 
 * **C)** A Lei nº 14.133/2021 exige que o Agente de Contratação seja contratado por consultoria privada terceirizada, vedando a investidura de agentes públicos.
 * **D)** O princípio da segregação de funções aplica-se apenas no âmbito de concessões comuns regidas pela Lei nº 8.987/1995.
 * **E)** A cumulação de funções de agente de contratação e fiscal de contrato é obrigatória em órgãos que contam com menos de cem servidores.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -259,7 +301,8 @@ Se o agente público for demandado nas esferas judicial ou controladora (perante
 
 
 
-### Questão 06 (FCC - Procurador do Estado / Adaptada)
+### Teste 071
+**(FCC - Procurador do Estado / Adaptada)**
 O art. 10 da Lei nº 14.133/2021 estabelece importante prerrogativa voltada à segurança jurídica dos agentes públicos que atuam nos processos de contratação.
 
 Conforme esse dispositivo, se o agente público for demandado judicial ou administrativamente em razão de ato praticado com estrita observância de orientação constante em parecer jurídico emitido pela assessoria jurídica do órgão:
@@ -269,6 +312,9 @@ Conforme esse dispositivo, se o agente público for demandado judicial ou admini
 * **C)** O agente público fica obrigado a contratar advogado particular com seus próprios recursos, sendo vedada qualquer assistência da Procuradoria do Estado.
 * **D)** A responsabilidade civil, administrativa e penal do agente público é automaticamente extinta antes de qualquer apuração.
 * **E)** O parecerista jurídico torna-se o único réu na ação judicial, sendo excluído sumariamente o agente público do processo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -280,7 +326,10 @@ Conforme esse dispositivo, se o agente público for demandado judicial ou admini
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 3. Planejamento das Contratações e Instrumentos Preparatórios
 
@@ -293,7 +342,8 @@ A Lei nº 14.133/2021 consagrou a centralidade da **fase preparatória**, supera
 
 
 
-### Questão 07 (FGV - Analista Judiciário de Controle Externo / TCE-GO)
+### Teste 072
+**(FGV - Analista Judiciário de Controle Externo / TCE-GO)**
 O Estudo Técnico Preliminar (ETP), previsto no art. 18, § 1º, da Lei nº 14.133/2021, constitui o documento constitutivo da primeira etapa do planejamento de uma contratação.
 
 Dentre os elementos previstos para o ETP, assinale a opção que apresenta um dos elementos obrigatórios (essenciais), cuja ausência torna imperfeito o estudo preparatório.
@@ -303,6 +353,9 @@ Dentre os elementos previstos para o ETP, assinale a opção que apresenta um do
 * **C)** A indicação da modalidade de leilão como a única via jurídica admitida para a compra de bens comuns.
 * **D)** A dispensa obrigatória de previsão de impactos ambientais em contratações de engenharia.
 * **E)** A fixação de marca comercial específica como exigência inegociável para a participação no certame.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -331,7 +384,8 @@ Embora o ETP contenha treze itens descritivos em seu roteiro geral, a NLLC fixou
 
 ---
 
-### Questão 08 (FCC - Procurador do Estado / Adaptada)
+### Teste 073
+**(FCC - Procurador do Estado / Adaptada)**
 Durante a fase preparatória de uma contratação de serviços técnicos contínuos de informática, a equipe de planejamento instruiu os autos com o **Estudo Técnico Preliminar (ETP)**. Um dos analistas sugeriu suprimir do ETP a estimativa dos quantitativos e a justificativa para o parcelamento da solução, alegando que tais informações poderiam constar diretamente no Termo de Referência.
 
 Considerando o que prescreve o art. 18 da Lei Federal nº 14.133/2021 sobre o conteúdo do Estudo Técnico Preliminar:
@@ -341,6 +395,9 @@ Considerando o que prescreve o art. 18 da Lei Federal nº 14.133/2021 sobre o co
 * **C)** O ETP é dispensado de plano em qualquer contratação cujo valor seja inferior a R$ 50 milhões.
 * **D)** O ETP pode ser substituído por mera pesquisa sumária na internet realizada após a publicação do edital.
 * **E)** A indicação da viabilidade técnica da contratação é facultativa caso haja parecer favorável da chefia imediata.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -369,7 +426,8 @@ Considerando o que prescreve o art. 18 da Lei Federal nº 14.133/2021 sobre o co
 
 
 
-### Questão 09 (FCC - Auditor de Controle Externo)
+### Teste 074
+**(FCC - Auditor de Controle Externo)**
 Na fase preparatória das contratações regidas pela Lei nº 14.133/2021, o Termo de Referência (TR) e o Projeto Básico desempenham papéis definidores do objeto licitado.
 
 Sobre as diretrizes legais aplicáveis a esses instrumentos, assinale a afirmativa correta.
@@ -379,6 +437,9 @@ Sobre as diretrizes legais aplicáveis a esses instrumentos, assinale a afirmati
 * **C)** No Projeto Básico de obras de engenharia, a elaboração da planilha orçamentária detalhada com quantitativos e custos unitários é facultativa para a Administração.
 * **D)** O Termo de Referência pode conter especificações excessivas ou irrelevantes que direcionem o certame para fornecedor exclusivo local.
 * **E)** É proibido prever no Termo de Referência matriz de riscos para contratos de grande vulto.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -410,7 +471,8 @@ flowchart TD
 
 ---
 
-### Questão 10 (FCC - Auditor de Controle Externo / Adaptada)
+### Teste 075
+**(FCC - Auditor de Controle Externo / Adaptada)**
 Em licitação de obra de engenharia de grande vulto (valor estimado em R$ 250 milhões), a Administração Pública incluiu no edital uma detalhada **Matriz de Alocação de Riscos**, atribuindo expressamente à futura contratada os ônus financeiros decorrentes de oscilações normais de mercado no preço do cimento e atrasos de licenciamento ambiental causados por defeitos no projeto de sua responsabilidade. Durante o segundo ano de execução da obra, o preço do cimento aumentou 18%, e a empresa pleiteou perante o órgão contratante a recomposição do equilíbrio econômico-financeiro do contrato.
 
 Com base na disciplina da Lei Federal nº 14.133/2021:
@@ -420,6 +482,9 @@ Com base na disciplina da Lei Federal nº 14.133/2021:
 * **C)** O Poder Público é obrigado a arcar com 50% da variação cambial e de insumos industriais, independentemente de previsão editalícia.
 * **D)** A ocorrência de qualquer oscilação de mercado gera direito subjetivo automático à rescisão unilateral com indenização de lucros cessantes.
 * **E)** A matriz de alocação de riscos somente produz efeitos se ratificada por acórdão do Tribunal de Contas respectivo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -431,8 +496,9 @@ Com base na disciplina da Lei Federal nº 14.133/2021:
 > 
 > **Gabarito: A**
 
----
 
+
+---
 
 
 ## 4. O Portal Nacional de Contratações Públicas (PNCP)
@@ -454,7 +520,8 @@ O **Portal Nacional de Contratações Públicas (PNCP)**, disciplinado pelos art
 
 ---
 
-### Questão 11 (FCC - Analista Judiciário)
+### Teste 076
+**(FCC - Analista Judiciário)**
 O Estado de Goiás homologou licitação para aquisição de equipamentos hospitalares e celebrou contrato administrativo com a empresa vencedora em 10 de maio. A assessoria do órgão providenciou a publicação do extrato no Diário Oficial do Estado no dia seguinte, mas deixou de publicar o instrumento e seus anexos no **Portal Nacional de Contratações Públicas (PNCP)**.
 
 À luz do art. 94 da Lei Federal nº 14.133/2021, o contrato administrativo celebrado:
@@ -464,6 +531,9 @@ O Estado de Goiás homologou licitação para aquisição de equipamentos hospit
 * **C)** É nulo de pleno direito por vício insanável de objeto, devendo ser repetida toda a licitação.
 * **D)** Transfere a obrigação do fornecimento diretamente para o segundo colocado do certame licitatório.
 * **E)** Fica dispensado de publicação no PNCP caso o valor contratado seja inferior a R$ 20 milhões.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -475,8 +545,9 @@ O Estado de Goiás homologou licitação para aquisição de equipamentos hospit
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 5. Fontes Recomendadas na Internet

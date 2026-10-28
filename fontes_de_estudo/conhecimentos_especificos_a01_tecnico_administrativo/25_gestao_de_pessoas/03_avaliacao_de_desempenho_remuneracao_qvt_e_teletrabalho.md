@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo (TCE-GO)  
 > **Conteúdo Oficial:** Gestão e Avaliação de Desempenho no Setor Público; Métodos Tradicionais e Modernos de Avaliação; Erros e Vieses Cognitivos do Avaliador; Estrutura Remuneratória e o Regime de Subsídio Constitucional; Qualidade de Vida no Trabalho (Modelo das 8 Dimensões de Richard Walton); Novas Modalidades de Trabalho (Teletrabalho, Gestão por Resultados e Direito à Desconexão).
 
+
+
 ---
+
 
 ## 📌 Ementa & Delimitação do Conteúdo
 
@@ -46,17 +49,33 @@
     - Vantagens institucionais: racionalização de despesas prediais, flexibilidade, retenção de talentos e sustentabilidade ambiental;
     - Riscos e cuidados ergonômicos: isolamento social, segurança cibernética de autos processuais e garantia do **direito à desconexão** contra a Síndrome de *Burnout*.
 
----
 
-## 🧭 Sumário Interativo
-- [1. Gestão e Métodos de Avaliação de Desempenho](#1-gestao-e-metodos-de-avaliacao-de-desempenho)
-- [2. Erros, Vieses e Distorções Cognitivas do Avaliador](#2-erros-vieses-e-distorcoes-cognitivas-do-avaliador)
-- [3. Remuneração e Planos de Carreira no Setor Público](#3-remuneracao-e-planos-de-carreira-no-setor-publico)
-- [4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton](#4-qualidade-de-vida-no-trabalho-qvt-modelo-de-richard-walton)
-- [5. Teletrabalho e Trabalho Híbrido no Setor Público](#5-teletrabalho-e-trabalho-hibrido-no-setor-publico)
-- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [Gestão e Métodos de Avaliação de Desempenho](#1-gestao-e-metodos-de-avaliacao-de-desempenho)
+    2. [Teste 450](#Teste-450)
+    3. [Teste 451](#Teste-451)
+    4. [Erros, Vieses e Distorções Cognitivas do Avaliador](#2-erros-vieses-e-distorcoes-cognitivas-do-avaliador)
+    5. [Teste 452](#Teste-452)
+    6. [Teste 453](#Teste-453)
+    7. [Remuneração e Planos de Carreira no Setor Público](#3-remuneracao-e-planos-de-carreira-no-setor-publico)
+    8. [Teste 454](#Teste-454)
+    9. [Teste 455](#Teste-455)
+    10. [Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton](#4-qualidade-de-vida-no-trabalho-qvt-modelo-de-richard-walton)
+    11. [Teste 456](#Teste-456)
+    12. [Teletrabalho e Trabalho Híbrido no Setor Público](#5-teletrabalho-e-trabalho-hibrido-no-setor-publico)
+    13. [Teste 457](#Teste-457)
+    14. [Teste 458](#Teste-458)
+    15. [Teste 459](#Teste-459)
+    16. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -100,7 +119,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Teste 450
 **(FCC – Técnico de Controle Externo – Gestão Pública – TCE-AP)**  
 Em determinado órgão público estadual, a diretoria de Recursos Humanos decidiu substituir o método tradicional de escalas gráficas pelo método da Escolha Forçada, visando conferir maior neutralidade aos resultados avaliativos. Todavia, após a primeira rodada de avaliação, diversos gestores setoriais queixaram-se publicamente da nova ferramenta. À luz da teoria de Gestão de Pessoas, a principal limitação técnica inerente ao método da **Escolha Forçada** consiste em:
 
@@ -109,6 +128,9 @@ Em determinado órgão público estadual, a diretoria de Recursos Humanos decidi
 * **C)** impedir que os gestores forneçam um feedback formativo e transparente aos avaliados, visto que os pesos ponderados das frases são apurados estatisticamente pelo RH e não divulgados ao avaliador.
 * **D)** fixar compulsoriamente todas as avaliações no patamar intermediário de notas, provocando uma distorção generalizada por tendência central.
 * **E)** restringir-se exclusivamente à apuração de dados financeiros e orçamentários, sendo inaplicável a cargos de suporte administrativo.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -124,7 +146,8 @@ Em determinado órgão público estadual, a diretoria de Recursos Humanos decidi
 
 
 
-### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 451
+**(FCC - Adaptada / Analista de Gestão Pública)**
 Dentre as metodologias clássicas e modernas de Avaliação de Desempenho Humano nas organizações, a **Avaliação 360 Graus (ou Feedback Circular / Multirrequisital)** caracteriza-se por:
 
 * **A)** Coletar avaliações estruturadas sobre o desempenho do colaborador provenientes de todas as direções de relacionamento: do superior hierárquico, dos pares de trabalho (colegas), dos subordinados, dos clientes/usuários externos e da autoavaliação do próprio servidor.
@@ -132,6 +155,9 @@ Dentre as metodologias clássicas e modernas de Avaliação de Desempenho Humano
 * **C)** Classificar os servidores por meio de uma curva forçada em que obrigatoriamente 20% são classificados como insuficientes.
 * **D)** Avaliar apenas aspectos relacionados à pontualidade de registro do ponto biométrico eletrônico.
 * **E)** Limitar-se à medição de força física e aptidão cardiorrespiratória dos novos contratados.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -174,7 +200,7 @@ flowchart LR
 
 ---
 
-### Questão 03
+### Teste 452
 **(FCC – Analista de Controle Externo – TCE-GO)**  
 Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual de desempenho de um técnico administrativo recém-lotado em sua gerência. Ao analisar a pontualidade impecável e a cortesia no atendimento demonstradas pelo servidor no dia a dia, o diretor atribuiu pontuação máxima em todos os itens da avaliação, inclusive naqueles relativos a domínio técnico avançado de auditoria de obras e redação de relatórios complexos, competências que sequer haviam sido desempenhadas ou verificadas no período. A falha cognitiva que maculou o procedimento avaliativo configura o denominado:
 
@@ -183,6 +209,9 @@ Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual 
 * **C)** Erro de rigor excessivo.
 * **D)** Viés de recência funcional.
 * **E)** Falso consenso heurístico.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -198,7 +227,8 @@ Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual 
 
 
 
-### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 453
+**(FCC - Adaptada / Auditor de Controle Externo)**
 No processo de Avaliação de Desempenho, o avaliador está sujeito a vieses cognitivos e distorções perceptivas involuntárias que podem comprometer a fidedignidade dos resultados.
 
 A distorção conhecida como **Efeito de Halo (ou Halo Effect)** ocorre quando:
@@ -208,6 +238,9 @@ A distorção conhecida como **Efeito de Halo (ou Halo Effect)** ocorre quando:
 * **C)** O avaliador considera apenas os fatos ocorridos na última semana antes da avaliação, esquecendo o restante do ano (*efeito de recência*).
 * **D)** O avaliador avalia melhor os indivíduos que possuem perfil, origens e opiniões semelhantes às suas (*erro de semelhança*).
 * **E)** O avaliador é excessivamente rigoroso com todos os seus subordinados (*severidade excessiva*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -250,7 +283,7 @@ flowchart LR
 
 ---
 
-### Questão 05
+### Teste 454
 **(FCC – Auditor de Controle Externo – TCE-RO)**  
 Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas categorias de agentes públicos devem ser remuneradas exclusivamente pelo regime de subsídio. A respeito dessa disciplina constitucional, é correto afirmar:
 
@@ -259,6 +292,9 @@ Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas ca
 * **C)** O subsídio mensal dos servidores públicos estaduais não se subordina ao teto remuneratório constitucional, tendo em vista a autonomia federativa ampla dos Estados-membros.
 * **D)** O pagamento de diárias e de ajuda de custo para ressarcir despesas extraordinárias com deslocamento a serviço é terminantemente vedado aos agentes remunerados por subsídio.
 * **E)** O subsídio pode ser instituído discricionariamente mediante portaria interna expedida pelo Presidente do Tribunal de Contas, prescindindo de lei formal específica.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -274,7 +310,8 @@ Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas ca
 
 
 
-### Questão 06 (FCC - Adaptada / Analista de Planejamento e Controle)
+### Teste 455
+**(FCC - Adaptada / Analista de Planejamento e Controle)**
 No estudo da Qualidade de Vida no Trabalho (QVT), o modelo conceitual mais abrangente e citado na literatura administrativa foi proposto por Richard Walton (1973), estruturado em oito dimensões clássicas.
 
 Constitui uma das oito dimensões do modelo de QVT de **Richard Walton**:
@@ -284,6 +321,9 @@ Constitui uma das oito dimensões do modelo de QVT de **Richard Walton**:
 * **C)** Proibição de concessão de férias e licenças no primeiro ano do mandato do governador.
 * **D)** Instauração obrigatória de sindicância sumária em qualquer alteração de rotina.
 * **E)** Exigência de cumprimento de horas extras diárias de forma compulsória sem descanso semanal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -327,7 +367,7 @@ flowchart TD
 
 ---
 
-### Questão 07
+### Teste 456
 **(FCC – Analista Judiciário – TRT-21ª)**  
 O modelo conceitual de Qualidade de Vida no Trabalho (QVT) estruturado por Richard Walton estabelece oito dimensões fundamentais para a criação de um ecossistema laboral saudável e motivador. A dimensão que prevê expressamente o respeito à privacidade dos colaboradores, a vigência de regras claras e transparentes de conduta funcional, a liberdade de expressão responsável e a garantia do devido processo legal e ampla defesa diante de averiguações funcionais é denominada por Walton de:
 
@@ -336,6 +376,9 @@ O modelo conceitual de Qualidade de Vida no Trabalho (QVT) estruturado por Richa
 * **C)** Integração Social na Organização.
 * **D)** Constitucionalismo na Organização.
 * **E)** Compensação Justa e Adequada.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -371,7 +414,7 @@ A consolidação do regime de teletrabalho transformou a dinâmica das institui�
 
 ---
 
-### Questão 08
+### Teste 457
 **(FCC – Analista de Gestão Pública – DPE-RS)**  
 Com o avanço da transformação digital na administração pública, o regime de teletrabalho consolidou-se como instrumento relevante de modernização gerencial. Sob a ótica do planejamento e gestão de pessoas, a correta implementação do teletrabalho no setor público pressupõe:
 
@@ -380,6 +423,9 @@ Com o avanço da transformação digital na administração pública, o regime d
 * **C)** a substituição do controle formal e presencial de frequência por um modelo fundamentado na pactuação prévia de metas mensuráveis e entregas de resultados de valor público.
 * **D)** o cancelamento compulsório de todos os programas institucionais de capacitação continuada para os servidores admitidos na modalidade remota.
 * **E)** a proibição legal do retorno do servidor ao regime de trabalho presencial, dado o caráter irrevogável do termo de adesão ao teletrabalho.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -395,7 +441,8 @@ Com o avanço da transformação digital na administração pública, o regime d
 
 
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 458
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Com a regulamentação do teletrabalho e do trabalho híbrido no serviço público brasileiro (Decreto Federal nº 11.072/2022 - Programa de Gestão e Desempenho e normativos do TCE-GO), a dinâmica da gestão funcional passou por transformações estruturais.
 
 No regime de teletrabalho regulamentado pelo poder público, a gestão do servidor público fundamenta-se prioritariamente:
@@ -406,6 +453,9 @@ No regime de teletrabalho regulamentado pelo poder público, a gestão do servid
 * **D)** Na redução proporcional de 50% de seus vencimentos básicos em virtude da ausência no prédio público.
 * **E)** Na transferência integral da responsabilidade fiscal do órgão para o servidor teletrabalhador.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. A transição trazida pelos Programas de Gestão e Desempenho (PGD) e resoluções do setor público: o controle migra da lógica clássica de "presença e controle de horas no ponto" para a **gestão por resultados e cumprimento de metas de entregas mensuráveis**, expressas em Planos de Trabalho com prazos e padrões de qualidade definidos.
@@ -415,7 +465,8 @@ No regime de teletrabalho regulamentado pelo poder público, a gestão do servid
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 459
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 No tocante à estrutura do Sistema de Remuneração no Setor Público e aos Planos de Cargos, Carreiras e Vencimentos (PCCV), a contraprestação pecuniária mensal devida ao servidor pelo efetivo exercício do cargo público, fixada em lei, desprovida de quaisquer adicionais ou gratificações, denomina-se:
 
 * **A)** Vencimento básico (ou padrão).
@@ -423,6 +474,9 @@ No tocante à estrutura do Sistema de Remuneração no Setor Público e aos Plan
 * **C)** Diária de deslocamento eventual.
 * **D)** Ajuda de custo para transferência de domicílio.
 * **E)** Indenização de transporte funcional.
+
+
+---
 
 > **Comentário Detalhado:**
 >

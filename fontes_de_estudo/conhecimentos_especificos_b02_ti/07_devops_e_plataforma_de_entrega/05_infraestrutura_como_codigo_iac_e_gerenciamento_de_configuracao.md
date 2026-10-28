@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `05_infraestrutura_como_codigo_iac_e_gerenciamento_de_configuracao.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Conceitos de Infraestrutura como Código (IaC - Infrastructure as Code)
@@ -14,26 +17,41 @@
 - Ferramentas de provisionamento declarativo: Terraform e OpenTofu
 - Ferramentas de gerenciamento de configuração: Ansible, Puppet e Chef (Arquitetura Push vs. Pull, Agentless vs. Agent-based)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos de Infraestrutura como Código (IaC)](#1-fundamentos-de-infraestrutura-como-codigo-iac)
-    - [1.1 Definição, Propósito e Benefícios de Engenharia](#11-definicao-proposito-e-beneficios-de-engenharia)
-    - [1.2 Paradigma Declarativo (O Quê) vs. Imperativo (Como)](#12-paradigma-declarativo-o-que-vs-imperativo-como)
-    - [1.3 O Princípio da Idempotência e Desvio de Configuração (Configuration Drift)](#13-o-principio-da-idempotencia-e-desvio-de-configuracao-configuration-drift)
-    - [1.4 Infraestrutura Mutável vs. Imutável (Pets vs. Cattle)](#14-infraestrutura-mutavel-vs-imutavel-pets-vs-cattle)
-- [2. Provisionamento Declarativo com Terraform e OpenTofu](#2-provisionamento-declarativo-com-terraform-e-opentofu)
-    - [2.1 Estrutura e Blocos Fundamentais da Linguagem HCL](#21-estrutura-e-blocos-fundamentais-da-linguagem-hcl)
-    - [2.2 O Arquivo de Estado (terraform.tfstate), Remote Backend e State Locking](#22-o-arquivo-de-estado-terraformtfstate-remote-backend-e-state-locking)
-    - [2.3 Ciclo Operacional da CLI: init, validate, plan, apply e destroy](#23-ciclo-operacional-da-cli-init-validate-plan-apply-e-destroy)
-- [3. Gerenciamento Automatizado de Configuração: Ansible vs. Puppet vs. Chef](#3-gerenciamento-automatizado-de-configuracao-ansible-vs-puppet-vs-chef)
-    - [3.1 Modelos Arquiteturais: Push vs. Pull e Agentless vs. Agent-Based](#31-modelos-arquiteturais-push-vs-pull-e-agentless-vs-agent-based)
-    - [3.2 Matriz Comparativa Detalhada: Ansible vs. Puppet vs. Chef](#32-matriz-comparativa-detalhada-ansible-vs-puppet-vs-chef)
-    - [3.3 Anatomia Operacional do Ansible: Inventário, Playbooks, Módulos, Handlers e Roles](#33-anatomia-operacional-do-ansible-inventario-playbooks-modulos-handlers-e-roles)
-    - [3.4 Sinergia Arquitetural: Terraform no Provisionamento + Ansible na Configuração](#34-sinergia-arquitetural-terraform-no-provisionamento-ansible-na-configuracao)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Fundamentos de Infraestrutura como Código (IaC)](#1-fundamentos-de-infraestrutura-como-codigo-iac)
+    1. [Definição, Propósito e Benefícios de Engenharia](#11-definicao-proposito-e-beneficios-de-engenharia)
+    2. [Paradigma Declarativo (O Quê) vs. Imperativo (Como)](#12-paradigma-declarativo-o-que-vs-imperativo-como)
+    3. [Teste 214](#Teste-214)
+    4. [O Princípio da Idempotência e Desvio de Configuração (Configuration Drift)](#13-o-principio-da-idempotencia-e-desvio-de-configuracao-configuration-drift)
+    5. [Teste 215](#Teste-215)
+    6. [Infraestrutura Mutável vs. Imutável (Pets vs. Cattle)](#14-infraestrutura-mutavel-vs-imutavel-pets-vs-cattle)
+    7. [Teste 216](#Teste-216)
+2. [Provisionamento Declarativo com Terraform e OpenTofu](#2-provisionamento-declarativo-com-terraform-e-opentofu)
+    1. [Estrutura e Blocos Fundamentais da Linguagem HCL](#21-estrutura-e-blocos-fundamentais-da-linguagem-hcl)
+    2. [Teste 217](#Teste-217)
+    3. [O Arquivo de Estado (terraform.tfstate), Remote Backend e State Locking](#22-o-arquivo-de-estado-terraformtfstate-remote-backend-e-state-locking)
+    4. [Teste 218](#Teste-218)
+    5. [Ciclo Operacional da CLI: init, validate, plan, apply e destroy](#23-ciclo-operacional-da-cli-init-validate-plan-apply-e-destroy)
+    6. [Teste 219](#Teste-219)
+3. [Gerenciamento Automatizado de Configuração: Ansible vs. Puppet vs. Chef](#3-gerenciamento-automatizado-de-configuracao-ansible-vs-puppet-vs-chef)
+    1. [Modelos Arquiteturais: Push vs. Pull e Agentless vs. Agent-Based](#31-modelos-arquiteturais-push-vs-pull-e-agentless-vs-agent-based)
+    2. [Teste 220](#Teste-220)
+    3. [Matriz Comparativa Detalhada: Ansible vs. Puppet vs. Chef](#32-matriz-comparativa-detalhada-ansible-vs-puppet-vs-chef)
+    4. [Teste 221](#Teste-221)
+    5. [Anatomia Operacional do Ansible: Inventário, Playbooks, Módulos, Handlers e Roles](#33-anatomia-operacional-do-ansible-inventario-playbooks-modulos-handlers-e-roles)
+    6. [Teste 222](#Teste-222)
+    7. [Sinergia Arquitetural: Terraform no Provisionamento + Ansible na Configuração](#34-sinergia-arquitetural-terraform-no-provisionamento-ansible-na-configuracao)
+    8. [Teste 223](#Teste-223)
+4. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Fundamentos de Infraestrutura como Código (IaC)
 
@@ -80,7 +98,7 @@ As linguagens e ferramentas de IaC dividem-se em dois paradigmas fundamentais:
     - A ferramenta executa as instruções cegamente. Se o script falhar na metade, o ambiente fica em estado inconsistente (*partially applied*), exigindo scripts corretivos ou intervenções manuais.
     - **Exemplos Canônicos:** Shell Scripts (Bash/PowerShell), AWS CLI, chamadas via SDK Python (Boto3).
 
-### Questão 01
+### Teste 214
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na implementação de Infraestrutura como Código (IaC), as ferramentas podem adotar a abordagem declarativa ou a abordagem imperativa. A característica definidora do paradigma **declarativo** (adotado pelo Terraform e pelo Kubernetes) estabelece que o engenheiro:
 
@@ -89,6 +107,9 @@ Na implementação de Infraestrutura como Código (IaC), as ferramentas podem ad
 * **C)** Exige que a infraestrutura seja reconfigurada manualmente pela interface gráfica a cada novo deploy.
 * **D)** Só permite o provisionamento de servidores desprovidos de conexão de rede.
 * **E)** Proíbe o versionamento dos arquivos de código no Git.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -121,7 +142,8 @@ O desvio de configuração manifesta-se quando recursos de produção são modif
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - Fundamentos de IaC, Idempotência e Drift)
+### Teste 215
+**(FCC - Adaptada / TI - Fundamentos de IaC, Idempotência e Drift)**
 Uma equipe de governança de TI de uma Secretaria de Fazenda está auditando a conformidade dos processos de implantação de infraestrutura em nuvem pública. Durante a auditoria, foram avaliados os conceitos de Idempotência, Abordagem Declarativa e Desvio de Configuração (*Configuration Drift*).
 
 A respeito desses conceitos fundamentais de Infraestrutura como Código (IaC), assinale a afirmativa correta:  
@@ -131,6 +153,9 @@ A respeito desses conceitos fundamentais de Infraestrutura como Código (IaC), a
 * **C)** O desvio de configuração (*Configuration Drift*) ocorre quando recursos de infraestrutura em produção são modificados manualmente fora do controle do código de IaC, criando discrepâncias entre o estado real da nuvem e o estado definido nos manifestos versionados.
 * **D)** Ferramentas de IaC declarativas como o Terraform não são capazes de identificar recursos que foram alterados manualmente por operadores técnicos.
 * **E)** A idempotência aplica-se exclusivamente a bancos de dados relacionais NoSQL, sendo inaplicável a sistemas operacionais e regras de firewall em nuvem.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -177,7 +202,8 @@ flowchart LR
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - Infraestrutura Mutável vs. Imutável)
+### Teste 216
+**(FCC - Adaptada / TI - Infraestrutura Mutável vs. Imutável)**
 No âmbito das práticas de DevOps e entrega contínua, o debate entre **Infraestrutura Mutável** e **Infraestrutura Imutável** é frequentemente ilustrado pela analogia *"Pets vs. Cattle"* (Animais de Estimação vs. Gado).
 
 A esse respeito, assinale a opção que descreve corretamente a abordagem de **Infraestrutura Imutável**:  
@@ -187,6 +213,9 @@ A esse respeito, assinale a opção que descreve corretamente a abordagem de **I
 * **C)** Os servidores tornam-se servidores "Snowflake", acumulando configurações históricas manuais que impedem que o ambiente seja replicado a partir do zero.
 * **D)** As instâncias nunca podem ser desligadas sob qualquer hipótese, exigindo replicação física de hardware para garantir a imutabilidade do silício.
 * **E)** A infraestrutura imutável proíbe a utilização de ferramentas de provisionamento como Terraform e orquestradores de contêineres como Kubernetes.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -198,8 +227,9 @@ A esse respeito, assinale a opção que descreve corretamente a abordagem de **I
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 2. Provisionamento Declarativo com Terraform e OpenTofu
@@ -264,7 +294,7 @@ output "vpc_id" {
 - **`output`:** Valores de retorno exportados após a execução (ex.: IP público de um balanceador, ID de uma VPC).
 - **`module`:** Pacote de configurações HCL autocontidas e parametrizadas que funcionam como funções reutilizáveis em múltiplos ambientes.
 
-### Questão 04
+### Teste 217
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O Terraform utiliza a linguagem declarativa HCL (*HashiCorp Configuration Language*). No manifesto HCL, o bloco utilizado especificamente para consultar e extrair informações de recursos que já existem previamente na nuvem (sem gerenciá-los diretamente como novas criações do código corrente) é o bloco:
 
@@ -273,6 +303,9 @@ O Terraform utiliza a linguagem declarativa HCL (*HashiCorp Configuration Langua
 * **C)** `output`
 * **D)** `data`
 * **E)** `provider`
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -293,7 +326,7 @@ O Terraform utiliza a linguagem declarativa HCL (*HashiCorp Configuration Langua
 - **Remote Backend:** Em times profissionais e órgãos públicos, o arquivo `.tfstate` **nunca deve ser versionado no Git local** (pois pode conter senhas em texto claro e causará conflitos insolúveis). Ele deve ser armazenado em um repositório remoto seguro com criptografia em repouso (ex.: Amazon S3, Google Cloud Storage, Terraform Cloud).
 - **State Locking (Bloqueio de Estado):** Mecanismo de controle de concorrência que impede que dois operadores ou pipelines de CI/CD executem `terraform apply` simultaneamente sobre a mesma infraestrutura, o que provocaria corrupção catastrófica de dados. No AWS S3, o locking é implementado através de tabelas no **Amazon DynamoDB**.
 
-### Questão 05
+### Teste 218
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Em ambientes corporativos onde múltiplos engenheiros colaboram nos mesmos manifestos de infraestrutura Terraform, a configuração de um *Remote Backend* com suporte a *State Locking* (travamento de estado) é mandatória. A razão técnica precípua do *State Locking* consiste em:
 
@@ -302,6 +335,9 @@ Em ambientes corporativos onde múltiplos engenheiros colaboram nos mesmos manif
 * **C)** Bloquear todas as portas de firewall da nuvem permanentemente.
 * **D)** Acelerar a velocidade de download de imagens Docker em 500%.
 * **E)** Excluir automaticamente os backups de dados após cada modificação.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -326,7 +362,8 @@ Em ambientes corporativos onde múltiplos engenheiros colaboram nos mesmos manif
 
 ---
 
-### Questão 06 (FCC - Adaptada / TI - Terraform: Ciclo de Vida e Arquivo de Estado)
+### Teste 219
+**(FCC - Adaptada / TI - Terraform: Ciclo de Vida e Arquivo de Estado)**
 Considere o fluxo operacional do Terraform ao gerenciar recursos em um provedor de nuvem pública. Um engenheiro de software concluiu alterações em um arquivo `main.tf` e necessita avaliar o impacto das alterações sem aplicá-las efetivamente na nuvem, além de garantir que nenhum outro colega de equipe corrompa o arquivo de estado executando operações simultâneas.
 
 Os mecanismos e comandos do Terraform relacionados a essas necessidades são, respectivamente:  
@@ -336,6 +373,9 @@ Os mecanismos e comandos do Terraform relacionados a essas necessidades são, re
 * **C)** O comando `terraform init` para aplicar as alterações; e a exclusão definitiva do arquivo `terraform.tfstate`.
 * **D)** O comando `terraform apply -force` para simulação; e o uso de servidores FTP locais compartilhados.
 * **E)** A compilação manual do código HCL em arquivos binários ELF; e o desligamento da interface de rede do computador.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -347,8 +387,9 @@ Os mecanismos e comandos do Terraform relacionados a essas necessidades são, re
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 3. Gerenciamento Automatizado de Configuração: Ansible vs. Puppet vs. Chef
@@ -385,7 +426,8 @@ flowchart TD
 
 ---
 
-### Questão 07 (FCC - Adaptada / TI - Gerenciamento de Configuração: Ansible vs. Puppet vs. Chef)
+### Teste 220
+**(FCC - Adaptada / TI - Gerenciamento de Configuração: Ansible vs. Puppet vs. Chef)**
 No que diz respeito à arquitetura operacional e aos modelos de comunicação das ferramentas líderes de gerenciamento automatizado de configuração (Ansible, Puppet e Chef), assinale a afirmativa correta:  
 
 * **A)** O Ansible exige a instalação prévia de um agente residente em segundo plano (*daemon*) em cada nó gerenciado para receber as diretivas via protocolo Telnet desprotegido.
@@ -393,6 +435,9 @@ No que diz respeito à arquitetura operacional e aos modelos de comunicação da
 * **C)** O Ansible adota uma arquitetura *agentless* (sem agente) e opera com base no modelo *Push*, comunicando-se com os nós de destino por meio de canais padrão de comunicação segura (como SSH em hosts Linux e WinRM em hosts Windows).
 * **D)** O Puppet rejeita arquivos declarativos, utilizando scripts imperativos puramente compilados em linguagem C++ para orquestrar as máquinas virtuais.
 * **E)** O Chef é escrito exclusivamente em arquivos binários fechados, sendo impossível customizar suas receitas com linguagens de script.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -418,7 +463,7 @@ No que diz respeito à arquitetura operacional e aos modelos de comunicação da
 | **Curva de Aprendizado** | Baixa e imediata | Moderada | Alta (exige fluência em Ruby) |
 | **Requisito no Destino** | Python instalado e servidor SSH/WinRM ativo | Agente Puppet instalado e em execução | Agente Chef Client instalado e em execução |
 
-### Questão 08
+### Teste 221
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Entre as principais ferramentas de gerenciamento de configuração de servidores na cultura DevOps, o Ansible diferencia-se historicamente de ferramentas como Puppet e Chef por adotar uma arquitetura:
 
@@ -427,6 +472,9 @@ Entre as principais ferramentas de gerenciamento de configuração de servidores
 * **C)** Que só permite o gerenciamento de servidores baseados no sistema operacional MS-DOS.
 * **D)** Totalmente dependente de conexão física com cabos seriais RS-232.
 * **E)** Que exige a compilação do código em linguagem C++ antes de cada comando.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -486,7 +534,8 @@ Entre as principais ferramentas de gerenciamento de configuração de servidores
 
 ---
 
-### Questão 09 (FCC - Adaptada / TI - Componentes do Ansible: Playbooks, Handlers e Inventário)
+### Teste 222
+**(FCC - Adaptada / TI - Componentes do Ansible: Playbooks, Handlers e Inventário)**
 Considere o seguinte trecho simplificado de automação em Ansible:
 
 ```yaml
@@ -520,6 +569,9 @@ A respeito da execução desse *Playbook* e do comportamento de seus componentes
 * **D)** O parâmetro `state: present` no módulo `apt` força a reinstalação do Nginx mesmo se o pacote já estiver presente na versão correta, violando a idempotência.
 * **E)** A sintaxe desse arquivo é codificada em JSON estrito, sendo incompatível com a linguagem YAML.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. No Ansible, os **Handlers** operam sob o princípio da reatividade condicional: eles só são executados ao final do playbook se alguma tarefa disparadora emitir o sinal `notify` em virtude de uma alteração real no sistema (status `changed=true`). Se o arquivo remoto já for idêntico ao template, a tarefa retorna `ok`, o handler não é disparado e o serviço Nginx não sofre reinicialização indevida, assegurando a idempotência.
@@ -543,7 +595,7 @@ A prática de ponta em engenharia de plataforma e DevOps preconiza a combinaçã
 ---
 
 
-### Questão 10
+### Teste 223
 **(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
 Na arquitetura de entrega contínua moderna de infraestrutura, a sinergia entre ferramentas de provisionamento e ferramentas de gerenciamento de configuração é amplamente recomendada pela divisão de papéis:
 
@@ -552,6 +604,9 @@ Na arquitetura de entrega contínua moderna de infraestrutura, a sinergia entre 
 * **C)** O uso combinado de Terraform e Ansible é estritamente proibido pelos padrões de arquitetura de nuvem pública.
 * **D)** O Terraform só pode ser utilizado se todos os servidores forem mantidos em infraestrutura local própria (*on-premise*).
 * **E)** Ambas as ferramentas devem ser substituídas permanentemente pela edição manual de arquivos no bloco de notas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -563,7 +618,10 @@ Na arquitetura de entrega contínua moderna de infraestrutura, a sinergia entre 
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `04_demonstracoes_contabeis_mcasp_e_prestacao_de_contas.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -20,28 +23,33 @@
     - Peças obrigatórias dos processos de contas: DCASP completas, relatórios da LRF (RREO e RGF), relatório do órgão central de controle interno;
     - Fiscalização contábil, financeira, orçamentária e patrimonial exercida pelo TCE-GO.
 
----
 
-## 🧭 Sumário Interativo
-- [1. Balanço Orçamentário (BO - Art. 102 da Lei nº 4.320/1964)](#1-balanco-orcamentario-bo-art-102-da-lei-no-43201964)
-    - [1.1 Estrutura e Quadros Demonstrativos](#11-estrutura-e-quadros-demonstrativos)
-    - [1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)](#12-apuracao-do-resultado-orcamentario-superavit-vs-deficit)
-- [2. Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)](#2-balanco-financeiro-bf-art-103-da-lei-no-43201964)
-    - [2.1 Estrutura de Ingressos e Dispêndios](#21-estrutura-de-ingressos-e-dispendios)
-    - [2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar](#22-o-fechamento-contabil-obrigatorio-e-a-inscricao-de-restos-a-pagar)
-- [3. Balanço Patrimonial (BP - Art. 105 da Lei nº 4.320/1964 e NBC TSP 11)](#3-balanco-patrimonial-bp-art-105-da-lei-no-43201964-e-nbc-tsp-11)
-    - [3.1 Estrutura Dual: Lei nº 4.320/1964 vs. Normas Internacionais (NBC TSP)](#31-estrutura-dual-lei-no-43201964-vs-normas-internacionais-nbc-tsp)
-    - [3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)](#32-apuracao-e-calculo-do-superavit-financeiro-art-43-2o)
-- [4. Demonstração das Variações Patrimoniais (DVP) e Outras Demonstrações](#4-demonstracao-das-variacoes-patrimoniais-dvp-e-outras-demonstracoes)
-    - [4.1 Estrutura da DVP e Resultado Patrimonial por Competência](#41-estrutura-da-dvp-e-resultado-patrimonial-por-competencia)
-    - [4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto](#42-demonstracao-dos-fluxos-de-caixa-dfc-pelo-metodo-direto)
-    - [4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas](#43-demonstracao-das-mutacoes-do-patrimonio-liquido-dmpl-e-notas-explicativas)
-- [5. Prestação de Contas ao Tribunal de Contas (TCE-GO)](#5-prestacao-de-contas-ao-tribunal-de-contas-tce-go)
-    - [5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)](#51-contas-de-governo-parecer-previo-vs-contas-de-gestao-julgamento-tecnico)
-    - [5.2 Composição Documental Obrigatória e Papel do Controle Interno](#52-composicao-documental-obrigatoria-e-papel-do-controle-interno)
-- [6. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Balanço Orçamentário (BO - Art. 102 da Lei nº 4.320/1964)](#1-balanco-orcamentario-bo-art-102-da-lei-no-43201964)
+    2. [Teste 290](#Teste-290)
+    3. [Teste 291](#Teste-291)
+    4. [Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)](#2-balanco-financeiro-bf-art-103-da-lei-no-43201964)
+    5. [Teste 292](#Teste-292)
+    6. [Teste 293](#Teste-293)
+    7. [Balanço Patrimonial (BP - Art. 105 da Lei nº 4.320/1964 e NBC TSP 11)](#3-balanco-patrimonial-bp-art-105-da-lei-no-43201964-e-nbc-tsp-11)
+    8. [Teste 294](#Teste-294)
+    9. [Demonstração das Variações Patrimoniais (DVP) e Outras Demonstrações](#4-demonstracao-das-variacoes-patrimoniais-dvp-e-outras-demonstracoes)
+    10. [Teste 295](#Teste-295)
+    11. [Teste 296](#Teste-296)
+    12. [Prestação de Contas ao Tribunal de Contas (TCE-GO)](#5-prestacao-de-contas-ao-tribunal-de-contas-tce-go)
+    13. [Teste 297](#Teste-297)
+    14. [Teste 298](#Teste-298)
+    15. [Teste 299](#Teste-299)
+2. [Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+
+---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -77,7 +85,8 @@ $$\text{Resultado Orçamentário} = \text{Receitas Realizadas} - \text{Despesas 
 
 ---
 
-### Questão 01 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Teste 290
+**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 No âmbito da Contabilidade Aplicada ao Setor Público, a demonstração contábil que evidencia as receitas previstas em confronto com as realizadas e as despesas fixadas em confronto com as executadas (empenhadas, liquidadas e pagas), apurando o resultado orçamentário do exercício, é o:
 
 * **A)** Balanço Financeiro.
@@ -85,6 +94,9 @@ No âmbito da Contabilidade Aplicada ao Setor Público, a demonstração contáb
 * **C)** Balanço Orçamentário.
 * **D)** Demonstrativo de Fluxo de Caixa.
 * **E)** Demonstrativo das Variações Patrimoniais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -100,7 +112,8 @@ No âmbito da Contabilidade Aplicada ao Setor Público, a demonstração contáb
 
 
 
-### Questão 02 (FCC - Adaptada / Analista Contábil)
+### Teste 291
+**(FCC - Adaptada / Analista Contábil)**
 No Balanço Orçamentário elaborado segundo os ditames da Lei Federal nº 4.320/1964 e as diretrizes do MCASP, o confronto entre as receitas arrecadadas e as despesas empenhadas determina o resultado:
 
 * **A)** Orçamentário do exercício (superávit orçamentário se a receita arrecadada superar a despesa empenhada; déficit orçamentário na hipótese inversa).
@@ -108,6 +121,9 @@ No Balanço Orçamentário elaborado segundo os ditames da Lei Federal nº 4.320
 * **C)** Patrimonial do exercício, apurado obrigatoriamente pela diferença entre variações ativas e passivas.
 * **D)** Nominal primário ajustado pelas metas fiscais da Lei de Diretrizes Orçamentárias.
 * **E)** De caixa econômico, desconsiderando-se a existência de créditos suplementares abertos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -152,7 +168,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / DPE-RS - Analista: Ciências Contábeis)
+### Teste 292
+**(FCC - Adaptada / DPE-RS - Analista: Ciências Contábeis)**
 Em relação ao Balanço Financeiro disciplinado pela Lei nº 4.320/1964 e pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), é correto afirmar que:
 
 * **A)** Apura em sua última linha o montante do superávit financeiro que servirá de fonte para abertura de créditos suplementares.
@@ -160,6 +177,9 @@ Em relação ao Balanço Financeiro disciplinado pela Lei nº 4.320/1964 e pelo 
 * **C)** As transferências financeiras recebidas de outros órgãos do mesmo ente da Federação (repasses e sub-repasses) devem ser classificadas como receitas orçamentárias de capital.
 * **D)** O pagamento de restos a pagar processados efetuado no exercício é escriturado no quadro das receitas orçamentárias correntes.
 * **E)** A cota de depreciação acumulada dos edifícios públicos é registrada como um dispêndio extraorçamentário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -186,7 +206,8 @@ A diferença entre o somatório das entradas e das saídas é exatamente equilib
 
 ---
 
-### Questão 04 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 293
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 O Balanço Financeiro estruturado pelo art. 103 da Lei Federal nº 4.320/1964 demonstra a receita e a despesa orçamentárias, bem como os recebimentos e pagamentos de natureza extraorçamentária, conjugados com os saldos em espécie provenientes do exercício anterior e os que se transferem para o exercício seguinte.
 
 No Balanço Financeiro, a inscrição de despesas em **Restos a Pagar** do exercício figura como:
@@ -196,6 +217,9 @@ No Balanço Financeiro, a inscrição de despesas em **Restos a Pagar** do exerc
 * **C)** Receita de capital derivada de operações de crédito por antecipação de receita.
 * **D)** Variação patrimonial aumentativa independente da execução orçamentária no subsistema patrimonial.
 * **E)** Dedução obrigatória das receitas tributárias correntes arrecadadas no exercício.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -246,7 +270,8 @@ flowchart LR
 
 ---
 
-### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 294
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Ao final do exercício financeiro de 2023, determinado órgão público estadual apurou as seguintes informações em seus registros contábeis para fechamento do Balanço Patrimonial:
 
 - Ativo Financeiro: R$ 12.000.000,00
@@ -262,6 +287,9 @@ Com base estritamente nas regras da Lei Federal nº 4.320/1964 (Art. 43, § 2º)
 * **C)** R$ 20.000.000,00.
 * **D)** R$ 18.500.000,00.
 * **E)** R$ 2.000.000,00.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -301,7 +329,8 @@ flowchart TD
 
 ---
 
-### Questão 06 (FCC - Adaptada / SEFAZ-SC - Auditor Fiscal da Receita Estadual)
+### Teste 295
+**(FCC - Adaptada / SEFAZ-SC - Auditor Fiscal da Receita Estadual)**
 No encerramento do exercício financeiro, uma entidade governamental constatou que o reconhecimento da quota anual de depreciação de seus veículos operacionais no montante de R$ 500.000,00 produziu impactos nas Demonstrações Contábeis Aplicadas ao Setor Público. O reflexo desse fato contábil ocorreu:
 
 * **A)** Exclusivamente no Balanço Orçamentário, reduzindo o superávit orçamentário do exercício.
@@ -309,6 +338,9 @@ No encerramento do exercício financeiro, uma entidade governamental constatou q
 * **C)** Na Demonstração das Variações Patrimoniais (DVP) como Variação Patrimonial Diminutiva (VPD) e no Balanço Patrimonial como conta redutora do Ativo Não Circulante.
 * **D)** No Balanço Orçamentário e no Balanço Financeiro simultaneamente, sem afetar o Balanço Patrimonial.
 * **E)** Exclusivamente na Demonstração dos Fluxos de Caixa, classificado como fluxo de investimentos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -336,7 +368,8 @@ No encerramento do exercício financeiro, uma entidade governamental constatou q
 
 ---
 
-### Questão 07 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+### Teste 296
+**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
 Na Demonstração dos Fluxos de Caixa (DFC) elaborada pelas entidades do setor público de acordo com a NBC TSP 12 e o MCASP:
 
 * **A)** Os fluxos de caixa devem ser obrigatoriamente segregados em três grandes categorias de atividades: Operacionais, de Investimento e de Financiamento.
@@ -344,6 +377,9 @@ Na Demonstração dos Fluxos de Caixa (DFC) elaborada pelas entidades do setor p
 * **C)** As receitas provenientes de alienação de bens do ativo imobilizado são classificadas no fluxo das atividades de financiamento.
 * **D)** O pagamento de juros da dívida pública deve ser classificado compulsoriamente como atividade de investimento.
 * **E)** As transferências correntes recebidas da União integram o fluxo de caixa das atividades de financiamento internacional.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -383,7 +419,8 @@ flowchart TD
 
 ---
 
-### Questão 08 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 297
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 A respeito da prestação de contas dos administradores públicos perante o Tribunal de Contas do Estado de Goiás (TCE-GO), assinale a afirmativa correta:
 
 * **A)** As contas prestadas pelo Chefe do Poder Executivo são submetidas a julgamento técnico irrecorrível pelo próprio Tribunal de Contas, cabendo à Assembleia Legislativa apenas tomar conhecimento.
@@ -391,6 +428,9 @@ A respeito da prestação de contas dos administradores públicos perante o Trib
 * **C)** O parecer prévio emitido pelo TCE sobre as contas de governo do Chefe do Poder Executivo só deixará de prevalecer por decisão de dois terços dos membros da Assembleia Legislativa.
 * **D)** O Tribunal de Contas dispensa a apresentação do relatório do órgão central do sistema de controle interno nos processos de tomada de contas especial.
 * **E)** As demonstrações contábeis exigidas na prestação de contas anual dispensam notas explicativas caso o Balanço Patrimonial não registre dívida fundada consolidada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -415,7 +455,8 @@ Os processos de prestação de contas enviados anualmente ao TCE-GO devem conter
 
 ---
 
-### Questão 09 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 298
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 No tocante ao controle externo exercido pelo Tribunal de Contas do Estado de Goiás (TCE-GO) sobre a prestação de contas dos Chefes dos Poderes e gestores públicos, assinale a opção que distingue corretamente Contas de Governo e Contas de Gestão:
 
 * **A)** As Contas de Governo expressam a atuação política e a gestão fiscal macroeconômica do Chefe do Poder Executivo em todo o exercício, sobre as quais o Tribunal de Contas emite Parecer Prévio consultivo para julgamento pelo Poder Legislativo; já as Contas de Gestão referem-se à administração dos recursos pelos ordenadores de despesas e administradores públicos, sendo julgadas técnica e definitivamente pelo próprio Tribunal de Contas.
@@ -423,6 +464,9 @@ No tocante ao controle externo exercido pelo Tribunal de Contas do Estado de Goi
 * **C)** O parecer prévio emitido pelo Tribunal de Contas sobre as Contas de Governo vincula categoricamente a Assembleia Legislativa, que não pode rejeitá-lo em nenhuma hipótese.
 * **D)** Os ordenadores de despesa de autarquias e fundações estaduais prestam contas diretamente ao Governador do Estado, não se sujeitando à jurisdição do TCE-GO.
 * **E)** As Contas de Governo e de Gestão foram unificadas pela Constituição de 1988, devendo todas ser julgadas exclusivamente pelo Tribunal de Justiça do Estado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -436,7 +480,8 @@ No tocante ao controle externo exercido pelo Tribunal de Contas do Estado de Goi
 
 ---
 
-### Questão 10 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 299
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Na Demonstração das Variações Patrimoniais (DVP) elaborada de acordo com as normas da CASP (NBC TSP e MCASP), o resultado patrimonial do exercício é considerado **deficitário** quando:
 
 * **A)** O total das Variações Patrimoniais Diminutivas (VPD) for superior ao total das Variações Patrimoniais Aumentativas (VPA), reduzindo o patrimônio líquido da entidade.
@@ -444,6 +489,9 @@ Na Demonstração das Variações Patrimoniais (DVP) elaborada de acordo com as 
 * **C)** O saldo do passivo financeiro for maior do que o ativo financeiro apurado no Balanço Patrimonial.
 * **D)** A despesa fixada na Lei Orçamentária Anual não for integralmente liquidada pelos órgãos setoriais.
 * **E)** O superávit financeiro do exercício anterior for totalmente consumido pela abertura de créditos adicionais suplementares.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -454,6 +502,8 @@ Na Demonstração das Variações Patrimoniais (DVP) elaborada de acordo com as 
 > - **E)** Incorreta. Refere-se à utilização de fontes orçamentárias de créditos adicionais.
 > 
 > **Gabarito: A**
+
+
 
 ---
 

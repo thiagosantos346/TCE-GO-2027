@@ -4,7 +4,10 @@
 **Cargo:** Auditor de Controle Externo - Tecnologia da Informação  
 **Status do Mapeamento:** 100% aderente ao edital TCE-GO
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 1. **Processamento de Linguagem Natural (PLN / NLP):** Pipeline clássico de pré-processamento (limpeza, normalização, tokenização por subpalavras com BPE/WordPiece, remoção de stopwords vs. impacto em modelos contextuais, normalização morfológica com Stemming vs. Lemmatization, POS Tagging e NER com esquema BIO); Representação vetorial de textos (Bag of Words, ponderação TF-IDF e embeddings estáticos Word2Vec CBOW/Skip-Gram e FastText com n-gramas de caracteres); e Modelos contextuais baseados em Transformers (Atenção escalada, Encoder-Only com BERT e Masked Language Modeling vs. Decoder-Only com GPT e Causal Language Modeling).
@@ -12,28 +15,44 @@
 3. **Agentes Inteligentes:** Conceituação formal de Agente Racional (sensores, atuadores, função de agente); Framework PEAS (*Performance, Environment, Actuators, Sensors*); Propriedades taxonômicas dos ambientes de tarefas (observabilidade, determinismo, episodicidade, dinamismo, continuidade e número de agentes); e Classificação clássica de Russell & Norvig (Agentes Reativos Simples, Reativos Baseados em Modelos com estado interno, Baseados em Objetivos, Baseados na Utilidade e Agentes com Aprendizado).
 4. **Modelos Multimodais:** Fundamentos de multimodalidade sensorial (texto, imagem, áudio e vídeo); Alinhamento semântico cross-modal com aprendizado contrastivo (Arquitetura CLIP: codificadores paralelos de visão e texto, espaço latente compartilhado e classificação *Zero-Shot*); e Aplicações no setor público e controle externo (OCR inteligente de processos administrativos, auditoria de notas fiscais digitalizadas e cruzamento de imagens de satélite/drones com relatórios de medição de obras públicas).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Processamento de Linguagem Natural (PLN / NLP)](#1-processamento-de-linguagem-natural-pln-nlp)
-    - [1.1 Pipeline de Pré-Processamento Textual Clássico](#11-pipeline-de-pre-processamento-textual-classico)
-    - [1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos](#12-representacao-numerica-de-texto-bow-tf-idf-e-embeddings-estaticos)
-    - [1.3 A Revolução dos Transformers em PLN: BERT vs. GPT](#13-a-revolucao-dos-transformers-em-pln-bert-vs-gpt)
-- [2. Inteligência Artificial Generativa](#2-inteligencia-artificial-generativa)
-    - [2.1 Fundamentos e Arquiteturas Generativas](#21-fundamentos-e-arquiteturas-generativas)
-    - [2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo](#22-redes-adversarias-generativas-gans-e-colapso-de-modo)
-    - [2.3 Modelos de Difusão (Diffusion Models)](#23-modelos-de-difusao-diffusion-models)
-    - [2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem](#24-modelos-de-linguagem-autoregressivos-llms-e-parametros-de-amostragem)
-- [3. Agentes Inteligentes e Ambientes de Tarefa](#3-agentes-inteligentes-e-ambientes-de-tarefa)
-    - [3.1 O Framework PEAS e Definição de Agente Racional](#31-o-framework-peas-e-definicao-de-agente-racional)
-    - [3.2 Propriedades dos Ambientes de Tarefa](#32-propriedades-dos-ambientes-de-tarefa)
-    - [3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)](#33-as-cinco-tipologias-classicas-de-agentes-russell-norvig)
-- [4. Modelos Multimodais e Aplicações no Setor Público](#4-modelos-multimodais-e-aplicacoes-no-setor-publico)
-    - [4.1 Alinhamento Semântico Multimodal e a Arquitetura CLIP](#41-alinhamento-semantico-multimodal-e-a-arquitetura-clip)
-    - [4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)](#42-aplicacoes-em-auditoria-de-controle-externo-tce-go)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Processamento de Linguagem Natural (PLN / NLP)](#1-processamento-de-linguagem-natural-pln-nlp)
+    1. [Pipeline de Pré-Processamento Textual Clássico](#11-pipeline-de-pre-processamento-textual-classico)
+    2. [Teste 311](#Teste-311)
+    3. [Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos](#12-representacao-numerica-de-texto-bow-tf-idf-e-embeddings-estaticos)
+    4. [Teste 312](#Teste-312)
+    5. [A Revolução dos Transformers em PLN: BERT vs. GPT](#13-a-revolucao-dos-transformers-em-pln-bert-vs-gpt)
+    6. [Teste 313](#Teste-313)
+2. [Inteligência Artificial Generativa](#2-inteligencia-artificial-generativa)
+    1. [Fundamentos e Arquiteturas Generativas](#21-fundamentos-e-arquiteturas-generativas)
+    2. [Teste 314](#Teste-314)
+    3. [Redes Adversárias Generativas (GANs) e Colapso de Modo](#22-redes-adversarias-generativas-gans-e-colapso-de-modo)
+    4. [Teste 315](#Teste-315)
+    5. [Modelos de Difusão (Diffusion Models)](#23-modelos-de-difusao-diffusion-models)
+    6. [Teste 316](#Teste-316)
+    7. [Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem](#24-modelos-de-linguagem-autoregressivos-llms-e-parametros-de-amostragem)
+    8. [Teste 317](#Teste-317)
+3. [Agentes Inteligentes e Ambientes de Tarefa](#3-agentes-inteligentes-e-ambientes-de-tarefa)
+    1. [O Framework PEAS e Definição de Agente Racional](#31-o-framework-peas-e-definicao-de-agente-racional)
+    2. [Teste 318](#Teste-318)
+    3. [Propriedades dos Ambientes de Tarefa](#32-propriedades-dos-ambientes-de-tarefa)
+    4. [Teste 319](#Teste-319)
+    5. [As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)](#33-as-cinco-tipologias-classicas-de-agentes-russell-norvig)
+    6. [Teste 320](#Teste-320)
+4. [Modelos Multimodais e Aplicações no Setor Público](#4-modelos-multimodais-e-aplicacoes-no-setor-publico)
+    1. [Alinhamento Semântico Multimodal e a Arquitetura CLIP](#41-alinhamento-semantico-multimodal-e-a-arquitetura-clip)
+    2. [Teste 321](#Teste-321)
+    3. [Aplicações em Auditoria de Controle Externo (TCE-GO)](#42-aplicacoes-em-auditoria-de-controle-externo-tce-go)
+5. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Processamento de Linguagem Natural (PLN / NLP)
 
@@ -72,7 +91,7 @@ O pré-processamento transforma textos brutos e não estruturados em representa�
 
 ---
 
-### Questão 01
+### Teste 311
 **(FCC - DPE-RS - Analista de Tecnologia da Informação)**
 Durante o planejamento de uma esteira analítica de Processamento de Linguagem Natural (PLN) para indexação temática e extração de entidades em acórdãos e peças jurídicas de um tribunal, os analistas debatem os métodos adequados de normalização textual e representação vetorial.
 A respeito das técnicas de processamento de texto, assinale a alternativa correta:
@@ -82,6 +101,9 @@ A respeito das técnicas de processamento de texto, assinale a alternativa corre
 * **C)** Em abordagens estatísticas de recuperação de informação baseadas em TF-IDF, a remoção de *stopwords* é indicada para mitigar a alta dimensionalidade e expurgar palavras frequentes de baixo teor discriminativo; contudo, em modelos contextuais baseados em Transformers (como o BERT), as *stopwords* não devem ser removidas, pois a presença de artigos, pronomes e preposições é indispensável para o cálculo das relações de autoatenção contextual.
 * **D)** O componente IDF (*Inverse Document Frequency*) da matriz TF-IDF atribui peso máximo a termos que ocorrem em cem por cento dos documentos da coleção, visto que termos universais são estatisticamente os melhores descritores da base temática.
 * **E)** O modelo *Word2Vec* gera representações vetoriais dinâmicas que alteram as coordenadas de uma palavra conforme o contexto imediato de cada sentença em que ela se encontra, superando a rigidez estática dos modelos contextuais BERT e GPT.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -121,7 +143,8 @@ A respeito das técnicas de processamento de texto, assinale a alternativa corre
     - Essa inovação permite capturar morfologia de palavras derivadas e **gerar embeddings consistentes para termos inéditos ou fora do vocabulário de treino (*OOV*)**.
     - *Limitação Canônica dos Embeddings Estáticos:* Atribuem um único vetor fixo estático para cada grafia de palavra, sendo incapazes de desambiguar sentidos polissêmicos (ex.: a palavra *"manga"* terá exatamente as mesmas coordenadas numéricas quer se refira a uma fruta, quer à manga de uma vestimenta).
 
-### Questão 02 (FGV - TRT / Analista Judiciário - TI - Representação Textual: BoW, TF-IDF e Word2Vec)
+### Teste 312
+**(FGV - TRT / Analista Judiciário - TI - Representação Textual: BoW, TF-IDF e Word2Vec)**
 No Processamento de Linguagem Natural (PLN), a representação matemática do texto é uma etapa crítica para o sucesso de modelos de classificação e agrupamento documental.
 
 A respeito das abordagens de vetorização textual clássicas (*Bag-of-Words* e *TF-IDF*) e dos modelos modernos de *Embeddings* estáticos (*Word2Vec*), assinale a afirmativa correta:
@@ -131,6 +154,9 @@ A respeito das abordagens de vetorização textual clássicas (*Bag-of-Words* e 
 * **C)** O modelo *Word2Vec* (nas arquiteturas CBOW e Skip-Gram) mapeia palavras para vetores densos de baixa dimensionalidade em um espaço contínuo, onde palavras semanticamente similares ou que compartilham contextos afins situam-se geometricamente próximas, permitindo operações de aritmética vetorial (como $vetor(\text{"Rei"}) - vetor(\text{"Homem"}) + vetor(\text{"Mulher"}) \approx vetor(\text{"Rainha"})$).
 * **D)** O TF-IDF gera vetores puramente densos de no máximo 50 posições para qualquer vocabulário, eliminando a esparsidade de matrizes.
 * **E)** O modelo Skip-Gram utiliza as palavras do contexto para prever a palavra central, ao passo que o CBOW (*Continuous Bag-of-Words*) utiliza a palavra central para prever o contexto circunvizinho.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -177,7 +203,7 @@ onde $Q$ são as Consultas (*Queries*), $K$ são as Chaves (*Keys*), $V$ são os
 
 ---
 
-### Questão 03
+### Teste 313
 **(FCC - SEFAZ-PE - Auditoria de Tecnologia da Informação)**
 A publicação da arquitetura *Transformer* impulsionou a criação de modelos de linguagem pré-treinados profundos que hoje alicerçam grande parte do estado da arte em Processamento de Linguagem Natural. A partir desse paradigma, destacaram-se duas famílias arquiteturais com propriedades distintas: os modelos baseados no Codificador (*Encoder*) e os baseados no Decodificador (*Decoder*).
 Sobre as diferenças técnicas entre as famílias BERT e GPT, assinale a afirmativa correta:
@@ -187,6 +213,9 @@ Sobre as diferenças técnicas entre as famílias BERT e GPT, assinale a afirmat
 * **C)** O modelo BERT baseia-se no Codificador e processa as sequências de forma bidirecional no treinamento para aprender representações contextuais profundas, sendo excelente para tarefas de classificação, busca semântica e reconhecimento de entidades; enquanto os modelos da família GPT são decodificadores autoregressivos unidirecionais voltados precipuamente à geração contínua do próximo token.
 * **D)** O mecanismo de autoatenção escalada divide o produto escalar das matrizes de Consulta e Chave pelo cubo da dimensionalidade dos vetores para induzir a explosão intencional dos gradientes na fase de retropropagação.
 * **E)** Os modelos BERT e GPT dispensam etapas de pré-treinamento auto-supervisionado, sendo inicializados e treinados diretamente em conjuntos de dados supervisionados anotados manualmente por auditores.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -200,8 +229,9 @@ Sobre as diferenças técnicas entre as famílias BERT e GPT, assinale a afirmat
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 2. Inteligência Artificial Generativa
@@ -212,7 +242,8 @@ A IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a 
 
 Enquanto a IA Discriminativa calcula $P(y \mid X)$ para separar instâncias em classes, a IA Generativa modela os padrões intrínsecos de formação dos dados. As três principais famílias contemporâneas são: GANs, Modelos de Difusão e LLMs Autoregressivos.
 
-### Questão 04 (FGV - TRT / Analista Judiciário - TI - Modelos Generativos vs. Modelos Discriminativos)
+### Teste 314
+**(FGV - TRT / Analista Judiciário - TI - Modelos Generativos vs. Modelos Discriminativos)**
 A Inteligência Artificial Generativa baseia-se na formulação de modelos probabilísticos capazes de sintetizar novos artefatos de dados semelhantes àqueles observados durante o treinamento.
 
 Do ponto de vista da teoria estatística de aprendizado de máquina, a distinção formal entre um **Modelo Generativo** e um **Modelo Discriminativo** consiste em:
@@ -222,6 +253,9 @@ Do ponto de vista da teoria estatística de aprendizado de máquina, a distinç�
 * **C)** Modelos generativos avaliam se uma amostra pertence à classe A ou B sem modelar a distribuição dos dados de entrada.
 * **D)** Redes neurais nunca podem ser utilizadas como modelos generativos, sendo essa tarefa restrita a autômatos celulares determinísticos.
 * **E)** O modelo discriminativo tem como objetivo principal gerar imagens e áudios a partir de prompts em linguagem natural.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -262,7 +296,7 @@ Introduzidas por Ian Goodfellow em 2014, as **GANs (*Generative Adversarial Netw
 
 ---
 
-### Questão 05
+### Teste 315
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 No domínio da Inteligência Artificial Generativa, diferentes famílias de redes neurais profundas foram consolidadas para síntese realista de dados multidimensionais, destacando-se as Redes Adversárias Generativas (GANs) e os Modelos de Difusão (*Diffusion Models*).
 A respeito das características arquiteturais dessas tecnologias generativas, assinale a alternativa correta:
@@ -272,6 +306,9 @@ A respeito das características arquiteturais dessas tecnologias generativas, as
 * **C)** O processo reverso dos Modelos de Difusão consiste na degradação contínua da imagem real mediante a injeção paulatina de ruído branco gaussiano, dispensando o uso de redes neurais para reconstrução de padrões.
 * **D)** As GANs são consagradas pelo meio acadêmico devido à sua garantia inata de estabilidade matemática irrestrita de convergência de gradientes durante o processo de treinamento, sendo imunes a desbalanceamentos de forças entre as redes.
 * **E)** Modelos de Difusão são incapazes de gerar imagens a partir de descrições textuais (*Text-to-Image*), operando exclusivamente sobre tensores tabulares esparsos de bancos relacionais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -294,7 +331,8 @@ Tornaram-se o estado da arte na síntese de imagens e mídias de alta fidelidade
 - **Processo Reverso (*Reverse Diffusion Process*):** Uma rede neural profunda especializada (geralmente uma arquitetura U-Net associada a mecanismos de atenção cruzada condicionados por texto) é treinada para predizer e remover iterativamente a fração exata de ruído adicionada em cada passo. Partindo de puro ruído gaussiano aleatório, o modelo desconstrói o ruído passo a passo até reconstituir uma imagem hiper-realista.
 - **Vantagem sobre GANs:** Apresentam treinamento estritamente estável, livre de dinâmicas adversárias em minimax e **completamente imunes ao colapso de modo**, cobrindo com excelência toda a distribuição do espaço latente.
 
-### Questão 06 (FCC - TRT / Analista Judiciário - TI - Modelos de Difusão em IA Generativa)
+### Teste 316
+**(FCC - TRT / Analista Judiciário - TI - Modelos de Difusão em IA Generativa)**
 Os Modelos de Difusão (*Diffusion Models*, como DALL-E 3, Midjourney e Stable Diffusion) representam o estado da arte na geração de imagens e conteúdos sintéticos de alta fidelidade.
 
 O princípio físico e matemático fundamental que rege o treinamento e a inferência em um Modelo de Difusão consiste em:
@@ -304,6 +342,9 @@ O princípio físico e matemático fundamental que rege o treinamento e a infer�
 * **C)** Executar uma busca em profundidade numa árvore de sintaxe abstrata para compor matrizes de pixels RGB por interpolação bicúbica.
 * **D)** Comprimir a imagem em um único número inteiro de 8 bits e descompactá-lo usando o algoritmo de Huffman.
 * **E)** Aplicar transformadas de Fourier bidimensionais sem qualquer parâmetro ajustável por gradiente descendente.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -341,7 +382,8 @@ A conversão do vetor de números reais (*logits*) emitido pela rede em tokens t
 
 ---
 
-### Questão 07 (FGV - TJ-MT / Analista Judiciário - TI - Modelos Autoregressivos e Parâmetros de Amostragem em LLMs)
+### Teste 317
+**(FGV - TJ-MT / Analista Judiciário - TI - Modelos Autoregressivos e Parâmetros de Amostragem em LLMs)**
 Em Modelos de Linguagem de Grande Porte autoregressivos (como as famílias GPT, LLaMA e Gemini), o processo de geração textual consiste em prever iterativamente a probabilidade da próxima palavra ou pedaço de palavra (*token*) a partir dos tokens anteriores:
 
 $$P(w_t | w_1, w_2, \dots, w_{t-1})$$
@@ -353,6 +395,9 @@ Para controlar o grau de aleatoriedade, criatividade e determinismo do texto ger
 * **C)** O parâmetro Top-$p$ descarta os $p$ primeiros tokens do vocabulário e sorteia apenas entre os termos restantes.
 * **D)** Em tarefas de auditoria estrita e extração factual de dados tabulares de editais de licitação, recomenda-se configurar a Temperatura em seu valor máximo (ex.: 2.0) para maximizar o número de alucinações inovadoras.
 * **E)** A Temperatura e o Top-$p$ atuam exclusivamente no processo de pré-treinamento com trilhões de tokens, sendo impossível alterá-los durante a chamada de API em tempo de execução.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -366,7 +411,10 @@ Para controlar o grau de aleatoriedade, criatividade e determinismo do texto ger
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 3. Agentes Inteligentes e Ambientes de Tarefa
 
@@ -400,7 +448,8 @@ Para projetar formalmente um agente inteligente, especifica-se o framework **PEA
 - **A (Actuators / Atuadores):** Os canais ou dispositivos pelos quais o agente age sobre o ambiente.
 - **S (Sensors / Sensores):** Os instrumentos de entrada pelos quais o agente recolhe dados do ambiente.
 
-### Questão 08 (FGV - TRT / Analista Judiciário - TI - O Framework PEAS em Agentes Inteligentes)
+### Teste 318
+**(FGV - TRT / Analista Judiciário - TI - O Framework PEAS em Agentes Inteligentes)**
 Ao projetar um sistema agentivo inteligente baseado em IA para atuar na fiscalização automatizada de folhas de pagamento do Tribunal de Contas, o arquiteto de software utiliza o modelo formal **PEAS** (Performance, Environment, Actuators, Sensors) preconizado por Russell & Norvig.
 
 Assinale a opção que mapeia correta e respectivamente os elementos do framework PEAS para esse agente inteligente de auditoria:
@@ -410,6 +459,9 @@ Assinale a opção que mapeia correta e respectivamente os elementos do framewor
 * **C)** Performance: Consumo elétrico dos servidores em watts; Environment: Processador Intel Xeon; Actuators: Mouse; Sensors: Monitor LCD.
 * **D)** Performance: Código-fonte em Python; Environment: Sistema operacional Linux; Actuators: Disco SSD; Sensors: Placa de vídeo.
 * **E)** O framework PEAS proíbe a especificação de medidas de desempenho quantitativas para agentes públicos de controle.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -438,7 +490,8 @@ A arquitetura e os algoritmos do agente são diretamente moldados pelas caracter
 5. **Discreto vs. Contínuo:** Se os estados, ações e percepções são contáveis em passos finitos ou representados por variáveis contínuas no tempo e espaço.
 6. **Agente Único vs. Multiagente:** Se a entidade opera isoladamente no ambiente ou se interage com outros agentes em regimes cooperativos ou competitivos.
 
-### Questão 09 (FCC - TRT / Analista Judiciário - TI - Taxonomia de Ambientes de Tarefa)
+### Teste 319
+**(FCC - TRT / Analista Judiciário - TI - Taxonomia de Ambientes de Tarefa)**
 O projeto de agentes inteligentes de software exige a caracterização prévia das propriedades estruturais do seu ambiente de tarefa, as quais determinam a complexidade do algoritmo decisório a ser adotado.
 
 Considere um agente inteligente projetado para navegar e monitorar pregões eletrônicos em tempo real na Bolsa de Licitações Públicas, onde novos lances chegam em frações de segundo, as decisões dos licitantes concorrentes são privadas e imprevisíveis e as regras do edital mudam conforme eventos externos dinâmicos.
@@ -450,6 +503,9 @@ Segundo a taxonomia clássica de Russell & Norvig, esse ambiente de tarefa class
 * **C)** Totalmente Observável, Estratégico, Estático, Episódico e Determinístico.
 * **D)** Parcialmente Observável, Determinístico, Estático, Episódico e Individual.
 * **E)** Totalmente Observável, Estocástico, Estático, Não Sequencial e Discreto.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -495,7 +551,7 @@ Segundo a taxonomia clássica de Russell & Norvig, esse ambiente de tarefa class
 
 ---
 
-### Questão 10
+### Teste 320
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 A teoria canônica de Inteligência Artificial formalizada por Stuart Russell e Peter Norvig organiza o projeto de sistemas computacionais autônomos com base no conceito de Agentes Racionais operando em Ambientes de Tarefas caracterizados pela taxonomia do framework PEAS (*Performance, Environment, Actuators, Sensors*).
 A respeito da classificação e do comportamento dos agentes inteligentes, assinale a alternativa correta:
@@ -505,6 +561,9 @@ A respeito da classificação e do comportamento dos agentes inteligentes, assin
 * **C)** Os Agentes Baseados em Objetivos utilizam uma função escalar contínua de utilidade para equilibrar matematicamente a compensação entre objetivos conflitantes quando nenhum resultado perfeito for passível de concretização.
 * **D)** O ambiente de auditoria e fiscalização fiscal de um órgão de controle externo é classificado no framework PEAS como totalmente observável e estático, pois todos os fatos econômicos dos jurisdicionados são imediatamente conhecidos sem latência ou incerteza.
 * **E)** Um agente racional é definido estritamente como aquele que reproduz com total exatidão as falhas cognitivas e o processo emocional do cérebro humano, rejeitando o conceito de maximização de medidas de desempenho esperadas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -516,8 +575,9 @@ A respeito da classificação e do comportamento dos agentes inteligentes, assin
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 4. Modelos Multimodais e Aplicações no Setor Público
@@ -546,7 +606,7 @@ O marco fundamental que consolidou a visão-linguagem moderna foi o modelo **CLI
 
 ---
 
-### Questão 11
+### Teste 321
 **(FCC - TRT-2ª Região - Analista Judiciário - Tecnologia da Informação)**
 Em um projeto de inovação tecnológica do tribunal, a diretoria de TI pretende implementar uma ferramenta de fiscalização capaz de cruzar fotografias de canteiros de obras públicas com os relatórios descritivos de medição de engenharia civil. A equipe técnica optou pela arquitetura multimodal CLIP (*Contrastive Language-Image Pre-training*).
 Sobre os fundamentos operacionais e os benefícios metodológicos da arquitetura CLIP, é correto afirmar:
@@ -556,6 +616,9 @@ Sobre os fundamentos operacionais e os benefícios metodológicos da arquitetura
 * **C)** O CLIP exige que qualquer nova categoria de classificação seja submetida a um retreinamento supervisionado completo de todos os seus bilhões de parâmetros (*full fine-tuning*), sendo incapaz de executar predições no modo *Zero-Shot*.
 * **D)** O codificador visual do CLIP converte obrigatoriamente matrizes bidimensionais de pixels em faixas de áudio comprimidas antes da extração de embeddings semânticos.
 * **E)** O alinhamento semântico cross-modal exige rigorosamente que as sentenças de texto possuam o mesmo número de pixels em resolução gráfica que as matrizes de entrada das imagens.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -576,7 +639,10 @@ Sobre os fundamentos operacionais e os benefícios metodológicos da arquitetura
 2. **OCR Semântico de Documentos Administrativos Legados:** Digitalização e leitura ótica inteligente de contratos históricos, certidões com caligrafia manual e processos digitalizados com baixa resolução, onde o modelo de linguagem contextual auxilia o modelo visual na recomposição de termos degradados pelo tempo.
 3. **Detecção de Fraudes em Notas Fiscais Eletrônicas:** Análise combinada de comprovantes digitalizados, carimbos notariais e fotos de mercadorias entregues, identificando discrepâncias materiais em compras governamentais.
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

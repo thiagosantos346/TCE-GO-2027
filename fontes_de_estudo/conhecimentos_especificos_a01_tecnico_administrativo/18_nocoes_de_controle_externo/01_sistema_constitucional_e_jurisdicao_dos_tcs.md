@@ -5,7 +5,10 @@
 > **Arquivo:** `01_sistema_constitucional_e_jurisdicao_dos_tcs.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -25,25 +28,36 @@
 - Eficácia das decisões dos Tribunais de Contas: imputação de débito e multa com força de título executivo extrajudicial (Artigo 71, § 3º, da CF/88);
 - Limites da jurisdição de contas, prescrição da pretensão punitiva/ressarcitória (Tema 899 do STF) e independência das instâncias civil, penal e administrativa.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. O Modelo Constitucional de Controle e a Responsabilidade Solidária](#1-o-modelo-constitucional-de-controle-e-a-responsabilidade-solidaria)
-    - [1.1 Sistemas de Controle Externo, Interno e Social](#11-sistemas-de-controle-externo-interno-e-social)
-    - [1.2 O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)](#12-o-dever-de-comunicacao-do-controle-interno-e-sancao-de-solidariedade-art-74-1o)
-- [2. Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)](#2-natureza-juridica-autonomia-e-principio-da-simetria-art-75)
-    - [2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas](#21-natureza-juridica-e-autonomias-dos-tribunais-de-contas)
-    - [2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs](#22-o-principio-da-simetria-constitucional-federativa-e-a-composicao-dos-tces)
-- [3. Competências Constitucionais: Julgamento Técnico versus Parecer Prévio](#3-competencias-constitucionais-julgamento-tecnico-versus-parecer-previo)
-    - [3.1 Contas de Governo versus Contas de Gestão](#31-contas-de-governo-versus-contas-de-gestao)
-    - [3.2 O Julgamento das Contas de Prefeito Municipal (Tema 835 do STF)](#32-o-julgamento-das-contas-de-prefeito-municipal-tema-835-do-stf)
-- [4. Registro de Atos de Admissão e Benefícios Previdenciários (Art. 71, III)](#4-registro-de-atos-de-admissao-e-beneficios-previdenciarios-art-71-iii)
-- [5. Sustação de Atos Ilegais versus Sustação de Contratos Administrativos](#5-sustacao-de-atos-ilegais-versus-sustacao-de-contratos-administrativos)
-- [6. Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)](#6-eficacia-executiva-e-prescritibilidade-art-71-3o-e-tema-899-do-stf)
-- [7. Jurisdição Ampla e Independência das Instâncias](#7-jurisdicao-ampla-e-independencia-das-instancias)
-- [8. Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [O Modelo Constitucional de Controle e a Responsabilidade Solidária](#1-o-modelo-constitucional-de-controle-e-a-responsabilidade-solidaria)
+    2. [Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)](#2-natureza-juridica-autonomia-e-principio-da-simetria-art-75)
+    3. [Teste 165](#Teste-165)
+    4. [Teste 166](#Teste-166)
+    5. [Competências Constitucionais: Julgamento Técnico versus Parecer Prévio](#3-competencias-constitucionais-julgamento-tecnico-versus-parecer-previo)
+    6. [Teste 167](#Teste-167)
+    7. [Registro de Atos de Admissão e Benefícios Previdenciários (Art. 71, III)](#4-registro-de-atos-de-admissao-e-beneficios-previdenciarios-art-71-iii)
+    8. [Teste 168](#Teste-168)
+    9. [Teste 169](#Teste-169)
+    10. [Sustação de Atos Ilegais versus Sustação de Contratos Administrativos](#5-sustacao-de-atos-ilegais-versus-sustacao-de-contratos-administrativos)
+    11. [Teste 170](#Teste-170)
+    12. [Teste 171](#Teste-171)
+    13. [Eficácia Executiva e Prescritibilidade (Art. 71, § 3º e Tema 899 do STF)](#6-eficacia-executiva-e-prescritibilidade-art-71-3o-e-tema-899-do-stf)
+    14. [Teste 172](#Teste-172)
+    15. [Teste 173](#Teste-173)
+    16. [Jurisdição Ampla e Independência das Instâncias](#7-jurisdicao-ampla-e-independencia-das-instancias)
+    17. [Teste 174](#Teste-174)
+    18. [Teste 175](#Teste-175)
+2. [Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
 
 ---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -111,7 +125,8 @@ flowchart TD
 
 
 
-### Questão 01 (FGV - Auditor de Controle Externo / TCE-GO)
+### Teste 165
+**(FGV - Auditor de Controle Externo / TCE-GO)**
 O art. 70 da Constituição Federal de 1988 estabelece que a fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União e das entidades da administração direta e indireta será exercida pelo Congresso Nacional, mediante controle externo, e pelo sistema de controle interno de cada Poder.
 
 A respeito dos aspectos fiscalizados pelo controle externo (cinco dimensões do controle), assinale a afirmativa correta.
@@ -121,6 +136,9 @@ A respeito dos aspectos fiscalizados pelo controle externo (cinco dimensões do 
 * **C)** O controle patrimonial exercido pelo Tribunal de Contas restringe-se a bens imóveis de valor superior a dez milhões de reais.
 * **D)** A renúncia de receitas fiscais promovida pelo Chefe do Poder Executivo fica imune ao controle externo dos Tribunais de Contas.
 * **E)** As empresas públicas exploradoras de atividade econômica não se sujeitam à fiscalização operacional ou financeira das Cortes de Contas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -134,7 +152,8 @@ A respeito dos aspectos fiscalizados pelo controle externo (cinco dimensões do 
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista de Controle Externo - TCE-GO)
+### Teste 166
+**(FCC - Adaptada / Analista de Controle Externo - TCE-GO)**
 A Constituição do Estado de Goiás prevê a organização e o funcionamento do Tribunal de Contas do Estado (TCE-GO). Em consonância com o princípio da simetria constitucional federativa insculpido no artigo 75 da Constituição da República de 1988, o plenário do TCE-GO é composto por:
 
 * **A)** Nove Ministros, nomeados pelo Governador do Estado com aprovação do Senado Federal.
@@ -142,6 +161,9 @@ A Constituição do Estado de Goiás prevê a organização e o funcionamento do
 * **C)** Onze Desembargadores de Contas, eleitos pelo voto secreto dos servidores efetivos do órgão e homologados pelo Poder Judiciário.
 * **D)** Cinco Conselheiros titulares e cinco suplentes, todos de livre nomeação e exoneração do Governador do Estado.
 * **E)** Sete Conselheiros, todos eleitos pelo Tribunal de Justiça a partir de lista sêxtupla de juristas e contadores públicos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -178,7 +200,8 @@ A Constituição do Estado de Goiás prevê a organização e o funcionamento do
 
 
 
-### Questão 03 (FCC - Analista de Controle Externo / TCE-GO)
+### Teste 167
+**(FCC - Analista de Controle Externo / TCE-GO)**
 No modelo de controle externo desenhado pela Constituição da República de 1988, a competência para julgar as contas públicas divide-se com base na natureza das funções exercidas pelo responsável.
 
 Sobre a distinção entre o julgamento das contas dos administradores públicos e a apreciação das contas prestadas pelo Chefe do Poder Executivo, assinale a afirmativa correta.
@@ -188,6 +211,9 @@ Sobre a distinção entre o julgamento das contas dos administradores públicos 
 * **C)** O parecer prévio emitido pelo Tribunal de Contas sobre as contas do Governador do Estado vincula compulsoriamente a Assembleia Legislativa.
 * **D)** O Poder Legislativo julga definitivamente as contas de gestão de todos os secretários de Estado e diretores de autarquias estaduais.
 * **E)** O Tribunal de Contas não pode emitir parecer desfavorável à aprovação das contas do Chefe do Executivo sem autorização prévia da mesa diretora do parlamento.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -218,7 +244,8 @@ flowchart LR
 
 ---
 
-### Questão 04 (FCC - Adaptada / TCE-AP - Técnico de Controle Externo)
+### Teste 168
+**(FCC - Adaptada / TCE-AP - Técnico de Controle Externo)**
 Sobre a relação entre os sistemas de controle interno e externo e a atuação fiscalizatória dos Tribunais de Contas, assinale a opção correta:
 
 * **A)** Os responsáveis pelo controle interno que tomarem conhecimento de qualquer ilegalidade apurada na gestão e não derem imediata ciência ao Tribunal de Contas competente serão responsabilizados solidariamente pelo fato.
@@ -226,6 +253,9 @@ Sobre a relação entre os sistemas de controle interno e externo e a atuação 
 * **C)** A apreciação da legalidade dos atos de concessão inicial de aposentadoria perante o Tribunal de Contas depende de prévia citação do servidor jubilado para apresentação de defesa técnica, mesmo quando realizada dentro do prazo de cinco anos da chegada do processo ao Tribunal.
 * **D)** O Tribunal de Contas integra formalmente a estrutura orgânica do Poder Judiciário, razão pela qual suas decisões sobre prestação de contas fazem coisa julgada material oponível à revisão judicial.
 * **E)** A competência fiscalizatória dos Tribunais de Contas limita-se ao exame da estrita legalidade formal, sendo-lhe expressamente vedada a avaliação da economicidade ou legitimidade dos gastos públicos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -241,7 +271,8 @@ Sobre a relação entre os sistemas de controle interno e externo e a atuação 
 
 
 
-### Questão 05 (FGV - Auditor de Controle Externo / TCE-SC)
+### Teste 169
+**(FGV - Auditor de Controle Externo / TCE-SC)**
 O Tribunal de Contas, no exercício de sua competência para apreciar, para fins de registro, a legalidade dos atos de concessão inicial de aposentadoria de servidor público estadual (art. 71, III, c/c art. 75 da CF/88), recebeu o processo administrativo encaminhado pelo órgão de origem.
 
 Considerando a tese fixada pelo Supremo Tribunal Federal no Tema nº 445 de Repercussão Geral (RE 636.553), o Tribunal de Contas:
@@ -251,6 +282,9 @@ Considerando a tese fixada pelo Supremo Tribunal Federal no Tema nº 445 de Repe
 * **C)** Fica impedido de recusar o registro caso a concessão de aposentadoria tenha sido respaldada em certidão por tempo de contribuição fraudulenta.
 * **D)** Deve assegurar o contraditório e a ampla defesa ao servidor nos primeiros cinco anos da tramitação do processo dentro do Tribunal de Contas (Súmula Vinculante nº 3).
 * **E)** Pode anular a aposentadoria a qualquer tempo, mesmo após trinta anos da concessão, ante a imprescritibilidade absoluta dos atos administrativos nulos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -284,7 +318,8 @@ flowchart TD
 
 ---
 
-### Questão 06 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Teste 170
+**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 Em matéria de fiscalização contábil, financeira e orçamentária da Administração Pública, à luz da disciplina traçada na Constituição Federal de 1988 e do princípio da simetria constitucional, é correto afirmar:
 
 * **A)** A sustação de contrato administrativo eivado de ilegalidade grave deve ser determinada de imediato pelo próprio Tribunal de Contas, mediante medida cautelar unilateral, independentemente de prévia provocação ou comunicação ao Poder Legislativo.
@@ -292,6 +327,9 @@ Em matéria de fiscalização contábil, financeira e orçamentária da Administ
 * **C)** No caso de irregularidade insanável em ato administrativo não contratual, verificado o desatendimento do prazo assinado para a adoção das providências cabíveis, o próprio Tribunal de Contas sustará a execução do ato impugnado.
 * **D)** O sistema de controle interno instituído no âmbito do Poder Executivo detém a competência constitucional exclusiva para julgar em caráter definitivo as contas dos ordenadores de despesas públicas.
 * **E)** As pessoas jurídicas de direito privado que recebem recursos públicos estaduais mediante parceria ou termo de colaboração não se submetem à jurisdição do Tribunal de Contas, cabendo a fiscalização unicamente ao órgão repassador originário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -307,7 +345,8 @@ Em matéria de fiscalização contábil, financeira e orçamentária da Administ
 
 
 
-### Questão 07 (FCC - Procurador do Estado / Adaptada)
+### Teste 171
+**(FCC - Procurador do Estado / Adaptada)**
 Durante auditoria em procedimento licitatório de grande vulto deflagrado por empresa pública estadual para a construção de uma usina termoelétrica, a equipe técnica do Tribunal de Contas constatou indícios veementes de direcionamento do certame e risco iminente de dano de difícil reparação ao erário.
 
 Diante desse cenário e com fulcro no poder cautelar implícito reconhecido pelo Supremo Tribunal Federal, o Tribunal de Contas pode:
@@ -317,6 +356,9 @@ Diante desse cenário e com fulcro no poder cautelar implícito reconhecido pelo
 * **C)** Expropriar compulsoriamente o patrimônio das empresas licitantes participantes da disputa.
 * **D)** Anular unilateralmente contratos já assinados sem prévia notificação da autoridade administrativa.
 * **E)** Substituir o edital de licitação pelo seu próprio modelo regulamentar e declarar vencedora a segunda colocada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -339,7 +381,8 @@ Diante desse cenário e com fulcro no poder cautelar implícito reconhecido pelo
 
 ---
 
-### Questão 08 (FCC - Adaptada / Auditor Governamental)
+### Teste 172
+**(FCC - Adaptada / Auditor Governamental)**
 Acórdão condenatório proferido pelo Tribunal de Contas imputou débito de R$ 300.000,00 e cominou multa de R$ 30.000,00 a ex-secretário municipal que desviou verbas do erário. O acórdão transitou em julgado administrativamente no Tribunal de Contas. Passados seis anos da decisão definitiva sem qualquer providência de cobrança por parte dos órgãos públicos, a Procuradoria do Município ajuizou execução fiscal contra o devedor. O executado opôs embargos alegando prescrição da pretensão de ressarcimento.
 
 Com fundamento no Tema 899 da Repercussão Geral fixado pelo Supremo Tribunal Federal:
@@ -349,6 +392,9 @@ Com fundamento no Tema 899 da Repercussão Geral fixado pelo Supremo Tribunal Fe
 * **C)** É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, aplicando-se o prazo prescricional de cinco anos previsto no Decreto nº 20.910/1932 e na Lei nº 9.873/1999.
 * **D)** As decisões dos Tribunais de Contas não possuem eficácia de título executivo, sendo obrigatório o ajuizamento de ação civil pública prévia.
 * **E)** A prescrição somente se opera se o Tribunal de Contas anular seu próprio acórdão de ofício mediante requerimento do Ministério Público de Contas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -364,7 +410,8 @@ Com fundamento no Tema 899 da Repercussão Geral fixado pelo Supremo Tribunal Fe
 
 
 
-### Questão 09 (FGV - Analista de Controle Externo / TCE-GO)
+### Teste 173
+**(FGV - Analista de Controle Externo / TCE-GO)**
 O art. 71, § 3º, da Constituição Federal estabelece que as decisões do Tribunal de Contas de que resulte imputação de débito ou multa terão eficácia de título executivo.
 
 Sobre a prescrição da pretensão de ressarcimento ao erário fundada em decisões de Tribunal de Contas, consoante tese fixada pelo Supremo Tribunal Federal no Tema nº 899 de Repercussão Geral (RE 636.886), assinale a afirmativa correta.
@@ -374,6 +421,9 @@ Sobre a prescrição da pretensão de ressarcimento ao erário fundada em decis�
 * **C)** O prazo prescricional para execução da decisão do Tribunal de Contas é de dez anos, regulado pelas regras gerais do Código Civil.
 * **D)** A prescrição da cobrança do débito impede a emissão de certidão de débitos pelo Tribunal de Contas.
 * **E)** A execução fiscal do título emitido pelo Tribunal de Contas deve ser proposta perante o Tribunal de Justiça em competência originária.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -396,7 +446,8 @@ Sobre a prescrição da pretensão de ressarcimento ao erário fundada em decis�
 
 ---
 
-### Questão 10 (FCC - Adaptada / Analista Jurídico de Controle)
+### Teste 174
+**(FCC - Adaptada / Analista Jurídico de Controle)**
 Determinada organização social (OS) celebrou contrato de gestão com a Secretaria de Saúde do Estado de Goiás para operacionalização de hospital público regional, recebendo expressivo montante de recursos estaduais. Uma auditoria interna identificou pagamentos a fornecedores fantasmas sem a respectiva entrega de insumos farmacêuticos. O Tribunal de Contas do Estado instaurou processo de tomada de contas especial e intimou o diretor da entidade privada para apresentar defesa.
 
 Em sede preliminar, o gestor privado alegou incompetência absoluta do Tribunal de Contas, afirmando que pessoas jurídicas de direito privado não integram a Administração Pública e, por isso, estão imunes ao controle externo exercido pelo órgão fiscalizador.
@@ -408,6 +459,9 @@ Considerando o texto da Constituição Federal de 1988 e a jurisprudência domin
 * **C)** O Tribunal de Contas somente teria competência caso houvesse cláusula expressa no contrato de gestão renunciando à imunidade jurisdicional privada.
 * **D)** A competência para apurar desvios praticados por particulares conveniados é exclusiva da Delegacia de Polícia Civil, vedada qualquer apuração administrativa por contas.
 * **E)** A jurisdição do Tribunal de Contas sobre particulares restringe-se aos casos de desapropriação indireta e concessão de serviços postais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -425,7 +479,8 @@ Considerando o texto da Constituição Federal de 1988 e a jurisprudência domin
 
 
 
-### Questão 11 (FCC - Auditor Governamental / Controle Externo)
+### Teste 175
+**(FCC - Auditor Governamental / Controle Externo)**
 A respeito da independência das instâncias e da jurisdição ampla dos Tribunais de Contas, considere que determinado gestor público foi absolvido em ação penal instaurada perante a Justiça Estadual pela suposta prática de peculato, sob o fundamento de insuficiência de provas para a condenação (art. 386, VII, do CPP).
 
 Nessa hipótese, a decisão penal absolutória por falta de provas:
@@ -435,6 +490,9 @@ Nessa hipótese, a decisão penal absolutória por falta de provas:
 * **C)** Obriga o Tribunal de Contas a anular todos os acórdãos condenatórios já proferidos sobre o mesmo fato.
 * **D)** Transfere a competência decisória sobre o processo de controle externo para o juízo da vara criminal estadual.
 * **E)** Só permitirá a cobrança do débito se a absolvição penal for reformada pelo Supremo Tribunal Federal em grau de recurso extraordinário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -446,7 +504,10 @@ Nessa hipótese, a decisão penal absolutória por falta de provas:
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 

@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `02_ferramentas_de_diagnostico_estrategico_swot_porter_rbv_canvas.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Diagnóstico do ambiente estratégico interno e externo;
@@ -25,16 +28,32 @@
 - **Business Model Canvas (Alexander Osterwalder):**
     - Os nove blocos de geração de valor organizacional: Proposta de Valor, Segmentos de Clientes, Canais, Relacionamento com Clientes, Fontes de Receita, Recursos Principais, Atividades-Chave, Parcerias Principais e Estrutura de Custos.
 
----
 
-## 🧭 Sumário Interativo
-- [1. Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas](#1-analise-swot-cruzada-fofa-e-as-quatro-posturas-estrategicas)
-- [2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter](#2-o-modelo-das-cinco-forcas-e-as-estrategias-genericas-de-michael-porter)
-- [3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)](#3-a-visao-baseada-em-recursos-rbv-e-o-framework-vrio-jay-barney)
-- [4. O Business Model Canvas (Alexander Osterwalder)](#4-o-business-model-canvas-alexander-osterwalder)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas](#1-analise-swot-cruzada-fofa-e-as-quatro-posturas-estrategicas)
+    2. [Teste 380](#Teste-380)
+    3. [Teste 381](#Teste-381)
+    4. [O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter](#2-o-modelo-das-cinco-forcas-e-as-estrategias-genericas-de-michael-porter)
+    5. [Teste 382](#Teste-382)
+    6. [Teste 383](#Teste-383)
+    7. [Teste 384](#Teste-384)
+    8. [A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)](#3-a-visao-baseada-em-recursos-rbv-e-o-framework-vrio-jay-barney)
+    9. [Teste 385](#Teste-385)
+    10. [Teste 386](#Teste-386)
+    11. [O Business Model Canvas (Alexander Osterwalder)](#4-o-business-model-canvas-alexander-osterwalder)
+    12. [Teste 387](#Teste-387)
+    13. [Teste 388](#Teste-388)
+    14. [Teste 389](#Teste-389)
+    15. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -73,7 +92,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Teste 380
 **(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
 Determinada entidade governamental realizou o diagnóstico de seu ambiente por meio da matriz SWOT cruzada. A equipe constatou a existência concomitante de graves fragilidades operacionais internas (sistemas obsoletos e déficit crônico de servidores) associadas a um ambiente externo marcado por severas restrições orçamentárias impostas por lei e risco iminente de descontinuidade de convênios. Diante desse cenário de predomínio de fraquezas internas e ameaças externas, a postura estratégica recomendada pela teoria da administração é a:
 
@@ -82,6 +101,9 @@ Determinada entidade governamental realizou o diagnóstico de seu ambiente por m
 * **C)** Postura de Expansão Acelerada de Mercados.
 * **D)** Postura de Liderança em Diferenciação de Marca.
 * **E)** Postura de Reforço Baseada em Vantagem Sustentável.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -97,7 +119,8 @@ Determinada entidade governamental realizou o diagnóstico de seu ambiente por m
 
 
 
-### Questão 02 (FCC - Adaptada / Analista de Planejamento e Gestão)
+### Teste 381
+**(FCC - Adaptada / Analista de Planejamento e Gestão)**
 Na Análise SWOT Cruzada (Matriz FOFA), o confronto entre o ambiente interno (Forças e Fraquezas) e o ambiente externo (Oportunidades e Ameaças) permite delinear posturas estratégicas fundamentais para a organização.
 
 A postura estratégica recomendada quando a organização diagnostica um cenário caracterizado predominantemente pelo cruzamento entre **Fraquezas Internas** e **Ameaças Externas** é a postura de:
@@ -107,6 +130,9 @@ A postura estratégica recomendada quando a organização diagnostica um cenári
 * **C)** Domínio Monopolista irrestrito de mercado.
 * **D)** Crescimento acelerado por meio de fusões estatais corporativas.
 * **E)** Terceirização integral das atividades exclusivas de Estado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -144,7 +170,7 @@ flowchart TD
 
 ---
 
-### Questão 03
+### Teste 382
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido por Michael Porter, a intensidade com que novas empresas ou organizações ameaçam ingressar em determinado setor de atividade econômica é contida fundamentalmente pela presença de:
 
@@ -153,6 +179,9 @@ De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido p
 * **C)** Facilidade de acesso aos canais de distribuição tradicionais pelos recém-chegados.
 * **D)** Baixo custo de mudança (*switching costs*) suportado pelos consumidores ao migrarem de fornecedor.
 * **E)** Existência de produtos substitutos com preços significativamente menores no mercado.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -177,7 +206,7 @@ De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido p
 
 ---
 
-### Questão 04
+### Teste 383
 **(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
 No modelo das Estratégias Genéricas formulado por Michael Porter, a organização que opta por desenvolver serviços ou produtos com atributos peculiares e exclusivos, fortemente reconhecidos pelo público-alvo pela sua excelência técnica, design inovador e credibilidade institucional, cobra preços diferenciados e busca fidelizar seus usuários, adota a estratégia genérica de:
 
@@ -186,6 +215,9 @@ No modelo das Estratégias Genéricas formulado por Michael Porter, a organizaç
 * **C)** Desinvestimento Operacional.
 * **D)** Conglomerado Diversificado.
 * **E)** Paridade Tecnológica Compulsória.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -201,7 +233,8 @@ No modelo das Estratégias Genéricas formulado por Michael Porter, a organizaç
 
 
 
-### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 384
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Michael Porter formulou o célebre modelo das Cinco Forças Competitivas que determinam a atratividade e o nível de rentabilidade de uma indústria.
 
 São forças competitivas integrantes do modelo original de Porter:
@@ -211,6 +244,9 @@ São forças competitivas integrantes do modelo original de Porter:
 * **C)** Gravidade, Urgência, Tendência, Capacidade Operacional e Risco Jurídico.
 * **D)** Inflação, Taxa Selic, Produto Interno Bruto, Balança Comercial e Dívida Soberana.
 * **E)** Hardware, Software, Peopleware, Sistemas de Redes e Dados na Nuvem.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -267,7 +303,7 @@ flowchart TD
 
 ---
 
-### Questão 06
+### Teste 385
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado por Jay Barney, um recurso organizacional que seja considerado valioso pela organização e raro no seu mercado de atuação, porém passível de imitação a baixo custo pelos demais concorrentes, proporciona à entidade:
 
@@ -276,6 +312,9 @@ Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado 
 * **C)** Vantagem competitiva sustentável.
 * **D)** Paridade competitiva definitiva.
 * **E)** Ineficiência operacional estrutural.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -294,7 +333,8 @@ Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado 
 
 
 
-### Questão 07 (FCC - Adaptada / Analista de Tecnologia e Controle)
+### Teste 386
+**(FCC - Adaptada / Analista de Tecnologia e Controle)**
 Na Visão Baseada em Recursos (RBV - *Resource-Based View*) e no framework **VRIO** desenvolvido por Jay Barney, para que um recurso interno gere uma **Vantagem Competitiva Sustentável** de longo prazo para a organização, ele deve preencher cumulativamente os quatro requisitos:
 
 * **A)** Ser Valioso (V), Raro (R), Difícil de Imitar/Inimitável (I) e a organização estar Organizada (O) para explorá-lo plenamente.
@@ -302,6 +342,9 @@ Na Visão Baseada em Recursos (RBV - *Resource-Based View*) e no framework **VRI
 * **C)** Ser Vigoroso, Regular, Inflexível e Oneroso.
 * **D)** Ter Vencimento anual, Restrição orçamentária, Isenção tributária e Opção de resgate.
 * **E)** Ter Valor monetário alto, Rapidez de liquidação, Inscrição em dívida ativa e Ordem bancária emitida.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -348,7 +391,7 @@ flowchart TD
 
 ---
 
-### Questão 08
+### Teste 387
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterwalder, assinale a opção correta:
 
@@ -357,6 +400,9 @@ A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterw
 * **C)** O modelo Canvas é composto por nove blocos interdependentes que descrevem a lógica de como uma organização cria, entrega e captura valor perante seu público.
 * **D)** A ferramenta Canvas foi desenhada com a finalidade exclusiva de substituir as Demonstrações Contábeis Aplicadas ao Setor Público (DCASP).
 * **E)** O bloco das Parcerias Principais destina-se a mensurar os prazos cronológicos das tarefas críticas de projetos de curto prazo.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -372,7 +418,8 @@ A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterw
 
 
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 388
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na modelagem inovadora de serviços e projetos públicos pelo *Business Model Canvas* (Alexander Osterwalder), o bloco que define como a instituição se comunica e entrega a sua proposta de valor aos diferentes segmentos de usuários e cidadãos é denominado:
 
 * **A)** Canais (de Comunicação, Distribuição e Acesso).
@@ -380,6 +427,9 @@ Na modelagem inovadora de serviços e projetos públicos pelo *Business Model Ca
 * **C)** Fluxo de Receitas.
 * **D)** Recursos Principais.
 * **E)** Parcerias-Chave.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -393,7 +443,8 @@ Na modelagem inovadora de serviços e projetos públicos pelo *Business Model Ca
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 389
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 Segundo as Estratégias Genéricas de Michael Porter, quando uma organização busca se destacar perante os usuários e a sociedade criando produtos ou serviços amplamente percebidos como únicos, de qualidade superior e com atributos exclusivos inigualáveis no setor, ela adota a estratégia de:
 
 * **A)** Diferenciação.
@@ -401,6 +452,9 @@ Segundo as Estratégias Genéricas de Michael Porter, quando uma organização b
 * **C)** Foco ou Enfoque em Custos Reduzidos.
 * **D)** Desinvestimento em Ativos Intangíveis.
 * **E)** Equalização Regressiva de Preços.
+
+
+---
 
 > **Comentário Detalhado:**
 >

@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `01_individuo_personalidade_valores_atitudes_e_motivacao.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Fundamentos do Comportamento Organizacional (CO): conceito, objetivos científicos (descrever, explicar, prever e controlar o comportamento) e os três níveis de análise de Stephen Robbins (nível individual, grupal e do sistema organizacional);
@@ -28,17 +31,33 @@
     - Teoria do Estabelecimento de Metas de Edwin Locke (metas específicas e desafiadoras com *feedback*);
     - Teoria do Reforço de B.F. Skinner (reforço positivo, negativo, punição e extinção).
 
----
 
-## 🧭 Sumário Interativo
-- [1. Fundamentos do Comportamento Organizacional (CO)](#1-fundamentos-do-comportamento-organizacional-co)
-- [2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos](#2-personalidade-o-modelo-dos-cinco-grandes-fatores-big-five-e-tracos-especificos)
-- [3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional](#3-atitudes-dissonancia-cognitiva-e-comprometimento-organizacional)
-- [4. Teorias Motivacionais de Conteúdo (Maslow, Herzberg, Alderfer e McClelland)](#4-teorias-motivacionais-de-conteudo-maslow-herzberg-alderfer-e-mcclelland)
-- [5. Teorias Motivacionais de Processo (Vroom, Adams, Locke e Skinner)](#5-teorias-motivacionais-de-processo-vroom-adams-locke-e-skinner)
-- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [Fundamentos do Comportamento Organizacional (CO)](#1-fundamentos-do-comportamento-organizacional-co)
+    2. [Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos](#2-personalidade-o-modelo-dos-cinco-grandes-fatores-big-five-e-tracos-especificos)
+    3. [Teste 400](#Teste-400)
+    4. [Teste 401](#Teste-401)
+    5. [Atitudes, Dissonância Cognitiva e Comprometimento Organizacional](#3-atitudes-dissonancia-cognitiva-e-comprometimento-organizacional)
+    6. [Teste 402](#Teste-402)
+    7. [Teste 403](#Teste-403)
+    8. [Teorias Motivacionais de Conteúdo (Maslow, Herzberg, Alderfer e McClelland)](#4-teorias-motivacionais-de-conteudo-maslow-herzberg-alderfer-e-mcclelland)
+    9. [Teste 404](#Teste-404)
+    10. [Teste 405](#Teste-405)
+    11. [Teorias Motivacionais de Processo (Vroom, Adams, Locke e Skinner)](#5-teorias-motivacionais-de-processo-vroom-adams-locke-e-skinner)
+    12. [Teste 406](#Teste-406)
+    13. [Teste 407](#Teste-407)
+    14. [Teste 408](#Teste-408)
+    15. [Teste 409](#Teste-409)
+    16. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -88,7 +107,7 @@ flowchart LR
 
 ---
 
-### Questão 01
+### Teste 400
 **(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
 No modelo dos Cinco Grandes Fatores de Personalidade (*Big Five*), amplamente adotado nas pesquisas contemporâneas de comportamento organizacional, o traço que se revelou empiricamente como o preditor mais consistente e fidedigno de alto desempenho profissional na ampla maioria das ocupações é a:
 
@@ -97,6 +116,9 @@ No modelo dos Cinco Grandes Fatores de Personalidade (*Big Five*), amplamente ad
 * **C)** Agradabilidade.
 * **D)** Abertura a Experiências.
 * **E)** Estabilidade Emocional.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -112,7 +134,8 @@ No modelo dos Cinco Grandes Fatores de Personalidade (*Big Five*), amplamente ad
 
 
 
-### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 401
+**(FCC - Adaptada / Analista de Gestão Pública)**
 No estudo da personalidade humana no Comportamento Organizacional, o **Modelo dos Cinco Grandes Fatores (Big Five)** é amplamente aceito pela literatura científica contemporânea.
 
 O fator do Big Five que descreve a tendência do indivíduo de ser responsável, disciplinado, organizado, pontual e orientado para o cumprimento rigoroso de metas e deveres é a:
@@ -122,6 +145,9 @@ O fator do Big Five que descreve a tendência do indivíduo de ser responsável,
 * **C)** Agradabilidade (ou Amabilidade).
 * **D)** Abertura para Experiências.
 * **E)** Estabilidade Emocional (baixo Neuroticismo).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -158,7 +184,7 @@ Fenômeno caracterizado por desconforto e tensão psicológica profunda quando o
 
 ---
 
-### Questão 03
+### Teste 402
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 A respeito das dimensões do comprometimento organizacional formuladas por John Meyer e Natalie Allen, considere a situação em que um servidor público federal recusa uma proposta de trabalho na iniciativa privada porque sente que a organização em que atua cumpriu um papel fundamental na sua formação profissional inicial, experimentando um profundo senso de obrigação moral e lealdade ética de permanecer servindo àquela instituição pública. Trata-se de um exemplo de comprometimento:
 
@@ -167,6 +193,9 @@ A respeito das dimensões do comprometimento organizacional formuladas por John 
 * **C)** Normativo.
 * **D)** Dissonante.
 * **E)** Reativo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -182,7 +211,8 @@ A respeito das dimensões do comprometimento organizacional formuladas por John 
 
 
 
-### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 403
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Segundo a Teoria da Dissonância Cognitiva formulada por Leon Festinger, quando um indivíduo percebe uma contradição ou inconsistência desconfortável entre duas atitudes ou entre sua atitude e seu comportamento real:
 
 * **A)** Ele experimenta uma tensão psicológica desconfortável (dissonância) que o motiva a reduzir a inconsistência, alterando seu comportamento, modificando sua atitude ou racionalizando a discrepância.
@@ -190,6 +220,9 @@ Segundo a Teoria da Dissonância Cognitiva formulada por Leon Festinger, quando 
 * **C)** A dissonância cognitiva consolida automaticamente o comprometimento afetivo com o órgão público.
 * **D)** Ocorre necessariamente a imediata demissão voluntária do cargo público.
 * **E)** A incongruência atitudinal é eliminada por decreto do Chefe do Poder Executivo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -242,7 +275,7 @@ flowchart TD
 
 ---
 
-### Questão 05
+### Teste 404
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Determinado gestor público, objetivando elevar a motivação dos servidores do setor de protocolo, promoveu uma reforma completa no ambiente físico do trabalho, instalando mobiliário ergonômico moderno, ar-condicionado de última geração e ampliando a remuneração com novo benefício de alimentação. Não obstante as medidas adotadas, os índices de proatividade e dedicação às tarefas intelectuais do setor permaneceram inalterados após alguns meses. Sob a perspectiva da Teoria dos Dois Fatores formulada por Frederick Herzberg, a ausência de elevação da motivação explica-se porque:
 
@@ -251,6 +284,9 @@ Determinado gestor público, objetivando elevar a motivação dos servidores do 
 * **C)** O gestor ignorou a necessidade de autoafirmação primária prevista na base da pirâmide de Clayton Alderfer.
 * **D)** O ambiente físico e o salário constituem fatores motivacionais de conteúdo que só produzem efeito quando associados a punições disciplinares.
 * **E)** O mobiliário moderno reduz a expectativa de esforço, eliminando a instrumentalidade postulada por Victor Vroom.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -282,7 +318,8 @@ Afirma que a motivação dos indivíduos é moldada por três necessidades essen
 
 ---
 
-### Questão 06 (FCC - Adaptada / Analista de Planejamento e Gestão)
+### Teste 405
+**(FCC - Adaptada / Analista de Planejamento e Gestão)**
 Na Teoria dos Dois Fatores (ou Teoria Bifatorial) de Frederick Herzberg, os elementos do ambiente de trabalho dividem-se em Fatores Higiênicos (extrínsecos) e Fatores Motivacionais (intrínsecos).
 
 Segundo Herzberg, os **Fatores Higiênicos** (como salário, condições físicas de trabalho, políticas da empresa e segurança do emprego):
@@ -292,6 +329,9 @@ Segundo Herzberg, os **Fatores Higiênicos** (como salário, condições física
 * **C)** Referem-se ao conteúdo íntimo do cargo e aos desafios e responsabilidades inerentes à tarefa.
 * **D)** Provocam alta satisfação mesmo quando as relações interpessoais com a chefia forem péssimas.
 * **E)** Devem ser suprimidos das organizações públicas contemporâneas para evitar o comodismo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -331,7 +371,7 @@ flowchart LR
 
 ---
 
-### Questão 07
+### Teste 406
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Segundo a Teoria da Expectativa desenvolvida por Victor Vroom, a motivação de um indivíduo para se dedicar com afinco a uma atividade profissional resulta da interação cognitiva entre três variáveis fundamentais. A convicção pessoal de um servidor de que o alcance do desempenho esperado e a conclusão da meta pactuada serão efetivamente seguidos pela entrega da recompensa institucional prometida pela organização traduz o conceito de:
 
@@ -340,6 +380,9 @@ Segundo a Teoria da Expectativa desenvolvida por Victor Vroom, a motivação de 
 * **C)** Expectativa.
 * **D)** Equidade comparativa.
 * **E)** Locus de controle externo.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -366,7 +409,7 @@ $$\frac{\text{Recompensas Próprias}}{\text{Insumos Próprios}} \quad \text{vers
 
 ---
 
-### Questão 08
+### Teste 407
 **(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
 Um auditor fiscal estadual constatou que um colega recém-empossado na mesma gerência, desempenhando idênticas tarefas de fiscalização tributária e possuindo formação equivalente, foi contemplado com uma gratificação especial de produtividade 50% superior sem justificativa plausível de mérito. O auditor sentiu-se revoltado e passou a reduzir propositalmente seu ritmo diário de autuações e a faltar com frequência aos plantões fiscais. O comportamento adotado pelo auditor é explicado primordialmente pela:
 
@@ -375,6 +418,9 @@ Um auditor fiscal estadual constatou que um colega recém-empossado na mesma ger
 * **C)** Teoria da Equidade de J. Stacy Adams.
 * **D)** Teoria X de Douglas McGregor.
 * **E)** Teoria da Racionalidade Absoluta dos Processos.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -406,7 +452,8 @@ Abordagem comportamentalista segundo a qual o comportamento é condicionado por 
 
 ---
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 408
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na Teoria da Expectativa (ou Teoria da Expectância) de Victor Vroom, a motivação para agir decorre da multiplicação de três variáveis cognitivas: **Expectativa**, **Instrumentalidade** e **Valência** (\(M = E 	imes I 	imes V\)).
 
 O conceito de **Instrumentalidade** corresponde à crença do indivíduo de que:
@@ -416,6 +463,9 @@ O conceito de **Instrumentalidade** corresponde à crença do indivíduo de que:
 * **C)** O valor ou peso atrativo atribuído subjetivamente à recompensa oferecida pela organização é positivo.
 * **D)** Os computadores e instrumentos de tecnologia fornecidos pela chefia são suficientes para a auditoria.
 * **E)** A chefia é imune a pressões sindicais na distribuição de funções de confiança.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -430,7 +480,8 @@ ightarrow Recompensa\)); **Valência (V)**: o valor subjetivo ou atratividade qu
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 409
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 Segundo a Teoria da Equidade de J. Stacy Adams, os indivíduos no ambiente de trabalho comparam a relação entre seus insumos/contribuições (esforço, dedicação, competência) e seus resultados/recompensas (remuneração, reconhecimento, promoções) com a relação insumo/resultado de outros colegas em funções semelhantes.
 
 Quando o servidor público percebe uma situação de **iniquidade negativa** (sente-se injustiçado ao constatar que contribui mais e recebe menos reconhecimento que colegas em situação similar), a teoria prevê que ele tenderá a:
@@ -440,6 +491,9 @@ Quando o servidor público percebe uma situação de **iniquidade negativa** (se
 * **C)** Renunciar voluntariamente ao cargo público estável em favor daquele colega menos produtivo.
 * **D)** Desconsiderar completamente as recompensas institucionais e dobrar o ritmo de trabalho.
 * **E)** Ignorar qualquer parâmetro de comparação social e atuar em estado de isolamento afetivo voluntário.
+
+
+---
 
 > **Comentário Detalhado:**
 >

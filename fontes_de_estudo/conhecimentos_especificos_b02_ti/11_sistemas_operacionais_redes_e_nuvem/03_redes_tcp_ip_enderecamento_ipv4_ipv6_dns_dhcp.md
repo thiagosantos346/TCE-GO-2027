@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_redes_tcp_ip_enderecamento_ipv4_ipv6_dns_dhcp.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Arquitetura de redes TCP/IP e comparação com o Modelo OSI
@@ -13,35 +16,51 @@
 - Protocolo de Resolução de Nomes: DNS (Domain Name System)
 - Protocolo de Configuração Dinâmica de Hosts: DHCP (Dynamic Host Configuration Protocol)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Modelos de Referência: OSI vs. TCP/IP](#1-modelos-de-referencia-osi-vs-tcpip)
-    - [1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)](#11-estrutura-em-camadas-do-modelo-osi-7-niveis)
-    - [1.2 Arquitetura em Camadas da Pilha TCP/IP (4 Níveis)](#12-arquitetura-em-camadas-da-pilha-tcpip-4-niveis)
-    - [1.3 Unidades de Dados de Protocolo (PDU) e Encapsulamento](#13-unidades-de-dados-de-protocolo-pdu-e-encapsulamento)
-- [2. Endereçamento e Sub-redes IPv4](#2-enderecamento-e-sub-redes-ipv4)
-    - [2.1 Classes Históricas de Endereços (Classes A a E)](#21-classes-historicas-de-enderecos-classes-a-a-e)
-    - [2.2 Espaço de Endereçamento Privado (RFC 1918) e NAT/PAT](#22-espaco-de-enderecamento-privado-rfc-1918-e-natpat)
-    - [2.3 Roteamento Interdomínio Sem Classe (CIDR) e VLSM](#23-roteamento-interdominio-sem-classe-cidr-e-vlsm)
-    - [2.4 Mecânica de Cálculo de Sub-redes, Hosts Úteis e Tabela de Conversão](#24-mecanica-de-calculo-de-sub-redes-hosts-uteis-e-tabela-de-conversao)
-- [3. Endereçamento IPv6](#3-enderecamento-ipv6)
-    - [3.1 Estrutura de 128 Bits e Regras de Compactação Oficial (RFC 5952)](#31-estrutura-de-128-bits-e-regras-de-compactacao-oficial-rfc-5952)
-    - [3.2 Tipos de Transmissão no IPv6: Unicast, Anycast e Multicast (Extinção do Broadcast)](#32-tipos-de-transmissao-no-ipv6-unicast-anycast-e-multicast-extincao-do-broadcast)
-    - [3.3 Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)](#33-faixas-notaveis-de-enderecos-ipv6-loopback-link-local-ula-gua)
-    - [3.4 Autoconfiguração (SLAAC) e Mecanismos de Transição (Dual-Stack, Túneis, NAT64)](#34-autoconfiguracao-slaac-e-mecanismos-de-transicao-dual-stack-tuneis-nat64)
-- [4. Protocolo DNS (Domain Name System)](#4-protocolo-dns-domain-name-system)
-    - [4.1 Finalidade, Arquitetura Hierárquica e Portas UDP/TCP 53](#41-finalidade-arquitetura-hierarquica-e-portas-udptcp-53)
-    - [4.2 Consultas Recursivas vs. Consultas Iterativas](#42-consultas-recursivas-vs-consultas-iterativas)
-    - [4.3 Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)](#43-registros-de-recursos-a-aaaa-cname-mx-ns-ptr-soa-txt)
-- [5. Protocolo DHCP (Dynamic Host Configuration Protocol)](#5-protocolo-dhcp-dynamic-host-configuration-protocol)
-    - [5.1 Finalidade e Portas de Transporte UDP 67/68](#51-finalidade-e-portas-de-transporte-udp-6768)
-    - [5.2 O Ciclo DORA em 4 Etapas (Discover, Offer, Request, Acknowledge)](#52-o-ciclo-dora-em-4-etapas-discover-offer-request-acknowledge)
-    - [5.3 Timers de Renovação de Concessão (T1 e T2)](#53-timers-de-renovacao-de-concessao-t1-e-t2)
-    - [5.4 Agente de Retransmissão DHCP (DHCP Relay Agent)](#54-agente-de-retransmissao-dhcp-dhcp-relay-agent)
-- [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+
+1. [Modelos de Referência: OSI vs. TCP/IP](#1-modelos-de-referencia-osi-vs-tcpip)
+    1. [Estrutura em Camadas do Modelo OSI (7 Níveis)](#11-estrutura-em-camadas-do-modelo-osi-7-niveis)
+    2. [Arquitetura em Camadas da Pilha TCP/IP (4 Níveis)](#12-arquitetura-em-camadas-da-pilha-tcpip-4-niveis)
+    3. [Teste 432](#Teste-432)
+    4. [Unidades de Dados de Protocolo (PDU) e Encapsulamento](#13-unidades-de-dados-de-protocolo-pdu-e-encapsulamento)
+    5. [Teste 433](#Teste-433)
+2. [Endereçamento e Sub-redes IPv4](#2-enderecamento-e-sub-redes-ipv4)
+    1. [Classes Históricas de Endereços (Classes A a E)](#21-classes-historicas-de-enderecos-classes-a-a-e)
+    2. [Espaço de Endereçamento Privado (RFC 1918) e NAT/PAT](#22-espaco-de-enderecamento-privado-rfc-1918-e-natpat)
+    3. [Teste 434](#Teste-434)
+    4. [Roteamento Interdomínio Sem Classe (CIDR) e VLSM](#23-roteamento-interdominio-sem-classe-cidr-e-vlsm)
+    5. [Mecânica de Cálculo de Sub-redes, Hosts Úteis e Tabela de Conversão](#24-mecanica-de-calculo-de-sub-redes-hosts-uteis-e-tabela-de-conversao)
+    6. [Teste 435](#Teste-435)
+3. [Endereçamento IPv6](#3-enderecamento-ipv6)
+    1. [Estrutura de 128 Bits e Regras de Compactação Oficial (RFC 5952)](#31-estrutura-de-128-bits-e-regras-de-compactacao-oficial-rfc-5952)
+    2. [Tipos de Transmissão no IPv6: Unicast, Anycast e Multicast (Extinção do Broadcast)](#32-tipos-de-transmissao-no-ipv6-unicast-anycast-e-multicast-extincao-do-broadcast)
+    3. [Teste 436](#Teste-436)
+    4. [Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)](#33-faixas-notaveis-de-enderecos-ipv6-loopback-link-local-ula-gua)
+    5. [Autoconfiguração (SLAAC) e Mecanismos de Transição (Dual-Stack, Túneis, NAT64)](#34-autoconfiguracao-slaac-e-mecanismos-de-transicao-dual-stack-tuneis-nat64)
+    6. [Teste 437](#Teste-437)
+4. [Protocolo DNS (Domain Name System)](#4-protocolo-dns-domain-name-system)
+    1. [Finalidade, Arquitetura Hierárquica e Portas UDP/TCP 53](#41-finalidade-arquitetura-hierarquica-e-portas-udptcp-53)
+    2. [Consultas Recursivas vs. Consultas Iterativas](#42-consultas-recursivas-vs-consultas-iterativas)
+    3. [Teste 438](#Teste-438)
+    4. [Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)](#43-registros-de-recursos-a-aaaa-cname-mx-ns-ptr-soa-txt)
+    5. [Teste 439](#Teste-439)
+    6. [Teste 440](#Teste-440)
+5. [Protocolo DHCP (Dynamic Host Configuration Protocol)](#5-protocolo-dhcp-dynamic-host-configuration-protocol)
+    1. [Finalidade e Portas de Transporte UDP 67/68](#51-finalidade-e-portas-de-transporte-udp-6768)
+    2. [O Ciclo DORA em 4 Etapas (Discover, Offer, Request, Acknowledge)](#52-o-ciclo-dora-em-4-etapas-discover-offer-request-acknowledge)
+    3. [Teste 441](#Teste-441)
+    4. [Timers de Renovação de Concessão (T1 e T2)](#53-timers-de-renovacao-de-concessao-t1-e-t2)
+    5. [Agente de Retransmissão DHCP (DHCP Relay Agent)](#54-agente-de-retransmissao-dhcp-dhcp-relay-agent)
+    6. [Teste 442](#Teste-442)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Modelos de Referência: OSI vs. TCP/IP
 
@@ -75,7 +94,8 @@ Em contraposição ao modelo teórico OSI, a arquitetura prática dominante da I
 
 ---
 
-### Questão 01 (FCC - Adaptada / Analista de Tecnologia da Informação - Suporte de Redes)
+### Teste 432
+**(FCC - Adaptada / Analista de Tecnologia da Informação - Suporte de Redes)**
 No contexto das camadas do modelo de referência OSI e da arquitetura de protocolos da Internet (pilha TCP/IP), assinale a afirmativa correta:
 
 * **A)** A camada de Transporte do modelo OSI é responsável pelo endereçamento lógico global de pacotes e pela determinação de rotas ao longo dos sistemas autônomos da Internet.
@@ -83,6 +103,9 @@ No contexto das camadas do modelo de referência OSI e da arquitetura de protoco
 * **C)** O protocolo ARP (*Address Resolution Protocol*) opera no nível da camada de Transporte, sendo o responsável por mapear endereços de portas TCP em números de soquetes da aplicação.
 * **D)** Os endereços IPv4 `10.50.100.1`, `172.35.10.2` e `192.168.1.254` são todos classificados pelas normas da RFC 1918 como endereços estritamente privados e não roteáveis publicamente.
 * **E)** O protocolo TCP é classificado como não orientado à conexão e não provê garantias formais de entrega de dados, características estas que são exclusivas do protocolo UDP.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -123,7 +146,8 @@ flowchart LR
 
 ---
 
-### Questão 02 (FGV - TJ-AP / Analista Judiciário - TI - Unidades de Dados de Protocolo e Encapsulamento)
+### Teste 433
+**(FGV - TJ-AP / Analista Judiciário - TI - Unidades de Dados de Protocolo e Encapsulamento)**
 Na arquitetura em camadas dos modelos de redes de computadores (OSI e TCP/IP), o tráfego de saída sofre o processo progressivo de **Encapsulamento**, no qual cada camada empacota os dados da camada superior e anexa seus próprios cabeçalhos de controle.
 
 A respeito das Unidades de Dados de Protocolo (**PDUs**) manipuladas em cada nível da pilha TCP/IP, assinale a opção que apresenta a correspondência correta de nomenclatura da PDU e seu respectivo dispositivo/protocolo de atuação:
@@ -133,6 +157,9 @@ A respeito das Unidades de Dados de Protocolo (**PDUs**) manipuladas em cada ní
 * **C)** Camada de Aplicação: Bit puro em pulsos elétricos no cabo de par trançado.
 * **D)** Camada de Enlace: Mensagem HTTP em texto puro.
 * **E)** Camada de Transporte: Rota estática em formato JSON.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -149,7 +176,10 @@ A respeito das Unidades de Dados de Protocolo (**PDUs**) manipuladas em cada ní
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 2. Endereçamento e Sub-redes IPv4
 
@@ -187,7 +217,8 @@ Como os endereços privados da RFC 1918 não navegam na Internet, o roteador de 
 
 ---
 
-### Questão 03 (FCC - TRT / Analista de Redes - Endereçamento Privado RFC 1918 e NAT/PAT)
+### Teste 434
+**(FCC - TRT / Analista de Redes - Endereçamento Privado RFC 1918 e NAT/PAT)**
 Diante da iminência do esgotamento histórico de endereços IPv4 públicos globais, a IETF padronizou a separação entre blocos de endereços públicos roteáveis e blocos de endereçamento privado reservados para uso interno corporativo (**RFC 1918**), combinados com o mecanismo de **Tradução de Endereços de Rede (NAT/PAT)**.
 
 A respeito das faixas de endereçamento privado da RFC 1918 e do funcionamento do **NAPT/PAT** (*Network Address Port Translation*), assinale a afirmativa correta:
@@ -197,6 +228,9 @@ A respeito das faixas de endereçamento privado da RFC 1918 e do funcionamento d
 * **C)** O NAT proíbe que qualquer pacote saia da rede local para a internet.
 * **D)** O PAT exige que cada computador da rede interna possua seu próprio endereço IP público registrado no Registro.br.
 * **E)** Endereços privados da RFC 1918 são roteados normalmente na internet sem necessidade de qualquer tradução por firewalls ou roteadores.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -251,7 +285,8 @@ O cálculo sistemático de qualquer sub-rede IPv4 parte de fórmulas matemática
 
 ---
 
-### Questão 04 (FCC - Adaptada / Analista de Tecnologia da Informação - Redes)
+### Teste 435
+**(FCC - Adaptada / Analista de Tecnologia da Informação - Redes)**
 Um analista de infraestrutura de redes recebeu a incumbência de particionar o bloco IPv4 privado `192.168.10.0/24` para atender a 4 sub-redes destinadas a diferentes setores de uma secretaria estadual. O setor mais numeroso exige suporte a um máximo de 26 computadores conectados simultaneamente com IPs úteis. O analista deseja utilizar uma máscara de sub-rede idêntica em todas as novas sub-redes, garantindo a menor quantidade possível de endereços desperdiçados e reservando o maior número possível de novas sub-redes para futuras expansões.
 
 Assinale a alternativa que apresenta, correta e respectivamente, a máscara de sub-rede em notação CIDR adotada, o número máximo de sub-redes que podem ser obtidas a partir do bloco original e o número de endereços IP úteis disponíveis em cada sub-rede:
@@ -261,6 +296,9 @@ Assinale a alternativa que apresenta, correta e respectivamente, a máscara de s
 * **C)** `/28`, 16 sub-redes e 14 hosts úteis
 * **D)** `/27`, 4 sub-redes e 32 hosts úteis
 * **E)** `/25`, 2 sub-redes e 126 hosts úteis
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -272,8 +310,9 @@ Assinale a alternativa que apresenta, correta e respectivamente, a máscara de s
 > 
 > **Gabarito: A**
 
----
 
+
+---
 
 
 ## 3. Endereçamento IPv6
@@ -307,7 +346,8 @@ No IPv6, os métodos de transmissão de pacotes operam sob três paradigmas form
 
 ---
 
-### Questão 05 (FGV - TRT / Analista Judiciário - TI - Endereçamento IPv6 e Extinção do Broadcast)
+### Teste 436
+**(FGV - TRT / Analista Judiciário - TI - Endereçamento IPv6 e Extinção do Broadcast)**
 O protocolo IPv6 resolve o esgotamento do IPv4 oferecendo um espaço de endereçamento de 128 bits ($2^{128} \approx 3,4 \times 10^{38}$ endereços), estruturado em 8 grupos de 4 dígitos hexadecimais separados por dois-pontos.
 
 A respeito das regras formais de simplificação/compactação de endereços IPv6 (RFC 5952) e dos tipos de transmissão suportados, assinale a afirmativa correta:
@@ -317,6 +357,9 @@ A respeito das regras formais de simplificação/compactação de endereços IPv
 * **C)** O endereço de loopback do IPv6 é `127.0.0.1`.
 * **D)** O símbolo `::` pode ser utilizado 5 vezes no mesmo endereço IPv6 sem qualquer problema de ambiguidade.
 * **E)** Endereços IPv6 são obrigatoriamente convertidos para decimal antes de serem enviados pela placa de rede.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -356,7 +399,8 @@ A respeito das regras formais de simplificação/compactação de endereços IPv
 
 ---
 
-### Questão 06 (FCC - TRT / Analista de Redes - Mecanismos de Transição para o IPv6)
+### Teste 437
+**(FCC - TRT / Analista de Redes - Mecanismos de Transição para o IPv6)**
 A migração mundial da internet do IPv4 para o IPv6 ocorre de forma gradual e heterogênea. Como os cabeçalhos dos protocolos IPv4 e IPv6 são mutuamente incompatíveis entre si, a engenharia de redes desenvolveu técnicas formais de coexistência e transição.
 
 As três categorias clássicas de mecanismos de transição padronizadas pela IETF são:
@@ -366,6 +410,9 @@ As três categorias clássicas de mecanismos de transição padronizadas pela IE
 * **C)** Sub-rede Classe A, Sub-rede Classe B e Sub-rede Classe C.
 * **D)** Backup Full, Backup Incremental e Backup Diferencial.
 * **E)** CSMA/CD, Token Ring e FDDI.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -380,7 +427,10 @@ As três categorias clássicas de mecanismos de transição padronizadas pela IE
 > 
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 4. Protocolo DNS (Domain Name System)
 
@@ -420,7 +470,8 @@ sequenceDiagram
 
 ---
 
-### Questão 07 (FGV - TRT / Analista Judiciário - TI - Consultas DNS: Recursivas vs. Iterativas)
+### Teste 438
+**(FGV - TRT / Analista Judiciário - TI - Consultas DNS: Recursivas vs. Iterativas)**
 O Domain Name System (DNS) é uma base de dados hierárquica e distribuída mundialmente, responsável por converter nomes amigáveis (FQDN, como `www.tce.go.gov.br`) em endereços IP numéricos.
 
 A respeito do fluxo de resolução de nomes e da distinção entre **Consultas Recursivas** e **Consultas Iterativas**, assinale a afirmativa correta:
@@ -430,6 +481,9 @@ A respeito do fluxo de resolução de nomes e da distinção entre **Consultas R
 * **C)** Servidores DNS Raiz (*Root DNS Servers*) realizam obrigatoriamente consultas recursivas para todos os usuários domésticos do planeta.
 * **D)** O protocolo DNS utiliza exclusivamente a porta TCP 8080 para resolver nomes de computadores.
 * **E)** Consultas iterativas são proibidas na internet por violarem direitos autorais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -463,7 +517,8 @@ A respeito do fluxo de resolução de nomes e da distinção entre **Consultas R
 
 ---
 
-### Questão 08 (FCC - Adaptada / Analista de Sistemas - Suporte e Infraestrutura)
+### Teste 439
+**(FCC - Adaptada / Analista de Sistemas - Suporte e Infraestrutura)**
 Considere as seguintes assertivas a respeito da arquitetura do protocolo IPv6, comparativamente ao legado IPv4:
 
 I. O protocolo IPv6 aboliu o conceito de transmissão em difusão geral (*broadcast*); mensagens destinadas a múltiplos dispositivos utilizam mecanismos e endereços de *multicast*.  
@@ -480,6 +535,9 @@ Está correto o que se afirma em:
 * **D)** I, II e III.
 * **E)** I, apenas.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. O Item I é verdadeiro porque o broadcast foi formalmente extinto no IPv6, sendo substituído por multicast estruturado e anycast. O Item II é verdadeiro porque `fe80::/10` é a faixa Link-Local gerada automaticamente em qualquer interface IPv6 para operação no enlace local. O Item III é falso porque a resolução de nomes para IPv6 utiliza o registro `AAAA` (*Quad-A*), e servidores de e-mail são mapeados por registros `MX`.
@@ -492,7 +550,8 @@ Está correto o que se afirma em:
 
 ---
 
-### Questão 09 (FCC - Adaptada / Analista de Sistemas - Infraestrutura de Redes)
+### Teste 440
+**(FCC - Adaptada / Analista de Sistemas - Infraestrutura de Redes)**
 Considere os conceitos de resolução de nomes, delegação e estrutura de registros de recursos do protocolo DNS (*Domain Name System*).
 
 Sobre os tipos de registros DNS e a mecânica de funcionamento desse serviço, é correto afirmar:
@@ -502,6 +561,9 @@ Sobre os tipos de registros DNS e a mecânica de funcionamento desse serviço, �
 * **C)** O processo de resolução iterativa exige que o primeiro servidor DNS consultado assuma o encargo de percorrer toda a árvore hierárquica mundial da Internet até devolver a resposta final resolvida ao cliente requisitante.
 * **D)** O registro do tipo `PTR` é utilizado nos servidores DNS autoritativos para definir os nós balanceadores de carga responsáveis por redirecionar requisições HTTP para instâncias de contêineres.
 * **E)** A consulta reversa de DNS para endereços da arquitetura IPv4 utiliza o domínio de topo especial denominado `ip6.arpa`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -513,8 +575,9 @@ Sobre os tipos de registros DNS e a mecânica de funcionamento desse serviço, �
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 5. Protocolo DHCP (Dynamic Host Configuration Protocol)
@@ -558,7 +621,8 @@ sequenceDiagram
 
 ---
 
-### Questão 10 (FCC - Adaptada / Analista de Tecnologia da Informação - Suporte Técnico)
+### Teste 441
+**(FCC - Adaptada / Analista de Tecnologia da Informação - Suporte Técnico)**
 Em uma rede local corporativa onde as estações de trabalho obtêm suas configurações lógicas dinamicamente por meio do protocolo DHCP, um analista observou a troca de pacotes entre um cliente recém-conectado e o servidor de rede. 
 
 A respeito do ciclo operacional de quatro etapas do DHCP (processo DORA), assinale a afirmativa correta:
@@ -568,6 +632,9 @@ A respeito do ciclo operacional de quatro etapas do DHCP (processo DORA), assina
 * **C)** O protocolo DHCP utiliza o protocolo de transporte TCP na porta 67 para garantir a entrega ordenada e retransmissão de todas as mensagens de negociação de endereços.
 * **D)** O tempo de concessão (*lease time*) de um endereço IP atribuído pelo DHCP é perene e imutável, não permitindo renovação até que a máquina cliente seja fisicamente desligada da tomada.
 * **E)** Quando o cliente e o servidor DHCP estão localizados em redes lógicas distintas separadas por um roteador, o ciclo DORA opera naturalmente sem a necessidade de nenhum recurso intermediário de retransmissão.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -604,7 +671,8 @@ Para evitar a necessidade de instalar um servidor DHCP físico em cada sala ou f
 
 ---
 
-### Questão 11 (FCC - TRT / Analista de Tecnologia da Informação - DHCP: Timers T1/T2 e DHCP Relay Agent)
+### Teste 442
+**(FCC - TRT / Analista de Tecnologia da Informação - DHCP: Timers T1/T2 e DHCP Relay Agent)**
 O protocolo DHCP (*Dynamic Host Configuration Protocol*) automatiza a concessão dinâmica de endereços IP, máscaras de rede, gateway padrão e servidores DNS em redes locais.
 
 A respeito do ciclo de renovação de concessão (*Lease Time*) e do papel do **Agente de Retransmissão DHCP (*DHCP Relay Agent*)**, assinale a afirmativa correta:
@@ -614,6 +682,9 @@ A respeito do ciclo de renovação de concessão (*Lease Time*) e do papel do **
 * **C)** O DHCP Relay Agent converte pacotes IPv4 em sinais de rádio analógicos em amplitude modulada (AM).
 * **D)** O Timer T1 é disparado exatamente no instante em que o tempo de concessão expira em 100%.
 * **E)** O protocolo DHCP opera nas portas TCP 20 e 21.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -629,7 +700,10 @@ A respeito do ciclo de renovação de concessão (*Lease Time*) e do papel do **
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 6. Fontes Recomendadas na Internet
 

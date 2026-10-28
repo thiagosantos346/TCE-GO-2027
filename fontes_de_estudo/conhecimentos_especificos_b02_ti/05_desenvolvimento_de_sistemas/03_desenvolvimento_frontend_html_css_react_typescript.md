@@ -4,43 +4,62 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_desenvolvimento_frontend_html_css_react_typescript.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Desenvolvimento web: HTML5, CSS3 e TypeScript
 - Desenvolvimento front-end com biblioteca React
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos de HTML5 Semântico e Acessibilidade](#1-fundamentos-de-html5-semantico-e-acessibilidade)
-    - [1.1 Estrutura Básica do Documento e Metatags Essenciais](#11-estrutura-basica-do-documento-e-metatags-essenciais)
-    - [1.2 Elementos Semânticos e Seccionamento de Conteúdo](#12-elementos-semanticos-e-seccionamento-de-conteudo)
-    - [1.3 Formulários Modernos e Validação Nativa](#13-formularios-modernos-e-validacao-nativa)
-    - [1.4 Mídia, Gráficos e Acessibilidade Digital (WCAG e WAI-ARIA)](#14-midia-graficos-e-acessibilidade-digital-wcag-e-wai-aria)
-- [2. Estilização com CSS3](#2-estilizacao-com-css3)
-    - [2.1 Cascata, Seletores e Cálculo de Especificidade CSS](#21-cascata-seletores-e-calculo-de-especificidade-css)
-    - [2.2 Modelo de Caixa (Box Model) e a Propriedade `box-sizing`](#22-modelo-de-caixa-box-model-e-a-propriedade-box-sizing)
-    - [2.3 Layouts Flexíveis com Flexbox (Unidimensional)](#23-layouts-flexiveis-com-flexbox-unidimensional)
-    - [2.4 Grid Bidimensional (CSS Grid Layout)](#24-grid-bidimensional-css-grid-layout)
-    - [2.5 Design Responsivo, Mobile-First e Unidades de Medida](#25-design-responsivo-mobile-first-e-unidades-de-medida)
-    - [2.6 Transições, Transformações e Animações CSS](#26-transicoes-transformacoes-e-animacoes-css)
-- [3. TypeScript: Tipagem Estática no Front-end](#3-typescript-tipagem-estatica-no-front-end)
-    - [3.1 Arquitetura, Transpilação e o Arquivo `tsconfig.json`](#31-arquitetura-transpilacao-e-o-arquivo-tsconfigjson)
-    - [3.2 Sistema de Tipos: Primitivos e Tipos Especiais (`any`, `unknown`, `never`, `void`)](#32-sistema-de-tipos-primitivos-e-tipos-especiais-any-unknown-never-void)
-    - [3.3 Union, Intersection Types e Type Narrowing](#33-union-intersection-types-e-type-narrowing)
-    - [3.4 Interfaces vs. Type Aliases e Declaration Merging](#34-interfaces-vs-type-aliases-e-declaration-merging)
-    - [3.5 Generics e Utility Types Fundamentais](#35-generics-e-utility-types-fundamentais)
-- [4. Desenvolvimento Front-end com a Biblioteca React](#4-desenvolvimento-front-end-com-a-biblioteca-react)
-    - [4.1 Paradigma Declarativo, Componentização e Sintaxe JSX](#41-paradigma-declarativo-componentizacao-e-sintaxe-jsx)
-    - [4.2 Virtual DOM e o Algoritmo de Reconciliação (Fiber)](#42-virtual-dom-e-o-algoritmo-de-reconciliacao-fiber)
-    - [4.3 Propriedades (Props), Fluxo Unidirecional e Renderização de Listas com `key`](#43-propriedades-props-fluxo-unidirecional-e-renderizacao-de-listas-com-key)
-    - [4.4 Gerenciamento de Estado e Ciclo de Vida com Hooks (`useState`, `useEffect`)](#44-gerenciamento-de-estado-e-ciclo-de-vida-com-hooks-usestate-useeffect)
-    - [4.5 Gerenciamento Global com `useContext` e Hooks de Performance (`useMemo`, `useCallback`, `useRef`)](#45-gerenciamento-global-com-usecontext-e-hooks-de-performance-usememo-usecallback-useref)
-    - [4.6 Formulários: Componentes Controlados vs. Não Controlados](#46-formularios-componentes-controlados-vs-nao-controlados)
-- [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
+
+1. [Fundamentos de HTML5 Semântico e Acessibilidade](#1-fundamentos-de-html5-semantico-e-acessibilidade)
+    1. [Estrutura Básica do Documento e Metatags Essenciais](#11-estrutura-basica-do-documento-e-metatags-essenciais)
+    2. [Elementos Semânticos e Seccionamento de Conteúdo](#12-elementos-semanticos-e-seccionamento-de-conteudo)
+    3. [Teste 076](#Teste-076)
+    4. [Formulários Modernos e Validação Nativa](#13-formularios-modernos-e-validacao-nativa)
+    5. [Mídia, Gráficos e Acessibilidade Digital (WCAG e WAI-ARIA)](#14-midia-graficos-e-acessibilidade-digital-wcag-e-wai-aria)
+    6. [Teste 077](#Teste-077)
+2. [Estilização com CSS3](#2-estilizacao-com-css3)
+    1. [Cascata, Seletores e Cálculo de Especificidade CSS](#21-cascata-seletores-e-calculo-de-especificidade-css)
+    2. [Teste 078](#Teste-078)
+    3. [Modelo de Caixa (Box Model) e a Propriedade `box-sizing`](#22-modelo-de-caixa-box-model-e-a-propriedade-box-sizing)
+    4. [Teste 079](#Teste-079)
+    5. [Layouts Flexíveis com Flexbox (Unidimensional)](#23-layouts-flexiveis-com-flexbox-unidimensional)
+    6. [Teste 080](#Teste-080)
+    7. [Grid Bidimensional (CSS Grid Layout)](#24-grid-bidimensional-css-grid-layout)
+    8. [Design Responsivo, Mobile-First e Unidades de Medida](#25-design-responsivo-mobile-first-e-unidades-de-medida)
+    9. [Transições, Transformações e Animações CSS](#26-transicoes-transformacoes-e-animacoes-css)
+3. [TypeScript: Tipagem Estática no Front-end](#3-typescript-tipagem-estatica-no-front-end)
+    1. [Arquitetura, Transpilação e o Arquivo `tsconfig.json`](#31-arquitetura-transpilacao-e-o-arquivo-tsconfigjson)
+    2. [Sistema de Tipos: Primitivos e Tipos Especiais (`any`, `unknown`, `never`, `void`)](#32-sistema-de-tipos-primitivos-e-tipos-especiais-any-unknown-never-void)
+    3. [Teste 081](#Teste-081)
+    4. [Union, Intersection Types e Type Narrowing](#33-union-intersection-types-e-type-narrowing)
+    5. [Interfaces vs. Type Aliases e Declaration Merging](#34-interfaces-vs-type-aliases-e-declaration-merging)
+    6. [Teste 082](#Teste-082)
+    7. [Generics e Utility Types Fundamentais](#35-generics-e-utility-types-fundamentais)
+    8. [Teste 083](#Teste-083)
+4. [Desenvolvimento Front-end com a Biblioteca React](#4-desenvolvimento-front-end-com-a-biblioteca-react)
+    1. [Paradigma Declarativo, Componentização e Sintaxe JSX](#41-paradigma-declarativo-componentizacao-e-sintaxe-jsx)
+    2. [Virtual DOM e o Algoritmo de Reconciliação (Fiber)](#42-virtual-dom-e-o-algoritmo-de-reconciliacao-fiber)
+    3. [Propriedades (Props), Fluxo Unidirecional e Renderização de Listas com `key`](#43-propriedades-props-fluxo-unidirecional-e-renderizacao-de-listas-com-key)
+    4. [Teste 084](#Teste-084)
+    5. [Gerenciamento de Estado e Ciclo de Vida com Hooks (`useState`, `useEffect`)](#44-gerenciamento-de-estado-e-ciclo-de-vida-com-hooks-usestate-useeffect)
+    6. [Teste 085](#Teste-085)
+    7. [Gerenciamento Global com `useContext` e Hooks de Performance (`useMemo`, `useCallback`, `useRef`)](#45-gerenciamento-global-com-usecontext-e-hooks-de-performance-usememo-usecallback-useref)
+    8. [Teste 086](#Teste-086)
+    9. [Formulários: Componentes Controlados vs. Não Controlados](#46-formularios-componentes-controlados-vs-nao-controlados)
+5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Fundamentos de HTML5 Semântico e Acessibilidade
 
@@ -100,7 +119,8 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Auditor Fiscal / Tecnologia da Informação)
+### Teste 076
+**(FCC - Auditor Fiscal / Tecnologia da Informação)**
 No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes de acessibilidade na Web (W3C / WCAG), assinale a afirmativa tecnicamente correta:  
 
 * **A)** O elemento `<article>` deve ser utilizado exclusivamente para criar tabelas de dados financeiros de auditoria, sendo vedado para artigos de texto.
@@ -108,6 +128,9 @@ No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes
 * **C)** O elemento `<main>` deve encapsular o conteúdo central e específico do documento, não devendo ser duplicado em um mesmo documento exibido, e conteúdos que se repetem entre páginas (como cabeçalhos de topo e rodapés gerais) devem ficar fora dele.
 * **D)** As tags de agrupamento genérico `<div>` e `<span>` possuem semântica rica superior às tags `<section>` e `<nav>`, sendo preferíveis pelos leitores de tela.
 * **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -181,7 +204,7 @@ As diretrizes WCAG (*Web Content Accessibility Guidelines*) da W3C são organiza
 ---
 
 
-### Questão 02
+### Teste 077
 **(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
 As diretrizes de acessibilidade para conteúdo web (WCAG 2.1) e a especificação WAI-ARIA definem normas e atributos semânticos para tornar aplicações web acessíveis a pessoas com deficiência. Em relação a essas normas, é correto afirmar:
 
@@ -190,6 +213,9 @@ As diretrizes de acessibilidade para conteúdo web (WCAG 2.1) e a especificaçã
 * **C)** O atributo `aria-hidden="true"` força o elemento a ser lido prioritariamente em voz alta por leitores de tela.
 * **D)** As WCAG preconizam que o contraste entre texto e fundo deve ser o menor possível para não ofuscar a visão do usuário.
 * **E)** Aplicações web acessíveis são proibidas de permitir navegação por teclado, exigindo uso exclusivo de mouses de alta precisão.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -201,7 +227,10 @@ As diretrizes de acessibilidade para conteúdo web (WCAG 2.1) e a especificaçã
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 2. Estilização com CSS3
 
@@ -239,7 +268,8 @@ flowchart LR
 
 ---
 
-### Questão 03 (FCC - Analista de TI / Sistemas)
+### Teste 078
+**(FCC - Analista de TI / Sistemas)**
 Considere as seguintes regras de estilização declaradas em um arquivo CSS3 externo para formatar um mesmo elemento de título em uma página web:
 
 ```css
@@ -271,6 +301,9 @@ A cor final com que o texto do título `Relatório de Conformidade` será render
 * **C)** Roxo (*purple*), porque a Regra 4 combina um ID (`#secao-principal`), uma classe (`.titulo`) e duas tags (`div` e `h1`), somando uma especificidade superior à da Regra 2.
 * **D)** Verde, porque a Regra 3 é a penúltima declarada e as classes sobrepõem identificadores únicos no CSS3 moderno.
 * **E)** Roxo (*purple*), porque a regra foi escrita na última linha do arquivo CSS e o desempate na cascata dá vitória estrita à regra de menor número de seletores.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -317,7 +350,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Teste 079
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No modelo de caixa do CSS3 (*Box Model*), a propriedade `box-sizing` altera a forma como a largura (*width*) e a altura (*height*) totais de um elemento HTML são calculadas no layout da página. Ao aplicar a regra `box-sizing: border-box;` a um elemento com `width: 300px; padding: 20px; border: 5px solid black;`, tem-se que:
 
@@ -326,6 +359,9 @@ No modelo de caixa do CSS3 (*Box Model*), a propriedade `box-sizing` altera a fo
 * **C)** O navegador ignorará o padding e exibirá o conteúdo com largura de 300px e borda invisível.
 * **D)** A propriedade `border-box` elimina a margem externa (*margin*) do elemento em todas as resoluções.
 * **E)** O elemento será renderizado com largura infinita por colapso do modelo de renderização.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -358,7 +394,7 @@ O Flexbox (`display: flex`) é um modelo de layout voltado para a distribuição
 
 ---
 
-### Questão 05
+### Teste 080
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No módulo CSS Flexible Box Layout (*Flexbox*), para alinhar os itens filhos (*flex items*) ao longo do eixo transversal ou cruzado (*cross axis*) dentro do contêiner flexível, utiliza-se no elemento pai a propriedade:
 
@@ -367,6 +403,9 @@ No módulo CSS Flexible Box Layout (*Flexbox*), para alinhar os itens filhos (*f
 * **C)** `flex-direction`
 * **D)** `flex-wrap`
 * **E)** `order`
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -438,7 +477,10 @@ Diferentemente do Flexbox, o CSS Grid (`display: grid`) é um sistema **bidimens
 .alerta { animation: pulsar 2s infinite ease-in-out; }
 ```
 
+
+
 ---
+
 
 ## 3. TypeScript: Tipagem Estática no Front-end
 
@@ -468,7 +510,7 @@ Além dos tipos primitivos comuns (`string`, `number`, `boolean`, `null`, `undef
 
 ---
 
-### Questão 06
+### Teste 081
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na linguagem TypeScript, os tipos especiais `any` e `unknown` fornecem suporte a valores cujos tipos não são conhecidos a priori. A diferença crucial de segurança de tipos (*type safety*) entre `any` e `unknown` consiste em:
 
@@ -477,6 +519,9 @@ Na linguagem TypeScript, os tipos especiais `any` e `unknown` fornecem suporte a
 * **C)** `unknown` só pode armazenar valores booleanos primitivos, enquanto `any` aceita qualquer objeto.
 * **D)** o TypeScript não aceita atribuição de novos valores a variáveis do tipo `unknown`.
 * **E)** variáveis do tipo `any` são convertidas automaticamente para `never` em tempo de execução.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -535,7 +580,7 @@ type Ponto2D = [number, number];
 
 ---
 
-### Questão 07
+### Teste 082
 **(FGV – TJ – Analista de Sistemas / Front-end)**  
 No ecossistema TypeScript, desenvolvedores podem declarar formatos estruturais utilizando `interface` ou `type` (*type alias*). Um recurso exclusivo das `interfaces` que não é suportado por `type aliases` é:
 
@@ -544,6 +589,9 @@ No ecossistema TypeScript, desenvolvedores podem declarar formatos estruturais u
 * **C)** A criação de uniões de tipos primitivos utilizando o operador `|`.
 * **D)** A compatibilidade com tipagem estática em tempo de compilação.
 * **E)** O suporte a parâmetros genéricos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -584,7 +632,8 @@ O TypeScript inclui um conjunto poderoso de utilitários de transformação de t
 
 ---
 
-### Questão 08 (FCC - Técnico de Controle Externo / TI)
+### Teste 083
+**(FCC - Técnico de Controle Externo / TI)**
 Na linguagem TypeScript, suponha que exista a definição do seguinte tipo base:
 
 ```typescript
@@ -604,6 +653,9 @@ Para declarar um novo tipo derivado denominado `ProcessoEdicao`, que contenha ri
 * **D)** `Omit<ProcessoAuditoria, "id">`
 * **E)** `Record<string, ProcessoAuditoria>`
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O tipo utilitário `Required<T>` executa a transformação inversa: remove todas as interrogações `?`, tornando todas as propriedades estritamente obrigatórias.
@@ -614,8 +666,9 @@ Para declarar um novo tipo derivado denominado `ProcessoEdicao`, que contenha ri
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 4. Desenvolvimento Front-end com a Biblioteca React
@@ -673,7 +726,8 @@ Ao utilizar `.map()` para transformar um array de objetos em elementos visuais, 
 
 ---
 
-### Questão 09 (FCC - Analista de Sistemas / Desenvolvimento)
+### Teste 084
+**(FCC - Analista de Sistemas / Desenvolvimento)**
 Na biblioteca React, ao iterar sobre uma lista de dados para renderizar múltiplos componentes utilizando a função `.map()`, os desenvolvedores devem obrigatoriamente fornecer a propriedade especial `key` para cada item retornado.
 
 A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de reconciliação do React, assinale a afirmativa correta:  
@@ -683,6 +737,9 @@ A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de
 * **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila.
 * **D)** As chaves `key` devem ser obrigatoriamente números inteiros sequenciais gerados aleatoriamente com `Math.random()` a cada ciclo de renderização.
 * **E)** A propriedade `key` é repassada automaticamente pelo React para o componente filho como uma prop ordinária, podendo ser acessada livremente no código filho via `props.key`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -735,7 +792,8 @@ flowchart TD
 
 ---
 
-### Questão 10 (FCC - Analista de TI / Front-end)
+### Teste 085
+**(FCC - Analista de TI / Front-end)**
 Em uma aplicação desenvolvida com a biblioteca React utilizando componentes funcionais e Hooks, um programador implementou a seguinte rotina para sincronizar uma listagem de auditorias fiscais com o servidor backend:
 
 ```jsx
@@ -759,6 +817,9 @@ Ao executar essa aplicação no navegador, o comportamento verificado pelo desen
 * **C)** O React emite um erro de compilação em tempo de execução porque funções assíncronas não são permitidas dentro de componentes funcionais.
 * **D)** A lista de processos jamais será atualizada porque o Hook `useState` não dispara re-renderização quando recebe arrays de dados.
 * **E)** A requisição HTTP falha compulsoriamente devido à falta do cabeçalho de acessibilidade `aria-live` no elemento `<div>`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -821,7 +882,7 @@ const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
 
 ---
 
-### Questão 11
+### Teste 086
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na biblioteca React (versões 16.8+ baseadas em Hooks), a otimização de performance e a manipulação de instâncias mutáveis utilizam hooks especializados. A correta distinção conceitual entre `useMemo`, `useCallback` e `useRef` estabelece que:
 
@@ -830,6 +891,9 @@ Na biblioteca React (versões 16.8+ baseadas em Hooks), a otimização de perfor
 * **C)** todos os três hooks são executados exclusivamente após a aplicação ser desinstalada da máquina do cliente.
 * **D)** `useRef` só pode ser utilizado para conectar a aplicação ao banco de dados PostgreSQL.
 * **E)** `useCallback` recalcula o valor sempre que qualquer componente irmão for renderizado no Virtual DOM.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -853,7 +917,10 @@ Na biblioteca React (versões 16.8+ baseadas em Hooks), a otimização de perfor
 
 - **Componentes Não Controlados (*Uncontrolled Components*):** O valor do campo é gerenciado internamente pelo próprio DOM do navegador. O React recupera o valor sob demanda no momento do submit utilizando uma referência (`useRef`).
 
+
+
 ---
+
 
 ## 5. Fontes Recomendadas na Internet
 

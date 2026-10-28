@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_fundamentos_llms_intent_based_e_engenharia_de_prompts.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Fundamentos da IA aplicada ao desenvolvimento de software
@@ -13,27 +16,42 @@
 - Desenvolvimento orientado a linguagem natural (Natural Language Programming)
 - Engenharia de contexto e engenharia de prompts aplicadas à geração de código
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Modelos de Linguagem de Grande Porte (LLMs) no Desenvolvimento de Software](#1-modelos-de-linguagem-de-grande-porte-llms-no-desenvolvimento-de-software)
-    - [1.1 A Arquitetura Transformer e o Mecanismo de Autoatenção (Self-Attention)](#11-a-arquitetura-transformer-e-o-mecanismo-de-autoatencao-self-attention)
-    - [1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder](#12-variantes-arquiteturais-encoder-only-decoder-only-e-encoder-decoder)
-    - [1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)](#13-ciclo-de-vida-do-treinamento-pre-treinamento-sft-e-alinhamento-rlhfdpo)
-    - [1.4 Tokenização, Vocabulário e Gestão de Custos Computacionais](#14-tokenizacao-vocabulario-e-gestao-de-custos-computacionais)
-    - [1.5 Hiperparâmetros de Inferência e Amostragem: Temperature, Top-P e Penalidades](#15-hiperparametros-de-inferencia-e-amostragem-temperature-top-p-e-penalidades)
-- [2. Programação Baseada em Intenção e Linguagem Natural](#2-programacao-baseada-em-intencao-e-linguagem-natural)
-    - [2.1 Intent-Based Programming: A Transição do "COMO" para o "O QUÊ"](#21-intent-based-programming-a-transicao-do-como-para-o-o-que)
-    - [2.2 Sintaxe Estrita vs. Semântica Declarativa e Contratos de Interface](#22-sintaxe-estrita-vs-semantica-declarativa-e-contratos-de-interface)
-    - [2.3 Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis](#23-especificacoes-dirigidas-por-comportamento-bdd-como-prompts-executaveis)
-- [3. Engenharia de Prompts e Engenharia de Contexto para Software](#3-engenharia-de-prompts-e-engenharia-de-contexto-para-software)
-    - [3.1 Estrutura Canônica de um Prompt de Código Corporativo](#31-estrutura-canonica-de-um-prompt-de-codigo-corporativo)
-    - [3.2 Técnicas Centrais de Prompting: Zero-Shot, Few-Shot, CoT e Test-Driven](#32-tecnicas-centrais-de-prompting-zero-shot-few-shot-cot-e-test-driven)
-    - [3.3 Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"](#33-janela-de-contexto-e-a-mitigacao-do-efeito-lost-in-the-middle)
-    - [3.4 Curadoria de Contexto e Minimização de Ruído no Repositório](#34-curadoria-de-contexto-e-minimizacao-de-ruido-no-repositorio)
-- [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
+
+1. [Modelos de Linguagem de Grande Porte (LLMs) no Desenvolvimento de Software](#1-modelos-de-linguagem-de-grande-porte-llms-no-desenvolvimento-de-software)
+    1. [A Arquitetura Transformer e o Mecanismo de Autoatenção (Self-Attention)](#11-a-arquitetura-transformer-e-o-mecanismo-de-autoatencao-self-attention)
+    2. [Teste 119](#Teste-119)
+    3. [Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder](#12-variantes-arquiteturais-encoder-only-decoder-only-e-encoder-decoder)
+    4. [Teste 120](#Teste-120)
+    5. [Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)](#13-ciclo-de-vida-do-treinamento-pre-treinamento-sft-e-alinhamento-rlhfdpo)
+    6. [Teste 121](#Teste-121)
+    7. [Tokenização, Vocabulário e Gestão de Custos Computacionais](#14-tokenizacao-vocabulario-e-gestao-de-custos-computacionais)
+    8. [Hiperparâmetros de Inferência e Amostragem: Temperature, Top-P e Penalidades](#15-hiperparametros-de-inferencia-e-amostragem-temperature-top-p-e-penalidades)
+    9. [Teste 122](#Teste-122)
+2. [Programação Baseada em Intenção e Linguagem Natural](#2-programacao-baseada-em-intencao-e-linguagem-natural)
+    1. [Intent-Based Programming: A Transição do "COMO" para o "O QUÊ"](#21-intent-based-programming-a-transicao-do-como-para-o-o-que)
+    2. [Teste 123](#Teste-123)
+    3. [Sintaxe Estrita vs. Semântica Declarativa e Contratos de Interface](#22-sintaxe-estrita-vs-semantica-declarativa-e-contratos-de-interface)
+    4. [Teste 124](#Teste-124)
+    5. [Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis](#23-especificacoes-dirigidas-por-comportamento-bdd-como-prompts-executaveis)
+3. [Engenharia de Prompts e Engenharia de Contexto para Software](#3-engenharia-de-prompts-e-engenharia-de-contexto-para-software)
+    1. [Estrutura Canônica de um Prompt de Código Corporativo](#31-estrutura-canonica-de-um-prompt-de-codigo-corporativo)
+    2. [Técnicas Centrais de Prompting: Zero-Shot, Few-Shot, CoT e Test-Driven](#32-tecnicas-centrais-de-prompting-zero-shot-few-shot-cot-e-test-driven)
+    3. [Teste 125](#Teste-125)
+    4. [Teste 126](#Teste-126)
+    5. [Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"](#33-janela-de-contexto-e-a-mitigacao-do-efeito-lost-in-the-middle)
+    6. [Teste 127](#Teste-127)
+    7. [Curadoria de Contexto e Minimização de Ruído no Repositório](#34-curadoria-de-contexto-e-minimizacao-de-ruido-no-repositorio)
+    8. [Teste 128](#Teste-128)
+4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Modelos de Linguagem de Grande Porte (LLMs) no Desenvolvimento de Software
 
@@ -68,7 +86,8 @@ $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{Q K^T}{\sqrt{d_k}}\right
 
 ---
 
-### Questão 01 (FCC - Padrão Concursos TI / Fundamentos de Tokenização e Transformers)
+### Teste 119
+**(FCC - Padrão Concursos TI / Fundamentos de Tokenização e Transformers)**
 Durante a integração de um modelo de linguagem baseado na arquitetura Transformer com uma esteira de desenvolvimento de software em uma Secretaria da Fazenda, a equipe de arquitetura analisou os aspectos de tokenização de código-fonte e o mecanismo de atenção do modelo.
 
 A respeito desse funcionamento interno, assinale a afirmativa correta:  
@@ -78,6 +97,9 @@ A respeito desse funcionamento interno, assinale a afirmativa correta:
 * **C)** Na arquitetura Transformer do tipo *Decoder-Only*, a máscara causal (*Causal Masking*) impede que a previsão do próximo token tenha acesso aos tokens subsequentes da sequência, viabilizando a geração de código autoregressiva.
 * **D)** A indentação em Python (quatro espaços) consome obrigatoriamente 40 tokens por linha em qualquer tokenizador moderno, inviabilizando o uso de LLMs para desenvolvimento nessa linguagem.
 * **E)** Os vetores de Consulta ($Q$), Chave ($K$) e Valor ($V$) no mecanismo de atenção são constantes numéricas fixas imutáveis, definidas pelos desenvolvedores e independentes do texto de entrada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -103,7 +125,7 @@ A respeito desse funcionamento interno, assinale a afirmativa correta:
 
 ---
 
-### Questão 02
+### Teste 120
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 No desenvolvimento de sistemas assistidos por inteligência artificial, a arquitetura *Transformer* deu origem a três famílias arquiteturais predominantes: *Encoder-Only*, *Decoder-Only* e *Encoder-Decoder*. A respeito das características e dos casos de uso de cada família em tarefas de engenharia de software, é correto afirmar:
 
@@ -112,6 +134,9 @@ No desenvolvimento de sistemas assistidos por inteligência artificial, a arquit
 * **C)** Modelos *Encoder-Decoder* são incapazes de realizar tradução de código entre linguagens distintas (como COBOL para Java).
 * **D)** A atenção bidirecional irrestrita é uma característica exclusiva dos modelos *Decoder-Only*.
 * **E)** Modelos *Decoder-Only* não utilizam embeddings nem camadas de normalização (*LayerNorm*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -144,7 +169,7 @@ flowchart LR
 
 ---
 
-### Questão 03
+### Teste 121
 **(FCC – Inédita – Padrão TCE-GO)**  
 O pipeline moderno de treinamento de modelos de linguagem para engenharia de software é estruturado em três fases fundamentais: Pré-treinamento (*Pre-training*), Ajuste Fino Supervisionado (*Supervised Fine-Tuning* - SFT) e Alinhamento (*Alignment* via RLHF ou DPO). A esse respeito, assinale a afirmativa tecnicamente correta:
 
@@ -153,6 +178,9 @@ O pipeline moderno de treinamento de modelos de linguagem para engenharia de sof
 * **C)** O alinhamento por Aprendizado por Reforço com Feedback Humano (RLHF) serve exclusivamente para acelerar a velocidade de clock da placa de vídeo GPU durante o treinamento.
 * **D)** O DPO (*Direct Preference Optimization*) exige obrigatoriamente o treinamento de um modelo de recompensa (*reward model*) separado e instável, ao contrário do RLHF clássico.
 * **E)** Após o pré-treinamento, o modelo base já possui capacidade nativa e alinhada para recusar instruções maliciosas de exploração de vulnerabilidades.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -190,7 +218,7 @@ Durante a fase de inferência (geração da resposta), o modelo projeta logits (
 ---
 
 
-### Questão 04
+### Teste 122
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 Na inferência de modelos de linguagem utilizados para geração de código-fonte de missão crítica, a calibração de hiperparâmetros de amostragem exerce impacto decisivo na corretude e determinismo dos programas gerados. A respeito dos hiperparâmetros *Temperature* e *Top-P* (*Nucleus Sampling*), é correto afirmar:
 
@@ -199,6 +227,9 @@ Na inferência de modelos de linguagem utilizados para geração de código-font
 * **C)** O *Top-P* seleciona aleatoriamente os tokens mais raros do vocabulário para enriquecer a diversidade léxica dos comandos SQL.
 * **D)** Configurar a *Temperature* em 0.0 impede que o modelo execute inferência em computadores com sistema operacional Windows.
 * **E)** O hiperparâmetro *Top-K* define a quantidade de GPUs necessárias para rodar o modelo no data center.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -210,7 +241,10 @@ Na inferência de modelos de linguagem utilizados para geração de código-font
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 2. Programação Baseada em Intenção e Linguagem Natural
 
@@ -236,7 +270,8 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Intent-Based Programming e Gestão de Contexto)
+### Teste 123
+**(FCC - Adaptada / TI - Intent-Based Programming e Gestão de Contexto)**
 No contexto da evolução da engenharia de software assistida por inteligência artificial, destacam-se os conceitos de Programação Baseada em Intenção (*Intent-Based Programming*) e a gestão criteriosa da janela de contexto (*Context Window*).
 
 Sobre esses conceitos, assinale a afirmativa correta:  
@@ -246,6 +281,9 @@ Sobre esses conceitos, assinale a afirmativa correta:
 * **C)** Na programação baseada em intenção, o desenvolvedor expressa o objetivo de negócio, pré-condições e invariantes em linguagem declarativa/natural, enquanto o sistema de IA infere a estratégia algorítmica e gera as instruções imperativas correspondentes.
 * **D)** A janela de contexto de um LLM armazena exclusivamente os parâmetros pré-treinados estáticos dos pesos neurais, não guardando relação com a quantidade de tokens de código fornecidos como entrada na requisição.
 * **E)** *Few-Shot Prompting* e *Fine-Tuning* são termos sinônimos que descrevem o processo de re-treinamento dos pesos do modelo com retropropagação de gradientes (*backpropagation*) a cada nova instrução de código.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -269,7 +307,7 @@ Na programação clássica, o compilador atua como um juiz sintático inflexíve
 
 ---
 
-### Questão 06
+### Teste 124
 **(FCC – Inédita – Padrão TCE-GO)**  
 No paradigma de Programação Baseada em Intenção (*Intent-Based Programming*), o desenvolvedor expressa a intenção de negócio em linguagem natural estruturada, cabendo a agentes de IA sintetizar a lógica técnica e a implementação. No entanto, na integração desse código aos pipelines de entrega, a relação entre semântica declarativa e sintaxe estrita exige que:
 
@@ -278,6 +316,9 @@ No paradigma de Programação Baseada em Intenção (*Intent-Based Programming*)
 * **C)** As interfaces de contratos sejam eliminadas do código para permitir que a IA altere tipos de dados livremente em tempo de execução.
 * **D)** A semântica probabilística dos LLMs substitua a necessidade de contratos formais de API (como OpenAPI e Protocol Buffers).
 * **E)** Erros de compilação em código gerado por IA sejam ignorados pelo pipeline de integração contínua.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -306,7 +347,10 @@ Cenário: Aplicação de glosa por sobrepreço em auditoria de obras
 
 O LLM recebe esse contrato comportamental e gera simultaneamente a suíte de testes correspondente e o código de domínio que satisfaz o cenário.
 
+
+
 ---
+
 
 ## 3. Engenharia de Prompts e Engenharia de Contexto para Software
 
@@ -365,7 +409,8 @@ flowchart TD
 
 ---
 
-### Questão 07 (FCC - Adaptada / TI - Engenharia de Prompts e Hiperparâmetros de Inferência)
+### Teste 125
+**(FCC - Adaptada / TI - Engenharia de Prompts e Hiperparâmetros de Inferência)**
 Um desenvolvedor de software de um Tribunal de Contas Estadual está configurando a integração de uma ferramenta de IA generativa para auxiliar na geração automatizada de funções de validação de regras fiscais e cálculos contábeis em Python. Ele precisa garantir que as implementações geradas sejam estritamente determinísticas, fiéis à sintaxe da linguagem e sigam um padrão corporativo pré-estabelecido de tratamento de exceções.
 
 Considerando as técnicas de engenharia de prompts e a calibração de modelos de linguagem (LLMs):  
@@ -375,6 +420,9 @@ Considerando as técnicas de engenharia de prompts e a calibração de modelos d
 * **C)** O desenvolvedor deve ajustar o hiperparâmetro `temperature` para valores baixos (próximos de `0.0`), conferindo determinismo e reprodutibilidade à resposta, e utilizar a técnica de *Few-Shot Prompting*, fornecendo no contexto alguns exemplos prévios do padrão esperado de entrada, lógica e tratamento de erro.
 * **D)** A técnica de *Chain-of-Thought* (CoT) é desaconselhada para problemas de programação e lógica algorítmica, visto que forçar o modelo a verbalizar o raciocínio intermediário degrada sua precisão na geração da sintaxe final do código.
 * **E)** O *System Prompt* não tem impacto no comportamento global do modelo, servindo apenas para armazenar o histórico efêmero de mensagens trocadas na sessão atual.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -388,7 +436,8 @@ Considerando as técnicas de engenharia de prompts e a calibração de modelos d
 
 ---
 
-### Questão 08 (FCC - Padrão Concursos TI / Engenharia de Prompts e Chain-of-Thought)
+### Teste 126
+**(FCC - Padrão Concursos TI / Engenharia de Prompts e Chain-of-Thought)**
 Um analista de sistemas da área fiscal precisa refatorar uma rotina crítica de cálculo do ITCMD (Imposto sobre Transmissão Causa Mortis e Doação) que envolve alíquotas progressivas, meação, herança legítima e múltiplas condições de isenção. Para obter da IA generativa uma solução robusta e livre de falhas de lógica contábil, ele decide aplicar técnicas avançadas de engenharia de prompts.
 
 Nesse cenário, a abordagem metodologicamente mais adequada é:  
@@ -398,6 +447,9 @@ Nesse cenário, a abordagem metodologicamente mais adequada é:
 * **C)** Evitar o uso de *System Prompts*, pois estes anulam as diretrizes de segurança da plataforma de IA.
 * **D)** Utilizar a técnica de *Tree-of-Thoughts* apenas para alterar o nome das variáveis para formatos em caixa-alta, pois a lógica fiscal dispensa decomposição passo a passo.
 * **E)** Aumentar a `Frequency Penalty` para seu valor máximo possível, garantindo que palavras reservadas da linguagem como `if` e `return` nunca se repitam no código gerado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -433,7 +485,7 @@ xychart-beta
 
 ---
 
-### Questão 09
+### Teste 127
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 Em arquiteturas de LLMs com janelas de contexto estendidas (acima de 128k tokens), pesquisadores identificaram o fenômeno empírico denominado *"Lost in the Middle"*. Esse efeito consiste na tendência de o modelo:
 
@@ -442,6 +494,9 @@ Em arquiteturas de LLMs com janelas de contexto estendidas (acima de 128k tokens
 * **C)** Exigir o reinício manual do computador sempre que o prompt ultrapassar 500 caracteres.
 * **D)** Alucinar apenas em tarefas que envolvem operações de banco de dados relacional.
 * **E)** Travar o mecanismo de autocompletar da IDE exclusivamente durante a madrugada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -465,7 +520,8 @@ Para contornar o efeito *Lost in the Middle* e evitar estouros de cotas financei
 
 ---
 
-### Questão 10 (FCC - Padrão Concursos TI / Curadoria de Contexto e Estruturação de Prompts)
+### Teste 128
+**(FCC - Padrão Concursos TI / Curadoria de Contexto e Estruturação de Prompts)**
 Na formulação de prompts para agentes de geração de código em larga escala, a equipe técnica deparou-se com a necessidade de submeter múltiplos artefatos: a especificação de uma API REST, esquemas de banco de dados e requisitos de negócio complexos.
 
 Considerando as boas práticas de curadoria de contexto e a mitigação de vieses posicionais em LLMs:  
@@ -475,6 +531,9 @@ Considerando as boas práticas de curadoria de contexto e a mitigação de viese
 * **C)** As instruções fundamentais, restrições invioláveis de arquitetura e o comando principal de execução devem ser posicionados nas extremidades do prompt (no início e no final), aplicando-se técnicas de delimitação clara de contexto (como tags estruturadas) e expurgando arquivos irrelevantes para contornar o efeito *"Lost in the Middle"*.
 * **D)** O uso de tags delimitadoras (como marcadores XML ou blocos Markdown) é proibido por provedores de LLMs, pois causa falhas irreparáveis no decodificador causal.
 * **E)** A janela de contexto não impõe nenhum custo financeiro adicional em provedores de nuvem, visto que a tarifação incide unicamente sobre o tempo de conexão TCP/IP mantido aberto.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -486,8 +545,9 @@ Considerando as boas práticas de curadoria de contexto e a mitigação de viese
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 4. Fontes Recomendadas na Internet

@@ -5,7 +5,10 @@
 > **Arquivo:** `03_planejamento_amostragem_procedimentos_e_achados.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -23,24 +26,34 @@
 - Estruturação anatômica dos achados de auditoria: Critério, Condição, Causa e Efeito;
 - Matriz de Achados e Matriz de Responsabilização (conduta, nexo de causalidade e culpabilidade à luz do Art. 28 da LINDB).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Planejamento da Fiscalização e Avaliação de Risco](#1-planejamento-da-fiscalizacao-e-avaliacao-de-risco)
-    - [1.1 Critérios de Seleção de Objetos de Controle (Critérios MRC)](#11-criterios-de-selecao-de-objetos-de-controle-criterios-mrc)
-    - [1.2 O Modelo do Risco de Auditoria (Auditoria Risk - AR)](#12-o-modelo-do-risco-de-auditoria-auditoria-risk-ar)
-    - [1.3 Amostragem em Auditoria Governamental e Riscos Amostrais](#13-amostragem-em-auditoria-governamental-e-riscos-amostrais)
-- [2. Programas de Auditoria e Documentação (Papéis de Trabalho)](#2-programas-de-auditoria-e-documentacao-papeis-de-trabalho)
-- [3. Técnicas e Procedimentos de Auditoria Governamental](#3-tecnicas-e-procedimentos-de-auditoria-governamental)
-    - [3.1 Quadro Geral dos Procedimentos de Obtenção de Evidências](#31-quadro-geral-dos-procedimentos-de-obtencao-de-evidencias)
-    - [3.2 Modalidades de Circularização (Confirmação Externa)](#32-modalidades-de-circularizacao-confirmacao-externa)
-- [4. Evidências de Auditoria: Os Três Pilares da Validade](#4-evidencias-de-auditoria-os-tres-pilares-da-validade)
-- [5. A Estrutura Anatômica do Achado de Auditoria](#5-a-estrutura-anatomica-do-achado-de-auditoria)
-    - [5.1 Os Quatro Elementos do Achado](#51-os-quatro-elementos-do-achado)
-    - [5.2 Matriz de Responsabilização e a LINDB (Art. 28)](#52-matriz-de-responsabilizacao-e-a-lindb-art-28)
-- [6. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Planejamento da Fiscalização e Avaliação de Risco](#1-planejamento-da-fiscalizacao-e-avaliacao-de-risco)
+    2. [Teste 187](#Teste-187)
+    3. [Teste 188](#Teste-188)
+    4. [Programas de Auditoria e Documentação (Papéis de Trabalho)](#2-programas-de-auditoria-e-documentacao-papeis-de-trabalho)
+    5. [Teste 189](#Teste-189)
+    6. [Teste 190](#Teste-190)
+    7. [Técnicas e Procedimentos de Auditoria Governamental](#3-tecnicas-e-procedimentos-de-auditoria-governamental)
+    8. [Teste 191](#Teste-191)
+    9. [Teste 192](#Teste-192)
+    10. [Teste 193](#Teste-193)
+    11. [Evidências de Auditoria: Os Três Pilares da Validade](#4-evidencias-de-auditoria-os-tres-pilares-da-validade)
+    12. [Teste 194](#Teste-194)
+    13. [A Estrutura Anatômica do Achado de Auditoria](#5-a-estrutura-anatomica-do-achado-de-auditoria)
+    14. [Teste 195](#Teste-195)
+    15. [Teste 196](#Teste-196)
+    16. [Teste 197](#Teste-197)
+2. [Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
 
 ---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -96,7 +109,8 @@ flowchart TD
 
 
 
-### Questão 01 (FCC - Auditor de Controle Externo / TCE-GO)
+### Teste 187
+**(FCC - Auditor de Controle Externo / TCE-GO)**
 No planejamento de uma auditoria governamental, a avaliação do risco de auditoria é fundamental para dimensionar a extensão, a oportunidade e a natureza dos procedimentos a serem aplicados.
 
 Sobre os componentes do risco de auditoria (risco inerente, risco de controle e risco de detecção), assinale a afirmativa correta.
@@ -106,6 +120,9 @@ Sobre os componentes do risco de auditoria (risco inerente, risco de controle e 
 * **C)** O risco de controle é o risco de que os procedimentos executados pelo auditor não detectem uma distorção relevante existente no órgão fiscalizado.
 * **D)** O auditor do Tribunal de Contas pode controlar e modificar diretamente o nível de risco inerente existente na secretaria auditada.
 * **E)** Se o auditor avaliar o risco de controle interno como muito alto, ele deve reduzir o volume de testes substantivos de auditoria para economizar recursos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -119,7 +136,8 @@ Sobre os componentes do risco de auditoria (risco inerente, risco de controle e 
 
 ---
 
-### Questão 02 (FCC - Adaptada / Auditor Governamental)
+### Teste 188
+**(FCC - Adaptada / Auditor Governamental)**
 Acerca do modelo de avaliação de risco de auditoria e dos fatores de risco considerados no planejamento das ações de controle externo, assinale a opção correta:
 
 * **A)** O risco de detecção é o risco de que os controles internos da entidade auditada não consigam prevenir tempestivamente uma fraude contábil relevante.
@@ -127,6 +145,9 @@ Acerca do modelo de avaliação de risco de auditoria e dos fatores de risco con
 * **C)** O risco de controle e o risco inerente são intrínsecos ao ambiente do órgão auditado, cabendo ao auditor gerenciar e reduzir o risco de detecção para manter o risco global de auditoria em patamar aceitável.
 * **D)** Diante de controles internos eficientes e ausência de risco inerente, o auditor de controle externo pode dispensar a aplicação de quaisquer testes e aprovar as contas sumariamente.
 * **E)** O risco de auditoria independe da extensão dos procedimentos aplicados pelo órgão de controle externo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -164,7 +185,8 @@ Acerca do modelo de avaliação de risco de auditoria e dos fatores de risco con
 
 ---
 
-### Questão 03 (FCC - Adaptada / Técnico de Controle Externo)
+### Teste 189
+**(FCC - Adaptada / Técnico de Controle Externo)**
 Em relação aos papéis de trabalho (documentação de auditoria) elaborados e custodiados no âmbito dos Tribunais de Contas, é correto afirmar:
 
 * **A)** Pertencem pessoalmente ao auditor que os confeccionou, que detém o direito autoral de levá-los consigo ao se aposentar.
@@ -172,6 +194,9 @@ Em relação aos papéis de trabalho (documentação de auditoria) elaborados e 
 * **C)** Os papéis de trabalho pertencem ao Tribunal de Contas, destinando-se a fundamentar as conclusões do relatório técnico e a comprovar a observância das normas profissionais de auditoria.
 * **D)** São de livre acesso público irrestrito e devem ser divulgados em tempo real na internet durante a realização dos testes de campo.
 * **E)** Devem ser destruídos imediatamente após a publicação da deliberação plenária terminativa do processo de controle externo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -187,7 +212,8 @@ Em relação aos papéis de trabalho (documentação de auditoria) elaborados e 
 
 
 
-### Questão 04 (FGV - Analista de Controle Externo / TCE-GO)
+### Teste 190
+**(FGV - Analista de Controle Externo / TCE-GO)**
 Os papéis de trabalho (documentação de auditoria) constituem o registro físico ou eletrônico de todo o planejamento, dos procedimentos técnicos aplicados, das evidências obtidas e das conclusões alcançadas pela equipe de fiscalização do Tribunal de Contas.
 
 A respeito dos papéis de trabalho na auditoria do setor público (NBASP 100 e NBASP 230), assinale a afirmativa correta.
@@ -197,6 +223,9 @@ A respeito dos papéis de trabalho na auditoria do setor público (NBASP 100 e N
 * **C)** É dispensável registrar nos papéis de trabalho a metodologia empregada na seleção de amostras estatísticas.
 * **D)** O auditor pode destruir de ofício papéis de trabalho que contenham evidências divergentes das conclusões emitidas no relatório final.
 * **E)** Os papéis de trabalho elaborados em fiscalizações de controle externo não possuem valor probatório para fins de instauração de tomada de contas especial.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -229,7 +258,8 @@ A respeito dos papéis de trabalho na auditoria do setor público (NBASP 100 e N
 
 
 
-### Questão 05 (FCC - Analista Judiciário - Área Administrativa)
+### Teste 191
+**(FCC - Analista Judiciário - Área Administrativa)**
 No planejamento da execução de auditoria contábil e de conformidade em uma secretaria estadual com milhares de processos de pagamento anuais, a equipe de auditoria optou pelo emprego de amostragem em auditoria.
 
 Sobre as técnicas e modalidades de amostragem em auditoria governamental, assinale a afirmativa correta.
@@ -239,6 +269,9 @@ Sobre as técnicas e modalidades de amostragem em auditoria governamental, assin
 * **C)** O risco de amostragem é o risco de o auditor aplicar testes inadequados ou interpretar incorretamente os documentos fiscais analisados.
 * **D)** A amostragem é obrigatória em 100% das fiscalizações de controle externo, sendo proibido aos auditores o exame integral (censo) de qualquer contrato.
 * **E)** O tamanho da amostra estatística independe do nível de confiança e da taxa de desvio tolerável definidos no plano de auditoria.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -252,7 +285,8 @@ Sobre as técnicas e modalidades de amostragem em auditoria governamental, assin
 
 ---
 
-### Questão 06 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Teste 192
+**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 No âmbito dos trabalhos de fiscalização governamental conduzidos por equipe de controle externo do Tribunal de Contas, os auditores compararam o volume mensal de combustível faturado por uma secretaria de estado com a quilometragem média rodada pelos veículos no mesmo período, constatando desvios e picos anômalos de consumo em determinados meses. A técnica de auditoria utilizada pela equipe denomina-se:
 
 * **A)** Circularização ativa.
@@ -260,6 +294,9 @@ No âmbito dos trabalhos de fiscalização governamental conduzidos por equipe d
 * **C)** Inspeção física.
 * **D)** Conciliação contábil.
 * **E)** Conferência de cálculos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -275,7 +312,8 @@ No âmbito dos trabalhos de fiscalização governamental conduzidos por equipe d
 
 
 
-### Questão 07 (FGV - Auditor de Controle Externo / TCE-SC)
+### Teste 193
+**(FGV - Auditor de Controle Externo / TCE-SC)**
 Durante auditoria de conformidade em contrato de fornecimento de merenda escolar, a equipe técnica do Tribunal de Contas necessitou confirmar os saldos financeiros e as entregas efetivas de mercadorias declaradas pela empresa contratada em notas fiscais suspeitas.
 
 Para tanto, os auditores enviaram correspondência formal direta aos fornecedores atacadistas primários da empresa, solicitando a confirmação formal e por escrito das quantidades e dos valores das notas emitidas contra a contratada.
@@ -287,6 +325,9 @@ O procedimento de auditoria adotado denomina-se:
 * **C)** Procedimento analítico preliminar, baseado unicamente em gráficos e estatísticas orçamentárias gerais.
 * **D)** Reexecução, consubstanciada na repetição independente pelo auditor de cálculos aritméticos efetuados pela contabilidade.
 * **E)** Observação direta passiva de uma rotina burocrática de almoxarifado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -328,7 +369,8 @@ As conclusões do relatório de auditoria dependem da colheita de evidências qu
 
 
 
-### Questão 08 (FCC - Procurador do Estado / Adaptada)
+### Teste 194
+**(FCC - Procurador do Estado / Adaptada)**
 A validade e a força persuasiva de um relatório de auditoria emitido pelo Tribunal de Contas dependem diretamente da qualidade das evidências coligidas pela equipe técnica durante os trabalhos de fiscalização.
 
 Nos termos da NBASP 100, para que sustentem adequadamente um achado de auditoria, as evidências devem ser:
@@ -338,6 +380,9 @@ Nos termos da NBASP 100, para que sustentem adequadamente um achado de auditoria
 * **C)** Obtidas exclusivamente mediante confissão expressa do servidor público em termo de oitiva formal.
 * **D)** Subjetivas e fundamentadas em ilações conjecturais da imprensa local.
 * **E)** Restritas a cópias reprográficas autenticadas em cartório por tabelião de notas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -376,7 +421,8 @@ O **Achado de Auditoria** é a discrepância relevante identificada entre a situ
 
 ---
 
-### Questão 09 (FCC - Adaptada / TCE-AM - Auditor de Controle Externo)
+### Teste 195
+**(FCC - Adaptada / TCE-AM - Auditor de Controle Externo)**
 Em relatório de fiscalização de obras rodoviárias, a equipe técnica do Tribunal de Contas registrou a ocorrência de fissuras e afundamentos prematuros no asfalto decorrentes da utilização de ligante betuminoso com espessura inferior à exigida nas especificações do projeto executivo aprovado pela Agência Goiana de Infraestrutura. De acordo com a metodologia de estruturação de achados de auditoria preconizada pelas normas de auditoria do setor público (NBASP), a especificação do projeto executivo e o asfalto com espessura inferior constituem, respectivamente:
 
 * **A)** Condição e Critério.
@@ -384,6 +430,9 @@ Em relatório de fiscalização de obras rodoviárias, a equipe técnica do Trib
 * **C)** Critério e Condição.
 * **D)** Efeito e Causa.
 * **E)** Matriz de Risco e Evidência.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -410,7 +459,8 @@ Ao propor imputação de débito ou cominação de multas sancionatórias a agen
 
 ---
 
-### Questão 10 (FCC - Adaptada / Analista Jurídico de Controle)
+### Teste 196
+**(FCC - Adaptada / Analista Jurídico de Controle)**
 Ao elaborar a Matriz de Responsabilização em processo de tomada de contas especial decorrente de auditoria, a unidade técnica do Tribunal de Contas imputou dever de ressarcir o erário a determinado Secretário de Estado em virtude de pagamento indevido de adicional de periculosidade a servidores administrativos.
 
 Nos termos do artigo 28 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), para que o agente público responda pessoalmente por suas decisões perante o Tribunal de Contas, é necessário demonstrar que ele agiu:
@@ -420,6 +470,9 @@ Nos termos do artigo 28 da Lei de Introdução às Normas do Direito Brasileiro 
 * **C)** Sem aprovação prévia da Procuradoria-Geral do Estado, independentemente de demonstração de culpabilidade.
 * **D)** Exclusivamente com motivação político-partidária de oposição.
 * **E)** Em contrariedade a parecer técnico não vinculante emitido por estagiário do órgão.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -437,7 +490,8 @@ Nos termos do artigo 28 da Lei de Introdução às Normas do Direito Brasileiro 
 
 
 
-### Questão 11 (FGV - Analista Jurídico de Controle Externo / TCE-GO)
+### Teste 197
+**(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 Ao finalizar os trabalhos de fiscalização, a equipe de auditoria do Tribunal de Contas estruturou a matriz de achados, identificando deficiências materiais na execução de um programa estadual de incentivo à agricultura familiar.
 
 A respeito dos elementos constitutivos de um achado de auditoria e das deliberações propositivas emitidas pelo Tribunal de Contas, assinale a afirmativa correta.
@@ -447,6 +501,9 @@ A respeito dos elementos constitutivos de um achado de auditoria e das delibera�
 * **C)** A recomendação constitui mandamento cogente e impositivo que obriga o gestor a cumprir ordem específica sob pena de prisão imediata.
 * **D)** A determinação é mera sugestão de melhoria operacional desprovida de qualquer força coercitiva.
 * **E)** O efeito de um achado de auditoria limita-se unicamente ao valor monetário do prejuízo contábil imediato.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -458,7 +515,10 @@ A respeito dos elementos constitutivos de um achado de auditoria e das delibera�
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 

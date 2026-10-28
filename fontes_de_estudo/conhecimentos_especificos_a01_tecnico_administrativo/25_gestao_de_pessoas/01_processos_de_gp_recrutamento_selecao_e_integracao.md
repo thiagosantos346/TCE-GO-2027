@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo (TCE-GO)  
 > **Conteúdo Oficial:** Processos de Gestão de Pessoas (modelo de Chiavenato); Recrutamento e Seleção de Pessoas; Rotinas de Departamento Pessoal; O Concurso Público como Instrumento Republicano; Socialização e Integração Organizacional (*Onboarding*).
 
+
+
 ---
+
 
 ## 📌 Ementa & Delimitação do Conteúdo
 
@@ -37,18 +40,34 @@
     - As três fases da socialização organizacional (Socialização Antecipatória, Encontro/Confronto e Metamorfose/Adaptação).
     - Práticas de integração: manuais do servidor, programas de boas-vindas, tutoria/mentoria institucional e cursos de formação da Escola de Contas.
 
----
 
-## 🧭 Sumário Interativo
-- [1. Evolução Histórica dos Paradigmas de Gestão de Pessoas](#1-evolucao-historica-dos-paradigmas-de-gestao-de-pessoas)
-- [2. Os Seis Processos da Gestão de Pessoas (Chiavenato)](#2-os-seis-processos-da-gestao-de-pessoas-chiavenato)
-- [3. Rotinas Administrativas do Departamento de Pessoal no Setor Público](#3-rotinas-administrativas-do-departamento-de-pessoal-no-setor-publico)
-- [4. O Processo de Agregar Pessoas: Recrutamento e Seleção](#4-o-processo-de-agregar-pessoas-recrutamento-e-selecao)
-- [5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)](#5-o-concurso-publico-como-instrumento-republicano-cf88-art-37)
-- [6. Processo de Socialização e Integração Organizacional (Onboarding)](#6-processo-de-socializacao-e-integracao-organizacional-onboarding)
-- [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [Evolução Histórica dos Paradigmas de Gestão de Pessoas](#1-evolucao-historica-dos-paradigmas-de-gestao-de-pessoas)
+    2. [Os Seis Processos da Gestão de Pessoas (Chiavenato)](#2-os-seis-processos-da-gestao-de-pessoas-chiavenato)
+    3. [Teste 430](#Teste-430)
+    4. [Teste 431](#Teste-431)
+    5. [Rotinas Administrativas do Departamento de Pessoal no Setor Público](#3-rotinas-administrativas-do-departamento-de-pessoal-no-setor-publico)
+    6. [O Processo de Agregar Pessoas: Recrutamento e Seleção](#4-o-processo-de-agregar-pessoas-recrutamento-e-selecao)
+    7. [Teste 432](#Teste-432)
+    8. [Teste 433](#Teste-433)
+    9. [Teste 434](#Teste-434)
+    10. [O Concurso Público como Instrumento Republicano (CF/88, art. 37)](#5-o-concurso-publico-como-instrumento-republicano-cf88-art-37)
+    11. [Teste 435](#Teste-435)
+    12. [Teste 436](#Teste-436)
+    13. [Processo de Socialização e Integração Organizacional (*Onboarding*)](#processo-de-socializacao-e-integracao-organizacional-onboarding)
+    14. [Teste 437](#Teste-437)
+    15. [Teste 438](#Teste-438)
+    16. [Teste 439](#Teste-439)
+    17. [Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -121,7 +140,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Teste 430
 **(FCC – Analista de Controle Externo – TCE-GO)**  
 No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto Chiavenato, os macroprocessos organizacionais integram um conjunto articulado de subsistemas interconectados. Ao estruturar os processos de gestão, o desenho de cargos, a socialização organizacional dos novos colaboradores e a sistemática de avaliação de desempenho funcional integram expressamente o macroprocesso de:
 
@@ -130,6 +149,9 @@ No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto
 * **C)** Recompensar Pessoas.
 * **D)** Desenvolver Pessoas.
 * **E)** Monitorar Pessoas.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -145,7 +167,8 @@ No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto
 
 
 
-### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 431
+**(FCC - Adaptada / Analista de Gestão Pública)**
 Idalberto Chiavenato estrutura a moderna Gestão de Pessoas em seis processos básicos interdependentes: Agregar, Aplicar, Recompensar, Desenvolver, Manter e Monitorar pessoas.
 
 O processo de **Aplicar Pessoas** compreende precipuamente as atividades de:
@@ -155,6 +178,9 @@ O processo de **Aplicar Pessoas** compreende precipuamente as atividades de:
 * **C)** Concessão de remuneração fixa, incentivos salariais, benefícios e serviços sociais.
 * **D)** Treinamento e desenvolvimento de competências, gestão do conhecimento e programas de mudança.
 * **E)** Higiene, segurança e qualidade de vida no trabalho e relações com sindicatos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -234,7 +260,7 @@ flowchart LR
 
 ---
 
-### Questão 03
+### Teste 432
 **(FCC – Auditor de Controle Externo – TCE-RO)**  
 Uma entidade pública estadual necessita preencher posições funcionais de gestão interna. Ao optar prioritariamente pelo recrutamento interno em detrimento do recrutamento externo, a organização colhe benefícios relevantes, porém sujeita-se a uma vulnerabilidade conceitual frequentemente apontada pela literatura, consubstanciada na:
 
@@ -243,6 +269,9 @@ Uma entidade pública estadual necessita preencher posições funcionais de gest
 * **C)** ocorrência do fenômeno da endogamia cultural (*inbreeding*), marcada pela recirculação contínua dos mesmos vícios, soluções e práticas preexistentes, com bloqueio à inovação.
 * **D)** exigência legal obrigatória de reabertura imediata de concurso público para a investidura nas atribuições funcionais correlatas.
 * **E)** incapacidade operacional de avaliar previamente as competências comportamentais dos candidatos que já compõem o quadro institucional.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -299,7 +328,7 @@ flowchart TD
 
 ---
 
-### Questão 04
+### Teste 433
 **(FCC – Analista Administrativo – DPE-SP)**  
 Em uma entrevista de seleção baseada na gestão por competências, o examinador formula a seguinte questão ao candidato: *"Descreva uma ocasião em seu trabalho anterior na qual um prazo orçamentário complexo estava na iminência de se esgotar, detalhe qual era o desafio sob sua responsabilidade direta, as ações práticas que você implementou para contornar o obstáculo e quais foram os resultados mensuráveis obtidos"*. A técnica de seleção adotada classifica-se como:
 
@@ -308,6 +337,9 @@ Em uma entrevista de seleção baseada na gestão por competências, o examinado
 * **C)** Prova situacional de aptidão psicométrica abstrata.
 * **D)** Entrevista comportamental por competências estruturada sob o método STAR.
 * **E)** Teste de personalidade expressiva para verificação de temperamento frouxo.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -323,7 +355,8 @@ Em uma entrevista de seleção baseada na gestão por competências, o examinado
 
 
 
-### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 434
+**(FCC - Adaptada / Auditor de Controle Externo)**
 No tocante às rotinas de recrutamento de pessoal, o **Recrutamento Interno** contrapõe-se ao **Recrutamento Externo** ao privilegiar a movimentação de servidores da própria organização.
 
 Constitui uma típica **vantagem** do Recrutamento Interno:
@@ -333,6 +366,9 @@ Constitui uma típica **vantagem** do Recrutamento Interno:
 * **C)** A renovação completa do quadro de pessoal e oxigenação da estrutura burocrática.
 * **D)** A dispensa absoluta de avaliação de desempenho funcional e conformidade disciplinar.
 * **E)** A eliminação do sentimento de frustração entre os servidores que não foram contemplados na promoção.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -376,7 +412,7 @@ flowchart TD
 
 ---
 
-### Questão 06
+### Teste 435
 **(FCC – Analista de Controle Externo – TCE-GO)**  
 De acordo com os preceitos expressos no art. 37 da Constituição Federal de 1988 e a jurisprudência sumulada e vinculante dos Tribunais Superiores acerca do concurso público:
 
@@ -385,6 +421,9 @@ De acordo com os preceitos expressos no art. 37 da Constituição Federal de 198
 * **C)** É prescindível a realização de concurso público para a contratação temporária destinada a atender a necessidade de excepcional interesse público, na forma disciplinada em legislação específica.
 * **D)** O prazo de validade do concurso público será de até quatro anos, improrrogável, admitindo-se apenas a celebração de novos editais quando esgotada a vigência.
 * **E)** O provimento originário em cargos públicos efetivos independe de prévia aprovação em concurso, desde que o servidor comprove exercício temporário anterior superior a dez anos.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -400,7 +439,8 @@ De acordo com os preceitos expressos no art. 37 da Constituição Federal de 198
 
 
 
-### Questão 07 (FCC - Adaptada / Analista de Planejamento e Gestão)
+### Teste 436
+**(FCC - Adaptada / Analista de Planejamento e Gestão)**
 No processo de socialização organizacional (*onboarding*) dos novos servidores públicos ingressantes, John Van Maanen e Edgar Schein categorizam as táticas institucionais de socialização empregadas pela organização.
 
 A tática de socialização caracterizada por integrar os novatos em grupos que passam pelas mesmas experiências e trilhas formativas conjuntas, com um cronograma predeterminado de etapas de acolhimento e mentoria, é classificada como:
@@ -410,6 +450,9 @@ A tática de socialização caracterizada por integrar os novatos em grupos que 
 * **C)** Desjuntiva, Isolada e Punitiva.
 * **D)** Reativa, Transitória e Descentralizada.
 * **E)** Cartorária, Regressiva e Desestruturada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -448,7 +491,7 @@ flowchart LR
 
 ---
 
-### Questão 08
+### Teste 437
 **(FCC – Técnico Judiciário – Área Administrativa – TRT-24ª)**  
 O processo de socialização organizacional compreende o conjunto de mecanismos pelos quais a instituição transmite sua cultura, crenças e normas aos novos colaboradores. Segundo a doutrina de comportamento organizacional e gestão de pessoas, o momento em que o servidor recém-empossado ingressa na repartição e depara-se com as rotinas práticas, confrontando suas expectativas prévias com a realidade fática do ambiente de trabalho, denomina-se:
 
@@ -457,6 +500,9 @@ O processo de socialização organizacional compreende o conjunto de mecanismos 
 * **C)** Socialização Prévia ou Antecipatória.
 * **D)** Recrutamento Passivo Instrumental.
 * **E)** Desinstitucionalização Funcional.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -480,7 +526,8 @@ O processo de socialização organizacional compreende o conjunto de mecanismos 
 
 ---
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 438
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na Administração Pública brasileira, o concurso público de provas ou de provas e títulos constitui o instrumento constitucional republicano por excelência para a investidura em cargo ou emprego público (art. 37, II da CF/88).
 
 A respeito das regras constitucionais do concurso público, é correto afirmar:
@@ -490,6 +537,9 @@ A respeito das regras constitucionais do concurso público, é correto afirmar:
 * **C)** É lícito ao Poder Público abrir novo concurso público para o mesmo cargo e prover todas as novas vagas antes de convocar os candidatos remanescentes aprovados no concurso anterior com prazo de validade ainda em vigor.
 * **D)** A fixação de limite de idade em edital independe de previsão em lei formal, bastando a conveniência discricionária do órgão.
 * **E)** A realização de concurso público é dispensável para a contratação de pessoal docente permanente em universidades públicas estaduais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -503,7 +553,8 @@ A respeito das regras constitucionais do concurso público, é correto afirmar:
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 439
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 No processo seletivo de pessoas, as técnicas de seleção devem apresentar dois requisitos psicométricos e metodológicos indispensáveis: **Validade** e **Confiabilidade (Fidedignidade)**.
 
 Diz-se que uma técnica ou teste de seleção possui alta **Validade** quando:
@@ -513,6 +564,9 @@ Diz-se que uma técnica ou teste de seleção possui alta **Validade** quando:
 * **C)** Apresenta o menor custo financeiro de aplicação em relação ao orçamento disponível do departamento de recursos humanos.
 * **D)** É aplicada exclusivamente por meio de questionários digitais anônimos na internet.
 * **E)** Elimina mais de 90% dos candidatos na primeira etapa eliminatória.
+
+
+---
 
 > **Comentário Detalhado:**
 >

@@ -5,7 +5,10 @@
 > **Arquivo:** `04_poder_legislativo_processo_legislativo_e_fiscalizacao_tce.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -25,26 +28,32 @@
     - Eficácia de título executivo extrajudicial das decisões do Tribunal de Contas (Art. 71, § 3º da CF/88);
     - Princípio da simetria constitucional (Art. 75 da CF/88) e o Ministério Público de Contas (Art. 130 da CF/88).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Estrutura Bicameral e Atribuições das Casas Legislativas](#1-estrutura-bicameral-e-atribuicoes-das-casas-legislativas)
-    - [1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal](#11-modelo-bicameral-federal-e-unicameral-estadualmunicipal)
-    - [1.2 Repartição de Competências no Congresso Nacional](#12-reparticao-de-competencias-no-congresso-nacional)
-    - [1.3 Estatuto dos Congressistas e Imunidades Parlamentares](#13-estatuto-dos-congressistas-e-imunidades-parlamentares)
-- [2. O Processo Legislativo Constitucional](#2-o-processo-legislativo-constitucional)
-    - [2.1 Emendas à Constituição (Art. 60) e Limitações ao Poder de Reforma](#21-emendas-a-constituicao-art-60-e-limitacoes-ao-poder-de-reforma)
-    - [2.2 Leis Complementares versus Leis Ordinárias](#22-leis-complementares-versus-leis-ordinarias)
-    - [2.3 Medidas Provisórias (Art. 62): Prazos e Vedações Temáticas](#23-medidas-provisorias-art-62-prazos-e-vedacoes-tematicas)
-- [3. Fiscalização e Controle Externo pelos Tribunais de Contas (Arts. 70 a 75)](#3-fiscalizacao-e-controle-externo-pelos-tribunais-de-contas-arts-70-a-75)
-    - [3.1 Abrangência e Critérios da Fiscalização Financeira](#31-abrangencia-e-criterios-da-fiscalizacao-financeira)
-    - [3.2 O Julgamento de Contas Públicas: Contas de Governo versus Contas de Gestão](#32-o-julgamento-de-contas-publicas-contas-de-governo-versus-contas-de-gestao)
-    - [3.3 Sustação de Atos Ilegais versus Sustação de Contratos Administrativos](#33-sustacao-de-atos-ilegais-versus-sustacao-de-contratos-administrativos)
-    - [3.4 Eficácia das Decisões Condenatórias e Título Executivo Extrajudicial](#34-eficacia-das-decisoes-condenatorias-e-titulo-executivo-extrajudicial)
-    - [3.5 Simetria Federativa (Art. 75) e o Ministério Público de Contas (Art. 130)](#35-simetria-federativa-art-75-e-o-ministerio-publico-de-contas-art-130)
-- [4. Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Estrutura Bicameral e Atribuições das Casas Legislativas](#1-estrutura-bicameral-e-atribuicoes-das-casas-legislativas)
+    2. [Teste 143](#Teste-143)
+    3. [Teste 144](#Teste-144)
+    4. [Teste 145](#Teste-145)
+    5. [O Processo Legislativo Constitucional](#2-o-processo-legislativo-constitucional)
+    6. [Teste 146](#Teste-146)
+    7. [Teste 147](#Teste-147)
+    8. [Teste 148](#Teste-148)
+    9. [Fiscalização e Controle Externo pelos Tribunais de Contas (Arts. 70 a 75)](#3-fiscalizacao-e-controle-externo-pelos-tribunais-de-contas-arts-70-a-75)
+    10. [Teste 149](#Teste-149)
+    11. [Teste 150](#Teste-150)
+    12. [Teste 151](#Teste-151)
+    13. [Teste 152](#Teste-152)
+    14. [Teste 153](#Teste-153)
+2. [Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
 
 ---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -82,7 +91,8 @@ Enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federaç�
 
 
 
-### Questão 01 (FCC - Analista Legislativo - Área Processo Legislativo)
+### Teste 143
+**(FCC - Analista Legislativo - Área Processo Legislativo)**
 As Comissões Parlamentares de Inquérito (CPIs), previstas no art. 58, § 3º, da Constituição Federal, são dotadas de poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas Casas.
 
 A respeito dos limites constitucionais e jurisprudenciais dos poderes de uma CPI, assinale a afirmativa correta.
@@ -92,6 +102,9 @@ A respeito dos limites constitucionais e jurisprudenciais dos poderes de uma CPI
 * **C)** A criação de uma CPI submete-se ao juízo discricionário da maioria parlamentar, podendo o Plenário da Casa rejeitar o requerimento de minoria subscrito por um terço dos membros.
 * **D)** A CPI pode decretar a prisão preventiva de indiciado que se recuse a colaborar com os trabalhos investigativos da comissão.
 * **E)** As conclusões e relatórios finais de uma CPI possuem eficácia de sentença condenatória criminal irrecorrível.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -105,7 +118,8 @@ A respeito dos limites constitucionais e jurisprudenciais dos poderes de uma CPI
 
 ---
 
-### Questão 02 (FCC - Adaptada / Procuradoria Legislativa)
+### Teste 144
+**(FCC - Adaptada / Procuradoria Legislativa)**
 No que tange às competências privativas das Casas Legislativas no âmbito do Congresso Nacional e às imunidades parlamentares previstas no texto constitucional, assinale a afirmativa correta:
 
 * **A)** Compete privativamente à Câmara dos Deputados processar e julgar os Ministros do Supremo Tribunal Federal e o Procurador-Geral da República nos crimes de responsabilidade.
@@ -113,6 +127,9 @@ No que tange às competências privativas das Casas Legislativas no âmbito do C
 * **C)** Os Deputados e Senadores podem ser presos preventivamente a qualquer tempo desde a diplomação por determinação fundamentada de juiz de primeiro grau.
 * **D)** As imunidades de Deputados ou Senadores subsistem durante o estado de sítio, não podendo ser suspensas sob nenhuma circunstância pelo voto parlamentar.
 * **E)** Compete exclusivamente ao Congresso Nacional, com necessária sanção do Presidente da República, fixar a remuneração de seus próprios membros ao final de cada legislatura.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -128,7 +145,8 @@ No que tange às competências privativas das Casas Legislativas no âmbito do C
 
 
 
-### Questão 03 (FGV - Auditor de Controle Externo / TCE-GO)
+### Teste 145
+**(FGV - Auditor de Controle Externo / TCE-GO)**
 O art. 53 da Constituição Federal de 1988 estabelece que os Deputados e Senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos (imunidade material ou substantiva).
 
 Sobre as imunidades parlamentares formais ou adjetivas (processuais), assinale a afirmativa correta.
@@ -138,6 +156,9 @@ Sobre as imunidades parlamentares formais ou adjetivas (processuais), assinale a
 * **C)** Os Deputados Estaduais não gozam das imunidades materiais e formais conferidas pela CF aos parlamentares federais.
 * **D)** A instauração de ação penal contra Deputado Federal perante o STF depende de prévia e indispensável licença política da Câmara dos Deputados.
 * **E)** A perda do mandato de parlamentar condenado criminalmente com trânsito em julgado opera-se automaticamente pela simples certidão do juízo eleitoral.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -191,7 +212,8 @@ flowchart TD
 
 
 
-### Questão 04 (FCC - Procurador do Estado / Adaptada)
+### Teste 146
+**(FCC - Procurador do Estado / Adaptada)**
 A respeito dos limites ao poder constituinte derivado reformador positivados no art. 60 da Constituição Federal de 1988, analise as seguintes afirmativas sobre as propostas de emenda à Constituição (PECs):
 
 I. A Constituição não poderá ser emendada na vigência de intervenção federal, de estado de defesa ou de estado de sítio (limitações circunstanciais).  
@@ -206,6 +228,9 @@ Está correto o que se afirma em:
 * **D)** I e III, apenas.
 * **E)** I, II e III.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **I. Correta:** O art. 60, § 1º, da CF/88 estabelece as limitações circunstanciais ao poder de reforma, impedindo emendas durante grave anomalia institucional (intervenção federal, estado de defesa e estado de sítio).
@@ -218,7 +243,8 @@ Está correto o que se afirma em:
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista Legislativo)
+### Teste 147
+**(FCC - Adaptada / Analista Legislativo)**
 Acerca do processo legislativo federal disciplinado na Constituição Federal de 1988, notadamente em relação às propostas de emenda à Constituição (PEC) e às medidas provisórias (MP), analise as afirmativas a seguir:
 
 I. A Constituição poderá ser emendada mediante proposta de um terço, no mínimo, dos membros da Câmara dos Deputados ou do Senado Federal, do Presidente da República ou de mais da metade das Assembleias Legislativas das unidades da Federação.  
@@ -234,6 +260,9 @@ Está correto o que se afirma em:
 * **C)** I e III, apenas.
 * **D)** I, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -252,7 +281,8 @@ Está correto o que se afirma em:
 
 
 
-### Questão 06 (FGV - Analista de Controle Externo / TCE-GO)
+### Teste 148
+**(FGV - Analista de Controle Externo / TCE-GO)**
 O art. 62 da Constituição da República de 1988 autoriza o Presidente da República a adotar medidas provisórias, com força de lei, em caso de relevância e urgência.
 
 Sobre as limitações materiais e temporais expressas aplicáveis às medidas provisórias, assinale a afirmativa correta.
@@ -262,6 +292,9 @@ Sobre as limitações materiais e temporais expressas aplicáveis às medidas pr
 * **C)** O Presidente da República pode editar medida provisória que disponha sobre planos plurianuais, diretrizes orçamentárias e orçamento anual.
 * **D)** É lícita a edição de medida provisória que vise à detenção ou sequestro de bens, de poupança popular ou de qualquer outro ativo financeiro dos cidadãos.
 * **E)** Se a medida provisória não for apreciada em até quarenta e cinco dias de sua publicação, ela perde sumariamente sua eficácia retroativa.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -341,7 +374,8 @@ Esta distinção conceitual é uma das favoritas da FCC para cargos de tribunais
 
 
 
-### Questão 07 (FCC - Técnico de Controle Externo / Adaptada TCE-GO)
+### Teste 149
+**(FCC - Técnico de Controle Externo / Adaptada TCE-GO)**
 A Constituição Federal de 1988, ao disciplinar a composição do Tribunal de Contas da União (art. 73) e estabelecer o princípio da simetria para os Tribunais de Contas dos Estados (art. 75), definiu o modelo constitucional de preenchimento dos cargos de Conselheiro.
 
 No Tribunal de Contas do Estado de Goiás (TCE-GO), composto por sete Conselheiros, as vagas são preenchidas de acordo com a seguinte proporção constitucional:
@@ -351,6 +385,9 @@ No Tribunal de Contas do Estado de Goiás (TCE-GO), composto por sete Conselheir
 * **C)** Três Conselheiros pela Assembleia Legislativa e quatro Conselheiros pelo Governador do Estado.
 * **D)** Seis Conselheiros eleitos por voto direto dos cidadãos goianos e um indicado pela Ordem dos Advogados do Brasil.
 * **E)** Cinco Conselheiros indicados pelo Poder Judiciário e dois indicados pela Controladoria-Geral do Estado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -364,7 +401,8 @@ No Tribunal de Contas do Estado de Goiás (TCE-GO), composto por sete Conselheir
 
 ---
 
-### Questão 08 (FCC - Adaptada / Analista de Controle Externo - TCE-GO)
+### Teste 150
+**(FCC - Adaptada / Analista de Controle Externo - TCE-GO)**
 A Câmara Municipal de determinado município goiano recebeu o parecer prévio conclusivo emitido pelo Tribunal de Contas do Estado recomendando, de forma unânime e fundamentada, a rejeição das contas anuais prestadas pelo Prefeito Municipal relativas ao exercício financeiro anterior, diante da constatação de descumprimento dos limites constitucionais de aplicação em educação e saúde. Submetido o parecer a deliberação em plenário, 60% dos vereadores votaram pela aprovação das contas do Chefe do Executivo.
 
 Nos termos do artigo 31, § 2º da Constituição Federal de 1988 e da jurisprudência consolidada do Supremo Tribunal Federal sobre o julgamento das contas municipais:
@@ -374,6 +412,9 @@ Nos termos do artigo 31, § 2º da Constituição Federal de 1988 e da jurisprud
 * **C)** O parecer prévio do Tribunal de Contas somente deixaria de prevalecer por decisão unânime de todos os vereadores componentes do parlamento municipal.
 * **D)** As contas foram rejeitadas, pois a maioria simples de votos de 60% não alcançou o quórum qualificado constitucional de dois terços (2/3) necessário para derrubar a conclusão do parecer prévio do Tribunal de Contas.
 * **E)** Caberá ao Presidente do Tribunal de Justiça do Estado de Goiás desempatar a votação e proferir a decisão terminativa sobre as contas do Chefe do Executivo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -408,7 +449,8 @@ flowchart TD
 
 ---
 
-### Questão 09 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 151
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Durante fiscalização de rotina em órgão da administração direta estadual, a equipe de auditoria do Tribunal de Contas constatou irregularidade formal insanável em contrato administrativo de prestação de serviços continuados de vigilância, bem como ilegalidade flagrante em ato administrativo unilateral de designação de servidor comissionado. Diante disso, o Tribunal assinou prazo de trinta dias para que o Secretário de Estado responsável adotasse as providências necessárias ao exato cumprimento da lei, o qual, contudo, permaneceu inerte.
 
 De acordo com o sistema de competências do controle externo estabelecido no artigo 71, incisos IX e X e §§ 1º e 2º da CF/88:
@@ -418,6 +460,9 @@ De acordo com o sistema de competências do controle externo estabelecido no art
 * **C)** A sustação do ato administrativo e do contrato administrativo compete privativamente ao Poder Judiciário mediante ajuizamento de ação civil pública pelo Ministério Público Estadual.
 * **D)** Se o Poder Executivo não sustar o contrato administrativo no prazo de quinze dias, o ato convalidar-se-á compulsoriamente por decurso de prazo.
 * **E)** O Tribunal de Contas não pode adotar qualquer medida sobre atos já aperfeiçoados, cabendo-lhe apenas comunicar o fato à Ouvidoria Geral.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -439,7 +484,8 @@ De acordo com o sistema de competências do controle externo estabelecido no art
 
 ---
 
-### Questão 10 (FCC - Adaptada / Técnico de Controle Externo - TCE-GO)
+### Teste 152
+**(FCC - Adaptada / Técnico de Controle Externo - TCE-GO)**
 O Plenário do Tribunal de Contas do Estado de Goiás, ao julgar irregular a prestação de contas de determinado dirigente de entidade pública autárquica estadual em virtude de sobrepreço comprovado em contratação emergencial de serviços de tecnologia, imputou-lhe o dever de ressarcir o erário no valor de R$ 400.000,00 e cominou-lhe multa punitiva de R$ 40.000,00. Regularmente notificado, o responsável não recolheu os valores devidos e não interpôs recursos regimentais.
 
 Diante do regramento inserto no artigo 71, § 3º da Constituição Federal de 1988 (aplicável aos Tribunais de Contas estaduais por força do art. 75):
@@ -449,6 +495,9 @@ Diante do regramento inserto no artigo 71, § 3º da Constituição Federal de 1
 * **C)** A Administração Pública estadual deverá propor Ação Ordinária de Cobrança perante a Vara da Fazenda Pública para demonstrar a liquidez e a certeza da obrigação em primeira instância.
 * **D)** A eficácia da condenação depende de prévia ratificação e homologação por decreto do Governador do Estado para constituir a dívida ativa.
 * **E)** O débito imputado prescreve compulsoriamente no prazo de noventa dias contados do encerramento da sessão plenária de julgamento.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -471,7 +520,8 @@ Diante do regramento inserto no artigo 71, § 3º da Constituição Federal de 1
 
 
 
-### Questão 11 (FGV - Analista Jurídico de Controle Externo / TCE-GO)
+### Teste 153
+**(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 A fiscalização dos municípios é exercida pelo Poder Legislativo municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo municipal, com o auxílio dos Tribunais de Contas (art. 31 da CF/88).
 
 A respeito da eficácia do parecer prévio emitido pelo Tribunal de Contas e do julgamento das contas do Prefeito Municipal, em consonância com a jurisprudência fixada pelo STF (Temas 835 e 157 de Repercussão Geral), assinale a afirmativa correta.
@@ -481,6 +531,9 @@ A respeito da eficácia do parecer prévio emitido pelo Tribunal de Contas e do 
 * **C)** O Tribunal de Contas tem competência constitucional originária para julgar de forma definitiva as contas de gestão de prefeitos que atuem como ordenadores de despesa, dispensando pronunciamento da Câmara.
 * **D)** O parecer prévio do Tribunal de Contas sobre as contas do Prefeito só pode ser rejeitado pela Câmara Municipal por unanimidade absoluta de votos.
 * **E)** A criação de novos Tribunais, Conselhos ou órgãos de Contas Municipais é expressamente autorizada pelos arts. 31 e 75 da CF/88 aos municípios com mais de um milhão de habitantes.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -492,7 +545,10 @@ A respeito da eficácia do parecer prévio emitido pelo Tribunal de Contas e do 
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 

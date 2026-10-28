@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `03_despesa_publica_estagios_restos_a_pagar_e_suprimento.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -25,28 +28,32 @@
 - Despesas de Exercícios Anteriores (DEA): as três hipóteses legais taxativas do Artigo 37 da Lei nº 4.320/1964;
 - Suprimento de Fundos (Regime de Adiantamento): conceito, hipóteses restritas de concessão (pequeno vulto, urgência, viagens e despesas sigilosas), proibições absolutas de concessão e prestação de contas.
 
----
 
-## 🧭 Sumário Interativo
-- [1. Despesa Pública: Conceito e Estágios Legais](#1-despesa-publica-conceito-e-estagios-legais)
-    - [1.1 Despesa Orçamentária vs. Dispêndios Extraorçamentários](#11-despesa-orcamentaria-vs-dispendios-extraorcamentarios)
-    - [1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)](#12-os-quatro-estagios-da-despesa-publica-fixacao-empenho-liquidacao-e-pagamento)
-    - [1.3 Modalidades de Empenho: Ordinário, Estimativo e Global](#13-modalidades-de-empenho-ordinario-estimativo-e-global)
-- [2. Estrutura e Classificações da Despesa Orçamentária](#2-estrutura-e-classificacoes-da-despesa-orcamentaria)
-    - [2.1 Classificação Institucional e Funcional (Matricialidade)](#21-classificacao-institucional-e-funcional-matricialidade)
-    - [2.2 Classificação Programática: Projetos, Atividades e Operações Especiais](#22-classificacao-programatica-projetos-atividades-e-operacoes-especiais)
-    - [2.3 Classificação por Natureza da Despesa e GNDs](#23-classificacao-por-natureza-da-despesa-e-gnds)
-    - [2.4 A Distinção Crítica FCC: Investimentos (GND 4) vs. Inversões Financeiras (GND 5)](#24-a-distincao-critica-fcc-investimentos-gnd-4-vs-inversoes-financeiras-gnd-5)
-- [3. Restos a Pagar (RAP) e Despesas de Exercícios Anteriores (DEA)](#3-restos-a-pagar-rap-e-despesas-de-exercicios-anteriores-dea)
-    - [3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)](#31-restos-a-pagar-processados-rpp-vs-restos-a-pagar-nao-processados-rpnp)
-    - [3.2 Cancelamento de RAP e a Prescrição Quinquenal](#32-cancelamento-de-rap-e-a-prescricao-quinquenal)
-    - [3.3 As Três Hipóteses Legais de DEA (Art. 37 da Lei nº 4.320/1964)](#33-as-tres-hipoteses-legais-de-dea-art-37-da-lei-no-43201964)
-- [4. Regime Excepcional de Suprimento de Fundos (Adiantamento)](#4-regime-excepcional-de-suprimento-de-fundos-adiantamento)
-    - [4.1 Hipóteses Restritas e Regra do Empenho Prévio](#41-hipoteses-restritas-e-regra-do-empenho-previo)
-    - [4.2 Vedações Categóricas e Prestação de Contas](#42-vedacoes-categoricas-e-prestacao-de-contas)
-- [5. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Despesa Pública: Conceito e Estágios Legais](#1-despesa-publica-conceito-e-estagios-legais)
+    2. [Teste 230](#Teste-230)
+    3. [Teste 231](#Teste-231)
+    4. [Teste 232](#Teste-232)
+    5. [Estrutura e Classificações da Despesa Orçamentária](#2-estrutura-e-classificacoes-da-despesa-orcamentaria)
+    6. [Teste 233](#Teste-233)
+    7. [Teste 234](#Teste-234)
+    8. [Restos a Pagar (RAP) e Despesas de Exercícios Anteriores (DEA)](#3-restos-a-pagar-rap-e-despesas-de-exercicios-anteriores-dea)
+    9. [Teste 235](#Teste-235)
+    10. [Teste 236](#Teste-236)
+    11. [Teste 237](#Teste-237)
+    12. [Regime Excepcional de Suprimento de Fundos (Adiantamento)](#4-regime-excepcional-de-suprimento-de-fundos-adiantamento)
+    13. [Teste 238](#Teste-238)
+    14. [Teste 239](#Teste-239)
+2. [Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+
+---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -98,7 +105,8 @@ flowchart LR
 
 ---
 
-### Questão 01 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Teste 230
+**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 A respeito da classificação e dos estágios da despesa pública orçamentária, assinale a opção correta:
 
 * **A)** A emissão de nota de empenho ordinário é admitida para despesas contratuais de prestação contínua de serviços cujo valor total deva ser desembolsado em parcelas mensais ao longo do ano.
@@ -106,6 +114,9 @@ A respeito da classificação e dos estágios da despesa pública orçamentária
 * **C)** A liquidação da despesa tem por objetivo comprovar o implemento de condição e o direito adquirido pelo credor, mediante verificação documental de que o serviço foi efetivamente prestado ou os bens foram entregues.
 * **D)** O pagamento da despesa pública pode anteceder a liquidação nas hipóteses de aquisição de bens duráveis com cláusula de entrega futura.
 * **E)** As despesas empenhadas e não pagas até o encerramento do exercício financeiro em 31 de dezembro serão obrigatoriamente anuladas pelo controle interno.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -120,7 +131,8 @@ A respeito da classificação e dos estágios da despesa pública orçamentária
 ---
 
 
-### Questão 02 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Teste 231
+**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 No tocante ao estágio da liquidação da despesa pública disciplinado nos arts. 62 e 63 da Lei Federal nº 4.320/1964, é correto afirmar:
 
 * **A)** A liquidação consiste na verificação do direito adquirido pelo credor, tendo por base os títulos e documentos comprobatórios do respectivo crédito, com o objetivo de apurar a origem e o objeto do que se deve pagar, a importância exata a pagar e a quem se deve pagar.
@@ -128,6 +140,9 @@ No tocante ao estágio da liquidação da despesa pública disciplinado nos arts
 * **C)** É lícito efetuar o pagamento da despesa antes da regular liquidação, desde que haja termo de garantia prestado pelo fornecedor contratado.
 * **D)** A nota de empenho substitui integralmente a fase de liquidação quando se tratar de contratação de serviços contínuos com dedicação exclusiva de mão de obra.
 * **E)** A liquidação é ato discricionário do ordenador de despesas, que pode dispensá-la quando o fornecedor for órgão integrante da Administração Pública direta.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -153,7 +168,8 @@ A legislação orçamentária prevê três modalidades formais de empenho, a ser
 
 ---
 
-### Questão 03 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Teste 232
+**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 Para a realização de despesas rotineiras de manutenção das instalações de uma secretaria de estado, o gestor público determinou a emissão de nota de empenho no início do mês de janeiro para cobrir os gastos com fornecimento contínuo de energia elétrica e abastecimento de água ao longo de todo o ano, sem que seja possível conhecer previamente o consumo exato a cada mês.
 
 A modalidade de empenho adequada e legalmente exigida para essa situação é o empenho:
@@ -163,6 +179,9 @@ A modalidade de empenho adequada e legalmente exigida para essa situação é o 
 * **C)** Estimativo.
 * **D)** Extraorçamentário.
 * **E)** Suplementar por Decreto.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -216,7 +235,8 @@ $$\text{C . G . MM . EE}$$
 
 ---
 
-### Questão 04 (FCC - Adaptada / Técnico de Controle Externo)
+### Teste 233
+**(FCC - Adaptada / Técnico de Controle Externo)**
 Determinada empresa pública estadual adquiriu, mediante procedimento licitatório de compra direta, um terreno urbano desocupado para futura expansão de seu almoxarifado no valor de R$ 2.000.000,00, bem como contratou uma empreiteira para a construção de um novo edifício administrativo no mesmo local pelo montante de R$ 5.000.000,00.
 
 Segundo a estrutura da despesa pública por sua natureza (Portaria Interministerial STN/SOF nº 163/2001 e MCASP), essas despesas classificam-se, respectivamente, nos seguintes Grupos de Natureza da Despesa (GND):
@@ -226,6 +246,9 @@ Segundo a estrutura da despesa pública por sua natureza (Portaria Interminister
 * **C)** Outras Despesas Correntes (GND 3) e Investimentos (GND 4).
 * **D)** Inversões Financeiras (GND 5) e Inversões Financeiras (GND 5).
 * **E)** Amortização da Dívida (GND 6) e Outras Despesas Correntes (GND 3).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -252,7 +275,8 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 234
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na classificação da despesa orçamentária por natureza, as despesas de capital dividem-se em três Grupos de Natureza da Despesa (GND): Investimentos (GND 4), Inversões Financeiras (GND 5) e Amortização da Dívida (GND 6).
 
 Constituem, respectivamente, Investimento (GND 4) e Inversão Financeira (GND 5):
@@ -262,6 +286,9 @@ Constituem, respectivamente, Investimento (GND 4) e Inversão Financeira (GND 5)
 * **C)** O pagamento do principal da dívida contratual externa e a aquisição de computadores novos para a secretaria de fazenda.
 * **D)** A concessão de empréstimos habitacionais e a realização de obras de reforma que ampliem a vida útil de hospital estadual.
 * **E)** A aquisição de instalações hospitalares novas e a contratação de serviços de consultoria contábil continuada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -294,7 +321,8 @@ flowchart TD
 
 ---
 
-### Questão 06 (FCC - Adaptada / Analista Jurídico de Controle)
+### Teste 235
+**(FCC - Adaptada / Analista Jurídico de Controle)**
 Ao final do exercício financeiro em 31 de dezembro, a Secretaria de Infraestrutura do Estado possuía dois contratos em execução:
 
 I. Contrato de pavimentação asfáltica, cuja medição final foi regularmente atestada pela fiscalização no dia 20 de dezembro e a nota fiscal devidamente liquidada, mas a ordem bancária de pagamento de R$ 800.000,00 não foi emitida até o encerramento do expediente bancário do ano.  
@@ -308,6 +336,9 @@ Em 31 de dezembro, essas duas despesas foram inscritas, respectivamente, como:
 * **C)** Restos a Pagar Processados e Restos a Pagar Não Processados.
 * **D)** Despesas de Exercícios Anteriores e Restos a Pagar Processados.
 * **E)** Ingressos Extraorçamentários e Restos a Pagar Não Processados.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -335,7 +366,8 @@ As dívidas passadas de exercícios orçamentários já encerrados serão empenh
 
 ---
 
-### Questão 07 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 236
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de Exercícios Anteriores (DEA), é correto afirmar que:
 
 * **A)** O suprimento de fundos pode ser concedido livremente a qualquer servidor público, inclusive àquele que esteja omisso no dever de prestar contas de adiantamento concedido anteriormente.
@@ -343,6 +375,9 @@ Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de 
 * **C)** O suprimento de fundos dispensa a realização de empenho orçamentário prévio em nome do servidor responsável pelo adiantamento.
 * **D)** As despesas de exercícios encerrados para as quais o orçamento respectivo consignava crédito próprio e com saldo suficiente, mas que não tenham sido empenhadas na época própria, poderão ser pagas à conta de dotação para despesas de exercícios anteriores (DEA).
 * **E)** O cancelamento de Restos a Pagar Processados enseja a imediata extinção irrecorrível do direito creditório do fornecedor perante a Fazenda Pública.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -358,7 +393,8 @@ Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de 
 
 
 
-### Questão 08 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+### Teste 237
+**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
 A respeito do reconhecimento e pagamento de Despesas de Exercícios Anteriores (DEA), disciplinadas pelo art. 37 da Lei Federal nº 4.320/1964 e normas correlatas, analise as hipóteses a seguir:
 
 I. Despesas de exercícios encerrados para os quais o orçamento respectivo consignava crédito próprio, com saldo suficiente para atendê-las, que não se tenham processado na época própria.  
@@ -372,6 +408,9 @@ III. Compromissos decorrentes de obrigação de pagamento criada em virtude de l
 * **C)** II e III, apenas.
 * **D)** I e III, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -414,7 +453,8 @@ flowchart TD
 
 ---
 
-### Questão 09 (FCC - Adaptada / Analista Jurídico de Controle)
+### Teste 238
+**(FCC - Adaptada / Analista Jurídico de Controle)**
 O regime de adiantamento ou suprimento de fundos é uma exceção ao princípio geral de que o pagamento de despesas públicas deve ser precedido de regular empenho e liquidação pelo rito ordinário.
 
 A respeito do suprimento de fundos, de acordo com o art. 68 da Lei nº 4.320/1964 e normas gerais de administração financeira, é correto afirmar:
@@ -424,6 +464,9 @@ A respeito do suprimento de fundos, de acordo com o art. 68 da Lei nº 4.320/196
 * **C)** O suprimento de fundos é cabível unicamente para despesas eventuais de pronto pagamento, que exijam pronta prestação de serviço ou aquisições miúdas que não possam subordinar-se ao processo normal de aplicação.
 * **D)** O suprido tem prazo indeterminado para prestar contas dos recursos sacados, sujeitando-se apenas ao prazo prescricional decadencial de dez anos.
 * **E)** É permitido efetuar adiantamento de suprimento de fundos a servidor em alcance ou que tenha deixado de prestar contas de suprimento anterior no prazo legal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -437,7 +480,8 @@ A respeito do suprimento de fundos, de acordo com o art. 68 da Lei nº 4.320/196
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 239
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 Em relação aos Restos a Pagar (RAP), sua classificação e regras de controle fiscal, considere a seguinte situação fática:
 
 Determinado órgão do Estado empenhou, no exercício de 2024, despesa referente à aquisição de equipamentos de tecnologia. Os equipamentos foram formalmente entregues, atestados pela comissão de recebimento e liquidados pela unidade orçamentária em 20 de dezembro de 2024, mas a ordem bancária de pagamento não pôde ser emitida até 31 de dezembro por razões operacionais de fechamento do sistema bancário.
@@ -450,6 +494,9 @@ No encerramento do exercício financeiro de 2024, tal despesa deverá ser inscri
 * **D)** Dívida Flutuante Insubsistente, devendo ser cancelada sumariamente em atendimento ao princípio da anualidade orçamentária.
 * **E)** Encargos Financeiros da Dívida Fundada, visto que sua exigibilidade ultrapassará o término do exercício financeiro.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. Os **Restos a Pagar Processados (RPP)** são aqueles cuja despesa cumpriu o estágio da liquidação (o credor entregou o bem ou prestou o serviço, tendo seu direito reconhecido e atestado pela Administração), restando unicamente o pagamento.
@@ -459,6 +506,8 @@ No encerramento do exercício financeiro de 2024, tal despesa deverá ser inscri
 > - **E)** Incorreta. Restos a Pagar integram a dívida flutuante (curto prazo), e não a dívida fundada/consolidada.
 > 
 > **Gabarito: A**
+
+
 
 ---
 

@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_servicos_de_diretorio_active_directory_e_ldap.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Conceitos e fundamentos de Serviços de Diretório
@@ -15,31 +18,47 @@
 - Políticas de Grupo (GPO - Group Policy Objects)
 - Autenticação Kerberos e funções FSMO
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos de Serviços de Diretório e Protocolo LDAP](#1-fundamentos-de-servicos-de-diretorio-e-protocolo-ldap)
-    - [1.1 Conceito: Diretório Hierárquico vs. Banco de Dados Relacional (RDBMS)](#11-conceito-diretorio-hierarquico-vs-banco-de-dados-relacional-rdbms)
-    - [1.2 O Protocolo LDAP: Portas Padrão e Arquitetura TCP/IP](#12-o-protocolo-ldap-portas-padrao-e-arquitetura-tcpip)
-    - [1.3 Formato de Nomenclatura X.500: DN, RDN, CN, OU e DC](#13-formato-de-nomenclatura-x500-dn-rdn-cn-ou-e-dc)
-    - [1.4 Operações LDAP Fundamentais e Filtros de Busca](#14-operacoes-ldap-fundamentais-e-filtros-de-busca)
-- [2. Arquitetura Lógica do Microsoft Active Directory (AD DS)](#2-arquitetura-logica-do-microsoft-active-directory-ad-ds)
-    - [2.1 Níveis Hierárquicos: OUs, Domínios, Árvores e Floresta](#21-niveis-hierarquicos-ous-dominios-arvores-e-floresta)
-    - [2.2 Tipos e Escopos de Grupos no AD DS](#22-tipos-e-escopos-de-grupos-no-ad-ds)
-    - [2.3 A Estratégia Canônica de Permissões: AGDLP e AGUDLP](#23-a-estrategia-canonica-de-permissoes-agdlp-e-agudlp)
-- [3. Estrutura Física e Serviços de Infraestrutura do AD DS](#3-estrutura-fisica-e-servicos-de-infraestrutura-do-ad-ds)
-    - [3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL](#31-controladores-de-dominio-dcs-ntdsdit-e-sysvol)
-    - [3.2 Sites, Sub-redes e Otimização de Replicação Física](#32-sites-sub-redes-e-otimizacao-de-replicacao-fisica)
-    - [3.3 Catálogo Global (Global Catalog - GC)](#33-catalogo-global-global-catalog-gc)
-    - [3.4 As 5 Funções Mestres de Operação Única (FSMO)](#34-as-5-funcoes-mestres-de-operacao-unica-fsmo)
-- [4. Políticas de Grupo (GPO) e Autenticação Kerberos v5](#4-politicas-de-grupo-gpo-e-autenticacao-kerberos-v5)
-    - [4.1 Precedência e Ordem de Processamento de GPOs (LSDOU)](#41-precedencia-e-ordem-de-processamento-de-gpos-lsdou)
-    - [4.2 Bloqueio de Herança (Block Inheritance) vs. Imposição (Enforced)](#42-bloqueio-de-heranca-block-inheritance-vs-imposicao-enforced)
-    - [4.3 Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço](#43-mecanica-do-kerberos-v5-kdc-as-tgs-tgt-e-bilhetes-de-servico)
-    - [4.4 Tolerância Temporal (Clock Skew) e o Papel do PDC Emulator](#44-tolerancia-temporal-clock-skew-e-o-papel-do-pdc-emulator)
-- [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
+
+1. [Fundamentos de Serviços de Diretório e Protocolo LDAP](#1-fundamentos-de-servicos-de-diretorio-e-protocolo-ldap)
+    1. [Conceito: Diretório Hierárquico vs. Banco de Dados Relacional (RDBMS)](#11-conceito-diretorio-hierarquico-vs-banco-de-dados-relacional-rdbms)
+    2. [Teste 421](#Teste-421)
+    3. [O Protocolo LDAP: Portas Padrão e Arquitetura TCP/IP](#12-o-protocolo-ldap-portas-padrao-e-arquitetura-tcpip)
+    4. [Formato de Nomenclatura X.500: DN, RDN, CN, OU e DC](#13-formato-de-nomenclatura-x500-dn-rdn-cn-ou-e-dc)
+    5. [Teste 422](#Teste-422)
+    6. [Operações LDAP Fundamentais e Filtros de Busca](#14-operacoes-ldap-fundamentais-e-filtros-de-busca)
+2. [Arquitetura Lógica do Microsoft Active Directory (AD DS)](#2-arquitetura-logica-do-microsoft-active-directory-ad-ds)
+    1. [Níveis Hierárquicos: OUs, Domínios, Árvores e Floresta](#21-niveis-hierarquicos-ous-dominios-arvores-e-floresta)
+    2. [Teste 423](#Teste-423)
+    3. [Tipos e Escopos de Grupos no AD DS](#22-tipos-e-escopos-de-grupos-no-ad-ds)
+    4. [A Estratégia Canônica de Permissões: AGDLP e AGUDLP](#23-a-estrategia-canonica-de-permissoes-agdlp-e-agudlp)
+    5. [Teste 424](#Teste-424)
+3. [Estrutura Física e Serviços de Infraestrutura do AD DS](#3-estrutura-fisica-e-servicos-de-infraestrutura-do-ad-ds)
+    1. [Controladores de Domínio (DCs), ntds.dit e SYSVOL](#31-controladores-de-dominio-dcs-ntdsdit-e-sysvol)
+    2. [Teste 425](#Teste-425)
+    3. [Sites, Sub-redes e Otimização de Replicação Física](#32-sites-sub-redes-e-otimizacao-de-replicacao-fisica)
+    4. [Teste 426](#Teste-426)
+    5. [Catálogo Global (Global Catalog - GC)](#33-catalogo-global-global-catalog-gc)
+    6. [As 5 Funções Mestres de Operação Única (FSMO)](#34-as-5-funcoes-mestres-de-operacao-unica-fsmo)
+    7. [Teste 427](#Teste-427)
+4. [Políticas de Grupo (GPO) e Autenticação Kerberos v5](#4-politicas-de-grupo-gpo-e-autenticacao-kerberos-v5)
+    1. [Precedência e Ordem de Processamento de GPOs (LSDOU)](#41-precedencia-e-ordem-de-processamento-de-gpos-lsdou)
+    2. [Teste 428](#Teste-428)
+    3. [Bloqueio de Herança (Block Inheritance) vs. Imposição (Enforced)](#42-bloqueio-de-heranca-block-inheritance-vs-imposicao-enforced)
+    4. [Teste 429](#Teste-429)
+    5. [Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço](#43-mecanica-do-kerberos-v5-kdc-as-tgs-tgt-e-bilhetes-de-servico)
+    6. [Teste 430](#Teste-430)
+    7. [Tolerância Temporal (Clock Skew) e o Papel do PDC Emulator](#44-tolerancia-temporal-clock-skew-e-o-papel-do-pdc-emulator)
+    8. [Teste 431](#Teste-431)
+5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Fundamentos de Serviços de Diretório e Protocolo LDAP
 
@@ -62,7 +81,8 @@ A principal distinção da arquitetura de diretórios frente aos bancos de dados
 
 ---
 
-### Questão 01 (FGV - TRT / Analista Judiciário - TI - Protocolo LDAP: Portas e Modelo Operacional)
+### Teste 421
+**(FGV - TRT / Analista Judiciário - TI - Protocolo LDAP: Portas e Modelo Operacional)**
 O Lightweight Directory Access Protocol (LDAP) é o protocolo padrão da indústria utilizado para consulta e modificação de serviços de diretório hierárquicos em redes corporativas.
 
 A respeito das características arquiteturais e das portas de comunicação padronizadas do LDAP, assinale a afirmativa correta:
@@ -72,6 +92,9 @@ A respeito das características arquiteturais e das portas de comunicação padr
 * **C)** No modelo de informação do LDAP, as operações de leitura são denominadas `DROP` e as de escrita `SELECT`.
 * **D)** O LDAP substitui o protocolo IP na camada 3 do modelo OSI.
 * **E)** As consultas LDAP são otimizadas para ambientes com altíssima taxa de gravação massiva e raríssimas leituras.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -118,7 +141,8 @@ CN=Thiago Ramos,OU=Auditores,OU=Fiscalizacao,DC=tce,DC=go,DC=gov,DC=br
 
 ---
 
-### Questão 02 (FCC - Adaptada / Tribunal de Contas - Especialidade Tecnologia da Informação)
+### Teste 422
+**(FCC - Adaptada / Tribunal de Contas - Especialidade Tecnologia da Informação)**
 No contexto de serviços de diretório baseados nas normas X.500 e no protocolo LDAP (RFC 4511), a localização precisa de um objeto no interior da Árvore de Informações de Diretório (DIT) é expressa por meio de seu Nome Distinto (*Distinguished Name* - DN).
 
 Considere que um analista precisa cadastrar a conta de usuário do servidor "Julio Cesar", lotado no setor de "AuditoriaTributaria", pertencente à subunidade de "Fiscalizacao", dentro do domínio governamental `sefaz.go.gov.br`. 
@@ -130,6 +154,9 @@ De acordo com o padrão LDAP, assinale a alternativa que apresenta a sintaxe can
 * **C)** `USER=Julio Cesar,DEPT=AuditoriaTributaria,SECTOR=Fiscalizacao,DOMAIN=sefaz.go.gov.br`
 * **D)** `DC=br,DC=gov,DC=go,DC=sefaz,OU=Fiscalizacao,OU=AuditoriaTributaria,CN=Julio Cesar`
 * **E)** `CN=Julio Cesar.OU=AuditoriaTributaria.OU=Fiscalizacao.DC=sefaz.go.gov.br`
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -157,7 +184,10 @@ O protocolo LDAP define um conjunto de operações primitivas:
 - **Add / Modify / Delete / ModifyDN:** Inserção, edição, exclusão e renomeação de objetos.
 - **Unbind:** Encerramento formal da sessão LDAP.
 
+
+
 ---
+
 
 ## 2. Arquitetura Lógica do Microsoft Active Directory (AD DS)
 
@@ -216,7 +246,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - TRT / Analista de TI - Infraestrutura - Estrutura Física do Active Directory: Sites e Replicação)
+### Teste 423
+**(FCC - TRT / Analista de TI - Infraestrutura - Estrutura Física do Active Directory: Sites e Replicação)**
 No Microsoft Windows Server Active Directory Domain Services (AD DS), a topologia física é estritamente dissociada da estrutura lógica (florestas, árvores e domínios) para otimizar o tráfego de rede entre localidades remotas.
 
 A respeito dos componentes da **Estrutura Física do Active Directory** e da replicação entre Controladores de Domínio (DCs), assinale a afirmativa correta:
@@ -226,6 +257,9 @@ A respeito dos componentes da **Estrutura Física do Active Directory** e da rep
 * **C)** Dois computadores pertencentes ao mesmo domínio são proibidos de residir em sites físicos distintos.
 * **D)** A replicação do Active Directory é unidirecional e centralizada exclusivamente em fitas magnéticas transportadas por via postal.
 * **E)** Todos os Controladores de Domínio de uma floresta devem ficar fisicamente no mesmo prédio para evitar falhas de replicação.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -277,7 +311,8 @@ flowchart LR
 
 ---
 
-### Questão 04 (FCC - Adaptada / Analista de Redes e Sistemas)
+### Teste 424
+**(FCC - Adaptada / Analista de Redes e Sistemas)**
 Em uma organização pública que utiliza o Active Directory, um administrador necessita conceder permissões de leitura e modificação a uma pasta compartilhada no servidor de arquivos para os colaboradores do departamento financeiro. A organização segue rigorosamente a metodologia recomendada de desenho de segurança de identidades baseada na estratégia AGDLP.
 
 Para cumprir esse padrão, a sequência correta de estruturação de contas, escopos de grupo e permissões de acesso é:
@@ -287,6 +322,9 @@ Para cumprir esse padrão, a sequência correta de estruturação de contas, esc
 * **C)** As contas de usuários (**A**) são inseridas em Grupos Globais (**G**), estes Grupos Globais são adicionados a Grupos Locais de Domínio (**DL**), e as Permissões (**P**) na pasta são atribuídas aos Grupos Locais de Domínio.
 * **D)** As contas de usuários (**A**) são inseridas em Grupos de Distribuição, que são convertidos em Grupos de Segurança para receberem Permissões (**P**) no nível de Site.
 * **E)** As contas de usuários (**A**) são associadas diretamente a uma Unidade Organizacional (**OU**), onde as permissões NTFS (**P**) de pastas são vinculadas via GPO.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -298,8 +336,9 @@ Para cumprir esse padrão, a sequência correta de estruturação de contas, esc
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 3. Estrutura Física e Serviços de Infraestrutura do AD DS
@@ -313,7 +352,8 @@ Para cumprir esse padrão, a sequência correta de estruturação de contas, esc
 
 ---
 
-### Questão 05 (FGV - TRT / Analista Judiciário - TI - O Mecanismo do Catálogo Global no Active Directory)
+### Teste 425
+**(FGV - TRT / Analista Judiciário - TI - O Mecanismo do Catálogo Global no Active Directory)**
 Em florestas corporativas do Active Directory compostas por múltiplos domínios (por exemplo, `tce.go.gov.br`, `sub1.tce.go.gov.br`, `sub2.tce.go.gov.br`), o **Catálogo Global (*Global Catalog - GC*)** desempenha um papel indispensável para a localização rápida de objetos e logon de usuários.
 
 A respeito do conteúdo e das funções operacionais do Catálogo Global, assinale a afirmativa correta:
@@ -323,6 +363,9 @@ A respeito do conteúdo e das funções operacionais do Catálogo Global, assina
 * **C)** O Catálogo Global é um arquivo executável que deve ser instalado exclusivamente em estações de trabalho Windows 10 Home.
 * **D)** O Catálogo Global é incompatível com o protocolo Kerberos v5.
 * **E)** Cada floresta do Active Directory pode possuir no máximo um único servidor com a função de Catálogo Global ativada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -351,7 +394,8 @@ Enquanto a estrutura lógica organiza os objetos em Domínios e OUs, a **Estrutu
 
 ---
 
-### Questão 06 (FCC - TRT / Analista de Sistemas - Suporte a Servidores - Escopos de Grupos no Active Directory: Estratégia AGDLP)
+### Teste 426
+**(FCC - TRT / Analista de Sistemas - Suporte a Servidores - Escopos de Grupos no Active Directory: Estratégia AGDLP)**
 O Active Directory classifica os grupos segundo dois tipos (**Segurança** e **Distribuição**) e três escopos principais: **Global**, **Domínio Local** (*Domain Local*) e **Universal**.
 
 Para implementar o controle de acesso a pastas e recursos compartilhados em redes com múltiplos domínios conforme as melhores práticas recomendadas pela Microsoft, utiliza-se a consagrada estratégia de aninhamento **AGDLP** (ou AGUDLP).
@@ -363,6 +407,9 @@ A sequência correta de aninhamento e concessão de privilégios prescrita pela 
 * **C)** Conceder Permissões (P) aos Grupos Globais e aninhá-los em Contas de Usuários (A).
 * **D)** Criar exclusivamente Grupos de Distribuição sem senhas e vinculá-los ao registro do Windows.
 * **E)** Aninhar todos os servidores em um único Grupo Global com permissão de Administrador do Domínio.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -404,7 +451,8 @@ Embora o Active Directory opere predominantemente sob o regime de replicação m
 
 ---
 
-### Questão 07 (FCC - Adaptada / Analista de Sistemas - Suporte a Servidores)
+### Teste 427
+**(FCC - Adaptada / Analista de Sistemas - Suporte a Servidores)**
 Em uma floresta multi-domínio do Microsoft Active Directory Domain Services (AD DS), a arquitetura do sistema delega certas operações a servidores específicos por meio das funções Mestres de Operação Única Flexível (*Flexible Single Master Operations* - FSMO). 
 
 Sobre as atribuições e o escopo dessas funções, é correto afirmar:
@@ -414,6 +462,9 @@ Sobre as atribuições e o escopo dessas funções, é correto afirmar:
 * **C)** A função de *RID Master* opera no nível de floresta e atua exclusivamente na validação de nomes de novos domínios que solicitam ingresso na estrutura hierárquica do AD.
 * **D)** As cinco funções FSMO operam compulsoriamente no mesmo e único Controlador de Domínio raiz, sendo tecnicamente impossível transferi-las individualmente entre diferentes servidores da rede.
 * **E)** A função de *Domain Naming Master* tem escopo de domínio e é responsável por atribuir identificadores relativos (RIDs) a cada novo objeto criado pelos controladores de domínio locais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -425,8 +476,9 @@ Sobre as atribuições e o escopo dessas funções, é correto afirmar:
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 4. Políticas de Grupo (GPO) e Autenticação Kerberos v5
@@ -454,7 +506,8 @@ flowchart TD
 
 ---
 
-### Questão 08 (FGV - TRT / Analista Judiciário - TI - Precedência de GPOs: O Princípio LSDOU)
+### Teste 428
+**(FGV - TRT / Analista Judiciário - TI - Precedência de GPOs: O Princípio LSDOU)**
 No gerenciamento centralizado de estações de trabalho e servidores Windows através de Objetos de Diretiva de Grupo (*Group Policy Objects - GPOs*), um computador ou usuário pode estar sujeito a múltiplas políticas conflitantes configuradas em diferentes níveis da hierarquia.
 
 A ordem padrão de processamento e precedência na aplicação de GPOs, expressa pela sigla **LSDOU**, estabelece que:
@@ -464,6 +517,9 @@ A ordem padrão de processamento e precedência na aplicação de GPOs, expressa
 * **C)** Políticas de Domínio são completamente ignoradas se o computador possuir antivírus instalado.
 * **D)** A ordem LSDOU é definida aleatoriamente pela CPU a cada reinicialização do Windows.
 * **E)** Uma GPO vinculada a um Site tem precedência superior sobre uma GPO vinculada com atributo *Enforced* em um Domínio.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -495,7 +551,8 @@ O comportamento padrão de herança pode ser alterado por dois modificadores:
 
 ---
 
-### Questão 09 (FCC - Adaptada / Analista de TI - Infraestrutura e Redes)
+### Teste 429
+**(FCC - Adaptada / Analista de TI - Infraestrutura e Redes)**
 Considere uma floresta corporativa do Microsoft Active Directory Domain Services (AD DS) composta por um único domínio denominado `tce.go.gov.br`. Um computador do setor de compras está localizado na Unidade Organizacional (OU) `Licitacoes`, que por sua vez é uma subunidade contida no interior da OU `Administrativo`. 
 
 Existem quatro Políticas de Grupo (GPOs) com configurações conflitantes vinculadas aos seguintes níveis:
@@ -513,6 +570,9 @@ Sabendo que a OU `Licitacoes` possui a opção de "Bloquear Herança" (*Block In
 * **C)** GPO "Diretiva-Admin", que é herdada compulsoriamente por ser a Unidade Organizacional hierarquicamente superior direta.
 * **D)** GPO "Diretiva-Licitacoes", pois o bloqueio de herança impede a aplicação de qualquer diretiva originada fora da referida OU.
 * **E)** GPO "Diretiva-Dominio", pois a opção de Imposição (*Enforced*) ignora e sobrepõe qualquer bloqueio de herança definido nas Unidades Organizacionais descendentes.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -555,7 +615,8 @@ sequenceDiagram
 
 ---
 
-### Questão 10 (FCC - Adaptada / Analista de Tecnologia da Informação - Segurança da Informação)
+### Teste 430
+**(FCC - Adaptada / Analista de Tecnologia da Informação - Segurança da Informação)**
 No protocolo de autenticação Kerberos v5, implementado nativamente pelo Active Directory Domain Services para prover autenticação mútua e *Single Sign-On* (SSO) no ambiente de rede corporativo:
 
 * **A)** As senhas dos usuários são transmitidas em texto claro durante a etapa inicial de negociação com o Authentication Server (AS), dependendo de túneis VPN para garantir a confidencialidade do tráfego.
@@ -563,6 +624,9 @@ No protocolo de autenticação Kerberos v5, implementado nativamente pelo Active
 * **C)** A tolerância temporal de dessincronização de relógio (*clock skew*) entre os clientes e o KDC é irrelevante para a segurança do protocolo, pois o Kerberos utiliza exclusivamente desafios e respostas baseados em números aleatórios (*nonces*).
 * **D)** O cliente obtém inicialmente um TGT junto ao serviço de autenticação (AS) e posteriormente apresenta esse TGT ao servidor de concessão de bilhetes (TGS) para solicitar bilhetes de serviço específicos para acessar recursos de rede.
 * **E)** O protocolo prescinde do uso de criptografia simétrica, utilizando certificados digitais de chave pública assimetricamente em todas as interações de solicitação de arquivos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -588,7 +652,8 @@ Para impedir que invasores capturem pacotes de autenticação na rede e os reenv
 
 ---
 
-### Questão 11 (FGV - TRT / Analista Judiciário - TI - Kerberos v5, Clock Skew e o Papel do PDC Emulator)
+### Teste 431
+**(FGV - TRT / Analista Judiciário - TI - Kerberos v5, Clock Skew e o Papel do PDC Emulator)**
 O protocolo de autenticação padrão no Active Directory é o **Kerberos v5** (RFC 4120), que opera com bilhetes criptográficos temporais (*tickets*) para assegurar autenticação mútua sem transmissão de senhas na rede.
 
 A respeito da vulnerabilidade do Kerberos a ataques de repetição (*Replay Attacks*), do papel do mestre FSMO **PDC Emulator** e da tolerância temporal (*Clock Skew*), assinale a afirmativa correta:
@@ -598,6 +663,9 @@ A respeito da vulnerabilidade do Kerberos a ataques de repetição (*Replay Atta
 * **C)** Se a diferença de relógio entre a estação de trabalho e o PDC Emulator for de 3 horas, a autenticação Kerberos prossegue normalmente sem emitir alertas.
 * **D)** O PDC Emulator é uma placa aceleradora de vídeo 3D que deve ser instalada fisicamente em todas as estações do tribunal.
 * **E)** O protocolo Kerberos foi substituído pelo NTLMv1 em todas as versões modernas do Windows Server devido à sua superioridade criptográfica.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -611,7 +679,10 @@ A respeito da vulnerabilidade do Kerberos a ataques de repetição (*Replay Atta
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 6. Fontes Recomendadas na Internet
 

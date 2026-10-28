@@ -5,7 +5,10 @@
 > **Arquivo:** `06_politicas_institucionais_e_resolucoes_normativas.md`  
 > **Atos Normativos:** Resoluções Administrativas (RA) e Resoluções Normativas (RN) do TCE-GO de 2024 e 2025
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Políticas institucionais do Tribunal de Contas do Estado de Goiás e resoluções normativas relacionadas à organização, funcionamento e gestão institucional:
@@ -17,31 +20,46 @@
     - **Resolução Administrativa nº 19/2024:** Dispõe sobre a Política de Comunicação Institucional (transparência pública, linguagem simples/cidadã, centralização na Assessoria de Comunicação e relacionamento com a mídia);
     - **Resolução Administrativa nº 15/2024:** Dispõe sobre o Sistema de Planejamento e Gestão Institucional do TCE-GO (planejamento estratégico plurianual, governança pública, gestão de riscos no Modelo das Três Linhas e monitoramento de indicadores de desempenho).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Estrutura Organizacional e Competências Técnicas (RA nº 14/2025)](#1-estrutura-organizacional-e-competencias-tecnicas-ra-no-142025)
-    - [1.1 Macroestrutura Superior e Órgãos Deliberativos](#11-macroestrutura-superior-e-orgaos-deliberativos)
-    - [1.2 Secretarias de Controle Externo e Unidades de Apoio Estratégico](#12-secretarias-de-controle-externo-e-unidades-de-apoio-estrategico)
-- [2. Política de Segurança da Informação - PSI (RA nº 17/2024)](#2-politica-de-seguranca-da-informacao-psi-ra-no-172024)
-    - [2.1 Pilares Basilares: CIDA+L e Destinatários da Norma](#21-pilares-basilares-cidal-e-destinatarios-da-norma)
-    - [2.2 Classificação da Informação e Controles Operacionais de TI](#22-classificacao-da-informacao-e-controles-operacionais-de-ti)
-    - [2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade](#23-tratamento-de-incidentes-ciberneticos-e-rastreabilidade)
-- [3. Tratamento e Proteção de Dados Pessoais - LGPD (RN nº 5/2024)](#3-tratamento-e-protecao-de-dados-pessoais-lgpd-rn-no-52024)
-    - [3.1 Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento](#31-aplicacao-da-lgpd-ao-controle-externo-dispensabilidade-do-consentimento)
-    - [3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê](#32-governanca-de-privacidade-controlador-operador-dpo-e-comite)
-    - [3.3 Minimização, Anonimização e Relatório de Impacto (RIPD)](#33-minimizacao-anonimizacao-e-relatorio-de-impacto-ripd)
-- [4. Governança e Uso de Inteligência Artificial no TCE-GO (RA nº 24/2024)](#4-governanca-e-uso-de-inteligencia-artificial-no-tce-go-ra-no-242024)
-    - [4.1 Princípio da Supervisão Humana Compulsória (*Human-in-the-loop*)](#41-principio-da-supervisao-humana-compulsoria-human-in-the-loop)
-    - [4.2 Proibição Estrita de Dados Sigilosos em Modelos Abertos](#42-proibicao-estrita-de-dados-sigilosos-em-modelos-abertos)
-    - [4.3 Responsabilidade Funcional Exclusiva do Servidor Operador](#43-responsabilidade-funcional-exclusiva-do-servidor-operador)
-- [5. Gestão de Pessoas, Comunicação e Planejamento Integrado](#5-gestao-de-pessoas-comunicacao-e-planejamento-integrado)
-    - [5.1 Política de Gestão de Pessoas e Teletrabalho (RA nº 5/2024)](#51-politica-de-gestao-de-pessoas-e-teletrabalho-ra-no-52024)
-    - [5.2 Política de Comunicação Institucional e Linguagem Simples (RA nº 19/2024)](#52-politica-de-comunicacao-institucional-e-linguagem-simples-ra-no-192024)
-    - [5.3 Planejamento Institucional e o Modelo das Três Linhas do IIA (RA nº 15/2024)](#53-planejamento-institucional-e-o-modelo-das-tres-linhas-do-iia-ra-no-152024)
-- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Estrutura Organizacional e Competências Técnicas (RA nº 14/2025)](#1-estrutura-organizacional-e-competencias-tecnicas-ra-no-142025)
+    1. [Macroestrutura Superior e Órgãos Deliberativos](#11-macroestrutura-superior-e-orgaos-deliberativos)
+    2. [Secretarias de Controle Externo e Unidades de Apoio Estratégico](#12-secretarias-de-controle-externo-e-unidades-de-apoio-estrategico)
+    3. [Teste 172](#Teste-172)
+2. [Política de Segurança da Informação - PSI (RA nº 17/2024)](#2-politica-de-seguranca-da-informacao-psi-ra-no-172024)
+    1. [Pilares Basilares: CIDA+L e Destinatários da Norma](#21-pilares-basilares-cidal-e-destinatarios-da-norma)
+    2. [Teste 173](#Teste-173)
+    3. [Classificação da Informação e Controles Operacionais de TI](#22-classificacao-da-informacao-e-controles-operacionais-de-ti)
+    4. [Tratamento de Incidentes Cibernéticos e Rastreabilidade](#23-tratamento-de-incidentes-ciberneticos-e-rastreabilidade)
+    5. [Teste 174](#Teste-174)
+3. [Tratamento e Proteção de Dados Pessoais - LGPD (RN nº 5/2024)](#3-tratamento-e-protecao-de-dados-pessoais-lgpd-rn-no-52024)
+    1. [Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento](#31-aplicacao-da-lgpd-ao-controle-externo-dispensabilidade-do-consentimento)
+    2. [Teste 175](#Teste-175)
+    3. [Governança de Privacidade: Controlador, Operador, DPO e Comitê](#32-governanca-de-privacidade-controlador-operador-dpo-e-comite)
+    4. [Minimização, Anonimização e Relatório de Impacto (RIPD)](#33-minimizacao-anonimizacao-e-relatorio-de-impacto-ripd)
+    5. [Teste 176](#Teste-176)
+4. [Governança e Uso de Inteligência Artificial no TCE-GO (RA nº 24/2024)](#4-governanca-e-uso-de-inteligencia-artificial-no-tce-go-ra-no-242024)
+    1. [Princípio da Supervisão Humana Compulsória (*Human-in-the-loop*)](#41-principio-da-supervisao-humana-compulsoria-human-in-the-loop)
+    2. [Teste 177](#Teste-177)
+    3. [Proibição Estrita de Dados Sigilosos em Modelos Abertos](#42-proibicao-estrita-de-dados-sigilosos-em-modelos-abertos)
+    4. [Responsabilidade Funcional Exclusiva do Servidor Operador](#43-responsabilidade-funcional-exclusiva-do-servidor-operador)
+    5. [Teste 178](#Teste-178)
+5. [Gestão de Pessoas, Comunicação e Planejamento Integrado](#5-gestao-de-pessoas-comunicacao-e-planejamento-integrado)
+    1. [Política de Gestão de Pessoas e Teletrabalho (RA nº 5/2024)](#51-politica-de-gestao-de-pessoas-e-teletrabalho-ra-no-52024)
+    2. [Política de Comunicação Institucional e Linguagem Simples (RA nº 19/2024)](#52-politica-de-comunicacao-institucional-e-linguagem-simples-ra-no-192024)
+    3. [Teste 179](#Teste-179)
+    4. [Planejamento Institucional e o Modelo das Três Linhas do IIA (RA nº 15/2024)](#53-planejamento-institucional-e-o-modelo-das-tres-linhas-do-iia-ra-no-152024)
+    5. [Teste 180](#Teste-180)
+    6. [Teste 181](#Teste-181)
+6. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Estrutura Organizacional e Competências Técnicas (RA nº 14/2025)
 
@@ -78,7 +96,7 @@ As atividades finalísticas e corporativas do Tribunal são executadas por secre
     - *Diretoria de Gestão de Pessoas (DGP):* Gestão funcional, folha de pagamento, saúde ocupacional e desenvolvimento por competências.
 
 
-### Questão 01
+### Teste 172
 **(FCC – Inédita – Padrão TCE-GO)**  
 De acordo com a Estrutura Organizacional e Competências Técnicas do TCE-GO aprovada pela Resolução Administrativa nº 14/2025:
 
@@ -87,6 +105,9 @@ De acordo com a Estrutura Organizacional e Competências Técnicas do TCE-GO apr
 * **C)** A criação ou extinção de diretorias e secretarias operacionais dispensa qualquer aprovação do Tribunal Pleno.
 * **D)** As equipes de auditoria técnica das gerências especializadas possuem competência para aplicar multas e emitir acórdãos terminativos de forma monocrática e independente do Tribunal Pleno.
 * **E)** As decisões administrativas sobre recursos humanos da Secretaria de Controle Externo são julgadas exclusivamente pelo Ministério Público de Contas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -98,9 +119,10 @@ De acordo com a Estrutura Organizacional e Competências Técnicas do TCE-GO apr
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 2. Política de Segurança da Informação - PSI (RA nº 17/2024)
 
@@ -121,7 +143,7 @@ $$\text{CIDA+L} = \text{Confidencialidade} + \text{Integridade} + \text{Disponib
 
 ---
 
-### Questão 02
+### Teste 173
 **(FCC – DPE-RS – Analista de Tecnologia da Informação)**  
 A respeito da Política de Segurança da Informação (PSI) do Tribunal de Contas do Estado de Goiás, veiculada pela Resolução Administrativa nº 17/2024, assinale a afirmativa correta:
 
@@ -130,6 +152,9 @@ A respeito da Política de Segurança da Informação (PSI) do Tribunal de Conta
 * **C)** É lícito aos servidores de um mesmo setor compartilhar entre si senhas corporativas de acesso para agilizar o atendimento de demandas urgentes na ausência do titular.
 * **D)** A Política de Segurança da Informação aplica-se estritamente aos servidores lotados na Secretaria de Tecnologia da Informação.
 * **E)** A classificação de informações em níveis de confidencialidade é vedada no âmbito do Tribunal em virtude do princípio constitucional da publicidade ampla.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -169,7 +194,7 @@ A infraestrutura do TCE-GO conta com a **Equipe de Tratamento de Incidentes de R
 - O Tribunal mantém trilhas de auditoria eletrônica e logs de acesso detalhados para garantir a rastreabilidade absoluta de qualquer modificação ou consulta indevida em processos de controle externo.
 
 
-### Questão 03
+### Teste 174
 **(FCC – Inédita – Padrão TCE-GO)**  
 A Política de Segurança da Informação (PSI) do TCE-GO, instituída pela Resolução Administrativa nº 17/2024, baseia-se nos pilares essenciais da segurança cibernética (CIDA+L). No tocante à classificação e ao tratamento da informação institucional:
 
@@ -178,6 +203,9 @@ A Política de Segurança da Informação (PSI) do TCE-GO, instituída pela Reso
 * **C)** O compartilhamento de senhas funcionais de acesso à rede interna entre colegas de uma mesma equipe de auditoria é estimulado pela PSI para garantir a continuidade dos serviços.
 * **D)** O pilar da autenticidade assegura que a informação permaneça acessível aos usuários mesmo em situações de ataque de negação de serviço.
 * **E)** Incidentes de quebra de sigilo ou vazamento cibernético de dados dispensam notificação à área de segurança da informação se resolvidos internamente no setor em 24 horas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -189,9 +217,10 @@ A Política de Segurança da Informação (PSI) do TCE-GO, instituída pela Reso
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 3. Tratamento e Proteção de Dados Pessoais - LGPD (RN nº 5/2024)
 
@@ -207,7 +236,7 @@ A **Resolução Normativa nº 5/2024** disciplina o tratamento de dados pessoais
 
 ---
 
-### Questão 04
+### Teste 175
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Determinado jurisdicionado ingressou com requerimento administrativo perante o TCE-GO exigindo a imediata exclusão e o expurgo de seus dados cadastrais e financeiros constantes de procedimento de fiscalização de obras, invocando o direito de eliminação assegurado pela Lei Geral de Proteção de Dados (LGPD). De acordo com a Resolução Normativa nº 5/2024 do TCE-GO e com a Lei nº 13.709/2018:
 
@@ -216,6 +245,9 @@ Determinado jurisdicionado ingressou com requerimento administrativo perante o T
 * **C)** O controle externo estadual não se submete aos princípios da LGPD, sendo vedado ao Tribunal instituir Comitê de Privacidade ou nomear Encarregado de Dados.
 * **D)** A eliminação dos dados cadastrais é obrigatória, devendo os relatórios de auditoria ser cancelados e arquivados sem decisão de mérito.
 * **E)** O titular de dados possui direito potestativo absoluto de impedir o acesso de auditores aos seus dados bancários, mesmo diante de comprovado desvio de recursos públicos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -247,7 +279,7 @@ A governança de dados pessoais no TCE-GO é estruturada com clareza funcional:
 - **Relatório de Impacto à Proteção de Dados Pessoais (RIPD):** Documento elaborado pelo setor de governança antes da implantação de novos sistemas ou processos que envolvam tratamento massivo de dados sensíveis, mapeando riscos de vazamento e indicando medidas mitigadoras.
 
 
-### Questão 05
+### Teste 176
 **(FCC – Inédita – Padrão TCE-GO)**  
 Em relação à governança de privacidade e à proteção de dados pessoais no âmbito do TCE-GO (Resolução Normativa nº 5/2024, em sintonia com a Lei Geral de Proteção de Dados Pessoais - LGPD, Lei nº 13.709/2018):
 
@@ -256,6 +288,9 @@ Em relação à governança de privacidade e à proteção de dados pessoais no 
 * **C)** O Encarregado pelo Tratamento de Dados Pessoais (DPO) do TCE-GO responde solidariamente com seu patrimônio pessoal por qualquer vazamento externo provocado por criminosos virtuais.
 * **D)** O Relatório de Impacto à Proteção de Dados Pessoais (RIPD) é documento dispensável mesmo quando houver tratamento de dados sensíveis em larga escala.
 * **E)** Os titulares de dados perdem qualquer direito de informação ou retificação de seus dados cadastrais perante o Tribunal de Contas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -267,9 +302,10 @@ Em relação à governança de privacidade e à proteção de dados pessoais no 
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 4. Governança e Uso de Inteligência Artificial no TCE-GO (RA nº 24/2024)
 
@@ -291,7 +327,7 @@ A **Resolução Administrativa nº 24/2024** estabelece as diretrizes éticas e 
 
 ---
 
-### Questão 06
+### Teste 177
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Em conformidade com a Resolução Administrativa nº 24/2024 do Tribunal de Contas do Estado de Goiás, que disciplina o uso de ferramentas de Inteligência Artificial (IA) no âmbito da Corte, o auditor que utiliza assistente generativo para subsidiar a elaboração de matriz de auditoria governamental:
 
@@ -300,6 +336,9 @@ Em conformidade com a Resolução Administrativa nº 24/2024 do Tribunal de Cont
 * **C)** Tem autorização para inserir dados fiscais e bancários protegidos por sigilo constitucional em qualquer ferramenta pública de IA disponível na web para agilizar o processamento.
 * **D)** Está dispensado de checar as fontes citadas pelo modelo, haja vista a presunção legal de veracidade das plataformas de inteligência computacional.
 * **E)** Só poderá utilizar modelos de linguagem mediante autorização prévia individual e por escrito expedida pelo Plenário do Tribunal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -332,7 +371,7 @@ O servidor que utilizar ferramentas de IA para redigir peças processuais, despa
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Questões de concurso podem tentar enganar o candidato sugerindo que "o servidor que utilizar inteligência artificial homologada pelo Tribunal fica isento de responsabilidade disciplinar caso a minuta traga jurisprudência forjada pelo modelo". A assertiva está **TOTALMENTE ERRADA**. A responsabilidade pelo texto assinado é sempre **pessoal e indelegável do servidor**, que deve checar minuciosamente cada citação!
 
 
-### Questão 07
+### Teste 178
 **(FCC – Inédita – Padrão TCE-GO)**  
 A Resolução Administrativa nº 24/2024 estabelece a Política de Governança e Uso de Inteligência Artificial no TCE-GO. Sobre as diretrizes éticas e operacionais de ferramentas de IA na Corte de Contas goiana, é correto afirmar:
 
@@ -341,6 +380,9 @@ A Resolução Administrativa nº 24/2024 estabelece a Política de Governança e
 * **C)** A inteligência artificial pode ser utilizada para gerar automaticamente acórdãos condenatórios sem conferência técnica do relator.
 * **D)** As ferramentas de IA utilizadas no Tribunal são dispensadas de observar princípios de explicabilidade e auditabilidade algorítmica.
 * **E)** O servidor que assina relatório gerado com auxílio de IA fica isento de responsabilidade por erros materiais ou alucinações de conteúdo produzidas pela máquina.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -352,9 +394,10 @@ A Resolução Administrativa nº 24/2024 estabelece a Política de Governança e
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 5. Gestão de Pessoas, Comunicação e Planejamento Integrado
 
@@ -378,7 +421,7 @@ A **Resolução Administrativa nº 19/2024** orienta a comunicação pública do
 
 ---
 
-### Questão 08
+### Teste 179
 **(FCC – TCE-GO – Técnico de Controle Externo)**  
 A respeito da Política de Comunicação Institucional (Resolução Administrativa nº 19/2024) e da Política de Gestão de Pessoas (Resolução Administrativa nº 5/2024) do TCE-GO:
 
@@ -387,6 +430,9 @@ A respeito da Política de Comunicação Institucional (Resolução Administrati
 * **C)** O regime de teletrabalho previsto na Política de Gestão de Pessoas é obrigatório para todos os servidores sem necessidade de avaliação ou metas de produtividade.
 * **D)** A capacitação dos servidores é facultativa ao Tribunal, sendo vedada a oferta de pós-graduações pela Escola Superior de Controle Externo.
 * **E)** Os servidores do Tribunal têm liberdade para conceder entrevistas individuais em nome da Corte de Contas a emissoras de televisão sem alinhamento com a Assessoria de Comunicação.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -420,7 +466,7 @@ graph TD
 
 ---
 
-### Questão 09
+### Teste 180
 **(FCC – TCE-SE – Analista de Controle Externo)**  
 No âmbito do Sistema de Planejamento e Gestão Institucional do TCE-GO, normatizado pela Resolução Administrativa nº 15/2024, a gestão de riscos e os controles internos da gestão estruturam-se consoante o internacionalmente reconhecido Modelo das Três Linhas (*Three Lines Model* do IIA). Nesse modelo, as atribuições da 1ª Linha, da 2ª Linha e da 3ª Linha correspondem, respectivamente, a:
 
@@ -429,6 +475,9 @@ No âmbito do Sistema de Planejamento e Gestão Institucional do TCE-GO, normati
 * **C)** Ouvidoria e cidadãos; Assessoria de Comunicação; Diretoria de Recursos Humanos.
 * **D)** Assembleia Legislativa do Estado; Governador do Estado; Tribunal de Justiça.
 * **E)** Empresas terceirizadas; Conselheiros relatores; Servidores em estágio probatório.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -441,7 +490,7 @@ No âmbito do Sistema de Planejamento e Gestão Institucional do TCE-GO, normati
 > **Gabarito: B**
 
 
-### Questão 10
+### Teste 181
 **(FCC – Inédita – Padrão TCE-GO)**  
 Quanto ao regime de teletrabalho disciplinado na Política de Gestão de Pessoas do TCE-GO (Resolução Administrativa nº 5/2024):
 
@@ -450,6 +499,9 @@ Quanto ao regime de teletrabalho disciplinado na Política de Gestão de Pessoas
 * **C)** No regime de teletrabalho, o servidor fica desobrigado de manter canais de comunicação ativos durante o horário regular de funcionamento do Tribunal.
 * **D)** O não atingimento imotivado das metas de desempenho fixadas no plano de trabalho acarreta a promoção automática do servidor por merecimento presumido.
 * **E)** O teletrabalho impede a realização de auditorias presenciais mesmo quando expressamente requisitadas pelo relator dos autos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -461,10 +513,9 @@ Quanto ao regime de teletrabalho disciplinado na Política de Gestão de Pessoas
 >
 > **Gabarito: B**
 
----
+
 
 ---
-
 
 
 ## 6. Fontes Oficiais e Referências Bibliográficas

@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `03_atos_administrativos_e_processo_estadual.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Ato administrativo: conceito, características e distinções
@@ -16,37 +19,53 @@
 - Convalidação (sanamento de vícios de competência e forma)
 - Processo Administrativo no Estado de Goiás: Lei Estadual nº 13.800/2001 e alterações
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Teoria Geral do Ato Administrativo e Distinções Conceituais](#1-teoria-geral-do-ato-administrativo-e-distincoes-conceituais)
-    - [1.1 Fato da Administração vs. Fato Administrativo vs. Ato Administrativo](#11-fato-da-administracao-vs-fato-administrativo-vs-ato-administrativo)
-    - [1.2 Perfeição, Validade e Eficácia do Ato](#12-perfeicao-validade-e-eficacia-do-ato)
-- [2. Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)](#2-elementos-e-requisitos-de-validade-do-ato-mnemonico-cofifom)
-    - [2.1 Competência (Sujeito Competente)](#21-competencia-sujeito-competente)
-    - [2.2 Finalidade e o Desvio de Poder](#22-finalidade-e-o-desvio-de-poder)
-    - [2.3 Forma e Princípio da Solenidade](#23-forma-e-principio-da-solenidade)
-    - [2.4 Motivo e a Teoria dos Motivos Determinantes](#24-motivo-e-a-teoria-dos-motivos-determinantes)
-    - [2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo](#25-objeto-conteudo-e-a-delimitacao-do-merito-administrativo)
-- [3. Atributos do Ato Administrativo (Mnemônico PATI)](#3-atributos-do-ato-administrativo-mnemonico-pati)
-    - [3.1 Presunção de Legitimidade e Veracidade](#31-presuncao-de-legitimidade-e-veracidade)
-    - [3.2 Autoexecutoriedade e seus Limites](#32-autoexecutoriedade-e-seus-limites)
-    - [3.3 Tipicidade Administrativa](#33-tipicidade-administrativa)
-    - [3.4 Imperatividade e Poder Extroverso](#34-imperatividade-e-poder-extroverso)
-- [4. Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos](#4-classificacoes-relevantes-para-a-fcc-atos-simples-complexos-e-compostos)
-    - [4.1 Atos Simples, Complexos e Compostos](#41-atos-simples-complexos-e-compostos)
-    - [4.2 O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)](#42-o-registro-de-aposentadoria-no-tribunal-de-contas-tema-445-stf)
-- [5. Extinção e Convalidação dos Atos Administrativos](#5-extincao-e-convalidacao-dos-atos-administrativos)
-    - [5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição](#51-modos-de-extincao-anulacao-revogacao-cassacao-caducidade-e-contraposicao)
-    - [5.2 Convalidação: Requisitos, Limites e Efeitos Temporais](#52-convalidacao-requisitos-limites-e-efeitos-temporais)
-- [6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)](#6-processo-administrativo-no-estado-de-goias-lei-estadual-no-138002001)
-    - [6.1 Princípios Norteadores e Direitos dos Administrados](#61-principios-norteadores-e-direitos-dos-administrados)
-    - [6.2 Vedações Absolutas à Delegação (Regra do CENORA - Art. 13)](#62-vedacoes-absolutas-a-delegacao-regra-do-cenora-art-13)
-    - [6.3 Impedimentos e Suspeição de Agentes e Julgadores](#63-impedimentos-e-suspeicao-de-agentes-e-julgadores)
-    - [6.4 Motivação das Decisões e Regime Recursal](#64-motivacao-das-decisoes-e-regime-recursal)
-- [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
+
+1. [Teoria Geral do Ato Administrativo e Distinções Conceituais](#1-teoria-geral-do-ato-administrativo-e-distincoes-conceituais)
+    1. [Fato da Administração vs. Fato Administrativo vs. Ato Administrativo](#11-fato-da-administracao-vs-fato-administrativo-vs-ato-administrativo)
+    2. [Perfeição, Validade e Eficácia do Ato](#12-perfeicao-validade-e-eficacia-do-ato)
+    3. [Teste 023](#Teste-023)
+2. [Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)](#2-elementos-e-requisitos-de-validade-do-ato-mnemonico-cofifom)
+    1. [Competência (Sujeito Competente)](#21-competencia-sujeito-competente)
+    2. [Finalidade e o Desvio de Poder](#22-finalidade-e-o-desvio-de-poder)
+    3. [Teste 024](#Teste-024)
+    4. [Forma e Princípio da Solenidade](#23-forma-e-principio-da-solenidade)
+    5. [Motivo e a Teoria dos Motivos Determinantes](#24-motivo-e-a-teoria-dos-motivos-determinantes)
+    6. [Teste 025](#Teste-025)
+    7. [Objeto (Conteúdo) e a Delimitação do Mérito Administrativo](#25-objeto-conteudo-e-a-delimitacao-do-merito-administrativo)
+    8. [Teste 026](#Teste-026)
+3. [Atributos do Ato Administrativo (Mnemônico PATI)](#3-atributos-do-ato-administrativo-mnemonico-pati)
+    1. [Presunção de Legitimidade e Veracidade](#31-presuncao-de-legitimidade-e-veracidade)
+    2. [Autoexecutoriedade e seus Limites](#32-autoexecutoriedade-e-seus-limites)
+    3. [Teste 027](#Teste-027)
+    4. [Tipicidade Administrativa](#33-tipicidade-administrativa)
+    5. [Imperatividade e Poder Extroverso](#34-imperatividade-e-poder-extroverso)
+4. [Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos](#4-classificacoes-relevantes-para-a-fcc-atos-simples-complexos-e-compostos)
+    1. [Atos Simples, Complexos e Compostos](#41-atos-simples-complexos-e-compostos)
+    2. [Teste 028](#Teste-028)
+    3. [O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)](#42-o-registro-de-aposentadoria-no-tribunal-de-contas-tema-445-stf)
+    4. [Teste 029](#Teste-029)
+5. [Extinção e Convalidação dos Atos Administrativos](#5-extincao-e-convalidacao-dos-atos-administrativos)
+    1. [Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição](#51-modos-de-extincao-anulacao-revogacao-cassacao-caducidade-e-contraposicao)
+    2. [Teste 030](#Teste-030)
+    3. [Convalidação: Requisitos, Limites e Efeitos Temporais](#52-convalidacao-requisitos-limites-e-efeitos-temporais)
+    4. [Teste 031](#Teste-031)
+6. [Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)](#6-processo-administrativo-no-estado-de-goias-lei-estadual-no-138002001)
+    1. [Princípios Norteadores e Direitos dos Administrados](#61-principios-norteadores-e-direitos-dos-administrados)
+    2. [Vedações Absolutas à Delegação (Regra do CENORA - Art. 13)](#62-vedacoes-absolutas-a-delegacao-regra-do-cenora-art-13)
+    3. [Teste 032](#Teste-032)
+    4. [Impedimentos e Suspeição de Agentes e Julgadores](#63-impedimentos-e-suspeicao-de-agentes-e-julgadores)
+    5. [Teste 033](#Teste-033)
+    6. [Motivação das Decisões e Regime Recursal](#64-motivacao-das-decisoes-e-regime-recursal)
+7. [Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Teoria Geral do Ato Administrativo e Distinções Conceituais
 
@@ -83,7 +102,8 @@ flowchart TD
 
 
 
-### Questão 01 (FCC - Analista Judiciário - Área Judiciária)
+### Teste 023
+**(FCC - Analista Judiciário - Área Judiciária)**
 No estudo da Teoria Geral do Ato Administrativo, os planos da existência (perfeição), da validade e da eficácia devem ser compreendidos como conceitos analiticamente distintos e autônomos.
 
 A esse respeito, assinale a afirmativa correta.
@@ -93,6 +113,9 @@ A esse respeito, assinale a afirmativa correta.
 * **C)** A eficácia do ato administrativo decorre de sua conformidade com a ordem jurídica, sendo nulo todo ato que temporariamente não produza efeitos práticos.
 * **D)** A perfeição do ato administrativo diz respeito à sua adequação às normas constitucionais e legais em vigor, de modo que a ausência de motivo gera a imperfeição do ato.
 * **E)** Todo ato administrativo perfeito adquire imediatamente eficácia retroativa plena (ex tunc), independentemente de publicação oficial prévia.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -104,7 +127,10 @@ A esse respeito, assinale a afirmativa correta.
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 2. Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)
 
@@ -142,7 +168,8 @@ A finalidade representa o objetivo mediato de interesse público que o ato deve 
 
 
 
-### Questão 02 (FGV - Auditor de Controle Externo / TCE-PA)
+### Teste 024
+**(FGV - Auditor de Controle Externo / TCE-PA)**
 A autoridade competente de determinada autarquia estadual instaurou processo administrativo de desapropriação e expediu decreto expropriatório sobre imóvel pertencente a particular, sob o fundamento formal de interesse público na construção de um posto de saúde comunitário. Restou cabalmente demonstrado, todavia, que o verdadeiro intuito da autoridade era retaliar o proprietário por desafeto político de campanha eleitoral, tendo a autarquia abandonado o projeto sanitário logo após a imissão na posse.
 
 Nessa situação, o ato expropriatório praticado padece de vício de:
@@ -152,6 +179,9 @@ Nessa situação, o ato expropriatório praticado padece de vício de:
 * **C)** Forma, sendo plenamente convalidável pela autoridade superior mediante simples ratificação em termo aditivo.
 * **D)** Objeto ilícito, sujeitando-se unicamente à anulação parcial com aproveitamento dos atos expropriatórios pretéritos.
 * **E)** Mera irregularidade formal sanável, bastando a aplicação de multa disciplinar leve ao gestor.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -186,7 +216,8 @@ Consagrada pela jurisprudência pacífica do STF e do STJ, preceitua que a valid
 
 ---
 
-### Questão 03 (FCC - Auditor de Controle Externo)
+### Teste 025
+**(FCC - Auditor de Controle Externo)**
 O Governador do Estado exonerou servidor ocupante de cargo em comissão de livre nomeação e exoneração, fundamentando formalmente o decreto na suposta extinção orçamentária do programa governamental em que o servidor atuava. Posteriormente, em ação judicial, restou fartamente comprovado por perícia que o programa estatal continuava plenamente ativo, com dotação financeira reforçada e com as mesmas atribuições mantidas.
 
 Com base na **Teoria dos Motivos Determinantes**:
@@ -196,6 +227,9 @@ Com base na **Teoria dos Motivos Determinantes**:
 * **C)** O Poder Judiciário não pode invalidar o ato, pois a análise dos motivos configuraria invasão indevida no mérito administrativo.
 * **D)** A autoridade administrativa pode substituir retroativamente o motivo falso por um motivo verdadeiro para salvar o ato da anulação.
 * **E)** A Teoria dos Motivos Determinantes aplica-se unicamente aos atos administrativos vinculados.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -220,7 +254,8 @@ O objeto é o efeito jurídico imediato e substantivo que o ato produz no mundo 
 
 
 
-### Questão 04 (FCC - Procurador do Estado)
+### Teste 026
+**(FCC - Procurador do Estado)**
 No que tange aos elementos e requisitos de validade do ato administrativo, analise as afirmativas a seguir sobre o objeto (conteúdo) e a delimitação do mérito administrativo:
 
 I. O objeto é a alteração no mundo jurídico que o ato se propõe a operar de forma imediata (criação, modificação, resguardo ou extinção de direitos e deveres).  
@@ -235,6 +270,9 @@ Está correto o que se afirma em:
 * **D)** I, II e III.
 * **E)** III, apenas.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **I. Correta:** O objeto (conteúdo) é a transformação prática e jurídica pretendida pelo ato (ex.: a concessão da licença, a aplicação da demissão, a autorização de uso). Deve ser lícito, possível, determinado ou determinável.
@@ -245,7 +283,10 @@ Está correto o que se afirma em:
 >
 > **Gabarito: D**
 
+
+
 ---
+
 
 ## 3. Atributos do Ato Administrativo (Mnemônico PATI)
 
@@ -278,7 +319,8 @@ Presume-se que o ato administrativo foi expedido em estrita consonância com a l
 
 
 
-### Questão 05 (FGV - Analista Judiciário - Área Judiciária)
+### Teste 027
+**(FGV - Analista Judiciário - Área Judiciária)**
 Determinada fiscalização de vigilância sanitária estadual constatou que um restaurante comercializava grande quantidade de carnes bovinas em avançado estado de putrefação, expondo a risco iminente a saúde pública coletiva. De imediato, sem necessidade de prévia autorização judicial, os fiscais apreenderam as mercadorias impróprias e interditaram cautelarmente o estabelecimento.
 
 A atuação administrativa descrita fundamenta-se precipuamente no atributo do ato administrativo denominado:
@@ -288,6 +330,9 @@ A atuação administrativa descrita fundamenta-se precipuamente no atributo do a
 * **C)** Imperatividade pura, a qual dispensa a observância do contraditório e da ampla defesa até mesmo na fase recursal ulterior.
 * **D)** Presunção de veracidade relativa, que inibe qualquer controle judicial a posteriori sobre a validade da apreensão.
 * **E)** Irrevogabilidade, por se tratar de ato administrativo de polícia de conteúdo definitivo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -311,7 +356,10 @@ Consiste na faculdade de impor obrigações coercitivas e restrições unilatera
 
 - Não está presente em atos negociais (licenças, autorizações) e atos meramente enunciativos (pareceres, certidões, atestados).
 
+
+
 ---
+
 
 ## 4. Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos
 
@@ -335,7 +383,8 @@ flowchart TD
 
 
 
-### Questão 06 (FCC - Auditor de Controle Externo)
+### Teste 028
+**(FCC - Auditor de Controle Externo)**
 Na classificação dos atos administrativos quanto à formação da vontade, a doutrina divide os atos em simples, complexos e compostos. Sobre essa tipologia, assinale a afirmativa correta.
 
 * **A)** O ato complexo decorre da manifestação de vontade de um único órgão, que consulta previamente outro órgão apenas para fins de aconselhamento opinativo facultativo.
@@ -343,6 +392,9 @@ Na classificação dos atos administrativos quanto à formação da vontade, a d
 * **C)** A nomeação de Ministro do Supremo Tribunal Federal (escolha do Presidente da República com prévia aprovação do Senado Federal) e a concessão de aposentadoria sujeita a registro pelo Tribunal de Contas constituem exemplos clássicos de atos complexos.
 * **D)** No ato composto, a vontade de um órgão principal depende da confirmação por órgão subordinado, não gerando efeitos a aprovação ou homologação da autoridade superior.
 * **E)** O ato simples colegiado (editado por órgão com colegiado numeroso, como o Pleno do Tribunal de Contas) transmuda-se automaticamente em ato complexo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -368,7 +420,8 @@ O julgamento da legalidade e a concessão de registro de aposentadoria, pensão 
 
 ---
 
-### Questão 07 (FCC - Analista de Controle Externo / Adaptada TCE-GO)
+### Teste 029
+**(FCC - Analista de Controle Externo / Adaptada TCE-GO)**
 Determinada autarquia estadual goiana publicou ato de concessão de aposentadoria voluntária a um auditor fiscal e encaminhou o respectivo processo ao Tribunal de Contas do Estado de Goiás para fins de apreciação e registro de legalidade. Após seis meses de tramitação no Tribunal de Contas, a autarquia estadual pretendeu revogar unilateralmente a concessão com base em conveniência administrativa decorrente de escassez de quadro técnico.
 
 À luz da teoria geral dos atos administrativos e da jurisprudência firmada pelo Supremo Tribunal Federal:
@@ -378,6 +431,9 @@ Determinada autarquia estadual goiana publicou ato de concessão de aposentadori
 * **C)** Trata-se de ato complexo, que apenas se aperfeiçoa e ganha definitividade jurídica com a manifestação convergente de vontades do órgão de origem e do Tribunal de Contas no exercício de sua competência constitucional de registro.
 * **D)** O ato de aposentadoria é discricionário por natureza, sendo plenamente revogável a qualquer tempo pela autoridade de origem por motivos de oportunidade e conveniência.
 * **E)** A competência de registro pelo Tribunal de Contas possui prazo decadencial de dois anos contado da data de nascimento do servidor inativado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -389,8 +445,9 @@ Determinada autarquia estadual goiana publicou ato de concessão de aposentadori
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 5. Extinção e Convalidação dos Atos Administrativos
@@ -411,7 +468,8 @@ Determinada autarquia estadual goiana publicou ato de concessão de aposentadori
 
 ---
 
-### Questão 08 (FCC - Analista Judiciário)
+### Teste 030
+**(FCC - Analista Judiciário)**
 Determinada empresa concessionária de rodovias obteve licença municipal para instalação de praça de pedágio. Dois anos após o início regular da operação, o Município promulgou nova lei de zoneamento urbano proibindo a cobrança de pedágio na referida área geográfica. Por sua vez, em outro ponto da cidade, um restaurante que possuía alvará sanitário foi flagrado comercializando alimentos estragados e descumprindo normas higiênicas fundamentais.
 
 As formas de extinção dos atos administrativos aplicáveis, respectivamente, à praça de pedágio e ao restaurante são:
@@ -421,6 +479,9 @@ As formas de extinção dos atos administrativos aplicáveis, respectivamente, �
 * **C)** Cassação e caducidade
 * **D)** Anulação e revogação
 * **E)** Contraposição e renúncia
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -458,7 +519,8 @@ A convalidação (ou sanatória) é o ato administrativo pelo qual a Administra�
 
 ---
 
-### Questão 09 (FCC - Procurador do Estado / Adaptada)
+### Teste 031
+**(FCC - Procurador do Estado / Adaptada)**
 Determinada autoridade administrativa estadual proferiu ato administrativo autorizando a ocupação temporária de bem público por particular. Posteriormente, a assessoria jurídica constatou que a competência para emitir o ato pertencia legalmente a um Diretor Setorial distinto, inexistindo competência exclusiva em favor de qualquer deles. Verificou-se que a autorização atendeu plenamente ao interesse público, não causou prejuízo a terceiros e observou todos os demais requisitos de forma, motivo e objeto.
 
 Diante do vício constatado, a Administração Pública:
@@ -468,6 +530,9 @@ Diante do vício constatado, a Administração Pública:
 * **C)** Deve revogar o ato administrativo com eficácia prospectiva (*ex nunc*), por se tratar de vício de mérito.
 * **D)** Está impedida de agir, operando-se a preclusão administrativa imediata no momento da publicação do ato.
 * **E)** Deve converter o ato em desapropriação indireta com indenização ao particular ocupante.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -479,8 +544,9 @@ Diante do vício constatado, a Administração Pública:
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)
@@ -502,7 +568,8 @@ Reproduzindo a regra geral do direito público brasileiro, o art. 13 da Lei Goia
 
 ---
 
-### Questão 10 (FCC - Técnico de Controle Externo / TCE-GO)
+### Teste 032
+**(FCC - Técnico de Controle Externo / TCE-GO)**
 No âmbito de um processo administrativo disciplinar disciplinado pela Lei Estadual nº 13.800/2001, um Superintendente Regional do Estado de Goiás delegou por portaria ao seu Chefe de Gabinete a competência para proferir decisão de mérito em recurso administrativo interposto por servidor apenado.
 
 Considerando o regime jurídico de competência e delegação estabelecido na Lei Estadual nº 13.800/2001:
@@ -512,6 +579,9 @@ Considerando o regime jurídico de competência e delegação estabelecido na Le
 * **C)** A decisão em recurso administrativo pode ser delegada, desde que haja expressa concordância do servidor recorrente.
 * **D)** A delegação de recurso administrativo é admissível caso o recurso verse exclusivamente sobre questões fáticas.
 * **E)** A competência administrativa é irrenunciável e não admite delegação de nenhuma natureza na esfera pública estadual de Goiás.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -539,7 +609,8 @@ Para assegurar a imparcialidade nas decisões administrativas, a lei estadual es
 
 
 
-### Questão 11 (FGV - Analista Judiciário de Controle Externo / TCE-GO)
+### Teste 033
+**(FGV - Analista Judiciário de Controle Externo / TCE-GO)**
 De acordo com o regime jurídico do processo administrativo no âmbito da Administração Pública do Estado de Goiás, disciplinado pela Lei Estadual nº 13.800/2001, considere as seguintes afirmativas:
 
 I. O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé.  
@@ -553,6 +624,9 @@ Está correto o que se afirma em:
 * **C)** II e III, apenas.
 * **D)** I e III, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -572,7 +646,10 @@ Está correto o que se afirma em:
 - **Prazos Recursais (Art. 59):** Salvo disposição legal específica em contrário, o prazo para interposição de recurso administrativo na administração goiana é de **10 (dez) dias**, contados da ciência ou divulgação oficial da decisão.
 - **Efeitos do Recurso e Reformatio in Pejus (Arts. 61 e 64):** O recurso tem como regra geral efeito estritamente devolutivo (efeito suspensivo é excepcional). A autoridade julgadora pode confirmar, modificar, anular ou revogar, total ou parcialmente, a decisão recorrida; se da revisão puder decorrer gravame à situação do recorrente (*reformatio in pejus*), este deverá ser cientificado previamente para formular suas alegações no prazo de 10 dias.
 
+
+
 ---
+
 
 ## 7. Fontes Recomendadas na Internet
 

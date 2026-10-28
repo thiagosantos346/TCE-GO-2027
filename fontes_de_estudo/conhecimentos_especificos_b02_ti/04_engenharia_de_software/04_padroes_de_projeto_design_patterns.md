@@ -5,7 +5,10 @@
 > **Arquivo:** `04_padroes_de_projeto_design_patterns.md`  
 > **Referência Fundamental:** Gang of Four (GoF - Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Padrões de projeto de software (Design Patterns GoF)
@@ -13,26 +16,41 @@
 - Padrões Estruturais (Structural Patterns)
 - Padrões Comportamentais (Behavioral Patterns)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos e Princípios dos Padrões de Projeto GoF](#1-fundamentos-e-principios-dos-padroes-de-projeto-gof)
-    - [1.1 Definição Canônica e Elementos Estruturantes](#11-definicao-canonica-e-elementos-estruturantes)
-    - [1.2 Os Dois Grandes Princípios de Design do GoF](#12-os-dois-grandes-principios-de-design-do-gof)
-    - [1.3 A Matriz Canônica dos 23 Padrões GoF (Propósito vs. Escopo)](#13-a-matriz-canonica-dos-23-padroes-gof-proposito-vs-escopo)
-- [2. Padrões de Criação (Creational Patterns)](#2-padroes-de-criacao-creational-patterns)
-    - [2.1 Factory Method vs. Abstract Factory](#21-factory-method-vs-abstract-factory)
-    - [2.2 Builder, Prototype e Singleton](#22-builder-prototype-e-singleton)
-- [3. Padrões Estruturais (Structural Patterns)](#3-padroes-estruturais-structural-patterns)
-    - [3.1 Adapter vs. Bridge vs. Facade](#31-adapter-vs-bridge-vs-facade)
-    - [3.2 Composite, Decorator, Flyweight e Proxy](#32-composite-decorator-flyweight-e-proxy)
-- [4. Padrões Comportamentais (Behavioral Patterns)](#4-padroes-comportamentais-behavioral-patterns)
-    - [4.1 Strategy vs. State vs. Template Method](#41-strategy-vs-state-vs-template-method)
-    - [4.2 Observer e Arquitetura de Publicação/Assinatura](#42-observer-e-arquitetura-de-publicacaoassinatura)
-    - [4.3 Command, Chain of Responsibility, Iterator, Mediator, Memento e Visitor](#43-command-chain-of-responsibility-iterator-mediator-memento-e-visitor)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Fundamentos e Princípios dos Padrões de Projeto GoF](#1-fundamentos-e-principios-dos-padroes-de-projeto-gof)
+    1. [Definição Canônica e Elementos Estruturantes](#11-definicao-canonica-e-elementos-estruturantes)
+    2. [Os Dois Grandes Princípios de Design do GoF](#12-os-dois-grandes-principios-de-design-do-gof)
+    3. [A Matriz Canônica dos 23 Padrões GoF (Propósito vs. Escopo)](#13-a-matriz-canonica-dos-23-padroes-gof-proposito-vs-escopo)
+    4. [Teste 033](#Teste-033)
+2. [Padrões de Criação (Creational Patterns)](#2-padroes-de-criacao-creational-patterns)
+    1. [Factory Method vs. Abstract Factory](#21-factory-method-vs-abstract-factory)
+    2. [Teste 034](#Teste-034)
+    3. [Builder, Prototype e Singleton](#22-builder-prototype-e-singleton)
+    4. [Teste 035](#Teste-035)
+3. [Padrões Estruturais (Structural Patterns)](#3-padroes-estruturais-structural-patterns)
+    1. [Adapter vs. Bridge vs. Facade](#31-adapter-vs-bridge-vs-facade)
+    2. [Teste 036](#Teste-036)
+    3. [Composite, Decorator, Flyweight e Proxy](#32-composite-decorator-flyweight-e-proxy)
+    4. [Teste 037](#Teste-037)
+    5. [Teste 038](#Teste-038)
+4. [Padrões Comportamentais (Behavioral Patterns)](#4-padroes-comportamentais-behavioral-patterns)
+    1. [Strategy vs. State vs. Template Method](#41-strategy-vs-state-vs-template-method)
+    2. [Teste 039](#Teste-039)
+    3. [Observer e Arquitetura de Publicação/Assinatura](#42-observer-e-arquitetura-de-publicacaoassinatura)
+    4. [Teste 040](#Teste-040)
+    5. [Command, Chain of Responsibility, Iterator, Mediator, Memento e Visitor](#43-command-chain-of-responsibility-iterator-mediator-memento-e-visitor)
+    6. [Teste 041](#Teste-041)
+    7. [Teste 042](#Teste-042)
+5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Fundamentos e Princípios dos Padrões de Projeto GoF
 
@@ -78,7 +96,7 @@ Os 23 padrões são classificados de acordo com duas dimensões: o **Propósito*
 ---
 
 
-### Questão 01
+### Teste 033
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O clássico catálogo de padrões de projeto do Gang of Four (GoF) classifica os 23 padrões canônicos sob duas dimensões fundamentais: o **Propósito** (Criacional, Estrutural ou Comportamental) e o **Escopo** (de Classe ou de Objeto). Quanto ao escopo de Classe (no qual os relacionamentos são estáticos e definidos em tempo de compilação principalmente por meio de herança), assinale o padrão de projeto GoF que pertence genuinamente ao escopo de **Classe**:
 
@@ -87,6 +105,9 @@ O clássico catálogo de padrões de projeto do Gang of Four (GoF) classifica os
 * **C)** *Factory Method*.
 * **D)** *Bridge*.
 * **E)** *Strategy*.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -98,7 +119,10 @@ O clássico catálogo de padrões de projeto do Gang of Four (GoF) classifica os
 >
 > **Gabarito: C**
 
+
+
 ---
+
 
 ## 2. Padrões de Criação (Creational Patterns)
 
@@ -125,7 +149,7 @@ flowchart TD
 
 ---
 
-### Questão 02
+### Teste 034
 **(FCC – SEFAZ – Auditor de Tecnologia da Informação)**  
 Deseja-se criar uma interface gráfica que suporte múltiplos temas visuais (por exemplo: Tema Escuro e Tema Claro). Cada tema é composto por uma família coordenada de botões, caixas de texto e barras de rolagem visualmente harmonizados. Para garantir que a aplicação crie os componentes de um tema específico sem acoplar o código cliente às classes concretas de cada fabricante ou tema, deve-se adotar o padrão GoF:
 
@@ -134,6 +158,9 @@ Deseja-se criar uma interface gráfica que suporte múltiplos temas visuais (por
 * **C)** Memento.
 * **D)** Visitor.
 * **E)** State.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -165,7 +192,7 @@ Deseja-se criar uma interface gráfica que suporte múltiplos temas visuais (por
 ---
 
 
-### Questão 03
+### Teste 035
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Considere uma situação em que um sistema corporativo necessita construir objetos complexos formados por múltiplas partes e configurações opcionais. A equipe deseja separar o algoritmo de montagem do objeto final da representação interna das suas partes constituintes, de modo que o mesmo processo de montagem possa criar representações diferentes com composições variadas. O padrão de projeto criacional do GoF que atende especificamente a esse requisito é o:
 
@@ -174,6 +201,9 @@ Considere uma situação em que um sistema corporativo necessita construir objet
 * **C)** *Builder*.
 * **D)** *Decorator*.
 * **E)** *Proxy*.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -185,7 +215,10 @@ Considere uma situação em que um sistema corporativo necessita construir objet
 >
 > **Gabarito: C**
 
+
+
 ---
+
 
 ## 3. Padrões Estruturais (Structural Patterns)
 
@@ -204,7 +237,7 @@ Os padrões estruturais tratam de como classes e objetos são compostos para for
 
 ---
 
-### Questão 04
+### Teste 036
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Um arquiteto de software precisa integrar uma nova aplicação corporativa a um sistema legado de contabilidade existente há mais de vinte anos. O sistema legado possui centenas de classes complexas, chamadas intrincadas e rotinas interdependentes. O objetivo é criar uma camada intermediária que forneça uma interface simples, unificada e de alto nível para os desenvolvedores da nova aplicação, ocultando toda a complexidade interna do subsistema legado sem alterar o código original dele. O padrão de projeto GoF que resolve essa necessidade de design é o:
 
@@ -213,6 +246,9 @@ Um arquiteto de software precisa integrar uma nova aplicação corporativa a um 
 * **C)** Singleton.
 * **D)** Prototype.
 * **E)** Chain of Responsibility.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -253,7 +289,7 @@ Um arquiteto de software precisa integrar uma nova aplicação corporativa a um 
 
 ---
 
-### Questão 05
+### Teste 037
 **(FCC – TRT – Analista Judiciário / TI)**  
 Em um sistema de processo eletrônico, deseja-se representar documentos que podem ser tanto peças processuais individuais (como certidões e pareceres em texto) quanto pastas de autos contendo diversos documentos e outras subpastas agregadas. A exigência do projeto é que o cliente da aplicação possa invocar operações como `assinarDigitalmente()` e `calcularTamanhoBytes()` tratando documentos simples e pastas compostas de maneira inteiramente uniforme e transparente. O padrão de projeto GoF que soluciona essa demanda arquitetural é o:
 
@@ -262,6 +298,9 @@ Em um sistema de processo eletrônico, deseja-se representar documentos que pode
 * **C)** Bridge.
 * **D)** Mediator.
 * **E)** Abstract Factory.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -278,7 +317,7 @@ Em um sistema de processo eletrônico, deseja-se representar documentos que pode
 
 
 
-### Questão 06
+### Teste 038
 **(FGV – TJ – Analista de Sistemas)**  
 Analise os seguintes cenários de engenharia de software envolvendo padrões de projeto estruturais do GoF:  
 
@@ -293,6 +332,9 @@ Os padrões de projeto adequados para os Cenários 1 e 2 são, respectivamente:
 * **D)** *Proxy* e *Decorator*.
 * **E)** *Flyweight* e *Singleton*.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **Cenário 1:** O padrão *Decorator* adiciona responsabilidades a um objeto de maneira dinâmica e transparente sem usar herança profunda.
@@ -300,7 +342,10 @@ Os padrões de projeto adequados para os Cenários 1 e 2 são, respectivamente:
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Padrões Comportamentais (Behavioral Patterns)
 
@@ -317,7 +362,7 @@ A diferenciação entre esses três padrões é uma das temáticas mais cobradas
 
 ---
 
-### Questão 07
+### Teste 039
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 Um sistema de fiscalização de contratos necessita calcular o valor final de penalidades financeiras aplicando diferentes fórmulas de cálculo (ex.: multa por mora, multa compensatória e glosa por quebra de SLA), as quais podem ser selecionadas dinamicamente em tempo de execução dependendo da tipificação da infração cometida pela empresa contratada. O analista deseja que novas fórmulas de multa possam ser adicionadas no futuro sem a necessidade de alterar as classes existentes e sem utilizar extensas estruturas de condicionais aninhadas (`switch` ou múltiplos `if-else`). O padrão de projeto GoF recomendado para encapsular cada algoritmo em classes separadas e torná-los intercambiáveis é o:
 
@@ -326,6 +371,9 @@ Um sistema de fiscalização de contratos necessita calcular o valor final de pe
 * **C)** Observer.
 * **D)** Builder.
 * **E)** Proxy.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -349,7 +397,7 @@ Um sistema de fiscalização de contratos necessita calcular o valor final de pe
 
 ---
 
-### Questão 08
+### Teste 040
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 O padrão de projeto comportamental Observer é amplamente utilizado em arquiteturas de software para desacoplar objetos que produzem mudanças de estado daqueles que precisam reagir a elas. A esse respeito, é correto afirmar que o padrão Observer:
 
@@ -358,6 +406,9 @@ O padrão de projeto comportamental Observer é amplamente utilizado em arquitet
 * **C)** Restringe o número de ouvintes a no máximo dois observadores por instância monitorada.
 * **D)** Utiliza herança múltipla obrigatória para injetar o comportamento de notificação diretamente no sistema operacional.
 * **E)** É classificado como padrão de escopo de classe no catálogo clássico do Gang of Four.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -384,7 +435,7 @@ O padrão de projeto comportamental Observer é amplamente utilizado em arquitet
 ---
 
 
-### Questão 09
+### Teste 041
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No catálogo de padrões comportamentais do GoF, o padrão cuja intenção oficial é "evitar o acoplamento do remetente de uma requisição ao seu destinatário, dando a mais de um objeto a oportunidade de tratar a requisição, encadeando os objetos receptores e passando a requisição ao longo da cadeia até que um deles a trate" denomina-se:
 
@@ -393,6 +444,9 @@ No catálogo de padrões comportamentais do GoF, o padrão cuja intenção ofici
 * **C)** *Mediator*.
 * **D)** *Observer*.
 * **E)** *Visitor*.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -407,7 +461,7 @@ No catálogo de padrões comportamentais do GoF, o padrão cuja intenção ofici
 ---
 
 
-### Questão 10
+### Teste 042
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O padrão de projeto comportamental GoF que permite capturar e externalizar o estado interno de um objeto, de modo que este possa ser restaurado a esse estado posteriormente, sem que o princípio fundamental de encapsulamento seja violado, é o:
 
@@ -416,6 +470,9 @@ O padrão de projeto comportamental GoF que permite capturar e externalizar o es
 * **C)** *Template Method*.
 * **D)** *Prototype*.
 * **E)** *Flyweight*.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -427,7 +484,10 @@ O padrão de projeto comportamental GoF que permite capturar e externalizar o es
 >
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 

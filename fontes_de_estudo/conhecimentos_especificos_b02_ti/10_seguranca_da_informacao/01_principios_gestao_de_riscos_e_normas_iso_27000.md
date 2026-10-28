@@ -4,7 +4,10 @@
 **Cargo:** Auditor de Controle Externo - Tecnologia da Informação  
 **Status do Mapeamento:** 100% aderente ao edital TCE-GO
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 1. **Princípios Fundamentais da Segurança da Informação:** Confidencialidade, Integridade, Disponibilidade, Autenticidade e Não Repúdio / Irretratabilidade (CIDAN); Atributos complementares (Conformidade/Legalidade, Auditorabilidade/*Accountability* e Privacidade).
@@ -13,29 +16,45 @@
 4. **Gestão de Vulnerabilidades e Resposta a Incidentes:** Sistema CVSS v3.1 (métricas de base, temporais, ambientais e faixas de severidade); Ciclo de Resposta a Incidentes (NIST SP 800-61 Rev. 2 e ISO/IEC 27035: Preparação, Detecção e Análise, Contenção/Erradicação/Recuperação e Atividades Pós-Incidente/Lições Aprendidas); e Equipes CSIRT/CERT.
 5. **Família de Normas ABNT NBR ISO/IEC 27000:** ISO/IEC 27000 (vocabulário); ISO/IEC 27001 (Requisitos auditáveis e certificáveis do SGSI, estrutura de alto nível do Anexo SL e ciclo PDCA); ISO/IEC 27002 (Código de Práticas, estrutura moderna em 4 temas: Organizacionais, Pessoas, Físicos e Tecnológicos, totalizando 93 controles; e a Declaração de Aplicabilidade - SoA); e ISO/IEC 27005 (Diretrizes para Gestão de Riscos de Segurança da Informação).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Princípios Básicos da Segurança da Informação (CIDAN)](#1-principios-basicos-da-seguranca-da-informacao-cidan)
-    - [1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade](#11-os-pilares-fundamentais-confidencialidade-integridade-e-disponibilidade)
-    - [1.2 Autenticidade, Não Repúdio e Atributos Complementares](#12-autenticidade-nao-repudio-e-atributos-complementares)
-- [2. Classificação e Rotulagem da Informação](#2-classificacao-e-rotulagem-da-informacao)
-    - [2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)](#21-graus-de-sigilo-no-setor-publico-lei-de-acesso-a-informacao-lei-no-125272011)
-    - [2.2 Classificação Corporativa Geral de Ativos](#22-classificacao-corporativa-geral-de-ativos)
-- [3. Gestão e Análise de Riscos de Segurança da Informação](#3-gestao-e-analise-de-riscos-de-seguranca-da-informacao)
-    - [3.1 A Tríade Ativo, Ameaça e Vulnerabilidade](#31-a-triade-ativo-ameaca-e-vulnerabilidade)
-    - [3.2 Análise Qualitativa vs. Análise Quantitativa (SLE, ARO e ALE)](#32-analise-qualitativa-vs-analise-quantitativa-sle-aro-e-ale)
-    - [3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)](#33-as-quatro-estrategias-de-tratamento-do-risco-isoiec-27005)
-- [4. Gestão de Vulnerabilidades e Resposta a Incidentes](#4-gestao-de-vulnerabilidades-e-resposta-a-incidentes)
-    - [4.1 Métricas do CVSS v3.1 (Common Vulnerability Scoring System)](#41-metricas-do-cvss-v31-common-vulnerability-scoring-system)
-    - [4.2 As Quatro Fases do Ciclo de Resposta a Incidentes (NIST SP 800-61)](#42-as-quatro-fases-do-ciclo-de-resposta-a-incidentes-nist-sp-800-61)
-- [5. Família de Normas ISO/IEC 27000 (SGSI)](#5-familia-de-normas-isoiec-27000-sgsi)
-    - [5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL](#51-a-norma-certificavel-isoiec-27001-e-o-anexo-sl)
-    - [5.2 A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)](#52-a-nova-isoiec-27002-edicao-2022-4-temas-e-93-controles)
-    - [5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005](#53-a-declaracao-de-aplicabilidade-soa-e-a-isoiec-27005)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Princípios Básicos da Segurança da Informação (CIDAN)](#1-principios-basicos-da-seguranca-da-informacao-cidan)
+    1. [Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade](#11-os-pilares-fundamentais-confidencialidade-integridade-e-disponibilidade)
+    2. [Teste 355](#Teste-355)
+    3. [Autenticidade, Não Repúdio e Atributos Complementares](#12-autenticidade-nao-repudio-e-atributos-complementares)
+    4. [Teste 356](#Teste-356)
+2. [Classificação e Rotulagem da Informação](#2-classificacao-e-rotulagem-da-informacao)
+    1. [Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)](#21-graus-de-sigilo-no-setor-publico-lei-de-acesso-a-informacao-lei-no-125272011)
+    2. [Teste 357](#Teste-357)
+    3. [Classificação Corporativa Geral de Ativos](#22-classificacao-corporativa-geral-de-ativos)
+    4. [Teste 358](#Teste-358)
+3. [Gestão e Análise de Riscos de Segurança da Informação](#3-gestao-e-analise-de-riscos-de-seguranca-da-informacao)
+    1. [A Tríade Ativo, Ameaça e Vulnerabilidade](#31-a-triade-ativo-ameaca-e-vulnerabilidade)
+    2. [Teste 359](#Teste-359)
+    3. [Análise Qualitativa vs. Análise Quantitativa (SLE, ARO e ALE)](#32-analise-qualitativa-vs-analise-quantitativa-sle-aro-e-ale)
+    4. [Teste 360](#Teste-360)
+    5. [As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)](#33-as-quatro-estrategias-de-tratamento-do-risco-isoiec-27005)
+    6. [Teste 361](#Teste-361)
+4. [Gestão de Vulnerabilidades e Resposta a Incidentes](#4-gestao-de-vulnerabilidades-e-resposta-a-incidentes)
+    1. [Métricas do CVSS v3.1 (Common Vulnerability Scoring System)](#41-metricas-do-cvss-v31-common-vulnerability-scoring-system)
+    2. [Teste 362](#Teste-362)
+    3. [As Quatro Fases do Ciclo de Resposta a Incidentes (NIST SP 800-61)](#42-as-quatro-fases-do-ciclo-de-resposta-a-incidentes-nist-sp-800-61)
+    4. [Teste 363](#Teste-363)
+5. [Família de Normas ISO/IEC 27000 (SGSI)](#5-familia-de-normas-isoiec-27000-sgsi)
+    1. [A Norma Certificável ISO/IEC 27001 e o Anexo SL](#51-a-norma-certificavel-isoiec-27001-e-o-anexo-sl)
+    2. [Teste 364](#Teste-364)
+    3. [A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)](#52-a-nova-isoiec-27002-edicao-2022-4-temas-e-93-controles)
+    4. [A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005](#53-a-declaracao-de-aplicabilidade-soa-e-a-isoiec-27005)
+    5. [Teste 365](#Teste-365)
+6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Princípios Básicos da Segurança da Informação (CIDAN)
 
@@ -58,7 +77,8 @@ A segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como 
     - *Ameaças clássicas:* Ataques de negação de serviço (DoS e DDoS), falhas físicas de hardware em servidores e storages, interrupção no fornecimento de energia elétrica, panes nos links de internet e desastres ambientais (enchentes, incêndios em datacenters).
     - *Mecanismos técnicos:* Redundância de hardware e fontes de alimentação, clusters de alta disponibilidade (HA ativo-ativo ou ativo-passivo), sistemas anti-DDoS, geradores e nobreaks comutáveis, planos de continuidade de negócios (PCN/DRP) e rotinas estruturadas de backup.
 
-### Questão 01 (FGV - TRT / Analista Judiciário - TI - A Tríade CID e Atributos da Segurança)
+### Teste 355
+**(FGV - TRT / Analista Judiciário - TI - A Tríade CID e Atributos da Segurança)**
 A segurança da informação visa proteger os ativos organizacionais contra riscos cibernéticos, estruturando-se tradicionalmente em torno dos pilares da **Confidencialidade**, **Integridade** e **Disponibilidade** (Tríade CID).
 
 Considere as seguintes situações ocorridas na infraestrutura de TI de um tribunal:
@@ -74,6 +94,9 @@ As situações 1, 2 e 3 caracterizam, rigorosa e respectivamente, violações ao
 * **C)** Confidencialidade, Não Repúdio e Integridade.
 * **D)** Disponibilidade, Autenticidade e Irretratabilidade.
 * **E)** Integridade, Disponibilidade e Legalidade.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -115,7 +138,7 @@ As situações 1, 2 e 3 caracterizam, rigorosa e respectivamente, violações ao
 
 ---
 
-### Questão 02
+### Teste 356
 **(FCC - DPE-RS - Analista de Tecnologia da Informação)**
 Durante uma auditoria de conformidade em um sistema eletrônico de protocolo processual do Tribunal de Contas, os auditores avaliaram a eficácia de diferentes mecanismos de segurança da informação.
 Relacione as situações práticas descritas a seguir com o princípio fundamental de segurança correspondente (CIDAN):
@@ -132,6 +155,9 @@ As situações 1, 2 e 3 correspondem, respectivamente, aos princípios de:
 * **D)** Disponibilidade; Legalidade; e Não Repúdio.
 * **E)** Integridade; Autenticidade; e Disponibilidade.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **Situação 1:** Trata da garantia contra adulterações ou corrupções de conteúdo, correspondendo estritamente ao princípio da **Integridade**.
@@ -145,8 +171,9 @@ As situações 1, 2 e 3 correspondem, respectivamente, aos princípios de:
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 2. Classificação e Rotulagem da Informação
@@ -177,7 +204,7 @@ No setor público brasileiro, **a publicidade é a regra geral** e o sigilo é a
 
 ---
 
-### Questão 03
+### Teste 357
 **(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
 A Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI) dispõe sobre os procedimentos a serem observados pela União, Estados, DF e Municípios com o fim de garantir o acesso a informações públicas, estabelecendo regras para a classificação e proteção de dados que exijam restrição de acesso por motivos de segurança da sociedade ou do Estado.
 Considere as seguintes assertivas sobre os graus de sigilo e prazos previstos na LAI:
@@ -195,6 +222,9 @@ Está correto o que se afirma em:
 * **C)** I e III, apenas.
 * **D)** II e III, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -223,7 +253,8 @@ No âmbito corporativo preconizado pela ISO/IEC 27002:
 
 ---
 
-### Questão 04 (FCC - TRT / Analista Judiciário - TI - Classificação Corporativa de Informações)
+### Teste 358
+**(FCC - TRT / Analista Judiciário - TI - Classificação Corporativa de Informações)**
 No âmbito da governança de segurança da informação fundamentada nas normas ABNT NBR ISO/IEC 27001 e 27002, a classificação e a rotulagem de ativos informacionais são mandatórias para garantir que a informação receba um nível adequado de proteção de acordo com sua sensibilidade e criticidade.
 
 Em uma estrutura corporativa padrão de 4 níveis, assinale a afirmativa que define corretamente a categoria **Confidencial**:
@@ -233,6 +264,9 @@ Em uma estrutura corporativa padrão de 4 níveis, assinale a afirmativa que def
 * **C)** Informação de elevado valor estratégico ou sensibilidade jurídica, cujo acesso é restrito estritamente a indivíduos com necessidade funcional indispensável de conhecê-la (*Need-to-Know*), e cujo vazamento ou divulgação não autorizada provocaria prejuízos financeiros, regulatórios, institucionais ou operacionais graves à organização.
 * **D)** Informação que não precisa de senhas ou criptografia e pode ser postada livremente nas redes sociais corporativas.
 * **E)** Documentos exclusivamente históricos produzidos há mais de 100 anos desprovidos de validade jurídica.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -248,7 +282,10 @@ Em uma estrutura corporativa padrão de 4 níveis, assinale a afirmativa que def
 > 
 > **Gabarito: C**
 
+
+
 ---
+
 
 ## 3. Gestão e Análise de Riscos de Segurança da Informação
 
@@ -282,7 +319,8 @@ A gestão de riscos estabelece um processo contínuo e estruturado para identifi
     - *Risco Inerente:* Risco existente em seu estado natural bruto, antes da implementação de qualquer controle protetivo.
     - *Risco Residual:* Risco que subsiste e permanece após o projeto e a entrada em operação dos controles de segurança mitigadores. Deve situar-se estritamente abaixo do **Apetite ao Risco** fixado pela diretoria do tribunal.
 
-### Questão 05 (FGV - TRT / Analista Judiciário - TI - Gestão de Riscos: Ativo, Ameaça e Vulnerabilidade)
+### Teste 359
+**(FGV - TRT / Analista Judiciário - TI - Gestão de Riscos: Ativo, Ameaça e Vulnerabilidade)**
 Segundo as diretrizes para gestão de riscos de segurança da informação da ABNT NBR ISO/IEC 27005, o risco é formalmente concebido como a combinação da probabilidade de ocorrência de um evento com suas consequências/impactos sobre os ativos organizacionais.
 
 A respeito das definições normativas dos componentes do risco, assinale a afirmativa correta:
@@ -292,6 +330,9 @@ A respeito das definições normativas dos componentes do risco, assinale a afir
 * **C)** O risco manifesta-se quando uma **Ameaça** (agente com potencial de causar dano) explora com sucesso uma **Vulnerabilidade** (fraqueza ou brecha em hardware, software, processos ou pessoas), provocando um impacto adverso sobre um **Ativo** de informação valioso.
 * **D)** Se uma organização possui uma vulnerabilidade grave em um sistema isolado que não possui nenhuma ameaça correspondente nem é exposto a rede, o risco é matematicamente infinito.
 * **E)** Ativo de informação é exclusivamente o gabinete metálico da CPU do computador.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -329,7 +370,7 @@ A respeito das definições normativas dos componentes do risco, assinale a afir
 
 ---
 
-### Questão 06
+### Teste 360
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 Durante o processo de avaliação quantitativa de riscos de um banco de dados do Tribunal de Contas avaliado em R$ 400.000,00, a equipe de segurança apurou que um ataque cibernético de ransomware causaria uma perda direta de 40% sobre o valor desse ativo. O histórico de segurança do órgão e os relatórios de inteligência de ameaças apontam que a taxa anual estimada de ocorrência desse tipo de incidente para órgãos do mesmo porte é de 0,25 vezes por ano (isto é, 1 incidente a cada 4 anos).
 Com base nas métricas clássicas de análise quantitativa de risco ($\text{SLE}$, $\text{ARO}$ e $\text{ALE}$), assinale a opção que apresenta, respectivamente, o valor da Expectativa de Perda Única ($\text{SLE}$) e da Expectativa de Perda Anual ($\text{ALE}$):
@@ -339,6 +380,9 @@ Com base nas métricas clássicas de análise quantitativa de risco ($\text{SLE}
 * **C)** R$ 240.000,00 e R$ 60.000,00.
 * **D)** R$ 100.000,00 e R$ 25.000,00.
 * **E)** R$ 160.000,00 e R$ 80.000,00.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -372,7 +416,8 @@ Concluída a avaliação do risco, a organização deve optar formalmente por um
 
 ---
 
-### Questão 07 (FCC - TRT / Analista Judiciário - TI - Estratégias de Tratamento de Riscos segundo a ISO/IEC 27005)
+### Teste 361
+**(FCC - TRT / Analista Judiciário - TI - Estratégias de Tratamento de Riscos segundo a ISO/IEC 27005)**
 Após a conclusão das etapas de identificação e avaliação de riscos de segurança da informação, a organização deve selecionar a resposta apropriada para cada risco avaliado no processo de **Tratamento do Risco** (*Risk Treatment*).
 
 A norma ABNT NBR ISO/IEC 27005 e o framework ISO 31000 prescrevem quatro opções clássicas de tratamento: **Modificação (Mitigação)**, **Retenção (Aceitação)**, **Evitação** e **Compartilhamento (Transferência)**.
@@ -384,6 +429,9 @@ Assinale a opção que ilustra corretamente uma estratégia de **Compartilhament
 * **C)** A desativação definitiva de um serviço legado inseguro de FTP e cancelamento total da atividade de transferência externa de arquivos para eliminar a exposição ao perigo.
 * **D)** A instalação de um sistema de firewall de última geração e criptografia de ponta a ponta para reduzir a probabilidade e o impacto de invasões.
 * **E)** A execução de testes de penetração mensais sem qualquer correção de código.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -399,7 +447,10 @@ Assinale a opção que ilustra corretamente uma estratégia de **Compartilhament
 > 
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 4. Gestão de Vulnerabilidades e Resposta a Incidentes
 
@@ -418,7 +469,8 @@ O padrão CVSS (mantido pelo FIRST) quantifica a gravidade técnica de vulnerabi
     - `7.0` a `8.9`: Alta (*High*)
     - `9.0` a `10.0`: Crítica (*Critical*)
 
-### Questão 08 (FGV - TRT / Analista Judiciário - TI - Métricas e Pontuação do CVSS v3.1)
+### Teste 362
+**(FGV - TRT / Analista Judiciário - TI - Métricas e Pontuação do CVSS v3.1)**
 O *Common Vulnerability Scoring System* (CVSS v3.1) é o padrão aberto internacional gerenciado pelo FIRST para pontuar e mensurar a severidade técnica de vulnerabilidades de segurança de software e hardware.
 
 A respeito da estrutura das métricas e da escala de pontuação do CVSS v3.1, assinale a afirmativa correta:
@@ -428,6 +480,9 @@ A respeito da estrutura das métricas e da escala de pontuação do CVSS v3.1, a
 * **C)** A métrica Vetor de Ataque (*Attack Vector - AV*) avalia apenas se o hacker possui nacionalidade brasileira.
 * **D)** O escore de severidade do CVSS varia entre -100 e +100 pontos percentuais.
 * **E)** Vulnerabilidades com escore Base igual a 0,0 são classificadas como emergência máxima de segurança nacional.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -487,7 +542,7 @@ O tratamento de incidentes cibernéticos adota o ciclo formalizado no guia NIST 
 
 ---
 
-### Questão 09
+### Teste 363
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 De acordo com o guia de boas práticas para tratamento de incidentes de segurança cibernética do NIST (NIST SP 800-61 Rev. 2) e as diretrizes da norma ISO/IEC 27035, um incidente cibernético confirmado deve ser processado segundo um ciclo estruturado de fases operacionais.
 Ao detectar a proliferação acelerada de um malware em sua rede corporativa, a equipe de segurança da informação procedeu imediatamente com o isolamento físico dos servidores comprometidos através do desligamento das portas de switch correspondentes, com o intuito de conter a ameaça e evitar que outros nós fossem atingidos.
@@ -499,6 +554,9 @@ A referida ação operacional executada pela equipe insere-se formalmente na fas
 * **D)** Atividades Pós-Incidente (Lições Aprendidas).
 * **E)** Classificação de Ativos.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Preparação é a etapa preventiva preliminar (treinamentos, políticas e criação do CSIRT).
@@ -509,8 +567,9 @@ A referida ação operacional executada pela equipe insere-se formalmente na fas
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 5. Família de Normas ISO/IEC 27000 (SGSI)
@@ -532,7 +591,7 @@ A norma **ABNT NBR ISO/IEC 27001** estabelece os requisitos formais para estabel
 
 ---
 
-### Questão 10
+### Teste 364
 **(FCC - SEFAZ-PE - Auditoria Fiscal - Gestão de Riscos e Normas ISO/IEC 27000)**
 A respeito dos conceitos de gestão de riscos e da família de normas ABNT NBR ISO/IEC 27000, assinale a afirmativa correta:
 
@@ -541,6 +600,9 @@ A respeito dos conceitos de gestão de riscos e da família de normas ABNT NBR I
 * **C)** A edição atualizada da norma ISO/IEC 27002 organiza seus controles em 14 domínios tecnológicos idênticos aos da versão de 2005, proibindo expressamente o tratamento de controles organizacionais e de pessoas.
 * **D)** O cálculo do risco quantitativo Annualized Loss Expectancy (ALE) é obtido somando-se a taxa anual de ocorrência (ARO) com a metade do patrimônio líquido da organização.
 * **E)** A opção de tratamento de risco denominada "Aceitação" consiste em instalar firewalls redundantes e sistemas IPS para zerar o risco residual.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -588,7 +650,8 @@ A edição atualizada (ISO/IEC 27002:2022) simplificou os antigos 14 domínios d
 
 ---
 
-### Questão 11 (FGV - TRT / Analista Judiciário - TI - A Nova ISO/IEC 27002:2022: Estrutura de Temas e Controles)
+### Teste 365
+**(FGV - TRT / Analista Judiciário - TI - A Nova ISO/IEC 27002:2022: Estrutura de Temas e Controles)**
 A norma ABNT NBR ISO/IEC 27002:2022 promoveu uma das mais profundas reestruturações na história do Sistema de Gestão da Segurança da Informação (SGSI), simplificando e modernizando o catálogo de controles de segurança.
 
 A respeito da nova taxonomia e da quantidade de controles previstos na **ISO/IEC 27002:2022**, assinale a afirmativa correta:
@@ -598,6 +661,9 @@ A respeito da nova taxonomia e da quantidade de controles previstos na **ISO/IEC
 * **C)** A norma ISO/IEC 27002:2022 eliminou os controles tecnológicos para focar exclusivamente em barreiras físicas com cadeados.
 * **D)** A Declaração de Aplicabilidade (SoA - *Statement of Applicability*) foi revogada pela ISO/IEC 27001 e deixou de ser exigida em auditorias de certificação.
 * **E)** Todos os 93 controles da nova edição são de implementação obrigatória para qualquer empresa, sendo vedada a exclusão justificada de controles não aplicáveis.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -615,7 +681,10 @@ A respeito da nova taxonomia e da quantidade de controles previstos na **ISO/IEC
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

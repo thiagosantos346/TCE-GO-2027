@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `01_nbc_tsp_estrutura_conceitual_e_normas_gerais.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -26,26 +29,32 @@
     - NBC TSP 07: Ativo Imobilizado, mensuração e depreciação periódica;
     - NBC TSP 34: Sistema de Informação de Custos no Setor Público.
 
----
 
-## 🧭 Sumário Interativo
-- [1. O Enfoque Patrimonial da Contabilidade Pública e a Convergência IPSAS](#1-o-enfoque-patrimonial-da-contabilidade-publica-e-a-convergencia-ipsas)
-    - [1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado](#11-evolucao-do-enfoque-orcamentario-ao-patrimonial-integrado)
-    - [1.2 O Conceito Crítico de "Potencial de Serviços"](#12-o-conceito-critico-de-potencial-de-servicos)
-    - [1.3 Usuários Primários e Objetivos Centrais dos RCPGs](#13-usuarios-primarios-e-objetivos-centrais-dos-rcpgs)
-- [2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)](#2-caracteristicas-qualitativas-da-informacao-contabil-util-nbc-tsp-ec)
-    - [2.1 As Seis Características Qualitativas](#21-as-seis-caracteristicas-qualitativas)
-    - [2.2 Restrições Inerentes: Custo-Benefício e Materialidade](#22-restricoes-inerentes-custo-beneficio-e-materialidade)
-- [3. Elementos das Demonstrações Contábeis e Bases de Mensuração](#3-elementos-das-demonstracoes-contabeis-e-bases-de-mensuracao)
-    - [3.1 Elementos Patrimoniais: Ativo, Passivo, SPL, VPA e VPD](#31-elementos-patrimoniais-ativo-passivo-spl-vpa-e-vpd)
-    - [3.2 Bases de Mensuração para Ativos e Passivos](#32-bases-de-mensuracao-para-ativos-e-passivos)
-- [4. Normas Específicas Fundamentais no Padrão FCC](#4-normas-especificas-fundamentais-no-padrao-fcc)
-    - [4.1 Matriz de Provisões e Passivos Contingentes (NBC TSP 03)](#41-matriz-de-provisoes-e-passivos-contingentes-nbc-tsp-03)
-    - [4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)](#42-mensuracao-de-estoques-publicos-para-distribuicao-gratuita-nbc-tsp-04)
-    - [4.3 Ativo Imobilizado e Depreciação Sistemática (NBC TSP 07)](#43-ativo-imobilizado-e-depreciacao-sistematica-nbc-tsp-07)
-- [5. Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [O Enfoque Patrimonial da Contabilidade Pública e a Convergência IPSAS](#1-o-enfoque-patrimonial-da-contabilidade-publica-e-a-convergencia-ipsas)
+    2. [Teste 260](#Teste-260)
+    3. [Teste 261](#Teste-261)
+    4. [Características Qualitativas da Informação Contábil Útil (NBC TSP EC)](#2-caracteristicas-qualitativas-da-informacao-contabil-util-nbc-tsp-ec)
+    5. [Teste 262](#Teste-262)
+    6. [Teste 263](#Teste-263)
+    7. [Elementos das Demonstrações Contábeis e Bases de Mensuração](#3-elementos-das-demonstracoes-contabeis-e-bases-de-mensuracao)
+    8. [Teste 264](#Teste-264)
+    9. [Normas Específicas Fundamentais no Padrão FCC](#4-normas-especificas-fundamentais-no-padrao-fcc)
+    10. [Teste 265](#Teste-265)
+    11. [Teste 266](#Teste-266)
+    12. [Teste 267](#Teste-267)
+    13. [Teste 268](#Teste-268)
+    14. [Teste 269](#Teste-269)
+2. [Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
+
+---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -73,7 +82,8 @@ Por essa razão, a Estrutura Conceitual da NBC TSP introduziu o conceito de **po
 
 ---
 
-### Questão 01 (FCC - Adaptada / Analista Contábil)
+### Teste 260
+**(FCC - Adaptada / Analista Contábil)**
 A respeito do conceito de Ativo no setor público preconizado na NBC TSP Estrutura Conceitual, assinale a opção correta:
 
 * **A)** A capacidade de um bem público gerar fluxos futuros de caixa positivos é requisito indispensável para sua classificação como ativo governamental.
@@ -81,6 +91,9 @@ A respeito do conceito de Ativo no setor público preconizado na NBC TSP Estrutu
 * **C)** Bens de uso comum do povo, como rodovias e praças públicas, não podem ser classificados como ativos patrimoniais em virtude de sua inalienabilidade civil.
 * **D)** A titularidade da propriedade jurídica formal é elemento obrigatório e insubstituível para o reconhecimento de qualquer ativo no setor público.
 * **E)** Os ativos intangíveis desenvolvidos pelo ente público são vedados na contabilidade governamental por ausência de valor físico tangível.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -108,7 +121,8 @@ Conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista Contábil)
+### Teste 261
+**(FCC - Adaptada / Analista Contábil)**
 De acordo com a NBC TSP Estrutura Conceitual, a informação contábil no setor público destina-se primordialmente a suprir as necessidades de informação dos usuários primários dos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs).
 
 São considerados usuários primários dos RCPGs:
@@ -118,6 +132,9 @@ São considerados usuários primários dos RCPGs:
 * **C)** Unicamente as agências internacionais de classificação de risco de crédito soberano (ratings).
 * **D)** Apenas os secretários de fazenda e os dirigentes máximos das entidades do Poder Executivo.
 * **E)** As sociedades empresárias privadas concorrentes que participam de processos licitatórios governamentais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -158,7 +175,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Teste 262
+**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 A Estrutura Conceitual das Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP EC) estabelece as características qualitativas da informação contábil incluída nos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs).
 
 A característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens e fenômenos econômicos, seja entre diferentes entidades do setor público, seja em relação à mesma entidade ao longo de períodos contábeis consecutivos, denomina-se:
@@ -168,6 +186,9 @@ A característica qualitativa que permite aos usuários identificar semelhanças
 * **C)** Tempestividade.
 * **D)** Representação fidedigna.
 * **E)** Verificabilidade.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -188,7 +209,8 @@ A característica qualitativa que permite aos usuários identificar semelhanças
 
 ---
 
-### Questão 04 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+### Teste 263
+**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
 Na NBC TSP Estrutura Conceitual, as características qualitativas são atributos que tornam a informação contida nos RCPGs útil para os usuários. Considere as seguintes características:
 
 I. **Relevância:** A informação é relevante se for capaz de influenciar as decisões dos usuários, tendo valor confirmatório, preditivo ou ambos.  
@@ -202,6 +224,9 @@ Está correto o que se afirma em:
 * **C)** II e III, apenas.
 * **D)** I e III, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -243,7 +268,8 @@ A mensuração consiste no processo de determinar os valores monetários pelos q
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Teste 264
+**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 No que concerne às bases de mensuração para ativos e passivos segundo a NBC TSP Estrutura Conceitual, assinale a opção correta:
 
 * **A)** O custo histórico é uma base de mensuração a valor de saída que reflete o preço que seria recebido pela venda de um ativo no mercado aberto.
@@ -251,6 +277,9 @@ No que concerne às bases de mensuração para ativos e passivos segundo a NBC T
 * **C)** O valor justo é uma medida específica da entidade que independe das condições de transação entre participantes do mercado.
 * **D)** O valor em uso de um ativo reflete o valor presente dos fluxos de caixa futuros descontados, aplicável exclusivamente a ativos geradores de caixa do setor público.
 * **E)** Todos os passivos públicos devem ser obrigatoriamente mensurados pelo custo histórico original, sendo vedada qualquer avaliação pelo preço de liquidação.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -290,7 +319,8 @@ flowchart TD
 
 ---
 
-### Questão 06 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 265
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 A Procuradoria-Geral de determinado Estado foi intimada de ação judicial de grande repercussão econômica proposta por consórcio de empreiteiras cobrando reequilíbrio econômico-financeiro de contrato de obras. O departamento jurídico do Estado avaliou o risco de perda da ação judicial como **provável** e mensurou com segurança razoável o valor do desembolso futuro estimado em R$ 15.000.000,00.
 
 Consoante as disposições da NBC TSP 03 e do Manual de Contabilidade Aplicada ao Setor Público (MCASP):
@@ -300,6 +330,9 @@ Consoante as disposições da NBC TSP 03 e do Manual de Contabilidade Aplicada a
 * **C)** A entidade pública deve reconhecer uma provisão no Passivo, em contrapartida a uma Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
 * **D)** A perda potencial deve ser reconhecida como despesa orçamentária imediatamente no estágio da fixação da Lei Orçamentária Anual.
 * **E)** Trata-se de um ativo contingente cujo ingresso de recursos deve ser registrado preventivamente no subsistema orçamentário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -313,7 +346,8 @@ Consoante as disposições da NBC TSP 03 e do Manual de Contabilidade Aplicada a
 
 ---
 
-### Questão 07 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 266
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Em determinado processo judicial em trâmite na Justiça do Trabalho contra uma autarquia estadual, a assessoria jurídica emitiu parecer formal classificando o risco de condenação e perda patrimonial da entidade como **possível**, sem possibilidade de definição precisa de valores no momento.
 
 Em observância à NBC TSP 03 e ao MCASP, a conduta contábil adequada a ser adotada pela autarquia é:
@@ -323,6 +357,9 @@ Em observância à NBC TSP 03 e ao MCASP, a conduta contábil adequada a ser ado
 * **C)** Deixar de efetuar qualquer lançamento contábil e dispensar a divulgação em notas explicativas em virtude do princípio do sigilo processual.
 * **D)** Registrar uma Variação Patrimonial Aumentativa para neutralizar o impacto financeiro futuro.
 * **E)** Solicitar abertura imediata de crédito adicional extraordinário para cobertura judicial.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -345,7 +382,8 @@ Em observância à NBC TSP 03 e ao MCASP, a conduta contábil adequada a ser ado
 
 ---
 
-### Questão 08 (FCC - Adaptada / Analista de Gestão Pública - Contabilidade)
+### Teste 267
+**(FCC - Adaptada / Analista de Gestão Pública - Contabilidade)**
 No âmbito do setor público, a Secretaria de Estado da Saúde de Goiás mantém em seus depósitos centrais vultosos estoques de vacinas e medicamentos essenciais destinados exclusivamente à distribuição gratuita à população nos postos de saúde da rede pública.
 
 De acordo com as regras de mensuração de estoques contidas na NBC TSP 04:
@@ -355,6 +393,9 @@ De acordo com as regras de mensuração de estoques contidas na NBC TSP 04:
 * **C)** A Secretaria de Saúde deve mensurar seus estoques obrigatoriamente a valor presente descontado pela taxa básica de juros (Selic).
 * **D)** Medicamentos para distribuição gratuita não configuram ativo, devendo ser lançados como despesa de consumo no ato do recebimento da nota fiscal.
 * **E)** Os estoques devem ser mantidos sem qualquer registro patrimonial até o momento da efetiva aplicação nos pacientes.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -378,7 +419,8 @@ De acordo com as regras de mensuração de estoques contidas na NBC TSP 04:
 
 ---
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 268
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 A respeito da NBC TSP 07 (Ativo Imobilizado) e do reconhecimento contábil dos elementos patrimoniais, analise a seguinte hipótese:
 
 Determinado Tribunal de Contas realizou despesas no valor de R$ 300.000,00 com obras de reforma e adaptação predial em seu auditório principal. A reforma resultou no aumento comprovado da vida útil do imóvel em 10 anos e na ampliação da capacidade de recepção de público, com instalação de novos sistemas centrais de ar-condicionado.
@@ -390,6 +432,9 @@ Determinado Tribunal de Contas realizou despesas no valor de R$ 300.000,00 com o
 * **C)** Não pode ser registrado no subsistema patrimonial, limitando-se ao subsistema de compensação de atos potenciais.
 * **D)** Deve ser registrado como ativo intangível pelo período em que perdurarem as garantias da construtora.
 * **E)** Constitui inversão financeira na classificação por natureza da despesa, devendo ser baixado imediatamente do patrimônio líquido.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -403,7 +448,8 @@ Determinado Tribunal de Contas realizou despesas no valor de R$ 300.000,00 com o
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 269
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 Segundo a NBC TSP 03 (Provisões, Passivos Contingentes e Ativos Contingentes), assinale a opção que apresenta o correto tratamento contábil para uma ação judicial movida contra um Estado da Federação cuja perda seja avaliada pela Procuradoria-Geral do Estado como **provável** e cujo valor possa ser estimado com confiabilidade:
 
 * **A)** Deve ser reconhecida uma provisão no passivo exigível, com contrapartida em Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
@@ -411,6 +457,9 @@ Segundo a NBC TSP 03 (Provisões, Passivos Contingentes e Ativos Contingentes), 
 * **C)** Deve ser registrada apenas no subsistema de controle (atos potenciais passivos), sendo vedado o lançamento contábil no passivo patrimonial.
 * **D)** O registro contábil fica condicionado ao trânsito em julgado da decisão judicial irrecorrível perante os Tribunais Superiores.
 * **E)** Deve ser contabilizado um ativo contingente garantidor em contrapartida ao patrimônio líquido.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -421,6 +470,8 @@ Segundo a NBC TSP 03 (Provisões, Passivos Contingentes e Ativos Contingentes), 
 > - **E)** Incorreta. Ativos contingentes não são reconhecidos no balanço patrimonial.
 > 
 > **Gabarito: A**
+
+
 
 ---
 

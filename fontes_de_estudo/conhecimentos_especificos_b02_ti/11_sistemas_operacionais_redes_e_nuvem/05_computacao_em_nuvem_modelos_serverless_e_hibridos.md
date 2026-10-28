@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `05_computacao_em_nuvem_modelos_serverless_e_hibridos.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Fundamentos e características essenciais da Computação em Nuvem (NIST SP 800-145)
@@ -15,31 +18,47 @@
 - Integração entre ambientes locais (On-Premises) e nuvem pública
 - Monitoramento de infraestrutura e custos em nuvem (FinOps)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos de Computação em Nuvem (NIST SP 800-145)](#1-fundamentos-de-computacao-em-nuvem-nist-sp-800-145)
-    - [1.1 Definição Canônica do NIST](#11-definicao-canonica-do-nist)
-    - [1.2 As Cinco Características Essenciais](#12-as-cinco-caracteristicas-essenciais)
-    - [1.3 Os Quatro Modelos de Implantação (Pública, Privada, Comunitária, Híbrida)](#13-os-quatro-modelos-de-implantacao-publica-privada-comunitaria-hibrida)
-- [2. Modelos de Serviço e Matriz de Responsabilidade Compartilhada](#2-modelos-de-servico-e-matriz-de-responsabilidade-compartilhada)
-    - [2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle](#21-iaas-paas-e-saas-estrutura-e-escopos-de-controle)
-    - [2.2 Matriz de Responsabilidade Compartilhada (Shared Responsibility Model)](#22-matriz-de-responsabilidade-compartilhada-shared-responsibility-model)
-- [3. Computação Serverless (FaaS - Function as a Service)](#3-computacao-serverless-faas-function-as-a-service)
-    - [3.1 Paradigma: Execução Orientada a Eventos e Abstração de Infraestrutura](#31-paradigma-execucao-orientada-a-eventos-e-abstracao-de-infraestrutura)
-    - [3.2 Escala Automática a Zero (Scale-to-Zero) e Cobrança Fracionada](#32-escala-automatica-a-zero-scale-to-zero-e-cobranca-fracionada)
-    - [3.3 O Desafio do Cold Start e Estratégias de Mitigação](#33-o-desafio-do-cold-start-e-estrategias-de-mitigacao)
-- [4. Arquiteturas de Alta Disponibilidade e Escalabilidade em Nuvem](#4-arquiteturas-de-alta-disponibilidade-e-escalabilidade-em-nuvem)
-    - [4.1 Topologia Física Global: Regiões, Zonas de Disponibilidade (AZs) e Pontos de Presença](#41-topologia-fisica-global-regioes-zonas-de-disponibilidade-azs-e-pontos-de-presenca)
-    - [4.2 Escalabilidade Vertical (Scale-Up) vs. Horizontal (Scale-Out)](#42-escalabilidade-vertical-scale-up-vs-horizontal-scale-out)
-    - [4.3 Padrões de Resiliência: Multi-AZ e Recuperação de Desastres](#43-padroes-de-resiliencia-multi-az-e-recuperacao-de-desastres)
-- [5. Integração Híbrida e Governança Financeira (FinOps)](#5-integracao-hibrida-e-governanca-financeira-finops)
-    - [5.1 Conectividade Corporativa Híbrida: VPN IPsec vs. Links Dedicados Diretos](#51-conectividade-corporativa-hibrida-vpn-ipsec-vs-links-dedicados-diretos)
-    - [5.2 Modelos de Compra em Nuvem: On-Demand, Instâncias Reservadas e Spot](#52-modelos-de-compra-em-nuvem-on-demand-instancias-reservadas-e-spot)
-    - [5.3 FinOps: Transição CapEx para OpEx e Dimensionamento Correto (Rightsizing)](#53-finops-transicao-capex-para-opex-e-dimensionamento-correto-rightsizing)
-- [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+
+1. [Fundamentos de Computação em Nuvem (NIST SP 800-145)](#1-fundamentos-de-computacao-em-nuvem-nist-sp-800-145)
+    1. [Definição Canônica do NIST](#11-definicao-canonica-do-nist)
+    2. [As Cinco Características Essenciais](#12-as-cinco-caracteristicas-essenciais)
+    3. [Teste 454](#Teste-454)
+    4. [Os Quatro Modelos de Implantação (Pública, Privada, Comunitária, Híbrida)](#13-os-quatro-modelos-de-implantacao-publica-privada-comunitaria-hibrida)
+    5. [Teste 455](#Teste-455)
+2. [Modelos de Serviço e Matriz de Responsabilidade Compartilhada](#2-modelos-de-servico-e-matriz-de-responsabilidade-compartilhada)
+    1. [IaaS, PaaS e SaaS: Estrutura e Escopos de Controle](#21-iaas-paas-e-saas-estrutura-e-escopos-de-controle)
+    2. [Teste 456](#Teste-456)
+    3. [Matriz de Responsabilidade Compartilhada (Shared Responsibility Model)](#22-matriz-de-responsabilidade-compartilhada-shared-responsibility-model)
+    4. [Teste 457](#Teste-457)
+3. [Computação Serverless (FaaS - Function as a Service)](#3-computacao-serverless-faas-function-as-a-service)
+    1. [Paradigma: Execução Orientada a Eventos e Abstração de Infraestrutura](#31-paradigma-execucao-orientada-a-eventos-e-abstracao-de-infraestrutura)
+    2. [Escala Automática a Zero (Scale-to-Zero) e Cobrança Fracionada](#32-escala-automatica-a-zero-scale-to-zero-e-cobranca-fracionada)
+    3. [Teste 458](#Teste-458)
+    4. [O Desafio do Cold Start e Estratégias de Mitigação](#33-o-desafio-do-cold-start-e-estrategias-de-mitigacao)
+    5. [Teste 459](#Teste-459)
+4. [Arquiteturas de Alta Disponibilidade e Escalabilidade em Nuvem](#4-arquiteturas-de-alta-disponibilidade-e-escalabilidade-em-nuvem)
+    1. [Topologia Física Global: Regiões, Zonas de Disponibilidade (AZs) e Pontos de Presença](#41-topologia-fisica-global-regioes-zonas-de-disponibilidade-azs-e-pontos-de-presenca)
+    2. [Teste 460](#Teste-460)
+    3. [Escalabilidade Vertical (Scale-Up) vs. Horizontal (Scale-Out)](#42-escalabilidade-vertical-scale-up-vs-horizontal-scale-out)
+    4. [Padrões de Resiliência: Multi-AZ e Recuperação de Desastres](#43-padroes-de-resiliencia-multi-az-e-recuperacao-de-desastres)
+    5. [Teste 461](#Teste-461)
+5. [Integração Híbrida e Governança Financeira (FinOps)](#5-integracao-hibrida-e-governanca-financeira-finops)
+    1. [Conectividade Corporativa Híbrida: VPN IPsec vs. Links Dedicados Diretos](#51-conectividade-corporativa-hibrida-vpn-ipsec-vs-links-dedicados-diretos)
+    2. [Teste 462](#Teste-462)
+    3. [Modelos de Compra em Nuvem: On-Demand, Instâncias Reservadas e Spot](#52-modelos-de-compra-em-nuvem-on-demand-instancias-reservadas-e-spot)
+    4. [Teste 463](#Teste-463)
+    5. [FinOps: Transição CapEx para OpEx e Dimensionamento Correto (Rightsizing)](#53-finops-transicao-capex-para-opex-e-dimensionamento-correto-rightsizing)
+    6. [Teste 464](#Teste-464)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Fundamentos de Computação em Nuvem (NIST SP 800-145)
 
@@ -64,7 +83,8 @@ Para ser legitimamente classificado como computação em nuvem, um ambiente tecn
 
 ---
 
-### Questão 01 (FGV - TRT / Analista Judiciário - TI - As Cinco Características Essenciais da Nuvem pelo NIST)
+### Teste 454
+**(FGV - TRT / Analista Judiciário - TI - As Cinco Características Essenciais da Nuvem pelo NIST)**
 A publicação especial NIST SP 800-145 estabelece a definição formal e canônica de Computação em Nuvem aceita internacionalmente por governos e indústrias de tecnologia.
 
 O framework do NIST estrutura a computação em nuvem em **Cinco Características Essenciais**, Três Modelos de Serviço e Quatro Modelos de Implantação. Assinale a afirmativa que apresenta corretamente as Cinco Características Essenciais:
@@ -74,6 +94,9 @@ O framework do NIST estrutura a computação em nuvem em **Cinco Característica
 * **C)** Criptografia simétrica, assinatura em papel moeda, arquitetura cliente-servidor centralizada em mainframe, roteamento RIP e ausência de APIs.
 * **D)** Tolerância a falhas manual, ausência de medição de consumo, dependência de fitas magnéticas, escaneamento de portas TCP e gerência por e-mail.
 * **E)** As características essenciais proíbem que mais de uma organização compartilhe os servidores físicos de um mesmo provedor de nuvem.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -101,7 +124,8 @@ O framework do NIST estrutura a computação em nuvem em **Cinco Característica
 
 ---
 
-### Questão 02 (FCC - TRT / Analista de Tecnologia da Informação - Modelos de Implantação de Nuvem)
+### Teste 455
+**(FCC - TRT / Analista de Tecnologia da Informação - Modelos de Implantação de Nuvem)**
 A definição do modelo de implantação de computação em nuvem determina o escopo de governança, compartilhamento de infraestrutura física e fronteiras de segurança entre organizações.
 
 Considere um consórcio de Tribunais de Contas Estaduais que resolve implantar uma infraestrutura de nuvem conjunta para compartilhar ferramentas de auditoria e bases de jurisprudência, onde a infraestrutura é compartilhada estritamente entre instituições que possuem missões institucionais, requisitos de segurança e preocupações de conformidade comuns.
@@ -113,6 +137,9 @@ Segundo a taxonomia do NIST SP 800-145, esse modelo de implantação é classifi
 * **C)** Nuvem Comunitária (*Community Cloud*).
 * **D)** Nuvem Descentralizada P2P (*Peer-to-Peer Cloud*).
 * **E)** Nuvem Não Comercial Externa (*External Off-Grid Cloud*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -126,7 +153,10 @@ Segundo a taxonomia do NIST SP 800-145, esse modelo de implantação é classifi
 > 
 > **Gabarito: C**
 
+
+
 ---
+
 
 ## 2. Modelos de Serviço e Matriz de Responsabilidade Compartilhada
 
@@ -154,7 +184,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / Analista de Tecnologia da Informação - Infraestrutura em Nuvem)
+### Teste 456
+**(FCC - Adaptada / Analista de Tecnologia da Informação - Infraestrutura em Nuvem)**
 O Tribunal de Contas está conduzindo um projeto de modernização de seu ecossistema de TI, migrando sistemas legados para ambientes de computação em nuvem pública e adotando novos serviços modernos. Segundo a publicação NIST SP 800-145 (*The NIST Definition of Cloud Computing*), a definição de responsabilidades entre o cliente e o provedor varia fundamentalmente de acordo com o modelo de serviço contratado.
 
 A respeito dos modelos de serviço e da matriz de responsabilidade compartilhada, é correto afirmar:
@@ -164,6 +195,9 @@ A respeito dos modelos de serviço e da matriz de responsabilidade compartilhada
 * **C)** No modelo SaaS (*Software as a Service*), o consumidor não gerencia nem controla a infraestrutura de nuvem subjacente (redes, servidores, sistemas operacionais ou armazenamento) e nem mesmo as capacidades individuais da aplicação, com exceção de limitadas configurações específicas de perfil e preferência de uso.
 * **D)** A característica de "Elasticidade Rápida" (*Rapid Elasticity*) prevista pelo NIST exige intervenção manual e aprovação prévia do suporte técnico do provedor de nuvem para alocação temporária de novos nós computacionais.
 * **E)** No modelo IaaS, o provisionamento de recursos físicos é estático e exclusivo, não permitindo o compartilhamento dinâmico de recursos físicos (*Resource Pooling*) entre múltiplos locatários (*multi-tenancy*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -199,7 +233,8 @@ A segurança cibernética em nuvem fundamenta-se na **Responsabilidade Compartil
 
 ---
 
-### Questão 04 (FGV - TRT / Analista Judiciário - TI - Matriz de Responsabilidade Compartilhada na Nuvem)
+### Teste 457
+**(FGV - TRT / Analista Judiciário - TI - Matriz de Responsabilidade Compartilhada na Nuvem)**
 O modelo de segurança na computação em nuvem baseia-se na **Matriz de Responsabilidade Compartilhada** (*Shared Responsibility Model*) entre o Provedor de Nuvem (*Cloud Service Provider - CSP*) e o Cliente (a organização governamental contratante).
 
 A respeito da distribuição de responsabilidades de segurança da informação no modelo **IaaS** (*Infrastructure as a Service*), assinale a afirmativa correta:
@@ -209,6 +244,9 @@ A respeito da distribuição de responsabilidades de segurança da informação 
 * **C)** O cliente de IaaS deve responsabilizar-se pela manutenção física do gerador a diesel do datacenter do provedor.
 * **D)** Em modelos SaaS (Software as a Service), o cliente tem a obrigação técnica de atualizar o firmware dos roteadores do provedor.
 * **E)** A responsabilidade pela classificação e conformidade dos dados transferidos para a nuvem recai sempre e exclusivamente sobre o fabricante dos processadores de hardware.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -223,7 +261,10 @@ A respeito da distribuição de responsabilidades de segurança da informação 
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 3. Computação Serverless (FaaS - Function as a Service)
 
@@ -249,7 +290,8 @@ As arquiteturas Serverless destacam-se por duas características econômicas e o
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de TI - Arquitetura de Soluções)
+### Teste 458
+**(FCC - Adaptada / Analista de TI - Arquitetura de Soluções)**
 Uma equipe de desenvolvimento concebeu um microsserviço assíncrono para processar notas de auditoria geradas pelos auditores fiscais. O serviço é disparado estritamente quando um novo arquivo PDF é depositado em um repositório de objetos de armazenamento em nuvem. Durante a noite e fins de semana, o volume de arquivos é nulo; durante o expediente forense, ocorrem picos esporádicos de centenas de arquivos por minuto. A equipe optou por uma arquitetura *Serverless* com modelo FaaS (*Function as a Service*).
 
 Considerando as características intrínsecas das arquiteturas *Serverless*, é correto afirmar que essa abordagem:
@@ -259,6 +301,9 @@ Considerando as características intrínsecas das arquiteturas *Serverless*, é 
 * **C)** Impossibilita o escalonamento horizontal automático frente a aumentos repentinos de carga de requisições, dependendo de redimensionamento de memória vertical (*scale-up*).
 * **D)** Mantém os ambientes de execução das funções permanentemente ativos na memória RAM do data center, eliminando por completo qualquer latência de inicialização.
 * **E)** Impede a integração com serviços orientados a eventos, necessitando que o código execute uma rotina em laço infinito (*polling*) para inspecionar novos arquivos no repositório.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -303,7 +348,8 @@ sequenceDiagram
 
 ---
 
-### Questão 06 (FGV - TRT / Analista Judiciário - TI - Paradigma Serverless e o Fenômeno do Cold Start)
+### Teste 459
+**(FGV - TRT / Analista Judiciário - TI - Paradigma Serverless e o Fenômeno do Cold Start)**
 A computação sem servidor (*Serverless / Function-as-a-Service - FaaS*, como AWS Lambda, Azure Functions e Google Cloud Functions) oferece alta abstração de infraestrutura, escala automática orientada a eventos e cobrança por tempo de execução.
 
 No entanto, uma das principais características operacionais a ser gerenciada por arquitetos de software em soluções FaaS é o **Cold Start** (*Inicialização a Frio*). O fenômeno do *Cold Start* é definido quando:
@@ -313,6 +359,9 @@ No entanto, uma das principais características operacionais a ser gerenciada po
 * **C)** A função serverless rejeita comandos executados em dias de inverno.
 * **D)** O código da função é deletado da nuvem caso a temperatura ambiente ultrapasse 25 graus Celsius.
 * **E)** O sistema operacional trava e exige que o desenvolvedor reinicie manualmente a placa-mãe no datacenter.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -332,7 +381,10 @@ No entanto, uma das principais características operacionais a ser gerenciada po
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Arquiteturas de Alta Disponibilidade e Escalabilidade em Nuvem
 
@@ -348,7 +400,8 @@ A infraestrutura dos grandes provedores de nuvem (AWS, Microsoft Azure, Google C
 
 ---
 
-### Questão 07 (FCC - Adaptada / Analista de Tecnologia da Informação - Infraestrutura Cloud)
+### Teste 460
+**(FCC - Adaptada / Analista de Tecnologia da Informação - Infraestrutura Cloud)**
 Com relação aos conceitos de resiliência, topologia física e estratégias de escalabilidade em provedores de computação em nuvem pública (como AWS, Microsoft Azure e Google Cloud), assinale a afirmação correta:
 
 * **A)** Uma Zona de Disponibilidade (*Availability Zone* - AZ) consiste simplesmente em um rack isolado de servidores localizado dentro do mesmo espaço físico de um único data center comercial.
@@ -356,6 +409,9 @@ Com relação aos conceitos de resiliência, topologia física e estratégias de
 * **C)** Uma Zona de Disponibilidade (*Availability Zone*) é constituída por um ou mais data centers físicos discretos, dotados de fontes de alimentação elétrica, refrigeração e conectividade de rede independentes e redundantes, interligados a outras zonas da mesma região por meio de conexões de baixa latência.
 * **D)** As Regiões de nuvem compartilham obrigatoriamente a mesma subestação elétrica e a mesma rede física metropolitana, visando baratear o custo operacional da transmissão de dados.
 * **E)** A estratégia de resiliência *Multi-AZ* é ineficaz para mitigar falhas físicas de data center, dependendo compulsoriamente de migração manual de discos rígidos físicos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -389,7 +445,8 @@ Com relação aos conceitos de resiliência, topologia física e estratégias de
 
 ---
 
-### Questão 08 (FCC - TRT / Analista de Tecnologia da Informação - Padrões de Resiliência e Arquiteturas Multi-AZ)
+### Teste 461
+**(FCC - TRT / Analista de Tecnologia da Informação - Padrões de Resiliência e Arquiteturas Multi-AZ)**
 No desenho de soluções corporativas de missão crítica em nuvens públicas, arquitetos de infraestrutura projetam sistemas para tolerar falhas físicas catastróficas sem interrupção de serviço.
 
 A respeito das construções topológicas de **Regiões** e **Zonas de Disponibilidade (*Availability Zones - AZs*)**, assinale a afirmativa correta:
@@ -399,6 +456,9 @@ A respeito das construções topológicas de **Regiões** e **Zonas de Disponibi
 * **C)** Duas Zonas de Disponibilidade da mesma região devem obrigatoriamente compartilhar o mesmo transformador de energia da concessionária e a mesma rede de água predial.
 * **D)** O padrão Multi-AZ proíbe que existam servidores de aplicação espelhados em mais de uma localidade.
 * **E)** Regiões de nuvem nunca podem ser interconectadas pela internet global.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -413,7 +473,10 @@ A respeito das construções topológicas de **Regiões** e **Zonas de Disponibi
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 5. Integração Híbrida e Governança Financeira (FinOps)
 
@@ -440,7 +503,8 @@ flowchart LR
 
 ---
 
-### Questão 09 (FCC - Adaptada / Tribunal de Contas - Infraestrutura e Redes Híbridas)
+### Teste 462
+**(FCC - Adaptada / Tribunal de Contas - Infraestrutura e Redes Híbridas)**
 Um órgão governamental de controle externo decidiu manter suas bases de dados confidenciais hospedadas em seu data center corporativo local (*on-premises*), integrando-as a aplicações analíticas executadas em um provedor de nuvem pública. A equipe de tecnologia avalia as opções para implementar a conectividade híbrida entre os dois ambientes.
 
 A respeito dos mecanismos de conectividade em arquiteturas de nuvem híbrida, é correto afirmar:
@@ -450,6 +514,9 @@ A respeito dos mecanismos de conectividade em arquiteturas de nuvem híbrida, é
 * **C)** O tráfego de dados em um link dedicado como o Azure ExpressRoute ou AWS Direct Connect não pode ser integrado aos firewalls nem aos roteadores de borda locais da entidade pública.
 * **D)** A criação de túneis VPN IPsec *Site-to-Site* para nuvem pública exige que os servidores em nuvem possuam todos os seus endereços IP cadastrados obrigatoriamente na faixa pública de DNS mundial.
 * **E)** A utilização de links dedicados privados inviabiliza a comunicação com recursos alocados em redes virtuais privadas (VPC ou VNet) na nuvem.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -473,7 +540,8 @@ A respeito dos mecanismos de conectividade em arquiteturas de nuvem híbrida, é
 
 ---
 
-### Questão 10 (FCC - Adaptada / Analista de Tecnologia da Informação - Governança Cloud e FinOps)
+### Teste 463
+**(FCC - Adaptada / Analista de Tecnologia da Informação - Governança Cloud e FinOps)**
 No âmbito da governança orçamentária e gestão de custos em nuvem (práticas de FinOps), a organização busca otimizar os gastos computacionais decorrentes do uso contínuo e transitório de máquinas virtuais na nuvem pública.
 
 A respeito dos modelos de contratação de capacidade computacional disponíveis nos principais provedores de computação em nuvem, assinale a opção correta:
@@ -483,6 +551,9 @@ A respeito dos modelos de contratação de capacidade computacional disponíveis
 * **C)** As Instâncias Reservadas (*Reserved Instances*) ou Planos de Economia (*Savings Plans*) proporcionam descontos tarifários expressivos em relação aos preços sob demanda mediante o compromisso de utilização contínua por prazos definidos (tipicamente 1 ou 3 anos), sendo recomendadas para cargas de trabalho previsíveis e de estado estável.
 * **D)** A prática de *Rightsizing* (dimensionamento correto) consiste em duplicar a capacidade de vCPUs e memória RAM de todas as instâncias ativas na virada de cada ano fiscal para evitar problemas de saturação de disco.
 * **E)** Em arquiteturas de nuvem, a transição do modelo financeiro migra custos de despesas operacionais (OpEx) para despesas exclusivas de capital imobilizado (CapEx).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -507,7 +578,8 @@ A respeito dos modelos de contratação de capacidade computacional disponíveis
 
 ---
 
-### Questão 11 (FGV - TRT / Analista Judiciário - Governança Cloud e FinOps - Da CapEx para OpEx e Rightsizing)
+### Teste 464
+**(FGV - TRT / Analista Judiciário - Governança Cloud e FinOps - Da CapEx para OpEx e Rightsizing)**
 A governança financeira e orçamentária da computação em nuvem no setor público consolidou a disciplina de **FinOps** (*Cloud Financial Management*), unindo engenharia de software, operações de infraestrutura e gestão financeira.
 
 No âmbito dos princípios de FinOps e planejamento econômico em nuvem, a transição contábil do modelo **CapEx para OpEx** e a técnica de **Rightsizing** caracterizam-se por:
@@ -517,6 +589,9 @@ No âmbito dos princípios de FinOps e planejamento econômico em nuvem, a trans
 * **C)** O Rightsizing consiste em aumentar indefinidamente o tamanho de todas as máquinas virtuais para a maior capacidade do catálogo do provedor sem verificar o consumo.
 * **D)** O FinOps proíbe que órgãos públicos realizem qualquer tipo de controle de custos de computação em nuvem.
 * **E)** CapEx e OpEx são índices de criptografia de ponta a ponta que dispensam aprovação orçamentária no Plano Plurianual (PPA).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -531,7 +606,10 @@ No âmbito dos princípios de FinOps e planejamento econômico em nuvem, a trans
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 6. Fontes Recomendadas na Internet
 

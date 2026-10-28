@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `04_creditos_adicionais_e_divida_publica.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -26,27 +29,32 @@
     - Dívida Flutuante (Artigo 92 da Lei nº 4.320/1964): restos a pagar, serviços da dívida a pagar, depósitos/cauções e débitos de tesouraria por ARO;
     - Dívida Fundada ou Consolidada (Artigo 98 da Lei nº 4.320/1964 e Artigo 29 da LRF): obrigações financeiras de longo prazo (superiores a 12 meses) decorrentes de contratos, emissão de títulos públicos e precatórios.
 
----
 
-## 🧭 Sumário Interativo
-- [1. Mecanismos de Retificação do Orçamento: Os Créditos Adicionais](#1-mecanismos-de-retificacao-do-orcamento-os-creditos-adicionais)
-    - [1.1 Conceito e Função no Sistema Orçamentário](#11-conceito-e-funcao-no-sistema-orcamentario)
-    - [1.2 As Três Espécies: Suplementares, Especiais e Extraordinários](#12-as-tres-especies-suplementares-especiais-e-extraordinarios)
-    - [1.3 Quadro Comparativo dos Ritos e Vigência](#13-quadro-comparativo-dos-ritos-e-vigencia)
-- [2. A Regra Constitucional de Reabertura de Saldos (Art. 167, § 2º da CF/88)](#2-a-regra-constitucional-de-reabertura-de-saldos-art-167-2o-da-cf88)
-    - [2.1 Princípio da Anualidade e a Reabertura Quadrimestral](#21-principio-da-anualidade-e-a-reabertura-quadrimestral)
-    - [2.2 Requisitos Cumulativos para a Reabertura](#22-requisitos-cumulativos-para-a-reabertura)
-- [3. As Fontes Legais de Cobertura para Abertura de Créditos](#3-as-fontes-legais-de-cobertura-para-abertura-de-creditos)
-    - [3.1 Superávit Financeiro do Balanço Patrimonial Anterior (Art. 43, § 2º)](#31-superavit-financeiro-do-balanco-patrimonial-anterior-art-43-2o)
-    - [3.2 Excesso de Arrecadação (Art. 43, § 3º)](#32-excesso-de-arrecadacao-art-43-3o)
-    - [3.3 Anulação de Dotações e Operações de Crédito](#33-anulacao-de-dotacoes-e-operacoes-de-credito)
-    - [3.4 Reserva de Contingência e Recursos Decorrentes de Veto/Rejeição](#34-reserva-de-contingencia-e-recursos-decorrentes-de-vetorejeicao)
-- [4. Regime Jurídico da Dívida Pública: Flutuante vs. Fundada (Consolidada)](#4-regime-juridico-da-divida-publica-flutuante-vs-fundada-consolidada)
-    - [4.1 Dívida Flutuante (Curto Prazo - Art. 92 da Lei nº 4.320/1964)](#41-divida-flutuante-curto-prazo-art-92-da-lei-no-43201964)
-    - [4.2 Dívida Fundada ou Consolidada (Longo Prazo - Art. 29 da LRF)](#42-divida-fundada-ou-consolidada-longo-prazo-art-29-da-lrf)
-- [5. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Mecanismos de Retificação do Orçamento: Os Créditos Adicionais](#1-mecanismos-de-retificacao-do-orcamento-os-creditos-adicionais)
+    2. [Teste 240](#Teste-240)
+    3. [Teste 241](#Teste-241)
+    4. [Teste 242](#Teste-242)
+    5. [Teste 243](#Teste-243)
+    6. [A Regra Constitucional de Reabertura de Saldos (Art. 167, § 2º da CF/88)](#2-a-regra-constitucional-de-reabertura-de-saldos-art-167-2o-da-cf88)
+    7. [Teste 244](#Teste-244)
+    8. [Teste 245](#Teste-245)
+    9. [As Fontes Legais de Cobertura para Abertura de Créditos](#3-as-fontes-legais-de-cobertura-para-abertura-de-creditos)
+    10. [Teste 246](#Teste-246)
+    11. [Teste 247](#Teste-247)
+    12. [Regime Jurídico da Dívida Pública: Flutuante vs. Fundada (Consolidada)](#4-regime-juridico-da-divida-publica-flutuante-vs-fundada-consolidada)
+    13. [Teste 248](#Teste-248)
+    14. [Teste 249](#Teste-249)
+2. [Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+
+---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -70,7 +78,8 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Adaptada / Técnico de Controle Externo)
+### Teste 240
+**(FCC - Adaptada / Técnico de Controle Externo)**
 Na contabilidade pública e no direito financeiro, as dívidas contraídas pelo Estado classificam-se em dívida flutuante e dívida fundada (consolidada). Assinale a opção que apresenta um componente típico da **dívida flutuante**:
 
 * **A)** Títulos públicos da dívida mobiliária estadual com vencimento para cinco anos.
@@ -78,6 +87,9 @@ Na contabilidade pública e no direito financeiro, as dívidas contraídas pelo 
 * **C)** Restos a Pagar processados e não processados inscritos ao término do exercício financeiro.
 * **D)** Precatórios judiciais incluídos na proposta orçamentária para quitação ao longo de três exercícios sucessivos.
 * **E)** Debêntures emitidas por sociedade de economia mista não dependente com garantia real imobiliária.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -91,7 +103,8 @@ Na contabilidade pública e no direito financeiro, as dívidas contraídas pelo 
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista Jurídico de Controle)
+### Teste 241
+**(FCC - Adaptada / Analista Jurídico de Controle)**
 Ao elaborar o projeto de Lei Orçamentária Anual (LOA), a Secretaria de Economia do Estado de Goiás estimou uma reserva global sem destinação específica a órgão ou programa determinado, vinculada unicamente à cobertura de passivos contingentes e outros riscos fiscais imprevistos.
 
 Nos termos do artigo 5º, inciso III da Lei de Responsabilidade Fiscal (LC nº 101/2000) e da legislação financeira, essa dotação denomina-se:
@@ -101,6 +114,9 @@ Nos termos do artigo 5º, inciso III da Lei de Responsabilidade Fiscal (LC nº 1
 * **C)** Provisão Judicial para Perdas Trabalhistas.
 * **D)** Fundo de Estabilização Fiscal de Repartição Obrigatória.
 * **E)** Superávit de Liquidez de Tesouraria.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -143,7 +159,8 @@ A legislação financeira reparte os créditos adicionais em três espécies bem
 
 ---
 
-### Questão 03 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Teste 242
+**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 Em decorrência de fortes chuvas torrenciais que assolaram municípios goianos, o Governador do Estado decretou formalmente estado de calamidade pública. Diante da necessidade imediata de socorro financeiro e humanitário às populações desabrigadas, o Poder Executivo necessita executar despesas emergenciais para as quais não há dotação orçamentária na Lei Orçamentária Anual em vigor.
 
 Nessa situação fática, em conformidade com as normas constitucionais e financeiras vigentes:
@@ -153,6 +170,9 @@ Nessa situação fática, em conformidade com as normas constitucionais e financ
 * **C)** É obrigatória a aprovação de Emenda à Lei Orçamentária Anual por quórum qualificado de dois terços dos membros da Assembleia Legislativa.
 * **D)** O crédito adicional especial deverá ser aberto por decreto, desde que haja prévia autorização expressa na Lei de Diretrizes Orçamentárias.
 * **E)** É vedada a realização de qualquer dispêndio em razão da ausência originária de dotação na LOA, devendo o Poder Executivo aguardar a tramitação do orçamento do ano seguinte.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -168,7 +188,8 @@ Nessa situação fática, em conformidade com as normas constitucionais e financ
 
 
 
-### Questão 04 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Teste 243
+**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 No tocante às três modalidades de créditos adicionais previstas no art. 41 da Lei Federal nº 4.320/1964, considere as seguintes assertivas:
 
 I. Os créditos suplementares destinam-se a reforço de dotação orçamentária já existente na Lei Orçamentária Anual.  
@@ -182,6 +203,9 @@ Está correto o que se afirma em:
 * **C)** II e III, apenas.
 * **D)** I e III, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -211,7 +235,8 @@ Para que o saldo de um crédito orçamentário possa ser regularmente reaberto n
 
 ---
 
-### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 244
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 A respeito das fontes de recursos para a abertura de créditos adicionais previstas no artigo 43 da Lei nº 4.320/1964 e das normas da Constituição Federal de 1988, considere as seguintes afirmativas:
 
 I. O superávit financeiro utilizado para abertura de créditos adicionais corresponde à diferença positiva entre o ativo financeiro e o passivo financeiro apurados no Balanço Patrimonial do exercício anterior, conjugando-se com os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas.  
@@ -228,6 +253,9 @@ Está correto o que se afirma em:
 * **D)** I e III, apenas.
 * **E)** I, II e III.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Todos os três itens constantes do enunciado são rigorosamente verdadeiros.
@@ -240,7 +268,8 @@ Está correto o que se afirma em:
 
 ---
 
-### Questão 06 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Teste 245
+**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 No encerramento do exercício financeiro de 2025, determinado órgão público estadual possuía os seguintes saldos de créditos adicionais que não foram totalmente utilizados nem pagos:
 
 I. Saldo não utilizado de R$ 400.000,00 referente a um Crédito Suplementar aberto regularmente por decreto executivo em novembro de 2025.  
@@ -254,6 +283,9 @@ Considerando o princípio da anualidade orçamentária e a disciplina do artigo 
 * **C)** Apenas o saldo do Crédito Especial poderá ser reaberto no limite de R$ 600.000,00, vigorando até o término do exercício de 2026; o saldo do Crédito Suplementar será compulsoriamente extinto.
 * **D)** Apenas o saldo do Crédito Suplementar poderá ser reaberto, desde que incorporado ao orçamento das estatais.
 * **E)** Os saldos são convertidos automaticamente em Restos a Pagar Não Processados sem necessidade de ato de reabertura.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -311,7 +343,8 @@ $$\text{Superávit Financeiro} = AF - PF - \text{Saldos de Créditos Reabertos} 
 
 ---
 
-### Questão 07 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Teste 246
+**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 O art. 43 da Lei Federal nº 4.320/1964 disciplina as fontes de recursos disponíveis que podem ser utilizadas pelo Poder Público para a abertura de créditos suplementares e especiais.
 
 Considera-se **superávit financeiro**, para fins de abertura de créditos adicionais:
@@ -321,6 +354,9 @@ Considera-se **superávit financeiro**, para fins de abertura de créditos adici
 * **C)** A economia de despesa decorrente de compras públicas adjudicadas por valores inferiores ao preço de referência do edital licitatório.
 * **D)** O saldo positivo apurado na Demonstração das Variações Patrimoniais (DVP) decorrente de doações de bens imóveis recebidos pelo Estado.
 * **E)** O total das disponibilidades de caixa existentes na Conta Única do Tesouro no último dia útil de cada quadrimestre fiscal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -335,7 +371,8 @@ Considera-se **superávit financeiro**, para fins de abertura de créditos adici
 ---
 
 
-### Questão 08 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 247
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na apuração da fonte **excesso de arrecadação** para a abertura de créditos suplementares e especiais (art. 43, § 3º da Lei Federal nº 4.320/1964), a Administração Pública deve obrigatoriamente:
 
 * **A)** Computar a diferença positiva entre a receita arrecadada e a estimada na LOA, considerando a tendência do exercício, deduzindo-se a importância dos créditos extraordinários já abertos no exercício.
@@ -343,6 +380,9 @@ Na apuração da fonte **excesso de arrecadação** para a abertura de créditos
 * **C)** Deduzir do excesso apurado o valor das dotações orçamentárias anuladas na LOA durante a tramitação parlamentar.
 * **D)** Utilizar os recursos exclusivamente se houver prévia autorização judicial proferida em ação direta de inconstitucionalidade.
 * **E)** Reabrir compulsoriamente os saldos de créditos suplementares não utilizados no ano anterior antes de apurar novo excesso.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -385,7 +425,8 @@ Conforme o art. 29 da LRF e o art. 98 da Lei nº 4.320/1964, a dívida fundada o
 
 ---
 
-### Questão 09 (FCC - Adaptada / Analista Jurídico de Controle)
+### Teste 248
+**(FCC - Adaptada / Analista Jurídico de Controle)**
 No que tange à disciplina jurídica da Dívida Pública e à distinção entre Dívida Flutuante e Dívida Fundada (Consolidada), assinale a opção correta:
 
 * **A)** A dívida fundada compreende os compromissos de exigibilidade a longo prazo, cujo prazo de amortização seja superior a doze meses, contraídos mediante emissão de títulos ou contratos de mútuo.
@@ -393,6 +434,9 @@ No que tange à disciplina jurídica da Dívida Pública e à distinção entre 
 * **C)** Os Restos a Pagar processados e não processados integram a dívida consolidada de longo prazo do ente governamental.
 * **D)** As operações de crédito por antecipação de receita orçamentária (ARO) compõem a dívida fundada e podem ser quitadas em até quatro anos.
 * **E)** Os depósitos judiciais e cauções sob custódia temporária do Estado são classificados como patrimônio líquido governamental, e não como dívida flutuante.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -406,7 +450,8 @@ No que tange à disciplina jurídica da Dívida Pública e à distinção entre 
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Auditor de Controle Externo)
+### Teste 249
+**(FCC - Adaptada / TCE-GO - Auditor de Controle Externo)**
 A respeito da vigência e da reabertura de créditos adicionais, a Constituição Federal de 1988 estabelece regra excepcional ao princípio da anualidade orçamentária (art. 167, § 2º).
 
 Considere que, em 20 de outubro de determinado exercício financeiro, o Governador do Estado Alfa abriu um crédito extraordinário por ato próprio, no valor de R$ 50.000.000,00, para atendimento a vítimas de grave calamidade pública. Em 31 de dezembro, verificou-se que apenas R$ 35.000.000,00 haviam sido liquidados e pagos, remanescendo saldo orçamentário não utilizado de R$ 15.000.000,00.
@@ -419,6 +464,9 @@ Considere que, em 20 de outubro de determinado exercício financeiro, o Governad
 * **D)** Poderá ser reaberto exclusivamente se a Assembleia Legislativa aprovar novo projeto de PPA que contemple a mesma obra de socorro.
 * **E)** Exigirá que o ente estatal contraia operação de crédito por ARO para financiar o montante residual reaberto.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O art. 167, § 2º da CF/88 prevê exceção expressa para créditos especiais e extraordinários abertos nos últimos quatro meses do exercício.
@@ -428,6 +476,8 @@ Considere que, em 20 de outubro de determinado exercício financeiro, o Governad
 > - **E)** Incorreta. O recurso de cobertura do saldo reaberto decorre do próprio superávit financeiro/disponibilidade do crédito extraordinário de origem.
 > 
 > **Gabarito: B**
+
+
 
 ---
 

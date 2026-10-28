@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_controle_de_acesso_iam_e_arquitetura_zero_trust.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Controle de acesso lógico: Autenticação, Autorização e Auditoria (AAA)
@@ -13,34 +16,50 @@
 - Gestão de Identidades e Acessos (IAM - Identity and Access Management)
 - Arquitetura de Confiança Zero (Zero Trust: princípios, pilares e microsegmentação)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Controle de Acesso Lógico e Mecanismos de Autenticação](#1-controle-de-acesso-logico-e-mecanismos-de-autenticacao)
-    - [1.1 O Modelo AAA (Authentication, Authorization, Accounting)](#11-o-modelo-aaa-authentication-authorization-accounting)
-    - [1.2 Os Três Fatores Clássicos de Autenticação](#12-os-tres-fatores-classicos-de-autenticacao)
-    - [1.3 Autenticação Multifator (MFA / 2FA) e Regras Mandatórias](#13-autenticacao-multifator-mfa-2fa-e-regras-mandatorias)
-    - [1.4 Ameaças e Vetores de Ataque contra Credenciais](#14-ameacas-e-vetores-de-ataque-contra-credenciais)
-- [2. Modelos Clássicos de Controle de Acesso Lógico](#2-modelos-classicos-de-controle-de-acesso-logico)
-    - [2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)](#21-visao-geral-e-comparativo-dos-modelos-dac-mac-rbac-abac)
-    - [2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso](#22-dac-discretionary-access-control-e-listas-de-controle-de-acesso)
-    - [2.3 MAC (Mandatory Access Control) e Modelos Multiníveis Formais: Bell-LaPadula vs. Biba](#23-mac-mandatory-access-control-e-modelos-multiniveis-formais-bell-lapadula-vs-biba)
-    - [2.4 RBAC (Role-Based Access Control) na Governança Corporativa](#24-rbac-role-based-access-control-na-governanca-corporativa)
-    - [2.5 ABAC (Attribute-Based Access Control) e a Norma XACML](#25-abac-attribute-based-access-control-e-a-norma-xacml)
-- [3. Gestão de Identidades e Acessos (IAM) e PAM](#3-gestao-de-identidades-e-acessos-iam-e-pam)
-    - [3.1 Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)](#31-ciclo-de-vida-da-identidade-onboarding-movimentacao-e-offboarding)
-    - [3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)](#32-menor-privilegio-polp-vs-acumulo-indevido-privilege-creep)
-    - [3.3 Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas](#33-gestao-de-acessos-privilegiados-pam-cofre-jit-e-sessoes-gravadas)
-    - [3.4 Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)](#34-federacao-de-identidades-e-single-sign-on-sso-saml-20-openid-connect)
-- [4. Arquitetura Zero Trust (Confiança Zero - NIST SP 800-207)](#4-arquitetura-zero-trust-confianca-zero-nist-sp-800-207)
-    - [4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")](#41-o-colapso-da-seguranca-de-borda-tradicional-castelo-e-fosso)
-    - [4.2 Os Três Princípios Norteadores Oficiais do Zero Trust](#42-os-tres-principios-norteadores-oficiais-do-zero-trust)
-    - [4.3 Pilares Fundamentais da Confiança Zero](#43-pilares-fundamentais-da-confianca-zero)
-    - [4.4 Microsegmentação e Contenção do Movimento Lateral](#44-microsegmentacao-e-contencao-do-movimento-lateral)
-    - [4.5 Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)](#45-componentes-logicos-policy-engine-pe-policy-administrator-pa-e-policy-enforcement-point-pep)
-- [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
+
+1. [Controle de Acesso Lógico e Mecanismos de Autenticação](#1-controle-de-acesso-logico-e-mecanismos-de-autenticacao)
+    1. [O Modelo AAA (Authentication, Authorization, Accounting)](#11-o-modelo-aaa-authentication-authorization-accounting)
+    2. [Teste 377](#Teste-377)
+    3. [Os Três Fatores Clássicos de Autenticação](#12-os-tres-fatores-classicos-de-autenticacao)
+    4. [Autenticação Multifator (MFA / 2FA) e Regras Mandatórias](#13-autenticacao-multifator-mfa-2fa-e-regras-mandatorias)
+    5. [Teste 378](#Teste-378)
+    6. [Ameaças e Vetores de Ataque contra Credenciais](#14-ameacas-e-vetores-de-ataque-contra-credenciais)
+    7. [Teste 379](#Teste-379)
+2. [Modelos Clássicos de Controle de Acesso Lógico](#2-modelos-classicos-de-controle-de-acesso-logico)
+    1. [Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)](#21-visao-geral-e-comparativo-dos-modelos-dac-mac-rbac-abac)
+    2. [DAC (Discretionary Access Control) e Listas de Controle de Acesso](#22-dac-discretionary-access-control-e-listas-de-controle-de-acesso)
+    3. [MAC (Mandatory Access Control) e Modelos Multiníveis Formais: Bell-LaPadula vs. Biba](#23-mac-mandatory-access-control-e-modelos-multiniveis-formais-bell-lapadula-vs-biba)
+    4. [Teste 380](#Teste-380)
+    5. [RBAC (Role-Based Access Control) na Governança Corporativa](#24-rbac-role-based-access-control-na-governanca-corporativa)
+    6. [Teste 381](#Teste-381)
+    7. [ABAC (Attribute-Based Access Control) e a Norma XACML](#25-abac-attribute-based-access-control-e-a-norma-xacml)
+    8. [Teste 382](#Teste-382)
+3. [Gestão de Identidades e Acessos (IAM) e PAM](#3-gestao-de-identidades-e-acessos-iam-e-pam)
+    1. [Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)](#31-ciclo-de-vida-da-identidade-onboarding-movimentacao-e-offboarding)
+    2. [Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)](#32-menor-privilegio-polp-vs-acumulo-indevido-privilege-creep)
+    3. [Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas](#33-gestao-de-acessos-privilegiados-pam-cofre-jit-e-sessoes-gravadas)
+    4. [Teste 383](#Teste-383)
+    5. [Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)](#34-federacao-de-identidades-e-single-sign-on-sso-saml-20-openid-connect)
+    6. [Teste 384](#Teste-384)
+4. [Arquitetura Zero Trust (Confiança Zero - NIST SP 800-207)](#4-arquitetura-zero-trust-confianca-zero-nist-sp-800-207)
+    1. [O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")](#41-o-colapso-da-seguranca-de-borda-tradicional-castelo-e-fosso)
+    2. [Os Três Princípios Norteadores Oficiais do Zero Trust](#42-os-tres-principios-norteadores-oficiais-do-zero-trust)
+    3. [Teste 385](#Teste-385)
+    4. [Pilares Fundamentais da Confiança Zero](#43-pilares-fundamentais-da-confianca-zero)
+    5. [Microsegmentação e Contenção do Movimento Lateral](#44-microsegmentacao-e-contencao-do-movimento-lateral)
+    6. [Teste 386](#Teste-386)
+    7. [Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)](#45-componentes-logicos-policy-engine-pe-policy-administrator-pa-e-policy-enforcement-point-pep)
+    8. [Teste 387](#Teste-387)
+5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Controle de Acesso Lógico e Mecanismos de Autenticação
 
@@ -64,7 +83,8 @@ flowchart LR
 
 ---
 
-### Questão 01 (FGV - TRT / Analista Judiciário - TI - O Modelo AAA em Segurança da Informação)
+### Teste 377
+**(FGV - TRT / Analista Judiciário - TI - O Modelo AAA em Segurança da Informação)**
 O Modelo AAA (*Authentication, Authorization, Accounting*) é o framework arquitetural clássico utilizado para disciplinar a governança e o controle de acesso de usuários e sistemas em redes corporativas.
 
 A respeito da distinção e das atribuições de cada um dos três pilares do modelo AAA, assinale a afirmativa correta:
@@ -74,6 +94,9 @@ A respeito da distinção e das atribuições de cada um dos três pilares do mo
 * **C)** O pilar de *Accounting* é dispensável em órgãos públicos porque auditorias violam o direito de privacidade funcional dos servidores.
 * **D)** A Autorização garante que a identidade nunca será contestada perante um tribunal judicial.
 * **E)** Todos os três pilares são executados exclusivamente através de cartões magnéticos sem uso de software ou logs de sistema.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -160,7 +183,8 @@ A **Autenticação Multifator (MFA - *Multi-Factor Authentication*)**, que englo
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - Fatores de Autenticação e MFA)
+### Teste 378
+**(FCC - Adaptada / TI - Fatores de Autenticação e MFA)**
 Em um projeto de reforço da segurança cibernética dos sistemas internos do Tribunal de Contas, a política de senhas estabeleceu a exigência de Autenticação Multifator (MFA) para todos os servidores com acesso a bases fiscais e contábeis.
 
 A respeito dos fatores clássicos de autenticação e dos princípios de MFA, assinale a afirmativa correta:
@@ -170,6 +194,9 @@ A respeito dos fatores clássicos de autenticação e dos princípios de MFA, as
 * **C)** O fator de posse é caracterizado pela memorização de palavras secretas e respostas a perguntas de segurança sobre fatos da vida do usuário.
 * **D)** A biometria comportamental (como o ritmo de digitação ou dinâmica de assinatura) é classificada formalmente como um fator de conhecimento puro.
 * **E)** O uso de MFA elimina a necessidade de controle de autorização e revoga automaticamente o princípio do menor privilégio.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -196,7 +223,8 @@ Os mecanismos de autenticação enfrentam vetores de ataque específicos no cen�
 
 ---
 
-### Questão 03 (FCC - TRT / Analista Judiciário - TI - Vetores de Ataque contra Credenciais: Spraying vs. Stuffing)
+### Teste 379
+**(FCC - TRT / Analista Judiciário - TI - Vetores de Ataque contra Credenciais: Spraying vs. Stuffing)**
 Ataques cibernéticos direcionados a identidades e mecanismos de autenticação representam o principal vetor de invasão a redes corporativas de tribunais e órgãos governamentais.
 
 Dois ataques comuns e sofisticados que burlam políticas tradicionais de bloqueio de conta por tentativas consecutivas são o **Password Spraying** e o **Credential Stuffing**. A distinção técnica precisa entre essas duas modalidades de ataque consiste em:
@@ -206,6 +234,9 @@ Dois ataques comuns e sofisticados que burlam políticas tradicionais de bloquei
 * **C)** Ambos os ataques utilizam exclusivamente redes sem fio Bluetooth a curta distância para interceptar senhas em tempo real.
 * **D)** O *Password Spraying* é um ataque físico que arromba as fechaduras do datacenter.
 * **E)** A autenticação multifator (MFA) é ineficaz contra esses ataques, pois os robôs conseguem clonar biometria física à distância.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -220,7 +251,10 @@ Dois ataques comuns e sofisticados que burlam políticas tradicionais de bloquei
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 2. Modelos Clássicos de Controle de Acesso Lógico
 
@@ -296,7 +330,8 @@ Desenvolvido em contraposição ao Bell-LaPadula, com foco estrito na preservaç
 
 ---
 
-### Questão 04 (FCC - Adaptada / TI - Modelos Formais de Controle de Acesso / MAC)
+### Teste 380
+**(FCC - Adaptada / TI - Modelos Formais de Controle de Acesso / MAC)**
 Os modelos teóricos de controle de acesso obrigatório (MAC) Bell-LaPadula e Biba foram desenvolvidos para garantir formalmente propriedades específicas de segurança em sistemas computacionais multiníveis.
 
 Sobre o funcionamento desses dois modelos, assinale a afirmativa correta:
@@ -306,6 +341,9 @@ Sobre o funcionamento desses dois modelos, assinale a afirmativa correta:
 * **C)** O modelo Biba foi projetado para assegurar confidencialidade, autorizando que usuários leiam documentos ultrassecretos mesmo possuindo credencial pública.
 * **D)** No modelo Biba, a propriedade de integridade simples autoriza que sujeitos leiam dados de níveis de integridade inferiores sem restrições (*Read Down livre*).
 * **E)** Ambos os modelos Bell-LaPadula e Biba operam sob a filosofia de controle discricionário (DAC), na qual o criador do arquivo detém total autonomia para conceder privilégios a terceiros.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -338,7 +376,8 @@ No modelo **RBAC**, o controle de acesso é desacoplado dos usuários individuai
 
 ---
 
-### Questão 05 (FGV - TRT / Analista Judiciário - TI - Controle de Acesso RBAC e Variações NIST)
+### Teste 381
+**(FGV - TRT / Analista Judiciário - TI - Controle de Acesso RBAC e Variações NIST)**
 O modelo de Controle de Acesso Baseado em Papéis (*Role-Based Access Control - RBAC*), formalizado pelo NIST (norma ANSI/INCITS 359-2004), é o padrão mais amplamente implementado em sistemas corporativos governamentais.
 
 A respeito das variações normativas da família RBAC do NIST, assinale a afirmativa correta:
@@ -348,6 +387,9 @@ A respeito das variações normativas da família RBAC do NIST, assinale a afirm
 * **C)** O RBAC2 proíbe que um auditor possua mais de uma função em toda a sua vida profissional.
 * **D)** O RBAC3 é a simplificação mínima que revoga todos os privilégios de todos os usuários corporativos.
 * **E)** O modelo RBAC atribui permissões diretamente aos nomes de pessoas físicas, proibindo a criação de papéis ou perfis intermediários.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -379,7 +421,8 @@ Padrão internacional aberto formulado pela OASIS que define a linguagem XML/JSO
 
 ---
 
-### Questão 06 (FCC - TRT / Analista Judiciário - TI - Controle de Acesso ABAC e a Arquitetura XACML)
+### Teste 382
+**(FCC - TRT / Analista Judiciário - TI - Controle de Acesso ABAC e a Arquitetura XACML)**
 Em ambientes corporativos complexos com requisitos dinâmicos de auditoria, o Controle de Acesso Baseado em Atributos (*Attribute-Based Access Control - ABAC*) supera as limitações do RBAC ao avaliar atributos do sujeito, do recurso, da ação e do contexto ambiental (como horário, localização IP e nível de ameaça).
 
 Na implementação padrão do ABAC segundo a norma **XACML** (*eXtensible Access Control Markup Language* da OASIS), o componente de software que atua como o ponto de decisão, avaliando as políticas de acesso e emitindo a decisão autorizativa (*Permit* ou *Deny*), é denominado:
@@ -389,6 +432,9 @@ Na implementação padrão do ABAC segundo a norma **XACML** (*eXtensible Access
 * **C)** Policy Administration Point (PAP).
 * **D)** Policy Information Point (PIP).
 * **E)** Security Assertion Markup Language (SAML).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -404,7 +450,10 @@ Na implementação padrão do ABAC segundo a norma **XACML** (*eXtensible Access
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 3. Gestão de Identidades e Acessos (IAM) e PAM
 
@@ -436,7 +485,8 @@ Contas que detêm privilégios administrativos elevados (tais como `root` no Lin
 
 ---
 
-### Questão 07 (FCC - Adaptada / TI - IAM, PAM e Governança de Privilégios)
+### Teste 383
+**(FCC - Adaptada / TI - IAM, PAM e Governança de Privilégios)**
 Em uma auditoria de governança de TI em um órgão fazendário estadual, verificou-se que servidores transferidos de setor mantinham ativas as permissões de acesso aos sistemas do departamento anterior, e que administradores de banco de dados utilizavam senhas compartilhadas estáticas de superusuário (`sa`) diretamente em suas estações de trabalho.
 
 Considerando os princípios de Governança de Identidades (IAM) e de Gestão de Acessos Privilegiados (PAM), assinale a prática recomendada para sanear essas não conformidades:
@@ -446,6 +496,9 @@ Considerando os princípios de Governança de Identidades (IAM) e de Gestão de 
 * **C)** Desativar os logs de auditoria do sistema IAM para otimizar o espaço em disco do servidor de diretórios LDAP.
 * **D)** Substituir o desprovisionamento automático de contas inativas pela concessão vitalícia de privilégios administrativos a todos os prestadores de serviço terceirizados.
 * **E)** Padronizar o uso de contas genéricas e senhas únicas para todos os membros da equipe de sustentação de infraestrutura.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -471,7 +524,8 @@ Para mitigar a fadiga de senhas e a dispersão de credenciais entre múltiplos p
 
 ---
 
-### Questão 08 (FGV - TRT / Analista Judiciário - TI - Federação de Identidades e SSO: SAML vs. OpenID Connect)
+### Teste 384
+**(FGV - TRT / Analista Judiciário - TI - Federação de Identidades e SSO: SAML vs. OpenID Connect)**
 A federação de identidades permite que os servidores de um tribunal acessem múltiplos sistemas governamentais integrados utilizando uma única conta corporativa com o mecanismo de *Single Sign-On* (SSO).
 
 A respeito dos protocolos padronizados de autenticação e autorização federada, assinale a afirmativa correta:
@@ -481,6 +535,9 @@ A respeito dos protocolos padronizados de autenticação e autorização federad
 * **C)** No protocolo SAML 2.0, o Provedor de Identidade (IdP) e o Provedor de Serviço (SP) operam sem qualquer chave pública ou certificado X.509.
 * **D)** O OpenID Connect exige compulsoriamente o envio da senha em texto claro do usuário para todas as aplicações de terceiros conectadas.
 * **E)** O mecanismo de Single Sign-On obriga o usuário a digitar sua senha novamente a cada novo clique em uma página do portal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -494,7 +551,10 @@ A respeito dos protocolos padronizados de autenticação e autorização federad
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Arquitetura Zero Trust (Confiança Zero - NIST SP 800-207)
 
@@ -541,7 +601,8 @@ Normatizada pelo Instituto Nacional de Padrões e Tecnologia dos EUA através do
 
 ---
 
-### Questão 09 (FCC - Adaptada / TI - Arquitetura Zero Trust / Princípios Norteadores)
+### Teste 385
+**(FCC - Adaptada / TI - Arquitetura Zero Trust / Princípios Norteadores)**
 A equipe de infraestrutura e segurança da informação de um tribunal deliberou sobre a substituição do seu antigo modelo de segurança perimetral baseado em VPN ("castelo e fosso") por uma Arquitetura Zero Trust alinhada à norma NIST SP 800-207.
 
 A respeito dos princípios fundamentais que regem o paradigma Zero Trust, assinale a afirmativa correta:
@@ -551,6 +612,9 @@ A respeito dos princípios fundamentais que regem o paradigma Zero Trust, assina
 * **C)** O princípio *"Assume Breach"* orienta os gestores a abandonar os mecanismos de microsegmentação de rede, dado que a invasão já é tratada como inevitável.
 * **D)** A arquitetura Zero Trust baseia suas concessões de acesso exclusivamente no endereço IP de origem do usuário, dispensando a avaliação do estado do dispositivo e da identidade.
 * **E)** No Zero Trust, após a primeira autenticação realizada com sucesso no início da jornada de trabalho, o usuário obtém acesso irrestrito a todas as aplicações corporativas pelo período contínuo de 30 dias.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -586,7 +650,8 @@ Diferente dos firewalls tradicionais que filtram apenas tráfego norte-sul (entr
 
 ---
 
-### Questão 10 (FGV - TRT / Analista Judiciário - TI - Arquitetura Zero Trust: Microsegmentação de Rede)
+### Teste 386
+**(FGV - TRT / Analista Judiciário - TI - Arquitetura Zero Trust: Microsegmentação de Rede)**
 A publicação especial NIST SP 800-207 consolida a Arquitetura Zero Trust (ZTA), superando o modelo obsoleto de segurança de perímetro baseado em "castelo e fosso", adotando o lema: *"Nunca Confie, Sempre Verifique"*.
 
 Dentre os pilares técnicos fundamentais do Zero Trust, a técnica de **Microsegmentação** de rede tem por finalidade primordial:
@@ -596,6 +661,9 @@ Dentre os pilares técnicos fundamentais do Zero Trust, a técnica de **Microseg
 * **C)** Garantir que todos os pacotes de rede sejam transmitidos sem criptografia para facilitar o monitoramento passivo.
 * **D)** Aumentar a área de broadcast da rede para acelerar transmissões de vídeo em alta resolução.
 * **E)** Eliminar completamente o uso de firewalls e sistemas de controle de acesso nos servidores centrais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -640,7 +708,8 @@ flowchart LR
 
 ---
 
-### Questão 11 (FCC - Adaptada / TI - Componentes Lógicos do Zero Trust / NIST SP 800-207)
+### Teste 387
+**(FCC - Adaptada / TI - Componentes Lógicos do Zero Trust / NIST SP 800-207)**
 A publicação técnica especial NIST SP 800-207 divide a Arquitetura Zero Trust em componentes lógicos fundamentais distribuídos entre o Plano de Controle (*Control Plane*) e o Plano de Dados (*Data Plane*).
 
 Assinale a opção que descreve corretamente o papel e a função desses componentes lógicos:
@@ -650,6 +719,9 @@ Assinale a opção que descreve corretamente o papel e a função desses compone
 * **C)** O Policy Engine (PE) é um dispositivo de rede passivo que apenas encaminha os pacotes TCP sem aplicar nenhuma regra de segurança.
 * **D)** O Policy Administrator (PA) atua no plano de dados interceptando fisicamente o tráfego de dados sensíveis entre o usuário e o banco de dados.
 * **E)** A arquitetura Zero Trust do NIST veda expressamente o uso de PEPs intermediários entre o dispositivo do usuário e as aplicações de negócio.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -661,8 +733,9 @@ Assinale a opção que descreve corretamente o papel e a função desses compone
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 6. Fontes Recomendadas na Internet

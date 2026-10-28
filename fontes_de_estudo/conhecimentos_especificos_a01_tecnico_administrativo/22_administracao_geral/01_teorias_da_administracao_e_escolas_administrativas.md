@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `01_teorias_da_administracao_e_escolas_administrativas.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Evolução histórica do pensamento administrativo e das escolas da Teoria Geral da Administração (TGA):
@@ -18,20 +21,36 @@
     - **Teoria Contingencial:** abordagem situacional, ausência de princípios universais ("tudo é relativo"), estruturas mecanicistas versus orgânicas (Burns & Stalker) e influência da tecnologia (Woodward) e do ambiente (Lawrence & Lorsch);
 - Metáforas organizacionais (Gareth Morgan): imagens da organização (máquinas, organismos, cérebros, culturas, sistemas políticos e prisões psíquicas).
 
----
 
-## 🧭 Sumário Interativo
-- [1. Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)](#1-sintese-comparativa-das-escolas-da-teoria-geral-da-administracao-tga)
-- [2. A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)](#2-a-divergencia-classica-taylor-cientifica-vs-fayol-classica)
-- [3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne](#3-teoria-das-relacoes-humanas-elton-mayo-e-a-experiencia-de-hawthorne)
-- [4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)](#4-teoria-da-burocracia-max-weber-e-as-disfuncoes-burocraticas-robert-merton)
-- [5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon](#5-abordagem-comportamental-mcgregor-barnard-e-herbert-simon)
-- [6. Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto](#6-teoria-geral-dos-sistemas-tgs-a-organizacao-como-sistema-aberto)
-- [7. Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos](#7-teoria-contingencial-sistemas-mecanicistas-vs-organicos)
-- [8. Metáforas Organizacionais de Gareth Morgan](#8-metaforas-organizacionais-de-gareth-morgan)
-- [9. Fontes Oficiais e Referências Bibliográficas](#9-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)](#1-sintese-comparativa-das-escolas-da-teoria-geral-da-administracao-tga)
+    2. [Teste 340](#Teste-340)
+    3. [Teste 341](#Teste-341)
+    4. [A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)](#2-a-divergencia-classica-taylor-cientifica-vs-fayol-classica)
+    5. [Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne](#3-teoria-das-relacoes-humanas-elton-mayo-e-a-experiencia-de-hawthorne)
+    6. [Teste 342](#Teste-342)
+    7. [Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)](#4-teoria-da-burocracia-max-weber-e-as-disfuncoes-burocraticas-robert-merton)
+    8. [Teste 343](#Teste-343)
+    9. [Abordagem Comportamental: McGregor, Barnard e Herbert Simon](#5-abordagem-comportamental-mcgregor-barnard-e-herbert-simon)
+    10. [Teste 344](#Teste-344)
+    11. [Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto](#6-teoria-geral-dos-sistemas-tgs-a-organizacao-como-sistema-aberto)
+    12. [Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos](#7-teoria-contingencial-sistemas-mecanicistas-vs-organicos)
+    13. [Teste 345](#Teste-345)
+    14. [Teste 346](#Teste-346)
+    15. [Metáforas Organizacionais de Gareth Morgan](#8-metaforas-organizacionais-de-gareth-morgan)
+    16. [Teste 347](#Teste-347)
+    17. [Teste 348](#Teste-348)
+    18. [Teste 349](#Teste-349)
+    19. [Fontes Oficiais e Referências Bibliográficas](#9-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -72,7 +91,7 @@ flowchart LR
 
 ---
 
-### Questão 01
+### Teste 340
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A respeito da evolução do pensamento administrativo e das premissas sustentadas pelas diferentes escolas da Teoria Geral da Administração, assinale a opção correta:
 
@@ -81,6 +100,9 @@ A respeito da evolução do pensamento administrativo e das premissas sustentada
 * **C)** A Teoria Geral dos Sistemas postula que as organizações operam como sistemas abertos dotados de entropia negativa, o que lhes permite importar recursos e informações do ambiente externo para conter a tendência natural de degradação e manter sua integridade interna.
 * **D)** A Teoria Clássica preconizada por Henri Fayol refutou a unidade de comando, defendendo a supervisão funcional de múltiplos chefes proposta outrora pela administração científica.
 * **E)** O modelo weberiano de burocracia baseia-se na autoridade carismática como esteio fundamental para a profissionalização e estabilidade do quadro funcional das organizações.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -94,7 +116,7 @@ A respeito da evolução do pensamento administrativo e das premissas sustentada
 
 ---
 
-### Questão 02
+### Teste 341
 **(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
 Considere que um gestor público de departamento estadual dividiu as rotinas de trabalho em tarefas elementares repetitivas, cronometrou os tempos de digitação de cada processo e estipulou uma premiação pecuniária individual para os servidores que superassem a meta diária de processos autuados, partindo da premissa de que os indivíduos trabalham motivados exclusivamente pelo ganho monetário. Essa postura gerencial reflete diretamente os postulados da:
 
@@ -103,6 +125,9 @@ Considere que um gestor público de departamento estadual dividiu as rotinas de 
 * **C)** Teoria Estruturalista e a mediação de conflitos institucionais inevitáveis.
 * **D)** Teoria Geral dos Sistemas e a busca pela homeostase dinâmica.
 * **E)** Teoria Comportamental fundamentada na Teoria Y de Douglas McGregor.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -168,7 +193,8 @@ Desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humana
 
 ---
 
-### Questão 03 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 342
+**(FCC - Adaptada / Analista de Gestão Pública)**
 A Teoria das Relações Humanas, impulsionada pelos estudos de Elton Mayo na fábrica de Hawthorne (Western Electric Company, 1927-1932), revolucionou a teoria administrativa ao demonstrar que:
 
 * **A)** O nível de produção e a produtividade no trabalho são determinados primordialmente pela integração social e pelas normas informais do grupo, e não apenas pela capacidade física ou fisiológica do trabalhador.
@@ -176,6 +202,9 @@ A Teoria das Relações Humanas, impulsionada pelos estudos de Elton Mayo na fá
 * **C)** A divisão extrema do trabalho em tarefas microscópicas e cronometradas elimina qualquer necessidade de supervisão humana.
 * **D)** A fadiga muscular é a única causa de acidentes e quebras de produtividade no ambiente industrial.
 * **E)** As organizações formais funcionam como engrenagens mecânicas imunes a sentimentos, grupos informais e estados psicológicos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -221,7 +250,7 @@ O sociólogo Robert Merton demonstrou que a tentativa de buscar o máximo de pre
 
 ---
 
-### Questão 04
+### Teste 343
 **(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
 No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de burocracia é fundamentado no tipo de dominação racional-legal. No entanto, autores pós-weberianos como Robert Merton identificaram que a aplicação prática desse modelo suscita desvios conhecidos como disfunções da burocracia. Constitui uma clássica disfunção burocrática descrita por Merton:
 
@@ -230,6 +259,9 @@ No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de 
 * **C)** O deslocamento de objetivos, em que a observância estrita das regras e normas procedimentais passa a ser um fim em si mesmo, prejudicando o atendimento dos objetivos reais da organização.
 * **D)** A contratação indiscriminada de pessoal comissionado com base em laços de parentesco e afinidade pessoal.
 * **E)** A proliferação descontrolada de grupos informais que ditam os padrões de produtividade à revelia da administração.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -261,7 +293,8 @@ A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotand
 
 ---
 
-### Questão 05 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 344
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Na Teoria Comportamental da Administração, Douglas McGregor concebeu duas visões antagônicas a respeito da natureza humana e da atitude dos indivíduos em relação ao trabalho: a **Teoria X** e a **Teoria Y**.
 
 Segundo McGregor, a **Teoria Y** fundamenta-se na premissa de que:
@@ -271,6 +304,9 @@ Segundo McGregor, a **Teoria Y** fundamenta-se na premissa de que:
 * **C)** As pessoas são desprovidas de ambição, preferem ser dirigidas e buscam prioritariamente a segurança acima de qualquer outro fator.
 * **D)** A criatividade na solução de problemas organizacionais é privilégio raro e exclusivo dos ocupantes da alta direção.
 * **E)** As recompensas financeiras estritas são a única força capaz de mobilizar a dedicação dos empregados.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -339,7 +375,7 @@ flowchart TD
 
 ---
 
-### Questão 06
+### Teste 345
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingencial, demonstraram que o desenho das organizações deve ajustar-se às demandas do ambiente externo, dividindo os sistemas gerenciais em mecanicistas e orgânicos. Em relação a essas duas tipologias, é correto afirmar:
 
@@ -348,6 +384,9 @@ Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingen
 * **C)** Os sistemas mecanicistas caracterizam-se por hierarquia rígida, especialização acentuada das tarefas, centralização das decisões e adequação a ambientes externos estáveis.
 * **D)** A teoria contingencial preconiza que as estruturas orgânicas devem ser adotadas universalmente por todas as entidades públicas, independentemente do contexto tecnológico ou ambiental.
 * **E)** As organizações que adotam sistemas orgânicos eliminam integralmente a divisão do trabalho e suprimem as metas institucionais de longo prazo.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -363,7 +402,8 @@ Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingen
 
 
 
-### Questão 07 (FCC - Adaptada / Analista de Planejamento e Gestão)
+### Teste 346
+**(FCC - Adaptada / Analista de Planejamento e Gestão)**
 A Teoria Contingencial da Administração (desenvolvida a partir de pesquisas de Lawrence & Lorsch, Burns & Stalker e Joan Woodward) estabelece que não existe uma "única melhor maneira" (*the one best way*) de administrar e organizar, pois a estrutura e as práticas organizacionais dependem das variáveis ambientais e tecnológicas.
 
 Segundo a tipologia de Tom Burns e G. M. Stalker, uma **estrutura orgânica** é mais adequada quando a organização opera em um ambiente:
@@ -373,6 +413,9 @@ Segundo a tipologia de Tom Burns e G. M. Stalker, uma **estrutura orgânica** é
 * **C)** Fechado a qualquer influência externa e focado em controle legalista estrito de ponto eletrônico.
 * **D)** Monopolista estatal sem qualquer interação com os cidadãos e a sociedade civil.
 * **E)** Altamente regulado por normas que proíbam a adaptação a novas tecnologias digitais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -403,7 +446,7 @@ flowchart TD
 
 ---
 
-### Questão 08
+### Teste 347
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa as diversas imagens conceituais utilizadas para compreender o funcionamento das instituições. Ao retratar a organização sob a metáfora de uma máquina, o autor alinha-se prioritariamente às ideias sustentadas por:
 
@@ -412,6 +455,9 @@ Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa a
 * **C)** Ludwig von Bertalanffy e a Teoria Geral dos Sistemas.
 * **D)** Peter Senge e a teoria das organizações que aprendem.
 * **E)** Joan Woodward e os teóricos da abordagem situacional contemporânea.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -427,7 +473,8 @@ Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa a
 
 
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 348
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na obra clássica *Imagens da Organização*, Gareth Morgan analisa as organizações por meio de diferentes metáforas para explicar como gestores percebem e projetam as instituições.
 
 A metáfora que visualiza a organização como um sistema adaptativo que necessita processar informações constantemente, aprender com os erros e reestruturar sua própria base de conhecimento e diretrizes (conceito de circuito duplo de aprendizagem) é a:
@@ -437,6 +484,9 @@ A metáfora que visualiza a organização como um sistema adaptativo que necessi
 * **C)** Organização como Prisão Psíquica.
 * **D)** Organização como Instrumento de Dominação.
 * **E)** Organização como Sistema Político de Coalizões.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -450,7 +500,8 @@ A metáfora que visualiza a organização como um sistema adaptativo que necessi
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 349
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 Em relação aos 14 princípios gerais da administração enunciados por Henri Fayol na Teoria Clássica, assinale a opção que define o princípio da **Unidade de Comando**:
 
 * **A)** Cada colaborador ou servidor deve receber ordens e prestar contas exclusivamente a um único superior hierárquico direto.
@@ -458,6 +509,9 @@ Em relação aos 14 princípios gerais da administração enunciados por Henri F
 * **C)** O controle orçamentário deve ser unificado na presidência do Tribunal de Justiça.
 * **D)** As decisões estratégicas devem ser tomadas sempre em comissões colegiadas deliberativas.
 * **E)** Os servidores comissionados possuem autoridade irrestrita sobre os servidores estáveis.
+
+
+---
 
 > **Comentário Detalhado:**
 >

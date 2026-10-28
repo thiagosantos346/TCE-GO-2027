@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_modelagem_de_dados_mer_e_normalizacao.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Modelagem conceitual, lógica e física de dados
@@ -13,31 +16,47 @@
 - Dependências funcionais e Formas Normais (1ª FN, 2ª FN, 3ª FN e BCNF)
 - Processo de Desnormalização de dados
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. As Três Fases do Projeto de Banco de Dados](#1-as-tres-fases-do-projeto-de-banco-de-dados)
-    - [1.1 Modelo Conceitual: Semântica e Independência de Tecnologia](#11-modelo-conceitual-semantica-e-independencia-de-tecnologia)
-    - [1.2 Modelo Lógico: Dependência do Paradigma Relacional](#12-modelo-logico-dependencia-do-paradigma-relacional)
-    - [1.3 Modelo Físico: Implementação e Otimização no SGBD](#13-modelo-fisico-implementacao-e-otimizacao-no-sgbd)
-    - [1.4 Tabela Comparativa dos Níveis de Abstração](#14-tabela-comparativa-dos-niveis-de-abstracao)
-- [2. Modelo Entidade-Relacionamento (MER / DER de Peter Chen)](#2-modelo-entidade-relacionamento-mer-der-de-peter-chen)
-    - [2.1 Entidades Fortes (Regulares) vs. Entidades Fracas](#21-entidades-fortes-regulares-vs-entidades-fracas)
-    - [2.2 Tipologia e Representação Gráfica dos Atributos](#22-tipologia-e-representacao-grafica-dos-atributos)
-    - [2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)](#23-relacionamentos-cardinalidade-e-participacao-total-vs-parcial)
-- [3. Álgebra Relacional: Operações Formais e Consultas](#3-algebra-relacional-operacoes-formais-e-consultas)
-    - [3.1 As Seis Operações Fundamentais (Seleção, Projeção, Produto Cartesiano, União, Diferença e Renomeação)](#31-as-seis-operacoes-fundamentais)
-    - [3.2 Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional](#32-operacoes-derivadas-juncao-natural-theta-join-equijuncao-intersecao-e-divisao-relacional)
-- [4. Teoria da Normalização e Formas Normais (Codd)](#4-teoria-da-normalizacao-e-formas-normais-codd)
-    - [4.1 Dependências Funcionais: Total, Parcial e Transitiva](#41-dependencias-funcionais-total-parcial-e-transitiva)
-    - [4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN](#42-a-escada-da-normalizacao-1a-fn-2a-fn-e-3a-fn)
-    - [4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN](#43-forma-normal-de-boyce-codd-fnbc-bcnf-vs-3a-fn)
-- [5. Processo de Desnormalização de Dados](#5-processo-de-desnormalizacao-de-dados)
-    - [5.1 Motivações e Trade-offs: OLTP vs. OLAP / Data Warehouses](#51-motivacoes-e-trade-offs-oltp-vs-olap-data-warehouses)
-    - [5.2 Técnicas Comuns e Riscos de Integridade](#52-tecnicas-comuns-e-riscos-de-integridade)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [As Três Fases do Projeto de Banco de Dados](#1-as-tres-fases-do-projeto-de-banco-de-dados)
+    1. [Modelo Conceitual: Semântica e Independência de Tecnologia](#11-modelo-conceitual-semantica-e-independencia-de-tecnologia)
+    2. [Modelo Lógico: Dependência do Paradigma Relacional](#12-modelo-logico-dependencia-do-paradigma-relacional)
+    3. [Modelo Físico: Implementação e Otimização no SGBD](#13-modelo-fisico-implementacao-e-otimizacao-no-sgbd)
+    4. [Tabela Comparativa dos Níveis de Abstração](#14-tabela-comparativa-dos-niveis-de-abstracao)
+    5. [Teste 234](#Teste-234)
+2. [Modelo Entidade-Relacionamento (MER / DER de Peter Chen)](#2-modelo-entidade-relacionamento-mer-der-de-peter-chen)
+    1. [Entidades Fortes (Regulares) vs. Entidades Fracas](#21-entidades-fortes-regulares-vs-entidades-fracas)
+    2. [Teste 235](#Teste-235)
+    3. [Tipologia e Representação Gráfica dos Atributos](#22-tipologia-e-representacao-grafica-dos-atributos)
+    4. [Teste 236](#Teste-236)
+    5. [Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)](#23-relacionamentos-cardinalidade-e-participacao-total-vs-parcial)
+    6. [Teste 237](#Teste-237)
+3. [Álgebra Relacional: Operações Formais e Consultas](#3-algebra-relacional-operacoes-formais-e-consultas)
+    1. [As Seis Operações Fundamentais](#as-seis-operacoes-fundamentais)
+    2. [Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional](#32-operacoes-derivadas-juncao-natural-theta-join-equijuncao-intersecao-e-divisao-relacional)
+    3. [Teste 238](#Teste-238)
+    4. [Teste 239](#Teste-239)
+4. [Teoria da Normalização e Formas Normais (Codd)](#4-teoria-da-normalizacao-e-formas-normais-codd)
+    1. [Dependências Funcionais: Total, Parcial e Transitiva](#41-dependencias-funcionais-total-parcial-e-transitiva)
+    2. [Teste 240](#Teste-240)
+    3. [A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN](#42-a-escada-da-normalizacao-1a-fn-2a-fn-e-3a-fn)
+    4. [Teste 241](#Teste-241)
+    5. [Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN](#43-forma-normal-de-boyce-codd-fnbc-bcnf-vs-3a-fn)
+    6. [Teste 242](#Teste-242)
+    7. [Teste 243](#Teste-243)
+5. [Processo de Desnormalização de Dados](#5-processo-de-desnormalizacao-de-dados)
+    1. [Motivações e Trade-offs: OLTP vs. OLAP / Data Warehouses](#51-motivacoes-e-trade-offs-oltp-vs-olap-data-warehouses)
+    2. [Técnicas Comuns e Riscos de Integridade](#52-tecnicas-comuns-e-riscos-de-integridade)
+    3. [Teste 244](#Teste-244)
+6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. As Três Fases do Projeto de Banco de Dados
 
@@ -85,7 +104,8 @@ flowchart LR
 
 ---
 
-### Questão 01 (FGV - TRT / Analista Judiciário - TI - Fases do Projeto e Níveis de Abstração)
+### Teste 234
+**(FGV - TRT / Analista Judiciário - TI - Fases do Projeto e Níveis de Abstração)**
 No ciclo de vida do projeto de bancos de dados relacionais, a modelagem é classicamente particionada em três níveis conceituais progressivos: Modelo Conceitual, Modelo Lógico e Modelo Físico. 
 
 A respeito desses modelos e de suas respectivas características arquiteturais, assinale a afirmativa correta:
@@ -95,6 +115,9 @@ A respeito desses modelos e de suas respectivas características arquiteturais, 
 * **C)** O modelo lógico é uma representação de alto nível voltada à comunicação com o usuário final de negócio, na qual não constam tabelas, chaves primárias ou chaves estrangeiras.
 * **D)** O modelo conceitual captura os requisitos de negócio e a semântica dos dados independentemente de tecnologia ou SGBD; o modelo lógico mapeia essas entidades para o paradigma relacional (tabelas, chaves); e o modelo físico define o armazenamento, estruturas de partição, índices e parâmetros de desempenho específicos do SGBD.
 * **E)** A desnormalização é uma decisão estritamente tomada durante o modelo conceitual com o intuito de facilitar a validação dos diagramas pelos gestores de negócio.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -106,7 +129,10 @@ A respeito desses modelos e de suas respectivas características arquiteturais, 
 > 
 > **Gabarito: D**
 
+
+
 ---
+
 
 ## 2. Modelo Entidade-Relacionamento (MER / DER de Peter Chen)
 
@@ -137,7 +163,8 @@ flowchart LR
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - Modelo Entidade-Relacionamento de Peter Chen)
+### Teste 235
+**(FCC - Adaptada / TI - Modelo Entidade-Relacionamento de Peter Chen)**
 No contexto do Diagrama Entidade-Relacionamento (DER) segundo a notação original proposta por Peter Chen, analise a seguinte situação de negócio:  
 *"Em um órgão de fiscalização fazendária, cada PROCESSO_FISCAL possui um número de processo que o identifica unicamente. Cada processo pode conter múltiplos TERMOS_FISCAIS. Um termo fiscal possui apenas uma numeração sequencial interna (ex.: 1, 2, 3), só faz sentido existir vinculado ao seu respectivo processo fiscal e sua identificação plena depende da chave primária do processo."*
 
@@ -148,6 +175,9 @@ Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração seq
 * **C)** Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador.
 * **D)** Entidade Fraca, Atributo Derivado e Agregação.
 * **E)** Superclasse, Atributo Atômico e Relacionamento Ternário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -180,7 +210,8 @@ No modelo clássico de Chen, os atributos são expressos por elipses conectadas 
 | **Discriminador (Chave Parcial)**| Identifica a entidade fraca apenas dentro do escopo da forte. | Elipse com texto **sublinhado tracejado** | `Num_Sequencial_Termo` |
 | **Derivado** | Valor calculado dinamicamente a partir de outros atributos persistidos. | Elipse com **borda tracejada/pontilhada** | `Idade` (calculada de `Data_Nasc`) |
 
-### Questão 03 (FCC - TRT-2 / Analista Judiciário - TI - Tipologia dos Atributos no MER)
+### Teste 236
+**(FCC - TRT-2 / Analista Judiciário - TI - Tipologia dos Atributos no MER)**
 Em alguns casos, dois ou mais valores de atributos em um modelo de Entidade-Relacionamento estão relacionados. Por exemplo, os atributos `Idade` e `Data_Nascimento` de um Auditor de Controle Externo. Para uma entidade `AUDITOR` em particular, o valor de `Idade` pode ser determinado pela data corrente do sistema e pelo valor de `Data_Nascimento` persistido. 
 
 Portanto, segundo a teoria formal do MER concebida por Peter Chen, o atributo `Idade` é denominado atributo [ I ], ao passo que `Data_Nascimento` é denominado atributo [ II ].
@@ -192,6 +223,9 @@ As lacunas [ I ] e [ II ] são, correta e respectivamente, preenchidas por:
 * **C)** multivalorado — monovalorado.
 * **D)** identificador — composto.
 * **E)** determinante — discriminador.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -225,7 +259,8 @@ As lacunas [ I ] e [ II ] são, correta e respectivamente, preenchidas por:
 
 ---
 
-### Questão 04 (FCC - TRT-1 / Analista Judiciário - TI - Relacionamentos e Mapeamento N:M)
+### Teste 237
+**(FCC - TRT-1 / Analista Judiciário - TI - Relacionamentos e Mapeamento N:M)**
 No Modelo Entidade-Relacionamento utilizado para projetar bancos de dados relacionais, quando se define que há um conjunto de relacionamentos de cardinalidade muitos para muitos ($N:M$) entre dois conjuntos de entidades $A$ e $B$, essa especificação significa e exige, do ponto de vista conceitual e de conversão lógica, que:
 
 * **A)** uma entidade de $A$ está associada compulsoriamente a exatamente uma entidade de $B$, e cada entidade de $B$ está associada a no máximo duas entidades de $A$.
@@ -233,6 +268,9 @@ No Modelo Entidade-Relacionamento utilizado para projetar bancos de dados relaci
 * **C)** os conjuntos de entidades $A$ e $B$ devem necessariamente possuir esquemas idênticos com o mesmo número e tipos de atributos primitivos.
 * **D)** a chave primária de $A$ deve ser migrada diretamente como atributo simples e chave estrangeira na tabela $B$, tornando dispensável a criação de qualquer nova relação no banco de dados.
 * **E)** uma entidade do conjunto $B$ associa-se a apenas uma entidade de $A$, configurando uma dependência existencial que transforma a entidade $B$ em entidade fraca.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -244,7 +282,10 @@ No Modelo Entidade-Relacionamento utilizado para projetar bancos de dados relaci
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 3. Álgebra Relacional: Operações Formais e Consultas
 
@@ -290,7 +331,8 @@ São operações construídas a partir da composição das primitivas fundamenta
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Álgebra Relacional e Divisão Relacional)
+### Teste 238
+**(FCC - Adaptada / TI - Álgebra Relacional e Divisão Relacional)**
 Em sistemas de banco de dados relacionais, deseja-se elaborar uma consulta algébrica formal para responder à seguinte demanda de auditoria:  
 *"Recuperar o código de todos os Auditores Fiscais que realizaram inspeções em TODOS os estabelecimentos cadastrados no estado."*
 
@@ -307,6 +349,9 @@ A operação da Álgebra Relacional que expressa diretamente essa semântica de 
 * **D)** Produto Cartesiano (`INSPECAO` $\times$ `ESTABELECIMENTO`)
 * **E)** Interseção (`INSPECAO` $\cap$ `ESTABELECIMENTO`)
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O Full Outer Join preserva tuplas sem correspondência em ambos os lados preenchendo com nulos, sem filtrar por quantificação universal.
@@ -321,7 +366,8 @@ A operação da Álgebra Relacional que expressa diretamente essa semântica de 
 
 
 
-### Questão 06 (FCC - Adaptada / TI - Álgebra Relacional)
+### Teste 239
+**(FCC - Adaptada / TI - Álgebra Relacional)**
 Na Álgebra Relacional, uma consulta sobre duas relações $R(A, B, C)$ e $S(C, D, E)$ tem por objetivo filtrar as tuplas de $R$ onde o atributo $A = 10$, concatenar com as tuplas correspondentes de $S$ onde $R.C = S.C$, e projetar apenas as colunas $B$ e $D$.
 
 A expressão formal algébrica que representa essa operação com precisão é:  
@@ -331,6 +377,9 @@ A expressão formal algébrica que representa essa operação com precisão é:
 * **C)** $\pi_{B, D} (\sigma_{A = 10} (R) \cup \sigma_{A = 10} (S))$
 * **D)** $\rho_{B, D} (\sigma_{A = 10} (R - S))$
 * **E)** $\pi_{A = 10} (\sigma_{B, D} (R \div S))$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -342,8 +391,9 @@ A expressão formal algébrica que representa essa operação com precisão é:
 > 
 > **Gabarito: A**
 
----
 
+
+---
 
 
 ## 4. Teoria da Normalização e Formas Normais (Codd)
@@ -368,7 +418,8 @@ Dada uma relação $R$, diz-se que o conjunto de atributos $X$ determina funcion
 - **Dependência Funcional Parcial:** Ocorre quando um atributo não-chave depende de apenas uma parte de uma chave primária composta (isto é, existe $A \subset X$ tal que $A \rightarrow Y$).
 - **Dependência Funcional Transitiva:** Ocorre quando $X \rightarrow Y$ e $Y \rightarrow Z$, onde $Y$ não é superchave e $Y \not\rightarrow X$. Consequentemente, $X$ determina $Z$ indiretamente através de $Y$.
 
-### Questão 07 (FGV - TJ-BA / Analista Judiciário - TI - Dependências Funcionais e Axiomas de Armstrong)
+### Teste 240
+**(FGV - TJ-BA / Analista Judiciário - TI - Dependências Funcionais e Axiomas de Armstrong)**
 Considere uma relação $R(A, B, C, D)$ sobre a qual vigora o seguinte conjunto de dependências funcionais primitivas:
 
 $$F = \{ A \rightarrow B, \quad A \rightarrow C, \quad C \rightarrow D \}$$
@@ -380,6 +431,9 @@ Com base nos Axiomas de Armstrong (Reflexividade, Aumento e Transitividade) e em
 * **C)** $A \rightarrow B, C$
 * **D)** $A, B, C \rightarrow A, B$
 * **E)** $C, B \rightarrow D, B$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -408,7 +462,8 @@ Com base nos Axiomas de Armstrong (Reflexividade, Aumento e Transitividade) e em
         1. $X$ é uma superchave; **OU**
         2. $A$ é um atributo primo (faz parte de ao menos uma chave candidata).
 
-### Questão 08 (FGV - TRT / Analista Judiciário - TI - Normalização e Primeira Forma Normal)
+### Teste 241
+**(FGV - TRT / Analista Judiciário - TI - Normalização e Primeira Forma Normal)**
 O modelo de dados conceitual de um sistema de gestão de recursos humanos prevê a entidade `FUNCIONARIO`. Para fins de cálculo de benefícios e assistência médica, é necessário cadastrar os dados dos dependentes de cada funcionário (`NomeDependente`, `DataNascDependente`, `Parentesco`), sem limite superior de quantidade.
 
 Para implementar esse modelo em um banco de dados relacional assegurando a conformidade rigorosa com a **Primeira Forma Normal (1FN)**, avalie as seguintes abordagens técnicas:
@@ -424,6 +479,9 @@ Conforme a teoria da normalização relacional de Codd, está correto apenas o q
 * **C)** III.
 * **D)** I e II.
 * **E)** II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -445,7 +503,8 @@ A **Forma Normal de Boyce-Codd (FNBC)** é uma versão mais estrita da 3ª FN cr
 
 ---
 
-### Questão 09 (FCC - Adaptada / TI - Forma Normal de Boyce-Codd vs. 3ª FN)
+### Teste 242
+**(FCC - Adaptada / TI - Forma Normal de Boyce-Codd vs. 3ª FN)**
 Considere uma relação $R(A, B, C)$ com o seguinte conjunto de dependências funcionais:  
 $F = \{ (A, B) \rightarrow C, \quad C \rightarrow B \}$  
 Sabe-se que as chaves candidatas dessa relação são $(A, B)$ e $(A, C)$.
@@ -457,6 +516,9 @@ Com base nas definições formais das Formas Normais, afirma-se corretamente que
 * **C)** Está na 3ª FN, mas não está na Forma Normal de Boyce-Codd (FNBC).
 * **D)** Está na Forma Normal de Boyce-Codd (FNBC), pois todas as dependências funcionais são triviais.
 * **E)** Encontra-se na 4ª FN, pois não possui atributos multivalorados dependentes.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -477,7 +539,8 @@ Com base nas definições formais das Formas Normais, afirma-se corretamente que
 
 
 
-### Questão 10 (FCC - Adaptada / TI - Teoria da Normalização)
+### Teste 243
+**(FCC - Adaptada / TI - Teoria da Normalização)**
 Considere uma relação não normalizada de um sistema de compras públicas representada pelo esquema:  
 `CONTRATO (NumContrato, NumItem, CodFornecedor, NomeFornecedor, DescricaoItem, Quantidade, ValorUnitario)`  
 Onde a chave primária composta da relação é `(NumContrato, NumItem)`. Sabe-se ainda que existem as seguintes dependências funcionais:
@@ -495,6 +558,9 @@ Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve
 * **D)** Converter todas as chaves primárias em chaves substitutas (*surrogate keys*) UUID geradas pelo SGBD.
 * **E)** Desnormalizar a relação unificando `Quantidade` e `ValorUnitario` em um atributo multivalorado.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. A atomicidade de domínios e a eliminação de grupos repetitivos constituem a regra da **Primeira Forma Normal (1ª FN)**.
@@ -505,8 +571,9 @@ Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 5. Processo de Desnormalização de Dados
@@ -544,7 +611,8 @@ flowchart TD
 
 ---
 
-### Questão 11 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Desnormalização e Trade-offs OLTP vs. OLAP)
+### Teste 244
+**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Desnormalização e Trade-offs OLTP vs. OLAP)**
 No projeto de bancos de dados analíticos (Data Warehouses) e repositórios de dados para auditoria contínua, analistas de TI frequentemente ponderam entre o esquema puramente em estrela (*Star Schema*) e o esquema em flocos de neve (*Snowflake Schema*).
 
 A respeito da técnica de modelagem multidimensional e de seus impactos arquiteturais sobre o desempenho das consultas analíticas, assinale a afirmativa correta:
@@ -554,6 +622,9 @@ A respeito da técnica de modelagem multidimensional e de seus impactos arquitet
 * **C)** A técnica de desnormalização é fortemente recomendada em sistemas puramente transacionais (OLTP) de alta concorrência para acelerar as operações concorrentes de `INSERT` e `UPDATE`.
 * **D)** A criação de chaves substitutas (*surrogate keys*) nas tabelas dimensionais prejudica a governança e inviabiliza o rastreamento histórico de dimensões de alteração lenta (SCD).
 * **E)** O Snowflake Schema é o padrão adotado em todos os data marts por dispensar completamente o uso de índices e por apresentar desempenho de leitura invariavelmente superior ao Star Schema.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -565,7 +636,10 @@ A respeito da técnica de modelagem multidimensional e de seus impactos arquitet
 > 
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

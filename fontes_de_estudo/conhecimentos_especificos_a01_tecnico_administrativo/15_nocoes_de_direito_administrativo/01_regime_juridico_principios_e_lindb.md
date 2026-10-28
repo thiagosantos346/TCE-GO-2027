@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `01_regime_juridico_principios_e_lindb.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Administração Pública: conceito, sentidos subjetivo/orgânico e objetivo/material
@@ -14,37 +17,53 @@
 - Lei de Introdução às normas do Direito Brasileiro (LINDB - Decreto-Lei nº 4.657/1942 com redação dada pela Lei nº 12.376/2010 e alterações da Lei nº 13.655/2018, artigos 20 a 30) e sua aplicação na Administração Pública
 - Responsabilização do agente público segundo o Decreto Federal nº 9.830/2019 e a LINDB (erro grosseiro e dolo)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Conceito e Sentidos de Administração Pública](#1-conceito-e-sentidos-de-administracao-publica)
-    - [1.1 Sentido Subjetivo, Formal ou Orgânico](#11-sentido-subjetivo-formal-ou-organico)
-    - [1.2 Sentido Objetivo, Material ou Funcional](#12-sentido-objetivo-material-ou-funcional)
-    - [1.3 Critérios Distintivos Adotados pela FCC](#13-criterios-distintivos-adotados-pela-fcc)
-- [2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental](#2-o-regime-juridico-administrativo-e-sua-bipolaridade-fundamental)
-    - [2.1 Princípio da Supremacia do Interesse Público sobre o Privado](#21-principio-da-supremacia-do-interesse-publico-sobre-o-privado)
-    - [2.2 Princípio da Indisponibilidade do Interesse Público](#22-principio-da-indisponibilidade-do-interesse-publico)
-    - [2.3 Interesse Público Primário vs. Secundário](#23-interesse-publico-primario-vs-secundario)
-- [3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)](#3-principios-constitucionais-expressos-art-37-caput-cf88-limpe)
-    - [3.1 Princípio da Legalidade Estrita](#31-principio-da-legalidade-estrita)
-    - [3.2 Princípio da Impessoalidade e a Vedação à Promoção Pessoal](#32-principio-da-impessoalidade-e-a-vedacao-a-promocao-pessoal)
-    - [3.3 Princípio da Moralidade e a Súmula Vinculante nº 13 (Antinepotismo)](#33-principio-da-moralidade-e-a-sumula-vinculante-no-13-antinepotismo)
-    - [3.4 Princípio da Publicidade e suas Exceções Constitucionais](#34-principio-da-publicidade-e-suas-excecoes-constitucionais)
-    - [3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)](#35-principio-da-eficiencia-emenda-constitucional-no-191998)
-- [4. Princípios Administrativos Implícitos e Regime Sumular](#4-principios-administrativos-implicitos-e-regime-sumular)
-    - [4.1 Razoabilidade e Proporcionalidade](#41-razoabilidade-e-proporcionalidade)
-    - [4.2 Segurança Jurídica e Proteção à Confiança Legítima](#42-seguranca-juridica-e-protecao-a-confianca-legitima)
-    - [4.3 Princípio da Autotutela (Súmulas 346 e 473 do STF): Anulação vs. Revogação](#43-principio-da-autotutela-sumulas-346-e-473-do-stf-anulacao-vs-revogacao)
-    - [4.4 Princípio da Motivação e a Teoria dos Motivos Determinantes](#44-principio-da-motivacao-e-a-teoria-dos-motivos-determinantes)
-    - [4.5 Princípio da Continuidade dos Serviços Públicos](#45-principio-da-continuidade-dos-servicos-publicos)
-- [5. O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo](#5-o-direito-publico-positivo-da-lindb-arts-20-a-30-e-o-controle-externo)
-    - [5.1 Consequencialismo Jurídico e Vedação de Valores Abstratos (Art. 20)](#51-consequencialismo-juridico-e-vedacao-de-valores-abstratos-art-20)
-    - [5.2 Obstáculos Reais e Circunstâncias Práticas do Gestor (Art. 22)](#52-obstaculos-reais-e-circunstancias-praticas-do-gestor-art-22)
-    - [5.3 Responsabilização por Dolo ou Erro Grosseiro (Art. 28 da LINDB c/c Dec. 9.830/2019)](#53-responsabilizacao-por-dolo-ou-erro-grosseiro-art-28-da-lindb-cc-dec-98302019)
-    - [5.4 Segurança Jurídica, Transição e Vedação à Retroatividade (Arts. 23 e 24)](#54-seguranca-juridica-transicao-e-vedacao-a-retroatividade-arts-23-e-24)
-- [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+
+1. [Conceito e Sentidos de Administração Pública](#1-conceito-e-sentidos-de-administracao-publica)
+    1. [Sentido Subjetivo, Formal ou Orgânico](#11-sentido-subjetivo-formal-ou-organico)
+    2. [Sentido Objetivo, Material ou Funcional](#12-sentido-objetivo-material-ou-funcional)
+    3. [Teste 001](#Teste-001)
+    4. [Critérios Distintivos Adotados pela FCC](#13-criterios-distintivos-adotados-pela-fcc)
+2. [O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental](#2-o-regime-juridico-administrativo-e-sua-bipolaridade-fundamental)
+    1. [Princípio da Supremacia do Interesse Público sobre o Privado](#21-principio-da-supremacia-do-interesse-publico-sobre-o-privado)
+    2. [Princípio da Indisponibilidade do Interesse Público](#22-principio-da-indisponibilidade-do-interesse-publico)
+    3. [Teste 002](#Teste-002)
+    4. [Interesse Público Primário vs. Secundário](#23-interesse-publico-primario-vs-secundario)
+3. [Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)](#3-principios-constitucionais-expressos-art-37-caput-cf88-limpe)
+    1. [Princípio da Legalidade Estrita](#31-principio-da-legalidade-estrita)
+    2. [Teste 003](#Teste-003)
+    3. [Princípio da Impessoalidade e a Vedação à Promoção Pessoal](#32-principio-da-impessoalidade-e-a-vedacao-a-promocao-pessoal)
+    4. [Teste 004](#Teste-004)
+    5. [Princípio da Moralidade e a Súmula Vinculante nº 13 (Antinepotismo)](#33-principio-da-moralidade-e-a-sumula-vinculante-no-13-antinepotismo)
+    6. [Teste 005](#Teste-005)
+    7. [Princípio da Publicidade e suas Exceções Constitucionais](#34-principio-da-publicidade-e-suas-excecoes-constitucionais)
+    8. [Princípio da Eficiência (Emenda Constitucional nº 19/1998)](#35-principio-da-eficiencia-emenda-constitucional-no-191998)
+    9. [Teste 006](#Teste-006)
+4. [Princípios Administrativos Implícitos e Regime Sumular](#4-principios-administrativos-implicitos-e-regime-sumular)
+    1. [Razoabilidade e Proporcionalidade](#41-razoabilidade-e-proporcionalidade)
+    2. [Segurança Jurídica e Proteção à Confiança Legítima](#42-seguranca-juridica-e-protecao-a-confianca-legitima)
+    3. [Teste 007](#Teste-007)
+    4. [Princípio da Autotutela (Súmulas 346 e 473 do STF): Anulação vs. Revogação](#43-principio-da-autotutela-sumulas-346-e-473-do-stf-anulacao-vs-revogacao)
+    5. [Teste 008](#Teste-008)
+    6. [Princípio da Motivação e a Teoria dos Motivos Determinantes](#44-principio-da-motivacao-e-a-teoria-dos-motivos-determinantes)
+    7. [Teste 009](#Teste-009)
+    8. [Princípio da Continuidade dos Serviços Públicos](#45-principio-da-continuidade-dos-servicos-publicos)
+5. [O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo](#5-o-direito-publico-positivo-da-lindb-arts-20-a-30-e-o-controle-externo)
+    1. [Consequencialismo Jurídico e Vedação de Valores Abstratos (Art. 20)](#51-consequencialismo-juridico-e-vedacao-de-valores-abstratos-art-20)
+    2. [Teste 010](#Teste-010)
+    3. [Obstáculos Reais e Circunstâncias Práticas do Gestor (Art. 22)](#52-obstaculos-reais-e-circunstancias-praticas-do-gestor-art-22)
+    4. [Responsabilização por Dolo ou Erro Grosseiro (Art. 28 da LINDB c/c Dec. 9.830/2019)](#53-responsabilizacao-por-dolo-ou-erro-grosseiro-art-28-da-lindb-cc-dec-98302019)
+    5. [Teste 011](#Teste-011)
+    6. [Segurança Jurídica, Transição e Vedação à Retroatividade (Arts. 23 e 24)](#54-seguranca-juridica-transicao-e-vedacao-a-retroatividade-arts-23-e-24)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Conceito e Sentidos de Administração Pública
 
@@ -86,7 +105,8 @@ Sob o prisma **objetivo, material ou funcional**, a Administração Pública cor
 
 
 
-### Questão 01 (FCC - Analista Judiciário - Área Judiciária)
+### Teste 001
+**(FCC - Analista Judiciário - Área Judiciária)**
 Acerca do conceito e dos sentidos de Administração Pública no ordenamento jurídico brasileiro, considere a situação em que determinado doutrinador analisa os órgãos, os agentes e as pessoas jurídicas incumbidos de desempenhar a atividade estatal, contrapondo-os à própria atividade concreta, contínua e direta voltada ao atendimento das necessidades coletivas.
 
 Sob a perspectiva técnico-doutrinária consagrada pelo Direito Administrativo e pela jurisprudência:
@@ -96,6 +116,9 @@ Sob a perspectiva técnico-doutrinária consagrada pelo Direito Administrativo e
 * **C)** No Brasil, adotou-se prioritariamente o critério formal, de modo que somente integram a Administração Pública, em sentido estrito e subjetivo, as entidades e órgãos reconhecidos como tais pela ordem jurídica, independentemente da atividade desempenhada.
 * **D)** A atividade política de comando superior e fixação de diretrizes governamentais (função política ou de governo) confunde-se integralmente com a função administrativa em sentido material.
 * **E)** As concessionárias e permissionárias de serviços públicos, por prestarem serviços essenciais à coletividade, passam a integrar a Administração Pública em sentido subjetivo ou orgânico.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -118,7 +141,10 @@ Sob a perspectiva técnico-doutrinária consagrada pelo Direito Administrativo e
 | **Grafia Típica** | Grafado com iniciais maiúsculas (**A**dministração **P**ública) | Grafado frequentemente com iniciais minúsculas (**a**dministração pública) |
 | **Delegação a Particulares** | Não se transfere a entes delegatários privados | É transferido a concessionários e permissionários |
 
+
+
 ---
+
 
 ## 2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental
 
@@ -149,7 +175,8 @@ Representa o contrapeso democrático às prerrogativas estatais, corporificando 
 
 
 
-### Questão 02 (FGV - Auditor Fiscal da Receita Estadual)
+### Teste 002
+**(FGV - Auditor Fiscal da Receita Estadual)**
 O regime jurídico-administrativo fundamenta-se em uma bipolaridade basilar caracterizada pela coexistência de prerrogativas estatais e restrições impostas à atuação do Poder Público. A respeito dessa estrutura dogmática, assinale a afirmativa correta.
 
 * **A)** A supremacia do interesse público sobre o privado é irrestrita, autorizando a Administração a sobrepor suas decisões à ordem constitucional em situações de conveniência política.
@@ -157,6 +184,9 @@ O regime jurídico-administrativo fundamenta-se em uma bipolaridade basilar cara
 * **C)** O interesse público secundário, consubstanciado nos interesses patrimoniais e fiscais imediatos do erário estatal, prevalece juridicamente sobre os direitos e garantias fundamentais dos cidadãos.
 * **D)** As sujeições administrativas constituem privilégios concedidos aos órgãos estatais para sobrepujar a esfera de liberdade dos administrados sem necessidade de processo prévio.
 * **E)** O princípio da indisponibilidade do interesse público inviabiliza que o Poder Público celebre transações, acordos judiciais ou termos de ajustamento de conduta, haja vista a vedação absoluta à autocomposição pelo Estado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -178,7 +208,10 @@ A jurisprudência do STF e do STJ acolhe expressamente a distinção doutrinári
 - **Interesse Público Secundário:** É o interesse patrimonial e fazendário do próprio aparelho estatal como pessoa jurídica (arrecadar mais tributos, evitar condenações judiciais pecuniárias, economizar recursos a qualquer custo). 
 > ⚠️ **Alerta FCC:** O interesse público secundário só é legítimo quando coincide plenamente com o interesse primário da sociedade. Caso o Estado viole direitos fundamentais de cidadãos apenas para auferir vantagem financeira aos cofres públicos, tal ato configura ilicitude e desvio de finalidade.
 
+
+
 ---
+
 
 ## 3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)
 
@@ -190,7 +223,8 @@ Enquanto o particular goza da **autonomia da vontade** e da legalidade ampla, po
 
 
 
-### Questão 03 (FCC - Analista Judiciário - Área Administrativa)
+### Teste 003
+**(FCC - Analista Judiciário - Área Administrativa)**
 No âmbito do Direito Público brasileiro, o princípio da legalidade apresenta conformação substancialmente distinta daquela aplicável às relações jurídicas privadas. A esse propósito, assinale a afirmativa que expressa com exatidão a disciplina jurídica desse princípio.
 
 * **A)** No âmbito privado vigora a autonomia da vontade (art. 5º, II, CF/88), sendo lícito fazer tudo o que a lei não proíbe; já para a Administração Pública impera o princípio da estrita legalidade, cabendo-lhe agir tão somente quando houver prévia e expressa autorização legal.
@@ -198,6 +232,9 @@ No âmbito do Direito Público brasileiro, o princípio da legalidade apresenta 
 * **C)** O princípio da juridicidade restringe a atuação do administrador público à estrita literalidade da lei ordinária, excluindo o bloco de constitucionalidade e os princípios implícitos.
 * **D)** Em matérias afetas à discricionariedade administrativa, o administrador público fica dispensado de observar a lei, prevalecendo seu juízo exclusivo de oportunidade e conveniência sem qualquer balizamento normativo.
 * **E)** O princípio da legalidade administrativa impede terminantemente a edição de qualquer decreto regulamentar que disponha sobre o detalhamento da execução da lei.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -222,7 +259,8 @@ O princípio da impessoalidade possui triplo desdobramento no âmbito dos concur
 
 ---
 
-### Questão 04 (FCC - Analista de Controle Externo / TCE-GO)
+### Teste 004
+**(FCC - Analista de Controle Externo / TCE-GO)**
 O Prefeito de determinado município goiano autorizou a realização de ampla campanha institucional informando a entrega de um novo hospital municipal. Na publicidade veiculada em emissoras de televisão e painéis digitais, foram inseridas a fotografia oficial do Chefe do Executivo, o slogan utilizado em sua campanha partidária e mensagens conclamando a população a reconhecer seu esforço pessoal na entrega da obra.
 
 Diante do regramento constitucional aplicável à Administração Pública, a conduta descrita vulnerou diretamente o princípio da:
@@ -232,6 +270,9 @@ Diante do regramento constitucional aplicável à Administração Pública, a co
 * **C)** Eficiência, unicamente em virtude de o gestor não ter anexado na peça publicitária a planilha detalhada com a economicidade da obra.
 * **D)** Legalidade estrita, por inexistir autorização legislativa genérica permitindo a veiculação de qualquer informe por municípios.
 * **E)** Autotutela, pois a publicidade de atos municipais depende de chancela prévia obrigatória do Tribunal de Contas competente.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -262,7 +303,8 @@ A moralidade e a impessoalidade fundamentam o teor da **Súmula Vinculante nº 1
 
 ---
 
-### Questão 05 (FCC - Analista Judiciário)
+### Teste 005
+**(FCC - Analista Judiciário)**
 O Presidente de determinado órgão público estadual nomeou sua irmã para exercer o cargo em comissão de Diretora de Recursos Humanos do referido órgão. Instada a se manifestar sobre a legalidade da nomeação, a assessoria jurídica emitiu parecer favorável, sustentando que a vedação ao nepotismo atinge apenas parentes em linha reta (pais e filhos).
 
 Conforme a jurisprudência pacificada do Supremo Tribunal Federal consolidada na **Súmula Vinculante nº 13**:
@@ -272,6 +314,9 @@ Conforme a jurisprudência pacificada do Supremo Tribunal Federal consolidada na
 * **C)** A nomeação é nula por violar a Súmula Vinculante nº 13, que veda expressamente a nomeação de parentes em linha reta, colateral ou por afinidade até o terceiro grau para cargos em comissão.
 * **D)** A proibição do nepotismo limita-se unicamente ao cônjuge e companheiro, sendo permitida a nomeação de parentes consanguíneos de qualquer grau.
 * **E)** A restrição sumular não se aplica aos cargos em comissão de direção e chefia, restringindo-se às funções de assessoramento.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -303,7 +348,8 @@ Inserido formalmente no rol do art. 37 pela Reforma Administrativa (EC nº 19/19
 
 
 
-### Questão 06 (FGV - Analista de Controle Externo / TCE)
+### Teste 006
+**(FGV - Analista de Controle Externo / TCE)**
 Introduzido formalmente no caput do art. 37 da Constituição Federal pela Emenda Constitucional nº 19/1998, o princípio da eficiência impõe uma administração pública gerencial voltada a resultados. Sobre os desdobramentos normativos e práticos desse princípio, assinale a afirmativa correta.
 
 * **A)** A busca pela eficiência econômica sobrepõe-se ao princípio da legalidade, permitindo ao gestor afastar regras procedimentais licitatórias sempre que verificar uma compra direta mais célere.
@@ -311,6 +357,9 @@ Introduzido formalmente no caput do art. 37 da Constituição Federal pela Emend
 * **C)** Como corolário do princípio da eficiência, a CF/88 autorizou a perda de cargo do servidor público estável mediante procedimento de avaliação periódica de desempenho, na forma de lei complementar, assegurada ampla defesa.
 * **D)** O princípio da eficiência impede a terceirização de atividades-meio na Administração Pública, por impor que todo e qualquer serviço estatal seja prestado diretamente por servidores concursados.
 * **E)** A eficiência afasta o dever de motivação dos atos administrativos discricionários para conferir maior celeridade e desburocratização ao processo de tomada de decisão.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -322,7 +371,10 @@ Introduzido formalmente no caput do art. 37 da Constituição Federal pela Emend
 >
 > **Gabarito: C**
 
+
+
 ---
+
 
 ## 4. Princípios Administrativos Implícitos e Regime Sumular
 
@@ -346,7 +398,8 @@ Visa garantir a estabilidade das relações jurídicas constituídas e proteger 
 
 ---
 
-### Questão 07 (FCC - Auditor de Controle Externo / Adaptada TCE-GO)
+### Teste 007
+**(FCC - Auditor de Controle Externo / Adaptada TCE-GO)**
 Determinada autarquia estadual concedeu, durante dez anos, com base em parecer normativo da Procuradoria-Geral do Estado, certa vantagem pecuniária a uma categoria de servidores. Posteriormente, a Procuradoria reviu seu entendimento histórico e fixou nova interpretação mais restritiva da lei, passando a considerar a vantagem indevida. A Administração resolveu então cobrar retroativamente de todos os servidores os valores recebidos ao longo dos últimos cinco anos.
 
 Considerando o princípio da segurança jurídica, a disciplina do processo administrativo e o art. 24 da LINDB:
@@ -356,6 +409,9 @@ Considerando o princípio da segurança jurídica, a disciplina do processo admi
 * **C)** A repetição dos valores é plenamente legítima, cabendo aos servidores o ônus de demonstrar prejuízo individual desproporcional.
 * **D)** Nova orientação jurídica retroage automaticamente caso seja mais benéfica aos cofres públicos estaduais.
 * **E)** A segurança jurídica apenas protege os atos administrativos chancelados expressamente por sentença judicial transitada em julgado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -396,7 +452,8 @@ flowchart TD
 
 ---
 
-### Questão 08 (FCC - Técnico de Controle Externo / Administrativa)
+### Teste 008
+**(FCC - Técnico de Controle Externo / Administrativa)**
 Determinada autoridade administrativa do Poder Executivo estadual constatou que um ato de concessão de gratificação funcional a um grupo de servidores, praticado há dois anos, padecia de vício insanável de legalidade, por contrariar dispositivo expresso do regime jurídico único. Os servidores beneficiados não concorreram para o vício e agiram de boa-fé.
 
 Considerando o princípio da autotutela e os enunciados das Súmulas 346 e 473 do Supremo Tribunal Federal:
@@ -406,6 +463,9 @@ Considerando o princípio da autotutela e os enunciados das Súmulas 346 e 473 d
 * **C)** Somente o Poder Judiciário dispõe de competência constitucional para anular atos praticados pela Administração Pública estadual.
 * **D)** A Administração decaiu do direito de anular o ato, haja vista ter decorrido o prazo bienal de prescrição administrativa geral.
 * **E)** O ato tornou-se imutável por força do princípio da segurança jurídica, não podendo mais ser anulado nem mesmo pelo Poder Judiciário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -428,7 +488,8 @@ A motivação consiste na exposição explícita, por escrito, das razões de fa
 
 
 
-### Questão 09 (FCC - Procurador do Estado)
+### Teste 009
+**(FCC - Procurador do Estado)**
 Determinada autoridade administrativa removeu ex officio um servidor público estável para localidade distante, fazendo constar formalmente na portaria que a medida visava atender a urgente déficit de pessoal e reestruturação do setor destinatário. Posteriormente, restou documentalmente comprovado em processo administrativo que o setor de destino possuía excedente de servidores e que a verdadeira intenção da chefia fora aplicar uma punição disfarçada em virtude de desavenças partidárias.
 
 Diante da Teoria dos Motivos Determinantes, o ato de remoção descrito é:
@@ -438,6 +499,9 @@ Diante da Teoria dos Motivos Determinantes, o ato de remoção descrito é:
 * **C)** Convalidável, bastando que a autoridade edite novo ato retificador suprimindo a motivação pretérita e afirmando a discricionariedade pura.
 * **D)** Válido quanto aos seus efeitos pretéritos e revogável unicamente com efeitos ex nunc por motivo de conveniência e oportunidade da chefia.
 * **E)** Nulo apenas se comprovado prejuízo financeiro direto ao erário público, haja vista que a motivação constitui mero requisito acidental do ato administrativo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -459,7 +523,10 @@ Os serviços públicos representam a prestação material de necessidades indecl
     1. Razões de ordem técnica ou de segurança das instalações;
     2. Inadimplemento contratual do usuário, ressalvadas unidades públicas essenciais (hospitais e postos de saúde não podem ter o fornecimento de energia desligado por falta de pagamento).
 
+
+
 ---
+
 
 ## 5. O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo
 
@@ -473,7 +540,8 @@ A Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 
 
 
 
-### Questão 10 (FGV - Auditor de Controle Externo / TCE)
+### Teste 010
+**(FGV - Auditor de Controle Externo / TCE)**
 A Lei de Introdução às Normas do Direito Brasileiro (LINDB), com a redação conferida pela Lei nº 13.655/2018, estabeleceu novas diretrizes para as esferas administrativa, controladora e judicial. A respeito do regramento previsto nos arts. 20 e 21 da LINDB, assinale a afirmativa correta.
 
 * **A)** Nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão.
@@ -481,6 +549,9 @@ A Lei de Introdução às Normas do Direito Brasileiro (LINDB), com a redação 
 * **C)** A invalidação de ato ou contrato administrativo prescinde de indicação expressa sobre suas consequências jurídicas e administrativas, privilegiando a aplicação automática da legalidade estrita.
 * **D)** Ao decidir sobre a regularidade de conduta de gestor público, o órgão julgador deve desconsiderar os obstáculos e dificuldades reais, exigindo padrão de conduta ideal e irrealizável.
 * **E)** As decisões controladoras que invalidarem atos administrativos não podem estabelecer qualquer regime de transição para cumprimento da nova orientação.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -512,7 +583,8 @@ A Lei de Introdução às Normas do Direito Brasileiro (LINDB), com a redação 
 
 ---
 
-### Questão 11 (FCC - Auditor de Controle Externo / Adaptada)
+### Teste 011
+**(FCC - Auditor de Controle Externo / Adaptada)**
 Em processo de auditoria de conformidade instaurado no Tribunal de Contas, a equipe técnica propôs a aplicação de multa pecuniária e a imputação de débito pessoal a um Secretário de Estado em razão da contratação de serviços mediante interpretação jurídica que gerou dispêndio financeiro. Ficou demonstrado nos autos que, à época da decisão, a interpretação adotada pelo gestor era amplamente respaldada por respeitada doutrina e decisões de outros tribunais, inexistindo jurisprudência vinculante em sentido contrário, má-fé ou qualquer benefício pessoal auferido pelo agente.
 
 À luz da Lei de Introdução às Normas do Direito Brasileiro (LINDB, art. 28) e do Decreto nº 9.830/2019:
@@ -522,6 +594,9 @@ Em processo de auditoria de conformidade instaurado no Tribunal de Contas, a equ
 * **C)** A divergência interpretativa em relação à posição da unidade técnica de auditoria do Tribunal de Contas qualifica-se ipso facto como erro grosseiro.
 * **D)** Os Tribunais de Contas estão isentos de considerar os obstáculos e as dificuldades reais do gestor previstos no art. 22 da LINDB.
 * **E)** A responsabilidade do agente público somente pode ser afastada caso haja prévia consulta formal respondida pelo Tribunal com efeito vinculante.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -541,7 +616,10 @@ Em processo de auditoria de conformidade instaurado no Tribunal de Contas, a equ
 - **Regime de Transição (Art. 23):** Decisão que estabelece nova interpretação ou novo dever deve prever período de transição quando indispensável para que o novo dever seja cumprido de modo proporcional e sem caos operacional.
 - **Vedação à Retroatividade de Nova Orientação Geral (Art. 24):** A revisão judicial, administrativa ou controladora sobre a validade de atos, contratos ou processos já consumados levará em conta as **orientações gerais vigentes à época**. É expressamente proibido declarar inválidas situações consolidadas com amparo na orientação pretérita com base em mudança jurisprudencial posterior.
 
+
+
 ---
+
 
 ## 6. Fontes Recomendadas na Internet
 

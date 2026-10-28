@@ -5,7 +5,10 @@
 > **Arquivo:** `01_bases_constitucionais_cf88_e_ce_go.md`  
 > **Atos Normativos:** CF/88 (Arts. 37 a 41 e 70 a 75) e Constituição do Estado de Goiás (Arts. 26 a 33)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Constituição da República Federativa do Brasil de 1988:
@@ -24,35 +27,50 @@
     - Garantias, prerrogativas, vencimentos e vedações dos Conselheiros (equiparadas às dos Desembargadores do Tribunal de Justiça do Estado de Goiás - TJ-GO);
     - Competências específicas na Carta Estadual e prazos de apreciação de contas do Governador (60 dias contados do recebimento).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Regime Constitucional da Administração Pública (CF/88, Arts. 37 a 41)](#1-regime-constitucional-da-administracao-publica-cf88-arts-37-a-41)
-    - [1.1 Princípios Constitucionais Expressos e Implícitos](#11-principios-constitucionais-expressos-e-implicitos)
-    - [1.2 Provimento de Cargos, Concurso Público e Prazos](#12-provimento-de-cargos-concurso-publico-e-prazos)
-    - [1.3 Regime Remuneratório, Subsídios e Tetos Constitucionais](#13-regime-remuneratorio-subsidios-e-tetos-constitucionais)
-    - [1.4 Acumulação Remunerada de Cargos Públicos](#14-acumulacao-remunerada-de-cargos-publicos)
-    - [1.5 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#15-exercicio-de-mandato-eletivo-pelo-servidor-publico-art-38)
-    - [1.6 Estabilidade Constitucional e Hipóteses Taxativas de Perda do Cargo](#16-estabilidade-constitucional-e-hipoteses-taxativas-de-perda-do-cargo)
-    - [1.7 Responsabilidade Civil Objetiva do Estado e Ação Regressiva](#17-responsabilidade-civil-objetiva-do-estado-e-acao-regressiva)
-- [2. Fiscalização e Controle na CF/88 (Arts. 70 a 75)](#2-fiscalizacao-e-controle-na-cf88-arts-70-a-75)
-    - [2.1 Abrangência Material e Sujeição Subjetiva ao Dever de Prestar Contas](#21-abrangencia-material-e-sujeicao-subjetiva-ao-dever-de-prestar-contas)
-    - [2.2 Competências dos Tribunais de Contas: Contas de Governo vs. Contas de Gestão](#22-competencias-dos-tribunais-de-contas-contas-de-governo-vs-contas-de-gestao)
-    - [2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões](#23-fiscalizacao-de-atos-de-pessoal-e-registro-de-aposentadorias-e-pensoes)
-    - [2.4 Rito Constitucional de Sustação de Atos e Contratos Administrativos](#24-rito-constitucional-de-sustacao-de-atos-e-contratos-administrativos)
-    - [2.5 Eficácia Executiva das Decisões Condenatórias e Prescrição](#25-eficacia-executiva-das-decisoes-condenatorias-e-prescricao)
-    - [2.6 Sistema Integrado de Controle Interno e Responsabilidade Solidária (Art. 74)](#26-sistema-integrado-de-controle-interno-e-responsabilidade-solidaria-art-74)
-    - [2.7 Princípio da Simetria Constitucional Obrigatória (Art. 75)](#27-principio-da-simetria-constitucional-obrigatoria-art-75)
-- [3. O Tribunal de Contas do Estado de Goiás na CE/GO (Arts. 26 a 33)](#3-o-tribunal-de-contas-do-estado-de-goias-na-cego-arts-26-a-33)
-    - [3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais](#31-natureza-juridica-jurisdicao-e-autonomias-constitucionais)
-    - [3.2 Composição e Escolha dos 7 Conselheiros do TCE-GO](#32-composicao-e-escolha-dos-7-conselheiros-do-tce-go)
-    - [3.3 Requisitos Constitucionais para a Investidura de Conselheiro](#33-requisitos-constitucionais-para-a-investidura-de-conselheiro)
-    - [3.4 Estatuto dos Conselheiros: Garantias, Prerrogativas, Vedações e Foro](#34-estatuto-dos-conselheiros-garantias-prerrogativas-vedacoes-e-foro)
-    - [3.5 Ministério Público de Contas de Goiás (Art. 30 da CE/GO)](#35-ministerio-publico-de-contas-de-goias-art-30-da-cego)
-    - [3.6 Competências Específicas na Carta Estadual e Prazos Regimentais](#36-competencias-especificas-na-carta-estadual-e-prazos-regimentais)
-- [4. Fontes Oficiais e Referências Bibliográficas](#4-fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Regime Constitucional da Administração Pública (CF/88, Arts. 37 a 41)](#1-regime-constitucional-da-administracao-publica-cf88-arts-37-a-41)
+    1. [Princípios Constitucionais Expressos e Implícitos](#11-principios-constitucionais-expressos-e-implicitos)
+    2. [Provimento de Cargos, Concurso Público e Prazos](#12-provimento-de-cargos-concurso-publico-e-prazos)
+    3. [Regime Remuneratório, Subsídios e Tetos Constitucionais](#13-regime-remuneratorio-subsidios-e-tetos-constitucionais)
+    4. [Acumulação Remunerada de Cargos Públicos](#14-acumulacao-remunerada-de-cargos-publicos)
+    5. [Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)](#15-exercicio-de-mandato-eletivo-pelo-servidor-publico-art-38)
+    6. [Teste 122](#Teste-122)
+    7. [Estabilidade Constitucional e Hipóteses Taxativas de Perda do Cargo](#16-estabilidade-constitucional-e-hipoteses-taxativas-de-perda-do-cargo)
+    8. [Teste 123](#Teste-123)
+    9. [Responsabilidade Civil Objetiva do Estado e Ação Regressiva](#17-responsabilidade-civil-objetiva-do-estado-e-acao-regressiva)
+    10. [Teste 124](#Teste-124)
+2. [Fiscalização e Controle na CF/88 (Arts. 70 a 75)](#2-fiscalizacao-e-controle-na-cf88-arts-70-a-75)
+    1. [Abrangência Material e Sujeição Subjetiva ao Dever de Prestar Contas](#21-abrangencia-material-e-sujeicao-subjetiva-ao-dever-de-prestar-contas)
+    2. [Competências dos Tribunais de Contas: Contas de Governo vs. Contas de Gestão](#22-competencias-dos-tribunais-de-contas-contas-de-governo-vs-contas-de-gestao)
+    3. [Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões](#23-fiscalizacao-de-atos-de-pessoal-e-registro-de-aposentadorias-e-pensoes)
+    4. [Teste 125](#Teste-125)
+    5. [Rito Constitucional de Sustação de Atos e Contratos Administrativos](#24-rito-constitucional-de-sustacao-de-atos-e-contratos-administrativos)
+    6. [Eficácia Executiva das Decisões Condenatórias e Prescrição](#25-eficacia-executiva-das-decisoes-condenatorias-e-prescricao)
+    7. [Teste 126](#Teste-126)
+    8. [Sistema Integrado de Controle Interno e Responsabilidade Solidária (Art. 74)](#26-sistema-integrado-de-controle-interno-e-responsabilidade-solidaria-art-74)
+    9. [Teste 127](#Teste-127)
+    10. [Princípio da Simetria Constitucional Obrigatória (Art. 75)](#27-principio-da-simetria-constitucional-obrigatoria-art-75)
+    11. [Teste 128](#Teste-128)
+3. [O Tribunal de Contas do Estado de Goiás na CE/GO (Arts. 26 a 33)](#3-o-tribunal-de-contas-do-estado-de-goias-na-cego-arts-26-a-33)
+    1. [Natureza Jurídica, Jurisdição e Autonomias Constitucionais](#31-natureza-juridica-jurisdicao-e-autonomias-constitucionais)
+    2. [Composição e Escolha dos 7 Conselheiros do TCE-GO](#32-composicao-e-escolha-dos-7-conselheiros-do-tce-go)
+    3. [Teste 129](#Teste-129)
+    4. [Requisitos Constitucionais para a Investidura de Conselheiro](#33-requisitos-constitucionais-para-a-investidura-de-conselheiro)
+    5. [Estatuto dos Conselheiros: Garantias, Prerrogativas, Vedações e Foro](#34-estatuto-dos-conselheiros-garantias-prerrogativas-vedacoes-e-foro)
+    6. [Teste 130](#Teste-130)
+    7. [Ministério Público de Contas de Goiás (Art. 30 da CE/GO)](#35-ministerio-publico-de-contas-de-goias-art-30-da-cego)
+    8. [Competências Específicas na Carta Estadual e Prazos Regimentais](#36-competencias-especificas-na-carta-estadual-e-prazos-regimentais)
+    9. [Teste 131](#Teste-131)
+4. [Fontes Oficiais e Referências Bibliográficas](#4-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Regime Constitucional da Administração Pública (CF/88, Arts. 37 a 41)
 
@@ -125,7 +143,7 @@ Ao servidor público da administração direta, autárquica e fundacional no exe
 
 ---
 
-### Questão 01
+### Teste 122
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Nos termos do artigo 37, inciso XVI, e do artigo 38 da Constituição Federal de 1988, a respeito da acumulação remunerada de cargos públicos e do exercício de mandato eletivo por servidor público:
 
@@ -134,6 +152,9 @@ Nos termos do artigo 37, inciso XVI, e do artigo 38 da Constituição Federal de
 * **C)** O servidor público investido no mandato de Prefeito será afastado do cargo efetivo, sendo-lhe facultado optar pela sua remuneração de origem.
 * **D)** O servidor público investido no mandato de Vereador deverá ser compulsoriamente afastado de seu cargo efetivo, sem direito a optar pelo subsídio do mandato legislativo.
 * **E)** É vedada em qualquer hipótese a acumulação de um cargo de professor com outro técnico ou científico.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -163,7 +184,7 @@ O servidor público estável somente perderá o cargo público nas seguintes **q
 
 ---
 
-### Questão 02
+### Teste 123
 **(FCC – TRT – Área Judiciária)**  
 Acerca do regime constitucional dos servidores públicos civis (artigos 37 a 41 da CF/88) e da responsabilidade civil do Estado, considere as seguintes afirmativas:
 
@@ -180,6 +201,9 @@ Está correto o que se afirma APENAS em:
 * **C)** III.
 * **D)** I e II.
 * **E)** II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -208,7 +232,7 @@ $$\text{Ato Administrativo (Comissivo)} + \text{Dano Efetivo} + \text{Nexo Causa
 - **Tema 940 do STF (Tese Vinculante - RE 1.027.633):** A ação indenizatória por danos causados por agente público no exercício de suas funções deve ser proposta **exclusivamente em face da pessoa jurídica de direito público ou da concessionária**, sendo inadmissível o ajuizamento da ação diretamente contra o agente público ou a sua inclusão no polo passivo mediante litisconsórcio passivo facultativo.
 
 
-### Questão 03
+### Teste 124
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Em matéria de responsabilidade civil da Administração Pública (art. 37, § 6º, da CF/88) e atuação de agentes públicos:
 
@@ -217,6 +241,9 @@ Em matéria de responsabilidade civil da Administração Pública (art. 37, § 6
 * **C)** A responsabilidade civil do Estado independe de culpa ou dolo da Administração (responsabilidade objetiva sob a teoria do risco administrativo), assegurado o direito de regresso contra o agente responsável nos casos de dolo ou culpa.
 * **D)** O direito de regresso contra o agente público pode ser exercido mesmo que a Administração Pública não comprove dolo ou culpa do servidor.
 * **E)** A teoria do risco integral é a regra geral no direito brasileiro, não admitindo excludentes como caso fortuito ou força maior.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -228,9 +255,10 @@ Em matéria de responsabilidade civil da Administração Pública (art. 37, § 6
 >
 > **Gabarito: C**
 
----
+
 
 ---
+
 
 ## 2. Fiscalização e Controle na CF/88 (Arts. 70 a 75)
 
@@ -279,7 +307,7 @@ Nos termos do artigo 71, III, da CF/88, compete ao Tribunal de Contas apreciar, 
 
 ---
 
-### Questão 04
+### Teste 125
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 No tocante ao controle externo exercido pelo Tribunal de Contas sobre os atos de pessoal e concessão de benefícios previdenciários (art. 71, III, da CF/88):
 
@@ -288,6 +316,9 @@ No tocante ao controle externo exercido pelo Tribunal de Contas sobre os atos de
 * **C)** A Súmula Vinculante nº 3 do STF estabelece que o contraditório e a ampla defesa são sempre obrigatórios na apreciação da legalidade do ato de concessão inicial de aposentadoria, independentemente do tempo decorrido.
 * **D)** A nomeação para cargo em comissão de livre nomeação e exoneração está sujeita a registro prévio e obrigatório pelo Tribunal de Contas perante o qual atua o órgão.
 * **E)** Decorrido o prazo de 10 anos sem manifestação do Tribunal de Contas, o ato de aposentadoria é sumariamente anulado por decurso de prazo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -325,7 +356,7 @@ Conforme prescreve o artigo 71, § 3º, da Carta Federal, as decisões do Tribun
 
 ---
 
-### Questão 05
+### Teste 126
 **(FCC – TRT – Analista Judiciário)**  
 Sobre o rito constitucional de fiscalização e sustação de atos e contratos administrativos disciplinado no artigo 71, incisos IX a XI e §§ 1º e 2º, da Constituição Federal:
 
@@ -334,6 +365,9 @@ Sobre o rito constitucional de fiscalização e sustação de atos e contratos a
 * **C)** O Tribunal de Contas pode sustar imediatamente um contrato administrativo sem necessidade de qualquer prévia comunicação ao Poder Legislativo ou ao Poder Executivo.
 * **D)** A sustação de ato administrativo impugnado pelo Tribunal de Contas depende sempre de prévia autorização da Assembleia Legislativa.
 * **E)** Se o Poder Legislativo sustar o contrato, o Tribunal de Contas deverá anular a decisão parlamentar no prazo de 30 dias.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -361,7 +395,7 @@ Os Poderes Legislativo, Executivo e Judiciário manterão, de forma integrada, s
 
 ---
 
-### Questão 06
+### Teste 127
 **(FCC – TCE-AP – Técnico de Controle Externo)**  
 Nos termos do artigo 74 da Constituição Federal de 1988, os responsáveis pelo sistema de controle interno integrado dos Poderes Executivo, Legislativo e Judiciário têm a obrigação constitucional de:
 
@@ -370,6 +404,9 @@ Nos termos do artigo 74 da Constituição Federal de 1988, os responsáveis pelo
 * **C)** Dar ciência imediata ao Tribunal de Contas de qualquer irregularidade ou ilegalidade de que tomarem conhecimento na gestão pública, sob pena de responsabilidade solidária.
 * **D)** Substituir o Tribunal de Contas no julgamento das contas anuais dos secretários de Estado e dirigentes autárquicos.
 * **E)** Exercer privativamente a representação judicial dos Conselheiros do Tribunal de Contas perante os órgãos de cúpula do Poder Judiciário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -391,7 +428,7 @@ Qualquer tentativa das Constituições Estaduais de inovar, restringir competên
 
 ---
 
-### Questão 07
+### Teste 128
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A respeito das normas constitucionais federais aplicáveis ao sistema de fiscalização contábil, financeira e orçamentária e da jurisprudência consolidada do Supremo Tribunal Federal, assinale a opção correta:
 
@@ -400,6 +437,9 @@ A respeito das normas constitucionais federais aplicáveis ao sistema de fiscali
 * **C)** No caso de contrato administrativo eivado de ilegalidade insanável, o Tribunal de Contas comunicará o fato ao Poder Legislativo para que este adote o ato de sustação; todavia, caso o Legislativo ou o Executivo não adotem a medida no prazo de 90 dias, o próprio Tribunal de Contas decidirá a respeito da sustação do contrato.
 * **D)** O sistema de controle interno de cada Poder tem competência constitucional para emitir o parecer prévio sobre as contas do Chefe do Executivo, cabendo ao Tribunal de Contas apenas a homologação revisional.
 * **E)** As decisões dos Tribunais de Contas que resultam em imputação de débito ao agente público para reparação de dano ao erário são impassíveis de prescrição, consoante o princípio da imprescritibilidade geral da dívida ativa pública.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -411,8 +451,9 @@ A respeito das normas constitucionais federais aplicáveis ao sistema de fiscali
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 3. O Tribunal de Contas do Estado de Goiás na CE/GO (Arts. 26 a 33)
@@ -452,7 +493,7 @@ graph TD
 
 ---
 
-### Questão 08
+### Teste 129
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Segundo as normas da Constituição do Estado de Goiás que disciplinam a organização e o funcionamento do Tribunal de Contas do Estado de Goiás (TCE-GO), a escolha e a nomeação de seus Conselheiros submetem-se ao seguinte regramento:
 
@@ -461,6 +502,9 @@ Segundo as normas da Constituição do Estado de Goiás que disciplinam a organi
 * **C)** Todos os sete Conselheiros são livremente nomeados pelo Governador do Estado, cabendo à Assembleia Legislativa a fixação prévia de lista sêxtupla representativa.
 * **D)** O Tribunal é composto por nove Conselheiros vitalícios, exigindo-se idade mínima de trinta anos e formação privativa em Ciências Contábeis ou Econômicas.
 * **E)** A vaga destinada aos membros do Ministério Público de Contas prescinde de lista tríplice, sendo o candidato nomeado por antiguidade absoluta apurada na carreira.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -499,7 +543,7 @@ O artigo 28 da Carta Estadual estabelece que os Conselheiros do TCE-GO gozam das
 
 ---
 
-### Questão 09
+### Teste 130
 **(FCC – DPE-RS – Analista Jurídico)**  
 A respeito das garantias constitucionais da magistratura atribuídas aos membros dos Tribunais de Contas pela Constituição da República de 1988 e reproduzidas nas Constituições Estaduais, os Conselheiros gozam de:
 
@@ -508,6 +552,9 @@ A respeito das garantias constitucionais da magistratura atribuídas aos membros
 * **C)** Inamovibilidade relativa, podendo ser livremente exonerados *ad nutum* mediante decreto do Chefe do Poder Executivo em caso de rejeição de contas públicas.
 * **D)** Foro por prerrogativa de função perante a Assembleia Legislativa para o julgamento de crimes comuns e de responsabilidade.
 * **E)** Mandato com prazo determinado de quatro anos, permitida uma única recondução consecutiva por deliberação do Colégio de Líderes parlamentares.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -540,7 +587,7 @@ Além das atribuições comuns simétricas ao art. 71 da CF, destacam-se prazos 
 - **Consulta:** O TCE-GO tem competência para responder a consultas formuladas por autoridades competentes sobre matérias de sua alçada, tendo a resposta caráter normativo e constituindo prejulgamento da tese, mas não do fato concreto.
 
 
-### Questão 10
+### Teste 131
 **(FCC – Inédita – Padrão TCE-GO)**  
 De acordo com o artigo 30 da Constituição do Estado de Goiás e a jurisprudência sumulada do Supremo Tribunal Federal a respeito do Ministério Público de Contas (MPC):
 
@@ -549,6 +596,9 @@ De acordo com o artigo 30 da Constituição do Estado de Goiás e a jurisprudên
 * **C)** Os Procuradores do MPC de Goiás não gozam das garantias de vitaliciedade, inamovibilidade e irredutibilidade de subsídios conferidas aos membros do Ministério Público comum.
 * **D)** Compete ao Ministério Público de Contas ajuizar ações civis públicas perante o Poder Judiciário para cobrança de títulos executivos emitidos pelo TCE-GO.
 * **E)** O Procurador-Geral de Contas é livremente nomeado pelo Presidente do TCE-GO, sem participação do Governador do Estado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -560,9 +610,10 @@ De acordo com o artigo 30 da Constituição do Estado de Goiás e a jurisprudên
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 4. Fontes Oficiais e Referências Bibliográficas
 

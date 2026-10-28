@@ -5,7 +5,10 @@
 > **Arquivo:** `04_contratos_administrativos_fiscalizacao_alteracoes_e_sancoes.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa Oficial do Edital
 - Contratos administrativos: conceito, características, formalização e cláusulas exorbitantes.
@@ -19,27 +22,35 @@
 - Sanções administrativas: advertência, multa, impedimento de licitar e declaração de inidoneidade.
 - Processo administrativo sancionador e reabilitação.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Conceito, Características e Cláusulas Exorbitantes dos Contratos Administrativos](#1-conceito-caracteristicas-e-clausulas-exorbitantes-dos-contratos-administrativos)
-    - [1.1 Características Fundamentais e Formalização](#11-caracteristicas-fundamentais-e-formalizacao)
-    - [1.2 Cláusulas Exorbitantes e Restrição à Exceção do Contrato Não Cumprido](#12-clausulas-exorbitantes-e-restricao-a-excecao-do-contrato-nao-cumprido)
-- [2. Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)](#2-garantias-contratuais-e-seguro-garantia-com-clausula-de-retomada-step-in-rights)
-- [3. Duração e Prorrogação dos Contratos Administrativos](#3-duracao-e-prorrogacao-dos-contratos-administrativos)
-    - [3.1 Serviços e Fornecimentos Contínuos (Regra 5 + 5 = Até 10 Anos)](#31-servicos-e-fornecimentos-continuos-regra-5-5-ate-10-anos)
-    - [3.2 Contratos por Escopo](#32-contratos-por-escopo)
-- [4. Gestão, Fiscalização e Responsabilidade Trabalhista do Estado](#4-gestao-fiscalizacao-e-responsabilidade-trabalhista-do-estado)
-    - [4.1 Estrutura de Gestão e Fiscalização Contratual](#41-estrutura-de-gestao-e-fiscalizacao-contratual)
-    - [4.2 Responsabilidade Trabalhista e Previdenciária: O Tema 246 do STF](#42-responsabilidade-trabalhista-e-previdenciaria-o-tema-246-do-stf)
-    - [4.3 Recebimento Provisório e Definitivo do Objeto](#43-recebimento-provisorio-e-definitivo-do-objeto)
-- [5. Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro](#5-alteracoes-contratuais-e-manutencao-do-equilibrio-economico-financeiro)
-    - [5.1 Alterações Unilaterais e Consensuais: Limites de 25% e 50%](#51-alteracoes-unilaterais-e-consensuais-limites-de-25-e-50)
-    - [5.2 Instrumentos de Recomposição: Reajuste, Repactuação e Revisão](#52-instrumentos-de-recomposicao-reajuste-repactuacao-e-revisao)
-- [6. Infrações, Sistema Sancionador e Processo de Reabilitação](#6-infracoes-sistema-sancionador-e-processo-de-reabilitacao)
-- [7. Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
+
+1. [Teoria Aprofundada e Pontos Críticos](#teoria-aprofundada-e-pontos-criticos)
+    1. [Conceito, Características e Cláusulas Exorbitantes dos Contratos Administrativos](#1-conceito-caracteristicas-e-clausulas-exorbitantes-dos-contratos-administrativos)
+    2. [Teste 099](#Teste-099)
+    3. [Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)](#2-garantias-contratuais-e-seguro-garantia-com-clausula-de-retomada-step-in-rights)
+    4. [Teste 100](#Teste-100)
+    5. [Duração e Prorrogação dos Contratos Administrativos](#3-duracao-e-prorrogacao-dos-contratos-administrativos)
+    6. [Teste 101](#Teste-101)
+    7. [Gestão, Fiscalização e Responsabilidade Trabalhista do Estado](#4-gestao-fiscalizacao-e-responsabilidade-trabalhista-do-estado)
+    8. [Teste 102](#Teste-102)
+    9. [Teste 103](#Teste-103)
+    10. [Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro](#5-alteracoes-contratuais-e-manutencao-do-equilibrio-economico-financeiro)
+    11. [Teste 104](#Teste-104)
+    12. [Teste 105](#Teste-105)
+    13. [Teste 106](#Teste-106)
+    14. [Infrações, Sistema Sancionador e Processo de Reabilitação](#6-infracoes-sistema-sancionador-e-processo-de-reabilitacao)
+    15. [Teste 107](#Teste-107)
+    16. [Teste 108](#Teste-108)
+    17. [Teste 109](#Teste-109)
+2. [Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 📖 Teoria Aprofundada e Pontos Críticos
 
@@ -80,7 +91,8 @@ flowchart TD
 
 
 
-### Questão 01 (FCC - Analista de Controle Externo / TCE-GO)
+### Teste 099
+**(FCC - Analista de Controle Externo / TCE-GO)**
 Os contratos administrativos disciplinados pela Lei nº 14.133/2021 distinguem-se dos contratos privados comuns pela presença das denominadas cláusulas exorbitantes, que conferem prerrogativas especiais ao Poder Público.
 
 A respeito das cláusulas exorbitantes positivadas no art. 104 da Nova Lei de Licitações, assinale a afirmativa correta.
@@ -90,6 +102,9 @@ A respeito das cláusulas exorbitantes positivadas no art. 104 da Nova Lei de Li
 * **C)** O regime jurídico dos contratos administrativos confere à Administração a prerrogativa de modificá-los unilateralmente para melhor adequação às finalidades de interesse público, respeitado o equilíbrio econômico-financeiro originário e os limites legais de alteração.
 * **D)** O contratado pode suspender de imediato o cumprimento de suas obrigações no dia seguinte ao primeiro atraso no pagamento de faturas pelo Poder Público, ante a aplicação pura da exceptio non adimpleti contractus.
 * **E)** As cláusulas exorbitantes autorizam o gestor público a impor sanções disciplinares penais privativas de liberdade aos diretores da empresa contratada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -126,7 +141,8 @@ Para combater o problema crônico nacional de paralisação e abandono de obras 
 
 ---
 
-### Questão 02 (FCC - Analista Judiciário)
+### Teste 100
+**(FCC - Analista Judiciário)**
 Em uma licitação de obra pública de grande vulto (orçada em R$ 300 milhões) para construção de um complexo penitenciário de segurança máxima, o edital estabeleceu a obrigatoriedade de contratação de seguro-garantia com previsão de cláusula de retomada (*step-in rights*).
 
 De acordo com o art. 102 da Lei Federal nº 14.133/2021, a **cláusula de retomada no seguro-garantia**:
@@ -136,6 +152,9 @@ De acordo com o art. 102 da Lei Federal nº 14.133/2021, a **cláusula de retoma
 * **C)** Exige que a seguradora execute a obra diretamente por seus próprios corretores de seguros.
 * **D)** Isenta a seguradora de qualquer responsabilidade caso a construtora entre em recuperação judicial.
 * **E)** Transfere a titularidade da obra para a seguradora em regime de dação em pagamento definitiva.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -170,7 +189,8 @@ O art. 106 da NLLC estabelece uma revolução para os contratos de serviços e f
 
 
 
-### Questão 03 (FGV - Auditor de Controle Externo / TCE-SC)
+### Teste 101
+**(FGV - Auditor de Controle Externo / TCE-SC)**
 A disciplina da duração e da prorrogação dos contratos administrativos na Lei nº 14.133/2021 (arts. 105 a 114) introduziu inovações substanciais no ordenamento jurídico pátrio.
 
 Quanto ao prazo de vigência dos contratos de serviços e fornecimentos contínuos, assinale a afirmativa correta.
@@ -180,6 +200,9 @@ Quanto ao prazo de vigência dos contratos de serviços e fornecimentos contínu
 * **C)** Os contratos de serviços contínuos podem ser prorrogados por até trinta anos a critério discricionário exclusivo da chefia do órgão contratante.
 * **D)** A prorrogação de contrato de serviço contínuo independe da demonstração da vantajosidade econômica das condições e dos preços contratados.
 * **E)** O contrato por escopo predeterminado extingue-se automaticamente ao final do exercício financeiro, mesmo que a obra não tenha sido concluída pelo particular.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -218,7 +241,8 @@ A responsabilidade do Estado perante terceiros na terceirização de serviços �
 
 
 
-### Questão 04 (FCC - Procurador do Estado / Adaptada)
+### Teste 102
+**(FCC - Procurador do Estado / Adaptada)**
 Na terceirização de serviços de limpeza e vigilância contratados por órgão do Poder Judiciário estadual, a empresa terceirizada contratada tornou-se inadimplente com os salários e verbas rescisórias de seus empregados alocados no tribunal. Os trabalhadores acionaram a Justiça do Trabalho, pleiteando a condenação solidária ou subsidiária do Estado.
 
 À luz do art. 121, § 1º e § 2º, da Lei nº 14.133/2021, da decisão do STF na ADC nº 16 e da tese firmada no Tema nº 246 de Repercussão Geral (RE 760.931), a responsabilidade do Estado:
@@ -228,6 +252,9 @@ Na terceirização de serviços de limpeza e vigilância contratados por órgão
 * **C)** É subsidiária, não decorrendo do mero inadimplemento das obrigações pela empregadora, dependendo de comprovação cabal de conduta culposa da Administração Pública na fiscalização do cumprimento das obrigações contratuais e trabalhistas (culpa in vigilando).
 * **D)** Transmuda-se em responsabilidade civil objetiva pura pelo risco integral das contratações públicas.
 * **E)** Impõe que o Tribunal de Contas substitua o Poder Judiciário trabalhista para condenar o gestor em execução fiscal sumária.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -241,7 +268,8 @@ Na terceirização de serviços de limpeza e vigilância contratados por órgão
 
 ---
 
-### Questão 05 (FCC - Procurador do Estado / Adaptada)
+### Teste 103
+**(FCC - Procurador do Estado / Adaptada)**
 Um empregado terceirizado que prestava serviços de vigilância armada no prédio do Tribunal de Contas ajuizou reclamação trabalhista perante a Justiça do Trabalho em face da empresa terceirizada e do Estado de Goiás, postulando o pagamento de horas extras e verbas rescisórias inadimplidas pela empregadora. O magistrado trabalhista condenou o Estado de forma subsidiária automática, fundamentando a decisão apenas no fato objetivo de a Administração ter se beneficiado da força de trabalho do reclamante.
 
 Diante do art. 121, § 1º, da Lei Federal nº 14.133/2021 e da tese de repercussão geral fixada pelo Supremo Tribunal Federal no **Tema 246**:
@@ -251,6 +279,9 @@ Diante do art. 121, § 1º, da Lei Federal nº 14.133/2021 e da tese de repercus
 * **C)** O Estado responde de forma solidária primária, equiparando-se o terceirizado a servidor público concursado.
 * **D)** A Lei nº 14.133/2021 extinguiu qualquer possibilidade de condenação da Fazenda Pública na Justiça do Trabalho.
 * **E)** O ônus de provar a regularidade fiscalização das guias de FGTS transfere-se automaticamente para o Ministério Público do Trabalho.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -300,7 +331,8 @@ flowchart LR
 
 
 
-### Questão 06 (FGV - Analista de Controle Externo / TCE-GO)
+### Teste 104
+**(FGV - Analista de Controle Externo / TCE-GO)**
 Durante a execução de um contrato administrativo de pavimentação asfáltica, o Poder Legislativo editou nova lei instituindo tributo de competência estadual que incidiu direta e substancialmente sobre os insumos asfálticos utilizados na obra, onerando de forma imprevisível e extraordinária os custos de execução suportados pela contratada.
 
 Diante do regramento sobre a manutenção do equilíbrio econômico-financeiro dos contratos administrativos na Lei nº 14.133/2021, a contratada faz jus a:
@@ -310,6 +342,9 @@ Diante do regramento sobre a manutenção do equilíbrio econômico-financeiro d
 * **C)** Simples reajuste ordinário por índice de inflação geral ao término de doze meses, arcando com o prejuízo tributário intermediário.
 * **D)** Sanção administrativa pecuniária por pleitear alteração de valores pactuados no edital de licitação.
 * **E)** Repactuação de mão de obra exclusiva para ressarcimento de insumos de engenharia.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -323,7 +358,8 @@ Diante do regramento sobre a manutenção do equilíbrio econômico-financeiro d
 
 ---
 
-### Questão 07 (FCC - Analista de Controle Externo / Adaptada TCE-GO)
+### Teste 105
+**(FCC - Analista de Controle Externo / Adaptada TCE-GO)**
 O Tribunal de Contas do Estado de Goiás formalizou contrato administrativo para a reforma predial integral das instalações do edifício de sua sede em Goiânia, pelo valor original de R$ 4.000.000,00. Após o início dos serviços de demolição, os engenheiros detectaram falhas geológicas estruturais nas fundações do subsolo não previstas no projeto original, que exigem obras emergenciais de estaqueamento e contenção, orçadas em R$ 1.600.000,00 adicionais.
 
 Em face dos limites de alteração unilateral estabelecidos no art. 125 da Lei Federal nº 14.133/2021:
@@ -333,6 +369,9 @@ Em face dos limites de alteração unilateral estabelecidos no art. 125 da Lei F
 * **C)** As reformas prediais admitem acréscimos unilaterais ilimitados, desde que autorizados pelo Conselho de Engenharia (CREA).
 * **D)** A Administração é obrigada a anular o contrato e instaurar concurso público para contratação de novos operários.
 * **E)** O limite de 50% aplica-se apenas caso a empreiteira comprove que o aço foi importado de país membro do Mercosul.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -358,7 +397,8 @@ A garantia da equação econômico-financeira original é direito fundamental do
 
 ---
 
-### Questão 08 (FCC - Auditor de Controle Externo / Adaptada)
+### Teste 106
+**(FCC - Auditor de Controle Externo / Adaptada)**
 Durante a execução de um contrato administrativo de serviços de limpeza e conservação predial com dedicação exclusiva de mão de obra celebrado por determinado órgão estadual, ocorreu a homologação de nova Convenção Coletiva de Trabalho da categoria dos trabalhadores da limpeza, com reajuste salarial de 8% nos pisos da categoria. Paralelamente, em outro contrato de fornecimento de combustíveis para viaturas oficiais, a cotação internacional do barril de petróleo subiu extraordinariamente em virtude de eclosão de conflito armado imprevisível no exterior.
 
 Os institutos jurídicos cabíveis para a recomposição financeira dos contratos de limpeza e de combustíveis são, respectivamente:
@@ -368,6 +408,9 @@ Os institutos jurídicos cabíveis para a recomposição financeira dos contrato
 * **C)** Revisão e reajuste por índice inflacionário
 * **D)** Supressão unilateral e rescisão consensual
 * **E)** Encampação e caducidade contratual
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -409,7 +452,8 @@ A reabilitação perante a Administração exige cumulativamente:
 
 
 
-### Questão 09 (FCC - Auditor de Controle Externo)
+### Teste 107
+**(FCC - Auditor de Controle Externo)**
 A respeito do sistema sancionatório previsto no art. 156 da Lei nº 14.133/2021, assinale a afirmativa que apresenta corretamente a disciplina legal da sanção de impedimento de licitar e contratar e da sanção de declaração de inidoneidade.
 
 * **A)** A sanção de impedimento de licitar e contratar impede o sancionado de licitar ou contratar no âmbito da Administração Pública direta e indireta do ente federativo que tiver aplicado a sanção, pelo prazo máximo de três anos.
@@ -417,6 +461,9 @@ A respeito do sistema sancionatório previsto no art. 156 da Lei nº 14.133/2021
 * **C)** A declaração de inidoneidade para licitar ou contratar pode ser aplicada por qualquer agente de contratação de forma monocrática sem parecer prévio.
 * **D)** A sanção de multa pode ser aplicada cumulativamente com a penalidade de declaração de inidoneidade, respeitado o direito à ampla defesa do contratado.
 * **E)** A declaração de inidoneidade tem prazo máximo e improrrogável de sessenta dias de duração.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -430,7 +477,8 @@ A respeito do sistema sancionatório previsto no art. 156 da Lei nº 14.133/2021
 
 ---
 
-### Questão 10 (FCC - Técnico de Controle Externo / TCE-GO)
+### Teste 108
+**(FCC - Técnico de Controle Externo / TCE-GO)**
 Durante a execução de um contrato administrativo de fornecimento de sistemas de segurança eletrônica celebrado por uma Secretaria de Estado, apurou-se em processo sancionador que a empresa contratada cometeu fraude dolosa ao apresentar certidões negativas tributárias ideologicamente falsas e tentar subornar o fiscal do contrato. O Secretário de Estado aplicou à infratora a penalidade de **Declaração de Inidoneidade para Licitar ou Contratar**.
 
 À luz do regime sancionatório da Lei Federal nº 14.133/2021, a sanção aplicada:
@@ -440,6 +488,9 @@ Durante a execução de um contrato administrativo de fornecimento de sistemas d
 * **C)** Tem vigência perpétua e irreversível, sendo vedada qualquer reabilitação jurídica do sancionado.
 * **D)** Pode ser aplicada monocraticamente pelo fiscal administrativo do contrato em despacho ordinário.
 * **E)** Extingue-se automaticamente caso a empresa altere sua denominação social e seu quadro de sócios.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -457,7 +508,8 @@ Durante a execução de um contrato administrativo de fornecimento de sistemas d
 
 
 
-### Questão 11 (FGV - Analista Jurídico de Controle Externo / TCE-GO)
+### Teste 109
+**(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
 O art. 163 da Lei nº 14.133/2021 estabelece os requisitos cumulativos indispensáveis para o processamento do pedido de reabilitação do licitante ou contratado sancionado com impedimento ou declaração de inidoneidade.
 
 Conforme a legislação em vigor, a reabilitação exige:
@@ -467,6 +519,9 @@ Conforme a legislação em vigor, a reabilitação exige:
 * **C)** A mera desfiliação dos sócios punidos da junta comercial, transferindo o CNPJ para parentes colaterais.
 * **D)** A simples declaração unilateral da empresa afirmando ter modificado seu código de conduta interno.
 * **E)** O perdão tácito decorrente do decurso de seis meses da assinatura do contrato sancionado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -478,7 +533,10 @@ Conforme a legislação em vigor, a reabilitação exige:
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Recomendadas na Internet
 - [Lei Federal nº 14.133/2021 - Artigos 89 a 123 (Formalização, Garantias, Vigência e Execução Contratual)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art89)  

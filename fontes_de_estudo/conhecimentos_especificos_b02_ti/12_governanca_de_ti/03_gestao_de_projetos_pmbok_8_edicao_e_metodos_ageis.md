@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_gestao_de_projetos_pmbok_8_edicao_e_metodos_ageis.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Fundamentos de Gestão de Projetos (PMI - Project Management Institute)
@@ -16,28 +19,48 @@
 - Análise de Valor Agregado (EVA / EVM: VP, CR, VA, IDP, IDC)
 - Gestão de Portfólio de TI (alinhamento estratégico, governança de programas e priorização)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI](#1-fundamentos-de-gestao-de-projetos-e-mudanca-de-paradigma-do-pmi)
-    - [1.1 Conceito de Projeto vs. Operação](#11-conceito-de-projeto-vs-operacao)
-    - [1.2 Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#12-hierarquia-pmi-projetos-programas-e-portfolios-de-tic)
-    - [1.3 O Sistema de Entrega de Valor (System for Value Delivery)](#13-o-sistema-de-entrega-de-valor-system-for-value-delivery)
-- [2. Os 12 Princípios de Entrega de Projetos](#2-os-12-principios-de-entrega-de-projetos)
-- [3. Os 8 Domínios de Desempenho do Projeto](#3-os-8-dominios-de-desempenho-do-projeto)
-- [4. Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)](#4-ciclos-de-vida-metodos-ageis-abordagens-hibridas-e-adaptacao-tailoring)
-    - [4.1 Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)](#41-comparativo-dos-ciclos-de-vida-preditivo-a-adaptativo)
-    - [4.2 Abordagens Híbridas na Administração Pública](#42-abordagens-hibridas-na-administracao-publica)
-    - [4.3 Adaptação Contextual (Tailoring)](#43-adaptacao-contextual-tailoring)
-- [5. Análise de Valor Agregado (EVM / EVA)](#5-analise-de-valor-agregado-evm-eva)
-    - [5.1 Variáveis Fundamentais (VP, CR e VA)](#51-variaveis-fundamentais-vp-cr-e-va)
-    - [5.2 Variações e Índices de Desempenho (IDP e IDC)](#52-variacoes-e-indices-de-desempenho-idp-e-idc)
-- [6. Gestão de Portfólio de TI e Governança de Programas](#6-gestao-de-portfolio-de-ti-e-governanca-de-programas)
-- [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
+
+1. [Teoria Aprofundada & Conceitos Essenciais](#teoria-aprofundada-conceitos-essenciais)
+2. [Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI](#1-fundamentos-de-gestao-de-projetos-e-mudanca-de-paradigma-do-pmi)
+    1. [Conceito de Projeto vs. Operação](#11-conceito-de-projeto-vs-operacao)
+    2. [Teste 485](#Teste-485)
+    3. [Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#12-hierarquia-pmi-projetos-programas-e-portfolios-de-tic)
+    4. [Teste 486](#Teste-486)
+    5. [O Sistema de Entrega de Valor (System for Value Delivery)](#13-o-sistema-de-entrega-de-valor-system-for-value-delivery)
+    6. [Teste 487](#Teste-487)
+3. [Os 12 Princípios de Entrega de Projetos](#2-os-12-principios-de-entrega-de-projetos)
+    1. [Teste 488](#Teste-488)
+4. [Os 8 Domínios de Desempenho do Projeto](#3-os-8-dominios-de-desempenho-do-projeto)
+    1. [Teste 489](#Teste-489)
+5. [Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)](#4-ciclos-de-vida-metodos-ageis-abordagens-hibridas-e-adaptacao-tailoring)
+    1. [Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)](#41-comparativo-dos-ciclos-de-vida-preditivo-a-adaptativo)
+    2. [Abordagens Híbridas na Administração Pública](#42-abordagens-hibridas-na-administracao-publica)
+    3. [Teste 490](#Teste-490)
+    4. [Adaptação Contextual (Tailoring)](#43-adaptacao-contextual-tailoring)
+    5. [Teste 491](#Teste-491)
+6. [Análise de Valor Agregado (EVM / EVA)](#5-analise-de-valor-agregado-evm-eva)
+    1. [Variáveis Fundamentais (VP, CR e VA)](#51-variaveis-fundamentais-vp-cr-e-va)
+    2. [Teste 492](#Teste-492)
+    3. [Variações e Índices de Desempenho (IDP e IDC)](#52-variacoes-e-indices-de-desempenho-idp-e-idc)
+    4. [Teste 493](#Teste-493)
+7. [Gestão de Portfólio de TI e Governança de Programas](#6-gestao-de-portfolio-de-ti-e-governanca-de-programas)
+    1. [Teste 494](#Teste-494)
+8. [Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
 
 ---
 
+
 ## 📖 Teoria Aprofundada & Conceitos Essenciais
+
+
+---
+
 
 ## 1. Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI
 
@@ -53,7 +76,8 @@ Segundo a padronização do Project Management Institute (PMI), um **Projeto** �
 
 ---
 
-### Questão 01 (FCC - Analista Judiciário - Tecnologia da Informação - Adaptada)
+### Teste 485
+**(FCC - Analista Judiciário - Tecnologia da Informação - Adaptada)**
 **Enunciado:** O Guia PMBOK estabelece distinções fundamentais entre as características de um projeto e as rotinas de uma operação contínua dentro de uma organização de TI. Acerca dessa comparação, assinale a alternativa correta:  
 
 * **A)** Projetos são contínuos e repetitivos, visando unicamente manter os sistemas legados funcionando sem qualquer alteração de infraestrutura.
@@ -61,6 +85,9 @@ Segundo a padronização do Project Management Institute (PMI), um **Projeto** �
 * **C)** Um projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto as operações sustentam a execução contínua do negócio.
 * **D)** A elaboração progressiva é uma característica exclusiva das operações financeiras, sendo expressamente vedada na gestão de projetos de tecnologia da informação.
 * **E)** Projetos de desenvolvimento de software prescindem de objetivos ou escopo delimitado, devendo prolongar-se indefinidamente pela vida útil da instituição.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -103,7 +130,8 @@ flowchart TD
 
 ---
 
-### Questão 02 (FCC - Técnico de Controle Externo / TI - Adaptada)
+### Teste 486
+**(FCC - Técnico de Controle Externo / TI - Adaptada)**
 **Enunciado:** A respeito da estrutura de governança de projetos, programas e portfólios preconizada pelas boas práticas do Project Management Institute (PMI), assinale a afirmativa correta:  
 
 * **A)** Um portfólio consiste exclusivamente em um conjunto de projetos que possuem dependências técnicas operacionais obrigatórias e sequenciais entre si.
@@ -111,6 +139,9 @@ flowchart TD
 * **C)** Um projeto é uma iniciativa permanente da organização que visa executar rotinas padronizadas e contínuas para manutenção do suporte de TI.
 * **D)** O gerenciamento de portfólio foca exclusivamente no acompanhamento da velocidade diária de codificação dos desenvolvedores de sistemas.
 * **E)** A gestão de programas visa substituir os órgãos colegiados e a alta administração do Tribunal de Contas nas deliberações de planejamento estratégico.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -139,7 +170,8 @@ A gestão de projetos passou a ser compreendida dentro de um **Sistema de Entreg
 
 ---
 
-### Questão 03 (FGV - TRT - Analista Judiciário - Tecnologia da Informação - Adaptada)
+### Teste 487
+**(FGV - TRT - Analista Judiciário - Tecnologia da Informação - Adaptada)**
 **Enunciado:** Nas diretrizes contemporâneas do Guia PMBOK (7ª e 8ª edições), a gestão de projetos é articulada dentro de um 'Sistema de Entrega de Valor' (*System for Value Delivery*), superando o modelo puramente prescritivo de processos mecânicos. A respeito dos princípios e desse sistema de entrega de valor, assinale a alternativa correta:  
 
 * **A)** O sistema de entrega de valor preconiza que o único objetivo do gestor de projetos é a geração burocrática de documentos e artefatos em papel, desconsiderando se o produto gerou valor ao negócio.
@@ -147,6 +179,9 @@ A gestão de projetos passou a ser compreendida dentro de um **Sistema de Entreg
 * **C)** O PMBOK estabelece que a liderança em projetos deve ser autoritária e centralizadora, sendo proibida a adoção de posturas de liderança servidora em equipes ágeis.
 * **D)** O sistema de entrega de valor é restrito a empresas privadas com fins lucrativos, sendo inaplicável a órgãos públicos ou tribunais de contas.
 * **E)** O Guia PMBOK aboliu totalmente a gestão de riscos e a preocupação com a qualidade técnica das entregas de software.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -159,7 +194,10 @@ A gestão de projetos passou a ser compreendida dentro de um **Sistema de Entreg
 > **Gabarito: B**
 
 
+
+
 ---
+
 
 ## 2. Os 12 Princípios de Entrega de Projetos
 
@@ -182,7 +220,8 @@ Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipe
 
 ---
 
-### Questão 04 (FCC - Analista de TI / Sistemas - Adaptada)
+### Teste 488
+**(FCC - Analista de TI / Sistemas - Adaptada)**
 **Enunciado:** O padrão de gestão de projetos moderno do Guia PMBOK abandonou a estrutura estritamente processual e prescritiva, adotando uma abordagem holística estruturada em 12 Princípios de Entrega de Projetos e 8 Domínios de Desempenho. O princípio que estabelece a necessidade deliberada de ajustar e personalizar a governança, os métodos, as ferramentas e a quantidade de documentação de acordo com as características específicas, o porte e o nível de incerteza de cada projeto denomina-se:  
 
 * **A)** Stewardship (Administração Diligente).
@@ -190,6 +229,9 @@ Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipe
 * **C)** Tailoring (Adaptação Contextual).
 * **D)** Quality (Incorporação de Qualidade).
 * **E)** Complexity (Navegação na Complexidade).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -201,8 +243,9 @@ Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipe
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 3. Os 8 Domínios de Desempenho do Projeto
@@ -234,7 +277,8 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)
+### Teste 489
+**(FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)**
 **Enunciado:** O Guia PMBOK define os 8 Domínios de Desempenho do Projeto (*Project Performance Domains*). O domínio que trata de atividades como o gerenciamento do fluxo de trabalho físico e digital, a alocação eficiente de recursos materiais, a remoção de impedimentos e o gerenciamento contínuo das aquisições e contratos durante o ciclo diário do projeto denomina-se:  
 
 * **A)** Domínio das Partes Interessadas (*Stakeholders*).
@@ -242,6 +286,9 @@ flowchart TD
 * **C)** Domínio do Trabalho do Projeto (*Project Work*).
 * **D)** Domínio da Medição (*Measurement*).
 * **E)** Domínio da Incerteza (*Uncertainty*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -253,8 +300,9 @@ flowchart TD
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 4. Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)
@@ -295,7 +343,8 @@ flowchart TD
 
 ---
 
-### Questão 06 (FCC - Auditor Federal de Controle Externo / TI - Adaptada)
+### Teste 490
+**(FCC - Auditor Federal de Controle Externo / TI - Adaptada)**
 **Enunciado:** No âmbito do Domínio de Desempenho da Abordagem de Desenvolvimento e Ciclo de Vida do PMBOK, a escolha do ciclo de vida adequado para um projeto de TI deve equilibrar previsibilidade e agilidade. Ao planejar o desenvolvimento de um grande sistema previdenciário público, a equipe optou por fixar o escopo macro, o limite orçamentário e os marcos regulatórios de conformidade em um plano formal inicial, enquanto os módulos de software são implementados e homologados em sprints quinzenais por times ágeis. Essa configuração caracteriza uma abordagem:  
 
 * **A)** Preditiva pura (Cascata).
@@ -303,6 +352,9 @@ flowchart TD
 * **C)** Caótica descontrolada.
 * **D)** Exclusivamente iterativa sem entregas funcionais.
 * **E)** Estritamente linear sem feedback.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -328,7 +380,8 @@ O princípio do **Tailoring** dita que não existe uma metodologia universal. Ca
 
 ---
 
-### Questão 07 (FCC - TRT-14 - Analista Judiciário - Tecnologia da Informação - Adaptada)
+### Teste 491
+**(FCC - TRT-14 - Analista Judiciário - Tecnologia da Informação - Adaptada)**
 **Enunciado:** O Guia PMBOK enfatiza o princípio da Adaptação Contextual (*Tailoring*), reconhecendo que abordagens de desenvolvimento (preditivas, ágeis ou híbridas) devem ser moldadas às características exclusivas de cada projeto e organização. Acerca do *Tailoring* e dos ciclos de vida de projetos, assinale a alternativa correta:  
 
 * **A)** Em abordagens puramente preditivas (em cascata), o escopo, prazo e custo são definidos em detalhes nas fases iniciais, visando minimizar alterações ao longo do ciclo.
@@ -336,6 +389,9 @@ O princípio do **Tailoring** dita que não existe uma metodologia universal. Ca
 * **C)** Métodos ágeis recusam qualquer planejamento inicial, proibindo a definição de visões de produto ou marcos de release.
 * **D)** Em projetos com alto grau de incerteza de requisitos e tecnologias inovadoras, a abordagem mais indicada é o ciclo preditivo rígido com proibição de entregas incrementais.
 * **E)** O princípio do *tailoring* impede que organizações públicas combinem elementos de governança preditiva contratual com frameworks ágeis (como Scrum) de desenvolvimento.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -348,7 +404,10 @@ O princípio do **Tailoring** dita que não existe uma metodologia universal. Ca
 > **Gabarito: A**
 > 
 
+
+
 ---
+
 
 ## 5. Análise de Valor Agregado (EVM / EVA)
 
@@ -362,7 +421,8 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 
 ---
 
-### Questão 08 (FCC - Auditor de Controle Externo / TI - Adaptada)
+### Teste 492
+**(FCC - Auditor de Controle Externo / TI - Adaptada)**
 **Enunciado:** A Análise de Valor Agregado (EVM) fundamenta-se em três grandezas quantitativas centrais para aferir a saúde econômico-temporal de um projeto: Valor Planejado (VP), Custo Real (CR) e Valor Agregado (VA). Sobre essas variáveis, assinale a alternativa correta:  
 
 * **A)** O Valor Agregado (VA) corresponde ao montante de recursos financeiros transferido compulsoriamente aos acionistas da empresa contratada a título de dividendos.
@@ -370,6 +430,9 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 * **C)** O Valor Planejado (VP) representa o orçamento autorizado e alocado para o trabalho que estava programado para ser executado até a data da medição.
 * **D)** O Valor Agregado (VA) é calculado somando-se as notas fiscais emitidas pelo fornecedor independentemente de o serviço ter sido homologado ou entregue.
 * **E)** As métricas de EVM podem ser calculadas apenas após o encerramento formal do projeto, sendo vedado seu uso durante a fase de execução.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -417,7 +480,8 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 
 ---
 
-### Questão 09 (FCC - Analista de TI / Gestão de Projetos - Adaptada)
+### Teste 493
+**(FCC - Analista de TI / Gestão de Projetos - Adaptada)**
 **Enunciado:** Em uma auditoria de acompanhamento de um projeto estratégico de desenvolvimento de software em um Tribunal de Contas, o fiscal técnico de TI apurou os seguintes valores na Análise de Valor Agregado (EVM) ao término do quinto mês:  
 
 - Valor Planejado (VP): R$ 400.000,00  
@@ -430,6 +494,9 @@ Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e
 * **C)** Rigorosamente no prazo (IDP = 1,00) e com equilíbrio fiscal absoluto (IDC = 1,00).
 * **D)** Atrasado no cronograma (IDP = 0,80) e com prejuízo financeiro grave, estourando os custos orçados (IDC = 0,937).
 * **E)** Adiantado no cronograma (IDP = 1,33) e com custos favoráveis (IDC = 1,20).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -453,7 +520,10 @@ Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e
 | **$IDP > 1$ e $IDC < 1$** | **Adiantado** ($VA > VP$) | **Acima do Orçamento** ($VA < CR$) | Projeto acelerado, mas estourando orçamento. |
 | **$IDP < 1$ e $IDC < 1$** | **Atrasado** ($VA < VP$) | **Acima do Orçamento** ($VA < CR$) | **Cenário Crítico:** Atrasado e gastando mais que o previsto. |
 
+
+
 ---
+
 
 ## 6. Gestão de Portfólio de TI e Governança de Programas
 
@@ -465,7 +535,8 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 
 ---
 
-### Questão 10 (FCC - Tribunal de Contas - Auditor de TI - Adaptada)
+### Teste 494
+**(FCC - Tribunal de Contas - Auditor de TI - Adaptada)**
 **Enunciado:** A Gestão de Portfólio de TI é o elo estratégico que alinha as decisões de investimento em tecnologia às prioridades institucionais de um Tribunal de Contas. A respeito das atribuições de governança e práticas de gestão de portfólio, assinale a afirmativa correta:  
 
 * **A)** A gestão de portfólio visa garantir que a organização execute a combinação ideal de projetos e programas que maximize o valor institucional e respeite a capacidade orçamentária e operacional.
@@ -473,6 +544,9 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 * **C)** A priorização de projetos em um portfólio público deve basear-se exclusivamente na ordem cronológica de abertura de chamados no help desk, sem uso de modelos de pontuação estratégica.
 * **D)** A governança de portfólio determina que, uma vez aprovado pelo Comitê Estratégico, um projeto jamais pode ser cancelado ou suspenso, ainda que perca sua viabilidade técnica ou legal.
 * **E)** O gerenciamento de portfólio é atribuição privativa do estagiário de suporte técnico de primeiro nível, dispensando apreciação pelo Comitê de Governança de TI.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -485,7 +559,10 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 > **Gabarito: A**
 
 
+
+
 ---
+
 
 ## 6. Fontes Recomendadas na Internet
 

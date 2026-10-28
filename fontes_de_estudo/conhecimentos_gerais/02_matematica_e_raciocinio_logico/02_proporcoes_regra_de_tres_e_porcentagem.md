@@ -5,7 +5,10 @@
 > **Arquivo:** `02_proporcoes_regra_de_tres_e_porcentagem.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Números e grandezas proporcionais: razões e proporções.
@@ -13,29 +16,44 @@
 - Regra de três simples (direta e inversa).
 - Porcentagem e problemas envolvendo regra de três simples, cálculos de porcentagem, acréscimos e descontos.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Razões, Proporções e Propriedades Fundamentais](#1-razoes-proporcoes-e-propriedades-fundamentais)
-    - [1.1 Conceito de Razão e Grandezas Comensuráveis](#11-conceito-de-razao-e-grandezas-comensuraveis)
-    - [1.2 Proporções e a Propriedade Fundamental](#12-proporcoes-e-a-propriedade-fundamental)
-    - [1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade](#13-propriedade-da-soma-dos-termos-e-constante-de-proporcionalidade)
-- [2. Divisão em Partes Proporcionais](#2-divisao-em-partes-proporcionais)
-    - [2.1 Divisão Diretamente Proporcional com a Constante k](#21-divisao-diretamente-proporcional-com-a-constante-k)
-    - [2.2 Divisão Inversamente Proporcional e o Método do MMC](#22-divisao-inversamente-proporcional-e-o-metodo-do-mmc)
-    - [2.3 Divisão Proporcional Composta ou Mista](#23-divisao-proporcional-composta-ou-mista)
-- [3. Classificação de Grandezas e Regra de Três Simples](#3-classificacao-de-grandezas-e-regra-de-tres-simples)
-    - [3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicacao-cruzada)
-    - [3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicacao-em-linha-reta)
-    - [3.3 Método Prático das Setas e Identificação de Armadilhas](#33-metodo-pratico-das-setas-e-identificacao-de-armadilhas)
-- [4. Porcentagem, Fatores Multiplicadores e Variações](#4-porcentagem-fatores-multiplicadores-e-variacoes)
-    - [4.1 Conceito e Fatores de Aumento e Desconto](#41-conceito-e-fatores-de-aumento-e-desconto)
-    - [4.2 Aumentos e Descontos Sucessivos Cumulativos](#42-aumentos-e-descontos-sucessivos-cumulativos)
-    - [4.3 Inversão da Base de Referência Percentual](#43-inversao-da-base-de-referencia-percentual)
-    - [4.4 Diferença entre Pontos Percentuais e Variação Percentual](#44-diferenca-entre-pontos-percentuais-e-variacao-percentual)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Razões, Proporções e Propriedades Fundamentais](#1-razoes-proporcoes-e-propriedades-fundamentais)
+    1. [Conceito de Razão e Grandezas Comensuráveis](#11-conceito-de-razao-e-grandezas-comensuraveis)
+    2. [Proporções e a Propriedade Fundamental](#12-proporcoes-e-a-propriedade-fundamental)
+    3. [Propriedade da Soma dos Termos e Constante de Proporcionalidade](#13-propriedade-da-soma-dos-termos-e-constante-de-proporcionalidade)
+    4. [Teste 082](#Teste-082)
+2. [Divisão em Partes Proporcionais](#2-divisao-em-partes-proporcionais)
+    1. [Divisão Diretamente Proporcional com a Constante k](#21-divisao-diretamente-proporcional-com-a-constante-k)
+    2. [Teste 083](#Teste-083)
+    3. [Divisão Inversamente Proporcional e o Método do MMC](#22-divisao-inversamente-proporcional-e-o-metodo-do-mmc)
+    4. [Teste 084](#Teste-084)
+    5. [Divisão Proporcional Composta ou Mista](#23-divisao-proporcional-composta-ou-mista)
+    6. [Teste 085](#Teste-085)
+3. [Classificação de Grandezas e Regra de Três Simples](#3-classificacao-de-grandezas-e-regra-de-tres-simples)
+    1. [Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicacao-cruzada)
+    2. [Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicacao-em-linha-reta)
+    3. [Teste 086](#Teste-086)
+    4. [Método Prático das Setas e Identificação de Armadilhas](#33-metodo-pratico-das-setas-e-identificacao-de-armadilhas)
+    5. [Teste 087](#Teste-087)
+4. [Porcentagem, Fatores Multiplicadores e Variações](#4-porcentagem-fatores-multiplicadores-e-variacoes)
+    1. [Conceito e Fatores de Aumento e Desconto](#41-conceito-e-fatores-de-aumento-e-desconto)
+    2. [Aumentos e Descontos Sucessivos Cumulativos](#42-aumentos-e-descontos-sucessivos-cumulativos)
+    3. [Teste 088](#Teste-088)
+    4. [Teste 089](#Teste-089)
+    5. [Inversão da Base de Referência Percentual](#43-inversao-da-base-de-referencia-percentual)
+    6. [Teste 090](#Teste-090)
+    7. [Diferença entre Pontos Percentuais e Variação Percentual](#44-diferenca-entre-pontos-percentuais-e-variacao-percentual)
+    8. [Teste 091](#Teste-091)
+5. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Razões, Proporções e Propriedades Fundamentais
 
@@ -72,7 +90,7 @@ $$\frac{a}{b} = \frac{c}{d} = \frac{e}{f} = k \implies \frac{a + c + e}{b + d + 
 Essa propriedade é a base algébrica definitiva para solucionar repartições orçamentárias e partilhas de bens em auditoria sem necessidade de recorrer a sistemas lineares extensos.
 
 
-### Questão 01
+### Teste 082
 **(FCC – TRT – Analista Judiciário)**  
 Em um tribunal, a razão entre o número de processos físicos e o número de processos eletrônicos que aguardavam triagem era de $3$ para $7$. Se o número total de processos aguardando triagem era de $250$, quantos processos eletrônicos havia a mais do que processos físicos?
 
@@ -81,6 +99,9 @@ Em um tribunal, a razão entre o número de processos físicos e o número de pr
 * **C)** $120$
 * **D)** $140$
 * **E)** $175$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -99,9 +120,10 @@ Em um tribunal, a razão entre o número de processos físicos e o número de pr
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 2. Divisão em Partes Proporcionais
 
@@ -120,7 +142,7 @@ Repartir um total $V$ em partes $x, y, z$ diretamente proporcionais aos pesos $a
 
 ---
 
-### Questão 02
+### Teste 083
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Uma gratificação extraordinária no valor de R$ 18.000,00 foi dividida entre três auditores de controle externo em partes diretamente proporcionais aos seus respectivos tempos de atuação no órgão: $2$ anos, $3$ anos e $5$ anos. O auditor com maior tempo de serviço recebeu:
 
@@ -129,6 +151,9 @@ Uma gratificação extraordinária no valor de R$ 18.000,00 foi dividida entre t
 * **C)** R$ 9.000,00
 * **D)** R$ 10.000,00
 * **E)** R$ 12.000,00
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -165,7 +190,7 @@ Repartir um montante $V$ em partes $x, y, z$ inversamente proporcionais aos coef
 
 ---
 
-### Questão 03
+### Teste 084
 **(FCC – Auditor Fiscal da Receita – Adaptada TCE-GO)**  
 A Diretoria de Fiscalização de um Tribunal de Contas distribuiu um bônus de incentivo de R$ 45.000,00 entre três equipes técnicas de auditoria ($A$, $B$ e $C$) em partes **inversamente proporcionais** ao número de dias de atraso na entrega dos seus respectivos relatórios finais. A equipe $A$ atrasou 2 dias; a equipe $B$ atrasou 3 dias; e a equipe $C$ atrasou 4 dias.
 
@@ -176,6 +201,9 @@ Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pe
 * **C)** R$ 12.000,00
 * **D)** R$ 13.500,00
 * **E)** R$ 15.000,00
+
+
+---
 
 > **Comentário Detalhado:**
 > Resolução sistemática da partilha inversamente proporcional:
@@ -213,7 +241,7 @@ Reduzem-se as frações resultantes a termos inteiros via MMC e aplica-se o mét
 
 ---
 
-### Questão 04
+### Teste 085
 **(FCC – TCE-GO – Auditor de Controle Externo)**  
 Uma gratificação especial de desempenho no valor de R$ 36.000,00 foi dividida entre dois auditores, Rodrigo e Samuel. O regulamento determinou que a divisão fosse **diretamente proporcional ao tempo de serviço** no Tribunal (Rodrigo tem 6 anos e Samuel tem 4 anos) e, simultaneamente, **inversamente proporcional ao número de processos pendentes** de julgamento em seus gabinetes (Rodrigo tem 3 processos pendentes e Samuel tem 1 processo pendente).
 
@@ -224,6 +252,9 @@ Com base nessas regras, a quantia recebida por Samuel foi de:
 * **C)** R$ 18.000,00
 * **D)** R$ 21.600,00
 * **E)** R$ 24.000,00
+
+
+---
 
 > **Comentário Detalhado:**
 > Resolução de divisão composta (direta e inversa concomitantemente):
@@ -251,8 +282,9 @@ Com base nessas regras, a quantia recebida por Samuel foi de:
 > 
 > **Gabarito: E**
 
----
 
+
+---
 
 
 ## 3. Classificação de Grandezas e Regra de Três Simples
@@ -279,7 +311,7 @@ Duas grandezas são **Inversamente Proporcionais (IP)** quando a variação de u
 
 ---
 
-### Questão 05
+### Teste 086
 **(FCC – TRT – Analista Judiciário)**  
 Uma equipe de 6 técnicos administrativos, trabalhando com produtividades idênticas e constantes, consegue auditar e validar 120 relatórios de diárias em 8 dias úteis de trabalho. 
 
@@ -290,6 +322,9 @@ Se o Tribunal de Contas alocar mais 2 técnicos com a mesma produtividade para e
 * **C)** 6 dias
 * **D)** 7 dias
 * **E)** 10 dias
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -329,7 +364,7 @@ Para não errar na prova:
 4. Se a seta for no mesmo sentido, multiplique em cruz; se for em sentido inverso, multiplique em linha.
 
 
-### Questão 06
+### Teste 087
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Em uma unidade técnica de auditoria, $6$ auditores de mesmo rendimento funcional analisam $180$ prestações de contas trabalhando $8$ horas por dia durante $10$ dias. Se a equipe for reforçada por mais $2$ auditores de igual produtividade, quantas prestações de contas eles conseguirão analisar trabalhando $6$ horas por dia durante $15$ dias?
 
@@ -338,6 +373,9 @@ Em uma unidade técnica de auditoria, $6$ auditores de mesmo rendimento funciona
 * **C)** $270$
 * **D)** $300$
 * **E)** $320$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -356,9 +394,10 @@ Em uma unidade técnica de auditoria, $6$ auditores de mesmo rendimento funciona
 >
 > **Gabarito: C**
 
----
+
 
 ---
+
 
 ## 4. Porcentagem, Fatores Multiplicadores e Variações
 
@@ -392,7 +431,7 @@ $$F_{\text{acumulado}} = F_1 \times F_2 \times F_3 \times \dots \times F_n$$
 
 ---
 
-### Questão 07
+### Teste 088
 **(FCC – TCE-GO – Técnico de Controle Externo)**  
 Um contrato de prestação de serviços de segurança da informação celebrado pelo Tribunal de Contas previa pagamento mensal de determinado valor $X$. No segundo ano de vigência, o contrato sofreu um **reajuste com acréscimo de 15%**. No terceiro ano, após revisão contratual, foi concedido um **desconto de 10%** aplicado sobre o valor vigente no segundo ano.
 
@@ -403,6 +442,9 @@ Em relação ao valor original $X$ do contrato no primeiro ano, a aplicação su
 * **C)** um desconto real de 3,5%
 * **D)** um desconto real de 5%
 * **E)** nenhuma variação (0%)
+
+
+---
 
 > **Comentário Detalhado:**
 > Análise cumulativa por meio de fatores multiplicadores:
@@ -428,7 +470,7 @@ Em relação ao valor original $X$ do contrato no primeiro ano, a aplicação su
 > **Gabarito: A**
 
 
-### Questão 08
+### Teste 089
 **(FCC – DPE-RS – Analista)**  
 O valor de determinada taxa de emolumentos cartorários sofreu um reajuste de $20\%$ no início do primeiro semestre e, ao final do ano, sofreu um novo aumento sucessivo de $15\%$. Em relação ao valor inicial antes dos dois reajustes, o aumento real total acumulado foi de:
 
@@ -437,6 +479,9 @@ O valor de determinada taxa de emolumentos cartorários sofreu um reajuste de $2
 * **C)** $38{,}0\%$
 * **D)** $40{,}0\%$
 * **E)** $42{,}5\%$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -470,7 +515,7 @@ A base de referência percentual corresponde ao valor que ocupa o denominador da
 
 ---
 
-### Questão 09
+### Teste 090
 **(FCC – TCE-PI – Técnico Judiciário)**  
 Em determinado setor do Tribunal de Contas do Estado de Goiás, o número de processos em meio eletrônico é 25% maior do que o número de processos físicos em papel. 
 
@@ -481,6 +526,9 @@ Em relação ao número de processos eletrônicos, o número de processos em pap
 * **C)** 25%
 * **D)** 30%
 * **E)** 33,3%
+
+
+---
 
 > **Comentário Detalhado:**
 > Problema que exige a técnica de inversão da base de referência percentual:
@@ -516,7 +564,7 @@ Em relação ao número de processos eletrônicos, o número de processos em pap
   A taxa aumentou 2 pontos percentuais, mas sofreu uma elevação relativa real de $20\%$.
 
 
-### Questão 10
+### Teste 091
 **(FCC – TRT-14 – Analista Judiciário)**  
 Em determinado município goiano, a alíquota do Imposto Sobre Serviços (ISS) incidente sobre serviços de informática passou de $2\%$ para $3\%$ da receita bruta. Comparando a alíquota final com a inicial, verifica-se que houve um acréscimo de:
 
@@ -525,6 +573,9 @@ Em determinado município goiano, a alíquota do Imposto Sobre Serviços (ISS) i
 * **C)** $50$ pontos percentuais e uma variação percentual relativa de $1\%$.
 * **D)** $1$ ponto percentual e uma variação percentual relativa de $100\%$.
 * **E)** $1{,}5$ ponto percentual e uma variação percentual relativa de $25\%$.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -537,9 +588,10 @@ Em determinado município goiano, a alíquota do Imposto Sobre Serviços (ISS) i
 >
 > **Gabarito: A**
 
----
+
 
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_conteinerizacao_docker_e_docker_compose.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Conceitos de conteinerização vs. virtualização tradicional
@@ -14,31 +17,47 @@
 - Gestão de dados (Volumes, Bind Mounts e tmpfs) e Redes no Docker
 - Orquestração de múltiplos contêineres com Docker Compose
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos de Conteinerização vs. Virtualização Tradicional](#1-fundamentos-de-conteinerizacao-vs-virtualizacao-tradicional)
-    - [1.1 Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)](#11-maquinas-virtuais-hypervisors-vs-conteineres-kernel-compartilhado)
-    - [1.2 Primitivas Essenciais do Kernel Linux: Namespaces e Control Groups (cgroups)](#12-primitivas-essenciais-do-kernel-linux-namespaces-e-control-groups-cgroups)
-    - [1.3 Arquitetura do Docker Engine: Client, Daemon, containerd, runc e Registries](#13-arquitetura-do-docker-engine-client-daemon-containerd-runc-e-registries)
-    - [1.4 Sistema de Arquivos em Camadas (Overlay2 UnionFS) e Copy-on-Write (CoW)](#14-sistema-de-arquivos-em-camadas-overlay2-unionfs-e-copy-on-write-cow)
-- [2. Construção de Imagens e Anatomia do Dockerfile](#2-construcao-de-imagens-e-anatomia-do-dockerfile)
-    - [2.1 Instruções Canônicas: FROM, WORKDIR, COPY vs. ADD, RUN, ENV vs. ARG](#21-instrucoes-canonicas-from-workdir-copy-vs-add-run-env-vs-arg)
-    - [2.2 Execução de Processos: ENTRYPOINT vs. CMD (Exec Form vs. Shell Form)](#22-execucao-de-processos-entrypoint-vs-cmd-exec-form-vs-shell-form)
-    - [2.3 Exposição de Portas e Segurança: EXPOSE vs. Publicação no Host e Diretiva USER](#23-exposicao-de-portas-e-seguranca-expose-vs-publicacao-no-host-e-diretiva-user)
-    - [2.4 Otimização com Builds de Múltiplos Estágios (Multi-Stage Builds) e Cache de Camadas](#24-otimizacao-com-builds-de-multiplos-estagios-multi-stage-builds-e-cache-de-camadas)
-- [3. Persistência de Dados e Gerenciamento de Armazenamento](#3-persistencia-de-dados-e-gerenciamento-de-armazenamento)
-    - [3.1 Efemeridade da Camada de Leitura e Escrita do Contêiner](#31-efemeridade-da-camada-de-leitura-e-escrita-do-conteiner)
-    - [3.2 Comparativo: Named Volumes vs. Bind Mounts vs. tmpfs Mounts](#32-comparativo-named-volumes-vs-bind-mounts-vs-tmpfs-mounts)
-- [4. Redes no Docker: Drivers e Resolução de Nomes](#4-redes-no-docker-drivers-e-resolucao-de-nomes)
-    - [4.1 Drivers de Rede: bridge, host, none, overlay e macvlan](#41-drivers-de-rede-bridge-host-none-overlay-e-macvlan)
-    - [4.2 Resolução de Nomes por DNS Integrado em Redes Customizadas](#42-resolucao-de-nomes-por-dns-integrado-em-redes-customizadas)
-- [5. Orquestração Multi-Contêiner com Docker Compose](#5-orquestracao-multi-conteiner-com-docker-compose)
-    - [5.1 Estrutura do Manifesto Compose: Services, Networks, Volumes e depends_on](#51-estrutura-do-manifesto-compose-services-networks-volumes-e-dependson)
-    - [5.2 Ciclo de Vida e Comandos Operacionais da CLI](#52-ciclo-de-vida-e-comandos-operacionais-da-cli)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Fundamentos de Conteinerização vs. Virtualização Tradicional](#1-fundamentos-de-conteinerizacao-vs-virtualizacao-tradicional)
+    1. [Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)](#11-maquinas-virtuais-hypervisors-vs-conteineres-kernel-compartilhado)
+    2. [Teste 192](#Teste-192)
+    3. [Primitivas Essenciais do Kernel Linux: Namespaces e Control Groups (cgroups)](#12-primitivas-essenciais-do-kernel-linux-namespaces-e-control-groups-cgroups)
+    4. [Teste 193](#Teste-193)
+    5. [Arquitetura do Docker Engine: Client, Daemon, containerd, runc e Registries](#13-arquitetura-do-docker-engine-client-daemon-containerd-runc-e-registries)
+    6. [Sistema de Arquivos em Camadas (Overlay2 UnionFS) e Copy-on-Write (CoW)](#14-sistema-de-arquivos-em-camadas-overlay2-unionfs-e-copy-on-write-cow)
+    7. [Teste 194](#Teste-194)
+2. [Construção de Imagens e Anatomia do Dockerfile](#2-construcao-de-imagens-e-anatomia-do-dockerfile)
+    1. [Instruções Canônicas: FROM, WORKDIR, COPY vs. ADD, RUN, ENV vs. ARG](#21-instrucoes-canonicas-from-workdir-copy-vs-add-run-env-vs-arg)
+    2. [Teste 195](#Teste-195)
+    3. [Execução de Processos: ENTRYPOINT vs. CMD (Exec Form vs. Shell Form)](#22-execucao-de-processos-entrypoint-vs-cmd-exec-form-vs-shell-form)
+    4. [Teste 196](#Teste-196)
+    5. [Exposição de Portas e Segurança: EXPOSE vs. Publicação no Host e Diretiva USER](#23-exposicao-de-portas-e-seguranca-expose-vs-publicacao-no-host-e-diretiva-user)
+    6. [Teste 197](#Teste-197)
+    7. [Otimização com Builds de Múltiplos Estágios (Multi-Stage Builds) e Cache de Camadas](#24-otimizacao-com-builds-de-multiplos-estagios-multi-stage-builds-e-cache-de-camadas)
+    8. [Teste 198](#Teste-198)
+3. [Persistência de Dados e Gerenciamento de Armazenamento](#3-persistencia-de-dados-e-gerenciamento-de-armazenamento)
+    1. [Efemeridade da Camada de Leitura e Escrita do Contêiner](#31-efemeridade-da-camada-de-leitura-e-escrita-do-conteiner)
+    2. [Comparativo: Named Volumes vs. Bind Mounts vs. tmpfs Mounts](#32-comparativo-named-volumes-vs-bind-mounts-vs-tmpfs-mounts)
+    3. [Teste 199](#Teste-199)
+4. [Redes no Docker: Drivers e Resolução de Nomes](#4-redes-no-docker-drivers-e-resolucao-de-nomes)
+    1. [Drivers de Rede: bridge, host, none, overlay e macvlan](#41-drivers-de-rede-bridge-host-none-overlay-e-macvlan)
+    2. [Teste 200](#Teste-200)
+    3. [Resolução de Nomes por DNS Integrado em Redes Customizadas](#42-resolucao-de-nomes-por-dns-integrado-em-redes-customizadas)
+    4. [Teste 201](#Teste-201)
+5. [Orquestração Multi-Contêiner com Docker Compose](#5-orquestracao-multi-conteiner-com-docker-compose)
+    1. [Estrutura do Manifesto Compose: Services, Networks, Volumes e depends_on](#51-estrutura-do-manifesto-compose-services-networks-volumes-e-dependson)
+    2. [Teste 202](#Teste-202)
+    3. [Ciclo de Vida e Comandos Operacionais da CLI](#52-ciclo-de-vida-e-comandos-operacionais-da-cli)
+6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Fundamentos de Conteinerização vs. Virtualização Tradicional
 
@@ -106,7 +125,8 @@ A distinção basilar assenta-se no **nível de abstração** e na **existência
 
 ---
 
-### Questão 01 (FCC - Adaptada / TI - Fundamentos e Primitivas de Conteinerização)
+### Teste 192
+**(FCC - Adaptada / TI - Fundamentos e Primitivas de Conteinerização)**
 Com relação às diferenças conceituais e arquiteturais entre a virtualização baseada em Máquinas Virtuais (VMs) tradicionais e a conteinerização utilizando a tecnologia Docker, assinale a afirmativa correta:  
 
 * **A)** Contêineres Docker executam um hipervisor (*Hypervisor Type 1*) emulado dentro de cada processo para gerenciar o acesso direto ao processador físico.
@@ -114,6 +134,9 @@ Com relação às diferenças conceituais e arquiteturais entre a virtualizaçã
 * **C)** Enquanto as máquinas virtuais virtualizam a camada de hardware e exigem um Sistema Operacional convidado (*Guest OS*) completo sobre o hipervisor, os contêineres Docker virtualizam o sistema operacional, compartilhando o mesmo núcleo (*Kernel*) do hospedeiro por meio de primitivas como *namespaces* e *control groups (cgroups)* do Linux.
 * **D)** As máquinas virtuais inicializam em milissegundos devido à ausência de camada de abstração de hardware, ao passo que contêineres Docker demandam longos minutos de inicialização devido ao carregamento de imagens de disco.
 * **E)** O isolamento proporcionado por contêineres Docker impede qualquer comunicação de rede entre dois contêineres hospedados no mesmo computador físico.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -149,7 +172,7 @@ Determinam **quanto de recursos computacionais um contêiner pode consumir**:
 - Limitam a fração de **tempo de CPU** (ex.: reservar 1.5 núcleos para um serviço).
 - Controlam a largura de banda de tráfego de rede e taxas de leitura/gravação em disco (*Block I/O limits*).
 
-### Questão 02
+### Teste 193
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 A tecnologia de conteinerização no Linux fundamenta-se primordialmente em duas primitivas nativas do próprio Kernel do sistema operacional: os *Namespaces* e os *Control Groups* (*cgroups*). A respeito da responsabilidade técnica de cada uma dessas primitivas, é correto afirmar:
 
@@ -158,6 +181,9 @@ A tecnologia de conteinerização no Linux fundamenta-se primordialmente em duas
 * **C)** Ambas as primitivas foram substituídas pelo uso de emuladores de BIOS de 16 bits.
 * **D)** Os *Namespaces* só podem ser executados em servidores com placas gráficas de inteligência artificial.
 * **E)** Os *cgroups* impedem que contêineres utilizem conexões de rede TCP/IP.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -194,7 +220,7 @@ Uma imagem Docker é uma coleção imutável de **camadas de somente leitura (*R
 ---
 
 
-### Questão 03
+### Teste 194
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O sistema de arquivos em camadas do Docker (tipicamente implementado pelo driver de armazenamento `overlay2`) utiliza a estratégia *Copy-on-Write* (CoW). Esse mecanismo implica que:
 
@@ -203,6 +229,9 @@ O sistema de arquivos em camadas do Docker (tipicamente implementado pelo driver
 * **C)** Nenhuma modificação de arquivo pode ser realizada dentro de um contêiner Docker ativo.
 * **D)** Todos os contêineres compartilham a mesma camada de leitura e escrita, gravando arquivos concorrentemente no mesmo bloco.
 * **E)** As imagens Docker perdem todos os seus dados sempre que o contêiner é reiniciado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -214,7 +243,10 @@ O sistema de arquivos em camadas do Docker (tipicamente implementado pelo driver
 >
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 2. Construção de Imagens e Anatomia do Dockerfile
 
@@ -232,7 +264,7 @@ O `Dockerfile` é o manifesto declarativo em formato de texto simples que estabe
     - **`ARG`:** Define variáveis disponíveis **exclusivamente durante a compilação da imagem** (`docker build --build-arg CHAVE=VALOR`). Não persiste nos metadados nem no ambiente do contêiner em runtime.
     - **`ENV`:** Define variáveis de ambiente que são gravadas permanentemente na imagem e permanecem **ativas durante a execução do contêiner em produção (runtime)**.
 
-### Questão 04
+### Teste 195
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na elaboração de um arquivo `Dockerfile` para construção de imagens de software, duas instruções de cópia de arquivos frequentemente comparadas em concursos públicos são `COPY` e `ADD`. A boa prática recomendada de engenharia e a principal distinção técnica entre ambas estabelece que:
 
@@ -241,6 +273,9 @@ Na elaboração de um arquivo `Dockerfile` para construção de imagens de softw
 * **C)** A instrução `COPY` só funciona para arquivos com extensão `.exe`.
 * **D)** A instrução `ADD` compila o código-fonte Java automaticamente durante a cópia.
 * **E)** Nenhuma das duas instruções permite copiar arquivos para diretórios internos do contêiner.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -270,7 +305,8 @@ A definição de qual processo será executado ao instanciar o contêiner é reg
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Dockerfile: Instruções CMD, ENTRYPOINT e EXPOSE)
+### Teste 196
+**(FCC - Adaptada / TI - Dockerfile: Instruções CMD, ENTRYPOINT e EXPOSE)**
 Um analista de infraestrutura da Secretaria da Fazenda elaborou o seguinte `Dockerfile` para conteinerizar uma API REST desenvolvida em Python:
 
 ```dockerfile
@@ -295,6 +331,9 @@ A respeito desse cenário e das instruções do Dockerfile, assinale a afirmativ
 * **D)** A flag `-p 8080:5000` fará com que as requisições que chegam à porta 5000 da máquina hospedeira sejam redirecionadas para a porta 8080 dentro do contêiner.
 * **E)** A instrução `COPY . .` impede a reutilização do cache de compilação da camada gerada por `RUN pip install`, mesmo que o arquivo `requirements.txt` não tenha sido modificado.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. A diretiva `EXPOSE` é meramente informativa e documental; ela não abre portas no host nem publica tráfego externo. O mapeamento físico de portas exige obrigatoriamente o uso do parâmetro `-p` no `docker run`.
@@ -313,7 +352,7 @@ A respeito desse cenário e das instruções do Dockerfile, assinale a afirmativ
 - **`EXPOSE <porta>`:** Instrução **meramente informativa e documental**. Ela sinaliza ao desenvolvedor ou orquestrador em qual porta o serviço interno escuta por padrão, mas **NÃO abre portas no firewall da máquina host nem publica a porta externamente**. Para que o contêiner fique acessível pelo tráfego de fora do host, o operador deve compulsoriamente mapear a porta via `docker run -p <porta_host>:<porta_container>` ou pela diretiva `ports` no Docker Compose.
 - **Diretiva `USER` e Segurança (Princípio do Menor Privilégio):** Por padrão, os processos dentro de um contêiner rodam como o usuário `root` (UID 0). Caso a aplicação sofra um ataque de *container breakout*, o invasor pode comprometer o host. A diretiva `USER <usuario_sem_privilegio>` altera o contexto de execução para um usuário comum do sistema, mitigando severamente riscos de escalada de privilégios.
 
-### Questão 06
+### Teste 197
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Em relação às diretrizes de segurança da informação e redes na construção de contêineres Docker, analise as afirmativas a seguir:  
 
@@ -328,6 +367,9 @@ Está correto o que se afirma em:
 * **C)** I e II, apenas.
 * **D)** II e III, apenas.
 * **E)** I, II e III.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -368,7 +410,8 @@ A funcionalidade de **Multi-Stage Builds** resolve esse problema declarando múl
 
 ---
 
-### Questão 07 (FCC - Adaptada / TI - Multi-Stage Builds e Otimização de Imagens)
+### Teste 198
+**(FCC - Adaptada / TI - Multi-Stage Builds e Otimização de Imagens)**
 Em auditorias de segurança de aplicações conteinerizadas em órgãos públicos, é comum encontrar vulnerabilidades associadas à inclusão indevida de ferramentas de compilação, compiladores C/C++, gerenciadores de pacotes e código-fonte dentro de imagens que operam no ambiente de produção.
 
 A técnica preconizada pelo Docker para mitigar esse risco e reduzir drasticamente o tamanho final das imagens distribuidíveis em produção é:  
@@ -378,6 +421,9 @@ A técnica preconizada pelo Docker para mitigar esse risco e reduzir drasticamen
 * **C)** Utilização compulsória da instrução `RUN chmod 777 -R /` no Dockerfile para revogar privilégios administrativos de todos os processos internos.
 * **D)** Desativação do Docker Daemon e execução de contêineres diretamente como scripts de shell no servidor hospedeiro.
 * **E)** Substituição do Dockerfile por um script Bash imperativo gravado no setor de boot da controladora de armazenamento.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -389,8 +435,9 @@ A técnica preconizada pelo Docker para mitigar esse risco e reduzir drasticamen
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 3. Persistência de Dados e Gerenciamento de Armazenamento
@@ -429,7 +476,8 @@ Todas as modificações, gravações de logs e escritas em tabelas realizadas po
 
 ---
 
-### Questão 08 (FCC - Adaptada / TI - Gestão de Persistência e Volumes no Docker)
+### Teste 199
+**(FCC - Adaptada / TI - Gestão de Persistência e Volumes no Docker)**
 Ao planejar a implantação de um Sistema de Gerenciamento de Banco de Dados relacional (PostgreSQL) em contêineres Docker, um arquiteto de sistemas alertou a equipe que contêineres possuem ciclo de vida efêmero e que os dados armazenados na camada de gravação padrão do contêiner seriam perdidos caso o contêiner fosse removido.
 
 Para garantir a persistência duradoura, alto desempenho de I/O e gerenciamento seguro dos arquivos de dados do banco de dados pelo próprio Docker Engine, a solução tecnicamente recomendada é a utilização de:  
@@ -439,6 +487,9 @@ Para garantir a persistência duradoura, alto desempenho de I/O e gerenciamento 
 * **C)** *Named Volumes* (Volumes Gerenciados), que são desacoplados do ciclo de vida dos contêineres, alocados em diretórios dedicados gerenciados pelo Docker no host (`/var/lib/docker/volumes/`) e podem ser facilmente compartilhados e reutilizados por outros contêineres.
 * **D)** Links simbólicos do Linux apontando diretamente para o arquivo `/dev/null`.
 * **E)** Arquivos temporários criados dentro da pasta `/tmp` do contêiner, dispensando qualquer configuração adicional no host.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -450,8 +501,9 @@ Para garantir a persistência duradoura, alto desempenho de I/O e gerenciamento 
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 4. Redes no Docker: Drivers e Resolução de Nomes
@@ -466,7 +518,7 @@ O Docker abstrai a conectividade de contêineres através de subsistemas de rede
 - **`overlay`:** Driver de rede virtual distribuída para ambientes com múltiplos servidores físicos (*multi-host*). Criptografa e roteia o tráfego de contêineres entre diferentes nós, atuando como alicerce de orquestradores como o Docker Swarm.
 - **`macvlan`:** Atribui um endereço MAC físico diretamente à interface virtual do contêiner, fazendo com que ele se apresente perante a rede corporativa (switch/roteador físico) como se fosse um servidor físico independente com IP próprio na sub-rede da LAN.
 
-### Questão 09
+### Teste 200
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O subsistema de redes do Docker provê múltiplos *drivers* para atender a diferentes requisitos de isolamento e desempenho. O driver de rede padrão utilizado pelo Docker para comunicação entre contêineres executando na mesma máquina host isolada, criando uma ponte virtual de rede interna, é o driver:
 
@@ -475,6 +527,9 @@ O subsistema de redes do Docker provê múltiplos *drivers* para atender a difer
 * **C)** `none`
 * **D)** `overlay`
 * **E)** `macvlan`
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -498,7 +553,8 @@ Existe uma diferença crítica cobrada em concursos entre a rede bridge padrão 
 
 ---
 
-### Questão 10 (FCC - Adaptada / TI - Redes e Orquestração com Docker Compose)
+### Teste 201
+**(FCC - Adaptada / TI - Redes e Orquestração com Docker Compose)**
 Considere uma aplicação composta por dois microsserviços declarados no arquivo `compose.yaml`: um serviço denominado `frontend` (porta interna 80) e um serviço denominado `backend-api` (porta interna 3000), ambos anexados a uma mesma rede customizada do tipo `bridge` denominada `app-network`.
 
 A respeito da comunicação entre esses serviços e das características de redes no Docker Compose, assinale a opção correta:  
@@ -508,6 +564,9 @@ A respeito da comunicação entre esses serviços e das características de rede
 * **C)** Para que contêineres em uma mesma rede customizada do Compose conversem entre si, é obrigatório utilizar o driver de rede `none`.
 * **D)** No Docker Compose, a resolução de nomes por DNS entre serviços só funciona se o desenvolvedor codificar manualmente os endereços IP fixos de cada contêiner no arquivo `/etc/hosts` de cada imagem antes de compilar o Dockerfile.
 * **E)** O comando `docker compose down` desliga os contêineres, mas é terminantemente incapaz de remover as redes criadas pelo arquivo Compose.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -519,8 +578,9 @@ A respeito da comunicação entre esses serviços e das características de rede
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 5. Orquestração Multi-Contêiner com Docker Compose
@@ -573,7 +633,7 @@ networks:
 - **`networks`:** Define as redes virtuais privativas. Todos os serviços conectados à mesma rede conseguem se comunicar apontando o tráfego diretamente para o **nome do serviço** (ex.: a aplicação web acessa o banco via `db:5432`).
 - **`volumes`:** Declara os volumes gerenciados que devem sobreviver à desmontagem dos contêineres.
 
-### Questão 11
+### Teste 202
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O Docker Compose permite definir e executar aplicações multi-contêiner utilizando manifestos declarativos no formato YAML (como `compose.yaml` ou `docker-compose.yml`). Em relação aos elementos estruturais desse manifesto, é correto afirmar:
 
@@ -582,6 +642,9 @@ O Docker Compose permite definir e executar aplicações multi-contêiner utiliz
 * **C)** A diretiva `depends_on` aguarda que a aplicação interna do banco de dados conclua todas as suas migrações e consultas SQL antes de subir a API.
 * **D)** Manifestos Compose não suportam a criação de redes virtuais isoladas entre serviços.
 * **E)** O arquivo `docker-compose.yml` deve ser escrito obrigatoriamente em linguagem XML.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -604,7 +667,10 @@ O Docker Compose permite definir e executar aplicações multi-contêiner utiliz
 - **`docker compose logs -f [servico]`:** Exibe o fluxo contínuo de logs consolidados de todos os contêineres ou de um serviço específico.
 - **`docker compose exec [servico] [comando]`:** Dispara a execução de um comando interativo dentro de um contêiner em execução (ex.: `docker compose exec db psql -U postgres`).
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

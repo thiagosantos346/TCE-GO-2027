@@ -5,7 +5,10 @@
 > **Arquivo:** `02_marco_civil_da_internet_lei_12965_2014.md`  
 > **Ato Normativo:** Lei Federal nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet) e Decreto nº 8.771, de 11 de maio de 2016
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Marco Civil da Internet (Lei nº 12.965/2014)
@@ -15,29 +18,49 @@
 - Requisição judicial de registros e proteção da privacidade
 - Responsabilidade civil por danos decorrentes de conteúdo gerado por terceiros (Arts. 18, 19 e 21)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Princípios, Garantias e Conceituação Técnica (Arts. 2º a 8º)](#1-principios-garantias-e-conceituacao-tecnica-arts-2o-a-8o)
-    - [1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)](#11-vocabulario-tecnico-juridico-essencial-art-5o)
-    - [1.2 Princípios e Direitos Fundamentais dos Usuários](#12-principios-e-direitos-fundamentais-dos-usuarios)
-- [2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)](#2-o-principio-da-neutralidade-de-rede-art-9o-e-decreto-no-87712016)
-    - [2.1 Regra Geral de Tratamento Isonômico](#21-regra-geral-de-tratamento-isonomico)
-    - [2.2 As Duas Únicas Exceções Legais à Neutralidade](#22-as-duas-unicas-excecoes-legais-a-neutralidade)
-- [3. Regime de Guarda de Registros: Conexão vs. Aplicações de Internet](#3-regime-de-guarda-de-registros-conexao-vs-aplicacoes-de-internet)
-    - [3.1 Distinção Conceitual e Prazos Obrigatórios de Guarda](#31-distincao-conceitual-e-prazos-obrigatorios-de-guarda)
-    - [3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)](#32-a-vedacao-absoluta-aos-provedores-de-conexao-art-14)
-    - [3.3 Padrões de Segurança do Decreto nº 8.771/2016](#33-padroes-de-seguranca-do-decreto-no-87712016)
-- [4. Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)](#4-reserva-de-jurisdicao-para-quebra-de-sigilo-arts-10-e-22)
-- [5. Responsabilidade Civil por Conteúdo Gerado por Terceiros (Arts. 18 a 21)](#5-responsabilidade-civil-por-conteudo-gerado-por-terceiros-arts-18-a-21)
-    - [5.1 Imunidade Civil dos Provedores de Conexão (Art. 18)](#51-imunidade-civil-dos-provedores-de-conexao-art-18)
-    - [5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)](#52-regra-geral-dos-provedores-de-aplicacao-art-19-ordem-judicial-previa)
-    - [5.3 Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)](#53-excecao-critica-do-artigo-21-nudez-e-sexo-nao-consensual)
-- [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+
+1. [Teoria Aprofundada & Fundamentos de Infraestrutura e Redes](#teoria-aprofundada-fundamentos-de-infraestrutura-e-redes)
+2. [Princípios, Garantias e Conceituação Técnica (Arts. 2º a 8º)](#1-principios-garantias-e-conceituacao-tecnica-arts-2o-a-8o)
+    1. [Vocabulário Técnico-Jurídico Essencial (Art. 5º)](#11-vocabulario-tecnico-juridico-essencial-art-5o)
+    2. [Teste 525](#Teste-525)
+    3. [Princípios e Direitos Fundamentais dos Usuários](#12-principios-e-direitos-fundamentais-dos-usuarios)
+    4. [Teste 526](#Teste-526)
+3. [O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)](#2-o-principio-da-neutralidade-de-rede-art-9o-e-decreto-no-87712016)
+    1. [Regra Geral de Tratamento Isonômico](#21-regra-geral-de-tratamento-isonomico)
+    2. [As Duas Únicas Exceções Legais à Neutralidade](#22-as-duas-unicas-excecoes-legais-a-neutralidade)
+    3. [Teste 527](#Teste-527)
+4. [Regime de Guarda de Registros: Conexão vs. Aplicações de Internet](#3-regime-de-guarda-de-registros-conexao-vs-aplicacoes-de-internet)
+    1. [Distinção Conceitual e Prazos Obrigatórios de Guarda](#31-distincao-conceitual-e-prazos-obrigatorios-de-guarda)
+    2. [Teste 528](#Teste-528)
+    3. [Teste 529](#Teste-529)
+    4. [A Vedação Absoluta aos Provedores de Conexão (Art. 14)](#32-a-vedacao-absoluta-aos-provedores-de-conexao-art-14)
+    5. [Teste 530](#Teste-530)
+    6. [Padrões de Segurança do Decreto nº 8.771/2016](#33-padroes-de-seguranca-do-decreto-no-87712016)
+5. [Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)](#4-reserva-de-jurisdicao-para-quebra-de-sigilo-arts-10-e-22)
+    1. [Teste 531](#Teste-531)
+6. [Responsabilidade Civil por Conteúdo Gerado por Terceiros (Arts. 18 a 21)](#5-responsabilidade-civil-por-conteudo-gerado-por-terceiros-arts-18-a-21)
+    1. [Imunidade Civil dos Provedores de Conexão (Art. 18)](#51-imunidade-civil-dos-provedores-de-conexao-art-18)
+    2. [Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)](#52-regra-geral-dos-provedores-de-aplicacao-art-19-ordem-judicial-previa)
+    3. [Teste 532](#Teste-532)
+    4. [Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)](#53-excecao-critica-do-artigo-21-nudez-e-sexo-nao-consensual)
+    5. [Teste 533](#Teste-533)
+    6. [Teste 534](#Teste-534)
+7. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
 
+
 ## 📖 Teoria Aprofundada & Fundamentos de Infraestrutura e Redes
+
+
+---
+
 
 ## 1. Princípios, Garantias e Conceituação Técnica (Arts. 2º a 8º)
 
@@ -59,7 +82,8 @@ O Marco Civil consolidou definições obrigatórias para os profissionais de TI,
 
 ---
 
-### Questão 01 (FCC - Analista de Sistemas - Redes e Telecomunicações - Adaptada)
+### Teste 525
+**(FCC - Analista de Sistemas - Redes e Telecomunicações - Adaptada)**
 **Enunciado:** O Artigo 5º da Lei nº 12.965/2014 (Marco Civil da Internet) estabelece definições técnicas canônicas para a disciplina do uso da internet no Brasil. Com base nessas definições legais e no Decreto nº 8.771/2016, assinale a afirmativa correta:  
 
 * **A)** O endereço IP é definido como o computador físico ou qualquer dispositivo móvel que se conecte diretamente a uma tomada de energia.
@@ -67,6 +91,9 @@ O Marco Civil consolidou definições obrigatórias para os profissionais de TI,
 * **C)** Provedor de Conexão à Internet é a pessoa jurídica que fornece unicamente serviços de correio eletrônico e streaming de vídeo sob demanda.
 * **D)** Conexão à Internet é a habilitação de um terminal para envio e recebimento de pacotes de dados na Internet, mediante a atribuição ou autenticação de um endereço IP.
 * **E)** Aplicações de Internet limitam-se exclusivamente aos navegadores web instalados em computadores desktop de repartições públicas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -94,7 +121,8 @@ São direitos fundamentais do usuário da internet (Art. 7º):
 
 ---
 
-### Questão 02 (FCC - Analista Judiciário - Tecnologia da Informação - Adaptada)
+### Teste 526
+**(FCC - Analista Judiciário - Tecnologia da Informação - Adaptada)**
 **Enunciado:** Em conformidade com o Art. 7º do Marco Civil da Internet (Lei nº 12.965/2014), o acesso à internet é essencial ao exercício da cidadania, sendo assegurados aos usuários diversos direitos fundamentais. A respeito desses direitos, assinale a afirmativa correta:  
 
 * **A)** O sigilo das comunicações privadas armazenadas e do fluxo de comunicações na internet é inviolável, salvo por expressa e fundamentada ordem judicial nas hipóteses legais.
@@ -102,6 +130,9 @@ São direitos fundamentais do usuário da internet (Art. 7º):
 * **C)** É permitido aos provedores de internet comercializar os dados cadastrais e o histórico de navegação dos usuários sem o seu consentimento livre e informado.
 * **D)** A navegação na internet implica renúncia tácita e perpétua a qualquer indenização por dano moral decorrente de violação da intimidade.
 * **E)** O usuário não tem direito à exclusão definitiva dos dados pessoais que forneceu a uma aplicação de internet ao término da relação jurídica entre as partes.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -114,7 +145,10 @@ São direitos fundamentais do usuário da internet (Art. 7º):
 > **Gabarito: A**
 
 
+
+
 ---
+
 
 ## 2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)
 
@@ -157,7 +191,8 @@ A discriminação ou degradação de tráfego somente poderá decorrer de duas h
 
 ---
 
-### Questão 03 (FCC - Técnico Judiciário / Tecnologia da Informação)
+### Teste 527
+**(FCC - Técnico Judiciário / Tecnologia da Informação)**
 **Enunciado:** Uma empresa operadora de telecomunicações que fornece acesso à Internet em banda larga implementou uma política técnica em seus roteadores de borda para estrangular (*traffic shaping*) o tráfego de aplicações de chamadas telefônicas via Internet (VoIP) e de transmissão de vídeo ao vivo pertencentes a concorrentes, alegando em seus contratos de adesão que "a gestão dinâmica de pacotes visa assegurar a viabilidade comercial dos planos básicos". À luz do princípio da Neutralidade de Rede (Art. 9º da Lei nº 12.965/2014 e Decreto nº 8.771/2016):  
 
 * **A)** A conduta da empresa é plenamente lícita, pois as normas de mercado conferem liberdade irrestrita às operadoras para discriminar pacotes conforme interesses comerciais próprios.
@@ -165,6 +200,9 @@ A discriminação ou degradação de tráfego somente poderá decorrer de duas h
 * **C)** A degradação de tráfego somente seria considerada ilícita se a velocidade fosse reduzida a zero; reduções parciais de velocidade são expressamente autorizadas pelo Decreto nº 8.771/2016.
 * **D)** A neutralidade de rede é um conceito meramente programático e ético, desprovido de qualquer cogência legal ou sanção administrativa no direito brasileiro.
 * **E)** A discriminação de pacotes só pode ocorrer se houver anuência prévia e expressa do Conselho Administrativo de Defesa Econômica (CADE) para cada conexão individualizada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -176,8 +214,9 @@ A discriminação ou degradação de tráfego somente poderá decorrer de duas h
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 3. Regime de Guarda de Registros: Conexão vs. Aplicações de Internet
@@ -222,7 +261,8 @@ flowchart LR
 
 ---
 
-### Questão 04 (FCC - Auditor de Controle Externo / Tecnologia da Informação)
+### Teste 528
+**(FCC - Auditor de Controle Externo / Tecnologia da Informação)**
 **Enunciado:** Em decorrência de fraude eletrônica em sistema de pagamento de tributos estaduais, a Delegacia Fazendária instaurou inquérito policial e emitiu ofício administrativo diretamente ao provedor de acesso à Internet (ISP) do principal suspeito, determinando:  
 
 I. O fornecimento imediato dos logs completos de conexão à Internet do investigado (endereço IP, porta lógica, data e hora de conexão) referentes aos últimos doze meses.  
@@ -237,6 +277,9 @@ Recebido o ofício, a assessoria técnica e jurídica do provedor de conexão an
 * **D)** Cumprir o item I apenas pelo período de seis meses, prazo máximo de guarda de conexão permitido por lei, e fornecer o histórico do item II mediante pagamento de custas administrativas.
 * **E)** Atender ao item I apenas se o Ministério Público ratificar administrativamente a ordem do Delegado, sendo o item II de fornecimento obrigatório pelo prazo de 5 anos.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. A autoridade policial não possui prerrogativa de requisição direta sobre logs de conexão e de aplicação. O Marco Civil da Internet consagra a estrita reserva de jurisdição (Art. 10, § 1º): a disponibilização desses dados depende indispensavelmente de ordem judicial fundamentada.
@@ -249,7 +292,8 @@ Recebido o ofício, a assessoria técnica e jurídica do provedor de conexão an
 
 ---
 
-### Questão 05 (FCC - Analista de Redes e Telecomunicações)
+### Teste 529
+**(FCC - Analista de Redes e Telecomunicações)**
 **Enunciado:** Um portal de notícias e rede social corporativa com sede e operação no Brasil, mantido por pessoa jurídica com fins lucrativos, armazena registros de seus usuários. Sob as regras específicas de guarda de registros de acesso a aplicações de internet contidas no Art. 15 da Lei nº 12.965/2014, o administrador dessa aplicação:  
 
 * **A)** Deve manter os registros de acesso a aplicações sob sigilo, em ambiente controlado e de segurança, pelo prazo mínimo de 6 (seis) meses.
@@ -257,6 +301,9 @@ Recebido o ofício, a assessoria técnica e jurídica do provedor de conexão an
 * **C)** Não tem obrigação legal de guardar registros de acesso, salvo se houver requerimento formal de seus acionistas.
 * **D)** Pode comercializar os registros de acesso a anunciantes publicitários sem necessidade de consentimento dos usuários.
 * **E)** Deve guardar os registros por tempo indeterminado e mantê-los em acesso público aberto em formato JSON.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -281,7 +328,8 @@ Isso significa que o provedor de banda larga (como Claro, Vivo, Oi ou provedores
 
 ---
 
-### Questão 06 (FCC - Auditor de Controle Externo / TI - Adaptada)
+### Teste 530
+**(FCC - Auditor de Controle Externo / TI - Adaptada)**
 **Enunciado:** Durante a fiscalização de segurança e conformidade da infraestrutura de telecomunicações de um órgão estadual, os auditores analisaram o cumprimento das obrigações impostas aos provedores de conexão à internet. Nos termos do Art. 14 da Lei nº 12.965/2014 (Marco Civil da Internet), na provisão de conexão à internet:  
 
 * **A)** É obrigatória a gravação em disco e indexação dos títulos de todos os vídeos e páginas web acessados por cada usuário, pelo prazo de cinco anos.
@@ -289,6 +337,9 @@ Isso significa que o provedor de banda larga (como Claro, Vivo, Oi ou provedores
 * **C)** O provedor de conexão deve compartilhar os logs de navegação dos cidadãos com agências de publicidade mediante pagamento de taxa de administração.
 * **D)** O administrador de sistema autônomo é obrigado a monitorar e interceptar o tráfego criptografado HTTPS sem necessidade de autorização judicial.
 * **E)** A guarda dos registros de conexão é facultativa, podendo ser excluída a critério de conveniência da operadora de telecomunicações.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -312,7 +363,10 @@ Os responsáveis pela guarda de registros devem obrigatoriamente seguir padrões
 3. **Registro de Auditoria de Acessos:** Criação de inventário detalhado com data, hora, identidade do operador e arquivo acessado;
 4. **Criptografia:** Soluções de cifração robusta para os dados armazenados em repouso e em trânsito.
 
+
+
 ---
+
 
 ## 4. Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)
 
@@ -330,7 +384,8 @@ O fornecimento de registros de conexão e de acesso a aplicações de internet s
 
 ---
 
-### Questão 07 (FCC - Auditor Estadual de Controle Externo / TI - Adaptada)
+### Teste 531
+**(FCC - Auditor Estadual de Controle Externo / TI - Adaptada)**
 **Enunciado:** A requisição de dados perante provedores de internet é regulada pelo Marco Civil da Internet sob rigoroso regime de garantias. Em relação à requisição de dados cadastrais e de registros de conexão e de aplicações (Arts. 10 e 22), assinale a afirmativa correta:  
 
 * **A)** Registros de conexão (IP, data, hora, porta lógica) podem ser requisitados diretamente por qualquer autoridade administrativa sem mandado judicial.
@@ -338,6 +393,9 @@ O fornecimento de registros de conexão e de acesso a aplicações de internet s
 * **C)** O juiz pode expedir ordem genérica e indeterminada para que um provedor entregue todos os registros de acessos de todos os cidadãos de um estado durante dez anos, sem indício de ilícito.
 * **D)** Dados cadastrais de qualificação pessoal (como nome, filiação e endereço) possuem o mesmo tratamento probatório estrito dos conteúdos de mensagens sigilosas.
 * **E)** Os provedores de internet estrangeiros que prestam serviços no Brasil estão dispensados de cumprir a legislação brasileira e ordens judiciais emitidas por juízes nacionais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -350,7 +408,10 @@ O fornecimento de registros de conexão e de acesso a aplicações de internet s
 > **Gabarito: B**
 
 
+
+
 ---
+
 
 ## 5. Responsabilidade Civil por Conteúdo Gerado por Terceiros (Arts. 18 a 21)
 
@@ -396,7 +457,8 @@ O provedor de conexão à internet **não responderá civilmente** por danos dec
 
 ---
 
-### Questão 08 (FCC - Analista Judiciário - Área Apoio Especializado / TI - Adaptada)
+### Teste 532
+**(FCC - Analista Judiciário - Área Apoio Especializado / TI - Adaptada)**
 **Enunciado:** O regime de responsabilidade civil por danos decorrentes de conteúdo gerado por terceiros na internet foi disciplinado nos artigos 18 e 19 da Lei nº 12.965/2014. A respeito desse regime jurídico, assinale a afirmativa correta:  
 
 * **A)** O provedor de conexão à internet responde solidariamente por todas as postagens caluniosas feitas pelos usuários que utilizam seus cabos de fibra óptica.
@@ -404,6 +466,9 @@ O provedor de conexão à internet **não responderá civilmente** por danos dec
 * **C)** O provedor de conexão à internet não responderá civilmente por danos decorrentes de conteúdo gerado por terceiros (Art. 18).
 * **D)** A regra geral do Artigo 19 estabelece que o provedor de aplicações é proibido de cumprir ordens judiciais de remoção de conteúdos ilegais.
 * **E)** As plataformas de internet são obrigadas a censurar previamente todo e qualquer texto ou comentário antes que ele seja publicado na rede.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -428,7 +493,8 @@ O Artigo 21 constitui a exceção mais importante e cobrada em provas de concurs
 
 ---
 
-### Questão 09 (FCC - Auditor Fiscal / Tecnologia da Informação)
+### Teste 533
+**(FCC - Auditor Fiscal / Tecnologia da Informação)**
 **Enunciado:** Uma usuária de rede social teve fotos íntimas suas, contendo cenas de nudez e atos sexuais de caráter privado, divulgadas sem seu consentimento por um ex-namorado em perfil público de grande alcance. A usuária enviou uma notificação eletrônica fundamentada diretamente aos administradores da rede social, apontando expressamente o endereço eletrônico (URL) das imagens e exigindo a remoção incontinenti do conteúdo íntimo não autorizado. A plataforma recusou a remoção alegando que, nos termos da regra geral do Marco Civil da Internet, só é obrigada a excluir postagens mediante intimação de ordem judicial transitada em julgado.  
 Considerando as disposições específicas do Art. 21 da Lei nº 12.965/2014:  
 
@@ -437,6 +503,9 @@ Considerando as disposições específicas do Art. 21 da Lei nº 12.965/2014:
 * **C)** O conteúdo só poderia ser removido se a vítima registrasse previamente boletim de ocorrência internacional perante a Interpol.
 * **D)** A plataforma responde de forma penal por homicídio qualificado em concurso formal com o autor da publicação.
 * **E)** A responsabilidade da plataforma restringe-se ao pagamento de multa administrativa à Anatel, vedada qualquer reparação de cunho cível à ofendida.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -452,7 +521,8 @@ Considerando as disposições específicas do Art. 21 da Lei nº 12.965/2014:
 
 
 
-### Questão 10 (FCC - Analista Judiciário / Área Apoio Especializado / TI)
+### Teste 534
+**(FCC - Analista Judiciário / Área Apoio Especializado / TI)**
 **Enunciado:** Determinado usuário de uma popular plataforma de compartilhamento de vídeos publicou material ofensivo atribuindo falsamente a prática de crime de improbidade administrativa a um servidor público. O servidor notificou extrajudicialmente a plataforma por meio de carta com aviso de recebimento (AR), exigindo a retirada imediata do vídeo. A plataforma manteve o vídeo no ar. Posteriormente, o servidor ingressou com ação judicial e o juiz deferiu liminar ordenando a remoção do conteúdo em 24 horas sob pena de multa diária. A plataforma removeu o conteúdo 6 horas após ser formalmente intimada da decisão judicial.  
 À luz do regime de responsabilidade civil por danos de terceiros previsto no Art. 19 da Lei nº 12.965/2014:  
 
@@ -461,6 +531,9 @@ Considerando as disposições específicas do Art. 21 da Lei nº 12.965/2014:
 * **C)** Os provedores de aplicações respondem objetivamente por qualquer conteúdo postado por usuários, independentemente de notificação ou ordem judicial.
 * **D)** A plataforma é imune à jurisdição brasileira caso seus servidores físicos estejam localizados fora do território nacional.
 * **E)** A responsabilidade civil recai exclusivamente sobre a operadora de telecomunicações que forneceu a conexão de internet ao autor do vídeo ofensivo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -472,8 +545,9 @@ Considerando as disposições específicas do Art. 21 da Lei nº 12.965/2014:
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 6. Fontes Recomendadas na Internet

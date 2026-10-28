@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `04_seguranca_em_aplicacoes_owasp_top_10_e_devsecops.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Segurança no ciclo de vida de aplicações
@@ -13,26 +16,42 @@
 - Ferramentas de testes de segurança de software: SAST, DAST, IAST e SCA
 - Segurança específica em APIs, em contêineres e em ambientes de nuvem
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. O Projeto OWASP Top 10 e Vulnerabilidades Críticas em Software Web](#1-o-projeto-owasp-top-10-e-vulnerabilidades-criticas-em-software-web)
-    - [1.1 Visão Geral e Categorias Oficiais do OWASP Top 10](#11-visao-geral-e-categorias-oficiais-do-owasp-top-10)
-    - [1.2 Broken Access Control (#1) e Insecure Direct Object References (IDOR)](#12-broken-access-control-1-e-insecure-direct-object-references-idor)
-    - [1.3 Cryptographic Failures (#2) e Proteção de Dados](#13-cryptographic-failures-2-e-protecao-de-dados)
-    - [1.4 Injection (#3): SQL Injection vs. Consultas Parametrizadas e Modalidades de XSS](#14-injection-3-sql-injection-vs-consultas-parametrizadas-e-modalidades-de-xss)
-    - [1.5 Demais Categorias Críticas: Insecure Design, Misconfiguration, SSRF e Supply Chain](#15-demais-categorias-criticas-insecure-design-misconfiguration-ssrf-e-supply-chain)
-- [2. Abordagem DevSecOps e a Cultura Shift-Left](#2-abordagem-devsecops-e-a-cultura-shift-left)
-    - [2.1 Princípios do DevSecOps e Economia da Correção Precoce (Shift-Left)](#21-principios-do-devsecops-e-economia-da-correcao-precoce-shift-left)
-    - [2.2 Modelagem de Ameaças com a Metodologia STRIDE](#22-modelagem-de-ameacas-com-a-metodologia-stride)
-    - [2.3 Ferramentas Automatizadas de Teste de Segurança (SAST, DAST, IAST, SCA)](#23-ferramentas-automatizadas-de-teste-de-seguranca-sast-dast-iast-sca)
-- [3. Segurança em APIs, Contêineres e Ambientes de Nuvem](#3-seguranca-em-apis-conteineres-e-ambientes-de-nuvem)
-    - [3.1 Segurança em APIs: OWASP API Security Top 10 e BOLA](#31-seguranca-em-apis-owasp-api-security-top-10-e-bola)
-    - [3.2 Boas Práticas e Hardening em Contêineres Docker e Kubernetes](#32-boas-praticas-e-hardening-em-conteineres-docker-e-kubernetes)
-    - [3.3 Segurança em Nuvem: Modelo de Responsabilidade Compartilhada e Proteção de Metadados](#33-seguranca-em-nuvem-modelo-de-responsabilidade-compartilhada-e-protecao-de-metadados)
-- [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
+
+1. [O Projeto OWASP Top 10 e Vulnerabilidades Críticas em Software Web](#1-o-projeto-owasp-top-10-e-vulnerabilidades-criticas-em-software-web)
+    1. [Visão Geral e Categorias Oficiais do OWASP Top 10](#11-visao-geral-e-categorias-oficiais-do-owasp-top-10)
+    2. [Broken Access Control (#1) e Insecure Direct Object References (IDOR)](#12-broken-access-control-1-e-insecure-direct-object-references-idor)
+    3. [Teste 388](#Teste-388)
+    4. [Cryptographic Failures (#2) e Proteção de Dados](#13-cryptographic-failures-2-e-protecao-de-dados)
+    5. [Teste 389](#Teste-389)
+    6. [Injection (#3): SQL Injection vs. Consultas Parametrizadas e Modalidades de XSS](#14-injection-3-sql-injection-vs-consultas-parametrizadas-e-modalidades-de-xss)
+    7. [Teste 390](#Teste-390)
+    8. [Teste 391](#Teste-391)
+    9. [Demais Categorias Críticas: Insecure Design, Misconfiguration, SSRF e Supply Chain](#15-demais-categorias-criticas-insecure-design-misconfiguration-ssrf-e-supply-chain)
+    10. [Teste 392](#Teste-392)
+2. [Abordagem DevSecOps e a Cultura Shift-Left](#2-abordagem-devsecops-e-a-cultura-shift-left)
+    1. [Princípios do DevSecOps e Economia da Correção Precoce (Shift-Left)](#21-principios-do-devsecops-e-economia-da-correcao-precoce-shift-left)
+    2. [Teste 393](#Teste-393)
+    3. [Modelagem de Ameaças com a Metodologia STRIDE](#22-modelagem-de-ameacas-com-a-metodologia-stride)
+    4. [Teste 394](#Teste-394)
+    5. [Ferramentas Automatizadas de Teste de Segurança (SAST, DAST, IAST, SCA)](#23-ferramentas-automatizadas-de-teste-de-seguranca-sast-dast-iast-sca)
+    6. [Teste 395](#Teste-395)
+3. [Segurança em APIs, Contêineres e Ambientes de Nuvem](#3-seguranca-em-apis-conteineres-e-ambientes-de-nuvem)
+    1. [Segurança em APIs: OWASP API Security Top 10 e BOLA](#31-seguranca-em-apis-owasp-api-security-top-10-e-bola)
+    2. [Teste 396](#Teste-396)
+    3. [Boas Práticas e Hardening em Contêineres Docker e Kubernetes](#32-boas-praticas-e-hardening-em-conteineres-docker-e-kubernetes)
+    4. [Teste 397](#Teste-397)
+    5. [Segurança em Nuvem: Modelo de Responsabilidade Compartilhada e Proteção de Metadados](#33-seguranca-em-nuvem-modelo-de-responsabilidade-compartilhada-e-protecao-de-metadados)
+    6. [Teste 398](#Teste-398)
+4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. O Projeto OWASP Top 10 e Vulnerabilidades Críticas em Software Web
 
@@ -75,7 +94,8 @@ Se o usuário simplesmente alterar o valor na barra de endereços para `id=1051`
 
 ---
 
-### Questão 01 (FCC - Adaptada / TI - OWASP Top 10 / Broken Access Control e IDOR)
+### Teste 388
+**(FCC - Adaptada / TI - OWASP Top 10 / Broken Access Control e IDOR)**
 Um analista de sistemas realizou um teste de penetração em um portal web fazendário e constatou que, ao autenticar-se como um contribuinte comum e acessar a URL:  
 `https://sefaz.gov.br/api/certidoes?id_requerimento=1050`  
 bastava alterar manualmente o parâmetro da requisição para:  
@@ -89,6 +109,9 @@ No contexto das vulnerabilidades catalogadas pelo **OWASP Top 10**, essa falha �
 * **C)** Cryptographic Failures (A02), originada pelo uso incorreto do protocolo HTTPS.
 * **D)** Security Logging and Monitoring Failures (A09).
 * **E)** SQL Injection cego (Blind SQLi - A03).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -114,7 +137,8 @@ Anteriormente denominada *Sensitive Data Exposure*, essa categoria concentra-se 
 
 ---
 
-### Questão 02 (FGV - TRT / Analista Judiciário - TI - OWASP #2 Falhas Criptográficas e Armazenamento de Senhas)
+### Teste 389
+**(FGV - TRT / Analista Judiciário - TI - OWASP #2 Falhas Criptográficas e Armazenamento de Senhas)**
 No ranking OWASP Top 10:2021, a categoria **A02:2021 - Cryptographic Failures** aborda falhas relacionadas à ausência ou fragilidade de criptografia na proteção de dados sensíveis em repouso e em trânsito.
 
 No desenvolvimento de sistemas de processo judicial e administrativo eletrônico, a diretriz recomendada pela OWASP e pelo NIST para armazenar senhas de usuários em bancos de dados de forma estritamente segura consiste em:
@@ -124,6 +148,9 @@ No desenvolvimento de sistemas de processo judicial e administrativo eletrônico
 * **C)** Utilizar uma função de derivação de chaves adaptativa e deliberadamente lenta com alto consumo de memória (*memory-hard* / *work factor* ajustável), tais como **Argon2id**, **bcrypt** ou **PBKDF2**, combinada com um **Salt** criptograficamente aleatório e exclusivo para cada usuário gerado com no mínimo 128 bits.
 * **D)** Gravar as senhas em texto puro (*plaintext*) protegido apenas por permissão de arquivo no Linux.
 * **E)** Converter a senha em caracteres Base64 invertidos e armazenar em uma coluna pública da tabela de usuários.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -179,7 +206,8 @@ cursor.execute(query, (cpf_input,))
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - OWASP Top 10 e Injeção de SQL)
+### Teste 390
+**(FCC - Adaptada / TI - OWASP Top 10 e Injeção de SQL)**
 Um desenvolvedor de sistemas do Tribunal de Contas implementou a seguinte rotina de autenticação em uma API de consulta processual:
 
 ```python
@@ -196,6 +224,9 @@ Considerando a classificação de vulnerabilidades do **OWASP Top 10** e os prin
 * **C)** A vulnerabilidade apresentada é classificada como *Cross-Site Scripting (XSS)*, e sua única forma de mitigação consiste em desativar o firewall de aplicação web (WAF).
 * **D)** A vulnerabilidade *Broken Access Control* (A01) foi abolida da lista da OWASP, não se aplicando mais ao desenvolvimento de aplicações modernas em nuvem.
 * **E)** O uso de parâmetros vinculados (*bind variables*) em consultas parametrizadas é desaconselhado pela OWASP por provocar vazamento de memória na máquina hospedeira.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -219,7 +250,8 @@ O XSS consiste na injeção de scripts maliciosos (geralmente JavaScript) que se
 
 ---
 
-### Questão 04 (FCC - TRT / Analista Judiciário - TI - Modalidades de Cross-Site Scripting: XSS)
+### Teste 391
+**(FCC - TRT / Analista Judiciário - TI - Modalidades de Cross-Site Scripting: XSS)**
 A vulnerabilidade de *Cross-Site Scripting* (XSS) ocorre quando uma aplicação web inclui dados não confiáveis em uma página web sem a devida validação ou escape, permitindo que scripts maliciosos (geralmente JavaScript) sejam executados no navegador da vítima.
 
 A literatura da OWASP e os manuais de segurança em aplicações web classificam o XSS em três modalidades primordiais: **XSS Armazenado (*Stored*)**, **XSS Refletido (*Reflected*)** e **XSS Baseado em DOM (*DOM-based*)**.
@@ -231,6 +263,9 @@ Assinale a afirmativa que descreve corretamente o **XSS Armazenado (Stored / Per
 * **C)** O ataque ocorre exclusivamente pela manipulação do objeto `window.location` no código JavaScript local do navegador sem qualquer tráfego com o servidor.
 * **D)** O XSS armazenado afeta apenas computadores desligados sem conexão com a rede elétrica.
 * **E)** Trata-se de uma falha exclusiva de hardware que destrói a memória física do monitor de vídeo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -257,7 +292,8 @@ Assinale a afirmativa que descreve corretamente o **XSS Armazenado (Stored / Per
 
 ---
 
-### Questão 05 (FGV - TRT / Analista Judiciário - TI - Server-Side Request Forgery: SSRF)
+### Teste 392
+**(FGV - TRT / Analista Judiciário - TI - Server-Side Request Forgery: SSRF)**
 A categoria **A10:2021 - Server-Side Request Forgery (SSRF)** foi incluída formalmente no OWASP Top 10 devido à sua alta criticidade em arquiteturas modernas baseadas em nuvem e microsserviços.
 
 A vulnerabilidade de SSRF caracteriza-se quando:
@@ -267,6 +303,9 @@ A vulnerabilidade de SSRF caracteriza-se quando:
 * **C)** O banco de dados relacional rejeita qualquer comando com a cláusula `WHERE`.
 * **D)** O cabo de rede do servidor sofre interferência eletromagnética por tempestades solares.
 * **E)** O usuário esquece sua senha corporativa e solicita redefinição pelo portal de autoatendimento.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -282,7 +321,10 @@ A vulnerabilidade de SSRF caracteriza-se quando:
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 2. Abordagem DevSecOps e a Cultura Shift-Left
 
@@ -310,7 +352,8 @@ Na linha cronológica da esteira de entrega contínua (CI/CD), a extremidade esq
 
 ---
 
-### Questão 06 (FCC - TRT / Analista Judiciário - TI - DevSecOps e o Paradigma Shift-Left)
+### Teste 393
+**(FCC - TRT / Analista Judiciário - TI - DevSecOps e o Paradigma Shift-Left)**
 A cultura **DevSecOps** prega a integração contínua de práticas e controles de segurança em todas as fases do ciclo de vida de desenvolvimento de software (SDLC), operando sob o princípio do **Shift-Left** (Deslocar para a Esquerda).
 
 O fundamento econômico e técnico que justifica a adoção do princípio *Shift-Left* nas esteiras de integração e entrega contínua (CI/CD) de tribunais reside no fato de que:
@@ -320,6 +363,9 @@ O fundamento econômico e técnico que justifica a adoção do princípio *Shift
 * **C)** Testes automatizados de segurança desaceleram os deploys e, portanto, devem ser excluídos dos pipelines de CI/CD.
 * **D)** O termo Shift-Left indica que todos os programadores devem trabalhar obrigatoriamente com a mão esquerda no teclado.
 * **E)** O DevSecOps preconiza a eliminação completa dos desenvolvedores de software, mantendo apenas profissionais de segurança física patrimonial.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -361,7 +407,8 @@ flowchart TD
 
 ---
 
-### Questão 07 (FCC - Adaptada / TI - Modelagem de Ameaças / Metodologia STRIDE)
+### Teste 394
+**(FCC - Adaptada / TI - Modelagem de Ameaças / Metodologia STRIDE)**
 No planejamento arquitetural de um novo módulo de pagamentos do Tribunal de Contas, os engenheiros de segurança conduziram uma sessão de modelagem de ameaças adotando o framework metodológico **STRIDE**.
 
 A respeito do mapeamento entre as categorias de ameaça do modelo STRIDE e os princípios clássicos de segurança da informação violados, assinale a afirmativa correta:
@@ -371,6 +418,9 @@ A respeito do mapeamento entre as categorias de ameaça do modelo STRIDE e os pr
 * **C)** A categoria *Repudiation* (Repúdio) atenta contra o princípio da Confidencialidade.
 * **D)** A categoria *Information Disclosure* (Divulgação Indevida) viola o princípio da Legalidade estrita.
 * **E)** A categoria *Denial of Service* (Negação de Serviço) viola o princípio do Não Repúdio.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -399,7 +449,8 @@ A automação do pipeline de CI/CD integra quatro famílias primárias de ferram
 
 ---
 
-### Questão 08 (FCC - Adaptada / TI - Práticas DevSecOps e Ferramentas de Teste)
+### Teste 395
+**(FCC - Adaptada / TI - Práticas DevSecOps e Ferramentas de Teste)**
 Na esteira de Integração e Entrega Contínua (CI/CD) de uma instituição pública que adota a filosofia DevSecOps e o princípio de *Shift-Left* (deslocar a segurança para o início do ciclo de vida), a equipe de segurança inseriu diferentes tipos de testes automatizados de segurança.
 
 A respeito das ferramentas e abordagens de testes de segurança de software, assinale a afirmativa correta:
@@ -409,6 +460,9 @@ A respeito das ferramentas e abordagens de testes de segurança de software, ass
 * **C)** A Análise de Composição de Software (SCA - *Software Composition Analysis*) tem como objetivo primordial mapear a árvore de dependências e bibliotecas de terceiros (código aberto) utilizadas pelo projeto, identificando versões desatualizadas e componentes associados a vulnerabilidades conhecidas (CVEs).
 * **D)** O princípio do *Shift-Left* preceitua que as análises de segurança da informação devem ser adiadas para a última semana anterior à entrada em produção, para evitar atrasos aos desenvolvedores.
 * **E)** Ferramentas de SAST e DAST tornam dispensáveis a modelagem de ameaças e o controle de acesso lógico nas aplicações.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -420,8 +474,9 @@ A respeito das ferramentas e abordagens de testes de segurança de software, ass
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 3. Segurança em APIs, Contêineres e Ambientes de Nuvem
@@ -437,7 +492,8 @@ Diferente das aplicações web tradicionais baseadas em renderização no servid
 
 ---
 
-### Questão 09 (FGV - TRT / Analista Judiciário - TI - OWASP API Security Top 10 e Vulnerabilidade BOLA)
+### Teste 396
+**(FGV - TRT / Analista Judiciário - TI - OWASP API Security Top 10 e Vulnerabilidade BOLA)**
 As arquiteturas orientadas a microsserviços dependem extensivamente de APIs RESTful para integração de dados em órgãos públicos. O projeto OWASP mantém um ranking específico para esse segmento: o **OWASP API Security Top 10**.
 
 A vulnerabilidade categorizada como **API1:2023 - Broken Object Level Authorization (BOLA)**, historicamente associada ao conceito de IDOR em navegadores, é caracterizada quando:
@@ -447,6 +503,9 @@ A vulnerabilidade categorizada como **API1:2023 - Broken Object Level Authorizat
 * **C)** O certificado digital HTTPS expira e a API passa a responder com código de status HTTP 404.
 * **D)** A API utiliza tokens JWT com assinatura criptográfica assimétrica de 4096 bits devidamente validada em todas as chamadas.
 * **E)** Um invasor sobrecarrega o servidor enviando requisições com a sintaxe correta do protocolo GraphQL.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -479,7 +538,8 @@ USER 10001:10001
 
 ---
 
-### Questão 10 (FGV - TJ-AP / Analista Judiciário - TI - Hardening em Contêineres Docker e Kubernetes)
+### Teste 397
+**(FGV - TJ-AP / Analista Judiciário - TI - Hardening em Contêineres Docker e Kubernetes)**
 A implantação de aplicações em contêineres Docker orquestrados por Kubernetes exige a aplicação sistemática de diretrizes de *Hardening* e segurança preventiva para evitar o comprometimento do nó hospedeiro (*Host*) e movimentos laterais no cluster.
 
 Dentre as boas práticas consagradas de segurança para imagens e execução de contêineres, assinale a afirmativa correta:
@@ -489,6 +549,9 @@ Dentre as boas práticas consagradas de segurança para imagens e execução de 
 * **C)** O compartilhamento irrestrito do namespace de rede e de processos com o nó hospedeiro (`hostNetwork: true` e `hostPID: true`) é o mecanismo mais seguro recomendado pela CNCF para contêineres de produção.
 * **D)** As senhas de banco de dados devem ser gravadas diretamente em texto puro dentro do arquivo `Dockerfile` na diretiva `ENV`.
 * **E)** Contêineres dispensam qualquer atualização de segurança, pois o isolamento de namespaces do Linux torna o código 100% impenetrável contra qualquer vulnerabilidade de dia zero.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -534,7 +597,8 @@ flowchart TD
 
 ---
 
-### Questão 11 (FCC - Adaptada / TI - Segurança em Nuvem e Contêineres)
+### Teste 398
+**(FCC - Adaptada / TI - Segurança em Nuvem e Contêineres)**
 Em relação às boas práticas de segurança na execução de contêineres Docker e ao Modelo de Responsabilidade Compartilhada na computação em nuvem, assinale a afirmativa correta:
 
 * **A)** Em soluções de Infraestrutura como Serviço (IaaS), o provedor de nuvem é integralmente responsável pela aplicação periódica de patches de segurança e atualizações do sistema operacional convidado (*guest OS*) das máquinas virtuais do cliente.
@@ -542,6 +606,9 @@ Em relação às boas práticas de segurança na execução de contêineres Dock
 * **C)** Independentemente do modelo de contratação em nuvem adotado (IaaS, PaaS ou SaaS), a responsabilidade pela classificação, governança e proteção dos dados corporativos permanece de forma irrenunciável com a organização cliente.
 * **D)** A vulnerabilidade SSRF (*Server-Side Request Forgery*) é inofensiva em ambientes de nuvem, haja vista a inexistência de endpoints de serviços de metadados em plataformas como AWS, Azure ou GCP.
 * **E)** O uso de imagens de contêiner do tipo *Distroless* é contraindicado pelas normas do CIS (*Center for Internet Security*), por dificultar o trabalho de manutenção ao remover pacotes supérfluos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -553,8 +620,9 @@ Em relação às boas práticas de segurança na execução de contêineres Dock
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 6. Fontes Recomendadas na Internet

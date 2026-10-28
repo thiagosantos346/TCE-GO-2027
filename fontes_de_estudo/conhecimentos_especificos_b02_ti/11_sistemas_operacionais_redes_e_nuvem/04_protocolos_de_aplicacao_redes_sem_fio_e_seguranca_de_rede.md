@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `04_protocolos_de_aplicacao_redes_sem_fio_e_seguranca_de_rede.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Protocolos da camada de aplicação e transporte:
@@ -14,30 +17,46 @@
 - Tecnologias de interconexão e segurança perimetral: VPN, Balanceamento de Carga, Proxies e Firewalls
 - Noções de redes sem fio (Padrões IEEE 802.11 e segurança Wi-Fi)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Evolução dos Protocolos Web: HTTP/1.1, HTTP/2, HTTP/3 e HTTPS](#1-evolucao-dos-protocolos-web-http11-http2-http3-e-https)
-    - [1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação](#11-http11-e-o-bloqueio-de-inicio-de-fila-head-of-line-blocking-na-aplicacao)
-    - [1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK](#12-http2-formato-binario-multiplexacao-de-streams-e-compressao-hpack)
-    - [1.3 HTTP/3 e o Protocolo QUIC sobre UDP](#13-http3-e-o-protocolo-quic-sobre-udp)
-    - [1.4 HTTPS e TLS 1.3 Integrado](#14-https-e-tls-13-integrado)
-- [2. Protocolos Utilitários, Transferência de Arquivos e Correio Eletrônico](#2-protocolos-utilitarios-transferencia-de-arquivos-e-correio-eletronico)
-    - [2.1 SSH (Secure Shell) e Redirecionamento de Portas](#21-ssh-secure-shell-e-redirecionamento-de-portas)
-    - [2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP](#22-transferencia-de-arquivos-ftp-vs-ftps-vs-sftp)
-    - [2.3 Correio Eletrônico: SMTP vs. POP3 vs. IMAP](#23-correio-eletronico-smtp-vs-pop3-vs-imap)
-- [3. Elementos de Borda e Segurança de Rede: VPN, IPsec, Balanceadores e Proxies](#3-elementos-de-borda-e-seguranca-de-rede-vpn-ipsec-balanceadores-e-proxies)
-    - [3.1 Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel](#31-arquitetura-ipsec-cabecalhos-ah-vs-esp-e-modos-transporte-vs-tunel)
-    - [3.2 Balanceadores de Carga: Camada 4 (L4) vs. Camada 7 (L7)](#32-balanceadores-de-carga-camada-4-l4-vs-camada-7-l7)
-    - [3.3 Servidores Proxy: Forward Proxy vs. Reverse Proxy](#33-servidores-proxy-forward-proxy-vs-reverse-proxy)
-- [4. Redes Sem Fio (IEEE 802.11 - Wi-Fi)](#4-redes-sem-fio-ieee-80211-wi-fi)
-    - [4.1 Evolução dos Padrões 802.11 (Wi-Fi 4, Wi-Fi 5 e Wi-Fi 6/6E)](#41-evolucao-dos-padroes-80211-wi-fi-4-wi-fi-5-e-wi-fi-66e)
-    - [4.2 Frequências de Operação: 2.4 GHz vs. 5 GHz](#42-frequencias-de-operacao-24-ghz-vs-5-ghz)
-    - [4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)](#43-mecanismo-de-acesso-ao-meio-csmaca-e-o-problema-do-no-oculto-rtscts)
-    - [4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)](#44-evolucao-da-seguranca-sem-fio-wep-wpa-wpa2-e-wpa3-personal-vs-enterprise)
-- [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
+
+1. [Evolução dos Protocolos Web: HTTP/1.1, HTTP/2, HTTP/3 e HTTPS](#1-evolucao-dos-protocolos-web-http11-http2-http3-e-https)
+    1. [HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação](#11-http11-e-o-bloqueio-de-inicio-de-fila-head-of-line-blocking-na-aplicacao)
+    2. [Teste 443](#Teste-443)
+    3. [HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK](#12-http2-formato-binario-multiplexacao-de-streams-e-compressao-hpack)
+    4. [Teste 444](#Teste-444)
+    5. [HTTP/3 e o Protocolo QUIC sobre UDP](#13-http3-e-o-protocolo-quic-sobre-udp)
+    6. [Teste 445](#Teste-445)
+    7. [HTTPS e TLS 1.3 Integrado](#14-https-e-tls-13-integrado)
+2. [Protocolos Utilitários, Transferência de Arquivos e Correio Eletrônico](#2-protocolos-utilitarios-transferencia-de-arquivos-e-correio-eletronico)
+    1. [SSH (Secure Shell) e Redirecionamento de Portas](#21-ssh-secure-shell-e-redirecionamento-de-portas)
+    2. [Transferência de Arquivos: FTP vs. FTPS vs. SFTP](#22-transferencia-de-arquivos-ftp-vs-ftps-vs-sftp)
+    3. [Teste 446](#Teste-446)
+    4. [Correio Eletrônico: SMTP vs. POP3 vs. IMAP](#23-correio-eletronico-smtp-vs-pop3-vs-imap)
+    5. [Teste 447](#Teste-447)
+3. [Elementos de Borda e Segurança de Rede: VPN, IPsec, Balanceadores e Proxies](#3-elementos-de-borda-e-seguranca-de-rede-vpn-ipsec-balanceadores-e-proxies)
+    1. [Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel](#31-arquitetura-ipsec-cabecalhos-ah-vs-esp-e-modos-transporte-vs-tunel)
+    2. [Teste 448](#Teste-448)
+    3. [Balanceadores de Carga: Camada 4 (L4) vs. Camada 7 (L7)](#32-balanceadores-de-carga-camada-4-l4-vs-camada-7-l7)
+    4. [Teste 449](#Teste-449)
+    5. [Servidores Proxy: Forward Proxy vs. Reverse Proxy](#33-servidores-proxy-forward-proxy-vs-reverse-proxy)
+    6. [Teste 450](#Teste-450)
+4. [Redes Sem Fio (IEEE 802.11 - Wi-Fi)](#4-redes-sem-fio-ieee-80211-wi-fi)
+    1. [Evolução dos Padrões 802.11 (Wi-Fi 4, Wi-Fi 5 e Wi-Fi 6/6E)](#41-evolucao-dos-padroes-80211-wi-fi-4-wi-fi-5-e-wi-fi-66e)
+    2. [Frequências de Operação: 2.4 GHz vs. 5 GHz](#42-frequencias-de-operacao-24-ghz-vs-5-ghz)
+    3. [Teste 451](#Teste-451)
+    4. [Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)](#43-mecanismo-de-acesso-ao-meio-csmaca-e-o-problema-do-no-oculto-rtscts)
+    5. [Teste 452](#Teste-452)
+    6. [Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)](#44-evolucao-da-seguranca-sem-fio-wep-wpa-wpa2-e-wpa3-personal-vs-enterprise)
+    7. [Teste 453](#Teste-453)
+5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Evolução dos Protocolos Web: HTTP/1.1, HTTP/2, HTTP/3 e HTTPS
 
@@ -53,7 +72,8 @@ Contudo, o HTTP/1.1 padece de uma limitação arquitetural grave:
 
 ---
 
-### Questão 01 (FCC - Adaptada / Analista de Redes e Infraestrutura)
+### Teste 443
+**(FCC - Adaptada / Analista de Redes e Infraestrutura)**
 Considere a evolução dos protocolos da arquitetura World Wide Web, em especial os padrões HTTP/1.1, HTTP/2 e HTTP/3, concebidos para aprimorar o desempenho, a segurança e a latência de transferência de dados em aplicações corporativas.
 
 Sobre as características fundamentais desses protocolos, assinale a afirmativa correta:
@@ -63,6 +83,9 @@ Sobre as características fundamentais desses protocolos, assinale a afirmativa 
 * **C)** O HTTP/1.1 introduziu o mecanismo de multiplexação binária através de uma única conexão TCP, dispensando conexões concorrentes para o download de folhas de estilo e imagens.
 * **D)** O protocolo QUIC do HTTP/3 opera em texto plano sem segurança criptográfica nativa, exigindo a instalação manual e facultativa de certificados SSL externos para cifrar dados sensíveis.
 * **E)** Os protocolos HTTP/2 e HTTP/3 mantiveram a estrutura de mensagens baseada em formato estritamente textual legível por humanos em seus cabeçalhos e fluxos, para simplificar a auditoria direta por analisadores de pacotes.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -94,7 +117,8 @@ Embora o HTTP/2 tenha solucionado o bloqueio de início de fila na aplicação, 
 
 ---
 
-### Questão 02 (FGV - TRT / Analista Judiciário - TI - Inovações do Protocolo HTTP/2)
+### Teste 444
+**(FGV - TRT / Analista Judiciário - TI - Inovações do Protocolo HTTP/2)**
 O protocolo **HTTP/2** (RFC 7540) foi desenvolvido pelo IETF com o objetivo central de mitigar as graves restrições de latência e concorrência inerentes ao protocolo HTTP/1.1 clássico.
 
 A respeito das inovações arquiteturais introduzidas pelo HTTP/2, assinale a afirmativa correta:
@@ -104,6 +128,9 @@ A respeito das inovações arquiteturais introduzidas pelo HTTP/2, assinale a af
 * **C)** O HTTP/2 exige a abertura de 50 conexões TCP paralelas para cada imagem carregada em uma página web.
 * **D)** O HTTP/2 é incompatível com criptografia TLS, funcionando exclusivamente em conexões HTTP não seguras na porta 80.
 * **E)** O algoritmo HPACK do HTTP/2 foi projetado exclusivamente para descompactar arquivos de vídeo em formato AVI.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -154,7 +181,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - TRT / Analista de Redes - HTTP/3 e o Protocolo QUIC sobre UDP)
+### Teste 445
+**(FCC - TRT / Analista de Redes - HTTP/3 e o Protocolo QUIC sobre UDP)**
 Embora o HTTP/2 tenha solucionado o bloqueio de início de fila (*Head-of-Line Blocking*) na camada de aplicação, ele continuou sofrendo com o *Head-of-Line Blocking* na **Camada de Transporte**, decorrente da garantia de entrega estritamente sequencial e ordenada do protocolo TCP subjacente (onde a perda de um único pacote TCP paralisa todos os fluxos multiplexados).
 
 Para superar definitivamente essa barreira física, a IETF padronizou o **HTTP/3** (RFC 9114), cuja principal inovação reside na substituição do TCP pelo protocolo:
@@ -164,6 +192,9 @@ Para superar definitivamente essa barreira física, a IETF padronizou o **HTTP/3
 * **C)** FTP tradicional com autenticação anônima.
 * **D)** AppleTalk em cabos coaxiais antigos.
 * **E)** SMTP executado diretamente sobre conexões seriais RS-232.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -189,7 +220,10 @@ O **HTTPS** nada mais é do que o tráfego HTTP executado sobre uma camada de se
 - **Forward Secrecy Mandatório:** O TLS 1.3 exige o uso de algoritmos de troca de chave efêmera (como ECDHE), garantindo que, mesmo que a chave privada do servidor web seja roubada no futuro, o tráfego gravado no passado não poderá ser decifrado.
 - No HTTP/3, o **TLS 1.3 é embutido nativamente no QUIC**, não existindo HTTP/3 em texto claro na especificação padrão.
 
+
+
 ---
+
 
 ## 2. Protocolos Utilitários, Transferência de Arquivos e Correio Eletrônico
 
@@ -215,7 +249,8 @@ O protocolo **SSH** opera na **porta TCP 22** e provê comunicação criptografa
 
 ---
 
-### Questão 04 (FGV - TRT / Analista Judiciário - TI - Transferência de Arquivos Segura: SFTP vs. FTPS)
+### Teste 446
+**(FGV - TRT / Analista Judiciário - TI - Transferência de Arquivos Segura: SFTP vs. FTPS)**
 Em auditorias de sistemas governamentais, é frequente a necessidade de transferir arquivos volumosos contendo bases de dados e folhas de pagamento de órgãos fiscalizados para os servidores do tribunal.
 
 A respeito da distinção técnica fundamental entre os protocolos de transferência segura **SFTP** (*SSH File Transfer Protocol*) e **FTPS** (*FTP over SSL/TLS*), assinale a afirmativa correta:
@@ -225,6 +260,9 @@ A respeito da distinção técnica fundamental entre os protocolos de transferê
 * **C)** O FTPS é proibido em redes IPv4 por ser um protocolo exclusivo de satélites espaciais.
 * **D)** Ambos os protocolos utilizam exclusivamente o protocolo UDP sem criptografia.
 * **E)** O SFTP transmite dados em texto claro e foi decifrado em 1995.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -266,7 +304,8 @@ flowchart LR
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Sistemas - Suporte a Serviços de Rede)
+### Teste 447
+**(FCC - Adaptada / Analista de Sistemas - Suporte a Serviços de Rede)**
 A respeito dos protocolos da camada de aplicação e seus papéis no ecossistema de infraestrutura de TI, assinale a afirmação correta:
 
 * **A)** O protocolo POP3 opera na porta TCP 110 e caracteriza-se por manter cópias sincronizadas das pastas e mensagens permanentemente no servidor, refletindo instantaneamente as alterações feitas em múltiplos clientes de correio.
@@ -274,6 +313,9 @@ A respeito dos protocolos da camada de aplicação e seus papéis no ecossistema
 * **C)** O protocolo SFTP (*SSH File Transfer Protocol*) baseia-se na execução paralela do protocolo FTP tradicional com redirecionamento de portas, exigindo a abertura obrigatória das portas TCP 20 e 21 nos firewalls perimetrais.
 * **D)** O protocolo IMAP opera permitindo a sincronização bidirecional entre o cliente e o servidor de mensagens, mantendo a estrutura de diretórios e o estado das mensagens centralizados no servidor de correio eletrônico.
 * **E)** O protocolo SSH opera por padrão na porta UDP 22, não provendo recursos de confidencialidade e limitando-se a registrar sessões de auditoria em arquivos de log do sistema operacional.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -285,8 +327,9 @@ A respeito dos protocolos da camada de aplicação e seus papéis no ecossistema
 > 
 > **Gabarito: D**
 
----
 
+
+---
 
 
 ## 3. Elementos de Borda e Segurança de Rede: VPN, IPsec, Balanceadores e Proxies
@@ -316,7 +359,8 @@ flowchart TD
 
 ---
 
-### Questão 06 (FCC - Adaptada / Analista de Tecnologia da Informação - Segurança Cibernética)
+### Teste 448
+**(FCC - Adaptada / Analista de Tecnologia da Informação - Segurança Cibernética)**
 Uma entidade governamental necessita interligar a rede local de seu data center sede à rede local de uma unidade regional descentralizada através da Internet pública. O projeto de segurança estipula que a solução deve mascarar integralmente os endereços IP corporativos internos de ambas as localidades e garantir sigilo criptográfico completo e autenticidade para todo o tráfego em trânsito.
 
 Para atender plenamente aos requisitos de interconexão VPN *Site-to-Site*, o analista deve configurar a arquitetura IPsec utilizando:
@@ -326,6 +370,9 @@ Para atender plenamente aos requisitos de interconexão VPN *Site-to-Site*, o an
 * **C)** O protocolo ESP (*Encapsulating Security Payload*) em Modo Túnel.
 * **D)** O protocolo AH (*Authentication Header*) em Modo Túnel.
 * **E)** O protocolo TLS em Modo Enlace com portas abertas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -355,7 +402,8 @@ Os Balanceadores de Carga (*Load Balancers*) distribuem o fluxo de requisições
 
 ---
 
-### Questão 07 (FCC - TRT / Analista de Infraestrutura - Balanceamento de Carga: Camada 4 vs. Camada 7)
+### Teste 449
+**(FCC - TRT / Analista de Infraestrutura - Balanceamento de Carga: Camada 4 vs. Camada 7)**
 Na infraestrutura de datacenters de tribunais de contas, o balanceamento de carga (*Load Balancing*) distribui o tráfego dos sistemas de processo eletrônico entre múltiplos servidores de aplicação em cluster, operando tipicamente na **Camada 4 (Transporte)** ou na **Camada 7 (Aplicação)**.
 
 A respeito das características que diferenciam um balanceador **Layer 4 (L4)** de um balanceador **Layer 7 (L7)**, assinale a afirmativa correta:
@@ -365,6 +413,9 @@ A respeito das características que diferenciam um balanceador **Layer 4 (L4)** 
 * **C)** O balanceador L4 é exclusivo de cabos de fibra óptica submarinos.
 * **D)** O balanceador L7 consome menos ciclos de CPU e memória do que o L4 por não analisar o cabeçalho das mensagens.
 * **E)** Ambos os tipos exigem que todos os servidores web de destino possuam o mesmo endereço IP físico.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -387,7 +438,8 @@ A respeito das características que diferenciam um balanceador **Layer 4 (L4)** 
 
 ---
 
-### Questão 08 (FGV - TRT / Analista Judiciário - TI - Servidores Proxy: Forward Proxy vs. Reverse Proxy)
+### Teste 450
+**(FGV - TRT / Analista Judiciário - TI - Servidores Proxy: Forward Proxy vs. Reverse Proxy)**
 Os servidores proxy são intermediários de rede amplamente empregados para segurança, controle de acesso, anonimização e aceleração de tráfego.
 
 A respeito da distinção funcional entre um **Forward Proxy** e um **Reverse Proxy**, assinale a afirmativa correta:
@@ -397,6 +449,9 @@ A respeito da distinção funcional entre um **Forward Proxy** e um **Reverse Pr
 * **C)** O Reverse Proxy impede que os servidores internos recebam energia elétrica da rede predial.
 * **D)** Ambos os proxies realizam rigorosamente a mesma função e não possuem nenhuma diferença de posicionamento ou objetivo arquitetural.
 * **E)** O Forward Proxy é exclusivo de conexões via satélite do padrão DVB-S2.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -410,7 +465,10 @@ A respeito da distinção funcional entre um **Forward Proxy** e um **Reverse Pr
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Redes Sem Fio (IEEE 802.11 - Wi-Fi)
 
@@ -435,7 +493,8 @@ A respeito da distinção funcional entre um **Forward Proxy** e um **Reverse Pr
 
 ---
 
-### Questão 09 (FCC - TRT / Analista de Telecomunicações - Redes Sem Fio IEEE 802.11 e Frequências 2.4 GHz vs. 5 GHz)
+### Teste 451
+**(FCC - TRT / Analista de Telecomunicações - Redes Sem Fio IEEE 802.11 e Frequências 2.4 GHz vs. 5 GHz)**
 A implantação de redes locais sem fio corporativas (*WLAN / Wi-Fi*) baseadas na família de padrões IEEE 802.11 requer o planejamento criterioso de frequências e canais para evitar interferências de rádio e degradação de sinal.
 
 A respeito da comparação técnica entre as bandas de frequência de **2.4 GHz** e **5 GHz**, assinale a afirmativa correta:
@@ -445,6 +504,9 @@ A respeito da comparação técnica entre as bandas de frequência de **2.4 GHz*
 * **C)** A banda de 5 GHz é totalmente imune a qualquer atenuação provocada por paredes de concreto armado.
 * **D)** O padrão IEEE 802.11b opera exclusivamente na faixa de 60 GHz com velocidade de 10 Gigabits por segundo.
 * **E)** Fornos micro-ondas e telefones sem fio antigos operam exclusivamente na faixa de 5 GHz, deixando a faixa de 2.4 GHz livre de qualquer interferência.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -490,7 +552,8 @@ O problema é neutralizado pelo mecanismo opcional de reserva via quadros de con
 
 ---
 
-### Questão 10 (FCC - Adaptada / Analista de Infraestrutura de Redes de Comunicação)
+### Teste 452
+**(FCC - Adaptada / Analista de Infraestrutura de Redes de Comunicação)**
 No que tange às redes sem fio fundamentadas no padrão IEEE 802.11 (Wi-Fi) e aos seus mecanismos de controle de acesso ao meio físico e topologia, é correto afirmar:
 
 * **A)** As redes Wi-Fi implementam o protocolo de acesso ao meio CSMA/CD, o qual baseia-se na detecção ativa e instantânea de colisões elétricas na antena transmissora para interromper transmissões conflitantes.
@@ -498,6 +561,9 @@ No que tange às redes sem fio fundamentadas no padrão IEEE 802.11 (Wi-Fi) e ao
 * **C)** A faixa de frequência de 2.4 GHz oferece taxas de transmissão teóricas substancialmente superiores à faixa de 5 GHz, além de disponibilizar uma quantidade três vezes maior de canais não sobrepostos.
 * **D)** O protocolo WEP é o algoritmo atualmente recomendado pelas normas internacionais para redes governamentais de alta segurança, pois utiliza a cifra de bloco AES com chaves simétricas de 256 bits.
 * **E)** No padrão IEEE 802.11ax (Wi-Fi 6), a tecnologia CSMA/CA foi totalmente substituída pelo protocolo de chaveamento de circuitos estáticos Token Ring.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -531,7 +597,8 @@ No que tange às redes sem fio fundamentadas no padrão IEEE 802.11 (Wi-Fi) e ao
 
 ---
 
-### Questão 11 (FCC - Adaptada / Analista de Tecnologia da Informação - Redes e Telecomunicações)
+### Teste 453
+**(FCC - Adaptada / Analista de Tecnologia da Informação - Redes e Telecomunicações)**
 Em uma organização pública que implementou uma infraestrutura de rede corporativa sem fio (Wi-Fi), a equipe de segurança da informação adotou o padrão de segurança WPA3 no modo *Enterprise*.
 
 Em comparação com implementações domésticas baseadas em WPA2-Personal (PSK), a referida arquitetura governamental caracteriza-se por:
@@ -541,6 +608,9 @@ Em comparação com implementações domésticas baseadas em WPA2-Personal (PSK)
 * **C)** Implementar autenticação centralizada e individualizada baseada no padrão IEEE 802.1X, utilizando um servidor corporativo de controle de acesso fundamentado no protocolo RADIUS integrado a um repositório de identidades.
 * **D)** Utilizar a cifra obsoleta RC4 com vetores de inicialização estendidos de 128 bits para manter compatibilidade reversa com o padrão WEP.
 * **E)** Prescindir do uso de certificados digitais ou credenciais individuais, concedendo acesso livre e irrestrito através de um portal cativo (*captive portal*) não autenticado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -552,8 +622,9 @@ Em comparação com implementações domésticas baseadas em WPA2-Personal (PSK)
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 6. Fontes Recomendadas na Internet

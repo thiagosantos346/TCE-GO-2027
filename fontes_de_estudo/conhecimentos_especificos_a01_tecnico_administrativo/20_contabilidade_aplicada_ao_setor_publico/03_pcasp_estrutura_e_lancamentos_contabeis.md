@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `03_pcasp_estrutura_e_lancamentos_contabeis.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -29,31 +32,33 @@
     - Contabilização dos atos potenciais (contratos administrativos celebrados, convênios, fianças e garantias);
     - Controle da Disponibilidade por Destinação de Recursos (DDR) e atributos das contas contábeis (P/F).
 
----
 
-## 🧭 Sumário Interativo
-- [1. Fundamentos e Padronização Federativa do PCASP](#1-fundamentos-e-padronizacao-federativa-do-pcasp)
-    - [1.1 Objetivos Centrais e Abrangência Federativa Obrigatória](#11-objetivos-centrais-e-abrangencia-federativa-obrigatoria)
-    - [1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)](#12-os-atributos-pf-das-contas-contabeis-financeiro-e-permanente)
-- [2. Estrutura Codificada do PCASP (Sete Níveis de Detalhamento)](#2-estrutura-codificada-do-pcasp-sete-niveis-de-detalhamento)
-    - [2.1 Estrutura Numérica Decimal (X.X.X.X.X.XX.XX)](#21-estrutura-numerica-decimal-xxxxxxxxx)
-    - [2.2 Detalhamento Federativo vs. Especificidades do Ente](#22-detalhamento-federativo-vs-especificidades-do-ente)
-- [3. Os Três Subsistemas de Informação Contábil e Regra da Autonomia](#3-os-tres-subsistemas-de-informacao-contabil-e-regra-da-autonomia)
-    - [3.1 Subsistema Patrimonial (Classes 1, 2, 3 e 4)](#31-subsistema-patrimonial-classes-1-2-3-e-4)
-    - [3.2 Subsistema Orçamentário (Classes 5 e 6)](#32-subsistema-orcamentario-classes-5-e-6)
-    - [3.3 Subsistema de Controle (Classes 7 e 8) e Atos Potenciais](#33-subsistema-de-controle-classes-7-e-8-e-atos-potenciais)
-    - [3.4 Regra da Autonomia e Fechamento das Partidas Dobradas](#34-regra-da-autonomia-e-fechamento-das-partidas-dobradas)
-- [4. As Oito Classes de Contas e a Natureza dos Saldos](#4-as-oito-classes-de-contas-e-a-natureza-dos-saldos)
-    - [4.1 A Regra de Ouro: Classes Ímpares (Devedoras) vs. Pares (Credoras)](#41-a-regra-de-ouro-classes-impares-devedoras-vs-pares-credoras)
-    - [4.2 Quadro Sinótico Consolidado das Classes](#42-quadro-sinotico-consolidado-das-classes)
-- [5. Mecânica dos Lançamentos Contábeis Típicos](#5-mecanica-dos-lancamentos-contabeis-tipicos)
-    - [5.1 Aprovação da Lei Orçamentária Anual (Previsão da Receita e Fixação da Despesa)](#51-aprovacao-da-lei-orcamentaria-anual-previsao-da-receita-e-fixacao-da-despesa)
-    - [5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)](#52-execucao-da-despesa-orcamentaria-passo-a-passo-empenho-liquidacao-e-pagamento)
-    - [5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)](#53-execucao-da-receita-orcamentaria-lancamento-e-arrecadacaorecolhimento)
-    - [5.4 Escrituração dos Atos Potenciais e Controle de Contratos Administrativos](#54-escrituracao-dos-atos-potenciais-e-controle-de-contratos-administrativos)
-- [6. Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Fundamentos e Padronização Federativa do PCASP](#1-fundamentos-e-padronizacao-federativa-do-pcasp)
+    2. [Teste 280](#Teste-280)
+    3. [Estrutura Codificada do PCASP (Sete Níveis de Detalhamento)](#2-estrutura-codificada-do-pcasp-sete-niveis-de-detalhamento)
+    4. [Teste 281](#Teste-281)
+    5. [Os Três Subsistemas de Informação Contábil e Regra da Autonomia](#3-os-tres-subsistemas-de-informacao-contabil-e-regra-da-autonomia)
+    6. [Teste 282](#Teste-282)
+    7. [As Oito Classes de Contas e a Natureza dos Saldos](#4-as-oito-classes-de-contas-e-a-natureza-dos-saldos)
+    8. [Teste 283](#Teste-283)
+    9. [Teste 284](#Teste-284)
+    10. [Mecânica dos Lançamentos Contábeis Típicos](#5-mecanica-dos-lancamentos-contabeis-tipicos)
+    11. [Teste 285](#Teste-285)
+    12. [Teste 286](#Teste-286)
+    13. [Teste 287](#Teste-287)
+    14. [Teste 288](#Teste-288)
+    15. [Teste 289](#Teste-289)
+2. [Fontes Oficiais & Manuais Técnicos Recomendados](#fontes-oficiais-manuais-tecnicos-recomendados)
+
+---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -80,7 +85,8 @@ Para conciliar o modelo contábil patrimonial moderno com as exigências legais 
 
 ---
 
-### Questão 01 (FCC - Adaptada / Analista Contábil)
+### Teste 280
+**(FCC - Adaptada / Analista Contábil)**
 No Plano de Contas Aplicado ao Setor Público (PCASP), as contas contábeis do ativo e do passivo recebem atributos que identificam sua natureza e vinculação orçamentária e financeira, destacando-se o atributo **F/P** (Financeiro / Permanente).
 
 A esse respeito, é correto afirmar:
@@ -90,6 +96,9 @@ A esse respeito, é correto afirmar:
 * **C)** Todas as contas do patrimônio líquido recebem o atributo financeiro para possibilitar a imediata liquidação de passivos contingentes.
 * **D)** O atributo financeiro e permanente foi totalmente extinto pelas normas internacionais de contabilidade (IPSAS), sendo vedada sua utilização pelo PCASP.
 * **E)** As disponibilidades de caixa possuem atributo permanente por estarem vinculadas às leis orçamentárias futuras.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -137,7 +146,8 @@ flowchart LR
 
 ---
 
-### Questão 02 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 281
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 A estrutura codificada das contas contábeis no PCASP é padronizada nacionalmente pela Secretaria do Tesouro Nacional (STN) em níveis de desdobramento.
 
 Sobre a estrutura padronizada das contas no PCASP, assinale a opção correta:
@@ -147,6 +157,9 @@ Sobre a estrutura padronizada das contas no PCASP, assinale a opção correta:
 * **C)** O PCASP é facultativo para os Tribunais de Contas e órgãos do Poder Judiciário, que podem utilizar planos de contas próprios do direito privado.
 * **D)** O código da conta no PCASP possui 3 dígitos decimais no padrão internacional das normas IFRS.
 * **E)** Os níveis de Subtítulo e Item de detalhamento não admitem nenhuma adaptação ou criação de contas pelas entidades federadas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -196,7 +209,8 @@ Destina-se ao registro e monitoramento dos **atos potenciais** praticados pela a
 
 ---
 
-### Questão 03 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Teste 282
+**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 O PCASP estrutura as contas em três grandes subsistemas contábeis autônomos de informação: **Patrimonial**, **Orçamentário** e **de Controle**.
 
 A respeito do princípio da autonomia dos subsistemas no PCASP, é correto afirmar:
@@ -206,6 +220,9 @@ A respeito do princípio da autonomia dos subsistemas no PCASP, é correto afirm
 * **C)** O subsistema de controle destina-se unicamente ao registro dos saldos bancários e do ativo disponível.
 * **D)** O subsistema patrimonial engloba as Classes 5 e 6 do PCASP para registrar a previsão da receita e fixação da despesa.
 * **E)** As contas de compensação do subsistema de controle foram abolidas e substituídas pelo balanço financeiro.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -251,7 +268,8 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Adaptada / DPE-RS - Analista: Área Contabilidade)
+### Teste 283
+**(FCC - Adaptada / DPE-RS - Analista: Área Contabilidade)**
 Assinale a alternativa que apresenta a correta associação entre a classe de contas do PCASP, seu subsistema de informação e sua respectiva natureza de saldo:
 
 * **A)** Classe 1 (Ativo) – Subsistema Patrimonial – Natureza Credora.
@@ -259,6 +277,9 @@ Assinale a alternativa que apresenta a correta associação entre a classe de co
 * **C)** Classe 5 (Orçamento Aprovado) – Subsistema Orçamentário – Natureza Credora.
 * **D)** Classe 6 (Execução do Orçamento) – Subsistema Orçamentário – Natureza Credora.
 * **E)** Classe 7 (Controles Devedores) – Subsistema de Controle – Natureza Credora.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -288,7 +309,8 @@ Assinale a alternativa que apresenta a correta associação entre a classe de co
 
 ---
 
-### Questão 05 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 284
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 De acordo com a estrutura do Plano de Contas Aplicado ao Setor Público (PCASP) estabelecida no MCASP, as contas pertencentes às classes 3 e 4 destinam-se a registrar, respectivamente:
 
 * **A)** O orçamento aprovado e a execução do orçamento público.
@@ -296,6 +318,9 @@ De acordo com a estrutura do Plano de Contas Aplicado ao Setor Público (PCASP) 
 * **C)** As variações patrimoniais diminutivas (VPD) e as variações patrimoniais aumentativas (VPA).
 * **D)** Os controles devedores e os controles credores dos atos potenciais.
 * **E)** As despesas fixadas na LOA e as receitas arrecadadas no exercício.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -342,7 +367,8 @@ flowchart TD
 
 ---
 
-### Questão 06 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Teste 285
+**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 A formalização da celebração de um contrato administrativo de prestação de serviços continuados de vigilância armada no valor total anual de R$ 1.200.000,00, antes do início de qualquer execução física ou financeira pelo contratado, enseja no órgão público estadual o seguinte registro contábil segundo o PCASP:
 
 * **A)** Débito em Variação Patrimonial Diminutiva (Classe 3) e Crédito em Fornecedores a Pagar (Classe 2).
@@ -350,6 +376,9 @@ A formalização da celebração de um contrato administrativo de prestação de
 * **C)** Débito em Crédito Disponível e Crédito em Despesa Paga no Subsistema Orçamentário (Classe 6).
 * **D)** Débito no Ativo Imobilizado (Classe 1) e Crédito no Patrimônio Líquido (Classe 2).
 * **E)** Nenhum registro contábil, uma vez que contratos administrativos só são escriturados após o pagamento das ordens bancárias.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -363,7 +392,8 @@ A formalização da celebração de um contrato administrativo de prestação de
 
 ---
 
-### Questão 07 (FCC - Adaptada / SEFAZ-PE - Auditor Fiscal do Tesouro Estadual)
+### Teste 286
+**(FCC - Adaptada / SEFAZ-PE - Auditor Fiscal do Tesouro Estadual)**
 No âmbito da execução orçamentária e financeira do setor público regida pelo PCASP, considere os seguintes fatos:
 
 I. Aprovação do orçamento com fixação da despesa na Lei Orçamentária Anual.  
@@ -382,6 +412,9 @@ IV. Emissão da ordem bancária e pagamento ao fornecedor.
 * **D)** I e II, apenas.
 * **E)** II, III e IV, apenas.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Os fatos I e II pertencem com exclusividade ao subsistema orçamentário.
@@ -397,7 +430,8 @@ IV. Emissão da ordem bancária e pagamento ao fornecedor.
 
 ---
 
-### Questão 08 (FCC - Adaptada / TRT-20ª Região - Analista Judiciário: Contabilidade)
+### Teste 287
+**(FCC - Adaptada / TRT-20ª Região - Analista Judiciário: Contabilidade)**
 Em determinado exercício financeiro, uma autarquia estadual efetuou a liquidação de uma despesa orçamentária referente à prestação de serviços de limpeza e conservação predial no valor de R$ 80.000,00. Sob a ótica do Plano de Contas Aplicado ao Setor Público (PCASP), os lançamentos contábeis simultâneos efetuados nos subsistemas Orçamentário e Patrimonial foram, respectivamente:
 
 * **A)** Orçamentário: Débito em Crédito Disponível e Crédito em Crédito Empenhado Pago; Patrimonial: Débito em Caixa e Crédito em VPA.
@@ -405,6 +439,9 @@ Em determinado exercício financeiro, uma autarquia estadual efetuou a liquidaç
 * **C)** Orçamentário: Débito em Dotação Inicial e Crédito em Crédito Disponível; Patrimonial: Débito em Bens Móveis e Crédito em Caixa.
 * **D)** Orçamentário: Débito em Receita Realizada e Crédito em Receita a Realizar; Patrimonial: Débito em Estoques e Crédito em Caixa.
 * **E)** Orçamentário: Débito em Crédito Empenhado Liquidado a Pagar e Crédito em Crédito Empenhado Pago; Patrimonial: Débito em Fornecedores a Pagar e Crédito em Caixa.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -445,7 +482,8 @@ A assinatura de um contrato de prestação de serviços continuados (ex.: segura
 
 ---
 
-### Questão 09 (FCC - Adaptada / SEFAZ-SC - Auditor Fiscal da Receita Estadual)
+### Teste 288
+**(FCC - Adaptada / SEFAZ-SC - Auditor Fiscal da Receita Estadual)**
 No PCASP, a assinatura de um contrato administrativo formal de obras públicas no valor de R$ 20.000.000,00, antes do início da execução física e financeira, acarreta:
 
 * **A)** Registro obrigatório no subsistema de controle (Classes 7 - Controles Devedores e 8 - Controles Credores), por se tratar de ato potencial passivo que poderá vir a afetar o patrimônio estatal no futuro.
@@ -453,6 +491,9 @@ No PCASP, a assinatura de um contrato administrativo formal de obras públicas n
 * **C)** Lançamento de despesa liquidada a pagar no subsistema orçamentário (Classe 6).
 * **D)** Baixa das disponibilidades bancárias na Conta Única do Tesouro Estadual (Classe 1).
 * **E)** Nenhum lançamento no sistema contábil, devendo a informação ser arquivada exclusivamente nos autos do processo licitatório.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -466,7 +507,8 @@ No PCASP, a assinatura de um contrato administrativo formal de obras públicas n
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 289
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 Na liquidação da despesa orçamentária decorrente da entrega definitiva de material de consumo recebido e atestado no almoxarifado central, ocorrem lançamentos simultâneos nos seguintes subsistemas do PCASP:
 
 * **A)** No subsistema orçamentário (debita-se despesa empenhada a liquidar e credita-se despesa liquidada a pagar) e no subsistema patrimonial (debita-se estoques no ativo circulante e credita-se fornecedores a pagar no passivo circulante).
@@ -474,6 +516,9 @@ Na liquidação da despesa orçamentária decorrente da entrega definitiva de ma
 * **C)** Exclusivamente no subsistema patrimonial com débito em bancos e crédito em capital social.
 * **D)** No subsistema de controle mediante cancelamento da conta única do Tesouro.
 * **E)** No subsistema de custos governamentais mediante estorno de provisões fiscais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -484,6 +529,8 @@ Na liquidação da despesa orçamentária decorrente da entrega definitiva de ma
 > - **E)** Incorreta. Não se trata de estorno, mas de apropriação regular de ativos de consumo.
 > 
 > **Gabarito: A**
+
+
 
 ---
 

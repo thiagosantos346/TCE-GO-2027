@@ -4,7 +4,10 @@
 **Cargo:** Auditor de Controle Externo - Tecnologia da Informação  
 **Status do Mapeamento:** 100% aderente ao edital TCE-GO
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 1. **Engenharia de Prompts e Modelagem de Contexto:** Princípios estruturais (Persona/Papel, Contexto, Instrução, Restrições e Formato de Saída); Técnicas avançadas de prompting (Zero-Shot, Few-Shot, Chain-of-Thought / CoT, Zero-Shot CoT, Self-Consistency e padrão ReAct - *Reasoning + Acting* com chamadas a ferramentas externas); e Riscos de segurança (Prompt Injection direto e indireto, jailbreaking e guardrails de contenção).
@@ -12,24 +15,40 @@
 3. **Aplicações Práticas de IA em Sistemas Governamentais:** Busca semântica e jurisprudencial em acervos de decisões do tribunal; Sumarização e extração automatizada de informações em processos de prestação de contas; Triagem e classificação de manifestações de ouvidoria e denúncias; e Assistentes virtuais baseados em normas institucionais.
 4. **Automação Inteligente de Processos (IPA - *Intelligent Process Automation*):** Transição do RPA tradicional (baseado em regras determinísticas e dados estruturados) para IPA/Hiperautomação (integração de bots com OCR inteligente, PLN, modelos preditivos e LLMs); Mineração de Processos (*Process Mining*: requisitos de logs de eventos com Case ID, Activity e Timestamp, algoritmos de Descoberta/*Discovery*, Verificação de Conformidade/*Conformance Checking* e Aprimoramento/*Enhancement*); e Casos práticos em Tribunais de Contas (cruzamento massivo de licitações, identificação de sobrepreço e redes societárias proibidas).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Engenharia de Prompts e Modelagem de Contexto](#1-engenharia-de-prompts-e-modelagem-de-contexto)
-    - [1.1 Princípios Estruturais de um Prompt Eficaz](#11-principios-estruturais-de-um-prompt-eficaz)
-    - [1.2 Técnicas Avançadas: Few-Shot, Chain-of-Thought (CoT) e ReAct](#12-tecnicas-avancadas-few-shot-chain-of-thought-cot-e-react)
-    - [1.3 Riscos de Segurança: Injeção de Prompts (Direta e Indireta) e Guardrails](#13-riscos-de-seguranca-injecao-de-prompts-direta-e-indireta-e-guardrails)
-- [2. Arquitetura RAG (Retrieval-Augmented Generation)](#2-arquitetura-rag-retrieval-augmented-generation)
-    - [2.1 Motivação e Benefícios do RAG no Setor Público](#21-motivacao-e-beneficios-do-rag-no-setor-publico)
-    - [2.2 O Pipeline Completo de RAG: Do Parsing ao Reranking](#22-o-pipeline-completo-de-rag-do-parsing-ao-reranking)
-    - [2.3 Padrões Avançados: Busca Híbrida (Dense + BM25 via RRF) e GraphRAG](#23-padroes-avancados-busca-hibrida-dense-bm25-via-rrf-e-graphrag)
-- [3. Automação Inteligente de Processos (IPA) e Mineração de Processos](#3-automacao-inteligente-de-processos-ipa-e-mineracao-de-processos)
-    - [3.1 Da Automação Robótica (RPA) à Automação Inteligente (IPA)](#31-da-automacao-robotica-rpa-a-automacao-inteligente-ipa)
-    - [3.2 Mineração de Processos (Process Mining): Logs, Descoberta e Conformidade](#32-mineracao-de-processos-process-mining-logs-descoberta-e-conformidade)
-    - [3.3 Casos de Aplicação no Controle Externo (TCE-GO)](#33-casos-de-aplicacao-no-controle-externo-tce-go)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Engenharia de Prompts e Modelagem de Contexto](#1-engenharia-de-prompts-e-modelagem-de-contexto)
+    1. [Princípios Estruturais de um Prompt Eficaz](#11-principios-estruturais-de-um-prompt-eficaz)
+    2. [Teste 322](#Teste-322)
+    3. [Técnicas Avançadas: Few-Shot, Chain-of-Thought (CoT) e ReAct](#12-tecnicas-avancadas-few-shot-chain-of-thought-cot-e-react)
+    4. [Teste 323](#Teste-323)
+    5. [Riscos de Segurança: Injeção de Prompts (Direta e Indireta) e Guardrails](#13-riscos-de-seguranca-injecao-de-prompts-direta-e-indireta-e-guardrails)
+    6. [Teste 324](#Teste-324)
+2. [Arquitetura RAG (Retrieval-Augmented Generation)](#2-arquitetura-rag-retrieval-augmented-generation)
+    1. [Motivação e Benefícios do RAG no Setor Público](#21-motivacao-e-beneficios-do-rag-no-setor-publico)
+    2. [Teste 325](#Teste-325)
+    3. [O Pipeline Completo de RAG: Do Parsing ao Reranking](#22-o-pipeline-completo-de-rag-do-parsing-ao-reranking)
+    4. [Teste 326](#Teste-326)
+    5. [Padrões Avançados: Busca Híbrida (Dense + BM25 via RRF) e GraphRAG](#23-padroes-avancados-busca-hibrida-dense-bm25-via-rrf-e-graphrag)
+    6. [Teste 327](#Teste-327)
+3. [Automação Inteligente de Processos (IPA) e Mineração de Processos](#3-automacao-inteligente-de-processos-ipa-e-mineracao-de-processos)
+    1. [Da Automação Robótica (RPA) à Automação Inteligente (IPA)](#31-da-automacao-robotica-rpa-a-automacao-inteligente-ipa)
+    2. [Teste 328](#Teste-328)
+    3. [Teste 329](#Teste-329)
+    4. [Mineração de Processos (Process Mining): Logs, Descoberta e Conformidade](#32-mineracao-de-processos-process-mining-logs-descoberta-e-conformidade)
+    5. [Teste 330](#Teste-330)
+    6. [Teste 331](#Teste-331)
+    7. [Casos de Aplicação no Controle Externo (TCE-GO)](#33-casos-de-aplicacao-no-controle-externo-tce-go)
+    8. [Teste 332](#Teste-332)
+4. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Engenharia de Prompts e Modelagem de Contexto
 
@@ -57,7 +76,8 @@ A eficácia de uma solicitação corporativa apoia-se em cinco componentes funda
 4. **Restrições e Diretrizes Negativas (*Negative Constraints*):** Barramentos explícitos para coibir suposições espúrias (ex.: *"Se a informação não estiver presente nos autos, declare estritamente 'Informação não constante nos autos'. Não invente fontes"*).
 5. **Formatação de Saída Estruturada (*Output Formatting*):** Instruções rígidas para emissão de dados estruturados consumíveis programaticamente (tabelas Markdown, esquemas JSON Schema ou blocos XML com tags delimitadoras).
 
-### Questão 01 (FGV - TRT / Analista Judiciário - TI - Princípios Estruturais da Engenharia de Prompts)
+### Teste 322
+**(FGV - TRT / Analista Judiciário - TI - Princípios Estruturais da Engenharia de Prompts)**
 No desenvolvimento de aplicações corporativas baseadas em Modelos de Linguagem de Grande Porte (LLMs), a formulação de prompts segue padrões de engenharia recomendados para maximizar a precisão e a consistência das respostas.
 
 A respeito das boas práticas de engenharia de prompts na construção de assistentes de auditoria, assinale a afirmativa correta:
@@ -67,6 +87,9 @@ A respeito das boas práticas de engenharia de prompts na construção de assist
 * **C)** Fornecer exemplos de pares de entrada e saída esperados (*Few-Shot Prompting*) é proibido em tarefas de classificação e sumarização por provocar sobreajuste permanente nos pesos do modelo.
 * **D)** A melhor prática para tarefas de raciocínio matemático e lógico complexo é exigir que o modelo responda diretamente apenas o valor numérico final na primeira palavra, sem gerar passos intermediários de reflexão.
 * **E)** Prompts mais curtos e genéricos, como *"analise este processo licitatório"*, superam consistentemente prompts detalhados com critérios objetivos de validação jurídica.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -126,7 +149,7 @@ Usuário: "A empresa contratada estava regular perante a Receita na data da assi
 
 ---
 
-### Questão 02
+### Teste 323
 **(FCC - SEFAZ-PE - Auditoria Fiscal - Engenharia de Prompts e Padrão ReAct)**
 Para investigar denúncias de fraudes fiscais complexas envolvendo emissão de notas fiscais frias, a fiscalização planeja construir um agente autônomo baseado em LLM capaz de deliberar criticamente e interagir com sistemas fazendários corporativos. A diretoria de inovação optou por estruturar o agente sob a abordagem ReAct (*Reasoning + Acting*).
 A respeito do padrão ReAct e das técnicas avançadas de engenharia de prompts, assinale a afirmativa correta:
@@ -136,6 +159,9 @@ A respeito do padrão ReAct e das técnicas avançadas de engenharia de prompts,
 * **C)** O padrão ReAct estrutura o fluxo decisório do agente através de uma intercalação contínua entre passos de raciocínio explícito em linguagem natural (*Thought*), execução de ações direcionadas em ferramentas externas (*Action*) e assimilação dos resultados retornados pelo ambiente (*Observation*).
 * **D)** A técnica de *Chain-of-Thought* (CoT) reduz a precisão de tarefas que demandam cálculos e raciocínio lógico formal ao proibir terminantemente o desdobramento do raciocínio em múltiplos passos intermediários.
 * **E)** A estratégia de *Self-Consistency* restringe a amostragem a uma única resposta gerada com temperatura rigidamente nula, descartando votações por consenso majoritário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -167,7 +193,8 @@ Sistemas baseados em LLMs estão expostos a vulnerabilidades de injeção de con
 
 ---
 
-### Questão 03 (FGV - TRF-1 / Analista Judiciário - TI - Riscos de Segurança: Injeção de Prompts e Guardrails)
+### Teste 324
+**(FGV - TRF-1 / Analista Judiciário - TI - Riscos de Segurança: Injeção de Prompts e Guardrails)**
 Com a disseminação de sistemas agentivos integrados a ferramentas externas e bases de dados documentais, surgiram novos vetores de ataque específicos para aplicações baseadas em LLMs, destacando-se a **Injeção de Prompts** (*Prompt Injection*).
 
 A respeito da Injeção Indireta de Prompts (*Indirect Prompt Injection*) e dos mecanismos defensivos baseados em *Guardrails*, assinale a afirmativa correta:
@@ -177,6 +204,9 @@ A respeito da Injeção Indireta de Prompts (*Indirect Prompt Injection*) e dos 
 * **C)** *Guardrails* de software (como NeMo Guardrails ou Llama Guard) são barreiras físicas de contenção térmica instaladas nos servidores de GPU dos datacenters.
 * **D)** O ataque de *Prompt Injection* é combatido de forma definitiva e infalível instalando um antivírus convencional no sistema operacional do servidor cliente.
 * **E)** A injeção direta de prompts afeta exclusivamente bancos de dados relacionais executando instruções SQL `DROP DATABASE`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -191,7 +221,10 @@ A respeito da Injeção Indireta de Prompts (*Indirect Prompt Injection*) e dos 
 > 
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 2. Arquitetura RAG (Retrieval-Augmented Generation)
 
@@ -206,7 +239,8 @@ A aplicação pura de LLMs na administração pública apresenta gargalos críti
 3. **Privacidade, Sigilo e Governança:** Bases de dados protegidas por sigilo fiscal ou bancário permanecem custodiadas internamente no tribunal; apenas os trechos estritamente pertinentes para responder à consulta do auditor autorizado são injetados no prompt.
 4. **Auditabilidade e Rastreabilidade Documental:** Permite que o parecer gerado cite formalmente a fonte probatória de cada alegação (ex.: *"Conforme a cláusula 5.2 do Contrato nº 88/2024 (ID Doc 54321)"*).
 
-### Questão 04 (FGV - TRT / Analista Judiciário - TI - Arquitetura RAG no Controle Externo)
+### Teste 325
+**(FGV - TRT / Analista Judiciário - TI - Arquitetura RAG no Controle Externo)**
 Na modernização do Tribunal de Contas, a área de TI precisa implementar uma solução de IA para apoiar auditores na pesquisa e aplicação da jurisprudência consolidada (acórdãos, súmulas e resoluções normativas). A equipe considerou duas alternativas: realizar o Ajuste Fino (*Fine-Tuning*) de um modelo fundacional ou adotar a arquitetura de Geração Aumentada por Recuperação (*Retrieval-Augmented Generation - RAG*).
 
 Assinale a opção que apresenta a principal vantagem técnica e institucional da arquitetura **RAG** sobre o *Fine-Tuning* para o cenário descrito:
@@ -216,6 +250,9 @@ Assinale a opção que apresenta a principal vantagem técnica e institucional d
 * **C)** O *Fine-Tuning* é 100% imune a qualquer tipo de alucinação factual e cita automaticamente os links das páginas web sem intervenção humana.
 * **D)** O RAG altera permanentemente os pesos sinápticos do LLM a cada consulta enviada por um auditor no terminal.
 * **E)** O RAG é uma tecnologia restrita a arquivos de áudio em formato MP3.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -269,7 +306,7 @@ Assinale a opção que apresenta a principal vantagem técnica e institucional d
 
 ---
 
-### Questão 05
+### Teste 326
 **(FCC - DPE-RS - Analista de Tecnologia da Informação)**
 Em um projeto para implementar um assistente virtual baseado em Inteligência Artificial para assessoramento jurídico de auditores, a equipe de TI selecionou a arquitetura RAG (*Retrieval-Augmented Generation*). Durante a modelagem do pipeline de ingestão e particionamento dos documentos legais, foi aberto um debate técnico sobre o tamanho dos blocos de texto (*chunks*) e o parâmetro de sobreposição (*overlap*).
 A respeito da fragmentação documental (*chunking*) e do funcionamento do RAG, assinale a afirmativa correta:
@@ -279,6 +316,9 @@ A respeito da fragmentação documental (*chunking*) e do funcionamento do RAG, 
 * **C)** A principal finalidade do RAG consiste em realizar o fine-tuning diário de todos os pesos e sinapses internas da LLM com a base corporativa para evitar o consumo de memória RAM durante as consultas.
 * **D)** O banco de dados vetorial utilizado no RAG substitui integralmente a LLM gerativa, dispensando a necessidade de envio de prompts de texto na fase de síntese.
 * **E)** A ancoragem factual (*grounding*) no RAG ocorre pela memorização estática dos parâmetros da rede neural durante a etapa de pré-treinamento, sem relação com os trechos textuais anexados em tempo de consulta.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -307,7 +347,7 @@ A respeito da fragmentação documental (*chunking*) e do funcionamento do RAG, 
 
 ---
 
-### Questão 06
+### Teste 327
 **(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
 Em sistemas de Recuperação Aumentada por Geração (RAG) voltados à busca em acervos de legislação e jurisprudência, a utilização exclusiva de busca semântica baseada em vetores densos (*embeddings*) pode apresentar deficiências quando a consulta do operador envolve números de leis específicos (ex.: "Lei nº 14.133/2021"), códigos de processos ou siglas exatas.
 Para superar essa limitação e elevar a precisão do pipeline de recuperação, a melhor prática arquitetural recomendada é:
@@ -317,6 +357,9 @@ Para superar essa limitação e elevar a precisão do pipeline de recuperação,
 * **C)** Aumentar a temperatura do modelo de linguagem para o valor máximo permitido, forçando o decodificador a inventar os números das leis que não forem encontrados no banco de dados.
 * **D)** Aplicar a função de perda MSE sobre o prompt do usuário para eliminar todas as palavras compostas por dígitos numéricos.
 * **E)** Substituir os modelos de linguagem por árvores de decisão simples com profundidade máxima unitária (*decision stumps*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -328,8 +371,9 @@ Para superar essa limitação e elevar a precisão do pipeline de recuperação,
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 3. Automação Inteligente de Processos (IPA) e Mineração de Processos
@@ -363,7 +407,7 @@ A modernização dos tribunais de contas evolui da automação mecanicista de te
 
 ---
 
-### Questão 07
+### Teste 328
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 A respeito das características operacionais que distinguem a Automação Robótica de Processos tradicional (RPA) da Automação Inteligente de Processos (IPA - *Intelligent Process Automation*) no âmbito das atividades de fiscalização da administração pública, assinale a afirmativa correta:
 
@@ -372,6 +416,9 @@ A respeito das características operacionais que distinguem a Automação Robót
 * **C)** A Automação Inteligente de Processos restringe-se à emulação de hardware com microcontroladores em placas de circuito integrado, não tendo relação com softwares de auditoria.
 * **D)** Modelos de IA generativa não podem ser acoplados a rotinas de automação por incompatibilidade de sistemas operacionais.
 * **E)** A adoção de IPA torna desnecessária a utilização de qualquer mecanismo de segurança da informação ou controle de acesso aos bancos de dados de auditoria fiscal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -386,7 +433,8 @@ A respeito das características operacionais que distinguem a Automação Robót
 ---
 
 
-### Questão 08 (FGV - TJ-AP / Analista Judiciário - TI - Automação Robótica vs. Automação Inteligente de Processos)
+### Teste 329
+**(FGV - TJ-AP / Analista Judiciário - TI - Automação Robótica vs. Automação Inteligente de Processos)**
 No contexto de transformação digital e otimização de fluxos operacionais, as organizações públicas evoluíram da Automação Robótica de Processos (*Robotic Process Automation - RPA*) para a Automação Inteligente de Processos (*Intelligent Process Automation - IPA*).
 
 A respeito da distinção conceitual e tecnológica entre RPA e IPA, assinale a afirmativa correta:
@@ -396,6 +444,9 @@ A respeito da distinção conceitual e tecnológica entre RPA e IPA, assinale a 
 * **C)** O IPA elimina a necessidade de computadores e redes, funcionando exclusivamente por meio de atuadores mecânicos pneumáticos.
 * **D)** O RPA opera exclusivamente na nuvem pública internacional, sendo proibido em servidores locais (*on-premises*).
 * **E)** Ambos os conceitos são rigorosamente idênticos e limitam-se ao uso de scripts em shell bash para cópia de diretórios.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -449,7 +500,7 @@ A Mineração de Processos (*Process Mining*), formulada academicamente pelo Pro
 
 ---
 
-### Questão 09
+### Teste 330
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 Um Tribunal de Contas iniciou um projeto de Mineração de Processos (*Process Mining*) para fiscalizar a conformidade e a eficiência das etapas de tramitação das licitações eletrônicas nos municípios sob sua jurisdição.
 A respeito dos conceitos, tipos e requisitos fundamentais da Mineração de Processos, assinale a afirmativa correta:
@@ -459,6 +510,9 @@ A respeito dos conceitos, tipos e requisitos fundamentais da Mineração de Proc
 * **C)** O *Conformance Checking* (Verificação de Conformidade) ignora modelos normativos pré-existentes e restringe-se exclusivamente à mineração de texto livre em e-mails institucionais.
 * **D)** A técnica de *Process Enhancement* (Aprimoramento) impede a extração de dados temporais dos logs, focando apenas no cálculo de pesos senoidais em redes neurais convolucionais.
 * **E)** A Mineração de Processos é inaplicável à administração pública porque sistemas governamentais utilizam bancos relacionais, os quais impedem matematicamente a geração de identificadores de instâncias processuais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -477,7 +531,8 @@ A respeito dos conceitos, tipos e requisitos fundamentais da Mineração de Proc
 ---
 
 
-### Questão 10 (FCC - TRT / Analista Judiciário - TI - Mineração de Processos e Tipos de Análise)
+### Teste 331
+**(FCC - TRT / Analista Judiciário - TI - Mineração de Processos e Tipos de Análise)**
 A Mineração de Processos (*Process Mining*) situa-se na interseção entre a Ciência de Dados e o Gerenciamento de Processos de Negócio (BPM), extraindo conhecimento a partir dos registros de eventos (*Event Logs*) armazenados pelos sistemas operacionais.
 
 A literatura consagrada de Process Mining (Wil van der Aalst) classifica os tipos de mineração de processos em três categorias primordiais:
@@ -487,6 +542,9 @@ A literatura consagrada de Process Mining (Wil van der Aalst) classifica os tipo
 * **C)** Ingestão, Normalização e Descarte.
 * **D)** Regressão, Classificação e Agrupamento.
 * **E)** Criptografia, Autenticação e Autorização.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -511,7 +569,8 @@ A literatura consagrada de Process Mining (Wil van der Aalst) classifica os tipo
 
 ---
 
-### Questão 11 (FGV - TRT / Analista de Controle Externo - TI - Aplicação de Process Mining na Fiscalização Governamental)
+### Teste 332
+**(FGV - TRT / Analista de Controle Externo - TI - Aplicação de Process Mining na Fiscalização Governamental)**
 Uma equipe de auditoria do Tribunal de Contas foi designada para fiscalizar contratações públicas e suspeitas de fracionamento ilegal de despesas e direcionamento de certames em determinados órgãos estaduais. Para tanto, os auditores coletaram os *Event Logs* de todos os sistemas de compras e pagamentos dos últimos dois anos.
 
 Ao aplicar algoritmos de **Mineração de Processos** sobre essa massa de logs de auditoria, o procedimento analítico que permite comprovar formalmente se os gestores públicos suprimiram etapas obrigatórias de parecer jurídico e publicidade exigidas pela Lei nº 14.133/2021 é:
@@ -521,6 +580,9 @@ Ao aplicar algoritmos de **Mineração de Processos** sobre essa massa de logs d
 * **C)** O treinamento de um classificador K-Means não supervisionado sem validação de rótulos temporais.
 * **D)** A substituição do banco de dados por uma planilha local criptografada sem logs de acesso.
 * **E)** O cálculo exclusivo da média aritmética dos valores de empenho sem cruzar os identificadores de caso (*Case IDs*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -535,7 +597,10 @@ Ao aplicar algoritmos de **Mineração de Processos** sobre essa massa de logs d
 > 
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

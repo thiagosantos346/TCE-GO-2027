@@ -5,7 +5,10 @@
 > **Arquivo:** `04_regime_juridico_servidores_e_pccr_leis_20756_e_15122.md`  
 > **Atos Normativos:** Lei Estadual nº 20.756, de 28 de janeiro de 2020 (Estatuto Geral dos Servidores Públicos Civis do Estado de Goiás) e Lei Estadual nº 15.122, de 04 de fevereiro de 2005 (Plano de Cargos, Carreiras e Remuneração do TCE-GO)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Regime Jurídico dos Servidores Públicos Civis do Estado de Goiás (Lei Estadual nº 20.756/2020):
@@ -29,26 +32,41 @@
     - Requisitos de interstício temporal, avaliação periódica de desempenho e capacitação continuada na Escola Superior de Controle Externo do TCE-GO;
     - Estrutura remuneratória: vencimento base, Gratificação de Controle Externo (GCE) e adicional de qualificação.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei nº 20.756/2020)](#1-estatuto-dos-servidores-publicos-civis-do-estado-de-goias-lei-no-207562020)
-    - [1.1 Conceito de Servidor, Cargo Público e Formas de Provimento](#11-conceito-de-servidor-cargo-publico-e-formas-de-provimento)
-    - [1.2 Posse e Exercício: Prazos e Consequências do Descumprimento](#12-posse-e-exercicio-prazos-e-consequencias-do-descumprimento)
-    - [1.3 Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão](#13-estagio-probatorio-fatores-de-avaliacao-e-hipoteses-de-inaptidao)
-    - [1.4 Vacância do Cargo Público](#14-vacancia-do-cargo-publico)
-    - [1.5 Direitos, Vantagens Pecuniárias, Férias e Licenças](#15-direitos-vantagens-pecuniarias-ferias-e-licencas)
-    - [1.6 Regime Disciplinar: Deveres, Proibições e Penalidades](#16-regime-disciplinar-deveres-proibicoes-e-penalidades)
-    - [1.7 Prescrição da Pretensão Punitiva Disciplinar](#17-prescricao-da-pretensao-punitiva-disciplinar)
-    - [1.8 Sindicância e Processo Administrativo Disciplinar (PAD)](#18-sindicancia-e-processo-administrativo-disciplinar-pad)
-- [2. Plano de Cargos, Carreiras e Remuneração do TCE-GO (Lei nº 15.122/2005)](#2-plano-de-cargos-carreiras-e-remuneracao-do-tce-go-lei-no-151222005)
-    - [2.1 Estrutura do Quadro Efetivo do TCE-GO](#21-estrutura-do-quadro-efetivo-do-tce-go)
-    - [2.2 Atribuições Legais do Técnico de Controle Externo](#22-atribuicoes-legais-do-tecnico-de-controle-externo)
-    - [2.3 Desenvolvimento Funcional: Progressão Horizontal vs. Promoção Vertical](#23-desenvolvimento-funcional-progressao-horizontal-vs-promocao-vertical)
-    - [2.4 Estrutura Remuneratória e Vantagens Específicas do Tribunal](#24-estrutura-remuneratoria-e-vantagens-especificas-do-tribunal)
-- [3. Fontes Oficiais e Referências Bibliográficas](#3-fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei nº 20.756/2020)](#1-estatuto-dos-servidores-publicos-civis-do-estado-de-goias-lei-no-207562020)
+    1. [Conceito de Servidor, Cargo Público e Formas de Provimento](#11-conceito-de-servidor-cargo-publico-e-formas-de-provimento)
+    2. [Teste 152](#Teste-152)
+    3. [Posse e Exercício: Prazos e Consequências do Descumprimento](#12-posse-e-exercicio-prazos-e-consequencias-do-descumprimento)
+    4. [Teste 153](#Teste-153)
+    5. [Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão](#13-estagio-probatorio-fatores-de-avaliacao-e-hipoteses-de-inaptidao)
+    6. [Teste 154](#Teste-154)
+    7. [Vacância do Cargo Público](#14-vacancia-do-cargo-publico)
+    8. [Teste 155](#Teste-155)
+    9. [Direitos, Vantagens Pecuniárias, Férias e Licenças](#15-direitos-vantagens-pecuniarias-ferias-e-licencas)
+    10. [Teste 156](#Teste-156)
+    11. [Regime Disciplinar: Deveres, Proibições e Penalidades](#16-regime-disciplinar-deveres-proibicoes-e-penalidades)
+    12. [Teste 157](#Teste-157)
+    13. [Prescrição da Pretensão Punitiva Disciplinar](#17-prescricao-da-pretensao-punitiva-disciplinar)
+    14. [Teste 158](#Teste-158)
+    15. [Sindicância e Processo Administrativo Disciplinar (PAD)](#18-sindicancia-e-processo-administrativo-disciplinar-pad)
+    16. [Teste 159](#Teste-159)
+2. [Plano de Cargos, Carreiras e Remuneração do TCE-GO (Lei nº 15.122/2005)](#2-plano-de-cargos-carreiras-e-remuneracao-do-tce-go-lei-no-151222005)
+    1. [Estrutura do Quadro Efetivo do TCE-GO](#21-estrutura-do-quadro-efetivo-do-tce-go)
+    2. [Atribuições Legais do Técnico de Controle Externo](#22-atribuicoes-legais-do-tecnico-de-controle-externo)
+    3. [Desenvolvimento Funcional: Progressão Horizontal vs. Promoção Vertical](#23-desenvolvimento-funcional-progressao-horizontal-vs-promocao-vertical)
+    4. [Teste 160](#Teste-160)
+    5. [Estrutura Remuneratória e Vantagens Específicas do Tribunal](#24-estrutura-remuneratoria-e-vantagens-especificas-do-tribunal)
+    6. [Teste 161](#Teste-161)
+3. [Fontes Oficiais e Referências Bibliográficas](#3-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei nº 20.756/2020)
 
@@ -70,7 +88,7 @@ A **Lei Estadual nº 20.756, de 28 de janeiro de 2020**, estabelece o regime jur
 
 ---
 
-### Questão 01
+### Teste 152
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Lucas, servidor público estável do Estado de Goiás, obteve aprovação em concurso público e foi nomeado para cargo de outra carreira estadual inacumulável. Durante a realização do estágio probatório do novo cargo, foi considerado inapto pela comissão de avaliação e formalmente inabilitado. Paralelamente, em outra repartição, Beatriz, servidora pública estável demitida por falta funcional, teve sua demissão invalidada por decisão judicial transitada em julgado. De acordo com a Lei Estadual nº 20.756/2020, o retorno de Lucas ao cargo primitivo e a reintegração de Beatriz ao cargo público ocupado anteriormente caracterizam, respectivamente:
 
@@ -79,6 +97,9 @@ Lucas, servidor público estável do Estado de Goiás, obteve aprovação em con
 * **C)** Readaptação e Reversão.
 * **D)** Reintegração e Recondução.
 * **E)** Aproveitamento e Readaptação.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -121,7 +142,7 @@ graph TD
 
 ---
 
-### Questão 02
+### Teste 153
 **(FCC – DPE-RS – Analista de Gestão e Pessoal)**  
 Mariana foi nomeada para cargo de provimento efetivo no serviço público de Goiás e compareceu tempestivamente à repartição, prestando compromisso e assinando o termo de posse. Entretanto, por motivos estritamente particulares, Mariana não compareceu para assumir as atribuições funcionais e não entrou em efetivo exercício no prazo legal fixado pelo estatuto funcional. De acordo com as normas da Lei Estadual nº 20.756/2020:
 
@@ -130,6 +151,9 @@ Mariana foi nomeada para cargo de provimento efetivo no serviço público de Goi
 * **C)** A posse será anulada retroativamente, aplicando-se suspensão de seus direitos políticos por improbidade administrativa.
 * **D)** O prazo de exercício será prorrogado compulsoriamente por igual período mediante requerimento de ofício do chefe imediato.
 * **E)** Será instaurado Processo Administrativo Disciplinar para aplicação da penalidade de demissão por abandono de cargo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -162,7 +186,7 @@ Ao entrar em exercício, o servidor nomeado para cargo de provimento efetivo cum
 
 ---
 
-### Questão 03
+### Teste 154
 **(FCC – TCE-AP – Técnico de Controle Externo)**  
 A respeito da estabilidade e do estágio probatório do servidor público civil, regulamentados pela Lei Estadual nº 20.756/2020, considere:
 
@@ -171,6 +195,9 @@ A respeito da estabilidade e do estágio probatório do servidor público civil,
 * **C)** O servidor em estágio probatório adquire estabilidade tácita caso a comissão de avaliação de desempenho não homologue o resultado no prazo de trinta dias antes do término do triênio.
 * **D)** O servidor reprovado na avaliação de estágio probatório que não seja estável no serviço público será posto em disponibilidade com remuneração proporcional ao tempo de serviço.
 * **E)** É vedada a exoneração de servidor em estágio probatório, podendo a demissão ocorrer apenas após sentença judicial penal condenatória transitada em julgado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -197,7 +224,7 @@ A vacância de cargo público decorre de fatos funcionais taxativos previstos em
 6. **Falecimento.**
 
 
-### Questão 04
+### Teste 155
 **(FCC – Inédita – Padrão TCE-GO)**  
 Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei Estadual nº 20.756/2020), a vacância do cargo público decorre taxativamente de:
 
@@ -206,6 +233,9 @@ Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei E
 * **C)** Exoneração voluntária e demissão por justa causa apenas, permanecendo as demais hipóteses regidas pelo direito civil.
 * **D)** Ascensão funcional, readmissão graciosa e aproveitamento em cargo comissionado.
 * **E)** Licença-maternidade, afastamento para mandato classista e cessão de servidores entre órgãos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -233,7 +263,7 @@ Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei E
 - **Licenças Estatutárias:** Licença para tratamento da própria saúde; por motivo de doença em pessoa da família; maternidade (180 dias); paternidade (20 dias); capacitação profissional (até 3 meses a cada quinquênio trabalhado); e para desempenho de mandato classista.
 
 
-### Questão 05
+### Teste 156
 **(FCC – Inédita – Padrão TCE-GO)**  
 A respeito das licenças, afastamentos e concessões funcionais reguladas pela Lei Estadual nº 20.756/2020 (Estatuto dos Servidores de Goiás):
 
@@ -242,6 +272,9 @@ A respeito das licenças, afastamentos e concessões funcionais reguladas pela L
 * **C)** É garantida a conversão em pecúnia de todos os períodos de licença-capacitação não usufruídos pelo servidor em atividade a qualquer tempo.
 * **D)** O servidor em estágio probatório pode usufruir de licença para tratar de interesses particulares pelo prazo de até 3 anos consecutivos.
 * **E)** O servidor afastado para exercício de mandato classista em sindicato perceberá gratificação extraordinária de função paga pelo erário estadual.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -286,7 +319,7 @@ graph TD
 > Ambas as condutas são faltas graves sancionadas compulsoriamente com **DEMISSÃO** após apuração formal em PAD.
 
 
-### Questão 06
+### Teste 157
 **(FCC – Inédita – Padrão TCE-GO)**  
 No âmbito do regime disciplinar instituído pela Lei Estadual nº 20.756/2020, as penalidades disciplinares aplicáveis aos servidores públicos estatutários de Goiás são:
 
@@ -295,6 +328,9 @@ No âmbito do regime disciplinar instituído pela Lei Estadual nº 20.756/2020, 
 * **C)** Repreensão verbal, suspensão por até 180 dias e perda compulsória dos direitos políticos.
 * **D)** Advertência e demissão apenas, não se admitindo a penalidade de suspensão no serviço público estadual.
 * **E)** Advertência, suspensão perpétua e banimento funcional.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -326,7 +362,7 @@ A ação disciplinar para imposição de penalidades aos servidores públicos pr
 
 ---
 
-### Questão 07
+### Teste 158
 **(FCC – ARTESP – Especialista em Regulação)**  
 A respeito do regime disciplinar e da prescrição da pretensão punitiva administrativa regulados pela Lei Estadual nº 20.756/2020, assinale a opção correta:
 
@@ -335,6 +371,9 @@ A respeito do regime disciplinar e da prescrição da pretensão punitiva admini
 * **C)** O cometimento de infração funcional de natureza leve acarreta diretamente a aplicação da penalidade de demissão a bem do serviço público.
 * **D)** O prazo prescricional para punir infrações administrativas começa a fluir na data em que a conduta foi praticada, independentemente de quando a autoridade competente tomou conhecimento dela.
 * **E)** A instauração de sindicância ou processo administrativo disciplinar não interfere no curso do prazo de prescrição, que flui ininterruptamente até a decisão final.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -359,7 +398,7 @@ O PAD é o procedimento contraditório formal destinado a apurar a responsabilid
     3. **Julgamento:** Decisão fundamentada proferida pela autoridade competente para a aplicação da penalidade.
 
 
-### Questão 08
+### Teste 159
 **(FCC – Inédita – Padrão TCE-GO)**  
 De acordo com o rito do Processo Administrativo Disciplinar (PAD) regulado pela Lei Estadual nº 20.756/2020:
 
@@ -368,6 +407,9 @@ De acordo com o rito do Processo Administrativo Disciplinar (PAD) regulado pela 
 * **C)** O indiciado não tem direito a constituir advogado para sua defesa técnica, sendo a autodefesa pessoal obrigatória e exclusiva.
 * **D)** As testemunhas da comissão e da defesa devem depor conjuntamente na mesma sala de audiências para promover a imediata acareação.
 * **E)** O relatório final da comissão processante vincula de forma absoluta o julgamento da autoridade competente, que não pode divergir de suas conclusões.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -379,9 +421,10 @@ De acordo com o rito do Processo Administrativo Disciplinar (PAD) regulado pela 
 >
 > **Gabarito: A**
 
----
+
 
 ---
+
 
 ## 2. Plano de Cargos, Carreiras e Remuneração do TCE-GO (Lei nº 15.122/2005)
 
@@ -430,7 +473,7 @@ graph LR
 
 ---
 
-### Questão 09
+### Teste 160
 **(FCC – TCE-GO – Técnico de Controle Externo)**  
 No âmbito do Tribunal de Contas do Estado de Goiás, a carreira de Técnico de Controle Externo é disciplinada pelo Plano de Cargos, Carreiras e Remuneração (Lei Estadual nº 15.122/2005). Sobre a evolução funcional dos servidores nesta carreira:
 
@@ -439,6 +482,9 @@ No âmbito do Tribunal de Contas do Estado de Goiás, a carreira de Técnico de 
 * **C)** O servidor em estágio probatório pode obter sucessivas promoções verticais de classe a cada semestre trabalhado.
 * **D)** A promoção funcional para a classe imediatamente superior prescinde da realização de cursos de capacitação técnica na Escola de Contas do Tribunal.
 * **E)** O desenvolvimento funcional na carreira do TCE-GO opera-se mediante concurso público interno bienal exclusivo para servidores de nível médio.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -462,7 +508,7 @@ A remuneração dos servidores efetivos do TCE-GO é composta por:
 - **Adicional de Qualificação:** Concedido em percentuais legais com base na conclusão de cursos de pós-graduação (*lato sensu*, mestrado ou doutorado) em áreas de interesse do Tribunal de Contas, incentivando o contínuo aprimoramento técnico do corpo de servidores.
 
 
-### Questão 10
+### Teste 161
 **(FCC – Inédita – Padrão TCE-GO)**  
 Em conformidade com a Lei Estadual nº 15.122/2005 (Plano de Cargos, Carreiras e Vencimentos dos Servidores do TCE-GO):
 
@@ -471,6 +517,9 @@ Em conformidade com a Lei Estadual nº 15.122/2005 (Plano de Cargos, Carreiras e
 * **C)** Os cargos efetivos do TCE-GO admitem investidura derivada por reenquadramento automático de servidores terceirizados sem concurso público.
 * **D)** O Adicional de Qualificação é parcela temporária concedida unicamente a servidores comissionados que não possuam vínculo efetivo com a Corte.
 * **E)** As atribuições dos servidores de controle externo restringem-se ao atendimento ao público e arquivamento manual de certidões cartorárias.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -482,9 +531,10 @@ Em conformidade com a Lei Estadual nº 15.122/2005 (Plano de Cargos, Carreiras e
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 3. Fontes Oficiais e Referências Bibliográficas
 

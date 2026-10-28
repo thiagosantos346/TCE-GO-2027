@@ -5,7 +5,10 @@
 > **Arquivo:** `03_procedimentos_auxiliares_e_contratacao_direta.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa Oficial do Edital
 - Procedimentos auxiliares das licitações e contratações (Art. 78 da Lei nº 14.133/2021).
@@ -18,29 +21,34 @@
 - Serviços técnicos especializados de natureza predominantemente intelectual e notória especialização.
 - Dispensa de Licitação (Art. 75): rol taxativo, dispensa por valor (pequeno valor), emergência, licitação deserta e fracassada.
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação](#1-distincao-fundamental-inexigibilidade-x-dispensa-de-licitacao)
-- [2. Procedimentos Auxiliares da Lei nº 14.133/2021 (Art. 78)](#2-procedimentos-auxiliares-da-lei-no-141332021-art-78)
-    - [2.1 Credenciamento (Art. 79)](#21-credenciamento-art-79)
-    - [2.2 Pré-Qualificação Subjetiva e Objetiva (Art. 80)](#22-pre-qualificacao-subjetiva-e-objetiva-art-80)
-    - [2.3 Procedimento de Manifestação de Interesse - PMI (Art. 81)](#23-procedimento-de-manifestacao-de-interesse-pmi-art-81)
-    - [2.4 Sistema de Registro de Preços - SRP e Regras do Carona (Arts. 82 a 86)](#24-sistema-de-registro-de-precos-srp-e-regras-do-carona-arts-82-a-86)
-    - [2.5 Registro Cadastral Unificado (Art. 87)](#25-registro-cadastral-unificado-art-87)
-- [3. Processo Administrativo de Contratação Direta (Art. 72)](#3-processo-administrativo-de-contratacao-direta-art-72)
-- [4. Inexigibilidade de Licitação (Art. 74 - Inviabilidade de Competição)](#4-inexigibilidade-de-licitacao-art-74-inviabilidade-de-competicao)
-    - [4.1 Fornecedor e Prestador Exclusivo (Inciso I)](#41-fornecedor-e-prestador-exclusivo-inciso-i)
-    - [4.2 Profissional do Setor Artístico Consagrado (Inciso II)](#42-profissional-do-setor-artistico-consagrado-inciso-ii)
-    - [4.3 Serviços Técnicos Especializados e Notória Especialização (Inciso III)](#43-servicos-tecnicos-especializados-e-notoria-especializacao-inciso-iii)
-    - [4.4 Aquisição ou Locação de Imóvel Singular (Inciso V)](#44-aquisicao-ou-locacao-de-imovel-singular-inciso-v)
-- [5. Dispensa de Licitação (Art. 75 - Rol Taxativo)](#5-dispensa-de-licitacao-art-75-rol-taxativo)
-    - [5.1 Dispensa em Razão do Valor (Pequeno Valor - Incisos I e II)](#51-dispensa-em-razao-do-valor-pequeno-valor-incisos-i-e-ii)
-    - [5.2 Dispensa por Emergência ou Calamidade Pública (Inciso VIII)](#52-dispensa-por-emergencia-ou-calamidade-publica-inciso-viii)
-    - [5.3 Licitação Deserta, Fracassada e Remanescente de Contrato](#53-licitacao-deserta-fracassada-e-remanescente-de-contrato)
-- [6. Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
+
+1. [Teoria Aprofundada e Pontos Críticos](#teoria-aprofundada-e-pontos-criticos)
+    1. [Distinção Fundamental: Inexigibilidade x Dispensa de Licitação](#1-distincao-fundamental-inexigibilidade-x-dispensa-de-licitacao)
+    2. [Teste 088](#Teste-088)
+    3. [Procedimentos Auxiliares da Lei nº 14.133/2021 (Art. 78)](#2-procedimentos-auxiliares-da-lei-no-141332021-art-78)
+    4. [Teste 089](#Teste-089)
+    5. [Teste 090](#Teste-090)
+    6. [Teste 091](#Teste-091)
+    7. [Teste 092](#Teste-092)
+    8. [Processo Administrativo de Contratação Direta (Art. 72)](#3-processo-administrativo-de-contratacao-direta-art-72)
+    9. [Teste 093](#Teste-093)
+    10. [Inexigibilidade de Licitação (Art. 74 - Inviabilidade de Competição)](#4-inexigibilidade-de-licitacao-art-74-inviabilidade-de-competicao)
+    11. [Teste 094](#Teste-094)
+    12. [Teste 095](#Teste-095)
+    13. [Dispensa de Licitação (Art. 75 - Rol Taxativo)](#5-dispensa-de-licitacao-art-75-rol-taxativo)
+    14. [Teste 096](#Teste-096)
+    15. [Teste 097](#Teste-097)
+    16. [Teste 098](#Teste-098)
+2. [Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 📖 Teoria Aprofundada e Pontos Críticos
 
@@ -62,7 +70,8 @@ flowchart TD
 
 
 
-### Questão 01 (FCC - Analista Judiciário - Área Administrativa)
+### Teste 088
+**(FCC - Analista Judiciário - Área Administrativa)**
 No âmbito das contratações públicas regidas pela Lei nº 14.133/2021, a contratação direta subdivide-se nas figuras jurídicas da inexigibilidade de licitação e da dispensa de licitação.
 
 A respeito da distinção conceitual e dogmática entre esses dois institutos, assinale a afirmativa correta.
@@ -72,6 +81,9 @@ A respeito da distinção conceitual e dogmática entre esses dois institutos, a
 * **C)** Na inexigibilidade de licitação há inviabilidade de competição decorrente da exclusividade de fornecedor, da notoriedade técnica profissional ou da natureza singular do objeto, configurando o art. 74 um rol meramente exemplificativo; já na dispensa de licitação (art. 75), a competição seria viável em tese, mas o legislador optou por dispensá-la em rol estrito e taxativo.
 * **D)** A dispensa de licitação dispensa a instauração de qualquer processo administrativo formal, bastando a emissão de nota de empenho imediata.
 * **E)** Em ambos os casos, inexigibilidade e dispensa, a Administração Pública fica desobrigada de justificar a razoabilidade do preço contratado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -111,7 +123,8 @@ No credenciamento, a Administração **não escolhe um único vencedor**: ela co
 
 
 
-### Questão 02 (FGV - Auditor de Controle Externo / TCE-GO)
+### Teste 089
+**(FGV - Auditor de Controle Externo / TCE-GO)**
 O credenciamento constitui procedimento auxiliar expressamente disciplinado no art. 79 da Lei nº 14.133/2021, vocacionado ao cadastramento prévio de interessados para eventual contratação pela Administração Pública.
 
 Sobre as hipóteses e regras aplicáveis ao credenciamento, assinale a afirmativa correta.
@@ -121,6 +134,9 @@ Sobre as hipóteses e regras aplicáveis ao credenciamento, assinale a afirmativ
 * **C)** No credenciamento com contratações paralelas e não excludentes, a Administração Pública pode selecionar arbitrariamente qual dos credenciados executará o serviço a cada demanda.
 * **D)** O valor a ser pago aos credenciados deve ser negociado individualmente com cada contratado no momento da emissão da ordem de serviço.
 * **E)** O procedimento de credenciamento elimina a necessidade de comprovação de regularidade fiscal e trabalhista pelos interessados.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -134,7 +150,8 @@ Sobre as hipóteses e regras aplicáveis ao credenciamento, assinale a afirmativ
 
 ---
 
-### Questão 03 (FCC - Analista Judiciário)
+### Teste 090
+**(FCC - Analista Judiciário)**
 O Secretário de Saúde do Estado de Goiás necessita contratar serviços médicos ambulatoriais complementares de oftalmologia para zerar a fila de espera do SUS na região metropolitana de Goiânia. Como a demanda é muito superior à capacidade de atendimento de um único hospital privado, a pasta pretende credenciar todas as clínicas oftalmológicas que atendam aos requisitos técnicos estabelecidos em edital público permanente, fixando a remuneração por consulta e cirurgia conforme a tabela unificada do SUS, cabendo ao paciente a escolha do estabelecimento de sua preferência.
 
 A sistemática adotada pela Secretaria de Saúde qualifica-se como:
@@ -144,6 +161,9 @@ A sistemática adotada pela Secretaria de Saúde qualifica-se como:
 * **C)** Dispensa de licitação por fracionamento contínuo de despesa
 * **D)** Sistema de Registro de Preços para contratação em lote fechado exclusivo
 * **E)** Leilão invertido com disputa de lances decrescentes
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -213,7 +233,8 @@ flowchart LR
 
 ---
 
-### Questão 04 (FCC - Técnico de Controle Externo / Administrativa)
+### Teste 091
+**(FCC - Técnico de Controle Externo / Administrativa)**
 Uma autarquia estadual goiana pretende adquirir medicamentos essenciais para a rede ambulatorial aderindo, na condição de "órgão não participante" (carona), a uma Ata de Registro de Preços gerenciada pela Secretaria de Estado da Saúde de Goiás. Na ata em vigor, consta o quantitativo de 20.000 caixas de determinado antibiótico registrado para o órgão gerenciador.
 
 De acordo com os limites objetivos estipulados pelo art. 86 da Lei Federal nº 14.133/2021 para a adesão de órgãos não participantes:
@@ -223,6 +244,9 @@ De acordo com os limites objetivos estipulados pelo art. 86 da Lei Federal nº 1
 * **C)** A NLLC proibiu terminantemente qualquer adesão tardia por órgãos caronas no Sistema de Registro de Preços.
 * **D)** O somatório de todas as caronas concedidas durante a validade da ata não possui teto financeiro ou quantitativo.
 * **E)** O limite individual do carona é de 10% e o limite global é de 30% dos quantitativos registrados.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -238,7 +262,8 @@ De acordo com os limites objetivos estipulados pelo art. 86 da Lei Federal nº 1
 
 
 
-### Questão 05 (FCC - Procurador do Estado / Adaptada)
+### Teste 092
+**(FCC - Procurador do Estado / Adaptada)**
 No que se refere ao Sistema de Registro de Preços (SRP) e à utilização da ata de registro de preços por órgãos não participantes (figura do "carona"), em conformidade com o art. 86 da Lei nº 14.133/2021, assinale a afirmativa correta.
 
 * **A)** Qualquer órgão público municipal pode aderir livremente como "carona" a atas de registro de preços geradas por outros municípios sem necessidade de consulta ou autorização do órgão gerenciador.
@@ -246,6 +271,9 @@ No que se refere ao Sistema de Registro de Preços (SRP) e à utilização da at
 * **C)** O quantitativo total decorrente de todas as adesões de órgãos não participantes a uma ata de registro de preços não possui limite global, admitindo adesões ilimitadas.
 * **D)** É vedada em absoluto a realização de licitação sob o sistema de registro de preços para obras de engenharia padronizadas.
 * **E)** A vigência da ata de registro de preços será de até cinco anos improrrogáveis.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -286,7 +314,8 @@ Tanto a dispensa quanto a inexigibilidade não significam informalidade ou ausê
 
 
 
-### Questão 06 (FGV - Analista de Controle Externo / TCE-SC)
+### Teste 093
+**(FGV - Analista de Controle Externo / TCE-SC)**
 O art. 72 da Lei nº 14.133/2021 estabelece a instrução processual obrigatória para os processos administrativos de contratação direta (inexigibilidade e dispensa).
 
 Dentre os elementos e documentos indispensáveis que devem instruir obrigatoriamente o processo de contratação direta, destaca-se:
@@ -296,6 +325,9 @@ Dentre os elementos e documentos indispensáveis que devem instruir obrigatoriam
 * **C)** A autorização expressa do plenário do Tribunal de Contas previamente à assinatura de qualquer contrato por dispensa.
 * **D)** A dispensa de elaboração de parecer jurídico quando a contratação direta envolver serviços de assessoria contábil.
 * **E)** A certidão de inexistência de ações populares ajuizadas contra o gestor ordenador da despesa.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -335,7 +367,8 @@ A contratação direta sem licitação para serviços técnicos especializados e
 
 ---
 
-### Questão 07 (FCC - Analista de Controle Externo / Adaptada TCE-GO)
+### Teste 094
+**(FCC - Analista de Controle Externo / Adaptada TCE-GO)**
 O Tribunal de Contas do Estado de Goiás necessita contratar com presteza parecer técnico-jurídico e patrocínio em processo contencioso de controle concentrado perante o Supremo Tribunal Federal, versando sobre as garantias orçamentárias constitucionais dos membros da Corte de Contas. A Presidência do Tribunal deliberou pela contratação direta de renomado jurista de projeção nacional, autor de clássicas obras doutrinárias e titular de cátedra universitária, reconhecido pela comunidade jurídica como expoente máximo na matéria constitucional controvertida.
 
 Em face do regramento das contratações diretas na Lei Federal nº 14.133/2021:
@@ -345,6 +378,9 @@ Em face do regramento das contratações diretas na Lei Federal nº 14.133/2021:
 * **C)** É obrigatória a deflagração de Concorrência de Menor Preço, sendo vedada a contratação direta de advogados e pareceristas pela Administração Pública.
 * **D)** A contratação é nula, pois serviços técnicos intelectuais devem ser contratados exclusivamente mediante a modalidade Pregão Eletrônico.
 * **E)** A hipótese deve ser processada obrigatoriamente por Leilão com lances decrescentes de honorários sucumbenciais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -358,7 +394,8 @@ Em face do regramento das contratações diretas na Lei Federal nº 14.133/2021:
 
 ---
 
-### Questão 08 (FCC - Procurador do Estado / Adaptada)
+### Teste 095
+**(FCC - Procurador do Estado / Adaptada)**
 O Governador do Estado autorizou a contratação direta, mediante invocação de Inexigibilidade de Licitação por notória especialização, de uma famosa agência de publicidade sediada em São Paulo para criar e veicular em rede nacional uma campanha de divulgação dos atrativos turísticos de Goiás, dispensando a realização de certame licitatório.
 
 Analisando a legalidade da contratação direta com base no regime da Lei Federal nº 14.133/2021:
@@ -368,6 +405,9 @@ Analisando a legalidade da contratação direta com base no regime da Lei Federa
 * **C)** A inexigibilidade é lícita desde que o valor total da campanha não ultrapasse R$ 5 milhões.
 * **D)** A publicidade institucional dispensa qualquer licitação sempre que visar a divulgação de turismo regional.
 * **E)** A contratação direta deveria ter ocorrido sob a modalidade Diálogo Competitivo com chancela do Tribunal de Contas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -415,7 +455,8 @@ A dispensa de licitação ocorre em circunstâncias nas quais a competição ent
 
 
 
-### Questão 09 (FCC - Técnico de Controle Externo / Administrativa)
+### Teste 096
+**(FCC - Técnico de Controle Externo / Administrativa)**
 Determinado Secretário Municipal de Obras realizou, no intervalo de quatro meses, cinco contratações diretas sucessivas de diferentes fornecedores para o mesmo serviço de reforma contínua de calçadas de uma única avenida, cada contratação orçada no valor de R$ 50.000,00, sob a justificativa formal de dispensa de licitação em razão do valor reduzido (art. 75, I, da Lei nº 14.133/2021).
 
 Analisando a regularidade dessa conduta perante as regras da Nova Lei de Licitações e o controle exercido pelo Tribunal de Contas:
@@ -425,6 +466,9 @@ Analisando a regularidade dessa conduta perante as regras da Nova Lei de Licita�
 * **C)** O fracionamento de despesa só é ilícito se envolver a contratação de fornecedores sediados em outros entes da Federação.
 * **D)** O gestor está isento de responsabilidade caso demonstre que os pagamentos foram liquidados em contas bancárias distintas.
 * **E)** A Lei nº 14.133/2021 revogou a proibição ao fracionamento de despesa para permitir compras fragmentadas a critério exclusivo da autoridade local.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -438,7 +482,8 @@ Analisando a regularidade dessa conduta perante as regras da Nova Lei de Licita�
 
 ---
 
-### Questão 10 (FCC - Auditor de Controle Externo / Adaptada)
+### Teste 097
+**(FCC - Auditor de Controle Externo / Adaptada)**
 Em razão de chuvas torrenciais atípicas que destruíram a principal ponte de acesso a determinado município goiano, isolando a população local, o Governo do Estado decretou situação de calamidade pública e contratou diretamente, com fundamento no art. 75, VIII, da Lei nº 14.133/2021, uma empreiteira para construir emergencialmente uma estrutura viária provisória e recompor o tráfego de ambulâncias e mantimentos.
 
 Sobre o regime jurídico do contrato administrativo decorrente de **dispensa por emergência ou calamidade pública**, a Lei nº 14.133/2021 determina que:
@@ -448,6 +493,9 @@ Sobre o regime jurídico do contrato administrativo decorrente de **dispensa por
 * **C)** É obrigatória a contratação da mesma empresa que construiu a ponte original que ruiu, independentemente de ter havido falha estrutural anterior.
 * **D)** A dispensa emergencial exige a realização prévia de audiência pública presencial com prazo de 60 dias de antecedência.
 * **E)** A vigência do contrato emergencial é fixada no prazo máximo improrrogável de 180 dias.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -471,7 +519,8 @@ Sobre o regime jurídico do contrato administrativo decorrente de **dispensa por
 
 
 
-### Questão 11 (FGV - Analista de Controle Externo / TCE-GO)
+### Teste 098
+**(FGV - Analista de Controle Externo / TCE-GO)**
 A dispensa de licitação para contratação de obras e serviços em casos de emergência ou de calamidade pública, disciplinada pelo art. 75, VIII, da Lei nº 14.133/2021, destina-se a afastar o risco de dano a bens e pessoas.
 
 A respeito dos limites e condicionamentos legais dessa hipótese de contratação direta emergencial, assinale a afirmativa correta.
@@ -481,6 +530,9 @@ A respeito dos limites e condicionamentos legais dessa hipótese de contrataçã
 * **C)** A emergência fabricada decorrente de negligência continuada de gestores públicos convalida o contrato emergencial e extingue qualquer apuração disciplinar do servidor faltoso.
 * **D)** Nas compras emergenciais por calamidade pública, a Administração está autorizada a recontratar a mesma empresa por dispensa emergencial consecutiva indefinidamente.
 * **E)** A contratação direta por emergência dispensa a demonstração da adequação orçamentária prévia.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -492,7 +544,10 @@ A respeito dos limites e condicionamentos legais dessa hipótese de contrataçã
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Recomendadas na Internet
 - [Lei Federal nº 14.133/2021 - Artigos 72 a 75 (Processo de Contratação Direta, Inexigibilidade e Dispensa)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art72)  

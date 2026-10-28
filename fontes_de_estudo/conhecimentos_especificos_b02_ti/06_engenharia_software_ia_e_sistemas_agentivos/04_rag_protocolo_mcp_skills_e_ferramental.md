@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `04_rag_protocolo_mcp_skills_e_ferramental.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Gestão de contexto e memória em sistemas agentivos
@@ -12,32 +15,48 @@
 - Protocolos de interoperabilidade entre agentes e ferramentas: Model Context Protocol (MCP)
 - Extensibilidade e automação de fluxos de trabalho especializados: Skills e Tool Use (Function Calling)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Gestão de Contexto e Memória em Sistemas Agentivos](#1-gestao-de-contexto-e-memoria-em-sistemas-agentivos)
-    - [1.1 Desafios da Janela de Contexto e a Degradação de Atenção](#11-desafios-da-janela-de-contexto-e-a-degradacao-de-atencao)
-    - [1.2 Memória de Curto Prazo (Working Memory) vs. Memória de Longo Prazo](#12-memoria-de-curto-prazo-working-memory-vs-memoria-de-longo-prazo)
-    - [1.3 Estratégias de Gestão: Sumarização Progressiva, Podagem e Prompt Caching](#13-estrategias-de-gestao-sumarizacao-progressiva-podagem-e-prompt-caching)
-- [2. Retrieval-Augmented Generation (RAG) Aplicado a Bases de Código](#2-retrieval-augmented-generation-rag-aplicado-a-bases-de-codigo)
-    - [2.1 Arquitetura e Pipeline de Ingestão de Código](#21-arquitetura-e-pipeline-de-ingestao-de-codigo)
-    - [2.2 O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)](#22-o-desafio-do-chunking-consciente-de-sintaxe-ast-based-chunking)
-    - [2.3 Modelos de Embeddings e Bancos de Dados Vetoriais](#23-modelos-de-embeddings-e-bancos-de-dados-vetoriais)
-    - [2.4 Métricas de Proximidade Semântica e Similaridade de Cosseno](#24-metricas-de-proximidade-semantica-e-similaridade-de-cosseno)
-    - [2.5 Busca Híbrida (Dense + Sparse) e Técnicas de Reranking](#25-busca-hibrida-dense-sparse-e-tecnicas-de-reranking)
-    - [2.6 Matriz de Decisão Arquitetural: RAG vs. Fine-Tuning](#26-matriz-de-decisao-arquitetural-rag-vs-fine-tuning)
-- [3. O Protocolo Model Context Protocol (MCP)](#3-o-protocolo-model-context-protocol-mcp)
-    - [3.1 Motivação e Resolução do Problema de Integração N x M](#31-motivacao-e-resolucao-do-problema-de-integracao-n-x-m)
-    - [3.2 A Arquitetura Cliente-Servidor do MCP (Host, Client e Server)](#32-a-arquitetura-cliente-servidor-do-mcp-host-client-e-server)
-    - [3.3 As Três Primitivas Centrais: Resources, Tools e Prompts](#33-as-tres-primitivas-centrais-resources-tools-e-prompts)
-    - [3.4 Mecanismos de Transporte Padronizados: `stdio` e `SSE`](#34-mecanismos-de-transporte-padronizados-stdio-e-sse)
-- [4. Extensibilidade, Tool Use e Skills Especializadas](#4-extensibilidade-tool-use-e-skills-especializadas)
-    - [4.1 Funcionamento do Tool Use / Function Calling via JSON Schema](#41-funcionamento-do-tool-use-function-calling-via-json-schema)
-    - [4.2 Definição e Estrutura de Skills Modulares](#42-definicao-e-estrutura-de-skills-modulares)
-    - [4.3 Orquestração Multiagente e Segregação de Responsabilidades](#43-orquestracao-multiagente-e-segregacao-de-responsabilidades)
-- [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
+
+1. [Gestão de Contexto e Memória em Sistemas Agentivos](#1-gestao-de-contexto-e-memoria-em-sistemas-agentivos)
+    1. [Desafios da Janela de Contexto e a Degradação de Atenção](#11-desafios-da-janela-de-contexto-e-a-degradacao-de-atencao)
+    2. [Teste 150](#Teste-150)
+    3. [Memória de Curto Prazo (Working Memory) vs. Memória de Longo Prazo](#12-memoria-de-curto-prazo-working-memory-vs-memoria-de-longo-prazo)
+    4. [Estratégias de Gestão: Sumarização Progressiva, Podagem e Prompt Caching](#13-estrategias-de-gestao-sumarizacao-progressiva-podagem-e-prompt-caching)
+    5. [Teste 151](#Teste-151)
+2. [Retrieval-Augmented Generation (RAG) Aplicado a Bases de Código](#2-retrieval-augmented-generation-rag-aplicado-a-bases-de-codigo)
+    1. [Arquitetura e Pipeline de Ingestão de Código](#21-arquitetura-e-pipeline-de-ingestao-de-codigo)
+    2. [Teste 152](#Teste-152)
+    3. [O Desafio do Chunking Consciente de Sintaxe (AST-Based Chunking)](#22-o-desafio-do-chunking-consciente-de-sintaxe-ast-based-chunking)
+    4. [Teste 153](#Teste-153)
+    5. [Modelos de Embeddings e Bancos de Dados Vetoriais](#23-modelos-de-embeddings-e-bancos-de-dados-vetoriais)
+    6. [Métricas de Proximidade Semântica e Similaridade de Cosseno](#24-metricas-de-proximidade-semantica-e-similaridade-de-cosseno)
+    7. [Busca Híbrida (Dense + Sparse) e Técnicas de Reranking](#25-busca-hibrida-dense-sparse-e-tecnicas-de-reranking)
+    8. [Teste 154](#Teste-154)
+    9. [Matriz de Decisão Arquitetural: RAG vs. Fine-Tuning](#26-matriz-de-decisao-arquitetural-rag-vs-fine-tuning)
+    10. [Teste 155](#Teste-155)
+3. [O Protocolo Model Context Protocol (MCP)](#3-o-protocolo-model-context-protocol-mcp)
+    1. [Motivação e Resolução do Problema de Integração N x M](#31-motivacao-e-resolucao-do-problema-de-integracao-n-x-m)
+    2. [A Arquitetura Cliente-Servidor do MCP (Host, Client e Server)](#32-a-arquitetura-cliente-servidor-do-mcp-host-client-e-server)
+    3. [Teste 156](#Teste-156)
+    4. [As Três Primitivas Centrais: Resources, Tools e Prompts](#33-as-tres-primitivas-centrais-resources-tools-e-prompts)
+    5. [Teste 157](#Teste-157)
+    6. [Teste 158](#Teste-158)
+    7. [Mecanismos de Transporte Padronizados: `stdio` e `SSE`](#34-mecanismos-de-transporte-padronizados-stdio-e-sse)
+    8. [Teste 159](#Teste-159)
+4. [Extensibilidade, Tool Use e Skills Especializadas](#4-extensibilidade-tool-use-e-skills-especializadas)
+    1. [Funcionamento do Tool Use / Function Calling via JSON Schema](#41-funcionamento-do-tool-use-function-calling-via-json-schema)
+    2. [Teste 160](#Teste-160)
+    3. [Definição e Estrutura de Skills Modulares](#42-definicao-e-estrutura-de-skills-modulares)
+    4. [Orquestração Multiagente e Segregação de Responsabilidades](#43-orquestracao-multiagente-e-segregacao-de-responsabilidades)
+5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Gestão de Contexto e Memória em Sistemas Agentivos
 
@@ -49,7 +68,7 @@ A operação contínua de agentes de engenharia de software enfrenta restriçõe
 
 ---
 
-### Questão 01
+### Teste 150
 **(FCC – Inédita – Padrão TCE-GO)**  
 O mecanismo de autoatenção (*Self-Attention*) canônico da arquitetura Transformer calcula a relação entre todos os pares de tokens da sequência de entrada. Esse mecanismo acarreta, em termos de complexidade computacional teórica de tempo e memória em relação ao comprimento da sequência ($N$), uma taxa de crescimento:
 
@@ -58,6 +77,9 @@ O mecanismo de autoatenção (*Self-Attention*) canônico da arquitetura Transfo
 * **C)** Quadrática: $O(N^2)$
 * **D)** Constante: $O(1)$
 * **E)** Exponencial: $O(2^N)$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -106,7 +128,7 @@ Para viabilizar fluxos agentivos em bases de código de milhões de linhas:
 ---
 
 
-### Questão 02
+### Teste 151
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 No desenvolvimento assistido por agentes em repositórios corporativos de grande porte, a técnica de *Prompt Caching* (disponibilizada por provedores de LLMs avançados) proporciona economia expressiva de tempo e custo financeiro. O funcionamento e benefício central do *Prompt Caching* reside no fato de que:
 
@@ -115,6 +137,9 @@ No desenvolvimento assistido por agentes em repositórios corporativos de grande
 * **C)** O agente é proibido de realizar novas consultas de código durante 24 horas consecutivas.
 * **D)** Todos os tokens em cache são permanentemente destruídos caso o usuário feche a IDE.
 * **E)** O sistema passa a funcionar em modo offline sem consumo de memória primária.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -126,7 +151,10 @@ No desenvolvimento assistido por agentes em repositórios corporativos de grande
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 2. Retrieval-Augmented Generation (RAG) Aplicado a Bases de Código
 
@@ -157,7 +185,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - RAG e Bancos de Dados Vetoriais)
+### Teste 152
+**(FCC - Adaptada / TI - RAG e Bancos de Dados Vetoriais)**
 Uma instituição pública precisa capacitar um agente de IA para analisar e auditar a conformidade de novos softwares em relação a um gigantesco repositório corporativo que contém milhões de linhas de código e dezenas de manuais técnicos que sofrem atualizações diárias.
 
 Para permitir que a IA consulte essas informações atualizadas com alta precisão e custo sustentável, mantendo a integridade semântica do código, a equipe deve adotar:  
@@ -167,6 +196,9 @@ Para permitir que a IA consulte essas informações atualizadas com alta precis�
 * **C)** A conversão de todos os arquivos de código-fonte em um único prompt contínuo de texto sem chunking, submetendo-o a modelos sem janela de contexto delimitada.
 * **D)** O particionamento arbitrário de código em blocos fixos de 10 linhas de texto, ignorando a estrutura sintática de métodos e classes, para maximizar o índice de acerto da busca léxica.
 * **E)** A técnica de *Fine-Tuning* supervisionado com exclusão de qualquer banco de dados vetorial, visto que embeddings numéricos são incapazes de representar proximidade semântica entre termos técnicos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -191,7 +223,7 @@ Dividir código-fonte através de fatiamento ingênuo por contagem fixa de carac
 
 ---
 
-### Questão 04
+### Teste 153
 **(FCC – Inédita – Padrão TCE-GO)**  
 Na preparação de uma base de código-fonte para indexação e recuperação semântica em pipelines de RAG (*Retrieval-Augmented Generation*), a técnica de divisão de texto (*chunking*) baseada em Árvore Sintática Abstrata (*AST-Based Chunking*) apresenta superioridade técnica sobre a divisão ingênua por quantidade fixa de caracteres porque:
 
@@ -200,6 +232,9 @@ Na preparação de uma base de código-fonte para indexação e recuperação se
 * **C)** Exige que cada arquivo do projeto contenha no máximo 10 linhas de código.
 * **D)** Desconsidera a sintaxe da linguagem para unificar códigos Python e Java na mesma tabela relacional.
 * **E)** Aumenta o tamanho dos arquivos em 1000% para ocupar todo o espaço do banco de dados vetorial.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -242,7 +277,8 @@ Bases de código dependem criticamente de nomes literais exatos (como o nome de 
 
 ---
 
-### Questão 05 (FCC - Padrão Concursos TI / Busca Híbrida e Similaridade de Cosseno)
+### Teste 154
+**(FCC - Padrão Concursos TI / Busca Híbrida e Similaridade de Cosseno)**
 Em um sistema de busca semântica de código para auditoria governamental baseado em banco de dados vetorial, um arquiteto implementou uma estratégia de Busca Híbrida (*Hybrid Search*).
 
 A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetorial pura em repositórios de software é:  
@@ -252,6 +288,9 @@ A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetor
 * **C)** A busca híbrida substitui os bancos de dados vetoriais por fitas magnéticas analógicas para reduzir o consumo de energia.
 * **D)** O uso de busca esparsa impede qualquer tentativa de injeção de prompt por parte de usuários maliciosos.
 * **E)** A similaridade de cosseno mede exclusivamente o número de caracteres coincidentes entre duas strings semânticas em ordem alfabética.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -279,7 +318,8 @@ A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetor
 
 ---
 
-### Questão 06 (FCC - Padrão Concursos TI / RAG vs Fine-Tuning em Engenharia de Software)
+### Teste 155
+**(FCC - Padrão Concursos TI / RAG vs Fine-Tuning em Engenharia de Software)**
 Em um projeto de automação fiscal na Secretaria da Fazenda, a equipe técnica precisa decidir entre a adoção de uma arquitetura de RAG (Geração Aumentada por Recuperação) e o processo de Fine-Tuning supervisionado de um modelo de linguagem aberto.
 
 Sobre os critérios comparativos que orientam essa escolha técnica, assinale a afirmativa correta:  
@@ -289,6 +329,9 @@ Sobre os critérios comparativos que orientam essa escolha técnica, assinale a 
 * **C)** O Fine-Tuning elimina completamente a ocorrência de alucinações, enquanto o RAG necessariamente multiplica as alucinações ao introduzir textos externos.
 * **D)** Modelos submetidos a RAG perdem permanentemente a capacidade de gerar código sintaticamente válido na linguagem Python.
 * **E)** O RAG exige a alteração dos pesos sinápticos do modelo em cada requisição de busca vetorial efetuada pelo usuário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -300,8 +343,9 @@ Sobre os critérios comparativos que orientam essa escolha técnica, assinale a 
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 3. O Protocolo Model Context Protocol (MCP)
@@ -337,7 +381,7 @@ A especificação MCP é dividida em três papéis complementares:
 
 ---
 
-### Questão 07
+### Teste 156
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 O Model Context Protocol (MCP), padrão aberto introduzido para estabelecer interoperabilidade universal entre assistentes de IA e fontes de dados/ferramentas externas, estrutura-se em uma arquitetura cliente-servidor clara. Em relação às responsabilidades de cada entidade no ecossistema MCP, é correto afirmar:
 
@@ -346,6 +390,9 @@ O Model Context Protocol (MCP), padrão aberto introduzido para estabelecer inte
 * **C)** O protocolo MCP só permite conexão com um único servidor externo por computador.
 * **D)** O MCP Client executa todo o código-fonte em linguagem COBOL no servidor do provedor da nuvem.
 * **E)** O MCP Server não pode se comunicar com bancos de dados relacionais como PostgreSQL ou MySQL.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -403,7 +450,8 @@ flowchart TD
 
 ---
 
-### Questão 08 (FCC - Adaptada / TI - Model Context Protocol e Interoperabilidade)
+### Teste 157
+**(FCC - Adaptada / TI - Model Context Protocol e Interoperabilidade)**
 No desenvolvimento de ecossistemas corporativos baseados em inteligência artificial, a proliferação de integrações proprietárias ponto-a-ponto entre assistentes inteligentes e sistemas legados motivou a criação do protocolo aberto *Model Context Protocol* (MCP).
 
 A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale a afirmativa correta:  
@@ -413,6 +461,9 @@ A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale
 * **C)** As primitivas denominadas *Tools* no MCP servem exclusivamente para exibir documentação estática ao usuário final, sendo vedada a chamada a APIs de backend ou operações com efeitos colaterais.
 * **D)** O transporte padrão para comunicação entre clientes e servidores locais no MCP utiliza exclusivamente websockets não autenticados, sendo proibida a comunicação via `stdio` (entrada/saída padrão de processos).
 * **E)** A utilização do MCP dispensa o modelo de IA de interpretar parâmetros em esquemas JSON Schema, delegando a tipagem de dados integralmente ao sistema operacional hospedeiro.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -430,7 +481,8 @@ A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale
 
 ---
 
-### Questão 09 (FCC - Padrão Concursos TI / Primitivas e Segurança no Model Context Protocol)
+### Teste 158
+**(FCC - Padrão Concursos TI / Primitivas e Segurança no Model Context Protocol)**
 Em uma auditoria de segurança da informação sobre uma solução corporativa que utiliza o *Model Context Protocol* (MCP) para conectar agentes de IA ao banco de dados PostgreSQL e ao repositório Git institucional, foi avaliado o risco de execução indevida de comandos de alteração estrutural.
 
 Considerando o funcionamento das primitivas e a governança do MCP, a equipe de auditoria deve verificar se:  
@@ -440,6 +492,9 @@ Considerando o funcionamento das primitivas e a governança do MCP, a equipe de 
 * **C)** As operações de leitura de esquemas e documentação utilizam a primitiva *Resources* (somente-leitura), enquanto operações de mutação utilizam primitivas *Tools* com esquemas JSON Schema rígidos e controle de privilégios de acesso que exigem confirmação explícita de operador autorizado.
 * **D)** O protocolo MCP foi configurado para converter todos os dados confidenciais do banco de dados em imagens bitmap públicas antes do envio ao modelo.
 * **E)** As conexões locais via transporte `stdio` foram substituídas por conexões telnet sem criptografia na rede pública.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -464,7 +519,7 @@ A especificação do MCP padroniza dois canais de comunicação utilizando mensa
 ---
 
 
-### Questão 10
+### Teste 159
 **(FCC – Inédita – Padrão TCE-GO)**  
 A especificação oficial do Model Context Protocol (MCP) padroniza dois mecanismos fundamentais de transporte de dados para a troca de mensagens formatadas em JSON-RPC entre clientes e servidores MCP:
 
@@ -473,6 +528,9 @@ A especificação oficial do Model Context Protocol (MCP) padroniza dois mecanis
 * **C)** `SMTP` e `POP3`
 * **D)** `Bluetooth` e `NFC`
 * **E)** Cabos coaxiais e sinais de rádio AM/FM
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -486,7 +544,10 @@ A especificação oficial do Model Context Protocol (MCP) padroniza dois mecanis
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Extensibilidade, Tool Use e Skills Especializadas
 
@@ -515,7 +576,7 @@ sequenceDiagram
 
 ---
 
-### Questão 11
+### Teste 160
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 No mecanismo de *Tool Use* (ou *Function Calling*) utilizado por modelos de linguagem avançados para interagir com o ambiente de desenvolvimento, o papel formal do modelo de linguagem (LLM) e do cliente da aplicação estrutura-se da seguinte maneira:
 
@@ -524,6 +585,9 @@ No mecanismo de *Tool Use* (ou *Function Calling*) utilizado por modelos de ling
 * **C)** O cliente local não tem permissão para auditar ou barrar os comandos emitidos pelo LLM.
 * **D)** A especificação das ferramentas deve ser escrita obrigatoriamente em código binário hexadecimal de 32 bits.
 * **E)** As ferramentas só podem retornar dados no formato de arquivos de áudio MP3.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -553,7 +617,10 @@ Em arquiteturas corporativas avançadas, a complexidade de um sistema de softwar
 - **Agente Orquestrador (*Planner*):** Recebe o objetivo, divide o trabalho em etapas e delega subtarefas;
 - **Subagentes Especialistas:** Operam em paralelo com ferramentas e permissões segregadas (ex.: um agente focado em pesquisa e documentação que só tem acesso de leitura via *Resources*, e outro agente de execução que possui permissão de escrita monitorada por *Human-in-the-Loop*).
 
+
+
 ---
+
 
 ## 5. Fontes Recomendadas na Internet
 

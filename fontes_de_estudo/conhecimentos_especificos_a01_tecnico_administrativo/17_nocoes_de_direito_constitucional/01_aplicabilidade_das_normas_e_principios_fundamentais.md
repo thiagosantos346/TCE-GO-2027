@@ -5,7 +5,10 @@
 > **Arquivo:** `01_aplicabilidade_das_normas_e_principios_fundamentais.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa Oficial do Edital
 - Da aplicabilidade das normas constitucionais (Classificação de José Afonso da Silva).
@@ -17,22 +20,31 @@
 - Objetivos fundamentais da República Federativa do Brasil (Artigo 3º).
 - Princípios que regem a República Federativa do Brasil em suas relações internacionais (Artigo 4º).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Eficácia e Aplicabilidade das Normas Constitucionais](#1-eficacia-e-aplicabilidade-das-normas-constitucionais)
-    - [1.1 Classificação Tripartite de José Afonso da Silva](#11-classificacao-tripartite-de-jose-afonso-da-silva)
-    - [1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão](#12-eficacia-minima-das-normas-limitadas-e-remedios-contra-omissao)
-    - [1.3 Reserva do Possível versus Mínimo Existencial](#13-reserva-do-possivel-versus-minimo-existencial)
-- [2. Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)](#2-principios-fundamentais-da-cf88-titulo-i-arts-1o-a-4o)
-    - [2.1 Forma de Estado, Forma de Governo e Regime Político](#21-forma-de-estado-forma-de-governo-e-regime-politico)
-    - [2.2 Fundamentos da República Federativa do Brasil (Art. 1º)](#22-fundamentos-da-republica-federativa-do-brasil-art-1o)
-    - [2.3 Separação dos Poderes e o Sistema de Freios e Contrapesos (Art. 2º)](#23-separacao-dos-poderes-e-o-sistema-de-freios-e-contrapesos-art-2o)
-    - [2.4 Objetivos Fundamentais da República (Art. 3º)](#24-objetivos-fundamentais-da-republica-art-3o)
-    - [2.5 Princípios nas Relações Internacionais e Integração Latino-Americana (Art. 4º)](#25-principios-nas-relacoes-internacionais-e-integracao-latino-americana-art-4o)
-- [3. Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
+
+1. [Teoria Aprofundada e Pontos Críticos](#teoria-aprofundada-e-pontos-criticos)
+    1. [Eficácia e Aplicabilidade das Normas Constitucionais](#1-eficacia-e-aplicabilidade-das-normas-constitucionais)
+    2. [Teste 110](#Teste-110)
+    3. [Teste 111](#Teste-111)
+    4. [Teste 112](#Teste-112)
+    5. [Teste 113](#Teste-113)
+    6. [Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)](#2-principios-fundamentais-da-cf88-titulo-i-arts-1o-a-4o)
+    7. [Teste 114](#Teste-114)
+    8. [Teste 115](#Teste-115)
+    9. [Teste 116](#Teste-116)
+    10. [Teste 117](#Teste-117)
+    11. [Teste 118](#Teste-118)
+    12. [Teste 119](#Teste-119)
+    13. [Teste 120](#Teste-120)
+2. [Fontes Recomendadas na Internet](#fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 📖 Teoria Aprofundada e Pontos Críticos
 
@@ -67,7 +79,8 @@ flowchart TD
 
 
 
-### Questão 01 (FCC - Analista Judiciário - Área Judiciária)
+### Teste 110
+**(FCC - Analista Judiciário - Área Judiciária)**
 De acordo com a clássica classificação das normas constitucionais quanto à sua eficácia e aplicabilidade proposta por José Afonso da Silva, assinale a afirmativa correta.
 
 * **A)** As normas de eficácia contida dependem obrigatoriamente de lei infraconstitucional regulamentadora para produzirem qualquer efeito prático desde a promulgação da Constituição.
@@ -75,6 +88,9 @@ De acordo com a clássica classificação das normas constitucionais quanto à s
 * **C)** As normas de eficácia limitada são destituídas de qualquer juridicidade ou eficácia, não servindo sequer como parâmetro para o controle de constitucionalidade de leis futuras.
 * **D)** A norma constitucional que assegura que 'é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer' (art. 5º, XIII) é de eficácia limitada.
 * **E)** As normas programáticas não vinculam o legislador nem os órgãos executivos, consistindo em meras exortações morais desprovidas de força normativa.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -88,7 +104,8 @@ De acordo com a clássica classificação das normas constitucionais quanto à s
 
 ---
 
-### Questão 02 (FCC - Analista Judiciário / Adaptada)
+### Teste 111
+**(FCC - Analista Judiciário / Adaptada)**
 O art. 5º, inciso XIII, da Constituição Federal de 1988 dispõe que *"é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer"*.
 
 De acordo com a classificação das normas constitucionais desenvolvida pelo constitucionalista José Afonso da Silva, o preceito citado qualifica-se como norma de eficácia:
@@ -98,6 +115,9 @@ De acordo com a classificação das normas constitucionais desenvolvida pelo con
 * **C)** Limitada programática, visto que não gera efeitos jurídicos até que o Congresso Nacional aprove o estatuto de cada uma das profissões existentes.
 * **D)** Diferida absoluta, cuja aplicabilidade condiciona-se à prévia autorização administrativa de conselhos corporativos de classe.
 * **E)** Ineficaz, por se tratar de mera exortação moral sem força cogente vinculante.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -111,7 +131,8 @@ De acordo com a classificação das normas constitucionais desenvolvida pelo con
 
 ---
 
-### Questão 03 (FCC - Procurador do Estado / Adaptada)
+### Teste 112
+**(FCC - Procurador do Estado / Adaptada)**
 O art. 37, inciso VII, da Constituição Federal prevê que *"o direito de greve será exercido nos termos e nos limites definidos em lei específica"*. Passadas décadas sem que o Congresso Nacional editasse a respectiva lei, servidores públicos impetraram Mandado de Injunção perante o Supremo Tribunal Federal buscando o exercício do direito.
 
 À luz da eficácia das normas constitucionais e da jurisprudência do STF:
@@ -121,6 +142,9 @@ O art. 37, inciso VII, da Constituição Federal prevê que *"o direito de greve
 * **C)** Trata-se de norma de eficácia limitada, cuja omissão legislativa inconstitucional autoriza o manejo de Mandado de Injunção, tendo o STF decidido aplicar por analogia a lei de greve do setor privado (Lei nº 7.783/1989) aos servidores públicos civis até a edição de lei específica.
 * **D)** Trata-se de norma de eficácia contida, vigorando a proibição absoluta de greve até que venha a lei autorizativa.
 * **E)** A norma é programática e desprovida de qualquer eficácia jurídica, não vinculando o legislador nem o Judiciário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -136,7 +160,8 @@ O art. 37, inciso VII, da Constituição Federal prevê que *"o direito de greve
 
 
 
-### Questão 04 (FGV - Auditor Fiscal da Receita Estadual)
+### Teste 113
+**(FGV - Auditor Fiscal da Receita Estadual)**
 Determinada norma da Constituição Federal estabelece que 'a lei disporá sobre a criação e extinção de ministérios e órgãos da administração pública'.
 
 Quanto à aplicabilidade e eficácia das normas constitucionais, esse preceito classifica-se como norma de eficácia:
@@ -146,6 +171,9 @@ Quanto à aplicabilidade e eficácia das normas constitucionais, esse preceito c
 * **C)** Limitada de princípio institutivo, porquanto depende de lei formal para organizar e estruturar entidades e órgãos do Poder Executivo.
 * **D)** Limitada de princípio programático, por versar exclusivamente sobre programas sociais dirigidos aos cidadãos.
 * **E)** Exaurida, em virtude de ter esgotado sua eficácia jurídica no momento da promulgação da Carta de 1988.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -212,7 +240,8 @@ No modelo do constitucionalismo contemporâneo:
 
 
 
-### Questão 05 (FCC - Técnico de Controle Externo / TCE-GO)
+### Teste 114
+**(FCC - Técnico de Controle Externo / TCE-GO)**
 O Título I da Constituição Federal de 1988 consagra os Princípios Fundamentais do Estado brasileiro. Sobre os fundamentos da República Federativa do Brasil expressos no art. 1º da CF/88, assinale a afirmativa correta.
 
 * **A)** A prevalência dos direitos humanos e a concessão de asilo político constituem fundamentos da República Federativa do Brasil.
@@ -220,6 +249,9 @@ O Título I da Constituição Federal de 1988 consagra os Princípios Fundamenta
 * **C)** A erradicação da pobreza e a redução das desigualdades sociais e regionais constituem fundamentos originários da República.
 * **D)** A autodeterminação dos povos e a não intervenção são fundamentos republicanos internos.
 * **E)** O pluralismo político confunde-se exclusivamente com o pluripartidarismo partidário, vedando manifestações filosóficas ou religiosas diversas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -233,7 +265,8 @@ O Título I da Constituição Federal de 1988 consagra os Princípios Fundamenta
 
 ---
 
-### Questão 06 (FCC - Analista Judiciário)
+### Teste 115
+**(FCC - Analista Judiciário)**
 O art. 2º da Constituição Federal consagra que *"são Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário"*.
 
 A respeito da **Teoria da Separação dos Poderes** e do sistema de freios e contrapesos (*checks and balances*):
@@ -243,6 +276,9 @@ A respeito da **Teoria da Separação dos Poderes** e do sistema de freios e con
 * **C)** Cada Poder exerce uma função típica preponderante inerente à sua natureza, mas a Constituição atribui a todos eles o exercício de funções atípicas e mecanismos recíprocos de controle e fiscalização.
 * **D)** O sistema de freios e contrapesos autoriza o Poder Executivo a revogar sentenças judiciais transitadas em julgado por motivos de conveniência financeira.
 * **E)** A independência entre os Poderes impede que o Tribunal de Contas fiscalize despesas realizadas pela Assembleia Legislativa.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -275,7 +311,8 @@ flowchart LR
 
 
 
-### Questão 07 (FGV - Analista de Controle Externo / TCE-GO)
+### Teste 116
+**(FGV - Analista de Controle Externo / TCE-GO)**
 A Constituição da República Federativa do Brasil de 1988 estabelece em seu art. 3º os objetivos fundamentais da República.
 
 Dentre as alternativas a seguir, assinale aquela que apresenta com exatidão um objetivo fundamental constitucional:
@@ -285,6 +322,9 @@ Dentre as alternativas a seguir, assinale aquela que apresenta com exatidão um 
 * **C)** Independência nacional e cooperação entre os povos para o progresso da humanidade.
 * **D)** Garantia do direito de propriedade privada sem qualquer condicionamento social.
 * **E)** Igualdade entre os Estados e repúdio categórico ao asilo político.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -298,7 +338,8 @@ Dentre as alternativas a seguir, assinale aquela que apresenta com exatidão um 
 
 ---
 
-### Questão 08 (FCC - Técnico de Controle Externo / TCE-GO)
+### Teste 117
+**(FCC - Técnico de Controle Externo / TCE-GO)**
 Considere as seguintes assertivas a respeito dos Princípios Fundamentais consagrados nos artigos 1º a 4º da Constituição Federal de 1988:
 
 I. O pluralismo político e a dignidade da pessoa humana são fundamentos expressos da República Federativa do Brasil.  
@@ -314,6 +355,9 @@ Está correto o que se afirma em:
 * **C)** II e III, apenas
 * **D)** I, II e III
 * **E)** I, apenas
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -351,7 +395,8 @@ A República Federativa do Brasil rege-se em suas relações internacionais pelo
 
 
 
-### Questão 09 (FCC - Procurador do Estado / Adaptada)
+### Teste 118
+**(FCC - Procurador do Estado / Adaptada)**
 Nas suas relações internacionais, a República Federativa do Brasil rege-se pelos princípios positivados no art. 4º da Constituição Federal de 1988.
 
 Sobre o regramento e a interpretação desses princípios, assinale a afirmativa correta.
@@ -361,6 +406,9 @@ Sobre o regramento e a interpretação desses princípios, assinale a afirmativa
 * **C)** O princípio da não intervenção impede o Brasil de participar de missões de paz organizadas pela Organização das Nações Unidas (ONU).
 * **D)** O repúdio ao terrorismo e ao racismo é princípio constitucional de aplicabilidade restrita ao território nacional.
 * **E)** O Brasil subordina sua soberania interna às decisões unilaterais tomadas por tribunais estrangeiros não reconhecidos pelo Estado brasileiro.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -374,7 +422,8 @@ Sobre o regramento e a interpretação desses princípios, assinale a afirmativa
 
 ---
 
-### Questão 10 (FCC - Analista de Controle Externo)
+### Teste 119
+**(FCC - Analista de Controle Externo)**
 Em conformidade com o parágrafo único do art. 4º da Constituição da República Federativa do Brasil de 1988, o Brasil buscará a integração econômica, política, social e cultural dos povos:
 
 * **A)** Do hemisfério ocidental, visando à formação de uma zona de livre comércio transcontinental.
@@ -382,6 +431,9 @@ Em conformidade com o parágrafo único do art. 4º da Constituição da Repúbl
 * **C)** Da América Latina, visando à formação de uma comunidade latino-americana de nações.
 * **D)** Do Mercosul exclusivamente, vedada qualquer aliança com nações não lindeiras.
 * **E)** Dos países de língua oficial portuguesa (CPLP) em caráter preferencial e excludente.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -399,7 +451,8 @@ Em conformidade com o parágrafo único do art. 4º da Constituição da Repúbl
 
 
 
-### Questão 11 (FGV - Analista de Controle Externo / Auditoria)
+### Teste 120
+**(FGV - Analista de Controle Externo / Auditoria)**
 O art. 2º da Constituição Federal de 1988 consagra que 'são Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário'.
 
 A respeito do princípio da Separação de Poderes e do sistema de freios e contrapesos (checks and balances), assinale a afirmativa correta.
@@ -409,6 +462,9 @@ A respeito do princípio da Separação de Poderes e do sistema de freios e cont
 * **C)** O Tribunal de Contas constitui órgão subordinado ao Poder Judiciário para fins de fiscalização contábil do Estado.
 * **D)** A edição de medidas provisórias pelo Chefe do Poder Executivo decorre do exercício de sua função executiva típica originária.
 * **E)** O princípio da separação dos poderes impede que o Poder Legislativo fiscalize a gestão financeira e orçamentária dos órgãos do Poder Executivo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -420,7 +476,10 @@ A respeito do princípio da Separação de Poderes e do sistema de freios e cont
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 6. Fontes Recomendadas na Internet
 

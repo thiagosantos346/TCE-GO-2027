@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_sistemas_operacionais_linux_e_windows.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Arquitetura de Sistemas Operacionais (Kernel, User Space, Syscalls)
@@ -14,40 +17,56 @@
 - Administração de Linux: comandos básicos de shell (Bash), permissões e automação por scripts
 - Administração de Windows e Windows PowerShell: cmdlets e scripts
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Arquitetura de Sistemas Operacionais e Modos de Operação](#1-arquitetura-de-sistemas-operacionais-e-modos-de-operacao)
-    - [1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)](#11-modos-de-operacao-do-processador-user-mode-vs-kernel-mode)
-    - [1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)](#12-chamadas-de-sistema-syscalls-fork-execve-mmap-kill)
-    - [1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido](#13-tipos-de-kernel-monolitico-microkernel-e-hibrido)
-- [2. Gerenciamento de Processos, Concorrência e Escalonamento](#2-gerenciamento-de-processos-concorrencia-e-escalonamento)
-    - [2.1 Processo vs. Thread (Processo Leve e Compartilhamento de Memória)](#21-processo-vs-thread-processo-leve-e-compartilhamento-de-memoria)
-    - [2.2 Ciclo de Vida e Estados de um Processo](#22-ciclo-de-vida-e-estados-de-um-processo)
-    - [2.3 PCB e o Custo da Troca de Contexto (Context Switch)](#23-pcb-e-o-custo-da-troca-de-contexto-context-switch)
-    - [2.4 Algoritmos de Escalonamento de CPU (FCFS, SJF, SRTF, Round Robin, Prioridades)](#24-algoritmos-de-escalonamento-de-cpu-fcfs-sjf-srtf-round-robin-prioridades)
-    - [2.5 Sincronização e Concorrência: Mutex vs. Semáforos](#25-sincronizacao-e-concorrencia-mutex-vs-semaforos)
-- [3. Gerenciamento de Memória Virtual, Paginação e Swapping](#3-gerenciamento-de-memoria-virtual-paginacao-e-swapping)
-    - [3.1 Endereçamento Lógico vs. Físico e o Papel da MMU](#31-enderecamento-logico-vs-fisico-e-o-papel-da-mmu)
-    - [3.2 Paginação: Páginas, Molduras (Frames), Tabela de Páginas e TLB](#32-paginacao-paginas-molduras-frames-tabela-de-paginas-e-tlb)
-    - [3.3 Falta de Página (Page Fault) e Algoritmos de Substituição](#33-falta-de-pagina-page-fault-e-algoritmos-de-substituicao)
-    - [3.4 Swapping e Hiperpaginação (Thrashing)](#34-swapping-e-hiperpaginacao-thrashing)
-- [4. Sistemas de Arquivos e Permissões no Linux e Windows](#4-sistemas-de-arquivos-e-permissoes-no-linux-e-windows)
-    - [4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena](#41-estrutura-do-inode-no-linux-o-que-armazena-e-o-que-nao-armazena)
-    - [4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)](#42-links-no-linux-hard-link-vs-symbolic-link-soft-link)
-    - [4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)](#43-sistemas-de-arquivos-linux-ext4-xfs-e-windows-ntfs-fat32)
-    - [4.4 Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)](#44-permissoes-octais-ugo-e-permissoes-especiais-suid-sgid-sticky-bit)
-- [5. Administração e Shell Scripting no Linux](#5-administracao-e-shell-scripting-no-linux)
-    - [5.1 Sinais POSIX (SIGKILL, SIGTERM, SIGHUP, SIGSTOP, SIGCONT)](#51-sinais-posix-sigkill-sigterm-sighup-sigstop-sigcont)
-    - [5.2 Comandos Essenciais, Filtros e Redirecionamentos](#52-comandos-essenciais-filtros-e-redirecionamentos)
-    - [5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)](#53-gerenciamento-de-servicos-com-systemd-systemctl-e-journalctl)
-- [6. Administração de Windows e Windows PowerShell](#6-administracao-de-windows-e-windows-powershell)
-    - [6.1 Paradigma do PowerShell: Pipeline Baseado em Objetos .NET](#61-paradigma-do-powershell-pipeline-baseado-em-objetos-net)
-    - [6.2 Cmdlets Essenciais de Administração e Filtragem](#62-cmdlets-essenciais-de-administracao-e-filtragem)
-    - [6.3 Políticas de Execução de Scripts (ExecutionPolicy)](#63-politicas-de-execucao-de-scripts-executionpolicy)
-- [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
+
+1. [Arquitetura de Sistemas Operacionais e Modos de Operação](#1-arquitetura-de-sistemas-operacionais-e-modos-de-operacao)
+    1. [Modos de Operação do Processador (User Mode vs. Kernel Mode)](#11-modos-de-operacao-do-processador-user-mode-vs-kernel-mode)
+    2. [Teste 410](#Teste-410)
+    3. [Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)](#12-chamadas-de-sistema-syscalls-fork-execve-mmap-kill)
+    4. [Tipos de Kernel: Monolítico, Microkernel e Híbrido](#13-tipos-de-kernel-monolitico-microkernel-e-hibrido)
+2. [Gerenciamento de Processos, Concorrência e Escalonamento](#2-gerenciamento-de-processos-concorrencia-e-escalonamento)
+    1. [Processo vs. Thread (Processo Leve e Compartilhamento de Memória)](#21-processo-vs-thread-processo-leve-e-compartilhamento-de-memoria)
+    2. [Teste 411](#Teste-411)
+    3. [Ciclo de Vida e Estados de um Processo](#22-ciclo-de-vida-e-estados-de-um-processo)
+    4. [PCB e o Custo da Troca de Contexto (Context Switch)](#23-pcb-e-o-custo-da-troca-de-contexto-context-switch)
+    5. [Algoritmos de Escalonamento de CPU (FCFS, SJF, SRTF, Round Robin, Prioridades)](#24-algoritmos-de-escalonamento-de-cpu-fcfs-sjf-srtf-round-robin-prioridades)
+    6. [Teste 412](#Teste-412)
+    7. [Sincronização e Concorrência: Mutex vs. Semáforos](#25-sincronizacao-e-concorrencia-mutex-vs-semaforos)
+    8. [Teste 413](#Teste-413)
+3. [Gerenciamento de Memória Virtual, Paginação e Swapping](#3-gerenciamento-de-memoria-virtual-paginacao-e-swapping)
+    1. [Endereçamento Lógico vs. Físico e o Papel da MMU](#31-enderecamento-logico-vs-fisico-e-o-papel-da-mmu)
+    2. [Paginação: Páginas, Molduras (Frames), Tabela de Páginas e TLB](#32-paginacao-paginas-molduras-frames-tabela-de-paginas-e-tlb)
+    3. [Falta de Página (Page Fault) e Algoritmos de Substituição](#33-falta-de-pagina-page-fault-e-algoritmos-de-substituicao)
+    4. [Teste 414](#Teste-414)
+    5. [Swapping e Hiperpaginação (Thrashing)](#34-swapping-e-hiperpaginacao-thrashing)
+    6. [Teste 415](#Teste-415)
+4. [Sistemas de Arquivos e Permissões no Linux e Windows](#4-sistemas-de-arquivos-e-permissoes-no-linux-e-windows)
+    1. [Estrutura do Inode no Linux: O que armazena e o que NÃO armazena](#41-estrutura-do-inode-no-linux-o-que-armazena-e-o-que-nao-armazena)
+    2. [Links no Linux: Hard Link vs. Symbolic Link (Soft Link)](#42-links-no-linux-hard-link-vs-symbolic-link-soft-link)
+    3. [Teste 416](#Teste-416)
+    4. [Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)](#43-sistemas-de-arquivos-linux-ext4-xfs-e-windows-ntfs-fat32)
+    5. [Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)](#44-permissoes-octais-ugo-e-permissoes-especiais-suid-sgid-sticky-bit)
+    6. [Teste 417](#Teste-417)
+5. [Administração e Shell Scripting no Linux](#5-administracao-e-shell-scripting-no-linux)
+    1. [Sinais POSIX (SIGKILL, SIGTERM, SIGHUP, SIGSTOP, SIGCONT)](#51-sinais-posix-sigkill-sigterm-sighup-sigstop-sigcont)
+    2. [Teste 418](#Teste-418)
+    3. [Comandos Essenciais, Filtros e Redirecionamentos](#52-comandos-essenciais-filtros-e-redirecionamentos)
+    4. [Gerenciamento de Serviços com systemd (systemctl e journalctl)](#53-gerenciamento-de-servicos-com-systemd-systemctl-e-journalctl)
+    5. [Teste 419](#Teste-419)
+6. [Administração de Windows e Windows PowerShell](#6-administracao-de-windows-e-windows-powershell)
+    1. [Paradigma do PowerShell: Pipeline Baseado em Objetos .NET](#61-paradigma-do-powershell-pipeline-baseado-em-objetos-net)
+    2. [Cmdlets Essenciais de Administração e Filtragem](#62-cmdlets-essenciais-de-administracao-e-filtragem)
+    3. [Teste 420](#Teste-420)
+    4. [Políticas de Execução de Scripts (ExecutionPolicy)](#63-politicas-de-execucao-de-scripts-executionpolicy)
+7. [Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Arquitetura de Sistemas Operacionais e Modos de Operação
 
@@ -66,7 +85,8 @@ O Sistema Operacional atua como intermediário entre o hardware físico e os sof
 
 ---
 
-### Questão 01 (FGV - TRT / Analista Judiciário - TI - Modos de Operação do Processador: User vs. Kernel)
+### Teste 410
+**(FGV - TRT / Analista Judiciário - TI - Modos de Operação do Processador: User vs. Kernel)**
 A arquitetura de processadores modernos e sistemas operacionais de uso geral (como Linux e Windows) implementa anéis de proteção (*protection rings*) em hardware para segregar a execução de programas e garantir a estabilidade do sistema.
 
 A respeito dos modos de operação do processador (**User Mode / Modo Usuário** e **Kernel Mode / Modo Núcleo**) e da transição entre eles, assinale a afirmativa correta:
@@ -76,6 +96,9 @@ A respeito dos modos de operação do processador (**User Mode / Modo Usuário**
 * **C)** No modo usuário, um programa tem autorização de hardware para desabilitar as interrupções de relógio da CPU e reconfigurar os registradores de controle de gerenciamento de memória.
 * **D)** As chamadas de sistema dispensam qualquer troca de contexto de registradores na CPU, mantendo a pilha de execução inalterada.
 * **E)** Sistemas operacionais modernos eliminaram o modo núcleo para rodar todo o código exclusivamente em máquinas virtuais JavaScript.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -130,7 +153,10 @@ sequenceDiagram
 | **Microkernel** | Apenas as funções mínimas rodam no Kernel (IPC, gerenciamento básico de memória e escalonador). Drivers, sistemas de arquivos e rede rodam como servidores no Modo Usuário (Ring 3). | Alta modularidade, isolamento de falhas e segurança robusta (se o driver de rede travar, ele é reiniciado sem derrubar o SO). | Queda de desempenho devido ao overhead constante de troca de contexto e IPC por passagem de mensagens entre processos de usuário. | Mach, Minix, QNX |
 | **Híbrido** | Combina a modularidade do microkernel com o desempenho do monolítico, executando subsistemas críticos e drivers gráficos/I/O no espaço do Kernel. | Equilíbrio entre flexibilidade arquitetural, facilidade de compatibilidade e velocidade de execução. | Complexidade interna elevada e maior superfície de ataque no Kernel. | Windows NT (10, 11, Server), macOS (XNU) |
 
+
+
 ---
+
 
 ## 2. Gerenciamento de Processos, Concorrência e Escalonamento
 
@@ -145,7 +171,8 @@ sequenceDiagram
 
 ---
 
-### Questão 02 (FCC - TRT / Analista Judiciário - TI - Processos vs. Threads)
+### Teste 411
+**(FCC - TRT / Analista Judiciário - TI - Processos vs. Threads)**
 No gerenciamento de processos e concorrência em sistemas operacionais multitarefa preemptivos, diferencia-se o conceito de **Processo Pesado** do conceito de **Thread** (*Processo Leve*).
 
 A respeito do compartilhamento de recursos entre múltiplas threads pertencentes a um mesmo processo, assinale a afirmativa correta:
@@ -155,6 +182,9 @@ A respeito do compartilhamento de recursos entre múltiplas threads pertencentes
 * **C)** A criação e a troca de contexto entre threads consomem mais tempo de CPU do que a criação e a troca de contexto entre processos pesados distintos.
 * **D)** Se uma thread de um processo trava por erro de divisão por zero, as outras threads daquele mesmo processo continuam operando normalmente sem que o processo seja finalizado.
 * **E)** Threads não podem ser executadas em núcleos de processadores diferentes (*multicore*), sendo restritas a um único clock de CPU compartilhado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -218,7 +248,8 @@ A **Troca de Contexto (*Context Switch*)** é o procedimento pelo qual a CPU int
 
 ---
 
-### Questão 03 (FCC - Adaptada / Analista de Tecnologia da Informação - Sistemas)
+### Teste 412
+**(FCC - Adaptada / Analista de Tecnologia da Informação - Sistemas)**
 Em relação aos conceitos de concorrência, processos, threads e algoritmos de escalonamento de processador em sistemas operacionais, assinale a afirmação correta:
 
 * **A)** No algoritmo de escalonamento *Round Robin* (Alternância Circular), caso o tamanho da fatia de tempo (*quantum*) seja definido com um valor excessivamente grande, o comportamento do sistema degenera e aproxima-se do algoritmo FCFS (*First-Come, First-Served*).
@@ -226,6 +257,9 @@ Em relação aos conceitos de concorrência, processos, threads e algoritmos de 
 * **C)** As threads criadas no interior de um mesmo processo possuem espaços de endereçamento de memória virtual completamente isolados e independentes, exigindo o uso de pipes ou sockets para qualquer troca de variáveis.
 * **D)** A troca de contexto (*context switch*) é uma operação puramente lógica que não impõe nenhum custo computacional de sobrecarga (*overhead*) para a CPU nem interfere no conteúdo das memórias cache.
 * **E)** O algoritmo de escalonamento FCFS é classificado como estritamente preemptivo, interrompendo processos de longa duração sempre que um novo processo requisita acesso à CPU.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -253,7 +287,8 @@ Quando múltiplos processos ou threads acessam variáveis e recursos compartilha
 
 ---
 
-### Questão 04 (FGV - TRT / Analista Judiciário - TI - Sincronização e Exclusão Mútua: Mutex vs. Semáforos)
+### Teste 413
+**(FGV - TRT / Analista Judiciário - TI - Sincronização e Exclusão Mútua: Mutex vs. Semáforos)**
 Em programação concorrente e em sistemas operacionais multithreaded, o acesso não coordenado a recursos compartilhados pode gerar **Condições de Corrida** (*Race Conditions*), corrompendo o estado da aplicação.
 
 Para garantir a **Exclusão Mútua** na Região Crítica, utilizam-se primitivas de sincronização como **Mutex** (*Mutual Exclusion Lock*) e **Semáforos** (Dijkstra). A respeito da distinção conceitual e do funcionamento dessas primitivas, assinale a afirmativa correta:
@@ -263,6 +298,9 @@ Para garantir a **Exclusão Mútua** na Região Crítica, utilizam-se primitivas
 * **C)** O Mutex deve ser liberado compulsoriamente por qualquer thread da CPU que esteja ociosa no momento.
 * **D)** A inversão de prioridades é um fenômeno que afeta exclusivamente semáforos contadores de números negativos.
 * **E)** Bloqueios do tipo *Spinlock* colocam a thread para dormir no disco rígido enquanto o recurso estiver ocupado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -276,7 +314,10 @@ Para garantir a **Exclusão Mútua** na Região Crítica, utilizam-se primitivas
 > 
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 3. Gerenciamento de Memória Virtual, Paginação e Swapping
 
@@ -330,7 +371,8 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / Técnico Judiciário - Tecnologia da Informação)
+### Teste 414
+**(FCC - Adaptada / Técnico Judiciário - Tecnologia da Informação)**
 No gerenciamento de memória virtual por paginação sob demanda em sistemas operacionais modernos, um processo em execução gera uma solicitação de acesso a um determinado endereço lógico. Durante a operação de tradução conduzida pela unidade de gerenciamento de memória (MMU), identifica-se que o bit de validade correspondente na tabela de páginas está marcado como ausente (bit 0).
 
 Nessa situação, o evento gerado pela arquitetura de hardware e a ação imediata subsequente realizada pelo sistema operacional são:
@@ -340,6 +382,9 @@ Nessa situação, o evento gerado pela arquitetura de hardware e a ação imedia
 * **C)** Um *TLB Hit*, no qual o processador busca o endereço diretamente na memória cache L1 sem consultar as tabelas do núcleo.
 * **D)** Um procedimento de *Swapping* compulsório de todos os processos ativos para o disco, paralisando a CPU até que a memória RAM seja totalmente desfragmentada.
 * **E)** Uma chamada de sistema `mmap`, solicitando que o processo usuário reconfigure o seu próprio bloco de controle de processo (PCB).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -362,7 +407,8 @@ Nessa situação, o evento gerado pela arquitetura de hardware e a ação imedia
 
 ---
 
-### Questão 06 (FCC - TRT / Analista Judiciário - TI - Memória Virtual e Hiperpaginação / Thrashing)
+### Teste 415
+**(FCC - TRT / Analista Judiciário - TI - Memória Virtual e Hiperpaginação / Thrashing)**
 O subsistema de Memória Virtual permite que programas sejam executados mesmo quando seu espaço de endereçamento total excede a capacidade física de memória RAM instalada na máquina, transferindo blocos para a área de *Swap* em disco.
 
 No entanto, quando a quantidade de memória RAM disponível torna-se criticamente insuficiente para acomodar o conjunto de trabalho (*Working Set*) de todos os processos ativos simultâneos, o sistema operacional pode entrar no colapso de desempenho denominado **Hiperpaginação (*Thrashing*)**.
@@ -374,6 +420,9 @@ A característica operacional que define formalmente o fenômeno do *Thrashing* 
 * **C)** A destruição física permanente dos módulos de memória RAM por superaquecimento.
 * **D)** O fechamento imediato do sistema operacional sem emissão de qualquer log de evento.
 * **E)** A conversão de todos os arquivos do disco para formato somente-leitura.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -389,7 +438,10 @@ A característica operacional que define formalmente o fenômeno do *Thrashing* 
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Sistemas de Arquivos e Permissões no Linux e Windows
 
@@ -423,7 +475,8 @@ O **Inode (*Index Node*)** é a estrutura central de dados que descreve cada arq
 
 ---
 
-### Questão 07 (FCC - Adaptada / Analista de TI - Infraestrutura)
+### Teste 416
+**(FCC - Adaptada / Analista de TI - Infraestrutura)**
 A respeito da arquitetura de sistemas de arquivos em ambientes baseados em Linux e da estrutura interna de inodes (*index nodes*), considere as seguintes afirmativas:
 
 I. Cada inode armazena metadados fundamentais do arquivo, tais como tamanho, permissões de acesso, identificadores de usuário e grupo, carimbos temporais e ponteiros para os blocos de dados, mas não contém o nome do arquivo nem seu caminho absoluto.  
@@ -439,6 +492,9 @@ Está correto o que se afirma em:
 * **C)** I e III, apenas.
 * **D)** I, II e III.
 * **E)** III, apenas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -480,7 +536,8 @@ $$\text{Exemplo: } 750 \implies \text{Dono: } 4+2+1=7\,(rwx); \quad \text{Grupo:
 
 ---
 
-### Questão 08 (FCC - TRT / Analista Judiciário - TI - Permissões Octais e Especiais no Linux: SUID, SGID e Sticky Bit)
+### Teste 417
+**(FCC - TRT / Analista Judiciário - TI - Permissões Octais e Especiais no Linux: SUID, SGID e Sticky Bit)**
 Nos sistemas de arquivos de ambientes Linux/POSIX, a segurança de arquivos e diretórios é regida pela matriz de permissões associadas ao Proprietário (*User - u*), Grupo (*Group - g*) e Outros (*Others - o*), acrescida dos três bits de permissões especiais: **SUID**, **SGID** e **Sticky Bit**.
 
 Considere um diretório compartilhado de auditoria `/var/auditoria_compartilhada` cujas permissões foram configuradas pelo administrador através do comando:
@@ -495,6 +552,9 @@ A respeito do significado do primeiro dígito `1` (Sticky Bit) e dos efeitos pr�
 * **D)** O Sticky Bit força que todos os novos arquivos criados herdem compulsoriamente o grupo primário do diretório pai.
 * **E)** As permissões 770 atribuem leitura, escrita e execução irrestrita para todos os usuários anônimos do mundo exterior (*others*).
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O valor octal do SUID é **4** (ex.: 4755), enquanto o valor octal do Sticky Bit é **1**.
@@ -508,7 +568,10 @@ A respeito do significado do primeiro dígito `1` (Sticky Bit) e dos efeitos pr�
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 5. Administração e Shell Scripting no Linux
 
@@ -522,7 +585,8 @@ A respeito do significado do primeiro dígito `1` (Sticky Bit) e dos efeitos pr�
 
 ---
 
-### Questão 09 (FCC - Adaptada / Analista de TI - Infraestrutura de Sistemas)
+### Teste 418
+**(FCC - Adaptada / Analista de TI - Infraestrutura de Sistemas)**
 Considere um servidor Linux em ambiente de produção onde um analista precisa configurar os privilégios de acesso de um script administrativo crítico denominado `rotina_backup.sh`. Os requisitos de conformidade determinam que:
 
 - O proprietário do arquivo tenha permissão total de leitura, escrita e execução;
@@ -538,6 +602,9 @@ Assinale a alternativa que indica, correta e respectivamente, o comando para atr
 * **C)** `chmod 754 rotina_backup.sh` e `kill -9 8192`
 * **D)** `chmod 650 rotina_backup.sh` e `kill -KILL 8192`
 * **E)** `chmod 755 rotina_backup.sh` e `kill -STOP 8192`
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -578,7 +645,8 @@ O **systemd** é o sistema de inicialização padrão do Linux moderno:
 
 ---
 
-### Questão 10 (FGV - TRT / Analista Judiciário - TI - Gerenciamento de Serviços e Logs no Linux com systemd)
+### Teste 419
+**(FGV - TRT / Analista Judiciário - TI - Gerenciamento de Serviços e Logs no Linux com systemd)**
 O `systemd` consolidou-se como o sistema de inicialização (*init system*) e gerenciador de serviços padrão na esmagadora maioria das distribuições Linux empresariais modernas (RHEL, Debian, Ubuntu, Rocky Linux).
 
 Para administrar serviços de rede (como o servidor web Apache/Nginx ou PostgreSQL) e inspecionar logs centralizados de auditoria no terminal Linux, os utilitários de linha de comando padronizados do `systemd` e seus respectivos comandos são:
@@ -588,6 +656,9 @@ Para administrar serviços de rede (como o servidor web Apache/Nginx ou PostgreS
 * **C)** O comando `killall -9 kernel` para atualizar os serviços em produção.
 * **D)** O systemd foi descontinuado do Linux e substituído pelo MS-DOS em 2023.
 * **E)** Todos os serviços do systemd rodam sem arquivos de configuração em disco, dependendo de comandos de áudio no microfone.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -604,7 +675,10 @@ Para administrar serviços de rede (como o servidor web Apache/Nginx ou PostgreS
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 6. Administração de Windows e Windows PowerShell
 
@@ -645,7 +719,8 @@ Get-Service | Select-Object -Property Name, DisplayName
 
 ---
 
-### Questão 11 (FCC - Adaptada / Analista de Sistemas - Suporte e Infraestrutura Windows)
+### Teste 420
+**(FCC - Adaptada / Analista de Sistemas - Suporte e Infraestrutura Windows)**
 No contexto de administração e automação de servidores Windows Server utilizando o Windows PowerShell, um administrador recebeu a demanda de auditar todos os serviços instalados cujo status operacional atual seja `Running`, extraindo um relatório contendo estritamente as propriedades relativas ao nome de sistema do serviço (`Name`) e seu nome legível para exibição (`DisplayName`).
 
 Considerando a arquitetura interna do PowerShell, baseada na manipulação de coleções de objetos .NET estruturados ao longo do pipeline, assinale a linha de comando canônica e correta para a execução dessa tarefa:
@@ -655,6 +730,9 @@ Considerando a arquitetura interna do PowerShell, baseada na manipulação de co
 * **C)** `Get-Process | Where-Object { $_.State == 'Running' } | Out-String -Columns Name, DisplayName`
 * **D)** `List-Service -Filter "Running" | Format-Table Name, DisplayName`
 * **E)** `Get-Service | ForEach-Object { if ($_.State -eq 'Running') { Write-Host $_.Name } }`
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -683,7 +761,10 @@ As políticas de execução controlam as condições para execução de scripts 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A política de execução do PowerShell **NÃO é um mecanismo de segurança perimetral**! Trata-se de uma salvaguarda operacional contra execução acidental de scripts. Um usuário comum pode contorná-la facilmente adicionando o parâmetro `-ExecutionPolicy Bypass` ao invocar o executável do PowerShell.
 
+
+
 ---
+
 
 ## 6. Fontes Recomendadas na Internet
 

@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `06_git_gerenciamento_de_dependencias_e_empacotamento.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Controle de versão distribuído com Git (conceitos e comandos essenciais)
@@ -12,30 +15,46 @@
 - Empacotamento de aplicações (bundlers e artefatos)
 - Publicação e distribuição de aplicações
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Controle de Versão Distribuído com Git](#1-controle-de-versao-distribuido-com-git)
-    - [1.1 Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas](#11-arquitetura-interna-distribuido-vs-centralizado-e-snapshots-vs-deltas)
-    - [1.2 O Modelo de Objetos do Git: Blobs, Trees, Commits e Tags](#12-o-modelo-de-objetos-do-git-blobs-trees-commits-e-tags)
-    - [1.3 As Três Áreas Locais e o Ciclo de Vida dos Arquivos](#13-as-tres-areas-locais-e-o-ciclo-de-vida-dos-arquivos)
-    - [1.4 Comandos Fundamentais de Inspeção, Rastreamento e Histórico](#14-comandos-fundamentais-de-inspecao-rastreamento-e-historico)
-    - [1.5 Ramificação e Integração: `git merge` vs. `git rebase`](#15-ramificacao-e-integracao-git-merge-vs-git-rebase)
-    - [1.6 Operações de Recuperação e Desfazer: `reset`, `revert`, `stash` e `cherry-pick`](#16-operacoes-de-recuperacao-e-desfazer-reset-revert-stash-e-cherry-pick)
-    - [1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`](#17-sincronizacao-e-fluxo-remoto-fetch-pull-e-push)
-- [2. Gerenciamento de Dependências de Software](#2-gerenciamento-de-dependencias-de-software)
-    - [2.1 Grafos de Dependência, Dependências Transitivas e Conflitos](#21-grafos-de-dependencia-dependencias-transitivas-e-conflitos)
-    - [2.2 Versionamento Semântico (SemVer 2.0.0)](#22-versionamento-semantico-semver-200)
-    - [2.3 Manifestos vs. Arquivos de Trava (Lockfiles) e o Comando `npm ci`](#23-manifestos-vs-arquivos-de-trava-lockfiles-e-o-comando-npm-ci)
-    - [2.4 Ecossistemas de Dependências: Node.js (npm), Python (pip/Poetry) e Java (Maven)](#24-ecossistemas-de-dependencias-nodejs-npm-python-pippoetry-e-java-maven)
-    - [2.5 O Ciclo de Vida Padrão do Apache Maven](#25-o-ciclo-de-vida-padrao-do-apache-maven)
-- [3. Empacotamento Web e Publicação de Aplicações](#3-empacotamento-web-e-publicacao-de-aplicacoes)
-    - [3.1 Empacotadores Web Modernos (Webpack, Vite, Rollup e esbuild)](#31-empacotadores-web-modernos-webpack-vite-rollup-e-esbuild)
-    - [3.2 Otimizações de Produção: Tree Shaking, Code Splitting e Minificação](#32-otimizacoes-de-producao-tree-shaking-code-splitting-e-minificacao)
-    - [3.3 Empacotamento de Backend: JAR/WAR, Wheels Python e Repositórios Corporativos](#33-empacotamento-de-backend-jarwar-wheels-python-e-repositorios-corporativos)
-- [4. Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
+
+1. [Controle de Versão Distribuído com Git](#1-controle-de-versao-distribuido-com-git)
+    1. [Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas](#11-arquitetura-interna-distribuido-vs-centralizado-e-snapshots-vs-deltas)
+    2. [O Modelo de Objetos do Git: Blobs, Trees, Commits e Tags](#12-o-modelo-de-objetos-do-git-blobs-trees-commits-e-tags)
+    3. [Teste 108](#Teste-108)
+    4. [As Três Áreas Locais e o Ciclo de Vida dos Arquivos](#13-as-tres-areas-locais-e-o-ciclo-de-vida-dos-arquivos)
+    5. [Teste 109](#Teste-109)
+    6. [Comandos Fundamentais de Inspeção, Rastreamento e Histórico](#14-comandos-fundamentais-de-inspecao-rastreamento-e-historico)
+    7. [Ramificação e Integração: `git merge` vs. `git rebase`](#15-ramificacao-e-integracao-git-merge-vs-git-rebase)
+    8. [Teste 110](#Teste-110)
+    9. [Operações de Recuperação e Desfazer: `reset`, `revert`, `stash` e `cherry-pick`](#16-operacoes-de-recuperacao-e-desfazer-reset-revert-stash-e-cherry-pick)
+    10. [Teste 111](#Teste-111)
+    11. [Teste 112](#Teste-112)
+    12. [Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`](#17-sincronizacao-e-fluxo-remoto-fetch-pull-e-push)
+2. [Gerenciamento de Dependências de Software](#2-gerenciamento-de-dependencias-de-software)
+    1. [Grafos de Dependência, Dependências Transitivas e Conflitos](#21-grafos-de-dependencia-dependencias-transitivas-e-conflitos)
+    2. [Teste 113](#Teste-113)
+    3. [Versionamento Semântico (SemVer 2.0.0)](#22-versionamento-semantico-semver-200)
+    4. [Teste 114](#Teste-114)
+    5. [Manifestos vs. Arquivos de Trava (Lockfiles) e o Comando `npm ci`](#23-manifestos-vs-arquivos-de-trava-lockfiles-e-o-comando-npm-ci)
+    6. [Teste 115](#Teste-115)
+    7. [Ecossistemas de Dependências: Node.js (npm), Python (pip/Poetry) e Java (Maven)](#24-ecossistemas-de-dependencias-nodejs-npm-python-pippoetry-e-java-maven)
+    8. [O Ciclo de Vida Padrão do Apache Maven](#25-o-ciclo-de-vida-padrao-do-apache-maven)
+    9. [Teste 116](#Teste-116)
+3. [Empacotamento Web e Publicação de Aplicações](#3-empacotamento-web-e-publicacao-de-aplicacoes)
+    1. [Empacotadores Web Modernos (Webpack, Vite, Rollup e esbuild)](#31-empacotadores-web-modernos-webpack-vite-rollup-e-esbuild)
+    2. [Teste 117](#Teste-117)
+    3. [Otimizações de Produção: Tree Shaking, Code Splitting e Minificação](#32-otimizacoes-de-producao-tree-shaking-code-splitting-e-minificacao)
+    4. [Teste 118](#Teste-118)
+    5. [Empacotamento de Backend: JAR/WAR, Wheels Python e Repositórios Corporativos](#33-empacotamento-de-backend-jarwar-wheels-python-e-repositorios-corporativos)
+4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Controle de Versão Distribuído com Git
 
@@ -102,7 +121,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Teste 108
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Internamente, o Git armazena todo o histórico e a árvore de arquivos de um projeto em um repositório orientado a objetos (*Content-Addressable Storage*) dentro da pasta `.git/objects`. Os objetos fundamentais desse modelo estruturam-se em:
 
@@ -111,6 +130,9 @@ Internamente, o Git armazena todo o histórico e a árvore de arquivos de um pro
 * **C)** Registros relacionais indexados por chaves primárias do tipo auto-incremento.
 * **D)** Tabelas de partição de sistema de arquivos NTFS.
 * **E)** Sockets de rede virtuais com endereçamento IPv6.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -150,7 +172,7 @@ flowchart LR
 
 ---
 
-### Questão 02
+### Teste 109
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Um repositório Git local organiza o ciclo de vida dos arquivos em três áreas conceituais fundamentais: a Área de Trabalho (*Working Directory*), a Área de Preparação (*Staging Area* ou *Index*) e o Repositório Local (*Commit History* / `.git`). O comando utilizado para mover arquivos modificados do *Working Directory* para a *Staging Area*, preparando-os para o próximo commit, é:
 
@@ -159,6 +181,9 @@ Um repositório Git local organiza o ciclo de vida dos arquivos em três áreas 
 * **C)** `git add`
 * **D)** `git fetch`
 * **E)** `git checkout`
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -217,7 +242,7 @@ flowchart TD
 
 ---
 
-### Questão 03
+### Teste 110
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Ao integrar o código de uma branch de desenvolvimento (*feature branch*) à branch principal (*main*), o desenvolvedor pode optar pelo comando `git merge` ou pelo comando `git rebase`. A respeito das consequências dessas duas abordagens no histórico do projeto, é correto afirmar:
 
@@ -226,6 +251,9 @@ Ao integrar o código de uma branch de desenvolvimento (*feature branch*) à bra
 * **C)** O `git rebase` é uma operação estritamente recomendada para branches públicas compartilhadas por múltiplos desenvolvedores remotos.
 * **D)** Ambos os comandos executam exatamente a mesma rotina física sem alterar qualquer ponteiro de commit.
 * **E)** O `git merge` só pode ser executado se o computador estiver conectado à Internet.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -253,7 +281,8 @@ O comando `git reset <hash>` move o ponteiro HEAD para trás:
 
 ---
 
-### Questão 04 (FCC - Analista de TI / Sistemas)
+### Teste 111
+**(FCC - Analista de TI / Sistemas)**
 No modelo operacional do Git, o comando `git reset` permite retroceder a posição do ponteiro `HEAD` para um determinado commit anterior da árvore histórica. Esse comando aceita diferentes parâmetros que determinam o destino das alterações existentes nos arquivos.
 
 Sobre os efeitos dos parâmetros do comando `git reset`, assinale a afirmativa correta:  
@@ -263,6 +292,9 @@ Sobre os efeitos dos parâmetros do comando `git reset`, assinale a afirmativa c
 * **C)** O comando `git reset --hard HEAD~1` mantém intactas as modificações no Working Directory e apenas remove os arquivos da Staging Area.
 * **D)** O comando `git reset --hard` é o mecanismo recomendado para branches públicas compartilhadas, pois não afeta o histórico de commits dos demais desenvolvedores.
 * **E)** A opção `--soft` é a única que apaga os arquivos do sistema de arquivos no disco rígido.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -285,7 +317,8 @@ Em branches públicas compartilhadas, o `git reset` é proibido. Para desfazer a
 
 ---
 
-### Questão 05 (FCC - Analista de TI / Sistemas)
+### Teste 112
+**(FCC - Analista de TI / Sistemas)**
 Um analista de sistemas do Tribunal de Contas estava desenvolvendo uma nova rotina de auditoria financeira no ramo de trabalho `feature-auditoria`. Durante o desenvolvimento, com dezenas de arquivos editados na sua área de trabalho (*working directory*) e na área de preparação (*staging area*), ele recebeu uma ordem prioritária para corrigir imediatamente uma falha crítica de segurança no ramo principal `main`. O analista não deseja realizar um commit parcial de código incompleto, mas necessita que sua árvore de trabalho fique totalmente limpa para permitir alternar de ramo sem erros.
 
 Posteriormente, após solucionar a falha e submeter a correção ao repositório remoto público compartilhado com toda a equipe de engenharia, ele constatou que um commit anterior presente na branch pública compartilhada causou um efeito colateral indesejado. Ele precisa anular e desfazer as alterações introduzidas por aquele commit específico sem reescrever ou apagar a linha histórica já sincronizada pelos demais desenvolvedores.
@@ -297,6 +330,9 @@ Para atender a esses dois requisitos com segurança e conformidade com as boas p
 * **C)** `git checkout -b hotfix` para ignorar o trabalho não salvo; e `git rebase -i` para expurgar a linha do commit na branch compartilhada.
 * **D)** `git stash` para guardar as alterações; e `git reset --hard <hash>` acompanhado de `git push --force` para sobrescrever a branch pública.
 * **E)** `git clean -df` para ocultar o código local; e `git commit --amend` para renomear o commit defeituoso no repositório remoto.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -333,7 +369,10 @@ Permite selecionar um **único commit específico** de outra branch e reaplicá-
 - **`git pull`:** Executa sequencialmente um `git fetch` seguido imediatamente por um `git merge` (ou `git rebase` se configurado) no ramo local atual.
 - **`git push origin <branch>`:** Envia os novos commits locais para o servidor remoto centralizado.
 
+
+
 ---
+
 
 ## 2. Gerenciamento de Dependências de Software
 
@@ -354,7 +393,7 @@ flowchart TD
 
 ---
 
-### Questão 06
+### Teste 113
 **(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
 No gerenciamento de dependências de software moderno (como Maven, npm ou Poetry), quando um projeto declara explicitamente a biblioteca A, e esta, por sua vez, requer internamente a biblioteca B para funcionar, a biblioteca B é caracterizada na arquitetura do projeto como uma:
 
@@ -363,6 +402,9 @@ No gerenciamento de dependências de software moderno (como Maven, npm ou Poetry
 * **C)** Dependência transitiva.
 * **D)** Dependência depreciada (*deprecated*).
 * **E)** Dependência exclusiva de compilação C++.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -401,7 +443,8 @@ flowchart LR
 
 ---
 
-### Questão 07 (FCC - Técnico de Controle Externo / TI)
+### Teste 114
+**(FCC - Técnico de Controle Externo / TI)**
 Considere uma biblioteca de auditoria governamental que adota rigorosamente a especificação de Versionamento Semântico (*Semantic Versioning* - SemVer 2.0.0), encontrando-se atualmente na versão de distribuição `2.4.1`. A equipe de desenvolvimento realizou intervenções de melhoria e disponibilizou novas versões do pacote.
 
 A respeito das regras formais do SemVer e da gestão de dependências com gerenciadores de pacotes modernos, assinale a afirmativa correta:  
@@ -411,6 +454,9 @@ A respeito das regras formais do SemVer e da gestão de dependências com gerenc
 * **C)** Em um arquivo de manifesto `package.json`, a declaração `"modulo": "^2.4.1"` instrui o gerenciador `npm` a autorizar estritamente atualizações de correção (*patch*), congelando a versão menor (*minor*).
 * **D)** O arquivo de manifesto substitui integralmente a necessidade de um arquivo de trava (*lockfile*), pois ambos contêm exatamente as mesmas informações e os mesmos hashes criptográficos de integridade.
 * **E)** A alteração do número de versão `MAJOR` sinaliza aos consumidores que foram adicionadas apenas correções superficiais de documentação, com garantia total de retrocompatibilidade.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -438,7 +484,7 @@ A respeito das regras formais do SemVer e da gestão de dependências com gerenc
 
 ---
 
-### Questão 08
+### Teste 115
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Em ambientes de Integração Contínua (CI/CD) com Node.js, recomenda-se a utilização do comando `npm ci` em substituição ao clássico `npm install`. Essa recomendação fundamenta-se no fato de que o `npm ci`:
 
@@ -447,6 +493,9 @@ Em ambientes de Integração Contínua (CI/CD) com Node.js, recomenda-se a utili
 * **C)** Ignora completamente o arquivo `package-lock.json` e compila apenas o código C++.
 * **D)** Permite a instalação de pacotes sem acesso à rede local ou remota, criando o código das bibliotecas via inteligência artificial.
 * **E)** Funciona exclusivamente se o servidor de CI estiver executando sobre o sistema operacional Windows 98.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -494,7 +543,8 @@ flowchart LR
 
 ---
 
-### Questão 09 (FCC - Analista de Sistemas / Integração Contínua e Build)
+### Teste 116
+**(FCC - Analista de Sistemas / Integração Contínua e Build)**
 No ecossistema de desenvolvimento de sistemas em Java gerenciado pela ferramenta Apache Maven, o ciclo de vida de construção (*build lifecycle*) organiza a execução de objetivos (*goals*) em fases pré-definidas. Simultaneamente, em ambientes de esteiras de Integração Contínua (CI/CD), a garantia de builds reprodutíveis e determinísticos tornou-se um requisito mandatório de conformidade e segurança da cadeia de suprimentos.
 
 A respeito do ciclo de vida do Maven e dos mecanismos que garantem builds reproduzíveis em gerenciadores de dependências modernos, assinale a afirmativa correta:  
@@ -504,6 +554,9 @@ A respeito do ciclo de vida do Maven e dos mecanismos que garantem builds reprod
 * **C)** Em projetos Node.js em esteiras de CI/CD, o comando `npm install` deve sempre substituir o comando `npm ci`, pois o `npm install` impede qualquer modificação no arquivo `package-lock.json`.
 * **D)** As coordenadas de um artefato Maven declaradas no `pom.xml` são definidas unicamente pelo parâmetro `releaseDate`, dispensando a indicação de `groupId` e `artifactId`.
 * **E)** O arquivo de lockfile (`package-lock.json` ou `poetry.lock`) impede a compilação de código caso o repositório remoto contenha novas versões maiores (*MAJOR*) de bibliotecas de terceiros.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -515,8 +568,9 @@ A respeito do ciclo de vida do Maven e dos mecanismos que garantem builds reprod
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 3. Empacotamento Web e Publicação de Aplicações
@@ -531,7 +585,7 @@ No desenvolvimento front-end moderno, o código-fonte é decomposto em centenas 
 
 ---
 
-### Questão 10
+### Teste 117
 **(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
 As ferramentas de empacotamento web (*bundlers*) evoluíram significativamente com o surgimento do Vite. A principal inovação arquitetural que confere ao Vite velocidade de inicialização do servidor de desenvolvimento ordens de grandeza superior à do Webpack tradicional reside no fato de que o Vite:
 
@@ -540,6 +594,9 @@ As ferramentas de empacotamento web (*bundlers*) evoluíram significativamente c
 * **C)** Exige que todo o código seja convertido em imagens vetoriais SVG antes da visualização na tela.
 * **D)** Elimina a necessidade do navegador web, executando todo o front-end diretamente no prompt de comando do terminal.
 * **E)** Compila todos os arquivos CSS para código binário em linguagem Assembly.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -577,7 +634,8 @@ flowchart TD
 
 ---
 
-### Questão 11 (FCC - Auditor Fiscal / Tecnologia da Informação)
+### Teste 118
+**(FCC - Auditor Fiscal / Tecnologia da Informação)**
 No contexto do desenvolvimento de aplicações web modernas com ferramentas de empacotamento (*module bundlers* como Webpack, Rollup e Vite), o processo que visa reduzir o volume de dados transferido para os navegadores dos usuários finais recorre a técnicas sofisticadas de otimização de código.
 
 A técnica que consiste na análise estática das instruções `import` e `export` dos módulos ECMAScript (ESM) para identificar e eliminar blocos de código, funções e variáveis exportadas que nunca são efetivamente utilizados no restante da aplicação denomina-se:  
@@ -587,6 +645,9 @@ A técnica que consiste na análise estática das instruções `import` e `expor
 * **C)** *Tree Shaking*
 * **D)** *Continuous Integration (CI)*
 * **E)** *Source Mapping*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -615,7 +676,10 @@ Em ambientes corporativos como tribunais de contas, o acesso a repositórios pú
 - Funcionam como proxy de cache local de dependências externas.
 - Permitem aplicar varreduras automatizadas de segurança e vulnerabilidades conhecidas (CVEs) antes de permitir a instalação no ambiente governamental.
 
+
+
 ---
+
 
 ## 4. Fontes Recomendadas na Internet
 

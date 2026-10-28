@@ -5,7 +5,10 @@
 > **Arquivo:** `02_ortografia_acentuacao_e_formacao_de_palavras.md`  
 > **Referência Temática:** Ortografia Oficial, Acentuação Gráfica, Novo Acordo e Morfologia na Banca FCC
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Ortografia oficial e acentuação gráfica segundo o Acordo Ortográfico vigente (Decreto nº 6.583/2008);
@@ -17,44 +20,59 @@
 - Elementos mórficos estruturais: radical, vogal temática, tema, afixos (prefixos e sufixos) e desinências nominais/verbais;
 - Processos de formação de palavras: derivação (prefixal, sufixal, parassintética, regressiva e imprópria) e composição (justaposição e aglutinação).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico](#1-sistema-geral-de-acentuacao-grafica-e-acordo-ortografico)
-    - [1.1 Posição da Sílaba Tônica e Tonicidade Vocálica](#11-posicao-da-silaba-tonica-e-tonicidade-vocalica)
-    - [1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC](#12-regra-das-proparoxitonas-e-proparoxitonas-eventuais-na-fcc)
-    - [1.3 Regra das Paroxítonas e Ditongos Orais](#13-regra-das-paroxitonas-e-ditongos-orais)
-    - [1.4 Regra das Oxítonas e Monossílabos Tônicos](#14-regra-das-oxitonas-e-monossilabos-tonicos)
-- [2. Regras Especiais de Acentuação](#2-regras-especiais-de-acentuacao)
-    - [2.1 Regra dos Hiatos Tônicos (I e U)](#21-regra-dos-hiatos-tonicos-i-e-u)
-    - [2.2 Ditongos Abertos (ÉI, ÓI, ÉU) e o Novo Acordo](#22-ditongos-abertos-ei-oi-eu-e-o-novo-acordo)
-    - [2.3 Formas Verbais com Pronomes Enclíticos](#23-formas-verbais-com-pronomes-encliticos)
-    - [2.4 Acento Diferencial Obrigatório e Facultativo](#24-acento-diferencial-obrigatorio-e-facultativo)
-- [3. Emprego do Hífen com Prefixos e Elementos de Composição](#3-emprego-do-hifen-com-prefixos-e-elementos-de-composicao)
-    - [3.1 Regra Geral dos Opostos e Casos com Consoante H](#31-regra-geral-dos-opostos-e-casos-com-consoante-h)
-    - [3.2 Duplicação das Consoantes R e S](#32-duplicacao-das-consoantes-r-e-s)
-    - [3.3 Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada](#33-prefixos-especiais-acentuados-e-casos-de-aglutinacao-forcada)
-    - [3.4 Hífen em Compostos por Justaposição e Expressões Consagradas](#34-hifen-em-compostos-por-justaposicao-e-expressoes-consagradas)
-- [4. Semântica Lexical: Relações de Sentido e Vocabulário](#4-semantica-lexical-relacoes-de-sentido-e-vocabulario)
-    - [4.1 Sinonímia e Antonímia](#41-sinonimia-e-antonimia)
-    - [4.2 Hiperonímia e Hiponímia](#42-hiperonimia-e-hiponimia)
-    - [4.3 Polissemia e Homonímia](#43-polissemia-e-homonimia)
-    - [4.4 Parônimos e Homófonos de Alta Incidência em Concursos](#44-paronimos-e-homofonos-de-alta-incidencia-em-concursos)
-- [5. Morfologia: Elementos Estruturais da Palavra](#5-morfologia-elementos-estruturais-da-palavra)
-    - [5.1 Radical, Alomorfia e Vogal Temática](#51-radical-alomorfia-e-vogal-tematica)
-    - [5.2 Tema e Afixos Formadores (Prefixos e Sufixos)](#52-tema-e-afixos-formadores-prefixos-e-sufixos)
-    - [5.3 Desinências Nominais e Desinências Verbais](#53-desinencias-nominais-e-desinencias-verbais)
-    - [5.4 Vogais e Consoantes de Ligação](#54-vogais-e-consoantes-de-ligacao)
-- [6. Processos de Formação de Palavras](#6-processos-de-formacao-de-palavras)
-    - [6.1 Derivação Prefixal, Sufixal e Prefixal-Sufixal](#61-derivacao-prefixal-sufixal-e-prefixal-sufixal)
-    - [6.2 Derivação Parassintética](#62-derivacao-parassintetica)
-    - [6.3 Derivação Regressiva ou Deverbal](#63-derivacao-regressiva-ou-deverbal)
-    - [6.4 Derivação Imprópria ou Conversão](#64-derivacao-impropria-ou-conversao)
-    - [6.5 Composição: Justaposição e Aglutinação](#65-composicao-justaposicao-e-aglutinacao)
-    - [6.6 Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo](#66-outros-processos-hibridismo-siglonimizacao-abreviacao-e-neologismo)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Sistema Geral de Acentuação Gráfica e Acordo Ortográfico](#1-sistema-geral-de-acentuacao-grafica-e-acordo-ortografico)
+    1. [Posição da Sílaba Tônica e Tonicidade Vocálica](#11-posicao-da-silaba-tonica-e-tonicidade-vocalica)
+    2. [Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC](#12-regra-das-proparoxitonas-e-proparoxitonas-eventuais-na-fcc)
+    3. [Regra das Paroxítonas e Ditongos Orais](#13-regra-das-paroxitonas-e-ditongos-orais)
+    4. [Regra das Oxítonas e Monossílabos Tônicos](#14-regra-das-oxitonas-e-monossilabos-tonicos)
+    5. [Teste 012](#Teste-012)
+2. [Regras Especiais de Acentuação](#2-regras-especiais-de-acentuacao)
+    1. [Regra dos Hiatos Tônicos (I e U)](#21-regra-dos-hiatos-tonicos-i-e-u)
+    2. [Ditongos Abertos (ÉI, ÓI, ÉU) e o Novo Acordo](#22-ditongos-abertos-ei-oi-eu-e-o-novo-acordo)
+    3. [Formas Verbais com Pronomes Enclíticos](#23-formas-verbais-com-pronomes-encliticos)
+    4. [Acento Diferencial Obrigatório e Facultativo](#24-acento-diferencial-obrigatorio-e-facultativo)
+    5. [Teste 013](#Teste-013)
+3. [Emprego do Hífen com Prefixos e Elementos de Composição](#3-emprego-do-hifen-com-prefixos-e-elementos-de-composicao)
+    1. [Regra Geral dos Opostos e Casos com Consoante H](#31-regra-geral-dos-opostos-e-casos-com-consoante-h)
+    2. [Teste 014](#Teste-014)
+    3. [Duplicação das Consoantes R e S](#32-duplicacao-das-consoantes-r-e-s)
+    4. [Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada](#33-prefixos-especiais-acentuados-e-casos-de-aglutinacao-forcada)
+    5. [Hífen em Compostos por Justaposição e Expressões Consagradas](#34-hifen-em-compostos-por-justaposicao-e-expressoes-consagradas)
+    6. [Teste 015](#Teste-015)
+4. [Semântica Lexical: Relações de Sentido e Vocabulário](#4-semantica-lexical-relacoes-de-sentido-e-vocabulario)
+    1. [Sinonímia e Antonímia](#41-sinonimia-e-antonimia)
+    2. [Hiperonímia e Hiponímia](#42-hiperonimia-e-hiponimia)
+    3. [Polissemia e Homonímia](#43-polissemia-e-homonimia)
+    4. [Parônimos e Homófonos de Alta Incidência em Concursos](#44-paronimos-e-homofonos-de-alta-incidencia-em-concursos)
+    5. [Teste 016](#Teste-016)
+    6. [Teste 017](#Teste-017)
+5. [Morfologia: Elementos Estruturais da Palavra](#5-morfologia-elementos-estruturais-da-palavra)
+    1. [Radical, Alomorfia e Vogal Temática](#51-radical-alomorfia-e-vogal-tematica)
+    2. [Tema e Afixos Formadores (Prefixos e Sufixos)](#52-tema-e-afixos-formadores-prefixos-e-sufixos)
+    3. [Teste 018](#Teste-018)
+    4. [Desinências Nominais e Desinências Verbais](#53-desinencias-nominais-e-desinencias-verbais)
+    5. [Vogais e Consoantes de Ligação](#54-vogais-e-consoantes-de-ligacao)
+6. [Processos de Formação de Palavras](#6-processos-de-formacao-de-palavras)
+    1. [Derivação Prefixal, Sufixal e Prefixal-Sufixal](#61-derivacao-prefixal-sufixal-e-prefixal-sufixal)
+    2. [Derivação Parassintética](#62-derivacao-parassintetica)
+    3. [Teste 019](#Teste-019)
+    4. [Derivação Regressiva ou Deverbal](#63-derivacao-regressiva-ou-deverbal)
+    5. [Derivação Imprópria ou Conversão](#64-derivacao-impropria-ou-conversao)
+    6. [Teste 020](#Teste-020)
+    7. [Composição: Justaposição e Aglutinação](#65-composicao-justaposicao-e-aglutinacao)
+    8. [Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo](#66-outros-processos-hibridismo-siglonimizacao-abreviacao-e-neologismo)
+    9. [Teste 021](#Teste-021)
+7. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico
 
@@ -137,7 +155,7 @@ Monossílabos tônicos terminados em *-i* ou *-u* (*ti, vi, tu, cru, nus*) não 
 > ⭐ **IMPORTANTE / MONOSSÍLABO TÔNICO VS. OXÍTONA:** Jamais justifique o acento de *pá* ou *mês* pela "regra das oxítonas". Para as bancas examinadoras, notadamente a FCC, a regra dos monossílabos tônicos é estruturalmente distinta da regra das oxítonas polissilábicas (*maracujá* e *pé* não compartilham a mesma regra).
 
 
-### Questão 01
+### Teste 012
 **(FCC – TRT – Analista Judiciário)**  
 Considere as seguintes palavras retiradas de um relatório de fiscalização contábil:  
 *relatório* – *órgão* – *auditoria* – *público* – *responsável*
@@ -150,6 +168,9 @@ Quanto às regras de acentuação gráfica previstas no sistema ortográfico vig
 * **D)** A palavra *responsável* é acentuada por ser oxítona terminada na consoante -l.
 * **E)** Todos os vocábulos citados são acentuados em razão da regra dos hiatos tônicos.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. *Público* é proparoxítona real/estrita (antepenúltima sílaba tônica: *pú-bli-co*). *Relatório* é paroxítona terminada em ditongo oral (*re-la-tó-rio*), admitida pela tradição gramatical e pela FCC como proparoxítona eventual/relativa, mas não uma proparoxítona estrita originária.
@@ -160,9 +181,10 @@ Quanto às regras de acentuação gráfica previstas no sistema ortográfico vig
 >
 > **Gabarito: C**
 
----
+
 
 ---
+
 
 ## 2. Regras Especiais de Acentuação
 
@@ -225,7 +247,7 @@ O Novo Acordo Ortográfico eliminou a quase totalidade dos acentos diferenciais 
 * **Fôrma / Forma:** O emprego do acento circunflexo no substantivo *fôrma* (molde, vasilha) é facultativo, sendo recomendado pelo formulário ortográfico apenas quando houver risco evidente de ambiguidade com o substantivo ou verbo *forma* (aparência exterior, conformação, do verbo formar): *"Cada um tem sua própria forma de usar a fôrma de bolo"*.
 
 
-### Questão 02
+### Teste 013
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Avalie os seguintes grupos de vocábulos quanto à aplicação das regras especiais de acentuação gráfica do Acordo Ortográfico vigente:  
 
@@ -241,6 +263,9 @@ Está em total conformidade com as regras gramaticais o que se afirma em:
 * **D)** O acento diferencial foi completamente abolido pelo Acordo Ortográfico em todas as palavras da língua portuguesa, sem nenhuma exceção.
 * **E)** Em *saúde* e *baú*, o acento gráfico justifica-se por serem paroxítonas terminadas em vogal temática.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. No grupo I, os hiatos tônicos em *i* e *u* são acentuados quando sozinhos na sílaba ou seguidos de *-s* (*ju-í-zes*, *sa-ú-de*, *ba-ú*, *ba-la-ús-tre*). Se fossem seguidos de outras consoantes (como *-z* em *juiz*), não levariam acento.
@@ -251,9 +276,10 @@ Está em total conformidade com as regras gramaticais o que se afirma em:
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 3. Emprego do Hífen com Prefixos e Elementos de Composição
 
@@ -288,7 +314,7 @@ A regra motriz da reforma ortográfica estabelece o **princípio da atração do
 
 ---
 
-### Questão 03
+### Teste 014
 **(FCC – TRF – Analista Judiciário)**  
 Quanto ao emprego do hífen em palavras formadas por derivação prefixal em consonância com o Acordo Ortográfico vigente, assinale a opção inteiramente correta:
 
@@ -297,6 +323,9 @@ Quanto ao emprego do hífen em palavras formadas por derivação prefixal em con
 * **C)** anti-inflamatório, autoescola, micro-ondas, hiper-resistente.
 * **D)** anti-inflamatório, autoescola, micro-ondas, hiperresistente.
 * **E)** antiinflamatório, auto-escola, micro-ondas, hiper-resistente.
+
+
+---
 
 > **Comentário Detalhado:**
 > Análise de cada vocábulo à luz do Acordo Ortográfico:
@@ -364,7 +393,7 @@ Entretanto, o Acordo Ortográfico determinou o **fim do hífen nas locuções de
 * **Exceções consagradas pela tradição:** Mantêm o hífen as consagradas *cor-de-rosa, água-de-colônia, arco-da-velha, mais-que-perfeito, pé-de-meia*, bem como os nomes botânicos e zoológicos ligados por hífen (*couve-flor, bem-te-vi, erva-doce*).
 
 
-### Questão 04
+### Teste 015
 **(FCC – DPE-RS – Analista Jurídico)**  
 Assinale a opção em que todas as palavras estão grafadas em perfeita conformidade com as normas de emprego do hífen estabelecidas pelo Acordo Ortográfico:
 
@@ -373,6 +402,9 @@ Assinale a opção em que todas as palavras estão grafadas em perfeita conformi
 * **C)** autoescola, anti-social, microondas, semi-aberto.
 * **D)** auto-escola, antissocial, microondas, semiaberto.
 * **E)** autoescola, anti-social, micro-ondas, semiaberto.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -384,9 +416,10 @@ Assinale a opção em que todas as palavras estão grafadas em perfeita conformi
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 4. Semântica Lexical: Relações de Sentido e Vocabulário
 
@@ -455,7 +488,7 @@ Os parônimos são palavras muito semelhantes na grafia e na pronúncia, mas que
 
 ---
 
-### Questão 05
+### Teste 016
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Considere os vocábulos destacados nas frases abaixo:  
 
@@ -474,6 +507,9 @@ A grafia e o emprego semântico dos vocábulos sublinhados estão corretos em:
 * **C)** II e IV, apenas.
 * **D)** I, II e IV, apenas.
 * **E)** II, III e IV, apenas.
+
+
+---
 
 > **Comentário Detalhado:**
 > Avaliação individual das proposições:
@@ -494,7 +530,7 @@ A grafia e o emprego semântico dos vocábulos sublinhados estão corretos em:
 > **Gabarito: A**
 
 
-### Questão 06
+### Teste 017
 **(FCC – METRÔ-SP – Advogado)**  
 Considere as lacunas no seguinte texto administrativo:  
 *"O Tribunal Pleno realizou extraordinária __________ para deliberar sobre a __________ de uso de bem público imóvel aos servidores. O parecer técnico apontou risco __________ de desmoronamento estrutural na ala sul do edifício."*
@@ -507,6 +543,9 @@ As palavras que preenchem correta e respectivamente as lacunas da frase são:
 * **D)** sessão – seção – eminente
 * **E)** seção – sessão – iminente
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **1ª lacuna:** Refere-se à reunião de um colegiado ou intervalo de tempo de trabalho. O termo correto é **sessão** (com dois esses, derivado do latim *sessio*, ato de sentar-se).
@@ -516,10 +555,9 @@ As palavras que preenchem correta e respectivamente as lacunas da frase são:
 >
 > **Gabarito: A**
 
----
+
 
 ---
-
 
 
 ## 5. Morfologia: Elementos Estruturais da Palavra
@@ -560,7 +598,7 @@ flowchart LR
 
 ---
 
-### Questão 07
+### Teste 018
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Assinale a alternativa em que ambos os vocábulos sublinhados são acentuados com fundamento na **mesma regra gramatical**:
 
@@ -569,6 +607,9 @@ Assinale a alternativa em que ambos os vocábulos sublinhados são acentuados co
 * **C)** *"A atuação do Estado em <ins>saúde</ins> preventiva é imprescindível para o <ins>país</ins>."* (comparando saúde/país com imprescindível)
 * **D)** *"O <ins>órgão</ins> de auditoria apurou o <ins>prejuízo</ins> e aplicou a sanção cabível."*
 * **E)** *"O auditor demonstrou perspicácia ao desvendar o desvio de recursos."* (perspicácia – desvendar)
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -603,7 +644,10 @@ São fonemas inseridos unicamente por imperativo de eufonia, isto é, para viabi
 * *gasômetro:* *gás* (radical) + *-metro* (radical) + **o** (vogal de ligação);
 * *cafeicultura:* *café* (radical) + *cultura* (radical) + **i** (vogal de ligação).
 
+
+
 ---
+
 
 ## 6. Processos de Formação de Palavras
 
@@ -648,7 +692,7 @@ A derivação parassintética (ou parassíntese) configura-se quando o prefixo e
 
 ---
 
-### Questão 08
+### Teste 019
 **(FCC – AL-SP – Técnico Legislativo)**  
 Em relação aos processos morfológicos de formação das palavras, assinale a alternativa em que a palavra destacada é formada por **derivação parassintética**:
 
@@ -657,6 +701,9 @@ Em relação aos processos morfológicos de formação das palavras, assinale a 
 * **C)** *"O governo estadual implementou o <ins>resgate</ins> das apólices da dívida pública."*
 * **D)** *"O relatório final foi concluído <ins>infelizmente</ins> fora do prazo regulamentar."*
 * **E)** *"O <ins>passatempo</ins> preferido dos funcionários consistia em desvendar charadas lógicas."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -700,7 +747,7 @@ Ocorre derivação imprópria quando uma palavra muda de classe gramatical e alt
 
 ---
 
-### Questão 09
+### Teste 020
 **(FCC – METRÔ-SP – Analista de Gestão)**  
 O vocábulo formado por **derivação regressiva** (também denominada deverbal) encontra-se presente na frase:
 
@@ -709,6 +756,9 @@ O vocábulo formado por **derivação regressiva** (também denominada deverbal)
 * **C)** *"Os técnicos agiram com <ins>rapidez</ins> invejável no reestabelecimento dos servidores de dados."*
 * **D)** *"O <ins>girassol</ins> plantado nos canteiros da corte simbolizava a busca pela transparência."*
 * **E)** *"O <ins>saber</ins> acumulado pelo fiscal garantiu a correta instrução probatória dos autos."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -749,7 +799,7 @@ Além dos processos clássicos, a língua recorre a outros expedientes formais:
 * **Neologismo Lexical:** Criação de novos vocábulos impulsionados pela evolução social ou tecnológica: *deletar, tuitar, escanear, empoderamento*.
 
 
-### Questão 10
+### Teste 021
 **(FCC – TRT – Técnico Judiciário)**  
 Considere os vocábulos destacados nas frases abaixo:  
 
@@ -765,6 +815,9 @@ Quanto aos processos de formação das palavras destacadas, é correto afirmar q
 * **D)** A palavra *olhar*, em III, constitui caso de derivação prefixal com acréscimo de desinência de modo-tempo.
 * **E)** O vocábulo *olhar*, em III, exemplifica a derivação parassintética de base nominal.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Derivação parassintética exige acréscimo simultâneo e inseparável de prefixo e sufixo a um radical (ex.: *envernizar*, *esfriar*). *Desembarque* deriva de um verbo pré-existente por regressão.
@@ -777,9 +830,10 @@ ightarrow$ *resgate*. É um dos tópicos mais cobrados pela FCC.
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

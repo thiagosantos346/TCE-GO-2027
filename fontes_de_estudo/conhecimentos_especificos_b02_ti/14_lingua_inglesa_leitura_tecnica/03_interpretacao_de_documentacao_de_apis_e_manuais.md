@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_interpretacao_de_documentacao_de_apis_e_manuais.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Interpretação e leitura de documentações técnicas de APIs (REST, GraphQL)
@@ -12,29 +15,44 @@
 - Leitura crítica de artigos científicos e papers de tecnologia da informação
 - Linguagem prescritiva e advertências técnicas (RFC 2119: MUST, SHOULD, MAY)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)](#1-linguagem-normativa-e-prescritiva-de-engenharia-rfc-2119-rfc-8174)
-    - [1.1 Os Níveis Normativos Canônicos](#11-os-niveis-normativos-canonicos)
-    - [1.2 Matriz de Conformidade Técnica da RFC 2119](#12-matriz-de-conformidade-tecnica-da-rfc-2119)
-- [2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)](#2-interpretacao-de-documentacao-de-apis-rest-openapi-swagger-e-graphql)
-    - [2.1 Estrutura de Rotas, Métodos HTTP e Idempotência](#21-estrutura-de-rotas-metodos-http-e-idempotencia)
-    - [2.2 Parâmetros de Requisição e Schemas de Dados JSON](#22-parametros-de-requisicao-e-schemas-de-dados-json)
-    - [2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta](#23-codigos-de-status-http-criticos-e-cabecalhos-de-resposta)
-    - [2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)](#24-documentacao-de-apis-graphql-queries-mutations-e-types)
-- [3. Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas](#3-interpretacao-de-manuais-tecnicos-e-guias-de-configuracao-de-sistemas)
-    - [3.1 Verbos Operacionais no Modo Imperativo](#31-verbos-operacionais-no-modo-imperativo)
-    - [3.2 Seções Estruturantes de um Manual de Implantação](#32-secoes-estruturantes-de-um-manual-de-implantacao)
-    - [3.3 Categorização e Gravidade das Advertências Técnicas](#33-categorizacao-e-gravidade-das-advertencias-tecnicas)
-    - [3.4 Ciclo de Vida: Deprecated vs. Decommissioned](#34-ciclo-de-vida-deprecated-vs-decommissioned)
-- [4. Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)](#4-leitura-critica-de-artigos-cientificos-e-papers-de-ti-ieee-acm-arxiv)
-    - [4.1 Anatomia Estrutural de um Artigo de Vanguarda](#41-anatomia-estrutural-de-um-artigo-de-vanguarda)
-    - [4.2 A Metodologia Three-Pass sob Pressão de Tempo de Prova](#42-a-metodologia-three-pass-sob-pressao-de-tempo-de-prova)
-    - [4.3 Léxico de Validação Experimental e Evidências Empíricas](#43-lexico-de-validacao-experimental-e-evidencias-empiricas)
-- [5. Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
+
+1. [Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)](#1-linguagem-normativa-e-prescritiva-de-engenharia-rfc-2119-rfc-8174)
+    1. [Os Níveis Normativos Canônicos](#11-os-niveis-normativos-canonicos)
+    2. [Teste 585](#Teste-585)
+    3. [Matriz de Conformidade Técnica da RFC 2119](#12-matriz-de-conformidade-tecnica-da-rfc-2119)
+    4. [Teste 586](#Teste-586)
+    5. [Teste 587](#Teste-587)
+2. [Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)](#2-interpretacao-de-documentacao-de-apis-rest-openapi-swagger-e-graphql)
+    1. [Estrutura de Rotas, Métodos HTTP e Idempotência](#21-estrutura-de-rotas-metodos-http-e-idempotencia)
+    2. [Teste 588](#Teste-588)
+    3. [Parâmetros de Requisição e Schemas de Dados JSON](#22-parametros-de-requisicao-e-schemas-de-dados-json)
+    4. [Teste 589](#Teste-589)
+    5. [Códigos de Status HTTP Críticos e Cabeçalhos de Resposta](#23-codigos-de-status-http-criticos-e-cabecalhos-de-resposta)
+    6. [Teste 590](#Teste-590)
+    7. [Documentação de APIs GraphQL (Queries, Mutations e Types)](#24-documentacao-de-apis-graphql-queries-mutations-e-types)
+    8. [Teste 591](#Teste-591)
+3. [Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas](#3-interpretacao-de-manuais-tecnicos-e-guias-de-configuracao-de-sistemas)
+    1. [Verbos Operacionais no Modo Imperativo](#31-verbos-operacionais-no-modo-imperativo)
+    2. [Seções Estruturantes de um Manual de Implantação](#32-secoes-estruturantes-de-um-manual-de-implantacao)
+    3. [Categorização e Gravidade das Advertências Técnicas](#33-categorizacao-e-gravidade-das-advertencias-tecnicas)
+    4. [Ciclo de Vida: Deprecated vs. Decommissioned](#34-ciclo-de-vida-deprecated-vs-decommissioned)
+    5. [Teste 592](#Teste-592)
+4. [Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)](#4-leitura-critica-de-artigos-cientificos-e-papers-de-ti-ieee-acm-arxiv)
+    1. [Anatomia Estrutural de um Artigo de Vanguarda](#41-anatomia-estrutural-de-um-artigo-de-vanguarda)
+    2. [Teste 593](#Teste-593)
+    3. [A Metodologia Three-Pass sob Pressão de Tempo de Prova](#42-a-metodologia-three-pass-sob-pressao-de-tempo-de-prova)
+    4. [Léxico de Validação Experimental e Evidências Empíricas](#43-lexico-de-validacao-experimental-e-evidencias-empiricas)
+    5. [Teste 594](#Teste-594)
+5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)
 
@@ -69,7 +87,8 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Adaptada / Tribunal de Contas - Auditoria de TI)
+### Teste 585
+**(FCC - Adaptada / Tribunal de Contas - Auditoria de TI)**
 *Read the standard specification clause below regarding secure communications:*
 
 > *"The authentication service **MUST NOT** transmit user credentials in plaintext over unencrypted communication channels. Furthermore, client applications **SHOULD** implement exponential backoff upon receiving status 429, and **MAY** include a custom telemetry header for diagnostic monitoring."*
@@ -81,6 +100,9 @@ De acordo com as diretrizes formais de interpretação normativa da IETF (RFC 21
 * **C)** O vocábulo **"MAY"** estabelece um requisito obrigatório e estritamente mandatório para todos os clientes compatíveis.
 * **D)** O verbo modal **"MUST NOT"** autoriza o envio de senhas em texto puro desde que a rede interna seja cabeada e protegida por firewall perimetral.
 * **E)** As palavras-chave normativas da RFC 2119 perdem seu caráter prescritivo quando redigidas inteiramente em letras maiúsculas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -109,7 +131,8 @@ De acordo com as diretrizes formais de interpretação normativa da IETF (RFC 21
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista de Sistemas - Integração de Plataformas)
+### Teste 586
+**(FCC - Adaptada / Analista de Sistemas - Integração de Plataformas)**
 *Consider the excerpt below from a technical specification draft for a public auditory API:*
 
 > *"Section 4.2 – Authentication and Message Security  
@@ -127,6 +150,9 @@ According to the normative definitions established by RFC 2119, it is correct to
 * **D)** Including a cryptographic JWT in the `Authorization` header is an optional feature that can be ignored at the client's discretion.
 * **E)** The term **"SHOULD"** in item 3 implies that asymmetric RSA-256 signature is strictly mandatory and cannot be substituted under any circumstances.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O item 4 emprega o modal **"MAY"**, que expressa uma funcionalidade verdadeiramente opcional (*truly optional*), e não uma exigência absoluta.
@@ -139,7 +165,8 @@ According to the normative definitions established by RFC 2119, it is correct to
 
 ---
 
-### Questão 03 (FCC - Adaptada / Tribunal de Contas - Infraestrutura e Engenharia de Dados)
+### Teste 587
+**(FCC - Adaptada / Tribunal de Contas - Infraestrutura e Engenharia de Dados)**
 *Read the excerpt extracted from a distributed database configuration guide:*
 
 > *"Section 6: Network Partitioning and Split-Brain Prevention  
@@ -154,6 +181,9 @@ Based on reading technical manuals and understanding operational directives, it 
 * **D)** According to the guide, a strict majority quorum is indispensable to elect a primary leader and prevent the emergence of conflicting writes in distinct partitions.
 * **E)** The text states that irrecoverable data divergence can be automatically repaired by the operating system without manual intervention.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. A seção *Prerequisites* expressa um mandamento absoluto com o termo normativo **"MUST"** (*administrators MUST synchronize system clocks*), impedindo que o procedimento seja contornado (*bypassed*).
@@ -164,8 +194,9 @@ Based on reading technical manuals and understanding operational directives, it 
 > 
 > **Gabarito: D**
 
----
 
+
+---
 
 
 ## 2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)
@@ -209,7 +240,8 @@ O design RESTful organiza as interações por meio de URIs de recursos e verbos 
 
 ---
 
-### Questão 04 (FCC - Adaptada / Analista de Sistemas - Integração e Microsserviços)
+### Teste 588
+**(FCC - Adaptada / Analista de Sistemas - Integração e Microsserviços)**
 *Read the API reference documentation snippet below:*
 
 > *"The payment gateway exposes the following endpoint:*  
@@ -223,6 +255,9 @@ Considerando a semântica dos verbos HTTP na arquitetura RESTful e a documentaç
 * **C)** O método **PUT** destina-se primordialmente a consultas parciais de dados e possui comportamento inerentemente não-idempotente pelo padrão HTTP.
 * **D)** O verbo **DELETE** é considerado não-idempotente, uma vez que a exclusão repetida de um recurso já removido resulta na restauração automática da entidade.
 * **E)** Todos os métodos do protocolo HTTP tornam-se automaticamente idempotentes quando transportados por conexões TLS/HTTPS.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -252,7 +287,8 @@ Nas especificações OpenAPI 3.0 / Swagger, os parâmetros distribuem-se em quat
 
 ---
 
-### Questão 05 (FCC - Adaptada / SEFAZ - Auditoria Fiscal da Receita Estadual - Especialidade TI)
+### Teste 589
+**(FCC - Adaptada / SEFAZ - Auditoria Fiscal da Receita Estadual - Especialidade TI)**
 *Examine the following OpenAPI 3.0 specification excerpt describing an electronic fiscal auditing endpoint:*
 
 ```yaml
@@ -309,6 +345,9 @@ Está correto o que se afirma em:
 * **D)** I, apenas.
 * **E)** I, II e III.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. Apenas os itens I e II estão alinhados à especificação e às boas práticas de API:
@@ -354,7 +393,8 @@ A compreensão precisa das famílias de códigos de status HTTP é intensamente 
 
 ---
 
-### Questão 06 (FCC - Adaptada / Tribunal de Contas - Especialidade Tecnologia da Informação)
+### Teste 590
+**(FCC - Adaptada / Tribunal de Contas - Especialidade Tecnologia da Informação)**
 *Carefully analyze the API documentation response snippet provided below:*
 
 ```http
@@ -377,6 +417,9 @@ A partir da leitura técnica da documentação e dos cabeçalhos HTTP apresentad
 * **C)** A mensagem `Warning` adverte que o serviço falhou catastroficamente e seus dados foram corrompidos permanentemente no banco de dados.
 * **D)** O termo *deprecated* indica que o endpoint acabou de ser atualizado para uma versão de maior desempenho recomendada para novas integrações.
 * **E)** O status 429 indica um erro interno de falha de infraestrutura no lado do servidor (*Internal Server Error*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -401,7 +444,8 @@ Diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o p
 
 ---
 
-### Questão 07 (FCC - Adaptada / SEFAZ - Auditoria Fiscal e Sistemas)
+### Teste 591
+**(FCC - Adaptada / SEFAZ - Auditoria Fiscal e Sistemas)**
 *Read the GraphQL Schema Definition Language (SDL) snippet below:*
 
 ```graphql
@@ -429,6 +473,9 @@ Com base nas convenções sintáticas e conceituais do padrão GraphQL e no sche
 * **D)** As operações do tipo **Mutation** são consultas de somente-leitura que não aceitam parâmetros de entrada nem alteram dados.
 * **E)** O GraphQL requer a criação de endpoints HTTP distintos (URIs dedicadas) para cada uma das consultas e mutações declaradas no esquema.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. No GraphQL SDL, o modificador de exclamação **`!`** indica **não-nulidade** (*Non-Null* / obrigatório). Campos com `!` jamais podem retornar ou receber valores nulos.
@@ -439,7 +486,10 @@ Com base nas convenções sintáticas e conceituais do padrão GraphQL e no sche
 > 
 > **Gabarito: C**
 
+
+
 ---
+
 
 ## 3. Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas
 
@@ -481,7 +531,8 @@ A correta interpretação do ciclo de vida de componentes de software é essenci
 
 ---
 
-### Questão 08 (FCC - Adaptada / Analista de TI - Governança de Software)
+### Teste 592
+**(FCC - Adaptada / Analista de TI - Governança de Software)**
 *Read the technical release note excerpt below regarding an enterprise authentication library:*
 
 > *"**Notice:** Version 3.4 marks the endpoint `/v1/auth/legacy-token` as **deprecated**. While the endpoint remains functional throughout the 3.x release series to ensure backward compatibility, security teams are strongly advised to migrate to `/v2/oauth/token`. In version 4.0, this endpoint will be fully **decommissioned**, and any subsequent invocation will immediately return HTTP 410 Gone."*
@@ -494,6 +545,9 @@ Com base na terminologia técnica empregada para definir o ciclo de vida de comp
 * **D)** A resposta `HTTP 410 Gone` indica que a requisição ao endpoint `/v1/auth/legacy-token` foi atendida com pleno sucesso e autorização irrestrita.
 * **E)** O conceito de *backward compatibility* traduz a incompatibilidade intencional com versões legadas para forçar a contratação de novos fornecedores.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O texto explicita que o endpoint continua funcional: *"While the endpoint remains functional throughout the 3.x release series to ensure backward compatibility"*.
@@ -504,7 +558,10 @@ Com base na terminologia técnica empregada para definir o ciclo de vida de comp
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)
 
@@ -534,7 +591,8 @@ flowchart TD
 
 ---
 
-### Questão 09 (FCC - Adaptada / Analista de TI - Avaliação de Arquiteturas de Nuvem)
+### Teste 593
+**(FCC - Adaptada / Analista de TI - Avaliação de Arquiteturas de Nuvem)**
 *Read the abstract of an IEEE computer systems research paper:*
 
 > *"Abstract—Serverless computing has emerged as a compelling paradigm for event-driven microservices due to its elastic autoscale and pay-per-use billing. **However**, cold-start latency remains a severe impediment for latency-sensitive public services. In this paper, we propose *KubeWarm*, a lightweight proactive container pre-warming framework integrated with Kubernetes. **Unlike** conventional reactive autoscalers that spawn container runtimes only after incoming HTTP requests arrive, *KubeWarm* utilizes an autoregressive machine learning model to predict invocation spikes. Our extensive experimental results on enterprise workloads demonstrate that *KubeWarm* reduces tail latency by 42% and eliminates 87% of cold starts, while incurring less than 3% CPU **overhead**."*
@@ -546,6 +604,9 @@ Based on paper reading techniques (*Abstract comprehension*) and technical vocab
 * **C)** According to the abstract, *KubeWarm* is designed to wait until HTTP requests arrive before initiating any container runtime provisioning.
 * **D)** The connector **"However"** is used to introduce the primary drawback of serverless computing addressed by the paper: cold-start latency.
 * **E)** The proposed framework proved inefficient, as experimental results demonstrated a 42% increase in latency and higher server costs.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -579,7 +640,8 @@ Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de p
 
 ---
 
-### Questão 10 (FCC - Adaptada / Auditor de Controle Externo - Tecnologia da Informação)
+### Teste 594
+**(FCC - Adaptada / Auditor de Controle Externo - Tecnologia da Informação)**
 *Read the research paper excerpt on distributed storage systems:*
 
 > *"In this paper, we evaluate **AuroraKV**, a novel distributed key-value store designed for geo-replicated transactional workloads. In extensive empirical evaluations using the Yahoo! Cloud Serving **Benchmark** (YCSB), AuroraKV **outperforms** state-of-the-art baselines by up to 45% in write throughput while keeping tail latency (P99) under 15ms. Furthermore, our consensus optimizations introduce an operational **overhead** of less than 2.8% on server CPU utilization, demonstrating the feasibility of near-instant multi-region consistency."*
@@ -592,6 +654,9 @@ Com base nas convenções léxicas e metodológicas da literatura científica in
 * **D)** A métrica de **"tail latency (P99)"** expressa o tempo médio de resposta apurado sobre 99% das requisições mais velozes do cluster.
 * **E)** O vocábulo **"baselines"** designa erros de compilação irreparáveis detectados no código-fonte dos servidores.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O verbo transitivo **"outperform"** significa **superar em desempenho, ter rendimento superior** (*"AuroraKV supera as soluções de referência em até 45% na vazão de escrita"*).
@@ -602,7 +667,10 @@ Com base nas convenções léxicas e metodológicas da literatura científica in
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 6. Fontes Recomendadas na Internet
 

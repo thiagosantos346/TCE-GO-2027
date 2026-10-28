@@ -4,7 +4,10 @@
 **Cargo:** Auditor de Controle Externo - Tecnologia da Informação  
 **Status do Mapeamento:** 100% aderente ao edital TCE-GO
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 1. **Fundamentos e Histórico da Inteligência Artificial:** Definições clássicas de Russell & Norvig; Teste de Turing, Quarto Chinês de Searle; IA Estreita (*Narrow AI*) vs. IA Geral (*AGI*) vs. Superinteligência (*ASI*); Paradigma Simbólico (*Sistemas Especialistas*) vs. Paradigma Conexionista (*Subsimbólico/Estatístico*); Conceito formal de Agente Racional.
@@ -20,29 +23,45 @@
     - **Treinamento e Otimização:** Funções de Perda (MSE, Entropia Cruzada Binária e Categórica), Retropropagação (*Backpropagation* via Regra da Cadeia), Gradiente Descendente e Otimizadores (SGD, Momentum, RMSprop e Adam), Regularização (Dropout, Batch Normalization e Early Stopping).
     - **Arquiteturas Especializadas:** Redes Convolucionais (CNNs: filtros convolucionais, compartilhamento de pesos, pooling e invariância translacional para visão computacional); Redes Recorrentes (RNNs, LSTM com portas de esquecimento/entrada/saída e GRU); e Arquitetura Transformer (mecanismo de autoatenção pura).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos e Paradigmas da Inteligência Artificial](#1-fundamentos-e-paradigmas-da-inteligencia-artificial)
-    - [1.1 Dimensões de Russell & Norvig e o Conceito de Agente Racional](#11-dimensoes-de-russell-norvig-e-o-conceito-de-agente-racional)
-    - [1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência](#12-niveis-de-ia-narrow-ai-vs-agi-vs-superinteligencia)
-    - [1.3 Paradigma Simbólico vs. Paradigma Conexionista](#13-paradigma-simbolico-vs-paradigma-conexionista)
-- [2. Aprendizado de Máquina Supervisionado](#2-aprendizado-de-maquina-supervisionado)
-    - [2.1 Modelos e Algoritmos de Classificação](#21-modelos-e-algoritmos-de-classificacao)
-    - [2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting](#22-comites-de-modelos-ensemble-bagging-vs-boosting)
-    - [2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)](#23-modelos-de-regressao-e-tecnicas-de-regularizacao-ridge-lasso-e-elastic-net)
-- [3. Aprendizado Não Supervisionado e por Reforço](#3-aprendizado-nao-supervisionado-e-por-reforco)
-    - [3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)](#31-algoritmos-de-agrupamento-clustering-k-means-dbscan-e-hierarquico)
-    - [3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)](#32-reducao-de-dimensionalidade-pca-t-sne-e-umap)
-    - [3.3 Aprendizado por Reforço (Reinforcement Learning)](#33-aprendizado-por-reforco-reinforcement-learning)
-- [4. Redes Neurais Artificiais e Deep Learning](#4-redes-neurais-artificiais-e-deep-learning)
-    - [4.1 Perceptron, Limitações Lineares e Redes Multicamadas (MLP)](#41-perceptron-limitacoes-lineares-e-redes-multicamadas-mlp)
-    - [4.2 Funções de Ativação Não Lineares e suas Patologias](#42-funcoes-de-ativacao-nao-lineares-e-suas-patologias)
-    - [4.3 Treinamento: Backpropagation, Gradiente Descendente e Otimizadores](#43-treinamento-backpropagation-gradiente-descendente-e-otimizadores)
-    - [4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers](#44-arquiteturas-profundas-cnns-rnnslstm-e-transformers)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Fundamentos e Paradigmas da Inteligência Artificial](#1-fundamentos-e-paradigmas-da-inteligencia-artificial)
+    1. [Dimensões de Russell & Norvig e o Conceito de Agente Racional](#11-dimensoes-de-russell-norvig-e-o-conceito-de-agente-racional)
+    2. [Teste 300](#Teste-300)
+    3. [Níveis de IA: Narrow AI vs. AGI vs. Superinteligência](#12-niveis-de-ia-narrow-ai-vs-agi-vs-superinteligencia)
+    4. [Paradigma Simbólico vs. Paradigma Conexionista](#13-paradigma-simbolico-vs-paradigma-conexionista)
+    5. [Teste 301](#Teste-301)
+2. [Aprendizado de Máquina Supervisionado](#2-aprendizado-de-maquina-supervisionado)
+    1. [Modelos e Algoritmos de Classificação](#21-modelos-e-algoritmos-de-classificacao)
+    2. [Teste 302](#Teste-302)
+    3. [Comitês de Modelos (Ensemble): Bagging vs. Boosting](#22-comites-de-modelos-ensemble-bagging-vs-boosting)
+    4. [Teste 303](#Teste-303)
+    5. [Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)](#23-modelos-de-regressao-e-tecnicas-de-regularizacao-ridge-lasso-e-elastic-net)
+    6. [Teste 304](#Teste-304)
+3. [Aprendizado Não Supervisionado e por Reforço](#3-aprendizado-nao-supervisionado-e-por-reforco)
+    1. [Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)](#31-algoritmos-de-agrupamento-clustering-k-means-dbscan-e-hierarquico)
+    2. [Teste 305](#Teste-305)
+    3. [Redução de Dimensionalidade (PCA, t-SNE e UMAP)](#32-reducao-de-dimensionalidade-pca-t-sne-e-umap)
+    4. [Teste 306](#Teste-306)
+    5. [Aprendizado por Reforço (Reinforcement Learning)](#33-aprendizado-por-reforco-reinforcement-learning)
+    6. [Teste 307](#Teste-307)
+4. [Redes Neurais Artificiais e Deep Learning](#4-redes-neurais-artificiais-e-deep-learning)
+    1. [Perceptron, Limitações Lineares e Redes Multicamadas (MLP)](#41-perceptron-limitacoes-lineares-e-redes-multicamadas-mlp)
+    2. [Funções de Ativação Não Lineares e suas Patologias](#42-funcoes-de-ativacao-nao-lineares-e-suas-patologias)
+    3. [Teste 308](#Teste-308)
+    4. [Treinamento: Backpropagation, Gradiente Descendente e Otimizadores](#43-treinamento-backpropagation-gradiente-descendente-e-otimizadores)
+    5. [Teste 309](#Teste-309)
+    6. [Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers](#44-arquiteturas-profundas-cnns-rnnslstm-e-transformers)
+    7. [Teste 310](#Teste-310)
+5. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Fundamentos e Paradigmas da Inteligência Artificial
 
@@ -76,7 +95,8 @@ A taxonomia formal estabelecida por Stuart Russell e Peter Norvig estrutura as a
 > ⚠️ **Alerta de Prova (FCC):**
 > A banca FCC costuma cobrar com frequência a definição canônica de **Agente Racional**. Fixe bem: a racionalidade não significa perfeição, onisciência ou clarividência humana. A racionalidade computacional busca maximizar o resultado esperado em face do conhecimento histórico acumulado pelo agente e das percepções recebidas pelos seus sensores no momento da decisão.
 
-### Questão 01 (FGV - TRT / Analista Judiciário - TI - Agentes Racionais de Russell & Norvig)
+### Teste 300
+**(FGV - TRT / Analista Judiciário - TI - Agentes Racionais de Russell & Norvig)**
 Na obra clássica de Stuart Russell e Peter Norvig (*Artificial Intelligence: A Modern Approach*), a definição canônica de Inteligência Artificial gravita em torno do conceito de **Agente Racional**.
 
 A respeito do conceito formal de racionalidade e da definição de agente racional nessa taxonomia, assinale a afirmativa correta:
@@ -86,6 +106,9 @@ A respeito do conceito formal de racionalidade e da definição de agente racion
 * **C)** Um agente racional é aquele que adota a ação esperada para maximizar sua medida de desempenho, considerando a sequência de percepções acumuladas até o momento e o conhecimento prévio embutido sobre o ambiente.
 * **D)** Agentes reflexos simples sem estado interno superam agentes baseados em metas em qualquer ambiente estocástico e parcialmente observável.
 * **E)** A racionalidade na IA é medida exclusivamente pela capacidade de um sistema em reproduzir emoções humanas em testes de conversação aberta.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -126,7 +149,8 @@ A trajetória histórica da IA subdivide-se em duas correntes metodológicas cen
 
 ---
 
-### Questão 02 (FCC - TRT / Analista Judiciário - TI - Paradigma Simbólico vs. Paradigma Conexionista)
+### Teste 301
+**(FCC - TRT / Analista Judiciário - TI - Paradigma Simbólico vs. Paradigma Conexionista)**
 A evolução histórica da Inteligência Artificial é marcada pela coexistência e competição entre duas correntes epistemológicas e arquiteturais: a **IA Simbólica** (Good Old-Fashioned AI - GOFAI) e a **IA Conexionista** (baseada em Aprendizado de Máquina e Redes Neurais Artificiais).
 
 A respeito das distinções técnicas fundamentais entre esses dois paradigmas, assinale a afirmativa correta:
@@ -136,6 +160,9 @@ A respeito das distinções técnicas fundamentais entre esses dois paradigmas, 
 * **C)** As redes neurais profundas pertencem à IA Simbólica, pois seus pesos sinápticos são perfeitamente legíveis como proposições booleanas de primeira ordem.
 * **D)** A IA Conexionista dispensa treinamento com dados e independe de funções de custo diferenciáveis ou otimização matemática.
 * **E)** Sistemas Especialistas baseados em árvores de inferência lógica constituem a principal tecnologia do paradigma conexionista moderno.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -149,7 +176,10 @@ A respeito das distinções técnicas fundamentais entre esses dois paradigmas, 
 > 
 > **Gabarito: A**
 
+
+
 ---
+
 
 ## 2. Aprendizado de Máquina Supervisionado
 
@@ -191,7 +221,8 @@ Quando a variável dependente $y$ é de natureza discreta/categórica (ex.: `0` 
     - Algoritmo não-paramétrico **baseado em instâncias** (*instance-based*) e classificado como **aprendizado preguiçoso (*lazy learning*)**, pois não possui uma fase de treinamento explícita que gere coeficientes ou modelos matemáticos: ele simplesmente memoriza todos os dados de treino na memória.
     - Durante a inferência, calcula a distância (Euclidiana, Manhattan ou Minkowski) entre a nova amostra e todos os pontos históricos da base, atribuindo a classe majoritária entre os $k$ vizinhos mais próximos. Sofre severamente com a **maldição da dimensionalidade** (*curse of dimensionality*).
 
-### Questão 03 (FGV - TRT / Analista Judiciário - TI - Algoritmo Naive Bayes e Independência Condicional)
+### Teste 302
+**(FGV - TRT / Analista Judiciário - TI - Algoritmo Naive Bayes e Independência Condicional)**
 O classificador Naive Bayes é um algoritmo de aprendizado de máquina supervisionado amplamente empregado na triagem automatizada de petições judiciais e detecção de fraudes em licitações públicas.
 
 O termo "Naive" (ingênuo) atribuído a esse classificador probabilístico decorre diretamente da seguinte premissa matemática:
@@ -201,6 +232,9 @@ O termo "Naive" (ingênuo) atribuído a esse classificador probabilístico decor
 * **C)** Exigir que a variável alvo (*target*) seja obrigatoriamente um vetor contínuo de números irracionais.
 * **D)** Ignorar completamente a probabilidade a priori das classes durante o cálculo da probabilidade a posteriori.
 * **E)** Utilizar exclusivamente árvores de decisão binárias com profundidade máxima igual a 1.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -251,7 +285,7 @@ A combinação coordenada de múltiplos estimadores fracos (*weak learners*) per
 
 ---
 
-### Questão 04
+### Teste 303
 **(FCC - SEFAZ-PE - Auditoria de Tecnologia da Informação)**
 Uma equipe de auditores de dados está implementando modelos de aprendizado de máquina para classificar notas fiscais e declarações fiscais de contribuintes estaduais em duas classes: "Conforme" ou "Potencialmente Fraudulenta". Durante o desenvolvimento, debateu-se a utilização de algoritmos baseados em Comitês de Modelos (*Ensemble Learning*), especificamente comparando o *Random Forest* (baseado em *Bagging*) com o *XGBoost* e *LightGBM* (baseados em *Boosting*).
 Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
@@ -261,6 +295,9 @@ Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
 * **C)** Os algoritmos de *Boosting* constroem árvores de decisão profundas e complexas de maneira totalmente independente, utilizando a votação por maioria simples para reduzir a variância.
 * **D)** No *Random Forest*, o processo de amostragem aleatória restringe-se exclusivamente às linhas do dataset, sendo vedada a seleção aleatória de subconjuntos de atributos (*features*) na divisão dos nós.
 * **E)** O *AdaBoost* mantém pesos uniformes e imutáveis para todas as instâncias de treino ao longo de todas as iterações, independentemente de os estimadores anteriores terem classificado o registro corretamente ou não.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -315,7 +352,7 @@ Para estabilizar o modelo, adiciona-se uma penalidade matemática $\lambda \cdot
 
 ---
 
-### Questão 05
+### Teste 304
 **(FCC - SEFAZ-PE - Auditor Fiscal do Tesouro Estadual)**
 Um cientista de dados está desenvolvendo um modelo preditivo de regressão para projetar a arrecadação tributária estadual a partir de duzentas variáveis macroeconômicas. Sabendo que muitas dessas variáveis apresentam alta correlação entre si e que diversas delas não contribuem relevantemente para o poder explicativo do modelo, o analista deseja aplicar uma técnica de regularização que execute **seleção automática de atributos**, forçando expressamente a zero os coeficientes das variáveis irrelevantes para gerar um modelo final esparso e parcimonioso.
 A técnica de modelagem que atende estritamente ao requisito de zerar coeficientes e sua correspondente penalização matemática é:
@@ -325,6 +362,9 @@ A técnica de modelagem que atende estritamente ao requisito de zerar coeficient
 * **C)** Regressão Lasso (*Least Absolute Shrinkage and Selection Operator*), que utiliza uma penalidade baseada na norma $L_1$ (soma dos valores absolutos dos coeficientes).
 * **D)** Regressão Logística com regularização nula, que elimina preditores irrelevantes pelo determinante da matriz Hessiana.
 * **E)** Análise Discriminante Linear, que zera coeficientes descartando autovalores inferiores à unidade.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -336,8 +376,9 @@ A técnica de modelagem que atende estritamente ao requisito de zerar coeficient
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 3. Aprendizado Não Supervisionado e por Reforço
@@ -368,7 +409,7 @@ O agrupamento descobre partições ou morfologias naturais em dados não rotulad
 
 ---
 
-### Questão 06
+### Teste 305
 **(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
 Em uma auditoria de contratos de obras públicas, um auditor necessita aplicar técnicas de Aprendizado Não Supervisionado (*Clustering*) para segmentar os pagamentos emitidos e detectar desvios operacionais atípicos. O conjunto de dados apresenta geometrias arbitrárias com densidades heterogêneas e a auditoria não possui uma estimativa prévia de quantos grupos naturais existem na base.
 Nesse contexto, o algoritmo mais apropriado para a tarefa e sua fundamentação técnica é o:
@@ -378,6 +419,9 @@ Nesse contexto, o algoritmo mais apropriado para a tarefa e sua fundamentação 
 * **C)** DBSCAN, pois identifica agrupamentos baseando-se na densidade local de pontos delimitada por raio e vizinhos mínimos, não exige o fornecimento prévio da quantidade de clusters e classifica dados em regiões rarefeitas explicitamente como ruído (*outliers*).
 * **D)** Regressão Logística, pois dispensa rótulos de classe para traçar a fronteira linear que separa automaticamente anomalias de observações regulares.
 * **E)** Agrupamento Hierárquico Divisivo com ligação simples (*Single Linkage*), pois exige a parametrização de centroides esféricos pré-fixados para evitar o efeito de encadeamento (*chaining*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -403,7 +447,8 @@ Reduz a quantidade de preditores de um dataset volumoso preservando a maior quan
 - **t-SNE e UMAP:**
     - Métodos **não lineares** dedicados prioritariamente à projeção de espaços de centenas de dimensões em espaços de 2D ou 3D para inspeção visual humana, preservando topologias de vizinhança local.
 
-### Questão 07 (FGV - TRT / Analista Judiciário - TI - Redução de Dimensionalidade com PCA)
+### Teste 306
+**(FGV - TRT / Analista Judiciário - TI - Redução de Dimensionalidade com PCA)**
 A Análise de Componentes Principais (*Principal Component Analysis - PCA*) é uma técnica estatística e de aprendizado não supervisionado fundamental para mitigar a "maldição da dimensionalidade" em grandes bases de dados de auditoria governamental.
 
 A respeito dos fundamentos matemáticos e operacionais do PCA, assinale a afirmativa correta:
@@ -413,6 +458,9 @@ A respeito dos fundamentos matemáticos e operacionais do PCA, assinale a afirma
 * **C)** O PCA aumenta o número total de variáveis da base de dados para garantir que não haja nenhuma perda de informação.
 * **D)** O PCA exige que os dados categóricos nominais sejam mantidos em formato textual sem qualquer pré-processamento numérico.
 * **E)** As componentes principais geradas pelo PCA são fortemente correlacionadas entre si, violando a independência linear.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -442,7 +490,8 @@ Um **Agente** aprende a tomar decisões sequenciais ideais através de tentativa
 
 ---
 
-### Questão 08 (FCC - TRT / Analista Judiciário - TI - Aprendizado por Reforço e Q-Learning)
+### Teste 307
+**(FCC - TRT / Analista Judiciário - TI - Aprendizado por Reforço e Q-Learning)**
 O Aprendizado por Reforço (*Reinforcement Learning - RL*) distingue-se do aprendizado supervisionado e não supervisionado pelo fato de o sistema aprender por tentativa e erro através da interação contínua com um ambiente dinâmico.
 
 A respeito dos elementos conceituais do RL e do consagrado algoritmo **Q-Learning**, assinale a afirmativa correta:
@@ -452,6 +501,9 @@ A respeito dos elementos conceituais do RL e do consagrado algoritmo **Q-Learnin
 * **C)** O fator de desconto $\gamma$ (gama) deve ser configurado como zero para que o agente priorize exclusivamente as recompensas distantes no longo prazo.
 * **D)** O dilema *Exploration vs. Exploitation* é irrelevante no Aprendizado por Reforço, devendo o agente sempre executar apenas a ação que forneceu a menor recompensa no passado.
 * **E)** O Q-Learning não converge se o ambiente for modelado como um Processo de Decisão de Markov (MDP).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -468,7 +520,10 @@ A respeito dos elementos conceituais do RL e do consagrado algoritmo **Q-Learnin
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Redes Neurais Artificiais e Deep Learning
 
@@ -496,7 +551,7 @@ As funções de ativação inserem a não linearidade necessária para que o emp
 
 ---
 
-### Questão 09
+### Teste 308
 **(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
 Em arquiteturas de Redes Neurais Artificiais profundas (*Deep Learning*), as funções de ativação não lineares são elementos indispensáveis para viabilizar o aprendizado de fronteiras complexas. A respeito do comportamento dessas funções de ativação e de suas características computacionais, assinale a alternativa correta:
 
@@ -505,6 +560,9 @@ Em arquiteturas de Redes Neurais Artificiais profundas (*Deep Learning*), as fun
 * **C)** A função de ativação *Softmax* pode ser aplicada indistintamente em qualquer camada oculta intermediária de redes convolucionais para acelerar o cálculo de tensores.
 * **D)** A função Tangente Hiperbólica ($\tanh$) gera valores de saída estritamente limitados ao intervalo de $0$ a $+1$, comportando-se de forma equivalente à função logística sigmoide.
 * **E)** A retropropagação (*Backpropagation*) dispensa a regra da cadeia e utiliza apenas a média aritmética simples dos erros da camada final para atualizar os pesos de todas as camadas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -540,7 +598,8 @@ O ciclo de aprendizado de redes profundas articula quatro etapas fundamentais:
     - *Batch Normalization:* Normaliza as ativações de cada minilote para média zero e variância unitária, estabilizando e acelerando a convergência.
     - *Early Stopping:* Interrompe o treinamento quando o erro no conjunto de validação começa a subir consecutivamente, evitando o *overfitting*.
 
-### Questão 10 (FGV - TRT / Analista Judiciário - TI - Treinamento de Redes Profundas: Backpropagation e Adam)
+### Teste 309
+**(FGV - TRT / Analista Judiciário - TI - Treinamento de Redes Profundas: Backpropagation e Adam)**
 No treinamento de Redes Neurais Artificiais profundas (*Deep Learning*), o algoritmo de retropropagação do erro (*Backpropagation*) é utilizado para calcular os gradientes da função de perda em relação a cada peso sináptico da rede.
 
 A respeito do mecanismo de treinamento, do ajuste de gradientes e dos algoritmos otimizadores, assinale a afirmativa correta:
@@ -550,6 +609,9 @@ A respeito do mecanismo de treinamento, do ajuste de gradientes e dos algoritmos
 * **C)** O otimizador Adam (*Adaptive Moment Estimation*) utiliza uma taxa de aprendizado estática e imutável para todos os parâmetros da rede, desconsiderando momentos de primeira e segunda ordem dos gradientes.
 * **D)** O Gradiente Descendente Estocástico (SGD) calcula o gradiente exato da função de perda utilizando simultaneamente todos os bilhões de exemplos do conjunto de dados de uma só vez a cada iteração.
 * **E)** O fenômeno do desaparecimento do gradiente (*Vanishing Gradient*) ocorre exclusivamente quando a função de ativação utilizada nas camadas intermediárias é a ReLU (*Rectified Linear Unit*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -584,7 +646,7 @@ A respeito do mecanismo de treinamento, do ajuste de gradientes e dos algoritmos
 
 ---
 
-### Questão 11
+### Teste 310
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 No ecossistema de arquiteturas especializadas de Aprendizado Profundo (*Deep Learning*), diversas redes foram desenvolvidas para processar eficientemente imagens, fluxos de áudio e dados textuais sequenciais.
 Sobre as características estruturais dessas arquiteturas, assinale a alternativa correta:
@@ -594,6 +656,9 @@ Sobre as características estruturais dessas arquiteturas, assinale a alternativ
 * **C)** As Redes Neurais Recorrentes (RNNs) simples conseguem manter dependências contextuais de longuíssimo prazo sem sofrer atenuação de gradientes, tornando as células LSTM obsoletas.
 * **D)** A arquitetura *Transformer* baseia-se exclusivamente em convoluções bidimensionais causais e descarta inteiramente mecanismos de atenção entre tokens.
 * **E)** As células LSTM (*Long Short-Term Memory*) descartam qualquer tipo de porta reguladora, substituindo todo o fluxo interno por uma única camada Perceptron sem função de ativação.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -605,8 +670,9 @@ Sobre as características estruturais dessas arquiteturas, assinale a alternativ
 > 
 > **Gabarito: A**
 
----
 
+
+---
 
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas

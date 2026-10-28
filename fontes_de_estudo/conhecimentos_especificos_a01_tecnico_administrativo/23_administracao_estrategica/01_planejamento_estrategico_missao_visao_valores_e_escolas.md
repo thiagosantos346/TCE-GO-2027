@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `01_planejamento_estrategico_missao_visao_valores_e_escolas.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Planejamento estratégico: conceitos, características, objetivos e evolução conceitual;
@@ -24,16 +27,32 @@
     - **Escolas Descritivas:** Escola Empreendedora (visão intuitiva do líder), Escola Cognitiva (processamento mental e vieses), Escola do Aprendizado (estratégias emergentes e tentativa e erro), Escola do Poder (negociação, jogos de poder e coalizões), Escola Cultural (crenças coletivas e mitos) e Escola Ambiental (adaptação passiva às pressões externas);
     - **Escola Integrativa:** Escola da Configuração (estabilidade pontuada por transformações estruturais quânticas).
 
----
 
-## 🧭 Sumário Interativo
-- [1. A Tríade da Identidade Estratégica: Missão, Visão e Valores](#1-a-triade-da-identidade-estrategica-missao-visao-e-valores)
-- [2. O Ciclo da Gestão Estratégica Integrada](#2-o-ciclo-da-gestao-estrategica-integrada)
-- [3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)](#3-estrategias-deliberadas-vs-estrategias-emergentes-henry-mintzberg)
-- [4. As Dez Escolas do Pensamento Estratégico (Safári de Estratégia)](#4-as-dez-escolas-do-pensamento-estrategico-safari-de-estrategia)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [A Tríade da Identidade Estratégica: Missão, Visão e Valores](#1-a-triade-da-identidade-estrategica-missao-visao-e-valores)
+    2. [Teste 370](#Teste-370)
+    3. [Teste 371](#Teste-371)
+    4. [Teste 372](#Teste-372)
+    5. [O Ciclo da Gestão Estratégica Integrada](#2-o-ciclo-da-gestao-estrategica-integrada)
+    6. [Teste 373](#Teste-373)
+    7. [Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)](#3-estrategias-deliberadas-vs-estrategias-emergentes-henry-mintzberg)
+    8. [Teste 374](#Teste-374)
+    9. [Teste 375](#Teste-375)
+    10. [As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia*)](#as-dez-escolas-do-pensamento-estrategico-safari-de-estrategia)
+    11. [Teste 376](#Teste-376)
+    12. [Teste 377](#Teste-377)
+    13. [Teste 378](#Teste-378)
+    14. [Teste 379](#Teste-379)
+    15. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -75,7 +94,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Teste 370
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Determinado Tribunal de Contas publicou seu Plano Estratégico com os seguintes enunciados institucionais:
 
@@ -91,6 +110,9 @@ Nos termos da teoria do planejamento estratégico, os enunciados I e II correspo
 * **D)** Meta Operacional e Diretriz Tática.
 * **E)** Valores e Visão.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A) Incorreta.** Inverte a ordem das definições essenciais de planejamento estratégico.
@@ -103,7 +125,7 @@ Nos termos da teoria do planejamento estratégico, os enunciados I e II correspo
 
 ---
 
-### Questão 02
+### Teste 371
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 Ao formular seu planejamento plurianual, determinada defensoria pública incluiu expressamente em seu documento diretor os seguintes postulados: "Independência funcional, defesa irrestrita dos direitos humanos, transparência e urbanidade no atendimento aos cidadãos vulneráveis". Sob a perspectiva da teoria da administração estratégica, esses postulados representam:
 
@@ -112,6 +134,9 @@ Ao formular seu planejamento plurianual, determinada defensoria pública incluiu
 * **C)** Os Valores institucionais que norteiam as condutas e estabelecem balizas éticas indeclináveis.
 * **D)** As Estratégias não realizadas do exercício anterior.
 * **E)** As Oportunidades captadas no ambiente externo através da análise PESTEL.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -127,7 +152,8 @@ Ao formular seu planejamento plurianual, determinada defensoria pública incluiu
 
 
 
-### Questão 03 (FCC - Adaptada / Analista de Planejamento e Gestão)
+### Teste 372
+**(FCC - Adaptada / Analista de Planejamento e Gestão)**
 Na definição da identidade corporativa e do referencial estratégico de um órgão de controle externo, a **Visão de Futuro** diferencia-se da **Missão Institucional** por:
 
 * **A)** Descrever a imagem mental do estado futuro desejado que a instituição almeja alcançar em determinado horizonte temporal (onde queremos chegar), enquanto a Missão define a razão de existir fundamental e o propósito perene de atuação presente do órgão (quem somos e para que servimos).
@@ -135,6 +161,9 @@ Na definição da identidade corporativa e do referencial estratégico de um ór
 * **C)** Consistir em documento sigiloso e restrito à apreciação do Presidente do Tribunal.
 * **D)** Ter validade perpétua e imutável que não admite revisão nem mesmo em novos ciclos plurianuais de planejamento.
 * **E)** Focar exclusivamente na redução percentual dos gastos de custeio com passagens aéreas e combustíveis.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -171,7 +200,8 @@ flowchart TD
 
 ---
 
-### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 373
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Henry Mintzberg, ao analisar a formação das estratégias organizacionais, contrapôs o modelo puramente racional e deliberado ao surgimento de estratégias não previstas.
 
 Segundo Mintzberg, a **Estratégia Emergente** caracteriza-se por:
@@ -181,6 +211,9 @@ Segundo Mintzberg, a **Estratégia Emergente** caracteriza-se por:
 * **C)** Exigir autorização prévia em emenda parlamentar na Lei de Diretrizes Orçamentárias.
 * **D)** Representar a parte do plano estratégico formal que foi integralmente abandonada e descartada pela equipe (*estratégia não realizada*).
 * **E)** Constituir violação do princípio da legalidade administrativa suscetível de anulação sumária.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -219,7 +252,7 @@ flowchart LR
 
 ---
 
-### Questão 05
+### Teste 374
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica da formulação e implementação estratégica, as ações e padrões de conduta que emergem espontaneamente na rotina operacional da organização, sem terem sido previamente previstos no plano formal deliberado pela cúpula, são denominadas:
 
@@ -228,6 +261,9 @@ De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica d
 * **C)** Estratégias Não Realizadas.
 * **D)** Estratégias Deliberadas.
 * **E)** Estratégias Mecanicistas.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -243,7 +279,8 @@ De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica d
 
 
 
-### Questão 06 (FCC - Adaptada / Analista de Planejamento e Controle)
+### Teste 375
+**(FCC - Adaptada / Analista de Planejamento e Controle)**
 Na clássica obra *Safári de Estratégia*, Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel classificam o pensamento estratégico em dez escolas, agrupadas em **Prescritivas** e **Descritivas**.
 
 Constitui uma escola de natureza tipicamente **Prescritiva** (normativa), voltada para prescrever *como a estratégia deve ser idealmente formulada*:
@@ -253,6 +290,9 @@ Constitui uma escola de natureza tipicamente **Prescritiva** (normativa), voltad
 * **C)** A Escola do Poder (que compreende a estratégia como um processo de negociação e disputas políticas entre grupos).
 * **D)** A Escola Cultural (que enxerga a formação da estratégia como um processo coletivo enraizado em valores e crenças).
 * **E)** A Escola Ambiental (que trata a estratégia como uma resposta passiva e reativa às pressões ecológicas do contexto externo).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -297,7 +337,7 @@ flowchart TD
 
 ---
 
-### Questão 07
+### Teste 376
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de Estratégia*, a Escola do Design destaca-se historicamente por defender que a estratégia deve ser concebida por meio de:
 
@@ -306,6 +346,9 @@ Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de
 * **C)** Jogos de barganha política e manobras coercitivas promovidas por sindicatos corporativos.
 * **D)** Respostas puramente passivas e reativas ditadas pelas forças demográficas e climáticas do ambiente ecológico.
 * **E)** Vieses cognitivos inconscientes e restrições biológicas da capacidade de memória dos diretores executivos.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -338,7 +381,7 @@ Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de
 
 ---
 
-### Questão 08
+### Teste 377
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári de Estratégia*, Henry Mintzberg e colaboradores classificam as escolas da estratégia em prescritivas e descritivas. Dentre as escolas prescritivas, aquela que concebe a formulação estratégica como um processo analítico formal, decomposto em etapas sequenciais rígidas e operado prioritariamente por técnicos e analistas de planejamento, é a:
 
@@ -347,6 +390,9 @@ Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári 
 * **C)** Escola Empreendedora.
 * **D)** Escola Cultural.
 * **E)** Escola do Poder.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -362,7 +408,8 @@ Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári 
 
 
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 378
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na elaboração do planejamento estratégico, a formulação dos **Valores Organizacionais** representa:
 
 * **A)** O conjunto de princípios, crenças fundamentais e padrões éticos de conduta compartilhados que orientam as decisões institucionais e definem as relações da organização com seus membros, parceiros e com a sociedade.
@@ -370,6 +417,9 @@ Na elaboração do planejamento estratégico, a formulação dos **Valores Organ
 * **C)** O cálculo do retorno econômico sobre os investimentos em obras rodoviárias estaduais.
 * **D)** A lista taxativa das penalidades disciplinares de demissão constantes do estatuto funcional.
 * **E)** O montante financeiro total de multas imputadas aos jurisdicionados pelo Tribunal de Contas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -380,7 +430,8 @@ Na elaboração do planejamento estratégico, a formulação dos **Valores Organ
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 379
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 O ciclo integrado de gestão estratégica nas organizações públicas envolve etapas encadeadas para garantir que as decisões não se restrinjam a documentos formais engavetados.
 
 A etapa do ciclo em que a alta direção e os comitês de governança comparam periodicamente o avanço real dos indicadores frente às metas estipuladas, promovendo os ajustes necessários no plano, denomina-se:
@@ -390,6 +441,9 @@ A etapa do ciclo em que a alta direção e os comitês de governança comparam p
 * **C)** Formulação da Missão Corporativa.
 * **D)** Lançamento Tributário Vinculado.
 * **E)** Homologação de Parecer Prévio Orçamentário.
+
+
+---
 
 > **Comentário Detalhado:**
 >

@@ -4,46 +4,65 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_linguagens_java_javascript_nodejs_python.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Programação em Java (conceitos básicos)
 - Programação em JavaScript e no ambiente Node.js
 - Programação em Python para automação e desenvolvimento back-end
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Programação em Java (Conceitos Fundamentais)](#1-programacao-em-java-conceitos-fundamentais)
-    - [1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode](#11-arquitetura-da-plataforma-jvm-jre-jdk-e-bytecode)
-    - [1.2 Gerenciamento de Memória: Stack vs. Heap e Garbage Collection](#12-gerenciamento-de-memoria-stack-vs-heap-e-garbage-collection)
-    - [1.3 Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos](#13-tipos-primitivos-vs-classes-wrapper-e-comparacao-de-objetos)
-    - [1.4 Modificadores de Acesso e a Palavra-Chave `final`](#14-modificadores-de-acesso-e-a-palavra-chave-final)
-    - [1.5 Tratamento de Exceções: Hierarquia de `Throwable`, Checked vs. Unchecked](#15-tratamento-de-excecoes-hierarquia-de-throwable-checked-vs-unchecked)
-    - [1.6 Java Collections Framework: List, Set, Queue e Map](#16-java-collections-framework-list-set-queue-e-map)
-    - [1.7 Recursos Modernos: Generics, Enums, Lambdas e Stream API](#17-recursos-modernos-generics-enums-lambdas-e-stream-api)
-- [2. JavaScript Moderno (ECMAScript 6+)](#2-javascript-moderno-ecmascript-6)
-    - [2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting](#21-declaracao-de-variaveis-var-let-e-const-escopo-e-hoisting)
-    - [2.2 Tipos de Dados, Coerção e Operadores de Igualdade (`==` vs. `===`)](#22-tipos-de-dados-coercao-e-operadores-de-igualdade-vs)
-    - [2.3 Recursos Idiomáticos ES6+: Desestruturação, Spread/Rest e Arrow Functions](#23-recursos-idiomaticos-es6-desestruturacao-spreadrest-e-arrow-functions)
-    - [2.4 Escopo Léxico, Closures e Funções de Alta Ordem](#24-escopo-lexico-closures-e-funcoes-de-alta-ordem)
-- [3. Programação Assíncrona e Ambiente Node.js](#3-programacao-assincrona-e-ambiente-nodejs)
-    - [3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O](#31-arquitetura-do-nodejs-motor-v8-libuv-e-non-blocking-io)
-    - [3.2 O Event Loop: Call Stack, Microtasks e Macrotasks](#32-o-event-loop-call-stack-microtasks-e-macrotasks)
-    - [3.3 Promises e a Sintaxe `async` / `await`](#33-promises-e-a-sintaxe-async-await)
-    - [3.4 Sistema de Módulos (CommonJS vs. ES Modules) e Módulos Nativos Essenciais](#34-sistema-de-modulos-commonjs-vs-es-modules-e-modulos-nativos-essenciais)
-    - [3.5 Gerenciamento de Dependências com npm](#35-gerenciamento-de-dependencias-com-npm)
-- [4. Programação em Python para Automação e Back-end](#4-programacao-em-python-para-automacao-e-back-end)
-    - [4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8](#41-sintaxe-tipagem-dinamica-e-forte-e-filosofia-pep-8)
-    - [4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos](#42-estruturas-de-dados-nativas-listas-tuplas-dicionarios-e-conjuntos)
-    - [4.3 Fatiamento (*Slicing*), Comprehensions e Funções Geradoras (`yield`)](#43-fatiamento-slicing-comprehensions-e-funcoes-geradoras-yield)
-    - [4.4 Tratamento de Exceções (`try-except-else-finally`) e Gerenciadores de Contexto (`with`)](#44-tratamento-de-excecoes-try-except-else-finally-e-gerenciadores-de-contexto-with)
-    - [4.5 Automação de Tarefas com Python: Arquivos, HTTP, Scraping e Formatos Estruturados](#45-automacao-de-tarefas-com-python-arquivos-http-scraping-e-formatos-estruturados)
-    - [4.6 Python no Back-end: Conceitos Fundamentais de Flask e FastAPI](#46-python-no-back-end-conceitos-fundamentais-de-flask-e-fastapi)
-- [5. Tabela Comparativa Sintética entre as Linguagens](#5-tabela-comparativa-sintetica-entre-as-linguagens)
-- [6. Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+
+1. [Programação em Java (Conceitos Fundamentais)](#1-programacao-em-java-conceitos-fundamentais)
+    1. [Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode](#11-arquitetura-da-plataforma-jvm-jre-jdk-e-bytecode)
+    2. [Gerenciamento de Memória: Stack vs. Heap e Garbage Collection](#12-gerenciamento-de-memoria-stack-vs-heap-e-garbage-collection)
+    3. [Teste 065](#Teste-065)
+    4. [Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos](#13-tipos-primitivos-vs-classes-wrapper-e-comparacao-de-objetos)
+    5. [Modificadores de Acesso e a Palavra-Chave `final`](#14-modificadores-de-acesso-e-a-palavra-chave-final)
+    6. [Teste 066](#Teste-066)
+    7. [Tratamento de Exceções: Hierarquia de `Throwable`, Checked vs. Unchecked](#15-tratamento-de-excecoes-hierarquia-de-throwable-checked-vs-unchecked)
+    8. [Teste 067](#Teste-067)
+    9. [Java Collections Framework: List, Set, Queue e Map](#16-java-collections-framework-list-set-queue-e-map)
+    10. [Teste 068](#Teste-068)
+    11. [Recursos Modernos: Generics, Enums, Lambdas e Stream API](#17-recursos-modernos-generics-enums-lambdas-e-stream-api)
+2. [JavaScript Moderno (ECMAScript 6+)](#2-javascript-moderno-ecmascript-6)
+    1. [Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting](#21-declaracao-de-variaveis-var-let-e-const-escopo-e-hoisting)
+    2. [Teste 069](#Teste-069)
+    3. [Tipos de Dados, Coerção e Operadores de Igualdade (`==` vs. `===`)](#22-tipos-de-dados-coercao-e-operadores-de-igualdade-vs)
+    4. [Teste 070](#Teste-070)
+    5. [Recursos Idiomáticos ES6+: Desestruturação, Spread/Rest e Arrow Functions](#23-recursos-idiomaticos-es6-desestruturacao-spreadrest-e-arrow-functions)
+    6. [Teste 071](#Teste-071)
+    7. [Escopo Léxico, Closures e Funções de Alta Ordem](#24-escopo-lexico-closures-e-funcoes-de-alta-ordem)
+3. [Programação Assíncrona e Ambiente Node.js](#3-programacao-assincrona-e-ambiente-nodejs)
+    1. [Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O](#31-arquitetura-do-nodejs-motor-v8-libuv-e-non-blocking-io)
+    2. [O Event Loop: Call Stack, Microtasks e Macrotasks](#32-o-event-loop-call-stack-microtasks-e-macrotasks)
+    3. [Teste 072](#Teste-072)
+    4. [Promises e a Sintaxe `async` / `await`](#33-promises-e-a-sintaxe-async-await)
+    5. [Teste 073](#Teste-073)
+    6. [Sistema de Módulos (CommonJS vs. ES Modules) e Módulos Nativos Essenciais](#34-sistema-de-modulos-commonjs-vs-es-modules-e-modulos-nativos-essenciais)
+    7. [Gerenciamento de Dependências com npm](#35-gerenciamento-de-dependencias-com-npm)
+4. [Programação em Python para Automação e Back-end](#4-programacao-em-python-para-automacao-e-back-end)
+    1. [Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8](#41-sintaxe-tipagem-dinamica-e-forte-e-filosofia-pep-8)
+    2. [Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos](#42-estruturas-de-dados-nativas-listas-tuplas-dicionarios-e-conjuntos)
+    3. [Teste 074](#Teste-074)
+    4. [Fatiamento (*Slicing*), Comprehensions e Funções Geradoras (`yield`)](#43-fatiamento-slicing-comprehensions-e-funcoes-geradoras-yield)
+    5. [Teste 075](#Teste-075)
+    6. [Tratamento de Exceções (`try-except-else-finally`) e Gerenciadores de Contexto (`with`)](#44-tratamento-de-excecoes-try-except-else-finally-e-gerenciadores-de-contexto-with)
+    7. [Automação de Tarefas com Python: Arquivos, HTTP, Scraping e Formatos Estruturados](#45-automacao-de-tarefas-com-python-arquivos-http-scraping-e-formatos-estruturados)
+    8. [Python no Back-end: Conceitos Fundamentais de Flask e FastAPI](#46-python-no-back-end-conceitos-fundamentais-de-flask-e-fastapi)
+5. [Tabela Comparativa Sintética entre as Linguagens](#5-tabela-comparativa-sintetica-entre-as-linguagens)
+6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Programação em Java (Conceitos Fundamentais)
 
@@ -118,7 +137,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Teste 065
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na Máquina Virtual Java (JVM), o gerenciamento de memória divide-se principalmente entre a memória *Stack* (Pilha) e a memória *Heap*. A respeito da organização e do ciclo de vida dos dados nessas áreas, é correto afirmar:
 
@@ -127,6 +146,9 @@ Na Máquina Virtual Java (JVM), o gerenciamento de memória divide-se principalm
 * **C)** Os objetos instanciados na *Heap* são desalocados imediatamente no instante exato em que a chave de fechamento do método atual é executada.
 * **D)** O *Garbage Collector* da JVM varre e gerencia a memória *Stack*, mas nunca atua sobre os objetos da *Heap*.
 * **E)** A memória *Heap* opera sob a política de primeiro a entrar, primeiro a sair (FIFO), impedindo o reaproveitamento de blocos liberados.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -198,7 +220,8 @@ A palavra-chave `final` é um modificador de não-acesso que restringe alteraç�
 
 ---
 
-### Questão 02 (FCC - Técnico de Controle Externo / TI)
+### Teste 066
+**(FCC - Técnico de Controle Externo / TI)**
 Na linguagem de programação Java, a respeito das palavras-chave de controle de acesso, modificadores de comportamento e tratamento da orientação a objetos, assinale a afirmativa correta:  
 
 * **A)** Um atributo declarado com o modificador `private` pode ser acessado diretamente por quaisquer subclasses pertencentes ao mesmo pacote da superclasse.
@@ -206,6 +229,9 @@ Na linguagem de programação Java, a respeito das palavras-chave de controle de
 * **C)** Interfaces em Java não podem conter assinaturas de métodos abstratos, permitindo apenas constantes estáticas.
 * **D)** O operador relacional `==` compara o conteúdo semântico e alfanumérico de dois objetos da classe `String`, enquanto o método `.equals()` compara estritamente os endereços de memória.
 * **E)** O bloco `finally` em uma estrutura de tratamento `try-catch-finally` é opcional e nunca é executado quando uma exceção é capturada com sucesso pelo bloco `catch`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -265,7 +291,8 @@ São subclasses diretas de `Exception` que **não** derivam de `RuntimeException
 
 ---
 
-### Questão 03 (FCC - Auditor Fiscal / Tecnologia da Informação)
+### Teste 067
+**(FCC - Auditor Fiscal / Tecnologia da Informação)**
 No ecossistema da linguagem Java, o tratamento robusto de erros baseia-se na hierarquia da classe `java.lang.Throwable`. A respeito da distinção entre *Checked Exceptions* (exceções checadas) e *Unchecked Exceptions* (exceções não checadas), assinale a afirmativa correta:  
 
 * **A)** Exceções filhas de `java.lang.RuntimeException`, como `NullPointerException` e `IllegalArgumentException`, são do tipo *Checked Exceptions* e exigem tratamento obrigatório com bloco `try-catch` em tempo de compilação.
@@ -273,6 +300,9 @@ No ecossistema da linguagem Java, o tratamento robusto de erros baseia-se na hie
 * **C)** O compilador Java não impõe nenhuma exigência sobre classes derivadas de `java.lang.Exception`, tornando o uso de blocos `try-catch` facultativo para operações de E/S de arquivos (`IOException`).
 * **D)** As palavras-chave `throw` e `throws` são perfeitamente intercambiáveis, podendo ambas ser empregadas para lançar explicitamente uma nova instância de exceção dentro de um bloco de código.
 * **E)** A cláusula `finally` anula a necessidade de declaração de exceções na assinatura do método com `throws`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -367,7 +397,7 @@ Associa chaves exclusivas a valores correspondentes (pares chave-valor). Não es
 
 ---
 
-### Questão 04
+### Teste 068
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No *Java Collections Framework*, as três interfaces fundamentais de coleção (`List`, `Set` e `Map`) apresentam características estruturais distintas. A respeito dessas estruturas, é correto afirmar:
 
@@ -376,6 +406,9 @@ No *Java Collections Framework*, as três interfaces fundamentais de coleção (
 * **C)** A classe `HashMap` proíbe o armazenamento de valores nulos e garante que as chaves fiquem automaticamente ordenadas alfabeticamente.
 * **D)** A classe `TreeSet` não exige que seus elementos implementem a interface `Comparable` ou utilizem um `Comparator`.
 * **E)** As chaves de um `Map` podem conter elementos repetidos, desde que seus valores associados sejam estritamente nulos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -419,7 +452,10 @@ Permite o processamento declarativo e funcional de coleções de dados:
 - **Operações Intermediárias (Lazy - avaliação preguiçosa):** Retornam um novo Stream e não são executadas até que uma operação terminal seja disparada. Exemplos: `.filter()`, `.map()`, `.sorted()`, `.distinct()`, `.flatMap()`.
 - **Operações Terminais (Eager):** Consomem o Stream e geram um resultado ou efeito colateral final. Exemplos: `.collect(Collectors.toList())`, `.forEach()`, `.reduce()`, `.count()`, `.anyMatch()`.
 
+
+
 ---
+
 
 ## 2. JavaScript Moderno (ECMAScript 6+)
 
@@ -458,7 +494,8 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Analista de Sistemas / Desenvolvimento)
+### Teste 069
+**(FCC - Analista de Sistemas / Desenvolvimento)**
 Em JavaScript moderno, a utilização de variáveis e a criação de funções de fechamento (*closures*) dentro de laços de repetição assíncronos comportam-se de maneira distinta dependendo de como as variáveis são declaradas. Analise os dois fragmentos de código abaixo:
 
 **Fragmento 1:**
@@ -484,6 +521,9 @@ Após o término dos temporizadores de 100 milissegundos, as saídas produzidas 
 * **C)** Fragmento 1: `F1: 3`, `F1: 3`, `F1: 3` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
 * **D)** Fragmento 1: `F1: 0`, `F1: 1`, `F1: 2` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
 * **E)** Fragmento 1: `F1: undefined`, `F1: undefined`, `F1: undefined` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -523,7 +563,7 @@ JavaScript possui tipagem dinâmica e fraca. Seus tipos de dados dividem-se em:
 
 ---
 
-### Questão 06
+### Teste 070
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Em JavaScript moderno, a comparação de valores pode ser realizada por meio do operador de igualdade abstrata (`==`) ou do operador de igualdade estrita (`===`). Considere as seguintes expressões avaliadas pelo interpretador JavaScript:  
 
@@ -538,6 +578,9 @@ Os valores booleanos resultantes da avaliação das expressões I, II e III são
 * **C)** `false`, `true` e `false`
 * **D)** `false`, `false` e `true`
 * **E)** `true`, `false` e `true`
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -583,7 +626,8 @@ const configFinal = { ...configPadrao, timeout: 8000 };
 
 ---
 
-### Questão 07 (FCC - Analista de TI / Sistemas)
+### Teste 071
+**(FCC - Analista de TI / Sistemas)**
 Considere o seguinte trecho de código escrito na linguagem Python 3:
 
 ```python
@@ -599,6 +643,9 @@ A execução correta desse código gerará no terminal a saída:
 * **C)** `[5, 7, 9]`
 * **D)** `[10, 14, 18, 22]`
 * **E)** `[2, 6, 10, 14]`
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -642,7 +689,10 @@ const contador = criarContador(10);
 console.log(contador.incrementar()); // 11
 ```
 
+
+
 ---
+
 
 ## 3. Programação Assíncrona e Ambiente Node.js
 
@@ -708,7 +758,8 @@ flowchart TD
 
 ---
 
-### Questão 08 (FCC - Analista de TI / Sistemas)
+### Teste 072
+**(FCC - Analista de TI / Sistemas)**
 Em relação ao modelo de execução assíncrona do ambiente Node.js e da linguagem JavaScript, considere o seguinte fragmento de código:
 
 ```javascript
@@ -732,6 +783,9 @@ A ordem exata em que os caracteres serão impressos no console do terminal duran
 * **C)** A, D, C, B
 * **D)** C, A, D, B
 * **E)** A, C, D, B
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -778,7 +832,7 @@ Introduzida no ES2017, funciona como açúcar sintático sobre Promises:
 
 ---
 
-### Questão 09
+### Teste 073
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Em relação ao tratamento de operações assíncronas em JavaScript e Node.js utilizando *Promises* e a sintaxe `async/await`, assinale a afirmativa correta:
 
@@ -787,6 +841,9 @@ Em relação ao tratamento de operações assíncronas em JavaScript e Node.js u
 * **C)** Uma *Promise* rejeitada só pode ser tratada por meio de blocos de repetição `while(true)`.
 * **D)** O método `Promise.all()` aguarda a resolução de todas as promises do array, mesmo se uma delas for rejeitada imediatamente.
 * **E)** A execução de `await` bloqueia a thread principal do sistema operacional, impedindo a CPU de executar qualquer outro processo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -829,7 +886,10 @@ Em relação ao tratamento de operações assíncronas em JavaScript e Node.js u
 - **`package-lock.json`:** Registra a árvore de dependências exata instalada, com hashes criptográficos e versões fixas, garantindo compilações determinísticas e reproduzíveis entre diferentes ambientes.
 - **`npx` (Node Package Execute):** Utilitário empacotado com o npm que permite baixar e executar binários de pacotes Node.js sob demanda sem precisar instalá-los globalmente no sistema (`npx create-react-app meu-app`).
 
+
+
 ---
+
 
 ## 4. Programação em Python para Automação e Back-end
 
@@ -869,7 +929,7 @@ flowchart TD
 
 ---
 
-### Questão 10
+### Teste 074
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na linguagem Python 3, duas das estruturas de dados sequenciais mais empregadas são as Listas (`list`) e as Tuplas (`tuple`). A diferença fundamental entre essas duas estruturas reside no fato de que:
 
@@ -878,6 +938,9 @@ Na linguagem Python 3, duas das estruturas de dados sequenciais mais empregadas 
 * **C)** As tuplas aceitam apenas dados numéricos inteiros, enquanto as listas aceitam apenas cadeias de texto (*strings*).
 * **D)** As listas não admitem elementos duplicados, enquanto as tuplas permitem duplicações infinitas.
 * **E)** As tuplas são armazenadas em disco rígido, enquanto as listas residem na memória cache do processador.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -931,7 +994,7 @@ def gerar_lotes(tamanho_maximo):
 
 ---
 
-### Questão 11
+### Teste 075
 **(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
 Considere o seguinte trecho de código em Python 3:  
 
@@ -947,6 +1010,9 @@ Após a execução do código acima, o valor da variável `resultado` será:
 * **C)** `[2, 6, 10]`
 * **D)** `[1, 2, 3]`
 * **E)** `[8, 12]`
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -1065,7 +1131,10 @@ def obter_processo(id):
 - **Validação com Pydantic:** Utiliza *type hints* do Python padrão para realizar validação estrita de dados de entrada, conversão automática e serialização em tempo de execução.
 - **Documentação Automática:** Gera documentação interativa completa em conformidade com as especificações OpenAPI e Swagger UI acessível em `/docs` sem necessidade de código adicional.
 
+
+
 ---
+
 
 ## 5. Tabela Comparativa Sintética entre as Linguagens
 
@@ -1079,7 +1148,10 @@ def obter_processo(id):
 | **Gerenciamento de Recursos** | Bloco `finally` e `try-with-resources` (`AutoCloseable`) | Bloco `finally` | Bloco `finally` e `with` (`__enter__` / `__exit__`) |
 | **Estrutura de Blocos** | Delimitada por chaves `{ ... }` | Delimitada por chaves `{ ... }` | Delimitada por recuo de espaços (**indentação obrigatória**) |
 
+
+
 ---
+
 
 ## 6. Fontes Recomendadas na Internet
 

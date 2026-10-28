@@ -5,7 +5,10 @@
 > **Arquivo:** `03_morfossintaxe_pronomes_e_verbos.md`  
 > **Referência Temática:** Morfossintaxe, Substituição Pronominal, Vozes Verbais e Correlação na Banca FCC
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Morfossintaxe: correlação entre classe de palavras (morfologia) e função sintática na oração;
@@ -20,41 +23,56 @@
 - Distinção funcional da partícula `SE`: Pronome Apassivador vs. Índice de Indeterminação do Sujeito;
 - Correlação de tempos e modos verbais (*consecutio temporum*).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos de Morfossintaxe e Estrutura Oracional](#1-fundamentos-de-morfossintaxe-e-estrutura-oracional)
-    - [1.1 Correlação entre Classes Morfológicas e Funções Sintáticas](#11-correlacao-entre-classes-morfologicas-e-funcoes-sintaticas)
-    - [1.2 Termos Essenciais, Integrantes e Acessórios da Oração](#12-termos-essenciais-integrantes-e-acessorios-da-oracao)
-    - [1.3 O Papel Central do Verbo na Predicação e Transitividade](#13-o-papel-central-do-verbo-na-predicacao-e-transitividade)
-- [2. Teoria dos Pronomes e Relações Discursivas](#2-teoria-dos-pronomes-e-relacoes-discursivas)
-    - [2.1 Classificação Geral e Funções Referenciais: Anáfora, Catáfora e Dêixis](#21-classificacao-geral-e-funcoes-referenciais-anafora-catafora-e-deixis)
-    - [2.2 Pronomes Demonstrativos e a Articulação Espaço-Temporal](#22-pronomes-demonstrativos-e-a-articulacao-espaco-temporal)
-    - [2.3 Pronome Relativo Cujo e Regência com Preposições Antepostas](#23-pronome-relativo-cujo-e-regencia-com-preposicoes-antepostas)
-- [3. Pronomes Pessoais e Substituição Pronominal](#3-pronomes-pessoais-e-substituicao-pronominal)
-    - [3.1 Pronomes Pessoais Retos vs. Oblíquos Átonos e Tônicos](#31-pronomes-pessoais-retos-vs-obliquos-atonos-e-tonicos)
-    - [3.2 Complementos de VTD e VTI: Emprego de O/A vs. Lhe/Lhes](#32-complementos-de-vtd-e-vti-emprego-de-oa-vs-lhelhes)
-    - [3.3 Variações Fonéticas dos Pronomes Diretos: Formas em -Lo e -No](#33-variacoes-foneticas-dos-pronomes-diretos-formas-em-lo-e-no)
-- [4. Sintaxe de Colocação Pronominal](#4-sintaxe-de-colocacao-pronominal)
-    - [4.1 Próclise e os Fatores Atrativos Obrigatórios](#41-proclise-e-os-fatores-atrativos-obrigatorios)
-    - [4.2 Mesóclise e Suas Condições de Aplicação](#42-mesoclise-e-suas-condicoes-de-aplicacao)
-    - [4.3 Ênclise e Vedações Gramaticais Absolutas](#43-enclise-e-vedacoes-gramaticais-absolutas)
-    - [4.4 Colocação Pronominal em Locuções Verbais](#44-colocacao-pronominal-em-locucoes-verbais)
-- [5. Sistema Verbal: Paradigmas de Flexão e Formas Críticas](#5-sistema-verbal-paradigmas-de-flexao-e-formas-criticas)
-    - [5.1 Verbos Regulares, Irregulares, Anômalos e Defectivos](#51-verbos-regulares-irregulares-anomalos-e-defectivos)
-    - [5.2 Verbos Notáveis de Alta Incidência: Ter, Vir, Ver, Pôr e Haver](#52-verbos-notaveis-de-alta-incidencia-ter-vir-ver-por-e-haver)
-- [6. Vozes Verbais e Regras de Transposição](#6-vozes-verbais-e-regras-de-transposicao)
-    - [6.1 Voz Ativa, Voz Passiva, Voz Reflexiva e Recíproca](#61-voz-ativa-voz-passiva-voz-reflexiva-e-reciproca)
-    - [6.2 Voz Passiva Analítica e Regras Estritas de Transposição](#62-voz-passiva-analitica-e-regras-estritas-de-transposicao)
-    - [6.3 Voz Passiva Sintética ou Pronominal](#63-voz-passiva-sintetica-ou-pronominal)
-    - [6.4 Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito](#64-distincao-entre-pronome-apassivador-e-indice-de-indeterminacao-do-sujeito)
-- [7. Correlação de Tempos e Modos Verbais](#7-correlacao-de-tempos-e-modos-verbais)
-    - [7.1 Princípios da Consecutio Temporum no Período Composto](#71-principios-da-consecutio-temporum-no-periodo-composto)
-    - [7.2 Estruturas Hipotéticas e Condicionais Padronizadas](#72-estruturas-hipoteticas-e-condicionais-padronizadas)
-    - [7.3 Correlações em Orações Subjetivas e Integrantes](#73-correlacoes-em-oracoes-subjetivas-e-integrantes)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Fundamentos de Morfossintaxe e Estrutura Oracional](#1-fundamentos-de-morfossintaxe-e-estrutura-oracional)
+    1. [Correlação entre Classes Morfológicas e Funções Sintáticas](#11-correlacao-entre-classes-morfologicas-e-funcoes-sintaticas)
+    2. [Termos Essenciais, Integrantes e Acessórios da Oração](#12-termos-essenciais-integrantes-e-acessorios-da-oracao)
+    3. [O Papel Central do Verbo na Predicação e Transitividade](#13-o-papel-central-do-verbo-na-predicacao-e-transitividade)
+    4. [Teste 022](#Teste-022)
+2. [Teoria dos Pronomes e Relações Discursivas](#2-teoria-dos-pronomes-e-relacoes-discursivas)
+    1. [Classificação Geral e Funções Referenciais: Anáfora, Catáfora e Dêixis](#21-classificacao-geral-e-funcoes-referenciais-anafora-catafora-e-deixis)
+    2. [Pronomes Demonstrativos e a Articulação Espaço-Temporal](#22-pronomes-demonstrativos-e-a-articulacao-espaco-temporal)
+    3. [Pronome Relativo Cujo e Regência com Preposições Antepostas](#23-pronome-relativo-cujo-e-regencia-com-preposicoes-antepostas)
+    4. [Teste 023](#Teste-023)
+3. [Pronomes Pessoais e Substituição Pronominal](#3-pronomes-pessoais-e-substituicao-pronominal)
+    1. [Pronomes Pessoais Retos vs. Oblíquos Átonos e Tônicos](#31-pronomes-pessoais-retos-vs-obliquos-atonos-e-tonicos)
+    2. [Complementos de VTD e VTI: Emprego de O/A vs. Lhe/Lhes](#32-complementos-de-vtd-e-vti-emprego-de-oa-vs-lhelhes)
+    3. [Variações Fonéticas dos Pronomes Diretos: Formas em -Lo e -No](#33-variacoes-foneticas-dos-pronomes-diretos-formas-em-lo-e-no)
+    4. [Teste 024](#Teste-024)
+4. [Sintaxe de Colocação Pronominal](#4-sintaxe-de-colocacao-pronominal)
+    1. [Próclise e os Fatores Atrativos Obrigatórios](#41-proclise-e-os-fatores-atrativos-obrigatorios)
+    2. [Mesóclise e Suas Condições de Aplicação](#42-mesoclise-e-suas-condicoes-de-aplicacao)
+    3. [Ênclise e Vedações Gramaticais Absolutas](#43-enclise-e-vedacoes-gramaticais-absolutas)
+    4. [Colocação Pronominal em Locuções Verbais](#44-colocacao-pronominal-em-locucoes-verbais)
+    5. [Teste 025](#Teste-025)
+5. [Sistema Verbal: Paradigmas de Flexão e Formas Críticas](#5-sistema-verbal-paradigmas-de-flexao-e-formas-criticas)
+    1. [Verbos Regulares, Irregulares, Anômalos e Defectivos](#51-verbos-regulares-irregulares-anomalos-e-defectivos)
+    2. [Verbos Notáveis de Alta Incidência: Ter, Vir, Ver, Pôr e Haver](#52-verbos-notaveis-de-alta-incidencia-ter-vir-ver-por-e-haver)
+    3. [Teste 026](#Teste-026)
+    4. [Teste 027](#Teste-027)
+6. [Vozes Verbais e Regras de Transposição](#6-vozes-verbais-e-regras-de-transposicao)
+    1. [Voz Ativa, Voz Passiva, Voz Reflexiva e Recíproca](#61-voz-ativa-voz-passiva-voz-reflexiva-e-reciproca)
+    2. [Voz Passiva Analítica e Regras Estritas de Transposição](#62-voz-passiva-analitica-e-regras-estritas-de-transposicao)
+    3. [Teste 028](#Teste-028)
+    4. [Teste 029](#Teste-029)
+    5. [Voz Passiva Sintética ou Pronominal](#63-voz-passiva-sintetica-ou-pronominal)
+    6. [Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito](#64-distincao-entre-pronome-apassivador-e-indice-de-indeterminacao-do-sujeito)
+    7. [Teste 030](#Teste-030)
+7. [Correlação de Tempos e Modos Verbais](#7-correlacao-de-tempos-e-modos-verbais)
+    1. [Princípios da Consecutio Temporum no Período Composto](#71-principios-da-consecutio-temporum-no-periodo-composto)
+    2. [Estruturas Hipotéticas e Condicionais Padronizadas](#72-estruturas-hipoteticas-e-condicionais-padronizadas)
+    3. [Correlações em Orações Subjetivas e Integrantes](#73-correlacoes-em-oracoes-subjetivas-e-integrantes)
+    4. [Teste 031](#Teste-031)
+8. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Fundamentos de Morfossintaxe e Estrutura Oracional
 
@@ -106,7 +124,7 @@ A predicação verbal analisa a exigência de complementos pelos verbos no conte
 * **Verbo de Ligação (VL):** Não expressa ação, servindo de elo entre o sujeito e seu predicativo (*ser, estar, parecer, permanecer, ficar, continuar, andar* em sentido de estado).
 
 
-### Questão 01
+### Teste 022
 **(FCC – TRT-23 – Analista Judiciário)**  
 Considere o seguinte período:  
 *"A comissão de auditoria encaminhou aos diretores da autarquia o relatório conclusivo sobre os contratos de tecnologia."*
@@ -119,6 +137,9 @@ Em relação à morfossintaxe dos termos que compõem o período acima, assinale
 * **D)** O verbo *"encaminhou"* classifica-se como transitivo indireto puro, exigindo exclusivamente complemento preposicionado.
 * **E)** O vocábulo *"conclusivo"* é um advérbio de modo que modifica o verbo *"encaminhou"*.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. *"A comissão de auditoria"* é o **sujeito simples** da oração (núcleo substantivo: *comissão*), praticante da ação verbal.
@@ -129,9 +150,10 @@ Em relação à morfossintaxe dos termos que compõem o período acima, assinale
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 2. Teoria dos Pronomes e Relações Discursivas
 
@@ -173,7 +195,7 @@ O pronome relativo *cujo* (e suas flexões *cuja, cujos, cujas*) é um dos ponto
 
 ---
 
-### Questão 02
+### Teste 023
 **(FCC – METRÔ-SP – Analista de Comunicação)**  
 O pronome relativo antecedido de preposição está empregado em estrita conformidade com a norma-padrão em:
 
@@ -182,6 +204,9 @@ O pronome relativo antecedido de preposição está empregado em estrita conform
 * **C)** *"O departamento em cujo os funcionários operam os sistemas de auditoria foi reformado."*
 * **D)** *"A decisão judicial cuja a eficácia dependia de trânsito em julgado foi confirmada."*
 * **E)** *"As metas fiscais de cujas todos duvidavam foram atingidas com sobras."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -193,8 +218,9 @@ O pronome relativo antecedido de preposição está empregado em estrita conform
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 3. Pronomes Pessoais e Substituição Pronominal
@@ -265,7 +291,7 @@ Ao associar os pronomes diretos *o, a, os, as* à forma verbal enclítica, ocorr
 
 ---
 
-### Questão 03
+### Teste 024
 **(FCC – TRT – Técnico Judiciário)**  
 Considere a oração:  
 *"O diretor da comissão <ins>apresentou as justificativas técnicas</ins> e <ins>remeteu o parecer conclusivo</ins> ao setor de compras."*  
@@ -277,6 +303,9 @@ Substituindo-se adequadamente as expressões sublinhadas pelos respectivos prono
 * **D)** O diretor da comissão as apresentou e lhe remeteu ao setor de compras.
 * **E)** O diretor da comissão apresentou-as e remeteu-no ao setor de compras.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Embora acerte a primeira forma (*apresentou-as*), erra grosseiramente no segundo verbo ao empregar *remeteu-lhe*: o pronome *lhe* atua como objeto indireto, ao passo que *o parecer conclusivo* é objeto direto de *remeteu* (além disso, a oração já possui seu objeto indireto preposicionado: *ao setor de compras*).
@@ -287,8 +316,9 @@ Substituindo-se adequadamente as expressões sublinhadas pelos respectivos prono
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 4. Sintaxe de Colocação Pronominal
@@ -342,7 +372,7 @@ Em locuções compostas por verbo auxiliar mais verbo principal no infinitivo, g
     * Pode ficar enclítico ao verbo auxiliar (*"Tinha-lhe comunicado"*) ou próclito ao auxiliar se houver palavra atrativa (*"Não lhe tinha comunicado"*).
 
 
-### Questão 04
+### Teste 025
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 Avalie a colocação pronominal nas frases a seguir, de acordo com o padrão culto da língua:  
 
@@ -359,6 +389,9 @@ A colocação dos pronomes oblíquos átonos está inteiramente correta APENAS e
 * **D)** I e IV.
 * **E)** I, II e IV.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **Item I:** Incorreto. O advérbio de negação *"Não"* é palavra atrativa de natureza absoluta, exigindo **próclise obrigatória**: *"Não nos informaram..."*. A ênclise é erro gramatical grave.
@@ -369,9 +402,10 @@ A colocação dos pronomes oblíquos átonos está inteiramente correta APENAS e
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 5. Sistema Verbal: Paradigmas de Flexão e Formas Críticas
 
@@ -415,7 +449,7 @@ flowchart TD
 
 ---
 
-### Questão 05
+### Teste 026
 **(FCC – DPE-RS – Analista Jurídico)**  
 A frase em que a articulação entre tempos e modos verbais observa a **correlação verbal** adequada é:
 
@@ -424,6 +458,9 @@ A frase em que a articulação entre tempos e modos verbais observa a **correla�
 * **C)** *"Caso o conselheiro propor nova auditoria, o presidente acatará a solicitação de pronto."*
 * **D)** *"Se o conselheiro propôs nova auditoria, o presidente acataria a solicitação de pronto."*
 * **E)** *"Quando o conselheiro ver as irregularidades do balanço, proporá a anulação do contrato."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -436,7 +473,7 @@ A frase em que a articulação entre tempos e modos verbais observa a **correla�
 > **Gabarito: A**
 
 
-### Questão 06
+### Teste 027
 **(FCC – TRT – Analista Judiciário)**  
 Considere as formas verbais destacadas nas seguintes frases:  
 
@@ -453,6 +490,9 @@ A flexão verbal está em perfeita consonância com a norma-padrão em:
 * **D)** II, III e IV, apenas.
 * **E)** I, II, III e IV.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **Item I:** Incorreto. O verbo *intervir* é derivado de *vir* e conjuga-se exatamente como ele. O futuro do subjuntivo de *vir* é *vier*; logo, de *intervir* é **intervier** (*"Se o auditor intervier..."*), e não "intervir".
@@ -463,10 +503,9 @@ A flexão verbal está em perfeita consonância com a norma-padrão em:
 >
 > **Gabarito: B**
 
----
+
 
 ---
-
 
 
 ## 6. Vozes Verbais e Regras de Transposição
@@ -508,7 +547,7 @@ flowchart TD
 
 ---
 
-### Questão 07
+### Teste 028
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 A frase que admite transposição para a **voz passiva** de modo inteiramente compatível com a norma-padrão da língua é:
 
@@ -517,6 +556,9 @@ A frase que admite transposição para a **voz passiva** de modo inteiramente co
 * **C)** *"Os técnicos de controle externo apuraram todas as inconsistências no cronograma financeiro da obra."*
 * **D)** *"O Ministério Público de Contas interveio no processo com zelo exemplar."*
 * **E)** *"O conselheiro relator presidiu à sessão extraordinária com extrema serenidade."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -534,7 +576,7 @@ A frase que admite transposição para a **voz passiva** de modo inteiramente co
 
 ---
 
-### Questão 08
+### Teste 029
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Transpondo-se para a voz passiva analítica a oração:  
 *"Os auditores de controle externo tinham elaborado relatórios minuciosos sobre os contratos"*  
@@ -545,6 +587,9 @@ obtém-se a forma verbal:
 * **C)** seriam elaborados.
 * **D)** tinham elaborado-se.
 * **E)** tinham estado sendo elaborados.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -590,7 +635,7 @@ Essa distinção é um dos temas fundamentais de cobrança da FCC em morfossinta
 
 ---
 
-### Questão 09
+### Teste 030
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 O emprego da partícula `SE` e a concordância verbal estão plenamente corretos em:
 
@@ -599,6 +644,9 @@ O emprego da partícula `SE` e a concordância verbal estão plenamente corretos
 * **C)** *"Identificaram-se, durante a inspeção matutina, diversos pagamentos desprovidos de nota fiscal."*
 * **D)** *"Precisam-se de novos analistas de controle externo para a instrução de processos."*
 * **E)** *"Atribuiu-se aos peritos contábeis os pareceres definitivos sobre o balanço patrimonial."*
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -610,8 +658,9 @@ O emprego da partícula `SE` e a concordância verbal estão plenamente corretos
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 7. Correlação de Tempos e Modos Verbais
@@ -648,7 +697,7 @@ Nas orações subordinadas substantivas integrantes (introduzidas por *que* ou *
 * Se a oração principal estiver no **Pretérito**, a subordinada vai para o **Pretérito Imperfeito do Subjuntivo**: *"O Ministério Público de Contas exigiu que o gestor **esclarecesse** o déficit"*.
 
 
-### Questão 10
+### Teste 031
 **(FCC – TRT-14 – Analista Judiciário)**  
 Considere as regras de correlação de tempos e modos verbais (*consecutio temporum*). Assinale a frase redigida em estrita conformidade com a norma culta:
 
@@ -657,6 +706,9 @@ Considere as regras de correlação de tempos e modos verbais (*consecutio tempo
 * **C)** Quando o auditor ver as planilhas financeiras, identificaria de imediato as inconsistências.
 * **D)** Embora o tribunal advertisse os responsáveis no ano passado, eles continuariam reincidindo na irregularidade atualmente.
 * **E)** É imperativo que os fiscais mantenham a prudência para que não ocorreram prejuízos ao erário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -668,9 +720,10 @@ Considere as regras de correlação de tempos e modos verbais (*consecutio tempo
 >
 > **Gabarito: B**
 
----
+
 
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

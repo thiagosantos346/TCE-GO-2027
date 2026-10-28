@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_estrategias_de_leitura_skimming_scanning_e_inferencia.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Compreensão e interpretação de textos técnicos e científicos em língua inglesa
@@ -13,32 +16,47 @@
 - Predição, pistas tipográficas e inferência contextual de vocabulário
 - Falsos amigos / Falsos cognatos (*False Friends / False Cognates*)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)](#1-fundamentos-do-ingles-instrumental-english-for-specific-purposes-esp)
-    - [1.1 Tripé de Competências Cognitivas](#11-tripe-de-competencias-cognitivas)
-    - [1.2 Fases do Processo de Leitura Técnica](#12-fases-do-processo-de-leitura-tecnica)
-- [2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)](#2-skimming-leitura-rapida-panoramica-main-idea-gist)
-    - [2.1 Mecânica de Execução e Tópico Frasal](#21-mecanica-de-execucao-e-topico-frasal)
-    - [2.2 Identificação de Tipos de Questões FCC](#22-identificacao-de-tipos-de-questoes-fcc)
-- [3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)](#3-scanning-leitura-de-varredura-seletiva-locating-specific-data)
-    - [3.1 Mecânica de Execução e Pistas Tipográficas](#31-mecanica-de-execucao-e-pistas-tipograficas)
-    - [3.2 Matriz Comparativa: Skimming vs. Scanning](#32-matriz-comparativa-skimming-vs-scanning)
-- [4. Predição e Pistas Contextuais de Vocabulário (Context Clues)](#4-predicao-e-pistas-contextuais-de-vocabulario-context-clues)
-    - [4.1 Pistas de Definição, Paráfrase e Exemplificação](#41-pistas-de-definicao-parafrase-e-exemplificacao)
-    - [4.2 Pistas de Contraste, Oposição, Causa e Efeito](#42-pistas-de-contraste-oposicao-causa-e-efeito)
-    - [4.3 Decomposição Morfológica (Prefixos, Raízes e Sufixos)](#43-decomposicao-morfologica-prefixos-raizes-e-sufixos)
-    - [4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software](#44-vocabulario-critico-de-engenharia-e-arquitetura-de-software)
-- [5. Falsos Cognatos Críticos em TI (False Friends)](#5-falsos-cognatos-criticos-em-ti-false-friends)
-    - [5.1 Cognatos Verdadeiros vs. Falsos Amigos](#51-cognatos-verdadeiros-vs-falsos-amigos)
-    - [5.2 Quadro Lexical de Falsos Cognatos Críticos](#52-quadro-lexical-de-falsos-cognatos-criticos)
-- [6. Coesão Textual e Referência Pronominal (Reference Words)](#6-coesao-textual-e-referencia-pronominal-reference-words)
-    - [6.1 Anáfora e Catáfora em Textos Técnicos](#61-anafora-e-catafora-em-textos-tecnicos)
-    - [6.2 Encapsulamento Conceitual com Demonstrativos](#62-encapsulamento-conceitual-com-demonstrativos)
-- [7. Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
+
+1. [Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)](#1-fundamentos-do-ingles-instrumental-english-for-specific-purposes-esp)
+    1. [Tripé de Competências Cognitivas](#11-tripe-de-competencias-cognitivas)
+    2. [Fases do Processo de Leitura Técnica](#12-fases-do-processo-de-leitura-tecnica)
+    3. [Teste 565](#Teste-565)
+2. [Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)](#2-skimming-leitura-rapida-panoramica-main-idea-gist)
+    1. [Mecânica de Execução e Tópico Frasal](#21-mecanica-de-execucao-e-topico-frasal)
+    2. [Identificação de Tipos de Questões FCC](#22-identificacao-de-tipos-de-questoes-fcc)
+    3. [Teste 566](#Teste-566)
+3. [Scanning: Leitura de Varredura Seletiva (Locating Specific Data)](#3-scanning-leitura-de-varredura-seletiva-locating-specific-data)
+    1. [Mecânica de Execução e Pistas Tipográficas](#31-mecanica-de-execucao-e-pistas-tipograficas)
+    2. [Matriz Comparativa: Skimming vs. Scanning](#32-matriz-comparativa-skimming-vs-scanning)
+    3. [Teste 567](#Teste-567)
+4. [Predição e Pistas Contextuais de Vocabulário (Context Clues)](#4-predicao-e-pistas-contextuais-de-vocabulario-context-clues)
+    1. [Pistas de Definição, Paráfrase e Exemplificação](#41-pistas-de-definicao-parafrase-e-exemplificacao)
+    2. [Teste 568](#Teste-568)
+    3. [Pistas de Contraste, Oposição, Causa e Efeito](#42-pistas-de-contraste-oposicao-causa-e-efeito)
+    4. [Teste 569](#Teste-569)
+    5. [Decomposição Morfológica (Prefixos, Raízes e Sufixos)](#43-decomposicao-morfologica-prefixos-raizes-e-sufixos)
+    6. [Vocabulário Crítico de Engenharia e Arquitetura de Software](#44-vocabulario-critico-de-engenharia-e-arquitetura-de-software)
+    7. [Teste 570](#Teste-570)
+5. [Falsos Cognatos Críticos em TI (False Friends)](#5-falsos-cognatos-criticos-em-ti-false-friends)
+    1. [Cognatos Verdadeiros vs. Falsos Amigos](#51-cognatos-verdadeiros-vs-falsos-amigos)
+    2. [Quadro Lexical de Falsos Cognatos Críticos](#52-quadro-lexical-de-falsos-cognatos-criticos)
+    3. [Teste 571](#Teste-571)
+    4. [Teste 572](#Teste-572)
+6. [Coesão Textual e Referência Pronominal (Reference Words)](#6-coesao-textual-e-referencia-pronominal-reference-words)
+    1. [Anáfora e Catáfora em Textos Técnicos](#61-anafora-e-catafora-em-textos-tecnicos)
+    2. [Teste 573](#Teste-573)
+    3. [Encapsulamento Conceitual com Demonstrativos](#62-encapsulamento-conceitual-com-demonstrativos)
+    4. [Teste 574](#Teste-574)
+7. [Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
 
 ---
+
 
 ## 1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)
 
@@ -76,7 +94,8 @@ Para maximizar a eficiência, a leitura técnica orientada a concurso estrutura-
 
 ---
 
-### Questão 01 (FCC - Adaptada / Analista de Sistemas - Governança e Métodos)
+### Teste 565
+**(FCC - Adaptada / Analista de Sistemas - Governança e Métodos)**
 *Read the paragraph below regarding English for Specific Purposes (ESP) applied to technical auditing:*
 
 > *"Technical reading in computer science does not require exhaustive vocabulary knowledge of conversational English. Instead, an auditor relies on a tripartite cognitive model: domain-specific schemata (prior background knowledge), minimal grammatical architecture (such as modal auxiliaries and passive voice), and metacognitive reading strategies. During the pre-reading phase, examining the question stem and answer options before confronting the source text allows the reader to establish mental anchors and discard irrelevant details."*
@@ -89,6 +108,9 @@ According to the text and instrumental reading fundamentals:
 * **D)** Metacognitive reading strategies are strictly forbidden in competitive public examinations for IT positions.
 * **E)** The passive voice is never employed in formal technical and scientific reports in computing.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O texto afirma expressamente o oposto: a leitura técnica não exige vocabulário exaustivo de conversação geral (*"does not require exhaustive vocabulary knowledge of conversational English"*).
@@ -100,7 +122,10 @@ According to the text and instrumental reading fundamentals:
 > **Gabarito: B**
 
 
+
+
 ---
+
 
 ## 2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)
 
@@ -128,7 +153,8 @@ A FCC recorre frequentemente a comandos que demandam exclusivamente a aplicaçã
 
 ---
 
-### Questão 02 (FCC - Adaptada / Tribunal de Contas - Auditoria de Inteligência Artificial)
+### Teste 566
+**(FCC - Adaptada / Tribunal de Contas - Auditoria de Inteligência Artificial)**
 *Carefully read the following excerpt on Artificial General Intelligence (AGI):*
 
 > *"The emergence of Artificial General Intelligence represents a profound inflection point for modern civilization. While current narrow AI systems excel at specialized tasks like pattern matching or matrix multiplication, AGI posits autonomous agents capable of human-level reasoning across multidisciplinary domains. Consequently, organizational leaders must anticipate seismic shifts in workforce dynamics and digital governance. Addressing these challenges demands proactive regulatory frameworks that align autonomous optimization with societal ethics before full deployment occurs."*
@@ -141,6 +167,9 @@ Applying the **Skimming** strategy to identify the primary argument (*main idea*
 * **D)** Human-level reasoning is impossible to achieve in computer software under any theoretical circumstance.
 * **E)** Matrix multiplication is the ultimate goal of public digital governance in auditing.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O texto diz o oposto: sistemas atuais de IA estreita destacam-se (*excel*) em tarefas especializadas como multiplicação de matrizes.
@@ -152,7 +181,10 @@ Applying the **Skimming** strategy to identify the primary argument (*main idea*
 > **Gabarito: C**
 
 
+
+
 ---
+
 
 ## 3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)
 
@@ -198,7 +230,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FGV - TRT / TCE-GO - Analista de TI - Adaptada)
+### Teste 567
+**(FGV - TRT / TCE-GO - Analista de TI - Adaptada)**
 *Consider the sentence below extracted from a technical paper on computing scalability:*
 
 > *"Over the past **roughly** fifty thousand hours of continuous automated monitoring, the distributed database cluster handled over ten billion transactional queries without a single unrecoverable data loss event."*
@@ -211,6 +244,9 @@ By employing **Scanning** and analyzing the semantic function of the highlighted
 * **D)** a frequency of occurrence that happens exclusively on weekends.
 * **E)** a legal condition that invalidates the operational metrics of the cluster.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O termo não indica exatidão ou rigor métrico absoluto.
@@ -222,7 +258,10 @@ By employing **Scanning** and analyzing the semantic function of the highlighted
 > **Gabarito: B**
 
 
+
+
 ---
+
 
 ## 4. Predição e Pistas Contextuais de Vocabulário (Context Clues)
 
@@ -239,7 +278,8 @@ Em certames da FCC para a área de TI, é praxe a inclusão de vocabulário téc
 
 ---
 
-### Questão 04 (FCC - Adaptada / Analista de Sistemas - Segurança da Informação)
+### Teste 568
+**(FCC - Adaptada / Analista de Sistemas - Segurança da Informação)**
 *Carefully read the text excerpt below regarding cybersecurity incident handling:*
 
 > *"During the post-incident investigation, forensics analysts discovered that adversaries managed to **compromise** the primary domain controller by exploiting an unpatched remote code execution vulnerability. Once inside, the attackers deployed sophisticated **ransomware** that encrypted critical databases across multiple physical sites. **Unlike** conventional malware campaigns that disrupt operations immediately, this intrusion remained dormant for weeks to exfiltrate proprietary data. To **remediate** the breach, the security operations center had to revoke all privileged credentials and rebuild directory services from verified cold backups."*
@@ -251,6 +291,9 @@ Based on reading strategies and vocabulary inference, select the correct stateme
 * **C)** By using scanning techniques on the text, one can determine that the ransomware encrypted databases located within a single physical datacenter.
 * **D)** The verb **"remediate"** indicates that the security operations center decided to accept and tolerate the breach without executing countermeasures.
 * **E)** The pronoun **"this intrusion"** in the third sentence refers specifically to the automated restoration of cold backups.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -276,7 +319,8 @@ Based on reading strategies and vocabulary inference, select the correct stateme
 
 ---
 
-### Questão 05 (FCC - Adaptada / Tribunal de Contas - Infraestrutura e Nuvem)
+### Teste 569
+**(FCC - Adaptada / Tribunal de Contas - Infraestrutura e Nuvem)**
 *Read the technical excerpt concerning cloud architecture evaluation:*
 
 > *"Monolithic systems are often praised for their initial architectural simplicity and straightforward deployment pipelines. However, as organizations scale, maintaining a massive unified codebase introduces a formidable development **bottleneck**. In contrast, a microservices pattern partitions the business domain into autonomous, loosely coupled services that can be scaled independently. **Nonetheless**, adopting microservices entails a non-trivial **trade-off**: while it enhances deployment velocity, it substantially escalates distributed operational complexity, network latency, and the difficulty of enforcing cross-service transactional consistency."*
@@ -288,6 +332,9 @@ Through the application of skimming and scanning techniques, it can be concluded
 * **C)** According to the text, monolithic architectures present higher network latency and more complex cross-service transactions than microservices.
 * **D)** The word **"trade-off"** indicates a compromise where gaining deployment velocity comes at the expense of higher distributed complexity and latency.
 * **E)** The linking word **"Nonetheless"** introduces an addition of arguments in favor of monolithic deployment pipelines.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -329,7 +376,8 @@ Determinados termos técnicos de língua inglesa possuem acepções altamente es
 
 ---
 
-### Questão 06 (FCC - Adaptada / Analista de Sistemas - Arquitetura de Software)
+### Teste 570
+**(FCC - Adaptada / Analista de Sistemas - Arquitetura de Software)**
 *Read the architectural decision record below:*
 
 > *"Migrating our core monolith to a microservices architecture introduces a major **trade-off**: although it enhances deployment agility and horizontal scalability, network latency becomes a significant **bottleneck**. To **remediate** this issue and ensure that unauthorized endpoints cannot **compromise** the service mesh, engineers implemented strict mTLS authentication and distributed caching."*
@@ -342,6 +390,9 @@ Regarding the technical vocabulary utilized in software engineering (*trade-off,
 * **D)** In cybersecurity, to *compromise* a service mesh means to sign an official peace treaty with external hackers.
 * **E)** A *bottleneck* in distributed systems is synonymous with an infinite broadband connection.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Um *trade-off* é uma relação de compromisso ou escolha conflitante: ganha-se de um lado (ex.: escalabilidade) perdendo-se necessariamente de outro (ex.: maior complexidade ou latência).
@@ -353,7 +404,10 @@ Regarding the technical vocabulary utilized in software engineering (*trade-off,
 > **Gabarito: B**
 
 
+
+
 ---
+
 
 ## 5. Falsos Cognatos Críticos em TI (False Friends)
 
@@ -386,7 +440,8 @@ Já os **Falsos Cognatos (*False Friends / False Cognates*)** possuem grafia e p
 
 ---
 
-### Questão 07 (FCC - Adaptada / Analista de Tecnologia da Informação - SEFAZ)
+### Teste 571
+**(FCC - Adaptada / Analista de Tecnologia da Informação - SEFAZ)**
 *Carefully read the excerpt below regarding modern enterprise infrastructure security:*
 
 > *"Zero Trust is not a single tool, but rather an overarching security model. Traditional perimeter defenses assume that everything inside an organization's internal network can be trusted. In contrast, Zero Trust operates on the principle of 'never trust, always verify'. Consequently, even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated using granular policies based on identity, endpoint health, and context. Because legacy systems often lack native support for dynamic telemetry, modernizing them can **eventually** require substantial engineering effort."*
@@ -398,6 +453,9 @@ Based on reading comprehension strategies and technical lexicon, it is correct t
 * **C)** According to the text, once a device achieves initial authentication inside an internal subnet, its authorization privileges remain unconditionally static.
 * **D)** The author highlights that Zero Trust mandates continuous re-evaluation of authorization privileges, even for internal network traffic.
 * **E)** The pronoun **"their"** in the sentence *"their authorization must be continually re-evaluated"* refers syntactically to *"traditional perimeter defenses"*.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -411,7 +469,8 @@ Based on reading comprehension strategies and technical lexicon, it is correct t
 
 ---
 
-### Questão 08 (FCC - Adaptada / Tribunal de Contas - Auditoria de TI)
+### Teste 572
+**(FCC - Adaptada / Tribunal de Contas - Auditoria de TI)**
 *Consider the sentence below taken from an official software engineering audit report:*
 
 > *"Although the technical team **pretended** to ignore the severe vulnerabilities discovered during the automated pipeline audit, the directorate implemented a **comprehensive** governance **policy** that **actually** mitigated external threat vectors."*
@@ -423,6 +482,9 @@ Na língua portuguesa, as palavras destacadas no trecho (**pretended**, **compre
 * **C)** fingiu – abrangente – política/diretriz – na verdade/efetivamente
 * **D)** tentou – tolerante – polícia – realmente
 * **E)** planejou – compacta – apólice – futuramente
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -439,8 +501,9 @@ Na língua portuguesa, as palavras destacadas no trecho (**pretended**, **compre
 > 
 > **Gabarito: C**
 
----
 
+
+---
 
 
 ## 6. Coesão Textual e Referência Pronominal (Reference Words)
@@ -458,7 +521,8 @@ Um dos tipos de questões favoritos da FCC consiste em destacar um pronome em de
 
 ---
 
-### Questão 09 (FCC - Adaptada / Auditoria Governamental - Tecnologia da Informação)
+### Teste 573
+**(FCC - Adaptada / Auditoria Governamental - Tecnologia da Informação)**
 *Consider the excerpt below regarding cryptographic hash functions and data integrity:*
 
 > *"Cryptographic hash functions generate a deterministic, fixed-size digest from arbitrary input data. When two distinct inputs produce the identical output hash, **this anomaly** is technically defined as a collision. Security analysts must continuously monitor legacy algorithms, as **they** may become vulnerable over time due to cryptanalytic advances."*
@@ -470,6 +534,9 @@ In terms of textual cohesion and pronominal reference in technical texts:
 * **C)** The demonstrative **"this"** indicates that the hash algorithm was developed by the author of the text.
 * **D)** The pronoun **"they"** refers singular and neutrally to *"a deterministic digest"*.
 * **E)** The expression **"this anomaly"** refers strictly to the word *"matrix"* mentioned in another chapter.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -510,7 +577,8 @@ flowchart LR
 
 ---
 
-### Questão 10 (FCC - Adaptada / Auditoria Governamental - Inteligência Artificial)
+### Teste 574
+**(FCC - Adaptada / Auditoria Governamental - Inteligência Artificial)**
 *Consider the text below on algorithmic governance:*
 
 > *"Auditing modern machine learning models presents **novel** challenges for oversight agencies. Deep neural networks function largely as black boxes, making it difficult to extract explainable decision pathways. When public institutions deploy predictive models to grant social benefits or score fiscal risk, undetected algorithmic bias can harm vulnerable citizens. **To prevent this**, regulatory authorities advocate for strict validation protocols. Data scientists must ensure that training datasets are **sensible**, representative, and sanitized against historical disparities. **They** must also provide comprehensive audit trails before any model enters production."*
@@ -523,6 +591,9 @@ Regarding reading comprehension, context clues, and reference words in the text,
 * **D)** The subject pronoun **"They"** in the final sentence syntactically refers to *"vulnerable citizens"*.
 * **E)** The author argues that machine learning models should enter production immediately, dispensing with explainability and audit trails.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Empregada como adjetivo de língua inglesa, a palavra **"novel"** significa novo, inédito, original ou inovador (raiz latina de novidade). Não guarda relação com algo antigo ou tradicional, tampouco com romances literários.
@@ -533,8 +604,9 @@ Regarding reading comprehension, context clues, and reference words in the text,
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 6. Fontes Recomendadas na Internet

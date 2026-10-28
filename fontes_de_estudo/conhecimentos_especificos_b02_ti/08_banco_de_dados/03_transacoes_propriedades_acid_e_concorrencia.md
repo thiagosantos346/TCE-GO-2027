@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_transacoes_propriedades_acid_e_concorrencia.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Conceito de Transação de banco de dados
@@ -14,31 +17,47 @@
 - Níveis de Isolamento ANSI SQL
 - Mecanismos de controle de concorrência: Bloqueios (Locks), 2PL, MVCC e Deadlocks
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. O Conceito Formal de Transação e o Modelo ACID](#1-o-conceito-formal-de-transacao-e-o-modelo-acid)
-    - [1.1 Ciclo de Vida e Estados de uma Transação](#11-ciclo-de-vida-e-estados-de-uma-transacao)
-    - [1.2 As Quatro Propriedades Fundamentais: ACID](#12-as-quatro-propriedades-fundamentais-acid)
-    - [1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)](#13-mecanismos-internos-undo-log-redo-log-e-write-ahead-logging-wal)
-- [2. Comandos de Controle Transacional (TCL)](#2-comandos-de-controle-transacional-tcl)
-    - [2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs](#21-commit-rollback-e-gestao-de-savepoints)
-- [3. Fenômenos e Anomalias de Concorrência](#3-fenomenos-e-anomalias-de-concorrencia)
-    - [3.1 Leitura Suja (Dirty Read)](#31-leitura-suja-dirty-read)
-    - [3.2 Leitura Não Repetível (Non-Repeatable Read)](#32-leitura-nao-repetivel-non-repeatable-read)
-    - [3.3 Leitura Fantasma (Phantom Read)](#33-leitura-fantasma-phantom-read)
-    - [3.4 Atualização Perdida (Lost Update)](#34-atualizacao-perdida-lost-update)
-- [4. Níveis de Isolamento ANSI SQL-92](#4-niveis-de-isolamento-ansi-sql-92)
-    - [4.1 Matriz de Isolamento vs. Fenômenos Admitidos](#41-matriz-de-isolamento-vs-fenomenos-admitidos)
-    - [4.2 Snapshot Isolation (Isolamento por Instantâneo)](#42-snapshot-isolation-isolamento-por-instantaneo)
-- [5. Técnicas de Controle de Concorrência](#5-tecnicas-de-controle-de-concorrencia)
-    - [5.1 Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)](#51-bloqueios-locks-e-matriz-de-compatibilidade-shared-vs-exclusive)
-    - [5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso](#52-protocolo-de-bloqueio-em-duas-fases-2pl-two-phase-locking-basico-estrito-e-rigoroso)
-    - [5.3 Controle Multiversão de Concorrência (MVCC)](#53-controle-multiversao-de-concorrencia-mvcc)
-    - [5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima](#54-impasses-deadlocks-deteccao-via-wait-for-graph-e-resolucao-por-transacao-vitima)
-- [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+
+1. [O Conceito Formal de Transação e o Modelo ACID](#1-o-conceito-formal-de-transacao-e-o-modelo-acid)
+    1. [Ciclo de Vida e Estados de uma Transação](#11-ciclo-de-vida-e-estados-de-uma-transacao)
+    2. [Teste 256](#Teste-256)
+    3. [As Quatro Propriedades Fundamentais: ACID](#12-as-quatro-propriedades-fundamentais-acid)
+    4. [Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)](#13-mecanismos-internos-undo-log-redo-log-e-write-ahead-logging-wal)
+    5. [Teste 257](#Teste-257)
+2. [Comandos de Controle Transacional (TCL)](#2-comandos-de-controle-transacional-tcl)
+    1. [COMMIT, ROLLBACK e Gestão de SAVEPOINTs](#21-commit-rollback-e-gestao-de-savepoints)
+    2. [Teste 258](#Teste-258)
+3. [Fenômenos e Anomalias de Concorrência](#3-fenomenos-e-anomalias-de-concorrencia)
+    1. [Leitura Suja (Dirty Read)](#31-leitura-suja-dirty-read)
+    2. [Leitura Não Repetível (Non-Repeatable Read)](#32-leitura-nao-repetivel-non-repeatable-read)
+    3. [Leitura Fantasma (Phantom Read)](#33-leitura-fantasma-phantom-read)
+    4. [Atualização Perdida (Lost Update)](#34-atualizacao-perdida-lost-update)
+    5. [Teste 259](#Teste-259)
+4. [Níveis de Isolamento ANSI SQL-92](#4-niveis-de-isolamento-ansi-sql-92)
+    1. [Matriz de Isolamento vs. Fenômenos Admitidos](#41-matriz-de-isolamento-vs-fenomenos-admitidos)
+    2. [Teste 260](#Teste-260)
+    3. [Snapshot Isolation (Isolamento por Instantâneo)](#42-snapshot-isolation-isolamento-por-instantaneo)
+    4. [Teste 261](#Teste-261)
+5. [Técnicas de Controle de Concorrência](#5-tecnicas-de-controle-de-concorrencia)
+    1. [Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)](#51-bloqueios-locks-e-matriz-de-compatibilidade-shared-vs-exclusive)
+    2. [Teste 262](#Teste-262)
+    3. [Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso](#52-protocolo-de-bloqueio-em-duas-fases-2pl-two-phase-locking-basico-estrito-e-rigoroso)
+    4. [Teste 263](#Teste-263)
+    5. [Teste 264](#Teste-264)
+    6. [Controle Multiversão de Concorrência (MVCC)](#53-controle-multiversao-de-concorrencia-mvcc)
+    7. [Teste 265](#Teste-265)
+    8. [Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima](#54-impasses-deadlocks-deteccao-via-wait-for-graph-e-resolucao-por-transacao-vitima)
+    9. [Teste 266](#Teste-266)
+6. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. O Conceito Formal de Transação e o Modelo ACID
 
@@ -66,7 +85,8 @@ stateDiagram-v2
 - **Falha (*Failed*):** Ocorre quando uma instrução viola uma restrição de integridade ou o sistema sofre interrupção antes da conclusão definitiva.
 - **Abortada (*Aborted*):** O SGBD executa o comando `ROLLBACK`, desfazendo todas as modificações parciais já executadas e restaurando a base de dados ao estado exato anterior ao início da transação.
 
-### Questão 01 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Estados do Ciclo de Vida de uma Transação)
+### Teste 256
+**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Estados do Ciclo de Vida de uma Transação)**
 Segundo a teoria clássica de sistemas de bancos de dados relacionais formulada por Silberschatz, Korth e Sudarshan, uma transação deve atravessar uma máquina de estados finitos bem definida durante a sua execução.
 
 A respeito dos estados possíveis de uma transação e das transições entre eles, assinale a afirmativa correta:
@@ -76,6 +96,9 @@ A respeito dos estados possíveis de uma transação e das transições entre el
 * **C)** Uma transação em estado *Failed* (Falha) transita compulsoriamente de volta para o estado *Active* (Ativa) para tentar novamente a operação a partir do ponto onde ocorreu a falha.
 * **D)** O estado *Aborted* (Abortada) indica que a transação concluiu seu processamento com êxito e que seus resultados tornaram-se permanentes no banco de dados.
 * **E)** Toda transação no estado *Active* pode transitar diretamente para o estado *Committed* sem necessidade de passar pelo estado *Partially Committed*.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -129,7 +152,8 @@ flowchart TD
 
 ---
 
-### Questão 02 (FCC - Adaptada / TI - As Quatro Propriedades ACID e Logs)
+### Teste 257
+**(FCC - Adaptada / TI - As Quatro Propriedades ACID e Logs)**
 Em um SGBD corporativo, um desligamento repentino do fornecimento de energia elétrica interrompeu as operações enquanto dezenas de transações eram processadas. Durante a rotina de inicialização automática (Crash Recovery), o SGBD utilizou seus arquivos de log transacional para restaurar a consistência da base.
 
 Sobre os mecanismos que asseguram as propriedades ACID nesse cenário, assinale a afirmativa correta:  
@@ -139,6 +163,9 @@ Sobre os mecanismos que asseguram as propriedades ACID nesse cenário, assinale 
 * **C)** A Consistência é a propriedade responsável por garantir que as transações concorrentes não interfiram entre si, mesmo que os dados não estejam totalmente gravados em disco.
 * **D)** A Atomicidade autoriza que, em caso de pane catastrófica, parte das instruções de uma transação crítica permaneça gravada para evitar retrabalho da aplicação cliente.
 * **E)** O mecanismo de Write-Ahead Logging (WAL) determina que as páginas de dados sejam obrigatoriamente persistidas nas tabelas físicas do disco antes que o registro transacional seja gravado no log.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -150,8 +177,9 @@ Sobre os mecanismos que asseguram as propriedades ACID nesse cenário, assinale 
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 2. Comandos de Controle Transacional (TCL)
@@ -167,7 +195,8 @@ A linguagem SQL provê comandos dedicados para controlar as fronteiras transacio
 
 ---
 
-### Questão 03 (FCC - Adaptada / TI - Controle de Transações: SAVEPOINT e ROLLBACK TO)
+### Teste 258
+**(FCC - Adaptada / TI - Controle de Transações: SAVEPOINT e ROLLBACK TO)**
 Considere a sequência de comandos executada em uma única sessão transacional em um SGBD em conformidade com o padrão ANSI SQL:
 
 ```sql
@@ -190,6 +219,9 @@ Considerando que a tabela `fornecedores` encontrava-se vazia antes do início do
 * **D)** Fornecedor Alfa, Fornecedor Beta e Fornecedor Delta.
 * **E)** Nenhum registro, pois o comando `ROLLBACK TO SAVEPOINT` desfaz a transação inteira e aborta o bloco.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A) Incorreta.** Ignora o comando de reversão parcial `ROLLBACK TO SAVEPOINT ponto_1`, que cancelou as linhas 2 e 3.
@@ -200,8 +232,9 @@ Considerando que a tabela `fornecedores` encontrava-se vazia antes do início do
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 3. Fenômenos e Anomalias de Concorrência
@@ -225,7 +258,8 @@ Quando múltiplas transações concorrem pelo acesso aos mesmos dados sem contro
 
 ---
 
-### Questão 04 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Anomalias e Fenômenos de Concorrência)
+### Teste 259
+**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Anomalias e Fenômenos de Concorrência)**
 Em sistemas gerenciadores de bancos de dados com processamento transacional concorrente de alta intensidade, a ausência de mecanismos rigorosos de controle de concorrência expõe a base de dados a múltiplos fenômenos anômalos.
 
 Analise as três situações de concorrência descritas a seguir entre duas transações $T_1$ e $T_2$:
@@ -242,6 +276,9 @@ Esses três fenômenos caracterizam, rigorosa e respectivamente:
 * **D)** Leitura Suja (*Dirty Read*), Atualização Perdida (*Lost Update*) e Leitura Não Repetível (*Non-Repeatable Read*).
 * **E)** Leitura Não Repetível (*Non-Repeatable Read*), Atualização Perdida (*Lost Update*) e Leitura Suja (*Dirty Read*).
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **Situação 1:** Trata-se de **Leitura Não Repetível (Non-Repeatable Read ou Fuzzy Read)**: ocorre quando uma transação relê a mesma linha e encontra valores de colunas alterados porque outra transação efetuou `UPDATE` e `COMMIT` no intervalo.
@@ -250,7 +287,10 @@ Esses três fenômenos caracterizam, rigorosa e respectivamente:
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Níveis de Isolamento ANSI SQL-92
 
@@ -273,7 +313,8 @@ A norma ANSI/ISO SQL-92 estabelece quatro níveis canônicos de isolamento trans
 
 ---
 
-### Questão 05 (FCC - Adaptada / TI - Níveis de Isolamento Transacional ANSI SQL)
+### Teste 260
+**(FCC - Adaptada / TI - Níveis de Isolamento Transacional ANSI SQL)**
 Em um sistema de arrecadação tributária estadual, duas transações concorrentes ($T_1$ e $T_2$) executam operações sobre a mesma tabela de contribuintes. A transação $T_1$ realiza a leitura de um registro de débitos fiscais. Em seguida, a transação $T_2$ altera o valor desse débito e efetiva a operação com `COMMIT`. Posteriormente, ainda dentro do seu escopo, a transação $T_1$ relê o mesmo registro e encontra o novo valor alterado e comitado por $T_2$.
 
 Considerando os fenômenos de concorrência e os níveis de isolamento padronizados pela norma ANSI SQL:  
@@ -283,6 +324,9 @@ Considerando os fenômenos de concorrência e os níveis de isolamento padroniza
 * **C)** O fenômeno observado é classificado como *Leitura Fantasma* (*Phantom Read*), sendo permitido exclusivamente no nível de isolamento `READ UNCOMMITTED`.
 * **D)** O nível de isolamento `READ COMMITTED` impede a ocorrência de Leituras Não Repetíveis e Leituras Fantasmas, mas autoriza Leituras Sujas.
 * **E)** A ocorrência de leituras não repetíveis viola o princípio da Durabilidade (D do ACID), revertendo compulsoriamente a transação $T_2$.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -306,7 +350,8 @@ Implementado em motores que utilizam controle de concorrência multiversão (MVC
 
 ---
 
-### Questão 06 (FCC - TRT / Analista Judiciário - TI - Snapshot Isolation e Anomalia de Write Skew)
+### Teste 261
+**(FCC - TRT / Analista Judiciário - TI - Snapshot Isolation e Anomalia de Write Skew)**
 O mecanismo de isolamento conhecido como *Snapshot Isolation* (Isolamento por Instantâneo) é amplamente empregado por SGBDs modernos baseados em MVCC (como PostgreSQL e Oracle). Sob esse nível, uma transação visualiza uma fotografia consistente dos dados correspondente ao instante em que iniciou.
 
 Embora o *Snapshot Isolation* impeça Leitura Suja, Leitura Não Repetível e Leituras Fantasmas convencionais, a literatura de banco de dados comprova que ele **não é equivalente** ao nível de isolamento `SERIALIZABLE` clássico por admitir a anomalia denominada:
@@ -316,6 +361,9 @@ Embora o *Snapshot Isolation* impeça Leitura Suja, Leitura Não Repetível e Le
 * **C)** Desvio de Gravação (*Write Skew*).
 * **D)** Inconsistência de Checkpoint (*Torn Page*).
 * **E)** Interbloqueio em Cascata (*Cascading Abort*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -329,7 +377,10 @@ Embora o *Snapshot Isolation* impeça Leitura Suja, Leitura Não Repetível e Le
 > 
 > **Gabarito: C**
 
+
+
 ---
+
 
 ## 5. Técnicas de Controle de Concorrência
 
@@ -345,7 +396,8 @@ O controle pessimista de concorrência baseia-se na alocação de travas (*locks
 | **Shared (S)** | ✅ **Compatível** (Permitido) | ❌ Conflito (Aguarda liberação) |
 | **Exclusive (X)** | ❌ Conflito (Aguarda liberação) | ❌ Conflito (Aguarda liberação) |
 
-### Questão 07 (FGV - TJ-AP / Analista Judiciário - Banco de Dados - Bloqueios Compartilhados vs. Exclusivos)
+### Teste 262
+**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Bloqueios Compartilhados vs. Exclusivos)**
 Os SGBDs relacionais empregam bloqueios (*locks*) lógicos gerenciados pelo subsistema de Lock Manager para disciplinar o acesso concorrente aos dados. Dois modos fundamentais de bloqueio são o Compartilhado (*Shared Lock - S*) e o Exclusivo (*Exclusive Lock - X*).
 
 A respeito da matriz de compatibilidade entre esses tipos de bloqueios e sua granularidade, assinale a afirmativa correta:
@@ -355,6 +407,9 @@ A respeito da matriz de compatibilidade entre esses tipos de bloqueios e sua gra
 * **C)** O bloqueio de granularidade fina (no nível de linha/tupla) consome menos memória do Lock Manager do que o bloqueio de granularidade grossa (no nível de tabela inteira).
 * **D)** Bloqueios de intenção (*Intent Locks*, como IS e IX) são utilizados apenas em operações DDL e não interferem na concorrência de instruções DML como `SELECT` e `UPDATE`.
 * **E)** O bloqueio compartilhado impede que outras transações realizem leituras simultâneas no mesmo objeto, forçando o enfileiramento sequencial de todas as operações de consulta.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -394,7 +449,8 @@ flowchart LR
 
 ---
 
-### Questão 08 (FCC - Adaptada / TI - MVCC, Bloqueios e Deadlocks)
+### Teste 263
+**(FCC - Adaptada / TI - MVCC, Bloqueios e Deadlocks)**
 A respeito dos mecanismos de controle de concorrência, bloqueios (*locks*) e tratamento de impasses (*deadlocks*) em SGBDs relacionais modernos, assinale a afirmativa correta:  
 
 * **A)** O protocolo de Bloqueio em Duas Fases (2PL - *Two-Phase Locking*) determina que uma transação pode intercalar a aquisição e a liberação de bloqueios livremente ao longo de toda a sua execução.
@@ -402,6 +458,9 @@ A respeito dos mecanismos de controle de concorrência, bloqueios (*locks*) e tr
 * **C)** Um bloqueio do tipo Compartilhado (*Shared Lock - S*) impede que qualquer outra transação simultânea obtenha novos bloqueios compartilhados sobre o mesmo recurso para leitura.
 * **D)** Os impasses (*deadlocks*) são tratados pelo SGBD mantendo todas as transações envolvidas em espera infinita até que o administrador reinicie o servidor físico.
 * **E)** O grafo de espera (*Wait-For Graph*) é uma estrutura utilizada para calcular o espaço em disco ocupado pelos logs de auditoria, não possuindo utilidade na detecção de deadlocks.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -415,7 +474,8 @@ A respeito dos mecanismos de controle de concorrência, bloqueios (*locks*) e tr
 
 ---
 
-### Questão 09 (FCC - Adaptada / TI - Protocolo 2PL: Serializabilidade e Variantes)
+### Teste 264
+**(FCC - Adaptada / TI - Protocolo 2PL: Serializabilidade e Variantes)**
 O protocolo de Bloqueio em Duas Fases (*Two-Phase Locking - 2PL*) é um algoritmo de controle de concorrência com ampla aplicação em bancos de dados relacionais.
 
 Acerca do funcionamento e das variantes do protocolo 2PL, é correto afirmar:  
@@ -425,6 +485,9 @@ Acerca do funcionamento e das variantes do protocolo 2PL, é correto afirmar:
 * **C)** No protocolo Rigorous 2PL (2PL Rigoroso), a transação mantém todos os seus bloqueios exclusivos e compartilhados até o término definitivo da transação com `COMMIT` ou `ROLLBACK`.
 * **D)** No protocolo Strict 2PL (2PL Estrito), a transação deve liberar todos os seus bloqueios exclusivos imediatamente após a execução do comando DML correspondente, antes do `COMMIT`.
 * **E)** O protocolo 2PL assegura que a ordem de commit das transações seja sempre idêntica à ordem cronológica de inicialização dos seus processos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -448,7 +511,8 @@ Adotado nativamente por PostgreSQL e Oracle:
     - No PostgreSQL: `xmin` (ID da transação criadora) e `xmax` (ID da transação que apagou ou gerou versão superior).
     - Leitores consultam versões visíveis compatíveis com o seu instante temporal (*snapshot*), garantindo alto rendimento de leitura e escrita concorrentes.
 
-### Questão 10 (FCC - TRT-6 / Analista Judiciário - TI - Controle Multiversão de Concorrência - MVCC)
+### Teste 265
+**(FCC - TRT-6 / Analista Judiciário - TI - Controle Multiversão de Concorrência - MVCC)**
 O Controle Multiversão de Concorrência (*Multi-Version Concurrency Control - MVCC*) é o mecanismo arquitetural predominante em motores de banco de dados modernos, tais como o PostgreSQL e o Oracle Database.
 
 A principal vantagem do MVCC sobre os mecanismos tradicionais de bloqueio pessimista bidirecional (2PL estrito) e o seu princípio fundamental de funcionamento residem no fato de que:
@@ -458,6 +522,9 @@ A principal vantagem do MVCC sobre os mecanismos tradicionais de bloqueio pessim
 * **C)** O MVCC elimina completamente o uso de memória RAM e de discos rígidos, processando todas as transações em tabelas estritamente temporárias.
 * **D)** O isolamento obtido com MVCC é sempre `READ UNCOMMITTED`, permitindo leituras de dados sujos sem qualquer validação de *snapshots*.
 * **E)** O MVCC dispensa integralmente mecanismos de coleta de lixo (*garbage collection* / `VACUUM`), pois as tuplas obsoletas são destruídas instantaneamente pelo processador na saída do comando `UPDATE`.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -489,7 +556,8 @@ flowchart LR
 
 ---
 
-### Questão 11 (FGV - TRT / Analista Judiciário - TI - Impasses / Deadlocks e Grafo de Espera)
+### Teste 266
+**(FGV - TRT / Analista Judiciário - TI - Impasses / Deadlocks e Grafo de Espera)**
 Em um ambiente de banco de dados de alto volume transacional, duas transações concorrentes entram em uma situação na qual a Transação $T_1$ detém o bloqueio exclusivo da linha $A$ e aguarda a liberação da linha $B$ (bloqueada por $T_2$), enquanto $T_2$ aguarda a liberação da linha $A$ (bloqueada por $T_1$).
 
 A respeito desse cenário de impasse (*Deadlock*) e dos métodos empregados pelos SGBDs para seu tratamento, assinale a afirmativa correta:
@@ -499,6 +567,9 @@ A respeito desse cenário de impasse (*Deadlock*) e dos métodos empregados pelo
 * **C)** O protocolo 2PL básico garante matematicamente a imunidade total e absoluta contra a ocorrência de deadlocks.
 * **D)** Em caso de deadlock, o SGBD encerra forçosamente todas as conexões ativas no banco de dados e reinicia o processo principal do servidor.
 * **E)** Protocolos baseados em timestamps (como *Wait-Die* e *Wound-Wait*) detectam impasses somente após o bloqueio indefinido de todos os núcleos da CPU.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -514,7 +585,10 @@ A respeito desse cenário de impasse (*Deadlock*) e dos métodos empregados pelo
 > 
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 

@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `01_organizacoes_formais_estruturas_e_processo_organizacional.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -22,31 +25,33 @@
     - Controle e Avaliação (estabelecimento de padrões, medição do desempenho real, comparação e ações corretivas; controles prévio, concomitante e posterior);
 - Convergências e diferenças essenciais entre a gestão pública e a gestão privada (princípio da legalidade estrita versus autonomia da vontade, finalidade pública versus lucro, regime de pessoal e sujeição aos órgãos de controle externo).
 
----
 
-## 🧭 Sumário Interativo
-- [1. Elementos da Organização Formal e Desenho Estrutural](#1-elementos-da-organizacao-formal-e-desenho-estrutural)
-    - [1.1 Os Pilares da Organização Formal Moderna](#11-os-pilares-da-organizacao-formal-moderna)
-    - [1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)](#12-amplitude-administrativa-e-formato-organizacional-agudo-vs-plano)
-    - [1.3 Centralização vs. Descentralização Decisória](#13-centralizacao-vs-descentralizacao-decisoria)
-- [2. Modelos de Estrutura Organizacional](#2-modelos-de-estrutura-organizacional)
-    - [2.1 Estrutura Linear (Militar/Clássica)](#21-estrutura-linear-militarclassica)
-    - [2.2 Estrutura Funcional (Tayloriana)](#22-estrutura-funcional-tayloriana)
-    - [2.3 Estrutura Linha-Staff (Comando e Assessoria)](#23-estrutura-linha-staff-comando-e-assessoria)
-    - [2.4 Estrutura Matricial (Dupla Subordinação)](#24-estrutura-matricial-dupla-subordinacao)
-    - [2.5 Estrutura em Rede (Modular e Desverticalizada)](#25-estrutura-em-rede-modular-e-desverticalizada)
-- [3. Critérios de Departamentalização](#3-criterios-de-departamentalizacao)
-    - [3.1 Departamentalização Funcional, Territorial e por Produtos](#31-departamentalizacao-funcional-territorial-e-por-produtos)
-    - [3.2 Departamentalização por Clientes, Processos e Projetos](#32-departamentalizacao-por-clientes-processos-e-projetos)
-- [4. O Processo Organizacional e as Funções Administrativas (PODC)](#4-o-processo-organizacional-e-as-funcoes-administrativas-podc)
-    - [4.1 Planejamento: Estratégico, Tático e Operacional](#41-planejamento-estrategico-tatico-e-operacional)
-    - [4.2 Organização: Distribuição de Tarefas, Autoridade e Recursos](#42-organizacao-distribuicao-de-tarefas-autoridade-e-recursos)
-    - [4.3 Direção, Liderança e Comunicação Organizacional](#43-direcao-lideranca-e-comunicacao-organizacional)
-    - [4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)](#44-controle-padroes-medicao-e-momentos-de-atuacao-previo-concomitante-e-posterior)
-- [5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças](#5-gestao-publica-vs-gestao-privada-convergencias-e-diferencas)
-- [6. Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Elementos da Organização Formal e Desenho Estrutural](#1-elementos-da-organizacao-formal-e-desenho-estrutural)
+    2. [Teste 300](#Teste-300)
+    3. [Teste 301](#Teste-301)
+    4. [Modelos de Estrutura Organizacional](#2-modelos-de-estrutura-organizacional)
+    5. [Teste 302](#Teste-302)
+    6. [Teste 303](#Teste-303)
+    7. [Critérios de Departamentalização](#3-criterios-de-departamentalizacao)
+    8. [Teste 304](#Teste-304)
+    9. [O Processo Organizacional e as Funções Administrativas (PODC)](#4-o-processo-organizacional-e-as-funcoes-administrativas-podc)
+    10. [Teste 305](#Teste-305)
+    11. [Teste 306](#Teste-306)
+    12. [Gestão Pública vs. Gestão Privada: Convergências e Diferenças](#5-gestao-publica-vs-gestao-privada-convergencias-e-diferencas)
+    13. [Teste 307](#Teste-307)
+    14. [Teste 308](#Teste-308)
+    15. [Teste 309](#Teste-309)
+2. [Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -101,7 +106,8 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)
+### Teste 300
+**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**
 Considere uma organização pública estadual que decida reduzir o número de seus escalões hierárquicos intermediários de sete para apenas três níveis, mantendo o mesmo quantitativo total de servidores em seus quadros operacionais. Sob a ótica da teoria da organização formal, essa reforma provocará:
 
 * **A)** O estreitamento da amplitude de controle e a verticalização da estrutura organizacional.
@@ -109,6 +115,9 @@ Considere uma organização pública estadual que decida reduzir o número de se
 * **C)** O alargamento da amplitude de controle dos gestores e o achatamento (horizontalização) da estrutura organizacional.
 * **D)** A centralização absoluta de todas as decisões na cúpula diretiva em razão do aumento do número de chefes.
 * **E)** A transformação imediata do modelo organizacional em departamentalização estritamente geográfica.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -129,7 +138,8 @@ Considere uma organização pública estadual que decida reduzir o número de se
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 301
+**(FCC - Adaptada / Analista de Gestão Pública)**
 No estudo das organizações formais e do processo administrativo clássico (PODC - Planejar, Organizar, Dirigir e Controlar), a função **Organização** compreende precipuamente:
 
 * **A)** A distribuição de tarefas, a alocação criteriosa de recursos humanos e materiais entre os órgãos e a definição da estrutura de autoridade, responsabilidade e linhas de comunicação formal da instituição.
@@ -137,6 +147,9 @@ No estudo das organizações formais e do processo administrativo clássico (POD
 * **C)** A motivação, orientação, liderança e coordenação interpessoal direta das equipes de trabalho no cotidiano operacional.
 * **D)** A comparação sistemática entre os resultados obtidos e os padrões preestabelecidos, com aplicação de eventuais correções corretivas.
 * **E)** A realização de auditorias financeiras externas de conformidade legal sobre os balanços patrimoniais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -198,7 +211,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC – TCE-PI – Auditor de Controle Externo)
+### Teste 302
+**(FCC – TCE-PI – Auditor de Controle Externo)**
 Determinada autarquia estadual de regulação de transportes estruturou suas equipes de fiscalização agrupando os servidores em torno de projetos especiais com prazos pré-fixados, mantendo concomitantemente as diretorias técnicas fixas de engenharia, finanças e tecnologia. Nesse modelo, os auditores reportam-se tanto ao coordenador do projeto específico quanto ao diretor da sua respectiva área técnica de origem. Trata-se de típica estrutura organizacional:
 
 * **A)** Linear.
@@ -206,6 +220,9 @@ Determinada autarquia estadual de regulação de transportes estruturou suas equ
 * **C)** Matricial.
 * **D)** Linha-staff.
 * **E)** Colegiada.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -221,7 +238,8 @@ Determinada autarquia estadual de regulação de transportes estruturou suas equ
 
 
 
-### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 303
+**(FCC - Adaptada / Auditor de Controle Externo)**
 A respeito da amplitude administrativa (ou amplitude de controle) e dos níveis hierárquicos nas organizações formais, assinale a afirmativa correta:
 
 * **A)** Uma amplitude de controle estreita (poucos subordinados por chefe) tende a produzir uma estrutura organizacional verticalizada (alongada), com múltiplos níveis hierárquicos e maior custo administrativo de supervisão.
@@ -229,6 +247,9 @@ A respeito da amplitude administrativa (ou amplitude de controle) e dos níveis 
 * **C)** Quanto maior o número de níveis hierárquicos em uma repartição pública, mais ágil e desprovida de distorções e ruídos torna-se a comunicação vertical ascendente.
 * **D)** A amplitude de controle refere-se unicamente ao limite territorial de competência jurisdicional de uma corte de contas.
 * **E)** A descentralização administrativa exige compulsoriamente a eliminação de qualquer amplitude de supervisão nos órgãos setoriais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -271,7 +292,8 @@ flowchart TD
 
 ---
 
-### Questão 05 (FCC - Adaptada / Analista de Planejamento e Gestão)
+### Teste 304
+**(FCC - Adaptada / Analista de Planejamento e Gestão)**
 Em relação aos modelos de departamentalização das organizações formais, a estrutura **Matricial** diferencia-se dos modelos clássicos por:
 
 * **A)** Sobrepor uma coordenação horizontal orientada a projetos ou produtos a uma estrutura vertical departamentalizada por funções, gerando dupla subordinação hierárquica para os membros das equipes.
@@ -279,6 +301,9 @@ Em relação aos modelos de departamentalização das organizações formais, a 
 * **C)** Extinguir totalmente a especialização técnica dos servidores para transformá-los em operadores generalistas.
 * **D)** Proibir a formação de equipes multidisciplinares temporárias em qualquer setor da Administração Pública.
 * **E)** Impor rigidez funcional extrema que impede o compartilhamento de especialistas entre diferentes áreas do órgão.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -337,7 +362,8 @@ A função de **Direção** dinamiza a organização, orientando e influenciando
 
 ---
 
-### Questão 06 (FCC – AL-AP – Analista Legislativo: Administração)
+### Teste 305
+**(FCC – AL-AP – Analista Legislativo: Administração)**
 Uma das etapas cruciais da função administrativa de Direção é a comunicação organizacional. A respeito dos fluxos comunicacionais e de suas barreiras nas organizações públicas, assinale a alternativa correta:
 
 * **A)** O fluxo de comunicação descendente transporta prioritariamente relatórios de desempenho, pedidos de esclarecimento e sugestões de melhoria vindos da base operacional.
@@ -345,6 +371,9 @@ Uma das etapas cruciais da função administrativa de Direção é a comunicaç�
 * **C)** Barreiras semânticas decorrem exclusivamente de falhas mecânicas nos equipamentos de transmissão e instabilidade nas redes de computadores.
 * **D)** A comunicação diagonal ocorre exclusivamente entre a chefia superior de um setor e os estagiários daquele mesmo departamento.
 * **E)** A ampliação de níveis hierárquicos em estruturas verticais favorece a fidelidade da mensagem e elimina qualquer possibilidade de ruído comunicacional.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -374,7 +403,8 @@ O controle assegura que o desempenho real esteja em consonância com o que foi p
 
 ---
 
-### Questão 07 (FCC – DPE-RS – Analista: Área Administrativa)
+### Teste 306
+**(FCC – DPE-RS – Analista: Área Administrativa)**
 No âmbito da administração contemporânea, o processo administrativo de controle desdobra-se em três momentos temporais fundamentais: prévio, concomitante e posterior. Constitui exemplo típico de controle prévio (preventivo) no setor público:
 
 * **A)** A análise da prestação de contas do ordenador de despesa efetuada pelo Tribunal de Contas após o encerramento do exercício financeiro.
@@ -382,6 +412,9 @@ No âmbito da administração contemporânea, o processo administrativo de contr
 * **C)** A medição semanal em tempo real do avanço físico de uma rodovia estadual pelo fiscal da administração durante a execução da obra.
 * **D)** A exigência de apresentação prévia de certidões de regularidade fiscal e habilitação jurídica no edital antes da contratação da empresa licitante.
 * **E)** A realização de auditoria de conformidade ex post destinada a quantificar o dano ao erário decorrente de sobrepreço em contrato encerrado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -428,7 +461,8 @@ flowchart TD
 
 ---
 
-### Questão 08 (FCC – TCE-RS – Auditor de Controle Externo)
+### Teste 307
+**(FCC – TCE-RS – Auditor de Controle Externo)**
 A respeito das funções do processo administrativo (planejamento, organização, direção e controle) e das diferenças entre a gestão pública e a gestão privada, assinale a opção correta:
 
 * **A)** A função administrativa de planejamento restringe-se ao nível operacional da instituição, cabendo à função de organização a definição das metas estratégicas de longo prazo.
@@ -436,6 +470,9 @@ A respeito das funções do processo administrativo (planejamento, organização
 * **C)** O controle é a primeira função administrativa a ser desempenhada no processo de trabalho, dispensando a existência de padrões prévios fixados no planejamento.
 * **D)** A amplitude de controle administrativa define a quantidade total de departamentos existentes na organização, independentemente do número de subordinados por chefia.
 * **E)** As organizações privadas submetem-se ao mesmo regime de recrutamento universal mediante concurso público imposto pela Constituição aos órgãos estatais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -451,7 +488,8 @@ A respeito das funções do processo administrativo (planejamento, organização
 
 
 
-### Questão 09 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+### Teste 308
+**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
 Na Administração Pública contemporânea, a distinção entre **Concentração/Desconcentração** e **Centralização/Descentralização** é basilar para a compreensão da estrutura estatal.
 
 Sobre esses conceitos fundamentais, assinale a alternativa correta:
@@ -461,6 +499,9 @@ Sobre esses conceitos fundamentais, assinale a alternativa correta:
 * **C)** A criação de delegacias de polícia ou postos de atendimento ao cidadão em municípios do interior configura típica descentralização por outorga legal.
 * **D)** A descentralização preserva a hierarquia direta e a subordinação disciplinar entre o Chefe do Executivo e os dirigentes das entidades privadas contratadas.
 * **E)** A desconcentração enseja a extinção imediata do poder regulamentar do ente estatal matriz.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -474,7 +515,8 @@ Sobre esses conceitos fundamentais, assinale a alternativa correta:
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 309
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 No exercício da função administrativa de **Controle**, a literatura e a jurisprudência consagraram a classificação do controle governamental quanto ao momento de sua efetivação em: prévio (preventivo), concomitante e a posteriori (corretivo).
 
 Constitui exemplo de controle governamental **prévio** (ou preventivo):
@@ -485,6 +527,9 @@ Constitui exemplo de controle governamental **prévio** (ou preventivo):
 * **D)** O julgamento formal das contas dos ordenadores de despesas referente ao ano financeiro pretérito.
 * **E)** A cobrança judicial via execução fiscal dos valores de multas imputadas pelo Tribunal de Contas.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. O **controle prévio/preventivo** atua antes da consumação ou produção de efeitos do ato (ex.: exame cautelar de editais licitatórios, vistorias preliminares, suspensão de assinatura de contratos).
@@ -494,6 +539,8 @@ Constitui exemplo de controle governamental **prévio** (ou preventivo):
 > - **E)** Incorreta. Execução fiscal é coercitiva final.
 > 
 > **Gabarito: A**
+
+
 
 ---
 

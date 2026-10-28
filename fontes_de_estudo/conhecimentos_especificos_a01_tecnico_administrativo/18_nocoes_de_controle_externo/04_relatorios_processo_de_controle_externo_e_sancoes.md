@@ -5,7 +5,10 @@
 > **Arquivo:** `04_relatorios_processo_de_controle_externo_e_sancoes.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -33,23 +36,36 @@
     - Reflexos eleitorais do julgamento de contas (inelegibilidade de 8 anos da Lei da Ficha Limpa - LC nº 64/90);
 - Prescrição no âmbito do controle externo: prescrição quinquenal (5 anos) da pretensão punitiva e ressarcitória (Tema 899 do STF e Lei nº 9.873/1999) e prescrição intercorrente trienal (3 anos).
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Comunicação dos Resultados e Deliberações do Tribunal](#1-comunicacao-dos-resultados-e-deliberacoes-do-tribunal)
-    - [1.1 Atributos do Relatório de Auditoria](#11-atributos-do-relatorio-de-auditoria)
-    - [1.2 Espécies de Deliberações: Determinações versus Recomendações](#12-especies-de-deliberacoes-determinacoes-versus-recomendacoes)
-- [2. Tomada de Contas Especial (TCE): Rito e Pressupostos](#2-tomada-de-contas-especial-tce-rito-e-pressupostos)
-    - [2.1 Natureza Jurídica e Pressupostos de Instauração Obrigatória](#21-natureza-juridica-e-pressupostos-de-instauracao-obrigatoria)
-    - [2.2 Fase Interna versus Fase Externa da TCE](#22-fase-interna-versus-fase-externa-da-tce)
-- [3. Comunicações Processuais: Citação versus Audiência](#3-comunicacoes-processuais-citacao-versus-audiencia)
-- [4. Julgamento das Contas de Gestão dos Administradores Públicos](#4-julgamento-das-contas-de-gestao-dos-administradores-publicos)
-- [5. Sistema Recursal no Processo de Controle Externo](#5-sistema-recursal-no-processo-de-controle-externo)
-- [6. Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)](#6-regime-sancionatorio-e-reflexos-eleitorais-lei-da-ficha-limpa)
-- [7. Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)](#7-prescricao-nos-tribunais-de-contas-o-marco-do-stf-tema-899)
-- [8. Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Comunicação dos Resultados e Deliberações do Tribunal](#1-comunicacao-dos-resultados-e-deliberacoes-do-tribunal)
+    2. [Teste 198](#Teste-198)
+    3. [Tomada de Contas Especial (TCE): Rito e Pressupostos](#2-tomada-de-contas-especial-tce-rito-e-pressupostos)
+    4. [Teste 199](#Teste-199)
+    5. [Teste 200](#Teste-200)
+    6. [Comunicações Processuais: Citação versus Audiência](#3-comunicacoes-processuais-citacao-versus-audiencia)
+    7. [Teste 201](#Teste-201)
+    8. [Teste 202](#Teste-202)
+    9. [Julgamento das Contas de Gestão dos Administradores Públicos](#4-julgamento-das-contas-de-gestao-dos-administradores-publicos)
+    10. [Teste 203](#Teste-203)
+    11. [Teste 204](#Teste-204)
+    12. [Sistema Recursal no Processo de Controle Externo](#5-sistema-recursal-no-processo-de-controle-externo)
+    13. [Teste 205](#Teste-205)
+    14. [Teste 206](#Teste-206)
+    15. [Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)](#6-regime-sancionatorio-e-reflexos-eleitorais-lei-da-ficha-limpa)
+    16. [Teste 207](#Teste-207)
+    17. [Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)](#7-prescricao-nos-tribunais-de-contas-o-marco-do-stf-tema-899)
+    18. [Teste 208](#Teste-208)
+2. [Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
 
 ---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -75,7 +91,8 @@ As deliberações do Tribunal de Contas proferidas no julgamento de relatórios 
 
 
 
-### Questão 01 (FCC - Analista de Controle Externo / TCE-GO)
+### Teste 198
+**(FCC - Analista de Controle Externo / TCE-GO)**
 A respeito da comunicação dos resultados das fiscalizações e dos instrumentos deliberativos do Tribunal de Contas, assinale a afirmativa correta.
 
 * **A)** O acórdão constitui deliberação monocrática tomada exclusivamente pelo Conselheiro-Presidente em matéria administrativa interna.
@@ -83,6 +100,9 @@ A respeito da comunicação dos resultados das fiscalizações e dos instrumento
 * **C)** As decisões monocráticas dos Conselheiros-Relatores são irrecorríveis e imunes a qualquer insurgência recursal pelo gestor público.
 * **D)** O relatório de auditoria elaborado pela equipe técnica tem força executiva imediata de título extrajudicial antes de qualquer manifestação do colegiado do Tribunal.
 * **E)** O Ministério Público de Contas tem a prerrogativa de emitir sentenças vinculantes que anulam os acórdãos do Pleno do Tribunal de Contas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -132,7 +152,8 @@ Para a instauração e prosseguimento regular de uma TCE, exige-se o preenchimen
 
 
 
-### Questão 02 (FGV - Auditor de Controle Externo / TCE-SC)
+### Teste 199
+**(FGV - Auditor de Controle Externo / TCE-SC)**
 A Tomada de Contas Especial (TCE) é um processo administrativo de controle de rito próprio instaurado para apurar responsabilidade por dano causado ao erário.
 
 Sobre os pressupostos de instauração e o desenvolvimento da Tomada de Contas Especial, assinale a afirmativa correta.
@@ -142,6 +163,9 @@ Sobre os pressupostos de instauração e o desenvolvimento da Tomada de Contas E
 * **C)** A autoridade administrativa do órgão lesado fica dispensada de instaurar a TCE se o dano tiver sido praticado por servidor efetivo com mais de vinte anos de serviço.
 * **D)** A instauração da Tomada de Contas Especial é prerrogativa exclusiva e originária do Poder Judiciário.
 * **E)** A Tomada de Contas Especial não admite a condenação solidária de pessoas jurídicas de direito privado contratadas pelo órgão público.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -155,7 +179,8 @@ Sobre os pressupostos de instauração e o desenvolvimento da Tomada de Contas E
 
 ---
 
-### Questão 03 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 200
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional e processual dos Tribunais de Contas, assinale a opção correta:
 
 * **A)** A Tomada de Contas Especial constitui procedimento ordinário de fiscalização anual a que se submetem compulsoriamente todos os dirigentes de autarquias estaduais ao término de cada exercício financeiro.
@@ -163,6 +188,9 @@ A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional e
 * **C)** A instauração da TCE é medida excepcional de apuração de responsabilidades, que pressupõe o esgotamento prévio das providências administrativas internas para recomposição do erário e a demonstração cabal da ocorrência de prejuízo de valor superior ao limite de alçada legalmente fixado.
 * **D)** Caso o dano apurado decorra de desfalque praticado por particular sem vínculo estatutário com o poder público, o Tribunal de Contas não possui competência jurisdicional para julgar a respectiva TCE, devendo os autos ser remetidos com exclusividade à autoridade policial.
 * **E)** A citação do responsável no bojo da Tomada de Contas Especial dispensa a individualização da conduta e a indicação do valor nominal do débito atribuído, bastando a descrição genérica do fato apurado pela comissão tomadora.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -194,7 +222,8 @@ flowchart LR
 
 ---
 
-### Questão 04 (FCC - Adaptada / Analista de Controle Externo)
+### Teste 201
+**(FCC - Adaptada / Analista de Controle Externo)**
 Em processo de controle externo instaurado no Tribunal de Contas para apurar irregularidades em contrato administrativo estadual, a equipe técnica concluiu que determinada cláusula editalícia violou a Lei de Licitações, porém sem constatação de sobrepreço ou superfaturamento nos pagamentos realizados à empreiteira.
 
 Para oportunizar a manifestação formal do gestor que subscreveu o edital impugnado, o ato de comunicação processual adequado a ser determinado pelo Relator é a:
@@ -204,6 +233,9 @@ Para oportunizar a manifestação formal do gestor que subscreveu o edital impug
 * **C)** Interpelação judicial perante a Vara da Fazenda Pública.
 * **D)** Notificação cartorária para confissão de dívida.
 * **E)** Citação por edital com prazo de cinco dias sob pena de revelia e prisão civil.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -219,7 +251,8 @@ Para oportunizar a manifestação formal do gestor que subscreveu o edital impug
 
 
 
-### Questão 05 (FCC - Procurador do Estado / Adaptada)
+### Teste 202
+**(FCC - Procurador do Estado / Adaptada)**
 Determinada autoridade administrativa, regularmente citada por edital em processo de tomada de contas especial perante o Tribunal de Contas em virtude de superfaturamento em pagamentos de obras, permaneceu inerte e não apresentou alegações de defesa nem recolheu o valor do débito no prazo fixado.
 
 Diante do não comparecimento do responsável ao processo de controle externo, assinale a opção que expressa a consequência jurídica e a atuação correta do Tribunal de Contas.
@@ -229,6 +262,9 @@ Diante do não comparecimento do responsável ao processo de controle externo, a
 * **C)** A decretação de revelia acarreta a prisão administrativa imediata do responsável pelo prazo de sessenta dias.
 * **D)** O Tribunal deve extinguir o processo sem julgamento de mérito ante a ausência de manifestação voluntária da parte.
 * **E)** A revelia impede que o responsável intervenha posteriormente nos autos ou constitua advogado antes do trânsito em julgado.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -260,7 +296,8 @@ O Tribunal de Contas, ao julgar em caráter definitivo as contas dos ordenadores
 
 ---
 
-### Questão 06 (FCC - Adaptada / TCE-AM - Auditor de Controle Externo)
+### Teste 203
+**(FCC - Adaptada / TCE-AM - Auditor de Controle Externo)**
 Um Tribunal de Contas estadual, ao analisar o processo de prestação de contas de determinado dirigente de fundação pública estadual, constatou a ocorrência de grave infração a normas orçamentárias e regulamentares da Lei nº 4.320/1964 e da Lei de Responsabilidade Fiscal, todavia sem comprovação de desfalque ou locupletamento ilícito com dano patrimonial aos cofres públicos.
 
 Diante de tal quadro, à luz da legislação de regência e da jurisprudência consolidada, o Tribunal de Contas deverá:
@@ -270,6 +307,9 @@ Diante de tal quadro, à luz da legislação de regência e da jurisprudência c
 * **C)** Julgar as contas regulares com ressalva, haja vista que a ausência de prejuízo financeiro efetivo afasta a possibilidade de juízo terminativo de irregularidade.
 * **D)** Declarar extinta a punibilidade, reconhecendo a imprescritibilidade privativa do processo administrativo de contas públicas.
 * **E)** Deixar de julgar as contas e remeter os autos à Procuradoria-Geral do Estado para ajuizamento de ação de improbidade administrativa perante o Poder Judiciário.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -285,7 +325,8 @@ Diante de tal quadro, à luz da legislação de regência e da jurisprudência c
 
 
 
-### Questão 07 (FGV - Analista de Controle Externo / TCE-GO)
+### Teste 204
+**(FGV - Analista de Controle Externo / TCE-GO)**
 No julgamento das contas dos administradores públicos realizado pelo Tribunal de Contas, as contas podem ser julgadas regulares, regulares com ressalva ou irregulares (art. 71, II, CF/88 c/c LOTCE).
 
 A respeito das consequências jurídicas do julgamento das contas, assinale a afirmativa correta.
@@ -295,6 +336,9 @@ A respeito das consequências jurídicas do julgamento das contas, assinale a af
 * **C)** As contas serão julgadas regulares com ressalva quando for comprovado desfalque financeiro ou dano irremediável ao patrimônio público.
 * **D)** As contas julgadas irregulares que não envolvam dano ao erário dispensam a aplicação de qualquer sanção pecuniária pelo Tribunal.
 * **E)** O acórdão que julga as contas regulares pode ser revisto ex officio a qualquer tempo pelo Presidente do Tribunal sem prazo decadencial.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -333,7 +377,8 @@ flowchart TD
 
 ---
 
-### Questão 08 (FCC - Adaptada / Procuradoria Legislativa)
+### Teste 205
+**(FCC - Adaptada / Procuradoria Legislativa)**
 Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgou irregulares as contas de determinado administrador público e imputou-lhe débito em processo de Tomada de Contas Especial, o responsável inconformado poderá interpor, no prazo regulamentar de quinze dias e com efeito suspensivo:
 
 * **A)** Recurso de Revisão.
@@ -341,6 +386,9 @@ Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgou irreg
 * **C)** Recurso de Reconsideração.
 * **D)** Apelação Cível Administrativa.
 * **E)** Mandado de Segurança perante o Tribunal de Justiça.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -356,7 +404,8 @@ Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgou irreg
 
 
 
-### Questão 09 (FCC - Técnico de Controle Externo / TCE-GO)
+### Teste 206
+**(FCC - Técnico de Controle Externo / TCE-GO)**
 Sobre o sistema recursal no processo de controle externo perante o Tribunal de Contas, assinale a afirmativa correta.
 
 * **A)** O recurso de revisão possui efeito suspensivo automático sobre a execução do acórdão condenatório de débito emitido pelo Tribunal.
@@ -364,6 +413,9 @@ Sobre o sistema recursal no processo de controle externo perante o Tribunal de C
 * **C)** Os embargos de declaração no processo do Tribunal de Contas têm prazo de quinze dias úteis para interposição.
 * **D)** O recurso de revisão pode ser interposto a qualquer tempo, mesmo após vinte anos do trânsito em julgado administrativo, sem necessidade de documento novo.
 * **E)** É proibida a interposição de recursos administrativos por terceiros juridicamente interessados que comprovem prejuízo direto decorrente da decisão da Corte.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -392,7 +444,8 @@ As sanções administrativas dos Tribunais de Contas incluem:
 
 ---
 
-### Questão 10 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 207
+**(FCC - Adaptada / Analista de Gestão Pública)**
 Acerca dos reflexos eleitorais decorrentes das decisões terminativas proferidas pelos Tribunais de Contas, consoante o disposto na Lei Complementar nº 64/1990 (com as alterações da Lei da Ficha Limpa) e a jurisprudência sumulada do TSE:
 
 * **A)** O julgamento que considera contas regulares com ressalva atrai automaticamente a inelegibilidade do gestor pelo prazo de quatro anos.
@@ -400,6 +453,9 @@ Acerca dos reflexos eleitorais decorrentes das decisões terminativas proferidas
 * **C)** Toda e qualquer reprovação de contas em Tribunal de Contas gera inelegibilidade irrecorrível, sendo vedada qualquer apreciação do processo pelo Poder Judiciário.
 * **D)** As decisões dos Tribunais de Contas não produzem efeitos eleitorais, cabendo exclusivamente à Justiça Eleitoral apurar danos patrimoniais e desvios de conduta.
 * **E)** A inelegibilidade decorrente da rejeição de contas perdura por até vinte anos contados da data da notificação inicial no Tribunal de Contas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -431,7 +487,8 @@ A disciplina da prescrição nas ações perante os Tribunais de Contas é orien
 
 
 
-### Questão 11 (FGV - Auditor de Controle Externo / TCE-GO)
+### Teste 208
+**(FGV - Auditor de Controle Externo / TCE-GO)**
 A Lei Complementar nº 64/1990 (Lei das Inelegibilidades, com as alterações da Lei da Ficha Limpa - LC nº 135/2010) estabelece que são inelegíveis os que tiverem suas contas relativas ao exercício de cargos ou funções públicas rejeitadas por irregularidade insanável que configure ato doloso de improbidade administrativa.
 
 Sobre a atuação do Tribunal de Contas na aplicação da Lei da Ficha Limpa e o envio de listagens à Justiça Eleitoral, assinale a afirmativa correta.
@@ -441,6 +498,9 @@ Sobre a atuação do Tribunal de Contas na aplicação da Lei da Ficha Limpa e o
 * **C)** A inclusão do nome do gestor na lista do Tribunal de Contas enseja a cassação automática de seu diploma de eleito pela mesa da assembleia legislativa.
 * **D)** Contas rejeitadas por mera culpa ou impropriedade formal leve atraem compulsoriamente a inelegibilidade decenal da Lei da Ficha Limpa.
 * **E)** A obtenção de liminar judicial suspendendo os efeitos do acórdão do Tribunal de Contas é irrelevante para a Justiça Eleitoral, que deve manter o indeferimento da candidatura.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -452,7 +512,10 @@ Sobre a atuação do Tribunal de Contas na aplicação da Lei da Ficha Limpa e o
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 🌐 Fontes Oficiais & Jurisprudenciais Recomendadas
 

@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_requisitos_historias_de_usuario_uml_e_bpmn.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Levantamento, especificação, análise, validação e gerenciamento de requisitos funcionais e não funcionais
@@ -12,29 +15,45 @@
 - Modelagem de sistemas com UML (Unified Modeling Language)
 - Modelagem de processos de negócio com BPMN (Business Process Model and Notation)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Engenharia de Requisitos de Software](#1-engenharia-de-requisitos-de-software)
-    - [1.1 Ciclo de Vida da Engenharia de Requisitos](#11-ciclo-de-vida-da-engenharia-de-requisitos)
-    - [1.2 Técnicas de Elicitação de Requisitos](#12-tecnicas-de-elicitacao-de-requisitos)
-    - [1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)](#13-requisitos-funcionais-vs-requisitos-nao-funcionais-taxonomia-de-sommerville)
-    - [1.4 Gerenciamento, Rastreabilidade e Mudança de Requisitos](#14-gerenciamento-rastreabilidade-e-mudanca-de-requisitos)
-- [2. Modelagem por Casos de Uso e Histórias de Usuário](#2-modelagem-por-casos-de-uso-e-historias-de-usuario)
-    - [2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)](#21-modelagem-de-casos-de-uso-elementos-e-relacionamentos-include-vs-extend)
-    - [2.2 Histórias de Usuário (User Stories) e os 3 Cs de Ron Jeffries](#22-historias-de-usuario-user-stories-e-os-3-cs-de-ron-jeffries)
-    - [2.3 Critérios de Aceite e o Padrão INVEST](#23-criterios-de-aceite-e-o-padrao-invest)
-- [3. Modelagem de Sistemas com UML (versão 2.5)](#3-modelagem-de-sistemas-com-uml-versao-25)
-    - [3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais](#31-taxonomia-dos-diagramas-uml-estruturais-vs-comportamentais)
-    - [3.2 Diagrama de Classes: Visibilidade, Multiplicidade, Agregação e Composição](#32-diagrama-de-classes-visibilidade-multiplicidade-agregacao-e-composicao)
-    - [3.3 Diagramas de Sequência, Atividades e Máquina de Estados](#33-diagramas-de-sequencia-atividades-e-maquina-de-estados)
-- [4. Modelagem de Processos de Negócio com BPMN 2.0](#4-modelagem-de-processos-de-negocio-com-bpmn-20)
-    - [4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas](#41-elementos-de-fluxo-eventos-atividades-e-tipos-de-tarefas)
-    - [4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)](#42-gateways-decisorios-no-bpmn-20-xor-and-or-e-event-based)
-    - [4.3 Estruturas de Separação (Pools e Lanes) e Conectores de Sequência vs. Mensagem](#43-estruturas-de-separacao-pools-e-lanes-e-conectores-de-sequencia-vs-mensagem)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Engenharia de Requisitos de Software](#1-engenharia-de-requisitos-de-software)
+    1. [Ciclo de Vida da Engenharia de Requisitos](#11-ciclo-de-vida-da-engenharia-de-requisitos)
+    2. [Teste 012](#Teste-012)
+    3. [Técnicas de Elicitação de Requisitos](#12-tecnicas-de-elicitacao-de-requisitos)
+    4. [Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)](#13-requisitos-funcionais-vs-requisitos-nao-funcionais-taxonomia-de-sommerville)
+    5. [Teste 013](#Teste-013)
+    6. [Gerenciamento, Rastreabilidade e Mudança de Requisitos](#14-gerenciamento-rastreabilidade-e-mudanca-de-requisitos)
+2. [Modelagem por Casos de Uso e Histórias de Usuário](#2-modelagem-por-casos-de-uso-e-historias-de-usuario)
+    1. [Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)](#21-modelagem-de-casos-de-uso-elementos-e-relacionamentos-include-vs-extend)
+    2. [Teste 014](#Teste-014)
+    3. [Histórias de Usuário (User Stories) e os 3 Cs de Ron Jeffries](#22-historias-de-usuario-user-stories-e-os-3-cs-de-ron-jeffries)
+    4. [Teste 015](#Teste-015)
+    5. [Critérios de Aceite e o Padrão INVEST](#23-criterios-de-aceite-e-o-padrao-invest)
+    6. [Teste 016](#Teste-016)
+3. [Modelagem de Sistemas com UML (versão 2.5)](#3-modelagem-de-sistemas-com-uml-versao-25)
+    1. [Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais](#31-taxonomia-dos-diagramas-uml-estruturais-vs-comportamentais)
+    2. [Teste 017](#Teste-017)
+    3. [Diagrama de Classes: Visibilidade, Multiplicidade, Agregação e Composição](#32-diagrama-de-classes-visibilidade-multiplicidade-agregacao-e-composicao)
+    4. [Teste 018](#Teste-018)
+    5. [Diagramas de Sequência, Atividades e Máquina de Estados](#33-diagramas-de-sequencia-atividades-e-maquina-de-estados)
+    6. [Teste 019](#Teste-019)
+4. [Modelagem de Processos de Negócio com BPMN 2.0](#4-modelagem-de-processos-de-negocio-com-bpmn-20)
+    1. [Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas](#41-elementos-de-fluxo-eventos-atividades-e-tipos-de-tarefas)
+    2. [Teste 020](#Teste-020)
+    3. [Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)](#42-gateways-decisorios-no-bpmn-20-xor-and-or-e-event-based)
+    4. [Teste 021](#Teste-021)
+    5. [Estruturas de Separação (Pools e Lanes) e Conectores de Sequência vs. Mensagem](#43-estruturas-de-separacao-pools-e-lanes-e-conectores-de-sequencia-vs-mensagem)
+    6. [Teste 022](#Teste-022)
+5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Engenharia de Requisitos de Software
 
@@ -50,7 +69,7 @@ A Engenharia de Requisitos é o processo disciplinado de descobrir, analisar, do
 
 ---
 
-### Questão 01
+### Teste 012
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O processo de Engenharia de Requisitos compreende um conjunto de atividades estruturadas destinadas a descobrir, analisar, documentar e manter os requisitos de um sistema de software. A atividade desse processo cuja finalidade precípua é demonstrar formalmente que a especificação de requisitos define com precisão o sistema que os clientes realmente desejam e necessitam, identificando ambiguidades, omissões e inconsistências antes da codificação, denomina-se:
 
@@ -59,6 +78,9 @@ O processo de Engenharia de Requisitos compreende um conjunto de atividades estr
 * **C)** Rastreabilidade de requisitos.
 * **D)** Gerenciamento de mudanças.
 * **E)** Modelagem de domínio.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -105,7 +127,7 @@ flowchart TD
 
 ---
 
-### Questão 02
+### Teste 013
 **(FCC – SEFAZ – Auditor Fiscal da Receita Estadual)**  
 Na especificação de requisitos de software segundo a taxonomia clássica de Ian Sommerville, os requisitos são categorizados em Requisitos Funcionais (RF) e Requisitos Não Funcionais (RNF). Considere os seguintes requisitos elicitados para um sistema corporativo:  
 
@@ -120,6 +142,9 @@ A correta classificação dos itens I, II e III é, respectivamente:
 * **C)** RF, RNF e RNF.
 * **D)** RNF, RNF e RF.
 * **E)** RF, RNF e RF.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -138,7 +163,10 @@ A correta classificação dos itens I, II e III é, respectivamente:
     - *Rastreabilidade para frente (Forward traceability):* Liga o requisito aos módulos arquiteturais, classes, componentes e casos de teste que o implementam e validam;
 - **Matriz de Rastreabilidade:** Tabela que mapeia a correlação bidirecional entre requisitos de usuário, requisitos de sistema, diagramas de arquitetura e casos de testes unitários.
 
+
+
 ---
+
 
 ## 2. Modelagem por Casos de Uso e Histórias de Usuário
 
@@ -171,7 +199,7 @@ Um Caso de Uso descreve uma sequência de interações entre um ator externo (hu
 
 ---
 
-### Questão 03
+### Teste 014
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Em um diagrama de casos de uso da UML (versão 2.5), os relacionamentos entre casos de uso podem ser representados por estereótipos como «include» e «extend». A respeito desses relacionamentos, é correto afirmar que:
 
@@ -180,6 +208,9 @@ Em um diagrama de casos de uso da UML (versão 2.5), os relacionamentos entre ca
 * **C)** As setas tracejadas de ambos os relacionamentos apontam sempre do caso de uso estendido/incluído em direção ao ator primário.
 * **D)** O relacionamento «include» só pode ocorrer entre atores do sistema, não entre casos de uso.
 * **E)** O relacionamento «extend» impede a ocorrência de cenários alternativos no caso de uso base.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -206,7 +237,7 @@ $$\text{"Como [papel de usuário], eu quero [funcionalidade/ação], para que [b
 
 ---
 
-### Questão 04
+### Teste 015
 **(FCC – DPE – Analista de Sistemas)**  
 No contexto do desenvolvimento ágil, Ron Jeffries sintetizou os componentes essenciais de uma História de Usuário (*User Story*) por meio da abordagem dos "Três Cs": *Card*, *Conversation* e *Confirmation*. O papel correspondente ao "Confirmation" estabelece que:
 
@@ -215,6 +246,9 @@ No contexto do desenvolvimento ágil, Ron Jeffries sintetizou os componentes ess
 * **C)** deve ser realizada uma reunião de confirmação diária de 2 horas entre todos os diretores da organização.
 * **D)** a história deve ser impressa em três cartões coloridos fixados no quadro Kanban.
 * **E)** o código-fonte deve ser compilado e confirmado em três ambientes de nuvem distintos antes do commit.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -245,7 +279,7 @@ No contexto do desenvolvimento ágil, Ron Jeffries sintetizou os componentes ess
 
 ---
 
-### Questão 05
+### Teste 016
 **(FCC – SEFAZ – Auditor Fiscal da Receita Estadual)**  
 Ao redigir Histórias de Usuário (*User Stories*) em projetos orientados por metodologias ágeis, os analistas empregam o acrônimo INVEST para avaliar a qualidade técnica das histórias escritas. A letra "N" do referido acrônimo estabelece que a história deve ser:
 
@@ -254,6 +288,9 @@ Ao redigir Histórias de Usuário (*User Stories*) em projetos orientados por me
 * **C)** Normalizada (*Normalized*), seguindo rigorosamente a terceira forma normal de banco de dados relacional.
 * **D)** Nominal (*Nominal*), contendo a assinatura formal em cartório do patrocinador do projeto antes do início de cada Sprint.
 * **E)** Não-funcional (*Non-functional*), priorizando exclusivamente requisitos de segurança e volumetria de infraestrutura.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -265,8 +302,9 @@ Ao redigir Histórias de Usuário (*User Stories*) em projetos orientados por me
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 3. Modelagem de Sistemas com UML (versão 2.5)
@@ -293,7 +331,7 @@ A UML 2.5 divide seus diagramas em duas categorias fundamentais cobradas rigoros
 
 ---
 
-### Questão 06
+### Teste 017
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 A linguagem UML (Unified Modeling Language, versão 2.5) define 14 diagramas oficiais divididos em duas grandes categorias: Diagramas Estruturais e Diagramas Comportamentais (com o subgrupo de Interação). Dentre os diagramas listados a seguir, pertencem exclusivamente à categoria dos **Diagramas Estruturais**:
 
@@ -302,6 +340,9 @@ A linguagem UML (Unified Modeling Language, versão 2.5) define 14 diagramas ofi
 * **C)** Diagrama de Classes, Diagrama de Componentes e Diagrama de Implantação (*Deployment Diagram*).
 * **D)** Diagrama de Objetos, Diagrama de Atividades e Diagrama de Pacotes.
 * **E)** Diagrama de Sequência, Diagrama de Interação Geral e Diagrama de Tempo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -350,7 +391,7 @@ classDiagram
 
 ---
 
-### Questão 07
+### Teste 018
 **(FCC – TRF – Analista Judiciário / TI)**  
 No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assumir formas especializadas de acoplamento do tipo Todo-Parte conhecidas como Agregação e Composição. Sobre esses conceitos, assinale a afirmação correta:
 
@@ -359,6 +400,9 @@ No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assu
 * **C)** Na Composição, as "Partes" podem pertencer simultaneamente a múltiplos objetos "Todo" em tempo de execução.
 * **D)** A Agregação representa um acoplamento mais forte e rígido do que a Composição, exigindo obrigatoriamente multiplicidade de 1..1.
 * **E)** Na UML, a generalização entre classes concretas substitui integralmente a necessidade de composição quando se deseja implementar herança múltipla.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -388,7 +432,7 @@ No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assu
 ---
 
 
-### Questão 08
+### Teste 019
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No Diagrama de Sequência da UML 2.5, utilizado para modelar a dinâmica de interação temporal entre objetos, a notação gráfica para representar uma mensagem assíncrona (na qual o remetente envia o estímulo e prossegue imediatamente com seu processamento sem aguardar a conclusão do receptor) é:
 
@@ -398,6 +442,9 @@ ightarrow$).
 * **C)** Uma linha tracejada terminada por um círculo preenchido.
 * **D)** Um losango preenchido na extremidade do emissor.
 * **E)** Uma linha dupla contínua sem extremidades direcionais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -410,7 +457,10 @@ ightarrow$).
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Modelagem de Processos de Negócio com BPMN 2.0
 
@@ -429,7 +479,7 @@ A notação **BPMN 2.0** (*Business Process Model and Notation*), mantida pelo c
 
 ---
 
-### Questão 09
+### Teste 020
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na notação BPMN 2.0 (*Business Process Model and Notation*), as tarefas são atividades atômicas que compõem o fluxo do processo. A tarefa que representa um trabalho executado por um serviço automatizado (como um Web Service, API externa ou rotina de backend) sem qualquer intervenção humana direta é denominada:
 
@@ -438,6 +488,9 @@ Na notação BPMN 2.0 (*Business Process Model and Notation*), as tarefas são a
 * **C)** *Service Task* (Tarefa de Serviço).
 * **D)** *Business Rule Task* (Tarefa de Regra de Negócio).
 * **E)** *Script Task* (Tarefa de Script executada pelo próprio motor BPMN).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -472,7 +525,7 @@ flowchart TD
 
 ---
 
-### Questão 10
+### Teste 021
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 Na modelagem de processos de negócio com a notação BPMN 2.0, um analista precisa representar uma bifurcação no fluxo em que duas atividades subsequentes devem ser executadas simultaneamente (em paralelo), independentemente de qualquer condição ou teste de dados. Para essa finalidade, deve-se empregar o gateway:
 
@@ -481,6 +534,9 @@ Na modelagem de processos de negócio com a notação BPMN 2.0, um analista prec
 * **C)** Inclusivo (marcado com um círculo "O").
 * **D)** Complexo (marcado com um asterisco "*").
 * **E)** Baseado em eventos (marcado com um pentágono).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -509,7 +565,7 @@ Na modelagem de processos de negócio com a notação BPMN 2.0, um analista prec
 
 ---
 
-### Questão 11
+### Teste 022
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 No que diz respeito à notação BPMN 2.0 e suas regras formais de modelagem de processos corporativos, assinale a afirmativa correta:
 
@@ -518,6 +574,9 @@ No que diz respeito à notação BPMN 2.0 e suas regras formais de modelagem de 
 * **C)** Mensagens trocadas entre diferentes participantes de um processo devem ser modeladas obrigatoriamente utilizando linhas sólidas com setas preenchidas.
 * **D)** Um evento de início do tipo Temporizador só pode ser posicionado dentro de um subprocesso de eventos com gatilho de erro fatal.
 * **E)** Os objetos de dados (*Data Objects*) são elementos de execução que controlam ativamente o redirecionamento das rotas do processo de negócio.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -529,8 +588,9 @@ No que diz respeito à notação BPMN 2.0 e suas regras formais de modelagem de 
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 5. Fontes Oficiais e Referências Bibliográficas

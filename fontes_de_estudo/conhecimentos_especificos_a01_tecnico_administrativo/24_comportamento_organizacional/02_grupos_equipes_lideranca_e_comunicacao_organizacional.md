@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `02_grupos_equipes_lideranca_e_comunicacao_organizacional.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Grupos versus Equipes de Trabalho nas organizações:
@@ -27,17 +30,33 @@
     - Fluxos e redes de comunicação: descendente, ascendente, horizontal/lateral e diagonal;
     - Barreiras à comunicação interpessoal: filtragem deliberada, percepção seletiva, sobrecarga informacional, desconfiança e barreiras semânticas.
 
----
 
-## 🧭 Sumário Interativo
-- [1. Grupos de Trabalho versus Equipes de Trabalho](#1-grupos-de-trabalho-versus-equipes-de-trabalho)
-- [2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman](#2-o-modelo-de-desenvolvimento-de-grupos-de-bruce-tuckman)
-- [3. Evolução das Teorias de Liderança e a Liderança Situacional](#3-evolucao-das-teorias-de-lideranca-e-a-lideranca-situacional)
-- [4. Liderança Transacional vs. Liderança Transformacional](#4-lideranca-transacional-vs-lideranca-transformacional)
-- [5. O Processo de Comunicação Organizacional e suas Barreiras](#5-o-processo-de-comunicacao-organizacional-e-suas-barreiras)
-- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [Grupos de Trabalho versus Equipes de Trabalho](#1-grupos-de-trabalho-versus-equipes-de-trabalho)
+    2. [Teste 410](#Teste-410)
+    3. [Teste 411](#Teste-411)
+    4. [O Modelo de Desenvolvimento de Grupos de Bruce Tuckman](#2-o-modelo-de-desenvolvimento-de-grupos-de-bruce-tuckman)
+    5. [Teste 412](#Teste-412)
+    6. [Teste 413](#Teste-413)
+    7. [Evolução das Teorias de Liderança e a Liderança Situacional](#3-evolucao-das-teorias-de-lideranca-e-a-lideranca-situacional)
+    8. [Teste 414](#Teste-414)
+    9. [Teste 415](#Teste-415)
+    10. [Liderança Transacional vs. Liderança Transformacional](#4-lideranca-transacional-vs-lideranca-transformacional)
+    11. [Teste 416](#Teste-416)
+    12. [O Processo de Comunicação Organizacional e suas Barreiras](#5-o-processo-de-comunicacao-organizacional-e-suas-barreiras)
+    13. [Teste 417](#Teste-417)
+    14. [Teste 418](#Teste-418)
+    15. [Teste 419](#Teste-419)
+    16. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -85,7 +104,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Teste 410
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Trabalho segundo a literatura especializada de comportamento organizacional, assinale a opção correta:
 
@@ -94,6 +113,9 @@ A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Traba
 * **C)** Os grupos de trabalho dependem compulsoriamente de habilidades técnicas altamente complementares entre seus membros.
 * **D)** Em uma equipe de trabalho, a sinergia é sempre neutra, limitando-se os integrantes a trocar informações de rotina sem compromisso mútuo com as metas.
 * **E)** As equipes autogerenciadas são aquelas nas quais o gestor superior centraliza todas as decisões operacionais sem delegar autoridade aos membros.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -109,7 +131,8 @@ A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Traba
 
 
 
-### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 411
+**(FCC - Adaptada / Analista de Gestão Pública)**
 No Comportamento Organizacional, a distinção entre **Grupo de Trabalho** e **Equipe de Trabalho** é fundamental para a gestão de pessoas.
 
 Constitui característica essencial e distintiva de uma **Equipe de Trabalho** de alto desempenho:
@@ -119,6 +142,9 @@ Constitui característica essencial e distintiva de uma **Equipe de Trabalho** d
 * **C)** A concentração exclusiva das decisões na figura do chefe hierárquico formal, sem participação da equipe.
 * **D)** A inexistência de complementaridade de habilidades técnicas entre os colaboradores.
 * **E)** O foco exclusivo na produtividade individual isolada sem metas coletivas compartilhadas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -150,7 +176,7 @@ flowchart LR
 
 ---
 
-### Questão 03
+### Teste 412
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce Tuckman, o estágio em que surgem conflitos explícitos entre os participantes, disputas internas pelo controle do grupo e resistências à liderança formal pré-estabelecida é denominado:
 
@@ -159,6 +185,9 @@ De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce
 * **C)** Estágio de Normatização (*Norming*).
 * **D)** Estágio de Desempenho (*Performing*).
 * **E)** Estágio de Desintegração (*Adjourning*).
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -174,7 +203,8 @@ De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce
 
 
 
-### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 413
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Bruce Tuckman propôs um modelo seminal que descreve os cinco estágios universais pelos quais passam os grupos e equipes ao longo de seu ciclo de desenvolvimento.
 
 O estágio em que o grupo supera conflitos internos de poder, estabelece coesão, define normas claras de convivência e desenvolve forte sentimento de identidade e camaradagem mútua é denominado:
@@ -184,6 +214,9 @@ O estágio em que o grupo supera conflitos internos de poder, estabelece coesão
 * **C)** Conflito / Tempestade (Storming).
 * **D)** Desempenho (Performing).
 * **E)** Desintegração / Dissolução (Adjourning).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -234,7 +267,7 @@ flowchart TD
 
 ---
 
-### Questão 05
+### Teste 414
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kenneth Blanchard, considere um grupo de servidores recém-aprovados em concurso público que acaba de ser lotado em uma gerência de fiscalização contábil. Os novos servidores apresentam grande entusiasmo e disposição para aprender, todavia desconhecem completamente as normas regimentais específicas e as ferramentas operacionais do sistema informatizado de controle externo (nível de maturidade M2). De acordo com a teoria, o estilo de liderança mais apropriado a ser adotado pelo gestor da unidade é:
 
@@ -243,6 +276,9 @@ A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kennet
 * **C)** Estilo de Não Intervenção / Laissez-Faire (isenção de qualquer comando diretivo ou cobrança de metas).
 * **D)** Estilo Apoiador Exclusivo (baixo comportamento de tarefa e alto comportamento de relacionamento).
 * **E)** Estilo de Imposição Burocrática Inflexível sem concessão de explicações pedagógicas.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -258,7 +294,8 @@ A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kennet
 
 
 
-### Questão 06 (FCC - Adaptada / Analista de Planejamento e Controle)
+### Teste 415
+**(FCC - Adaptada / Analista de Planejamento e Controle)**
 Na Teoria da Liderança Situacional formulada por Paul Hersey e Kenneth Blanchard, o estilo de liderança mais eficaz não é fixo, mas depende do nível de **prontidão (ou maturidade)** dos liderados para desempenhar uma tarefa específica.
 
 Quando os liderados apresentam **baixa competência e alto comprometimento/motivação** (estágio de maturidade M1), o estilo de liderança mais indicado pelo modelo é:
@@ -268,6 +305,9 @@ Quando os liderados apresentam **baixa competência e alto comprometimento/motiv
 * **C)** Apoiar / Participar (E3 - Apoio), com foco exclusivo em suporte afetivo e baixa orientação sobre como executar a tarefa.
 * **D)** Autocracia repressiva punitiva com ameaça de abertura de processo administrativo.
 * **E)** Demissão sumária por insuficiência de capacitação técnica.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -298,7 +338,7 @@ flowchart LR
 
 ---
 
-### Questão 07
+### Teste 416
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 No âmbito dos estudos sobre liderança nas organizações contemporâneas, o modelo de Liderança Transformacional diferencia-se da Liderança Transacional fundamentalmente porque:
 
@@ -307,6 +347,9 @@ No âmbito dos estudos sobre liderança nas organizações contemporâneas, o mo
 * **C)** A liderança transacional rejeita qualquer tipo de recompensa ou cobrança de cumprimento de rotinas operacionais.
 * **D)** O líder transformacional restringe sua atuação à gestão por exceção, intervindo unicamente quando ocorrem falhas graves na linha de montagem.
 * **E)** A liderança transformacional é restrita a estruturas organizacionais mecanicistas e lineares do setor militar.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -356,7 +399,7 @@ flowchart LR
 
 ---
 
-### Questão 08
+### Teste 417
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 Durante a elaboração de um relatório de fiscalização, determinado analista deliberadamente omitiu informações cruciais sobre irregularidades graves na conservação da malha rodoviária, selecionando e apresentando apenas dados favoráveis à concessionária, com o objetivo expresso de evitar atritos com seu superior hierárquico e fazer com que o documento parecesse positivo. No processo de comunicação organizacional, a conduta desse servidor materializa a barreira denominada:
 
@@ -365,6 +408,9 @@ Durante a elaboração de um relatório de fiscalização, determinado analista 
 * **C)** Barreira de decodificação receptiva.
 * **D)** Ruído semântico involuntário.
 * **E)** Percepção sensorial dilatada.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -380,7 +426,8 @@ Durante a elaboração de um relatório de fiscalização, determinado analista 
 
 
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 418
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na moderna literatura sobre liderança, Bernard Bass consagrou a contraposição entre **Liderança Transacional** e **Liderança Transformacional**.
 
 Constitui característica marcante da **Liderança Transformacional**:
@@ -390,6 +437,9 @@ Constitui característica marcante da **Liderança Transformacional**:
 * **C)** Utilizar primordialmente a gestão por exceção passiva, intervindo apenas quando falhas graves já ocorreram.
 * **D)** Concentrar todo o poder e evitar que os servidores desenvolvam pensamento crítico autônomo.
 * **E)** Punir severamente os liderados que apresentarem ideias inovadoras contrárias aos regulamentos tradicionais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -401,7 +451,8 @@ Constitui característica marcante da **Liderança Transformacional**:
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 419
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 No processo de comunicação organizacional, a barreira que ocorre quando o emissor manipula deliberadamente as informações para que sejam vistas de modo mais favorável e lisonjeiro pelo receptor (muito comum em relações verticais ascendentes em que subordinados ocultam más notícias de seus chefes) é denominada:
 
 * **A)** Filtragem.
@@ -409,6 +460,9 @@ No processo de comunicação organizacional, a barreira que ocorre quando o emis
 * **C)** Sobrecarga de Informação.
 * **D)** Ruído Semântico.
 * **E)** Linguagem Não Verbal Involuntária.
+
+
+---
 
 > **Comentário Detalhado:**
 >

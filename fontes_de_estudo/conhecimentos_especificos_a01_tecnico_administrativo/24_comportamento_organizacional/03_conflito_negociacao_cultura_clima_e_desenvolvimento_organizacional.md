@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `03_conflito_negociacao_cultura_clima_e_desenvolvimento_organizacional.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Conflito Organizacional:
@@ -28,18 +31,34 @@
     - Análise do Campo de Forças de Lewin: forças propulsoras/impulsoras versus forças restritivas;
     - Fontes de resistência à mudança individuais e organizacionais.
 
----
 
-## 🧭 Sumário Interativo
-- [1. Evolução Teórica do Conflito e Tipologias por Conteúdo](#1-evolucao-teorica-do-conflito-e-tipologias-por-conteudo)
-- [2. Estilos de Administração de Conflitos (Thomas-Kilmann)](#2-estilos-de-administracao-de-conflitos-thomas-kilmann)
-- [3. Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)](#3-tecnicas-de-negociacao-distributiva-vs-integrativa-modelo-harvard)
-- [4. Cultura Organizacional e os Três Níveis de Edgar Schein](#4-cultura-organizacional-e-os-tres-niveis-de-edgar-schein)
-- [5. Cultura Organizacional versus Clima Organizacional](#5-cultura-organizacional-versus-clima-organizacional)
-- [6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)](#6-desenvolvimento-organizacional-e-gestao-da-mudanca-kurt-lewin)
-- [7. Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [Evolução Teórica do Conflito e Tipologias por Conteúdo](#1-evolucao-teorica-do-conflito-e-tipologias-por-conteudo)
+    2. [Teste 420](#Teste-420)
+    3. [Teste 421](#Teste-421)
+    4. [Estilos de Administração de Conflitos (Thomas-Kilmann)](#2-estilos-de-administracao-de-conflitos-thomas-kilmann)
+    5. [Teste 422](#Teste-422)
+    6. [Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)](#3-tecnicas-de-negociacao-distributiva-vs-integrativa-modelo-harvard)
+    7. [Teste 423](#Teste-423)
+    8. [Teste 424](#Teste-424)
+    9. [Cultura Organizacional e os Três Níveis de Edgar Schein](#4-cultura-organizacional-e-os-tres-niveis-de-edgar-schein)
+    10. [Teste 425](#Teste-425)
+    11. [Cultura Organizacional versus Clima Organizacional](#5-cultura-organizacional-versus-clima-organizacional)
+    12. [Teste 426](#Teste-426)
+    13. [Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)](#6-desenvolvimento-organizacional-e-gestao-da-mudanca-kurt-lewin)
+    14. [Teste 427](#Teste-427)
+    15. [Teste 428](#Teste-428)
+    16. [Teste 429](#Teste-429)
+    17. [Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -67,7 +86,7 @@ flowchart LR
 
 ---
 
-### Questão 01
+### Teste 420
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 No âmbito da teoria contemporânea de gestão de conflitos, a abordagem Interacionista defende que:
 
@@ -76,6 +95,9 @@ No âmbito da teoria contemporânea de gestão de conflitos, a abordagem Interac
 * **C)** Um nível controlado de conflito funcional de tarefas deve ser incentivado, pois estimula a autocrítica, desafia ideias acomodadas e fomenta a criatividade e a inovação.
 * **D)** Os conflitos de relacionamento interpessoal devem ser estimulados pela direção para desarticular a coesão de grupos corporativos informais.
 * **E)** As organizações que operam sob a abordagem interacionista eliminam a figura do líder para permitir conflitos ilimitados e irrestritos.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -91,7 +113,8 @@ No âmbito da teoria contemporânea de gestão de conflitos, a abordagem Interac
 
 
 
-### Questão 02 (FCC - Adaptada / Analista de Planejamento e Gestão)
+### Teste 421
+**(FCC - Adaptada / Analista de Planejamento e Gestão)**
 Na evolução teórica a respeito dos conflitos organizacionais, três visões sucederam-se historicamente: a Visão Tradicional, a Visão de Relações Humanas e a Visão Interacionista.
 
 Segundo a **Visão Interacionista** do conflito:
@@ -101,6 +124,9 @@ Segundo a **Visão Interacionista** do conflito:
 * **C)** O conflito decorre exclusivamente da má contratação de servidores públicos no concurso público.
 * **D)** A harmonia absoluta e a ausência de divergências garantem que a instituição atinja a excelência máxima de inovação.
 * **E)** Os conflitos de relacionamento devem ser estimulados em níveis máximos para criar disputa destrutiva interna.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -137,7 +163,8 @@ flowchart TD
 
 ---
 
-### Questão 03 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 422
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Kenneth Thomas e Ralph Kilmann desenvolveram um modelo seminal de cinco estilos de administração de conflitos, estruturado em duas dimensões comportamentais: **Assertividade** (grau em que o indivíduo busca satisfazer seus próprios interesses) e **Cooperatividade** (grau em que busca satisfazer os interesses da outra parte).
 
 O estilo de gestão de conflitos caracterizado por **alta assertividade e alta cooperatividade**, no qual as partes buscam uma solução ganha-ganha (*win-win*) que integre plenamente as preocupações de ambos, denomina-se:
@@ -147,6 +174,9 @@ O estilo de gestão de conflitos caracterizado por **alta assertividade e alta c
 * **C)** Acomodação (ou Suavização).
 * **D)** Não Enfrentamento (ou Evitação / Fuga).
 * **E)** Acordo de Compromisso (ou Meio-termo superficial).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -178,7 +208,7 @@ flowchart LR
 
 ---
 
-### Questão 04
+### Teste 423
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 Durante uma negociação contratual complexa entre um órgão público e uma empresa concessionária de serviços, as partes optaram por adotar os preceitos da Negociação Integrativa (*Ganha-Ganha*). Essa modalidade negocial caracteriza-se essencialmente por:
 
@@ -187,6 +217,9 @@ Durante uma negociação contratual complexa entre um órgão público e uma emp
 * **C)** Exigir que uma das partes capitule integralmente em suas pretensões econômicas em favor da outra para viabilizar o acordo.
 * **D)** Eliminar a Zona de Possível Acordo (ZOPA) e desconsiderar o valor de reserva estipulado no termo de referência.
 * **E)** Restringir-se a transações mercantis esporádicas de compra imediata, nas quais a única variável relevante é o menor preço à vista.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -202,7 +235,8 @@ Durante uma negociação contratual complexa entre um órgão público e uma emp
 
 
 
-### Questão 05 (FCC - Adaptada / Analista de Tecnologia e Controle)
+### Teste 424
+**(FCC - Adaptada / Analista de Tecnologia e Controle)**
 Na teoria da negociação baseada nos princípios do Projeto de Negociação de Harvard (Fisher, Ury e Patton), a **Negociação Integrativa (ou Baseada em Princípios)** distingue-se da Negociação Distributiva (ou Posicional) por:
 
 * **A)** Concentrar-se nos interesses subjacentes reais das partes e não em posições rígidas assumidas, gerando opções de ganho mútuo e utilizando critérios objetivos justos para a solução das controvérsias.
@@ -210,6 +244,9 @@ Na teoria da negociação baseada nos princípios do Projeto de Negociação de 
 * **C)** Empregar táticas de pressão psicológica extrema, blefes e ocultação deliberada de dados essenciais.
 * **D)** Impor a judicialização compulsória de todo conflito de gestão administrativa perante a Justiça Federal.
 * **E)** Condicionar o desfecho da negociação à concessão de reajustes orçamentários automáticos pelo Tesouro.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -249,7 +286,7 @@ flowchart TD
 
 ---
 
-### Questão 06
+### Teste 425
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Segundo a teoria dos níveis da cultura organizacional desenvolvida por Edgar Schein, os elementos mais profundos, enraizados e invisíveis da cultura, constituídos por crenças e percepções tidas como verdades absolutas e inquestionáveis que orientam o comportamento dos colaboradores sem que eles sequer tomem consciência disso, denominam-se:
 
@@ -258,6 +295,9 @@ Segundo a teoria dos níveis da cultura organizacional desenvolvida por Edgar Sc
 * **C)** Símbolos materiais e cerimoniais.
 * **D)** Pressupostos básicos subjacentes.
 * **E)** Códigos formais de ética institucional.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -298,7 +338,7 @@ flowchart LR
 
 ---
 
-### Questão 07
+### Teste 426
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 A respeito da diferença essencial entre Cultura Organizacional e Clima Organizacional, assinale a afirmativa correta:
 
@@ -307,6 +347,9 @@ A respeito da diferença essencial entre Cultura Organizacional e Clima Organiza
 * **C)** A cultura organizacional é a personalidade e o alicerce antropológico profundo da instituição, enquanto o clima organizacional é a atmosfera psicológica conjuntural e perceptual do momento.
 * **D)** A cultura e o clima são termos estritamente sinônimos na teoria das organizações, distinguindo-se apenas quanto ao nível hierárquico dos avaliados.
 * **E)** O clima organizacional manifesta-se exclusivamente através dos pressupostos básicos subjacentes inconscientes descritos por Edgar Schein.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -346,7 +389,7 @@ flowchart LR
 
 ---
 
-### Questão 08
+### Teste 427
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 No modelo clássico de gestão da mudança organizacional formulado por Kurt Lewin, a fase em que a liderança da instituição cria intencionalmente a necessidade percebida de mudança, desestabilizando o *status quo* vigente e quebrando velhos hábitos arraigados na equipe para prepará-la para o aprendizado de novas práticas operacionais, é denominada:
 
@@ -355,6 +398,9 @@ No modelo clássico de gestão da mudança organizacional formulado por Kurt Lew
 * **C)** Movimento (*Moving*).
 * **D)** Entropia negativa.
 * **E)** Institucionalização de valor.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -370,7 +416,8 @@ No modelo clássico de gestão da mudança organizacional formulado por Kurt Lew
 
 
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 428
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Edgar Schein estruturou a Cultura Organizacional em três níveis hierárquicos de visibilidade e profundidade psicológica: **Artefatos**, **Valores Compartilhados** e **Pressupostos Básicos**.
 
 Os **Pressupostos Básicos** caracterizam-se por:
@@ -380,6 +427,9 @@ Os **Pressupostos Básicos** caracterizam-se por:
 * **C)** Consistirem em discursos oficiais gravados em vídeos institucionais divulgados nas redes sociais.
 * **D)** Serem facilmente modificados a cada eleição mediante a edição de portarias administrativas simplificadas.
 * **E)** Limitarem-se ao regimento interno do Tribunal de Contas aprovado em resolução.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -392,7 +442,8 @@ Os **Pressupostos Básicos** caracterizam-se por:
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 429
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 No modelo clássico de Desenvolvimento Organizacional e Gestão da Mudança proposto por Kurt Lewin, o processo de transformação estruturada de uma instituição desenvolve-se em três etapas sequenciais:
 
 A ordem cronológica correta das três etapas de Kurt Lewin é:
@@ -402,6 +453,9 @@ A ordem cronológica correta das três etapas de Kurt Lewin é:
 * **C)** Licitação, Homologação e Pagamento financeiro.
 * **D)** Avaliação de Desempenho, Promoção e Aposentadoria.
 * **E)** Centralização, Desconcentração e Extinção funcional.
+
+
+---
 
 > **Comentário Detalhado:**
 >

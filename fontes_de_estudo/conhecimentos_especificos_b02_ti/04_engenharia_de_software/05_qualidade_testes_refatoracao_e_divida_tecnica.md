@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `05_qualidade_testes_refatoracao_e_divida_tecnica.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Qualidade de software: desempenho, escalabilidade, disponibilidade, confiabilidade e manutenibilidade
@@ -14,30 +17,46 @@
 - Refatoração de código (refactoring)
 - Dívida técnica (technical debt)
 
+
+
 ---
+
 
 ## 🧭 Sumário
-- [1. Atributos e Métricas de Qualidade de Software (ISO/IEC 25010)](#1-atributos-e-metricas-de-qualidade-de-software-isoiec-25010)
-    - [1.1 Desempenho e Eficiência de Recursos](#11-desempenho-e-eficiencia-de-recursos)
-    - [1.2 Escalabilidade Vertical (Scale Up) vs. Escalabilidade Horizontal (Scale Out)](#12-escalabilidade-vertical-scale-up-vs-escalabilidade-horizontal-scale-out)
-    - [1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)](#13-confiabilidade-disponibilidade-e-metricas-de-manutencao-mtbf-e-mttr)
-    - [1.4 Manutenibilidade e Facilidade de Mudança](#14-manutenibilidade-e-facilidade-de-mudanca)
-- [2. Níveis e Estratégias de Testes de Software](#2-niveis-e-estrategias-de-testes-de-software)
-    - [2.1 A Pirâmide de Testes de Mike Cohn](#21-a-piramide-de-testes-de-mike-cohn)
-    - [2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)](#22-dubles-de-teste-test-doubles-de-gerard-meszaros)
-    - [2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)](#23-testes-de-caixa-preta-funcionais-vs-testes-de-caixa-branca-estruturais)
-    - [2.4 Complexidade Ciclomática de Thomas McCabe e Grafo de Fluxo](#24-complexidade-ciclomatica-de-thomas-mccabe-e-grafo-de-fluxo)
-- [3. Tipos Especializados de Testes e Automação](#3-tipos-especializados-de-testes-e-automacao)
-    - [3.1 Testes de Regressão e Automação Contínua](#31-testes-de-regressao-e-automacao-continua)
-    - [3.2 Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência](#32-testes-de-desempenho-carga-vs-estresse-vs-pico-vs-resistencia)
-    - [3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)](#33-praticas-de-tdd-test-driven-development-e-bdd-behavior-driven-development)
-- [4. Revisão de Código, Refatoração e Dívida Técnica](#4-revisao-de-codigo-refatoracao-e-divida-tecnica)
-    - [4.1 Técnicas Modernas de Revisão de Código (Code Review)](#41-tecnicas-modernas-de-revisao-de-codigo-code-review)
-    - [4.2 Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler](#42-refatoracao-de-codigo-e-os-maus-cheiros-code-smells-de-fowler)
-    - [4.3 Dívida Técnica e o Quadrante de Martin Fowler](#43-divida-tecnica-e-o-quadrante-de-martin-fowler)
-- [5. Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+
+1. [Atributos e Métricas de Qualidade de Software (ISO/IEC 25010)](#1-atributos-e-metricas-de-qualidade-de-software-isoiec-25010)
+    1. [Desempenho e Eficiência de Recursos](#11-desempenho-e-eficiencia-de-recursos)
+    2. [Escalabilidade Vertical (Scale Up) vs. Escalabilidade Horizontal (Scale Out)](#12-escalabilidade-vertical-scale-up-vs-escalabilidade-horizontal-scale-out)
+    3. [Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)](#13-confiabilidade-disponibilidade-e-metricas-de-manutencao-mtbf-e-mttr)
+    4. [Teste 043](#Teste-043)
+    5. [Manutenibilidade e Facilidade de Mudança](#14-manutenibilidade-e-facilidade-de-mudanca)
+2. [Níveis e Estratégias de Testes de Software](#2-niveis-e-estrategias-de-testes-de-software)
+    1. [A Pirâmide de Testes de Mike Cohn](#21-a-piramide-de-testes-de-mike-cohn)
+    2. [Teste 044](#Teste-044)
+    3. [Dublês de Teste (*Test Doubles* de Gerard Meszaros)](#dubles-de-teste-test-doubles-de-gerard-meszaros)
+    4. [Teste 045](#Teste-045)
+    5. [Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)](#23-testes-de-caixa-preta-funcionais-vs-testes-de-caixa-branca-estruturais)
+    6. [Teste 046](#Teste-046)
+    7. [Complexidade Ciclomática de Thomas McCabe e Grafo de Fluxo](#24-complexidade-ciclomatica-de-thomas-mccabe-e-grafo-de-fluxo)
+    8. [Teste 047](#Teste-047)
+3. [Tipos Especializados de Testes e Automação](#3-tipos-especializados-de-testes-e-automacao)
+    1. [Testes de Regressão e Automação Contínua](#31-testes-de-regressao-e-automacao-continua)
+    2. [Teste 048](#Teste-048)
+    3. [Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência](#32-testes-de-desempenho-carga-vs-estresse-vs-pico-vs-resistencia)
+    4. [Teste 049](#Teste-049)
+    5. [Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)](#33-praticas-de-tdd-test-driven-development-e-bdd-behavior-driven-development)
+    6. [Teste 050](#Teste-050)
+4. [Revisão de Código, Refatoração e Dívida Técnica](#4-revisao-de-codigo-refatoracao-e-divida-tecnica)
+    1. [Técnicas Modernas de Revisão de Código (Code Review)](#41-tecnicas-modernas-de-revisao-de-codigo-code-review)
+    2. [Teste 051](#Teste-051)
+    3. [Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler](#42-refatoracao-de-codigo-e-os-maus-cheiros-code-smells-de-fowler)
+    4. [Teste 052](#Teste-052)
+    5. [Dívida Técnica e o Quadrante de Martin Fowler](#43-divida-tecnica-e-o-quadrante-de-martin-fowler)
+    6. [Teste 053](#Teste-053)
+5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Atributos e Métricas de Qualidade de Software (ISO/IEC 25010)
 
@@ -75,7 +94,7 @@ Mede o comportamento do sistema em termos de velocidade de resposta e utilizaç�
 
 ---
 
-### Questão 01
+### Teste 043
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na avaliação de confiabilidade e disponibilidade de sistemas computacionais em conformidade com as normas de qualidade de software, duas métricas temporais essenciais são o MTBF (*Mean Time Between Failures* - Tempo Médio Entre Falhas) e o MTTR (*Mean Time To Repair* - Tempo Médio Para Reparo). A disponibilidade global do sistema ($D$) é classicamente calculada pela fórmula:
 
@@ -84,6 +103,9 @@ Na avaliação de confiabilidade e disponibilidade de sistemas computacionais em
 * **C)** $D = MTBF - MTTR$
 * **D)** $D = \frac{MTBF \times MTTR}{100}$
 * **E)** $D = \frac{MTTR}{MTBF}$
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -107,7 +129,10 @@ A manutenibilidade reflete a facilidade e a eficiência com que o software pode 
 - **Modificabilidade:** Facilidade com que o software pode ser modificado sem introduzir novos defeitos ou degradar a qualidade existente;
 - **Testabilidade:** Grau em que critérios e testes eficazes podem ser estabelecidos e executados para validar as alterações realizadas.
 
+
+
 ---
+
 
 ## 2. Níveis e Estratégias de Testes de Software
 
@@ -132,7 +157,7 @@ flowchart TD
 
 ---
 
-### Questão 02
+### Teste 044
 **(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
 A Pirâmide de Testes, conceito amplamente difundido por Mike Cohn na engenharia de software moderna, define a proporção ideal entre diferentes categorias de testes automatizados em uma suíte de entrega contínua. Em conformidade com esse modelo, tem-se que:
 
@@ -141,6 +166,9 @@ A Pirâmide de Testes, conceito amplamente difundido por Mike Cohn na engenharia
 * **C)** os testes de integração devem ser completamente extintos, visto que os testes de unidade cobrem todas as falhas de comunicação entre microsserviços.
 * **D)** o modelo preconiza que suítes de testes automatizados devem assemelhar-se a um "cone de sorvete", priorizando testes de UI em detrimento de testes de baixo nível.
 * **E)** os testes de unidade são os mais lentos e custosos da pirâmide devido à obrigatoriedade de instanciar contêineres Docker e bancos de dados em nuvem.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -177,7 +205,7 @@ graph TD
 
 ---
 
-### Questão 03
+### Teste 045
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 No desenvolvimento guiado por testes (*Test-Driven Development* - TDD) e na criação de suítes de testes unitários isolados, utilizam-se diferentes tipos de dublês de teste (*Test Doubles*). O dublê que é configurado especificamente com expectativas prévias sobre quais métodos devem ser chamados, com quais argumentos e quantas vezes, fazendo com que o teste falhe caso essas interações não ocorram conforme esperado, é denominado:
 
@@ -186,6 +214,9 @@ No desenvolvimento guiado por testes (*Test-Driven Development* - TDD) e na cria
 * **C)** Mock.
 * **D)** Fake.
 * **E)** Driver.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -210,7 +241,7 @@ No desenvolvimento guiado por testes (*Test-Driven Development* - TDD) e na cria
 
 ---
 
-### Questão 04
+### Teste 046
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No âmbito das técnicas de teste funcional de software (Caixa-Preta), o Particionamento em Classes de Equivalência e a Análise de Valor Limite são métodos consagrados para seleção criteriosa de casos de teste. A respeito dessas técnicas, é correto afirmar:
 
@@ -219,6 +250,9 @@ No âmbito das técnicas de teste funcional de software (Caixa-Preta), o Partici
 * **C)** No particionamento de equivalência, divide-se o domínio de dados de entrada em partições válidas e inválidas, partindo do princípio de que qualquer dado representativo escolhido dentro de uma mesma partição gerará um comportamento análogo pelo sistema.
 * **D)** As técnicas de caixa-preta analisam exclusivamente a complexidade ciclomática e a cobertura de comandos do código compilado.
 * **E)** A análise de valor limite testa exclusivamente o ponto central aritmético de cada partição, ignorando os extremos superior e inferior.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -248,7 +282,7 @@ Proposta por Thomas McCabe em 1976, a **Complexidade Ciclomática ($V(G)$)** med
 
 ---
 
-### Questão 05
+### Teste 047
 **(FCC – TRF – Analista Judiciário / TI)**  
 Considere um método Java que contém a seguinte estrutura lógica de decisões condicionais: três comandos `if` simples, um laço `while` e uma estrutura `switch-case` com quatro cláusulas `case` e uma cláusula `default`. Aplicando a técnica de teste de caixa-branca fundamentada na Complexidade Ciclomática de Thomas McCabe ($V(G)$), o número de caminhos linearmente independentes e, consequentemente, a quantidade mínima de casos de teste necessários para cobrir todos os fluxos de execução desse método é:
 
@@ -257,6 +291,9 @@ Considere um método Java que contém a seguinte estrutura lógica de decisões 
 * **C)** 10.
 * **D)** 12.
 * **E)** 7.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -268,8 +305,9 @@ Considere um método Java que contém a seguinte estrutura lógica de decisões 
 > 
 > **Gabarito: B**
 
----
 
+
+---
 
 
 ## 3. Tipos Especializados de Testes e Automação
@@ -280,7 +318,7 @@ Considere um método Java que contém a seguinte estrutura lógica de decisões 
 
 ---
 
-### Questão 06
+### Teste 048
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Uma equipe de desenvolvimento de software do Tribunal de Contas concluiu a correção de uma vulnerabilidade de segurança e a implementação de uma nova funcionalidade na rotina de cadastro de credores. Antes de disponibilizar a nova versão em produção, o líder técnico determinou a execução imediata de um conjunto de testes automatizados com o objetivo específico de verificar se as alterações recentes introduzidas no código-fonte não afetaram adversamente ou causaram falhas em partes do sistema que funcionavam perfeitamente antes da alteração. O tipo de teste determinado pelo líder é o:
 
@@ -289,6 +327,9 @@ Uma equipe de desenvolvimento de software do Tribunal de Contas concluiu a corre
 * **C)** Teste de carga.
 * **D)** Teste de usabilidade.
 * **E)** Teste de caixa-transparente destrutivo.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -318,7 +359,7 @@ A engenharia de testes de desempenho categoriza os testes de acordo com o padrã
 
 ---
 
-### Questão 07
+### Teste 049
 **(FCC – SEFAZ – Auditor de Tecnologia da Informação)**  
 Uma equipe de testes de software planeja a execução de testes não-funcionais de desempenho em um portal tributário que receberá declarações fiscais. Para verificar o comportamento do sistema quando submetido a uma carga que ultrapassa intencionalmente a capacidade operacional máxima para a qual foi projetado, com o objetivo de observar como o sistema se comporta sob falha, se degrada graciosamente e como se recupera após a remoção da sobrecarga extrema, deve ser planejado um:
 
@@ -327,6 +368,9 @@ Uma equipe de testes de software planeja a execução de testes não-funcionais 
 * **C)** Teste de Aceitação de Usuário (*UAT*).
 * **D)** Teste de Sanidade (*Sanity Testing*).
 * **E)** Teste de Fumaça (*Smoke Testing*).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -353,7 +397,7 @@ Uma equipe de testes de software planeja a execução de testes não-funcionais 
 ---
 
 
-### Questão 08
+### Teste 050
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O Desenvolvimento Orientado por Testes (*Test-Driven Development* - TDD), preconizado por Kent Beck, estabelece um ciclo disciplinado de desenvolvimento guiado por iterações extremamente curtas, denominado ciclo *Red-Green-Refactor*. A ordem estrita e as ações correspondentes a esse ciclo são:
 
@@ -362,6 +406,9 @@ O Desenvolvimento Orientado por Testes (*Test-Driven Development* - TDD), precon
 * **C)** 1. Refatorar o código legado sem testes (Refactor); 2. Executar testes de carga em produção (Green); 3. Corrigir bugs reportados pelos usuários (Red).
 * **D)** 1. Gerar relatórios de cobertura SonarQube (Red); 2. Solicitar aprovação gerencial (Green); 3. Comitar na branch master (Refactor).
 * **E)** 1. Escrever código e testes simultaneamente na mesma classe (Green); 2. Desabilitar testes que falharem (Refactor); 3. Marcar o build como concluído (Red).
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -373,7 +420,10 @@ O Desenvolvimento Orientado por Testes (*Test-Driven Development* - TDD), precon
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 4. Revisão de Código, Refatoração e Dívida Técnica
 
@@ -386,7 +436,7 @@ A revisão de código é uma prática colaborativa indispensável de garantia da
 
 ---
 
-### Questão 09
+### Teste 051
 **(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
 No ciclo de vida de desenvolvimento de software em equipes de alta maturidade, a prática de Revisão de Código (*Code Review*) por meio de *Pull Requests* / *Merge Requests* aliada à Análise Estática Automatizada compõe a primeira linha de defesa da qualidade do software. Em relação a essas práticas, é correto afirmar:
 
@@ -395,6 +445,9 @@ No ciclo de vida de desenvolvimento de software em equipes de alta maturidade, a
 * **C)** A revisão por pares de código deve ser reservada exclusivamente para código desenvolvido por estagiários, devendo o código de desenvolvedores seniores ser enviado direto para produção sem inspeção.
 * **D)** O Code Review tem como finalidade primordial medir o tempo gasto por linha de código para fins de aplicação de penalidades trabalhistas.
 * **E)** O uso de ferramentas automatizadas de análise de código elimina integralmente a necessidade da revisão humana em Pull Requests.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -420,7 +473,7 @@ No ciclo de vida de desenvolvimento de software em equipes de alta maturidade, a
 
 ---
 
-### Questão 10
+### Teste 052
 **(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
 A respeito do conceito de refatoração (*refactoring*) de código em engenharia de software e da metáfora de dívida técnica, assinale a afirmativa correta:
 
@@ -429,6 +482,9 @@ A respeito do conceito de refatoração (*refactoring*) de código em engenharia
 * **C)** A dívida técnica é um conceito que se aplica exclusivamente aos débitos financeiros de contratos de licitação em atraso.
 * **D)** A prática do desenvolvimento guiado por testes (TDD) proíbe a realização de refatoração após os testes unitários passarem.
 * **E)** Métodos longos com dezenas de parâmetros são considerados boas práticas de modularidade no padrão Clean Code.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -468,7 +524,7 @@ flowchart TD
 ---
 
 
-### Questão 11
+### Teste 053
 **(FCC – Inédita – Padrão TCE-GO)**  
 O conceito de Dívida Técnica (*Technical Debt*), cunhado originariamente por Ward Cunningham e categorizado no célebre "Quadrante da Dívida Técnica" por Martin Fowler, compara decisões apressadas de desenvolvimento a dívidas financeiras. No quadrante de Fowler, quando uma equipe assume deliberadamente uma solução de arquitetura simplificada e incompleta para atingir um prazo de lançamento crucial do negócio, tendo plena consciência técnica do débito e planejando pagá-lo na Sprint seguinte, essa dívida é classificada como:
 
@@ -477,6 +533,9 @@ O conceito de Dívida Técnica (*Technical Debt*), cunhado originariamente por W
 * **C)** Imprudente e Deliberada.
 * **D)** Prudente e Inadvertida.
 * **E)** Acidental e Irreversível.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -492,7 +551,10 @@ O conceito de Dívida Técnica (*Technical Debt*), cunhado originariamente por W
 >
 > **Gabarito: B**
 
+
+
 ---
+
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 

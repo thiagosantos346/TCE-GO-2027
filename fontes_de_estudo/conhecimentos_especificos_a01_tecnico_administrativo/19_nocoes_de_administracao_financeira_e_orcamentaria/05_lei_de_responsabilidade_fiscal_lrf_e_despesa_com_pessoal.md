@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `05_lei_de_responsabilidade_fiscal_lrf_e_despesa_com_pessoal.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -26,27 +29,32 @@
     - Vedação do Artigo 42 da LRF (assunção de obrigação financeira nos últimos dois quadrimestres sem disponibilidade de caixa);
     - Nulidade de atos que aumentem despesa com pessoal nos últimos 180 dias de mandato (Artigo 21, parágrafo único da LRF).
 
----
 
-## 🧭 Sumário Interativo
-- [1. Fundamentos e Instrumentos de Transparência da LRF](#1-fundamentos-e-instrumentos-de-transparencia-da-lrf)
-    - [1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)](#11-premissas-da-gestao-fiscal-responsavel-art-1o-1o)
-    - [1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF](#12-os-relatorios-fiscais-obrigatorios-rreo-e-rgf)
-- [2. Despesa Obrigatória de Caráter Continuado (DOCC - Art. 17)](#2-despesa-obrigatoria-de-carater-continuado-docc-art-17)
-    - [2.1 Conceito Legal e Requisitos Formais](#21-conceito-legal-e-requisitos-formais)
-    - [2.2 Mecanismos Permanentes de Compensação Fiscal](#22-mecanismos-permanentes-de-compensacao-fiscal)
-- [3. Despesa Total com Pessoal (DTP) e Gatilhos de Controle](#3-despesa-total-com-pessoal-dtp-e-gatilhos-de-controle)
-    - [3.1 Conceito, Apuração Quadrimestral e Base da RCL](#31-conceito-apuracao-quadrimestral-e-base-da-rcl)
-    - [3.2 Repartição dos Limites Globais e a Cota do TCE-GO](#32-reparticao-dos-limites-globais-e-a-cota-do-tce-go)
-    - [3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações](#33-limite-de-alerta-prudencial-e-maximo-gatilhos-e-vedacoes)
-    - [3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)](#34-regras-de-reconducao-e-medidas-constitucionais-sucessivas-de-corte-art-169)
-- [4. Endividamento, Regra de Ouro, ARO e Vedações de Fim de Mandato](#4-endividamento-regra-de-ouro-aro-e-vedacoes-de-fim-de-mandato)
-    - [4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)](#41-a-regra-de-ouro-orcamentaria-art-167-iii-da-cf88)
-    - [4.2 Regime das Operações de Crédito por ARO (Art. 38)](#42-regime-das-operacoes-de-credito-por-aro-art-38)
-    - [4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)](#43-as-restricoes-severas-de-final-de-mandato-arts-21-e-42-da-lrf)
-- [5. Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Conteúdo Teórico Aprofundado](#conteudo-teorico-aprofundado)
+    1. [Fundamentos e Instrumentos de Transparência da LRF](#1-fundamentos-e-instrumentos-de-transparencia-da-lrf)
+    2. [Teste 250](#Teste-250)
+    3. [Despesa Obrigatória de Caráter Continuado (DOCC - Art. 17)](#2-despesa-obrigatoria-de-carater-continuado-docc-art-17)
+    4. [Teste 251](#Teste-251)
+    5. [Despesa Total com Pessoal (DTP) e Gatilhos de Controle](#3-despesa-total-com-pessoal-dtp-e-gatilhos-de-controle)
+    6. [Teste 252](#Teste-252)
+    7. [Teste 253](#Teste-253)
+    8. [Teste 254](#Teste-254)
+    9. [Teste 255](#Teste-255)
+    10. [Teste 256](#Teste-256)
+    11. [Endividamento, Regra de Ouro, ARO e Vedações de Fim de Mandato](#4-endividamento-regra-de-ouro-aro-e-vedacoes-de-fim-de-mandato)
+    12. [Teste 257](#Teste-257)
+    13. [Teste 258](#Teste-258)
+    14. [Teste 259](#Teste-259)
+2. [Fontes Oficiais & Normativas Recomendadas](#fontes-oficiais-normativas-recomendadas)
+
+---
+
 
 ## 📖 Conteúdo Teórico Aprofundado
 
@@ -69,7 +77,8 @@ flowchart TD
 
 ---
 
-### Questão 01 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Teste 250
+**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 A Lei Complementar nº 101/2000 (LRF) estabelece dois instrumentos essenciais de transparência da gestão fiscal: o Relatório Resumido da Execução Orçamentária (RREO) e o Relatório de Gestão Fiscal (RGF).
 
 Sobre a periodicidade de publicação e o alcance desses relatórios, assinale a afirmativa correta:
@@ -79,6 +88,9 @@ Sobre a periodicidade de publicação e o alcance desses relatórios, assinale a
 * **C)** O RREO e o RGF são publicados anualmente em conjunto, exclusivamente como anexo integrante da prestação de contas do Governador ao Tribunal de Contas.
 * **D)** O RGF abrange unicamente o demonstrativo das despesas com propaganda institucional e diárias de viagem.
 * **E)** O descumprimento dos prazos de publicação do RREO não gera qualquer sanção institucional ao ente federado, possuindo natureza meramente orientativa.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -123,7 +135,8 @@ flowchart TD
 
 ---
 
-### Questão 02 (FCC - Adaptada / Analista de Planejamento e Orçamento)
+### Teste 251
+**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
 Determinado Secretário de Estado pretende criar um novo programa social continuado de concessão de bolsas financeiras mensais a estudantes do ensino médio da rede pública estadual, com vigência estimada por tempo indeterminado.
 
 Nos termos do artigo 17 da Lei de Responsabilidade Fiscal, por se tratar de Despesa Obrigatória de Caráter Continuado (DOCC), a criação desse programa exige:
@@ -133,6 +146,9 @@ Nos termos do artigo 17 da Lei de Responsabilidade Fiscal, por se tratar de Desp
 * **C)** Aprovação prévia unânime do Tribunal de Contas do Estado em sessão plenária extraordinária.
 * **D)** Demonstração de superávit orçamentário no balanço geral da União dos últimos cinco exercícios.
 * **E)** Declaração de nulidade de todos os contratos temporários em vigor na Secretaria de Educação.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -185,7 +201,8 @@ pie title Repartição dos Limites de Pessoal nos Estados (Teto Global: 60% da R
 
 ---
 
-### Questão 03 (FCC - Adaptada / Analista de Controle Externo - TCE-GO)
+### Teste 252
+**(FCC - Adaptada / Analista de Controle Externo - TCE-GO)**
 Consoante as normas da Lei de Responsabilidade Fiscal (LC nº 101/2000), a despesa total com pessoal do Poder Legislativo do Estado de Goiás, incluído o Tribunal de Contas do Estado, não poderá exceder determinado percentual da Receita Corrente Líquida (RCL).
 
 A fatia global reservada pela LRF e sua respectiva repartição entre os órgãos do Legislativo goiano é de:
@@ -195,6 +212,9 @@ A fatia global reservada pela LRF e sua respectiva repartição entre os órgão
 * **C)** 2,0% da RCL, sendo 1,0% para a Assembleia Legislativa e 1,0% para o Tribunal de Contas do Estado.
 * **D)** 3,0% da RCL, cabendo 2,0% à Assembleia Legislativa e 1,0% ao Tribunal de Contas do Estado.
 * **E)** 4,0% da RCL, com repartição disciplinada discricionariamente por ato conjunto dos Presidentes dos órgãos.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -233,7 +253,8 @@ Ao atingir 95% do limite legal máximo, aplicam-se imediatamente ao Poder ou ór
 
 ---
 
-### Questão 04 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 253
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Determinado Estado da Federação, ao apurar o Relatório de Gestão Fiscal (RGF) ao término do segundo quadrimestre, verificou que as despesas com pessoal do Poder Executivo atingiram 96% do limite máximo legalmente fixado pela Lei de Responsabilidade Fiscal.
 
 Diante da constatação da superação do limite prudencial, o Governador do Estado:
@@ -243,6 +264,9 @@ Diante da constatação da superação do limite prudencial, o Governador do Est
 * **C)** Ficará impedido de conceder vantagem, aumento, reajuste ou adequação de remuneração a qualquer título aos servidores públicos, ressalvada a revisão geral anual.
 * **D)** Terá o prazo de quatro quadrimestres para reconduzir a despesa ao limite prudencial, devendo demitir compulsoriamente os servidores estáveis no primeiro mês.
 * **E)** Ficará automaticamente autorizado a contrair operações de crédito por antecipação de receita orçamentária para saldar a folha de pagamento.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -256,7 +280,8 @@ Diante da constatação da superação do limite prudencial, o Governador do Est
 
 ---
 
-### Questão 05 (FCC - Adaptada / Técnico de Controle Externo)
+### Teste 254
+**(FCC - Adaptada / Técnico de Controle Externo)**
 Ao término do primeiro quadrimestre do exercício, a unidade técnica do Tribunal de Contas apurou que as despesas com pessoal da Assembleia Legislativa atingiram 92% do seu limite máximo legal.
 
 Nos termos do artigo 59, § 1º, inciso II da Lei Complementar nº 101/2000, diante dessa situação fática, compete ao Tribunal de Contas:
@@ -266,6 +291,9 @@ Nos termos do artigo 59, § 1º, inciso II da Lei Complementar nº 101/2000, dia
 * **C)** Declarar a indisponibilidade dos bens do Presidente da Mesa Diretora da Casa Legislativa.
 * **D)** Proibir o Poder Executivo de realizar o repasse do duodécimo orçamentário constitucional.
 * **E)** Decretar intervenção fiscal no parlamento com nomeação de interventor econômico.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -289,7 +317,8 @@ Nos termos do artigo 59, § 1º, inciso II da Lei Complementar nº 101/2000, dia
 
 ---
 
-### Questão 06 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 255
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na hipótese de a Despesa Total com Pessoal (DTP) de determinado Poder ou órgão autônomo estadual ultrapassar o limite máximo fixado na LRF, a Constituição Federal de 1988 (art. 169, §§ 3º e 4º) e a própria LRF impõem medidas sucessivas e escalonadas para o retorno aos limites.
 
 A ordem constitucional obrigatória das medidas de corte é:
@@ -299,6 +328,9 @@ A ordem constitucional obrigatória das medidas de corte é:
 * **C)** 1º - Suspensão do pagamento de proventos a aposentados; 2º - Extinção de órgãos públicos; 3º - Corte de despesas de capital em saúde e educação.
 * **D)** 1º - Exoneração imediata de servidores aprovados em concurso recente; 2º - Demissão de ocupantes de cargos comissionados; 3º - Aumento compulsório da alíquota do ICMS.
 * **E)** 1º - Devolução voluntária de subsídios pelos Chefes de Poder; 2º - Congelamento da inflação; 3º - Limitação exclusiva das despesas de investimento.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -313,7 +345,8 @@ A ordem constitucional obrigatória das medidas de corte é:
 ---
 
 
-### Questão 07 (FCC - Adaptada / TCE-SC - Auditor de Controle Externo)
+### Teste 256
+**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
 Em determinado Estado da Federação, apurou-se que a Despesa Total com Pessoal do Poder Executivo atingiu 96% do limite máximo legalmente admitido pela Lei de Responsabilidade Fiscal (limite prudencial ultrapassado).
 
 Diante dessa situação fática, o Poder Executivo estadual está expressamente VEDADO de:
@@ -323,6 +356,9 @@ Diante dessa situação fática, o Poder Executivo estadual está expressamente 
 * **C)** Efetuar qualquer tipo de empenho orçamentário destinado à manutenção de escolas e hospitais estaduais.
 * **D)** Arrecadar tributos estaduais inscritos em dívida ativa e ajuizar execuções fiscais.
 * **E)** Publicar o Relatório Resumido da Execução Orçamentária e as prestações de contas constitucionais.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -357,7 +393,8 @@ A Antecipação de Receita Orçamentária (ARO) é uma operação de crédito de
 
 ---
 
-### Questão 08 (FCC - Adaptada / TCE-RS - Auditor de Controle Externo)
+### Teste 257
+**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
 A respeito das regras atinentes às Operações de Crédito por Antecipação de Receita Orçamentária (ARO) e às vedações do final de mandato disciplinadas na Lei Complementar nº 101/2000 (LRF), assinale a opção correta:
 
 * **A)** A ARO pode ser contratada a qualquer momento do último ano de mandato do governante, desde que aprovada por dois terços dos membros do Poder Legislativo.
@@ -365,6 +402,9 @@ A respeito das regras atinentes às Operações de Crédito por Antecipação de
 * **C)** É vedado ao titular de Poder contrair obrigação de despesa nos últimos dois quadrimestres do seu mandato sem que haja suficiente disponibilidade de caixa para o seu pagamento.
 * **D)** A liquidação da ARO poderá ser postergada para o exercício seguinte caso a arrecadação tributária no mês de dezembro fique abaixo da média anual.
 * **E)** A realização de ARO dispensa a cobrança de juros bancários por se tratar de operação de curto prazo de assistência mútua federativa.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -395,7 +435,8 @@ flowchart TD
 
 ---
 
-### Questão 09 (FCC - Adaptada / Analista Jurídico de Controle)
+### Teste 258
+**(FCC - Adaptada / Analista Jurídico de Controle)**
 O art. 167, inciso III da Constituição Federal de 1988 estabelece o princípio conhecido pela doutrina e jurisprudência como a **"Regra de Ouro"** das finanças públicas brasileiras.
 
 Segundo a Regra de Ouro constitucional:
@@ -405,6 +446,9 @@ Segundo a Regra de Ouro constitucional:
 * **C)** É obrigatória a destinação de 10% da receita de impostos para a constituição de reserva monetária em ouro no Banco Central do Brasil.
 * **D)** Nenhuma dívida pública fundada poderá ultrapassar o prazo de amortização de dez anos sem autorização unânime do Senado Federal.
 * **E)** Os precatórios judiciais alimentares gozam de preferência absoluta de saque em relação a qualquer outro dispêndio estatal.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -418,7 +462,8 @@ Segundo a Regra de Ouro constitucional:
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 259
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 Nos termos do art. 42 da Lei de Responsabilidade Fiscal (LC nº 101/2000), aplicável aos governantes dos Poderes Executivo, Legislativo e Judiciário em fim de mandato:
 
 * **A)** É vedado ao titular de Poder ou órgão contrair obrigação de despesa que não possa ser cumprida integralmente dentro dos últimos dois quadrimestres do seu mandato, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito.
@@ -426,6 +471,9 @@ Nos termos do art. 42 da Lei de Responsabilidade Fiscal (LC nº 101/2000), aplic
 * **C)** Os contratos administrativos firmados nos últimos oito meses do mandato ficam automaticamente rescindidos sem direito a indenização.
 * **D)** As restrições de final de mandato atingem exclusivamente o Presidente da República e os Governadores de Estado, não se aplicando aos Prefeitos Municipais.
 * **E)** O descumprimento do art. 42 da LRF constitui mera irregularidade formal de gestão, sem repercussão na esfera penal do ordenador de despesas.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -436,6 +484,8 @@ Nos termos do art. 42 da Lei de Responsabilidade Fiscal (LC nº 101/2000), aplic
 > - **E)** Incorreta. O descumprimento do art. 42 da LRF configura o crime tipificado no art. 359-C do Código Penal (pena de reclusão de 1 a 4 anos).
 > 
 > **Gabarito: A**
+
+
 
 ---
 

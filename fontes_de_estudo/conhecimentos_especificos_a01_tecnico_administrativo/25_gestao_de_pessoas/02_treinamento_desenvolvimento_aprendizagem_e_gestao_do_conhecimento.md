@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo (TCE-GO)  
 > **Conteúdo Oficial:** Treinamento vs. Desenvolvimento de Pessoas; As Quatro Etapas do Ciclo de Treinamento (LNT, Desenho, Execução e Avaliação de Resultados); Modelo dos 4 Níveis de Kirkpatrick; Gestão do Conhecimento (Tácito vs. Explícito e Modelo SECI de Nonaka e Takeuchi); Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge; Educação Corporativa e Escolas de Governo.
 
+
+
 ---
+
 
 ## 📌 Ementa & Delimitação do Conteúdo
 
@@ -40,17 +43,33 @@
     - As Cinco Disciplinas de Peter Senge (*A Quinta Disciplina*): Domínio Pessoal, Modelos Mentais, Visão Compartilhada, Aprendizagem em Equipe e Pensamento Sistêmico;
     - Educação Corporativa no Setor Público: Escolas de Governo e a atuação da Escola Superior de Controle do TCE-GO (Instituto Leopoldo de Bulhões - ILB).
 
----
 
-## 🧭 Sumário Interativo
-- [1. Treinamento vs. Desenvolvimento de Pessoas](#1-treinamento-vs-desenvolvimento-de-pessoas)
-- [2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick](#2-o-ciclo-de-treinamento-em-quatro-etapas-e-a-avaliacao-de-kirkpatrick)
-- [3. Gestão do Conhecimento Organizacional e o Modelo SECI](#3-gestao-do-conhecimento-organizacional-e-o-modelo-seci)
-- [4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge](#4-aprendizagem-organizacional-e-as-cinco-disciplinas-de-peter-senge)
-- [5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)](#5-educacao-corporativa-e-escolas-de-governo-ilbtce-go)
-- [6. Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
+
+## 🧭 Sumário
+
+1. [Resumo Teórico Aprofundado & Esquematizado](#resumo-teorico-aprofundado-esquematizado)
+    1. [Treinamento vs. Desenvolvimento de Pessoas](#1-treinamento-vs-desenvolvimento-de-pessoas)
+    2. [Teste 440](#Teste-440)
+    3. [Teste 441](#Teste-441)
+    4. [O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick](#2-o-ciclo-de-treinamento-em-quatro-etapas-e-a-avaliacao-de-kirkpatrick)
+    5. [Teste 442](#Teste-442)
+    6. [Teste 443](#Teste-443)
+    7. [Gestão do Conhecimento Organizacional e o Modelo SECI](#3-gestao-do-conhecimento-organizacional-e-o-modelo-seci)
+    8. [Teste 444](#Teste-444)
+    9. [Teste 445](#Teste-445)
+    10. [Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge](#4-aprendizagem-organizacional-e-as-cinco-disciplinas-de-peter-senge)
+    11. [Teste 446](#Teste-446)
+    12. [Teste 447](#Teste-447)
+    13. [Educação Corporativa e Escolas de Governo (ILB/TCE-GO)](#5-educacao-corporativa-e-escolas-de-governo-ilbtce-go)
+    14. [Teste 448](#Teste-448)
+    15. [Teste 449](#Teste-449)
+    16. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+
+---
+
 
 ## 📖 Resumo Teórico Aprofundado & Esquematizado
 
@@ -81,7 +100,7 @@ flowchart TD
 
 ---
 
-### Questão 01
+### Teste 440
 **(FCC – Técnico de Controle Externo – Área Administrativa – TCE-AP)**  
 No âmbito da administração de recursos humanos, as ações voltadas para Treinamento e as ações voltadas para Desenvolvimento de Pessoas distinguem-se primordialmente em razão de seus horizontes temporais e de seus objetivos funcionais. Assinale a opção que caracteriza com precisão uma ação clássica de **Desenvolvimento de Pessoas**:
 
@@ -90,6 +109,9 @@ No âmbito da administração de recursos humanos, as ações voltadas para Trei
 * **C)** Implementação de um programa corporativo de liderança transformadora e governança pública voltado a preparar analistas para assumirem funções de direção e planejamento estratégico nos próximos anos.
 * **D)** Instrução sumária da equipe de atendimento sobre como cadastrar visitantes no balcão da portaria do edifício-sede.
 * **E)** Treinamento emergencial sobre normas de combate a incêndio promovido pela brigada de segurança predial.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -105,7 +127,8 @@ No âmbito da administração de recursos humanos, as ações voltadas para Trei
 
 
 
-### Questão 02 (FCC - Adaptada / Analista de Gestão Pública)
+### Teste 441
+**(FCC - Adaptada / Analista de Gestão Pública)**
 Na gestão de pessoas, **Treinamento** e **Desenvolvimento de Pessoas (T&D)** são processos distintos, embora complementares.
 
 A distinção conceitual precisa entre Treinamento e Desenvolvimento reside em:
@@ -115,6 +138,9 @@ A distinção conceitual precisa entre Treinamento e Desenvolvimento reside em:
 * **C)** O treinamento não pode utilizar tecnologias digitais e o desenvolvimento é sempre presencial em sala de aula.
 * **D)** O treinamento extingue a necessidade de avaliação de desempenho funcional posterior.
 * **E)** O desenvolvimento visa unicamente à redução salarial em situações de limite prudencial da LRF.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -182,7 +208,7 @@ flowchart TD
 
 ---
 
-### Questão 03
+### Teste 442
 **(FCC – Analista de Gestão Pública – DPE-RS)**  
 Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licitações e Contratos (Lei nº 14.133/2021) ofertado aos pregoeiros de uma entidade governamental, a área de Gestão de Pessoas realizou uma pesquisa formal 60 dias após o encerramento do curso, acompanhando a redução do índice de despachos devolvidos por vícios formais e observando se as minutas contratuais elaboradas pelos servidores incorporavam os novos entendimentos ensinados. Consoante a metodologia de avaliação de treinamento em quatro níveis desenvolvida por Donald Kirkpatrick, a medição realizada corresponde ao:
 
@@ -191,6 +217,9 @@ Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licita�
 * **C)** Nível 3 – Comportamento no Cargo (Transferência).
 * **D)** Nível 4 – Retorno Financeiro sobre o Investimento (ROI).
 * **E)** Nível 5 – Clima Institucional e Motivação Relacional.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -206,7 +235,8 @@ Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licita�
 
 
 
-### Questão 04 (FCC - Adaptada / Auditor de Controle Externo)
+### Teste 443
+**(FCC - Adaptada / Auditor de Controle Externo)**
 Donald Kirkpatrick concebeu o modelo mais utilizado internacionalmente para avaliação da eficácia de programas de capacitação, estruturado em quatro níveis sucessivos de impacto.
 
 O **Nível 3 (Comportamento no Cargo / Aplicação)** do modelo de Kirkpatrick avalia:
@@ -216,6 +246,9 @@ O **Nível 3 (Comportamento no Cargo / Aplicação)** do modelo de Kirkpatrick a
 * **C)** O aumento formal de retenção de conceitos verificado por meio de prova teórica aplicada ao final da aula.
 * **D)** O cálculo monetário estrito do retorno financeiro sobre o investimento (*ROI*) obtido pelo Tesouro Estadual.
 * **E)** A pontualidade da entrega do diploma de conclusão emitido pelo órgão realizador.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -293,7 +326,7 @@ flowchart TD
 
 ---
 
-### Questão 05
+### Teste 444
 **(FCC – Auditor de Controle Externo – TCE-GO)**  
 O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práticas desenvolvidas pelos seus auditores sêniores na detecção de fraudes em licitações públicas informatizadas, organizou oficinas temáticas nas quais esses profissionais veteranos estruturaram conceitos, descreveram rotinas investigativas e redigiram detalhados manuais de procedimentos e fluxogramas operacionais para consulta geral. De acordo com o modelo de criação do conhecimento organizacional proposto por Ikujiro Nonaka e Hirotaka Takeuchi (Modelo SECI), o processo de conversão do conhecimento verificado nessa iniciativa classifica-se como:
 
@@ -302,6 +335,9 @@ O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práti
 * **C)** Combinação.
 * **D)** Internalização.
 * **E)** Aprendizagem em circuito simples.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -317,7 +353,8 @@ O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práti
 
 
 
-### Questão 06 (FCC - Adaptada / Analista de Tecnologia e Controle)
+### Teste 445
+**(FCC - Adaptada / Analista de Tecnologia e Controle)**
 Ikujiro Nonaka e Hirotaka Takeuchi desenvolveram o consagrado modelo **SECI** para explicar a criação e a conversão do conhecimento organizacional através da interação entre o conhecimento tácito e o conhecimento explícito.
 
 A modalidade de conversão do conhecimento que consiste em transformar o **conhecimento tácito em conhecimento explícito** (por exemplo, quando um auditor experiente redige um manual detalhado de auditoria de obras sistematizando seus anos de intuição e prática para toda a equipe) é a:
@@ -327,6 +364,9 @@ A modalidade de conversão do conhecimento que consiste em transformar o **conhe
 * **C)** Combinação.
 * **D)** Internalização.
 * **E)** Desintermediação.
+
+
+---
 
 > **Comentário Detalhado:**
 >
@@ -355,7 +395,7 @@ A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo 
 
 ---
 
-### Questão 07
+### Teste 446
 **(FCC – Analista Judiciário – Área Judiciária – TRT-15ª)**  
 Dois teóricos fundamentais do comportamento organizacional, Chris Argyris e Donald Schön, formularam a distinção seminal entre a aprendizagem em circuito simples (*single-loop*) e a aprendizagem em circuito duplo (*double-loop*). Assinale a afirmativa que define corretamente a **aprendizagem em circuito duplo**:
 
@@ -364,6 +404,9 @@ Dois teóricos fundamentais do comportamento organizacional, Chris Argyris e Don
 * **C)** Verifica-se quando os atores organizacionais identificam uma anomalia e modificam as rotinas imediatas sem qualquer reflexão sobre os valores e objetivos fundantes da instituição.
 * **D)** Caracteriza-se pelo processo em que a organização, ao detectar erros e desvios, confronta e questiona criticamente as premissas subjacentes, as normas vigentes e os valores orientadores das políticas institucionais, reformulando seus padrões estruturais.
 * **E)** Representa a aquisição estritamente individual de novos conhecimentos teóricos pelo colaborador sem qualquer possibilidade de compartilhamento coletivo com seus pares.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -403,7 +446,7 @@ flowchart TD
 
 ---
 
-### Questão 08
+### Teste 447
 **(FCC – Analista de Controle Externo – TCE-RO)**  
 Em sua consagrada obra sobre organizações que aprendem (*Learning Organizations*), Peter Senge afirma que uma disciplina específica atua como a pedra angular e a força integradora de todas as demais, permitindo aos líderes e gestores compreenderem que a organização pública é um sistema vivo composto por inter-relações interdependentes, no qual as soluções fáceis que atacam apenas sintomas de curto prazo costumam agravar os problemas estruturais de longo prazo. Essa disciplina integradora é denominada por Senge de:
 
@@ -412,6 +455,9 @@ Em sua consagrada obra sobre organizações que aprendem (*Learning Organization
 * **C)** Visão Compartilhada.
 * **D)** Aprendizagem em Equipe.
 * **E)** Pensamento Sistêmico.
+
+
+---
 
 > **Comentário Detalhado:**  
 >
@@ -436,7 +482,8 @@ No setor público moderno, a visão fragmentada de "cursos isolados" foi substit
 
 ---
 
-### Questão 09 (FCC - Adaptada / TCE-PI - Auditor de Controle Externo)
+### Teste 448
+**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Na obra clássica *A Quinta Disciplina*, Peter Senge apresenta os fundamentos necessários para a construção de organizações que aprendem (*learning organizations*).
 
 A disciplina que Senge considera a "pedra angular" e a mais integradora de todas, por permitir que os gestores enxerguem as inter-relações e os padrões de mudança sistêmicos em vez de eventos estáticos e isolados, é o:
@@ -447,6 +494,9 @@ A disciplina que Senge considera a "pedra angular" e a mais integradora de todas
 * **D)** Visão Compartilhada.
 * **E)** Aprendizado em Equipe.
 
+
+---
+
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. Peter Senge formulou cinco disciplinas: Domínio Pessoal, Modelos Mentais, Visão Compartilhada, Aprendizagem em Equipe e **Pensamento Sistêmico**. O Pensamento Sistêmico é a quinta disciplina que integra todas as outras, permitindo enxergar as causas profundas e as estruturas interdependentes em vez de sintomas superficiais de problemas.
@@ -456,7 +506,8 @@ A disciplina que Senge considera a "pedra angular" e a mais integradora de todas
 
 ---
 
-### Questão 10 (FCC - Adaptada / TCE-GO - Analista de Controle Externo)
+### Teste 449
+**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
 No modelo de aprendizagem organizacional de Chris Argyris e Donald Schön, a **Aprendizagem de Circuito Duplo** (*Double-Loop Learning*) ocorre quando a organização:
 
 * **A)** Questiona e modifica os valores, premissas fundamentais, normas e políticas subjacentes que definem as metas da instituição, em vez de apenas corrigir erros superficiais mantendo as regras inalteradas.
@@ -464,6 +515,9 @@ No modelo de aprendizagem organizacional de Chris Argyris e Donald Schön, a **A
 * **C)** Exige que dois auditores assinem conjuntamente o mesmo relatório preliminar.
 * **D)** Mantém os procedimentos tradicionais inalterados independentemente de variações no ambiente externo.
 * **E)** Contrata duas consultorias externas concorrentes para emitir pareceres conflitantes.
+
+
+---
 
 > **Comentário Detalhado:**
 >
