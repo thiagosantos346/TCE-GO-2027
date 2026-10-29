@@ -148,34 +148,62 @@ Outro ponto importante é o **vocabulário em contexto**: a FCC frequentemente p
 
 
 ### Teste 001
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-*Considere o seguinte excerto:*  
-*"A velocidade vertiginosa com que as novas tecnologias de inteligência artificial são integradas ao cotidiano suscita promessas sedutoras de eficiência administrativa absoluta e erradicação do erro humano. Contudo, essa aparente panaceia obscurece o fato de que os sistemas algorítmicos herdaram os próprios vieses, preconceitos e miopias éticas dos dados históricos que os alimentam. Longe de representarem uma objetividade asséptica, tais instrumentos podem operar como sofisticados espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais"*.
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+*Atenção: As questões a seguir referem-se ao texto abaixo:*
 
-A partir da leitura atenta do texto, depreende-se corretamente que:
+> **Os direitos “nossos” e os “deles”**  
+>  
+> Não é incomum que julguemos o que chamamos “nossos” direitos superiores aos direitos do “outro”. Tanto no nível mais pessoal das relações como nos fatos sociais costuma ocorrer essa discrepância, com as consequências de sempre: soluções injustas.  
+> Durante um júri, em que defendia um escravo que havia matado o seu senhor, Luís Gama (1830 - 1882), advogado, jornalista e escritor mestiço, abolicionista que chegou a ser escravo por alguns anos, proferiu uma frase que se tornou célebre, numa sessão de julgamento: "O escravo que mata o senhor, seja em que circunstância for, mata sempre em legítima defesa". A frase causou tumulto e acabou por suspender a sessão do júri, despertando tremenda polêmica à época. Na verdade, continua provocando.  
+> Dissesse alguém isso hoje, em alguma circunstância análoga, seria aplaudido por uns e acusado por outros de demonizar o “proprietário”. Como se vê, também a demonização tem duas mãos: os partidários de quem subjuga acabam por demonizar a reação do subjugado. Tais fatos e tais polêmicas, sobre tais direitos, nem deveriam existir, mas existem; será que terão fim?  
+> O grande pensador e militante italiano Antonio Gramsci (1891-1937), que passou muitos anos na prisão por conta de suas ideias socialistas, propunha, em algum lugar de sua obra, que diante do dilema de uma escolha nossa conduta subsequente deve se reger pela avaliação objetiva das circunstâncias para então responder à seguinte pergunta: “Quem sofre?” Para Gramsci, o sofrimento humano é um parâmetro que não se pode perder de vista na avaliação das decisões pessoais ou políticas.  
+> *(Abelardo Trancoso, inédito)*
 
-* **A)** A tecnologia de inteligência artificial deve ter sua aplicação sumariamente suspensa nas repartições públicas, por constituir ameaça insanável aos direitos fundamentais.
-* **B)** A eficiência operacional proporcionada pelos algoritmos revelou-se ilusória, uma vez que as máquinas cometem rigorosamente a mesma quantidade de falhas que os seres humanos.
-* **C)** O autor adota uma postura crítica ao evidenciar que a pretensa neutralidade da inteligência artificial pode ocultar a perpetuação de distorções e desigualdades preexistentes na sociedade.
-* **D)** A erradicação dos erros administrativos é um objetivo já alcançado nas esferas em que a tecnologia algorítmica substituiu o juízo humano.
-* **E)** Os vieses algorítmicos decorrem da imperícia intencional dos engenheiros de computação que desenvolvem modelos visando discriminar grupos sociais específicos.
+Deve-se considerar que, na estruturação desse texto,
+
+I. o primeiro parágrafo apresenta uma tese com base
+
+numa discrepância de valores, que será ilustrada
+
+com o fato polêmico exposto no parágrafo seguinte.
+
+II. as controvérsias despertadas pela frase proferida
+
+por Luís Gama podem ser explicadas pela contun-
+
+dência de um argumento radicalmente abolicionista
+
+acionado em pleno regime escravocrata.
+
+III. a referência ao militante Antonio Gramsci, no pará-
+
+grafo final, propicia um argumento poderoso a favor
+
+de quem se pauta pelo cumprimento rigoroso da lei,
+
+não importando as circunstâncias.
+
+Em relação ao texto, é correto o que se considera em
+
+* **A)** I, II e III.
+* **B)** I e II, apenas.
+* **C)** II e III, apenas.
+* **D)** I e III, apenas.
+* **E)** II, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O texto não defende o banimento ou a suspensão sumária da tecnologia, mas alerta para o perigo de considerá-la neutra ou imune a falhas. A alternativa propõe uma solução que o autor não formulou: erro clássico de **extrapolação**.
-> - **B)** Incorreta. O texto não afirma que as máquinas cometem "rigorosamente a mesma quantidade de falhas" que os humanos; não há comparação quantitativa alguma. O texto diz que os sistemas herdam os vieses e preconceitos dos dados históricos. Há extrapolação, agravada pelo termo absoluto "rigorosamente".
-> - **C)** Correta. O núcleo argumentativo do excerto (introduzido pelo conectivo adversativo *"Contudo"*, reforçado pela expressão retificadora *"Longe de"*) desconstrói a visão ingênua da IA como "objetividade asséptica", demonstrando que os modelos funcionam como "espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais". A alternativa traduz com precisão essa tese crítica, inclusive preservando o grau de possibilidade ("pode ocultar" ↔ "podem operar").
-> - **D)** Incorreta. O autor classifica a erradicação do erro como mera "promessa sedutora" e "aparente panaceia", não como um fato concretizado. Tratar a promessa como fato consumado é erro de **contradição**.
-> - **E)** Incorreta. O texto esclarece que os vieses decorrem dos "dados históricos que os alimentam", e não de má-fé ou dolo intencional dos desenvolvedores. A atribuição de culpa e intenção é extrapolação sem amparo no excerto.
+> - **A)** Incorreta. O item III está incorreto, pois Gramsci não propõe um apego cego e formalista ao 'cumprimento rigoroso da lei', mas sim a avaliação do 'sofrimento humano' diante das circunstâncias objetivas.
+> - **B)** Correta. O item I é verdadeiro: o 1º parágrafo apresenta a tese da discrepância entre 'nossos' direitos e os direitos do 'outro', ilustrada no 2º parágrafo com o episódio histórico de Luís Gama. O item II também é verdadeiro: a contundência da frase de Luís Gama em pleno regime escravocrata explica o tumulto e a polêmica gerados.
+> - **C)** Incorreta. O item I está plenamente correto na estruturação do texto, não podendo ser descartado.
+> - **D)** Incorreta. O item III é falso (Gramsci prioriza o sofrimento humano, não o rigor legalista) e o item I é verdadeiro.
+> - **E)** Incorreta. O item II está correto e o item III é incorreto.
 >
-> **Gabarito: C**
-
-
+> **Gabarito: B**
 
 ---
-
 
 ## 2. Gêneros Textuais e Contexto de Produção
 
@@ -207,34 +235,28 @@ Na prova, isso aparece em perguntas sobre o **ponto de vista** do autor, sobre o
 --- 
 
 ### Teste 002
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o seguinte trecho:  
-*"A recente decisão governamental de rever a concessão de incentivos fiscais para determinados setores produtivos não deve ser encarada sob a ótica simplista do confronto ideológico. Trata-se, em verdade, de imperativo inadiável de responsabilidade fiscal e transparência republicana. Não é concebível que renúncias bilionárias continuem sendo renovadas sem a devida comprovação de contrapartidas sociais e geração efetiva de empregos. A sociedade tem o direito de saber o retorno exato de cada centavo que deixa de ingressar nos cofres públicos."*  
-(Adaptado de publicação institucional de órgão de imprensa)
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+A afirmação de que “a demonização tem duas mãos”, no 3o parágrafo, justifica-se quando
 
-Quanto ao gênero textual e ao contexto discursivo, é correto afirmar que o texto:
-
-* **A)** Classifica-se como crônica lírica, por valer-se de fatos da vida diária para provocar comoção e despertar nostalgia no leitor.
-* **B)** Configura um editorial, na medida em que expressa a posição institucional do veículo sobre tema de interesse público coletivo, empregando tom sóbrio e sem marcas de subjetividade pessoalizada.
-* **C)** Estrutura-se como notícia estritamente factual, limitando-se a relatar cronologicamente os atos normativos recém-editados pelo Poder Executivo.
-* **D)** Corresponde a um ensaio filosófico subjetivo, centrado na discussão metafísica dos conceitos abstratos de justiça e virtude individual.
-* **E)** Caracteriza-se como texto injuntivo-instrucional, voltado a fornecer um passo a passo para que os cidadãos impugnem incentivos fiscais.
-
---- 
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A crônica lírica parte de fatos cotidianos simples para evocar poesia, humor ou sentimentos subjetivos íntimos. O texto em análise aborda finanças públicas, orçamento e responsabilidade fiscal com vocabulário técnico-argumentativo.
-> - **B)** Correta. O texto analisa criticamente uma política pública, sustenta uma tese ("imperativo inadiável de responsabilidade fiscal"), não possui assinatura individual, evita pronomes de primeira pessoa do singular e expressa a opinião abalizada e institucional do veículo sobre tema de relevante interesse coletivo.
-> - **C)** Incorreta. A notícia tem caráter meramente informativo e expositivo (relata quem, o quê, quando, onde e como). O excerto acima é declaradamente opinativo e argumentativo ("não deve ser encarada", "Trata-se, em verdade", "Não é concebível").
-> - **D)** Incorreta. O texto é prático, político-econômico e jurídico-administrativo, e não uma reflexão teórica ou especulativa desvinculada de conjuntura concreta.
-> - **E)** Incorreta. Textos injuntivos ou instrucionais orientam ações com verbos no imperativo (receitas, editais, manuais). Não há instruções ou comandos procedimentais no excerto.
->
-> **Gabarito: B**
-
+* **A)** a reação do subjugado é desproporcional em rela- ção ao ato de quem o subjugou.
+* **B)** a violência de quem subjuga aproveita-se da extre- ma fragilidade de quem é subjugado.
+* **C)** nem quem subjuga, nem quem é subjugado é intei- ramente culpado pelos excessos de seus atos.
+* **D)** tanto o subjugado como quem subjuga são censura- dos por ações dadas como indefensáveis.
+* **E)** ambos os envolvidos num delito se acusam mutua- mente, ainda que não tenham razão para fazê-lo. _________________________________________________________
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A expressão não se refere à desproporção da reação, mas ao fato de que ambos os lados se acusam mutuamente de injustiça.
+> - **B)** Incorreta. Não se trata da violência aproveitando-se da fragilidade, mas da dinâmica de julgamento moral recíproco.
+> - **C)** Incorreta. O texto não absolve de culpa ambas as partes; trata da demonização mútua que ocorre no debate ideológico e social.
+> - **D)** Correta. 'A demonização tem duas mãos' sintetiza o raciocínio explicitado na sequência: 'os partidários de quem subjuga acabam por demonizar a reação do subjugado', isto é, tanto o subjugado quanto quem subjuga são censurados e julgados por atos considerados intoleráveis pelo outro polo.
+> - **E)** Incorreta. A alternativa insere o juízo 'ainda que não tenham razão para fazê-lo', o que extrapola a análise textual do autor.
+>
+> **Gabarito: C**
+
+---
 
 ## 3. Tipologias Textuais
 
@@ -267,33 +289,28 @@ A **injunção** orienta o comportamento do leitor: diz o que fazer e como fazer
 --- 
 
 ### Teste 003
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o seguinte excerto:  
-*"O relator ajeitou os óculos sobre o nariz, respirou fundo e abriu a pasta de capa azul que continha o processo de licitação sob suspeita. O silêncio na sala de sessões era denso, quebrado apenas pelo sussurro intermitente do aparelho de ar-condicionado. Naquelas quatrocentas páginas, repousavam indícios materiais de sobrepreço que desviavam recursos destinados ao transporte escolar. A negligência fiscalizatória da administração pública não é mera desatenção burocrática: traduz-se no abandono de crianças sem acesso às salas de aula e corrói a própria legitimidade das instituições democráticas."*
+**(FCC – TRT – Analista Judiciário (TI) – 2024)**  
+Para que um texto progrida de forma organizada, é preciso que a informação nele contida seja apresentada de forma conveniente. Veja, por exemplo, o texto a seguir: “A Corte Suprema dos Estados Unidos, cuja composição 1983 - 1984 terminou há pouco, parece ter  mostrado uma direção mais conservadora que a anterior, notadamente no que concerne aos direitos dos indivíduos diante do Estado. Ela decretou que os prisioneiros não tinham nenhum direito sobre sua vida privada e que os juízes, e não os jurados, devem dec idir sobre a pena de morte. Ela também apoiou a posição do governo de Ronald Reagan em vários casos que envolviam liberdades civis ou de discriminação”. A organização da informação nesse texto pode ser identificada do seguinte modo:
 
-Sobre a tipologia textual do excerto, constata-se que:
-
-* **A)** Há predomínio absoluto da tipologia narrativa de ficção, inexistindo qualquer juízo opinativo ou argumento dissertativo.
-* **B)** Trata-se de texto exclusivamente descritivo, cujo objetivo único é enumerar os traços físicos do relator e o mobiliário do tribunal.
-* **C)** Apresenta sequência híbrida em que elementos narrativos e descritivos funcionam como introdução contextualizadora para sustentar uma tese dissertativo-argumentativa sobre os efeitos sociais da corrupção.
-* **D)** Constitui texto tipicamente injuntivo, pois determina expressamente a condenação imediata dos gestores responsáveis pela licitação.
-* **E)** Classifica-se como dissertação puramente expositiva, isenta de qualquer posicionamento ético ou juízo de valor do emissor.
+* **A)** cada frase parte de um mesmo elemento, dado como conhecido desde o primeiro momento, a que se acrescentam novas informações.
+* **B)** cada frase parte do tema explorado na frase precedente, tornando-se ela mesma um novo tema, completado por uma nova informação.
+* **C)** o tema da prim eira frase é decomposto em múltiplos elementos, tomados como temas sucessivos das frases seguintes.
+* **D)** dois temas são apresentados em sequência e analisados de forma paralela, com informações contrastantes.
+* **E)** dois temas são apresentados inicialmente e i nformações comuns aos dois são dadas progressivamente.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Embora o excerto comece narrando ações no tempo ("ajeitou", "respirou", "abriu"), a oração final introduz julgamento moral e político contundente ("não é mera desatenção... corrói a própria legitimidade"), afastando o caráter exclusivamente ficcional.
-> - **B)** Incorreta. A descrição é apenas um recurso ambiental de ambientação ("pasta de capa azul", "silêncio na sala de sessões era denso"), não constituindo a tipologia estruturante do parágrafo.
-> - **C)** Correta. Na tradição da FCC, é recorrente o uso de uma pequena cena narrativa/descritiva que serve de argumento por ilustração (ou exemplificação) para desembocar na tese central dissertativo-argumentativa formulada no desfecho.
-> - **D)** Incorreta. O texto não contém ordens, prescrições regulamentares nem verbos no modo imperativo.
-> - **E)** Incorreta. Há carga valorativa expressa em "negligência fiscalizatória", "abandono de crianças" e "corrói a própria legitimidade", o que caracteriza argumentação e refuta a pura neutralidade expositiva.
+> - **A)** Incorreta. As frases não partem todas de um elemento idêntico e repetido estaticamente sem progressão temático-conceitual.
+> - **B)** Incorreta. O texto não cria um encadeamento linear em que o rema da frase anterior vira o tema único da seguinte (progressão linear em cadeia).
+> - **C)** Correta. A primeira frase estabelece o hipertema geral: a postura conservadora da Corte Suprema em relação aos direitos individuais. As frases seguintes desdobram esse tema decompondo-o em múltiplos elementos ilustrativos (direitos dos prisioneiros, pena de morte, apoio ao governo Reagan em liberdades civis). Trata-se da progressão temática com tema derivado/decomposto.
+> - **D)** Incorreta. Não há dois temas contrastantes em análise paralela, mas a desagregação de uma decisão geral da Suprema Corte.
+> - **E)** Incorreta. Não existem dois polos temáticos iniciais combinados progressivamente.
 >
 > **Gabarito: C**
 
-
 ---
-
 
 ## 4. Argumentação na Tipologia Dissertativa
 
@@ -349,60 +366,55 @@ O **subentendido** é uma insinuação que **depende do contexto** e da interpre
 ---
 
 ### Teste 004
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o seguinte trecho argumentativo:  
-*"Costuma-se argumentar que a imposição de regras rígidas de controle prévio nas contratações públicas paralisa a máquina administrativa e asfixia o dinamismo dos investimentos estatais. No entanto, estudos empíricos desenvolvidos pela OCDE e por centros de pesquisa econômica demonstram que cada real investido em fiscalização tempestiva economiza até quatro vezes mais em custos de reparação de danos e sobrepreços contratuais. Portanto, o controle não constitui entrave burocrático, mas sim salvaguarda indispensável à sustentabilidade fiscal do Estado."*
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+No último parágrafo, deve-se entender que a preocupação de Antonio Gramsci implica, na iminência de uma decisão difícil,
 
-Na organização dos argumentos do excerto, o autor:
-
-* **A)** Apoia sua conclusão exclusivamente no senso comum e no apelo emocional dos leitores em relação aos gastos públicos.
-* **B)** Utiliza uma estrutura concessivo-adversativa, antecipando uma objeção frequente para refutá-la mediante dados e argumento de autoridade técnica antes de enunciar a tese conclusiva.
-* **C)** Defende que o controle prévio deve ser abolido para assegurar a rapidez nas contratações públicas emergenciais.
-* **D)** Conclui que as exigências de controle externo são responsáveis pela lentidão dos investimentos em infraestrutura.
-* **E)** Evita o emprego de conectivos de oposição, optando por justapor argumentos que sustentam uma mesma direção ideológica.
+* **A)** promover uma análise objetiva que leve em conta o padecimento de quem será afetado pela decisão.
+* **B)** aceitar a existência de um fator emocional, mas ain- da assim adotar o critério mais pragmático possível.
+* **C)** suspender a análise objetiva da ocorrência e levar em conta tão somente os impulsos pessoais.
+* **D)** considerar inocente aquele que fez sofrer motivado por uma intenção politicamente justa.
+* **E)** absolver quem se arrepende de seus atos, tendo já passado pelo sofrimento da culpa e da penitência. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O autor cita expressamente "estudos empíricos desenvolvidos pela OCDE e por centros de pesquisa econômica" (provas concretas e autoridade institucional reconhecida), e não mero senso comum ou apelo emotivo.
-> - **B)** Correta. O autor adota a consagrada arquitetura argumentativa da FCC: inicia apresentando a tese contrária com fórmula de distanciamento ("Costuma-se argumentar que..."), contrapõe-na por meio do operador adversativo *"No entanto"*, respalda sua refutação com dados técnicos e remata com a conclusão balizada pelo operador *"Portanto"*.
-> - **C)** Incorreta. Erro de contradição direta com o texto: o autor sustenta que o controle prévio é "salvaguarda indispensável", e não que deve ser abolido.
-> - **D)** Incorreta. A tese do autor afirma exatamente o inverso: que o controle externo é proteção financeira e não entrave à eficiência pública.
-> - **E)** Incorreta. O operador adversativo *"No entanto"* cumpre papel axial na guinada argumentativa do parágrafo.
+> - **A)** Incorreta. O sofrimento para Gramsci é um parâmetro ético e orientador da conduta, e não um obstáculo impeditivo da ação.
+> - **B)** Incorreta. Gramsci não defende abster-se da ação moral, mas agir considerando quem sofre.
+> - **C)** Incorreta. A consideração pelo sofrimento alheio é a própria base da escolha ética em Gramsci, e não uma distorção.
+> - **D)** Correta. No último parágrafo, o autor ressalta que para Gramsci a avaliação das circunstâncias objetivas e a pergunta 'Quem sofre?' devem orientar as escolhas políticas e pessoais, estabelecendo o sofrimento humano como parâmetro ético intransigente.
+> - **E)** Incorreta. O texto não associa Gramsci à indiferença pragmática nem à renúncia dos princípios em favor de interesses imediatos.
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 005
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere a frase a seguir:  
-*"Após a auditoria operacional, o órgão previdenciário **voltou a** publicar mensalmente as planilhas de desembolso financeiro, e os novos gestores **ainda** mantêm os relatórios acessíveis à consulta pública."*
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+*Considere o trecho:*  
+*"A hipocrisia existe, mas o aparente exagero tem a ver com a luta da mulher americana para mudar um quadro de pressupostos e tabus tão machistas quanto os nossos (...)"*
 
-A análise dos operadores argumentativos e dos implícitos linguísticos da frase indica que:
+No segmento A hipocrisia existe, mas o aparente exagero tem a ver com a luta da mulher americana para mudar um quadro de pressupostos e tabus tão machistas (...), (1o parágrafo)
 
-* **A)** A locução *"voltou a"* gera o pressuposto de que o órgão nunca havia publicado tais planilhas em momento algum de sua história.
-* **B)** O advérbio *"ainda"* introduz a certeza de que a transparência dos relatórios será interrompida obrigatoriamente no próximo exercício financeiro.
-* **C)** A expressão *"voltou a"* veicula o pressuposto de que as planilhas já eram publicadas no passado e haviam sido suspensas, ao passo que *"ainda"* pressupõe a continuidade no presente de um estado de coisas inaugurado anteriormente.
-* **D)** A transparência pública é tratada como mera possibilidade remota, evidenciada pela flexão condicional dos verbos principais.
-* **E)** A locução *"após a auditoria"* pressupõe que as auditorias de controle externo são inócuas para modificar condutas administrativas.
+* **A)** a hipocrisia aqui referida é aquela que caracteriza o comportamento dos que acompanham no Brasil a luta das mulheres americanas.
+* **B)** pressupostos e tabus tão machistas designam os valores que as mulheres americanas passam a combater sob o disfarce de um relutante consentimento.
+* **C)** a expressão aparente exagero deixa ver a possibilidade de parecerem excessivas as justas providências das mulheres americanas em sua luta.
+* **D)** a luta da mulher americana expressa uma reação histórica que pouco ou nada tem a ver com os costumes que marcam as questões de gênero em outros países.
+* **E)** a expressão para mudar um quadro diz respeito ao objetivo maior da luta das mulheres, que é combater a hipocrisia praticada pelos políticos americanos. Caderno de Prova ’C03’, Tipo 001 TRT14R-Conhecimentos Gerais1 3
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Dizer que o órgão *"voltou a"* publicar pressupõe necessariamente que ele já publicava antes e havia interrompido essa prática. Se nunca tivesse publicado, o verbo seria "passou a" ou "iniciou".
-> - **B)** Incorreta. O advérbio *"ainda"* marca a persistência temporal de uma ação iniciada no passado até o momento da fala, sem antecipar ou determinar com certeza seu encerramento compulsório.
-> - **C)** Correta. Trata-se da clássica distinção de pressupostos linguísticos da FCC: o verbo que indica reiteração (*voltar a*) carrega o pressuposto inegável de prática anterior descontinuada; o advérbio de aspecto continuativo (*ainda*) pressupõe que a ação já vinha ocorrendo e se estende até o presente.
-> - **D)** Incorreta. Os verbos estão no modo indicativo afirmativo (*voltou*, *mantêm*), indicando certeza categórica de fatos concretos.
-> - **E)** Incorreta. A relação temporal estabelecida indica exatamente o contrário: a auditoria funcionou como marco gerador de aprimoramento da transparência.
+> - **A)** Incorreta. O excerto não estabelece relação de causa e efeito determinística entre a hipocrisia e os tabus.
+> - **B)** Correta. Ao afirmar que 'a hipocrisia existe, mas o aparente exagero tem a ver com a luta da mulher americana para mudar um quadro de pressupostos e tabus tão machistas', o autor pressupõe que as atitudes das mulheres, embora possam soar exageradas aos olhos superficiais, são respostas legítimas a uma estrutura social prévia opressora.
+> - **C)** Incorreta. O autor não desqualifica a luta das mulheres como hipócrita; a conjunção adversativa 'mas' contrapõe a existência da hipocrisia geral à legitimidade da luta.
+> - **D)** Incorreta. A alternativa restringe indevidamente o escopo da afirmação, ignorando a contextualização cultural apresentada.
+> - **E)** Incorreta. Trata-se de extrapolação conceitual que não encontra respaldo no excerto original.
 >
-> **Gabarito: C**
-
+> **Gabarito: B**
 
 ---
-
 
 ## 5. Níveis de Linguagem e Denotação e Conotação
 
@@ -423,30 +435,28 @@ A conotação está na base das **figuras de linguagem** (item 9), especialmente
 ---
 
 ### Teste 006
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Assinale a alternativa em que a relação entre orações do texto expressa valor semântico de conotação e linguagem figurada:
+**(FGV – TRT-24 – Analista Judiciário (TI) – 2025)**  
+No fragmento a seguir, “...presta também um grande serviço à medicina.” o uso do acento grave indicativo da crase está correto. Assinale a frase em que a utilização do acento grave indicativo da crase também está correta.
 
-* **A)** *"O contrato administrativo foi rescindido unilateralmente pela administração com base no artigo 137 da legislação vigente."*
-* **B)** *"A receita tributária estadual registrou crescimento nominal de quatro por cento no terceiro trimestre do exercício financeiro."*
-* **C)** *"A burocracia estatal engoliu os anseios da população em um pântano de formulários intermináveis e carimbos inertes."*
-* **D)** *"O Tribunal de Contas é composto por sete Conselheiros nomeados segundo os ditames da Constituição Estadual."*
-* **E)** *"O prazo prescricional para o ajuizamento da execução fiscal de créditos tributários é de cinco anos."*
+* **A)** Todos queriam ver à cena de perto.
+* **B)** Não à mal que sempre dure.
+* **C)** Assistiu à cena e se maravilhou.
+* **D)** Observou à paisagem de longe.
+* **E)** Falava palavrões à torto e a direito. Tribunal Regional do Trabalho da 24ª Região (TRT-24) FGV CONHECIMENTO Técnico Judiciário – Área Administrativa - Sem Especialidade – TARDE  TIPO BRANCA – PÁGINA 4
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Frase de linguagem estritamente **denotativa**, técnico-jurídica: "rescindido unilateralmente" e a remissão a artigo de lei têm sentido literal e unívoco.
-> - **B)** Incorreta. Linguagem **denotativa** de natureza contábil-financeira: dado numérico ("quatro por cento") e terminologia técnica ("crescimento nominal", "exercício financeiro"), sem qualquer figura.
-> - **C)** Correta. A frase emprega linguagem eminentemente **conotativa (figurada)**: a burocracia não tem boca para *"engolir"* nada (prosopopeia/metáfora), a tramitação documental é metaforizada como um *"pântano"* e os carimbos são qualificados como *"inertes"*, transmitindo expressividade e juízo crítico de valor ao leitor.
-> - **D)** Incorreta. Enunciado **denotativo** e informativo sobre a composição de um órgão, com termos institucionais em sentido literal.
-> - **E)** Incorreta. Enunciado **denotativo** de conteúdo normativo (prazo prescricional), com terminologia jurídica precisa e sem sentido figurado.
+> - **A)** Correta. O trecho utiliza uma analogia figurada (linguagem conotativa) entre a criação literária do romancista e a navegação do capitão de navio que parte com ordens seladas. A metáfora ilustra o processo criativo no qual o plano inicial do autor pode ser transformado pelo próprio desenrolar da narrativa.
+> - **B)** Incorreta. Não se trata de uma afirmação denotativa ou literal sobre náutica ou táticas navais.
+> - **C)** Incorreta. A comparação não expressa descontentamento ou censura à conduta militar, mas uma figura ilustrativa da escrita de ficção.
+> - **D)** Incorreta. A analogia não nega o planejamento da escrita, mas salienta a maleabilidade da criação literária diante dos rumos do texto.
+> - **E)** Incorreta. O foco não é a imprevisibilidade meteorológica, mas a liberdade e descobertas do escritor ao longo de sua criação.
 >
 > **Gabarito: C**
 
-
 ---
-
 
 ## 6. Modalidades de Discurso
 
@@ -490,33 +500,31 @@ Exemplo: *"O relator permaneceu em silêncio. **Como solucionar aquele impasse s
 ---
 
 ### Teste 007
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-*Observe o fragmento a seguir:*  
-*"O relator permaneceu em silêncio por longos minutos diante dos autos volumosos. Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa? Sabia que os olhares de todos os presentes convergiam para sua bancada. Era preciso decidir, e decidir imediatamente"*.
+**(FCC – TRT-3 – Analista Judiciário (TI) – 2015)**  
+*Considere o seguinte trecho para análise:*  
+*"A primeira pessoa que me falou foi a vizinha: — Agora sim sabemos que o Antônio rompeu o noivado! Chegara ao meu ouvido o rumor daquela fofoca que tinha de ouvir todos os dias."*
 
-No fragmento acima, a passagem assinalada pela oração interrogativa (*"Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa?"*) exemplifica o emprego do:
+Sobre o que se tem acima, afirma-se corretamente, levando em conta a norma-padrão:
 
-* **A)** Discurso direto pontuado por elipse de aspas.
-* **B)** Discurso indireto clássico subordinado por conectivo causal.
-* **C)** Discurso indireto livre, em que o pensamento íntimo da personagem se mescla diretamente à narração em terceira pessoa.
-* **D)** Recurso estilístico de metonímia personificada.
-* **E)** Discurso dissertativo de autoridade estrita.
+* **A)** A forma tinha de ouvir situa a ação no mesmo tempo expresso pela forma verbal "ouvia", mas agrega a ideia de obrigatoriedade à ação praticada.
+* **B)** A forma verbal chegara indica que a ação se dá em simultaneidade com a ação expressa por tinha de ouvir.
+* **C)** Transpondo o discurso direto acima para o indireto, a formulação obtida deve ser "A vizinha disse que, então, sabia que Antônio rompeu o noivado".
+* **D)** A palavra fofoca, de uso informal, deve ser evitada em textos escritos, mesmo que se trate de uma narrativa, como se tem nesse trecho.
+* **E)** Se, em vez de A primeira, houvesse "Uma das primeiras", o verbo deveria obrigatoriamente ir para o plural − "anunciarem".
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Não há discurso direto, pois faltam verbos de elocução introdutórios e a pontuação típica (dois-pontos, travessão ou aspas). "Elipse de aspas" não é categoria gramatical reconhecida; a ausência das marcas é justamente o que afasta o discurso direto.
-> - **B)** Incorreta. O discurso indireto convencional exigiria a mediação formal do narrador mediante verbo de elocução e conjunção integrante ou pronome interrogativo (*"O relator perguntou a si mesmo como solucionaria..."*). Além disso, o discurso indireto não se estrutura por conectivo causal, mas por oração subordinada substantiva.
-> - **C)** Correta. Configura-se tipicamente o **Discurso Indireto Livre**: a voz do narrador (em terceira pessoa) funde-se instantaneamente ao fluxo de consciência e à indagação íntima da personagem (*"Como solucionar aquele impasse...?"*), sem marcas formais de abertura de fala ou conectivos de subordinação.
-> - **D)** Incorreta. Não se trata de figura de linguagem (metonímia é substituição por contiguidade; personificação é atribuição de traços humanos a seres inanimados — nada disso ocorre na pergunta), mas de recurso de estruturação do foco narrativo.
-> - **E)** Incorreta. O fragmento tem natureza narrativa/ficcional e não dissertativa conceitual; tampouco há citação de especialista ou instituição que configure argumento de autoridade.
+> - **A)** Incorreta. 'Tinha de ouvir' expressa obrigação/necessidade no passado, enquanto 'ouvia' traduz mera habitualidade temporal (pretérito imperfeito simples).
+> - **B)** Incorreta. A forma 'chegara' está no pretérito mais-que-perfeito, indicando ação anterior (e não simultânea) ao fato expresso por 'tinha de ouvir'.
+> - **C)** Incorreta. Na transposição adequada para o discurso indireto, o tempo verbal deve sofrer a correlação: o presente 'sabemos' transpassa para o imperfeito 'sabiam', e o perfeito 'rompeu' para o mais-que-perfeito 'rompera' (ou 'havia rompido').
+> - **D)** Correta. Na variedade padrão e culta da língua prescrita para concursos, vocábulos de registro marcadamente coloquial/informal como 'fofoca' devem ser evitados em redações e análises formais, ainda que o autor os utilize em contexto de narrativa ficcional.
+> - **E)** Incorreta. Com a locução 'Uma das primeiras', o verbo pode concordar tanto no singular (enfatizando o núcleo 'uma') quanto no plural (concordando com o termo partitivo no plural).
 >
-> **Gabarito: C**
-
+> **Gabarito: D**
 
 ---
-
 
 ## 7. Transposição de Discursos
 
@@ -555,36 +563,28 @@ A transposição exige **ajuste simultâneo** de todos os elementos: uma alterna
 ---
 
 ### Teste 008
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Transpondo-se a oração em discurso direto:  
-*O auditor afirmou aos gestores: "Concluirei a fiscalização amanhã e entregarei este relatório à presidência"*  
-para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se corretamente em:
+**(FGV – TRT – Analista Judiciário (TI) – 2025)**  
+Leia a frase em discurso direto a seguir. — Amanhã estarei saindo daqui com minha irmã. Assinale a opção que apresenta essa frase em discurso indireto. (Começando por Ele disse que...)
 
-* **A)** O auditor afirmou aos gestores que concluiria a fiscalização amanhã e entregaria este relatório à presidência.
-* **B)** O auditor afirmou aos gestores que concluiria a fiscalização no dia seguinte e entregaria aquele relatório à presidência.
-* **C)** O auditor afirmou aos gestores que concluíra a fiscalização na véspera e entregara esse relatório à presidência.
-* **D)** O auditor afirmou aos gestores que concluirá a fiscalização no dia subsequente e entregará aquele relatório à presidência.
-* **E)** O auditor afirmou aos gestores que tenha concluído a fiscalização amanhã e entregue aquele relatório à presidência.
-
---- 
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Ajustou corretamente os verbos para o futuro do pretérito, mas errou ao manter os dêiticos temporal e demonstrativo ancorados no momento da fala (*amanhã* e *este*).
-> - **B)** Correta. Na transposição do Discurso Direto para o Indireto, as regras gramaticais exigem três ajustes simultâneos:
->     1. **Tempos Verbais:** Futuro do Presente (*concluirei*, *entregarei*) transforma-se em **Futuro do Pretérito** (*concluiria*, *entregaria*);
->     2. **Advérbio de Tempo:** *Amanhã* passa para **no dia seguinte** (ou *no dia subsequente*);
->     3. **Pronome Demonstrativo:** *Este* passa para **aquele**, marcando o distanciamento temporal e espacial da enunciação.
->
-> - **C)** Incorreta. O Pretérito Mais-Que-Perfeito (*concluíra*, *entregara*) e a locução *na véspera* corresponderiam a fatos passados, e não ao futuro original; além disso, *esse* não marca o distanciamento exigido.
-> - **D)** Incorreta. Ajustou o advérbio e o demonstrativo, mas manteve o verbo no futuro do presente (*concluirá*, *entregará*), o que fere a correlação com a oração principal no pretérito (*afirmou*).
-> - **E)** Incorreta. Emprega o pretérito perfeito do subjuntivo (*tenha concluído*, *entregue*), alterando o modo (de certeza para hipótese) e desfigurando a ideia de futurição original; também manteve *amanhã*.
->
-> **Gabarito: B**
-
+* **A)** amanhã estará saindo de lá com sua irmã.
+* **B)** amanhã estaria saindo de lá com a irmã dele.
+* **C)** amanhã estava saindo de lá com a irmã dele.
+* **D)** no dia seguinte estaria saindo de lá com sua irmã.
+* **E)** no dia seguinte ele estaria saindo de lá com a irmã dele.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No discurso indireto iniciado por verbo no passado ('Ele disse que...'), o advérbio 'amanhã' deve ser transposto para 'no dia seguinte' ou 'no dia posterior', e o futuro do presente deve converter-se em futuro do pretérito.
+> - **B)** Incorreta. Mantém incorretamente o advérbio temporal 'amanhã', sem a devida transposição dêitica.
+> - **C)** Incorreta. Mantém 'amanhã' e altera a locução verbal para o pretérito imperfeito 'estava saindo', descaracterizando o futuro do pretérito.
+> - **D)** Correta. A transposição perfeita do discurso direto para o indireto exige a concordância de todos os dêiticos: o tempo verbal do futuro perifrástico 'estarei saindo' passa ao futuro do pretérito 'estaria saindo'; o advérbio de lugar 'daqui' converte-se em 'de lá'; o advérbio de tempo 'amanhã' transita para 'no dia seguinte'; e o pronome possessivo de 1ª pessoa 'minha irmã' passa para 'sua irmã'.
+> - **E)** Incorreta. A introdução desnecessária do pronome reto 'ele' e a troca por 'a irmã dele' criam prolixidade desnecessária diante da forma canônica de transposição com pronome possessivo de terceira pessoa.
+>
+> **Gabarito: D**
+
+---
 
 ## 8. Intertextualidade
 
@@ -610,38 +610,28 @@ A **alusão** é uma **referência indireta**, breve e sem citação literal, a 
 
 
 ### Teste 009
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere os dois textos abaixo:  
+**(FCC – TRT-24 – Analista Judiciário (TI) – 2017)**  
+Está reescrito conforme a norma-padrão da língua e com o s entido preservado em linhas gerais o seguinte trecho do texto:
 
-**Texto I** (Gonçalves Dias, *Canção do Exílio*):  
-*"Minha terra tem palmeiras, / Onde canta o Sabiá; / As aves, que aqui gorjeiam, / Não gorjeiam como lá."*  
-
-**Texto II** (Murilo Mendes, *Canção do Exílio*):  
-*"Minha terra tem macieiras da Califórnia / onde cantam gaturamos de Veneza. / Os poetas da minha terra / são pretos que vivem em torres de ametista..."*  
-
-Comparando os Textos I e II sob a perspectiva das relações intertextuais, verifica-se que o Texto II:
-
-* **A)** Constitui uma paráfrase estrita do Texto I, mantendo fidelidade semântica ao ufanismo romântico e à exaltação da natureza nativa brasileira.
-* **B)** Apresenta uma paródia, valendo-se da estrutura rítmica e de versos-chave do texto romântico de partida para desconstruir ironicamente a idealização patriótica.
-* **C)** Configura um caso de plágio desprovido de qualquer autonomia artística ou intenção crítica.
-* **D)** Utiliza uma epígrafe formal que se limita a homenagear Gonçalves Dias sem interagir com os conceitos da obra referenciada.
-* **E)** Isola-se de qualquer diálogo com o cânone literário, não permitindo estabelecer paralelo intertextual com o poema de 1843.
-
---- 
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A paráfrase reafirma as mesmas ideias do texto-fonte com vocabulário alternativo (relação de adesão). O Texto II altera drasticamente o significado e o tom lírico do original.
-> - **B)** Correta. A paródia é o recurso intertextual de ruptura em que a forma, a métrica ou o refrão de um texto consagrado são reaproveitados com conteúdo irônico, crítico ou dissonante, rompendo deliberadamente com a atmosfera original (aqui, o nacionalismo ufanista romântico dá lugar ao estranhamento vanguardista moderno).
-> - **C)** Incorreta. Não se trata de apropriação indevida ou fraude autoral, mas de intertextualidade manifesta e reconhecida como recurso estético legítimo.
-> - **D)** Incorreta. O Texto II é um poema autônomo completo, e não uma epígrafe (que seria apenas uma citação introdutória no cabeçalho de outra obra).
-> - **E)** Incorreta. O título homônimo e a repetição estilizada do primeiro verso estabelecem inegável diálogo com o Texto I.
->
-> **Gabarito: B**
-
+* **A)** ... não precisava contar nada para ninguém. (1o parágrafo) / ... não era impelido de me reportar à quem quer que fosse.
+* **B)** ... ainda sinto desconforto em ver... (4o parágrafo) / ... continuo a sentir-me incomodado ao testemunhar...
+* **C)** ... fotografar pratos envolvia um dilema... (3o parágrafo) / ... fotografar pratos abrangia-se de uma controvérsia...
+* **D)** Contudo, presumo que... (2o parágrafo) / Porquanto, afirmo por conjectura que...
+* **E)** ... acho que já estamos nos acostumando. (4o parágrafo) / ... tenho a impressão que já tornamo-nos resignados.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A regência 'impelido de me reportar à quem quer que fosse' comete crase indevida antes de pronome indefinido ('quem').
+> - **B)** Incorreta. 'Continuo a sentir-me incomodado ao testemunhar' não preserva com exatidão a nuance estilística de 'ainda sinto desconforto em ver'.
+> - **C)** Correta. A substituição proposta mantém plenamente a conformidade com o padrão culto e as relações de sentido originais do texto, operando paráfrase irretocável dos termos essenciais.
+> - **D)** Incorreta. 'Porquanto' exprime causa/explicação, ao passo que 'contudo' é conectivo adversativo de oposição, alterando radicalmente o sentido.
+> - **E)** Incorreta. Há erro crasso de próclise/ênclise ('já tornamo-nos', pois 'já' atrai próclise: 'já nos tornamos') e omissão indevida da preposição exigida pelo substantivo 'impressão'.
+>
+> **Gabarito: C**
+
+---
 
 ## 9. Figuras de Linguagem
 
@@ -703,80 +693,53 @@ Exploram a **sonoridade** das palavras, sendo frequentes em poesia, publicidade 
 ---
 
 ### Teste 010
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere os versos e expressões a seguir:  
+**(FGV – TRT-24 – Analista Judiciário (TI) – 2025)**  
+Entre os textos a seguir, assinale aquele que pertence ao gênero narrativo.
 
-I. *"A cidade dormia sob o manto pesado de um silêncio ensurdecedor."*  
-
-II. *"Ele não era exatamente uma fonte de sabedoria; faltava-lhe perspicácia para lidar com o público."*  
-
-III. *"Nas horas de angústia, o coração do fiscal chorava lágrimas de ferro."*  
-
-As figuras de linguagem presentes nos trechos I, II e III são, respectivamente:
-
-* **A)** Paradoxo (Oximoro), Eufemismo e Prosopopeia (Personificação).
-* **B)** Antítese, Hipérbole e Metonímia.
-* **C)** Pleonasmo, Ironia e Catacrese.
-* **D)** Paradoxo (Oximoro), Antítese e Sinestesia.
-* **E)** Metáfora, Eufemismo e Zeugma.
+* **A)** Nunca a questão do olhar esteve tão no centro do debate da cultura e das sociedades contemporâneas. Um mundo onde tudo é produzido para ser visto coloca necessariamente o ver como problema.
+* **B)** Manifestações públicas constituem um dos aspectos essenciais da vida democrática. Um regime político que é incapaz de tolerar a livre manifestação da população não pode ser considerado democrático.
+* **C)** A reunião do gabinete foi marcada para as sete horas da manhã, mas um pequeno atraso do presidente provocou a transferência da discussão sobre a redução dos impostos para amanhã.
+* **D)** O trabalho de arte é um processo. Resulta de uma vida. Em 1501, Michelangelo volta de viagem a Florença e concentra seu trabalho artístico em um grande bloco de mármore abandonado. Assim se faz arte.
+* **E)** Solidariedade não faz bem apenas para quem recebe ajuda, mas também para quem a pratica. Raciocínio Lógico-matemático
 
 ---
 
 > **Comentário Detalhado:**
-> Análise dos trechos:
 >
-> - **Trecho I:** *"silêncio ensurdecedor"* reúne, no mesmo ser, termos logicamente excludentes (o silêncio não pode ensurdecer), configurando **paradoxo (oximoro)**.
-> - **Trecho II:** *"não era exatamente uma fonte de sabedoria"* suaviza a constatação rude de que a pessoa era pouco sábia ou despreparada, caracterizando **eufemismo** (na modalidade litotes: afirmação pela negação do contrário).
-> - **Trecho III:** *"o coração (...) chorava lágrimas de ferro"* atribui ação humana (chorar) ao órgão, caracterizando **prosopopeia (personificação)**, combinada com metáfora expressiva ("lágrimas de ferro").
+> - **A)** Incorreta. Trata-se de um texto puramente dissertativo-argumentativo, que discute e teoriza sobre o papel do olhar e da imagem na cultura contemporânea.
+> - **B)** Incorreta. Texto de tipologia dissertativa, no qual se defende a tese de que a manifestação pública é basilar para a democracia.
+> - **C)** Incorreta. Apresenta caráter informativo/expositivo e noticioso sobre o adiamento de uma reunião, sem estrutura narrativa com progressão de ações e personagens.
+> - **D)** Correta. O fragmento estrutura-se com elementos típicos da narração: marco temporal preciso ('Em 1501'), personagem com ação sucessiva no tempo ('Michelangelo volta de viagem a Florença e concentra seu trabalho artístico em um grande bloco de mármore abandonado'), narrando um episódio concreto com transformação de estado.
+> - **E)** Incorreta. Frase puramente aforística/dissertativa com juízo de valor sobre o conceito de solidariedade.
 >
-> Análise das alternativas:
->
-> - **A)** Correta. É a única sequência em que os três trechos estão corretamente classificados: paradoxo, eufemismo e prosopopeia.
-> - **B)** Incorreta. Em I não há antítese, pois os opostos não se referem a aspectos distintos, mas se fundem no mesmo ser (paradoxo); em II não há exagero (hipérbole), mas atenuação; em III não há substituição por contiguidade (metonímia).
-> - **C)** Incorreta. Em I não há pleonasmo (repetição de ideia), mas contradição; em II não há inversão de sentido (ironia) — a frase diz, de modo brando, exatamente o que pensa; em III a imagem é criativa, e não uma metáfora cristalizada pelo uso (catacrese).
-> - **D)** Incorreta. Acerta o trecho I, mas erra em II (não há termos opostos, logo não há antítese) e em III (não há mistura de sensações de órgãos diferentes, logo não há sinestesia).
-> - **E)** Incorreta. Embora o trecho I contenha uma metáfora secundária ("manto pesado") e o II seja de fato eufemismo, a figura central de I é o oximoro "silêncio ensurdecedor" e, sobretudo, em III não há omissão de termo já expresso, o que exclui o zeugma.
->
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
 ### Teste 011
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o seguinte período:  
-*"O procurador examinava minuciosamente os autos da representação; o auditor, as planilhas financeiras das empreiteiras contratadas."*
+**(FCC – TRT-3 – Analista Judiciário (TI) – 2015)**  
+*Considere o trecho:*  
+*"A imprensa frequentemente anuncia que o leitor pode apreciar duas opiniões diferentes sobre um mesmo tema polêmico, colocando lado a lado análises que divergem apenas em pormenores cosméticos, mas convergem no alinhamento ideológico com o status quo."*
 
-No trecho acima, a vírgula empregada após a palavra *"auditor"* assinala a ocorrência da seguinte figura de linguagem sintática:
+Sobre a frase " o leitor pode apreciar duas opiniões diferentes" (linhas 9 e 10), na situação em que está inserida, comenta-se com propriedade:
 
-* **A)** Anacoluto, caracterizado pela quebra repentina e assistemática da coesão frasal.
-* **B)** Zeugma, consistente na omissão de um termo verbal já expresso na oração anterior.
-* **C)** Pleonasmo vicioso, consistente na repetição desnecessária de um complemento oracional.
-* **D)** Hipérbato, que consiste na inversão drástica da ordem direta dos elementos sintáticos.
-* **E)** Polissíndeto, decorrente da multiplicação expressiva de conjunções coordenativas.
+* **A)** o contexto e as aspas justificam que a consideremos o título da seção de um dado jornal em que dois analistas se expressam sobre o mesmo tema.
+* **B)** é ela que determina que as análises, sem outra possibilidade, se cumpram de modo diametralmente oposto.
+* **C)** é ponto de apoio do raciocínio que conduz à denúncia de falso pluralismo da imprensa.
+* **D)** é frase emblemática do que, segundo o autor, uma linha editorial deveria ter como objetivo.
+* **E)** considerado o tom irônico que pode ser imprimido a ela, expressa que autor considera legítimo esse tipo de pluralismo, mas não atingível pela imprensa brasileira. Caderno de Prova ’A28’, Tipo 001 TRT3R-Conhecimentos Básicos2 3
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Não há quebra gramatical nem sujeito sem predicado no período. A construção é perfeitamente harmônica e canônica.
-> - **B)** Correta. O zeugma é uma modalidade especial de elipse em que se omite termo que **já foi explicitamente mencionado** antes no período. No caso, a vírgula elíptica substitui a forma verbal *"examinava"* ("o auditor [examinava] as planilhas financeiras"), evitando repetição cansativa.
-> - **C)** Incorreta. Não há redundância ou repetição enfática/viciosa de ideias na oração.
-> - **D)** Incorreta. A ordem direta dos termos foi mantida em ambas as orações (Sujeito + Verbo + Objeto Direto), não havendo transposição ou inversão abrupta.
-> - **E)** Incorreta. Não há reiteração de conjunções; o período articula-se por meio de ponto e vírgula e vírgula zeugmática.
+> - **A)** Incorreta. As aspas marcam uma citação irônica ou distanciamento crítico, e não o nome da seção do jornal.
+> - **B)** Correta. A análise contextual do autor demonstra a ironia na promessa de pluralismo ('o leitor pode apreciar duas opiniões diferentes'), revelando que o arranjo editorial força uma falsa polarização que mascara uma base ideológica idêntica.
+> - **C)** Incorreta. A frase em si não denuncia o falso pluralismo diretamente; ela é o mote convencional que o autor ironiza para depois construir sua crítica.
+> - **D)** Incorreta. O autor critica esse modelo cosmético, logo ele não o toma como objetivo ideal a ser perseguido por uma linha editorial séria.
+> - **E)** Incorreta. O autor não afirma a impossibilidade do pluralismo no Brasil, mas desmascara o pseudopluralismo das análises binárias na imprensa.
 >
 > **Gabarito: B**
 
-
 ---
 
-
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [Manual de Comunicação do Senado Federal — Fundamentos e Diretrizes de Texto](https://www12.senado.leg.br/manualdecomunicacao/fundamentos-e-diretrizes) - Diretrizes oficiais sobre clareza, estrutura textual, argumentação, gêneros informativos e adequação discursiva.
-* [Manual de Comunicação do Senado Federal — Redação e Estilo (Índice Geral)](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo) - Orientações estilísticas sobre escolha vocabular, níveis de linguagem, discurso relatado e construção do texto.
-* [Manual de Comunicação do Senado Federal — Coesão e Redundância](https://www12.senado.leg.br/manualdecomunicacao/estilos/redundancia) - Estudo sobre pleonasmos, concisão, pressupostos semânticos e eliminação de vícios de linguagem.
-* [Manual de Comunicação do Senado Federal — Verbos Declaratórios e Tempos Verbais](https://www12.senado.leg.br/manualdecomunicacao/estilos/verbo-presente-e-futuro) - Emprego de verbos de elocução (*dicendi*) e correlação temporal na transposição entre discurso direto e indireto.
-* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Fundamentos de coesão, coerência, fidelidade interpretativa e linguagem denotativa em textos públicos.
-* KOCH, Ingedore Villaça; ELIAS, Vanda Maria. **Ler e Compreender: os sentidos do texto**. 3. ed. São Paulo: Contexto, 2018. (Cap. 2 e 4 -Compreensão, Inferência, Pressupostos, Subentendidos e Intertextualidade).
-* GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Segunda e Quarta Partes - Discurso Direto, Indireto e Indireto Livre, Figuras de Estilo e Argumentação).
-* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 18 e Apêndice - Estilística, Figuras de Sintaxe, de Palavras e de Pensamento).

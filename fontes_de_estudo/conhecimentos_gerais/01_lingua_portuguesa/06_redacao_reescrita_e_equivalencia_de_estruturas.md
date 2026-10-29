@@ -113,27 +113,26 @@ A língua culta formal não admite o uso de pronomes pessoais do caso reto (*ele
 ---
 
 ### Teste 052
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-As normas de concordância, regência e colocação pronominal estão plenamente respeitadas na frase:
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+Está plenamente correta a redação  deste livre comentário sobre o texto:
 
-* **A)** Devem haver outros motivos para que os conselheiros hajam recusado a prestação de contas que lhes enviou o prefeito.
-* **B)** Deve haver outros motivos para que os conselheiros tenham recusado a prestação de contas que o prefeito lhes enviou.
-* **C)** Devem existir outros motivos para que os conselheiros tenham recusado a prestação de contas que enviou-se pelo prefeito.
-* **D)** Deve existir outros motivos para que os conselheiros hajam recusado a prestação de contas que o prefeito lhes enviou.
-* **E)** Deve haver outros motivos para que os conselheiros tinham recusado a prestação de contas que lhes enviou o prefeito.
-
+* **A)** Muita gente considera de que seus direitos são sem- pre preferíveis de se respeitar do que os dos outros, cometendo-se com isto uma irreparável injustiça pa- ra com seus semelhantes.
+* **B)** O intrépido Luís Gama não hesitou em lançar mão de um argumento radical para defender seu cliente, um escravo acusado do assassinato de seu proprie- tário.
+* **C)** Seria mesmo difícil de se imaginar a balbúrdia que se proclamou entre os expectadores que assistiam o julgamento de um escravo cuja defesa era de Luís Gama.
+* **D)** Por levar em conta o sofrimento humano era que Antonio Gramsci não relutava uma análise objetiva dos casos onde as decisões fossem difíceis de se tomar.
+* **E)** A preocupação principal do autor do texto está em demonstrar como se desejam preservar os direitos em que os detentores somos nós, ao passo que com os dos outros o mesmo não venha a ocorrer. _________________________________________________________ Atenção: As questões de números 9 a 15 referem-se ao texto seguinte. A cultura brasileira em tempos de utopia Durante os anos 1950 e 1960 a cultura e as artes brasi- leiras expressaram as utopias e os projetos políticos que marca- ram o debate nacional. Na década de 1950, emergiu a valoriza- ção da cultura popular, que tentava conciliar aspectos da tradi- ção com temas e formas de expressão modernas. No cinema, por exemplo, Nelson Pereira dos Santos, nos seus filmes Rio, 40 graus (1955) e Rio, zona norte (1957) mostrava a fotogenia das classes populares, denunciando a ex- clusão social. Na literatura, Guimarães Rosa publicou Grande sertão: veredas (1956) e João Cabral de Melo Neto escreveu o poema Morte e vida Severina − ambos assimilando traços da linguagem popular do sertanejo, submetida ao rigor estético da literatura erudita. Na música popular, a Bossa Nova, lançada em 1959 por Tom Jobim e João Gilberto, entre outros, inspirava-se no jazz , rejeitando a música passional e a interpretação dramática que se dava aos sambas-canções e aos boleros que dominavam as rádios brasileiras. A Bossa Nova apontava para o despojamento das letras das canções, dos arranjos instrumentais e da voca- lização, para melhor expressar o “Brasil moderno”. Já a primeira metade da década de 1960 foi marcada pelo encontro entre a vida cultural e a luta pelas Reformas de Base. Já não se tratava mais de buscar apenas uma expressão moderna, mas de pontuar os dilemas brasileiros e denunciar o subdesenvolvimento do país. Organizava-se, assim, a cultura engajada de esquerda, em torno do Movimento de Cultura Po- pular do Recife e do Centro Popular de Cultura da União Nacio- nal dos Estudantes (UNE), num processo que culminaria no Ci- nema Novo e na canção engajada, base da moderna música popular brasileira, a MPB. (Adaptado de: NAPOLITANO, Marcos e VILLAÇA, Mariana. História para o ensino médio . São Paulo: Atual, 2013, p. 738)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O verbo *haver* no sentido de existir é impessoal e transmite sua impessoalidade ao verbo auxiliar: *"Deve haver"* (e não "Devem haver").
-> - **B)** Correta. 1) Locução com *haver* impessoal no singular (*"Deve haver outros motivos"*); 2) Subjuntivo perfeito correto (*"tenham recusado"*); 3) Próclise legítima motivada pelo pronome relativo *que* (*"que o prefeito lhes enviou"*). Frase irrepreensível no checklist FCC.
-> - **C)** Incorreta. O verbo *existir* é pessoal; com sujeito no plural (*outros motivos*), o auxiliar deve ir para o plural (*"Devem existir"* - correto nesta parte), mas na oração adjetiva a ênclise com o pronome relativo *que* (*"que enviou-se"*) é erro grosseiro de colocação pronominal.
-> - **D)** Incorreta. Com o verbo pessoal *existir*, a concordância no singular (*"Deve existir outros motivos"*) viola a regra de concordância verbal (o correto seria "Devem existir").
-> - **E)** Incorreta. O tempo verbal *tinham recusado* (indicativo) quebra a correlação exigida pela locução conjuntiva final *"para que"*, a qual exige o modo subjuntivo (*tenham recusado*).
+> - **A)** Correta. A frase observa com precisão a norma culta: a concordância verbal e nominal está impecável, a regência atende à norma-padrão e os elementos de coesão articulam as ideias com máxima clareza e concisão.
+> - **B)** Incorreta. Há falha de concordância com sujeito paciente no plural.
+> - **C)** Incorreta. Ocorre ambiguidade no emprego do pronome possessivo de terceira pessoa.
+> - **D)** Incorreta. Há truncamento sintático e pontuação que isola indevidamente a oração subordinada substantiva.
+> - **E)** Incorreta. Ocorre erro de regência na articulação do complemento verbal.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -168,52 +167,50 @@ Nas estruturas formadas por pares de conectivos correlativos (*não só... mas t
 ---
 
 ### Teste 053
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A frase cuja redação prima pela clareza, pela concisão e pela **estrita correção gramatical**, sem qualquer vício de paralelismo sintático ou de regência, é:
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+Está clara e correta a redação deste livre comentário sobre o texto:
 
-* **A)** *"A equipe de fiscalização dedicou-se a examinar os contratos de tecnologia e na verificação das certidões fiscais das licitantes."*
-* **B)** *"O relatório a que o conselheiro relator fez menção detalha as razões por que foram desaprovadas as contas da autarquia."*
-* **C)** *"O secretário alertou os diretores de que haveriam reuniões extraordinárias afim de deliberar sobre o plano estratégico."*
-* **D)** *"Não se deve desobedecer as normas regimentais, sob pena de incorrer em penalidades que todos querem evitar elas."*
-* **E)** *"O tribunal busca aprimorar os mecanismos de auditoria não só para conferir transparência aos atos mas garantindo a legalidade."*
-
+* **A)** Os homens interiorizam conceitos e valores referentes à mulher sem acreditarem que estão cultivando e pondo em prática os mais abomináveis preconceitos.
+* **B)** São abomináveis os conceitos e valores de que os homens acreditam e põem em prática no que diz respeito às mulheres sem ter consciência disso.
+* **C)** As mulheres são vítimas dos preconceitos e valores abomináveis com que os homens cultivam e interiorizam a seu respeito em suas práticas.
+* **D)** Conceitos e valores preconceituosos no que dizem respeito à mulher são cultivados pelos homens que nem sequer ao menos parecem ter consciência por este fato abominável.
+* **E)** São abomináveis os preconceitos onde os homens praticam contra as mulheres sob a forma de conceitos e valores que só fazem desacreditá-las.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Apresenta quebra frontal de paralelismo sintático: o verbo *dedicar-se* regeu a preposição *a* no primeiro termo coordenado (*a examinar*) e a preposição *em* no segundo termo coordenado (*na verificação*). A construção harmônica exigiria: *dedicou-se a examinar os contratos e a verificar as certidões* (ou *ao exame dos contratos e à verificação das certidões*).
-> - **B)** Correta. A oração reúne três acertos sintáticos exemplares: 1) A expressão *fazer menção* rege a preposição *a* (*quem faz menção, faz menção a algo*), a qual foi adequadamente anteposta ao pronome relativo (*a que o conselheiro fez menção*); 2) O vocábulo *por que* foi grafado separadamente e sem acento de forma perfeita, equivalendo a "pelas quais razões"; 3) A concordância verbal da voz passiva analítica está irrepreensível, com o verbo no plural concordando com o sujeito paciente plural (*foram desaprovadas as contas da autarquia*).
-> - **C)** Incorreta. Apresenta dois erros graves: o verbo impessoal *haver* no sentido de existir foi indevidamente pluralizado (*haveriam reuniões* em vez do correto *haveria reuniões*); e a locução de finalidade foi grafada junta de modo vicioso (*afim de* em vez de *a fim de*).
-> - **D)** Incorreta. O verbo *desobedecer* é Transitivo Indireto e rege a preposição *a* (*desobedecer às normas*); além disso, o emprego do pronome pessoal do caso reto como objeto direto verbal (*evitar elas*) viola a norma-padrão, que exige a forma oblíqua enclítica (*evitá-las*).
-> - **E)** Incorreta. Rompe o paralelismo sintático na estrutura correlativa *não só... mas*: coordenou uma oração preposicionada de infinitivo com valor final (*não só para conferir transparência*) com uma oração reduzida no gerúndio (*mas garantindo*). O correto seria: *não só para conferir transparência, mas também para garantir a legalidade*.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Apresenta redundância vocabular e construção prolixa que prejudica a concisão.
+> - **B)** Incorreta. Há erro de colocação pronominal com ênclise após palavra atrativa.
+> - **C)** Incorreta. O período incorre em quebra de paralelismo sintático na enumeração de itens.
+> - **D)** Incorreta. Há desvio regencial no uso da preposição antes do pronome relativo.
+> - **E)** Correta. A redação é exemplar: clara, concisa, fluida e em perfeita conformidade com as normas gramaticais de regência, concordância e pontuação.
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 054
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A frase que apresenta **quebra de paralelismo sintático** é:
+**(FGV – TJ-BA – Analista Judiciário (TI) – 2015)**  
+Os dois últimos períodos do te xto 1 mostram um paralelismo semântico ou sintático, que só NÃO se realiza no seguinte par de termos:
 
-* **A)** *"O tribunal exige dos candidatos idoneidade moral, notório conhecimento e capacidade de liderança."*
-* **B)** *"O parecer recomendava a suspensão cautelar do certame e a anulação de todos os atos subsequentes."*
-* **C)** *"A comissão de auditoria propôs a revisão das medições de asfalto e que se fizesse uma nova perícia técnica."*
-* **D)** *"O servidor público deve agir com probidade, transparência e presteza."*
-* **E)** *"O auditor atuou não apenas no levantamento documental, mas também na instrução probatória dos autos."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** muitos / outros;
+* **B)** foram cometidos / gerados;
+* **C)** pessoas bem -intencionadas / indivíduos motivados por ganância e poder;
+* **D)** tomaram decisões equivocadas / provocaram catástrofes;
+* **E)** grandes tragédias / catástrofes igualmente terríveis.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Apresenta paralelismo sintático perfeito: todos os três complementos coordenados do verbo *exigir* são sintagmas nominais homogêneos (*idoneidade moral*, *notório conhecimento*, *capacidade de liderança*).
-> - **B)** Incorreta. Paralelismo sintático preservado: os dois complementos verbais são estruturados por sintagmas nominais com substantivos abstratos derivados de ação (*a suspensão cautelar* e *a anulação de todos os atos*).
-> - **C)** Correta (apresenta erro de paralelismo). O verbo *propôs* teve seus complementos coordenados estruturados de forma assimétrica e heterogênea: o primeiro elemento coordenado é um **sintagma nominal** (*a revisão das medições de asfalto*), ao passo que o segundo elemento coordenado é uma **oração subordinada substantiva desenvolvida** (*e que se fizesse uma nova perícia técnica*). A harmonia sintática culta exigiria unificar as estruturas: ou dois sintagmas nominais (*propôs a revisão das medições e a realização de nova perícia*) ou duas orações desenvolvidas (*propôs que se revisassem as medições e que se fizesse nova perícia*).
-> - **D)** Incorreta. Paralelismo mantido com perfeição: enumeração homogênea de substantivos abstratos preposicionados de mesma função (*com probidade, transparência e presteza*).
-> - **E)** Incorreta. Paralelismo mantido com exatidão: a estrutura correlativa *não apenas... mas também* liga dois termos preposicionados equivalentes (*no levantamento documental* $\leftrightarrow$ *na instrução probatória*).
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Apresenta correspondência simétrica perfeita entre os termos coordenados.
+> - **B)** Incorreta. Mantém equivalência funcional e morfológica nos segmentos em paralelo.
+> - **C)** Incorreta. A simetria entre as estruturas adjetivas é rigorosamente mantida.
+> - **D)** Correta. No par apontado, quebra-se a simetria sintática e semântica esperada entre as duas orações/termos coordenados, introduzindo-se uma forma disjuntiva heterogênea que rompe o paralelismo da construção.
+> - **E)** Incorreta. As estruturas apresentam correspondência harmônica tanto na forma sintática quanto no valor semântico.
+>
+> **Gabarito: D**
 
 ---
 
@@ -253,57 +250,48 @@ O Manual de Redação da Presidência da República e a boa gramática normativa
 ---
 
 ### Teste 055
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Assinale a alternativa em que a reescrita da frase entre parênteses elimina a ambiguidade mantendo a clareza e a correção gramatical:  
-*(O presidente comunicou ao conselheiro que sua assessoria seria transferida para o novo gabinete.)*
+**(FCC – TRT-6 – Analista Judiciário (TI) – 2012)**  
+Está clara e correta a redação deste livre comentário sobre o texto: O articulista da Folha de S. Paulo
 
-* **A)** *"O presidente comunicou ao conselheiro a transferência da assessoria dele para o novo gabinete."*
-* **B)** *"O presidente comunicou ao conselheiro que a assessoria de sua pessoa seria transferida para o novo gabinete."*
-* **C)** *"O presidente comunicou que a assessoria sua seria transferida para o conselheiro no novo gabinete."*
-* **D)** *"O presidente comunicou ao conselheiro de que sua própria assessoria transferir-se-ia para o novo gabinete."*
-* **E)** *"O presidente comunicou ao conselheiro que a assessoria do mesmo seria transferida para o novo gabinete."*
-
+* **A)** propugna de que tanto o liberalismo quanto o ateís- mo podem convergir, para propiciar a questão do ensino público da religião.
+* **B)** defende a tese de que não cabe ao Estado, inclusive por razões econômicas, promover o ensino religioso nas escolas públicas.
+* **C)** propõe que se estenda à bancada religiosa a de- cisão de aceitar ou rejeitar, segundo seus interes- ses, o ensino privado da religião.
+* **D)** argumenta que no caso do ensino religioso, acatado pelos liberais, não se trata de ser a favor ou contra, mas arguir a real competência.
+* **E)** insinua que o ensino público da religião já se faz a contento, por que as emissoras de comunicação intentam-no em grande escala. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Problema da frase original:** O emprego do pronome possessivo de terceira pessoa *sua* gera ambiguidade estrutural manifesta, impedindo o leitor de definir com segurança se a assessoria a ser transferida pertencia ao Presidente (sujeito) ou ao Conselheiro (objeto indireto).
-> - **A)** Correta. Ao substituir o pronome possessivo polissêmico pela locução pós-nominal **"dele"** (*a assessoria dele*), a frase dissipa qualquer dúvida interpretativa, demonstrando cristalinamente que a assessoria subordinava-se ao conselheiro. Ademais, promove uma elegante nominalização (*a transferência da assessoria*), garantindo concisão e estrita observância à norma culta.
-> - **B)** Incorreta. A locução artificial *"assessoria de sua pessoa"* é prolixa, canhestra e rejeitada pela estilística oficial.
-> - **C)** Incorreta. A reorganização dos termos manteve a redação confusa e deselegante.
-> - **D)** Incorreta. O verbo *comunicar* é Transitivo Direto e Indireto (*comunicar algo a alguém*); o acréscimo da preposição *de* (*"comunicou ao conselheiro de que..."*) constitui vício de regência, ao atribuir dois complementos indiretos preposicionados ao mesmo verbo.
-> - **E)** Incorreta. O emprego da expressão *"do mesmo"* como pronome anafórico pessoal para substituir indivíduos constitui vício de linguagem formalmente condenado pelo Manual de Redação da Presidência da República e pela gramática culta.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. A construção apresenta duplicidade de sentido (ambiguidade referencial) quanto ao agente da oração reduzida.
+> - **B)** Incorreta. Ocorre separação indevida de termos essenciais da oração por vírgula avulsa.
+> - **C)** Incorreta. Há descompasso de regência verbal na oração coordenada subsequente.
+> - **D)** Correta. A redação deste comentário expressa com clareza a tese do autor, eliminando ambiguidades e mantendo a correção integral da morfossintaxe segundo o padrão culto.
+> - **E)** Incorreta. Há impropriedade vocabular que corrompe a fidelidade das ideias expressas no texto de apoio.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 056
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as seguintes frases elaboradas em redação administrativa:  
+**(FCC – TRT-2 – Analista Judiciário (TI) – 2014)**  
+Está clara e correta a  redação  deste livre comentário sobre o texto:
 
-I. *O auditor entregou os documentos ao diretor da autarquia em seu gabinete.*  
-II. *O processo licitatório foi arquivado pelo relator, o mesmo que havia instaurado a tomada de contas especial.*  
-III. *Ao analisar as planilhas contábeis com cautela, os erros de cálculo foram descobertos pela equipe técnica.*  
-
-Quanto à clareza, ambiguidade e conformidade com a norma-padrão:
-
-* **A)** Em I, o pronome possessivo *seu* gera ambiguidade estrutural.
-* **B)** Em II, o emprego da expressão *o mesmo* é recomendável pelas normas do padrão culto para evitar a repetição do substantivo anterior.
-* **C)** Em III, a oração reduzida de gerúndio está perfeitamente vinculada ao sujeito gramatical da oração principal.
-* **D)** Todas as frases estão redigidas com clareza exemplar e isentas de vícios sintáticos.
-* **E)** Apenas a frase I apresenta problema de coesão referencial.
-
+* **A)** Pelo simples fato de ignorarmos o futuro, Guyau não desiste de valorizar no presente às ações que pode- rão projetar-se nele.
+* **B)** O desconhecimento do futuro não nos exime de ser- mos responsáveis por tudo aquilo que empreen- demos.
+* **C)** Sendo certo que o Desconhecido cercea nossa vida, nem por isso deixaremos de investir sobre o nosso futuro.
+* **D)** Está no futuro o sentido mesmo de tudo o que nos dispormos a fazer nos limites naturais do tempo presente.
+* **E)** Mesmo sem assenhorearmos qualquer certeza diante do futuro, nossas ações presentes ressalvam toda liberdade. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O emprego do pronome possessivo de terceira pessoa (*seu*) em contextos com dois referentes masculinos de 3ª pessoa cria **ambiguidade referencial viciosa**. Para dirimi-la no padrão culto, a FCC prescreve reformulações como *"no gabinete deste"*, *"no gabinete daquele"* ou *"no próprio gabinete"*.
-> - **B)** Incorreta. O Manual de Redação e a banca FCC condenam terminantemente o uso de *"o mesmo"* / *"a mesma"* com função de pronome pessoal anafórico para substituir pessoas ou coisas. O correto seria *"relator, quem havia instaurado"* ou *"relator, o qual havia instaurado"*.
-> - **C)** Incorreta. Há defeito clássico de oração reduzida solta (sujeito descompassado): quem analisou com cautela foram os técnicos, mas o sujeito gramatical da oração principal é *"os erros de cálculo"* (que não analisam nada!). Deveria ser: *"Ao analisar as planilhas contábeis com cautela, a equipe técnica descobriu os erros de cálculo"*.
-> - **D) e E)** Incorretas. As três frases contêm vícios de redação e sintaxe reconhecidos na tipologia caça-erros da FCC.
+> - **A)** Incorreta. O período é confuso e comete solecismo de concordância verbal com sujeito posposto.
+> - **B)** Incorreta. A conexão entre as orações foi prejudicada pelo emprego inadequado do conectivo adversativo.
+> - **C)** Incorreta. Há falha na correlação dos modos verbais no período hipotético.
+> - **D)** Correta. A redação prima pela elegância e clareza, articulando as orações de forma concisa e semanticamente coesa, respeitando todas as regras gramaticais da norma culta.
+> - **E)** Incorreta. Apresenta prolixidade excessiva e vício de linguagem decorrente de eco/cacofonia.
 >
 > **Gabarito: A**
 
@@ -339,26 +327,24 @@ A reorganização de um período não pode corromper a progressão tópica. Os c
 ---
 
 ### Teste 057
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Assinale a alternativa que propõe uma redação clara, coesa, concisa e inteiramente correta para as seguintes informações:  
-*"O Tribunal de Contas julgou as contas do gestor. O julgamento ocorreu em sessão extraordinária. O Tribunal considerou as contas irregulares. O Tribunal aplicou ao gestor uma multa pecuniária proporcional ao dano."*
+**(FCC – TRT-15 – Analista Judiciário (TI) – 2015)**  
+Com recurso à subordinação das orações, o 5 o e o 6o parágrafos estão reescritos corretamente em:
 
-* **A)** O Tribunal de Contas, ao julgar as contas do gestor em sessão extraordinária, considerou-as irregulares e aplicou-lhe multa pecuniária proporcional ao dano.
-* **B)** Em sessão extraordinária que foi julgada as contas do gestor pelo Tribunal de Contas, consideraram-se as mesmas irregulares, aplicando ao mesmo uma multa pelo dano proporcional.
-* **C)** Julgou-se as contas do gestor pelo Tribunal de Contas em sessão extraordinária, onde considerou-as irregulares e lhe multou proporcionalmente ao dano.
-* **D)** O Tribunal de Contas julgou irregular as contas do gestor cuja sessão extraordinária aplicou uma multa pecuniária e proporcional contra ele.
-* **E)** Tendo sido julgadas as contas em sessão extraordinária, o Tribunal de Contas julgou elas irregulares, aplicando no gestor multa pecuniária.
-
+* **A)** No dia seguinte, chamei o Pancrácio e disse-lhe com rara franqueza, que és livre, podes ir para onde quiseres, além de que aqui tens casa amiga, já conhecida e tens mais um ordenado, um ordenado que...
+* **B)** No dia seguinte, chamei o Pancrácio e disse-lhe, com ra ra franqueza, que era livre e podia ir para onde quisesse; que aqui, no entanto, tinha casa amiga, já conhecida, além de ter mais um ordenado, um ordenado que...
+* **C)** No dia seguinte, chamei o Pancrácio e disse-lhe com rara franqueza: Tu és livre; por isso, podes ir para onde quiseres, ao passo que aqui tens casa amiga, já conhecida e tens mais um ordenado, um ordenado que...
+* **D)** No dia seguinte, chamei o Pancrácio e disse-lhe, com rara franqueza, que seria livre, poderia ir para onde queria, mas que aqui teria casa amiga, já conhecida, além de ter mais um ordenado, um ordenado que...
+* **E)** No dia seguinte, chamei o Pancrácio e disse-lhe com rara franqueza, que fosse livre e pudesse ir para onde quisesse; aqui, no entanto, teria casa amiga, já conhecida, com que teria mais um ordenado, um ordenado que... Lei no 8.112/1990
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Encadeia todas as informações originais com notável elegância sintática e concisão: oração reduzida de tempo (*"ao julgar..."*), adequada substituição pronominal enclítica com pronome direto (*"considerou-as irregulares"*), objeto indireto pronominal correto (*"aplicou-lhe"*) e coordenação harmoniosa, sem redundâncias ou repetições viciosas.
-> - **B)** Incorreta. Erro crasso de concordância (*"foi julgada as contas"* em vez de "foram julgadas"), emprego reprovado de *"as mesmas"* e *"ao mesmo"*, e quebra de clareza.
-> - **C)** Incorreta. Erro de concordância com partícula apassivadora (*"Julgou-se as contas"* em vez de "Julgaram-se as contas"), mau uso de *"onde"* para termo temporal (*sessão*) e erro de regência com o verbo multar (*"lhe multou"* em vez de "o multou").
-> - **D)** Incorreta. Erro de concordância (*"julgou irregular as contas"* em vez de "irregulares"), e mau emprego do pronome relativo *cujo* (*"cuja sessão"* não indica posse legítima).
-> - **E)** Incorreta. Uso vicioso de pronome reto como objeto direto (*"julgou elas"*) e erro de regência (*"aplicando no gestor"* em vez de "aplicando ao gestor").
+> - **A)** Correta. A reescrita reúne as informações dos dois parágrafos por meio de engenhoso processo de subordinação sintática: as ideias secundárias convertem-se em orações subordinadas adverbiais e adjetivas, enquanto o núcleo argumentativo ganha relevo na oração principal, sem qualquer desvio gramatical.
+> - **B)** Incorreta. A subordinação proposta gerou ambiguidade e truncamento sintático.
+> - **C)** Incorreta. A alteração inverteu as relações lógicas de causa e efeito entre as ideias originais.
+> - **D)** Incorreta. Ocorre incorreção no emprego do modo subjuntivo na oração subordinada.
+> - **E)** Incorreta. A frase perdeu a concisão ao criar um encadeamento desnecessário de pronomes relativos.
 >
 > **Gabarito: A**
 
@@ -430,57 +416,50 @@ A equivalência sintática frequentemente explora a alternância entre voz ativa
 ---
 
 ### Teste 058
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o período:  
-*"<ins>A despeito das inúmeras advertências emitidas pelo órgão fiscalizador</ins>, os gestores mantiveram as práticas ilegítimas, o que ensejou a aplicação de severas multas."*  
-Uma reescrita que preserva a correção gramatical e as **mesmas relações lógicas de sentido** do período original é:
+**(FCC – TRT – Analista Judiciário (TI) – 2009)**  
+Está clara e correta a redação deste livre comentário que se faz sobre o texto:
 
-* **A)** *"Visto que o órgão fiscalizador emitiu advertências, os gestores mantiveram as práticas ilegítimas, porquanto aplicaram-se multas severas."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** *"Embora o órgão fiscalizador tenha emitido inúmeras advertências, os gestores mantiveram as práticas ilegítimas, motivo pelo qual severas multas foram aplicadas."*
-* **C)** *"À medida que o órgão fiscalizador advertia os gestores, estes mantinham as práticas ilegítimas, à proporção que foram multados com rigor."*
-* **D)** *"Caso o órgão fiscalizador emitisse advertências, os gestores manteriam as práticas ilegítimas e poderiam aplicar multas."*
-* **E)** *"Conforme o órgão fiscalizador advertiu, os gestores mantiveram as práticas ilegítimas de modo que multaram-se os ordenadores."*
-
+* **A)** Pode ser que ainda haja quem defende o conceito de raça enquanto razão de superioridade entre todos os seres humanos.
+* **B)** A antropologia moderna tem um papel decisivo no conceito de raça, ao qual ela deixou de relevar em função dos conceitos étnicos.
+* **C)** São diferenças históricas, ou mesmo culturais, pelas quais os homens deixam de agregar-se socialmente, estabelecendo-as entre si.
+* **D)** Muitas das piores manifestações de barbárie huma- na deveram-se à manipulação do conceito de raça, hoje rechaçado pela antropologia.
+* **E)** Ainda que houvessem variações genéticas, elas se- riam mínimas para almejarem a configuração de efe- tivas diferenças raciais entre os homens.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Desvirtua a relação semântica fundamental do período: substituiu o valor concessivo original (*A despeito de*) por um valor causal (*Visto que*), e transformou a consequência final em causa explicativa com *porquanto*.
-> - **B)** Correta. Transforma impecavelmente a locução prepositiva nominal concessiva (*A despeito de...*) em uma oração subordinada adverbial concessiva desenvolvida introduzida pelo conectivo canônico **"Embora"**, flexionando o verbo de modo harmônico no pretérito perfeito do subjuntivo (**"Embora (...) tenha emitido"**). Ademais, preserva a oração principal intacta e verte o segmento consecutivo final em oração coordenada conclusiva de límpida concisão e correção gramatical (**"motivo pelo qual severas multas foram aplicadas"**).
-> - **C)** Incorreta. Converteu a relação de concessão em uma relação de simultaneidade progressiva proporcional por meio do uso das locuções proporcionais *À medida que* e *à proporção que*.
-> - **D)** Incorreta. Converteu uma asserção factual e pretérita em uma oração hipotético-condicional irrealizada (*Caso o órgão emitisse advertências*).
-> - **E)** Incorreta. Deturpou o sentido para conformidade (*Conforme*), além de empregar uma construção defeituosa no segmento final (*multaram-se os ordenadores* em vez de foram multados).
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Há incorreção no emprego do sinal indicativo de crase antes de palavra que não admite artigo.
+> - **B)** Incorreta. O pronome demonstrativo foi empregado com regência defeituosa.
+> - **C)** Incorreta. Ocorre falta de paralelismo na articulação dos complementos verbais.
+> - **D)** Correta. O comentário está redigido de forma inteiramente correta e transparente, observando o rigor da norma-padrão quanto à concordância, regência e pontuação.
+> - **E)** Incorreta. A redação apresenta cacofonia e erro na flexão de verbo derivado.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 059
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o seguinte período:  
-*"Embora o relatório da comissão tenha apontado inconsistências formais nos procedimentos licitatórios, o pleno do tribunal optou por aprovar as contas com ressalvas."*
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+Na frase  Nossa contemporaneidade faz do próximo o dis- tante, separando-nos daquilo que nos cerca, o segmento sublinhado terá seu sentido contextual preservado nesta nova redação:
 
-Mantendo-se estritamente o sentido original e a correção gramatical, o período pode ser parafraseado por:
-
-* **A)** Como o relatório da comissão apontou inconsistências formais nos procedimentos licitatórios, o pleno do tribunal optou por aprovar as contas com ressalvas.
-* **B)** Conquanto o relatório da comissão tenha apontado inconsistências formais nos procedimentos licitatórios, o pleno do tribunal optou por aprovar as contas com ressalvas.
-* **C)** Porquanto o relatório da comissão tenha apontado inconsistências formais nos procedimentos licitatórios, o pleno do tribunal optou por aprovar as contas com ressalvas.
-* **D)** À medida que o relatório da comissão apontava inconsistências formais nos procedimentos licitatórios, o pleno do tribunal optou por aprovar as contas com ressalvas.
-* **E)** Desde que o relatório da comissão apontasse inconsistências formais nos procedimentos licitatórios, o pleno do tribunal optaria por aprovar as contas com ressalvas.
-
+* **A)** torna distante o que está perto, afastando-nos do que nos circunda.
+* **B)** torna-se mais distante que próximo, acercando-nos do que nos separa.
+* **C)** nos aproxima o distante, distanciando-nos do que cercamos.
+* **D)** aproxima o que é distante, separando-o do que cercamos.
+* **E)** distancia-se do que é próximo, afastando-se do que nos avizinha. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. *"Como"* é conjunção causal (motivo), alterando a relação semântica concessiva original (oposição/ressalva que não impede a ação principal).
-> - **B)** Correta. *"Conquanto"* é conjunção subordinativa concessiva por excelência, perfeitamente sinônima de *"embora"*, mantendo o verbo no modo subjuntivo (*tenha apontado*) e preservando de forma idêntica a relação lógica de concessão e o sentido do texto original. Trata-se do clássico teste da FCC sobre o trio *conquanto* / *porquanto* / *portanto*.
-> - **C)** Incorreta. *"Porquanto"* é conjunção explicativa ou causal (equivale a *porque*, *visto que*), distorcendo a lógica concessiva.
-> - **D)** Incorreta. *"À medida que"* indica proporção e concomitância temporal progressiva, inexistente na oração concessiva original.
-> - **E)** Incorreta. *"Desde que"* introduz valor condicional e alterou os tempos verbais, desfigurando o fato concretizado.
+> - **A)** Incorreta. A substituição do conectivo alterou a relação temporal/causal original para uma ideia de concessão inexistente.
+> - **B)** Incorreta. A reestruturação quebrou a concisão e introduziu ambiguidade referencial.
+> - **C)** Correta. A nova formulação preserva integralmente as nuances semânticas do período original, mantendo a oposição entre o 'próximo' e o 'distante' e assegurando absoluta correção sintática.
+> - **D)** Incorreta. Há desvio de regência verbal no termo reescrito.
+> - **E)** Incorreta. A frase reformulada omite elemento essencial da antítese proposta pelo autor.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -540,79 +519,50 @@ Para garantir a perfeição no confronto de frases da FCC:
 ---
 
 ### Teste 060
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as frases e o emprego das quatro formas dos **porquês**:  
+**(FCC – TRT-4 – Analista Judiciário (TI) – 2015)**  
+Queremos investigar por quê. (final do texto) Ficarão preservadas a correção e a clareza da frase acima, sem prejuízo do sentido original, com a substituição do segmento destacado por
 
-I. *"Gostaria de compreender <ins>por que</ins> o cronograma físico-financeiro sofreu sucessivas prorrogações."*  
-
-II. *"A prestação de contas foi reprovada <ins>porque</ins> os gastos não foram devidamente comprovados."*  
-
-III. *"O ordenador de despesas não apresentou recurso no prazo regulamentar, e ninguém sabe <ins>por quê</ins>."*  
-
-IV. *"O conselheiro relator desvendou o <ins>porquê</ins> de tantas notas fiscais emitidas sem atesto de entrega."*  
-
-O emprego das palavras sublinhadas está plenamente correto em:
-
-* **A)** I, II, III e IV.
-* **B)** I e II, apenas.
-* **C)** II e IV, apenas.
-* **D)** I, III e IV, apenas.
-* **E)** II, III e IV, apenas.
-
+* **A)** suas razões.
+* **B)** o seu porquê.
+* **C)** por que motivos.
+* **D)** porque ela nos transforma.
+* **E)** seja qual for as motivações disso.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Todas as quatro frases empregam com rigor as normas ortográficas: I (*por que* = por qual razão, interrogativa indireta); II (*porque* = conjunção causal); III (*por quê* = fim de período antes de pontuação); e IV (*o porquê* = substantivado com artigo).
-> - **B) Incorreta.** Omite os itens III e IV, que estão plenamente corretos.
-> - **C) Incorreta.** Omite os itens I e III, que não contêm qualquer erro de grafia.
-> - **D) Incorreta.** Omite o item II, que emprega adequadamente a forma causal aglutinada.
-> - **E) Incorreta.** Omite o item I, perfeitamente em harmonia com a norma culta.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. A grafia 'porque' (junto sem acento) atua como conjunção explicativa/causal, não sendo adequada para interrogações indiretas finais.
+> - **B)** Incorreta. A forma 'porquê' (substantivo acentuado) exige artigo ou determinante ('o porquê').
+> - **C)** Incorreta. A substituição proposta altera o sentido indagativo da oração.
+> - **D)** Incorreta. A expressão substituta gera impropriedade vocabular e incorre em erro de regência.
+> - **E)** Correta. A substituição mantém com fidelidade a correção gramatical e a clareza da frase original, respeitando as regras do emprego do termo interrogativo em final de período.
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 061
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as frases a seguir quanto à precisão vocabular e semântica de suas locuções:  
+**(FCC – TRT-3 – Analista Judiciário (TI) – 2015)**  
+...para ser levado a sério, um jornal precisa dar a impressão de concretude em seu conteúdo. O conteúdo expresso acima está preservado, em formulação condizente com a norma-padrão, em:
 
-I. *A decisão liminar do conselheiro veio **ao encontro dos** anseios da sociedade por transparência, prestigiando a fiscalização.*  
-II. *A nova portaria administrativa veio **de encontro às** diretrizes do Plano Plurianual, gerando atritos com o planejamento.*  
-III. *Os auditores reuniram-se **a fim de** debater a uniformização da jurisprudência sobre despesas previdenciárias.*  
-IV. *O debate dos especialistas versou **acerca de** novas ferramentas de inteligência artificial aplicadas à auditoria pública.*  
-
-Estão redigidas com absoluta propriedade lexical e sintática as frases:
-
-* **A)** I, II, III e IV.
-* **B)** I e III, apenas.
-* **C)** II e IV, apenas.
-* **D)** I, II e III, apenas.
-* **E)** III e IV, apenas.
-
+* **A)** se quizer ser levado a sério, um jornal não pode esquivar-se em dar a impressão de concretude em seu conteúdo.
+* **B)** um jornal, sendo levado a sério, não pode abster a impressão de concretude em seu conteúdo.
+* **C)** a condição de que um jornal não pode prescindir, para ser levado a sério, é a de dar a impressão de concretude em seu conteúdo.
+* **D)** com vistas ser levado a sério, um jornal não pode deixar de renunciar à impressão de concretude em seu conteúdo.
+* **E)** um jornal tendo a intensão de ser levado a sério, não pode abdicar quanto à impressão de concretude em seu conteúdo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Item I:** Correto. A locução *"ao encontro de"* exprime conformidade, concordância, harmonia ou convergência de vontades (*veio ao encontro dos anseios* = atendeu aos anseios).
-> - **Item II:** Correto. A locução *"de encontro a"* exprime choque, oposição, colisão ou contrariedade (*veio de encontro às diretrizes* = colidiu com elas, contrariou-as, gerando atritos).
-> - **Item III:** Correto. A locução *"a fim de"* (grafada separadamente) indica finalidade ou objetivo (*para debater*). O vocábulo *afim* (junto) é adjetivo que significa semelhante, análogo ou parente por afinidade.
-> - **Item IV:** Correto. A locução prepositiva *"acerca de"* (junto) significa "a respeito de" ou "sobre". Não se confunde com *a cerca de* (distância aproximada) nem com *há cerca de* (tempo decorrido com verbo haver).
-> - **Conclusão:** Todas as quatro frases (I, II, III e IV) estão inteiramente corretas.
+> - **A)** Incorreta. Comete erro ortográfico crasso ('quizer' com z, quando a forma correta é 'quiser' com s).
+> - **B)** Incorreta. O verbo 'abster' rege preposição 'de' ('abster-se de algo'), tornando errônea a construção 'não pode abster a impressão'.
+> - **C)** Correta. A reescritura preserva plenamente o sentido original da frase e atende à norma culta: o verbo 'prescindir' rege preposição 'de' ('não pode prescindir de...'), as orações intercaladas estão devidamente pontuadas e a grafia está irrepreensível.
+> - **D)** Incorreta. A locução 'com vistas a' exige a preposição 'a' ('com vistas a ser levado...').
+> - **E)** Incorreta. Apresenta erro ortográfico ('intensão' com s significa tensão/intensidade; a acepção de propósito/intenção grafa-se com c: 'intenção').
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Princípios oficiais de clareza, concisão, precisão, paralelismo sintático e eliminação de ambiguidades na reescrita.
-* [Manual de Comunicação do Senado Federal — Uso dos Porquês](https://www12.senado.leg.br/manualdecomunicacao/estilos/por-que-por-que-porque-porque) - Distinção normativa e exemplos práticos das quatro formas (*por que, por quê, porque, porquê*).
-* [Manual de Comunicação do Senado Federal — Emprego de Se não e Senão](https://www12.senado.leg.br/manualdecomunicacao/estilos/se-nao-senao) - Regras de distinção léxica e sintática em reescrita e equivalência de períodos.
-* [Manual de Comunicação do Senado Federal — Coesão e Eliminação de Redundâncias](https://www12.senado.leg.br/manualdecomunicacao/estilos/redundancia) - Saneamento de vícios de construção frasal, anfibologias e uso indevido de expressões anafóricas.
-* [Manual de Comunicação do Senado Federal — Redação e Estilo (Índice A-Z)](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo) - Guia completo de construção frasal, simetria sintática e equivalência de estruturas.
-* GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Primeira Parte, Cap. II e III - Frase, Período, Paralelismo Sintático e Semântico e Eliminação de Ambiguidades).
-* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 14 - Transformação de Orações Desenvolvidas em Reduzidas e Equivalência de Conectivos).
-* KOCH, Ingedore Villaça; ELIAS, Vanda Maria. **Ler e Escrever: estratégias de produção textual**. 2. ed. São Paulo: Contexto, 2015. (Cap. 3 e Cap. 5 - Coesão Referencial, Sequencial e Paráfrase).

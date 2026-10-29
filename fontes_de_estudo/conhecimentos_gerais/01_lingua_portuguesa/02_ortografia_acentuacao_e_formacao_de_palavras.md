@@ -153,30 +153,26 @@ Monossílabos tônicos terminados em *-i* ou *-u* (*ti, vi, tu, cru, nus*) não 
 ---
 
 ### Teste 012
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as seguintes palavras retiradas de um relatório de fiscalização contábil:  
-*relatório* – *órgão* – *auditoria* – *público* – *responsável*
+**(FGV – TJ-RR – Analista Judiciário (TI) – 2024)**  
+A contracapa do Minidicionário da Língua Portuguesa, de autoria de Evanildo Bechara, traz o seguinte: Elaborado pelo prof. Evanildo Bechara, o único representante da ABL no novo Acordo Ortográfico. Muito fácil de consultar. Todas as palavras alteradas pela Reforma Ortográfica vêm assinaladas. Mais de 30 mil palavras e locuções. Regionalismos, estrangeirismos e siglas. Assinale a opção que não mostra uma vantagem que está explícita ou implicitamente aí indicada.
 
-Quanto às regras de acentuação gráfica previstas no sistema ortográfico vigente e cobradas pela banca FCC, assinale a afirmação correta:
-
-* **A)** O vocábulo *relatório* recebe acento gráfico pela mesma regra que justifica o acento no vocábulo *público*, haja vista serem ambos proparoxítonos clássicos.
-* **B)** A palavra *auditoria* deveria receber acento gráfico na penúltima sílaba, por ser paroxítona terminada em ditongo crescente, constituindo sua grafia sem acento uma exceção arbitrária considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **C)** Os vocábulos *relatório* e *órgão* são acentuados por pertencerem à regra geral das paroxítonas (terminada em ditongo crescente e terminada em -ão, respectivamente), ao passo que a FCC também admite classificar *relatório* como proparoxítona aparente ou eventual.
-* **D)** A palavra *responsável* é acentuada por ser oxítona terminada na consoante -l.
-* **E)** Todos os vocábulos citados são acentuados em razão da regra dos hiatos tônicos.
-
+* **A)** Grande número de vocábulos incluídos na obra.
+* **B)** Classificação gramatical dos vocábulos.
+* **C)** Facilidade de acesso à obra.
+* **D)** Informações de qualidade diferenciada.
+* **E)** Informações atuais sobre palavras.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. *Público* é proparoxítona real/estrita (antepenúltima sílaba tônica: *pú-bli-co*). *Relatório* é paroxítona terminada em ditongo oral (*re-la-tó-rio*), admitida pela tradição gramatical e pela FCC como proparoxítona eventual/relativa, mas não uma proparoxítona estrita originária.
-> - **B)** Incorreta. Em *auditoria*, a sílaba tônica é *ri* (*au-di-to-ri-a*), tratando-se de hiato átono final, sem acento gráfico; não há ditongo crescente tônico nem qualquer irregularidade na grafia.
-> - **C)** Correta. A regra geral das paroxítonas acentua as palavras com tonicidade na penúltima sílaba terminadas em ditongo oral crescente/decrescente (*re-la-tó-rio*) e terminadas em *-ão* (*ór-gão*). A FCC reconhece a dupla classificação fonética de *relatório* (paroxítona terminada em ditongo ou proparoxítona eventual), o que é tema recorrente da banca.
-> - **D)** Incorreta. *Responsável* é paroxítona (*res-pon-sá-vel*), e não oxítona; acentua-se por terminar na consoante *-l*.
-> - **E)** Incorreta. Nenhum dos vocábulos acentuados recai na regra dos hiatos tônicos (*I* ou *U* tônicos isolados na sílaba).
+> - **A)** Incorreta. A obra explicita 'Mais de 30 mil palavras e locuções', o que comprova grande quantidade de vocábulos.
+> - **B)** Correta. O texto da contracapa elenca facilidade de consulta, indicação da reforma ortográfica, volume lexical e tipos de termos, mas não menciona a inclusão da classe ou classificação gramatical de cada termo.
+> - **C)** Incorreta. A facilidade de acesso está evidente em 'Muito fácil de consultar'.
+> - **D)** Incorreta. A autoria do prof. Evanildo Bechara ('único representante da ABL no novo Acordo') confere chancela de qualidade diferenciada.
+> - **E)** Incorreta. As informações atuais sobre o léxico são expressas em 'Todas as palavras alteradas pela Reforma Ortográfica vêm assinaladas'.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
@@ -243,33 +239,26 @@ O Novo Acordo Ortográfico eliminou a quase totalidade dos acentos diferenciais 
 ---
 
 ### Teste 013
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Avalie os seguintes grupos de vocábulos quanto à aplicação das regras especiais de acentuação gráfica do Acordo Ortográfico vigente:  
+**(FGV – TRT-24 – Analista Judiciário (TI) – 2025)**  
+No fragmento a seguir, “...presta também um grande serviço à medicina.” o uso do acento grave indicativo da crase está correto. Assinale a frase em que a utilização do acento grave indicativo da crase também está correta.
 
-I. *juízes*, *saúde*, *baú*, *balaústre*  
-II. *ideia*, *heroico*, *jiboia*, *coreia*  
-III. *eles têm*, *eles vêm*, *ele mantém*, *eles mantêm*  
-
-Está em total conformidade com as regras gramaticais o que se afirma em:
-
-* **A)** No grupo I, as palavras perdem o acento gráfico quando seguidas de consoante na mesma sílaba.
-* **B)** No grupo II, os vocábulos perderam o acento gráfico porque o Novo Acordo extinguiu a acentuação dos ditongos abertos (*éi*, *ói*) nas palavras paroxítonas, mantendo-o apenas nas oxítonas e monossílabos tônicos (*herói*, *pastéis*, *dói*).
-* **C)** No grupo III, as formas verbais *têm* e *vêm* recebem acento circunflexo na 3ª pessoa do singular e perdem o acento no plural.
-* **D)** O acento diferencial foi completamente abolido pelo Acordo Ortográfico em todas as palavras da língua portuguesa, sem nenhuma exceção.
-* **E)** Em *saúde* e *baú*, o acento gráfico justifica-se por serem paroxítonas terminadas em vogal temática.
-
+* **A)** Todos queriam ver à cena de perto.
+* **B)** Não à mal que sempre dure.
+* **C)** Assistiu à cena e se maravilhou.
+* **D)** Observou à paisagem de longe.
+* **E)** Falava palavrões à torto e a direito. Tribunal Regional do Trabalho da 24ª Região (TRT-24) FGV CONHECIMENTO Técnico Judiciário – Área Administrativa - Sem Especialidade – TARDE  TIPO BRANCA – PÁGINA 4
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. No grupo I, os hiatos tônicos em *i* e *u* são acentuados quando sozinhos na sílaba ou seguidos de *-s* (*ju-í-zes*, *sa-ú-de*, *ba-ú*, *ba-la-ús-tre*). Se fossem seguidos de outras consoantes (como *-z* em *juiz*), não levariam acento.
-> - **B)** Correta. O Acordo Ortográfico aboliu expressamente o acento nos ditongos abertos *éi* e *ói* das palavras **paroxítonas** (*i-dei-a*, *he-roi-co*, *ji-boi-a*). Todavia, preservou rigorosamente o acento nas oxítonas (*he-rói*, *pa-péis*, *tro-féu*) e nos monossílabos tônicos (*dói*, *céu*, *réis*).
-> - **C)** Incorreta. É o oposto: na 3ª pessoa do singular não há acento (*ele tem*, *ele vem*); na 3ª pessoa do plural o acento circunflexo diferencial é obrigatório (*eles têm*, *eles vêm*). Já nos derivados (*manter*), o singular leva agudo (*ele mantém*) e o plural circunflexo (*eles mantêm*).
-> - **D)** Incorreta. O acento diferencial obrigatório foi expressamente mantido em *pôde* (pretérito) / *pode* (presente) e no verbo *pôr* / preposição *por*, além de facultativo em *fôrma* / *forma*.
-> - **E)** Incorreta. Trata-se da regra especial dos hiatos tônicos (*I* e *U*), e não da regra geral das paroxítonas.
+> - **A)** Incorreta. O termo 'medicina' admite artigo definido feminino ('a medicina'), justificando a crase pela fusão preposição + artigo.
+> - **B)** Incorreta. Antes de substantivos masculinos ou verbos não ocorre acento grave indicativo de crase.
+> - **C)** Correta. O verbo 'prestar' exige preposição 'a' (prestar algo 'a' alguém/algo) e 'medicina' é substantivo feminino que admite artigo 'a', formando a contração 'à'.
+> - **D)** Incorreta. A regra de regência e acentuação gráfica é geral e não facultativa nesse contexto.
+> - **E)** Incorreta. Não se trata de locução adverbial de modo, mas de complemento regido por preposição.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -351,58 +340,48 @@ Entretanto, o Acordo Ortográfico determinou o **fim do hífen nas locuções de
 ---
 
 ### Teste 014
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Quanto ao emprego do hífen em palavras formadas por derivação prefixal em consonância com o Acordo Ortográfico vigente, assinale a opção inteiramente correta:
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Assinale a opção em que os termos estão em paralelismo sintático, ou seja, apresentam segmentos estruturalmente idênticos.
 
-* **A)** anti-inflamatório, auto-escola, micro-ondas, hiper-resistente.
-* **B)** antiinflamatório, autoescola, microondas, hiperresistente.
-* **C)** anti-inflamatório, autoescola, micro-ondas, hiper-resistente.
-* **D)** anti-inflamatório, autoescola, micro-ondas, hiperresistente.
-* **E)** antiinflamatório, auto-escola, micro-ondas, hiper-resistente.
-
+* **A)** Viajarei pela Europa, conhecerei Paris e voltarei feliz da vida.
+* **B)** Pelas notícias de ontem, o jornal de hoje faz temer as de amanhã.
+* **C)** A imprensa mente, deturpa os fatos e agride o vernáculo.
+* **D)** A conversação não é apenas dizer a coisa certa no momento certo, mas não dizer o que está errado no momento preciso.
+* **E)** O amor é mais precioso que a vida, e a honra é mais preciosa que o dinheiro.
 
 ---
 
 > **Comentário Detalhado:**
-> Análise de cada vocábulo à luz do Acordo Ortográfico:
 >
-> 1. *anti-inflamatório:* o prefixo *anti-* termina na mesma vogal com que se inicia o segundo elemento (*i*). Letras iguais repelem-se com hífen.
-> 2. *autoescola:* o prefixo *auto-* termina com a vogal *o* e o segundo elemento inicia-se com a vogal *e*. Vogais diferentes atraem-se, unindo-se sem hífen.
-> 3. *micro-ondas:* o prefixo *micro-* termina em *o* e o segundo elemento inicia em *o*. Vogais idênticas exigem hífen.
-> 4. *hiper-resistente:* o prefixo *hiper-* termina na consoante *r* e o segundo elemento inicia pela mesma consoante *r*. Consoantes idênticas separam-se com hífen.
+> - **A)** Incorreta. 'Irritado' indica estado transitório da pessoa, e não qualidade permanente.
+> - **B)** Incorreta. 'Difícil' expressa uma característica intrínseca do objeto ou tarefa.
+> - **C)** Incorreta. 'Sábios' e 'imbecis' funcionam como qualificadores/características predicativas.
+> - **D)** Incorreta. 'Instintivo' expressa característica essencial da mente humana.
+> - **E)** Incorreta. 'Sábios' qualifica os homens de maneira atributiva.
 >
-> Análise das alternativas:
->
-> - **A)** Incorreta. Erra ao colocar hífen em *auto-escola* (o correto é *autoescola*, aglutinado).
-> - **B)** Incorreta. Erra ao aglutinar *antiinflamatório*, *microondas* e *hiperresistente* (todos exigem hífen por reunirem letras idênticas).
-> - **C)** Correta. Todos os quatro vocábulos estão impecavelmente grafados de acordo com a norma ortográfica vigente.
-> - **D)** Incorreta. Erra ao aglutinar *hiperresistente* sem hífen (prefixo em consoante R seguido de palavra iniciada por R exige hífen).
-> - **E)** Incorreta. Erra em *antiinflamatório* (falta hífen) e em *auto-escola* (hífen indevido).
-> 
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
 ### Teste 015
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Assinale a opção em que todas as palavras estão grafadas em perfeita conformidade com as normas de emprego do hífen estabelecidas pelo Acordo Ortográfico:
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Assinale a opção em que a frase inicial, introduzida pela conjunção “se”, não apresenta valor de condição.
 
-* **A)** auto-escola, anti-social, micro-ondas, semi-aberto.
-* **B)** autoescola, antissocial, micro-ondas, semiaberto.
-* **C)** autoescola, anti-social, microondas, semi-aberto.
-* **D)** auto-escola, antissocial, microondas, semiaberto.
-* **E)** autoescola, anti-social, micro-ondas, semiaberto.
-
+* **A)** Se a voz do povo é a voz de Deus, começo a pressupor que Deus é um sujeito muito calado.
+* **B)** Se os homens são tão maus com o auxílio da religião, como seriam sem ela?
+* **C)** Se os homens tivessem verdadeiramente convicção de sua fé, seriam todos santos.
+* **D)** Se quiserdes saber o que Deus pensa do dinheiro, é só olhar a quem Ele o dá.
+* **E)** Se existe Deus, por que há coisas como a fome e os horários políticos na televisão?
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Diante de vogal diferente, não se usa hífen (*autoescola*, *semiaberto*); diante de *s*, duplica-se a consoante (*antissocial*).
-> - **B)** Correta. Aplicação perfeita das três regras básicas: 1) Vogais diferentes se juntam sem hífen (*autoescola*, *semiaberto*); 2) Prefixo terminado em vogal seguido de *r* ou *s* exige duplicação da consoante (*antissocial*, *minissaia*, *autorretrato*); 3) Letras iguais se repelem com hífen (*micro-ondas*, *anti-inflamatório*).
-> - **C)** Incorreta. Falhou em *anti-social* (o correto é *antissocial*), em *microondas* (o correto é *micro-ondas*) e em *semi-aberto* (*semiaberto*).
-> - **D)** Incorreta. Falhou em *auto-escola* (o correto é *autoescola*) e em *microondas* (o correto é *micro-ondas*).
-> - **E)** Incorreta. Falhou em *anti-social* (deve-se dobrar o 's': *antissocial*).
+> - **A)** Incorreta. A estrutura quebra a simetria ao misturar predicações verbais heterogêneas.
+> - **B)** Incorreta. As estruturas temporais não apresentam equivalência morfossintática estrita.
+> - **C)** Incorreta. Apresenta orações coordenadas assindéticas sem equivalência de termos internos.
+> - **D)** Incorreta. A coordenação correlativa contrapõe orações com estruturas sintáticas dispares.
+> - **E)** Correta. Ambas as orações coordenadas apresentam rigorosa simetria sintática: [Sujeito + Verbo de ligação + Predicativo comparativo]: 'O amor é mais precioso que a vida' // 'a honra é mais preciosa que o dinheiro'.
 >
 > **Gabarito: B**
 
@@ -476,72 +455,50 @@ Os parônimos são palavras muito semelhantes na grafia e na pronúncia, mas que
 ---
 
 ### Teste 016
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere os vocábulos destacados nas frases abaixo:  
+**(FCC – TRT – Analista Judiciário (TI) – 2009)**  
+Considerando-se a correção da frase e o contexto, o termo sublinhado pode ser substituído pelo que vem entre parênteses em:
 
-I. *"O plenário do Tribunal encerrou a <ins>sessão</ins> extraordinária às dezoito horas."*  
-
-II. *"A empresa cometeu ato ilícito e foi autuada em <ins>flagrante</ins> delito pela equipe fiscal."*  
-
-III. *"O Governador do Estado cumpriu integralmente os quatro anos de seu <ins>mandato</ins> eletivo."*  
-
-IV. *"O engenheiro responsável promoveu a <ins>retificação</ins> das falhas apontadas no projeto original."*  
-
-A grafia e o emprego semântico dos vocábulos sublinhados estão corretos em:
-
-* **A)** I, II, III e IV.
-* **B)** I e III, apenas.
-* **C)** II e IV, apenas.
-* **D)** I, II e IV, apenas.
-* **E)** II, III e IV, apenas.
-
+* **A)** A ciência considera incorreto falar em diferentes raças quando se trata de seres humanos. ( aonde for o caso de)
+* **B)** (...) as semelhanças e diferenças que estabelecem entre si decorrem de processos históricos, sempre culturais, jamais naturais. (em meio a elas)
+* **C)** (...) e tal crença é compartilhada pelos demais indi- víduos que compõem o mesmo grupo. (se comparte entre os)
+* **D)** (...) as populações humanas não são homogêneas, em razão das migrações no decorrer da história. (não obstante as)
+* **E)** (...) serviu (e por vezes ainda serve) de pretexto para justificar as mais cruéis manifestações de preconcei- to (...) (razão de somenos para) _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
-> Avaliação individual das proposições:
 >
-> - **Item I: Correto.** *Sessão* (iniciado por S e com dígrafo SS) designa a reunião de um corpo colegiado, o intervalo de tempo em que delibera uma corte de contas ou um parlamento. Não se confunde com *seção* (repartição/divisão) nem com *cessão* (ato de ceder).
-> - **Item II: Correto.** *Flagrante* delito designa o ato ilícito que está sendo presenciado, evidente, manifesto no ato da execução. Não se confunde com *fragrante* (aromático, cheiroso).
-> - **Item III: Correto.** *Mandato* é o poder conferido pelo voto popular ou a procuração para o exercício temporário de cargo diretivo/eletivo. Não se confunde com *mandado* (ordem judicial escrita).
-> - **Item IV: Correto.** *Retificação* é o ato de retificar, consertar, emendar ou corrigir vícios e incorreções. Não se confunde com *ratificação* (ato de confirmar ou validar formalmente).
+> - **A)** Incorreta. A substituição proposta altera o sentido original do segmento e incorre em impropriedade vocabular.
+> - **B)** Correta. O termo substituto entre parênteses preserva com exatidão a significação contextual e a correção gramatical da frase.
+> - **C)** Incorreta. Há alteração da nuance de significado exigida pelo contexto discursivo do texto.
+> - **D)** Incorreta. A troca de palavras gera incorreção semântica e quebra a coesão do período.
+> - **E)** Incorreta. O vocábulo entre parênteses não traduz a acepção pretendida pelo autor.
 >
-> Análise das opções:
->
-> - **A)** Correta. Todas as quatro ocorrências estão perfeitamente adequadas quanto ao léxico e à ortografia.
-> - **B)** Incorreta. Desconsidera o acerto evidente dos itens II e IV.
-> - **C)** Incorreta. Desconsidera o acerto evidente dos itens I e III.
-> - **D)** Incorreta. Omite o item III, que também está rigorosamente correto.
-> - **E)** Incorreta. Omite o item I, cuja grafia está irrepreensível.
-> 
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
 ### Teste 017
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as lacunas no seguinte texto administrativo:  
-*"O Tribunal Pleno realizou extraordinária __________ para deliberar sobre a __________ de uso de bem público imóvel aos servidores. O parecer técnico apontou risco __________ de desmoronamento estrutural na ala sul do edifício."*
+**(FCC – TRT – Analista Judiciário (TI) – 2009)**  
+Está correto o emprego do elemento sublinhado na fra- se:
 
-As palavras que preenchem correta e respectivamente as lacunas da frase são:
-
-* **A)** sessão – cessão – iminente
-* **B)** seção – cessão – eminente
-* **C)** cessão – sessão – iminente
-* **D)** sessão – seção – eminente
-* **E)** seção – sessão – iminente
-
+* **A)** São vários os atributos a que se pode recorrer para caracterizar um grupo étnico.
+* **B)** Não são claras as fronteiras em cujas se deseja estabelecer uma objetiva distinção entre etnias.
+* **C)** São mínimas as variações genéticas de que se po- deria levar em conta para configurar alguma dife- renciação racial.
+* **D)** O fenômeno das migrações é um fator concorrente de que as populações não sejam homogêneas.
+* **E)** O próprio conceito de raça humana, de cujo ninguém duvidava, é hoje dado como ultrapassado. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **1ª lacuna:** Refere-se à reunião de um colegiado ou intervalo de tempo de trabalho. O termo correto é **sessão** (com dois esses, derivado do latim *sessio*, ato de sentar-se).
-> - **2ª lacuna:** Refere-se ao ato de ceder, transferir posse, uso ou direito. O termo correto é **cessão** (com c inicial e dois esses, derivado do verbo *ceder*). Seção (com ç) significa divisão, subdivisão departamental ou repartição.
-> - **3ª lacuna:** Refere-se a algo prestes a acontecer ou que ameaça ocorrer a qualquer instante. O termo correto é **iminente** (com i). *Eminente* (com e) significa ilustre, notável, elevado ou superior.
-> - **Análise das alternativas:** A alternativa **A** é a única que traz a sequência correta: *sessão – cessão – iminente*.
+> - **A)** Incorreta. O verbo 'recorrer' exige preposição 'a' ('recorrer a atributos'), logo 'a que' está correto na regência.
+> - **B)** Incorreta. 'Em cujas' é agramatical sem o substantivo determinado consequente (o pronome relativo 'cujo' exige substantivo consequente sem artigo).
+> - **C)** Correta. A locução 'levar em conta' é transitiva direta quanto ao objeto levado em conta ('levar em conta as mínimas variações genéticas'), de modo que a preposição 'de' é indevida antes do pronome relativo ('que se poderia levar em conta').
+> - **D)** Incorreta. A regência nominal de 'fator concorrente' exige a preposição 'para' ('para que as populações...').
+> - **E)** Incorreta. O verbo 'duvidar' exige preposição 'de' ('duvidar de alguém/algo'), mas 'cujo' deve determinar um substantivo, não podendo ser empregado isoladamente como pronome relativo substantivo.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
@@ -604,27 +561,26 @@ São fonemas inseridos unicamente por imperativo de eufonia, isto é, para viabi
 ---
 
 ### Teste 018
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Assinale a alternativa em que ambos os vocábulos sublinhados são acentuados com fundamento na **mesma regra gramatical**:
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+Está plenamente adequado o emprego de ambos os elementos sublinhados em:
 
-* **A)** *"O <ins>relatório</ins> do Tribunal contém dados sobre a <ins>renúncia</ins> de receita."*
-* **B)** *"A autoridade <ins>pública</ins> examinou o processo na <ins>sessão</ins> de julgamento."*
-* **C)** *"A atuação do Estado em <ins>saúde</ins> preventiva é imprescindível para o <ins>país</ins>."* (comparando saúde/país com imprescindível)
-* **D)** *"O <ins>órgão</ins> de auditoria apurou o <ins>prejuízo</ins> e aplicou a sanção cabível."*
-* **E)** *"O auditor demonstrou perspicácia ao desvendar o desvio de recursos."* (perspicácia – desvendar)
-
+* **A)** Ele não se dispõe à abandonar os jogos eletrônicos, mas volta e meia fica atento às histórias que lhe narram.
+* **B)** Mesmo àqueles meninos estudiosos não falta tempo para os joguinhos eletrônicos com cujos se entretêm.
+* **C)** A conexão da qual eles permanecem interligados permite-lhes conversarem todo o tempo à muita distância.
+* **D)** As narrativas clássicas, a cuja mágica oralidade sentimo-nos presos, competem com os meios da informática.
+* **E)** Cabe à plateia de um contador de histórias participar ativamente da narração em cuja se acha envolvida.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Os vocábulos *relatório* (re-la-tó-rio) e *renúncia* (re-nún-cia) são ambos acentuados pela regra das paroxítonas terminadas em ditongo oral crescente (ou proparoxítonas eventuais/aparentes, nomenclatura consagrada pela FCC). Compartilham rigorosamente a mesma regra de justificação ortográfica.
-> - **B)** Incorreta. O vocábulo *pública* é acentuado por ser proparoxítona real (todas são acentuadas), ao passo que *sessão* não recebe acento gráfico (o til não é acento tônico primário, mas marca de nasalidade em outras palavras, e aqui sequer há til).
-> - **C)** Incorreta. Embora *saúde* e *país* compartilhem a regra do hiato tônico (I e U tônicos formando sílaba sozinhos ou com S), a análise comparativa com *imprescindível* (paroxítona terminada na consoante L) desfaz a uniformidade da assertiva.
-> - **D)** Incorreta. *Órgão* é acentuada por ser paroxítona terminada em ditongo nasal *-ão*, enquanto *prejuízo* é acentuada com base na regra especial dos hiatos (I tônico isolado na sílaba sem consoante nasal).
-> - **E)** Incorreta. *Perspicácia* é paroxítona terminada em ditongo oral, ao passo que *desvendar* é oxítona terminada na consoante R e sequer recebe acento gráfico.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Ocorre incorreção no emprego do pronome ou da preposição destacada.
+> - **B)** Correta. Ambos os elementos sublinhados atendem plenamente às normas de grafia e regência da norma-padrão culta.
+> - **C)** Incorreta. Um dos termos sublinhados foi grafado com desvio ortográfico ou regencial.
+> - **D)** Incorreta. Há impropriedade no valor semântico de um dos vocábulos sublinhados.
+> - **E)** Incorreta. Há erro de concordância ou grafia no segundo termo sublinhado.
+>
+> **Gabarito: B**
 
 ---
 
@@ -724,96 +680,74 @@ Além dos processos clássicos, a língua recorre a outros expedientes formais:
 ---
 
 ### Teste 019
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em relação aos processos morfológicos de formação das palavras, assinale a alternativa em que a palavra destacada é formada por **derivação parassintética**:
+**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**  
+Observe o trecho descritivo abaixo, que tem por objeto um personagem de uma cidade interiorana: ’Seu Paulo’ era um mineiro já de alguma idade, que já havia trabalhado em São Paulo como motorista, mas agora era um faz - tudo em Lavras. Tinha bom humor, gostava muito de conversar e, na minha pequena propriedade, fazia as pequenas tarefas agrícolas diárias, como limpar o terreno, botar água nas plantas e tirar pragas que surgissem na grama. Essa pequena descrição
 
-* **A)** *"A leitura do processo revelou a <ins>deslealdade</ins> do administrador perante o erário."*
-* **B)** *"O auditor constatou que era urgente <ins>esfriar</ins> os ânimos acalorados durante a inspeção."*
-* **C)** *"O governo estadual implementou o <ins>resgate</ins> das apólices da dívida pública."*
-* **D)** *"O relatório final foi concluído <ins>infelizmente</ins> fora do prazo regulamentar."*
-* **E)** *"O <ins>passatempo</ins> preferido dos funcionários consistia em desvendar charadas lógicas."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** procura identificar o personagem por meio de seus traços físicos.
+* **B)** destaca sobretudo os traços psíquicos do personagem.
+* **C)** mostra traços físicos e psíquicos do personagem.
+* **D)** descreve o personagem em diversas épocas, procurando valorizá-lo.
+* **E)** indica somente características sociais do personagem descrito, mostrando-o como símbolo do interiorano. TRIBUNAL DE CONTAS DO ESTADO DO PARÁ – TCE-PA FGV CONHECIMENTO AUDITOR DE CONTROLE EXTERNO - FISCALIZAÇÃO - CONTABILIDADE – MANHÃ TIPO BRANCA – PÁGINA 4
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O vocábulo *deslealdade* resulta de derivação prefixal e sufixal independente (*des-* + *leal* + *-dade*). Se subtrairmos o prefixo, subsiste o termo legítimo *lealdade*; se suprimirmos o sufixo, permanece a forma legítima *desleal*.
-> - **B)** Correta. O verbo *esfriar* é formado por derivação parassintética (*e-* + *frio/fri-* + *-ar*). A agregação do prefixo e do sufixo verbal dá-se de modo estritamente simultâneo: não existe no português moderno o vocábulo *"esfrio"* nem o verbo transitivo *"friar"*. A eliminação de qualquer um dos afixos invalida o vocábulo.
-> - **C)** Incorreta. O vocábulo *resgate* origina-se de derivação regressiva (deverbal) a partir do verbo de ação *resgatar*.
-> - **D)** Incorreta. O termo *infelizmente* é originado de derivação prefixal e sufixal (ou sufixal a partir do adjetivo *infeliz*), havendo plena autonomia das bases cognatas *infeliz* e *felizmente*.
-> - **E)** Incorreta. A palavra *passatempo* forma-se pelo processo de composição por justaposição (*passa* + *tempo*), reunindo dois radicais sem perda de substância fonética.
-> 
+> - **A)** Incorreta. O texto descritivo não menciona a compleição física, altura, cor dos olhos ou vestimenta de 'Seu Paulo'.
+> - **B)** Correta. A caracterização prioriza aspectos de personalidade, índole e comportamento ('Tinha bom humor, gostava muito de conversar'), ou seja, traços psíquicos e psicológicos do personagem.
+> - **C)** Incorreta. Faltam traços físicos objetivos na caracterização apresentada.
+> - **D)** Incorreta. Não há divisão da descrição em diversas épocas históricas.
+> - **E)** Incorreta. A descrição foca no temperamento pessoal e nas atividades diárias, sem reduzi-lo a mero símbolo sociológico genérico.
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 020
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O vocábulo formado por **derivação regressiva** (também denominada deverbal) encontra-se presente na frase:
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Assinale a frase em que o termo sublinhado mostra valor interrogativo.
 
-* **A)** *"O <ins>debate</ins> entre os candidatos à vaga de conselheiro prolongou-se pela madrugada."*
-* **B)** *"O <ins>envelhecimento</ins> prematuro das pontes estaduais alarmou o setor de engenharia."*
-* **C)** *"Os técnicos agiram com <ins>rapidez</ins> invejável no reestabelecimento dos servidores de dados."*
-* **D)** *"O <ins>girassol</ins> plantado nos canteiros da corte simbolizava a busca pela transparência."*
-* **E)** *"O <ins>saber</ins> acumulado pelo fiscal garantiu a correta instrução probatória dos autos."*
-
+* **A)** Não sei como é a alma de um criminoso, mas a alma do homem bom, honesto, é um inferno.
+* **B)** Se quem ama o vinho e o amor vai para o inferno, o paraíso deve estar vazio.
+* **C)** Onde há humanos há moscas e deuses.
+* **D)** Uma sociedade sem religião é como um navio sem bússola.
+* **E)** Não é lícito confiar quando os deuses são contrários.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O substantivo abstrato *debate* resulta de derivação regressiva a partir do verbo primitivo de ação *debater* (*debater* $\rightarrow$ *o debate*). O verbo perde sua desinência de infinitivo e forma um substantivo indicador da própria ação.
-> - **B)** Incorreta. A palavra *envelhecimento* resulta de derivação sufixal (*-mento*) aplicada sobre o verbo parassintético prévio *envelhecer*.
-> - **C)** Incorreta. O vocábulo *rapidez* constitui derivação sufixal abstrata gerada a partir do adjetivo primitivo *rápido* (*rápido* + *-ez*).
-> - **D)** Incorreta. A palavra *girassol* constitui exemplo de composição por justaposição de dois radicais (*gira* + *sol*).
-> - **E)** Incorreta. A expressão *o saber* constitui exemplo lídimo de derivação imprópria (conversão funcional), haja vista que o verbo no infinitivo *saber* foi convertido em substantivo pela anteposição do artigo definido *o*.
-> 
+> - **A)** Correta. Na oração 'Não sei como é a alma de um criminoso', o termo 'como' introduz uma interrogação indireta substantiva com valor nitidamente interrogativo.
+> - **B)** Incorreta. 'Se' introduz uma oração subordinada adverbial condicional ('Se quem ama...').
+> - **C)** Incorreta. 'Onde' introduz uma oração adverbial de lugar com valor relativo ou circunstancial.
+> - **D)** Incorreta. 'Como' atua como conjunção subordinativa comparativa ('como um navio sem bússola').
+> - **E)** Incorreta. 'Quando' expressa circunstância temporal subordinada.
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 021
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere os vocábulos destacados nas frases abaixo:  
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+As frases abaixo mostram uma comparação. Assinale a opção em que a comparação não é explicada.
 
-I. *"O **desembarque** da equipe de auditoria ocorreu nas primeiras horas da manhã."*  
-II. *"Ouviram-se vários **comentários infundados** durante o almoço."*  
-III. *"O **olhar** atento do relator detectou inconsistências no edital."*  
-
-Quanto aos processos de formação das palavras destacadas, é correto afirmar que:
-
-* **A)** O vocábulo *desembarque* formou-se por derivação parassintética, visto que o prefixo e o sufixo foram anexados simultaneamente ao radical.
-* **B)** A palavra *desembarque* é fruto de derivação regressiva (deverbal).
-* **C)** No vocábulo *infundados*, constata-se processo de composição por aglutinação, com alteração fonética de seus elementos formadores.
-* **D)** A palavra *olhar*, em III, constitui caso de derivação prefixal com acréscimo de desinência de modo-tempo.
-* **E)** O vocábulo *olhar*, em III, exemplifica a derivação parassintética de base nominal.
-
+* **A)** Ideias são como crianças. As nossas são sempre maravilhosas.
+* **B)** As bibliotecas são como as farmácias: muitos venenos e poucos remédios.
+* **C)** A leitura, como a comida, não alimenta se não digerida.
+* **D)** Os discursos são como as orações copiadas dos textos religiosos.
+* **E)** Os talheres são como o papel higiênico: só ficam limpos se não forem usados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Derivação parassintética exige acréscimo simultâneo e inseparável de prefixo e sufixo a um radical (ex.: *envernizar*, *esfriar*). *Desembarque* deriva de um verbo pré-existente por regressão.
-> - **B)** Correta. Na derivação regressiva (ou deverbal), forma-se um substantivo abstrato indicador de ação a partir de um verbo, mediante a redução da terminação verbal e inserção de uma vogal temática nominal (*a*, *e*, *o*): *desembarcar* $
-ightarrow$ *desembarque*; *atrasar* $
-ightarrow$ *atraso*; *resgatar* $
-ightarrow$ *resgate*. É um dos tópicos mais cobrados pela FCC.
-> - **C)** Incorreta. *Infundados* forma-se por derivação prefixal e sufixal (prefixo de negação *in-* + radical *fund-* + sufixo *-ado*), e não por composição.
-> - **D) e E)** Incorretas. Em III, a palavra *olhar* (originalmente verbo) é antecedida pelo artigo definido "O", mudando de classe gramatical para substantivo sem qualquer alteração mórfica na sua forma externa. Esse processo chama-se **derivação imprópria (ou conversão)**.
+> - **A)** Incorreta. A transposição para a forma desenvolvida alterou a correlação dos tempos verbais.
+> - **B)** Correta. A oração reduzida foi perfeitamente expandida em oração desenvolvida com a conjunção integrante apropriada e tempo verbal correlato em conformidade com a norma-padrão.
+> - **C)** Incorreta. Houve truncamento na regência do verbo principal ao desenvolver a oração.
+> - **D)** Incorreta. A substituição do conectivo alterou a relação semântica original entre as orações.
+> - **E)** Incorreta. Ocorreu erro de modo verbal no desenvolvimento da oração.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [Decreto Federal nº 6.583/2008 — Acordo Ortográfico da Língua Portuguesa (Planalto)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6583.htm) - Texto integral das Bases I a XXI do Novo Acordo Ortográfico (acentuação gráfica, ditongos abertos, hiatos e emprego do hífen).
-* [Academia Brasileira de Letras (ABL) — Vocabulário Ortográfico da Língua Portuguesa (VOLP)](https://www.academia.org.br/nossa-lingua/busca-no-vocabulario) - Base oficial e normativa para consulta de grafia, tonicidade, hifenização e dupla prosódia no Brasil.
-* [Academia Brasileira de Letras (ABL) — Formulário Ortográfico Oficial](https://www.academia.org.br/nossa-lingua/formulario-ortografico) - Regras oficiais de ortografia, divisão silábica, homônimos, parônimos e notações léxicas.
-* [Manual de Comunicação do Senado Federal — Regras de Acentuação Gráfica](https://www12.senado.leg.br/manualdecomunicacao/estilos/acentuacao) - Síntese prática das regras gerais e especiais de acentuação e acentos diferenciais pós-Acordo Ortográfico.
-* [Manual de Comunicação do Senado Federal — Emprego do Hífen](https://www12.senado.leg.br/manualdecomunicacao/estilos/hifen) - Tabelas e casos práticos de uso do hífen com prefixos, falsos prefixos e compostos por justaposição.
-* [Academia Brasileira de Letras (ABL) — Reduções, Siglas e Abreviaturas](https://www.academia.org.br/nossa-lingua/reducoes) - Normas para abreviação vocabular, siglonimização e acrônimos na língua culta.
-* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 2 e Cap. 9 - Fonética, Ortografia Oficial, Estrutura Mórfica e Formação de Palavras).
-* CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 3 e Cap. 5 - Acentuação Gráfica, Morfemas e Processos de Derivação e Composição).
-* CEGALLA, Domingos Paschoal. **Novíssima Gramática da Língua Portuguesa**. 49. ed. São Paulo: Companhia Editora Nacional, 2020. (Parte 1 e Parte 2 - Ortografia, Semântica Lexical, Homônimos e Parônimos).

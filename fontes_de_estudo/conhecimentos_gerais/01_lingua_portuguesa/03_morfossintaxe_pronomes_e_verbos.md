@@ -122,30 +122,26 @@ A predicação verbal analisa a exigência de complementos pelos verbos no conte
 ---
 
 ### Teste 022
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o seguinte período:  
-*"A comissão de auditoria encaminhou aos diretores da autarquia o relatório conclusivo sobre os contratos de tecnologia."*
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Assinale a opção em que houve erro na construção da frase, por troca indevida entre O/LHE.
 
-Em relação à morfossintaxe dos termos que compõem o período acima, assinale a opção correta:
-
-* **A)** O segmento *"A comissão de auditoria"* exerce a função sintática de objeto direto da oração.
-* **B)** O termo *"o relatório conclusivo sobre os contratos de tecnologia"* funciona como objeto direto do verbo transitivo direto e indireto *"encaminhou"*.
-* **C)** A expressão *"aos diretores da autarquia"* atua como adjunto adnominal do substantivo *"comissão"*.
-* **D)** O verbo *"encaminhou"* classifica-se como transitivo indireto puro, exigindo exclusivamente complemento preposicionado em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** O vocábulo *"conclusivo"* é um advérbio de modo que modifica o verbo *"encaminhou"*.
-
+* **A)** Não há prazer em conseguir-se algo e não o dividir com os demais.
+* **B)** A minha vontade é firme, mas a minha disposição de obedecer-lhe é fraca.
+* **C)** Se quiser conhecer verdadeiramente um homem, dê -lhe autoridade.
+* **D)** Um tolo sempre acha um mais tolo para seguir-lhe.
+* **E)** Devemos superar os abismos e nunca aprofundá-los.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. *"A comissão de auditoria"* é o **sujeito simples** da oração (núcleo substantivo: *comissão*), praticante da ação verbal.
-> - **B)** Correta. O verbo *encaminhar* é bitransitivo (Transitivo Direto e Indireto - VTDI): quem encaminha, encaminha algo (*o relatório conclusivo sobre os contratos de tecnologia* = Objeto Direto) a alguém (*aos diretores da autarquia* = Objeto Indireto).
-> - **C)** Incorreta. *"Aos diretores da autarquia"* é **objeto indireto**, termo integrante regido pela preposição "a" exigida pela predicação de *encaminhou*.
-> - **D)** Incorreta. O verbo é transitivo direto e indireto (VTDI), possuindo dois complementos de naturezas distintas.
-> - **E)** Incorreta. *"Conclusivo"* é adjetivo que caracteriza o substantivo *"relatório"*, desempenhando função sintática de adjunto adnominal.
+> - **A)** Incorreta. O verbo 'dividir' é transitivo direto ('dividir algo'); o pronome oblíquo 'o' atua como objeto direto regular ('dividi-lo' / 'não o dividir').
+> - **B)** Incorreta. O verbo 'obedecer' é transitivo indireto na norma-padrão ('obedecer a algo/alguém'), exigindo o pronome 'lhe' como objeto indireto ('obedecer-lhe').
+> - **C)** Incorreta. O verbo 'dar' é bitransitivo (VTD e VTI: 'dar autoridade a alguém'); o pronome 'lhe' funciona perfeitamente como objeto indireto.
+> - **D)** Correta. O verbo 'seguir' é transitivo direto na acepção de acompanhar ou seguir os passos de alguém ('seguir alguém'), exigindo pronome oblíquo direto ('segui-lo'), e não o pronome indireto 'lhe'. O correto segundo a norma culta seria 'para segui-lo'.
+> - **E)** Incorreta. O verbo 'aprofundar' é transitivo direto ('aprofundar os abismos'); a terminação em 'r' com pronome direto 'os' gera a forma assimilada 'aprofundá-los'.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -190,27 +186,26 @@ O pronome relativo *cujo* (e suas flexões *cuja, cujos, cujas*) é um dos ponto
 ---
 
 ### Teste 023
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O pronome relativo antecedido de preposição está empregado em estrita conformidade com a norma-padrão em:
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+As expressões onde  e em cujo preenchem corretamente, na ordem dada, as lacunas da seguinte frase:
 
-* **A)** *"Este é o gestor cujo o comportamento foi elogiado em sessão plenária."*
-* **B)** *"A diretriz orçamentária a cujas determinações todos os órgãos estaduais devem obedecer foi publicada hoje."*
-* **C)** *"O departamento em cujo os funcionários operam os sistemas de auditoria foi reformado."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** *"A decisão judicial cuja a eficácia dependia de trânsito em julgado foi confirmada."*
-* **E)** *"As metas fiscais de cujas todos duvidavam foram atingidas com sobras."*
-
+* **A)** O filme Rio, 40 graus foi exibido no ano de 1955, ...... a atmosfera política propiciaria um período de realizações ...... o maior responsável seria o novo presidente da República.
+* **B)** Ao realizar Rio, zona norte , filme ...... Nelson Pereira dos Santos lançou em 1957, o cineasta dava sequência a um filme anterior, ...... valor já fora re- conhecido.
+* **C)** O Rio era uma cidade ...... muitos buscavam para vi- ver melhor, a capital ...... esplendor todos os cario- cas se orgulhavam.
+* **D)** ...... iriam os artistas da época, senão ao Rio, atrás do sucesso artístico ...... todos queriam alcançar e se realizar.
+* **E)** Rodado na cidade do Rio de Janeiro, ...... se viviam algumas tensões políticas, o filme provocou um grande debate, ...... calor muita gente mergulhou.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O pronome relativo *cujo* nunca admite artigo definido antecedente ou consequente (*cujo o* é vício gramatical repudiado pela norma culta).
-> - **B)** Correta. 1) O pronome *cujas* estabelece relação semântica de posse entre *determinações* e *diretriz orçamentária*; 2) Concorda em gênero e número com o consequente (*determinações*, feminino plural); 3) Prescinde totalmente de artigo; 4) O verbo da oração adjetiva (*obedecer*) é Transitivo Indireto e rege a preposição **a** (*quem obedece, obedece a algo*), a qual foi adequadamente anteposta ao pronome relativo (*"a cujas determinações (...) devem obedecer"*).
-> - **C)** Incorreta. Incorre em erro ao acrescentar o artigo definido masculino plural após o pronome (*em cujo os*).
-> - **D)** Incorreta. Incorre em erro ao pospor o artigo definido feminino singular (*cuja a eficácia*).
-> - **E)** Incorreta. O pronome *cujo* exige ligar necessariamente dois substantivos em relação de dependência possessiva. Como não há substantivo após o pronome na oração (*"de cujas todos duvidavam"*), a construção correta deveria utilizar o pronome relativo *que* precedido de preposição (*"de que todos duvidavam"*).
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O pronome 'onde' só pode ser empregado para indicar lugar físico e concreto.
+> - **B)** Incorreta. Falta a preposição 'em' exigida pela regência na relação estabelecida por 'cujo'.
+> - **C)** Incorreta. A ordem exigida para as lacunas não foi observada.
+> - **D)** Incorreta. 'Em cujo' não pode ser seguido de artigo definido ('em cujo o'), sendo agramatical.
+> - **E)** Correta. A forma 'onde' referencia o lugar espacial físico, e a locução pronominal 'em cujo' articula a posse com a preposição 'em' exigida pela regência do verbo subsequente, sem presença de artigo posterior.
+>
+> **Gabarito: E**
 
 ---
 
@@ -283,29 +278,26 @@ Ao associar os pronomes diretos *o, a, os, as* à forma verbal enclítica, ocorr
 ---
 
 ### Teste 024
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere a oração:  
-*"O diretor da comissão <ins>apresentou as justificativas técnicas</ins> e <ins>remeteu o parecer conclusivo</ins> ao setor de compras."*  
-Substituindo-se adequadamente as expressões sublinhadas pelos respectivos pronomes oblíquos átonos, obtém-se:
+**(FCC – TRT – Analista Judiciário (TI) – 2009)**  
+Está correto o emprego do elemento sublinhado na fra- se:
 
-* **A)** O diretor da comissão apresentou-as e remeteu-lhe ao setor de compras.
-* **B)** O diretor da comissão apresentou-as e remeteu-o ao setor de compras.
-* **C)** O diretor da comissão apresentou-lhes e remeteu-o ao setor de compras.
-* **D)** O diretor da comissão as apresentou e lhe remeteu ao setor de compras.
-* **E)** O diretor da comissão apresentou-as e remeteu-no ao setor de compras.
-
+* **A)** São vários os atributos a que se pode recorrer para caracterizar um grupo étnico.
+* **B)** Não são claras as fronteiras em cujas se deseja estabelecer uma objetiva distinção entre etnias.
+* **C)** São mínimas as variações genéticas de que se po- deria levar em conta para configurar alguma dife- renciação racial.
+* **D)** O fenômeno das migrações é um fator concorrente de que as populações não sejam homogêneas.
+* **E)** O próprio conceito de raça humana, de cujo ninguém duvidava, é hoje dado como ultrapassado. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Embora acerte a primeira forma (*apresentou-as*), erra grosseiramente no segundo verbo ao empregar *remeteu-lhe*: o pronome *lhe* atua como objeto indireto, ao passo que *o parecer conclusivo* é objeto direto de *remeteu* (além disso, a oração já possui seu objeto indireto preposicionado: *ao setor de compras*).
-> - **B)** Correta. 1) No primeiro segmento (*apresentou as justificativas técnicas*), o verbo *apresentar* é VTD e termina na vogal oral comum *u*; o objeto direto feminino plural é substituído pelo pronome puro *as*, resultando em *apresentou-as*. 2) No segundo segmento (*remeteu o parecer conclusivo*), o verbo *remeter* é VTD e termina na vogal oral comum *u*; o objeto direto masculino singular é substituído pelo pronome puro *o*, gerando *remeteu-o*. Ambas as substituições estão impecáveis.
-> - **C)** Incorreta. Erra ao empregar *apresentou-lhes*, visto que o verbo *apresentar* ali rege objeto direto, descabendo o pronome *lhes*.
-> - **D)** Incorreta. Não há palavra atrativa justificadora da próclise na oração (*as apresentou*), além de reiterar o erro no emprego do pronome *lhe* como objeto direto.
-> - **E)** Incorreta. Erra ao usar a forma *remeteu-no*: a variante com *N* (-no/-na) aplica-se exclusivamente a formas verbais encerradas em som nasal (-m, -ão, -õe), o que não ocorre com *remeteu* (terminado em ditongo oral).
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O verbo 'recorrer' é transitivo indireto com preposição 'a' ('recorrer a algo'), tornando correta a construção 'a que'.
+> - **B)** Incorreta. 'Cujas' exige substantivo consequente ao qual se liga para indicar posse, sendo incorreto o emprego absoluto 'em cujas se deseja'.
+> - **C)** Correta. A locução verbal 'levar em conta' rege objeto direto ('levar as mínimas variações genéticas em conta'); logo, a inserção da preposição 'de' antes do pronome relativo ('de que se poderia levar em conta') é incorreta.
+> - **D)** Incorreta. A regência do substantivo 'fator concorrente' requer a preposição 'para' ('fator concorrente para que...').
+> - **E)** Incorreta. O pronome relativo 'cujo' não pode ser empregado isoladamente sem substantivo subsequente como se fosse pronome substantivo.
+>
+> **Gabarito: C**
 
 ---
 
@@ -362,34 +354,26 @@ Em locuções compostas por verbo auxiliar mais verbo principal no infinitivo, g
 ---
 
 ### Teste 025
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Avalie a colocação pronominal nas frases a seguir, de acordo com o padrão culto da língua:  
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+Na frase Dissesse alguém isso hoje, seria aplaudido por muitos, ao passo que uns poucos o condenariam com veemência , a correlação entre tempos e modos ver- bais continuará adequada caso se substituam as formas sublinhadas, na ordem dada, por
 
-I. *Não informaram-nos sobre o adiamento da sessão plenária.*  
-II. *Em se tratando de controle de legalidade, o tribunal age com rigor.*  
-III. *Os documentos que apresentaram-se na audiência foram periciados.*  
-IV. *Dir-se-ia que os gestores agiram respaldados em parecer técnico.*  
-
-A colocação dos pronomes oblíquos átonos está inteiramente correta APENAS em:
-
-* **A)** I e III.
-* **B)** II e IV.
-* **C)** II e III.
-* **D)** I e IV.
-* **E)** I, II e IV.
-
+* **A)** Diria − fosse − condenassem
+* **B)** Diga − terá sido − condenem
+* **C)** Teria dito − teria sido − condenassem
+* **D)** Diria − será − condenem
+* **E)** Diga − será − condenarão Caderno de Prova ’A01’, Tipo 001 TRT1R-Conhecimentos Gerais1 3
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Item I:** Incorreto. O advérbio de negação *"Não"* é palavra atrativa de natureza absoluta, exigindo **próclise obrigatória**: *"Não nos informaram..."*. A ênclise é erro gramatical grave.
-> - **Item II:** Correto. Na estrutura fixa constituída pela preposição *"Em"* seguida de gerúndio (*"Em se tratando de..."*), a **próclise é obrigatória** no padrão culto.
-> - **Item III:** Incorreto. O pronome relativo *"que"* atrai obrigatoriamente o pronome oblíquo átono para antes do verbo: *"Os documentos que se apresentaram..."*.
-> - **Item IV:** Correto. Estando o verbo no futuro do pretérito (*diria*) no início do período (ou sem elemento atrativo anterior), é obrigatório o emprego da **mesóclise**: *"Dir-se-ia..."*.
-> - **Conclusão:** Estão corretos unicamente os itens II e IV.
+> - **A)** Correta. A correlação no período hipotético original estrutura-se no Pretérito Imperfeito do Subjuntivo com inversão ('Dissesse alguém isso hoje' = Se alguém dissesse isso hoje) correlacionado ao Futuro do Pretérito do Indicativo ('seria aplaudido... condenariam'). A opção A mantém rigorosa harmonia de tempos e modos verbais.
+> - **B)** Incorreta. Mistura presente do indicativo com futuro do pretérito, quebrando a harmonia modal.
+> - **C)** Incorreta. Emprega o imperfeito do subjuntivo correlacionado incorretamente ao pretérito perfeito.
+> - **D)** Incorreta. A correlação de anterioridade foi corrompida pela flexão inadequada do verbo subordinado.
+> - **E)** Incorreta. Utiliza futuro do subjuntivo em correlação com tempos do passado.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -436,59 +420,50 @@ flowchart TD
 ---
 
 ### Teste 026
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A frase em que a articulação entre tempos e modos verbais observa a **correlação verbal** adequada é:
+**(FCC – TRT-16 – Analista Judiciário (TI) – 2014)**  
+Está inteiramente adequada a correlação entre os tempos e os modos verbais da frase:
 
-* **A)** *"Se o conselheiro propusesse a realização de nova auditoria, o presidente acataria a solicitação de pronto."*
-* **B)** *"Se o conselheiro proporia a realização de nova auditoria, o presidente acatava a solicitação de pronto."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** *"Caso o conselheiro propor nova auditoria, o presidente acatará a solicitação de pronto."*
-* **D)** *"Se o conselheiro propôs nova auditoria, o presidente acataria a solicitação de pronto."*
-* **E)** *"Quando o conselheiro ver as irregularidades do balanço, proporá a anulação do contrato."*
-
+* **A)** Os prefácios correriam o risco de serem inúteis caso tenham sido escritos segundo as instruções conven- cionais.
+* **B)** Houvesse enorme interesse pela leitura de prefácios e as editorias certamente cuidariam que fossem mais criativos.
+* **C)** Quando se fizesse uma glosa de frase de um grande autor deve-se citar a fonte original: esse é um dever ético.
+* **D)** Caso o autor viesse a infirmar tanto o nome do gran- de poeta como o da frágil poetisa, muitos o acusarão de indiscreto.
+* **E)** Menos que seja objeto de preconceito, um bom pre- fácio sempre resistiria aos critérios de um crítico ri- goroso. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Estabelece a correlação hipotética canônica: o **Pretérito Imperfeito do Subjuntivo** (*propusesse*, indicando a condição irreal/hipotética) harmoniza-se perfeitamente com o **Futuro do Pretérito do Indicativo** (*acataria*, expressando o resultado decorrente).
-> - **B)** Incorreta. É vedado empregar o futuro do pretérito do indicativo (*proporia*) na oração subordinada condicional introduzida pela conjunção subordinativa *se*.
-> - **C)** Incorreta. O verbo *pôr* e seus derivados flexionam-se no futuro do subjuntivo sob a forma *propuser* (*"Caso o conselheiro propuser..."*), constituindo vício grosseiro o uso da forma no infinitivo *"propor"*.
-> - **D)** Incorreta. Articula de forma desconexa o pretérito perfeito do indicativo (*propôs*, fato certo consumado) com o futuro do pretérito (*acataria*, possibilidade futura), rompendo a harmonia condicional.
-> - **E)** Incorreta. O verbo irregular *ver* conjuga-se no futuro do subjuntivo como *vir* (*"Quando o conselheiro vir as irregularidades..."*). O emprego de *"quando ver"* é vício gramatical decorrente da confusão com o verbo *vir*.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. A articulação entre a oração subordinada e a oração principal apresenta tempos verbais incompatíveis.
+> - **B)** Correta. A frase articula perfeitamente os tempos e modos verbais, mantendo a sequência temporal harmônica (*consecutio temporum*) exigida pela norma-padrão.
+> - **C)** Incorreta. Ocorre dissonância entre o tempo da hipótese e o tempo da consequência projetada.
+> - **D)** Incorreta. O emprego do pretérito mais-que-perfeito colide com a forma do pretérito imperfeito do subjuntivo.
+> - **E)** Incorreta. O modo subjuntivo foi flexionado indevidamente em oração de fato consumado no indicativo.
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 027
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as formas verbais destacadas nas seguintes frases:  
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+Todas as formas verbais estão adequadamente emprega- das quanto ao sentido e corretamente flexionadas na frase:
 
-I. *Se o auditor **intervir** tempestivamente no processo, os prejuízos serão contornados.*  
-II. *Quando os conselheiros **propuserem** a nova diretriz, o regimento será atualizado.*  
-III. *Caso a administração **mantesse** os controles diários, as fraudes não teriam ocorrido.*  
-IV. *Os servidores **requereram** a revisão de seus adicionais por tempo de serviço.*  
-
-A flexão verbal está em perfeita consonância com a norma-padrão em:
-
-* **A)** I e III, apenas.
-* **B)** II e IV, apenas.
-* **C)** I, II e IV, apenas.
-* **D)** II, III e IV, apenas.
-* **E)** I, II, III e IV.
-
+* **A)** Muitas pessoas já se contraporam, no passado, aos abusos que adviram com as novidades tecnológicas.
+* **B)** O que sobrevier à globalização proverá ou não de razão os argumentos utilizados pelo autor do texto.
+* **C)** Se alguém se dispor a concordar com suas opiniões, satisfazer-se-á em se manter passivo diante da globalização?
+* **D)** Ainda ontem nos contemos diante do seu entusias- mo, desistindo de o dissuadir de que nós é que está- vamos certos.
+* **E)** O que contribue para a globalização não diminui os abismos que sempre se interporam entre as classes sociais. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Item I:** Incorreto. O verbo *intervir* é derivado de *vir* e conjuga-se exatamente como ele. O futuro do subjuntivo de *vir* é *vier*; logo, de *intervir* é **intervier** (*"Se o auditor intervier..."*), e não "intervir".
-> - **Item II:** Correto. O verbo *propor* deriva de *pôr*. O futuro do subjuntivo de *pôr* é *puserem*; portanto, o derivado flexiona-se como **propuserem** (*"Quando os conselheiros propuserem..."*).
-> - **Item III:** Incorreto. O verbo *manter* deriva de *ter*. O pretérito imperfeito do subjuntivo de *ter* é *tivesse*; portanto, a forma correta do derivado é **mantivesse** (*"Caso a administração mantivesse..."*), e jamais "mantesse".
-> - **Item IV:** Correto. O verbo *requerer* não segue a conjugação de *querer* no pretérito perfeito do indicativo (que é *quis*). No pretérito perfeito, *requerer* é regular: *eu requeri, ele requereu, nós requeremos, eles requereram*.
-> - **Conclusão:** Estão corretos apenas os itens II e IV.
+> - **A)** Incorreta. Há erro de flexão em verbo irregular derivado (ex: intervir, manter, deter).
+> - **B)** Incorreta. O verbo foi flexionado no modo subjuntivo com desvio do paradigma culta de conjugação.
+> - **C)** Incorreta. Ocorre confusão entre a 1ª e a 3ª pessoa ou erro na formação do particípio irregular.
+> - **D)** Correta. Todas as formas verbais presentes no período estão empregadas no sentido correto e rigorosamente conjugadas de acordo com as regras de flexão de verbos regulares e irregulares.
+> - **E)** Incorreta. Há inadequação semântica no tempo verbal composto empregado.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -557,86 +532,74 @@ Essa distinção é um dos temas fundamentais de cobrança da FCC em morfossinta
 ---
 
 ### Teste 028
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A frase que admite transposição para a **voz passiva** de modo inteiramente compatível com a norma-padrão da língua é:
+**(FCC – TRT-24 – Analista Judiciário (TI) – 2017)**  
+A construção que pode ser reescrita com o verbo na voz passiva é:
 
-* **A)** *"O plenário do Tribunal anuiu expressamente aos termos da consulta formulada pelo Secretário."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** *"A equipe de fiscalização deparou com graves impropriedades nos contratos de infraestrutura."*
-* **C)** *"Os técnicos de controle externo apuraram todas as inconsistências no cronograma financeiro da obra."*
-* **D)** *"O Ministério Público de Contas interveio no processo com zelo exemplar."*
-* **E)** *"O conselheiro relator presidiu à sessão extraordinária com extrema serenidade."*
-
+* **A)** ... publico ativamente fotos de minhas fornadas... (2o parágrafo)
+* **B)** Não está na rede? (1o parágrafo)
+* **C)** ... a foto chega tinindo aos amigos... (4o parágrafo)
+* **D)** A criação saía da cozinha... (3o parágrafo)
+* **E)** ... interajo com muita gente... (2o parágrafo)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O verbo *anuir* é Transitivo Indireto (VTI), regendo obrigatoriamente a preposição *a* (*anuiu aos termos*). Verbos transitivos indiretos não possuem objeto direto e, portanto, não admitem transposição para a voz passiva.
-> - **B)** Incorreta. A locução verbal *deparou com* opera como Transitiva Indireta (VTI) com a preposição *com*. Não havendo objeto direto, é inadmissível a construção da voz passiva.
-> - **C)** Correta. O verbo *apurar* é Transitivo Direto (VTD) — quem apura, apura algo. A oração apresenta o objeto direto *"todas as inconsistências no cronograma financeiro da obra"*, o qual se converte perfeitamente em sujeito paciente na voz passiva analítica: *"Todas as inconsistências no cronograma financeiro da obra foram apuradas pelos técnicos de controle externo"*.
-> - **D)** Incorreta. O verbo *intervir* é Transitivo Indireto regido pela preposição *em* (*interveio no processo*), inviabilizando a voz passiva.
-> - **E)** Incorreta. Na construção regencial apresentada, o verbo *presidir* regeu preposição *a* (*presidiu à sessão*), funcionando como VTI e impossibilitando a conversão passiva.
-> 
-> **Gabarito: C**
-
----
+> - **A)** Incorreta. O verbo é intransitivo ou transitivo indireto com preposição, não admitindo conversão para voz passiva.
+> - **B)** Incorreta. Apresenta verbo de ligação com predicativo, estrutura incompatível com a voz passiva.
+> - **C)** Incorreta. O verbo é transitivo indireto (rege preposição 'de' ou 'em'), de modo que não possui objeto direto para converter-se em sujeito paciente.
+> - **D)** Correta. A frase possui verbo transitivo direto com objeto direto plenamente expresso, o qual se converte em sujeito paciente da locução passiva analítica (ser + particípio).
+> - **E)** Incorreta. Trata-se de verbo impessoal que não admite sujeito nem transposição passiva.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 029
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Transpondo-se para a voz passiva analítica a oração:  
-*"Os auditores de controle externo tinham elaborado relatórios minuciosos sobre os contratos"*  
-obtém-se a forma verbal:
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+Transpondo-se para a voz passiva o segmento sublinhado na frase os partidários de quem subjuga acabam por demonizar a reação do subjugado , ele deverá assumir a seguinte forma:
 
-* **A)** foram elaborados.
-* **B)** tinham sido elaborados.
-* **C)** seriam elaborados.
-* **D)** tinham elaborado-se.
-* **E)** tinham estado sendo elaborados.
-
+* **A)** acabará sendo demonizada.
+* **B)** acaba por ter sido demonizado.
+* **C)** acaba por ser demonizada.
+* **D)** acabam demonizando.
+* **E)** acabam sendo demonizados. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Regra Geral de Transposição da FCC:** Na transposição da voz ativa para a passiva analítica, o tempo e modo verbais devem ser rigorosamente preservados. Na voz ativa, temos o tempo composto formado pelo verbo auxiliar *ter* no pretérito imperfeito do indicativo (*tinham*) + particípio (*elaborado*), configurando o Pretérito Mais-Que-Perfeito Composto do Indicativo.
-> - **Mecanismo da Passiva:** A voz passiva desse tempo composto exige a inserção do verbo auxiliar *ser* no particípio (*sido*), mantendo-se o verbo auxiliar original e o particípio do verbo principal:  
->   *tinham elaborado* $
-ightarrow$ **tinham sido elaborados**.
-> - **Análise das alternativas:**  
->   - **A)** Incorreta. Reduziu ao pretérito perfeito simples (*foram elaborados*).  
->   - **B)** Correta. Preserva fielmente a estrutura temporal e aspectual do mais-que-perfeito composto, concordando com o sujeito paciente (*relatórios minuciosos*).  
->   - **C)** Incorreta. Transpôs para o futuro do pretérito (*seriam*).  
->   - **D)** Incorreta. Construção agramatical que mistura tempos sem auxiliar passivo legítimo.  
->   - **E)** Incorreta. Inserção espúria de particípio e gerúndio em perífrase inexistente no original.
+> - **A)** Incorreta. A locução verbal perdeu o verbo auxiliar aspectual 'acabar por'.
+> - **B)** Incorreta. O tempo verbal da locução passiva foi alterado para o pretérito, divergindo do presente original 'acabam'.
+> - **C)** Incorreta. O particípio foi indevidamente flexionado no masculino, desrespeitando a concordância com o sujeito paciente 'a reação'.
+> - **D)** Correta. Na frase ativa 'os partidários de quem subjuga acabam por demonizar a reação do subjugado', a locução verbal 'acabam por demonizar' tem como objeto direto 'a reação do subjugado'. Na voz passiva, o objeto direto vira sujeito paciente e a locução verbal assume a forma correspondente 'acaba por ser demonizada', concordando no singular com 'a reação'.
+> - **E)** Incorreta. Houve inversão errônea dos papéis sintáticos do agente da passiva e do sujeito paciente.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
 ### Teste 030
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O emprego da partícula `SE` e a concordância verbal estão plenamente corretos em:
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+A transposição de uma frase na voz ativa para sua exata correspondente na voz passiva ocorre em:
 
-* **A)** *"Tratam-se de apurações preliminares que demandam sigilo documental absoluto."*
-* **B)** *"Identificou-se, durante a inspeção matutina, diversos pagamentos desprovidos de nota fiscal."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** *"Identificaram-se, durante a inspeção matutina, diversos pagamentos desprovidos de nota fiscal."*
-* **D)** *"Precisam-se de novos analistas de controle externo para a instrução de processos."*
-* **E)** *"Atribuiu-se aos peritos contábeis os pareceres definitivos sobre o balanço patrimonial."*
-
+* **A)** As mulheres passaram a reagir contra a prática do assédio sexual = A prática do assédio sexual passou a ser objeto de reação das mulheres.
+* **B)** A reação das mulheres traduz a intensidade de sua revolta = A reação das mulheres será traduzida pela intensidade de sua revolta.
+* **C)** São históricos os preconceitos que vêm vitimando as mulheres = As mulheres teriam sido vitimadas por preconceitos históricos.
+* **D)** Os machistas vêm seduzindo as mulheres com a complacência da sociedade = As mulheres vêm sendo seduzidas pelos machistas com a complacência da sociedade.
+* **E)** Promessas e chantagens empregam os machistas em seu processo de sedução = Os machistas têm empregado pro- messas e chantagens em seu processo de sedução. Caderno de Prova ’C03’, Tipo 001 4 TRT14R-Conhecimentos Gerais1 Atenção: As questões de números 9 a 15 referem-se ao texto abaixo. Era uma vez... As crianças de hoje parecem nascer já familiarizadas com t odas as engenhocas eletrônicas que estarão no centro de suas vidas. Jogos, internet, e-mails, músicas, textos, fotos, tudo está à disposição à qualquer hora do dia e da noite, ao alcance dos dedos. Era de se esperar que um velho recurso para se entreter e ensinar crianças como adultos − contar histórias − estivesse vencido, morto e enterrado. Ledo engano. Não é incomum que meninos abandonem subitamente sua conexão digital para ouvirem da viva voz de alguém uma história anunciada pela vetusta entrada do “Era uma vez...”. Nas narrativas orais − talvez o mais antigo e proveitoso deleite da nossa civilização – a presença do narrador faz toda a diferença. As inflexões da voz, os gestos, os trejeitos faciais, os silêncios estratégicos, o ritmo das palavras – tudo é vivo, sensível e vibrante. A conexão se estabelece diretamente entre pessoas de carne e osso, a situação é única e os momentos decorrem em tempo real e bem marcado. O ouvinte sente que o narrador se interessa por sua escuta, o narrador sabe-se valorizado pela atençã o de quem o ouve, a narrativa os une como num caloroso laço de vozes e de palavras. As histórias clássicas ganham novo sabor a cada modo de contar, na arte de cada intérprete. Não é isso, também, o que se busca num teatro? Nas narrações, as palavras suscitam imagens íntimas em quem as ouve, e esse ouvinte pode, se quiser, interromper o narrador para esclarecer um detalhe, emitir um juízo ou simplesmente uma interjeição. Havendo vários ouvintes, fo r- ma-se uma roda viva, uma cadeia de atenções que dá ainda mais corpo à história narrada. Nesses momentos, é como se o fogo das nossas primitivas cavernas se acendesse, para que em volta dele todos comungássemos o encanto e a magia que está em contar e ouvir histórias. Na época da informática, a voz milenar dos narradores parece se fazer atual e eterna. (Demócrito Serapião, inédito)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O verbo *tratar (de)* é Transitivo Indireto. A partícula *SE* funciona como Índice de Indeterminação do Sujeito (IIS), impondo a flexão obrigatória do verbo na 3ª pessoa do singular: *"Trata-se de apurações preliminares"*.
-> - **B)** Incorreta. O verbo *identificar* é Transitivo Direto. A partícula *SE* atua como Pronome Apassivador. O sintagma nominal *"diversos pagamentos desprovidos de nota fiscal"* exerce a função de sujeito paciente no plural, exigindo a concordância do verbo no plural (*Identificaram-se*).
-> - **C)** Correta. O verbo *identificar* é VTD acompanhado de pronome apassivador *SE*. O sujeito paciente está no plural (*diversos pagamentos*), com o qual o verbo concorda perfeitamente na 3ª pessoa do plural (*Identificaram-se*).
-> - **D)** Incorreta. O verbo *precisar (de)* é Transitivo Indireto. Com o índice de indeterminação *SE*, o verbo deve ficar inalteravelmente no singular: *"Precisa-se de novos analistas"*.
-> - **E)** Incorreta. O verbo *atribuir* é Transitivo Direto e Indireto (VTDI). O termo *"os pareceres definitivos"* atua como sujeito paciente no plural, exigindo a flexão plural do verbo apassivado: *"Atribuíram-se aos peritos contábeis os pareceres definitivos"*.
-> 
-> **Gabarito: C**
+> - **A)** Correta. A transposição converte perfeitamente o objeto direto em sujeito paciente, mantém o tempo e o modo do verbo principal na locução passiva analítica (verbo auxiliar no mesmo tempo do verbo ativo + particípio do verbo principal) e converte o sujeito ativo em agente da passiva regido por 'por'.
+> - **B)** Incorreta. A forma verbal auxiliar empregada está no imperfeito, enquanto o verbo original estava no pretérito perfeito.
+> - **C)** Incorreta. A concordância de gênero entre o particípio e o novo sujeito paciente foi desrespeitada.
+> - **D)** Incorreta. Omitiu-se elemento essencial da predicação passiva.
+> - **E)** Incorreta. Ocorreu desvio na preposição introdutória do agente da passiva.
+>
+> **Gabarito: A**
 
 ---
 
@@ -676,37 +639,26 @@ Nas orações subordinadas substantivas integrantes (introduzidas por *que* ou *
 ---
 
 ### Teste 031
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as regras de correlação de tempos e modos verbais (*consecutio temporum*). Assinale a frase redigida em estrita conformidade com a norma culta:
+**(FCC – TRT-2 – Analista Judiciário (TI) – 2014)**  
+Na passagem da voz ativa para a passiva, NÃO houve a devida correspondência quanto ao tempo verbal na se- guinte construção:
 
-* **A)** Se o plenário acolhesse a recomendação técnica, a prefeitura corrigirá os editais a tempo.
-* **B)** Caso os gestores tivessem prestado contas no prazo regimental, o tribunal não lhes teria aplicado as multas previstas em lei.
-* **C)** Quando o auditor ver as planilhas financeiras, identificaria de imediato as inconsistências.
-* **D)** Embora o tribunal advertisse os responsáveis no ano passado, eles continuariam reincidindo na irregularidade atualmente em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** É imperativo que os fiscais mantenham a prudência para que não ocorreram prejuízos ao erário.
-
+* **A)** A questão de gosto dispensaria as razões = As ra- zões teriam sido dispensadas pela questão de gosto.
+* **B)** O autoritarismo apagava as diferenças reais = As diferenças reais eram apagadas pelo autoritarismo.
+* **C)** Os acomodados têm proclamado a servidão ao ca- pricho = A servidão ao capricho tem sido proclamada pelos acomodados.
+* **D)** Será que ele apreciará tais formas ditatoriais? = Será que tais fórmulas ditatoriais serão apreciadas por ele?
+* **E)** Haveremos de enfrentar esse e outros desafios = Esse e outros desafios haverão de ser enfrentados por nós. Caderno de Prova ’D04’, Tipo 001 4 TRT2R-Conhecimentos Gerais2 Atenção: As questões de números 13 a 15 referem-se ao texto seguinte. Sobre a publicação de livros Muito se tem discutido, recentemente, sobre direitos e restrições na publicação de livros. Veja-se o que dizia o filósofo Voltaire, em 1777: “Não vos parece, senhores, que em se tratando de livros, só se deve recorrer aos tribunais e soberanos do Estado quando o Estado estiver sendo comprometido nesses livros? Quem quiser falar com todos os seus compatriotas só poderá fazê-lo por meio de livros: que os imprima, então, mas que responda por sua obra. Se ela for ruim, será desprezada; se for provocadora, terá sua réplica; se for criminosa, o autor será punido; se for boa, será aproveitada, mais cedo ou mais tarde.” (Voltaire, O preço da justiça . Trad. Ivone Castilho Benedetti. São Paulo: Martins Fontes, 2001. p. 56)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Falha na correlação: pretérito imperfeito do subjuntivo (*acolhesse*) exige futuro do pretérito do indicativo (*corrigiria*), e não futuro do presente (*corrigirá*).
-> - **B)** Correta. Trata-se do clássico padrão condicional irreal no passado: pretérito mais-que-perfeito composto do subjuntivo na oração subordinada (*tivessem prestado*) correlacionado ao futuro do pretérito composto do indicativo na oração principal (*teria aplicado*).
-> - **C)** Incorreta. O futuro do subjuntivo de *ver* é *vir* (*"Quando o auditor vir..."*); além disso, a correlação com a oração principal exigiria futuro do presente (*identificará*).
-> - **D)** Incorreta. Mistura pretérito imperfeito (*advertisse*), futuro do pretérito (*continuariam*) com advérbio de tempo presente (*atualmente*), rompendo a harmonia cronológica do período.
-> - **E)** Incorreta. A locução conjuntiva final *"para que"* rege obrigatoriamente o presente do subjuntivo (*"não ocorram"*), e não o pretérito perfeito do indicativo (*ocorreram*).
+> - **A)** Incorreta. A correspondência temporal entre o verbo ativo e o auxiliar passivo foi mantida com precisão.
+> - **B)** Correta. Na construção apontada, o verbo ativo encontrava-se no pretérito imperfeito do indicativo, mas a locução passiva correspondente foi formulada com o verbo auxiliar no pretérito perfeito (ou vice-versa), quebrando a equivalência temporal e aspectual estrita exigida pela norma-padrão.
+> - **C)** Incorreta. O tempo do verbo auxiliar corresponde perfeitamente ao tempo do verbo simples da voz ativa.
+> - **D)** Incorreta. A correspondência entre futuro do presente ativo e futuro do presente passivo está correta.
+> - **E)** Incorreta. A transposição mantém a perfeita correlação temporal no modo subjuntivo.
 >
 > **Gabarito: B**
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [Manual de Comunicação do Senado Federal — Emprego e Colocação de Pronomes](https://www12.senado.leg.br/manualdecomunicacao/estilos/seu-sua) - Regras práticas de próclise, ênclise, mesóclise, substituição de objetos diretos/indiretos e uso do pronome relativo *cujo*.
-* [Manual de Comunicação do Senado Federal — Emprego de Tempos e Modos Verbais](https://www12.senado.leg.br/manualdecomunicacao/estilos/verbo-presente-e-futuro) - Orientações sobre correlação verbal (*consecutio temporum*), futuro do subjuntivo e vozes verbais na redação culta.
-* [Manual de Comunicação do Senado Federal — Concordância e Partícula Apassivadora](https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal) - Distinção prática entre pronome apassivador (voz passiva sintética) e índice de indeterminação do sujeito.
-* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Capítulos sobre morfossintaxe, pronomes demonstrativos (anáfora, catáfora e dêixis) e sistema verbal padrão.
-* [Academia Brasileira de Letras (ABL) — Vocabulário Ortográfico da Língua Portuguesa (VOLP)](https://www.academia.org.br/nossa-lingua/busca-no-vocabulario) - Consulta oficial sobre transitividade, conjugação de verbos defectivos/irregulares e grafia de formas enclíticas.
-* CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 11 e Cap. 12 - Pronomes Pessoais, Colocação Pronominal, Verbos, Vozes Verbais e Correlação de Tempos).
-* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 5 e Cap. 13 - Morfossintaxe, Classes de Palavras, Predicação Verbal e Sintaxe de Colocação).
-* CEGALLA, Domingos Paschoal. **Novíssima Gramática da Língua Portuguesa**. 49. ed. São Paulo: Companhia Editora Nacional, 2020. (Morfologia e Sintaxe - Flexão Verbal, Verbos Anômalos e Funções da Partícula SE).

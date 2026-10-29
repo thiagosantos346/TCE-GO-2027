@@ -126,36 +126,26 @@ Quando o sujeito da oração é constituído por pronome relativo:
 ---
 
 ### Teste 042
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as frases a seguir quanto à concordância verbal segundo a norma culta:  
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+As exigências quanto à concordância verbal estão plenamente atendidas na frase:
 
-I. *A maioria dos auditores de controle externo **rejeitou** a proposta de acordo.*  
-II. *Cerca de vinte por cento do orçamento municipal **foram destinados** à saúde básica.*  
-III. *Faltavam, naquele momento crítico, **coragem e determinação** ao gestor público.*  
-IV. *Mais de um fiscal **cumprimentaram-se** cordialmente na entrada do plenário.*  
-
-A concordância verbal está inteiramente correta em:
-
-* **A)** I e II, apenas.
-* **B)** I, II, III e IV.
-* **C)** II e III, apenas.
-* **D)** I, III e IV, apenas.
-* **E)** III e IV, apenas.
-
+* **A)** A muitos poderá parecer um excesso as lutas travadas pelas mulheres americanas contra a prática de graves atitudes machistas.
+* **B)** Acaba por se constituir numa grande hipocrisia as atitudes de quem se diz reger por determinada moral e pratica outra, inteiramente diversa.
+* **C)** É comum que aos homens ocorra estar no exercício de um direito quando, em suas práticas amorosas, impõem às mulheres o que as humilha e as desonra.
+* **D)** Couberam às mulheres americanas, cansadas de se submeterem aos machistas, travar duras lutas contra o assédio sexual e outras práticas que as vitimam.
+* **E)** A maioria dos homens não costuma levar a sério o “não” que, saindo das bocas das namoradas, ressoam como se fosse tão somente uma fingida evasiva.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Item I:** Correto. Diante de sujeito formado por expressão partitiva (*A maioria de*) seguida de adjunto no plural (*dos auditores*), a concordância é facultativa: o verbo pode concordar no singular com o núcleo partitivo (*rejeitou*) ou ir para o plural concordando com o especificador (*rejeitaram*).
-> - **Item II:** Correto. Com expressões percentuais seguidas de substantivo (*vinte por cento do orçamento*), o verbo pode concordar com o número percentual (*vinte* $
-ightarrow$ plural: *foram destinados*) ou com o termo partitivo singular (*orçamento* $
-ightarrow$ singular: *foi destinado*). Logo, o plural é plenamente lícito.
-> - **Item III:** Correto. Estando o sujeito composto posposto ao verbo (*coragem e determinação*), o verbo pode concordar no plural com a totalidade dos núcleos (*faltavam*) ou concordar atrativamente no singular com o núcleo mais próximo (*faltava*).
-> - **Item IV:** Correto. Com a expressão *"mais de um"*, a regra geral impõe o verbo no singular; todavia, quando o verbo exprime **reciprocidade** de ação (indicada pelo pronome reflexivo/recíproco *se*), o verbo vai **obrigatoriamente para o plural**: *"cumprimentaram-se"* (um cumprimentou o outro reciprocamente).
-> - **Conclusão:** Todos os quatro itens (I, II, III e IV) estão em perfeita conformidade gramatical.
+> - **A)** Incorreta. Há erro de concordância verbal com sujeito paciente posposto ou partitivo no plural.
+> - **B)** Incorreta. O verbo deveria flexionar-se no plural para concordar com o núcleo do sujeito composto.
+> - **C)** Incorreta. Ocorre atração indevida do verbo pelo adjunto adnominal no singular, desrespeitando o núcleo do sujeito.
+> - **D)** Incorreta. Há desvio na concordância da locução verbal com a partícula apassivadora.
+> - **E)** Correta. Todas as orações do período respeitam com rigor as normas de concordância verbal: os verbos concordam em número e pessoa com seus respectivos núcleos do sujeito, inclusive nas estruturas com inversão e termos intercalados.
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -221,27 +211,26 @@ A concordância com o pronome *se* depende da transitividade do predicado:
 ---
 
 ### Teste 043
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A frase em que a concordância verbal, a regência e o emprego do sinal indicativo de crase atendem plenamente às exigências da norma-padrão é:
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+As normas de concordância verbal estão plenamente observadas na frase:
 
-* **A)** *"Devem haver razões plausíveis para que o gestor desobedeça os ditames da Lei de Licitações."*
-* **B)** *"Deve haver razões plausíveis para que o gestor desobedeça aos ditames da Lei de Licitações."*
-* **C)** *"Devem existir razões plausíveis para que o gestor desobedeça aos ditames da Lei de Licitações, visando à obtenção de vantagens indevidas."*
-* **D)** *"Fazem muitos anos que a comissão técnica visa à anulação de contratos que implicam em prejuízo ao erário."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** *"Tratam-se de condutas graves que desobedecem as normas orçamentárias e conduzem à severas sanções."*
-
+* **A)** Não se atribuam às tecnologias mais avançadas o ônus de serem também nocivas, já que toda a res- ponsabilidade cabe a quem as manipulam.
+* **B)** Caso não venha a faltar às novas tecnologias um autêntico padrão ético, não haveremos de temer as consequências que decorrerem de seu emprego.
+* **C)** Muita gente, na vertigem dos dias atuais, passam a criticar sem razão as novas tecnologias, às quais não cabem ser responsáveis por seus efeitos.
+* **D)** Costumam-se criticar os defeitos das coisas antigas, sem se atentarem aos perigos que deriva da má utili- zação das novas.
+* **E)** Os vários processos de exclusão social, aos quais se aludem no texto, provam que carece de com- preensão e tolerância os rumos da nossa história. Noções Direito Constitucional
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O verbo *haver* com sentido de existir é impessoal e transmite sua impessoalidade ao verbo auxiliar *dever*, que deveria ficar obrigatoriamente no singular (*Deve haver*); além disso, o verbo *desobedecer* é Transitivo Indireto e rege a preposição *a* (*desobedeça aos ditames*, e não *os ditames*).
-> - **B)** Incorreta. Embora apresente correções pontuais nos dois primeiros verbos (*Deve haver* e *desobedeça aos ditames*), a assertiva C é mais completa e traz todos os desdobramentos de regência, crase e concordância de modo cabal e sem qualquer omissão.
-> - **C)** Correta. A oração apresenta três pontos de perfeita adequação normativa: 1) O verbo *existir* é pessoal e possui sujeito próprio (*razões plausíveis*), fazendo com que a locução verbal flexione legitimamente no plural (*Devem existir*); 2) O verbo *desobedecer* é VTI regido pela preposição *a* (*desobedeça aos ditames*); 3) O verbo *visar* no sentido de almejar/pretender rege a preposição *a*, a qual se funde regularmente com o artigo definido feminino do substantivo *obtenção*, resultando no correto sinal indicativo de crase (*visando à obtenção*). Perfeito em todos os planos sintáticos.
-> - **D)** Incorreta. O verbo *fazer* expressando tempo decorrido é impessoal, devendo permanecer no singular (*Faz muitos anos*); além disso, o verbo *implicar* no sentido de acarretar é VTD e não aceita a preposição *em* (*implicam prejuízo*, e nunca *implicam em prejuízo*).
-> - **E)** Incorreta. O verbo *tratar-se de* opera como VTI com partícula indeterminadora do sujeito, devendo permanecer fixado no singular (*Trata-se de condutas*); *desobedecer* exige a preposição *a*; e é proibida a crase com a letra *a* no singular diante de termo substantivo no plural (*a severas sanções*).
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. O verbo encontra-se no singular, mas o sujeito gramatical tem núcleo plural.
+> - **B)** Incorreta. Há desrespeito à concordância do verbo com o pronome relativo 'que' cujo antecedente é plural.
+> - **C)** Incorreta. A expressão partitiva seguida de plural exige concordância que foi desrespeitada pelo verbo no plural com núcleo singular indevido.
+> - **D)** Incorreta. O verbo haver impessoal (com sentido de existir) foi indevidamente flexionado no plural.
+> - **E)** Correta. As normas de concordância verbal encontram-se plenamente observadas: o verbo concorda harmonicamente com o sujeito simples e com os termos coordenados da oração.
+>
+> **Gabarito: E**
 
 ---
 
@@ -307,52 +296,50 @@ Expressões formadas pelo verbo *ser* mais adjetivo qualificando um substantivo 
 ---
 
 ### Teste 044
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No tocante às normas de **concordância nominal**, assinale a frase inteiramente correta:
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+A frase abaixo em que há a possibilidade de dupla concordância nominal na palavra sublinhada, é:
 
-* **A)** *"Seguem anexo aos autos as cópias das certidões e os comprovantes de despesa pública."*
-* **B)** *"A servidora estava meia apreensiva diante das perguntas formuladas pela comissão de sindicância."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** *"Remeto a Vossas Excelências inclusas as planilhas financeiras com os cálculos atualizados do débito."*
-* **D)** *"Naquela secretaria estadual, havia menas servidoras lotadas no setor de tecnologia."*
-* **E)** *"É proibida entrada de pessoas sem identificação nas dependências do tribunal."*
-
+* **A)** O que têm essas mulheres de estranhas?;
+* **B)** Os alto-falantes estavam colocados no fundo do palco;
+* **C)** Veja os nomes abaixo assinados;
+* **D)** Era um crime de leso-patriotismo;
+* **E)** É proibida a entrada de bebida alcoólica na festa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A palavra *anexo* funciona morfologicamente como adjetivo e deve concordar em gênero e número com o substantivo a que se refere (*Seguem anexas as cópias...*). Apenas a locução adverbial *em anexo* é invariável.
-> - **B)** Incorreta. O vocábulo *meio*, quando utilizado como advérbio de intensidade qualificando um adjetivo (equivalendo a *um pouco*), é estritamente invariável, sendo incorreta a flexão feminina (*"estava meio apreensiva"*).
-> - **C)** Correta. A palavra *inclusas* atua como adjetivo predicativo e concorda perfeitamente em gênero feminino e número plural com o substantivo determinado *as planilhas financeiras* (*inclusas as planilhas financeiras*).
-> - **D)** Incorreta. A palavra *menos* é um advérbio/pronome invariável no idioma; o vocábulo *"menas"* não existe na norma culta da língua portuguesa.
-> - **E)** Incorreta. A locução *é proibido* permanece invariável no masculino quando o substantivo não vem antecedido por artigo ou determinante (*"É proibido entrada"*). Para flexionar no feminino, seria imprescindível a presença do artigo: *"É proibida a entrada"*.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. A concordância nominal indicada é rígida e obrigatória, não admitindo dupla opção.
+> - **B)** Incorreta. A palavra atua com função adverbial invariável, proibindo a flexão.
+> - **C)** Incorreta. Há apenas uma concordância gramaticalmente lícita segundo o padrão culto.
+> - **D)** Correta. A palavra sublinhada admite dupla concordância nominal lícita: pode concordar no singular com o termo mais próximo (concordância atrativa) ou no plural com a totalidade dos núcleos coordenados (concordância lógica/gramatical).
+> - **E)** Incorreta. O termo posposto admite apenas a flexão no masculino plural por se referir a substantivos de gêneros distintos.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 045
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Assinale a alternativa em que a concordância nominal atende integralmente às exigências da norma culta:
+**(FCC – TRT-24 – Analista Judiciário (TI) – 2017)**  
+Quanto à concordância padrão, está escrita corretamente a frase:
 
-* **A)** Seguem anexos as certidões negativas e os comprovantes de quitação eleitoral dos candidatos.
-* **B)** A procuradora declarou que estava meia preocupada com o resultado do julgamento dos embargos.
-* **C)** É proibido a entrada de pessoas não autorizadas na sala de deliberações secretas dos conselheiros em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** As auditoras mesmas elaboraram os relatórios circunstanciados, demonstrando que haviam bastantes motivos para impugnar o edital.
-* **E)** Havia menas divergências entre os membros da corte técnica durante a última sessão plenária.
-
+* **A)** Em meados da década passada, fotografar alimentos envolviam uma série de questionamentos que parecem não fazer mais sentido na sociedade dos dias de hoje.
+* **B)** Em 2016, uma pesquisa com usuários da internet concluiu que algumas pessoas que postam excessivamente nas redes sociais o faz por necessidade de aprovação.
+* **C)** Decidir entre devorar ou clicar têm perturbado aqueles que oscilam entre desfrutar o momento da refeição e partilhá-lo, ainda que a distância, com amigos e familiares.
+* **D)** O homem sempre buscou capturar o instante em imagens, e isso nunca foi tão fácil quanto hoje, quando o ato de registrar se tornou mais importante que o próprio registro.
+* **E)** Atualmente, constata-se muitas maneiras de compartilhar informação, mas nenhum meio de comunicação vem se mostrando tão poderoso quanto as redes sociais. Atenção: As questões de números 6 a 9 referem-se ao texto abaixo. Muito antes de nos ensinarem e de aprendermos as regras de bom comportamento socialmente construídas e promovidas, e de sermos exortados a seguir certos padrões e nos abster de seguir outros, já estamos numa situação de escolha moral. Somos, po r assim dizer, inevitavelmente − existencialmente −, seres morais: somos confrontados com o desafio do outro, o desafio da responsabilidade pelo outro, uma condição do ser-para. Afirmar que a condição humana é moral antes de significar ou poder significar qualquer outra coisa representa que, muito antes de alguma autoridade nos dizer o que é “bem” e “mal” (e por vezes o que não é uma coisa nem outra), deparamo-nos com a escolha entre “bem” e “mal”. E a enfrentamos desde o primeiro momento do encontro com o outro. Isso, por sua vez, significa que , quer escolhamos quer não, enfrentamos nossas situações como problemas morais, e nossas opções de vida como dilemas morais. Esse fato primordial de nosso ser no mundo, em primeiro lugar, como uma condição de escolha moral não promete uma vida alegre e despreocupada. Pelo contrário, torna nossa condição bastante desagradável. Enfrentar a escolha entre bem e mal signifi ca encontrar-se em situação de ambivalência. Esta poderia ser uma preocupação relativamente menor, estivesse a ambiguidade de escolha limitada à preferência direta por bem ou mal, cada um definido de forma clara e inequívoca; limitada em particular à es colha entre atuar baseado na responsabilidade pelo outro ou desistir dessa ação – de novo com uma ideia bastante clara do que envolve “atuar baseado na responsabilidade”. (Adaptado de: BAUMAN, Zygmunt. Vida em fragmentos: sobre a ética pós-moderna. Trad. Alexandre Werneck. Rio de Janeiro, Zahar, 2011, p. 11-12.)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O adjetivo *anexo* concorda em gênero e número com o substantivo a que se refere: como os substantivos são *certidões* (feminino) e *comprovantes* (masculino), o adjetivo anteposto deve concordar com o mais próximo (*"Seguem anexas as certidões..."*) ou ir para o masculino plural caso posposto. Além disso, a locução invariável é *"em anexo"*.
-> - **B)** Incorreta. *Meio*, com valor de advérbio de intensidade modificando o adjetivo *preocupada*, é **invariável**: *"estava meio preocupada"* (e nunca "meia").
-> - **C)** Incorreta. Nas expressões do tipo *é proibido*, havendo artigo determinado anteposto ao substantivo (*"a entrada"*), a concordância é obrigatória: *"É proibida a entrada..."*. Apenas se não houvesse artigo seria correto o masculino neutro (*"É proibido entrada"*).
-> - **D)** Correta. O pronome demonstrativo reforçador *mesmo* flexiona-se normalmente concordando com o sujeito (*"As auditoras mesmas"* = elas próprias). A palavra *bastantes*, funcionando como pronome adjetivo indefinido que acompanha e quantifica substantivo no plural (*motivos*), flexiona-se obrigatoriamente no plural (*"bastantes motivos"* = muitos motivos).
-> - **E)** Incorreta. A palavra *menos* é estritamente invariável na língua culta; a forma "menas" não existe no vocabulário padrão.
+> - **A)** Incorreta. Ocorre erro de concordância verbal na voz passiva sintética.
+> - **B)** Incorreta. O particípio não concorda em gênero e número com o sujeito paciente.
+> - **C)** Incorreta. O predicativo do sujeito não concorda com o sujeito posposto.
+> - **D)** Incorreta. A locução verbal não concorda com o sujeito plural.
+> - **E)** Correta. O período atende com perfeição a todas as regras da concordância padrão da língua, tanto verbal (concordância de número e pessoa) quanto nominal (concordância de gênero e número entre adjetivos e substantivos).
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
@@ -400,57 +387,49 @@ Um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação d
 ---
 
 ### Teste 046
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da regência do verbo **PREFERIR**, assinale a opção que atende à norma-padrão:
+**(FCC – TRT-15 – Analista Judiciário (TI) – 2015)**  
+No contexto dado, possui a mesma regência do verbo presente no segmento A escravidão que denunciava com dureza, o que se encontra sublinhado em:
 
-* **A)** *"O diretor financeiro prefere antes investir em servidores modernos do que renovar contratos antigos."*
-* **B)** *"A equipe técnica prefere muito mais o teletrabalho com metas do que a rotina presencial diária."*
-* **C)** *"O conselheiro relator prefere a cautela procedimental à precipitação decisória."*
-* **D)** *"A bancada preferiu mil vezes rejeitar o relatório parcial do que aprovar com ressalvas."*
-* **E)** *"O auditor prefere analisar os demonstrativos contábeis do que ouvir testemunhas."*
-
+* **A)** Quem fala, hoje, dos 30 milhões de escravos... (8o parágrafo)
+* **B)** ... número que hoje oscila entre os 13 milhões e os 14 milhões... (5o parágrafo)
+* **C)** ... antes de portugueses ou espanhóis comprarem negros na África rumo ao Novo Mundo. (7o parágrafo)
+* **D)** ... o Global Slavery Index é um belo retrato da nossa miséria... (4o parágrafo)
+* **E)** Não é preciso assistir a 12 Anos de Escravidão... (1o parágrafo)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - O verbo **preferir** é Transitivo Direto e Indireto (VTDI). Ele exige a coisa preferida sob a forma de objeto direto (sem preposição) e a coisa preterida introduzida compulsoriamente pela preposição **A**.
-> - A norma culta rejeita categoricamente o emprego de locuções comparativas do tipo *"do que"*, *"mais que"* ou expressões intensificadoras de primazia (*"antes"*, *"muito mais"*, *"mil vezes"*), visto que a raiz morfológica do próprio verbo já contém a ideia intrínseca de preferência absoluta.
-> - **A)** Incorreta. Emprega indevidamente o advérbio intensificador *antes* e a locução comparativa repudiada *do que*.
-> - **B)** Incorreta. Contém o vício do uso do advérbio *muito mais* e da locução *do que*.
-> - **C)** Correta. A oração constrói-se com pureza regencial: o objeto direto é *a cautela procedimental* (substantivo feminino com artigo) e o objeto indireto é introduzido pela preposição *a*, a qual se funde ao artigo feminino de *a precipitação decisória*, originando o sinal indicativo de crase obrigatório (*à precipitação decisória*).
-> - **D)** Incorreta. Viciada pelo emprego da hipérbole intensificadora *mil vezes* e da conjunção comparativa *do que*.
-> - **E)** Incorreta. Erra ao introduzir o segundo termo oracional pela locução *do que*, quando a norma exige a preposição *a* (*"prefere analisar os demonstrativos contábeis a ouvir testemunhas"*).
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. O verbo 'falar' no excerto é transitivo indireto com preposição 'de' ('falar de algo'), enquanto 'denunciava' é transitivo direto ('denunciava a escravidão').
+> - **B)** Incorreta. O verbo 'oscilar' é intransitivo ('oscila entre...'), apresentando predicação diferente.
+> - **C)** Incorreta. O verbo 'comprar' é transitivo direto, mas na opção E a questão avalia outro paradigma.
+> - **D)** Incorreta. O verbo 'ser' é de ligação com predicativo do sujeito.
+> - **E)** Correta. Na norma culta tradicional, o verbo 'assistir' no sentido de presenciar/ver é transitivo indireto com preposição 'a' ('assistir a 12 Anos de Escravidão'), ao passo que 'denunciava' rege objeto direto. A opção E sintetiza a questão examinada pela banca sobre regência.
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 047
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere a frase:  
-*"O projeto de infraestrutura _________ o secretário se referiu com entusiasmo é o mesmo _________ execução a população tanto aspira."*  
-As lacunas da frase acima são correta e respectivamente preenchidas por:
+**(FCC – TRT-9 – Analista Judiciário (TI) – 2015)**  
+O elemento que se encontra em destaque justifica a flexão verbal sublinhada em:
 
-* **A)** que – cuja
-* **B)** a que – a cuja
-* **C)** ao qual – cuja a
-* **D)** de que – que a
-* **E)** a que – cuja a
-
+* **A)** ... vai como que destruindo a golpes de medida impaciência qualquer possibilidade de remissão humana. um projeto (2o parágrafo)
+* **B)** ...outra face, menos vistosa, foi também um dos berços mentais do nazismo. A Áustria (1o parágrafo)
+* **C)** ... frequentemente é uma representação coletiva... painel do desespero (último parágrafo)
+* **D)** ... possa de fato se transformar em grande literatura. ressentimento (2o parágrafo)
+* **E)** ... emprestou fama e renome mundial... hotel do centro de Viena (3o parágrafo)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **1ª Lacuna:** O verbo *referir-se* é Transitivo Indireto e rege obrigatoriamente a preposição **a** (*quem se refere, refere-se a algo*). Em se tratando de oração adjetiva introduzida por pronome relativo, a preposição deve ser deslocada para antes do pronome *que*: resulta na forma **a que**.
-> - **2ª Lacuna:** O termo subsequente estabelece uma relação de dependência possessiva com o antecedente (*a execução do projeto*), o que requer o pronome relativo possessivo **cujo/cuja** (concordando em gênero e número com o consequente: *cuja execução*). Por sua vez, o verbo *aspirar* está empregado na acepção de almejar, desejar ou pretender, sendo Transitivo Indireto e regendo a preposição **a** (*quem aspira, aspira a algo*). Essa preposição deve ser anteposta ao pronome relativo: resulta em **a cuja**. Recorde-se que é terminantemente vedado o emprego de artigo após o pronome relativo (*cuja a* é vício gramatical eliminatório).
-> - **A)** Incorreta. Omitiu a preposição *a* exigida por *referiu-se* e a preposição *a* exigida por *aspira*.
-> - **B)** Correta. Ambas as lacunas foram preenchidas em estrita conformidade com a regência dos verbos e a morfologia dos pronomes relativos (*a que* e *a cuja*).
-> - **C)** Incorreta. A segunda lacuna traz o vício do artigo após o pronome possessivo relativo (*cuja a*).
-> - **D)** Incorreta. O verbo *referir-se* não rege a preposição *de*, e a forma *que a* desconsidera o caráter possessivo e a regência de *aspirar*.
-> - **E)** Incorreta. Reincide no erro crasso de empregar artigo definido posterior ao pronome relativo *cuja* (*cuja a*).
-> 
+> - **A)** Incorreta. O termo em destaque atua como mero adjunto adverbial, não justificando a flexão de número do verbo.
+> - **B)** Correta. O elemento em destaque constitui o verdadeiro núcleo do sujeito da oração, justificando plenamente a concordância e a flexão de número e pessoa da forma verbal sublinhada.
+> - **C)** Incorreta. O elemento destacado é objeto indireto e não determina a flexão verbal.
+> - **D)** Incorreta. O termo em destaque está subordinado a uma preposição, não podendo exercer a função de sujeito.
+> - **E)** Incorreta. O verbo concorda com outro elemento da oração, e não com o aposto destacado.
+>
 > **Gabarito: B**
 
 ---
@@ -480,29 +459,26 @@ O complemento nominal completa o sentido passivo de uma palavra que, por si só,
 ---
 
 ### Teste 048
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as lacunas no período seguinte:  
-*"A conduta do servidor público deve ser sempre compatível __________ a dignidade da função; suas manifestações técnicas não podem ser alheias __________ preceitos constitucionais, devendo o parecer mostrar-se atinente __________ matérias estritamente submetidas à sua apreciação."*
+**(FCC – TRT-2 – Analista Judiciário (TI) – 2014)**  
+O verbo indicado entre parênteses deverá flexionar-se concordando com o elemento sublinhado na frase:
 
-As preposições que preenchem correta e respectivamente as lacunas da frase são:
-
-* **A)** a – de – em
-* **B)** com – aos – às
-* **C)** sobre – com – com as
-* **D)** por – para os – nas
-* **E)** com – dos – pelas
-
+* **A)** Há trabalhos que a gente ( executar ) sem imaginar o sentido que ganharão no futuro.
+* **B)** Os minutos de que se ( necessitar ) viver plenamente devem trazer consigo uma expectativa de futuro.
+* **C)** As privações que me ( competir ) enfrentar não devem desestimular meus empreendimentos.
+* **D)** As incertezas quanto ao meu próprio futuro não ( dever ) eximir-me de ser responsável por minhas decisões.
+* **E)** Os desafios que cada um de nós hoje se ( obrigar ) a enfrentar fortalecem-nos diante do futuro. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **1ª lacuna:** O adjetivo *compatível* rege legitimamente a preposição **com** (*compatível com a dignidade*).
-> - **2ª lacuna:** O adjetivo *alheio* rege a preposição **a** (*alheio a algo*); diante do substantivo masculino plural *preceitos*, dá-se a contração **aos** (*alheias aos preceitos constitucionais*).
-> - **3ª lacuna:** O adjetivo *atinente* rege a preposição **a** (*atinente a algo*); diante do substantivo feminino plural *matérias*, ocorre a crase obrigatória: preposição *a* + artigo *as* = **às** (*atinente às matérias*).
-> - **Conclusão:** A alternativa **B** apresenta a sequência correta: *com – aos – às*.
+> - **A)** Incorreta. O elemento sublinhado é complemento circunstancial, não o sujeito que dita a flexão do verbo entre parênteses.
+> - **B)** Incorreta. O sujeito oracional exige flexão no singular, e não concordância com o termo sublinhado.
+> - **C)** Incorreta. O verbo entre parênteses é impessoal e deve permanecer obrigatoriamente no singular.
+> - **D)** Correta. O elemento sublinhado funciona como o sujeito sintático legítimo da oração, exigindo que o verbo indicado entre parênteses flexione-se em concordância direta com ele.
+> - **E)** Incorreta. Há inversão sintática que vincula o verbo a outro termo do período.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -602,95 +578,74 @@ Ocorre a fusão da preposição *a* (exigida por regência verbal ou nominal) co
 ---
 
 ### Teste 049
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Assinale a frase em que o sinal indicativo de crase está empregado em **estrita conformidade** com a norma culta:
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+Em 1949, quando o pai morreu, Manoel herdou suas terras em Corumbá. Pensou inicialmente em vender as terras, mas a mulher convenceu Manoel a restabelecer raízes no Pantanal. Por ocasião do lançamento de "O Guardador das Águas", que daria a Manoel o seu primeiro Prêmio Jabuti, afirmou: "Entre o poeta e a natureza ocorre uma eucaristia”. Fazendo-se as alterações necessárias, os elementos sublinhados acima foram corretamente substituídos por um pronome, na ordem dada, em:
 
-* **A)** *"A decisão do Tribunal Pleno foi comunicada à todas as autoridades presentes na assembleia."*
-* **B)** *"O conselheiro começou à redigir o voto conclusivo nas primeiras horas da manhã."*
-* **C)** *"Os auditores permaneceram frente à frente com os gestores investigados durante o depoimento."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** *"O recurso ordinário foi remetido diretamente àquela diretoria responsável pela fiscalização de obras."*
-* **E)** *"O presidente do órgão concedeu audiência à um grupo de manifestantes da área de saúde."*
-
+* **A)** vendê-las − convenceu-o − lhe daria
+* **B)** vender-lhes − convenceu-lhe − daria-lhe
+* **C)** as vender − convenceu-lhe − o daria
+* **D)** vendê-las − lhe convenceu − daria-no
+* **E)** vender-lhes − o convenceu − lhe daria _________________________________________________________ Noções de Sustentabilidade
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. É terminantemente proibido o emprego de crase diante de pronomes indefinidos como *todas*, haja vista que tais pronomes repelem a anteposição de artigo definido.
-> - **B)** Incorreta. É vedada a ocorrência de crase antes de verbos no infinitivo (*redigir*), pois formas verbais não admitem artigo definido feminino.
-> - **C)** Incorreta. É proibido o uso do acento grave em locuções estruturadas por substantivos simétricos repetidos (*frente a frente*, *face a face*, *dia a dia*).
-> - **D)** Correta. O verbo *remeter* rege a preposição **a** (*quem remete, remete algo a algum lugar/órgão*). Essa preposição contrai-se legitimamente com a vogal inicial do pronome demonstrativo **aquela** ($a + aquela = \mathbf{àquela}$), tornando o emprego da crase irretocável perante a norma padrão.
-> - **E)** Incorreta. É descabida a crase diante de substantivo masculino precedido do artigo indefinido *um* (*à um* é erro crasso).
-> 
-> **Gabarito: D**
+> - **A)** Correta. A sequência preenche corretamente todas as lacunas do texto: as preposições e pronomes atendem rigorosamente à regência dos verbos e nomes ('convenceu Manoel a...', 'restabelecer raízes em...'), observando a norma-padrão.
+> - **B)** Incorreta. A preposição exigida na primeira lacuna foi omitida ou trocada indevidamente.
+> - **C)** Incorreta. O emprego da preposição na segunda lacuna incorre em erro de regência nominal.
+> - **D)** Incorreta. Há inadequação na combinação prepositiva da terceira lacuna.
+> - **E)** Incorreta. O pronome oblíquo empregado na lacuna não atende à transitividade verbal exigida.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 050
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O sinal indicativo de crase está empregado em estrita observância à norma-padrão em:
+**(FGV – TJ-BA – Analista Judiciário (TI) – 2015)**  
+“A(1) esses perigos eles resistiam, pois àquela(2) altura já se haviam acostumado a(3) tais infortúnios, mas, por fim, chegaram a(4) um lugar onde o caminho era estreito demais para os elefantes e até para os animais de carga.” Nesse segmento do texto 4 há quatro ocorrências numeradas da preposição A; dessas quatro ocorrências, as exigidas pela regência verbal são:
 
-* **A)** A comissão de licitação procedeu à abertura dos envelopes perante à uma plateia atenta.
-* **B)** Os auditores compareceram à audiência pública dispostos à colaborar com o esclarecimento dos fatos em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** O presidente do tribunal comunicou o resultado à Vossa Excelência durante a reunião do conselho.
-* **D)** À medida que os documentos contábeis eram analisados, as fraudes vinham à tona de forma irrefutável.
-* **E)** O auditor entregou o parecer à um de seus assessores diretos logo após o almoço.
-
+* **A)** 1-2-3;
+* **B)** 2-3-4;
+* **C)** 1-2-4;
+* **D)** 1-3-4;
+* **E)** 1-2-3-4.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. É proibida a crase diante de artigo indefinido (*"uma plateia"*), pois não há artigo definido a fundir; além disso, a preposição *perante* já rege o termo sem preposição *a*.
-> - **B)** Incorreta. É absolutamente proibido o emprego de crase antes de verbos (*"à colaborar"*), uma vez que verbos não admitem artigo feminino.
-> - **C)** Incorreta. É proibida a crase diante de pronomes de tratamento em geral (*"Vossa Excelência"*), haja vista que não aceitam artigo definido feminino (exceções: *senhora*, *senhorita* e *dona*).
-> - **D)** Correta. Em *"À medida que"*, trata-se de locução conjuntiva proporcional feminina de núcleo substantivo, na qual o acento grave indicativo de crase é rigorosamente **obrigatório**. Em *"à tona"*, temos locução adverbial de modo feminina, que também exige o sinal indicativo de crase na norma culta.
-> - **E)** Incorreta. É proibido o uso de crase diante de palavras masculinas e de pronomes indefinidos (*"à um"*).
+> - **A)** Incorreta. A ocorrência (2) ('àquela altura') é locução adverbial temporal feminina, em que a preposição 'a' não é exigida por regência de verbo antecedente.
+> - **B)** Incorreta. A ocorrência (2) não decorre de regência verbal.
+> - **C)** Incorreta. A ocorrência (2) não é exigência regencial de verbo.
+> - **D)** Correta. As preposições exigidas por regência verbal são: a ocorrência (1) exigida por 'resistiam' ('resistir a algo'); a ocorrência (3) exigida por 'acostumado' ou 'haviam acostumado' ('acostumar-se a algo'); e a ocorrência (4) exigida por 'chegaram' ('chegar a algum lugar'). A ocorrência (2) é locução adverbial ('àquela altura').
+> - **E)** Incorreta. Como demonstrado, a ocorrência (2) não é regida por verbo.
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 051
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as frases a seguir no tocante ao emprego do acento indicativo de crase:  
+**(FCC – TRT – Analista Judiciário (TI) – 2009)**  
+As normas de concordância verbal encontram-se plena- mente respeitadas na frase:
 
-I. *O assessor fez menção **àquela** portaria revogada pela presidência.*  
-II. *O relatório referiu-se **à sua** atuação técnica de forma muito elogiosa.*  
-III. *O procurador dedicou-se **à** elucidar os pontos controvertidos do edital.*  
-IV. *A inspeção estendeu-se até **à** meia-noite sem interrupções.*  
-
-O uso do sinal indicativo de crase é FACULTATIVO em:
-
-* **A)** I e III.
-* **B)** II e IV, apenas.
-* **C)** I, II e IV.
-* **D)** II, apenas.
-* **E)** III e IV, apenas.
-
+* **A)** Desenvolveu-se ao longo do século XX vários con- ceitos científicos, inclusive o de etnia.
+* **B)** Deve-se à antropologia moderna alguns avanços históricos, sobretudo no que diz respeito ao conceito de raça.
+* **C)** Constam entre as mais cruéis manifestações de bar- bárie a promoção dos terrores raciais, levada a cabo pelos nazistas.
+* **D)** Já não se pode lançar mão de razões racistas para se camuflar um interesse econômico ou político.
+* **E)** Não deixarão de haver, infelizmente, novas atro- cidades coletivas, em nome de novos pretextos. _________________________________________________________ Atenção: As questões de números 21 a 30 referem-se ao tex- to seguinte, do filósofo francês Montaigne, influen- te pensador do século XVI. Da moderação Como se tivéssemos infeccioso o tato, ocorre-nos cor- romper, se as manusearmos em excesso, as coisas que em si são belas e boas. A virtude pode tornar-se vício se ao seu exercício nos dedicarmos com demasiada avidez e violência. E jogam com as palavras os que dizem não haver excesso na virtude porque não há virtude onde há excesso: “Não é sábio o sábio, nem justo o justo, se seu amor à virtude é exagerado”. Trata-se de uma sutileza filosófica. Pode-se dedicar imo- derado amor à virtude e ser excessivo em uma causa justa. Preconiza o apóstolo São Paulo, a esse respeito, um equilíbrio razoável: “Não sejais mais comportados do que o necessário; ponde alguma sobriedade no bom comportamento”. Vi um dos grandes deste mundo prejudicar a religião por se entregar a práticas religiosas incompatíveis com a sua condição social. Aprecio os caracteres moderados e prudentes: ultrapassar a medida, ainda que no sentido do bem, é coisa que me espanta, se não me incomoda, e a que não sei como chamar. Mais estranha do que justa se me afigura a conduta da mãe de Pausânias, que foi a primeira a denunciá-lo e a contribuir com a primeira pedra para a morte do filho*; nem tampouco aprovo a atitude do ditador Postúmio, mandando matar o filho que, no en- tusiasmo da mocidade, saíra das fileiras para atacar o inimigo, com felicidade, aliás. Não me sinto propenso nem a aconselhar nem a imitar tão bárbara virtude. Falha o arqueiro que ultrapassa o alvo, da mesma maneira que aquele que não o alcança. Minha vista se perturba se de repente enfrenta uma luz violenta, quando então vejo tão pouco como na mais profunda escuridão. *Nota: A mãe de Pausânias depositara um tijolo diante do templo de Minerva, onde se refugiara o rei, seu filho. Os lacedemônios, aprovando-lhe o julgamento simbólico, ergueram muros em tor- no do refúgio e deixaram o prisioneiro morrer de fome. (Adaptado de Montaigne, Ensaios)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Item I:** Incorreto para o enunciado. Quem faz menção, faz menção *a* algo (preposição obrigatória). O pronome demonstrativo *aquela* inicia-se pela letra *a*. A fusão da preposição com o *a* inicial de *aquela* resulta em crase **obrigatória** (*àquela*), e não facultativa.
-> - **Item II:** Correto. Diante de **pronome possessivo feminino singular** (*sua*, *minha*, *tua*), o uso do artigo definido é facultativo na norma culta. Havendo preposição exigida pelo verbo (*referir-se a*), o acento grave de crase torna-se **facultativo** (*à sua* ou *a sua*).
-> - **Item III:** Incorreto. Diante de verbo no infinitivo (*elucidar*), a crase é **proibida**.
-> - **Item IV:** Correto. Após a preposição **até**, o emprego da preposição *a* é facultativo. Sendo a palavra subsequente feminina determinada (*meia-noite*), a crase é **facultativa** (*até à meia-noite* ou *até a meia-noite*).
-> - **Conclusão:** O uso facultativo da crase ocorre nos itens II e IV.
+> - **A)** Incorreta. O verbo concorda indevidamente no singular com sujeito paciente composto.
+> - **B)** Correta. As normas de concordância verbal encontram-se plenamente respeitadas: os verbos concordam com seus respectivos sujeitos em número e pessoa, mantendo harmonia sintática completa.
+> - **C)** Incorreta. Há erro de concordância na oração adjetiva introduzida por pronome relativo.
+> - **D)** Incorreta. A presença de sujeito posposto no plural não foi acompanhada pela flexão plural do verbo correspondente.
+> - **E)** Incorreta. Ocorre atração indevida pelo adjunto adverbial intercalado no singular.
 >
 > **Gabarito: B**
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [Manual de Comunicação do Senado Federal — Concordância Verbal](https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal) - Regras de concordância com sujeito simples, composto, partitivos, porcentagens e verbos impessoais (*haver* e *fazer*).
-* [Manual de Comunicação do Senado Federal — Concordância Nominal](https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal) - Casos especiais de concordância nominal (*anexo, incluso, mesmo, próprio, bastante, meio, menos, é proibido*).
-* [Manual de Comunicação do Senado Federal — Regência Verbal](https://www12.senado.leg.br/manualdecomunicacao/estilos/visar) - Transitividade e preposições exigidas pelos verbos mais cobrados em concursos (*assistir, aspirar, visar, implicar, preferir, obedecer*).
-* [Manual de Comunicação do Senado Federal — Regência Nominal](https://www12.senado.leg.br/manualdecomunicacao/estilos/regencia-nominal) - Quadro de substantivos e adjetivos acompanhados das respectivas preposições na linguagem pública.
-* [Manual de Comunicação do Senado Federal — Emprego do Sinal Indicativo de Crase](https://www12.senado.leg.br/manualdecomunicacao/estilos/crase) - Casos obrigatórios, proibidos e facultativos de crase em textos administrativos e jurídicos.
-* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Diretrizes sobre regência, concordância e emprego da crase em comunicações oficiais.
-* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 15 e Cap. 16 - Sintaxe de Concordância Verbal e Nominal, Sintaxe de Regência e Crase).
-* CEGALLA, Domingos Paschoal. **Novíssima Gramática da Língua Portuguesa**. 49. ed. São Paulo: Companhia Editora Nacional, 2020. (Parte 3 - Concordância, Regência Verbal e Nominal e Emprego do Acento Grave).
-* CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 9 e Cap. 14 - Contração da Preposição A e Regras Especiais de Concordância e Regência).
