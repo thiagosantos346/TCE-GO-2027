@@ -93,111 +93,91 @@ No controle judicial de políticas públicas decorrentes de normas programática
 ---
 
 ### Teste 110
-**(FCC - Analista Judiciário - Área Judiciária)**
-De acordo com a clássica classificação das normas constitucionais quanto à sua eficácia e aplicabilidade proposta por José Afonso da Silva, assinale a afirmativa correta.
+**(FGV – TRF-1ª Região – Analista Judiciário - 2024)**  
+Na clássica classificação tripartite das normas constitucionais quanto à sua eficácia e aplicabilidade proposta pelo constitucionalista José Afonso da Silva, as normas constitucionais são agrupadas em normas de eficácia plena, contida e limitada. A respeito das características dogmáticas dessa classificação, é correto afirmar que:
 
-* **A)** As normas de eficácia contida dependem obrigatoriamente de lei infraconstitucional regulamentadora para produzirem qualquer efeito prático desde a promulgação da Constituição.
-* **B)** As normas de eficácia plena produzem ou têm possibilidade de produzir todos os seus efeitos essenciais imediatamente com a entrada em vigor da Constituição, independentemente de qualquer normação infraconstitucional integrativa.
-* **C)** As normas de eficácia limitada são destituídas de qualquer juridicidade ou eficácia, não servindo sequer como parâmetro para o controle de constitucionalidade de leis futuras.
-* **D)** A norma constitucional que assegura que 'é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer' (art. 5º, XIII) é de eficácia limitada.
-* **E)** As normas programáticas não vinculam o legislador nem os órgãos executivos, consistindo em meras exortações morais desprovidas de força normativa.
-
+* **A)** as normas de eficácia contida dependem de normação infraconstitucional integrativa para produzirem efeitos essenciais.
+* **B)** as normas de eficácia plena produzem todos os seus efeitos imediatos, independentemente de lei infraconstitucional posterior.
+* **C)** as normas de eficácia limitada possuem aplicabilidade direta, imediata e integral desde a promulgação da Constituição.
+* **D)** as normas de eficácia contida não admitem restrição por ato normativo posterior por força da cláusula de vedação ao retrocesso.
+* **E)** as normas programáticas são desprovidas de qualquer densidade normativa e não vinculam o legislador ordinário estatal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. As normas de **eficácia contida** têm aplicabilidade direta, imediata e integral desde a promulgação, mas podem ter seu alcance restringido ou contido por lei posterior.
-> - **B)** Correta. As normas de **eficácia plena** têm aplicabilidade direta, imediata e integral: desde o momento em que a Constituição é promulgada, estão aptas a produzir a plenitude de seus efeitos jurídicos sem necessidade de intermediação legislativa infraconstitucional.
-> - **C)** Incorreta. Toda norma constitucional possui eficácia jurídica mínima: as normas de eficácia limitada revogam a legislação anterior em sentido contrário (eficácia negativa/derrogatória) e vinculam o legislador futuro, servindo plenamente como paradigma no controle de constitucionalidade.
-> - **D)** Incorreta. O art. 5º, XIII, é o exemplo clássico de norma de **eficácia contida**: a liberdade profissional é imediata; a lei superveniente pode apenas impor qualificações restritivas quando a atividade exigir.
-> - **E)** Incorreta. As normas programáticas possuem força normativa vinculante (doutrina de Konrad Hesse); direcionam a atuação do Estado e fundamentam políticas públicas e controle de omissões inconstitucionais.
+> - **A)** **Incorreto**. As normas de eficácia contida produzem efeitos imediatos desde logo, mas podem sofrer restrições legislativas posteriores. Quem depende de lei para surtir efeitos essenciais é a norma de eficácia limitada.
+> - **B)** **Correto**. As normas de eficácia plena têm aplicabilidade direta, imediata e integral: produzem, ou têm possibilidade de produzir, todos os seus efeitos essenciais imediatamente com a entrada em vigor da Constituição, independendo de lei integrativa.
+> - **C)** **Incorreto**. Normas de eficácia limitada possuem aplicabilidade indireta, mediata e reduzida.
+> - **D)** **Incorreto**. A característica definidora da eficácia contida (redutível) é exatamente admitir restrição posterior pela lei.
+> - **E)** **Incorreto**. Normas programáticas possuem eficácia jurídica vinculante: revogam normas anteriores contrárias e impedem leis infraconstitucionais incompatíveis.
 >
 > **Gabarito: B**
-
----
-
 ### Teste 111
-**(FCC - Analista Judiciário / Adaptada)**
-O art. 5º, inciso XIII, da Constituição Federal de 1988 dispõe que *"é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer"*.
+**(FCC – Analista Judiciário – TRT / Simulado)**  
+O art. 5º, XIII, da Constituição Federal estabelece: "é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer". Sob a ótica da aplicabilidade e eficácia das normas constitucionais, o referido dispositivo classifica-se como norma de eficácia:
 
-De acordo com a classificação das normas constitucionais desenvolvida pelo constitucionalista José Afonso da Silva, o preceito citado qualifica-se como norma de eficácia:
-
-* **A)** Plena, pois independe de qualquer intermediação legislativa e seu alcance não pode sofrer nenhum tipo de contenção por lei ordinária.
-* **B)** Contida (ou redutível), uma vez que possui aplicabilidade direta e imediata, assegurando o exercício irrestrito da atividade profissional desde logo, mas permitindo que a lei posterior imponha restrições ou requisitos de qualificação técnica.
-* **C)** Limitada programática, visto que não gera efeitos jurídicos até que o Congresso Nacional aprove o estatuto de cada uma das profissões existentes.
-* **D)** Diferida absoluta, cuja aplicabilidade condiciona-se à prévia autorização administrativa de conselhos corporativos de classe.
-* **E)** Ineficaz, por se tratar de mera exortação moral sem força cogente vinculante.
-
+* **A)** Plena, pois veda qualquer restrição por lei posterior em respeito ao direito adquirido do trabalhador.
+* **B)** Contida, de aplicabilidade direta e imediata, mas passível de restrição por lei ordinária superveniente.
+* **C)** Limitada de princípio institutivo, cuja fruição condiciona-se à edição obrigatória de regulamento executivo.
+* **D)** Esgotada ou de eficácia exaurida, por se tratar de preceito transitório atrelado à ordem constitucional pretérita.
+* **E)** Programática, pois veicula diretriz estatal desprovida de exigibilidade perante o Poder Judiciário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** Se fosse de eficácia plena, o exercício da profissão não poderia sofrer nenhuma restrição ou condição posterior por lei infraconstitucional.
-> - **B) CORRETA:** Conforme a consagrada classificação de José Afonso da Silva, as normas de eficácia contida (ou redutíveis) possuem aplicabilidade direta e imediata, operando de pronto a proteção ao direito; contudo, o próprio texto constitucional autoriza que lei superveniente venha a conter, limitar ou restringir o seu alcance (ex.: exigência de diploma ou inscrição em conselho de classe para certas profissões). Enquanto a lei não sobrevier, a liberdade é ampla e plena.
-> - **C) Incorreta:** Se a norma fosse de eficácia limitada, o cidadão estaria impedido de trabalhar até que sobreviesse lei regulamentando cada profissão, o que contraria o postulado da liberdade profissional.
-> - **D) Incorreta:** A classificação doutrinária não contempla a categoria "diferida absoluta" como modalidade autônoma nesse contexto.
-> - **E) Incorreta:** As normas constitucionais detêm imperatividade e eficácia jurídica formal e material, não sendo meros conselhos morais.
-> 
+> - **A)** **Incorreto**. O dispositivo expressa "atendidas as qualificações que a lei estabelecer", admitindo expressamente restrição legislativa posterior.
+> - **B)** **Correto**. O art. 5º, XIII da CF/88 é o exemplo clássico da norma de eficácia contida (ou redutível): tem aplicabilidade direta e imediata (qualquer profissão pode ser livremente exercida na ausência de lei), mas sua amplitude pode ser contida ou restringida por lei federal superveniente que fixe qualificações técnicas indispensáveis (ex.: OAB, CRM, CREA).
+> - **C)** **Incorreto**. Não depende de regulamentação para ser exercida imediatamente.
+> - **D)** **Incorreto**. Normas de eficácia exaurida são as do ADCT que já produziram efeitos.
+> - **E)** **Incorreto**. O preceito assegura direito fundamental individual e autoaplicável.
+>
 > **Gabarito: B**
-
----
-
 ### Teste 112
-**(FCC - Procurador do Estado / Adaptada)**
-O art. 37, inciso VII, da Constituição Federal prevê que *"o direito de greve será exercido nos termos e nos limites definidos em lei específica"*. Passadas décadas sem que o Congresso Nacional editasse a respectiva lei, servidores públicos impetraram Mandado de Injunção perante o Supremo Tribunal Federal buscando o exercício do direito.
+**(FGV – TRT – Analista Judiciário - 2024)**  
+O art. 37, VII, da Constituição Federal preceitua que "o direito de greve será exercido nos termos e nos limites definidos em lei específica". Diante da omissão legislativa do Congresso Nacional em regulamentar a referida norma por mais de três décadas, o Supremo Tribunal Federal apreciou o tema em sede de Mandado de Injunção (MIs 670, 708 e 712). 
 
-À luz da eficácia das normas constitucionais e da jurisprudência do STF:
+A respeito da eficácia da norma e da atuação da Suprema Corte, assinale a opção correta:
 
-* **A)** Trata-se de norma de eficácia plena, prescindindo de lei regulamentadora para qualquer efeito.
-* **B)** Trata-se de norma constitucional de eficácia limitada de princípio institutivo, cuja ausência de lei torna o direito inexistente até que o Legislativo delibere soberanamente.
-* **C)** Trata-se de norma de eficácia limitada, cuja omissão legislativa inconstitucional autoriza o manejo de Mandado de Injunção, tendo o STF decidido aplicar por analogia a lei de greve do setor privado (Lei nº 7.783/1989) aos servidores públicos civis até a edição de lei específica.
-* **D)** Trata-se de norma de eficácia contida, vigorando a proibição absoluta de greve até que venha a lei autorizativa.
-* **E)** A norma é programática e desprovida de qualquer eficácia jurídica, não vinculando o legislador nem o Judiciário.
-
+* **A)** A norma é de eficácia contida e o STF declarou a perda de vigência do preceito em razão da inércia legislativa.
+* **B)** A norma é de eficácia plena e o STF fixou a proibição absoluta de greve no serviço público até edição de lei.
+* **C)** A norma é de eficácia limitada e o STF determinou a aplicação analógica da lei de greve do setor privado.
+* **D)** A norma é programática e o STF determinou a dissolução compulsória dos sindicatos de servidores civis.
+* **E)** A norma é de eficácia diferida e o STF fixou a impossibilidade jurídica de concessão de mandado de injunção.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** A norma subordina o exercício a termos e limites estabelecidos em lei específica, possuindo eficácia mediata e dependente de integração legislativa.
-> - **B) Incorreta:** A ausência de lei não aniquila o direito fundamental nem impede a intervenção concretista do Judiciário para sanar a omissão.
-> - **C) CORRETA:** O art. 37, VII, é norma de eficácia limitada. Diante da inércia do Congresso Nacional, o STF, no julgamento conjunto dos Mandados de Injunção nº 670, 708 e 712, adotou a teoria concretista geral, suprindo a lacuna mediante a aplicação por analogia da Lei Federal nº 7.783/89 (que regula a greve na iniciativa privada) aos servidores civis, ressalvadas as carreiras ligadas diretamente à segurança pública armada.
-> - **D) Incorreta:** Nas normas contidas o exercício do direito é pleno desde a promulgação até que advenha a restrição; no caso da greve do servidor, o exercício dependia da própria lei instituidora.
-> - **E) Incorreta:** As normas constitucionais possuem eficácia normativa vinculante e geram o dever constitucional de legislar, sujeito a controle judicial via mandado de injunção.
-> 
+> - **A)** **Incorreto**. O preceito é norma de eficácia limitada dependente de lei; o STF não declara perda de vigência.
+> - **B)** **Incorreto**. A greve é direito fundamental garantido, não podendo ser sumariamente proibida por inércia estatal.
+> - **C)** **Correto**. O art. 37, VII da CF/88 é norma de eficácia limitada definidora de princípio institutivo. Diante da mora inconstitucional do Poder Legislativo, o STF adotou a teoria concretista intermediária em mandado de injunção (MIs 670, 708 e 712) e determinou que se aplique, no que couber, a Lei Geral de Greve da iniciativa privada (Lei nº 7.783/1989) aos servidores públicos civis até a superveniência de lei específica.
+> - **D)** **Incorreto**. A liberdade sindical no serviço público é plena (art. 37, VI da CF).
+> - **E)** **Incorreto**. O mandado de injunção é garantia constitucional idônea exatamente para combater a omissão legislativa (art. 5º, LXXI).
+>
 > **Gabarito: C**
-
----
-
 ### Teste 113
-**(FGV - Auditor Fiscal da Receita Estadual)**
-Determinada norma da Constituição Federal estabelece que 'a lei disporá sobre a criação e extinção de ministérios e órgãos da administração pública'.
+**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+No estudo da aplicabilidade das normas constitucionais, doutrina especializada identifica a existência de normas de eficácia exaurida ou de aplicabilidade esgotada. Caracteriza-se como norma de eficácia exaurida aquela que:
 
-Quanto à aplicabilidade e eficácia das normas constitucionais, esse preceito classifica-se como norma de eficácia:
-
-* **A)** Plena, pois independe de qualquer atuação do legislador infraconstitucional para que seus preceitos gerem efeitos no mundo fenomênico.
-* **B)** Contida, pois o Presidente da República pode criar ministérios discricionariamente por meio de portaria interna enquanto não for editada a lei.
-* **C)** Limitada de princípio institutivo, porquanto depende de lei formal para organizar e estruturar entidades e órgãos do Poder Executivo.
-* **D)** Limitada de princípio programático, por versar exclusivamente sobre programas sociais dirigidos aos cidadãos.
-* **E)** Exaurida, em virtude de ter esgotado sua eficácia jurídica no momento da promulgação da Carta de 1988.
-
+* **A)** Extinguiu a produção de seus efeitos após a ocorrência da condição fática prevista.
+* **B)** Depende de lei ordinária regulamentadora futura para iniciar a geração de seus efeitos típicos essenciais.
+* **C)** Pode sofrer restrição posterior pelo legislador infraconstitucional no exercício regular de suas competências.
+* **D)** Vincula o gestor público à implementação gradual de políticas orçamentárias de longo prazo de execução.
+* **E)** Veicula garantias fundamentais inalienáveis insuscetíveis de emenda constitucional por serem cláusulas pétreas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A norma expressamente delega à lei futura a incumbência de dispor sobre a criação e extinção de órgãos e ministérios.
-> - **B)** Incorreta. Não se trata de norma contida; o art. 84, VI, 'a', veda inclusive decreto autônomo para criação ou extinção de órgãos públicos (exige lei formal, art. 48, XI).
-> - **C)** Correta. As normas de eficácia limitada subdividem-se em: (1) **normas definidoras de princípios institutivos ou organizativos**, que dependem de lei para estruturar órgãos, entidades ou procedimentos do Estado; e (2) normas definidoras de princípios programáticos. O preceito em análise é típico princípio institutivo.
-> - **D)** Incorreta. Normas programáticas veiculam fins sociais e econômicos do Estado (ex.: saúde, erradicação da pobreza), e não a estruturação orgânica do aparelho administrativo.
-> - **E)** Incorreta. Normas de eficácia exaurida são as do ADCT que já produziram efeitos transitórios pretéritos definitivos.
+> - **A)** **Correto**. As normas de eficácia exaurida (ou de aplicabilidade esgotada) são aquelas que já cumpriram integralmente a sua destinação histórica e consumaram seus efeitos fáticos e jurídicos, deixando de ter aplicabilidade material direta para o futuro, embora mantenham relevância histórica (ex.: art. 3º do ADCT, que convocou o plebiscito de 1993 sobre forma e sistema de governo).
+> - **B)** **Incorreto**. Essa é a definição de norma de eficácia limitada.
+> - **C)** **Incorreto**. Essa é a característica da norma de eficácia contida.
+> - **D)** **Incorreto**. Essa é a definição de norma programática.
+> - **E)** **Incorreto**. Refere-se a cláusulas pétreas (art. 60, § 4º da CF).
 >
-> **Gabarito: C**
-
----
-
+> **Gabarito: A**
 ## 2. Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)
 
 O Título I da Constituição Federal delimita as decisões políticas estruturantes do Estado brasileiro.
@@ -266,196 +246,157 @@ A República Federativa do Brasil rege-se em suas relações internacionais pelo
 ---
 
 ### Teste 114
-**(FCC - Técnico de Controle Externo / TCE-GO)**
-O Título I da Constituição Federal de 1988 consagra os Princípios Fundamentais do Estado brasileiro. Sobre os fundamentos da República Federativa do Brasil expressos no art. 1º da CF/88, assinale a afirmativa correta.
+**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+O art. 1º da Constituição Federal de 1988 elenca os fundamentos do Estado Democrático de Direito na República Federativa do Brasil. Não constitui fundamento expresso da República previsto no referido artigo:
 
-* **A)** A prevalência dos direitos humanos e a concessão de asilo político constituem fundamentos da República Federativa do Brasil.
-* **B)** A soberania, a cidadania, a dignidade da pessoa humana, os valores sociais do trabalho e da livre iniciativa e o pluralismo político constituem os fundamentos expressos da República Federativa do Brasil (mnemônico SO-CI-DI-VA-PLU).
-* **C)** A erradicação da pobreza e a redução das desigualdades sociais e regionais constituem fundamentos originários da República.
-* **D)** A autodeterminação dos povos e a não intervenção são fundamentos republicanos internos.
-* **E)** O pluralismo político confunde-se exclusivamente com o pluripartidarismo partidário, vedando manifestações filosóficas ou religiosas diversas.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A prevalência dos direitos humanos e o asilo político são princípios que regem o Brasil nas suas **relações internacionais** (art. 4º, II e X, da CF/88).
-> - **B)** Correta. O art. 1º da CF/88 elenca como **fundamentos** da República Federativa do Brasil: I - a **so**berania; II - a **ci**dadania; III - a **di**gnidade da pessoa humana; IV - os **va**lores sociais do trabalho e da livre iniciativa; V - o **plu**ralismo político (mnemônico clássico da FCC: SO-CI-DI-VA-PLU).
-> - **C)** Incorreta. Erradicar a pobreza e reduzir as desigualdades são **objetivos fundamentais** (art. 3º, III).
-> - **D)** Incorreta. Autodeterminação e não intervenção são princípios das **relações internacionais** (art. 4º, I e IV).
-> - **E)** Incorreta. O pluralismo político é gênero amplo que abrange a liberdade de ideias, de crença, correntes de pensamento e visões de mundo; o pluripartidarismo é mera espécie eleitoral.
->
-> **Gabarito: B**
-
----
-
-### Teste 115
-**(FCC - Analista Judiciário)**
-O art. 2º da Constituição Federal consagra que *"são Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário"*.
-
-A respeito da **Teoria da Separação dos Poderes** e do sistema de freios e contrapesos (*checks and balances*):
-
-* **A)** A separação de poderes é absoluta, sendo terminantemente vedado a qualquer Poder o exercício de funções atípicas.
-* **B)** O Poder Judiciário exerce unicamente a função de julgar, sendo nulos quaisquer atos administrativos de gestão de seus próprios servidores.
-* **C)** Cada Poder exerce uma função típica preponderante inerente à sua natureza, mas a Constituição atribui a todos eles o exercício de funções atípicas e mecanismos recíprocos de controle e fiscalização.
-* **D)** O sistema de freios e contrapesos autoriza o Poder Executivo a revogar sentenças judiciais transitadas em julgado por motivos de conveniência financeira.
-* **E)** A independência entre os Poderes impede que o Tribunal de Contas fiscalize despesas realizadas pela Assembleia Legislativa.
-
+* **A)** A soberania estatal.
+* **B)** A cidadania plena.
+* **C)** A dignidade da pessoa humana.
+* **D)** O desenvolvimento nacional.
+* **E)** O pluralismo político.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** A separação dos poderes não é absoluta nem estanque, pois a própria Carta Magna encarrega cada Poder de exercer certas funções atípicas secundárias.
-> - **B) Incorreta:** O Judiciário exerce atipicamente a função administrativa ao organizar seus órgãos, licitar e gerir seus servidores (CF, art. 96).
-> - **C) CORRETA:** O princípio da separação dos poderes organiza o Estado conferindo a cada órgão uma função típica prioritária (legislar, julgar ou administrar), sem prejuízo de desempenharem funções atípicas e mecanismos mútuos de contenção e controle no âmbito do sistema de freios e contrapesos (*checks and balances*).
-> - **D) Incorreta:** Decisões judiciais transitadas em julgado revestem-se da garantia da coisa julgada (art. 5º, XXXVI), sendo insuscetíveis de revogação pelo Executivo.
-> - **E) Incorreta:** Por mandamento do art. 70 da CF/88, o controle financeiro e orçamentário externo exercido com o auxílio do Tribunal de Contas alcança os três Poderes, inclusive o Poder Legislativo.
-> 
-> **Gabarito: C**
-
----
-
-### Teste 116
-**(FGV - Analista de Controle Externo / TCE-GO)**
-A Constituição da República Federativa do Brasil de 1988 estabelece em seu art. 3º os objetivos fundamentais da República.
-
-Dentre as alternativas a seguir, assinale aquela que apresenta com exatidão um objetivo fundamental constitucional:
-
-* **A)** Defesa da paz e solução pacífica dos conflitos.
-* **B)** Construir uma sociedade livre, justa e solidária; garantir o desenvolvimento nacional; erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais; e promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
-* **C)** Independência nacional e cooperação entre os povos para o progresso da humanidade.
-* **D)** Garantia do direito de propriedade privada sem qualquer condicionamento social.
-* **E)** Igualdade entre os Estados e repúdio categórico ao asilo político.
-
-
----
-
-> **Comentário Detalhado:**
+> - **A)** **Incorreto (é fundamento)**. Previsto no art. 1º, I da CF/88.
+> - **B)** **Incorreto (é fundamento)**. Previsto no art. 1º, II da CF/88.
+> - **C)** **Incorreto (é fundamento)**. Previsto no art. 1º, III da CF/88.
+> - **D)** **CORRETO (Gabarito: NÃO é fundamento)**. A garantia do desenvolvimento nacional é um OBJETIVO fundamental da República Federativa do Brasil, previsto expressamente no art. 3º, II, da CF/88, e não um fundamento do art. 1º (mnemônico dos fundamentos: SO-CI-DI-VA-PLU: Soberania, Cidadania, Dignidade, Valores do trabalho/livre iniciativa e Pluralismo político).
+> - **E)** **Incorreto (é fundamento)**. Previsto no art. 1º, V da CF/88.
 >
-> - **A)** Incorreta. Princípios de relações internacionais (art. 4º, VI e VII).
-> - **B)** Correta. Os **objetivos fundamentais** (art. 3º da CF/88) exprimem metas de ação com verbos no infinitivo (mnemônico: CON-GA-ER-PRO): I - **construir** uma sociedade livre, justa e solidária; II - **garantir** o desenvolvimento nacional; III - **erradicar** a pobreza e a marginalização e **reduzir** as desigualdades sociais e regionais; IV - **promover** o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
-> - **C)** Incorreta. Princípios de relações internacionais (art. 4º, I e IX).
-> - **D)** Incorreta. A propriedade privada submete-se indelevelmente à sua função social (art. 5º, XXIII, e art. 170, III).
-> - **E)** Incorreta. O Brasil concede asilo político como princípio internacional expresso (art. 4º, X).
->
-> **Gabarito: B**
-
----
-
-### Teste 117
-**(FCC - Técnico de Controle Externo / TCE-GO)**
-Considere as seguintes assertivas a respeito dos Princípios Fundamentais consagrados nos artigos 1º a 4º da Constituição Federal de 1988:
-
-I. O pluralismo político e a dignidade da pessoa humana são fundamentos expressos da República Federativa do Brasil.  
-
-II. Erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais consubstanciam objetivos fundamentais do Estado brasileiro.  
-
-III. A prevalência dos direitos humanos e a concessão de asilo político regem o Brasil em suas relações internacionais.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas
-* **B)** I e III, apenas
-* **C)** II e III, apenas
-* **D)** I, II e III
-* **E)** I, apenas
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** A assertiva III também está plenamente correta nos termos do art. 4º, II e X, da CF/88.
-> - **B) Incorreta:** A assertiva II também é verdadeira de acordo com o art. 3º, III, da CF/88.
-> - **C) Incorreta:** A assertiva I também expressa preceitos constitucionais exatos do art. 1º, III e V, da CF/88.
-> - **D) CORRETA:** Todas as assertivas são corretas: I reproduz fundamentos do art. 1º (SO-CI-DI-VA-PLU); II reproduz objetivos fundamentais do art. 3º (CON-GA-ERRA-PRO); III reproduz princípios de relações internacionais do art. 4º.
-> - **E) Incorreta:** Há outras proposições verdadeiras no rol examinado.
-> 
 > **Gabarito: D**
+### Teste 115
+**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+A respeito do princípio da separação de poderes consagrado no art. 2º da Constituição Federal ("São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário"), assinale a afirmativa correta:
+
+* **A)** A separação de poderes é absoluta, vedada a atribuição de qualquer função administrativa ou jurisdicional atípica.
+* **B)** Cada Poder exerce função típica precípua, acumulando funções atípicas expressamente autorizadas na Constituição.
+* **C)** O Poder Judiciário exerce unicamente a jurisdição, sendo nulo ato que promova concurso público para seus servidores.
+* **D)** O Poder Legislativo exerce com exclusividade a gestão dos recursos orçamentários dos três poderes da República.
+* **E)** O princípio da harmonia entre os poderes autoriza o Governador a avocar processos em trâmite no Tribunal de Justiça.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. A tripartição de poderes adotada no Brasil não é estanque nem absoluta; a própria Constituição distribui competências típicas (preponderantes) e atípicas (secundárias) a cada um dos poderes.
+> - **B)** **Correto**. O sistema constitucional brasileiro adota a teoria das funções típicas e atípicas: o Legislativo legisla e fiscaliza (típica), mas administra seus servidores e julga crimes de responsabilidade (atípica); o Judiciário julga (típica), mas administra seus quadros e elabora regimentos internos (atípica); o Executivo governa e administra (típica), mas edita decretos regulamentares e julga processos administrativos (atípica).
+> - **C)** **Incorreto**. A gestão administrativa interna de recursos humanos e concurso público é função atípica do Judiciário (art. 96, I).
+> - **D)** **Incorreto**. Cada Poder dispõe de autonomia orçamentária e financeira para gerir suas dotações (arts. 99 e 168 da CF).
+> - **E)** **Incorreto**. A independência dos poderes impede qualquer intromissão hierárquica do Executivo nos autos judiciais.
+>
+> **Gabarito: B**
+### Teste 116
+**(FCC – TRT-9ª Região – Analista Judiciário - 2015)**  
+Considere os seguintes preceitos constitucionais:  
+I. Promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.  
+II. Garantir o desenvolvimento nacional.  
+III. A prevalência dos direitos humanos e a defesa da paz.
+
+À luz da Constituição Federal de 1988, constituem OBJETIVOS fundamentais da República Federativa do Brasil o que consta em:
+
+* **A)** I e II, apenas.
+* **B)** I, II e III.
+* **C)** II e III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, apenas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correto**. Os itens I e II correspondem a objetivos fundamentais da República Federativa do Brasil expressamente elencados no art. 3º da CF/88 (incisos IV e II). Já o item III ("prevalência dos direitos humanos e defesa da paz") constitui princípio que rege a República Federativa do Brasil nas suas RELAÇÕES INTERNACIONAIS, previsto no art. 4º, incisos II e VI da Carta Magna.
+> - **B)** **Incorreto**. O item III é princípio de relações internacionais (art. 4º), e não objetivo do art. 3º.
+> - **C)** **Incorreto**. O item I também é objetivo fundamental do art. 3º, IV.
+> - **D)** **Incorreto**. O item III não integra os objetivos fundamentais da República.
+> - **E)** **Incorreto**. O item II também é objetivo fundamental (art. 3º, II).
+>
+> **Gabarito: A**
+### Teste 117
+**(FGV – TJ-RR – Analista Judiciário - 2024)**  
+A República Federativa do Brasil rege-se, em suas relações internacionais, por princípios fundamentais expressamente previstos no art. 4º da Constituição Federal de 1988. Assinale a opção que indica princípio que rege o Brasil nas suas relações internacionais:
+
+* **A)** Pluralismo político e soberania popular.
+* **B)** Independência nacional e não intervenção.
+* **C)** Dignidade da pessoa humana e cidadania.
+* **D)** Erradicação da pobreza e redução das desigualdades.
+* **E)** Construção de sociedade livre, justa e solidária.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. Pluralismo político é fundamento do art. 1º, V da CF.
+> - **B)** **Correto**. O art. 4º da CF/88 estabelece os princípios reitores das relações internacionais: I - independência nacional; II - prevalência dos direitos humanos; III - autodeterminação dos povos; IV - não-intervenção; V - igualdade entre os Estados; VI - defesa da paz; VII - solução pacífica dos conflitos; VIII - repúdio ao terrorismo e ao racismo; IX - cooperação entre os povos para o progresso da humanidade; X - concessão de asilo político.
+> - **C)** **Incorreto**. Dignidade da pessoa humana e cidadania são fundamentos da República (art. 1º, II e III).
+> - **D)** **Incorreto**. Erradicação da pobreza é objetivo fundamental (art. 3º, III).
+> - **E)** **Incorreto**. Construção de sociedade livre, justa e solidária é objetivo fundamental (art. 3º, I).
+>
+> **Gabarito: B**
 ### Teste 118
-**(FCC - Procurador do Estado / Adaptada)**
-Nas suas relações internacionais, a República Federativa do Brasil rege-se pelos princípios positivados no art. 4º da Constituição Federal de 1988.
+**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+O parágrafo único do art. 4º da Constituição Federal estabelece importante diretriz para a política externa e de cooperação da República Federativa do Brasil. Conforme preceitua expressamente o texto constitucional, o Brasil buscará a integração:
 
-Sobre o regramento e a interpretação desses princípios, assinale a afirmativa correta.
-
-* **A)** A concessão de asilo político constitui obrigação internacional cogente que retira do Presidente da República o juízo de conveniência soberana sobre o acolhimento do estrangeiro.
-* **B)** A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações.
-* **C)** O princípio da não intervenção impede o Brasil de participar de missões de paz organizadas pela Organização das Nações Unidas (ONU).
-* **D)** O repúdio ao terrorismo e ao racismo é princípio constitucional de aplicabilidade restrita ao território nacional.
-* **E)** O Brasil subordina sua soberania interna às decisões unilaterais tomadas por tribunais estrangeiros não reconhecidos pelo Estado brasileiro.
-
+* **A)** militar, defensiva e armamentista dos Estados do hemisfério sul para constituir força de coalizão conjunta.
+* **B)** econômica, política e cultural dos povos latinos, visando à formação de uma comunidade regional.
+* **C)** financeira estrita com os países do Mercosul, vedada a cooperação cultural e de mobilidade de pessoas.
+* **D)** aduaneira e cambial unificada com os membros do Conselho de Segurança da Organização das Nações Unidas.
+* **E)** jurídica compulsória com submissão automática da jurisdição nacional aos tribunais regionais de arbitragem.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A concessão de asilo político (art. 4º, X) é ato de soberania estatal do Presidente da República, que dispõe de margem de discricionariedade política internacional.
-> - **B)** Correta. O parágrafo único do art. 4º da CF/88 consagra categoricamente que *"A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações"*.
-> - **C)** Incorreta. O princípio da não intervenção convive com a cooperação internacional e a defesa da paz sob a égide do direito internacional humanitário.
-> - **D)** Incorreta. O repúdio ao terrorismo e ao racismo é diretriz de política externa e universal (art. 4º, VIII).
-> - **E)** Incorreta. O art. 4º, I, coloca a independência nacional e a soberania como vetores inegociáveis do Estado brasileiro.
+> - **A)** **Incorreto**. A integração preconizada tem natureza humanística e pacífica, e não belicista.
+> - **B)** **Correto**. Literalidade do parágrafo único do art. 4º da Constituição Federal de 1988: "A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações".
+> - **C)** **Incorreto**. A integração abrange as vertentes social e cultural expressamente.
+> - **D)** **Incorreto**. O preceito constitucional foca nos povos da América Latina.
+> - **E)** **Incorreto**. O Brasil mantém a soberania jurisdicional originária ressalvada a adesão voluntária a tratados.
 >
 > **Gabarito: B**
-
----
-
 ### Teste 119
-**(FCC - Analista de Controle Externo)**
-Em conformidade com o parágrafo único do art. 4º da Constituição da República Federativa do Brasil de 1988, o Brasil buscará a integração econômica, política, social e cultural dos povos:
+**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+O mecanismo de freios e contrapesos (checks and balances), teorizado por Montesquieu e acolhido pela ordem constitucional brasileira de 1988, impede a hegemonia ou tirania de qualquer dos Poderes da República. Constitui exemplo legítimo de aplicação do sistema de freios e contrapesos:
 
-* **A)** Do hemisfério ocidental, visando à formação de uma zona de livre comércio transcontinental.
-* **B)** Dos países signatários do Tratado do Atlântico Norte.
-* **C)** Da América Latina, visando à formação de uma comunidade latino-americana de nações.
-* **D)** Do Mercosul exclusivamente, vedada qualquer aliança com nações não lindeiras.
-* **E)** Dos países de língua oficial portuguesa (CPLP) em caráter preferencial e excludente.
-
+* **A)** A edição de decreto legislativo pelo Congresso para anular sentenças judiciais transitadas em julgado.
+* **B)** A destituição liminar de membros de Tribunais Superiores por portaria sumária do Ministro da Justiça.
+* **C)** O controle de leis pelo Judiciário e a aprovação de autoridades pelo Senado.
+* **D)** A fixação autônoma de subsídios do Governador por ato do próprio Chefe do Poder Executivo estadual.
+* **E)** A sustação unilateral de processos de auditoria do Tribunal de Contas por ordem de líder partidário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** A Constituição não alude a hemisfério ocidental ou zona de comércio transcontinental.
-> - **B) Incorreta:** Refere-se à OTAN, aliança militar do hemisfério norte da qual o Brasil não faz parte.
-> - **C) CORRETA:** O parágrafo único do art. 4º da CF/88 dispõe textualmente: *"A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."*
-> - **D) Incorreta:** A diretriz constitucional alcança toda a América Latina, e não unicamente os países membros do Mercosul.
-> - **E) Incorreta:** A cooperação com a comunidade de língua portuguesa é relevante, mas o comando constitucional integrativo expresso do art. 4º reporta-se aos povos latino-americanos.
-> 
+> - **A)** **Incorreto**. O Legislativo não tem competência para anular decisões judiciais acobertadas pela coisa julgada.
+> - **B)** **Incorreto**. A destituição de magistrados de tribunais submete-se a processo constitucional estrito no Senado (impeachment).
+> - **C)** **Correto**. O sistema de freios e contrapesos manifesta-se nos controles recíprocos entre os Poderes previstos na CF: o Judiciário controla a constitucionalidade das leis emitidas pelo Legislativo; o Senado aprova a nomeação de Ministros do STF e dirigentes de agências indicados pelo Presidente (art. 52, III); o Presidente veta projetos de lei aprovados pelo Parlamento (art. 66, § 1º); e o Legislativo julga as contas do Executivo com parecer do TC.
+> - **D)** **Incorreto**. A fixação de subsídios é competência privativa da Assembleia Legislativa (art. 49, VII e VIII).
+> - **E)** **Incorreto**. As auditorias dos Tribunais de Contas decorrem de competência constitucional autônoma indelegável.
+>
 > **Gabarito: C**
-
----
-
 ### Teste 120
-**(FGV - Analista de Controle Externo / Auditoria)**
-O art. 2º da Constituição Federal de 1988 consagra que 'são Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário'.
+**(FGV – Analista Judiciário – TJ-GO / Simulado)**  
+No controle de constitucionalidade difuso e incidental, o Poder Judiciário declara a inconstitucionalidade de determinada lei aprovada pelo Poder Legislativo e sancionada pelo Governador. A respeito da compatibilidade desse controle com o princípio da separação de poderes:
 
-A respeito do princípio da Separação de Poderes e do sistema de freios e contrapesos (checks and balances), assinale a afirmativa correta.
-
-* **A)** A separação de poderes é absoluta, sendo terminantemente vedado a qualquer Poder exercer atribuições de natureza atípica.
-* **B)** O controle de constitucionalidade de leis exercido pelo Poder Judiciário, a aprovação de autoridades pelo Senado Federal e o veto do Presidente da República a projetos de lei constituem manifestações legítimas do sistema constitucional de freios e contrapesos.
-* **C)** O Tribunal de Contas constitui órgão subordinado ao Poder Judiciário para fins de fiscalização contábil do Estado.
-* **D)** A edição de medidas provisórias pelo Chefe do Poder Executivo decorre do exercício de sua função executiva típica originária.
-* **E)** O princípio da separação dos poderes impede que o Poder Legislativo fiscalize a gestão financeira e orçamentária dos órgãos do Poder Executivo.
-
+* **A)** O controle judicial de constitucionalidade viola a separação de poderes ao invalidar atos de representantes eleitos.
+* **B)** A jurisdição assegura a supremacia constitucional e harmoniza o funcionamento dos poderes.
+* **C)** O controle difuso exige que todos os juízes monocráticos submetam suas decisões à aprovação da Assembleia.
+* **D)** A declaração incidental de inconstitucionalidade opera efeitos erga omnes automáticos em todo o território nacional.
+* **E)** O Judiciário pode substituir discricionariamente o texto da lei impugnada por norma legislativa substitutiva.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A separação de poderes não é estanque nem absoluta. Cada Poder exerce uma função típica preponderante e, de forma atípica, funções inerentes aos outros Poderes (ex.: o Judiciário administra seus serviços e legisla em regimentos internos; o Legislativo julga o Presidente por crime de responsabilidade).
-> - **B)** Correta. O sistema de freios e contrapesos assegura que nenhum Poder se torne hegemônico ou tirânico, permitindo que um Poder controle e limite o outro nos estritos termos traçados pela Constituição (veto presidencial, controle judicial de constitucionalidade, sabatina de autoridades pelo Senado).
-> - **C)** Incorreta. Os Tribunais de Contas são órgãos autônomos e independentes com assento constitucional que auxiliam o Poder Legislativo no controle externo.
-> - **D)** Incorreta. Editar medida provisória com força de lei é exercício atípico de função legislativa pelo Chefe do Poder Executivo.
-> - **E)** Incorreta. O controle externo financeiro pelo Legislativo é a essência do postulado republicano (arts. 70 e 71 da CF/88).
+> - **A)** **Incorreto**. O controle de constitucionalidade é atribuição típica e indeclinável conferida pela Carta Magna ao Poder Judiciário para resguardar a supremacia constitucional.
+> - **B)** **Correto**. O controle jurisdicional de constitucionalidade é o ápice do sistema de freios e contrapesos: longe de violar a tripartição dos poderes, garante que os atos emanados do Legislativo e do Executivo permaneçam dentro dos balizamentos materiais e formais traçados pelo poder constituinte originário na Constituição da República.
+> - **C)** **Incorreto**. O controle difuso é descentralizado e exercido por qualquer juiz ou tribunal da federação.
+> - **D)** **Incorreto**. No controle difuso, os efeitos são, em regra, inter partes, dependendo de resolução do Senado para suspensão erga omnes (art. 52, X).
+> - **E)** **Incorreto**. O Judiciário atua como legislador negativo, sendo-lhe vedado atuar como legislador positivo.
 >
 > **Gabarito: B**
-
----
-
 ## 6. Fontes Recomendadas na Internet
 
 * [Constituição Federal de 1988 - Arts. 1º a 4º (Princípios Fundamentais)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art1) - Texto oficial que consagra os fundamentos da República Federativa do Brasil, a separação dos poderes e os objetivos fundamentais.

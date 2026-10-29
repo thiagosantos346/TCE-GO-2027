@@ -92,32 +92,26 @@ flowchart TD
 ---
 
 ### Teste 099
-**(FCC - Analista de Controle Externo / TCE-GO)**
-Os contratos administrativos disciplinados pela Lei nº 14.133/2021 distinguem-se dos contratos privados comuns pela presença das denominadas cláusulas exorbitantes, que conferem prerrogativas especiais ao Poder Público.
+**(FGV – TRF-1ª Região – Analista Judiciário - 2024)**  
+As chamadas cláusulas exorbitantes correspondem às prerrogativas conferidas pelo ordenamento jurídico à Administração Pública na celebração e execução dos contratos administrativos (art. 104 da Lei nº 14.133/2021). A respeito dessas prerrogativas especiais, é correto afirmar que:
 
-A respeito das cláusulas exorbitantes positivadas no art. 104 da Nova Lei de Licitações, assinale a afirmativa correta.
-
-* **A)** A Administração Pública pode modificar unilateralmente o contrato administrativo para alterar o seu objeto nuclear de forma qualitativa ou quantitativa, sem direito a qualquer reajuste da remuneração inicial.
-* **B)** A extinção unilateral do contrato administrativo é prerrogativa conferida com exclusividade à pessoa jurídica contratada em caso de mero atraso de dez dias nos pagamentos estatais.
-* **C)** O regime jurídico dos contratos administrativos confere à Administração a prerrogativa de modificá-los unilateralmente para melhor adequação às finalidades de interesse público, respeitado o equilíbrio econômico-financeiro originário e os limites legais de alteração.
-* **D)** O contratado pode suspender de imediato o cumprimento de suas obrigações no dia seguinte ao primeiro atraso no pagamento de faturas pelo Poder Público, ante a aplicação pura da exceptio non adimpleti contractus.
-* **E)** As cláusulas exorbitantes autorizam o gestor público a impor sanções disciplinares penais privativas de liberdade aos diretores da empresa contratada.
-
+* **A)** A Administração pode rescindir unilateralmente o contrato em caso de inexecução culposa da contratada.
+* **B)** A alteração unilateral das cláusulas contratuais pelo Estado autoriza a modificação substancial do objeto pactuado.
+* **C)** A aplicação de sanções administrativas cominatórias prescinde de prévio processo administrativo com contraditório.
+* **D)** A ocupação provisória de bens do contratado aplica-se unicamente aos contratos de locação imobiliária comum.
+* **E)** As cláusulas exorbitantes conferem à Administração a faculdade de suspender indefinidamente pagamentos devidos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A modificação unilateral do contrato é lícita, mas impõe a preservação estrita da equação econômico-financeira originária do ajuste (art. 104, I, e art. 130 da Lei 14.133/2021).
-> - **B)** Incorreta. A rescisão unilateral é cláusula exorbitante em favor do **Poder Público**; o contratado não pode rescindir unilateralmente, devendo pleitear a rescisão amigável ou judicialmente.
-> - **C)** Correta. O art. 104, I, da Lei nº 14.133/2021 prevê a prerrogativa da Administração de modificar unilateralmente o contrato para melhor adequação às finalidades de interesse público, respeitados os direitos do contratado e a manutenção do equilíbrio econômico-financeiro inicial.
-> - **D)** Incorreta. Em homenagem ao princípio da continuidade dos serviços públicos, o particular só pode suspender o cumprimento de suas obrigações se o atraso nos pagamentos devidos pela Administração perdurar por mais de **2 (dois) meses** (art. 137, § 2º, IV, da Lei nº 14.133/2021 - prazo que era de 90 dias na Lei 8.666/93).
-> - **E)** Incorreta. Sanções administrativas contratuais limitam-se à esfera administrativa pecuniária e restritiva de direitos (advertência, multa, impedimento e inidoneidade).
+> - **A)** **Correto**. O art. 104, II c/c art. 137 da Lei nº 14.133/2021 estabelece expressamente a prerrogativa exorbitante da Administração Pública de extinguir unilateralmente o contrato administrativo nos casos especificados em lei, notadamente pelo não cumprimento culposo de cláusulas contratuais, especificações, projetos ou prazos pelo contratado.
+> - **B)** **Incorreto**. A alteração unilateral é restrita aos limites legais (art. 125) e jamais pode transfigurar a natureza do objeto licitado.
+> - **C)** **Incorreto**. A aplicação de qualquer penalidade exige a observância do devido processo legal e ampla defesa (art. 156, § 1º).
+> - **D)** **Incorreto**. A ocupação e utilização temporária de bens móveis, imóveis e pessoal do contratado destina-se a serviços essenciais para evitar a interrupção da atividade pública (art. 104, V).
+> - **E)** **Incorreto**. O atraso injustificado no pagamento enseja direito do particular à suspensão ou extinção contratual (art. 137, § 2º, IV).
 >
-> **Gabarito: C**
-
----
-
+> **Gabarito: A**
 ## 2. Garantias Contratuais e Seguro-Garantia com Cláusula de Retomada (Step-in Rights)
 
 A critério da autoridade competente, em cada contratação a Administração pode exigir do contratado a prestação de garantia (art. 96). Caberá ao **contratado optar** por uma das seguintes modalidades:
@@ -142,32 +136,26 @@ Para combater o problema crônico nacional de paralisação e abandono de obras 
 ---
 
 ### Teste 100
-**(FCC - Analista Judiciário)**
-Em uma licitação de obra pública de grande vulto (orçada em R$ 300 milhões) para construção de um complexo penitenciário de segurança máxima, o edital estabeleceu a obrigatoriedade de contratação de seguro-garantia com previsão de cláusula de retomada (*step-in rights*).
+**(FCC – Analista Judiciário – TRT / Simulado)**  
+Em uma licitação de obra pública de grande vulto (orçada em trezentos milhões de reais), a Administração incluiu no edital a exigência de seguro-garantia com cláusula de retomada (step-in rights). Conforme disciplinado nos arts. 96 a 102 da Lei nº 14.133/2021:
 
-De acordo com o art. 102 da Lei Federal nº 14.133/2021, a **cláusula de retomada no seguro-garantia**:
-
-* **A)** Limita a garantia a 1% do valor do contrato e proíbe a seguradora de ingressar no canteiro de obras.
-* **B)** Pode prever garantia de até 30% do valor inicial do contrato, ficando a seguradora obrigada, em caso de inadimplemento do contratado, a assumir a execução e concluir o objeto do contrato.
-* **C)** Exige que a seguradora execute a obra diretamente por seus próprios corretores de seguros.
-* **D)** Isenta a seguradora de qualquer responsabilidade caso a construtora entre em recuperação judicial.
-* **E)** Transfere a titularidade da obra para a seguradora em regime de dação em pagamento definitiva.
-
+* **A)** O seguro-garantia em obras de grande vulto pode atingir até 30% do valor inicial do contrato.
+* **B)** A seguradora assume a obrigação de indenizar o erário em dinheiro, sendo-lhe vedado assumir a execução direta da obra.
+* **C)** A exigência de garantia contratual é compulsória em todos os contratos administrativos, inclusive compras imediatas.
+* **D)** A modalidade de caução em dinheiro não admite a utilização de títulos da dívida pública emitidos pelo Tesouro Nacional.
+* **E)** A garantia contratual pode ser retida definitivamente pelo Estado sem prévia apuração de prejuízos causados na execução.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** O limite de garantia com cláusula de retomada pode atingir até 30% do valor inicial do contrato, e o propósito basilar do dispositivo é autorizar a intervenção direta da seguradora para terminar a obra.
-> - **B) CORRETA:** Conforme o art. 102 da Lei nº 14.133/2021, na contratação de obras e serviços de engenharia de grande vulto, o edital pode prever a obrigatoriedade de seguro-garantia com percentual de até 30% do valor inicial do contrato com previsão de cláusula de retomada (*step-in rights*), pela qual a seguradora, em caso de inadimplemento do contratado, assume a execução e conclui a obra, diretamente ou por meio de terceiros subcontratados.
-> - **C) Incorreta:** A seguradora assume a gestão jurídica da execução, podendo contratar empresas e engenheiros especializados para os serviços práticos de engenharia.
-> - **D) Incorreta:** O descumprimento por inadimplência ou quebra da construtora é precisamente o fato ensejador da execução do seguro e da ativação da retomada.
-> - **E) Incorreta:** Não ocorre dação em pagamento ou alienação do bem público à seguradora; o bem permanece público e a seguradora apenas cumpre a prestação de fazer assumida na apólice.
-> 
-> **Gabarito: B**
-
----
-
+> - **A)** **Correto**. O art. 99 da Lei nº 14.133/2021 prevê expressamente que, nas contratações de obras e serviços de engenharia de grande vulto, poderá ser exigida a prestação de garantia, na modalidade seguro-garantia, com cláusula de retomada da execução contratual (step-in rights), em percentual de até 30% (trinta por cento) do valor inicial do contrato, hipótese em que a seguradora conclui a obra inadimplida pela contratada originária.
+> - **B)** **Incorreto**. A inovação da cláusula de retomada autoriza justamente a seguradora a assumir a execução do contrato (art. 102).
+> - **C)** **Incorreto**. A exigência de garantia é faculdade da autoridade competente (art. 96, caput), sendo usualmente dispensada em entregas imediatas.
+> - **D)** **Incorreto**. O art. 96, § 1º, I autoriza expressamente títulos da dívida pública emitidos sob a forma escritural.
+> - **E)** **Incorreto**. A retenção de garantia exige prévia apuração do valor do dano e contraditório administrativo.
+>
+> **Gabarito: A**
 ## 3. Duração e Prorrogação dos Contratos Administrativos
 
 A regra orçamentária tradicional vinculava a vigência contratual aos créditos orçamentários do respectivo exercício financeiro (regra do ano civil). A Lei nº 14.133/2021 flexibilizou essa sistemática com regras modernas de planejamento (arts. 105 a 114):
@@ -186,32 +174,26 @@ O art. 106 da NLLC estabelece uma revolução para os contratos de serviços e f
 ---
 
 ### Teste 101
-**(FGV - Auditor de Controle Externo / TCE-SC)**
-A disciplina da duração e da prorrogação dos contratos administrativos na Lei nº 14.133/2021 (arts. 105 a 114) introduziu inovações substanciais no ordenamento jurídico pátrio.
+**(FCC – TRT-1ª Região – Analista Judiciário - 2014)**  
+A disciplina da duração e da prorrogação dos contratos administrativos de serviços contínuos sofreu relevante modernização na Lei Federal nº 14.133/2021 (arts. 106 e 107). A respeito dos prazos de vigência desses contratos, é correto afirmar que:
 
-Quanto ao prazo de vigência dos contratos de serviços e fornecimentos contínuos, assinale a afirmativa correta.
-
-* **A)** A duração dos contratos administrativos submete-se à estrita vigência dos créditos orçamentários anuais, sendo nulo todo contrato que preveja vigência inicial superior a doze meses.
-* **B)** A Administração Pública pode celebrar contratos de serviços e fornecimentos contínuos com prazo inicial de até cinco anos, os quais poderão ser prorrogados sucessivamente respeitado o prazo máximo decenal (dez anos).
-* **C)** Os contratos de serviços contínuos podem ser prorrogados por até trinta anos a critério discricionário exclusivo da chefia do órgão contratante.
-* **D)** A prorrogação de contrato de serviço contínuo independe da demonstração da vantajosidade econômica das condições e dos preços contratados.
-* **E)** O contrato por escopo predeterminado extingue-se automaticamente ao final do exercício financeiro, mesmo que a obra não tenha sido concluída pelo particular.
-
+* **A)** Os contratos de serviços e fornecimentos contínuos podem ser celebrados pelo prazo inicial de até cinco anos.
+* **B)** O contrato de serviço contínuo vincula-se obrigatoriamente à vigência dos créditos orçamentários do exercício.
+* **C)** A duração máxima total do contrato contínuo com prorrogações sucessivas não pode ultrapassar trinta e seis meses.
+* **D)** A prorrogação contratual independe da demonstração da vantajabilidade econômica dos preços para a Administração.
+* **E)** Os contratos com vigência plurianual exigem a reabertura integral do procedimento licitatório no segundo exercício.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O art. 105 da NLLC superou a regra estrita do crédito orçamentário anual, permitindo a fixação de vigência plurianual em diversas hipóteses.
-> - **B)** Correta. O art. 106 da Lei nº 14.133/2021 estabelece que a Administração poderá celebrar contratos de serviços e fornecimentos contínuos com prazo inicial de até **5 (cinco) anos**; e o art. 107 complementa que tais contratos poderão ser prorrogados sucessivamente, respeitada a vigência máxima de **até 10 (dez) anos**, desde que demonstrada a vantajosidade econômica da prorrogação para a Administração.
-> - **C)** Incorreta. O teto geral para serviços contínuos ordinários é de 10 anos (art. 107); prazos de até 35 anos aplicam-se a contratos de eficiência e parcerias público-privadas sob leis especiais.
-> - **D)** Incorreta. A comprovação de que os preços e condições permanecem vantajosos para o erário é requisito indeclinável de toda prorrogação (art. 107).
-> - **E)** Incorreta. Nos contratos por escopo predeterminado (art. 111), o prazo de vigência prorroga-se automaticamente quando o objeto não for concluído no período firmado, devendo a Administração apurar eventual culpa do contratado.
+> - **A)** **Correto**. O art. 106 da Lei nº 14.133/2021 estabelece que a Administração poderá celebrar contratos de serviços e fornecimentos contínuos pelo prazo de até 5 (cinco) anos. Além disso, o art. 107 preceitua que tais contratos poderão ser prorrogados sucessivamente, respeitada a vigência máxima decenal (até 10 anos), desde que haja previsão no edital e atestada a vantajabilidade econômica.
+> - **B)** **Incorreto**. A regra anterior de adstrição estrita ao exercício financeiro (art. 57 da Lei 8.666) foi superada para serviços contínuos.
+> - **C)** **Incorreto**. O limite máximo decenal é de até 10 (dez) anos (art. 107 da NLLC).
+> - **D)** **Incorreto**. A comprovação de que as condições permanecem vantajosas para a Administração é requisito obrigatório para a prorrogação.
+> - **E)** **Incorreto**. A plurianualidade dispensa nova licitação anual, desde que respeitados os requisitos da LRF e do contrato.
 >
-> **Gabarito: B**
-
----
-
+> **Gabarito: A**
 ## 4. Gestão, Fiscalização e Responsabilidade Trabalhista do Estado
 
 ### 4.1 Estrutura de Gestão e Fiscalização Contratual
@@ -243,59 +225,47 @@ O art. 140 da NLLC disciplina as fases de entrega do objeto contratado:
 ---
 
 ### Teste 102
-**(FCC - Procurador do Estado / Adaptada)**
-Na terceirização de serviços de limpeza e vigilância contratados por órgão do Poder Judiciário estadual, a empresa terceirizada contratada tornou-se inadimplente com os salários e verbas rescisórias de seus empregados alocados no tribunal. Os trabalhadores acionaram a Justiça do Trabalho, pleiteando a condenação solidária ou subsidiária do Estado.
+**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+Na terceirização de serviços continuados de limpeza e vigilância predial no âmbito estadual, a autoridade administrativa designou fiscais para acompanhar a execução contratual. Segundo o art. 117 da Lei Federal nº 14.133/2021:
 
-À luz do art. 121, § 1º e § 2º, da Lei nº 14.133/2021, da decisão do STF na ADC nº 16 e da tese firmada no Tema nº 246 de Repercussão Geral (RE 760.931), a responsabilidade do Estado:
-
-* **A)** É automática e solidária em decorrência do mero inadimplemento das obrigações trabalhistas pela prestadora terceirizada.
-* **B)** É inexistente em qualquer hipótese, sendo inconstitucional qualquer responsabilização pecuniária da Fazenda Pública por encargos de terceiros.
-* **C)** É subsidiária, não decorrendo do mero inadimplemento das obrigações pela empregadora, dependendo de comprovação cabal de conduta culposa da Administração Pública na fiscalização do cumprimento das obrigações contratuais e trabalhistas (culpa in vigilando).
-* **D)** Transmuda-se em responsabilidade civil objetiva pura pelo risco integral das contratações públicas.
-* **E)** Impõe que o Tribunal de Contas substitua o Poder Judiciário trabalhista para condenar o gestor em execução fiscal sumária.
-
+* **A)** A fiscalização do contrato pode ser exercida por particular terceirizado contratado para substituir a comissão oficial.
+* **B)** O fiscal técnico acompanha a prestação e o fiscal administrativo monitora os encargos trabalhistas.
+* **C)** O fiscal do contrato responde objetiva e solidariamente pelas dívidas tributárias da sociedade empresária prestadora.
+* **D)** As anotações de irregularidades feitas pelo fiscal do contrato dispensam notificação ao preposto da empresa contratada.
+* **E)** O recebimento provisório do serviço cabe privativamente ao gestor do contrato, vedada a atuação do fiscal setorial.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O STF na ADC 16 declarou a constitucionalidade do art. 71, § 1º, da Lei 8.666/93 (reproduzido no art. 121 da Lei 14.133/2021), afastando terminantemente a responsabilidade automática ou objetiva da Administração Pública pelo mero inadimplemento.
-> - **B)** Incorreta. A Fazenda Pública não goza de imunidade absoluta; se comprovada sua omissão culposa e sistemática na fiscalização do contrato, responderá de forma subsidiária.
-> - **C)** Correta. Conforme fixado pelo STF no **Tema 246 de Repercussão Geral** (RE 760.931) e positivado no art. 121, § 2º, da Lei nº 14.133/2021, a responsabilidade subsidiária da Administração Pública pelo inadimplemento dos encargos trabalhistas de empresas terceirizadas **não decorre do mero inadimplemento**, dependendo da **comprovação inequívoca de conduta culposa da Administração na fiscalização** das obrigações contratuais e trabalhistas assumidas pela prestadora de serviços (culpa in vigilando comprovada).
-> - **D)** Incorreta. A responsabilidade é subjetiva com ônus probatório cabal, e não objetiva pelo risco integral.
-> - **E)** Incorreta. O litígio trabalhista é dirimido pelo Poder Judiciário (Justiça do Trabalho), e não pelo Tribunal de Contas.
+> - **A)** **Incorreto**. A fiscalização é função pública exclusiva; terceiros podem ser contratados unicamente para assistir e subsidiar o fiscal oficial (art. 117, § 4º).
+> - **B)** **Correto**. O art. 117 da Lei nº 14.133/2021 institucionalizou as atribuições segregadas: o fiscal técnico acompanha a execução material do objeto (qualidade e quantidade dos serviços), enquanto o fiscal administrativo acompanha os aspectos previdenciários, fiscais e trabalhistas das obrigações da empresa contratada.
+> - **C)** **Incorreto**. O servidor fiscal não responde pelas obrigações tributárias da empresa; sua responsabilidade é funcional e subjetiva por desídia comprovada.
+> - **D)** **Incorreto**. O fiscal deve registrar todas as ocorrências e notificar formalmente o preposto da contratada para correção (art. 117, § 1º).
+> - **E)** **Incorreto**. O recebimento provisório é atribuição típica do fiscal do contrato (art. 140, I, "a").
 >
-> **Gabarito: C**
-
----
-
-### Teste 103
-**(FCC - Procurador do Estado / Adaptada)**
-Um empregado terceirizado que prestava serviços de vigilância armada no prédio do Tribunal de Contas ajuizou reclamação trabalhista perante a Justiça do Trabalho em face da empresa terceirizada e do Estado de Goiás, postulando o pagamento de horas extras e verbas rescisórias inadimplidas pela empregadora. O magistrado trabalhista condenou o Estado de forma subsidiária automática, fundamentando a decisão apenas no fato objetivo de a Administração ter se beneficiado da força de trabalho do reclamante.
-
-Diante do art. 121, § 1º, da Lei Federal nº 14.133/2021 e da tese de repercussão geral fixada pelo Supremo Tribunal Federal no **Tema 246**:
-
-* **A)** A condenação foi escorreita, visto que a responsabilidade trabalhista do Poder Público tomador de serviços terceirizados é objetiva e prescinde de qualquer prova de culpa.
-* **B)** A condenação subsidiária do ente público é indevida sem a comprovação cabal de sua culpa *in vigilando* na fiscalização do cumprimento das obrigações contratuais e trabalhistas da empresa prestadora de serviços.
-* **C)** O Estado responde de forma solidária primária, equiparando-se o terceirizado a servidor público concursado.
-* **D)** A Lei nº 14.133/2021 extinguiu qualquer possibilidade de condenação da Fazenda Pública na Justiça do Trabalho.
-* **E)** O ônus de provar a regularidade fiscalização das guias de FGTS transfere-se automaticamente para o Ministério Público do Trabalho.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** O STF fixou expressamente no RE 760.931 (Tema 246) que o inadimplemento trabalhista do contratado não transfere responsabilidade objetiva ao Estado.
-> - **B) CORRETA:** Pelo art. 121, § 1º, da Lei 14.133/2021 c/c o Tema 246 da Repercussão Geral do STF, a responsabilidade subsidiária da Administração Pública não opera por transferência automática. É indispensável a comprovação inequívoca nos autos de conduta culposa da Administração no dever de fiscalizar (culpa *in vigilando*), ônus probatório que recai sobre o trabalhador postulante.
-> - **C) Incorreta:** Não há solidariedade em matéria de verbas trabalhistas de terceirizados nem equiparação funcional com servidores efetivos.
-> - **D) Incorreta:** A responsabilidade subsidiária subsiste quando houver prova da omissão culposa da fiscalização pública.
-> - **E) Incorreta:** O MPT não assume o encargo probatório da fiscalização do FGTS em reclamatórias trabalhistas individuais.
-> 
 > **Gabarito: B**
+### Teste 103
+**(FGV – TRT – Analista Judiciário - 2025)**  
+Empregado terceirizado que prestava serviços de vigilância desarmada a órgão público ajuizou reclamação trabalhista postulando a condenação subsidiária da Administração Pública pelo inadimplemento de verbas rescisórias da empresa terceirizada. À luz do art. 121, § 1º da Lei nº 14.133/2021 e da tese vinculante fixada pelo STF no Tema nº 246 (ADC 16 e RE 760.931):
+
+* **A)** O inadimplemento da empresa terceirizada transfere automaticamente a responsabilidade pelo pagamento ao erário.
+* **B)** A responsabilidade subsidiária do Poder Público exige comprovação cabal de sua conduta culposa na fiscalização.
+* **C)** O Estado é solidariamente responsável com o empregador por todas as verbas salariais decorrentes da terceirização.
+* **D)** A fiscalização efetiva dos encargos trabalhistas pelo órgão público atrai a sua responsabilidade civil patrimonial.
+* **E)** A Justiça do Trabalho carece de competência jurisdicional para examinar a culpa in vigilando do ente federado contratante.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. O art. 121, § 1º da Lei nº 14.133/2021 e o art. 71, § 1º da Lei 8.666/93 estabelecem que a inadimplência do contratado não transfere automaticamente à Administração Pública a responsabilidade pelo pagamento dos encargos trabalhistas.
+> - **B)** **Correto**. Tese Vinculante do Tema nº 246 do STF: "O inadimplemento dos encargos trabalhistas dos empregados do contratado não transfere automaticamente ao Poder Público contratante a responsabilidade pelo seu pagamento, seja em caráter solidário ou subsidiário, nos termos do art. 71, § 1º, da Lei nº 8.666/93". O STF assentou que a condenação subsidiária do ente público somente é legítima quando houver prova inequívoca e cabal de sua conduta culposa e desidiosa (culpa in vigilando) na fiscalização do contrato.
+> - **C)** **Incorreto**. Não há responsabilidade solidária em hipótese alguma na terceirização lícita regular.
+> - **D)** **Incorreto**. A fiscalização diligente e tempestiva exime o ente público de qualquer condenação subsidiária.
+> - **E)** **Incorreto**. A Justiça do Trabalho é competente para processar e julgar a responsabilidade subsidiária da Administração (Súmula 331 do TST).
+>
+> **Gabarito: B**
 ## 5. Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro
 
 ### 5.1 Alterações Unilaterais e Consensuais: Limites de 25% e 50%
@@ -330,86 +300,68 @@ A garantia da equação econômico-financeira original é direito fundamental do
 ---
 
 ### Teste 104
-**(FGV - Analista de Controle Externo / TCE-GO)**
-Durante a execução de um contrato administrativo de pavimentação asfáltica, o Poder Legislativo editou nova lei instituindo tributo de competência estadual que incidiu direta e substancialmente sobre os insumos asfálticos utilizados na obra, onerando de forma imprevisível e extraordinária os custos de execução suportados pela contratada.
+**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+Durante a execução de um contrato administrativo de pavimentação asfáltica, a Secretaria de Obras constatou a necessidade de realizar acréscimos quantitativos na extensão da via e ajustes qualitativos no traçado do projeto básico. Nos termos do art. 125 da Lei Federal nº 14.133/2021:
 
-Diante do regramento sobre a manutenção do equilíbrio econômico-financeiro dos contratos administrativos na Lei nº 14.133/2021, a contratada faz jus a:
-
-* **A)** Rescisão culposa imediata com recebimento de lucros cessantes futuros integrais até o ano 2030.
-* **B)** Revisão (recomposição) dos preços contratados, caracterizando a edição da lei tributária nova hipótese típica de fato do príncipe (álea extraordinária extracontratual que onera a execução).
-* **C)** Simples reajuste ordinário por índice de inflação geral ao término de doze meses, arcando com o prejuízo tributário intermediário.
-* **D)** Sanção administrativa pecuniária por pleitear alteração de valores pactuados no edital de licitação.
-* **E)** Repactuação de mão de obra exclusiva para ressarcimento de insumos de engenharia.
-
+* **A)** O contratado fica obrigado a aceitar acréscimos ou supressões de até 25% do valor inicial atualizado do contrato.
+* **B)** O contratado pode recusar acréscimos unilaterais caso o valor da parcela adicionada ultrapasse dez por cento da obra.
+* **C)** Os limites de 25% para acréscimo e de 25% para supressão podem ser compensados contabilmente entre si na planilha.
+* **D)** Em reformas de edifícios públicos, o limite máximo de acréscimo obrigatório que o contratado deve aceitar é de 25%.
+* **E)** As alterações contratuais qualitativas dispensam termo aditivo formal quando houver prévio empenho da despesa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O desequilíbrio extraordinário enseja o reequilíbrio econômico-financeiro do contrato para dar continuidade à obra, não autorizando rescisão abusiva com lucros cessantes hipotéticos.
-> - **B)** Correta. Nos termos do art. 124, II, 'd', e art. 134 da Lei nº 14.133/2021, a criação, alteração ou extinção de quaisquer tributos ou encargos legais supervenientes com comprovada repercussão nos preços contratados configura típica **álea extraordinária (fato do príncipe)**, impondo a **revisão (recomposição)** contratual para restabelecer o equilíbrio econômico-financeiro originário.
-> - **C)** Incorreta. Reajuste em sentido estrito visa a compensar a perda inflacionária ordinária da moeda (álea ordinária); a alteração tributária geral superveniente exige revisão imediata.
-> - **D)** Incorreta. O direito à manutenção do equilíbrio econômico-financeiro possui garantia constitucional expressa (art. 37, XXI, CF/88).
-> - **E)** Incorreta. Repactuação destina-se a serviços contínuos com dedicação exclusiva de mão de obra fundada em convenção coletiva de trabalho (art. 135 da NLLC).
+> - **A)** **Correto**. O art. 125 da Lei nº 14.133/2021 preceitua expressamente: "Nas alterações unilaterais a que se refere o inciso I do caput do art. 124 desta Lei, o contratado será obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 25% (vinte e cinco por cento) do valor inicial atualizado do contrato que se fizerem nas obras, nos serviços ou nas compras".
+> - **B)** **Incorreto**. A aceitação de acréscimos de até 25% é dever legal vinculante e obrigatório da empresa contratada.
+> - **C)** **Incorreto**. O art. 125 veda expressamente a compensação entre acréscimos e supressões; os limites incidem isoladamente sobre cada alteração.
+> - **D)** **Incorreto**. Para reforma de edifício ou de equipamento, o limite de acréscimo legal é de até 50% (cinquenta por cento), conforme o art. 125 in fine.
+> - **E)** **Incorreto**. Toda e qualquer alteração contratual deve ser obrigatoriamente formalizada por termo aditivo (art. 132).
 >
-> **Gabarito: B**
-
----
-
+> **Gabarito: A**
 ### Teste 105
-**(FCC - Analista de Controle Externo / Adaptada TCE-GO)**
-O Tribunal de Contas do Estado de Goiás formalizou contrato administrativo para a reforma predial integral das instalações do edifício de sua sede em Goiânia, pelo valor original de R$ 4.000.000,00. Após o início dos serviços de demolição, os engenheiros detectaram falhas geológicas estruturais nas fundações do subsolo não previstas no projeto original, que exigem obras emergenciais de estaqueamento e contenção, orçadas em R$ 1.600.000,00 adicionais.
+**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+O Tribunal de Contas formalizou contrato administrativo de serviços de tecnologia com prazo de três anos. A respeito dos institutos jurídicos da recomposição (revisão), do reajuste em sentido estrito e da repactuação contratual na Lei nº 14.133/2021:
 
-Em face dos limites de alteração unilateral estabelecidos no art. 125 da Lei Federal nº 14.133/2021:
-
-* **A)** O acréscimo pretendido é ilegal, visto que a NLLC fixou o teto inflexível de 25% para qualquer alteração contratual no setor público.
-* **B)** O aditivo de valor é juridicamente admitido, tendo em vista que, no caso de reforma de edifício ou de equipamento, o limite legal para os acréscimos unilaterais é de até 50% do valor inicial atualizado do contrato.
-* **C)** As reformas prediais admitem acréscimos unilaterais ilimitados, desde que autorizados pelo Conselho de Engenharia (CREA).
-* **D)** A Administração é obrigada a anular o contrato e instaurar concurso público para contratação de novos operários.
-* **E)** O limite de 50% aplica-se apenas caso a empreiteira comprove que o aço foi importado de país membro do Mercosul.
-
+* **A)** O reajuste em sentido estrito aplica-se a serviços com dedicação exclusiva de mão de obra para repassar convenção coletiva.
+* **B)** A repactuação decorre da variação de custos decorrente de acordo, convenção ou dissídio coletivo de trabalho.
+* **C)** A revisão (reequilíbrio) subordina-se à observância do interregno temporal mínimo de um ano contado da proposta.
+* **D)** A criação de novo tributo incidente sobre o contrato que majore os encargos não autoriza a revisão do ajuste público.
+* **E)** A repactuação de serviços com mão de obra exclusiva dispensa a demonstração analítica de aumento de custos em planilha.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** Desconsidera a regra específica do art. 125 que autoriza teto de até 50% exclusivamente para acréscimos em reformas de edifícios ou equipamentos.
-> - **B) CORRETA:** Conforme o art. 125 da Lei nº 14.133/2021, o contratado fica obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 25% do valor inicial do contrato, mas, no caso de reforma de edifício ou de equipamento, o limite para os acréscimos será de até 50% (cinquenta por cento). Como o contrato original era de R$ 4 milhões, o teto de 50% equivale a R$ 2 milhões adicionais; logo, o aditivo de R$ 1,6 milhão (40%) é perfeitamente lícito.
-> - **C) Incorreta:** Não existe permissão legal para alterações unilaterais ilimitadas, e o CREA não possui competência para derrogar o teto legal de 50%.
-> - **D) Incorreta:** Havendo previsão expressa na Lei para aditamentos qualitativos e quantitativos, a continuidade do contrato é a via regular, descabendo anulação.
-> - **E) Incorreta:** Condição exótica sem qualquer respaldo legal no regramento licitatório brasileiro.
-> 
+> - **A)** **Incorreto**. Para serviços com mão de obra exclusiva de mão de obra aplica-se a repactuação (art. 135), e não o reajuste por índice geral.
+> - **B)** **Correto**. Conforme estabelece o art. 135 da Lei nº 14.133/2021, a repactuação é a espécie de reajustamento voltada para serviços contínuos prestados com regime de dedicação exclusiva de mão de obra, devendo ser demonstrada a variação efetiva dos custos de mão de obra por meio de planilha de custos, motivada pela celebração de acordo, convenção coletiva de trabalho ou dissídio.
+> - **C)** **Incorreto**. A revisão (reequilíbrio por álea extraordinária - art. 124, II, "d") pode ser concedida a qualquer tempo, sem exigência de vacância anual.
+> - **D)** **Incorreto**. A criação ou majoração de tributos e encargos legais configura fato do príncipe (art. 134) e impõe obrigatória revisão contratual.
+> - **E)** **Incorreto**. A demonstração analítica da variação de custos por planilha analítica é pressuposto legal indeclinável.
+>
 > **Gabarito: B**
-
----
-
 ### Teste 106
-**(FCC - Auditor de Controle Externo / Adaptada)**
-Durante a execução de um contrato administrativo de serviços de limpeza e conservação predial com dedicação exclusiva de mão de obra celebrado por determinado órgão estadual, ocorreu a homologação de nova Convenção Coletiva de Trabalho da categoria dos trabalhadores da limpeza, com reajuste salarial de 8% nos pisos da categoria. Paralelamente, em outro contrato de fornecimento de combustíveis para viaturas oficiais, a cotação internacional do barril de petróleo subiu extraordinariamente em virtude de eclosão de conflito armado imprevisível no exterior.
+**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+Durante a execução de um contrato administrativo de serviços de limpeza urbana, a Fazenda Pública municipal atrasou injustificadamente o pagamento das faturas devidas à empresa contratada. De acordo com o art. 137, § 2º, IV, da Lei Federal nº 14.133/2021, o contratado tem o direito de suspender o cumprimento de suas obrigações caso o atraso nos pagamentos ultrapasse:
 
-Os institutos jurídicos cabíveis para a recomposição financeira dos contratos de limpeza e de combustíveis são, respectivamente:
-
-* **A)** Reajuste em sentido estrito e repactuação
-* **B)** Repactuação e revisão (reequilíbrio econômico-financeiro)
-* **C)** Revisão e reajuste por índice inflacionário
-* **D)** Supressão unilateral e rescisão consensual
-* **E)** Encampação e caducidade contratual
-
+* **A)** dois meses da nota fiscal, salvo calamidade pública ou grave perturbação da ordem.
+* **B)** trinta dias contados da liquidação da despesa, devendo rescindir unilateralmente o contrato sem aviso formal.
+* **C)** noventa dias consecutivos, independentemente de qualquer justificativa estatal quanto ao atraso financeiro.
+* **D)** seis meses corridos, não podendo suspender a prestação se a avença envolver serviços públicos essenciais.
+* **E)** um ano ininterrupto, cabendo-lhe pleitear unicamente correção monetária pelo índice oficial de inflação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** O reajuste em sentido estrito adota índices oficiais de preços prefixados para cobrir a inflação ordinária, não se aplicando à majoração decorrente de CCT nem ao caso de guerra imprevisível.
-> - **B) CORRETA:** Nos contratos com dedicação exclusiva de mão de obra (como o de limpeza), a variação de custos decorrente de Convenção Coletiva de Trabalho (CCT) é recomposta por meio do instituto da **Repactuação** (art. 135 da Lei nº 14.133/2021). Já o aumento extraordinário e imprevisível de combustíveis por guerra externa caracteriza álea extraordinária, ensejando a **Revisão** (Reequilíbrio Econômico-Financeiro em sentido estrito - art. 124, II, "d").
-> - **C) Incorreta:** Inverte a ordem dos institutos aplicáveis aos dois contratos apresentados.
-> - **D) Incorreta:** Supressão unilateral e rescisão consensual são atos de extinção ou diminuição de escopo contratual, e não modalidades de recomposição pecuniária.
-> - **E) Incorreta:** Encampação e caducidade são modalidades de extinção unilateral de concessões de serviços públicos (Lei nº 8.987/95).
-> 
-> **Gabarito: B**
-
----
-
+> - **A)** **Correto**. O art. 137, § 2º, IV, da Lei nº 14.133/2021 inovou em favor do contratado ao prever que ele tem direito à extinção ou à suspensão da execução contratual por "atraso superior a 2 (dois) meses, contado da emissão da nota fiscal, dos pagamentos ou de parcelas de pagamentos devidos pela Administração por despesas de obras, serviços ou fornecimentos", salvo em caso de calamidade pública, grave perturbação da ordem interna ou guerra. Na lei revogada (Lei 8.666/93, art. 78, XV), o prazo era de 90 dias.
+> - **B)** **Incorreto**. O prazo na Nova Lei de Licitações é de 2 (dois) meses, e a extinção exige notificação e contraditório.
+> - **C)** **Incorreto**. O prazo de 90 dias era da legislação antiga (Lei 8.666/93), reduzido pela NLLC para 2 meses.
+> - **D)** **Incorreto**. O prazo fixado no texto vigente é de 2 meses.
+> - **E)** **Incorreto**. Prazo totalmente descabido e sem qualquer previsão no direito positivo.
+>
+> **Gabarito: A**
 ## 6. Infrações, Sistema Sancionador e Processo de Reabilitação
 
 O cometimento de infrações administrativas elencadas no art. 155 da Lei nº 14.133/2021 (dar causa à inexecução parcial ou total, fraudar a licitação, praticar ato ilícito com vistas a frustrar os objetivos do certame, comportar-se de modo inidôneo) sujeita o licitante ou contratado a quatro sanções administrativas (art. 156):
@@ -435,96 +387,65 @@ A reabilitação perante a Administração exige cumulativamente:
 ---
 
 ### Teste 107
-**(FCC - Auditor de Controle Externo)**
-A respeito do sistema sancionatório previsto no art. 156 da Lei nº 14.133/2021, assinale a afirmativa que apresenta corretamente a disciplina legal da sanção de impedimento de licitar e contratar e da sanção de declaração de inidoneidade.
+**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+A respeito do sistema sancionatório previsto no art. 156 da Lei nº 14.133/2021, a Administração Pública poderá aplicar aos licitantes ou contratados inadimplentes diversas sanções administrativas cominatórias. Constituem sanções expressamente estabelecidas no referido dispositivo:
 
-* **A)** A sanção de impedimento de licitar e contratar impede o sancionado de licitar ou contratar no âmbito da Administração Pública direta e indireta do ente federativo que tiver aplicado a sanção, pelo prazo máximo de três anos.
-* **B)** A declaração de inidoneidade impede o responsável de licitar ou contratar exclusivamente com a unidade administrativa sancionadora, não atingindo outros órgãos do mesmo Município.
-* **C)** A declaração de inidoneidade para licitar ou contratar pode ser aplicada por qualquer agente de contratação de forma monocrática sem parecer prévio.
-* **D)** A sanção de multa pode ser aplicada cumulativamente com a penalidade de declaração de inidoneidade, respeitado o direito à ampla defesa do contratado.
-* **E)** A declaração de inidoneidade tem prazo máximo e improrrogável de sessenta dias de duração.
-
+* **A)** advertência, multa, impedimento de licitar e declaração de inidoneidade para licitar/contratar.
+* **B)** repreensão verbal, suspensão temporária de três meses, retenção integral da garantia e perdimento de bens.
+* **C)** multa diária cominatória, perda de registro societário, cassação de inscrição na Junta e intervenção judicial.
+* **D)** advertência solene, cancelamento de alvará comercial e apreensão compulsória do maquinário da empresa.
+* **E)** declaração de inidoneidade, suspensão de direitos políticos do administrador e indisponibilidade de ativos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O art. 156, § 4º, da Lei nº 14.133/2021 prevê que a sanção de **impedimento de licitar e contratar** impede o sancionado de participar de licitações ou celebrar contratos no âmbito da **Administração Pública direta e indireta do ente federativo sancionador** (União, Estado, DF ou Município), pelo prazo máximo de **3 (três) anos**.
-> - **B)** Incorreta. A **declaração de inidoneidade** produz efeitos nacionais amplos: impede de licitar ou contratar no âmbito da Administração Pública direta e indireta de **todos os entes federativos** do Brasil (art. 156, § 5º), pelo prazo de 3 a 6 anos.
-> - **C)** Incorreta. A declaração de inidoneidade é privativa do Ministro de Estado, Secretário Estadual ou Secretário Municipal (art. 156, § 6º).
-> - **D)** Correta em parte mas note que a alternativa D diz respeito à cumulação com multa; contudo a alternativa A sintetiza com precisão a abrangência subjetiva e o limite temporal da sanção de impedimento de licitar e contratar positivada no § 4º do art. 156.
-> - **E)** Incorreta. O prazo da declaração de inidoneidade é de no mínimo 3 anos e no máximo 6 anos (art. 156, § 5º).
+> - **A)** **Correto**. O art. 156 da Lei nº 14.133/2021 estabelece taxativamente as 4 (quatro) sanções administrativas cabíveis: "I - advertência; II - multa; III - impedimento de licitar e contratar; IV - declaração de inidoneidade para licitar ou contratar". A antiga "suspensão temporária de participação em licitação" da Lei 8.666 foi substituída pelo impedimento de licitar e contratar (art. 156, III).
+> - **B)** **Incorreto**. Repreensão verbal e perdimento patrimonial de bens não são sanções administrativas da NLLC.
+> - **C)** **Incorreto**. A Administração Pública não tem poder para cassar registro mercantil em processo de licitação.
+> - **D)** **Incorreto**. Apreensão de maquinário e cassação de alvará não integram o rol do art. 156 da NLLC.
+> - **E)** **Incorreto**. Suspensão de direitos políticos decorre de ação de improbidade julgada pelo Judiciário (LIA), não de sanção do art. 156.
 >
 > **Gabarito: A**
-
----
-
 ### Teste 108
-**(FCC - Técnico de Controle Externo / TCE-GO)**
-Durante a execução de um contrato administrativo de fornecimento de sistemas de segurança eletrônica celebrado por uma Secretaria de Estado, apurou-se em processo sancionador que a empresa contratada cometeu fraude dolosa ao apresentar certidões negativas tributárias ideologicamente falsas e tentar subornar o fiscal do contrato. O Secretário de Estado aplicou à infratora a penalidade de **Declaração de Inidoneidade para Licitar ou Contratar**.
+**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+Durante a execução de um contrato administrativo de fornecimento de ambulâncias para o Estado de Goiás, restou comprovado que a empresa contratada cometeu fraude dolosa ao entregar veículos usados com hodômetros adulterados. Diante da gravidade da infração, a autoridade instaurou processo de declaração de inidoneidade. A respeito dessa sanção (art. 156, § 6º da Lei nº 14.133/2021):
 
-À luz do regime sancionatório da Lei Federal nº 14.133/2021, a sanção aplicada:
-
-* **A)** Produz efeitos restritos ao órgão contratante, permitindo que a empresa continue licitando com outros órgãos do Estado de Goiás e com Municípios.
-* **B)** Impede o responsável de licitar ou contratar no âmbito da Administração Pública direta e indireta de todos os entes federativos (União, Estados, DF e Municípios), pelo prazo de 3 a 6 anos.
-* **C)** Tem vigência perpétua e irreversível, sendo vedada qualquer reabilitação jurídica do sancionado.
-* **D)** Pode ser aplicada monocraticamente pelo fiscal administrativo do contrato em despacho ordinário.
-* **E)** Extingue-se automaticamente caso a empresa altere sua denominação social e seu quadro de sócios.
-
+* **A)** A inidoneidade é competência exclusiva do Secretário de Estado e tem eficácia em toda a Federação.
+* **B)** A sanção de inidoneidade pode ser aplicada por qualquer fiscal de contrato, produzindo efeitos no órgão contratante.
+* **C)** A declaração de inidoneidade tem prazo fixo de seis meses, após o qual a reabilitação da empresa é automática.
+* **D)** A inidoneidade impede a participação em licitações apenas perante o Município onde a fraude material foi consumada.
+* **E)** O sancionado com inidoneidade pode participar livremente de certames licitatórios promovidos pela Administração Federal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** A sanção que se restringe à esfera do próprio ente federativo é o "Impedimento de licitar e contratar" (art. 156, III). A declaração de inidoneidade tem efeito nacional amplo.
-> - **B) CORRETA:** De acordo com o art. 156, § 5º, da Lei nº 14.133/2021, a sanção de declaração de inidoneidade para licitar ou contratar impedirá o responsável de licitar ou contratar no âmbito da Administração Pública direta e indireta de todos os entes federativos (União, Estados, Distrito Federal e Municípios), pelo prazo mínimo de 3 (três) anos e máximo de 6 (seis) anos.
-> - **C) Incorreta:** A sanção não é perpétua e admite processo de reabilitação após cumprido o prazo mínimo de 3 anos, reparado o dano e atendidas exigências de integridade (art. 163).
-> - **D) Incorreta:** A declaração de inidoneidade é privativa de Ministro de Estado, Secretário de Estado ou Secretário Municipal, não podendo ser aplicada por fiscal de contrato.
-> - **E) Incorreta:** A fraude de sucessão societária atrai o instituto da desconsideração da personalidade jurídica (art. 160), estendendo as sanções aos novos sócios.
-> 
-> **Gabarito: B**
-
----
-
+> - **A)** **Correto**. O art. 156, § 6º, da Lei nº 14.133/2021 determina que a sanção de declaração de inidoneidade para licitar ou contratar é de competência EXCLUSIVA de Ministro de Estado, de Secretário Estadual ou de Secretário Municipal. Ademais, o § 5º estabelece que a inidoneidade produz efeitos no âmbito de TODA a Administração Pública direta e indireta de TODOS os entes federativos (União, Estados, DF e Municípios), pelo prazo mínimo de 3 (três) anos e máximo de 6 (seis) anos.
+> - **B)** **Incorreto**. A competência é privativa e indelegável da autoridade de cúpula ministerial ou de secretaria.
+> - **C)** **Incorreto**. O prazo legal é de 3 a 6 anos, e a reabilitação exige o cumprimento dos requisitos do art. 163 (ressarcimento integral e cumprimento das condições).
+> - **D)** **Incorreto**. A inidoneidade na NLLC tem alcance nacional e abrange todos os órgãos federativos.
+> - **E)** **Incorreto**. O impedimento gerado pela declaração de inidoneidade alcança a esfera federal e todas as demais.
+>
+> **Gabarito: A**
 ### Teste 109
-**(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
-O art. 163 da Lei nº 14.133/2021 estabelece os requisitos cumulativos indispensáveis para o processamento do pedido de reabilitação do licitante ou contratado sancionado com impedimento ou declaração de inidoneidade.
+**(FGV – Analista Jurídico – PGE-GO / Simulado)**  
+O art. 160 da Lei nº 14.133/2021 estabelece os requisitos e o procedimento para a aplicação da desconsideração da personalidade jurídica no âmbito das licitações e dos contratos administrativos. A respeito desse instituto, é correto afirmar que:
 
-Conforme a legislação em vigor, a reabilitação exige:
-
-* **A)** O pagamento de taxa administrativa especial no valor equivalente a 50% do contrato rescindido, independentemente da reparação do dano ao erário.
-* **B)** A reparação integral do dano causado à Administração Pública, o pagamento da multa aplicada, o decurso do prazo mínimo de um ano da aplicação da penalidade (no caso de inidoneidade) e o cumprimento das condições de reabilitação definidas no ato punitivo.
-* **C)** A mera desfiliação dos sócios punidos da junta comercial, transferindo o CNPJ para parentes colaterais.
-* **D)** A simples declaração unilateral da empresa afirmando ter modificado seu código de conduta interno.
-* **E)** O perdão tácito decorrente do decurso de seis meses da assinatura do contrato sancionado.
-
+* **A)** A desconsideração pode ser aplicada para estender as sanções de inidoneidade aos sócios e administradores com poderes.
+* **B)** A aplicação da desconsideração da personalidade jurídica dispensa a observância do contraditório e da ampla defesa.
+* **C)** A medida cabe apenas quando houver decisão judicial transitada em julgado proferida por vara de falências e concordatas.
+* **D)** A extensão dos efeitos punitivos atinge exclusivamente os acionistas minoritários sem poder de gestão societária.
+* **E)** A desconsideração impede a cobrança das multas administrativas aplicadas pelo órgão governamental lesado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Não se trata de taxa administrativa de arrecadação, mas de reparação integral do prejuízo apurado.
-> - **B)** Correta. O art. 163 da Lei nº 14.133/2021 prescreve expressamente que a reabilitação perante a própria autoridade que aplicou a penalidade será concedida sempre que o contratado preencher cumulativamente os seguintes requisitos: I - reparação integral do dano causado à Administração Pública; II - pagamento da multa aplicada; III - transcurso do prazo mínimo de **1 (um) ano da aplicação da penalidade**, no caso de declaração de inidoneidade; IV - cumprimento das condições de reabilitação definidas no ato punitivo; V - análise jurídica prévia favorável com comprovação de implantação de programa de integridade/compliance se a infração for relacionada a atos de corrupção.
-> - **C)** Incorreta. A mera fraude societária com laranjas ou parentes constitui desvio punível pela desconsideração da personalidade jurídica (art. 160).
-> - **D)** Incorreta. Exige-se comprovação fática da efetividade do programa e quitação do débito.
-> - **E)** Incorreta. Não existe perdão tácito ou reabilitação automática sem o adimplemento integral dos requisitos legais.
+> - **A)** **Correto**. O art. 160 da Lei nº 14.133/2021 preconiza expressamente: "A personalidade jurídica poderá ser desconsiderada sempre que utilizada com abuso do direito para facilitar, encobrir ou dissimular a prática dos atos ilícitos previstos nesta Lei ou para provocar confusão patrimonial, e, nesse caso, todos os efeitos das sanções aplicadas à pessoa jurídica serão estendidos aos seus administradores e de sócios com poderes de administração". Visa coibir a criação fraudulenta de novas empresas para burlar sanções de inidoneidade (figura da empresa de fachada).
+> - **B)** **Incorreto**. O contraditório prévio e a ampla defesa com prazo de 15 dias úteis são mandatórios (art. 160, parágrafo único).
+> - **C)** **Incorreto**. A desconsideração da personalidade jurídica para fins de sanções licitatórias pode ser aplicada na via administrativa pelo ente público lesado.
+> - **D)** **Incorreto**. A extensão recai especificamente sobre administradores e sócios com poderes de administração.
+> - **E)** **Incorreto**. A desconsideração viabiliza justamente a cobrança patrimonial perante o patrimônio pessoal dos sócios administradores.
 >
-> **Gabarito: B**
-
----
-
-## 🌐 Fontes Recomendadas na Internet
-
-- [Lei Federal nº 14.133/2021 - Artigos 89 a 123 (Formalização, Garantias, Vigência e Execução Contratual)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art89)  
-  Normas legais sobre cláusulas exorbitantes, seguro-garantia com cláusula de retomada (art. 102), vigência decenal (arts. 106 e 107) e fiscalização (art. 117).
-- [Lei Federal nº 14.133/2021 - Artigos 124 a 139 (Alterações Contratuais, Equilíbrio e Extinção)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art124)  
-  Regramento dos limites unilaterais de 25% e 50% (art. 125), reajuste, repactuação (art. 135) e suspensão por atraso superior a 2 meses (art. 137).
-- [Lei Federal nº 14.133/2021 - Artigos 155 a 163 (Infrações, Sanções Administrativas e Reabilitação)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art155)  
-  Disciplina da advertência, multa, impedimento de licitar (até 3 anos), declaração de inidoneidade (3 a 6 anos) e requisitos de reabilitação.
-- [STF - Tema 246 da Repercussão Geral (Responsabilidade Subsidiária Trabalhista da Administração)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=246)  
-  Jurisprudência vinculante do Supremo Tribunal Federal (RE 760.931 e ADC 16) que veda a responsabilização automática do Poder Público sem prova de culpa *in vigilando*.
-- [Compras.gov.br - Instruções Normativas SEGES sobre Gestão e Fiscalização de Contratos](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas)  
-  Diretrizes normativas federais sobre atuação de gestores e fiscais técnicos, administrativos e setoriais e procedimentos de repactuação.
-* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 89 a 163 - Contratos Administrativos, Alterações, Equilíbrio e Sanções).
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 8 - Contratos da Administração: Cláusulas Exorbitantes, Mutabilidade, Equilíbrio Econômico-Financeiro e Extinção).
-* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 4 - Contratos Administrativos: Formalização, Garantias, Execução, Inexecução e Penalidades).
+> **Gabarito: A**

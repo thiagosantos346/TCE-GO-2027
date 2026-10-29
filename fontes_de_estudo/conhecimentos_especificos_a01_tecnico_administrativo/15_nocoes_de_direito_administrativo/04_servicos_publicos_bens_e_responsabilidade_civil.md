@@ -139,111 +139,89 @@ O Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da reper
 ---
 
 ### Teste 034
-**(FCC - Analista Judiciário - Área Judiciária)**
-Motorista de ambulância pertencente à Secretaria de Saúde de determinado Estado da Federação, ao conduzir o veículo oficial em velocidade excessiva e com a sirene desligada durante o retorno de uma oficina mecânica, colidiu com veículo particular parado regularmente no semáforo, causando graves danos materiais ao proprietário.
+**(FCC – Analista Judiciário – TRT / Simulado)**  
+Motorista de ambulância pertencente à Secretaria de Saúde de determinado Estado da Federação, ao conduzir o veículo oficial em velocidade compatível durante o transporte regular de paciente, colidiu contra o automóvel de um particular que avançou o sinal vermelho de um cruzamento. Diante dos danos materiais causados ao particular:
 
-Considerando o regramento constitucional sobre a responsabilidade civil do Estado (art. 37, § 6º, da CF/88) e a jurisprudência dominante, o proprietário do veículo lesado:
-
-* **A)** Deve ajuizar a ação indenizatória diretamente e com exclusividade contra o motorista da ambulância, demonstrando sua culpa grave.
-* **B)** Tem direito a ser indenizado pelo Estado com base na responsabilidade civil objetiva, fundada na Teoria do Risco Administrativo, prescindindo de comprovação de dolo ou culpa do agente público condutor.
-* **C)** Só poderá obter indenização do Estado se comprovar dolo ou desvio de poder por parte da Secretaria de Saúde.
-* **D)** Terá seu pleito sumariamente indeferido caso o Estado demonstre que o motorista agiu em estrito desvio de suas funções institucionais no momento do abalroamento.
-* **E)** Submete-se à teoria da responsabilidade civil subjetiva comum do Código Civil, incumbindo-lhe o ônus de provar a culpa do motorista e a falha de manutenção da via.
-
+* **A)** O Estado responde de forma objetiva fundada no risco integral, sendo irrelevante a conduta culposa do terceiro.
+* **B)** A culpa exclusiva da vítima ou de terceiro elide o nexo causal, afastando o dever de indenizar do Estado.
+* **C)** O particular prejudicado deve ajuizar a ação indenizatória diretamente em face do servidor público condutor.
+* **D)** A responsabilidade civil do ente público condiciona-se à prévia instauração de sindicância de trânsito.
+* **E)** O Estado responde subjetivamente por danos no trânsito, cabendo ao particular lesado provar dolo do agente.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A teor do Tema 940 de Repercussão Geral do STF, a ação indenizatória por danos causados por agente público no exercício de suas funções deve ser ajuizada **diretamente em face do Estado** ou da pessoa jurídica de direito privado prestadora de serviço público, sendo vedada a inclusão originária do servidor público no polo passivo (Teoria da Dupla Garantia).
-> - **B)** Correta. O art. 37, § 6º, da CF/88 consagra a **responsabilidade civil objetiva** do Estado na modalidade do Risco Administrativo para condutas comissivas de seus agentes. Para a procedência do pedido indenizatório, a vítima precisa provar apenas: (1) a conduta oficial comissiva; (2) o dano patrimonial sofrido; e (3) o nexo de causalidade direto entre ambos, sendo dispensável perquirir dolo ou culpa do motorista.
-> - **C)** Incorreta. A responsabilidade objetiva independe de dolo ou culpa da Administração.
-> - **D)** Incorreta. O Estado responde objetivamente pelos atos de seus agentes públicos que atuem nessa qualidade, mesmo que excedam ou desviem formalmente suas atribuições funcionais.
-> - **E)** Incorreta. A teoria subjetiva é exceção aplicável ao servidor na eventual ação regressiva de regresso, e não à pretensão da vítima frente à Fazenda Pública.
+> - **A)** **Incorreto**. A regra geral da responsabilidade civil extracontratual do Estado no Brasil é a Teoria do Risco Administrativo (art. 37, § 6º da CF/88), a qual admite excludentes do nexo causal (como culpa exclusiva da vítima, caso fortuito e força maior). A Teoria do Risco Integral é excepcionalíssima.
+> - **B)** **Correto**. Sob a égide da Teoria do Risco Administrativo, a comprovação de que o dano adveio de culpa exclusiva da vítima (ao avançar o semáforo vermelho) ou de fato exclusivo de terceiro rompe o liame de causalidade entre a conduta administrativa e o resultado lesivo, eximindo o Poder Público do dever reparatório.
+> - **C)** **Incorreto**. Pelo Tema nº 940 do STF (Teoria da Dupla Garantia), a ação de indenização deve ser proposta unicamente contra a pessoa jurídica de direito público, vedado o litisconsórcio passivo com o agente.
+> - **D)** **Incorreto**. A tutela judicial independe de apuração administrativa prévia (art. 5º, XXXV da CF/88).
+> - **E)** **Incorreto**. A responsabilidade do Estado por condutas comissivas de seus agentes públicos é estritamente objetiva.
 >
 > **Gabarito: B**
-
----
-
 ### Teste 035
-**(FGV - Auditor de Controle Externo / TCE-SC)**
-A Teoria do Risco Integral diferencia-se substancialmente da Teoria do Risco Administrativo no que concerne à admissão de excludentes de responsabilidade civil estatal. A respeito das hipóteses excepcionais em que o ordenamento constitucional e legal pátrio adota o Risco Integral, assinale a afirmativa correta.
+**(FGV – TJ-MT – Analista Judiciário - 2024)**  
+No estudo da Responsabilidade Civil Extracontratual do Estado, a doutrina e a jurisprudência distinguem a Teoria do Risco Administrativo da Teoria do Risco Integral. A respeito das hipóteses em que o ordenamento jurídico pátrio adota excepcionalmente a Teoria do Risco Integral (em que o Estado responde sem possibilidade de alegar excludentes de culpabilidade da vítima ou força maior), assinale a opção que indica caso regido por essa teoria:
 
-* **A)** Na Teoria do Risco Integral, o Estado responde pelo dano mesmo que haja culpa exclusiva da vítima, fato de terceiro ou caso fortuito/força maior, sendo vedada a alegação de qualquer causa excludente do nexo causal.
-* **B)** O ordenamento jurídico brasileiro aplica a Teoria do Risco Integral como regra geral para todos os acidentes de trânsito envolvendo veículos da polícia militar.
-* **C)** A responsabilidade civil do Estado por danos nucleares admite expressamente a excludente de caso fortuito e de culpa concorrente da vítima para mitigar o dever estatal de indenizar.
-* **D)** Em caso de assalto à mão armada ocorrido dentro de agência bancária privada, incide a Teoria do Risco Integral contra a Fazenda Pública Estadual por deficiência de segurança pública.
-* **E)** Danos decorrentes de atos de terrorismo contra aeronaves de matrícula brasileira operando no exterior são regidos pela Teoria da Falta do Serviço (faute du service), não cabendo assunção integral de risco pela União.
-
+* **A)** Danos decorrentes de acidentes automobilísticos com viaturas policiais em perseguição de fugitivos.
+* **B)** Danos causados por desabamento de pontes e encostas provocados por chuvas torrenciais imprevisíveis.
+* **C)** Danos decorrentes de atividade ou acidente nuclear e danos causados por poluição ambiental grave.
+* **D)** Danos oriundos de assalto à mão armada ocorrido no interior de agência de sociedade de economia mista.
+* **E)** Danos causados por fuga de detento de presídio estadual dias após ter escapado do estabelecimento penal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A Teoria do Risco Integral impõe ao Poder Público a obrigação de indenizar sem qualquer possibilidade de invocação de excludentes de nexo de causalidade (culpa exclusiva da vítima, caso fortuito, força maior ou fato de terceiro). O Estado atua como garantidor universal e irrestrito do risco consumado.
-> - **B)** Incorreta. Acidentes de trânsito com viaturas policiais submetem-se à Teoria do Risco Administrativo comum (art. 37, § 6º, CF), admitindo a prova de excludentes como culpa exclusiva da vítima.
-> - **C)** Incorreta. O art. 21, XXIII, 'd', da CF/88 consagra a responsabilidade civil por danos nucleares de forma objetiva pura e integral, sem admissão de excludentes.
-> - **D)** Incorreta. A responsabilidade por segurança pública em espaços privados decorre de suposta omissão estatal genérica, exigindo a teoria subjetiva da falta do serviço (culpa anônima), e não risco integral.
-> - **E)** Incorreta. A Lei Federal nº 10.744/2003 estabelece que a União assume a responsabilidade civil por danos a terceiros provocados por atentados terroristas contra aeronaves brasileiras, aplicando-se a teoria do risco integral.
+> - **A)** **Incorreto**. Acidentes com viaturas policiais submetem-se à Teoria do Risco Administrativo comum (art. 37, § 6º da CF/88), admitindo comprovação de culpa exclusiva da vítima ou de terceiro.
+> - **B)** **Incorreto**. Força maior e eventos climáticos extraordinários rompem o nexo causal no risco administrativo geral.
+> - **C)** **Correto**. No ordenamento jurídico brasileiro, a Teoria do Risco Integral é hipótese excepcionalíssima e taxativa que veda qualquer excludente de nexo causal, aplicando-se prioritariamente a: 1) danos nucleares (art. 21, XXIII, "d" da CF/88); 2) danos ambientais graves (art. 225, § 3º da CF/88 e Lei nº 6.938/1981); e 3) atentados terroristas contra aeronaves brasileiras (Lei nº 10.744/2003).
+> - **D)** **Incorreto**. Assalto em agência de estatal consubstancia fato de terceiro sem risco integral.
+> - **E)** **Incorreto**. O STF fixou no Tema nº 362 que a responsabilidade por ato de foragido exige nexo direto com o momento da fuga; decorridos dias ou meses, não há responsabilidade do Estado.
 >
-> **Gabarito: A**
-
----
-
+> **Gabarito: C**
 ### Teste 036
-**(FCC - Auditor de Controle Externo / Adaptada)**
-Durante o período noturno de custódia em estabelecimento prisional estadual sob controle da Secretaria de Administração Penitenciária, um detento provisório foi assassinado por asfixia por companheiros de cela. A família do falecido ingressou com ação de indenização contra o Estado alegando responsabilidade civil estatal. Em contestação, o Estado sustentou ausência de responsabilidade, sob o fundamento de que a morte decorreu de ato exclusivo de terceiros (homicídio entre presos).
+**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+Durante o período noturno de custódia em estabelecimento prisional estadual administrado pela Secretaria de Administração Penitenciária, um detento foi assassinado por companheiros de cela com instrumentos perfurantes artesanais. À luz do art. 5º, XLIX, da Constituição Federal e da jurisprudência vinculante do Supremo Tribunal Federal (Tema nº 592 de Repercussão Geral):
 
-Em conformidade com a tese firmada pelo Supremo Tribunal Federal em regime de repercussão geral (**Tema 592**):
-
-* **A)** O Estado responde de forma subjetiva, devendo os autores da ação comprovar dolo pessoal do Diretor do presídio.
-* **B)** Em caso de inobservância de seu dever específico de proteção e custódia previsto no art. 5º, XLIX, da CF/88, o Estado é civilmente responsável por morte de detento, operando a responsabilidade de forma objetiva, salvo se demonstrar que a morte decorreu de causa natural ou impossível de ser evitada mesmo com a vigilância adequada.
-* **C)** A morte de preso no interior de estabelecimento prisional é hipótese automática de caso fortuito absoluto que rompe em definitivo o nexo de causalidade.
-* **D)** A responsabilidade estatal somente incide caso o estabelecimento penitenciário seja administrado sob regime de parceria público-privada.
-* **E)** O Estado responde com base na Teoria do Risco Integral, não admitindo qualquer prova pericial contrária em juízo.
-
+* **A)** O Estado responde de forma puramente subjetiva, exigindo dos herdeiros prova cabal de dolo dos policiais penais.
+* **B)** A responsabilidade estatal é afastada sumariamente caso o preso assassinado contasse com histórico de rebeldia.
+* **C)** O Estado responde objetivamente pela morte de detento, salvo se provar que a morte decorreu de ato inoponível.
+* **D)** A indenização civil por morte de custodiado condiciona-se à prévia condenação criminal dos executores do homicídio.
+* **E)** O dever de indenizar é de responsabilidade subsidiária da empresa privada prestadora de segurança ao presídio.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Na violação de dever de custódia específica, o regime adotado pelo Pretório Excelso é objetivo, dispensando a prova de dolo do gestor penitenciário.
-> - **B)** Correta. De acordo com a tese vinculante firmada pelo STF no Tema 592 de Repercussão Geral (RE 841.526): *"Em caso de inobservância do seu dever específico de proteção previsto no art. 5º, inciso XLIX, da Constituição Federal, o Estado é responsável pela morte de detento."* O recolhimento de cidadão a estabelecimento prisional coloca o Estado na condição de garantidor estrito de sua integridade física, tipificando **omissão estatal específica de natureza objetiva**. O Estado só afasta o dever reparatório se comprovar pericialmente que a morte decorreu de causa estritamente natural ou que era faticamente impossível impedi-la mesmo adotados todos os procedimentos de vigilância e cautela cabíveis.
-> - **C)** Incorreta. O homicídio de detento em cela coletiva durante a custódia não corporifica caso fortuito ou excludente automática de fato de terceiro.
-> - **D)** Incorreta. O dever constitucional de custódia incide sobre presídios sob gestão direta do poder público ou sob regime delegado.
-> - **E)** Incorreta. O ordenamento jurídico pátrio adota a teoria do risco administrativo e não do risco integral para a custódia de presos, admitindo comprovação de causas naturais inevitáveis.
-> 
-> **Gabarito: B**
-
----
-
+> - **A)** **Incorreto**. A custódia prisional atrai responsabilidade civil objetiva por violação ao dever específico de proteção (art. 5º, XLIX da CF/88), não se aplicando a teoria subjetiva da culpa anônima comum.
+> - **B)** **Incorreto**. A conduta prévia do preso não exime o Poder Público do dever inafastável de zelar por sua integridade física.
+> - **C)** **Correto**. Tese Vinculante do Tema nº 592 do STF: "Em caso de inobservância do seu dever específico de proteção previsto no art. 5º, inciso XLIX, da Constituição Federal, o Estado responde de forma objetiva pela morte de detento. Essa responsabilidade só pode ser afastada quando o Estado demonstrar a quebra do nexo causal, isto é, que a morte não poderia ter sido evitada mesmo com a adoção de todas as cautelas de segurança legalmente exigíveis".
+> - **D)** **Incorreto**. A esfera cível indenizatória é independente da persecução penal contra os homicidas.
+> - **E)** **Incorreto**. A segurança penitenciária é função de polícia indelegável e de titularidade do Estado.
+>
+> **Gabarito: C**
 ### Teste 037
-**(FCC - Analista de Controle Externo / Adaptada TCE-GO)**
-Uma viatura oficial pertencente ao Tribunal de Contas, conduzida em horário de expediente por um motorista oficial devidamente habilitado, abalroou o automóvel particular de uma cidadã em razão de uma manobra imprudente realizada pelo servidor no trânsito. A proprietária do veículo particular ajuizou ação ordinária de indenização por danos materiais exclusivamente em face do motorista servidor público, requerendo sua condenação direta com fundamento no art. 37, § 6º, da Constituição Federal.
+**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+Uma viatura oficial pertencente ao Tribunal de Contas, conduzida por servidor público efetivo em missão institucional, abalroou veículo de particular por negligência do agente ao não respeitar a preferência em rotatória. De acordo com o art. 37, § 6º, da CF/88 e a jurisprudência pacificada pelo Supremo Tribunal Federal no Tema nº 940:
 
-À luz da jurisprudência firmada pelo Supremo Tribunal Federal em regime de repercussão geral (**Tema 940**):
-
-* **A)** A ação foi proposta corretamente, visto que a vítima tem a prerrogativa constitucional de optar por processar o servidor, o Estado ou ambos em litisconsórcio passivo.
-* **B)** O motorista oficial é parte passiva ilegítima na relação processual originária, devendo a ação indenizatória ser ajuizada contra o Estado, que responde objetivamente e terá direito de regresso contra o servidor nos casos de dolo ou culpa.
-* **C)** O Estado responde de forma puramente subsidiária, devendo a execução incidir primeiramente sobre os bens particulares do servidor condutor da viatura.
-* **D)** A responsabilidade do Estado resta excluída pelo simples fato de o servidor não ter agido com dolo de causar o dano patrimonial.
-* **E)** A ilegitimidade do servidor cessa caso a vítima comprove perante o juízo que o Tribunal de Contas não dispõe de dotação orçamentária para precatórios.
-
+* **A)** O particular pode optar por propor a demanda indenizatória unicamente contra o servidor público condutor.
+* **B)** A ação indenizatória deve ser proposta exclusivamente contra o Estado, que dispõe de ação regressiva por dolo ou culpa.
+* **C)** O servidor condutor e o Poder Público estadual devem integrar obrigatoriamente litisconsórcio passivo necessário.
+* **D)** A reparação civil pelo Tribunal de Contas depende do trânsito em julgado de processo disciplinar administrativo.
+* **E)** A ação regressiva da Fazenda Pública prescreve em dois anos contados da data da ocorrência do sinistro viário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A jurisprudência vinculante do Supremo Tribunal Federal vedou a propositura de ação indenizatória exclusivamente em face do servidor causador do ato, bem como a formação de litisconsórcio passivo facultativo entre a Fazenda Pública e o agente estatal.
-> - **B)** Correta. De acordo com a tese fixada pelo STF no Tema 940 da Repercussão Geral (RE 1.027.633), com amparo na **Teoria da Dupla Garantia**: *"a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."* O particular demanda contra o Estado sob responsabilidade objetiva; o Estado, se condenado, aciona o servidor em via regressiva sob responsabilidade subjetiva (dolo ou culpa).
-> - **C)** Incorreta. A responsabilidade do Estado perante a vítima é direta, primária e solidária institucionalmente, descabendo benefício de ordem patrimonial contra o servidor.
-> - **D)** Incorreta. A responsabilidade estatal é de natureza objetiva, aperfeiçoando-se com a demonstração da conduta, do dano e do nexo de causalidade, dispensando dolo ou culpa da Administração.
-> - **E)** Incorreta. As regras financeiras de precatórios decorrem do art. 100 da CF/88 e não transferem legitimidade passiva para a pessoa física do servidor.
-> 
+> - **A)** **Incorreto**. O particular não detém a faculdade de processar diretamente o agente público.
+> - **B)** **Correto**. Tese de Repercussão Geral do Tema nº 940 do STF (Teoria da Dupla Garantia): "A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para a ação o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa". A dupla garantia protege o particular (certeza de pagamento pelo erário) e o agente (não ser acionado diretamente por terceiros no exercício funcional).
+> - **C)** **Incorreto**. O STF fixou a ilegitimidade passiva do servidor público para figurar no polo passivo da ação indenizatória ordinária.
+> - **D)** **Incorreto**. A obrigação de indenizar do Estado independe da apuração funcional interna do agente.
+> - **E)** **Incorreto**. O direito de regresso rege-se pelas normas de ressarcimento ao erário após o pagamento judicial efetivo.
+>
 > **Gabarito: B**
-
----
-
 ## 2. Regime Jurídico dos Serviços Públicos e sua Delegação
 
 ### 2.1 Princípios do Serviço Público Adequado
@@ -304,111 +282,89 @@ As Parcerias Público-Privadas constituem concessões especiais destinadas a via
 ---
 
 ### Teste 038
-**(FCC - Procurador do Estado)**
-Sobre os princípios que regem a prestação de serviços públicos e o regime de corte de fornecimento por inadimplemento do usuário, à luz da Lei nº 8.987/1995 e da jurisprudência consolidada do Superior Tribunal de Justiça (STJ), assinale a afirmativa correta.
+**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+Sobre os princípios que informam a prestação de serviços públicos previstos na Lei Federal nº 8.987/1995 e na doutrina administrativista contemporânea, assinale a opção correta:
 
-* **A)** O princípio da continuidade veda terminantemente a suspensão da prestação do serviço público sob qualquer pretexto, mesmo na hipótese de inadimplemento reiterado do usuário particular.
-* **B)** É legítima a interrupção do fornecimento de serviço público essencial (como energia elétrica ou água) por inadimplemento do consumidor, desde que haja aviso prévio formal e que o débito seja atual, não se admitindo o corte por dívidas pretéritas consolidadas.
-* **C)** O serviço público pode ser interrompido sem aviso prévio em virtude de inadimplemento de fatura vencida há mais de dois anos.
-* **D)** O princípio da modicidade tarifária autoriza a concessionária a aumentar unilateralmente a tarifa básica sempre que julgar insatisfatória a sua margem de lucro operacional.
-* **E)** As concessionárias de serviço público podem suspender o fornecimento de energia a hospitais públicos e unidades de pronto atendimento por inadimplemento de fatura sem qualquer restrição jurídica.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O art. 6º, § 3º, da Lei nº 8.987/1995 prescreve expressamente que **não se caracteriza descontinuidade do serviço** a sua interrupção em situação de emergência ou, após prévio aviso, por razões de ordem técnica/segurança ou por inadimplemento do usuário.
-> - **B)** Correta. Jurisprudência sumulada e vinculante do STJ (Tema Repetitivo 699/STJ): é legítimo o corte no fornecimento de serviços essenciais por inadimplemento, condicionado a aviso prévio e adstrito a **contas atuais** (mês de consumo recente). Débitos pretéritos devem ser cobrados pelas vias ordinárias de cobrança judicial, sendo ilegal o corte coercitivo por dívida antiga.
-> - **C)** Incorreta. É absolutamente obrigatório o prévio aviso e é vedado o corte para recuperação coativa de dívidas pretéritas (antigas).
-> - **D)** Incorreta. O reajuste e a revisão tarifária subordinam-se estritamente aos índices e fórmulas pactuados no contrato de concessão e homologados pela agência reguladora, visando a preservar a modicidade para a população e o equilíbrio econômico-financeiro.
-> - **E)** Incorreta. A interrupção de serviço essencial que atinja serviços públicos vitais e inadiáveis (como UTIs de hospitais públicos) é ilegítima por colocar em risco a vida e a dignidade humana.
->
-> **Gabarito: B**
-
----
-
-### Teste 039
-**(FGV - Analista de Gestão / Auditoria)**
-A respeito dos regimes de delegação de serviços públicos previstos na Lei nº 8.987/1995, compare a concessão comum de serviço público e a permissão de serviço público.
-
-Assinale a opção que apresenta a distinção jurídica correta entre esses institutos.
-
-* **A)** A concessão comum prescinde de licitação prévia, ao passo que a permissão exige obrigatoriamente licitação na modalidade concurso.
-* **B)** A concessão é celebrada mediante contrato administrativo bilateral, com prazo determinado e outorga a pessoa jurídica ou consórcio de empresas; a permissão formaliza-se mediante contrato de adesão, ostenta caráter precário e revogável unilateralmente pelo poder concedente, podendo ser outorgada a pessoa física ou jurídica.
-* **C)** A permissão de serviço público é conferida por meio de ato administrativo unilateral discricionário imune a qualquer fiscalização do poder público.
-* **D)** Tanto a concessão quanto a permissão admitem a outorga exclusiva a pessoas físicas, sendo vedada a participação de consórcios empresariais em ambas.
-* **E)** Na concessão de serviço público, a extinção antecipada por razões de interesse público denomina-se caducidade, e independe de lei autorizativa específica ou de indenização prévia.
-
+* **A)** A continuidade veda em absoluto a interrupção do serviço, mesmo após aviso prévio por inadimplemento de fatura de água.
+* **B)** A modicidade tarifária impõe gratuidade universal aos serviços públicos, arcando o erário com o custo operacional total.
+* **C)** A mutabilidade do regime autoriza a adequação contínua do serviço às novas exigências técnicas e necessidades sociais.
+* **D)** A generalidade impede a concessão de tarifas sociais diferenciadas para atender famílias de comprovada baixa renda.
+* **E)** A atualidade restringe o emprego de tecnologias modernas para salvaguardar a estabilidade dos contratos concedidos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Ambas exigem prévia licitação (art. 175 da CF/88 e arts. 2º e 40 da Lei nº 8.987/1995).
-> - **B)** Correta. Nos termos do art. 2º, II e IV, e art. 40 da Lei nº 8.987/1995: a **concessão** é a delegação contratual bilateral a pessoa jurídica ou consórcio de empresas, com prazo determinado; a **permissão** formaliza-se a título precário mediante **contrato de adesão**, podendo ser deferida tanto a pessoa física quanto a pessoa jurídica, sempre precedida de licitação.
-> - **C)** Incorreta. Embora qualificada pela precariedade, a permissão de serviço público no Brasil formaliza-se sob a natureza de contrato de adesão (art. 40 da Lei nº 8.987/1995), plenamente submetida à fiscalização regulatória.
-> - **D)** Incorreta. A concessão comum não pode ser delegada a pessoas físicas; exige pessoa jurídica ou consórcio de empresas.
-> - **E)** Incorreta. A extinção da concessão por interesse público superveniente é a **encampação** (ou resgate), que exige obrigatoriamente lei autorizativa específica e prévio pagamento de indenização. Caducidade é a extinção por inexecução culposa da concessionária.
+> - **A)** **Incorreto**. O art. 6º, § 3º, II da Lei nº 8.987/1995 autoriza a interrupção temporária do serviço público após prévio aviso formal decorrente de inadimplemento do usuário, sem violação à continuidade.
+> - **B)** **Incorreto**. A modicidade tarifária preconiza tarifas justas e acessíveis para manter o equilíbrio econômico-financeiro da concessão, não exigindo gratuidade irrestrita.
+> - **C)** **Correto**. O princípio da mutabilidade do regime jurídico (ou da flexibilidade) permite à Administração alterar unilateralmente cláusulas regulamentares da prestação para assegurar a evolução das técnicas, a modernização dos equipamentos e o atendimento eficiente às demandas mutáveis da sociedade (art. 6º, § 2º da Lei nº 8.987/1995).
+> - **D)** **Incorreto**. O princípio da generalidade (ou cortesia) não impede a fixação de tarifas sociais subsidiadas para consumidores carentes.
+> - **E)** **Incorreto**. O princípio da atualidade impõe a modernidade das técnicas, equipamentos e instalações.
 >
-> **Gabarito: B**
-
----
-
-### Teste 040
-**(FCC - Procurador do Estado / Adaptada)**
-O Estado de Goiás celebrou contrato de concessão de serviço público rodoviário com determinado consórcio de empresas de engenharia pelo prazo de 25 anos. Transcorridos sete anos de execução regular, o Poder Concedente estadual verificou que, por conveniência estratégica de interesse público, seria mais vantajoso reassumir a administração direta da rodovia estadual, não existindo qualquer falta, infração ou atraso por parte do consórcio concessionário.
-
-Nessas circunstâncias, a extinção antecipada do contrato de concessão por motivos de conveniência e interesse público operou-se por meio de:
-
-* **A)** Caducidade, precedida de instauração de processo administrativo sancionador com aplicação de penalidade contratual.
-* **B)** Rescisão judicial em ação movida pela Fazenda Pública perante a Vara da Fazenda Estadual.
-* **C)** Encampação, dependente de edição de lei autorizativa específica e do pagamento de prévia indenização à concessionária.
-* **D)** Anulação, com desfazimento retroativo de todos os atos da concessão rodoviária.
-* **E)** Caducidade, que dispensa autorização legislativa ou pagamento de indenização prévia.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A caducidade é a extinção do contrato decorrente de inadimplemento culposo ou prestação defeituosa por parte da própria concessionária. Como a concessionária cumpria rigorosamente o contrato, descabe caducidade.
-> - **B)** Incorreta. A rescisão judicial é a modalidade de extinção proposta pela concessionária em face da Administração em virtude de descumprimento de cláusulas pelo poder público (art. 39 da Lei 8.987/95).
-> - **C)** Correta. Nos termos do art. 37 da Lei Federal nº 8.987/1995, a **encampação** (ou resgate) é a retomada coativa do serviço pelo poder concedente durante o prazo da concessão por motivo de **interesse público relevante**, exigindo imperativamente **lei autorizativa específica** e **pagamento prévio de justa indenização** à concessionária pelos investimentos em bens reversíveis ainda não amortizados.
-> - **D)** Incorreta. A anulação aplica-se exclusivamente a hipóteses de vício originário de ilegalidade no certame licitatório ou no termo de contrato.
-> - **E)** Incorreta. Confunde encampação com caducidade e nega a exigência de lei e indenização prévia.
-> 
 > **Gabarito: C**
+### Teste 039
+**(FGV – Analista de Gestão Pública – SEAD-GO / Simulado)**  
+A respeito dos regimes de delegação de serviços públicos previstos na Lei Federal nº 8.987/1995, assinale a afirmativa que apresenta distinção correta entre concessão comum e permissão de serviço público:
 
----
-
-### Teste 041
-**(FCC - Técnico de Controle Externo / Administrativa)**
-O Governo do Estado pretende estruturar um projeto de infraestrutura hospitalar sob o regime de Parceria Público-Privada (PPP), no qual a concessionária privada será responsável pela construção de um complexo médico-hospitalar e pela prestação dos serviços de conservação predial e gestão de equipamentos médicos. O hospital atenderá exclusivamente pelo Sistema Único de Saúde (SUS), sendo 100% dos custos da contraprestação remunerados diretamente pelo Poder Público estadual, sem nenhuma cobrança de tarifa dos usuários atendidos.
-
-À luz da Lei Federal nº 11.079/2004 (Lei das PPPs), a contratação descrita qualifica-se como:
-
-* **A)** Concessão patrocinada, visto que envolve a exploração de infraestrutura hospitalar pública com financiamento privado.
-* **B)** Concessão administrativa, caracterizada pelo fato de a Administração Pública ser a usuária direta ou indireta do serviço, respondendo pela contraprestação pecuniária integral sem tarifa cobrada do usuário.
-* **C)** Concessão comum de serviço público regida estritamente pela Lei nº 8.987/1995.
-* **D)** Contrato de gestão de Organização Social dispensado de prévia licitação pública.
-* **E)** Empreitada por preço unitário regida exclusivamente pelas regras gerais da Lei de Licitações.
-
+* **A)** A concessão é outorgada a pessoa física ou jurídica, enquanto a permissão formaliza-se unicamente com pessoa jurídica.
+* **B)** A concessão outorga-se por contrato bilateral, ao passo que a permissão é formalizada a título precário por contrato.
+* **C)** A concessão dispensa procedimento de licitação, ao passo que a permissão exige modalidade estrita de pregão eletrônico.
+* **D)** A concessão tem caráter essencialmente precário, enquanto a permissão goza de prazo indeterminado e irrevogabilidade.
+* **E)** A concessão admite delegação de competências policiais sancionatórias, ao passo que a permissão restringe-se a obras.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A concessão patrocinada exige imperativamente a existência de tarifa cobrada dos usuários, complementada por contraprestação pecuniária do parceiro público (art. 2º, § 1º, da Lei 11.079/2004). Como os pacientes do SUS nada pagam, não se trata de concessão patrocinada.
-> - **B)** Correta. O art. 2º, § 2º, da Lei Federal nº 11.079/2004 define textualmente: *"Concessão administrativa é o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens."* Na concessão administrativa, a remuneração da concessionária privada decorre inteiramente da contraprestação pecuniária paga pelo poder público, prestando o serviço público de forma inteiramente gratuita para os usuários finais.
-> - **C)** Incorreta. A concessão comum da Lei 8.987/95 fundamenta-se estritamente na cobrança de tarifa do usuário, sem contraprestação ordinária regular do Estado.
-> - **D)** Incorreta. O modelo de OS mediante contrato de gestão é regido pelo Terceiro Setor e não constitui parceria público-privada.
-> - **E)** Incorreta. A empreitada é mera contratação de obra civil isolada da Lei 14.133/2021, sem transferência da gestão continuada de serviços e infraestrutura.
-> 
+> - **A)** **Incorreto**. A concessão é formalizada exclusivamente com pessoa jurídica ou consórcio de empresas (art. 2º, II); já a permissão pode ser outorgada a pessoa física ou jurídica (art. 2º, IV da Lei nº 8.987/1995).
+> - **B)** **Correto**. Pela Lei nº 8.987/1995, a concessão é contrato bilateral celebrado por prazo determinado com garantias de equilíbrio econômico-financeiro; já a permissão (art. 40) formaliza-se por contrato de adesão marcado por precariedade mitigada e revogabilidade unilateral pelo poder concedente.
+> - **C)** **Incorreto**. Ambas exigem prévia licitação obrigatória (art. 175 da CF/88); ademais, para concessão a modalidade é concorrência pública ou diálogo competitivo.
+> - **D)** **Incorreto**. A precariedade é atributo da permissão, não da concessão.
+> - **E)** **Incorreto**. Atos de polícia punitiva geral não são passíveis de concessão nem permissão a entes mercantis privados.
+>
 > **Gabarito: B**
+### Teste 040
+**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+O Estado de Goiás celebrou contrato de concessão de serviço público rodoviário com uma sociedade empresária pelo prazo de vinte anos. Transcorridos cinco anos, em razão de relevante interesse público e conveniência estratégica estadual, o Governador pretende retomar a prestação direta da rodovia antes do término contratual. Nos termos da Lei nº 8.987/1995:
+
+* **A)** O Estado pode promover a encampação unilateral mediante decreto, sem necessidade de lei ou prévia indenização.
+* **B)** A retomada é vedada pelo princípio da segurança jurídica, vinculando o Poder Concedente ao prazo de vinte anos.
+* **C)** A encampação exige autorização por lei autorizativa específica e prévio pagamento de justa indenização em dinheiro.
+* **D)** A rescisão unilateral pode ser declarada pelo Estado com base na caducidade, prescindindo de justa reparação patrimonial.
+* **E)** A reversão dos bens vinculados ao contrato fica impedida até que se opere a amortização contábil integral da obra.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. O art. 37 da Lei nº 8.987/1995 exige expressamente autorização legislativa por lei específica e prévio pagamento de indenização.
+> - **B)** **Incorreto**. O Estado detém a prerrogativa exorbitante de retomar a execução do serviço por interesse público superveniente (encampação).
+> - **C)** **Correto**. A encampação (art. 37 da Lei nº 8.987/1995) é a retomada do serviço pelo poder concedente durante o prazo da concessão, por motivo de interesse público, mediante lei autorizativa específica e após o prévio pagamento da indenização das parcelas dos investimentos vinculados a bens reversíveis ainda não amortizados.
+> - **D)** **Incorreto**. Caducidade é a extinção punitiva por inexecução culposa da concessionária; para interesse público, o instituto é a encampação.
+> - **E)** **Incorreto**. A reversão dos bens ao poder concedente é decorrência da extinção contratual, apurando-se a indenização cabível.
+>
+> **Gabarito: C**
+### Teste 041
+**(FGV – TRT – Analista Judiciário - 2025)**  
+No Brasil, as Parcerias Público-Privadas (PPPs) são disciplinadas pela Lei Federal nº 11.079/2004 e contemplam duas modalidades contratuais distintas: a concessão patrocinada e a concessão administrativa. A respeito da concessão patrocinada, é correto afirmar que consiste no contrato de concessão de serviços públicos ou de obras públicas:
+
+* **A)** em que a remuneração do parceiro privado advém unicamente de subsídio orçamentário mensal pago pela Administração.
+* **B)** que envolve, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do parceiro público ao parceiro privado.
+* **C)** que se destina à prestação de serviços de que a Administração Pública seja a usuária direta ou indireta de modo exclusivo.
+* **D)** cujo valor financeiro total estimado para o empreendimento de infraestrutura seja inferior a dez milhões de reais.
+* **E)** pactuado por prazo de execução inferior a cinco anos para permitir a renovação periódica dos termos licitados.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. A remuneração unicamente decorrente do poder público caracteriza a concessão administrativa (art. 2º, § 2º).
+> - **B)** **Correto**. Conforme a definição legal expressa no art. 2º, § 1º, da Lei Federal nº 11.079/2004: "Concessão patrocinada é a concessão de serviços públicos ou de obras públicas de que trata a Lei nº 8.987, de 13 de fevereiro de 1995, quando envolver, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do parceiro público ao parceiro privado".
+> - **C)** **Incorreto**. Essa é a definição exata de concessão administrativa (art. 2º, § 2º).
+> - **D)** **Incorreto**. É vedada a celebração de PPP cujo valor seja inferior a R$ 10.000.000,00 (dez milhões de reais), nos termos do art. 2º, § 4º, I da lei.
+> - **E)** **Incorreto**. O prazo do contrato de PPP não pode ser inferior a 5 (cinco) anos nem superior a 35 (trinta e cinco) anos (art. 5º, I).
+>
+> **Gabarito: B**
 ## 3. Bens Públicos: Classificação, Afetação e Prerrogativas
 
 Conforme o art. 98 do Código Civil, são bens públicos todos aqueles pertencentes às pessoas jurídicas de direito público interno (União, Estados, DF, Municípios e suas autarquias e fundações públicas de direito público). Todos os demais são bens privados.
@@ -439,84 +395,68 @@ O regime jurídico dos bens públicos é informado por quatro prerrogativas estr
 ---
 
 ### Teste 042
-**(FCC - Técnico de Controle Externo)**
-O Código Civil brasileiro, em seu art. 99, classifica os bens públicos em três categorias fundamentais: bens de uso comum do povo, bens de uso especial e bens dominicais.
+**(FCC – TRT – Analista Judiciário - 2009)**  
+O Código Civil brasileiro, em seu art. 99, classifica os bens públicos em bens de uso comum do povo, bens de uso especial e bens dominicais. A respeito do regime jurídico que recai sobre essas três categorias de bens públicos, assinale a opção correta:
 
-Em relação ao regime jurídico de alienação e fruição dessas categorias de bens, é correto afirmar:
-
-* **A)** Os bens dominicais são inalienáveis em qualquer circunstância, tendo em vista que integram o patrimônio indisponível da pessoa jurídica de direito público.
-* **B)** Os bens de uso comum do povo (como rios, mares, estradas e praças) e os de uso especial (como edifícios onde funcionam tribunais e escolas públicas) são inalienáveis enquanto conservarem a sua afetação ao interesse público.
-* **C)** Os bens públicos dominicais podem ser adquiridos por particulares mediante usucapião ordinária após posse mansa e pacífica por mais de vinte anos.
-* **D)** A utilização de bens de uso comum do povo é sempre gratuita, sendo inconstitucional a instituição de cobrança de pedágio em rodovias públicas.
-* **E)** Os bens de uso especial desafetados passam automaticamente a pertencer à categoria de bens de uso comum do povo.
-
+* **A)** Os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem a sua qualificação legal.
+* **B)** Os bens dominicais podem ser objeto de usucapião por particulares desde que a posse mansa supere vinte anos.
+* **C)** Os bens de uso especial podem ser penhorados judicialmente para satisfação de créditos trabalhistas e fiscais.
+* **D)** A desafetação de um bem de uso comum do povo opera-se tacitamente com a omissão da autoridade pública por dez anos.
+* **E)** Todos os bens públicos admitem oneração por garantias reais de hipoteca para obtenção de financiamento bancário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Os bens dominicais constituem o patrimônio disponível do Estado (art. 99, III, CC); eles **podem ser alienados**, desde que observadas as exigências legais (interesse público, avaliação prévia, autorização legislativa e licitação, art. 76 da Lei nº 14.133/2021 e art. 101 do CC).
-> - **B)** Correta. O art. 100 do Código Civil prescreve expressamente que os bens públicos de uso comum do povo e os de uso especial são inalienáveis enquanto mantiverem a sua qualificação (afetação). Para que possam ser vendidos ou doados, precisam passar previamente pelo processo de desafetação, ingressando na classe dos bens dominicais.
-> - **C)** Incorreta. Todos os bens públicos, indistintamente (sejam de uso comum, especial ou dominicais), são **imprescritíveis**, não podendo ser adquiridos por usucapião (art. 183, § 3º, e art. 191, parágrafo único, CF/88; Súmula 340/STF).
-> - **D)** Incorreta. O art. 103 do Código Civil e o art. 150, V, da CF/88 autorizam que o uso de bens comuns seja gratuito ou retribuído (oneroso), como ocorre expressamente na cobrança legítima de pedágio.
-> - **E)** Incorreta. Quando um bem de uso especial ou de uso comum perde sua destinação pública (desafetação), ele converte-se em **bem dominical**, e não em bem de uso comum.
+> - **A)** **Correto**. Conforme preceitua expressamente o art. 100 do Código Civil: "Os bens públicos de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem a sua qualificação, na forma que a lei dispuser". Somente após a regular desafetação (conversão em bens dominicais) é que podem ser alienados, observados os requisitos da lei de licitações.
+> - **B)** **Incorreto**. Pelo art. 102 do Código Civil e arts. 183, § 3º e 191, parágrafo único da CF/88, os bens públicos jamais são sujeitos a usucapião (imprescritibilidade).
+> - **C)** **Incorreto**. Todos os bens públicos gozam da prerrogativa de impenhorabilidade (art. 100 da CF/88).
+> - **D)** **Incorreto**. A desafetação exige ato formal do Poder Público ou fato administrativo inconteste; a mera omissão não desafeta bem público.
+> - **E)** **Incorreto**. Bens públicos não podem ser gravados com ônus reais de garantia (inonorabilidade).
 >
-> **Gabarito: B**
-
----
-
+> **Gabarito: A**
 ### Teste 043
-**(FGV - Analista de Controle Externo / TCE)**
-A afetação e a desafetação de bens públicos expressam a consagração ou a desvinculação de determinado bem a uma finalidade pública concreta. Sobre as formas de ocorrência e os efeitos jurídicos da afetação e desafetação, assinale a afirmativa correta.
+**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+A afetação e a desafetação de bens públicos expressam a consagração ou a desvinculação de uma coisa pública a uma finalidade estatal específica. A respeito dos modos de afetação e desafetação e de suas repercussões para o controle patrimonial, é correto afirmar que:
 
-* **A)** A afetação de um bem público somente pode ocorrer de forma tácita, sendo nula a afetação realizada por meio de lei formal.
-* **B)** A desafetação decorrente de fato da natureza (como a destruição total e definitiva de um prédio público por incêndio incontrolável) torna o bem imprestável, extinguindo sua utilidade como bem de uso especial.
-* **C)** A simples elaboração de projeto arquitetônico sem qualquer início de obra ou uso efetivo é suficiente para consumar a afetação fática material de um terreno público.
-* **D)** O Poder Judiciário pode determinar de ofício a desafetação de um hospital público para fins de penhora judicial e pagamento de precatórios atrasados.
-* **E)** Bens dominicais não admitem afetação superveniente, conservando para sempre seu caráter patrimonial disponível.
-
+* **A)** A afetação exige sempre lei autorizativa específica aprovada pelo Legislativo, vedada a afetação tácita fática.
+* **B)** A desafetação de bem de uso especial para dominical transfere o bem para o comércio jurídico, admitindo alienação.
+* **C)** O bem desafetado perde a imunidade tributária e a impenhorabilidade mesmo pertencendo ao patrimônio estatal.
+* **D)** A construção de uma escola em terreno dominical consubstancia desafetação administrativa por ato formal de gestão.
+* **E)** Os bens de uso comum do povo não admitem desafetação por se tratarem de patrimônio com tutela constitucional absoluta.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A afetação pode ser **expressa** (por lei ou ato administrativo) ou **tácita/fática** (decorrente da utilização material e direta do bem para a prestação do serviço público).
-> - **B)** Correta. A desafetação pode decorrer de ato formal (lei ou decreto desafetando) ou de evento da natureza / fato material irreversível (como a ruína total ou destruição permanente de um edifício público de uso especial), cessando a afetação do imóvel à finalidade originária.
-> - **C)** Incorreta. Meras expectativas, plantas ou projetos teóricos não afetam materialmente o imóvel; a afetação fática requer o início concreto da destinação pública ou uso efetivo pela coletividade.
-> - **D)** Incorreta. O Judiciário não tem poder de desafetar bens públicos discricionariamente; ademais, incide a regra da impenhorabilidade absoluta dos bens públicos (art. 100 da CF/88), sujeitando-se as execuções contra a Fazenda exclusivamente ao regime de precatórios ou RPV.
-> - **E)** Incorreta. Os bens dominicais podem a qualquer momento ser afetados, bastando que a Administração instale neles uma repartição pública ou praça, transmudando-os em bens de uso especial ou comum.
+> - **A)** **Incorreto**. A afetação pode ocorrer de forma expressa (por lei ou decreto) ou fática/tácita (quando a Administração simplesmente passa a destinar o bem a um serviço público).
+> - **B)** **Correto**. A desafetação é o fenômeno jurídico pelo qual o bem público deixa de estar vinculado a uma destinação pública direta (deixa de ser de uso comum ou de uso especial) e ingressa na categoria de bem dominical (patrimonial). Uma vez desafetado, passa a ser alienável, desde que cumpridos os requisitos legais (interesse público, avaliação prévia e autorização legislativa).
+> - **C)** **Incorreto**. O bem dominical continua sendo bem público e, portanto, mantém a impenhorabilidade e a imprescritibilidade.
+> - **D)** **Incorreto**. Destinar o imóvel à atividade escolar consubstancia afetação (e não desafetação).
+> - **E)** **Incorreto**. Bens de uso comum (praças, ruas) admitem desafetação mediante lei específica.
 >
 > **Gabarito: B**
-
----
-
 ### Teste 044
-**(FCC - Analista Judiciário)**
-Determinada área de terras devolutas pertencente ao patrimônio do Estado de Goiás encontra-se sem destinação pública específica há várias décadas. Um particular invadiu o imóvel em 2005, construiu moradia residencial e exerceu posse mansa, pacífica e contínua sobre a gleba por mais de quinze anos ininterruptos. Em 2024, o particular ajuizou ação de usucapião extraordinária contra o Estado pleiteando a declaração de aquisição da propriedade do bem.
+**(FCC – Analista Judiciário – TRT / Simulado)**  
+Determinada área de terras devolutas pertencente ao patrimônio do Estado de Goiás foi invadida por particulares que ali construíram residências e desenvolveram atividade agropastoril contínua e pacífica por mais de quinze anos ininterruptos. Diante do pleito de usucapião formulado pelos posseiros em face da Fazenda Pública estadual:
 
-Com base na disciplina constitucional e do Código Civil sobre bens públicos:
-
-* **A)** A pretensão do particular é legítima, pois os bens dominicais desprovidos de afetação pública sujeitam-se a usucapião extraordinária após quinze anos de posse.
-* **B)** Os bens públicos dominicais, assim como os de uso comum e os de uso especial, são dotados de imprescritibilidade absoluta, sendo insuscetíveis de aquisição por usucapião.
-* **C)** O imóvel converteu-se tacitamente em bem privado em virtude do abandono imobiliário prolongado pela Administração.
-* **D)** A usucapião é cabível desde que o particular comprove a realização de benfeitorias úteis e o pagamento de tributos municipais.
-* **E)** Caberá ao particular a manutenção da posse direta em desfavor da Fazenda Pública, impedindo a reintegração de posse pelo Estado.
-
+* **A)** A pretensão é juridicamente inviável, pois a Constituição veda o usucapião de imóveis públicos de qualquer espécie.
+* **B)** O usucapião é admissível exclusivamente para terras devolutas dominicais desprovidas de afetação administrativa direta.
+* **C)** A ocupação mansa e pacífica de terra pública por mais de dez anos converte a detenção ilícita em posse de boa-fé.
+* **D)** O Estado perde a titularidade do domínio imobiliário caso não comprove a cobrança periódica de foro ou taxa de ocupação.
+* **E)** O juiz deve declarar a prescrição aquisitiva extraordinária em favor dos posseiros que exploram a função social da terra.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A regra constitucional e sumular é taxativa: nenhum bem público é passível de usucapião, independentemente de se encontrar ou não afetado.
-> - **B)** Correta. A Constituição da República de 1988 estabelece categoricamente nos arts. 183, § 3º (imóveis urbanos) e 191, parágrafo único (imóveis rurais) que os imóveis públicos não serão adquiridos por usucapião. Em idêntico sentido, a **Súmula 340 do STF** consagra: *"Desde a vigência do Código Civil, os bens dominicais, como os demais bens públicos, não podem ser adquiridos por usucapião."* A imprescritibilidade é atributo absoluto aplicável a todos os bens públicos, constituindo a ocupação irregular mera **detenção clandestina** insuscetível de gerar efeitos aquisitivos ou tutela possessória contra a Administração.
-> - **C)** Incorreta. A inércia administrativa não gera perda de propriedade imobiliária pública nem desafetação em proveito de invasor privado.
-> - **D)** Incorreta. Benfeitorias realizadas em ocupação clandestina de terras públicas não geram direito a retenção nem autorizam usucapião contra a Fazenda Pública.
-> - **E)** Incorreta. O mero detentor não possui legitimidade para opor embargos de retenção ou impedir a expedição do mandado de reintegração de posse pleiteado pelo Estado.
-> 
-> **Gabarito: B**
-
----
-
+> - **A)** **Correto**. Conforme dispõem os arts. 183, § 3º e 191, parágrafo único, da CF/88, e a Súmula nº 340 do STF ("Desde a vigência do Código Civil, os bens dominicais, como os demais bens públicos, não podem ser adquiridos por usucapião"), os bens públicos de qualquer natureza (inclusive as terras devolutas dominicais) são absolutamente imprescritíveis. A ocupação de bem público por particular consubstancia mera detenção clandestina, insuscetível de gerar efeitos possessórios aquisitivos contra o Poder Público.
+> - **B)** **Incorreto**. Os bens dominicais gozam da mesma imprescritibilidade outorgada aos demais bens públicos.
+> - **C)** **Incorreto**. A jurisprudência consolidada do STJ (Súmula 619) reconhece que a ocupação de área pública não gera posse, mas mera detenção fática precária.
+> - **D)** **Incorreto**. A omissão do Estado não acarreta a perda da propriedade de terras públicas.
+> - **E)** **Incorreto**. A função social não autoriza a aquisição por usucapião de imóveis pertencentes ao domínio do Estado.
+>
+> **Gabarito: A**
 ## 4. Fontes Recomendadas na Internet
 
 - [Constituição Federal de 1988 - Art. 37, § 6º, Art. 183, § 3º e Art. 191](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)  
